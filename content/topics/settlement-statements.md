@@ -13,22 +13,22 @@ links:
     note: The DAM has its own Statement, produced on the second Business Day after the Operating Day. [e3]
   - to: rtm
     type: settles
-    note: The RTM has Initial, Final, Resettlement and True-Up Statements. [e4][e5][e6]
+    note: The RTM has Initial, Final, Resettlement and True-Up Statements. [e4][e5][e8][e6]
   - to: crr
     type: related
-    note: CRR auction, auction revenue distribution and balancing account amounts have their own invoices in Section 9.
+    note: CRR invoices and statements are not described in this topic.
   - to: uplift
     type: related
-    note: Uplift and other charges appear as charge types on the statements.
+    note: A Settlement Statement breaks down administrative, miscellaneous and market charges. [e1]
   - to: credit-tpe
     type: related
-    note: A short-paying Invoice Recipient's Financial Security can be enforced to cover the short-pay.
+    note: Invoice payment is due at 1700 on the second Bank Business Day after the invoice date; credit enforcement is not described here. [e11]
   - to: settlement-point
     type: related
-    note: Statement amounts are built from Settlement Point Prices for the Operating Day.
+    note: Statements are issued per Operating Day; how Settlement Point Prices feed the amounts is not described here. [e4]
   - to: qse
     type: related
-    note: Statements and invoices are posted to the MIS Certified Area. [e10]
+    note: DAM and RTM Statements are posted to the MIS Certified Area. [e10]
 evidence:
   - id: e1
     source: np-02
@@ -85,7 +85,7 @@ evidence:
   - id: e14
     source: np-09
     locator: "Section 9.1.2, Settlement Calendar, paragraph (1)"
-    quote: "ERCOT shall post and maintain on the ERCOT website a Settlement Calendar to denote, for each Operating Day, when:"
+    quote: "ERCOT shall post and maintain on the ERCOT website a Settlement Calendar to denote, for each Operating Day, when: (a) Each scheduled Settlement Statement for the DAM will be issued under Section 9.2.4, DAM Statement, and Section 9.2.5, DAM Resettlement Statement; (b) Each scheduled Settlement Statement for the RTM will be issued under Section 9.5.4, RTM Initial Statement, Section 9.5.5, RTM Final Statement, Section 9.5.6, RTM Resettlement Statement, and Section 9.5.8, RTM True-Up Statement;"
 ---
 
 ## Definition
@@ -94,7 +94,7 @@ A Settlement Statement is the statement ERCOT issues showing a breakdown of admi
 
 ## How it works
 
-ERCOT posts a Settlement Calendar on its website showing, for each Operating Day, when each scheduled statement will be issued. [e14] Statements are posted to the MIS Certified Area. [e10]
+ERCOT posts a Settlement Calendar on its website showing, for each Operating Day, when each scheduled DAM and RTM statement will be issued. [e14] Statements are posted to the MIS Certified Area. [e10]
 
 The DAM gets a DAM Statement on the second Business Day after the Operating Day. [e3] The RTM gets a series of statements for each Operating Day: an Initial Statement on the fifth day after the Operating Day (next Business Day if that is not one), a Final Statement on the 55th day, and a True-Up Statement 180 days after the Operating Day if the IDR Meter Data Threshold is met. [e4][e5][e6] If the threshold is not met the True-Up comes when the data is available, and one is issued no later than 365 days after the Operating Day. [e7]
 

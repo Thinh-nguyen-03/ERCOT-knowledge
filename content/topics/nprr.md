@@ -13,7 +13,7 @@ links:
     note: An NPRR is the formal request to change the Nodal Protocols. [e1]
   - to: stakeholder-process
     type: used-in
-    note: NPRRs move through PRS, TAC and the ERCOT Board before PUCT approval. [e4][e6]
+    note: NPRRs move through PRS, TAC and the ERCOT Board before PUCT approval. [e4][e13][e14][e6]
   - to: puct
     type: related
     note: Every NPRR needs PUCT approval before ERCOT implements it. [e6]
@@ -34,10 +34,7 @@ evidence:
   - id: e2
     source: np-21
     locator: "Section 21.2(1), Submission"
-    quote: >-
-      (e) The North American Electric Reliability Corporation (NERC) Regional Entity;
-      (f) The Independent Market Monitor (IMM);
-      (g) ERCOT; and
+    quote: "The following Entities may submit a Nodal Protocol Revision Request (NPRR) or System Change Request (SCR) (“Revision Request”): (a) Any Market Participant; (b) Any ERCOT Member; (c) Public Utility Commission of Texas (PUCT) Staff; (d) The Reliability Monitor; (e) The North American Electric Reliability Corporation (NERC) Regional Entity; (f) The Independent Market Monitor (IMM); (g) ERCOT;"
   - id: e3
     source: np-21
     locator: "Section 21.4.2(3), Submission and evaluation"
@@ -72,6 +69,22 @@ evidence:
     source: np-21
     locator: "Section 21.5(3), Board Priority"
     quote: "The ERCOT Board may designate any existing Revision Request a Board Priority Revision Request."
+  - id: e11
+    source: np-21
+    locator: "Section 21.4.1(1), Review and Posting of NPRRs"
+    quote: "Nodal Protocol Revision Requests (NPRRs) shall be submitted electronically to ERCOT by completing the designated form provided on the ERCOT website."
+  - id: e12
+    source: np-21
+    locator: "Section 21.1(4)(a), Administrative NPRRs"
+    quote: "This type of revision is referred to as an “Administrative NPRR” or “Administrative Changes” and shall consist of non-substantive corrections, such as typos (excluding grammatical changes), internal references (including table of contents), improper use of acronyms, and references to ERCOT Protocols, PUCT Substantive Rules, the Public Utility Regulatory Act (PURA), NERC regulations, Federal Energy Regulatory Commission (FERC) rules, etc."
+  - id: e13
+    source: np-21
+    locator: "Section 21.4.8(2), Technical Advisory Committee Vote"
+    quote: "In considering action on a PRS Report, TAC shall: (a) Recommend approval of the Revision Request as recommended in the PRS Report or as modified by TAC; (b) Reject the Revision Request; (c) Table the Revision Request; (d) Remand the Revision Request to PRS with instructions; or (e) Refer the Revision Request to another TAC subcommittee or a TAC working group or task force with instructions."
+  - id: e14
+    source: np-21
+    locator: "Section 21.4.10(1), ERCOT Board Vote"
+    quote: "Upon issuance of a TAC Report and Impact Analysis to the ERCOT Board, the ERCOT Board shall review the TAC Report and the Impact Analysis at the next regularly scheduled meeting."
 ---
 
 ## Definition
@@ -80,15 +93,15 @@ A Nodal Protocol Revision Request (NPRR) is a request to make additions, edits, 
 
 ## How it works
 
-Any Market Participant or ERCOT Member can file one, as can PUCT Staff, the Reliability Monitor, the NERC Regional Entity, the IMM and ERCOT itself. [e2] The submitter completes a form on the ERCOT website, and ERCOT has five Business Days to tell the submitter if the NPRR is incomplete. [e3] Once it is complete, comments are due within 14 days of posting, and the Protocol Revision Subcommittee then considers it. [e4]
+Any Market Participant or ERCOT Member can file one, as can PUCT Staff, the Reliability Monitor, the NERC Regional Entity, the IMM and ERCOT itself. [e2] NPRRs are submitted electronically by completing the designated form on the ERCOT website, and ERCOT has five Business Days to tell the submitter if the NPRR is incomplete. [e11][e3] Once it is complete, comments are due within 14 days of posting, and the Protocol Revision Subcommittee then considers it. [e4]
 
-After PRS, the request goes to TAC and the ERCOT Board, and then it needs PUCT approval. [e6] ERCOT implements an approved NPRR on the first day of the month after PUCT approval, unless the PUCT Report says otherwise. [e7]
+After PRS, TAC considers a PRS Report, the ERCOT Board reviews the TAC Report and Impact Analysis at its next regularly scheduled meeting, and then PUCT approval is required. [e13][e14][e6] ERCOT implements an approved NPRR on the first day of the month after PUCT approval, unless the PUCT Report says otherwise. [e7]
 
-Two shortcuts exist. A submitter can ask for an urgent timeline only if it can reasonably show that an existing Protocol or condition is impairing or could imminently impair reliability or market operations, or is causing or could cause a settlement-formula discrepancy. [e5] And the ERCOT Board may designate any existing request a Board Priority request. [e10] An Administrative NPRR, covering non-substantive corrections, still goes to the PUCT, but if no one comments within ten Business Days it avoids the full committee debate. [e8]
+Two shortcuts exist. A submitter can ask for an urgent timeline only if it can reasonably show that an existing Protocol or condition is impairing or could imminently impair reliability or market operations, or is causing or could cause a settlement-formula discrepancy. [e5] And the ERCOT Board may designate any existing request a Board Priority request. [e10] An Administrative NPRR consists of non-substantive corrections such as typos and internal references. [e12] If no Entity comments within ten Business Days, it becomes subject to PUCT approval. [e8]
 
 ## ERCOT context
 
-An NPRR is how most market-rule changes reach the Protocols, so the NPRR queue is where analysts look to see how scarcity pricing, ancillary services and settlement may change. Not every change is an NPRR: a request to change ERCOT's computer systems without changing the Protocols is a System Change Request (SCR). [e9]
+Not every change is an NPRR: a request to change ERCOT's computer systems without changing the Protocols is a System Change Request (SCR). [e9]
 
 ## Key facts
 

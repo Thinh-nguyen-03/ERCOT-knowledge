@@ -13,22 +13,22 @@ links:
     note: When PNM exceeds the threshold, the system-wide offer cap drops from the HCAP to the LCAP for the rest of the calendar year. [e7][e10]
   - to: puct
     type: regulates
-    note: The PUCT's Scarcity Pricing Mechanism rule defines the PNM formula and the offer caps. [e1]
+    note: The PUCT's rule 25.509 defines the PNM formula and sets the system-wide offer cap to the LCAP if PNM exceeds the threshold. [e1][e10]
   - to: emergency-pricing-program
     type: contrasts-with
-    note: The Emergency Pricing Program is triggered by hours at the cap in a rolling 24 hours, while PNM is a cumulative annual measure. [e1]
+    note: The Emergency Pricing Program is triggered by hours at the cap in a rolling 24 hours, while PNM is a cumulative annual measure. [e1][e15]
   - to: resource-adequacy
     type: used-in
     note: The IMM uses PNM compared with the cost of new entry as a benchmark for whether market revenues support new generation. [e8]
   - to: energy-only-market
     type: part-of
-    note: PNM and the offer cap are the scarcity-pricing guardrails of ERCOT's energy-only design.
+    note: The PNM threshold mechanism is designed to limit excessive shortage pricing once investment signals are sufficient. [e9]
   - to: winter-storm-uri
     type: example-of
     note: The threshold has been reached only once, in February 2021 during Winter Storm Uri. [e9]
   - to: state-of-market-report
     type: related
-    note: The IMM State of the Market reports present PNM history each year. [e9]
+    note: The IMM State of the Market report discusses PNM in its Resource Adequacy chapter. [e8]
 evidence:
   - id: e1
     source: puct-25-509
@@ -82,6 +82,10 @@ evidence:
     source: imm-som-2025
     locator: "Resource Adequacy chapter, Cost of New Entry"
     quote: "In July 2024, the Public Utility Commission of Texas approved an updated CONE value of 140 per kW-year for planning purposes in ERCOT, reflecting more recent cost estimates for new entry, while retaining the legacy $105 per kW-year value for the peaker net margin threshold."
+  - id: e15
+    source: puct-25-509
+    locator: "16 TAC 25.509(c)(1)"
+    quote: "The EPP must be activated if the system-wide energy price, as determined by ERCOT, has been at the HCAP for 12 hours within a rolling 24-hour period."
   - id: e14
     source: np-04
     locator: "Section 4.4.11.1, paragraph (3)(c)"
@@ -90,7 +94,7 @@ evidence:
 
 ## Definition
 
-Peaker net margin (PNM) is a running calendar-year sum of how much the real-time energy price exceeds a notional peaking plant's operating cost, calculated for each settlement interval when the price is above that cost. [e1] The IMM describes it as a simplified benchmark for the annual net revenue a hypothetical gas peaking unit could earn in ERCOT. [e9]
+Peaker net margin (PNM) is a running calendar-year sum of how much the real-time energy price exceeds a notional peaking plant's operating cost, calculated for each settlement interval when the price is above that cost. [e1] The IMM describes it as an estimate of the annual net revenue a peaking unit could have earned based on observed energy and ancillary service prices. [e8]
 
 ## How it works
 
@@ -118,7 +122,7 @@ Peaker net margin tracks, year to date, how much a hypothetical gas peaker would
 
 ## Common confusion
 
-PNM is not the same as the net revenue the IMM reports for real units, because it uses fixed protocol values and ignores variable O&M and outages. [e11] It also resets each calendar year, so it is different from the Emergency Pricing Program's rolling 24-hour trigger. [e1]
+PNM is not the same as the net revenue the IMM reports for real units, because it uses fixed protocol values and ignores variable O&M and outages. [e11] It also resets each calendar year, so it is different from the Emergency Pricing Program's rolling 24-hour trigger. [e1][e15]
 
 ## Questions
 

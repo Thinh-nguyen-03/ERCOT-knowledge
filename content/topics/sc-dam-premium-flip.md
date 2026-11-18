@@ -10,22 +10,22 @@ as_of: 2026-11-18
 links:
   - to: dart-spread
     type: measures
-    note: The DART spread is the measure that flips sign in this scenario. [e5]
+    note: Day-ahead and real-time prices should converge when trading barriers are low, information is good and both markets reflect the network. [e5]
   - to: dam
     type: used-in
     note: Day-ahead energy and AS awards are financial positions settled against real time. [e15]
   - to: rtm
     type: contrasts-with
-    note: Real-time prices diverged above day-ahead in tight months such as July 2022. [e4]
+    note: In July 2022 real-time prices diverged higher than day-ahead prices. [e4]
   - to: virtual-bids
     type: used-in
-    note: Virtual bids and offers are the tool participants use to hedge or arbitrage predictable DA-RT differences. [e11]
+    note: Virtual bids and offers are location-specific transactions submitted as a hedge or for speculation, and participants can arbitrage predictable DA-RT differences. [e11][e5]
   - to: ptp-obligation
     type: related
-    note: PTP obligations profit when real-time congestion exceeds what day-ahead priced in. [e14]
+    note: PTPs received 10.9% more in real time than their day-ahead purchase cost in 2025. [e14]
   - to: net-load
     type: affects
-    note: Net load forecast errors are a main source of DA-RT surprises. [e10]
+    note: By 2025 the average net load forecast error was about 452 MW, and forecasts still under-forecast IRR generation and over-forecast load. [e10]
   - to: congestion
     type: related
     note: Day-ahead congestion can be under-priced relative to real time, as in August 2023. [e9]
@@ -107,7 +107,7 @@ This scenario is about the times when day-ahead prices settle below real-time pr
 
 The normal state is a small day-ahead premium. The IMM says the day-ahead market "generally" gives generators a risk premium as well as revenue certainty. [e7] In 2023 day-ahead averaged $58/MWh against $51/MWh in real time, which the IMM called a modest risk premium. [e3] In 2025 the average premium was $1.17/MWh. [e6]
 
-Prices should converge when trading barriers are low, participants have good information about real time, and both markets model the transmission network accurately; then participants can arbitrage predictable gaps away. [e5] A flip happens when real time turns out tighter than the day-ahead market expected. In July 2022 real-time prices rose above day-ahead because of sustained extreme heat and some day-ahead under-forecasting of demand. [e4] In 2021 the gap was largest in the tight months, when real-time prices were higher and ERCOT moved to more conservative operations. [e2]
+Prices should converge when trading barriers are low, participants have good information about real time, and both markets model the transmission network accurately; then participants can arbitrage predictable gaps away. [e5] A flip is consistent with real time turning out tighter than the day-ahead market expected. [e2] In July 2022 real-time prices rose above day-ahead because of sustained extreme heat and some day-ahead under-forecasting of demand. [e4] In 2021 the gap was largest in the tight months, when real-time prices were higher and ERCOT moved to more conservative operations. [e2]
 
 Congestion can flip too. In 2023 day-ahead congestion was priced lower than real-time congestion, especially in the high-congestion periods of August, meaning some of it was not predicted. [e9]
 
@@ -127,14 +127,14 @@ The day-ahead market is financial, so DA-RT gaps become cash. Energy and AS boug
 ### Over the past three weeks North Hub day-ahead has settled below real-time on average. Why could this happen, and what would you do?
 
 - First check whether it is a real pattern. A small average can hide large daily swings, so look at the average absolute daily difference too. [e8]
-- The usual state is a modest day-ahead premium, so a run of real-time premiums means real time is coming in tighter than day-ahead expected. [e7][e6]
+- The usual state is a modest day-ahead premium, so a run of real-time premiums can mean real time is coming in tighter than day-ahead expected. [e7][e6][e2]
 - Look at weather and load forecasts. July 2022 is the textbook case: sustained heat and day-ahead under-forecasting of demand pushed real-time above day-ahead. [e4]
 - Check the net load forecast bias. In 2025 forecasts tended to over-forecast load and under-forecast renewables. [e10]
 - (Reasoning) That bias makes real time look looser than day-ahead expected, so if it reverses (load comes in above forecast, renewables below), real time tends to settle higher.
 - Check congestion. In 2023 day-ahead under-priced real-time congestion, especially in August. [e9]
 - Check storage. Batteries that sell day-ahead but run low on charge must buy back the position at the real-time price. [e12]
-- If the pattern is predictable, arbitrage should close it: virtual bids (buy day-ahead, sell back in real time) are the tool. [e5][e11]
-- (Reasoning) Size the trade for the tail. A real-time premium usually comes from a few spike intervals, so the position loses on most days and wins on a few.
+- If the pattern is predictable, arbitrage should close it; virtual bids and offers are location-specific transactions submitted as a hedge or for speculation. [e5][e11]
+- Size the trade for the tail: the IMM says the low 2025 spread reflected fewer price spikes, so spikes matter for the spread. [e6]
 - Suppose (illustrative): you buy 25 MW at North Hub day-ahead for HE 20 at $60/MWh and real time settles at $140/MWh. The virtual earns 25 × $80 = $2,000 for that hour; if real time had settled at $40, it would lose $500.
 
 ## Questions
@@ -145,11 +145,11 @@ The day-ahead market gives revenue certainty and generally a risk premium to gen
 
 ### Did RTC change DART behaviour?
 
-In the first months of RTC (December 5, 2025 through February 2026) day-ahead premiums for energy and AS were unusually high, but two events, go-live day and Winter Storm Fern, explained 57-75% of the premium. [e13]
+The IMM says that, excluding RegDown, elevated day-ahead prices on December 5, 2025 and during Winter Storm Fern on January 21-27, 2026 account for 57-75% of the average day-ahead premium for energy and up-reserve products. [e13] The saved sources do not otherwise say whether RTC changed DART behaviour.
 
 ### What forces push DA and RT back together?
 
-Low trading barriers, good information and accurate network models let participants arbitrage predictable differences. [e5] Virtual trades are the main tool. [e11]
+Low trading barriers, good information and accurate network models let participants arbitrage predictable differences. [e5] Virtual bids and offers are location-specific transactions submitted as a hedge or for speculation. [e11]
 
 ## Say it like this
 

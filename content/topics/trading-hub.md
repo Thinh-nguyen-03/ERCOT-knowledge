@@ -19,19 +19,19 @@ links:
     note: Hub prices are averages of bus-level LMPs over the Hub Buses. [e1][e6]
   - to: hb-north
     type: related
-    note: North 345 kV Hub is one of the defined Hubs.
+    note: North 345 kV Hub is one of the defined Hubs. [e4]
   - to: hb-west
     type: related
-    note: West 345 kV Hub is one of the defined Hubs.
+    note: West 345 kV Hub is one of the defined Hubs. [e4]
   - to: load-zone
     type: contrasts-with
-    note: A Load Zone is load-weighted and settles load; a Hub is a fixed list of buses with a fixed averaging method. [e1]
+    note: A Load Zone price is Load-weighted from State Estimator Load; a Hub has a fixed list of Hub Buses and a fixed price method. [e14][e1]
   - to: basis-risk
     type: related
-    note: Hedges settle at hub prices, while physical positions settle at node or zone prices.
+    note: A position settled at a different Settlement Point than a hub carries the price difference between them.
   - to: block-products
     type: used-in
-    note: Block products are traded against hub prices.
+    note: Block products are a related topic for hub-referenced trading.
 evidence:
   - id: e1
     source: np-02
@@ -81,6 +81,10 @@ evidence:
     source: np-03
     locator: "Section 3.5.2.6 (LRGV 138/345), paragraph (2)"
     quote: "The Lower Rio Grande Valley 138/345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Settlement Interval of the DAM in the Day-Ahead and is the simple average of the time weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time, for each Hub Bus included in this Hub."
+  - id: e14
+    source: np-03
+    locator: "Section 3.4, paragraph (2)"
+    quote: "ERCOT shall assign every Electrical Bus to a Load Zone for Real-Time Market (RTM) Settlement purposes. ERCOT shall calculate a Settlement Point Price for each Load Zone as the Load-weighted average of the Locational Marginal Prices (LMPs) at all Electrical Buses assigned to that Load Zone. The Load-weighting must be determined using the Load, if any, from the State Estimator at each Electrical Bus."
   - id: e13
     source: np-03
     locator: "Section 3.5.3.2, paragraph (1)"
@@ -93,9 +97,9 @@ A Hub is a designated Settlement Point made up of a Hub Bus or group of Hub Buse
 
 ## How it works
 
-A Hub is made up of one or more Electrical Buses, and ERCOT posts the list of those buses on its website. [e3] In real time, a Hub Bus is an energized Electrical Bus or group of them treated as a single element, and its LMP is the simple average of the LMPs of the energized buses it contains. [e7] The Hub LMP for each SCED interval is, for every defined Hub except the ERCOT Hub Average 345 kV Hub, the arithmetic average of the Real-Time LMPs of the Hub Buses in the Hub. [e6]
+A Hub is made up of one or more Electrical Buses, and ERCOT posts the list of those buses on its website. [e3] In real time, a Hub Bus is an energized Electrical Bus or group of them treated as a single element, and its LMP is the simple average of the LMPs of the energized buses it contains. [e7] The Hub LMP is, for every defined Hub except the ERCOT Hub Average 345 kV Hub, the arithmetic average of the Real-Time LMPs of the Hub Buses in the Hub. [e6]
 
-Settlement prices follow the same pattern. For example, the North 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour in the Day-Ahead, and is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time. [e5] The Panhandle 345 kV Hub Price is written the same way. [e11] The Hub price is thus a fixed-weight (equal-weight) average, unlike a Load Zone price that is weighted by Load. [e5][e7]
+Settlement prices follow the same pattern. For example, the North 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour in the Day-Ahead, and is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time. [e5] The Panhandle 345 kV Hub Price is written the same way. [e11] The Hub price is thus a simple average of Hub Bus prices rather than a Load-weighted one. [e5][e7]
 
 The protocol's Section 3.5.2 defines North 345, South 345, Houston 345 and West 345 hubs, plus Panhandle 345, a Lower Rio Grande Valley 138/345 hub, the ERCOT Hub Average 345 kV Hub (ERCOT 345) and the ERCOT Bus Average 345 kV Hub (ERCOT 345 Bus). [e4][e8][e11][e12] The ERCOT 345 average is the simple average of the North, South, Houston and West hub prices in Real-Time, and the Panhandle hub is not part of it. [e8] The ERCOT Bus Average hub is composed of the Hub Buses of the North, South, Houston and West hubs. [e4]
 
@@ -103,7 +107,7 @@ Hub definitions change only through the protocol revision process: if a permanen
 
 ## ERCOT context
 
-Hubs are the fixed reference points of the ERCOT market, because the bus list and price method are locked into the Protocols and, per the definition, never modified and existing in perpetuity. [e1] A pending protocol change (NPRR941, not yet in effect) would also exclude the Lower Rio Grande Valley 138/345 kV Hub from the ERCOT Hub Average and ERCOT Bus Average hubs. [e10]
+A Hub's bus list and price method are locked into the Protocols and, per the definition, can never be modified and exist in perpetuity. [e1] A pending protocol change (NPRR941, not yet in effect) would also exclude the Lower Rio Grande Valley 138/345 kV Hub from the ERCOT Hub Average 345 kV Hub price. [e10]
 
 ## Key facts
 
@@ -119,7 +123,7 @@ A hub is a fixed basket of 345 kV buses whose average price is written into the 
 
 ## Common confusion
 
-- Hub versus Load Zone: a Hub averages a fixed list of buses with the method written in its definition, while a Load Zone price is load-weighted from State Estimator Load. [e1][e7]
+- Hub versus Load Zone: a Hub averages a fixed list of buses with the method written in its definition, while a Load Zone price is load-weighted from State Estimator Load. [e1][e14]
 - Hub versus Resource Node: a Resource Node is the point where a generator's price is calculated; a Hub is a Settlement Point made of buses. [e2]
 - "ERCOT 345" and "ERCOT 345 Bus" are two different hubs: one averages four hub prices, the other averages the buses of the same four hubs. [e4][e8]
 - Whether a hub is one of the four main ones or Panhandle/LRGV matters for the ERCOT averages: Panhandle is excluded under the current text. [e8]
@@ -143,6 +147,8 @@ North 345, South 345, Houston 345 and West 345 in the current text. The Panhandl
 Not through the ordinary process: the definition can never be modified, and a permanent removal of a Hub Bus requires an NPRR to revise the Hub definition. [e1][e9]
 
 ## Open items
+
+- The Hub definition says a Hub's Hub Buses and price method "can never be modified" [e1], while Section 3.5.1 has ERCOT file an NPRR to "revise the appropriate Hub definition" if a Hub Bus is permanently removed [e9]. The saved text does not reconcile the two.
 
 - Market-convention hub names (HB_NORTH, HB_HOUSTON, etc.) and the Settlement Point names for hubs: not found in the saved protocol text, which uses names like "North 345 kV Hub (North 345)". The hb-north and hb-west topics should clarify naming.
 - Average hub prices by year (for example North versus West hub): the saved IMM reports present zone averages in garbled tables, so none are cited.

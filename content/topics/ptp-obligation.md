@@ -10,13 +10,13 @@ as_of: 2026-11-18
 links:
   - to: crr
     type: is-a
-    note: A PTP Obligation is a type of CRR, so it is also sold in CRR Auctions. [e1]
+    note: A PTP Obligation is a type of CRR that is evaluated in each CRR Auction and in the DAM. [e1]
   - to: dam
     type: part-of
     note: PTP Obligations are bid for and cleared in the DAM, then settled on the price difference between sink and source. [e2][e4]
   - to: congestion
     type: hedges
-    note: PTPs let participants hedge or speculate on congestion between two locations in the day-ahead and real-time markets. [e7]
+    note: The IMM describes a PTP as a scheduled flow from a source node to a sink node, valued on the price difference between those nodes. [e7]
   - to: dart-spread
     type: related
     note: A DAM-bought PTP pays the day-ahead spread and earns the real-time spread, so its profit is the difference. [e4][e5][e7]
@@ -79,7 +79,7 @@ A Point-to-Point (PTP) Obligation is a type of CRR that entitles the holder to b
 
 ## How it works
 
-A QSE can buy PTP Obligations in the DAM by submitting such bids. [e2] A cleared PTP Obligation is charged or paid the difference in DAM Settlement Point Prices between the sink and the source. [e4] It is then settled in real time: ERCOT pays or charges the QSE of each PTP Obligation acquired in the DAM the difference in Real-Time Settlement Point Prices between sink and source. [e5][e3]
+A QSE can buy PTP Obligations in the DAM by submitting such bids. [e2][e3] A cleared PTP Obligation is charged or paid the difference in DAM Settlement Point Prices between the sink and the source. [e4] It is then settled in real time: ERCOT pays or charges the QSE of each PTP Obligation acquired in the DAM the difference in Real-Time Settlement Point Prices between sink and source. [e5][e3]
 
 The IMM puts the economics in simple terms: the purchase cost is the day-ahead price difference times the flow volume in MWh, and its value is realized in real time when the position is liquidated at the real-time price difference between the same nodes. [e7]
 
@@ -101,7 +101,7 @@ The IMM recommends a small fee on PTP bids (Recommendation 2020-4) to discourage
 
 ## Say it like this
 
-A PTP Obligation is a day-ahead bet on congestion between two points: you pay the day-ahead price spread and collect the real-time spread. It was profitable in 2025, but the IMM warns that the growing number of bids is straining the day-ahead market. [e8][e10]
+A PTP Obligation is a day-ahead position between two points: you pay the day-ahead price spread and collect the real-time spread. [e7] It was profitable in 2025, and the growing number of bids is a key contributor to day-ahead delays. [e8][e10]
 
 ## Common confusion
 
@@ -111,11 +111,11 @@ A PTP Obligation can lose money: it can produce a charge as well as a payment. [
 
 ### How is a DAM PTP Obligation settled?
 
-The QSE is paid or charged the DAM Settlement Point Price difference between sink and source, and then paid or charged the real-time sink-minus-source difference. [e4][e5] The net is the change in congestion between the two markets. [e7]
+The QSE is paid or charged the DAM Settlement Point Price difference between sink and source, and then paid or charged the real-time sink-minus-source difference. [e4][e5] The IMM describes the cost as the day-ahead price difference times the volume, with the value realized in real time at the real-time price difference. [e7]
 
 ### Why does the IMM want a PTP bid fee?
 
-Because PTP bid volume has grown a lot and ERCOT sees it as a key contributor to DAM delays, and many bids are uncompetitive and unlikely to clear. [e9][e10][e11]
+Because PTP bid volume has grown a lot and ERCOT sees it as a key contributor to DAM delays, and the fee is meant to discourage uncompetitive bids that are extremely unlikely to clear. [e9][e10][e11]
 
 ### Was the PTP a good trade in 2025?
 

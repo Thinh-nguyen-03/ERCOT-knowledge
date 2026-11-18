@@ -13,10 +13,10 @@ links:
     note: February 2021 is the reference case, when 75% of unit outages, derates and failures to start came from freezing or fuel issues. [e1]
   - to: winter-storm-jan-2026
     type: related
-    note: Winter Storm Fern in January 2026 passed with no EEA and no systemwide outages, and load came in under forecast. [e14]
+    note: Winter Storm Fern in January 2026 passed with no EEA and no systemwide outages, and the load forecast overestimated expected peak consumption on January 26 and 27. [e14][e17]
   - to: winter-storm-elliott
     type: related
-    note: Elliott in December 2022 showed few weather-related outages at inspected units but a load forecast that came in too low. [e22]
+    note: Before Elliott, 4 of 255 inspected resources had weather-related outages in December 2022, and ERCOT's internal load forecast models were too low for December 23 and 24. [e22][e25]
   - to: weatherization
     type: related
     note: Generators must finish winter preparation measures by December 1 each year. [e5]
@@ -31,7 +31,7 @@ links:
     note: EEA Level 1 is declared when PRC falls below 2,500 MW and is not expected to recover within 30 minutes. [e12]
   - to: natural-gas-price
     type: affects
-    note: Cold weather raises gas demand for heating while gas plants supply a large share of power. [e24]
+    note: Demand for natural gas for heating is higher in winter, and gas accounts for a smaller share of Texas generation in winter than in summer. [e24]
   - to: mora-report
     type: related
     note: The January 2027 MORA puts the highest EEA risk at HE 8:00 a.m. [e20]
@@ -148,7 +148,7 @@ This scenario asks what drives ERCOT's risk when a cold snap is forecast a week 
 
 ## How it works
 
-Step 1, supply is the main risk, and gas is the weak link. In February 2021 natural gas production, storage and distribution failed to deliver the full fuel demanded by gas plants, and Texas hub gas prices spiked to over $400/MMBtu. [e2][e4] Gas also serves heating load in winter, which competes with power generation. [e24]
+Step 1, in February 2021 supply was the problem and gas was a weak link. In that event natural gas production, storage and distribution failed to deliver the full fuel demanded by gas plants, and Texas hub gas prices spiked to over $400/MMBtu. [e2][e4] Demand for natural gas for heating is also higher in winter. [e24]
 
 Step 2, check what preparation the rules require. Generators must complete winter weather emergency preparation measures by December 1 each year. [e5] ERCOT procures Firm Fuel Supply Service ahead of each November 15 to March 15 obligation period to keep some units available through a gas curtailment, with a budget cap of $54 million per period. [e6][e7][e8]
 
@@ -156,7 +156,7 @@ Step 3, watch ERCOT's notices. OCNs can be issued for weather concerns such as a
 
 Step 4, know the emergency steps. ERCOT declares EEA Level 1 when PRC falls below 2,500 MW and is not projected to recover within 30 minutes. [e12] In February 2021 ERCOT had ordered 20,000 MW of manual firm load shed by 7:00 p.m. on February 15 and held it for nearly three days. [e3]
 
-Step 5, use the recent storms as calibration. During Winter Storm Fern (January 23-27, 2026) ERCOT issued a Weather Watch on January 21, issued no EEA and had no systemwide outages. [e26][e13][e15][e14] Gas restrictions still appeared in North Texas, FFSS kept 340 MW of gas-restricted units running, and about 13.5 GW of wind nameplate was unavailable due to icing. [e18][e19][e23] The Fern load forecast of 84,500 MW overestimated actual peak consumption, while in Elliott (December 2022) ERCOT's internal load forecasts were too low. [e16][e17][e25]
+Step 5, use the recent storms as calibration. During Winter Storm Fern (January 23-27, 2026) ERCOT issued a Weather Watch on January 21, issued no EEA and had no systemwide outages. [e26][e13][e15][e14] Gas restrictions still appeared in North Texas, FFSS kept 340 MW of gas-restricted units running, and about 13.5 GW of wind nameplate was unavailable due to icing. [e18][e19][e23] The Fern load forecast peak was 84,500 MW (assuming no demand response), and the forecast overestimated expected peak consumption on January 26 and 27, while in Elliott (December 2022) ERCOT's internally developed load forecasts were too low for the 23rd and 24th. [e16][e17][e25]
 
 ## Key facts
 
@@ -169,11 +169,11 @@ Step 5, use the recent storms as calibration. During Winter Storm Fern (January 
 
 ## Say it like this
 
-(Guidance) "Winter risk in ERCOT is mostly a supply question: whether gas keeps flowing to the plants and whether units and wind turbines freeze, with the morning peak as the tightest hour. Since Uri there are mandatory winterization deadlines, firm fuel service and earlier notices, and Winter Storm Fern got through with no EEA, but gas restrictions and icing still showed up and the load forecast itself can be wrong in either direction."
+(Guidance) "Winter risk in ERCOT is mostly a supply question: whether gas keeps flowing to the plants and whether units and wind turbines freeze, with the morning peak as the tightest hour. The rules include a December 1 winter-preparation deadline, firm fuel service and COP updates when cold-weather notices are issued, and Winter Storm Fern got through with no EEA, but gas restrictions and icing still showed up and the load forecast itself can be wrong in either direction."
 
 ## Common confusion
 
-(Guidance) The risk is not just high demand. In February 2021 the main cause of outages was freezing and fuel problems on the supply side. [e1] Another mistake is treating the load forecast as fixed: Fern's forecast was too high and Elliott's was too low. [e17][e25] Finally, the ERCOT "Weather Watch" sent to the public and the protocol Watch that triggers FFSS preparation should be checked against the actual notice text rather than assumed to be the same thing.
+(Guidance) The risk is not just high demand. In February 2021 the main cause of outages was freezing and fuel problems on the supply side. [e1] Another mistake is treating the load forecast as fixed: the Fern forecast overestimated peak consumption on January 26-27 and Elliott's internal forecasts were too low on December 23-24. [e17][e25] Finally, the ERCOT "Weather Watch" sent to the public and the protocol Watch that triggers FFSS preparation should be checked against the actual notice text rather than assumed to be the same thing.
 
 ## Questions
 
@@ -181,13 +181,13 @@ Step 5, use the recent storms as calibration. During Winter Storm Fern (January 
 
 The gas side and the outage side: whether gas restrictions are likely, how much FFSS capacity is available, and what ERCOT notices say. [e18][e19][e9] Then the hour profile: the January 2027 MORA puts the highest EEA risk at HE 8:00 a.m. [e20]
 
-### What changed after February 2021?
+### What winter rules exist now?
 
-The sources show mandatory winter preparation by December 1, Firm Fuel Supply Service procured for each November 15 to March 15 period, and QSE duty to update COPs for fuel limits when ERCOT issues cold-weather notices. [e5][e6][e10]
+The saved sources show mandatory winter preparation by December 1, Firm Fuel Supply Service procured for each November 15 to March 15 period, and QSE duty to update COPs for fuel limits when ERCOT issues cold-weather notices. [e5][e6][e10]
 
 ### Did the changes work in January 2026?
 
-Fern passed with no conservation call, no EEA and no systemwide outages. [e14] It still had North Texas gas restrictions and about 13.5 GW of wind nameplate lost to icing, and January 2026 unplanned thermal outages were significantly higher than January 2025. [e18][e23][e21]
+Fern passed with no conservation call, no EEA and no systemwide outages, though the saved sources do not attribute that outcome to specific rule changes. [e14] It still had North Texas gas restrictions and about 13.5 GW of wind nameplate lost to icing, and January 2026 unplanned thermal outages were significantly higher than January 2025. [e18][e23][e21]
 
 ## Scenarios
 
@@ -197,10 +197,10 @@ Fern passed with no conservation call, no EEA and no systemwide outages. [e14] I
 - Gas supply is the first risk: in 2021 gas production, storage and distribution failed to deliver full fuel to gas plants. [e2]
 - Unit freezing and fuel together caused 75% of 2021 outages, derates and failures to start. [e1]
 - Check readiness: winter preparation was due December 1, and FFSS is procured for the November 15 to March 15 period. [e5][e6]
-- Watch the notice ladder: OCN, Advisory, Watch and Emergency Notice; a winter weather Watch triggers FFSS preparation and cold-weather notices require COP updates for fuel limits. [e9][e10]
+- Watch ERCOT's notices (OCN, Advisory, Watch and Emergency Notice); a winter weather Watch triggers FFSS preparation and cold-weather notices require COP updates for fuel limits. [e9][e10]
 - Watch reserves against the EEA trigger: EEA Level 1 comes when PRC falls below 2,500 MW and is not projected to recover within 30 minutes. [e12]
 - Watch the morning hours: the January 2027 MORA puts the highest EEA risk at HE 8:00 a.m. [e20]
-- Treat the load forecast as uncertain both ways: Fern's 84,500 MW forecast was too high, Elliott's internal forecast too low. [e16][e17][e25]
+- Treat the load forecast as uncertain both ways: Fern's forecast overestimated expected peak consumption on January 26-27 (forecast peak 84,500 MW), and Elliott's internal forecasts were too low on December 23-24. [e16][e17][e25]
 - Expect wind icing: about 13.5 GW of wind nameplate was unavailable during Fern. [e23]
 - (Reasoning) Close with positions: confirm hedges for the morning and evening peaks, check gas supply and fuel-switching at any owned units, and agree in advance what notice level changes the plan.
 

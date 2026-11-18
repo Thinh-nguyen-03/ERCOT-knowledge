@@ -10,10 +10,10 @@ as_of: 2026-11-18
 links:
   - to: resource-mix
     type: part-of
-    note: Wind is one of the fuel categories in the generation mix, where its share was nearly flat in 2025. See that topic for shares.
+    note: Wind is one of the fuel categories in the generation mix; see that topic for shares.
   - to: solar-generation
     type: contrasts-with
-    note: Wind has the higher overall capacity factor but solar is better aligned with daily peak load. [e4]
+    note: Wind has the higher overall capacity factor, but solar had the higher capacity factor at daily peak load in 2025. [e5][e4]
   - to: net-load
     type: affects
     note: Wind output is netted against load, and its capacity factor at the net peak interval was 29.3% in 2025. [e4]
@@ -25,10 +25,10 @@ links:
     note: Wind generation tends to ramp up in the evening as solar ramps down. [e6]
   - to: weatherization
     type: related
-    note: Wind turbine blade icing was a primary cause of outages in the week of February 7, 2021. [e9]
+    note: FERC/NERC attribute the rising generating unit outages in the week of February 7, 2021 primarily to wind turbine blade freezing and natural gas fuel supply issues. [e9]
   - to: congestion
     type: affects
-    note: Wind projects are concentrated where the resource is best, so congestion curtails their output. [e3]
+    note: Wind resources are concentrated where the resource is best, and the IMM reports more than 4% of 2024 wind output was curtailed due to congestion. [e3][e12]
 evidence:
   - id: e1
     source: np-02
@@ -102,15 +102,15 @@ Wind is also the main source of renewable forecast uncertainty. The IMM says win
 - 2025 wind generation growth was 2.9%; 4.7% of wind generation was curtailed. [e2]
 - 2024 wind generation growth was 3.9% with more than 4% curtailed for congestion. [e12]
 - 2025 captured price: wind about $19 per MWh versus solar about $21 per MWh. [e11]
-- Winter 2021: wind turbine blade freezing was a primary cause of generator outages in the week of February 7. [e9]
+- Winter 2021: generating unit outages in the week of February 7 were primarily caused by wind turbine blade freezing and natural gas fuel supply issues. [e9]
 
 ## Say it like this
 
-(Guidance) Wind in ERCOT is a lot of energy but not much of it lines up with the afternoon peak; it does show up in the evening, which is why it matters more than its capacity factor suggests for the net peak. Its volatility, congestion-driven curtailment and forecast error are the things to model.
+(Guidance) Wind in ERCOT is a lot of energy but not much of it lines up with the afternoon peak; it does show up in the evening, which is why its capacity factor at the net peak is higher than solar's. Its volatility, congestion-driven curtailment and forecast error are the things to model.
 
 ## Common confusion
 
-(Guidance) A high overall capacity factor does not mean high output at the system's critical hour. Look at the capacity factor at the relevant interval: peak load, net peak or the January morning peak. [e4][e10]
+(Guidance) A high overall capacity factor does not mean high output at the system's critical hour. Look at the capacity factor at the relevant interval: peak load, net peak, or the January EEA risk. [e4][e10]
 
 ## Questions
 

@@ -13,7 +13,7 @@ links:
     note: The standard is the formal yardstick for judging whether the ERCOT system has enough supply, assessed at least every three years. [e6]
   - to: puct
     type: regulates
-    note: The PUCT adopted 16 TAC 25.508 and decides whether market design changes are needed after each assessment. [e9][e14]
+    note: 16 TAC 25.508 is the PUCT rule setting the standard, and the PUCT decides whether market design changes are needed after each assessment. [e1][e14]
   - to: imm
     type: related
     note: The IMM must independently review ERCOT's proposed market design changes if the standard is not met. [e13]
@@ -25,7 +25,7 @@ links:
     note: The assessment must state a weatherization effectiveness assumption tied to the weatherization standards in 25.55. [e8]
   - to: cdr-report
     type: contrasts-with
-    note: The CDR is ERCOT's separate planning report; the standard is a probabilistic loss-of-load test. [e1]
+    note: The standard is a probability-based simulation test; how it relates to the CDR was not sourced. [e1]
   - to: texas-legislature
     type: related
     note: SB 3 (2021) directed the PUCT to develop and implement a formal reliability standard. [e9]
@@ -90,17 +90,17 @@ evidence:
 
 ## Definition
 
-The ERCOT reliability standard is set in PUCT rule 16 TAC 25.508. The ERCOT bulk power system meets it if an ERCOT probability-based model simulation shows the system meets each of three criteria: frequency, duration and magnitude of loss of load events. [e1]
+The ERCOT reliability standard is set in PUCT rule 16 TAC 25.508. The ERCOT bulk power system meets it if an ERCOT probability-based model simulation shows the system meets each of three criteria: frequency, duration and magnitude of loss of load events. [e1][e2][e3][e4]
 
 ## How it works
 
 The frequency criterion is no more than one loss of load event per ten years on average, i.e., 0.1 loss of load expectation (LOLE). [e2] The duration criterion is that the maximum expected length of an event must be under 12 hours, with a 1.00 percent exceedance tolerance. [e3] The magnitude criterion is that the expected highest level of load shed must be below the maximum load that can be safely rotated, as determined by ERCOT with PUCT staff and transmission operators, again with a 1.00 percent exceedance tolerance. [e4] A loss of load event is when firm load plus the minimum operating reserves needed to avoid EEA Level 3 exceeds available capacity, resulting in involuntary load shed. [e5]
 
-Starting January 1, 2026, ERCOT must assess whether the system meets the standard and is likely to keep meeting it for the following three years, at least once every three years. [e6] If a reviewed system fails, ERCOT must give the PUCT a summary of deficiencies and a menu of proposed market design changes with a primary recommendation. [e7] The model assumptions include a weatherization effectiveness, the assumed percentage reduction in weather-related unplanned outages from complying with 25.55. [e8]
+Starting January 1, 2026, ERCOT must assess whether the system meets the standard and is likely to keep meeting it for the following three years, at least once every three years. [e6] If deficiencies are identified, ERCOT must give the PUCT a summary of deficiencies and a menu of proposed market design changes with a primary recommendation. [e7] The model assumptions include a weatherization effectiveness, the assumed percentage reduction in weather-related unplanned outages from complying with 25.55. [e8]
 
 ## ERCOT context
 
-The IMM says SB 3, passed after Winter Storm Uri, directed the PUCT to develop a formal reliability standard, which led to 25.508. [e9] The first assessment is the 2026 Reliability Standard Assessment: per the IMM, ERCOT is to file results in August 2026, along with market design options if the model suggests the standard will not be met in 2029. [e11] The IMM argues that meeting the standard through price signals alone would imply an extraordinarily high VOLL in an energy-only market, and asks the PUCT to clarify whether the standard is a binding requirement or an aspirational benchmark. [e10][e12]
+The IMM says SB 3, passed after Winter Storm Uri, directed the PUCT to develop a formal reliability standard, which is the basis of the standard in 25.508. [e9] For the 2026 Reliability Standard Assessment, per the IMM, ERCOT is to file results in August 2026, along with market design options if the model suggests the standard will not be met in 2029. [e11] The IMM argues that meeting the standard through price signals alone would imply an extraordinarily high VOLL in an energy-only market, and asks the PUCT to clarify whether the standard is a binding requirement or an aspirational benchmark. [e10][e12]
 
 ## Key facts
 
@@ -108,7 +108,7 @@ The IMM says SB 3, passed after Winter Storm Uri, directed the PUCT to develop a
 - Duration: expected maximum event length under 12 hours, with a 1.00 percent exceedance tolerance. [e3]
 - Magnitude: expected highest load shed below the maximum that can be safely rotated. [e4]
 - Assessment at least once every three years, beginning January 1, 2026. [e6]
-- If failing, ERCOT proposes market design changes; the PUCT decides whether changes are needed. [e7][e14]
+- If deficiencies are identified, ERCOT proposes market design changes; the PUCT decides whether changes are needed. [e7][e14]
 
 ## Say it like this
 
@@ -116,7 +116,7 @@ Texas has a formal one-in-ten-year loss-of-load standard with caps on how long a
 
 ## Common confusion
 
-The standard is a simulation test, not a reserve-margin target and not a market product. [e1] Failing it does not automatically trigger a specific remedy: ERCOT proposes options and the PUCT decides whether market design changes are necessary. [e7][e14] The IMM has asked the PUCT to clarify whether the standard is binding. [e12]
+The standard is a probability-based simulation test. [e1] Failing it does not automatically trigger a specific remedy: ERCOT proposes options and the PUCT decides whether market design changes are necessary. [e7][e14] The IMM has asked the PUCT to clarify whether the standard is binding. [e12]
 
 ## Questions
 
@@ -126,7 +126,7 @@ Frequency (0.1 LOLE, one event in ten years on average), duration (under 12 hour
 
 ### What happens if the assessment fails the standard?
 
-ERCOT provides the PUCT with a summary of deficiencies and a menu of market design changes with a primary recommendation. The rule also requires the IMM to review them independently, and the PUCT then decides whether changes are necessary. [e13][e14]
+ERCOT provides the PUCT with a summary of deficiencies and a menu of market design changes with a primary recommendation. [e7] The rule also requires the IMM to review them independently, and the PUCT then decides whether changes are necessary. [e13][e14]
 
 ### Why does the IMM say the standard is hard to meet in ERCOT?
 

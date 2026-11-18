@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: rtc-b
     type: used-in
-    note: RTC+B went live on 12/5/2025 and changed how ESRs are dispatched and awarded AS. [e15]
+    note: RTC+B's first Operating Day was 12/5/2025, and SCED now limits ESR awards by SOC, ramp rates and duration requirements. [e15][e12]
   - to: energy-storage-resource
     type: used-in
     note: SCED now tracks each ESR's state of charge inside the optimization. [e1]
@@ -19,22 +19,22 @@ links:
     note: ESR revenue has shifted from AS toward energy arbitrage. [e7]
   - to: ancillary-services
     type: related
-    note: ESRs supply most regulation and a growing share of ECRS and Non-Spin. [e16]
+    note: In 2025 ESRs provided on average 94% of RegUp, 86% of Reg-Down, 51% of RRS, 42% of ECRS and 24% of NSRS. [e16]
   - to: asdc
     type: affects
-    note: AS prices in real time now come from co-optimization against the ASDCs. [e5]
+    note: Under RTC, sloped ASDCs define shortage pricing in the day-ahead and real-time markets. [e24]
   - to: dam
     type: related
     note: The DAM does not model SOC, so an ESR can oversell its capability there. [e2]
   - to: offer-cap
     type: related
-    note: The real-time offer cap is $2,000/MWh after RTC, which changed where ESRs place high-priced offers. [e11]
+    note: ERCOT says the share of ESR capacity offered within $100/MWh of the SWCAP rose slightly in summer 2026, largely due to the lower $2,000/MWh Real-Time SWCAP. [e11]
   - to: net-load
     type: affects
     note: Evening net peaks drained ESR state of charge throughout summer 2026. [e17]
   - to: ruc
     type: related
-    note: RUC uses the SOC that QSEs report in their COPs and never commits an ESR. [e19][e21]
+    note: RUC uses the SOC that QSEs report in their COPs, and ESRs are not seen as OFF and so are not available to be RUCed. [e19][e21]
 evidence:
   - id: e1
     source: ercot-rtcb-battery
@@ -128,6 +128,10 @@ evidence:
     source: imm-som-2025
     locator: "Market Operations chapter, 2. COP State of Charge Error"
     quote: "Figure 52 indicates that, on average, aggregate COP SOC is overestimated by approximately 874 MWh, and the magnitude of the overestimate has increased over time. The variance of COP SOC error has also increased, corresponding to the large increase in installed ESR capacity. This COP SOC inaccuracy has been suggested as one factor leading to the large increase in commitments through RUC from 2024 to 2025."
+  - id: e24
+    source: imm-som-2025
+    locator: "Chapter III, The AS Methodology and the Energy-Only Market (p. 48)"
+    quote: "With RTC, a set of sloped ancillary service demand curves (ASDCs) defines shortage pricing in the day-ahead and real-time markets. These ASDCs are intended to reflect the marginal reliability value of reserves and define the penalty price when the market goes short on them."
 ---
 
 ## Definition
@@ -138,7 +142,7 @@ This scenario is about how a battery owner chooses between energy and ancillary 
 
 The physical side moved into SCED. SCED now does SOC accounting and will not breach an ESR's telemetered minimum and maximum SOC. [e1] Awards are limited by qualification, telemetry, SOC, ramp rates and AS duration requirements, and one SCED run can award several AS types plus energy to the same ESR. Before RTC+B, the QSE had to hold back enough SOC itself. [e12] The real-time duration requirements are 5 minutes for energy, 30 minutes for RegUp and RRS, 1 hour for ECRS and 4 hours for NSRS. [e3] The ECRS requirement fell from two hours to one under NPRR 1282. [e18]
 
-The financial side is still yours. The DAM does not consider SOC when it clears energy and AS, so a QSE can oversell an ESR day-ahead. [e2] Day-ahead energy and AS awards are financial positions, and imbalances settle at real-time prices. [e5] Because RTC lets AS providers sell straight into real time, the IMM expected ESR AS offers in the DAM to rise in price, and early data showed that. [e4]
+The financial side is still yours. The DAM does not consider SOC when it clears energy and AS, so a QSE can oversell an ESR day-ahead. [e2] Day-ahead energy and AS awards are financial positions, and imbalances settle at real-time prices. [e5] Because RTC lets AS providers sell straight into real time, the IMM expected ESR AS offers in the DAM to increase to reflect higher risk and lower benefit. [e4]
 
 Offers still have to manage time. SCED optimizes one five-minute interval at a time, so ESR owners must offer strategically to save SOC for higher-value intervals. [e9] Each ESR submits a single bid/offer curve that must not decrease from full charge to full discharge. [e14] Performance is checked more tightly: Set Point Deviation tolerances for ESRs are 3% or 3 MW. [e13]
 
@@ -148,22 +152,22 @@ Offers still have to manage time. SCED optimizes one five-minute interval at a t
 - Real-time duration requirements: energy 5 minutes, RegUp 30 minutes, RRS 30 minutes, ECRS 1 hour, NSRS 4 hours. [e3]
 - ESR revenue per unit of capacity fell 37% in 2025 as AS revenue fell by the same amount. [e6]
 - In 2025 ESRs provided 94% of RegUp, 86% of Reg-Down, 51% of RRS, 42% of ECRS and 24% of NSRS. [e16]
-- 18% of ESR energy offers were at the SWCAP in 2025, down from 32% in 2024, partly to protect SOC. [e10]
-- The real-time SWCAP is $2,000/MWh after RTC+B, and more ESR capacity is offered within $100/MWh of it. [e11]
+- 18% of ESR offers were at the SWCAP in 2025, down from 32% in 2024, partly to protect SOC. [e10]
+- The Real-Time SWCAP is $2,000/MWh after RTC+B (per ERCOT; the PUCT rule text still states a $5,000 HCAP), and more ESR capacity is offered within $100/MWh of it. [e11]
 
 ## Scenarios
 
 ### You run a 100 MW / 200 MWh battery in ERCOT. How do you bid it now that RTC+B is live?
 
-- Start with where the money is. AS prices fell across all products in 2025 as storage flooded in, and ESR revenue has shifted toward energy arbitrage. [e8][e7]
+- Start with where the money is. AS prices fell across all products in 2025, partly because of ESR growth, and ESR revenue has shifted toward energy arbitrage. [e8][e7]
 - Charge when solar pushes midday prices low or negative; discharge into the evening ramp. [e20]
-- Plan for the evening net peak. In summer 2026 ESR SOC regularly ran out in the evenings, so the last hours of the peak are often the most valuable to save energy for. [e17]
+- Plan for the evening net peak. In summer 2026 ESR SOC exhaustion in the evenings was a pattern throughout the summer, so SOC is scarce in the late evening. [e17]
 - Let SCED handle feasibility in real time: it will only award energy and AS that your SOC can sustain for each product's duration. [e1][e12]
-- Match products to duration. With 200 MWh you can carry 1-hour ECRS easily, but a 4-hour NSRS award ties up a lot of energy. [e3]
+- Match products to duration. At 100 MW, a 1-hour ECRS duration needs about 100 MWh, while a 4-hour NSRS duration would need about 400 MWh, more than the 200 MWh battery holds. [e3]
 - Be careful day-ahead. The DAM ignores SOC, so selling more than you can deliver leaves you buying back at real-time prices. [e2][e5]
-- Consider skipping DAM AS sales. RTC lets you sell AS straight into real time, which is why ESR day-ahead AS offers have moved higher. [e4]
-- Shape the offer curve. SCED looks one interval ahead only, so price discharge high enough to keep energy for the peak; remember the cap is now $2,000/MWh. [e9][e11]
-- Keep the COP SOC accurate. RUC uses it to limit what each ESR can do, and the IMM links overstated COP SOC (about 874 MWh on average in aggregate) to the jump in RUC commitments from 2024 to 2025. [e19][e23]
+- Consider skipping DAM AS sales. RTC lets AS providers sell AS directly into real time, and the IMM expected ESR day-ahead AS offers to increase. [e4]
+- Shape the offer curve. SCED looks one interval ahead only, so price discharge high enough to keep energy for the peak; remember the Real-Time SWCAP is now $2,000/MWh. [e9][e11]
+- Keep the COP SOC accurate. RUC uses it to limit what each ESR can do, and the IMM reports aggregate COP SOC overestimated by about 874 MWh on average, which has been suggested as one factor in the jump in RUC commitments from 2024 to 2025. [e19][e23]
 - Suppose (illustrative): you charge 200 MWh at $5/MWh and, using the 85% round-trip efficiency the IMM cites from NREL, discharge about 170 MWh at $120/MWh. [e22] The spread earns about $20,400 minus $1,000 of charging cost, roughly $19,400 for the day, compared with whatever AS would have paid for the same capacity.
 
 ## Questions
@@ -182,7 +186,7 @@ No. ESRs are not seen as off, so they are not available to be RUCed. [e21] RUC i
 
 ### Will AS still pay for storage?
 
-Revenue per unit of capacity fell 37% in 2025 as AS revenue fell, and ESRs are moving toward arbitrage. [e6][e7] (Guidance) AS still matters, but mostly as a hedge and filler around arbitrage.
+Revenue per unit of capacity fell 37% in 2025 as AS revenue fell, and ESRs are moving toward arbitrage. [e6][e7]
 
 ## Say it like this
 

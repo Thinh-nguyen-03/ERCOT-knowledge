@@ -13,7 +13,7 @@ links:
     note: GTCs account for a measurable share of day-ahead congestion value. [e6]
   - to: binding-constraint
     type: related
-    note: A GTC is one kind of constraint that can bind in SCED, and GTC-related constraints are also tested for competitiveness. [e1][e3]
+    note: A GTC is one kind of constraint that can bind in SCED, and a Non-Competitive Constraint can be associated with a GTC. [e1][e9]
   - to: shadow-price
     type: related
     note: In 2025 ERCOT applied a $5,251 per MW shadow price cap to GTCs as base-case stability constraints. [e7]
@@ -55,6 +55,10 @@ evidence:
     source: imm-som-2025
     locator: "Transmission Congestion and CRRs, Violated Constraints"
     quote: "ERCOT treats GTCs as base-case stability constraints (for voltage or transient conditions) with a shadow price cap of $5,251 per MW."
+  - id: e9
+    source: np-02
+    locator: "Section 2.1, definition of Non-Competitive Constraint"
+    quote: "A contingency and limiting Transmission Element pair or group of Transmission Elements associated with a GTC that is not determined to be a Competitive Constraint under the process defined in Section 3.19, Constraint Competitiveness Tests."
   - id: e8
     source: imm-som-2025
     locator: "Executive Summary / renewable congestion discussion"
@@ -90,7 +94,7 @@ A GTC is a modeled stand-in for a stability or voltage limit that ERCOT's normal
 
 ## Common confusion
 
-GTCs are not thermal line ratings; they come from offline studies and are applied as flow limits between areas. [e1][e5] Also, the GTL is the number, while the GTC is the constraint. [e2]
+GTCs are not thermal line ratings; they are applied as flow limits between areas. [e1][e5] Also, the GTL is the number, while the GTC is the constraint. [e2]
 
 ## Questions
 

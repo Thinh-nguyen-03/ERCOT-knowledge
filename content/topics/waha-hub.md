@@ -16,7 +16,7 @@ links:
     note: The IMM reflects Waha gas prices in its West zone net-revenue calculations. [e4]
   - to: heat-rate
     type: related
-    note: A cheaper fuel price at Waha means a lower fuel cost for the same unit heat rate.
+    note: See that topic for how a heat rate is applied to a fuel price.
   - to: peaker-net-margin
     type: related
     note: The IMM shows gas-unit net revenues by location, using Katy prices for Houston and Waha prices for the West zone. [e4]
@@ -67,7 +67,7 @@ Waha is the natural gas pricing hub in West Texas near Permian Basin production,
 
 ## How it works
 
-Pricing hubs are where buyers and sellers transact gas, and changes in hub prices tend to show up in nearby power market hubs or zones. [e8] Most U.S. gas is priced relative to Henry Hub. [e5] Waha has traded below that kind of benchmark because Permian production grew faster than pipeline takeaway capacity, so Waha prices are typically lower than other hubs and sometimes negative. [e1]
+Changes in prices at natural gas hubs tend to be reflected in movements in prices at nearby power market hubs or zones. [e8] Most natural gas at U.S. trading hubs is priced relative to Henry Hub. [e5] EIA says Permian production has grown more rapidly than pipeline takeaway capacity, so Waha prices are typically lower than those at other hubs, sometimes turning negative. [e1]
 
 EIA reported that Waha traded below zero on 42% of trading days in 2024, and that the Matterhorn Express Pipeline (2.5 Bcf/d, in service October 2024) helped clear part of the bottleneck. [e2]
 
@@ -87,11 +87,11 @@ The IMM says low Waha gas prices have historically produced much higher net reve
 
 ## Say it like this
 
-(Guidance) Waha is the West Texas gas hub, and it often trades well below Katy because Permian gas has had limited ways out. In ERCOT that matters for West-zone gas generators, whose fuel cost can be far below what the Katy-based FIP implies.
+(Guidance) Waha is the West Texas gas hub, and it often trades well below Katy because Permian gas has had limited ways out. In ERCOT that matters for West-zone gas generators, whose gas cost can be below what the Katy-based FIP implies.
 
 ## Common confusion
 
-Waha is not the price ERCOT uses in offer caps and mitigation: the FIP is a Katy Hub index. [e6] Waha is also not Henry Hub, the benchmark most hubs are priced against. [e5]
+Waha is not ERCOT's Fuel Index Price: the FIP is a Katy Hub index. [e6] Waha is also not Henry Hub, the benchmark most hubs are priced against. [e5]
 
 ## Questions
 

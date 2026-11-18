@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: resource-adequacy
     type: related
-    note: The PCM was the PUCT's proposed tool to raise resource adequacy by paying for availability in the tightest hours. [e1]
+    note: The PUCT adopted the PCM as its preferred Phase II market design change; it would have had LSEs buy credits earned by availability in the highest-risk hours. [e2][e1]
   - to: texas-legislature
     type: regulates
     note: HB 1500 codified the PCM guardrails, including the $1 billion annual net cost cap, in PURA 39.1594. [e14][e3]
@@ -25,10 +25,10 @@ links:
     note: The PUCT Chairman's December 2024 memo said resources were better directed to RTC+B and DRRS than to the PCM as designed. [e10]
   - to: reliability-standard
     type: related
-    note: E3 found the chosen PCM design would not, on its own, reach the reliability standard's 0.1 LOLE criterion. [e8]
+    note: PUCT Staff's memo said the PCM as designed was anticipated to cut projected long-term LOLE from 2.67 to 2.18 days per year. [e8]
   - to: imm
     type: related
-    note: The IMM estimated long-term PCM net costs of $350 to $725 million a year, far above ERCOT/E3's $12 million. [e9]
+    note: The IMM put long-term PCM net costs at $350 million to $725 million, against ERCOT/E3's approximately $12 million. [e9]
 evidence:
   - id: e1
     source: imm-som-2023
@@ -90,26 +90,26 @@ evidence:
 
 ## Definition
 
-The Performance Credit Mechanism (PCM) is a proposed ERCOT reliability program in which LSEs would have to buy "performance credits" earned by generators for being available during the top 30 hours of highest risk, at a centrally set clearing price. [e1] It was a proposal, never implemented: in December 2024 PUCT Staff recommended not moving forward with the PCM as designed. [e7]
+The Performance Credit Mechanism (PCM) is a proposed ERCOT reliability program in which LSEs would have to buy "performance credits" earned by generators for being available during the top 30 hours of highest risk, at a centrally set clearing price. [e1] The saved sources show it only as a proposal: in December 2024 PUCT Staff recommended not moving forward with the PCM as designed. [e7]
 
 ## How it works
 
-As designed, the PCM pays for availability rather than energy. Generators earn credits by being available in the highest-risk hours, and LSEs must buy them at a centrally determined price. [e1] The PUCT selected the final design parameters on August 29, 2024. [e12]
+As designed, generators earn credits by being available in the highest-risk hours (the top 30 hours), and LSEs must buy them at a centrally determined price. [e1] The PUCT selected the final design parameters on August 29, 2024. [e12]
 
-State law fences in any such program. The net cost of the credits cannot exceed $1 billion a year (less the cost of bridge solutions). [e3] Credits go only to dispatchable generation, ERCOT must buy them centrally, a generator cannot earn more credits than it bid into the forward market, and a unit earns credit only for being available in real time during the tightest intervals, defined seasonally by the PUCT. [e4] ERCOT must begin implementing real-time co-optimization before the program starts. [e5] Before adopting it, the PUCT must get an updated cost-benefit assessment from ERCOT and the IMM and report it to the Legislature. [e6]
+State law fences in any such program. The commission may not require LSEs or retail customers to buy such credits unless net cost to the market does not exceed $1 billion annually, less the cost of lawful interim or bridge solutions (among other conditions). [e3] Credits go only to dispatchable generation, ERCOT must buy them centrally, a generator cannot earn more credits than it bid into the forward market, and a unit earns credit only for being available in real time during the tightest intervals, defined seasonally by the PUCT. [e4] ERCOT must begin implementing real-time co-optimization before the program starts. [e5] Before adopting it, the PUCT must get an updated cost-benefit assessment from ERCOT and the IMM and report it to the Legislature. [e6]
 
 ## ERCOT context
 
 The PUCT adopted the PCM as its preferred Phase II market design on January 19, 2023, but delayed implementation until the Legislature weighed in. [e2] In November 2023 ERCOT added a multi-step ORDC price floor as the "bridge solution" until the PCM could be implemented. [e11]
 
-The required assessments in December 2024 undercut the case. E3 found the chosen design would add only 780 MW of dispatchable generation and cut long-term equilibrium LOLE from 2.67 to 2.18 days per year. [e8] ERCOT/E3 put the net cost at about $12 million a year, while the IMM said long-term net costs with the gross cap could be $350 to $725 million. [e9] Staff recommended not moving forward, and Chairman Gleeson wrote that he did not believe the PCM as designed would provide the reliability benefits needed, and that resources were better directed to RTC+B and DRRS. [e7][e10]
+PUCT Staff reviewed the ERCOT/E3 and IMM assessments in December 2024. Its memo says the PCM as designed was anticipated to incentivize 780 MW of additional dispatchable generation and reduce projected long-term equilibrium LOLE from 2.67 to 2.18 days per year. [e8] ERCOT/E3 put the net cost at approximately $12 million, while the IMM said long-term net costs with the gross cap may be $350 million to $725 million. [e9] Staff recommended not moving forward, and Chairman Gleeson wrote that he did not believe the PCM as designed would provide the reliability benefits needed, and that resources were better directed to RTC+B and DRRS. [e7][e10]
 
 ## Key facts
 
 - Statutory net cost cap: $1 billion a year, less the cost of interim or bridge solutions. [e3]
 - Credits available only to dispatchable generation. [e4]
 - Must follow the start of real-time co-optimization; ERCOT said PCM would come only after RTC+B. [e5][e13]
-- E3 estimate: 780 MW of extra dispatchable generation; LOLE 2.67 to 2.18 days per year. [e8]
+- PUCT Staff memo: anticipated 780 MW of additional dispatchable generation; LOLE 2.67 to 2.18 days per year. [e8]
 - Long-term net cost estimates: about $12 million (ERCOT/E3) versus $350 to $725 million (IMM). [e9]
 
 ## Timeline
@@ -123,17 +123,17 @@ The required assessments in December 2024 undercut the case. E3 found the chosen
 
 ## Say it like this
 
-(Guidance) The PCM was Texas's proposed availability-credit program: LSEs would buy credits earned by dispatchable units that show up in the tightest hours, under a $1 billion net cost cap set by HB 1500. In December 2024 PUCT Staff and the Chairman concluded that the design added too little reliability, and attention moved to RTC+B and DRRS. [e3][e7][e10]
+(Guidance) The PCM was Texas's proposed availability-credit program: LSEs would buy credits earned by dispatchable units that show up in the tightest hours, under a $1 billion net cost cap set by HB 1500. In December 2024 PUCT Staff recommended against the design as it stood, the Chairman did not believe it would provide the reliability benefits needed, and he pointed resources to RTC+B and DRRS. [e3][e7][e10]
 
 ## Common confusion
 
-(Guidance) The PCM is not a traditional forward capacity market: credits are earned on actual availability in the tightest hours. [e1] It is also not DRRS; DRRS is an Ancillary Service that went ahead, while the PCM stalled. [e10] The $1 billion cap in statute is a net cost cap; whether net costs were near $12 million or hundreds of millions depended on the study. [e3][e9]
+(Guidance) PCM credits are earned by availability in the top 30 hours of highest risk and bought by LSEs. [e1] It is also not DRRS, which is an Ancillary Service (see the drrs topic); the Chairman pointed resources to DRRS rather than the PCM as designed. [e10] The $1 billion cap in statute is a net cost cap; whether net costs were near $12 million or hundreds of millions depended on the study. [e3][e9]
 
 ## Questions
 
 ### Why did PUCT Staff recommend against the PCM?
 
-Under the chosen parameters it added little resource adequacy value: about 780 MW of dispatchable generation and an LOLE improvement from 2.67 to 2.18 days per year. [e8] Staff therefore recommended not moving forward with the PCM as designed. [e7]
+After reviewing the ERCOT/E3 and IMM assessments, Staff recommended not moving forward with the PCM as currently designed. [e7] Its memo says the PCM as designed was anticipated to incentivize 780 MW of additional dispatchable generation and reduce LOLE from 2.67 to 2.18 days per year. [e8]
 
 ### What guardrails does PURA 39.1594 put on a credit program?
 
@@ -141,7 +141,7 @@ A $1 billion annual net cost cap, credits only for dispatchable generation, cent
 
 ### Why do the ERCOT/E3 and IMM cost estimates differ so much?
 
-ERCOT/E3 found the $1 billion of PCM payments almost fully offset by lower energy and ancillary service costs, for a net of about $12 million. The IMM did not expect that offset and put long-term net costs at $350 to $725 million. [e9]
+ERCOT/E3 found the $1 billion of PCM payments almost fully offset by lower energy and ancillary service costs, for a net of approximately $12 million. The IMM said the reduction is unlikely to offset PCM costs to that degree and put long-term net costs with the gross cap in place at $350 million to $725 million. [e9]
 
 ## Open items
 

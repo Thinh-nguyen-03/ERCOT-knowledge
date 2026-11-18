@@ -13,7 +13,7 @@ links:
     note: Read the offer-cap topic for HCAP, LCAP and the annual peaker-net-margin switch; the EPP is the separate, event-based cap reduction. [e2]
   - to: peaker-net-margin
     type: contrasts-with
-    note: PNM is a cumulative annual trigger, while the EPP reacts to 12 hours at the cap in a rolling 24-hour period. [e1]
+    note: PNM is a cumulative annual trigger, while the EPP reacts to 12 hours at the cap in a rolling 24-hour period. [e1][e15]
   - to: eea
     type: related
     note: The duration of the EPP extends after ERCOT exits emergency operations. [e3]
@@ -22,7 +22,7 @@ links:
     note: SB 3 (2021) directed the commission by rule to establish an emergency pricing program. [e7]
   - to: puct
     type: regulates
-    note: The PUCT rule 25.509(c) sets the EPP and receives ERCOT's reports after each activation. [e5]
+    note: The PUCT rule 25.509(c) sets the EPP and receives ERCOT's initial report after the EPP is terminated. [e5]
   - to: load-ratio-share
     type: related
     note: Reimbursement costs under the EPP are allocated on a load ratio share basis. [e13]
@@ -79,6 +79,14 @@ evidence:
     source: puct-25-509
     locator: "16 TAC 25.509(c)(5)(C)"
     quote: "ERCOT must allocate costs associated with this paragraph on a load ratio share basis."
+  - id: e14
+    source: puct-25-509
+    locator: "16 TAC 25.509(b)(6)(D)"
+    quote: "If the peaker net margin exceeds the threshold established in subparagraph (C) of this paragraph during a calendar year, the system-wide offer cap will be set to the LCAP for the remainder of that calendar year."
+  - id: e15
+    source: puct-25-509
+    locator: "16 TAC 25.509(b)(4)"
+    quote: "Beginning January 1 of each calendar year, the peaker net margin will be calculated as: ∑((RTEP – POC) * (number of minutes in a settlement interval / 60 minutes per hour)) for each settlement interval when RTEP – POC >0."
 ---
 
 ## Definition
@@ -93,7 +101,7 @@ The EPP lasts until the later of 24 hours after activation or, if ERCOT entered 
 
 ## ERCOT context
 
-The program comes from SB 3 (2021), which told the commission to establish an emergency pricing program by rule and to have it take effect when the HCAP has been in effect for 12 hours in a 24-hour period. [e7][e12] Within 10 working days of termination ERCOT must file an initial report with the commission. [e5] Until system and protocol changes were complete, ERCOT could use a manual activation process and consider the real-time energy price excluding congestion. [e9]
+The program comes from SB 3 (2021), which told the commission to establish an emergency pricing program by rule and to have it take effect when the HCAP has been in effect for 12 hours in a 24-hour period. [e7][e12] Within 10 working days of termination ERCOT must file an initial report with the commission. [e5] Until any system and protocol changes are complete, ERCOT may use a manual activation process and consider the real-time energy price, exclusive of any congestion. [e9]
 
 The PUCT will review each system-wide offer cap program starting January 1, 2026, and every five years after. [e11]
 
@@ -107,11 +115,11 @@ The PUCT will review each system-wide offer cap program starting January 1, 2026
 
 ## Say it like this
 
-If prices sit at the high cap for 12 hours in any rolling day, ERCOT automatically lowers the cap to the lower level for at least 24 hours, and generators whose real costs are above that can claim reimbursement. It is a circuit breaker on a prolonged price spike, not a yearly cap.
+If prices sit at the high cap for 12 hours in any rolling day, ERCOT must lower the cap to the lower level for at least 24 hours, and generators whose real costs are above that can claim reimbursement. It is a circuit breaker on a prolonged price spike, not a yearly cap.
 
 ## Common confusion
 
-The EPP and the peaker net margin test both lower the cap to a lower level, but they are separate triggers: the EPP reacts to 12 hours at the cap in a rolling 24 hours, and the PNM test accumulates over a calendar year. [e1][e2] The EPP is also separate from EEA levels, although its end date depends on when ERCOT exits emergency operations. [e3]
+The EPP and the peaker net margin test both lower the cap to a lower level, but they are separate triggers: the EPP reacts to 12 hours at the cap in a rolling 24 hours, and the PNM test accumulates over a calendar year. [e1][e2][e14][e15] The EPP's end date can depend on when ERCOT exits emergency operations. [e3]
 
 ## Questions
 

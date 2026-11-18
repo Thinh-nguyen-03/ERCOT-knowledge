@@ -10,13 +10,13 @@ as_of: 2026-11-18
 links:
   - to: puct
     type: related
-    note: The PUCT certifies ERCOT as the Independent Organization, approves its budget and fee, and must approve its protocols before they take effect. [e9][e10][e11]
+    note: The PUCT certifies ERCOT as the Independent Organization, approves its budget and fee, and must approve its protocols before they take effect. [e1][e9][e10][e11]
   - to: imm
     type: related
     note: ERCOT contracts with the market monitor the PUCT selects, but the IMM is an office independent of ERCOT and not supervised by it. [e6]
   - to: texas-interconnection
     type: operates
-    note: Covers the physical grid ERCOT operates and its limited DC-tie links to neighboring systems.
+    note: Covers the physical grid ERCOT operates.
   - to: nodal-market
     type: operates
     note: ERCOT administers the daily operational and market functions of the ERCOT system, including scheduling and congestion management. [e3]
@@ -123,7 +123,7 @@ As of the October 2026 fact sheet, ERCOT describes itself as a membership-based 
 
 ## Say it like this
 
-(Guidance) ERCOT is the PUCT-certified nonprofit that runs the Texas grid and its wholesale market: it dispatches resources, manages congestion, procures reserves, and settles every trade as the central counterparty. It answers to the PUCT, which approves its budget, its fee and its protocol changes, so ERCOT is not a self-governing industry club.
+(Guidance) ERCOT is the PUCT-certified nonprofit that runs the Texas grid and its wholesale market: it schedules resources and loads, manages congestion, procures reserves, and settles the transactions it administers as the central counterparty. It answers to the PUCT, which approves its budget, its fee and its protocol changes, so ERCOT is not a self-governing industry club.
 
 ## Common confusion
 
@@ -141,7 +141,7 @@ The board's composition is set in PURA. Eight members are picked by a three-pers
 
 ### Why does it matter that ERCOT is the central counterparty?
 
-Each participant settles with ERCOT, not with the other side of the trade. ERCOT is the sole buyer to each seller and the sole seller to each buyer for the products it settles. [e4] That is why ERCOT assesses creditworthiness and enforces security requirements for participants. [e3]
+Each participant settles with ERCOT, not with the other side of the trade. ERCOT is the sole buyer to each seller and the sole seller to each buyer for the products it settles. [e4] ERCOT also assesses participants' creditworthiness and enforces security requirements as part of settlement and billing. [e3]
 
 ### How is ERCOT funded?
 

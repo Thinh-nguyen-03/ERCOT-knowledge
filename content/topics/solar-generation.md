@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: resource-mix
     type: part-of
-    note: Solar is the fastest-growing fuel in the mix; see that topic for generation and capacity shares.
+    note: Solar generation grew almost 49% in 2025; see resource-mix for generation and capacity shares. [e2]
   - to: wind-generation
     type: contrasts-with
     note: Solar has a lower overall capacity factor than wind but a higher one at daily peak load. [e4][e5]
@@ -19,7 +19,7 @@ links:
     note: Solar's capacity factor at the daily net peak fell to 1.7% in 2025. [e4]
   - to: evening-ramp
     type: causes
-    note: The evening solar down-ramp is the main source of the net load ramp and the associated price spikes. [e8]
+    note: Most 2025 price spikes occurred in the 7 to 9 p.m. peak net load hours, when solar production ramped down for the day. [e13]
   - to: energy-storage-resource
     type: related
     note: More solar lowers daytime prices, which lets ESRs charge midday and discharge in the evening. [e9]
@@ -28,7 +28,7 @@ links:
     note: A large share of capacity is offered at or below $0, primarily wind and solar with federal production tax credits. [e7]
   - to: cdr-report
     type: related
-    note: The CDR counts solar at its ELCC capacity contribution, not nameplate. [e10]
+    note: The CDR cites a lower capacity contribution from wind and solar, due to the use of Effective Load Carrying Capabilities, as a reason for lower reserve margin trajectories. [e10]
 evidence:
   - id: e1
     source: np-02
@@ -69,11 +69,15 @@ evidence:
   - id: e10
     source: ercot-cdr-2025-12
     locator: "Executive Summary, Planning Reserve Margin discussion"
-    quote: "a lower capacity contribution from wind and solar resources due to the use of Effective Load Carrying Capabilities"
+    quote: "The lower and sharply downward trajectory of the Margins is due to (1) high load growth largely driven by new Loads reported by Transmission Service Providers, (2) a lower capacity contribution from wind and solar resources due to the use of Effective Load Carrying Capabilities, (3) fewer planned resources that result from applying additional eligibility criteria to be included in Planning Reserve Margins."
   - id: e11
     source: imm-som-2024
     locator: "Demand and Supply in ERCOT, wind and solar production"
     quote: "Solar generation grew more sharply, increasing by 62% with nearly 6% of that output curtailed."
+  - id: e13
+    source: imm-som-2025
+    locator: "Review of Real-Time Market Outcomes, 4. Price Spike Impacts"
+    quote: "As in 2024, most price spikes in 2025 occurred during the peak net load hours between 7 and 9 p.m., when solar production across the state ramped down for the day."
   - id: e12
     source: imm-som-2025
     locator: "Demand and Supply in ERCOT, 3. Captured Prices for Wind and Solar"
@@ -86,15 +90,15 @@ Solar is an Intermittent Renewable Resource: in the Protocols, a Generation Reso
 
 ## How it works
 
-Solar output peaks in the middle of the day, so its capacity factor is high at daily peak load (over 48% in 2025) but near zero at the evening net peak (1.7% in 2025). [e4] Its overall capacity factor was 23.8% in 2025, below wind's 31.6%. [e5]
+The IMM says solar production peaks in the middle of the day. [e8] Its capacity factor is high at daily peak load (over 48% in 2025) but near zero at the evening net peak (1.7% in 2025). [e4] Its overall capacity factor was 23.8% in 2025, below wind's 31.6%. [e5]
 
-Because solar output is concentrated at midday, midday is also when curtailment is most likely, since simultaneous production peaks. [e3] Solar has been curtailed less than wind (about 6% in 2025) partly because it can be sited closer to load and is less prone to congestion. [e2]
+Because solar output is concentrated at midday, midday is also when curtailment is most likely, since simultaneous production peaks. [e3] Roughly 6% of solar generation was curtailed in 2025, which the IMM calls relatively low, partly because solar projects can be sited closer to load and are less prone to congestion than wind. [e2]
 
 ## ERCOT context
 
-Solar is the growth story: generation grew almost 49% in 2025 after 62% in 2024. [e2][e11] ERCOT's summer 2026 review says solar growth outpacing large load additions made daytime hours uneventful. [e6] The effect on the price shape is large: the share of price spikes between 9 a.m. and 2 p.m. fell from 9.3% in 2024 to 2.7% in 2025, while the tight hours moved to the evening. [e8]
+Solar is the growth story: generation grew almost 49% in 2025 after 62% in 2024. [e2][e11] ERCOT's summer 2026 review says solar growth outpacing large load additions made daytime hours uneventful. [e6] The share of price spikes between 9 a.m. and 2 p.m., when solar production peaks, fell from 9.3% in 2024 to 2.7% in 2025. [e8] The IMM says that as solar output has increased, it has shifted the timing of peak net load later in the evening. [e4]
 
-More solar lowers daytime prices, letting ESRs charge then and discharge into the evening ramp. [e9] The IMM adds that the average captured energy price for renewable generation tends to decrease as installed renewable capacity increases. [e12] For resource adequacy, ERCOT's CDR credits solar through an ELCC capacity contribution, and lists the lower wind and solar capacity contribution among the reasons for a sharply downward margin trajectory. [e10]
+ERCOT says more solar and ESR capacity tends to result in lower daytime energy prices, allowing ESRs to charge then and discharge over the evening solar ramp. [e9] The IMM adds that the average captured energy price for renewable generation tends to decrease as installed renewable capacity increases. [e12] For resource adequacy, the December 2025 CDR lists a lower capacity contribution from wind and solar, due to the use of Effective Load Carrying Capabilities, among the reasons for the lower and sharply downward trajectory of its projected margins. [e10]
 
 ## Key facts
 
@@ -116,7 +120,7 @@ More solar lowers daytime prices, letting ESRs charge then and discharge into th
 
 ### Why did solar growth not eliminate scarcity?
 
-Scarcity moved to the net peak at 7 to 9 p.m., when solar's capacity factor was 1.7% in 2025. [e4]
+Scarcity moved to the net peak, later in the evening, when solar's capacity factor was 1.7% in 2025. [e4]
 
 ### Why do wind and solar offer at or below $0?
 
@@ -131,3 +135,4 @@ At midday, when simultaneous production peaks. [e3]
 - Deeper pass: installed solar MW by year (the fact sheet reports 41,926 MW in October 2026 and is already used in resource-mix), solar by region, and distributed or rooftop solar treatment.
 - Deeper pass: solar ELCC percentages from the CDR (the table text did not extract into clean numbers).
 - The IMM's "6% of total generation was curtailed" sentence reads like a solar-only figure; see Common confusion.
+- The IMM calls solar's roughly 6% curtailment in 2025 relatively low and attributes it to siting closer to load, yet its wind curtailment figure for 2025 is 4.7%; the sources do not reconcile this.

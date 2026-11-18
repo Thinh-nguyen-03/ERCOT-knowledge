@@ -10,10 +10,10 @@ as_of: 2026-11-18
 links:
   - to: ordc
     type: composed-of
-    note: In an energy-only market the shortage pricing comes from operating reserve demand curves, which set prices when reserves are short. [e12]
+    note: Until RTC went live on 5 December 2025 the shortage pricing in ERCOT came from operating reserve demand curves; with RTC, ancillary service demand curves define shortage pricing. [e12][e15][e16]
   - to: offer-cap
     type: related
-    note: The high offer cap drops to the low cap for the rest of the year once peaker net margin passes three times CONE. [e8]
+    note: Under PUCT rule 25.509 the offer cap stays at the HCAP until peaker net margin passes three times CONE, then drops to the low cap; the Protocol table now lists a $5,000 day-ahead and a $2,000 real-time cap. [e8][e7][e17]
   - to: resource-adequacy
     type: related
     note: The IMM says meeting the 25.508 reliability standard through price signals alone would require an extraordinarily high VOLL. [e11]
@@ -25,7 +25,7 @@ links:
     note: The IMM warns that over-procuring ancillary services suppresses the shortage pricing an energy-only design relies on. [e13]
   - to: imm
     type: related
-    note: The IMM's net revenue and CONE analysis in each State of the Market report is the standard check on whether the design is paying for new entry. [e5]
+    note: The IMM's 2025 State of the Market report compares net revenue with the planning CONE to judge whether new investment is being incentivized. [e5]
 evidence:
   - id: e1
     source: imm-som-2025
@@ -83,6 +83,22 @@ evidence:
     source: pura-39
     locator: "PURA §39.1594(a)(1), Reliability Program"
     quote: "the commission may not require retail customers or load-serving entities in the ERCOT power region to purchase credits designed to support a required reserve margin or other capacity or reliability requirement unless the commission ensures that:(1)  the net cost to the ERCOT market of the credits does not exceed $1 billion annually, less the cost of any interim or bridge solutions that are lawfully implemented, except that the commission may adjust the limit:(A)  proportionally according to the highest net peak demand year-over-year with a base year of 2026; and(B)  for inflation with a base year of 2026;"
+  - id: e15
+    source: imm-som-2025
+    locator: "Chapter I, all-in price discussion (p. 2)"
+    quote: "The Operating Reserve Demand Curve (ORDC) Adder, implemented in 2014 and discontinued in December 2025 with the introduction of RTC, reflects increasing reliability risks when reserves begin to run short; and"
+  - id: e16
+    source: imm-som-2025
+    locator: "Chapter III, The AS Methodology and the Energy-Only Market (p. 48)"
+    quote: "With RTC, a set of sloped ancillary service demand curves (ASDCs) defines shortage pricing in the day-ahead and real-time markets. These ASDCs are intended to reflect the marginal reliability value of reserves and define the penalty price when the market goes short on them."
+  - id: e17
+    source: np-04
+    locator: "Section 4.4.11, parameter table (Parameter / Unit / Current Value)"
+    quote: "ECAP $/MWh 2,000 HCAP – DAM (DASWCAP) $/MWh 5,000 HCAP – RTM (RTSWCAP) $/MWh 2,000 LCAP $/MWh 2,000 PNM threshold $/MW-year 315,000"
+  - id: e18
+    source: ercot-summer-2026-review
+    locator: "Summer 2026 Operational and Market Review (Board, 2026-09-14/15), slide 21 note"
+    quote: "SWCAP is reduced to $2000/MWh from $5000/MWh after RTC go-live on 12/5/2025."
 ---
 
 ## Definition
@@ -93,28 +109,28 @@ An energy-only market relies mainly on expected shortage revenue in the energy a
 
 Generators fund their fixed and capital costs from net revenue, which is what remains of energy and ancillary service revenue after short-run operating costs. In ERCOT, those net revenues are the main economic signal for building and retiring plants. Day-ahead and bilateral forward revenue ultimately reflects expected real-time prices. [e3]
 
-The core of the design is shortage pricing. When supply is tight, prices rise to reflect the higher value of available generation, and those spikes are how generators recover fixed costs. [e4] In ERCOT that shortage pricing comes from operating reserve demand curves, which set prices when the market lacks enough resources to meet its full energy and ancillary service requirements. If too few resources are being sustained, the signal can be strengthened by raising the value the ORDC implies. [e12]
+The core of the design is shortage pricing. When supply is tight, prices rise to reflect the higher value of available generation, and those spikes are how generators recover fixed costs. [e4] In ERCOT, before RTC went live in December 2025, that shortage pricing came from operating reserve demand curves, which set prices when the market lacked enough resources to meet its full energy and ancillary service requirements. If too few resources were being sustained, the signal could be strengthened by raising the value the ORDC implied. [e12][e15] The ORDC adder was discontinued in December 2025 with RTC, and the IMM says a set of sloped ancillary service demand curves now defines shortage pricing in the day-ahead and real-time markets. [e15][e16]
 
 The design has a built-in tension. To produce investment revenue, the market has to go short on capacity, so energy-only markets can struggle to meet a 1-in-10 reliability standard. [e1] Meeting such a standard through shortage prices alone needs a very high value of lost load (VOLL), which is why most RTOs use capacity constructs instead. [e10]
 
-There is also a brake on excess scarcity rent. The system-wide offer cap starts each year at the high cap (HCAP) and stays there until peaker net margin (PNM) passes three times CONE. [e8] The IMM puts the threshold at $315 per kW-year. Crossing it cuts the cap from $5,000 to $2,000 per MWh for the rest of that year. [e7]
+There is also a brake on excess scarcity rent. The system-wide offer cap starts each year at the high cap (HCAP) and stays there until peaker net margin (PNM) passes three times CONE. [e8] The IMM puts the threshold at $315 per kW-year. Crossing it cuts the cap from $5,000 to $2,000 per MWh for the rest of that year, as the IMM describes it. [e7] That description does not mention the RTC split: the Protocol parameter table now lists the day-ahead cap at $5,000 and the real-time cap at $2,000 per MWh, and ERCOT says the SWCAP was reduced to $2,000 from $5,000 after RTC go-live on 12/5/2025. [e17][e18]
 
 ## ERCOT context
 
 The IMM treats CONE as a long-run benchmark, not a target to hit every year. Lean years discourage entry, which tightens supply and raises scarcity revenue, which then brings back investment. [e6] In 2025, net revenue was $52.59 per kW-year for a CT and $82.96 per kW-year for a CC. Both were below the PUCT's $140 per kW-year planning CONE, so 2025 revenues were not high enough on their own to support new investment. [e5]
 
-Scarcity pricing was nearly absent in 2025. Higher operating reserves meant the ORDC added only $0.02 per MWh to real-time prices, the lowest annual value since the ORDC began in 2014. [e9] The PNM threshold has been crossed only once, on February 16, 2021, during Winter Storm Uri. [e7]
+Shortage pricing was much less prevalent in 2025. Higher operating reserves meant the ORDC (since discontinued with RTC) added only $0.02 per MWh to real-time prices, the lowest annual value since the ORDC began in 2014. [e9][e15] The PNM threshold has been crossed only once, on February 16, 2021, during Winter Storm Uri. [e7]
 
-The policy debate is now about whether the energy-only design can meet the PUCT's reliability standard. The IMM says meeting the 25.508 standard through price signals alone would imply an extraordinarily high operational VOLL. It has asked the Commission to clarify whether the standard is binding or aspirational. [e11] The IMM also argues that procuring too many ancillary services injects non-price-setting energy and undermines the shortage pricing the design depends on. [e13] The Legislature has limited any move toward capacity credits: PURA caps the net cost of any such credit program at $1 billion a year, subject to adjustments. [e14]
+The IMM raises the question of whether the energy-only design can meet the PUCT's reliability standard. It says meeting the 25.508 standard through price signals alone would imply an extraordinarily high operational VOLL. It has asked the Commission to clarify whether the standard is binding or aspirational. [e11] The IMM also argues that procuring too many ancillary services injects non-price-setting energy and undermines the shortage pricing the design depends on. [e13] The Legislature has limited any move toward capacity credits: PURA caps the net cost of any such credit program at $1 billion a year, subject to adjustments. [e14]
 
 ## Key facts
 
 - ERCOT has no capacity market. [e2]
 - 2025 net revenue: CT $52.59/kW-yr, CC $82.96/kW-yr, against a $140/kW-yr planning CONE (IMM 2025 SOM). [e5]
-- 2025 ORDC adder: $0.02/MWh, the lowest since the ORDC began in 2014. [e9]
-- PNM threshold: three times CONE ($315/kW-yr, per the IMM). Crossing it moves the cap from $5,000 to $2,000/MWh for the rest of the year. [e7][e8]
+- 2025 ORDC adder: $0.02/MWh, the lowest since the ORDC began in 2014; the ORDC adder was discontinued in December 2025 with RTC. [e9][e15]
+- PNM threshold: three times CONE ($315/kW-yr, per the IMM). Crossing it moves the cap from $5,000 to $2,000/MWh for the rest of the year, per the IMM. [e7][e8] After RTC go-live the Protocol table lists a $5,000 day-ahead and a $2,000 real-time cap. [e17][e18]
 - The PNM threshold has been exceeded only once, on February 16, 2021 (Uri). [e7]
-- ORDC changes the Commission made at the start of 2022 sharply increased shortage revenues, per the IMM's 2024 report. [e12]
+- ORDC changes the Commission made at the start of 2022 sharply increased shortage revenues, per the IMM's 2024 report (the ORDC adder has since been replaced by ASDCs). [e12][e15][e16]
 - Any PUCT-required capacity or reliability credit program is capped at $1 billion a year in net cost, subject to adjustment. [e14]
 
 ## Formula
@@ -145,7 +161,7 @@ Because its investment revenue depends on the market actually going short. To re
 
 ### What happens if peaker net margin gets too high?
 
-Once PNM passes three times CONE in a calendar year, the offer cap moves from the $5,000 high cap to the $2,000 low cap for the rest of that year. [e7][e8]
+Per PUCT rule 25.509 and the IMM's 2025 report, once PNM passes three times CONE in a calendar year, the offer cap moves from the $5,000 high cap to the $2,000 low cap for the rest of that year. [e7][e8] Since RTC go-live the Protocol table lists a $5,000 day-ahead cap and a $2,000 real-time cap, so the real-time cap is already $2,000 before any PNM trigger. [e17][e18]
 
 ## Scenarios
 
@@ -157,6 +173,7 @@ Once PNM passes three times CONE in a calendar year, the offer cap moves from th
 
 ## Open items
 
+- The PNM-trigger description (cap falls from $5,000 to $2,000) comes from the PUCT rule and the IMM's 2025 report; the saved sources do not explain how the trigger interacts with the separate day-ahead and real-time caps listed in the Protocol table after RTC.
 - No saved source gives the current VOLL or ORDC parameters. See the ordc topic.
 - The IMM 2025 report says ERCOT's accelerated CONE study could produce a value above $200 per kW-year. No final value appears in the saved sources.
 - No saved source explains the historical reasons ERCOT chose an energy-only design.

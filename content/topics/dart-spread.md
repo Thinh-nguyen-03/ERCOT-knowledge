@@ -16,13 +16,13 @@ links:
     note: The real-time side is the price that day-ahead positions are settled against. [e7]
   - to: virtual-bids
     type: related
-    note: Virtual energy offers and bids are the location-specific trades that arbitrage the spread. [e1]
+    note: The IMM says participants can arbitrage predictable differences between day-ahead and real-time prices. [e1]
   - to: ptp-obligation
     type: related
-    note: A PTP Obligation is the same idea on a two-location price difference rather than a single price. [e8]
+    note: The IMM reports that PTPs received 10.9% more in real time than their day-ahead purchase cost in 2025. [e8]
   - to: spp
     type: measures
-    note: The spread is measured on Settlement Point Prices in the two markets. [e2]
+    note: The IMM looks at the average difference between day-ahead and real-time spot prices. [e2]
   - to: sc-dam-premium-flip
     type: related
     note: A scenario on what it means when the DAM clears below real time. [e3]
@@ -85,23 +85,23 @@ The IMM treats convergence as important because it leads to more efficient commi
 
 For energy, the spread has been small recently. In 2025 the average day-ahead premium was $1.17 per MWh, slightly lower than 2024, and the average absolute difference was only $12 per MWh, the lowest since 2020. [e3] In 2024 the day-ahead price averaged under $1.50 per MWh above real time, with an average absolute difference of $17.35 per MWh. [e4]
 
-For Ancillary Services under RTC, the day-ahead premium was very high in the early days of RTC, driven by two events. [e9] A related two-location measure is PTP profitability: PTPs received 10.9% more in real time than their day-ahead purchase cost in 2025. [e8]
+For Ancillary Services under RTC, the day-ahead premium was very high in the early days of RTC, and two events account for a disproportionate share of it. [e9] A related two-location measure is PTP profitability: PTPs received 10.9% more in real time than their day-ahead purchase cost in 2025. [e8]
 
 ## Key facts
 
 - 2025 average DAM premium to RT: $1.17 per MWh; average absolute difference: $12 per MWh, the lowest since 2020. [e3]
 - 2024 average DAM premium under $1.50 per MWh; average absolute difference: $17.35 per MWh. [e4]
 - Day-ahead energy and AS positions are financial, settled against real time. [e7]
-- Early-RTC day-ahead AS premiums were very high, explained by two events. [e9]
+- Early-RTC day-ahead AS premiums were very high; two events account for a disproportionate share. [e9]
 - PTPs earned 10.9% more in real time than their day-ahead cost in 2025. [e8]
 
 ## Say it like this
 
-The DART spread is the gap between the day-ahead and real-time price. In recent years the average gap has been small, a dollar or so per MWh, but the daily gap can still be large, which is where the trading is.
+The DART spread is the gap between the day-ahead and real-time price. In recent years the average gap has been small, a dollar or so per MWh, but daily gaps can still be large even when prices converge on average.
 
 ## Common confusion
 
-A small average spread does not mean a small risk. The average absolute daily difference was $12 per MWh in 2025 even though the average premium was only $1.17. [e3] Also, "DART premium" is a signed average, while the absolute difference measures dispersion. [e10]
+A small average spread does not mean a small risk. The average absolute daily difference was $12 per MWh in 2025 even though the average premium was only $1.17. [e3] Also, the average difference between day-ahead and real-time prices can hide persistent or offsetting gaps, while the average absolute difference captures variation in daily price differences. [e2][e10]
 
 ## Questions
 
@@ -115,11 +115,11 @@ Low barriers to trading, enough information to form accurate expectations of rea
 
 ### What changed for day-ahead Ancillary Service prices with RTC?
 
-Day-ahead AS awards no longer carry physical obligations; they are financial positions settled in real time, and the early-RTC day-ahead premium was very high. [e7][e9]
+Day-ahead energy and AS positions are now strictly financial positions with imbalances settled in real time, and the early-RTC day-ahead AS premium was very high. [e7][e9]
 
 ## Open items
 
 - The protocols saved here do not define "DART" or the DART spread; the term appears only in the IMM report's Table A2 and in np-04 settlement variable names. The definition above is built from the IMM text.
-- Deeper pass: DART by location (Hub vs Resource Node vs Load Zone) and by hour; the saved IMM figures are not legible in text form and OCR copies are not saved.
+- Deeper pass: DART by location (Hub vs Resource Node vs Load Zone) and by hour; the saved IMM figures are not legible in text form and were not quoted in this pass.
 - Deeper pass: drivers of persistent premiums (day-ahead participation by physical resources, risk premia), and the Table A2 AS premium numbers.
 - Deeper pass: the two events behind the early-RTC AS premium (December 5, 2025 and Winter Storm Fern) are described in the IMM appendix and could be linked to a case topic.

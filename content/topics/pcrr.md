@@ -10,13 +10,13 @@ as_of: 2026-11-18
 links:
   - to: crr
     type: is-a
-    note: PCRRs are CRRs allocated to eligible NOIEs instead of being sold at auction. [e1]
+    note: ERCOT allocates a portion of available CRRs as PCRRs to NOIEs that meet the pre-September 1, 1999 ownership or contract test. [e1]
   - to: crr-auction
     type: related
-    note: The auction is the other route to CRRs; PCRRs are allocated outside it.
+    note: See the crr-auction topic for the auction route to CRRs.
   - to: congestion
     type: hedges
-    note: PCRRs give eligible NOIEs a congestion hedge tied to legacy generation. [e2][e7]
+    note: The IMM says PCRR holders pay only a fraction of the auction value of comparable CRRs, reflecting legacy transmission access rights. [e7]
   - to: lse
     type: related
     note: A NOIE is an EC or MOU that does not offer Customer Choice. [e3]
@@ -25,7 +25,7 @@ links:
     note: A NOIE serving Load in more than one Load Zone nominates PCRRs per zone. [e5]
   - to: four-cp
     type: related
-    note: Portfolio supply allocations use a 2003 4-CP ratio share. [e4]
+    note: Where a portfolio supply contract does not describe the NOIE entitlement by resource, the PCRR allocation uses a 2003 4-CP ratio share. [e4]
 evidence:
   - id: e1
     source: np-07
@@ -59,6 +59,10 @@ evidence:
     source: np-07
     locator: "Section 7.4.2.2, paragraph (1)(a)"
     quote: "A PCRR nomination is a request for one-month strips of a NOIE-specified CRR type for amounts and blocks specified by the NOIE for each month of the PCRR Nomination Year as described in paragraph (c) below."
+  - id: e10
+    source: np-07
+    locator: "Section 7.4.2.1, paragraph (1)"
+    quote: "If a Generation Resource is repowered by the addition of new equipment, the PCRR MW amount is limited to the original specific turbine/generator set(s) from the pre-September 1, 1999 Generation Resource. New or upgraded components that increase the capacity of pre-September 1, 1999 Generation Resources are not eligible for increased PCRR MW amounts."
   - id: e9
     source: np-02
     locator: "Section 2.1, definition of PCRR Nomination Year"
@@ -103,10 +107,9 @@ NOIEs with pre-September 1, 1999 generation ownership or qualifying long-term co
 
 ### Can a new plant earn PCRRs?
 
-Repowered or upgraded capacity does not raise a PCRR allocation, and the cap rests on 2010 registration data. [e6]
+Not on new capacity: eligibility rests on pre-September 1, 1999 ownership or contracts, [e1] and new or upgraded components that increase the capacity of those resources are not eligible for increased PCRR MW amounts. [e10]
 
 ## Open items
 
 - Deeper pass: disqualifying events and their effects (7.4.1.3), outage-related eligibility (7.4.1.2), and the SFT-based proportional reduction of infeasible nominations (7.4.2.2).
 - Deeper pass: the PCRR charge formula (7.5.6.3), including the PCRROBLF factor; the "fraction" level is not quantified in sources read.
-- Whether the Section 7.4.2.1 repowering limit applies to all upgrades was not read beyond paragraph (1).

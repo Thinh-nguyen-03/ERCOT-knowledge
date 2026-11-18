@@ -16,10 +16,10 @@ links:
     note: The market monitor works under the PUCT's supervision and oversight, and the PUCT keeps all enforcement authority. [e9]
   - to: texas-legislature
     type: related
-    note: The Legislature writes PURA, which sets out the PUCT's powers over ERCOT, and it reviews the PUCT under the Sunset Act. [e13]
+    note: The Legislature amends the Utilities Code that governs the PUCT (HB 1500, 2023), and the PUCT is subject to the Texas Sunset Act. [e17]
   - to: offer-cap
     type: determines
-    note: PUCT rule 25.509 sets the $5,000 high and $2,000 low system-wide offer caps. [e11]
+    note: PUCT rule 25.509 states a $5,000 high and a $2,000 low system-wide offer cap, while the Protocol table lists a $5,000 day-ahead and a $2,000 real-time cap after RTC go-live. [e11][e15][e16]
   - to: market-power-mitigation
     type: regulates
     note: PURA directs the PUCT to monitor market power and order mitigation when it finds abuse. [e8]
@@ -82,6 +82,18 @@ evidence:
     source: hb1500-88r
     locator: "HB 1500 (2023), SECTION 1, amending Utilities Code §12.005"
     quote: "that chapter or by Chapter 39, the commission is abolished [and this 13 title expires] September 1, 2029 [2023]."
+  - id: e15
+    source: np-04
+    locator: "Section 4.4.11, parameter table (Parameter / Unit / Current Value)"
+    quote: "ECAP $/MWh 2,000 HCAP – DAM (DASWCAP) $/MWh 5,000 HCAP – RTM (RTSWCAP) $/MWh 2,000 LCAP $/MWh 2,000 PNM threshold $/MW-year 315,000"
+  - id: e16
+    source: ercot-summer-2026-review
+    locator: "Summer 2026 Operational and Market Review (Board, 2026-09-14/15), slide 21 note"
+    quote: "SWCAP is reduced to $2000/MWh from $5000/MWh after RTC go-live on 12/5/2025."
+  - id: e17
+    source: hb1500-88r
+    locator: "HB 1500 (2023), SECTION 1, amending Utilities Code §12.005"
+    quote: "Sec.A12.005.AAAPPLICATION OF SUNSET ACT. The Public Utility 10 Commission of Texas is subject to Chapter 325, Government Code 11 (Texas Sunset Act). 12 that chapter or by Chapter 39, the commission is abolished [and this 13 title expires] September 1, 2029 [2023]."
   - id: e14
     source: imm-som-2025
     locator: "2025 State of the Market Report, Resource Adequacy, D.1 Updates to CONE"
@@ -104,9 +116,9 @@ On market conduct, PURA directs the commission to monitor market power. When it 
 
 ## ERCOT context
 
-Several of the parameters that analysts model come from PUCT rules, not from ERCOT. Rule 25.509 sets the high system-wide offer cap at $5,000 per MWh and the low cap at $2,000 per MWh for energy. [e11] Rule 25.508 sets the ERCOT reliability standard, which includes a frequency criterion of 0.1 loss of load expectation. [e12] In July 2024 the PUCT approved a planning CONE of $140 per kW-year, while keeping the legacy $105 per kW-year value for the peaker net margin threshold. [e14]
+Several of the parameters that analysts model come from PUCT rules, not from ERCOT. Rule 25.509 states a high system-wide offer cap (HCAP) of $5,000 per MWh and a low cap (LCAP) of $2,000 per MWh for energy. [e11] The Protocol parameter table, however, lists the day-ahead cap at $5,000 and the real-time cap at $2,000 per MWh, and ERCOT's September 2026 review says the SWCAP fell to $2,000 from $5,000 after RTC go-live on 12/5/2025. [e15][e16] The rule text in the saved sources has not been updated to show a separate real-time value (see the offer-cap topic). Rule 25.508 sets the ERCOT reliability standard, which includes a frequency criterion of 0.1 loss of load expectation. [e12] In July 2024 the PUCT approved a planning CONE of $140 per kW-year, while keeping the legacy $105 per kW-year value for the peaker net margin threshold. [e14]
 
-The 2023 Sunset bill, HB 1500, changed the PUCT's own footing. It set September 1, 2029 as the date the commission is abolished unless it is continued, replacing 2023. [e13] It also added PURA §39.1514, which limits how the commission can direct ERCOT. [e7][e6]
+The 2023 Sunset bill, HB 1500, changed the PUCT's own footing. It changed the date in the Sunset provision to September 1, 2029, replacing 2023. [e13][e17] It also added PURA §39.1514, which limits how the commission can direct ERCOT. [e7][e6]
 
 ## Key facts
 
@@ -114,9 +126,9 @@ The 2023 Sunset bill, HB 1500, changed the PUCT's own footing. It set September 
 - The PUCT reviews ERCOT's budget annually or biennially and can modify any item. [e4]
 - Protocol changes need PUCT approval of a market impact statement before they take effect. [e5]
 - Since HB 1500 (2023), PUCT directives to ERCOT must come through a contested case, a rulemaking, or a written order or memo adopted by majority vote. [e6][e7]
-- Offer caps under rule 25.509: HCAP $5,000/MWh, LCAP $2,000/MWh for energy. [e11]
+- Offer caps: rule 25.509 states HCAP $5,000/MWh and LCAP $2,000/MWh for energy. [e11] The Protocol table lists $5,000 day-ahead and $2,000 real-time, and the SWCAP was reduced to $2,000 after RTC go-live on 12/5/2025. [e15][e16]
 - Reliability standard frequency criterion: no more than one loss of load event per ten years on average (0.1 LOLE). [e12]
-- Sunset: under HB 1500, the commission is abolished on September 1, 2029 unless continued. [e13]
+- Sunset: HB 1500 sets September 1, 2029 as the date in the Sunset provision for abolishing the commission. [e13][e17]
 
 ## Say it like this
 
@@ -124,7 +136,7 @@ The 2023 Sunset bill, HB 1500, changed the PUCT's own footing. It set September 
 
 ## Common confusion
 
-(Guidance) The PUCT is not FERC. In ERCOT, the PUCT, assisted by the IMM, holds ultimate responsibility for market oversight. [e10] The IMM can investigate and recommend but cannot enforce. Enforcement stays with the commission. [e9] Also, ERCOT protocol changes approved by the ERCOT board are not final until the PUCT approves them. [e5]
+(Guidance) The PUCT is not FERC. In ERCOT, the PUCT, assisted by the IMM, holds ultimate responsibility for market oversight. [e10] The IMM has no enforcement authority; enforcement stays with the commission. [e9] Also, ERCOT protocol changes approved by the ERCOT board are not final until the PUCT approves them. [e5]
 
 ## Questions
 
@@ -134,7 +146,7 @@ Not by a verbal directive. Under §39.1514, added by HB 1500, an official-action
 
 ### Who sets the offer cap, ERCOT or the PUCT?
 
-The PUCT. Rule 25.509 fixes the high cap at $5,000 per MWh and the low cap at $2,000 per MWh for energy offers. [e11]
+The PUCT sets the caps by rule. Rule 25.509 states a high cap of $5,000 per MWh and a low cap of $2,000 per MWh for energy offers. [e11] Since RTC go-live the Protocol table lists a $5,000 day-ahead cap and a $2,000 real-time cap, and ERCOT says the SWCAP was reduced to $2,000 from $5,000 after 12/5/2025. [e15][e16]
 
 ### What can the PUCT do if it finds market power abuse?
 
@@ -153,6 +165,7 @@ In July 2024 it approved $140 per kW-year for planning, and it kept the legacy $
 
 ## Open items
 
+- The saved HB 1500 text is cut off before the words that say whether the commission is continued, so the Sunset date is stated only as the date in the provision. Offer caps: rule 25.509 (single $5,000 HCAP) and the Protocol table (DAM $5,000, RTM $2,000) differ; the rule text in the saved sources has not been updated.
 - No saved source gives the number of PUCT commissioners, how they are appointed or their terms. PURA Chapter 12 is not among the sources.
 - No saved source describes the PUCT's retail-market rules in this topic's scope (see the rep and retail-choice topics).
 - PURA §39.001(d) tells regulators to prefer competitive over regulatory methods. It was not used here; it may belong in a competition-policy topic.

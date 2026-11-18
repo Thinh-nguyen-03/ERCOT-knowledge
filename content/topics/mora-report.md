@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: cdr-report
     type: contrasts-with
-    note: The CDR is a multi-year seasonal planning view; the MORA is a monthly outlook with probabilistic risk. [e2]
+    note: The MORA is a monthly outlook that evaluates the risk of emergency conditions; see the cdr-report topic for the multi-year planning view. [e2]
   - to: eea
     type: measures
     note: The MORA estimates hourly probabilities that ERCOT would need to declare an Energy Emergency Alert. [e2]
@@ -22,7 +22,7 @@ links:
     note: The MORA's CAFOR thresholds are proxies for the Physical Responsive Capability thresholds. [e5]
   - to: energy-storage-resource
     type: related
-    note: The January 2027 MORA added a battery fleet sub-model to its simulation. [e4]
+    note: The January 2027 MORA incorporates a new battery energy storage system sub-model integrated into the PRRM. [e10]
 evidence:
   - id: e1
     source: ercot-mora-2027-01
@@ -56,7 +56,7 @@ evidence:
   - id: e7
     source: ercot-mora-2027-01
     locator: "Risk Outlook Highlights, January 2027"
-    quote: "Reserve Margin formula: ((Total Resources / (Peak Demand - Emergency Resources)) - 1) * 100"
+    quote: "The monthly capacity reserve margin for the deterministic scenario, expressed as a percentage, is 44.9% for the highest risk hour, Hour Ending 8:00 a.m. Reserve Margin formula: ((Total Resources / (Peak Demand - Emergency Resources)) - 1) * 100"
   - id: e9
     source: ercot-mora-2027-01
     locator: "Hourly Risk Assessment of CAFOR"
@@ -65,6 +65,10 @@ evidence:
     source: ercot-mora-2027-01
     locator: "Background tab, Capacity Available for Operating Reserves"
     quote: "CAFOR Formula: = Monthly Maximum Expected Resource Generation Capability – Demand – Thermal Outages"
+  - id: e10
+    source: ercot-mora-2027-01
+    locator: "Risk Outlook Highlights, January 2027"
+    quote: "This MORA report incorporates the impacts of a new battery energy storage system (BESS) sub-model integrated into the PRRM."
 ---
 
 ## Definition
@@ -75,15 +79,15 @@ The MORA, or Monthly Outlook for Resource Adequacy, is an ERCOT report that eval
 
 ERCOT targets MORA releases for the first Friday of each month, and each MORA is released two months before its reporting month. [e1] The probabilistic side gives the chances, across a range of hours, that ERCOT may need to issue an Energy Emergency Alert or begin controlled outages. [e2] ERCOT runs its Probabilistic Reserve Risk Model, a Monte Carlo model, to generate 10,000 outcomes for Capacity Available for Operating Reserves (CAFOR). [e6]
 
-CAFOR is the monthly maximum expected resource generation capability less demand and thermal outages. [e8] The MORA reads CAFOR against thresholds of 2,500 MW (EEA risk) and 1,500 MW (controlled outage risk), which are proxies for the 2,500 and 1,500 MW Physical Responsive Capability thresholds. [e5] The deterministic scenario computes a capacity reserve margin with the formula ((Total Resources / (Peak Demand - Emergency Resources)) - 1) * 100. [e7]
+CAFOR is the monthly maximum expected resource generation capability less demand and thermal outages. [e8] The MORA reads CAFOR against thresholds of 2,500 MW (EEA risk) and 1,500 MW (controlled outage risk), which are proxies for the 2,500 and 1,500 MW Physical Responsive Capability thresholds. [e5] For the deterministic scenario, the report states its monthly capacity reserve margin and gives the formula ((Total Resources / (Peak Demand - Emergency Resources)) - 1) * 100. [e7]
 
 ## ERCOT context
 
-In the January 2027 MORA, the hour with the highest EEA risk is HE 8:00 a.m. CST, at a 3.20% probability that ERCOT would need to declare an EEA. [e4] That report also introduced a battery energy storage sub-model in the PRRM. [e4] For the multi-year seasonal view, see the CDR topic.
+In the January 2027 MORA, the hour with the highest EEA risk is HE 8:00 a.m. CST, at a 3.20% probability that ERCOT would need to declare an EEA. [e4] That report also incorporates a new battery energy storage system sub-model integrated into the PRRM. [e10] For the multi-year seasonal view, see the CDR topic.
 
 ## Key facts
 
-- Released the first Friday of each month for the month two months ahead. [e1]
+- Release is targeted for the first Friday of each month, for the reporting month two months ahead. [e1]
 - Two approaches: probabilistic EEA and controlled-outage risk, plus a deterministic typical-conditions scenario. [e2][e3]
 - CAFOR thresholds: 2,500 MW for EEA risk and 1,500 MW for controlled outage risk. [e5]
 - Model: PRRM, with 10,000 Monte Carlo outcomes. [e6]
@@ -95,7 +99,7 @@ In the January 2027 MORA, the hour with the highest EEA risk is HE 8:00 a.m. CST
 
 ## Common confusion
 
-(Guidance) The MORA's probability is not a prediction of a specific outcome. [e9] Also, MORA CAFOR is a month-ahead proxy for real-time PRC, not the same measure. [e5]
+(Guidance) The MORA's probability is not a prediction of a specific outcome. [e9] Also, the MORA's CAFOR thresholds are intended as proxies for the PRC thresholds, not the same measure. [e5]
 
 ## Questions
 

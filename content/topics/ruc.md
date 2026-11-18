@@ -10,19 +10,19 @@ as_of: 2026-11-18
 links:
   - to: dam
     type: related
-    note: The DRUC runs after the DAM closes and only considers Three-Part Supply Offers that were considered in the DAM but not awarded. [e3]
+    note: The DRUC runs after the DAM closes and uses Three-Part Supply Offers that were considered in the DAM but not awarded. [e15][e3]
   - to: ruc-make-whole
     type: determines
     note: A RUC-committed Resource whose revenues fall short of its costs gets a RUC Make-Whole Payment, unless its QSE opted out. [e5][e6]
   - to: sced
     type: contrasts-with
-    note: RUC is an out-of-market commitment step, while SCED dispatches the Resources that are already on-line. [e8]
+    note: RUC recommends commitment of Generation Resources; see the SCED topic for dispatch. [e7]
   - to: ordc
     type: related
     note: The reliability deployment price adder is meant to offset the price suppression from RUC and other out-of-market actions. [e9]
   - to: market-power-mitigation
     type: related
-    note: A RUC-committed unit that resolves a non-competitive constraint is dispatched with offers capped at mitigated levels. [e10]
+    note: A unit that receives a RUC instruction and must resolve a non-competitive constraint is often dispatched with offers capped at mitigated levels. [e10]
   - to: three-part-supply-offer
     type: related
     note: The DRUC uses the Three-Part Supply Offers submitted to the DAM. [e3]
@@ -87,6 +87,14 @@ evidence:
     source: imm-som-2025
     locator: "Executive Summary, Market Operations"
     quote: "One factor increasing RUC commitments is the incorporation of ESR state of charge (SOC) into the RUC engine under NPRR 1186, which ERCOT implemented in summer 2024."
+  - id: e16
+    source: np-06
+    locator: "Section 6.5.7.3, paragraph (1)"
+    quote: "The SCED process is designed to simultaneously manage energy, Ancillary Services, the system power balance and network congestion through Resource Base Points, Ancillary Service awards, and the calculation of LMPs and Real-Time MCPCs approximately every five minutes, or more frequently if necessary."
+  - id: e17
+    source: imm-som-2025
+    locator: "Market Operations chapter, A. Summary of Market Operations Results in 2025"
+    quote: "Although such interventions are sometimes necessary, persistent reliance on them indicates a misalignment between market design and system operations."
 ---
 
 ## Definition
@@ -99,13 +107,13 @@ ERCOT runs at least one Day-Ahead RUC (DRUC) and at least one Hourly RUC (HRUC) 
 
 The RUC recommends commitments of Generation Resources to match forecast Load, including DC Tie Schedules, and the RUC Ancillary Service Demand Curves, subject to transmission constraints and Resource performance. It starts from Resources already committed in COPs and previous RUCs and from Off-Line Available Resources with a start-up time of one hour or less. [e7] Any ERCOT instruction that orders a QSE to commit a named Generation Resource, after the market has been used as far as practicable, is a RUC Dispatch for Settlement purposes. [e8]
 
-A RUC-committed Resource whose revenues fall short of its costs receives a RUC Make-Whole Payment for that Operating Day, whether it came from DRUC or HRUC, but not an ESR. [e5] A QSE can instead opt out of RUC Settlement for a block of hours, and those become RUC Buy-Back Hours. [e6]
+A RUC-committed Resource whose revenues fall short of its costs receives a RUC Make-Whole Payment for that Operating Day, whether it came from DRUC or HRUC, but not an ESR. [e5] A QSE can instead choose to opt out of RUC Settlement, and the Operating Hours for which it does so are RUC Buy-Back Hours. [e6]
 
 ## ERCOT context
 
-RUC is an out-of-market action, and the IMM treats heavy use of it as a sign of misalignment between market design and operations. In 2025 ERCOT issued RUC instructions for 5,129 resource-hours, 176% more than in 2024, and about 77% were for congestion. [e11] Make-whole payments exceeded $21 million in 2025, helped by more RUC use and fewer opt-outs. [e12] Since 2021 annual RUC commitments have totaled thousands of hours, against 202 to 613 per year from 2017 through 2020. [e13]
+The IMM treats RUC as an out-of-market reliability action [e9] and says persistent reliance on out-of-market interventions indicates a misalignment between market design and system operations. [e17] In 2025 ERCOT issued RUC instructions for 5,129 resource-hours, 176% more than in 2024, and about 77% were for congestion. [e11] Make-whole payments exceeded $21 million in 2025, helped by more RUC use and fewer opt-outs. [e12] Since 2021 annual RUC commitments have totaled thousands of hours, against 202 to 613 per year from 2017 through 2020. [e13]
 
-One driver the IMM names is ESR state of charge being fed into the RUC engine under NPRR 1186, implemented in summer 2024. [e14] RUC also suppresses prices, which the reliability deployment price adder is meant to offset. [e9] When a RUC-committed unit must resolve a non-competitive constraint, it is generally dispatched with offers capped at mitigated levels. [e10]
+One driver the IMM names is ESR state of charge being fed into the RUC engine under NPRR 1186, implemented in summer 2024. [e14] RUC also suppresses prices, which the reliability deployment price adder is meant to offset. [e9] When a RUC-committed unit must resolve a non-competitive constraint, it is often dispatched in real time with offers capped at mitigated levels. [e10]
 
 ## Key facts
 
@@ -117,21 +125,21 @@ One driver the IMM names is ESR state of charge being fed into the RUC engine un
 
 ## Say it like this
 
-RUC is ERCOT's back-stop commitment process: if the market and QSE self-commitments do not put enough of the right units on, ERCOT instructs units on and pays them make-whole if they lose money. It has grown a lot in recent years and the IMM says most of it is now about congestion rather than system capacity.
+RUC is ERCOT's back-stop commitment process: if the market and QSE self-commitments do not put enough of the right units on, ERCOT instructs units on and pays them make-whole if they lose money. It has grown a lot in recent years, and the IMM says congestion accounted for about 77% of 2025 commitments. [e11][e13]
 
 ## Common confusion
 
-RUC is not SCED. RUC decides which units are committed, ahead of the hour, while SCED dispatches already-committed units every five minutes. A RUC instruction is not an OCN, Advisory, Watch or Emergency Notice that asks for capacity without naming a Resource; only an instruction naming a specific Generation Resource counts as a RUC Dispatch. [e8]
+RUC is not SCED. RUC decides which units are committed, ahead of the hour, while SCED manages energy and Ancillary Services through Base Points approximately every five minutes. [e16] A RUC instruction is not an OCN, Advisory, Watch or Emergency Notice that asks for capacity without naming a Resource; only an instruction naming a specific Generation Resource counts as a RUC Dispatch. [e8]
 
 ## Questions
 
 ### What is the difference between DRUC and HRUC?
 
-The DRUC is run after the DAM closes for the next Operating Day, while any RUC after the DRUC is an HRUC, started at least an hour ahead of the Operating Hour to adjust commitments for updated forecasts and outages. [e2][e3][e4]
+The DRUC must be run after the close of the DAM, while the HRUC is initiated at least one hour before the Operating Hour to fine-tune commitments using updated Load forecasts and Outage information. [e15][e4]
 
 ### Why did the IMM flag RUC in its 2025 report?
 
-RUC instructions rose 176% to 5,129 resource-hours, make-whole payments passed $21 million, and the IMM says persistent reliance on out-of-market actions signals misaligned market design and operations. [e11][e12]
+RUC instructions rose 176% to 5,129 resource-hours and make-whole payments passed $21 million. [e11][e12] The IMM says persistent reliance on out-of-market interventions indicates a misalignment between market design and system operations. [e17]
 
 ### Can a QSE avoid RUC settlement?
 

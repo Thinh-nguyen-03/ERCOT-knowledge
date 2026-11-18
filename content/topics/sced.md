@@ -22,10 +22,10 @@ links:
     note: Step 2 of SCED produces Shadow Prices for binding constraints. [e5]
   - to: rtm
     type: part-of
-    note: SCED is the dispatch and pricing engine of the Real-Time Market.
+    note: In real time SCED calculates Base Points, Ancillary Service awards, LMPs and Real-Time MCPCs approximately every five minutes. [e3]
   - to: spp
     type: determines
-    note: Real-Time Settlement Point Prices are built from SCED-interval LMPs.
+    note: Real-Time Settlement Point Prices use the Real-Time LMPs from SCED. [e10][e15]
   - to: energy-offer-curve
     type: used-in
     note: SCED evaluates Energy Offer Curves to determine dispatch. [e1]
@@ -84,7 +84,16 @@ evidence:
   - id: e13
     source: imm-som-2025
     locator: "Executive Summary, Real-time Market Performance"
-    quote: "However, we identified some issues with real-time ancillary service price formation that are likely due to the design of the ancillary service demand curves and the duration constraints for ESRs providing ancillary services."
+    quote: >-
+      Since ERCOT implemented RTC, the real-time market has functioned as expected without any major malfunctions. However, we identified some issues with real-time ancillary service price formation that are likely due to the design of the ancillary service demand curves and the duration constraints for ESRs providing ancillary services.
+  - id: e15
+    source: np-06
+    locator: "Section 6.1, Introduction, paragraph (4)"
+    quote: "Real-Time energy settlements use Real-Time Settlement Point Prices that are calculated for Resource Nodes, Load Zones, and Hubs for a 15-minute Settlement Interval, using the Locational Marginal Prices (LMPs) from all of the executions of SCED in the Settlement Interval."
+  - id: e16
+    source: imm-som-2025
+    locator: "Chapter I.D, Shortage and Reliability Pricing"
+    quote: "Since RTC was implemented, shortage pricing has been incorporated into the price of energy rather than functioning as a separate adder."
   - id: e14
     source: np-06
     locator: "Section 6.5.7.3, paragraph (1)"
@@ -101,13 +110,13 @@ SCED is designed to manage energy, Ancillary Services, the system power balance 
 
 SCED uses a two-step method that applies mitigation to offers for energy prospectively to resolve Non-Competitive Constraints for the current Operating Hour. [e14] Step 1 runs SCED on the full Network Operations Model observing only Competitive Constraints (plus power balance and Ancillary Service constraints) to determine Reference LMPs. [e4] Step 2 produces the Base Points, Ancillary Service awards, Shadow Prices, Real-Time MCPCs and LMPs, subject to all security constraints, Competitive and Non-Competitive, and other Resource constraints. [e5]
 
-The prices SCED produces feed settlement. A Resource Node's real-time Settlement Point Price is the time-weighted average, over the SCED intervals in the 15-minute Settlement Interval, of the Real-Time LMP plus the Reliability Deployment Price Adder for Energy. [e10] System Lambda and Real-Time MCPCs from Step 2 are capped at the effective VOLL, and ERCOT posts both capped and uncapped values. [e7] Separately from the binding run, ERCOT calculates a non-binding projection of Base Points, awards, MCPCs, Resource Node, Hub and Load Zone LMPs every five minutes for at least 15 minutes ahead. [e9]
+The prices SCED produces feed settlement. Real-time energy settlements use Settlement Point Prices for a 15-minute Settlement Interval, using the LMPs from all SCED executions in that interval. [e15] A Resource Node's real-time Settlement Point Price is the time-weighted average of the sum of the Real-Time LMPs and the Reliability Deployment Price Adder for Energy. [e10] System Lambda and Real-Time MCPCs from Step 2 are capped at the effective VOLL, and ERCOT posts both capped and uncapped values. [e7] Separately from the binding run, ERCOT calculates a non-binding projection of Base Points, awards, MCPCs, Resource Node, Hub and Load Zone LMPs every five minutes for at least 15 minutes ahead. [e9]
 
 ## ERCOT context
 
 Real-time co-optimization (RTC) changed what SCED does in price formation. The IMM reports that with RTC the real-time market simultaneously procures energy and ancillary services, whereas previously the day-ahead market alone procured them. [e11] The current protocol text reflects this: SCED determines Ancillary Service awards using Ancillary Service Offers and ASDCs. [e1][e6] Before RTC went live on December 5, 2025, shortage pricing came from an ORDC price adder added to energy and reserve prices when reserves were low. [e12]
 
-The IMM says the RTC real-time market has functioned as expected, but flags issues with real-time ancillary service price formation likely due to the design of the ancillary service demand curves and duration constraints for ESRs providing ancillary services. [e13]
+The IMM says that since RTC the real-time market has functioned as expected without major malfunctions, but flags issues with real-time ancillary service price formation likely due to the design of the ancillary service demand curves and duration constraints for ESRs providing ancillary services. [e13]
 
 ## Key facts
 
@@ -116,16 +125,16 @@ The IMM says the RTC real-time market has functioned as expected, but flags issu
 - It is a two-step process: Step 1 sets Reference LMPs with only Competitive Constraints; Step 2 produces Base Points, awards, Shadow Prices, MCPCs and LMPs. [e4][e5]
 - SCED outputs include Ancillary Service awards as well as energy Base Points. [e1]
 - RTC went live December 5, 2025 (per the IMM), moving AS procurement into real time. [e12][e11]
-- ERCOT publishes a non-binding projection every five minutes for at least 15 minutes ahead. [e9]
+- ERCOT calculates a non-binding projection every five minutes for at least 15 minutes into the future. [e9]
 
 ## Say it like this
 
-SCED is ERCOT's real-time engine: every five minutes [e3] it picks the cheapest feasible dispatch that respects transmission limits, and the shadow prices from that solve are what create nodal prices. Since RTC in December 2025 the same solve also awards ancillary services, so energy and reserve prices are formed together.
+SCED is ERCOT's real-time engine: about every five minutes [e3] it dispatches Resources by maximizing bid-based revenues minus offer-based costs subject to network constraints [e6], and the same solve produces the LMPs [e3]. Since RTC in December 2025 the same solve also awards ancillary services, so energy and reserve prices are formed together.
 
 ## Common confusion
 
-- SCED versus RUC: SCED produces Base Points and awards in real time; commitment is a separate process covered in the ruc topic. [e2]
-- SCED versus the Settlement Point Price: SCED produces LMPs per SCED interval, and the settlement price averages them over 15 minutes and adds the reliability adder. [e10]
+- SCED versus RUC: SCED produces Base Points and awards; RUC is a separate process covered in the ruc topic. [e1]
+- SCED versus the Settlement Point Price: SCED produces LMPs, and the settlement price uses the LMPs from all SCED executions in a 15-minute interval and adds the reliability adder. [e15][e10]
 - Pre-RTC descriptions (separate ORDC adder, day-ahead-only AS procurement) are historical as of December 2025. [e11][e12]
 
 ## Questions
@@ -140,7 +149,7 @@ Step 1 finds Reference LMPs observing only Competitive Constraints, and Step 2 t
 
 ### What did RTC change for SCED?
 
-The real-time market now co-optimizes energy and ancillary services, where previously the day-ahead market alone procured ancillary services. [e11] Shortage pricing is now part of energy prices instead of a separate ORDC adder. [e12]
+The real-time market now co-optimizes energy and ancillary services, where previously the day-ahead market alone procured ancillary services. [e11] Shortage pricing is now incorporated into the price of energy rather than being a separate adder. [e16]
 
 ## Open items
 

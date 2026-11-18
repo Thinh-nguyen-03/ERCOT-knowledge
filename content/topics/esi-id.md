@@ -19,13 +19,13 @@ links:
     note: Switches and move-ins are processed per ESI ID. [e7]
   - to: load-profiling
     type: related
-    note: Load profiles are assigned to ESI IDs that lack interval data. [e8]
+    note: Load Profiling estimates and allocates 15-minute Load for ESI IDs. [e8]
   - to: ams-meters
     type: related
-    note: Interval data from advanced meters is collected per ESI ID.
+    note: Covers the metering side; the ESI ID is the identifier assigned to each Service Delivery Point. [e1]
   - to: tx-set
     type: used-in
-    note: TX SET transactions such as the switch request are keyed on the ESI ID. [e7]
+    note: The switch request (814_01) must include an ESI ID. [e7]
 evidence:
   - id: e1
     source: np-02
@@ -77,7 +77,7 @@ A Premise is a Service Delivery Point, or a combination of them, assigned a sing
 
 ## ERCOT context
 
-Because the market settles in 15-minute intervals, usage for ESI IDs without interval data is estimated and allocated with load profiles. [e8]
+The retail market requires a 15-minute Settlement Interval, and Load Profiling is a way of estimating and allocating 15-minute Load for ESI IDs. [e8]
 
 ## Key facts
 
@@ -88,11 +88,11 @@ Because the market settles in 15-minute intervals, usage for ESI IDs without int
 
 ## Say it like this
 
-(Guidance) The ESI ID is the premise meter-point ID the whole retail market runs on. Settlement, switching and billing all key to it.
+(Guidance) The ESI ID is the premise meter-point ID the whole retail market runs on. The ESI ID is used in registration and settlement, and a switch request must include one. [e1][e7]
 
 ## Common confusion
 
-(Guidance) An ESI ID is a delivery point identifier, not a customer account or meter number, and one customer can hold several. A premise may combine more than one delivery point under a single ESI ID. [e9]
+(Guidance) An ESI ID is a delivery point identifier. [e1] A premise may combine more than one delivery point under a single ESI ID. [e9]
 
 ## Questions
 

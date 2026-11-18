@@ -19,13 +19,13 @@ links:
     note: The North 345 kV Hub is defined the same way over a different bus list. [e3]
   - to: congestion
     type: related
-    note: West-region congestion has been the largest contributor to intrazonal congestion cost. [e5]
+    note: In the IMM's 2025 report the West Zone is the largest contributor to intrazonal congestion costs. [e5]
   - to: load-zone
     type: contrasts-with
-    note: The West Hub averages a fixed bus list, unlike the load-weighted West Load Zone. [e3]
+    note: The IMM's West Zone statements are about the Load Zone, not this Hub. [e6]
   - to: basis-risk
     type: related
-    note: Hedges at the West Hub can differ from prices where West generation sits.
+    note: Related topic for positions settled at a different Settlement Point than the West Hub.
 evidence:
   - id: e1
     source: np-03
@@ -67,7 +67,7 @@ The West 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for
 
 ## ERCOT context
 
-West Texas is where congestion shows up most in the IMM's 2025 report: the West Zone is the largest contributor to intrazonal congestion costs, export constrained in the panhandle because of renewables and import constrained in the Permian Basin. [e5] The IMM also reports that the West Zone had the highest annual average zonal energy prices for the second year in a row (2025). [e6] Those statements are about the West Load Zone, not the West Hub, so hub-specific price levels should be checked separately. [e6]
+In the IMM's 2025 report the West Zone is the largest contributor to intrazonal congestion costs, export constrained in the panhandle because of renewables and import constrained in the Permian Basin. [e5] The IMM also reports that the West Zone had the highest annual average zonal energy prices for the second year in a row (2025). [e6] Those statements are about the West Load Zone, not the West Hub, so hub-specific price levels should be checked separately. [e6]
 
 ## Key facts
 
@@ -78,12 +78,12 @@ West Texas is where congestion shows up most in the IMM's 2025 report: the West 
 
 ## Say it like this
 
-HB_WEST is the equal-weighted average of a fixed set of west 345 kV buses. West Texas congestion makes west prices behave differently from the rest of ERCOT, so a west hub hedge and a west generator's node price can diverge.
+HB_WEST is the price of a fixed set of west 345 kV buses, a simple average of Hub Bus prices in real time. The IMM ties higher West Zone prices to congestion, so check whether a west hub price is the right reference for a particular west generator.
 
 ## Common confusion
 
-- West Hub versus West Load Zone: the Hub averages a fixed bus list while the zone price is load-weighted; IMM zone statements do not automatically apply to the Hub. [e3][e6]
-- Hub versus the generators in the Permian or Panhandle: congestion within the West zone is intrazonal, so a node can differ from both the hub and the zone. [e5]
+- West Hub versus West Load Zone: the Hub price follows the Hub definition, and the IMM's zone statements do not automatically apply to the Hub. [e3][e6]
+- Hub versus generators in the Permian or Panhandle: the IMM reports large intrazonal congestion costs in the West Zone, so check node-level prices rather than assuming the hub or zone price applies to a given generator. [e5]
 
 ## Questions
 

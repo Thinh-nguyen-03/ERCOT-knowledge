@@ -19,13 +19,13 @@ links:
     note: The report assesses ERCOT's management of balancing energy, ancillary services and congestion rights markets. [e1]
   - to: market-power-mitigation
     type: related
-    note: The report assesses market competitiveness and carries a market power recommendation list. [e1][e5]
+    note: The report assesses market competitiveness and carries a numbered list of recommendations. [e1][e5]
   - to: resource-adequacy
     type: related
-    note: The 2025 report's market outcomes and recommendations feed resource adequacy discussion. [e4]
+    note: The 2025 report presents the IMM's assessment of wholesale market outcomes; see the resource-adequacy topic. [e4]
   - to: large-flexible-load
     type: related
-    note: The 2025 report documents crypto-currency mining demand growth and its CLR and ERS participation. [e7][e8]
+    note: The 2025 report documents crypto-currency mining demand and its share of ERS capacity. [e7][e8]
 evidence:
   - id: e1
     source: puct-25-365
@@ -74,11 +74,11 @@ The State of the Market report is the annual report the Independent Market Monit
 
 The IMM is a market monitor that ERCOT contracts with, selected by the commission, to detect and prevent market manipulation strategies, recommend ways to improve efficiency and give independent analysis of proposed market changes. [e3] Under rule 25.365 all of its reports must reflect its independent analysis, findings and expertise, and it prepares and submits the annual report to the commission. [e2][e1]
 
-The 2025 report is written by Potomac Economics as IMM and presents its assessment of the 2025 wholesale market outcomes plus recommended changes. [e4] The recommendations are numbered by the year first introduced and the order within that report; the 2025 report has one new recommendation, on the Firm Fuel Supply Service, plus outstanding ones from prior years and some being retired. [e5]
+The 2025 report is written by Potomac Economics as IMM and presents its assessment of the 2025 wholesale market outcomes plus recommended changes. [e4] The recommendations are numbered by the year first introduced and the order within that report; the 2025 report has one new recommendation, on the Firm Fuel Supply Service. [e5]
 
 ## ERCOT context
 
-The report is the main public record of annual market outcomes and the IMM's design agenda. For 2025 it reports average electricity demand about 6.1% higher than in 2024, an increase of approximately 3,205 MW. [e6] It also highlights crypto-currency mining demand of about 4,600 MW in 2025, and says cryptocurrency mining accounted for more than half of ERS capacity by the end of 2025. [e7][e8]
+For 2025 the report gives average electricity demand about 6.1% higher than in 2024, an increase of approximately 3,205 MW. [e6] It also highlights crypto-currency mining demand of about 4,600 MW in 2025, and says cryptocurrency mining accounted for more than half of ERS capacity by the end of 2025. [e7][e8]
 
 ## Key facts
 

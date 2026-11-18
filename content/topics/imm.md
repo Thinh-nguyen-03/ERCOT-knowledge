@@ -10,22 +10,22 @@ as_of: 2026-11-18
 links:
   - to: puct
     type: related
-    note: The IMM is the commission's wholesale market monitor and works under PUCT supervision, but enforcement stays with the PUCT. [e4]
+    note: The IMM is the commission's wholesale market monitor and works under PUCT supervision, but enforcement stays with the PUCT. [e15]
   - to: ercot
     type: related
     note: ERCOT contracts for and funds the IMM, but the IMM is an office independent from ERCOT and not supervised by it. [e6][e7]
   - to: state-of-market-report
     type: related
-    note: The annual State of the Market report is the IMM's main required report on competitiveness and market design. [e9][e10]
+    note: The annual State of the Market report is a required IMM report that assesses competitiveness and market design. [e9][e10]
   - to: market-power-mitigation
     type: related
-    note: The IMM tests for market power and in its 2025 report again recommended system-wide mitigation. [e12]
+    note: The IMM monitors for market power abuse and in its 2025 report again recommended system-wide mitigation. [e3][e12]
   - to: energy-only-market
     type: related
-    note: The IMM often judges proposals by whether they weaken the price signals of ERCOT's energy-only design. [e14]
+    note: In its 2025 report the IMM said NPRR 1296 would undermine ERCOT's energy-only market and its economic signals. [e14]
   - to: nprr
     type: affects
-    note: The IMM analyzes proposed rule changes for manipulation opportunities and inefficiencies and comments on them. [e3]
+    note: The IMM evaluates proposed changes to the market rules and recommends measures to enhance market efficiency. [e3]
   - to: resource-adequacy
     type: related
     note: Under the reliability standard rule, the IMM must independently review ERCOT's proposed market design fixes and their costs. [e13]
@@ -80,12 +80,16 @@ evidence:
     quote: "Despite the positive evidence of competitive conditions in the ERCOT market, we continue to recommend system-wide market power mitigation. With extreme projected load growth in the ERCOT footprint, the market could become structurally uncompetitive during high-load periods within a few years."
   - id: e13
     source: puct-25-508
-    locator: "16 TAC §25.508(c)(3)(C)(ii), Commission review and determination"
-    quote: "the independent market monitor must conduct an independent review of ERCOT's proposed recommended market design changes, including associated expected system costs for each proposed recommended change, and file its review no later than the deadline established in subparagraph (B) of this paragraph;"
+    locator: "16 TAC §25.508(c)(3)(C)(i)-(ii), Commission review and determination"
+    quote: "If the assessment shows that any reviewed system fails to meet the reliability standard described in subsection (b) of this section: (i) ERCOT must provide the commission with a summary explanation of any identified deficiencies and its supporting analysis. ERCOT must also provide the commission with a menu of proposed recommended market design changes, including a primary recommendation, that are intended to address the identified deficiencies. ERCOT must provide the commission with the expected system costs associated with each of its proposed recommended changes; (ii) the independent market monitor must conduct an independent review of ERCOT's proposed recommended market design changes, including associated expected system costs for each proposed recommended change, and file its review no later than the deadline established in subparagraph (B) of this paragraph;"
   - id: e14
     source: imm-som-2025
     locator: "2025 State of the Market Report, Executive Summary (demand response)"
     quote: "ERCOT proposed a residential demand response program through NPRR 1296 that we find will undermine ERCOT's energy only market and its economic signals."
+  - id: e15
+    source: pura-39
+    locator: "PURA §39.1515(d), Wholesale Electric Market Monitor"
+    quote: "The market monitor shall operate under the supervision and oversight of the commission.  The commission shall retain all enforcement authority conferred under this title, and this section may not be construed to confer enforcement authority on the market monitor or to authorize the commission to delegate the commission's enforcement authority to the market monitor."
 ---
 
 ## Definition
@@ -98,7 +102,7 @@ ERCOT must contract with an entity the PUCT selects to act as the commission's w
 
 The PUCT rule sets two objectives: detect and prevent manipulation and market power abuse, and evaluate the market's operations, current rules and proposed rule changes, with recommendations to improve efficiency. [e3] To do this, the IMM can require ERCOT and market participants to submit any information it considers necessary, and they must respond completely, accurately and on time. [e5]
 
-The IMM has no enforcement power. Its authority covers monitoring, analysis and reporting. [e4] It must report all potential market manipulation and all discovered or potential rule violations in writing, directly to the commission and its staff, and the commission decides on enforcement. [e8]
+The IMM has no enforcement power. Its authority covers monitoring, analysis and reporting. [e4] It must report all potential market manipulation and all discovered or potential rule violations in writing, directly to the commission and its staff. [e8] The commission retains all enforcement authority. [e15]
 
 Its required reporting includes an annual State of the Market report. That report assesses competitiveness, how efficiently ERCOT manages the balancing energy, ancillary service and congestion rights markets, and how effective its congestion management is. It also looks for flaws, inefficiencies and manipulation opportunities in the market design, and recommends improvements. [e9]
 
@@ -106,7 +110,7 @@ Its required reporting includes an annual State of the Market report. That repor
 
 The IMM's independence is structural. It is an office independent from ERCOT and is not supervised by ERCOT in its monitoring and investigations, even though ERCOT contracts for it [e6] and funds it from the fee authorized under PURA §39.151. [e7]
 
-The IMM also has a formal role in resource adequacy. If ERCOT's reliability assessment shows the system failing the reliability standard, the IMM must independently review ERCOT's proposed market design changes and their expected costs. [e13]
+The IMM also has a formal role in resource adequacy. If ERCOT's assessment shows a reviewed system failing the reliability standard, the IMM must independently review ERCOT's proposed market design changes and their expected costs. [e13]
 
 In its 2025 report the IMM found the share of top-quartile net load hours with a pivotal supplier had fallen from over 90% in 2022 to 35% in 2025. It credited milder weather and a large influx of storage held by smaller participants. [e11] Even so, it again recommended system-wide market power mitigation, warning that load growth could make the market structurally uncompetitive at high load within a few years. [e12] It also argued that the NPRR 1296 residential demand response proposal would undermine ERCOT's energy-only market and its price signals. [e14]
 
@@ -125,13 +129,13 @@ In its 2025 report the IMM found the share of top-quartile net load hours with a
 
 ## Common confusion
 
-(Guidance) The IMM is not part of ERCOT and is not the enforcer. ERCOT funds the IMM but does not supervise its monitoring. [e6][e7] Penalties come from the PUCT. [e4] Also, the IMM's recommendations are not rules. They carry weight with the PUCT, but they only take effect if the commission or ERCOT adopts them.
+(Guidance) The IMM is not part of ERCOT and is not the enforcer. ERCOT funds the IMM but does not supervise its monitoring. [e6][e7] Penalties come from the PUCT, which retains all enforcement authority. [e15] Also, the IMM recommends measures to enhance market efficiency but has no authority to enforce them. [e3][e4]
 
 ## Questions
 
 ### Can the IMM fine a generator for economic withholding?
 
-No. The IMM has no enforcement authority. [e4] It must report potential manipulation and violations to the commission in writing, and enforcement is up to the commission. [e8]
+No. The IMM has no enforcement authority. [e4] It must report potential manipulation and violations to the commission in writing, and the commission retains all enforcement authority. [e8][e15]
 
 ### How is the IMM kept independent if ERCOT pays for it?
 

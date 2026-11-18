@@ -10,10 +10,10 @@ as_of: 2026-11-18
 links:
   - to: dam
     type: part-of
-    note: Both instruments exist only in the DAM, and both are submitted by 1000 for the effective DAM. [e15][e5]
+    note: Both instruments may be made only in the DAM, and both are submitted by 1000 for the effective DAM. [e1][e14][e15][e5]
   - to: dart-spread
     type: related
-    note: Virtuals are the location-specific trades that arbitrage the gap between day-ahead and real-time prices. [e7][e12]
+    note: The IMM describes virtual bids and offers as location-specific transactions, and says market participants arbitrage predictable differences between day-ahead and real-time prices. [e7][e12]
   - to: ptp-obligation
     type: related
     note: A QSE may not combine energy-only offers, energy bids and PTP Obligation bids to create the net effect of a PTP between electrically similar points. [e4]
@@ -22,7 +22,7 @@ links:
     note: A Three-Part Supply Offer is Resource-specific, while a DAM Energy-Only Offer Curve is not. [e1]
   - to: settlement-point
     type: related
-    note: Each offer and bid is at a specific Settlement Point and clears at that point's DAM price. [e1][e2][e6]
+    note: Each offer and bid is at a specific Settlement Point, and the payment or charge for cleared quantities is calculated from that point's Day-Ahead Settlement Point Price. [e1][e2][e16][e17]
   - to: qse
     type: related
     note: Only a QSE can submit these offers and bids. [e15][e5]
@@ -87,6 +87,18 @@ evidence:
     source: imm-som-2025
     locator: "Day-Ahead Market Performance, section B, Day-Ahead Energy Market Pricing"
     quote: "These conditions allow market participants to arbitrage predictable differences between day-ahead and real-time prices, resulting in price convergence."
+  - id: e16
+    source: np-04
+    locator: "Section 4.6.2.1, Day-Ahead Energy Payment, paragraph (1), formula"
+    quote: "The payment to each Qualified Scheduling Entity (QSE) for each Settlement Point for a given hour of the Operating Day is calculated as follows: DAESAMT _(q, p) = (-1) * DASPP _(p) * DAES _(q, p)"
+  - id: e17
+    source: np-04
+    locator: "Section 4.6.2.2, Day-Ahead Energy Charge, paragraph (1), formula"
+    quote: "This charge to each QSE for each Settlement Point for a given hour of the Operating Day is calculated as follows: DAEPAMT _(q, p) = DASPP _(p) * DAEP _(q, p)"
+  - id: e18
+    source: imm-som-2025
+    locator: "Day-Ahead Market Performance, section B, Day-Ahead Energy Market Pricing"
+    quote: "Price convergence between the day-ahead and real-time markets is important because it leads to more efficient commitment of resources for use in real-time."
 ---
 
 ## Definition
@@ -97,13 +109,13 @@ A virtual, in ERCOT, is a DAM Energy-Only Offer (a QSE's willingness to sell ene
 
 Both instruments can be made only in the DAM, and a QSE must submit them by 1000 for the effective DAM. [e1][e15][e5] Unlike a Three-Part Supply Offer, a DAM Energy-Only Offer Curve is not tied to a Resource. [e1] An offer curve must fall between -$250.00 per MWh and the DAM system-wide offer cap, with a minimum of one MW. [e3][e13]
 
-A cleared offer is paid, and a cleared bid is charged, at the Settlement Point's DAM price. [e6][e8] The position does not stay in the DAM: at a Hub, for example, the amounts of DAM Energy Bids and energy offers cleared in the DAM are included in the QSE's Real-Time Energy Imbalance calculation at the Real-Time Settlement Point Price. [e9] So a virtual earns or loses the difference between the DAM and real-time price at its location.
+A cleared offer is paid, and a cleared bid is charged, based on the Day-Ahead Settlement Point Price at its Settlement Point. [e6][e8][e16][e17] The position does not stay in the DAM: at a Hub, for example, the amounts of DAM Energy Bids and energy offers cleared in the DAM are included in the QSE's Real-Time Energy Imbalance calculation at the Real-Time Settlement Point Price. [e9] In effect, at a Hub, the DAM-cleared position is settled against the real-time price, so it earns or loses the difference between the two.
 
 There is a guard against disguising a congestion position: energy-only offers, energy bids and PTP Obligation bids may not be combined to create the net effect of one PTP Obligation between electrically similar Settlement Points. [e4]
 
 ## ERCOT context
 
-In 2025 day-ahead energy purchased through generator-specific offers and virtual energy offers equaled 62% of real-time load, in line with recent years. [e10] The IMM ties price convergence to this kind of trading: market participants arbitrage predictable differences between day-ahead and real-time prices, which brings the prices together. [e12]
+In 2025 day-ahead energy purchased through generator-specific offers and virtual energy offers equaled 62% of real-time load, in line with recent years. [e10] The IMM says market participants can arbitrage predictable differences between day-ahead and real-time prices, resulting in price convergence. [e12]
 
 Since December 6, 2025, the DAM has also allowed virtual Ancillary Service positions, which are strictly financial positions not associated with any physical resources. [e11]
 
@@ -111,17 +123,17 @@ Since December 6, 2025, the DAM has also allowed virtual Ancillary Service posit
 
 - DAM Energy-Only Offers are not Resource-specific; both offers and bids are DAM-only and due by 1000. [e1][e15][e5]
 - Offer curves must lie between -$250.00 per MWh and the DASWCAP, with a one MW minimum. [e3][e13]
-- Cleared offers are paid and cleared bids are charged at the DAM Settlement Point Price. [e6][e8]
+- Cleared offers are paid and cleared bids are charged using the Day-Ahead Settlement Point Price. [e6][e8][e16][e17]
 - Virtuals may not be combined with PTP Obligation bids to replicate a PTP between electrically similar points. [e4]
 - Virtual AS positions have been allowed in the DAM since December 6, 2025. [e11]
 
 ## Say it like this
 
-A virtual is a purely financial day-ahead trade at a Settlement Point: you buy or sell energy in the DAM and it unwinds at the real-time price, so you make or lose the day-ahead-to-real-time spread there. It needs no physical asset, and it helps day-ahead prices line up with real-time.
+A virtual is a purely financial day-ahead trade at a Settlement Point: you buy or sell energy in the DAM and it unwinds at the real-time price, so you make or lose the day-ahead-to-real-time spread there. It needs no physical asset, and arbitrage of day-ahead versus real-time differences is what the IMM links to price convergence. [e12]
 
 ## Common confusion
 
-Virtuals are not PTP Obligations. A virtual is a single-location energy position at one Settlement Point, while a PTP Obligation bid names a source and a sink and pays on the price difference between them. [e1][e2] The IMM also uses "virtual" for the new day-ahead Ancillary Service positions, which are a separate product from energy virtuals. [e11]
+Virtuals are not PTP Obligations. A virtual is a single-location energy position at one Settlement Point. [e1][e2] A PTP Obligation bid names a source and a sink (see the PTP Obligation topic). The IMM also uses "virtual" for the new day-ahead Ancillary Service positions, which are a separate product from energy virtuals. [e11]
 
 ## Questions
 
@@ -131,15 +143,16 @@ An Energy-Only Offer is a willingness to sell at a Settlement Point and is not R
 
 ### How does a virtual position close out?
 
-It is cleared at the DAM price, and the cleared quantity then enters the Real-Time Energy Imbalance calculation at the Real-Time Settlement Point Price, as the Hub text shows. [e6][e9]
+It is cleared in the DAM at its Settlement Point, and the cleared quantity then enters the Real-Time Energy Imbalance calculation at the Real-Time Settlement Point Price, as the Hub text shows. [e6][e9]
 
 ### Why might the IMM care about virtual activity?
 
-Because participants who arbitrage predictable day-ahead and real-time differences push the prices toward convergence, which the IMM says leads to more efficient commitment of resources. [e12]
+Because market participants can arbitrage predictable day-ahead and real-time differences, resulting in price convergence, and the IMM says convergence leads to more efficient commitment of resources for use in real-time. [e12][e18]
 
 ## Open items
 
 - The protocols saved here never use the word "virtual"; the term comes from the IMM report. [e7]
+- The saved sources do not say whether every DAM Energy Bid is a virtual: the IMM calls an energy-only (virtual) bid or offer a location-specific transaction, while the protocol definition of a DAM Energy Bid does not mention who may submit it or why.
 - Deeper pass: the real-time energy imbalance treatment at Resource Nodes and Load Zones (np-06 Sections 6.6.3.1 and 6.6.3.2), and how DAM-cleared energy-only offers at a Resource Node are settled.
 - Deeper pass: credit requirements for DAM bids and offers (np-04 Section 4.4.10), and any caps on volumes.
 - Deeper pass: IMM figures on virtual volume and profitability, and 2024 comparisons; the saved IMM text only gives the 62% total. Table numbers need the OCR copies, which are not saved.

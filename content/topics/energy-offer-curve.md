@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: three-part-supply-offer
     type: part-of
-    note: The Energy Offer Curve is the third component of a Three-Part Supply Offer. [e2]
+    note: The Energy Offer Curve is one of the three parts of a Three-Part Supply Offer, with the Startup Offer and the Minimum-Energy Offer. [e9]
   - to: sced
     type: used-in
     note: SCED evaluates Energy Offer Curves to set dispatch. [e4]
@@ -19,7 +19,7 @@ links:
     note: The DAM uses Energy Offer Curves, bounded by the Resource's LSL and HSL. [e3]
   - to: base-point
     type: determines
-    note: SCED turns offer curves into Base Points. [e4]
+    note: SCED evaluates Energy Offer Curves to determine Resource Dispatch Instructions. [e4]
   - to: offer-cap
     type: related
     note: Offer prices are limited by caps and mitigation rules.
@@ -59,6 +59,10 @@ evidence:
     source: np-04
     locator: "Section 4.4.9.3, paragraph (4)"
     quote: "For any Operating Hour, the QSE for a Resource may submit or change Energy Offer Curve information at any time prior to SCED execution"
+  - id: e9
+    source: np-04
+    locator: "Section 4.4.9.1, Three-Part Supply Offers, paragraph (1)"
+    quote: "(1) A Three-Part Supply Offer consists of a Startup Offer, a Minimum-Energy Offer, and an Energy Offer Curve."
 ---
 
 ## Definition
@@ -67,13 +71,13 @@ An Energy Offer Curve is a proposal to sell energy at a Settlement Point at a mo
 
 ## How it works
 
-The curve represents the QSE's willingness to sell energy at or above a given price and quantity in the DAM, or its willingness to be dispatched by SCED in real time. [e2] A curve must be monotonically non-decreasing in both price and quantity, with no more than ten price/quantity pairs and no more than two consecutive pairs at the same price or quantity. [e5] It is bounded by the Resource's LSL and HSL: in the DAM the limits from the COP, in SCED the limits shown by telemetry. [e3]
+The curve represents the QSE's willingness to sell energy at or above a given price and quantity in the DAM, or its willingness to be dispatched by SCED in real time. [e2] A curve must be monotonically non-decreasing in both price and quantity, with no more than ten price/quantity pairs and no more than two consecutive pairs at the same price or quantity. [e5] A Resource-specific curve is bounded by the Generation Resource's LSL and HSL: in the DAM the limits specified in the COP, in SCED the limits shown by telemetry. [e3]
 
 A QSE may change its curve for any Operating Hour at any time before SCED executes. [e7] SCED then evaluates the curves, along with other offers and bids, to set dispatch by maximizing bid-based revenues minus offer-based costs subject to power balance and network constraints. [e4]
 
 ## ERCOT context
 
-A QSE representing a Resource, other than an RMR Unit, must keep an Energy Offer Curve, an Energy Bid/Offer Curve or an Output Schedule in place whenever the Resource is On-Line. [e6] The IMM describes SCED as scheduling generation to meet demand based on each generator's energy offer curve and its impact on transmission constraints. [e8]
+A QSE representing a Resource, other than an RMR Unit, must keep an Energy Offer Curve, an Energy Bid/Offer Curve or an Output Schedule in place whenever the Resource is On-Line. [e6] The IMM describes SCED as scheduling generation to meet demand based on each generator's energy offer curve. [e8]
 
 ## Key facts
 
@@ -84,12 +88,12 @@ A QSE representing a Resource, other than an RMR Unit, must keep an Energy Offer
 
 ## Say it like this
 
-The energy offer curve is the generator's price ladder: how much it will produce at each price. SCED reads that ladder every few minutes to decide each unit's base point.
+The energy offer curve is the generator's price ladder: how much it will produce at each price. SCED evaluates that ladder, along with other offers and bids, to decide dispatch. [e4]
 
 ## Common confusion
 
-- Energy Offer Curve versus Three-Part Supply Offer: the curve is only the incremental energy part; startup and minimum-energy costs are separate. [e2]
-- Offer curve versus Output Schedule: a Resource without an offer curve is dispatched to its Output Schedule instead. [e6]
+- Energy Offer Curve versus Three-Part Supply Offer: a Three-Part Supply Offer has three parts, the Startup Offer, the Minimum-Energy Offer and the Energy Offer Curve, so the curve is only one of them. [e9]
+- Offer curve versus Output Schedule: an On-Line Resource must have an Energy Offer Curve, an Energy Bid/Offer Curve or an Output Schedule, so the Output Schedule is the alternative to an offer curve. [e6]
 
 ## Questions
 

@@ -25,7 +25,7 @@ links:
     note: A QSE makes the offer for a Generation Resource it represents. [e1]
   - to: cop
     type: related
-    note: Offers for the DAM are bounded by the Resource limits stated in the COP. [e6]
+    note: Energy Offer Curves are bounded in the DAM by the LSL and HSL of the Generation Resource specified in the COP. [e6]
 evidence:
   - id: e1
     source: np-02
@@ -63,13 +63,13 @@ A Three-Part Supply Offer is an offer made by a QSE for a Generation Resource it
 
 ## How it works
 
-The Startup Offer covers all costs a Generation Resource incurs in starting up and reaching its Low Sustained Limit (LSL), expressed in dollars per start. [e2] The Minimum-Energy Offer covers the cost of producing energy at the LSL, in $/MWh. [e4] The Energy Offer Curve is the price and quantity schedule above that. [e1] ERCOT must validate each component before it can be used in any ERCOT process. [e3]
+The Startup Offer covers all costs a Generation Resource incurs in starting up and reaching its Low Sustained Limit (LSL), expressed in dollars per start. [e2] The Minimum-Energy Offer covers the cost of producing energy at the LSL, in $/MWh. [e4] ERCOT must validate each component before it can be used in any ERCOT process. [e3]
 
 Different processes use different parts. The DAM uses all three parts and also accepts Energy Offer Curves submitted alone. RUC uses only the Startup and Minimum-Energy components to decide commitments, but the Energy Offer Curve may be used in Settlement to claw back some or all of a RUC-committed Resource's energy payments. SCED may use the Energy Offer Curve in real time. [e5]
 
 ## ERCOT context
 
-The three-part structure matters because it separates the cost of turning a unit on and holding it at minimum from the cost of incremental energy, which lets the DAM and RUC commit units on all-in cost while SCED dispatches on the energy curve. [e5] The IMM notes that ERCOT also applies a $250-per-MWh offer floor to RUC-committed units. [e7]
+The three components are used differently by each process: the DAM uses all three, RUC uses only the Startup and Minimum-Energy Offers for commitments, and SCED may use the Energy Offer Curve in real time. [e5] The IMM notes that ERCOT also applies a $250-per-MWh offer floor to RUC-committed units. [e7]
 
 ## Key facts
 
@@ -80,12 +80,12 @@ The three-part structure matters because it separates the cost of turning a unit
 
 ## Say it like this
 
-A three-part offer tells ERCOT what it costs to start the unit, what it costs to run it at minimum, and what each additional MWh costs. The day-ahead market and RUC use the first two to decide whether to commit; SCED dispatches off the energy curve.
+A three-part offer tells ERCOT what it costs to start the unit, what it costs to run it at minimum, and what each additional MWh costs. RUC uses the first two to decide commitments, the day-ahead market uses all three, and SCED may use the energy curve.
 
 ## Common confusion
 
 - Three-Part Offer versus Energy Offer Curve: the curve is only one of the three parts, and the DAM also accepts a curve without the other two. [e1][e5]
-- Self-commitment: an Energy Offer Curve without Startup and Minimum-Energy Offers is a different offer type from a three-part offer, and only three-part offers are used in RUC. [e5]
+- The DAM also uses Energy Offer Curves submitted without a Startup Offer and Minimum-Energy Offer, while RUC uses only the Startup and Minimum-Energy components for commitments. [e5]
 
 ## Questions
 
@@ -102,6 +102,8 @@ Only the Startup Offer and Minimum-Energy Offer for commitments; the energy curv
 All costs incurred in starting up and reaching LSL, in dollars per start. [e2]
 
 ## Open items
+
+- The role of the Energy Offer Curve as the price/quantity schedule for incremental energy is not stated in the saved quotes; it was removed from How it works.
 
 - Deeper pass: offer criteria and cost caps (np-04 Sections 4.4.9.2.1 to 4.4.9.2.3) and verifiable cost rules.
 - Deeper pass: treatment of Combined Cycle configurations and self-commitment in the DAM.

@@ -16,13 +16,13 @@ links:
     note: NOIEs are the MOUs and ECs that do not offer Customer Choice. [e1][e5]
   - to: tdsp
     type: related
-    note: MOUs and ECs operating transmission or distribution also register as TSPs or DSPs. [e7]
+    note: MOUs and ECs operating as a TSP or DSP in the ERCOT Region must register as a TSP or DSP. [e14]
   - to: crr
     type: related
     note: NOIEs have special CRR products and allocations. [e9][e10]
   - to: pcrr
     type: related
-    note: The IMM describes PCRRs as allocated to NOIEs at a fraction of auction value. [e10]
+    note: The IMM says ERCOT allocates PCRRs to NOIEs, and that parties receiving PCRRs pay only a fraction of the auction value of comparable CRRs. [e10]
   - to: load-zone
     type: related
     note: Protocols let a NOIE or group of NOIEs establish a NOIE Load Zone. [e8]
@@ -66,7 +66,7 @@ evidence:
   - id: e10
     source: imm-som-2025
     locator: "CRR discussion of PCRRs"
-    quote: "In addition to auctioned CRRs, ERCOT allocates a subset known as Pre-Assigned Congestion Revenue Rights, or PCRRs, to Non-Opt-In Entities (NOIEs) based on generation ownership or contractual arrangements that predate retail competition."
+    quote: "In addition to auctioned CRRs, ERCOT allocates a subset known as Pre-Assigned Congestion Revenue Rights, or PCRRs, to Non-Opt-In Entities (NOIEs) based on generation ownership or contractual arrangements that predate retail competition. Parties receiving PCRRs pay only a fraction of the auction value of comparable CRRs, reflecting their legacy transmission access rights."
   - id: e11
     source: np-16
     locator: "Section 16.6(3)"
@@ -79,6 +79,18 @@ evidence:
     source: np-16
     locator: "Section 16.2.3(1)(c)"
     quote: "If applicable, a QSE offering services in a Non-Opt-In Entity (NOIE) service territory must obtain written authorization from the NOIE, and submit such authorization to ERCOT; and"
+  - id: e14
+    source: np-16
+    locator: "Section 16.4(1)"
+    quote: "Each Entity operating as a Transmission Service Provider (TSP) or Distribution Service Provider (DSP) within the ERCOT Region, including Municipally Owned Utilities (MOUs) and Electric Cooperatives (ECs), shall register as a TSP or DSP, or both, as applicable, with ERCOT."
+  - id: e15
+    source: np-16
+    locator: "Section 16.3.1.1(1)"
+    quote: "Each LSE applicant within the ERCOT Region shall designate the Qualified Scheduling Entity (QSE) that will perform QSE functions per these Protocols on behalf of the LSE."
+  - id: e16
+    source: puct-25-5
+    locator: "Section 25.5, definition of Transmission and distribution utility (TDU)"
+    quote: "but does not include a municipally owned utility or an electric cooperative. The TDU may be a single utility or may be separate transmission and distribution utilities."
 ---
 
 ## Definition
@@ -91,7 +103,7 @@ Customer choice applies to every Texas retail customer except customers of coope
 
 Each MOU and EC must register with ERCOT and sign the agreements for the functions it performs, whether it plans to be a NOIE or a Competitive Retailer. [e6] If it registers an affiliate as a CR, it must tell ERCOT six months before opting in. [e7]
 
-Each MOU and EC assigns an ESI ID to each NOIE wholesale point of delivery, and those ESI IDs must be assigned to an LSE. [e11] NOIEs that serve Load are LSEs, so they register as LSEs and need a QSE. [e4]
+Each MOU and EC assigns an ESI ID to each NOIE wholesale point of delivery, and those ESI IDs must be assigned to an LSE. [e11] NOIEs that serve Load are LSEs, so they register with ERCOT as LSEs [e4], and each LSE applicant must designate a QSE. [e15]
 
 ## ERCOT context
 
@@ -111,7 +123,7 @@ The Protocols carry NOIE-specific features. A NOIE or group of NOIEs can establi
 
 ## Common confusion
 
-(Guidance) "NOIE" and "opt-in" are not about whether the entity is in ERCOT; both opt-in and non-opt-in munis and co-ops can be inside the ERCOT Region and register with ERCOT. [e6] The difference is Customer Choice. [e1][e3] Also, the PUCT TDU definition excludes MOUs and ECs, so do not call a muni a TDU in PUCT terms. [e5]
+(Guidance) "NOIE" and "opt-in" are not about whether the entity is in ERCOT; both opt-in and non-opt-in munis and co-ops can be inside the ERCOT Region and register with ERCOT. [e6] The difference is Customer Choice. [e1][e3] Also, the PUCT TDU definition excludes MOUs and ECs, so do not call a muni a TDU in PUCT terms. [e16]
 
 ## Questions
 

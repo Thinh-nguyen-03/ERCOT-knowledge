@@ -31,7 +31,7 @@ links:
     note: The IMM measured the real-time price effect of ORDC shortage pricing at $0.02/MWh in 2025. [e13]
   - to: settlement-statements
     type: settles
-    note: Real-time settlement runs on RTM Initial, Final, Resettlement and True-Up Statements.
+    note: Related topic for real-time settlement statements.
 evidence:
   - id: e1
     source: np-02
@@ -97,6 +97,10 @@ evidence:
     source: np-06
     locator: "Section 6.6.3.1, Real-Time Energy Imbalance Payment or Charge at a Resource Node"
     quote: "The payment or charge to each QSE for Energy Imbalance Service is calculated based on the Real-Time Settlement Point Price for the following amounts at a particular Resource Node Settlement Point:"
+  - id: e18
+    source: imm-som-2025
+    locator: "Appendix, G. RDPA (p. A-10)"
+    quote: "The ORDC price adder, which reflected the value of reserves under shortage conditions, was replaced by a set of ASDCs. The Reliability Deployment Price Adder, which accounts for the price suppression effects of out-of-market actions by ERCOT operators, remains after RTC is implemented but includes a new feature."
   - id: e17
     source: imm-som-2025
     locator: "Executive Summary, Ancillary Services"
@@ -117,9 +121,9 @@ Settlement uses Real-Time Settlement Point Prices for a 15-minute Settlement Int
 
 ## ERCOT context
 
-The IMM calls the real-time market the most consequential of the markets because it coordinates real-time power flows and sets expectations for the forward markets. [e12] The big 2025 change was RTC, implemented in December 2025: with RTC the real-time market simultaneously procures energy and ancillary services. [e17][e11]
+The IMM calls the real-time market the most consequential of the markets because it coordinates real-time power flows and sets expectations for the forward markets. [e12] The IMM calls the implementation of RTC in December the most noteworthy development for ancillary services in its 2025 report, and with RTC the real-time market simultaneously procures energy and ancillary services. [e17][e11] The ORDC price adder was replaced by a set of Ancillary Service Demand Curves under RTC. [e18]
 
-2025 outcomes per the IMM: price spikes were 40% less frequent than in 2024, and most occurred between 7 and 9 p.m. as solar ramped down. [e15][e14] ORDC shortage pricing added only $0.02/MWh to real-time energy prices, the lowest since the ORDC began in 2014. [e13]
+2025 outcomes per the IMM: price spikes were 40% less frequent than in 2024, and most occurred between 7 and 9 p.m. as solar ramped down. [e15][e14] ORDC shortage pricing added only $0.02/MWh to real-time energy prices, the lowest since the ORDC began in 2014; the ORDC adder has since been replaced under RTC. [e13][e18]
 
 ## Key facts
 

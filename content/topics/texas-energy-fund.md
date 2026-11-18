@@ -13,10 +13,10 @@ links:
     note: The Public Utility Commission of Texas takes loan applications and approves or denies them under SB 2627. [e9]
   - to: texas-legislature
     type: related
-    note: SB 2627 (88th Legislature) is the Powering Texas Forward Act that created the fund's programs. [e1]
+    note: SB 2627, the Powering Texas Forward Act, created the fund; the 89th Legislature then passed SB 2268 to adjust some caps, requirements and deadlines. [e17]
   - to: resource-adequacy
     type: related
-    note: ERCOT's CDR has scenarios that vary the amount and timing of TEF project capacity. [e11]
+    note: ERCOT's CDR has scenarios that vary the amount and timing of TEF project capacity. [e15]
   - to: cdr-report
     type: used-in
     note: The CDR's Scenario 2 assumes all TEF projects are in service on their reported dates. [e11]
@@ -87,6 +87,10 @@ evidence:
     source: ercot-cdr-2025-12
     locator: "Scenario overview"
     quote: "two of the three scenarios define reserve margin bookends by varying the magnitude of Large Loads along with the amount and timing of Texas Energy Fund (TEF) project capacity reflected in the ERCOT interconnection queue."
+  - id: e17
+    source: puct-tef-faq
+    locator: "Overview of the Texas Energy Fund"
+    quote: "The Texas Legislature passed Senate Bill 2627, the Powering Texas Forward Act, to create the TxEF, which Texans approved through a constitutional election on November 7, 2023. The 89th Texas Legislature then passed Senate Bill 2268 to adjust certain financing requirements, programmatic caps, and deadlines for loans and grants awarded from the TxEF."
   - id: e16
     source: sb2627-88r
     locator: "Caption"
@@ -95,17 +99,17 @@ evidence:
 
 ## Definition
 
-The Texas Energy Fund is a special fund in the state treasury, outside general revenue, administered by the commission under Chapter 34 of the Utilities Code, added by SB 2627 (the Powering Texas Forward Act). [e1] The bill is described as funding mechanisms to support the construction, maintenance, modernization and operation of electric generating facilities. [e16] In ERCOT it funds low-interest loans and completion bonus grants for dispatchable generation. [e2][e6]
+The Texas Energy Fund is a special fund in the state treasury, outside general revenue, administered by the commission for the purposes authorized by Chapter 34 of the Utilities Code. [e1] SB 2627, the Powering Texas Forward Act, created it. [e17] The bill is described as funding mechanisms to support the construction, maintenance, modernization and operation of electric generating facilities. [e16] In ERCOT it funds low-interest loans and completion bonus grants for dispatchable generation. [e2][e6]
 
 ## How it works
 
 Loans can finance upgrades to existing dispatchable facilities that add at least 100 MW, or construction of dispatchable facilities of at least 100 MW. [e2] A loan has a 20-year term, ratable payments starting on the third anniversary of the estimated commercial operation date, and a three percent interest rate; a construction loan may cover up to 60 percent of the estimated cost. [e4][e5] Energy storage facilities are not eligible. [e3]
 
-Completion bonus grants are paid on construction of dispatchable generation in the ERCOT region, based on megawatts provided. The cap is $120,000 per MW for facilities interconnected before June 1, 2026, and $80,000 per MW for those interconnected on or after June 1, 2026 and before June 1, 2029, unless the commission extends deadlines for extenuating circumstances. [e6][e7] Grant recipients are subject to performance standards for the 100 hours with the least operating reserves each year. [e13]
+Completion bonus grants are paid on construction of dispatchable generation in the ERCOT region, based on megawatts provided. The cap is $120,000 per MW for facilities interconnected before June 1, 2026, and $80,000 per MW for those interconnected on or after June 1, 2026 and before June 1, 2029, unless the commission extends deadlines for extenuating circumstances. [e6][e7] The commission must set by rule performance standards for grant recipients, based on reliability metrics, for the 100 hours with the least operating reserves each year. [e13]
 
 ## ERCOT context
 
-The statute limits the fund: not more than $1 billion for grants outside ERCOT, not more than $7.2 billion for loans and grants for ERCOT generation, and not more than $1.8 billion for the backup power subchapter. [e8] Together, outstanding loans and bonus grants may not support more than 10,000 MW of capacity, and each funded facility must participate in the ERCOT wholesale market. [e12][e10] The PUCT was to start accepting loan applications by June 1, 2024 and to approve or deny each and disburse initial loan funds by December 31, 2025. [e9]
+As enacted in SB 2627, the statute limits the fund: not more than $1 billion for grants under Section 34.0103, not more than $7.2 billion for loans and grants under Sections 34.0104 and 34.0105, and not more than $1.8 billion for grants or loans under Subchapter B. [e8] ERCOT-region figures here are from the SB 2627 text; the 89th Legislature later passed SB 2268 adjusting certain caps, requirements and deadlines, so check current values. [e17] Together, outstanding loans and bonus grants may not support more than 10,000 MW of capacity, and each funded facility must participate in the ERCOT wholesale market. [e12][e10] The PUCT was to start accepting loan applications by June 1, 2024 and to approve or deny each and disburse initial loan funds by December 31, 2025. [e9]
 
 ERCOT's December 2025 CDR varies the amount and timing of TEF project capacity in two of its three alternative scenarios. [e15] One scenario assumes all TEF projects are in service on their reported dates, and brownfield sites at existing plants are expected to be less likely to be delayed. [e11][e14]
 
@@ -119,11 +123,11 @@ ERCOT's December 2025 CDR varies the amount and timing of TEF project capacity i
 
 ## Say it like this
 
-The Texas Energy Fund offers three percent, 20-year loans and per-MW completion bonuses to dispatchable plants of at least 100 MW that connect to ERCOT, within a 10,000 MW ceiling. [e2][e4][e7][e12] ERCOT's planning reports then have to decide how much of that pipeline to count on. [e15]
+The Texas Energy Fund offers three percent, 20-year loans and per-MW completion bonuses to dispatchable plants of at least 100 MW, plus per-MW completion bonuses for dispatchable plants built in ERCOT, within a 10,000 MW ceiling (as enacted in SB 2627). [e2][e4][e7][e12] ERCOT's planning reports then have to decide how much of that pipeline to count on. [e15]
 
 ## Common confusion
 
-TEF money is not a market payment or a capacity market: it is a state loan and grant program run by the commission, outside the ERCOT energy and ancillary service settlements. [e1][e2] It does not fund storage. [e3][e6] The $7.2 billion and 10,000 MW figures are ceilings, not amounts awarded. [e8][e12]
+TEF money is not a market payment or a capacity market: it is a state loan and grant program run by the commission from a special state fund. [e1][e2] It does not fund storage. [e3][e6] The $7.2 billion and 10,000 MW figures are ceilings, not amounts awarded. [e8][e12]
 
 ## Questions
 
@@ -144,6 +148,6 @@ The December 2025 CDR varies the amount and timing of TEF project capacity in tw
 - Deeper pass: individual project awards, loan amounts, who received them and current status; none are in the saved sources except the project names tagged "(TEF)" in the MORA data.
 - Deeper pass: the Texas Energy Fund Advisory Committee (Sec. 34.0109), the constitutional amendment (Section 49-q, Article III) and the Texas Power Promise backup power packages (Subchapter B).
 - HB 1500 (88th Legislature) was in the assignment but contains no Texas Energy Fund text in the saved copy, so no appropriation amount is stated.
-- The fund balance, appropriation size and any later legislative changes (for example in 2025) were not found.
+- The fund balance and appropriation size were not found. The PUCT FAQ says SB 2268 (89th Legislature) adjusted certain financing requirements, programmatic caps and deadlines; the specific new values are not in the saved sources, so the SB 2627 figures above may be superseded.
 - "The commission" in Chapter 34 is read as the PUCT based on SECTION 5 naming the Public Utility Commission of Texas; the chapter's own definition of commission was not quoted.
 - Loan and grant restrictions (industrial and private-use network exclusion, escrow deposit, debt covenants) in Sec. 34.0104 and 34.0106 were read but not quoted.

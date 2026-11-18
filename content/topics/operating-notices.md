@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: eea
     type: related
-    note: An Emergency Notice declares an Emergency Condition, and the EEA is the procedure for operating through it. [e1][e8]
+    note: An Emergency Notice declares an Emergency Condition, and ERCOT uses PRC and system frequency to determine both the Emergency Notice and EEA levels. [e12][e9]
   - to: prc
     type: related
     note: ERCOT uses PRC and system frequency to determine the Emergency Notice and EEA levels. [e9]
@@ -22,7 +22,7 @@ links:
     note: QSEs must pass notices on to the Market Participants they represent and update resource data in weather-driven notices. [e5][e7][e10]
   - to: load-shed
     type: related
-    note: A Watch directs TSPs and DSPs to prepare for load shedding. [e6]
+    note: On a Watch, each TSP or DSP must identify and prepare to implement actions, including preparing for Load shedding. [e16]
   - to: weather-load
     type: related
     note: Weather conditions are among the stated reasons for OCNs. [e4]
@@ -87,6 +87,14 @@ evidence:
     source: np-02
     locator: "Section 2.1, definition of Watch"
     quote: "The third of three levels of communication issued by ERCOT in anticipation of a possible Emergency Condition."
+  - id: e16
+    source: np-06
+    locator: "Section 6.5.9.3.3, Watch, paragraph (3)"
+    quote: "To minimize the effects on the ERCOT System, each TSP or DSP shall identify and prepare to implement actions, including restoration of transmission lines as appropriate and preparing for Load shedding."
+  - id: e17
+    source: np-02
+    locator: "Section 2.1, definition of Energy Emergency Alert (EEA)"
+    quote: "An orderly, predetermined procedure for maximizing use of available Resources and, only if necessary, curtailing load during an Emergency Condition while providing for the maximum possible continuity of service and maintaining the integrity of the ERCOT System."
 ---
 
 ## Definition
@@ -103,7 +111,7 @@ An Emergency Notice is issued when ERCOT cannot maintain minimum reliability sta
 
 ## ERCOT context
 
-The notices tie to resource obligations: when ERCOT issues any of the four due to forecast or actual cold or hot weather, QSEs must update the COP, telemetry and outage or derate reporting for each generation resource and ESR to reflect operating limits. [e10] ERCOT uses PRC and system frequency to determine the appropriate Emergency Notice and EEA levels, so the notices sit on the same ladder as the EEA. [e9]
+The notices tie to resource obligations: when ERCOT issues any of the four due to forecast or actual cold or hot weather, QSEs must update the COP, telemetry and outage or derate reporting for each generation resource and ESR to reflect operating limits. [e10] ERCOT uses PRC and system frequency to determine the appropriate Emergency Notice and EEA levels. [e9]
 
 ## Key facts
 
@@ -119,7 +127,7 @@ ERCOT escalates in steps: an OCN is a heads-up, an Advisory says more reserves o
 
 ## Common confusion
 
-An Emergency Notice is not an EEA level. The EEA is the orderly procedure for maximizing resources and, only if necessary, curtailing load, and ERCOT uses PRC and frequency to pick both the Emergency Notice and the EEA level. [e9] A Watch is also not an EEA; it is the third of the three pre-emergency communications. [e15] See the PRC topic for how PRC thresholds relate to a Watch.
+An Emergency Notice is not an EEA level. The EEA is the orderly procedure for maximizing resources and, only if necessary, curtailing load. [e17] ERCOT uses PRC and frequency to pick both the Emergency Notice and the EEA level. [e9] A Watch is also not an EEA; it is the third of the three pre-emergency communications. [e15]
 
 ## Questions
 

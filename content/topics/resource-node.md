@@ -19,10 +19,10 @@ links:
     note: Resource Node prices are built directly from LMPs at that node. [e3]
   - to: load-zone
     type: contrasts-with
-    note: A Load Zone averages many buses weighted by Load, while a Resource Node is a single node for a Resource. [e1][e5]
+    note: A Load Zone price is based on state-estimated Load and the time-weighted average LMPs at buses in the zone, while a Resource Node is the point where a Resource's price is calculated. [e1][e5]
   - to: trading-hub
     type: contrasts-with
-    note: A Hub averages a fixed set of buses; a Resource Node is the point where one Resource is paid. [e1]
+    note: Hub information comes from aggregating nodes and calculating an average price; a Resource Node is where a Generation Resource or ESR price is calculated. [e7][e1]
   - to: basis-risk
     type: related
     note: A generator paid at its node but hedged at a hub carries the node-to-hub price difference.
@@ -47,6 +47,10 @@ evidence:
     source: np-06
     locator: "Section 6.6.1.2, paragraph (1)"
     quote: "The Real-Time Settlement Point Price for a Load Zone Settlement Point is based on the state-estimated Load in MW and the time-weighted average Real-Time LMPs at Electrical Buses that are included in the Load Zone."
+  - id: e7
+    source: puct-25-501
+    locator: "16 TAC §25.501(g), Energy trading hubs"
+    quote: "Energy trading hubs. ERCOT shall provide information for energy trading hubs by aggregating nodes and calculating an average price for each aggregation, for each financial settlement interval."
   - id: e6
     source: np-06
     locator: "Section 6.2, paragraph (4)"
@@ -63,7 +67,7 @@ In the day-ahead, the price at a Resource Node for an hour is simply the LMP at 
 
 ## ERCOT context
 
-The Resource Node is the generator's side of the market: it is a Settlement Point alongside the Load Zone and Hub, and it is the only one of the three that is tied to a single Resource's location rather than an average. [e1][e2] Because the Load Zone price is a load-weighted average of bus prices, a generator paid at its node and a load paid at its zone can see different prices in the same interval. [e4][e5]
+The Resource Node is the generator's side of the market: it is a Settlement Point alongside the Load Zone and Hub, and it is the point where a Generation Resource or ESR price is calculated, whereas a Hub aggregates nodes into an average price. [e1][e2][e7] Because the Load Zone price is based on state-estimated Load and time-weighted average LMPs across buses in the zone, a generator paid at its node and a load paid at its zone can see different prices in the same interval. [e4][e5]
 
 ## Key facts
 
@@ -78,8 +82,8 @@ The resource node is the pricing point where a generator or battery is paid. Its
 
 ## Common confusion
 
-- Resource Node versus Hub: a Hub is an average over a defined set of buses and is the hedging reference; a Resource Node is where a specific Resource settles. [e1][e2]
-- Resource Node versus Load Zone: the zone price is load-weighted across buses, not a single node. [e5]
+- Resource Node versus Hub: a Hub aggregates nodes into an average price; a Resource Node is where a Generation Resource's or ESR's price is calculated. [e1][e7]
+- Resource Node versus Load Zone: the zone price is based on state-estimated Load and time-weighted average LMPs across the zone's buses, not a single node. [e5]
 
 ## Questions
 

@@ -10,22 +10,22 @@ as_of: 2026-11-18
 links:
   - to: shadow-price
     type: related
-    note: Shadow price is the marginal cost of a constraint; shift factors give a bus's sensitivity to that constraint's flow. [e1]
+    note: A shift factor measures the flow on a Transmission Element from a unit injection at a bus, which is a different quantity from the constraint's shadow price. [e1]
   - to: binding-constraint
     type: related
     note: ERCOT posts shift factors alongside the binding constraints they apply to. [e3]
   - to: congestion
     type: related
-    note: Shift factors are how a constraint's effect is mapped onto each bus and Settlement Point.
+    note: ERCOT posts shift factors by Resource Node, Hub, Load Zone and DC Tie. [e3]
   - to: load-zone
     type: used-in
     note: Load Zone prices are built from Load-weighted aggregated shift factors of the buses in the zone. [e2]
   - to: trading-hub
     type: used-in
-    note: Hub prices use the aggregated shift factors of the Hub Buses. [e4]
+    note: The North 345 kV Hub Price uses the aggregated shift factors of the Hub Buses. [e4]
   - to: gtc
     type: related
-    note: Competitiveness tests for constraints, including GTC-related ones, use a 2% minimum shift factor threshold. [e5]
+    note: The SCED competitiveness test for constraints uses a 2% minimum shift factor threshold. [e5]
 evidence:
   - id: e1
     source: np-02
@@ -63,13 +63,13 @@ A shift factor measures the flow on a particular Transmission Element caused by 
 
 ## How it works
 
-Each constraint has its own set of shift factors, one per bus. Prices at an aggregate point are built from those bus-level values: ERCOT calculates a Load Zone Settlement Point Price from the Load-weighted aggregated shift factors of the zone's power flow buses for each constraint, with the Load distribution factors supplying the weights. [e2] Hub prices likewise use the aggregated shift factors of the Hub Buses. [e4]
+Shift factors apply to each constraint at the bus level. Load Zone prices are built from those bus-level values: ERCOT calculates a Load Zone Settlement Point Price from the Load-weighted aggregated shift factors of the zone's power flow buses for each constraint, with the Load distribution factors supplying the weights. [e2] The North 345 kV Hub Price likewise uses the aggregated shift factors of the Hub Buses for each hour of the DAM. [e4]
 
 ERCOT publishes the inputs. Every hour it posts the binding transmission constraints with the contingency and overloaded element pairs behind them, and the shift factors by Resource Node, Hub, Load Zone and DC Tie. [e3]
 
 ## ERCOT context
 
-Shift factors also drive the market-power screens on constraints. A constraint can only be classed as competitive in the SCED test if, among other conditions, buses with available Resource capacity have shift factors whose absolute value is at least the SFP3 threshold, which is set at 2%. [e5][e6] The current text requires negative shift factors at those buses; a pending revision (NPRR1182) would rewrite it to cover shift factors that can help resolve the constraint by raising injection or cutting withdrawal. [e7]
+Shift factors also enter the competitiveness screen for constraints. A constraint can only be classed as competitive in the SCED test if, among other conditions, buses with available Resource capacity have shift factors whose absolute value is at least the SFP3 threshold, which is set at 2%. [e5][e6] The current text requires negative shift factors at those buses; a pending revision (NPRR1182) would rewrite it to cover shift factors that can help resolve the constraint by raising injection or cutting withdrawal. [e7]
 
 ## Key facts
 
@@ -84,7 +84,7 @@ A shift factor tells you how many MW of a given line's flow one more MW at a bus
 
 ## Common confusion
 
-A shift factor is not a price and not a limit; it is a sensitivity that depends on the reference bus and the network model. [e1] It also is not the same as a Load distribution factor, which supplies weights for aggregating bus-level values into a zone. [e2]
+A shift factor is not a price and not a limit; it is a sensitivity measured to a fixed reference bus. [e1] It also is not the same as a Load distribution factor, which supplies weights for aggregating bus-level values into a zone. [e2]
 
 ## Questions
 
@@ -102,6 +102,7 @@ ERCOT posts them hourly, by Resource Node, Hub, Load Zone and DC Tie, on the MIS
 
 ## Open items
 
+- Only the North 345 kV Hub's shift-factor pricing was quoted; other hubs were not read.
 - Deeper pass: the full LMP decomposition (energy, congestion, loss) and how shift factors times shadow prices make up the congestion component; np-06 6.5.7.3 and np-04 DAM clearing were not read for this.
 - Deeper pass: sign convention for import-side versus export-side shift factors in the competitiveness tests.
 - Hourly posting is on the MIS Secure Area per np-06; whether any public posting exists was not confirmed (a table row in np-06 shows a pending move to the ERCOT website).

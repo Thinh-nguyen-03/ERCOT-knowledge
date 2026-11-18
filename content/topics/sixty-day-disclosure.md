@@ -19,10 +19,10 @@ links:
     note: The Protocols require posting DAM offer data 60 days after the Operating Day. [e7]
   - to: market-information-system
     type: related
-    note: These postings go on the public ERCOT website, which is separate from the MIS secure and certified areas. [e1]
+    note: These postings go to a publicly accessible location on the ERCOT website. [e1]
   - to: imm
     type: related
-    note: Entity-specific offer data posted after the delay is the basis for after-the-fact analysis of market behavior.
+    note: Entity-specific offer data is posted 60 calendar days after the day it is accumulated. [e3]
   - to: energy-offer-curve
     type: related
     note: Generation Resource Energy Offer Curves are among the items posted at 60 days. [e6]
@@ -34,11 +34,11 @@ evidence:
   - id: e2
     source: puct-25-506
     locator: "Section 25.506(b)"
-    quote: "ERCOT will post the following information in aggregated form, for each settlement interval and for each area where available, two calendar days after the day for which the information is accumulated:"
+    quote: "ERCOT will post the following information in aggregated form, for each settlement interval and for each area where available, two calendar days after the day for which the information is accumulated: (1) quantities and prices of offers for energy and each type of ancillary capacity service, in the form of supply curves; (2) self-arranged energy and ancillary capacity services, for each type of service; (3) actual resource output; (4) load and resource output for all entities that dynamically schedule their resources; (5) actual load; and (6) energy bid curves, cleared energy bids, and cleared load."
   - id: e3
     source: puct-25-506
     locator: "Section 25.506(c)"
-    quote: "ERCOT will post the following information in entity-specific form, for each settlement interval, 60 calendar days after the day for which the information is accumulated, except where inapplicable or otherwise prescribed."
+    quote: "ERCOT will post the following information in entity-specific form, for each settlement interval, 60 calendar days after the day for which the information is accumulated, except where inapplicable or otherwise prescribed. Resource-specific offer information must be linked to the name of the resource (or identified as a virtual offer), the name of the entity submitting the information, and the name of the entity controlling the resource."
   - id: e4
     source: puct-25-506
     locator: "Section 25.506(c)(1)"
@@ -46,11 +46,11 @@ evidence:
   - id: e5
     source: puct-25-506
     locator: "Section 25.506(c)(5)"
-    quote: "For each hour, transmission flows, voltages, transformer flows, voltages and tap positions (i.e., State Estimator data)."
+    quote: "For each hour, transmission flows, voltages, transformer flows, voltages and tap positions (i.e., State Estimator data). Notwithstanding the provisions of this paragraph and the provisions of paragraphs (1) through (4) of this subsection, ERCOT must release relevant State Estimator data earlier than 60 days after the day for which the information is accumulated if, in its sole discretion, it determines the release is necessary to provide a complete and timely explanation and analysis of unexpected market operations and results or system events, including but not limited to pricing anomalies, recurring transmission congestion, and system disturbances."
   - id: e6
     source: np-03
-    locator: "Section 3.2.5, Publication of Resource and Load Information, paragraph (4)"
-    quote: "ERCOT shall post on the ERCOT website the following information for each Resource for each execution of SCED 60 days prior to the current Operating Day:"
+    locator: "Section 3.2.5, Publication of Resource and Load Information, paragraph (4)(a)"
+    quote: "ERCOT shall post on the ERCOT website the following information for each Resource for each execution of SCED 60 days prior to the current Operating Day: (a) The Generation Resource name and the Generation Resource’s Energy Offer Curve (prices and quantities):"
   - id: e7
     source: np-03
     locator: "Section 3.2.5, paragraph (12)"
@@ -59,6 +59,10 @@ evidence:
     source: np-03
     locator: "Section 3.2.5, paragraph (1)"
     quote: "Two days after the applicable Operating Day, ERCOT shall post on the ERCOT website for the ERCOT System and, if applicable, for each Disclosure Area, the information derived from each execution of SCED."
+  - id: e9
+    source: puct-25-506
+    locator: "Section 25.506(c)(3)"
+    quote: "Other resource-specific information, as well as self-arranged energy and ancillary capacity services, and actual resource output, for each type of service and for each resource at each settlement point."
 ---
 
 ## Definition
@@ -67,13 +71,13 @@ The 60-day disclosures are the entity-specific market data ERCOT posts publicly 
 
 ## How it works
 
-The rule has two tiers. Aggregated information, such as supply curves, actual output and actual load, is posted two calendar days after the day. [e2] Entity-specific information, with resource and entity names attached, is posted 60 calendar days after. [e3] The Protocols mirror this: SCED-derived aggregate data is posted two days after the Operating Day, and resource-level SCED data and DAM data are posted 60 days prior to the current Operating Day. [e8][e6][e7]
+The rule has two tiers. Aggregated information, such as supply curves, actual output and actual load, is posted two calendar days after the day. [e2] Entity-specific information, with resource-specific offer information linked to the resource, submitting entity and controlling entity names, is posted 60 calendar days after. [e3] The Protocols mirror this: SCED-derived aggregate data is posted two days after the Operating Day, and resource-level SCED data and DAM data are posted 60 days prior to the current Operating Day. [e8][e6][e7]
 
 ## ERCOT context
 
-The 60-day lag exists inside a rule written to increase market transparency while never disclosing competitively sensitive consumption data. [e1] The 60-day set includes real-time and ancillary service offer curves, other resource-specific information, and hourly State Estimator data. [e4][e5] Not everything waits: the highest-priced offer selected or dispatched in each interval, with the offering entity's name, is posted after three calendar days. [e4]
+The 60-day lag exists inside a rule written to increase market transparency while never disclosing competitively sensitive consumption data. [e1] The 60-day set includes real-time and ancillary service offer curves, other resource-specific information, and hourly State Estimator data. [e4][e9][e5] Not everything waits: the highest-priced offer selected or dispatched in each interval, with the offering entity's name, is posted after three calendar days. [e4]
 
-The State Estimator data can be released sooner than 60 days when ERCOT decides this is necessary to explain unexpected market or system events, such as pricing anomalies. [e5]
+ERCOT must release relevant State Estimator data earlier than 60 days if, in its sole discretion, it determines the release is necessary to explain unexpected market operations or system events, including pricing anomalies. [e5]
 
 ## Key facts
 
@@ -84,7 +88,7 @@ The State Estimator data can be released sooner than 60 days when ERCOT decides 
 
 ## Say it like this
 
-(Guidance) ERCOT shows the market its aggregate offer and load data within two days, but names who offered what only after 60 days. That is why analysts reconstruct competitors' behavior after the fact.
+(Guidance) ERCOT shows the market its aggregate offer and load data within two days, but names who offered what mostly only after 60 days. That is why analysts reconstruct competitors' behavior after the fact.
 
 ## Common confusion
 

@@ -16,7 +16,7 @@ links:
     note: Make-whole costs not covered by capacity-short charges are uplifted to all QSEs by Load Ratio Share. [e4]
   - to: qse
     type: related
-    note: Make-whole payments, clawbacks and capacity-short charges are paid to or charged to QSEs. [e1][e3]
+    note: Make-whole payments are paid to QSEs, and clawback and capacity-short charges are charged to QSEs. [e1][e2][e3]
   - to: load-ratio-share
     type: used-in
     note: The uplift charge and the clawback payment are both allocated on a Load Ratio Share basis. [e4][e6]
@@ -25,7 +25,7 @@ links:
     note: The IMM says congestion accounted for about 77% of 2025 RUC commitments. [e7]
   - to: imm
     type: related
-    note: IMM reports supply the 2024-2025 make-whole and clawback amounts. [e8]
+    note: The IMM reports the 2025 make-whole and clawback amounts. [e8]
 evidence:
   - id: e1
     source: np-02
@@ -34,7 +34,7 @@ evidence:
   - id: e2
     source: np-05
     locator: "Section 5.7.2, paragraph (1)"
-    quote: "A QSE for a Resource shall pay a RUC Clawback Charge for the Operating Day if the RUC Guarantee is less than the sum of:"
+    quote: "A QSE for a Resource shall pay a RUC Clawback Charge for the Operating Day if the RUC Guarantee is less than the sum of: (a) RUC Minimum-Energy Revenue calculated in Section 5.7.1.2, RUC Minimum-Energy Revenue; (b) Revenue Less Cost Above LSL During RUC-Committed Hours calculated in Section 5.7.1.3, Revenue Less Cost Above LSL During RUC-Committed Hours; and (c) Revenue Less Cost During QSE-Clawback Intervals calculated in Section 5.7.1.4, Revenue Less Cost During QSE Clawback Intervals."
   - id: e3
     source: np-05
     locator: "Section 5.7.4.1, RUC Capacity-Short Charge, paragraph (1)"
@@ -71,7 +71,7 @@ evidence:
 
 ## Definition
 
-A RUC Make-Whole Payment is what ERCOT pays a QSE to reimburse allowable startup and minimum-energy costs of a Resource that energy and Ancillary Service revenue did not cover, when the Resource was committed by RUC and the QSE did not opt out of RUC Settlement, or when it was committed by the DAM. [e1] A RUC Clawback Charge is the reverse: the QSE pays when the RUC Guarantee is less than the Resource's revenues from the components listed in Section 5.7.2. [e2]
+A RUC Make-Whole Payment is what ERCOT pays a QSE to reimburse allowable startup and minimum-energy costs of a Resource that energy and Ancillary Service revenue did not cover, when the Resource was committed by RUC and the QSE did not opt out of RUC Settlement, or when it was committed by the DAM. [e1] A RUC Clawback Charge is the reverse: the QSE pays when the RUC Guarantee is less than the sum of the RUC Minimum-Energy Revenue and the two revenue-less-cost amounts listed in Section 5.7.2. [e2]
 
 ## How it works
 
@@ -113,7 +113,7 @@ NPRR 1172 took effect; before it, resources with valid day-ahead offers faced on
 
 ### Can a resource avoid make-whole and clawback?
 
-A resource can opt out of RUC Settlement; the make-whole definition applies only if the QSE has not elected to opt out. [e1]
+The make-whole definition applies to a RUC-committed Resource only if the QSE has not elected to opt out of RUC Settlement; whether opt-out also avoids clawback was not quoted here. [e1]
 
 ## Open items
 

@@ -13,7 +13,7 @@ links:
     note: Under RTC, scarcity pricing and the value of reserves come from individual Ancillary Service Demand Curves inside the dispatch. [e3]
   - to: ordc
     type: replaced
-    note: RTC removed the ORDC price adder that set reserve scarcity pricing outside the optimization before December 5, 2025. [e3]
+    note: Under RTC, scarcity pricing comes from ASDCs instead of the ORDC. [e3]
   - to: sced
     type: affects
     note: SCED now awards energy and Ancillary Services together about every five minutes. [e2]
@@ -22,13 +22,13 @@ links:
     note: The "+B" part made SCED track each ESR's State of Charge so that energy and AS awards are feasible. [e7]
   - to: dam
     type: affects
-    note: Day-ahead AS awards became financial positions settled against real-time AS prices, and virtual AS positions were added. [e5]
+    note: Day-ahead AS awards became financial positions with imbalances settled in real time, and virtual AS positions were added. [e5]
   - to: ruc
     type: affects
-    note: RUC was also changed to co-optimize energy and AS, and RUC volumes moved sharply after go-live. [e13][e14]
+    note: RUC volumes moved sharply after go-live, down 80% in the first winter and then higher in summer 2026. [e13][e14]
   - to: sc-battery-strategy
     type: related
-    note: Battery offer strategy changed because ESRs can now sell AS directly in real time with SOC limits enforced by SCED. [e7]
+    note: SCED now accounts for each ESR's State of Charge when awarding energy and AS, which bears on battery offer strategy. [e7]
 evidence:
   - id: e1
     source: imm-som-2025
@@ -82,6 +82,10 @@ evidence:
     source: imm-som-2025
     locator: "Appendix, F. Impact on RUC (p. A-10)"
     quote: "Compared to the same period a year before RTC go-live, December 5, 2024, through February 2025, RUC commitments fell by 80% after go-live."
+  - id: e15
+    source: ercot-summer-2026-review
+    locator: "Slide 21, key takeaway"
+    quote: "The proportion of ESR capacity offered at price levels within $100/MWh of System Wide Offer Cap is slightly higher in the summer of 2026 compared to that of previous two summers, largely due to the lower Real-Time System Wide Offer Cap ($2000/MWh) introduced as part of RTC+B."
   - id: e14
     source: ercot-summer-2026-review
     locator: "Slide 20, RUC Effective Resource-Hours"
@@ -94,11 +98,11 @@ RTC+B is the ERCOT market upgrade under which the real-time dispatch co-optimize
 
 ## How it works
 
-Before RTC, day-ahead AS awards were physical obligations, and the real-time market held that reserved capacity back from energy dispatch. Under RTC, the real-time market trades energy against reserves directly in each dispatch run. [e1]
+Before RTC, day-ahead AS awards were physical obligations, and the real-time market held that reserved capacity back from energy dispatch. Under RTC, the real-time dispatch co-optimizes energy and ancillary services, making economic trade-offs between them. [e1]
 
-Scarcity pricing moved inside the optimization. Under RTC the ORDC is no longer used, and the value of reserves comes from individual Ancillary Service Demand Curves (ASDCs). [e3] Because reserves and energy compete for the same capacity, the cost of AS now shows up in LMPs. In ERCOT's teaching example, re-dispatching cheaper energy from one unit raises AS cost, and the LMP becomes $40/MWh: $30/MWh of energy plus $10/MWh of extra AS cost. [e4]
+Scarcity pricing moved inside the optimization. Under RTC the ORDC is no longer used, and the value of reserves comes from individual Ancillary Service Demand Curves (ASDCs). [e3] ERCOT's education deck says the cost of AS is factored directly into LMPs. In its example, reallocating AS to reach cheaper energy from Gen 1 raises AS cost, and the LMP becomes $40/MWh: $30/MWh of energy plus $10/MWh of additional AS cost. [e4]
 
-The day-ahead market still clears energy and AS, but day-ahead AS awards are now financial positions that settle against real-time AS prices. Virtual AS positions were added as hedges on the real-time price of reserves. [e5] The Supplemental Ancillary Services Market (SASM) was eliminated. [e6]
+The day-ahead market still clears energy and AS, but day-ahead AS awards are now financial positions, and ERCOT settles imbalances on them in real time. Virtual AS positions were added as hedges on the real-time price of reserves. [e5] ERCOT's RTC overview said the Supplemental Ancillary Services Market (SASM) would be eliminated with the implementation of RTC. [e6]
 
 The "+B" part changes how batteries are handled. SCED tracks each ESR's State of Charge (SOC) so that its energy and AS awards can be sustained for their duration requirements. [e7]
 
@@ -106,24 +110,24 @@ The "+B" part changes how batteries are handled. SCED tracks each ESR's State of
 
 RTC+B went live with 12/5/2025 as the first Operating Day, after the software migration on 12/4/2025. [e8] Over the first 48 hours ERCOT reported that SCED awarded energy and procured AS at or above plan in every interval, with minimum PRC of 7,272 MW on 12/6/25. [e9]
 
-The IMM's first review, covering December 5, 2025 through February 2026, found RTC "operating largely as expected". It saw gains in AS awards moving between resources within the hour, the market's ability to go short on AS, and fewer RUC commitments. It also flagged problems with how the ASDCs are built and with AS duration constraints, especially for Non-Spin (NSRS). [e10]
+The IMM's review of RTC outcomes so far found RTC "operating largely as expected". It saw gains in AS awards moving between resources within the hour, the market's ability to go short on AS, and fewer RUC commitments. It also flagged problems with how the ASDCs are built and with AS duration constraints, especially for Non-Spin (NSRS). [e10]
 
-RUC results changed sharply from one period to the next. The IMM found RUC commitments fell 80% in the first winter after go-live compared with a year earlier. [e13] In summer 2026, however, ERCOT reported RUC activity well above the two previous summers, mostly to make sure enough AS quantity was available. [e14]
+RUC results changed sharply from one period to the next. The IMM found RUC commitments fell 80% after go-live compared with the same period a year before (December 5, 2024 through February 2025). [e13] In summer 2026, however, ERCOT reported RUC activity well above the two previous summers, mostly to make sure enough AS quantity was available. [e14]
 
 ## Key facts
 
 - First Operating Day: 12/5/2025; software migration on 12/4/2025. [e8]
 - Real-time dispatch runs about every five minutes and clears energy and AS together. [e2]
-- Virtual AS offers entered the day-ahead market only on December 6, 2025, so the go-live-day DAM AS prices came from physical offers alone. [e11]
-- ERCOT noted that the real-time SWCAP dropped from $5,000/MWh to $2,000/MWh after RTC go-live on 12/5/2025. [e12]
-- RUC commitments from December 5, 2025 through February 2026 were 80% lower than in the same period a year earlier. [e13]
+- Virtual AS offers were not introduced to the day-ahead market until December 6; the IMM says physical-resource offers drove the elevated day-ahead prices on December 5, 2025. [e11]
+- ERCOT noted that the SWCAP was reduced from $5,000/MWh to $2,000/MWh after RTC go-live on 12/5/2025, and calls the $2,000 the lower Real-Time SWCAP introduced with RTC+B. [e12][e15]
+- RUC commitments fell 80% after go-live compared with the same period a year before (December 5, 2024 through February 2025 baseline). [e13]
 - Minimum PRC in the first 48 hours was 7,272 MW (12/6/25). [e9]
 
 ## Timeline
 
 - 12/4/2025: RTC+B software migration. 12/5/2025: first Operating Day. [e8]
 - December 6, 2025: virtual AS offers first allowed in the day-ahead market. [e11]
-- December 5, 2025 to February 2026: IMM's first review window; RUC commitments down 80% year over year. [e10][e13]
+- After go-live: IMM finds RTC operating largely as expected; RUC commitments down 80% against the year-earlier period. [e10][e13]
 - Summer 2026: ERCOT reports RUC activity higher than the two previous summers, mostly for AS needs. [e14]
 
 ## Say it like this
@@ -132,7 +136,7 @@ RUC results changed sharply from one period to the next. The IMM found RUC commi
 
 ## Common confusion
 
-(Guidance) RTC did not make the day-ahead market go away. The DAM still clears AS, but those awards are now financial and settle against real-time AS prices. [e5] Also, "RTC" and "+B" are two pieces of one project: co-optimization is the pricing and dispatch change, and the battery part is the single-device ESR model with SOC tracked by SCED. [e7]
+(Guidance) RTC did not make the day-ahead market go away. The DAM still clears AS, but those awards are now financial and settle against real-time AS prices. [e5] Also, "RTC" and "+B" are two pieces of one project: co-optimization is the pricing and dispatch change, and the battery part is SOC accounting for ESRs inside SCED. [e7]
 
 ## Questions
 
@@ -142,11 +146,11 @@ Co-optimization means scheduling energy and reserves at the same time and tradin
 
 ### Why can LMPs be higher under RTC even when energy offers are unchanged?
 
-Under RTC, the cost of AS is built into LMPs. If SCED moves reserves off a cheap unit so that unit can produce energy, the extra cost of holding reserves elsewhere becomes part of the LMP. ERCOT's example has a $30/MWh unit setting a $40/MWh LMP. [e4]
+Under RTC, ERCOT's education deck says the cost of AS is factored directly into LMPs. In its example, reallocating AS to reach cheaper energy from Gen 1 raises AS cost, and the LMP goes to $40/MWh: $30/MWh of energy plus $10/MWh of additional AS cost. [e4]
 
 ### What happens to a day-ahead AS award in real time now?
 
-It is a financial position. ERCOT settles the difference between the day-ahead award and the real-time award at real-time AS prices. [e5]
+It is a financial position. ERCOT settles imbalances on those positions in real time. [e5]
 
 ### How has RTC affected RUC?
 
@@ -156,7 +160,7 @@ It depends on which period you look at. The IMM found RUC commitments fell 80% i
 
 ### A trader sees a real-time price spike with no ORDC adder posted. Is something broken?
 
-- No. ERCOT no longer posts ORDC adders. Under RTC, scarcity value comes from the ASDCs inside SCED and flows into LMPs and AS prices. [e3][e4]
+- No. Under RTC the ORDC is no longer used; instead scarcity pricing and the value of reserves are set by the ASDCs, and the cost of AS is factored into LMPs. [e3][e4]
 - Look at the real-time AS prices and any AS shortfalls in that interval to see what drove the spike. [e2]
 
 ## Open items

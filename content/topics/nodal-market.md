@@ -19,7 +19,7 @@ links:
     note: Every Settlement Point is a Resource Node, a Load Zone or a Hub. [e5]
   - to: sced
     type: composed-of
-    note: SCED produces the real-time base points and ancillary service awards whose prices feed nodal LMPs. [e11]
+    note: SCED determines Ancillary Service awards and Base Point instructions, and LMPs are produced by the DAM or SCED. [e11][e4]
   - to: dam
     type: composed-of
     note: PUCT rules require ERCOT to run a voluntary day-ahead energy market. [e8]
@@ -31,7 +31,7 @@ links:
     note: Hubs are averages of nodal prices that ERCOT publishes for each settlement interval. [e10]
   - to: congestion
     type: related
-    note: Under the nodal design, congestion shows up as price differences between locations. [e6]
+    note: Congestion rents on a scheduled transaction are the difference between the resource's nodal LMP and the load zone price. [e2]
 evidence:
   - id: e1
     source: puct-25-501
@@ -101,11 +101,11 @@ PUCT rule 25.501 sets the design. ERCOT must price energy, ancillary services an
 
 Prices settle at Settlement Points, and each Settlement Point is a Resource Node, a Load Zone or a Hub. [e5] Hubs are averages of nodal prices that ERCOT publishes for each settlement interval. [e10] LMPs are calculated at individual generation and load nodes, but load pays the load-weighted average price of its zone. That smooths volatility and makes hedging easier, but it averages some congestion costs across customers. [e6]
 
-The market runs in layers. Real-time prices come from SCED, which sets base points and ancillary service awards from offers, bids and ancillary service demand curves. [e11] The rules also require a voluntary day-ahead energy market [e8], and CRRs, which ERCOT auctions in a simultaneous combinatorial auction instead of offering physical transmission rights. [e9] The IMM describes these as three markets: real-time, plus the day-ahead and CRR forward markets. The real-time market is the most consequential, because it coordinates power flows and sets expectations for the forward markets. [e12]
+The market runs in layers. Real-time prices come from SCED, which sets base points and ancillary service awards from offers, bids and ancillary service demand curves. [e11][e4] The rules also require a voluntary day-ahead energy market [e8], and CRRs, which ERCOT auctions in a simultaneous combinatorial auction instead of offering physical transmission rights. [e9] The IMM describes these as three markets: real-time, plus the day-ahead and CRR forward markets. The real-time market is the most consequential, because it coordinates power flows and sets expectations for the forward markets. [e12]
 
 ## ERCOT context
 
-Zonal settlement for load is a deliberate compromise, and its quality depends on the zones. ERCOT set its four current load zones in 2003: North, West, South and Houston. [e7] The IMM argues that LMP signals are only as accurate as the match between load zones and persistent transmission constraints. [e6]
+Zonal settlement for load trades signal accuracy for smoother prices, and the quality of the signal depends on the zones. [e6] ERCOT set its four current load zones in 2003: North, West, South and Houston. [e7] The IMM argues that LMP signals are only as accurate as the match between load zones and persistent transmission constraints. [e6]
 
 The zonal layer has real costs. Controllable load resources are still dispatched and settled at zonal prices, which hurts CLRs at low-cost nodes, such as in the Panhandle, where the zonal price is often above their actual cost of service. [e14] On the operations side, the IMM reported that in 2025 the rate of transmission constraints violated because they were too expensive to resolve fell to its lowest level since the nodal market was implemented. [e13]
 
@@ -130,7 +130,7 @@ The zonal layer has real costs. Controllable load resources are still dispatched
 
 ### If ERCOT is nodal, why do most retail loads see zonal prices?
 
-The PUCT rule settles resources at nodal LMPs and loads at zonal prices built from nodal prices. [e2] The IMM notes that zonal settlement smooths volatility and helps hedging, but it averages some congestion across customers. [e6]
+The PUCT rule settles resources at nodal LMPs and loads at zonal prices, and load zones aggregate nodal prices. [e2][e7] The IMM notes that zonal settlement smooths volatility and helps hedging, but it averages some congestion across customers. [e6]
 
 ### What determines an LMP in ERCOT?
 
@@ -149,7 +149,7 @@ The IMM calls the real-time market the most consequential: it coordinates real-t
 ### A retailer serving load in the West zone asks why its cost differs from the nodal price at a nearby wind farm.
 
 - The wind farm is paid its nodal LMP, while the retailer's load settles at the West load zone price. [e2]
-- Congestion inside a zone is averaged across that zone's load. The IMM says this hides some transmission limits from the price signal. [e6]
+- Some congestion costs are averaged across customers in the zone, and the IMM says LMP signals work only as well as zones align with persistent constraints. [e6]
 
 ## Open items
 

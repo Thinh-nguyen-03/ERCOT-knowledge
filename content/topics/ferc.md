@@ -72,7 +72,7 @@ ERCOT's wholesale energy market is outside FERC's regulation. [e1] The same repo
 ## Key facts
 
 - ERCOT's wholesale energy market is not regulated by FERC because exchanges occur wholly within Texas. [e1]
-- FERC's reliability jurisdiction comes from the Energy Policy Act of 2005 and Federal Power Act section 215. [e3]
+- FERC's reliability jurisdiction comes from the Energy Policy Act of 2005, which added a new section to the Federal Power Act (16 U.S.C. § 215). [e3]
 - FERC certified NERC as the ERO and approves its mandatory Reliability Standards. [e2]
 - FERC, NERC and Regional Entity staff jointly inquired into the February 2021 outages. [e5]
 
@@ -82,7 +82,7 @@ ERCOT's wholesale energy market is outside FERC's regulation. [e1] The same repo
 
 ## Common confusion
 
-(Guidance) "Not regulated by FERC" refers to the wholesale energy market. It does not mean ERCOT is outside the reliability standards regime: the report describes ERCOT as a Reliability Coordinator among the system operators in the event area. [e1][e4]
+(Guidance) "Not regulated by FERC" refers to the wholesale energy market. It does not mean ERCOT has no reliability role: the report describes ERCOT as a Reliability Coordinator among the system operators in the event area. [e1][e4]
 
 ## Questions
 

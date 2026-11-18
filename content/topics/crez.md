@@ -22,13 +22,13 @@ links:
     note: The PUCT rule lets the commission act if excess development in a CREZ causes congestion that SCED cannot resolve. [e11]
   - to: permian-transmission
     type: related
-    note: A later transmission buildout topic, separate from CREZ.
+    note: A separate transmission topic; see its own file.
   - to: tdsp
     type: related
-    note: Transmission service providers selected to build CREZ lines file the CCN applications. [e7]
+    note: Under the PUCT rule the commission selects the entity or entities responsible for constructing CREZ transmission improvements. [e7]
   - to: nodal-market
     type: related
-    note: CREZ rules set dispatch-priority options through the region's security constrained economic dispatch. [e11]
+    note: The CREZ rule refers to the security constrained economic dispatch mechanism used to establish dispatch priority of CREZ resources, and lets the commission consider dispatch priorities if it is insufficient. [e11]
 evidence:
   - id: e1
     source: ut-uri-timeline
@@ -84,9 +84,9 @@ Competitive Renewable Energy Zones (CREZ) were zones for which the Texas Legisla
 
 The mechanism began legislatively: SB 408 designated the framework and authorized the PUCT to direct ERCOT to plan the transmission. [e3] It came alongside an increase in the renewable portfolio standard (RPS) to 5,880 MW of renewable capacity. [e1]
 
-Under the PUCT rule, zones are designated through contested-case proceedings that commission staff initiate. [e4] ERCOT had to give the commission a study of statewide wind production potential and the transmission constraints most likely to limit deliverability. [e5] The commission issues a final order within six months of the proceeding's start, unless it finds good cause to extend, and each order specifies the geographic extent of the CREZ. [e6] Entities then express interest in building the transmission, and the commission selects who builds and sets a completion schedule. [e7]
+Under the PUCT rule, zones are designated through contested-case proceedings that commission staff initiate. [e4] ERCOT had to give the commission a study of statewide wind production potential and the transmission constraints most likely to limit deliverability. [e5] The commission issues a final order within six months of the proceeding's start, unless it finds good cause to extend, and each order specifies the geographic extent of the CREZ. [e6] The commission selects the entity or entities responsible for constructing the transmission improvements and establishes a completion schedule. [e7]
 
-Before CCNs are granted, generators must show financial commitment. It is sufficient if installed, under-construction, planned (with signed interconnection agreements) and collateral-backed capacity reaches at least 50% of the zone's designated capacity. [e8] The rule fixes 50% at 1,595.5 MW for Panhandle A and 1,196.5 MW for Panhandle B. [e9] Collateral is $15,350 per MW, or $10,000 per MW where supported by long-term land leases. [e10]
+Financial commitment for a CREZ is sufficient to grant CCNs for its transmission facilities if the sum of renewable generating capacity under any combination of the rule's paragraph (3)(A) to (D) categories is at least 50% of the zone's designated capacity. [e8] The rule fixes 50% at 1,595.5 MW for Panhandle A and 1,196.5 MW for Panhandle B. [e9] Collateral is $15,350 per MW, or $10,000 per MW where supported by long-term land leases. [e10]
 
 ## ERCOT context
 
@@ -94,7 +94,7 @@ By the end of 2020, approximately 25,000 MW of wind and 4,000 MW of solar photov
 
 ## Key facts
 
-- SB 408 (2005) created the CREZ framework and raised the RPS to 5,880 MW. [e1]
+- In 2005 the RPS was increased to 5,880 MW, and SB 408 directed the PUCT to facilitate transmission for CREZ. [e1]
 - Transmission planning was for roughly 18 GW of wind capacity. [e3]
 - Zones are designated in PUCT contested cases, with a final order due within six months unless extended. [e4][e6]
 - Financial commitment threshold: at least 50% of designated capacity (1,595.5 MW for Panhandle A, 1,196.5 MW for Panhandle B). [e8][e9]
@@ -121,7 +121,7 @@ Through a PUCT contested case, with a final order specifying the zone, then sele
 
 ### How did generators show commitment to a zone?
 
-By reaching at least 50% of the zone's designated capacity through installed, under-construction, signed-interconnection or collateral-backed capacity. [e8]
+By reaching at least 50% of the zone's designated capacity, summed over the categories in paragraph (3)(A) to (D) of the rule. [e8]
 
 ## Open items
 

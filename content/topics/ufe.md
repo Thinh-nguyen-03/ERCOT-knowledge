@@ -22,10 +22,10 @@ links:
     note: Profiled Premises carry the highest UFE weighting. [e4]
   - to: ams-meters
     type: related
-    note: Metered interval data feeds data aggregation, where UFE is calculated. [e2]
+    note: The DAS calculates ERCOT-wide UFE from total generation and loss-adjusted Load. [e2]
   - to: qse
     type: related
-    note: Load is settled at the QSE level, and UFE is part of the load a QSE is settled on. [e8]
+    note: Adjusted Metered Load is retail usage adjusted for UFE; QSE-level settlement of it was not sourced here. [e8]
 evidence:
   - id: e1
     source: np-02
@@ -90,7 +90,7 @@ ERCOT publishes an annual UFE analysis report on the prior calendar year, based 
 
 ## Common confusion
 
-UFE is not the same as transmission or distribution losses: losses are removed first, and UFE is what remains after them. [e1] A negative UFE interval is possible, so it is not always a cost. [e2]
+UFE is not the same as transmission or distribution losses: losses are removed first, and UFE is what remains after them. [e1] UFE may be positive or negative in any single Settlement Interval. [e2]
 
 ## Questions
 

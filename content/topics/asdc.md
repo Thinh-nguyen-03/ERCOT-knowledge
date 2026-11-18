@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: ordc
     type: replaced
-    note: Under RTC, ASDCs replaced the ORDC price adder as the source of scarcity pricing. [e3]
+    note: Under RTC, ASDCs replaced the ORDC price adder as the source of scarcity pricing. [e3][e17]
   - to: rtc-b
     type: part-of
     note: ASDCs are what lets RTC's real-time dispatch trade off energy against reserves and go short on AS. [e2][e3]
@@ -25,7 +25,7 @@ links:
     note: The $15 floor on ASDCs is based on ERCOT's view of what is needed to avoid RUC for reserves. [e10][e14]
   - to: offer-cap
     type: related
-    note: The VOLL used to build the ASDCs is set to the day-ahead HCAP and moves with the scarcity pricing mechanism. [e11][e12]
+    note: The VOLL used to build the ASDCs is set to the day-ahead HCAP. [e11][e12]
   - to: sced
     type: used-in
     note: SCED maximizes bid-based revenues minus offer-based costs subject to the ASDCs. [e2]
@@ -90,6 +90,30 @@ evidence:
     source: imm-som-2025
     locator: "Recommendations, 2024-1a (p. 125)"
     quote: "Accordingly, we recommend removing the requirement for the ASDCs to aggregate to the AORDC and constructing each ASDC individually to reflect the reliability value of the corresponding reserve product."
+  - id: e17
+    source: imm-som-2025
+    locator: "Appendix, G. RDPA (p. A-10)"
+    quote: "The ORDC price adder, which reflected the value of reserves under shortage conditions, was replaced by a set of ASDCs."
+  - id: e18
+    source: imm-som-2025
+    locator: "Appendix, D. AS Shortages (p. A-7)"
+    quote: "The AORDC is a fixed curve that was formulated based on empirical pricing outcomes produced by the ORDC before the implementation of RTC."
+  - id: e19
+    source: imm-som-2025
+    locator: "Chapter III, The AS Methodology and the Energy-Only Market (p. 49)"
+    quote: "In practice, this excessively conservative operating reserve policy will increase consumer costs while suppressing the price signals needed to maintain resource adequacy."
+  - id: e20
+    source: imm-som-2025
+    locator: "Chapter III, The AS Methodology and the Energy-Only Market (p. 49)"
+    quote: "ERCOT argues that this price floor reduces the likelihood of real-time shortages of ancillary services that would prompt operators to commit resources through RUC."
+  - id: e21
+    source: imm-som-2025
+    locator: "Appendix, E. NSRS relative Pricing (p. A-8)"
+    quote: "Since RTC go-live, NSRS has consistently been more expensive than ECRS and RRS."
+  - id: e22
+    source: imm-som-2025
+    locator: "Appendix, E. NSRS relative Pricing (p. A-8)"
+    quote: "The duration constraint, on the other hand, limits the supply of ESR capacity that can provide NSRS and increases the opportunity cost for ESRs to provide NSRS compared to other AS products with lower duration requirements."
   - id: e16
     source: imm-som-2025
     locator: "Appendix, E. NSRS relative Pricing (p. A-8)"
@@ -102,42 +126,42 @@ An Ancillary Service Demand Curve (ASDC) is a set of price/quantity pairs that g
 
 ## How it works
 
-In real time, SCED picks energy dispatch and AS awards by maximizing bid-based revenues minus offer-based costs, subject to the ASDCs as well as power balance and network limits. [e2] When holding one more MW of a reserve would cost more than the curve says it is worth, the market goes short on that product at the curve's penalty price. [e3] The DAM starts from the same ASDCs as the RTM. [e4]
+In real time, SCED picks energy dispatch and AS awards by maximizing bid-based revenues minus offer-based costs, subject to the ASDCs as well as power balance and network limits. [e2] The curves are meant to reflect the marginal reliability value of reserves, and they set the penalty price when the market goes short on a product. [e3] The DAM starts from the same ASDCs as the RTM. [e4]
 
 Reg-Down has its own simple curve: a constant price equal to VOLL across its full AS Plan quantity. [e5] For the four up-reserve products (Reg-Up, RRS, ECRS, Non-Spin), ERCOT first builds one Aggregate ORDC (AORDC) and then splits it into separate curves. [e6]
 
-The split starts at a Minimum Contingency Level (MCL) of 3,000 MW. [e7] Quantities up to the MCL are priced above VOLL by product: Reg-Up at VOLL + 4,052, RRS at VOLL + 2,051, ECRS at VOLL + 50, and Non-Spin at VOLL. [e8] Beyond the MCL, segments of the AORDC are handed out in order. ECRS and Non-Spin take turns until both requirements are met, and any remaining segments priced above $0.01/MWh go to Non-Spin. [e9]
+The protocols define a Minimum Contingency Level (MCL) of 3,000 MW. [e7] For quantities up to the MCL, the maximum demand prices are Reg-Up at VOLL + 4,052, RRS at VOLL + 2,051, ECRS at VOLL + 50, and Non-Spin at VOLL. [e8] In the later steps of the split, remaining 1 MW segments of the AORDC go to ECRS and Non-Spin alternately until both requirements are met, and any remaining segments priced above $0.01/MWh go to Non-Spin. [e9]
 
-Every ASDC has a floor of $15 per MW per hour over the part of the curve that matches the AS Plan. ERCOT set this floor based on its view of what is needed to avoid using RUC for reserves. [e10] The VOLL used to build the curves is set to the day-ahead HCAP. [e11] The current day-ahead HCAP is $5,000/MWh. [e12]
+Every ASDC has a floor of $15 per MW per hour over the part of the curve that matches the AS Plan. ERCOT set this floor based on its view of what is needed to avoid using RUC for reserves. [e10] The VOLL used to build the curves is set to the day-ahead HCAP. [e11] The protocol table lists the day-ahead HCAP at $5,000/MWh (the real-time cap is listed at $2,000; see the offer-cap topic). [e12]
 
 ## ERCOT context
 
 The aggregation rule has visible effects. The AORDC runs to 10,000 MW, but the combined AS Plan for the four up-reserves is often smaller. The leftover volume is added to the Non-Spin (NSRS) curve, so the real-time market buys more NSRS than the plan calls for. [e13]
 
-ERCOT added the $15/MWh floor on AS shortages through NPRR 1269 to make real-time shortages that would trigger RUC less likely. [e14] The IMM argues this suppresses shortage pricing. It recommends dropping the rule that the ASDCs must add up to the AORDC and instead building each curve from the reliability value of its own product. [e15]
+ERCOT added the $15/MWh floor on AS shortages through NPRR 1269, and ERCOT argues it reduces the likelihood of real-time AS shortages that would prompt RUC commitments. [e14][e20] The IMM calls the resulting reserve policy excessively conservative and says it suppresses price signals. [e19] It recommends dropping the rule that the ASDCs must add up to the AORDC and instead building each curve from the reliability value of its own product. [e15]
 
 ## Key facts
 
-- MCL used to split the AORDC: 3,000 MW. [e7]
-- Highest prices (for quantities up to the MCL): Reg-Up VOLL + 4,052; RRS VOLL + 2,051; ECRS VOLL + 50; Non-Spin VOLL. [e8]
+- Minimum Contingency Level (MCL): 3,000 MW. [e7]
+- Maximum demand prices (for quantities up to the MCL): Reg-Up VOLL + 4,052; RRS VOLL + 2,051; ECRS VOLL + 50; Non-Spin VOLL. [e8]
 - Reg-Down ASDC: flat at VOLL across its AS Plan quantity. [e5]
 - ASDC floor: $15 per MW per hour over the AS Plan portion (NPRR 1269). [e10][e14]
-- VOLL for ASDCs equals the day-ahead HCAP, currently $5,000/MWh. [e11][e12]
+- VOLL for ASDCs equals the day-ahead HCAP, listed at $5,000/MWh in the protocol table. [e11][e12]
 - AORDC length: 10,000 MW. Excess volume goes to Non-Spin. [e13]
 
 ## Say it like this
 
-(Guidance) Since RTC+B, each reserve product has its own demand curve that tells the dispatch how much it is worth paying to hold that reserve. When reserves get scarce, the market lets them go short at the curve price, and that price flows into energy prices. The curves are cut from one aggregate curve based on the old ORDC, which is why Non-Spin often ends up over-procured.
+(Guidance) Since RTC+B, each reserve product has its own demand curve that tells the dispatch how much it is worth paying to hold that reserve. When reserves get scarce, the market can go short at the curve price. The curves are cut from one aggregate curve based on the old ORDC, which is why Non-Spin often ends up over-procured.
 
 ## Common confusion
 
-(Guidance) The AORDC is not the old ORDC still running. It is an aggregate curve that ERCOT builds and then splits into product-specific ASDCs (see the ordc topic for how it is built from historical pricing). [e6] The ASDC prices are not offer caps either. The highest ASDC prices sit above VOLL, which itself is tied to the day-ahead HCAP. [e8][e11]
+(Guidance) The AORDC is not the old ORDC adder still running: the adder was replaced by the ASDCs, and the AORDC is a fixed curve formulated from the pricing outcomes the ORDC produced before RTC. [e17][e18] ERCOT builds it and then splits it into product-specific ASDCs. [e6] The ASDC prices are not offer caps either. The highest ASDC prices for the up-reserves sit above VOLL (Non-Spin at VOLL), which itself is tied to the day-ahead HCAP. [e8][e11]
 
 ## Questions
 
 ### Why does Reg-Up have the highest ASDC price?
 
-The protocols price quantities up to the MCL at VOLL + 4,052 for Reg-Up, above RRS (VOLL + 2,051), ECRS (VOLL + 50) and Non-Spin (VOLL). This ordering decides which reserves the market gives up first when it has to go short. [e8]
+The protocols price quantities up to the MCL at VOLL + 4,052 for Reg-Up, above RRS (VOLL + 2,051), ECRS (VOLL + 50) and Non-Spin (VOLL). [e8]
 
 ### Why does ERCOT buy more Non-Spin than its AS Plan?
 
@@ -145,7 +169,7 @@ The up-reserve ASDCs must add up to a 10,000 MW AORDC. When the AS Plan is small
 
 ### What is the $15 ASDC floor and why is it controversial?
 
-No point on any ASDC can fall below $15 per MW per hour over the AS Plan quantity. [e10] ERCOT introduced it through NPRR 1269 to avoid shortages that would lead operators to use RUC. The IMM sees it as part of a conservative reserve policy that weakens shortage pricing. [e14]
+No point on any ASDC can fall below $15 per MW per hour over the AS Plan quantity. [e10] ERCOT introduced it through NPRR 1269 to avoid shortages that would lead operators to use RUC. The IMM calls it part of an excessively conservative reserve policy that suppresses price signals. [e14][e19]
 
 ### What does the IMM want changed?
 
@@ -153,10 +177,11 @@ It wants to drop the requirement that the ASDCs add up to the AORDC and build ea
 
 ## Scenarios
 
-### Your battery desk sees Non-Spin clearing well above ECRS in real time with no Non-Spin shortage. Why?
+### Your battery desk sees Non-Spin clearing above ECRS in real time. Why?
 
-- The Non-Spin ASDC is extended with the AORDC volume left over beyond the AS Plan, which raises demand for Non-Spin. [e13]
-- That extra demand runs into the Non-Spin duration limit on battery supply, so prices diverge even when nothing is short. [e16]
+- The IMM reports NSRS has consistently been more expensive than ECRS and RRS since RTC go-live. [e21]
+- The Non-Spin ASDC is extended with the AORDC volume left over beyond the AS Plan, which raises demand for Non-Spin. [e13][e16]
+- The IMM also cites the 4-hour NSRS duration constraint, which limits the ESR capacity that can provide NSRS and raises ESRs' opportunity cost. [e16][e22]
 
 ## Open items
 

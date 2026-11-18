@@ -19,16 +19,16 @@ links:
     note: ESR capacity passed 17,000 MW and 31,500 MWh by the end of 2025. [e4]
   - to: natural-gas-price
     type: affects
-    note: Natural gas remained the largest single source of generation in 2025 at 41.1%, so gas prices still move power prices. [e2]
+    note: Natural gas generation was 41.1% of ERCOT output in 2025, down from 44.3% in 2024. [e2]
   - to: net-load
     type: affects
-    note: The more wind and solar in the mix, the more load is netted out before the dispatchable fleet is needed.
+    note: Net Load is the Load for a period minus generation from solar and wind Resources for the same period. [e15]
   - to: cdr-report
     type: related
     note: The CDR projects solar to keep leading capacity growth, followed by battery storage. [e9]
   - to: merit-order
     type: determines
-    note: The mix of resources sets the shape of the supply stack that clears the market.
+    note: Merit order is a separate topic; see its own file.
   - to: winter-storm-uri
     type: related
     note: ERCOT's February 2021 board deck listed installed capacity by fuel just after the storm. [e12][e13]
@@ -85,6 +85,10 @@ evidence:
     source: ercot-uri-board
     locator: "Slide 7, Electric Generation, Transmission & Distribution Overview (February 24, 2021)"
     quote: "31,390 MW Wind 28.83% MW represent installed capacity"
+  - id: e15
+    source: np-02
+    locator: "Section 2.1, definition of Net Load"
+    quote: "The Load for a given period minus generation from PhotoVoltaic Generation Resources (PVGRs) and Wind Generation Resources (WGRs) for the same period."
   - id: e14
     source: imm-som-2025
     locator: "Demand and Supply in ERCOT, discussion of Figure 11"
@@ -107,7 +111,7 @@ Location matters. The IMM says the West zone is a substantial net exporter becau
 
 The shift is fast. In February 2021, ERCOT's board deck showed installed gas at 51,667 MW (47.45%), coal at 13,630 MW (12.52%) and wind at 31,390 MW (28.83%). [e12][e13] By October 2026 ERCOT's fact sheet lists 41,926 MW of utility-scale solar and 21,537 MW of installed energy storage. [e7][e8] The December 2025 CDR expects solar to keep leading capacity growth, followed by battery storage. [e9]
 
-On the energy side, solar's generation share went from 7.2% in 2023 to 10.4% in 2024 and 13.9% in 2025, while gas fell to 41.1% in 2025. [e3][e2] Gas is still the largest single source, and EIA lists natural gas as the primary energy source for Texas as a whole. [e2][e10] For an older statewide baseline, EIA reported that in February 2020 wind produced 22% and coal 13% of Texas net generation, and that nuclear consistently generates about 10%. [e11]
+On the energy side, solar's generation share went from 7.2% in 2023 to 10.4% in 2024 and 13.9% in 2025, while gas fell to 41.1% in 2025. [e3][e2] Gas's 41.1% share in 2025 is well above coal's 12.9% and solar's 13.9%, and EIA lists natural gas as the primary energy source for Texas as a whole. [e2][e10] For an older statewide baseline, EIA reported that in February 2020 wind produced 22% and coal 13% of Texas net generation, and that nuclear consistently generates about 10%. [e11]
 
 ## Key facts
 
@@ -116,21 +120,21 @@ On the energy side, solar's generation share went from 7.2% in 2023 to 10.4% in 
 - 2025 new capacity: about 14.8 GW, of which 6.2 GW solar and 7.3 GW storage. [e1]
 - ESRs: more than 17,000 MW and 31,500 MWh at end-2025, up almost 80% in a year. [e4]
 - October 2026: 41,926 MW utility-scale solar and 21,537 MW storage installed (ERCOT fact sheet). [e7][e8]
-- Texas statewide net summer capacity in 2024 was 168,317 MW, first among states (EIA; covers all of Texas, not only ERCOT). [e10]
+- Texas statewide net summer capacity in 2024 was 168,317 MW, first among states (EIA, ranked 1 in its table; covers all of Texas, not only ERCOT). [e10]
 
 ## Say it like this
 
-(Guidance) ERCOT is still a gas-led system in energy terms, but almost all new capacity is solar and batteries, so the question is shifting from "how much capacity" to "what is available after sunset." That is why net load, storage duration and gas units' evening role matter more each year.
+(Guidance) Gas still produces the largest quoted share of ERCOT energy, but most new capacity is solar and batteries, so the question is shifting from "how much capacity" to "what is available after sunset." That is why net load, storage duration and gas units' evening role matter more each year.
 
 ## Common confusion
 
-(Guidance) Capacity share is not energy share: wind and solar have capacity factors of 31.6% and 23.8%, so their MW share overstates their MWh share and, for solar, badly overstates its share at the evening net peak. [e5] Also, EIA's Texas figures cover the whole state, while ERCOT and IMM figures cover the ERCOT region only. [e10]
+(Guidance) Capacity share is not energy share: wind and solar have capacity factors of 31.6% and 23.8%, so MW share and MWh share differ, and for solar the capacity factor at the evening net peak is far lower still. [e5] Also, EIA's Texas figures cover the whole state, while ERCOT and IMM figures cover the ERCOT region only. [e10]
 
 ## Questions
 
 ### What is ERCOT's largest source of generation?
 
-Natural gas, at 41.1% of 2025 output, down from 44.3% in 2024 per the 2025 IMM report. [e2]
+Natural gas has the largest share the IMM quotes: 41.1% of 2025 output, down from 44.3% in 2024, versus solar 13.9% and coal 12.9% (wind's share is described only as nearly flat). [e2]
 
 ### What has been built recently?
 
@@ -149,4 +153,5 @@ Wind output grew only 2.9% in 2025 and its share of generation was nearly flat, 
 - Conflicting 2024 shares: the 2024 IMM report says gas was 44.2% and coal 12.6% of 2024 output; the 2025 IMM report says gas was 44.3% in 2024 and coal was "flat at 12.9%". I cite both.
 - Wind's 2025 generation share as a percentage is not stated in IMM 2025 text ("nearly flat"). The ERCOT fact sheet's 2025 energy-use and 2026 capacity pie charts appear to list wind, gas, nuclear and other shares, but the extracted text scrambles the labels and values, so I did not cite any of those percentages (including total installed wind MW).
 - Nuclear's share of ERCOT generation and ERCOT's total installed capacity for 2025 are not stated in quotable IMM text; EIA's "about 10%" nuclear figure is for Texas statewide and dated 2021.
+- The IMM 2025 text gives no numeric 2025 wind share, so "gas is the largest source" is supported here only against the quoted solar and coal shares.
 - I found no source text giving retirements of coal or gas units by year.

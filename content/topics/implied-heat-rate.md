@@ -13,16 +13,16 @@ links:
     note: A unit's heat rate is its physical efficiency, while the implied heat rate is a market ratio of power price to fuel price. [e6][e2]
   - to: natural-gas-price
     type: prerequisite-of
-    note: The denominator is the fuel price, which is natural gas for ERCOT's marginal technology. [e1][e2]
+    note: The IMM's implied heat rate divides the electricity price by a fuel price; the 2024 report uses the natural gas price. [e1][e2]
   - to: waha-hub
     type: related
-    note: ERCOT's Fuel Index Price is a Katy Hub price; Waha is a different, lower-priced West Texas hub. [e7]
+    note: ERCOT's Fuel Index Price is a Katy Hub price, not a Waha price. [e7]
   - to: negative-prices
     type: related
     note: Hours at or below $0 per MWh lower the implied heat rate. [e4]
   - to: ordc
     type: related
-    note: Shortage pricing raises the implied heat rate by pushing prices above gas marginal cost. [e4]
+    note: The IMM says shortage pricing raises the implied heat rate; the ORDC adder was discontinued in December 2025 with the introduction of RTC. [e4][e9]
   - to: state-of-market-report
     type: related
     note: The implied heat rate is published in the IMM State of the Market reports. [e1][e2]
@@ -55,6 +55,10 @@ evidence:
     source: np-02
     locator: "Section 2.1, definition of Fuel Index Price (FIP)"
     quote: "The daily midpoint or average of the prices for natural gas fuel for the Katy area (Katy Hub), expressed in dollars per million British thermal units ($/MMBtu)."
+  - id: e9
+    source: imm-som-2025
+    locator: "Chapter I, all-in price discussion (p. 2)"
+    quote: "The Operating Reserve Demand Curve (ORDC) Adder, implemented in 2014 and discontinued in December 2025 with the introduction of RTC, reflects increasing reliability risks when reserves begin to run short; and"
   - id: e8
     source: imm-som-2025
     locator: "Chapter I, section 4, Price Spike Impacts"
@@ -69,7 +73,7 @@ The implied heat rate is the IMM's market-based indicator of the fuel efficiency
 
 A heat rate is normally a measure of a generating station's thermal efficiency in Btu per kilowatthour. [e6] The implied version turns that around: it divides the market power price by the gas price to get the heat rate that equates revenue from selling electricity with the cost of buying gas. [e1] The IMM reads a high value as a less competitive market where even inefficient units profit, and a low value as a market where only the most efficient generators are in the money. [e1]
 
-Wind and solar push the number down by creating hundreds of hours at or below $0 per MWh, while shortage pricing pushes it up by creating hundreds of hours above gas marginal cost. [e4]
+Wind and solar push the number down by creating hundreds of hours at or below $0 per MWh, while shortage pricing pushes it up by creating hundreds of hours above gas marginal cost. [e4] The ORDC adder, which reflected reliability risk when reserves ran short, was discontinued in December 2025 with RTC. [e9]
 
 ## ERCOT context
 
@@ -86,7 +90,7 @@ The IMM also uses an implied heat rate of 18 times the Fuel Index Price as its t
 
 ## Say it like this
 
-(Guidance) The implied heat rate is the power price expressed in gas terms, so it shows whether power is expensive or cheap relative to the fuel behind it. A reading above what gas plants actually need usually points to scarcity pricing rather than fuel costs.
+(Guidance) The implied heat rate is the power price expressed in gas terms, so it shows whether power is expensive or cheap relative to the fuel behind it. A reading above what gas plants actually need can point to scarcity pricing rather than fuel costs.
 
 ## Common confusion
 

@@ -19,7 +19,7 @@ links:
     note: Under RTC+B, SCED can award energy and several AS types to one ESR in the same run, limited by state of charge. [e9]
   - to: negative-prices
     type: related
-    note: Cheap or negative midday prices let batteries charge at low cost or get paid to charge. [e5][e13]
+    note: Energy arbitrage means buying when prices are low, and ESRs can often charge at prices below $0 where added load resolves congestion. [e5][e13]
   - to: offer-cap
     type: related
     note: ERCOT links a higher share of ESR offers near the cap in summer 2026 to the lower $2,000/MWh real-time cap under RTC+B. [e12]
@@ -94,9 +94,9 @@ A battery's revenue stack is the mix of income an Energy Storage Resource earns 
 
 ## How it works
 
-Batteries first earned mainly from ancillary services because they respond quickly. As ESRs saturated several AS markets, they began shifting toward energy arbitrage in 2024. [e5] The IMM expects revenue per unit of capacity to fall as more ESRs enter, because AS markets saturate and arbitrage spreads tighten. [e4] Location adds a third piece: ESRs can charge at prices below $0 where added load relieves congestion and discharge where added supply does. [e13]
+Batteries first earned mainly from ancillary services because they respond quickly. As ESRs saturated several AS markets, they began shifting toward energy arbitrage in 2024. [e5] The IMM expects revenue per unit of capacity to fall as more ESRs enter, because AS markets saturate and arbitrage spreads tighten. [e4] Location also matters: the IMM says ESRs can act as both supply and demand, and can often charge at prices below $0 when increasing load at a location resolves congestion. [e13]
 
-Since RTC+B, SCED decides the stack in each run. Awards are limited by qualification, physical capability, state of charge, ramp rates and AS duration requirements, and one ESR can receive energy and several AS types in the same SCED execution; before, the QSE had to reserve enough state of charge itself. [e9]
+Under RTC+B, SCED can award energy and AS to an ESR in the same run. Awards are limited by qualification, physical capability, state of charge, ramp rates and AS duration requirements, and one ESR can receive energy and several AS types in the same SCED execution; before, the QSE had to reserve enough state of charge itself. [e9]
 
 ## ERCOT context
 
@@ -114,11 +114,11 @@ Summer 2026 (ERCOT): AS costs were relatively low under real-time co-optimizatio
 
 ## Say it like this
 
-(Guidance) ERCOT batteries used to live on ancillary services, but they now supply most of those markets themselves, so AS prices fell and the money moved to buying cheap midday solar power and selling into the evening ramp. Per-MW revenue dropped by more than a third in 2025 even as the fleet's total revenue rose, which is why new projects are going for longer duration. [e1][e2][e6]
+(Guidance) ERCOT batteries used to live on ancillary services, but they now supply most of those markets themselves, so AS prices fell and the IMM sees a shift toward energy arbitrage. Per-MW revenue dropped by more than a third in 2025 even as the fleet's total revenue rose, and average duration rose as participation shifted. [e1][e2][e3][e6]
 
 ## Common confusion
 
-(Guidance) Falling revenue per MW is not falling total revenue: in 2025 the fleet's total net revenue rose about 8% while per-unit revenue fell almost 37%. [e2] A falling AS line does not mean batteries left AS: they still supplied most regulation in 2025. [e10] Offers near the cap in 2026 partly reflect the lower $2,000 real-time cap, not necessarily more withholding. [e12]
+(Guidance) Falling revenue per MW is not falling total revenue: in 2025 the fleet's total net revenue rose about 8% while per-unit revenue fell almost 37%. [e2] A falling AS line does not mean batteries left AS: they still supplied most regulation in 2025. [e10] ERCOT says the slightly higher share of ESR capacity offered within $100/MWh of the cap in summer 2026 is largely due to the lower $2,000 real-time cap. [e12]
 
 ## Questions
 
@@ -130,9 +130,9 @@ Added ESR capacity raised AS supply and cut AS prices, so AS revenue fell more t
 
 SCED now awards energy and multiple AS types to an ESR in the same run, within limits set by qualification, physical capability, state of charge, ramp rates and duration requirements. Before, the QSE had to make sure it reserved enough state of charge. [e9]
 
-### Why are developers building longer-duration batteries?
+### Why has average battery duration risen?
 
-The IMM ties the rise in average duration from 1.67 to 1.83 hours to the shift from AS to energy arbitrage. [e6]
+The IMM ties the rise in average duration from 1.67 to 1.83 hours to ESR market participation shifting from AS to energy arbitrage. [e6]
 
 ## Open items
 

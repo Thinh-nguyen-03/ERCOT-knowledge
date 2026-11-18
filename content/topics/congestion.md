@@ -19,7 +19,7 @@ links:
     note: Congestion exists when flow reaches a constraint's limit and dispatch has to move. [e1]
   - to: gtc
     type: related
-    note: A GTC groups transmission elements to limit flow between geographic areas, and ERCOT treats it as a stability constraint. [e8]
+    note: A GTC groups transmission elements to limit flow between geographic areas, to manage stability, voltage and other constraints that cannot be modeled directly. [e8]
   - to: crr
     type: hedges
     note: CRRs pay holders the congestion rent that arises from locational price differences. [e3][e14]
@@ -28,10 +28,10 @@ links:
     note: Congestion shows up as differing energy prices at each node. [e2]
   - to: basis-risk
     type: related
-    note: Differences between day-ahead and real-time congestion create basis between positions. [e10]
+    note: Real-time congestion was 7% higher than day-ahead in 2025 per the IMM. [e10]
   - to: load-zone
     type: related
-    note: The IMM says growing congestion inside load zones is averaged across load rather than priced. [e13]
+    note: The IMM reports about 9% of 2025 congestion costs were interzonal, and the West Zone is the largest contributor to intrazonal congestion costs. [e13]
 evidence:
   - id: e1
     source: imm-som-2025
@@ -97,7 +97,7 @@ Transmission congestion arises when network power flows are restricted by limits
 
 ## How it works
 
-Congestion shows up in prices: differences in the cost of delivering electricity to different locations are reflected in different energy prices at each node. [e2] The value of a constraint is its shadow price, the rate at which system costs would fall or rise with a slight change in the amount of the commodity made available. [e4] The IMM calculates day-ahead congestion values as power flow over each constraint times that constraint's shadow price. [e6] How much a given injection loads a constraint is its shift factor: the flow on a transmission element from a unit injection at a bus to a fixed reference bus. [e5]
+Congestion shows up in prices: differences in the cost of delivering electricity to different locations are reflected in different energy prices at each node. [e2] A constraint's marginal economic cost is reflected in its shadow price, which is defined as the rate at which system costs would fall or rise with a slight change in the amount of the commodity made available. [e4][e6] The IMM calculates day-ahead congestion values as power flow over each constraint times that constraint's shadow price. [e6] How much a given injection loads a constraint is its shift factor: the flow on a transmission element from a unit injection at a bus to a fixed reference bus. [e5]
 
 SCED caps the price of congestion: the cost it calculates to resolve an additional MW on a network constraint is limited to that constraint's maximum shadow price. [e7] Some constraints are generic transmission constraints (GTCs), which group transmission elements to limit flow between geographic areas to manage stability, voltage and other limits that cannot be modeled directly. [e8]
 
@@ -120,11 +120,11 @@ Violated-constraint hours fell to 64 in 2025, the lowest annual total ever, part
 
 ## Say it like this
 
-Congestion is what happens when a line or transformer hits its limit and cheaper power cannot reach all load, so prices split by location. In ERCOT most of it now sits inside load zones, with the West and the Permian the pressure points. [e1][e13][e9]
+Congestion is what happens when a line or transformer hits its limit and cheaper power cannot reach all load, so prices split by location. In ERCOT in 2025 about 9% of congestion cost was interzonal, with the rest inside load zones, with the West and the Permian the pressure points. [e1][e13][e9]
 
 ## Common confusion
 
-Congestion cost is not the same as congestion rent: the first is a measure of the value of constraints, and the second is the surplus that funds CRR payments. [e6][e3] A shadow price is also not a price paid by an individual customer; it is a marginal value that feeds locational prices. [e4][e2] Binding and violated are different: the IMM treats violated constraints as a separate, shrinking count, and SCED's shadow price cap limits what it will pay to relieve a constraint. [e7][e11]
+Congestion cost is not the same as congestion rent: the first is a measure of the value of constraints, and the second is the difference between what consumers pay and generators receive, to which CRR holders have the financial right. [e6][e3] A shadow price is also not a price paid by an individual customer; it is a marginal value that feeds locational prices. [e4][e2] Binding and violated are different: the IMM treats violated constraints as a separate, shrinking count, and SCED's shadow price cap limits what it will pay to relieve a constraint. [e7][e11]
 
 ## Questions
 
@@ -148,9 +148,9 @@ In 2025 real-time congestion was about 7% higher. The IMM says that is reasonabl
 
 ### A West-zone generator is stuck behind a constraint. What do prices and CRRs do?
 
-- The constraint's shadow price drives nodal prices on either side apart. [e2][e6]
-- CRR holders on a path across the constraint are paid congestion rent. [e3][e14]
-- The West zone had the largest intrazonal congestion cost in 2025, so the settlement point price may not capture local conditions. [e13]
+- Congestion shows up as different energy prices at the nodes on either side of the constraint. [e2]
+- CRR owners are charged or compensated for the congestion rent that arises. [e3][e14]
+- The West zone had the largest intrazonal congestion cost in 2025, so much of its congestion cost sits inside the zone. [e13]
 
 ## Open items
 

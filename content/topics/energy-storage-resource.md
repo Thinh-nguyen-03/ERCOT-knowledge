@@ -13,7 +13,7 @@ links:
     note: ESRs supply most regulation and large shares of the other ancillary services. [e9]
   - to: regulation
     type: related
-    note: An ESR in charge or discharge mode can provide Reg-Up and Reg-Down. [e8]
+    note: An ESR in discharge mode or charge mode can provide Reg-Up under the protocol's performance requirements. [e8]
   - to: rtc-b
     type: related
     note: The "+B" in RTC+B changes how ESRs are modelled, offered and dispatched after RTC. [e5][e6]
@@ -25,7 +25,7 @@ links:
     note: See the EEA topic for the rules on ESR charging during an EEA.
   - to: battery-revenue-stack
     type: related
-    note: ESR revenue shifted from ancillary services toward energy arbitrage in 2025. [e11]
+    note: The IMM links ESR capacity growth to a shift toward earning more revenue from energy arbitrage than from ancillary services. [e15]
 evidence:
   - id: e1
     source: np-02
@@ -119,7 +119,7 @@ As supply grew, revenue per unit of ESR capacity fell by 37% in 2025 because AS 
 
 ## Say it like this
 
-An ESR is a battery modelled as one resource that can be a generator or a load, bounded by its state of charge. It now supplies most of ERCOT's fast ancillary services and is increasingly an evening energy supplier, which has compressed ancillary service prices. [e5][e9][e13]
+An ESR is a battery modelled as one resource that can be a generator or a load, bounded by its state of charge. In 2025 it supplied most regulation and large shares of the other ancillary services, and it plays a major role serving evening load, which the IMM says partly contributed to lower AS prices. [e5][e9][e13][e16]
 
 ## Common confusion
 
@@ -133,11 +133,11 @@ After RTC+B, SCED includes state of charge accounting so awards can be sustained
 
 ### Why did battery revenue per MW fall in 2025?
 
-Revenue per unit of ESR capacity fell 37% as AS revenues fell by the same amount, with strong competition in AS. [e11]
+Revenue per unit of ESR capacity fell 37% as AS revenues fell by the same amount, and the IMM says the continued growth in ESR capacity and AS provision by ESRs partly caused AS prices to fall. [e11][e16]
 
 ### Can RUC start a battery?
 
-No; ERCOT's RTC+B material says ESRs are not seen as off-line and so are not available to be RUCed. [e14]
+ERCOT's RTC+B material says ESRs will not be seen as off-line and so are not available to be RUCed. [e14]
 
 ## Open items
 

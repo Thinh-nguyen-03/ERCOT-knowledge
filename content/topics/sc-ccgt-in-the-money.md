@@ -10,10 +10,10 @@ as_of: 2026-11-18
 links:
   - to: heat-rate
     type: used-in
-    note: Heat rate converts the gas price into a fuel cost per MWh. [e1]
+    note: Heat rate is the energy a plant uses to generate one kWh, expressed in Btu per net kWh. [e1]
   - to: natural-gas-price
     type: used-in
-    note: The gas price is the largest part of a gas unit's marginal cost. [e8]
+    note: Fuel costs are the largest component of marginal production cost for most generators, and natural gas is the most widely used fuel in ERCOT. [e8]
   - to: implied-heat-rate
     type: related
     note: The implied heat rate is power price divided by fuel price, the market-side half of the comparison. [e3]
@@ -22,16 +22,16 @@ links:
     note: The scenario is a spark-spread test, although the sources give no formal spark-spread formula.
   - to: three-part-supply-offer
     type: related
-    note: Three-part offers let a thermal unit include start-up and minimum generation costs in the day-ahead market. [e11]
+    note: Thermal resources not awarded through three-part offers risk not recovering start-up and minimum generation costs. [e11]
   - to: market-power-mitigation
     type: related
-    note: ERCOT's mitigated offer cap uses heat rate times fuel price plus O&M as a cost reference. [e9]
+    note: ERCOT's mitigated offer cap formula uses heat rates times fuel prices, plus O&M in one branch, as a cost reference. [e9]
   - to: waha-hub
     type: affects
-    note: Cheap Waha gas has given West gas units much higher net revenues than Houston units. [e12]
+    note: Low gas prices at Waha have given gas resources in the Permian area much higher net revenues. [e12]
   - to: rtc-b
     type: affects
-    note: Under RTC a unit's capacity can earn from energy or reserves in the same interval. [e14]
+    note: Co-optimization can simultaneously schedule energy and operating reserves and make economic trade-offs among them. [e14]
 evidence:
   - id: e1
     source: eia-faq-heat-rate
@@ -97,26 +97,38 @@ evidence:
     source: imm-som-2025
     locator: "Resource Adequacy chapter, CONE vs Net Revenue"
     quote: "Comparing 2025 net revenues with the planning CONE of $140 per kW-year, set by the PUCT, shows that 2025 net revenues were not high enough to incentivize new investment."
+  - id: e17
+    source: np-04
+    locator: "Section 4.4.9.4.1, Mitigated Offer Cap, variable table (GIHR)"
+    quote: "Generic Incremental Heat Rate—The generic, single-value, incremental heat rate."
+  - id: e18
+    source: np-04
+    locator: "Section 4.4.9.4.1, Mitigated Offer Cap, variable table (IHR)"
+    quote: "Verifiable Incremental Heat Rate per Resource—The verifiable incremental heat rate curve for Resource r, as approved in the verifiable cost process."
+  - id: e19
+    source: np-04
+    locator: "Section 4.4.9.4.1, Mitigated Offer Cap, variable table (FPRC)"
+    quote: "Fuel Price Calculated per Resource—The calculated index price for fuel for the Resource based on the Resources fuel mix."
 ---
 
 ## Definition
 
-This scenario asks whether a gas combined-cycle unit earns more from selling power than it pays for fuel and running costs at current prices, which the IMM frames with the implied heat rate: power price divided by fuel price, where a low value means "only the most efficient generators are in the money". [e3]
+This scenario asks whether a gas combined-cycle unit earns more from selling power than it pays for fuel and running costs at current prices, and the IMM's implied heat rate (power price divided by fuel price) is the market-level measure: a low value indicates a market where "only the most efficient generators are in the money". [e3]
 
 ## How it works
 
 Fuel is the main cost. Fuel is the largest part of marginal cost for most generators, and gas is ERCOT's most-used fuel. [e8] The heat rate is the energy a plant uses to make one kWh, stated in Btu per net kWh. [e1] In its net revenue work the IMM has assumed 7 MMBtu/MWh for a combined cycle, 10.5 MMBtu/MWh for a gas turbine and $4/MWh of variable O&M. [e2]
 
-ERCOT itself builds a cost reference the same way. The mitigated offer cap takes the larger of a generic heat rate times the fuel index, or the unit's verifiable heat rate times its fuel price plus O&M. [e9] That O&M term covers variable costs above LSL and includes an emissions cost adjustment. [e10] The Fuel Index Price is the daily Katy Hub gas price. [e4]
+ERCOT itself builds a cost reference the same way. The mitigated offer cap takes the larger of a generic incremental heat rate times the higher of the fuel index and a resource fuel price, or the unit's verifiable incremental heat rate times its calculated fuel price plus O&M. [e9][e17][e18][e19] That O&M term covers variable costs above LSL and includes an emissions cost adjustment. [e10] The Fuel Index Price is the daily Katy Hub gas price. [e4]
 
 Then compare with the market. The implied heat rate divides the power price by the fuel price. If it is above the unit's own heat rate, the unit covers its fuel cost. [e3] Zero-cost renewables pull the implied heat rate down for hundreds of hours a year, and shortage pricing pushes it up for hundreds of hours. [e15]
 
-Hourly margin is not the whole answer. Thermal units that do not clear a three-part offer day-ahead risk not recovering start-up and minimum generation costs. [e11] Under RTC, the real-time market also trades a unit's capacity between energy and reserves. [e14]
+Hourly margin is not the whole answer. Thermal units that do not clear a three-part offer day-ahead risk not recovering start-up and minimum generation costs. [e11] Co-optimization, introduced with RTC, can also schedule energy and reserves together and make trade-offs between them. [e14]
 
 ## Key facts
 
 - IMM net revenue assumptions: 7 MMBtu/MWh for a combined cycle, 10.5 for a gas turbine, $4/MWh variable O&M. [e2]
-- Natural gas price in the IMM's figure: $7.30 (2021), $5.84 (2022), $2.22 (2023), $1.90 (2024), $3.06 (2025) per MMBtu. [e5]
+- Labels in the IMM's natural gas price figure for 2021-2025: $7.30, $5.84, $2.22, $1.90, $3.06 (unit not stated in the quote). [e5]
 - 2025 ERCOT average real-time energy price, excluding adders: $36.94/MWh. [e6]
 - The 2025 implied heat rate was almost 28% below 2024 and in line with the marginal heat rate of ERCOT gas plants. [e7]
 - 2025 net revenue was $82.96/kW-year for a combined cycle and $52.59/kW-year for a combustion turbine, below the $140/kW-year planning CONE. [e13][e16]
@@ -131,9 +143,9 @@ Hourly margin is not the whole answer. Thermal units that do not clear a three-p
 - Cross-check with the implied heat rate: $30 ÷ $3.00 = 10 and $55 ÷ $3.00 is about 18, both above 7.0, so the unit covers fuel in both blocks (illustrative). [e3]
 - (Reasoning) The thin off-peak margin can disappear once start-up and minimum generation costs are counted, so ask whether the unit must run through the night to be online for the evening peak.
 - Thermal units that do not clear a three-part offer day-ahead take that start-up and min-gen risk themselves. [e11]
-- Midday solar can push prices to or below zero for many hours, which cuts into run-hours; shortage hours can add upside. [e15]
-- Location matters: units burning cheap Waha gas in the West have earned much higher net revenues than Houston units on Katy gas. [e12]
-- Under RTC the unit can also be paid to hold reserves, so compare energy margin with the reserve price before deciding how to offer. [e14]
+- Wind and solar have produced hundreds of hours at or below $0, which lowers the implied heat rate; shortage pricing produces hundreds of hours above gas marginal cost, which raises it. [e15]
+- Location matters: low gas prices at Waha have meant much higher net revenues for gas resources in the Permian area. [e12]
+- Co-optimization schedules energy and reserves together and makes trade-offs among them, so (Guidance) compare the energy margin with the reserve alternative before deciding how to offer. [e14]
 
 ## Questions
 
@@ -147,7 +159,7 @@ Not necessarily. In 2025 a combined cycle earned about $82.96/kW-year, below the
 
 ### How does ERCOT estimate a gas unit's marginal cost for mitigation?
 
-The mitigated offer cap uses the larger of a generic heat rate times the fuel index or the unit's verifiable heat rate times its fuel price plus O&M. [e9][e10]
+The mitigated offer cap uses the larger of a generic incremental heat rate times the higher of the fuel index and a resource fuel price, or the unit's verifiable incremental heat rate times its calculated fuel price plus O&M. [e9][e17][e18][e19][e10]
 
 ## Say it like this
 

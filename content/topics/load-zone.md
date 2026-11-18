@@ -19,7 +19,7 @@ links:
     note: Load Zone prices are built from bus-level LMPs. [e3]
   - to: trading-hub
     type: contrasts-with
-    note: A Hub averages a fixed list of buses, while a Load Zone price is weighted by Load. [e3]
+    note: A Hub LMP is the arithmetic average of the Real-Time LMPs of its Hub Buses, while a Load Zone price is weighted by Load. [e16][e3]
   - to: congestion
     type: related
     note: Zones are meant to group areas with similar congestion, and the IMM says intrazonal congestion now exceeds interzonal congestion. [e7]
@@ -28,7 +28,7 @@ links:
     note: Zonal Load Ratio Share cost allocation uses the four 2003 zones as Cost-Allocation Load Zones. [e14]
   - to: lse
     type: related
-    note: LSEs' load is settled at the zone price.
+    note: Loads are billed at the load zone price. [e10]
   - to: crr
     type: related
     note: Load Zones are also used for Congestion Revenue Right Settlement, as a zone of power flow buses. [e1]
@@ -89,6 +89,10 @@ evidence:
     source: np-03
     locator: "Section 3.4.3, paragraph (1)(b)"
     quote: "Any costs allocated based upon a zonal Load Ratio Share (LRS) must be allocated using “Cost-Allocation Load Zones,” which are the four Load Zones in effect during the 2003 ERCOT market unless they are changed pursuant to Section 3.4.2, Load Zone Modifications"
+  - id: e16
+    source: np-06
+    locator: "Section 6.6.1.5, paragraph (2)"
+    quote: "For each defined Hub except for the ERCOT Hub Average 345 kV Hub, the Hub LMP is the arithmetic average of the Real-Time LMPs of the Hub Buses included in the Hub."
   - id: e15
     source: imm-som-2025
     locator: "Chapter I, Congestion section"
@@ -97,21 +101,21 @@ evidence:
 
 ## Definition
 
-A Load Zone is a group of power flow buses (in the DAM and CRR Auction) or Electrical Buses (in the Real-Time Market) assigned to the same zone under Protocol Section 3.4, and every bus in ERCOT with Load must be assigned to one for Settlement. [e1]
+A Load Zone is a group of power flow buses (in the DAM and CRR Auction) or Electrical Buses (in the Real-Time Market) assigned to the same zone under Protocol Section 3.4, and every bus in ERCOT with Load must be assigned to one for Settlement. [e1][e3]
 
 ## How it works
 
 In real time, the Load Zone Settlement Point Price is the Load-weighted average of the LMPs at all Electrical Buses assigned to the zone, with the weights taken from State Estimator Load at each bus. [e3] In the day-ahead, ERCOT calculates the zone price using Load-weighted aggregated Shift Factors of the applicable energized power flow buses for each constraint, with weights from Load distribution factors. [e2]
 
-There are three types of Load Zone: Competitive Load Zones, NOIE Load Zones, and DC Tie Load Zones. [e4] The Competitive Load Zones are the four zones in effect during the 2003 ERCOT market, unless changed, less any buses assigned to a NOIE or DC Tie Load Zone. [e4] A DC Tie Load Zone holds only the one Electrical Bus connecting the DC Tie. [e9] The four NOIE Load Zones approved before nodal implementation are Austin Energy, City Public Service, Rayburn Country Electric Cooperative and LCRA. [e6]
+The Protocols refer to Competitive Load Zones, NOIE Load Zones, and DC Tie Load Zones. [e4] The Competitive Load Zones are the four zones in effect during the 2003 ERCOT market, unless changed, less any buses assigned to a NOIE or DC Tie Load Zone. [e4] A DC Tie Load Zone holds only the one Electrical Bus connecting the DC Tie. [e9] The four NOIE Load Zones approved before nodal implementation are Austin Energy, City Public Service, Rayburn Country Electric Cooperative and LCRA. [e6]
 
-Changes are slow by design. Competitive and NOIE Load Zones can be added, deleted or changed only with ERCOT Board approval, and approved changes take effect 48 months after the end of the month of approval, with an exception for some NOIE cases. [e5] A new Electrical Bus without an obvious zone is assigned to the Competitive Load Zone whose zonal price best matches a simulated annual-peak-hour LMP at that bus. [e13]
+Changes are slow. Competitive and NOIE Load Zones can be added, deleted or changed only with ERCOT Board approval, and approved changes take effect 48 months after the end of the month of approval, with listed exceptions. [e5] A new Electrical Bus not covered by the earlier paragraphs is assigned to the Competitive Load Zone whose zonal price best matches a simulated annual-peak-hour LMP at that bus. [e13]
 
 ## ERCOT context
 
 The IMM names the four current load zones as West, North, South and Houston, established in 2003. [e7] Loads settle at the zone price, a load-weighted average of nodal prices, while generators settle at their own nodal prices. [e10]
 
-The IMM argues the 2003 zones no longer match congestion: congestion within load zones continues to outpace congestion between load zones. [e7] When a zone has substantial internal congestion, its cost is averaged across loads and no longer tied to specific transmission limits. [e11] The West zone is the example the IMM gives, combining the export-constrained Panhandle with the import-constrained Permian Basin. [e12] The IMM continues to recommend that ERCOT revise the load zone configuration. [e15]
+The IMM says congestion within load zones continues to outpace congestion between load zones. [e7] When a zone has substantial internal congestion, its cost is averaged across loads and no longer tied to specific transmission limits. [e11] The IMM notes that the West zone includes both the export-constrained Panhandle and the import-constrained Permian Basin. [e12] It continues to recommend that ERCOT revise the load zone configuration to reflect evolving congestion patterns. [e15]
 
 ## Key facts
 
@@ -124,12 +128,12 @@ The IMM argues the 2003 zones no longer match congestion: congestion within load
 
 ## Say it like this
 
-A load zone is a group of buses that settle load at one load-weighted average price. ERCOT has used the same four competitive zones since 2003 [e4], and the IMM's view is that they now hide meaningful congestion, especially in the West.
+A load zone is a group of buses that settle load at one load-weighted average price. ERCOT has used the same four competitive zones since 2003 [e4][e7], and the IMM's view is that congestion inside zones now outpaces congestion between them [e7], with the West zone combining very different areas [e12].
 
 ## Common confusion
 
-- Load Zone versus Hub: a zone price is weighted by Load, a hub price is a fixed bus average. [e3]
-- Zone names in the market (the LZ_ prefix) are market convention; the protocol text calls them Competitive, NOIE and DC Tie Load Zones. [e4]
+- Load Zone versus Hub: a zone price is weighted by Load, while a Hub LMP is the arithmetic average of its Hub Buses' LMPs. [e3][e16]
+- The protocol text refers to Competitive, NOIE and DC Tie Load Zones; the LZ_ names are not used in the saved protocol text. [e4]
 - NOIE Load Zones and Competitive Load Zones are both Load Zones, but the Cost-Allocation Load Zones used for LRS allocation are the four 2003 zones. [e14]
 - Generators do not settle at the Load Zone price; they settle at their Resource Node. [e10]
 
@@ -141,7 +145,7 @@ As the Load-weighted average of LMPs at all Electrical Buses in the zone, with L
 
 ### Why does the IMM want to change the zones?
 
-It says intrazonal congestion continues to outpace interzonal congestion, and that internal zone congestion is averaged across loads, obscuring transmission limitations. [e7][e11] The West is the case in point, combining Panhandle and Permian. [e12]
+It says intrazonal congestion continues to outpace interzonal congestion, and that internal zone congestion is averaged across loads, obscuring transmission limitations. [e7][e11] The IMM notes that the West zone includes both the Panhandle and the Permian Basin. [e12]
 
 ### Can ERCOT just redraw the zones?
 

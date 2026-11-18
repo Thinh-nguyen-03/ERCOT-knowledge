@@ -10,13 +10,13 @@ as_of: 2026-11-18
 links:
   - to: sb6
     type: related
-    note: SB 6 large-load provisions share the 75 MW size line; see the sb6 topic for detail.
+    note: See the sb6 topic for the SB 6 large-load provisions.
   - to: large-load-growth
     type: related
     note: Large flexible load is one component of ERCOT's load forecast alongside large loads. [e6]
   - to: large-load-interconnection
     type: related
-    note: The Protocols define a Large Load and a Large Computational Load for interconnection purposes. [e4][e5]
+    note: The Protocols define a Large Load and a Large Computational Load. [e4][e5]
   - to: texas-legislature
     type: related
     note: Large flexible load registration is a PURA requirement added by SB 1929 in 2023. [e9]

@@ -22,16 +22,16 @@ links:
     note: The 2024-2025 FFSS offer cap used a 15 MMBtu per MWh heat rate. [e11]
   - to: offer-cap
     type: used-in
-    note: The peaker net margin, which can lower the system-wide offer cap, uses a 10 times FIP operating cost. [e4][e5]
+    note: PUCT rule 25.509 sets a daily peaking operating cost of 10 times the natural gas price index, and ERCOT's peaker net margin uses a 10.0 MMBtu per MWh heat rate. [e4][e5]
   - to: spark-spread
     type: prerequisite-of
-    note: A spark spread compares the power price with a unit's fuel cost, which is its heat rate times the gas price.
+    note: The Mitigated Offer Cap formula multiplies a heat rate by a fuel price, the same fuel-cost arithmetic a spark spread builds on. [e3]
   - to: merit-order
     type: determines
     note: The IMM says the 0 to 10 times FIP price band covers the incremental fuel price of most of the ERCOT fleet. [e10]
   - to: heat-rate-call-option
     type: prerequisite-of
-    note: A heat rate call option is struck in heat rate terms, so the concept here is a prerequisite.
+    note: See that topic; it builds on the heat rate concept defined here.
 evidence:
   - id: e1
     source: np-04
@@ -76,7 +76,7 @@ evidence:
   - id: e11
     source: imm-som-2025
     locator: "Market Operations chapter, 1. FFSS Deployments in 2025"
-    quote: "The offer cap was set at $12,240 per MW based on a Fuel Oil Index price of $17 per MMBtu, a heat rate of 15 MMBtu per MWh, and a 48-hour obligation period."
+    quote: "In the 2024-2025 contract period, ERCOT procured 4,195 MW across 32 dualfuel resources and one natural gas resource. The offer cap was set at $12,240 per MW based on a Fuel Oil Index price of $17 per MMBtu, a heat rate of 15 MMBtu per MWh, and a 48-hour obligation period."
   - id: e12
     source: np-02
     locator: "Section 2.1, definition of Fuel Index Price (FIP)"
@@ -85,6 +85,18 @@ evidence:
     source: imm-som-2025
     locator: "Review of Real-Time Market Outcomes, 2. Implied Heat Rates"
     quote: "The average implied heat rate for 2025 was almost 28% lower than in 2024 and was the lowest annual average of the last five years. This value is now in line with the marginal heat rate of natural gas power plants in the ERCOT market."
+  - id: e15
+    source: eia-faq-heat-rate
+    locator: "FAQ: What is the efficiency of different types of power plants?, first paragraph"
+    quote: "Heat rate is one measure of the efficiency of electric generators and power plants that convert fuel into heat and then into electricity. The heat rate is the amount of energy used by an electrical generator or power plant to generate one kilowatthour (kWh) of electricity. We express heat rates in British thermal units (Btu) per net kWh generated."
+  - id: e16
+    source: eia-glossary-heat-rate
+    locator: "Glossary entry, Heat rate"
+    quote: "A measure of generating station thermal efficiency commonly stated as Btu per kilowatthour."
+  - id: e17
+    source: imm-som-2025
+    locator: "Review of Real-Time Market Outcomes, 2. Implied Heat Rates"
+    quote: "The growth of zero marginal cost generation such as wind and solar has resulted in hundreds of hours with prices at or below $0 per MWh, which lowers the market’s implied heat rate. Conversely, shortage pricing results in hundreds of hours per year with prices above the marginal cost of natural gas generators, which raises the market’s implied heat rate."
   - id: e14
     source: imm-som-2025
     locator: "Review of Real-Time Market Outcomes, 1. Real-Time Market Prices"
@@ -93,19 +105,19 @@ evidence:
 
 ## Definition
 
-ERCOT rules and IMM reports express a generator's heat rate in MMBtu per MWh and multiply it by a fuel price in $/MMBtu to get a fuel cost in $/MWh; for example, the Protocols' Generic Incremental Heat Rate is a single-value incremental heat rate in MMBtu/MWh. [e1][e12][e3] None of the saved sources defines "heat rate" itself in so many words (see Open items).
+Heat rate is the amount of energy used by a generator or power plant to generate one kilowatthour of electricity, expressed by EIA in Btu per net kWh generated; it is a measure of thermal efficiency. [e15][e16] ERCOT rules and IMM reports express a generator's heat rate in MMBtu per MWh and multiply it by a fuel price in $/MMBtu to get a fuel cost in $/MWh; for example, the Protocols' Generic Incremental Heat Rate is a single-value incremental heat rate in MMBtu/MWh. [e1][e12][e3]
 
 ## How it works
 
 A heat rate turns a fuel price into a marginal cost. In the Mitigated Offer Cap formula, ERCOT multiplies a generic incremental heat rate (GIHR) by the higher of the Fuel Index Price or a weighted average fuel price, or uses the resource's verifiable incremental heat rate (IHR) times a fuel price plus O&M, whichever is greater. [e3] The FIP is a daily Katy Hub natural gas price in $/MMBtu. [e12] The verifiable IHR is a curve for each resource approved through the verifiable cost process, while the GIHR is set at 10.5 for resources in commercial operation on or before January 1, 2004 and 14.5 for later ones. [e2][e1]
 
-Because fuel is the largest part of marginal production cost for most generators and gas is the most widely used fuel in ERCOT, a unit's heat rate largely decides where it sits in the offer stack. [e14] The IMM says the price band from zero to 10 times the FIP covers the incremental fuel price of the vast majority of the ERCOT fleet; 28% of capacity was offered in that band in 2025. [e10]
+Fuel costs are the largest component of marginal production cost for most generators, and natural gas is the most widely used fuel in ERCOT, according to the IMM. [e14] The IMM says the price band from zero to 10 times the FIP covers the incremental fuel price of the vast majority of the ERCOT fleet; 28% of capacity was offered in that band in 2025. [e10]
 
 ## ERCOT context
 
 Heat rates appear as fixed parameters in several rules and analyses. [e4][e6][e9][e11]
 
-- The scarcity pricing rule sets the daily peaking operating cost at 10 times the natural gas price index, and the IMM describes this as a 10.0 MMBtu per MWh heat rate in the PNM calculation. [e4][e5]
+- PUCT rule 25.509 sets the daily peaking operating cost at 10 times the natural gas price index, and the IMM says ERCOT calculates PNM using a 10.0 MMBtu per MWh heat rate. [e4][e5]
 - The IMM's own net revenue analysis assumes 7 MMBtu per MWh for a combined-cycle unit and 10.5 MMBtu per MWh for a gas turbine. [e6]
 - The IMM defines a price spike as a price above 18 MMBtu per MWh times the FIP, a level that typically exceeds the marginal cost of virtually all online generators. [e9]
 - The 2024-2025 FFSS offer cap used a 15 MMBtu per MWh heat rate with a $17 per MMBtu fuel oil price and a 48-hour obligation. [e11]
@@ -135,7 +147,7 @@ The FFSS cap shows the arithmetic directly: fuel price ($17 per MMBtu) times hea
 
 ## Common confusion
 
-(Guidance) A unit's physical heat rate and the market's implied heat rate are different things: the implied heat rate is just the power price divided by the gas price, and it can be pushed up by shortage pricing or down by zero-priced renewable hours. [e8] Also, the 10.5 and 14.5 GIHR values in the Mitigated Offer Cap are parameters the Protocols set by Commercial Operations Date; the sources do not say they are measured heat rates of actual units. [e1]
+(Guidance) A unit's physical heat rate and the market's implied heat rate are different things: the implied heat rate is just the power price divided by the gas price, and the IMM says it is lowered by hours at or below $0 and raised by shortage pricing. [e8][e17] Also, the 10.5 and 14.5 GIHR values in the Mitigated Offer Cap are parameters the Protocols set by Commercial Operations Date; the sources do not say they are measured heat rates of actual units. [e1]
 
 ## Questions
 
@@ -147,7 +159,7 @@ It multiplies the heat rate in MMBtu/MWh by a fuel price in $/MMBtu, such as the
 
 10 MMBtu/MWh: the rule sets the peaking operating cost at 10 times the gas price index. [e4][e5]
 
-### What heat rates does the IMM use for new gas units?
+### What heat rates does the IMM assume in its net revenue analysis?
 
 7 MMBtu/MWh for a combined cycle and 10.5 MMBtu/MWh for a gas turbine, plus $4/MWh variable O&M, in its 2024 net revenue analysis. [e6]
 
@@ -164,7 +176,6 @@ In FFSS: the 2024-2025 offer cap was built from a 15 MMBtu/MWh heat rate, a $17/
 
 ## Open items
 
-- No saved source defines "heat rate" in so many words (e.g. fuel input per unit of electrical output); np-02 has no definition. The definition above is limited to how the sources use the units.
 - The sources do not give actual heat rates of ERCOT units or fleet averages for ERCOT gas plants; the IMM says only that the 2025 implied heat rate is "in line with" the marginal heat rate of ERCOT gas plants, without a number.
 - The coal heat rate (10.4 to 10.7 MMBtu/MWh) is a national EIA-based figure quoted by the IMM, not ERCOT-specific.
 - np-06 has Average Heat Rate definitions for settlement, but the current text sits next to a pending NPRR1086 replacement box, so I did not cite it.

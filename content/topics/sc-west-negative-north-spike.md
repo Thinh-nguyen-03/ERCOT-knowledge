@@ -13,10 +13,10 @@ links:
     note: A West-North split is congestion showing up as different prices at different nodes. [e2]
   - to: lmp
     type: used-in
-    note: Every LMP shares the System Lambda energy component, so a split between nodes comes from congestion. [e3]
+    note: System Lambda is the energy component of the LMP at each Settlement Point. [e3]
   - to: shift-factor
     type: used-in
-    note: Shift factors decide how much each constraint moves the price at each node. [e4]
+    note: A shift factor measures the flow on a transmission element due to a unit injection at a bus. [e4]
   - to: hb-west
     type: related
     note: The West zone holds both the export-constrained Panhandle and the import-constrained Permian Basin. [e5]
@@ -31,10 +31,10 @@ links:
     note: GTCs limit flows between regions and matter most in renewable-heavy areas. [e10][e11]
   - to: shadow-price
     type: measures
-    note: The shadow price of the binding constraint sets how wide the split can get. [e12]
+    note: The shadow price of a constraint is the marginal cost of redirecting energy around a binding constraint. [e12]
   - to: load-zone
     type: related
-    note: Load pays a load-weighted zone average, which blends Panhandle and Permian prices. [e15]
+    note: Loads are billed at the load zone price, a load-weighted average of nodal prices within the zone. [e15]
 evidence:
   - id: e1
     source: imm-som-2025
@@ -118,7 +118,7 @@ This scenario is about prices splitting by location when the grid cannot move ch
 
 Congestion starts with a physical limit. When flow on a line or transformer reaches its limit, the market dispatches higher-cost units to change the flows, so the cheapest generators cannot serve all the load. [e1]
 
-Every LMP has the same energy part. System Lambda is the cost of one more MWh at the reference bus and is the energy component of the LMP at every Settlement Point. [e3] What differs between nodes is how much each node's injection loads the binding constraint, which is what a shift factor measures. [e4] The shadow price of the constraint is the marginal cost of routing energy around it. [e12]
+Every LMP has the same energy part. System Lambda is the cost of one more MWh at the reference bus and is the energy component of the LMP at every Settlement Point. [e3] A shift factor measures the flow on a transmission element from a unit injection at a bus. [e4] The shadow price of the constraint is the marginal cost of routing energy around it. [e12]
 
 The West is a split zone. The Panhandle has a lot of wind and solar but cannot export all of it, while the Permian Basin has fast-growing demand and cannot import enough. [e5] That is why the West zone had both the most negative-price intervals and the most price spikes of any load zone in 2025. [e6] Generic Transmission Constraints, which limit flows between areas for stability and voltage reasons, matter most in renewable-heavy areas far from load. [e10][e11]
 
@@ -137,11 +137,11 @@ Prices go negative because many renewables are paid to produce even when prices 
 
 ### At 8 p.m. a Panhandle wind node and HB_WEST are below zero while HB_NORTH is at $900/MWh. How can one grid have both?
 
-- Start from the LMP build-up. System Lambda is the same for every node; the gap between West and North comes from the congestion part, through shift factors and shadow prices. [e3][e4][e12]
+- Start from the LMP build-up. System Lambda is the energy component of the LMP at each Settlement Point, and when congestion occurs the differing cost of delivering power shows up as different prices at each node. [e3][e2] The shadow price of the binding constraint is the marginal cost of redirecting flow around it. [e12]
 - The binding limit is likely on the export path out of the Panhandle. Too much wind and solar there cannot reach load, so local prices fall and output gets curtailed. [e5][e9]
-- Evening timing fits: as solar ramps down in the evening, wind starts to ramp up, which pushes more Panhandle power against the export limit just as demand elsewhere is still high. [e18]
+- Evening timing: at the net load peak solar has ramped down while wind is beginning to ramp up. [e18] (Reasoning) That could put more Panhandle output against an export limit.
 - Prices go below zero because a large share of renewable capacity offers at or below $0, many of those units being backed by production tax credits. The floor is -$251/MWh. [e7][e8]
-- On the North side, high prices mean the system is short in that area or overall. Cheap West power cannot get through, so North is served by expensive local units. [e1]
+- When congestion blocks lower-cost generators from serving load, the market shifts generation to higher-cost units. [e1] The IMM named the North zone, where ERCOT used significant RUC commitments to manage congestion, as a main driver of higher day-ahead congestion in 2025. [e13]
 - A GTC may be the binding limit rather than one thermal line, since GTCs are used for stability limits between areas with a lot of renewables. [e10][e11]
 - (Reasoning) Check the posted binding constraints and shadow prices first, then confirm which side of the constraint each node sits on before calling a direction for the spread.
 - Batteries behind the constraint can help: when added load relieves congestion, ESRs often charge at prices below $0. [e14]
@@ -163,7 +163,7 @@ ERCOT reported that real-time congestion rent in summer 2026 was 10% below summe
 
 ### Who benefits from the negative West prices?
 
-Batteries that can charge there, sometimes at prices below $0, and buyers sinking power in the West. [e14] (Guidance) Generators at West nodes lose, which is why they hedge with CRRs.
+Batteries, which can act as both supply and demand and can often charge at prices below $0 when added load at a location resolves congestion. [e14] (Guidance) Generators settle at their own nodal prices, so those at negative-priced West nodes receive the lower price. [e15]
 
 ## Say it like this
 
@@ -171,7 +171,7 @@ Batteries that can charge there, sometimes at prices below $0, and buyers sinkin
 
 ## Common confusion
 
-(Guidance) A negative West price does not mean the whole system is oversupplied. It means power is trapped behind a constraint. [e1][e5] Also, HB_WEST and a Panhandle node are not the same thing: the zone also includes the Permian, where prices can be high. [e5]
+(Guidance) A negative West price does not by itself mean the whole system is oversupplied; the IMM describes the Panhandle as export-constrained. [e5] Also, HB_WEST and a Panhandle node are not the same thing: the zone also includes the Permian, where prices can be high. [e5]
 
 ## Open items
 

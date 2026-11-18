@@ -13,19 +13,19 @@ links:
     note: ERS exists to help prevent or alleviate an actual or anticipated EEA event, so read the EEA topic for the emergency levels. [e1]
   - to: qse
     type: prerequisite-of
-    note: ERS resources can only offer and be paid through a QSE, which is also the party charged for ERS cost. [e3][e8]
+    note: ERCOT charges each QSE for ERS based on its load ratio share. [e8]
   - to: prc
     type: related
-    note: The protocol deployment trigger is Physical Responsive Capability falling below 3,000 MW. [e6]
+    note: ERCOT may deploy ERS when Physical Responsive Capability falls below 3,000 MW and is not projected to recover within 30 minutes after Non-Spin deployment. [e6]
   - to: load-ratio-share
     type: related
     note: ERS costs are charged to QSEs by load ratio share. [e8]
   - to: ancillary-services
     type: contrasts-with
-    note: The protocols state that ERS is not an Ancillary Service, so it is procured and paid differently. [e2]
+    note: The protocols state that ERS is not an Ancillary Service. [e2]
   - to: ffss
     type: related
-    note: FFSS is the other winter out-of-market reliability service the IMM groups with ERS and RMR.
+    note: The IMM lists FFSS and ERS together among out-of-market products. [e13][e14]
   - to: imm
     type: related
     note: The IMM reports ERS procurement, deployments and criticism of out-of-market programs. [e9][e11]
@@ -74,6 +74,14 @@ evidence:
     source: imm-som-2025
     locator: "Executive summary, out-of-market programs"
     quote: "they compensate entities outside of the energy and ancillary service markets to provide additional supply or reduce demand during tight conditions. While they are generally motivated by improving reliability, these types of programs will sharply reduce the expected shortage revenues that investors need to justify new dispatchable generation and to retain higher-cost existing generation nearing retirement."
+  - id: e13
+    source: imm-som-2025
+    locator: "Executive summary, out-of-market programs, list"
+    quote: "Emergency Response Service (ERS). Provides out of market revenue to increase supply or reduce demand curing winter conditions"
+  - id: e14
+    source: imm-som-2025
+    locator: "Executive summary, out-of-market programs, list"
+    quote: "Firm Fuel Supply Service (FFSS). The FFSS program provides an out-of-market payment for qualifying assets to provide electricity and reserves during anticipated tight winter conditions."
   - id: e12
     source: imm-som-2024
     locator: "Real-time market, RDPA discussion"
@@ -86,7 +94,7 @@ ERS is a special emergency service that ERCOT procures and deploys to help preve
 
 ## How it works
 
-An ERS resource is either a load (or an aggregation of loads) or a dispatchable generator that is not registered as a Generation Resource. [e3] ERCOT issues requests for proposals for four standard contract terms (December through March, April and May, June through September, October and November) and buys from four service types: weather-sensitive or non-weather-sensitive, each with a 10-minute (ERS-10) or 30-minute (ERS-30) ramp. [e4][e5]
+An ERS resource is either a load (or an aggregation of loads) or a dispatchable generator that is not registered as a Generation Resource. [e3] ERCOT issues requests for proposals for four standard contract terms (December through March, April and May, June through September, October and November) and buys from four service types: weather-sensitive or non-weather-sensitive, each as ERS-10 or ERS-30. [e4][e5]
 
 Deployment is a late-stage step. When Physical Responsive Capability (PRC) falls below 3,000 MW and is not projected to recover above 3,000 MW within 30 minutes of Non-Spin deployment, ERCOT may deploy contracted ERS-10 and ERS-30 by XML message. [e6] ERCOT may spend at most $75 million in a 12-month period on ERS unless the PUCT decides otherwise, and the cost is charged to QSEs by load ratio share. [e7][e8]
 
@@ -94,7 +102,7 @@ Deployment is a late-stage step. When Physical Responsive Capability (PRC) falls
 
 The IMM describes ERS as an auction in which industrial and commercial consumers offer to be curtailed, and reports it was deployed for nine events up to September 2023. For the 2024 program year ERCOT procured an average of 1,147 MW per hour at an average clearing price of $7.36 per MWh. [e9] There were no ERS deployments in 2024. [e12] By the end of 2025, cryptocurrency mining operations accounted for more than half of all ERS capacity. [e10]
 
-The IMM groups ERS with other out-of-market programs and argues they compensate entities outside the energy and ancillary service markets, which will sharply reduce the expected shortage revenues that investors need. [e11]
+The IMM lists ERS among a group of out-of-market products and argues that such programs compensate entities outside the energy and ancillary service markets, which will sharply reduce the expected shortage revenues that investors need. [e11][e13]
 
 ## Key facts
 
@@ -106,11 +114,11 @@ The IMM groups ERS with other out-of-market programs and argues they compensate 
 
 ## Say it like this
 
-ERS is a pay-to-curtail emergency product: ERCOT contracts loads and small generators ahead of each season and calls on them late in a tightening event, before or during an EEA. It sits outside the ancillary service market, and the cost is spread to load.
+ERS is a pay-to-curtail emergency product: ERCOT contracts loads and unregistered dispatchable generators for set contract terms and calls on them late in a tightening event, before or during an EEA. It sits outside the ancillary service market, and the cost is spread to load.
 
 ## Common confusion
 
-ERS is not a normal ancillary service, and the protocols say so. [e2] It is also not a price-based product: it is a contracted obligation that ERCOT calls by XML message, and the cost is charged to QSEs by load ratio share rather than set by an energy price. [e6][e8]
+ERS is not a normal ancillary service, and the protocols say so. [e2] ERCOT calls contracted ERS by XML message, and the cost is charged to QSEs by load ratio share. [e6][e8]
 
 ## Questions
 
@@ -124,7 +132,7 @@ ERCOT charges each QSE based on its load ratio share during the relevant ERS tim
 
 ### Why does the IMM criticise out-of-market programs like ERS?
 
-The IMM argues they pay entities outside the energy and ancillary service markets to add supply or cut demand in tight conditions, which sharply reduces the expected shortage revenues investors need to build or keep dispatchable generation. [e11]
+The IMM argues programs like ERS compensate entities outside the energy and ancillary service markets to add supply or reduce demand in tight conditions, which will sharply reduce the expected shortage revenues investors need to build or keep dispatchable generation. [e11][e13]
 
 ## Open items
 

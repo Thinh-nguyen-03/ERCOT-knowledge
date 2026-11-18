@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: resource-types
     type: is-a
-    note: A DGR is a Generation Resource; an SODG is a settlement-only generator. [e1][e3]
+    note: A DGR is a Generation Resource; an SODG is a distribution-connected generator that does not register as a DGR (or is 1 MW or less by choice). [e1][e2]
   - to: resource-entity
     type: related
     note: Resource Entities register these units with ERCOT. [e2]
@@ -19,10 +19,10 @@ links:
     note: These units connect to the Distribution System rather than the ERCOT transmission system. [e1][e2]
   - to: settlement-point
     type: related
-    note: SODG energy is paid at a nodal price at the bus mapped to its associated load unless it opts out. [e4]
+    note: SODG energy is paid on a nodal price at the bus mapped to its associated load, with listed exceptions including an opt-out. [e4][e8]
   - to: load-zone
     type: related
-    note: An SODG that opts out of nodal pricing or a site mostly storage is settled differently than at the bus price. [e4]
+    note: Exceptions to nodal SODG pricing include an opt-out and sites where energy storage is more than 50% of nameplate; the quote does not say how those are priced. [e8]
   - to: energy-storage-resource
     type: related
     note: Distribution-connected storage has parallel DESR definitions.
@@ -51,6 +51,13 @@ evidence:
     source: np-06
     locator: "Section 6.6.3.8(1)"
     quote: "The payment or charge to each QSE for energy from an SODG or an SOTG shall be based on an identified nodal energy price, RTESOGPR, as described in this subsection, with the following exceptions:"
+  - id: e8
+    source: np-06
+    locator: "Section 6.6.3.8(1)(a)-(b)"
+    quote: >-
+      The payment or charge to each QSE for energy from an SODG or an SOTG shall be based on an identified nodal energy price, RTESOGPR, as described in this subsection, with the following exceptions:
+      (a) An SODG or SOTG that has opted out of nodal pricing as described in paragraph (5) below; or
+      (b) Any site with one or more ESS SODGs or SOTGs where the ESS capacity constitutes more than 50% of the site’s total SOG nameplate capacity.
   - id: e7
     source: np-02
     locator: "Section 2.1, pending NPRR995 note after SODG definition"
@@ -63,19 +70,19 @@ A Distribution Generation Resource (DGR) is a Generation Resource connected to t
 
 ## How it works
 
-The difference is market participation. A DGR is a Generation Resource, while an SODG is settled for exported energy only and may not join the ancillary services market, RUC or SCED or make energy offers. [e1][e3] SODGs must be registered with ERCOT under Planning Guide 6.8.2 and are modeled in ERCOT systems for reliability. [e5]
+The difference is market participation. A DGR is a Generation Resource. [e1] The Protocols' Settlement Only Generator (SOG) definition describes a generator settled for exported energy only that may not join the ancillary services market, RUC or SCED or make energy offers. [e3] SODGs must be registered with ERCOT under Planning Guide 6.8.2 and are modeled in ERCOT systems for reliability. [e5]
 
 For settlement, a QSE's payment or charge for SODG energy is based on a nodal energy price, with exceptions. [e6] For an SODG that price is the time-weighted price at the electrical bus associated with the mapped load in the Network Operations Model. [e4]
 
 ## ERCOT context
 
-The SODG definition is marked for deletion under NPRR995 upon system implementation, so the SOG/SODG family is changing; this is pending, not yet in effect. [e7]
+The SODG definition is marked for deletion under NPRR995 upon system implementation, so that definition is expected to change; this is pending, not yet in effect. [e7]
 
 ## Key facts
 
 - DGR thresholds: over 10 MW and not a PUCT self-generator, or over 1 MW by choice. [e1]
 - SODG: 1 MW or less by choice, or over 1 MW and up to 10 MW that can net export and does not register as a DGR. [e2]
-- SODG settled for exported energy only; no energy offers, SCED or ancillary services. [e3]
+- Settlement Only Generators (SOG) are settled for exported energy only, with no energy offers, SCED, RUC or ancillary services. [e3]
 - SODG energy paid at the nodal price at the bus mapped to the associated load. [e4]
 
 ## Say it like this
@@ -84,7 +91,7 @@ The SODG definition is marked for deletion under NPRR995 upon system implementat
 
 ## Common confusion
 
-(Guidance) The names look alike but the market roles differ: only the DGR is a Resource that can offer. [e1][e3] The size line is not sharp: units between 1 and 10 MW can be either, depending on whether they register as a DGR. [e2]
+(Guidance) The names look alike but the market roles differ: a DGR is a Generation Resource, while the settlement-only (SOG) category cannot make energy offers. [e1][e3] The size line is not sharp: units between 1 and 10 MW can be either, depending on whether they register as a DGR. [e2]
 
 ## Questions
 
@@ -94,10 +101,11 @@ If it can net export to ERCOT and does not register as a DGR. [e2]
 
 ### Where is an SODG's energy priced?
 
-At the electrical bus associated with the mapped load, subject to listed exceptions. [e4][e6]
+At the electrical bus associated with the mapped load, subject to listed exceptions. [e4][e8]
 
 ## Open items
 
+- np-02 lays out the SODG definition under the SOG definition, but the quoted SOG text does not itself say SODGs are SOGs; the no-offers/no-SCED restriction is cited to the SOG definition only.
 - Deeper pass: the SODG opt-out of nodal pricing and the ESS exception (6.6.3.8 paragraphs (1)(a), (1)(b), (5)); Load Zone price retention.
 - Deeper pass: SODG telemetry exemption (10 MWh) is in a table row that could be pending; not cited.
 - Deeper pass: DGR operational treatment (state estimator load adjustments, outage rules) and Distribution Energy Storage Resource parallel.

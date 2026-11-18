@@ -10,13 +10,13 @@ as_of: 2026-11-18
 links:
   - to: large-load-interconnection
     type: used-in
-    note: A new 75 MW or larger site goes through the Large Load interconnection standards and, since 2026, the Batch Zero process. [e1][e9]
+    note: A Large Load is a site with aggregate peak Demand of 75 MW or more, and a studied load may receive its full request, a partial allocation, or wait for a later batch. [e1][e9]
   - to: sb6
     type: regulates
-    note: SB 6 set the 75 MW threshold, the $100,000 minimum study fee and the backup-generation and curtailment rules for large loads. [e3][e4][e6]
+    note: SB 6 requires the PUCT to set a 75 MW threshold and a study fee of at least $100,000, and lets the independent organization direct large loads to deploy backup generation or curtail. [e3][e4][e6]
   - to: long-term-load-forecast
     type: affects
-    note: Large load requests drove a preliminary 2026 forecast of 278,003 MW in 2029, which ERCOT questioned. [e12]
+    note: The preliminary 2026 LTLF peak load is 278,003 MW in 2029, and ERCOT said it had concerns with using these values. [e12]
   - to: large-load-growth
     type: example-of
     note: Nearly 90% of the more than 438,000 MW of large-load requests in mid-2026 were data centers. [e11]
@@ -28,7 +28,7 @@ links:
     note: The IMM lists bilateral PPAs among the ways LSEs manage price exposure; the saved sources do not describe VPPA terms. [e17]
   - to: rep
     type: related
-    note: Retail electric service in a competitive area is provided by a certificated REP. [e18]
+    note: A person must obtain a REP certificate before reselling electricity to provide retail electric service. [e18]
   - to: load-zone
     type: settles
     note: Loads are billed at the load zone price, a load-weighted average of nodal prices in the zone. [e16]
@@ -138,11 +138,11 @@ This scenario is about a data center that wants to connect to ERCOT and buy powe
 
 Step 1, the connection rules. SB 6 told the PUCT to set a 75 MW threshold for large load interconnection standards and a flat study fee of at least $100,000. [e3][e4] The PUCT rule requires financial security of $50,000 per MW of requested peak demand for new requests. [e5] ERCOT now studies large loads together in batches: a studied load in Batch Zero may get its full request, a partial allocation, or have to wait, and projects face a commitment deadline, currently planned for June 2027, to post financial security and prove site control. [e9][e10]
 
-Step 2, the operating conditions. Under SB 6, after ERCOT deploys all available market services except frequency responsive ones, it can direct a large load with on-site backup generation to run that generation or curtail. [e6] New transmission-voltage loads must also have equipment installed so they can be curtailed during firm load shed. [e7] If the data center plans to co-locate behind the meter at an existing stand-alone generator, the generator owner must first notify ERCOT. [e8] ERCOT's December 2025 CDR called these SB 6 provisions the most impactful resource adequacy development since May 2025. [e23]
+Step 2, the operating conditions. Under SB 6, after ERCOT deploys all available market services except frequency responsive ones, the independent organization may direct the utility to require the large load customer to deploy its on-site backup generation or curtail load. [e6] New transmission-voltage loads must also have equipment installed so they can be curtailed during firm load shed. [e7] If the data center plans a net metering arrangement with an existing stand-alone generation resource, the generation company, municipally owned utility or cooperative must notify ERCOT before implementing it. [e8] ERCOT's December 2025 CDR called these SB 6 provisions the most impactful resource adequacy development since May 2025. [e23]
 
-Step 3, the forecast context. More than 438,000 MW of large-user requests were in ERCOT's queue by mid-2026, nearly 90% of them data centers. [e11] The preliminary 2026 long-term forecast reached 278,003 MW in 2029, which ERCOT itself had concerns about using, and the PUCT approved adjusting it using Batch Zero (Option B). [e12][e13] History suggests discounting requests: EIA reports that large flexible loads have consumed about 65% of their approved capacity. [e14]
+Step 3, the forecast context. More than 438,000 MW of large-user requests were in ERCOT's queue by mid-2026, nearly 90% of them data centers. [e11] The preliminary 2026 long-term forecast reached 278,003 MW in 2029, which ERCOT itself had concerns about using, and the PUCT approved ERCOT's request to adjust the LTLF using the Option B methodology. [e12][e13] History suggests discounting requests: EIA reports that large flexible load (LFL) customers have consumed about 65% of their approved capacity. [e14]
 
-Step 4, buying the power. A retail customer in a competitive area buys through a certificated REP, and load is billed at the load zone price, a load-weighted average of nodal prices. [e18][e16] LSEs manage price exposure with owned generation, bilateral PPAs, futures or day-ahead purchases. [e17] Transmission costs are a separate line: ERCOT allocates them on each customer's load-ratio share in the four summer peak intervals (4CP), and a PUCT proposal would replace 4CP with 12CP. [e19][e21]
+Step 4, buying the power. A person must hold a REP certificate to resell electricity for retail service, and load is billed at the load zone price, a load-weighted average of nodal prices. [e18][e16] LSEs manage price exposure with owned generation, bilateral PPAs, futures or day-ahead purchases. [e17] Transmission costs are a separate line: ERCOT allocates them on each customer's load-ratio share in the four summer peak intervals (4CP), and a PUCT proposal would replace 4CP with 12CP. [e19][e21]
 
 ## Key facts
 
@@ -159,17 +159,17 @@ Step 4, buying the power. A retail customer in a competitive area buys through a
 
 ## Common confusion
 
-(Guidance) A large load request is not a forecast of load. ERCOT questioned its own preliminary forecast built from requests, and EIA notes that large flexible loads historically used about 65% of approved capacity. [e12][e14] Another confusion is assuming a renewable PPA removes price risk: the load is still billed at the load zone price. [e16]
+(Guidance) A large load request is not a forecast of load. ERCOT said it had concerns about using its preliminary LTLF values, and EIA notes that large flexible load customers historically used about 65% of approved capacity. [e12][e14] Another confusion is assuming a renewable PPA removes price risk: the load is still billed at the load zone price. [e16]
 
 ## Questions
 
 ### What does SB 6 require of a new data center in an emergency?
 
-ERCOT can direct a large load with on-site backup generation to run it or curtail once it has deployed all available market services except frequency responsive ones, and new transmission-voltage loads must be equipped to be curtailed during firm load shed. [e6][e7]
+After the independent organization deploys all available market services except frequency responsive ones, it may direct the utility to require the large load customer to deploy on-site backup generation or curtail load, and new transmission-voltage loads must be equipped to be curtailed during firm load shed. [e6][e7]
 
 ### Why might the data center not get the full capacity it asks for?
 
-In Batch Zero a studied load's allocation is set by a system-wide study of what the grid can support, so it may get its full request, a partial allocation, or wait for a later batch. [e9] The IMM also argues for a resource adequacy constraint on load interconnection so ERCOT does not approve physically infeasible load. [e15]
+In Batch Zero a studied load may receive its full request, a partial allocation, or wait for a later batch if the grid cannot accommodate it at the time. [e9] The IMM also argues for a resource adequacy constraint on load interconnection so ERCOT does not approve physically infeasible load. [e15]
 
 ### Why does 4CP matter to a data center?
 
@@ -183,12 +183,12 @@ Transmission charges are based on the customer's load-ratio share in the four su
 - Connection: the site is a Large Load (75 MW or more), pays at least a $100,000 study fee and must post $50,000 per MW of security. [e1][e4][e5]
 - Suppose (illustrative) the full 500 MW is requested: security at $50,000 per MW is 500 x 50,000 = $25 million.
 - Allocation risk: Batch Zero may give full, partial or no allocation this round, and projects must post security and show site control by a commitment deadline currently planned for June 2027. [e9][e10]
-- Operations: in emergencies ERCOT can direct the site to run backup generation or curtail, and new transmission-voltage loads must be curtailable in firm load shed. [e6][e7]
-- Co-location: putting the load behind an existing stand-alone generator requires a notice to ERCOT first. [e8]
+- Operations: under SB 6 the independent organization may direct the utility to require the site to run backup generation or curtail, and new transmission-voltage loads must be curtailable in firm load shed. [e6][e7]
+- Co-location: a net metering arrangement with an existing stand-alone generation resource requires a notice to ERCOT before it is implemented. [e8]
 - Power cost: the load buys through a REP and is billed at the load zone price. [e18][e16]
-- (Reasoning) A solar VPPA settles separately from the physical supply, so check how its generation profile and settlement point line up with a flat, round-the-clock data center load at its load zone; the evening hours are the gap.
+- (Reasoning) Check how the PPA's generation profile and settlement point line up with the data center's load shape at its load zone.
 - Transmission: 4CP charges are based on summer peak intervals, and a PUCT proposal would move to 12CP. [e19][e21]
-- (Reasoning) For the analyst view, discount queue numbers: requests far exceed realistic load, which is why ERCOT adjusted its forecast using Batch Zero. [e12][e13]
+- For the analyst view, treat queue-based numbers with caution: ERCOT said it had concerns with the preliminary LTLF values and the PUCT approved an adjustment (Option B). [e12][e13]
 
 ## Open items
 

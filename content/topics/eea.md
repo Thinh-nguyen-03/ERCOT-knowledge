@@ -10,10 +10,10 @@ as_of: 2026-11-18
 links:
   - to: prc
     type: measures
-    note: PRC, the frequency-responsive capability on line, is the measure that triggers EEA Levels 1 to 3. [e3]
+    note: PRC, the frequency-responsive capability on line, is one of the triggers for EEA Levels 1 to 3. [e3][e5][e6]
   - to: load-shed
     type: causes
-    note: EEA Level 3 is where ERCOT directs transmission owners to shed firm load. [e6]
+    note: EEA Level 3 is where ERCOT directs transmission owners to shed firm load. [e7]
   - to: ordc
     type: related
     note: See the ORDC topic for how reserve shortage is priced; this topic covers the EEA procedure.
@@ -25,10 +25,10 @@ links:
     note: Load Resources providing RRS are deployed during EEA Level 2. [e2]
   - to: ecrs
     type: related
-    note: ECRS is used to provide energy to avoid or during an EEA, and Load Resources carrying it are deployed at Level 2. [e2]
+    note: Load Resources providing ECRS can be deployed at EEA Level 2. [e2]
   - to: winter-storm-uri
     type: example-of
-    note: February 2021 was the largest controlled-outage event in ERCOT's history. [e9]
+    note: February 2021 is the largest of the controlled-outage events in ERCOT's overview list. [e9]
   - to: nodal-protocols
     type: part-of
     note: The EEA levels are set out in Section 6.5.9.4.2 of the Nodal Protocols. [e3]
@@ -88,7 +88,7 @@ evidence:
   - id: e14
     source: np-06
     locator: "Section 6.5.9.4.2, paragraph (1)(b)(ii)"
-    quote: "(ii) Ensure that each of its ESRs suspends charging until the EEA is recalled, except under the following circumstances:"
+    quote: "(ii) Ensure that each of its ESRs suspends charging until the EEA is recalled, except under the following circumstances: (A) The ESR has a current SCED Base Point Instruction, LFC Dispatch Instruction, or manual Dispatch Instruction to charge the ESR; (B) The ESR is actively providing Primary Frequency Response; or"
 ---
 
 ## Definition
@@ -99,13 +99,13 @@ An Energy Emergency Alert is the orderly, predetermined ERCOT procedure for maxi
 
 The Protocols tie each level to physical responsive capability (PRC) and, for Levels 2 and 3, also to system frequency. ERCOT declares Level 1 when PRC falls below 2,500 MW and is not projected to recover above 2,500 MW within 30 minutes without the Level 1 actions. [e3] It declares Level 2 when PRC falls below 2,000 MW on the same test, and may declare it when clock-minute average frequency stays below 59.91 Hz for 15 consecutive minutes. [e5] It declares Level 3 when PRC cannot be maintained above 1,500 MW or when clock-minute average frequency is below 59.91 Hz for 25 consecutive minutes, and may declare it at 20 minutes or when steady-state frequency falls below 59.8 Hz. [e6]
 
-The actions escalate. Level 1 steps include using unused DC Tie import capacity, directing resources scheduled to go offline to stay on, and deploying undeployed ERS-10 and ERS-30. [e4] QSEs must also ensure their ESRs suspend charging until the EEA is recalled, with exceptions such as a current charging instruction or primary frequency response. [e14] Level 2 adds instructing QSEs to deploy ECRS or RRS supplied by Load Resources. [e2] Level 3 adds directing transmission owners to shed firm load in 100 MW blocks to hold frequency at a minimum of 59.91 Hz and recover 1,500 MW of PRC within 30 minutes. [e7]
+The actions escalate. Level 1 steps include using unused DC Tie import capacity, directing resources scheduled to go offline to stay on, and deploying undeployed ERS-10 and ERS-30. [e4] Each ESR must also suspend charging until the EEA is recalled, with exceptions such as a current instruction to charge or actively providing Primary Frequency Response. [e14] Level 2 adds instructing QSEs to deploy ECRS or RRS supplied by Load Resources. [e2] Level 3 adds directing transmission owners to shed firm load in 100 MW blocks to hold frequency at a minimum of 59.91 Hz and recover 1,500 MW of PRC within 30 minutes. [e7]
 
 Levels do not always happen in order: some steps do not apply when there are transmission security violations, and there may be too little time to implement every level in sequence. [e8] ERCOT keeps the EEA in place until enough offers are received and deployed to remove the conditions and normal SCED operation returns; intermittent SCED solutions do not set new LMPs until ERCOT declares the EEA no longer needed. [e10]
 
 ## ERCOT context
 
-For load shed, ERCOT gives each utility a megawatt reduction amount based on its percentage of historic peak demand, and each utility decides how to meet it. [e13] ERCOT's own overview lists four controlled-outage events since it was established: 500 MW in December 1989, 1,000 MW in April 2006, 4,000 MW in February 2011 and 20,000 MW in February 2021. [e9] The PUCT's scarcity pricing rule defines "emergency operations" as ERCOT entering any level of EEA, which is why EEA status matters for the Emergency Pricing Program. [e11]
+For load shed, ERCOT gives each utility a megawatt reduction amount based on its percentage of historic peak demand, and each utility decides how to meet it. [e13] ERCOT's own overview lists four controlled-outage events: 500 MW in December 1989, 1,000 MW in April 2006, 4,000 MW in February 2011 and 20,000 MW in February 2021. [e9] The PUCT's scarcity pricing rule defines "emergency operations" as ERCOT entering any level of EEA, [e11]
 
 ## Key facts
 
@@ -122,7 +122,7 @@ An EEA is ERCOT's three-step emergency ladder, keyed to how much responsive capa
 
 ## Common confusion
 
-An EEA is not the same as load shed: Levels 1 and 2 use extra supply and demand-side tools, and firm load shed is a Level 3 measure. [e7] The thresholds in ERCOT's public overview are written in short form, and the Protocols include extra detail, such as the "may declare" frequency paths at 15 and 20 minutes. [e5][e6]
+An EEA is not the same as load shed: Levels 1 and 2 use extra supply and demand-side tools, and firm load shed is a Level 3 measure. [e7] The Protocols also include "may declare" frequency paths at 15 minutes (Level 2) and 20 minutes (Level 3), alongside the PRC tests. [e5][e6]
 
 ## Questions
 

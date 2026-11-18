@@ -65,7 +65,7 @@ The three kinds are priced differently. A Resource Node is where the price for a
 
 ## ERCOT context
 
-The point of the concept is that the LMP exists at every bus, but only these three kinds of point are used to settle energy. That is why a generator, a load and a hedge at a hub can all be exposed to different prices at the same moment. [e1][e3]
+Real-time energy settlements use Settlement Point Prices calculated for Resource Nodes, Load Zones and Hubs. [e6] Because each kind of point is priced by its own method, a generator at its Resource Node and a load at its Load Zone can be exposed to different prices at the same moment. [e2][e4]
 
 ## Key facts
 
@@ -76,7 +76,7 @@ The point of the concept is that the LMP exists at every bus, but only these thr
 
 ## Say it like this
 
-A settlement point is any of the three places ERCOT actually prices energy for settlement: a resource node for generators, a load zone for load, and a hub as the standard trading reference. The LMP is the underlying bus price; the settlement point price is what gets paid.
+A settlement point is any of the three places ERCOT actually prices energy for settlement: a resource node for generators, a load zone for load, and a hub. The LMP is the underlying bus price; the settlement point price is what gets paid.
 
 ## Common confusion
 

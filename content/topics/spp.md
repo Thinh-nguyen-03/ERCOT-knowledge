@@ -19,7 +19,7 @@ links:
     note: Resource Node prices are essentially LMPs, with a real-time adder in real time. [e3][e5]
   - to: load-zone
     type: related
-    note: Load Zone prices are load-weighted averages of bus-level prices.
+    note: The real-time Load Zone price is based on state-estimated Load and the time-weighted average LMPs at buses in the zone. [e6]
   - to: trading-hub
     type: related
     note: Hub prices follow the methodology written into each Hub's definition. [e7]
@@ -52,7 +52,7 @@ evidence:
   - id: e5
     source: np-06
     locator: "Section 6.6.1.1, paragraph (1)"
-    quote: "The Real-Time Settlement Point Price for a Resource Node Settlement Point is the time-weighted average of the sum of the Real-Time LMPs and the Real-Time Reliability Deployment Price Adder for Energy."
+    quote: "The Real-Time Settlement Point Price for a Resource Node Settlement Point is the time-weighted average of the sum of the Real-Time LMPs and the Real-Time Reliability Deployment Price Adder for Energy. The Real-Time Settlement Point Price for a 15-minute Settlement Interval is calculated as follows:"
   - id: e6
     source: np-06
     locator: "Section 6.6.1.2, paragraph (1)"
@@ -71,12 +71,20 @@ evidence:
     quote: "ERCOT shall calculate a Settlement Point Price for each Load Zone using the Load-weighted aggregated Shift Factors of the applicable energized power flow buses for each constraint. The Load-weighting must be determined using the Load distribution factors."
   - id: e10
     source: np-06
-    locator: "Section 6.6.1, paragraph (1)(b)"
-    quote: "Use average LMP for Electrical Buses within the same station having the same voltage level as the de-energized Electrical Bus, if any exist."
+    locator: "Section 6.6.1, paragraph (1) and (1)(a)-(b)(i)"
+    quote: >-
+      ERCOT shall assign an LMP to de-energized Electrical Buses for use in the calculation of the Real-Time Settlement Point Prices by using heuristic rules applied in the following order:
+      (a) Use an appropriate LMP predetermined by ERCOT as applicable to a specific Electrical Bus; or if not so specified
+      (b) Use the following rules in order:
+      (i) Use average LMP for Electrical Buses within the same station having the same voltage level as the de-energized Electrical Bus, if any exist.
   - id: e11
     source: imm-som-2025
     locator: "Chapter I.D, Shortage and Reliability Pricing"
     quote: "Since RTC was implemented, shortage pricing has been incorporated into the price of energy rather than functioning as a separate adder."
+  - id: e14
+    source: imm-som-2025
+    locator: "Recommendation 2020-3 summary"
+    quote: "Unlike generators, which settle at the nodal level and receive payments based on their specific locational marginal prices (LMPs), loads are billed at the load zone price. This price reflects a load-weighted average of nodal prices within the zone."
   - id: e12
     source: imm-som-2025
     locator: "Chapter I.C, Zonal Energy Prices"
@@ -91,15 +99,15 @@ A Settlement Point Price (SPP) is the price calculated for a Settlement Point fo
 
 Day-ahead. The DASPP at a Resource Node for an hour is the LMP at that node from the DAM process. [e3] For a Load Zone, ERCOT calculates the day-ahead price from Load-weighted aggregated Shift Factors of the energized power flow buses for each constraint, with the weighting based on Load distribution factors. [e9] For a Hub, the DASPP follows the methodology in that Hub's definition. [e4]
 
-Real time. The Resource Node price for a 15-minute Settlement Interval is the time-weighted average of the sum of the Real-Time LMPs and the Real-Time Reliability Deployment Price Adder for Energy over the SCED intervals in that period. [e5] The Load Zone price is based on state-estimated Load in MW and the time-weighted average Real-Time LMPs at the Electrical Buses in the zone. [e6] The Hub price again follows the Hub's own definition in Section 3.5.2. [e7]
+Real time. The Resource Node price is the time-weighted average of the sum of the Real-Time LMPs and the Real-Time Reliability Deployment Price Adder for Energy, calculated for each 15-minute Settlement Interval. [e5] The Load Zone price is based on state-estimated Load in MW and the time-weighted average Real-Time LMPs at the Electrical Buses in the zone. [e6] The Hub price again follows the Hub's own definition in Section 3.5.2. [e7]
 
-Two protocol rules shape the real-time number after the LMP is known. First, an administrative price floor of -$251/MWh is applied after the Reliability Deployment Price Adders for Energy are added. [e8] Second, de-energized Electrical Buses are assigned an LMP by heuristics; the first fallback is the average LMP of buses in the same station at the same voltage level. [e10]
+Two protocol rules shape the real-time number after the LMP is known. First, an administrative price floor of -$251/MWh is applied after the Reliability Deployment Price Adders for Energy are added. [e8] Second, ERCOT assigns an LMP to de-energized Electrical Buses by heuristic rules applied in order: an LMP predetermined by ERCOT for that bus if there is one, otherwise (first) the average LMP of buses in the same station at the same voltage level. [e10]
 
 ## ERCOT context
 
-The settlement price is a different object from the LMP: generators settle at the Resource Node price, while loads settle at the Load Zone price, a load-weighted average of the bus prices in the zone. [e5][e6] On shortage pricing, the IMM notes that since RTC was implemented, shortage pricing has been incorporated into the price of energy rather than functioning as a separate adder. [e11] The Reliability Deployment Price Adder for Energy is still part of the real-time SPP formula in the current protocol text. [e5]
+The settlement price is a different object from the LMP: the IMM notes generators settle at the nodal level while loads are billed at the load zone price, a load-weighted average of nodal prices in the zone. [e14] On shortage pricing, the IMM notes that since RTC was implemented, shortage pricing has been incorporated into the price of energy rather than functioning as a separate adder. [e11] The Reliability Deployment Price Adder for Energy is still part of the real-time SPP formula in the current protocol text. [e5]
 
-For outcomes, the IMM reports that in 2025 the West zone had the highest average real-time price, followed by the South zone. [e12]
+For outcomes, the IMM reports that in 2025 the West zone had the highest average price, followed by the South zone. [e12]
 
 ## Key facts
 
@@ -107,7 +115,7 @@ For outcomes, the IMM reports that in 2025 the West zone had the highest average
 - The Day-Ahead SPP at a Resource Node equals the DAM LMP there. [e3]
 - The Real-Time SPP is calculated per 15-minute Settlement Interval from SCED-interval LMPs plus the Reliability Deployment Price Adder for Energy. [e5]
 - Real-Time SPPs have an administrative floor of -$251/MWh. [e8]
-- In 2025 the West zone had the highest average real-time price, then South (IMM). [e12]
+- In 2025 the West zone had the highest average zonal price, then South (IMM). [e12]
 
 ## Say it like this
 

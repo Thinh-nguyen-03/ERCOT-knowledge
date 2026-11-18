@@ -10,16 +10,16 @@ as_of: 2026-11-18
 links:
   - to: asdc
     type: contrasts-with
-    note: When RTC went live, the ORDC price adder was replaced by a set of ASDCs that price each reserve product inside the dispatch. [e9]
+    note: When RTC went live, the ORDC price adder was replaced by a set of ASDCs. [e9]
   - to: rtc-b
     type: related
-    note: RTC moved scarcity pricing from an adder computed outside the optimization to demand curves inside it, which ended the ORDC. [e4][e9]
+    note: Before RTC, scarcity was reflected through a process outside the optimization, and at RTC go-live the ORDC price adder was replaced by ASDCs. [e4][e9]
   - to: energy-only-market
     type: part-of
     note: In ERCOT's energy-only design, raising the value implied by the ORDC was the lever used to strengthen shortage revenues. [e7]
   - to: resource-adequacy
     type: affects
-    note: ORDC shortage pricing was meant to give the investment signal in an energy-only market, but by 2025 it added almost nothing to prices. [e8]
+    note: The IMM says the value implied by the ORDC can be raised to strengthen economic signals when the market is not sustaining enough resources, and by 2025 the ORDC raised real-time energy prices by only $0.02 per MWh. [e7][e8]
   - to: offer-cap
     type: related
     note: The PUCT scarcity pricing rule still says the ORDC and RDPA keep applying for the rest of a year in which the cap drops to LCAP. [e12]
@@ -87,6 +87,14 @@ evidence:
     source: np-04
     locator: "Section 4.4.12(6)(a), formula"
     quote: "(0.5*(1 − pnorm(RTOLCAP − 3000, 0.5 * μ, 0.707 * σ)) + 0.5*(1 − pnorm(RTOLCAP + RTOFFCAP − 3000, μ, σ)))*(VOLL − min(System Lambda, 250))"
+  - id: e16
+    source: np-04
+    locator: "Section 4.4.12, paragraph (5)"
+    quote: "(5) To determine the individual ASDCs for Reg-Up, RRS, ECRS, and Non-Spin, an Aggregate Operating Reserve Demand Curve (ORDC) (AORDC) will be created and then disaggregated into individual curves for the different Ancillary Services."
+  - id: e17
+    source: np-04
+    locator: "Section 4.4.12(6)(a), variable definitions table"
+    quote: "RTOLCAP MWh Real-Time On-Line Reserve Capacity – The Real-Time reserve capacity of On-Line Resources available for the SCED intervals beginning June 1, 2014 through August 31, 2025 RTOFFCAP MWh Real-Time Off-Line Reserve Capacity – The Real-Time reserve capacity of Off-Line Resources available for the SCED intervals beginning June 1, 2014 through August 31, 2025 μ None The mean value of the shifted LOLP distribution as published for Summer 2026 σ None The standard deviation of the shifted LOLP distribution as published for Summer 2026"
 ---
 
 ## Definition
@@ -111,7 +119,7 @@ Some PUCT rules still refer to the ORDC. §25.509 says that if the cap drops to 
 
 ## Formula
 
-The current protocols (np-04 §4.4.12) compute "historical reserve pricing outcomes" for the AORDC regression with this expression. RTOLCAP is on-line reserve capacity, RTOFFCAP is off-line reserve capacity, and μ and σ are LOLP distribution parameters. [e14][e15]
+The current protocols (np-04 §4.4.12) compute "historical reserve pricing outcomes" for the AORDC regression with this expression. RTOLCAP is the real-time reserve capacity of on-line Resources, RTOFFCAP is the real-time reserve capacity of off-line Resources, and μ and σ are the mean and standard deviation of the shifted LOLP distribution. [e14][e15][e17]
 
 `(0.5*(1 − pnorm(RTOLCAP − 3000, 0.5*μ, 0.707*σ)) + 0.5*(1 − pnorm(RTOLCAP + RTOFFCAP − 3000, μ, σ))) * (VOLL − min(System Lambda, 250))` [e15]
 
@@ -125,11 +133,11 @@ The current protocols (np-04 §4.4.12) compute "historical reserve pricing outco
 
 ## Say it like this
 
-(Guidance) The ORDC was a price adder ERCOT put on top of energy prices when reserves got thin, valued as the chance of load shed times the value of lost load. Since RTC+B it no longer exists as an adder, but its historical shape lives on in the aggregate curve that the new Ancillary Service Demand Curves must add up to.
+(Guidance) The ORDC was a price adder ERCOT put on top of energy prices when reserves got thin, scaled to the value of lost load. Since RTC+B it no longer exists as an adder, but its historical pricing outcomes live on in the aggregate curve (AORDC) that is split into the new Ancillary Service Demand Curves. [e1][e9][e11][e16]
 
 ## Common confusion
 
-(Guidance) The ORDC and the RDPA were two separate adders. The ORDC priced scarce reserves, and the RDPA corrected for out-of-market reliability actions. RTC removed the ORDC but kept the RDPA in a new form. [e9] Also, "the ORDC is gone" does not mean its values are gone: the AORDC that the ASDCs must match was built from the ORDC's past pricing. [e11]
+(Guidance) The ORDC and the RDPA were two separate adders. The ORDC priced scarce reserves, and the RDPA corrected for out-of-market reliability actions. RTC removed the ORDC but kept the RDPA in a new form. [e9] Also, "the ORDC is gone" does not mean its values are gone: the AORDC is a fixed curve formulated from the ORDC's pricing outcomes before RTC [e11], and it is disaggregated into the ASDCs for Reg-Up, RRS, ECRS and Non-Spin. [e16]
 
 ## Questions
 
@@ -137,13 +145,13 @@ The current protocols (np-04 §4.4.12) compute "historical reserve pricing outco
 
 It priced the reliability value of reserves. As reserves fall, the probability of load shed rises, and the ORDC turned that probability, scaled to VOLL, into a price adder on energy and reserve prices. [e1][e2]
 
-### Why did the ORDC barely affect prices in 2024-2025?
+### How much did the ORDC matter in 2025?
 
-Reserves were plentiful. In 2025 the ORDC was active for only 57 hours and raised average real-time energy prices by about $0.02/MWh. [e8][e10]
+Very little. In 2025 the ORDC was active for only 57 hours and raised average real-time energy prices by about $0.02/MWh. [e8][e10]
 
 ### Is the ORDC still in effect after RTC?
 
-Not as a price adder. It was replaced by ASDCs. [e9] Its historical outcomes still define the Aggregate ORDC that the ASDCs follow, and some PUCT rules still mention the ORDC. [e11][e12][e13]
+Not as a price adder. It was replaced by ASDCs. [e9] Its historical outcomes were used to formulate the Aggregate ORDC that is split into the ASDCs, and some PUCT rules still mention the ORDC. [e11][e16][e12][e13]
 
 ## Open items
 

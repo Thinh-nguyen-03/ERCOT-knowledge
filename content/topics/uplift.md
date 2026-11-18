@@ -16,7 +16,7 @@ links:
     note: Load Ratio Share is the ratio of an Entity's AML to total ERCOT AML for an interval. [e3]
   - to: settlement-statements
     type: related
-    note: Uplift items show up as settlement charges to QSEs.
+    note: Some uplifts, such as the RUC make-whole shortfall, are allocated to all QSEs. [e2]
   - to: securitization
     type: related
     note: The Securitization Uplift Charge pays the Winter Storm Uri securitization balance. [e5]
@@ -25,7 +25,7 @@ links:
     note: Worked scenario for an unexpected uplift charge.
   - to: crr
     type: related
-    note: The IMM lists CRR uplift and real-time congestion shortfalls as parts of RENA-related uplift. [e9]
+    note: The IMM says real-time congestion shortfall costs are paid through the uplift charge known as RENA. [e9]
 evidence:
   - id: e1
     source: imm-som-2024
@@ -63,6 +63,10 @@ evidence:
     source: imm-som-2024
     locator: "Transmission Congestion and CRRs, real-time congestion shortfalls"
     quote: "These realtime congestion shortfall costs are paid for by charges to LSEs as part of the uplift charge known as the Revenue Neutrality Allocation (RENA)."
+  - id: e11
+    source: imm-som-2025
+    locator: "Chapter I, all-in price discussion (p. 2)"
+    quote: "The Operating Reserve Demand Curve (ORDC) Adder, implemented in 2014 and discontinued in December 2025 with the introduction of RTC, reflects increasing reliability risks when reserves begin to run short; and"
   - id: e10
     source: imm-som-2024
     locator: "Executive Summary, all-in price"
@@ -75,9 +79,9 @@ evidence:
 
 ## How it works
 
-In the Protocols uplift shows up as specific mechanisms: the RUC Make-Whole Uplift Charge, default uplift invoices that collect short-paid amounts from QSEs and CRR Account Holders, and the Securitization Uplift Charge for the Winter Storm Uri balance. [e2][e4][e5] Load Ratio Share, the ratio of an Entity's AML to total ERCOT AML, is the usual allocator for RUC. [e3] A Cost Allocation Zone may be used to uplift certain costs to a QSE's Load regardless of NOIE Load Zone. [e6]
+In the Protocols uplift shows up as specific mechanisms: the RUC Make-Whole Uplift Charge, default uplift invoices that collect short-paid amounts from QSEs and CRR Account Holders, and the Securitization Uplift Charge for the Winter Storm Uri balance. [e2][e4][e5] Load Ratio Share, the ratio of an Entity's AML to total ERCOT AML, is the allocator for the RUC make-whole shortfall. [e3][e2] A Cost Allocation Zone may be used to uplift certain costs to a QSE's Load regardless of NOIE Load Zone. [e6]
 
-The IMM groups many settlements under uplift for its all-in price: the reliability and ORDC adder imbalance settlements, Revenue Neutrality Allocation, emergency energy charges, base point deviation payments, ERS, black start, block load transfer, firm fuel, high dispatch limit override, RMR, RUC, voltage services and the ERCOT administrative fee. [e7]
+In its 2024 report the IMM groups many settlements under uplift for its all-in price: the reliability and ORDC adder imbalance settlements, Revenue Neutrality Allocation, emergency energy charges, base point deviation payments, ERS, black start, block load transfer, firm fuel, high dispatch limit override, RMR, RUC, voltage services and the ERCOT administrative fee. [e7] The ORDC adder in that list was discontinued in December 2025 with the introduction of RTC. [e11]
 
 ## ERCOT context
 

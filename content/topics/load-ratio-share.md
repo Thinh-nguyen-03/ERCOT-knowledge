@@ -22,7 +22,7 @@ links:
     note: RUC make-whole shortfalls are uplifted to QSEs on a Load Ratio Share basis. [e5]
   - to: securitization
     type: related
-    note: Securitization Uplift Charges are allocated to QSEs by a Load Ratio Share of non-opted-out load. [e7]
+    note: Securitization Uplift Charges are allocated to QSEs using a daily QSE Non-Opted-Out LSE Load Ratio Share. [e9]
   - to: crr
     type: related
     note: Net CRR auction revenue is credited to QSEs on a Load Ratio Share basis. [e8]
@@ -59,6 +59,10 @@ evidence:
     source: np-07
     locator: "Section 7.5.7, Method for Distributing CRR Auction Revenues, paragraph (2)"
     quote: "ERCOT shall credit the net CRR Auction revenue (including PCRR revenue) produced from CRRs cleared in each CRR Auction that source from a Settlement Point located within a 2003 ERCOT CMZ and sink at a Settlement Point located within the same 2003 ERCOT CMZ to Qualified Scheduling Entities (QSEs) in the 2003 ERCOT CMZ on a zonal Load Ratio Share (LRS) basis. All other net CRR Auction revenues must be allocated to QSEs on an ERCOT-wide LRS basis."
+  - id: e9
+    source: np-27
+    locator: "Section 27.3, Securitization Uplift Charge, variable definitions (DQSELSELRS)"
+    quote: "Daily QSE Non-Opted-Out LSE Load Ratio Share — The ratio of Daily QSE Non-Opted-Out LSE Real-Time Adjusted Metered Load (DQSELSERTAML) to Daily ERCOT QSE Non-Opted-Out LSE Real-Time Adjusted Metered Load (DERCOTQSELSERTAML), for a QSE q, for the Operating Day d."
 ---
 
 ## Definition
@@ -67,13 +71,13 @@ Load Ratio Share is the ratio of an Entity's Adjusted Metered Load (AML) to tota
 
 ## How it works
 
-Each QSE has its own LRS for each 15-minute Settlement Interval, calculated from its metered load in the interval over the ERCOT total. [e3] ERCOT uses LRS as the allocation key for costs and credits that are spread across load. Examples in the Protocols: assigning the Ancillary Service quantity to QSEs, uplifting RUC make-whole shortfalls, allocating UFE to categories, and distributing CRR auction revenue. [e4][e5][e6][e8]
+Each QSE has its own LRS for each 15-minute Settlement Interval. [e3] An Entity's LRS is its AML over total ERCOT AML. [e1] ERCOT uses LRS as the allocation key for costs and credits that are spread across load. Examples in the Protocols: assigning the Ancillary Service quantity to QSEs, uplifting RUC make-whole shortfalls, allocating UFE to categories, and distributing CRR auction revenue. [e4][e5][e6][e8]
 
 ## ERCOT context
 
 Some allocations are ERCOT-wide and some are zonal. CRR auction revenue for paths wholly within one 2003 congestion management zone is credited on a zonal LRS basis, and all other CRR auction revenue goes on an ERCOT-wide LRS basis. [e8]
 
-The Securitization Uplift Charge uses a similar share, but the denominator is the load of QSEs representing obligated LSEs, so opted-out load is left out. [e7]
+The Securitization Uplift Charge is allocated to QSEs representing obligated LSEs. [e7] It uses a daily QSE Non-Opted-Out LSE Load Ratio Share, the ratio of the QSE's non-opted-out LSE load to the ERCOT total of the same, per Operating Day. [e9]
 
 ## Key facts
 

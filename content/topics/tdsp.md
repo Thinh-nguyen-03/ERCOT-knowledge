@@ -13,19 +13,19 @@ links:
     note: A TDU may not sell electricity, while a REP sells at retail but may not own generation. [e6][e7]
   - to: lse
     type: contrasts-with
-    note: TSPs and DSPs register separately from LSEs. [e4]
+    note: TSPs and DSPs register with ERCOT as a TSP or DSP, under a registration section separate from the LSE registration. [e4]
   - to: noe
     type: related
     note: MOUs and ECs are included in the registration requirement for TSPs and DSPs, though the PUCT TDU definition excludes them. [e4][e5]
   - to: esi-id
     type: related
-    note: The TDSP delivers energy to Customers; the ESI ID identifies the delivery point.
+    note: A DSP owns or operates the Distribution System that delivers energy to Customers. [e3]
   - to: ams-meters
     type: related
     note: PURA assigns metering to the TDU in the default case. [e8]
   - to: retail-choice
     type: part-of
-    note: Open-access wires service is what lets customers choose a REP. [e9]
+    note: From January 1, 2002 a TDU must provide transmission or distribution service to REPs and others on comparable terms. [e9]
 evidence:
   - id: e1
     source: np-02
@@ -42,7 +42,7 @@ evidence:
   - id: e4
     source: np-16
     locator: "Section 16.4(1)"
-    quote: "Each Entity operating as a Transmission Service Provider (TSP) or Distribution Service Provider (DSP) within the ERCOT Region, including Municipally Owned Utilities (MOUs) and Electric Cooperatives (ECs), shall register as a TSP or DSP, or both, as applicable, with ERCOT."
+    quote: "Each Entity operating as a Transmission Service Provider (TSP) or Distribution Service Provider (DSP) within the ERCOT Region, including Municipally Owned Utilities (MOUs) and Electric Cooperatives (ECs), shall register as a TSP or DSP, or both, as applicable, with ERCOT. To register as a TSP or DSP, an Entity must comply with the backup plan requirements in the Operating Guides, execute a Standard Form Market Participant Agreement (using the form provided in Section 22, Attachment A, Standard Form Market Participant Agreement), designate TSP or DSP Authorized Representatives, contacts, and a User Security Administrator (USA) (per Section 23, Form J, Transmission and/or Distribution Service Provider Application for Registration), and be capable of performing the functions of a TSP or DSP, as applicable, as described in these Protocols."
   - id: e5
     source: puct-25-5
     locator: "Section 25.5, definition of Transmission and distribution utility (TDU)"
@@ -58,7 +58,7 @@ evidence:
   - id: e8
     source: pura-39
     locator: "PURA Sec. 39.107(a)"
-    quote: "On introduction of customer choice in a service area, metering services for the area shall continue to be provided by the transmission and distribution utility affiliate of the electric utility that was serving the area before the introduction of customer choice."
+    quote: "On introduction of customer choice in a service area, metering services for the area shall continue to be provided by the transmission and distribution utility affiliate of the electric utility that was serving the area before the introduction of customer choice. Metering services provided to commercial and industrial customers that are required by the independent system operator to have an interval data recorder meter may be provided on a competitive basis."
   - id: e9
     source: pura-39
     locator: "PURA Sec. 39.203(a)"
@@ -83,7 +83,7 @@ Under PURA, a transmission and distribution utility must provide transmission or
 
 ## ERCOT context
 
-The "TDU" in PUCT rules is the regulated wires company in a certified power region; the PUCT definition excludes MOUs and ECs, and says a TDU may be one utility or separate transmission and distribution utilities. [e5] The ERCOT term TDSP is wider because ERCOT's registration requirement reaches MOUs and ECs that operate transmission or distribution. [e4]
+The PUCT definition of "TDU" excludes MOUs and ECs, and says a TDU may be one utility or separate transmission and distribution utilities. [e5] The ERCOT term TDSP is wider because ERCOT's registration requirement reaches MOUs and ECs that operate transmission or distribution. [e4]
 
 Since January 1, 2002 a TDU may not sell electricity or otherwise participate in the electricity market except to buy electricity for its own needs. [e6] In customer-choice areas, metering stays with the TDU affiliate of the electric utility that served the area before choice began, with a competitive exception for interval-data-recorder customers that PURA describes. [e8]
 
@@ -92,7 +92,7 @@ Since January 1, 2002 a TDU may not sell electricity or otherwise participate in
 - TDSP = TSP, DSP, or both. [e1]
 - TSPs and DSPs, including MOUs and ECs in the ERCOT Region, must register with ERCOT. [e4]
 - A TDU may not sell electricity after January 1, 2002 (other than buying for its own needs). [e6]
-- TDUs must provide open-access retail transmission and distribution service on comparable terms. [e9]
+- TDUs must provide transmission or distribution service to REPs and others on comparable terms. [e9]
 - DSPs in customer-choice areas must complete Retail Market Testing. [e10]
 
 ## Say it like this
@@ -101,7 +101,7 @@ Since January 1, 2002 a TDU may not sell electricity or otherwise participate in
 
 ## Common confusion
 
-(Guidance) TDU (a PUCT/PURA term) and TDSP (an ERCOT Protocol term) overlap but are not identical: the PUCT TDU definition excludes MOUs and ECs, while ERCOT registration of TSPs and DSPs includes them. [e4][e5] TDSPs are also not retailers and not QSEs.
+(Guidance) TDU (a PUCT/PURA term) and TDSP (an ERCOT Protocol term) overlap but are not identical: the PUCT TDU definition excludes MOUs and ECs, while ERCOT registration of TSPs and DSPs includes them. [e4][e5] A TDU may not sell electricity, so it is not a retailer. [e6]
 
 ## Questions
 

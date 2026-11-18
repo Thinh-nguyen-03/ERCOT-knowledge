@@ -10,25 +10,25 @@ as_of: 2026-11-18
 links:
   - to: tdsp
     type: related
-    note: TSPs set transmission rates on 4CP demand and bill distribution service providers, which pass changes through to customers via the TCRF. [e1][e4]
+    note: A TSP's transmission rate is calculated on 4CP demand and charged to each DSP, and DSPs update their TCRF to pass through wholesale transmission cost changes. [e1][e4]
   - to: puct
     type: regulates
-    note: The 4CP method is in PUCT rule 16 TAC 25.192, and the PUCT proposed replacing it with 12CP in July 2026. [e1][e11]
+    note: The 4CP method is in PUCT rule 16 TAC 25.192, and a proposal for publication would replace it with 12CP (proposed, not adopted). [e1][e11][e12]
   - to: sb6
     type: causes
     note: SB 6 Section 6 ordered the PUCT to evaluate 4CP and amend its rules by December 31, 2026. [e7][e8]
   - to: large-flexible-load
     type: related
-    note: The IMM says flexible loads such as data centers and cryptocurrency mines can game their 4CP allocation. [e13]
+    note: The IMM says operationally flexible loads, such as cryptocurrency mines, can shift a disproportionate share of transmission costs onto other consumers under 4CP. [e17]
   - to: load-ratio-share
     type: contrasts-with
     note: The IMM recommends allocating transmission costs on an annual load ratio share basis instead of 4CP. [e13]
   - to: permian-transmission
     type: related
-    note: The IMM says the Permian Basin Reliability Plan worsens the mismatch between 4CP charges and cost causation. [e16]
+    note: The IMM says the Permian Basin Reliability Plan further exacerbates the misalignment between the 4CP method and today's transmission needs. [e16][e18]
   - to: summer-2026
     type: related
-    note: On the July 22, 2026 record peak, ERCOT estimated about 492 MW of 4CP reduction. [e6]
+    note: ERCOT's summer 2026 review reports an estimated maximum 4CP reduction of about 492 MW on 7/22/2026, the day of the all-time demand record. [e6]
 evidence:
   - id: e1
     source: puct-25-192
@@ -53,7 +53,7 @@ evidence:
   - id: e6
     source: ercot-summer-2026-review
     locator: "Summer 2026 Operational and Market Review (Board, 2026-09-14/15), slide 4"
-    quote: "The maximum reduction from cryptomining loads was about 3,299 MW and the estimated maximum Four Coincident Peak (4CP) reduction was about 492 MW."
+    quote: "Key Takeaway: On 7/22/2026, ERCOT set the all-time demand record at 91,134 MW during HE19. Demand response was observed during the peak hours. The maximum reduction from cryptomining loads was about 3,299 MW and the estimated maximum Four Coincident Peak (4CP) reduction was about 492 MW."
   - id: e7
     source: sb6-89r
     locator: "SB 6 (89th Legislature), SECTION 6(a)(1)"
@@ -94,6 +94,14 @@ evidence:
     source: imm-som-2025
     locator: "Recommendations, 2015-1: Transition Away from the 4CP Method of Allocating Transmission Costs"
     quote: "The Permian Basin Reliability Plan further exacerbates this misalignment."
+  - id: e17
+    source: imm-som-2025
+    locator: "Recommendations, 2015-1: Transition Away from the 4CP Method of Allocating Transmission Costs"
+    quote: "Because 4CP charges are based solely on contribution to peak demand, operationally flexible loads, such as cryptocurrency mines, can shift a disproportionate share of transmission costs onto other consumers."
+  - id: e18
+    source: imm-som-2025
+    locator: "Recommendations, 2015-1: Transition Away from the 4CP Method of Allocating Transmission Costs"
+    quote: "Because the 4CP method is based solely on system-wide summer peaks, it does not reflect the complex, locationspecific drivers of today’s transmission needs."
 ---
 
 ## Definition
@@ -104,11 +112,11 @@ evidence:
 
 Each summer month has one coincident peak interval; the IMM describes these as the highest 15-minute system load intervals in each month from June through September. A load's share of demand in those four intervals sets its transmission charge for the next year. [e3][e1] Distribution providers recover the wholesale charges from their customers through a Transmission Cost Recovery Factor, updated on March 1 and September 1. [e4]
 
-Because one interval a month sets a year of charges, loads that can predict the peak cut demand then ("4CP response"). The IMM puts transmission charges at $8 to $9 per MWh in inflation-adjusted terms since 2021, and ERCOT estimated load fell about 1,500 MW in the August 2025 4CP interval. [e3][e5] On the July 22, 2026 record peak, ERCOT estimated a maximum 4CP reduction of about 492 MW, on top of about 3,299 MW of cryptomining reduction. [e6]
+By reducing demand during these intervals, entities can lower their share of transmission charges ("4CP response"). [e3] The IMM puts transmission charges at $8 to $9 per MWh in inflation-adjusted terms since 2021, and ERCOT estimated load fell about 1,500 MW in the August 2025 4CP interval. [e3][e5] On 7/22/2026, the all-time demand record day, ERCOT estimated a maximum 4CP reduction of about 492 MW, and a separately reported maximum reduction from cryptomining loads of about 3,299 MW. [e6]
 
 ## ERCOT context
 
-4CP is under active revision. SB 6 (June 2025) ordered the PUCT to evaluate whether 4CP still assigns transmission costs appropriately and to amend its rules by December 31, 2026. [e9][e7][e8] A March 2026 Staff draft report recommended a coincident peak method with more CPs and a longer measurement interval. [e10] On July 9, 2026 the PUCT considered a proposal for publication that would replace 4CP with 12CP measured in 30-minute intervals; it is a proposal, not an adopted rule. [e11][e12]
+4CP is under active revision. SB 6 (June 2025) ordered the PUCT to evaluate whether 4CP still assigns transmission costs appropriately and to amend its rules by December 31, 2026. [e9][e7][e8] A March 2026 Staff draft report recommended a coincident peak method with more CPs and a longer measurement interval. [e10] A proposal for publication was set for consideration at the PUCT's July 9, 2026 open meeting that would replace 4CP with 12CP measured in 30-minute intervals; it is a proposal, not an adopted rule. [e11][e12]
 
 The IMM argues 4CP response suppresses prices and weakens scarcity pricing when the peak intervals no longer match system scarcity. [e15] It recommends annual load ratio share allocation, or a hybrid with floating coincident peaks of one hour. [e13]
 
@@ -125,12 +133,12 @@ The IMM argues 4CP response suppresses prices and weakens scarcity pricing when 
 - 2025-06: The 89th Legislature passes SB 6, whose Section 6 orders the 4CP review. [e9][e7]
 - 2026-03-16: PUCT Staff files the Project 58484 draft report recommending more CPs and a longer interval (draft). [e10]
 - 2026-07-09: Proposal for publication in Project 58000 to replace 4CP with 12CP, considered at the PUCT open meeting (proposed). [e11][e12]
-- 2026-07-22: ERCOT's record peak; estimated 4CP reduction about 492 MW. [e6]
+- 2026-07-22: ERCOT's all-time demand record (91,134 MW); estimated maximum 4CP reduction about 492 MW. [e6]
 - 2026-12-31: SB 6 deadline for the PUCT to amend its wholesale transmission rules. [e8]
 
 ## Say it like this
 
-(Guidance) Today, a customer's transmission bill for next year is set by its load in four summer peak intervals, so flexible loads curtail hard at those moments. Texas has ordered the PUCT to fix that by the end of 2026, and the current proposal moves to twelve monthly 30-minute peaks. [e1][e8][e12]
+(Guidance) Today, a customer's transmission bill for next year is set by its load in four summer peak intervals, so flexible loads curtail hard at those moments. SB 6 ordered the PUCT to evaluate 4CP and amend its transmission cost rules by the end of 2026, and the current proposal moves to twelve monthly 30-minute peaks. [e1][e8][e12]
 
 ## Common confusion
 

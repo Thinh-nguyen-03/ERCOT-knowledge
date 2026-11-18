@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: esi-id
     type: related
-    note: Profiles are assigned to and applied for individual ESI IDs. [e3]
+    note: Load Profile IDs are assigned to individual ESI IDs. [e4]
   - to: ams-meters
     type: contrasts-with
     note: Advanced meters supply actual 15-minute intervals; profiles fill in where those are not received. [e2]
@@ -19,10 +19,10 @@ links:
     note: Aggregated profiled load is allocated to QSE and LSE settlement responsibilities. [e6]
   - to: tdsp
     type: related
-    note: The TDSP assigns weather zones and submits load profile ID changes. [e5]
+    note: The TDSP assigns weather zones and submits load profile ID changes. [e5][e4]
   - to: rep
     type: related
-    note: A competitive retailer may dispute a Load Profile ID assignment. [e4]
+    note: A competitive retailer may dispute a Load Profile ID assignment. [e10]
   - to: ufe
     type: related
     note: Load profile design aims to minimize its contribution to unaccounted for energy. [e7]
@@ -63,6 +63,10 @@ evidence:
     source: np-18
     locator: "Section 18.2.3(1)"
     quote: "Load Profiles for Non-Metered Loads, e.g. streetlights, traffic signals, security lighting, billboards, and parking lots are created using engineering estimates based on known criteria, such as hours of operation, with appropriate variation in sunrise/sunset times."
+  - id: e10
+    source: np-18
+    locator: "Section 18.4.2(3)"
+    quote: "Competitive Retailers (CRs) may dispute a Load Profile ID assignment through the process described in Load Profiling Guide Section 14, Load Profile ID Dispute Procedure."
 ---
 
 ## Definition
@@ -98,7 +102,7 @@ Each ESI ID is assigned a Weather Zone by TDSPs based on service address ZIP cod
 
 ### Why does ERCOT need profiles at all?
 
-Settlement is in 15-minute intervals, and many ESI IDs do not report 15-minute data, so profiles estimate it. [e2]
+Settlement is in 15-minute intervals, and where ERCOT does not receive 15-minute consumption data, profiles estimate it. [e2]
 
 ### How is a profile scaled to a customer?
 

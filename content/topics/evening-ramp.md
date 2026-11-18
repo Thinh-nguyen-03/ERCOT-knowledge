@@ -13,7 +13,7 @@ links:
     note: The net load peak is the hour the evening ramp produces; see that topic for the definition and peak-hour data. [e1]
   - to: solar-generation
     type: causes
-    note: The solar down-ramp at sunset is what creates the steep evening increase in net load. [e1]
+    note: The IMM links the sharp evening net load ramp to increasing solar entry and the evening solar ramp down. [e4][e1]
   - to: wind-generation
     type: related
     note: Wind output tends to ramp up in the evening and was key to serving demand on most summer 2023 days. [e1][e6]
@@ -28,7 +28,7 @@ links:
     note: SCED often dispatches quick-start gas plants or high-offer ESRs during the evening ramp-down. [e2]
   - to: negative-prices
     type: related
-    note: Midday solar surplus is the other side of the duck curve and the source of low and negative daytime prices.
+    note: ERCOT says more solar and ESR capacity tends to result in lower energy prices during the day. [e10]
 evidence:
   - id: e1
     source: imm-som-2025
@@ -97,7 +97,7 @@ The market design is a stated part of the issue. The IMM notes the real-time mar
 - Tightest hours shifted from about 4 to 5 p.m. to 7 to 9 p.m. between 2021 and 2025 (IMM). [e1]
 - Evening-ramp price spikes were 30% of all 2025 spikes, versus 22% in 2024. [e2]
 - Summer 2025 price spikes were 40% less frequent than summer 2024 as ESR capacity grew. [e3]
-- Low wind in the evening was a primary factor on the 2023 conservation appeal days. [e6]
+- Low wind output was a primary factor on the 2023 conservation appeal days; wind ramping up in the evenings was key on most other days. [e6]
 - IMM recommendation 2022-1 (multi-interval real-time market) is framed partly as a duck-curve remedy. [e4]
 
 ## Say it like this
@@ -116,11 +116,11 @@ Because solar output falls while demand stays high, so SCED turns to quick-start
 
 ### What dampened the evening spikes in 2025?
 
-The IMM credits the large increase in installed capacity, especially solar and storage, with 40% fewer summer spikes in 2025 than in 2024. [e3]
+The IMM says summer 2025 price spikes were 40% less frequent than in summer 2024 as additional ESR capacity improved ERCOT's capability to manage ramp needs. [e3]
 
 ### Which weather factor still makes the ramp risky?
 
-Low evening wind: ERCOT's 2023 review found low wind output was a primary factor on the conservation appeal days. [e6]
+Low wind output: ERCOT's 2023 review found it was a primary factor on the conservation appeal days. [e6]
 
 ## Open items
 

@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: ercot
     type: related
-    note: ERCOT operates the ERCOT Interconnection and can order the disconnection of ties to other Control Areas to protect its non-FERC status. [e9]
+    note: ERCOT may order the disconnection of Transmission Facilities connecting the ERCOT Region to another Control Area so that entities in the region do not become Federal Power Act public utilities. [e9]
   - to: ferc
     type: contrasts-with
     note: The FERC-NERC report says ERCOT's wholesale market is not regulated by FERC because power exchanges occur wholly within the state. [e8]
@@ -87,7 +87,7 @@ evidence:
 
 ## Definition
 
-The ERCOT System (often called the Texas Interconnection) is the interconnected power system under PUCT jurisdiction that is not synchronously connected to the Eastern Interconnection or the Western (WECC) grid. [e1] Its links to outside systems are DC ties, defined as non-synchronous transmission interconnections between ERCOT and non-ERCOT systems. [e2]
+The ERCOT System (often called the Texas Interconnection) is the interconnected power system under PUCT jurisdiction that is not synchronously connected to the Eastern Interconnection or the Western (WECC) grid. [e1] A DC tie is a non-synchronous transmission interconnection between ERCOT and a non-ERCOT system, and the FERC-NERC report describes four asynchronous ties. [e2][e3]
 
 ## How it works
 
@@ -103,24 +103,24 @@ Isolation also shapes regulation. The FERC-NERC staff report states that ERCOT's
 
 The ERCOT footprint is not all of Texas. It covers about 75 percent of the state's land area, excluding the El Paso area, part of the northern panhandle, and part of east Texas north and east of Houston to the Louisiana border. [e14]
 
-Net DC tie flows are small and change direction from year to year. ERCOT was a net exporter in 2024 for the first time since 2018. [e11] In 2025 it returned to net importer, exporting to Mexico and importing from SPP, with average net inflow of only about 36 MW. [e10] In a crisis the limit binds. During Winter Storm Uri, ERCOT imported what it could, but with 1,220 MW of tie capability it could not import the many thousands of MW that MISO and SPP brought in. [e13]
+Net DC tie flows were small in 2025, and the net direction differed between 2024 and 2025. ERCOT was a net exporter in 2024 for the first time since 2018. [e11] In 2025 it returned to net importer, exporting to Mexico and importing from SPP, with average net inflow of only about 36 MW. [e10] During Winter Storm Uri, ERCOT imported what it could, but with 1,220 MW of tie capability it could not import the many thousands of MW that MISO and SPP brought in. [e13]
 
 ## Key facts
 
 - Four asynchronous DC ties: North and East (to SPP), and Laredo VFT and Railroad (to Mexico). [e3][e4]
 - About 1,220 MW of total tie capability: 820 MW to SPP and 400 MW to Mexico. [e5][e6]
-- DC tie flows are not counted as firm capacity in ERCOT's assessments. [e12]
+- The 2021 FERC-NERC report says ERCOT does not classify DC tie flows as firm capacity. [e12]
 - Net flow: net exporter in 2024 (first time since 2018), and net importer in 2025 with about 36 MW average net inflow. [e11][e10]
 - During Uri, MISO and SPP together imported nearly 13,000 MW, while ERCOT was limited to its 1,220 MW of ties. [e13]
 - ERCOT covers about 75 percent of Texas land area. [e14]
 
 ## Say it like this
 
-(Guidance) ERCOT is its own grid. It is tied to the rest of North America only through about 1,220 MW of DC ties, so in a crisis it has to rely almost entirely on resources inside Texas. [e5] That isolation is also why the ERCOT wholesale market sits outside FERC's market regulation, with the PUCT as the regulator. [e8][e1]
+(Guidance) ERCOT is its own grid. It is tied to the rest of North America only through about 1,220 MW of DC ties, so in a crisis it has to rely almost entirely on resources inside Texas. [e5] Separately, the FERC-NERC report says the ERCOT wholesale market is not regulated by FERC because power exchanges occur wholly within the state; the system is under PUCT jurisdiction. [e8][e1]
 
 ## Common confusion
 
-(Guidance) "Not synchronized" does not mean "not connected": the DC ties do move power, in both directions. [e6] Also, ERCOT does not cover all of Texas. El Paso and parts of the panhandle and east Texas are outside it. [e14] Do not count tie imports as reliable capacity. ERCOT does not treat them as firm. [e12]
+(Guidance) "Not synchronized" does not mean "not connected": the DC ties do move power, in both directions. [e6] Also, ERCOT does not cover all of Texas. El Paso and parts of the panhandle and east Texas are outside it. [e14] Do not count tie imports as reliable capacity. The 2021 FERC-NERC report says ERCOT does not classify them as firm capacity. [e12]
 
 ## Questions
 

@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: esi-id
     type: related
-    note: Meter data is submitted and settled per ESI ID. [e3]
+    note: See the esi-id topic for how premises are identified.
   - to: load-profiling
     type: contrasts-with
     note: Profiles estimate 15-minute load where interval data is not available; advanced meters supply actual intervals. [e6]
@@ -19,10 +19,10 @@ links:
     note: TDSPs send the interval data from advanced meters to ERCOT. [e3]
   - to: rep
     type: related
-    note: A REP can obtain advanced meter data from ERCOT on certified request. [e5]
+    note: A Market Participant can obtain advanced meter data from ERCOT on certified request. [e5]
   - to: tx-set
     type: related
-    note: Advanced meter interval data uses a separate ERCOT file format, outside the TX SET transactions. [e3]
+    note: Advanced meter interval data is submitted to ERCOT in an ERCOT-specified file format via NAESB. [e3]
   - to: settlement-statements
     type: used-in
     note: Settlement Quality Meter Data feeds ERCOT settlement. [e4]

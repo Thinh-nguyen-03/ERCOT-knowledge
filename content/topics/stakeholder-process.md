@@ -10,10 +10,10 @@ as_of: 2026-11-18
 links:
   - to: nprr
     type: used-in
-    note: The stakeholder committees are the path every NPRR travels before it reaches the PUCT. [e6]
+    note: The stakeholder committees (PRS, TAC, then the Board) are the path an NPRR travels before PUCT approval. [e3][e4][e5][e6]
   - to: nodal-protocols
     type: determines
-    note: The process decides how the Protocols are revised. [e6]
+    note: Revisions to the Protocols are reviewed by PRS, TAC and the Board and need PUCT approval. [e3][e4][e5][e6]
   - to: ercot
     type: related
     note: The ERCOT Board, selected through a statutory committee, sits at the top of the stakeholder path. [e8]
@@ -41,7 +41,7 @@ evidence:
   - id: e3
     source: np-21
     locator: "Section 21.3(2), Protocol Revision Subcommittee"
-    quote: "However, the PRS shall retain ultimate responsibility for the processing of all Revision Requests."
+    quote: "Where additional expertise is needed, the PRS may refer a Revision Request to working groups or task forces that it creates or to existing Technical Advisory Committee (TAC) subcommittees, working groups or task forces for review and comment on the Revision Request. Suggested modifications—or alternative modifications if a consensus recommendation is not achieved by a non-voting working group or task force—to the Revision Request should be submitted by the chair or the chair’s designee on behalf of the subcommittee, working group or task force as comments on the Revision Request for consideration by PRS. However, the PRS shall retain ultimate responsibility for the processing of all Revision Requests."
   - id: e4
     source: np-21
     locator: "Section 21.4.8(2), Technical Advisory Committee Vote"
@@ -81,6 +81,10 @@ evidence:
     source: np-02
     locator: "Acronyms list"
     quote: "ROS Reliability and Operations Subcommittee"
+  - id: e12
+    source: np-21
+    locator: "Section 21.3(1), Protocol Revision Subcommittee"
+    quote: "The Protocol Revision Subcommittee (PRS) shall review and recommend action on formally submitted Nodal Protocol Revision Requests (NPRRs) and System Change Requests (SCRs) (“Revision Requests”) provided that:"
 ---
 
 ## Definition
@@ -89,7 +93,7 @@ The stakeholder process is the committee path that ERCOT Protocol changes follow
 
 ## How it works
 
-PRS reviews and recommends action on each revision request. Its meetings are open to ERCOT, ERCOT Members, Market Participants, the Reliability Monitor, the NERC Regional Entity, the IMM and PUCT Staff. [e1] Each Market Segment may participate and each has equal voting power. [e2] PRS can send a request to working groups or TAC subcommittees for expertise, but PRS keeps ultimate responsibility for processing it. [e3]
+PRS reviews and recommends action on formally submitted revision requests. [e12] Its meetings are open to ERCOT, ERCOT Members, Market Participants, the Reliability Monitor, the NERC Regional Entity, the IMM and PUCT Staff. [e1] Each Market Segment may participate and each has equal voting power. [e2] PRS can send a request to working groups or TAC subcommittees for expertise, but PRS keeps ultimate responsibility for processing it. [e3]
 
 TAC takes up requests that PRS has sent forward. It can recommend approval as recommended or as modified, reject, table, remand to PRS with instructions, or refer to another TAC subcommittee or working group. [e4] The ERCOT Board then reviews the TAC Report and the Impact Analysis at its next regularly scheduled meeting. [e5] Every revision request then needs PUCT approval before implementation. [e6]
 
@@ -121,7 +125,7 @@ The top of the path is shaped by statute. ERCOT board members are chosen by a se
 
 ### What does PRS do?
 
-It reviews and recommends action on formally submitted revision requests, and it keeps ultimate responsibility for processing them even when it refers them out for expertise. [e3]
+It reviews and recommends action on formally submitted revision requests, and it keeps ultimate responsibility for processing them even when it refers them out for expertise. [e12][e3]
 
 ### What can TAC do with a request from PRS?
 

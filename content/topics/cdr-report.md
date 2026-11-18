@@ -13,7 +13,7 @@ links:
     note: The CDR is ERCOT's multi-year forward look at whether resources cover firm demand. [e3][e4]
   - to: mora-report
     type: contrasts-with
-    note: The MORA looks one month ahead with probabilistic risk, while the CDR looks years ahead with a deterministic view. [e6]
+    note: The MORA evaluates resource adequacy for one upcoming month and models emergency risk, while the CDR looks years ahead with a deterministic view. [e11][e2][e6]
   - to: nodal-protocols
     type: related
     note: Protocol Section 3.2.6 requires the CDR twice a year. [e1]
@@ -22,10 +22,10 @@ links:
     note: PUCT rule 25.505 requires an annual resource adequacy report covering at least five years. [e3]
   - to: sb6
     type: related
-    note: The December 2025 CDR adds scenarios for SB 6 large load curtailment. [e8]
+    note: The December 2025 CDR includes reserve margin scenarios with preliminary Large Load curtailment assumptions starting for summer 2027. [e12]
   - to: long-term-load-forecast
     type: related
-    note: The CDR uses the ERCOT Adjusted Load Forecast. [e6]
+    note: The CDR base scenario uses the ERCOT Adjusted Load Forecast. [e10]
 evidence:
   - id: e1
     source: np-03
@@ -63,12 +63,19 @@ evidence:
   - id: e10
     source: ercot-cdr-2025-12
     locator: "Findings & Discussion, Overview"
-    quote: >-
-      that summer and winter Planning Reserve Margins for 2026 through 2030 decrease significantly from year to year, and cross over to negative values in 2028 in line with the trends reported in the May 2025 CDR.
+    quote: "The base scenario in this CDR—using \"Protocol Prescribed\" capacity resources and the ERCOT Adjusted Load Forecast—indicates that summer and winter Planning Reserve Margins for 2026 through 2030 decrease significantly from year to year, and cross over to negative values in 2028 in line with the trends reported in the May 2025 CDR."
   - id: e9
     source: ercot-cdr-2025-12
     locator: "Planning Reserve Margins for the Peak Load and Peak Net Load Hours"
     quote: "The lower and sharply downward trajectory of the Margins is due to (1) high load growth largely driven by new Loads reported by Transmission Service Providers, (2) a lower capacity contribution from wind and solar resources due to the use of Effective Load Carrying Capabilities, (3) fewer planned resources that result from applying additional eligibility criteria to be included in Planning Reserve Margins."
+  - id: e11
+    source: ercot-mora-2027-01
+    locator: "Introduction"
+    quote: "The MORA report adopts two approaches to evaluate resource adequacy for the upcoming assessment month: ● Determine the risk that ERCOT may face emergency conditions for the monthly peak load day — specifically, the chances, during a range of hours, that it may need to issue an Energy Emergency Alert (EEA) or begin to order controlled outages to maintain grid reliability."
+  - id: e12
+    source: ercot-cdr-2025-12
+    locator: "Findings & Discussion, Overview"
+    quote: "this CDR nevertheless includes reserve margin scenarios reflecting assumptions for Large Load curtailment given future grid emergency conditions. These curtailment assumptions, starting for summer 2027, are necessarily preliminary and high-level"
 ---
 
 ## Definition
@@ -79,7 +86,7 @@ The CDR is ERCOT's Report on Capacity, Demand and Reserves in the ERCOT Region. 
 
 The Protocols require ERCOT to publish the CDR twice a year, with a preliminary version targeted for the third week of May and a final version for the third week of December. [e1] Forecasts must cover at least the next five years beyond the publication year. [e2] PUCT rule 25.505 separately requires an annual resource adequacy report by December 31 that projects at least five years of capability against projected demand. [e3]
 
-The CDR gives a deterministic view, meaning a single set of rule-based assumptions, alongside several alternative load and planned-resource scenarios that capture a range of reserve margin outcomes. [e6] It is a planning tool: ERCOT notes it is not intended to characterize the risk of capacity scarcity from a real-time operations perspective. [e5]
+The CDR gives a deterministic view of future resource adequacy alongside several alternative load and planned-resource scenarios designed to capture a range of potential reserve margin outcomes. [e6] It is a planning tool: ERCOT notes it is not intended to characterize the risk of capacity scarcity from a real-time operations perspective. [e5]
 
 ## ERCOT context
 
@@ -101,7 +108,7 @@ The report calls SB 6 the most impactful resource adequacy development since the
 
 ## Common confusion
 
-(Guidance) The CDR is not the MORA. The CDR looks at seasons across five years under Protocol-prescribed rules, and the MORA looks at one upcoming month using probabilistic modelling. [e6] The CDR margin is also not an operating reserve measure; it is a planning margin against firm peak demand. [e4][e5]
+(Guidance) The CDR is not the MORA. The CDR gives forecast margins by season and year for at least five years, and the MORA evaluates resource adequacy for one upcoming month and the risk of emergency conditions. [e2][e4][e11] The CDR margin is also not an operating reserve measure; it is a planning margin against firm electricity demand. [e4][e5]
 
 ## Questions
 

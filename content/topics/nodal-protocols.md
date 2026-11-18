@@ -13,7 +13,7 @@ links:
     note: An NPRR is the request used to change the Protocols. [e9]
   - to: stakeholder-process
     type: related
-    note: PRS reviews revision requests, then TAC votes, then the ERCOT Board acts. [e11][e12]
+    note: PRS reviews revision requests, and a TAC Report and Impact Analysis then go to the ERCOT Board. [e11][e12]
   - to: puct
     type: regulates
     note: Protocol revisions require PUCT approval before implementation. [e10][e7]
@@ -28,10 +28,10 @@ links:
     note: The Protocols contain the scheduling, operating, planning, reliability and Settlement rules of the market. [e1]
   - to: dam
     type: related
-    note: Section 4 of the Protocols governs day-ahead operations, and Section 6 covers the Adjustment Period and real time.
+    note: See the dam topic for the day-ahead market rules within the Protocols.
   - to: settlement-statements
     type: related
-    note: Section 9 of the Protocols governs settlement and billing.
+    note: The Protocols contain the Settlement rules; see the settlement-statements topic. [e1]
 evidence:
   - id: e1
     source: np-01
@@ -48,7 +48,7 @@ evidence:
   - id: e4
     source: np-01
     locator: "Section 1.1, paragraph (2)"
-    quote: "A policy, guideline, procedure, form, or application described above is an “Other Binding Document.”"
+    quote: "The ERCOT Board, Technical Advisory Committee (TAC), and other ERCOT subcommittees authorized by the ERCOT Board or TAC or ERCOT may develop polices, guidelines, procedures, forms, and applications for the implementation of and operation under, these Protocols and to comply with applicable rules, laws, and orders of a Governmental Authority. A policy, guideline, procedure, form, or application described above is an “Other Binding Document.”"
   - id: e5
     source: np-01
     locator: "Section 1.1, paragraph (6)"
@@ -99,7 +99,7 @@ The ERCOT Protocols are the document adopted by ERCOT, created with representati
 
 The Protocols implement ERCOT's functions as the PUCT-certified Independent Organization for the ERCOT Region and as Program Administrator of the REC Program. [e3] The version in effect when an action is performed or not performed governs that action. [e2]
 
-Below the Protocols sit "Other Binding Documents": policies, guidelines, procedures, forms and applications developed by the ERCOT Board, TAC and other subcommittees or ERCOT. [e4] Together with the Protocols they make up the scheduling, operating, planning, reliability and Settlement rules that bind Market Participants under PURA section 39.151. [e6] If an Agreement conflicts with the Protocols, the Agreement prevails to the extent of the conflict. [e5]
+"Other Binding Documents" are the policies, guidelines, procedures, forms and applications that the ERCOT Board, TAC, other authorized ERCOT subcommittees or ERCOT may develop for implementing and operating under the Protocols. [e4] Together with the Protocols they make up the scheduling, operating, planning, reliability and Settlement rules that bind Market Participants under PURA section 39.151. [e6] If an Agreement conflicts with the Protocols, the Agreement prevails to the extent of the conflict. [e5]
 
 Changes go through a Nodal Protocol Revision Request. [e9] PRS reviews and recommends action on revision requests, and after a TAC report and impact analysis the ERCOT Board reviews them at its next regularly scheduled meeting. [e11][e12] All revision requests require PUCT approval before implementation. [e10] An Urgent track exists where an existing Protocol or condition is impairing or could imminently impair reliability or market operations, or creates a discrepancy between a settlement formula and the Protocols. [e13]
 
@@ -107,14 +107,14 @@ Changes go through a Nodal Protocol Revision Request. [e9] PRS reviews and recom
 
 The statute behind this is PURA section 39.151: protocols adopted by an independent organization are subject to commission oversight and may not take effect before commission approval, and revised protocols may not take effect until the commission approves a market impact statement. [e7][e8]
 
-The text in force changes by section and date, and the published sections carry boxes for NPRRs that are approved but not yet implemented. For example, Section 4.5.1 of the DAM text contains a box beginning "NPRR1188: Replace paragraph (a) above with the following upon system implementation". [e14] Anything in such a box is pending, not current.
+The published Protocol text carries boxes for revisions to apply "upon system implementation". For example, Section 4.5.1 of the DAM text contains a box beginning "NPRR1188: Replace paragraph (a) above with the following upon system implementation". [e14] Anything in such a box is pending, not current.
 
 ## Key facts
 
 - The Protocols cover scheduling, operating, planning, reliability and Settlement (including Customer registration) rules. [e1]
 - Market Participants, the IMM and ERCOT shall abide by the Protocols. [e3]
 - The version in effect at the time of an action governs it. [e2]
-- Other Binding Documents are policies, guidelines, procedures, forms or applications developed under the Protocols. [e4]
+- Other Binding Documents are policies, guidelines, procedures, forms or applications that the ERCOT Board, TAC, other authorized subcommittees or ERCOT may develop for the Protocols. [e4]
 - All revision requests need PUCT approval before implementation. [e10]
 - Statute: protocols may not take effect before commission approval. [e7]
 
@@ -134,7 +134,7 @@ Market Participants, the IMM and ERCOT. [e3]
 
 ### How does a Protocol change get made?
 
-Someone submits an NPRR; PRS reviews it and recommends action, TAC considers it, the ERCOT Board reviews the TAC report, and the PUCT must approve before implementation. [e9][e11][e12][e10]
+Someone submits an NPRR; PRS reviews it and recommends action, a TAC Report and Impact Analysis go to the ERCOT Board, which reviews them at its next regularly scheduled meeting, and the PUCT must approve before implementation. [e9][e11][e12][e10]
 
 ### Why does the PUCT approve ERCOT's Protocols?
 

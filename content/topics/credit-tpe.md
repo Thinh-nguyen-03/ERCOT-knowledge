@@ -16,16 +16,16 @@ links:
     note: CRR Account Holders are Counter-Parties and CRR auction credit is locked against their exposure. [e1][e5]
   - to: dam
     type: related
-    note: ERCOT can suspend a QSE's ability to bid in the DAM if credit requirements are not met. [e7]
+    note: ERCOT's suspension rights for unmet credit requirements are stated to include a QSE's ability to bid in the DAM. [e11]
   - to: securitization
     type: related
     note: ERCOT may draw on Financial Security to cover short-paid securitization invoices when escrow deposits are insufficient. [e9]
   - to: settlement-statements
     type: related
-    note: Credit exposure is the amount of potential obligations from settled activity that collateral has to cover. [e2][e3]
+    note: A Counter-Party must keep Financial Security at or above its Total Potential Exposure. [e2]
   - to: retailer-defaults-2021
     type: related
-    note: The credit framework exists to manage the risk of Counter-Party default.
+    note: Counter-Party creditworthiness standards apply to every QSE and CRR Account Holder. [e2]
 evidence:
   - id: e1
     source: np-02
@@ -67,6 +67,10 @@ evidence:
     source: np-16
     locator: "Section 16.11.4.1, paragraph (3)"
     quote: "If ERCOT, in its sole discretion, determines that the TPEA or the TPES for a Counter-Party calculated under paragraphs (1) or (2) above does not adequately match the financial risk created by that Counter-Party’s activities under these Protocols, then ERCOT may set a different TPEA or TPES for that Counter-Party."
+  - id: e11
+    source: np-16
+    locator: "Section 16.11.1, paragraph (1)"
+    quote: "ERCOT’s failure to suspend the Counter-Party’s rights on any particular occasion does not prevent ERCOT from suspending those rights on any subsequent occasion, including a CRR Account Holder’s ability to bid on future CRRs or a Qualified Scheduling Entity’s (QSE’s) ability to bid in the Day-Ahead Market (DAM)."
 ---
 
 ## Definition
@@ -81,7 +85,7 @@ When either TPEA or TPES reaches 90% of its requirement, ERCOT uses reasonable e
 
 ## ERCOT context
 
-Credit is tied directly to market access. Suspension of rights can include a CRR Account Holder's ability to bid on future CRRs or a QSE's ability to bid in the DAM. [e7] The same Financial Security also backs other obligations: ERCOT may draw on it to pay short-paid Securitization Default Charge or Uplift Charge invoices if the escrow deposits are not enough. [e9]
+Credit is tied directly to market access. Suspension of rights can include a CRR Account Holder's ability to bid on future CRRs or a QSE's ability to bid in the DAM. [e11] The same Financial Security also backs other obligations: ERCOT may draw on it to pay short-paid Securitization Default Charge or Uplift Charge invoices if the escrow deposits are not enough. [e9]
 
 ## Key facts
 
@@ -89,7 +93,7 @@ Credit is tied directly to market access. Suspension of rights can include a CRR
 - TPE = TPEA + TPES. [e3]
 - ERCOT recalculates TPEA and TPES daily. [e4]
 - A warning goes out at 90% of the requirement. [e6]
-- ERCOT may suspend rights, including DAM bidding and CRR bidding, for a Counter-Party that falls short. [e7]
+- ERCOT may suspend a Counter-Party's rights if it falls short, and the Protocols name DAM bidding and CRR bidding as examples of what suspension can include. [e7][e11]
 
 ## Say it like this
 
@@ -107,7 +111,7 @@ The sum of TPEA and TPES, each a positive net exposure of the Counter-Party. A C
 
 ### What can ERCOT do if a Counter-Party falls short?
 
-It may suspend the Counter-Party's rights under the Protocols, including DAM and CRR bidding. [e7]
+It may suspend the Counter-Party's rights under the Protocols, which can include a QSE's DAM bidding and a CRR Account Holder's CRR bidding. [e7][e11]
 
 ### How often is exposure recalculated?
 

@@ -22,7 +22,7 @@ links:
     note: The hub price is the Settlement Point Price at the Hub. [e3]
   - to: block-products
     type: used-in
-    note: Block products are traded against hub prices.
+    note: Block products are a related topic for hub-referenced trading.
   - to: lmp
     type: related
     note: The Hub price averages Hub Bus prices. [e3]
@@ -63,7 +63,7 @@ The North 345 kV Hub (North 345) is one of the Hubs defined in Protocol Section 
 
 ## How it works
 
-The North 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Day-Ahead Market, and in real time is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval. [e3] It is therefore an equal-weight average across its buses, not weighted by load or generation. [e3] The list of Hub Buses and the price method can never be modified once defined. [e7]
+The North 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Day-Ahead Market, and in real time is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval. [e3] In real time it is therefore a simple (unweighted) average across its Hub Buses. [e3] The list of Hub Buses and the price method can never be modified once defined. [e7]
 
 ## ERCOT context
 
@@ -78,11 +78,11 @@ North 345 is one of four hubs whose prices are averaged into the ERCOT Hub Avera
 
 ## Say it like this
 
-HB_NORTH is the equal-weighted average price of a fixed list of 345 kV buses in the north. It is the common reference for north-region hedges, but a north load zone customer still settles at the load-weighted zone price.
+HB_NORTH is the price of a fixed list of 345 kV buses in the north, a simple average of Hub Bus prices in real time. It is a different Settlement Point from the North Load Zone, so a load there does not settle at the hub price.
 
 ## Common confusion
 
-- North Hub versus North Load Zone: the Hub averages a fixed bus list, whereas a Load Zone price is weighted by Load. [e3][e2]
+- North Hub versus North Load Zone: the Hub is a Settlement Point defined by a fixed Hub Bus list and its own price method, and a Load Zone is a separate kind of Settlement Point (see the load-zone topic). [e2][e3]
 - North Hub versus the ERCOT 345 average: the ERCOT average is a separate Hub that averages four hub prices, including North. [e5]
 
 ## Questions

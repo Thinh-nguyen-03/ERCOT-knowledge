@@ -19,7 +19,7 @@ links:
     note: The Base Point must observe the Resource's HDL and LDL. [e2]
   - to: lmp
     type: related
-    note: Base Points are expected to be consistent with the Real-Time LMPs. [e4]
+    note: The Protocols send Settlement Intervals where Base Points are inconsistent with the Real-Time LMPs to Emergency Operations Settlement. [e4]
   - to: qse
     type: related
     note: Base Points are sent to the QSE representing each Resource. [e2]
@@ -42,7 +42,7 @@ evidence:
   - id: e4
     source: np-06
     locator: "Section 6.3, paragraph (4)(c)"
-    quote: "For Settlement purposes, if the Base Points are inconsistent with the Real-Time LMPs"
+    quote: "(c) For Settlement purposes, if the Base Points are inconsistent with the Real-Time LMPs, ignoring the Real-Time Reliability Deployment Price Adder for Energy, or Ancillary Service awards are inconsistent with the Real-Time MCPCs, ignoring the Real-Time Reliability Deployment Price Adder for Ancillary Service, averaged over the 15-minute Settlement Interval, then ERCOT shall consider the relevant Settlement Interval(s) in accordance with Section 6.6.9, Emergency Operations Settlement."
   - id: e5
     source: np-06
     locator: "Section 6.5.7.1, paragraph (1)"
@@ -63,7 +63,7 @@ ERCOT issues a Base Point for each On-Line Generation Resource, ESR and CLR on c
 
 ## ERCOT context
 
-Base Points are how ERCOT deploys energy: the Protocols describe central dispatch as including deploying energy by establishing Base Points and Emergency Base Points. [e5] The Protocols also treat consistency between Base Points and Real-Time LMPs as something to check in price corrections. [e4]
+Base Points are how ERCOT deploys energy: the Protocols describe central dispatch as including deploying energy by establishing Base Points and Emergency Base Points. [e5] For Settlement, if Base Points are inconsistent with the Real-Time LMPs (ignoring the Real-Time Reliability Deployment Price Adder for Energy) averaged over the 15-minute Settlement Interval, ERCOT considers that Settlement Interval under Section 6.6.9, Emergency Operations Settlement. [e4]
 
 ## Key facts
 
@@ -74,7 +74,7 @@ Base Points are how ERCOT deploys energy: the Protocols describe central dispatc
 
 ## Say it like this
 
-The base point is the MW target SCED gives each online resource every few minutes, derived from offers, limits and network constraints. A unit that follows its base point is being paid the LMP for the output SCED asked for.
+The base point is the MW target SCED gives each online resource every few minutes, derived from offers, limits and network constraints.
 
 ## Common confusion
 

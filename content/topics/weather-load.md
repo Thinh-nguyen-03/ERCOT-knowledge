@@ -13,10 +13,10 @@ links:
     note: ERCOT's Seven-Day Load Forecast is built on weather forecast parameters for each Weather Zone. [e7]
   - to: net-load
     type: related
-    note: Weather drives gross load, and net load is that load minus wind and solar output.
+    note: Net load is the Load for a period minus solar and wind generation for the same period. [e13]
   - to: evening-ramp
     type: related
-    note: Hot days set the high gross load that solar then falls away from in the evening.
+    note: Evening ramp is the related net-load topic; see its own file.
   - to: thermal-outages
     type: related
     note: The IMM notes that rising ambient temperatures generally reduce thermal units' capability. [e8]
@@ -28,7 +28,7 @@ links:
     note: The long-term forecast uses weather scenarios from historical years as inputs. [e9]
   - to: wind-generation
     type: related
-    note: Weather also drives wind output, so hot and calm days combine high load with low supply.
+    note: Wind output is the supply-side companion topic; see its own file.
 evidence:
   - id: e1
     source: imm-som-2023
@@ -70,6 +70,18 @@ evidence:
     source: ferc-nerc-uri
     locator: "Executive Summary, Figure 3 discussion"
     quote: "Of those outages, derates, and failures to start, 75 percent were caused by either freezing issues (44.2 percent) or fuel issues (31.4 percent), as shown in Figure 3, below."
+  - id: e13
+    source: np-02
+    locator: "Section 2.1, definition of Net Load"
+    quote: "The Load for a given period minus generation from PhotoVoltaic Generation Resources (PVGRs) and Wind Generation Resources (WGRs) for the same period."
+  - id: e14
+    source: imm-som-2025
+    locator: "Review of Real-Time Market Outcomes, 3. Prices by Time of Day"
+    quote: "The price trends from 2021 to 2025 show that the period when system conditions are tightest has shifted from the firm peak load hour, usually around 4 to 5 p.m., to the later evening hours (7 to 9 p.m.)."
+  - id: e15
+    source: ercot-ltlf-2025
+    locator: "Load forecast methodology overview, paragraph 1"
+    quote: "This forecast is based on a set of econometric models describing the hourly load in the region as a function of the number of premises in various customer classes (e.g., residential, business, and industrial), weather variables (e.g., various temperature values), and calendar variables (e.g., day of week and holidays) to create the base load forecast."
   - id: e11
     source: ercot-summer-2023-review
     locator: "Key Takeaways slide"
@@ -86,13 +98,13 @@ In the IMM's State of the Market reports, weather's effect on electricity use is
 
 ## How it works
 
-Temperature is the main weather input to load. In ERCOT's own forecasting, hourly demand models use temperature values (including lagged values) and the forecast is built on weather data from each historical year applied one at a time. [e9] The operational Seven-Day Load Forecast is driven by current weather forecast parameters for each Weather Zone. [e7]
+In ERCOT's long-term forecasting, hourly load models use weather variables such as temperature values alongside premises and calendar variables. [e15] The forecast is built by applying weather data from each historical year (2008 through 2024) one at a time. [e9] The operational Seven-Day Load Forecast is driven by current weather forecast parameters for each Weather Zone. [e7]
 
 Weather moves peak demand year to year while the underlying trend keeps growing. In 2024 average demand rose about 3.5% but peak demand fell 0.3% because of less extreme summer heat. [e3] In 2025 average load rose 6.1% while peak load fell 1.8%. [e4]
 
 ## ERCOT context
 
-Hot summers produce record peaks. Cooling degree days rose 8.5% in summer 2023 and the all-time peak reached 85.7 GW on August 10, 2023, which ERCOT's review attributes to economic growth and hotter temperatures. [e2][e11] ERCOT's summer 2026 review ranked June-July 2026 as the 11th hottest of 132 years and reported a new record of 91,134 MW on July 22, 2026. [e5][e6]
+In 2023 and 2026, hotter summers coincided with record peaks. Cooling degree days rose 8.5% in summer 2023, with numerous record load levels culminating on August 10 at a peak of 85.7 GW, which ERCOT's review attributes to economic growth and hotter temperatures. [e2][e11] ERCOT's summer 2026 review ranked June-July 2026 as the 11th hottest of 132 years and reported a new record of 91,134 MW on July 22, 2026. [e5][e6]
 
 Weather also acts on supply. The IMM notes that rising ambient temperatures generally cause thermal units' capability to fall. [e8] On the cold side, freezing issues caused 44.2% of the outages, derates and failures to start in the February 2021 event, according to the FERC/NERC report. [e10]
 
@@ -110,13 +122,13 @@ Weather also acts on supply. The IMM notes that rising ambient temperatures gene
 
 ## Common confusion
 
-(Guidance) Peak load and average load can move in opposite directions in a year, as they did in 2024 and 2025. [e3][e4] Also, hot weather raises gross load, but the tightest hour has moved to the evening net peak, so a high-temperature day is not the same as a high-risk hour. See net-load.
+(Guidance) Peak load and average load can move in opposite directions in a year, as they did in 2024 and 2025. [e3][e4] Also, hot weather raises gross load, but the the IMM says the tightest hours have moved to the later evening (7 to 9 p.m.), so a high-temperature day is not the same as a high-risk hour. [e14] See net-load.
 
 ## Questions
 
 ### What are cooling degree days and why do analysts care?
 
-They measure how far average daily temperature is above 65 °F and track air-conditioning demand, so they explain much of the year-to-year swing in summer load. [e1][e2]
+They measure how far average daily temperature is above or below 65 °F, and the IMM says residential and commercial demand rises quickly as cooling degree days grow because of air conditioning. [e1] In summer 2023 cooling degree days rose 8.5% alongside numerous record loads. [e2]
 
 ### Why did peak load fall in 2024 and 2025 even though average load rose?
 

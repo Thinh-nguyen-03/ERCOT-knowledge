@@ -13,19 +13,19 @@ links:
     note: The IMM says FFSS was implemented in 2022 in response to fuel supply disruptions during Winter Storm Uri. [e8]
   - to: ers
     type: related
-    note: ERS is the other winter out-of-market reliability service; a pipeline operator in ERS or demand response programs cannot be an FFSS qualifying pipeline. [e1]
+    note: The IMM lists FFSS and ERS together among out-of-market products. [e16][e17]
   - to: ordc
     type: affects
-    note: The IMM says FFSS deployment removes capacity from online reserves used for the ORDC adder, raising scarcity prices. [e10]
+    note: The IMM's 2024 report said FFSS deployment removed capacity from the online reserves used for the ORDC adder, which was discontinued with RTC. [e10][e15]
   - to: uplift
     type: related
     note: FFSS payments are an uplift item, and the IMM reports FFSS uplift for 2025. [e9]
   - to: rmr
     type: related
-    note: RMR is a second out-of-market contract product procured under protocol Section 3.14.
+    note: RMR is another reliability contract product; see the RMR topic.
   - to: weatherization
     type: related
-    note: SB 3 weatherization law also requires winter qualifications for reliability services to include fuel storage, dual fuel or fuel supply arrangements. [e11]
+    note: SB 3 requires winter resource capability qualifications for a service described by PURA 39.159(b) to include fuel storage, dual fuel or fuel supply arrangements. [e11]
   - to: natural-gas-price
     type: related
     note: FFSS exists to maintain availability in a natural gas curtailment or other fuel supply disruption. [e1]
@@ -74,6 +74,18 @@ evidence:
     source: sb3-87r
     locator: "PURA Sec. 39.159(c)(2) as added by SB 3"
     quote: "winter resource capability qualifications for a service described by Subsection (b) include on-site fuel storage, dual fuel capability, or fuel supply arrangements to ensure winter performance for several days; and"
+  - id: e15
+    source: imm-som-2025
+    locator: "Chapter I, all-in price discussion (p. 2)"
+    quote: "The Operating Reserve Demand Curve (ORDC) Adder, implemented in 2014 and discontinued in December 2025 with the introduction of RTC, reflects increasing reliability risks when reserves begin to run short; and"
+  - id: e16
+    source: imm-som-2025
+    locator: "Executive summary, out-of-market programs, list"
+    quote: "Firm Fuel Supply Service (FFSS). The FFSS program provides an out-of-market payment for qualifying assets to provide electricity and reserves during anticipated tight winter conditions."
+  - id: e17
+    source: imm-som-2025
+    locator: "Executive summary, out-of-market programs, list"
+    quote: "Emergency Response Service (ERS). Provides out of market revenue to increase supply or reduce demand curing winter conditions"
   - id: e12
     source: imm-som-2025
     locator: "Resource Adequacy / Market Operations chapter, section G, Firm Fuel Supply Service, item 1"
@@ -94,31 +106,31 @@ Firm Fuel Supply Service (FFSS) is a service provided by certain Generation Reso
 
 ## How it works
 
-ERCOT procures FFSS ahead of each obligation period, with a maximum of $54 million in procurement costs for a single obligation period, and at least 70% of that budget goes to the on-site and resource-controlled categories unless offers fall short. [e3][e4] Awarded resources must be able to run at the awarded capacity for 48 hours per deployment. [e5]
+ERCOT procures FFSS ahead of each obligation period, with a maximum of $54 million in procurement costs for a single obligation period, and at least 70% of that budget goes to the on-site and resource-controlled categories unless offers fall short. [e3][e4] The protocol sets deployment hours at 48 hours per deployment. [e5]
 
 Deployment is by ERCOT approval. When ERCOT issues a Watch for winter weather it tells market participants, including QSEs with FFSS resources, to begin preparation. [e6] If a gas curtailment or other fuel disruption is anticipated or happens, the QSE notifies ERCOT and asks to deploy; the QSE may not deploy FFSS unless ERCOT approves. [e7]
 
 ## ERCOT context
 
-The IMM says FFSS was implemented in 2022 in response to fuel supply disruptions during Winter Storm Uri. [e8] SB 3 separately requires that winter qualifications for the reliability services it covers include on-site fuel storage, dual fuel capability or fuel supply arrangements. [e11] In the 2024-2025 contract period ERCOT procured 4,195 MW; the offer cap was $12,240 per MW, built from a fuel oil price of $17 per MMBtu, a heat rate of 15 MMBtu per MWh and 48 hours. [e12] FFSS uplift rose from $33.8 million in 2024 to $45.9 million in 2025. [e9]
+The IMM says FFSS was implemented in 2022 in response to fuel supply disruptions during Winter Storm Uri. [e8] SB 3 separately requires that winter resource capability qualifications for a service described in PURA 39.159(b) include on-site fuel storage, dual fuel capability or fuel supply arrangements. [e11] In the 2024-2025 contract period ERCOT procured 4,195 MW; the offer cap was $12,240 per MW, built from a fuel oil price of $17 per MMBtu, a heat rate of 15 MMBtu per MWh and 48 hours. [e12] FFSS uplift rose from $33.8 million in 2024 to $45.9 million in 2025. [e9]
 
-The IMM is critical of deployment practice. It says the criteria for deployment beyond a winter weather watch remain unclear and are left to operator discretion, and that deployed FFSS resources are removed from the online reserves used for the ORDC adder, which raises scarcity prices even when physical capacity remains. [e14][e10] In 2025 ERCOT deployed FFSS over three consecutive days in February, with four resources deployed for a maximum of 470 MW. [e13]
+The IMM is critical of deployment practice. It says the criteria for deployment beyond a winter weather watch remain unclear and are left to operator discretion, and (in its 2024 report) that deployed FFSS resources were removed from the online reserves used for the ORDC adder, which raised scarcity prices even when physical capacity remained. [e14][e10] The ORDC adder was discontinued in December 2025 with RTC, so that specific effect is historical. [e15] In 2025 ERCOT deployed FFSS over three consecutive days in February, with four resources deployed for a maximum of 470 MW. [e13]
 
 ## Key facts
 
 - Obligation period is November 15 through March 15. [e2]
 - Budget: a maximum of $54 million in procurement costs per obligation period. [e3]
-- Deployment duration to be supported: 48 hours per deployment. [e5]
+- Deployment hours: 48 hours per deployment. [e5]
 - 2024-2025 procurement: 4,195 MW; offer cap $12,240 per MW. [e12]
 - FFSS uplift: $45.9 million in 2025, up from $33.8 million in 2024. [e9]
 
 ## Say it like this
 
-FFSS is a winter insurance payment: ERCOT pays selected generators to hold backup fuel so they can keep running if gas is curtailed. The IMM's complaint is that deployment criteria are vague and deployment itself can push up scarcity prices.
+FFSS is a winter insurance payment: ERCOT pays selected generators to hold backup fuel so they can keep running if gas is curtailed. The IMM's complaint is that deployment criteria are vague, and before RTC it said deployment could also push up scarcity prices through the ORDC adder. [e14][e10][e15]
 
 ## Common confusion
 
-FFSS pays for fuel readiness in a fixed winter window and is deployed only with ERCOT approval, so it is a paid, contracted service and not the same thing as the weatherization rules (see that topic). [e2][e7] It is also not ERS: ERS contracts loads and small generators for an emergency, whereas FFSS contracts Generation Resources for fuel availability. [e1]
+FFSS pays for fuel readiness in a fixed winter window and is deployed only with ERCOT approval, so it is a paid, contracted service and not the same thing as the weatherization rules (see that topic). [e2][e7] It is also not ERS: ERS is a separate emergency service (see the ers topic), whereas FFSS is provided by Generation Resources to maintain availability in a fuel disruption. [e1]
 
 ## Questions
 
@@ -128,7 +140,7 @@ The obligation period runs from November 15 through March 15, and ERCOT may spen
 
 ### What does the IMM say is wrong with FFSS deployment?
 
-Deployment criteria beyond a winter weather watch are unclear and left to operator discretion, and deploying FFSS resources removes their capacity from the online reserves used for the ORDC adder, which raises scarcity prices. [e14][e10]
+Deployment criteria beyond a winter weather watch are unclear and left to operator discretion, and, in its 2024 report, deploying FFSS resources removed their capacity from the online reserves used for the ORDC adder, which raised scarcity prices. That adder has since been discontinued with RTC. [e14][e10][e15]
 
 ### Was FFSS deployed recently?
 

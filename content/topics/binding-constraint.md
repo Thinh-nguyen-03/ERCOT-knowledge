@@ -16,16 +16,16 @@ links:
     note: ERCOT posts shift factors with the binding constraints each hour. [e2]
   - to: gtc
     type: related
-    note: GTCs are constraints for stability and voltage limits that ERCOT cannot model directly. [e3]
+    note: A GTC is a constraint used to manage stability, voltage and other limits that cannot be modeled directly in ERCOT's powerflow applications. [e9]
   - to: congestion
     type: related
     note: When a constraint binds, prices differ across locations. [e4]
   - to: sced
     type: used-in
-    note: SCED activates constraints and observes both competitive and non-competitive ones. [e1]
+    note: Constraints identified by NSA are activated in SCED, and each binding constraint's competitive designation is posted per SCED execution. [e1][e6]
   - to: market-power-mitigation
     type: related
-    note: Whether a binding constraint is competitive determines whether offers are mitigated.
+    note: Each binding constraint is designated Competitive or Non-Competitive; how that feeds mitigation was not sourced here. [e6]
 evidence:
   - id: e1
     source: np-06
@@ -55,6 +55,10 @@ evidence:
     source: imm-som-2025
     locator: "Transmission Congestion and CRRs, Real-Time Congestion"
     quote: "SCED manages power flows across the network as physical constraints become binding in real time."
+  - id: e9
+    source: np-02
+    locator: "Section 2.1, definition of Generic Transmission Constraint (GTC)"
+    quote: "A transmission constraint made up of one or more grouped Transmission Elements that is used to constrain flow between geographic areas of ERCOT for the purpose of managing stability, voltage, and other constraints that cannot otherwise be modeled directly in ERCOT’s powerflow and contingency analysis applications."
   - id: e8
     source: imm-som-2025
     locator: "Transmission Congestion and CRRs, Violated Constraints"
@@ -67,9 +71,9 @@ evidence:
 
 ## How it works
 
-ERCOT may not activate a constraint in SCED until it has verified that the contingency definition behind it is accurate for the current operating state of the grid. [e1] Each hour ERCOT posts the binding transmission constraints and the contingency or overloaded element pairs that caused them. [e2] The IMM notes that SCED manages flows as physical constraints become binding in real time, so real-time and day-ahead congestion can differ. [e7]
+ERCOT may not activate a constraint in SCED until it has verified that the contingency definition behind it is accurate for the current operating state of the grid. [e1] Each hour ERCOT posts the binding transmission constraints and the contingency or overloaded element pairs that caused them. [e2] The IMM notes that SCED manages flows as physical constraints become binding in real time. [e7]
 
-A constraint can be binding and still be satisfied. It is "violated" only when dispatch flows exceed its limit; the shadow price is the marginal cost of redirecting flow around the binding constraint. [e5]
+A binding constraint is not the same as a violated one: a constraint is violated when market dispatch flows exceed its transmission limit, and the shadow price is the marginal cost of redirecting flow around the binding constraint. [e5]
 
 Each binding constraint is also classified as competitive or non-competitive, and ERCOT posts the designation for each SCED execution each hour. [e6] A non-competitive constraint is one that is not determined to be competitive under the Section 3.19 tests. [e3]
 
@@ -91,13 +95,13 @@ A binding constraint is a transmission limit that is actually holding dispatch b
 
 ## Common confusion
 
-Binding does not mean violated. A constraint can be at its limit with the shadow price positive and no violation, while a violation means flows exceed the limit. [e5] Also, binding constraints in real time are not always the ones modeled day ahead. [e7]
+Binding does not mean violated: a violation means market dispatch flows exceed the transmission limit. [e5]
 
 ## Questions
 
 ### What is the difference between binding and violated?
 
-The IMM says a constraint is violated when market dispatch flows exceed its transmission limit; a binding constraint is one whose limit is holding dispatch, with a shadow price attached. [e5]
+The IMM says a constraint is violated when market dispatch flows exceed its transmission limit; when limits bind, congestion increases dispatch costs, and the shadow price is the marginal cost of redirecting flow around a binding constraint. [e5][e4]
 
 ### Where do I see today's binding constraints?
 

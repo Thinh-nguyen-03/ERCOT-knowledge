@@ -10,13 +10,13 @@ as_of: 2026-11-18
 links:
   - to: spp
     type: determines
-    note: Settlement Point Prices are calculated from LMP data, so LMP is the raw input to every price that settles.
+    note: Settlement Point Prices are calculated from LMP data. [e12]
   - to: system-lambda
     type: composed-of
     note: System Lambda is the energy component of the LMP at each Settlement Point. [e2]
   - to: shadow-price
     type: composed-of
-    note: Shadow Prices on binding constraints are the other piece that makes LMPs differ by location.
+    note: The shadow price of a constraint determines congestion prices at locations that affect it, per the IMM. [e11]
   - to: sced
     type: related
     note: SCED is the real-time process that produces Real-Time LMPs. [e4]
@@ -25,10 +25,10 @@ links:
     note: The DAM process produces Day-Ahead LMPs. [e1]
   - to: congestion
     type: related
-    note: Congestion is what makes LMPs differ between locations.
+    note: The IMM says the shadow price of a violated constraint determines congestion prices at locations that affect it. [e11]
   - to: resource-node
     type: related
-    note: Resource Node prices are LMP-based and are where generators settle.
+    note: The day-ahead Settlement Point Price at a Resource Node is the LMP at that node. [e13]
 evidence:
   - id: e1
     source: np-02
@@ -53,7 +53,8 @@ evidence:
   - id: e6
     source: np-06
     locator: "Section 6.5.7.3, paragraph on VOLL cap, item (d)"
-    quote: "Any Electrical Bus LMP above the effective Value of Lost Load (VOLL) shall be set equal to the greater of the effective VOLL or the initial LMP minus the positive difference between System Lambda and the effective VOLL. All other Electrical Bus LMPs below the effective VOLL remain unchanged."
+    quote: >-
+      Any Electrical Bus LMP above the effective Value of Lost Load (VOLL) shall be set equal to the greater of the effective VOLL or the initial LMP minus the positive difference between System Lambda and the effective VOLL. All other Electrical Bus LMPs below the effective VOLL remain unchanged. These adjustments shall be applied to Electrical Bus LMPs prior to calculating Real-Time Settlement Point LMPs, Real-Time Settlement Point Prices, and Real-Time prices for energy metered. The System Lambda and the Real-Time MCPCs from SCED Step 2 shall also be capped at the effective VOLL.
   - id: e7
     source: np-04
     locator: "Section 4.6.1.2, variable table for Load Zone DASPP"
@@ -70,6 +71,19 @@ evidence:
     source: imm-som-2025
     locator: "Executive Summary, Real-time Market Performance"
     quote: "With RTC, the real-time market simultaneously procures energy and ancillary services."
+  - id: e11
+    source: imm-som-2025
+    locator: "Transmission Congestion and CRRs, 1. Violated Constraints"
+    quote: >-
+      When the marginal cost of procuring relief through market dispatch exceeds the reliability cost of violating the constraint, the shadow price caps will: a) prevent the market from incurring additional dispatch costs; and b) set the shadow price for the constraint, which determines congestion prices at locations that affect the violated constraint.
+  - id: e12
+    source: np-02
+    locator: "Section 2.1, definition of Settlement Point Price"
+    quote: "A price calculated for a Settlement Point for each Settlement Interval using LMP data and the formulas detailed in Section 4.6, DAM Settlement, and Section 6.6, Settlement Calculations for the Real-Time Energy Operations."
+  - id: e13
+    source: np-04
+    locator: "Section 4.6.1.1"
+    quote: "The DASPP for a Resource Node Settlement Point for an hour is the Locational Marginal Price (LMP) at that Resource Node for that hour as calculated in the Day-Ahead Market (DAM) process."
 ---
 
 ## Definition
@@ -78,11 +92,11 @@ An LMP is the offer and/or bid-based marginal cost of serving the next increment
 
 ## How it works
 
-The LMP is built at the bus level. Its energy component is System Lambda, the Shadow Price of the power balance constraint, meaning the change in the objective function from relaxing that constraint by one MW. [e2] A Shadow Price in general measures the marginal value of a commodity, the rate at which system costs would fall or rise if slightly more or less of it were available. [e3] The protocol text says System Lambda is the energy component of LMP at each Settlement Point; the differences between locations come from the Shadow Prices of binding network constraints in the same optimization. [e2][e5]
+The LMP is built at the bus level. Its energy component is System Lambda, the Shadow Price of the power balance constraint, meaning the change in the objective function from relaxing that constraint by one MW. [e2] A Shadow Price in general measures the marginal value of a commodity, the rate at which system costs would fall or rise if slightly more or less of it were available. [e3] The protocol text says System Lambda is the energy component of LMP at each Settlement Point. [e2] SCED produces Shadow Prices and LMPs in the same step, [e5] and the IMM says the shadow price of a violated constraint determines congestion prices at the locations that affect that constraint. [e11]
 
-In real time, SCED runs approximately every five minutes, or more frequently if necessary, and calculates LMPs and Real-Time MCPCs alongside Base Points and Ancillary Service awards. [e4] SCED's second step produces Base Points, Ancillary Service awards, Shadow Prices, Real-Time MCPCs and LMPs, subject to security constraints and other Resource constraints. [e5] In the day-ahead, the equivalent system-wide term is the Day-Ahead System Lambda, defined as the DAM Shadow Price for the system power balance constraint for the hour. [e7]
+In real time, SCED runs approximately every five minutes, or more frequently if necessary, and calculates LMPs and Real-Time MCPCs alongside Base Points and Ancillary Service awards. [e4] SCED's second step produces Base Points, Ancillary Service awards, Shadow Prices, Real-Time MCPCs and LMPs, subject to security constraints and other Resource constraints. [e5] In the day-ahead, np-04 uses a matching system-wide term: the DAM Shadow Price for the system power balance constraint for the hour. [e7]
 
-LMPs are not what settles directly for most participants. Settlement Point Prices are derived from them (see the spp topic). Hub and Load Zone LMPs are also published per SCED interval; the Load Zone LMP uses State Estimator Load data and the LMPs at the Electrical Buses in the zone. [e9]
+LMPs are not what settles directly for most participants. Settlement Point Prices are calculated using LMP data. [e12] The Load Zone LMP is calculated for each SCED interval using State Estimator Load data and the LMPs at the Electrical Buses in the zone. [e9]
 
 ## ERCOT context
 
@@ -102,8 +116,8 @@ An LMP is the marginal cost of serving one more MW at a specific bus: a system-w
 
 ## Common confusion
 
-- LMP versus Settlement Point Price: the LMP is the bus-level output of DAM or SCED, while the Settlement Point Price is the price actually used in Settlement, calculated from LMP data by formula. [e1] See the spp topic.
-- LMP versus System Lambda: System Lambda is only the energy component; the LMP at a given bus also reflects congestion. [e2]
+- LMP versus Settlement Point Price: the LMP is the bus-level output of DAM or SCED, while the Settlement Point Price is the price actually used in Settlement, calculated from LMP data by formula. [e12] See the spp topic.
+- LMP versus System Lambda: System Lambda is only the energy component; the LMP at a given bus also reflects congestion, since the shadow price of a constraint sets congestion prices at the locations it affects. [e2][e11]
 - The Real-Time Settlement Point Price includes the Reliability Deployment Price Adder for Energy; the LMP alone does not. [e8]
 
 ## Questions
@@ -118,9 +132,9 @@ SCED calculates LMPs approximately every five minutes, or more frequently if nec
 
 ### Why can a settlement price differ from the LMP?
 
-Settlement Point Prices are calculated from LMP data with formulas, and real-time prices add the Reliability Deployment Price Adder for Energy and are floored at -$251/MWh. [e8]
+Settlement Point Prices are calculated from LMP data with formulas, and real-time prices add the Reliability Deployment Price Adder for Energy and are floored at -$251/MWh. [e12][e8]
 
 ## Open items
 
-- The sources describe System Lambda as the energy component and Shadow Prices as produced by SCED, but I did not find a protocol sentence that writes out LMP as "System Lambda plus congestion component"; the congestion decomposition above is stated from the two definitions together.
+- The sources describe System Lambda as the energy component and Shadow Prices as produced by SCED, but I did not find a protocol sentence that writes out LMP as "System Lambda plus congestion component"; the location-difference statement rests on the IMM's description of shadow prices on violated constraints.
 - Annual average LMP or price levels: not sourced in this topic; see the spp topic and IMM reports.

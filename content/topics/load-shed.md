@@ -25,7 +25,7 @@ links:
     note: An Emergency Notice allows ERCOT to instruct TSPs or DSPs to drop load when the cause is a transmission problem. [e5]
   - to: ordc
     type: related
-    note: ORDC builds the probability of load shed into reserve prices; see that topic.
+    note: The ORDC adder reflected load shed risk in reserve pricing before it was discontinued with RTC in December 2025; see that topic. [e14][e15]
 evidence:
   - id: e1
     source: np-06
@@ -75,6 +75,14 @@ evidence:
     source: ferc-nerc-uri
     locator: "Executive Summary, ERCOT Interconnection, February 15"
     quote: "At first ERCOT was able to recover its frequency to normal levels through deployment of load management measures, but it continued to suffer generating unit outages and needed to order its first 1,000 MW of load shed at 1:20 a.m."
+  - id: e14
+    source: imm-som-2025
+    locator: "Chapter I.D.1, ORDC (p. 7)"
+    quote: "The ORDC reflects the relationship between operating reserves and the probability of load shed; as operating reserves decrease, the likelihood of involuntary load shed increases."
+  - id: e15
+    source: imm-som-2025
+    locator: "Chapter I, all-in price discussion (p. 2)"
+    quote: "The Operating Reserve Demand Curve (ORDC) Adder, implemented in 2014 and discontinued in December 2025 with the introduction of RTC, reflects increasing reliability risks when reserves begin to run short; and"
   - id: e13
     source: ferc-nerc-uri
     locator: "Executive Summary, The February 2021 Cold Weather Outages in Texas and the South Central United States"
@@ -93,7 +101,7 @@ ERCOT gives each utility a megawatt reduction amount based on its share of histo
 
 ## ERCOT context
 
-ERCOT's overview lists four controlled-outage events since it was established: 500 MW in 1989, 1,000 MW in 2006, 4,000 MW in 2011 and 20,000 MW in February 2021. [e11] In February 2021 ERCOT ordered its first 1,000 MW at 1:20 a.m. on February 15 and ended up shedding 20,000 MW at the worst point. [e12][e7]
+ERCOT's overview lists four controlled-outage events: 500 MW in 1989, 1,000 MW in 2006, 4,000 MW in 2011 and 20,000 MW in February 2021. [e11] In February 2021 ERCOT ordered its first 1,000 MW of load shed at 1:20 a.m. and ended up shedding 20,000 MW at the worst point. [e12][e7]
 
 The FERC and NERC report found that the size and duration of the shed made rotation hard and pushed operators into circuits normally reserved for automatic under-frequency load shed. In ERCOT at least 25 percent of load is reserved for automatic shed, not counting critical loads such as hospitals. [e9][e10]
 
@@ -111,7 +119,7 @@ Load shed is ERCOT's last-resort tool: when reserves run too low it orders utili
 
 ## Common confusion
 
-Load shed is not the same as an EEA: EEA Levels 1 and 2 use supply and demand-side tools, and firm load shed begins at Level 3. [e1] "Controlled outages", "rotating outages" and "load shed" refer to the same thing in ERCOT's usage. [e2][e8] A Load Resource being deployed (for example under RRS) is also not firm load shed. [e6]
+Load shed is not the same as an EEA: EEA Levels 1 and 2 use supply and demand-side tools, and firm load shed begins at Level 3. [e1] "Controlled outages", "rotating outages" and "load shed" are used for the same thing in these sources. [e2][e8]
 
 ## Questions
 

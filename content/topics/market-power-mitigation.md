@@ -16,10 +16,10 @@ links:
     note: PUCT Rule 25.502 requires ERCOT to develop protocols that mitigate the price effects of congestion on noncompetitive constraints. [e1][e2]
   - to: imm
     type: related
-    note: The IMM may designate any constraint as competitive or non-competitive, overriding the test, and reports on pivotal suppliers and mitigation. [e4][e9][e10]
+    note: The IMM may designate any constraint as competitive or non-competitive, and its reports track pivotal suppliers and mitigation. [e9][e11][e17]
   - to: binding-constraint
     type: related
-    note: Competitiveness is tested for active constraints before each SCED run. [e3]
+    note: Constraint competitiveness is tested before each SCED execution. [e15]
   - to: offer-cap
     type: contrasts-with
     note: The system-wide offer cap limits every offer, while mitigated offer caps apply only to specific Resources dispatched to resolve non-competitive constraints. [e5][e6]
@@ -103,13 +103,13 @@ evidence:
 
 ## Definition
 
-Market power mitigation in ERCOT is the set of rules that cap a supplier's offers when it could exploit its position, mainly by limiting offers from Resources needed to resolve a non-competitive transmission constraint. PUCT rules define market power as the ability to control prices or exclude competition in a relevant market, and require ERCOT to develop protocols to mitigate the price effects of congestion on noncompetitive constraints. [e14][e2]
+Market power mitigation in ERCOT is the set of rules that cap a supplier's offers when it could exploit its position, mainly by limiting offers from Resources needed to resolve a non-competitive transmission constraint. [e17][e16] PUCT rules define market power as the ability to control prices or exclude competition in a relevant market, and require ERCOT to develop protocols to mitigate the price effects of congestion on noncompetitive constraints. [e14][e2]
 
 ## How it works
 
-Mitigation has two parts: a test of whether a constraint is competitive, and a cap on offers when it is not. The Constraint Competitiveness Test (CCT) checks each constraint by evaluating each Market Participant's ability to exercise market power by physical or economic withholding. [e3] The index it uses, the ECI on the import side, is the sum of the squares of each Decision Making Entity's percentage share of the effective capacity that can resolve the constraint. [e13] Before each SCED run, a constraint is classed competitive only if conditions such as an ECI below the threshold ECIT2 hold and no single entity is pivotal, meaning the constraint cannot be resolved without that entity's capacity. [e4]
+Mitigation has two parts: a test of whether a constraint is competitive, and a cap on offers when it is not. The Constraint Competitiveness Test (CCT) checks each constraint by evaluating each Market Participant's ability to exercise market power by physical or economic withholding. [e3] The index it uses, the ECI on the import side, is the sum of the squares of the percentages of ECI Effective Capacity for each DME on the import side. [e13] The test is run before each SCED execution. [e15] The SCED CCT classes a constraint as competitive only if it meets all of the listed conditions, including an ECI below ECIT2 on the import side and that the constraint can be resolved even when all Available Capacity of a Resource on the import side is eliminated (otherwise the DME is marked as the pivotal player). [e4]
 
-A Resource's offer is mitigated in SCED Step 2 when the constraint is non-competitive (by the SCED CCT or the IMM), the Resource's DME is a pivotal player or holds more than a set share of the effective capacity, and the Resource has a large enough Shift Factor on the constraint. [e10] The IMM may designate any constraint as competitive or non-competitive. [e9]
+A Resource's offer is mitigated in SCED Step 2 when the constraint is non-competitive (by the SCED CCT or the IMM), the Resource's DME is a pivotal player or holds more than a set share of the effective capacity, and the Resource has a large enough Shift Factor on the constraint. [e10] The second step of the SCED method applies this mitigation. [e6] The IMM may designate any constraint as competitive or non-competitive. [e9]
 
 SCED uses a two-step method that applies mitigation to energy offers prospectively to resolve Non-Competitive Constraints for the current Operating Hour. [e5] In Step 2, an offer subject to mitigation is capped at the greater of the Step 1 Reference LMP at the Resource Node plus a small variable, or the Resource's Mitigated Offer Cap (MOC) curve. [e6] The MOC is an upper limit on the price of an offer, and np-04 allows Energy Offer Curves and Energy Bid/Offer Curves to be mitigated with it in Real-Time operations. [e16][e7]
 
@@ -117,7 +117,7 @@ SCED uses a two-step method that applies mitigation to energy offers prospective
 
 The IMM says ERCOT's real-time mitigation targets resources that may have local market power because they are required to manage a transmission constraint, and that it applies whether the unit is self-committed or receives a RUC instruction. [e17] A RUC-committed unit resolving a non-competitive constraint is often dispatched with offers capped at mitigated levels. [e8] Structurally, the share of top-quartile net load hours with a pivotal supplier fell from over 90% in 2022 to 35% in 2025. [e11]
 
-Even so, the IMM continues to recommend system-wide market power mitigation, because extreme projected load growth could make the market structurally uncompetitive during high-load periods within a few years. [e12][e18]
+Even so, the IMM continues to recommend system-wide market power mitigation [e12], and it separately warns that extreme projected load growth could make the market structurally uncompetitive during high-load periods within a few years. [e18]
 
 ## Key facts
 
@@ -129,11 +129,11 @@ Even so, the IMM continues to recommend system-wide market power mitigation, bec
 
 ## Say it like this
 
-ERCOT does not cap every offer; it tests each binding constraint, and if too few independent suppliers can fix it, the units that can are limited to mitigated offer levels in SCED Step 2. The IMM says this local mitigation works, but wants a system-wide version as load grows.
+ERCOT does not cap every offer; it tests each binding constraint, and if too few independent suppliers can fix it, the units that can are limited to mitigated offer levels in SCED Step 2. The IMM continues to recommend system-wide mitigation and warns the market could become structurally uncompetitive in high-load periods as load grows. [e12][e18]
 
 ## Common confusion
 
-This is not the system-wide offer cap. The offer caps limit every offer, while mitigation applies only to the Resources that SCED relies on for a non-competitive constraint. [e5][e6] The topic name mentions a "TPS test"; the saved protocols describe the ECI and pivotal-player tests instead. [e4][e13]
+This is not the system-wide offer cap. The offer caps limit every offer, while mitigation applies only to the Resources that SCED relies on for a non-competitive constraint. [e5][e6] The saved protocols describe the ECI and pivotal-player tests. [e4][e13]
 
 ## Questions
 
@@ -143,7 +143,7 @@ An entity is a pivotal player for a constraint if the constraint cannot be resol
 
 ### Who decides whether a constraint is competitive?
 
-The SCED CCT decides before each SCED run, and the IMM may override by designating any constraint as competitive or non-competitive. [e3][e9]
+The SCED CCT checks competitiveness before each SCED execution, and the IMM may designate any constraint as competitive or non-competitive. [e3][e15][e9]
 
 ### Why does the IMM still recommend more mitigation if competition improved?
 
@@ -151,7 +151,7 @@ Pivotal-supplier hours fell to 35% of top-quartile net load hours in 2025, but t
 
 ## Open items
 
-- "TPS test" (three pivotal supplier) does not appear anywhere in the saved sources; ERCOT's described tests are the ECI and pivotal-player tests. The topic name may need revisiting.
+- "TPS test" (three pivotal supplier) does not appear anywhere in the saved sources; ERCOT's described tests are the ECI and pivotal-player tests. The topic list may need revisiting if a TPS test was intended.
 - The numeric thresholds (ECIT2 2300, SFP4 2%, DMEECP 10%) are in a np-03 Section 3.19.1 table not quoted here.
 - Deeper pass: the MOC formula inputs (generic and verifiable heat rates, fuel adders, O&M), Mitigated Offer Floor table, MOC for RMR Resources (np-04 Section 4.4.9.4.3, with pending NPRR826), and pending NPRR1325 / PGRR145 changes.
 - Deeper pass: PUCT 25.504 withholding standard and Voluntary Mitigation Plans (the IMM reports only Luminant's was in effect at the end of 2025), and the IMM's output gap analysis.

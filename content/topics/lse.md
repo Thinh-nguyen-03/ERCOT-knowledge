@@ -19,13 +19,13 @@ links:
     note: NOIEs that serve Load are LSEs. [e1]
   - to: esi-id
     type: related
-    note: ELSEs and MOUs/ECs assign ESI IDs to wholesale points of delivery. [e6]
+    note: An ELSE assigns an ESI ID for each wholesale point of delivery. [e6]
   - to: retail-choice
     type: related
-    note: The LSE category exists to cover both competitive retailers and non-opt-in utilities.
+    note: LSEs include Competitive Retailers and NOIEs that serve Load. [e1]
   - to: tdsp
     type: contrasts-with
-    note: TDSPs register separately from LSEs and deliver energy rather than selling it. [e7]
+    note: TSPs and DSPs register with ERCOT as a TSP or DSP, which is separate from the LSE registration in Section 16.3. [e7][e4]
 evidence:
   - id: e1
     source: np-02
@@ -63,6 +63,10 @@ evidence:
     source: np-16
     locator: "Section 16.3.1.1(2)"
     quote: "If an LSE fails to maintain a QSE as its representative, the LSE may be designated as an Emergency QSE as provided in Section 16.2.6.1, Designation as an Emergency Qualified Scheduling Entity or Virtual Qualified Scheduling Entity."
+  - id: e11
+    source: np-16
+    locator: "Section 16.3.1.1(1)"
+    quote: "The acknowledgement of the LSE’s QSE designation must be approved by ERCOT prior to a CR’s enrollment of Customer ESI IDs or prior to NOIE or ELSE registration of a wholesale point of delivery."
   - id: e10
     source: np-16
     locator: "Section 16.2.6.1(5)"
@@ -83,7 +87,7 @@ An ELSE assigns an ESI ID for each wholesale point of delivery. [e6]
 
 ## ERCOT context
 
-"Competitive Retailer" is itself a defined term: a REP, or an MOU or EC that offers Customer Choice and sells at retail. [e2] So the LSE label groups together retailers that compete for customers and the utilities that serve load without Customer Choice (NOIEs). [e1][e2]
+"Competitive Retailer" is itself a defined term: a REP, or an MOU or EC that offers Customer Choice and sells at retail. [e2] So the LSE label covers Competitive Retailers (REPs, and MOUs or ECs that offer Customer Choice), NOIEs that serve Load, and ELSEs. [e1][e2]
 
 If an LSE loses its QSE and does not cure the QSE Affiliation Breach, and it serves Load, ERCOT initiates a Mass Transition of the LSE's ESI IDs. [e10] An LSE without a QSE may be designated an Emergency QSE. [e9]
 
@@ -92,7 +96,7 @@ If an LSE loses its QSE and does not cure the QSE Affiliation Breach, and it ser
 - LSEs include CRs (which includes REPs), NOIEs that serve Load, and ELSEs. [e1]
 - Each LSE must register with ERCOT. [e4]
 - All CRs must complete Retail Market Testing before commencing operations with ERCOT. [e5]
-- TDSPs register separately from LSEs. [e7]
+- TSPs and DSPs register with ERCOT as a TSP or DSP, under Section 16.4 rather than the LSE registration in Section 16.3. [e7][e4]
 - Failure to cure a QSE Affiliation Breach by an LSE serving Load leads to a Mass Transition of its ESI IDs. [e10]
 
 ## Say it like this
@@ -101,7 +105,7 @@ If an LSE loses its QSE and does not cure the QSE Affiliation Breach, and it ser
 
 ## Common confusion
 
-(Guidance) LSE is broader than REP. A REP is one kind of Competitive Retailer, and Competitive Retailers are one kind of LSE. [e1][e2] A TDSP delivers energy and registers separately; it is not an LSE. [e7]
+(Guidance) LSE is broader than REP. A REP is one kind of Competitive Retailer, and Competitive Retailers are one kind of LSE. [e1][e2] TSPs and DSPs register as such with ERCOT under Section 16.4, and Section 16.3 lists NOIEs, CRs and ELSEs as the LSE types. [e7][e4]
 
 ## Questions
 
@@ -111,7 +115,7 @@ Competitive Retailers (including REPs), NOIEs that serve Load, and External Load
 
 ### What does an LSE need before it can enroll customers?
 
-It must register with ERCOT, designate a QSE, and have ERCOT approve that designation before a CR enrolls Customer ESI IDs. [e4][e3] A CR must also complete Retail Market Testing. [e5]
+It must register with ERCOT, designate a QSE, and have ERCOT approve that designation before a CR enrolls Customer ESI IDs. [e4][e3][e11] A CR must also complete Retail Market Testing. [e5]
 
 ## Open items
 

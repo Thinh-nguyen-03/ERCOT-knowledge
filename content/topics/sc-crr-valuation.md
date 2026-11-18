@@ -13,7 +13,7 @@ links:
     note: A CRR pays or charges the day-ahead congestion between its source and sink. [e1][e2]
   - to: crr-auction
     type: used-in
-    note: The auction price is what you pay for the path, so the valuation is compared against it. [e4]
+    note: The monthly CRR auction sells one-month PTP Options and PTP Obligations for the following month. [e4]
   - to: ptp-obligation
     type: example-of
     note: A PTP obligation can pay or charge; a PTP option can only pay. [e3]
@@ -25,10 +25,10 @@ links:
     note: 2025 day-ahead congestion rose 26%, driven by the North and West zones. [e13]
   - to: gtc
     type: affects
-    note: GTCs are a growing share of binding limits on renewable-heavy paths. [e16]
+    note: The number of active GTCs was 26 in 2025, up from 18 in 2021. [e16]
   - to: basis-risk
     type: related
-    note: CRRs settle on day-ahead prices, so real-time congestion is not hedged. [e12]
+    note: PTP Obligations settled in the DAM pay on the Day-Ahead price difference, while real-time congestion was 7% higher than day-ahead in 2025. [e2][e12]
   - to: credit-tpe
     type: related
     note: Positional risk from CRRs has driven most of ERCOT's collateral. [e11]
@@ -105,6 +105,10 @@ evidence:
     source: np-07
     locator: "Section 7.5.1, paragraph (5)"
     quote: "For the CRR Monthly Auction, 90%."
+  - id: e19
+    source: np-07
+    locator: "Section 7.5.1, paragraph (5) and (5)(a)"
+    quote: "For each CRR Auction, the CRR Auction Capacity shall be defined as follows: (a) For the CRR Monthly Auction, 90%."
 ---
 
 ## Definition
@@ -117,9 +121,9 @@ Know what you are paid. A PTP obligation pays or charges the difference in Day-A
 
 Spreads come from binding constraints. The IMM measures day-ahead congestion value as flow on each constraint times its shadow price. [e14] In 2025 day-ahead congestion rose 26%, led by the North zone (where ERCOT used heavy RUC to manage congestion) and the West zone (where transmission has lagged renewables and Permian load). [e13] Active GTCs rose to 26 in 2025 from 18 in 2021. [e16]
 
-The auction sets supply. The monthly auction sells one-month PTP options and obligations for the following month. [e4] Long-term auctions sell six-month strips, with 70% of capacity in the first window down to 10% in the sixth. [e5] Monthly auctions release 90%. [e18] The Simultaneous Feasibility Test confirms the grid can support all awarded CRRs under normal conditions. [e6] The CRR network model must include outages expected to significantly affect transfer capability. [e7]
+The auction sets supply. The monthly auction sells one-month PTP options and obligations for the following month. [e4] CRR Auction Capacity is 90% for the monthly auction and, in a long-term auction sequence, 70% in the first six-month window stepping down to 10% in the sixth. [e19][e18][e5] The Simultaneous Feasibility Test confirms the grid can support all awarded CRRs under normal conditions. [e6] The CRR network model must include outages expected to significantly affect transfer capability. [e7]
 
-Funding risk comes from outages. ERCOT pays less than target only when day-ahead congestion rent falls short, often because unforeseen outages cut transfer capability between the auction and the DAM. [e8] Obligations that sink at a Resource Node can be cut for elements oversold in earlier auctions. [e15] Any remaining shortfall is prorated across holders of positively valued CRRs; the last short payment was in November 2020. [e9]
+Funding risk comes from outages. ERCOT pays less than target only when day-ahead congestion rent falls short, often because unforeseen outages cut transfer capability between the auction and the DAM. [e8] The payment on a positively valued PTP Obligation that sinks at a Resource Node may be reduced because of directional network elements oversold in earlier auctions. [e15] Any remaining shortfall is prorated across holders of positively valued CRRs; the last short payment was in November 2020. [e9]
 
 ## Key facts
 
@@ -135,11 +139,11 @@ Funding risk comes from outages. ERCOT pays less than target only when day-ahead
 ### You can buy an August PTP obligation from a Panhandle wind node to HB_NORTH in the monthly auction. How do you decide what to bid?
 
 - Define the payoff. Each hour pays HB_NORTH minus the source node in the DAM, and it can be a charge if the spread reverses. [e2][e3]
-- Find the constraints between the two points. The spread equals the shadow prices of binding constraints weighted by how much the path loads each one. [e14]
-- Look at history and trend. West congestion rose in 2025 because transmission has not kept up with Panhandle renewables, and GTCs have grown in number. [e13][e16]
-- Check outages. The CRR model includes outages expected to affect transfer capability, but unforeseen outages after the auction can raise congestion and also strain funding. [e7][e8]
+- Find the constraints between the two points. The IMM calculates day-ahead congestion values as the product of power flows over each constraint and the constraint's shadow price. [e14]
+- Look at history and trend. Day-ahead congestion rose 26% in 2025, with the West zone a main driver because transmission projects have not kept pace with renewables in the panhandle, and active GTCs grew from 18 in 2021 to 26 in 2025. [e13][e16]
+- Check outages. The CRR model includes outages expected to affect transfer capability, but unforeseen outages between the auction and the DAM can reduce transmission capability and leave CRRs short-funded. [e7][e8]
 - Check sink deration. This path sinks at a hub, but obligations that sink at a Resource Node can be cut for oversold elements. [e15]
-- (Reasoning) Build hour-by-hour scenarios: midday solar plus evening wind can bind the Panhandle export limit in different hours, so value on-peak and off-peak hours separately.
+- (Reasoning) Build hour-by-hour scenarios and value on-peak and off-peak hours separately, since the spread may differ by hour.
 - Remember it settles on day-ahead prices. Real-time congestion in 2025 was 7% above day-ahead, so a generator using this as a hedge keeps some real-time exposure. [e12]
 - Suppose (illustrative): you expect an average day-ahead spread of $9/MWh across 744 August hours on 10 MW, about $67,000. Bid below that, say $6/MWh, to leave room for model error and collateral cost.
 - Price in credit: CRR positions drove most of ERCOT's $6.9 billion of collateral in 2025. [e11]
@@ -152,15 +156,15 @@ If day-ahead congestion rent is less than what CRRs are owed, often because of u
 
 ### Option or obligation?
 
-An option only pays, so it never costs you if the spread reverses; an obligation can pay or charge. [e3] (Guidance) An option costs more in the auction for that protection.
+A PTP Option can only result in payments to the CRR Owner, so it never produces a charge if the spread reverses; an obligation can pay or charge. [e3]
 
 ### Were CRRs profitable lately?
 
-Overall CRRs earned 21% more profit in 2025 after a 1.5% loss in 2024. [e10]
+The IMM says CRR profitability increased by 21% in 2025, after a net loss of 1.5% in 2024. [e10]
 
 ### Why is less capacity sold in later long-term windows?
 
-The long-term sequence sells 70% of capacity in the first six-month window and steps down to 10% in the sixth. [e5] (Guidance) This keeps capacity back for later auctions, when outages and topology are better known.
+The long-term sequence sells 70% of capacity in the first six-month window and steps down to 10% in the sixth. [e5] (Guidance) One plausible reason, not stated in the sources, is keeping capacity back for later auctions.
 
 ## Say it like this
 
@@ -168,10 +172,11 @@ The long-term sequence sells 70% of capacity in the first six-month window and s
 
 ## Common confusion
 
-(Guidance) A CRR does not hedge real-time congestion; it settles on day-ahead prices. [e2][e12] Also, a CRR is not a transmission reservation: it gives no right to move physical energy. [e1]
+(Guidance) A PTP Obligation settled in the DAM pays on the Day-Ahead price difference, so it does not fully cover real-time congestion, which was 7% higher than day-ahead in 2025. [e2][e12] Also, a CRR is not a transmission reservation: it gives no right to move physical energy. [e1]
 
 ## Open items
 
+- np-07 Section 7.9.2.1 also provides for PTP Obligations acquired in the DAM to be settled on Real-Time price differences; the day-ahead-only settlement described here applies to the Section 7.9.1.1 case, and which applies to an auction-acquired path was not traced.
 - The sources do not describe how auction clearing prices for a path are set (for example, as the sum of constraint shadow prices in the auction); only the SFT and auction structure are cited.
 - No source gives typical auction prices or realized values for specific West-North paths.
 - Deeper pass: CRR credit requirements (how much collateral a given path needs) are in Section 16 and credit documents not used here.

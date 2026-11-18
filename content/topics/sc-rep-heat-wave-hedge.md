@@ -13,28 +13,28 @@ links:
     note: The scenario applies the general ways LSEs manage price exposure, such as generation, PPAs, futures and the day-ahead market. [e2]
   - to: dam
     type: used-in
-    note: Day-ahead purchases are the main ERCOT-administered hedge; the day-ahead market cleared 62% of real-time load in 2025. [e6]
+    note: Buying in the day-ahead market is one way LSEs manage price exposure; the day-ahead market cleared 62% of real-time load in 2025. [e2][e6]
   - to: rtm
     type: affects
-    note: Any load not bought ahead settles at the real-time Load Zone price.
+    note: The QSE's Energy Imbalance charge at a Load Zone is calculated at the Real-Time Settlement Point Price. [e4]
   - to: offer-cap
     type: related
-    note: The HCAP of $5,000 per MWh bounds how high energy offers can go in a scarcity hour. [e9]
+    note: Since RTC go-live the sources show a $5,000/MWh day-ahead cap and a $2,000/MWh real-time cap, while PUCT rule 25.509 still states a $5,000 HCAP. [e9][e23][e24]
   - to: credit-tpe
     type: affects
-    note: A REP's QSE must keep Financial Security at or above its Total Potential Exposure, which rises with real-time liabilities. [e12]
+    note: A Counter-Party must keep Financial Security at or above its Total Potential Exposure at all times. [e12]
   - to: mass-transition
     type: related
     note: If a Market Participant's rights are revoked, ERCOT moves its ESI IDs to other retailers through a Mass Transition. [e18]
   - to: net-load
     type: related
-    note: Most 2025 price spikes came in the 7 to 9 p.m. net load peak, which is where the open position matters most. [e10]
+    note: Most 2025 price spikes came in the 7 to 9 p.m. peak net load hours. [e10]
   - to: load-zone
     type: settles
-    note: Load is charged at the Load Zone Settlement Point Price for its Adjusted Metered Load. [e4]
+    note: The Energy Imbalance charge at a Load Zone is calculated at the Real-Time Settlement Point Price and includes the QSE's AML there. [e4][e5]
   - to: exchanges-ice-nodal
     type: related
-    note: ICE lists a monthly ERCOT North 345 kV real-time peak futures contract that can be used for a fixed-price hedge. [e16]
+    note: ICE lists an ERCOT North 345KV Real-Time Peak Fixed Price Future, a monthly cash-settled contract on peak hourly ERCOT prices. [e25][e16]
 evidence:
   - id: e1
     source: imm-som-2024
@@ -120,6 +120,22 @@ evidence:
     source: ice-ercot-north-peak
     locator: "Contract Specifications, Reference Price A, b) Pricing Date"
     quote: "Each Monday through Friday, excluding NERC holidays, that prices are reported for the Delivery Date"
+  - id: e22
+    source: np-06
+    locator: "Section 6.6.3.2, paragraph (1)(a)-(c)"
+    quote: "(a) The amount of its Self-Schedules with sink specified at the Settlement Point; plus (b) The amount of its DAM Energy Bids cleared in the DAM at the Settlement Point; plus (c) The amount of its Energy Trades at the Settlement Point where the QSE is the buyer; minus"
+  - id: e23
+    source: np-04
+    locator: "Section 4.4.11, parameter table (Parameter / Unit / Current Value)"
+    quote: "ECAP $/MWh 2,000 HCAP – DAM (DASWCAP) $/MWh 5,000 HCAP – RTM (RTSWCAP) $/MWh 2,000 LCAP $/MWh 2,000 PNM threshold $/MW-year 315,000"
+  - id: e24
+    source: ercot-summer-2026-review
+    locator: "Summer 2026 Operational and Market Review (Board, 2026-09-14/15), slide 21 note"
+    quote: "SWCAP is reduced to $2000/MWh from $5000/MWh after RTC go-live on 12/5/2025."
+  - id: e25
+    source: ice-ercot-north-peak
+    locator: "Contract title"
+    quote: "ERCOT North 345KV Real-Time Peak Fixed Price Future"
 ---
 
 ## Definition
@@ -128,11 +144,11 @@ This scenario is about a retailer's exposure to real-time prices when a heat wav
 
 ## How it works
 
-Step 1, find the open position. The REP's QSE is charged or paid at the real-time Load Zone Settlement Point Price for its Adjusted Metered Load net of what it bought day-ahead, self-scheduled or bought in Energy Trades. [e4][e5] Load that shows up above those purchases settles at the real-time price.
+Step 1, find the open position. The QSE's Energy Imbalance charge at a Load Zone is calculated at the Real-Time Settlement Point Price on amounts that include its Self-Schedules, DAM Energy Bids cleared and Energy Trades as buyer, less (among other terms) its AML at the Settlement Point. [e4][e22][e5] Load above those purchases is therefore left to settle at the real-time price.
 
-Step 2, size the price risk. Energy offers can go up to the HCAP of $5,000 per MWh. [e9] In 2025 most price spikes came in the 7 to 9 p.m. net load peak as solar ramped down, so the evening hours matter more than the afternoon load peak. [e10] Heat-driven load can be large: ERCOT set an all-time demand record of 91,134 MW on July 22, 2026. [e11]
+Step 2, size the price risk. Offer caps differ by market since RTC go-live: the Protocol parameter table lists a day-ahead HCAP (DASWCAP) of $5,000/MWh and a real-time HCAP (RTSWCAP) of $2,000/MWh, ERCOT says the SWCAP was reduced to $2,000/MWh from $5,000/MWh after RTC go-live on 12/5/2025, and PUCT rule 25.509 still states a $5,000 HCAP. [e23][e24][e9] In 2025 most price spikes came in the 7 to 9 p.m. peak net load hours as solar ramped down. [e10] ERCOT set an all-time demand record of 91,134 MW on July 22, 2026. [e11]
 
-Step 3, list the hedging tools. The IMM says LSEs manage price exposure by owning generation, signing bilateral PPAs, using futures, or buying in the day-ahead market. [e2] The day-ahead market cleared 62% of real-time load in 2025, and PTP obligations are also used to hedge real-time exposure from transactions outside the ERCOT market. [e6][e7] On the exchange side, ICE lists a monthly cash-settled ERCOT North 345 kV real-time peak future, priced on the average of SPPs for hours ending 0700-2200. [e16][e17]
+Step 3, list the hedging tools. The IMM says LSEs manage price exposure by owning generation, signing bilateral PPAs, using futures, or buying in the day-ahead market. [e2] The day-ahead market cleared 62% of real-time load in 2025, and PTP obligations are also used to hedge real-time exposure from transactions outside the ERCOT market. [e6][e7] On the exchange side, ICE lists a monthly cash-settled ERCOT North 345KV Real-Time Peak Fixed Price Future, priced on the average of SPPs for hours ending 0700-2200. [e25][e16][e17]
 
 Step 4, know the limits of buying day-ahead. Day-ahead prices tend to reflect expected real-time prices, so buying day-ahead protects against volatility but not against a sustained rise in prices. [e3] In 2025 the average day-ahead premium was $1.17 per MWh, but the average absolute day-ahead to real-time difference was $12 per MWh. [e8]
 
@@ -143,7 +159,7 @@ Step 5, check credit. The QSE's Counter-Party must keep Financial Security at or
 - Only 17% of load was exposed to real-time prices on average in 2024. [e1]
 - The day-ahead market cleared 62% of real-time load in 2025. [e6]
 - The 2025 average day-ahead premium was $1.17 per MWh; the average absolute DA/RT difference was $12 per MWh. [e8]
-- HCAP: $5,000 per MWh for energy offers. [e9]
+- Offer caps: $5,000/MWh day-ahead and $2,000/MWh real-time in the Protocol table and per ERCOT since RTC go-live on 12/5/2025; PUCT rule 25.509 still states a $5,000 HCAP. [e23][e24][e9]
 - All-time demand record: 91,134 MW on July 22, 2026, HE19. [e11]
 - ERCOT issues a credit warning when TPEA or TPES reaches 90% of the requirement. [e20]
 
@@ -153,7 +169,7 @@ Step 5, check credit. The QSE's Counter-Party must keep Financial Security at or
 
 ## Common confusion
 
-(Guidance) A day-ahead purchase fixes the price for the volume bought; it does not fix the price if the heat wave lasts long enough to lift day-ahead prices too. [e3] Another confusion is treating collateral as a back-office issue: higher load and prices raise the REP's estimated real-time liability, so a hedge that works on paper can still trigger a collateral call. [e13][e14]
+(Guidance) A day-ahead purchase fixes the price for the volume bought; it does not fix the price if the heat wave lasts long enough to lift day-ahead prices too. [e3] Another confusion is treating collateral as a back-office issue: ERCOT estimates real-time liability from RTM charges including the Load Zone imbalance charge, and warns the Counter-Party when exposure reaches 90% of its requirement. [e13][e14][e20]
 
 ## Questions
 
@@ -167,7 +183,7 @@ No. It removes day-ahead to real-time volatility for the volume bought, but day-
 
 ### What happens to the REP's collateral during the heat wave?
 
-Its QSE's Total Potential Exposure rises with estimated real-time liabilities, which ERCOT estimates using recent Load Ratio Share. [e13][e14] The Counter-Party must keep Financial Security at or above TPE; ERCOT warns at 90% and may suspend rights if the requirement is not met. [e12][e20][e15]
+ERCOT estimates real-time liability for an Operating Day from RTM charges, including the Load Zone imbalance charge using 14-day or seven-day-old LRS for the load estimate. [e13][e14] The Counter-Party must keep Financial Security at or above TPE; ERCOT warns at 90% and may suspend rights if the requirement is not met. [e12][e20][e15]
 
 ### When should hedging activity rise?
 
@@ -181,11 +197,11 @@ The IMM expected hedging to increase in the months with the highest chance of ex
 - Anything unhedged is settled at the real-time Load Zone price on Adjusted Metered Load. [e4][e5]
 - The riskiest hours are the net-load peak: most 2025 price spikes came between 7 and 9 p.m. [e10]
 - The tools the sources name are owned generation, bilateral PPAs, futures and day-ahead purchases; PTPs can hedge exposure from transactions outside the ERCOT market. [e2][e7]
-- For a fixed-price block, the ICE ERCOT North real-time peak future settles monthly on the average of SPPs for hours ending 0700-2200 on weekdays, so it averages the evening spike hours with the rest of the peak block. [e16][e17][e21]
+- For a fixed-price block, the ICE ERCOT North 345KV real-time peak future [e25] settles monthly on the average of SPPs for hours ending 0700-2200 on weekdays, so it averages the evening spike hours with the rest of the peak block. [e16][e17][e21]
 - (Reasoning) A hub-based future leaves basis between the hub and your Load Zone, and it fixes a flat volume, so it does not follow the heat-driven shape of your load.
-- Buying day-ahead locks the volume bought but day-ahead prices move up with expected real-time prices, so a hedge bought after the forecast is out costs more. [e3]
+- Buying day-ahead locks the price for the volume bought, but day-ahead prices tend to reflect expected real-time prices, so it gives little protection against sustained elevated prices. [e3]
 - Suppose (illustrative) 500 MW of load is unhedged for three evening hours and real-time averages $2,000 per MWh: the cost is 500 x 3 x 2,000 = $3 million, against about $150,000 at $100 per MWh.
-- Check collateral: TPE includes the estimated real-time liability, and ERCOT warns at 90% and may suspend a Counter-Party that falls short. [e13][e20][e15]
+- Check collateral: ERCOT estimates real-time liability from RTM charges including the Load Zone imbalance charge, warns at 90% of the requirement, and may suspend a Counter-Party that falls short. [e13][e20][e15]
 - (Reasoning) Close with a plan: hedge the forecast volume ahead of the event, keep a buffer for forecast error in the evening hours, and pre-arrange extra collateral rather than waiting for the call.
 
 ## Open items

@@ -19,7 +19,7 @@ links:
     note: See the ORDC topic for how reserve levels are turned into price adders.
   - to: rrs
     type: related
-    note: PRC includes RRS-type frequency-responsive capability; a minimum PFR-based RRS quantity is set in Section 3.16. [e8]
+    note: Section 3.16 sets a minimum capacity for RRS provided using Primary Frequency Response. [e8]
   - to: energy-storage-resource
     type: related
     note: ESR capacity capable of primary frequency response counts toward PRC. [e3]
@@ -101,7 +101,7 @@ PRC is ERCOT's live count of how much frequency-responsive capacity is actually 
 
 ## Common confusion
 
-PRC is not the same as total reserve capacity or ancillary service awards. It measures what is physically on line and frequency responsive, with reserve discount factors applied in the calculation, so it can differ from awarded MW. [e1][e10] ERCOT's public EEA overview speaks of "operating reserves" in the same threshold positions; the Protocols write them as PRC. [e9]
+PRC is not the same as total reserve capacity or ancillary service awards. It measures what is on line and frequency responsive, and reserve discount factors are applied in the calculation. [e1][e10]
 
 ## Questions
 

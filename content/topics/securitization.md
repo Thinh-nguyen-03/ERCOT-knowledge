@@ -13,16 +13,16 @@ links:
     note: Both securitization balances relate to costs from Winter Storm Uri. [e1][e3]
   - to: retailer-defaults-2021
     type: related
-    note: The default balance financing addresses amounts that were not paid by defaulting market participants. [e1]
+    note: The default balance covers amounts owed to ERCOT by competitive wholesale market participants during the period of emergency that would otherwise be uplifted. [e12]
   - to: uplift
     type: related
     note: The Uplift Balance is money that was uplifted and then securitized. [e3]
   - to: credit-tpe
     type: related
-    note: Securitization charges have their own escrow and credit exposure rules, and Financial Security can be drawn on short-pays. [e8][e9]
+    note: Securitization Default Charges have an escrow deposit, and ERCOT can use Financial Security to cover short-pays when escrow is insufficient. [e8][e9]
   - to: load-ratio-share
     type: related
-    note: The Securitization Uplift Charge is allocated to QSEs by a share of obligated-LSE load. [e6]
+    note: The Securitization Uplift Charge is allocated using a daily QSE Non-Opted-Out LSE Load Ratio Share. [e6][e15]
   - to: texas-legislature
     type: related
     note: The financing was authorized under PURA Chapter 39 subchapters. [e1][e3]
@@ -67,6 +67,10 @@ evidence:
     source: np-26
     locator: "Section 26.3, Securitization Default Charge Invoices, paragraph (1)"
     quote: "ERCOT shall prepare Securitization Default Charge Invoices on a monthly basis, as specified in Section 9.1.2, Settlement Calendar, on the seventh Business Day of a month."
+  - id: e15
+    source: np-27
+    locator: "Section 27.3, Securitization Uplift Charge, variable definitions (DQSELSELRS)"
+    quote: "Daily QSE Non-Opted-Out LSE Load Ratio Share — The ratio of Daily QSE Non-Opted-Out LSE Real-Time Adjusted Metered Load (DQSELSERTAML) to Daily ERCOT QSE Non-Opted-Out LSE Real-Time Adjusted Metered Load (DERCOTQSELSERTAML), for a QSE q, for the Operating Day d."
   - id: e11
     source: hb4492-87r
     locator: "HB 4492 (87R), Section 1, Government Code Sec. 404.0241(b-1)"
@@ -93,13 +97,13 @@ Post-Uri securitization in the Protocols covers two financings under PURA Chapte
 
 Two separate charges repay the two balances. Securitization Default Charges are assessed to QSEs and CRR Account Holders to repay the Default Balance. [e2] ERCOT invoices them monthly (on the seventh Business Day) to collect the monthly amount needed, and may assess them over up to 30 years. [e5][e10]
 
-The Securitization Uplift Charge is assessed to QSEs representing obligated LSEs, to pay the Uplift Balance, interest and other financing expenses. [e4] ERCOT allocates it by operating day to those QSEs. [e6] Entities that qualified to opt out under PURA § 39.653(d) do not pay it. [e7]
+The Securitization Uplift Charge is assessed to QSEs representing obligated LSEs, to pay the Uplift Balance, interest and other financing expenses. [e4] ERCOT allocates it to those QSEs for each Operating Day, using a daily QSE Non-Opted-Out LSE Load Ratio Share. [e6][e15] Entities that qualified to opt out under PURA § 39.653(d) do not pay it. [e7]
 
 ## ERCOT context
 
-The authorizing law is HB 4492 (87th Legislature). It directs the comptroller to invest not more than $800 million of the economic stabilization fund balance to finance the default balance, to be repaid by ERCOT market participants through default charges set by the PUCT. [e11] It defines the default balance (capped at $800 million) as amounts owed to ERCOT by competitive wholesale market participants during the period of emergency that would otherwise be uplifted to other participants. [e12] The uplift balance is capped at $2.1 billion and is the amount uplifted to load-serving entities on a load ratio share basis for reliability deployment price adder charges and ancillary services costs above the system-wide offer cap. [e13] The period of emergency runs from 12:01 a.m. on February 12, 2021 to 11:59 p.m. on February 20, 2021. [e14]
+HB 4492 (87th Legislature) directs the comptroller to invest not more than $800 million of the economic stabilization fund balance to finance the default balance, to be repaid by ERCOT market participants through default charges set by the PUCT. [e11] It defines the default balance (capped at $800 million) as amounts owed to ERCOT by competitive wholesale market participants during the period of emergency that would otherwise be uplifted to other participants. [e12] The uplift balance is capped at $2.1 billion and is the amount uplifted to load-serving entities on a load ratio share basis for reliability deployment price adder charges and ancillary services costs above the system-wide offer cap. [e13] The period of emergency runs from 12:01 a.m. on February 12, 2021 to 11:59 p.m. on February 20, 2021. [e14]
 
-The default-charge side comes with escrow and credit rules. Counter-Parties deposit cash or a letter of credit in escrow for their Default Charge obligations. [e8] If an invoice is short-paid, ERCOT first draws on the escrow deposits and then on Financial Security held for other ERCOT market activity. [e9]
+The default-charge side comes with escrow and credit rules. Market Participants deposit cash or a letter of credit in escrow for their Default Charge obligations. [e8] If an invoice is short-paid, ERCOT first draws on the escrow deposits and then on Financial Security held for other ERCOT market activity. [e9]
 
 ## Key facts
 
@@ -115,7 +119,7 @@ The default-charge side comes with escrow and credit rules. Counter-Parties depo
 
 ## Common confusion
 
-The two charges are separate: Default Charges (Subchapter M) repay the default balance and Uplift Charges (Subchapter N) repay the uplift balance, with separate escrow. [e1][e3] ERCOT may not use Uplift Charge escrow deposits to cover short-pays of Default Charges. [e9]
+The two charges are separate: Default Charges (Subchapter M) repay the default balance and Uplift Charges (Subchapter N) repay the uplift balance, [e1][e3] ERCOT may not use Securitization Uplift Charge escrow deposits to cover short-pays of Default Charges. [e9]
 
 ## Questions
 

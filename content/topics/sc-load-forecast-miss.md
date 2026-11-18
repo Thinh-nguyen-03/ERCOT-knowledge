@@ -28,10 +28,10 @@ links:
     note: Day-ahead energy positions are financial; ERCOT settles imbalances on them in real time. [e5]
   - to: rtm
     type: settles
-    note: Load above or below day-ahead purchases settles at the real-time Load Zone price. [e19]
+    note: Day-ahead positions are financial and ERCOT settles imbalances on them in real time; the Load Zone Energy Imbalance charge uses the Real-Time Settlement Point Price. [e5][e19]
   - to: winter-storm-jan-2026
     type: example-of
-    note: During Winter Storm Fern the 84,500 MW load forecast overestimated actual peak consumption. [e13][e14]
+    note: During Winter Storm Fern the load forecast (84,500 MW peak) overestimated expected peak consumption on January 26 and 27. [e13][e14]
   - to: net-load
     type: related
     note: ERCOT's average net load forecast error fell to 452 MW by 2025, but load is still systematically over-forecast. [e8]
@@ -128,20 +128,20 @@ This scenario asks how a large load forecast error moves through ERCOT's commitm
 
 ## How it works
 
-Step 1, the day-ahead market does not commit for reliability. Day-ahead energy and ancillary services are financial positions whose imbalances settle in real time. [e5] DRUC runs after the DAM closes and commits Generation Resources to match ERCOT's forecasted Load, subject to transmission constraints. [e4][e2] A forecast that is too high can lead to extra RUC commitments; one that is too low leaves too little capacity committed.
+Step 1, the day-ahead market does not commit for reliability. Day-ahead energy and ancillary services are financial positions whose imbalances settle in real time. [e5] DRUC runs after the DAM closes and commits Generation Resources to match ERCOT's forecasted Load, subject to transmission constraints. [e4][e2] Because RUC commits to match ERCOT's forecasted Load, a forecast that is too high can lead to extra RUC commitments, and one that is too low can leave too little capacity committed. [e2]
 
 Step 2, the forecast is updated through the day. HRUC runs at least one hour before each Operating Hour using updated Load forecasts and Outage information, and QSEs can adjust trades, Self-Schedules and commitments in the Adjustment Period as better information arrives. [e3][e21]
 
 Step 3, reserves absorb the rest. The IMM describes NSRS as covering intra-hour net load forecast uncertainty that leads to under-commitment, and the Regulation target is set at the 95th percentile of five-minute net load forecast error. [e10][e11] The IMM warns that forecast errors for load, renewables and battery state of charge could still produce very low PRC hours. [e9]
 
-Step 4, prices and settlement. Load above or below what a QSE bought day-ahead settles at the real-time Load Zone price. [e19] Forecast errors also shift congestion between day-ahead and real-time. [e12] RUC-committed units that do not cover costs receive make-whole payments, charged first to capacity-short QSEs and then uplifted to all QSEs by Load Ratio Share. [e6][e7]
+Step 4, prices and settlement. Day-ahead positions are financial and ERCOT settles imbalances on them in real time, and the Load Zone Energy Imbalance charge uses the Real-Time Settlement Point Price. [e5][e19] Forecast errors also shift congestion between day-ahead and real-time. [e12] RUC-committed units that do not cover costs receive make-whole payments, charged first to capacity-short QSEs and then uplifted to all QSEs by Load Ratio Share. [e6][e7]
 
 ## Key facts
 
 - ERCOT's average net load forecast error was about 452 MW in 2025, down from more than 1,000 MW in 2023 and 2024; ERCOT still over-forecasts load. [e8]
 - RUC instructions totalled 5,129 resource-hours in 2025, 77% for congestion; make-whole payments exceeded $21 million. [e17][e20]
 - Summer 2026: RUC rose and shifted from congestion to capacity procurement. [e18]
-- Winter Storm Fern: the 84,500 MW forecast peak overestimated actual consumption on January 26 and 27, 2026. [e13][e14]
+- Winter Storm Fern: the load forecast (84,500 MW peak, assuming no demand response) overestimated expected peak consumption on January 26 and 27. [e13][e14]
 - Winter Storm Elliott: ERCOT's internal load forecasts were too low for December 23 and 24 (2022). [e16]
 
 ## Say it like this
@@ -173,13 +173,13 @@ ERCOT cited abnormal statewide school and business closures and reduced oil and 
 - (Reasoning) Start with direction: an over-forecast and an under-forecast hit different processes.
 - The DAM is financial, so the miss does not change physical commitment there; positions settle against real-time. [e5]
 - DRUC, run after the DAM, commits to ERCOT's forecasted Load, so an over-forecast can commit extra units. [e4][e2]
-- HRUC re-runs at least an hour before each Operating Hour with updated forecasts, so the error shrinks as the day goes on. [e3]
+- HRUC re-runs at least an hour before each Operating Hour with updated Load forecasts and Outage information, so the forecast used is refreshed during the day. [e3]
 - Units committed for load that does not appear may not cover costs; their make-whole is charged to capacity-short QSEs and the rest uplifted by Load Ratio Share. [e6][e7]
 - If load is under-forecast, the gap falls on real-time dispatch and reserves; NSRS is meant to cover intra-hour net load forecast uncertainty. [e10]
-- For a QSE, load above its day-ahead purchase settles at the real-time Load Zone price. [e19]
+- For a QSE, the Load Zone Energy Imbalance charge is calculated at the Real-Time Settlement Point Price, and day-ahead positions are settled against real time. [e19][e5]
 - Suppose (illustrative) a QSE bought 3,000 MW day-ahead for an hour but its load came in at 2,700 MW: it sells 300 MWh back at the real-time price, a loss only if real-time is below what it paid.
 - Congestion can also move, because forecast errors drive day-ahead to real-time differences in congestion. [e12]
-- (Reasoning) Close with the post-mortem: was it weather, calendar effects (as in Fern and Elliott), or large flexible load behaviour, and what does that say about the next similar day? [e15][e16]
+- (Reasoning) Close with the post-mortem: was it weather, calendar effects (school and business closures drove Fern's over-forecast), or large flexible load behaviour, and what does that say about the next similar day? [e15]
 
 ## Open items
 

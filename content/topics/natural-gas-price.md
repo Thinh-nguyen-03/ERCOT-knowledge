@@ -10,16 +10,16 @@ as_of: 2026-11-18
 links:
   - to: heat-rate
     type: related
-    note: ERCOT rules multiply a heat rate by the gas price index to get a fuel cost in $/MWh.
+    note: The Mitigated Offer Cap formula multiplies a generic incremental heat rate by the higher of the FIP or a weighted average fuel price. [e15]
   - to: implied-heat-rate
     type: measures
-    note: The IMM's implied heat rate divides the power price by the gas price to show how far power has moved away from gas. [e7]
+    note: The IMM calculates its implied heat rate by dividing the power price by the fuel price. [e16][e7]
   - to: waha-hub
     type: contrasts-with
     note: The IMM says Permian production and limited export capability have historically kept Waha gas prices low relative to Katy. [e8]
   - to: spark-spread
     type: determines
-    note: The gas price is the fuel-cost leg of a gas unit's spark spread.
+    note: See that topic; it builds on the gas price as a fuel-cost input.
   - to: winter-storm-uri
     type: related
     note: Texas hub gas prices spiked to over $400/MMBtu during Uri, per the UT report. [e9]
@@ -28,7 +28,7 @@ links:
     note: The FFSS rules use Henry Hub natural gas futures as the natural gas price index source. [e11]
   - to: resource-mix
     type: affects
-    note: Gas still supplies the largest share of ERCOT generation, which is why gas prices pass through to power prices.
+    note: EIA reports natural gas generated a large share of Texas electricity (52% in February 2020). [e12]
   - to: offer-cap
     type: affects
     note: In 2021 the LCAP formula was tied to the gas index, so very high gas prices could have pushed it above the HCAP. [e14]
@@ -85,6 +85,14 @@ evidence:
     source: eia-tx-gas-2021
     locator: "Today in Energy, March 12, 2021"
     quote: "Natural gas has generated as much as 61% of Texas's monthly net electricity generation during peak summer electricity demand. Natural gas accounts for a smaller share of the state's electricity generation during the winter because total electricity demand is lower and demand for natural gas for heating is higher."
+  - id: e15
+    source: np-04
+    locator: "Section 4.4.9.4.1(1), Mitigated Offer Cap formula"
+    quote: "MOC _(q, r, h) = Max [GIHR _(q, r) * Max(FIP, WAFP _(q, r, h)), (IHR _(q, r) * FPRC _(q, r) + OM _(q, r))]"
+  - id: e16
+    source: imm-som-2025
+    locator: "Review of Real-Time Market Outcomes, 2. Implied Heat Rates"
+    quote: "We calculate it by dividing the power price by the fuel price to derive the heat rate that equates revenue from selling electricity with the cost of buying gas."
   - id: e14
     source: ut-uri-timeline
     locator: "Section 3.3.1, quoting the PUCT order in Project/Docket No. 51617"
@@ -107,7 +115,7 @@ Gas prices also differ by location. The IMM uses Katy prices for Houston-zone ga
 
 Natural gas is used to generate a large share of Texas electricity: 52% in February 2020 and as much as 61% of monthly generation during summer peaks, according to EIA. [e12][e13] Gas's share is smaller in winter because power demand is lower and heating demand for gas is higher. [e13]
 
-Winter is when gas and power risks combine. During Winter Storm Uri, Texas hub gas prices rose from normally much less than $10/MMBtu to over $400/MMBtu. [e9] Because the 2021 LCAP formula was 50 times the gas price index, the PUCT warned it could exceed the $9,000 HCAP. [e14]
+Winter is when gas and power risks combine. During Winter Storm Uri, Texas hub gas prices rose from normally much less than $10/MMBtu to over $400/MMBtu. [e9] In 2021 the PUCT order noted that if the LCAP is calculated as 50 times the natural gas price index value, it may exceed the then-current $9,000 HCAP. [e14]
 
 Henry Hub appears in the Protocols as the natural gas price index source for FFSS: Henry Hub natural gas futures for November, published by July 15. [e11]
 
@@ -126,11 +134,11 @@ Henry Hub appears in the Protocols as the natural gas price index source for FFS
 
 ## Say it like this
 
-(Guidance) Gas is still the marginal fuel most of the time in ERCOT, so gas prices set the baseline for power prices. But with lots of solar, wind and storage, the pass-through has weakened, so a gas move does not translate one-for-one into power.
+(Guidance) Gas plants are typically the marginal generator in ERCOT, so gas prices are a main driver of power prices. But with lots of wind and solar, the IMM says the link has weakened, so a gas move does not translate one-for-one into power.
 
 ## Common confusion
 
-(Guidance) ERCOT's own rules mostly reference Katy, through the FIP, not Henry Hub. [e1] West Texas gas units face Waha prices, which the IMM says have historically been low. [e8] A big percentage move in gas does not mean the same percentage move in power: in 2025 gas rose 61% and power less than 14%. [e5]
+(Guidance) ERCOT's Fuel Index Price is a Katy Hub price, not Henry Hub, although FFSS references Henry Hub futures. [e1][e11] West Texas gas units face Waha prices, which the IMM says have historically been low. [e8] A big percentage move in gas does not mean the same percentage move in power: in 2025 gas rose 61% and power less than 14%. [e5]
 
 ## Questions
 

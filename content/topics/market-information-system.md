@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: sixty-day-disclosure
     type: related
-    note: Public disclosures are posted on the ERCOT website rather than the restricted MIS areas. [e6]
+    note: Data the Protocols require on the ERCOT website must be made available on a non-discriminatory basis. [e6]
   - to: settlement-statements
     type: related
     note: Settlement-related invoices are posted to the MIS Certified Area. [e7]
@@ -22,7 +22,7 @@ links:
     note: The Protocols say what ERCOT posts to the MIS. [e4]
   - to: qse
     type: related
-    note: Market Participants such as QSEs access the MIS with authenticated credentials. [e1]
+    note: Market Participants access the MIS with authenticated credentials. [e1]
   - to: ufe
     type: related
     note: ERCOT posts TSP and DSP load with loss and UFE allocations to the MIS Secure Area. [e8]
@@ -46,7 +46,7 @@ evidence:
   - id: e5
     source: np-12
     locator: "Section 12.1, paragraph (2)"
-    quote: "The MIS Secure and Certified Areas provide restricted access to ERCOT Critical Energy Infrastructure Information (ECEII), to the extent that the Protocols or any Other Binding Document requires such information to be posted thereon."
+    quote: "The MIS Secure and Certified Areas provide restricted access to ERCOT Critical Energy Infrastructure Information (ECEII), to the extent that the Protocols or any Other Binding Document requires such information to be posted thereon. All ECEII posted on the MIS Secure or Certified Area shall be subject to the restrictions in Section 1.3.2, ERCOT Critical Energy Infrastructure Information. ECEII posted on the MIS Secure or Certified Area may be accessed only by those authorized individuals with ECEII-eligible credentials."
   - id: e6
     source: np-12
     locator: "Section 12.4, ERCOT Website, paragraph (1)"

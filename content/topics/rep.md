@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: lse
     type: is-a
-    note: A REP is a Competitive Retailer and so an LSE. [e1]
+    note: LSEs include Competitive Retailers, which includes REPs. [e13]
   - to: qse
     type: related
     note: A REP must have its QSE designation approved by ERCOT before enrolling customer ESI IDs. [e6]
@@ -25,7 +25,7 @@ links:
     note: Each ESI ID has at most one REP of record at a time. [e8]
   - to: retailer-defaults-2021
     type: related
-    note: REP failures are where the provider of last resort and QSE-affiliation rules get tested.
+    note: See the case topic for the 2021 retailer failures.
 evidence:
   - id: e1
     source: np-02
@@ -75,6 +75,18 @@ evidence:
     source: puct-25-107
     locator: "Section 25.107(b)(1)(B)"
     quote: "A REP that outsources retail electric service functions is responsible for those functions in accordance with all applicable laws and commission rules for all activities conducted on its behalf by any third-party provider."
+  - id: e13
+    source: np-02
+    locator: "Section 2.1, definition of Load Serving Entity (LSE)"
+    quote: "An Entity that sells energy to Customers or Wholesale Customers and that has registered as an LSE with ERCOT. LSEs include Competitive Retailers (which includes REPs) and NOIEs that serve Load and ELSEs."
+  - id: e14
+    source: np-02
+    locator: "Section 2.1, definition of Competitive Retailer (CR)"
+    quote: "A Municipally Owned Utility (MOU) or an Electric Cooperative (EC) that offers Customer Choice and sells electric energy at retail in the restructured electric power market in Texas, or a Retail Electric Provider (REP)."
+  - id: e15
+    source: np-16
+    locator: "Section 16.3(2)"
+    quote: "All CRs must participate in and successfully complete testing as described in Section 19.8, Retail Market Testing, prior to commencing operations with ERCOT."
 ---
 
 ## Definition
@@ -85,13 +97,13 @@ A REP is an entity that sells electric energy to retail customers in Texas but d
 
 Two layers apply: PUCT certification and ERCOT registration. A person must obtain a REP certificate from the PUCT before purchasing, taking title to, or reselling electricity to provide retail electric service, and may certify as an Option 1, Option 2 or Option 3 REP. [e3][e4] PURA requires the applicant to show financial and technical resources, managerial and technical ability, resources to meet customer protection requirements, and an office in Texas. [e9] A REP that outsources functions remains responsible for them. [e12]
 
-At ERCOT, a REP registers as an LSE (as a Competitive Retailer) and must demonstrate PUCT certification under Section 25.107. [e11] It must have a QSE, and ERCOT must approve the QSE designation before the CR enrolls Customer ESI IDs. [e6]
+At ERCOT, a REP is a Competitive Retailer and so an LSE, and it must demonstrate PUCT certification under Section 25.107. [e13][e11] It must have a QSE, and ERCOT must approve the QSE designation before the CR enrolls Customer ESI IDs. [e6]
 
 Each ESI ID has at most one REP of record at a time. [e8]
 
 ## ERCOT context
 
-REPs exist because retail customers in Texas, other than customers of non-opted-in cooperatives and municipally owned utilities, have had customer choice since January 1, 2002. [e5] After that date a transmission and distribution utility may not sell electricity except to buy for its own needs, which separates the wires business from retail sales. [e7]
+REPs exist because retail customers in Texas, other than customers of non-opted-in cooperatives and municipally owned utilities, have had customer choice since January 1, 2002. [e5] After that date a transmission and distribution utility may not sell electricity except to buy for its own needs. [e7]
 
 PURA also requires the PUCT to designate REPs as providers of last resort in areas where customer choice is in effect. [e10]
 
@@ -105,11 +117,11 @@ PURA also requires the PUCT to designate REPs as providers of last resort in are
 
 ## Say it like this
 
-(Guidance) A REP is the certified retailer that sells power to Texas customers who have choice; it buys wholesale through its QSE and the wires utility delivers it. By rule it cannot own generation.
+(Guidance) A REP is the certified retailer that sells power to Texas customers who have choice; it needs a PUCT certificate and a QSE designation approved by ERCOT. By rule it cannot own generation.
 
 ## Common confusion
 
-(Guidance) A REP is not a utility: the TDU/TDSP owns the wires and may not sell electricity. [e7] A REP is also not the only retailer: MOUs and ECs that offer Customer Choice are Competitive Retailers too. [e1]
+(Guidance) A REP is not a utility: a transmission and distribution utility may not sell electricity except to buy for its own needs. [e7] A REP is also not the only retailer: MOUs and ECs that offer Customer Choice are Competitive Retailers too. [e14]
 
 ## Questions
 
@@ -119,7 +131,7 @@ No. The PUCT definition says a REP may not own or operate generation assets. [e2
 
 ### What does a REP need before it can serve customers?
 
-A PUCT REP certificate, ERCOT registration as an LSE, a QSE whose designation ERCOT has approved, and completion of Retail Market Testing as a CR. [e3][e11][e6]
+A PUCT REP certificate, ERCOT registration as an LSE, a QSE whose designation ERCOT has approved, and completion of Retail Market Testing as a CR. [e3][e11][e6][e15]
 
 ## Open items
 
