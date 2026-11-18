@@ -31,7 +31,7 @@ links:
     note: Regulation targets are set from the 95th percentile of five-minute net load forecast error. [e10]
   - to: resource-adequacy
     type: related
-    note: SB 3 requires reliability services sized against net load variability in high-demand, low-supply conditions. [e8]
+    note: SB 3 (new PURA §39.159(b)(5)) refers to preventing prolonged rotating outages due to net load variability in high demand and low supply scenarios. [e8]
 evidence:
   - id: e1
     source: np-02
@@ -97,7 +97,7 @@ In the ERCOT Protocols, Net Load is the Load for a given period minus generation
 
 ## How it works
 
-Net load is what the rest of the fleet (thermal units, storage, imports and demand response) has to cover after wind and solar output. [e1] Because solar output falls in the evening while demand stays high, the hour of highest net load lands later than the hour of highest gross load. [e3] The IMM reports that the tightest hours have moved from the firm peak load hour around 4 to 5 p.m. to 7 to 9 p.m., the net load peak. [e2]
+Net load is Load minus solar and wind generation for the same period, so it is the demand left over after those Resources. [e1] Because solar output falls in the evening while demand stays high, the hour of highest net load lands later than the hour of highest gross load. [e3] The IMM reports that the tightest hours have moved from the firm peak load hour around 4 to 5 p.m. to 7 to 9 p.m., the net load peak. [e2]
 
 ERCOT's planning reports now track both peaks. The December 2025 CDR's base case gives summer 2026 reserve margins of 18.3% at the peak Load hour (hour ending 5 p.m.) and 20.9% at the peak Net Load hour (hour ending 9 p.m.). [e5] ERCOT's summer 2026 review says the peak net load typically falls in HE 20-21, and that in June and July the net load hour moved from HE 21 to HE 22. [e6][e7]
 
@@ -105,9 +105,9 @@ In winter the pattern is different: ERCOT's MORA battery model uses two scheduli
 
 ## ERCOT context
 
-Prices follow net load. Most real-time price spikes in 2025 occurred during the 7 to 9 p.m. peak net load hours as solar ramped down. [e12] At the daily net peak interval, solar's capacity factor fell to 1.7% in 2025 while wind's held at 29.3%. [e11]
+Price spikes cluster at the net peak. Most real-time price spikes in 2025 occurred during the 7 to 9 p.m. peak net load hours as solar ramped down. [e12] At the daily net peak interval, solar's capacity factor fell to 1.7% in 2025 while wind's held at 29.3%. [e11]
 
-Net load drives operations and procurement. The Regulation procurement target is based on the 95th percentile of five-minute net load forecast error. [e10] The IMM says ERCOT's average net load forecast error fell to about 452 MW in 2025 from more than 1,000 MW in 2023 and 2024, but forecasts still under-forecast renewable output and over-forecast load. [e9] SB 3 (2021) requires the reliability services ERCOT procures to be sized to prevent prolonged rotating outages due to net load variability in high demand and low supply scenarios. [e8]
+Net load drives operations and procurement. The Regulation procurement target is based on the 95th percentile of five-minute net load forecast error. [e10] The IMM says ERCOT's average net load forecast error fell to about 452 MW in 2025 from more than 1,000 MW in 2023 and 2024, but forecasts still under-forecast renewable output and over-forecast load. [e9] An SB 3 (2021) provision, new PURA §39.159(b)(5), refers to preventing prolonged rotating outages due to net load variability in high demand and low supply scenarios. [e8]
 
 Storage serves the net peak: ERCOT says ESRs helped serve record net loads in summer 2026, with evening state-of-charge exhaustion a pattern through the summer. [e14]
 
@@ -144,11 +144,11 @@ Load for a period minus generation from PhotoVoltaic Generation Resources and Wi
 
 ### What does net load forecast error affect?
 
-It sets the Regulation procurement target (95th percentile of five-minute net load forecast error) and feeds commitment decisions; the IMM puts the 2025 average error at about 452 MW. [e10][e9]
+It sets the Regulation procurement target (95th percentile of five-minute net load forecast error); the IMM puts the 2025 average error at about 452 MW. [e10][e9]
 
 ### Was 2024 a high or low year for peak net load?
 
-Low: 69.6 GW, about 10 GW lower than 2023, which the IMM attributes to more solar capacity and milder summer weather; it expected peak net load to rise in later years. [e4]
+Low: 69.6 GW, about 10 GW lower than 2023, which the IMM attributes to a sharp increase in solar capacity and milder summer weather. [e4]
 
 ## Scenarios
 

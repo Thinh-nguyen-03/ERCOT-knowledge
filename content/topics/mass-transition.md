@@ -10,22 +10,22 @@ as_of: 2026-11-18
 links:
   - to: polr
     type: related
-    note: A mass transition can move ESI IDs from a failing retailer to a Provider of Last Resort. [e1]
+    note: A mass transition can move ESI IDs from a Competitive Retailer to a Provider of Last Resort. [e1]
   - to: rep
     type: related
     note: The exiting and gaining parties are competitive retailers. [e1]
   - to: esi-id
     type: composed-of
-    note: A mass transition moves ESI IDs in bulk. [e1]
+    note: A mass transition moves ESI IDs in a quantity or timeframe identified by Applicable Legal Authority. [e1]
   - to: tx-set
     type: used-in
     note: The process runs on TX SET transactions such as the 814_03 and 814_14. [e3][e4]
   - to: qse
     type: related
-    note: Loss of QSE representation without a replacement can trigger a mass transition for an LSE. [e6]
+    note: ERCOT initiates a mass transition of an LSE's ESI IDs if its Emergency QSE fails to meet the requirements within the allotted time. [e6]
   - to: retailer-defaults-2021
     type: related
-    note: The 2021 retailer failures are the practical test of this process.
+    note: See the retailer-defaults-2021 topic for the 2021 retailer failures.
 evidence:
   - id: e1
     source: np-02
@@ -63,6 +63,10 @@ evidence:
     source: np-15
     locator: "Section 15.1.3.3(1)"
     quote: "All CRs participating in the Texas retail electric market shall provide, in accordance with the Retail Market Guide, current Customer billing contact information to ERCOT for use in the event of a Mass Transition."
+  - id: e10
+    source: np-16
+    locator: "Section 16.2.6.3(1)"
+    quote: "Within seven Business Days after receiving designation as an Emergency QSE, an Emergency QSE must either: (a) Designate a QSE that will represent the LSE or Resource Entity to ERCOT; or (b) Fulfill all QSE registration and qualification requirements."
 ---
 
 ## Definition
@@ -77,7 +81,7 @@ To prepare, every CR must give ERCOT current customer billing contact informatio
 
 ## ERCOT context
 
-Mass transition is the backstop in the market-participant default rules. ERCOT initiates one for an LSE's ESI IDs when an Emergency QSE that is an LSE fails to obtain a QSE or qualify as one in time, and also on revocation or termination of a defaulting Market Participant's rights or agreements, without a PUCT order. [e6][e7] ERCOT may also adjust the credit exposure of Counter-Parties for QSEs that are POLRs to reflect the load they would take on. [e8]
+ERCOT initiates a mass transition of an LSE's ESI IDs when an Emergency QSE that is an LSE fails, within the allotted time, to designate a QSE or fulfill QSE registration and qualification requirements [e10][e6], and also on revocation or termination of a defaulting Market Participant's rights or agreements, without a PUCT order. [e6][e7] ERCOT may also adjust the credit exposure of Counter-Parties for QSEs that are POLRs to reflect the load they would take on. [e8]
 
 ## Key facts
 
@@ -92,13 +96,13 @@ Mass transition is the backstop in the market-participant default rules. ERCOT i
 
 ## Common confusion
 
-(Guidance) It is not an ordinary switch: customers do not choose, and it runs on a special process because standard transactions do not support the volume. [e2] It also is not limited to retailer failure: the definition includes TDSP-to-TDSP transitions. [e1]
+(Guidance) It is not an ordinary switch: it runs on a special process because standard market transactions do not completely support moving ESI IDs in that quantity or timeframe. [e2] It also is not limited to retailer failure: the definition includes TDSP-to-TDSP transitions. [e1]
 
 ## Questions
 
 ### What triggers a mass transition for a retailer?
 
-Failure of an Emergency QSE that is an LSE to secure a QSE or qualify in time, or revocation or termination of a defaulting Market Participant's rights or agreements. [e6][e7]
+An Emergency QSE that is an LSE failing within the allotted time to designate a QSE or fulfill QSE registration and qualification requirements, or revocation or termination of a defaulting Market Participant's rights or agreements. [e10][e6][e7]
 
 ### Who gets the customers?
 

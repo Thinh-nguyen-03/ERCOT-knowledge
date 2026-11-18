@@ -10,19 +10,19 @@ as_of: 2026-11-18
 links:
   - to: sb6
     type: related
-    note: SB 6 directed the PUCT to set large load interconnection standards, which became 16 TAC §25.194. [e9]
+    note: 16 TAC §25.194 sets the standards for interconnecting a large load customer to the ERCOT system. [e9]
   - to: large-load-growth
     type: related
-    note: Batch Zero exists because the volume of large load requests made one-at-a-time studies unworkable. [e5]
+    note: ERCOT says each new large project could invalidate studies for projects farther along, causing costly restudies and delays. [e5]
   - to: long-term-load-forecast
     type: affects
-    note: The PUCT approved adjusting the 2026 long-term load forecast with the Batch Zero option, so Batch Zero delays also delay the forecast. [e18]
+    note: The PUCT approved ERCOT's request to adjust the long-term load forecast using the Option B methodology, which adjusts using Batch Zero Base Load per PGRR145. [e18][e26]
   - to: clr
     type: related
-    note: The Provisional Controllable Load Resource (PCLR) pathway is a CLR that ERCOT can curtail for local transmission constraints. [e8]
+    note: Customers on the Provisional Controllable Load Resource (PCLR) pathway let ERCOT curtail their controllable load when transmission constraints arise in their area. [e8]
   - to: large-flexible-load
     type: contrasts-with
-    note: Large flexible load is a PURA registration category for crypto mining; Batch Zero applies to any Large Load of 75 MW or more. [e1]
+    note: Large flexible load is a PURA registration category for virtual currency mining facilities; Batch Zero evaluates Large Loads that meet Planning Guide Section 9.2 requirements. [e29][e2]
   - to: permian-transmission
     type: related
     note: ERCOT says the TSP studies supporting Batch Zero would be invalidated if the STEP 765 kV additions were delayed or denied. [e19]
@@ -126,23 +126,43 @@ evidence:
     source: ercot-batch-zero-explainer
     locator: "Trending Topics: Batch Connection Process (June 18, 2026), WLPUN pathway"
     quote: "The batch framework recognizes that contribution and allows their on-site generation to offset the amount of transmission capacity they require, making it easier to connect at higher load levels."
+  - id: e25
+    source: puct-59142-good-cause-order
+    locator: "Project 59142, Order Granting Good Cause Exceptions (filed Aug. 20, 2026)"
+    quote: "In accordance with 16 TAC § 25.3(b), the Commission grants ERCOT a good cause exception from the requirements of 16 TAC § 25.361(b)(16) that ERCOT (1) classify Large Loads by the August 7,2026 deadline in accordance with ERCOT Planning Guide §§ 9.3.1(2)(a); and (2) include in the August 1 and November 1, 2026 QSAs only those Large Loads that ERCOT has classified as base load under ERCOT Planning Guide § 9.2.1.1(1)."
+  - id: e26
+    source: puct-59772-order
+    locator: "Project 59772, Order Granting Adjustment Request (June 2026), page 2"
+    quote: "Option B Methodology. Adjustment using Batch Zero Base Load per Planning Guide Revision Request (PGRR) 145"
+  - id: e27
+    source: ercot-batch-zero-explainer
+    locator: "Trending Topics: Batch Connection Process (June 18, 2026), pathways"
+    quote: "Besides streamlining the study process, the Batch Zero framework introduces two new optional pathways for large customers who want to connect in ways designed to reduce pressure on the transmission grid. They are the Withdrawal-Limited Private Use Network (WLPUN) and the Provisional Controllable Load Resource (PCLR) pathways to connection."
+  - id: e28
+    source: ercot-batch-zero-explainer
+    locator: "Trending Topics: Batch Connection Process (June 18, 2026), What is Batch Zero"
+    quote: "The process is laid out in two new rules: Planning Guide Revision Request 145 (PGRR145) governs the application and study process; Nodal Protocol Revision Request 1325 (NPRR1325) covers broader market rules."
+  - id: e29
+    source: pura-39
+    locator: "PURA §39.361(b), Large Flexible Load Registration"
+    quote: "The commission by rule shall require a person operating a virtual currency mining facility who enters into an agreement for retail electric service in the ERCOT power region to register the facility receiving service as a large flexible load under this section if:(1)  the facility requires a total load of more than 75 megawatts; and(2)  the facility load is interruptible."
 ---
 
 ## Definition
 
-A Large Load is one or more facilities at a single site with aggregate peak Demand of at least 75 MW behind common points of interconnection. [e1] The Batch Zero Process is a transitional interconnection process that evaluates qualifying Large Loads together, on a system-wide basis, rather than one at a time. [e2]
+A Large Load is one or more facilities at a single site with aggregate peak Demand of at least 75 MW behind common points of interconnection. [e1] The Batch Zero Process is a transitional interconnection process that evaluates qualifying Large Loads together, on a system-wide basis, rather than one at a time. [e2][e3]
 
 ## How it works
 
 Planning Guide Section 9 records the move from individual Large Load interconnection studies to the Batch Zero Process. Batch Zero has two parts: a Batch Zero Interconnection Study and a Batch Zero Refinement Study. [e3] ERCOT made the change because each new large project could invalidate studies for projects further along in the queue, which caused costly restudies and delays. [e5]
 
-Each request is sorted into base load, studied load or excluded load. Base load is a mature project that gets its full allocation without a restudy. Excluded load is deferred to a later batch. [e22] A studied load may get its full request, part of it, or be told to wait for a later batch if the grid cannot take it yet. [e4] There are two optional pathways. The first is the Withdrawal-Limited Private Use Network (WLPUN): a private network with both generation and a Large Load, whose withdrawal limit at its point of interconnection is set by ERCOT's system-wide study. [e23] The second is the Provisional Controllable Load Resource (PCLR). A PCLR site lets ERCOT curtail it when local transmission constraints bind, and in return it gets some grid access before the full transmission build-out. [e8]
+Each request is sorted into base load, studied load or excluded load. Base load is a mature project that gets its full allocation without a restudy. Excluded load is deferred to a later batch. [e22] A studied load may get its full request, part of it, or be told to wait for a later batch if the grid cannot take it yet. [e4] There are two optional pathways. [e27] The first is the Withdrawal-Limited Private Use Network (WLPUN): a private network with both generation and a Large Load, whose withdrawal limit at its point of interconnection is set by ERCOT's system-wide study. [e23] The second is the Provisional Controllable Load Resource (PCLR). A PCLR site lets ERCOT curtail it when local transmission constraints bind, and in return it gets some grid access before the full transmission build-out. [e8]
 
 The PUCT's interconnection standards in 16 TAC §25.194 set the rules for utilities connecting a large load customer in ERCOT. [e9] One of those rules is $50,000 per MW of financial security, posted with the utility, for a new request or for an expansion's added MW. [e10]
 
 ## ERCOT context
 
-Batch Zero is the second step in a short history. It was preceded by an interim process started in March 2022 [e15] and by the PGRR115 study process, which took effect on December 15, 2025. [e16] The rules (PGRR145 and NPRR1325) were adopted by the ERCOT Board on June 2, 2026 and approved by the PUCT on June 18, 2026. [e6][e7] Batch Zero and the WLPUN pathway took effect on July 11, 2026. [e7] In August 2026 ERCOT said it would pause the Batch Zero study until a verification and audit of data centers, directed by the Governor, was complete. [e11]
+Batch Zero was preceded by an interim process started in March 2022 [e15] and by the PGRR115 requirements, which ERCOT said would be effective on December 15, 2025. [e16] The Batch Zero rules (PGRR145 and NPRR1325) [e28] were adopted by the ERCOT Board on June 2, 2026 and approved by the PUCT on June 18, 2026. [e6] Batch Zero and the WLPUN pathway took effect on July 11, 2026. [e7] In August 2026 ERCOT said it intends to temporarily pause the Batch Zero study until a verification and audit of data centers, directed by the Governor, was complete. [e11]
 
 The sizes involved are very large and depend on the date. As of July 28, 2026, ERCOT said about 205 GW of Large Load was eligible for Batch Zero based on existing studies. [e12] By September 2026, ERCOT said the conditional base and studied load totalled about 100 GW in 2028, rising to about 192 GW in 2032. [e13] The IMM's 2025 report argues that a resource adequacy constraint should be applied in load interconnection, so that ERCOT does not approve more new load than is physically feasible. [e14]
 
@@ -153,7 +173,7 @@ The sizes involved are very large and depend on the date. As of July 28, 2026, E
 - Decided: ERCOT Board adoption on June 2, 2026; PUCT approval on June 18, 2026. [e6]
 - Batch Zero and WLPUN effective July 11, 2026. The PCLR pathway takes effect "upon system implementation", so it is still pending. [e7][e21]
 - §25.194 sets security of $50,000 per MW of requested peak demand. [e10]
-- Pending: the Batch Zero study was paused in August 2026 for a verification and audit. [e11]
+- Pending: ERCOT said in August 2026 that it intends to pause the Batch Zero study until a verification and audit is complete. [e11]
 - Batch 1 applications are planned to open in summer 2027 (as stated June 18, 2026). [e17]
 
 ## Timeline
@@ -164,14 +184,14 @@ The sizes involved are very large and depend on the date. As of July 28, 2026, E
 - June 18, 2026: the PUCT approves the rules, making them final. [e6]
 - July 11, 2026: Batch Zero and WLPUN take effect. [e7]
 - July 28, 2026 (data date): about 205 GW is shown as eligible for Batch Zero based on existing studies. [e12]
-- August 2026: ERCOT plans to pause the Batch Zero study until the Governor-directed verification and audit is done. The PUCT grants good cause exceptions for the missed deadlines. [e11]
+- August 2026: ERCOT plans to pause the Batch Zero study until the Governor-directed verification and audit is done. The PUCT grants good cause exceptions, including from the August 7, 2026 deadline to classify Large Loads. [e25]
 - September 2026: the conditional base and studied load is about 100 GW in 2028 and about 192 GW in 2032. [e13]
 - October 8, 2026: §25.194 is in effect (the rule pages carry "effective 10/08/2026"). [e20]
 - Summer 2027 (planned as of June 2026): Batch 1 applications open. [e17]
 
 ## Say it like this
 
-(Guidance) ERCOT no longer studies big data centers one at a time. It studies every qualifying request together in "Batch Zero" and gives each project a MW allocation the grid can support. The rules were final in June 2026, but the study was paused in August 2026 for an audit, so allocations and the transmission plan that follows are still pending. [e6][e11]
+(Guidance) ERCOT no longer studies big data centers one at a time. It studies every qualifying request together in "Batch Zero" and gives each project a MW allocation the grid can support. The rules were final in June 2026, but in August 2026 ERCOT said it intends to pause the study for an audit, so allocations and the transmission plan that follows are still pending. [e6][e11]
 
 ## Common confusion
 
@@ -185,11 +205,11 @@ Studying projects one at a time meant every new project could invalidate earlier
 
 ### What is the status of Batch Zero as of late 2026?
 
-The rules were approved by the PUCT on June 18, 2026 and took effect on July 11, 2026. [e6][e7] In August 2026 ERCOT said it would pause the study for a verification and audit, and the PUCT gave it relief from the August 7 classification deadline. [e11]
+The rules were approved by the PUCT on June 18, 2026 and took effect on July 11, 2026. [e6][e7] In August 2026 ERCOT said it would pause the study for a verification and audit, and the PUCT granted a good cause exception from the August 7, 2026 deadline to classify Large Loads. [e11][e25]
 
 ### How can a data center connect faster than the queue allows?
 
-It can use one of two optional pathways. A WLPUN lets on-site generation offset the transmission capacity the site needs. A PCLR lets ERCOT curtail the site during local constraints in exchange for earlier access. [e24][e8] The PCLR pathway is not yet in effect. [e21]
+It can use one of two optional pathways. [e27] A WLPUN lets on-site generation offset the transmission capacity the site needs. A PCLR lets ERCOT curtail the site during local constraints in exchange for earlier access. [e24][e8] The PCLR pathway is not yet in effect. [e21]
 
 ## Open items
 

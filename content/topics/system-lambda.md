@@ -51,7 +51,7 @@ evidence:
   - id: e6
     source: np-04
     locator: "Section 4.6.1.2, variable table for Load Zone DASPP"
-    quote: "Day-Ahead System LambdaThe DAM Shadow Price for the system power balance constraint for the hour."
+    quote: "The DAM Shadow Price for the system power balance constraint for the hour."
   - id: e7
     source: np-06
     locator: "Section 6.6.1, paragraph (1)(a)-(b)(iii), de-energized Electrical Buses"
@@ -92,7 +92,7 @@ A Shadow Price measures the marginal value of a commodity: the rate at which sys
 
 In real time, ERCOT uses System Lambda from SCED Step 2, and it is capped at the effective Value of Lost Load. [e3] Where an Electrical Bus LMP is above the effective VOLL, it is reset to the greater of the effective VOLL or the initial LMP minus the positive difference between System Lambda and the effective VOLL. ERCOT posts both capped and uncapped values of System Lambda to its website. [e3] Separately, the cost SCED calculates to resolve one more MW on the power balance constraint is limited to a maximum Shadow Price for that constraint set under Section 22, Attachment P. [e4]
 
-In the day-ahead, the Settlement Point Price formulas for Load Zones carry a Day-Ahead System Lambda term, defined as the DAM Shadow Price for the system power balance constraint for the hour. [e6]
+In the day-ahead, the Settlement Point Price formulas for Load Zones carry a system-wide term (the day-ahead counterpart of System Lambda), defined as the DAM Shadow Price for the system power balance constraint for the hour. [e6]
 
 ## ERCOT context
 
@@ -105,7 +105,7 @@ It is also a fallback price: when ERCOT must assign an LMP to a de-energized Ele
 - System Lambda is the Shadow Price for the power balance constraint and the energy component of LMP at each Settlement Point. [e1]
 - Real-time System Lambda and MCPCs from SCED Step 2 are capped at the effective VOLL; ERCOT posts capped and uncapped values. [e3]
 - The Real-Time Reliability Deployment Price Adder for Energy is built from the difference between two System Lambda values. [e5]
-- Day-ahead Load Zone Settlement Point Price formulas use a Day-Ahead System Lambda: the DAM Shadow Price for the system power balance constraint for the hour. [e6]
+- Day-ahead Load Zone Settlement Point Price formulas use a system-wide term defined as the DAM Shadow Price for the system power balance constraint for the hour. [e6]
 - The Emergency Pricing Program activation test uses the sum of the RTM System Lambda and the reliability deployment adder. [e8]
 
 ## Say it like this

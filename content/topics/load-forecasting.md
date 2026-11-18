@@ -16,7 +16,7 @@ links:
     note: The long-term forecast is ERCOT's annual ten-year forecast built with econometric models. [e8][e9]
   - to: wind-solar-forecasts
     type: related
-    note: Net load forecast error combines load error and renewable forecast error. [e6]
+    note: The IMM discusses net load forecast error alongside under-forecast IRR generation and over-forecast load. [e6]
   - to: net-load
     type: related
     note: ERCOT's average net load forecast error fell to about 452 MW in 2025. [e6]
@@ -86,6 +86,14 @@ evidence:
     source: imm-som-2025
     locator: "Resource Adequacy, 4. Long-Term Load Forecast"
     quote: "The forecast includes five major components: base economic load, large flexible loads (LFLs), electric vehicle (EV) load, rooftop photovoltaic (PV) generation, and large loads."
+  - id: e15
+    source: ercot-ltlf-2025
+    locator: "2025 LTLF Report, Weather Zone Normal Weather Hourly Forecast methodology"
+    quote: "This process was completed for each of the historical weather years (2008-2024) individually and resulted in seventeen weather load forecast scenarios for each weather zone for each of the forecasted years (2025-2034)."
+  - id: e16
+    source: np-02
+    locator: "Section 2.1, definition of Net Load"
+    quote: "The Load for a given period minus generation from PhotoVoltaic Generation Resources (PVGRs) and Wind Generation Resources (WGRs) for the same period."
 ---
 
 ## Definition
@@ -96,7 +104,7 @@ Under the Protocols, ERCOT produces and uses Load forecasts to serve operations 
 
 The Seven-Day Load Forecast predicts hourly Loads for the next 168 hours from current weather forecast parameters in each Weather Zone, because Day-Ahead operations require an accurate forecast of the Loads for which capacity must be secured. [e4] ERCOT reviews the result and may modify it with judgment before it is used in the Ancillary Service Capacity Monitor, DRUC, HRUC and resource adequacy reporting. [e5] The 36-Month Load Forecast gives daily minimum and maximum Load and is used in outage coordination and resource adequacy reporting. [e3]
 
-For the long term, ERCOT prepares at least annually a forecast of hourly Loads for a minimum of ten years using an econometric forecast with weather conditions and demographic data. [e12] The 2025 forecast document describes econometric models of hourly load as a function of premises by customer class, weather variables and calendar variables, and a normal-weather summer peak formed by averaging the summer peaks from seventeen historical weather-year scenarios. [e8][e11]
+For the long term, ERCOT prepares at least annually a forecast of hourly Loads for a minimum of ten years using an econometric forecast with weather conditions and demographic data. [e12] The 2025 forecast document describes econometric models of hourly load as a function of premises by customer class, weather variables and calendar variables, and a normal-weather summer peak formed by averaging the summer peaks from seventeen weather scenarios, which are built from actual weather for 2008 through 2024. [e8][e11][e15]
 
 ## ERCOT context
 
@@ -108,15 +116,15 @@ Forecast accuracy affects commitment. The IMM says an over-forecast of net deman
 - 36-Month Load Forecast: monthly, daily min and max Load. [e3]
 - Intra-Hour Load Forecast: rolling two hours in five-minute increments, ERCOT-wide. [e7]
 - 2025 average net load forecast error about 452 MW; load over-forecast on average (IMM). [e6]
-- Long-term forecasts use seventeen weather-year scenarios (2008-2024) in the 2025 document. [e11]
+- Long-term forecasts use seventeen weather-year scenarios (2008-2024) in the 2025 document. [e11][e15]
 
 ## Say it like this
 
-(Guidance) ERCOT runs three load forecasts on different horizons, with weather as the main short-term driver, and operators can override the model. The practical risk is bias: the IMM finds load is on average over-forecast, which matters for commitment and reserve procurement.
+(Guidance) ERCOT runs three load forecasts on different horizons, with weather as the main short-term driver, and operators can override the model. The practical risk is bias: the IMM finds load is on average over-forecast, which matters for commitment. [e10]
 
 ## Common confusion
 
-(Guidance) The load forecast is gross load; the commitment-relevant number is the net load forecast, which also subtracts expected wind and solar. [e10] Also keep the short-term operational forecast separate from the long-term (LTLF) forecast used for planning. [e12]
+(Guidance) Net Load is Load minus wind and PV generation [e16], and the IMM ties commitment risk to the net demand forecast rather than load alone. [e10] Also keep the short-term operational forecast separate from the long-term (LTLF) forecast used for planning. [e12]
 
 ## Questions
 

@@ -16,7 +16,7 @@ links:
     note: EEA Level 3 is where ERCOT directs transmission owners to shed firm load. [e7]
   - to: ordc
     type: related
-    note: See the ORDC topic for how reserve shortage is priced; this topic covers the EEA procedure.
+    note: See the ORDC topic for how reserve shortage was priced before RTC retired the ORDC adder; this topic covers the EEA procedure.
   - to: offer-cap
     type: related
     note: The PUCT scarcity pricing rule defines emergency operations as ERCOT entering any EEA level. [e11]

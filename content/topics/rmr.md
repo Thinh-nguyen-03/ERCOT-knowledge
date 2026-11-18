@@ -16,13 +16,13 @@ links:
     note: ERCOT allocates the cost of RMR agreements to LSEs. [e12]
   - to: resource-adequacy
     type: related
-    note: RMR is the local-reliability stopgap when a unit would otherwise suspend operations and market solutions do not exist. [e1]
+    note: RMR service can be procured after a Notification of Suspension of Operations, for a unit needed for localized reliability where market solutions do not exist. [e1][e3]
   - to: ers
     type: related
     note: A resource with an existing ERS obligation may propose to serve as an alternative to an RMR unit. [e14]
   - to: ffss
     type: related
-    note: FFSS and RMR are both procured by agreement under protocol Section 3.14. [e3]
+    note: RMR is procured under protocol Section 3.14.1 (FFSS is covered in the ffss topic). [e3]
   - to: ruc
     type: contrasts-with
     note: RUC is a separate reliability commitment process; compare it with RMR, which is a contract for a unit that would otherwise not operate. [e1]
@@ -100,7 +100,7 @@ RMR is voluntary for the owner: a Resource Entity cannot be compelled to sign, a
 
 ## ERCOT context
 
-The IMM reports that the ERCOT Board approved RMR service on February 24, 2025 for Braunig Unit 3, which has an HSL of about 410 MW. [e9] The IMM counts RMR settlement as part of the 2025 uplift, with RMR uplift the largest contributor to the increase at $68 million of $668 million in total uplift. [e10] The units were barely used: maximum aggregate output of RMR units has been under 40 MW. [e11] ERCOT allocates the cost of RMR agreements to LSEs. [e12]
+The IMM reports that the ERCOT Board approved RMR service on February 24, 2025 for Braunig Unit 3, which has an HSL of about 410 MW. [e9] The IMM counts RMR settlement as part of the 2025 uplift, with RMR uplift the largest contributor to the increase at $68 million of $668 million in total uplift. [e10] The IMM also reports that since the beginning of the RMR period the mobile generating units have produced about 1,226 MWh, and the maximum aggregate output of RMR units has been under 40 MW. [e11] ERCOT allocates the cost of RMR agreements to LSEs. [e12]
 
 ERCOT has proposed changes. For example, NPRR 1330 (proposed April 2026) would set mitigated offer caps for RMR units so they do not interfere with market outcomes. [e13]
 
@@ -140,4 +140,5 @@ The IMM says ERCOT allocates RMR costs to LSEs, and RMR settlement counts in the
 - Deeper pass: the Must-Run Alternative service section (3.14.4) sits inside a pending NPRR box in the saved protocol text, so it is not quoted; MRA detail comes only from the definition.
 - Deeper pass: the PUCT's 25.502 treatment of RMR, referenced by the IMM, was not read.
 - The IMM discusses Contracts for Capacity (C4C) as a related construct; not sourced here.
+- The IMM's e11 figures (RMR units under 40 MW output, mobile generating units) are not tied in the saved text to the 410 MW Braunig Unit 3 approval; whether they cover the same units is unclear.
 - NPRR 1313 (variable initial standby cost) and NPRR 1330 status after the IMM report's date are not confirmed.

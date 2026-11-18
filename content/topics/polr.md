@@ -13,19 +13,19 @@ links:
     note: A mass transition moves ESI IDs from a failing competitive retailer to a POLR or designated CR. [e5]
   - to: rep
     type: related
-    note: POLR providers are REPs designated or volunteering under PUCT rules. [e1][e3]
+    note: The PUCT designates retail electric providers to serve as providers of last resort. [e1]
   - to: retail-choice
     type: part-of
     note: POLR applies in areas where customer choice is in effect. [e1]
   - to: puct
     type: related
-    note: The PUCT designates POLR providers and sets the rules in 16 TAC 25.43. [e1][e2]
+    note: The PUCT designates POLR providers and sets requirements for POLR service in 16 TAC 25.43. [e1][e3]
   - to: esi-id
     type: related
-    note: Transitioned customers are counted as ESI IDs served by a POLR provider after a mass transition. [e4]
+    note: A mass transition moves ESI IDs to a POLR or designated CR. [e5]
   - to: retailer-defaults-2021
     type: related
-    note: The 2021 retailer failures are the practical test of POLR and mass transition.
+    note: See the retailer-defaults-2021 topic for the 2021 retailer failures.
 evidence:
   - id: e1
     source: pura-39
@@ -67,6 +67,18 @@ evidence:
     source: puct-25-43
     locator: "16 TAC 25.43(b), Application"
     quote: "This section does not apply when an electric cooperative or a municipally owned utility (MOU) designates a POLR provider for its certificated service area. However, this section is applicable when an electric cooperative delegates its authority to the commission in accordance with subsection (r) of this section to select a POLR provider for the electric cooperative’s service area."
+  - id: e11
+    source: puct-25-43
+    locator: "16 TAC 25.43(m)(2)(A), LSP residential rate"
+    quote: "Subparagraphs (A)-(C) of this paragraph establish the maximum rate for POLR service charged by an LSP. An LSP may charge a rate less than the maximum rate if it charges the lower rate to all customers in a mass transition that are in the same class and POLR area. (A) Residential customers. The LSP rate for the residential customer class must be determined by the following formula:"
+  - id: e12
+    source: puct-25-43
+    locator: "16 TAC 25.43(c), definition of VREP"
+    quote: "Voluntary retail electric provider (VREP) -- A REP that has volunteered to provide POLR service pursuant to subsection (i) of this section."
+  - id: e13
+    source: puct-25-43
+    locator: "16 TAC 25.43(c), definition of LSP"
+    quote: "Large service provider (LSP) -- A REP that is designated to provide POLR service pursuant to subsection (j) of this section."
 ---
 
 ## Definition
@@ -75,20 +87,20 @@ A Provider of Last Resort (POLR) is a retail electric provider the PUCT designat
 
 ## How it works
 
-PUCT rule 25.43 makes POLR service available to any requesting retail customer and to customers ERCOT transfers because their REP failed to provide service or meet its obligations to ERCOT. [e3] There are two types of POLR providers: voluntary REPs (VREPs) and large service providers (LSPs). There are four customer classes: residential, small non-residential, medium non-residential and large non-residential. [e4] A POLR provider offers a basic standard service package, limited to basic firm service and call center facilities. [e9] POLR providers serve two-year terms. [e8]
+PUCT rule 25.43 makes POLR service available to any requesting retail customer and to customers ERCOT transfers because their REP failed to provide service or meet its obligations to ERCOT. [e3] There are two types of POLR providers, VREPs and LSPs. A VREP is a REP that has volunteered to provide POLR service, and an LSP is a REP designated to provide it. [e4][e12][e13] There are four customer classes: residential, small non-residential, medium non-residential and large non-residential. [e4] A POLR provider offers a basic standard service package, limited to basic firm service and call center facilities. [e9] POLR providers serve two-year terms. [e8]
 
-Pricing differs by type. A VREP must use a market-based, month-to-month product. [e6] An LSP's rate for residential customers is capped by a formula whose energy charge is the prior month's average real-time SPP for the load zone multiplied by 120%. [e7]
+Pricing differs by type. A VREP must use a market-based, month-to-month product. [e6] The rule sets a maximum rate for POLR service charged by an LSP, with a formula for the residential class. [e11] Under it, beginning on the 10th of each month the LSP energy charge is the preceding month's average real-time SPP for the applicable load zone, applied to the customer's kWh and multiplied by 120%. [e7]
 
 ## ERCOT context
 
-When a retailer fails, ERCOT moves its customers in a mass transition, defined in the Protocols as the transition of ESI IDs from a competitive retailer to a POLR or designated CR. [e5] The PUCT sets who is eligible and the service terms. [e1][e3]
+When a retailer fails, ERCOT moves its customers in a mass transition, defined in the Protocols as the transition of ESI IDs from a competitive retailer to a POLR or designated CR. [e5] The PUCT designates POLR providers and sets requirements for POLR service. [e1][e3]
 
 ## Key facts
 
 - PURA requires the PUCT to designate POLRs where customer choice is in effect. [e1]
 - Two POLR types (VREP, LSP) and four customer classes. [e4]
 - POLR providers serve two-year terms. [e8]
-- The LSP residential energy charge is 120% of the prior month's average real-time SPP for the load zone. [e7]
+- The LSP energy charge is the preceding month's average real-time SPP for the load zone times the customer's kWh, multiplied by 120%. [e7]
 - A VREP serves on a market-based, month-to-month product. [e6]
 
 ## Say it like this
@@ -107,7 +119,7 @@ A POLR provider: customers are transferred by ERCOT to a VREP or LSP, with no in
 
 ### How is the LSP's residential rate set?
 
-By the 16 TAC 25.43(m)(2) formula, where the energy charge is the preceding month's average real-time SPP for the load zone times 120%. [e7]
+By the 16 TAC 25.43(m)(2) formula, which sets a maximum rate. Its energy charge is the preceding month's average real-time SPP for the load zone, applied to the customer's kWh and multiplied by 120%. [e11][e7]
 
 ## Open items
 

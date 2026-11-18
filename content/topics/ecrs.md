@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: ancillary-services
     type: part-of
-    note: ECRS is one of the ancillary services in the AS Plan; see that topic for plan, obligations and cost. [e9]
+    note: ECRS is an Ancillary Service; see that topic for plan, obligations and cost. [e1]
   - to: rrs
     type: related
     note: ECRS restores RRS after a deviation that significantly depletes it. [e1]
@@ -61,8 +61,8 @@ evidence:
     quote: "ECRS is the latest addition to ERCOT’s suite of ancillary services. Its purpose is to restore frequency within 10 minutes of a significant frequency deviation and recover deployed regulation service. It also compensates for intra-hour net load forecast uncertainty. ECRS can be provided by online and offline units."
   - id: e9
     source: imm-som-2025
-    locator: "Chapter III.B, Ancillary Services Market"
-    quote: "Since June 2023, ancillary services in the ERCOT market include the following:"
+    locator: "Section F, Impact of ECRS on Real-Time Market Prices"
+    quote: "The implementation of ECRS in June 2023 had a profound impact on the ERCOT wholesale market because its restrictive deployment criteria created high prices from artificial shortage conditions."
   - id: e10
     source: imm-som-2025
     locator: "Chapter III.A.1, Ancillary Services Procurement Targets"
@@ -89,21 +89,21 @@ ERCOT deploys ECRS by Dispatch Instruction over ICCP to resources with status ON
 
 ## ERCOT context
 
-The IMM calls ECRS the latest addition to ERCOT's ancillary services, in the market since June 2023, and describes its purpose as restoring frequency within 10 minutes and recovering deployed regulation, as well as covering intra-hour net load forecast uncertainty. [e8][e9] In 2025 ECRS procurement volume fell by over 19% because the "adjustment for risk coverage" during sunset hours was removed, and ESRs supplied 42% of ECRS. [e10][e11]
+The IMM calls ECRS the latest addition to ERCOT's ancillary services, implemented in June 2023, and describes its purpose as restoring frequency within 10 minutes and recovering deployed regulation, as well as covering intra-hour net load forecast uncertainty. [e8][e9] In 2025 ECRS procurement volume fell by over 19% because the "adjustment for risk coverage" during sunset hours was removed, and ESRs supplied 42% of ECRS. [e10][e11]
 
-The IMM also reports that the ECRS duration requirement was two hours until RTC went live and is one hour since, under NPRR 1282. [e12] The protocol text quoted above, in the definition and Section 3.17.4, still says two consecutive hours, so treat the duration as an open point. [e1]
+The IMM also reports that the ECRS duration requirement was two hours until RTC went live and is one hour since, under NPRR 1282. [e12] The protocol definition quoted above still says two consecutive hours, so treat the duration as an open point. [e1]
 
 ## Key facts
 
 - ECRS is capacity sustained for two consecutive hours under the definition in the Protocols. [e1]
 - ECRS is deployable on ten minutes' notice. [e2]
 - Load resources other than CLRs may provide up to 50% of the total ECRS requirement. [e4]
-- ECRS has been in the market since June 2023. [e9]
+- ECRS was implemented in June 2023. [e9]
 - In 2025 ESRs provided 42% of ECRS and the ECRS procurement volume fell by over 19%. [e10][e11]
 
 ## Say it like this
 
-ECRS is the contingency reserve that backs up RRS and regulation: it restores frequency within ten minutes and supplies energy before or during an emergency. It can come from generators, quick-start units, batteries and load. [e1][e3][e6]
+ECRS is the contingency reserve that backs up RRS and regulation: it restores frequency within ten minutes and supplies energy before or during an emergency. It can come from generators, quick-start units and load, and ESRs supply a large share. [e1][e3][e6][e11]
 
 ## Common confusion
 

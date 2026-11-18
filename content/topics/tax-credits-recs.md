@@ -16,7 +16,7 @@ links:
     note: Public Law 119-21 ends 45Y and 48E for wind facilities placed in service after 2027, subject to the construction-start effective date. [e1][e4]
   - to: solar-generation
     type: related
-    note: The same 2027 placed-in-service cutoff applies to solar facilities. [e1][e2]
+    note: The same 2027 placed-in-service cutoff applies to solar facilities, which the law lists as an applicable facility alongside wind. [e1][e14][e2]
   - to: energy-storage-resource
     type: contrasts-with
     note: The 48E wind and solar termination does not apply to energy storage placed in service at those facilities. [e3]
@@ -25,7 +25,7 @@ links:
     note: A REC can trade separately from energy, so renewable attributes can be bought apart from the power. [e7]
   - to: ercot
     type: operates
-    note: ERCOT administers the Texas REC Trading Program and its accreditation and banking system. [e6][e8]
+    note: ERCOT administers the REC Trading Program, and PURA 39.9113 has the ERCOT-region independent organization keep an accreditation and banking system. [e6][e8]
 evidence:
   - id: e1
     source: fed-pl-119-21
@@ -79,27 +79,31 @@ evidence:
     source: hb1500-88r
     locator: "HB 1500 (2023), SECTION 10, amending Utilities Code Sec. 36.053(d)"
     quote: "to facilitate meeting the goal for generating capacity from renewable energy technologies under former Section 39.904(a)"
+  - id: e14
+    source: fed-pl-119-21
+    locator: "Public Law 119-21, Sec. 70512(a), amending 26 USC 45Y(d), applicable facility, clause (ii)"
+    quote: "``(ii) uses solar energy to produce electricity (within the meaning of such term as used in section 45(d)(4), as determined without regard to any requirement under such section with respect to the date on which construction of property begins)."
 ---
 
 ## Definition
 
-This topic covers two separate things. The federal clean electricity credits are the production credit in 26 USC 45Y and the investment credit in 48E, which Public Law 119-21 (July 4, 2025) ends for wind and solar facilities placed in service after December 31, 2027. [e12][e1][e2] A Texas renewable energy credit (REC) is a tradable instrument representing all the renewable attributes of one MWh from a certified renewable generator, and it can trade separately from energy. [e7]
+This topic covers two separate things. The federal clean electricity credits are the production credit in 26 USC 45Y and the investment credit in 48E, which Public Law 119-21 (July 4, 2025) ends for wind and solar facilities placed in service after December 31, 2027. [e12][e1][e14][e2] A Texas renewable energy credit (REC) is a tradable instrument representing all the renewable attributes of one MWh from a certified renewable generator, and it can trade separately from energy. [e7]
 
 ## How it works
 
-Federal credits: for wind and solar "applicable facilities", 45Y does not apply to a facility placed in service after December 31, 2027, and 48E does not apply to qualified property placed in service after that date. [e1][e2] These terminations apply only to facilities whose construction begins more than 12 months after the law's enactment. [e4][e12] The 48E termination does not apply to energy storage technology placed in service at a wind or solar facility. [e3] Separately, facilities whose construction begins after December 31, 2025 lose 45Y eligibility if construction includes material assistance from a prohibited foreign entity. [e5]
+Federal credits: for wind and solar "applicable facilities", 45Y does not apply to a facility placed in service after December 31, 2027, and 48E does not apply to qualified property placed in service after that date. [e1][e14][e2] These terminations apply only to facilities whose construction begins more than 12 months after the law's enactment. [e4][e12] The 48E termination does not apply to energy storage technology placed in service at a wind or solar facility. [e3] Separately, facilities whose construction begins after December 31, 2025 lose 45Y eligibility if construction includes material assistance from a prohibited foreign entity. [e5]
 
-RECs: ERCOT keeps the accreditation and banking system that awards and tracks voluntary RECs. [e6] RECs are issued quarterly based on metered MWh and can be traded, transferred and retired; each has a useful life of three compliance periods. [e7][e11]
+RECs: PURA 39.9113 has the independent organization certified for the ERCOT region keep an accreditation and banking system that awards and tracks voluntary RECs. [e6] ERCOT distributes RECs to REC generators quarterly, they may trade separately from energy, and each has a useful life of three compliance periods. [e7][e11]
 
 ## ERCOT context
 
 The credits affect ERCOT prices through offer behavior. The IMM says 35% of real-time generation capacity was offered at or below $0 in 2025 (32% in 2024), mostly from wind and solar resources that keep producing at negative prices because many receive federal production tax credits. [e10]
 
-The Texas REC market is now voluntary. HB 1500 repealed PURA 39.904, which held the state's goal for renewable generating capacity. [e9][e13] The REC Trading Program, effective July 1, 2001, became a voluntary market on September 1, 2025, and PURA 39.9113 now asks ERCOT to track voluntary RECs. [e8][e6]
+The Texas REC market is now voluntary. HB 1500 repealed PURA 39.904, which held the state's goal for renewable generating capacity. [e9][e13] The REC Trading Program, effective July 1, 2001, became a voluntary market on September 1, 2025, and PURA 39.9113 has the ERCOT-region independent organization track voluntary RECs. [e8][e6]
 
 ## Key facts
 
-- 45Y and 48E: no credit for wind or solar placed in service after December 31, 2027 (Public Law 119-21). [e1][e2]
+- 45Y and 48E: no credit for wind or solar placed in service after December 31, 2027 (Public Law 119-21). [e1][e14][e2]
 - The termination covers facilities that begin construction more than 12 months after enactment (enacted July 4, 2025). [e4][e12]
 - Storage placed at a wind or solar facility is excepted from the 48E termination. [e3]
 - Texas REC program became voluntary on September 1, 2025. [e8]
@@ -107,7 +111,7 @@ The Texas REC market is now voluntary. HB 1500 repealed PURA 39.904, which held 
 
 ## Say it like this
 
-(Guidance) The 2025 federal law ends the new tech-neutral credits for wind and solar placed in service after 2027, but projects that started construction within a year of July 2025 are outside that cutoff, and storage at those sites is excepted from the 48E cutoff. In Texas the REC market is now voluntary and run by ERCOT, so RECs back voluntary renewable claims rather than a state mandate. [e1][e4][e3][e8]
+(Guidance) The 2025 federal law ends the 45Y and 48E clean electricity credits for wind and solar placed in service after 2027, but projects that started construction within a year of July 2025 are outside that cutoff, and storage at those sites is excepted from the 48E cutoff. In Texas the REC market is now voluntary and run by ERCOT, so RECs back voluntary renewable claims rather than a state mandate. [e1][e4][e3][e8]
 
 ## Common confusion
 
@@ -117,7 +121,7 @@ The Texas REC market is now voluntary. HB 1500 repealed PURA 39.904, which held 
 
 ### What did Public Law 119-21 change for wind and solar?
 
-It ended 45Y and 48E for wind and solar facilities placed in service after December 31, 2027, for facilities whose construction begins more than 12 months after enactment. [e1][e2][e4] It also added a prohibited-foreign-entity material assistance test for facilities beginning construction after 2025. [e5]
+It ended 45Y and 48E for wind and solar facilities placed in service after December 31, 2027, for facilities whose construction begins more than 12 months after enactment. [e1][e14][e2][e4] It also added a prohibited-foreign-entity material assistance test for facilities beginning construction after 2025. [e5]
 
 ### Why do tax credits show up in ERCOT negative prices?
 

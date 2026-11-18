@@ -13,7 +13,7 @@ links:
     note: A CLR is a Load Resource, one of the Resource types. [e1][e2]
   - to: sced
     type: used-in
-    note: CLRs submit bids and receive base points through SCED. [e3]
+    note: CLRs can submit bids to buy electricity in SCED, and ERCOT can dispatch them down when the clearing price exceeds those bids. [e3]
   - to: ers
     type: contrasts-with
     note: Many crypto mines left CLR status for ERS in 2025. [e5]
@@ -25,7 +25,7 @@ links:
     note: Large price-responsive loads such as crypto mines are the CLR population in the IMM's account. [e4][e5]
   - to: resource-entity
     type: related
-    note: A Load Resource is owned or controlled by a Resource Entity.
+    note: A Load Resource is owned or controlled by a Resource Entity. [e9]
 evidence:
   - id: e1
     source: np-02
@@ -59,6 +59,10 @@ evidence:
     source: imm-som-2025
     locator: "Executive summary, 2025"
     quote: "We support measures that incentivize these price-responsive loads to register as CLRs, including NPRR 1188, which will introduce nodal pricing for CLRs, and NPRR 1244, which allows loads to register as CLRs even if they cannot provide primary frequency response. Both NPRRs are scheduled for implementation in January 2027."
+  - id: e9
+    source: np-02
+    locator: "Section 2.1, definition of Resource Entity"
+    quote: "An Entity that owns or controls a Generation Resource, an Energy Storage Resource (ESR), a Settlement Only Generator (SOG), or a Load Resource and is registered with ERCOT as a Resource Entity."
 ---
 
 ## Definition
@@ -82,7 +86,7 @@ In 2025 all 12 registered CLRs were cryptocurrency mines. [e4] The IMM reports t
 
 ## Say it like this
 
-(Guidance) A CLR is a load that ERCOT can dispatch down in SCED against its own bid curve. Today that is essentially crypto miners, and many have chosen ERS instead.
+(Guidance) A CLR is a load that ERCOT can dispatch down in SCED against its own bid curve. As of 2025 that was entirely crypto miners, and many had moved to ERS. [e4][e5]
 
 ## Common confusion
 

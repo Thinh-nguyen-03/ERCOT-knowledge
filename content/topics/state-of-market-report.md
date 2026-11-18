@@ -78,7 +78,7 @@ The 2025 report is written by Potomac Economics as IMM and presents its assessme
 
 ## ERCOT context
 
-For 2025 the report gives average electricity demand about 6.1% higher than in 2024, an increase of approximately 3,205 MW. [e6] It also highlights crypto-currency mining demand of about 4,600 MW in 2025, and says cryptocurrency mining accounted for more than half of ERS capacity by the end of 2025. [e7][e8]
+For 2025 the report says average electricity demand about 6.1% higher than in 2024, an increase of approximately 3,205 MW. [e6] It also highlights crypto-currency mining demand of about 4,600 MW in 2025, and says cryptocurrency mining accounted for more than half of ERS capacity by the end of 2025. [e7][e8]
 
 ## Key facts
 

@@ -22,13 +22,13 @@ links:
     note: See the sb6 topic for the statute on large load interconnection and curtailment.
   - to: resource-adequacy
     type: affects
-    note: The IMM finds that ERCOT could absorb more than 3 GW of new load in 2025 conditions without more frequent shortages. [e10]
+    note: The IMM finds the system can serve several GW of additional large-load demand while keeping operating reserves and shortage frequency comparable to before 2022. [e10]
   - to: permian-transmission
     type: related
-    note: ERCOT has flagged a Far West Texas local load shed risk that grows as more load connects there. [e16]
+    note: ERCOT has flagged a Far West Texas local load shed risk during low wind conditions at night. [e16]
   - to: four-cp
     type: related
-    note: Large loads cut about 492 MW for 4CP at the July 2026 peak. [e11]
+    note: ERCOT estimated the maximum 4CP reduction at about 492 MW on the 22 July 2026 record day. [e11]
 evidence:
   - id: e1
     source: np-02
@@ -65,7 +65,7 @@ evidence:
   - id: e9
     source: ercot-ltlf-2025
     locator: "2025 LTLF Report (April 8, 2025), ERCOT's Adjustment to Large Load Forecast"
-    quote: "The average peak consumption per site was 49.8% of the requested MW."
+    quote: "The next adjustment was applied to Data Centers. ERCOT studied requested MWs versus the peak consumption by Data Center site for Data Centers with in-service dates in 2022 through 2024. The average peak consumption per site was 49.8% of the requested MW."
   - id: e10
     source: imm-som-2025
     locator: "2025 State of the Market Report, Demand and Supply, Potential Impacts of Load Growth"
@@ -73,7 +73,7 @@ evidence:
   - id: e11
     source: ercot-summer-2026-review
     locator: "Summer 2026 Operational and Market Review (Sept. 2026), peak demand slide"
-    quote: "The maximum reduction from cryptomining loads was about 3,299 MW and the estimated maximum Four Coincident Peak (4CP) reduction was about 492 MW."
+    quote: "On 7/22/2026, ERCOT set the all-time demand record at 91,134 MW during HE19. Demand response was observed during the peak hours. The maximum reduction from cryptomining loads was about 3,299 MW and the estimated maximum Four Coincident Peak (4CP) reduction was about 492 MW."
   - id: e12
     source: imm-som-2025
     locator: "2025 State of the Market Report, Executive Summary"
@@ -97,7 +97,7 @@ evidence:
   - id: e17
     source: ercot-interconnection-update-2026-09
     locator: "Interconnection and Grid Analysis Update to the Board (Sept. 14-15, 2026), slide 5, Ride-Through status"
-    quote: "The PUCT approved NOGRR 282/ NPRR 1308 in July, effective on August 1."
+    quote: "NOGRR 282/ NPRR 1308: Implement ride-through requirements for Large Computational Loads. The PUCT approved NOGRR 282/ NPRR 1308 in July, effective on August 1."
   - id: e18
     source: ercot-batch-zero-gen-assumptions
     locator: "Batch Zero Generation Assumption Discussion (RPG, Sept. 22, 2026), slide 2"
@@ -106,13 +106,13 @@ evidence:
 
 ## Definition
 
-Large load growth is the wave of new Large Loads connecting to ERCOT. A Large Load is a site with aggregate peak Demand of 75 MW or more. [e1] Much of the wave is Large Computational Load, meaning sites where at least half the Demand is computational load such as data centers and crypto mining. [e2] ERCOT says data centers, crypto operations and large industrial plants are asking to connect at a rate never seen before. [e3]
+Large load growth is the wave of new Large Loads connecting to ERCOT. A Large Load is a site with aggregate peak Demand of 75 MW or more. [e1] A Large Computational Load is a Large Load where at least half the Demand is computational load such as data centers and crypto mining, and data centers are about 87% to 90% of the queue. [e2][e6][e8] ERCOT says data centers, crypto operations and large industrial plants are asking to connect at a rate never seen before. [e3]
 
 ## How it works
 
-Requested MW are not the same as consumed MW. For data centers that came online in 2022 through 2024, average peak consumption per site was 49.8% of the MW they had requested. [e9] Crypto mining load was about 4,600 MW of demand in 2025. [e12] At the July 2026 peak, crypto loads cut up to about 3,299 MW, and loads avoiding 4CP charges cut about 492 MW. [e11]
+Requested MW are not the same as consumed MW. For data centers that came online in 2022 through 2024, average peak consumption per site was 49.8% of the MW they had requested. [e9] Crypto mining load was about 4,600 MW of demand in 2025. [e12] On the record peak day, 22 July 2026, the maximum reduction from cryptomining loads was about 3,299 MW and ERCOT estimated the maximum 4CP reduction at about 492 MW. [e11]
 
-The growth also brings operating risks that ERCOT is addressing one rule at a time. Large Computational Load ride-through rules (NOGRR 282/NPRR 1308) were approved by the PUCT in July and took effect August 1, 2026. [e17] A further limit of 10 MW per 5 seconds on Large Load power swings is only a draft NOGRR, so it is proposed and not in effect. [e13]
+The growth also brings operating risks that ERCOT is addressing one rule at a time. Ride-through requirements for Large Computational Loads (NOGRR 282/NPRR 1308) were approved by the PUCT in July and took effect August 1, per ERCOT's September 2026 update. [e17] A further limit of 10 MW per 5 seconds on Large Load power swings is only a draft NOGRR, so it is proposed and not in effect. [e13]
 
 ## ERCOT context
 
@@ -122,11 +122,11 @@ Actual operations in 2025-2026 looked much calmer than the queue. The IMM found 
 
 ## Key facts
 
-- December 2025: about 239 GW seeking interconnection, more than three times 2024. [e4]
+- December 2025: about 239 GW seeking interconnection, with more than three times as many Large Load requests as in 2024. [e4]
 - March 26, 2026: about 410 GW, about 87% data centers. [e6]
 - June 2026: about 474 GW, about 90% data centers. [e8]
 - 2022-2024 data centers: peak use averaged 49.8% of requested MW. [e9]
-- July 2026 peak: up to about 3,299 MW of crypto reduction and about 492 MW of 4CP reduction. [e11]
+- 22 July 2026 peak: up to about 3,299 MW of crypto reduction and an estimated maximum 4CP reduction of about 492 MW. [e11]
 
 ## Timeline
 
@@ -147,7 +147,7 @@ Actual operations in 2025-2026 looked much calmer than the queue. The IMM found 
 
 ## Common confusion
 
-(Guidance) Queue GW is not forecast GW, and neither is metered load. Queue totals depend on the date: about 239 GW in December 2025 and about 474 GW in June 2026. [e4][e8] Even the June 2026 sources differ, at more than 438 GW versus about 474 GW, because they use different cut-off dates. [e7][e8] Realized load has historically been a fraction of requested MW. [e9]
+(Guidance) Queue GW is not forecast GW, and neither is metered load. Queue totals depend on the date: about 239 GW in December 2025 and about 474 GW in June 2026. [e4][e8] Even the June 2026 sources differ, at more than 438 GW versus about 474 GW, possibly because of different cut-off dates (the sources do not say). [e7][e8] Realized load has historically been a fraction of requested MW. [e9]
 
 ## Questions
 
@@ -161,7 +161,7 @@ Not on the IMM's 2025 evidence. It found ERCOT could serve several GW more large
 
 ### How did large loads behave at the 2026 peak?
 
-Crypto loads reduced up to about 3,299 MW and 4CP-driven reductions were about 492 MW during the July 2026 peak. [e11]
+On 22 July 2026 the maximum reduction from cryptomining loads was about 3,299 MW and ERCOT estimated the maximum 4CP reduction at about 492 MW. [e11]
 
 ## Open items
 

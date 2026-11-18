@@ -13,19 +13,19 @@ links:
     note: TX SET enables the retail business processes of the deregulated market. [e1]
   - to: esi-id
     type: related
-    note: Switch and move-in transactions identify the premise by ESI ID. [e4]
+    note: See the esi-id topic for the premise identifier.
   - to: tdsp
     type: related
-    note: TDSPs send usage, meter reads and invoices to CRs and ERCOT via TX SET. [e5]
+    note: The TDSP reports monthly usage to ERCOT with an 867_03. [e5]
   - to: rep
     type: related
-    note: CRs submit switch, move-in and service order requests. [e3][e4]
+    note: A new CR submits switch and move-in requests to ERCOT, and a CR submits service order requests to the TDSP. [e3][e4][e9]
   - to: mass-transition
     type: related
-    note: Mass transition uses TX SET transactions such as 814_03 and 814_14 in a special sequence.
+    note: In a Mass Transition event ERCOT submits an 814_03 Enrollment Notification Request. [e11]
   - to: ams-meters
     type: related
-    note: Advanced meter interval data goes to ERCOT by a separate file format, not a TX SET transaction. [e7]
+    note: TDSPs provide advanced meter interval data to ERCOT in an ERCOT-specified file format via NAESB. [e7]
 evidence:
   - id: e1
     source: np-02
@@ -67,6 +67,10 @@ evidence:
     source: np-19
     locator: "Section 19.1(2)(a)"
     quote: "Transactions between Transmission and/or Distribution Service Providers (TDSPs) (refers to all TDSPs unless otherwise specified), Competitive Retailers (CRs) and ERCOT;"
+  - id: e11
+    source: np-15
+    locator: "Section 15.1.3.1(1)"
+    quote: "In a Mass Transition event, ERCOT shall submit the 814_03, Enrollment Notification Request, requesting a meter read for the associated ESI IDs, for a date two days after the date ERCOT initiates such transactions to the TDSP."
 ---
 
 ## Definition
@@ -81,22 +85,22 @@ Changes follow a change control process: the appropriate TAC subcommittee makes 
 
 ## ERCOT context
 
-Not all retail data moves as TX SET transactions: advanced meter interval data is provided to ERCOT in a separate ERCOT-specified file format, via NAESB, at least monthly. [e7]
+TDSPs provide advanced meter interval data to ERCOT in an ERCOT-specified file format, submitted via NAESB at least monthly. [e7]
 
 ## Key facts
 
-- Defined in Protocols Section 19. [e1]
+- Defined in the Protocols' Section 2.1 definitions. [e1]
 - EDI transactions follow ANSI ASC X12. [e2]
 - 814_01 switch, 814_16 move in, 867_03 monthly or final usage. [e3][e4][e5]
 - Changes go through TAC subcommittee change control. [e6]
 
 ## Say it like this
 
-(Guidance) TX SET is the standard messaging layer between retailers, wires companies and ERCOT for switches, move-ins, usage and invoices. Changes are governed by market change control.
+(Guidance) TX SET is the standard messaging layer between retailers, wires companies and ERCOT for switches, move-ins and usage. Changes are governed by market change control.
 
 ## Common confusion
 
-(Guidance) TX SET is the transaction standard, not the registration database; the ESI ID is the key that identifies the premise within it. [e3]
+(Guidance) TX SET is the set of transactions, implementation guides and standards for retail processes, not a database. [e1]
 
 ## Questions
 
@@ -110,5 +114,6 @@ The appropriate TAC subcommittee, through change control. [e6]
 
 ## Open items
 
+- The saved sources do not say whether the advanced meter interval data file is a TX SET transaction (Section 19.7 describes it as an ERCOT-specified file format via NAESB).
 - Deeper pass: the full transaction list (Section 19.3.1 defines dozens), urgent change requests (19.4.5) and the Texas SET Implementation Guides (not a saved source).
 - Deeper pass: the Retail Market Guide, which is referenced but not saved.

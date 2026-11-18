@@ -16,7 +16,7 @@ links:
     note: A CLR is a Load Resource that can be dispatched up or down. [e4]
   - to: dgr-sodg
     type: related
-    note: Distribution-connected generators are either DGRs or SODGs depending on size and registration choice. [e5][e6]
+    note: A DGR is a Generation Resource connected to the Distribution System; an SODG is a generator connected to the Distribution System with a defined rating. [e5][e6]
   - to: energy-storage-resource
     type: related
     note: ESRs are registered to provide energy and/or ancillary service. [e2]
@@ -78,9 +78,6 @@ evidence:
 In the Protocols, a "Resource" means an Energy Storage Resource, a Generation Resource or a Load Resource. Used alone, the term does not include a Settlement Only Generator or an Emergency Response Service Resource. [e1]
 
 ## How it works
-
-Each type is defined by what it is registered to do. [e1]
-
 
 - A Generation Resource is a generator capable of providing energy or ancillary service and registered as a Generation Resource. [e3]
 - An ESR is an energy storage system registered to provide energy and/or ancillary service. [e2]

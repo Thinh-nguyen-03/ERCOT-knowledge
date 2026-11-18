@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: regulation
     type: composed-of
-    note: Regulation Up and Regulation Down are the two regulation services, dispatched by a frequency control signal. [e2]
+    note: Regulation Up is capacity that can respond to signals from ERCOT within five seconds to changes from scheduled system frequency. [e2]
   - to: rrs
     type: composed-of
     note: RRS is the automatically self-deployed service that restores or maintains frequency after a significant deviation. [e3]
@@ -28,7 +28,7 @@ links:
     note: RTC changed day-ahead AS awards from physical obligations to financial positions. [e11]
   - to: eea
     type: related
-    note: RRS and ECRS provide energy or load interruption in an Energy Emergency Alert. [e3][e4]
+    note: ECRS provides energy to avoid getting into or during an Energy Emergency Alert. [e4]
   - to: energy-storage-resource
     type: related
     note: ESRs supply most regulation and large shares of the other services. [e13]
@@ -89,17 +89,21 @@ evidence:
     source: imm-som-2024
     locator: "Executive Summary, ancillary services"
     quote: "Ancillary services costs dropped to $0.98 per MWh of load from $3.74 per MWh in 2023."
+  - id: e15
+    source: np-06
+    locator: "Section 6.5.7.3, paragraph (1)"
+    quote: "The SCED process evaluates Energy Offer Curves, Energy Bid/Offer Curves, Ancillary Service Offers, Output Schedules, and RTM Energy Bids to determine Resource Dispatch Instructions and Ancillary Service awards by maximizing bid-based revenues minus offer-based costs, subject to power balance, Ancillary Service Demand Curves (ASDCs), and network constraints."
 ---
 
 ## Definition
 
-Ancillary services are the services necessary to support the transmission of energy to load while maintaining reliable operation of the transmission system. [e1] In ERCOT they are procured as reserve capacity: Regulation Up and Down, Responsive Reserve (RRS), ERCOT Contingency Reserve Service (ECRS) and Non-Spinning Reserve (Non-Spin). [e2][e3][e4][e5]
+Ancillary services are the services necessary to support the transmission of energy to load while maintaining reliable operation of the transmission system. [e1] In ERCOT they are procured as reserve capacity: Regulation Up and Down, Responsive Reserve (RRS), ERCOT Contingency Reserve Service (ECRS) and Non-Spinning Reserve (Non-Spin). [e2][e3][e4][e5][e9]
 
 ## How it works
 
 Each day ERCOT analyzes expected load for the Operating Day and develops an Ancillary Service Plan listing the MW of each service needed in each hour. The quantities can vary by hour with system conditions, and ERCOT must post the plan by 0600 of the Day-Ahead. [e6] The plan is then split among QSEs: ERCOT assigns each QSE a share by service and by hour, based on its load ratio share, and that share is its Ancillary Service Obligation. [e7]
 
-The services differ mainly by speed and duration. Regulation responds to ERCOT signals within five seconds to hold system frequency. [e2] RRS is automatically self-deployed to restore or maintain frequency after a significant deviation. [e3] ECRS is capacity that can be sustained for two consecutive hours, used when RRS is depleted, as backup regulation, and to supply energy to avoid or during an EEA. [e4] Non-Spin is provided from capacity that can be synchronized and ramped to a specified output within 30 minutes. [e5]
+The services differ mainly by speed and duration. Reg-Up responds to ERCOT signals within five seconds to changes from scheduled system frequency. [e2] RRS is automatically self-deployed to restore or maintain frequency after a significant deviation. [e3] ECRS is capacity that can be sustained for two consecutive hours, used when RRS is depleted, as backup regulation, and to supply energy to avoid or during an EEA. [e4] Non-Spin is provided from capacity that can be synchronized and ramped to a specified output within 30 minutes. [e5]
 
 Price formation uses an ancillary service demand curve for each service. Reg-Down has a constant demand curve equal to VOLL over the full range of the plan, while the curves for Reg-Up, RRS, ECRS and Non-Spin come from an aggregate ORDC that is split into individual curves. [e9]
 
@@ -111,7 +115,7 @@ Costs have fallen: AS cost was $0.98 per MWh of load in 2024, down from $3.74 in
 
 ## Key facts
 
-- Reg-Up and Reg-Down respond to ERCOT signals within five seconds. [e2]
+- Reg-Up responds to ERCOT signals within five seconds. [e2]
 - ECRS must be sustainable for two consecutive hours. [e4]
 - Non-Spin capacity must be able to ramp to a specified output within 30 minutes. [e5]
 - The AS Plan is posted by 0600 on the Day-Ahead. [e6]
@@ -121,17 +125,17 @@ Costs have fallen: AS cost was $0.98 per MWh of load in 2024, down from $3.74 in
 
 ## Say it like this
 
-Ancillary services are the reserve products ERCOT buys to keep frequency stable and cover forecast and outage risk, from five-second regulation to 30-minute Non-Spin. Batteries now supply most of the fast products, and costs to load have fallen sharply since 2023. [e2][e5][e13][e14][e12]
+Ancillary services are the reserve products ERCOT procures to support reliable operation, from Reg-Up that responds within five seconds to Non-Spin that ramps within 30 minutes. Batteries now supply most of the fast products, and costs to load have fallen sharply since 2023. [e2][e5][e13][e14][e12]
 
 ## Common confusion
 
-Ancillary services are capacity products, not energy: awards reserve headroom rather than delivering MWh, though ECRS and RRS can supply energy in an emergency. [e3][e4] Before December 2025 a day-ahead AS award was a physical obligation, and now it is a financial position, which changes how you hedge it. [e11] "AS Obligation" is also not the same as an award: the obligation is a QSE's allocated share of ERCOT's need. [e7]
+Ancillary services are capacity products, not energy: awards reserve headroom rather than delivering MWh, though ECRS and RRS can supply energy in an emergency. [e3][e4] Before December 2025 a day-ahead AS award was a physical obligation, and now it is a financial position. [e11] "AS Obligation" is also not the same as an award: the obligation is a QSE's allocated share of ERCOT's need. [e7]
 
 ## Questions
 
 ### Name the ancillary services and how fast each responds.
 
-Reg-Up and Reg-Down respond within five seconds. [e2] RRS is automatically self-deployed after a significant frequency deviation. [e3] ECRS is sustained for two consecutive hours. [e4] Non-Spin ramps within 30 minutes. [e5]
+Reg-Up responds within five seconds. [e2] RRS is automatically self-deployed after a significant frequency deviation. [e3] ECRS is sustained for two consecutive hours. [e4] Non-Spin ramps within 30 minutes. [e5]
 
 ### Who pays for ancillary services?
 
@@ -143,7 +147,7 @@ Before December 2025, AS were bought only day-ahead and day-ahead awards were ph
 
 ### Why did ancillary service costs fall?
 
-The IMM reports AS costs of $3.74 per MWh of load in 2023, $0.98 in 2024 and $0.39 in 2025, with batteries supplying large shares of each product. [e14][e12][e13]
+The IMM reports AS costs of $3.74 per MWh of load in 2023, $0.98 in 2024 and $0.39 in 2025. [e14][e12] The saved IMM quotes do not state the cause; they do show that ESRs provided 94% of Reg-Up and 86% of Reg-Down in 2025. [e13]
 
 ## Scenarios
 
@@ -151,7 +155,7 @@ The IMM reports AS costs of $3.74 per MWh of load in 2023, $0.98 in 2024 and $0.
 
 - Batteries already supplied 94% of Reg-Up on average in 2025. [e13]
 - Costs of AS to load fell about 60% from 2024 to 2025. [e12]
-- With RTC, AS is co-optimized with energy in real time, so the choice is made by the dispatch rather than only by the day-ahead offer. [e11]
+- Since RTC, ERCOT also procures AS in real time [e11], and SCED determines Ancillary Service awards together with Resource Dispatch Instructions. [e15]
 
 ## Open items
 

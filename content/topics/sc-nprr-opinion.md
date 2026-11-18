@@ -16,16 +16,16 @@ links:
     note: NPRR1309 went through PRS, TAC, the ERCOT Board and the PUCT, with recorded segment votes. [e10][e14][e15]
   - to: drrs
     type: example-of
-    note: NPRR1309 created DRRS as a new Ancillary Service offered, awarded and paid in both the DAM and RTM. [e8]
+    note: Under NPRR1309, DRRS is offered, awarded and paid in both the DAM and the RTM. [e8]
   - to: non-spin
     type: affects
-    note: NPRR1309 cut the Non-Spin duration requirement from four hours to two hours once DRRS is implemented. [e9]
+    note: NPRR1309 reduces the Non-Spin duration requirements from four hours to two hours, given that DRRS has at least a four-hour duration. [e9]
   - to: imm
     type: related
     note: The IMM recommends a one-hour NSRS duration and argues ERCOT's AS Methodology over-procures reserves. [e17][e18]
   - to: four-cp
     type: related
-    note: The IMM recommends moving away from 4CP, and a PUCT proposal would replace it with 12CP. [e19][e20]
+    note: The IMM says 4CP no longer aligns with cost-causation principles, and a PUCT proposal would replace 4CP with 12CP. [e19][e20]
   - to: load-zone
     type: related
     note: The IMM keeps recommending that ERCOT reconfigure its load zones to reflect current congestion patterns. [e21]
@@ -143,17 +143,17 @@ This scenario asks the candidate to take and defend a position on an ERCOT marke
 
 Step 1, know the path. Comments on a posted Revision Request are due within 14 days, PRS reviews it, and TAC can recommend approval, reject, table, remand or refer it. [e4][e2] The ERCOT Board can designate a request a Board Priority Revision Request, and the PUCT must approve before implementation. [e3][e5]
 
-Step 2, pick a live debate with a public record. NPRR1309 created DRRS, which statute requires to run at least four hours at High Sustained Limit, come on-line within two hours, and reduce RUC by the amount procured. [e6] ERCOT called NPRR1309 the third iteration of the DRRS design; DRRS is offered, awarded and paid in both the DAM and RTM. [e7][e8] The contested piece was a side change: Non-Spin's duration requirement drops from four hours to two once DRRS is implemented. [e9]
+Step 2, pick a live debate with a public record. ERCOT called NPRR1309 the third iteration of the DRRS design, and the statute sets minimum characteristics for DRRS: reduce RUC by the amount procured, run at least four hours at High Sustained Limit, and be On-Line within two hours of being called. [e7][e6] DRRS is offered, awarded and paid in both the DAM and RTM. [e7][e8] The contested piece was a side change: Non-Spin's duration requirement is reduced from four hours to two. [e9]
 
-Step 3, give the positions as recorded. At PRS on 4/15/26 participants edited the proposal to keep Non-Spin at four hours. [e22] The IMM opposed that PRS version and proposed a two-hour Non-Spin; ERCOT's 4/28/26 comments did the same, and TAC approved on 4/29/26 with five opposing votes from LCRA, Brazos, STEC, Vistra and Constellation. [e23][e25][e10] LCRA called the two-hour change premature without more analysis, and Vistra argued it was not required for DRRS, should wait for the 2029 AS methodology review, and could degrade durable reserves and increase RUC of thermal units. [e11][e12] The Board recommended approval unanimously on 6/2/26 and the PUCT approved on 7/9/26. [e14][e15]
+Step 3, give the positions as recorded. At PRS on 4/15/26 participants proposed desktop edits to maintain the current four-hour Non-Spin duration. [e22] The IMM opposed that PRS version and proposed a two-hour Non-Spin; ERCOT's 4/28/26 comments did the same, and TAC approved on 4/29/26 with five opposing votes from LCRA, Brazos, STEC, Vistra and Constellation. [e23][e25][e10] LCRA called the two-hour change premature without more analysis, and Vistra argued it was not required for DRRS, should wait for the 2029 AS methodology review, and could degrade durable reserves and increase RUC of thermal units. [e11][e12] The Board recommended approval unanimously on 6/2/26 and the PUCT approved on 7/9/26. [e14][e15]
 
-Step 4, bring evidence for your side. The IMM says NSRS was priced at a premium in 2025 because of oversized procurement and the four-hour duration, which forces a storage resource to hold four hours of energy for its award; its Recommendation 2024-2 asks for one hour. [e17] It also says ERCOT's proposed AS Methodology procures 140% more than the 1-in-10 load shed standard requires. [e18]
+Step 4, bring evidence for your side. The IMM says NSRS was priced at a premium in 2025 because of oversized procurement and the four-hour duration, under which a storage resource must carry four hours of energy for its NSRS award; its Recommendation 2024-2 asks for one hour. [e17] It also says ERCOT's proposed AS Methodology procures 140% more than the 1-in-10 load shed standard requires. [e18]
 
 ## Key facts
 
 - Every Revision Request needs PUCT approval before implementation. [e5]
 - DRRS statutory criteria: at least four hours at HSL, on-line within two hours, and RUC reduced by the amount procured. [e6]
-- NPRR1309: Non-Spin duration cut from four hours to two once DRRS is implemented. [e9]
+- NPRR1309: Non-Spin duration requirements reduced from four hours to two. [e9]
 - NPRR1309 timeline: TAC 4/29/26, Board 6/2/26, PUCT approval 7/9/26; estimated project duration 20 to 30 months. [e10][e14][e15][e16]
 - IMM: proposed AS Methodology procures 140% more than the 1-in-10 load shed standard requires. [e18]
 
@@ -163,7 +163,7 @@ Step 4, bring evidence for your side. The IMM says NSRS was priced at a premium 
 
 ## Common confusion
 
-(Guidance) TAC and the ERCOT Board recommend; the PUCT approves. [e5] Another trap is presenting a rule debate as one-sided: the NPRR1309 record shows the IMM, ERCOT, generators, co-ops and retailers each took different positions, and the Texas REP Coalition asked for a date-certain to limit retail pricing uncertainty. [e10][e24]
+(Guidance) TAC and the ERCOT Board recommend; the PUCT approves. [e5] Another trap is presenting a rule debate as one-sided: the NPRR1309 record shows different positions: the IMM and ERCOT proposed a two-hour Non-Spin, PRS participants proposed keeping four hours, LCRA, Brazos, STEC, Vistra and Constellation voted against at TAC, and the Texas REP Coalition asked for a date-certain to avoid regulatory uncertainty affecting retail pricing. [e23][e25][e22][e10][e24]
 
 ## Questions
 
@@ -173,7 +173,7 @@ LCRA said the change was premature without more analysis, and Vistra said it was
 
 ### What is the IMM's position?
 
-The IMM supported keeping DRRS a reserve product rather than a resource adequacy tool, tied to reliability criteria, and argued Non-Spin's duration should be one hour once DRRS is implemented. [e13] In its 2025 report it ties the NSRS price premium to oversized procurement and the four-hour duration. [e17]
+The IMM supported keeping DRRS a reserve product rather than a resource adequacy tool, tied to reliability criteria, and in its February 2026 comments said Non-Spin's duration should be reduced to one hour upon implementation of DRRS. [e13] Its April 2026 comments proposed redlines to lower the Non-Spin duration to two hours. [e23] In its 2025 report it ties the NSRS price premium to oversized procurement and the four-hour duration. [e17]
 
 ### Give another live rule debate.
 
@@ -184,17 +184,18 @@ Transmission cost allocation: the IMM says the 4CP method no longer aligns with 
 ### "Pick an ERCOT market rule you have a view on and pitch it to me in two minutes."
 
 - (Reasoning) Choose a rule with a public record, state the problem, your position, the best counter-argument, and what evidence would change your mind.
-- The rule: NPRR1309 created DRRS and, as a side change, cut Non-Spin's duration requirement from four hours to two once DRRS goes live. [e9]
-- Why it matters: the IMM says the four-hour duration plus oversized procurement made NSRS the premium-priced service in 2025, because storage must hold four hours of energy per MW of award. [e17]
+- The rule: NPRR1309 is the third iteration of the DRRS design [e7] and reduces the Non-Spin duration requirements from four hours to two. [e9]
+- Why it matters: the IMM says the four-hour duration plus oversized procurement drove an NSRS price premium in 2025, because a storage resource must carry four hours of energy for its NSRS award. [e17]
 - Supporting evidence: the IMM finds ERCOT's proposed AS Methodology procures 140% more than the 1-in-10 load shed standard requires. [e18]
 - The other side: Vistra argued the cut was not needed for DRRS, should wait for the 2029 AS methodology review, and could increase RUC of thermal units; LCRA called it premature. [e12][e11]
-- Process facts: PRS first kept four hours, TAC approved two hours with five opposing votes, the Board approved unanimously, and the PUCT approved on 7/9/26. [e22][e10][e14][e15]
+- Process facts: PRS participants proposed edits to keep four hours, TAC approved two hours with five opposing votes, the Board approved unanimously, and the PUCT approved on 7/9/26. [e22][e10][e14][e15]
 - (Reasoning) Your position: support the cut on efficiency grounds, but propose a measurable check, such as tracking RUC volumes and reserve shortages after go-live, which answers the generators' concern directly.
 - Implementation reality: ERCOT estimates 20 to 30 months to implement, so the effect is not immediate. [e16]
-- (Reasoning) Close by naming what would change your view: evidence that shorter reserves raise RUC or shortages in winter, which is the period Vistra highlights.
+- (Reasoning) Close by naming what would change your view: evidence that shorter reserves raise RUC or shortages, the concern Vistra raised. [e12]
 
 ## Open items
 
+- The timing of the Non-Spin duration reduction relative to DRRS go-live is not stated in the NPRR1309 Revision Description item quoted (the IMM's February comment says 'upon implementation of DRRS'); the IMM's recommendation moved from one hour (February) to two hours (April) in the saved comments.
 - No saved source gives the DRRS go-live date; only the 20 to 30 month implementation estimate.
 - Whether the PUCT adopted the 12CP proposal in Project 58000 is not in the saved sources.
 - The NPRR1310 outcome (ESR participation and release factor for DRRS) was not checked.

@@ -22,7 +22,7 @@ links:
     note: RRS provides energy or continued load interruption during an EEA. [e1]
   - to: prc
     type: related
-    note: PRC measures the frequency-responsive capability on line; see that topic for how it is calculated.
+    note: See the PRC topic for how reserve levels are measured.
   - to: energy-storage-resource
     type: related
     note: ESRs provide RRS through primary frequency response or fast frequency response. [e3][e10]
@@ -93,7 +93,7 @@ The IMM describes three types of RRS in the market: primary frequency response, 
 
 ## Key facts
 
-- RRS is automatically self-deployed rather than dispatched by signal. [e2]
+- RRS is automatically self-deployed by Resources in a manner that results in real power increases or decreases. [e2]
 - RRS from high-set under-frequency relay load and FFR resources is limited to 60% of the total RRS requirement. [e4]
 - The minimum PFR-based RRS capacity is not less than 1,150 MW. [e5]
 - FFR must self-deploy within 15 cycles of frequency falling below 59.85 Hz. [e6]
@@ -101,11 +101,11 @@ The IMM describes three types of RRS in the market: primary frequency response, 
 
 ## Say it like this
 
-RRS is the reserve that responds on its own, within seconds, when frequency drops after a large loss of supply. It comes from generator governors, fast-responding batteries and interruptible load on under-frequency relays. [e1][e2][e10]
+RRS is the reserve that responds on its own, within seconds, after a significant frequency deviation. It comes from generator governors, fast-responding batteries and interruptible load on under-frequency relays. [e1][e2][e10]
 
 ## Common confusion
 
-RRS is not dispatched by the regulation signal, and it is not the same as ECRS. RRS self-deploys on frequency; ECRS is the slower reserve that restores RRS after it is depleted. [e2][e9] Also, FFR and PFR are two ways of earning RRS, not two products. [e10]
+RRS is not the same as ECRS. RRS is automatically self-deployed in response to a significant frequency deviation, while ECRS is intended to restore RRS within ten minutes after it is significantly depleted. [e2][e9] Also, FFR and PFR are two ways of earning RRS, not two products. [e10]
 
 ## Questions
 

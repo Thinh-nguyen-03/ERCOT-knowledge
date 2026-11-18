@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: ancillary-services
     type: part-of
-    note: Non-Spin is the slowest reserve in the AS Plan; see that topic for plan, obligations and cost. [e1]
+    note: Non-Spin is an Ancillary Service provided from capacity that can ramp within 30 minutes; see that topic for plan, obligations and cost. [e1]
   - to: ecrs
     type: related
     note: ERCOT uses SCED and Non-Spin to recover ECRS reserves. [e5]
@@ -25,7 +25,7 @@ links:
     note: ERCOT may deploy Non-Spin when other Emergency Conditions exist. [e4]
   - to: asdc
     type: related
-    note: Non-Spin demand is priced through an ancillary service demand curve; see that topic.
+    note: An individual ASDC is determined for Non-Spin by disaggregating the AORDC; see that topic. [e14]
 evidence:
   - id: e1
     source: np-02
@@ -79,6 +79,10 @@ evidence:
     source: np-03
     locator: "Section 3.17.3, paragraph (1)(a), pending box [NPRR1309: Replace paragraph (ii) above upon system implementation]"
     quote: "(ii) Running at a specified output level for at least two consecutive hours;"
+  - id: e14
+    source: np-04
+    locator: "Section 4.4.12, paragraph (5)"
+    quote: "(5) To determine the individual ASDCs for Reg-Up, RRS, ECRS, and Non-Spin, an Aggregate Operating Reserve Demand Curve (ORDC) (AORDC) will be created and then disaggregated into individual curves for the different Ancillary Services."
 ---
 
 ## Definition
@@ -93,7 +97,7 @@ ERCOT deploys Non-Spin by operator Dispatch Instruction, under a TAC-approved pr
 
 ## ERCOT context
 
-The IMM describes Non-Spin as covering intra-hour net load forecast uncertainty that would otherwise cause under-commitment or inefficient dispatch. [e7] In 2025 NSRS was the highest-priced AS product throughout the year, which pushed controllable loads toward it, and in May operators added 1,000 MW to the target for hours ending 19-22 on May 20, pushing the NSRS price to average $320 per MWh over those hours. [e9][e8] ESRs supplied 24% of NSRS in 2025. [e10]
+The IMM describes Non-Spin as covering intra-hour net load forecast uncertainty that would otherwise cause under-commitment or inefficient dispatch. [e7] In 2025 NSRS was the highest-priced AS product throughout the year, which pushed controllable loads toward it, and in May the procurement target was increased by 1,000 MW for hours ending 19-22 on May 20, pushing the NSRS price to average $320 per MWh over those hours. [e9][e8] ESRs supplied 24% of NSRS in 2025. [e10]
 
 The IMM notes that the NSRS duration requirement remained four hours at the time of the report and that NPRR 1309, approved by TAC, would set it to two hours when DRRS is implemented. [e11] The Protocols also carry this as pending text, not yet in effect, under NPRR1309. [e13]
 
@@ -121,7 +125,7 @@ By operator Dispatch Instruction under a TAC-approved procedure, always for 100%
 
 ### Why was Non-Spin expensive in 2025?
 
-The IMM says NSRS was the highest-priced AS product throughout 2025 and that operator target increases in May pushed the price up, including $320 per MWh average over four hours on May 20. [e9][e8]
+The IMM says NSRS was the highest-priced AS product throughout 2025 and that the procurement target was increased by an additional 1,000 MW for HE 19-22 on May 20, 2025, which caused the NSRS price to average $320 per MWh during that period. [e9][e8]
 
 ## Open items
 

@@ -16,7 +16,7 @@ links:
     note: A Watch can be issued for PRC below 3,000 MW. [e6]
   - to: ordc
     type: related
-    note: See the ORDC topic for how reserve levels are turned into price adders.
+    note: See the ORDC topic for how reserve levels were turned into price adders before RTC retired the ORDC adder.
   - to: rrs
     type: related
     note: Section 3.16 sets a minimum capacity for RRS provided using Primary Frequency Response. [e8]

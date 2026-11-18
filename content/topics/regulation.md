@@ -10,10 +10,10 @@ as_of: 2026-11-18
 links:
   - to: ancillary-services
     type: part-of
-    note: Regulation is the fastest of the ancillary services; see that topic for the AS Plan, obligations and costs. [e1]
+    note: Regulation is one of the ancillary services; see that topic for the AS Plan, obligations and costs. [e1]
   - to: rrs
     type: contrasts-with
-    note: RRS responds to a significant frequency deviation, while regulation follows the continuous LFC signal. [e6]
+    note: RRS is a service used to restore or maintain frequency in response to a significant frequency deviation, while ERCOT dispatches Reg-Up by an LFC signal. [e13][e2]
   - to: ecrs
     type: related
     note: ECRS provides backup to Reg-Up. [e7]
@@ -25,7 +25,7 @@ links:
     note: ERCOT minimizes regulation energy in each SCED cycle. [e4]
   - to: rtc-b
     type: related
-    note: RTC lets resources sell ancillary services directly in real time. [e10]
+    note: Since RTC, ERCOT also procures ancillary services in real time. [e12]
 evidence:
   - id: e1
     source: np-03
@@ -71,6 +71,14 @@ evidence:
     source: imm-som-2025
     locator: "Chapter III.A.1, Ancillary Services Procurement Targets"
     quote: "Reg-Up and Reg-Down volumes increased by 7.4% and 3.3%, respectively, because of higher five-minute net load forecast error."
+  - id: e12
+    source: imm-som-2025
+    locator: "Chapter III.B, Ancillary Services Market"
+    quote: "Before ERCOT implemented RTC in December 2025, ancillary services were only sold in the day-ahead market, where they represented a physical obligation to provide reserves in real time. Since ERCOT implemented RTC, it has also procured ancillary services in real-time, and day-ahead AS awards have represented a financial rather than physical obligation."
+  - id: e13
+    source: np-03
+    locator: "Section 3.17.2, Responsive Reserve Service, paragraph (1)"
+    quote: "(1) Responsive Reserve (RRS) is a service used to restore or maintain the frequency of the ERCOT System in response to a significant frequency deviation."
 ---
 
 ## Definition
@@ -85,29 +93,29 @@ Regulation is deployed only for its own function: ERCOT may not substitute one a
 
 ## ERCOT context
 
-Regulation is the product batteries dominate: in 2025 ESRs on average provided 94% of Reg-Up and 86% of Reg-Down. [e8] Regulation volumes in the 2025 AS Plan rose, by 7.4% for Reg-Up and 3.3% for Reg-Down, because of higher five-minute net load forecast error. [e11] The most noteworthy 2025 development for ancillary services was RTC going live in December, which lets resources sell ancillary services in real time. [e10]
+Regulation is the product batteries dominate: in 2025 ESRs on average provided 94% of Reg-Up and 86% of Reg-Down. [e8] Regulation volumes in the 2025 AS Plan rose, by 7.4% for Reg-Up and 3.3% for Reg-Down, because of higher five-minute net load forecast error. [e11] The most noteworthy 2025 development for ancillary services was RTC going live in December, after which ERCOT also procures ancillary services in real time. [e10][e12]
 
 ## Key facts
 
-- Both Reg-Up and Reg-Down respond to ERCOT signals within five seconds. [e1]
-- Reg-Up and Reg-Down are dispatched by an LFC signal; in Real-Time, regulation energy is settled at the Resource's Settlement Point Price. [e2][e4]
+- Reg-Up provides capacity that can respond to ERCOT signals within five seconds. [e1]
+- ERCOT dispatches Reg-Up by an LFC signal, and regulation capacity responds to LFC instructions; regulation energy is settled at the Resource's Settlement Point Price. [e2][e9][e4]
 - Implied ramp rate in MW per minute equals the regulation award divided by five. [e5]
 - ECRS provides backup to Reg-Up. [e7]
 - 2025: ESRs provided 94% of Reg-Up and 86% of Reg-Down on average. [e8]
 
 ## Say it like this
 
-Regulation is the second-by-second balancing service: resources follow ERCOT's frequency control signal up or down around their set point. Batteries now supply almost all of it, and it is the one product that cannot be substituted by slower reserves. [e2][e6][e8]
+Regulation is the fast frequency-balancing service: resources follow ERCOT's LFC signal up or down. Batteries now supply most of it, and ERCOT may not substitute another ancillary service for it. [e2][e6][e8]
 
 ## Common confusion
 
-Regulation is not the same as RRS: regulation tracks the continuous control signal, while RRS responds to significant frequency deviations. [e1][e6] Reg-Up and Reg-Down are separate capacity products on opposite sides of the Base Point, so an award is not a single symmetric band. [e3]
+Regulation is not the same as RRS: ERCOT dispatches Reg-Up by an LFC signal, while RRS is used in response to a significant frequency deviation. [e2][e13] Reg-Up and Reg-Down are separate products, and Reg-Down capacity is the amount available below the Base Point. [e3]
 
 ## Questions
 
 ### What is the difference between Reg-Up and Reg-Down?
 
-Both respond within five seconds to a frequency control signal. Reg-Up is capacity above the Base Point that can be called on to raise output (or cut load), and Reg-Down is capacity below the Base Point that can be called on to lower output (or add load). [e1][e2][e3]
+Reg-Up is capacity that can respond to ERCOT signals within five seconds and is deployed by raising output (or cutting load). [e1][e2] Reg-Down is the capacity available below the Base Point that can be called on to change output to maintain frequency. [e3]
 
 ### How is regulation energy paid?
 
