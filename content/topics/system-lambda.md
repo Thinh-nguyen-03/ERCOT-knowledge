@@ -54,8 +54,10 @@ evidence:
     quote: "Day-Ahead System LambdaThe DAM Shadow Price for the system power balance constraint for the hour."
   - id: e7
     source: np-06
-    locator: "Section 6.6.1, paragraph (1)(b), de-energized Electrical Buses"
+    locator: "Section 6.6.1, paragraph (1)(a)-(b)(iii), de-energized Electrical Buses"
     quote: >-
+      ERCOT shall assign an LMP to de-energized Electrical Buses for use in the calculation of the Real-Time Settlement Point Prices by using heuristic rules applied in the following order:
+      (a) Use an appropriate LMP predetermined by ERCOT as applicable to a specific Electrical Bus; or if not so specified
       (b) Use the following rules in order:
       (i) Use average LMP for Electrical Buses within the same station having the same voltage level as the de-energized Electrical Bus, if any exist.
       (ii) Use average LMP for all Electrical Buses within the same station, if any exist.
@@ -69,6 +71,10 @@ evidence:
     locator: "Transmission Congestion and CRRs, ESR congestion management discussion (Figure 39)"
     quote: >-
       For ESRs acting as generators, we aggregate base points awarded at an LMP greater than the system lambda, indicating that energy injections at that location help manage congestion.
+  - id: e11
+    source: np-02
+    locator: "Section 2.1, definition of Settlement Point Price"
+    quote: "A price calculated for a Settlement Point for each Settlement Interval using LMP data and the formulas detailed in Section 4.6, DAM Settlement, and Section 6.6, Settlement Calculations for the Real-Time Energy Operations."
   - id: e10
     source: imm-som-2025
     locator: "Executive Summary, footnote on the reliability adder"
@@ -82,7 +88,7 @@ System Lambda is the cost of providing one MWh of energy at the reference Electr
 
 ## How it works
 
-A Shadow Price measures the marginal value of a commodity: the rate at which system costs would fall or rise if slightly more or less of it were available. [e2] System Lambda is that price for the power balance constraint, so it is the system-wide energy price in the optimization, and the other components of an LMP sit on top of it. [e1][e2]
+A Shadow Price measures the marginal value of a commodity: the rate at which system costs would fall or rise if slightly more or less of it were available. [e2] System Lambda is that price for the power balance constraint, and the definition calls it the energy component of LMP. [e1][e2]
 
 In real time, ERCOT uses System Lambda from SCED Step 2, and it is capped at the effective Value of Lost Load. [e3] Where an Electrical Bus LMP is above the effective VOLL, it is reset to the greater of the effective VOLL or the initial LMP minus the positive difference between System Lambda and the effective VOLL. ERCOT posts both capped and uncapped values of System Lambda to its website. [e3] Separately, the cost SCED calculates to resolve one more MW on the power balance constraint is limited to a maximum Shadow Price for that constraint set under Section 22, Attachment P. [e4]
 
@@ -108,7 +114,7 @@ It is also a fallback price: when ERCOT must assign an LMP to a de-energized Ele
 
 ## Common confusion
 
-(Guidance) System Lambda is not the Settlement Point Price: it is one component of LMP, and Settlement Point Prices are calculated from LMP data. [e1] The "plus whatever constraints add" part is the reader's decomposition of the two definitions; see Open items. Also, in the real-time reliability adder the same term appears twice, once from a modified SCED run and once from Step 2, so the adder is a difference, not a level. [e5]
+(Guidance) System Lambda is not the Settlement Point Price: it is one component of LMP, and Settlement Point Prices are calculated from LMP data. [e1][e11] The "plus whatever constraints add" part is the reader's decomposition of the two definitions; see Open items. Also, in the real-time reliability adder the same term appears twice, once from a modified SCED run and once from Step 2, so the adder is a difference, not a level. [e5]
 
 ## Questions
 
