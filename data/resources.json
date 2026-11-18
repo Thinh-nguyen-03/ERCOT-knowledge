@@ -1,0 +1,22 @@
+[
+ {"category": "ERCOT primary sources", "title": "ERCOT Nodal Protocols (current)", "url": "https://www.ercot.com/mktrules/nprotocols/current", "why": "The rulebook. Section 2 definitions, 4 DAM, 6 Real-Time, 7 CRRs, 8 performance monitoring, 9 settlements. Read the sections for your target role."},
+ {"category": "ERCOT primary sources", "title": "ERCOT Market Training", "url": "https://www.ercot.com/services/training", "why": "Free courses: ERCOT market fundamentals, Settlements, Day-Ahead, CRR, LSE and Generation Resource operations."},
+ {"category": "ERCOT primary sources", "title": "ERCOT Market Information & Grid Conditions", "url": "https://www.ercot.com/mktinfo", "why": "Prices, load, fuel mix and the market reports index."},
+ {"category": "ERCOT primary sources", "title": "ERCOT Public API Explorer", "url": "https://apiexplorer.ercot.com/", "why": "Free API for prices, load and disclosure data; build your own analyses with it."},
+ {"category": "ERCOT primary sources", "title": "ERCOT Committees & Meetings (TAC, PRS, WMS, ROS, Board)", "url": "https://www.ercot.com/committees", "why": "Where rule changes are debated before they happen. Skim agendas monthly to have an informed NPRR opinion."},
+ {"category": "ERCOT primary sources", "title": "ERCOT Market Notices", "url": "https://www.ercot.com/services/comm/mkt_notices", "why": "Subscribe for system changes, settlement notices and emergency communications."},
+ {"category": "ERCOT primary sources", "title": "ERCOT Resource Adequacy reports (CDR, MORA)", "url": "https://www.ercot.com/gridinfo/resource", "why": "The capacity outlook and monthly risk assessment every analyst should be able to discuss."},
+ {"category": "Independent analysis", "title": "Potomac Economics: ERCOT State of the Market reports", "url": "https://www.potomaceconomics.com/document-types/ercot-som/", "why": "The single best document for an analyst: what happened in the market last year and the IMM's recommendations."},
+ {"category": "Independent analysis", "title": "FERC/NERC February 2021 Cold Weather Report", "url": "https://www.ferc.gov/media/february-2021-cold-weather-outages-texas-and-south-central-united-states-ferc-nerc-and", "why": "The definitive account of Winter Storm Uri's causes."},
+ {"category": "Independent analysis", "title": "Grid Status", "url": "https://www.gridstatus.io/", "why": "Clean ERCOT dashboards and blog; the open-source gridstatus Python package pulls the data."},
+ {"category": "Independent analysis", "title": "Modo Energy: ERCOT research", "url": "https://modoenergy.com/research", "why": "Strong on batteries, ancillary services and RTC+B effects."},
+ {"category": "Independent analysis", "title": "Doug Lewin: Texas Energy & Power", "url": "https://www.douglewin.com/", "why": "Policy and market commentary newsletter and podcast."},
+ {"category": "Regulators & policy", "title": "PUCT: ERCOT market and rulemakings", "url": "https://www.puc.texas.gov/industry/electric/", "why": "Market design decisions, large-load rules and resource adequacy dockets."},
+ {"category": "Regulators & policy", "title": "Texas Legislature Online", "url": "https://capitol.texas.gov/", "why": "Bill text for SB 6, HB 1500, HB 4492 and the other laws that shape the market."},
+ {"category": "Regulators & policy", "title": "EIA: Texas profile and electricity data", "url": "https://www.eia.gov/state/?sid=TX", "why": "Generation mix, gas prices and consistent historical data."},
+ {"category": "Data for portfolio projects", "title": "gridstatus Python package", "url": "https://github.com/gridstatus/gridstatus", "why": "pip install gridstatus; pulls ERCOT SPPs, load and fuel mix in a few lines."},
+ {"category": "Data for portfolio projects", "title": "NOAA Climate Data Online", "url": "https://www.ncei.noaa.gov/cdo-web/", "why": "Weather history for load-forecasting projects."},
+ {"category": "Books", "title": "Understanding Today's Electricity Business (Shively & Ferrare)", "url": "https://www.enerdynamics.com/", "why": "Readable overview of how the power business works."},
+ {"category": "Books", "title": "Power System Economics (Steven Stoft)", "url": "https://www.wiley.com/en-us/Power+System+Economics%3A+Designing+Markets+for+Electricity-p-9780471150404", "why": "The theory behind energy-only markets and scarcity pricing."},
+ {"category": "Books", "title": "Energy Trading & Investing (Davis Edwards)", "url": "https://www.mheducation.com/", "why": "Forwards, options and the risk metrics desks use."}
+]

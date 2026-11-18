@@ -1,0 +1,862 @@
+{
+ "domains": [
+  {
+   "id": "structure",
+   "name": "Market Structure & Participants"
+  },
+  {
+   "id": "pricing",
+   "name": "Energy Pricing & Market Operations"
+  },
+  {
+   "id": "reliability",
+   "name": "Scarcity, Ancillary Services & Reliability"
+  },
+  {
+   "id": "congestion",
+   "name": "Congestion, Settlements & Credit"
+  },
+  {
+   "id": "fundamentals",
+   "name": "Fundamentals & Price Drivers"
+  },
+  {
+   "id": "trading",
+   "name": "Trading, Hedging & Risk"
+  },
+  {
+   "id": "cases",
+   "name": "Events, Case Studies & Interview Scenarios"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "ercot",
+   "name": "ERCOT",
+   "kind": "entity",
+   "domain": "structure"
+  },
+  {
+   "id": "puct",
+   "name": "PUCT (Public Utility Commission of Texas)",
+   "kind": "entity",
+   "domain": "structure"
+  },
+  {
+   "id": "ferc",
+   "name": "FERC",
+   "kind": "entity",
+   "domain": "structure"
+  },
+  {
+   "id": "nerc",
+   "name": "NERC & Texas RE",
+   "kind": "entity",
+   "domain": "structure"
+  },
+  {
+   "id": "imm",
+   "name": "Independent Market Monitor (Potomac Economics)",
+   "kind": "entity",
+   "domain": "structure"
+  },
+  {
+   "id": "texas-legislature",
+   "name": "Texas Legislature",
+   "kind": "entity",
+   "domain": "structure"
+  },
+  {
+   "id": "energy-only-market",
+   "name": "Energy-Only Market Design",
+   "kind": "concept",
+   "domain": "structure"
+  },
+  {
+   "id": "texas-interconnection",
+   "name": "Texas Interconnection & DC Ties",
+   "kind": "concept",
+   "domain": "structure"
+  },
+  {
+   "id": "qse",
+   "name": "QSE (Qualified Scheduling Entity)",
+   "kind": "entity",
+   "domain": "structure"
+  },
+  {
+   "id": "lse",
+   "name": "LSE (Load Serving Entity)",
+   "kind": "entity",
+   "domain": "structure"
+  },
+  {
+   "id": "rep",
+   "name": "REP (Retail Electric Provider)",
+   "kind": "entity",
+   "domain": "structure"
+  },
+  {
+   "id": "tdsp",
+   "name": "TDSP (Transmission & Distribution Service Provider)",
+   "kind": "entity",
+   "domain": "structure"
+  },
+  {
+   "id": "noe",
+   "name": "NOE (Non-Opt-In Entity: Munis & Co-ops)",
+   "kind": "entity",
+   "domain": "structure"
+  },
+  {
+   "id": "resource-entity",
+   "name": "Resource Entity",
+   "kind": "entity",
+   "domain": "structure"
+  },
+  {
+   "id": "retail-choice",
+   "name": "Retail Choice / Competitive Retail Market",
+   "kind": "concept",
+   "domain": "structure"
+  },
+  {
+   "id": "esi-id",
+   "name": "ESI ID",
+   "kind": "concept",
+   "domain": "structure"
+  },
+  {
+   "id": "ams-meters",
+   "name": "AMS Smart Meter Data",
+   "kind": "concept",
+   "domain": "structure"
+  },
+  {
+   "id": "load-profiling",
+   "name": "Load Profiling",
+   "kind": "concept",
+   "domain": "structure"
+  },
+  {
+   "id": "nodal-protocols",
+   "name": "ERCOT Nodal Protocols",
+   "kind": "rule",
+   "domain": "structure"
+  },
+  {
+   "id": "stakeholder-process",
+   "name": "Stakeholder Process (TAC, PRS, WMS, ROS, Board)",
+   "kind": "concept",
+   "domain": "structure"
+  },
+  {
+   "id": "nprr",
+   "name": "NPRR (Nodal Protocol Revision Request)",
+   "kind": "rule",
+   "domain": "structure"
+  },
+  {
+   "id": "large-flexible-load",
+   "name": "Large Flexible Load (LFL)",
+   "kind": "entity",
+   "domain": "structure"
+  },
+  {
+   "id": "cdr-report",
+   "name": "CDR Report",
+   "kind": "report",
+   "domain": "structure"
+  },
+  {
+   "id": "mora-report",
+   "name": "MORA Report",
+   "kind": "report",
+   "domain": "structure"
+  },
+  {
+   "id": "sixty-day-disclosure",
+   "name": "60-Day Disclosure Reports",
+   "kind": "report",
+   "domain": "structure"
+  },
+  {
+   "id": "state-of-market-report",
+   "name": "IMM State of the Market Report",
+   "kind": "report",
+   "domain": "structure"
+  },
+  {
+   "id": "nodal-market",
+   "name": "Nodal Market (since Dec 2010)",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "lmp",
+   "name": "LMP (Locational Marginal Price)",
+   "kind": "metric",
+   "domain": "pricing"
+  },
+  {
+   "id": "system-lambda",
+   "name": "System Lambda",
+   "kind": "metric",
+   "domain": "pricing"
+  },
+  {
+   "id": "settlement-point",
+   "name": "Settlement Point",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "resource-node",
+   "name": "Resource Node",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "load-zone",
+   "name": "Load Zone",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "trading-hub",
+   "name": "Trading Hubs",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "hb-north",
+   "name": "HB_NORTH (North Hub)",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "hb-west",
+   "name": "HB_WEST (West Hub)",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "spp",
+   "name": "SPP (Settlement Point Price)",
+   "kind": "metric",
+   "domain": "pricing"
+  },
+  {
+   "id": "dam",
+   "name": "Day-Ahead Market (DAM)",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "rtm",
+   "name": "Real-Time Market (RTM)",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "sced",
+   "name": "SCED (Security-Constrained Economic Dispatch)",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "dart-spread",
+   "name": "DART Spread",
+   "kind": "metric",
+   "domain": "pricing"
+  },
+  {
+   "id": "three-part-supply-offer",
+   "name": "Three-Part Supply Offer",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "energy-offer-curve",
+   "name": "Energy Offer Curve",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "cop",
+   "name": "COP (Current Operating Plan)",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "base-point",
+   "name": "Base Point",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "hsl-lsl",
+   "name": "HSL / LSL",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "hasl-lasl",
+   "name": "HASL / LASL",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "ruc",
+   "name": "RUC (Reliability Unit Commitment: DRUC/HRUC)",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "virtual-bids",
+   "name": "Virtuals (Energy-Only Offers & Bids)",
+   "kind": "product",
+   "domain": "pricing"
+  },
+  {
+   "id": "ptp-obligation",
+   "name": "PTP Obligation",
+   "kind": "product",
+   "domain": "pricing"
+  },
+  {
+   "id": "offer-cap",
+   "name": "Offer Caps (HCAP / LCAP / SWCAP)",
+   "kind": "rule",
+   "domain": "pricing"
+  },
+  {
+   "id": "market-power-mitigation",
+   "name": "Market Power Mitigation (TPS Test, Mitigated Offer Caps)",
+   "kind": "rule",
+   "domain": "pricing"
+  },
+  {
+   "id": "negative-prices",
+   "name": "Negative Prices",
+   "kind": "concept",
+   "domain": "pricing"
+  },
+  {
+   "id": "ancillary-services",
+   "name": "Ancillary Services (AS)",
+   "kind": "concept",
+   "domain": "reliability"
+  },
+  {
+   "id": "regulation",
+   "name": "Regulation Up / Down",
+   "kind": "product",
+   "domain": "reliability"
+  },
+  {
+   "id": "rrs",
+   "name": "RRS (Responsive Reserve Service)",
+   "kind": "product",
+   "domain": "reliability"
+  },
+  {
+   "id": "ecrs",
+   "name": "ECRS (ERCOT Contingency Reserve Service)",
+   "kind": "product",
+   "domain": "reliability"
+  },
+  {
+   "id": "non-spin",
+   "name": "Non-Spinning Reserve",
+   "kind": "product",
+   "domain": "reliability"
+  },
+  {
+   "id": "ordc",
+   "name": "ORDC (Operating Reserve Demand Curve)",
+   "kind": "rule",
+   "domain": "reliability"
+  },
+  {
+   "id": "asdc",
+   "name": "ASDC (Ancillary Service Demand Curves)",
+   "kind": "rule",
+   "domain": "reliability"
+  },
+  {
+   "id": "rtc-b",
+   "name": "RTC+B (Real-Time Co-optimization + Batteries)",
+   "kind": "rule",
+   "domain": "reliability"
+  },
+  {
+   "id": "prc",
+   "name": "PRC (Physical Responsive Capability)",
+   "kind": "metric",
+   "domain": "reliability"
+  },
+  {
+   "id": "eea",
+   "name": "EEA (Energy Emergency Alert) Levels",
+   "kind": "rule",
+   "domain": "reliability"
+  },
+  {
+   "id": "ers",
+   "name": "ERS (Emergency Response Service)",
+   "kind": "product",
+   "domain": "reliability"
+  },
+  {
+   "id": "ffss",
+   "name": "FFSS (Firm Fuel Supply Service)",
+   "kind": "product",
+   "domain": "reliability"
+  },
+  {
+   "id": "drrs",
+   "name": "DRRS (Dispatchable Reliability Reserve Service)",
+   "kind": "product",
+   "domain": "reliability"
+  },
+  {
+   "id": "pcm",
+   "name": "PCM (Performance Credit Mechanism)",
+   "kind": "rule",
+   "domain": "reliability"
+  },
+  {
+   "id": "texas-energy-fund",
+   "name": "Texas Energy Fund",
+   "kind": "rule",
+   "domain": "reliability"
+  },
+  {
+   "id": "load-shed",
+   "name": "Load Shed / Rotating Outages",
+   "kind": "concept",
+   "domain": "reliability"
+  },
+  {
+   "id": "energy-storage-resource",
+   "name": "Energy Storage Resource (ESR)",
+   "kind": "concept",
+   "domain": "reliability"
+  },
+  {
+   "id": "battery-revenue-stack",
+   "name": "Battery Revenue Stack",
+   "kind": "concept",
+   "domain": "reliability"
+  },
+  {
+   "id": "resource-adequacy",
+   "name": "Resource Adequacy",
+   "kind": "concept",
+   "domain": "reliability"
+  },
+  {
+   "id": "weatherization",
+   "name": "Weatherization Standards",
+   "kind": "rule",
+   "domain": "reliability"
+  },
+  {
+   "id": "congestion",
+   "name": "Transmission Congestion",
+   "kind": "concept",
+   "domain": "congestion"
+  },
+  {
+   "id": "shift-factor",
+   "name": "Shift Factors",
+   "kind": "metric",
+   "domain": "congestion"
+  },
+  {
+   "id": "shadow-price",
+   "name": "Shadow Price",
+   "kind": "metric",
+   "domain": "congestion"
+  },
+  {
+   "id": "binding-constraint",
+   "name": "Binding Constraint",
+   "kind": "concept",
+   "domain": "congestion"
+  },
+  {
+   "id": "gtc",
+   "name": "GTC (Generic Transmission Constraint)",
+   "kind": "concept",
+   "domain": "congestion"
+  },
+  {
+   "id": "crr",
+   "name": "CRR (Congestion Revenue Right)",
+   "kind": "product",
+   "domain": "congestion"
+  },
+  {
+   "id": "crr-auction",
+   "name": "CRR Auctions",
+   "kind": "concept",
+   "domain": "congestion"
+  },
+  {
+   "id": "pcrr",
+   "name": "PCRR (Pre-Assigned CRR)",
+   "kind": "product",
+   "domain": "congestion"
+  },
+  {
+   "id": "basis-risk",
+   "name": "Basis Risk",
+   "kind": "concept",
+   "domain": "congestion"
+  },
+  {
+   "id": "settlement-statements",
+   "name": "Settlement Statements & Timeline",
+   "kind": "concept",
+   "domain": "congestion"
+  },
+  {
+   "id": "uplift",
+   "name": "Uplift",
+   "kind": "concept",
+   "domain": "congestion"
+  },
+  {
+   "id": "ruc-make-whole",
+   "name": "RUC Make-Whole & Clawback",
+   "kind": "concept",
+   "domain": "congestion"
+  },
+  {
+   "id": "ufe",
+   "name": "UFE (Unaccounted-For Energy)",
+   "kind": "metric",
+   "domain": "congestion"
+  },
+  {
+   "id": "load-ratio-share",
+   "name": "Load Ratio Share (LRS)",
+   "kind": "metric",
+   "domain": "congestion"
+  },
+  {
+   "id": "credit-tpe",
+   "name": "Credit, Collateral & TPE",
+   "kind": "concept",
+   "domain": "congestion"
+  },
+  {
+   "id": "securitization",
+   "name": "Post-Uri Securitization",
+   "kind": "rule",
+   "domain": "congestion"
+  },
+  {
+   "id": "four-cp",
+   "name": "4CP Transmission Charges",
+   "kind": "rule",
+   "domain": "congestion"
+  },
+  {
+   "id": "weather-load",
+   "name": "Weather-Driven Load (CDD / HDD)",
+   "kind": "concept",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "net-load",
+   "name": "Net Load",
+   "kind": "metric",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "evening-ramp",
+   "name": "Evening Ramp / Duck Curve",
+   "kind": "concept",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "wind-generation",
+   "name": "Wind Generation",
+   "kind": "concept",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "solar-generation",
+   "name": "Solar Generation",
+   "kind": "concept",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "resource-mix",
+   "name": "ERCOT Resource Mix",
+   "kind": "concept",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "natural-gas-price",
+   "name": "Natural Gas Prices (Henry Hub)",
+   "kind": "metric",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "waha-hub",
+   "name": "Waha Gas Hub",
+   "kind": "concept",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "heat-rate",
+   "name": "Heat Rate",
+   "kind": "metric",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "implied-heat-rate",
+   "name": "Implied Market Heat Rate",
+   "kind": "metric",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "spark-spread",
+   "name": "Spark Spread",
+   "kind": "metric",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "merit-order",
+   "name": "Merit Order / Supply Stack",
+   "kind": "concept",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "tax-credits-recs",
+   "name": "PTC / ITC & RECs",
+   "kind": "rule",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "load-forecasting",
+   "name": "Load Forecasting",
+   "kind": "concept",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "large-load-growth",
+   "name": "Large Load Growth (Data Centers, Crypto, Industrial)",
+   "kind": "concept",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "sb6",
+   "name": "SB 6 (2025) Large Load Legislation",
+   "kind": "rule",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "permian-transmission",
+   "name": "Permian Basin Load & 765 kV Plan",
+   "kind": "concept",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "thermal-outages",
+   "name": "Thermal Outages (Planned & Forced)",
+   "kind": "concept",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "block-products",
+   "name": "Block Products (5x16, 2x16, 7x8, ATC)",
+   "kind": "product",
+   "domain": "trading"
+  },
+  {
+   "id": "forward-curve",
+   "name": "Forward Curve",
+   "kind": "concept",
+   "domain": "trading"
+  },
+  {
+   "id": "exchanges-ice-nodal",
+   "name": "ICE & Nodal Exchange",
+   "kind": "entity",
+   "domain": "trading"
+  },
+  {
+   "id": "heat-rate-call-option",
+   "name": "Heat Rate Call Option",
+   "kind": "product",
+   "domain": "trading"
+  },
+  {
+   "id": "tolling-agreement",
+   "name": "Tolling Agreement",
+   "kind": "product",
+   "domain": "trading"
+  },
+  {
+   "id": "ppa-vppa",
+   "name": "PPA & Virtual PPA",
+   "kind": "product",
+   "domain": "trading"
+  },
+  {
+   "id": "shape-risk",
+   "name": "Shape Risk",
+   "kind": "concept",
+   "domain": "trading"
+  },
+  {
+   "id": "volumetric-risk",
+   "name": "Volumetric Risk",
+   "kind": "concept",
+   "domain": "trading"
+  },
+  {
+   "id": "retail-hedging",
+   "name": "Retail Load Hedging",
+   "kind": "concept",
+   "domain": "trading"
+  },
+  {
+   "id": "asset-optimization",
+   "name": "Asset Optimization",
+   "kind": "concept",
+   "domain": "trading"
+  },
+  {
+   "id": "var",
+   "name": "VaR (Value at Risk)",
+   "kind": "metric",
+   "domain": "trading"
+  },
+  {
+   "id": "mark-to-market",
+   "name": "Mark-to-Market",
+   "kind": "concept",
+   "domain": "trading"
+  },
+  {
+   "id": "pnl-attribution",
+   "name": "P&L Attribution",
+   "kind": "concept",
+   "domain": "trading"
+  },
+  {
+   "id": "options-basics",
+   "name": "Power Options & Greeks Basics",
+   "kind": "concept",
+   "domain": "trading"
+  },
+  {
+   "id": "winter-storm-uri",
+   "name": "Winter Storm Uri (Feb 2021)",
+   "kind": "event",
+   "domain": "cases"
+  },
+  {
+   "id": "uri-repricing",
+   "name": "Uri $9,000 Pricing Controversy",
+   "kind": "event",
+   "domain": "cases"
+  },
+  {
+   "id": "retailer-defaults-2021",
+   "name": "Griddy & Brazos: 2021 Defaults",
+   "kind": "event",
+   "domain": "cases"
+  },
+  {
+   "id": "winter-storm-elliott",
+   "name": "Winter Storm Elliott (Dec 2022)",
+   "kind": "event",
+   "domain": "cases"
+  },
+  {
+   "id": "summer-2023",
+   "name": "Summer 2023 Tight Conditions",
+   "kind": "event",
+   "domain": "cases"
+  },
+  {
+   "id": "sc-hot-august-evening",
+   "name": "Scenario: Hot August Evening Price Spike",
+   "kind": "scenario",
+   "domain": "cases"
+  },
+  {
+   "id": "sc-west-negative-north-spike",
+   "name": "Scenario: West Negative While North Spikes",
+   "kind": "scenario",
+   "domain": "cases"
+  },
+  {
+   "id": "sc-rep-heat-wave-hedge",
+   "name": "Scenario: REP Hedging a Heat Wave",
+   "kind": "scenario",
+   "domain": "cases"
+  },
+  {
+   "id": "sc-dam-premium-flip",
+   "name": "Scenario: When DAM Clears Below RT",
+   "kind": "scenario",
+   "domain": "cases"
+  },
+  {
+   "id": "sc-ccgt-in-the-money",
+   "name": "Scenario: Is the CCGT In the Money?",
+   "kind": "scenario",
+   "domain": "cases"
+  },
+  {
+   "id": "sc-crr-valuation",
+   "name": "Scenario: Valuing a CRR Path",
+   "kind": "scenario",
+   "domain": "cases"
+  },
+  {
+   "id": "sc-battery-strategy",
+   "name": "Scenario: Bidding a Battery After RTC+B",
+   "kind": "scenario",
+   "domain": "cases"
+  },
+  {
+   "id": "sc-winter-cold-snap",
+   "name": "Scenario: Cold Snap Forecast Next Week",
+   "kind": "scenario",
+   "domain": "cases"
+  },
+  {
+   "id": "sc-data-center-ppa",
+   "name": "Scenario: Data Center Wants a Solar VPPA",
+   "kind": "scenario",
+   "domain": "cases"
+  },
+  {
+   "id": "sc-load-forecast-miss",
+   "name": "Scenario: Your Load Forecast Missed by 3 GW",
+   "kind": "scenario",
+   "domain": "cases"
+  },
+  {
+   "id": "sc-nprr-opinion",
+   "name": "Scenario: Pitch Your View on a Market Rule",
+   "kind": "scenario",
+   "domain": "cases"
+  },
+  {
+   "id": "sc-uplift-surprise",
+   "name": "Scenario: Explaining an Uplift Charge to Finance",
+   "kind": "scenario",
+   "domain": "cases"
+  }
+ ]
+}
