@@ -16,7 +16,7 @@ links:
     note: Solar forecast errors raised NSRS volumes in 2025 per the IMM. [e10]
   - to: load-forecasting
     type: related
-    note: Net load forecast error combines load and renewable forecast errors. [e9]
+    note: Net demand is demand minus expected IRR generation, and the IMM reports net load forecast error alongside under-forecast IRR generation and over-forecast load. [e8][e9]
   - to: ruc
     type: used-in
     note: The STWPF and the renewable production potential forecasts are inputs to the Reliability Unit Commitment processes. [e5][e6]
@@ -25,7 +25,7 @@ links:
     note: For the first 168 hours of the COP, ERCOT updates wind and solar HSL values with the latest STWPF and STPPF. [e7]
   - to: net-load
     type: related
-    note: Net load forecasts determine thermal commitment and depend on expected renewable output. [e8]
+    note: The net demand forecast, demand minus expected IRR generation, is a major determinant of thermal commitment decisions. [e8]
   - to: ancillary-services
     type: related
     note: Net load and solar forecast errors drive the volumes of some ancillary services. [e10]
@@ -82,6 +82,10 @@ evidence:
     source: np-03
     locator: "Section 3.13, Renewable Production Potential Forecasts, paragraph (2)"
     quote: "ERCOT shall use its best efforts to develop accurate and unbiased forecasts, as limited by the availability of relevant explanatory data."
+  - id: e14
+    source: np-03
+    locator: "Section 3.9.1, Current Operating Plan (COP) Criteria, paragraph (8)"
+    quote: "A QSE representing a WGR may override the STWPF HSL value but must submit an HSL value that is less than or equal to the amount for that Resource from the most recent STWPF provided by ERCOT; a QSE representing a PVGR may override the STPPF HSL value but must submit an HSL value that is less than or equal to the amount for that Resource from the most recent STPPF provided by ERCOT."
 ---
 
 ## Definition
@@ -90,7 +94,7 @@ The Short-Term Wind Power Forecast (STWPF) and Short-Term PhotoVoltaic Power For
 
 ## How it works
 
-ERCOT produces the STWPF hourly as a rolling 168-hour forecast for each wind Resource. [e11] It starts from a probabilistic Total ERCOT Wind Power Forecast, picks the 50% probability of exceedance case (the level actual production is expected to exceed 50% of the time) and allocates it to each Resource so the individual forecasts sum to the total. [e5] ERCOT also publishes an Intra-Hour Wind Power Forecast, defined as the forecast of wind generation in MW in five-minute increments. [e12]
+ERCOT produces the STWPF hourly as a rolling 168-hour forecast for each wind Resource. [e11] It starts from a probabilistic Total ERCOT Wind Power Forecast, picks the 50% probability of exceedance case (the level actual production is expected to exceed 50% of the time) and allocates it to each Resource so the individual forecasts sum to the total. [e5] The Protocols also define an Intra-Hour Wind Power Forecast as the forecast of wind generation in MW in five-minute increments. [e12]
 
 The forecasts feed operations. They are inputs to the Day-Ahead and Hour-Ahead Reliability Unit Commitment, and the STWPF is used in each RUC process. [e6][e5] For the first 168 hours of the COP, ERCOT updates wind and solar HSL values with the latest STWPF or STPPF. [e7] Protocols require ERCOT to use best efforts to develop accurate and unbiased forecasts, limited by the available data. [e13]
 
@@ -114,7 +118,7 @@ Forecast error shows up in ancillary service procurement: the IMM says NSRS volu
 
 ## Common confusion
 
-(Guidance) STWPF/STPPF are forecasts of what a Resource could produce given available units and weather; they are not a QSE's schedule. A QSE may override the HSL but only downward from the latest forecast value. [e7] Do not confuse the 50% exceedance forecast with the 80% exceedance production-potential value. [e1][e3]
+(Guidance) STWPF/STPPF are forecasts of what a Resource could produce given available units and weather; they are not a QSE's schedule. A QSE representing a WGR may override the STWPF HSL value but must submit an HSL no higher than the latest STWPF amount for that Resource, and the same holds for a PVGR and the STPPF. [e14] Do not confuse the 50% exceedance forecast with the 80% exceedance production-potential value. [e1][e3]
 
 ## Questions
 
@@ -134,5 +138,5 @@ IRR generation was under-forecast by only 89 MW on average in 2025, with net loa
 
 - Deeper pass: the Total ERCOT Wind/PV Power Forecast (TEWPF/TEPPF) methodology, forecast model selection and vendor details were not found beyond what is cited.
 - Deeper pass: DC-Coupled Resource treatment is in pending NPRR language (NPRR1029) and was not used here.
-- The QSE override rule is cited from COP paragraph (8) in np-03; it is simplified in Common confusion (the Protocol text also covers the PVGR case).
+- The same COP paragraph (8) has separate override rules for DC-Coupled Resources; they sit in pending-style language not used here.
 - No source gave forecast error by hour of day for solar, or bias statistics for wind alone.

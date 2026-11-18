@@ -10,19 +10,19 @@ as_of: 2026-11-18
 links:
   - to: hb-west
     type: affects
-    note: The FarWest area, which roughly matches the Permian Basin, is import constrained and sits inside today's West load zone. [e10]
+    note: The IMM says the FarWest load zone approximately corresponds to the Permian Basin, which remains import constrained until more transmission is built. [e10]
   - to: congestion
     type: related
-    note: The IMM ties higher West zone congestion to the import-constrained Permian Basin. [e10]
+    note: The IMM expects higher prices in the FarWest load zone, which approximately corresponds to the import-constrained Permian Basin. [e10]
   - to: large-load-interconnection
     type: related
-    note: ERCOT says the TSP studies supporting Batch Zero would be invalidated if the STEP 765 kV additions were delayed or denied. [e13]
+    note: ERCOT says all supporting TSP studies (more than 600) would be invalidated if any STEP 765 kV additions were delayed or denied; the question it answered concerned Batch Zero projects. [e13][e15]
   - to: large-load-growth
     type: related
-    note: Large loads, not only oil and gas, are driving Permian load growth. [e14]
+    note: ERCOT says many large loads are rapidly developing in the Permian Basin. [e14]
   - to: four-cp
     type: related
-    note: The IMM argues that flexible West Texas loads can avoid 4CP charges while driving costly Permian transmission. [e9]
+    note: The IMM says the customers the Permian plan is meant to support are well positioned to game the 4CP methodology by curtailing demand when they expect a coincident peak. [e9]
   - to: load-shed
     type: related
     note: ERCOT has flagged possible local load shed in Far West Texas on low-wind nights. [e11]
@@ -99,6 +99,14 @@ evidence:
     source: puct-permian-order-2
     locator: "Project 55718, Second Order Approving the Reliability Plan (2025), page 1"
     quote: "The Commission approves the three 765-kilovolt (kV) import paths identified in Table 7.5 ofthe Permian Basin Reliability Plan. The Commission's prior authorization to prepare certificate of convenience and necessity applications for the 345-kV import paths identified in Table 1 of the Reliability Plan Addendum expires the date of this Order."
+  - id: e19
+    source: ercot-permian-geren-response
+    locator: "ERCOT letter to Rep. Geren (Aug. 12, 2026), response 1"
+    quote: "Second, the 2024 Regional Transmission Plan (RTP), an annual five-year plan published in December 2024, built on the PBRP and recommended 765-kV transmission across the remainder of the system through the Strategic Transmission Expansion Plan (STEP). Third, the 2025 Regional Transmission Plan (RTP), published in December 2025, included the STEP and added one additional 765-kV path between Houston and Central Texas."
+  - id: e20
+    source: ercot-permian-geren-response
+    locator: "ERCOT letter to Rep. Geren (Aug. 12, 2026), response 4"
+    quote: "Additional new generation in the Permian Basin, beyond what is already expected to be built, would likely change some aspects of transmission planning, but it would not eliminate the need for the transmission additions outlined in the Permian Basin Reliability Plan."
 ---
 
 ## Definition
@@ -109,13 +117,13 @@ The Permian Basin Reliability Plan is the transmission plan that PURA §39.167 (
 
 The plan has two layers. The first is common local projects, which the PUCT approved for service through 2038 whatever voltage it later chose for the import paths. [e4] The second is the import paths that bring more generation into the region. [e3] The PUCT approved the plan on October 7, 2024 but put off the voltage decision until no later than May 1, 2025. [e5] It then approved the three 765 kV import paths. [e18] ERCOT dates that approval April 24, 2025. [e6]
 
-The plan used Permian load levels of 23,659 MW in 2030 and 26,400 MW in 2038, consistent with HB 5066. [e2] ERCOT says three studies (the PBRP, the 2024 RTP and the 2025 RTP) showed a need for 765 kV additions starting in 2030. [e12] It adds that more local generation would not remove that need, in part because large loads in the Permian are expected to grow to the size of areas like Dallas-Fort Worth and Houston. [e14]
+The plan used Permian load levels of 23,659 MW in 2030 and 26,400 MW in 2038, consistent with HB 5066. [e2] ERCOT says three studies (the PBRP, the 2024 RTP and the 2025 RTP) showed a need for 765 kV additions starting in 2030. [e12][e19] It adds that more Permian generation than already expected would not eliminate the need for the plan's transmission additions, and that large loads in the Permian are expected to grow to the size of areas like Dallas-Fort Worth and Houston. [e20][e14]
 
 ## ERCOT context
 
 For a market analyst, the Permian is an import-constrained pocket. The IMM notes that the FarWest load zone, which roughly matches the Permian Basin, has higher prices because it stays import constrained until more transmission is built. [e10] ERCOT has warned of possible local load shed in Far West Texas on low-wind nights, especially during transmission and thermal outages. [e11] Since 2014, about $23 billion of projects have been approved in the Permian Basin. [e16]
 
-The costs are large and contested. The full Texas 765 kV STEP, including the Permian projects, was estimated in January 2025 at about $32.99 billion. [e8] The IMM puts the Permian plan alone at more than $13 billion. It argues that West Texas loads can game 4CP charges, so they avoid paying their share of this transmission. [e9] As of August 2026, 765 kV applications were pending at the PUCT. ERCOT said that delaying or denying them would invalidate more than 600 TSP studies behind Batch Zero. [e15][e13]
+The costs are large and contested. The full Texas 765 kV STEP, including the Permian projects, was estimated in January 2025 at about $32.99 billion. [e8] The IMM puts the Permian plan alone at more than $13 billion. It argues that the customers the plan is meant to support are well positioned to game the 4CP methodology by curtailing demand when they expect a coincident peak. [e9] As of August 2026, 765 kV applications were pending at the PUCT. ERCOT said that delaying or denying them would invalidate more than 600 TSP studies behind Batch Zero. [e15][e13]
 
 ## Key facts
 
@@ -138,11 +146,11 @@ The costs are large and contested. The full Texas 765 kV STEP, including the Per
 
 ## Say it like this
 
-(Guidance) The Permian is importing more power than its wires were built for, so the PUCT approved a local upgrade plan and Texas's first 765 kV import lines into the region. The lines are approved in principle, but the individual line applications were still pending in 2026, and ERCOT says both large load interconnection and local reliability depend on them. [e6][e15]
+(Guidance) The Permian is import constrained, so the PUCT approved a local upgrade plan and import paths at 765 kV, a new voltage class for ERCOT. The paths are approved, but 765 kV applications were still pending at the PUCT in August 2026, and ERCOT says delaying or denying them would invalidate the TSP studies it relies on. [e10][e6][e15][e13]
 
 ## Common confusion
 
-(Guidance) The Permian Basin Reliability Plan and the statewide 765 kV STEP are different things. The PBRP is the Permian plan required by HB 5066. [e1] STEP is the wider 765 kV network from the 2024 RTP, which builds on the PBRP and was endorsed by the ERCOT Board in December 2025. [e7] Cost figures also differ by scope: more than $13 billion for the Permian plan per the IMM, and about $32.99 billion for STEP including the Permian projects. [e8][e9]
+(Guidance) The Permian Basin Reliability Plan and the statewide 765 kV STEP are different things. The PBRP is the Permian plan required by HB 5066. [e1] STEP is the wider 765 kV network from the 2024 RTP, which includes the Permian Basin Reliability projects and was endorsed by the ERCOT Board in December 2025. [e7][e8] Cost figures also differ by scope: more than $13 billion for the Permian plan per the IMM, and about $32.99 billion for STEP including the Permian projects. [e8][e9]
 
 ## Questions
 
@@ -156,7 +164,7 @@ The IMM says the FarWest/Permian area prices higher because it is import constra
 
 ### What happens if the 765 kV lines are delayed?
 
-ERCOT says more than 600 TSP studies supporting Batch Zero would be invalidated. [e13] It also warns of local load shed risk in Far West Texas. [e11]
+ERCOT says more than 600 TSP studies would be invalidated, in answer to a question about Batch Zero projects. [e13][e15] Separately, ERCOT has warned of possible local load shed in Far West Texas on low-wind nights. [e11]
 
 ## Open items
 

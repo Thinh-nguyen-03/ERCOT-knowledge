@@ -13,22 +13,22 @@ links:
     note: ERCOT's 36-Month Load Forecast is used in the outage coordination process and for resource adequacy reporting. [e12]
   - to: heat-rate
     type: related
-    note: Outages remove efficient units from the stack and shift which units set the price; see that topic for unit economics.
+    note: See that topic for unit economics; this topic covers outage definitions, scheduling and reporting.
   - to: hsl-lsl
     type: related
-    note: A reported forced derate requires the QSE to update the telemetered High Sustained Limit. [e8]
+    note: A QSE must update the telemetered High Sustained Limit within 15 minutes of a Forced Derate above ten MW and 5% of rating lasting over 30 minutes. [e18]
   - to: cop
     type: related
-    note: Forced derates above 20 MW lasting over 120 minutes must be reflected in the COP. [e8]
+    note: A QSE must update the COP within 60 minutes of a Forced Derate above 20 MW with expected duration over 120 minutes. [e19]
   - to: weatherization
     type: related
     note: Cold-weather outages in 2021 were mostly freezing and fuel issues. [e14]
   - to: ruc
     type: related
-    note: The IMM notes real-time shortfalls from under-forecast are often addressed through RUC; unexpected outages add to this. [e11]
+    note: The IMM says many outages are forced by unexpected failures that take units offline. [e11]
   - to: winter-storm-uri
     type: related
-    note: The February 2021 event is the largest example of forced outages in the sources.
+    note: FERC-NERC attributes 75 percent of Uri's outages, derates and failures to start to freezing or fuel issues. [e14]
 evidence:
   - id: e1
     source: np-02
@@ -98,6 +98,18 @@ evidence:
     source: imm-som-2025
     locator: "Market Operations, F. Thermal Generation Outages and Deratings, Figure 55 discussion"
     quote: "For records in the outage scheduler spanning less than 30 days, a notification submitted more than seven days before a scheduled outage was considered planned, and a record submitted less than seven days before an outage was considered forced."
+  - id: e18
+    source: np-03
+    locator: "Section 3.1.4.7, Reporting of Forced Derates, paragraph (4)"
+    quote: "The QSE must appropriately update the telemetered High Sustained Limit (HSL) and any applicable telemetry as specified in paragraph (2) of Section 6.5.5.2, Operational Data Requirements, based on the Forced Derate, as soon as practicable but no longer than 15 minutes after the beginning of a Forced Derate, if the Forced Derate is greater than ten MW and more than 5% of the Seasonal net maximum sustainable rating of the Resource and its expected or actual duration is greater than 30 minutes."
+  - id: e19
+    source: np-03
+    locator: "Section 3.1.4.7, Reporting of Forced Derates, paragraph (5)"
+    quote: "The QSE must update the COP as soon as practicable but no longer than 60 minutes after the beginning of a Forced Derate, if the Forced Derate is greater than 20 MW and its expected duration is greater than 120 minutes."
+  - id: e20
+    source: imm-som-2025
+    locator: "Market Operations, F. Thermal Generation Outages and Deratings"
+    quote: "Outages and deratings of thermal power plants are especially important because they can affect reliability when other resources are limited."
 ---
 
 ## Definition
@@ -112,7 +124,7 @@ Forced derates have reporting thresholds: a derate over ten MW and 5% of the Sea
 
 ## ERCOT context
 
-The IMM says thermal outages are especially important because they affect reliability when other resources are limited. It reports that planned and unapproved outages were lowest in summer and highest in spring and fall, while the most noteworthy change from 2024 to 2025 was a higher rate of forced outages and derates, particularly in summer. [e10] The IMM also says planned outages are only part of the total, many outages are forced, and many go unreported, which makes system planning harder. [e11]
+The IMM says thermal outages and deratings are especially important because they can affect reliability when other resources are limited. [e20] It reports that planned and unapproved outages were lowest in summer and highest in spring and fall, while the most noteworthy change from 2024 to 2025 was a higher rate of forced outages and derates, particularly in summer. [e10] The IMM also says planned outages are only part of the total, many outages are forced, and many go unreported, which makes system planning harder. [e11]
 
 ERCOT's reviews show the same: summer thermal forced outages as a share of installed capacity have been higher in 2025-2026 than in 2019-2020, and in summer 2023 forced thermal outages stayed in a 4-8 GW range except on low net load days when generators did repairs. [e13][e15] ERCOT's MORA assumes 8,105 MW of total thermal outages (planned plus unplanned) in normal conditions for its January deterministic scenario. [e16] In the February 2021 event, freezing and fuel issues caused 75% of outages, derates and failures to start. [e14]
 
@@ -130,7 +142,7 @@ ERCOT's reviews show the same: summer thermal forced outages as a share of insta
 
 ## Common confusion
 
-(Guidance) A derate is not an outage: a derate removes part of the capability while the unit may stay online. Also, the Protocol categories differ from how the IMM classifies outages in its charts: for scheduler records under 30 days, the IMM treats one submitted more than seven days ahead as planned and one submitted less than seven days ahead as forced. [e1][e17]
+(Guidance) Do not assume an outage means the whole unit: the Forced Outage definition covers all or a portion of a Resource's capacity [e1], and a Forced Derate is the unavailability of a portion of capacity against its Seasonal net max sustainable rating. [e4] Also, the Protocol categories differ from how the IMM classifies outages in its charts: for scheduler records under 30 days, the IMM treats one submitted more than seven days ahead as planned and one submitted less than seven days ahead as forced. [e1][e17]
 
 ## Questions
 
