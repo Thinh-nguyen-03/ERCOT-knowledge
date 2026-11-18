@@ -1,0 +1,2978 @@
+
+===== page 1 (OCR) =====
+sei ed ie dol _
+bias no ; a | ri | a |
+Ps a ee i so ee =) gi: a ;
+wea i | Sard a tay Petit Hh ea mmmon ome EES, = , foe Sl = =e
+; aa cee ee a es a se alte
+ed. : rinks ee e: Lavi sed Sai : re Oe FF er PERE : a we  ,
+ees Se, oe eae ae a sn Se EE a ek te RD A =e Dea ee :
+- (| ia! iT. 4 ;
+Pai aa LR Ts Fe
+2022 STATE OF THE MARKET REPORT
+FOR THE
+ERCOT ELECTRICITY MARKETS
+Independent Market Monitor
+for ERCOT
+May 2023
+
+===== page 2 (OCR) =====
+Contents
+TABLE OF CONTENTS
+Executive SUMIMALY..........ccceccscececsescceseeesesesseesessssessssesssesessesessessssesessssessesssssssesssessesers I
+I. Future Needs of the ERCOT Market .............cccscssssssssssssssssssssessssseessessssseeseessseeeseeeeeseeecere
+A. ERCOT?’s Future Supply Portfolio... cee eeseseeeesesesesescseseseseseseecesscsesesesessseeesetsesee 2
+B. ERCOT’s Operational Posture... eeeseseseeeeseeeseseseseseseseseecscscsesesesesseseecessssesesseeee 7
+IL. Review of Real-Time Market Outcomes ............sssccssssssscssessssssssssssssessssssssssssssesssesssseseees D
+A. — Real-Time Market Prices 00.0... eecesesesessesesesescseseseseseseececscsesesesesssecscssscsesessssseseessesesese D
+B. Zonal Average Energy Prices in 2022 oo... cceesesseseeseseeeeseeeeseeeseseeseseseesceesssteeseteeseeeeeeeee 13
+C. Evaluation of the Revenue Neutrality Allocation Uplift 0.0... cee eeeseeeeteteeteteeteeeeneeee LS
+D. Real-Time Prices Adjusted for Fuel Price Changes 00... cescscssssseseseeseeeeeeseteeseteeeeeeeeeeee LT
+E. Aggregated Offer Curves... cccceesesesssesseseesesesseseeeesceeeseeesssessceseeseeecsceeesseeesseeeeseeeeeeee LD)
+F. ORDC Impacts and Prices During Shortage Conditions ........ ci ceeeeeeseseeeeeeeeseeeeeeeeeeeees 20.
+G. Real-Time Price Volatility... cecesessesesseseseeseeeesceeescsesscsesacsesacseeacseeeseeeseseeacseeeeees 24
+TH. Demand and Supply in ERCOT uc ssssssssscsssesesssesesssesesssesssesesesssessssssssssssssssssssseees 27,
+A. ERCOT Load itt 2022 woeeececececscsesesesesssscsesesesesecscsesssesesscscscassnsusucscacasstensnsscasessnseasesseeee 2D
+B. Imports to ERCOT 0... cece eeccseseseneeeeeeseecscsesesesesseeeecscscsesesesesseesssscscsesesssseseesesssseseseees OO
+C. Wind and Solar Output in ERCOT oo... eeeeseeseseeeeseneeseeesscsesecseeeesesecsesetseeeesseeeaseeeeeees OO)
+D. Demand Response Capability 0... eceeeesesseseeseseeeeseeesesesscsesacseeesseeeeseeetsstetseteessteeeeees BO
+IV. Day-Ahead Market Performance ..........csssssssssssssssssssssssssssssssssssssssessssssssssesssssseseseees OD
+A.  Day-Ahead Energy Market Performance..........cccscesscssesesseeseeseeeesescesesceessceesscseeseeeeaeseees OO
+B. Day-Ahead Market Activity 0... ceceeesesseseeseeeeeseeeeseeeesceescesesseseesseecseeesssteesseesseeeeeees Fh
+C. Point-to-Point Obligations oe eee ce eeseeeeeeeeeescseseseseseesescecscsesssesesetetstscseseseseeene 44
+D. Ancillary Services Market .........ccccceesesesescseseseeessesescscsesesesesesnsescscsesesesesssetscscsesesseeees 40
+V. Transmission Congestion and Congestion Revenue Rights ............ssssssessssssssssseesssseeee 5D
+A. Day-Ahead and Real-Time Congestion .........cccecesesesesesseeeseseeeeseeeeseseeseeeeaeseeeseeneeeneees OD
+B. — Real-Time Congestion .......cccecessessssssssesesseseeseseeeescseescseeseseeacsesacseesaeeesaceesaseeeseeeeassenaeees OD
+C. CRR Market Outcomes and Revenue Sufficiency... cies OL
+VI. Reliability Commitments... ccssssssssssscsesssescsesesesssesesssesssssssesssesesssssssesessssssssssssssseees OF,
+A. RUC Outcomes and Effects 0... cece eseseseseseseeeeesescscscsescseseseenscscscsessssststersesesesess OS
+B. Operational Reserves Compared to Market ReServes........:ccscscssseseseeseseeseseeeeseeeesseeeseeee 12
+C.  QSE Operation Planning... ieee escsesesseseeseseeeeseeescseesesesacsesasseeecseseeseeetsseetseeetssseeeeeee 3
+D. — Firm Fuel Supply Service ....... ccc cecescsesesseseeseseesesceeseseesesesacsesacseeecsesecseeeeaseesseeeeaeeeeaeeee 1D
+VIT. Resource Adequacy..........cscosscsssssssssscscsssscccsssssessssscscsessssssesssssssssssssesessssessssssssesesssceseses 77
+A. — Net Revenue Analysis......ccceeeeescesesesessesesescscscsesesesesesescscsesesesesesescssssscsesssesssesseeseee DD
+B. Net Revenues of Existing Units... ceceseseseesesesescseseseseseseecscscsesesessseeseeeesseseseseees OO
+C. Planning Reserve Margin... ccc csceseseseeesesesesescseesesescssscsesesesesseecsvscsesesesesseseeestssseseseees OS
+D. Effectiveness of the Shortage Pricing Mechanism ............:cecsseseeeseeseeeeeeeeeeseeeeeeeeeeeees O4
+VIII. Analysis of Competitive Performance............ssssssessssssssssesesssssssssssesesessesessssssseseseees OF
+A. — Structural Market Power Indicators ..0.......eeeeceseseseeeeeeeeseseseseseseseeeseeeescecscscsesesesseeeeseesess OD)
+B. Evaluation of Supplier Conduct... eeeseseseseeseseecscseseseseeeseecscscsesesesssseeeeresseseseseees DO
+C. Voluntary Mitigation Plans... cece eeeseseseseseeseseecscseseseseseeseecscscsesesesssessesssssesesesene DT
+D. Market Power Mitigation... cece esesescseseseseseesesescscscseseseseeseecscscsesesesseseeererseseseseees 98
+APPCNGIX.........scsccccsssescscsscscecsesssscesessscscesessssesssnesessssssessenssessssssesessssssesessesessssssesessssessssssseseeseces AML
+2022 State of the Market Report
+
+===== page 3 (OCR) =====
+Contents
+LIST OF FIGURES
+
+Figure 1: Net Real-Time Capacity Statistics for 2022.00... ceecessssescsetseseseeestseseeseessetetetseseeeteene D
+Figure 2: Average All-in Cost for Electricity in ERCOT 0. eeeeeeeeteeeeteteeeeeeee LO
+Figure 3: All-in Electricity Costs in 2022.0... ceeeeseseeeeeseeeeeeeseeeeeseeeesetstetretetreeeeeee LL
+Figure 4: Prices by Time of Day.....cccccecescsssesesseseeseeeeseeeceeeseeseeecsesaceceeeseeseeecseesseesseeaseaseeeateeeere L2
+Figure 5: Average Real-Time Energy Price Spikes... ceceeseeeescseeseseseeeseseseteeetseteteteeeeeeee LB
+Figure 6: Zonal Price Duration Curves... ccc eseceesessescseseeeeseseesescseeseetsessestassetseetetstetsteseeeee LS
+Figure 7: ERCOT RENA AnnalySis ..0...cceccessseseeseeseeesesessseseseesescseeecaesseerscssstscseestsssssseesassseeees LT
+Figure 8: Monthly Average Implied Heat Rates... cece eesesseeceeseeeseseestsesetseeteseteesseeeeee 18
+Figure 9: Implied Heat Rate and Load Relationship .........ececeeeeseeeeseseseeeeeseeeeststeteeeeeeeeee 18
+Figure 10: Aggregated Generation Offer Stack — Annual and Peak... eects LO
+Figure 11: Average Operating Reserve Adder in 2022 oo... ecseeseeseseeesseseesestsesseeeetseeees 22
+Figure 12: Average Reliability Adder in 2022 oo... ic cecccceesceseeseseeseeceneeseeeceeceeseeesseeaseeetetateneere 23
+Figure 13: Duration of High Prices... cece ecseeseeseeeeseseeeseseseeeescseeseasscseessseseeesssaseeesssessenes 24
+Figure 16: Annual Load Statistics by Zone ........ eee eee esesseeeseseeeeecseeeeaescseessseseestssssetessssseetes 27
+Figure 17: Annual Generation Mix in ERCOT..0.. ccc cceseeeeeeeeeecseeeesesceeessseseestetssseeeesssseetes 29
+Figure 18: Annual Energy Transacted Across DC Ties... ceeeeseeeeseeeeeseseseestetesetseeesteees OO
+Figure 19: Wind Production and Curtailment... eeseeeeeeeteeeeseteeeeretetteteeeeeeees OL
+Figure 20: Solar Production and Curtailment... ccc ceeeseeseecseeeeeeseseeesseseesessssseeeesssseenes OD
+Figure 21: Top and Bottom Deciles (Hours) of Net Load ........ccceesceseseeseeseeeeteeseeeeseeseeseneeeeeeere OD
+Figure 22: Responsive Reserves from Loads with High-Set Under Frequency Relays.............. 34
+Figure 23: Convergence Between Day-Ahead and Real-Time Energy Prices «0.0.0... 40
+Figure 24: Volume of Day-Ahead Market Activity by Month... ee eeeseeeeseeeeeneeee AL
+Figure 25: Day-Ahead Market Three-Part Offer Capacity... cee eseeecseeeeseseneeeteteeeteeeeseeee 43
+Figure 26: Daily Collateral Held by ERCOT ou... eesceeeeceseeeeecseesessseseessaeseessssssseeesaeeeseees 4G
+Figure 27: Point-to-Point Obligation Charges and Revenues ...........cceeeeeeseeseeeetseesseseeeeseseeeeee 4D
+Figure 28: Average Profitability of Point-to-Point Obligations 00.0... cee eeseeeeeteeeeeeeeeess 46
+Figure 29: Average Ancillary Service Capacity by Month ..0....cceeeceeeseeeeseseeseseseseteeeseeenee AZ
+Figure 30: 2022 Ancillary Service Prices .0......ceccsccsessssesssesseseseseeeescseesesescscessseseeseevscseseesseseeees AY
+Figure 32: QSE-Portfolio Net Ancillary Service Shortages in 2022 0... seeeeseeeteeeereee OD
+Figure 33: Day-Ahead Congestion Costs by Zone .0......cccecscsesesessesescreeseseseseessseseestassssetesssesseees OF
+Figure 34: Real-Time Congestion Costs by Zone.........ccccscseesessesescsetseseseeesssesseetsssssetesasesestes OF
+Figure 35: Frequency of Binding and Active Constraints by System Load Level .................... 56
+Figure 36: GTC Binding Constraint Hours... cece eeeseeeeseseeeeecseeeeetscseestseseesessssseteesssseeees OD
+Figure 37: Most Costly Real-Time Congested Areas... eecseeeeeseteeeteseesestteteteesetseees OO
+Figure 38: Overload Distribution of Violated Constraints 00.0.0... eee eeeeeeeseeseeeeeteteeeeeeeeeess 00
+Figure 39: 2022 CRR Auction Revenue ........c cece eesesseseseseeseseseeeescsesseetseseestecseseesssseeesseeeeees O2
+Figure 40: CRR Auction Revenue, Payments and Congestion Rent... cee eeseeeeeeeees 03
+Figure 41: CRR History... cccsccesceeescseeeesescseescaeseeessseseeecseseeesscseessasscssessaesestassseseetssessetes OF
+2022 State of the Market Report
+
+===== page 4 (OCR) =====
+Contents
+
+Figure 42: CRR Balancing Fund... cece cseeeeeecseeeecseseeescaesseesscsseetatseesessssteessssseetes OO
+Figure 43: Real-Time Congestion Rent and Payments... eeeeeseeeseseeseeteteteeeeeeeess 06
+Figure 44: Day-Ahead Market Activity of Generators Receiving a RUC... eects 68
+Figure 45: Average Reliability Unit Commitment Capacity and Dispatch Level......................70
+Figure 48: RUC Hours and Seasonal Forced Outage Percentages ..0.......eceeeeseeeeseseteteteeeeee DD
+Figure 46: Standard Deviation of RTOLCAP at different levels of PRC... eee ZS
+Figure 47: Capacity Commitment Timing — July and August Hour Ending 12 through 20........74
+Figure 49: Combustion Turbine Net Revenues .0....... ic ceecesesseeceseesescseeeeseseseestseseesesssseteesseneenee 19
+Figure 50: Combined Cycle Net Revenues... cccccsscsesssessescsescesescseesessscseessseseesesssssseessssseeees 19
+Figure 51: Net Revenues by Generation Resource Type... ccccceeesesseeseseesseesetsessseseteeteeeees O2
+Figure 52: Projected Planning Reserve Margins 0.0.0... ccecceeesessesescseeseseseeestseeessasssseeesssessetee OF
+Figure 53: Peaker Net Margin... cceecsesseescseescseseesessseseecsesseeescsessesesseesssssestessssetesaseseetss OO
+Figure 54: Pivotal Supplier Frequency by Load Level oo... cece ecseseeseseseestseeeseesseseeeeseeeeeeee OD
+Figure 55: Reductions in Installed Capacity... cece eeseeseseseeeeeesesseeesceeeteteseteteseteeeeseees OL
+Figure 56: Short-Term Deratings and Outages ..........cceeesesseseeeeeeescseeseseseseeetseseeseesseeteeassseeees OD
+Figure 57: Outages and Deratings by Load Level and Participant Size, June-August................94
+Figure 58: Monthly Commitment Percentages of Gas-Steam Units 0.0.0.0. eeeeeeeeeeeeeeeee OS
+Figure 59: Incremental Output Gap by Load Level and Participant Size — Step 2.0.0.0... 96
+Figure 60: Mitigated Capacity by Load Level oo... cece esesseseecseesesescseessseseestetseseeeseseeeees OD
+
+LIST OF TABLES
+
+Table 1: Average Annual Real-Time Energy Market Prices by Zone... cesses L4
+Table 2: Zonal Price Variation as a Percentage of Annual Average Prices... 25
+Table 4: Share of Reserves Provided by the Top QSEs in 2021-2022 ooo. eee OO
+Table 5: Generic Transmission Constraints... cece eesessescseeeeescseeseerscseessseseestssssseteesssseeees OD
+Table 6: Most Frequent Reliability Unit Commitments 0.0.00... cee eceeeseeeeseeeeeetseteeeeseeeeess OD
+Table 7: RUC Settlement Quantities..........ccccceeesesseeeceseeseesceeeseeseeecseeaeeeeneeaeeeseeeneeaseeteeeteeaseene DL
+Table 8: Firm Fuel Supply Service Deployment... ieee eceeeeeeseeteeeeseseeetseeeetetseteeeessseeeee 10
+Table 9: Settlement Point Price by Fuel Type oo... cece eeseseeeesceeseeeseeesssesetstsseseteeseeeeees OO
+Table 10: ORDC Revenue by Fuel Type... ceeceesessessseseeseseseeeesesesseersssestessetseetsssetessseeeees OO
+2022 State of the Market Report
+
+===== page 5 (OCR) =====
+Contents
+Guide to Acronyms
+4CP 4-Coincident Peak NOIE Non Opt-In Entity
+CDR Capacity, Demand, and Reserves NPRR Nodal Protocol Revision Request
+Report
+CFE Comision Federal de NSO Notification of Suspension of
+Electricidad Operations
+CONE Cost of New Entry OBD Other Binding Document
+CRR Congestion Revenue Rights ORDC Operating Reserve Demand
+Curve
+DAM Day-Ahead Market PCRR Pre-Assigned Congestion
+Revenue Rights
+DC Tie Direct-Current Tie PRC Physical Responsive Capability
+EEA Energy Emergency Alert PTP Point-to-Point
+ERCOT Electric Reliability Council of PTPLO Point-to-Point Obligation with
+Texas links to an Option
+ERS Emergency Response Service PUCT Public Utility Commission
+FFSS Firm Fuel Supply Service PURA Public Utility Regulatory Act
+FIP Fuel Index Price QSE Qualified Scheduling Entity
+GTC Generic Transmission Constraint RDI Residual Demand Index
+GW Gigawatt RENA Real-Time Revenue Neutrality
+Allocation
+HCAP High System-Wide Offer Cap RDPA Real-Time Reliability
+Deployment Price Adder
+HE Hour-ending RTCA Real-Time Contingency Analysis
+Hz Hertz RTOLCAP Real-Time On-Line reserve
+capacity of all On-Line
+Resources
+LDF Load Distribution Factor RUC Reliability Unit Commitment
+LDL Low Dispatch Limit SASM Supplemental Ancillary Service
+Market
+LMP Locational Marginal Price SCED Security-Constrained Economic
+Dispatch
+LOLP Loss of Load Probability SCR System Change Request
+LSL Low Sustained Limit SPP Southwest Power Pool
+MISO Midcontinent Independent SWOC System-Wide Offer Cap
+System Operator
+MMBtu One million British Thermal VMP Voluntary Mitigation Plans
+Units
+MW Megawatt VOLL Value of Lost Load
+MWh Megawatt Hour
+NCGRD Notification of Change of
+Generation Resource
+Designation
+2022 State of the Market Report
+
+===== page 6 (OCR) =====
+
+===== page 7 (OCR) =====
+Executive Summary
+EXECUTIVE SUMMARY
+Potomac Economics provides this State of the Market Report for 2022 to the Public Utility
+Commission of Texas (PUCT) in our role as the Independent Market Monitor (IMM). This
+report presents our assessment of the outcomes of the wholesale electricity market in the Electric
+Reliability Council of Texas (ERCOT). Additionally, we recommend changes to improve the
+competitive performance and operation of the ERCOT markets.
+ERCOT manages the production and flow of electricity to more than 26 million Texas customers
+— about 90% of the state's total electric demand. Every five minutes, the ERCOT market
+coordinates the electricity output from more than 1,100 generating resources to satisfy customer
+demand and manage the resulting flows of power across more than 52,700 miles of transmission
+lines in the region. Additionally, the prices produced by the market are designed to facilitate the
+long-term investment and retirements of resources in the ERCOT region. Hence, the market’s
+performance that we evaluate in this report is critical for maintaining reliability in Texas.
+In addition to the continuing effects of 2021 Winter Storm Uri across all ERCOT markets, 2022
+presented its own unique set of challenges. These challenges included load growth that led to a
+record-breaking summer, as well as continuing conservative operations by ERCOT. This report
+details the changes to the ERCOT markets implemented in 2022 in the aftermath of Winter
+Storm Uri (Operating Reserve Demand Curve adjustment, firm fuel supply service, etc.) and the
+outcomes produced by those changes. In addition, we discuss the features of the changing grid
+and future needs of the market. These findings are summarized at the end of this executive
+summary. Key results in 2022 include the following:
+Competition and Market Power
+e The ERCOT markets performed competitively in 2022 and we found little evidence that
+suppliers exercised market power in the ERCOT market, with the following exception.
+- The non-spinning reserve market became less competitive, as higher procurements
+caused large suppliers to frequently be pivotal. We estimate that this raised the costs
+of non-spinning reserves from a range of $385 to $480 million from August 2021
+through December 2022.
+= The PUCT took actions to address this issue by modifying the Voluntary
+Mitigation Plans (VMPs) of large suppliers to recognize that mitigation is needed
+now in the non-spinning reserve market.
+e Insome local areas, transmission system limitations on the amount of power that can
+flow into the area can increase opportunities to abuse market power. However, mitigated
+offer price caps in these situations effectively addressed these opportunities in 2022.
+e We remain concerned about insufficient incentives for suppliers to self-commit
+generation resources in light of ERCOT’s increased commitments through the Reliability
+2022 State of the Market Report |i
+
+===== page 8 (OCR) =====
+Executive Summary
+
+Unit Commitment (RUC) process. Recommendation 2022-2 below is intended to address
+
+this concern.
+
+Demand for and Supply of Electricity
+
+e Electricity demand peaked in 2022 at 80,038 megawatts (MW) on July 20, a new record
+and 8.8% higher than the peak in 2021. In fact, ERCOT broke peak demand records 11
+times during the summer of 2022. The summer months of June through August 2022
+were the second hottest on record for the state of Texas after only 2011.
+
+e Average load in ERCOT grew 9.5% from 2021. The average load grew more than the
+peak load in all zones, especially in the South zone.
+
+e The generation portfolio continues to evolve as over 7,000 MW of new wind and solar
+resources and 1,700 MW of energy storage resources (ESRs) entered the market. The
+installed capacity of wind increased to 37 GW, solar capacity to 13.7 GW, and ESRs to
+2.7 GW by the end of 2022.
+
+e Approximately 700 MW of new natural gas resources came online in 2022 while one 420
+MW natural gas resource retired, resulting in a net addition of 230 MW.
+
+Market Outcomes and Performance
+
+e Average real-time prices fell to roughly $75 per MWh in 2022, a reduction of more than
+50% from 2021 ($167.88 per MWh due almost entirely to the effects of Winter Storm
+Uri), but nearly triple the average prices in 2020 ($25.73 per MWh). This reflects a real-
+time energy value for 2022 of $32.2 billion.
+
+- The rise in real-time energy prices over the past two years was partly due to higher
+natural gas prices (close to $6/MMBtu), as well as sustained hotter than normal
+summer conditions in 2022.
+
+e Transmission congestion in the real-time market — incurred to dispatch generators to
+reduce flows over constrained lines — was up 37% from 2021 to total $2.8 billion in 2022.
+More than $700 million was incurred during May related to Houston congestion.
+
+- ERCOT is increasingly limiting flows across certain network paths to maintain the
+stability of the system, which increases transmission congestion costs. These stability
+issues have partly resulted from the increase in inverter-based resources.
+
+- The congestion associated with stability constraints increased from $400 million in
+2021 to $640 million in 2022 — representing roughly 20% of all real-time congestion.
+
+e ERCOT’s conservative operational posture continued throughout 2022, including:
+
+- More routine use of RUC, including issuing instructions earlier in the day and
+committing more longer-lead time resources;
+
+- Increased non-spinning reserve procurement; and
+
+- Adjusting the selection of forecasts to more frequently rely on the highest load
+forecast and the lowest wind and solar forecasts.
+
+ii | 2022 State of the Market Report
+
+===== page 9 (OCR) =====
+Executive Summary
+Planned Changes to Improve Market Performance
+e Acritical market change underway is ERCOT’s improvement of its real-time market to
+optimize the scheduling of its resources between energy and operating reserves every five
+minutes, also known as “real-time co-optimization” or RTC.
+- This change was planned to go live in 2025. Due to resource constraints following
+Winter Storm Uri in 2021, ERCOT postponed the RTC project. Recently, it is
+evaluating restarting the effort, with a new potential go-live date in late 2026.
+- RTC should be prioritized given its promise to improve pricing during supply
+shortages and better utilize the existing generation fleet.
+e ERCOT continues to plan for the integration of emerging technologies, such as ESRs and
+distributed generation resources (DGRs).
+Moving Forward from Winter Storm Uri
+The sustained shortage pricing during Winter Storm Uri led to billions of dollars in excess costs
+and numerous defaults that ERCOT and that the State of Texas continued to contend with
+throughout 2022. ERCOT short payments (money owed but not paid by market participants)
+during Winter Storm Uri exceeded $3 billion. Several retail electric providers were forced to
+exit the market and one large electric cooperative sought bankruptcy protection. The financial
+stress on the ERCOT market led the Texas Legislature and the Commission to intervene by
+implementing broad securitization and financing measures to stabilize the market.' In addition,
+the bankruptcy was resolved with impacts discussed in this Report. Finally, the Commission
+worked throughout 2022 to develop market reforms designed to promote the development of
+dispatchable generation and improve reliability. We discuss these reforms later in this report.
+Competition and Market Power
+We evaluate market power from two perspectives: structural (does market power exist?) and
+behavioral (have attempts been made to exercise it?). Based on our analysis, we find that
+structural market power continues to exist in 2022, but there is little evidence that suppliers
+abused market power in the real-time energy market. However, the non-spinning reserve market
+produced non-competitive outcomes, an issue emerging as a result of the sharp increase in the
+procurement of these reserves. We also remain concerned about the incentives to self-commit
+generation resources in light of ERCOT’s increased commitment of resources through RUC.
+Structural Market Power
+For electricity markets, a more effective indicator of potential market power than traditional
+market concentration metrics is to analyze when a supplier is “pivotal.” A supplier is pivotal
+' See SB 2, SB 3, SB 2154, SB 1580, HB 4492.
+2022 State of the Market Report | iii
+
+===== page 10 (OCR) =====
+Executive Summary
+when its resources are needed to satisfy customer demand or reduce flows over a transmission
+line to manage congestion. The results below indicate that market power continues to exist in
+ERCOT and requires mitigation measures to address it. Over the entire ERCOT region:
+e At least one pivotal supplier existed in 16% of all hours in 2022, compared to 18% in
+2021.
+e Under high-load conditions, a supplier was pivotal in more than 50% of the hours, since
+the competing supply is more likely to already have been fully utilized.
+Market power can also be a much greater concern in local areas when power flows over the
+network cause transmission congestion that isolates these areas. Market rules cap prices that
+suppliers can offer in these cases, mitigating suppliers’ ability to abuse market power.
+Behavioral Evaluation
+We also evaluate behavior to assess whether suppliers engaged in behavior to withhold supply in
+order to increase prices. Economic withholding occurs when a supplier raises its offer prices to
+levels well above the expected marginal cost to produce electricity. Physical withholding occurs
+when a supplier makes a resource unavailable. Either of these strategies will reduce output from
+the withheld resource and thereby increase the prices paid to the supplier’s other resources.
+We identify potential economic withholding by estimating the output gap metric — the quantity of
+clearly economic energy that is not produced by online resources. The output gap quantities
+remained very small in 2022 and only 2% of hours exhibited an output gap of any magnitude.
+Regarding potential physical withholding, we find that both large and small market participants
+made more capacity available on average during periods of high demand in 2022 by minimizing
+planned outages and maximizing the generation offered from each resource. These results allow
+us to conclude that the ERCOT market performed competitively in 2022.
+However, during the second half of 2021 and also for 2022, we noted that self-commitment of a
+particular large supplier lagged previous trends, and we concluded that this was likely due to
+ERCOT?’s increased use of RUC and the incentives resulting from those actions. A market rule
+revision was proposed and passed by the ERCOT stakeholders to address this issue.2_ We
+propose an additional change, reflected below in our recommendation section (2022-2).
+2 NPRR1092, Reduce RUC Offer Floor and Limit RUC Opt-Out Provision, was filed by the IMM and
+approved by the Board on April 27, 2022. As of May 13, 2022, the RUC offer floor was reduced to $250 per
+MWh but the RUC opt-out provision will be removed once ERCOT completes system implementation.
+iv | 2022 State of the Market Report
+
+===== page 11 (OCR) =====
+Executive Summary
+Demand for and Supply of Electricity
+Changes in the demand for and supply of electricity account for many of the trends in market
+outcomes. Therefore, we evaluate these changes to assess the market’s performance.
+Demand in 2022
+Total demand for electricity in 2022 increased by roughly 10% from 2021 — an increase of
+approximately 4,250 MW per hour on average as the Texas economy continued to grow. The
+South load zone saw a 11.9% increase and the West Texas region showed an increase of 18.9%
+on average. The increase in the West zone is notable because it follows a 7.2% increase in 2021.
+In recent years, oil and natural gas production activity has been the driver for growing demand in
+the West zone, particularly as natural gas prices have increased.
+Weather impacts on demand were mixed across all zones. We measure the impact weather has
+on electricity use by quantifying heating and cooling degree days — the amount by which the
+average daily temperatures are above or below 65° F. Residential and commercial electricity use
+increases quickly as the number of cooling degree days grows because of the demand for air
+conditioning. In the summer of 2022, cooling degree days increased substantially from 2021 —
+12%, 24% and 26% in Houston, Dallas and Austin, respectively.
+Peak hourly demand of 80,038 MW occurred on July 20, 2022, setting a new record for the 11"
+time in the summer of 2022, up from the record demand prior to 2022 of 74,820 MW in 2019. A
+new winter record was also set in 2022 at a level near this 2019 summer peak record. Peak
+demand levels are important because they affect the probability and frequency of shortages.
+Winter peak demands are also raising reliability concerns more than in the past. However, peak
+net load (demand minus renewable resource output) has become a more important determinant of
+supply shortages. The largest pricing event during summer occurred on July 13 when demand
+was below the annual peak that occurred on July 20. High shortage prices play a key role in
+supporting investment and maintaining existing generation in ERCOT’s energy-only market.
+Supply in 2022
+
+Approximately 9,700 MW of new generation resources came online in 2022, the bulk of which
+were intermittent renewable resources. ERCOT added roughly 3,100 MW of new installed wind
+capacity and 4,200 MW of new installed solar capacity going into summer 2022 compared to
+summer 2021, with an effective peak output capacity totaling 4 GW.
+The remaining new capacity included 700 MW of combustion turbines and 1,700 MW of storage
+resources. Storage resources now total roughly 2.7 GW. There was one retirement of a 420 MW
+natural gas-fired resource in 2022. These resource changes, along with changes in fuel prices,
+led to the following changes in electricity production in 2022:
+
+2022 State of the Market Report | v
+
+===== page 12 (OCR) =====
+Executive Summary
+e The percentage of total generation supplied by wind resources increased slightly to
+almost 25% of all generation in 2022.
+e The share of generation from coal fell from 19% in 2021 to 16.6% in 2022 as fuel supply
+and other supply-chain issues affected coal production.
+e Natural gas generation was virtually unchanged, rising slightly from 41.9% in 2021 to
+42.5% in 2022 even though natural gas prices were higher.
+e Solar increased from 4.0% of annual generation in 2021 to 4.6% in 2022. Total installed
+capacity of solar generation is now 14,813 MW as of February 2023.
+e While the energy production from ESRs remains relatively small, they are more likely
+than before to be the marginal resource during shortage conditions.
+One of the primary functions of the wholesale electricity market is to provide economic signals
+that will facilitate the investment needed to maintain an adequate set of resources to satisfy the
+system’s needs. Prices in 2022 produced market revenues sufficient to support profitable
+investment in new conventional resources based on our net revenue analysis, as they have in
+three of the last four years. We discuss this further later in the Report, comparing estimated net
+revenues to cost of new entry of a combustion turbine. For 2022, the high market revenues were
+primarily due to high natural gas prices, hot summer conditions, and the change in the Operating
+Reserve Demand Curve (ORDC).
+As described in the Future Needs of the ERCOT Market section, ERCOT adopted a more
+conservative operating posture and procedures starting in July 2021. ERCOT began requiring
+additional operational reserves and committing more generation outside of the market.? We are
+concerned that continued out-of-market intervention by ERCOT will reduce the efficiency of the
+market and distort the long-term market signals governing the entry and exit of resources.
+ERCOT heads into the summer months of 2023 with a calculated reserve margin of 22.2% based
+on ERCOT’s Capacity, Demand Reserves report, comparable to 2022 and higher than 2021.
+Most of the new additions contributing to the reserve margin are new solar resources, which is a
+trend expected to continue in the coming years.
+Review of Market Outcomes and Performance
+ERCOT operates electricity markets in real-time for energy (electricity output) and in the day-
+ahead timeframe for both energy and ancillary services (mainly operating reserves that can start
+up and produce energy in a short period of time). We discuss the prices and outcomes in each of
+these markets below.
+3 https://Awww.ercot.com/news/release?id=Sfef298c-fbd7-34d3-3 9ee-d3fc63e568c2
+vi | 2022 State of the Market Report
+
+===== page 13 (OCR) =====
+Executive Summary
+Real-Time Energy Prices
+
+Real-time energy prices are critical in ERCOT even though only a small share of the power is
+transacted in the real-time market (i.e., far more is transacted in the day-ahead market or
+bilaterally). This is because real-time prices are the principal driver of prices in the day-ahead
+and forward markets.
+There are two primary drivers of market prices: natural gas prices and the number of hours of
+supply shortages during the year. We expect electricity prices to be correlated with natural gas
+prices in a well-functioning market because fuel costs represent the majority of most suppliers’
+marginal production costs and natural gas units are generally on the margin in ERCOT. This
+correlation continued to be evident in 2022 as the average natural gas price rose to levels higher
+than any recent year other than 2021. Combined with sustained hotter weather during the
+summer and changes to the shortage pricing provisions discussed below, this caused real-time
+energy prices to average just under $75 per MWh. The following table shows the trend in prices
+throughout ERCOT in recent years.
+
+Average Annual Real-Time Energy Market Prices by Zone
+
+2014 2015 2016 2017 2018 2019 2020 2021 2022
+Energy Prices ($/MWh)
+
+ERCOT $40.64 $26.77 $24.62 $28.25 $35.63 $47.06 $25.73 $167.88 $74.92
+
+Houston $39.60 $26.91 $26.33 $31.81 $34.40 $45.45 $24.54 $129.24 $81.07
+
+North $40.05 $26.36 $23.84 $25.67 $34.96 $46.77 $23.97 $206.39 $75.52
+
+South $41.52 $27.18 $24.78 $29.38 $36.15 $47.44 $26.63 $187.47 $72.96
+
+West $43.58 $26.83 $22.05 $24.52 $39.72 $50.77 $31.58 $105.27 $65.53
+Natural Gas Prices ($/MMBtu)
+
+ERCOT $4.32 $2.57 $2.45 $2.98 $3.22 $2.47 $1.99 $7.30 $5.84
+This table shows that prices vary across the ERCOT market because of transmission congestion
+that arises as power is delivered across the network to consumers in different locations. The
+pattern of zonal pricing in 2022 differed from that of the last few of years, with the Houston and
+North zones experiencing the highest load-weighted prices. The West zone has the lowest prices
+because of the large amount of local wind and solar generation that frequently causes export
+constraints for delivery to other zones.
+
+As an energy-only market, ERCOT relies heavily on high real-time prices during shortage
+conditions to provide key economic signals for the development of new resources and retention
+of existing resources. Supply shortages are priced based on the value of operating reserves that
+ERCOT can no longer hold because of the limited supply. This value is embodied in the ORDC.
+When the system is in shortage, the relevant ORDC value will set operating reserve prices and be
+added to the energy price. The frequency and impacts of shortage pricing can vary substantially
+from year-to-year.
+
+2022 State of the Market Report | vii
+
+===== page 14 (OCR) =====
+Executive Summary
+
+In reviewing the shortage pricing in ERCOT, it is important to note changes directed by the
+
+Commission in recent years. In 2019 and 2020, the Commission adjusted the ORDC curve to
+
+accelerate the shortage pricing toward the Value of Lost Load (VOLL) (then $9,000 per MWh)
+
+at higher reserves levels. These 2019 and 2020 changes increased average prices but also
+provided incentives to maintain higher operating and planning reserves.
+
+In the aftermath of Winter Storm Uri, the Commission made additional changes to the ORDC.
+
+Effective January 1, 2022, the Minimum Contingency Level (MCL) was increased to 3,000 MW
+
+and the HCAP and VOLL were reduced from $9,000 per MWh to $5,000 per MWh.* These
+
+changes will cause prices to rise more quickly as reserve levels fall and move toward shortage
+conditions, but plateau at a lower maximum price in deeper reserve shortages.” These changes
+
+more than doubled the effect of the ORDC on prices, totaling an additional $1.7 billion in 2022.
+
+ORDC Revenue by Fuel Type
+thermal” Wind & Solar Batteries. “Hydro _—sBiomass _
+ORDC Revenue ($ millions) $2,524.0 $423.1 $18.3 $4.3 $11.7
+
+% of ORDC Revenue 85% 14% 0.6% 0.1% 0.6%
+ORDC Revenue per MWh $8.49 $3.22 $40.19 $14.65 $27.16
+Total Generation (GWh) 297,142 131,252 455 294 431
+
+% of Generation (%) 69% 31% 0.1% 0.1% 0.1%
+
+This table shows that thermal resources and batteries receives a higher proportion of ORDC
+
+revenues relative to their share of generation, while renewable resources received a much lower
+
+share of the revenue relative to their generation. This is appropriate because tight conditions
+tend to occur when renewables are producing at low levels and dispatchable thermal resources
+are producing at relatively high levels.
+
+Overall, the operating reserve adder contributed $6.41 per MWh to the annual average real-time
+
+price (for an annual total of approximately $3 billion). In the past, the adder has had the largest
+
+effects when low supply conditions and high load conditions occur together and result in
+sustained shortages, as occurred in 2019 and 2021. However, with the adjustment to the MCL in
+the ORDC, the adder is much more likely to produce substantial adders even when conditions are
+not particularly tight.
+
+4 After a series of public work sessions and review of volumes of comments filed by market participant, the
+Commission directed ERCOT to address short- and long-term electric grid reliability concerns by enacting
+major reforms (see Review of Wholesale Electric Market Design, Project No. 52373 (pending)), at the
+December 16, 2021, open meeting. Specifically, the Commission approved the blueprint for the design of the
+wholesale electric market filed in the Project on December 6, 2021, including the ORDC changes.
+
+5 Subsequently, the Commission de-coupled VOLL from the system-wide offer cap in Project No. 53191,
+although the VOLL remains at $5,000 per MWh for the time being.
+
+viii | 2022 State of the Market Report
+
+===== page 15 (OCR) =====
+a
+Executive Summary
+Revenues and Reserve Margins
+The revenues observed in 2022 exceed typical expectations with the planning reserve margin that
+currently exists in ERCOT — the current 22.3% margin is well above a typical one-in-ten
+planning requirement. This planning reserve margin is expected to increase in the coming years.
+The following figure shows the expected planning reserve margin over the next six years, and we
+note that it excludes the contribution from ESRs.
+CDR Projected Reserve Margins
+50%
+@ New Wind
+@ New Solar 44.2% 44.1%
+@ New Thermal 42.0%
+40% ~ @Existing Capacity
+2021 Projected 33.9%
+4 Reserve Margin
+2 <— 19.2%
+S 30%
+es
+E
+$
+a
+4
+E 20%
+J
+J
+=
+- ; - - - - - :
+0%
+2022 2023 2024 2025 2026 2027
+Source: ERCOT Capacity. Demand and Reserves Report. May 2023
+This figure shows that planning reserve margins are projected to exceed 40%. Much of this
+increase is driven by the sharp rise in solar capability beginning in 2024. The figure also shows
+a consistent reduction in existing supply from 2022 to 2027 as resources retire. We believe both
+of these effects are overstated in the CDR calculations. The contribution of solar to reliability is
+lower than shown in the CDR because of the correlated nature of its output which impacts the
+deliverability of the output. We also believe the projected retirements are overstated because of
+the market changes being implemented that should provide sufficient revenue to retain some or
+all of these resources. Taking these two offsetting items into account, we expect the planning
+reserve margin will likely be sustained near or above 30% in 2024 and beyond, but not as high as
+over 40%.
+2022 State of the Market Report | ix
+Lo
+
+===== page 16 (OCR) =====
+Executive Summary
+The second chart below shows the existing profitability of combustion turbines with and without
+the Commission’s January 1, 2022, ORDC changes. In a typical market, one would expect that
+net revenues would fall as the planning reserve margin rises. However, net revenues in 2022
+rose substantially as a result of the changes ERCOT implemented to the ORDC. These increases
+throughout ERCOT show how impactful the Commission’s revisions to the ORDC have been.
+With these changes, the net revenues in most zones would cover the costs of investing in new
+dispatchable resources, despite the prevailing capacity surplus.
+Estimated Net Revenue with ORDC Changes
+$180 5
+| @ Unadjusted ORDC
+$160 4 @2022-Adjusted ORDC
+@ $140 |
+¢
+bs
+g $120 Estimated
+e Cost of New
+2 $100 Entry
+H
+e $80
+2 |
++ |
+Zz $60 +
+$40 -
+$20 |
+so -
+Houston North South West
+Because net revenues now exceed the CONE range for new peaking resources (despite the
+prevailing capacity surplus), the IMM believes that the planned “bridging solutions”® are not
+necessary to provide efficient incentives to support investment in and retention of dispatchable
+resources.
+Day-Ahead and Ancillary Services Markets
+The day-ahead market facilitates financial transactions to purchase or sell energy for delivery the
+next day. These transactions do not result in physical obligations, rather they allow participants
+to manage the risks related to real-time prices and market outcomes. Day-ahead prices averaged
+$66 per MWh in 2022. This price closely aligns with prices from the real-time market, while
+still reflecting a modest risk premium.
+6 As discussed later, ERCOT is planning to add a floor to ORDC revenues at certain online reserve levels.
+x | 2022 State of the Market Report
+
+===== page 17 (OCR) =====
+Executive Summary
+Ancillary services include operating reserves that are purchased on behalf of consumers to
+provide resources that can produce electricity quickly (or voluntarily reduce consumption) when
+needed. Awards for these products obligate the suppliers to physically supply them in real time.
+These operating reserves help ensure that ERCOT can continue to satisfy consumers’ demand
+when unexpected things happen, such as the loss of a large generator or transmission line. Prices
+for ancillary services are typically correlated with real-time energy prices because ancillary
+services prices include the profits an ancillary services supplier forgoes by not selling energy.
+Ancillary services costs rose from $1 to $3 per MWh of load from 2020 to 2022, largely because
+of the increase in procurement quantities that began in 2021. The annual market value of these
+services ranged from $28 million for regulation down to $743 million for non-spinning reserves.
+Transmission Congestion
+
+Congestion arises when more power is flowing over a transmission line than it is designed to
+carry. Power flows over the network are almost entirely the result of where power is produced
+and consumed. When a transmission line is close to being overloaded, the market will incur
+costs to shift generation to higher-cost generators in other locations to reduce the power flows
+over the line. Hence, congestion prevents load from being served by the lowest-cost generators.
+When transmission congestion occurs, the differences in costs of delivering electricity to
+different locations will be reflected in the energy prices at each location or “node” on the
+network. These differences in nodal prices provide efficient economic signals for generators and
+consumers to produce and consume electricity at different locations. The congestion costs
+collected by ERCOT are based on these differences in locational prices; these costs equal the
+difference between the payments by loads at the location of their consumption and the payments
+to generators at their location. These costs accrue to those that hold the financial rights to the
+transmission system known as Congestion Revenue Rights (CRRs), which are discussed below.
+Real-Time Congestion Costs. To show the trends and fluctuations in congestion costs, the figure
+below shows real-time congestion costs by month and region for 2022 and the trend in annual
+costs from 2019 through 2022.
+
+2022 State of the Market Report | xi
+
+===== page 18 (OCR) =====
+ee
+Executive Summary
+Real-Time Transmission Congestion Costs in 2022
+$800 West $3,000
+B South >
+$700 - BNorth $2,625 3
+a $600 @ Cross-Zone $2,250 &
+pa 1S)
+2 $500 $1,875 3
+S 8
+B |S Be | a
+= s400 $1,500 #
+% fs)
+8
+Oo $300 $1,125 &
+2 &
+= $200 $750
+BI
+so so
+J F M AM J J A S ON D 19 20 21 22
+The congestion costs in ERCOT’s real-time market in 2022 were $2.8 billion, up 37% from
+2021. High natural gas prices, outages of generators in load pockets, and frequently binding
+generic transmission constraints (GTCs) contributed to the increase. Congestion costs are
+correlated with natural gas prices because higher gas prices tend to increase the costs of the
+generators that are dispatched to manage transmission congestion and serve customers in
+congested areas. The figure below shows:
+
+e The South zone experienced the highest congestion costs in 2022, similar to 2021. This
+is a departure from prior years and is primarily attributable to load growth and GTCs in
+the Rio Grande valley,’ as well as increased congestion from Port Lavaca into Houston;
+
+e The West zone exhibited the second highest congestion as a result of high renewable
+output that is limited by GTCs. Given the expected increase in renewable development,
+we expect this congestion to increase in coming years.
+
+e Cross-zone congestion increased substantially in 2022, primarily in May and early June
+because of outages into Houston affecting flows from both North and South into
+Houston. These outages also contributed to higher congestion in Houston.
+
+Day-Ahead Congestion Costs. Participants’ expectation of this real-time congestion is also
+reflected in ERCOT’s day-ahead prices and outcomes. The transmission congestion priced in the
+day-ahead market totaled $2.3 billion. Although this is 60% higher than 2021, it is quite a bit
+lower than the real-time congestion costs. This indicates that some of the congestion was not
+7 The Lower Rio Grande Valley System Enhancement project will likely resolve much of this congestion.
+xii | 2022 State of the Market Report
+
+Oo
+
+===== page 19 (OCR) =====
+Executive Summary
+well predicted in the day-ahead market, which was particularly true of the high congestion that
+occurred during May.
+
+Congestion Revenue Rights. Participants can hedge congestion costs in the day-ahead market by
+purchasing CRRs. CRRs are economic property rights that entitle the holder to the day-ahead
+congestion revenues between two locations on the network. They are auctioned by ERCOT in
+monthly and time-of-use blocks as much as three years in advance. The revenues collected
+through the CRR auction are given to load-serving entities to reduce the costs of paying for the
+transmission system. CRR auction revenues have risen steadily as transmission congestion has
+grown, totaling $1.1 billion in 2022.
+CRR auction revenues were less than the total congestion costs in 2022 mainly because the
+auction prices were less than what the CRRs were ultimately worth. This indicates that the
+congestion was not fully foreseen by the market, especially during the summer months.
+Additionally, the market design decision to require that 10% of the network capability not be
+sold in the CRR auctions contributes to the lower CRR revenues.
+Generic Transmission Constraints. Finally, ERCOT operators increasingly need to use GTCs to
+limit the flow of electricity over certain portions of the transmission network. This has been
+necessary to address concerns regarding the stability of the transmission system in those areas.
+These concerns have arisen in large part due to the increased output from inverter-based
+generation resources, such as wind, solar, and batteries that do not provide the same voltage
+support to the system as conventional resources. Ultimately, these GTCs increase transmission
+congestion and the total costs of serving customers in ERCOT by preventing the export of power
+from low-cost resources to load centers.
+Market Improvements Underway
+
+Real-Time Co-Optimization. In our opinion, the most important improvement to the ERCOT
+market over the long term will be the implementation of changes to the real-time market to allow
+it to jointly optimize the scheduling of resources to provide energy and ancillary services in each
+dispatch interval (also termed real-time co-optimization or “RTC”). This Commission-approved
+project was delayed in 2021 and is now scheduled to come off of hold status in mid-2023.8
+Implementation of RTC will significantly improve the real-time coordination of ERCOT’s
+generation and load resources, reduce overall production costs, and improve shortage pricing.
+These improvements will be key to helping efficiently transition to a future with a different
+resource mix as additional wind, solar, and storage resources enter the ERCOT market. We
+encourage continued focus on this important market improvement.
+8 ERCOT RTC Update to TAC, February 20, 2023.
+
+2022 State of the Market Report | xiii
+
+===== page 20 (OCR) =====
+Executive Summary
+Other Market Reforms. After a series of public work sessions and volumes of comments filed by
+market participants, the Commission directed major reforms to the ERCOT wholesale electricity
+market in PUCT Project No. 52373, Review of Wholesale Electric Market Design at the
+December 16, 2021, open meeting.’ Specifically, the Commission approved the blueprint for
+revisions to the design of the wholesale electric market filed in the Project on December 6, 2021.
+The blueprint compiled directives and concepts designed to reform the ERCOT wholesale
+electricity market in two phases. Phase I of the blueprint provided enhancements to ancillary
+services and changes aimed at improving price signals and operational reliability. The most
+significant change was the adjustments to the ORDC discussed above that increased revenues to
+generators in 2022 by $1.7 billion. These enhancements also included reforms to Emergency
+Response Service (ERS), approval and implementation of a new Firm Fuel Supply Service
+(FFSS), and accelerated implementation of a new ancillary service product called ERCOT
+Contingency Reserve Service (ECRS). The blueprint also featured weatherization preparation
+standards for generation resources and detailed mapping of critical natural gas facilities.
+Phase II of the blueprint incorporates longer-term market design and structure reforms. On
+January 19, 2023, the PUCT adopted the Performance Credit Mechanism (PCM) as its
+recommended market design concept. Based on the outline provided, the PCM establishes a
+requirement for LSEs to purchase “performance credits” (PCs) — earned by generators based on
+their availability to the system during the top hours of highest risk — at a centrally determined
+clearing price. The PC requirement is a fixed quantity that is determined in advance of the
+compliance period, while the settlement process occurs retroactively based on the quantity of
+PCs that were actually produced.'° Many of the design details must be developed by the PUCT
+and we plan to assist the PUCT in developing them as needed. The PUCT also directed ERCOT
+to evaluate “bridging options” until the PCM can be fully implemented. !!
+The 88" Legislature introduced a host of market design bills in March 2023 aimed at addressing
+operational flexibility and resource adequacy in ERCOT. The IMM looks forward to continuing
+to work with the Commission and market participants to identify and enact enhancements to
+ERCOT?’s wholesale market to meet the State’s reliability objectives based on any new
+legislation.
+° See Review of Wholesale Electric Market Design; Approval of Blueprint for Wholesale Electric Market
+Design and Directives to ERCOT, Project No. 52373, (pending).
+10 Review of Market Reform Assessment Produced by Energy and Environmental Economics, Inc. (E3), Project
+No. 54335, E3 Report, staff memo and updated questions (Nov. 10, 2022).
+11 [d., Order and Modified Memorandum (Jan. 19, 2023).
+xiv | 2022 State of the Market Report
+
+===== page 21 (OCR) =====
+Executive Summary
+
+Recommendations
+We have identified opportunities for improvement in the current ERCOT market and make
+thirteen recommendations in this report. Five are new items to address inefficiencies or improve
+incentives affecting market performance and the remaining recommendations were initially
+raised in prior years. It is not unexpected that recommendations carry over from prior years
+since many of them require software changes that can take years to implement or require updates
+to the Commission’s Substantive Rules.
+We continue to advocate for implementation of RTC as a top priority because it improves both
+reliability and efficiency. It will lower overall costs of satisfying the system’s energy and
+ancillary service needs, will more effectively manage congestion, result in fewer RUCs and out-
+of-market actions, and reduce shortages in operating reserves.
+The table below shows the recommendations organized by category. They are numbered to
+indicate the year in which they were introduced and the recommendation number in that year.
+
+2022 State of the Market Report | xv
+
+===== page 22 (OCR) =====
+oo
+
+Executive Summary
+
+SOM Number Brief Description
+
+New Recommendations to Improve Market Performance
+
+2022-1 Implement a multi-interval real-time market
+
+2022-2 Institute 100% reliability unit commitment claw-back
+
+2022-3 Allow transmission reconfigurations for economic benefits
+
+2022-4 Change the linear ramp period for ERS summer deployments to 3 hours
+
+2022-5 Change historical lookback period for ORDC mu and sigma calculations
+
+Additional Recommended Market Improvements from Prior Years
+
+2021-1 Eliminate the “small fish” rule
+
+2021-2 Implement an uncertainty product
+
+2021-3 Reevaluate net metering at certain sites
+
+2020-3 Implement smaller load zones that recognize key transmission constraints
+
+2020-4 Implement a Point-to-Point Obligation bid fee
+
+2019-1 Exclude fixed costs from the mitigated offer caps
+
+2019-2 Price ancillary services based on the shadow price of procuring each service
+
+2015-1 Modify the allocation of transmission costs by transitioning away from the 4
+
+Coincident Peak (CP) method.
+New Recommendations to Improve Market Performance
+2022-1 — Implement a multi-interval real-time market
+The real-time market relies primarily on two classes of resources: online resources and offline
+resources that can start quickly. The real-time market efficiently dispatches online resources and
+sets nodal prices that reflect the marginal value of energy at every location, but ERCOT lacks
+software and processes to facilitate efficient commitment and decommitment of peaking
+resources that can start quickly (i.e., within 30 minutes). This is a concern because suboptimal
+dispatch of these resources raises the overall costs of satisfying the system’s needs, can distort
+the real-time energy prices, and affects reliability. For these reasons, other markets have
+implemented this type of look-ahead process to optimize short-term commitments of peaking
+resources.
+Further, as ERCOT attracts more intermittent wind and solar resources, the value of having
+access to and optimally using fast-starting dispatchable resources will grow. Additionally, the
+rising amounts of fluctuations in intermittent output will increase the demands on other resources
+xvi | 2022 State of the Market Report
+—_—
+
+===== page 23 (OCR) =====
+Executive Summary
+to ramp up and down. A multi-interval dispatch model can meet these increasing ramp
+requirements by recognizing the needs of the system further into the future and beginning to
+move dispatchable resources to optimally satisfy them. In contrast, the current market optimizes
+each dispatch interval independently.
+
+This is a recommendation that we made in years past. In 2017, ERCOT evaluated the potential
+
+benefits of a multi-interval real-time market and decided not to move forward because the costs
+
+were greater than the projected benefits.!? This finding was influenced by the level of surplus
+capacity on the system and the much lower level of renewable resources. Much has changed
+
+since that time — we believe benefits will be much higher in the future and this capability will
+become essential for managing the growing renewable fleet. Hence, we recommend that it be
+reevaluated and prioritized for future implementation.
+
+2022-2 — Institute 100% claw-back of excess market revenues for RUC units
+
+The incentives regarding self-commitment of resources have changed dramatically with the
+
+increased frequency of RUC instructions that occur now under ERCOT’s more conservative
+
+operations. Hence, previous market design decisions regarding RUC merit a fresh look; notably,
+we recommend rethinking RUC claw-back percentages. Currently, there are tiered claw-back
+percentages based on offers or awards in the day-ahead market. This design has been in place
+since the introduction of the nodal market and was a result of a desire to incent participation in
+the day-ahead market by generators. Such incentives are not needed because the day-ahead
+market provides revenue certainty and generally a risk premium to generators. In addition, there
+has proven to be robust participation and liquidity in the day-ahead market by all types of market
+participants.
+
+However, receiving full operational cost recovery via RUC make-whole while also getting the
+
+opportunity to keep half or all of any revenues above cost can undermine the incentive to self-
+
+commit generators even when they would likely be economic.'? For example, our analysis
+indicates that as much as 25% of the RUC-committed hours of combined-cycle and 30% of the
+
+RUC-committed hours of simple-cycle generators would have been economic.
+
+Committing economic resources through the RUC process leads to artificial increases in ORDC
+
+revenues for the rest of a portfolio because of the RUC adjustment to online reserves, as well as
+
+additional revenues from the deployment price adder. We estimated the changes in these price
+adders that would have occurred if the RUC units economic to run had instead been self-
+
+2B See PUCT Review of Real-Time Co-Optimization in the ERCOT Region, Project No. 41837, ERCOT Report
+on the Multi-Interval Real-Time Market Feasibility Study (Apr. 6, 2017).
+
+8 It is notable that there is no requirement that the day-ahead market energy offer that triggers the reduced
+claw-back percentage be feasible, i.e., able to be awarded by the day-ahead market engine based on resource
+temporal constraints.
+
+2022 State of the Market Report | xvii
+
+===== page 24 (OCR) =====
+Executive Summary
+
+committed. We found that the total energy revenue from the deployment price adder and the
+
+online ORDC adder would have fallen by $41 million and $839 million, respectfully. The latter
+
+reduction is 30% of all ORDC revenue. Hence, we recommend implementing a 100% claw-back
+
+for economic RUC units, which would discipline self-commitment decisions by generators that
+
+are likely to be economic and lower costs for ERCOT’s consumers.
+
+2022-3 — Allow transmission reconfigurations for economic benefits
+
+Currently, ERCOT’s approval processes only allow constraint management plans" for reliability
+
+reasons. However, there are times in which a transmission reconfiguration can relieve
+
+congestion without negatively affecting reliability.!° Such plans should be developed and
+
+utilized. Both MISO and SPP are moving forward with this effort, though MISO is farther
+
+along.!°
+
+We recommend that ERCOT accept a limited number of proposals and independently identify
+
+options to reconfigure transmission elements in the network operations model when they are
+
+physically feasible and economically beneficial. A process can be established to identify which
+
+limited number of reconfiguration options have the biggest benefits.
+
+2022-4 — Change the linear ramp period for ERS summer deployments to 3 hours
+
+In all summer ERS deployments to date, including the deployment in 2022, resources returned to
+
+pre-instruction levels in approximately three hours.'’? However, the current time value parameter
+
+for returning to the pre-instruction level in the reliability deployment price adder calculation (an
+
+output of the SCED pricing run) is 4.5 hours. This difference artificially inflates the reliability
+
+deployment price adder. We recommend that there instead be a separate summer value of 3
+
+hours. A non-summer value of 4.5 hours can remain until such time as we have more ERS
+
+deployment data for non-summer months.
+
+2022-5 — Change the lookback period for ORDC mean and standard deviation calculations
+
+The current ORDC statistical values of the mean and standard deviation used as inputs to the
+
+ORDC shape are based on historical data going back to the introduction of the nodal market. The
+
+4 A constraint management plan is a set of pre-defined manual transmission system actions, or automatic
+transmission system actions that do not constitute a Remedial Action Scheme, which are executed in response
+to system conditions to prevent or to resolve one or more thermal or non-thermal transmission security
+violations or to optimize the transmission system.
+
+I These are not post-contingency actions and so should have a negligible impact on the control room.
+
+16 See, e.g., https://cdn.misoenergy.org/20230228%20RSC%20Item%2006%20Reconfiguration%20for
+%20Congestion%20Cost%20Update628023 pdf
+
+"7 https://Awww.ercot.com/files/docs/2022/09/13/DSWG%20-%20ERS%20event%20deployment%207-13-
+2022.pptx
+
+xviii | 2022 State of the Market Report
+
+===== page 25 (OCR) =====
+Executive Summary
+ORDC uses these historical values because the values are meant to be self-correcting as hour-
+ahead errors rise and fall over time. Because the resource mix has changed substantially in the
+last 12 years, the self-correcting nature of the ORDC is not able to capture the more recent data
+appropriately. Therefore, we recommend a rolling 5-year lookback period for the mean (mu) and
+standard deviation (sigma) parameters. Our analysis shows that this may reduce mu but raise
+sigma. The effect of this in 2022 would have been a savings of over $160 million. The
+importance of reducing the historical lookback period will increase over time and this change
+over the longer term is likely to raise revenues for suppliers in ERCOT.
+Additional Recommended Market Improvements from Prior Years
+
+2021-1 — Eliminate the “small fish” rule
+Under the so-called “small fish” rule, generators with less than 5% of the capacity installed in
+ERCOT are deemed not to have “ERCOT-wide market power.”'® This rule was originally
+implemented before ERCOT had effective shortage pricing under the ORDC and was intended to
+allow high offers (offers significantly above the marginal cost of production) to produce high
+prices in shortage conditions. This was rendered unnecessary by the introduction of the nodal
+market with the ORDC and economic withholding by small participants has led to inefficient
+pricing in some cases. Withholding should not be allowed by any pivotal supplier, and small
+entities can be pivotal when conditions are tight market-wide or when the system is ramp
+constrained. Therefore, the IMM recommends elimination of the small fish rule.
+2021-2 — Implement an uncertainty product
+ERCOT regularly commits resources through the RUC process (out-of-market commitments) to
+ensure sufficient generation will be available to satisfy ERCOT’s stated reliability margin of
+6,500 MW of operating reserves plus an additional 1,000 MW of non-spinning reserves in
+uncertain hours. In addition, ERCOT has changed the non-spinning reserve requirements to
+essentially make it a four-hour product (primarily impacting ESRs).!? These requirements have
+been increased partly to address the increasing operating uncertainties. As the levels of
+renewable generation increase and ERCOT’s conservative operations continue, these operational
+uncertainties and out-of-market costs are likely to rise substantially.
+Hence, we recommend that ERCOT develop a day-ahead capacity product to account for
+increasing uncertainty associated with intermittent generation output, load, and other factors.
+This would be a two- to four-hour ancillary service that could be deployed when uncertainty
+results in tight real-time conditions. Such a product should be co-optimized with the current
+18 See 16 TAC § 25.504(c).
+9 See NPRR1096, Require Sustained Two-Hour Capability for ECRS and Four-Hour Capability for Non-Spin.
+
+2022 State of the Market Report | xix
+
+===== page 26 (OCR) =====
+Executive Summary
+energy and ancillary services products and could be deployed to bring longer lead-time units
+online when ERCOT detects operating conditions are departing from expectation.
+This product would: 1) provide operating reserves that can be used to resolve reliability concerns
+arising from uncertain system conditions; 2) be less costly than holding excessive amounts of 30-
+minute reserves; 3) allow co-optimized market prices to more fully reflect the value of managing
+uncertainty; and 4) reduce out-of-market actions and the substantial costs associated with them.
+In the longer term after an uncertainty product is implemented, ERCOT can re-evaluate non-
+spinning reserve and ECRS procurement requirements, and also likely return those services to
+their previous duration requirements.
+2021-3 — Reevaluate net metering at certain sites
+The IMM agrees with the decision to implement nodal pricing for Controllable Load Resources
+(CLRs). However, we note that there has been a proliferation of proposed net metering schemes
+since adoption of NPRR945, Net Metering Requirements, which distorts the incentives provided
+by this directive. Loads that can be turned on and off quickly, such as data centers and
+cryptomines, should be incented to be dispatchable in real time through CLR participation rather
+than reducing their consumption to avoid transmission cost allocation and other load charges.
+Net metering schemes should, at a minimum, only be allowed with affiliated entities. This
+would help support price formation and provide better congestion management.
+Therefore, the IMM recommends ERCOT require CLRs to have their own meters, rather than
+allowing net metering amongst unaffiliated entities with meters at the interconnection point.
+2020-3 — Implement smaller load zones that recognize key transmission constraints
+The four competitive load zones contain a large amount of load, particularly the North and South
+zones, relative to when they were defined in 2003. This zonal configuration has not changed
+even through many years of load growth and changing congestion patterns. The highly
+aggregated load zones distort the incentives of both price-responsive demand and active demand
+response to manage congestion. This is particularly noticeable in the South load zone where
+there is significant congestion inside the zone, not just between it and other zones.
+Incenting demand to respond to the load zone price often makes the local congestion worse. As
+active demand response grows in the future, transitioning to nodal pricing for those active loads
+will become increasingly beneficial for ERCOT and the market participants.” Beyond the active
+demand response, longer-term demand decisions may be influenced by the zonal prices. Such
+decisions may either relieve or aggravate congestion patterns but are unfortunately not informed
+by the nodal prices.
+20 Nodal pricing for controllable load resources is a part of the Commission’s 2021 market design blueprint but
+has not yet been implemented.
+xx | 2022 State of the Market Report
+
+===== page 27 (OCR) =====
+Executive Summary
+
+Therefore, the IMM recommends that the load zones be re-evaluated and defined in future years
+(after the required four-year waiting period), based on prevailing congestion patterns. In
+particular, the new zones should be defined to minimize intra-zonal congestion.
+2020-4 — Implement a Point-to-Point Obligation bid fee
+Over the last few years, there have been numerous delays in running and posting the results of
+the day-ahead market. These delays are disruptive to the market and create unnecessary risk for
+market participants. ERCOT analysis of the cause points to a significant increase in bids for
+point-to-point (PTP) obligations, a financial transaction cleared in the day-ahead market used to
+manage real-time market congestion cost risk.?! This is not a surprise because large increases in
+PTP transactions greatly increases the complexity of the optimization and the time required for
+the market software to solve.
+Charging no fee for PTP bids, as ERCOT currently does, allows participants to submit numerous
+bids that are unlikely to clear and provides very little value to the market. Applying a small bid
+fee to the PTP bids is consistent with cost causation principles and would incentivize participants
+to submit fewer bids that are more valuable and more likely clear. Because even a small fee
+would likely reduce or eliminate the bids that are very unlikely to clear, this should substantially
+eliminate the delays in the day-ahead market process. Hence, the IMM recommends that a small
+bid fee be applied to day-ahead market PTP Obligation bids to more efficiently allocate day-
+ahead market software resources.
+2019-1 — Exclude fixed costs from the mitigated offer caps
+In competitive markets, suppliers offer their resources at prices equal to their marginal costs (i.e.,
+the incremental costs incurred to produce additional output). Offering at prices higher than this
+level can only reduce a supplier’s profits in a competitive market because the supplier will be
+displaced by lower-cost resources. However, this is not true when a supplier has market power
+and an increase in its offer price will raise the market prices and its profits.
+To effectively mitigate market power, replacement real-time energy offers used by ERCOT
+(such as mitigated offers) should only include short-run marginal costs. Currently, the mitigated
+offer cap includes a multiplier that increases the offer price as the unit runs less.” The
+operations and maintenance portion of verifiable costs already accounts for costs that increase as
+a unit runs less so the multiplier is not reasonable. Allowing generators with market power to
+raise prices is an economically inefficient means to achieve fixed cost recovery, so the IMM
+recommends that these multipliers be removed to ensure that mitigated offer caps are set at
+21 ERCOT’s regression analysis can be found at http://www.ercot.com/calendar/202 1/1/25/221086-WMWG.
+22 Protocol section 4.4.9.4.1(1)(d).
+
+2022 State of the Market Report | xxi
+
+===== page 28 (OCR) =====
+Executive Summary
+competitive levels. This will help ensure that the market outcomes in ERCOT are competitive,
+while allowing these resources to recover fixed costs in the same manner as all other resources.
+2019-2 — Price ancillary services based on the shadow price of procuring each service.
+Clearing prices should reflect the constraints that are used by ERCOT to purchase ancillary
+services. However, this is not currently the case with certain ancillary services. ERCOT’s
+procurement requirements for Responsive Reserve Service effectively limit the amount of under-
+frequency relay response that can be purchased from non-controllable load resources. Because
+these limits are not factored into the clearing prices, there is usually a surplus of relay response
+offered into the market. However, the surplus does not drive clearing prices down as one would
+expect in a well-functioning market. Each year the surplus grows, which is an indicator of the
+inefficient pricing in this market.”
+In addition, a new ancillary service - ERCOT Contingency Reserve Service (ECRS) — will be
+implemented in 2023 and will contain an optimization constraint (quantity limit) on certain
+resources. However, each of these services will have a single clearing price for both the limited
+and unlimited providers. Failure to include these constraints in the pricing of those products will
+require inefficient market rules and restrictions be imposed. Such measures are not necessary
+when efficient prices determine market participants’ incentives. Therefore, the IMM
+recommends that the clearing price of all ancillary services be based on all the constraints used to
+procure the services.
+2015-1 — Modify the allocation of transmission costs by transitioning away from the Four
+Coincident Peak (4CP) method.
+The current method of allocating transmission costs, the 4CP method, does not apply
+transmission costs equitably to all loads. Additionally, it does not forestall the need to invest in
+new transmission as intended when this method was implemented. Currently, transmission costs
+are allocated based on an entity’s maximum 15-minute demand in each month of June through
+September.™* This method was approved in 1996 and was intended to allocate transmission costs
+to the drivers of new transmission.
+However, customer demand during the peak summer hours is no longer the main driver of new
+transmission in ERCOT today. Decisions to build transmission are based on transmission
+congestion patterns throughout the year and an analysis of whether generation can be delivered
+to serve customers reliably. Additionally, the method of allocating these costs provides a cost-
+23 We include a chart showing the surplus later in this Report.
+24 16 Tex. Admin. Code §25.192. Transmission Service Rates;
+http://www.puc.texas.gov/agency/rulesnlaws/subrules/electric/25.192/25.192.pdf
+xxii | 2022 State of the Market Report
+
+===== page 29 (OCR) =====
+Executive Summary
+avoidance signal to non-opt-in entities and transmission-level customers, both of which can
+artificially reduce their total customer demand in anticipation of a peak demand day to avoid
+transmission charges. Demand response driven by the incentive to avoid transmission costs is
+likely inconsistent with real-time price signals and can significantly distort market outcomes.
+Hence, the IMM continues to recommend that transmission cost allocation be changed to better
+reflect the true drivers for new transmission. A tiered approach that incorporates daily peak
+demand, a 12CP method, and a 4CP method could be a big improvement. Such an approach
+could combine the existing peak methods with some allocation of costs that are unavoidable.
+This may be a compromise that would substantially address the incentive concerns described
+above.
+
+2022 State of the Market Report | xxiii
+
+===== page 30 (OCR) =====
+
+===== page 31 (OCR) =====
+Future Needs of the ERCOT Market
+I. FUTURE NEEDS OF THE ERCOT MARKET
+
+The ERCOT market is currently experiencing major changes and evolving needs, which are
+
+driven by two primary factors. First, the generation mix is changing rapidly as the entry of wind,
+
+solar, energy storage, and distributed generation fleet accelerates. These new generation
+technologies have significantly different operational characteristics than conventional generation.
+
+Changes to the market are necessary to integrate them reliably and efficiently into the system.
+
+Second, ERCOT has adopted a very conservative operating posture since July 2021. The
+
+conservative operating posture requires more operational reserves to be online in real-time. In
+
+addition to being very costly, this posture can interfere with efficient market signals in real time.
+
+It has also led to inefficiencies in ancillary service pricing due to the increased procurement. The
+
+online reserve level target of 6,500 MWs for real-time (or 7,500 MWs during certain conditions)
+
+was established in June 2021 and should be re-evaluated now considering increased planning
+reserve margins and the addition of new solar and storage resources on the grid. This has
+become increasingly important since ERCOT’s “bridging solution” for the time period before
+implementation of Phase II market reform is targeted to increase energy revenues at this reserve
+level.”
+
+This section discusses the evolving needs of the future ERCOT market stemming from these two
+
+factors. The IMM recommends the following changes, at a minimum, to address the needs
+
+described above:
+
+e Implement RTC as soon as possible;
+
+e Complete single model implementation of Energy Storage Resources (ESRs) and
+incorporate state of charge (SOC) in market clearing;
+
+e Introduce an uncertainty ancillary service product to increase the flexibility of the system
+instead of trying to adapt current ancillary service products to requirements they are not
+well suited for (see SOM recommendation 2021-2 above);
+
+e Address cost allocation issues, particularly transmission cost allocation (see SOM
+recommendation 2015-1 above); and
+
+e Minimize out-of-market intervention to allow the energy-only market to perform
+appropriately to produce the price signals that facilitate long-term investment in
+generation and demand response in an economically justifiable way.
+
+25 On April 18, 2023, the ERCOT Board adopted ERCOT’s recommendation for a $10 ORDC floor at 7,000
+MW of online reserves and a $20 ORDC floor at 6,500 MW of online reserves. If adopted by the
+Commission, the floors are likely to be implemented later this year.
+
+2022 State of the Market Report | 1
+
+===== page 32 (OCR) =====
+Future Needs of the ERCOT Market
+A. ERCOT?’s Future Supply Portfolio
+The ERCOT market’s supply portfolio has changed considerably over the last twenty years and
+the current interconnection queue suggests that it will continue to change. Over the past two
+decades, a significant fraction of ERCOT’s natural gas steam and coal generation retired, a large
+amount of combined cycle capacity was built, and the penetration of wind resources steadily
+increased. More recently, solar, battery energy storage, and distributed generation have been
+interconnecting at a rapid pace and wind has been slowing. We discuss the need for nimble
+adjustments related to these new classes of resources in the subsections below.
+Renewable Resources
+
+Over the last five years: 16 GW of wind, 14 GW of solar, 2.7 GW of energy storage, and 2.3 GW
+of gas-fired capacity were installed.”° while 5.4 GW of coal and 1 GW of gas steam capacity
+were retired.”” Looking forward, ERCOT’s interconnection queue is comprised of more than
+1,200 active projects totaling over 245 GW,” and most of this capacity is wind, solar, and
+storage resources. Not all of these projects will be built. However, of the 40 GW of projects
+with a completed interconnection study and agreement, 23 GW are solar, 8 GW are wind, 7 GW
+are energy storage, and 2 GW are natural gas-fired resources.
+The increase in intermittent wind and solar generation raises different operational demands that
+are discussed below. It should be noted that solar output is highly correlated with ERCOT’s
+peak demand and therefore contributes significantly to resource adequacy during the summer
+peak. In addition, many battery projects are co-locating with solar, which mitigates some of the
+operational demands we will discuss in this section.
+Increasing Ramp Demands. One of the new demands is a much steeper and more uncertain net
+load ramp. Net load is defined as the system load minus the output of intermittent renewable
+resources that must be served by dispatchable resources, including ESRs. Once a large quantity
+of solar has entered the ERCOT market, these dispatchable resources will have to ramp rapidly
+each evening as the sun goes down and the solar resources’ output falls sharply. Similarly,
+shifting weather patterns can cause wind output to fall rapidly and the timing of these decreases
+can at times be difficult to predict. This will require ERCOT’s operators to utilize flexible
+dispatchable resources to accommodate these uncertain ramp demands. In addition to existing
+and new flexible natural gas resources, ERCOT will likely need to rely more heavily on:
+
+e Demand-side resources that can respond to higher prices during the ramp by reducing
+
+their consumption if the value of the energy exceeds their value of consuming it; and
+26 https:/Awww.ercot.com/files/docs/2023/03/06/Capacity Changes by Fuel Type Charts February 2023.xlsx
+27 https://Awww.ercot.com/files/docs/2022/1 1/29/Capacity DemandandReservesReport_Nov2022.xlsx
+28 ERCOT Generation Interconnection Study Report, December 2023.
+https://www.ercot.com/misdownload/servlets/mirDownload?doclookupId=887101481
+
+2 | 2022 State of the Market Report
+
+===== page 33 (OCR) =====
+a
+Future Needs of the ERCOT Market
+e Energy storage, while duration limited, has the capability to produce energy very quickly
+when deployed, and store energy when intermittent output is high and demand is low.
+Changes to the market design can also improve ERCOT’s ability to meet these new operational
+challenges. For example, a multi-interval real-time market (MIRTM) will be increasingly
+valuable. It allows the market software to anticipate and address ramping needs in future
+intervals by pre-positioning the system for those needs. ERCOT and stakeholders evaluated a
+MIRTM in 2016, and at the time of the study, they found that the benefits of a MIRTM were
+insufficient to justify its implementation costs. However, they noted that “[c]hanges in the future
+resource mix, the balance of supply and demand or system conditions could demonstrate more
+significant value to MIRTM.””’ As the penetration of intermittent resources increases, the
+operational benefits of a MIRTM have increased because it will improve the utilization of the
+dispatchable fleet to manage the net load ramps. Therefore, we recommend that MIRTM be
+implemented, as discussed in recommendation 2022-1.
+Increasing Supply Uncertainty. As noted above, the growth in intermittent resources and
+distributed generation will increase supply uncertainty. As shown in Figure | below, thermal
+generation trips, load forecast errors, and wind and solar forecast errors all contribute to the net
+uncertainty faced by the market operator.
+Figure 1: Net Real-Time Capacity Statistics for 2022
+4500 GaNet Capacity Change
+—Load Forecast Error
+4000 —IRR Forecast Error
+~-IRR Outages and Economic Commitment Changes Po 7
+3500 —Non-IRR Outages and Derates
+~ ——Non-IRR Economic Commitment Changes 7
+a 7, |
+oy, a 2 |
+2000 VA
+» ff fh @
+: 2a a 2
+wo ee | -
+-— & 8 ee, & Be i
+500 A /\ = Sea /| = i
+fees S/Ree
+» ss Jy.
+(1000)
+50th 90th 95th 99th 50th 90th 95th 99th
+2-Hour Forecast Percentile 4-Hour Forecast Percentile
+29 https://interchange.puc.texas.gov/Documents/41837_9 935430.PDF
+2022 State of the Market Report | 3
+Lo
+
+===== page 34 (OCR) =====
+Future Needs of the ERCOT Market
+The growth in wind and solar, coupled with rising amounts of distributed generation that is not
+dispatched by ERCOT, will significantly increase the uncertainty that ERCOT faces. In fact, it
+has increased over the past year.
+Ideally, this uncertainty should be addressed through the market. However, many ISOs/RTOs
+manage this uncertainty in real-time operations by committing additional resources outside of the
+market in order to have sufficient dispatch flexibility to manage this uncertainty. To allow the
+markets to better manage and price this uncertainty, we recommend that ERCOT create a two- to
+four- hour uncertainty product. This product was previously discussed in SOM recommendation
+2021-2 as well as in PUCT Project No. 52373, Review of Wholesale Electric Market Design.*°
+Although Figure | is illustrative and not intended to indicate the size of the service, it shows that
+ERCOT faces substantial uncertainty from multiple sources in the two- to four-hour ahead
+timeframe. The recommended product would procure and price resources that ERCOT can use
+when the uncertainty results in tight supply-demand conditions or high ramp demands that
+cannot be met by existing online resources. This product would be an effective replacement for
+the extra procurement of non-spinning reserves. ERCOT is currently using non-spinning
+reserves to solve for uncertainty in a time horizon far ahead of the operating period, which is ill-
+suited for the 30-minute response time requirement of this product.
+Increasing Generic Transmission Constraints. Another challenge brought about by the increase
+in inverter-based generation (including wind, solar, and energy storage) is the increased
+prevalence of GTCs. Typically, the flows over most transmission facilities are constrained by
+thermal limitations because increased flows raise the temperature of the facilities. GTCs are not
+thermal constraints, but are used to limit overall flows over a given path to maintain the stability
+of the system. They are harder to manage than thermal constraints and their limits are sometimes
+not well known prior to committing a resource, resulting in divergence between market outcomes
+and reliability needs.
+GTCs have increased significantly over the last few years with the expansion of inverter-based
+generation. Real-time congestion rent on these constraints has grown from $400 million in real-
+time congestion in 2021 to $640 million in 2022. NPRR1070, Planning Criteria for GTC Exit
+Solutions, is currently pending in ERCOT’s stakeholder process, and the Commission
+rulemaking to implement SB1281 has recently been completed to improve economic
+transmission planning criteria.7! These two items should help develop solutions to the
+proliferation of GTCs.
+30 Review of Wholesale Electric Market Design, Project No. 52373, IMM Proposals at 6-7 (Oct. 15, 2021).
+31 Review of Chapter 25.101, Project No. 53403, Order Adopting Amendments to 16 TAC 25.101 as Approved
+at the November 30, 2022, Open Meeting (Dec. 7, 2022).
+4 | 2022 State of the Market Report
+
+===== page 35 (OCR) =====
+Future Needs of the ERCOT Market
+System Inertia. Proliferation of inverter-based generation has also raised concerns on
+maintaining sufficient system inertia. System inertia is needed to maintain frequency within
+acceptable bounds when large generators, loads, or large DC ties trip offline. Inertia is provided
+by online generators that are synchronously connected to the grid, which is not generally true of
+inverter-based resources. Alternatively, with very fast control systems, “synthetic” inertia is
+possible from inverter-based resources or even loads. ERCOT has studied inertia previously and
+has procedures in place to ensure sufficient inertia is maintained.>? However, as an increasing
+share of the load is served by wind, solar, and ESRs, system inertia will continue to fall. This
+may lead to a need to supplement the markets to compensate resources for providing inertia as
+ERCOT has previously discussed.*?
+Voltage support. A final challenge associated with the rapid increase in inverter-based
+generators is voltage support. Of particular note is the June 4, 2022, Odessa disturbance event
+that resulted in a loss of 1.7GW of intermittent renewable resources (IRRs) and a system
+frequency decline to 59.706 Hz.** Since that event, there have been multiple stakeholder
+discussions on tightening interconnection requirements and instituting more stringent voltage
+ride-through rules in order to prevent repeat large-scale resource trips in the future. Similar
+discussions and standards development have also been undertaken by NERC based on the
+Odessa event.*> Additionally, ERCOT has noted instances where IRRs have oscillated with
+unstable reactive power control at low output and has approved a rule change on IRR reactive
+capability.*° As voltage issues become more prevalent, it may be more economically efficient to
+implement a voltage support service (also stated in the Commission’s Phase | Market Design
+blueprint?”) that would incentivize improved reactive capability from inverter-based resources
+and proactively resolve reliability concerns arising from voltage stability issues.
+
+Energy Storage
+It is important for ERCOT to improve upon its modeling of ESRs to enable these resources to
+offer their full value to grid reliability and the market. In the current “dual model” or “combo
+model”, the load and generation sides of an ESR are modeled as separate, independent devices.
+The dual model fits within ERCOT’s existing software capabilities, but has significant modeling
+limitations, including the inability to incorporate the SOC of the ESRs in market clearing and
+32 https://www.ercot.com/calendar/event?id=1520373953460
+3 http://www.ercot.com/content/wem/key_documents_lists/55752/Proposal_for_Synchronous_Inertial_
+Response_Service_Market_March112015.docx
+34 https://www.ercot.com/files/docs/2022/1 1/10/Odessa%20Disturbance%202_JuneMeeting.pdf
+35 https://www.nerc.com/comm/RSTC/IRPS/2022 Odessa_Disturbance_Webinar.pdf
+36 https:/Avww.ercot.com/mktrules/issues/NPRR1138
+37 https://interchange.puc.texas.gov/Documents/52373_268_1172004.PDF
+2022 State of the Market Report | 5
+
+===== page 36 (OCR) =====
+Future Needs of the ERCOT Market
+challenges with measuring basepoint deviation. ERCOT has made substantial progress towards
+modeling ESRs as a single device with the approval of the following protocol revisions:
+
+e NPRR989 - BESTF-1 Energy Storage Resource Technical Requirements
+
+e NPRR1002 - BESTF-5 Energy Storage Resource Single Model Registration and
+Charging Restrictions in Emergency Conditions
+
+e NPRR1026 - BESTF-7 Self-Limiting Facilities
+
+Implementation of these changes is currently on hold due to limited implementation resources,
+although ERCOT has been considering how and when to restart these efforts. However, even
+with these improvements, additional enhancements are needed to fully model ESRs’ unique
+characteristics and to better reflect their performance attributes in market outcomes.
+Modeling the SOC in the Day-Ahead Market, Reliability Unit Commitment, and the real-time
+market will become critical as ESRs become a more substantial portion of the fleet. In addition
+to the benefit of more accurate clearing prices, this will ensure that efficient commitment of other
+types of generation are made. Modeling the SOC of ESRs, in conjunction with RTC, is
+necessary to allow ESRs to provide their full value to grid reliability, operational flexibility, and
+market efficiency.
+
+Distributed Resources
+ERCOT is also currently addressing issues related to distributed resources. There are currently
+almost 2,000 MW of unregistered Distributed Generation Resources (DGRs) in ERCOT, and an
+unknown number of potential but unregistered controllable load resources.** The amounts of
+these resource in ERCOT are continuing to increase. ERCOT is actively grappling with
+visibility and uncertainty around these resources. They are generally located on the distribution
+system, and therefore present challenges associated with modeling their location, behavior, and
+market participation. The challenges presented by distributed resources include:
+
+e Operational visibility: The location and output of distributed resources may not be certain
+and could therefore be inaccurately represented in the real-time market, leading to
+potential challenges in managing network congestion and balancing the system.
+
+e Operational control: Most DGRs are not dispatchable by ERCOT on a five-minute basis.
+
+e Economic incentives: To the extent that distributed resources are affected by retail
+programs or rates, wholesale market rules and settlements may result in inefficient
+incentives to operate the resources or inefficient co-location schemes. This is particularly
+true regarding costs distributed on a load-ratio share basis, such as ancillary service and
+transmission cost allocations.
+
+38 Unregistered DG Installed Capacity Quarterly Report at https://www.ercot.com/services/rq/re/dgresource.
+6 | 2022 State of the Market Report
+
+===== page 37 (OCR) =====
+Future Needs of the ERCOT Market
+
+Conclusion
+We encourage ERCOT to develop market rules and operating procedures that address these
+challenges. The most immediate concerns are loads that can start and stop quickly, such as data
+centers and crypto-currency mines, which are increasingly interconnecting behind-the-meter.*?
+These types of loads should be incentivized to register with ERCOT as they have the capability
+to actively participate in energy and ancillary services markets, rather than simply providing
+passive demand response in order to avoid transmission cost allocation and other load charges.
+As discussed above in SOM recommendation 2015-1, the transmission cost allocation method
+currently used provides incentives for these large loads to behave in ways that do not necessarily
+forestall the construction of new transmission and that do not apply costs equitably. In SOM
+recommendation 2021-3, we recommend requiring controllable load resources (CLRs) to have
+their own meters, rather than allowing net metering amongst unaffiliated entities. We also
+recommend that ERCOT move quickly to implement nodal pricing for CLRs (ERCOT is
+currently working on developing the related protocol change request).
+B. ERCOT’s Operational Posture
+In 2021, ERCOT adopted a more conservative operating posture by requiring additional
+operating reserves to be available in real-time.*? Since July 2021, ERCOT has:
+
+e Increased non-spinning reserve requirements so that the total upward ancillary services,
+excluding those provided by loads on high-set under-frequency relays, equals 6,500 MW
+on a typical day and 7,500 MW on days ERCOT deems to have high load uncertainty;
+
+e Used RUC more routinely to ensure that there is 6,500 MW (or 7,500 MW) of
+dispatchable reserves in real-time. ERCOT previously targeted lower reserve levels in
+the range of 3,600-5,700 MW;
+
+e Issued RUC instructions earlier in the operating day, committing more long-lead time
+resources as well as relying less on market participant response; and
+
+e Adjusted the selection of forecast to more frequently rely on the highest load forecast and
+the lowest wind and solar forecasts.
+
+The results of the changes, in combination with the 2022 ORDC adjustment, are that the pricing
+outcomes have grown disconnected from the actual operational conditions. *! This is discussed
+39 Of the 2,370 MW of large loads that have received approval to energy, ERCOT has observed a noncoincident
+peak consumption of 1,739 MW.
+40 https://www.ercot.com/files/docs/2021/06/30/ERCOT_Addtional_Operational_Reserves_06302021.pptx
+4l Effective January 1, 2022, the Minimum Contingency Level (MCL) was set at 3,000 MW and the high
+system-wide offer cap (HCAP) and value of lost load (VOLL) were set to $5,000 per MWh.
+2022 State of the Market Report | 7
+
+===== page 38 (OCR) =====
+Future Needs of the ERCOT Market
+
+in more detail in the RUC section of this report. This is problematic because the energy-only
+
+market design relies on efficient pricing that reflects the reliability needs of the system.
+
+Procuring additional non-spinning reserve also increases the costs paid by load. Although this
+
+additional procurement may increase reliability in some hours, the additional costs are difficult to
+
+justify based on the potential reliability benefits. We encourage ERCOT to re-evaluate the
+reserve level target, especially since the market and resource mix has evolved since the reserve
+level target was set back in June 2021. A reserve level target based on rigorous analysis would
+likely be substantially lower on most days and in most hours. More accurate reserve
+requirements would produce more efficient economic signals that govern short-term decisions to
+self-commit resources and long-term decisions to build and retire resources.
+
+While we continue to believe that an energy-only market can continue to be successful and adapt
+
+to changing system needs, ERCOT’s continued conservative operational posture interferes with
+
+the efficient signals it can produce. The distortion in the market’s economic signals will affect
+generators’ investment and retirement decisions, which may threaten ERCOT’s resource
+adequacy over the longer term.
+
+In addition, as we discuss later in this report, the ORDC changes regularly increase revenues
+
+when the system is not close to shortage, resulting in inflated net revenues for all types of
+
+resources. One established measure of net revenues, the Peaker Net Margin, has exceeded Cost
+
+of New Entry (CONE) in three of the last four years. This may not be entirely reasonable in a
+
+system that is currently meeting a 1-in-30 loss of load expectation reliability standard.*” These
+
+signals will both attract additional investment, as well as forestalling retirement of existing
+resources.
+
+#2 Review of Market Reform Assessment Produced by Energy and Environmental Economics, Inc. (E3), Project
+No. 54335, E3 Report, staff memo and updated questions at 126 (“The results showed that the current system
+achieves a loss of load expectation (LOLE) of 0.03 days/year, exceeding the common industry benchmark of
+0.1 days/year or “one day in ten years.””) (Nov. 10, 2022);
+https://interchange.puc.texas.gov/Documents/54335_2_1251720.PDF.
+
+8 | 2022 State of the Market Report
+
+===== page 39 (OCR) =====
+Review of Real-Time Market Outcomes
+II. REVIEW OF REAL-TIME MARKET OUTCOMES
+
+The performance of the real-time market in ERCOT is essential because that market:
+
+e Coordinates the dispatch of generating resources to serve ERCOT loads and manage
+flows over the transmission network; and
+
+e Establishes real-time prices that efficiently reflect the marginal value of energy and
+ancillary services throughout ERCOT.
+
+The first function of the real-time market ensures reliability in ERCOT while minimizing the
+
+system’s production costs. The second function, to establish efficient prices, is equally important
+
+because real-time prices provide key short-term incentives to commit resources and follow
+
+ERCOT?’s dispatch instructions. They also provide long-term incentives that govern participants’
+
+investment and retirement decisions.
+
+Real-time prices have implications far beyond the settlements in the real-time market. Only a
+
+small share of the power produced in ERCOT is transacted in the real-time market. However,
+
+real-time energy prices set the expectations for prices in the day-ahead market and bilateral
+forward markets and are, therefore, the principal driver of prices in these markets where most
+transactions occur. Because of the interaction between real-time and forward prices, the
+importance of real-time prices to overall market performance is much greater than might be
+inferred from the proportion of energy actually settled at real-time prices. This section evaluates
+
+and summarizes electricity prices in the real-time market during 2022.
+
+A. Real-Time Market Prices
+
+The first analysis of the real-time market evaluates the total cost of supplying energy to serve
+
+load in the ERCOT wholesale market. In addition to the costs of energy, loads incur costs
+
+associated with ancillary services and a variety of non-market-based expenses referred to as
+
+“uplift.” Figure 2 shows the average “all-in” wholesale price of electricity for ERCOT that
+
+includes all these costs and is a measure of the total cost of serving load in ERCOT on a per
+
+MWh basis. The all-in price metric includes the load-weighted average of the real-time market
+
+prices from all zones, as well as ancillary services costs and uplift costs divided by real-time load
+
+to show costs on a per MWh of load basis.*? Figure 2 shows the average all-in prices for
+electricity in ERCOT the last three years.
+
+43 For this analysis “uplift” includes: Reliability Deployment Adder Imbalance Settlement, Operating Reserve
+Demand Curve (ORDC) Adder Imbalance Settlement, Revenue Neutrality Total, Emergency Energy
+Charges, Base Point Deviation Payments, Emergency Response Service (ERS) Settlement, Black Start
+Service Settlement, and the ERCOT System Administrative Fee.
+
+2022 State of the Market Report | 9
+
+===== page 40 (OCR) =====
+oo
+Review of Real-Time Market Outcomes
+Figure 2: Average All-in Cost for Electricity in ERCOT
+$200 $12
+GeEnergy w/o Adders
+Operating Reserve Adder
+GpReliability Adder
+2 isp | Manel Services 4 2
+$150 uplift $9
+g «Natural Gas Price
+8 $745.74 Energy £
+i - ;
+2 $944.08 Reliability Adder 5
+€ $366.43 Ancillary Services 3
+Fs $61.85 Uplift 5
+$50 bw $3 4
+rial tll
+J/FFMAMJ J|A/SSSOND|JSFMAMJ J|AS|IOND JIFMAMJ|J/AJSSON/D
+2020 2021 2022
+ERCOT real-time prices currently include the effects of two energy price adders that are
+designed to improve real-time energy pricing when operating reserves diminish or when ERCOT
+takes out-of-market actions for reliability. Although published energy prices include the effects
+of both adders, we show the ORDC adder (operating reserve adder) and the Reliability
+Deployment Price Adder (reliability adder) separately from the base energy price in the figure.
+The operating reserve adder was implemented in mid-2014 to account for the value of reserves
+based on the Value of Lost Load and the probability of reserves falling below the Minimum
+Contingency Level. The reliability adder was implemented in June 2015 as a mechanism to
+ensure that certain out-of-market actions do not distort the energy prices.“
+Figure 2 shows that average real-time prices fell to $74.92 per MWh in 2022, with an annual
+total market value of $32.2 billion. This average price is 50% lower than in 2021, largely
+because of the effects of Winter Storm Uri in 2021. Average real-time prices in 2022 were
+nearly triple the prices in 2020 ($25.73 per MWh) because of the increase in natural gas prices
+and the ORDC adjustments made in the beginning of 2022. The correlation between the gas
+price and the energy price is expected in a well-functioning, competitive market because fuel
+“4 The reliability adder is calculated by separately running the dispatch software with modifications to the inputs
+to reflect any RUCs, deployed load capacity, or certain other reliability actions. When the recalculated
+system lambda (average load price) is higher than the initial system lambda, the difference is the adder.
+10 | 2022 State of the Market Report
+oo
+
+===== page 41 (OCR) =====
+a
+Review of Real-Time Market Outcomes
+costs represent the majority of most suppliers’ marginal production costs. Suppliers in a
+competitive market have the incentive to offer resources at their marginal costs and natural gas is
+the most widely used fuel in ERCOT.
+Individual cost categories of the all-in electricity price for 2022 are shown in Figure 3 below.
+Ancillary services costs were $3.29 per MWh of load in 2022, a nearly 90% reduction from 2021
+($29.59 per MWh of load) but more than triple the prices in 2020 ($1.00 per MWh). This is
+discussed in more detail in Section IV: Day-Ahead Market Performance. Uplift costs accounted
+for $0.77 per MWh of the all-in electricity price in 2022, down from $5.34 per MWh in 2021
+(and the effects of Winter Storm Uri) and $0.94 per MWh in 2020.
+The total uplift costs in 2022 were approximately $368 million, much lower than the $2.1 billion
+in 2021, which was driven by ancillary service imbalance settlement associated with Winter
+Storm Uri. There are many other costs included as uplift, but the largest components are the
+ERCOT System Administrative Fee ($293 million or $0.55 per MWh), Emergency Response
+Service (ERS) program costs ($36 million or $0.08 per MWh) and the Real-Time Revenue
+Neutrality Allocation (RENA), which totaled $43 million or $0.10 per MWh in 2022. The
+dramatic increase in RENA, up from less than $1 million in 2021, is attributable to high negative
+RENA during Winter Storm Uri. RENA in 2022 was less than the $75 million level in 2020.
+Figure 3: All-in Electricity Costs in 2022
+$200 $10
+Ga Energy w/o Adders
+$180 G5 Reliability Adder
+Ga Ancillary Services o
+$160 = vpuitt / $8
+sido ©» Natural Gas Price a #7 i
+5 $100 $5 Ez
+@
+$80 s4 0
+Lee Og:
+« Of _ Geeta.’
+mrt tii tiiilig
+~ PEER
+so so
+Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov’ Dec
+2022 State of the Market Report | 11
+Lo
+
+===== page 42 (OCR) =====
+Review of Real-Time Market Outcomes
+Real-time energy prices vary substantially by time of day. Figure 4 shows the 2022 load-
+weighted average real-time prices in ERCOT in each 5-minute interval during the summer
+months from May through September, when prices are typically the highest. Average LMPs for
+summer 2022 were more than 150% higher than summer 2021. This was primarily due to a
+combination of hotter weather and associated demand, changes to the ORDC curve implemented
+in January 2022, and economic growth.
+Figure 4: Prices by Time of Day
+May-September 2022
+$300
+—— Average LMP 2021
+—-—Average LMP 2022
+$250 )
+7 ee an
+é - en
+? $100 N
+$50 __
+so
+" 1/2/3/4\/5\;6'7'8\9 10/11 12 | 13| 14/15 1617 18 | 19| 20) 21 22 23 24
+(S50)
+Hour
+To better observe the effect of the highest-priced hours on the average real-time energy price,
+Figure 5 shows the frequency of real-time energy price spikes in the 2022. For this analysis,
+price spikes are defined as 15-minute intervals when the load-weighted average energy price is
+greater than 18 MMBtu per MWh multiplied by the prevailing natural gas price (i.e., an implied
+heat rate of 18). Prices at this level typically exceed the marginal costs of virtually all on-line
+generators and are likely times when generators are recovering some fixed costs.
+Price spikes were slightly more frequent in 2022 compared to 2021 in part due to continued
+higher gas prices (close to $6/MMBtu) throughout the year but were far less consequential on
+prices because there was no pricing event on par with Winter Storm Uri. Compared with 2020, a
+mild weather year, price spikes were less frequent in number in 2022 due to the impact of
+ERCOT?’s conservative operational posture. With average gas prices high throughout the year,
+12 | 2022 State of the Market Report
+
+===== page 43 (OCR) =====
+Review of Real-Time Market Outcomes
+energy prices have a much stronger correlation with heat rate as the other components of
+operations and maintenance costs become less impactful. This is typical in energy markets. The
+overall impact of price spikes in 2022 was $17.90 per MWh, or 24% of the total average price.
+
+Figure 5: Average Real-Time Energy Price Spikes
+$1,600 @ Average Price of NonSpike Intervals 1000
+wImpact of Price Spikes on Average Price
+$1,400 ANumber of Price Spikes 875
+A
+
+_~ $1,200 750 g
+2 F
+a $1,000 625
+
+E g
+
+7 ay
+a =
+
+> $800 500 ‘S
+2 i
+Fy 2
+
+g, $600 375 &
+
+& Zz
+
+b} A A A =
+
+s A a)
+<< $400 a 250 &
+
+A
+A A
+$200 125
+A A A A
+A A A
+A aA A a Aaa A
+A
+$0 - im 0
+JFMAMJJASOND JFMAMJJASOND J/FMAMJ J ASOND
+2020 2021 2022
+B. Zonal Average Energy Prices in 2022
+Energy prices vary across the ERCOT market because of congestion costs that are incurred as
+power is delivered over the network. Table | provides the annual load-weighted average price
+for each zone as well as the annual average natural gas price for the past eight years.
+2022 State of the Market Report | 13
+
+===== page 44 (OCR) =====
+Review of Real-Time Market Outcomes
+Table 1: Average Annual Real-Time Energy Market Prices by Zone
+2014 2015 2016 2017 2018 2019 2020 2021 2022
+Energy Prices ($/MWh)
+
+ERCOT $40.64 $26.77 $24.62 $28.25 $35.63 $47.06 $25.73 $167.88 $74.92
+
+Houston $39.60 $26.91 $26.33 $31.81 $34.40 $45.45 $24.54 $129.24 $81.07
+
+North $40.05 $26.36 $23.84 $25.67 $34.96 $46.77 $23.97 $206.39 $75.52
+
+South $41.52 $27.18 $24.78 $29.38 $36.15 $47.44 $26.63 $187.47 $72.96
+
+West $43.58 $26.83 $22.05 $24.52 $39.72 $50.77 $31.58 $105.27 $65.53
+Natural Gas Prices ($/MMBtu)
+
+ERCOT $4.32 $2.57 $2.45 $2.98 $3.22 $2.47 $1.99 $7.30 $5.84
+Like Figure 2, Table | shows the historically close correlation between the average real-time
+energy price in ERCOT and the average natural gas price. This relationship is consistent with
+competitive expectations in ERCOT where natural gas generators dominate and set prices in
+most hours. The average natural gas price was higher in 2022 than it has been in any year except
+2021 because of Uri, which is reflected in the real-time energy prices. Additional analysis of the
+average real-time energy and natural gas prices is shown in Figure Al in the Appendix.
+
+Table | also shows that the relative average prices of the four zones were different in 2022
+
+compared to previous year because of congestion into Houston, out of the West, and in the Rio
+
+Grande Valley. For additional analysis on monthly load-weighted average prices in the four
+
+ERCOT zones during 2022, see Figure A2 in the Appendix.
+
+More details about transmission constraints that influenced zonal energy prices are provided in
+Section V. That section also discusses Congestion Revenue Right (CRR) auction revenue
+
+distributions, which affect the ultimate costs of serving customers in each zone.
+
+To examine the variation in zonal real-time energy prices more closely, Figure 6 shows the top
+10% and bottom 10% of the duration curves of hourly average prices in 2022 for the four zones.
+14 | 2022 State of the Market Report
+
+===== page 45 (OCR) =====
+Review of Real-Time Market Outcomes
+Figure 6: Zonal Price Duration Curves
+$250 \
+\ <S$0 $0-S50 $50-$100 $100-S200 > $200
+\ Houston 86 4,579 3.417 431 247
+$200 North 121 4.896 3,219 344 180
+South 178 4,837 3,213 335 197
+a West 876 4.049 3.124 473 238
+$150 | Houston
+XK —North
+@ South
+= $100 + —West
+a
+e
+=
+a
+=
+&
+$0 ————-
+($50)
+HY PB QW DW DW GW GD DD - @ GS GB WM W HM LM oO LM
+Oe ES a SOS A)
+Hours
+Compared to the other zones, low prices in the West zone were noticeably different in 2022,
+continuing a pattern seen in 2020. The lowest prices in the West zone were much lower than the
+lowest prices in the other zones. High prices in the West and Houston zones were much higher
+than the other zones in 2022.
+The differences on both ends of the curves can be explained by the effects of transmission
+congestion. Constraints that limit the export of low-priced wind and solar generation to the rest
+of the state explain low prices. However, localized constraints limiting the flow of electricity to
+the increasing loads in the West, typically oil and gas loads, explain the higher prices that
+typically occur at times where wind and solar energy output is low. In contrast, high prices in
+the Houston zone were due to outages in the area affecting imports from the South and North.
+C. Evaluation of the Revenue Neutrality Allocation Uplift
+As shown in the all-in price analysis above, uplift costs decreased substantially in 2022, mainly
+because of the effects of Winter Storm Uri in 2021. However, there was higher Revenue
+Neutrality Allocation Uplift (RENA), which increased in 2022 to $38 million, up from less than
+$1 million (less than $0.01 per MWh) in 2021. RENA exists to ensure that ERCOT remains
+2022 State of the Market Report | 15
+
+===== page 46 (OCR) =====
+Review of Real-Time Market Outcomes
+revenue neutral, with payments equaling charges. In general, RENA uplift occurs when there are
+differences in power flow modeling between the day-ahead and real-time markets, including:
+e Transmission network modeling inconsistencies between the day-ahead and real-time
+market (Model Differences);
+e Differences between the load distribution factors used in day-ahead and the actual real-
+time load distribution (LDF Contribution);
+e Day-ahead Point-to-Point (PTP) obligations linked to options*> settlements (CRR Uplift);
+e Extra congestion rent that accrued when real-time transmission constraints were violated
+(Overflow Credit); and
+e Other factors, including the price floor in the real-time market at -§251 per MWh (Other).
+Figure 7 below provides an analysis of RENA uplift in 2022, separately showing the components
+of RENA on a monthly basis. Net negative uplift represents an overall payment to load. Almost
+all the RENA uplift occurred in market hours when there was transmission congestion. Based on
+this analysis, the largest positive contributor to RENA uplift in 2022 was the LDF Contribution,
+contributing $84 million, CRR Uplift, related to NOIE PTP Options, contributing $54 million.
+Uplift from the contributions of transmission model differences between day-ahead and real-
+time, described as Model Differences, was mostly negative in 2022. Despite negative uplift in
+some categories, overall net RENA in 2022 was $38 million.
+45 A Point-to-Point obligation linked to an option (PTPLO) is a type of CRR that entitles a Non-Opt-In Entity's
+(NOIE's) PTP Obligation in the day-ahead market to reflect the NOIE's PTP Option that it acquired in the
+CRR auction or allocation. Qualified PTPLOs are modeled as obligations but settled as if they were options.
+16 | 2022 State of the Market Report
+
+===== page 47 (OCR) =====
+Lh
+Review of Real-Time Market Outcomes
+Figure 7: ERCOT RENA Analysis
+[sec
+$30 @ELDF Contribution
+Seni
+$25 3 Overflow Credit
+mSOither jf , a
+- a ee oe
+$15
+o  —__ @ Co & gE
+s _ oPEUBah «sat a@
+nn
+7 o 2 Oe eee ee Eee
+Ss
+i
+a - :
+a ee |
+i |
+we —COS
+(S35)
+Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+The task of maintaining accurate and consistent load distribution factors across all markets is a
+difficult one, made more so in areas with large amounts of localized load growth. These are
+exactly the types of areas that draw higher levels of market interest. To the extent ERCOT is
+unable to predict accurate load distribution factors across all markets, RENA impacts will
+persist. NPRR1004, Load Distribution Factor Process Update, (approved on August 11, 2020)
+is still pending an implementation date and should help reduce this uplift.
+D. Real-Time Prices Adjusted for Fuel Price Changes
+Although real-time electricity prices are driven largely by changes in natural gas prices, they are
+also influenced by other factors. To summarize the changes in energy price that were related to
+these other factors, an “implied marginal heat rate” is calculated by dividing the real-time energy
+price by the natural gas price. Figure 8 shows the implied marginal heat rates monthly in each of
+the ERCOT zones. This figure is the fuel price-adjusted version of Figure A2 in the Appendix.
+Figure 9 shows how the implied heat rate varies by load level over the past three years. For
+additional analysis of real-time energy prices adjusted for fuel price changes, see Figure A5, and
+Table A3 in the Appendix.
+2022 State of the Market Report | 17
+TT
+
+===== page 48 (OCR) =====
+ee
+Review of Real-Time Market Outcomes
+Figure 8: Monthly Average Implied Heat Rates
+*
+= Implied Heat Rate (MMBtu/MWh)
+35 ERCOT 12.9 23.0 12.8
+~ 30 North 12.0 28.3 12.9
+South 13.4 25.7 12.5
+5 West 15.9 144 11.2
+i
+2 $1.99 $7.30 $5.84
+= 20
+es ee || | ee
+215
+eee ee eee
+10 =
+= o
+APTA TLL
+0
+FINcr! FaNer fakishy favs fava! fav’ hansay bash lavee! fav fads Fandsr
+Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+Figure 9: Implied Heat Rate and Load Relationship
+60
+02020 ©2021 2022
+: : BS fo
+am 440
+=
+&
+2 30
+: BS ;
+3
+= 20
+a=}
+2
+0
+<40 40-45 45-50 50-55 55-60 60-65 65-70 >70
+Load Level (GW)
+18 | 2022 State of the Market Report
+ee
+
+===== page 49 (OCR) =====
+Lh
+Review of Real-Time Market Outcomes
+Figure 8 shows that the implied heat rate varied substantially among zones in 2022, particularly
+in May. Transmission congestion and differences in load levels drove zonal differences,
+particularly for the Houston zone in May. Overall, implied heat rates reflected the strong
+shortage pricing in 2022, an extended period of summer heat, and a pricing event in December.
+Figure 9 shows a positive relationship between implied heat rate and load level as expected in a
+well-performing market for two reasons. First, resources with higher marginal costs were
+dispatched as the load approached peak. Second, the tight market conditions that cause the
+ORDC to produce price adders increase in frequency as load rises.
+E. Aggregated Offer Curves
+The next analysis compares the quantity and price of generation offered in 2022 and 2021. By
+averaging the amount of capacity offered at selected price levels, an aggregated offer stack can
+be assembled. Figure 10 provides the average aggregated generator offer stacks for the entire
+year, as well as the peak load hour of the year.
+Figure 10: Aggregated Generation Offer Stack — Annual and Peak
+90 90
+80 80
+z 70 70 =
+mSWCAP L g
+S500 to SWCAP S wo o =
+=
+S75 to $500 & &
+S(10*FIP) to $75 z 50 50 &
+@S0 to $(10*F IP) =
+@ Non-Wind or Solar < SO z 40 40 g
+@ Solar < $0 8 3
+Wind <S0 zg 30 30 5
+& e
+@ Below LSL 6 =
+So 20 20 9
+: 2
+5 10 10 ®
+0 0
+2021 2022 2021 2022
+Annual Peak
+This figure shows that in both periods, as in previous years, the largest amount of capacity was
+not dispatchable because it is below generators’ Low Sustainable Limit (LSL) and is a price-
+2022 State of the Market Report | 19
+TT
+
+===== page 50 (OCR) =====
+Review of Real-Time Market Outcomes
+taking (i.e., it will produce at any price). This quantity was 42% of the available capacity in
+2022. This amount increases under peak conditions as more generators are online.
+Roughly one quarter of the capacity in 2022 was offered below zero from wind, solar, and other
+resources. These resources have the incentive to produce when prices are negative because
+many of them receive production tax credits. Another quarter of the capacity was priced at
+levels between zero and a value equal to 10 times the daily natural gas price (known as the Fuel
+Index Price, or FIP): $(10*FIP). This price range represents the incremental fuel price for the
+vast majority of the ERCOT generation fleet. Less than 10% of the capacity was offered above
+this level in both years.
+Figure 10 shows that the amount of real-time capacity offered in 2022 increased by over 6,800
+MW on average. The growth in renewable energy output accounts for 38% of this increase.
+Roughly 45% of this increase is from capacity offered below LSL or capacity offered above $75
+per MWh up to the System-Wide Offer Cap (SWCAP). The increase in these two areas is
+largely driven by the ORDC changes that provided stronger incentives for resources to be online,
+ERCOT?’s high usage of the RUC process, and the higher non-spinning reserve requirements.
+Similar increases were observed in peak hours, although the aggregate amount of offered
+capacity fell by 900 MW because of much lower renewable output in the peak hours in 2022.
+F. ORDC Impacts and Prices During Shortage Conditions
+The Operating Reserve Demand Curve (ORDC) represents the reliability costs or risks of having
+a shortage of operating reserves. When resources are not sufficient to maintain the full operating
+reserve requirements of the system, the probability of “losing load” increases as operating
+reserve levels fall. This Value of Lost Load (VOLL) leads to efficient shortage pricing as it is
+reflected in both operating reserves and energy prices during shortages.
+Implementation and Adjustments to the ORDC
+
+The Public Utility Commission directed ERCOT to implement ORDC in 2013, including setting
+VOLL at $9,000 per MWh. The ORDC places an economic value on the reserves being
+provided in real-time, with separate pricing for online and offline reserves. In 2019, the
+Commission approved a phased process to change the ORDC and directed ERCOT to use a
+single blended ORDC curve. It also implemented two standard deviation shifts of 0.25 in the
+Loss of Load Probability (LOLP) calculation in March of 2019 and 2020, respectively.*° These
+shifts accelerate the increase in prices toward VOLL as reserve levels fall and provided
+incentives for maintaining higher operating and planning reserves.
+46 The ORDC changes were approved by the ERCOT Board of Directors at its February 12, 2019, meeting and
+
+implemented via OBDRRO11, ORDC OBD Revisions for PUCT Project No. 48551.
+20 | 2022 State of the Market Report
+
+===== page 51 (OCR) =====
+Review of Real-Time Market Outcomes
+
+In the aftermath of Winter Storm Uri, the Commission further modified the ORDC. On January
+
+1, 2022, the Minimum Contingency Level (MCL) was set at 3,000 MW and the HCAP and
+
+VOLL were reduced from $9,000 per MWh to $5,000 per MWh.*” The significance of the MCL
+
+is that this is the level of reserves at which the price will be VOLL. Logically, this should occur
+
+at the level that would cause ERCOT to shed load. Currently, ERCOT will enter an energy
+emergency level 3 and shed load at a reserve level of 1430 MW. Pricing shortages at $5000 at
+an MCL of 3000 MW means that the effective VOLL is actually much higher than $5000 under
+the adjusted ORDC.
+
+We developed a revenue equivalent ORDC that rises to VOLL at 1430 MW in order to estimate
+
+the true VOLL underlying the current ORDC and found that it is roughly $47K per MWh. This
+
+is a significant increase from the pre-2022 ORDC that reflected an implied VOLL of less than
+half of this value. However, based on studies that have attempted to quantify the VOLL for
+different classes of customers, we believe an average VOLL of $20K and $30K is reasonable and
+the VOLL of some commercial and industrial load is well above $30K.
+
+Ultimately, we conclude that the Commission’s action to adjust the ORDC in 2022 was
+
+significant and consistent with its objectives to greatly strengthen incentives for generation to be
+
+available, and for suppliers to build and maintain larger quantities of dispatchable resources.
+Revenue Effects of the ORDC
+
+The following two analyses illustrate the contributions of the operating reserve adder and the
+
+reliability adder to real-time prices. Figure 11 shows the number of hours in which the operating
+
+reserve adder affected prices in each month of 2022, and the average price effect in these hours
+and all hours.
+
+Figure 11 shows that in 2022, the operating reserve adder had the largest price impacts in
+
+February and July ($14.07 and $25.19 respectively) mainly due to the shortage conditions that
+
+occurred. The average adders in the remaining months of 2022 were also substantial and well
+
+above levels seen in recent years largely because of the change in the ORDC. As a result, the
+
+effects of the operating reserve adder were much higher for most months in 2022 than in 2021.
+
+Overall, the operating reserve adder contributed $6.41 per MWh, or approximately 9% of the
+
+annual average real-time energy price of $74.92 per MWh in 2022. This represents an annual
+
+contribution to energy market value of approximately $3 billion.
+
+47 See Review of Wholesale Electric Market Design, Project No. 52373, at the December 16, 2021, open
+meeting. Specifically, the Commission approved the blueprint for the redesign of the wholesale electric
+market filed in the Project on December 6, 2021, including the ORDC changes.
+
+2022 State of the Market Report | 21
+
+===== page 52 (OCR) =====
+ee
+Review of Real-Time Market Outcomes
+Figure 11: Average Operating Reserve Adder in 2022
+210 GNumber of Active Hours $175
+Value in Active Hours
+180 G- Value in All Hours $150
+
+4 150 $125 a
+
+= 120 si00 <
+
+z z
+
+90 75
+
+: :
+
+& 60 $50 &
+
+yp oe
+
+0 so
+Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov’ Dec
+The effects of the operating reserve adder are expected to vary substantially from year to year.
+In the past, it has had the largest effects when low supply conditions and high load conditions
+occur together and result in sustained shortages as the market experienced in 2019 and 2021.
+However, with the adjustment to the minimum contingency level in the ORDC, the adder is
+much more likely to be active and produce significant adders under less tight, non-shortage
+conditions. This is evident in Figure 11, which shows that the average operating reserve adder
+value across all hours is above $1 per MWh in all but two months.
+The second adder is the reliability adder. The reliability adder is intended to mitigate the price-
+suppressing effects of reliability actions taken by ERCOT, including RUCs and deployed load
+capacity. Absent this adder, prices will generally fall when these actions are taken because they
+increase supply or reduce demand outside of the market. Figure 12 below shows the impacts of
+the reliability adder in 2022.
+When averaged across only the hours when the reliability adder was non-zero, the largest price
+impacts of the reliability adder occurred during February due to many RUC commitments during
+winter. The reliability adder was non-zero for 19% of the hours in 2022.
+The highest contribution to the real-time energy price besides February were in April and July
+because of the evolution of ERCOT’s more conservative operations and the increased reliance on
+RUCs, discussed further in Section VI. In addition, ERS was deployed in July and that
+contributes to the reliability adder.
+22 | 2022 State of the Market Report
+ee
+
+===== page 53 (OCR) =====
+a
+Review of Real-Time Market Outcomes
+Figure 12: Average Reliability Adder in 2022
+320 $48
+@ Value in Active Hours
+280 $42
+240 $36 =
+=
+7 J \ og Pg
+2. 160 suf
+= 120 |} sis =
+g So
+5 80 sa —
+- Ww S
+7) IEEEINYINA
+; Sa 2 ie
+Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov’ Dec
+The contribution from the reliability adder to the annual average load-weighted real-time energy
+price was about $2.00 per MWh. This represents an annual contribution of $936 million to the
+total energy value. When averaged across only the hours when the reliability adder was non-zero
+(19% of all hours in 2022), the largest price impacts of the reliability adder occurred during
+February due to the large quantity of RUC commitments during winter. The highest contribution
+to the real-time energy price besides February were in April and July because of the evolution of
+ERCOT’s more conservative operations and the increased reliance on RUCs, discussed further in
+Section VI. In addition, ERS was deployed in July and that contributes to the reliability adder.
+As an energy-only market, ERCOT relies heavily on energy and ancillary services pricing to
+provide key economic signals to guide decisions by market participants. However, the frequency
+and impacts of shortage can vary substantially from year-to-year, as shown in the figure below.
+To summarize the shortage pricing that has occurred since 2012, Figure 13 below shows the
+aggregate amount of time when the real-time system-wide energy price exceeded $1,000 per
+MWh, by month for 2020 through 2022, as well as annual summaries for 2012 through 2022.
+2022 State of the Market Report | 23
+Lo
+
+===== page 54 (OCR) =====
+Review of Real-Time Market Outcomes
+Figure 13: Duration of High Prices
+168 @ $9,000
+156 @ $7,000 - 8,999
+144 B $5,000 - 6,999
+B $4,500 - 4,999
+g 132 B $3,000 - 4,499
+3 120 B $1,000 - 2,999
+S
+= 108
+g
+96 -
+cy
+3 84
+= 72>
+°o
+Z 60
+£ 48
+a
+36
+24 -
+12
+o + _—___tl a I
+aFbdahdalslalslotn JFMAMJ slalsionp J Fans slals OND) 1718
+2020 2021 2022 Annual
+Figure 13 shows that the frequency of high prices in 2022 was the second highest in the history
+of the ERCOT market, second only to 2021 because of the extreme pricing event experienced
+during Winter Storm Uri. The increased frequency high prices in 2022 is in large part due to the
+substantial adjustments made to the ORDC in January 2022 that are described earlier in the
+Section.
+Prices were greater than $1,000 for more than 37 hours in 2022, exceeding all of the previous ten
+years except for 2021 due to Winter Storm Uri. Prices above $1,000 were primarily
+concentrated during the months of February, May, July, and December. Prices reached the
+system-wide offer cap of $5,000 for more than three hours during 2022, primarily on July 13.
+G. Real-Time Price Volatility
+To conclude our review of real-time market outcomes, we examine price volatility in this
+subsection. Volatility in real-time wholesale electricity markets is expected because system load
+can change rapidly and the ability of supply to adjust can be restricted by physical limitations of
+the resources and the transmission network. To present a view of price volatility, Table 2 below
+shows the average 15-minute absolute change in the settlement point prices expressed as a
+percentage of annual average price for the four geographic zones for years 2014-2022. Larger
+values represent higher deviation from the mean.
+24 | 2022 State of the Market Report
+
+===== page 55 (OCR) =====
+Review of Real-Time Market Outcomes
+Table 2: Zonal Price Variation as a Percentage of Annual Average Prices
+Load Zone 2014 ~=2015 2016 = 2017_—S 2018 ~— 2019 = 2020 ~——.2021 2022
+Houston 14.7% 13.4% 20.8% 24.9% 21.5% 22.7% 21.2% 81% 19.7%
+South 15.2% 146% 19.9% 26.2% 23.5% 23.5% 21.7% 7.7% 16.9%
+North 14.1% 11.9% 15.5% 14.8% 20.7% 22.6% 19.8% 7.4% 16.2%
+West 15.4% 12.9% 16.8% 17.5% 21.8% 24.7% 26.5% 7.7% 19.3%
+These results show overall volatility increased year-over-year in all zones in 2022, due primarily
+to the impact of Winter Storm Uri on average prices in 2021. Compared to the three years before
+2021, volatility in 2022 was actually lower across all load zones. Congestion explains most of
+the inter-zonal differences in price volatility. Volatility was highest in the Houston and West
+zones in 2022 because of higher congestion, though not quite as much volatility as seen in years
+before 2021. When the operating reserve adder is frequently active, it diminishes the inter-zonal
+volatility.
+For additional analysis of real-time price volatility, see Figure A6 and Figure A7 in the
+Appendix.
+2022 State of the Market Report | 25
+
+===== page 56 (OCR) =====
+
+===== page 57 (OCR) =====
+Lh
+Demand and Supply in ERCOT
+Il. DEMAND AND SUPPLY IN ERCOT
+Many of the trends in market outcomes described in Section I are attributable to changes in the
+supply portfolio or load patterns in 2022. Therefore, we review and analyze these load patterns
+and the generating capacity available to satisfy the load and operating reserve requirements in
+this section. We include a specific analysis of the large quantity of installed wind and solar
+generation, along with discussion of the daily generation commitment characteristics. This
+section concludes with a review of the contributions from demand response resources.
+A. ERCOT Load in 2022
+We track the changes in average load levels from year to year to better understand the load
+trends, which capture changes in load over a large portion of the hours during the year.
+However, changes in the load during the highest-demand hours are important because they affect
+the probability and frequency of shortage conditions.*® Figure 14 shows peak load and average
+load by geographic zone from 2020 through 2022.*°
+Figure 14: Annual Load Statistics by Zone
+*
+@ Real-Time Peak Load 021 to 2022
+@ Average Real-Time Load Peak = Average
+30 ERCOT 8.8% 9.5%
+Houston 1.9% 3.2%
+North 5.4% 9.3%
+25 South 3.9% 11.9%
+Po | = : ~ . *
+= 20
+g
+=
+$ 15
+: | | a So | |
+0
+2020 | 2021 | 2022 2020 | 2021 | 2022 2020 | 2021 | 2022 2020 | 2021 | 2022
+Houston North South West
+48 In recent years, peak net load (load minus intermittent renewable output) is a more direct cause of shortages.
+49 Non-Opt In Entity (NOIE) load zones have been included with the proximate geographic zone.
+2022 State of the Market Report | 27
+TT
+
+===== page 58 (OCR) =====
+Demand and Supply in ERCOT
+Figure 14 shows that the total ERCOT load in 2022 increased almost 10% from 2021, which is
+an increase of more than 4,250 MW on average. The South and West zones showed the largest
+increases in average real-time load in 2022 ranging from 11.9% in the South to 18.9% in the
+West. The increase in the North and South zones is due to population migration and high
+economic activity. The increase in the West zone continues a pattern of significant increases seen
+year over year. Continuing robust oil and natural gas production activity in the West zone has
+been the driver for high load growth.
+ERCOT broke the all-time peak demand record 11 times during the summer of 2022, with the
+record all-time peak demand occurring on July 20, 2022, reaching 80,000 MW. The summer
+months of June through August 2022 were the second hottest on record for the state of Texas,
+with only 2011 being hotter. The average temperature for the June through August 2022 period
+was 84.8° F. Fluctuations in peak and average load are usually driven by summer conditions.
+Cooling degree days are a measure of weather that is highly correlated with the demand for
+electricity for air conditioning, and it is a metric that is highly correlated with summer loads.
+Cooling degree days were up for all large cities, by as much as 26% (for Austin).
+Generation Capacity in ERCOT
+In this section we evaluate the generation portfolio in ERCOT in 2022. The distribution of
+capacity in the North and South zones is similar to the distribution of demand. The West zone
+exports more power than it consumes. The Houston zone has increasingly relied on imports
+from the rest of the state as load has increased in the area and some resources in Houston have
+been mothballed.
+Approximately 9.7 GW of new generation resources came online in 2022. The bulk of the new
+capacity was renewable resources, and the remaining included 16 new combustion turbines
+totaling 700 MW and 1.7 GW of energy storage resources (ESRs). The 36 new ESRs increased
+ERCOT?’s storage capacity to 2.7 GW. Roughly 3.1 GW and 4.2 GW of new installed wind and
+solar capacity with an effective peak serving capability of 4 GW entered the market between the
+summers of 2021 and 2022.°° One 420 MW resource retired in 2022. These changes are
+detailed in Section V of the Appendix, along with a review of the vintage of the ERCOT fleet.
+Figure 15 shows the annual composition of the generating output in ERCOT from 2014 to 2022.
+This figure shows the transition of ERCOT’s generation fleet away from coal-fired resources to
+natural gas and renewable resources. Some of the reduction in the share of energy produced by
+coal was due to fuel supply and other supply chain challenges coal resources have faced over the
+past two years. However, most of the other changes have been driven by resource additions and
+retirements. Combined cycle gas capacity was the predominant technology choice for new
+50 The percentages of installed capacity to serve peak demand assume availability of 30% for panhandle wind,
+60% for coastal wind, 20% for other wind, and 80% for solar.
+28 | 2022 State of the Market Report
+
+===== page 59 (OCR) =====
+a
+Demand and Supply in ERCOT
+investment throughout the 1990s and early 2000s. However, between 2006 and 2019, wind has
+been the primary technology for new investment, and since 2020, wind and solar both saw large
+increase in capacity. The amount of utility-scale solar capacity added in 2022 (4.2 GW) was the
+largest amount of solar added to the ERCOT system in any year, bringing total installed capacity
+to nearly 13.700 GW.
+Figure 15: Annual Generation Mix in ERCOT
+.. LES
+mt rerriiti
+miiiiirent
+70%
+:. BeBe eee --
+A 60% GB Solar
+i Oe ee
+:. Saas
+o
+= 40% BCoal
+meiiitditd?tidit ia
+me Gri iiididiel
+Mm Tir iriiidil
+me Tt tT | | ft |
+0%
+2014 +2015 2016 2017. = 2018 +=. 2019 = 2020 2021 2022
+This figure shows:
+
+e The generation share from wind has increased every year and rose from just over 24% in
+2021 to almost 25% of the annual generation in 2022.
+
+e Solar increased from 4.0% of annual generation in 2021 to 5.6% in 2022.
+
+e The share of generation from coal dropped from 19.0% in 2021 to 16.6% in 2022 even
+though it was much more economic due to much higher gas prices. This reduction was
+caused by fuel supply and other supply chain issues affecting many coal resources.
+
+e Natural gas generation increased slightly in 2022, from 41.9% in 2021 to 42.5% in 2022.
+We expect these trends to continue because of the continued growth of wind, solar, and storage
+resources. Figure A9 in the Appendix shows the vintage of ERCOT installed capacity. The
+installed generating capacity by type in each zone is shown in Figure A10 in the Appendix.
+
+2022 State of the Market Report | 29
+Lo
+
+===== page 60 (OCR) =====
+Oo
+Demand and Supply in ERCOT
+B. Imports to ERCOT
+The ERCOT region is connected to other regions in North America via multiple direct current
+(DC) ties. Two ties totaling 820 MW connect ERCOT with the Southwest Power Pool (SPP)
+and two ties totaling 400 MW connect ERCOT with Comision Federal de Electricidad (CFE) in
+Mexico. Transactions across the DC ties can be in either direction, into or out of ERCOT.
+These transactions can have the effect of increasing demand (exports) or increasing supply
+(imports). Figure 16 shows the total energy transacted across the ties for the past several years.
+Figure 16: Annual Energy Transacted Across DC Ties
+& 2,000
+et ee
+1,500
+“git. = = —l
+— 1,000 |e
+ae © 8
+g 500 \
+nA
+io BRStaibisa Ee
+— 0
+ASS ee ee
+(500) —
+is oS ee I
+€ (1,000: SJ
+G00) “am Export to Mexico i | | a |__| a 7
+5 (1,500) | = Export to SPP || >
+PO Shotts | SESS
+(2,000) | G=Inmport from SPP
+(2,500) | ...... Net SPP
+(3,000)
+2016 2017 2018 2019 2020 2021 2022
+The figure shows that ERCOT remained a net importer in 2022, and by an even wider margin
+than in 2021. This trend began in 2018 because of tightening supply in ERCOT and the resulting
+higher prices in 2018 and 2019. The amount of tie activity in general in 2022 was higher than
+the activity in 2021 because of the higher prices resulting from high summer demand, as well as
+the ORDC shift implemented on January 1, 2022.
+C. Wind and Solar Output in ERCOT
+Investment in wind resources has continued to increase in ERCOT. The amount of wind
+capacity installed in ERCOT was more than 37 GW at the end of 2022. Although much of the
+wind generation is in the West zone, more than 8 GW of wind generation is located in the South
+zone and 2.7 GW in the North zone.
+30 | 2022 State of the Market Report
+Oo
+
+===== page 61 (OCR) =====
+a
+Demand and Supply in ERCOT
+The value of wind in satisfying ERCOT’s peak summer demand is limited by its negative
+correlation with load.*'! The highest wind production occurs during non-summer months, and
+predominately during off-peak hours. Wind output during high load periods will continue to be a
+pivotal determinant of shortages, though this will be mitigated as more solar and batteries enter.
+Figure 17: Wind Production and Curtailment
+Monthly Wind Production & Curtailment (TWh)
+0 2 4 6 8 10 12 14
+Jan es
+Feb
+Mar SS SS i i |
+eS
+ay
+0 J Es
+a Jul
+Aug
+————
+Oct
+|
+2015 | @ Wind Generation
+— 2016 B Estimated Curtailment
+2 2017
+= 2019
+=~ 3020
+0 18 36 34 71 89 107 125
+Annual Wind Production & Curtailment (TWh)
+Figure 17 reveals that the total production from wind resources continued to increase in 2021 and
+a new wind output record was set on May 29, 2022 (27,044 MW). The quantity of curtailments
+implemented to manage congestion caused by the wind output also increased from the prior year.
+These curtailments reduced wind output by less than 5%, compared to a peak of 20% in 2009.
+Solar resources, although still a smaller component of overall generation than wind today, are
+positively correlated with summer load and thus produce at much higher capacity factors than
+wind during summer peak hours. The capacity factors during these hours were approximately
+69% for facilities located in the west and 54% for those located in other areas of Texas. Hence,
+these resources provide a larger resource adequacy benefit than wind resources. Figure 18 shows
+that total solar production in 2022 was 24,200 GWh and an additional 9% was curtailed to
+manage congestion caused by solar resources. For additional analysis of wind and solar output
+in ERCOT, see Figure All and Figure A12 in the Appendix.
+5 Wind units in some areas do not exhibit this negative correlation, including the Gulf Coast.
+2022 State of the Market Report | 31
+Lo
+
+===== page 62 (OCR) =====
+ee
+Demand and Supply in ERCOT
+Figure 18: Solar Production and Curtailment
+Monthly Solar Production & Curtailment (GWh)
+0 500 1,000 1,500 2,000 2,500 3,000 3,500
+J a |
+A pr LS SS SS a |
+Ma LS SS eS
+SW)
+ee E
+Sep
+Oo
+Nov
+Dec
+2016 @Solar Generation
+2017 @ Estimated Curtailment
+= 2018
+5 2019
+2 2020
+2022 eee
+0 4 9 13 17 21 26 30
+Annual Solar Production & Curtailment (TWh)
+Rising wind and solar output has important implications for other types of resources by changing
+the shape of the remaining load they must serve. This also has important implications for
+resource adequacy in ERCOT. Figure 19 shows net load in the highest and lowest hours in 2022.
+Figure 19: Top and Bottom Deciles (Hours) of Net Load
+2020
+70 IN —2021
+. 2022
+«o Re
+_—_—_— Se
+s * es
+es
+= 40
+4
+=z 30
+ee — i
+° eee ee,
+“ Po ee
+0
+FOO 708 408 gO gO GOT 708 AH 909, GOH, 108, 208, 30. 408, 08, 00, 700
+Hours
+32 | 2022 State of the Market Report
+ee
+
+===== page 63 (OCR) =====
+Demand and Supply in ERCOT
+Figure 19 shows the peak net load was 74.5 GW and the 95" percentile was 61.5 GW in 2022.
+These net load values across the highest 440 net load hours reflect a 14% increase from 2021.
+This continues a trend of increasing load that must be served by non-renewable resources.
+The minimum net load dropped from roughly 15 GW in 2016 to about 10.4 GW in 2022. This
+reflects the sizable increase in wind and solar output in off-peak hours in recent years. Although
+less load must be served by baseload resources in these hours (such as nuclear and coal), we
+believe the increases in real-time prices and net revenues discussed earlier in the report provide
+sufficient economic signals to retain these resources.
+D. Demand Response Capability
+Demand response is a term that refers to actions that can be taken by end users of electricity to
+reduce load in response to instructions from ERCOT for the sake of maintaining reliability or in
+response to economic incentives. The ERCOT market allows participants with demand-response
+capability to provide energy and reserves in a manner similar to generating resources.
+The primary ways that loads participate in the ERCOT-administered markets are through
+participation in: (i) reserve markets, (i1) ERCOT-dispatched reliability programs, and (iii)
+demand response programs administered by the transmission and distribution utilities.
+Additionally, loads may self-dispatch by reducing consumption in response to energy prices or
+during specific hours to lower transmission charges. We discuss each of the means to participate
+in the ERCOT markets in this subsection.
+1. Reserve Markets
+ERCOT allows qualified load resources to offer into the day-ahead ancillary services markets.
+Under-frequency relay response can be a highly effective mechanism for maintaining system
+frequency at 60Hz. Non-controllable load resources (NCLRs) providing responsive reserves
+have relay equipment that enables the load to be automatically tripped when the system
+frequency falls below 59.7 Hz (i.e., when load exceeds generation), or they can be manually
+deployed in EEA Level 2. These events typically occur rarely each year, if at all.
+As of November 2022, 8,298 MW of responsive reserve service can be provided by qualified
+NCLRs, an increase of 674 MW during 2022.°* However, the quantity of responsive reserves
+procured by ERCOT from load resources was limited to a maximum of 2,144 MW per hour. In
+2022, there was one deployment of responsive reserve service (RRS) from NCLRs. This was a
+result of an under-frequency event that occurred on June 4 when 1,116 MW of NCLR capacity
+deployed automatically. Those resources were recalled approximately 14 minutes later.
+52 See ERCOT 2022 Annual Report of Demand Response in the ERCOT Region (Dec. 2022), available at
+http://www.ercot.com/services/programs/load.
+2022 State of the Market Report | 33
+
+===== page 64 (OCR) =====
+ee
+
+Demand and Supply in ERCOT
+
+Figure 20 below shows the daily average amount of responsive reserves provided from load
+
+resources operating on under-frequency relays for the past three years.*?
+
+Figure 20: Responsive Reserves from Loads with High-Set Under Frequency Relays
+4,000
+= Offer Not-Accep ted
+= Market Procured
+3,500 i
+= Self-Scheduled Load Resources Limit for
+Responsive Reserves
+- iy al | | : i Yd
+2,500 1 | VW a
+3 il | J "rr irl ual
+&
+3 2,000 | |
+z 1 Ir I
+; | |
+2 1,500 4
+: |
+g
+% 1,000
+500
+0
+2020 2021 2022
+
+While the surplus did not grow in 2022 from 2021, there continues to be a large surplus of load
+
+resource offers into responsive reserve service beyond the limit placed on load resource
+
+participation. This surplus is partly the result of the fact that the price does not fall to efficiently
+reflect the procurement limitation. Recommendation 2019-2 discussed in this report would
+address this issue.
+
+A small amount of non-spinning reserve service (57.8 MW) is now available from load
+
+resources. Non-spin prices were strong in 2022 and we would have expected that more load
+
+resources would be interested in providing the service given those market outcomes and
+oversupply in the responsive reserve market from NCLRs. It is possible that the frequent
+deployment of offline non-spin in real-time contributes to the low amount of load resources
+offering to provide the service.
+
+3 Until June 1, 2018, non-controllable load resources could provide a maximum of 50% of responsive reserves.
+NPRR815, Revise the Limitation of Load Resources Providing Responsive Reserve (RRS) Service increased
+this cap to 60%, while also requiring that at least 1,150 MW of responsive reserves be provided from
+generation resources. Beginning with calendar year 2021, NERC standards required an increase in this floor
+to 1,420 MW. Necessarily, this decreased the amount of capacity that can come from load resources.
+
+34 | 2022 State of the Market Report
+ee
+
+===== page 65 (OCR) =====
+Demand and Supply in ERCOT
+2. Reliability Programs
+There are two main reliability programs in which demand can participate: i) Emergency
+Response Service (ERS), administered by ERCOT, and 11) load management programs run by
+the transmission and distribution utilities (TDUs). The ERS program is defined by a
+Commission rule enacted in March 2012, which set a program budget of $50 million. In
+August 2022, the Commission increased the budget to $75 million. The capacity-weighted
+average price for ERS over the contract periods from December 2021 through November 2022
+ranged from $3.14 to $9.64 per MWh. This price was lower than the average price paid for both
+responsive reserves and non-spinning reserves in 2021.
+In October 2021, the Commission directed ERCOT to change the deployment of ERS and this
+was enacted in protocols via NPRR1106. Now the deployment of ERS may occur prior to the
+declaration of an EEA when Physical Responsive Capability (PRC) falls below 3,000 MW and is
+not expected to rise above that threshold within 30 minutes. This scenario occurred on July 13,
+2022, and ERCOT deployed as much as 1,011 MWs of ERS for approximately 3.25 hours. The
+fleet generally underperformed during the first hour of the event and overperformed during the
+subsequent hours. Unlike previous ERS deployments, close to half of the portfolios failed to
+perform successfully across the entirety of the event. As a result, ERCOT is considering
+bringing back mandatory suspensions due to non-performance.°°
+There were roughly 300 MW of load participating in load management programs administered
+by the TDUs in 2022 during the summer.*° Energy efficiency and peak load reduction programs
+are required by statute and Commission rule and most commonly take the form of load
+management, where participants allow electricity to selected appliances (typically air
+conditioners) to be curtailed.*’ These programs administered by TDUs may be deployed by
+ERCOT during a Level 2 Energy Emergency Alert (EEA), and can be self-deployed by the
+TDUs at any time.
+3. Self-dispatch
+In addition to these programs, loads in ERCOT can observe system conditions and reduce
+consumption voluntarily. This response comes in two main forms:
+e By participating in programs administered by competitive retailers or third parties to
+provide shared benefits of load reduction with end-use customers.
+4 16 TAC § 25.507.
+55 https:/Avww.ercot.com/files/docs/2023/02/13/ERS-Staff.pptx
+Id.
+7 2016 Energy Efficiency Plans and Reports Pursuant to 16 TAC §25.181(n), Project 45675; SB 7. Section
+39.905(a)(2) (http://www.capitol.state.tx.us/tlodocs/76R/billtext/html/SB00007F.htm).
+2022 State of the Market Report | 35
+
+===== page 66 (OCR) =====
+Demand and Supply in ERCOT
+
+e Through voluntary actions taken to avoid the allocation of transmission costs.
+Of these two methods, the most significant impacts are related to actions taken to avoid incurring
+transmission costs that are charged to certain classes of customers based on their usage at system
+peak. Transmission costs are allocated based on load contribution to the highest 15-minute loads
+during each of the four months from June through September. This allocation mechanism is
+routinely referred to as Four Coincident Peak, or 4CP.
+By reducing demand during peak periods, load entities seek to reduce their share of transmission
+charges, which are substantial. Transmission costs have more than doubled since 2012,
+increasing an already significant incentive to reduce load during probable peak intervals in the
+summer. ERCOT estimates as much as 3,200 MW of load reduction during the 4CP intervals in
+2022, higher than the 2021 estimate.*®
+Voluntary load reductions to avoid transmission charges are likely distorting prices during peak
+demand periods because it is not an efficient response to wholesale prices. To address these
+distortions, we continue to recommend that modifications to ERCOT’s transmission cost
+allocation methodology be explored (see Recommendation 2015-1).
+
+4. Demand Response and Market Pricing
+When Security-Constrained Economic Dispatch (SCED) clears the supply offers to meet the
+demand, it issues dispatch instructions for resources and associated real-time prices. Two
+elements in the ERCOT market are intended to address the pricing effects of demand response in
+the real-time energy market. First, the initial phase of “Loads in SCED” was implemented in
+2014, allowing controllable loads that can respond to those 5-minute dispatch instructions to
+specify the price at which they no longer wish to consume. Therefore, the prices will reflect
+these bid prices. Second, for loads that are not participating in SCED (such as ERS and NCLRs),
+SCED has a pricing run feature that will adjust for the impact of deploying those resources. The
+pricing run may result in a reliability deployment price adder adjustment to the published prices.
+In 2021, loads were first qualified to participate in real-time dispatch. In 2022, sixteen new
+controllable load resources (CLRs) were registered and added to the ERCOT Network Model,
+and eight of them have qualified for SCED and RRS. These CLRs consist of data centers that
+have hundreds of servers that can be turned on and off on demand. The data centers use fast
+acting control systems to respond to frequency, similar to the governors on a conventional
+thermal plant, which gives them the ability to follow base points from SCED. These CLRs have
+over 600 MW of online capacity and can participate in responsive reserve service, regulation
+58 See ERCOT, 2022 Annual Report of Demand Response in the ERCOT Region (Dec. 2022) at 18, available at
+
+http://www.ercot.com/services/programs/load.
+
+36 | 2022 State of the Market Report
+
+===== page 67 (OCR) =====
+Lh
+Demand and Supply in ERCOT
+service, and non-spinning reserve service. As this segment grows, completing the
+implementation of nodal pricing for CLRs will become more important and impactful.
+2022 State of the Market Report | 37
+TT
+
+===== page 68 (OCR) =====
+
+===== page 69 (OCR) =====
+IV. DAY-AHEAD MARKET PERFORMANCE
+
+ERCOT?’s day-ahead market allows participants to make financially binding forward purchases
+and sales of power for delivery in real-time. Bids and offers can take the form of either a:
+
+e Three-part supply offer. Allows a seller to reflect the unique financial and operational
+
+characteristics of a specific generation resource, such as startup costs; or an
+e Energy-only bid or offer. Location-specific offers to sell or bid to buy energy that are not
+associated with a generation resource or load.
+In addition to the purchase and sale of power, the day-ahead market also includes ancillary
+services and Point-to-Point (PTP) obligations. PTP obligations allow parties to hedge the
+incremental cost of congestion between day-ahead and real-time markets.
+Except for ancillary services, the day-ahead market is a financial-only market, i.e., there are no
+operational obligations resulting from the day-ahead market. However, all bids and offers are
+cleared respecting the limitations of the transmission network. In addition to allowing
+participants to manage exposure to real-time prices or congestion, or arbitrage real-time prices,
+the day-ahead market also helps inform participants’ generator commitment decisions. Hence,
+effective performance of day-ahead market is essential.
+In this section, we examine day-ahead energy prices in 2022 and their convergence with real-
+time prices. We also review the activity in the day-ahead market, including a discussion of PTP
+obligations. This section concludes with a review of the day-ahead ancillary service markets.
+A. Day-Ahead Energy Market Performance
+Overall, 2022 day-ahead prices were lower than 2021 for both energy and ancillary services, as
+expected given the effects of Winter Storm Uri in 2021 on average prices. Liquidity in the day-
+ahead market was similar to previous years, which included active trading of congestion products
+in the day-ahead market.
+The day-ahead market provides hedging opportunities for market participants. A primary
+indicator of the performance of any forward market is the extent to which forward prices
+converge with real-time prices over time. This price convergence will occur when: (1) there are
+low barriers to purchases and sales in either market; and (2) sufficient information is available to
+allow market participants to develop accurate expectations of the real-time prices. This allows
+participants to arbitrage predictable differences between day-ahead prices and real-time prices
+and bring about price convergence. Price convergence between the day-ahead and real-time
+markets is important because it leads to more efficient commitment of resources to be used in
+real-time.
+2022 State of the Market Report | 39
+
+===== page 70 (OCR) =====
+Day-Ahead Market Performance
+This average price difference between day-ahead prices and real-time spot prices reveals whether
+persistent and predictable differences exist that participants should arbitrage over the long term.
+Figure 21 shows the monthly average day-ahead and real-time prices by month for the past two
+years. It also shows the average of the absolute value of the difference between the daily average
+day-ahead and real-time price. This measure captures the volatility of the daily price differences,
+which may be large even if the prices converge on average.
+Figure 21: Convergence Between Day-Ahead and Real-Time Energy Prices
+$200
+Day Ahead $1487.21 G=Day Ahead Average Average
+Real ame sue @=Real Time Day-Ahead Real-Time
+$175 ———"|_ «®Ab solute Difference Price Price
+5) |e ae
+$150 i 2021 $157 $160
+A $125
+‘» $100 K
+& 875
+sso R
+so
+J/F M|/A\/M J\/J{|A/S;O.N|D|J|/F\|M|A\|M| J/J|A|'S|O\|N|D
+2021 2022 |
+Price convergence was good overall as day-ahead prices and real-time prices averaged $66 and
+$64 per MWh in 2022, respectively.°’ While day-ahead prices were generally higher, real-time
+prices were significantly higher in July 2022 because of real-time price volatility caused by hot
+weather. The small overall divergence is expected because the day-ahead market allows
+participants to hedge the risk associated with real-time price volatility.
+The average absolute difference between day-ahead and real-time prices was $33.30 per MWh in
+2022, much lower than the $85 per MWh in 2021 caused by Uri. The largest absolute difference
+ever occurred in February 2021, an astonishing $447.15, as shortage conditions led to prices that
+were difficult to forecast. However, the average absolute difference in 2022 was higher than
+previous non-Uri years ($27.63 MWh in 2019 and $16.21 in 2018). For additional price
+convergence results in 2022, see Figure A6, Figure A7, and Figure A13 in the Appendix.
+9° These values are simple averages, rather than load-weighted averages as presented in Figures | and 2.
+40 | 2022 State of the Market Report
+
+===== page 71 (OCR) =====
+Lh
+Day-Ahead Market Performance
+B. Day-Ahead Market Activity
+Figure 22 summarizes the day-ahead market activity by month, which includes both purchases
+and sales of energy, for the last two years. The additional load shown as hedged in this figure
+(the difference between the red day-ahead purchases and the blue real-time load hedged) is load
+served by PTP obligations scheduled to a load zone from other locations.
+Figure 22 shows that the volume of day-ahead energy purchases provided through a combination
+of generator-specific offers (also known as three-part offers) and virtual energy offers was 59%
+of real-time load in 2022, an increase from 55% of real-time load in 2021. Although it may
+appear that many loads are still subjecting themselves to greater risk by not locking in a day-
+ahead price and exposed to real-time volatility, other transactions or arrangements outside the
+organized market are used to hedge real-time prices. In these cases, often PTP obligations are
+scheduled to hedge real-time congestion costs associated with those transactions.
+Figure 22: Volume of Day-Ahead Market Activity by Month
+70 c,31Three Part Awards
+“e-bay Shea Purchase ae
+e@=Day-Ahead Purchase
+60 | %=Real-Time Load mm
+©@°RT Load Hedged - Counterpa FN
+z 50 rN
+i 40 A Lea | 7 N AP \ NA
+BONY NA ee
+2
+E 30 = a he ien
+eS
+CEE EE
+a
+0
+J|;F M\A/M/J/J{|A'|S;/O|N|D J/F\|M\/A\/M|\|J|'J/A\}/S\|O|.N|D
+2021 2022
+PTP obligations are financial transactions purchased in the day-ahead market. Although PTP
+obligations do not themselves involve the direct supply of energy, a PTP obligation allows a
+participant to, in effect, buy the network flow from one location to another.’ When coupled
+with a self-committed generating resource, the PTP obligation allows a participant to serve its
+60 PTP obligations are equivalent to scheduling virtual supply at one location and virtual load at another.
+2022 State of the Market Report | 41
+TT
+
+===== page 72 (OCR) =====
+Day-Ahead Market Performance
+load while avoiding the associated real-time exposure. PTP obligations are also scheduled by
+financial participants seeking to arbitrage locational congestion differences between the day-
+ahead and real-time markets.
+PTP volumes have been growing quickly in recent years and have caused day-ahead market
+performance issues related to ERCOT’s ability to publish within the protocol timeline. The bids
+for PTP obligations have increased four-fold over the last decade. According to ERCOT, the
+highest correlation to day-ahead market performance issues is unawarded PTP obligations bids,
+i.e., the volume of bids submitted is affecting performance. Further, many of the bids being
+submitted are highly unlikely to be awarded because the bid price is not a reasonable expectation
+of the real-time congestion.
+When the day-ahead market results are delayed, additional costs are borne by the entire ERCOT
+market. Cost causation principles dictate that entities that cause costs should bear some of the
+costs they are causing. Hence, participants submitting PTP obligation bids should have
+incentives that are aligned with performance costs they cause. Charging no fee for PTP bids
+allows participants to submit numerous bids that are unlikely to clear and provide very little
+value to the market. Additionally, they bear no share of ERCOT’s administrative expenses even
+though they are consuming a large portion of the software and supporting resources.
+Applying a small bid fee to the PTP bids is consistent with cost causation principles and would
+incent participants to submit smaller quantities of bids that are more valuable and more likely to
+clear. Even a small fee would likely reduce or eliminate bids that are very unlikely to clear, and
+this should substantially eliminate the delays in the day-ahead market process. In
+recommendation No. 2020-4 above, the IMM recommends a PTP bid fee as an economically
+rational way to manage the volume of bids submitted.
+Figure 22 also shows the portion of the real-time load that is hedged either through day-ahead
+energy purchases or PTP obligations scheduled by Qualified Scheduling Entities (QSEs).*!
+Although QSEs are the party financially responsible to ERCOT,, their financial obligations are
+aggregated and held by a counterparty. When measured at this level, the percentage of real-time
+load hedged dropped slightly to 76% in 2022, down from 80% in 2021.
+In 2022, the volume of three-part offers comprised less than half of day-ahead market
+transactions that cleared, a fact consistent with the ERCOT market design. To determine
+whether this was due to small volumes of three-part offers being submitted versus those clearing,
+Error! Reference source not found. shows the total capacity from three-part offers in the day-
+ahead market for 2022. The submitted capacity has been averaged by hour and is significantly
+more than the amount of capacity cleared, i.e., three-part offers awarded.
+61 To estimate the volume of hedging activity, energy purchases are added to the volume of PTPs scheduled by
+QSEs with load that source or sink in load zones, then aggregated to the counterparty (CP) level.
+42 | 2022 State of the Market Report
+
+===== page 73 (OCR) =====
+a
+Day-Ahead Market Performance
+Figure 23: Day-Ahead Market Three-Part Offer Capacity
+40 mm Wind mm Solar mm Nuclear m= Coal
+mm Combined Cycle mm Gas Steam mm Gas Peakers mm Hydro
+S 35 mmm Private Network e@=3-Part Award
+2 30
+a
+6
+rs 25 | | i | |
+5 il
+id 20 : a ; | a
+1 MUO
+: | 2tiil N
+= 15 see
+MOTTE EEL
+es
+E 10
+eS
+& 5
+<
+z
+a 0
+123 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+Hour
+With the largest share of installed capacity, it follows that combined cycle units submit the
+largest quantity of offers in the day-ahead market. More importantly, because combined cycle
+units are typically marginal units, offering that capacity into the day-ahead market allows a
+market participant to determine whether its unit is economic given the market conditions.
+Conversely, few wind units are offered in the day-ahead market because of uncertainty on
+whether wind will be available in real-time to cover any award. Further analysis on day-ahead
+market activity volume can be found in Error! Reference source not found. in the Appendix.
+To participate in ERCOT’s day-ahead market, a market participant must have sufficient
+collateral with ERCOT. Credit requirements are a constraint on submitting bids in the day-ahead
+market. When the available credit of a QSE is limited, its participation in the day-ahead market
+will necessarily be limited as well. The total collateral requirements for 2022 are shown below
+in Figure 24.
+Though daily collateral totals in 2022 never exceeded the maximums seen in 2021 due to Winter
+Storm Uri, the average daily collateral total in 2022 was nearly 27% higher than 2020. This
+increase is largely due to the increased prices and volatility that occurred in the summer and late
+in the year during Winter Storm Elliot.
+2022 State of the Market Report | 43
+Lo
+
+===== page 74 (OCR) =====
+ee
+Day-Ahead Market Performance
+Figure 24: Daily Collateral Held by ERCOT
+$12
+Letter of Credit
+o Seee Beat ee
+sio |" Surety Bond
+@ Guarantee Agreement
+GUnsecured Credit Limit
+$8
+2 s6
+an ee
+7)
+$4
+$2
+| |
+so
+Jan Feb Mar | Apr | May | Jun Jul Aug | Sep Oct Nov Dec
+C. Point-to-Point Obligations
+Purchases of PTP obligations comprise a significant portion of day-ahead market activity.
+Participants buy PTP obligations by bidding to pay the difference in prices between two
+locations in the day-ahead market. They are both similar to and can be used to complement
+Congestion Revenue Rights (CRRs). PTP obligations are acquired in the day-ahead market and
+accrue value in the real time based on the difference in prices between two locations caused by
+congestion costs. CRRs are acquired via monthly and annual auctions and allocations and accrue
+value to their owner based on locational price differences in the day-ahead market. A participant
+that owns a CRR can use its CRR proceeds from the day-ahead market to buy a PTP obligation
+between the same two points to transfer its hedge to real-time. CRRs are more fully described in
+Section V.
+Because PTP obligations represent such a substantial portion of the transactions in the day-ahead
+market, this subsection summarizes the quantities and profitability of the PTP obligations. The
+first analysis of this subsection, shown in Figure 25, compares the total day-ahead payments
+made to acquire these products, with the total amount of revenue received by the owners of PTP
+obligations in the real-time market for the last three years. When the payments are lower than
+the real-time revenues, the PTP obligations are profitable for the participant.
+44 | 2022 State of the Market Report
+ee
+
+===== page 75 (OCR) =====
+Day-Ahead Market Performance
+Figure 25: Point-to-Point Obligation Charges and Revenues
+$600 =
+2020 2021 2022
+ge Day-Ahead Charge $1,039 $1,113 $1,798
+{ $500 | Real-Time Revenue $1,126 $1,563 $2,162
+E| BDA PTP Charge
+& RT PTP Payment
+= $400
+é
+2
+a
+= $300 >
+a]
+=
+oD
+c—]
+=
+© $200
+4
+Ss
+a
+é
+= $100 -— — it Al oe
+=|
+2 Mdadvafad bd ME Manda Min)
+co I
+JF MAMS ya slolN D J FMAM Ig A sion DJF MAMIJJA slon|p
+2020 2021 2022
+As prices and total congestion costs have increased substantially in recent years, so have the
+costs and revenues associated with PTP obligations. The average volume of PTP obligations has
+been stable for the past three years, although the quantity of transaction submissions has risen.
+Real-time revenue increased in 2022, though the difference between charges and payments (i.e.,
+profits) was not as pronounced as it was in 2021 (~40% for 2021, ~20% for 2022). This is likely
+due to the outlier nature of 2021’s markets.
+Figure 25 shows that the aggregated total revenue received by PTP obligation owners in 2022
+was greater than the amount charged to the owners to acquire them, as in prior years. This
+indicates that buyers of PTP obligations profited from the transactions in aggregate. Profits were
+spread throughout 2022 (particularly March, May, July, and December), accruing when
+congestion priced in the day-ahead market was lower than the congestion in real time. The
+profits were highest in May when congestion costs were the highest in 2022.
+To provide additional insight on the profits that have accrued to PTP obligations, Error!
+Reference source not found. shows the profitability of PTP obligation holdings for all physical
+parties and financial parties (those with no real-time load or generation), as well as the
+profitability of “PTP obligations with links to options” in 2022 (“PTP options”). PTP options are
+available only to Non-Opt-In Entities and allow them to receive congestion revenue, but not be
+subject to congestion charges.
+2022 State of the Market Report | 45

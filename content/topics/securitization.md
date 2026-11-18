@@ -67,6 +67,22 @@ evidence:
     source: np-26
     locator: "Section 26.3, Securitization Default Charge Invoices, paragraph (1)"
     quote: "ERCOT shall prepare Securitization Default Charge Invoices on a monthly basis, as specified in Section 9.1.2, Settlement Calendar, on the seventh Business Day of a month."
+  - id: e11
+    source: hb4492-87r
+    locator: "HB 4492 (87R), Section 1, Government Code Sec. 404.0241(b-1)"
+    quote: "Notwithstanding any other law, directly or indirectly through a separately managed account or other investment vehicle, the comptroller shall invest not more than $800 million of the economic stabilization fund balance to finance the default balance as defined by Section 39.602, Utilities Code, to be repaid by ERCOT market participants through default charges established by the Public Utility Commission of Texas."
+  - id: e12
+    source: hb4492-87r
+    locator: "HB 4492 (87R), Utilities Code Sec. 39.602(1), definition of Default balance"
+    quote: "\"Default balance\" means an amount of money of not more than $800 million that includes only: (A) amounts owed to the independent organization by competitive wholesale market participants from the period of emergency that otherwise would be or have been uplifted to other wholesale market participants;"
+  - id: e13
+    source: hb4492-87r
+    locator: "HB 4492 (87R), Utilities Code Sec. 39.652(4), definition of Uplift balance"
+    quote: "\"Uplift balance\" means an amount of money of not more than $2.1 billion that was uplifted to load-serving entities on a load ratio share basis due to energy consumption during the period of emergency for reliability deployment price adder charges and ancillary services costs in excess of the commission's system-wide offer cap, excluding amounts securitized under Subchapter D, Chapter 41."
+  - id: e14
+    source: hb4492-87r
+    locator: "HB 4492 (87R), Utilities Code Sec. 39.652(3), definition of Period of emergency"
+    quote: "\"Period of emergency\" means the period beginning 12:01 a.m., February 12, 2021, and ending 11:59 p.m., February 20, 2021."
 ---
 
 ## Definition
@@ -81,11 +97,13 @@ The Securitization Uplift Charge is assessed to QSEs representing obligated LSEs
 
 ## ERCOT context
 
+The authorizing law is HB 4492 (87th Legislature). It directs the comptroller to invest not more than $800 million of the economic stabilization fund balance to finance the default balance, to be repaid by ERCOT market participants through default charges set by the PUCT. [e11] It defines the default balance (capped at $800 million) as amounts owed to ERCOT by competitive wholesale market participants during the period of emergency that would otherwise be uplifted to other participants. [e12] The uplift balance is capped at $2.1 billion and is the amount uplifted to load-serving entities on a load ratio share basis for reliability deployment price adder charges and ancillary services costs above the system-wide offer cap. [e13] The period of emergency runs from 12:01 a.m. on February 12, 2021 to 11:59 p.m. on February 20, 2021. [e14]
+
 The default-charge side comes with escrow and credit rules. Counter-Parties deposit cash or a letter of credit in escrow for their Default Charge obligations. [e8] If an invoice is short-paid, ERCOT first draws on the escrow deposits and then on Financial Security held for other ERCOT market activity. [e9]
 
 ## Key facts
 
-- Default Balance financing may not exceed $800 million. [e1]
+- Default Balance financing may not exceed $800 million, and the statute caps the Uplift Balance at $2.1 billion. [e1][e12][e13]
 - Default Charges can be assessed over up to 30 years. [e5]
 - Default Charges go to QSEs and CRR Account Holders; Uplift Charges go to QSEs representing obligated LSEs. [e2][e4]
 - Default Charge invoices are prepared monthly on the seventh Business Day. [e10]
@@ -111,6 +129,6 @@ Up to 30 years. [e5]
 
 ## Open items
 
-- Deeper pass: the text of HB 4492 (hb4492-87r) is saved but is word-per-line with line numbers interleaved, so no verbatim quotes could be taken from it. The $2.1 billion uplift balance ceiling and the legislative history were therefore not cited.
+- Deeper pass: HB 4492's interest-rate formula (index plus 2.5 percent) and 30-year term limit, and the legislative history, were not summarized.
 - Deeper pass: the Default Charge formula (largest-of-measures Counter-Party share, Section 26.2) and the Uplift Charge opt-out and reallocation mechanics (Sections 27.2, 27.4) were not summarized.
 - Deeper pass: current charge rates and remaining balances are not in the saved sources.
