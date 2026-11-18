@@ -101,11 +101,11 @@ The IMM recommends a small fee on PTP bids (Recommendation 2020-4) to discourage
 
 ## Say it like this
 
-A PTP Obligation is a day-ahead bet on congestion between two points: you pay the day-ahead price spread and collect the real-time spread. It was profitable in 2025, but the IMM warns that the growing number of bids is straining the day-ahead market.
+A PTP Obligation is a day-ahead bet on congestion between two points: you pay the day-ahead price spread and collect the real-time spread. It was profitable in 2025, but the IMM warns that the growing number of bids is straining the day-ahead market. [e8][e10]
 
 ## Common confusion
 
-A PTP Obligation can lose money, unlike a PTP Option, which only pays. The Obligation can produce a charge or a payment. [e1] Do not confuse it with a virtual: a PTP is a two-location spread, while an energy-only offer or bid is a one-location energy position. [e2][e6]
+A PTP Obligation can lose money: it can produce a charge as well as a payment. [e1] Do not confuse it with a virtual: a PTP is a two-location spread, while an energy-only offer or bid is a one-location energy position. [e2][e6]
 
 ## Questions
 
