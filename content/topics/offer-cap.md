@@ -13,7 +13,7 @@ links:
     note: The PUCT sets the offer cap levels and the peaker-net-margin trigger in its Scarcity Pricing Mechanism rule, and reviews them every five years starting 2026. [e12]
   - to: energy-offer-curve
     type: determines
-    note: Energy offer curves must sit between -$250 per MWh and the applicable cap, and ERCOT rejects offers above it. [e10]
+    note: Energy offer curves must sit between -$250 per MWh and the applicable cap. [e10]
   - to: ordc
     type: related
     note: The ORDC and reliability deployment price adder keep operating even when the cap drops to the LCAP. [e4]
@@ -103,7 +103,7 @@ The peaker net margin is a running sum over the year. In the protocols, the Peak
 
 A second, separate mechanism is the Emergency Pricing Program: it must be activated if the system-wide energy price has been at the HCAP for 12 hours within a rolling 24-hour period. [e7] While it is active, the cap is set to the ECAP, which equals the LCAP value. [e8]
 
-When the cap is at the LCAP, ERCOT must reimburse resource entities for actual marginal costs above the larger of the LCAP or their real-time energy price. [e11] In the protocols, offers above the applicable cap are rejected, and energy offer curves must fall between -$250 per MWh and the day-ahead or real-time cap, depending on when they were submitted. [e10]
+When the cap is at the LCAP, ERCOT must reimburse resource entities for actual marginal costs above the larger of the LCAP or their real-time energy price. [e11] In the protocols, an energy offer curve must fall between -$250 per MWh and the day-ahead or real-time cap, depending on when it was submitted. [e10]
 
 ## ERCOT context
 
