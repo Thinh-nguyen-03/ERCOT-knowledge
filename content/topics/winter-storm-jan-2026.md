@@ -10,19 +10,19 @@ as_of: 2026-11-18
 links:
   - to: rtc-b
     type: related
-    note: Fern was the first major winter storm after RTC+B went live, and ERCOT says RTC redistributed ancillary services to relieve transmission overloads. [e7]
+    note: ERCOT says that during Fern the RTC system redistributed ancillary services to maximize generation used to relieve overloads. [e7]
   - to: ffss
     type: related
     note: ERCOT used FFSS to keep 340 MW of gas-restricted units running. [e8]
   - to: weatherization
     type: related
-    note: ERCOT's October 2026 forced outage review uses Fern outage causes to set winter-readiness priorities. [e11][e12]
+    note: ERCOT's October 2026 forced outage review says to use Fern patterns to prioritize winter-readiness checks by asset class. [e21][e22]
   - to: large-flexible-load
     type: related
-    note: ERCOT estimates cryptocurrency mining cut about 4,100 MW of demand during the storm. [e5]
+    note: ERCOT's Board update says cryptocurrency mining began reducing about 4,100 MW on Saturday during the storm. [e5]
   - to: winter-storm-elliott
     type: related
-    note: Like Elliott, Fern was a cold event that ERCOT managed without load shed; the Fern peak was not a new winter record. [e4]
+    note: The Fern peak was not a new winter peak; the winter peak was recorded during Winter Storm Kingston. [e4]
   - to: ruc
     type: related
     note: The IMM says 42% of RUC commitments from December 5, 2025 through February 2026 happened during Fern. [e10]
@@ -103,23 +103,35 @@ evidence:
     source: ercot-fern-post-event
     locator: "Post-Event Report, Winter Storm Management (p. 3)"
     quote: "Increased cloud cover over parts of North Texas and Coastal Texas led to slightly warmer temperatures than expected in those areas, reducing usage of heaters, which lowered demand."
+  - id: e20
+    source: ercot-fern-board-sysops
+    locator: "Slide 3, Winter Storm Fern (heading)"
+    quote: "Winter Storm Fern: January 23 – 27"
+  - id: e21
+    source: ercot-fern-outage-review
+    locator: "Cross-asset failure families and prevention priorities"
+    quote: "Use Fern patterns to prioritize winter-readiness checks by asset class."
+  - id: e22
+    source: ercot-fern-outage-review
+    locator: "Cover slide date"
+    quote: "October 2026"
 ---
 
 ## Definition
 
-Winter Storm Fern was the January 2026 cold weather and freezing precipitation event that ERCOT managed without calling for conservation, issuing an EEA or having systemwide outages. [e1] ERCOT's Board update dates it January 23-27, with cold across the whole region and precipitation in the upper half of the state. [e2]
+Winter Storm Fern was the January 2026 cold weather and freezing precipitation event that ERCOT managed without calling for conservation, issuing an EEA or having systemwide outages. [e1] ERCOT's Board update dates it January 23-27, with cold across the whole region and precipitation in the upper half of the state. [e20][e2]
 
 ## How it works
 
-Demand came in below forecast. ERCOT's peak forecast was 84,500 MW, but the maximum unofficial instantaneous peak was 75,922 MW, not a new winter record. [e6][e4] ERCOT's post-event report says demand was lower than forecast mainly because of two factors, slightly warmer weather in some areas and widespread school and business closures, and the Board update estimates oil and gas loads cut about 4,200 MW and cryptocurrency mining about 4,100 MW. [e3][e19][e16][e5]
+Demand came in below forecast. ERCOT's peak forecast was 84,500 MW, but the maximum unofficial instantaneous peak was 75,922 MW, not a new winter record. [e6][e4] ERCOT's post-event report says demand was lower than forecast mainly because of two factors, slightly warmer weather in some areas and widespread school and business closures, and the Board update says oil and gas began reducing about 4,200 MW and cryptocurrency mining about 4,100 MW. [e3][e19][e16][e5]
 
 On supply, about 13.5 GW of wind nameplate was unavailable due to icing, though the actual lost output was smaller because wind speeds were low. [e15] FFSS kept 340 MW of gas-restricted units running. [e8] After a large unit in Central Texas tripped, the South Texas Export IROL was briefly exceeded, and a localized transmission emergency ran from 9:04 PM on January 25 to 10:00 AM on January 26 in the San Antonio to Houston area, and ERCOT says RTC redistributed ancillary services to reduce the manual action needed. [e17][e13][e7]
 
 ## ERCOT context
 
-Market effects in the saved sources come mainly from the IMM's early look at RTC. It says elevated day-ahead prices on December 5, 2025 and during Fern (January 21-27, 2026) account for 57-75% of the average day-ahead premium for energy and up-reserve products in early RTC. [e9] About 45% of the volume of Non-Spin (NSRS) shortages since go-live occurred during Fern, and 42% of RUC commitments from December 5, 2025 through February 2026 happened during Fern. [e14][e10]
+Market effects in the saved sources come mainly from the IMM's early look at RTC. It says elevated day-ahead prices on December 5, 2025 and during Fern (January 21-27, 2026) account for 57-75% of the average day-ahead premium for energy and up-reserve products in early RTC. [e9] The IMM also says about 45% of the volume of NSRS shortages occurred during Fern, and 42% of RUC commitments from December 5, 2025 through February 2026 happened during Fern. [e14][e10]
 
-What changed: ERCOT's October 2026 forced outage review counts 107 wind and solar outages losing about 610,000 MWh, mostly from icing, and 76 dispatchable outages losing about 156,000 MWh, driven by controls, combustion systems, air inlets and coal handling. [e11][e12] It uses these patterns to set winter-readiness priorities by asset class. [e11]
+What changed: ERCOT's October 2026 forced outage review counts 107 wind and solar outages losing about 610,000 MWh, mostly from icing, and 76 dispatchable outages losing about 156,000 MWh, driven by controls, combustion systems, air inlets and coal handling. [e11][e12] The review says to use Fern patterns to prioritize winter-readiness checks by asset class. [e21]
 
 ## Key facts
 
@@ -132,13 +144,13 @@ What changed: ERCOT's October 2026 forced outage review counts 107 wind and sola
 ## Timeline
 
 - January 21-27, 2026: Fern period as dated by the IMM. [e9][e10]
-- January 23-27, 2026: Fern period as dated by ERCOT's Board update. [e2]
+- January 23-27, 2026: Fern period as dated by ERCOT's Board update. [e20]
 - January 25, 2026, 9:04 PM to January 26, 10:00 AM: localized transmission emergency, San Antonio to Houston area. [e13]
-- October 2026: ERCOT presents its Fern forced outage review (outage counts and MWh lost by asset class). [e11][e12]
+- October 2026: date on ERCOT's Fern forced outage review (outage counts and MWh lost by asset class). [e22][e11][e12]
 
 ## Say it like this
 
-(Guidance) Fern was a real cold-and-ice test but a non-event for the grid: no EEA, no conservation call, and demand came in about 8.5 GW under forecast as industry and crypto load backed off. [e1][e6][e4] Its market footprint shows up mainly in day-ahead ancillary service premiums and RUC in the first winter of RTC+B. [e9][e10]
+(Guidance) Fern was a real cold-and-ice test but a grid ERCOT managed without an EEA or conservation call, and the maximum unofficial instantaneous peak was about 8.6 GW below the forecast peak, with closures, milder weather in some areas and oil, gas and crypto reductions cited. [e1][e6][e4][e3][e5] Its market footprint shows up mainly in day-ahead ancillary service premiums and RUC in the first winter of RTC+B. [e9][e10]
 
 ## Common confusion
 
@@ -152,7 +164,7 @@ ERCOT cites weather (cloud cover keeping some areas warmer) and widespread schoo
 
 ### What role did RTC+B play?
 
-ERCOT says RTC redistributed ancillary services to maximize generation available to relieve overloads during the South Texas transmission emergency. [e7] The IMM notes Fern accounted for a large share of early-RTC day-ahead premiums and RUC. [e9][e10]
+ERCOT says RTC redistributed ancillary services to maximize generation available to relieve overloads during the South Texas transmission emergency. [e7] The IMM says elevated day-ahead prices on RTC go-live day and during Fern account for 57-75% of the average day-ahead premium for energy and up-reserve products (excluding RegDown), and that 42% of RUC commitments from December 5, 2025 through February 2026 occurred during Fern. [e9][e10]
 
 ### What caused the most lost energy from outages?
 
