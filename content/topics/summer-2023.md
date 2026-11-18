@@ -121,7 +121,7 @@ Despite the records, the IMM says 2023 had fewer true shortages than 2022, large
 
 ## Common confusion
 
-(Guidance) The record peak (August 10) and the emergency (September 6) were different days; the emergency came on a lower-demand day because of the evening ramp, low wind and a transmission constraint. [e1][e5][e7] EEA2 is not load shed: no firm load was shed on September 6. [e6]
+(Guidance) The record peak (August 10) and the emergency (September 6) were different days; ERCOT ties the emergency to the evening ramp, low wind and a transmission constraint. [e1][e5][e7] EEA2 is not load shed: no firm load was shed on September 6. [e6]
 
 ## Questions
 
