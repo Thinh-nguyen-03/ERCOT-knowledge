@@ -9,8 +9,8 @@ in `REVIEW.md`; this page is the short version.
 - 2,002 source quotes, each found word for word in a saved official document.
 - About 145 source documents saved (ERCOT Nodal Protocols, PUCT rules and filings, Texas statutes and bills,
   IMM State of the Market reports 2021-2025, ERCOT reports, federal Uri report, EIA, ICE).
-- An independent review read about 4,300 cited statements against their quotes. About 590 said more than the
-  quote and about 260 were not supported by it. All were narrowed, re-sourced, or removed. The reviewers'
+- An independent review read about 4,300 cited statements against their quotes. About 640 said more than the
+  quote and about 300 were not supported by it. All were narrowed, re-sourced, or removed. The reviewers'
   change logs are in `review-log/`.
 
 ## 1. Topics with no usable source (10)
