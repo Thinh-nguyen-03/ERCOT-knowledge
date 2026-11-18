@@ -63,6 +63,10 @@ evidence:
     source: np-19
     locator: "Section 19.3.1(1), Service Order Request (650_01)"
     quote: "From the Competitive Retailer (CR) to the Transmission and/or Distribution Service Provider (TDSP) via point to point protocol, is used to initiate the original service order request, cancel request, or change/update request."
+  - id: e10
+    source: np-19
+    locator: "Section 19.1(2)(a)"
+    quote: "Transactions between Transmission and/or Distribution Service Providers (TDSPs) (refers to all TDSPs unless otherwise specified), Competitive Retailers (CRs) and ERCOT;"
 ---
 
 ## Definition
@@ -71,7 +75,7 @@ TX SETs are the electronic data transactions, implementation guides and external
 
 ## How it works
 
-TX SET covers transactions among TDSPs, Competitive Retailers and ERCOT. EDI transactions are built on ANSI ASC X12 standards. [e2] Examples: a new CR sends ERCOT an 814_01 Switch Request to begin a switch enrollment, and an 814_16 Move In Request to begin a move in. [e3][e4] A CR sends a 650_01 Service Order Request to the TDSP, and the TDSP reports monthly usage to ERCOT with an 867_03. [e9][e5]
+TX SET covers transactions among TDSPs, Competitive Retailers and ERCOT. [e10] EDI transactions are built on ANSI ASC X12 standards. [e2] Examples: a new CR sends ERCOT an 814_01 Switch Request to begin a switch enrollment, and an 814_16 Move In Request to begin a move in. [e3][e4] A CR sends a 650_01 Service Order Request to the TDSP, and the TDSP reports monthly usage to ERCOT with an 867_03. [e9][e5]
 
 Changes follow a change control process: the appropriate TAC subcommittee makes modifications and additions, since TX SETs are expanded and modified on an ongoing basis. [e6] The TX SET Working Group works with ERCOT's flight administrator on test plans and standards for retail transactional changes. [e8]
 
