@@ -10,19 +10,19 @@ as_of: 2026-11-18
 links:
   - to: rtc-b
     type: related
-    note: Summer 2026 was the first summer under RTC+B, which ERCOT says helped lower ancillary service costs and congestion. [e8]
+    note: ERCOT says real-time co-optimization helped to lower ancillary service costs and market congestion in summer 2026. [e8]
   - to: energy-storage-resource
     type: related
     note: ERCOT says batteries helped serve record net loads but evening state-of-charge exhaustion was a pattern all summer. [e1]
   - to: peaker-net-margin
     type: related
-    note: Peaker net margin was $43,111 per MW-year at August 15, 2026, below the same date in 2024 and 2025. [e7]
+    note: ERCOT's chart labels show peaker net margin of $43,111 on 8/15/26 versus $46,472 on 8/15/25, and ERCOT says it was lower in 2026 than in the previous two years. [e15][e7]
   - to: large-flexible-load
     type: related
     note: Crypto mining loads cut up to about 3,299 MW during the July 22 peak. [e3]
   - to: ruc
     type: related
-    note: RUC rose to 1,313 effective resource-hours in summer 2026, mostly for capacity and ancillary service needs rather than congestion. [e9]
+    note: RUC rose to 1,313 effective resource-hours in summer 2026, largely attributed to capacity needs, particularly to ensure sufficient ancillary service quantities. [e9][e14]
   - to: summer-2023
     type: contrasts-with
     note: The July 22, 2026 peak beat the August 10, 2023 record by 5,581 MW according to ERCOT. [e4]
@@ -79,6 +79,26 @@ evidence:
     source: ercot-summer-2026-review
     locator: "Slide 7, Historic Summer Thermal Forced Outage Comparison"
     quote: "Key Takeaway: The level of thermal forced outages (as a percent of installed capacity) has been higher in 2025-2026 summers than it was in the 2019-2020 summers."
+  - id: e14
+    source: ercot-summer-2026-review
+    locator: "Slide 20, RUC Effective Resource-Hours, Key Takeaway"
+    quote: "Key Takeaway: RUC activity in summer 2026 was substantially higher than the previous two summers and was largely attributed to addressing capacity needs, particularly to ensure sufficient Ancillary Service quantities."
+  - id: e15
+    source: ercot-summer-2026-review
+    locator: "Slide 14, Peaker Net Margin chart labels"
+    quote: "8/15/25: $ 46,472 8/15/26: $ 43,111"
+  - id: e16
+    source: np-04
+    locator: "Section 4.4.11, parameter table (Parameter / Unit / Current Value)"
+    quote: "ECAP $/MWh 2,000 HCAP – DAM (DASWCAP) $/MWh 5,000 HCAP – RTM (RTSWCAP) $/MWh 2,000 LCAP $/MWh 2,000 PNM threshold $/MW-year 315,000"
+  - id: e17
+    source: puct-25-509
+    locator: "16 TAC 25.509(b)(6)(B)"
+    quote: "The high system-wide offer cap (HCAP) will be $5,000 per MWh for energy offers and $5,000 per MW per hour for ancillary service offers."
+  - id: e18
+    source: ercot-summer-2026-review
+    locator: "Title slide"
+    quote: "Board of Directors Meeting September 14-15, 2026"
 ---
 
 ## Definition
@@ -87,7 +107,7 @@ Summer 2026 was the summer in which ERCOT set a new all-time demand record of 91
 
 ## How it works
 
-The weather was hot: June-July 2026 ranked 11th hottest of 132 years on mean temperature. [e2] On July 22, crypto mining loads cut up to about 3,299 MW and 4CP response about 492 MW; ERCOT estimates the peak would have been 94,861 MW without those reductions. [e3]
+The weather was hot: June-July 2026 ranked 11th hottest of 132 years on mean temperature. [e2] On July 22, crypto mining loads cut up to about 3,299 MW and 4CP response about 492 MW; ERCOT estimates the peak load would have been 94,861 MW if there was no reduction. [e3]
 
 Risk moved later into the evening. ERCOT says the net load hour shifted from HE 21 to HE 22 in June and July, and that batteries helped serve record net loads but ran their state of charge down in the evenings as a regular pattern. [e5][e1] On the three lowest-SOC days of 2026, SOC percentages averaged 50% lower than on the lowest days of 2025. [e6]
 
@@ -95,12 +115,12 @@ Risk moved later into the evening. ERCOT says the net load hour shifted from HE 
 
 Market outcomes were soft. Real-time prices were lower than in 2024 and 2025 because of more supply in daylight hours, which also lowered peaker net margin. [e7] There were no shortages of Reg-Up, Reg-Down or RRS, and Non-Spin and ECRS met plan in nearly all intervals. [e11] Real-time congestion rent was 10% lower than summer 2025, and ERCOT credits RTC for part of that and for lower ancillary service costs. [e10][e8]
 
-Two things went the other way. RUC rose to 1,313 effective resource-hours, from 872 in 2025 and 148 in 2024, and only 17% was attributed to congestion versus 100% in 2025. [e9] Thermal forced outages as a share of installed capacity were higher in summers 2025-2026 than in 2019-2020. [e13]
+Two things went the other way. RUC rose to 1,313 effective resource-hours, from 872 in 2025 and 148 in 2024, and only 17% was nominally attributed to congestion versus 100% in 2025. [e9][e14] Thermal forced outages as a share of installed capacity were higher in summers 2025-2026 than in 2019-2020. [e13]
 
 ## Key facts
 
 - New all-time peak: 91,134 MW on July 22, 2026, 5,581 MW above the August 10, 2023 record of 85,508 MW (ERCOT monthly report). [e4]
-- Estimated peak without crypto and 4CP reductions: 94,861 MW. [e3]
+- ERCOT's estimated peak load if there was no demand reduction: 94,861 MW. [e3]
 - Peaker net margin and real-time prices lower than 2024 and 2025. [e7]
 - RUC: 1,313 effective resource-hours in summer 2026 versus 872 (2025) and 148 (2024). [e9]
 - Real-time congestion rent 10% below summer 2025. [e10]
@@ -109,16 +129,16 @@ Two things went the other way. RUC rose to 1,313 effective resource-hours, from 
 
 - June-July 2026: 11th hottest June-July in 132 years. [e2]
 - July 22, 2026: all-time demand record of 91,134 MW. [e3][e4]
-- August 17, 2026: ERCOT's July monthly operational overview reports the record as unofficial and preliminary. [e4]
-- September 14-15, 2026: ERCOT presents the Summer 2026 Operational and Market Review to the Board. [e1]
+- August 17, 2026: ERCOT's July monthly operational overview reports the record as unofficial. [e4]
+- September 14-15, 2026: Board of Directors meeting date on the Summer 2026 Operational and Market Review deck. [e18][e1]
 
 ## Say it like this
 
-(Guidance) Summer 2026 set a new peak above 91 GW, but solar and storage kept the daytime quiet and prices, ancillary costs and peaker margins came in lower than the past two summers. [e3][e1][e7] The pressure point is now late evening, around HE 22, when batteries are running low, and RUC went up to secure capacity and ancillary services. [e5][e1][e9]
+(Guidance) Summer 2026 set a new peak above 91 GW, but solar and storage kept the daytime quiet and prices, ancillary costs and peaker margins came in lower than the past two summers. [e3][e1][e7] The pressure point is now late evening, around HE 22, when batteries are running low, and RUC activity went up, largely to address capacity needs and ensure sufficient ancillary service quantities. [e5][e1][e9][e14]
 
 ## Common confusion
 
-(Guidance) A record peak does not mean a scarcity summer: ERCOT reports lower real-time prices and peaker net margin even with record gross and net peaks. [e7] The 94,861 MW figure is ERCOT's estimate of demand without crypto and 4CP response, not metered load. [e3] The $2,000 per MWh real-time SWCAP that ERCOT's slide mentions after RTC go-live should be read alongside the offer-cap topic, which covers the HCAP and LCAP under the PUCT rule. [e12]
+(Guidance) A record peak does not mean a scarcity summer: ERCOT reports lower real-time prices and peaker net margin than in 2024 and 2025 even with a new demand record. [e7][e3] The 94,861 MW figure is ERCOT's estimate of peak load if there was no demand reduction, not the recorded peak. [e3] On offer caps: ERCOT's slide says the SWCAP was reduced to $2,000/MWh from $5,000/MWh after RTC go-live, the Protocol table lists a $5,000 day-ahead and $2,000 real-time cap, and PUCT rule 25.509 still states a $5,000 HCAP; see the offer-cap topic. [e12][e16][e17]
 
 ## Questions
 
@@ -132,7 +152,7 @@ In the late evening: the net load hour moved to HE 22 in June and July, and batt
 
 ### Why did RUC go up?
 
-ERCOT says RUC in 2026 was mostly for capacity needs, particularly to ensure enough ancillary services; only 17% was attributed to congestion versus 100% in 2025. [e9]
+ERCOT says RUC activity in summer 2026 was largely attributed to addressing capacity needs, particularly to ensure sufficient Ancillary Service quantities; only 17% of effective resource-hours were nominally attributed to congestion versus 100% in 2025. [e14][e9]
 
 ## Open items
 

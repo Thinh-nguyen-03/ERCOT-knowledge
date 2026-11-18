@@ -25,7 +25,7 @@ links:
     note: Inadequately hedged retailers were among the financial losers of the event. [e6]
   - to: crr
     type: related
-    note: CRRs are a hedge for congestion, a different risk than energy price.
+    note: A CRR entitles the holder to be charged or to receive congestion rent when the grid is congested, which is a different risk from the energy price level. [e8]
 evidence:
   - id: e1
     source: imm-som-2024
@@ -55,6 +55,10 @@ evidence:
     source: imm-som-2021
     locator: "Load exposure to real-time prices discussion"
     quote: "Unhedged loads would be vulnerable to any shortage conditions that may occur during the year, and it is therefore expected that hedging activity would increase during months with the highest likelihood of extreme weather and shortage conditions"
+  - id: e8
+    source: np-02
+    locator: "Section 2.1, definition of Congestion Revenue Right (CRR)"
+    quote: "A financial instrument that entitles the holder to be charged or to receive compensation (i.e., congestion rent), depending on the instrument, when the ERCOT Transmission Grid is congested in the DAM or in Real-Time."
 ---
 
 ## Definition
@@ -65,7 +69,7 @@ In the IMM's description, retail hedging is how load-serving entities manage the
 
 Most load is not settled at real-time prices. The IMM reports that on average only 17% of load was exposed to real-time prices in 2024, with the rest of real-time load hedged by day-ahead market positions, including PTP obligations. [e2]
 
-The IMM's exposure measure counts only ERCOT-administered markets. It does not include bilateral or over-the-counter index purchases, so contracts outside ERCOT do not show up in that figure. [e4]
+In its 2021 report the IMM's exposure measure was based solely on ERCOT-administered markets and did not include bilateral or over-the-counter index purchases. [e4] The saved 2024 text does not restate that method, so check whether the 17% figure uses the same basis.
 
 ## ERCOT context
 
@@ -78,7 +82,7 @@ In the February 2021 event, retailers' outcomes depended on how well their price
 - 2024: on average 17% of load was exposed to real-time prices (IMM). [e2]
 - Hedging tools the IMM lists for LSEs: owning generation, bilateral PPAs, futures, and day-ahead purchases. [e1]
 - The IMM expects hedging activity to rise in months with the highest likelihood of extreme weather and shortage conditions. [e7]
-- The IMM's exposure estimate excludes bilateral and OTC index purchases. [e4]
+- The IMM's 2021 exposure estimate excluded bilateral and OTC index purchases. [e4]
 
 ## Say it like this
 
@@ -86,7 +90,7 @@ A retailer's hedge is whatever covers its load against real-time prices: owned g
 
 ## Common confusion
 
-A CRR or PTP obligation hedges congestion between two points, not the energy price level itself. A day-ahead purchase moves price risk forward but, per the IMM, does not remove the risk of generally high prices. [e3]
+A CRR entitles the holder to be charged or paid congestion rent when the grid is congested [e8], which is different from covering the energy price level. A day-ahead purchase moves price risk forward but, per the IMM, does not remove the risk of generally high prices. [e3]
 
 ## Questions
 
