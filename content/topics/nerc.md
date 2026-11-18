@@ -22,7 +22,7 @@ links:
     note: NERC and Texas RE took part in the joint 2021 inquiry and NERC was asked to develop cold weather standards. [e6]
   - to: reliability-standard
     type: contrasts-with
-    note: NERC Reliability Standards are mandatory federal-framework standards, separate from the PUCT's ERCOT reliability standard. [e1]
+    note: NERC Reliability Standards are mandatory standards that FERC must approve; the PUCT's ERCOT reliability standard is a separate topic. [e1]
   - to: nodal-protocols
     type: related
     note: The NERC Regional Entity can submit NPRRs. [e7]
@@ -90,7 +90,7 @@ After the February 2021 event, FERC, NERC and all six Regional Entities, includi
 
 ## Common confusion
 
-(Guidance) NERC and Texas RE are about bulk power system reliability standards, not market design. The same inquiry report left market manipulation and design issues outside its scope. NERC standards are also not the same as the PUCT's reliability standard for ERCOT. [e1]
+(Guidance) NERC and Texas RE are about bulk power system reliability standards, not market design. NERC's mandatory Reliability Standards are also a different thing from the PUCT's reliability standard for ERCOT. [e1]
 
 ## Questions
 

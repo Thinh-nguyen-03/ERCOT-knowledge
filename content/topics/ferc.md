@@ -13,10 +13,10 @@ links:
     note: FERC certified NERC as the Electric Reliability Organization and approves its Reliability Standards. [e2]
   - to: puct
     type: contrasts-with
-    note: The PUCT, not FERC, regulates ERCOT's wholesale market because power exchanges stay within Texas. [e1]
+    note: FERC does not regulate ERCOT's wholesale energy market because power exchanges stay within Texas. [e1]
   - to: ercot
     type: related
-    note: FERC does not regulate ERCOT's wholesale energy market, but ERCOT serves as a Reliability Coordinator whose reliability duties fall under the NERC standards regime. [e1][e4]
+    note: FERC does not regulate ERCOT's wholesale energy market, but ERCOT served as a Reliability Coordinator in the 2021 event area. [e1][e4]
   - to: winter-storm-uri
     type: related
     note: FERC, NERC and Regional Entity staff jointly inquired into the February 2021 event. [e5]
@@ -67,7 +67,7 @@ In the saved sources FERC shows up in ERCOT mostly through reliability: it joine
 
 ## ERCOT context
 
-ERCOT is outside FERC's market jurisdiction, so the PUCT is the regulator that approves its protocols. The same report notes that ERCOT, as a Reliability Coordinator, was one of three system operators in the event area, along with MISO and SPP. [e4][e1] The Protocols also reference FERC rules, for example in the list of references that Administrative NPRRs may correct. [e6]
+ERCOT's wholesale energy market is outside FERC's regulation. [e1] The same report notes that ERCOT, as a Reliability Coordinator, was one of three system operators in the event area, along with MISO and SPP. [e4] The Protocols also reference FERC rules, for example in the list of references that Administrative NPRRs may correct. [e6]
 
 ## Key facts
 
@@ -78,7 +78,7 @@ ERCOT is outside FERC's market jurisdiction, so the PUCT is the regulator that a
 
 ## Say it like this
 
-(Guidance) FERC does not regulate ERCOT's wholesale market, which is intrastate, so the PUCT does. FERC matters to ERCOT mainly through the federal reliability framework, where FERC oversees NERC.
+(Guidance) FERC does not regulate ERCOT's wholesale market, which is intrastate; see the PUCT topic for who does. FERC matters to ERCOT mainly through the federal reliability framework, where FERC oversees NERC.
 
 ## Common confusion
 
