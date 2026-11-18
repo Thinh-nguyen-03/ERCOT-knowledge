@@ -1,0 +1,102 @@
+---
+id: hb-north
+name: HB_NORTH (North Hub)
+aliases: [HB_NORTH, North Hub, North 345, North 345 kV Hub]
+kind: concept
+domain: pricing
+level: 1
+lenses: [trading, analyst, portfolio]
+as_of: 2026-11-18
+links:
+  - to: trading-hub
+    type: is-a
+    note: The North 345 kV Hub is one of the defined Hubs. [e1]
+  - to: settlement-point
+    type: is-a
+    note: A Hub is a kind of Settlement Point. [e2]
+  - to: hb-west
+    type: contrasts-with
+    note: The West 345 kV Hub is defined the same way but over a different set of buses. [e3][e4]
+  - to: spp
+    type: determines
+    note: The hub price is the Settlement Point Price at the Hub. [e3]
+  - to: block-products
+    type: used-in
+    note: Block products are traded against hub prices.
+  - to: lmp
+    type: related
+    note: The Hub price averages Hub Bus prices. [e3]
+evidence:
+  - id: e1
+    source: np-03
+    locator: "Section 3.5.2.1, paragraph (1)"
+    quote: "The North 345 kV Hub is composed of the following Hub Buses:"
+  - id: e2
+    source: np-02
+    locator: "Section 2.1, definition of Hub"
+    quote: "A designated Settlement Point consisting of a Hub Bus or group of Hub Buses and the associated Settlement price calculation methodology prescribed in the definition of the Hub in Section 3.5.2, Hub Definitions."
+  - id: e3
+    source: np-03
+    locator: "Section 3.5.2.1, paragraph (2)"
+    quote: "The North 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Settlement Interval of the Day-Ahead Market (DAM) in the Day-Ahead and is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time, for each Hub Bus included in this Hub."
+  - id: e4
+    source: np-03
+    locator: "Section 3.5.2.4, paragraph (2)"
+    quote: "The West 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Settlement Interval of the DAM in the Day-Ahead and is the simple average of the time weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time, for each Hub Bus included in this Hub."
+  - id: e5
+    source: np-03
+    locator: "Section 3.5.2.6, paragraph (1) (ERCOT 345)"
+    quote: "The ERCOT Hub Average 345 kV Hub price for Real-Time is the simple average of four prices from the applicable time period: the North 345 kV Hub price, the South 345 kV Hub price, the Houston 345 kV Hub price, and the West 345 kV Hub price."
+  - id: e6
+    source: np-03
+    locator: "Section 3.5.1, paragraph (1)"
+    quote: "Hubs settled through ERCOT may only be created by an amendment to Section 3.5.2, Hub Definitions. Hubs are made up of one or more Electrical Buses. ERCOT shall post the list of Electrical Buses (including their names) that are part of a Hub on the ERCOT website."
+  - id: e7
+    source: np-02
+    locator: "Section 2.1, definition of Hub"
+    quote: "The list of Hub Buses and the Settlement price calculation methodology that define a Hub can never be modified, and a Hub, once defined, exists in perpetuity."
+---
+
+## Definition
+
+The North 345 kV Hub (North 345) is one of the Hubs defined in Protocol Section 3.5.2, composed of a listed set of 345 kV Hub Buses. [e1] A Hub is a designated Settlement Point made of a Hub Bus or group of Hub Buses with the price methodology set out in its definition. [e2] The market shorthand "HB_NORTH" is not used in the saved protocol text.
+
+## How it works
+
+The North 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Day-Ahead Market, and in real time is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval. [e3] It is therefore an equal-weight average across its buses, not weighted by load or generation. [e3] The list of Hub Buses and the price method can never be modified once defined. [e7]
+
+## ERCOT context
+
+North 345 is one of four hubs whose prices are averaged into the ERCOT Hub Average 345 kV Hub price (the others are South, Houston and West). [e5] ERCOT posts the list of Electrical Buses in each Hub on its website. [e6]
+
+## Key facts
+
+- The North 345 kV Hub is defined in Protocol Section 3.5.2.1. [e1]
+- Day-ahead price uses aggregated Shift Factors of the Hub Buses; real-time price is the simple average of time-weighted Hub Bus prices per 15-minute interval. [e3]
+- The Hub definition can never be modified and exists in perpetuity. [e7]
+- It is one of four prices in the ERCOT Hub Average 345 kV Hub price. [e5]
+
+## Say it like this
+
+HB_NORTH is the equal-weighted average price of a fixed list of 345 kV buses in the north. It is the common reference for north-region hedges, but a north load zone customer still settles at the load-weighted zone price.
+
+## Common confusion
+
+- North Hub versus North Load Zone: the Hub averages a fixed bus list, whereas a Load Zone price is weighted by Load. [e3][e2]
+- North Hub versus the ERCOT 345 average: the ERCOT average is a separate Hub that averages four hub prices, including North. [e5]
+
+## Questions
+
+### How is the North Hub price calculated in real time?
+
+As the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval, across each Hub Bus in the Hub. [e3]
+
+### Can ERCOT change which buses are in the North Hub?
+
+The definition can never be modified. [e7]
+
+## Open items
+
+- The market-convention name "HB_NORTH" and the settlement point name do not appear in the saved sources; the protocol uses "North 345 kV Hub (North 345)".
+- Deeper pass: the Hub Bus list (25+ buses in a table in np-03 Section 3.5.2.1) was not quoted.
+- Deeper pass: North hub price levels and spreads versus West by year; saved IMM tables are garbled, so none cited.
