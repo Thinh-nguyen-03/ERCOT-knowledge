@@ -144,4 +144,5 @@ The PUCT retained the legacy $105 per kW-year CONE for the PNM threshold when it
 - The PUCT rule says RTEP is an average system-wide price as determined by ERCOT, while the protocol specifies the Hub Average 345 kV Hub price; the protocol is used here for the operational definition.
 - Deeper pass: PNM history by year (Figure 57 in the IMM reports) was not quoted; OCR copies of the IMM reports were not available.
 - The 2026 PUCT review of the system-wide offer cap programs (25.509(d)) may change the threshold; no outcome was found in the saved sources.
+- The IMM quote describes the cap falling from $5,000 to $2,000 per MWh; since RTC go-live (5 December 2025) the sources show separate day-ahead ($5,000) and real-time ($2,000) caps while 25.509 still states a $5,000 HCAP, so how the PNM switch applies to each cap was not reconciled here.
 - Deeper pass: the net revenue analysis of new-entry units by technology in the IMM chapters.

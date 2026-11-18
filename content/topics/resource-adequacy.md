@@ -10,16 +10,16 @@ as_of: 2026-11-18
 links:
   - to: cdr-report
     type: measures
-    note: The CDR is ERCOT's five-year resource adequacy report and the main source of Planning Reserve Margins. [e7][e8]
+    note: The December 2025 CDR reports Planning Reserve Margins; the PUCT rule requires an annual resource adequacy report covering at least five years. [e8][e9][e7]
   - to: mora-report
     type: measures
-    note: The MORA gives a month-ahead probabilistic view of EEA risk on the peak day. [e15]
+    note: The MORA reports the hour with the highest EEA risk and its probability. [e15]
   - to: energy-only-market
     type: related
     note: In ERCOT's energy-only market, shortage pricing is the main revenue signal for new investment. [e2]
   - to: asdc
     type: affects
-    note: Since RTC, the ASDCs define shortage pricing, so their design drives the investment signal. [e12]
+    note: Since RTC, the ASDCs define shortage pricing, and shortage pricing is the primary investment signal in ERCOT's energy-only market. [e12][e2]
   - to: texas-energy-fund
     type: affects
     note: The December 2025 CDR's bookend reserve margin scenarios vary the amount and timing of TEF project capacity. [e10]
@@ -28,7 +28,7 @@ links:
     note: The December 2025 CDR scenarios vary large-load size and SB 6 curtailment assumptions, which move the reserve margin outlook. [e10]
   - to: prc
     type: measures
-    note: The IMM uses PRC as a real-time operating reserve margin, and it has been well above shortage levels since 2023. [e11]
+    note: The IMM reports PRC as an operating reserve margin and says no hours below 3,000 MW have been observed since 2023. [e11]
 evidence:
   - id: e1
     source: imm-som-2025
@@ -107,11 +107,11 @@ Resource adequacy means having enough generation and demand-side resources to me
 
 ## How it works
 
-ERCOT has a formal reliability standard. Simulated loss-of-load events must average no more than one per ten years (0.1 LOLE). The longest expected event must be under 12 hours, with a 1.00% exceedance tolerance. [e3] Starting January 1, 2026, ERCOT must assess at least every three years whether the system meets the standard and is likely to keep meeting it for the next three years. [e4] If it does not, ERCOT must give the Commission a menu of market design changes, including a primary recommendation. [e5]
+ERCOT has a formal reliability standard. Expected loss-of-load events for the ERCOT region must average no more than one per ten years (0.1 LOLE). The longest expected event must be under 12 hours, with a 1.00% exceedance tolerance. [e3] Starting January 1, 2026, ERCOT must assess at least every three years whether the system meets the standard and is likely to keep meeting it for the next three years. [e4] If it does not, ERCOT must give the Commission a menu of market design changes, including a primary recommendation. [e5]
 
-The market signal comes from scarcity prices. Since RTC, sloped Ancillary Service Demand Curves define shortage pricing in the day-ahead and real-time markets. [e12] Investors compare expected net revenue with the cost of new entry (CONE). The PUCT approved a planning CONE of $140/kW-year in July 2024 and kept the legacy $105/kW-year for the peaker net margin threshold. [e13]
+The market signal comes from scarcity prices. Since RTC, sloped Ancillary Service Demand Curves define shortage pricing in the day-ahead and real-time markets. [e12] The IMM compares net revenues with the cost of new entry (CONE). [e14] The PUCT approved a planning CONE of $140/kW-year in July 2024 and kept the legacy $105/kW-year for the peaker net margin threshold. [e13]
 
-ERCOT measures adequacy through planning reports. A resource adequacy report covering at least five years must be published by December 31 each year. [e7] The CDR's Planning Reserve Margin is the share of resource capacity above firm demand that is available to cover uncertainty. [e8] The MORA gives a month-ahead probability of an EEA. [e15]
+ERCOT measures adequacy through planning reports. A resource adequacy report covering at least five years must be published by December 31 each year. [e7] The CDR's Planning Reserve Margin is the share of resource capacity above firm demand that is available to cover uncertainty. [e8] The MORA reports the probability that ERCOT would need to declare an EEA in its highest-risk hour. [e15]
 
 ## ERCOT context
 
@@ -130,17 +130,17 @@ Revenues were weak in 2025. Net revenues were $52.59/kW-year for a CT and $82.96
 
 ## Say it like this
 
-(Guidance) ERCOT now has a formal reliability target of one loss-of-load event in ten years and must check every three years whether the market is delivering it. The planning reports show reserve margins shrinking fast under large-load growth, while real-time reserves have been ample. That gap is the core of the current resource adequacy debate.
+(Guidance) ERCOT now has a formal reliability target of one loss-of-load event in ten years and must check every three years whether the market is delivering it. The planning reports show reserve margins falling significantly year to year, while real-time reserves have been ample. That gap is the core of the current resource adequacy debate.
 
 ## Common confusion
 
-(Guidance) The CDR's Planning Reserve Margin is a deterministic planning number, not a measure of real-time scarcity. PRC is the operating-side measure, and the two have pointed in different directions recently. [e8][e11] Also, the "1-in-10" standard is a probabilistic LOLE target, not a reserve-margin target. [e3]
+(Guidance) The CDR's Planning Reserve Margin is a percentage of resource capacity above firm demand, not a measure of real-time scarcity. PRC is the operating-side measure, and the two have pointed in different directions recently. [e8][e11] Also, the "1-in-10" standard is an LOLE target, not a reserve-margin target. [e3]
 
 ## Questions
 
 ### What is ERCOT's reliability standard?
 
-16 TAC §25.508 requires simulated loss-of-load events of no more than 0.1 per year, with the longest expected event under 12 hours at a 1.00% exceedance tolerance. A magnitude test also applies. [e3]
+16 TAC §25.508 requires expected loss-of-load events of no more than one per ten years on average (0.1 LOLE), with the maximum expected event length under 12 hours at a 1.00% exceedance tolerance. [e3]
 
 ### What happens if ERCOT fails the standard?
 
@@ -159,7 +159,7 @@ No, according to the IMM. CT and CC net revenues of $52.59 and $82.96 per kW-yea
 ### A client asks whether ERCOT will add a capacity market because reserve margins go negative.
 
 - The formal path is the reliability standard assessment. If ERCOT does not meet the standard, it must propose market design changes. [e5]
-- The IMM says meeting the standard through prices alone would need an extraordinarily high VOLL, so the options are expected to go beyond raising prices. [e16]
+- The IMM says meeting the standard through price signals alone would imply an extraordinarily high operational VOLL for an energy-only market. [e16] What ERCOT's market design options will contain is not in the saved sources.
 
 ## Open items
 

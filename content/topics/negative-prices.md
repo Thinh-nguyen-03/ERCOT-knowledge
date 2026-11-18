@@ -10,16 +10,16 @@ as_of: 2026-11-18
 links:
   - to: lmp
     type: related
-    note: Negative prices are LMP and Settlement Point Price outcomes at locations where supply exceeds what can be absorbed. [e6][e7]
+    note: The IMM reports negative real-time prices in midday solar hours and in the West zone. [e6][e7]
   - to: tax-credits-recs
     type: causes
     note: Federal production tax credits keep many wind and solar resources willing to produce when prices are negative. [e8]
   - to: congestion
     type: related
-    note: Negative prices cluster at export-constrained locations such as the West zone, and batteries can be paid to charge at congested locations. [e7][e9]
+    note: The West zone, which includes export-constrained Panhandle wind and solar, had the most negative-price intervals in 2025, and batteries can often charge at prices below $0 when added load resolves congestion. [e7][e9]
   - to: battery-revenue-stack
     type: related
-    note: Midday negative prices let batteries charge cheaply or be paid to consume. [e6][e9]
+    note: Midday negative prices let batteries charge cheaply or be paid to consume. [e6]
   - to: offer-cap
     type: contrasts-with
     note: The offer cap limits prices on the high side, while the offer floor of -$250 per MWh limits offers on the low side. [e1]
@@ -54,7 +54,7 @@ evidence:
   - id: e7
     source: imm-som-2025
     locator: "Review of Real-Time Market Outcomes, section C, Zonal Energy Prices"
-    quote: "This duality explains why the West zone experienced the highest number of intervals with negative prices and the greatest frequency of price spikes of any load zone."
+    quote: "The West zone includes both the Panhandle, which has abundant wind and solar resources but is export-constrained, and the Permian Basin, which has seen rapid demand growth and is import-constrained. This duality explains why the West zone experienced the highest number of intervals with negative prices and the greatest frequency of price spikes of any load zone."
   - id: e8
     source: imm-som-2025
     locator: "Executive Summary, Market Operations, bullets on offers at or below $0"
@@ -75,7 +75,7 @@ A negative price is an energy price below $0 per MWh. ERCOT's rules allow Energy
 
 ## How it works
 
-In the IMM's account, negative prices show up when midday solar surges and at export-constrained locations. [e6][e7] Offers can go negative because the protocol range for an Energy Offer Curve starts at -$250.00 per MWh. [e1] In SCED Step 2, each Energy Offer Curve is bounded at the lesser of the Step 1 Reference LMP or the appropriate Mitigated Offer Floor, and the floors are Resource-category specific, for example -$100/MWh for wind and -$50/MWh for PV. [e4][e2][e3]
+In the IMM's account, negative prices show up when midday solar surges and in the West zone. [e6][e7] Offers can go negative because the protocol range for an Energy Offer Curve starts at -$250.00 per MWh. [e1] In SCED Step 2, each Energy Offer Curve subject to mitigation is bounded at the lesser of the Step 1 Reference LMP or the appropriate Mitigated Offer Floor, and the floors are Resource-category specific, for example -$100/MWh for wind and -$50/MWh for PV. [e4][e2][e3]
 
 Why would a generator offer below zero? The IMM says 35% of real-time generation capacity was offered at or below $0 in 2025 (32% in 2024), mostly wind and solar that are incentivized to produce even when prices are negative because many receive federal production tax credits. [e8]
 
@@ -83,7 +83,7 @@ Why would a generator offer below zero? The IMM says 35% of real-time generation
 
 Location matters. In 2025 the West zone, which holds export-constrained Panhandle wind and solar and import-constrained Permian load, had both the most negative-price intervals and the most price spikes of any load zone. [e7] Growth in zero-marginal-cost wind and solar also pulls down the market's implied heat rate. [e5]
 
-Batteries are the main way negative prices are being absorbed. As midday solar has surged, real-time prices have dropped, sometimes to negative levels, which lets ESRs charge cheaply or be paid to consume energy that would otherwise be curtailed. [e6] At congested locations ESRs can often charge at prices below $0. [e9] The cheap-charging era is fading: the share of ESR bids to buy at or below $0 fell from 82% in 2023 to 71% in 2024 and 56% in 2025. [e10]
+Batteries are one way negative prices are being absorbed. As midday solar has surged, real-time prices have dropped, sometimes to negative levels, which lets ESRs charge cheaply or be paid to consume energy that would otherwise be curtailed. [e6] At congested locations ESRs can often charge at prices below $0. [e9] The cheap-charging era is fading: the share of ESR bids to buy at or below $0 fell from 82% in 2023 to 71% in 2024 and 56% in 2025. [e10]
 
 ## Key facts
 
@@ -95,7 +95,7 @@ Batteries are the main way negative prices are being absorbed. As midday solar h
 
 ## Say it like this
 
-Negative prices happen when a lot of zero-cost wind and solar, often supported by tax credits, keeps producing at times and places where the grid cannot use it. They are most common in the West, and batteries are one of the main ways they are absorbed.
+Negative prices happen when a lot of zero-cost wind and solar, often supported by tax credits, keeps producing at times and places where the grid cannot use it. They are most common in the West, and batteries can charge cheaply or be paid to consume when prices go negative. [e6]
 
 ## Common confusion
 
@@ -109,7 +109,7 @@ Many receive federal production tax credits, so they are incentivized to produce
 
 ### Which zone sees the most negative prices, and why?
 
-The West zone, because it includes export-constrained Panhandle wind and solar as well as import-constrained Permian load, which gives it both the most negative-price intervals and the most spikes. [e7]
+The West zone. The IMM says it includes the Panhandle, with abundant wind and solar but export-constrained, and the Permian Basin, with rapid demand growth and import-constrained, and this duality explains why it had both the most negative-price intervals and the most price spikes. [e7]
 
 ### How do batteries relate to negative prices?
 

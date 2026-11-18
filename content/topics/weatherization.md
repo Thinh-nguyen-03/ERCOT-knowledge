@@ -10,13 +10,13 @@ as_of: 2026-11-18
 links:
   - to: winter-storm-uri
     type: related
-    note: The FERC-NERC Uri report found no meaningful follow-up when entities missed the December 1 winter preparation deadline. [e9]
+    note: The FERC-NERC Uri report said it appears there was no meaningful follow-up when entities missed the December 1 winter preparation deadline. [e9]
   - to: puct
     type: regulates
-    note: The PUCT adopted 16 TAC 25.55 and sets penalties for violations. [e1][e6]
+    note: 16 TAC 25.55 is the PUCT rule, and it makes a violation a Class A violation. [e1][e6]
   - to: ercot
     type: operates
-    note: ERCOT collects declarations, inspects every resource at least once every three years, and reports to the PUCT. [e4][e5]
+    note: SB 3 directs ERCOT to inspect generation assets and report violations to the PUCT, and the rule requires inspection of every resource at least once every three years. [e11][e5]
   - to: ffss
     type: related
     note: FFSS is the paid fuel-readiness product; weatherization is the mandatory equipment-preparation duty.
@@ -28,7 +28,7 @@ links:
     note: Weather-related forced interruptions of service trigger an engineer assessment under the rule. [e7]
   - to: nerc
     type: related
-    note: The FERC-NERC Uri report is the source for earlier ERCOT and Texas RE winter spot-check history. [e9]
+    note: The FERC-NERC Uri report is the source for the earlier ERCOT winter spot check program. [e12]
 evidence:
   - id: e1
     source: puct-25-55
@@ -90,15 +90,15 @@ Weatherization standards are the PUCT's weather emergency preparedness rule, 16 
 
 ## How it works
 
-Each generation entity must submit a declaration of winter weather preparedness between November 1 and December 1, and a declaration of summer weather preparedness between May 1 and June 1. [e4][e13] ERCOT must inspect every resource interconnected to the ERCOT power region at least once every three years. [e5]
+Each generation entity must submit a declaration of winter weather preparedness between November 1 and December 1, and a declaration of summer weather preparedness between May 1 and June 1. [e4][e13] Every resource interconnected to the ERCOT power region must be inspected at least once every three years, and SB 3 has ERCOT, as the independent organization, inspect generation assets and report violations to the commission. [e5][e11]
 
-Enforcement is through the PUCT. A violation is a Class A violation and may carry a penalty up to $1,000,000 per violation per day. [e6] If a resource has a repeated or major weather-related forced interruption of service, ERCOT notifies the entity and staff, and the entity must contract a qualified professional engineer to assess its preparation measures, plans, procedures and operations. [e7]
+A violation is a Class A violation and may carry a penalty up to $1,000,000 per violation per day. [e6] If a resource has a repeated or major weather-related forced interruption of service, ERCOT notifies the entity and staff, and the entity must contract a qualified professional engineer to assess its preparation measures, plans, procedures and operations. [e7]
 
 ## ERCOT context
 
-The rule rests on a statute. SB 3 (2021) added a provision directing the commission by rule to require generators in the ERCOT region to prepare their assets for weather emergencies, with the ERCOT independent organization inspecting for compliance and reporting violations. [e10][e11] The FERC-NERC Uri report describes the earlier approach: ERCOT started a winter weatherization spot check program for the 2011/2012 winter after the February 2011 cold event, and the report found no meaningful follow-up when entities missed the December 1 preparation deadline. [e12][e9]
+The rule's statutory backdrop: SB 3 (87th Legislature) added a provision directing the commission by rule to require generators in the ERCOT region to prepare their assets for weather emergencies, with the ERCOT independent organization inspecting for compliance and reporting violations. [e10][e11] The FERC-NERC Uri report describes the earlier approach: ERCOT started a winter weatherization spot check program for the 2011/2012 winter after the February 2011 cold event, and the report said it appears there is no meaningful follow-up when entities fail to finish winter preparations by the December 1 deadline. [e12][e9]
 
-The reliability standard rule links to this one: the model must state an assumed weatherization effectiveness, defined as the assumed percentage reduction in weather-related unplanned outages from complying with 25.55. [e8]
+The reliability standard rule links to this one: the rule defines weatherization effectiveness as the assumed percentage reduction in weather-related unplanned outages for generation and storage resources in the model, due to compliance with 25.55. [e8]
 
 ## Key facts
 
@@ -110,11 +110,11 @@ The reliability standard rule links to this one: the model must state an assumed
 
 ## Say it like this
 
-Texas now has a PUCT rule that makes every generator prepare for each season, declare it, be inspected at least every three years, and face penalties of up to $1 million a day. [e2][e5][e6] After a major weather outage the unit must pay an independent engineer to find the root cause. [e7]
+Texas now has a PUCT rule that makes every generator prepare for each season, declare it, be inspected at least every three years, and face penalties of up to $1 million a day. [e2][e5][e6] After a repeated or major weather-related forced interruption, ERCOT notifies the unit, which must contract with a qualified professional engineer to assess its preparation. [e7]
 
 ## Common confusion
 
-Weatherization is a compliance duty with penalties, not a paid service. Firm fuel supply (FFSS) is the paid fuel-readiness product, and the two should not be mixed up. [e6] The rule also covers transmission service providers, not only generators. [e1]
+Weatherization is a compliance duty with penalties, not a paid service. Firm fuel supply (FFSS) is a separate service (see the ffss topic), and the two should not be mixed up. [e6] The rule also covers transmission service providers, not only generators. [e1]
 
 ## Questions
 
@@ -128,7 +128,7 @@ At least once every three years for every resource interconnected to the ERCOT p
 
 ### What happens after a major weather-related outage at a unit?
 
-ERCOT notifies the entity and PUCT staff, and the entity must contract with a qualified professional engineer who is not its employee to assess its measures, plans, procedures and operations. [e7]
+ERCOT notifies the entity and PUCT staff, and the entity must contract with a qualified professional engineer to assess its measures, plans, procedures and operations. [e7]
 
 ## Open items
 
