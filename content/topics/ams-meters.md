@@ -58,7 +58,7 @@ evidence:
   - id: e8
     source: np-18
     locator: "Section 18.6.1(1)"
-    quote: "Interval Data Recorders (IDRs) are required and shall be installed and utilized for Settlement of Premises having either:"
+    quote: "Interval Data Recorders (IDRs) are required and shall be installed and utilized for Settlement of Premises having either: (a) A peak Demand greater than 700 kW (or 700 kVA in CenterPoint Energy’s service territory); or (b) Service provided at transmission voltage (above 60 kV)."
 ---
 
 ## Definition
@@ -69,7 +69,7 @@ The Advanced Metering System is a system of advanced meters plus the hardware, s
 
 TDSPs provide 15-minute interval data from provisioned Advanced Meters to ERCOT in an ERCOT-specified file format via NAESB, at least monthly. [e3] That interval data is submitted as Settlement Quality Meter Data and is what is used for settlement. [e4] Upon certified request, ERCOT makes the data available to a Market Participant through the MIS Certified Area. [e5]
 
-Advanced meters sit alongside Interval Data Recorders, devices able to record energy in each Settlement Interval. [e2] IDRs are required for premises above a size or voltage threshold. [e8] Where ERCOT does not receive 15-minute data, load profiles estimate it instead. [e6]
+Advanced meters sit alongside Interval Data Recorders, devices able to record energy in each Settlement Interval. [e2] IDRs are required for premises with peak demand above 700 kW (700 kVA in CenterPoint's territory) or service at transmission voltage above 60 kV. [e8] Where ERCOT does not receive 15-minute data, load profiles estimate it instead. [e6]
 
 ## ERCOT context
 

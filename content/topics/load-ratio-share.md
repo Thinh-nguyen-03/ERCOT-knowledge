@@ -41,11 +41,11 @@ evidence:
     quote: "Each QSE’s Load Ratio Share (LRS) for a 15-minute Settlement Interval is calculated as follows:"
   - id: e4
     source: np-04
-    locator: "Section 4.1.1 area, Ancillary Service obligation assignment, paragraph (1)"
+    locator: "Section 4.2.1.2, Ancillary Service Obligation Assignment and Notice, paragraph (1)"
     quote: "ERCOT shall assign part of the Ancillary Service Plan quantity, or total Ancillary Service procurement quantity, if different, by service, by hour, to each Qualified Scheduling Entity (QSE) based on its Load Serving Entity (LSE) Load Ratio Shares (LRSs) (including the shares for Direct Current Tie (DC Tie) exports) aggregated by hour to the QSE level."
   - id: e5
     source: np-05
-    locator: "Section 5.7.4.2 area, RUC Make-Whole Uplift Charge, paragraph (1)"
+    locator: "Section 5.7.4.2, RUC Make-Whole Uplift Charge, paragraph (1)"
     quote: "If the revenues from the charges under Section 5.7.4.1, RUC Capacity-Short Charge, are not enough to cover all RUC Make-Whole Payments, including amounts for RMR Units, for a 15-minute Settlement Interval, then the difference will be uplifted to all QSEs on a Load Ratio Share basis, as a RUC Make-Whole Uplift Charge, calculated as follows:"
   - id: e6
     source: np-11

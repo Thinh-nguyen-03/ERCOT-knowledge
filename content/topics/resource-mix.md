@@ -107,7 +107,7 @@ Location matters. The IMM says the West zone is a substantial net exporter becau
 
 The shift is fast. In February 2021, ERCOT's board deck showed installed gas at 51,667 MW (47.45%), coal at 13,630 MW (12.52%) and wind at 31,390 MW (28.83%). [e12][e13] By October 2026 ERCOT's fact sheet lists 41,926 MW of utility-scale solar and 21,537 MW of installed energy storage. [e7][e8] The December 2025 CDR expects solar to keep leading capacity growth, followed by battery storage. [e9]
 
-On the energy side, solar's generation share went from 7.2% in 2023 to 10.4% in 2024 and 13.9% in 2025, while gas fell to 41.1% in 2025. [e3][e2] Gas is still the largest single source, and EIA lists natural gas as the primary energy source for Texas as a whole. [e2][e10]
+On the energy side, solar's generation share went from 7.2% in 2023 to 10.4% in 2024 and 13.9% in 2025, while gas fell to 41.1% in 2025. [e3][e2] Gas is still the largest single source, and EIA lists natural gas as the primary energy source for Texas as a whole. [e2][e10] For an older statewide baseline, EIA reported that in February 2020 wind produced 22% and coal 13% of Texas net generation, and that nuclear consistently generates about 10%. [e11]
 
 ## Key facts
 
