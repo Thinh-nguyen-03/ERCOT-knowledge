@@ -40,8 +40,9 @@ export function normalize(s: string): string {
 const textCache = new Map<string, string | null>();
 export function sourceText(id: string): string | null {
   if (!textCache.has(id)) {
-    const f = p("sources/text", id + ".txt");
-    textCache.set(id, existsSync(f) ? normalize(readFileSync(f, "utf8")) : null);
+    const f = p("sources/text", id + ".txt"), ocr = p("sources/text", id + ".ocr.txt");
+    // an .ocr.txt file is a second reading of the same document (see pipeline/ocr.sh)
+    textCache.set(id, existsSync(f) ? normalize(readFileSync(f, "utf8") + (existsSync(ocr) ? "\n" + readFileSync(ocr, "utf8") : "")) : null);
   }
   return textCache.get(id)!;
 }

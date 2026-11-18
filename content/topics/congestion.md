@@ -99,7 +99,7 @@ Transmission congestion arises when network power flows are restricted by limits
 
 Congestion shows up in prices: differences in the cost of delivering electricity to different locations are reflected in different energy prices at each node. [e2] The value of a constraint is its shadow price, the rate at which system costs would fall or rise with a slight change in the amount of the commodity made available. [e4] The IMM calculates day-ahead congestion values as power flow over each constraint times that constraint's shadow price. [e6] How much a given injection loads a constraint is its shift factor: the flow on a transmission element from a unit injection at a bus to a fixed reference bus. [e5]
 
-SCED caps the price of congestion: the cost it calculates to resolve an additional MW on a network constraint is limited to that constraint's maximum shadow price. [e7] When relief costs more than that cap, the constraint is violated rather than resolved. [e11] Some constraints are generic transmission constraints (GTCs), which group transmission elements to limit flow between geographic areas to manage stability, voltage and other limits that cannot be modeled directly. [e8]
+SCED caps the price of congestion: the cost it calculates to resolve an additional MW on a network constraint is limited to that constraint's maximum shadow price. [e7] Some constraints are generic transmission constraints (GTCs), which group transmission elements to limit flow between geographic areas to manage stability, voltage and other limits that cannot be modeled directly. [e8]
 
 Congestion rent is the difference between what consumers pay and what generators receive, based on locational price differences. It accrues to CRR holders. [e3] A CRR entitles its owner to be charged or paid congestion rent that arises when the grid is congested in the DAM or in real time. [e14]
 
@@ -124,7 +124,7 @@ Congestion is what happens when a line or transformer hits its limit and cheaper
 
 ## Common confusion
 
-Congestion cost is not the same as congestion rent: the first is a measure of the value of constraints, and the second is the surplus that funds CRR payments. [e6][e3] A shadow price is also not a price paid by an individual customer; it is a marginal value that feeds locational prices. [e4][e2] A constraint can be binding without being violated: a violation means dispatch flows exceed the limit and the shadow price cap applies. [e7][e11]
+Congestion cost is not the same as congestion rent: the first is a measure of the value of constraints, and the second is the surplus that funds CRR payments. [e6][e3] A shadow price is also not a price paid by an individual customer; it is a marginal value that feeds locational prices. [e4][e2] Binding and violated are different: the IMM treats violated constraints as a separate, shrinking count, and SCED's shadow price cap limits what it will pay to relieve a constraint. [e7][e11]
 
 ## Questions
 
