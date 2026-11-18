@@ -16,7 +16,7 @@ links:
     note: Elliott was the first deployment of FFSS, which ERCOT says backfilled capacity lost to gas restrictions. [e6][e5]
   - to: weatherization
     type: related
-    note: ERCOT credits PUCT-led winterization for better generator performance, while noting a subset still had cold-weather outages. [e8]
+    note: ERCOT says PUCT-led winterization likely helped generator performance, while noting a subset of generators still had cold-weather outages. [e8]
   - to: large-flexible-load
     type: related
     note: Registered large flexible loads cut consumption from 1,530 MW to 130 MW during the peak. [e9]
@@ -58,7 +58,7 @@ evidence:
   - id: e8
     source: ercot-elliott-report
     locator: "Section 14, Conclusions and Lessons Learned (p. 30)"
-    quote: "Despite this, the ERCOT grid did not experience the level of generation outages as was observed during Winter Storm Uri and maintained adequate reserves throughout the cold weather period. This likely indicates that winterization efforts led by the PUCT and implemented by generation owners have had a positive impact on the ability of generators to perform under extreme cold conditions. Nevertheless, despite these efforts, a subset of generators did have cold weather-related outages."
+    quote: "Despite this, the ERCOT grid did not experience the level of generation outages as was observed during Winter Storm Uri and maintained adequate reserves throughout the cold weather period. This likely indicates that winterization efforts led by the PUCT and implemented by generation owners have had a positive impact on the ability of generators to perform under extreme cold conditions. Nevertheless, despite these efforts, a subset of generators did have cold weather-related outages. ERCOT will continue investigating the specific issues that caused these outages and report any findings to stakeholders, as appropriate."
   - id: e9
     source: ercot-elliott-report
     locator: "Section 12, Large Flexible Load Performance (p. 24)"
@@ -66,7 +66,7 @@ evidence:
   - id: e10
     source: ercot-elliott-report
     locator: "Section 3, Peak Demand: Forecast and Actual (p. 2)"
-    quote: "The new version contained a change in the way the software applies holidays to the forecast. This resulted in the forecast models double counting the typical reduction in load typically experienced due to holidays."
+    quote: "The new version contained a change in the way the software applies holidays to the forecast. This resulted in the forecast models double counting the typical reduction in load typically experienced due to holidays. As a result, the load forecasts produced by the internally-developed forecast models were obviously too low for the 23rd and 24th so ERCOT switched to the vendor-developed forecast models."
   - id: e11
     source: ercot-elliott-report
     locator: "Section 11.3, Energy Storage (p. 22)"
@@ -83,36 +83,40 @@ evidence:
     source: ercot-elliott-report
     locator: "Section 9, Winter Storm Elliott vs. Winter Storm Uri (p. 19)"
     quote: "From a system-wide perspective, ERCOT tracks a load-weighted system temperature. Winter Storm Elliott was the coldest in the last 15 years, except for Winter Storm Uri."
+  - id: e15
+    source: ercot-elliott-report
+    locator: "Section 1, Executive Summary (p. 1)"
+    quote: "The Cold Weather event that occurred from December 22 nd to December 25th, 2022, was precipitated by severe winter weather"
 ---
 
 ## Definition
 
-Winter Storm Elliott was the December 22-25, 2022 cold weather event in which ERCOT set a new peak demand record, reported at 74,100 MW on December 23, 2022, while keeping operating reserves (PRC) above 4,052 MW, well above the 2,300 MW level at which ERCOT declares EEA 1. [e1]
+Winter Storm Elliott was the cold weather event of December 22 to 25, 2022 in which ERCOT set a new peak demand record, reported at 74,100 MW on December 23, 2022, while keeping operating reserves (PRC) above 4,052 MW, well above the 2,300 MW level at which ERCOT declares EEA 1. [e15][e1]
 
 ## How it works
 
 On ERCOT's load-weighted system temperature, Elliott was the coldest event in 15 years except Uri, yet supply held up much better. [e14][e8] Generation outages and derates rose from 11,988 MW at the start of December 22 to a maximum of 19,885 MW at 08:00 on December 23, mostly from more gas resource outages. [e2] Of the close to 20,000 MW of outages at the peak, about 4,500 MW were reported as cold-weather or fuel related; of 255 resources ERCOT had inspected beforehand, four had weather-related outages, all gas generators. [e3]
 
-Gas pipelines imposed restrictions, but ERCOT says they were not a significant issue partly because FFSS backfilled the lost capacity. [e5] The IMM confirms Elliott was FFSS's first deployment, over four days. [e6] On the demand side, registered large flexible loads cut consumption from 1,530 MW to 130 MW during the peak, and batteries carried up to 88% of Regulation Up. [e9][e11]
+ERCOT says gas restrictions were not a significant issue, in part because FFSS backfilled capacity that was otherwise unavailable due to those restrictions. [e5] The IMM confirms Elliott was FFSS's first deployment, over four days. [e6] On the demand side, registered large flexible loads cut consumption from 1,530 MW to 130 MW during the peak, and batteries carried up to 88% of Regulation Up. [e9][e11]
 
 ## ERCOT context
 
-Prices spiked only briefly. Real-time system-wide prices peaked at $4,466.79/MWh in the SCED run at 06:52 on December 23. [e4] Day-ahead hub average prices peaked at $2,539.16/MWh in hour ending 08 on December 24. [e13] The IMM says much of 2022's high winter peaker net margin came from Elliott's record demand on December 23. [e12] The IMM also saw shortage conditions on December 23 but said reserve levels and prices did not show a need for FFSS on the other three deployment days, and asked ERCOT to set clear deployment procedures. [e7]
+Prices: real-time system-wide prices peaked at $4,466.79/MWh in the SCED run at 06:52 on December 23. [e4] Day-ahead hub average prices peaked at $2,539.16/MWh in hour ending 08 on December 24. [e13] The IMM says a large portion of the high winter peaker net margin accumulation in 2022 was due to record winter demand during Elliott on December 23, 2022 and tight conditions on February 24, 2022. [e12] The IMM also saw shortage conditions on December 23 but said reserve levels and prices did not show a need for FFSS on the other three deployment days, and asked ERCOT to set clear deployment procedures. [e7]
 
-What changed: ERCOT concluded that PUCT-led winterization likely improved generator performance, though some generators still had cold-weather outages that it would investigate. [e8] The main operational miss was the load forecast: a software update made ERCOT's own models double count the holiday reduction in demand. [e10]
+What changed: ERCOT concluded that PUCT-led winterization likely improved generator performance, though some generators still had cold-weather outages that it would investigate. [e8] One operational problem was the load forecast: a software update made ERCOT's own models double count the holiday reduction in demand, and ERCOT's own load forecasts were obviously too low for December 23 and 24. [e10]
 
 ## Key facts
 
 - Peak demand: 74,100 MW on December 23, 2022 (ERCOT report executive summary). [e1]
-- Minimum PRC: 4,052 MW; no EEA was declared. [e1]
+- PRC never fell below 4,052 MW, above the 2,300 MW level at which ERCOT declares EEA 1. [e1]
 - Maximum outages and derates: 19,885 MW at 08:00 on December 23; about 4,500 MW were cold-weather or fuel related. [e2][e3]
 - Peak real-time system-wide price: $4,466.79/MWh at 06:52 on December 23. [e4]
 - FFSS deployed for the first time, for four days. [e6]
 
 ## Timeline
 
-- December 22, 2022: start of the event; 11,988 MW of outages and derates already in place. [e2]
-- December 22-25, 2022: FFSS deployed for the first time, over four days. [e6]
+- December 22, 2022: the event window opens (December 22 to 25) [e15]; at the beginning of the day 11,988 MW of outages and derates were already in place. [e2]
+- Late December 2022: FFSS deployed for the first time, over four days. [e6]
 - December 23, 2022, 06:52: real-time system-wide price peaks at $4,466.79/MWh. [e4]
 - December 23, 2022, 08:00: outages and derates peak at 19,885 MW. [e2]
 - December 23, 2022: peak demand of 74,100 MW. [e1]
@@ -120,11 +124,11 @@ What changed: ERCOT concluded that PUCT-led winterization likely improved genera
 
 ## Say it like this
 
-(Guidance) Elliott was the coldest test since Uri and set a demand record, but outages stayed around 20,000 MW and reserves never got near EEA levels. [e1][e3] It is the main evidence that winterization and FFSS made a difference, with a brief price spike on the morning of December 23 rather than a sustained scarcity event. [e8][e4]
+(Guidance) Elliott was the coldest test since Uri and set a demand record, but outages peaked at close to 20,000 MW while PRC never fell below 4,052 MW, against the 2,300 MW EEA 1 trigger. [e1][e3] ERCOT says the results likely indicate winterization helped, and that FFSS backfilled gas-restricted capacity; the real-time system-wide price peaked at $4,466.79/MWh at 06:52 on December 23. [e8][e5][e4]
 
 ## Common confusion
 
-(Guidance) Elliott is often treated as a near miss, but ERCOT's report says reserves stayed above 4,052 MW, far from the 2,300 MW EEA 1 trigger. [e1] "Fewer outages" does not mean none: about 4,500 MW were weather or fuel related, and ERCOT says a subset of generators still had cold-weather outages. [e3][e8] Note the different peak figures across ERCOT documents (see Open items).
+(Guidance) ERCOT's report says PRC never fell below 4,052 MW, above the 2,300 MW EEA 1 trigger. [e1] "Fewer outages" does not mean none: about 4,500 MW were weather or fuel related, and ERCOT says a subset of generators still had cold-weather outages. [e3][e8] Note the different peak figures across ERCOT documents (see Open items).
 
 ## Questions
 

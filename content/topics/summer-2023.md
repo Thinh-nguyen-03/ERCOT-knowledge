@@ -16,10 +16,10 @@ links:
     note: ERCOT says the solar down ramp made late evening tighter than the demand peak in summer 2023. [e2]
   - to: ecrs
     type: related
-    note: ECRS went live on June 10, 2023, and the IMM links it to shortage pricing when reserves were not short. [e8][e10]
+    note: ECRS went live on June 10, 2023, and the IMM links it to shortage pricing when reserves were not short. [e14][e10]
   - to: shadow-price
     type: related
-    note: The IMM argues the September 6 manual curtailment happened because shadow price caps were too low to value the constraint. [e9]
+    note: The IMM says shadow price caps for thermal constraints are in certain cases too low, and that on September 6 the marginal cost of the manual curtailments was much higher than the caps. [e15][e17]
   - to: net-load
     type: related
     note: ERCOT says peak net load hours shifted from HE 17 to HE 21 in 2023. [e3]
@@ -79,23 +79,43 @@ evidence:
     source: ercot-summer-2023-review
     locator: "Slide 23, Resources Committed Through RUC"
     quote: "There were 534 total Reliability Unit Commitment (RUC) effective Resource-hours in summer 2023. This was a substantial reduction from the summer 2022 count of 2,573 Resource-hours."
+  - id: e14
+    source: ercot-summer-2023-review
+    locator: "Slide 21, Cost for Ancillary Services"
+    quote: "ERCOT Contingency Reserve Service (ECRS) went live on June 10, 2023."
+  - id: e15
+    source: imm-som-2023
+    locator: "Executive Summary, recommendation on shadow price caps"
+    quote: "In certain cases, the currently established maximum shadow price caps for thermal constraints are too low and do not appropriately value violations of the constraint. When this happens, the real-time market may not dispatch sufficient local resources to resolve the constraint, and prompt manual actions that can result in higher prices system-wide."
+  - id: e16
+    source: imm-som-2023
+    locator: "Executive Summary, recommendation on shadow price caps"
+    quote: "To achieve this, operators should have the authority to raise the shadow price caps as needed to reflect the severity of the reliability concerns related to violating a transmission constraint."
+  - id: e17
+    source: imm-som-2023
+    locator: "Executive Summary, recommendation on shadow price caps"
+    quote: "On this day, the marginal costs of the manual curtailments were much higher than the shadow price caps, which is why the real-time market did not curtail the resources."
+  - id: e18
+    source: imm-som-2025
+    locator: "Chapter I, all-in price discussion (p. 2)"
+    quote: "The Operating Reserve Demand Curve (ORDC) Adder, implemented in 2014 and discontinued in December 2025 with the introduction of RTC, reflects increasing reliability risks when reserves begin to run short; and"
 ---
 
 ## Definition
 
-Summer 2023 was a record-heat summer in which ERCOT set new demand records 49 times, peaking at 85.7 GW on August 10, 2023 (IMM figure). [e1] Its tightest moment was September 6, 2023, when frequency fell to 59.77 Hz and ERCOT declared EEA2 at 7:25 p.m. [e5]
+Summer 2023 was a record-heat summer in which ERCOT set new demand records 49 times, peaking at 85.7 GW on August 10, 2023 (IMM figure). [e1] On September 6, 2023 frequency fell to 59.77 Hz and ERCOT declared EEA2 at 7:25 p.m. [e5]
 
 ## How it works
 
-The stress came in the evening, not at the demand peak. ERCOT says the solar down ramp made late evening tighter than peak demand, and high demand with low wind on some days forced conservation requests. [e2] Peak net load hours shifted from HE 17 to HE 21 in 2023, and ERCOT appealed for conservation on 11 days, generally the highest net load days. [e3][e4]
+The stress came in the evening, not at the demand peak. ERCOT says the solar down ramp made late evening tighter than peak demand, and high demand with lower wind output on some days led to the need to request conservation. [e2] Peak net load hours shifted from HE 17 to HE 21 in 2023, and ERCOT appealed for conservation on 11 days, generally the highest net load days. [e3][e4]
 
-On September 6, a South Texas transmission constraint compounded the shortfall: ERCOT directed manual curtailment of 1,590 MW at 7:00 p.m. and deployed 1,023 MW of ERS at 7:14 p.m. [e7] After the EEA2 declaration, frequency was back to 60 Hz at 7:37 p.m. with no firm load shed; ERCOT moved to EEA1 at 8:27 p.m. and normal operations at 8:37 p.m. [e6]
+On September 6, ERCOT directed manual curtailment of 1,590 MW at 7:00 p.m. on the Pawnee-to-Calaveras transmission line to manage the DELSAN5 constraint, and deployed 1,023 MW of ERS at 7:14 p.m. [e7] After the EEA2 declaration, frequency was back to 60 Hz at 7:37 p.m. with no firm load shed; ERCOT moved to EEA1 at 8:27 p.m. and normal operations at 8:37 p.m. [e6]
 
 ## ERCOT context
 
-Prices: the IMM counts more than 55 hours above $1,000 in 2023, and more than four hours at the $5,000 cap, mainly August 17 and September 6. [e11] Ancillary service costs were substantially higher than the previous two summers, particularly in August. [e8] The IMM attributes some of the shortage pricing to ECRS, which it says produced prices up to $5,000 per MWh when the system was not short of reserves under the ORDC. [e10]
+Prices: the IMM counts more than 55 hours above $1,000 in 2023, and more than four hours at the $5,000 system-wide offer cap that applied then, mainly August 17 and September 6. [e11] Ancillary service costs were substantially higher than the previous two summers, particularly in August. [e8] The IMM attributes some of the shortage pricing to ECRS, which it says produced prices up to $5,000 per MWh when the system was not short of reserves under the ORDC. [e10] The ORDC adder was discontinued in December 2025 with RTC, so this describes the 2023 design. [e18]
 
-Despite the records, the IMM says 2023 had fewer true shortages than 2022, largely because of about 7.6 GW of new wind and solar, 1.9 GW of storage and almost 1 GW of new gas. [e12] RUC fell to 534 effective resource-hours in summer 2023 from 2,573 in summer 2022. [e13] The IMM's main lesson from September 6 is that shadow price caps were too low, so the market did not resolve the constraint and operators curtailed 1,500 MW of generation, including 1,300 MW of wind, by hand. [e9]
+Despite the records, the IMM says 2023 had fewer true shortages than 2022, largely because of about 7.6 GW of new wind and solar, 1.9 GW of storage and almost 1 GW of new gas. [e12] RUC fell to 534 effective resource-hours in summer 2023 from 2,573 in summer 2022. [e13] On September 6 the IMM says the marginal cost of the manual curtailments was much higher than the shadow price caps, so the real-time market did not curtail the resources, and reliability concerns prompted ERCOT to curtail 1,500 MW of generation, including 1,300 MW of wind. [e17][e9]
 
 ## Key facts
 
@@ -109,7 +129,7 @@ Despite the records, the IMM says 2023 had fewer true shortages than 2022, large
 
 - August 10, 2023: all-time peak demand of 85.7 GW (IMM). [e1]
 - August 17, 2023: one of the two main days at the $5,000 cap. [e11]
-- September 6, 2023, 7:00 p.m.: manual curtailment of 1,590 MW in South Texas. [e7]
+- September 6, 2023, 7:00 p.m.: manual curtailment of 1,590 MW on the Pawnee-to-Calaveras line to manage the DELSAN5 constraint. [e7]
 - September 6, 2023, 7:14 p.m.: 1,023 MW of ERS deployed. [e7]
 - September 6, 2023, 7:25 p.m.: frequency at 59.77 Hz; EEA2 declared. [e5]
 - September 6, 2023, 7:37 p.m.: frequency restored to 60 Hz. [e6]
@@ -117,25 +137,25 @@ Despite the records, the IMM says 2023 had fewer true shortages than 2022, large
 
 ## Say it like this
 
-(Guidance) Summer 2023 broke demand records again and again, but the real squeeze was after sunset, when solar dropped off and wind was weak; on September 6 that, plus a South Texas transmission limit, pushed ERCOT into EEA2 for about an hour without load shed. [e2][e5][e6] Prices hit the $5,000 cap for a few hours, and the IMM blamed part of the scarcity pricing on how much ECRS was being held back. [e11][e10]
+(Guidance) Summer 2023 broke demand records again and again, but ERCOT says late evening was tighter than the demand peak because of the solar down ramp. [e2] On September 6 frequency fell to 59.77 Hz, ERCOT declared EEA2, and it was back to EEA1 about an hour later with no firm load shed, after 1,590 MW of manual curtailment on a transmission line earlier that evening. [e5][e6][e7] Prices hit the $5,000 cap for a few hours in 2023 (the cap then in force), and the IMM linked part of the shortage pricing to the sharp increase in 10-minute reserve procurements under ECRS. [e11][e10]
 
 ## Common confusion
 
-(Guidance) The record peak (August 10) and the emergency (September 6) were different days; ERCOT ties the emergency to the evening ramp, low wind and a transmission constraint. [e1][e5][e7] EEA2 is not load shed: no firm load was shed on September 6. [e6]
+(Guidance) The record peak (August 10) and the emergency (September 6) were different days; ERCOT says late evenings were tighter than peak demand because of the solar down ramp [e2], and on September 6 it directed manual curtailment to manage a transmission constraint before declaring EEA2. [e7][e5] EEA2 is not load shed: no firm load was shed on September 6. [e6]
 
 ## Questions
 
 ### Why did ERCOT go into EEA2 on September 6 rather than on the record peak day?
 
-ERCOT says late evening was tighter than the demand peak because of the solar down ramp and low wind. [e2] On September 6 a South Texas constraint also forced 1,590 MW of manual curtailment just before frequency fell to 59.77 Hz. [e7][e5]
+ERCOT says late evening was tighter than the demand peak because of the solar down ramp. [e2] On September 6 ERCOT directed 1,590 MW of manual curtailment at 7:00 p.m. to manage the DELSAN5 constraint, and frequency fell to 59.77 Hz between about 7:10 and 7:25 p.m. before EEA2 was declared. [e7][e5]
 
 ### What does the IMM think should change after September 6?
 
-It says shadow price caps were too low to reflect the reliability risk of the constraint, which led to manual curtailment, and recommends letting operators raise them. [e9]
+It says the established maximum shadow price caps for thermal constraints are in certain cases too low, so the real-time market may not dispatch enough local resources and manual actions follow, and that operators should have the authority to raise the caps as needed. [e15][e16]
 
 ### Why were prices high in summer 2023 even when reserves were not short?
 
-The IMM says ECRS procurement withheld dispatchable capacity from energy, producing prices as high as $5,000 per MWh without ORDC shortage. [e10]
+The IMM says the sharp increase in 10-minute reserve procurements, primarily of dispatchable resources, led to shortage pricing as high as $5,000 per MWh when the system was not short of reserves under the ORDC. [e10] The ORDC adder was discontinued in December 2025. [e18]
 
 ## Open items
 

@@ -121,6 +121,6 @@ for (const id of order) {
 if (!anyOpen) R.push("None.", "");
 R.push("## Warnings", "", ...(warns.length ? warns.map((i) => `- ${i.topic}: ${i.msg}`) : ["None."]), "");
 const missing = list.nodes.filter((n) => !byId.has(n.id));
-R.push("## Topics not written yet", "", `${missing.length} of ${list.nodes.length}.`, "");
+R.push("## Topics not written yet", "", `${missing.length} of ${list.nodes.length}: ` + missing.map((n) => n.name).join("; ") + ".", "");
 writeFileSync(p("preview/REVIEW.md"), R.join("\n"));
 console.log(`wrote preview/index.html (${(html.length / 1024).toFixed(0)} KB) and preview/REVIEW.md; ${errs.length} errors, ${warns.length} warnings`);

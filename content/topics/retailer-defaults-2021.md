@@ -22,7 +22,7 @@ links:
     note: Brazos sought to cut more than $1.1 billion from ERCOT's claim, the amount tied to the PUCT's February 15 and 16 pricing orders. [e8]
   - to: credit-tpe
     type: related
-    note: The IMM says ERCOT's collateral requirements in 2021 were far higher than ever before because of Uri. [e5]
+    note: The IMM says credit likely represented a barrier to participating in the DAM in February and into March 2021 because of the high requirements. [e5]
   - to: rep
     type: related
     note: Several retail electric providers left the market after the storm. [e4]
@@ -85,7 +85,7 @@ For retailers, the UT report says the damage depended on how well their price ri
 
 ## ERCOT context
 
-Brazos was the largest single default. The IMM's 2022 report says Brazos filed under Chapter 11 after failing to pay about $1.9 billion for energy and ancillary services bought during Uri. [e7] In the bankruptcy, Brazos tried to cut more than $1.1 billion from ERCOT's claim, the part tied to the PUCT's February 15 and 16, 2021 pricing orders. [e8] Under the settlement ERCOT was to be reimbursed $599,709,609.22 for CRR funds it had used to cover Brazos's short pay, and the ERCOT Board approved Brazos's amended plan on October 28, 2022, subject to bankruptcy court approval. [e9][e10]
+Brazos accounted for $1.86 billion of the roughly $2.99 billion in short payments the UT report cites. [e1] The IMM's 2022 report says Brazos filed under Chapter 11 after failing to pay about $1.9 billion for energy and ancillary services bought during Uri. [e7] In the bankruptcy, Brazos tried to cut more than $1.1 billion from ERCOT's claim, the part tied to the PUCT's February 15 and 16, 2021 pricing orders. [e8] Under the settlement ERCOT was to be reimbursed $599,709,609.22 for CRR funds it had used to cover Brazos's short pay, and the ERCOT Board approved Brazos's amended plan on October 28, 2022, subject to bankruptcy court approval. [e9][e10]
 
 The Legislature's answer was HB 4492, which defines a "default balance" of up to $800 million covering amounts competitive wholesale market participants owed ERCOT from the period of emergency that would otherwise be uplifted. [e6] That financing closed in November 2021 and ERCOT began collecting default charges in January 2022. [e11]
 
@@ -108,11 +108,11 @@ The Legislature's answer was HB 4492, which defines a "default balance" of up to
 
 ## Say it like this
 
-(Guidance) After Uri, about $3 billion owed to ERCOT went unpaid, most of it from Brazos Electric, plus a string of small retailers like Griddy that went bankrupt and had their customers mass transitioned. [e1][e3] The state financed part of the hole through HB 4492 so it would not all be uplifted to other participants at once. [e6]
+(Guidance) After Uri, about $3 billion owed to ERCOT went unpaid, most of it from Brazos Electric, plus retailers like Griddy, Entrust and Power of Texas that went bankrupt and had their customers mass transitioned. [e1][e3] The state financed part of the hole through HB 4492 so it would not all be uplifted to other participants at once. [e6]
 
 ## Common confusion
 
-(Guidance) Brazos was an electric cooperative, which the IMM lists separately from the retail electric providers that exited, yet it was the largest defaulter. [e4][e1] Keep the figures apart: $2.9-3 billion is total short payments, about $1.9 billion is Brazos's share, and $800 million is only the cap on the default balance that HB 4492 financed. [e1][e4][e6]
+(Guidance) Brazos was an electric cooperative, which the IMM lists separately from the retail electric providers that exited, yet it accounted for $1.86 billion of the short payments. [e4][e1] Keep the figures apart: $2.9-3 billion is total short payments, about $1.9 billion is Brazos's share, and $800 million is only the cap on the default balance that HB 4492 financed. [e1][e4][e6]
 
 ## Questions
 
