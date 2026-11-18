@@ -114,7 +114,7 @@ evidence:
   - id: e22
     source: ercot-fern-outage-review
     locator: "Cover slide date"
-    quote: "October 2026"
+    quote: "Cyle Lublin Weatherization Field Services Analyst Lead October 2026"
 ---
 
 ## Definition
@@ -175,6 +175,7 @@ According to ERCOT's review, icing dominated wind and solar losses (about 610,00
 - Event dates differ: the IMM 2025 SOM uses January 21-27, 2026; ERCOT's Board update uses January 23-27. The post-event report says ERCOT issued a Weather Watch on January 21.
 - Real-time and day-ahead price levels during Fern (hub prices, peak SCED prices) are not in the saved sources. Source needed: ERCOT market review of Fern or IMM 2026 SOM.
 - Winter Storm Kingston (the current winter peak record per ERCOT) is not described in the saved sources; its date and peak are unknown here.
+- Outage review date: the cover slide says October 2026, while sources.yaml lists edition 2026-11-04 (URL path 2026/11/04).
 - Board deck dates: cover says February 9-10, 2026, "Revised 02/04/2026"; sources.yaml lists 2026-02-04.
 - The Board slide says adding back load reductions gives a Monday morning peak of 84,558 MW; how this was estimated is not explained.
 - Deeper pass: DOE 202(c) orders (including the separate order for data center backup generation), Braunig Unit 3 RMR and Life Cycle unit commitments, ESR state-of-charge performance, transmission outage causes (83 outages, 2,810 outage hours in the outage review).

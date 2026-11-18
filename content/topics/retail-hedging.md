@@ -69,7 +69,7 @@ In the IMM's description, retail hedging is how load-serving entities manage the
 
 Most load is not settled at real-time prices. The IMM reports that on average only 17% of load was exposed to real-time prices in 2024, with the rest of real-time load hedged by day-ahead market positions, including PTP obligations. [e2]
 
-In its 2021 report the IMM's exposure measure was based solely on ERCOT-administered markets and did not include bilateral or over-the-counter index purchases. [e4] The saved 2024 text does not restate that method, so check whether the 17% figure uses the same basis.
+In its 2021 report the IMM's exposure measure was based solely on ERCOT-administered markets and did not include bilateral or over-the-counter index purchases. [e4]
 
 ## ERCOT context
 
@@ -108,6 +108,7 @@ How much of their price risk was hedged, and how outages affected their obligati
 
 ## Open items
 
+- The 2021 IMM statement that exposure counts only ERCOT-administered markets is not restated in the saved 2024 text, so it is not confirmed that the 17% figure for 2024 uses the same basis.
 - Deeper pass: no saved source describes retail supply contracts (fixed-price, index, load-following), shape or volumetric risk, or REP hedging policies; a retailer risk-management reference or REP filings would be needed.
 - No saved source defines "retail hedging" as a term; the Definition paraphrases the IMM description of how LSEs manage price exposure.
 - Whether PUCT REP financial or credit rules (puct-25-107, np-16) impose any hedging requirement was searched for and not found.
