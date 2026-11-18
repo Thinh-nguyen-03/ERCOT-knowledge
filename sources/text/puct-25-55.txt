@@ -1,0 +1,769 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+
+§25.55. Weather Emergency Preparedness.
+(a)
+
+Application. This section applies to the Electric Reliability Council of Texas, Inc. (ERCOT) and to
+generation entities and transmission service providers (TSPs) in the ERCOT power region.
+(1)
+A generation resource with an ERCOT-approved notice of suspension of operations for the
+summer season or winter season is not required to comply with this section until the return to
+service date identified in its notice of change of generation resource designation required under
+the ERCOT protocols.
+(2)
+A new or repowered resource scheduled to begin commercial operations during the summer
+season or winter season or a transmission facility scheduled for initial energization during the
+summer season or winter season must meet the requirements of this section prior to either the
+commissioning date established in the ERCOT interconnection process for generation
+resources or initial energization for transmission facilities, as applicable.
+
+(b)
+
+Definitions. In this section, the following definitions apply unless the context indicates otherwise.
+(1)
+Energy storage resource -- An energy storage system registered with ERCOT as an energy
+storage resource for the purpose of providing energy or ancillary services to the ERCOT grid
+and associated facilities controlled by the generation entity that are behind the system’s point
+of interconnection, necessary for the operation of the system, and not part of a manufacturing
+process that is separate from the generation of electricity.
+(2)
+Generation entity -- An ERCOT-registered resource entity acting on behalf of an ERCOTregistered generation resource or energy storage resource.
+(3)
+Generation resource -- A generator registered with ERCOT as a generation resource and
+capable of providing energy or ancillary services to the ERCOT grid, as well as associated
+facilities controlled by the generation entity that are behind the generator’s point of
+interconnection, necessary for the operation of the generator, and not part of a manufacturing
+process that is separate from the generation of electricity.
+(4)
+Inspection -- Activities that ERCOT employees, commission staff, and designated contractors
+engage in to determine whether a generation entity is in compliance with all or parts of
+subsection (c) of this section or whether a TSP is in compliance with all or parts of subsection
+(f) of this section. An inspection may include site visits, assessments of procedures,
+interviews, and review of information provided by a generation entity or TSP in response to a
+request by ERCOT, including review of evaluations conducted by the generation entity or TSP
+or its contractor.
+(5)
+Major weather-related forced interruption of service of a resource –
+(A)
+The failure of a resource to start, following one or more attempts, for 12 or more
+continuous hours as a result of a weather emergency; or
+(B)
+The loss of 50% or more of the capacity reflected in a resource’s seasonal net
+maximum sustainable rating for 12 or more continuous hours as a result of a weather
+emergency.
+(6)
+Major weather-related forced interruption of service of a transmission facility -- A nonmomentary transmission service outage caused by damage to, or the inoperability of, a
+transmission facility as a result of a weather emergency.
+(7)
+Repeated weather-related forced interruption of service -- Three or more of any
+combination of the following occurrences as a result of separate weather emergencies within
+any three-year period:
+(A)
+The failure of a resource to start;
+(B)
+The loss of 50% or more of the capacity reflected in a resource’s seasonal net
+maximum sustainable rating for 30 minutes or more; or
+(C)
+The loss or derate of 50% or more of a transmission facility’s rating.
+(8)
+Resource -- A generation resource or energy storage resource.
+
+§25.55-1
+
+effective 10/20/2022
+(P 53401)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+
+(9)
+(10)
+(11)
+
+(12)
+
+(13)
+(14)
+(c)
+
+Summer season -- June 1 to September 30 each year.
+Transmission facility -- A transmission-voltage element inside the fence surrounding a TSP’s
+high-voltage switching station or substation owned or operated by the TSP.
+Weather critical component -- Any component of a resource or transmission facility that is
+susceptible to fail as a result of a weather emergency, the occurrence of which failure is likely
+to significantly hinder the ability of the resource or transmission facility to function as intended
+or, for a resource, is likely to lead to a trip, derate of more than five percent of the capacity
+represented in the resource’s seasonal net maximum sustainable rating or of the transmission
+facility’s rating, or failure to start.
+Weather emergency -- A situation resulting from a summer or winter weather event that
+produces significant risk for a TSP that firm load must be shed or a situation for which ERCOT
+issues an Emergency Notice to market participants involving an operating condition in which
+the safety or reliability of the ERCOT system is compromised or threatened by summer or
+winter weather.
+Weather emergency preparation measures -- Measures that a generation entity or TSP takes
+to support the function of a resource or transmission facility during a weather emergency.
+Winter season -- December 1 to February 28 of the following year.
+
+Weather emergency preparedness reliability standards for a generation entity.
+(1)
+Winter season preparations. By December 1 each year, a generation entity must complete
+the following winter weather emergency preparation measures for each resource under its
+control. A generation entity must maintain these measures throughout the winter season and
+complete any ongoing or monthly requirements at the appropriate time. If necessary to come
+into compliance, a generation entity must update its winter weather emergency preparation
+measures no later than one year after ERCOT files a historical weather study report under
+subsection (i) of this section.
+(A)
+Implement weather emergency preparation measures that could reasonably be
+expected to ensure the sustained operation of all cold weather critical components
+during winter weather conditions. Where appropriate, such measures may be
+implemented using either personnel or automated systems. Such measures include,
+as appropriate for the resource:
+(i)
+Installation and maintenance of adequate wind breaks for resources
+susceptible to outages or derates caused by wind;
+(ii)
+Installation and maintenance of insulation and enclosures for all cold
+weather critical components;
+(iii)
+Inspection of existing thermal insulation and associated forms of waterproofing for damage or degradation, and repair of damaged or degraded
+insulation and associated forms of water-proofing;
+(iv)
+Arrange and provide for the availability and appropriate safekeeping of
+sufficient chemicals, auxiliary fuels, and other materials necessary for
+sustained operations during a winter weather emergency;
+(v)
+Plan for and maintain the operability of instrument air moisture prevention
+systems;
+(vi)
+Maintenance of freeze protection equipment for all cold weather critical
+components, including fuel delivery systems controlled by the generation
+entity, and testing or verifying the functionality of freeze protection
+equipment prior to and on a monthly basis during the winter season; and
+(vii)
+Monitoring of all cold weather critical components, including circuitry that
+provides freeze protection or prevents instrument air moisture;
+(B)
+Beginning in 2023, implement weather emergency preparation measures by
+December 1 each year, in addition to the weather emergency preparation measures
+
+§25.55-2
+
+effective 10/20/2022
+(P 53401)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+
+(2)
+
+required by subparagraph (A) of this paragraph, that could reasonably be expected to
+ensure sustained operation of the resource at the 95th percentile minimum average
+72-hour wind chill temperature reported in ERCOT’s historical weather study,
+required under subsection (i) of this section, for the weather zone in which the
+resource is located.
+(C)
+Review the adequacy of staffing plans to be used during a winter weather emergency
+and revise the staffing plans, as appropriate.
+(D)
+Train relevant operational personnel on winter weather preparations and operations.
+(E)
+Beginning in 2023, create a list of all cold weather critical components, review the
+list at least annually prior to the beginning of the winter season, and update the list as
+necessary.
+Summer season preparations. By June 1 each year, a generation entity must complete the
+following summer weather emergency preparation measures for each resource under its
+control. A generation entity must maintain these measures throughout the summer season and
+complete any ongoing or monthly requirements at the appropriate time. If necessary to come
+into compliance, a generation entity must update its summer weather emergency preparation
+measures no later than one year after ERCOT files a historical weather study report under
+subsection (i) of this section.
+(A)
+Implement weather emergency preparation measures that could reasonably be
+expected to ensure the sustained operation of all hot weather critical components
+during summer weather conditions. Where appropriate, such measures may be
+implemented using either personnel or automated systems. Such measures include,
+as appropriate for the resource:
+(i)
+Identification of regulatory and legal limitations of cooling capacity, water
+withdrawal, maximum discharge temperatures, and rights for additional
+water supply;
+(ii)
+Arrange and plan for the provision and storage of adequate water supplies
+for cooling towers, reservoirs, heat exchangers, and adequate cooling
+capacity of the water supplies used in the cooling towers, reservoirs, and
+heat exchangers;
+(iii)
+Arrange and plan for the provision and storage of availability and
+appropriate safekeeping of adequate equipment to remove heat and moisture
+from all hot weather critical components;
+(iv)
+Arrange and provide for the availability of sufficient chemicals, coolants,
+auxiliary fuels, and other materials necessary for sustained operations during
+a summer weather emergency;
+(v)
+Maintenance of all hot weather critical components, including air flow or
+cooling systems, and verifying the functionality of all components prior to
+and on a monthly basis during the summer season; and
+(vi)
+Monitoring of all hot weather critical components.
+(B)
+Beginning in 2023, implement weather emergency preparation measures by June 1
+each year, in addition to the weather emergency preparation measures required by
+subparagraph (A) of this paragraph, that could reasonably be expected to ensure
+sustained operation of the resource during the greater of the maximum ambient
+temperature at which the resource has experienced sustained operations or the 95th
+percentile maximum average 72-hour temperature reported in ERCOT’s historical
+weather study, required under subsection (i) of this section, for the weather zone in
+which the resource is located.
+(C)
+Review the adequacy of staffing plans to be used during a summer weather
+emergency and revise the staffing plans, as appropriate.
+(D)
+Train relevant operational personnel on summer weather preparations and operations.
+
+§25.55-3
+
+effective 10/20/2022
+(P 53401)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+
+(E)
+
+(3)
+
+(4)
+
+(5)
+
+Beginning in 2023, create a list of all hot weather critical components, review the list
+at least annually prior to the beginning of the summer season, and update the list as
+necessary.
+Declaration of preparedness. A generation entity must submit to ERCOT, on a form
+prescribed by ERCOT, the following declarations of weather preparedness:
+(A)
+No earlier than November 1 and no later than December 1 of each year, a generation
+entity must submit a declaration of winter weather preparedness for the upcoming
+winter season that:
+(i)
+Identifies every resource under the entity’s control for which the declaration
+is being submitted;
+(ii)
+Summarizes all activities engaged in by the generation entity to complete
+the requirements of paragraph (1) of this subsection;
+(iii)
+Provides the minimum ambient temperature at which each resource has
+experienced sustained operations, as measured at the resource site or the
+weather station nearest to the resource site;
+(iv)
+Includes any additional information required by the ERCOT protocols in
+effect as of October 1 of the year in which the declaration is submitted; and
+(v)
+Includes a notarized attestation sworn to by the generation entity’s highestranking representative, official, or officer with binding authority over the
+generation entity attesting to the completion of all applicable activities
+described in paragraph (1) of this subsection, and to the accuracy and
+veracity of the information described in subparagraph (A) of this paragraph.
+(B)
+No earlier than May 1 and no later than June 1 of each year, a generation entity must
+submit a declaration of summer weather preparedness for the upcoming summer
+season that at a minimum:
+(i)
+Identifies every resource under the generation entity’s control for which the
+declaration is being submitted;
+(ii)
+Summarizes all activities engaged in by the generation entity to complete
+the requirements of paragraph (2) of this subsection;
+(iii)
+Provides the maximum ambient temperature at which each resource has
+experienced sustained operations, as measured at the resource site or the
+weather station nearest to the resource site;
+(iv)
+Includes any additional information required by the ERCOT protocols in
+effect as of April 1 of the year in which the declaration is submitted; and
+(v)
+Includes a notarized attestation sworn to by the generation entity’s highestranking representative, official, or officer with binding authority over the
+generation entity attesting to the completion of all applicable activities
+described in paragraph (2) of this subsection, and to the accuracy and
+veracity of the information described in this subparagraph.
+(C)
+A generation entity must submit the appropriate declaration of preparedness to
+ERCOT prior to returning a mothballed, outaged, or decommissioned resource to
+service during the winter or summer season. For any new or repowered resource, a
+generation entity must submit the appropriate declaration of preparedness prior to the
+resource commissioning date established in the ERCOT interconnection process for
+resources.
+No later than December 20 of each year, ERCOT must file with the commission a compliance
+report that addresses whether each generation entity has submitted the declaration of winter
+weather preparedness required by paragraph (3)(A) of this subsection for each resource under
+the generation entity’s control.
+No later than June 20 of each year, ERCOT must file with the commission a compliance report
+that addresses whether each generation entity has submitted the declaration of summer weather
+
+§25.55-4
+
+effective 10/20/2022
+(P 53401)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+
+(6)
+
+(d)
+
+preparedness required by paragraph (3)(B) of this subsection for each resource under the
+generation entity’s control.
+ERCOT will treat declarations of preparedness and associated information submitted by a
+generation entity as Protected Information as defined by the ERCOT protocols.
+
+ERCOT inspection of resources.
+(1)
+ERCOT must conduct inspections of resources and may prioritize inspections based on factors
+such as whether a resource is critical for electric grid reliability; the length of time since the
+resource was last inspected; has experienced a forced outage, forced derate, or failure to start
+related to weather emergency conditions; or has other vulnerabilities related to weather
+emergency conditions. ERCOT must determine, in consultation with commission staff, the
+number, extent, and content of inspections, provided that every resource interconnected to the
+ERCOT power region must be inspected at least once every three years. ERCOT must
+develop, in consultation with commission staff, a winter weather inspection checklist and a
+summer weather inspection checklist for use during resource inspections. Inspections may be
+conducted by ERCOT’s employees or contractors.
+(A)
+ERCOT must provide each generation entity at least 72 hours’ written notice of an
+inspection unless otherwise agreed by the generation entity and ERCOT. The
+written notice must identify each ERCOT employee, commission staff member, or
+designated contractor participating in the inspection. Within 24 hours of receiving
+notice of inspection, a generation entity must provide ERCOT, commission staff,
+and designated contractors all generation entity requirements for facility access.
+Upon provision of the required written notice, a generation entity must grant access
+to its facility to ERCOT and to commission staff, including an employee of a
+contractor designated by ERCOT or the commission to conduct, oversee, or observe
+the inspection.
+(B)
+During the inspection, a generation entity must provide ERCOT, commission staff,
+or designated contractors access to any part of the facility upon request. ERCOT,
+commission staff, and designated contractors must comply with all applicable safety
+and security regulations, including those maintained by the generation entity, during
+the inspection. A generation entity must provide access to inspection, maintenance,
+and other records associated with weather emergency preparation measures and
+must make the generation entity’s staff available to answer questions. A generation
+entity may escort ERCOT, commission staff, and designated contractors at all times
+during an inspection. During the inspection, ERCOT, commission staff, or
+designated contractors may take photographs or video recordings of any part of the
+facility except control rooms and may conduct interviews of facility personnel
+designated by the generation entity. Documents, photographs, and video recordings
+collected or generated by ERCOT, commission staff, or designated contractors
+during or related to the inspection will be treated as confidential information under
+applicable state or federal laws and regulations.
+(2)
+ERCOT inspection report.
+(A)
+ERCOT must provide a written report on its inspection of a resource to the
+generation entity. The written inspection report must address whether the
+generation entity has complied with the requirements in subsection (c)(1) or (2) of
+this section.
+(B)
+If the generation entity has not complied with a requirement in subsection (c)(1) or
+(2) of this section, ERCOT must provide the generation entity a reasonable period
+to cure the identified deficiencies.
+(i)
+The cure period determined by ERCOT must consider what weather
+emergency preparation measures the generation entity may be reasonably
+
+§25.55-5
+
+effective 10/20/2022
+(P 53401)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+
+(C)
+
+(D)
+
+expected to have taken before ERCOT’s inspection, the reliability risk of
+the resource’s noncompliance, and the complexity of the measures needed
+to cure the deficiency.
+(ii)
+The generation entity may request ERCOT provide a longer period to cure
+the identified deficiencies. The request must be accompanied by
+documentation that supports the request.
+(iii)
+ERCOT, in consultation with commission staff, will determine the revised
+cure period after considering a request for a longer period to cure the
+identified deficiencies.
+ERCOT must report to commission staff any generation entity that does not remedy
+the deficiencies identified under subparagraph (A) of this paragraph within the cure
+period determined by ERCOT under subparagraph (B) of this paragraph.
+A generation entity reported by ERCOT to commission staff under subparagraph
+(C) of this paragraph will be subject to enforcement investigation under §22.246 of
+this title (relating to Administrative Penalties). A violation of this section is a Class
+A violation under §25.8(b)(3)(A) of this title (relating to Classification System for
+Violations of Statutes, Rules, and Orders Applicable to Electric Service Providers)
+and may be subject to a penalty not to exceed $1,000,000 per violation per day.
+
+(e)
+
+Weather-related failures by a generation entity to provide service. ERCOT must notify a
+generation entity and commission staff of the generation entity's repeated or major weather-related
+forced interruption of service. Upon notification from ERCOT, the generation entity must contract
+with a qualified professional engineer to assess its weather emergency preparation measures, plans,
+procedures, and operations. The qualified professional engineer must not be an employee of the
+generation entity or its affiliate. The qualified professional engineer must not have participated in
+previous assessments for the resource for at least five years, unless the generation entity provides
+documentation that no other qualified professional engineers are reasonably available for engagement.
+The qualified professional engineer must conduct a root cause analysis of the failure and develop a
+corrective action plan to address any weather-related causes of the failure. The generation entity
+must submit the qualified professional engineer’s assessment to the commission and ERCOT within
+15 calendar days of receiving the assessment. A generation entity to which this subsection applies
+may be subject to additional inspections by ERCOT. ERCOT must refer to commission staff for
+investigation any generation entity that does not comply with a provision of this subsection.
+
+(f)
+
+Weather emergency preparedness reliability standards for a TSP.
+(1)
+Winter season preparations. By December 1 each year, a TSP must complete the following
+winter weather preparation measures for its transmission facilities. A TSP must maintain these
+measures throughout the winter season and complete any ongoing requirements at the
+appropriate time. If necessary to come into compliance, a TSP must update its winter weather
+preparation measures no later than one year after ERCOT files a historical weather study report
+under subsection (i) of this section.
+(A)
+Implement weather emergency preparation measures that could reasonably be
+expected to ensure the sustained operation of all cold weather critical components
+during winter weather conditions. Where appropriate, such measures may be
+implemented using either personnel or automated systems. Such measures include,
+as appropriate for the facility:
+(i)
+Confirmation of the operability of all systems and subsystems containing
+all cold weather critical components;
+(ii)
+Confirmation that the sulfur hexafluoride gas in breakers and metering and
+other electrical equipment is at the correct pressure and temperature to
+operate safely during winter weather emergencies, and perform annual
+
+§25.55-6
+
+effective 10/20/2022
+(P 53401)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+
+(2)
+
+maintenance that tests sulfur hexafluoride breaker heaters and supporting
+circuitry to assure that they are functional; and
+(iii)
+Confirmation of the operability of power transformers and auto transformers
+in winter weather emergencies by:
+(I)
+Inspecting heaters in the control cabinets;
+(II)
+Verification that main tank oil levels are appropriate for actual oil
+temperature;
+(III)
+Inspecting bushing oil levels;
+(IV)
+Inspecting the nitrogen pressure, if necessary; and
+(V)
+Verification of proper oil quality such that moisture and dissolved
+gases are within acceptable ranges for winter weather conditions.
+(B)
+Beginning in 2023, implement weather emergency preparation measures by
+December 1 each year, in addition to the weather emergency preparation measures
+required by subparagraph (A) of this paragraph, that could reasonably be expected
+to ensure the sustained operation of the TSP’s transmission facilities at the 95th
+percentile minimum average 72-hour wind chill temperature reported in ERCOT’s
+historical weather study, required under subsection (i) of this section, for the weather
+zone in which the facility is located.
+(C)
+Review the adequacy of staffing plans to be used during a winter weather emergency
+and revise the staffing plans, as appropriate.
+(D)
+Train relevant operational personnel on winter weather preparations and operations.
+(E)
+Beginning in 2023, create a list of all cold weather critical components, review the
+list at least annually prior to the beginning of the winter season, and update the list as
+necessary.
+Summer season preparations. By June 1 each year, a TSP must complete the following
+summer weather preparation measures for its transmission facilities. A TSP must maintain
+these measures throughout the summer season and complete any ongoing, monthly, or regular
+requirements at the appropriate time. If necessary to come into compliance, a TSP must update
+its summer weather preparation measures no later than one year after ERCOT files a historical
+weather study report under subsection (i) of this section.
+(A)
+Implement weather emergency preparation measures that could reasonably be
+expected to ensure the sustained operation of all hot weather critical components
+during summer weather conditions. Where appropriate, such measures may be
+implemented using either personnel or automated systems. Such measures include,
+as appropriate for the facility:
+(i)
+Inspecting transformer cooling systems prior to and on a monthly basis
+during the summer season;
+(ii)
+Cleaning transformer cooling systems prior to and on a regular basis during
+the summer season;
+(iii)
+Verifying proper functioning of cooling fans and pump controls;
+(iv)
+Arrange and provide for the availability of sufficient chemicals, coolants,
+and other materials necessary for sustained operations during a summer
+weather emergency; and
+(v)
+Confirmation that sufficient chemicals, coolants, and other materials
+necessary for sustained operations during a summer weather emergency are
+protected from heat and drought.
+(B)
+Beginning in 2023, implement weather emergency preparation measures by June 1
+each year, in addition to the weather emergency preparation measures required by
+subparagraph (A) of this paragraph on, that could reasonably be expected to ensure
+the sustained operation of the TSP’s transmission facilities during the greater of the
+maximum ambient temperature at which the facility has experienced sustained
+
+§25.55-7
+
+effective 10/20/2022
+(P 53401)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+
+(3)
+
+(4)
+
+operations or the 95th percentile maximum average 72-hour temperature reported in
+ERCOT’s historical weather study, required under subsection (i) of this section, for
+the weather zone in which the facility is located.
+(C)
+Review the adequacy of staffing plans to be used during a summer weather
+emergency and revise the staffing plans, as appropriate.
+(D)
+Train relevant operational personnel on summer weather preparations and operations.
+(E)
+Beginning in 2023, create a list of all hot weather critical components, review the list
+at least annually prior to the beginning of the summer season, and update the list as
+necessary.
+Declaration of preparedness. A TSP must submit to ERCOT, on a form prescribed by
+ERCOT, the following declarations of weather preparedness:
+(A)
+No earlier than November 1 and no later than December 1 of each year, a TSP must
+submit a declaration of winter weather preparedness for the upcoming winter season
+that:
+(i)
+Identifies each transmission substation or switchyard maintained by the TSP
+for which the declaration is being submitted;
+(ii)
+Summarizes all activities engaged in by the TSP to complete the
+requirements of paragraph (1) of this subsection for the upcoming winter
+season,
+(iii)
+Provides the minimum ambient temperature at which each transmission
+facility has experienced sustained operations, as measured at the substation
+or switchyard or the weather station nearest to the substation or switchyard;
+(iv)
+Includes any additional information required by the ERCOT protocols in
+effect as of October 1 of the year in which the declaration is submitted; and
+(v)
+Includes a notarized attestation sworn to by the TSP’s highest-ranking
+representative, official, or officer with binding authority over the TSP,
+attesting to the completion of all activities described in paragraph (1) of this
+subsection, except activities required to be completed after December 1, and
+to the accuracy and veracity of the information described in subparagraph
+(A) of this paragraph.
+(B)
+No earlier than May 1 and no later than June 1 of each year, a TSP must submit a
+declaration of summer weather preparedness for the upcoming summer season that at
+a minimum:
+(i)
+Identifies each transmission substation or switchyard maintained by the TSP
+for which the declaration is being submitted;
+(ii)
+Summarizes all activities engaged in by the TSP to complete the
+requirements of paragraph (2) of this subsection;
+(iii)
+Provides maximum ambient temperature at which each transmission facility
+has experienced sustained operations, as measured at the substation or
+switchyard or the weather station nearest to the substation or switchyard;
+(iv)
+Includes any additional information required by the ERCOT protocols in
+effect as of April 1 of the year in which the declaration is submitted; and
+(v)
+Includes a notarized attestation sworn to by the TSP’s highest-ranking
+representative, official, or officer with binding authority over the TSP
+attesting to the completion of all activities described in paragraph (2) of this
+subsection, except activities required to be completed after June 1, and to
+the accuracy and veracity of the information described in subparagraph (B)
+of this paragraph.
+No later than December 20 of each year, ERCOT must file with the commission a compliance
+report that addresses whether each TSP has submitted the declaration of winter weather
+
+§25.55-8
+
+effective 10/20/2022
+(P 53401)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+
+(5)
+
+(6)
+
+(g)
+
+preparedness required by paragraph (3)(A) of this subsection for each transmission substation
+or switchyard maintained by the TSP.
+No later than June 20 of each year, ERCOT must file with the commission a compliance report
+that addresses whether each TSP has submitted the declaration of summer weather
+preparedness required by paragraph (3)(B) of this subsection for each transmission substation
+or switchyard maintained by the TSP.
+ERCOT will treat declarations of preparedness and associated information submitted by a TSP
+as Protected Information as defined by the ERCOT protocols.
+
+ERCOT inspections of transmission facilities.
+(1)
+ERCOT must conduct inspections of transmission facilities and may prioritize inspections
+based on factors such as the length of time since the transmission facility was last inspected;
+whether a transmission facility is critical for electric grid reliability; has experienced a forced
+outage or other failure related to weather emergency conditions; or has other vulnerabilities
+related to weather emergency conditions. ERCOT must determine, in consultation with
+commission staff, the number, extent, and content of inspections, as well as develop a riskbased methodology for selecting at least ten percent of substations or switchyards providing
+transmission service to be inspected at least once every three years. ERCOT must develop, in
+consultation with commission staff, a winter weather inspection checklist and a summer
+weather inspection checklist for use during facility inspections. Inspections may be conducted
+by ERCOT’s employees or contractors.
+(A)
+ERCOT must provide each TSP at least 72 hours’ written notice of an inspection
+unless otherwise agreed by the TSP and ERCOT. The written notice must identify
+each ERCOT employee, commission staff member, or designated contractor
+participating in the inspection. Within 24 hours of receiving notice of inspection, a
+TSP must provide ERCOT, commission staff, and designated contractors all TSP
+requirements for facility access. Upon provision of the required written notice, a
+TSP must grant access to its facility to ERCOT and commission staff, including an
+employee of a contractor designated by ERCOT or the commission to conduct,
+oversee, or observe the inspection.
+(B)
+During the inspection, a TSP must provide ERCOT, commission staff, and
+designated contractors access to any part of the facility upon request. ERCOT,
+commission staff, and designated contractors must comply with all applicable safety
+and security regulations, including those maintained by the TSP, during the
+inspection. A TSP must provide access to inspection, maintenance, and other
+records associated with weather preparation measures, and must make the TSP’s
+staff available to answer questions. A TSP may escort ERCOT, commission staff,
+and designated contractors at all times during an inspection. During the inspection,
+ERCOT, commission staff, and designated contractors may take photographs and
+video recordings of any part of the facility except control rooms and may conduct
+interviews of facility personnel designated by the TSP. Documents, photographs,
+and video recordings collected or generated by ERCOT, commission staff, or
+designated contractors during or related to the inspection will be treated as
+confidential information under applicable state or federal laws and regulations.
+(2)
+ERCOT inspection report.
+(A)
+ERCOT must provide a written report on its inspection of a transmission system or
+facility to the TSP. The written inspection report must address whether the TSP has
+complied with the requirements in subsection(f)(1) or (2) of this section.
+(B)
+If the TSP has not complied with a requirement in subsection (f)(1) or (2) of this
+section, ERCOT must provide the TSP a reasonable period to cure the identified
+deficiencies.
+
+§25.55-9
+
+effective 10/20/2022
+(P 53401)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+
+(i)
+
+(C)
+
+(D)
+
+The cure period determined by ERCOT must consider what weather
+emergency preparation measures the TSP may be reasonably expected to
+have taken before ERCOT’s inspection, the reliability risk of the TSP’s
+noncompliance, and the complexity of the measures needed to cure the
+deficiency.
+(ii)
+The TSP may request ERCOT provide a longer period to cure the identified
+deficiencies. The request must be accompanied by documentation that
+supports the request.
+(iii)
+ERCOT, in consultation with commission staff, will determine the revised
+cure period after considering a request for a longer period to cure the
+identified deficiencies.
+ERCOT must report to commission staff any TSP that does not remedy the
+deficiencies identified under subparagraph (A) of this paragraph within the cure
+period determined by ERCOT under subparagraph (B) of this paragraph.
+A TSP reported by ERCOT to commission staff under subparagraph (C) of this
+paragraph will be subject to enforcement investigation under §22.246 of this title.
+A violation of this section is a Class A violation under §25.8(b)(3)(A) of this title
+and may be subject to a penalty not to exceed $1,000,000 per violation per day.
+
+(h)
+
+Weather-related failures by a TSP to provide service. ERCOT must notify a TSP and commission
+staff of the TSP’s repeated or major-weather related forced interruption of service. Upon notification
+from ERCOT, the TSP must contract with a qualified professional engineer to assess its weather
+emergency preparation measures, plans, procedures, and operations. The qualified professional
+engineer must not be an employee of the TSP or its affiliate. The qualified professional engineer must
+not have participated in previous assessments for this facility for at least five years, unless the TSP
+provides documentation that no other qualified professional engineers are reasonably available for
+engagement. The qualified professional engineer must conduct a root cause analysis of the failure and
+develop a corrective action plan to address any weather-related causes of the failure. The TSP must
+submit the qualified professional engineer’s assessment to the commission and ERCOT within 15
+calendar days of receiving the assessment. A TSP to which this subsection applies may be subject to
+additional inspections by ERCOT. ERCOT must refer to commission staff for investigation any TSP
+that violates this subsection.
+
+(i)
+
+ERCOT historical weather study. ERCOT must study historical weather data across each weather
+zone classified in the ERCOT protocols. ERCOT must file with the commission a report summarizing
+the results of the study at least once every five years, beginning no later than November 1, 2026.
+(1)
+At a minimum, ERCOT must calculate the 90th, 95th, and 99th percentiles of:
+(A)
+the daily minimum temperature in each weather zone;
+(B)
+the daily maximum temperature in each weather zone;
+(C)
+the maximum sustained wind speed in each weather zone;
+(D)
+the minimum average 72-hour temperature in each weather zone;
+(E)
+the maximum average 72-hour temperature in each weather zone; and
+(F)
+the minimum average wind chill in each weather zone.
+(2)
+ERCOT may add additional parameters to the historical weather study.
+(3)
+ERCOT must take into consideration weather predictions produced by the office of the state
+climatologist when preparing the historical weather study.
+
+§25.55-10
+
+effective 10/20/2022
+(P 53401)
+
+

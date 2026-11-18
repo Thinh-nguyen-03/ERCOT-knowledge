@@ -1,0 +1,447 @@
+-   
+-   
+
+[U.S. Energy Information Administration logo]
+
+Skip to sub-navigation
+
+U.S. Energy Information Administration - EIA - Independent Statistics and Analysis
+
+Menu
+
+-   Statistics
+
+-   Analysis
+
+-   Tools
+
+-   Education
+
+-   News
+
+-   
+
+Search
+
+Electricity
+
+Skip to page content
+
+-   Overview
+-   Browse Data
+    -   Electricity Data Browser (interactive query tool with charting & mapping)
+    -   Summary
+    -   Sales (consumption), revenue, prices & customers
+    -   Net metering
+    -   Generation and thermal output
+    -   Capacity of electric power plants
+    -   Consumption of fuels used to generate electricity
+    -   Receipts of fossil-fuels for electricity generation
+    -   Average cost of fossil-fuels for electricity generation
+    -   Fossil-fuel stocks for electricity generation
+    -   Cost, revenue and expense statistics for...
+    -   Electricity transactions, reliability
+    -   Demand-side management program
+    -   Electricity and the environment
+-   Search by Tag
+    Major Topics
+
+    Find by
+
+    -   Most popular
+    -   Capacity
+    -   Costs
+    -   Demand response
+    -   Environment
+    -   Generation
+    -   Inventories/stocks
+
+    -   Policy
+    -   Power plants
+    -   Forecasts/projections
+    -   Revenue
+    -   Sales
+    -   Transmission
+    -   All reports
+
+    -   Alphabetical
+    -   Recurring
+    -   Tag Cloud
+
+Glossary FAQS
+
+See all Reports
+
+State Electricity Profiles
+
+Data for: 2024 Release Date: November 10, 2025 Next Release: November 2026
+
+Archived State Electricity Profiles
+
+Select Year dropdown arrow
+
+-   2023
+-   2022
+-   2021
+-   2020
+-   2019
+-   2018
+-   2017
+-   2016
+-   2015
+-   2014
+-   2013
+-   2012
+-   2011
+-   2011 (zip)
+-   2010
+-   2009
+-   2008
+-   2007
+-   2006
+-   2005
+-   2004
+-   2003
+-   2002
+-   2001
+-   1999
+-   1998
+-   1996
+
+Texas Electricity Profile 2024
+
+  Item                                                                                                                                                                                                                                                                                                           Value         Rank
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------- -------------
+  Primary energy source                                                                                                                                                                                                                                                                                                        Natural gas
+  Net summer capacity (megawatts)                                                                                                                                                                                                                                                                                168,317       1
+  Electric utilities                                                                                                                                                                                                                                                                                             28,841        3
+  IPP & CHP                                                                                                                                                                                                                                                                                                      139,476       1
+  Net generation (megawatthours)                                                                                                                                                                                                                                                                                 566,502,688   1
+  Electric utilities                                                                                                                                                                                                                                                                                             94,888,698    5
+  IPP & CHP                                                                                                                                                                                                                                                                                                      471,613,989   1
+  Emissions                                                                                                                                                                                                                                                                                                                    
+  Sulfur Dioxide (short tons)                                                                                                                                                                                                                                                                                    92,903        1
+  Nitrogen Oxide short tons)                                                                                                                                                                                                                                                                                     161,470       1
+  Carbon Dioxide (thousand metric tons)                                                                                                                                                                                                                                                                          211,902       1
+  Sulfur Dioxide (lbs/MWh)                                                                                                                                                                                                                                                                                       0.3           22
+  Nitrogen Oxide (lbs/MWh)                                                                                                                                                                                                                                                                                       0.6           25
+  Carbon Dioxide (lbs/MWh)                                                                                                                                                                                                                                                                                       823           22
+  Total retail sales (megawatthours)                                                                                                                                                                                                                                                                             505,431,317   1
+  Full service provider sales                                                                                                                                                                                                                                                                                    505,431,317   1
+  Energy-only provider sales                                                                                                                                                                                                                                                                                     0             0
+  Direct use (megawatthours)                                                                                                                                                                                                                                                                                     37,853,112    1
+  Average retail price (cents/kWh)                                                                                                                                                                                                                                                                               9.79          42
+  Data source: U.S. Energy Information Administration, Form EIA-860, Annual Electric Generator Report, U.S. Energy Information Administration, Form EIA-861, Annual Electric Power Industry Report, U.S. Energy Information Administration, Form EIA-923, Power Plant Operations Report and predecessor forms.                 
+
+  : Table 1. 2024 Summary statistics (Texas)
+
+------------------------------------------------------------------------
+
+Full data tables 1–19
+
+------------------------------------------------------------------------
+
+-   See also:
+
+-   State Energy Profiles
+
+-   Electric Power Monthly
+
+-   Electric Power Annual
+
+-   Annual electricity statistics back to 1949
+
+-   Projected electricity capacity to 2050
+
+-   International electricity statistics
+
+-   Electric Power Data Guide
+
+Other state profiles:
+
+Select state dropdown arrow
+
+-   Alabama
+-   Alaska
+-   Arizona
+-   Arkansas
+-   California
+-   Colorado
+-   Connecticut
+-   Delaware
+-   District of Columbia
+-   Florida
+-   Georgia
+-   Hawaii
+-   Idaho
+-   Illinois
+-   Indiana
+-   Iowa
+-   Kansas
+-   Kentucky
+-   Louisiana
+-   Maine
+-   Maryland
+-   Massachusetts
+-   Michigan
+-   Minnesota
+-   Mississippi
+-   Missouri
+-   Montana
+-   Nebraska
+-   Nevada
+-   New Hampshire
+-   New Jersey
+-   New Mexico
+-   New York
+-   North Carolina
+-   North Dakota
+-   Ohio
+-   Oklahoma
+-   Oregon
+-   Pennsylvania
+-   Rhode Island
+-   South Carolina
+-   South Dakota
+-   Tennessee
+-   Texas
+-   Utah
+-   Vermont
+-   Virginia
+-   Washington
+-   West Virginia
+-   Wisconsin
+-   Wyoming
+-   United States
+-   Overview
+
+-   About EIA
+-   Open Data
+-   Legacy
+-   Contact Us
+
+U.S. Energy Information Administration
+
+1000 Independence Ave., SW
+
+Washington, DC 20585
+
+Policies
+
+Privacy/Security
+
+Copyright & Reuse
+
+Accessibility
+
+Information Quality
+
+Freedom of Information Act (FOIA)
+
+Related Sites
+
+usa.gov
+
+U.S. Department of Energy
+
+Stay Connected
+
+Facebook
+
+X
+
+Youtube
+
+LinkedIn
+
+Email Updates
+
+RSS Feeds
+
+[]
+
+Statistics
+
+Analysis
+
+Tools
+
+Education
+
+News
+
+Petroleum & Other Liquids
+
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+
+Natural Gas
+
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+
+Electricity
+
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+
+Coal
+
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+
+Nuclear & Uranium
+
+Uranium fuel, nuclear reactors, generation, spent fuel.
+
+Renewable & Alternative Fuels
+
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+
+EIA Survey Forms
+
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+
+Total Energy
+
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+
+-   Monthly Energy Review
+
+Consumption & Efficiency
+
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+
+-   Residential Energy Consumption Survey (RECS)
+-   Commercial Buildings Energy Consumption Survey (CBECS)
+-   Manufacturing Energy Consumption Survey (MECS)
+
+U.S. States
+
+State energy information, including overviews, rankings, data, and analyses.
+
+International
+
+International energy information, including overviews, rankings, data, and analyses.
+
+Environment
+
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+
+-   U.S. Energy-Related Carbon Dioxide Emissions
+-   Energy-Related Carbon Dioxide Emissions at the State Level
+
+Analysis and Projections
+
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+
+-   Short-Term Energy Outlook
+-   Annual Energy Outlook
+
+Special Reports
+
+Special market analysis and/or data requests.
+
+-   EIA-112 Residential Utility Disconnections
+-   SHIP Act
+-   Energy & Financial Markets: What Drives Crude Oil Prices?
+
+International
+
+International energy analyses.
+
+-   Regional Analysis Briefs
+-   Country Analysis Briefs
+-   World Oil Transit Chokepoints
+-   OPEC Revenue
+-   Global Energy Security Data
+
+Data Tools, Apps, & Maps
+
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+
+Open Data
+
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+
+EIA Beta
+
+Come test out some of the products still in development and let us know what you think!
+
+Open Source Code
+
+EIA's open source code, available on GitHub.
+
+All Reports & Products
+
+Email Updates
+
+Sign up for email subscriptions to receive messages about specific EIA products
+
+RSS Feeds
+
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+
+Follow us. . .
+
+A-Z Index
+
+A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | XYZ
+
+Energy Explained
+
+-   What is Energy?
+-   Units & Calculators
+-   U.S. Energy Facts
+-   Use of Energy
+-   Energy & Environment
+-   Petroleum
+-   Hydrocarbon Gas Liquids
+-   Natural Gas
+
+-   Coal
+-   Nuclear
+-   Electricity
+-   Hydrogen
+-   Hydropower
+-   Biofuels
+-   Biomass
+-   Wind
+-   Geothermal
+-   Solar
+
+For Teachers
+
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+
+Glossary
+
+FAQs
+
+-   Coal
+-   Conversion & Equivalents
+-   Oil/Petroleum
+-   Diesel
+-   Electricity
+-   Environment
+
+-   Gasoline
+-   General Energy
+-   Natural Gas
+-   Nuclear
+-   Prices
+-   Renewables
+
+[]
+
+What's New?
+
+-   Global Energy Security Data
+-   Nov 16, 2026
+-   Wholesale Electricity Market Data
+-   Nov 12, 2026
+-   Monthly Densified Biomass Fuel Report
+-   Nov 12, 2026
+
+Press Room
+
+-   Press Releases
+-   Congressional Testimony
+-   Presentations
+-   Events

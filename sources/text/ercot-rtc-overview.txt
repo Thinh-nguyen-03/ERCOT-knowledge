@@ -1,0 +1,791 @@
+Real-Time Co-optimization +
+Batteries Education
+
+David Maggio
+Principal, Market Design & Analytics
+ERCOT Public
+Fall ‘24
+
+Agenda
+• Why is the Real-Time Co-optimization plus
+Batteries (RTC+B) project so important?
+• What does it mean to “co-optimize?”
+• What components of the market are changing with
+Real-Time Co-optimization (RTC)?
+• How is this impacting communications between
+ERCOT and Market Participants?
+• What is the “plus Batteries” part of the project?
+• What is the timeline for testing and implementation
+of the project?
+
+ERCOT Public
+
+Why is the RTC+B project so
+important?
+
+ERCOT Public
+
+What are the benefits of RTC+B to the market and
+consumers within the region?
+In 2018, the Independent Market Monitor (IMM) for the ERCOT market
+released a report that included its evaluation of the impacts of RTC.
+Studying 2017, their findings included reductions in:
+•
+•
+•
+
+Energy costs - $1.6B or approximately $4/MWh
+Ancillary Service costs - $155M
+Congestion costs -$257M
+
+Effective integration of
+batteries is vital
+
+ERCOT also released a study showing
+some additional impacts of RTC to
+supplement the IMM report
+1
+
+More timely procurement of
+Ancillary Services
+2
+
+RTC
+Benefits
+3
+
+4
+
+ERCOT Public
+
+More effective congestion
+management
+
+Reduction in manual
+operations
+Improved management of
+Resource-specific capabilities
+4
+
+What does it mean to “co-optimize?”
+
+ERCOT Public
+
+Under RTC, energy and Ancillary Services are “cooptimized,” but what does it mean to co-optimize?
+
+Currently
+
+Gen 1
+Ancillary
+Service
+Capacity
+
+$/MWh
+
+Gen 2
+
+$/MWh
+300
+
+50
+150
+
+20
+10
+
+80
+MW
+
+MW
+200
+
+300
+
+400
+
+50
+
+150
+
+250
+
+$150/MWh
+$20/MWh
+$10/MWh
+The placement of Ancillary Services on Resources
+across the ERCOT System is assumed.
+ERCOT Public
+
+6
+
+Under RTC, energy and Ancillary Services are “cooptimized,” but what does it mean to co-optimize?
+
+Under RTC
+
+Gen 1
+$/MWh
+
+Ancillary
+Service
+Capacity
+
+Gen 2
+
+$/MWh
+
+300
+
+50
+150
+
+20
+10
+
+80
+MW
+
+MW
+300
+200
+Ancillary Service
+offer $10/MWh
+
+400
+
+$60/MWh
+$10/MWh
+
+150
+250
+50
+Ancillary Service
+offer $20/MWh
+
+By awarding the Ancillary Services to another Resource,
+overall costs are reduced.
+ERCOT Public
+
+7
+
+What components of the market are
+changing with RTC?
+
+ERCOT Public
+
+Today’s market is designed to reflect scarcity through a
+process that is outside of the optimization
+
+Currently
+Energy
+Offers
+
+Telemetry
+
+SecurityConstrained
+Economic
+Dispatch
+(SCED)
+
+Base
+Points
+
+Locational
+Marginal Prices
+(LMPs)
+
+Constraints
+
+Operating
+Reserve Demand
+Curve (ORDC)
+
+ERCOT Public
+
+Reserve Pricing
+
+Price
+Adders
+
+Combined
+to form
+Settlement
+Point
+Prices
+
+9
+
+The ORDC sets the value of ERCOT System reserves
+6000.00
+
+Value of Reserves ($/MWh)
+
+5000.00
+
+ORDC Price Adders
+determined based
+on level of reserves
+
+4000.00
+3000.00
+
+2000.00
+1000.00
+0.00
+0
+
+1000
+
+2000
+
+3000
+
+4000
+
+5000
+
+6000
+
+7000
+
+8000
+
+Available Reserves (MW)
+
+ERCOT Public
+
+10
+
+RTC is also designed to reflect scarcity, but now it
+occurs within the optimization
+
+Under RTC
+Energy &
+Ancillary Service
+Offers
+
+Base
+Points
+
+LMPs
+
+Telemetry
+
+SCED
+Constraints
+
+Ancillary
+Service
+Awards
+
+Ancillary Service
+Demand Curves
+(ASDCs)
+
+Ancillary
+Service Prices
+
+ERCOT Public
+
+Form
+Settlement
+Point
+Prices
+
+11
+
+Unlike today’s market, the cost of Ancillary Services is
+factored directly into LMPs
+Today, the need for an additional MWh of energy results in the
+price of energy (i.e., the LMP) going from $30/MWh to $50/MWh
+•
+
+The next MW would come from Gen 2
+
+Ancillary
+Service Offer
+= $10/MWh
+
+Ancillary
+Service Offer
+= $20/MWh
+
+Ancillary
+Service
+Capacity
+
+Energy Offer
+= $30/MWh
+
+Energy Offer
+= $50/MWh
+
+Gen 1
+ERCOT Public
+
+Gen 2
+
+Unlike today’s market, the cost of Ancillary Services is
+factored directly into LMPs
+Example: With RTC, Ancillary Services can be reallocated to access
+cheaper energy from Gen 1. However, this has the effect of increasing
+Ancillary Services cost.
+• This means the LMP goes to $40/MWh ($30/MWh for the energy from Gen 1
+plus the $10/MWh of additional Ancillary Service cost)
+• Ancillary Service Price: $10/MWh → $20/MWh
+
+Ancillary
+Service Offer
+= $10/MWh
+
+Ancillary
+Service
+Capacity
+
+Ancillary
+Service
+Capacity
+
+Energy Offer
+= $30/MWh
+
+Energy Offer
+= $50/MWh
+
+Gen 1
+ERCOT Public
+
+Ancillary
+Service Offer
+= $20/MWh
+
+Gen 2
+
+Instead of using the ORDC, under RTC, scarcity pricing
+and the value of reserves is set by individual ASDCs
+
+$/MWh
+
+Insufficient remaining
+capacity or offers
+
+$/MWh
+
+Sufficient remaining
+capacity and offers
+
+MW
+Demand
+
+Offer
+
+MW
+Demand
+
+Offer
+
+Value of the Ancillary
+Services
+
+ERCOT Public
+
+14
+
+Price ($/MWh)
+
+Price ($/MWh)
+
+ASDCs will be based on the shape and pricing outcomes
+of the current ORDC mechanism
+
+Available Reserves (MW)
+
+Available Reserves (MW)
+
+RRS
+
+ECRS
+Non-Spin
+
+Available Reserves (MW)
+
+ERCOT Public
+
+Reg-Up
+
+Price ($/MWh)
+
+Price ($/MWh)
+
+Reg-Up
+
+RRS
+ECRS
+
+Non-Spin
+
+Available Reserves (MW)
+
+Price ($/MWh)
+
+Having individual ASDCs allows RTC to better
+distinguish and prioritize between various Ancillary
+Service products
+
+Reg-Up
+
+RRS
+
+ECRS
+
+Non-Spin
+
+The prioritization is set by
+the AS Demand Curve price
+
+Available Reserves (MW)
+Non-Spinning and ERCOT Contingency Reserve Service (Non-Spin and
+ECRS) will be exhausted before Regulation Up and Responsive Reserve
+Service (REGUP and RRS) are exhausted.
+
+ERCOT Public
+
+16
+
+Day-Ahead
+Operations
+
+ERCOT Public
+
+Adjustment Period
+
+Operating Period
+
+Settlement
+
+Performance
+Monitoring
+
+Reporting
+
+Operating Hour
+
+Hour-Ahead
+
+SASM
+
+RUC
+
+RUC
+
+DAM
+
+While the primary focus is the Real-Time Market,
+changes to other parts of the wholesale market are also
+part of RTC
+
+Post Real-Time
+
+Reliability Unit Commitment (RUC), like Real-Time,
+currently takes Ancillary Service assignment to
+individual Resources as a known input
+Ancillary
+Service
+Capacity
+
+Ancillary Service capacity is assigned to
+Resources by Market Participants to fulfill
+Ancillary Service Supply Responsibilities
+
+Available
+for
+Energy
+Dispatch
+
+RUC attempts to meet forecasted demand
+and solve transmission congestion with
+remaining capacity, not reserved for AS
+
+System
+Capacity
+
+ERCOT Public
+
+Currently
+18
+
+To better reflect and plan for Real-Time grid conditions
+with RTC, RUC will also be modified to co-optimize
+energy and Ancillary Services
+
+Available
+for
+Energy
+Dispatch
+or
+Ancillary
+Services
+
+System
+Capacity
+
+ERCOT Public
+
+RUC attempts to meet forecasted
+demand, solve transmission congestion,
+and meet system Ancillary Service needs
+using the full capability of Resources
+planned to be available
+
+Under RTC
+19
+
+The current Day-Ahead Market (DAM) fundamentally
+stays the same with the implementation of RTC
+Energy Offers
+& Bids
+Energy Awards
+Point-to-Point
+(PTP)
+Obligation Bids
+
+DAM
+Ancillary
+Service Offers*
+
+PTP Obligation
+Awards
+
+Ancillary
+Service Awards
+
+ASDCs
+
+* With RTC, “virtual” Ancillary Service Offers will be allowed.
+
+ERCOT Public
+
+20
+
+The current Supplemental Ancillary Services Market
+(SASM) process will be eliminated with the
+implementation of RTC
+SASM allows ERCOT to fill Ancillary Service gaps that appear after
+completion of the DAM
+1. Failure to provide
+
+SASM
+
+Ancillary
+Service
+Awards
+
+2. Infeasible Ancillary Service
+capacity
+
+3. More Ancillary Service capacity
+needed
+4. Insufficient Ancillary Service offers
+in the DAM
+
+Under RTC, a co-optimized RUC and the Real-Time Market fulfill
+this role.
+
+ERCOT Public
+
+21
+
+How is this impacting
+communications between ERCOT
+and Market Participants?
+
+ERCOT Public
+
+With RTC, there will be several changes in the data flow
+between ERCOT and Qualified Scheduling Entities
+(QSEs)
+
+Currently
+
+Under RTC
+
+Ancillary Service Resource
+Responsibilities
+
+Ancillary Service Resource
+Capabilities & Real-Time Ancillary
+Service Awards
+
+Ancillary Service-Specific
+Resource Statuses
+
+More General Resource Statuses
+
+Regulation Service Participation
+Factors/QSE-Level Deployments
+
+Resource-Specific Regulation
+Deployments
+
+Updated Desired Base Points
+
+Updated Desired Set Points
+
+ORDC Price Adders
+
+Real-Time Ancillary Service Prices
+
+ERCOT Public
+
+23
+
+There will also be changes to many reports, extracts,
+and dashboards
+Examples:
+New
+1. Ancillary Service
+Disclosure reports for
+Real-Time
+2. Real-Time Ancillary
+Service prices
+3. ASDCs
+
+Going Away
+1. SASM reports
+2. ORDC reports
+3. Ancillary Service
+Supply Responsibility
+reports and
+notifications
+
+1.
+2.
+
+3.
+4.
+5.
+
+ERCOT Public
+
+Modified
+Other Disclosure
+reports
+Performance
+Monitoring reports
+Market submission
+validation rules
+Short-term system
+adequacy reports
+Ancillary Service
+capacity monitor
+
+24
+
+What is the “plus Batteries” part of
+the project?
+
+ERCOT Public
+
+Energy Storage Resources (ESRs) will now be fully seen
+as a single device within ERCOT’s systems
+
+Currently
+Ancillary
+Services
+
+High
+Sustained
+Limit (HSL)
+
+Future
+HSL
+Ancillary
+Services
+
+Discharge
+
+Generation
+Resource
+
+Ancillary
+Services
+
+Controllable Load
+Resource
+
+Ancillary
+Services
+
+Discharge
+
+0
+
+0
+Charge
+
+Charge
+
+Ancillary
+Services
+
+2 Resources
+
+ERCOT Public
+
+•
+•
+•
+
+Max Power
+Consumption
+(MPC)
+
+2 Current Operating Plans
+2 sets of telemetry
+Submission dependencies
+
+Low
+Sustained
+Limit (LSL)
+
+Ancillary
+Services
+
+•
+
+No extra coordination
+needed
+
+•
+
+Reduced
+administration for
+ERCOT and QSEs
+
+•
+
+Real-time market and
+RUC systems will
+change to capture
+capabilities and
+characteristics of
+ESRs.
+
+26
+
+What is the timeline for testing and
+implementation of the project?
+
+ERCOT Public
+
+There are several testing activities planned for ERCOT
+and QSEs prior to implementation of the project
+
+ERCOT Public
+
+28
+
+Thank You!
+
+ERCOT Public
+
+

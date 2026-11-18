@@ -176,3 +176,231 @@ sources:
     kind: docx
     edition: "effective 2026-03-01"
     url: https://www.ercot.com/files/docs/2022/07/15/27-030126_Nodal.docx
+  - id: puct-25-5
+    title: "PUCT Substantive Rule 16 TAC §25.5, Definitions"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.5/25.5.pdf"
+  - id: puct-25-501
+    title: "PUCT Substantive Rule 16 TAC §25.501, Wholesale Market Design for the Electric Reliability Council of Texas"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.501/25.501.pdf"
+  - id: puct-25-502
+    title: "PUCT Substantive Rule 16 TAC §25.502, Pricing Safeguards in Markets Operated by ERCOT"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.502/25.502.pdf"
+  - id: puct-25-503
+    title: "PUCT Substantive Rule 16 TAC §25.503, Oversight of Wholesale Market Participants"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.503/25.503.pdf"
+  - id: puct-25-504
+    title: "PUCT Substantive Rule 16 TAC §25.504, Wholesale Market Power in the ERCOT Power Region"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.504/25.504.pdf"
+  - id: puct-25-505
+    title: "PUCT Substantive Rule 16 TAC §25.505, Resource Adequacy Reporting Requirements in the ERCOT Power Region"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.505/25.505.pdf"
+  - id: puct-25-506
+    title: "PUCT Substantive Rule 16 TAC §25.506, Publication of Resource and Load Information in the ERCOT Power Region"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.506/25.506.pdf"
+  - id: puct-25-507
+    title: "PUCT Substantive Rule 16 TAC §25.507, ERCOT Emergency Response Service (ERS)"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.507/25.507.pdf"
+  - id: puct-25-508
+    title: "PUCT Substantive Rule 16 TAC §25.508, Reliability Standard for the ERCOT Region"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.508/25.508.pdf"
+  - id: puct-25-509
+    title: "PUCT Substantive Rule 16 TAC §25.509, Scarcity Pricing Mechanism for the ERCOT Power Region"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.509/25.509.pdf"
+  - id: puct-25-55
+    title: "PUCT Substantive Rule 16 TAC §25.55, Weather Emergency Preparedness"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.55/25.55.pdf"
+  - id: puct-25-361
+    title: "PUCT Substantive Rule 16 TAC §25.361, Electric Reliability Council of Texas (ERCOT)"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.361/25.361.pdf"
+  - id: puct-25-365
+    title: "PUCT Substantive Rule 16 TAC §25.365, Independent Market Monitor"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.365/25.365.pdf"
+  - id: puct-25-107
+    title: "PUCT Substantive Rule 16 TAC §25.107, Certification and Obligations of Retail Electric Providers (REPs)"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.107/25.107.pdf"
+  - id: sb6-89r
+    title: "SB 6 (89th Legislature, 2025), enrolled: large load interconnection"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: pdf
+    url: "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/SB00006F.pdf"
+  - id: hb1500-88r
+    title: "HB 1500 (88th Legislature, 2023), enrolled: PUCT/ERCOT sunset bill"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: pdf
+    url: "https://capitol.texas.gov/tlodocs/88R/billtext/pdf/HB01500F.pdf"
+  - id: sb3-87r
+    title: "SB 3 (87th Legislature, 2021), enrolled: weather preparedness"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: pdf
+    url: "https://capitol.texas.gov/tlodocs/87R/billtext/pdf/SB00003F.pdf"
+  - id: hb4492-87r
+    title: "HB 4492 (87th Legislature, 2021), enrolled: securitization"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: pdf
+    url: "https://capitol.texas.gov/tlodocs/87R/billtext/pdf/HB04492F.pdf"
+  - id: sb2627-88r
+    title: "SB 2627 (88th Legislature, 2023), enrolled: Texas Energy Fund"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: pdf
+    url: "https://capitol.texas.gov/tlodocs/88R/billtext/pdf/SB02627F.pdf"
+  - id: pura-39
+    title: "Texas Utilities Code (PURA) Chapter 39, Restructuring of Electric Utility Industry"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    url: "https://tcss.legis.texas.gov/resources/UT/htm/UT.39.htm"
+  - id: pura-35
+    title: "Texas Utilities Code (PURA) Chapter 35, Energy Providers"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    url: "https://tcss.legis.texas.gov/resources/UT/htm/UT.35.htm"
+  - id: imm-som-2025
+    title: "2025 State of the Market Report for the ERCOT Electricity Markets"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: pdf
+    edition: "published 2026"
+    url: "https://www.potomaceconomics.com/wp-content/uploads/2026/06/2025-State-of-the-Market-Report-for-ERCOT.pdf"
+  - id: imm-som-2024
+    title: "2024 State of the Market Report for the ERCOT Electricity Markets"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: pdf
+    edition: "published 2025"
+    url: "https://potomaceconomics.com/wp-content/uploads/2025/06/2024-State-of-the-Market-Report.pdf"
+  - id: ferc-nerc-uri
+    title: "The February 2021 Cold Weather Outages in Texas and the South Central United States (FERC-NERC-Regional Entity Staff Report)"
+    publisher: "FERC / NERC"
+    tier: 2
+    kind: pdf
+    edition: "November 2021"
+    url: "https://nerc.com/pa/rrm/ea/Documents/February_2021_Cold_Weather_Report.pdf"
+  - id: ut-uri-timeline
+    title: "The Timeline and Events of the February 2021 Texas Electric Grid Blackouts"
+    publisher: "UT Austin Energy Institute"
+    tier: 2
+    kind: pdf
+    edition: "July 2021"
+    url: "https://energy.utexas.edu/sites/default/files/UTAustin%20%282021%29%20EventsFebruary2021TexasBlackout%2020210714.pdf"
+  - id: ercot-uri-board
+    title: "Review of February 2021 Extreme Cold Weather Event, ERCOT presentation to the Board"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2021-02-24"
+    url: "https://www.ercot.com/files/docs/2021/02/24/2.2_REVISED_ERCOT_Presentation.pdf"
+  - id: ercot-fact-sheet
+    title: "ERCOT Fact Sheet"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    url: "https://www.ercot.com/files/docs/2022/02/08/ERCOT_Fact_Sheet.pdf"
+  - id: ercot-cdr-2025-12
+    title: "Report on the Capacity, Demand and Reserves (CDR) in the ERCOT Region, 2026-2030"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "December 2025"
+    url: "https://www.ercot.com/files/docs/2025/12/19/CapacityDemandandReservesReport_December2025.pdf"
+  - id: ercot-mora-2027-01
+    title: "Monthly Outlook for Resource Adequacy (MORA), January 2027"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "posted 2026-11-06"
+    url: "https://www.ercot.com/files/docs/2026/11/06/MORA_January_2027.pdf"
+  - id: ercot-rtc-overview
+    title: "Real-Time Co-Optimization Overview"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "July 2025"
+    url: "https://www.ercot.com/files/docs/2025/07/09/Real-Time-Co-Optimization-Overview.pdf"
+  - id: ercot-rtcb-battery
+    title: "RTC+B Battery Overview"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "July 2025"
+    url: "https://www.ercot.com/files/docs/2025/07/15/RTC-B-Battery-Overview.pdf"
+  - id: ercot-rtc-update-2025-12
+    title: "Real-Time Co-optimization Update to the Board (post go-live)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "December 2025"
+    url: "https://www.ercot.com/files/docs/2025/12/07/10-Real-Time-Co-optimization-Update-REVISED.pdf"
+  - id: ercot-eea-overview
+    title: "2026 Energy Emergency Alert Overview"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026"
+    url: "https://www.ercot.com/files/docs/2023/06/20/2026-Energy-Emergency-Alert-Overview.pdf"
+  - id: ercot-summer-2026-review
+    title: "Summer 2026 Operational and Market Review"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "September 2026"
+    url: "https://www.ercot.com/files/docs/2026/09/07/15-Summer-2026-Operational-and-Market-Review.pdf"
+  - id: eia-texas-profile
+    title: "Texas Electricity Profile"
+    publisher: "U.S. Energy Information Administration"
+    tier: 2
+    kind: html
+    url: "https://www.eia.gov/electricity/state/texas/"
+  - id: eia-tx-gas-2021
+    title: "Texas uses natural gas for electricity generation and home heating (Today in Energy)"
+    publisher: "U.S. Energy Information Administration"
+    tier: 2
+    kind: html
+    url: "https://www.eia.gov/todayinenergy/detail.php?id=47116"

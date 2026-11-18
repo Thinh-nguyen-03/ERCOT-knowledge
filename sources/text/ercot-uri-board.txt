@@ -1,0 +1,960 @@
+REVISED 2/24/21 10:25 a.m. to add missing lines to
+graphs on certain slides
+
+Review of February 2021 Extreme Cold
+Weather Event – ERCOT Presentation
+Bill Magness
+President & Chief Executive Officer
+ERCOT
+Urgent Board of Directors Meeting
+ERCOT Public
+February 24, 2021
+
+Disclaimer
+Information in this presentation is preliminary and represents
+the best available data at the time it was created.
+
+PUBLIC
+
+2
+
+ERCOT Corporate Governance
+•
+
+Founded in 1970
+
+•
+
+Texas non-profit corporation with members from seven market segments:
+–
+
+Consumers (Commercial, Industrial, Residential)
+
+–
+
+Independent Retail Electric Providers
+
+–
+
+Cooperatives
+
+–
+
+Investor-Owned Utilities
+
+–
+
+Independent Generators
+
+–
+
+Municipals
+
+–
+
+Independent Power Marketers
+
+•
+
+The Texas Legislature enacted laws which govern all activities of ERCOT – See Public Utility Regulatory Act
+(PURA) Section 39.151.
+
+•
+
+The Public Utility Commission of Texas (PUC) has complete authority over ERCOT’s finances, budget and
+operations, with oversight by the Texas Legislature.
+–
+
+•
+
+PUBLIC
+
+Approves ERCOT Bylaws
+
+16-member ERCOT Board composition is established by law:
+–
+
+5 Unaffiliated Directors (independent from ERCOT Market Participants); all must be approved by the PUC for three-year terms with
+a maximum of two renewals
+
+–
+
+8 Directors each elected annually by different Market Segments
+
+–
+
+Office of Public Utility Counsel (represents Residential Consumer Market Segment)
+
+–
+
+ERCOT Chief Executive Officer
+
+–
+
+PUC Chairman (non-voting)
+
+3
+
+ERCOT’s Role
+•
+
+Fulfills four responsibilities required by law as the independent organization certified by
+the PUC (PURA Section 39.151):
+‒
+‒
+‒
+‒
+
+•
+
+Maintain electric system reliability
+Facilitate a competitive wholesale market
+Ensure open access to transmission
+Facilitate a competitive retail market
+
+Manages the flow of electric power over the bulk power system to approximately 26
+million Texas end-use customers.
+‒ About 90% of the state’s electric load
+‒ Over 680 generation units
+‒ Over 46,500 miles of transmission lines
+
+•
+
+Must, at all times (24/7/365), balance all consumer demand in the ERCOT region (load)
+and the power supplied by companies who generate electricity (generation) while
+maintaining system frequency of 60 Hz.
+
+•
+
+Performs financial settlement for the competitive wholesale bulk power market and
+administers retail switching for nearly 8 million premises in competitive choice areas.
+
+PUBLIC
+
+4
+
+ERCOT’s Role (continued)
+ERCOT does not:
+•
+
+Own, operate or have any enforcement authority over any electric generation facilities or any
+electric transmission or distribution lines or substations.
+
+•
+
+Sell or send bills for retail electricity to residences or businesses.
+
+•
+
+Control or operate electric service to local areas, neighborhoods or individual premises.
+
+•
+
+Establish pricing or rates for retail electric customers.
+
+•
+
+Have any direct customer relationships with the public.
+
+PUBLIC
+
+5
+
+ERCOT Budget & Funding
+•
+
+Budget is approved by the Board and the PUC biennially.
+
+•
+
+Funded by a System Administration Fee to cover its system costs.
+– Current fee is 55.5 cents per megawatt hour (MWh).
+– One megawatt of electricity can power about 200 Texas homes during periods of peak demand.
+– Average cost of $7/year (50-60 cents/month) for residential households.
+
+•
+
+ERCOT does not set consumer electric rates.
+– Rates are either set by the PUC or companies that sell electricity at retail to end-use customers.
+– Additional transmission costs are proportionally passed on to customers.
+
+PUBLIC
+
+6
+
+Electric Generation, Transmission & Distribution Overview
+ERCOT oversees the flow of power from power plants to substations.
+
+51,667 MW Gas
+47.45%
+
+13,630 MW Coal
+12.52%
+
+∼ 26 Million Texans
+5,153 MW Nuclear
+4.73%
+
+>46,500 Miles
+of
+Transmission
+Lines
+
+∼ 5,000
+Substations
+
+31,390 MW Wind
+28.83%
+
+MW represent
+installed capacity
+
+PUBLIC
+
+6,177 MW Solar
+5.67%
+
+7
+
+Pre-Event Operational Preparation
+•
+
+Canceled transmission maintenance outages affecting over 1,600 transmission devices and delayed other
+outages.
+
+•
+
+Reviewed planned generation outages for potential early return to service.
+
+•
+
+Noted potential for 11,100 MW of forced outages due to gas restrictions based on gas company
+communications – more units affected during this event compared to previous cold weather events.
+
+•
+
+Began using maximum icing potential for wind forecasts.
+
+•
+
+Waived COVID restrictions and brought additional support staff on-site.
+
+•
+
+Prepared facilities for extended on-site staffing, activated additional remote engineering/support staff.
+
+•
+
+Began regular calls with Chief System Operators (18 over 8 days).
+
+•
+
+Requested TCEQ/DOE enforcement discretion for power plant emissions during anticipated event.
+
+•
+
+Supported Railroad Commission of Texas review of natural gas priority.
+
+All available generation was online on February 14.
+PUBLIC
+
+8
+
+Pre-Event Communications
+November 5
+
+ERCOT meteorologist issues winter outlook for Market Participants and public noting the
+“very good” chance for an extreme cold weather event during winter 2020/2021.
+
+February 3
+
+ERCOT meteorologist warns Market Participants and the public of coldest weather of the
+year. Weather updates continue.
+
+February 8
+
+Operating Condition Notice issued for extreme cold weather event, posted on public website.
+
+February 10
+
+Advisory issued for extreme cold weather event posted on public website. Issued grid conditions
+update for market media representatives.
+
+February 11
+
+Watch issued for cold weather event (hotline calls made, notice to Market Participants,
+posted on public website). News release on extreme weather expected, social media outreach.
+
+February 12
+
+Texas Energy Reliability Council meeting.
+
+February 13
+
+State Operations Center news conference: forecast Conservation Alert.
+Emergency notice issued for extreme cold weather event, posted on public website.
+Texas Energy Reliability Council meeting.
+
+February 14
+
+Issued conservation appeal by news release, performed social media outreach, held
+media briefing.
+
+PUBLIC
+
+9
+
+Overview of Cold Weather Event
+•
+
+Record-setting, sub-freezing temperatures and wind chills across the state.
+
+•
+
+Approximately 48.6% of generation was forced out at the highest point due to the
+impacts of various extreme weather conditions.
+
+•
+
+Controlled outages were implemented to prevent statewide blackout.
+– Electric demand had to be limited to available generation supply.
+
+•
+
+Local utilities were limited in their ability to rotate outages due to the magnitude of
+generation unavailability and the number of circuits with critical load.
+
+PUBLIC
+
+10
+
+Sunday, February 14 – Monday, February 15
+12:15 am
+EMERGENCY
+OPERATIONS
+LEVEL 1:
+Reserves Below 2,300
+1:07 am
+EMERGENCY OPERATIONS
+LEVEL 2:
+Reserves Below 1,750 Load Resources
+Deployed Conservation Urged
+
+8 AM
+
+8:30am
+Conservation
+Alert & Media
+Appeal
+
+12 AM
+
+12 PM
+
+12:12am
+5:19 pm
+WATCH: Physical Responsive
+10:54 am
+2:00 pm
+WATCH: Freezing
+Reserve Less Than 3,000 MW
+WATCH: Insufficient
+News Conference:
+9:58 pm
+Precipitation
+Forces
+Ancillary Services
+Forecast Emergency
+CANCELLED: Projected Reserve
+Transmission Outages
+Offers for Responsive
+Operations
+Capacity Watch
+Reserve
+1:00 pm
+10:00 am
+3:17 pm
+11:17 pm
+Afternoon
+State Operations
+Texas Energy
+WATCH:
+Projected
+Deployed
+Responsive
+Reserve
+NWS Issues Wind
+Center Update
+Reliability Council
+Reserve Capacity
+Chill Warnings
+meeting: Focus on
+Shortage
+11:32pm
+natural gas supply
+ADVISORY: Physical Responsive
+Reserve Less Than 3,000 MW
+
+Note: All times are approximate
+PUBLIC
+
+1: 20 am
+EMERGENCY
+OPERATIONS
+LEVEL 3:
+Rotating Outages:
+10,800 MW Load
+Dropped
+
+7:06 pm
+New Winter Peak
+69,222 MW
+
+11
+
+Rapid Decrease in Generation Causes Frequency Drop
+60.2
+
+Entered EEA 3 1,000 MW Load-shed Ordered
+
+60.1
+
+Additional 2,000 MW
+Load-Shed Ordered
+(Total 10,500 MW)
+
+60
+59.9
+
+35,343 MW Generation
+Capacity Out as of 1:23 am
+
+59.8
+
+1,418 MW Generation Outages
+1:26am – 1:42am
+248 MW Generation Outages
+329 MW Generation Outages
+
+59.7
+
+Additional 1,000 MW
+Load-Shed Ordered
+(Total 2,000 MW)
+
+59.6
+
+Additional 3,500 MW
+Load-Shed Ordered
+(Total 8,500 MW)
+
+Additional 3,000 MW
+Load-Shed Ordered
+(Total 5,000 MW)
+
+59.3
+
+1:23
+
+1:33
+
+1:43
+
+594 MW Generation
+Outages
+843 MW Generation Outages
+841 MW Generation Outages
+
+511 MW Generation Outages
+
+59.4
+
+PUBLIC
+
+606 MW
+Generation
+Outages
+
+688 MW Generation Outages
+
+59.5
+
+59.2
+
+Below 59.4 Hz for 4m 23s
+More Gen Units would have tripped
+if below 59.4 for 9m or more
+
+Min Frequency 59.302 Hz
+
+1:53
+
+2:03
+
+12
+
+Generation Capacity Out February 14 – 19, 2021
+Peak Generation Out: 48.6%
+(52,277 MW out of 107,514 MW total installed capacity)
+
+•25,000 MW of forced
+outages, including 14,000
+MW of wind and solar
+•2,800 MW of planned
+outages, including
+seasonally mothballed
+capacity
+
+PUBLIC
+
+13
+
+Generation Capacity Out by Fuel Type
+
+PUBLIC
+
+14
+
+Available Generation and Estimated Load Without Load Shed
+
+Load that could not be served
+without additional generation
+
+Available Generation shown is the total HSL of Online Resources, including Quick Starts in OFFQS. The total uses the current MW for Resources in Start-up, Shut-Down, and ONTEST.
+
+PUBLIC
+
+15
+
+Key Events (Monday, February 15 – Friday, February 19)
+•
+
+More than 16,500 control room calls with generators and transmission owners (normal: ∼5,000/week).
+
+•
+
+Multiple daily coordinating calls between transmission owners and operations management.
+
+•
+
+Monday, February 15
+‒
+‒
+‒
+‒
+‒
+
+•
+
+Tuesday, February 16
+‒
+‒
+
+•
+
+Continued gain in generation.
+12:42 a.m. - Canceled last controlled outage orders - some outages remained due to ice storm damage; need for manual restoration and return of large
+industrial facilities.
+
+Friday, February 19 (all times approximate)
+‒
+‒
+‒
+
+PUBLIC
+
+Moderating temperatures allowed reduction in controlled outages, small net gain in generation.
+
+Thursday, February 18
+‒
+‒
+
+•
+
+No net gain in generation as some generators were restored and others became unavailable.
+Decreased volume of controlled outages during the day, increased for evening peak.
+
+Wednesday, February 17
+‒
+
+•
+
+Up to an additional ∼24,000 MW net generation unavailable due to extreme weather; loss of generation was 52,277 MW (approximately 48.6%) at the
+highest point.
+20,000 MW peak load shed.
+Limited gas availability for gas-fired power plants.
+Multiple DC-Tie constraints due to neighboring area emergencies.
+Daily Texas Energy Reliability Council meetings.
+
+9 a.m. - Returned to emergency operations level 2
+10 a.m. – Returned to emergency operations level 1
+10:35 a.m. – Returned to normal operations
+16
+
+Generation Weatherization
+Generation owners and operators are not required to implement any minimum weatherization standard
+or perform an exhaustive review of cold weather vulnerability. No entity, including the PUC or ERCOT,
+has rules to enforce compliance with weatherization plans or enforce minimum weatherization standards.
+In 2011, the PUC amended its rules to authorize ERCOT to conduct generator site visits to review compliance
+with weatherization plans. Spot checks include reviewing the weatherization plan, verifying that plant personnel
+are following the plan and providing recommendations based on PUC requirements, lessons learned or best
+practices.
+We currently perform spot checks at power plant units at the rate of about 80/year. Whenever possible, a Texas
+Reliability Entity (TRE) representative joins ERCOT for these spot checks.
+While we request and review detailed plant records, the only entity that can confirm that a plant is “weatherized”
+to any particular standard is the entity that owns or operates the plant.
+Each year, TRE and ERCOT host an annual workshop on weatherization with generation owners to review
+lessons learned and best practices.
+
+PUBLIC
+
+17
+
+2011 vs. 2021 Event Temperature Comparison
+February 2021
+
+February 2011
+
+80
+
+2/1
+Tuesday
+
+2/3
+Thursday
+
+2/4
+Friday
+
+2/5
+Saturday
+
+80
+
+70
+
+70
+
+60
+
+60
+
+50
+
+50
+
+40
+
+40
+
+30
+
+30
+
+20
+10
+
+21
+
+2/14
+Sunday
+
+2/15
+Monday
+
+2/16
+Tuesday
+
+2./17
+Wednesday
+
+2/18
+Thursday
+
+20
+
+18
+13
+
+13
+10
+6
+
+0
+
+0
+
+-10
+
+-10
+
+Consecutive Hours at or
+below freezing
+
+PUBLIC
+
+2/2
+Wednesday
+
+DFW
+
+Austin
+
+Houston
+
+101
+
+69
+
+34
+
+Consecutive Hours at or
+below freezing
+
+-2
+
+DFW
+
+Austin
+
+Houston
+
+140
+
+162
+
+44
+
+18
+
+2011 vs. 2021 Event Comparison
+2011
+
+2021
+
+Maximum generation capacity forced out at any given time (MW)
+
+14,702
+
+52,277
+
+Generation forced out one hour before start of EEA3 (MW)
+
+1,182
+
+2,489
+
+Cumulative generation capacity forced out throughout the event (MW)
+
+29,729
+
+46,249*
+
+Cumulative number of generators outaged throughout the event
+
+193
+
+356
+
+Cumulative gas generation de-rated due to supply issues
+
+1,282
+
+9,323
+
+Lowest frequency
+
+59.58
+
+59.30
+
+Maximum load shed requested (MW)
+
+4,000
+
+20,000
+
+Duration load shed request (hours)
+
+7.5
+
+70.5
+
+59,000
+
+76,819
+
+Estimated peak load (without load shed)
+
+*Note: “Cumulative” values for 2021 were calculated using NERC 2011 report methodology.
+Cumulative amount for 2021 starts at 00:01 on February 14, 2021
+
+PUBLIC
+
+19
+
+Load Shed Ordered By Transmission Owner
+Transmission Operator
+AEP Texas Central Company
+Brazos Electric Power Cooperative Inc.
+Brownsville Public Utilities Board
+Bryan Texas Utilities
+CenterPoint Energy Houston Electric LLC
+City of Austin DBA Austin Energy
+City of College Station
+City of Garland
+CPS Energy (San Antonio)
+Denton Municipal Electric
+GEUS (Greenville)
+Lamar County Electric Cooperative Inc*
+LCRA Transmission Services Corporation
+Oncor Electric Delivery Company LLC
+Rayburn Country Electric Cooperative Inc.
+South Texas Electric Cooperative Inc.
+Texas-New Mexico Power Company
+ERCOT Total
+
+PUBLIC
+
+% of MW
+8.7
+4.95
+0.37
+0.51
+24.83
+3.71
+0.28
+0.75
+6.79
+0.48
+0.15
+0.07
+5.96
+36.01
+1.3
+2.52
+2.62
+100.00
+
+20
+
+Status of Recommendations After February 2011
+A report published by the North American Electric Reliability Corporation following the February 2011 cold weather event
+contained several recommendations applicable to ERCOT. Over the past 10 years, ERCOT has made changes that
+support those recommendations.
+Significant modifications include:
+•
+
+Implemented the Seasonal Assessment of Resource Adequacy report that includes an analysis for extreme winter
+weather.
+
+•
+
+Began a resource weatherization process that includes an annual workshop, review of resource weatherization plans
+and spot checks of facilities.
+
+•
+
+Added additional staff (Shift Engineer and Resource Reliability Desk) in the control room.
+
+•
+
+Modified the Ancillary Services procurement to allow additional procurement in anticipation of severe weather.
+
+•
+
+Established the Gas Electric Working Group and created a notification procedure for QSEs to notify ERCOT if there
+are anticipated fuel restrictions.
+
+•
+
+Modified the survey sent to natural gas generators that collects fuel switching capability for some resources in
+preparation for each winter season.
+
+•
+
+Changed the rules and processes for withdrawing approval of resource outages in anticipation of severe weather.
+
+PUBLIC
+
+21
+
+Real-Time and Day-Ahead System-Wide Pricing
+10,000
+9,000
+
+Average system-wide pricing
+around the event relative to other
+historical periods (in $/MWh)
+
+8,000
+
+$/MWh
+
+7,000
+
+Date Range Real-Time
+
+6,000
+
+2/14/21
+2/19/21
+
+$6,579.59
+
+$6,612.23
+
+Real-Time
+
+January '21
+
+$20.79
+
+$21.36
+
+Day-Ahead
+
+February '20
+
+$18.27
+
+$17.74
+
+5,000
+4,000
+3,000
+2,000
+
+Day-Ahead
+
+1,000
+0
+
+This data is using the ERCOT Hub Average 345-kV Hub prices
+PUBLIC
+
+22
+
+Hedging by Market Participants
+•
+
+ERCOT has limited visibility into other methods of hedging that Market Participants may
+engage in, including but not limited to commodities exchanges and bilateral contracts.
+
+•
+
+With the information available to ERCOT, the level of energy hedging by Load Serving
+Entities varied from fairly long to fairly short relative to their physical load. This could also
+vary by operating day for the same entity.
+
+•
+
+These positions would have been affected by load reductions resulting from the
+instructed firm load shed and other losses of load, as well as loss of generation through
+de-ratings or outages that occurred during the event.
+
+PUBLIC
+
+23
+
+

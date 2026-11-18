@@ -1,0 +1,196 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+
+§25.502. Pricing Safeguards in Markets Operated by the Electric Reliability Council of Texas.
+(a)
+
+Purpose. The purpose of this section is to protect the public from harm when wholesale electricity prices in
+markets operated by the Electric Reliability Council of Texas (ERCOT) in the ERCOT power region are not
+determined by the normal forces of competition.
+
+(b)
+
+Applicability. This section applies to any entity, either acting alone or in cooperation with others, that buys
+or sells at wholesale energy, capacity, or any other wholesale electric service in a market operated by
+ERCOT in the ERCOT power region; any agent that represents such an entity in such activities; and
+ERCOT. This section does not limit the commission’s authority to ensure reasonable ancillary energy and
+capacity service prices and to address market power abuse.
+
+(c)
+
+Definitions. The following terms, when used in this section, have the following meanings, unless the
+context indicates otherwise.
+(1)
+Competitive constraint -- A transmission element on which prices to relieve congestion are
+moderated by the normal forces of competition between multiple, unaffiliated resources.
+(2)
+Generation entity -- An entity that owns or controls a generation resource.
+(3)
+Market location -- The location for purposes of financial settlement of a service (e.g., congestion
+management zone in a zonal market design or a node in a nodal market design).
+(4)
+Must-run alternative (MRA) service -- A service that ERCOT may procure as an alternative to
+reliability must-run service.
+(5)
+Noncompetitive constraint -- A transmission element on which prices to relieve congestion are
+not moderated by the normal forces of competition between multiple, unaffiliated resources.
+(6)
+Reliability must-run (RMR) service -- A service provided by a generation resource to meet a
+reliability need resulting from the planned suspension of operation of that generation resource for a
+period of greater than 180 calendar days.
+(7)
+Resource -- A generation resource, or a load capable of complying with ERCOT instructions to
+reduce or increase the need for electrical energy or to provide an ancillary service (i.e., a “load
+acting as a resource”).
+(8)
+Resource entity -- An entity that owns or controls a resource.
+(9)
+Suspension date -- The date specified by a generation entity in a notice to ERCOT as the date on
+which it intends to suspend operation of a generation resource for a period of greater than 180
+calendar days.
+
+(d)
+
+Control of resources. Each resource entity must inform ERCOT as to each resource that it controls, and
+provide proof that is sufficient for ERCOT to verify control. In addition, the resource entity must notify
+ERCOT of any change in control of a resource that it controls no later than 14 calendar days prior to the
+date that the change in control takes effect, or as soon as possible in a situation where the resource entity
+cannot meet the 14 calendar day notice requirement. For purposes of this section, “control” means ultimate
+decision-making authority over how a resource is dispatched and priced, either by virtue of ownership or
+agreement, and a substantial financial stake in the resource’s profitable operation. If a resource is jointly
+controlled, the resource entities must inform ERCOT of any right to use an identified portion of the capacity
+of the resource. Resources under common control will be considered affiliated.
+
+(e)
+
+RMR resources. Except for the occurrence of a forced outage, a generation entity must submit to ERCOT
+in writing a notice of suspension of operation no later than 150 calendar days prior to the suspension date.
+If a generation resource is to be mothballed on a seasonal basis in accordance with ERCOT protocols, the
+generation entity must submit in writing a notice of suspension of operation no later than 90 calendar days
+prior to the suspension date. ERCOT must issue a final determination of the need for RMR service within
+60 calendar days of ERCOT’s receipt of the notice. If ERCOT determines that the generation resource is
+not needed for RMR service, the generation entity may suspend operation of the generation resource before
+the suspension date, subject to ERCOT approval. Unless ERCOT has determined that a generation entity’s
+§25.502-1
+
+effective 12/5/19
+(P 49788)
+
+generation resource is not required for ERCOT reliability, determined that the resource is needed for
+reliability but is not a cost-effective solution to the reliability concern, or entered into an MRA service
+agreement as an alternative to an RMR service agreement, the generation entity must not terminate its
+registration of the generation resource with ERCOT unless it has transferred the generation resource to a
+generation entity that has a current resource-entity agreement with ERCOT and the transferee registers that
+generation resource with ERCOT at the time of the transfer.
+(1)
+Complaint with the commission. If, by the suspension date, ERCOT has not notified the
+generation entity that the continued operation of the generation resource is not required for reliability or is
+not a cost-effective solution to the reliability need, and has not entered into an RMR service agreement with
+the generation entity for the generation resource or an MRA service agreement as an alternative to an RMR
+service agreement, then the generation entity may file a complaint with the commission against ERCOT,
+under §22.251 of this title (relating to Review of Electric Reliability Council of Texas (ERCOT) conduct).
+(A)
+The generation entity will have the burden of proof.
+(B)
+As required by §22.251(d) of this title, absent a showing of good cause to the commission
+to justify a later deadline, the generation entity’s deadline to file the complaint is 35
+calendar days after the suspension date.
+(C)
+The dispute underlying the complaint is not subject to ERCOT’s alternative dispute
+resolution procedures.
+(D)
+In its complaint, the generation entity may request interim relief under §22.125 of this
+title (relating to Interim Relief), an expedited procedural schedule, and identify any
+special circumstances pertaining to the generation resource at issue.
+(E)
+As required by §22.251(f) of this title, ERCOT must file a response to the generation
+entity’s complaint and must include as part of the response all existing, non-privileged
+documents that support ERCOT’s position on the issues identified by the generation
+entity as required by §22.251(d)(1)(C) of this title.
+(F)
+The scope of the complaint may include the need for the RMR service; the reasonable
+compensation and other terms for the RMR service; the length of the RMR service,
+including any appropriate RMR exit options; and any other issue pertaining to the RMR
+service.
+(G)
+Any compensation ordered by the commission will be effective the first calendar day after
+the suspension date. If there is a pre-existing RMR service agreement concerning the
+generation resource, the compensation ordered by the commission will not become
+effective until the termination of the pre-existing agreement, unless the commission finds
+that the pre-existing RMR service agreement is not in the public interest.
+(H)
+If the generation entity does not file a complaint with the commission, the generation
+entity will be deemed to have accepted ERCOT’s most-recent offer as of the suspension
+date.
+(2)
+Out-of-merit-order dispatch. The generation entity must maintain the generation resource so
+that it is available for out-of-merit-order dispatch instruction by ERCOT until:
+(A)
+ERCOT determines that the generation resource is not required for ERCOT reliability;
+(B)
+any RMR service agreement takes effect;
+(C)
+the commission determines that the generation resource is not required for ERCOT
+reliability; or
+(D)
+a commission order requiring the generation entity to provide RMR service takes effect.
+(3)
+RMR exit strategy. Unless otherwise ordered by the commission, the implementation of an RMR
+exit strategy in conformance with the ERCOT Protocols is not affected by the filing of a complaint
+under this subsection.
+(4)
+Evaluation of RMR and MRA service. ERCOT may decline to enter into an RMR or MRA
+service agreement based on an evaluation that considers the costs and benefits of the RMR or
+MRA service, subject to the requirements of paragraph (5) of this subsection. ERCOT may enter
+into an MRA service agreement if it identifies a resource or group of resources that will address a
+reliability need resulting from a planned suspension of operation of a generation resource in a more
+cost-effective manner than entering into an RMR service agreement, subject to the requirements of
+paragraph (5) of this subsection. ERCOT may incorporate the economic value of lost load into its
+evaluation.
+§25.502-2
+effective 12/5/19
+(P 49788)
+
+(5)
+
+(6)
+
+(7)
+
+(f)
+
+Approval of RMR and MRA service agreements. All recommendations by ERCOT staff to
+enter into an RMR or MRA service agreement will be subject to approval by the ERCOT
+governing board. If ERCOT identifies a reliability need for RMR or MRA service but
+recommends against entering into an RMR or MRA service agreement, ERCOT staff’s
+recommendation will be subject to approval by the ERCOT governing board. In its request for
+governing board approval, ERCOT staff must present information that justifies its
+recommendation.
+Refund of payments for capital expenditures. A resource entity that owns or controls a resource
+providing RMR or MRA service must refund payments for capital expenditures made by ERCOT
+in connection with the RMR or MRA service agreement if the resource participates in the energy
+or ancillary service markets at any time following the termination of the agreement. ERCOT may
+require less than the entire original amount of capital expenditures to be refunded to reflect the
+depreciation of capital over time.
+Implementation. ERCOT, through its stakeholder process, must establish protocols and
+procedures to implement this subsection.
+
+Noncompetitive constraints. ERCOT, through its stakeholder process, must develop protocols to mitigate
+the price effects of congestion on noncompetitive constraints.
+(1)
+The protocols must specify a method by which noncompetitive constraints may be distinguished
+from competitive constraints.
+(2)
+Competitive constraints and noncompetitive constraints must be designated annually prior to the
+corresponding auction of annual congestion revenue rights. A constraint may be redesignated on an
+interim basis.
+(3)
+The protocols must be designed to ensure that a noncompetitive constraint will not be treated as a
+competitive constraint.
+
+§25.502-3
+
+effective 12/5/19
+(P 49788)
+
+

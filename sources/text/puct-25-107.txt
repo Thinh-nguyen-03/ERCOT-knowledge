@@ -1,0 +1,1716 @@
+CHAPTER 25.
+Subchapter E.
+
+SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+CERTIFICQTION, LICENSING AND REGISTRATION.
+
+§25.107. Certification and Obligations of Retail Electric Providers (REPs).
+(a)
+
+Applicability.
+(1)
+This section contains the certification and reporting requirements applicable to a
+retail electric provider (REP).
+(A)
+A person must obtain a REP certificate under this section before purchasing,
+taking title to, or reselling electricity to provide retail electric service. A
+person may certify as an Option 1 REP, Option 2 REP, or Option 3 REP
+under this section. Certification must be maintained on an ongoing basis by
+timely reporting and updating the certification information in accordance
+with subsections (i) and (h) of this section.
+(B)
+A person that does not purchase, take title to, or resell electricity to provide
+electric service to a retail customer is not a REP and must not act as a REP
+without obtaining a certificate under this section. A REP that outsources
+retail electric service functions is responsible for those functions in
+accordance with all applicable laws and commission rules for all activities
+conducted on its behalf by any third-party provider.
+(C)
+A person who owns or operates equipment used solely to provide electricity
+charging service for consumption by an alternatively fueled vehicle, as
+defined by Transportation Code, Section 502.004, is not, for that reason,
+required to be certified as a REP.
+(2)
+This section also applies, where specifically stated, to an independent system
+operator or transmission and distribution utility (TDU).
+
+(b)
+
+Definitions. The following words and terms when used in this section have the following
+meanings unless the context indicates otherwise.
+(1)
+Affiliate – In contexts where the term refers to an affiliate of the REP or an affiliate
+of an applicant, any subsidiaries or sister companies of the REP or applicant that
+are registered or certificated with the commission or are registered with ERCOT as
+a market participant; and any company in the chain of corporate ownership of the
+REP or applicant up to the ultimate corporate parent company. In contexts where
+the term refers to an affiliate of the ultimate parent company of a REP or applicant,
+the term means any company with common control or beneficial ownership (i.e.,
+direct or indirect ownership of at least 5.0% of voting securities) of the ultimate
+parent company. A principal may be an affiliate.
+(2)
+Assumed name -- has the meaning assigned in Chapter 71 of the Texas Business
+and Commerce Code.
+
+§25.107-1
+
+effective 11/4/2026
+(P-59288)
+
+(3)
+(4)
+
+(5)
+
+(6)
+
+(7)
+(8)
+
+(9)
+(10)
+(11)
+
+(12)
+
+(13)
+
+Continuous and reliable electric service -- Retail electric service provided by a
+REP that is consistent with the customer’s terms and conditions of service and
+uninterrupted by the unlawful or unjustified action or inaction of the REP.
+Control -- The term control (including the terms controlling, controlled by and
+under common control with) means the direct or indirect possession of binding
+authority to direct or cause the direction of the management, policies, operations,
+or decision-making of a person, whether through ownership of voting securities, by
+contract, formation documents, or otherwise. A principal is a controlling person.
+A third-party provider may be a controlling person.
+Default -- As defined in a TDU tariff for retail delivery service, Electric Reliability
+Council of Texas (ERCOT) qualified scheduling entity (QSE) agreement, or
+ERCOT load serving entity (LSE) agreement, ERCOT standard form market
+participant agreement (SFA), or any similar agreement with an applicable
+independent organization other than ERCOT.
+Executive officer -- An entity’s president, any vice president in charge of a
+principal business unit, division or function (such as sales, administration or
+finance), any other officer who performs a policy making function, or any other
+person who performs similar policy making functions. Executive officers of
+subsidiaries may be deemed executive officers of the entity if they perform such
+policy making functions for the entity.
+Guarantor -- A person that provides an irrevocable guaranty agreement using the
+standard form approved by the commission under this section.
+Investment-grade credit rating -- A long-term unsecured credit rating issued by
+the bond credit rating companies Moody’s Investors’ Service (Moody’s), Standard
+& Poor (S&P), or Fitch of at least “Baa3” from Moody’s or “BBB-” from S&P or
+Fitch.
+Option 1 REP -- A REP that provides its service offerings to any customer class
+based on geographic service area.
+Option 2 REP -- A REP that limits its service offerings to specifically identified
+customers, each of whom contracts for one megawatt or more of capacity.
+Option 3 REP -- A REP that sells electricity exclusively to a retail customer, other
+than a small commercial or residential customer, from a distributed generation
+facility owned by a power generation company (PGC) that has registered in
+accordance with §25.109 of this title (relating to Registration of Power Generation
+Companies and Self-Generators) located on the same geographic site as the
+customer.
+Person -- An individual or any business entity, including and without limitation, a
+limited liability company, a partnership of two or more persons having a joint or
+common interest, a mutual or cooperative association, or a corporation. Person
+does not include an electric cooperative or a municipal corporation.
+Principal -- Includes:
+(A)
+A sole proprietor;
+(B)
+A partner of a partnership;
+
+§25.107-2
+
+effective 11/4/2026
+(P-59288)
+
+(C)
+
+(14)
+
+(15)
+(16)
+
+(c)
+
+An executive of a company (e.g., a president, chief executive officer, chief
+operating officer, chief financial officer, general counsel, or equivalent
+position);
+(D)
+A manager, managing member, or a member vested with the management
+authority of a limited liability company or limited liability partnership;
+(E)
+A shareholder with more than 10% equity of the REP, if a public company;
+or
+(F)
+A person who exercises control and has apparent or actual authority to
+exercise such control over either the REP or a principal that is otherwise
+described by this subsection. A consultant, third-party provider, or fiduciary
+of a company such as the board of directors, is a principal if it has apparent
+or actual authority to exercise control over the REP or principals of the REP,
+and exercises such control.
+Shareholder -- The legal or beneficial owner of any of the equity of any business
+entity as the context and applicable business entity requires, including, stockholders
+of corporations, members of limited liability companies and equity partners of
+partnerships.
+Tangible net worth -- Total shareholders’ equity, determined in accordance with
+generally accepted accounting principles, less intangible assets other than goodwill.
+Third-party provider -- An entity to which a REP outsources or plans to outsource
+any retail or wholesale electric functions. A contractor, consultant, agent, or any
+other person not directly employed by the REP can be a third-party provider. A
+third-party provider isa principal if it has apparent or actual authority to exercise
+control over the REP or principals of the REP, and exercises such control.
+
+Application processing.
+(1)
+A person can apply to certify as a REP or amend a REP certification by submitting
+a complete application on a form approved by the commission. Commission staff
+will review each application for sufficiency and submit a recommendation to the
+presiding officer within 20 days after the application is filed. The presiding officer
+will make a determination of sufficiency of the application within ten days of
+receipt of commission staff’s recommendation. If the presiding officer finds that
+the application is deficient, the presiding officer must notify the applicant. The
+applicant will have ten days from the issuance of the notice to cure the deficiencies.
+If the deficiencies are not cured within ten days, the presiding officer may notify
+the applicant that the certification request is rejected without prejudice.
+(2)
+While an application for certification or amendment is pending, an applicant must
+notify the commission of any material change to the information provided in the
+application within ten days of any such change in accordance with subsection (h)(2)
+of this section.
+(3)
+Except where good cause exists to extend the time for review, the presiding officer
+will issue an order approving, rejecting, or approving with modifications, an
+application within 90 days of finding an application sufficient.
+(4)
+For applications to certify as an Option 1 REP, the presiding officer will deny an
+application if the configuration of the proposed geographic area would unduly
+§25.107-3
+
+effective 11/4/2026
+(P-59288)
+
+(5)
+
+(6)
+
+(7)
+
+discriminate in the provision of electric service to any customer because of race,
+creed, color, national origin, ancestry, sex, marital status, lawful source of income,
+disability, or familial status; because the customer is located in an economically
+distressed geographic area or qualifies for low income affordability or energy
+efficiency services; or because of any other reason prohibited by law.
+An Option 2 REP application for certification that meets all other requirements of
+this section except for the provision of customer affidavits under subparagraph
+(d)(2)(I) may be conditionally granted by the presiding officer. If such an
+application is conditionally granted, the applicant must, within 30 days from the
+date the application is granted, file in the docket the affidavit or affidavits required
+by subsection (d)(2)(I). The application will be withdrawn and the application
+denied with respect to each customer for whom the applicant fails to timely file the
+required affidavit. Within 45 days after the application is conditionally granted,
+commission staff must file a status report indicating whether each of the required
+affidavits were timely filed. The presiding officer will then issue a follow-up order
+confirming the approval of the application as to each customer for whom the
+required affidavit was filed and denying the application as to each customer for
+whom the required affidavit was not filed.
+Document format. If a provision of this subsection specifies a certain format for a
+document that must be filed with or submitted to the commission, an applicant must
+file or submit that document in the native format specified. A document filed in its
+native format must permit basic data manipulation functions, such as copying and
+pasting of data.
+Filing requirements for irrevocable stand-by letters of credit.
+(A)
+To meet the financial requirements under subsection (f) of this section, an
+irrevocable stand-by letter of credit must be filed electronically with the
+commission in accordance with §22.71 of this title, relating to Commission
+Filing Requirements and Procedures. The financial institution issuing the
+letter of credit, the REP or applicant, or an affiliate of the REP or applicant,
+may file the irrevocable-stand-by letter of credit with the commission in
+Project 37919.
+(i)
+A new irrevocable stand-by letter of credit executed on or after the
+effective date of this rule must use the following template in
+accordance with subsection (f)(4)(F) of this section:
+Figure: §25.107(c)(7)(A)(i)
+(ii)
+An amendment to a currently executed irrevocable stand-by letter of
+credit may be performed using the same template it was executed in
+or the updated template specified under clause (i) of this
+subparagraph.
+(iii) Notwithstanding clause (ii) of this subsection, an existing
+irrevocable stand-by letter of credit must be re-issued or amended
+using the updated template specified under clause (i) of this
+subparagraph on or before August 15, 2027.
+
+§25.107-4
+
+effective 11/4/2026
+(P-59288)
+
+(B)
+
+(d)
+
+An irrevocable stand-by letter of credit that does not comply with the filing
+requirements of §22.71 of this title for REP letters of credit will be rejected
+and securely destroyed in accordance with §22.71 of this title.
+
+Basic requirements.
+(1)
+A REP must maintain its certification by complying with the following
+subparagraphs on an ongoing basis.
+(A)
+Only provide retail electric service under the name or names set forth in an
+approved application for certification or subsequent amendment
+application. A REP’s certificate must contain the REP’s legal business
+name and all assumed names under which it proposes to provide service.
+(B)
+Not use more than five assumed names in the REP’s regular course of
+business.
+(C)
+Maintain an active business registration with the Texas Secretary of State.
+(D)
+Maintain current and accurate contact information including:
+(i)
+the applicant’s primary contact name and title, street and mailing
+address, business telephone number and toll-free number, business
+e-mail address, and applicant’s web address;
+(ii)
+for the pendency of the application or amendment, the authorized
+representative’s name, title, street and mailing address, telephone
+number, e-mail address, and web address;
+(iii) regulatory contact name, title, street and mailing address, telephone
+number, e-mail address and web address;
+(iv)
+customer complaint contact name, title, street and mailing address,
+telephone number including a toll-free number, e-mail address and
+web address;
+(v)
+emergency contact’s name, title, telephone number, and e-mail
+address, and web address; and
+(E)
+Maintain current and accurate office information including:
+(i)
+An office that has street address located within Texas that is open
+during normal business hours for the purpose of providing customer
+service and making available to commission staff books and records
+sufficient to establish the REP's compliance with Public Utility
+Regulatory Act (PURA) and commission rules; the office must have
+the following contact information where the REP’s staff can be
+directly reached:
+(I)
+a business telephone number and toll-free number,
+(II)
+a business e-mail address and web address, and
+(III) a business postal address that is not a post office box.
+(ii)
+The applicant’s state of formation or incorporation, and the address
+of the applicant’s primary business office; and
+(iii) A mailing address, if different from the applicant’s Texas office
+address or primary business office address; and
+(iv)
+The name and address of the applicant’s registered agent for the
+purpose of receiving service of process.
+§25.107-5
+
+effective 11/4/2026
+(P-59288)
+
+(F)
+
+(2)
+
+Comply with all applicable scheduling, operating, planning, reliability,
+customer registration, and settlement policies, protocols, guidelines,
+procedures, and other protocols established by the applicable independent
+organization including any independent organization requirements for 24hour coordination with control centers for scheduling changes, reserve
+implementation, curtailment orders, and interruption plan implementation.
+(G)
+Comply with the registration and certification requirements of the
+applicable independent organization and its system rules and protocols, or
+each contract for services with a third-party provider that is required to be
+registered with or certified by the applicable independent organization.
+(H)
+Maintain adequate staffing and employee training to meet all service level
+commitments.
+(I)
+Respond within five working days to any commission or commission staff
+request for information, unless otherwise provided by the commission,
+commission staff, or other applicable law.
+An applicant must provide the following information to the commission to certify
+as a REP under this section.
+(A)
+An application for certification or amendment to a certificate must be made
+on a form approved by the commission, specify whether the applicant seeks
+to obtain or amend a REP certificate, and be accompanied by a signed,
+notarized affidavit attesting that all material provided in the application is
+true, correct, and complete. The affidavit must be signed by an executive
+officer of the applicant.
+(B)
+Information related to the applicant’s status as a legal entity, including
+information related to its tax status and authority to do business in Texas to
+verify the information required under paragraphs (1)(A)-(C) of this
+subsection. The following information must be provided:
+(i)
+A copy of the applicant’s Texas Secretary of State registration and
+filing numbers associated with the registration . A business name
+must not be deceptive, misleading, vague, otherwise contrary to
+§25.272 of this title (relating to Code of Conduct for Electric
+Utilities and Their Affiliates), or duplicative of a name previously
+approved for use by a REP certificate holder.
+(ii)
+The applicant’s Texas Comptroller of Public Accounts tax
+identification number, and all other relevant or other applicable
+certification or file numbers.
+(C)
+The applicant’s current contact information required under paragraph
+(1)(D) of this subsection.
+(D)
+The applicant’s current office information required under paragraph (1)(E)
+of this subsection.
+(E)
+Information on the applicant, including:
+(i)
+a list of the applicant’s subsidiaries and parent companies up to the
+ultimate corporate parent, and any sister companies that are
+registered or certified with the commission. Each company must be
+
+§25.107-6
+
+effective 11/4/2026
+(P-59288)
+
+(F)
+
+(G)
+(H)
+
+(I)
+
+(J)
+
+identified by name and, if applicable, type of commission
+registration or certification.
+(ii)
+an ownership and corporate structure chart that includes ownership
+percentages. The chart must be as detailed as practicable, but must
+contain, at minimum, the entities listed under clause (i) of this
+subparagraph and any entities with more than ten percent ownership
+of the REP or any of the REP’s parent companies with a controlling
+interest in the REP.
+(iii) a list of all principals, provided in Microsoft Excel format;
+(iv)
+a list of all executive officers, provided in Microsoft Excel format.
+A statement affirming compliance with paragraphs (1)(F)-(I) of this
+subsection and a short summary describing how the applicant has complied,
+or for paragraph (1)(I) of this subsection how the applicant will comply,
+with each subparagraph.
+The control number and item number where the applicant has filed its
+Emergency Operations Plan as required under §25.53 of this title (relating
+to Electric Service Emergency Operations Plans).
+An applicant for an Option 1 REP certificate must designate one of the
+following categories as its geographic service area:
+(i)
+The geographic area of the entire state of Texas;
+(ii)
+A specific geographic area (indicating the zip codes applicable to
+that area);
+(iii) The service area of one or more specific TDUs, municipal utilities,
+or electric cooperatives in which competition is offered; or
+(iv)
+The geographic area of ERCOT or other independent organization
+to the extent it is within Texas.
+An applicant for an Option 2 REP certificate must include a signed,
+notarized affidavit stating that it will only contract with customers to
+provide one megawatt or more of capacity. Within 30 days of conditional
+commission approval of the application and before an Option 2 REP begins
+serving a customer, the Option 2 REP must file with the commission a
+signed, notarized affidavit from each customer with which it has contracted
+to provide one megawatt or more of capacity. The affidavit may be
+submitted by the applicant while the application for an Option 2 REP
+certificate is pending. Each customer affidavit must state that the customer
+understands and accepts the REP’s ability to provide continuous and
+reliable electric service based on the applicant’s financial, managerial, and
+technical resources.
+An applicant for an Option 3 REP certificate must:
+(i)
+identify the name of the PGC that owns the distributed generation
+facilities and affirm that the PGC is registered under §25.109 of this
+title; and
+(ii)
+provide a signed, notarized affidavit from an executive officer of the
+PGC confirming:
+
+§25.107-7
+
+effective 11/4/2026
+(P-59288)
+
+(I)
+
+(II)
+(III)
+
+(e)
+
+the PGC operating the distributed generation facility
+conforms to the requirements of §25.211 of this title (relating
+to Interconnection of On-Site Distributed Generation (DG))
+and §25.212 of this title (relating to Technical Requirements
+for Interconnection and Parallel Operation of On-Site
+Distributed Generation);
+the distributed generation facility is installed by a licensed
+electrician, consistent with the requirements of the Texas
+Department of Licensing and Regulation; and
+the distributed generation facility is installed in accordance
+with the National Electric Safety Code as adopted by the
+Texas Department of Licensing and Regulation and
+otherwise complies with all applicable local and regional
+building codes.
+
+Technical and managerial requirements. An Option 1 REP must have the technical and
+managerial resources and ability to provide continuous and reliable retail electric service
+to customers, in accordance with its customer contracts, PURA, commission rules,
+applicable independent organization protocols, and other applicable laws. This subsection
+does not apply to an Option 2 or Option 3 REP.
+(1)
+Technical and managerial resource requirements. The following are technical
+and managerial resource requirements a REP must maintain on an ongoing basis.
+(A)
+One or more principals or employees in managerial positions whose
+combined experience in the competitive electric industry or competitive gas
+industry equals or exceeds 15 years. A third-party provider’s experience
+may not be used to meet this requirement.
+(B)
+One executive officer or employee in a managerial position who has five
+years of experience in energy commodity risk management of a substantial
+energy portfolio. Alternatively, the REP may enter into a contract for a term
+not less than two years with a third-party provider of commodity risk
+management services that has been providing such services for a substantial
+energy portfolio for at least five years. A substantial energy portfolio means
+managing electricity or gas market risks with a minimum value of at least
+$10,000,000.
+(C)
+If providing retail electric service in the ERCOT region, compliance with
+all applicable ERCOT requirements, including:
+(i)
+execution of a service agreement with a QSE;
+(ii)
+maintaining the capability and effective procedures to be the
+primary point of contact for retail electric customers for distribution
+system service in accordance with applicable commission rules,
+including procedures for relaying outage reports to the TDU on a
+24-hour basis;
+
+§25.107-8
+
+effective 11/4/2026
+(P-59288)
+
+(iii)
+
+(2)
+
+providing outage notifications in accordance with § 25.53 of this
+title; and
+(iv)
+completing ERCOT flight test obligations.
+(D)
+A customer service plan that describes how the REP complies with the
+commission’s customer protection and anti-discrimination rules.
+Technical and managerial documentation requirements. The following
+information must be provided by an applicant to demonstrate compliance with the
+technical and managerial requirements under paragraph (1) of this subsection/
+(A)
+A list of all third-party providers accompanied by a description of each
+third-party provider’s responsibilities and delegation of authority, provided
+in Microsoft Excel format.
+(B)
+Resumes showing prior experience of one or more of the applicant’s
+principals or managerial employees in the competitive retail electric
+industry or competitive gas industry to demonstrate at least 15 years of
+experience and, if applicable, a resume showing one of the applicant’s
+executive officers or managerial employees possess at least five years’
+experience in commodity risk management.
+(C)
+If relying upon a third-party provider for commodity risk management
+services to satisfy the requirement for paragraph (1)(B) of this subsection,
+a copy of the executed contract is required.
+(D)
+Any complaint history, disciplinary record and compliance record during
+the ten years immediately preceding the filing of the application regarding
+the applicant; the applicant’s affiliates that provide utility-like services such
+as telecommunications, internet, broadband, electric, gas, water, or cable
+service; the applicant’s principals; and any person that merged with any of
+the preceding persons.
+(i)
+The complaint history, disciplinary record, and compliance record
+must include information from any federal agency including the
+U.S. Securities and Exchange Commission and the U.S. Commodity
+Futures Trading Commission; any self-regulatory organization
+relating to the sales of securities, financial instruments, physical or
+financial transactions in commodities, or other financial
+transactions; state public utility commissions, state attorney general
+offices, or other regulatory agencies in states where the applicant is
+doing business or has conducted business in the past including state
+securities boards or commissions, the Texas Secretary of State,
+Texas Comptroller’s Office, and Office of the Texas Attorney
+General. Relevant information must include the type of complaint,
+status of complaint, resolution of complaint, and the number of
+customers in each state where complaints occurred.
+(ii)
+The applicant may request to limit the inclusion of this information
+if it would be unduly burdensome to provide, so long as the
+information provided is adequate for the commission to assess the
+applicant’s and the complaint history of the applicant’s principals
+and affiliates, disciplinary record, and compliance record.
+§25.107-9
+
+effective 11/4/2026
+(P-59288)
+
+(iii)
+(E)
+
+Any complaint information on file at the commission may also be
+considered when reviewing the application.
+The following statements must be supported by a signed notarized affidavit
+made by an executive officer of the applicant.
+(i)
+A statement indicating whether the applicant or the applicant’s
+principals are currently under investigation or have been penalized
+by an attorney general or any state or federal regulatory agency for
+violation of any deceptive trade or consumer protection laws or
+regulations.
+(ii)
+A statement that identifies whether the applicant or applicant’s
+principals have been convicted or found liable for fraud, theft,
+larceny, deceit, or violations of any securities laws, customer
+protection laws, or deceptive trade laws in any state.
+(iii) A statement that the applicant will register with or be certified by
+the applicable independent organization and that the applicant will
+comply with the technical and managerial requirements of this
+subsection; and that third-party providers with whom the applicant
+has a contractual relationship are registered with or certified by the
+independent organization, as appropriate, and will comply with all
+system rules and protocols established by the applicable
+independent organization.
+(iv)
+A statement that identifies and, if applicable, describes the
+applicant’s relationship with any of the following persons.
+(I)
+Identification of all of the applicant’s principals, executive
+officers, employees, and third-party providers that:
+(-a-) exercised direct or indirect control over a REP that
+experienced a mass transition of the REP’s
+customers under §25.43 of this title (relating to
+Provider of Last Resort (POLR)) at any time within
+the six months prior to the mass transition;
+(-b-) exercised direct or indirect control over a market
+participant at any time within the six months prior to
+a market participant having had its ERCOT SFA
+terminated or a similar agreement for an applicable
+independent organization other than ERCOT
+terminated;
+(-c-) exercised direct or indirect control of a market
+participant within the prior six months of a market
+participant having exited an electricity or gas market
+with outstanding payment obligations that remain
+outstanding; or
+(-d-) have been barred, in any way, participation by
+commission order.
+
+§25.107-10
+
+effective 11/4/2026
+(P-59288)
+
+(II)
+
+(F)
+
+If a relationship exists as described in subclause (I) of this
+clause, the applicant must include in the affidavit for each
+such relationship:
+(-a-) the name of the person;
+(-b-) the name of the REP that experienced a mass
+transition of its customers under §25.43 of this title
+or market participant whose ERCOT SFA or similar
+agreement for an applicable independent
+organization was terminated or exited a market with
+outstanding payment obligations;
+(-c-) details about the person’s relationship with the REP
+or market participant;
+(-d-) factual statements about the events that necessitated
+this response, including, if applicable, whether and,
+if so, how the REP that experienced a mass transition
+of its customers under §25.43 of this title settled all
+outstanding payment obligations;
+(-e-) the person’s current relationship or position with the
+applicant; and
+(-f-) the extent of the person’s apparent or actual authority
+to act in such a way that may be perceived as having
+direct or indirect control over the applicant.
+(v)
+A statement affirming that the persons listed under paragraph (g)(1)
+of this section do not control the applicant and are not relied upon to
+meet the requirements of subsection (e)(1)(A) and (B) of this
+section.
+To document compliance with subsection (e)(1)(C) of this section, an
+applicant must provide:
+(i)
+all relevant information related to each service agreement executed
+with a QSE, including:
+(I)
+the term of the service agreement and date the service
+agreement began;
+(II)
+the name of the QSE;
+(III) the QSE’s contact name and title;
+(IV) the QSE’s physical address;
+(V)
+the QSE’s e-mail address and web address; and
+(VI) the QSE’s business telephone number and toll-free number;
+(ii)
+a confirmation that applicant has the capability and effective
+procedures to be the primary point of contact for retail electric
+customers for distribution system service in accordance with
+applicable commission rules, including procedures for relaying
+outage reports to the TDU on a 24-hour basis;
+(iii) a confirmation that applicant will provide outage notifications in
+accordance with §25.53 of this title; and
+
+§25.107-11
+
+effective 11/4/2026
+(P-59288)
+
+(iv)
+(f)
+
+a confirmation that applicant has or will soon complete ERCOT’s
+flight test obligation.
+
+Financial requirements. An Option 1 REP must, on an ongoing basis, maintain
+compliance with paragraph (1) of this subsection and, as applicable, paragraph (2) and (3)
+of this subsection. This subsection does not apply to an Option 2 or Option 3 REP.
+(1)
+Access to capital. A REP must maintain the requirements of subparagraph (A) or
+(B) of this paragraph on an ongoing basis.
+(A)
+A REP may maintain an executed version of the commission approved
+standard form irrevocable guaranty agreement.
+(i)
+The guarantor must be:
+(I)
+One or more affiliates of the REP;
+(II)
+A financial institution with an investment-grade credit
+rating; or
+(III) A provider of wholesale power supply for the REP, or a
+parent company, sister company, or subsidiary of a power
+provider with whom the REP has executed a power purchase
+agreement.
+(ii)
+The guarantor must have:
+(I)
+An investment-grade credit rating; or
+(II)
+Tangible net worth greater than or equal to $100 million, a
+minimum current ratio (defined as current assets divided by
+current liabilities) of 1.0, and a debt to total capitalization
+ratio not greater than 0.60, where all calculations exclude
+unrealized gains and losses resulting from valuing to market
+the power contracts and financial instruments used as supply
+hedges to serve load.
+(B)
+A REP may maintain an irrevocable stand-by letter of credit with a face
+value as determined in clause (i) of this subparagraph, based on the number
+of electronic service identifiers (ESI IDs) the REP serves in the manner
+prescribed by clauses (ii) and (iii) of this subparagraph. Additionally, for
+the first 24 months a REP is serving load it must maintain not less than one
+million dollars in shareholders’ equity in accordance with clauses (iv) and
+(v) of this subparagraph
+(i)
+Number of ESI IDs
+
+Required Value of Letter of
+Credit
+
+< 50,000
+
+$750,000
+
+≥ 50,000
+
+$1,500,000
+
+§25.107-12
+
+effective 11/4/2026
+(P-59288)
+
+(ii)
+
+(2)
+
+The number of ESI IDs includes all customer classes to which a REP
+provides retail electric service.
+(iii) As the number of ESI IDs served by the REP increases, the
+irrevocable stand-by letter of credit must be adjusted to reflect the
+required value as determined in clause (i) of this subparagraph. As
+the number of ESI IDs served by the REP decreases, the irrevocable
+stand-by letter of credit may be adjusted to reflect the required value
+as determined in clause (i) of this subparagraph.
+(iv)
+For the first 24 months a REP is serving load, a REP must not make
+any distribution or other payment to any shareholder, person, or
+other entity if, after giving effect to the distribution or other
+payment, the REP’s shareholders’ equity is less than one million
+dollars. Distributions or other payments include dividend
+distributions, redemptions and repurchases of equity securities, and
+loans.
+(v)
+After a REP has continuously served load for 24 months, a
+prescribed amount of maintained shareholders’ equity is no longer
+required.
+Customer deposits and prepayments. A REP certified to collect customer
+deposits must comply with this paragraph and the requirements of §25.478 of this
+title (relating to Credit Requirements and Deposits). A REP certified to collect
+customer prepayments must comply with this paragraph and the requirements of
+§25.498 of this title (relating to Prepaid Service).
+(A)
+A REP must maintain customer deposits and prepayments in an escrow
+account, segregated cash account, or provide an irrevocable stand-by letter
+of credit.
+(i)
+If a REP is certified to collect both customer deposits and
+prepayments then the REP must use and maintain either an escrow
+account, segregated cash account, or irrevocable stand-by letter of
+credit to protect customer deposits and prepayments. If a REP uses
+an escrow account or segregated cash account, the same account
+must be used for customer deposits and prepayments. More than
+one irrevocable stand-by letter of credit can be provided to protect
+customer deposits and prepayments.
+(ii)
+For customer deposits, the escrow account, segregated cash account,
+or an irrevocable stand-by letter of credit must be adjusted, as
+necessary, to maintain a minimum of 100% coverage of the REP’s
+outstanding customer deposits held at the close of each calendar
+month.
+(iii) For customer prepayments, a REP must maintain, at minimum,
+protection for all customer prepayments that equals or exceeds $50.
+The balance of an escrow account, segregated cash account, or an
+irrevocable stand-by letter of credit must be adjusted, as necessary,
+to maintain a minimum of 100% coverage of customer prepayment
+
+§25.107-13
+
+effective 11/4/2026
+(P-59288)
+
+(3)
+
+(4)
+
+funds equal to or exceeding $50 held at the close of each calendar
+month.
+(B)
+Any irrevocable stand-by letter of credit provided under this paragraph must
+be in addition to the irrevocable stand-by letter of credit required by
+paragraph (1)(B) of this subsection.
+Bankruptcy disclosure. If a REP files a petition for bankruptcy, is the subject of
+an involuntary bankruptcy proceeding, or in any other manner becomes insolvent,
+including being in default with the applicable independent organization or with a
+TDU:
+(A)
+The REP must notify the commission within three working days of this
+event and must file with the commission a summary of the nature of the
+event; and
+(B)
+The notification must be filed in the commission control number established
+for notices prescribed under this paragraph. If the REP has filed a petition
+for bankruptcy, then the REP must include in its filing the petition that
+initiated the bankruptcy.
+Financial documentation requirements. The following must be provided by an
+applicant to demonstrate compliance with the financial requirements under
+paragraphs (1), (2), and (3) of this subsection, as applicable. Additionally, the
+applicant must provide the month and last day of the applicant’s reporting fiscal
+year or, if the applicant has a guarantor, the guarantor’s reporting fiscal year. The
+applicant must also provide a summary of any history of insolvency, bankruptcy,
+dissolution, merger, or acquisition of the applicant or any predecessors in interest
+during the 60 calendar months immediately preceding the filing of the application.
+(A)
+Investment-grade credit ratings must be documented by reports from a
+credit reporting agency. The report the applicant provides must be the most
+recently released report by the credit reporting agency.
+(B)
+Tangible net worth, current ratio, and debt to capitalization ratio
+calculations must be supported by a signed, notarized affidavit from an
+executive officer of the guarantor that attests to the accuracy of the
+calculations and be documented by audited or unaudited financial
+statements of the guarantor for the most recently completed quarter.
+(i)
+Audited financial statements must include the independent auditor’s
+report and accompanying notes.
+(ii)
+Unaudited financial statements must include a signed, notarized
+affidavit, in addition to any other provided affidavits, which attests
+to the accuracy, in all material respects, of the information provided
+in the unaudited financial statements.
+(iii) Three consecutive months of monthly statements may be submitted
+in lieu of quarterly statements, if quarterly statements are not
+available.
+(iv)
+The requirement for financial statements may be satisfied by filing
+a copy of, or providing an electronic link, to the guarantor’s most
+recent financial statements filed with any agency of the federal
+
+§25.107-14
+
+effective 11/4/2026
+(P-59288)
+
+(C)
+
+(D)
+
+government, including the U.S. Securities and Exchange
+Commission.
+Shareholders’ equity must be documented by the audited or unaudited
+financial statements of the applicant for the most recently completed
+quarter.
+(i)
+Audited financial statements must include the independent auditor’s
+report and accompanying notes.
+(ii)
+Unaudited financial statements must include a signed, notarized
+affidavit, in addition to any other provided affidavits, which attests
+to the accuracy, in all material respects, of the information provided
+in the unaudited financial statements.
+(iii) Three consecutive months of monthly statements may be submitted
+in lieu of quarterly statements, if quarterly statements are not
+available.
+(iv)
+The requirement for financial statements may be satisfied by filing
+a copy of, or providing an electronic link, to the REP’s most recent
+financial statements filed with any agency of the federal
+government, including the U.S. Securities and Exchange
+Commission.
+Segregated cash accounts must be documented by a current account
+statement, the executed agreement with the provider of credit that maintains
+(i.e., controls) the segregated cash account if applicable, and a separate
+written statement detailing information about the segregated cash account.
+(i)
+The account statement must clearly identify:
+(I)
+the name of the financial institution where the applicant has
+established the account;
+(II)
+the account number; and
+(III) the account name.
+(ii)
+The account must be maintained at a financial institution that is
+supervised or examined by the Board of Governors of the Federal
+Reserve System, the Office of the Comptroller of the Currency, or a
+state banking department and is a:
+(I)
+U.S. domestic bank; or
+(II)
+a domestic office of a foreign bank with an investment-grade
+credit rating.
+(iii) If applicable, the agreement executed with the provider of credit that
+governs the control and management of the account must be filed
+with the commission.
+(iv)
+the separate written statement detailing information about the
+segregated cash account must:
+(I)
+clearly indicate whether the segregated cash account is
+designated for containing only customer deposits,
+prepayments, or both;
+(II)
+include, as applicable, the amount of customer deposits or
+advanced prepayments held within the account; and
+§25.107-15
+
+effective 11/4/2026
+(P-59288)
+
+(III)
+
+(E)
+
+(F)
+
+affirm that the financial institution meets the criteria of
+clause (ii) of this subparagraph.
+Escrow accounts must be documented by a current account statement and
+the executed escrow account agreement.
+(i)
+The account statement must clearly identify:
+(I)
+the name of the financial institution where the applicant has
+established the account;
+(II)
+the account number; and
+(III) the account name, which must clearly indicate the account is
+designated for containing only customer deposits,
+prepayments, or both.
+(ii)
+The account must be maintained at a financial institution that is
+supervised or examined by the Board of Governors of the Federal
+Reserve System, the Office of the Comptroller of the Currency, or a
+state banking department and is a:
+(I)
+U.S. domestic bank; or
+(II)
+a domestic office of a foreign bank with an investment-grade
+credit rating.
+(iii) The escrow account agreement must provide that the account holds
+only customer deposits, prepayments, or both, and that the customer
+deposits will be held in trust by the escrow agent.
+Except as otherwise provided, for amendments under clause (v) of this
+subparagraph or cancellations or non-extensions under clause (vi) of this
+subparagraph, irrevocable stand-by letters of credit provided under
+paragraphs (1) and (2) of this subsection must use the standard form
+irrevocable stand-by letter of credit template approved by the commission
+without variation from the prescribed terms.
+(i)
+The irrevocable stand-by letter of credit must be issued by a
+financial institution that is supervised or examined by the Board of
+Governors of the Federal Reserve System, the Office of the
+Comptroller of the Currency, or a state banking department and is a:
+(I)
+U.S. domestic bank; or
+(II)
+a domestic office of a foreign bank with an investment-grade
+credit rating.
+(ii)
+The irrevocable stand-by letter of credit must:
+(I)
+be an original document;
+(II)
+adhere to the terms specified by the applicable standard form
+irrevocable stand-by letter of credit template without
+variation;
+(III)
+
+contain a verifiable electronic signature in accordance with
+clause (iii) of this subparagraph and, if required by the
+commission, other acceptable means of authentication in
+accordance with clause (iv) of this subparagraph; and(IV)
+comply with clause (v) of this subparagraph for
+§25.107-16
+
+effective 11/4/2026
+(P-59288)
+
+(iii)
+
+(iv)
+
+(v)
+
+amendments to and clause (vi) for terminations of an
+irrevocable, stand-by letter of credit, as applicable
+(V)
+be filed in Project 37919.
+For purposes of an irrevocable stand-by letter of credit, a verifiable
+electronic signature includes:
+(I)
+a signature from a representative of the issuing bank with the
+authority to issue an irrevocable stand-by letter of credit; and
+(II)
+the date the irrevocable stand-by letter of credit was signed
+(i.e., issued).
+The commission may require other means of authenticating an
+irrevocable stand-by letter of credit, which may include the
+following:
+(I)
+a written statement from the issuing financial institution
+verifying the authenticity of the irrevocable stand-by letter
+of credit;
+(II)
+documentation from the issuing financial institution
+identifying the persons authorized to sign the irrevocable
+stand-by letter of credit on behalf of the financial institution
+(e.g., a certificate of incumbency); or
+(III) a sworn affidavit signed by a principal or executive officer
+of the REP attesting to the authenticity of the irrevocable
+stand-by letter of credit.
+An amendment to an irrevocable stand-by letter of credit must be
+filed in Project 37919 and comply with this clause.
+(I)
+An amendment to an irrevocable stand-by letter of credit
+involving an increase to the face value or a non-material
+change to the irrevocable stand-by letter of credit (e.g.,
+address, contact information, changes to expiration dates for
+renewals, etc.) is effective immediately. .
+(II)
+An amendment to an irrevocable stand-by letter of credit
+involving a request to decrease the face value of the
+irrevocable stand-by letter of credit is effective only upon the
+issuance of a written acceptance signed by the commission’s
+authorized representative approving the change.
+Additionally, an amendment to decrease the value of the
+irrevocable stand-by letter of credit must be accompanied by
+an affidavit that:
+(-a-) is sworn;
+(-b-) is signed by an executive officer of the REP;
+(-c-) includes the date the affidavit was signed; and
+(-d-) includes a written statement indicating, as
+applicable, either the current number of ESI IDs the
+REP serves or the value of customer deposits and
+prepayments the REP is liable for.
+
+§25.107-17
+
+effective 11/4/2026
+(P-59288)
+
+(III)
+
+(vi)
+
+In addition to the requirements of subclause (I) or (II) of this
+clause, as applicable, an amendment to an irrevocable standby letter of credit must substantially adhere to the
+commission-prescribed form for such amendments and
+must, at a minimum, include:
+(-a-) the number or identifier applicable to the irrevocable
+stand-by letter of credit being amended;
+(-b-) the original effective date of the irrevocable stand-by
+letter of credit being amended including, if
+applicable, the previous effective date of the most
+recent amendment;
+(-c-) the full business name and contact information,
+including an e-mail address, of the issuing financial
+institution and the applicant;
+(-d-) information identifying whether the amendment
+involves an increase or decrease, including the face
+value of the previously effective irrevocable standby letter of credit immediately followed by the new
+face value of the irrevocable stand-by letter of credit;
+(-e-) the new effective date of the amendment, as
+applicable under subclause (I) or (II) of this clause;
+(-f-) the following language: “All other terms and
+conditions of the Irrevocable Stand-By Letter of
+Credit remain unchanged.”; and
+(-g-) the name, title, contact information, and signature of
+a representative of the issuing financial institution.
+Termination of an irrevocable stand-by letter of credit may be
+effectuated through one of the following methods under subclause
+(I) or (II) of this clause.
+(I)
+Cancellation. The cancellation of an irrevocable stand-by
+letter of credit is effective only upon:
+(-a-) the filing of a written statement with the commission
+that substantially adheres to the commissionprescribed form for cancellations and complies with
+the requirements of subclause (III) of this clause; and
+(-b-) written acceptance by the commission.
+(II)
+Non-extension. The non-extension of an irrevocable standby letter of credit is effective only upon the filing of a written
+statement with the commission, provided at least 90 days
+prior to the expiry date of the irrevocable stand-by letter of
+credit that substantially adheres to the commissionprescribed form for non-extensions and complies with the
+requirements of subclause (III) of this clause; and
+(III) A statement cancelling an irrevocable stand-by letter of
+credit or otherwise notifying the commission of non§25.107-18
+
+effective 11/4/2026
+(P-59288)
+
+(5)
+
+extension of an irrevocable stand-by letter of credit must, at
+a minimum, include:
+(-a-) the number or identifier of the irrevocable stand-by
+letter of credit used by the financial institution;
+(-b-) the date the irrevocable stand-by letter of credit was
+effective and the date the written statement was filed;
+(-c-) the face value of the irrevocable stand-by letter of
+credit;
+(-d-) the name of the applicant associated with the
+irrevocable stand-by letter of credit; and
+(-e-) as applicable, the expiry date of the irrevocable
+stand-by letter of credit.
+(vii) Unless otherwise specified by the terms of the irrevocable stand-by
+letter of credit, the return of a physical copy of an irrevocable standby letter of credit to the issuing financial institution or REP is not
+required.
+(G)
+Irrevocable guaranty agreements must be executed on the commission
+approved standard form irrevocable guaranty agreement and must obligate
+the guarantor to meet commission’s demands on behalf of the applicant. A
+copy of the executed irrevocable guaranty agreement must be provided in
+the manner established by the commission.
+(i)
+The guarantor’s obligation to satisfy a commission demand for
+payment must be in an amount not less than $1,500,000 and must be
+absolute, and the guarantor may not avoid its obligation for any
+reason.
+(ii)
+The irrevocable guaranty agreement must automatically renew and
+only expire if prior notice is provided to the commission at least 90
+days before expiration. Commission staff must sign a notice of nonrenewal to acknowledge that the notice was received at least 90 days
+prior to the date of expiration. Any notices or amendments must be
+provided to the commission in a commission approved method.
+Until the 90 days advance notice has elapsed or until an amendment
+to the REP’s financial qualifications is approved, whichever occurs
+first, the guarantor must remain completely and absolutely liable to
+the extent provided by the terms of the agreement.
+(H)
+A power purchase agreement must be documented by providing a copy of
+the executed agreement between the applicant and the guarantor.
+Commission draw on financial instruments. The commission may seek full or
+partial funds from a REP’s financial resources in any of the following
+circumstances:
+(A)
+An applicable independent organization performs a mass transition of a
+REP’s customers under §25.43 of this title;
+(B)
+The commission issues an order revoking a REP’s certificate;
+
+§25.107-19
+
+effective 11/4/2026
+(P-59288)
+
+(C)
+
+(6)
+
+(g)
+
+ERCOT terminates a REP’s SFA or the applicable independent
+organization terminates a similar agreement and the REP’s financial
+resource expires in 30 days less; or
+(D)
+The commission’s executive director determines that a REP has failed to
+satisfy its financial obligations under PURA, the commission’s substantive
+rules, or the applicable independent organization’s protocols; and the
+financial resource expires in 30 days or less.
+Proceeds from financial instruments.
+(A)
+Proceeds from an irrevocable stand-by letter of credit or irrevocable
+guaranty agreement provided under this subsection may be used to satisfy
+the following obligations of a REP, in the following order of priority:
+(i)
+first, if available, to assist in the payment of residential customer
+deposits to retail electric providers that volunteer to provide service
+in a mass transition event under §25.43 of this title of low-income
+customers as identified by the Low-Income List Administrator
+under §25.45 of this title (relating to Low-Income List
+Administrator);
+(ii)
+second, if available, to assist in the payment of residential customer
+deposits to retail electric providers that are designated to provide
+service in a mass transition event under §25.43 of this title of lowincome customers as identified by the Low-Income List
+Administrator under §25.45 of this title;
+(iii) third, if available, to assist in the payment of residential customer
+deposits to retail electric providers that volunteer to provider service
+in a mass transition event under §25.43 of this title, and to retail
+electric providers that are designated to provide service in a mass
+transition event under §25.43 of this title;
+(iv)
+fourth, for services provided by the independent organization related
+to serving customer load;
+(v)
+fifth, for services provided by a TDU; and
+(vi)
+sixth, for administrative penalties assessed under Chapter 15 of
+PURA or commission rules.
+(B)
+Proceeds from an irrevocable stand-by letter of credit or irrevocable
+guaranty agreement provided under this subsection must, to the extent that
+the proceeds are not needed to satisfy an obligation set out in subparagraph
+(A) of this paragraph, be paid to the applicable entity identified as the
+Applicant on the irrevocable stand-by letter of credit or the Guarantor on
+the irrevocable guaranty agreement.
+
+Persons prohibited from exercising control. An Option 1 REP must maintain compliance
+with this subsection at all times. This subsection does not apply to an Option 2 or Option
+3 REP.
+(1)
+In no instance may any of the following persons control the REP or be relied upon
+to meet the requirements of subsections (d) and (e) of this section:
+
+§25.107-20
+
+effective 11/4/2026
+(P-59288)
+
+(A)
+
+(2)
+
+(h)
+
+A person who was a principal of a market participant, at any time within the
+six months prior to the market participant:
+(i)
+experiencing a mass transition of the REP’s customers under §25.43
+of this title;
+(ii)
+having their ERCOT SFA, or similar agreement for an independent
+organization other than ERCOT terminated; or
+(iii) exiting an electricity or gas market with outstanding payment
+obligations that, at the time of the application or amendment, remain
+outstanding; or
+(B)
+A person who, by commission order, is prohibited from serving as a
+principal for any commission-regulated entity.
+If an independent organization or TDU is aware that a person who is otherwise
+barred from exercising direct or indirect control over a REP is acting in violation
+of this section or other commission substantive rules, the independent organization
+or TDU has an affirmative duty to report this information to the division of the
+commission charged with enforcement of the commission’s substantive rules.
+
+Update or relinquishment of certification. A REP must maintain and update the
+information required by subsections (d), (e), and (f) of this section, as applicable, on an
+ongoing basis.
+(1)
+A REP must electronically submit updated information in the manner established
+by the commission within five working days of any change to its contact
+information as identified in subsection (d)(1)(D) or this section.
+(2)
+A REP must apply to amend its certification within ten working days from the
+occurrence of a material change to its certification. A REP may apply for the
+commission to approve a material change by filing an application to amend its
+certification before the material change is anticipated to occur. A material change
+includes:
+(A)
+a change in control of the REP including a change in the controlling owner,
+a corporate restructuring that involves the REP, a transfer of a REP
+certificate, or a change in the persons that have a minimum of ten percent
+ownership of the REP or a controlling parent of the REP, but not including
+a change in the ownership percentages of individual owners;
+(B)
+a name change (including addition or deletion of assumed names);
+(C)
+for Option 1 REPs, a change in service area;
+(D)
+for Option 1 REPs, a change in technical or managerial qualifications,
+including
+(i)
+any information previously provided or attested to under the
+technical and managerial requirements of subsection (e)(1)(A) and
+(B) of this section that correspond with the documentation
+requirements under subsection (e)(2)(B) and (C), and (E)(iv) and (v)
+of this section. Such information includes:
+(ii)
+personnel relied upon for experience, and
+(iii) changes, termination, or expiration of a contract to provide
+commodity risk management services;
+§25.107-21
+
+effective 11/4/2026
+(P-59288)
+
+(iv)
+
+(3)
+
+a change in identification of any of the applicant’s principals,
+executive officers, employees, and third-party providers that meet
+the criteria under subsection (e)(2)(E)(iv)(I) of this section, or a
+change in the applicant’s relationship with such persons under
+subsection(e)(2)(E)(iv)(II) of this section, if such a relationship
+exists; and
+(v)
+a change necessitating an updated statement affirming that the
+persons identified under subsection (g)(1) of this section do not
+control the REP and are not relied upon to meet the requirements of
+subsection (e)(1)(A) and (B) of this section; and
+(E)
+for Option 1 REPs, a change in financial qualifications, including:
+(i)
+the REP’s certificated method for maintaining its access to capital
+requirement of subsection (f)(1) of this section, including
+terminations made to the irrevocable guaranty agreement or power
+purchase agreement;
+(ii)
+the certificated method for protecting its customer deposits and
+prepayments, and
+(iii) the approved account for protecting customer deposits and
+prepayments;
+(F)
+a change in REP’s type of certification as an Option 1, Option 2, or Option
+3 REP; and
+(G)
+for Option 2 REPs, the addition or removal of customers served by the
+Option 2 REP.
+A REP that no longer serves customers may relinquish its REP certificate by filing
+an application for relinquishment on a form prescribed by the commission. A REP
+that does not serve customers for two consecutive years must relinquish its
+certificate. Prior to relinquishing its certificate, the REP must no longer serve any
+customers. At least 45 days prior to ceasing operations, a REP that intends to cease
+operations as a REP and is not seeking to relinquish its REP certificate must file a
+notice in the commission control number established under this paragraph to notify
+the commission of a REP ceasing operations. A REP must not cease operations as
+a REP without prior notice of at least 45 days to each of the REP’s customers to
+whom the REP is providing service on the planned date of cessation of operations.
+The REP must also notify, the Low Income Discount Administrator, the applicable
+independent organization, and all TDUs and the providers of last resort for service
+territories in which the REP serves customers. As applicable, a REP must also
+notify all electric cooperatives and municipally owned utilities in whose service
+territory the REP serves customers. If a REP improperly transfers customers
+without providing adequate notice, under §25.493 of this title (relating to
+Acquisition and Transfer of Customers from One Retail Electric Provider to
+Another) then the REP may be subject to enforcement proceedings even after
+relinquishment of its certificate. Within the application to relinquish its certificate
+a REP must include a statement explaining whether customers’ deposits were
+refunded to the customers or transferred to an alternative REP. The statement must
+be supported by a signed, notarized affidavit from an executive officer of the REP.
+§25.107-22
+
+effective 11/4/2026
+(P-59288)
+
+(4)
+
+(i)
+
+A REP that applies to amend its certification must:
+(A)
+state the effective date of each material change that prompted the
+amendment application; and
+(B)
+identify whether it is currently providing service to customers in Texas.
+
+Reporting requirements. An Option 1 REP must file with the commission an annual and
+a semi-annual report each year. Option 2 and Option 3 REPs do not have reporting
+obligations under this section.
+(1)
+The annual report is due on March 5, or
+(A)
+65 days after the end of the REP’s fiscal year; or
+(B)
+if the REP elects to maintain an executed version of the commission
+approved standard form irrevocable guaranty agreement as its access to
+capital requirement under subsection (f)(1)(A) of this section, then 65 days
+after the end of the guarantor’s fiscal year.
+(2)
+The semi-annual report is due on August 15, or
+(A)
+225 days after the end of the REP’s fiscal year; or
+(B)
+if the REP elects to maintain an executed version of the commission
+approved standard form irrevocable guaranty agreement as its access to
+capital requirement under subsection (f)(1)(A) of this section, then 225 days
+after the end of the guarantor’s fiscal year.
+(3)
+The annual and semi-annual report must include the following information.
+(A)
+A signed, notarized affidavit from an executive officer affirming that the
+certificate holder is not in material violation of any of the requirements of
+its certificate under this section and that the information reported in the
+entire report is true and correct.
+(B)
+Any changes in ownership, control, corporate restructuring, or transfer of a
+REP certificate.
+(C)
+Any changes in management, experience, and persons relied on for
+certification in subsection (e) of this section including the person or thirdparty provider acting as the REP’s risk manager.
+(D)
+A list of all principals, provided in Microsoft Excel format.
+(E)
+A list of all executive officers, provided in Microsoft Excel format.
+(F)
+A list of all third-party providers and a description of their responsibilities
+and delegation of authority, provided in Microsoft Excel format.
+(G)
+For a REP providing retail electric service in the ERCOT region, a copy of
+the REP’s current LSE contact information kept on file with ERCOT,
+including a copy of each Notice of Change of Information submitted to
+ERCOT since the REP’s last annual or semi-annual report was filed. If the
+REP’s designated QSE is the same entity as the REP or an affiliate of the
+REP or REP’s corporate parent, the REP must also include a copy of the
+current QSE and counter party contact information kept on file with
+ERCOT, including a copy of all notices of change of information submitted
+to ERCOT in the time since the REP’s last annual or semi-annual report was
+filed.
+
+§25.107-23
+
+effective 11/4/2026
+(P-59288)
+
+(H)
+
+(4)
+
+(5)
+
+(j)
+
+Demonstration of ongoing compliance with the financial requirements of
+subsection (f) of this section.
+(i)
+This can include:
+(I)
+calculations demonstrating a guarantor’s adequate tangible
+net worth and financial ratios,
+(II)
+proof that a REP maintains adequate shareholders’ equity,
+(III) a statement of the value of customer deposits and
+prepayments the REP is currently liable for, and
+(IV) a current account statement demonstrating that the balance of
+the account in which customer deposits and prepayments are
+held 100% covers the value of customer deposits and
+prepayments the REP is liable for.
+(ii) A REP must submit relevant documentation as required by
+subsection (f)(4) of this section to demonstrate its ongoing
+compliance with the financial requirements of subsection (f)(1) and
+(2) of this section.
+(iii) Financial statements provided as part of the annual and semi-annual
+report must be as of the end of the most recent fiscal quarter.
+In addition to the information required in paragraph (3) of this subsection, the
+annual report must also include the following information.
+(A)
+Any changes in a REP’s contact information identified in subsection
+(d)(1)(D) of this section.
+(B)
+A list of aggregators with whom the REP has conducted business in the
+reporting period, and the commission registration number for each
+aggregator.
+(C)
+The information required by §25.491 of this title (relating to Record
+Retention and Reporting Requirements) and other commission rules, as
+applicable.
+Reporting under this subsection does not change the requirement for a REP to
+amend its certification to reflect the change in accordance with subsection (h) of
+this section.
+
+Protection of TDU financial integrity.
+(1)
+A TDU must not require a deposit from a REP except to secure the payment of
+transition charges as provided in §25.108 of this title (relating to Financial
+Standards for Retail Electric Providers Regarding Billing and Collection of
+Transition Charges), or if the REP has defaulted on one or more payments to the
+TDU. A TDU may impose credit conditions on a REP that has defaulted to the
+extent specified in its statewide standardized tariff for retail delivery service and as
+allowed by commission substantive rules.
+(2)
+A TDU must create a regulatory asset for bad debt expenses, net of collateral posted
+under paragraph (1) of this subsection and bad debt already included in its rates,
+resulting from a REP’s default on its obligation to pay delivery charges to the TDU.
+Upon a review of reasonableness and necessity, a reasonable level of amortization
+
+§25.107-24
+
+effective 11/4/2026
+(P-59288)
+
+of such regulatory asset will be included as a recoverable cost in the TDU’s rates
+in its next rate case or such other rate recovery proceeding as deemed necessary.
+(k)
+
+Revocation of a REP certificate. A certificate granted under this section may be revoked
+for a significant violation of PURA, commission substantive rules, or protocols adopted by
+the applicable independent organization. The revocation of a REP’s certificate requires the
+cessation of all REP activities in the state of Texas, in accordance with commission order.
+The commission may impose an administrative penalty on a person for a violation of
+PURA, commission substantive rules, or protocols adopted by an independent
+organization. Significant violations include, but are not limited to:
+(1)
+Providing false or misleading information to the commission, including a failure to
+disclose any information required by this section;
+(2)
+Engaging in fraudulent, unfair, misleading, deceptive, or anticompetitive practices,
+or unlawful discrimination;
+(3)
+Switching, or causing to be switched, the REP for a customer without first obtaining
+the customer’s permission;
+(4)
+Billing an unauthorized charge, or causing an unauthorized charge to be billed, to
+a customer’s retail electric service bill;
+(5)
+Failure to maintain continuous and reliable electric service to a customer or
+customers under this section;
+(6)
+Failure to maintain financial resources in accordance with subsection (f) of this
+section;
+(7)
+The inability to meet financial obligations on a reasonable and timely basis;
+(8)
+Failure to timely remit payment for invoiced charges to an independent
+organization;
+(9)
+Failure to observe any applicable scheduling, operating, planning, reliability, and
+settlement policies, protocols, guidelines, procedures, and other protocols
+established by an applicable independent organization;
+(10) A pattern of not responding to commission inquiries or customer complaints in a
+timely fashion;
+(11) Suspension or revocation of a registration, certification, or license by any state or
+federal authority;
+(12) Termination of the REP’s SFA with ERCOT or similar agreements with an
+applicable independent organization other than ERCOT;
+(13) Conviction of a felony by the certificate holder, a person controlling the certificate
+holder, or principal employed by the certificate holder, or any crime involving
+fraud, theft, or deceit related to the certificate holder’s service;
+(14) Failure to provide retail electric service to a customer or customers within 24
+months of the certificate being granted by the commission or ceasing to provide
+retail electric service for a period of 24 months;
+(15) Failure to serve as a POLR if required to do so by the commission under §25.43 of
+this title;
+(16) Failure to timely remit payment for invoiced charges to a TDU under §25.214, of
+this title (relating to Terms and Conditions of Retail Delivery Service Provided by
+Investor Owned Transmission and Distribution Utilities);
+§25.107-25
+
+effective 11/4/2026
+(P-59288)
+
+(17)
+(18)
+(19)
+(20)
+
+(l)
+
+Erroneously imposing switch-holds or failing to remove switch-holds within the
+timeline described in §25.480 of this title (relating to Bill Payment and
+Adjustments);
+Failure to comply with the terms of a suspension under subsection (l) of this section;
+Failure to comply with §25.272 of this title (relating to Code of Conduct for Electric
+Utilities and Their Affiliates); and
+Other significant violations or a pattern of failures to meet the requirements of
+PURA, commissions rules or orders, or protocols adopted by the applicable
+independent organization.
+
+Suspension of a REP’s ability to acquire new customers. The commission may suspend
+a REP’s ability to acquire new customers for a significant violation, as described by
+subsection (k) of this section. A suspension of a REP’s ability to acquire new customers
+may be limited to specific customer classes. The suspension order may also impose
+administrative penalties or other conditions for reinstatement on a REP whose ability to
+acquire new customers has been suspended.
+(1)
+Commission staff may initiate a proceeding for suspension of a REP’s ability to
+acquire new customers under this subsection by filing a petition for suspension.
+(A)
+Commission staff must provide reasonable notice of a petition for
+suspension to the affected REP in accordance with §22.54 of this title
+(relating to Notice to Be Provided by the Commission).
+(B)
+The REP may submit a request for hearing on the petition for suspension
+within 20 days after the date the REP receives notice of the petition. Notice
+is deemed to have been received upon the earlier of receipt of actual notice
+or three days after the order is mailed. A request for hearing received more
+than 20 days after the date the petition is received by the REP will be denied
+by the presiding officer.
+(C)
+If the REP does not submit a request for hearing within 20 days after
+receiving notice of the petition for suspension, the presiding officer may
+administratively approve the petition for suspension under §22.35 of this
+title (relating to Informal Disposition). The commission delegates authority
+to the presiding officer to approve a petition for suspension under this
+subsection with a notice of approval in accordance with §22.35(b)(1) of this
+title.
+(2)
+The executive director may suspend a REP’s ability to acquire new customers
+without prior notice or opportunity for a hearing in the form of a cease and desist
+order if the executive director determines that providing notice and an opportunity
+for a hearing is impracticable and that the conduct of the REP meets the criteria for
+issuing such an order under PURA §15.104(a)(2). In determining the practicability
+of providing notice and an opportunity for hearing, the executive director may
+consider, among other relevant factors, whether immediate action is necessary to
+ensure the REP is able to provide continuous and reliable service to its current or
+potential customers, reduce the risk of the REP exposing its current or potential
+customers to a mass transition event, or otherwise ensure the REP is able to meet
+its financial obligations. For purposes of determining whether the criteria of PURA
+§25.107-26
+
+effective 11/4/2026
+(P-59288)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+§15.104(a)(2) are met, the statutory term continuous and adequate electric service
+includes continuous and reliable electric service as defined in this section. If the
+executive director issues a cease and desist order suspending a REP’s ability to
+acquire new customers without prior notice or opportunity for a hearing, the
+procedural provisions of §25.54(d)(2) of this title (relating to Cease and Desist
+Orders) apply.
+In addition to any other applicable requirements, an order suspending a REP’s
+ability to acquire new customers must describe the conduct of the of the REP and
+the significant violations that support the issuance of the order. The order must also
+describe any conditions the REP must meet for reinstatement.
+If appropriate, an order suspending a REP’s ability to acquire new customers may
+also include specific, verifiable conditions for expedited reinstatement. The
+conditions for expedited reinstatement may require actions beyond those required
+to come into compliance with applicable law and may include verification from
+commission staff that the conditions for expedited reinstatement have been met,
+verification that commission staff has not identified any reasons the suspension
+should remain in effect, or a deadline for meeting one or more of the conditions.
+Expedited reinstatement is not appropriate if the basis for the suspension cannot be
+redressed by the fulfillment of specific, predetermined remedial actions, if the
+pattern of conduct giving rise to the suspension supports a general concern about
+the REP's ability to comply with applicable law or provide customers with
+continuous and reliable service, or if there is evidence that may support additional
+grounds for suspension. If appropriate, a compliance docket will be opened for
+filings relevant to this paragraph. If the REP fulfills the conditions for expedited
+reinstatement and files all required supporting documentation, commission staff
+must lift the suspension, notify ERCOT of the reinstatement, and file a notice of
+reinstatement as soon as practicable. If commission staff verification is required
+and commission staff does not agree that expedited reinstatement is appropriate
+under the terms of the suspension order, the REP may seek reinstatement under
+paragraph (6) of this subsection.
+A REP that has its ability to acquire new customers suspended must cease, within
+three working days, the solicitation or enrollment of new customers and the
+applicable independent organization will be directed to report to commission staff,
+on a weekly basis, any new customers that have been added by the REP. In this
+subparagraph, the term “enrollment” means the act of executing a contract with an
+applicant for the provision of electric service but does not include renewing the
+contract of an existing customer.
+A REP may request reinstatement by filing a petition for reinstatement. The
+commission delegates authority to the presiding officer to approve a petition for
+reinstatement under this subsection with a notice of approval in accordance with
+§22.35(b)(1) of this title. In determining whether to lift the suspension, the
+presiding officer may consider, as appropriate, whether:
+(A)
+the REP has resolved all violations underlying the suspension and fulfilled
+all conditions for reinstatement;
+
+§25.107-27
+
+effective 11/4/2026
+(P-59288)
+
+(B)
+
+(7)
+
+(8)
+
+the REP is in compliance with all or specific individual technical,
+managerial, and financial requirements in this section; and
+(C)
+there exist any additional grounds that would support the suspension of the
+REPs ability to acquire new customers under this subsection.
+A REP subject to suspension of acquiring new customers under this section must
+continue to serve existing customers and maintain compliance with PURA,
+commission substantive rules, and protocols adopted by the applicable independent
+organization. Suspension of the ability to acquire new customers does not impact
+a REP’s obligation to timely initiate service to a customer that completed
+enrollment with the REP prior to the effective date of the suspension, even if the
+scheduled service initiation date falls within the suspension period.
+Nothing in this subsection limits the commission’s ability to revoke a REP’s
+certificate, proceed with a draw on a REP’s financial instruments, or impose
+administrative penalties. Commission staff retains the discretion to seek to revoke
+the certificate of a REP subject to suspension.
+
+§25.107-28
+
+effective 11/4/2026
+(P-59288)
+
+

@@ -1,0 +1,444 @@
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+Subchapter O.
+
+UNBUNDLING AND MARKET POWER.
+
+DIVISION 2.
+
+INDEPENDENT ORGANIZATIONS
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+§25.365. Independent Market Monitor.
+(a)
+
+Purpose. The purpose of this section is to define the responsibilities and authority of the independent
+market monitor (IMM) for the ERCOT wholesale markets, establish the standards for funding the
+IMM, specify the staffing requirements and qualifications for the IMM, and establish ethics standards
+for the IMM. This section also specifies the relationship of the IMM to the commission, to ERCOT,
+and to market participants. The IMM shall operate under the commission's supervision and oversight,
+but the IMM shall offer independent analysis to the commission to assist in making judgments in the
+public interest.
+
+(b)
+
+Definitions. The following words and terms when used in this section shall have the following
+meaning, unless the context indicates otherwise:
+(1)
+Independent Market Monitor (IMM) — Depending on the context, the office of the IMM
+or the director of the IMM and its staff.
+(2)
+Market — The course of commercial activity by which the exchange of goods or services is
+effected. As used in this section, the term may refer to an entire market or a portion of a
+market.
+(3)
+Market participant — Any person or entity participating in the power region's wholesale
+markets, or engaging in any activity that is in whole or in part the subject of the ERCOT
+protocols, regardless of whether the person or entity has executed an agreement with
+ERCOT. This definition includes, but is not limited to, a load-serving entity (including a
+municipally-owned utility and an electric cooperative), a retail electric provider, a qualified
+scheduling entity, a power marketer, a transmission and distribution utility, a power
+generation company, a qualifying facility, an exempt wholesale generator, a load acting as a
+resource, and any entity conducting planning, scheduling, or operating activities on behalf of
+such market participants.
+
+(c)
+
+Objectives of market monitoring. The IMM shall monitor wholesale market activities so as to:
+(1)
+Detect and prevent market manipulation strategies and market power abuses; and
+(2)
+Evaluate the operations of the wholesale market and the current market rules and proposed
+changes to the market rules, and recommend measures to enhance market efficiency.
+
+(d)
+
+Responsibilities of the IMM. The IMM shall gather and analyze information and data as needed for
+its market monitoring activities. The duties and responsibilities of the IMM may include:
+(1)
+Monitoring all markets in the power region for energy, capacity services, and congestion
+revenue rights, and the ERCOT protocols and related procedures and practices that affect
+supply, demand, and the efficient functioning of such markets;
+(2)
+Developing and regularly monitoring market screens and indices to identify abnormal events
+in the power region's wholesale markets;
+(3)
+Analyzing events that fail the screens and other abnormal activities and market events, using
+computer simulation and advanced quantitative tools as necessary;
+(4)
+Developing and regularly monitoring performance measures to evaluate market participants'
+and ERCOT's compliance with the ERCOT protocols and operating guides;
+(5)
+Assessing the effectiveness of ERCOT's management of the energy, ancillary capacity
+services, and congestion rights markets operated by ERCOT, and evaluating the
+effectiveness of congestion management by ERCOT;
+(6)
+Conducting market power tests and other analyses related to market power determination;
+(7)
+Analyzing the ERCOT protocols and other market rules and proposed changes to those rules
+to identify opportunities for strategic manipulation and other economic inefficiencies, as well
+as potential areas of improvement;
+
+§25.365--1
+
+effective date 04/29/07
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+Subchapter O.
+
+UNBUNDLING AND MARKET POWER.
+
+DIVISION 2.
+
+INDEPENDENT ORGANIZATIONS
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+§25.365(d) continued
+(8)
+(9)
+
+(10)
+(11)
+(12)
+(13)
+
+Conducting investigations of specific market events;
+Providing expert testimony services relating to the IMM's independent analysis, findings, and
+expertise, as part of the commission staff's case in enforcement proceedings initiated by the
+executive director in accordance with §22.246 of this title (relating to Administrative
+Penalties) or other commission proceedings;
+Maintaining a market oversight website to share market information with the public;
+Preparing market monitoring reports as required under subsection (k);
+Recommending to the commission measures to enhance the efficiency of the wholesale
+market and methods to correct market design flaws it has identified; and
+Performing any additional duties required by the commission within the scope of the Public
+Utility Regulatory Act §39.1515.
+
+(e)
+
+Authority of the IMM.
+(1)
+The IMM has the authority to conduct monitoring, analysis, reporting, and related activities
+but has no enforcement authority.
+(2)
+The IMM has the authority to question a market participant about activities that may violate
+commission rules or ERCOT protocols or may be potential market manipulations. The IMM
+may inform a market participant that its activities may be in violation of commission rules or
+ERCOT protocols or operating guides, subject to the restrictions established by subsection
+(j)(2) of this section.
+(3)
+The IMM has the authority to require submission of any information and data it considers
+necessary to fulfill its monitoring and investigative responsibilities by ERCOT and by market
+participants. Market participants and ERCOT shall provide complete, accurate, and timely
+responses to all IMM requests for documents, data, information, and other materials.
+(4)
+The IMM may require that each market participant designate one or more points of contact
+that can answer questions the IMM may have regarding a market participant's operations or
+market activities.
+
+(f)
+
+Selection of the IMM. ERCOT and the commission shall contract with an entity selected by the
+commission to act as the commission's wholesale market monitor. The IMM shall be established as
+an office independent from ERCOT, and is not subject to the supervision of ERCOT with respect to
+its monitoring and investigative activities.
+
+(g)
+
+Funding of the IMM. The budget and expenditures of the IMM are subject to commission
+supervision and oversight. Financial controls and reporting procedures shall be implemented by the
+IMM and ERCOT to ensure that expenditures are consistent with the budget that was approved by the
+commission, and with this section.
+(1)
+ERCOT shall fund the operations of the IMM using money from the rate authorized by
+PURA §39.151.
+(2)
+The funding of the IMM shall be sufficient to ensure that the IMM has the resources and
+expertise necessary to monitor the wholesale electric market effectively, as determined by
+the commission.
+(3)
+ERCOT shall maintain separate accounts of expenditures in support of the IMM.
+(4)
+ERCOT shall directly assign costs arising from the IMM function to the IMM whenever
+possible. To the extent overhead and shared expenses cannot be directly assigned, ERCOT
+shall allocate such expenses to the IMM based on appropriate cost causation factors.
+ERCOT shall maintain all records and work papers necessary to substantiate all direct
+charges and allocations to the IMM.
+
+§25.365--2
+
+effective date 04/29/07
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+Subchapter O.
+
+UNBUNDLING AND MARKET POWER.
+
+DIVISION 2.
+
+INDEPENDENT ORGANIZATIONS
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+§25.365 continued
+(h) Staffing requirements and qualification of IMM director and staff.
+(1)
+The director of the IMM shall have the qualifications necessary to oversee performance of
+the duties and responsibilities in subsection (c) of this section. The staff of the IMM shall
+have the qualifications needed to perform the market monitoring functions in subsection (c)
+of this section. The IMM director and staff shall be subject to background security checks as
+determined by the commission.
+(2)
+The staff of the IMM shall collectively possess a set of technical skills necessary to perform
+market monitoring functions, which typically includes economics, with a focus on market
+analysis and market competitiveness; power engineering; statistics and programming; and
+modeling, with a focus on optimization modeling.
+(i)
+
+Ethics standards governing the IMM director and staff.
+(1)
+During the period of a person's service with the IMM, the IMM director and an IMM
+employee shall not:
+(A)
+have a professional or financial interest in a market participant or an affiliate of a
+market participant; or own shares in a company that provides consulting services to
+a market participant;
+(B)
+serve as an officer, director, partner, owner, employee, attorney, or consultant for
+ERCOT or a market participant or an affiliate of a market participant;
+(C)
+directly or indirectly own or control securities in a market participant, an affiliate of
+a market participant, or direct competitor of a market participant or affiliate, except
+that it is not a violation of this rule if the IMM director or an IMM employee
+indirectly owns an interest in a retirement system, institution or fund that in the
+normal course of business invests in diverse securities independently of the control
+of the IMM director or employee; or
+(D)
+accept a gift, gratuity, or entertainment from ERCOT, a market participant, affiliate
+of a market participant, or an employee or agent of a market participant or affiliate
+of a market participant.
+(2)
+The IMM director or an IMM employee shall not directly or indirectly solicit, request from,
+suggest, or recommend to a market participant or affiliate of a market participant, or an
+employee or agent of a market participant or affiliate of a market participant, the
+employment of a person by a market participant or affiliate.
+(3)
+The commission may impose post employment restrictions for the IMM and its employees.
+
+(j)
+
+Confidentiality standards governing the IMM director and staff.
+(1)
+The IMM shall protect confidential information and data in accordance with the
+confidentiality standards established in PURA, the ERCOT protocols, commission rules, and
+other applicable laws. The requirements related to the level of protection to be afforded
+information protected by these laws and rules are incorporated in this section.
+(2)
+Unless otherwise notified by the commission legal staff, the IMM may not communicate
+with a market participant or with an ERCOT board member, officer, or employee, or with
+any other entity concerning a particular subject matter once the commission legal staff
+notifies the IMM that the subject matter is the subject of an investigation or enforcement
+proceeding.
+
+§25.365--3
+
+effective date 04/29/07
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+Subchapter O.
+
+UNBUNDLING AND MARKET POWER.
+
+DIVISION 2.
+
+INDEPENDENT ORGANIZATIONS
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+§25.365 continued
+(k)
+
+Reporting requirement. All reports prepared by the IMM shall reflect the IMM's independent
+analysis, findings, and expertise. The IMM shall provide periodic updates to market participants
+regarding the operation of the ERCOT wholesale market. In addition, the IMM shall prepare and
+submit to the commission the following reports:
+(1)
+Daily, monthly, and quarterly reports on prices and congestion;
+(2)
+An annual report on the state of the market, which will include an assessment of the
+competitiveness of the market; an assessment of the efficiency of ERCOT's management of
+the balancing energy, ancillary services, and congestion rights markets; an evaluation of the
+effectiveness of congestion management by ERCOT; an evaluation of whether there are
+inappropriate incentives, flaws, inefficiencies, and opportunities for manipulation in the
+market design; and any recommendations for improving the market design; and
+(3)
+Periodic or special reports on market conditions or specific events as directed by the
+commission.
+
+(l)
+
+Communication between the IMM and the commission.
+(1)
+The personnel of the IMM may communicate with commission staff on any matter without
+restriction.
+(2)
+The IMM shall:
+(A)
+Immediately report directly to the commission any potential market manipulations,
+including market power abuse, and any discovered or potential violations of
+commission rules or ERCOT protocols or operating guides;
+(B)
+Periodically report abnormal bids, offers, operational activities, and market behavior
+that have not been reported in accordance with paragraph (1) of this subsection or
+subsection (k) of this section.
+(C)
+Regularly communicate with the commission and commission staff, and keep the
+commission updated regarding its activities, findings, and observations;
+(D)
+Coordinate with the commission to identify priorities; and
+(E)
+Coordinate with the commission to assess the resources and methods for monitoring
+the wholesale market effectively, including consulting needs.
+
+(m)
+
+ERCOT's responsibilities and support role. ERCOT and the IMM shall jointly develop procedures
+and interfaces to ensure that the IMM director and staff have full access to ERCOT's operations
+centers, staff, and records relating to operations, settlement, and reliability. ERCOT shall designate
+liaisons to facilitate communications with the IMM on ERCOT's operations and information
+technology.
+(1)
+ERCOT shall develop and operate an information system to collect and to store data required
+by the ERCOT protocols, and shall provide adequate communication equipment and
+necessary software packages to enable the IMM to establish electronic access to the
+information system and to facilitate the development and application of quantitative tools
+necessary for the market monitoring function. Data from ERCOT's source systems must be
+capable of being replicated in near real time and available for query by the IMM until data
+are archived and archived data are accessible for high-speed information searches. When an
+IT system failure prohibits "near real time" replication of data, ERCOT shall replicate the
+data as expeditiously as possible. Data archives must be designed to accommodate remote
+access by the IMM and the commission staff at any time.
+(2)
+On an ongoing basis, ERCOT shall implement necessary procedures for the accurate
+collection and storage of data in the data archives and accurate communication of those data
+for use by the commission staff and the IMM.
+
+§25.365--4
+
+effective date 04/29/07
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+Subchapter O.
+
+UNBUNDLING AND MARKET POWER.
+
+DIVISION 2.
+
+INDEPENDENT ORGANIZATIONS
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+§25.365(m) continued
+(3)
+
+(4)
+(5)
+
+The IMM may review the catalogs describing information and data, and may review data
+collection verification criteria developed by ERCOT. The IMM may propose changes,
+additions, or deletions to the catalogs and criteria to facilitate the market monitoring
+function. In so doing, the IMM may require database items or evaluation criteria for
+inclusion in the pertinent catalogs.
+ERCOT shall establish procedures to ensure that the IMM may access all data maintained by
+ERCOT relating to operations, settlements, and reliability.
+ERCOT may provide administrative support and goods and services to the IMM, such as
+office space, payroll, and related services, and information technology support.
+
+(n)
+
+Liability of the IMM. The IMM, and its directors, officers, employees and agents, shall not be liable
+to any person or entity for any act or omission, other than an act or omission constituting gross
+negligence or intentional misconduct, arising under or relating to this section, including but not
+limited to liability for any financial loss, loss of economic advantage, opportunity cost, or actual,
+direct, indirect or consequential damages of any kind resulting from or attributable to any such act or
+omission of the IMM as long as such act or omission arose from or related to matters within the
+scope of the IMM's authority.
+
+(o)
+
+Contractual Provisions.
+(1)
+Effective July 1, 2007, ERCOT shall include the following provision in any new or renegotiated agreement it has with an entity that engages in any activity that is in whole or in
+part the subject of the ERCOT Protocols:
+The IMM, and its directors, officers, employees, and agents, shall not be liable to
+any person or entity for any act or omission, other than an act or omission
+constituting gross negligence or intentional misconduct, including but not limited to
+liability for any financial loss, loss of economic advantage, opportunity cost, or
+actual, direct, indirect, or consequential damages of any kind resulting from or
+attributable to any such act or omission of the IMM, as long as such act or omission
+arose from or is related to matters within the scope of the IMM's authority arising
+under or relating to PURA §39.1515 and Public Utility Commission Substantive
+Rule §25.365, relating to Independent Market Monitor.
+(2)
+
+Not later than 15 months after this subsection takes effect, ERCOT shall include the
+provision set out in paragraph (1) of this subsection in every agreement it has with
+an entity that engages in any activity that is in whole or in part the subject of the
+ERCOT Protocols.
+
+§25.365--5
+
+effective date 04/29/07
+
+

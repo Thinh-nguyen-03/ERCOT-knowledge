@@ -1,0 +1,12 @@
+{
+ "id": "eia-texas-profile",
+ "title": "Texas Electricity Profile",
+ "publisher": "U.S. Energy Information Administration",
+ "tier": 2,
+ "edition": null,
+ "url": "https://www.eia.gov/electricity/state/texas/",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 59980,
+ "raw_sha256": "142fdb1da51dda3646dcdbf63d79486ea711663f363956153a696c23d853f801",
+ "text_chars": 14416
+}

@@ -1,0 +1,12 @@
+{
+ "id": "ercot-rtcb-battery",
+ "title": "RTC+B Battery Overview",
+ "publisher": "ERCOT",
+ "tier": 2,
+ "edition": "July 2025",
+ "url": "https://www.ercot.com/files/docs/2025/07/15/RTC-B-Battery-Overview.pdf",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 824955,
+ "raw_sha256": "0adb15f691e1afce1be7f1cc063a1c1be356ce37ef4d4408826f79e4859382e6",
+ "text_chars": 18369
+}

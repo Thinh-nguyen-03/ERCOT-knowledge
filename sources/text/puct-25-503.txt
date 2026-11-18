@@ -1,0 +1,555 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+§25.503. Oversight of Wholesale Market Participants.
+(a)
+
+Purpose. The purpose of this section is to establish the standards that the commission will apply in
+monitoring the activities of entities participating in the wholesale electricity markets, including markets
+administered by the Electric Reliability Council of Texas (ERCOT), and enforcing the Public Utility
+Regulatory Act (PURA) and ERCOT procedures relating to wholesale markets. The standards contained in
+this rule are necessary to:
+(1)
+protect customers from unfair, misleading, and deceptive practices in the wholesale markets,
+including ERCOT-administered markets;
+(2)
+ensure that ancillary services necessary to facilitate the reliable transmission of electric energy are
+available at reasonable prices;
+(3)
+afford customers safe, reliable, and reasonably priced electricity;
+(4)
+ensure that all wholesale market participants observe all scheduling, operating, reliability, and
+settlement policies, rules, guidelines, and procedures established in the ERCOT procedures;
+(5)
+clarify prohibited activities in the wholesale markets, including ERCOT-administered markets;
+(6)
+monitor and mitigate market power as authorized by the Public Utility Regulatory Act (PURA)
+§39.157(a) and prevent market power abuses;
+(7)
+clarify the standards and criteria the commission will use when reviewing wholesale market
+activities;
+(8)
+clarify the remedies for non-compliance with the Protocols relating to wholesale markets; and
+(9)
+prescribe ERCOT’s role in enforcing ERCOT procedures relating to the reliability of the regional
+electric network and accounting for the production and delivery among generators and all other
+market participants and monitoring and obtaining compliance with operating standards within the
+ERCOT regional network.
+
+(b)
+
+Application. This section applies to all market entities, as defined in subsection (c) of this section.
+
+(c)
+
+Definitions. The following words and terms when used in this section have the following meaning, unless
+the context indicates otherwise:
+(1)
+Artificial congestion -- Congestion created when multiple foreseeable options exist for
+scheduling, dispatching, or operating a resource, and a market participant chooses an option that is
+not the most economical, that foreseeably creates or exacerbates transmission congestion, and that
+results in the market participant being paid to relieve the congestion it caused.
+(2)
+Efficient operation of the market -- Operation of the markets administered by ERCOT,
+consistent with reliability standards, that is characterized by the fullest use of competitive auctions
+to procure ancillary services, minimal cost socialization, and the most economical utilization of
+resources, subject to necessary operational and other constraints.
+(3)
+ERCOT procedures -- Documents that contain the scheduling, operating, planning, reliability,
+and settlement procedures, standards, and criteria that are public and in effect in the ERCOT
+power region, including the ERCOT Protocols, ERCOT Operating Guides, and Other Binding
+Documents as amended from time to time but excluding ERCOT’s internal administrative
+procedures. The Protocols generally govern when there are inconsistencies between the Protocols
+and the Operating Guides, except when ERCOT staff, consistent with subsection (i) of this
+section, determines that a provision contained in the Operating Guides is technically superior for
+the efficient and reliable operation of the electric network.
+(4)
+Excess Revenue -- Revenue in excess of the revenue that would have occurred absent a violation
+of PURA §39.157 or this section.
+(5)
+Market entity -- Any person or entity participating in the ERCOT-administered wholesale
+market, including, but not limited to, a load serving entity (including a municipally owned utility
+and an electric cooperative,) a power marketer, a transmission and distribution utility, a power
+generation company, a qualifying facility, an exempt wholesale generator, ERCOT, and any entity
+conducting planning, scheduling, or operating activities on behalf of, or controlling the activities
+of, such market entities.
+(6)
+Market participant -- A market entity other than ERCOT.
+§25.503--1
+
+effective date 03/04/21
+(P 50602)
+
+(7)
+(8)
+
+Reliability Monitor -- A person or entity selected by the commission to monitor compliance with
+all state reliability-related laws, rules, and ERCOT procedures including protocols, processes and
+any other operating standards applicable to the ERCOT Region.
+Resource -- Facilities capable of providing electrical energy or load capable of reducing or
+increasing the need for electrical energy or providing short-term reserves into the ERCOT system.
+This includes generation and load resources.
+
+(d)
+
+Standards and criteria for enforcement of ERCOT procedures and PURA. The commission will
+monitor the activities of market entities to determine if such activities are consistent with ERCOT
+procedures; whether they constitute market power abuses or are unfair, misleading, or deceptive practices
+affecting customers; and whether they are consistent with the proper accounting for the production and
+delivery of electricity among generators and other market participants. When reviewing the activities of a
+market entity, the commission will consider whether the activity was conducted in a manner that:
+(1)
+adversely affected customers in a material way through the use of unfair, misleading, or deceptive
+practices;
+(2)
+materially reduced the competitiveness of the market, including whether the activity unfairly
+impacted other market participants in a way that restricts competition;
+(3)
+disregarded its effect on the reliability of the ERCOT electric system; or
+(4)
+interfered with the efficient operation of the market.
+
+(e)
+
+Guiding ethical standards. Each market participant is expected to:
+(1)
+observe all applicable laws and rules;
+(2)
+schedule, bid, and operate its resources in a manner consistent with ERCOT procedures to support
+the efficient and reliable operation of the ERCOT electric system; and
+(3)
+not engage in activities and transactions that create artificial congestion or artificial supply
+shortages, artificially inflate revenues or volumes, or manipulate the market or market prices in
+any way.
+
+(f)
+
+Duties of market entities.
+(1)
+Each market participant must be knowledgeable about ERCOT procedures.
+(2)
+A market participant must comply with ERCOT procedures and any official interpretation of the
+Protocols issued by ERCOT or the commission.
+(A)
+If a market participant disagrees with any provision of the Protocols or any official
+interpretation of the Protocols, it may seek an amendment of the Protocols as provided
+for in the Protocols, appeal an ERCOT official interpretation to the commission, or both.
+(B)
+A market participant appealing an official interpretation of the Protocols or seeking an
+amendment to the Protocols must comply with the Protocols unless and until the
+interpretation is officially changed or the amendment is officially adopted.
+(C)
+A market participant may be excused from compliance with ERCOT instructions or
+Protocol requirements only if such non-compliance is due to communication or
+equipment failure beyond the reasonable control of the market participant; if compliance
+would jeopardize public health and safety or the reliability of the ERCOT transmission
+grid, or create risk of bodily harm or damage to the equipment; if compliance would be
+inconsistent with facility licensing, environmental, or legal requirements; if required by
+applicable law; or for other good cause. A market participant is excused under this
+subparagraph only for so long as the condition continues.
+(3)
+Whenever the Protocols require that a market participant make its “best effort” or a “good faith
+effort” to meet a requirement, or similar language, the market participant must act in accordance
+with the requirement unless:
+(A)
+it is not technically possible to do so;
+(B)
+doing so would jeopardize public health and safety or the reliability of the ERCOT
+transmission grid, or would create a risk of bodily harm or damage to the equipment;
+(C)
+doing so would be inconsistent with facility licensing, environmental, or legal
+requirements; or
+(D)
+other good cause exists for excusing the requirement.
+
+§25.503--2
+
+effective date 03/04/21
+(P 50602)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+(11)
+
+(12)
+
+(13)
+
+When a market participant is not able to comply with a Protocol requirement or official
+interpretation of a requirement, or honor a formal commitment to ERCOT, the market participant
+has an obligation to notify ERCOT immediately upon learning of such constraints and to notify
+ERCOT when the problem ceases. A market participant who does not comply with a Protocol
+requirement or official interpretation of a requirement, or honor a formal commitment to ERCOT,
+has the burden to demonstrate, in any commission proceeding in which the failure to comply is
+raised, why it cannot comply with the Protocol requirement or official interpretation of the
+requirement, or honor the commitment.
+The commission staff may request information from a market participant concerning a notification
+of failure to comply with a Protocol requirement or official interpretation of a requirement, or
+honor a formal commitment to ERCOT. The market participant must provide a response that is
+detailed and reasonably complete, explaining the circumstances surrounding the alleged failure,
+and must provide documents and other materials relating to such alleged failure to comply. The
+response must be submitted to the commission staff within five business days of a written request
+for information, unless commission staff agrees to an extension.
+A market participant’s bids of energy and ancillary services must be from resources that are
+available and capable of performing, and must be feasible within the limits of the operating
+characteristics indicated in the resource plan, as defined in the Protocols, and consistent with the
+applicable ramp rate, as specified in the Protocols.
+All statements, data and information provided by a market participant to market publications and
+publishers of surveys and market indices for the computation of an industry price index must be
+true, accurate, reasonably complete, and must be consistent with the market participant’s activities,
+subject to generally accepted standards of confidentiality and industry standards. Market
+participants must exercise due diligence to prevent the release of materially inaccurate or
+misleading information.
+A market entity has an obligation to provide accurate and factual information and must not submit
+false or misleading information, or omit material information, in any communication with ERCOT
+or with the commission. Market entities must exercise due diligence to ensure adherence to this
+provision throughout the entity.
+A market participant must comply with all reporting requirements governing the availability and
+maintenance of a generating unit or transmission facility, including outage scheduling reporting
+requirements. A market participant must immediately notify ERCOT when capacity changes or
+resource limitations occur that materially affect the availability of a unit or facility, the anticipated
+operation of its resources, or the ability to comply with ERCOT dispatch instructions.
+A market participant must comply with requests for information or data by ERCOT as specified
+by the Protocols or ERCOT instructions within the time specified by ERCOT instructions, or such
+other time agreed to by ERCOT and the market participant.
+When a Protocol provision or its applicability is unclear, or when a situation arises that is not
+contemplated under the Protocols, a market entity seeking clarification of the Protocols must use
+the Nodal Protocol Revision Request (NPRR) process provided in the Protocols. If the NPRR
+process is impractical or inappropriate under the circumstances, the market entity may use the
+process for requesting formal Protocol clarifications or interpretations described in subsection (i)
+of this section. This provision is not intended to discourage day to day informal communication
+between market participants and ERCOT staff.
+A market participant operating in the ERCOT markets or a member of the ERCOT staff who
+identifies a provision in the ERCOT procedures that produces an outcome inconsistent with the
+efficient and reliable operation of the ERCOT-administered markets must call the provision to the
+attention of ERCOT staff and the appropriate ERCOT subcommittee. All market participants must
+cooperate with the ERCOT subcommittees, ERCOT staff, and the commission staff to develop
+Protocols that are clear and consistent.
+A market participant must establish and document internal procedures that instruct its affected
+personnel on how to implement ERCOT procedures according to the standards delineated in this
+section. Each market participant must establish clear lines of accountability for its market
+practices.
+
+§25.503--3
+
+effective date 03/04/21
+(P 50602)
+
+(g)
+
+Prohibited activities. Any act or practice of a market participant that materially and adversely affects the
+reliability of the regional electric network or the proper accounting for the production and delivery of
+electricity among market participants is considered a “prohibited activity.” The term “prohibited activity”
+in this subsection excludes acts or practices expressly allowed by the Protocols or by official interpretations
+of the Protocols and acts or practices conducted in compliance with express directions from ERCOT or
+commission rule or order or other legal authority. The term “prohibited activity” includes, but is not limited
+to, the following acts and practices that have been found to cause prices that are not reflective of
+competitive market forces or to adversely affect the reliability of the electric network:
+(1)
+A market participant must not schedule, operate, or dispatch its generating units in a way that
+creates artificial congestion.
+(2)
+A market participant must not execute pre-arranged offsetting trades of the same product among
+the same parties, or through third party arrangements, which involve no economic risk and no
+material net change in beneficial ownership.
+(3)
+A market participant must not offer reliability products to the market that cannot or will not be
+provided if selected.
+(4)
+A market participant must not conduct trades that result in a misrepresentation of the financial
+condition of the organization.
+(5)
+A market participant must not engage in fraudulent behavior related to its participation in the
+wholesale market.
+(6)
+A market participant must not collude with other market participants to manipulate the price or
+supply of power, allocate territories, customers or products, or otherwise unlawfully restrain
+competition. This provision should be interpreted in accordance with federal and state antitrust
+statutes and judicially-developed standards under such statutes regarding collusion.
+(7)
+A market participant must not engage in market power abuse. Withholding of production, whether
+economic withholding or physical withholding, by a market participant who has market power,
+constitutes an abuse of market power.
+
+(h)
+
+Defenses. The term “prohibited activity” in subsection (g) of this section excludes acts or practices that
+would otherwise be included, if the market entity establishes that its conduct served a legitimate business
+purpose consistent with prices set by competitive market forces; and that it did not know, and could not
+reasonably anticipate, that its actions would inflate prices, adversely affect the reliability of the regional
+electric network, or adversely affect the proper accounting for the production and delivery of electricity; or,
+if applicable, that it exercised due diligence to prevent the excluded act or practice. The defenses
+established in this subsection may also be asserted in instances in which a market participant is alleged to
+have violated subsection (f) of this section. A market entity claiming an exclusion or defense under this
+subsection, or any other type of affirmative defense, has the burden of proof to establish all of the elements
+of such exclusion or defense.
+
+(i)
+
+Official interpretations and clarifications regarding the Protocols. A market entity seeking an
+interpretation or clarification of the Protocols must use the NPRR process contained in the Protocols
+whenever possible. If an interpretation or clarification is needed to address an unforeseen situation and
+there is not sufficient time to submit the issue to the NPRR process, a market entity may seek an official
+Protocol interpretation or clarification from ERCOT in accordance with this subsection.
+(1)
+ERCOT must develop a process for formally addressing requests for clarification of the Protocols
+submitted by market participants or issuing official interpretations regarding the application of
+Protocol provisions and requirements. ERCOT must respond to the requestor within ten business
+days of ERCOT’s receipt of the request for interpretation or clarification with either an official
+Protocol interpretation or a recommendation that the requestor take the request through the NPRR
+process.
+(2)
+ERCOT must designate one or more ERCOT officials who will be authorized to receive requests
+for clarification from, and issue responses to market participants, and to issue official
+interpretations on behalf of ERCOT regarding the application of Protocol provisions and
+requirements.
+(3)
+The designated ERCOT official must provide a copy of the clarification request to commission
+staff upon receipt. The ERCOT official must consult with ERCOT operational or legal staff as
+
+§25.503--4
+
+effective date 03/04/21
+(P 50602)
+
+(4)
+
+(5)
+
+(6)
+
+appropriate and with commission staff before issuing an official Protocol clarification or
+interpretation.
+The designated ERCOT official may decide, in consultation with the commission staff, that the
+language for which a clarification is requested is ambiguous or for other reason beyond ERCOT’s
+ability to clarify, in which case the ERCOT official shall inform the requestor, who may take the
+request through the NPRR process provided for in the Protocols.
+All official Protocol clarifications or interpretations that ERCOT issues in response to a market
+participant’s formal request or upon ERCOT’s own initiative must be sent out in a market bulletin
+with the appropriate effective date specified to inform all market participants, and a copy of the
+clarification or interpretation must be maintained in a manner that is accessible to market
+participants. Such response must not contain information that would identify the requesting market
+participant.
+A market participant may freely communicate informally with ERCOT employees, however, the
+opinion of an individual ERCOT staff member not issued as an official interpretation of ERCOT
+pursuant to this subsection may not be relied upon as an affirmative defense by a market
+participant.
+
+(j)
+
+Role of ERCOT in enforcing operating standards. ERCOT must monitor material occurrences of noncompliance with ERCOT procedures, which means occurrences that have the potential to impede ERCOT
+operations or represent a risk to system reliability. Non-compliance indicators monitored by ERCOT must
+include, but are not limited to, material occurrences of failing resource performance measures as
+established by ERCOT, failure to follow dispatch instructions within the required time, failure to meet
+ancillary services obligations, failure to submit mandatory bids or offers, and other instances of noncompliance of a similar magnitude.
+(1)
+ERCOT must keep a record of all such material occurrences of non-compliance with ERCOT
+procedures and must develop a system for tracking recurrence of such material occurrences of
+non-compliance.
+(2)
+ERCOT must promptly provide information to and respond to questions from market participants
+to allow the market participant to understand and respond to alleged material occurrences of noncompliance with ERCOT procedures. However, this requirement does not relieve the market
+participant’s operator from responding to the ERCOT operator’s instruction in a timely manner
+and shall not be interpreted as allowing the market participant’s operator to argue with the ERCOT
+operator as to the need for compliance.
+(3)
+ERCOT must keep a record of the resolution of such material occurrences of non-compliance and
+of remedial actions taken by the market participant in each instance.
+(4)
+ERCOT must promptly provide information to and respond to questions posed by the Reliability
+Monitor and the commission.
+(5)
+ERCOT must provide to the Reliability Monitor and the commission the support and cooperation
+the commission determines is necessary for the Reliability Monitor and the commission to
+perform their functions.
+(6)
+If directed by the commission, ERCOT must assume all or part of the duties and responsibilities of
+the Reliability Monitor under (k). ERCOT must assume these duties and responsibilities,
+including establishing appropriate safeguards to prevent conflicts of interest and ensure the
+independence and objectivity of ERCOT personnel with respect to the duties and responsibilities
+assumed, in the manner prescribed by the commission.
+
+(k)
+
+Responsibilities of the Reliability Monitor. The Reliability Monitor must gather and analyze information
+and data as needed for its reliability monitoring activities. The Reliability Monitor works under the
+direction and supervision of the commission. The Reliability Monitor must protect confidential
+information and data in accordance with the confidentiality standards established in PURA, the ERCOT
+protocols, commission rules, and other applicable laws. The requirements related to the level of protection
+to be afforded information protected by these laws and rules are incorporated into this section. The duties
+and responsibilities of the Reliability Monitor may include, but are not limited to:
+(1)
+Monitoring, investigating, auditing, and reporting to the commission regarding compliance with
+reliability-related ERCOT procedures, including Protocols, Operating Guides, and Other Binding
+
+§25.503--5
+
+effective date 03/04/21
+(P 50602)
+
+(2)
+(3)
+
+Documents, the reliability-related provisions of the commission’s rules, and reliability-related
+provisions of PURA by market entities;
+Providing reliability-related subject-matter advice, expertise, and assistance to the commission in
+the conduct of the commission’s oversight and enforcement activities; and
+Providing expert advice, analysis, reports, and testimony services relating to the Reliability
+Monitor’s analysis and findings as part of the commission staff’s case in enforcement proceedings.
+
+(l)
+
+Selection of the Reliability Monitor. The commission may select an entity to act as the Reliability
+Monitor. If the commission selects an entity other than ERCOT to act as the Reliability Monitor, the
+Reliability Monitor must be independent from ERCOT and is not subject to the supervision of ERCOT
+with respect to its monitoring and investigative activities. If the commission selects an entity other than
+ERCOT to act as the Reliability Monitor, the commission and ERCOT will enter into a contract with the
+selected entity. In selecting the Reliability Monitor, the commission must consider whether the Reliability
+Monitor satisfies the following criteria:
+(1)
+Independence, objectivity, and the absence of potential conflicts of interest;
+(2)
+Experience performing compliance monitoring of reliability-related laws;
+(3)
+Familiarity with the ERCOT Region and understanding of reliability-related ERCOT protocols,
+procedures, and other operating standards;
+(4)
+Ability to manage confidential information appropriately; and
+(5)
+Cost effectiveness.
+
+(m)
+
+Funding of the Reliability Monitor. ERCOT must fund the operations of the Reliability Monitor from the
+fee authorized by PURA §39.151.
+
+(n)
+
+Standards for record keeping.
+(1)
+A market participant who schedules through a qualified scheduling entity (QSE) that submits
+schedules to ERCOT on behalf of more than one market participants must maintain records to
+show scheduling, offer, and bidding information for all schedules, offers, and bids that its QSE has
+submitted to ERCOT on its behalf, by interval.
+(2)
+All market participants and ERCOT must maintain records relative to market participants’
+activities in the ERCOT-administered markets to show:
+(A)
+information on transactions, as defined in §25.93(c)(3) of this title (relating to Quarterly
+Wholesale Electricity Transaction Reports), including the date, type of transaction,
+amount of transaction, and entities involved;
+(B)
+information and documentation of all planned, maintenance, and forced generation and
+transmission outages including all documentation necessary to document the reason for
+the outage;
+(C)
+information described under this subsection including transaction information,
+information on pricing, settlement information, and other information that would be
+relevant to an investigation under this section, and that has been disclosed to market
+publications and publishers of surveys and price indices, including the date, information
+disclosed, and the name of the employees involved in providing the information as well
+as the publisher to whom it was provided; and
+(D)
+reports of the market participant’s financial information given to external parties,
+including the date, financial results reported, and the party to whom financial information
+was reported, if applicable.
+(3)
+After the effective date of this section, all records referred to in this subsection except verbal
+dispatch instructions (VDIs) must be kept for a minimum of three years from the date of the event.
+ERCOT must keep VDI records for a minimum of two years. All records must be made available
+to the commission for inspection upon request.
+(4)
+A market participant must, upon request from the commission, provide the information referred to
+in this subsection to the commission, and may, if applicable, provide it under a confidentiality
+agreement or protective order pursuant to §22.71(d) of this title (relating to Filing of Pleadings,
+Documents, and Other Material).
+
+§25.503--6
+
+effective date 03/04/21
+(P 50602)
+
+(o)
+
+Investigation. The commission staff may initiate an informal fact-finding review based on a complaint or
+upon its own initiative to obtain information regarding facts, conditions, practices, or matters that it may
+find necessary or proper to ascertain in order to evaluate whether any market entity has violated any
+provision of this section.
+(1)
+The commission staff will contact the market entity whose activities are in question to provide the
+market entity an opportunity to explain its activities. The commission staff may require the market
+entity to provide information reasonably necessary for the purposes described in this subsection.
+(2)
+If the market entity asserts that the information requested by commission staff is confidential, the
+information must be provided to commission staff as confidential information related to settlement
+negotiations or other asserted bases for confidentiality pursuant to §22.71(d)(4) of this title.
+(3)
+If after conducting its fact-finding review, the commission staff determines that a market entity
+may have violated this section, the commission staff may request that the commission initiate a
+formal investigation against the market entity pursuant to §22.241 of this title (relating to
+Investigations).
+(4)
+If, as a result of its investigation, commission staff determines that there is evidence of a violation
+of this section by a market entity, the commission staff may request that the commission initiate
+appropriate enforcement action against the market entity. A notice of violation requesting
+administrative penalties or disgorgement of excess revenues must comply with the requirements of
+§22.246 of this title (relating to Administrative Penalties). Adjudication of a notice of violation
+requesting both an administrative penalty and disgorgement of excess revenues may be conducted
+within a single contested case proceeding. Additionally, for alleged violations that have been
+reviewed in the informal procedure established by this subsection, the commission staff must
+include as part of its prima facie case:
+(A)
+a statement either that –
+(i)
+the commission staff has conducted the investigation allowed by this section; or
+(ii)
+the market entity has failed to comply with the requirements of paragraph (5) of
+this subsection;
+(B)
+a summary of the evidence indicating to the commission staff that the market entity has
+violated one of the provisions of this section;
+(C)
+a summary of any evidence indicating to the commission staff that the market entity
+benefited from the alleged violation or materially harmed the market; and
+(D)
+a statement that the staff has concluded that the market entity failed to demonstrate, in the
+course of the investigation, the applicability of an exclusion or affirmative defense under
+subsection (h) of this section.
+(5)
+A market entity subject to an informal fact-finding review or a formal investigation by the
+commission staff has an obligation to fully cooperate with the investigation, to make its company
+representatives available within a reasonable period of time to discuss the subject of the
+investigation with the commission staff, and to respond to the commission staff’s requests for
+information within a reasonable time frame as requested by the commission staff.
+(6)
+The procedure for informal fact-finding review established in this subsection does not prevent any
+person or commission staff from filing a formal complaint with the commission pursuant to
+§22.242 of this title (relating to Complaints) or pursuing other relief available by law.
+(7)
+If, in the course of its investigation under this subsection, commission staff determines that formal
+enforcement action is not warranted, the commission staff may work with the market entity to
+ensure any issues of concern are addressed and appropriate remedial actions have been taken.
+
+(p)
+
+Remedies. If the commission finds that a market entity is in violation of this section, the commission may
+seek or impose any legal remedy it determines appropriate for the violation involved, provided that the
+remedy of disgorgement of excess revenues will be imposed for violations and continuing violations of
+PURA §39.157 and may be imposed for other violations of this section.
+
+§25.503--7
+
+effective date 03/04/21
+(P 50602)
+
+

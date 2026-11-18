@@ -1,0 +1,127 @@
+_________________________________________________________________________________________
+
+2026 Energy Emergency Alert Overview
+When electric supply and demand can’t be balanced with normal procedures, ERCOT will implement
+additional actions to avoid the need to enter emergency operations, including starting additional generation,
+reducing operating reserve levels, and deploying designated demand response programs. If operating
+reserves continue to drop, ERCOT begins emergency operations using three levels of Energy Emergency
+Alerts (EEAs). These levels provide access to resources only available during emergency conditions to
+protect the reliability of the electric system. ERCOT currently has about 2,500 MW of additional capacity
+available when it enters emergency conditions.
+
+EEA levels and actions
+
+EEA LEVEL 1
+
+EEA LEVEL 2
+
+EEA LEVEL 3
+
+If operating reserves drop below
+2,500 MW and are not expected to
+recover within 30 minutes,
+ERCOT actions include:
+_________
+
+If operating reserves drop below
+2,000 MW and are not expected to
+recover within 30 minutes, or
+frequency drops below 59.91 Hz
+for 15 minutes, actions include:
+_________
+
+If operating reserves drop
+below 1,500 MW, or the
+grid’s frequency level drops below
+59.8 Hz for any period of time,
+ERCOT actions include:
+_________
+
+Request energy
+conservation (if not already in
+effect) from public, including
+government and municipal
+agencies: # MW vary
+
+Instructing transmission and
+distribution service
+providers/companies to
+reduce demand on the electric
+system, which occurs through the
+use of controlled outages – these
+outages impact all customer
+classes, including residential,
+commercial, and industrial
+
+Bringing any additional available
+generation online
+Increasing other generation
+supplies, including:
+Importing available generation from
+neighboring electric grids:
+up to 1,220 MW
+Switchable generation that can
+serve multiple electric grids:
+up to 2,184 MW
+
+Reduce power by deploying
+remaining demand response
+programs, including:
+
+Deploying operating reserves
+carried by Load Resources (some
+large industrial customers who are
+paid to reduce their power):
+up to 1,000 MW
+Load management programs
+from transmission companies:
+70-300MW, depending on the
+season
+Voltage reduction by transmission
+companies: 1,200-1,300 MW,
+depending on the season
+
+Additional information on EEA 1
+
+Additional information on EEA 2
+
+Additional information on EEA 3
+
+Note: Some steps may occur simultaneously and do not include additional voluntary demand response programs, where
+electric service from other ERCOT business and residential customers is interrupted during emergencies.
+(1 MW is enough to serve about 250 residential customers during ERCOT peak hours). These capacity figures are
+planning estimates; actual availability will vary based on resource-specific circumstances at the time of the energy
+emergency.
+January 2026
+
+Controlled outages
+Controlled outages are electric service interruptions, ordered by ERCOT but implemented by transmission and
+distribution service providers, to quickly reduce electric demand, balance the grid, and prevent an uncontrolled
+system-wide outage. They are used as a last resort to bring operating reserves back to a safe level and
+maintain system frequency.
+Each utility is responsible for deciding how to decrease demand in their respective service area(s). ERCOT
+provides an amount, in megawatts, by which each utility is required to reduce demand, based on their
+percentage of historic peak demand. Once ERCOT orders the outages to begin, these utilities then manage
+the outage on their local system. ERCOT does not have oversight into these outage plans.
+Controlled outages are also referred to as load shed. Current load shed tables are updated annually.
+ERCOT has initiated controlled outages four times since the grid operator was established:
+•
+•
+•
+•
+
+December 22, 1989: 500 MW
+April 17, 2006: 1,000 MW
+February 2, 2011: 4,000 MW
+February 15-18, 2021: 20,000 MW
+
+Critical Needs Reminder
+If you have critical medical needs, it’s important to contact your local electric utility ahead of a need, that way
+you are registered in the utility’s system, and they have awareness of your medical needs. Also, it is important
+to have a backup plan for any emergency situation, not just energy-related scenarios.
+
+_________________________________________________________________________________________
+Government Contact: governmentrelations@ercot.com
+Media Contact: media@ercot.com
+
+

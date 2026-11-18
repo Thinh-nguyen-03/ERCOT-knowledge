@@ -1,0 +1,316 @@
+-   
+-   
+
+[U.S. Energy Information Administration logo]
+
+Skip to sub-navigation
+
+U.S. Energy Information Administration - EIA - Independent Statistics and Analysis
+
+Menu
+
+-   Statistics
+
+-   Analysis
+
+-   Tools
+
+-   Education
+
+-   News
+
+-   
+
+Search
+
+Today in Energy
+
+Skip to page content
+
+-   Recent articles
+-   Browse by tag
+    -   liquid fuels
+    -   natural gas
+    -   electricity
+    -   oil/petroleum
+    -   production/supply
+    -   crude oil
+    -   consumption/demand
+    -   generation
+    -   prices
+    -   map
+    -   states
+    -   exports/imports
+    -   international
+    -   coal
+    -   renewables
+    -   weather
+    -   forecasts/projections
+    -   gasoline
+    -   capacity
+    -   steo (short-term energy outlook)
+-   Prices
+-   Archive
+-   About
+
+Glossary FAQS
+
+March 12, 2021
+
+Texas uses natural gas for electricity generation and home heating
+
+[Texas monthly electricity generation by source]
+
+Source: U.S. Energy Information Administration, Electricity Data Browser; U.S. Census Bureau, American Community Survey, House Heating Fuel
+Note: Data are for total net generation, including both utility-scale and small-scale electricity. Other includes fuel oil, wood, solar, and other fuels.
+
+------------------------------------------------------------------------
+
+In February 2021, an extreme winter weather event affected energy supply and demand in Texas. The cold temperatures that increased demand for electricity and heating in Texas also disrupted energy supply, causing health and safety concerns. Because natural gas is used to generate a large share of the electricity in Texas (52% in February 2020, according to the U.S. Energy Information Administration’s (EIA) Electricity Data Browser), a drop in natural gas-fired generation during the cold weather event significantly affected total electricity generation.
+
+According to the U.S. Census Bureau, 61% of homes in Texas use electricity as their primary heating source compared with 39% of homes in the United States. Natural gas directly heats about 35% of Texas homes, but most modern natural gas furnaces require electricity to ignite and to fan heat throughout houses. Almost 3% of homes in Texas use propane as their primary space heating fuel, and another 0.4% report having no heating equipment.
+
+Although four electricity grids serve Texas, the Electric Reliability Council of Texas (ERCOT) operates the state’s main electricity grid. Unlike other grids in the United States, ERCOT has limited connections to outside systems, so it depends primarily on its own resources to meet its electricity needs.
+
+EIA’s Hourly Electric Grid Monitor data show that natural gas-fired power generation fell sharply once ERCOT began implementing rotating outages at midnight on February 15. Coal-fired, wind, and nuclear generation also decreased.
+
+In Texas, natural gas demand for electricity generation usually peaks during the summer when residents increase their air-conditioning use. Natural gas has generated as much as 61% of Texas’s monthly net electricity generation during peak summer electricity demand. Natural gas accounts for a smaller share of the state’s electricity generation during the winter because total electricity demand is lower and demand for natural gas for heating is higher.
+
+Wind, coal, and nuclear plants generate most of the rest of Texas’s electricity. Wind’s share of net electricity generation in Texas has increased substantially during the past decade. In February 2020, wind accounted for 22% of Texas’s net electricity generation (including both utility- and small-scale wind farms). Coal’s share has declined in recent years; it accounted for 13% of generation in February 2020. Nuclear consistently generates about 10% of electricity in Texas.
+
+Principal contributor: Mickey Francis
+
+Tags: residential, electricity, natural gas, electric generation, Texas, electricity generating fuel mix, states
+
+More recent articles ›
+
+-   About EIA
+-   Open Data
+-   Legacy
+-   Contact Us
+
+U.S. Energy Information Administration
+
+1000 Independence Ave., SW
+
+Washington, DC 20585
+
+Policies
+
+Privacy/Security
+
+Copyright & Reuse
+
+Accessibility
+
+Information Quality
+
+Freedom of Information Act (FOIA)
+
+Related Sites
+
+usa.gov
+
+U.S. Department of Energy
+
+Stay Connected
+
+Facebook
+
+X
+
+Youtube
+
+LinkedIn
+
+Email Updates
+
+RSS Feeds
+
+[]
+
+Statistics
+
+Analysis
+
+Tools
+
+Education
+
+News
+
+Petroleum & Other Liquids
+
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+
+Natural Gas
+
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+
+Electricity
+
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+
+Coal
+
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+
+Nuclear & Uranium
+
+Uranium fuel, nuclear reactors, generation, spent fuel.
+
+Renewable & Alternative Fuels
+
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+
+EIA Survey Forms
+
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+
+Total Energy
+
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+
+-   Monthly Energy Review
+
+Consumption & Efficiency
+
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+
+-   Residential Energy Consumption Survey (RECS)
+-   Commercial Buildings Energy Consumption Survey (CBECS)
+-   Manufacturing Energy Consumption Survey (MECS)
+
+U.S. States
+
+State energy information, including overviews, rankings, data, and analyses.
+
+International
+
+International energy information, including overviews, rankings, data, and analyses.
+
+Environment
+
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+
+-   U.S. Energy-Related Carbon Dioxide Emissions
+-   Energy-Related Carbon Dioxide Emissions at the State Level
+
+Analysis and Projections
+
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+
+-   Short-Term Energy Outlook
+-   Annual Energy Outlook
+
+Special Reports
+
+Special market analysis and/or data requests.
+
+-   EIA-112 Residential Utility Disconnections
+-   SHIP Act
+-   Energy & Financial Markets: What Drives Crude Oil Prices?
+
+International
+
+International energy analyses.
+
+-   Regional Analysis Briefs
+-   Country Analysis Briefs
+-   World Oil Transit Chokepoints
+-   OPEC Revenue
+-   Global Energy Security Data
+
+Data Tools, Apps, & Maps
+
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+
+Open Data
+
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+
+EIA Beta
+
+Come test out some of the products still in development and let us know what you think!
+
+Open Source Code
+
+EIA's open source code, available on GitHub.
+
+All Reports & Products
+
+Email Updates
+
+Sign up for email subscriptions to receive messages about specific EIA products
+
+RSS Feeds
+
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+
+Follow us. . .
+
+A-Z Index
+
+A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | XYZ
+
+Energy Explained
+
+-   What is Energy?
+-   Units & Calculators
+-   U.S. Energy Facts
+-   Use of Energy
+-   Energy & Environment
+-   Petroleum
+-   Hydrocarbon Gas Liquids
+-   Natural Gas
+
+-   Coal
+-   Nuclear
+-   Electricity
+-   Hydrogen
+-   Hydropower
+-   Biofuels
+-   Biomass
+-   Wind
+-   Geothermal
+-   Solar
+
+For Teachers
+
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+
+Glossary
+
+FAQs
+
+-   Coal
+-   Conversion & Equivalents
+-   Oil/Petroleum
+-   Diesel
+-   Electricity
+-   Environment
+
+-   Gasoline
+-   General Energy
+-   Natural Gas
+-   Nuclear
+-   Prices
+-   Renewables
+
+[]
+
+What's New?
+
+-   Global Energy Security Data
+-   Nov 16, 2026
+-   Wholesale Electricity Market Data
+-   Nov 12, 2026
+-   Monthly Densified Biomass Fuel Report
+-   Nov 12, 2026
+
+Press Room
+
+-   Press Releases
+-   Congressional Testimony
+-   Presentations
+-   Events

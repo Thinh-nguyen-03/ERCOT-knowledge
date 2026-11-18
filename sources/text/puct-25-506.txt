@@ -1,0 +1,134 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+§25.506. Publication of Resource and Load Information in the Electric Reliability Council of Texas Power
+Region.
+(a)
+
+General Requirements. To increase the transparency of the ERCOT-administered markets, ERCOT
+must post the information required in this section at a publicly accessible location on its website. In no
+event will ERCOT disclose competitively sensitive consumption data. The information released must
+be made available to all market participants.
+
+(b)
+
+ERCOT will post the following information in aggregated form, for each settlement interval and for
+each area where available, two calendar days after the day for which the information is accumulated:
+(1)
+quantities and prices of offers for energy and each type of ancillary capacity service, in the
+form of supply curves;
+(2)
+self-arranged energy and ancillary capacity services, for each type of service;
+(3)
+actual resource output;
+(4)
+load and resource output for all entities that dynamically schedule their resources;
+(5)
+actual load; and
+(6)
+energy bid curves, cleared energy bids, and cleared load.
+
+(c)
+
+ERCOT will post the following information in entity-specific form, for each settlement interval, 60
+calendar days after the day for which the information is accumulated, except where inapplicable or
+otherwise prescribed. Resource-specific offer information must be linked to the name of the resource
+(or identified as a virtual offer), the name of the entity submitting the information, and the name of the
+entity controlling the resource. If there are multiple offers for the resource, ERCOT must post the
+specified information for each offer for the resource, including the name of the entity submitting the
+offer and the name of the entity controlling the resource. ERCOT will use §25.502(d) of this title
+(relating to Pricing Safeguards in Markets Operated by the Electric Reliability Council of Texas) to
+determine the control of a resource and must include this information in its market operations data
+system.
+(1)
+Offer curves (prices and quantities) for each type of ancillary service and for energy in the real
+time market, except that, for the highest-priced offer selected or dispatched for each interval
+on an ERCOT-wide basis, ERCOT will post the offer price and the name of the entity
+submitting the offer three calendar days after the day for which the information is accumulated.
+(2)
+If the clearing prices for energy or any ancillary service exceeds a calculated value that is equal
+to 50 times a natural gas price index selected by ERCOT for each operating day, expressed in
+dollars per megawatt-hour (MWh) or dollars per megawatt per hour, during any interval, the
+portion of every market participant’s price-quantity offer pairs for balancing energy service
+and each other ancillary service that is at or above a calculated value that is equal to 50 times
+a natural gas price index selected by ERCOT for each operating day, expressed in dollars per
+MWh or dollars per megawatt per hour, for that service and that interval must be posted seven
+calendar days after the day for which the offer is submitted.
+(3)
+Other resource-specific information, as well as self-arranged energy and ancillary capacity
+services, and actual resource output, for each type of service and for each resource at each
+settlement point.
+(4)
+The load and generation resource output, for each entity that dynamically schedules its
+resources.
+(5)
+For each hour, transmission flows, voltages, transformer flows, voltages and tap positions (i.e.,
+State Estimator data). Notwithstanding the provisions of this paragraph and the provisions of
+paragraphs (1) through (4) of this subsection, ERCOT must release relevant State Estimator
+data earlier than 60 days after the day for which the information is accumulated if, in its sole
+discretion, it determines the release is necessary to provide a complete and timely explanation
+and analysis of unexpected market operations and results or system events, including but not
+limited to pricing anomalies, recurring transmission congestion, and system disturbances.
+
+§25.506-1
+
+Effective 05/028/25
+P-57603
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+ERCOT’s release of data in this event must be limited to intervals associated with the
+unexpected market or system event as determined by ERCOT. The data released must be made
+available simultaneously to all market participants.
+(d)
+
+Reporting on forced generation outages and derates.
+(1)
+For purposes of this subsection, a forced outage or forced derate is the unavailability of all or
+a portion of a generation resource’s or energy storage resource’s capacity, based on its seasonal
+net maximum sustainable rating provided through ERCOT’s resource registration process, that
+is required to be entered into the ERCOT outage scheduler and was not planned and scheduled
+in advance with ERCOT.
+(2)
+An owner or operator of a generation resource or energy storage resource must submit to
+ERCOT, in a manner consistent with ERCOT protocols, the following information related to
+each forced outage or forced derate of a generation resource or energy storage resource:
+(A)
+the name of the resource;
+(B)
+the resource’s applicable seasonal net maximum sustainable rating, in megawatts;
+(C)
+the resource’s available capacity during the resource’s forced outage or forced derate,
+in megawatts;
+(D)
+the effective reduction to the resource’s applicable seasonal net maximum sustainable
+rating due to the resource’s forced outage or forced derate, in megawatts;
+(E)
+the start date and time of the resource’s forced outage or forced derate;
+(F)
+the anticipated end date and time of the resource’s forced outage or forced derate;
+(G)
+the actual end date and time of the resource’s unplanned outage or derate;
+(H)
+the reason for the resource’s forced outage or forced derate; and
+(I)
+any other applicable information required under the ERCOT protocols.
+(3)
+Not later than the third business day after a forced outage or forced derate under paragraph (1)
+of this subsection ends, ERCOT must post the information received under paragraph (2) of this
+subsection, in resource-specific form, for each operating day.
+
+(e)
+
+Development and implementation. ERCOT must use a stakeholder process, in consultation with
+commission staff, to develop and implement rules that comply with this section. Nothing in this section
+prevents the commission from taking actions necessary to protect the public interest, including actions
+that are otherwise inconsistent with the other provisions in this section.
+
+§25.506-2
+
+Effective 05/028/25
+P-57603
+
+

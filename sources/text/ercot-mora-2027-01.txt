@@ -1,0 +1,16435 @@
+Monthly Outlook for Resource Adequacy (MORA)
+Reporting Month: January 2027
+
+Disclaimer
+
+This ERCOT report has been developed from data provided by ERCOT Market Participants, ERCOT, and ERCOT's consultants. The data may contain
+errors or become obsolete shortly after the report is released. ERCOT MAKES NO WARRANTY, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF
+MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE, AND DISCLAIMS ANY AND ALL LIABILITY WITH RESPECT TO THE ACCURACY OF SAME
+OR THE FITNESS OR APPROPRIATENESS OF SAME FOR ANY PARTICULAR USE. THIS ERCOT REPORT IS SUPPLIED WITH ALL FAULTS. The specific
+suitability for any use of this report and its accuracy should be confirmed by each ERCOT Market Participant that contributed data for this report.
+Note that resource data is based on a mid-month Resource Integration and Ongoing Operations (RIOO) system snapshot. Resource quantities can
+differ from monthly reports prepared subsequent to the MORA report, such as the Generator Interconnection Status (GIS) report, which is released
+at the beginning of the subsequent month.
+
+MORA Release Schedule
+MORA releases are targeted for the first Friday of each month, or the next business day if the Friday is a holiday. A MORA is released two months
+prior to the reporting month; for example, the planned release of the MORA report for August would be the first Friday in June.
+ERCOT may post one or more revised versions of a MORA report if material data errors are discovered. ERCOT recommends that readers check for
+postings of a revised report around mid-month. Information about one or more data corrections for a revised report will be summarized in the box
+below.
+
+Data Corrections/Updates
+
+Report Contents
+Tab Name
+
+ERCOT PUBLIC
+
+Description
+
+Monthly Outlook
+
+Contains the following sections
+Introduction
+Risk Outlook Highlights and Resource Adequacy Measures
+Hourly Risk Assessment of Capacity Available for Operating Reserves
+Deterministic Scenarios
+Notable Load and Resource Developments
+
+Storm & Low Wind-BESS Risk
+
+Charts that show (1) the risk of Energy Emergency Alerts given a severe
+winter storm event with a range of peak load outcomes, and (2) low wind
+generation levels combined with reduced Battery Energy Storage System
+(BESS) availability
+
+Capacity by Resource Category
+
+Summary table of installed and available capacity for generation resources
+by resource category
+
+Resource Details
+
+List of registered resources and megawatt (MW) capabilities for the
+reporting month
+
+PRRM Percentile Results
+
+Probabilistic model results: deciles for (1) hourly gross demand, (2) hourly
+solar and wind generation, and (3) daily unplanned thermal unit outages
+
+Background
+
+Covers MORA methodology topics in detail
+
+1
+
+INTRODUCTION
+The MORA report adopts two approaches to evaluate resource adequacy for the upcoming assessment month:
+● Determine the risk that ERCOT may face emergency conditions for the monthly peak load day — specifically, the chances, during a range of hours, that it may need to issue an
+Energy Emergency Alert (EEA) or begin to order controlled outages to maintain grid reliability. This evaluation is done through probabilistic modeling using ERCOT's Probabilistic
+Reserve Risk Model, PRRM. (See the Background tab for more information.)
+● Given a predetermined set of future grid conditions (deterministic scenarios), evaluate the extent that resource capacity can provide sufficient operating reserves for the hour with
+the highest risk of a reserve shortage. The focus of the MORA's deterministic scenario is on typical grid conditions.
+Deterministic scenarios allow one to gauge how individual grid conditions influence a range of fixed outcomes while probabilistic simulation quantifies the uncertainty around the
+outcomes and produces likelihood estimates for them. These approaches complement each other to provide a richer perspective on reserve shortage risks for the ERCOT region.
+
+Risk Outlook Highlights and Resource Adequacy Measures
+●
+
+Hourly reserve shortage risks for January are the highest during the morning hours, with EEA probabilities that remain well below the threshold indicative of 'elevated' reserve
+shortage risk (10%). The hour with the highest EEA risk is Hour Ending (HE) 8:00 a.m. Central Standard Time (CST), with a 3.20% probability that ERCOT would need to declare
+an EEA. The period with the highest EEA risk hours is HE 7:00 a.m. through 9:00 a.m., and there is a slight EEA risk for nearly all hours. There is also an increase in EEA risk
+starting in the evening hours, reflecting the increase in lower-temperature-driven and crypto-mining loads. Regarding historical January unplanned thermal outage trends, January
+2026 was significantly higher than for January 2025 and moderately higher than for January 2024.
+
+●
+
+This MORA report incorporates the impacts of a new battery energy storage system (BESS) sub-model integrated into the PRRM. Given a net load forecast for the 24-hour period,
+the sub-model optimizes hourly charging and discharging to ensure maximum energy availability—subject to various battery fleet constraints—for the periods expecting the highest
+net load hours. This dynamic look-ahead functionality yields a more accurate representation of BESS fleet behavior than the previous approach based on static State of Charge
+(SoC) trends for a small sample of historical monthly peak load days. As a result, the EEA risk is slightly lower compared to PRRM simulations without the new sub-model with all
+else held constant. Background on the new BESS sub-model is included in the Background tab.
+While the model accounts for the risk of coastal wind curtailment needed to avoid overloads on lines that make up the South Texas export interface, it does not capture the risk of
+emergency conditions due to transmission constraints impacting imports into Far West Texas. Expected impacts of these transmission constraints is the need to rely on price
+responsive demand in certain low generation situations.
+
+●
+
+Under typical grid conditions, the deterministic scenario indicates that there should be sufficient generating capacity available for the hour with the highest reserve shortage risk,
+Hour Ending 8:00 a.m., CST. The deterministic load forecast value for this hour is 78,912 MW, reflecting the 50th percentile for the MORA forecast. This MORA deterministic
+scenario assumes a total thermal outage amount (planned plus unplanned) of 8,105 MW during normal grid conditions.
+
+●
+
+The monthly capacity reserve margin for the deterministic scenario, expressed as a percentage, is 44.9% for the highest risk hour, Hour Ending 8:00 a.m.
+Reserve Margin formula: ((Total Resources / (Peak Demand - Emergency Resources)) - 1) * 100
+
+●
+
+The ratio of installed dispatchable to total capacity is 58%. The ratio of available dispatchable to available total capacity for the hour with the highest reserve shortage risk, Hour
+Ending 8:00 a.m., is 84%. This latter measure helps indicate the extent that the grid relies on dispatchable resources to meet high load periods.
+
+●
+
+The ratio of installed thermal dispatchable to total capacity is 46%. The ratio of available dispatchable thermal to available total capacity for the hour with the highest reserve
+shortage risk, Hour Ending 8:00 a.m., is 72%. This latter measure helps indicate the extent that the grid relies on dispatchable thermal resources to meet loads during high-risk
+hours of the day.
+
+Hourly Risk Assessment of Capacity Available for Operating Reserves (CAFOR)
+The table below provides hour-by-hour probabilities that Capacity Available for Operating Reserves (CAFOR) will be at a level indicative of (1) normal system conditions, (2) the risk of
+an Energy Emergency Alert (EEA), and (3) the risk that ERCOT may need to order controlled outages. As a guideline to interpret these probabilities, ERCOT considers an EEA
+probability at or below 10% to indicate that the reserve adequacy risk is low for the monthly peak load day. An EEA probability above 10% indicates an elevated reserve adequacy
+risk.
+Note that this probability forecast is not intended to predict specific capacity reserve outcomes. The CAFOR definition is provided at the top of the Background tab.
+Chance of Normal
+System Conditions
+
+Hour Ending
+(CST)
+1 a.m.
+2 a.m.
+3 a.m.
+4 a.m.
+5 a.m.
+6 a.m.
+7 a.m.
+8 a.m.
+9 a.m.
+10 a.m.
+11 a.m.
+12 p.m.
+1 p.m.
+2 p.m.
+3 p.m.
+4 p.m.
+5 p.m.
+6 p.m.
+7 p.m.
+8 p.m.
+9 p.m.
+10 p.m.
+11 p.m.
+12 a.m.
+
+EMERGENCY LEVEL
+Chance of an Energy
+Emergency Alert
+
+Probability of CAFOR Probability of CAFOR being Probability of CAFOR being
+being above 3,000 MW
+less than 2,500 MW
+less than 1,500 MW
+99.07%
+99.37%
+99.68%
+99.82%
+99.72%
+99.35%
+97.89%
+95.16%
+96.90%
+99.53%
+99.69%
+99.77%
+99.86%
+99.90%
+99.97%
+99.99%
+99.99%
+99.96%
+99.81%
+99.53%
+98.94%
+98.08%
+98.09%
+98.81%
+
+0.46%
+0.32%
+0.14%
+0.09%
+0.11%
+0.30%
+1.30%
+3.20%
+1.85%
+0.30%
+0.20%
+0.13%
+0.10%
+0.03%
+0.02%
+0.00%
+0.01%
+0.03%
+0.08%
+0.22%
+0.50%
+1.11%
+1.24%
+0.64%
+Note: Probabilities are not additive.
+
+ERCOT PUBLIC
+
+Chance of Ordering
+Controlled Outages
+
+2
+
+0.31%
+0.21%
+0.09%
+0.08%
+0.08%
+0.20%
+1.07%
+2.79%
+1.38%
+0.22%
+0.16%
+0.11%
+0.07%
+0.02%
+0.01%
+0.00%
+0.00%
+0.02%
+0.07%
+0.15%
+0.38%
+0.81%
+1.03%
+0.37%
+
+Storm & Low Wind/BESS BESS Risk Profiles
+
+Deterministic results based on normal system conditions for the hour with highest risk of reserve shortages
+
+Hour with the Highest Reserve Shortage
+Risk
+(Hour Ending 8:00 a.m., CST)
+
+Loads and Resources (MW)
+Load Based on Average Weather [1]
+
+78,912
+
+Generation Resource Stack
+Dispatchable [2]
+
+88,322
+
+Thermal, excluding RMR and other Emergency Generation Agreements
+
+74,616
+
+Energy Storage [3]
+
+13,275
+
+Hydro
+
+431
+
+Expected Thermal Outages
+
+8,105
+
+Planned
+
+417
+
+Unplanned
+
+7,688
+80,217
+
+Total Available Dispatchable
+Non-Dispatchable [4]
+Wind
+
+16,151
+
+Solar
+
+28
+16,179
+
+Total Available Non-Dispatchable
+Non-Synchronous Ties, Net Imports
+
+720
+
+Total Available Resources (Normal Conditions)
+
+97,116
+
+Emergency Resources
+Available prior to an Energy Emergency Alert [5]
+Emergency Response Service
+
+2,401
+
+Distribution Voltage Reduction
+
+1,279
+
+Total Available prior to an Energy Emergency Alert
+
+3,680
+
+Available during an Energy Emergency Alert
+1,393
+
+LRs providing Responsive Reserves
+LRs providing Non-spin
+
+81
+
+LRs providing ECRS
+
+306
+
+TDSP Load Management Programs
+RMR and Other Resource Agreement Capacity Units
+
+75
+744
+
+Total Available during an Energy Emergency Alert
+
+2,599
+
+Total Emergency Resources
+
+6,279
+
+Capacity Available for Operating Reserves, Normal Conditions
+
+21,884
+
+Capacity Available for Operating Reserves, Emergency Conditions
+
+24,483
+
+Less than 2,500 MW indicates risk of EEA Level 1
+Less than 1,500 MW indicates risk of EEA Level 3 Load Shed
+
+[1] The Hour Ending 8:00 a.m. load value comes from ERCOT’s monthly load forecast. The load assumes average weather conditions for the reporting month and includes new Large Loads
+expected to be energized by the forecast month.
+[2] Dispatchable resources comprise nuclear, coal, gas, biomass and energy storage. Non-dispatchable resources comprise wind and solar. Dispatchable in this context means that the resource
+can both increase or decrease output based on ERCOT dispatch instructions.
+[3] See the Background tab for a description of battery storage system capacity contribution modeling.
+[4] Wind and solar values for Hour Ending 8:00 a.m. represent the 50th percentile values from hourly synthetic generation profiles used in the PRRM. See the Background tab for more
+information.
+[5] Although crypto-mining load may self-curtail beyond forecasted levels in response to an imminent energy emergency, such load reduction is not dispatchable or controllable, and is therefore
+not considered an emergency resource for this scenario.
+
+Notable Load and Resource Developments
+Changes in Current Resources for January
+ERCOT expects new installed winter-rated capacity to increase by 1,178 MW since the December MORA was prepared. Solar increased by 325 MW, energy storage increased by
+807 MW, gas increased by 46 MW, and wind remained unchanged.
+CHISHOLM GRID, a 101.7 MW Battery Energy Storage System, is returning from mothball to operational status as of November 4, 2026.
+Introduction of a Battery Energy Storage System (BESS) Output Sub-model
+As noted above, starting with this MORA report, the Probabilistic Reserve Risk Model incorporates a BESS fleet output sub-model that charges and discharges the fleet based a net
+load forecast.
+Link to sub-model description
+Extended Outages, Mothballs, Derates, or Retirements
+- SANDY CREEK U1, 933 MW, coal-fired, extended outage.
+- R W MILLER STG 1, 75 MW, gas-fired, extended outage.
+- GOAT WIND & GOAT WIND 2, 150 MW, temporary mothball due to repowering project per interconnection request 27INR270367.
+
+ERCOT PUBLIC
+
+3
+
+Background and Methodology
+For this risk analysis, the model was forced to trigger a severe winter storm event (with system-wide impacts) along with varying degrees of severity
+based on low temperature probabilities. The more severe the storm, the higher the levels of weather-related thermal unit outages and wind turbine
+outages due to icing. Simulations were run with a range of high load levels—85,000 MW to 99,000 MW—for Hour Ending 8:00 a.m., the hour with
+the highest EEA risk. No other changes have been made to the model, so probabilistic impacts of other variables such as wind generation, solar
+generation, and non-weather-related thermal unit unplanned outages are reflected in the simulation results. As with the base simulation, the
+impacts of the Weatherization Standard and Firm Fuel Supply Service are accounted for.
+Simulation Results
+The following chart shows the relationship between EEA / EEA3 probabilities and high load levels combined with a severe winter storm event for
+8:00 a.m. Note that the probability of the load reaching 99,000 MW for this hour is extremely remote.
+
+Risk Profile for Combined Low Wind and Limited Battery Energy Storage System Availability
+Background and Methodology
+Variability in wind generation represents the greatest risk factor for declaring an EEA in January, although the possibility of significantly low BESS
+State of Charge can also be a substantial risk factor. To create the low wind generation risk profile for Hour Ending (HE) 8:00 a.m. on the January
+peak load day, the model's hourly wind generation probability distributions are replaced with fixed values corresponding to a range of percentile
+values. The percentile values come from the base simulation, and reflect the impact of the South Texas transmission interface constraint.
+BESS availability is also fixed at 2 559 MW for all the sensitivity simulations reflecting an extremely low State of Charge (SOC) This value is calculated
+Simulation Results
+The following chart shows the relationship between EEA / EEA3 (with load shed) probabilities and the level of fixed wind generation based on
+percentile values. The percentiles represent the percentage of outcomes above the given values. For example, the 5th percentile indicates that 95%
+of all values are above a 4,497 MW wind output level. Note that the zero-percentile value reflects the minimum amount from the PRRM simulation
+for Hour Ending 7:00 p.m. (315 MW), rather than a zero MW outcome.
+
+Hour with the Highest Reserve
+Shortage Risk
+(Hour Ending 8:00 a.m., CST)
+Operational Resources, MW [1]
+Thermal
+Natural Gas
+Combined-cycle
+Combustion Turbine
+Internal Combustion Engin
+Steam Turbine
+Compressed Air Energy S
+Coal
+Nuclear
+Diesel
+Renewable, Intermittent [6]
+Solar
+Wind
+Coastal
+Panhandle
+Other
+Renewable, Other
+Biomass
+Hydroelectric [4]
+Energy Storage
+Batteries
+Other
+DC Tie Net Imports
+
+Installed Capacity
+Rating [2]
+
+Expected Available Capacity
+[3]
+
+89,079
+69,601
+46,889
+11,209
+1,307
+10,196
+13,705
+5,268
+504
+81,837
+41,018
+40,819
+5,872
+4,833
+30,114
+717
+138
+579
+21,528
+21,528
+-
+
+75,173
+56,954
+36,428
+9,536
+1,250
+9,740
+12,725
+5,153
+342
+16,178
+27
+16,151
+2,327
+1,917
+11,907
+558
+127
+431
+12,525
+12,525
+720
+
+60
+40
+40
+20
+736
+736
+1,265
+1,265
+-
+
+60
+40
+40
+20
+0
+0
+750
+750
+-
+
+195,222
+
+105,965
+
+Planned Resources [5]
+Thermal
+
+Natural Gas
+Combined-cycle
+Combustion Turbine
+Internal Combustion Engin
+Steam Turbine
+Compressed Air Energy S
+Diesel
+Renewable, Intermittent [6]
+Solar
+Wind
+Coastal
+Panhandle
+Other
+Energy Storage
+Batteries
+Other
+Total Resources, MW
+NOTES:
+
+[1] Operational resources are those for which ERCOT has approved grid synchronization or full
+commercial operations. Unit level details for each resource category can be found in the Resource
+Details tab.
+[2] Installed capacity ratings are based on the maximum power that a generating unit can produce
+during normal sustained operating conditions as specified by the equipment manufacturer. All gas-fired
+Private-Use Network (PUNs) units are reflected in the combined cycle fuel type row above. Generation
+and battery storage resources under extended outages with projected return dates longer than 3 years
+beyond the forecast month are excluded from the installed capacity totals.
+[3] Expected Available Capacity for operational units accounts for thermal seasonal sustained
+capability ratings, hourly capacity contribution estimates for intermittent renewables, planned
+retirements, reductions due to co-located loads, unavailable Switchable Generation Resources
+(SWGRs), mothballed capacity, and expected Private Use Network (PUN) generator net exports to the
+grid. For planned projects, Expected Available Capacity is based on the maximum capacity reported by
+the developers and accounts for net changes due to repower or upgrade projects greater than one
+MW, and the established limits on the total MW Injection for designated Self-Limiting Facilities. Unit level
+details for each resource group above can be found in the Resource Details tab.
+[4] Includes a small number of hydro units that are considered intermittent resources (run-of-river
+Distributed Generation hydro units).
+[5] Planned resources are those for which ERCOT expects to be approved for grid synchronization or
+has been assigned a “Model Ready Date" (for Small Generators) by the first of the month.
+[6] Wind and solar values represent the 50th percentile values from hourly synthetic output profiles
+used in the PRRM. See the Background tab for more information.
+
+ERCOT PUBLIC
+
+5
+
+Unit Capacities - JANUARY 2027
+UNIT NAME
+Operational Resources (Thermal)
+4 COMANCHE PEAK U1
+5 COMANCHE PEAK U2
+6 SOUTH TEXAS U1
+7 SOUTH TEXAS U2
+8 COLETO CREEK
+9 FAYETTE POWER U1
+10 FAYETTE POWER U2
+11 FAYETTE POWER U3
+12 J K SPRUCE U1
+13 J K SPRUCE U2
+14 LIMESTONE U1
+15 LIMESTONE U2
+16 MARTIN LAKE U1
+17 MARTIN LAKE U2
+18 MARTIN LAKE U3
+19 OAK GROVE SES U1
+20 OAK GROVE SES U2
+21 SAN MIGUEL U1
+22 SANDY CREEK U1
+23 TWIN OAKS U1
+24 TWIN OAKS U2
+25 W A PARISH U5
+26 W A PARISH U6
+27 W A PARISH U7
+28 W A PARISH U8
+29 ARTHUR VON ROSENBERG 1 CTG 1
+30 ARTHUR VON ROSENBERG 1 CTG 2
+31 ARTHUR VON ROSENBERG 1 STG
+32 ATKINS CTG 7
+33 BARNEY M DAVIS CTG 3
+34 BARNEY M DAVIS CTG 4
+35 BARNEY M DAVIS STG 2
+36 BASTROP ENERGY CENTER CTG 1
+37 BASTROP ENERGY CENTER CTG 2
+38 BASTROP ENERGY CENTER STG
+39 BEACHWOOD POWER STATION U1
+40 BEACHWOOD POWER STATION U2
+41 BEACHWOOD POWER STATION U3
+42 BEACHWOOD POWER STATION U4
+43 BEACHWOOD POWER STATION U5
+44 BEACHWOOD POWER STATION U6
+45 BEACHWOOD POWER STATION U7
+46 BEACHWOOD POWER STATION U8
+47 BOSQUE ENERGY CENTER CTG 1
+48 BOSQUE ENERGY CENTER CTG 2
+49 BOSQUE ENERGY CENTER CTG 3
+50 BOSQUE ENERGY CENTER STG 4
+51 BOSQUE ENERGY CENTER STG 5
+52 BRAZOS VALLEY CTG 1
+53 BRAZOS VALLEY CTG 2
+54 BRAZOS VALLEY STG 3
+55 BROTMAN POWER STATION U1
+56 BROTMAN POWER STATION U2
+57 BROTMAN POWER STATION U3
+58 BROTMAN POWER STATION U4
+59 BROTMAN POWER STATION U5
+60 BROTMAN POWER STATION U6
+61 BROTMAN POWER STATION U7
+62 BROTMAN POWER STATION U8
+63 CALENERGY-FALCON SEABOARD CTG 1
+64 CALENERGY-FALCON SEABOARD CTG 2
+65 CALHOUN (PORT COMFORT) CTG 1
+66 CALHOUN (PORT COMFORT) CTG 2
+67 CASTLEMAN CHAMON CTG 1
+68 CASTLEMAN CHAMON CTG 2
+69 CEDAR BAYOU 4 CTG 1
+70 CEDAR BAYOU 4 CTG 2
+71 CEDAR BAYOU 4 STG
+72 CEDAR BAYOU STG 1
+73 CEDAR BAYOU STG 2
+74 CEDARVALE GAS
+75 COLORADO BEND ENERGY CENTER CTG 1
+76 COLORADO BEND ENERGY CENTER CTG 11
+77 COLORADO BEND ENERGY CENTER CTG 12
+78 COLORADO BEND ENERGY CENTER CTG 2
+79 COLORADO BEND ENERGY CENTER CTG 3
+80 COLORADO BEND ENERGY CENTER CTG 4
+81 COLORADO BEND ENERGY CENTER STG 1
+82 COLORADO BEND ENERGY CENTER STG 2
+83 COLORADO BEND II CTG 7
+84 COLORADO BEND II CTG 8
+85 COLORADO BEND II STG 9
+86 CVC CHANNELVIEW CTG 1
+87 CVC CHANNELVIEW CTG 2
+88 CVC CHANNELVIEW CTG 3
+89 CVC CHANNELVIEW STG 5
+90 DANSBY CTG 2
+91 DANSBY CTG 3
+92 DANSBY STG 1
+93 DECKER CREEK CTG 1
+94 DECKER CREEK CTG 2
+95 DECKER CREEK CTG 3
+96 DECKER CREEK CTG 4
+97 DECORDOVA CTG 1
+98 DECORDOVA CTG 2
+99 DECORDOVA CTG 3
+100 DECORDOVA CTG 4
+101 DEER PARK ENERGY CENTER CTG 1
+102 DEER PARK ENERGY CENTER CTG 2
+103 DEER PARK ENERGY CENTER CTG 3
+104 DEER PARK ENERGY CENTER CTG 4
+105 DEER PARK ENERGY CENTER CTG 6
+106 DEER PARK ENERGY CENTER STG 1
+107 DENTON ENERGY CENTER IC A
+108 DENTON ENERGY CENTER IC B
+109 DENTON ENERGY CENTER IC C
+110 DENTON ENERGY CENTER IC D
+111 ECTOR COUNTY ENERGY CTG 1
+112 ECTOR COUNTY ENERGY CTG 2
+113 ENNIS POWER STATION CTG 2
+114 ENNIS POWER STATION STG 1
+115 EXTEX LAPORTE GEN STN CTG 1
+116 EXTEX LAPORTE GEN STN CTG 2
+117 EXTEX LAPORTE GEN STN CTG 3
+118 EXTEX LAPORTE GEN STN CTG 4
+
+ERCOT PUBLIC
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+CPSES_UNIT1
+CPSES_UNIT2
+STP_STP_G1
+STP_STP_G2
+COLETO_COLETOG1
+FPPYD1_FPP_G1
+FPPYD1_FPP_G2
+FPPYD2_FPP_G3
+CALAVERS_JKS1
+CALAVERS_JKS2
+LEG_LEG_G1
+LEG_LEG_G2
+MLSES_UNIT1
+MLSES_UNIT2
+MLSES_UNIT3
+OGSES_UNIT1A
+OGSES_UNIT2
+SANMIGL_G1
+SCES_UNIT1
+TNP_ONE_TNP_O_1
+TNP_ONE_TNP_O_2
+WAP_WAP_G5
+WAP_WAP_G6
+WAP_WAP_G7
+WAP_WAP_G8
+BRAUNIG_AVR1_CT1
+BRAUNIG_AVR1_CT2
+BRAUNIG_AVR1_ST
+ATKINS_ATKINSG7
+B_DAVIS_B_DAVIG3
+B_DAVIS_B_DAVIG4
+B_DAVIS_B_DAVIG2
+BASTEN_GTG1100
+BASTEN_GTG2100
+BASTEN_ST0100
+BCH_UNIT1
+BCH_UNIT2
+BCH_UNIT3
+BCH_UNIT4
+BCH_UNIT5
+BCH_UNIT6
+BCH_UNIT7
+BCH_UNIT8
+BOSQUESW_BSQSU_1
+BOSQUESW_BSQSU_2
+BOSQUESW_BSQSU_3
+BOSQUESW_BSQSU_4
+BOSQUESW_BSQSU_5
+BVE_UNIT1
+BVE_UNIT2
+BVE_UNIT3
+BTM_UNIT1
+BTM_UNIT2
+BTM_UNIT3
+BTM_UNIT4
+BTM_UNIT5
+BTM_UNIT6
+BTM_UNIT7
+BTM_UNIT8
+FLCNS_UNIT1
+FLCNS_UNIT2
+CALHOUN_UNIT1
+CALHOUN_UNIT2
+CHAMON_CTG_0101
+CHAMON_CTG_0301
+CBY4_CT41
+CBY4_CT42
+CBY4_ST04
+CBY_CBY_G1
+CBY_CBY_G2
+CEDRVALE_UNIT1
+CBEC_GT1
+CBEC_GT11
+CBEC_GT12
+CBEC_GT2
+CBEC_GT3
+CBEC_GT4
+CBEC_STG1
+CBEC_STG2
+CBECII_CT7
+CBECII_CT8
+CBECII_STG9
+CVC_CVC_G1
+CVC_CVC_G2
+CVC_CVC_G3
+CVC_CVC_G5
+DANSBY_DANSBYG2
+DANSBY_DANSBYG3
+DANSBY_DANSBYG1
+DECKER_DPGT_1
+DECKER_DPGT_2
+DECKER_DPGT_3
+DECKER_DPGT_4
+DCSES_CT10
+DCSES_CT20
+DCSES_CT30
+DCSES_CT40
+DDPEC_GT1
+DDPEC_GT2
+DDPEC_GT3
+DDPEC_GT4
+DDPEC_GT6
+DDPEC_ST1
+DEC_AGR_A
+DEC_AGR_B
+DEC_AGR_C
+DEC_AGR_D
+ECEC_G1
+ECEC_G2
+ETCCS_CT1
+ETCCS_UNIT1
+AZ_AZ_G1
+AZ_AZ_G2
+AZ_AZ_G3
+AZ_AZ_G4
+
+6
+
+COUNTY
+
+FUEL
+
+ZONE
+
+IN SERVICE
+YEAR
+
+SOMERVELL
+SOMERVELL
+MATAGORDA
+MATAGORDA
+GOLIAD
+FAYETTE
+FAYETTE
+FAYETTE
+BEXAR
+BEXAR
+LIMESTONE
+LIMESTONE
+RUSK
+RUSK
+RUSK
+ROBERTSON
+ROBERTSON
+ATASCOSA
+MCLENNAN
+ROBERTSON
+ROBERTSON
+FORT BEND
+FORT BEND
+FORT BEND
+FORT BEND
+BEXAR
+BEXAR
+BEXAR
+BRAZOS
+NUECES
+NUECES
+NUECES
+BASTROP
+BASTROP
+BASTROP
+BRAZORIA
+BRAZORIA
+BRAZORIA
+BRAZORIA
+BRAZORIA
+BRAZORIA
+BRAZORIA
+BRAZORIA
+BOSQUE
+BOSQUE
+BOSQUE
+BOSQUE
+BOSQUE
+FORT BEND
+FORT BEND
+FORT BEND
+BRAZORIA
+BRAZORIA
+BRAZORIA
+BRAZORIA
+BRAZORIA
+BRAZORIA
+BRAZORIA
+BRAZORIA
+HOWARD
+HOWARD
+CALHOUN
+CALHOUN
+HARRIS
+HARRIS
+CHAMBERS
+CHAMBERS
+CHAMBERS
+CHAMBERS
+CHAMBERS
+REEVES
+WHARTON
+WHARTON
+WHARTON
+WHARTON
+WHARTON
+WHARTON
+WHARTON
+WHARTON
+WHARTON
+WHARTON
+WHARTON
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+BRAZOS
+BRAZOS
+BRAZOS
+TRAVIS
+TRAVIS
+TRAVIS
+TRAVIS
+HOOD
+HOOD
+HOOD
+HOOD
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+DENTON
+DENTON
+DENTON
+DENTON
+ECTOR
+ECTOR
+ELLIS
+ELLIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+
+NUCLEAR
+NUCLEAR
+NUCLEAR
+NUCLEAR
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+COAL
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-GT
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-ST
+GAS-ST
+GAS-IC
+GAS-CC
+GAS-GT
+GAS-GT
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-GT
+GAS-GT
+GAS-ST
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-IC
+GAS-IC
+GAS-IC
+GAS-IC
+GAS-GT
+GAS-GT
+GAS-CC
+GAS-CC
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+
+NORTH
+NORTH
+COASTAL
+COASTAL
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+SOUTH
+NORTH
+NORTH
+NORTH
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+SOUTH
+SOUTH
+SOUTH
+NORTH
+COASTAL
+COASTAL
+COASTAL
+SOUTH
+SOUTH
+SOUTH
+COASTAL
+COASTAL
+COASTAL
+COASTAL
+COASTAL
+COASTAL
+COASTAL
+COASTAL
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+HOUSTON
+HOUSTON
+HOUSTON
+COASTAL
+COASTAL
+COASTAL
+COASTAL
+COASTAL
+COASTAL
+COASTAL
+COASTAL
+WEST
+WEST
+COASTAL
+COASTAL
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+WEST
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+NORTH
+NORTH
+NORTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+NORTH
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+NORTH
+NORTH
+NORTH
+NORTH
+WEST
+WEST
+NORTH
+NORTH
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+
+1990
+1993
+1988
+1989
+1980
+1979
+1980
+1988
+1992
+2010
+1985
+1986
+1977
+1978
+1979
+2010
+2011
+1982
+2013
+1990
+1991
+1977
+1978
+1980
+1982
+2000
+2000
+2000
+1973
+2010
+2010
+1976
+2022
+2022
+2022
+2022
+2022
+2022
+2023
+2023
+2023
+2024
+2024
+2000
+2000
+2001
+2001
+2009
+2003
+2003
+2003
+2023
+2023
+2023
+2023
+2023
+2023
+2023
+2023
+1987
+1987
+2017
+2017
+2017
+2017
+2009
+2009
+2009
+1970
+1972
+2026
+2007
+2023
+2023
+2007
+2008
+2008
+2007
+2008
+2017
+2017
+2017
+2002
+2002
+2002
+2002
+2004
+2010
+1978
+1989
+1989
+1989
+1989
+1990
+1990
+1990
+1990
+2002
+2002
+2002
+2002
+2014
+2002
+2018
+2018
+2018
+2018
+2015
+2015
+2002
+2002
+2009
+2009
+2009
+2009
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+1,269.0
+1,269.0
+1,365.0
+1,365.0
+655.0
+615.0
+615.0
+460.0
+560.0
+922.0
+893.0
+956.8
+893.0
+893.0
+893.0
+916.8
+916.8
+430.0
+1,008.0
+174.6
+174.6
+734.1
+734.1
+614.6
+654.0
+189.0
+189.0
+222.0
+21.0
+189.6
+189.6
+351.0
+188.0
+188.0
+242.0
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+188.7
+188.7
+188.7
+95.0
+254.2
+198.9
+198.9
+275.6
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+75.0
+75.0
+60.5
+60.5
+60.5
+60.5
+205.0
+205.0
+205.0
+765.0
+765.0
+9.9
+86.5
+41.7
+41.7
+86.5
+86.5
+86.5
+105.0
+108.8
+360.9
+360.9
+508.5
+192.1
+192.1
+192.1
+150.0
+48.0
+50.0
+120.0
+56.7
+56.7
+56.7
+56.7
+89.5
+89.5
+89.5
+89.5
+203.0
+215.0
+203.0
+215.0
+199.0
+290.0
+56.5
+56.5
+56.5
+56.5
+181.0
+181.0
+260.0
+140.0
+40.0
+40.0
+40.0
+40.0
+
+JAN 2027
+RATING
+(MW)
+1,235.0
+1,225.0
+1,353.2
+1,340.0
+655.0
+603.0
+605.0
+449.0
+560.0
+785.0
+831.0
+857.0
+815.0
+820.0
+820.0
+855.0
+855.0
+391.0
+932.6
+155.0
+155.0
+664.0
+663.0
+577.0
+610.0
+176.0
+176.0
+197.0
+20.0
+165.0
+165.0
+325.0
+188.0
+188.0
+234.0
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+170.9
+170.9
+168.5
+85.2
+226.7
+168.0
+168.0
+270.0
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+46.5
+49.8
+70.0
+70.0
+46.0
+46.0
+46.0
+46.0
+178.0
+178.0
+185.0
+746.0
+749.0
+9.9
+85.0
+39.0
+39.0
+79.6
+85.0
+77.9
+105.0
+108.0
+360.2
+359.6
+490.5
+185.0
+182.0
+181.0
+144.0
+48.0
+50.0
+110.0
+54.0
+54.0
+54.0
+54.0
+88.0
+87.0
+86.0
+86.0
+203.0
+215.0
+203.0
+215.0
+190.0
+290.0
+56.5
+56.5
+56.5
+56.5
+170.4
+170.4
+245.0
+116.0
+40.0
+40.0
+40.0
+40.0
+
+UNIT NAME
+119 FERGUSON REPLACEMENT CTG 1
+120 FERGUSON REPLACEMENT CTG 2
+121 FERGUSON REPLACEMENT STG 1
+122 FORNEY ENERGY CENTER CTG 11
+123 FORNEY ENERGY CENTER CTG 12
+124 FORNEY ENERGY CENTER CTG 13
+125 FORNEY ENERGY CENTER CTG 21
+126 FORNEY ENERGY CENTER CTG 22
+127 FORNEY ENERGY CENTER CTG 23
+128 FORNEY ENERGY CENTER STG 10
+129 FORNEY ENERGY CENTER STG 20
+130 FREESTONE ENERGY CENTER CTG 1
+131 FREESTONE ENERGY CENTER CTG 2
+132 FREESTONE ENERGY CENTER CTG 4
+133 FREESTONE ENERGY CENTER CTG 5
+134 FREESTONE ENERGY CENTER STG 3
+135 FREESTONE ENERGY CENTER STG 6
+136 FRIENDSWOOD G CTG 1 (FORMERLY TEJAS POWER GENERATION)
+137 FRIENDSWOOD G CTG 2
+138 FRIENDSWOOD G CTG 3
+139 FRIENDSWOOD G CTG 4
+140 FRONTERA ENERGY CENTER CTG 1
+141 FRONTERA ENERGY CENTER CTG 2
+142 FRONTERA ENERGY CENTER STG
+143 GRAHAM STG 1
+144 GRAHAM STG 2
+145 GREENS BAYOU CTG 73
+146 GREENS BAYOU CTG 74
+147 GREENS BAYOU CTG 81
+148 GREENS BAYOU CTG 82
+149 GREENS BAYOU CTG 83
+150 GREENS BAYOU CTG 84
+151 GREENVILLE IC ENGINE PLANT IC 1
+152 GREENVILLE IC ENGINE PLANT IC 2
+153 GREENVILLE IC ENGINE PLANT IC 3
+154 GREGORY POWER PARTNERS GT1
+155 GREGORY POWER PARTNERS GT2
+156 GREGORY POWER PARTNERS STG
+157 GUADALUPE ENERGY CENTER CTG 1
+158 GUADALUPE ENERGY CENTER CTG 2
+159 GUADALUPE ENERGY CENTER CTG 3
+160 GUADALUPE ENERGY CENTER CTG 4
+161 GUADALUPE ENERGY CENTER STG 5
+162 GUADALUPE ENERGY CENTER STG 6
+163 HANDLEY STG 3
+164 HANDLEY STG 4
+165 HANDLEY STG 5
+166 HAYS ENERGY FACILITY CSG 1
+167 HAYS ENERGY FACILITY CSG 2
+168 HAYS ENERGY FACILITY CSG 3
+169 HAYS ENERGY FACILITY CSG 4
+170 HIDALGO ENERGY CENTER CTG 1
+171 HIDALGO ENERGY CENTER CTG 2
+172 HIDALGO ENERGY CENTER STG 1
+173 JACK COUNTY GEN FACILITY CTG 1
+174 JACK COUNTY GEN FACILITY CTG 2
+175 JACK COUNTY GEN FACILITY CTG 3
+176 JACK COUNTY GEN FACILITY CTG 4
+177 JACK COUNTY GEN FACILITY STG 1
+178 JACK COUNTY GEN FACILITY STG 2
+179 JOHNSON COUNTY GEN FACILITY CTG 1
+180 JOHNSON COUNTY GEN FACILITY STG 1
+181 LAKE HUBBARD STG 1
+182 LAKE HUBBARD STG 2
+183 LAMAR ENERGY CENTER CTG 11
+184 LAMAR ENERGY CENTER CTG 12
+185 LAMAR ENERGY CENTER CTG 21
+186 LAMAR ENERGY CENTER CTG 22
+187 LAMAR ENERGY CENTER STG 1
+188 LAMAR ENERGY CENTER STG 2
+189 LAREDO CTG 4
+190 LAREDO CTG 5
+191 LEON CREEK PEAKER CTG 1
+192 LEON CREEK PEAKER CTG 2
+193 LEON CREEK PEAKER CTG 3
+194 LEON CREEK PEAKER CTG 4
+195 LIGNIN (CHAMON 2) U1
+196 LIGNIN (CHAMON 2) U2
+197 LOST PINES POWER CTG 1
+198 LOST PINES POWER CTG 2
+199 LOST PINES POWER STG 1
+200 MAGIC VALLEY STATION CTG 1
+201 MAGIC VALLEY STATION CTG 2
+202 MAGIC VALLEY STATION STG 3
+203 MIDLOTHIAN ENERGY FACILITY CTG 1
+204 MIDLOTHIAN ENERGY FACILITY CTG 2
+205 MIDLOTHIAN ENERGY FACILITY CTG 3
+206 MIDLOTHIAN ENERGY FACILITY CTG 4
+207 MIDLOTHIAN ENERGY FACILITY CTG 5
+208 MIDLOTHIAN ENERGY FACILITY CTG 6
+209 MORGAN CREEK CTG 1
+210 MORGAN CREEK CTG 2
+211 MORGAN CREEK CTG 3
+212 MORGAN CREEK CTG 4
+213 MORGAN CREEK CTG 5
+214 MORGAN CREEK CTG 6
+215 MOUNTAIN CREEK STG 6
+216 MOUNTAIN CREEK STG 7
+217 MOUNTAIN CREEK STG 8
+218 NRG THW GT 345 (TEF) CTG 61
+219 NRG THW GT 345 (TEF) CTG 62
+220 NUECES BAY CTG 8
+221 NUECES BAY CTG 9
+222 NUECES BAY STG 7
+223 O W SOMMERS STG 1
+224 O W SOMMERS STG 2
+225 ODESSA-ECTOR POWER CTG 11
+226 ODESSA-ECTOR POWER CTG 12
+227 ODESSA-ECTOR POWER CTG 21
+228 ODESSA-ECTOR POWER CTG 22
+229 ODESSA-ECTOR POWER STG 1
+230 ODESSA-ECTOR POWER STG 2
+231 OLD BLOOMINGTON ROAD CTG 1 (VICTORIA PORT 2)
+232 OLD BLOOMINGTON ROAD CTG 2 (VICTORIA PORT 2)
+233 OLNEY AGR1
+234 PANDA SHERMAN POWER CTG 1
+235 PANDA SHERMAN POWER CTG 2
+236 PANDA SHERMAN POWER STG 1
+237 PANDA TEMPLE I POWER CTG 1
+
+ERCOT PUBLIC
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+
+COUNTY
+
+FERGCC_FERGGT1
+FERGCC_FERGGT2
+FERGCC_FERGST1
+FRNYPP_GT11
+FRNYPP_GT12
+FRNYPP_GT13
+FRNYPP_GT21
+FRNYPP_GT22
+FRNYPP_GT23
+FRNYPP_ST10
+FRNYPP_ST20
+FREC_GT1
+FREC_GT2
+FREC_GT4
+FREC_GT5
+FREC_ST3
+FREC_ST6
+FEGC_UNIT1
+FEGC_CTG2
+FEGC_CTG3
+FEGC_CTG4
+FRONT_EC_CT1
+FRONT_EC_CT2
+FRONT_EC_ST
+GRSES_UNIT1
+GRSES_UNIT2
+GBY_GBYGT73
+GBY_GBYGT74
+GBY_GBYGT81
+GBY_GBYGT82
+GBY_GBYGT83
+GBY_GBYGT84
+STEAM_ENGINE_1
+STEAM_ENGINE_2
+STEAM_ENGINE_3
+LGE_LGE_GT1
+LGE_LGE_GT2
+LGE_LGE_STG
+GUADG_GAS1
+GUADG_GAS2
+GUADG_GAS3
+GUADG_GAS4
+GUADG_STM5
+GUADG_STM6
+HLSES_UNIT3
+HLSES_UNIT4
+HLSES_UNIT5
+HAYSEN_HAYSENG1
+HAYSEN_HAYSENG2
+HAYSEN_HAYSENG3
+HAYSEN_HAYSENG4
+DUKE_DUKE_GT1
+DUKE_DUKE_GT2
+DUKE_DUKE_ST1
+JACKCNTY_CT1
+JACKCNTY_CT2
+JCKCNTY2_CT3
+JCKCNTY2_CT4
+JACKCNTY_STG
+JCKCNTY2_ST2
+TEN_CT1
+TEN_STG
+LHSES_UNIT1
+LHSES_UNIT2A
+LPCCS_CT11
+LPCCS_CT12
+LPCCS_CT21
+LPCCS_CT22
+LPCCS_UNIT1
+LPCCS_UNIT2
+LARDVFTN_G4
+LARDVFTN_G5
+LEON_CRK_LCPCT1
+LEON_CRK_LCPCT2
+LEON_CRK_LCPCT3
+LEON_CRK_LCPCT4
+LIG_UNIT1
+LIG_UNIT2
+LOSTPI_LOSTPGT1
+LOSTPI_LOSTPGT2
+LOSTPI_LOSTPST1
+NEDIN_NEDIN_G1
+NEDIN_NEDIN_G2
+NEDIN_NEDIN_G3
+MDANP_CT1
+MDANP_CT2
+MDANP_CT3
+MDANP_CT4
+MDANP_CT5
+MDANP_CT6
+MGSES_CT1
+MGSES_CT2
+MGSES_CT3
+MGSES_CT4
+MGSES_CT5
+MGSES_CT6
+MCSES_UNIT6
+MCSES_UNIT7
+MCSES_UNIT8
+THW_GT61
+THW_GT62
+NUECES_B_NUECESG8
+NUECES_B_NUECESG9
+NUECES_B_NUECESG7
+CALAVERS_OWS1
+CALAVERS_OWS2
+OECCS_CT11
+OECCS_CT12
+OECCS_CT21
+OECCS_CT22
+OECCS_UNIT1
+OECCS_UNIT2
+VICTPRT2_UNIT1
+VICTPRT2_UNIT2
+OLNEYTN_AGR1
+PANDA_S_SHER1CT1
+PANDA_S_SHER1CT2
+PANDA_S_SHER1ST1
+PANDA_T1_TMPL1CT1
+
+7
+
+FUEL
+
+LLANO
+GAS-CC
+LLANO
+GAS-CC
+LLANO
+GAS-CC
+KAUFMAN
+GAS-CC
+KAUFMAN
+GAS-CC
+KAUFMAN
+GAS-CC
+KAUFMAN
+GAS-CC
+KAUFMAN
+GAS-CC
+KAUFMAN
+GAS-CC
+KAUFMAN
+GAS-CC
+KAUFMAN
+GAS-CC
+FREESTONE GAS-CC
+FREESTONE GAS-CC
+FREESTONE GAS-CC
+FREESTONE GAS-CC
+FREESTONE GAS-CC
+FREESTONE GAS-CC
+HARRIS
+GAS-GT
+HARRIS
+GAS-GT
+HARRIS
+GAS-GT
+HARRIS
+GAS-GT
+HIDALGO
+GAS-CC
+HIDALGO
+GAS-CC
+HIDALGO
+GAS-CC
+YOUNG
+GAS-ST
+YOUNG
+GAS-ST
+HARRIS
+GAS-GT
+HARRIS
+GAS-GT
+HARRIS
+GAS-GT
+HARRIS
+GAS-GT
+HARRIS
+GAS-GT
+HARRIS
+GAS-GT
+HUNT
+GAS-IC
+HUNT
+GAS-IC
+HUNT
+GAS-IC
+SAN PATRICIO GAS-CC
+SAN PATRICIO GAS-CC
+SAN PATRICIO GAS-CC
+GUADALUPE GAS-CC
+GUADALUPE GAS-CC
+GUADALUPE GAS-CC
+GUADALUPE GAS-CC
+GUADALUPE GAS-CC
+GUADALUPE GAS-CC
+TARRANT
+GAS-ST
+TARRANT
+GAS-ST
+TARRANT
+GAS-ST
+HAYS
+GAS-CC
+HAYS
+GAS-CC
+HAYS
+GAS-CC
+HAYS
+GAS-CC
+HIDALGO
+GAS-CC
+HIDALGO
+GAS-CC
+HIDALGO
+GAS-CC
+JACK
+GAS-CC
+JACK
+GAS-CC
+JACK
+GAS-CC
+JACK
+GAS-CC
+JACK
+GAS-CC
+JACK
+GAS-CC
+JOHNSON
+GAS-CC
+JOHNSON
+GAS-CC
+DALLAS
+GAS-ST
+DALLAS
+GAS-ST
+LAMAR
+GAS-CC
+LAMAR
+GAS-CC
+LAMAR
+GAS-CC
+LAMAR
+GAS-CC
+LAMAR
+GAS-CC
+LAMAR
+GAS-CC
+WEBB
+GAS-GT
+WEBB
+GAS-GT
+BEXAR
+GAS-GT
+BEXAR
+GAS-GT
+BEXAR
+GAS-GT
+BEXAR
+GAS-GT
+HARRIS
+GAS-GT
+HARRIS
+GAS-GT
+BASTROP
+GAS-CC
+BASTROP
+GAS-CC
+BASTROP
+GAS-CC
+HIDALGO
+GAS-CC
+HIDALGO
+GAS-CC
+HIDALGO
+GAS-CC
+ELLIS
+GAS-CC
+ELLIS
+GAS-CC
+ELLIS
+GAS-CC
+ELLIS
+GAS-CC
+ELLIS
+GAS-CC
+ELLIS
+GAS-CC
+MITCHELL
+GAS-GT
+MITCHELL
+GAS-GT
+MITCHELL
+GAS-GT
+MITCHELL
+GAS-GT
+MITCHELL
+GAS-GT
+MITCHELL
+GAS-GT
+DALLAS
+GAS-ST
+DALLAS
+GAS-ST
+DALLAS
+GAS-ST
+HARRIS
+GAS-GT
+HARRIS
+GAS-GT
+NUECES
+GAS-CC
+NUECES
+GAS-CC
+NUECES
+GAS-CC
+BEXAR
+GAS-ST
+BEXAR
+GAS-ST
+ECTOR
+GAS-CC
+ECTOR
+GAS-CC
+ECTOR
+GAS-CC
+ECTOR
+GAS-CC
+ECTOR
+GAS-CC
+ECTOR
+GAS-CC
+VICTORIA
+GAS-GT
+VICTORIA
+GAS-GT
+YOUNG
+DIESEL
+GRAYSON
+GAS-CC
+GRAYSON
+GAS-CC
+GRAYSON
+GAS-CC
+BELL
+GAS-CC
+
+ZONE
+
+IN SERVICE
+YEAR
+
+SOUTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+SOUTH
+SOUTH
+SOUTH
+WEST
+WEST
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+NORTH
+NORTH
+NORTH
+COASTAL
+COASTAL
+COASTAL
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+HOUSTON
+HOUSTON
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+NORTH
+NORTH
+NORTH
+HOUSTON
+HOUSTON
+COASTAL
+COASTAL
+COASTAL
+SOUTH
+SOUTH
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+SOUTH
+SOUTH
+WEST
+NORTH
+NORTH
+NORTH
+NORTH
+
+2014
+2014
+2014
+2003
+2003
+2003
+2003
+2003
+2003
+2003
+2003
+2002
+2002
+2002
+2002
+2002
+2002
+2018
+2026
+2026
+2026
+2023
+2023
+2023
+1960
+1969
+1976
+1976
+1976
+1976
+1976
+1976
+2010
+2010
+2010
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+1963
+1976
+1977
+2002
+2002
+2002
+2002
+2000
+2000
+2000
+2006
+2006
+2011
+2011
+2006
+2011
+1997
+1997
+1970
+1973
+2000
+2000
+2000
+2000
+2000
+2000
+2008
+2008
+2004
+2004
+2004
+2004
+2022
+2022
+2001
+2001
+2001
+2001
+2001
+2001
+2001
+2001
+2001
+2001
+2002
+2002
+1988
+1988
+1988
+1988
+1988
+1988
+1956
+1958
+1967
+2026
+2026
+2010
+2010
+1972
+1972
+1974
+2001
+2001
+2001
+2001
+2001
+2001
+2022
+2022
+2026
+2014
+2014
+2014
+2014
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+185.3
+185.3
+204.0
+196.7
+196.7
+196.7
+196.7
+196.7
+196.7
+422.0
+422.0
+179.4
+179.4
+179.4
+179.4
+190.7
+190.7
+129.0
+47.9
+47.9
+47.9
+177.0
+177.0
+184.5
+239.0
+390.0
+72.0
+72.0
+72.0
+72.0
+72.0
+72.0
+8.4
+8.4
+8.4
+185.0
+185.0
+100.0
+181.0
+181.0
+181.0
+181.0
+204.0
+204.0
+395.0
+435.0
+435.0
+242.0
+242.0
+252.0
+252.0
+176.6
+176.6
+198.1
+198.9
+198.9
+198.9
+198.9
+320.6
+320.6
+185.0
+107.0
+397.0
+531.0
+186.0
+186.0
+186.0
+186.0
+216.0
+216.0
+98.5
+98.5
+48.0
+48.0
+48.0
+48.0
+60.5
+60.5
+202.5
+202.5
+204.0
+266.9
+266.9
+258.4
+258.0
+256.0
+255.0
+258.0
+276.0
+278.0
+89.4
+89.4
+89.4
+89.4
+89.4
+89.4
+122.0
+118.0
+568.0
+227.8
+227.8
+189.6
+189.6
+351.0
+445.0
+435.0
+195.2
+189.1
+195.2
+189.1
+224.0
+224.0
+60.5
+60.5
+10.0
+232.0
+232.0
+353.1
+232.0
+
+JAN 2027
+RATING
+(MW)
+180.0
+180.0
+194.0
+195.0
+185.0
+185.0
+195.0
+185.0
+185.0
+418.0
+418.0
+160.7
+160.7
+161.1
+161.1
+179.8
+179.7
+119.0
+47.9
+47.9
+47.9
+177.0
+177.0
+184.5
+239.0
+390.0
+67.0
+68.0
+69.0
+53.0
+72.0
+67.0
+8.2
+8.2
+8.2
+165.0
+165.0
+75.0
+167.0
+167.0
+167.0
+167.0
+203.0
+203.0
+375.0
+435.0
+435.0
+239.0
+240.0
+242.0
+243.0
+150.0
+150.0
+176.0
+171.0
+171.0
+182.0
+182.0
+295.0
+295.0
+177.0
+106.0
+392.0
+523.0
+186.0
+178.0
+178.0
+186.0
+204.0
+204.0
+97.4
+94.4
+46.0
+46.0
+46.0
+46.0
+45.0
+45.0
+183.0
+183.0
+192.0
+218.6
+218.6
+257.9
+258.0
+256.0
+255.0
+258.0
+276.0
+278.0
+82.0
+80.0
+80.0
+81.0
+80.0
+82.0
+122.0
+118.0
+568.0
+221.1
+221.1
+165.0
+165.0
+325.0
+420.0
+410.0
+195.2
+189.1
+195.2
+189.1
+217.0
+217.0
+46.0
+46.0
+10.0
+224.0
+224.0
+316.0
+222.0
+
+UNIT NAME
+238 PANDA TEMPLE I POWER CTG 2
+239 PANDA TEMPLE I POWER STG 1
+240 PANDA TEMPLE II POWER CTG 1
+241 PANDA TEMPLE II POWER CTG 2
+242 PANDA TEMPLE II POWER STG 1
+243 PARIS ENERGY CENTER CTG 1
+244 PARIS ENERGY CENTER CTG 2
+245 PARIS ENERGY CENTER STG 1
+246 PASADENA COGEN FACILITY CTG 2
+247 PASADENA COGEN FACILITY CTG 3
+248 PASADENA COGEN FACILITY STG 2
+249 PEARSALL ENGINE PLANT IC A
+250 PEARSALL ENGINE PLANT IC B
+251 PEARSALL ENGINE PLANT IC C
+252 PEARSALL ENGINE PLANT IC D
+253 PERMIAN BASIN CTG 1
+254 PERMIAN BASIN CTG 2
+255 PERMIAN BASIN CTG 3
+256 PERMIAN BASIN CTG 4
+257 PERMIAN BASIN CTG 5
+258 PHR PEAKERS (BAC) CTG 1
+259 PHR PEAKERS (BAC) CTG 2
+260 PHR PEAKERS (BAC) CTG 3
+261 PHR PEAKERS (BAC) CTG 4
+262 PHR PEAKERS (BAC) CTG 5
+263 PHR PEAKERS (BAC) CTG 6
+264 PIN PEAKING ENERGY CENTER 1 (TEF)
+265 PIN PEAKING ENERGY CENTER 2 (TEF)
+266 POWERLANE PLANT STG 1 (AS OF 10/1/2022, AVAILABLE 5/1 THROUGH 9/30)
+267 POWERLANE PLANT STG 2
+268 POWERLANE PLANT STG 3
+269 PROENERGY SOUTH 1 (PES1) CTG 1
+270 PROENERGY SOUTH 1 (PES1) CTG 2
+271 PROENERGY SOUTH 1 (PES1) CTG 3
+272 PROENERGY SOUTH 1 (PES1) CTG 4
+273 PROENERGY SOUTH 1 (PES1) CTG 5
+274 PROENERGY SOUTH 1 (PES1) CTG 6
+275 PROENERGY SOUTH 2 (PES2) CTG 7
+276 PROENERGY SOUTH 2 (PES2) CTG 8
+277 PYOTE GAS
+278 QUAIL RUN ENERGY CTG 1
+279 QUAIL RUN ENERGY CTG 2
+280 QUAIL RUN ENERGY CTG 3
+281 QUAIL RUN ENERGY CTG 4
+282 QUAIL RUN ENERGY STG 1
+283 QUAIL RUN ENERGY STG 2
+284 R W MILLER CTG 4
+285 R W MILLER CTG 5
+286 R W MILLER STG 1
+287 R W MILLER STG 2
+288 R W MILLER STG 3
+289 RABBS POWER STATION U1
+290 RABBS POWER STATION U2
+291 RABBS POWER STATION U3
+292 RABBS POWER STATION U4
+293 RABBS POWER STATION U5
+294 RABBS POWER STATION U6
+295 RABBS POWER STATION U7
+296 RABBS POWER STATION U8
+297 RAY OLINGER CTG 4
+298 RAY OLINGER STG 2
+299 RAY OLINGER STG 3
+300 REDGATE IC A
+301 REDGATE IC B
+302 REDGATE IC C
+303 REDGATE IC D
+304 REMY JADE POWER STATION U1
+305 REMY JADE POWER STATION U2
+306 REMY JADE POWER STATION U3
+307 REMY JADE POWER STATION U4
+308 REMY JADE POWER STATION U5
+309 REMY JADE POWER STATION U6
+310 REMY JADE POWER STATION U7
+311 REMY JADE POWER STATION U8
+312 RIO NOGALES POWER CTG 1
+313 RIO NOGALES POWER CTG 2
+314 RIO NOGALES POWER CTG 3
+315 RIO NOGALES POWER STG 4
+316 SAM RAYBURN POWER CTG 7
+317 SAM RAYBURN POWER CTG 8
+318 SAM RAYBURN POWER CTG 9
+319 SAM RAYBURN POWER STG 10
+320 SAN JACINTO SES CTG 1
+321 SAN JACINTO SES CTG 2
+322 SANDHILL ENERGY CENTER CTG 1
+323 SANDHILL ENERGY CENTER CTG 2
+324 SANDHILL ENERGY CENTER CTG 3
+325 SANDHILL ENERGY CENTER CTG 4
+326 SANDHILL ENERGY CENTER CTG 5A
+327 SANDHILL ENERGY CENTER CTG 6
+328 SANDHILL ENERGY CENTER CTG 7
+329 SANDHILL ENERGY CENTER STG 5C
+330 SILAS RAY CTG 10
+331 SIM GIDEON STG 1
+332 SIM GIDEON STG 2
+333 SIM GIDEON STG 3
+334 SKY GLOBAL POWER ONE IC A
+335 SKY GLOBAL POWER ONE IC B
+336 SPENCER STG U4 (AS OF 10/24/2022, AVAILABLE 3/1 THROUGH 11/30)
+337 SPENCER STG U5 (AS OF 10/24/2022, AVAILABLE 3/1 THROUGH 11/30)
+338 STRYKER CREEK STG 1
+339 STRYKER CREEK STG 2
+340 T H WHARTON CTG 1
+341 T H WHARTON POWER CTG 31
+342 T H WHARTON POWER CTG 32
+343 T H WHARTON POWER CTG 33
+344 T H WHARTON POWER CTG 34
+345 T H WHARTON POWER CTG 41
+346 T H WHARTON POWER CTG 42
+347 T H WHARTON POWER CTG 43
+348 T H WHARTON POWER CTG 44
+349 T H WHARTON POWER CTG 51
+350 T H WHARTON POWER CTG 52
+351 T H WHARTON POWER CTG 53
+352 T H WHARTON POWER CTG 54
+353 T H WHARTON POWER CTG 55
+354 T H WHARTON POWER CTG 56
+355 T H WHARTON POWER STG 3
+356 T H WHARTON POWER STG 4
+
+ERCOT PUBLIC
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+PANDA_T1_TMPL1CT2
+PANDA_T1_TMPL1ST1
+PANDA_T2_TMPL2CT1
+PANDA_T2_TMPL2CT2
+PANDA_T2_TMPL2ST1
+TNSKA_GT1
+TNSKA_GT2
+TNSKA_STG
+PSG_PSG_GT2
+PSG_PSG_GT3
+PSG_PSG_ST2
+PEARSAL2_AGR_A
+PEARSAL2_AGR_B
+PEARSAL2_AGR_C
+PEARSAL2_AGR_D
+PB2SES_CT1
+PB2SES_CT2
+PB2SES_CT3
+PB2SES_CT4
+PB2SES_CT5
+BAC_CTG1
+BAC_CTG2
+BAC_CTG3
+BAC_CTG4
+BAC_CTG5
+BAC_CTG6
+PPEC_GT7
+PPEC_GT8
+STEAM_STEAM_1
+STEAM_STEAM_2
+STEAM_STEAM_3
+PRO_UNIT1
+PRO_UNIT2
+PRO_UNIT3
+PRO_UNIT4
+PRO_UNIT5
+PRO_UNIT6
+PRO_UNIT7
+PRO_UNIT8
+PYOTE_UNIT1
+QALSW_GT1
+QALSW_GT2
+QALSW_GT3
+QALSW_GT4
+QALSW_STG1
+QALSW_STG2
+MIL_MILLERG4
+MIL_MILLERG5
+MIL_MILLERG1
+MIL_MILLERG2
+MIL_MILLERG3
+RAB_UNIT1
+RAB_UNIT2
+RAB_UNIT3
+RAB_UNIT4
+RAB_UNIT5
+RAB_UNIT6
+RAB_UNIT7
+RAB_UNIT8
+OLINGR_OLING_4
+OLINGR_OLING_2
+OLINGR_OLING_3
+REDGATE_AGR_A
+REDGATE_AGR_B
+REDGATE_AGR_C
+REDGATE_AGR_D
+JAD_UNIT1
+JAD_UNIT2
+JAD_UNIT3
+JAD_UNIT4
+JAD_UNIT5
+JAD_UNIT6
+JAD_UNIT7
+JAD_UNIT8
+RIONOG_CT1
+RIONOG_CT2
+RIONOG_CT3
+RIONOG_ST1
+RAYBURN_RAYBURG7
+RAYBURN_RAYBURG8
+RAYBURN_RAYBURG9
+RAYBURN_RAYBURG10
+SJS_SJS_G1
+SJS_SJS_G2
+SANDHSYD_SH1
+SANDHSYD_SH2
+SANDHSYD_SH3
+SANDHSYD_SH4
+SANDHSYD_SH_5A
+SANDHSYD_SH6
+SANDHSYD_SH7
+SANDHSYD_SH_5C
+SILASRAY_SILAS_10
+GIDEON_GIDEONG1
+GIDEON_GIDEONG2
+GIDEON_GIDEONG3
+SKY1_SKY1A
+SKY1_SKY1B
+SPNCER_SPNCE_4
+SPNCER_SPNCE_5
+SCSES_UNIT1A
+SCSES_UNIT2
+THW_THWGT_1
+THW_THWGT31
+THW_THWGT32
+THW_THWGT33
+THW_THWGT34
+THW_THWGT41
+THW_THWGT42
+THW_THWGT43
+THW_THWGT44
+THW_THWGT51
+THW_THWGT52
+THW_THWGT53
+THW_THWGT54
+THW_THWGT55
+THW_THWGT56
+THW_THWST_3
+THW_THWST_4
+
+8
+
+COUNTY
+
+FUEL
+
+ZONE
+
+IN SERVICE
+YEAR
+
+BELL
+BELL
+BELL
+BELL
+BELL
+LAMAR
+LAMAR
+LAMAR
+HARRIS
+HARRIS
+HARRIS
+FRIO
+FRIO
+FRIO
+FRIO
+WARD
+WARD
+WARD
+WARD
+WARD
+GALVESTON
+GALVESTON
+GALVESTON
+GALVESTON
+GALVESTON
+GALVESTON
+FREESTONE
+FREESTONE
+HUNT
+HUNT
+HUNT
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+WARD
+ECTOR
+ECTOR
+ECTOR
+ECTOR
+ECTOR
+ECTOR
+PALO PINTO
+PALO PINTO
+PALO PINTO
+PALO PINTO
+PALO PINTO
+FORT BEND
+FORT BEND
+FORT BEND
+FORT BEND
+FORT BEND
+FORT BEND
+FORT BEND
+FORT BEND
+COLLIN
+COLLIN
+COLLIN
+HIDALGO
+HIDALGO
+HIDALGO
+HIDALGO
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+GUADALUPE
+GUADALUPE
+GUADALUPE
+GUADALUPE
+VICTORIA
+VICTORIA
+VICTORIA
+VICTORIA
+HARRIS
+HARRIS
+TRAVIS
+TRAVIS
+TRAVIS
+TRAVIS
+TRAVIS
+TRAVIS
+TRAVIS
+TRAVIS
+CAMERON
+BASTROP
+BASTROP
+BASTROP
+COLORADO
+COLORADO
+DENTON
+DENTON
+CHEROKEE
+CHEROKEE
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+HARRIS
+
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-IC
+GAS-IC
+GAS-IC
+GAS-IC
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-ST
+GAS-ST
+GAS-ST
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-IC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-GT
+GAS-GT
+GAS-ST
+GAS-ST
+GAS-ST
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-ST
+GAS-ST
+GAS-IC
+GAS-IC
+GAS-IC
+GAS-IC
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-CC
+GAS-GT
+GAS-GT
+GAS-CC
+GAS-GT
+GAS-ST
+GAS-ST
+GAS-ST
+GAS-IC
+GAS-IC
+GAS-ST
+GAS-ST
+GAS-ST
+GAS-ST
+GAS-GT
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-CC
+GAS-CC
+
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+HOUSTON
+HOUSTON
+HOUSTON
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+WEST
+WEST
+WEST
+WEST
+WEST
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+NORTH
+NORTH
+NORTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+HOUSTON
+HOUSTON
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+COASTAL
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+NORTH
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+
+2014
+2014
+2015
+2015
+2015
+1989
+1989
+1990
+2000
+2000
+2000
+2012
+2012
+2012
+2012
+1988
+1988
+1988
+1990
+1990
+2018
+2018
+2018
+2018
+2018
+2018
+2026
+2026
+1966
+1967
+1978
+2021
+2021
+2021
+2021
+2021
+2021
+2021
+2021
+2026
+2007
+2007
+2008
+2008
+2007
+2008
+1994
+1994
+1968
+1971
+1974
+2022
+2022
+2022
+2022
+2022
+2022
+2022
+2022
+2001
+1971
+1975
+2016
+2016
+2016
+2016
+2024
+2024
+2024
+2024
+2024
+2024
+2024
+2024
+2002
+2002
+2002
+2002
+2003
+2003
+2003
+2003
+1995
+1995
+2001
+2001
+2001
+2001
+2004
+2010
+2010
+2004
+2004
+1965
+1968
+1972
+2016
+2016
+1966
+1973
+1958
+1965
+1967
+1972
+1972
+1972
+1972
+1972
+1972
+1974
+1974
+1975
+1975
+1975
+1975
+1975
+1975
+1974
+1974
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+232.0
+353.1
+232.0
+232.0
+353.1
+90.9
+90.9
+90.0
+215.1
+215.1
+195.5
+50.6
+50.6
+50.6
+50.6
+89.4
+89.4
+89.4
+89.4
+89.4
+65.0
+65.0
+65.0
+65.0
+65.0
+65.0
+229.5
+229.5
+18.8
+25.0
+43.2
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+9.9
+90.6
+90.6
+90.6
+90.6
+98.1
+98.1
+116.0
+116.0
+75.0
+120.0
+216.0
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+95.0
+113.6
+156.6
+56.3
+56.3
+56.3
+56.3
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+199.0
+199.0
+199.0
+373.2
+60.5
+60.5
+60.5
+42.0
+88.2
+88.2
+60.5
+60.5
+60.5
+60.5
+198.9
+60.5
+60.5
+191.0
+60.5
+136.0
+136.0
+351.0
+26.7
+26.7
+61.0
+65.0
+177.0
+502.0
+17.9
+74.5
+74.5
+74.5
+74.5
+74.5
+74.5
+74.5
+74.5
+76.0
+76.0
+76.0
+76.0
+76.0
+76.0
+113.1
+113.1
+
+JAN 2027
+RATING
+(MW)
+209.0
+325.0
+218.5
+218.5
+333.6
+87.0
+87.0
+79.0
+176.0
+176.0
+169.0
+50.6
+50.6
+50.6
+50.6
+79.0
+76.0
+78.0
+75.0
+79.0
+65.0
+65.0
+65.0
+65.0
+64.0
+65.0
+218.0
+220.0
+21.5
+36.0
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+9.9
+84.0
+86.0
+81.0
+81.0
+98.0
+98.0
+116.0
+116.0
+75.0
+120.0
+208.0
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+95.0
+107.0
+146.0
+56.3
+56.3
+56.3
+56.3
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+199.0
+199.0
+199.0
+320.0
+50.0
+51.0
+50.0
+40.0
+87.0
+87.0
+48.0
+48.0
+48.0
+48.0
+175.0
+48.0
+48.0
+150.0
+46.0
+130.0
+135.0
+340.0
+26.7
+26.7
+167.0
+502.0
+16.0
+51.3
+51.3
+51.3
+51.3
+51.3
+51.3
+62.0
+62.0
+65.0
+65.0
+65.0
+65.0
+65.0
+65.0
+110.0
+110.0
+
+UNIT NAME
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+
+357 TEXAS CITY POWER CTG A
+TXCTY_CTA
+358 TEXAS CITY POWER CTG B
+TXCTY_CTB
+359 TEXAS CITY POWER CTG C
+TXCTY_CTC
+360 TEXAS CITY POWER STG
+TXCTY_ST
+361 TEXAS GULF SULPHUR CTG 1
+TGS_GT01
+362 TIMMERMAN POWER PLANT U1
+TIMPP_AGR1
+363 TIMMERMAN POWER PLANT U2
+TIMPP_AGR2
+364 TIMMERMAN POWER PLANT U3
+TIMPP_AGR3
+365 TIMMERMAN POWER PLANT U4
+TIMPP_AGR4
+366 TIMMERMAN POWER PLANT U5
+TIMPP_AGR5
+367 TIMMERMAN POWER PLANT U6
+TIMPP_AGR6
+368 TIMMERMAN POWER PLANT U7
+TIMPP_AGR7
+369 TIMMERMAN POWER PLANT U8
+TIMPP_AGR8
+370 TOPAZ POWER PLANT U1
+TOPAZ_UNIT1
+371 TOPAZ POWER PLANT U10
+TOPAZ_UNIT10
+372 TOPAZ POWER PLANT U2
+TOPAZ_UNIT2
+373 TOPAZ POWER PLANT U3
+TOPAZ_UNIT3
+374 TOPAZ POWER PLANT U4
+TOPAZ_UNIT4
+375 TOPAZ POWER PLANT U5
+TOPAZ_UNIT5
+376 TOPAZ POWER PLANT U6
+TOPAZ_UNIT6
+377 TOPAZ POWER PLANT U7
+TOPAZ_UNIT7
+378 TOPAZ POWER PLANT U8
+TOPAZ_UNIT8
+379 TOPAZ POWER PLANT U9
+TOPAZ_UNIT9
+380 TRINIDAD STG 6
+TRSES_UNIT6
+381 V H BRAUNIG CTG 5
+BRAUNIG_VHB6CT5
+382 V H BRAUNIG CTG 6
+BRAUNIG_VHB6CT6
+383 V H BRAUNIG CTG 7
+BRAUNIG_VHB6CT7
+384 V H BRAUNIG CTG 8
+BRAUNIG_VHB6CT8
+385 VICTORIA CITY (CITYVICT) CTG 1
+CITYVICT_CTG01
+386 VICTORIA CITY (CITYVICT) CTG 2
+CITYVICT_CTG02
+387 VICTORIA PORT (VICTPORT) CTG 1
+VICTPORT_CTG01
+388 VICTORIA PORT (VICTPORT) CTG 2
+VICTPORT_CTG02
+389 VICTORIA POWER CTG 6
+VICTORIA_VICTORG6
+390 VICTORIA POWER STG 5
+VICTORIA_VICTORG5
+391 W A PARISH CTG 1
+WAP_WAPGT_1
+392 W A PARISH STG 1
+WAP_WAP_G1
+393 W A PARISH STG 2
+WAP_WAP_G2
+394 W A PARISH STG 3
+WAP_WAP_G3
+395 W A PARISH STG 4
+WAP_WAP_G4
+396 WICHITA FALLS CTG 1
+WFCOGEN_UNIT1
+397 WICHITA FALLS CTG 2
+WFCOGEN_UNIT2
+398 WICHITA FALLS CTG 3
+WFCOGEN_UNIT3
+399 WINCHESTER POWER PARK CTG 1
+WIPOPA_WPP_G1
+400 WINCHESTER POWER PARK CTG 2
+WIPOPA_WPP_G2
+401 WINCHESTER POWER PARK CTG 3
+WIPOPA_WPP_G3
+402 WINCHESTER POWER PARK CTG 4
+WIPOPA_WPP_G4
+403 WISE-TRACTEBEL POWER CTG 1
+20INR0286
+WCPP_CT1
+404 WISE-TRACTEBEL POWER CTG 2
+20INR0286
+WCPP_CT2
+405 WISE-TRACTEBEL POWER STG 1
+WCPP_ST1
+406 WOLF HOLLOW 2 CTG 4
+WHCCS2_CT4
+407 WOLF HOLLOW 2 CTG 5
+WHCCS2_CT5
+408 WOLF HOLLOW 2 STG 6
+WHCCS2_STG6
+409 WOLF HOLLOW POWER CTG 1
+WHCCS_CT1
+410 WOLF HOLLOW POWER CTG 2
+WHCCS_CT2
+411 WOLF HOLLOW POWER STG
+WHCCS_STG
+412 NACOGDOCHES POWER
+NACPW_UNIT1
+413 FARMERS BRANCH LANDFILL GAS TO ENERGY
+HBR_2UNITS
+414 NELSON GARDENS LFG
+78252_4UNITS
+415 WM RENEWABLE-AUSTIN LFG
+SPRIN_4UNITS
+416 WM RENEWABLE-MESQUITE CREEK LFG
+FREIH_2UNITS
+417 WM RENEWABLE-WESTSIDE LFG
+WSTHL_3UNITS
+418 Operational Capacity Total (Nuclear, Coal, Gas, Biomass)
+419
+420 Operational Resources - Synchronized but not Approved for Commercial Operations (Thermal)
+421 STAGHORN GAS
+STAGHORN_UNIT1
+422 Operational Capacity - Synchronized but not Approved for Commercial Operations Total (Nuclear, Coal, Gas, Biomass)
+423
+424 Operational Capacity Thermal Unavailable due to Extended Outage or Derate
+THERMAL_UNAVAIL
+425 Operational Capacity Thermal Total
+THERMAL_OPERATIONAL
+426
+427 Operational Resources (Hydro)
+428 AMISTAD HYDRO 1
+AMISTAD_AMISTAG1
+429 AMISTAD HYDRO 2
+AMISTAD_AMISTAG2
+430 AUSTIN HYDRO 1
+AUSTPL_AUSTING1
+431 AUSTIN HYDRO 2
+AUSTPL_AUSTING2
+432 BUCHANAN HYDRO 1
+BUCHAN_BUCHANG1
+433 BUCHANAN HYDRO 2
+BUCHAN_BUCHANG2
+434 BUCHANAN HYDRO 3
+BUCHAN_BUCHANG3
+435 DENISON DAM 1
+DNDAM_DENISOG1
+436 DENISON DAM 2
+DNDAM_DENISOG2
+437 EAGLE PASS HYDRO
+EAGLE_HY_EAGLE_HY1
+438 FALCON HYDRO 1
+FALCON_FALCONG1
+439 FALCON HYDRO 2
+FALCON_FALCONG2
+440 FALCON HYDRO 3
+FALCON_FALCONG3
+441 GRANITE SHOALS HYDRO 1
+WIRTZ_WIRTZ_G1
+442 GRANITE SHOALS HYDRO 2
+WIRTZ_WIRTZ_G2
+443 GUADALUPE BLANCO RIVER AUTH-CANYON
+CANYHY_CANYHYG1
+444 INKS HYDRO 1
+INKSDA_INKS_G1
+445 MARBLE FALLS HYDRO 1
+MARBFA_MARBFAG1
+446 MARBLE FALLS HYDRO 2
+MARBFA_MARBFAG2
+447 MARSHALL FORD HYDRO 1
+MARSFO_MARSFOG1
+448 MARSHALL FORD HYDRO 2
+MARSFO_MARSFOG2
+449 MARSHALL FORD HYDRO 3
+MARSFO_MARSFOG3
+450 WHITNEY DAM HYDRO
+WND_WHITNEY1
+451 WHITNEY DAM HYDRO 2
+WND_WHITNEY2
+452 Operational Capacity Total (Hydro)
+453 Hydro Capacity Contribution (Top 20 Hours)
+HYDRO_CAP_CONT
+454
+455 Operational Hydro Resources, Settlement Only Distributed Generators (SODGs)
+456 GUADALUPE BLANCO RIVER AUTH-MCQUEENEY
+MCQUE_5UNITS
+457 GUADALUPE BLANCO RIVER AUTH-SCHUMANSVILLE
+SCHUM_2UNITS
+458 Operational Hydro Resources Total, Settlement Only Distributed Generators (SODGs)
+459 Hydro SODG Capacity Contribution (Highest 20 Peak Load Hours)
+HYDRO_CAP_CONT
+460
+461 Operational Capacity Hydroelectric Unavailable due to Extended Outage or Derate
+HYDRO_UNAVAIL
+462 Operational Capacity Hydroelectric Total
+HYDRO_OPERATIONAL
+463
+464 Operational Resources (Switchable)
+465 ANTELOPE IC 1
+AEEC_ANTLP_1
+466 ANTELOPE IC 2
+AEEC_ANTLP_2
+467 ANTELOPE IC 3
+AEEC_ANTLP_3
+468 ELK STATION CTG 1
+AEEC_ELK_1
+469 ELK STATION CTG 2
+AEEC_ELK_2
+470 ELK STATION CTG 3
+AEEC_ELK_3
+471 TENASKA FRONTIER STATION CTG 1
+FTR_FTR_G1
+472 TENASKA FRONTIER STATION CTG 2
+FTR_FTR_G2
+473 TENASKA FRONTIER STATION CTG 3
+FTR_FTR_G3
+474 TENASKA FRONTIER STATION STG 4
+FTR_FTR_G4
+475 TENASKA GATEWAY STATION CTG 1
+TGCCS_CT1
+
+ERCOT PUBLIC
+
+ZONE
+
+IN SERVICE
+YEAR
+
+GALVESTON GAS-CC
+GALVESTON GAS-CC
+GALVESTON GAS-CC
+GALVESTON GAS-CC
+WHARTON
+GAS-GT
+CALDWELL
+GAS-IC
+CALDWELL
+GAS-IC
+CALDWELL
+GAS-IC
+CALDWELL
+GAS-IC
+CALDWELL
+GAS-IC
+CALDWELL
+GAS-IC
+CALDWELL
+GAS-IC
+CALDWELL
+GAS-IC
+GALVESTON GAS-GT
+GALVESTON GAS-GT
+GALVESTON GAS-GT
+GALVESTON GAS-GT
+GALVESTON GAS-GT
+GALVESTON GAS-GT
+GALVESTON GAS-GT
+GALVESTON GAS-GT
+GALVESTON GAS-GT
+GALVESTON GAS-GT
+HENDERSON GAS-ST
+BEXAR
+GAS-GT
+BEXAR
+GAS-GT
+BEXAR
+GAS-GT
+BEXAR
+GAS-GT
+VICTORIA
+GAS-GT
+VICTORIA
+GAS-GT
+VICTORIA
+GAS-GT
+VICTORIA
+GAS-GT
+VICTORIA
+GAS-CC
+VICTORIA
+GAS-CC
+FORT BEND
+GAS-GT
+FORT BEND
+GAS-ST
+FORT BEND
+GAS-ST
+FORT BEND
+GAS-ST
+FORT BEND
+GAS-ST
+WICHITA
+GAS-CC
+WICHITA
+GAS-CC
+WICHITA
+GAS-CC
+FAYETTE
+GAS-GT
+FAYETTE
+GAS-GT
+FAYETTE
+GAS-GT
+FAYETTE
+GAS-GT
+WISE
+GAS-CC
+WISE
+GAS-CC
+WISE
+GAS-CC
+HOOD
+GAS-CC
+HOOD
+GAS-CC
+HOOD
+GAS-CC
+HOOD
+GAS-CC
+HOOD
+GAS-CC
+HOOD
+GAS-CC
+NACOGDOCHE BIOMASS
+DENTON
+BIOMASS
+BEXAR
+BIOMASS
+TRAVIS
+BIOMASS
+COMAL
+BIOMASS
+PARKER
+BIOMASS
+
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+NORTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+WEST
+WEST
+WEST
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+SOUTH
+SOUTH
+SOUTH
+NORTH
+
+2000
+2000
+2000
+2000
+1985
+2025
+2025
+2025
+2025
+2026
+2026
+2026
+2026
+2021
+2021
+2021
+2021
+2021
+2021
+2021
+2021
+2021
+2021
+1965
+2009
+2009
+2009
+2009
+2020
+2020
+2019
+2019
+2009
+2009
+1967
+1958
+1958
+1961
+1968
+1987
+1987
+1987
+2009
+2009
+2009
+2009
+2004
+2004
+2004
+2017
+2017
+2017
+2002
+2002
+2002
+2012
+2011
+2013
+2007
+2011
+2010
+
+WARD
+
+WEST
+
+2026
+
+COUNTY
+
+9
+
+VAL VERDE
+VAL VERDE
+TRAVIS
+TRAVIS
+LLANO
+LLANO
+LLANO
+GRAYSON
+GRAYSON
+MAVERICK
+STARR
+STARR
+STARR
+BURNET
+BURNET
+COMAL
+LLANO
+BURNET
+BURNET
+TRAVIS
+TRAVIS
+TRAVIS
+BOSQUE
+BOSQUE
+
+FUEL
+
+GAS-IC
+
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+HYDRO
+
+HYDRO
+HYDRO
+
+GAS-IC
+GAS-IC
+GAS-IC
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+
+102.4
+102.4
+102.4
+131.5
+80.0
+37.6
+56.4
+37.6
+56.4
+37.7
+56.5
+37.7
+56.5
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+49.8
+235.0
+48.0
+48.0
+48.0
+47.0
+49.8
+49.8
+49.8
+49.8
+160.0
+128.0
+13.0
+169.0
+169.0
+258.0
+552.0
+19.0
+19.0
+19.0
+46.0
+46.0
+46.0
+46.0
+263.8
+263.8
+298.0
+353.3
+354.6
+473.1
+240.4
+235.4
+269.0
+105.0
+3.2
+4.2
+6.4
+3.2
+4.8
+70,317.1
+
+10.0
+10.0
+
+10.0
+10.0
+
+(1,083.0)
+74,432.4
+
+(1,007.6)
+69,319.5
+
+1983
+1983
+1940
+1940
+1938
+1938
+1950
+1944
+1948
+1928
+1954
+1954
+1954
+1951
+1951
+1928
+1938
+1951
+1951
+1941
+1941
+1941
+1953
+1953
+
+37.9
+37.9
+9.0
+9.0
+18.3
+18.3
+18.3
+50.8
+50.8
+9.6
+12.0
+12.0
+12.0
+29.0
+29.0
+6.0
+15.0
+21.0
+20.0
+36.0
+36.0
+36.0
+22.0
+22.0
+567.9
+567.9
+
+37.9
+37.9
+8.0
+9.0
+16.0
+16.0
+17.0
+49.5
+49.5
+9.6
+12.0
+12.0
+12.0
+29.0
+29.0
+6.0
+14.0
+21.0
+20.0
+36.0
+36.0
+36.0
+22.0
+22.0
+557.4
+422.4
+
+SOUTH
+SOUTH
+
+1928
+1928
+
+7.7
+3.6
+11.3
+11.3
+
+7.7
+3.6
+11.3
+8.6
+
+579.2
+
+431.0
+
+56.0
+56.0
+56.0
+202.0
+202.0
+202.0
+185.0
+185.0
+185.0
+400.0
+179.0
+
+56.0
+56.0
+56.0
+200.0
+200.0
+200.0
+180.0
+180.0
+180.0
+400.0
+162.0
+
+HYDRO
+HYDRO
+
+HALE
+HALE
+HALE
+HALE
+HALE
+HALE
+GRIMES
+GRIMES
+GRIMES
+GRIMES
+RUSK
+
+JAN 2027
+RATING
+(MW)
+
+WEST
+WEST
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+
+HYDRO
+
+GUADALUPE
+GUADALUPE
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+129.1
+129.1
+129.1
+143.7
+94.0
+37.7
+56.5
+37.7
+56.5
+37.7
+56.5
+37.7
+56.5
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+60.5
+239.0
+64.5
+64.5
+64.5
+64.5
+60.5
+60.5
+60.5
+60.5
+196.9
+180.2
+16.3
+187.9
+187.9
+299.2
+580.5
+20.0
+20.0
+20.0
+60.5
+60.5
+60.5
+60.5
+275.0
+275.0
+298.0
+360.0
+360.0
+511.2
+264.5
+264.5
+300.0
+116.5
+3.2
+4.2
+6.4
+3.2
+4.8
+75,505.4
+
+PANHANDLE
+PANHANDLE
+PANHANDLE
+PANHANDLE
+PANHANDLE
+PANHANDLE
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+
+2016
+2016
+2016
+2016
+2016
+2016
+2000
+2000
+2000
+2000
+2001
+
+UNIT NAME
+476 TENASKA GATEWAY STATION CTG 2
+477 TENASKA GATEWAY STATION CTG 3
+478 TENASKA GATEWAY STATION STG 4
+479 TENASKA KIAMICHI STATION 1CT101
+480 TENASKA KIAMICHI STATION 1CT201
+481 TENASKA KIAMICHI STATION 1ST
+482 TENASKA KIAMICHI STATION 2CT101
+483 TENASKA KIAMICHI STATION 2CT201
+484 TENASKA KIAMICHI STATION 2ST
+485 Switchable Capacity Total
+486
+487 Switchable Capacity Unavailable to ERCOT
+488 ANTELOPE IC 1
+489 ANTELOPE IC 2
+490 ANTELOPE IC 3
+491 ELK STATION CTG 1
+492 ELK STATION CTG 2
+493 ELK STATION CTG 3
+494 TENASKA FRONTIER STATION CTG 1
+495 TENASKA FRONTIER STATION CTG 2
+496 TENASKA FRONTIER STATION CTG 3
+497 TENASKA FRONTIER STATION STG 4
+498 TENASKA GATEWAY STATION CTG 1
+499 TENASKA GATEWAY STATION CTG 2
+500 TENASKA GATEWAY STATION CTG 3
+501 TENASKA GATEWAY STATION STG 4
+502 TENASKA KIAMICHI STATION 1CT101
+503 TENASKA KIAMICHI STATION 1CT201
+504 TENASKA KIAMICHI STATION 1ST
+505 TENASKA KIAMICHI STATION 2CT101
+506 TENASKA KIAMICHI STATION 2CT201
+507 TENASKA KIAMICHI STATION 2ST
+508 Switchable Capacity Unavailable to ERCOT Total
+509
+510 Available Mothball Capacity based on Owner's Return Probability
+511
+512 Private-Use Network Capacity Contribution (Top 20 Hours)
+513
+514 Operational Resources (Wind)
+515 AGUAYO WIND U1
+516 AMADEUS WIND 1 U1
+517 AMADEUS WIND 1 U2
+518 AMADEUS WIND 2 U1
+519 ANACACHO WIND
+520 ANCHOR WIND U2
+521 ANCHOR WIND U3
+522 ANCHOR WIND U4
+523 ANCHOR WIND U5
+524 APOGEE WIND U1
+525 APOGEE WIND U2
+526 APOGEE WIND U3
+527 APOGEE WIND U4
+528 APOGEE WIND U5
+529 APOGEE WIND U6
+530 APOGEE WIND U7
+531 APPALOOSA RUN WIND U1
+532 APPALOOSA RUN WIND U2
+533 AQUILLA LAKE WIND U1
+534 AQUILLA LAKE WIND U2
+535 AQUILLA LAKE 2 WIND U1
+536 AQUILLA LAKE 2 WIND U2
+537 AVIATOR WIND U1
+538 AVIATOR WIND U2
+539 AVIATOR WIND U3
+540 BLACKJACK CREEK WIND U1
+541 BLACKJACK CREEK WIND U2
+542 BAFFIN WIND UNIT1
+543 BAFFIN WIND UNIT2
+544 BARROW RANCH (JUMBO HILL WIND) 1
+545 BARROW RANCH (JUMBO HILL WIND) 2
+546 BARTON CHAPEL WIND
+547 BLUE SUMMIT WIND 1 A
+548 BLUE SUMMIT WIND 1 B
+549 BLUE SUMMIT WIND 2 A
+550 BLUE SUMMIT WIND 2 B
+551 BLUE SUMMIT WIND 3 A
+552 BLUE SUMMIT WIND 3 B
+553 BOBCAT BLUFF WIND
+554 BRISCOE WIND
+555 BRUENNING'S BREEZE A
+556 BRUENNING'S BREEZE B
+557 BUCKTHORN WIND 1 A
+558 BUCKTHORN WIND 1 B
+559 BUFFALO GAP WIND 1
+560 BUFFALO GAP WIND 2_1
+561 BUFFALO GAP WIND 2_2
+562 BUFFALO GAP WIND 3
+563 BULL CREEK WIND U1
+564 BULL CREEK WIND U2
+565 CABEZON WIND (RIO BRAVO I WIND) 1 A
+566 CABEZON WIND (RIO BRAVO I WIND) 1 B
+567 CACTUS FLATS WIND U1
+568 CALLAHAN WIND
+569 CAMERON COUNTY WIND
+570 CAMP SPRINGS WIND 1
+571 CAMP SPRINGS WIND 2
+572 CANADIAN BREAKS WIND
+573 CANYON WIND U1
+574 CANYON WIND U2
+575 CANYON WIND U3
+576 CANYON WIND U4
+577 CANYON WIND U5
+578 CANYON WIND U6
+579 CAPRICORN RIDGE WIND 1
+580 CAPRICORN RIDGE WIND 2
+581 CAPRICORN RIDGE WIND 3
+582 CAPRICORN RIDGE WIND 4
+583 CEDRO HILL WIND 1
+584 CEDRO HILL WIND 2
+585 CHALUPA WIND
+586 CHAMPION WIND U1
+587 CHAMPION WIND U2
+588 CHAMPION WIND U3
+589 CHAPMAN RANCH WIND IA (SANTA CRUZ)
+590 CHAPMAN RANCH WIND IB (SANTA CRUZ)
+591 COTTON PLAINS WIND
+592 CRANELL WIND
+593 CRAWFISH U1
+594 DERMOTT WIND 1_1
+
+ERCOT PUBLIC
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+
+COUNTY
+
+FUEL
+
+ZONE
+
+IN SERVICE
+YEAR
+
+TGCCS_CT2
+TGCCS_CT3
+TGCCS_UNIT4
+KMCHI_1CT101
+KMCHI_1CT201
+KMCHI_1ST
+KMCHI_2CT101
+KMCHI_2CT201
+KMCHI_2ST
+
+RUSK
+RUSK
+RUSK
+FANNIN
+FANNIN
+FANNIN
+FANNIN
+FANNIN
+FANNIN
+
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+
+2001
+2001
+2001
+2003
+2003
+2003
+2003
+2003
+2003
+
+AEEC_ANTLP_1_UNAVAIL
+AEEC_ANTLP_2_UNAVAIL
+AEEC_ANTLP_3_UNAVAIL
+AEEC_ELK_1_UNAVAIL
+AEEC_ELK_2_UNAVAIL
+AEEC_ELK_3_UNAVAIL
+FTR_FTR_G1_UNAVAIL
+FTR_FTR_G2_UNAVAIL
+FTR_FTR_G3_UNAVAIL
+FTR_FTR_G4_UNAVAIL
+TGCCS_CT1_UNAVAIL
+TGCCS_CT2_UNAVAIL
+TGCCS_CT3_UNAVAIL
+TGCCS_UNIT4_UNAVAIL
+KMCHI_1CT101_UNAVAIL
+KMCHI_1CT201_UNAVAIL
+KMCHI_1ST_UNAVAIL
+KMCHI_2CT101_UNAVAIL
+KMCHI_2CT201_UNAVAIL
+KMCHI_2ST_UNAVAIL
+
+HALE
+HALE
+HALE
+HALE
+HALE
+HALE
+GRIMES
+GRIMES
+GRIMES
+GRIMES
+RUSK
+RUSK
+RUSK
+RUSK
+FANNIN
+FANNIN
+FANNIN
+FANNIN
+FANNIN
+FANNIN
+
+GAS-IC
+GAS-IC
+GAS-IC
+GAS-GT
+GAS-GT
+GAS-GT
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+GAS-CC
+
+PANHANDLE
+PANHANDLE
+PANHANDLE
+PANHANDLE
+PANHANDLE
+PANHANDLE
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+
+2016
+2016
+2016
+2016
+2016
+2016
+2000
+2000
+2000
+2000
+2001
+2001
+2001
+2001
+2003
+2003
+2003
+2003
+2003
+2003
+
+MOTH_AVAIL
+PUN_CAP_CONT
+
+26INR0622
+26INR0625
+26INR0625
+26INR0626
+
+GAS-CC
+
+AGUAYO_UNIT1
+AMADEUS1_UNIT1
+AMADEUS1_UNIT2
+AMADEUS2_UNIT3
+ANACACHO_ANA
+ANCHOR_WIND2
+ANCHOR_WIND3
+ANCHOR_WIND4
+ANCHOR_WIND5
+APOGEE_UNIT1
+APOGEE_UNIT2
+APOGEE_UNIT3
+APOGEE_UNIT4
+APOGEE_UNIT5
+APOGEE_UNIT6
+APOGEE_UNIT7
+APPALOSA_UNIT1
+APPALOSA_UNIT2
+AQUILLA_U1_23
+AQUILLA_U1_28
+AQUILLA_U2_23
+AQUILLA_U2_28
+AVIATOR_UNIT1
+AVIATOR_UNIT2
+DEWOLF_UNIT1
+BLACKJAK_UNIT1
+BLACKJAK_UNIT2
+BAFFIN_UNIT1
+BAFFIN_UNIT2
+BARROW_UNIT1
+BARROW_UNIT2
+BRTSW_BCW1
+BLSUMMIT_BLSMT1_5
+BLSUMMIT_BLSMT1_6
+BLSUMMIT_UNIT2_25
+BLSUMMIT_UNIT2_17
+BLSUMIT3_UNIT_17
+BLSUMIT3_UNIT_25
+BCATWIND_WIND_1
+BRISCOE_WIND
+BBREEZE_UNIT1
+BBREEZE_UNIT2
+BUCKTHRN_UNIT1
+BUCKTHRN_UNIT2
+BUFF_GAP_UNIT1
+BUFF_GAP_UNIT2_1
+BUFF_GAP_UNIT2_2
+BUFF_GAP_UNIT3
+BULLCRK_WND1
+BULLCRK_WND2
+CABEZON_WIND1
+CABEZON_WIND2
+CFLATS_U1
+CALLAHAN_WND1
+CAMWIND_UNIT1
+CSEC_CSECG1
+CSEC_CSECG2
+CN_BRKS_UNIT_1
+CANYONWD_UNIT1
+CANYONWD_UNIT2
+CANYONWD_UNIT3
+CANYONWD_UNIT4
+CANYONWD_UNIT5
+CANYONWD_UNIT6
+CAPRIDGE_CR1
+CAPRIDGE_CR2
+CAPRIDGE_CR3
+CAPRIDG4_CR4
+CEDROHIL_CHW1
+CEDROHIL_CHW2
+CHALUPA_UNIT1
+CHAMPION_UNIT1
+CHAMPION_UNIT2
+CHAMPION_UNIT3
+SANTACRU_UNIT1
+SANTACRU_UNIT2
+COTPLNS_COTTONPL
+CRANELL_UNIT1
+CRAWFISH_UNIT1
+DERMOTT_UNIT1
+
+10
+
+MILLS
+WIND-O
+FISHER
+WIND-O
+FISHER
+WIND-O
+FISHER
+WIND-O
+KINNEY
+WIND-O
+CALLAHAN
+WIND-O
+CALLAHAN
+WIND-O
+CALLAHAN
+WIND-O
+CALLAHAN
+WIND-O
+THROCKMORT WIND-O
+THROCKMORT WIND-O
+THROCKMORT WIND-O
+THROCKMORT WIND-O
+THROCKMORT WIND-O
+THROCKMORT WIND-O
+THROCKMORT WIND-O
+UPTON
+WIND-O
+UPTON
+WIND-O
+HILL & LIMESTOWIND-O
+HILL & LIMESTOWIND-O
+HILL & LIMESTOWIND-O
+HILL & LIMESTOWIND-O
+COKE
+WIND-O
+COKE
+WIND-O
+COKE
+WIND-O
+BEE
+WIND-O
+BEE
+WIND-O
+KENEDY
+WIND-C
+KENEDY
+WIND-C
+ANDREWS
+WIND-O
+ANDREWS
+WIND-O
+JACK
+WIND-O
+WILBARGER
+WIND-O
+WILBARGER
+WIND-O
+WILBARGER
+WIND-O
+WILBARGER
+WIND-O
+WILBARGER
+WIND-O
+WILBARGER
+WIND-O
+ARCHER
+WIND-O
+BRISCOE
+WIND-P
+WILLACY
+WIND-C
+WILLACY
+WIND-C
+ERATH
+WIND-O
+ERATH
+WIND-O
+TAYLOR
+WIND-O
+TAYLOR
+WIND-O
+TAYLOR
+WIND-O
+TAYLOR
+WIND-O
+BORDEN
+WIND-O
+BORDEN
+WIND-O
+STARR
+WIND-O
+STARR
+WIND-O
+CONCHO
+WIND-O
+CALLAHAN
+WIND-O
+CAMERON
+WIND-C
+SCURRY
+WIND-O
+SCURRY
+WIND-O
+OLDHAM
+WIND-P
+SCURRY
+WIND-O
+SCURRY
+WIND-O
+SCURRY
+WIND-O
+SCURRY
+WIND-O
+SCURRY
+WIND-O
+SCURRY
+WIND-O
+STERLING
+WIND-O
+STERLING
+WIND-O
+STERLING
+WIND-O
+STERLING
+WIND-O
+WEBB
+WIND-O
+WEBB
+WIND-O
+CAMERON
+WIND-C
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+NUECES
+WIND-C
+NUECES
+WIND-C
+FLOYD
+WIND-P
+REFUGIO
+WIND-C
+WHARTON
+WIND-O
+SCURRY
+WIND-O
+
+NORTH
+WEST
+WEST
+WEST
+SOUTH
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+NORTH
+NORTH
+NORTH
+NORTH
+WEST
+WEST
+WEST
+SOUTH
+SOUTH
+COASTAL
+COASTAL
+WEST
+WEST
+NORTH
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+PANHANDLE
+COASTAL
+COASTAL
+NORTH
+NORTH
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+SOUTH
+SOUTH
+WEST
+WEST
+COASTAL
+WEST
+WEST
+PANHANDLE
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+SOUTH
+SOUTH
+COASTAL
+WEST
+WEST
+WEST
+COASTAL
+COASTAL
+PANHANDLE
+COASTAL
+SOUTH
+WEST
+
+2023
+2021
+2021
+2021
+2012
+2024
+2024
+2024
+2024
+2024
+2024
+2024
+2024
+2024
+2024
+2024
+2024
+2024
+2023
+2023
+2023
+2023
+2021
+2021
+2021
+2023
+2023
+2016
+2016
+2021
+2021
+2007
+2013
+2013
+2020
+2020
+2020
+2020
+2020
+2015
+2017
+2017
+2017
+2017
+2006
+2007
+2007
+2008
+2009
+2009
+2019
+2019
+2022
+2004
+2016
+2007
+2007
+2019
+2026
+2026
+2026
+2026
+2026
+2026
+2007
+2007
+2008
+2025
+2010
+2010
+2021
+2008
+2008
+2008
+2017
+2017
+2017
+2022
+2025
+2017
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+179.0
+179.0
+400.0
+185.0
+185.0
+330.0
+185.0
+185.0
+330.0
+4,066.1
+
+JAN 2027
+RATING
+(MW)
+179.0
+178.0
+389.0
+185.0
+185.0
+330.0
+185.0
+185.0
+330.0
+4,016.0
+
+(56.0)
+(200.0)
+(200.0)
+(180.0)
+(180.0)
+(179.0)
+(178.0)
+(389.0)
+(185.0)
+(185.0)
+(1,932.0)
+-
+
+-
+
+9,804.0
+
+3,153.0
+
+193.5
+36.7
+35.8
+177.7
+99.8
+98.9
+90.0
+38.7
+19.3
+25.0
+14.0
+30.2
+115.0
+110.0
+24.0
+75.0
+157.9
+13.9
+13.9
+135.4
+7.0
+143.8
+180.1
+145.6
+199.3
+120.0
+120.0
+100.0
+102.0
+90.2
+70.5
+120.0
+132.8
+7.0
+92.5
+6.9
+13.7
+186.5
+162.0
+149.9
+120.0
+108.0
+44.9
+55.7
+120.6
+115.5
+117.0
+170.2
+89.0
+91.0
+115.2
+122.4
+148.4
+123.1
+165.0
+134.4
+123.6
+210.1
+146.6
+2.5
+59.2
+20.2
+67.7
+12.6
+231.7
+149.5
+200.9
+121.5
+79.4
+78.0
+173.3
+97.5
+18.1
+9.0
+150.6
+98.4
+50.4
+220.0
+163.2
+126.5
+
+192.9
+36.7
+35.8
+177.7
+99.8
+98.9
+90.0
+38.7
+19.3
+25.0
+14.0
+30.2
+115.0
+110.0
+24.0
+75.0
+157.9
+13.9
+13.9
+135.4
+7.0
+143.8
+180.1
+145.6
+199.3
+120.0
+120.0
+100.0
+102.0
+90.2
+70.5
+120.0
+132.8
+6.9
+92.5
+6.9
+13.4
+182.4
+162.0
+149.8
+120.0
+108.0
+44.9
+55.7
+120.6
+115.5
+117.0
+170.2
+88.0
+90.0
+115.2
+122.4
+148.4
+123.1
+165.0
+130.5
+120.0
+210.1
+144.0
+2.5
+58.2
+19.8
+66.5
+12.4
+231.7
+149.5
+200.9
+121.5
+77.7
+76.4
+173.3
+95.4
+17.7
+8.8
+150.6
+98.4
+50.4
+220.0
+159.0
+126.5
+
+UNIT NAME
+595 DERMOTT WIND 1_2
+596 DESERT SKY WIND 1 A
+597 DESERT SKY WIND 1 B
+598 DESERT SKY WIND 2 A
+599 DESERT SKY WIND 2 B
+600 DOUG COLBECK'S CORNER (CONWAY) A
+601 DOUG COLBECK'S CORNER (CONWAY) B
+602 EAST RAYMOND WIND (EL RAYO) U1
+603 EAST RAYMOND WIND (EL RAYO) U2
+604 ELBOW CREEK WIND
+605 ELECTRA WIND 1
+606 ELECTRA WIND 2
+607 EL ALGODON ALTO W U1
+608 EL ALGODON ALTO W U2
+609 ESPIRITU WIND
+610 FALVEZ ASTRA WIND
+611 FLAT TOP WIND I
+612 FLUVANNA RENEWABLE 1 A
+613 FLUVANNA RENEWABLE 1 B
+614 FOARD CITY WIND 1 A
+615 FOARD CITY WIND 1 B
+616 FOREST CREEK WIND
+617 GOLDTHWAITE WIND 1
+618 GOODNIGHT WIND U1
+619 GOODNIGHT WIND U2
+620 GOPHER CREEK WIND 1
+621 GOPHER CREEK WIND 2
+622 GRANDVIEW WIND 1 (CONWAY) GV1A
+623 GRANDVIEW WIND 1 (CONWAY) GV1B
+624 GREEN MOUNTAIN WIND (BRAZOS) U1
+625 GREEN MOUNTAIN WIND (BRAZOS) U2
+626 GREEN PASTURES WIND I
+627 GRIFFIN TRAIL WIND U1
+628 GRIFFIN TRAIL WIND U2
+629 GULF WIND I
+630 GULF WIND II
+631 GUNSIGHT MOUNTAIN WIND
+632 HACKBERRY WIND
+633 HART WIND 2
+634 HEREFORD WIND G
+635 HEREFORD WIND V
+636 HICKMAN (SANTA RITA WIND) 1
+637 HICKMAN (SANTA RITA WIND) 2
+638 HIDALGO & STARR WIND 11
+639 HIDALGO & STARR WIND 12
+640 HIDALGO & STARR WIND 21
+641 HIDALGO II WIND
+642 HIGH LONESOME W 1A
+643 HIGH LONESOME W 1B
+644 HIGH LONESOME W 1C
+645 HIGH LONESOME W 2
+646 HIGH LONESOME W 2A
+647 HIGH LONESOME W 3
+648 HIGH LONESOME W 4
+649 HORSE CREEK WIND 1
+650 HORSE CREEK WIND 2
+651 HORSE HOLLOW WIND 1
+652 HORSE HOLLOW WIND 2
+653 HORSE HOLLOW WIND 3
+654 HORSE HOLLOW WIND 4
+655 INADALE WIND 1
+656 INADALE WIND 2
+657 INDIAN MESA WIND
+658 INERTIA WIND U1
+659 INERTIA WIND U2
+660 INERTIA WIND U3
+661 JAVELINA I WIND 18
+662 JAVELINA I WIND 20
+663 JAVELINA II WIND 1
+664 JAVELINA II WIND 2
+665 JAVELINA II WIND 3
+666 JUMBO ROAD WIND 1
+667 JUMBO ROAD WIND 2
+668 KARANKAWA WIND 1A
+669 KARANKAWA WIND 1B
+670 KARANKAWA WIND 2
+671 KEECHI WIND
+672 KING MOUNTAIN WIND (NE)
+673 KING MOUNTAIN WIND (NW)
+674 KING MOUNTAIN WIND (SE)
+675 KING MOUNTAIN WIND (SW)
+676 LANGFORD WIND POWER
+677 LACY CREEK WIND U1
+678 LACY CREEK WIND U2
+679 LACY CREEK WIND U3
+680 LACY CREEK WIND U4
+681 LAS MAJADAS WIND U1
+682 LAS MAJADAS WIND U2
+683 LAS MAJADAS WIND U3
+684 LOCKETT WIND FARM
+685 LOGANS GAP WIND I U1
+686 LOGANS GAP WIND I U2
+687 LONE STAR WIND 1 (MESQUITE)
+688 LONE STAR WIND 2 (POST OAK) U1
+689 LONE STAR WIND 2 (POST OAK) U2
+690 LONGHORN WIND NORTH U1
+691 LONGHORN WIND NORTH U2
+692 LORAINE WINDPARK I
+693 LORAINE WINDPARK II
+694 LORAINE WINDPARK III
+695 LORAINE WINDPARK IV
+696 LOS VIENTOS III WIND
+697 LOS VIENTOS IV WIND
+698 LOS VIENTOS V WIND
+699 LOS VIENTOS WIND I
+700 LOS VIENTOS WIND II
+701 MAGIC VALLEY WIND (REDFISH) 1A
+702 MAGIC VALLEY WIND (REDFISH) 1B
+703 MARIAH DEL NORTE 1
+704 MARIAH DEL NORTE 2
+705 MAVERICK CREEK WIND WEST U1
+706 MAVERICK CREEK WIND WEST U2
+707 MAVERICK CREEK WIND WEST U3
+708 MAVERICK CREEK WIND WEST U4
+709 MAVERICK CREEK WIND EAST U1
+710 MAVERICK CREEK WIND EAST U2
+711 MAVERICK CREEK WIND EAST U3
+712 MAVERICK CREEK WIND EAST U4
+713 MAVERICK CREEK WIND EAST U5
+
+ERCOT PUBLIC
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+
+COUNTY
+
+DERMOTT_UNIT2
+DSKYWND1_UNIT_1A
+DSKYWND2_UNIT_2A
+DSKYWND1_UNIT_1B
+DSKYWND2_UNIT_2B
+GRANDVW1_COLA
+GRANDVW1_COLB
+EL_RAYO_UNIT1
+EL_RAYO_UNIT2
+ELB_ELBCREEK
+DIGBY_UNIT1
+DIGBY_UNIT2
+ALGODON_UNIT1
+ALGODON_UNIT2
+CHALUPA_UNIT2
+ASTRA_UNIT1
+FTWIND_UNIT_1
+FLUVANNA_UNIT1
+FLUVANNA_UNIT2
+FOARDCTY_UNIT1
+FOARDCTY_UNIT2
+MCDLD_FCW1
+GWEC_GWEC_G1
+GOODNIT1_UNIT1
+GOODNIT1_UNIT2
+GOPHER_UNIT1
+GOPHER_UNIT2
+GRANDVW1_GV1A
+GRANDVW1_GV1B
+BRAZ_WND_WND1
+BRAZ_WND_WND2
+GPASTURE_WIND_I
+GRIF_TRL_UNIT1
+GRIF_TRL_UNIT2
+TGW_T1
+TGW_T2
+GUNMTN_G1
+HWF_HWFG1
+HART_WND_UNIT1
+HRFDWIND_WIND_G
+HRFDWIND_WIND_V
+HICKMAN_G1
+HICKMAN_G2
+MIRASOLE_MIR11
+MIRASOLE_MIR12
+MIRASOLE_MIR21
+MIRASOLE_MIR13
+HI_LONE_WGR1A
+HI_LONE_WGR1B
+HI_LONE_WGR1C
+HI_LONE_WGR2
+HI_LONE_WGR2A
+HI_LONE_WGR3
+HI_LONE_WGR4
+HORSECRK_UNIT1
+HORSECRK_UNIT2
+HHGT_HHOLLOW1
+HHGT_HHOLLOW2
+HHGT_HHOLLOW3
+HHGT_HHOLLOW4
+INDL_INADALE1
+INDL_INADALE2
+INDNNWP_INDNNWP2
+INRT_W_UNIT1
+INRT_W_UNIT2
+INRT_W_UNIT3
+BORDAS_JAVEL18
+BORDAS_JAVEL20
+BORDAS2_JAVEL2_A
+BORDAS2_JAVEL2_B
+BORDAS2_JAVEL2_C
+HRFDWIND_JRDWIND1
+HRFDWIND_JRDWIND2
+KARAKAW1_UNIT1
+KARAKAW1_UNIT2
+KARAKAW2_UNIT3
+KEECHI_U1
+KING_NE_KINGNE
+KING_NW_KINGNW
+KING_SE_KINGSE
+KING_SW_KINGSW
+LGD_LANGFORD
+LACY_CRK_UNIT1
+LACY_CRK_UNIT2
+LACY_CRK_UNIT3
+LACY_CRK_UNIT4
+LMAJADAS_UNIT1
+LMAJADAS_UNIT2
+LMAJADAS_UNIT3
+LOCKETT_UNIT1
+LGW_UNIT1
+LGW_UNIT2
+LNCRK_G83
+LNCRK2_G871
+LNCRK2_G872
+LHORN_N_UNIT1
+LHORN_N_UNIT2
+LONEWOLF_G1
+LONEWOLF_G2
+LONEWOLF_G3
+LONEWOLF_G4
+LV3_UNIT_1
+LV4_UNIT_1
+LV5_UNIT_1
+LV1_LV1A
+LV2_LV2
+REDFISH_MV1A
+REDFISH_MV1B
+MARIAH_NORTE1
+MARIAH_NORTE2
+MAVCRK_W_UNIT1
+MAVCRK_W_UNIT2
+MAVCRK_W_UNIT3
+MAVCRK_W_UNIT4
+MAVCRK_E_UNIT5
+MAVCRK_E_UNIT6
+MAVCRK_E_UNIT7
+MAVCRK_E_UNIT8
+MAVCRK_E_UNIT9
+
+11
+
+FUEL
+
+SCURRY
+WIND-O
+PECOS
+WIND-O
+PECOS
+WIND-O
+PECOS
+WIND-O
+PECOS
+WIND-O
+CARSON
+WIND-P
+CARSON
+WIND-P
+WILLACY
+WIND-C
+WILLACY
+WIND-C
+HOWARD
+WIND-O
+WILBARGER
+WIND-O
+WILBARGER
+WIND-O
+WILLACY
+WIND-C
+WILLACY
+WIND-C
+CAMERON
+WIND-C
+RANDALL
+WIND-P
+MILLS
+WIND-O
+SCURRY
+WIND-O
+SCURRY
+WIND-O
+FOARD
+WIND-O
+FOARD
+WIND-O
+GLASSCOCK WIND-O
+MILLS
+WIND-O
+ARMSTRONG WIND-P
+ARMSTRONG WIND-P
+BORDEN
+WIND-O
+BORDEN
+WIND-O
+CARSON
+WIND-P
+CARSON
+WIND-P
+SCURRY
+WIND-O
+SCURRY
+WIND-O
+BAYLOR
+WIND-O
+KNOX
+WIND-O
+KNOX
+WIND-O
+KENEDY
+WIND-C
+KENEDY
+WIND-C
+HOWARD
+WIND-O
+SHACKELFORDWIND-O
+CASTRO
+WIND-P
+DEAF SMITH
+WIND-P
+DEAF SMITH
+WIND-P
+REAGAN
+WIND-O
+REAGAN
+WIND-O
+HIDALGO
+WIND-O
+HIDALGO
+WIND-O
+HIDALGO
+WIND-O
+HIDALGO
+WIND-O
+CROCKETT
+WIND-O
+CROCKETT
+WIND-O
+CROCKETT
+WIND-O
+CROCKETT
+WIND-O
+CROCKETT
+WIND-O
+CROCKETT
+WIND-O
+CROCKETT
+WIND-O
+HASKELL
+WIND-O
+HASKELL
+WIND-O
+TAYLOR
+WIND-O
+TAYLOR
+WIND-O
+TAYLOR
+WIND-O
+TAYLOR
+WIND-O
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+PECOS
+WIND-O
+HASKELL
+WIND-O
+HASKELL
+WIND-O
+HASKELL
+WIND-O
+WEBB
+WIND-O
+WEBB
+WIND-O
+WEBB
+WIND-O
+WEBB
+WIND-O
+WEBB
+WIND-O
+DEAF SMITH
+WIND-P
+DEAF SMITH
+WIND-P
+SAN PATRICIO WIND-C
+SAN PATRICIO WIND-C
+SAN PATRICIO WIND-C
+JACK
+WIND-O
+UPTON
+WIND-O
+UPTON
+WIND-O
+UPTON
+WIND-O
+UPTON
+WIND-O
+TOM GREEN
+WIND-O
+GLASSCOCK WIND-O
+GLASSCOCK WIND-O
+GLASSCOCK WIND-O
+GLASSCOCK WIND-O
+WILLACY
+WIND-C
+WILLACY
+WIND-C
+WILLACY
+WIND-C
+WILBARGER
+WIND-O
+COMANCHE
+WIND-O
+COMANCHE
+WIND-O
+SHACKELFORDWIND-O
+SHACKELFORDWIND-O
+SHACKELFORDWIND-O
+FLOYD
+WIND-P
+FLOYD
+WIND-P
+MITCHELL
+WIND-O
+MITCHELL
+WIND-O
+MITCHELL
+WIND-O
+MITCHELL
+WIND-O
+STARR
+WIND-O
+STARR
+WIND-O
+STARR
+WIND-O
+WILLACY
+WIND-C
+WILLACY
+WIND-C
+WILLACY
+WIND-C
+WILLACY
+WIND-C
+PARMER
+WIND-P
+PARMER
+WIND-P
+CONCHO
+WIND-O
+CONCHO
+WIND-O
+CONCHO
+WIND-O
+CONCHO
+WIND-O
+CONCHO
+WIND-O
+CONCHO
+WIND-O
+CONCHO
+WIND-O
+CONCHO
+WIND-O
+CONCHO
+WIND-O
+
+ZONE
+
+IN SERVICE
+YEAR
+
+WEST
+WEST
+WEST
+WEST
+WEST
+PANHANDLE
+PANHANDLE
+COASTAL
+COASTAL
+WEST
+WEST
+WEST
+COASTAL
+COASTAL
+COASTAL
+PANHANDLE
+NORTH
+WEST
+WEST
+WEST
+WEST
+WEST
+NORTH
+PANHANDLE
+PANHANDLE
+WEST
+WEST
+PANHANDLE
+PANHANDLE
+WEST
+WEST
+WEST
+WEST
+WEST
+COASTAL
+COASTAL
+WEST
+WEST
+PANHANDLE
+PANHANDLE
+PANHANDLE
+WEST
+WEST
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+PANHANDLE
+PANHANDLE
+COASTAL
+COASTAL
+COASTAL
+NORTH
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+COASTAL
+COASTAL
+COASTAL
+WEST
+NORTH
+NORTH
+WEST
+WEST
+WEST
+PANHANDLE
+PANHANDLE
+WEST
+WEST
+WEST
+WEST
+SOUTH
+SOUTH
+SOUTH
+COASTAL
+COASTAL
+COASTAL
+COASTAL
+PANHANDLE
+PANHANDLE
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+
+2017
+2022
+2022
+2022
+2022
+2016
+2016
+2021
+2021
+2008
+2016
+2016
+2022
+2022
+2021
+2017
+2018
+2017
+2017
+2019
+2019
+2007
+2014
+2024
+2024
+2020
+2020
+2016
+2016
+2003
+2003
+2015
+2021
+2021
+2021
+2021
+2016
+2008
+2025
+2014
+2014
+2018
+2018
+2016
+2016
+2016
+2021
+2021
+2021
+2021
+2021
+2021
+2021
+2021
+2017
+2017
+2009
+2009
+2009
+2009
+2008
+2008
+2001
+2023
+2023
+2023
+2015
+2015
+2017
+2017
+2017
+2015
+2015
+2019
+2019
+2019
+2014
+2001
+2001
+2001
+2001
+2009
+2024
+2024
+2024
+2024
+2023
+2023
+2023
+2019
+2015
+2015
+2006
+2007
+2007
+2015
+2015
+2010
+2010
+2011
+2011
+2015
+2016
+2016
+2013
+2013
+2012
+2012
+2017
+2017
+2022
+2022
+2022
+2022
+2022
+2022
+2022
+2022
+2022
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+126.5
+65.8
+65.8
+23.9
+14.7
+100.2
+100.2
+101.2
+99.0
+121.9
+101.3
+134.3
+171.6
+28.6
+25.2
+163.2
+200.0
+79.8
+75.6
+186.5
+163.8
+126.0
+148.6
+121.0
+137.1
+82.0
+76.0
+107.4
+103.8
+120.0
+62.4
+150.0
+98.7
+126.9
+141.6
+141.6
+119.9
+165.6
+164.3
+99.9
+100.0
+152.5
+147.5
+52.0
+98.0
+100.0
+50.4
+46.0
+52.0
+25.3
+122.5
+25.3
+127.6
+101.6
+134.8
+101.7
+213.0
+184.0
+223.5
+115.0
+95.0
+102.0
+90.4
+67.7
+27.8
+205.9
+19.7
+230.0
+96.0
+74.0
+30.0
+146.2
+153.6
+103.3
+103.3
+100.4
+110.0
+79.7
+79.7
+40.5
+79.7
+160.0
+135.4
+15.1
+138.2
+12.6
+110.0
+24.0
+138.6
+183.7
+106.3
+103.9
+194.0
+98.0
+100.0
+100.0
+100.0
+48.0
+51.0
+25.5
+24.0
+200.0
+200.0
+110.0
+200.1
+201.6
+99.8
+103.5
+115.2
+115.2
+201.6
+11.1
+33.6
+22.2
+71.4
+33.3
+22.0
+20.0
+76.8
+
+JAN 2027
+RATING
+(MW)
+126.5
+53.1
+50.4
+18.7
+8.0
+100.2
+100.2
+98.0
+96.0
+121.9
+98.9
+131.1
+171.6
+28.6
+25.2
+163.2
+200.0
+79.8
+75.6
+186.5
+163.8
+126.0
+148.6
+121.0
+137.1
+82.0
+76.0
+107.4
+103.8
+120.0
+62.4
+150.0
+98.7
+126.9
+141.6
+141.6
+119.9
+163.5
+164.3
+99.9
+100.0
+152.5
+147.5
+52.0
+98.0
+100.0
+50.4
+46.0
+52.0
+25.3
+122.5
+25.3
+127.6
+101.6
+131.1
+98.9
+213.0
+184.0
+223.5
+115.0
+95.0
+102.0
+90.4
+67.7
+27.7
+205.9
+19.7
+230.0
+96.0
+74.0
+30.0
+146.2
+153.6
+103.3
+103.3
+100.4
+110.0
+79.7
+79.7
+40.5
+79.7
+160.0
+135.4
+15.1
+138.2
+12.6
+110.0
+24.0
+138.6
+183.7
+106.3
+103.8
+194.0
+98.0
+100.0
+100.0
+100.0
+48.0
+51.0
+25.5
+24.0
+200.0
+200.0
+110.0
+200.1
+201.6
+99.8
+103.5
+115.2
+115.2
+201.6
+11.1
+33.6
+22.2
+71.4
+33.3
+22.0
+20.0
+76.8
+
+UNIT NAME
+714 MCADOO WIND
+715 MESQUITE CREEK WIND 1
+716 MESQUITE CREEK WIND 2
+717 MIAMI WIND G1
+718 MIAMI WIND G2
+719 MIDWAY WIND
+720 MONTGOMERY RANCH WIND U1
+721 MONTGOMERY RANCH WIND U2
+722 MONTE CRISTO 1 WIND
+723 NIELS BOHR WIND A (BEARKAT WIND A)
+724 NOTREES WIND 1
+725 NOTREES WIND 2
+726 OCOTILLO WIND
+727 OLD SETTLER WIND
+728 OVEJA WIND U1
+729 OVEJA WIND U2
+730 PALMAS ALTAS WIND
+731 PANHANDLE WIND 1 U1
+732 PANHANDLE WIND 1 U2
+733 PANHANDLE WIND 2 U1
+734 PANHANDLE WIND 2 U2
+735 PANTHER CREEK WIND 1
+736 PANTHER CREEK WIND 2
+737 PANTHER CREEK WIND 3 A
+738 PANTHER CREEK WIND 3 B
+739 PAPALOTE CREEK WIND
+740 PAPALOTE CREEK WIND II
+741 PECOS WIND 1 (WOODWARD)
+742 PECOS WIND 2 (WOODWARD)
+743 PENASCAL WIND 1
+744 PENASCAL WIND 2
+745 PENASCAL WIND 3
+746 PEYTON CREEK WIND
+747 PYRON WIND 1
+748 PYRON WIND 2
+749 RANCHERO WIND U1
+750 RANCHERO WIND U2
+751 RATTLESNAKE I WIND ENERGY CENTER G1
+752 RATTLESNAKE I WIND ENERGY CENTER G2
+753 RED CANYON WIND
+754 RELOJ DEL SOL WIND U1
+755 RELOJ DEL SOL WIND U2
+756 RELOJ DEL SOL WIND U3
+757 RELOJ DEL SOL WIND U4
+758 ROADRUNNER CROSSING WIND U1
+759 ROADRUNNER CROSSING WIND U2
+760 ROADRUNNER CROSSING WIND U3
+761 ROCK SPRINGS VAL VERDE WIND (FERMI) 1
+762 ROCK SPRINGS VAL VERDE WIND (FERMI) 2
+763 ROSCOE WIND
+764 ROSCOE WIND 2A
+765 ROUTE 66 WIND
+766 RTS 2 WIND (HEART OF TEXAS WIND) U1
+767 RTS 2 WIND (HEART OF TEXAS WIND) U2
+768 RTS WIND
+769 SAGE DRAW WIND U1
+770 SAGE DRAW WIND U2
+771 SALT FORK 1 WIND U1
+772 SALT FORK 1 WIND U2
+773 SAN ROMAN WIND
+774 SAND BLUFF WIND U1
+775 SAND BLUFF WIND U2
+776 SAND BLUFF WIND U3
+777 SENATE WIND
+778 SENDERO WIND ENERGY
+779 SEYMOUR HILLS WIND (S_HILLS WIND)
+780 SHAFFER (PATRIOT WIND/PETRONILLA)
+781 SHAMROCK WIND U1
+782 SHAMROCK WIND U2
+783 SHANNON WIND
+784 SHEEP CREEK WIND
+785 SHERBINO 2 WIND
+786 SILVER STAR WIND
+787 SOUTH PLAINS WIND 1 U1
+788 SOUTH PLAINS WIND 1 U2
+789 SOUTH PLAINS WIND 2 U1
+790 SOUTH PLAINS WIND 2 U2
+791 SOUTH TRENT WIND
+792 SPINNING SPUR WIND TWO A
+793 SPINNING SPUR WIND TWO B
+794 SPINNING SPUR WIND TWO C
+795 STANTON WIND ENERGY
+796 STELLA WIND
+797 STEPHENS RANCH WIND 1
+798 STEPHENS RANCH WIND 2
+799 SWEETWATER WIND 1
+800 SWEETWATER WIND 2A
+801 SWEETWATER WIND 2B
+802 SWEETWATER WIND 3A
+803 SWEETWATER WIND 3B
+804 SWEETWATER WIND 4-4A
+805 SWEETWATER WIND 4-4B
+806 SWEETWATER WIND 4-5
+807 TAHOKA WIND 1
+808 TAHOKA WIND 2
+809 TEXAS BIG SPRING WIND A
+810 TG EAST WIND U1
+811 TG EAST WIND U2
+812 TG EAST WIND U3
+813 TG EAST WIND U4
+814 TORRECILLAS WIND 1
+815 TORRECILLAS WIND 2
+816 TORRECILLAS WIND 3
+817 TRENT WIND 1 A
+818 TRENT WIND 1 B
+819 TRENT WIND 2
+820 TRENT WIND 3 A
+821 TRENT WIND 3 B
+822 TRINITY HILLS WIND 1
+823 TRINITY HILLS WIND 2
+824 TURKEY TRACK WIND
+825 TYLER BLUFF WIND
+826 VENADO WIND U1
+827 VENADO WIND U2
+828 VERA WIND 1
+829 VERA WIND 2
+830 VERA WIND 3
+831 VERA WIND 4
+832 VERA WIND 5
+
+ERCOT PUBLIC
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+
+COUNTY
+
+MWEC_G1
+MESQCRK_WND1
+MESQCRK_WND2
+MIAM1_G1
+MIAM1_G2
+MIDWIND_UNIT1
+MONT_WND_UNIT1
+MONT_WND_UNIT2
+MONTECR1_WIND1
+NBOHR_UNIT1
+NWF_NWF1
+NWF_NWF2
+OWF_OWF
+COTPLNS_OLDSETLR
+OVEJA_G1
+OVEJA_G2
+PALMWIND_UNIT1
+PH1_UNIT1
+PH1_UNIT2
+PH2_UNIT1
+PH2_UNIT2
+PC_NORTH_PANTHER1
+PC_SOUTH_PANTHER2
+PC_SOUTH_PANTH31
+PC_SOUTH_PANTH32
+PAP1_PAP1
+COTTON_PAP2
+WOODWRD1_WOODWRD1
+WOODWRD2_WOODWRD2
+PENA_UNIT1
+PENA_UNIT2
+PENA3_UNIT3
+PEY_UNIT1
+PYR_PYRON1
+PYR_PYRON2
+RANCHERO_UNIT1
+RANCHERO_UNIT2
+RSNAKE_G1
+RSNAKE_G2
+RDCANYON_RDCNY1
+RELOJ_UNIT1
+RELOJ_UNIT2
+RELOJ_UNIT3
+RELOJ_UNIT4
+RRC_WIND_UNIT1
+RRC_WIND_UNIT2
+RRC_WIND_UNIT3
+FERMI_WIND1
+FERMI_WIND2
+TKWSW1_ROSCOE
+TKWSW1_ROSCOE2A
+ROUTE_66_WIND1
+RTS2_U1
+RTS2_U2
+RTS_U1
+SAGEDRAW_UNIT1
+SAGEDRAW_UNIT2
+SALTFORK_UNIT1
+SALTFORK_UNIT2
+SANROMAN_WIND_1
+MCDLD_SB1_2
+MCDLD_SB3_282
+MCDLD_SB4_G87
+SENATEWD_UNIT1
+EXGNSND_WIND_1
+S_HILLS_UNIT1
+SHAFFER_UNIT1
+SHAMROCK_UNIT1
+SHAMROCK_UNIT2
+SHANNONW_UNIT_1
+SHEEPCRK_UNIT1
+KEO_SHRBINO2
+FLTCK_SSI
+SPLAIN1_WIND1
+SPLAIN1_WIND2
+SPLAIN2_WIND21
+SPLAIN2_WIND22
+STWF_T1
+SSPURTWO_WIND_1
+SSPURTWO_SS3WIND2
+SSPURTWO_SS3WIND1
+SWEC_G1
+STELLA_UNIT1
+SRWE1_UNIT1
+SRWE1_SRWE2
+SWEETWND_WND1
+SWEETWN2_WND24
+SWEETWN2_WND2
+SWEETWN3_WND3A
+SWEETWN3_WND3B
+SWEETWN4_WND4A
+SWEETWN4_WND4B
+SWEETWN5_WND5
+TAHOKA_UNIT_1
+TAHOKA_UNIT_2
+SGMTN_SIGNALMT
+TRUSGILL_UNIT1
+TRUSGILL_UNIT2
+TRUSGILL_UNIT3
+TRUSGILL_UNIT4
+TORR_UNIT1_25
+TORR_UNIT2_23
+TORR_UNIT2_25
+TRENT_TRENT
+TRENT_UNIT_1B
+TRENT_UNIT_2
+TRENT_UNIT_3A
+TRENT_UNIT_3B
+TRINITY_TH1_BUS1
+TRINITY_TH1_BUS2
+TTWEC_G1
+TYLRWIND_UNIT1
+VENADO_UNIT1
+VENADO_UNIT2
+VERAWIND_UNIT1
+VERAWIND_UNIT2
+VERAWIND_UNIT3
+VERAWIND_UNIT4
+VERAWIND_UNIT5
+
+12
+
+FUEL
+
+DICKENS
+WIND-P
+DAWSON
+WIND-O
+DAWSON
+WIND-O
+ROBERTS
+WIND-P
+ROBERTS
+WIND-P
+SAN PATRICIO WIND-C
+FOARD
+WIND-O
+FOARD
+WIND-O
+HIDALGO
+WIND-O
+GLASSCOCK WIND-O
+WINKLER
+WIND-O
+WINKLER
+WIND-O
+HOWARD
+WIND-O
+FLOYD
+WIND-P
+IRION
+WIND-O
+IRION
+WIND-O
+CAMERON
+WIND-C
+CARSON
+WIND-P
+CARSON
+WIND-P
+CARSON
+WIND-P
+CARSON
+WIND-P
+HOWARD
+WIND-O
+HOWARD
+WIND-O
+HOWARD
+WIND-O
+HOWARD
+WIND-O
+SAN PATRICIO WIND-C
+SAN PATRICIO WIND-C
+PECOS
+WIND-O
+PECOS
+WIND-O
+KENEDY
+WIND-C
+KENEDY
+WIND-C
+KENEDY
+WIND-C
+MATAGORDA WIND-C
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+CROCKETT
+WIND-O
+CROCKETT
+WIND-O
+GLASSCOCK WIND-O
+GLASSCOCK WIND-O
+BORDEN
+WIND-O
+ZAPATA
+WIND-O
+ZAPATA
+WIND-O
+ZAPATA
+WIND-O
+ZAPATA
+WIND-O
+EASTLAND
+WIND-O
+EASTLAND
+WIND-O
+EASTLAND
+WIND-O
+VAL VERDE
+WIND-O
+VAL VERDE
+WIND-O
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+CARSON
+WIND-P
+MCCULLOCH WIND-O
+MCCULLOCH WIND-O
+MCCULLOCH WIND-O
+LYNN
+WIND-O
+LYNN
+WIND-O
+DONLEY
+WIND-P
+DONLEY
+WIND-P
+CAMERON
+WIND-C
+GLASSCOCK WIND-O
+GLASSCOCK WIND-O
+GLASSCOCK WIND-O
+JACK
+WIND-O
+JIM HOGG
+WIND-O
+BAYLOR
+WIND-O
+NUECES
+WIND-C
+CROCKETT
+WIND-O
+CROCKETT
+WIND-O
+CLAY
+WIND-O
+EASTLAND
+WIND-O
+PECOS
+WIND-O
+ERATH
+WIND-O
+FLOYD
+WIND-P
+FLOYD
+WIND-P
+FLOYD
+WIND-P
+FLOYD
+WIND-P
+NOLAN
+WIND-O
+OLDHAM
+WIND-P
+OLDHAM
+WIND-P
+OLDHAM
+WIND-P
+MARTIN
+WIND-O
+KENEDY
+WIND-C
+BORDEN
+WIND-O
+BORDEN
+WIND-O
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+LYNN
+WIND-O
+LYNN
+WIND-O
+HOWARD
+WIND-O
+KNOX
+WIND-O
+KNOX
+WIND-O
+KNOX
+WIND-O
+KNOX
+WIND-O
+WEBB
+WIND-O
+WEBB
+WIND-O
+WEBB
+WIND-O
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+NOLAN
+WIND-O
+ARCHER
+WIND-O
+ARCHER
+WIND-O
+NOLAN
+WIND-O
+COOKE
+WIND-O
+ZAPATA
+WIND-O
+ZAPATA
+WIND-O
+KNOX
+WIND-O
+KNOX
+WIND-O
+KNOX
+WIND-O
+KNOX
+WIND-O
+KNOX
+WIND-O
+
+ZONE
+
+IN SERVICE
+YEAR
+
+PANHANDLE
+WEST
+WEST
+PANHANDLE
+PANHANDLE
+COASTAL
+WEST
+WEST
+SOUTH
+WEST
+WEST
+WEST
+WEST
+PANHANDLE
+WEST
+WEST
+COASTAL
+PANHANDLE
+PANHANDLE
+PANHANDLE
+PANHANDLE
+WEST
+WEST
+WEST
+WEST
+COASTAL
+COASTAL
+WEST
+WEST
+COASTAL
+COASTAL
+COASTAL
+COASTAL
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+WEST
+WEST
+WEST
+WEST
+PANHANDLE
+SOUTH
+SOUTH
+SOUTH
+WEST
+WEST
+PANHANDLE
+PANHANDLE
+COASTAL
+WEST
+WEST
+WEST
+NORTH
+SOUTH
+WEST
+COASTAL
+WEST
+WEST
+WEST
+NORTH
+WEST
+NORTH
+PANHANDLE
+PANHANDLE
+PANHANDLE
+PANHANDLE
+WEST
+PANHANDLE
+PANHANDLE
+PANHANDLE
+WEST
+COASTAL
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+SOUTH
+SOUTH
+SOUTH
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+NORTH
+SOUTH
+SOUTH
+WEST
+WEST
+WEST
+WEST
+WEST
+
+2008
+2015
+2015
+2014
+2014
+2019
+2024
+2024
+2026
+2018
+2009
+2009
+2008
+2017
+2021
+2021
+2020
+2014
+2014
+2014
+2014
+2008
+2008
+2022
+2022
+2009
+2010
+2001
+2001
+2009
+2009
+2011
+2020
+2008
+2008
+2020
+2020
+2015
+2015
+2006
+2022
+2022
+2022
+2022
+2025
+2025
+2025
+2017
+2017
+2008
+2008
+2015
+2021
+2021
+2018
+2022
+2022
+2017
+2017
+2016
+2025
+2025
+2025
+2012
+2015
+2019
+2021
+2025
+2025
+2015
+2024
+2011
+2008
+2015
+2015
+2016
+2016
+2008
+2014
+2015
+2015
+2008
+2018
+2014
+2015
+2003
+2006
+2004
+2011
+2011
+2007
+2007
+2007
+2019
+2019
+1999
+2022
+2022
+2022
+2022
+2019
+2019
+2019
+2001
+2018
+2018
+2018
+2018
+2012
+2012
+2008
+2016
+2021
+2021
+2021
+2021
+2021
+2021
+2021
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+150.0
+105.6
+105.6
+144.3
+144.3
+162.8
+106.1
+92.9
+234.5
+196.6
+92.6
+60.0
+54.6
+151.2
+151.2
+151.2
+144.9
+109.2
+109.2
+94.2
+96.6
+149.2
+123.3
+106.9
+108.5
+179.9
+200.1
+91.7
+85.4
+160.8
+141.6
+100.8
+151.2
+128.5
+134.9
+150.0
+150.0
+109.2
+109.2
+89.6
+55.4
+48.0
+83.1
+22.8
+94.1
+27.7
+125.9
+121.9
+27.4
+114.0
+95.0
+150.0
+89.9
+89.9
+160.0
+169.2
+169.2
+64.0
+110.0
+95.3
+71.4
+14.1
+4.0
+150.0
+78.0
+30.2
+226.1
+203.1
+20.9
+204.1
+150.0
+132.0
+52.8
+102.0
+98.0
+148.5
+151.8
+101.2
+161.0
+98.0
+96.0
+123.6
+201.0
+213.8
+166.5
+42.5
+16.8
+110.8
+33.6
+118.6
+125.0
+112.0
+85.0
+150.0
+150.0
+27.7
+42.0
+44.8
+42.0
+207.2
+149.0
+23.0
+128.0
+38.3
+15.6
+50.5
+38.3
+13.8
+103.4
+94.6
+174.6
+125.6
+105.0
+96.6
+12.0
+7.2
+100.8
+22.0
+100.8
+
+JAN 2027
+RATING
+(MW)
+150.0
+105.6
+105.6
+144.3
+144.3
+162.8
+105.9
+92.7
+234.5
+196.6
+92.6
+60.0
+54.6
+151.2
+151.2
+151.2
+144.9
+109.2
+109.2
+94.2
+96.6
+148.5
+121.9
+106.9
+108.5
+179.9
+200.1
+91.7
+85.4
+160.8
+141.6
+100.8
+151.2
+127.8
+134.2
+150.0
+150.0
+104.6
+102.7
+89.6
+55.4
+48.0
+83.1
+22.8
+94.1
+28.7
+125.9
+121.9
+27.4
+114.0
+95.0
+150.0
+89.9
+89.9
+160.0
+169.2
+169.2
+64.0
+110.0
+95.2
+71.4
+14.1
+4.0
+150.0
+78.0
+30.2
+226.1
+203.0
+20.9
+204.1
+150.0
+132.0
+52.8
+102.0
+98.0
+148.5
+151.8
+98.2
+161.0
+98.0
+96.0
+120.0
+201.0
+211.2
+164.7
+42.5
+16.8
+110.8
+33.6
+118.6
+125.0
+112.0
+85.0
+150.0
+150.0
+27.7
+42.0
+44.8
+42.0
+207.2
+149.0
+23.0
+128.0
+38.3
+15.6
+50.5
+38.3
+13.8
+103.4
+94.6
+169.5
+125.6
+105.0
+96.6
+12.0
+7.2
+100.8
+22.0
+100.8
+
+UNIT NAME
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+
+833 VERTIGO WIND (FORMERLY GREEN PASTURES WIND 2)
+834 VORTEX WIND U1
+835 VORTEX WIND U2
+836 VORTEX WIND U3
+837 VORTEX WIND U4
+838 WAKE WIND 1
+839 WAKE WIND 2
+840 WEST RAYMOND (EL TRUENO) WIND U1
+841 WEST RAYMOND (EL TRUENO) WIND U2
+842 WESTERN TRAIL WIND (AJAX WIND) U1
+843 WESTERN TRAIL WIND (AJAX WIND) U2
+844 WHIRLWIND ENERGY
+845 WHITETAIL WIND
+846 WHITE MESA WIND U1
+847 WHITE MESA 2 WIND U1
+848 WHITE MESA 2 WIND U2
+849 WHITE MESA 2 WIND U3
+850 WHITE MESA 2 WIND U4
+851 WILLOW SPRINGS WIND A
+852 WILLOW SPRINGS WIND B
+853 WILSON RANCH (INFINITY LIVE OAK WIND)
+854 WINDTHORST 2 WIND
+855 WKN MOZART WIND
+856 WOLF RIDGE WIND
+857 YOUNG WIND U1
+858 YOUNG WIND U2
+859 YOUNG WIND U3
+860 Operational Capacity Total (Wind)
+861
+862 Operational Resources (Wind) - Synchronized but not Approved for Commercial Operations
+863 ANCHOR WIND U1
+864 AQUILLA LAKE 3 WIND
+865 BAIRD NORTH WIND U1
+866 BAIRD NORTH WIND U2
+867 BIG SAMPSON WIND U1
+868 BIG SAMPSON WIND U2
+869 BOARD CREEK WP U1
+870 BOARD CREEK WP U2
+871 COYOTE WIND U1
+872 COYOTE WIND U2
+873 COYOTE WIND U3
+874 EL SUAZ RANCH U1
+875 EL SUAZ RANCH U2
+876 FOXTROT WIND U1
+877 FOXTROT WIND U2
+878 FOXTROT WIND U3
+879 HARALD (BEARKAT WIND B)
+880 HONEY MESQUITE WIND FARM
+881 LA CASA WIND U1
+882 LA CASA WIND U2
+883 LA CASA WIND U3
+884 MAGNET WING U1 (LANE CITY WIND)
+885 MAGNET WING U2 (LANE CITY WIND)
+886 MARYNEAL WINDPOWER
+887 MESTENO WIND
+888 PEYTON CREEK WIND II
+889 PRAIRIE HILL WIND U1
+890 PRAIRIE HILL WIND U2
+891 PRIDDY WIND U1
+892 PRIDDY WIND U2
+893 WHITEHORSE WIND U1
+894 WHITEHORSE WIND U2
+895 WILDWIND U1
+896 WILDWIND U2
+897 WILDWIND U3
+898 WILDWIND U4
+899 WILDWIND U5
+900 Operational Capacity - Synchronized but not Approved for Commercial Operations Total (Wind)
+901
+902 Operational Resources (Solar)
+903 7V SOLAR
+904 7V SOLAR U2
+905 7V SOLAR U3
+906 ACACIA SOLAR
+907 AIRPORT ROAD LONEWOLFE PHASE ONE
+908 ALEXIS SOLAR
+909 ANDROMEDA SOLAR U1
+910 ANDROMEDA SOLAR U2
+911 ANGELO SOLAR
+912 ANSON SOLAR U1
+913 ANSON SOLAR U2
+914 ARAGORN SOLAR
+915 ASH CREEK SOLAR U1
+916 ASH CREEK SOLAR U2
+917 AUREOLA SOLAR U1
+918 AZURE SKY SOLAR U1
+919 AZURE SKY SOLAR U2
+920 BARRETT SOLAR
+921 BECK 1
+922 BHE SOLAR PEARL PROJECT (SIRIUS 2)
+923 BIG ELM SOLAR
+924 BIG STAR SOLAR U1
+925 BIG STAR SOLAR U2
+926 BKVSOLAR_BKVSOLAR1
+927 BLEVINS SOLAR U2
+928 BLEVINS SOLAR U3
+929 BLUE WING 1 SOLAR
+930 BLUE WING 2 SOLAR
+931 BLUEBELL SOLAR (CAPRICORN RIDGE SOLAR)
+932 BLUEBELL SOLAR II 1 (CAPRICORN RIDGE 4)
+933 BLUEBELL SOLAR II 2 (CAPRICORN RIDGE 4)
+934 BNB LAMESA SOLAR (PHASE I)
+935 BNB LAMESA SOLAR (PHASE II)
+936 BOVINE SOLAR LLC
+937 BOVINE SOLAR LLC
+938 BPL FILES SOLAR
+939 BRIGHT ARROW SOLAR U1
+940 BRIGHT ARROW SOLAR U2
+941 BRIGHTSIDE SOLAR
+942 BRONSON SOLAR I
+943 BRONSON SOLAR II
+944 BUFFALO CREEK (OLD 300 SOLAR CENTER) U1
+945 BUFFALO CREEK (OLD 300 SOLAR CENTER) U2
+946 BYNUM SOLAR PROJECT
+947 CASCADE SOLAR I
+948 CASCADE SOLAR II
+949 CASTLE GAP SOLAR
+950 CATAN SOLAR
+951 CHISUM SOLAR
+
+ERCOT PUBLIC
+
+COUNTY
+
+FUEL
+
+ZONE
+
+IN SERVICE
+YEAR
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+150.0
+153.6
+24.2
+158.4
+14.0
+114.9
+142.4
+116.6
+123.2
+225.6
+141.0
+59.8
+92.3
+152.3
+13.9
+183.3
+18.6
+132.5
+125.0
+125.0
+199.5
+67.6
+30.0
+121.5
+193.0
+148.9
+146.1
+36,380.2
+
+JAN 2027
+RATING
+(MW)
+
+VERTIGO_WIND_I
+VORTEX_WIND1
+VORTEX_WIND2
+VORTEX_WIND3
+VORTEX_WIND4
+WAKEWE_G1
+WAKEWE_G2
+TRUENO_UNIT1
+TRUENO_UNIT2
+AJAXWIND_UNIT1
+AJAXWIND_UNIT2
+WEC_WECG1
+EXGNWTL_WIND_1
+WHMESA_UNIT1
+WHMESA_UNIT2_23
+WHMESA_UNIT2_28
+WHMESA_UNIT3_23
+WHMESA_UNIT3_28
+SALVTION_UNIT1
+SALVTION_UNIT2
+WL_RANCH_UNIT1
+WNDTHST2_UNIT1
+MOZART_WIND_1
+WHTTAIL_WR1
+YNG_WND_UNIT1
+YNG_WND_UNIT2
+YNG_WND_UNIT3
+
+BAYLOR
+WIND-O
+THROCKMORT WIND-O
+THROCKMORT WIND-O
+THROCKMORT WIND-O
+THROCKMORT WIND-O
+DICKENS
+WIND-P
+DICKENS
+WIND-P
+WILLACY
+WIND-C
+WILLACY
+WIND-C
+WILBARGER
+WIND-O
+WILBARGER
+WIND-O
+FLOYD
+WIND-P
+WEBB
+WIND-O
+CROCKETT
+WIND-O
+CROCKETT
+WIND-O
+CROCKETT
+WIND-O
+CROCKETT
+WIND-O
+CROCKETT
+WIND-O
+HASKELL
+WIND-O
+HASKELL
+WIND-O
+SCHLEICHER WIND-O
+ARCHER
+WIND-O
+KENT
+WIND-O
+COOKE
+WIND-O
+YOUNG
+WIND-O
+YOUNG
+WIND-O
+YOUNG
+WIND-O
+
+WEST
+WEST
+WEST
+WEST
+WEST
+PANHANDLE
+PANHANDLE
+COASTAL
+COASTAL
+WEST
+WEST
+PANHANDLE
+SOUTH
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+NORTH
+WEST
+WEST
+WEST
+
+2015
+2024
+2024
+2024
+2022
+2016
+2016
+2021
+2021
+2022
+2022
+2007
+2012
+2022
+2022
+2022
+2022
+2022
+2017
+2017
+2020
+2014
+2012
+2025
+2025
+2025
+2025
+
+ANCHOR_WIND1
+AQLA_WND_UNIT1
+BAIRDWND_UNIT1
+BAIRDWND_UNIT2
+BIGSAMWD_UNIT1
+BIGSAMWD_UNIT2
+BOARDCRK_UNIT1
+BOARDCRK_UNIT2
+COYOTE_W_UNIT1
+COYOTE_W_UNIT2
+COYOTE_W_UNIT3
+ELSAUZ_UNIT1
+ELSAUZ_UNIT2
+FOXTROT_UNIT1
+FOXTROT_UNIT2
+FOXTROT_UNIT3
+HARALD_UNIT1
+HONEY_WD_UNIT1
+LACASAWD_UNIT1
+LACASAWD_UNIT2
+LACASAWD_UNIT3
+MAG_UNIT1
+MAG_UNIT2
+MARYNEAL_UNIT1
+MESTENO_UNIT_1
+PCT_UNIT1
+PHILLWND_UNIT1
+PHILLWND_UNIT2
+PRIDDY_UNIT1
+PRIDDY_UNIT2
+WH_WIND_UNIT1
+WH_WIND_UNIT2
+WILDWIND_UNIT1
+WILDWIND_UNIT2
+WILDWIND_UNIT3
+WILDWIND_UNIT4
+WILDWIND_UNIT5
+
+CALLAHAN
+HILL
+CALLAHAN
+CALLAHAN
+CROCKETT
+CROCKETT
+NAVARRO
+NAVARRO
+SCURRY
+SCURRY
+SCURRY
+WILLACY
+WILLACY
+BEE
+BEE
+BEE
+GLASSCOCK
+GLASSCOCK
+STEPHENS
+STEPHENS
+STEPHENS
+MATAGORDA
+MATAGORDA
+NOLAN
+STARR
+MATAGORDA
+LIMESTONE
+LIMESTONE
+MILLS
+MILLS
+FISHER
+FISHER
+COOKE
+COOKE
+COOKE
+COOKE
+COOKE
+
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-C
+WIND-C
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-C
+WIND-C
+WIND-O
+WIND-O
+WIND-C
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+WIND-O
+
+WEST
+NORTH
+WEST
+WEST
+WEST
+WEST
+NORTH
+NORTH
+WEST
+WEST
+WEST
+COASTAL
+COASTAL
+SOUTH
+SOUTH
+SOUTH
+WEST
+WEST
+NORTH
+NORTH
+NORTH
+COASTAL
+COASTAL
+WEST
+SOUTH
+COASTAL
+NORTH
+NORTH
+NORTH
+NORTH
+WEST
+WEST
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+
+2022
+2027
+2021
+2021
+2025
+2025
+2022
+2022
+2020
+2020
+2020
+2022
+2022
+2022
+2022
+2022
+2021
+2026
+2025
+2025
+2025
+2025
+2025
+2022
+2022
+2025
+2020
+2020
+2021
+2021
+2019
+2019
+2020
+2020
+2020
+2020
+2020
+
+16.0
+200.6
+195.0
+145.0
+132.9
+132.5
+108.8
+190.4
+90.0
+26.6
+126.0
+153.0
+148.5
+130.2
+84.0
+54.0
+162.1
+174.0
+12.4
+133.3
+2.7
+97.5
+102.0
+182.4
+201.6
+236.0
+153.0
+147.0
+187.2
+115.2
+209.4
+209.5
+18.4
+48.0
+6.3
+54.6
+52.8
+4,438.9
+
+16.0
+200.0
+195.0
+145.0
+132.5
+132.5
+108.8
+190.4
+90.0
+26.6
+126.0
+153.0
+148.5
+130.2
+84.0
+54.0
+162.1
+173.3
+12.4
+131.5
+2.7
+96.5
+100.8
+182.4
+201.6
+234.1
+153.0
+147.0
+187.2
+115.2
+209.4
+209.5
+18.4
+48.0
+6.3
+54.6
+52.8
+4,431.3
+
+7RNCHSLR_UNIT1
+7RNCHSLR_UNIT2
+7RNCHSLR_UNIT3
+ACACIA_UNIT_1
+AIRPRTRD_LONEWOLFE
+ALEXIS_ALEXIS
+ANDMDSLR_UNIT1
+ANDMDSLR_UNIT2
+ANG_SLR_UNIT1
+ANSON1_UNIT1
+ANSON1_UNIT2
+ARAGORN_UNIT1
+ASCK_SLR_SOLAR1
+ASCK_SLR_SOLAR2
+AURO_SLR_UNIT1
+AZURE_SOLAR1
+AZURE_SOLAR2
+BART_SLR_SOLAR1
+CECSOLAR_BECK1
+SIRIUS_UNIT2
+BELM_SLR_UNIT1
+BIG_STAR_UNIT1
+BIG_STAR_UNIT2
+BKVSOLAR_BKVSOLAR1
+BLVN_SLR_SOLAR2
+BLVN_SLR_SOLAR3
+BROOK_1UNIT
+ELMEN_1UNIT
+CAPRIDG4_BB_PV
+CAPRIDG4_BB2_PV1
+CAPRIDG4_BB2_PV2
+LMESASLR_UNIT1
+LMESASLR_IVORY
+BOVINE_BOVINE
+BOVINE2_BOVINE2
+FILESSLR_PV1
+BR_ARROW_UNIT1
+BR_ARROW_UNIT2
+BRIGHTSD_UNIT1
+BRNSN_BRNSN
+BRNSN2_BRNSN2
+BCK_UNIT1
+BCK_UNIT2
+BYNM_SLR_SOLAR1
+CASCADE
+CASCADE2
+CASL_GAP_UNIT1
+CS10_CATAN
+CHISUM_CHISUM
+
+FAYETTE
+FAYETTE
+FAYETTE
+PRESIDIO
+MITCHELL
+BROOKS
+SCURRY
+SCURRY
+TOM GREEN
+JONES
+JONES
+CULBERSON
+HILL
+HILL
+MILAM
+HASKELL
+HASKELL
+RAINS
+BEXAR
+PECOS
+BELL
+BASTROP
+BASTROP
+DENTON
+FALLS
+FALLS
+BEXAR
+BEXAR
+STERLING
+STERLING
+STERLING
+DAWSON
+DAWSON
+AUSTIN
+AUSTIN
+HILL
+HOPKINS
+HOPKINS
+BEE
+FORT BEND
+FORT BEND
+FORT BEND
+FORT BEND
+CORYELL
+WHARTON
+WHARTON
+UPTON
+KARNES
+LAMAR
+
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+
+SOUTH
+SOUTH
+SOUTH
+WEST
+WEST
+SOUTH
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+NORTH
+NORTH
+SOUTH
+WEST
+WEST
+NORTH
+SOUTH
+WEST
+NORTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+SOUTH
+SOUTH
+WEST
+WEST
+WEST
+WEST
+WEST
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+SOUTH
+HOUSTON
+HOUSTON
+HOUSTON
+HOUSTON
+NORTH
+SOUTH
+SOUTH
+WEST
+SOUTH
+NORTH
+
+2025
+2025
+2025
+2012
+2023
+2019
+2024
+2024
+2025
+2022
+2022
+2021
+2025
+2025
+2024
+2021
+2021
+2026
+2016
+2017
+2025
+2026
+2026
+2024
+2026
+2026
+2010
+2010
+2019
+2021
+2021
+2018
+2018
+2018
+2018
+2023
+2025
+2025
+2022
+2018
+2018
+2026
+2026
+2026
+2018
+2018
+2018
+2020
+2018
+
+139.5
+95.5
+5.6
+10.0
+1.0
+10.0
+158.8
+162.4
+195.4
+100.8
+100.8
+188.2
+206.8
+210.9
+201.7
+74.9
+153.5
+125.8
+1.0
+50.0
+201.0
+132.3
+70.8
+2.5
+132.0
+139.7
+7.6
+7.3
+30.0
+100.0
+15.0
+101.6
+50.0
+5.0
+5.0
+146.1
+127.3
+173.9
+53.4
+5.0
+5.0
+217.5
+221.3
+56.4
+5.0
+5.0
+180.0
+10.0
+10.0
+
+139.2
+95.2
+5.6
+10.0
+1.0
+10.0
+158.0
+162.0
+195.0
+100.0
+100.0
+185.0
+203.3
+207.3
+200.4
+74.9
+153.5
+125.0
+1.0
+49.1
+200.2
+130.0
+70.0
+2.5
+132.0
+138.0
+7.6
+7.3
+30.0
+100.0
+15.0
+101.6
+50.0
+5.0
+5.0
+145.0
+127.0
+173.0
+50.0
+5.0
+5.0
+217.5
+221.3
+56.0
+5.0
+5.0
+180.0
+10.0
+10.0
+
+13
+
+150.0
+153.6
+24.2
+158.4
+14.0
+114.9
+142.3
+116.6
+123.2
+225.6
+141.0
+57.0
+92.3
+152.3
+13.9
+183.3
+18.6
+132.5
+125.0
+125.0
+199.5
+67.6
+30.0
+121.5
+193.0
+148.9
+146.1
+36,256.1
+
+UNIT NAME
+952 COMMERCE_SOLAR
+953 CONIGLIO SOLAR
+954 CORAL SOLAR U1
+955 CORAL SOLAR U2
+956 CORAZON SOLAR PHASE I
+957 CROWN SOLAR
+958 DANCIGER SOLAR U1
+959 DANCIGER SOLAR U2
+960 DILEO SOLAR
+961 DIVER SOLAR U1
+962 DIVER SOLAR U2
+963 DORADO SOLAR U1
+964 DORADO SOLAR U2
+965 EAST BLACKLAND SOLAR (PFLUGERVILLE SOLAR)
+966 EDDY SOLAR II
+967 EIFFEL SOLAR
+968 ELARA SOLAR
+969 ELIZA SOLAR
+970 EMERALD GROVE SOLAR (PECOS SOLAR POWER I)
+971 ESTONIAN SOLAR FARM U1
+972 ESTONIAN SOLAR FARM U2
+973 EUNICE SOLAR U1
+974 EUNICE SOLAR U2
+975 FAGUS SOLAR PARK 1 SLF
+976 FAGUS SOLAR PARK 2 SLF
+977 FENCE POST SOLAR U1
+978 FENCE POST SOLAR U2
+979 FIFTH GENERATION SOLAR 1
+980 FIGHTING JAYS SOLAR U1
+981 FIGHTING JAYS SOLAR U2
+982 FIVE WELLS SOLAR U1
+983 FIVE WELLS SOLAR U2
+984 FOWLER RANCH
+985 FRFWS_FAIRFIELD
+986 FRYE SOLAR U1
+987 FRYE SOLAR U2
+988 FS BARILLA SOLAR-PECOS
+989 FS EAST PECOS SOLAR
+990 GAIA SOLAR
+991 GALLOWAY 1 SOLAR
+992 GALLOWAY 2 SOLAR
+993 GOLD_SPIKE 1
+994 GOLD_SPIKE 2
+995 GOLD_SPIKE 3
+996 GOLINDA SOLAR
+997 GRANSOLAR TEXAS ONE
+998 GREASEWOOD SOLAR 1
+999 GREASEWOOD SOLAR 2
+1000 GREYHOUND SOLAR U5
+1001 GREYHOUND SOLAR U6
+1002 GREYHOUND SOLAR U7
+1003 GREYHOUND SOLAR U8
+1004 GRIFFIN SOLAR
+1005 GRIMES COUNTY SOLAR U1
+1006 GRIMES COUNTY SOLAR U2
+1007 GRIMES COUNTY SOLAR U3
+1008 GRIZZLY RIDGE SOLAR
+1009 HALO SOLAR
+1010 HICKERSON SOLAR U1
+1011 HICKERSON SOLAR U2
+1012 HICKERSON SOLAR U3
+1013 HIGHWAY 56
+1014 HM SEALY SOLAR 1
+1015 HOLLYWOOD SOLAR U1
+1016 HOLLYWOOD SOLAR U2
+1017 HOLSTEIN SOLAR 1
+1018 HOLSTEIN SOLAR 2
+1019 HOPKINS SOLAR U1
+1020 HOPKINS SOLAR U2
+1021 HORIZON SOLAR
+1022 HORNET SOLAR U1
+1023 HORNET SOLAR U2
+1024 HORNET SOLAR U3
+1025 HOVEY SOLAR 2
+1026 HPWHSOL_WILDHORSESOLAR
+1027 IMPACT SOLAR
+1028 INFINITE PHOTON ENERGY
+1029 JADE SOLAR U1
+1030 JADE SOLAR U2
+1031 JUNGMANN SOLAR
+1032 JUNO SOLAR PHASE I
+1033 JUNO SOLAR PHASE II
+1034 KELLAM SOLAR
+1035 LAMPASAS_HIGHWAY183LAMPASAS
+1036 LAMPWICK SOLAR
+1037 LAPETUS SOLAR
+1038 LEON
+1039 LEON SOLAR PARK U1
+1040 LEON SOLAR PARK U2
+1041 LILY SOLAR
+1042 LONG DRAW SOLAR U1
+1043 LONG DRAW SOLAR U2
+1044 LONG POINT SOLAR
+1045 LONGBOW SOLAR
+1046 MALAKOFF
+1047 MANDORLA SOLAR
+1048 MARKUM SOLAR
+1049 MARLIN
+1050 MARS SOLAR (DG)
+1051 MCLEAN (SHAKES) SOLAR
+1052 MERCURY SOLAR U1
+1053 MERCURY SOLAR U2
+1054 MEXIA_MEXIA
+1055 MEXIA1_MEXIA1
+1056 MEXIA2_MEXIA2
+1057 MIDPOINT SOLAR
+1058 MILLERS BRANCH SOLAR U1
+1059 MILLERS BRANCH SOLAR U2
+1060 MISAE SOLAR U1
+1061 MISAE SOLAR U2
+1062 MLKF1_MALAKOFF1
+1063 MLKF2_MALAKOFF2
+1064 MORROW LAKE SOLAR
+1065 MUSTANG CREEK SOLAR U1
+1066 MUSTANG CREEK SOLAR U2
+1067 NEBULA SOLAR (RAYOS DEL SOL) U1
+1068 NOBLE SOLAR U1
+1069 NOBLE SOLAR U2
+1070 NORTH GAINESVILLE
+
+ERCOT PUBLIC
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+
+COUNTY
+
+X443PV1_SWRI_PV1
+BEXAR
+CONIGLIO_UNIT1
+FANNIN
+CORALSLR_SOLAR1
+FALLS
+CORALSLR_SOLAR2
+FALLS
+CORAZON_UNIT1
+WEBB
+CRWN_SLR_UNIT1
+FALLS
+DAG_UNIT1
+BRAZORIA
+DAG_UNIT2
+BRAZORIA
+DILEOSLR_UNIT1
+BOSQUE
+DIVR_SLR_SOLAR1
+LIMESTONE
+DIVR_SLR_SOLAR2
+LIMESTONE
+DORA_SLR_SOLAR1
+CALLAHAN
+DORA_SLR_SOLAR2
+CALLAHAN
+E_BLACK_UNIT_1
+TRAVIS
+EDDYII_EDDYII
+MCLENNAN
+EIFSLR_UNIT1
+LAMAR
+ELARA_SL_UNIT1
+FRIO
+ELZA_SLR_SOLAR1
+KAUFMAN
+EGROVESL_UNIT1
+CRANE
+ESTONIAN_SOLAR1
+DELTA
+ESTONIAN_SOLAR2
+DELTA
+EUNICE_PV1
+ANDREWS
+EUNICE_PV2
+ANDREWS
+FAGUSSLR_UNIT2
+CHILDRESS
+FAGUSSLR_UNIT3
+CHILDRESS
+FENCESLR_SOLAR1
+NAVARRO
+FENCESLR_SOLAR2
+NAVARRO
+FIFTHGS1_FGSOLAR1
+TRAVIS
+JAY_UNIT1
+FORT BEND
+JAY_UNIT2
+FORT BEND
+FIVEWSLR_UNIT1
+BELL
+FIVEWSLR_UNIT2
+BELL
+FWLR_SLR_UNIT1
+CRANE
+FRFWS_FAIRFIELD
+FREESTONE
+FRYE_SLR_UNIT1
+SWISHER
+FRYE_SLR_UNIT2
+SWISHER
+HOVEY_UNIT1
+PECOS
+BOOTLEG_UNIT1
+PECOS
+GAIA_SLR_SOLAR1
+NAVARRO
+GALLOWAY_SOLAR1
+CONCHO
+GALLOWAY_SOLAR2
+CONCHO
+19599_1_GOLD_SPIKE
+TARRANT
+19599_2_GOLD_SPIKE
+TARRANT
+19599_GOLD_SPIKE
+TARRANT
+GOLINDA_UNIT1
+FALLS
+GRAN_SLR_UNIT1
+MILAM
+GREASWOD_UNIT1
+PECOS
+GREASWOD_UNIT2
+PECOS
+GRYH_SLR_SOLAR5
+ECTOR
+GRYH_SLR_SOLAR6
+ECTOR
+GRYH_SLR_SOLAR7
+ECTOR
+GRYH_SLR_SOLAR8
+ECTOR
+GRIFFIN_GRIFFIN
+MCLENNAN
+GRIM_SLR_UNIT1
+GRIMES
+GRIM_SLR_UNIT2
+GRIMES
+GRIM_SLR_UNIT3
+GRIMES
+GRIZZLY_SOLAR1
+HAMILTON
+HALO_SLR_UNIT1
+BELL
+HKSN_SLR_UNIT1
+BOSQUE
+HKSN_SLR_UNIT2
+BOSQUE
+HKSN_SLR_UNIT3
+BOSQUE
+HWY56_HWY56
+GRAYSON
+SEALY_1UNIT
+AUSTIN
+HOL_UNIT1
+WHARTON
+HOL_UNIT2
+WHARTON
+HOLSTEIN_SOLAR1
+NOLAN
+HOLSTEIN_SOLAR2
+NOLAN
+HOPKNSLR_UNIT1
+HOPKINS
+HOPKNSLR_UNIT2
+HOPKINS
+HRZN_SLR_UNIT1
+FRIO
+HRNT_SLR_UNIT1
+SWISHER
+HRNT_SLR_UNIT2
+SWISHER
+HRNT_SLR_UNIT3
+SWISHER
+HOVEY_UNIT2
+PECOS
+HPWHSOL_WILDHORSESOLHOWARD
+IMPACT_UNIT1
+LAMAR
+INFINITE_PHOTON_ENERGYMITCHELL
+JADE_SLR_UNIT1
+SCURRY
+JADE_SLR_UNIT2
+SCURRY
+JUNG_SLR_UNIT1
+MILAM
+JUNO_UNIT1
+BORDEN
+JUNO_UNIT2
+BORDEN
+KELAM_SL_UNIT1
+VAN ZANDT
+LAMPASAS_HIGHWAY183 BURNET
+LAMPWICK_LAMPWICK
+MENARD
+LAPETUS_UNIT_1
+ANDREWS
+LEON_LEON
+HUNT
+LEON_SLR_UNIT1
+LEON
+LEON_SLR_UNIT2
+LEON
+LILY_SOLAR1
+KAUFMAN
+LGDRAW_S_UNIT1_1
+BORDEN
+LGDRAW_S_UNIT1_2
+BORDEN
+LNP_SOLAR1
+BRAZORIA
+LON_SOLAR1
+BRAZORIA
+MALAKOFF
+HENDERSON
+MAND_SLR_UNIT1
+MILAM
+MRKM_SLR_PV1
+MCLENNAN
+MARLIN_MARLIN
+FALLS
+MARS_MARS
+WEBB
+MCLNSLR_UNIT1
+DIMMIT
+MERCURY_PV1
+HILL
+MERCURY_PV2
+HILL
+MEXIA_MEXIA
+LIMESTONE
+MEXIA1_MEXIA1
+LIMESTONE
+MEXIA2_MEXIA2
+LIMESTONE
+MIDP_SLR_SOLAR1
+HILL
+MLB_SLR_SOLAR1
+HASKELL
+MLB_SLR_SOLAR2
+HASKELL
+MISAE_UNIT1
+CHILDRESS
+MISAE_UNIT2
+CHILDRESS
+MLKF1_MALAKOFF1
+HENDERSON
+MLKF2_MALAKOFF2
+HENDERSON
+MROW_SLR_SOLAR1
+FRIO
+MUSTNGCK_SOLAR1
+JACKSON
+MUSTNGCK_SOLAR2
+JACKSON
+NEBULA_UNIT1
+CAMERON
+NOBLESLR_SOLAR1
+DENTON
+NOBLESLR_SOLAR2
+DENTON
+NGNSVL_NGAINESV
+COOKE
+
+14
+
+FUEL
+
+ZONE
+
+IN SERVICE
+YEAR
+
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+
+SOUTH
+NORTH
+NORTH
+NORTH
+SOUTH
+NORTH
+COASTAL
+COASTAL
+NORTH
+NORTH
+NORTH
+WEST
+WEST
+SOUTH
+NORTH
+NORTH
+SOUTH
+NORTH
+WEST
+NORTH
+NORTH
+WEST
+WEST
+PANHANDLE
+PANHANDLE
+NORTH
+NORTH
+SOUTH
+HOUSTON
+HOUSTON
+NORTH
+NORTH
+WEST
+NORTH
+PANHANDLE
+PANHANDLE
+WEST
+WEST
+NORTH
+WEST
+WEST
+NORTH
+NORTH
+NORTH
+NORTH
+SOUTH
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+SOUTH
+SOUTH
+SOUTH
+WEST
+WEST
+NORTH
+NORTH
+SOUTH
+PANHANDLE
+PANHANDLE
+PANHANDLE
+WEST
+WEST
+NORTH
+WEST
+WEST
+WEST
+SOUTH
+WEST
+WEST
+NORTH
+SOUTH
+WEST
+WEST
+NORTH
+NORTH
+NORTH
+NORTH
+WEST
+WEST
+COASTAL
+COASTAL
+NORTH
+SOUTH
+NORTH
+NORTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+WEST
+WEST
+PANHANDLE
+PANHANDLE
+NORTH
+NORTH
+SOUTH
+SOUTH
+SOUTH
+COASTAL
+NORTH
+NORTH
+NORTH
+
+2019
+2021
+2024
+2024
+2021
+2024
+2023
+2023
+2023
+2026
+2026
+2026
+2026
+2021
+2018
+2023
+2022
+2026
+2023
+2025
+2025
+2021
+2021
+2026
+2026
+2025
+2025
+2016
+2026
+2026
+2025
+2025
+2020
+2024
+2024
+2024
+2015
+2017
+2026
+2021
+2024
+2025
+2025
+2025
+2024
+2025
+2021
+2021
+2026
+2026
+2026
+2026
+2019
+2026
+2026
+2026
+2023
+2024
+2026
+2026
+2026
+2017
+2015
+2024
+2024
+2020
+2020
+2024
+2024
+2024
+2025
+2025
+2025
+2026
+2024
+2021
+2025
+2024
+2024
+2025
+2021
+2021
+2020
+2025
+2019
+2020
+2017
+2026
+2026
+2021
+2021
+2021
+2026
+2024
+2024
+2024
+2025
+2017
+2019
+2023
+2025
+2025
+2024
+2024
+2024
+2026
+2026
+2026
+2021
+2021
+2024
+2024
+2025
+2023
+2023
+2022
+2022
+2022
+2017
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+5.0
+125.7
+97.7
+56.3
+202.6
+101.3
+101.4
+101.4
+71.4
+71.0
+155.2
+198.7
+202.7
+144.0
+10.0
+241.0
+132.4
+151.7
+109.5
+88.4
+114.4
+189.6
+237.1
+166.4
+166.6
+138.9
+98.0
+6.8
+119.6
+160.5
+194.4
+127.0
+152.5
+4.0
+250.9
+251.1
+22.0
+126.0
+144.0
+250.0
+111.1
+1.3
+0.8
+1.9
+101.1
+50.2
+126.3
+132.2
+28.1
+28.1
+94.6
+101.6
+5.0
+104.5
+79.9
+26.9
+62.3
+251.2
+149.7
+3.9
+157.5
+5.3
+1.6
+178.9
+186.1
+102.2
+102.3
+175.4
+76.2
+203.5
+200.7
+200.5
+201.2
+8.1
+10.0
+198.5
+4.0
+158.8
+162.4
+40.2
+162.1
+143.5
+59.8
+7.5
+7.5
+100.7
+10.0
+106.9
+103.2
+147.6
+98.5
+128.3
+120.7
+78.2
+5.0
+251.5
+161.5
+5.3
+10.0
+207.4
+203.5
+203.5
+4.0
+4.0
+4.0
+98.3
+201.5
+180.6
+121.4
+118.6
+5.0
+5.0
+202.2
+61.0
+91.3
+137.5
+148.8
+130.2
+5.2
+
+JAN 2027
+RATING
+(MW)
+5.0
+125.7
+96.2
+55.4
+202.6
+100.1
+100.0
+100.0
+71.4
+69.8
+155.2
+198.0
+202.0
+144.0
+10.0
+240.0
+132.4
+151.0
+108.0
+88.3
+114.1
+189.6
+237.1
+165.8
+165.8
+138.0
+98.0
+6.8
+119.3
+159.9
+194.4
+127.0
+150.0
+4.0
+250.0
+250.0
+20.5
+121.1
+143.7
+250.0
+110.0
+1.3
+0.8
+1.9
+100.1
+50.0
+124.6
+130.4
+27.8
+27.8
+93.9
+100.8
+5.0
+103.8
+79.4
+26.8
+62.3
+250.4
+149.7
+3.9
+157.5
+5.3
+1.6
+176.5
+183.5
+102.2
+102.3
+174.8
+75.8
+200.0
+200.0
+200.0
+200.0
+8.0
+10.0
+198.5
+4.0
+158.0
+162.0
+40.0
+162.1
+143.5
+59.8
+7.5
+7.5
+100.7
+10.0
+106.6
+102.9
+147.6
+98.5
+128.3
+120.0
+77.0
+5.0
+250.5
+161.0
+5.3
+10.0
+200.0
+200.0
+200.0
+4.0
+4.0
+4.0
+98.0
+200.0
+180.0
+121.4
+118.6
+5.0
+5.0
+200.0
+60.0
+90.0
+137.5
+146.7
+128.3
+5.2
+
+UNIT NAME
+1071 OBERON SOLAR
+1072 OCI ALAMO 1 SOLAR
+1073 OCI ALAMO 2 SOLAR-ST. HEDWIG
+1074 OCI ALAMO 3-WALZEM SOLAR
+1075 OCI ALAMO 4 SOLAR-BRACKETVILLE
+1076 OCI ALAMO 5 (DOWNIE RANCH)
+1077 OCI ALAMO 6 (SIRIUS/WEST TEXAS)
+1078 OCI ALAMO 7 (PAINT CREEK)
+1079 ORANGE GROVE SOLAR
+1080 ORIANA SOLAR
+1081 OUTPOST SOLAR U1
+1082 OUTPOST SOLAR U2
+1083 PARLIAMENT SOLAR U1
+1084 PARLIAMENT SOLAR U2
+1085 PEGASUS_PEGASUS
+1086 PEREGRINE SOLAR U1
+1087 PEREGRINE SOLAR U2
+1088 PHOEBE SOLAR 1
+1089 PHOEBE SOLAR 2
+1090 PHOENIX SOLAR
+1091 PINNINGTON SOLAR U1
+1092 PINNINGTON SOLAR U2
+1093 PINNINGTON SOLAR U3
+1094 PISGAH RIDGE SOLAR U1
+1095 PISGAH RIDGE SOLAR U2
+1096 PITTS DUDIK II
+1097 PITTS DUDIK SOLAR U1
+1098 PLAINVIEW SOLAR (RAMSEY SOLAR) U1
+1099 PLAINVIEW SOLAR (RAMSEY SOLAR) U2
+1100 PORTER SOLAR U1
+1101 POWERFIN KINGSBERY
+1102 PROSPERO SOLAR 1 U1
+1103 PROSPERO SOLAR 1 U2
+1104 PROSPERO SOLAR 2 U1
+1105 PROSPERO SOLAR 2 U2
+1106 QUEEN SOLAR U1
+1107 QUEEN SOLAR U2
+1108 QUEEN SOLAR U3
+1109 QUEEN SOLAR U4
+1110 RADIAN SOLAR U1
+1111 RADIAN SOLAR U2
+1112 RAMBLER SOLAR
+1113 RATLIFF SOLAR (CONCHO VALLEY SOLAR)
+1114 RE ROSEROCK SOLAR 1
+1115 RE ROSEROCK SOLAR 2
+1116 REDBARN SOLAR 1 (RE MAPLEWOOD 2A SOLAR)
+1117 REDBARN SOLAR 2 (RE MAPLEWOOD 2B SOLAR)
+1118 RENEWABLE ENERGY ALTERNATIVES-CCS1
+1119 RETAMADG
+1120 RIGGINS (SE BUCKTHORN WESTEX SOLAR)
+1121 RIPPEY SOLAR
+1122 ROWLAND SOLAR I
+1123 ROWLAND SOLAR II
+1124 SIGNAL SOLAR
+1125 SOLAIREHOLMAN 1
+1126 SPARTA SOLAR U1
+1127 SPARTA SOLAR U2
+1128 SP-TX-12-PHASE B
+1129 STAMPEDE SOLAR U1
+1130 STAMPEDE SOLAR U2
+1131 STERLING
+1132 STILLHOUSE SOLAR
+1133 STRATEGIC SOLAR 1
+1134 SUN VALLEY U1
+1135 SUN VALLEY U2
+1136 SUNEDISON CPS3 SOMERSET 1 SOLAR
+1137 SUNEDISON RABEL ROAD SOLAR
+1138 SUNEDISON SOMERSET 2 SOLAR
+1139 SUNEDISON VALLEY ROAD SOLAR
+1140 SUNRAY
+1141 TALCOWST_TALCO
+1142 TAVENER U1 (FORT BEND SOLAR)
+1143 TAVENER U2 (FORT BEND SOLAR)
+1144 TAYGETE SOLAR 1 U1
+1145 TAYGETE SOLAR 1 U2
+1146 TAYGETE SOLAR 2 U1
+1147 TAYGETE SOLAR 2 U2
+1148 TEXAS SOLAR NOVA 2 U1
+1149 TEXAS SOLAR NOVA U1
+1150 TEXAS SOLAR NOVA U2
+1151 THREE W SOLAR
+1152 TIERRA BONITA SOLAR U1
+1153 TIERRA BONITA SOLAR U2
+1154 TITAN SOLAR (IP TITAN) U1
+1155 TITAN SOLAR (IP TITAN) U2
+1156 TPE ERATH SOLAR
+1157 TRN_TRINITYBAY
+1158 TROJAN SOLAR SLF U1
+1159 TROJAN SOLAR SLF U2
+1160 TRUE NORTH SOLAR U1
+1161 TRUE NORTH SOLAR U2
+1162 TYSON NICK SOLAR
+1163 VANCOURT SOLAR
+1164 VISION SOLAR 1
+1165 WAGYU SOLAR
+1166 WALNUT SPRINGS
+1167 WAYMARK SOLAR
+1168 WEBBERVILLE SOLAR
+1169 WEST MOORE II
+1170 WEST OF PECOS SOLAR
+1171 WESTORIA SOLAR U1
+1172 WESTORIA SOLAR U2
+1173 WHITESBORO
+1174 WHITESBORO II
+1175 WHITEWRIGHT
+1176 WHSOLAR_WILDHORSE_SOLAR
+1177 XE MURAT [ADLONG] SOLAR
+1178 YELLOW JACKET SOLAR
+1179 ZIER SOLAR
+1180 Operational Capacity Total (Solar)
+1181
+1182 Operational Resources (Solar) - Synchronized but not Approved for Commercial Operations
+1183 ANSON SOLAR 2
+1184 AZALEA SPRINGS SOLAR
+1185 BAKER BRANCH SOLAR U1
+1186 BAKER BRANCH SOLAR U2
+1187 BLUE JAY SOLAR I
+1188 BLUE JAY SOLAR II
+1189 BUZIOS SOLAR U1
+
+ERCOT PUBLIC
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+
+FUEL
+
+ZONE
+
+IN SERVICE
+YEAR
+
+OBERON_UNIT_1
+ECTOR
+OCI_ALM1_UNIT1
+BEXAR
+STHWG_UNIT1
+BEXAR
+WALZM_UNIT1
+BEXAR
+ECLIPSE_UNIT1
+KINNEY
+HELIOS_UNIT1
+UVALDE
+SIRIUS_UNIT1
+PECOS
+SOLARA_UNIT1
+HASKELL
+OGS_SLR_UNIT1
+JIM WELLS
+ORIANA_UNIT1
+VICTORIA
+OUTP_SLR_UNIT1
+WEBB
+OUTP_SLR_UNIT2
+WEBB
+PAR_UNIT1
+WALLER
+PAR_UNIT2
+WALLER
+PEGASUS_PEGASUS
+UPTON
+PERE_SLR_UNIT1
+GOLIAD
+PERE_SLR_UNIT2
+GOLIAD
+PHOEBE_UNIT1
+WINKLER
+PHOEBE_UNIT2
+WINKLER
+PHOENIX_UNIT1
+FANNIN
+PINN_SLR_UNIT1
+JACK
+PINN_SLR_UNIT2
+JACK
+PINN_SLR_UNIT3
+JACK
+PISGAH_SOLAR1
+NAVARRO
+PISGAH_SOLAR2
+NAVARRO
+PITTSDK2_UNIT1
+HILL
+PITTSDDK_UNIT1
+HILL
+PLN_UNIT1
+WHARTON
+PLN_UNIT2
+WHARTON
+PORT_SLR_UNIT1
+DENTON
+PFK_PFKPV
+TRAVIS
+PROSPERO_UNIT1
+ANDREWS
+PROSPERO_UNIT2
+ANDREWS
+PRSPERO2_UNIT1
+ANDREWS
+PRSPERO2_UNIT2
+ANDREWS
+QUEEN_SL_SOLAR1
+UPTON
+QUEEN_SL_SOLAR2
+UPTON
+QUEEN_SL_SOLAR3
+UPTON
+QUEEN_SL_SOLAR4
+UPTON
+RADN_SLR_UNIT1
+BROWN
+RADN_SLR_UNIT2
+BROWN
+RAMBLER_UNIT1
+TOM GREEN
+RATLIFF_SOLAR1
+TOM GREEN
+REROCK_UNIT1
+PECOS
+REROCK_UNIT2
+PECOS
+REDBARN_UNIT_1
+PECOS
+REDBARN_UNIT_2
+PECOS
+COSERVSS_CSS1
+DENTON
+DP24X001_RETAMADG
+DIMMIT
+RIGGINS_UNIT1
+PECOS
+RIPPEY_UNIT1
+COOKE
+ROW_UNIT1
+FORT BEND
+ROW_UNIT2
+FORT BEND
+SIG_SLR_UNIT1
+HUNT
+LASSO_UNIT1
+BREWSTER
+SPARTA_UNIT1
+BEE
+SPARTA_UNIT2
+BEE
+SPTX12B_UNIT1
+UPTON
+STAM_SLR_SOLAR1
+HOPKINS
+STAM_SLR_SOLAR2
+HOPKINS
+STRLING_STRLING
+HUNT
+STLHS_SL_PV1
+BELL
+STRATEGC_UNIT1
+ELLIS
+SUNVASLR_UNIT1
+HILL
+SUNVASLR_UNIT2
+HILL
+SOME1_1UNIT
+BEXAR
+VALL1_1UNIT
+BEXAR
+SOME2_1UNIT
+BEXAR
+VALL2_1UNIT
+BEXAR
+SUN_SLR_UNIT_1
+UVALDE
+TALCOWST_TALCO
+TITUS
+TAV_UNIT1
+FORT BEND
+TAV_UNIT2
+FORT BEND
+TAYGETE_UNIT1
+PECOS
+TAYGETE_UNIT2
+PECOS
+TAYGETE2_UNIT1
+PECOS
+TAYGETE2_UNIT2
+PECOS
+NOVA2SLR_UNIT1
+KENT
+NOVA1SLR_UNIT1
+KENT
+NOVA1SLR_UNIT2
+KENT
+THREEW_S_SOLAR1
+HILL
+TRBT_SLR_PV1
+PECOS
+TRBT_SLR_PV2
+PECOS
+TI_SOLAR_UNIT1
+CULBERSON
+TI_SOLAR_UNIT2
+CULBERSON
+ERATH_ERATH21
+ERATH
+TRN_TRINITYBAY
+CHAMBERS
+TROJ_SLR_PV1
+COOKE
+TROJ_SLR_PV2
+COOKE
+TNS_SLR_UNIT1
+FALLS
+TNS_SLR_UNIT2
+FALLS
+TYSN_SLR_UNIT1
+LAMAR
+VANCOURT_UNIT1
+CAMERON
+VISION_UNIT1
+NAVARRO
+WGU_UNIT1
+BRAZORIA
+WLNTSPRG_1UNIT
+BOSQUE
+WAYMARK_UNIT1
+UPTON
+WEBBER_S_WSP1
+TRAVIS
+WMOOREII_WMOOREII
+GRAYSON
+W_PECOS_UNIT1
+REEVES
+WES_UNIT1
+BRAZORIA
+WES_UNIT2
+BRAZORIA
+WBORO_WHTSBORO
+GRAYSON
+WBOROII_WHBOROII
+GRAYSON
+WHTRT_WHTRGHT
+FANNIN
+WHSOLAR WILDHORSE SOHOWARD
+ADL_SOLAR1
+HARRIS
+YLWJACKET_YLWJACKET BOSQUE
+ZIER_SLR_PV1
+KINNEY
+
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+
+WEST
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+WEST
+WEST
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+HOUSTON
+HOUSTON
+WEST
+SOUTH
+SOUTH
+WEST
+WEST
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+SOUTH
+SOUTH
+NORTH
+SOUTH
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+NORTH
+NORTH
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+NORTH
+SOUTH
+WEST
+NORTH
+HOUSTON
+HOUSTON
+NORTH
+WEST
+SOUTH
+SOUTH
+WEST
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+NORTH
+HOUSTON
+HOUSTON
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+NORTH
+WEST
+WEST
+WEST
+WEST
+NORTH
+HOUSTON
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+COASTAL
+NORTH
+COASTAL
+NORTH
+WEST
+SOUTH
+NORTH
+WEST
+COASTAL
+COASTAL
+NORTH
+NORTH
+NORTH
+WEST
+HOUSTON
+NORTH
+SOUTH
+
+2020
+2013
+2014
+2014
+2014
+2015
+2016
+2016
+2025
+2026
+2025
+2025
+2025
+2025
+2024
+2025
+2025
+2019
+2019
+2021
+2026
+2026
+2026
+2024
+2024
+2026
+2023
+2025
+2025
+2025
+2017
+2020
+2020
+2021
+2021
+2020
+2020
+2020
+2020
+2023
+2023
+2020
+2023
+2016
+2016
+2021
+2021
+2015
+2025
+2018
+2020
+2023
+2024
+2025
+2018
+2023
+2023
+2017
+2025
+2025
+2018
+2025
+2022
+2024
+2024
+2012
+2012
+2012
+2012
+2024
+2024
+2023
+2023
+2021
+2021
+2023
+2023
+2025
+2024
+2024
+2026
+2024
+2024
+2021
+2021
+2021
+2024
+2026
+2026
+2024
+2024
+2025
+2023
+2022
+2021
+2016
+2018
+2011
+2018
+2019
+2022
+2022
+2017
+2017
+2017
+2024
+2025
+2018
+2024
+
+ANSON2_UNIT1
+AZSP_SLR_SOLAR1
+BAKE_SLR_UNIT1
+BAKE_SLR_UNIT2
+BLUEJAY_UNIT1
+BLUEJAY_UNIT2
+BUZI_SLR_UNIT1
+
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+
+WEST
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+PANHANDLE
+
+2025
+2025
+2024
+2024
+2026
+2026
+2026
+
+COUNTY
+
+JONES
+ANGELINA
+LAMAR
+LAMAR
+GRIMES
+GRIMES
+MOTLEY
+
+15
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+180.0
+39.2
+4.4
+5.5
+37.6
+100.0
+110.2
+112.0
+130.6
+180.7
+258.0
+259.1
+243.2
+240.2
+10.0
+152.8
+148.3
+125.1
+128.1
+83.9
+215.3
+219.2
+219.2
+189.4
+64.4
+30.2
+49.6
+270.0
+270.0
+245.8
+2.6
+153.6
+150.0
+126.5
+126.4
+102.5
+102.5
+97.5
+107.5
+161.4
+166.0
+211.2
+162.4
+78.8
+78.8
+222.0
+28.0
+2.0
+1.8
+155.4
+59.8
+101.7
+200.7
+51.6
+50.0
+147.5
+104.9
+157.5
+77.8
+178.6
+10.0
+210.8
+135.0
+165.8
+86.2
+5.6
+9.9
+5.0
+9.9
+203.5
+7.5
+149.5
+100.4
+125.9
+128.9
+101.9
+101.9
+202.4
+126.8
+126.7
+110.9
+150.0
+156.9
+136.8
+131.1
+10.0
+1.5
+137.4
+13.2
+119.4
+119.5
+90.5
+45.7
+129.2
+120.0
+10.0
+182.0
+26.7
+5.0
+100.0
+101.6
+101.6
+5.0
+5.0
+10.0
+10.0
+60.1
+5.0
+161.3
+29,327.6
+
+200.9
+181.0
+234.8
+234.6
+69.0
+141.0
+6.3
+
+JAN 2027
+RATING
+(MW)
+180.0
+39.2
+4.4
+5.5
+37.6
+100.0
+110.2
+112.0
+130.0
+180.1
+257.0
+258.2
+242.7
+239.4
+10.0
+152.2
+147.7
+125.1
+128.1
+83.9
+214.2
+217.9
+217.9
+186.5
+63.5
+30.0
+49.6
+257.0
+257.0
+245.0
+2.6
+153.6
+150.0
+126.5
+126.4
+102.5
+102.5
+97.5
+107.5
+158.9
+162.9
+200.0
+159.8
+78.8
+78.8
+222.0
+28.0
+2.0
+1.8
+150.0
+59.8
+100.0
+200.0
+50.0
+50.0
+146.0
+104.0
+157.5
+77.0
+178.0
+10.0
+210.0
+118.3
+165.8
+86.2
+5.6
+9.9
+5.0
+9.9
+200.0
+7.5
+149.5
+100.4
+125.9
+128.9
+101.9
+101.9
+200.0
+126.0
+126.0
+110.0
+149.6
+156.3
+136.8
+131.1
+10.0
+1.5
+137.4
+13.2
+118.8
+118.9
+90.0
+45.7
+112.7
+120.0
+10.0
+182.0
+26.7
+5.0
+100.0
+101.6
+101.6
+5.0
+5.0
+10.0
+10.0
+60.0
+5.0
+160.0
+29,100.8
+
+200.0
+180.0
+233.9
+233.9
+69.0
+141.0
+6.3
+
+UNIT NAME
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+
+1190 BUZIOS SOLAR U2
+1191 BUZIOS SOLAR U3
+1192 BUZIOS SOLAR U4
+1193 CHARGER SOLAR
+1194 CHILLINGHAM SOLAR U1
+1195 CHILLINGHAM SOLAR U2
+1196 COMPADRE SOLAR U1
+1197 COMPADRE SOLAR U2
+1198 COMPADRE SOLAR U3
+1199 COTTONWOOD BAYOU SOLAR I U1
+1200 COTTONWOOD BAYOU SOLAR I U2
+1201 CROWDED STAR SOLAR
+1202 CROWDED STAR SOLAR II U1
+1203 CROWDED STAR SOLAR II U2
+1204 DAMAZO (SECOND DIVISION) SOLAR
+1205 DANISH FIELDS SOLAR U1
+1206 DANISH FIELDS SOLAR U2
+1207 DANISH FIELDS SOLAR U3
+1208 DELILAH SOLAR 1 U1
+1209 DELILAH SOLAR 1 U2
+1210 DELILAH SOLAR 2 U1
+1211 DELILAH SOLAR 2 U2
+1212 DELILAH SOLAR 2 U3
+1213 DRY CREEK SOLAR I
+1214 EASTBELL MILAM SOLAR
+1215 EASTBELL MILAM SOLAR II
+1216 ERIKA SOLAR
+1217 GRANDFALLS SOLAR
+1218 GREYHOUND SOLAR U1
+1219 GREYHOUND SOLAR U2
+1220 GREYHOUND SOLAR U3
+1221 GREYHOUND SOLAR U4
+1222 HERMES SOLAR
+1223 MILLERS BRANCH SOLAR III
+1224 MRG GOODY SOLAR U1
+1225 MRG GOODY SOLAR U2
+1226 MYRTLE SOLAR U1
+1227 MYRTLE SOLAR U2
+1228 NEW HICKORY SOLAR U1
+1229 NEW HICKORY SOLAR U2
+1230 NORTON SOLAR
+1231 PHOTON SOLAR U1
+1232 PHOTON SOLAR U2
+1233 PHOTON SOLAR U3
+1234 PHOTON SOLAR U4
+1235 PIEDRA SOLAR U1
+1236 PIEDRA SOLAR U2
+1237 PINE FOREST SOLAR U1
+1238 PINE FOREST SOLAR U2
+1239 QUANTUM SOLAR U1
+1240 QUANTUM SOLAR U2
+1241 ROSELAND SOLAR U1
+1242 ROSELAND SOLAR U2
+1243 ROSELAND SOLAR U3
+1244 SAMSON SOLAR 1 U1
+1245 SAMSON SOLAR 1 U2
+1246 SAMSON SOLAR 2 U1
+1247 SAMSON SOLAR 2 U2
+1248 SAMSON SOLAR 3 U1
+1249 SAMSON SOLAR 3 U2
+1250 SBRANCH SOLAR PROJECT
+1251 SHAW SOLAR
+1252 SOLACE SOLAR U1
+1253 SOLACE SOLAR U2
+1254 STARR SOLAR RANCH U1
+1255 STARR SOLAR RANCH U2
+1256 STONERIDGE SOLAR U1
+1257 STONERIDGE SOLAR U2
+1258 SYPERT BRANCH SOLAR PROJECT U1
+1259 SYPERT BRANCH SOLAR PROJECT U2
+1260 TANGLEWOOD SOLAR U1
+1261 TANGLEWOOD SOLAR U2
+1262 TRES BAHIAS SOLAR
+1263 TULSITA SOLAR U1
+1264 TULSITA SOLAR U2
+1265 YAUPON SOLAR SLF U1
+1266 YAUPON SOLAR SLF U2
+1267 Operational Capacity - Synchronized but not Approved for Commercial Operations Total (Solar)
+1268
+1269 Operational Resources (Storage)
+1270 ABILENE ELMCREEK BESS
+1271 ABILENE INDUSTRIAL PARK BESS
+1272 AE-TELVIEW ESS
+1273 AL PASTOR BESS
+1274 ALAMO STREET BESS
+1275 ANCHOR BESS U1
+1276 ANCHOR BESS U2
+1277 ANDROMEDA STORAGE SLF U1
+1278 ANDROMEDA STORAGE SLF U2
+1279 ANEMOI ENERGY STORAGE
+1280 ANGELO STORAGE
+1281 ANGLETON BESS
+1282 ANOLE BESS
+1283 ANTLIA BESS
+1284 AVILA BESS
+1285 AZURE SKY BESS
+1286 BAT CAVE
+1287 BAY CITY BESS
+1288 BECK_ROAD BESS1
+1289 BELDING TNP (TRIPLE BUTTE BATTERY)
+1290 BERRY BESS1
+1291 BESS STADIUM
+1292 BEXAR ESS
+1293 BIG STAR STORAGE
+1294 BLACK SPRINGS BESS SLF
+1295 BLEVINS STORAGE
+1296 BLUE JAY BESS
+1297 BLUE SUMMIT BATTERY
+1298 BOCANOVA BESS
+1299 BOCANOVA POWER II
+1300 BOCO BESS
+1301 BRIGHT ARROW STORAGE U1
+1302 BRIGHT ARROW STORAGE U2
+1303 BRP ALVIN
+1304 BRP ANGLETON
+1305 BRP BRAZORIA
+1306 BRP DICKENS BESS U1
+1307 BRP DICKENS BESS U2
+1308 BRP DICKENS BESS U3
+
+ERCOT PUBLIC
+
+COUNTY
+
+FUEL
+
+ZONE
+
+IN SERVICE
+YEAR
+
+BUZI_SLR_UNIT2
+BUZI_SLR_UNIT3
+BUZI_SLR_UNIT4
+CHAR_SLR_UNIT1
+CHIL_SLR_SOLAR1
+CHIL_SLR_SOLAR2
+CMPD_SLR_SOLAR1
+CMPD_SLR_SOLAR2
+CMPD_SLR_SOLAR3
+CTW_SOLAR1
+CTW_SOLAR2
+CST1_SLR_SOLAR1
+CST2_SLR_SOLAR1
+CST2_SLR_SOLAR2
+DMA_SOLAR1
+DAN_UNIT1
+DAN_UNIT2
+DAN_UNIT3
+DELILA_1_G1
+DELILA_1_G2
+DELILA_2_G1
+DELILA_2_G2
+DELILA_2_G3
+DRCK_SLR_SOLAR1
+EBELLSLR_UNIT1
+EBELLSL2_UNIT1
+ERKA_SLR_UNIT1
+GRND_SLR_UNIT1
+GRYH_SLR_SOLAR1
+GRYH_SLR_SOLAR2
+GRYH_SLR_SOLAR3
+GRYH_SLR_SOLAR4
+HRMS_SLR_UNIT1
+MLB_SLR_SOLAR3
+GODY_SLR_SOLAR1
+GODY_SLR_SOLAR2
+MYR_UNIT1
+MYR_UNIT2
+NHKY_SLR_UNIT1
+NHKY_SLR_UNIT2
+NRTN_SLR_SOLAR1
+PHO_SOLAR1
+PHO_SOLAR2
+PHO_SOLAR3
+PHO_SOLAR4
+PDRA_SLR_SOLAR1
+PDRA_SLR_SOLAR2
+PINEFRST_UNIT1
+PINEFRST_UNIT2
+QTUM_SLR_UNIT1
+QTUM_SLR_UNIT2
+ROSELAND_SOLAR1
+ROSELAND_SOLAR2
+ROSELAND_SOLAR3
+SAMSON_1_G1
+SAMSON_1_G2
+SAMSON_1_G3
+SAMSON_1_G4
+SAMSON_3_G1
+SAMSON_3_G2
+SBE_UNIT1
+SHAW_SLR_UNIT1
+SOLC_SLR_UNIT1
+SOLC_SLR_UNIT2
+STAR_SLR_UNIT1
+STAR_SLR_UNIT2
+STRG_SLR_UNIT1
+STRG_SLR_UNIT2
+SYBR_SLR_UNIT1
+SYBR_SLR_UNIT2
+TNG_SOLAR1
+TNG_SOLAR2
+TREB_SLR_SOLAR1
+TUL_SLR_UNIT1
+TUL_SLR_UNIT2
+YAPN_SLR_PV1
+YAPN_SLR_PV2
+
+MOTLEY
+MOTLEY
+MOTLEY
+REFUGIO
+BELL
+BELL
+HILL
+HILL
+HILL
+BRAZORIA
+BRAZORIA
+JONES
+JONES
+JONES
+BRAZORIA
+WHARTON
+WHARTON
+WHARTON
+LAMAR
+LAMAR
+RED RIVER
+RED RIVER
+RED RIVER
+HENDERSON
+MILAM
+MILAM
+KAUFMAN
+UPTON
+ECTOR
+ECTOR
+ECTOR
+ECTOR
+BELL
+HASKELL
+LAMAR
+LAMAR
+BRAZORIA
+BRAZORIA
+JACKSON
+JACKSON
+RUNNELS
+WHARTON
+WHARTON
+WHARTON
+WHARTON
+FREESTONE
+FREESTONE
+HOPKINS
+HOPKINS
+HASKELL
+HASKELL
+FALLS
+FALLS
+FALLS
+LAMAR
+LAMAR
+LAMAR
+LAMAR
+LAMAR
+LAMAR
+WHARTON
+BANDERA
+HASKELL
+HASKELL
+STARR
+STARR
+MILAM
+MILAM
+MILAM
+MILAM
+BRAZORIA
+BRAZORIA
+CALHOUN
+GOLIAD
+GOLIAD
+MILAM
+MILAM
+
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+SOLAR
+
+PANHANDLE
+PANHANDLE
+PANHANDLE
+COASTAL
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+COASTAL
+COASTAL
+WEST
+WEST
+WEST
+COASTAL
+SOUTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+SOUTH
+SOUTH
+NORTH
+WEST
+WEST
+WEST
+WEST
+WEST
+NORTH
+WEST
+NORTH
+NORTH
+COASTAL
+COASTAL
+SOUTH
+SOUTH
+WEST
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+NORTH
+WEST
+WEST
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+SOUTH
+SOUTH
+WEST
+WEST
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+COASTAL
+COASTAL
+COASTAL
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+
+2026
+2026
+2026
+2026
+2024
+2024
+2024
+2024
+2026
+2024
+2024
+2026
+2026
+2026
+2024
+2023
+2023
+2023
+2021
+2021
+2024
+2024
+2024
+2026
+2023
+2024
+2027
+2027
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2023
+2023
+2026
+2026
+2025
+2025
+2025
+2024
+2025
+2026
+2026
+2025
+2025
+2026
+2026
+2026
+2026
+2026
+2021
+2021
+2024
+2024
+2021
+2021
+2022
+2026
+2026
+2026
+2024
+2024
+2025
+2025
+2026
+2026
+2025
+2025
+2023
+2024
+2024
+2027
+2027
+
+ELMCRK_BESS1
+ABINDUST_BESS1
+TV_BESS
+ALP_BESS_BESS1
+ALAMO_ST_BESS1
+ANCHOR_BESS1
+ANCHOR_BESS2
+ANDMDSLR_BESS1
+ANDMDSLR_BESS2
+ANEM_ESS_BESS1
+ANG_SLR_BESS1
+AE_BESS
+ANOL_ESS_BES1
+ANTL_ESS_BES1
+AVIL_ESS_BES1
+AZURE_BESS1
+BATCAVE_BES1
+BAY_CITY_BESS
+Z0_BESS1
+BELD_BELU1
+BY_BESS1
+STADIUM_BESS
+BEXAR_ES_BESS1
+BIG_STAR_BESS
+BLACKSPR_UNIT1
+BLVN_SLR_BESS1
+BLUEJAY_BESS1
+BLSUMMIT_BATTERY
+BCNV_ESS_BESS1
+BCNV2_ES_BESS1
+BOCO_ESS_ESS1
+BR_ARROW_BESS1
+BR_ARROW_BESS2
+ALVIN_UNIT1
+ANGLETON_UNIT1
+BRAZORIA_UNIT1
+DKNS_ESS_BES1
+DKNS_ESS_BES2
+DKNS_ESS_BES3
+
+TAYLOR
+TAYLOR
+FORT BEND
+DAWSON
+PECOS
+CALLAHAN
+CALLAHAN
+SCURRY
+SCURRY
+HIDALGO
+TOM GREEN
+BRAZORIA
+DALLAS
+VAL VERDE
+PECOS
+HASKELL
+MASON
+MATAGORDA
+BEXAR
+PECOS
+HARRIS
+JIM WELLS
+BEXAR
+BASTROP
+PALO PINTO
+FALLS
+GRIMES
+WILBARGER
+BRAZORIA
+BRAZORIA
+BORDEN
+HOPKINS
+HOPKINS
+BRAZORIA
+BRAZORIA
+BRAZORIA
+DICKENS
+DICKENS
+DICKENS
+
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+STORAGE
+
+WEST
+WEST
+HOUSTON
+WEST
+WEST
+WEST
+WEST
+WEST
+WEST
+SOUTH
+WEST
+COASTAL
+NORTH
+WEST
+WEST
+WEST
+SOUTH
+COASTAL
+SOUTH
+WEST
+HOUSTON
+SOUTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+WEST
+COASTAL
+COASTAL
+WEST
+NORTH
+NORTH
+COASTAL
+COASTAL
+COASTAL
+PANHANDLE
+PANHANDLE
+PANHANDLE
+
+2025
+2025
+2024
+2024
+2025
+2022
+2022
+2024
+2024
+2024
+2024
+2024
+2025
+2025
+2025
+2021
+2021
+2023
+2026
+2021
+2025
+2025
+2025
+2022
+2025
+2025
+2022
+2017
+2025
+2026
+2024
+2023
+2023
+2022
+2022
+2020
+2024
+2024
+2024
+
+16
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+119.6
+107.2
+18.6
+198.8
+174.3
+178.1
+195.2
+211.4
+201.4
+175.7
+175.7
+218.4
+90.8
+98.7
+100.2
+301.3
+151.0
+150.5
+153.5
+153.5
+107.1
+103.4
+107.1
+200.1
+244.9
+150.6
+200.9
+175.6
+195.2
+49.1
+63.1
+28.1
+100.4
+134.9
+104.1
+66.7
+171.6
+149.6
+106.5
+100.1
+125.5
+129.6
+106.1
+110.0
+106.0
+140.9
+140.8
+242.7
+58.9
+160.8
+160.9
+254.0
+137.8
+116.2
+128.4
+128.4
+101.5
+101.5
+128.4
+128.4
+233.5
+124.7
+160.7
+161.0
+70.5
+66.3
+184.1
+17.5
+132.5
+128.6
+125.1
+125.1
+196.3
+128.1
+128.1
+131.6
+69.7
+11,690.6
+
+9.9
+9.9
+10.0
+103.1
+9.9
+35.2
+36.3
+82.0
+78.3
+200.9
+103.0
+9.9
+247.1
+72.4
+160.7
+77.6
+100.5
+10.0
+10.0
+9.2
+10.0
+9.9
+102.3
+80.0
+120.7
+188.2
+51.6
+30.0
+150.5
+150.5
+154.0
+49.3
+52.8
+10.0
+10.0
+10.0
+50.2
+50.2
+50.2
+
+JAN 2027
+RATING
+(MW)
+118.7
+106.5
+18.5
+197.2
+173.0
+177.0
+194.5
+211.2
+200.0
+175.0
+175.0
+217.6
+90.5
+98.3
+100.0
+300.0
+150.2
+149.8
+150.0
+150.0
+105.0
+100.0
+105.0
+200.0
+240.0
+150.0
+200.0
+175.1
+194.7
+48.7
+62.6
+27.8
+100.2
+132.0
+103.6
+66.4
+167.2
+145.8
+106.0
+100.0
+125.0
+129.1
+105.7
+109.6
+105.7
+140.0
+140.0
+242.1
+58.9
+160.0
+160.0
+250.0
+135.6
+114.4
+125.0
+125.0
+100.0
+100.0
+125.0
+125.0
+233.5
+123.0
+160.0
+160.0
+70.0
+66.0
+184.1
+17.5
+132.0
+128.0
+125.0
+125.0
+195.0
+127.8
+127.8
+131.2
+69.5
+11,598.7
+
+9.9
+9.9
+10.0
+100.3
+9.9
+35.2
+36.3
+81.9
+78.1
+200.0
+100.0
+9.9
+240.0
+70.0
+160.0
+77.6
+100.5
+9.9
+10.0
+7.5
+10.0
+9.9
+100.0
+80.0
+120.0
+180.0
+50.0
+30.0
+150.0
+150.0
+150.0
+48.3
+51.7
+10.0
+10.0
+10.0
+50.0
+50.0
+50.0
+
+UNIT NAME
+1309 BRP DICKENS BESS U4
+1310 BRP DICKINSON
+1311 BRP HEIGHTS
+1312 BRP HYDRA BESS
+1313 BRP LIBRA BESS
+1314 BRP LOOP 463
+1315 BRP LOPENO
+1316 BRP MAGNOLIA
+1317 BRP ODESSA SW
+1318 BRP PALEO BESS
+1319 BRP PAVO BESS U1
+1320 BRP PAVO BESS U2
+1321 BRP PUEBLO I
+1322 BRP PUEBLO II
+1323 BRP RANCHTOWN
+1324 BRP SWEENY
+1325 BRP TORTOLAS BESS
+1326 BRP ZAPATA I
+1327 BRP ZAPATA II
+1328 BUDA BESS
+1329 BUFFALO CREEK BESS U1
+1330 BUFFALO CREEK BESS U2
+1331 BURKSOL BESS (DONEGAL BESS)
+1332 BYPASS BATTERY STORAGE
+1333 BYRD RANCH STORAGE
+1334 CACHI BESS
+1335 CALLISTO I ENERGY CENTER U1
+1336 CALLISTO I ENERGY CENTER U2
+1337 CAMERON STORAGE (SABAL STORAGE)
+1338 CARAMBOLA BESS
+1339 CARINA BESS
+1340 CARRIZO SPRINGS BESS
+1341 CASTLE GAP BATTERY
+1342 CASTOR BESS
+1343 CATARINA BESS
+1344 CEDARVALE BESS
+1345 CENTURY BESS
+1346 CHILLINGHAM STORAGE
+1347 CHISHOLM GRID
+1348 CISCO BESS
+1349 CITRUS CITY BESS
+1350 CITRUS FLATTS BESS
+1351 COMMERCE ST ESS
+1352 CONNOLLY STORAGE
+1353 CONTINENTAL BESS
+1354 CORAL STORAGE U1
+1355 CORAL STORAGE U2
+1356 CORAZON STORAGE
+1357 COTTONWOOD BAYOU STORAGE
+1358 COTULLA BESS 1
+1359 COUNTY ROAD BESS
+1360 COYOTE SPRINGS BESS
+1361 CROCKETT BESS
+1362 CROSBY BESS
+1363 CROSS TRAILS STORAGE
+1364 CROSSETT POWER U1
+1365 CROSSETT POWER U2
+1366 DAMON STORAGE
+1367 DANISH FIELDS STORAGE U1
+1368 DANISH FIELDS STORAGE U2
+1369 DECORDOVA BESS U1
+1370 DECORDOVA BESS U2
+1371 DECORDOVA BESS U3
+1372 DECORDOVA BESS U4
+1373 DESERT WILLOW BESS
+1374 DESNA BESS
+1375 DIBOLL BESS
+1376 DOGFISH BESS
+1377 EAST HARRISON BESS
+1378 EBONY ENERGY STORAGE
+1379 ELIZA STORAGE
+1380 ELM STREET BESS
+1381 ELM STREET BESS2
+1382 EMPIRE CENTRAL BESS
+1383 ENDURANCE PARK STORAGE
+1384 ESCONDIDO BESS
+1385 ESTONIAN ENERGY STORAGE
+1386 EUNICE STORAGE
+1387 EVELYN BATTERY ENERGY STORAGE SYSTEM
+1388 FALFUR BESS
+1389 FALFURRIAS BESS
+1390 FARMERSVILLE BESS
+1391 FARMERSVILLE WEST BESS 2
+1392 FAULKNER BESS
+1393 FENCE POST BESS U1
+1394 FERDINAND GRID BESS
+1395 FIVE WELLS STORAGE
+1396 FLAT TOP BATTERY
+1397 FLOWER VALLEY II BATT
+1398 FORT DUNCAN BESS
+1399 FORT MASON BESS
+1400 FT STOCKTON (DOWNTOWN BESS)
+1401 GAIA STORAGE
+1402 GAMBIT BATTERY
+1403 GARDEN CITY EAST BESS
+1404 GEARS BESS
+1405 GEARS BESS2
+1406 GEORGETOWN SOUTH (RABBIT HILL ESS)
+1407 GIGA TEXAS ENERGY STORAGE
+1408 GOMEZ BESS
+1409 GOODWIN BESS
+1410 GREAT KISKADEE STORAGE
+1411 GREGORY BESS
+1412 HAMILTON BESS U1
+1413 HEADCAMP ENERGY STORAGE PLANT
+1414 HEARN ROAD BESS
+1415 HIDDEN VALLEY BESS
+1416 HIGH LONESOME BESS
+1417 HIGHWAY 6 BESS
+1418 HOLCOMB BESS
+1419 HOLY ESS U1
+1420 HOLY ESS U2
+1421 HOUSE MOUNTAIN BESS
+1422 HUMMINGBIRD STORAGE
+1423 INADALE ESS
+1424 INERTIA BESS
+1425 JADE STORAGE U1
+1426 JADE STORAGE U2
+1427 JARVIS BESS U1
+
+ERCOT PUBLIC
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+
+COUNTY
+
+DKNS_ESS_BES4
+DICKNSON_UNIT1
+HEIGHTTN_UNIT1
+HYDR_ESS_BES1
+LBRA_ESS_BES1
+L_463S_UNIT1
+LOPENO_UNIT1
+MAGNO_TN_UNIT1
+ODESW_UNIT1
+PALE_ESS_BES1
+PAVO_ESS_BESS1
+PAVO_ESS_BESS2
+PUEBLO_UNIT1
+PUEBLO_UNIT2
+K0_UNIT1
+SWEENY_UNIT1
+TORT_ESS_BESS1
+ZAPATA_UNIT1
+ZAPATA_UNIT2
+BUDA_BES1
+BCK_BESS1
+BCK_BESS2
+BKSL_ESS_BESS1
+BYP_BESS1
+BYRDR_ES_BESS1
+CACH_ESS_BESS1
+CLO_BESS1
+CLO_BESS2
+CAMWIND_BESS1
+CARA_ESS_BESS1
+CARN_ESS_BES1
+CARRIZO_BESS1
+CASL_GAP_BATTERY1
+CAST_ESS_BESS1
+CATARINA_BESS
+CEDRVALE_BESS
+CNTRY_BESS1
+CHIL_SLR_BESS1
+CHISMGRD_BES1
+CISC_BESS
+CITRUSCY_BESS1
+CFLAT_ES_BESS1
+X4_SWRI
+CNLY_ESS_BESS_1
+CONTINEN_BESS1
+CORALSLR_BESS1
+CORALSLR_BESS2
+CORAZON_BESS1
+CTW_BESS1
+COTULLA_BESS1
+CNTYRDS_BES1
+COYOTSPR_BESS
+CR_BESS1
+CS_BESS
+CROSSTRL_BESS1
+CROSSETT_BES1
+CROSSETT_BES2
+DA_BESS
+DAN_BESS1
+DAN_BESS2
+DCSES_BES1
+DCSES_BES2
+DCSES_BES3
+DCSES_BES4
+DSWL_ESS_BES1
+DESN_ESS_BESS1
+DIBOL_BESS
+DGFS_ESR_BESS1
+E_HARRIS_BESS1
+EBNY_ESS_BESS1
+ELZA_SLR_BES1
+ELM_ST_BES1
+ELM_ST_BESS2
+EMPCT_BESS1
+ENDPARKS_ESS1
+ESCONDID_BESS1
+ESTONIAN_BES1
+EUNICE_BES1
+EVLN_ESS_BESS1
+FALFUR_BESS
+FALFUR_BESS1
+FRMRSVLW_BESS
+FRMRSVLW_BES2
+FAULKNER_BESS
+FENCESLR_BESS1
+FERD_ESS_BESS1
+FIVEWSLR_BESS1
+FLAT_TOP_FLATU1
+FLOWERII_BESS1
+FTDUNCAN_BESS_GEN
+FORTMA_BESS1
+TNFS_BESS1
+GAIA_SLR_BESS1
+GAMBIT_BESS1
+GRDNE_BESS
+GZ_BESS1
+GZ_BESS2
+GEORSO_ESS_1
+GIGA_ESS_BESS_1
+GOMZ_BESS
+GOODWIN_BESS1
+GKS_BESS_BESS1
+GREGORY_BESS1
+HAMILTON_BESS
+HEADCAMP_BESS1
+HEARN_RD_BESS1
+HV_BESS1
+HI_LONEB_BESS1
+HWY6_BES1
+HOLCOMB_BESS
+HLY_BESS1
+HLY_BESS2
+HOUSEMTN_BESS1
+HMNG_ESS_BESS1
+INDL_ESS
+INRT_W_BESS_1
+JADE_SLR_BESS1
+JADE_SLR_BESS2
+JAR_BES1
+
+17
+
+FUEL
+
+DICKENS
+STORAGE
+GALVESTON STORAGE
+GALVESTON STORAGE
+PECOS
+STORAGE
+GUADALUPE STORAGE
+VICTORIA
+STORAGE
+ZAPATA
+STORAGE
+GALVESTON STORAGE
+ECTOR
+STORAGE
+HALE
+STORAGE
+PECOS
+STORAGE
+PECOS
+STORAGE
+MAVERICK
+STORAGE
+MAVERICK
+STORAGE
+BEXAR
+STORAGE
+BRAZORIA
+STORAGE
+BRAZORIA
+STORAGE
+ZAPATA
+STORAGE
+ZAPATA
+STORAGE
+HAYS
+STORAGE
+FORT BEND
+STORAGE
+FORT BEND
+STORAGE
+DICKENS
+STORAGE
+FORT BEND
+STORAGE
+BRAZORIA
+STORAGE
+GUADALUPE STORAGE
+HARRIS
+STORAGE
+HARRIS
+STORAGE
+CAMERON
+STORAGE
+HIDALGO
+STORAGE
+NUECES
+STORAGE
+DIMMIT
+STORAGE
+UPTON
+STORAGE
+BRAZORIA
+STORAGE
+DIMMIT
+STORAGE
+REEVES
+STORAGE
+TARRANT
+STORAGE
+BELL
+STORAGE
+TARRANT
+STORAGE
+EASTLAND
+STORAGE
+HIDALGO
+STORAGE
+CAMERON
+STORAGE
+BEXAR
+STORAGE
+WISE
+STORAGE
+STARR
+STORAGE
+FALLS
+STORAGE
+FALLS
+STORAGE
+WEBB
+STORAGE
+BRAZORIA
+STORAGE
+LA SALLE
+STORAGE
+REEVES
+STORAGE
+REEVES
+STORAGE
+HARRIS
+STORAGE
+HARRIS
+STORAGE
+SCURRY
+STORAGE
+CRANE
+STORAGE
+CRANE
+STORAGE
+BRAZORIA
+STORAGE
+WHARTON
+STORAGE
+WHARTON
+STORAGE
+HOOD
+STORAGE
+HOOD
+STORAGE
+HOOD
+STORAGE
+HOOD
+STORAGE
+ELLIS
+STORAGE
+BRAZORIA
+STORAGE
+ANGELINA
+STORAGE
+PECOS
+STORAGE
+CAMERON
+STORAGE
+COMAL
+STORAGE
+KAUFMAN
+STORAGE
+REEVES
+STORAGE
+REEVES
+STORAGE
+DALLAS
+STORAGE
+SCURRY
+STORAGE
+MAVERICK
+STORAGE
+DELTA
+STORAGE
+ANDREWS
+STORAGE
+GALVESTON STORAGE
+BROOKS
+STORAGE
+BROOKS
+STORAGE
+COLLIN
+STORAGE
+COLLIN
+STORAGE
+REEVES
+STORAGE
+NAVARRO
+STORAGE
+TRAVIS
+STORAGE
+BELL
+STORAGE
+REEVES
+STORAGE
+REEVES
+STORAGE
+MAVERICK
+STORAGE
+MASON
+STORAGE
+PECOS
+STORAGE
+NAVARRO
+STORAGE
+BRAZORIA
+STORAGE
+GLASSCOCK STORAGE
+HARRIS
+STORAGE
+HARRIS
+STORAGE
+WILLIAMSON STORAGE
+TRAVIS
+STORAGE
+REEVES
+STORAGE
+HIDALGO
+STORAGE
+HIDALGO
+STORAGE
+SAN PATRICIO STORAGE
+VAL VERDE
+STORAGE
+PECOS
+STORAGE
+NUECES
+STORAGE
+HARRIS
+STORAGE
+CROCKETT
+STORAGE
+BRAZOS
+STORAGE
+LA SALLE
+STORAGE
+HARRIS
+STORAGE
+HARRIS
+STORAGE
+BREWSTER
+STORAGE
+DENTON
+STORAGE
+NOLAN
+STORAGE
+HASKELL
+STORAGE
+SCURRY
+STORAGE
+SCURRY
+STORAGE
+BRAZORIA
+STORAGE
+
+ZONE
+
+IN SERVICE
+YEAR
+
+PANHANDLE
+HOUSTON
+HOUSTON
+WEST
+SOUTH
+SOUTH
+SOUTH
+HOUSTON
+WEST
+PANHANDLE
+WEST
+WEST
+SOUTH
+SOUTH
+SOUTH
+COASTAL
+COASTAL
+SOUTH
+SOUTH
+SOUTH
+HOUSTON
+HOUSTON
+PANHANDLE
+HOUSTON
+COASTAL
+SOUTH
+HOUSTON
+HOUSTON
+COASTAL
+SOUTH
+COASTAL
+SOUTH
+WEST
+COASTAL
+SOUTH
+WEST
+NORTH
+NORTH
+NORTH
+NORTH
+SOUTH
+COASTAL
+SOUTH
+NORTH
+SOUTH
+NORTH
+NORTH
+SOUTH
+COASTAL
+SOUTH
+WEST
+WEST
+HOUSTON
+HOUSTON
+WEST
+WEST
+WEST
+COASTAL
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+COASTAL
+NORTH
+WEST
+COASTAL
+SOUTH
+NORTH
+WEST
+WEST
+NORTH
+WEST
+SOUTH
+NORTH
+WEST
+HOUSTON
+SOUTH
+SOUTH
+NORTH
+NORTH
+WEST
+NORTH
+SOUTH
+NORTH
+WEST
+WEST
+SOUTH
+SOUTH
+WEST
+NORTH
+COASTAL
+WEST
+HOUSTON
+HOUSTON
+SOUTH
+SOUTH
+WEST
+SOUTH
+SOUTH
+COASTAL
+WEST
+WEST
+COASTAL
+HOUSTON
+WEST
+NORTH
+SOUTH
+HOUSTON
+HOUSTON
+WEST
+NORTH
+WEST
+WEST
+WEST
+WEST
+COASTAL
+
+2024
+2022
+2020
+2023
+2023
+2021
+2021
+2022
+2020
+2023
+2024
+2024
+2021
+2021
+2021
+2022
+2023
+2021
+2021
+2025
+2026
+2026
+2025
+2025
+2022
+2025
+2024
+2024
+2023
+2026
+2025
+2025
+2018
+2025
+2022
+2022
+2024
+2025
+2021
+2024
+2025
+2026
+2020
+2024
+2023
+2023
+2023
+2025
+2025
+2025
+2025
+2022
+2025
+2024
+2025
+2021
+2021
+2024
+2024
+2024
+2022
+2022
+2022
+2022
+2025
+2026
+2023
+2025
+2025
+2024
+2024
+2025
+2025
+2024
+2022
+2025
+2023
+2020
+2025
+2024
+2025
+2024
+2025
+2022
+2023
+2026
+2024
+2020
+2021
+2025
+2024
+2025
+2026
+2021
+2023
+2025
+2025
+2019
+2023
+2023
+2025
+2024
+2024
+2023
+2025
+2025
+2025
+2022
+2026
+2022
+2024
+2024
+2023
+2024
+2017
+2024
+2024
+2024
+2025
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+50.2
+10.0
+10.0
+200.8
+201.0
+10.0
+10.0
+10.0
+10.0
+200.8
+87.9
+87.9
+10.0
+10.0
+10.0
+10.0
+50.3
+10.0
+10.0
+9.9
+124.2
+127.2
+103.3
+207.9
+55.2
+205.5
+101.5
+102.5
+16.7
+100.9
+154.1
+9.9
+9.9
+205.4
+10.0
+10.0
+9.9
+153.9
+101.7
+9.9
+9.9
+103.0
+10.0
+125.4
+9.9
+48.4
+52.2
+204.8
+153.0
+9.9
+9.9
+10.0
+9.9
+9.9
+58.3
+101.5
+101.5
+5.0
+77.8
+75.1
+67.3
+67.3
+64.2
+64.2
+154.4
+205.5
+10.0
+78.2
+10.0
+201.2
+100.4
+9.9
+9.9
+10.0
+51.5
+9.9
+101.6
+40.3
+227.9
+9.9
+9.8
+9.9
+9.9
+10.0
+72.0
+205.5
+228.5
+9.9
+101.5
+101.6
+10.0
+9.9
+76.8
+102.4
+10.0
+9.9
+10.0
+9.9
+125.3
+10.0
+9.9
+102.5
+9.9
+9.9
+152.9
+9.8
+9.9
+51.1
+9.9
+10.0
+104.7
+104.7
+61.5
+100.4
+9.9
+13.0
+78.5
+82.3
+149.3
+
+JAN 2027
+RATING
+(MW)
+50.0
+10.0
+10.0
+200.0
+200.0
+10.0
+10.0
+10.0
+10.0
+200.0
+87.5
+87.5
+10.0
+10.0
+10.0
+10.0
+50.0
+10.0
+10.0
+9.9
+123.5
+126.5
+100.0
+200.0
+55.0
+200.0
+100.0
+100.0
+16.4
+98.4
+150.0
+9.9
+9.9
+200.0
+9.9
+9.9
+9.9
+150.0
+100.0
+9.9
+9.9
+100.0
+10.0
+125.0
+9.9
+47.6
+51.4
+200.0
+150.0
+9.9
+9.9
+9.9
+9.9
+9.9
+57.0
+100.0
+100.0
+5.0
+76.3
+73.7
+66.5
+66.5
+63.5
+63.5
+150.0
+200.0
+9.9
+75.0
+10.0
+200.0
+100.0
+9.9
+9.9
+10.0
+50.0
+9.9
+101.6
+40.3
+220.0
+9.9
+9.8
+9.9
+9.9
+9.9
+70.0
+200.0
+220.0
+9.9
+100.0
+100.0
+10.0
+9.9
+76.3
+100.0
+9.9
+9.9
+10.0
+9.9
+125.0
+9.9
+9.9
+100.0
+9.9
+9.9
+150.0
+9.8
+9.9
+50.0
+9.9
+9.9
+102.2
+102.2
+60.0
+100.0
+9.9
+13.0
+78.1
+81.9
+147.2
+
+UNIT NAME
+1428 JARVIS BESS U2
+1429 JOHNSON CITY BESS
+1430 JUDKINS BESS
+1431 JUNCTION BESS
+1432 JUNCTION NORTH BESS
+1433 KINGSBERY ENERGY STORAGE SYSTEM
+1434 LANTANA BESS
+1435 LAURELES BESS
+1436 LIGGETT SWITCH BESS
+1437 LILY STORAGE
+1438 LIMOUSIN OAK STORAGE
+1439 LONESTAR BESS
+1440 LONGBOW BESS
+1441 LOWER RIO BESS
+1442 LUCKY BLUFF BESS SLF
+1443 LUFKIN SOUTH BESS
+1444 LYSSY BESS
+1445 MADERO GRID U1
+1446 MADERO GRID U2 (IGNACIO GRID)
+1447 MAINLAND BESS
+1448 MAYBERRY II BESS
+1449 MEADOW PARK BESS
+1450 MEDINA LAKE BESS
+1451 MESQUITE BESS
+1452 MESQUITE BESS2
+1453 MIDPOINT STORAGE
+1454 MIDWAY BESS U1
+1455 MILTON BESS
+1456 MINERAL WELLS EAST BESS
+1457 MU ENERGY STORAGE SYSTEM
+1458 MUENSTER BESS
+1459 MUSTANG BAYOU BESS
+1460 MUSTANG CREEK STORAGE
+1461 MYRTLE STORAGE U1
+1462 MYRTLE STORAGE U2
+1463 NOBLE STORAGE U1
+1464 NOBLE STORAGE U2
+1465 NORTH ALAMO BESS
+1466 NORTH COLUMBIA (ROUGHNECK STORAGE)
+1467 NORTH FORK
+1468 NORTH MERCEDES BESS
+1469 NOTREES BATTERY FACILITY
+1470 OLMITO BESS
+1471 OLNEY BESS
+1472 PADUA GRID BESS
+1473 PADUA GRID BESS U2
+1474 PALMVIEW BESS
+1475 PAULINE BESS
+1476 PAVLOV BESS
+1477 PEARSALL BESS
+1478 PHOTON STORAGE U1
+1479 PHOTON STORAGE U2
+1480 PINE FOREST BESS
+1481 PINTAIL PASS BESS
+1482 PIRATE BESS
+1483 PLATINUM STORAGE U1
+1484 PLATINUM STORAGE U2
+1485 PORT LAVACA BATTERY
+1486 POTEET BESS
+1487 PRAIRIE CREEK BESS
+1488 PYOTE TNP (SWOOSE BATTERY)
+1489 PYRON BESS 2A
+1490 PYRON BESS 2B
+1491 PYRON ESS
+1492 QUEEN BESS
+1493 RADIAN STORAGE SLF U1
+1494 RADIAN STORAGE SLF U2
+1495 RATTLESNAKE BESS
+1496 REGIS MOORE FIELD BESS
+1497 REGIS PALACIOS BESS
+1498 REPUBLIC ROAD STORAGE
+1499 RHAPSODY STORAGE
+1500 RIO GRANDE CITY BESS 2
+1501 RIVER BEND (BRAZOS BEND BESS)
+1502 RIVER VALLEY STORAGE U1
+1503 RIVER VALLEY STORAGE U2
+1504 RODEO RANCH ENERGY STORAGE U1
+1505 RODEO RANCH ENERGY STORAGE U2
+1506 ROSELAND STORAGE
+1507 RUSSEK STREET BESS
+1508 SADDLEBACK BESS
+1509 SAHARA BESS (SOHO BESS)
+1510 SAHARA II BESS (SOHO II BESS)
+1511 SANDLAKE BESS
+1512 SARAGOSA BESS
+1513 SCREWBEAN BESS
+1514 SE EDINBURG BESS
+1515 SEVEN FLAGS BESS
+1516 SHAMROCK ENERGY STORAGE (SLF)
+1517 SHEEP CREEK STORAGE
+1518 SILICON HILL STORAGE U1
+1519 SILICON HILL STORAGE U2
+1520 SMT ELSA
+1521 SMT GARCENO BESS
+1522 SMT LOS FRESNOS
+1523 SMT MAYBERRY BESS
+1524 SMT RIO GRANDE CITY BESS
+1525 SMT SANTA ROSA
+1526 SNYDER
+1527 SODA LAKE BESS 1
+1528 SP JAGUAR BESS U1
+1529 SP JAGUAR BESS U2
+1530 SP TX-12B BESS
+1531 SPENCER BESS
+1532 ST. GALL I ENERGY STORAGE
+1533 ST. GALL II ENERGY STORAGE
+1534 STAMPEDE BESS U1
+1535 SUN VALLEY BESS U1
+1536 SUN VALLEY BESS U2
+1537 SWEETWATER BESS
+1538 SWOOSE II
+1539 TANZANITE STORAGE U1
+1540 TANZANITE STORAGE U2
+1541 TE SMITH STORAGE
+1542 TIDWELL PRAIRIE STORAGE U1
+1543 TIDWELL PRAIRIE STORAGE U2
+1544 TIERRA SECA BESS
+1545 TIMBERWOLF BESS
+1546 TOYAH POWER STATION
+
+ERCOT PUBLIC
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+
+COUNTY
+
+JAR_BES2
+JOHNCI_UNIT_1
+JDKNS_BESS
+JUNCTION_BESS
+JUNORTH_BES1
+KB_ESS_KB_ESS
+LANTANA_BESS1
+LAURELES_BESS
+LIGSW_BESS1
+LILY_BESS1
+LMO_BESS1
+LONESTAR_BESS
+LON_BES1
+LOWR_ESS_BESS1
+LUCKYBLU_UNIT1
+LFSTH_BESS
+LYSSY_BESS1
+MADERO_UNIT1
+MADERO_UNIT2
+MAINLAND_BESS
+MAYBERRY_BESS2
+MDWPK_BES1
+MEDILA_BESS1
+MESQUITE_BESS
+MESQUITE_BESS2
+MIDP_SLR_BESS1
+MIDWY_BESS1
+MILTON_BESS1
+MNWLE_BESS
+MU_ESS_MU_ESS
+MUENSTER_BESS1
+MU_BESS
+MUSTNGCK_BES1
+MYR_BES1
+MYR_BES2
+NOBLESLR_BESS1
+NOBLESLR_BESS2
+N_ALAMO_BESS
+NCO_ESS1
+NF_BRP_BES1
+N_MERCED_BESS
+NWF_NBS
+OLMITO_BESS1
+OLNEYTN_BESS
+PAD1_ESS_BESS1
+PAD2_ESS_BESS2
+PALMVIEW_BESS1
+PAULN_BESS
+PAVLOV_BESS
+PEARSALL_BES1
+PHO_BES1
+PHO_BES2
+PINEFRST_BESS1
+PIN_BESS_UNIT1
+PIRATE_BESS1
+PLATINUM_BES1
+PLATINUM_BES2
+PRTLAVS_BESS1
+POTEETS_BESS
+PRCRK_BESS1
+PYOTE_SWOOSEU1
+PYR_ESS2A
+PYR_ESS2B
+PYR_ESS
+QUEEN_BA_BESS1
+RADN_SLR_BESS1
+RADN_SLR_BESS2
+RTLSNAKE_BESS
+MOORE_FL_BESS1
+PALACIOS_BESS1
+RPUBRDS_ESS1
+RHA_BESS1
+RIO_GRAN_BESS2
+RBN_BESS1
+RVRVLYS_ESS1
+RVRVLYS_ESS2
+RRANCHES_UNIT1
+RRANCHES_UNIT2
+ROSELAND_BESS1
+RUSSEKST_BESS
+SADLBACK_BESS
+SAH_BESS1
+SAH_BESS2
+SANDLAKE_BESS
+SGSA_BESS1
+SBEAN_BESS
+SE_EDINB_BESS1
+SEVNF_ES_BESS1
+SHAMROCK_BESS1
+SHEEPCRK_BESS1
+SLCNHLS_ESS1
+SLCNHLS_ESS2
+ELSA_BESS
+GARCENO_BESS
+L_FRESNO_BESS
+MAYBERRY_BESS
+RIO_GRAN_BESS
+S_SNROSA_BESS
+DPCRK_UNIT1
+SLK_BESS_BESS1
+JAG_SLR_BESS1
+JAG_SLR_BESS2
+SPTX12B_BES1
+SP_BESS
+SGAL_BES_BESS1
+SGAL_BES_BESS2
+STAM_SLR_BESS1
+SUNVASLR_BESS1
+SUNVASLR_BESS2
+SWTWR_UNIT1
+SWOOSEII_BESS1
+TANZ_ESS_BES1
+TANZ_ESS_BES2
+SMTH_ESS_BESS_1
+TDWLPR_1_BESS1
+TDWLPR_1_BESS2
+TSECA_ES_BESS1
+TBWF_ESS_BES1
+CHERRYCR_BESS
+
+FUEL
+
+BRAZORIA
+STORAGE
+BLANCO
+STORAGE
+ECTOR
+STORAGE
+KIMBLE
+STORAGE
+KIMBLE
+STORAGE
+TRAVIS
+STORAGE
+NUECES
+STORAGE
+CAMERON
+STORAGE
+DALLAS
+STORAGE
+KAUFMAN
+STORAGE
+GRIMES
+STORAGE
+WARD
+STORAGE
+BRAZORIA
+STORAGE
+HIDALGO
+STORAGE
+ERATH
+STORAGE
+ANGELINA
+STORAGE
+WILSON
+STORAGE
+HIDALGO
+STORAGE
+HIDALGO
+STORAGE
+GALVESTON STORAGE
+HIDALGO
+STORAGE
+TARRANT
+STORAGE
+BANDERA
+STORAGE
+CAMERON
+STORAGE
+CAMERON
+STORAGE
+HILL
+STORAGE
+ECTOR
+STORAGE
+KARNES
+STORAGE
+PALO PINTO
+STORAGE
+TRAVIS
+STORAGE
+COOKE
+STORAGE
+BRAZORIA
+STORAGE
+JACKSON
+STORAGE
+BRAZORIA
+STORAGE
+BRAZORIA
+STORAGE
+DENTON
+STORAGE
+DENTON
+STORAGE
+HIDALGO
+STORAGE
+BRAZORIA
+STORAGE
+WILLIAMSON STORAGE
+HIDALGO
+STORAGE
+WINKLER
+STORAGE
+CAMERON
+STORAGE
+YOUNG
+STORAGE
+BEXAR
+STORAGE
+BEXAR
+STORAGE
+HIDALGO
+STORAGE
+HENDERSON STORAGE
+MATAGORDA STORAGE
+FRIO
+STORAGE
+WHARTON
+STORAGE
+WHARTON
+STORAGE
+HOPKINS
+STORAGE
+SAN PATRICIO STORAGE
+SAN PATRICIO STORAGE
+FANNIN
+STORAGE
+FANNIN
+STORAGE
+CALHOUN
+STORAGE
+ATASCOSA
+STORAGE
+DALLAS
+STORAGE
+WARD
+STORAGE
+NOLAN
+STORAGE
+NOLAN
+STORAGE
+NOLAN
+STORAGE
+UPTON
+STORAGE
+BROWN
+STORAGE
+BROWN
+STORAGE
+WARD
+STORAGE
+HIDALGO
+STORAGE
+MATAGORDA STORAGE
+ROBERTSON STORAGE
+HARRIS
+STORAGE
+STARR
+STORAGE
+FORT BEND
+STORAGE
+WILLIAMSON STORAGE
+WILLIAMSON STORAGE
+REEVES
+STORAGE
+REEVES
+STORAGE
+FALLS
+STORAGE
+REAGAN
+STORAGE
+REEVES
+STORAGE
+BRAZORIA
+STORAGE
+BRAZORIA
+STORAGE
+REEVES
+STORAGE
+REEVES
+STORAGE
+CULBERSON STORAGE
+HIDALGO
+STORAGE
+WEBB
+STORAGE
+CROCKETT
+STORAGE
+EASTLAND
+STORAGE
+TRAVIS
+STORAGE
+TRAVIS
+STORAGE
+HIDALGO
+STORAGE
+MATAGORDA STORAGE
+CAMERON
+STORAGE
+HIDALGO
+STORAGE
+STARR
+STORAGE
+CAMERON
+STORAGE
+SCURRY
+STORAGE
+CRANE
+STORAGE
+MCLENNAN
+STORAGE
+MCLENNAN
+STORAGE
+UPTON
+STORAGE
+HARRIS
+STORAGE
+PECOS
+STORAGE
+PECOS
+STORAGE
+HOPKINS
+STORAGE
+HILL
+STORAGE
+HILL
+STORAGE
+NOLAN
+STORAGE
+WARD
+STORAGE
+HENDERSON STORAGE
+HENDERSON STORAGE
+ROCKWALL
+STORAGE
+ROBERTSON STORAGE
+ROBERTSON STORAGE
+VAL VERDE
+STORAGE
+CRANE
+STORAGE
+REEVES
+STORAGE
+
+18
+
+ZONE
+
+IN SERVICE
+YEAR
+
+COASTAL
+SOUTH
+WEST
+SOUTH
+SOUTH
+SOUTH
+COASTAL
+COASTAL
+NORTH
+NORTH
+NORTH
+WEST
+COASTAL
+SOUTH
+NORTH
+NORTH
+SOUTH
+SOUTH
+SOUTH
+HOUSTON
+SOUTH
+NORTH
+SOUTH
+COASTAL
+COASTAL
+NORTH
+WEST
+SOUTH
+NORTH
+SOUTH
+NORTH
+COASTAL
+SOUTH
+COASTAL
+COASTAL
+NORTH
+NORTH
+SOUTH
+COASTAL
+SOUTH
+SOUTH
+WEST
+COASTAL
+WEST
+SOUTH
+SOUTH
+SOUTH
+NORTH
+COASTAL
+SOUTH
+SOUTH
+SOUTH
+NORTH
+COASTAL
+COASTAL
+NORTH
+NORTH
+COASTAL
+SOUTH
+NORTH
+WEST
+WEST
+WEST
+WEST
+WEST
+NORTH
+NORTH
+WEST
+SOUTH
+COASTAL
+NORTH
+HOUSTON
+SOUTH
+HOUSTON
+SOUTH
+SOUTH
+WEST
+WEST
+NORTH
+WEST
+WEST
+COASTAL
+COASTAL
+WEST
+WEST
+WEST
+SOUTH
+SOUTH
+WEST
+NORTH
+SOUTH
+SOUTH
+SOUTH
+COASTAL
+COASTAL
+SOUTH
+SOUTH
+COASTAL
+WEST
+WEST
+NORTH
+NORTH
+WEST
+HOUSTON
+WEST
+WEST
+NORTH
+NORTH
+NORTH
+WEST
+WEST
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+WEST
+WEST
+WEST
+
+2025
+2020
+2024
+2023
+2025
+2017
+2025
+2025
+2025
+2021
+2024
+2022
+2024
+2025
+2025
+2024
+2025
+2022
+2022
+2024
+2024
+2026
+2024
+2025
+2025
+2025
+2024
+2025
+2023
+2018
+2024
+2025
+2023
+2023
+2023
+2022
+2022
+2023
+2021
+2021
+2023
+2012
+2025
+2023
+2024
+2026
+2025
+2024
+2024
+2024
+2024
+2025
+2025
+2025
+2025
+2025
+2025
+2019
+2025
+2024
+2021
+2022
+2022
+2017
+2022
+2026
+2026
+2022
+2024
+2024
+2021
+2026
+2025
+2024
+2022
+2022
+2023
+2023
+2022
+2024
+2022
+2026
+2026
+2024
+2022
+2022
+2025
+2025
+2025
+2024
+2021
+2021
+2023
+2023
+2023
+2023
+2023
+2023
+2021
+2025
+2025
+2025
+2021
+2024
+2023
+2025
+2023
+2023
+2023
+2021
+2021
+2025
+2025
+2025
+2025
+2025
+2025
+2023
+2021
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+157.7
+2.3
+10.0
+10.0
+9.9
+1.5
+10.0
+9.9
+9.9
+51.7
+100.4
+10.0
+180.8
+60.4
+100.8
+10.0
+9.9
+100.8
+100.8
+9.9
+10.0
+9.9
+9.9
+9.9
+9.9
+50.9
+10.0
+9.9
+10.0
+1.5
+9.9
+10.0
+71.5
+76.9
+74.3
+63.5
+63.5
+10.0
+51.8
+100.5
+10.0
+36.0
+10.0
+10.0
+51.1
+150.9
+9.9
+10.0
+9.9
+9.9
+152.7
+152.7
+200.7
+207.3
+9.8
+152.9
+157.0
+9.9
+10.0
+9.9
+9.9
+15.1
+15.1
+9.9
+51.1
+78.3
+82.0
+10.0
+9.9
+9.9
+51.8
+205.6
+9.9
+101.6
+51.5
+51.5
+150.4
+150.4
+51.6
+9.9
+10.0
+204.4
+204.3
+10.0
+10.0
+10.0
+9.9
+102.7
+99.3
+142.1
+51.8
+51.8
+10.0
+10.0
+10.0
+10.0
+10.0
+10.0
+10.0
+203.9
+157.1
+157.2
+25.1
+9.9
+101.5
+102.5
+73.0
+54.1
+47.3
+10.0
+101.5
+132.9
+132.9
+125.4
+102.0
+102.0
+102.7
+150.3
+10.0
+
+JAN 2027
+RATING
+(MW)
+157.7
+2.3
+10.0
+9.9
+9.9
+1.5
+10.0
+9.9
+9.9
+50.0
+100.0
+9.9
+174.0
+60.0
+100.0
+10.0
+9.9
+100.0
+100.0
+9.9
+9.9
+9.9
+9.9
+9.9
+9.9
+50.9
+10.0
+9.9
+9.9
+1.5
+9.9
+10.0
+70.5
+76.3
+73.7
+62.5
+62.5
+9.9
+50.0
+100.5
+9.9
+33.7
+10.0
+9.9
+50.0
+150.0
+9.9
+10.0
+9.9
+9.9
+150.0
+150.0
+200.0
+200.0
+9.8
+148.3
+151.7
+9.9
+10.0
+9.9
+9.9
+15.1
+15.1
+9.9
+50.0
+78.1
+81.9
+9.9
+9.9
+9.9
+50.0
+200.0
+9.9
+100.0
+50.0
+50.0
+150.0
+150.0
+50.0
+9.9
+9.9
+200.0
+200.0
+10.0
+9.9
+9.9
+9.9
+100.0
+99.3
+135.1
+50.0
+50.0
+9.9
+9.9
+9.9
+9.9
+9.9
+9.9
+10.0
+200.0
+150.0
+150.0
+25.1
+9.9
+100.0
+100.0
+73.0
+53.3
+46.7
+9.9
+100.0
+128.9
+128.9
+125.0
+100.0
+100.0
+100.0
+150.0
+9.9
+
+UNIT NAME
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+
+COUNTY
+
+FUEL
+
+1547 TURQUOISE STORAGE
+TURQBESS_BESS1
+HUNT
+STORAGE
+1548 TYNAN BESS
+TYNAN_BESS1
+BEE
+STORAGE
+1549 UTOPIA BESS
+UTOPIA_BESS1
+BANDERA
+STORAGE
+1550 VAL VERDE BESS
+MV_VALV4_BESS
+HIDALGO
+STORAGE
+1551 VERTUS ENERGY STORAGE
+VERT_ESS_BESS1
+GALVESTON STORAGE
+THROCKMORT STORAGE
+1552 VORTEX BESS
+VORTEX_BESS1
+1553 WALSTROM BESS
+WAL_BESS_1
+AUSTIN
+STORAGE
+1554 WEIL TRACT BESS
+WEIL_TRC_BESS
+NUECES
+STORAGE
+1555 WEST COLUMBIA (PROSPECT STORAGE)
+WCOLLOCL_BSS_U1
+BRAZORIA
+STORAGE
+1556 WEST HARLINGEN BESS
+W_HARLIN_BESS
+CAMERON
+STORAGE
+1557 WESTOVER BESS
+WOVER_UNIT1
+ECTOR
+STORAGE
+1558 WHARTON BESS
+WR_BESS1
+WHARTON
+STORAGE
+1559 WIGEON WHISTLE BESS
+WIG_ESS_BES1
+COLLIN
+STORAGE
+1560 WIZARD BESS
+WZRD_ESS_BES1
+GALVESTON STORAGE
+1561 WOLF TANK STORAGE
+WFTANK_ESS1
+WEBB
+STORAGE
+1562 WORSHAM BATTERY
+WORSHAM_BESS1
+REEVES
+STORAGE
+1563 XE MURAT [ADLONG] STORAGE
+ADL_BESS1
+HARRIS
+STORAGE
+1564 ZIER STORAGE U1
+ZIER_SLR_BES1
+KINNEY
+STORAGE
+1565 Operational Capacity Total (Storage)
+1566
+1567 Operational Resources (Storage) - Synchronized but not Approved for Commercial Operations
+1568 ARROYO STORAGE
+ARY_BESS_BESS1
+CAMERON
+STORAGE
+1569 BACKBONE CREEK BESS
+BKBN_ESR_BESS1
+BURNET
+STORAGE
+1570 BIRD DOG ENERGY STORAGE
+BIRD_BES_BES1
+LIVE OAK
+STORAGE
+1571 BLUE SUMMIT ENERGY STORAGE
+BLSUMMIT_BESS2
+WILBARGER
+STORAGE
+1572 CARTWHEEL BESS 1
+CARTWHL_BESS1
+HOPKINS
+STORAGE
+1573 CROWNED HERON BESS U1
+HEN_BESS1
+FORT BEND
+STORAGE
+1574 CROWNED HERON BESS U2
+HEN_BESS2
+FORT BEND
+STORAGE
+1575 DAMON BESS 3
+DA_BESS3
+BRAZORIA
+STORAGE
+1576 GUNNAR BESS
+GUNR_BES_BES1
+HIDALGO
+STORAGE
+1577 HARLINGEN # 1 BESS 1
+HARLIN_1_BESS1
+CAMERON
+STORAGE
+1578 HERMES STORAGE
+HRMS_SLR_BESS1
+BELL
+STORAGE
+1579 HOUSTON IV BESS
+KEG_BESS1
+HARRIS
+STORAGE
+1580 IEP ORCHARD BESS
+OR_BESS
+FORT BEND
+STORAGE
+1581 KNAPP BESS
+KNAPP_BES1
+SCURRY
+STORAGE
+1582 LEAKEY BESS
+LEAKEY_BESS1
+REAL
+STORAGE
+1583 LITTLE YORK BESS
+LK_BESS1
+HARRIS
+STORAGE
+1584 MEDINA CITY BESS
+MEDINA1_BESS1
+BANDERA
+STORAGE
+1585 MRG GOODY STORAGE
+GODY_SLR_BESS1
+LAMAR
+STORAGE
+1586 NORTH EDINBURG BESS 1
+NEDIN_BESS1
+HIDALGO
+STORAGE
+1587 PADUA GRID BESS U3
+PAD3_ESS_BESS3
+BEXAR
+STORAGE
+1588 PROJECT LYNX BESS
+LYNX_ESS_BESS_1
+NUECES
+STORAGE
+1589 QUANTUM STORAGE U1
+QTUM_SLR_BESS1
+HASKELL
+STORAGE
+1590 QUANTUM STORAGE U2
+QTUM_SLR_BESS2
+HASKELL
+STORAGE
+1591 ROADRUNNER CROSSING BESS SLF U1
+RRC_WIND_BESS1
+EASTLAND
+STORAGE
+1592 ROADRUNNER CROSSING BESS SLF U2
+RRC_WIND_BESS2
+EASTLAND
+STORAGE
+STORAGE
+1593 SOLACE STORAGE U1
+SOLC_SLR_BESS1
+HASKELL
+1594 SOLACE STORAGE U2
+SOLC_SLR_BESS2
+HASKELL
+STORAGE
+1595 STONERIDGE BESS
+STRG_SLR_BESS1
+MILAM
+STORAGE
+1596 TORRECILLAS BESS
+TORR_BESS1
+WEBB
+STORAGE
+1597 Operational Capacity - Synchronized but not Approved for Commercial Operations Total (Storage)
+1598
+1599 Reliability Must-Run (RMR) and Other Resource Agreement Units
+1600 A4 PEARSALL DGR U1 (LIFE CYCLE POWER, LCP)
+A4_DGR1
+BEXAR
+DIESEL
+1601 A4 PEARSALL DGR U2 (LIFE CYCLE POWER, LCP)
+A4_DGR2
+BEXAR
+DIESEL
+1602 K2 NACOGDOCHES DGR U1 (LIFE CYCLE POWER, LCP)
+K2_DGR1
+BEXAR
+DIESEL
+1603 K2 NACOGDOCHES DGR U2 (LIFE CYCLE POWER, LCP)
+K2_DGR2
+BEXAR
+DIESEL
+1604 P2 HIGHLAND HILLS DGR U1 (LIFE CYCLE POWER, LCP)
+P2_DGR1
+BEXAR
+DIESEL
+1605 P2 HIGHLAND HILLS DGR U2 (LIFE CYCLE POWER, LCP)
+P2_DGR2
+BEXAR
+DIESEL
+1606 Q1 VALLEY ROAD DGR (LIFE CYCLE POWER, LCP)
+Q1_DGR1
+BEXAR
+DIESEL
+1607 V H BRAUNIG STG 3 (RMR FROM 3/1/25 TO 3/1/27)
+BRAUNIG_VHB3
+BEXAR
+GAS-ST
+1608 V2 BROOKS FIELD DGR U1 (LIFE CYCLE POWER, LCP)
+V2_DGR1
+BEXAR
+DIESEL
+1609 V2 BROOKS FIELD DGR U2 (LIFE CYCLE POWER, LCP)
+V2_DGR2
+BEXAR
+DIESEL
+1610 V2 BROOKS FIELD DGR U3 (LIFE CYCLE POWER, LCP)
+V2_DGR3
+BEXAR
+DIESEL
+1611 V4 PALO ALTO DGR (LIFE CYCLE POWER, LCP)
+V4_DGR1
+BEXAR
+DIESEL
+1612 X1 MEDINA BASE DGR (LIFE CYCLE POWER, LCP)
+X1_DGR1
+BEXAR
+DIESEL
+1613 Z0 BECK ROAD DGR U1 (LIFE CYCLE POWER, LCP)
+Z0_DGR1
+BEXAR
+DIESEL
+1614 Z0 BECK ROAD DGR U2 (LIFE CYCLE POWER, LCP)
+Z0_DGR2
+BEXAR
+DIESEL
+1615 Z5 SOUTHTON DGR (LIFE CYCLE POWER, LCP)
+Z5_DGR1
+BEXAR
+DIESEL
+1616 RMR and Other Resource Agreement Capacity Total
+1617
+1618 Capacity Pending Retirement
+PENDRETIRE_CAP
+1619
+1620 Non-Synchronous Tie Resources
+1621 EAST TIE
+DC_E
+FANNIN
+OTHER
+1622 NORTH TIE
+DC_N
+WILBARGER
+OTHER
+1623 LAREDO VFT TIE
+DC_L
+WEBB
+OTHER
+1624 SHARYLAND RAILROAD TIE
+DC_R
+HIDALGO
+OTHER
+1625 Non-Synchronous Ties Total
+1626
+1627 Planned Thermal Resources with Executed SGIA, Air Permit, GHG Permit, Proof of Adequate Water Supplies, Financial Commitment, and Notice to Proceed
+WARD
+GAS-CC
+1628 BASRANCH (TEF)
+25INR0008
+1629 CEDAR BAYOU 5 (TEF)
+23INR0029
+CHAMBERS
+GAS-CC
+1630 COYANOSA GAS
+25INR0711
+WINKLER
+GAS-IC
+1631 COYOTE SPRINGS AGR1
+24INR0645
+REEVES
+DIESEL
+1632 ELK UNIT 4
+27INR0181
+HALE
+GAS-GT
+1633 ENCHANTED ROCK NEWPP
+22INR0546
+HARRIS
+GAS-IC
+1634 GRAPHIC PACKAGING GAS
+26INR0111
+MCLENNAN
+GAS-GT
+1635 LIATRIS FLEXIBLE GAS
+26INR0408
+BRAZORIA
+GAS-GT
+1636 LIMITLESS ENERGY HUB II
+27INR0582
+WILBARGER
+GAS-CC
+1637 NRG GREENS BAYOU 6 (TEF)
+24INR0410
+HARRIS
+GAS-GT
+1638 RAYBURN ENERGY STATION II GAS (TEF)
+28INR0108
+GRAYSON
+GAS-GT
+1639 ROCK ISLAND GENERATING (TEF)
+27INR0321
+COLORADO
+GAS-IC
+1640 SADDLEBACK AGR1
+24INR0646
+REEVES
+DIESEL
+27INR0297
+REEVES
+GAS-IC
+1641 TOLIVAR POWER PLANT (TEF)
+1642 TOLIVAR POWER PLANT PHASE 2
+28INR0413
+REEVES
+GAS-IC
+1643 VAST SANDS POWER I (TEF)
+28INR0105
+WARD
+GAS-GT
+1644 VAST SANDS POWER II (TEF)
+28INR0109
+WARD
+GAS-GT
+1645 Planned Thermal Resources Total (Nuclear, Coal, Gas, Diesel, Biomass)
+1646
+1647 Planned Wind Resources with Executed SGIA, Financial Commitment, and Notice to Proceed
+1648 AURELIUS WIND
+29INR0004
+DEAF SMITH
+WIND-P
+1649 BIG CANYON WIND
+30INR0018
+PECOS
+WIND-O
+1650 BLUEBONNET PRAIRIE WIND
+25INR0247
+NAVARRO
+WIND-O
+1651 BOB CREEK WIND
+27INR0076
+STERLING
+WIND-O
+1652 BULLRING WIND 1
+28INR0037
+STARR
+WIND-O
+1653 BULLRING WIND 2
+28INR0038
+STARR
+WIND-O
+1654 BULLRING WIND 3
+28INR0039
+STARR
+WIND-O
+1655 CASCABEL WIND 1
+24INR0424
+ZAPATA
+WIND-O
+ZAPATA
+WIND-O
+1656 CASCABEL WIND 2
+23INR0561
+1657 CORRALITOS WIND 1
+24INR0505
+ZAPATA
+WIND-O
+1658 CORRALITOS WIND 2
+24INR0506
+ZAPATA
+WIND-O
+1659 HYFUELS WESTERN FARMLAND WIND
+26INR0021
+VICTORIA
+WIND-O
+1660 DUNDEE SOUTH A WIND
+27INR0005
+BAYLOR
+WIND-O
+1661 DUNDEE SOUTH B WIND
+27INR0011
+BAYLOR
+WIND-O
+1662 DUNDEE NORTH WIND
+27INR0004
+WILBARGER
+WIND-O
+1663 GOODNIGHT WIND II
+23INR0637
+ARMSTRONG WIND-P
+1664 GUSTY WINDPOWER
+29INR0040
+GLASSCOCK WIND-O
+1665 LAUREL WIND ENERGY CENTER
+27INR0056
+PECOS
+WIND-O
+
+ERCOT PUBLIC
+
+19
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+196.2
+9.9
+9.9
+9.9
+207.3
+121.8
+205.3
+10.0
+9.9
+10.0
+10.0
+10.0
+122.9
+150.8
+150.4
+9.9
+60.1
+40.1
+18,762.2
+
+JAN 2027
+RATING
+(MW)
+
+ZONE
+
+IN SERVICE
+YEAR
+
+NORTH
+SOUTH
+SOUTH
+SOUTH
+HOUSTON
+WEST
+SOUTH
+COASTAL
+COASTAL
+COASTAL
+WEST
+SOUTH
+NORTH
+HOUSTON
+SOUTH
+WEST
+HOUSTON
+SOUTH
+
+2023
+2024
+2026
+2023
+2026
+2022
+2025
+2023
+2019
+2023
+2021
+2025
+2024
+2025
+2023
+2019
+2025
+2024
+
+COASTAL
+SOUTH
+SOUTH
+WEST
+NORTH
+HOUSTON
+HOUSTON
+COASTAL
+SOUTH
+COASTAL
+NORTH
+HOUSTON
+HOUSTON
+WEST
+SOUTH
+HOUSTON
+SOUTH
+NORTH
+SOUTH
+SOUTH
+COASTAL
+WEST
+WEST
+NORTH
+NORTH
+WEST
+WEST
+SOUTH
+SOUTH
+
+2025
+2026
+2026
+2026
+2025
+2025
+2026
+2025
+2026
+2026
+2026
+2026
+2024
+2025
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2026
+2025
+2025
+2026
+2026
+2025
+2024
+
+183.8
+124.1
+60.4
+150.9
+154.2
+154.2
+154.2
+10.0
+154.8
+10.0
+100.4
+164.6
+10.0
+10.0
+9.9
+10.0
+10.0
+52.3
+10.0
+201.4
+125.3
+160.9
+160.9
+75.2
+75.2
+160.9
+160.9
+101.9
+9.9
+2,765.9
+
+180.0
+121.0
+60.0
+150.0
+150.0
+150.0
+150.0
+10.0
+150.0
+10.0
+100.0
+160.0
+10.0
+10.0
+9.9
+10.0
+9.9
+50.0
+10.0
+200.0
+75.0
+160.0
+160.0
+75.0
+75.0
+160.0
+160.0
+100.0
+9.9
+2,675.7
+
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+
+2025
+2025
+2025
+2025
+2025
+2025
+2025
+1970
+2025
+2025
+2025
+2025
+2025
+2025
+2025
+2025
+
+35.0
+35.0
+29.4
+29.4
+40.9
+40.9
+29.4
+420.0
+32.0
+32.0
+32.0
+40.9
+29.4
+29.4
+29.4
+29.4
+914.5
+
+24.2
+21.2
+26.1
+27.8
+24.2
+24.2
+20.0
+412.0
+26.0
+26.0
+26.0
+19.1
+17.5
+12.9
+16.8
+19.5
+743.5
+
+-
+
+-
+
+NORTH
+WEST
+SOUTH
+SOUTH
+
+190.0
+9.9
+9.9
+9.9
+200.0
+121.8
+200.0
+9.9
+9.9
+9.9
+10.0
+10.0
+120.0
+150.0
+150.0
+9.9
+60.0
+40.0
+18,446.2
+
+600.0
+220.0
+100.0
+300.0
+1,220.0
+
+WEST
+HOUSTON
+WEST
+WEST
+PANHANDLE
+HOUSTON
+NORTH
+COASTAL
+WEST
+HOUSTON
+NORTH
+SOUTH
+WEST
+WEST
+WEST
+WEST
+WEST
+
+2028
+2028
+2027
+2026
+2027
+2026
+2027
+2029
+2028
+2028
+2028
+2027
+2026
+2027
+2027
+2028
+2028
+
+9.9
+10.0
+30.0
+10.0
+59.8
+
+9.9
+9.9
+30.0
+9.9
+59.7
+
+PANHANDLE
+WEST
+NORTH
+WEST
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+SOUTH
+WEST
+WEST
+WEST
+PANHANDLE
+WEST
+WEST
+
+2028
+2030
+2028
+2028
+2028
+2028
+2028
+2027
+2027
+2027
+2027
+2028
+2027
+2027
+2027
+2027
+2028
+2027
+
+-
+
+-
+
+UNIT NAME
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+
+1666 LONGVIEW WIND
+26INR0530
+1667 MIRANDO VALLEY WIND
+28INR0072
+1668 MONARCH CREEK WIND
+21INR0263
+1669 MONTE ALTO 2 WIND
+19INR0023
+1670 MONTE CRISTO II WIND
+19INR0055
+1671 RUBICON ALPHA WIND
+24INR0291
+1672 SIETE
+20INR0047
+1673 SKYRIDER WIND
+29INR0025
+1674 VIENTO BRAVO WIND
+28INR0434
+1675 WATER VALLEY WIND ENERGY
+20INR0247
+1676 WEST MUNDAY WIND
+26INR0531
+1677 WINDJAMMER WINDPOWER
+27INR0383
+1678 YELLOW CAT WIND
+25INR0018
+1679 Planned Capacity Total (Wind)
+1680
+1681 Planned Solar Resources with Executed SGIA, Financial Commitment, and Notice to Proceed
+1682 ADAMSTOWN SOLAR
+21INR0210
+1683 ANILA SOLAR
+26INR0074
+1684 ANTILA SOLAR
+27INR0500
+1685 ARGENTA SOLAR
+25INR0060
+1686 ARMADILLO SOLAR
+21INR0421
+1687 ARROYO SOLAR
+20INR0086
+1688 AUGUST DRAW ENERGY
+25INR0112
+1689 AURELIUS 2 SOLAR
+29INR0009
+1690 AURELIUS SOLAR
+29INR0003
+1691 AUSTIN BAYOU SOLAR
+25INR0102
+1692 BAYOU CREEK SOLAR
+28INR0223
+1693 BIGWAY SOLAR I
+27INR0127
+1694 BIGWAY SOLAR II
+27INR0128
+1695 BLUE SKY SOL
+22INR0455
+1696 BONHAM SOLAR 1
+25INR0199
+1697 BRIGGS SOLAR
+23INR0059
+1698 CACHENA SOLAR SLF
+23INR0027
+1699 CAESAR SOLAR
+29INR0131
+1700 CALICHE MOUND SOLAR
+23INR0056
+1701 CAMINO SANTIAGO SOLAR
+22INR0605
+1702 CANEY CREEK SOLAR
+23INR0045
+1703 CANNIBAL DRAW SOLAR
+26INR0452
+1704 CANTALOUPE SOLAR
+23INR0116
+1705 CASCADE SOLAR
+23INR0091
+1706 CIBELES SOLAR
+24INR0356
+1707 CLAIREMONT SOLAR 1
+27INR0435
+1708 CORVUS SOLAR
+27INR0126
+1709 COSPER SOLAR
+25INR0281
+1710 CUCHILLAS SOLAR
+24INR0059
+1711 DARKWOOD SOLAR
+27INR0049
+1712 DELAWARE RANCH SOLAR
+22INR0454
+1713 DIAMONDBACK SOLAR
+20INR0162
+1714 DONEGAL SOLAR
+23INR0089
+1715 DOUIE SOLAR
+26INR0098
+1716 DUFFY SOLAR
+23INR0057
+1717 EAGLE SPRINGS SOLAR
+24INR0137
+1718 ECHOLS CREEK SOLAR
+25INR0368
+1719 EL PATRIMONIO SOLAR
+23INR0207
+1720 ELDORA SOLAR
+24INR0337
+1721 ELK RIDGE SOLAR
+28INR0114
+26INR0130
+1722 ELM FLATS SOLAR SLF
+1723 ERATH COUNTY SOLAR
+23INR0202
+1724 FAGUS SOLAR PARK 3 SLF
+26INR0524
+1725 FELIX EAST SOLAR
+27INR0007
+1726 FELIX NORTH SOLAR
+22INR0209
+1727 FELIX WEST SOLAR
+27INR0012
+1728 FEWELL SOLAR
+23INR0367
+1729 FUNSTON SOLAR
+29INR0015
+1730 GAIL MOUNTAIN SOLAR
+28INR0176
+1731 GARDNER DRAW SOLAR
+27INR0355
+1732 GLASGOW SOLAR
+24INR0206
+1733 GRAPEFRUIT SOLAR
+27INR0118
+1734 HACKBERRY CREEK SOLAR
+25INR0430
+28INR0127
+1735 HALF MOON SOLAR
+1736 HAMBY SOLAR
+26INR0440
+1737 HANSON SOLAR
+23INR0086
+1738 HIGH NOON SOLAR
+24INR0124
+1739 HOLLOW BRANCH CREEK SOLAR
+24INR0422
+1740 HONEYCOMB SOLAR
+22INR0559
+1741 HORNET SOLAR II SLF
+25INR0282
+1742 HOYTE SOLAR
+23INR0235
+1743 HUISACHE SOLAR
+24INR0160
+1744 INDIGO SOLAR
+21INR0031
+1745 INERTIA SOLAR
+22INR0374
+1746 IRON COWBOY SOLAR
+28INR0305
+1747 ISAAC SOLAR
+25INR0232
+1748 JAGUAR SOLAR
+24INR0038
+1749 JUNO 3 SOLAR
+26INR0621
+1750 KEYS HOLLOW SOLAR PHASE II SLF
+24INR0065
+1751 KEYS HOLLOW SOLAR SLF
+24INR0067
+1752 LA SALLE SOLAR
+26INR0088
+1753 LAMKIN SOLAR
+22INR0220
+1754 LEIGHTON SOLAR SLF
+24INR0298
+1755 LIMEWOOD SOLAR
+23INR0249
+1756 LUCKY 7 SOLAR
+26INR0409
+1757 LUCY SOLAR
+25INR0225
+1758 LUPINUS SOLAR 1
+24INR0150
+1759 LUPINUS SOLAR 2
+24INR0154
+1760 LYRA SOLAR
+27INR0434
+1761 MAGNET SOLAR
+28INR0297
+1762 MALDIVES SOLAR
+25INR0400
+1763 MALEZA SOLAR
+21INR0220
+1764 MATAGORDA SOLAR
+22INR0342
+1765 MERCURY SOLAR III
+24INR0407
+1766 MIRANDA SOLAR PROJECT
+24INR0161
+1767 MOCCASIN SOLAR
+26INR0269
+1768 MRR SOLAR
+30INR0053
+1769 MUSGRAVITE SOLAR
+27INR0198
+1770 NAZARETH SOLAR
+16INR0049
+1771 NIGHTFALL SOLAR SLF
+21INR0334
+1772 NOCKENUT SPRINGS SOLAR 1
+23INR0088
+1773 NOCKENUT SPRINGS SOLAR 2
+24INR0007
+1774 NORIA SOLAR DCC
+23INR0061
+1775 NORTHINGTON SOLAR
+25INR0319
+1776 NYMPHAEA SOLAR
+25INR0154
+1777 OCI COBB CREEK SOLAR
+25INR0229
+1778 OCI SUNROPER
+24INR0167
+1779 OPERATION SUNSHINE
+26INR0255
+1780 PECAN PRAIRIE NORTH
+21INR0428
+1781 PECAN PRAIRIE SOUTH
+21INR0371
+1782 PEPPER SOLAR FARM
+26INR0380
+1783 POSSUM KINGDOM SOLAR
+24INR0118
+1784 RAIN LILY SOLAR 1
+27INR0288
+
+ERCOT PUBLIC
+
+ZONE
+
+IN SERVICE
+YEAR
+
+DAWSON
+WIND-O
+JIM HOGG
+WIND-O
+THROCKMORT WIND-O
+WILLACY
+WIND-C
+HIDALGO
+WIND-O
+HASKELL
+WIND-O
+WEBB
+WIND-O
+PECOS
+WIND-O
+JIM HOGG
+WIND-O
+TOM GREEN
+WIND-O
+KNOX
+WIND-O
+GLASSCOCK WIND-O
+NAVARRO
+WIND-O
+
+WEST
+SOUTH
+WEST
+COASTAL
+SOUTH
+WEST
+SOUTH
+WEST
+SOUTH
+WEST
+WEST
+WEST
+NORTH
+
+2028
+2028
+2027
+2028
+2028
+2027
+2029
+2028
+2028
+2027
+2029
+2028
+2027
+
+WILBARGER
+SOLAR
+WILSON
+SOLAR
+BORDEN
+SOLAR
+BEE
+SOLAR
+NAVARRO
+SOLAR
+CAMERON
+SOLAR
+REEVES
+SOLAR
+DEAF SMITH
+SOLAR
+DEAF SMITH
+SOLAR
+BRAZORIA
+SOLAR
+SAN PATRICIO SOLAR
+KING
+SOLAR
+KING
+SOLAR
+CROCKETT
+SOLAR
+SOLAR
+LIMESTONE
+HASKELL
+SOLAR
+WILSON
+SOLAR
+BORDEN
+SOLAR
+DEAF SMITH
+SOLAR
+MILAM
+SOLAR
+VAN ZANDT
+SOLAR
+GLASSCOCK SOLAR
+REEVES
+SOLAR
+BRAZORIA
+SOLAR
+MCLENNAN
+SOLAR
+KENT
+SOLAR
+WEBB
+SOLAR
+BELL
+SOLAR
+WEBB
+SOLAR
+COMANCHE
+SOLAR
+CULBERSON SOLAR
+STARR
+SOLAR
+DICKENS
+SOLAR
+FREESTONE SOLAR
+MATAGORDA SOLAR
+DELTA
+SOLAR
+LAMAR
+SOLAR
+BEXAR
+SOLAR
+MATAGORDA SOLAR
+PECOS
+SOLAR
+NAVARRO
+SOLAR
+ERATH
+SOLAR
+CHILDRESS
+SOLAR
+WILBARGER
+SOLAR
+WILBARGER
+SOLAR
+WILBARGER
+SOLAR
+LIMESTONE
+SOLAR
+JONES
+SOLAR
+BORDEN
+SOLAR
+GLASSCOCK SOLAR
+NAVARRO
+SOLAR
+HIDALGO
+SOLAR
+MITCHELL
+SOLAR
+STARR
+SOLAR
+JONES
+SOLAR
+COLEMAN
+SOLAR
+HILL
+SOLAR
+LEON
+SOLAR
+BEE
+SOLAR
+SWISHER
+SOLAR
+MILAM
+SOLAR
+WILSON
+SOLAR
+FISHER
+SOLAR
+HASKELL
+SOLAR
+SAN PATRICIO SOLAR
+MATAGORDA SOLAR
+MCLENNAN
+SOLAR
+BORDEN
+SOLAR
+GOLIAD
+SOLAR
+GOLIAD
+SOLAR
+LA SALLE
+SOLAR
+COMANCHE
+SOLAR
+LIMESTONE
+SOLAR
+BELL
+SOLAR
+HOPKINS
+SOLAR
+CONCHO
+SOLAR
+FRANKLIN
+SOLAR
+FRANKLIN
+SOLAR
+BORDEN
+SOLAR
+BORDEN
+SOLAR
+SCURRY
+SOLAR
+WHARTON
+SOLAR
+MATAGORDA SOLAR
+HILL
+SOLAR
+MCMULLEN
+SOLAR
+STONEWALL SOLAR
+PECOS
+SOLAR
+HENDERSON SOLAR
+CASTRO
+SOLAR
+UVALDE
+SOLAR
+GUADALUPE SOLAR
+GUADALUPE SOLAR
+NUECES
+SOLAR
+WHARTON
+SOLAR
+WICHITA
+SOLAR
+HILL
+SOLAR
+WHARTON
+SOLAR
+CONCHO
+SOLAR
+LEON
+SOLAR
+LEON
+SOLAR
+MCLENNAN
+SOLAR
+JACK
+SOLAR
+HOOD
+SOLAR
+
+WEST
+SOUTH
+WEST
+SOUTH
+NORTH
+COASTAL
+WEST
+PANHANDLE
+PANHANDLE
+COASTAL
+COASTAL
+WEST
+WEST
+WEST
+NORTH
+WEST
+SOUTH
+WEST
+PANHANDLE
+SOUTH
+NORTH
+WEST
+WEST
+COASTAL
+NORTH
+WEST
+SOUTH
+NORTH
+SOUTH
+NORTH
+WEST
+SOUTH
+PANHANDLE
+NORTH
+COASTAL
+NORTH
+NORTH
+SOUTH
+COASTAL
+WEST
+NORTH
+NORTH
+PANHANDLE
+WEST
+WEST
+WEST
+NORTH
+WEST
+WEST
+WEST
+NORTH
+SOUTH
+WEST
+SOUTH
+WEST
+WEST
+NORTH
+NORTH
+SOUTH
+PANHANDLE
+SOUTH
+SOUTH
+WEST
+WEST
+COASTAL
+COASTAL
+NORTH
+WEST
+SOUTH
+SOUTH
+SOUTH
+NORTH
+NORTH
+NORTH
+NORTH
+WEST
+NORTH
+NORTH
+WEST
+WEST
+WEST
+SOUTH
+COASTAL
+NORTH
+SOUTH
+WEST
+WEST
+NORTH
+PANHANDLE
+SOUTH
+SOUTH
+SOUTH
+COASTAL
+SOUTH
+WEST
+NORTH
+SOUTH
+WEST
+NORTH
+NORTH
+NORTH
+NORTH
+NORTH
+
+2027
+2028
+2027
+2028
+2027
+2028
+2028
+2028
+2028
+2029
+2028
+2027
+2027
+2027
+2027
+2028
+2027
+2029
+2027
+2027
+2027
+2028
+2028
+2028
+2028
+2029
+2028
+2027
+2028
+2027
+2027
+2028
+2028
+2028
+2027
+2027
+2027
+2027
+2028
+2030
+2027
+2029
+2027
+2028
+2028
+2028
+2028
+2027
+2028
+2028
+2028
+2028
+2028
+2029
+2028
+2027
+2028
+2028
+2027
+2028
+2027
+2029
+2027
+2029
+2029
+2027
+2028
+2027
+2028
+2028
+2028
+2027
+2027
+2026
+2027
+2027
+2027
+2027
+2027
+2029
+2028
+2028
+2027
+2029
+2027
+2027
+2030
+2027
+2027
+2026
+2029
+2029
+2028
+2028
+2028
+2027
+2027
+2029
+2027
+2027
+2027
+2028
+2029
+
+COUNTY
+
+20
+
+FUEL
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+-
+
+150.5
+204.6
+180.9
+-
+
+JAN 2027
+RATING
+(MW)
+-
+
+150.5
+204.6
+180.9
+-
+
+UNIT NAME
+
+INTERCONNECTION
+REQUEST NUMBER UNIT CODE
+(INR)
+
+1785 RENEGADE PROJECT
+20INR0255
+1786 ROCINANTE SOLAR
+23INR0231
+1787 RODEO SOLAR
+19INR0103
+1788 ROWDY CREEK SOLAR
+24INR0186
+1789 ROXTON SOLAR
+26INR0470
+1790 SANPAT SOLAR
+25INR0052
+1791 SANPAT SOLAR II
+25INR0081
+1792 SELENITE SPRINGS SOLAR
+29INR0147
+1793 SEQUOIA II SOLAR
+22INR0262
+1794 SERENGETI SOLAR
+25INR0227
+1795 SEVEN SPRINGS SOLAR
+26INR0147
+1796 SHAULA I SOLAR
+22INR0251
+1797 SHAULA II SOLAR
+22INR0267
+1798 SHORT CREEK SOLAR
+24INR0201
+1799 SISTERS SOLAR
+21INR0265
+1800 SOL MARINA ENERGY CENTER
+26INR0241
+1801 SOLEIL SOLAR
+25INR0097
+1802 SPACE CITY SOLAR
+21INR0341
+1803 SPECTRA SOLAR
+28INR0486
+1804 SPINDLETOP SOLAR
+27INR0313
+1805 SPRINGFIELD SOLAR
+30INR0058
+1806 SPURLAND SOLAR I
+29INR0192
+1807 SUGAREE SOLAR
+27INR0389
+1808 SUNSCAPE RENEWABLE ENERGY SOLAR SLF
+27INR0047
+1809 TEHUACANA CREEK SOLAR SLF
+24INR0188
+1810 TIGER SOLAR
+23INR0244
+1811 TOKIO SOLAR
+23INR0349
+1812 TORMES SOLAR
+22INR0437
+1813 TWINWOOD SOLAR 1
+26INR0425
+1814 ULYSSES SOLAR
+21INR0253
+1815 UTLEY SOLAR
+24INR0117
+1816 UVA CREEK SOLAR
+26INR0359
+1817 VALDIVIAN SOLAR
+25INR0246
+1818 VARADERO SOLAR
+28INR0013
+1819 VAULT SOLAR
+25INR0482
+1820 YELLOW VIKING SOLAR
+21INR0520
+1821 ZEISSEL SOLAR
+24INR0258
+1822 Planned Capacity Total (Solar)
+1823
+1824 Planned Storage Resources with Executed SGIA, Financial Commitment, and Notice to Proceed
+1825 ADELITE STORAGE
+23INR0502
+1826 ALAMO STREET BESS2
+26INR0734
+1827 ALBATROSS BESS
+25INR0071
+1828 ALBATROSS BESS 2
+25INR0579
+1829 ALDRIN 138 BESS
+25INR0421
+1830 ALDRIN 345 BESS
+25INR0425
+1831 ALTHEA STORAGE
+27INR0465
+1832 AMADOR STORAGE
+24INR0472
+1833 ANATOLE RENEWABLE ENERGY STORAGE
+24INR0355
+1834 ANILA BESS
+26INR0077
+1835 ANSON BAT
+22INR0457
+1836 APACHE HILL BESS
+25INR0231
+1837 APPLE BESS
+26INR0574
+1838 ARGENTA STORAGE
+25INR0061
+1839 ARIJI BESS
+25INR0143
+1840 BARTON BRANCH IA
+22INR0504
+1841 BEE BRANCH IA
+23INR0421
+1842 BEXAR MARTINEZ BESS
+26INR0702
+1843 BIG ELM STORAGE
+23INR0469
+1844 BLACK & GOLD ENERGY STORAGE
+24INR0386
+1845 BLANQUILLA BESS
+24INR0528
+1846 BLUE HERON BESS
+25INR0146
+1847 BLUE SKIES BESS
+25INR0046
+1848 BORDERTOWN BESS
+23INR0354
+1849 BOWSTRING BESS
+22INR0443
+1850 BRACERO PECAN STORAGE
+26INR0034
+1851 BRIGGS STORAGE
+24INR0058
+1852 BROTHERTON STORAGE
+25INR0432
+1853 BRP DIRAN BESS
+23INR0137
+1854 CAESAR STORAGE
+29INR0132
+1855 CALLISTO II ENERGY CENTER
+22INR0558
+1856 CANNIBAL DRAW STORAGE
+26INR0453
+1857 CHAMPAIGN BESS
+25INR0138
+25INR0271
+1858 CITY BREEZE BESS
+1859 CONEFLOWER STORAGE PROJECT
+23INR0425
+1860 CROWDED STAR I BESS
+25INR0473
+1861 CUMULUS GRID BESS
+24INR0178
+1862 DAMON BESS 2
+23INR0603
+1863 DARKWOOD BESS
+27INR0050
+1864 DIAMOND COWBOY STORAGE
+26INR0428
+1865 DIOS BESS
+25INR0441
+1866 DRAKE BESS
+25INR0101
+1867 DUFFY BESS
+26INR0250
+1868 EAGLE CLAW ENERGY CENTER
+27INR0085
+1869 EAGLE SPRINGS STORAGE
+24INR0136
+1870 EAST BERNARD BESS
+25INR0601
+24INR0338
+1871 ELDORA BESS
+1872 ELIO BESS
+25INR0103
+1873 ELM FLATS STORAGE SLF
+26INR0131
+1874 EVAL STORAGE
+22INR0401
+1875 FAIRWAY STORAGE
+26INR0033
+1876 FALCON ZAPATA STORAGE 138
+26INR0116
+1877 FIRST CAPITOL BESS
+26INR0226
+1878 GLASGOW STORAGE
+24INR0207
+1879 GRIZZLY RIDGE BESS SLF
+22INR0596
+1880 HEIDELBERG BESS
+26INR0795
+1881 HIGH NOON STORAGE
+24INR0126
+1882 HOCKLEY BESS
+25INR0602
+1883 HONEYCOMB STORAGE SLF
+23INR0392
+1884 HORNET STORAGE II SLF
+25INR0283
+1885 HUISACHE BESS
+24INR0376
+1886 INDIGO STORAGE
+24INR0496
+1887 INDIGO STORAGE 2
+25INR0528
+1888 INDIGO STORAGE 3
+25INR0529
+1889 INDIGO STORAGE 4
+25INR0530
+1890 IRON COWBOY STORAGE
+28INR0306
+1891 JASPER BESS
+25INR0144
+1892 KEYS HOLLOW STORAGE PHASE II SLF
+24INR0066
+
+ERCOT PUBLIC
+
+ZONE
+
+IN SERVICE
+YEAR
+
+DEAF SMITH
+SOLAR
+GONZALES
+SOLAR
+ANDREWS
+SOLAR
+LAMAR
+SOLAR
+LAMAR
+SOLAR
+SAN PATRICIO SOLAR
+SAN PATRICIO SOLAR
+PECOS
+SOLAR
+CALLAHAN
+SOLAR
+DELTA
+SOLAR
+LAMPASAS
+SOLAR
+DEWITT
+SOLAR
+DEWITT
+SOLAR
+WICHITA
+SOLAR
+ECTOR
+SOLAR
+ELLIS
+SOLAR
+CLAY
+SOLAR
+WHARTON
+SOLAR
+SCURRY
+SOLAR
+NACOGDOCHE SOLAR
+PECOS
+SOLAR
+DICKENS
+SOLAR
+MAVERICK
+SOLAR
+NUECES
+SOLAR
+NAVARRO
+SOLAR
+JONES
+SOLAR
+MCLENNAN
+SOLAR
+NAVARRO
+SOLAR
+WALLER
+SOLAR
+COKE
+SOLAR
+FREESTONE SOLAR
+BORDEN
+SOLAR
+HUNT
+SOLAR
+LIMESTONE
+SOLAR
+PALO PINTO
+SOLAR
+SOMERVELL SOLAR
+KNOX
+SOLAR
+
+PANHANDLE
+SOUTH
+WEST
+NORTH
+NORTH
+COASTAL
+COASTAL
+WEST
+WEST
+NORTH
+NORTH
+SOUTH
+SOUTH
+WEST
+WEST
+NORTH
+WEST
+SOUTH
+WEST
+NORTH
+WEST
+PANHANDLE
+SOUTH
+COASTAL
+NORTH
+WEST
+NORTH
+NORTH
+HOUSTON
+WEST
+NORTH
+WEST
+NORTH
+NORTH
+NORTH
+NORTH
+WEST
+
+2028
+2027
+2026
+2027
+2028
+2027
+2027
+2028
+2027
+2028
+2028
+2028
+2028
+2027
+2028
+2027
+2028
+2027
+2028
+2027
+2028
+2028
+2028
+2028
+2027
+2027
+2027
+2027
+2029
+2027
+2028
+2028
+2028
+2029
+2027
+2027
+2028
+
+MILAM
+STORAGE
+PECOS
+STORAGE
+MCLENNAN
+STORAGE
+MCLENNAN
+STORAGE
+BRAZORIA
+STORAGE
+BRAZORIA
+STORAGE
+MAVERICK
+STORAGE
+STORAGE
+VAN ZANDT
+HENDERSON STORAGE
+WILSON
+STORAGE
+JONES
+STORAGE
+HOOD
+STORAGE
+ECTOR
+STORAGE
+BEE
+STORAGE
+HOWARD
+STORAGE
+ROBERTSON STORAGE
+ROBERTSON STORAGE
+BEXAR
+STORAGE
+BELL
+STORAGE
+MENARD
+STORAGE
+NUECES
+STORAGE
+REEVES
+STORAGE
+HILL
+STORAGE
+STARR
+STORAGE
+SAN PATRICIO STORAGE
+REEVES
+STORAGE
+HASKELL
+STORAGE
+ANDERSON
+STORAGE
+WHARTON
+STORAGE
+BORDEN
+STORAGE
+HARRIS
+STORAGE
+GLASSCOCK STORAGE
+GLASSCOCK STORAGE
+MATAGORDA STORAGE
+CHAMBERS
+STORAGE
+JONES
+STORAGE
+ELLIS
+STORAGE
+BRAZORIA
+STORAGE
+COMANCHE
+STORAGE
+SAN PATRICIO STORAGE
+JACKSON
+STORAGE
+COLLIN
+STORAGE
+MATAGORDA STORAGE
+GRIMES
+STORAGE
+DELTA
+STORAGE
+WHARTON
+STORAGE
+MATAGORDA STORAGE
+BRAZORIA
+STORAGE
+NAVARRO
+STORAGE
+CAMERON
+STORAGE
+FREESTONE STORAGE
+ZAPATA
+STORAGE
+BRAZORIA
+STORAGE
+NAVARRO
+STORAGE
+HAMILTON
+STORAGE
+HIDALGO
+STORAGE
+HILL
+STORAGE
+HARRIS
+STORAGE
+BEE
+STORAGE
+SWISHER
+STORAGE
+WILSON
+STORAGE
+FISHER
+STORAGE
+FISHER
+STORAGE
+FISHER
+STORAGE
+FISHER
+STORAGE
+SAN PATRICIO STORAGE
+MIDLAND
+STORAGE
+GOLIAD
+STORAGE
+
+SOUTH
+WEST
+NORTH
+NORTH
+COASTAL
+COASTAL
+SOUTH
+NORTH
+NORTH
+SOUTH
+WEST
+NORTH
+WEST
+SOUTH
+WEST
+NORTH
+NORTH
+SOUTH
+NORTH
+WEST
+COASTAL
+WEST
+NORTH
+SOUTH
+COASTAL
+WEST
+WEST
+NORTH
+SOUTH
+WEST
+HOUSTON
+WEST
+WEST
+COASTAL
+HOUSTON
+WEST
+NORTH
+COASTAL
+NORTH
+COASTAL
+SOUTH
+NORTH
+COASTAL
+NORTH
+NORTH
+SOUTH
+COASTAL
+COASTAL
+NORTH
+COASTAL
+NORTH
+SOUTH
+COASTAL
+NORTH
+NORTH
+SOUTH
+NORTH
+HOUSTON
+SOUTH
+PANHANDLE
+SOUTH
+WEST
+WEST
+WEST
+WEST
+COASTAL
+WEST
+SOUTH
+
+2028
+2027
+2028
+2028
+2028
+2028
+2028
+2027
+2028
+2028
+2027
+2026
+2026
+2028
+2029
+2026
+2027
+2027
+2028
+2027
+2028
+2028
+2028
+2028
+2028
+2027
+2028
+2027
+2028
+2029
+2026
+2028
+2028
+2027
+2028
+2027
+2028
+2027
+2028
+2028
+2027
+2027
+2026
+2028
+2027
+2027
+2028
+2028
+2027
+2029
+2027
+2028
+2028
+2028
+2030
+2027
+2028
+2027
+2027
+2028
+2029
+2027
+2027
+2027
+2027
+2029
+2028
+2028
+
+COUNTY
+
+21
+
+FUEL
+
+INSTALLED
+CAPACITY
+RATING
+(MW)
+200.0
+736.0
+
+201.2
+9.9
+203.6
+203.2
+241.1
+9.5
+-
+
+JAN 2027
+RATING
+(MW)
+200.0
+736.0
+
+201.1
+9.9
+203.6
+203.2
+241.1
+9.5
+-
+
+Probabilistic Reserve Risk Model (PRRM) Percentile Results
+Demand by Hour, MW (Accounts for rooftop solar, electric vehicles, and non-curtailed Large Load electricity consumption; excludes demand response programs)
+Percentiles
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+0%
+60,641
+59,898
+59,706
+60,383
+61,932
+64,538
+66,149
+66,850
+65,276
+64,587
+63,736
+10%
+66,472
+65,657
+65,448
+66,189
+67,887
+70,745
+72,510
+73,278
+71,553
+70,798
+69,865
+20%
+68,172
+67,337
+67,122
+67,882
+69,624
+72,554
+74,364
+75,153
+73,384
+72,608
+71,652
+30%
+69,455
+68,604
+68,385
+69,159
+70,933
+73,919
+75,763
+76,567
+74,764
+73,974
+73,000
+40%
+70,574
+69,709
+69,487
+70,274
+72,077
+75,110
+76,984
+77,800
+75,969
+75,166
+74,177
+77,107
+76,292
+75,287
+50%
+71,631
+70,753
+70,527
+71,326
+73,156
+76,235
+78,137
+78,966
+60%
+72,613
+71,722
+71,494
+72,304
+74,158
+77,280
+79,208
+80,047
+78,163
+77,337
+76,319
+70%
+73,749
+72,845
+72,612
+73,435
+75,319
+78,489
+80,447
+81,300
+79,386
+78,548
+77,513
+80%
+75,065
+74,145
+73,908
+74,745
+76,663
+79,889
+81,883
+82,751
+80,803
+79,949
+78,896
+90%
+76,839
+75,897
+75,655
+76,512
+78,475
+81,778
+83,818
+84,707
+82,713
+81,839
+80,761
+100%
+86,001
+84,947
+84,676
+85,635
+87,832
+91,529
+93,812
+94,807
+92,575
+91,597
+90,391
+
+12
+61,526
+67,442
+69,167
+70,469
+71,604
+72,676
+73,672
+74,825
+76,160
+77,960
+87,256
+
+13
+58,475
+64,098
+65,738
+66,974
+68,054
+69,073
+70,019
+71,115
+72,384
+74,095
+82,930
+
+14
+56,501
+61,934
+63,519
+64,714
+65,756
+66,741
+67,656
+68,714
+69,940
+71,593
+80,130
+
+15
+54,407
+59,638
+61,164
+62,315
+63,319
+64,267
+65,148
+66,167
+67,348
+68,939
+77,160
+
+16
+53,101
+58,207
+59,696
+60,819
+61,799
+62,725
+63,584
+64,579
+65,731
+67,285
+75,308
+
+17
+53,318
+58,445
+59,940
+61,068
+62,052
+62,981
+63,844
+64,843
+66,000
+67,560
+75,616
+
+18
+55,754
+61,116
+62,679
+63,858
+64,887
+65,859
+66,761
+67,806
+69,016
+70,647
+79,071
+
+19
+59,347
+65,054
+66,718
+67,974
+69,069
+70,103
+71,064
+72,176
+73,464
+75,200
+84,167
+
+20
+60,556
+66,379
+68,077
+69,357
+70,475
+71,530
+72,510
+73,645
+74,959
+76,731
+85,880
+
+21
+61,067
+66,939
+68,652
+69,943
+71,070
+72,135
+73,123
+74,267
+75,592
+77,379
+86,606
+
+22
+60,793
+66,639
+68,343
+69,629
+70,751
+71,811
+72,795
+73,934
+75,253
+77,032
+86,217
+
+23
+59,430
+65,145
+66,812
+68,069
+69,165
+70,201
+71,163
+72,277
+73,566
+75,305
+84,284
+
+24
+57,873
+63,439
+65,061
+66,285
+67,354
+68,362
+69,299
+70,383
+71,639
+73,332
+82,077
+
+Solar Generation by Hour, MW
+Percentiles
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+
+20
+
+21
+
+22
+
+23
+
+24
+
+Wind Generation by Hour, MW
+Percentiles
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+
+1
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+1
+
+2,116
+6,527
+9,119
+11,798
+14,498
+17,258
+19,925
+22,523
+25,473
+28,343
+34,087
+
+2
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+3
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+2
+2,129
+6,544
+9,177
+12,028
+14,575
+17,377
+19,997
+22,520
+25,417
+28,129
+33,940
+
+3
+2,127
+6,633
+9,291
+12,067
+14,665
+17,359
+19,957
+22,597
+25,266
+27,960
+33,786
+
+Weatherrelated
+Thermal
+Outages
+0
+55
+112
+168
+226
+289
+363
+497
+1,512
+3,146
+10,421
+
+Total
+3,691
+5,475
+6,239
+6,839
+7,414
+7,974
+8,600
+9,284
+11,005
+13,692
+26,486
+
+4
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+4
+2,103
+6,581
+9,213
+11,906
+14,404
+17,049
+19,632
+22,342
+24,909
+27,600
+33,489
+
+5
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+5
+2,065
+6,506
+9,138
+11,736
+14,336
+16,867
+19,488
+22,189
+24,721
+27,299
+33,069
+
+6
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+6
+2,094
+6,448
+9,108
+11,758
+14,182
+16,743
+19,285
+21,905
+24,495
+26,954
+32,731
+
+7
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+7
+2,017
+6,275
+8,815
+11,361
+13,767
+16,397
+18,983
+21,568
+24,233
+26,794
+32,691
+
+8
+
+0
+1
+2
+4
+7
+10
+15
+21
+30
+46
+117
+
+9
+
+63
+1,126
+1,844
+2,538
+3,274
+4,054
+4,985
+6,019
+7,434
+9,428
+13,370
+
+10
+
+11
+1,632
+4,490
+7,478
+10,451
+13,545
+16,828
+20,026
+23,625
+27,054
+30,592
+34,254
+
+12
+1,604
+5,153
+8,399
+11,503
+14,412
+17,517
+20,505
+23,619
+26,823
+30,087
+33,545
+
+13
+1,548
+5,983
+9,365
+12,504
+15,406
+18,247
+21,086
+23,775
+26,763
+29,820
+33,205
+
+14
+1,311
+6,577
+10,127
+13,106
+15,979
+18,650
+21,412
+23,906
+26,739
+29,719
+33,237
+
+15
+1,061
+6,946
+10,621
+13,476
+16,307
+18,957
+21,488
+24,004
+26,792
+29,814
+33,419
+
+16
+
+17
+
+18
+
+19
+
+8
+1,923
+6,021
+8,537
+10,881
+13,251
+15,681
+18,244
+20,765
+23,449
+26,171
+32,489
+
+9
+1,594
+5,206
+7,448
+9,555
+11,690
+13,869
+16,338
+18,807
+21,527
+24,702
+32,367
+
+10
+
+11
+1,392
+4,594
+6,784
+8,842
+11,123
+13,542
+16,101
+18,941
+21,992
+25,925
+33,525
+
+12
+
+13
+1,508
+4,354
+6,377
+8,411
+10,712
+13,241
+16,007
+18,909
+22,147
+25,990
+33,672
+
+14
+
+15
+
+16
+
+17
+
+18
+1,341
+4,441
+6,160
+7,977
+10,077
+12,393
+15,049
+17,976
+21,260
+25,317
+34,078
+
+19
+
+777
+6,053
+9,039
+11,515
+13,680
+15,784
+17,998
+20,270
+22,914
+26,438
+34,410
+
+499
+4,946
+6,869
+8,623
+10,266
+11,929
+13,785
+15,887
+18,478
+22,355
+34,540
+
+574
+5,036
+7,220
+9,043
+10,845
+12,663
+14,610
+16,958
+19,779
+23,757
+34,834
+
+Unplanned Thermal Outages-Daily, MW
+
+Percentiles
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+
+Unplanned
+Thermal
+Outages
+3,691
+5,420
+6,127
+6,671
+7,188
+7,685
+8,237
+8,787
+9,493
+10,546
+16,065
+
+22
+
+468
+4,786
+6,813
+8,554
+10,196
+11,993
+14,011
+16,305
+19,022
+23,070
+34,537
+
+443
+4,613
+6,593
+8,383
+9,961
+11,873
+13,808
+16,102
+18,909
+22,982
+34,490
+
+824
+6,675
+10,158
+12,933
+15,650
+18,152
+20,632
+23,083
+25,856
+28,933
+32,941
+
+375
+4,386
+6,299
+7,983
+9,585
+11,437
+13,381
+15,688
+18,621
+22,625
+34,760
+
+863
+6,570
+8,845
+10,755
+12,343
+13,902
+15,492
+17,240
+19,265
+21,955
+28,354
+
+401
+3,965
+5,890
+7,669
+9,448
+11,558
+13,785
+16,401
+19,434
+23,245
+34,774
+
+36
+530
+878
+1,227
+1,592
+1,983
+2,435
+2,982
+3,726
+4,953
+8,785
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+764
+5,459
+7,351
+9,136
+10,885
+12,722
+14,701
+17,025
+20,001
+24,228
+35,229
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+20
+1,737
+5,130
+7,243
+9,608
+12,160
+14,761
+17,649
+20,437
+23,916
+27,563
+34,604
+
+21
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+908
+6,646
+9,028
+10,987
+12,869
+14,768
+16,734
+18,970
+21,914
+25,520
+35,341
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+22
+1,977
+6,139
+8,573
+11,152
+13,844
+16,635
+19,490
+22,267
+25,407
+28,745
+34,514
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+23
+1,697
+4,439
+6,878
+9,435
+12,223
+15,048
+17,781
+20,519
+23,348
+26,460
+29,070
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+24
+1,762
+4,664
+7,104
+9,808
+12,551
+15,291
+18,082
+20,685
+23,450
+26,476
+28,933
+
+Background
+Capacity Available for Operating Reserves (CAFOR)
+CAFOR Formula:
+= Monthly Maximum Expected Resource Generation Capability
+– Demand
+– Thermal Outages
++ Pre-EEA Resources if CAFOR < 3,000 MW
++ EEA Resources if CAFOR < 2,500 MW
+Note that winter storm scenarios also account for incremental unplanned wind outages due to severe storm events. The synthetic wind profiles used in the Probabilistic Reserve Risk
+Model (PRRM) account for normal availability.
+The MORA uses CAFOR reserve thresholds of 2,500 and 1,500 MW to indicate, respectively, the risk that an Energy Emergency Alert and controlled outages may be triggered during the
+time of the forecasted monthly peak load day. These threshold levels are intended to be proxies to the 2,500 and 1,500 MW Physical Responsive Capability (PRC) thresholds. While PRC
+is a real-time capability measure for Resources that can quickly respond to system disturbance, ERCOT believes that the 2,500 and 1,500 MW CAFOR thresholds are appropriate
+indicators for the risk of Emergency Conditions given the uncertainties in predicting system conditions months in advance.
+Wind and Solar Capacity Values
+Hourly capacity contributions for specific wind and solar capacity values come from hourly synthetic generation profiles prepared for existing sites and planned sites expected to
+generate power by the beginning of the month. Every site has multiple profiles representing hourly generation for each historical weather year going back to 1980. The profiles are used
+to develop hourly probability distributions for the Probabilistic Reserve Risk Model.
+Probabilistic Modeling
+For MORA development, ERCOT uses an in-house-developed model called the Probabilistic Reserve Risk Model (PRRM). The model uses Monte Carlo simulation techniques to generate
+10,000 outcomes for Capacity Available for Operating Reserves (CAFOR). The model incorporates hourly risk variables, which are the load and resource-specific capacity amounts
+expressed as hourly or daily probability distributions based on historical data and forecast assumptions.
+The risk variables comprise the following:
+● Monthly Peak Load - The Peak load variable is negatively correlated with a system-average temperature probability distribution. (For the winter months, the lower the temperature
+selected by the model for a simulation, the higher the peak load selected.) The model also uses multiple normalized hourly load shapes to simulate loads for the hourly range; load
+shapes reflect actual hourly loads for historical monthly peak load days.
+● Wind Production - Hourly probability distributions are fitted to hourly synthetic production profiles. Profiles are developed for each operational and planned wind site with wind
+output values aggregated to system values. The profiles reflect weather-year variability back to 1980. Temporal correlations between hourly probability distributions are applied to
+simulate hourly wind speed persistence effects. Note that synthetic wind profiles do not reflect actual observed generation. They are based on meteorological and power conversion
+models that together simulate what wind production would be for existing and planned sites at the start of the month based on historical hourly weather patterns.
+● Solar Production - Hourly probability distributions are fitted to hourly synthetic production profiles lust like wind. Temporal correlations between hourly probability distributions are
+applied to simulate hourly solar irradiance persistence effects. Note that synthetic solar profiles do not reflect actual observed generation. They are based on meteorological and
+power conversion models that together simulate what solar production would be for the existing and planned sites at the start of the month based on historical hourly weather
+patterns.
+● Low Ambient Temperature Curve - A range of hourly average Texas-wide low temperatures (for the winter months). The low temperature probability distribution is correlated with
+both the peak load and cold-weather-related thermal outage probability distributions.
+● Typical Unplanned Thermal Outages based on Normal Weather - A range of daily unplanned outage amounts based on assessment month history for the past three years. For the
+winter months, outages during major winter storms are excluded from the probability distributions. The Expected Thermal Outages - Unplanned line item in 'Deterministic results
+based on normal system conditions for the hour with highest risk of reserve shortages' table in the Monthly Outlook tab are based on the P50 output from the PRRM run for the
+reporting month.
+● Extreme-Weather-Related Thermal Outages - For the winter months, the probability distribution reflects a range of daily unplanned weather-related outage amounts scaled from
+zero MW to the maximum amount observed during Winter Storm Uri. The probability distribution is correlated with the Low Ambient Temperature curve. An outage reduction
+amount, reflecting availability of generating units that participate in the Firm Fuel Supply Service (FFSS) program, is also modeled. The FFSS outage reduction amounts vary based on
+the total capacity procured for the given winter season and the negative correlation between low temperature and weather-related outages.
+● Switchable Generation Resources Currently Serving Neighboring Grids - The model includes individual probability distributions for each SWGR currently serving customers in the
+Southwest Power Pool that are able to switch to ERCOT if allowed based on prevailing power supply contracts. Such SWGRs are designated as the "Controlling Party" in the most
+current ERCOT-SPP Coordination Plan. (The Plan is consistent with the "Notices of Unavailable Capacity for Switchable Generation Resources" provided to ERCOT.) The probability
+distributions are binary—each unit is made available or not, with the probability of being available based on analysis of Current Operating Plan (COP) data covering Winter Storm
+Elliott and the EEA event on November 6, 2023. This variable is treated as an available Pre-EEA resource in the model, and assumes that this SWGR capacity may be available if
+requested by ERCOT to address an Energy Emergency.
+● Remaining Non-Synchronous Tie Transfers - The model uses the DC Tie capacity contribution amounts cited in recent Capacity, Demand and Reserves (CDR) reports as the base
+amounts. A probability distribution represents the remaining transfer capability that may be available during an ERCOT Energy Emergency. This variable is treated is an available PreEEA resource in the model.
+● Weather-related Outage Reduction Success Rate due to Weatherization - The model uses a piecewise function that varies the success rate (percentage reduction in weather-related
+thermal outages) based on values sampled from a low winter temperature probability distribution. For selected ("sampled") temperatures greater than five degrees °F above the
+weatherization standard's compliance temperature threshold, the success rate is fixed at 85%. This temperature threshold is the average compliance wind chill temperatures for the
+North Central, East, Coast, and South Central Weatherization Zones. For sampled low temperatures between the 5th percentile historical value and 1st percentile historical value, the
+success rate is pulled from a probability distribution representing declining weatherization success rates across this low temperature range. (This distribution is correlated with the
+low temperature probability distribution.) For low temperatures at or below the historical 1st percentile value, the success rate is 0%. A 0% success rate does not imply that
+generation equipment is expected to fail, but rather that incremental weatherization improvements are considered to be uneffective at such low temperatures.
+
+ERCOT PUBLIC
+
+23
+
+Battery Energy Storage System (BESS) Output Sub-model ***NEW***
+The BESS sub-model uses the PRRM’s hourly probabilistic net load forecast to determine the hours to charge, discharge, or idle the battery storage fleet for the forecasted peak-load day
+of the MORA forecast month. Since the PRRM is a Monte Carlo simulation model, 10,000 hourly net load forecasts are produced resulting in 10,000 beginning-hour energy State of
+Charge (SoC in MW) forecasts that are fed back to the PRRM.
+The sub-model uses net load “look-ahead” functionality to build the daily BESS charge/discharge schedule. This entails (1) ranking all the forecasted net load hours during a given
+scheduling period from highest to lowest, and (2) determining the highest net load hour for a scheduling period. The daily scheduling period for non-winter months is all 24 hours, while
+the winter months have two daily scheduling periods, hours 1-10 and 11-24, reflecting bimodal morning and evening high net load periods, respectively.
+The sub-model then determines the fleet’s operational state for each hour. The four operational states are charge, discharge, top-off, and idle. (The top-off state reflects an extra
+charging window just before the peak load for hours that aren’t already charging. It’s purpose is to ensure that the fleet is charging leading into the peak net load hour for the applicable
+schedule period.) Once the operational state is determined, the sub-model then applies charge and discharge constraints to calculate the amount of hourly energy drawn from, or
+injected into, the ERCOT grid. Beginning and ending-hour SoC is tracked to ensure that the fleet’s overall hourly energy capacity remains within the bounds set by minimum and
+maximum availability limits. The calculation logic ensures optimal charging occurs before the net peak load hour for each scheduling period, subject to the constraints and SoC levels
+leading up to that hour.
+There are 16 input parameters reflecting aggregate design and operational characteristics of the BESS fleet. Most are derived using Resource Integration and Ongoing Operations (RIOO)
+system data or analysis of historical SoC characteristics. A few are based on industry standard practices. For example, there are two parameters for charge tapering—slowing down
+charging when high SoCs are reached to lower thermal and voltage stresses.
+Other Dynamically Determined Resource Variables
+The model also includes several resource variables that are not associated with probability distributions, but are dynamic in that their capacity values are dependent on other variable
+values (including probabilistic ones) calculated by the model. These include the following:
+● Price-Responsive Demand Reduction (Winter Months) - ERCOT's Demand Forecasting & Analysis department conducted an analysis of price responsive demand reduction that
+occurred during the mid-January 2024 winter storm event (WS Heather). The reduction, mainly coming from industrial/commercial sector customers and Bitcoin miners (LFLs), was
+driven by high market prices. The estimated reduction was approximately 7,000 MW during the January 16th peak load hour (Hour Ending 8:00 a.m.) The impact during a similar
+storm event in February 2026 is estimated at 5,000 MW for the peak load hour. The LFL contribution to this total is based on the methodology described in the "Estimating Peak
+Electricity Consumption for Operational and Planned Large Flexible Loads" section below. The model triggers this demand reduction if a severe winter storm (at least as severe as
+Winter Storm Elliott) or extremely high net loads occurs for a given simulation outcome. The price responsive demand impact varies for each hour based on the pattern seen during
+WS Heather.
+● Incremental Price Responsive Demand Reduction (Summer Months) - The summer monthly load forecasts account for historically typical price-responsive demand reduction, largely
+driven by customers participating in Transmission and Distribution Provider (TDSP) "Four-Coincident Peak" programs. To account for incremental price responsive demand reduction
+that may occur during a summer month with high load and/or wholesale electricity prices, ERCOT developed incremental PRD load reductions based on data gathered from the 2024
+PRD survey and other meter data. The 2024 PRD report (https://www.ercot.com/mp/data-products/data-product-details?id=NP3-110) provides data for summer month peak load
+and net peak load hours, which was used to shape PRD reduction amounts for each of the 24 simulation hours. This load reduction amount is assumed to become available when
+CAFOR drops below the 2,500 MW threshold. The incremental PRD-based load reductions are triggered when an hourly net load exceeds a high threshold indicative of reserve
+capacity scarcity conditions.
+● Private Use Network (PUN) Generator Injection - PUN generator injection comes from hourly average historical MW output levels for the peak load day of the same month a year
+ago. (For example, the values for April 2026 come from output values for the peak load day for April 2025.) The hourly output levels are converted into capacity factors that are
+multiplied by the expected PUN installed capacity at the start of each month to derive the hourly PUN injection amounts. A similar set of capacity factors is also calculated for the
+historical day with the lowest Physical Responsive Reserve (PRC) amount. Use of the alternate PUN capacity factors are triggered when there are high thermal outages combined with
+high net loads for a given hour. For the winter months, the model will also add an incremental amount of PUN generator capacity when the model selects an extremely low
+temperature, indicative of system stress conditions and opportunities for the PUN owners to take advantage of high market prices.
+● Planned Thermal Outage Adjustments due to ERCOT Advance Action Notices (Spring and Fall Months) - A sufficient inventory of "post-mortem" reports for Advance Action Notices
+have been accumulated since AANs were enacted to provide reasonable estimates of reduced planned outages due to (1) voluntary postponement by generation operators due to
+AAN issuance, and (2) required postponements due to issuance of ERCOT Outage Adjustment Schedules. Voluntary planned outage postponements are triggered by high hourly net
+loads indicative of a potential Energy Condition.
+Large Flexible Load Consumption Forecast
+The LFL Forecast is derived using a linear model driven by seasonal variables and observed LFL behavior. The LFL pattern indicates a reduction to 50% over the coincident peak hours for
+the months of June, July, August, and September and to 15% over the net-load peak hours for these months.
+Modeling of Coastal Wind Generation Curtailment due to New Generic Transmission Constraints
+A new contributor to reserve shortage risk is the potential need, under certain grid conditions, to limit power transfers from South Texas into the San Antonio region. Conditions could
+cause overloads on the lines that make up the South Texas export and import interfaces, necessitating South Texas generation curtailments and potential firm load shedding to avoid
+cascading outages. The risk is greatest when the ERCOT Region has extremely high net loads in the early evening hours. This issue will be addressed with mitigation measures including
+the construction of the San Antonio South Reliability Project, which is anticipated to be completed by Summer 2027.
+To model this generation curtailment risk, ERCOT evaluated the net load and coastal wind curtailment conditions at the time of the November 6th, 2023, Energy Emergency Alert event.
+To simulate the risk of a similar event, the PRRM was modified in the following ways:
+1. Synthetic wind profiles by site were divided into Coastal and Non-coastal aggregation categories, and hourly probability distributions were developed accounting for timecoincident correlations between Non-coastal and Coastal hourly wind generation.
+2. With the South Texas wind curtailment functionality turned on, the model will curtail coastal wind generation when (1) total system net load for a given hour reaches a trigger
+amount, expressed as a percentage of the gross load, and (2) unplanned thermal outages for the hour exceed a trigger amount. Analysis of net load and unplanned thermal outages at
+the time of the September 6, 2023, EEA event was used to determine the two trigger criteria.
+
+ERCOT PUBLIC
+
+24
+
+

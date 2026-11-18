@@ -1,0 +1,129 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+§25.504. Wholesale Market Power in the Electric Reliability Council of Texas Power Region.
+(a)
+
+Application. This section applies to all generation entities in the Electric Reliability Council of Texas
+(ERCOT). This section defines the term “market power,” as that term is used in §25.503 of this title (relating
+to Oversight of Wholesale Market Participants).
+
+(b)
+
+Definitions. The following terms, when used in this section, shall have the following meanings, unless the
+context or specific language of a section indicates otherwise:
+(1)
+Generation entity -- An entity that controls a generation resource. An entity affiliated with a
+generation entity shall be considered part of that generation entity.
+(2)
+Market power -- The ability to control prices or exclude competition in a relevant market.
+(3)
+Market power abuse -- Practices by persons possessing market power that are unreasonably
+discriminatory or tend to unreasonably restrict, impair, or reduce the level of competition, including
+practices that tie unregulated products or services to regulated products or services or unreasonably
+discriminate in the provision of regulated services. Market power abuses include predatory pricing,
+withholding of production, precluding entry, and collusion.
+
+(c)
+
+Withholding of production. Prices offered by a generation entity with market power may be a factor in
+determining whether the entity has withheld production. A generation entity with market power that prices
+its services substantially above its marginal cost may be found to be withholding production; offering prices
+that are not substantially above marginal cost does not constitute withholding of production.
+
+(d)
+
+Voluntary mitigation plan. Any generation entity may submit to the commission a voluntary mitigation
+plan relating to compliance with §25.503(g)(7) of this title or with the Public Utility Regulatory Act (PURA)
+§39.157(a). Adherence to a commission-approved voluntary mitigation plan must be considered in a
+proceeding to determine whether the generation entity violated PURA §39.157 or §25.503(g)(7) of this title
+and, if so, the amount of the administrative penalty to be assessed for the violation.
+(1)
+The commission will approve the voluntary mitigation plan only if it finds that the plan is in the
+public interest.
+(2)
+A generation entity or commission staff may apply to amend a voluntary mitigation plan that applies
+to the generation entity.
+(3)
+The parties to a proceeding related to the approval or amendment of a voluntary mitigation plan are
+limited to the generation entity applying for the mitigation plan, commission staff, and the
+independent market monitor.
+(4)
+Termination of voluntary mitigation plan.
+(A)
+The commission, on its own motion, may terminate, in whole or in part, a voluntary
+mitigation plan approved under this subsection. The executive director or the executive
+director’s designee may also terminate a voluntary mitigation plan, in whole or in part,
+under the following conditions:
+(i)
+The executive director or the executive director’s designee must determine that
+continuation of the plan is no longer in the public interest.
+(ii)
+The executive director or the executive director’s designee must provide notice of
+the termination to the applicable generation entity and file a notice of termination
+in the same control number in which the plan was approved at least three working
+days prior to the effective date of the termination. The executive director or the
+executive director’s designee may withdraw the notice of termination at any point
+prior to the effective date of the termination.
+(iii)
+The commission must affirm or set aside the executive director or the executive
+director’s designee’s termination of a voluntary mitigation plan as soon as
+practicable after the effective date of the termination.
+(B)
+A generation entity with a commission-approved voluntary mitigation plan may terminate
+the plan. The generation entity must provide the executive director or executive director’s
+designee notice of the termination and file a notice of termination in the same control
+number in which the plan was approved at least three working days prior to the effective
+§25.75-1
+
+effective 11/26/25
+(P-58379)
+
+date of the termination. The generation entity may withdraw its notice of termination at
+any point prior to the effective date of the termination.
+(e)
+
+Review of voluntary mitigation plans.
+(1)
+The commission will review each effective voluntary mitigation plan adopted under subsection (d)
+of this section to determine whether the plan remains in the public interest at least once every two
+years and not later than 90 days after the implementation date of a wholesale market design change.
+Commission staff, in consultation with the independent market monitor, will determine when a
+wholesale market design change requiring the review of voluntary mitigation plans has occurred.
+(A)
+In determining whether a change in a commission or ERCOT regulation constitutes a
+wholesale market design change for purposes of this subsection, commission staff and the
+independent market monitor must consider whether the change could materially increase
+the ability of a generation entity with an existing voluntary mitigation plan to exercise
+market power.
+(B)
+If, at the time a proposed change in a commission or ERCOT regulation is being considered
+for approval by the commission, commission staff has determined that the proposed change
+would, if implemented, constitute a wholesale market design change, commission staff
+may include its determination in a filing addressing the proposed change (e.g., as part of a
+staff memo recommending commission approval of a change in the ERCOT protocols).
+(C)
+Commission staff must provide notice, using a reasonable method of notice, to a generation
+entity with an existing voluntary mitigation plan when its voluntary mitigation plan is under
+review. This notice must be provided no later than the date commission staff files its
+recommendation under paragraph (2) of this subsection.
+(D)
+Nothing in this paragraph prevents the commission, on its own motion, from determining
+that a change in a commission or ERCOT regulation constitutes a wholesale market design
+change for purposes of this subsection and directing commission staff, in consultation with
+the independent market monitor, to provide a recommendation on whether each existing
+voluntary mitigation plan remains in the public interest.
+(2)
+At least 40 days prior to a deadline established by paragraph (1) of this subsection, commission staff
+must file a recommendation and draft order addressing whether each voluntary mitigation plan
+remains in the public interest. Commission staff’s recommendation must include the date of the
+deadline established by paragraph (1) of this subsection and, if applicable, the details and
+implementation date of the applicable wholesale market design change. As part of its
+recommendation, for each voluntary mitigation plan adopted prior to September 1, 2023,
+commission staff must also address whether the plan complies with PURA §15.023(f) and this
+section.
+(3)
+If the commission determines that all or a part of the plan is no longer in the public interest, the
+commission will terminate any part of the plan that it determines is no longer in the public interest.
+The generation entity may propose an amended plan for the commission’s consideration.
+
+

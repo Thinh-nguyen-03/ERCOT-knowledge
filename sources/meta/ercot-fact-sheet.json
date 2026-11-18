@@ -1,0 +1,12 @@
+{
+ "id": "ercot-fact-sheet",
+ "title": "ERCOT Fact Sheet",
+ "publisher": "ERCOT",
+ "tier": 2,
+ "edition": null,
+ "url": "https://www.ercot.com/files/docs/2022/02/08/ERCOT_Fact_Sheet.pdf",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 200309,
+ "raw_sha256": "c60ed69ba60775d2ab79f108ea89be8bcb982a61f2ed4a6ff301caf8944b2366",
+ "text_chars": 4904
+}

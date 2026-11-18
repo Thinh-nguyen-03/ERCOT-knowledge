@@ -1,0 +1,247 @@
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter O.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+UNBUNDLING AND MARKET POWER.
+
+DIVISION 2. INDEPENDENT ORGANIZATIONS.
+§25.361. Electric Reliability Council of Texas (ERCOT).
+(a)
+
+Applicability. This section applies to the Electric Reliability Council of Texas (ERCOT). It also
+applies to transmission service providers (TSPs) and transmission service customers, as defined in
+§25.5 of this title (relating to Definitions), with respect to interactions with ERCOT. For the purpose
+of this section and §25.362 of this title (relating to Electric Reliability Council of Texas (ERCOT)
+Governance), an ERCOT rule is a market protocol, operating guide, market guide, or other procedure
+that constitutes a statement of general policy and that has an impact on the governance of the
+organization or on reliability, settlement, customer registration, or access to the transmission system
+in the ERCOT region.
+
+(b)
+
+Functions. ERCOT shall perform the functions of an independent organization under the Public
+Utility Regulatory Act (PURA) §39.151 to ensure access to the transmission and distribution systems
+for all buyers and sellers of electricity on nondiscriminatory terms; ensure the reliability and adequacy
+of the regional electrical network; ensure that information relating to a customer's choice of retail
+electric provider is conveyed in a timely manner to the persons who need that information; and ensure
+that electricity production and delivery are accurately accounted for among the generators and
+wholesale buyers and sellers in the region. ERCOT shall:
+(1)
+administer, on a daily basis, the operational and market functions of the ERCOT system,
+including procuring and deploying ancillary services, scheduling resources and loads, and
+managing transmission congestion, as set forth in this chapter, commission orders, and
+ERCOT rules;
+(2)
+administer settlement and billing for services provided by ERCOT, including assessing
+creditworthiness of market participants and establishing and enforcing reasonable security
+requirements in relation to their responsibilities under ERCOT rules;
+(3)
+serve as the single point of contact for the initiation of transmission services;
+(4)
+maintain the reliability and security of the ERCOT region's electrical network, including the
+instantaneous balancing of ERCOT generation and load and monitoring the adequacy of
+resources to meet demand;
+(5)
+provide for non-discriminatory access to the transmission system, consistent with this
+chapter, commission orders, and ERCOT rules;
+(6)
+accept and supervise the processing of all requests for interconnection to the ERCOT
+transmission system from owners of new generating facilities;
+(7)
+coordinate and schedule planned transmission facility outages;
+(8)
+perform system screening security studies, with the assistance of affected TSPs;
+(9)
+plan the ERCOT transmission system, in accordance with this section;
+(10)
+establish and administer procedures for the registration of market participants;
+(11)
+manage and operate the customer registration system;
+(12)
+administer the renewable energy program, unless the commission designates a different
+person to administer the program;
+(13)
+monitor generation planned outages;
+(14)
+disseminate information relating to market operations, market prices, and the availability of
+services, in accordance with this chapter, commission orders, and the ERCOT rules;
+(15)
+operate an electronic transmission information network; and
+(16)
+perform any additional duties required under this chapter, commission orders, and ERCOT
+rules.
+
+(c)
+
+Liability. ERCOT shall not be liable in damages for any act or event that is beyond its control and
+which could not be reasonably anticipated and prevented through the use of reasonable measures,
+including, but not limited to, an act of God, act of the public enemy, war, insurrection, riot, fire,
+
+§25.361--1
+
+effective date 6/20/12
+(P 40150)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter O.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+UNBUNDLING AND MARKET POWER.
+
+DIVISION 2. INDEPENDENT ORGANIZATIONS.
+explosion, labor disturbance or strike, wildlife, unavoidable accident, equipment or material shortage,
+breakdown or accident to machinery or equipment, or good faith compliance with a then valid
+curtailment, order, regulation or restriction imposed by governmental, military, or lawfully established
+civilian authorities.
+(d)
+
+Planning. ERCOT shall conduct transmission system planning and exercise comprehensive authority
+over the planning of bulk transmission projects that affect the transfer capability of the ERCOT
+transmission system. ERCOT shall supervise and coordinate the other planning activities of TSPs.
+(1)
+ERCOT shall evaluate and make a recommendation to the commission as to the need for any
+transmission facility over which it has comprehensive transmission planning authority.
+(2)
+A TSP shall coordinate its transmission planning efforts with those of other TSPs, insofar as
+its transmission plans affect other TSPs.
+(3)
+ERCOT shall submit to the commission any revisions or additions to the planning guidelines
+and procedures prior to adoption. ERCOT may seek input from the commission as to the
+content and implementation of its guidelines and procedures as it deems necessary.
+
+(e)
+
+Information and coordination. Transmission service providers and transmission service customers
+shall provide such information as may be required by ERCOT to carry out the functions prescribed by
+this chapter, commission orders, and ERCOT rules. ERCOT shall maintain the confidentiality of
+competitively sensitive information and other protected information, as specified in §25.362 of this
+title. Providers of transmission and ancillary services shall maintain the confidentiality of
+competitively sensitive information entrusted to them by ERCOT or a transmission service customer.
+
+(f)
+
+Interconnection standards. ERCOT may prescribe reliability and security standards for the
+interconnection of generating facilities that use the ERCOT transmission network. Such standards
+shall not adversely affect or impede manufacturing or other internal process operations associated
+with such generating facilities, except to the minimum extent necessary to assure reliability of the
+ERCOT transmission network.
+
+(g)
+
+ERCOT administrative fee. ERCOT shall charge an administrative fee, and the fees it charges are
+subject to commission approval, in accordance with this chapter.
+
+(h)
+
+Reports. Each TSP and transmission service customer in the ERCOT region shall on an annual basis
+provide to ERCOT historical information concerning peak loads and resources connected to the TSP's
+system.
+
+(i)
+
+Anti-trust laws. The existence of ERCOT is not intended to affect the application of any state or
+federal anti-trust laws.
+
+(j)
+
+Decertification. ERCOT shall be subject to decertification as an independent organization in
+accordance with §25.364 of this title (relating to Decertification of an Independent Organization).
+
+(k)
+
+Pilot Projects.
+(1)
+ERCOT may conduct pilot projects to provide a temporary platform to evaluate resources,
+technologies, services, and processes that demonstrate the potential to advance the
+operational and market functions of the ERCOT system. The pilot projects will allow
+ERCOT to validate performance claims of alternative technologies, evaluate the extent to
+which new technologies or processes can provide services that comply with federal and state
+reliability standards, and review how resources perform in various operational and market
+scenarios. As part of a pilot project, ERCOT may grant temporary exceptions from ERCOT
+
+§25.361--2
+
+effective date 6/20/12
+(P 40150)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter O.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+UNBUNDLING AND MARKET POWER.
+
+DIVISION 2. INDEPENDENT ORGANIZATIONS.
+
+(2)
+
+(3)
+
+(4)
+
+rules, as necessary to effectuate the purposes of the pilot project. ERCOT may use
+information gained from pilot projects to inform the development of permanent changes to
+ERCOT rules.
+Process for Development and Approval of Pilot Projects. ERCOT may conduct a pilot
+project upon approval of the scope and purposes of the pilot project by the governing board
+of ERCOT. Proposals for approval of pilot projects shall be made to the governing board
+only by ERCOT staff, after consultation with affected market participants and commission
+staff designated by the executive director. The ERCOT governing board shall ensure that
+there is an opportunity for adequate stakeholder review and comment on any proposed pilot
+project. Pilot project proposals approved by the ERCOT governing board shall include:
+(A)
+The scope and purposes of the pilot project;
+(B)
+Designation of temporary exceptions from ERCOT rules that ERCOT expects to
+authorize as part of the pilot project;
+(C)
+Criteria and reporting mechanisms to determine whether and when ERCOT should
+propose changes to ERCOT rules based upon results of a pilot project;
+(D)
+An estimate of costs ERCOT will incur attributable to the pilot project; and
+(E)
+An estimated date of completion for the pilot project.
+Participation in a pilot project shall not be required as a condition to the deployment of any
+resource, technology, or process that complies with existing ERCOT rules. The existence of
+a pilot project does not prohibit any market participant from proposing changes to ERCOT
+rules that are not dependent on the outcome of the pilot project.
+A decision of the ERCOT governing board approving a pilot project pursuant to this
+subsection constitutes “ERCOT conduct” for purposes of appeal to the commission pursuant
+to §22.251 of this title (relating to Review of Electric Reliability Council of Texas (ERCOT)
+Conduct).
+
+§25.361--3
+
+effective date 6/20/12
+(P 40150)
+
+

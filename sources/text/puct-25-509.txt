@@ -1,0 +1,200 @@
+CHAPTER 25.
+
+SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+
+Subchapter S. WHOLESALE MARKETS.
+§25.509. Scarcity Pricing Mechanism for the Electric Reliability Council of Texas Power Region.
+(a)
+
+Definitions. The following terms, when used in this section, have the following meanings, unless the
+context indicates otherwise:
+(1)
+Emergency operations -- ERCOT entering into any level of Energy Emergency Alert.
+(2)
+Generation entity -- an entity that owns or controls a generation resource.
+(3)
+Generation resource -- a generator capable of providing energy or ancillary services to the
+ERCOT grid and that is registered with ERCOT as a generation resource.
+(4)
+Load entity -- an entity that owns or controls a load resource.
+(5)
+Load resource -- a load capable of providing ancillary service to the ERCOT system or energy
+in the form of demand response and is registered with ERCOT as a load resource.
+(6)
+Resource entity -- an entity that is a generation entity or a load entity.
+
+(b)
+
+Scarcity Pricing Mechanism (SPM). ERCOT will administer the SPM. The SPM will operate as
+follows:
+(1)
+The SPM will operate on a calendar year basis.
+(2)
+For each day, the peaking operating cost (POC) will be 10 times the natural gas price index
+value determined by ERCOT. The POC is calculated in dollars per megawatt-hour (MWh).
+(3)
+For the purpose of this section, the real-time energy price (RTEP) will be measured as an
+average system-wide price as determined by ERCOT.
+(4)
+Beginning January 1 of each calendar year, the peaker net margin will be calculated as:
+∑((RTEP – POC) * (number of minutes in a settlement interval / 60 minutes per hour)) for
+each settlement interval when RTEP – POC >0.
+(5)
+Each day, ERCOT will post at a publicly accessible location on its website the updated value
+of the peaker net margin, in dollars per megawatt (MW).
+(6)
+System-Wide Offer Caps.
+(A)
+The low system-wide offer cap (LCAP) will be set at $2,000 per MWh for energy
+offers and $2,000 per MW per hour for ancillary service offers.
+(B)
+The high system-wide offer cap (HCAP) will be $5,000 per MWh for energy offers
+and $5,000 per MW per hour for ancillary service offers.
+(C)
+The system-wide offer cap will be set equal to the HCAP at the beginning of each
+calendar year and maintained at this level until the peaker net margin during a
+calendar year exceeds a threshold of three times the cost of new entry of new
+generation plants.
+(D)
+If the peaker net margin exceeds the threshold established in subparagraph (C) of this
+paragraph during a calendar year, the system-wide offer cap will be set to the LCAP
+for the remainder of that calendar year. In this event, ERCOT will continue to apply
+the operating reserve demand curve and the reliability deployment price adder for the
+remainder of that calendar year. Energy prices, exclusive of congestion prices, will
+not exceed the LCAP plus $1 for the remainder of that calendar year.
+(7)
+Reimbursement for Operating Losses when the LCAP is in Effect. When the system-wide
+offer cap is set to the LCAP, ERCOT must reimburse resource entities for any actual marginal
+costs in excess of the larger of the LCAP or the real-time energy price for the resource.
+ERCOT must utilize existing settlement processes to the extent possible to verify the resource
+entity’s costs for reimbursement.
+
+(c)
+
+Emergency Pricing Program (EPP). ERCOT will administer the EPP. The EPP will operate as
+follows.
+(1)
+Activation of the EPP. The EPP must be activated if the system-wide energy price, as
+determined by ERCOT, has been at the HCAP for 12 hours within a rolling 24-hour period.
+
+§25.509--1
+
+effective 12/20/23
+(P 54585)
+
+CHAPTER 25.
+
+SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+
+Subchapter S. WHOLESALE MARKETS.
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(d)
+
+Emergency Offer Cap (ECAP). While the EPP is active, the system-wide offer cap will be
+set to the ECAP for both energy and ancillary service offers. The ECAP will be set equal to
+the value of the LCAP.
+Duration of the EPP. The EPP will remain in effect until the later of:
+(A)
+24 hours after the activation of the EPP; or
+(B)
+if ERCOT has entered into or remained in emergency operations while the EPP is
+activated, 24 hours after ERCOT exits emergency operations without re-entering
+emergency operations.
+Market Notice. ERCOT will issue a notice both when the EPP is activated and when the EPP
+is terminated. The notice must include the date and time of the activation or termination of the
+EPP.
+Reimbursement for Costs That Exceed the ECAP.
+(A)
+While the EPP is active, ERCOT must reimburse resource entities for any actual
+marginal costs in excess of the larger of the ECAP or the real-time energy price for
+the resource. ERCOT must utilize existing settlement processes to the extent
+practicable to verify the resource entity’s costs for reimbursement.
+(B)
+For reimbursement of actual marginal costs in excess of the HCAP, a resource entity
+must submit a reimbursement request in the manner prescribed by ERCOT. If a
+resource entity fails to provide information to ERCOT in its reimbursement request,
+as required by this subparagraph, ERCOT must not approve the reimbursement of the
+resource entity’s fuel costs. This reimbursement request must include:
+(i)
+for a resource entity requesting recovery of fuel costs, an attestation that the
+costs submitted for recovery are solely related to the provision of fuel or
+services directly related to the provision of the purchased fuel; and
+(ii)
+any additional documents or information requested by ERCOT, including
+fuel purchase contracts.
+(C)
+ERCOT must allocate costs associated with this paragraph on a load ratio share basis.
+Report.
+(A)
+Within 10 working days from the date the EPP is terminated, ERCOT must file an
+initial report with the commission that contains the following information:
+(i)
+a summary of the event that triggered the EPP; and
+(ii)
+an analysis of the EPP’s performance while the program was active.
+(B)
+Within 90 calendar days from the date the EPP is terminated, ERCOT must file a final
+report with the commission that contains the following information:
+(i)
+a final summary of the event that triggered the EPP;
+(ii)
+a final analysis of the EPP’s performance while the program was active;
+(iii)
+the number of generators that filed for cost recovery under paragraph (5) of
+this subsection;
+(iv)
+the total dollar amount of costs submitted and costs recovered under
+paragraph (5) of this subsection, including the fuel type, MW per hour, and
+number of units associated with recovered costs; and
+(v)
+any recommendations to modify or improve the EPP.
+Immediate Implementation.
+ERCOT must implement the EPP immediately.
+Notwithstanding any conflicting language in this subsection, ERCOT may utilize a manual
+process to activate the EPP and may consider the real-time energy price, exclusive of any
+congestion, to determine the system-wide energy price, until any system and protocol changes
+are complete. ERCOT must issue a market notice when it transitions from a manual to an
+automated EPP activation process.
+
+Review of System-Wide Offer Cap Programs. Beginning January 1, 2026, and every five years
+thereafter, the commission will review each of the system-wide offer cap programs to determine
+whether to update aspects of each program.
+
+§25.509--2
+
+effective 12/20/23
+(P 54585)
+
+CHAPTER 25.
+
+SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+
+Subchapter S. WHOLESALE MARKETS.
+
+(e)
+
+Development and Implementation. ERCOT must use a stakeholder process, in consultation with
+commission staff, to develop and implement rules that comply with this section. Nothing in this section
+prevents the commission from taking actions necessary to protect the public interest, including actions
+that are otherwise inconsistent with the other provisions in this section.
+
+§25.509--3
+
+effective 12/20/23
+(P 54585)
+
+

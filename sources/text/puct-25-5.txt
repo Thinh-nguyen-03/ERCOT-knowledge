@@ -1,0 +1,1073 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter A. GENERAL PROVISIONS
+§25.5. Definitions.
+In this chapter, the following definitions apply unless the context indicates otherwise:
+(1)
+Above-market purchased power costs -- Wholesale demand and energy costs that a utility is obligated to
+pay under an existing purchased power contract to the extent the costs are greater than the purchased power
+market value.
+(2)
+
+Affected person -- means:
+(A)
+a public utility or electric cooperative affected by an action of a regulatory authority;
+(B)
+a person whose utility service or rates are affected by a proceeding before a regulatory authority; or
+(C)
+a person who:
+(i)
+is a competitor of a public utility with respect to a service performed by the utility; or
+(ii)
+wants to enter into competition with a public utility.
+
+(3)
+
+Affiliate -- means:
+(A)
+a person who directly or indirectly owns or holds at least 5.0% of the voting securities of a public
+utility;
+(B)
+a person in a chain of successive ownership of at least 5.0% of the voting securities of a public
+utility;
+(C)
+a corporation that has at least 5.0% of its voting securities owned or controlled, directly or indirectly,
+by a public utility;
+(D)
+a corporation that has at least 5.0% of its voting securities owned or controlled, directly or indirectly,
+by:
+(i)
+a person who directly or indirectly owns or controls at least 5.0% of the voting securities
+of a public utility; or
+(ii)
+a person in a chain of successive ownership of at least 5.0% of the voting securities of a
+public utility;
+(E)
+(F)
+
+a person who is an officer or director of a public utility or of a corporation in a chain of successive
+ownership of at least 5.0% of the voting securities of a public utility; or
+a person determined to be an affiliate under Public Utility Regulatory Act (PURA) §11.006.
+
+(4)
+
+Affiliated electric utility -- The electric utility from which an affiliated retail electric provider was unbundled
+in accordance with PURA §39.051.
+
+(5)
+
+Affiliated power generation company (APGC) -- A power generation company that is affiliated with or
+the successor in interest of an electric utility certificated to serve an area.
+
+(6)
+
+Affiliated retail electric provider (AREP) -- A retail electric provider that is affiliated with or the successor
+in interest of an electric utility certificated to serve an area.
+
+(7)
+
+Aggregation -- Includes the following:
+(A)
+the purchase of electricity from a retail electric provider, a municipally owned utility, or an electric
+cooperative by an electricity customer for its own use in multiple locations, provided that an
+electricity customer may not avoid any non-bypassable charges or fees as a result of aggregating its
+load; or
+(B)
+the purchase of electricity by an electricity customer as part of a voluntary association of electricity
+customers, provided that an electricity customer may not avoid any non-bypassable charges or fees
+as a result of aggregating its load.
+
+(8)
+
+Aggregator -- A person joining two or more customers, other than municipalities and political subdivision
+corporations, into a single purchasing unit to negotiate the purchase of electricity from retail electric providers.
+Aggregators may not sell or take title to electricity. Retail electric providers are not aggregators.
+
+§25.5--1
+
+effective 01/01/2026
+(P 57743)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter A. GENERAL PROVISIONS
+(9)
+
+Ancillary service -- A service necessary to facilitate the transmission of electric energy including load
+following, standby power, backup power, reactive power, and any other services the commission may
+determine by rule.
+
+(10)
+
+Base rate -- Generally, a rate designed to recover the cost of service other than certain costs separately
+identified and recovered through a rider, rate schedule, or other schedule. For bundled utilities, these
+separately identified costs may include items such as a fuel factor, power cost recovery factor, and surcharge.
+Distribution service providers may have separately identified costs such as transition costs, the excess
+mitigation charge, transmission cost recovery factors, and the competition transition charge.
+
+(11)
+
+Bundled Municipally Owned Utilities/Electric Cooperatives (MOU/COOP) -- A municipally owned
+utility/electric cooperative that is conducting both transmission and distribution activities and competitive
+energy-related activities on a bundled basis without structural or functional separation of transmission and
+distribution functions from competitive energy-related activities and that makes a written declaration of its
+status as a bundled municipally owned utility/electric cooperative pursuant to §25.275(o)(3)(A) of this title
+(relating to Code of Conduct for Municipally Owned Utilities and Electric Cooperatives Engaged in
+Competitive Activities).
+
+(12)
+
+Calendar year -- January 1 through December 31.
+
+(13)
+
+Commission -- The Public Utility Commission of Texas.
+
+(14)
+
+Competition transition charge (CTC) -- Any non-bypassable charge that recovers the positive excess of
+the net book value of generation assets over the market value of the assets, taking into account all of the
+electric utility’s generation assets, any above market purchased power costs, and any deferred debit related
+to a utility’s discontinuance of the application of Statement of Financial Accounting Standards Number 71
+(“Accounting for the Effects of Certain Types of Regulation”) for generation-related assets if required by the
+provisions of PURA chapter 39. For purposes of PURA §39.262, book value shall be established as of
+December 31, 2001, or the date a market value is established through a market valuation method under PURA
+§39.262(h), whichever is earlier, and shall include stranded costs incurred under PURA §39.263. Competition
+transition charges also include the transition charges established pursuant to PURA §39.302(7) unless the
+context indicates otherwise.
+
+(15)
+
+Competitive affiliate -- An affiliate of a utility that provides services or sells products in a competitive
+energy-related market in this state, including telecommunications services, to the extent those services are
+energy-related.
+
+(16)
+
+Competitive energy efficiency services -- Energy efficiency services that are defined as competitive energy
+services under §25.341 of this title (relating to Definitions).
+
+(17)
+
+Competitive retailer -- A retail electric provider; or a municipally owned utility or electric cooperative, that
+has the right to offer electric energy and related services at unregulated prices directly to retail customers
+who have customer choice, without regard to geographic location.
+
+(18)
+
+Congestion zone -- An area of the transmission network that is bounded by commercially significant
+transmission constraints or otherwise identified as a zone that is subject to transmission constraints, as defined
+by an independent organization.
+
+(19)
+
+Control area -- An electric power system or combination of electric power systems to which a common
+automatic generation control scheme is applied in order to:
+(A)
+match, at all times, the power output of the generators within the electric power system(s) and
+capacity and energy purchased from entities outside the electric power system(s), with the load
+within the electric power system(s);
+(B)
+maintain, within the limits of good utility practice, scheduled interchange with other control areas;
+§25.5--2
+
+effective 1/01/2026
+(P 57743)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter A. GENERAL PROVISIONS
+(C)
+(D)
+
+maintain the frequency of the electric power system(s) within reasonable limits in accordance with
+good utility practice; and
+obtain sufficient generating capacity to maintain operating reserves in accordance with good utility
+practice.
+
+(20)
+
+Corporation -- A domestic or foreign corporation, joint-stock company, or association, and each lessee,
+assignee, trustee, receiver, or other successor in interest of the corporation, company, or association, that has
+any of the powers or privileges of a corporation not possessed by an individual or partnership. The term does
+not include a municipal corporation or electric cooperative, except as expressly provided by PURA.
+
+(21)
+
+Critical loads -- Loads for which electric service is considered crucial for the protection or maintenance of
+public health and safety; including but not limited to hospitals, police stations, fire stations, critical water and
+wastewater facilities, and customers with special in-house life-sustaining equipment.
+
+(22)
+
+Customer choice -- The freedom of a retail customer to purchase electric services, either individually or
+through voluntary aggregation with other retail customers, from the provider or providers of the customer’s
+choice and to choose among various fuel types, energy efficiency programs, and renewable power suppliers.
+
+(23)
+
+Customer class -- A group of customers with similar electric-service characteristics (e.g., residential,
+commercial, industrial, sales for resale) taking service under one or more rate schedules. Qualified
+businesses as defined by the Texas Enterprise Zone Act, Texas Government Code, title 10, chapter 2303
+may be considered to be a separate customer class of electric utilities.
+
+(24)
+
+Day-ahead -- The day preceding the operating day.
+
+(25)
+
+Deemed savings -- A pre-determined, validated estimate of energy savings and demand reduction
+attributable to an energy efficiency measure in a particular type of application that a utility may use instead
+of energy savings and demand reduction determined through measurement and verification activities.
+
+(26)
+
+Demand -- The rate at which electric energy is delivered to or by a system at a given instant, or averaged
+over a designated period, usually expressed in kilowatts (kW) or megawatts (MW).
+
+(27)
+
+Demand savings -- A quantifiable reduction in the rate at which energy is delivered to or by a system at a
+given instance, or averaged over a designated period, usually expressed in kilowatts (kW) or megawatts
+(MW).
+
+(28)
+
+Demand-side management (DSM) -- Activities that affect the magnitude or timing of customer electrical
+usage, or both.
+
+(29)
+
+Demand-side resource or demand-side management -- Equipment, materials, and activities that result in
+reductions in electric generation, transmission, or distribution capacity needs or reductions in energy usage
+or both.
+
+(30)
+
+Disconnection of service -- Interruption of a customer’s supply of electric service at the customer’s point of
+delivery by an electric utility, a transmission and distribution utility, a municipally owned utility or an electric
+cooperative.
+
+(31)
+
+Distribution line -- A power line operated below 60,000 volts, when measured phase-to-phase, that is owned
+by an electric utility, transmission and distribution utility, municipally owned utility, or electric cooperative.
+
+(32)
+
+Distributed resource -- A generation, energy storage, or targeted demand-side resource, generally between
+one kilowatt and ten megawatts, located at a customer’s site or near a load center, which may be connected at
+the distribution voltage level (below 60,000 volts), that provides advantages to the system, such as deferring
+the need for upgrading local distribution facilities.
+§25.5--3
+
+effective 1/01/2026
+(P 57743)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter A. GENERAL PROVISIONS
+
+(33)
+
+Distribution service provider (DSP) -- An electric utility, municipally-owned utility, or electric cooperative
+that owns or operates for compensation in this state equipment or facilities that are used for the distribution
+of electricity to retail customers including retail customers served at transmission voltage levels.
+
+(34)
+
+Economically distressed geographic area -- Zip-code area in which the average household income is less
+than or equal to 60% of the statewide median income as reported in the most recently available United States
+Census data.
+
+(35)
+
+Electric cooperative -(A)
+a corporation organized under the Texas Utilities Code, Chapter 161 or a predecessor statute to
+Chapter 161 and operating under that chapter;
+(B)
+a corporation organized as an electric cooperative in a state other than Texas that has obtained a
+certificate of authority to conduct affairs in the State of Texas; or
+(C)
+a successor to an electric cooperative created before June 1, 1999, in accordance with a conversion
+plan approved by a vote of the members of the electric cooperative, regardless of whether the
+successor later purchases, acquires, merges with, or consolidates with other electric cooperatives.
+Electric generating facility -- A facility that generates electric energy for compensation and that is owned
+or operated by a person in this state, including a municipal corporation, electric cooperative, or river
+authority.
+
+(36)
+
+(37)
+
+Electric generation equipment lessor or operator -- A person who rents to, or operates for compensation
+on behalf of , a third party electric generation equipment that:
+(A)
+is used on a site of the third party until the third party is able to obtain sufficient electricity service;
+(B)
+produces electricity on site to be consumed by the third party and not resold; and
+(C)
+does not interconnect with the electric transmission or distribution system.
+
+(38)
+
+Electricity facts label -- Information in a standardized format, as described in §25.475(f) of this title (relating
+to Information Disclosures to Residential and Small Commercial Customers), that summarizes the price,
+contract terms, fuel sources, and environmental impact associated with an electricity product.
+
+(39)
+
+Electricity product -- A specific type of retail electricity service developed and identified by a REP, the
+specific terms and conditions of which are summarized in an electricity facts label that is specific to that
+electricity product.
+
+(40)
+
+Electric Reliability Council of Texas (ERCOT) -- Refers to the independent organization and, in a
+geographic sense, refers to the area served by electric utilities, municipally owned utilities, and electric
+cooperatives that are not synchronously interconnected with electric utilities outside of the State of Texas.
+
+(41)
+
+Electric service identifier (ESI ID) -- The basic identifier assigned to each point of delivery used in the
+registration system and settlement system managed by ERCOT or another independent organization.
+
+(42)
+
+Electric utility -- Except as otherwise provided in this chapter, an electric utility is a person or river authority
+that owns or operates for compensation in this state equipment or facilities to produce, generate, transmit,
+distribute, sell, or furnish electricity in this state. The term includes a lessee, trustee, or receiver of an electric
+utility and a recreational vehicle park owner who does not comply with Texas Utilities Code, subchapter C,
+chapter 184, with regard to the metered sale of electricity at the recreational vehicle park. The term does not
+include:
+(A)
+a municipal corporation;
+(B)
+a qualifying facility;
+(C)
+a power generation company;
+(D)
+an exempt wholesale generator;
+(E)
+a power marketer;
+
+§25.5--4
+
+effective 1/01/2026
+(P 57743)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter A. GENERAL PROVISIONS
+(F)
+(G)
+(H)
+(I)
+(J)
+
+a corporation described by PURA §32.053 to the extent the corporation sells electricity
+exclusively at wholesale and not to the ultimate consumer;
+an electric cooperative;
+a retail electric provider;
+the state of Texas or an agency of the state; or
+a person not otherwise an electric utility who:
+(i) furnishes an electric service or commodity only to itself, its employees, or its tenants as
+an incident of employment or tenancy, if that service or commodity is not resold to or used
+by others;
+(ii) owns or operates in this state equipment or facilities to produce, generate, transmit,
+distribute, sell or furnish electric energy to an electric utility, if the equipment or facilities
+are used primarily to produce and generate electric energy for consumption by that person;
+(iii) owns or operates in this state a recreational vehicle park that provides metered electric
+service in accordance with Texas Utilities Code, subchapter C, chapter 184;
+(iv) is an electric generation equipment lessor or operator; or
+(v) owns or operates in this state equipment used solely to provide electricity charging
+service for consumption by an alternatively fueled vehicle, as defined by section 502.004
+of the Transportation Code.
+
+(43)
+
+Energy efficiency -- Programs that are aimed at reducing the rate at which electric energy is used by
+equipment or processes. Reduction in the rate of energy used may be obtained by substituting technically
+more advanced equipment to produce the same level of end-use services with less electricity; adoption of
+technologies and processes that reduce heat or other energy losses; or reorganization of processes to make
+use of waste heat. Efficient use of energy by customer-owned end-use devices implies that existing comfort
+levels, convenience, and productivity are maintained or improved at a lower customer cost.
+
+(44)
+
+Energy efficiency measures -- Equipment, materials, and practices that when installed and used at a
+customer site result in a measurable and verifiable reduction in either purchased electric energy
+consumption, measured in kilowatt-hours (kWh), or peak demand, measured in kW, or both.
+
+(45)
+
+Energy efficiency project -- An energy efficiency measure or combination of measures installed under a
+standard offer contract or a market transformation contract that results in both a reduction in customers’
+electric energy consumption and peak demand, and energy costs.
+
+(46)
+
+Energy savings -- A quantifiable reduction in a customer’s consumption of energy.
+
+(47)
+
+ERCOT protocols -- Body of procedures developed by ERCOT to maintain the reliability of the regional
+electric network and account for the production and delivery of electricity among resources and market
+participants.
+
+(48)
+
+ERCOT region -- The geographic area under the jurisdiction of the commission that is served by
+transmission service providers that are not synchronously interconnected with transmission service providers
+outside of the state of Texas.
+
+(49)
+
+Exempt wholesale generator -- A person who is engaged directly or indirectly through one or more affiliates
+exclusively in the business of owning or operating all or part of a facility for generating electric energy and
+selling electric energy at wholesale who does not own a facility for the transmission of electricity, other than
+an essential interconnecting transmission facility necessary to effect a sale of electric energy at wholesale.
+
+(50)
+
+Existing purchased power contract -- A purchased power contract in effect on January 1, 1999, including
+any amendments and revisions to that contract resulting from litigation initiated before January 1, 1999.
+
+§25.5--5
+
+effective 1/01/2026
+(P 57743)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter A. GENERAL PROVISIONS
+(51)
+
+Facilities -- All the plant and equipment of an electric utility, including all tangible and intangible property,
+without limitation, owned, operated, leased, licensed, used, controlled, or supplied for, by, or in connection
+with the business of an electric utility.
+
+(52)
+
+Financing order -- An order of the commission adopted under PURA §39.201 or §39.262 approving the
+issuance of transition bonds and the creation of transition charges for the recovery of qualified costs.
+
+(53)
+
+Freeze period -- The period beginning on January 1, 1999, and ending on December 31, 2001.
+
+(54)
+
+Generation assets -- All assets associated with the production of electricity, including generation plants,
+electrical interconnections of the generation plant to the transmission system, fuel contracts, fuel
+transportation contracts, water contracts, lands, surface or subsurface water rights, emissions-related
+allowances, and gas pipeline interconnections.
+
+(55)
+
+Generation service -- The production and purchase of electricity for retail customers and the production,
+purchase, and sale of electricity in the wholesale power market.
+
+(56)
+
+Good utility practice -- Any of the practices, methods, or acts engaged in or approved by a significant
+portion of the electric utility industry during the relevant time period, or any of the practices, methods, or
+acts that, in the exercise of reasonable judgment in light of the facts known at the time the decision was made,
+could have been expected to accomplish the desired result at a reasonable cost consistent with good business
+practices, reliability, safety, and expedition. Good utility practice is not intended to be limited to the optimum
+practice, method, or act, to the exclusion of all others, but rather is intended to include acceptable practices,
+methods, and acts generally accepted in the region.
+
+(57)
+
+Hearing -- Any proceeding at which evidence is taken on the merits of the matters at issue, not including
+prehearing conferences.
+
+(58)
+
+Independent organization -- An independent system operator or other person that is sufficiently
+independent of any producer or seller of electricity that its decisions will not be unduly influenced by any
+producer or seller.
+
+(59)
+
+Independent system operator -- An entity supervising the collective transmission facilities of a power
+region that is charged with non-discriminatory coordination of market transactions, systemwide transmission
+planning, and network reliability.
+
+(60)
+
+Installed generation capacity -- All potentially marketable electric generation capacity, including the
+capacity of:
+(A)
+generating facilities that are connected with a transmission or distribution system;
+(B)
+generating facilities used to generate electricity for consumption by the person owning or controlling
+the facility; and
+(C)
+generating facilities that will be connected with a transmission or distribution system and operating
+within 12 months.
+
+(61)
+
+Interconnection agreement -- The standard form of agreement that has been approved by the commission.
+The interconnection agreement sets forth the contractual conditions under which a company and a customer
+agree that one or more facilities may be interconnected with the company’s utility system.
+
+(62)
+
+Licensing -- The commission process for granting, denial, renewal, revocation, suspension, annulment,
+withdrawal, or amendment of a license.
+
+(63)
+
+Load factor -- The ratio of average load to peak load during a specific period of time, expressed as a percent.
+The load factor indicates to what degree energy has been consumed compared to maximum demand or
+utilization of units relative to total system capability.
+§25.5--6
+
+effective 1/01/2026
+(P 57743)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter A. GENERAL PROVISIONS
+
+(64)
+
+Low-income customer -- An electric customer who receives assistance under the Supplemental Nutrition
+Assistance Program (SNAP) from Texas Health and Human Services Commission (HHSC) or medical
+assistance from a state agency administering a part of the medical assistance program.
+
+(65)
+
+Low-Income List Administrator (LILA) -- A third-party administrator contracted by the commission to
+administer aspects of the low-income customer identification process established under PURA §17.007.
+
+(66)
+
+Market power mitigation plan -- A written proposal by an electric utility or a power generation company
+for reducing its ownership and control of installed generation capacity as required by PURA §39.154.
+
+(67)
+
+Market value -- For nonnuclear assets and certain nuclear assets, the value the assets would have if bought
+and sold in a bona fide third-party transaction or transactions on the open market under PURA §39.262(h)
+or, for certain nuclear assets, as described by PURA §39.262(i), the value determined under the method
+provided by that subsection.
+
+(68)
+
+Master meter -- A meter used to measure, for billing purposes, all electric usage of an apartment house or
+mobile home park, including common areas, common facilities, and dwelling units.
+
+(69)
+
+Municipality -- A city, incorporated village, or town, existing, created, or organized under the general, home
+rule, or special laws of the state.
+
+(70)
+
+Municipally-owned utility (MOU) -- Any utility owned, operated, and controlled by a municipality or by a
+nonprofit corporation whose directors are appointed by one or more municipalities.
+
+(71)
+
+Nameplate rating -- The full-load continuous rating of a generator under specified conditions as designated
+by the manufacturer.
+
+(72)
+
+Native load customer -- A wholesale or retail customer on whose behalf an electric utility, electric
+cooperative, or municipally-owned utility, by statute, franchise, regulatory requirement, or contract, has an
+obligation to construct and operate its system to meet in a reliable manner the electric needs of the customer.
+
+(73)
+
+Natural gas energy credit (NGEC) -- A tradable instrument representing each megawatt of new generating
+capacity fueled by natural gas, as authorized by PURA §39.9044 and implemented under §25.172 of this title
+(relating to Goal for Natural Gas).
+
+(74)
+
+Net book value -- The original cost of an asset less accumulated depreciation.
+
+(75)
+
+Net dependable capability -- The maximum load in megawatts, net of station use, that a generating unit or
+generating station can carry under specified conditions for a given period of time without exceeding approved
+limits of temperature and stress.
+
+(76)
+
+Net-to-gross -- A factor that is applied to convert gross program impacts into net program impacts. The
+factor is calculated by dividing net program savings by gross program savings and may account for variables
+that create differences between gross and net savings, such as free riders and spillover.
+
+(77)
+
+New on-site generation -- Electric generation with capacity greater than ten megawatts capable of being
+lawfully delivered to the site without use of utility distribution or transmission facilities, which was not, on or
+before December 31, 1999, either:
+(A)
+A fully operational facility; or
+(B)
+A project supported by substantially complete filings for all necessary site-specific environmental
+permits under the rules of the Texas Commission on Environmental Quality (TCEQ) in effect at the
+time of filing.
+
+§25.5--7
+
+effective 1/01/2026
+(P 57743)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter A. GENERAL PROVISIONS
+(78)
+
+Off-grid renewable generation -- The generation of renewable energy in an application that is not
+interconnected to a utility transmission or distribution system.
+
+(79)
+
+Other generation sources -- A competitive retailer’s or affiliated retail electric provider’s supply of
+generated electricity that is not accounted for by a direct supply contract with an owner of generation assets.
+
+(80)
+
+Person -- Includes an individual, a partnership of two or more persons having a joint or common interest, a
+mutual or cooperative association, and a corporation, but does not include an electric cooperative.
+
+(81)
+
+Power cost recovery factor (PCRF) -- A charge or credit that reflects an increase or decrease in purchased
+power costs not in base rates.
+
+(82)
+
+Power generation company (PGC) -- A person that:
+(A)
+generates electricity that is intended to be sold at wholesale, including the owner or operator of
+electric energy storage equipment or facilities to which the Public Utility Regulatory Act, chapter
+35, subchapter E applies;
+(B)
+does not own a transmission or distribution facility in this state, other than an essential
+interconnecting facility, a facility not dedicated to public use, or a facility otherwise excluded from
+the definition of “electric utility” under this section; and
+(C)
+does not have a certificated service area, although its affiliated electric utility or transmission and
+distribution utility may have a certificated service area.
+
+(83)
+
+Power marketer -- A person who becomes an owner of electric energy in this state for the purpose of selling
+the electric energy at wholesale; does not own generation, transmission, or distribution facilities in this state
+and does not have a certificated service area.
+
+(84)
+
+Power region -- A contiguous geographical area that is a distinct region of the North American Electric
+Reliability Council.
+
+(85)
+
+Pre-interconnection study -- A study or studies that may be undertaken by a utility in response to its receipt
+of a completed application for interconnection and parallel operation with the utility system at distribution
+voltage. Pre-interconnection studies may include, but are not limited to, service studies, coordination studies,
+and utility system impact studies.
+
+(86)
+
+Premises -- A tract of land or real estate or related commonly used tracts including buildings and other
+appurtenances thereon.
+
+(87)
+
+Price to beat (PTB) -- A price for electricity, as determined under PURA §39.202, charged by an affiliated
+retail electric provider to eligible residential and small commercial customers in its service area.
+
+(88)
+
+Proceeding -- A hearing, investigation, inquiry, or other procedure for finding facts or making a decision,
+including adopting, amending, or repealing a rule or setting a rate. The term includes a denial of relief or
+dismissal of a complaint.
+
+(89)
+
+Proprietary customer information -- Any information obtained by a retail electric provider, an electric
+utility, or a transmission and distribution business unit as defined in §25.275(c)(16) of this title, on a customer
+in the course of providing electric service or by an aggregator on a customer in the course of aggregating
+electric service that makes possible the identification of any individual customer by matching such
+information with the customer’s name, address, account number, type or classification of service, historical
+electricity usage, expected patterns of use, types of facilities used in providing service, individual contract
+terms and conditions, price, current charges, billing records, or any information that the customer has
+expressly requested not be disclosed. Information that is redacted or organized in such a way as to make it
+impossible to identify the customer to whom the information relates does not constitute proprietary customer
+information.
+§25.5--8
+
+effective 1/01/2026
+(P 57743)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter A. GENERAL PROVISIONS
+
+(90)
+
+Provider of last resort (POLR) -- A retail electric provider (REP) certified in Texas that has been designated
+by the commission to provide a basic, standard retail service package in accordance with §25.43 of this title
+(relating to Provider of Last Resort (POLR)).
+
+(91)
+
+Public retail customer -- A retail customer that is an agency of this state, a state institution of higher
+education, a public school district, or a political subdivision of this state.
+
+(92)
+
+Public utility or utility -- An electric utility as that term is defined in this section, or a public utility or utility
+as those terms are defined in PURA §51.002.
+
+(93)
+
+Public Utility Regulatory Act (PURA) -- The enabling statute for the Public Utility Commission of Texas,
+located in the Texas Utilities Code Annotated, §§11.001 et. seq.
+
+(94)
+
+Purchased power market value -- The value of demand and energy bought and sold in a bona fide thirdparty transaction or transactions on the open market and determined by using the weighted average costs of
+the highest three offers from the market for purchase of the demand and energy available under the existing
+purchased power contracts.
+
+(95)
+
+Qualified scheduling entity -- A market participant that is qualified by ERCOT in accordance with section
+16, Registration and Qualification of Market Participants of ERCOT’s protocols, to submit balanced
+schedules and ancillary services bids and settle payments with ERCOT.
+
+(96)
+
+Qualifying cogenerator – As defined by 16 U.S.C. §796(18)(C). A qualifying cogenerator that provides
+electricity to the purchaser of the cogenerator’s thermal output is not for that reason considered to be a
+retail electric provider or a power generation company.
+
+(97)
+
+Qualifying facility -- A qualifying cogenerator or qualifying small power producer.
+
+(98)
+
+Qualifying small power producer – As defined by 16 U.S.C. §796(17)(D).
+
+(99)
+
+Rate -- A compensation, tariff, charge, fare, toll, rental, or classification that is directly or indirectly
+demanded, observed, charged, or collected by an electric utility for a service, product, or commodity
+described in the definition of electric utility in this section and a rule, practice, or contract affecting the
+compensation, tariff, charge, fare, toll, rental, or classification that must be approved by a regulatory
+authority.
+
+(100)
+
+Rate class -- A group of customers taking electric service under the same rate schedule.
+
+(101)
+
+Rate year -- The 12-month period beginning with the first date that rates become effective. The first date
+that rates become effective may include, but is not limited to, the effective date for bonded rates or the
+effective date for interim or temporary rates.
+
+(102)
+
+Ratemaking proceeding -- A proceeding in which a rate may be changed.
+
+(103)
+
+Registration agent -- Entity designated by the commission to administer registration and settlement, premise
+data, and other processes concerning a customer’s choice of retail electric provider in the competitive electric
+market in Texas.
+
+(104)
+
+Regulatory authority -- In accordance with the context where it is found, either the commission or the
+governing body of a municipality.
+
+§25.5--9
+
+effective 1/01/2026
+(P 57743)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter A. GENERAL PROVISIONS
+(105)
+
+Renewable demand side management (DSM) technologies -- Equipment that uses a renewable energy
+resource (renewable resource) as defined in this section, that, when installed at a customer site, reduces the
+customer’s net purchases of energy (kWh), electrical demand (kW), or both.
+
+(106)
+
+Renewable energy -- Energy derived from renewable energy technologies.
+
+(107)
+
+Renewable energy credit (REC) -- A tradable instrument representing the generation attributes of one MWh
+of electricity from renewable energy sources, as authorized by the PURA §39.904 and implemented under
+§25.173(e) of this title (relating to Goal for Renewable Energy).
+
+(108)
+
+Renewable energy credit account (REC account) -- An account maintained by the renewable energy
+credits trading program administrator for the purpose of tracking the production, sale, transfer, purchase, and
+retirement of RECs by a program participant.
+
+(109)
+
+Renewable energy resource (renewable resource) -- A resource that produces energy derived from
+renewable energy technologies.
+
+(110)
+
+Renewable energy technology -- Any technology that exclusively relies on an energy source that is
+naturally regenerated over a short time and derived directly from the sun, indirectly from the sun, or from
+moving water or other natural movements and mechanisms of the environment. Renewable energy
+technologies include those that rely on energy derived directly from the sun, on wind, geothermal,
+hydroelectric, wave, or tidal energy, or on biomass or biomass-based waste products, including landfill gas.
+A renewable energy technology does not rely on energy resources derived from fossil fuels, waste products
+from fossil fuels, or waste products from inorganic sources.
+
+(111)
+
+Repowering -- Modernizing or upgrading an existing facility in order to increase its capacity or efficiency.
+
+(112)
+
+Residential customer -- Retail customers classified as residential by the applicable bundled utility tariff,
+unbundled transmission and distribution utility tariff or, in the absence of classification under a residential
+rate class, those retail customers that are primarily end users consuming electricity at the customer’s place of
+residence for personal, family or household purposes and who are not resellers of electricity.
+
+(113)
+
+Retail customer -- The separately metered end-use customer who purchases and ultimately consumes
+electricity.
+
+(114)
+
+Retail electric provider (REP) -- A person that sells electric energy to retail customers in this state. A retail
+electric provider may not own or operate generation assets. The term does not include a person not otherwise
+a retail electric provider who owns or operates equipment used solely to provide electricity charging service
+for consumption by an alternatively fueled vehicle, as defined by Section 502.004, Transportation Code.
+
+(115)
+
+Retail electric provider (REP) of record -- The REP assigned to the electric service identifier (ESI ID) in
+ERCOT’s database. There can be no more than one REP of record assigned to an ESI ID at any specific point
+in time.
+
+(116)
+
+Retail stranded costs -- That part of net stranded cost associated with the provision of retail service.
+
+(117)
+
+Retrofit -- The installation of control technology on an electric generating facility to reduce the emissions of
+nitrogen oxide, sulfur dioxide, or both.
+
+(118)
+
+River authority -- A conservation and reclamation district created under the Texas Constitution, article 16,
+section 59, including any nonprofit corporation created by such a district pursuant to the Texas Water Code,
+chapter 152, that is an electric utility.
+
+§25.5--10
+
+effective 1/01/2026
+(P 57743)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter A. GENERAL PROVISIONS
+(119)
+
+Rule -- A statement of general applicability that implements, interprets, or prescribes law or policy, or
+describes the procedure or practice requirements of the commission. The term includes the amendment or
+repeal of a prior rule, but does not include statements concerning only the internal management or
+organization of the commission and not affecting private rights or procedures.
+
+(120)
+
+Savings-to-investment ratio (SIR) -- The ratio of the present value of a customer’s estimated lifetime
+electricity cost savings from energy efficiency measures to the present value of the installation costs of
+those energy efficiency measures, which include the cost of any incidental repairs.
+
+(121)
+
+Separately metered -- Metered by an individual meter that is used to measure electric energy consumption
+by a retail customer and for which the customer is directly billed by a utility, retail electric provider, electric
+cooperative, or municipally owned utility.
+
+(122)
+
+Service -- Has its broadest and most inclusive meaning. The term includes any act performed, anything
+supplied, and any facilities used or supplied by an electric utility in the performance of its duties under PURA
+to its patrons, employees, other public utilities or electric utilities, an electric cooperative, and the public. The
+term also includes the interchange of facilities between two or more public utilities or electric utilities.
+
+(123)
+
+Spanish-speaking person -- A person who speaks any dialect of the Spanish language exclusively or as their
+primary language.
+
+(124)
+
+Standard meter -- The minimum metering device necessary to obtain the billing determinants required by
+the transmission and distribution utility’s tariff schedule to determine an end-use customer’s charges for
+transmission and distribution service.
+
+(125)
+
+Stranded cost -- The positive excess of the net book value of generation assets over the market value of the
+assets, taking into account all of the electric utility’s generation assets, any above-market purchased-power
+costs, and any deferred debit related to a utility’s discontinuance of the application of Statement of Financial
+Accounting Standards Number 71 (“Accounting for the Effect of Certain Types of Regulation”) for
+generation-related assets if required by the provisions of PURA Chapter 39. For purposes of PURA §39.262,
+book value shall be established as of December 31, 2001, or the date a market value is established through a
+market valuation method under PURA §39.262(h), whichever is earlier, and shall include stranded costs
+incurred under PURA §39.263.
+
+(126)
+
+Submetering -- Metering of electricity consumption on the customer side of the point at which the electric
+utility measures electricity consumption for billing purposes.
+
+(127)
+
+Summer net dependable capability -- The net capability of a generating unit in megawatts (MW) for daily
+planning and operational purposes during the summer peak season, as determined in accordance with
+requirements of the reliability council or independent organization in which the unit operates.
+
+(128)
+
+Supply-side resource -- A resource, including a storage device, that provides electricity from fuels or
+renewable resources.
+
+(129)
+
+System emergency -- A condition on a utility’s system that is likely to result in imminent, significant
+disruption of service to customers or is imminently likely to endanger life or property.
+
+(130)
+
+Tariff -- The schedule of a utility, municipally-owned utility, or electric cooperative containing all rates and
+charges stated separately by type of service, the rules and regulations of the utility, and any contracts that
+affect rates, charges, terms or conditions of service.
+
+(131)
+
+Termination of service -- The cancellation or expiration of a sales agreement or contract by a retail electric
+provider by notification to the customer and the registration agent.
+
+§25.5--11
+
+effective 1/01/2026
+(P 57743)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter A. GENERAL PROVISIONS
+(132)
+
+Tenant -- A person who is entitled to occupy a dwelling unit to the exclusion of others and who is obligated
+to pay for the occupancy under a written or oral rental agreement.
+
+(133)
+
+Test year -- The most recent 12 months for which operating data for an electric utility, electric cooperative,
+or municipally-owned utility are available and shall commence with a calendar quarter or a fiscal year quarter.
+
+(134)
+
+Texas jurisdictional installed generation capacity -- The amount of an affiliated power generation
+company’s installed generation capacity properly allocable to the Texas jurisdiction. Such allocation shall be
+calculated pursuant to an existing commission-approved allocation study, or other such commissionapproved methodology, and may be adjusted as approved by the commission to reflect the effects of
+divestiture or the installation of new generation facilities.
+
+(135)
+
+Transition bonds -- Bonds, debentures, notes, certificates, of participation or of beneficial interest, or other
+evidences of indebtedness or ownership that are issued by an electric utility, its successors, or an assignee
+under a financing order, that have a term not longer than 15 years, and that are secured or payable from
+transition property.
+
+(136)
+
+Transition charges -- Non-bypassable amounts to be charged for the use or availability of electric services,
+approved by the commission under a financing order to recover qualified costs, that shall be collected by an
+electric utility, its successors, an assignee, or other collection agents as provided for in a financing order.
+
+(137)
+
+Transmission and distribution business unit (TDBU) -- The business unit of a municipally owned
+utility/electric cooperative, whether structurally unbundled as a separate legal entity or functionally
+unbundled as a division, that owns or operates for compensation in this state equipment or facilities to
+transmit or distribute electricity at retail, except for facilities necessary to interconnect a generation facility
+with the transmission or distribution network, a facility not dedicated to public use, or a facility otherwise
+excluded from the definition of electric utility in a qualifying power region certified under PURA §39.152.
+Transmission and distribution business unit does not include a municipally owned utility/electric cooperative
+that owns, controls, or is an affiliate of the transmission and distribution business unit if the transmission and
+distribution business unit is organized as a separate corporation or other legally distinct entity. Except as
+specifically authorized by statute, a transmission and distribution business unit shall not provide competitive
+energy-related activities.
+
+(138)
+
+Transmission and distribution utility (TDU) -- A person or river authority that owns, or operates for
+compensation in this state equipment or facilities to transmit or distribute electricity, except for facilities
+necessary to interconnect a generation facility with the transmission or distribution network, a facility not
+dedicated to public use, or a facility otherwise excluded from the definition of “electric utility”, in a
+qualifying power region certified under PURA §39.152, but does not include a municipally owned utility
+or an electric cooperative. The TDU may be a single utility or may be separate transmission and
+distribution utilities.
+
+(139)
+
+Transmission line -- A power line that is operated at 60 kilovolts (kV) or above, when measured phase-tophase.
+
+(140)
+
+Transmission service -- Service that allows a transmission service customer to use the transmission and
+distribution facilities of electric utilities, electric cooperatives and municipally owned utilities to efficiently
+and economically utilize generation resources to reliably serve its loads and to deliver power to another
+transmission service customer. Includes construction or enlargement of facilities, transmission over
+distribution facilities, control area services, scheduling resources, regulation services, reactive power support,
+voltage control, provision of operating reserves, and any other associated electrical service the commission
+determines appropriate, except that, on and after the implementation of customer choice in any portion of the
+ERCOT region, control area services, scheduling resources, regulation services, provision of operating
+reserves, and reactive power support, voltage control and other services provided by generation resources are
+not transmission service.
+§25.5--12
+
+effective 1/01/2026
+(P 57743)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter A. GENERAL PROVISIONS
+
+(141)
+
+Transmission service customer -- A transmission service provider, distribution service provider, river
+authority, municipally-owned utility, electric cooperative, power generation company, retail electric
+provider, federal power marketing agency, exempt wholesale generator, qualifying facility, power marketer,
+or other person whom the commission has determined to be eligible to be a transmission service customer.
+A retail customer, as defined in this section, may not be a transmission service customer.
+
+(142)
+
+Transmission service provider (TSP) -- An electric utility, municipally-owned utility, or electric
+cooperative that owns or operates facilities used for the transmission of electricity.
+
+(143)
+
+Transmission system -- The transmission facilities at or above 60 kilovolts (kV) owned, controlled,
+operated, or supported by a transmission service provider or transmission service customer that are used to
+provide transmission service.
+
+§25.5--13
+
+effective 1/01/2026
+(P 57743)
+
+

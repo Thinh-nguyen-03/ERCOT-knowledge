@@ -1,0 +1,768 @@
+Real-Time Co-Optimization + Batteries
+Overview of the “+ Batteries” Portion of the Project
+
+Kenneth Ragsdale
+ERCOT Principal, Market Design & Development
+ERCOT Public
+July 2025
+
+Agenda
+•
+
+ERCOT Energy Storage Resource (ESR) background information
+Where are we? How did we get here? What does the future look like?
+
+•
+
+Overview of the Real-Time Co-Optimization + Batteries (RTC+B) scope and
+specifically the “+B” changes
+
+•
+
+High-level review of the “Final State” with the “+B” changes (along with RTC)
+
+•
+
+Specific topics/details
+– Registration, qualification, and modeling
+– Day Ahead Market
+
+– Real-Time Market
+– Energy Bid/Energy Offer Curves (EB/OCs), Current Operating Plans
+(COPs), and telemetry
+– Set point deviation (SPD)
+– Reliability Unit Commitment (RUC) and exposure to being short
+PUBLIC
+
+2
+
+ERCOT Installed Net Generation Capacity (as of April 1, 2025)
+End of 2028 (MW)
+[Based on GIS Info]
+WIND: ~ 47,000
+PV:
+~ 74,000
+ESR: ~ 41,000
+
+PUBLIC
+
+3
+
+Summary of Generation Interconnection Requests (run date 6/1/25)
+Fuel Type/
+SS and FIS Completed
+Technology Type
+IA (MW)
+Combined Cycle
+785
+Combustion Turbine
+1,158
+Steam Turbine
+14
+ICE (Internal Combustion Engine)
+565
+Wind
+5,893
+Solar
+30,101
+Compressed Air Storage
+0
+Battery
+19,015
+Other (Includes Pumped Hydro 1,232 MW)
+0
+Total
+
+57,531
+
+Grand Total
+In Progress (MW)
+10,873
+18,443
+1,349
+1,824
+40,885
+158,490
+0
+174,597
+3,208
+409,669
+Report Run Date
+
+The battery total of 174,597 MW includes requests of 417 MW of distribution connected.
+It does not include requests of batteries planned at a “Self-Limiting Facility.”
+SS = Security Screening Study
+FIS = Full Interconnection Study
+IA = Interconnection Agreement
+
+PUBLIC
+
+Battery Qty
+
+Dec 1, 2024: 156,730 MW
+Dec 1, 2023: 124,941 MW
+Dec 1, 2022: 78,746 MW
+Dec 1, 2021: 46,946 MW
+Dec 1, 2020: 21,404 MW
+Dec 1, 2019:
+7,214 MW
+Dec 1, 2018:
+2,048 MW
+
+4
+
+Battery Additions by Year (as of May 31, 2025)
+1) WSL –NPRR461: Approved 12/2012; Effective 2/2013
+2) FRRS Pilot: 2/2013-2/2014
+3) FRRS – NPRR 581: Effective 3/2024
+4) SoC Telemetry Requirement: 10/2018
+5) FFR – NPRR863: Approved 2/2019
+6) BESTF: 10/2019 – 3/2021
+7) FRR Phase 1 Implementation: Effective 3/2020
+8) NPRR986 “Bid to Buy” Functionality: Effective 4/2021
+9) NPRR 1096 Require Sustained Capability (ECRS and NS); Effective 12/2022
+10) ECRS Go-Live 6/2023
+11) NPRR 1026 Self Limiting Facilities: Effective 3/2024
+12) NPRR 1186: Approved by PUCT 4/2024
+
+12,970 MW as of May 31, 2025
+
+PUBLIC
+
+5
+
+Duration Information (Based on Feb 2025 GIS Report – posted 3/6/25)
+
+PUBLIC
+
+6
+
+Energy Storage Resource (ESR) Percent of Total System-Wide
+Ancillary Service Procurement in Day-Ahead Market (DAM)
+
+PUBLIC
+
+7
+
+ERCOT-wide Load and Energy Storage Resource
+(ESR) Injection and Withdrawal
+
+PUBLIC
+
+8
+
+Current Real-Time Market
+Today’s market is designed to reflect scarcity through a process that
+is outside of the optimization.
+
+Energy Offers
+Base
+Points
+Telemetry
+
+Security- Constrained
+Economic Dispatch
+(SCED)
+
+Locational
+Marginal Prices
+(LMPs)
+
+Constraints
+
+Operating
+Reserve Demand
+Curve (ORDC)
+
+PUBLIC
+
+Reserve Pricing
+
+Combined
+to form
+Settlement
+Point Prices
+
+Price Adders
+
+9
+
+Real-Time Market under RTCB
+Also designed to reflect scarcity, but with RTCB it occurs within the optimization
+
+Energy &
+Ancillary Service
+Offers
+
+Base
+Points
+
+LMPs
+
+Telemetry
+
+Form
+Settlement
+Point Prices
+
+SCED
+
+PUBLIC
+
+Constraints
+
+Ancillary
+Service
+Awards
+
+Ancillary Service
+Demand Curves
+(ASDCs)
+
+Ancillary
+Service Prices
+
+10
+
+High Level Scope of “+B”
+1. NPRR 1014: BESTF-4 Energy Storage Resource Single Model
+(Approved December 2020)
+2. NPRR 1204: Considerations of State of Charge with Real-Time CoOptimization Implementation (Approved February 2024)
+3. NPRR 1236: RTC+B Modifications to RUC Capacity Short Calculations
+(Approved November 2024)
+4. NPRR 1246: Energy Storage Resource Terminology Alignment for the
+Single-Model Era (Approved March 2025) [NOGRR 268, OBDRR 052,
+PGRR 118]
+5. NPRR 1282: Ancillary Service Duration under Real-Time Co-Optimization
+(Approved at the ERCOT Board of Directors June 24, 2025)
+6. Not part of RTC+B Project. (On the back burner. “Way back” burner.)
+NPRR 1029: BESTF-6 DC-Coupled Resources (Approved December 2020)
+PUBLIC
+
+11
+
+NPRR 1014: Energy Storage Resource (ESR) Single Model
+• Registration, Qualification and Modeling (An ESR is represented
+(as it is) — as one physical Resource)
+• Single set of telemetry
+• Single “energy bid/offer curve” submittal (covering both the charging
+and discharging MW range) and Single “COP” submittal
+• Single Performance Monitoring (Note: Tolerance for Set Point
+Deviation is smaller.)
+• Single Settlements
+• Single entry into Outage Scheduler
+
+PUBLIC
+
+12
+
+ERCOT Evolution for Battery Energy Storage Resources
+Phase
+
+Registration
+(RARF or RIOO)
+
+GR
+A
+Combo
+Model
+
+D
+
+ESR
+
+CLR
+ESR
+
+Siebel, NMMS, EMS, MMS, Settlements
+Mark the GR
+and CLR so
+that it can be
+seen they are
+a pair
+
+GR
+
+BATCAVE_BES1
+
+ESR
+
+CLR
+ESR
+
+BATCAVE_LD1
+
+BATCAVE_ESR1
+
+BATCAVE_ESR1
+
+Single
+Resource
+
+Single
+Resource
+
+RTC+B Go-Live
+
+Link to Single Model Names for existing ESRs:
+https://www.ercot.com/files/docs/2025/02/14/single-model-esrnames_16Jun2025.xlsx
+PUBLIC
+
+13
+
+Typical One-Line (Battery and Other Generation Resources)
+Current Approach = Combo Model
+
+138 kV
+
+34.5 kV
+
+M2
+
+M1
+Resource
+Node
+
+BATCAVE
+_BES1
+
+SS_AUX
+
+WGR 2
+
+WGR 1
+
+BATCAVE_LD1
+
+PUBLIC
+
+14
+
+Typical One-Line (Battery and Other Generation Resources)
+with Single Model (After RTC+B Go-live)
+No changes to meter locations and Resource Node locations
+
+138 kV
+
+Resource
+Node
+
+M2
+
+34.5 kV
+
+M1
+
+BATCAVE_ESR1
+
+WGR 2
+
+WGR 1
+
+SS_AUX
+
+PUBLIC
+
+15
+
+Registration
+1. ERCOT initiated Request for Information (RFIs) from August 6 through
+September 26, 2024, to support Resource Integration and Ongoing
+Operations (RIOOs) transition to a single model representation of ESR. Data
+collection through DocuSign was sent to the Authorized Representative as
+stated in the Market Notice
+https://www.ercot.com/services/comm/mkt_notices/M-A071024-02. ERCOT
+may need to reach out to the REs to provide additional or missing information.
+For projects in the interconnection process, we are currently collecting the
+necessary data for single model ESR via RIOO.
+2. Relevant References:
+https://www.ercot.com/files/docs/2024/08/21/RIWG_ERCOT_ESR_RFI_Updat
+es_Aug24.pptx
+
+PUBLIC
+
+16
+
+Ancillary Services Qualification
+3. If there are any Protocol changes that impact qualification or qualified MW
+based on duration, ERCOT and the appropriate entities will need to discuss
+prior to transitioning to RTC. For more information on the AS Qualification
+Transition to ESRs, see the following link to the presentation made at the
+June 20, 2025, Performance Disturbance Compliance Working Group
+(PDCWG) meeting: https://www.ercot.com/files/docs/2025/06/19/ASQualification-Transistion-to-ESR-Single-model_PDCWG.pptx
+4. Additionally, more information is planned be provided at the July 23, 2025,
+RTCBTF meeting. On or around July 23, 2025, there should be a
+presentation posted at this link: https://www.ercot.com/calendar/07232025RTCBTF-Meeting
+5. Especially note the changes if the Board of Directors approved version of
+NPRR1282: Ancillary Service Duration under Real-Time Co-Optimization
+were to be approved by PUC.
+6. Also note the potential need for ESRs to resubmit forms to update each
+ESRs Response Reserve Service (RRS) % limit.
+PUBLIC
+
+17
+
+Energy Bid/Offer Curves (EB/OC), Current Operating
+Plan (COP), and Telemetry
+1. EB/OC, COP information, and telemetry are provided for the ESR as a
+single device to cover the entire range from Low Sustained Limit (LSL) to
+High Sustained Limit (HSL); the maximum charging MW a negative number
+to maximum discharging MW positive number.
+2. Continue to provide Hour Beginning State of Charge information for future
+hours in the COP for the ESR.
+
+3. Telemetry is for the ESR as a single device.
+4. All ERCOT systems including the Outage Scheduler, DAM, RT Market,
+RUC, and Settlements will “handle” the ESR as a single device.
+5. The implementation of the Single Model will eliminate extra coordination
+currently required with the Combo Model and reduce administration for
+ERCOT and QSEs.
+
+PUBLIC
+
+18
+
+Single Model ESR: Energy Bid/Offer Curve (EB/OC)
+•
+
+ESR Combo Model
+
+•
+
+$/MWh
+
+•
+
+$100/MWh
+ESR-GR EOC
+
+Single EB/OC curve shall be monotonically nondecreasing from maximum charging MW (negative)
+to maximum discharging MW.
+The maximum price on the charging curve is less
+than the minimum price on the discharging curve
+10 Pairs of $/MWh and MW level.
+
+ESR (Single Model) [+/- 100 MW]
+$/MWh
+
+Discharging MW (+ve)
+
+$100/MWh
+
+$/MWh
+
+$4/MWh
+ESR-CLR RTM Bid
+$4/MWh
+
+LSL = -100 MW
+
+Charging MW (-ve)
+
+HSL = 100MW
+
+Discharging MW (+ve)
+
+Charging MW (+ve)
+
+PUBLIC
+
+19
+
+Telemetry with the Implementation of the RTC+B Project (1 of 2)
+
+Continue 5 State of Charge
+telemetry items for each ESR:
+
+ESR telemetry includes:
+ESR Telemetry
+
+ESR State Of Charge (SOC) Telemetry
+SOC (MWh)
+
+Resource Status
+(ON,ONOS,ONTEST, ONEMR, ONHOLD, OUT)
+
+Max SOC (MWh)
+
+Gross (MW) (positive for discharge, negative for charge)
+
+Min SOC (MWh)
+
+Gross (MVAr)
+
+Max Operating Discharge Power Limit (MW)
+
+Net MW (positive for discharge, negative for charge)
+
+Max Operating Charge Power Limit (MW)
+
+Net MVar
+HSL
+LSL (can be negative)
+
+PUBLIC
+
+20
+
+Telemetry with the Implementation of the RTC+B Project (2 of 2)
+1. Net MW telemetry of the ESR, when it is charging or when it receives a Base Point
+of zero, should NOT include internal losses in the Battery (electro-chemical) and
+inverter.
+2. Net MW (charging or discharging) represents the ESR response to its Updated
+Desired Set Point (UDSP) (plus any frequency response) at the Point Of
+Interconnection. Thus, the Net MW telemetry when the ESR is
+discharging includes the internal losses in the battery (electro-chemical) and
+inverter.
+3. The Gross MW telemetry is the actual charging or discharging MW as measured at
+the modeled terminals of the ESR and includes all internal losses in the
+battery (electro-chemical) and inverter.
+4. Including the losses, when there is no expected injection from the ESR, could
+lead to SPD charges — that may not be appropriate.
+5. With the implementation of NPRR 1014, the Base Point Deviation
+(BPD) calculation from the past is replaced with the Set Point Deviation (SPD)
+calculation and the tolerances for ESRs are smaller (3% or 3 MW).
+PUBLIC
+
+21
+
+NPRR 1282 AS Duration under Real-Time Co-Optimization + Batteries
+
+Introduction – ERCOT’s Analysis and Conclusion
+•
+
+To inform appropriate duration needs for every Ancillary Service type under
+Real Time Co-optimization (RTC) paradigm, ERCOT has conducted analysis
+of the (1) duration of historic risks that drive the need for these reserves and
+(2) length of historic deployment events, some of these deployments
+occurred in response to the sustained risks.
+
+•
+
+Below is a summary of the minimum duration for various Ancillary Service
+types that ERCOT is recommending based on this analysis. Red text identify
+values that are different from or not stated in the current RTC Protocols.
+
+Ancillary Service Type
+Regulation Service*
+Responsive Reserve Service
+(excluding FFR)
+ERCOT Contingency Reserve
+Service
+Non-Spinning Reserve Service
+
+Real-Time
+Protocol
+Duration
+Reference
+30 minutes
+8.1.1.3.1 (2)
+
+Qualification
+RUC
+Protocol
+Duration Award and
+Duration
+Reference
+Deployment
+30 minutes
+8.1.1.2.1.1 (5)
+1 hour
+
+30 minutes
+
+8.1.1.3.2 (4)
+
+30 minutes
+
+8.1.1.2.1.2 (9)
+
+1 hour
+
+1 hour
+
+8.1.1.3.4 (2)
+
+1 hour
+
+8.1.1.2.1.7 (3)
+
+1 hour
+
+4 hours
+
+8.1.1.3.3 (2)
+
+4 hours
+
+8.1.1.2.1.3 (8)
+
+1 hour
+
+*Note FRRS is being eliminated with RTC.
+PUBLIC
+
+22
+
+ESR Participation in the DAM with the RTC+B Project
+1. EB/OCs for the ESR is input to DAM. Resource-specific DAM energy sales
+and purchases that are cleared are cleared at the Resource Node of the ESR.
+2. State of Charge (SOC) is not considered in the clearing for Energy and
+Ancillary Services in the DAM. (If not careful, a QSE representing ESRs could
+“oversell” its capability in DAM. Financial Exposure is based on imbalance
+between DAM and Real-Time. [DAM Ancillary Service awards, Real-Time
+Ancillary Service awards, self-arrangement of Ancillary Services, and trades].)
+3. The ESR will be awarded DAM Resource-specific energy sales and
+purchases and Resource-specific Ancillary Service sales.
+
+4. Fast Responding Regulation Service (FRRS) is no longer a subset of
+Regulation.
+5. For details on how the DAM will “convert” various EB/OCs; See 2-7-25
+RTCBTF “DAM ESR Offers” presentation:
+https://www.ercot.com/files/docs/2025/02/07/7b.%20ESRs%20in%20DAM.pptx
+
+PUBLIC
+
+23
+
+Real-Time Market With the Implementation of the RTC+B Project (1 of 2)
+1. EB/OCs for the ESR and the Ancillary Service offers are input data to SCED
+process. EB/OCs can be updated anytime. SCED uses the most recent EB/OC that is
+available in the database and the telemetered physical capability of the resource in
+determining awards (along with other information).
+2. SCED incorporates SOC accounting within the optimization. This is to ensure that
+awards to ESRs are feasible and that there is sufficient energy to sustain the MW
+awards for energy (Base Points) and Ancillary Services for their respective SCED
+duration requirements. SCED will not violate the telemetered minimum and maximum
+SOC values for ESRs.
+3. The awards for each Resource are limited based on the Resource’s qualification,
+telemetered physical capabilities, SoC information, ramp rates, and duration
+requirements for each Ancillary Service type. This is different from today where it is
+the QSE’s responsibility to ensure sufficient SoC is reserved to cover their Ancillary
+Service Responsibility and duration requirements. Multiple Ancillary Service types and
+energy can be awarded to an ESR in a SCED execution.
+4. QSE management of Ancillary Service responsibility across their portfolio no longer
+exists.
+
+PUBLIC
+
+24
+
+Real-Time Market With the Implementation of the RTC+B Project (2 of 2)
+
+1. 6.6.5.5 ESR Set Point Deviation Charge for Over Performance
+The tolerance is the greater of 3% of the Average Aggregated Set Point
+(AASP) for the ESR in the Settlement Interval, or three MW above the
+AASP for the ESR in the Settlement Interval.
+2. 6.6.5.5.1 ESR Set Point Deviation Charge for Under Performance
+The tolerance is the lesser of 3% of the AASP for the ESR in the
+Settlement Interval, or three MW below the AASP for the ESR in the
+Settlement Interval.
+
+Key Takeaway: The Set Point Deviation calculation implemented with the RTC+B
+Project is less tolerant than the current Base Point Deviation calculation.
+
+PUBLIC
+
+25
+
+RUC with Implementation of RTC+B Project
+1. DRUC and HRUC will be the tools to assess if enough capacity is available
+(and in the right locations) to ensure RTC SCED will have enough capacity
+(and State of Charge) to solve for energy and Ancillary Services.
+
+2. Similar to today, ESRs will NOT be seen as OFF and are therefore NOT
+available to be RUCed. In other words, the RUC software will NOT RUC an
+ESR to come online. (ESRs should have a status of “ON”, “ONOS” “ONTEST”,
+“ONEMR”, “ONHOLD” or “OUT.” “OUT” should be used only if the resource is
+“broken.”)
+3. In evaluating the capability of the online Resources (and those shown off-line),
+the full capability of the Resources (including ESRs) planned to be available will
+be “fair game” for the RUC software. In other words, with the RTC+B
+implementation the RUC software will not assume Ancillary Services are carried
+by any particular Resource and will consider all possibilities of where to carry
+Ancillary Services for future hours.
+
+PUBLIC
+
+26
+
+RUC with Implementation of RTC+B Project: Continued
+4. The RUC software will use the Hour Beginning SoC (HB SoC) provided by the QSEs in
+their COPS for each ESR to appropriately limit the possible use/capability of each ESR.
+5. The RUC process self-schedules ESRs to their HB SoC. The process of self-scheduling
+evaluates the change in the COP submitted HB SoC (change in stored energy SoC) across
+two consecutive hours and determines the best use of that change in energy – combination
+of charging or discharging the ESR as Base Points and/or procuring Ancillary Services
+considering Deployment Factors for that hour. Deployment Factors (DFs) are used to
+simulate deployment of Ancillary Services for an hour. (Deployment Factors could be
+0, 1 or between 0 and 1. There will be a projected DF for each AS and for each hour.)
+6. The RUC Capacity Short calculations use optimization techniques to minimize a QSE’s
+potential energy and/or Ancillary Service shortfall. This optimization process, will also
+consider the change in the COP submitted HB SOC across consecutive hours for an ESR
+to determine the best use of that change in energy to cover the QSE’s energy and
+Ancillary Services position for each hour in the RUC study period.
+7. Links to background information on RUC Capacity Short Calculation:
+
+PUBLIC
+
+•
+
+RTC B Modifications to RUC Capacity Short Calcs 02192024 v2.pptx
+
+•
+
+RTC B Additional examples RUC Capacity Short Calcs 03172024 v1.pptx
+
+27
+
+Repeat of Potentially Helpful Links Provided in Previous Slides
+1.
+
+Link to Single Model Names for existing ESRs: https://www.ercot.com/files/docs/2025/02/14/single-model-esrnames_16Jun2025.xlsx
+
+2.
+
+Data collection through DocuSign was sent to the Authorized Representative as stated in the Market Notice
+https://www.ercot.com/services/comm/mkt_notices/M-A071024-02.
+
+3.
+
+Other Registration Relevant References:
+https://www.ercot.com/files/docs/2024/08/21/RIWG_ERCOT_ESR_RFI_Updates_Aug24.pptx
+
+4.
+
+Link to the presentation made at the June 20, 2025, Performance Disturbance Compliance Working Group (PDCWG)
+meeting: https://www.ercot.com/files/docs/2025/06/19/AS-Qualification-Transistion-to-ESR-Single-model_PDCWG.pptx
+
+5.
+
+On or around July 23, 2025, there should be a presentation posted at this link: https://www.ercot.com/calendar/07232025RTCBTF-Meeting
+
+6.
+
+For details on how the DAM will “convert” various EB/OCs; See 2-7-25 RTCBTF “DAM ESR Offers” presentation:
+https://www.ercot.com/files/docs/2025/02/07/7b.%20ESRs%20in%20DAM.pptx
+
+7.
+
+Links to background information on RUC Capacity Short Calculation:
+
+•
+•
+
+PUBLIC
+
+RTC B Modifications to RUC Capacity Short Calcs 02192024 v2.pptx
+RTC B Additional examples RUC Capacity Short Calcs 03172024 v1.pptx
+
+28
+
+Thank You!
+
+PUBLIC
+
+29
+
+

@@ -1,0 +1,157 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS
+§25.508. Reliability Standard for the Electric Reliability Council of Texas (ERCOT) Region.
+(a)
+
+Definitions. The following words and terms, when used in this section, have the following meanings,
+unless the context indicates otherwise.
+(1)
+Exceedance tolerance -- the maximum acceptable percentage of simulations in which the
+modeled ERCOT system experiences a loss of load event that exceeds the threshold for a given
+criterion of the reliability standard.
+(2)
+Loss of load event -- an occurrence when the system-wide firm load plus minimum operating
+reserves required to avoid an energy emergency alert level three event is greater than the
+available resource capacity to serve that load, resulting in involuntary load shed.
+(3)
+Transmission operator -- has the same meaning as defined in the ERCOT protocols.
+(4)
+Weatherization effectiveness -- the assumed percentage reduction in the amount of weatherrelated unplanned outages for generation resources and energy storage resources included in
+the model, due to compliance with the weatherization standards in §25.55 of this title (relating
+to Weather Emergency Preparedness).
+
+(b)
+
+Reliability standard for the ERCOT region. The bulk power system for the ERCOT region meets
+the reliability standard if an ERCOT probability-based model simulation demonstrates that the system
+meets each of the criteria provided in this subsection.
+(1)
+Frequency. The expected loss of load events for the ERCOT region must be equal to or less
+than one event per ten years on average, i.e., 0.1 loss of load expectation (LOLE).
+(2)
+Duration. The maximum expected length of a loss of load event for the ERCOT region,
+measured in hours, must be less than 12 hours, with a 1.00 percent exceedance tolerance.
+(3)
+Magnitude. The expected highest level of load shed during a loss of load event for the ERCOT
+region, measured as the average lost load for a given hour, must be less than the maximum
+number of megawatts of load shed that can be safely rotated during a loss of load event, as
+determined by ERCOT, in consultation with commission staff and the transmission operators,
+with a 1.00 percent exceedance tolerance. Beginning in 2024, on or before December 1 of
+each year, ERCOT must file the maximum number of megawatts of load shed that can be
+safely rotated during a loss of load event and a summary of the methodology used to calculate
+this value.
+
+(c)
+
+Reliability assessment. Beginning January 1, 2026, ERCOT must initiate an assessment to determine
+whether the bulk power system for the ERCOT region is meeting the reliability standard and is likely
+to continue to meet the reliability standard for the three years following the date of assessment. The
+assessment must be conducted at least once every three years.
+(1)
+Modeling assumptions.
+(A)
+Before conducting the assessment, ERCOT must file a comprehensive list of
+proposed modeling assumptions to be used in the reliability assessment. The proposed
+assumptions must include:
+(i)
+the number of historic weather years that will be included in the modeling;
+(ii)
+the amount of new resources and retirements, in megawatts, listed by
+resource type;
+(iii)
+the weatherization effectiveness; and
+(iv)
+any other assumptions that would impact the modeling results, along with
+an explanation of the possible impact of the additional assumptions.
+(B)
+Commission staff will provide interested persons with at least 30 days from the date
+ERCOT files its proposed modeling assumptions to file comments recommending
+modifications to ERCOT’s proposed modeling assumptions. Commission staff may
+include filing requirements or additional questions for comment.
+
+§25.508-1
+
+effective 9/29/24
+(P 54584)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS
+(C)
+
+(2)
+
+(3)
+
+After reviewing filed comments, ERCOT, in consultation with commission staff,
+must file its final recommended modeling assumptions for commission review.
+Commission staff may provide a separate recommendation on ERCOT’s final
+recommended modeling assumptions for the commission’s consideration.
+Assessment components.
+(A)
+ERCOT’s assessment must include review and analysis of the resource fleet, loads,
+and other system characteristics for the ERCOT region for the following points in
+time:
+(i)
+the current year’s system configuration; and
+(ii)
+the expected system configuration three years from the date of the current
+year’s system analysis.
+(B)
+The assessment results must include, at a minimum, the following metrics for each
+point in time:
+(i)
+the LOLE;
+(ii)
+the probability of a loss of load event exceeding the duration threshold
+established in subsection (b)(2) of this section;
+(iii)
+the probability of a loss of load event exceeding the magnitude threshold
+established in subsection (b)(3) of this section;
+(iv)
+the expected unserved energy; and
+(v)
+the normalized expected unserved energy.
+Commission review and determination.
+(A)
+ERCOT must file its assessment with the commission, including any information
+required under subparagraph (C)(i) of this paragraph.
+(B)
+Commission staff will provide interested persons with at least 30 days from the date
+ERCOT files its assessment to file comments on ERCOT’s assessment. Commission
+staff may include filing requirements or additional questions for comment.
+(C)
+If the assessment shows that any reviewed system fails to meet the reliability standard
+described in subsection (b) of this section:
+(i)
+ERCOT must provide the commission with a summary explanation of any
+identified deficiencies and its supporting analysis. ERCOT must also
+provide the commission with a menu of proposed recommended market
+design changes, including a primary recommendation, that are intended to
+address the identified deficiencies. ERCOT must provide the commission
+with the expected system costs associated with each of its proposed
+recommended changes;
+(ii)
+the independent market monitor must conduct an independent review of
+ERCOT’s proposed recommended market design changes, including
+associated expected system costs for each proposed recommended change,
+and file its review no later than the deadline established in subparagraph (B)
+of this paragraph; and
+(iii)
+commission staff must provide a recommendation to the commission,
+considering expected system costs and reliability benefits, on whether any
+market design changes or other changes may be necessary to address the
+deficiency.
+(D)
+The commission will review ERCOT’s assessment and any recommendations, the
+independent market monitor’s review, commission staff’s recommendations, and
+stakeholder comments to determine whether any market design changes may be
+necessary.
+
+§25.508-2
+
+effective 9/29/24
+(P 54584)
+
+

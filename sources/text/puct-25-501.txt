@@ -1,0 +1,162 @@
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter S.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+WHOLESALE MARKETS.
+
+§25.501. Wholesale Market Design for the Electric Reliability Council of Texas.
+(a)
+
+General. The protocols and other rules and requirements of the Electric Reliability Council of Texas
+(ERCOT) that implement this section shall be developed with consideration of microeconomic
+principles and shall promote economic efficiency in the production and consumption of electricity;
+support wholesale and retail competition; support the reliability of electric service; and reflect the
+physical realities of the ERCOT electric system. Except as otherwise directed by the commission,
+ERCOT shall determine the market clearing prices of energy and other ancillary services that it
+procures through auctions and the congestion rents that it charges or credits, using economic concepts
+and principles such as: shadow price of a constraint, marginal cost pricing, and maximizing the sum
+of consumer and producer surplus.
+
+(b)
+
+Bilateral markets and default provision of energy and ancillary capacity services. ERCOT shall
+permit market participants to self-arrange (self-schedule or bilaterally contract for) energy and
+ancillary capacity services, except to the extent that doing so would adversely impact ERCOT’s
+ability to maintain reliability. To the extent that a market participant does not self-arrange the energy
+and ancillary capacity services necessary to meet its obligations or to the extent that ERCOT
+determines that the market participant’s self-arranged ancillary services will not be delivered, ERCOT
+shall procure energy and ancillary capacity services on behalf of the market participant to cover the
+shortfall and charge the market participant for the services provided.
+
+(c)
+
+Day-ahead energy market. ERCOT shall operate a voluntary day-ahead energy market, either
+directly or through contract.
+
+(d)
+
+Adequacy of operational information. ERCOT shall require resource-specific bid curves for energy
+and ancillary capacity services that it competitively procures in the day-ahead or operating day, and
+ERCOT shall use these bid curves or ex-ante mitigated bid curves to address market failure, as
+appropriate, in its operational decisions and financial settlements.
+
+(e)
+
+Congestion pricing.
+(1)
+ERCOT shall directly assign all congestion rents to those resources that caused the
+congestion.
+(2)
+ERCOT shall be considered to have complied with paragraph (1) of this subsection if it
+complies with this paragraph. ERCOT shall settle each resource imbalance at its nodal
+locational marginal price (LMP) calculated pursuant to subsection (f) of this section; each
+load imbalance at its zonal price calculated pursuant to subsection (h) of this section; and
+congestion rents on each scheduled transaction for a resource and load pair at the difference
+between the nodal LMP at the resource injection location calculated pursuant to subsection
+(f) of this section and the zonal price at the load withdrawal location calculated pursuant to
+subsection (h) of this section.
+
+(f)
+
+Nodal energy prices for resources. ERCOT shall use nodal energy prices for resources. Nodal
+energy prices for resources shall be the locational marginal prices, consistent with subsection (e) of
+this section, resulting from security-constrained, economic dispatch.
+
+(g)
+
+Energy trading hubs. ERCOT shall provide information for energy trading hubs by aggregating
+nodes and calculating an average price for each aggregation, for each financial settlement interval.
+
+(h)
+
+Zonal energy prices for loads. ERCOT shall use zonal energy prices for loads that consist of an
+aggregation of either the individual load node energy prices within each zone or the individual
+§25.501--1
+
+effective date 4/18/12
+(P39917)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter S.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+WHOLESALE MARKETS.
+
+resource node energy prices within each zone. Individual load node or resource node energy prices
+shall be the locational marginal prices, consistent with subsection (e) of this section, resulting from
+security-constrained, economic dispatch. ERCOT shall maintain stable zones and shall notify market
+participants in advance of zonal boundary changes in order that the market participants will have an
+appropriate amount of time to adjust to the changes.
+(i)
+
+Congestion rights. ERCOT shall provide congestion revenue rights (CRRs), but shall not provide
+physical transmission rights. ERCOT shall auction all CRRs, using a simultaneous combinatorial
+auction, except as otherwise ordered by the commission for any preassigned CRRs approved by the
+commission. CRRs shall not be subject to “use-it-or-lose-it” or “schedule-it-or-lose-it” restrictions
+and shall be tradable.
+
+(j)
+
+Pricing safeguards. ERCOT shall apply pricing safeguards to protect against market failure,
+including market power abuse, consistent with direction provided by the commission.
+
+(k)
+
+Simultaneous optimization of ancillary capacity services. For ancillary capacity services that it
+competitively procures in the day-ahead or operating day, ERCOT shall use simultaneous
+optimization and shall set prices for each service to the corresponding shadow price.
+
+(l)
+
+Multi-settlement system for procuring energy and ancillary capacity services. For any energy
+and ancillary capacity services that it competitively procures in the day-ahead or operating day,
+ERCOT shall set a separate market clearing price for each procurement of a particular service.
+
+(m)
+
+Energy Storage.
+(1)
+For a storage facility that has more than one delivery point, ERCOT shall net the impact of
+those delivery points on the ERCOT system for settlement purposes.
+(2)
+Wholesale storage occurs when electricity is used to charge a storage facility; the storage
+facility is separately metered from all other facilities including auxiliary facilities; and energy
+from the electricity is stored in the storage facility and subsequently re-generated and sold at
+wholesale as energy or ancillary services. Wholesale storage is wholesale load and ERCOT
+shall settle it accordingly, except that ERCOT shall settle wholesale storage using the nodal
+energy price at the electrical bus that connects the storage facility to the transmission system,
+or if the storage facility is connected at distribution voltage, the nodal price of the nearest
+electrical bus that connects to the transmission system. Wholesale storage is not subject to
+retail tariffs, rates, and charges or fees assessed in conjunction with the retail purchase of
+electricity. Wholesale storage shall not be subject to ERCOT charges and credits associated
+with ancillary service obligations, or other load ratio share or per megawatt-hour based
+charges and allocations. The owner or operator of electric storage equipment or facilities
+shall not make purchases of electricity for storage during a system emergency declared by
+ERCOT unless ERCOT directs that such purchases occur.
+
+§25.501--2
+
+effective date 4/18/12
+(P39917)
+
+

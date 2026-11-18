@@ -1,0 +1,12 @@
+{
+ "id": "eia-tx-gas-2021",
+ "title": "Texas uses natural gas for electricity generation and home heating (Today in Energy)",
+ "publisher": "U.S. Energy Information Administration",
+ "tier": 2,
+ "edition": null,
+ "url": "https://www.eia.gov/todayinenergy/detail.php?id=47116",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 53748,
+ "raw_sha256": "66304f13e82294e891eb53d04adccccbc7119b90fcc479ed3ac8a2778a77d288",
+ "text_chars": 8159
+}

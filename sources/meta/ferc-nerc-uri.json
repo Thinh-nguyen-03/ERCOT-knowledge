@@ -1,0 +1,12 @@
+{
+ "id": "ferc-nerc-uri",
+ "title": "The February 2021 Cold Weather Outages in Texas and the South Central United States (FERC-NERC-Regional Entity Staff Report)",
+ "publisher": "FERC / NERC",
+ "tier": 2,
+ "edition": "November 2021",
+ "url": "https://nerc.com/pa/rrm/ea/Documents/February_2021_Cold_Weather_Report.pdf",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 16551246,
+ "raw_sha256": "fde426b557cb57aab4b3c8318363ff4d018015a7e2b3457b9245e85cc80c9d76",
+ "text_chars": 668738
+}

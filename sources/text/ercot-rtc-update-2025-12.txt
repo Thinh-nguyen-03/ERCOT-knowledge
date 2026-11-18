@@ -1,0 +1,253 @@
+•
+
+Purpose
+Provide status on the implementation of Real-Time
+Co-optimization plus Batteries (RTC+B) Program for
+December 5, 2025.
+
+•
+
+For Information Only
+No action is requested of the ERCOT Board; for
+discussion only
+
+PUBLIC
+
+Item 10: Real-Time
+Co-optimization Update
+Matt Mereness
+Senior Director, Market Operations and
+Implementation
+Board of Directors Meeting
+
+Key Takeaways
+• October/November trials/readiness activities
+completed successfully, including Oct 30
+production test
+
+December 8-9, 2025
+
+•
+
+Status of go-live for December 5, 2025
+
+*Revised 12/07/25 (Slides 6-9)
+
+•
+
+Stabilization of RTC+B (near-term and long-term)
+
+Item 10
+PUBLIC
+
+Agenda
+Update for RTC+B Program includes
+1
+
+RTC+B Task Force and Market Trials summary since Sept Board
+
+2
+
+Go-Live Cutover Update
+
+3
+
+Stabilization and Next Steps
+
+RTC+B is most significant market design change since 2010 (zonal to nodal) and requires extended
+market trials ensure collective success and reliability for Real-Time Market and dispatch.
+
+2
+
+Item 10
+PUBLIC
+
+RTC+B Task Force Update
+Policy issues and Readiness activities completed for Go-Live on time
+
+Market Trials
+
+3
+
+Item 10
+
+RTC+B Market Trial Progression
+
+March/April
+2025
+
+Market trials are a progression of activities to mitigate the risk for Go-Live on new
+systems and processes for both the Market Participants & ERCOT.
+
+QSE/Vendor Submission Sandbox and
+Telemetry Points added Prod EMS model.
+
+PUBLIC
+
+Start
+5/5/25
+May 2025
+
+Start
+7/7/25
+June 2025
+
+July 2025
+
+30-day Market
+Notice
+Go-Live
+11/5/25
+12/5/25*
+
+Start
+9/2/25
+Aug 2025
+
+Sep 2025
+
+Oct 2025
+
+Nov 2025
+
+Dec 2025
+
+QSE Scorecards & Exit Criteria for each Trial Phase
+
+#1 RTC QSE Submission Testing
+(Submit COP, RT AS Offers,
+DAM Virtual AS, Outages for ESRs)
+
+#2 RTC QSE Telemetry Checkout
+
+(QSEs add/verify new telemetry
+points for UDSP, New ramp
+rates, ESR telemetry)
+
+#3 Open-loop RTC SCED
+
+(QSE offers, SCED nonbinding award/dispatch)
+
+#4 QSE Telemetry Tests
+
+(Individual QSE to follow UDSP
+and support new ramp rate and
+ESR telemetry)
+
+#5 Ongoing Open-Loop
+& Periodic Closed-loop
+SCED/LFC
+(QSE RTC offers and telemetry
+to support closed-loop
+frequency control test 2-3 tests
+of 2-4 hour durations)
+
+#6 Day-Ahead Market
+(Non-binding DAM using QSE
+offers for at least 2 tests)
+
+Transition to
+Go-Live
+Upon
+completion of
+testing,
+confirmation
+of ERCOT
+and market
+readiness for
+Go-Live.
+
+* Go-Live date reflects 12/5/2025 as first Operating Day
+where 12/4/2025 is planned software migration.
+
+4
+
+Item 10
+PUBLIC
+
+Key activities leading up to Go-Live
+ERCOT successfully conducted the second/final RTC+B
+Production Test on Oct 30, 2025 from 10:35am-12:35pm to
+manage the Real-Time Market and Load Frequency
+Control systems:
+-
+
+Frequency control was improved, QSE performance improved,
+and no new issues during test
+
+Multiple November Cutover Workshops
+Weekly Market Calls through Thanksgiving
+Daily cutover calls during Go-Live week
+
+5
+
+Item 10
+PUBLIC
+
+Cutover Summary
+9am-3am Webex for QSEs with resources:
+• QSE Telemetry cutover took less than 5-minutes to get the 95 QSEs cutover
+• QSE Market Submissions end point change took almost two hours to get the QSEs cutover
+- Mitigated ahead of time by requiring dual market submissions for QSEs
+6:30am-10am Webex for QSEs without resources
+- Support market submissions for QSEs prior to Day-Ahead Market
+- No significant issues reported by QSEs
+Ran Day-Ahead Market and published on time, as well as Reliability Unit Commitment
+- Potential DAM price correction identified by Price Validation Tools (~$1.00/MWh) and
+defect fixed next day
+Some other issues identified after go-live and planning for additional releases ahead of Dec 19,
+2025 for subset of key issues
+Successfully coordinated cutover internally and externally.
+6
+
+Item 10
+PUBLIC
+
+System Operations Summary (first 48-hours)
+
+SCED was able to award energy and procure Ancillary Services at or above plan level during all intervals over the first
+48 hours post deployment. Minimum PRC Total was 7,272 MW on 12/6/25 around 7:40 am. Further, Load Frequency
+Control (LFC) was able to control Frequency within NERC requirements. Hourly Average CPS1 score during this
+periods was 184.
+There were 2 unit trips during the last 48 hours, the grid was able to arrest frequency and restore under 15 minutes.
+On 12/6/25 at 16:43, the available headroom not carrying reserves was insufficient to meet the 30 minute ahead
+forecasted Net Load. 1,415 MWs of offline Non-Spin was deployed. The deployment lasted for 1 hour and 31 minutes.
+In the 1600 hour wind and solar generations were lower than forecasted, resulting in an offline non-spin deployment.
+
+RTC+B System has been able to maintain reliable grid operations by awarding energy and
+procuring AS.
+
+7
+
+Item 10
+PUBLIC
+
+Market Operations Summary (first 48-hours)
+
+RTC+B is co-optimizing energy and all Ancillary Services every 5 minutes
+Day-Ahead Market prices were higher that Real-Time Market OD 12/5, and lower on OD 12/6
+ERCOT continuing to closely evaluate market outcomes to ensure accuracy and quality in
+solutions.
+
+8
+
+Item 10
+PUBLIC
+
+Next Steps: Stabilization & Transition to normal processes
+From Program perspective
+- ERCOT filing Protocol violations and corresponding mitigation plans with PUCT (currently 5 identified)
+- Next 2 weeks are critical for emergency fixes to stabilize systems
+- First few months of 2026 will include multiple releases for remaining non-critical defects
+From Stakeholder perspective
+- ERCOT to sponsor any urgent Revision Requests for gaps identified (e.g., NPRR1311)
+- Coordinate and prioritize the key RTCBTF issues to transition to TAC (analysis of Ancillary Service
+Deployment Factors, Ancillary Service Demand Curves, and other important issues to monitor)
+- Working with TAC leadership on the timing of retiring RTCBTF
+
+ERCOT appreciates the unified support of the PUCT, Board, TAC, and stakeholder community on
+this large program implementation
+
+9
+
+

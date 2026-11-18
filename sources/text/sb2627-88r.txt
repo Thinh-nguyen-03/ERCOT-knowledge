@@ -1,0 +1,3585 @@
+S.B.ANo.A2627
+
+AN ACT
+
+1
+2
+
+relating
+
+to
+
+funding
+
+mechanisms
+
+to
+
+support
+
+the
+
+construction,
+
+3
+
+maintenance, modernization, and operation of electric generating
+
+4
+
+facilities.
+
+5
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF TEXAS:
+
+6
+
+SECTIONA1.AAThis
+
+7
+
+cited
+
+as
+
+the
+
+Powering
+
+Texas
+
+by adding Chapter 34Ato read as follows:
+CHAPTER 34.
+SUBCHAPTER A.
+
+11
+
+FACILITY FUNDING
+
+TEXAS ENERGY FUND; GRANTS AND LOANS
+
+Sec.A34.0101.AADEFINITIONS.
+
+12
+
+In this subchapter:
+
+(1)AA"Advisory committee" means the Texas Energy Fund
+
+13
+
+Advisory Committee.
+(2)AA"Fund" means the Texas energy fund established by
+
+15
+16
+
+be
+
+SECTIONA2.AASubtitle B, Title 2, Utilities Code, is amended
+
+10
+
+14
+
+may
+
+Forward Act.
+
+8
+9
+
+Act
+
+Section 49-q, Article III, Texas Constitution.
+(3)AA"Trust
+
+17
+
+company"
+
+18
+
+Safekeeping Trust Company.
+
+19
+
+Sec.A34.0102.AAFUND.
+
+(a)
+
+means
+
+the
+
+Texas
+
+Treasury
+
+The fund is a special fund in the
+
+20
+
+state treasury outside the general revenue fund to be administered
+
+21
+
+and used by the commission for the purposes authorized by this
+
+22
+
+chapter.
+
+23
+
+fund.
+
+24
+
+The commission may establish separate accounts in the
+
+(b)AAThe fund and the fund ’s accounts are kept and held by the
+
+1
+
+S.B.ANo.A2627
+1
+
+trust company for and in the name of the commission.
+(c)AAMoney deposited to the credit of the fund may be used
+
+2
+3
+
+only as provided by this chapter.
+
+4
+
+(d)AAThe fund consists of:
+(1)AAmoney
+
+5
+
+appropriated,
+
+credited,
+
+transferred,
+
+or
+
+6
+
+deposited to the credit of the fund by or as authorized by law,
+
+7
+
+including money from any source transferred or deposited to the
+
+8
+
+credit of the fund at the commission ’s discretion;
+(2)AArevenue that the legislature by statute dedicates
+
+9
+10
+
+for deposit to the credit of the fund;
+(3)AAinvestment earnings and interest earned on money
+
+11
+12
+
+in the fund; and
+(4)AAgifts, grants, and donations contributed to the
+
+13
+14
+
+fund.
+Sec.A34.0103.AAGRANTS
+
+15
+
+(a)
+
+FOR
+
+FACILITIES
+
+OUTSIDE
+
+ERCOT
+
+POWER
+
+16
+
+REGION.
+
+The commission may use money in the fund without
+
+17
+
+further appropriation to provide grants to be used for transmission
+
+18
+
+and distribution infrastructure and electric generating facilities
+
+19
+
+in this state outside the ERCOT power region for:
+
+20
+
+(1)AAfacility modernization;
+
+21
+
+(2)AAfacility weatherization;
+
+22
+
+(3)AAreliability and resiliency facility enhancements;
+
+23
+24
+25
+26
+27
+
+or
+(4)AAvegetation management.
+(b)AAIn evaluating an application for a grant under this
+section, the commission:
+(1)AAshall evaluate whether the project for which the
+
+2
+
+S.B.ANo.A2627
+1
+
+grant is requested is reasonable; and
+(2)AAmay consider any other appropriate factors.
+
+2
+
+(c)AAInformation
+
+3
+
+submitted
+
+to
+
+the
+
+commission
+
+in
+
+an
+
+4
+
+application for a grant under this section is confidential and not
+
+5
+
+subject to disclosure under Chapter 552, Government Code.
+(d)AAProceeds of a grant received under this section may not
+
+6
+7
+
+be used for:
+(1)AAcompliance with weatherization standards adopted
+
+8
+9
+
+before December 1, 2023; or
+(2)AAdebt payments.
+
+10
+
+FOR
+
+Sec.A34.0104.AALOANS
+
+11
+
+ERCOT
+
+POWER
+
+REGION.
+
+(a)
+
+The
+
+12
+
+commission may use money in the fund without further appropriation
+
+13
+
+to
+
+14
+
+electric generating facilities providing power for the ERCOT power
+
+15
+
+region that result in a net increase of at least 100 megawatts of
+
+16
+
+capacity for each facility or the construction of dispatchable
+
+17
+
+electric generating facilities providing power for the ERCOT power
+
+18
+
+region
+
+19
+
+megawatts.
+
+20
+
+is considered to be dispatchable if the facility ’s output can be
+
+21
+
+controlled primarily by forces under human control.
+
+An electric
+
+22
+
+energy
+
+under
+
+23
+
+section.
+
+24
+25
+
+provide
+
+loans
+
+that
+
+each
+
+to
+
+finance
+
+have
+
+a
+
+upgrades
+
+generation
+
+to
+
+existing
+
+capacity
+
+of
+
+dispatchable
+
+at
+
+least
+
+100
+
+For the purposes of this section, a generating facility
+
+storage
+
+facility
+
+is
+
+not
+
+eligible
+
+for
+
+a
+
+loan
+
+this
+
+(b)AAThe commission may provide a construction loan under
+this section only:
+
+26
+
+(1)AAfor construction of a facility that will have a
+
+27
+
+generation capacity of at least 100 megawatts and that does not meet
+
+3
+
+S.B.ANo.A2627
+1
+
+the planning model requirements necessary to be included in the
+
+2
+
+Capacity Demand and Reserves Report of the independent organization
+
+3
+
+certified under Section 39.151 for the ERCOT power region before
+
+4
+
+June 1, 2023;
+(2)AAin an amount that does not exceed 60 percent of the
+
+5
+6
+
+estimated cost of the facility to be constructed; and
+(3)AAif the agreement ensures that the loan is to be the
+
+7
+8
+
+senior debt secured by the facility.
+(c)AAThe commission shall evaluate an application for a loan
+
+9
+10
+
+under this section based on:
+(1)AAthe applicant ’s:
+
+11
+12
+
+(A)AAquality of services and management;
+
+13
+
+(B)AAefficiency of operations;
+
+14
+
+(C)AAhistory of electricity generation operations
+
+15
+
+in this state and this country;
+
+16
+
+(D)AAresource operation attributes;
+
+17
+
+(E)AAability to address regional and reliability
+
+18
+
+needs;
+
+19
+
+(F)AAaccess to resources essential for operating
+
+20
+
+the facility for which the loan is requested, such as land, water,
+
+21
+
+and reliable infrastructure, as applicable; and
+
+22
+
+(G)AAevidence of creditworthiness and ability to
+
+23
+
+repay the loan on the terms established in the loan agreement,
+
+24
+
+including
+
+25
+
+worth, and credit ratings issued by major credit rating agencies;
+
+26
+27
+
+the
+
+applicant ’s
+
+total
+
+assets,
+
+total
+
+liabilities,
+
+net
+
+(2)AAthe generation capacity and estimated costs of the
+project for which the loan is requested; and
+
+4
+
+S.B.ANo.A2627
+(3)AAany
+
+1
+2
+3
+
+other
+
+factors
+
+the
+
+commission
+
+considers
+
+appropriate.
+(d)AAOutstanding
+
+loans
+
+provided
+
+under
+
+this
+
+section
+
+and
+
+4
+
+grants provided under Section 34.0105, considered together, may not
+
+5
+
+support the addition or construction of more than 10,000 megawatts
+
+6
+
+of generation capacity.
+
+7
+8
+9
+
+(e)AAAn electric utility other than a river authority may not
+receive a loan under this section.
+(f)AAA loan provided under this section must:
+
+10
+
+(1)AAhave a term of 20 years;
+
+11
+
+(2)AAbe
+of
+
+the
+
+payable
+
+ratably
+
+starting
+
+estimated
+
+commercial
+
+on
+
+the
+
+operation
+
+date
+
+third
+
+12
+
+anniversary
+
+of
+
+the
+
+13
+
+facility for which the loan was provided, as stated in the loan
+
+14
+
+application; and
+(3)AAbear an interest rate of three percent.
+
+15
+16
+
+(g)AAThe commission shall require each recipient of a loan
+
+17
+
+under this section to deposit in an escrow account held by the
+
+18
+
+comptroller
+
+of
+
+the
+
+19
+
+estimated cost of the project for which the loan is provided.
+
+The
+
+20
+
+deposit must be made before the initial loan funds are disbursed.
+
+21
+
+The loan recipient may not withdraw the deposit unless authorized
+
+22
+
+by the commission.
+
+23
+24
+
+an
+
+amount
+
+of
+
+money
+
+equal
+
+to
+
+three
+
+percent
+
+(h)AAFor money deposited under Subsection (g) for a loan for
+the construction of a new facility, the commission:
+
+25
+
+(1)AAshall authorize the loan recipient to withdraw the
+
+26
+
+deposit from the escrow account if the facility for which the loan
+
+27
+
+was provided is interconnected in the ERCOT power region before the
+
+5
+
+S.B.ANo.A2627
+1
+
+fourth
+
+anniversary
+
+2
+
+disbursed; or
+
+of
+
+(2)AAafter
+
+3
+
+the
+
+the
+
+date
+
+fourth
+
+the
+
+initial
+
+loan
+
+anniversary
+
+of
+
+funds
+
+the
+
+date
+
+were
+
+the
+
+4
+
+initial loan funds were disbursed, may authorize the loan recipient
+
+5
+
+to withdraw the deposit from the escrow account if the facility for
+
+6
+
+which the loan was provided is interconnected in the ERCOT power
+
+7
+
+region not later than the fifth anniversary of the date the initial
+
+8
+
+loan
+
+9
+
+extenuating circumstances justify the delay in completion.
+
+10
+11
+
+funds
+
+were
+
+disbursed
+
+and
+
+the
+
+commission
+
+determines
+
+that
+
+(i)AAFor money deposited under Subsection (g) for a loan for
+an upgrade to an existing facility, the commission:
+
+12
+
+(1)AAshall authorize the loan recipient to withdraw the
+
+13
+
+deposit from the escrow account if the project for which the loan
+
+14
+
+was provided is completed before the third anniversary of the date
+
+15
+
+the initial loan funds were disbursed; or
+
+16
+
+(2)AAafter
+
+the
+
+third
+
+anniversary
+
+of
+
+the
+
+date
+
+the
+
+17
+
+initial loan funds were disbursed, may authorize the loan recipient
+
+18
+
+to withdraw the deposit from the escrow account if the project for
+
+19
+
+which the loan was provided is completed not later than the fourth
+
+20
+
+anniversary of the date the initial loan funds were disbursed and
+
+21
+
+the commission determines that extenuating circumstances justify
+
+22
+
+the delay in completion.
+
+23
+
+(j)AAThe comptroller shall deposit to the credit of the fund
+
+24
+
+any escrow funds described by Subsection (g) that the commission
+
+25
+
+may not authorize to be withdrawn by a loan recipient.
+
+26
+27
+
+(k)AAInformation
+
+submitted
+
+to
+
+the
+
+commission
+
+in
+
+an
+
+application for a loan under this section is confidential and not
+
+6
+
+S.B.ANo.A2627
+1
+2
+3
+
+subject to disclosure under Chapter 552, Government Code.
+(l)AAThe commission may not disburse the initial funds for a
+loan under this section after December 31, 2025.
+
+4
+
+(m)AAThis section expires September 1, 2050.
+
+5
+
+Sec.A34.0105.AACOMPLETION BONUS GRANTS.
+
+(a)
+
+The commission
+
+6
+
+shall provide, using money available in the fund for the purpose
+
+7
+
+without further appropriation, a completion bonus grant for the
+
+8
+
+construction of dispatchable electric generating facilities in the
+
+9
+
+ERCOT power region.
+
+For the purposes of this section, a generating
+
+10
+
+facility is considered to be dispatchable if the facility ’s output
+
+11
+
+can be controlled primarily by forces under human control.
+
+12
+
+electric energy storage facility is not eligible for a grant under
+
+13
+
+this section.
+
+An
+
+14
+
+(b)AAThe amount of a grant under this section must be based on
+
+15
+
+the megawatts of capacity provided to the ERCOT power region by the
+
+16
+
+facility.
+
+17
+18
+19
+20
+21
+
+(c)AAThe commission may provide a grant under this section
+only for construction of a facility that:
+(1)AAwill have a generation capacity of at least 100
+megawatts; and
+(2)AAdoes
+
+not
+
+meet
+
+the
+
+planning
+
+model
+
+requirements
+
+22
+
+necessary to be included in the Capacity Demand and Reserves Report
+
+23
+
+of the independent organization certified under Section 39.151 for
+
+24
+
+the ERCOT power region before June 1, 2023.
+
+25
+26
+27
+
+(d)AAThe commission shall evaluate an application for a grant
+under this section based on:
+(1)AAthe applicant ’s:
+
+7
+
+S.B.ANo.A2627
+1
+
+(A)AAquality of services and management;
+
+2
+
+(B)AAefficiency of operations;
+
+3
+
+(C)AAhistory of electricity generation operations
+
+4
+
+in this state and this country;
+
+5
+
+(D)AAresource operation attributes; and
+
+6
+
+(E)AAability to address regional and reliability
+
+7
+
+needs;
+(2)AAthe
+
+8
+9
+
+construction
+
+10
+
+requested; and
+
+13
+
+of
+
+(3)AAany
+
+11
+12
+
+costs
+
+generation
+the
+
+other
+
+capacity
+
+facility
+
+for
+
+factors
+
+the
+
+and
+
+which
+
+estimated
+
+the
+
+grant
+
+commission
+
+is
+
+considers
+
+appropriate.
+(e)AAInformation
+
+submitted
+
+to
+
+the
+
+commission
+
+in
+
+an
+
+14
+
+application for a grant under this section is confidential and not
+
+15
+
+subject to disclosure under Chapter 552, Government Code.
+
+16
+
+(f)AAUnless
+
+the
+
+17
+
+circumstances
+
+justify
+
+18
+
+subsection,
+
+19
+
+section of more than:
+
+the
+
+commission
+extending
+
+commission
+
+may
+
+determines
+
+that
+
+extenuating
+
+the
+
+deadlines
+
+provided
+
+not
+
+provide
+
+grant
+
+a
+
+by
+
+this
+
+under
+
+this
+
+20
+
+(1)AA$120,000 per megawatt of capacity provided by a
+
+21
+
+facility that is interconnected in the ERCOT power region before
+
+22
+
+June 1, 2026; or
+
+23
+
+(2)AA$80,000 per megawatt of capacity provided by a
+
+24
+
+facility that is interconnected in the ERCOT power region on or
+
+25
+
+after June 1, 2026, and before June 1, 2029.
+
+26
+27
+
+(g)AAUnless
+circumstances
+
+the
+
+justify
+
+commission
+extending
+
+8
+
+determines
+
+the
+
+deadline
+
+that
+
+extenuating
+
+provided
+
+by
+
+this
+
+S.B.ANo.A2627
+1
+
+subsection,
+
+the
+
+commission
+
+may
+
+not
+
+provide
+
+a
+
+grant
+
+under
+
+this
+
+2
+
+section for a facility that is interconnected in the ERCOT power
+
+3
+
+region on or after June 1, 2029.
+(h)AAThe commission shall provide for the proceeds of each
+
+4
+5
+
+grant
+
+awarded
+
+6
+
+recipient
+
+7
+
+begins on the first anniversary of the commercial operations date
+
+8
+
+of
+
+9
+
+payments are subject to being withheld or discounted in accordance
+
+10
+
+with Subsection (i). The total of the annual disbursements may not
+
+11
+
+exceed the maximum amount as limited by Subsection (f).
+
+the
+
+by
+
+under
+
+this
+
+equal
+
+annual
+
+facility
+
+(i)AAThe
+
+12
+
+for
+
+for
+
+section
+
+which
+
+commission
+
+payments
+
+the
+
+by
+
+be
+over
+
+grant
+
+rule
+
+is
+
+a
+
+10-year
+
+the
+
+grant
+
+period
+
+that
+
+provided.
+
+shall
+
+annual
+
+performance
+
+appropriate for the types of facilities for which grants may be
+
+15
+
+provided,
+
+16
+
+quantity of operating reserves for each year. The commission may
+
+17
+
+not disburse a grant recipient ’s annual payment under Subsection
+
+18
+
+(h) if the performance of the facility for which the grant was
+
+19
+
+provided
+
+20
+
+established under this subsection during a test period designated
+
+21
+
+by the commission for that year. The commission may disburse a
+
+22
+
+discounted
+
+23
+
+Subsection (h) if the performance of the facility for which the
+
+24
+
+grant
+
+25
+
+established under this subsection during a test period designated
+
+26
+
+by the commission for that year but less than an optimal performance
+
+27
+
+standard established by the commission. The commission shall by
+
+was
+
+equal
+
+amount
+
+to
+
+of
+
+provided
+
+or
+
+a
+
+is
+
+during
+
+below
+
+grant
+
+above
+
+the
+
+the
+
+on
+
+establish
+
+The
+
+14
+
+performance
+
+based
+
+to
+
+standards
+
+is
+
+recipients
+
+disbursed
+
+13
+
+for
+
+grant
+
+to
+
+100
+
+median
+
+recipient ’s
+
+the
+
+9
+
+median
+
+reliability
+
+hours
+
+with
+
+performance
+
+annual
+
+metrics,
+
+the
+
+standard
+
+payment
+
+performance
+
+least
+
+under
+
+standard
+
+S.B.ANo.A2627
+1
+
+rule
+
+adopt
+
+a
+
+system
+
+2
+
+commission
+
+3
+
+performance under this subsection.
+
+will
+
+for
+
+discount
+
+determining
+an
+
+annual
+
+the
+
+amount
+
+payment
+
+by
+
+based
+
+4
+
+(j)AAThis section expires December 1, 2040.
+
+5
+
+Sec.A34.0106.AALOAN AND GRANT RESTRICTIONS.
+
+which
+
+the
+
+on
+
+facility
+
+(a)
+
+If the
+
+6
+
+commission has more than four pending applications for loans to be
+
+7
+
+made from the fund on the date the commission awards a loan, the
+
+8
+
+amount of the loan awarded may not exceed 25 percent of the fund
+
+9
+
+balance on that date.
+
+10
+11
+
+(b)AAThe commission may not provide a loan or a grant under
+this chapter:
+(1)AAfor a facility that will be used primarily to serve
+
+12
+13
+
+an industrial load or private use network; or
+(2)AAfor the construction or operation of a natural gas
+
+14
+15
+
+transmission pipeline.
+
+16
+
+(c)AAThe commission shall require each recipient of a loan
+
+17
+
+under this chapter to enter into a debt covenant that requires the
+
+18
+
+recipient to meet facility performance standards adopted by the
+
+19
+
+commission.
+
+20
+
+standards for the purposes of this subsection based on reliability
+
+21
+
+metrics appropriate for the types of facilities for which loans may
+
+22
+
+be provided.
+
+The
+
+commission
+
+by
+
+rule
+
+shall
+
+adopt
+
+performance
+
+23
+
+(d)AAEach facility for which a loan or grant is provided
+
+24
+
+under Section 34.0104 or 34.0105 must participate in the ERCOT
+
+25
+
+wholesale electricity market.
+
+26
+27
+
+(e)AAThe commission may provide from the fund:
+(1)AAfor grants under Section 34.0103, not more than $1
+
+10
+
+S.B.ANo.A2627
+1
+
+billion;
+(2)AAfor loans and grants under Sections 34.0104 and
+
+2
+3
+
+34.0105, not more than $7.2 billion; and
+(3)AAfor grants or loans under Subchapter B, not more
+
+4
+5
+
+than $1.8 billion.
+Sec.A34.0107.AAMANAGEMENT AND INVESTMENT OF FUND.
+
+6
+
+(a)
+
+The
+
+7
+
+trust company shall hold and invest the fund, and any accounts
+
+8
+
+established in the fund, for and in the name of the commission,
+
+9
+
+taking into account the purposes for which money in the fund may be
+
+10
+
+used.
+
+The fund may be invested with the state treasury pool and
+
+11
+
+commingled with other investments.
+
+12
+
+(b)AAThe overall objective for the investment of the fund is
+
+13
+
+to maintain sufficient liquidity to meet the needs of the fund while
+
+14
+
+striving to preserve the purchasing power of the fund over a full
+
+15
+
+economic cycle.
+
+16
+
+(c)AAIn managing the assets of the fund, the trust company
+
+17
+
+may acquire, exchange, sell, supervise, manage, or retain any kind
+
+18
+
+of investment that a prudent investor, exercising reasonable care,
+
+19
+
+skill,
+
+20
+
+purposes,
+
+21
+
+circumstances
+
+22
+
+consideration the investment of all the assets of the fund rather
+
+23
+
+than a single investment.
+
+24
+25
+26
+27
+
+and
+
+caution,
+
+would
+
+terms,
+
+distribution
+
+of
+
+the
+
+acquire
+
+fund
+
+then
+
+or
+
+retain
+
+in
+
+light
+
+of
+
+the
+
+requirements,
+
+and
+
+other
+
+prevailing,
+
+taking
+
+into
+
+(d)AAThe reasonable expenses of managing the fund ’s assets
+shall be paid from the fund.
+(e)AAThe
+
+trust
+
+company
+
+annually
+
+shall
+
+provide
+
+a
+
+written
+
+report to the commission and to the advisory committee with respect
+
+11
+
+S.B.ANo.A2627
+1
+2
+
+to the investment of the fund.
+(f)AAThe
+
+trust
+
+company
+
+shall
+
+adopt
+
+a
+
+written
+
+investment
+
+3
+
+policy that is appropriate for the fund.
+
+4
+
+present the investment policy to the investment advisory board
+
+5
+
+established under Section 404.028, Government Code.
+
+6
+
+advisory board shall submit to the trust company recommendations
+
+7
+
+regarding the policy.
+
+8
+
+(g)AAThe
+
+9
+
+commission
+
+annually
+
+The trust company shall
+
+shall
+
+provide
+
+The investment
+
+to
+
+the
+
+trust
+
+company a forecast of the cash flows into and out of the fund.
+
+The
+
+10
+
+commission shall provide updates to the forecasts as appropriate to
+
+11
+
+ensure that the trust company is able to achieve the objective
+
+12
+
+specified by Subsection (b).
+
+13
+14
+15
+16
+
+(h)AAThe trust company shall disburse money from the fund as
+directed by the commission.
+Sec.A34.0108.AARECEIVERSHIP OF DEFAULT GENERATING FACILITY.
+(a) In this section, "default" means:
+(1)AAdefault in payment of the principal of or interest
+
+17
+18
+
+on a loan; or
+(2)AAa failure to perform any of the terms of a loan.
+
+19
+20
+
+(b)AAThe
+and
+
+state,
+the
+
+including
+
+trust
+
+the
+
+company,
+
+may
+
+commission,
+not
+
+retain
+
+the
+
+advisory
+
+an
+
+ownership
+
+21
+
+committee,
+
+22
+
+interest in a project or facility for which a loan is provided under
+
+23
+
+this chapter.
+
+24
+
+(c)AAIn the event of a default on a loan made under this
+
+25
+
+chapter, at the request of the commission, the attorney general
+
+26
+
+shall bring suit in a district court in Travis County for the
+
+27
+
+appointment of a receiver to collect the assets and carry on the
+
+12
+
+S.B.ANo.A2627
+1
+
+business of a loan recipient if the action is necessary to cure a
+
+2
+
+default by the recipient.
+(d)AAThe court shall vest a receiver appointed by the court
+
+3
+4
+
+with
+
+any
+
+power
+
+or
+
+duty
+
+the
+
+court
+
+finds
+
+5
+
+default, including the power or duty to:
+
+necessary
+
+to
+
+cure
+
+the
+
+6
+
+(1)AAperform audits;
+
+7
+
+(2)AAdirect ongoing operation of the assets;
+
+8
+
+(3)AAfund reserve accounts;
+
+9
+
+(4)AAmake payments of the principal of or interest on
+
+10
+
+bonds, securities, or other obligations; and
+(5)AAtake any other action necessary to prevent or to
+
+11
+12
+
+remedy the default, including the sale of assets.
+
+13
+
+(e)AAThe receiver shall execute a bond in an amount to be set
+
+14
+
+by the court to ensure the proper performance of the receiver ’s
+
+15
+
+duties.
+
+16
+
+(f)AAAfter appointment and execution of bond, the receiver
+
+17
+
+shall take possession of the books, records, accounts, and assets
+
+18
+
+of the defaulting loan recipient specified by the court.
+
+19
+
+discharged by the court, the receiver shall perform the duties that
+
+20
+
+the
+
+21
+
+involved.
+
+22
+23
+24
+25
+26
+27
+
+court
+
+directs
+
+(g)AAOn
+
+a
+
+and
+
+shall
+
+showing
+
+of
+
+strictly
+
+good
+
+cause
+
+observe
+
+by
+
+the
+
+the
+
+Until
+
+final
+
+order
+
+defaulting
+
+loan
+
+recipient, the court may dissolve the receivership.
+Sec.A34.0109.AATEXAS ENERGY FUND ADVISORY COMMITTEE.
+
+(a)
+
+The advisory committee is composed of the following six members:
+(1)AAthree
+
+members
+
+of
+
+lieutenant governor, including:
+
+13
+
+the
+
+senate
+
+appointed
+
+by
+
+the
+
+S.B.ANo.A2627
+(A)AAa
+
+1
+
+member
+
+of
+
+the
+
+committee
+
+of
+
+the
+
+senate
+
+2
+
+having primary jurisdiction over matters relating to the generation
+
+3
+
+of electricity; and
+(B)AAa
+
+4
+5
+
+member
+
+of
+
+the
+
+committee
+
+of
+
+the
+
+senate
+
+having primary jurisdiction over finance; and
+(2)AAthree
+
+6
+7
+
+appointed
+
+by
+
+8
+
+including:
+
+the
+
+members
+
+speaker
+
+of
+
+of
+
+the
+
+the
+
+house
+
+house
+
+of
+of
+
+representatives
+representatives,
+
+9
+
+(A)AAa member of the committee of the house of
+
+10
+
+representatives having primary jurisdiction over the generation of
+
+11
+
+electricity; and
+(B)AAa member of the committee of the house of
+
+12
+13
+
+representatives having primary jurisdiction over finance.
+(b)AAA member of the advisory committee serves at the will of
+
+14
+15
+
+the person who appointed the member.
+
+16
+
+(c)AAThe lieutenant governor shall appoint a co-presiding
+
+17
+
+officer of the advisory committee from among the members appointed
+
+18
+
+by
+
+19
+
+representatives
+
+20
+
+advisory committee from among the members appointed by the speaker.
+
+21
+
+(d)AAThe advisory committee may hold public hearings, formal
+
+the
+
+lieutenant
+
+governor.
+
+shall
+
+The
+
+appoint
+
+a
+
+speaker
+
+of
+
+co-presiding
+
+the
+
+house
+
+officer
+
+of
+
+of
+the
+
+22
+
+meetings, and work sessions.
+
+23
+
+advisory committee may call a public hearing, formal meeting, or
+
+24
+
+work session of the advisory committee at any time.
+
+25
+
+committee may not take formal action at a public hearing, formal
+
+26
+
+meeting,
+
+27
+
+present.
+
+or
+
+work
+
+session
+
+Either co-presiding officer of the
+
+unless
+
+14
+
+a
+
+quorum
+
+of
+
+the
+
+The advisory
+
+committee
+
+is
+
+S.B.ANo.A2627
+(e)AAExcept
+
+1
+
+the
+
+otherwise
+
+advisory
+
+provided
+
+committee
+
+is
+
+by
+
+not
+
+this
+
+subsection,
+
+entitled
+
+to
+
+a
+
+2
+
+member
+
+3
+
+compensation for service on the committee or reimbursement for
+
+4
+
+expenses incurred in the performance of official duties as a member
+
+5
+
+of the committee.
+
+6
+
+the senate or house of representatives is considered legislative
+
+7
+
+service for which the member is entitled to reimbursement and other
+
+8
+
+benefits in the same manner and to the same extent as for other
+
+9
+
+legislative service.
+
+10
+
+of
+
+as
+
+receive
+
+Service on the advisory committee by a member of
+
+(f)AAThe advisory committee:
+
+11
+
+(1)AAmay provide comments and recommendations to the
+
+12
+
+commission for the commission to use in adopting rules regarding
+
+13
+
+the use of the fund or on any other matter; and
+
+14
+15
+
+(2)AAshall review the overall operation, function, and
+structure of the fund at least semiannually.
+
+16
+
+(g)AAThe advisory committee may adopt rules, procedures, and
+
+17
+
+policies as needed to administer this section and implement its
+
+18
+
+responsibilities.
+
+19
+20
+21
+
+(h)AAChapter 2110, Government Code, does not apply to the
+size, composition, or duration of the advisory committee.
+(i)AAThe
+
+advisory
+
+committee
+
+is
+
+subject
+
+to
+
+Chapter
+
+325,
+
+22
+
+Government Code (Texas Sunset Act).
+
+23
+
+as provided by that chapter, the advisory committee is abolished
+
+24
+
+September 1, 2035.
+
+25
+26
+27
+
+Sec.A34.0110.AARULES.
+
+(a)
+
+Unless continued in existence
+
+The
+
+commission
+
+by
+
+rule
+
+may
+
+establish procedures for:
+(1)AAthe application for and award of a grant or loan
+
+15
+
+S.B.ANo.A2627
+1
+
+under this chapter; and
+(2)AAthe administration of the fund.
+
+2
+
+4
+
+commission
+
+(b)AAThe
+
+3
+
+shall
+
+give
+
+full
+
+consideration
+
+to
+
+comments and recommendations of the advisory committee.
+SUBCHAPTER B.
+
+5
+
+TEXAS POWER PROMISE: BACKUP POWER PACKAGES
+
+Sec.A34.0201.AADEFINITION.
+
+6
+
+power
+
+package"
+
+means
+
+this
+
+subchapter,
+
+7
+
+backup
+
+8
+
+multiday backup power source that can be used for islanding.
+Sec.A34.0202.AAPURPOSE.
+
+9
+
+behind-the-meter,
+
+The purpose of this subchapter is to
+
+facilitate
+
+11
+
+installation, and use of Texas backup power packages to ensure the
+
+12
+
+reliability or adequacy of an electric power grid in this state for
+
+13
+
+facilities
+
+14
+
+well-being.
+
+on
+
+provide
+
+stand-alone,
+
+"Texas
+
+10
+
+15
+
+and
+
+a
+
+In
+
+which
+
+funding
+
+communities
+
+for
+
+the
+
+design,
+
+procurement,
+
+rely
+
+for
+
+health,
+
+safety,
+
+and
+
+Sec.A34.0203.AACOMMISSION DUTIES.
+
+(a)
+
+The commission shall
+
+16
+
+convene an advisory committee in the manner provided by Chapter
+
+17
+
+2110, Government Code.
+(b)AAThe advisory committee shall recommend criteria for the
+
+18
+19
+
+commission
+
+to
+
+20
+
+subchapter.
+
+employ
+
+in
+
+making
+
+a
+
+grant
+
+or
+
+loan
+
+under
+
+this
+
+(c)AAThe commission shall contract with a research entity
+
+21
+22
+
+that
+
+has
+
+experience
+
+in
+
+microgrid
+
+design
+
+to
+
+analyze
+
+critical
+
+23
+
+facility characteristics and requirements in this state and develop
+
+24
+
+for Texas backup power packages:
+
+25
+
+(1)AAsets of specifications for standard backup power
+
+26
+
+packages of various sizes that can serve most critical facilities
+
+27
+
+in this state; and
+
+16
+
+S.B.ANo.A2627
+(2)AAspecifications
+
+1
+2
+
+for
+
+standard
+
+interconnection,
+
+communications, and controls for Texas backup power packages.
+Sec.A34.0204.AATEXAS BACKUP POWER PACKAGES.
+
+3
+
+use
+
+money
+
+in
+
+the
+
+Texas
+
+energy
+
+fund
+
+The commission
+
+4
+
+may
+
+without
+
+further
+
+5
+
+appropriation to provide a grant or loan for the operation of a
+
+6
+
+Texas backup power package that:
+
+7
+
+(1)AAis engineered to minimize operation costs;
+
+8
+
+(2)AAuses interconnection technology and controls that
+
+9
+
+enable immediate islanding from the power grid and stand-alone
+
+10
+
+operation for the host facility;
+(3)AAis capable of operating for at least 48 continuous
+
+11
+12
+
+hours without refueling or connecting to a separate power source;
+(4)AAis designed so that one or more Texas backup power
+
+13
+14
+
+packages
+
+15
+
+megawatts of load at the host facility;
+
+22
+23
+
+on-site
+
+to
+
+serve
+
+not
+
+more
+
+than
+
+2.5
+
+photovoltaic panels and battery storage; or
+(B)AAbattery storage on an electric school bus;
+
+19
+
+21
+
+aggregated
+
+(A)AAa combination of natural gas or propane with
+
+17
+
+20
+
+be
+
+(5)AAprovides power sourced from:
+
+16
+
+18
+
+can
+
+and
+(6)AAis not used by the owner or host facility for the
+sale of energy or ancillary services.
+Sec.A34.0205.AAGRANTS AND LOANS.
+
+(a)
+
+The commission by rule
+
+24
+
+may establish procedures for the application for and award of a
+
+25
+
+grant or loan under this subchapter.
+
+26
+27
+
+(b)AAThe amount of a grant provided under this subchapter may
+not exceed $500 per kilowatt of capacity.
+
+17
+
+S.B.ANo.A2627
+(c)AAThe commission may provide a loan under this subchapter
+
+1
+2
+
+for procurement and operating costs.
+
+3
+
+(d)AAThe commission shall maintain and publish a list of
+
+4
+
+approved vendors eligible to assist with the sale, installation,
+
+5
+
+operation, and ongoing maintenance of Texas backup power packages.
+(e)AAThe commission may not provide a grant or loan under
+
+6
+7
+
+this subchapter for:
+
+8
+
+(1)AAa commercial energy system, a private school, or a
+
+9
+
+for-profit entity that does not directly serve public safety and
+
+10
+
+human health; or
+(2)AAa source of backup power that does not follow the
+
+11
+12
+
+design and use standards of a Texas backup power package.
+SECTIONA3.AASection 35.005, Utilities Code, is amended by
+
+13
+14
+
+adding Subsections (d), (e), (f), and (g) to read as follows:
+
+15
+
+(d)AAThis subsection applies only to a facility in the ERCOT
+
+16
+
+power region for which a loan or grant is provided under Subchapter
+
+17
+
+A,
+
+18
+
+Section 39.151 for the ERCOT power region shall work with electric
+
+19
+
+utilities to ensure that each facility in the ERCOT power region for
+
+20
+
+which a loan or grant is provided is fully interconnected in the
+
+21
+
+region not later than the date the facility is ready for commercial
+
+22
+
+operation. The independent organization certified under Section
+
+23
+
+39.151
+
+24
+
+interconnecting each facility for which a loan or grant is provided
+
+25
+
+except
+
+26
+
+projects that the organization has formally designated as critical
+
+27
+
+for
+
+Chapter
+
+for
+
+that
+
+34.
+
+The
+
+the
+
+ERCOT
+
+the
+
+reliability
+
+independent
+
+power
+
+region
+
+organization
+
+over
+
+a
+
+organization
+
+shall
+
+facility
+
+18
+
+for
+
+shall
+
+certified
+
+give
+
+prioritize
+
+which
+
+a
+
+loan
+
+under
+
+priority
+
+to
+
+transmission
+
+or
+
+grant
+
+is
+
+S.B.ANo.A2627
+1
+
+provided.
+
+2
+
+agreement for a facility for which a loan or grant is provided shall
+
+3
+
+give
+
+4
+
+construction of any other facilities necessary to interconnect the
+
+5
+
+facility
+
+6
+
+commercial
+
+7
+
+transmission projects that the independent organization certified
+
+8
+
+under
+
+9
+
+designated as critical for reliability over a facility for which a
+
+10
+
+An electric utility that enters into an interconnection
+
+priority
+
+not
+
+to
+
+interconnecting
+
+later
+
+than
+
+operation
+
+Section
+
+the
+
+except
+
+39.151
+
+for
+
+date
+
+that
+
+the
+
+the
+
+the
+
+the
+
+ERCOT
+
+facility
+
+facility
+
+utility
+
+power
+
+and
+
+is
+
+shall
+
+region
+
+complete
+
+ready
+
+for
+
+prioritize
+
+has
+
+formally
+
+loan or grant is provided.
+(e)AAIf the commission receives an application under Chapter
+
+11
+12
+
+37
+
+for
+
+a
+
+13
+
+facilities necessary to interconnect a facility to which Subsection
+
+14
+
+(d) applies and does not approve the application before the 90th day
+
+15
+
+after
+
+16
+
+deadline established by Subsection (d) is extended one day for each
+
+17
+
+day after the 90th day in which the commission does not approve the
+
+18
+
+application.
+
+the
+
+certificate
+
+date
+
+the
+
+of
+
+convenience
+
+commission
+
+and
+
+received
+
+necessity
+
+the
+
+related
+
+application,
+
+to
+
+the
+
+19
+
+(f)AAThe commission may extend the deadline established by
+
+20
+
+Subsection (d) after notice, hearing, and a determination on a
+
+21
+
+showing
+
+22
+
+before the deadline is not feasible.
+
+23
+
+of
+
+good
+
+cause
+
+that
+
+fully
+
+interconnecting
+
+the
+
+facility
+
+(g)AAIn this subsection, "Texas backup power package" has the
+
+24
+
+meaning assigned by Section 34.0201.
+
+25
+
+adopt procedures to expedite an electric utility interconnection
+
+26
+
+request for a Texas backup power package for which a loan or grant
+
+27
+
+is awarded under Chapter 34.
+
+19
+
+The commission by rule shall
+
+S.B.ANo.A2627
+SECTIONA4.AASubchapter
+
+1
+2
+
+C,
+
+Chapter
+
+382,
+
+Health
+
+and
+
+Safety
+
+Code, is amended by adding Section 382.069 to read as follows:
+Sec.A382.069.AATEXAS BACKUP POWER PACKAGE.
+
+3
+
+(a)
+
+In this
+
+4
+
+section, "Texas backup power package" has the meaning assigned by
+
+5
+
+Section 34.0201, Utilities Code.
+
+6
+
+(b)AAThe commission by rule shall adopt a process to expedite
+
+7
+
+the permitting of a Texas backup power package for which a permit is
+
+8
+
+required under this chapter and for which a loan or grant is awarded
+
+9
+
+under Chapter 34, Utilities Code.
+
+10
+
+SECTIONA5.AANot later than June 1, 2024, the Public Utility
+
+11
+
+Commission of Texas shall begin accepting loan applications for
+
+12
+
+loans authorized by Subchapter A, Chapter 34, Utilities Code, as
+
+13
+
+added by this Act.
+
+Not later than December 31, 2025, the Public
+
+14
+
+Utility
+
+of
+
+15
+
+application
+
+16
+
+applicant.
+
+Commission
+and
+
+Texas
+
+disburse
+
+shall
+
+initial
+
+approve
+
+loan
+
+funds
+
+or
+
+deny
+
+for
+
+each
+
+each
+
+loan
+
+approved
+
+17
+
+SECTIONA6.AAThis Act takes effect on the date on which the
+
+18
+
+constitutional amendment proposed by the 88th Legislature, Regular
+
+19
+
+Session, 2023, providing for the creation of the Texas energy fund
+
+20
+
+to
+
+21
+
+operation of electric generating facilities takes effect.
+
+22
+
+amendment is not approved by the voters, this Act has no effect.
+
+support
+
+the
+
+construction,
+
+maintenance,
+
+20
+
+modernization,
+
+and
+
+If that
+
+S.B.ANo.A2627
+
+______________________________AAAA______________________________
+President of the SenateAAAAAAAAAAAAASpeaker of the House
+I hereby certify that S.B.ANo.A2627 passed the Senate on
+MayA4,A2023,
+
+by
+
+the
+
+following
+
+vote:AAYeasA27,
+
+NaysA4;
+
+MayA25,A2023, Senate refused to concur in House amendments and
+requested appointment of Conference Committee; MayA26,A2023, House
+granted
+
+request
+
+Conference
+
+of
+
+the
+
+Committee
+
+MayA28,A2023,
+
+Senate
+
+the
+
+vote:AAYeasA30,
+
+Senate;
+
+Report
+
+by
+
+following
+
+adopted
+
+NaysA1.
+
+______________________________
+AAAASecretary of the Senate
+I hereby certify that S.B.ANo.A2627 passed the House, with
+amendments,
+NaysA23,
+
+on
+
+one
+
+MayA23,A2023,
+
+present
+
+not
+
+by
+
+the
+
+voting;
+
+following
+
+vote:AAYeasA118,
+
+MayA26,A2023,
+
+House
+
+granted
+
+request of the Senate for appointment of Conference Committee;
+MayA28,A2023,
+
+House
+
+adopted
+
+Conference
+
+Committee
+
+Report
+
+by
+
+the
+
+following vote:AAYeasA114, NaysA20, two present not voting.
+
+______________________________
+AAAAChief Clerk of the House
+
+Approved:
+
+______________________________
+AAAAAAAAAAAADate
+
+______________________________
+AAAAAAAAAAAGovernor
+
+21
+
+

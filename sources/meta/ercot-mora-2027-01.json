@@ -1,0 +1,12 @@
+{
+ "id": "ercot-mora-2027-01",
+ "title": "Monthly Outlook for Resource Adequacy (MORA), January 2027",
+ "publisher": "ERCOT",
+ "tier": 2,
+ "edition": "posted 2026-11-06",
+ "url": "https://www.ercot.com/files/docs/2026/11/06/MORA_January_2027.pdf",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 1095989,
+ "raw_sha256": "c66662ef27d04948b5141381f59677be2bce9d814595204b5b6406d221f894c5",
+ "text_chars": 179016
+}

@@ -1,0 +1,164 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+§25.507. Electric Reliability Council of Texas (ERCOT) Emergency Response Service (ERS).
+(a)
+
+Purpose. The purpose of this section is to promote reliability through provisions that provide ERCOT
+flexibility in the implementation and administration of ERS.
+
+(b)
+
+ERS procurement. ERCOT must procure ERS, a special emergency response service to be deployed by
+ERCOT to help prevent or alleviate an actual or anticipated Energy Emergency Alert (EEA) event.
+(1)
+ERCOT will determine the ERS standard contract terms under which ERS resources are obligated
+to provide ERS, including renewal of ERS contract periods ERCOT deems necessary due to the
+depletion of available ERS.
+(2)
+ERCOT may spend a maximum of $75 million in a 12-month period on ERS, unless otherwise
+determined by the commission. During that 12-month period, ERCOT may exceed the $75 million
+maximum by up to an additional $25 million for ERS contract renewals under paragraph (d)(9) of
+this section during a period where ERS has been exhausted. ERCOT may determine cost limits for
+each ERS standard contract term in order to ensure that the ERS expenditure cap is not exceeded.
+To minimize the cost of ERS, ERCOT may reject any offer that ERCOT determines to be
+unreasonable or outside of the parameters of an acceptable offer. ERCOT may also reject any offer
+placed on behalf of any ERS resource if ERCOT determines that it lacks a sufficient basis to verify
+whether the ERS resource complied with ERCOT-established performance standards in an ERS
+deployment event during the preceding ERS standard contract term.
+
+(c)
+
+Definitions.
+(1)
+ERS contract period -- A period defined by ERCOT for which an ERS resource is obligated to
+provide ERS, consisting of all or part of the hours in an ERS standard contract term.
+(2)
+ERS resource -- A resource contracted to provide ERS that meets one of the following descriptions:
+(A)
+A load or aggregation of loads; or
+(B)
+A dispatchable generator that is not registered with ERCOT as a Generation Resource, or
+an aggregation of such generators.
+(3)
+ERS standard contract term -- Periods for which ERCOT may procure ERS.
+(4)
+ERS time period -- Set of hours designated by ERCOT within an ERS standard contract term.
+
+(d)
+
+Participation in ERS. In addition to requirements established by ERCOT, the following requirements apply
+for the provision of ERS:
+(1)
+An ERS resource must be represented by a qualified scheduling entity (QSE).
+(2)
+Offers must be submitted to ERCOT through a QSE.
+(A)
+An offer may be submitted for one or more ERS time periods within an ERS contract
+period.
+(B)
+QSEs representing ERS resources may aggregate multiple loads to reach the minimum
+capacity offer requirement established by ERCOT. Such aggregations will be considered
+a single ERS resource for purposes of submitting offers.
+(3)
+ERCOT must establish qualifications for QSEs and ERS resources to participate in ERS.
+(4)
+A resource must not commit to provide ERS if it is separately obligated to provide response with
+the same capacity during any of the same hours.
+(5)
+ERCOT must establish performance criteria for QSEs and ERS resources.
+(6)
+When dispatched by ERCOT, an ERS resource must deploy consistent with its obligations and must
+remain deployed until recalled by ERCOT.
+(7)
+ERCOT may deploy ERS as necessary, subject to the annual expenditure cap.
+(8)
+Deployment of an ERS resource must be limited to the number of hours for which the service was
+contracted, up to a maximum of 24 cumulative hours in an ERS contract period. However, if an
+instruction causes the cumulative total ERS deployment time to exceed the number of hours
+contracted within an ERS contract period, each ERS resource must remain deployed until permitted
+by ERCOT procedures or by ERCOT instructions to return from deployment.
+§25.507--1
+
+effective date 08/04/2022
+(P 53493)
+
+(9)
+
+(10)
+(11)
+
+Upon exhaustion of an ERS resource’s obligation in any ERS contract period, ERCOT may renew
+that obligation, subject to the consent of the ERS resource and its QSE. ERCOT may renew the
+obligation on each occasion that the resource’s obligation is exhausted. ERCOT may limit the
+renewal quantity to manage the overall cost of the service or for reliability needs.
+ERCOT must establish procedures for testing of ERS resources.
+A resource with a pre-existing obligation to provide ERS may submit a proposal to serve as an
+alternative to a resource subject to reliability must-run (RMR) service for the same period. If the
+resource is selected, ERCOT must appropriately modify or terminate the resource’s pre-existing
+ERS obligation to allow the resource to participate as an RMR alternative.
+
+(e)
+
+ERS payment and charges.
+(1)
+ERCOT must make a payment to each QSE representing an ERS resource on an as-bid basis, a
+market clearing price mechanism, or such other mechanism as ERCOT deems appropriate, subject
+to modifications determined by ERCOT based on the ERS resource’s availability during an ERS
+standard contract term and the ERS resource’s performance in any deployment event.
+(2)
+ERCOT must charge each QSE a charge for ERS based upon its load ratio share during the relevant
+ERS time period and ERS standard contract term.
+(3)
+ERCOT must settle an ERS contract period within 80 days following the completion of the ERS
+standard contract term.
+
+(f)
+
+Compliance.
+(1)
+A QSE representing an ERS resource is subject to administrative penalties for noncompliance with
+this rule or any related ERCOT Protocols, Operating Guides, or other ERCOT standards, by the
+QSE or the ERS resource it represents.
+(2)
+ERCOT must establish criteria for reducing a QSE’s payment, suspending a QSE from participation
+in ERS, or both, for failure to meet its ERS obligations, and must also establish criteria for
+subsequent reinstatement.
+(3)
+ERCOT must establish criteria under which an ERS resource will be suspended for noncompliance
+with this rule or any related ERCOT Protocols, Operating Guides, or other ERCOT standards, and
+must also establish criteria for subsequent reinstatement.
+(4)
+ERCOT must notify the commission of all instances of noncompliance with this rule or any related
+ERCOT Protocols, Operating Guides, or other ERCOT standards.
+(5)
+ERCOT must maintain records relating to any alleged noncompliance with this rule or any related
+ERCOT Protocols, Operating Guides, or other ERCOT standards.
+
+(g)
+
+Reporting. Prior to the start of an ERS standard contract term, ERCOT must report publicly the number of
+megawatts (MW) procured per ERS time-period, the number and type of ERS resources providing the
+service, and the projected total cost of the service for that ERS standard contract term. ERCOT must review
+the effectiveness and benefits of ERS and report its findings to the commission annually by April 15 of each
+calendar year. The report must contain, at a minimum, the number of MW procured in each period, the total
+dollar amount spent, the number and duration of deployments, and the circumstances that led to each
+deployment.
+
+(h)
+
+Implementation. ERCOT must develop, in consultation with commission staff, additional procedures,
+guides, technical requirements, protocols, or other standards that are consistent with this section and that
+ERCOT finds necessary to implement ERS, including, but not limited to, developing a standard form ERS
+Agreement and specific performance guidelines and grace periods for ERS resources.
+
+(i)
+
+Self Provision. ERCOT must establish procedures for self-provision of ERS by any QSE.
+
+§25.507--2
+
+effective date 08/04/2022
+(P 53493)
+
+

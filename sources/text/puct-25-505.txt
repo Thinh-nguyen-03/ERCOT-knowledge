@@ -1,0 +1,92 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+§25.505. Resource Adequacy Reporting Requirements in the Electric Reliability Council of Texas Power
+Region.
+(a)
+
+Definitions. The following terms, when used in this section, have the following meanings, unless the context
+indicates otherwise:
+(1)
+Generation entity -- an entity that owns or controls a generation resource.
+(2)
+Generation resource -- a generator capable of providing energy or ancillary services to the ERCOT
+grid and that is registered with ERCOT as a generation resource.
+(3)
+Load entity -- an entity that owns or controls a load resource.
+(4)
+Load resource -- a load capable of providing ancillary service to the ERCOT system or energy in
+the form of demand response and is registered with ERCOT as a load resource.
+(5)
+Resource entity -- an entity that is a generation entity or a load entity.
+
+(b)
+
+Resource adequacy reports. ERCOT must publish a resource adequacy report by December 31 of each year
+that projects, for at least the next five years, the capability of existing and planned electric generation
+resources and load resources to reliably meet the projected system demand in the ERCOT power region.
+ERCOT may publish other resource adequacy reports or forecasts as it deems appropriate. ERCOT must
+prescribe requirements for generation entities and transmission service providers (TSPs) to report their plans
+for adding new facilities, upgrading existing facilities, and mothballing or retiring existing facilities. ERCOT
+also must prescribe requirements for load entities to report their plans for adding new load resources or
+retiring existing load resources.
+
+(c)
+
+Daily assessment of system adequacy. Each day, ERCOT must publish a report that includes the following
+information for each hour for the seven days beginning with the day the report is published:
+(1)
+system-wide load forecast; and
+(2)
+aggregated information on the availability of resources, by ERCOT load zone, including load
+resources.
+
+(d)
+
+Filing of resource and transmission information with ERCOT. ERCOT must prescribe reporting
+requirements for resource entities and TSPs for the preparation of the assessment required by subsection (c)
+of this section. At a minimum, the following information must be reported to ERCOT.
+(1)
+TSPs will provide ERCOT with information on planned and existing transmission outages.
+(2)
+Generation entities will provide ERCOT with information on planned and existing generation
+outages.
+(3)
+Load entities will provide ERCOT with information on planned and existing availability of load
+resources, specified by type of ancillary service.
+(4)
+Generation entities will provide ERCOT with a complete list of generation resource availability and
+performance capabilities, including, but not limited to:
+(A)
+the net dependable capability of generation resources;
+(B)
+projected output of non-dispatchable resources such as wind turbines, run-of-the-river
+hydro, and solar power; and
+(C)
+output limitations on generation resources that result from fuel or environmental
+restrictions.
+(5)
+Load serving entities (LSEs) will provide ERCOT with complete information on load response
+capabilities that are self-arranged or pursuant to bilateral agreements between LSEs and their
+customers.
+
+(e)
+
+Operating Reserve Demand Curve (ORDC) report. ERCOT must publish, by November 1 of every even
+numbered year, a report analyzing the efficacy, utilization, related costs, and contribution of the ORDC to
+grid reliability in the ERCOT power region.
+
+(f)
+
+Development and implementation. ERCOT must use a stakeholder process, in consultation with
+commission staff, to develop and implement rules that comply with this section. Nothing in this section
+
+prevents the commission from taking actions necessary to protect the public interest, including actions that
+are otherwise inconsistent with the other provisions in this section.
+
+§25.505--2
+
+effective date 05/11/2022
+(P 53191)
+
+
