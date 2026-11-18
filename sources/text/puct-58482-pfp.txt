@@ -1,0 +1,637 @@
+PUBL~ 4
+
+~* TEX>~
+Filing Receipt
+Filed Date - 2026-07-30 12:48:28 PM
+
+Control Number - 58482
+Item Number - 30
+
+PROJECT NO. 58482
+LARGE LOAD DEMAND
+MANAGEMENT SERVICE
+
+§
+§
+§
+
+PUBLIC UTILITY COMMISSION
+
+OF TEXAS
+
+PROPOSAL FOR PUBLICATION NEW §25.521
+
+The Public Utility Commission of Texas (commission) proposes new §25.521 relating to Large
+Load Demand Management Service. This proposed rule will implement Public Utility Regulatory
+
+Act (PURA) §39.170 as enacted by Senate Bill 6 during the Texas 89~h Regular Legislative
+
+Session.
+
+The proposed rule will require ERCOT to ensure that each electric cooperative,
+
+transmission and distribution utility, and municipally owned utility serving a transmission-voltage
+
+customer develops a protocol to allow the transmission-voltage customers to be curtailed during
+firm load shed; require ERCOT to develop a reliability service to competitively procure demand
+
+reductions from large load customers; and establish a framework for the program.
+
+Growth Impact Statement
+The agency provides the following governmental growth impact statement for the proposed rule,
+
+as required by Texas Government Code §2001.0221. The agency has determined that for each
+
+year of the first five years that the proposed rule is in effect, the following statements will apply:
+(1) the proposed rule will not create a government program and will not eliminate a government
+
+program;
+(2) implementation of the proposed rule will not require the creation of new employee positions
+
+and will not require the elimination of existing employee positions;
+
+Project No. 58482
+
+Proposal for Publication
+
+Page 2 of 13
+
+(3) implementation ofthe proposed rule will not require an increase and will not require a decrease
+
+in future legislative appropriations to the agency;
+(4) the proposed rule will not require an increase and will not require a decrease in fees paid to the
+
+agency;
+(5) the proposed rule will create a new regulation;
+(6) the proposed rule will not expand, limit, or repeal an existing regulation;
+(7) the proposed rule will not change the number of individuals subject to the rule's applicability;
+
+and
+(8) the proposed rule will not affect this state' s economy.
+
+Fiscal Impact on Small and Micro-Businesses and Rural Communities
+There is no adverse economic effect anticipated for small businesses, micro-businesses, or rural
+
+communities as a result of implementing the proposed rule. Accordingly, no economic impact
+
+statement or regulatory flexibility analysis is required under Texas Government Code
+§2006.002(c).
+
+Takings Impact Analysis
+The commission has determined that the proposed rule will not be a taking of private property as
+
+defined in chapter 2007 of the Texas Government Code.
+
+Project No. 58482
+
+Proposal for Publication
+
+Page 3 of 13
+
+Fiscal Impact on State and Local Government
+Jessie Horn, Sr. Counsel, Rules and Projects Division, has determined that for the first five-year
+
+period the proposed rule is in effect, there will be fiscal implications for the state or for units of
+local government under Texas Government Code §2001.024(a)(4) as a result of enforcing or
+administering the section. A municipally owned utility that is a load serving entity will be charged
+by ERCOT for the large load demand management service (LLDMS) based upon the load serving
+entity' s load ratio share during the relevant LLDMS obligation period.
+
+Public Benefits
+Ms. Horn has determined that for each year of the first five years the proposed section is in effect
+the public benefit anticipated as a result of enforcing the section will be increased reliability. There
+will be no probable economic cost to persons required to comply with the rule under Texas
+
+Government Code §2001.024(a)(5).
+
+Local Employment Impact Statement
+For each year of the first five years the proposed section is in effect, there should be no effect on
+a local economy; therefore, no local employment impact statement is required under Texas
+
+Government Code §2001.022.
+
+Costs to Regulated Persons
+Texas Government Code §2001.0045(b) does not apply to this rulemaking because the commission
+
+is expressly excluded under subsection §2001.0045(c)(7).
+
+Project No. 58482
+
+Proposal for Publication
+
+Page 4 of 13
+
+Public Hearing
+The commission staff will conduct a public hearing on this rulemaking if requested in accordance
+
+with Texas Government Code §2001.029. The request for a public hearing must be received by
+September 4,2026. If a request for public hearing is received, commission staff will file in this
+
+proj ect a notice of hearing.
+
+Public Comments
+Interested persons may file comments electronically through the interchange on the commission's
+website.
+
+Interested persons may file comments electronically through the interchange on the
+
+commission' s website or by submitting a paper copy to Central Records, Public Utility
+
+Commission of Texas, 1701 North Congress Avenue, P.O. Box 13326, Austin, Texas 78711-3326.
+
+Comments must be filed by September 4,2026. Comments should be organized in a manner
+consistent with the organization of the proposed rules. The commission invites specific comments
+
+regarding the costs associated with, and benefits that will be gained by, implementation of the
+proposed rule. The commission also requests information related to the cost, benefit, or effect of
+the proposed rule, including any applicable data, research, and analysis. The commission will
+
+consider the costs and benefits in deciding whether to modify the proposed rules on adoption. All
+comments should refer to Project Number 58482.
+
+In addition to general comments on the text ofthe proposed rule, the commission invites interested
+
+persons to address the following specific questions:
+1. Proposed subsection (f)(1)(C) authorizes payment to a qualified scheduling entity
+
+representing a large load customer that is not instructed by ERCOT to deploy but is subject
+
+Project No. 58482
+
+Proposal for Publication
+
+Page 5 of 13
+
+to availability verification during the Large Load Demand Management Service (LLDMS)
+
+obligation period.
+
+Should a large load customer that is available but not ultimately
+
+instructed to deploy during the LLDMS obligation period be compensated some percentage
+
+of the market clearing price for the large load customer' s availability to reduce demand
+during the LLDMS obligation period? If so, what is an appropriate payment to the large
+load customer for their availability during the LLDMS obligation period?
+2. Proposed subsection (f)(4) imposes a maximum budget of $54 million in a calendar year.
+
+What is an appropriate budget for the LLDMS program?
+
+3. What cadence should ERCOT use to assess an extreme weather condition and how far in
+advance should ERCOT start the auction to procure LLDMS?
+
+4. Should ERCOT be allowed to deploy LLDMS for transmission emergencies? If so, what
+
+limitations, if any, should the Commission impose on this authority?
+
+Each set of comments should include a standalone executive summary as the last page of the
+filing. This executive summary must be clearly labeled with the submitting entity's name and
+
+should include a bulleted list covering each substantive recommendation made in the
+comments.
+
+Statutory Authority
+The amendment is proposed under Public Utility Regulatory Act (PURA) §14.001, which
+
+grants the commission the general power to regulate and supervise the business of each public
+utility within its jurisdiction and to do anything specifically designated or implied by this title
+that is necessary and convenient to the exercise of that power and jurisdiction.
+
+Project No. 58482
+
+Proposal for Publication
+
+Page 6 of 13
+
+§14.002, which authorizes the commission to adopt and enforce rules reasonably required in
+the exercise of its powers and jurisdiction; §39.151, which specifies that ERCOT is directly
+
+responsible and accountable to the commission; and§39.170, which requires the commission to
+require ERCOT to ensure that each electric cooperative, transmission and distribution utility,
+
+and municipally owned utility serving a transmission-voltage customer develops a protocols,
+
+including installation of any necessary equipment or technology before the customer is
+interconnected, to allow the load to be curtailed during firm load shed, and requires the
+commission to require ERCOT to develop a reliability service to competitively procure demand
+
+reductions from large load customers to be deployed in the event of an anticipated emergency
+condition.
+
+Cross Reference to Statute: Public Utility Regulatory Act §14.001; §14.002; §39.151; and
+§39.170.
+
+§25.521. Large Load Demand Management Service (LLDMS).
+
+(a)
+
+Directive to ERCOT.
+
+(l)
+
+ERCOT must ensure that each electric cooperative, transmission and distribution
+
+utility, and municipally owned utility serving a transmission-voltage customer
+
+develops a protocol, including the installation of any necessary equipment or
+
+technology before the customer is interconnected, to allow the load to be curtailed
+during firm load shed.
+
+This subsection applies to a load interconnected after
+
+December 31, 2025, that is not:
+(A)
+
+load operated by a critical load industrial customer, as defined by Public
+
+Utility Regulatory Act (PURA) §17.002; or
+(B)
+
+(2)
+
+designated as a critical natural gas facility under PURA §38.074.
+
+ERCOT must develop a Large Load Demand Management Service (LLDMS) to
+
+competitively procure demand reductions from large load customers consistent
+
+with this section.
+
+(b)
+
+Definitions. The following words and terms, when used in this section, have the following
+
+meanings unless the context indicates otherwise:
+(1)
+
+Extreme weather condition -- A weather condition that creates a significant risk
+
+for an energy emergency alert (EEA) event.
+(2)
+
+Large load customer -- An entity with a total non-coincident peak demand at a
+
+single site that is equal to or greater than 75 megawatts (MW).
+(3)
+
+LLDMS obligation period -- The period identified in a LLDMS agreement
+through which a procured large load customer is obligated to provide LLDMS.
+
+Project No. 58482
+
+(4)
+
+Proposal for Publication
+
+Page 8 of 13
+
+Transmission emergency -- A condition in which an element on the transmission
+
+system is operating above its emergency rating such that it creates a significant risk
+
+of firm load shed.
+
+(c)
+
+Participation. Participation in LLDMS is limited to large load customers that pre-qualify
+
+for participation at least annually.
+(1)
+
+Pre-qualification. ERCOT must establish criteria for a large load customer to prequalify for participation in LLDMS. The criteria for pre-qualification must include
+
+the following minimum requirements:
+(A)
+
+the large load customer must offer at least 1 MW of demand reduction; and
+
+(B)
+
+the large load customer must pass a price responsive test in compliance with
+
+ERCOT protocols.
+(2)
+
+Ineligibility.
+
+A large load customer participating in the following services or
+
+program in the ERCOT market is not eligible to participate in LLDMS:
+
+(A)
+
+a different reliability service;
+
+(B)
+
+an ancillary service;
+
+(C)
+
+a program administered by ERCOT that compensates for curtailment;
+
+(D)
+
+a demand response program in which the large load customer curtails in
+
+response to the wholesale price of electricity;
+(E)
+
+an ERCOT-procured contract for capacity;
+
+(F)
+
+a net metering arrangement that imposes a curtailment obligation on the
+
+large load customer under PURA §39.169;
+
+Project No. 58482
+
+(G)
+
+Proposal for Publication
+
+Page 9 of 13
+
+firming service under PURA §39.1592 and §25.65 of this title (relating to
+Firming Program Requirements for Electric Generation Facilities in the
+
+ERCOT Region);
+
+(H)
+
+a demand response product, program, or service administered by a
+transmission and distribution service provider; or
+
+(I)
+
+the Voluntary Early Curtailment Load program, as defined in ERCOT
+
+protocols, or its successor program.
+
+(d)
+
+Procurement. ERCOT may procure LLDMS from a large load customer on an as needed
+basis to help prevent an anticipated EEA event due to an extreme weather condition or
+alleviate an actual EEA event due to an extreme weather condition.
+
+(1)
+
+Request for proposal. ERCOT may issue a request for proposal to large load
+customers that are pre-qualified to participate in LLDMS:
+
+(A)
+
+based on monthly probabilistic modeling that identifies an elevated risk for
+an EEA event in the modeled month;
+
+(B)
+
+based on weekly weather forecasting that identifies an elevated risk for an
+
+EEA event during the forecasted week;
+
+(C)
+
+in advance of an anticipated EEA Level 1 event due to an extreme weather
+
+condition; or
+(D)
+
+(2)
+
+during an EEA event due to an extreme weather condition.
+
+Quantity.
+
+The total quantity of MW that ERCOT procures for an LLDMS
+
+obligation period must be based on a risk assessment informed by probabilistic
+modeling.
+
+Project No. 58482
+
+(3)
+
+Proposal for Publication
+
+Page 10 of 13
+
+Submitted offer.
+(A)
+
+Submission. A qualified scheduling entity (QSE) must submit an offer to
+ERCOT on behalf of a large load customer that is pre-qualified to
+participate in LLDMS. The offer must be expressed in dollars per megawatt
+
+hour units.
+(B)
+
+Rejection. ERCOT must reject an offer that is:
+
+(i)
+
+unreasonable;
+
+(ii)
+
+an outlier when evaluating the parameters of an acceptable offer;
+
+(iii)
+
+submitted on behalf of a large load customer that failed to comply
+with ERCOT instructions to deploy during the previous LLDMS
+
+obligation period;
+(iv)
+
+inconsistent with any other requirement established in ERCOT
+
+protocols; or
+(v)
+
+(e)
+
+greater than $5,000 per megawatt hour.
+
+Deployment.
+
+(1)
+
+Prior to deployment, ERCOT must provide at least 24-hour notice to a QSE that a
+
+large load customer represented by the QSE may be deployed to reduce its load
+during the LLDMS obligation period.
+
+(2)
+
+ERCOT may deploy a large load customer as necessary to help maintain reliability
+during an EEA event due to an extreme weather condition throughout the LLDMS
+
+obligation period.
+
+Project No. 58482
+
+(3)
+
+Proposal for Publication
+
+Page 11 of 13
+
+When deployed by ERCOT, a large load customer must deploy consistent with its
+
+obligations and must remain deployed:
+(A)
+
+for the duration of the EEA event; or
+
+(B)
+
+until the large load customer can be recalled safely, as determined and
+
+communicated by ERCOT.
+
+(f)
+
+Payment and charges.
+
+(l)
+
+ERCOT must pay a QSE that represents a large load customer participating in
+LLDMS as follows:
+
+(A)
+
+all payments must be based on a single clearing price;
+
+(B)
+
+awards must be settled monthly after availability data is confirmed;
+
+(C)
+
+A QSE representing a large load customer that is not instructed by ERCOT
+to deploy but is subject to availability verification during the LLDMS
+
+obligation period may receive a payment based on 25% of the market
+
+clearing price; and
+(D)
+
+A QSE representing a large load customer that deploys consistent with
+ERCOT instructions during the LLDMS obligation period may receive
+
+payment based on 100% of the market clearing price associated with the
+
+deployed capacity.
+(2)
+
+ERCOT must include load reduction under this section when calculating price
+
+adjustments for reliability deployments.
+(3)
+
+ERCOT must charge each load serving entity for LLDMS deployment costs based
+
+upon the LSE' s load ratio share during the procurement period.
+
+Project No. 58482
+
+(4)
+
+Proposal for Publication
+
+Page 12 of 13
+
+ERCOT may spend a maximum of $54 million in procurement costs during a
+
+calendar year.
+
+(g)
+
+Compliance.
+(l)
+
+ERCOT must establish criteria to reduce a QSE' s payment, claw back a QSE's
+payment, suspend a QSE from participation in LLDMS, or any combination
+thereof, based on the QSE's failure to meet its LLDMS obligation under this section
+
+or a related ERCOT protocol.
+(2)
+
+ERCOT must establish criteria to suspend a large load customer based on
+noncompliance with this section or a related ERCOT protocol. ERCOT must also
+
+establish criteria for subsequent reinstatement.
+(3)
+
+ERCOT must notify the commission of all alleged instances ofnoncompliance with
+this section or a related ERCOT protocol.
+
+(4)
+
+ERCOT must maintain records relating to any alleged noncompliance with this
+section or a related ERCOT protocol.
+
+(h)
+
+After action reporting requirement. Not later than 60 days after an event in which
+ERCOT procures LLDMS, ERCOT must file a report with the commission detailing:
+
+(1)
+
+the number of large load customers that submitted offers;
+
+(2)
+
+the number of megawatts procured;
+
+(3)
+
+the highest offer;
+
+(4)
+
+the lowest offer;
+
+(5)
+
+the cleared price;
+
+Project No. 58482
+
+(i)
+
+Proposal for Publication
+
+(6)
+
+the duration of deployment, as applicable;
+
+(7)
+
+performance during deployment, as applicable; and
+
+(8)
+
+any recommendation to revise LLDMS.
+
+Page 13 of 13
+
+Implementation. ERCOT must develop, in consultation with commission staff, additional
+
+procedures, including registration requirements for the large load customers participating
+in LLDMS, guides, technical requirements, protocols, or other standards that are consistent
+
+with this section and that ERCOT finds necessary to develop LLDMS.
+
+This agency hereby certifies that the proposal has been reviewed by legal counsel and found to
+
+be within the agency' s legal authority to adopt.
+
+ISSUED IN AUSTIN, TEXAS ON THE 30th DAY OF JULY 2026 BY THE
+PUBLIC UTILITY COMMISSION OF TEXAS
+KATELYN LEWIS
+
+

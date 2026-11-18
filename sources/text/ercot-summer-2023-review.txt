@@ -1,0 +1,879 @@
+Item 6: Summer 2023 Operational
+and Market Review
+Dan Woodfin
+Vice President, System Operations
+Kenan Ögelman
+Vice President, Commercial Operations
+Board of Directors Meeting
+ERCOT Public
+October 17, 2023
+
+Overview
+• Purpose
+Provide an Operational and Market review of Summer 2023
+
+• Voting Items / Requests
+No action is requested of the Board; for discussion only
+‒ Note: Unless noted, data for September is through the 15th
+
+• Key Takeaways
+– Increase in peak demand since last year is due to both economic growth and
+hotter temperatures
+– Solar down ramp led to tighter conditions in late evening than at peak demand;
+high demand and lower wind output on some days led to the need to request
+conservation
+– Forced outage levels were fairly consistent and all available generation was
+brought online on high net load days
+
+Item 6
+ERCOT Public
+
+2
+
+Overview (continued)
+
+• Key Takeaways (continued)
+– Energy storage resources contributed meaningfully to meeting ancillary services
+and energy requirements
+– A significant transmission constraint from south to central Texas affected several
+days, and the need to manage that constraint contributed to the EEA on Sept. 6
+– Both Energy and Ancillary Service Cost were higher in Summer 2023 than
+previous two summers
+– Overall, operations and market outcomes supported reliability needs
+
+Item 6
+ERCOT Public
+
+3
+
+Summer 2022 vs Summer 2023
+•
+•
+•
+
+Summer 2023 started with temperatures lower than 2022
+Temperatures started to shift to a hotter pattern in the last week of June
+2023
+With Texas’ economic growth, demand was expected to exceed 2022
+
+Item 6
+ERCOT Public
+
+Key Takeaway: Summer 2023 was drier and hotter than
+Summer 2022 which contributed to higher peak demand.
+
+4
+
+Summer Peak Demand Records for 2021- 2023
+
+2022 2023
+
+Days Over 80 GW Peak
+Month
+June
+July
+August
+September*
+
+2021
+0
+0
+0
+0
+
+2022
+0
+1
+0
+0
+
+2023
+4
+15
+26
+4
+
+Key Takeaway: Peak demand for summer increased drastically over the last two years.
+Summer 2023 had 49 days with a peak higher than 80 GW (the previous all-time peak demand).
+
+Item 6
+ERCOT Public
+
+5
+
+Load Growth By Class
+Peak Load Growth
+20-Jul-22 Vs. 10-Aug-23
+20%
+
+16.8%
+14.6%
+
+15%
+10%
+5%
+
+6.2%
+4.7%
+
+3.3%
+2.1%
+
+2.3%
+
+0%
+-5%
+
+RES
+-1.7%
+
+BUS
+2022-23
+
+Key Takeaway: Much of the growth was in
+the IDRRQ profile group that includes
+industrial consumers (with Non Opt-In
+Entities (NOIEs) separated). On a weatheradjusted (WA) basis, the peak and energy
+growth of residential and commercial is
+offset due to: growth in rooftop solar,
+continually improving energy efficiency of
+appliances and HVAC systems, and load
+management programs.
+
+NOIE
+
+2022-23 WA
+
+Daily Energy Growth
+Weekdays: Jul-22 Vs. Aug-23
+18.0%
+16.0%
+14.0%
+12.0%
+10.0%
+8.0%
+6.0%
+4.0%
+2.0%
+0.0%
+
+15.5%
+13.5%
+
+6.1%
+
+7.4%
+5.8%
+
+6.9%
+4.8%
+
+0.1%
+RES
+
+BUS
+2022-23
+
+Item 6
+ERCOT Public
+
+IDRRQ Excl
+NOIE
+
+IDRRQ Excl
+NOIE
+
+NOIE
+
+2022-23 WA
+
+6
+
+Peak
+Load
+
+Example: Load versus Net Load
+
+Peak
+Net
+Load
+
+•
+•
+
+Item 6
+ERCOT Public
+
+Net Load = Load-Wind-Solar
+The peak Net Load is the highest loading on the non-renewable Resources
+
+7
+
+Net Load HE 17-21 for Summer 2021-2023
+June
+
+July
+
+August
+
+Net Load = Load-wind-solar; the peak net load is the highest loading on the non-renewable Resources
+
+Key Takeaway: In 2023, the peak net load hours during summer
+months have shifted from HE 17 to HE 21.
+Item 6
+ERCOT Public
+
+8
+
+Peak Load, Peak Net Load, Wind, Solar
+ERCOT appealed for
+conservation on all days
+with a maroon data
+marker during summer
+2023.
+
+Item 6
+ERCOT Public
+
+June hit a first new alltime peak demand
+record of 80.8 GW on
+6/27/2023.
+
+July continued to hit
+new all-time peaks on
+7/12/2023, 7/13/2023,
+7/17/2023, and
+7/31/2023.
+
+8/10/2023 hit an alltime peak demand
+record of 85.7 GW.
+
+9/6/2023 was the
+tightest day during
+summer 2023.
+ERCOT entered an
+EEA level 2.
+
+Key Takeaway: ERCOT appealed for conservation on 11 days,
+including the day ERCOT entered an EEA level 2. These were
+generally needed on expected highest net load days.
+
+9
+
+Wind During Conservation Appeal Days
+
+Conservation Days
+6/20 (HE16-20)
+8/17 (HE16-20)
+8/20 (HE20-22)
+8/24 (HE16-22)
+8/25 (HE16-21)
+8/26 (HE16-21)
+8/27 (HE17-21)
+8/29 (HE18-21)
+8/30 (HE19-21)
+9/6 (HE19-21)
+9/7 (HE18-21)
+
+Key Takeaway: Wind generation ramping up in the evenings was key to serving
+demand on most days, however low wind output was a primary factor
+contributing to tight conditions on the conservation appeal days.
+Item 6
+ERCOT Public
+
+10
+
+Forced Outages During Daily Peak Net Load
+80
+
+14
+
+70
+
+12
+
+60
+
+10
+
+50
+
+8
+
+40
+
+6
+
+30
+
+4
+
+20
+
+2
+
+Forced Outages (GW)
+
+Peak Demand (GW)
+
+Forced Conventional Outages and Net Load
+
+0
+
+10
+6/1
+
+6/6
+
+6/11 6/16 6/21 6/26
+
+7/1
+
+7/6
+
+7/11 7/16 7/21 7/26 7/31
+
+Outages at Peak Demand
+
+8/5
+
+8/10 8/15 8/20 8/25 8/30
+
+Peak Net Load
+
+Key Takeaway: Forced Outages of thermal units stayed in the range of
+4-8 GW, except on low Net Load days when generators took the
+opportunity to do repairs.
+Item 6
+ERCOT Public
+
+11
+
+2022 vs. 2023 HSL of Offline Resources
+2022 Peak
+
+Item 6
+ERCOT Public
+
+2023 Peak
+
+Key Takeaway: All available generation was running for
+numerous days throughout the summer.
+
+12
+
+Ancillary Services Carried by Energy Storage Resources
+(ESRs)
+
+* ECRS was introduced on June 10th, 2023
+** September data is for 9/1/23-9/15/23
+Item 6
+ERCOT Public
+
+Key Takeaway: ESRs provided a significant
+portion of the Ancillary Services this summer.
+13
+
+Energy Storage Net Output on Tightest Summer Days
+
+Item 6
+ERCOT Public
+
+Key Takeaway: ESRs injected energy and helped serve load
+during the high price periods in summer.
+
+14
+
+Central Texas Congestion
+•
+
+•
+•
+
+•
+
+Transmission constraint that limits transfers of
+generation in South Texas to Central and North
+Texas
+Very high demand in North and Central Texas
+Constraint is binding when there is insufficient
+generation in North, Central and West Texas to
+meet demand. This is due to:
+– North and west solar generation reducing in
+evening
+– Sustained high demand in evening
+– Moderate west wind generation
+– Load north of constraint approaches the
+available generation north of constraint
+Energy Storage Resources (ESRs) north of
+constraint generally have high offer price
+Key Takeaway: Higher temperatures, higher demand and
+insufficient resources in North and West led to a high-risk
+transmission limitation in Central Texas.
+
+Item 6
+ERCOT Public
+
+15
+
+September 6th – Emergency Operations
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+Reserves were very tight during this
+period due to high demand, low wind
+in north and west, and earlier solar
+ramp compared to August
+Use of all available generation resulted
+in the overload of a high-risk
+transmission constraint from South
+Texas to rest of ERCOT
+ERCOT appropriately balanced the
+overload of the transmission constraint
+against the risk of going into EEA and
+began to manually curtail generation in
+South Texas to relieve the overload
+Even though frequency-responsive reserves appeared to remain above 2,000 MW,
+frequency began to decline, reaching a low of 59.77 Hz by 7:25 pm (ERCOT is
+investigating this incorrect response or reporting by Resources)
+EEA2 was declared at 7:25 pm and Load Resources were deployed
+ERCOT moved to EEA1 at 8:27 pm and to normal operations at 8:37 pm
+Key Takeaway: High net load and the need to manage a highrisk transmission constraint led to the need to declare EEA2 and
+deploy Load Resources
+
+Item 6
+ERCOT Public
+
+16
+
+Real-Time Hub Price and Peaker Net Margin
+Real-Time Load-Weighted
+Hub Average Price
+($/MWh)
+
+Real-Time Hub Average Price
+250
+
+2022
+
+200
+150
+100
+50
+0
+
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Jun
+
+Jul
+
+Aug
+
+Peaker Net Margin
+
+300
+
+9/15: $239,093
+
+250
+Peaker Net Margin
+(Thousand $/MW-year)
+
+2023
+
+8/31: $198,758
+
+200
+8/31: $132,815
+
+9/15: $135,406
+
+150
+100
+50
+0
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Jun
+2022
+
+Item 6
+ERCOT Public
+
+Jul
+
+Aug
+
+Sep
+
+Oct
+
+Nov
+
+Dec
+
+2023
+
+17
+
+ORDC Capacity consists of Online and Offline Reserves
+Average Monthly Reserves
+20,000
+
+RTOLCAP
+
+RTOFFCAP
+
+Jun
+
+Jul
+
+18,000
+16,000
+14,000
+
+MW
+
+12,000
+10,000
+8,000
+6,000
+4,000
+2,000
+0
+Jun
+
+Jul
+2021
+
+Aug
+
+Aug
+
+2022
+
+Jun
+
+Jul
+
+Aug
+
+2023
+
+RTOLCAP is the Real-time Online Reserve Capacity
+RTOFFCAP is the Real-time Offline Reserve Capacity
+
+Key Takeaway: Online and offline reserves were greater in 2023 than in 2022.
+
+Item 6
+ERCOT Public
+
+18
+
+ORDC Contribution to Real-Time Prices
+Price Adder Contribution
+RTORPA
+
+RTORDPA
+
+RTORPA % of Total
+16
+14
+
+200
+
+12
+10
+
+150
+
+8
+100
+
+6
+4
+
+50
+
+2
+
+0
+
+0
+Jun
+
+Jul
+2021
+
+Aug
+
+Jun
+
+Jul
+2022
+
+Aug
+
+Jun
+
+Jul
+
+RTORPA Percent of Total
+
+Time-Weighted Average Price
+($/MWh)
+
+Real-Time Hub Average Price
+250
+
+Aug
+
+2023
+
+RTORPA is the Real-time Online Reserve Price Adder
+RTORDPA is the Real-time Online Reserve Deployment Price Adder
+
+Key Takeaway: Adders had a lower contribution to the market price in
+2023 relative 2022.
+
+Item 6
+ERCOT Public
+
+19
+
+Real-Time Congestion Rent by Zone
+600
+500
+
+$ Millions
+
+400
+300
+200
+100
+0
+Jun
+
+Jul
+
+Aug
+
+Jun
+
+2021
+
+Aug
+
+Jun
+
+2022
+North
+
+Item 6
+ERCOT Public
+
+Jul
+
+West
+
+South
+
+Houston
+
+Jul
+
+Aug
+
+2023
+Cross Zone
+
+Key Takeaway: As demonstrated in slide 15, congestion between
+South Texas and South-central/North Texas pushed up
+congestion rent in the South, North, and across zones.
+20
+
+Cost for Ancillary Services
+•
+
+ERCOT Contingency Reserve Service (ECRS) went live on June 10, 2023.
+
+•
+
+Ancillary Service costs in summer 2023 were substantially higher than for the
+previous two summers, particularly in August.
+–
+
+This corresponds with higher energy prices in the Day-Ahead Market (DAM) for August 2023.
+
+900
+800
+700
+
+$ Million
+
+600
+500
+400
+300
+200
+100
+-
+
+Jun
+Non-Spin
+
+Item 6
+ERCOT Public
+
+Jul
+2021
+
+Aug
+
+ERCOT Contingency Reserve
+
+Jun
+
+Jul
+2022
+Regulation Up
+
+Aug
+
+Jun
+
+Regulation Down
+
+Jul
+2023
+
+Aug
+
+Responsive Reserve
+
+21
+
+Comparison of Day-Ahead and Real-Time prices
+•
+
+Price convergence between the Day-Ahead and Real-Time Markets
+remained normal during summer 2023.
+
+Average Settlement Point Price ($/MWh)
+
+1200
+1000
+800
+600
+400
+200
+0
+
+Real-Time Hub Average
+
+Item 6
+ERCOT Public
+
+Day-Ahead Hub Average
+
+22
+
+Resources Committed Through RUC
+•
+
+There were 534 total Reliability Unit Commitment (RUC) effective Resource-hours in summer 2023.
+This was a substantial reduction from the summer 2022 count of 2,573 Resource-hours.
+
+•
+
+36 unique Resources were committed from June to August 2023, while 42 unique Resources were
+committed during summer 2022.
+1,300
+1,200
+
+Effective Resource-Hours
+
+1,100
+1,000
+900
+800
+700
+600
+500
+400
+300
+200
+100
+Jun
+
+Jul
+2021
+
+Aug
+
+Jun
+
+Non-opt-out
+
+Jul
+2022
+
+Aug
+
+Jun
+
+Jul
+2023
+
+Aug
+
+Opt-out
+
+“Effective Resource-hours” excludes any period during a RUC-instructed hour when the committed Resource was
+starting up, shutting down, off-line, or otherwise not available for dispatch by SCED.
+
+Key Takeaway: High demand and prices created incentives for
+greater self-commitment resulting in significantly less RUC.
+Item 6
+ERCOT Public
+
+23
+
+Total Potential Exposure, Collateral and Collateral Calls
+September 2022 – September 15, 2023
+
+* TPE excludes entities that defaulted from Winter Storm URI
+
+Key Takeaway: High consumption, production and prices
+increased total potential exposure, and collateral requirements.
+Item 6
+ERCOT Public
+
+24
+
+

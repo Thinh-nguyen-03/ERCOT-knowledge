@@ -1,0 +1,479 @@
+PUBL~ 4
+
+~* TEX>~
+Filing Receipt
+Filed Date - 2026-05-18 04:45:40 PM
+
+Control Number - 59772
+Item Number - 1
+
+PROJECT NO. 59772
+PROCEEDING TO ADJUST THE 2026
+
+§
+
+PUBLIC UTILITY COMMISSION
+
+§
+
+LOAD FORECAST USED BY ERCOT
+
+§
+
+OF TEXAS
+
+ERCOT PROPOSAL TO ADJUST LONG-TERM LOAD FORECAST
+Pursuant to 16 Texas Administrative Code (TAC) § 25.370(e)(2)(B), Electric Reliability
+Council of Texas, Inc. (ERCOT) requests that the 2026 Preliminary Long-Term Load Forecast
+(LTLF) be adjusted as described in this filing.
+
+As discussed by the Public Utility Commission of Texas (Commission) at the May 7,2026,
+
+Open Meeting, this proposal is anticipated to be considered by the Commission at the June 18,
+2026, Open Meeting. Accordingly, this is timely filed. 1
+
+I.
+
+BACKGROUND
+
+On April 15, 2026, ERCOT filed the LTLF in Project No. 58777 in accordance with
+
+ERCOT's recommendation that it be used for the load forecast modeling input to Strategic Energy
+& Risk Valuation Model (SERVM) for performance ofthe 2026 Reliability Assessment. 2 ERCOT
+previously recommended that the LTLF be used for the load forecast modeling input to the
+
+Reliability Assessment in order to ensure that a consistent load forecast would be used across all
+transmission planning and resource adequacy assessment initiatives.
+
+The LTLF was developed
+
+using criteria from the 2026 RIP Compliance Plan, which establishes interim criteria for the
+inclusion of the load of a Large Load customer in ERCOT's load forecasts until the permanent
+
+criteria recently adopted in 16 TAC § 25.370 can be implemented. 3
+
+1 See 16 Tex. Admin. Code (TAC) § 25.370(e)(2)(B) ("ERCOT must file its request with the commission and publish
+market notice of the requested adjustment not less than 30 days before the commission's consideration at an open
+meeting. The commission may, at its discretion, consider the matter at an earlier open meeting.").
+
+2 Triennial Reliability Assessment for the ERCOT Region under § 25. 508, Project No . 58777 , Preliminary Long - Term
+Load Forecast for Years 2026 - 2032 ( Apr . 15 , 2026 ); see also, Triennial Reliability Assessment for the ERCOT
+Region under f25.508, Project No. 58777, ERCOT's Final Recommendation of Modeling Assumptions and CONE
+Study for the 2026 Reliability Assessment at 4 (Mar. 23,2026).
+3 See generally, Rulemaking to Establish Large Load Forecasting Criteria Under PURA §37.0561, Project-No. 58480,
+ERCOT's Proposed Compliance Plan for Including Large Loads in the Load Forecast for the 2026 Regional
+Transmission Plan (Jan. 22, 2026) ("2026 RTP Compliance Plan"); see also, 16 TAC § 25.370(g) (addressing
+
+requirements for the compliance plan).
+
+1 of 9
+
+The LTLF forecasts peak load is 278,003 megawatts (MW) in 2029 and 367,790 MW in
+
+2032. In its April 15th filing, ERCOT indicated that it had concerns with using these values in the
+Reliability Assessment and any other transmission and resource adequacy analysis.
+
+At the
+
+Commission' s April 17, 2026, Open Meeting, the Commission indicated that adjusting the LTLF
+to a more realistic value may be warranted. At the May 7,2026, Open Meeting, ERCOT confirmed
+to the Commission that it would propose an adjustment to the LTLF.
+
+16 TAC § 25.370(e) requires ERCOT to use the load data provided by Distribution Service
+Providers (DSPs) for transmission planning studies and resource adequacy assessments. The rule
+
+provides only two avenues for ERCOT to adjust the DSP-provided load data: (1) to correct errors
+or account for the withdrawal or cancellation of a Large Load customer' s request for
+
+interconnection, or (2) in consultation with Commission Staff, to request approval from the
+Commission to adjust the load data if "the adjustment is supported by actual historical realization
+rates or other objective, credible, independent information."
+
+The latter process in subsection
+
+(e)(2)(B) requires that ERCOT file its request for adjustment with the Commission at least 30 days
+
+prior to the Open Meeting at which the Commission is requested to consider the adjustment
+proposal.
+
+The process also requires ERCOT to publish an associated Market Notice.
+
+The
+
+Commission retains discretion to consider the matter at an earlier open meeting. ERCOT must
+
+include in its request in detail the data, methodology, and calculations used for the proposed
+adjustment and the specific reasoning for the request. Unless the Commission establishes a
+different deadline, public comment on ERCOT's request is due 14 days after ERCOT's filing.
+II.
+
+PROPOSED ADJUSTMENT TO PRELIMINARY LONG-TERM LOAD FORECAST
+
+Due to the unprecedented scale of the load included in the LTLF and known supply chain
+
+constraints extending through the medium term which bring into question the likelihood of the
+realization timeline for the provided load forecast values, ERCOT requests that the process in 16
+TAC § 25.370(e)(2)(B) be used to adjust the LTLF to a more realistic forecast. After consulting
+
+with Commission Staff and some Transmission and/or Distribution Service Providers (TDSPs),
+ERCOT proposes two options to adjust the LTLF: one adjustment option using a historical
+realization rate and the other option using the forecast developed in the Large Load Batch Zero
+
+process. As described in greater detail below, ERCOT recommends that the Batch Zero load
+forecast option be used to adjust the LTLF, including for use as the load forecast input for the 2026
+
+Triennial Reliability Assessment modeling.
+
+2 of 9
+
+A. Adjustment Option Using Historical Realization Rate
+One option to adjust the LTLF is based on the historical realization rates ofthe Large Loads
+
+identified in the TDSPs ' responses to ERCOT ' s 2025 Large Load Request for Information (RFI )
+Under this approach, ERCOT would propose to calculate the historical realization rate as the
+number of computational Large Loads that were observed to have been energized by March 1,
+
+2026 , divided by the number of computational Large Loads identified by TDSPs in the 2025 Large
+
+Load RFI response . In recent years , ERCOT has annually issued a Large Load RFI to all TDSPs
+in the ERCOT Region to gather information on expected load to inform ERCOT's forecasts and
+studies. TDSPs are required to provide information on Large Loads (i.e., 75 MW or greater).
+Among other information, the 2025 RFI requested each Large Load' s name and location, load
+
+type, the anticipated month that the load will first be energized, the initial MW amount to be
+energized, and the load energization MW ramp schedule from summer 2025 through summer
+
+2035 . ERCOT issued the 2025 Large Load RFI to TDSPs on December 5 , 2024 , and responses
+
+were received by January 31,2025.4
+In calculating the historical realization rates, ERCOT would limit its evaluation to
+computational Large Loads (i.e., data centers and cryptomining facilities).
+
+Other Large Load
+
+types, such as oil and gas and industrial loads, have a lengthy history in the ERCOT Region, which
+provides greater confidence in their energization and ramp rate timeframes. Furthermore, although
+
+"medium loads" (i.e., greater than 25 MW but less than 75 Mw) are also included in the LTLF,5
+
+ERCOT does not propose to adjust those because that category was not addressed in the 2026 RTP
+Compliance Plan and accordingly they do not have the same criteria as Large Loads. If medium
+loads were adjusted, this would have a relatively minimal impact on the LTLF because they
+represent a relatively small portion ofthe LTLF compared to core base economic growth and Large
+
+Loads: for instance, in the LTLF for 2032 a total of 258 medium loads were included totaling
+
+13,473 MW, ofwhich 157 are computational medium loads totaling 8,766 MW.
+
+ERCOT proposes to use the following data sources to determine whether each of the
+Large Loads included in the 2025 Large Load RFI was
+energized by the forecasted date : historical
+
+4 Responses to those RFIs are confidential Protected Information.
+
+5 The LTLF includes three elements: (1) a core long-term outlook composed of base economic growth, electric vehicle
+
+adoption, photovoltaic rooftop solar adoption, cryptomining growth within existing facilities, and known operational
+Large Load capacity; (2) Large Loads; and (3) medium loads. See Triennial Reliabili<v Assessmentfbr the El?COT
+Region under f25.508, Project No. 58777, Preliminary Long-Term Load Forecast for Years 2026 - 2032 at slide 2 of
+Attachment A (Apr. 15, 2026).
+
+3 of 9
+
+State Estimator data,6 recent satellite imagery of Large Load sites, existing bus information, data
+from the Large Load Interconnection Queue, and internal Large Load tracker data.
+
+These
+
+information sources reflect a series of actions that ERCOT can take to trace a Large Load from
+
+planning data in the Network Operations Model to ensure that the telemetry that is flagged for a
+Large Load and used for this adjustment is appropriate.
+
+Use of this adjustment option would result in a 32% reduction to all computational Large
+Loads in the LTLF, which would result in overall adjustments to the LTLF shown below in Table
+
+1:
+Table 1: Historical Realization Adjustment to LTLF
+400,000
+
+- 351 780
+
+350 , 000
+
+346,715
+
+~0,/319,650
+
+300,000
+/~003
+
+250,000
+
+,•¢S,379
+
+~ 200,000
+
+-- 183,503
+
+150,000
+
+-..
+
+,•/152,882
+
+112,371,0/100,000
+
+192,685
+
+201,662
+
+- 168,612
+
+-147,959
+
+122,637
+105,462
+
+50,000
+
+2026
+
+2027
+-Preliminaty LTLF
+
+2028
+
+2029
+
+2030
+
+2031
+
+2032
+
+- Historical Realization Adjustment Option
+
+There are two primary benefits ofusing this adjustment option. First, use of an adjustment
+
+methodology based on historical realization rates directly aligns with 16 TAC § 25.370(e)(2)(A),
+which explicitly allows adjustments that are "supported by actual historical realization rates." This
+
+6 The State Estimator is a software application that ERCOT uses to monitor the real-time state of the ERCOT
+Transmission Grid.
+
+4 of 9
+
+is an objective methodology for adjustment grounded in actual results and is a similar approach to
+the adjustment made to the LTLF in 2025.7
+
+Second, this adjustment option can be applied
+
+immediately to the LTLF upon Commission approval, thus allowing performance of the 2026
+
+Triennial Reliability Assessment to proceed without further delay. If the Commission were to
+approve use of this adjustment to the LTLF at the June 18, 2026, Open Meeting, ERCOT
+anticipates that the results ofthe Reliability Assessment probabilistic simulations could be filed in
+
+September or October 2026.
+The primary disadvantage of using this adjustment option is that it is based on historical
+performance, which is not necessarily indicative of future performance. The Batch Zero forecast
+
+adjustment described below has the advantage of being a "firm" forecast for which transmission
+
+will be built to serve the anticipated load.
+B. Adjustment Option Using Batch Zero Forecast
+A second option to adjust the LTLF is to use the Large Load forecast developed through
+
+the Batch Study process for Batch Zero, which is currently being finalized in Planning Guide
+
+Revision Request (PGRR) 145. As the Commission is aware, ERCOT has been working with
+stakeholders to transition from the current Large Load Interconnection Study process implemented
+through PGRR115, which entailed sequential study of Large Load interconnection requests, to a
+
+Batch Study process in which clusters ofLarge Load interconnection requests that have met certain
+milestones are studied together. Transmission can then be developed based on the Large Load
+
+confirmed through the Batch Study process. PGRR145's Batch Zero would be a one-time process
+to facilitate the transition to this new study approach. For the purposes of the Batch Zero study,
+
+PGRR145 proposes to categorize Large Loads into three categories: load that has already been
+sufficiently studied for interconnection and therefore is considered "base load" for Batch Zero,8
+load that requires additional interconnection study in Batch Zero ("studied load"),9 and load that
+has not met sufficient criteria to be included in Batch Zero and therefore will require study under
+
+' See generally, Reports of the Electric Reliability Council of Texas, Project No . 55999 , ERCOT ' s Revisions to
+Adjusted Load Forecasts and Amended Draft Proposed Order (June 4,2025); see also, Reports of the Electric
+Reliabilio; Council of Texas, Project No. 55999, Order Granting Good Cause Exception (June 5,2025).
+8 Refer to proposed ERCOT Planning Guide § 9.2.1.1 in PGRR-145, available on ERCOT's website at:
+https://www.ercot.com/mktrules/issues/PGRR145 (Eligibility Criteria for Inclusion of a Large Load as Base Load not
+Subject to Additional Study in the Batch Zero Process).
+9 Refer to proposed ERCOT Planning Guide § 9.2.1.2 in PGRR145 (Eligibility Criteria for Inclusion as Load to be
+Studied and Allocated in Batch Zero).
+
+5 of 9
+
+a future Batch Study. 10 ERCOT Planning Guide § 9.3.1(2)(a) as currently proposed in PGRR145
+would require interconnecting Transmission Service Providers (TSPs) and DSPs to provide all
+required Large Load information to ERCOT by July 24, 2026, and ERCOT to then notify the
+interconnecting DSPs and TSPs by August 7, 2026, of how each submitted Large Load is
+categorized.11 Under PGRR-145, ERCOT will ultimately submit the Batch Zero loads to the
+
+ERCOT Regional Planning Group (RPG) for TDSP development oftransmission projects to serve
+those identified loads. PGRR145 is on track for consideration by the ERCOT Board of Directors
+
+at its June 1-2,2026, meeting and subsequently for Commission consideration at the July 9,2026,
+Open Meeting.
+Use ofBatch Zero to adjust the LTLF would entail substituting the Large Load information
+
+provided by the TDSPs under the criteria of the 2026 RTP Compliance Plan with the base loads
+identified by ERCOT for inclusion in Batch Zero pursuant to ERCOT Planning Guide § 9.3.1(2)(a)
+under PGRR145. The Batch Zero Large Load MW values would then be added to LTLF's base
+economic forecast and the medium loads to arrive at an adjusted overall LTLF. Although the
+Batch Zero Large Loads and their MW values are not currently expected to be confirmed until
+
+mid-August 2026, ERCOT is confident that the Large Load MW values provided for Batch Zero
+
+will be significantly lower than the MW values provided under the 2026 RTP Compliance Plan .
+The benefits of using the Batch Zero forecast to adjust the LTLF include that it will
+
+ultimately result in an actionable transmission development plan (after a refinement study) and
+therefore is a firmer starting point of anticipated load. This is because the TSPs will execute on a
+
+transmission plan to build out the ERCOT System based on the loads identified through the Batch
+Zero process. Furthermore, the Batch Zero forecast is based on criteria that have received greater
+
+industry scrutiny than the criteria in the 2026 RTP Compliance Plan, which was developed before
+the extensive stakeholder discussions on PGRR145. In accordance with the requirement of 16
+TAC § 25.370(e)(2)(B), use of the Batch Zero load forecast to adjust the LTLF would be
+
+"objective, credible, independent information" because it is load information provided in a manner
+
+10 Refer to proposed ERCOT Planning Guide § 9.2.1(4) in PGRR145 ("Loads that do not meet the eligibility criteria
+in Sections 9.2.1.1 or 9.2.1.2 shall be ineligible to receive approval for Initial Energization until evaluated through a
+
+future interconnection study process.").
+11 Note that these deadlines currently included in PGRR-145 are under active discussion in the stakeholder process and
+may shift; however, ERCOT does not anticipate the deadline for ERCOT to provide the Large Load categorizations
+to extend beyond August 2026.
+
+6 of 9
+
+developed through the ERCOT stakeholder process in PGRR145 and has been subject to
+
+significant stakeholder consultation and input.
+The primary drawback of using the Batch Zero forecast to adjust the LTLF is the delay
+
+until mid-August 2026 when the LTLF could be finalized.
+
+ERCOT anticipates that this would
+
+delay the delivery of the results of the 2026 Triennial Reliability Assessment until November or
+December 2026.
+
+Although this adjustment option would result in greater delay than the historical realization
+rate adjustment option, ERCOT recommends that the Batch Zero adjustment option is justified
+
+because the benefit of a more reliable load forecast outweighs the cost of the additional time
+required. Accordingly, ERCOT recommends that the Commission approve ERCOT's use of the
+Batch Zero load forecast to adjust the LTLF and that this adjusted LTLF be used for performance
+
+ofthe 2026 Triennial Reliability Assessment.
+
+C. Market Notice and Next Steps
+As required by 16 TAC § 25.370(e)(2)(B), ERCOT is issuing a Market Notice to solicit
+public comment on this adjustment proposal.12
+
+Pending any alternative schedule that the
+
+Commission may provide, responsive comments would be due 14 days after this filing by June 1,
+
+2026.
+Due to regulatory timelines established in the Protocols and necessary development time,
+
+any adjustment to the LTLF will impact ERCOT's transmission planning and resource adequacy
+studies, including specifically the Capacity, Demand, and Reserves (CDR) Report, the Regional
+Transmission Plan (RTP), and the Triennial Reliability Assessment.
+
+Based on the anticipated
+
+impact to these development timelines, ERCOT is separately filing in Project No. 55999 a request
+for good cause exceptions to not perform the May 2026 CDR and the 2026 RTP.
+
+If the
+
+Commission grants those requests, ERCOT will nevertheless provide certain limited information
+in lieu ofthe May 2026 CDR and the 2026 RTP. Additional details are included in that filing.
+
+12
+
+The
+
+Market
+
+Notice
+
+is
+
+available
+
+https://www.ercot.com/services/comm/mkt_notices/archives.
+
+7 of 9
+
+on
+
+ERCOT's
+
+website
+
+at:
+
+III.
+
+CONCLUSION
+
+ERCOT recommends that the Commission approve an adjustment to the LTLF using the
+Batch Zero load forecast. As noted above, ERCOT has separately filed in Project No. 55999
+requests for good cause exceptions to not perform the May 2026 CDR and 2026 RTP. Although
+those requests are interrelated to this proposal to adjust the LTLF, each may be acted on separately.
+
+ERCOT stands ready to provide any additional information that may be helpful. ERCOT
+
+personnel will be available for questions at the Commission's Open Meeting on June 18, 2026.
+
+8 of 9
+
+Dated: May 18, 2026
+Respectfully submitted,
+
+/s/ Matthew Arth
+Chad V. Seely
+Senior Vice President Regulatory Policy,
+General Counsel, and Chief Compliance Officer
+Texas Bar No. 24037466
+(512) 225-7035 (Phone)
+chad.seely@ercot.com
+Brandon Gleason
+Vice President Legal and Compliance
+Texas Bar No. 24038679
+(512) 275-7442 (Phone)
+brandon.gleason@ercot.com
+Matthew A. Anh
+Managing Assistant General Counsel
+Texas Bar No. 24090806
+(512) 275-7435 (Phone)
+
+matthew. anh@ercot.com
+
+ERCOT
+8000 Metropolis Drive, Bldg. E, Suite 100
+Austin, Texas 78744
+(512) 225-7079 (Fax)
+
+ATTORNEYS FOR ELECTRIC RELIABILITY
+COUNCIL OF TEXAS, INC.
+
+9 of 9
+
+

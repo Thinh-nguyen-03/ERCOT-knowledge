@@ -1,0 +1,769 @@
+2705 West Lake Drive
+
+Taylor, Texas 76574
+
+(512) 248-6800
+
+ercot.com
+
+Aggregate Distributed Energy Resource 
+
+Pilot Project Governing Document
+
+Phase 3.3
+
+Approved at the June 1-2, 2026 meeting of the ERCOT Board of Directors
+
+Table of Contents
+
+1. Introduction 3
+
+2. Purpose of the Pilot Project Phase 3 4
+
+3. Phase 3 Pilot Project Timeline and Duration 5
+
+4. Policy Questions to be Considered in Phase 3 5
+
+5. Phase 3 of the Multi-phase Pilot Project 6
+
+a. Background and Basic Program Parameters 6
+
+b. Exceptions to ERCOT Rules 7
+
+c. Eligibility and Qualification 8
+
+d. Metering, Telemetry, and Market Submissions 15
+
+e. Additional Data from the QSE Representing the ADER 21
+
+f. Procurement and Deployment 21
+
+g. Performance Evaluation and Compliance Metrics 22
+
+h. Settlement and Cost Allocation 22
+
+i. Evaluation and Analysis of Different ADER Participation Models for Phase 3 22
+
+j. Program Costs 23
+
+k. Reports 23
+
+l. Construction 23
+
+Appendix A 24
+
+Appendix B 25
+
+Appendix C 26
+
+ Introduction
+
+On October 18, 2022, as authorized by 16 Texas Administrative Code (TAC) § 25.361(k), and as directed by the Public Utility Commission of Texas (PUCT), the ERCOT Board of Directors (Board) established a pilot project to evaluate the participation of Aggregate Distributed Energy Resources (ADERs) in the ERCOT wholesale market (Pilot Project). An ADER is a Resource consisting of multiple Premises or devices connected at the distribution system level that has the ability in aggregate to respond to ERCOT Dispatch Instructions. As described by the Commissioner Memorandum filed on July 13, 2022, in Project No. 51603, the Pilot Project is intended to answer, “questions related to how ADERs can support reliability, enhance the wholesale market, incentivize investment, potentially reduce transmission and distribution investments, and support better load management during emergencies.” The “Phase 1” Governing Document laid out the framework for the first phase of the Pilot Project and envisioned a multi-phase Pilot Project in which future revisions to this Governing Document would establish the details for the additional phases, with lessons learned from the early phases considered when designing additional phases for the Pilot Project. These additional phases would be intended to create opportunity to expand overall participation while maintaining the reliable operation of the transmission and distribution grid. All materials regarding the Pilot Project have been filed in Project No. 53911.
+
+Participation in the Phase 1 of the Pilot Project began on August 22, 2023. On February 27, 2024, ERCOT staff filed a Phase 1 Report, as required by the Phase 1 Governing Document, in which ERCOT Staff and the ADER Task Force established in PUCT Project No. 53911 (Task Force) reviewed observations on Phase 1 and made recommendations to pursue in Phase 2. The Phase 2 Governing Document was approved by the ERCOT Board on February 27, 2024.
+
+At the February 13, 2025 PUCT Open Meeting, the Commissioners approved a PUCT Staff recommendation for the Commission to dissolve the ADER Task Force at the Commission and officially transfer the ADER pilot program over to the ERCOT stakeholder process under the Technical Advisory Committee (TAC). The Pilot Project was transferred and first discussed by the ERCOT Technical Advisory Committee (TAC) members at its February 27, 2025 meeting.
+
+Following the timeline established by the Phase 2 Governing Document, ERCOT prepared a recommendation on moving to a Phase 3 of the Pilot. On May 28, 2025, ERCOT presented at the TAC and then filed with the Commission a Phase 2 Report, recommending a transition to a Phase 3 of the Pilot.
+
+The Phase 3.1 Governing Document revised the Phase 2 Governing Document to incorporate the following updates:
+
+-   The additional option to participate as an ADER using the non-Controllable Load Resource (NCLR) participation model. This allows aggregations of sites that cannot incrementally follow SCED basepoints to be eligible to provide Ancillary Services including ERCOT Contingency Reserve Service (ECRS) and Non-Spinning Reserve (Non-Spin).
+
+-   Additional clarification related to the process of reviewing Details of the Aggregation (DOTA) submissions and participation in ERCOT’s Emergency Response Service (ERS) program or Transmission and Distribution Utility (TDU) Commercial & Residential Load Management Programs.
+
+-   Updated and clarifications were made to the processes for Premise-level validations.
+
+Additionally, other minor updates were made during Phase 3:
+
+-   3.2 Updates to the Governing Document (02/27/2026) increased the system-wide limits for participation in the Pilot as well as the limits for a single Qualified Scheduling Entity (QSE). Per the Governing Document, this increase in limits was at ERCOT’s discretion and in consultation with TAC.
+
+-   3.3 Updates to the Governing Document (06/02/2026) deleted a requirement for CLR and NCLR ADERS that the response capability of all ADERs assigned to any single CIM Load must be capped at 100% of the rating of the CIM Load. In practice, there was no operational concern with CIM Load ratings and ERCOT found it was not necessary to restrict ADER capability to the maximum MW of the CIM load. Language was added to reflect practice that participation numbers are updated on the ERCOT webpage. Additionally, a minor edit to the QSE participation limit was made to reflect a change that was inadvertently omitted from previous revisions.
+
+Purpose of the Pilot Project Phase 3
+
+Phase 3 of the Pilot Project is intended to make additional improvements and account for lessons learned from Phases 1 and 2. As such, the general goals for this phase largely remain the same. The purpose of this phase of the Pilot Project is to:
+
+1.  Assess the operational benefits and challenges of heterogeneous Distributed Energy Resource (DER) aggregations which are net generation or net load and address those challenges to allow meaningful use of DER aggregation.
+
+2.  Understand the impact of having Ancillary Services and energy delivered by ADERs and assess how ADERs can best be used to support reliability.
+
+3.  Assess challenges to incentivizing competition and attract broad DER participation through Load Serving Entities (LSEs), while ensuring adequate customer protections are in place.
+
+4.  Allow Distribution Service Providers (DSPs), the Commission, and others to study distribution system impacts of ADERs which inject to the grid.
+
+5.  Evaluate the impacts to transmission system congestion management associated with the dispatch and Settlement of ADERs at a zonal level.
+
+6.  Identify potential Pilot Project enhancements and study the need for and benefit of transitioning distribution-level aggregations to different levels of more granular dispatch and Settlement and evaluate more complex use-cases and business models.
+
+As in Phase 1 and 2 of this Pilot Project, Phase 3 is intended to provide a means for Premises with any combination of generation, energy storage technologies, or controllable load with the capability of 1 MW or less to participate in the ERCOT wholesale markets. This Pilot Project is not intended to investigate or propose changes to existing participation models, such as those for Distributed Generation Resources (DGRs), Distributed Energy Storage Resources (DESRs), Aggregate Load Resources (ALRs), or Settlement Only Distribution Generators (SODGs) greater than 1 MW. For previous phases of the Pilot Project which were designed to make use of the ALR participation model, aggregations of multiple Premises that included only Load were not able to participate as there is already a pathway for their participation in the Protocols if the aggregation is “controllable.” However, that is changing with Phase 3 as an ADER will now be able to participate in the market similar to a non-Controllable Load Resource (NCLR).
+
+Under Phase 3 of the Pilot Project:
+
+-   ADERs will be eligible to register and participate in the market in a manner equivalent to an NCLR. This is in addition to the current Aggregate Load Resource (ALR) participation model;
+
+-   Clarification is offered where a customer has enrolled in an ADER, as proposed through a DOTA submission, and also ERCOT’s ERS program or a TDU’s Load Management Program;
+
+-   Other areas of the Pilot Project will continue to be monitored to inform design enhancements in the future.
+
+Phase 3 Pilot Project Timeline and Duration
+
+The Pilot Project will continue under Phase 3 until implementation of ERCOT market rules and systems are in place to accommodate participation by ADERs, considering any direction from the PUCT, or until ERCOT, following PUCT consultation, or the PUCT deems the Pilot Project unnecessary. ERCOT expects that the Pilot Project will need to continue for a minimum of one additional year from the formal adoption of the Phase 3 Governing Document, including any future phases, to allow for any incorporation of ERCOT system upgrades, testing of customer migration, and qualifying Resources for multiple ERCOT services, as determined to be allowable while maintaining grid reliability.
+
+This Phase 3 Governing Document provides the necessary details for a third phase of the Pilot Project to continue the implementation of an ADER program with minimal changes to ERCOT and DSP systems. Potential future phases may introduce additional design elements to help expand participation opportunities while still maintaining distribution and transmission grid reliability.
+
+Subject to any ERCOT decision, Phase 3 of the Pilot Project will proceed according to the following timeline:
+
+-   June 23, 2025: Board approval of Phase 3 of the Pilot Project.
+
+-   Following a period of at least six months of Phase 3, ERCOT shall prepare a recommendation on whether Phase 3 should continue in order to gain more data based on regular discussions which shall take place during the ERCOT stakeholder process at the Wholesale Market Subcommittee.
+
+-   ERCOT to update the PUCT every six months on the status of the Pilot Project.
+
+Policy Questions to be Considered in Phase 3
+
+During Phase 3, ERCOT shall consider the following issues:
+
+-   Device-level sub-meter data, power quality metering, or methods for independent certification of QSE-provided data: This Pilot Project will need to evaluate the need for and methods for collecting data from individual Premises or devices that can be used to validate ADER performance and compliance of ADERs, including for the provision of additional Ancillary Services. This may include requiring data recorders located on individual DERs and on the distribution system in the future. If that is needed, who installs/owns these data recorders and how is the accuracy of data provided for performance and compliance guaranteed or certified?
+
+-   Provision of additional Ancillary Services: During Phase 3 of the Pilot Project, ERCOT will continue to study the provision of ECRS by ADERs and will continue to work with the PUCT and stakeholders regarding the provision of additional Ancillary Services by Resources connected to the distribution system. The approach taken for ADERs will be linked to broader discussions on this topic, under PUCT Project No. 51603, as it relates to all distribution-connected Resources.
+
+-   ADER modeling with alternative dispatch and pricing schemes: As part of this Pilot Project, ERCOT will evaluate a Logical Resource Node (LRN) concept and other alternative dispatch and pricing schemes. Specific to the LRN concept, implementation of this model approach will require the Settlement Meter location for each Premise to be identical to the Premise’s telemetry location. If a Premise has only one Settlement Meter, then the telemetry location will be required to correspond to the Settlement Meter location. This implies that all native load behind the Settlement Meter will be settled at an LRN price. Among other issues, this scheme will require consideration of the consistency with 16 TAC § 25.501(h), which requires load to be settled at a zonal price. While this issue may be resolved by both placing a Settlement Meter that measures only the ADER dispatchable component at the Premise and having the telemetry correspond to the dispatchable (device-level) component at the Premise, this will also raise the question of who would be responsible for installing, maintaining, and reading this separate Settlement Meter.
+
+-   Alternative telemetry requirements may be considered.
+
+-   Potential rule or rule changes regarding interoperability standards and their application to devices participating in the ADER Pilot Project.
+
+Phase 3 of the Multi-phase Pilot Project
+
+Background and Basic Program Parameters
+
+  The third phase of the Pilot Project design will continue to minimize ERCOT and DSP required system changes and expedite an expanded Pilot Project. ERCOT expects to use lessons learned from this phase to evaluate possible further phases for the Pilot Project that could expand overall participation while ensuring the reliable operation of the electric grid. During the third phase of the Pilot Project, the registered ADER must always be seen in aggregate as a net consumer of energy by ERCOT, in terms of telemetry and other market submissions to ERCOT. However, it will be acceptable if individual Premises that are components of the aggregation are net injectors of energy and an ADER may provide a net injection on an aggregated basis.
+
+-   Continuing in Phase 3, an ADER participating as an ALR will be modeled as a Load Resource and is an aggregation of Premises, where all the sites are located within a single Load Zone and have the same LSE and DSP.
+
+-   An ADER participating as an NCLR will be modeled as a Load Resource and is an aggregation of Premises, where all the sites are located within a single Load Zone and with the same DSP. For ADERs participating as an NCLR, where the individual premises associated with the aggregation have electric consumption exceeding 100kW, those premises are not required to have the same LSE provided that ERCOT has received “LSE’s QSE Acknowledgment for NCLR-Type Participation” forms (hereinafter, “LSE Acknowledgment”) (See Appendix A) for the QSEs of all the active LSEs associated with the premises in that aggregation. Also, ADERs participating as an NCLR may be an aggregation of load-only sites.
+
+-   Each Premise within an ADER may be net load or net generation. The aggregation must have the capability to provide at least 100 kW of response (Demand response capability plus injection capability) and each Premise must provide 1 MW or less of response (Demand response capability plus injection capability). Premises or aggregations that are otherwise able to participate in the ERCOT market (e.g., as a DGR, DESR, SODG larger than 1 MW, or ALR) should not be included as part of an ADER. The ADER’s performance should always be represented as a net Load for purposes of telemetry and other market submissions to ERCOT.
+
+-   For the initiation of Phase 3 of the Pilot Project, the total registered MW capacity of all the ADERs must be no greater than 500 MW system wide. These ADERs will be limited to providing no more than 100 MW of Non-Spinning Reserve (Non-Spin) system-wide and no more than 100 MW of ERCOT Contingency Reserve Service (ECRS) system-wide. As part of the “Details of the Aggregation” provided to ERCOT, the QSE shall indicate the anticipated MW capacity that is intended to be registered as well as an amount of Non-Spin and ECRS for which the QSE is intending to qualify the ADER. These ADER MW quantities will be evaluated against these ERCOT Pilot Project participation limits. Additionally, no QSE will be allowed to register more than 90% of these system-wide limits.
+
+-   These ERCOT Pilot Project participation limits will be enforced as part of ERCOT’s review of a QSE’s submission for participation. Updates showing remaining availability under the participation limits are posted on the Pilot Projects page of the ERCOT website.
+
+-   When participation exceeds 80% of the limits described above, including the limit on a QSE’s ability to register more than 90% of the system-wide cap, ERCOT shall review any reliability concerns with potential increases in the ERCOT Pilot Project participation limits. ERCOT may increase any of the imposed participation limits, at its sole discretion and in consultation with TAC, after evaluating performance during the Pilot Project. If ADER participation is approaching either the system-wide limits or QSE limits in the Governing Document, ERCOT would exercise its discretion to make incremental upward adjustments to either or both of these limits to continue to support growth in participation while managing administrative burden ahead of transitioning the pilot to ERCOT Nodal Protocols. Such increases will not be considered amendments to this Governing Document and therefore will not require approval by the ERCOT Board.
+
+-   There may be other limitations on ADERs to be established by DSPs due to reliability concerns that will also be evaluated and addressed as the ADER details are submitted to DSPs for their acknowledgement.
+
+Exceptions to ERCOT Rules
+
+  During the third phase of this Pilot Project, ADERs will have the option to participate as ALRs or NCLRs and will be treated as ALRs or NCLRs respectively for all purposes under the Protocols.
+
+  ADERs opting to register as an ALR must participate as ALRs except as follows:
+
+-   An ADER is allowed to have Premises that can inject energy into the distribution system, and an ADER may provide a net injection on an aggregated basis. A net injection from an ADER in response to an ERCOT Dispatch Instruction will be considered Demand response under the Protocols and other ERCOT rules. Any Premise with the potential to export energy beyond its Premise meter must have the correct load profile ID set, for meters in service territories where that is applicable, such that both the import and export channels of its Premise meter are provided to ERCOT.
+
+-   ADER withdrawal telemetry values must represent the sum of the consumption and export of each of the member Premises or devices plus any necessary MW offsets, as described in this Governing Document. Maximum Power Consumption and Low Power Consumption values must be modified to accommodate ADERs, as further provided in this Governing Document. An ADER using device-level telemetry must comply with the validation process for device-level telemetry provided in this document instead of existing validation rules.
+
+-   An ADER is not permitted to present statistical sampling for performance evaluation.
+
+-   The Resource Entity and QSE for the ADER are jointly responsible for maintaining ADER population information, as further described in subsections 5.c.4 and 5.c.5.
+
+-   ADERs will have Pilot Project-specific modeling and ERCOT Pilot Project participation limits.
+
+-   ERCOT will not use baseline evaluation for either qualification or performance validation purposes during the Pilot Project. Qualification and performance validation specific to the Pilot Project is described in subsection 5.c.6.
+
+-   Scheduled Power Consumption (SPC) +2 information will not be required to be provided for an ADER, as it is for an ALR.
+
+-   The telemetry validation procedures and metrics for ADERs are distinct from those for ALRs and are described in subsection 5.d.
+
+-   For Phase 3 of the Pilot Project, ADERs are allowed to, but will not be required to, provide Primary Frequency Response (PFR), as is required for ALRs. To encourage ADERs to provide frequency response, ERCOT will consider opportunities for ADERs with that capability to provide Responsive Reserve (RRS), subject to a system-wide cap. The system-wide cap will be sufficiently high to allow ERCOT to assess the adequacy of ADERs to provide frequency response from the distribution system without posing a threat to the reliability of the system. This opportunity is designed to create a path to a frequency response provision from all ADERs should the current exception, which is specific to Phases 1-3 not be granted in the future. To foster an inclusive Pilot Project, ERCOT may develop different alternative participation models in the future that will not require frequency response capability, such as a participation model in which the aggregation may provide some Ancillary Services but is not dispatchable by Security-Constrained Economic Dispatch (SCED). ERCOT may also consider ADERs providing PFR without the ability to be SCED-dispatchable. Similarly, ADERs participating as NCLRs that are capable of interrupting consumption for a frequency event (like traditional NCLRs) may be considered as part of the ADER pilot.
+
+  ADERs opting to register as an NCLR must participate as NCLRs except as follows:
+
+-   An ADER is allowed to have Premises that can inject energy into the distribution system, and an ADER may provide a net injection on an aggregated basis. A net injection from an ADER in response to an ERCOT Dispatch Instruction will be considered Demand Response under the Protocols and other ERCOT rules. Any Premise with the potential to export energy beyond its Premise meter must have the correct load profile ID set, for meters in service territories where that is applicable, such that both the import and export channels of its Premise meter are provided to ERCOT.
+
+-   ADER withdrawal telemetry values must represent the sum of the consumption and export of each of the member Premises or devices plus any necessary MW offsets, as described in this Governing Document. Maximum Power Consumption and Low Power Consumption values must be modified to accommodate ADERs, as further provided in this Governing Document. An ADER using device-level telemetry must comply with the validation process for device-level telemetry provided in this document instead of existing validation rules.
+
+-   An ADER is not permitted to present statistical sampling for performance evaluation.
+
+-   The Resource Entity and QSE for the ADER are jointly responsible for maintaining ADER population information, as further described in subsections 5.c.4 and 5.c.5. This baseline involves meter readings prior to deployment and similar readings during the sustained response period for performance measurement. Qualification and performance validation specific to the Pilot Project is described in subsection 5.c.6.
+
+-   Scheduled Power Consumption (SPC) +2 information will not be required to be provided for an ADER, as it is for an ALR.
+
+-   The telemetry validation procedures and metrics for ADERs are distinct from other resources participating in the ERCOT Ancillary Service markets and are described in subsection 5.d.
+
+-   An ADER acting as an NCLR to provide RRS must be capable of capturing and storing load data and frequency data for dispatchable events in a manner that pleases ERCOT and allows for performance verification comparable to that of traditional NCLRs providing RRS, should that type of participation be allowed in phase 3.
+
+Eligibility and Qualification
+
+  As a condition for participation in Phase 3 of the Pilot Project, a QSE must meet the conditions described in this section. Note that the QSE associated with a proposed ADER must submit the information identified in c.1 (if applicable), c.2, and c.3 below, while the Resource Entity for the proposed ADER must submit the registration and qualification information in c.4 through c.6, below.
+
+1.  ADERs participating as an NCLR must provide written consent from all LSEs representing the premises in each aggregation. (See Appendix A) (ADERs participating as CLRs should skip to c.2 below)
+
+    -   Where the individual premises associated with the aggregation have electric consumption exceeding 100 kW and the premises are associated with one or more LSE that is not associated with the QSE, the QSE must provide written consent from each of the LSEs’ QSEs (See Appendix A)
+
+        -   as an individual ADER may be made of customers represented by multiple different LSEs, written consent is required from each of the LSEs’ QSEs.
+
+    -   No LSE or LSE’s QSE is required to participate in this program.
+
+    -   A QSE must provide the following information to the applicable LSE’s QSE that serves each of the Premises that make up the aggregation. The information should be submitted to the LSEs’ QSE on the “Details of the Aggregation” form posted on the Pilot Projects page of the ERCOT website (hereinafter, this information is referred to as “Details of the Aggregation”):
+
+        -   Premise unique identifier (name/ID);
+
+        -   An indication of whether the ADER telemetry contribution from the Premise is at its TDSP-read meter location or device location;
+
+        -   ESI ID (or unique meter identifier, if the ADER is in a NOIE territory) of the TDSP-read meter that measures consumed energy from the grid and/or injected energy into the grid at the Premise;
+
+        -   LSE associated with ESI ID or unique meter identifier;
+
+        -   DUNS+4 of the QSE associated with the LSE; and
+
+        -   For each controllable device at a Premise that is part of the ADER:
+
+    -   The type of device (battery, rooftop solar, pool pump, synchronous generator, etc.);
+
+    -   The rated dispatchable range (kW) of the individual ADER components at this Premise (for example, the rated dispatchable range of the battery may be +/-5kW maximum discharge/charge; or 3kW maximum consumption for a pool pump);
+
+    -   For a Premise that has a battery as part of the ADER, maximum rated operating state of charge (kWh) and the minimum rated operating state of charge (kWh); and
+
+    -   Which, if any, communication standards the devices are certified to meet.
+
+    -   However, if an ADER is made up of customers represented by multiple different LSEs, only the portion of the DOTA containing customers of a given LSE should be sent to that LSE; An LSE should not receive customer information regarding customers they do not represent. Sharing such information would be a violation of ERCOT Protocol Section 1.3.1.1(1)(r).
+
+    -   Upon receiving the “Details of the Aggregation,” portion containing only a given LSE’s customers, an LSE’s QSE that has elected to participate in the Pilot Project shall review the “Details of the Aggregation” for feasibility of participation of the Premises in the proposed Resource on the distribution network. If the LSE’s QSE has concerns with all or a portion of the ESI IDs or, for NOIEs, unique meter identifiers, listed in the “Details of the Aggregation,” the LSE’s QSE will notify the QSE. The LSE’s QSE may, on a non-discriminatory basis, reject all or a portion of the ESI IDs or unique meter identifiers listed in the “Details of the Aggregation.”
+
+    -   The LSE’s QSE may consent to the participation of the Premises identified in the “Details of the Aggregation,” only by executing the “LSE Acknowledgment”, Appendix A to this Governing Document, also available on the Pilot Projects page of the ERCOT website.
+
+    -   The LSE’s QSE’s execution of the LSE Acknowledgment shall be taken as the LSE’s QSE’s confirmation that the LSE provides retail electric service to each of the Premises that are the subject of the request.
+
+    -   Any Premises which an LSE rejected for participation in the ADER should be removed from the Details of Aggregation form sent to the DSP in section 5.c.2 below.
+
+    -   If any additions or removals have occurred for the month from each aggregation, the QSE will submit monthly updates to the applicable LSE’s QSE, as further described in subsections 5.c.4 and 5.c.5, which the LSE’s QSE will review in the same manner as above.
+
+2.  QSE must provide written consent from DSP (See Appendix B)
+
+    -   No DSP is required to participate in this program.
+
+    -   To be eligible to participate in the ADER Pilot Project, a QSE must provide the following information to the applicable DSP that serves each of the Premises that make up the aggregation. The information should be submitted to the DSP on the “Details of the Aggregation” form posted on the Pilot Projects page of the ERCOT website:
+
+        -   Premise unique identifier (name/ID);
+
+        -   An indication of whether the ADER telemetry contribution from the Premise is at its TDSP-read meter location or device location;
+
+        -   ESI ID (or unique meter identifier, if the ADER is in a NOIE territory) of the TDSP-read meter that measures consumed energy from the grid and/or injected energy into the grid at the Premise;
+
+        -   LSE associated with ESI ID or unique meter identifier; and
+
+        -   For each controllable device at a Premise that is part of the ADER:
+
+    -   The type of device (battery, rooftop solar, pool pump, synchronous generator, etc.);
+
+    -   The rated dispatchable range (kW) of the individual ADER components at this Premise (for example, the rated dispatchable range of the battery may be +/-5kW maximum discharge/charge; or 3kW maximum consumption for a pool pump);
+
+    -   For a Premise that has a battery as part of the ADER, maximum rated operating state of charge (kWh) and the minimum rated operating state of charge (kWh); and
+
+    -   Which, if any, communication standards the devices are certified to meet.
+
+    -   Note that for an NCLR, the Details of the Aggregation for received by the DSP should only contain Premises that the applicable LSE QSE has agreed to include.
+
+        -   An attestation provided by the Resource Entity which includes:
+
+        -   that any inverter-based device is either certified to UL1741-SB or complies with the requirements of UL1741-SA and that the inverter settings are programmed to ride through frequency and voltage excursions in a manner consistent with requirements for DGRs and DESRs in ERCOT Nodal Operating Guide sections 2.6.2.1(2) and 2.9.2(3); and
+
+        -   that any synchronous generator relays are programmed to ride through frequency and voltage excursions in a manner consistent with requirements for DGRs in ERCOT Nodal Operating Guide sections 2.6.2.1(2) and 2.9.2(2).
+
+    -   The MW capacity that is intended to be registered with ERCOT as an ADER and the amount of Non-Spin and ECRS which the QSE is intending to qualify the ADER. An ADER may include additional customer Premises or devices as long as the capacity registered and Non-Spin and ECRS qualification amounts remain lower than these values.
+
+    -   For ADERs participating as ALRs: A flag indicating whether or not the ADER is able to provide PFR.
+
+    -   The information in the “Details of the Aggregation” form is Protected Information.
+
+    -   Upon request by a QSE that is developing ADERs, a participating DSP must provide any relevant non-confidential information to support the commencement of the enrollment process for the Pilot Project and the addition of new metered Premises on an ongoing basis for the duration of the Pilot Project.
+
+    -   Upon receiving the “Details of the Aggregation,” a DSP that has elected to participate in the Pilot Project shall review the “Details of the Aggregation” for feasibility of participation of the Premises in the proposed Resource on the distribution network. If the DSP has concerns with all or a portion of the ESI IDs or, for NOIEs, unique meter identifiers, listed in the “Details of the Aggregation,” the DSP will notify the QSE. The DSP may, on a non-discriminatory basis, for reasons of safety, reliability, or regulatory impediments, reject all or a portion of the ESI IDs or unique meter identifiers listed in the “Details of the Aggregation.” If the DSP chooses to reject all or a portion of the ESI IDs or unique meter identifiers listed in the “Details of the Aggregation,” the DSP shall notify the QSE managing that ADER and provide the QSE the reason for the rejection.
+
+    -   As part of its review of an ADER, the DSP, in conjunction with the TSP, shall map each of the Premises that make up the ADER to their respective Common Information Model (CIM) Loads and add this information to the “Details of the Aggregation” as part of the DSP’s response to the submission.
+
+    -   The DSP must also check whether any of the ESI IDs are already participating in a TDSP Load Management Program.
+
+    -   DSPs will respond to QSE submissions of “Details of the Aggregation” within ten Business Days. If additional time is needed to evaluate the ADER, then the DSP will provide notice to the QSE within ten Business Days, and will provide final review no later than 45 days from the submission.
+
+    -   The DSP may consent to the participation of the Premises identified in the “Details of the Aggregation,” only by executing the “Distribution Service Provider Acknowledgment” (hereinafter, “DSP Acknowledgment”), Appendix B to this Governing Document, also available on the Pilot Projects page of the ERCOT website.
+
+    -   The DSP’s execution of the DSP Acknowledgment shall be taken as the DSP’s confirmation that the DSP provides delivery service to each of the Premises that are the subject of the request.
+
+    -   If any additions or removals have occurred for the month from each aggregation, the QSE will submit monthly updates to the DSP, as further described in subsections 5.c.4 and 5.c.5, which the DSP will review in the same manner as above.
+
+3.  QSE executes a supplement to the Standard Form Market Participant Agreement for Pilot Project participation (See Appendix C)
+
+-   In addition to obtaining the DSP’s consent, the QSE representing a proposed ADER must execute a supplement to its Standard Form Market Participant Agreement and submit it to ERCOT for counter-signature. The “Supplement to the Standard Form Market Participant Agreement” (hereinafter “QSE Supplement”), Appendix C to this document, is available on the Pilot Projects page of the ERCOT website.
+
+-   The “DSP Acknowledgment” and the “QSE Supplement,” as well as the “Details of the Aggregation” and the “LSE Acknowledgment” (if applicable), as described above, shall be submitted as a package to ERCOT via e-mail to pilotprojects@ercot.com and copy the DSP and Resource Entity (RE). QSEs may request that a secure email account be created with ERCOT if using standard email is of concern.
+
+-   Upon receiving the three documents noted above, ERCOT will review the documents. ERCOT may reject the submission for the following reasons:
+
+    -   Accepting the submission would cause the program to exceed any ERCOT Pilot Project participation limits, as defined in subsection 5.a;
+
+    -   ESI IDs or unique meter identifiers included in the submission (evaluated at the time of submission):
+
+        -   Were already part of an accepted submission from a different QSE;
+
+        -   Are not associated with the submitting LSE (not applicable to ADERs intending to participate as NCLRs, provided the individual premise associated with the participating ESIID has electricity consumption that is greater than 100 kW);
+
+        -   Have a status of not active in the ERCOT database;
+
+        -   Do not have an interval data recorder meter type;
+
+        -   Are not in the ERCOT region;
+
+        -   Are participating in the most current ERS Standard Contract Term;
+
+            -   Once a DOTA has been approved by ERCOT any conflicts with premises participating in subsequent ERS Standard Contract Terms will be resolved through the ERS procurement process and will not require the DOTA to be edited for those conflicts.
+
+        -   Are duplicated within the QSE’s submission; or
+
+        -   Are a Generation Resource.
+
+    -   The Load Zone information is incorrect;
+
+    -   Premises included in the ADER are otherwise able to participate in the ERCOT market in a similar manner using existing participation models;
+
+        -   ERCOT determines that the ADER would otherwise not comply with the Protocols or this Governing Document; or
+
+        -   ERCOT has not received all applicable LSE Acknowledgments.
+
+-   ERCOT shall accept or reject the submission within ten Business Days and respond to the QSE via email, and copy the DSP and Resource Entity (RE).
+
+-   Upon receiving ERCOT’s acceptance, the QSE shall, within 20 Business Days, register the ADER as a CLR with ERCOT.
+
+4.  Registration of ADERs opting to register as ALRs:
+
+    -   Following ERCOT’s acceptance of the QSE’s submission for a given ADER opting to register as an ALR:
+
+        -   ERCOT shall provide the MW offset to be used to register as a CLR and operate as a net load under all circumstances, in terms of telemetry and other market submissions to ERCOT
+
+        -   The Resource Entity must register the ADER as a CLR with ERCOT using the Resource Integration & Ongoing Operations (RIOO) application.
+
+        -   The location of an ADER in the Network Model will be identified by its Resource Dispatch Asset Code and the associated CIM Load in the model. The DSP, in collaboration with the interconnecting TSP if necessary, will populate the CIM Load for each individual premise identified by the QSE in its completed DOTA form. ERCOT will assign each ADER to a single CIM Load.
+
+    -   The telemetry and other market submissions for a registered ADER must always show the ADER as a net consumer of energy. This may require use of an offset, which will be a static MW value provided by ERCOT, as earlier described. Regardless of use of the MW offset, it will be acceptable if individual Premises that are components of the aggregation are net injectors of energy, based on TDSP metering at the Premises. In the future ERCOT plans to introduce an ADER participation model that can inject and withdraw in aggregate to and from the grid, in which the use of the MW offset would no longer be necessary.
+
+    -   Known limitations relevant to the DSP, such as Premise injection limitations, must be reflected in the registration of the ADER. Identified limitations on the distribution system will not explicitly be enforced by ERCOT’s systems in awarding or dispatching the ADER.
+
+    -   The ADER shall be registered and associated with a QSE.
+
+    -   If an individual Premise that is part of the ADER can inject into the distribution system, the loadID for the TDSP read meter at the Premise must be updated such that any exports at the Premise will be treated as negative load. For ADERs in a NOIE Load Zone, a similar process needs to be done in coordination with the NOIE DSP and, if applicable, the TSP serving that NOIE.
+
+    -   Changes to the population of the ADER must be managed as follows:
+
+    -   The Resource Entity and the QSE are jointly responsible for maintaining ADER population information using an Excel spreadsheet form posted on ERCOT’s website.
+
+    -   ADER parameters will be established in the Network Model by the ADER’s Resource Entity using the approved Resource Registration process. ADERs that are subject to dynamically changing populations may need to set their Resource Registration data parameters at levels that will accommodate potential growth so as to reduce the need for frequent Resource Registration updates. This accounting for potential growth during registration should be done in consultation with ERCOT staff.
+
+    -   The QSE may add or subtract Premises from an ADER at any time so long as still operating within the caps established by this Governing Document. The QSE shall provide notice to each affected DSP of any changes to an ADER population by providing an updated “Details of Aggregation” form, which will be reviewed and confirmed by the relevant DSP prior to being included by the QSE in the ADER population.
+
+        -   Following the first month of having an active ADER, on the first day of each month, the QSE shall provide notice to each affected DSP any and all changes to the “Details of Aggregation” form by providing an updated “Details of Aggregation” form. This updated “Details of the Aggregation” form will include not only any Premises that are proposed to be added to or subtracted from the ADER, but will also retain the Premises that are unchanged from the last update, and will clearly note the Premises that are proposed to be added or subtracted.
+
+        -   Consistent with the timelines in subsection 5.c.2 above, the DSP will have the ability to accept or reject any proposed additions of Premises to a QSE’s ADER. The DSP may reject any proposed additions for the same reasons described in subsection 5.c.2, and shall provide the reasons for any rejection as also described in that subsection.
+
+        -   The DSP’s consent to the addition of any Premises to an ADER shall be documented by an email from a DSP employee to the submitting QSE. For each new Premise to which it consents, the DSP should add the appropriate Common Information Model (CIM) Load information to the “Details of Aggregation” form (as described in subsection 5.c.2), and return the “Details of Aggregation” form to the QSE. When the DSP returns the approved form to the QSE, it shall constitute a confirmation that the DSP serves each added Premise, and consents to the additional participation of these Premises in the Pilot Project. The QSE shall forward the DSP’s email consenting to the changes to ERCOT, and email the updated “Details of Aggregation” form approved by the DSP to ERCOT. The affected DSP and Resource Entity (RE) should be copied on both of these emails from the QSE to ERCOT. QSEs may request that a secure email account be created with ERCOT if using standard email is of concern.
+
+        -   ERCOT will process the changes request by the QSE within five Business Days. ERCOT shall notify the QSE of the time and date the updated “Details of Aggregation” list has been validated by ERCOT.
+
+    -   The QSE shall update appropriate telemetry values and market submissions when a change is made to the population. All Premises included in the list provided should be currently enrolled with the REP. Any future switches should be accounted for in the monthly update based on start and stop dates.
+
+    -   The updates shall include start and stop dates for new Premises in the ADER and/or Premises that have left the ADER. If a Premise is vacated or the customer has/is being switched to a different REP, the Stop Date should reflect that date; and if a new customer later moves into that Premise and joins the ADER (or joins with a different REP), a new start date should be used.
+
+    -   In competitive choice areas, QSEs will manage the ADER population by ESI ID, which ERCOT will then cross-reference to its internal systems. In the NOIE territories, QSEs shall provide unique meter identifiers consistent with the requirements detailed elsewhere in this document.
+
+5.  Registration of ADERs opting to register as NCLRs:
+
+    -   Following ERCOT’s acceptance of the QSE’s submission for a given ADER opting to register as an NCLR:
+
+        -   ERCOT shall provide the MW offset to be used to register as a NCLR and operate as a net load under all circumstances, in terms of telemetry and other market submissions to ERCOT
+
+        -   The Resource Entity must register the ADER as an NCLR with ERCOT using the Resource Integration & Ongoing Operations (RIOO) application.
+
+        -   The location of an ADER in the Network Model will be identified by its Resource Dispatch Asset Code and the associated CIM Load in the model. The DSP, in collaboration with the interconnecting TSP if necessary, will populate the CIM Load for each individual premise identified by the QSE in its completed DOTA form. ERCOT will assign each ADER to a single CIM Load.
+
+    -   The telemetry and other market submissions for a registered ADER must always show the ADER as a net consumer of energy. This may require use of an offset, which will be a static MW value provided by ERCOT, as earlier described. Regardless of use of the MW offset, it will be acceptable if individual Premises that are components of the aggregation are net injectors of energy, based on TDSP metering at the Premises. In the future ERCOT plans to introduce an ADER participation model that can inject and withdraw in aggregate to and from the grid, in which the use of the MW offset would no longer be necessary.
+
+    -   Known limitations relevant to the DSP, such as Premise injection limitations, must be reflected in the registration of the ADER. Identified limitations on the distribution system will not explicitly be enforced by ERCOT’s systems in awarding or dispatching the ADER.
+
+    -   The ADER shall be registered and associated with a QSE.
+
+    -   If an individual Premise that is part of the ADER can inject into the distribution system, the load profile ID for the TDSP read meter at the Premise must be updated such that any exports at the Premise will be treated as negative load. For ADERs in a NOIE Load Zone, a similar process needs to be done in coordination with the NOIE DSP and, if applicable, the TSP serving that NOIE.
+
+    -   Changes to the population of the ADER must be managed as follows:
+
+    -   The Resource Entity and the QSE are jointly responsible for maintaining ADER population information using an Excel spreadsheet form posted on ERCOT’s website.
+
+    -   ADER parameters will be established in the Network Model by the ADER’s Resource Entity using the approved Resource Registration process. ADERs that are subject to dynamically changing populations may need to set their Resource Registration data parameters at levels that will accommodate potential growth so as to reduce the need for frequent Resource Registration updates. This accounting for potential growth during registration should be done in consultation with ERCOT staff.
+
+    -   The QSE may add or subtract Premises from an ADER at any time so long as still operating within the caps established by this Governing Document. The QSE shall provide notice to each affected DSP of any changes to an ADER population by providing an updated “Details of Aggregation” form, which will be reviewed and confirmed by the relevant DSP prior to being included by the QSE in the ADER population.
+
+        -   Following the first month of having an active ADER, on the first day of each month, the QSE shall provide notice to each affected DSP any and all changes to the “Details of Aggregation” form by providing an updated “Details of Aggregation” form. This updated “Details of the Aggregation” form will include not only any Premises that are proposed to be added to or subtracted from the ADER, but will also retain the Premises that are unchanged from the last update, and will clearly note the Premises that are proposed to be added or subtracted.
+
+        -   Consistent with the timelines in subsection 5.c.2 above, the DSP will have the ability to accept or reject any proposed additions of Premises to a QSE’s ADER. The DSP may reject any proposed additions for the same reasons described in subsection 5.c.2, and shall provide the reasons for any rejection as also described in that subsection.
+
+        -   The DSP’s consent to the addition of any Premises to an ADER shall be documented by an email from a DSP employee to the submitting QSE. For each new Premise to which it consents, the DSP should add the appropriate Common Information Model (CIM) Load information to the “Details of Aggregation” form (as described in subsection 5.c.2), and return the “Details of Aggregation” form to the QSE. When the DSP returns the approved form to the QSE, it shall constitute a confirmation that the DSP serves each added Premise, and consents to the additional participation of these Premises in the Pilot Project. The QSE shall forward the DSP’s email consenting to the changes to ERCOT, and email the updated “Details of Aggregation” form approved by the DSP to ERCOT. The affected DSP and Resource Entity (RE) should be copied on both of these emails from the QSE to ERCOT. QSEs may request that a secure email account be created with ERCOT if using standard email is of concern.
+
+        -   ERCOT will process the changes request by the QSE within five Business Days. ERCOT shall notify the QSE of the time and date the updated “Details of Aggregation” list has been validated by ERCOT.
+
+    -   The QSE shall update appropriate telemetry values and market submissions when a change is made to the population. All Premises included in the list provided should be currently enrolled with the REP. Any future switches should be accounted for in the monthly update based on start and stop dates.
+
+    -   The updates shall include start and stop dates for new Premises in the ADER and/or Premises that have left the ADER. If a Premise is vacated or the customer has/is being switched to a different REP, the Stop Date should reflect that date; and if a new customer later moves into that Premise and joins the ADER (or joins with a different REP), a new start date should be used.
+
+    -   In competitive choice areas, QSEs will manage the ADER population by ESI ID, which ERCOT will then cross-reference to its internal systems. In the NOIE territories, QSEs shall provide unique meter identifiers consistent with the requirements detailed elsewhere in this document.
+
+6.  Qualification of ADERs
+
+  Irrespective of the participation model, an ADER wishing to participate must have its Resource and associated QSE qualify to provide the specific services available under the participation model chosen. ADERs participating as an ALR however must also qualify to participate in Security-Constrained Economic Dispatch (SCED), per Nodal Protocol Section 3.6.1. Load Resource Participation.
+
+Metering, Telemetry, and Market Submissions 
+
+-   Terminology:
+
+    -   Telemetry: Refers to the ADER bi-directional, Inter-Control Center Communications Protocol (ICCP) telemetry between QSE and ERCOT systems for the ADER as an aggregate.
+
+    -   Metering: Refers to the 15-minute Settlement Quality TDSP read meters at the individual Premises that make up the ADER.
+
+    -   Market Submissions: Refers to the ADER-related XML submissions that the QSE submits to and receives from ERCOT.
+
+-   ADER telemetry for ADERs opting to register as ALRs or as NCLRs must meet the following requirements:
+
+-   ADERs opting to register as ALRs are considered ALRs for the purposes of this Pilot Project and must therefore comply with ALR metering and telemetry requirements.
+
+-   ADERs opting to register as NCLRs are considered NCLRs for the purposes of this Pilot Project and must therefore comply with NCLR metering and telemetry requirements.
+
+-   A QSE representing an ADER must send Resource-level Real-Time telemetry to ERCOT every two seconds in accordance with Protocol Section 6.5.5.2, Operational Data Requirements; Nodal Operating Guide, Section 7, Telemetry and Communication, and the ERCOT Nodal ICCP Communication Handbook available on the ERCOT website. Telemetered data points are specific to the service being provided and are listed in detail in Protocol Section 6.5.5.2(5).
+
+-   An ADER’s telemetry must be an accurate representation of the aggregate values of all sites in the Resource. Those values may be based on device-level or Premise-level conditions or a combination of both. An offset value will be added to the aggregate values, if needed, to ensure the telemetry is always communicated to ERCOT as a net load. That offset value will be established between the QSE and ERCOT as part of the qualification process at a static level that will allow for some growth in the ADER. The offset may be adjusted over time but only with the mutual agreement between the QSE and ERCOT.
+
+-   ADER telemetry values to ERCOT (Low Power Consumption (LPC), Maximum Power Consumption (MPC), Net Power Flow, etc.) must represent the sum of the corresponding values at the individual Premises or devices based on the approved “Details of the Aggregation” form submitted to ERCOT by the Pilot Project participant and must include any MW offset values provided by ERCOT. The difference between the value of the telemetered MPC and the value of the telemetered LPC for the ADER must equal the difference between the greatest possible injection quantity and the greatest possible withdrawal quantity.
+
+-   ADER ramp rate telemetry to ERCOT must represent the weighted average of the ramp rates at the individual Premise or device based on the approved “Details of the Aggregation” form submitted to ERCOT by the Pilot Project participant. As part of the validation of ADER telemetry, QSEs participating in the Pilot Project shall provide time series data of the net MW at the Premise level and/or device-level.
+
+-   If the ADER includes energy storage devices, time series data on state-of-charge for the device will also be required.
+
+    -   This data must be provided to ERCOT when requested, within a reasonable storage requirement timeframe. The data storage requirements and the mechanism of delivering this data to ERCOT will be determined later.
+
+-   ADER metering must meet the following requirements:
+
+-   Premises in an ADER are required to have 15-minute interval meter data, whether ESI ID data from the competitive choice areas of ERCOT, or revenue-quality meter data within a NOIE territory. ERCOT will use this Premise-level interval meter data as the primary foundation of the telemetry validation process and as a secondary tool for event performance measurement and verification. For any Premises that export power to the distribution system, both the consumption data and export data must be provided to ERCOT.
+
+-   Interval meter data must be time-stamped within appropriate standards in correlation with ERCOT 15-minute Settlement clock intervals, and shall be provided to ERCOT for Premises within the ADER through one of the following methods:
+
+    -   For ADERs in competitive choice areas of ERCOT, investor-owned Transmission and/or Distribution Service Providers (TDSPs) submit ESI ID-level Interval Data Recorder (IDR) or Advanced Metering System (AMS) data via the Texas Standard Electronic Transaction (TX SET) process (for IDR metering) or via the approved file format defined in Retail Market Guide, Section 9, Appendix G, ERCOT Specified File Format for Submission of Interval Data for AMS metering.
+
+    -   For ADERs in a NOIE service area, the NOIE shall submit IDR, AMS, or equivalent Premise-level meter data if associated with a non-Settlement ESI ID or a designated unique meter identifier. Such meters shall be maintained and read by the NOIE meter-reading entity. The data shall be submitted to ERCOT either via TX SET or in a format and transport method defined by ERCOT no later than 35 days after each corresponding Operating Day. NOIE Premise-level unique meter identifiers must use ESI ID-style nomenclature, in which the NOIE TDSP Department of Energy (DOE) code comprises the first digits of the identifier. The unique meter identifier must remain constant in perpetuity at the Premise.
+
+-   A NOIE meter-reading entity shall validate Premise-level interval meter data; however, periods of time (intervals) with missing data should not be edited or estimated. For those Premises with missing interval data, those intervals will not be included in the aggregate values and may result in failed telemetry validation. Ongoing telemetry validation and performance measurement and verification are dependent upon a NOIE making timely and accurate Premise-level meter data submissions. Failure to meet the data submission requirements may result in suspension of the ADER’s qualification to participate in the Pilot Project. An ADER that has been suspended for this reason may be reinstated only upon successful restoration of accurate and timely meter data submissions.
+
+-   NOIEs shall archive Premise-level data sufficient to meet these requirements.
+
+-   Telemetry Validation for ADERs opting to register as ALRs
+
+-   The objective of ADER telemetry validation is to create an acceptable standard that provides ERCOT operations with assurance that the telemetered values from the QSE provide a reasonable representation of the physical characteristics of the ADER. This section describes the processes ERCOT will use to conduct validation for QSE telemetry, with the goal of ensuring that an ADER’s telemetered data points provide a representation of ADER performance that meets reasonableness criteria consistent with good utility practice. With the submission of the “Details of the Aggregation” form the QSE must indicate whether the ADER telemetry contribution from each Premise in the aggregation is at the TDSP read meter location or device location.
+
+-   Premise-Level Telemetry
+
+    -   The ADER telemetry values are to be a reasonable representation of the aggregate sum of the import and export values of the ADER member Premises plus the established offset. ERCOT will aggregate the Premise-level 15-minute interval Settlement meter data to the ADER level and will compare this data to the QSE telemetry values for net real power consumption (NPC) less the Resource specific assigned offset , averaged over each 15-minute interval during the period being evaluated.
+
+    -   ERCOT will conduct this telemetry validation as part of the ADER qualification process and periodically during the term of the Pilot Project with each test encompassing all 15-minute Settlement Intervals during the evaluation period. The telemetry must validate to meet all of the following conditions:
+
+        -   Condition 1: Only intervals where the aggregate Premise-level 15-minute Settlement interval meter data meets one of the following will be evaluated:
+
+            -   When the aggregate Premise-level 15-minute interval Settlement meter data shows as net withdrawing, the Resource’s metered withdrawals must equal or exceed 0.1 MW
+
+            -   When the aggregate Premise-level 15-minute interval Settlement meter data shows as net injecting (negative value in the meter data), the Resource’s metered injections must equal or exceed -0.1 MW
+
+        -   Condition 2: Of these intervals being evaluated, the telemetered NPC value minus the Resource specific assigned offset must be within 10% of the aggregate Premise-level 15-minute interval Settlement meter data .
+
+        -   Condition 3: During the 8-hour evaluation period, at least 50% of the intervals must meet condition 1 above.
+
+-   Device-Level Telemetry
+
+    -   If the ADER telemetry values represent the sum of the devices under control, the QSE will be required to provide device-level sub-meter (data recorder) data for each site in the aggregation contributing to the device-level telemetry to ERCOT upon request. This device-level sub-meter (data recorder) data must meet the minimum specifications established by ERCOT. As part of the qualification process, ERCOT will use the following 2-step validation process for the QSEs device-level telemetry.
+
+    -   Step 1: The ADER NPC telemetered values minus offset averaged over each 15-minute interval must be within 10% of the aggregate of the device-level sub-meter (data recorder) data, averaged over each 15-minute interval during the period being evaluated.
+
+        -   All of the following conditions must be met for Step 1:
+
+            -   Condition 1: Only intervals where the aggregate device-level data, averaged over each 15-minute Settlement window, are greater than 10% of the Resource’s requested energy capability will be evaluated as follows:
+
+                -   When the aggregate device-level data shows as net injecting, the Resource’s injections must exceed 10% of the Maximum Injection Capability (column E on the DOTA ADER Summary tab) , OR
+
+                -   When the aggregate device-level data shows as net withdrawing, the Resource’s withdrawals must exceed 10% of the Maximum Withdrawal Capability (column D on the DOTA ADER Summary tab).
+
+            -   Condition 2: Of these intervals being evaluated, the telemetered NPC value less the Resource specific assigned offset must be within 50% of the aggregate device-level data averaged over each 15-minute Settlement Interval when the Total Expected Registered Capacity (column I on the DOTA ADER Summary tab) is less than or equal to 1 MW, or within 10% of the aggregate device-level data averaged over each 15-minute Settlement Interval when the Total Expected Registered Capacity is greater than 1 MW.
+
+            -   Condition 3: During the 8-hour evaluation period, at least 50% of the intervals must meet condition 1 above.
+
+    -   Step 2: ERCOT will instruct the QSE to deploy the ADER to a mutually agreed value but one that represents a significant portion of its capability. This instruction will last for at least one full 15-minute Settlement Interval. The change in the telemetered NPC in response to the instruction must be within 10% of the total response observed in the aggregate Premise-level 15-minute interval meter data during each interval in the sustained response period.
+
+    -   In addition to the telemetry validation as part of the qualification ERCOT may also perform additional periodic validation of the telemetry during the term of the Pilot Project. For Step 2 the SCED basepoint instruction will be used in lieu of an ERCOT initiated instruction.
+
+-   Telemetry composed of both Premise and Device-level data
+
+    -   If the ADER telemetry values represent a composition of both Premise-level and device-level data, ERCOT will perform the following:
+
+    -   Step 1: All of the following conditions must be met for Step 1:
+
+        -   Condition 1: Only intervals where telemetered NPC is greater than 10% of the registered Resource’s HRL will be evaluated.
+
+        -   Condition 2: Of the intervals being evaluated, the telemetered NPC value less the Resource specific assigned offset must be within 10% of the sum of the aggregate Premise-level Settlement meter data for those sites choosing Premise-level telemetry and the aggregate of the device-level data for those sites choosing device-level telemetry, both averaged over each 15-minute Settlement Interval.
+
+        -   Condition 3: During the 8-hour evaluation period, at least 50% of the intervals must meet condition 1 above.
+
+    -   Step 2: ERCOT will instruct the QSE to deploy the ADER to a mutually agreed value but one that represents a significant portion of its capability. This instruction will last for at least one full 15-minute Settlement Interval. The change in the telemetered NPC in response to the instruction must be within 10% of the total response observed in the aggregate Premise-level 15-minute interval meter data during each interval in the sustained response period.
+
+-   Telemetry Validation for ADERs opting to register as NCLRs
+
+-   The objective of ADER telemetry validation is to create an acceptable standard that provides ERCOT operations with assurance that the telemetered values from the QSE provide a reasonable representation of the physical characteristics of the ADER. This section describes the processes ERCOT will use to conduct validation for QSE telemetry, with the goal of ensuring that an ADER’s telemetered data points provide a representation of ADER performance that meets reasonableness criteria consistent with good utility practice. With the submission of the “Details of the Aggregation” form the QSE must indicate whether the ADER telemetry contribution from each Premise in the aggregation is at the TDSP read meter location or device location.
+
+-   Premise-Level Telemetry
+
+    -   The ADER telemetry values are to be a reasonable representation of the aggregate sum of the import and export values of the ADER member Premises plus the established offset. ERCOT will aggregate the Premise-level 15-minute interval meter data to the ADER level plus the assigned Resource offset and will compare this data to the QSE telemetry values for NPC averaged over each 15-minute interval during the period being evaluated.
+
+    -   ERCOT will conduct this telemetry validation as part of the ADER qualification process and periodically during the term of the Pilot Project with each test encompassing all 15-minute Settlement Intervals during the evaluation period. The telemetry must validate to meet all of the following conditions:
+
+        -   Condition 1: Only intervals where the aggregate Premise-level 15-minute interval meter data meets one of the following will be evaluated:
+
+            -   When the aggregate Premise-level 15-minute interval Settlement meter data shows as net withdrawing, the Resource’s metered withdrawals must equal or exceed 0.1 MW
+
+            -   When the aggregate Premise-level 15-minute interval Settlement meter data shows as net injecting (negative value in the meter data), the Resource’s metered injections must equal or exceed -0.1 MW
+
+        -   Condition 2: Of these intervals being evaluated, the telemetered NPC value minus the Resource specific assigned offset must be within 10% of the aggregate Premise-level 15-minute interval Settlement meter data.
+
+        -   Condition 3: During the 8-hour evaluation period, at least 50% of the intervals must meet condition 1 above.
+
+-   Device-Level Telemetry
+
+    -   If the ADER telemetry values represent the sum of the devices under control, the QSE will be required to provide device-level sub-meter (data recorder) data for each site in the aggregation contributing to the device-level telemetry to ERCOT upon request. This device-level sub-meter (data recorder) data must meet the minimum specifications established by ERCOT. As part of the qualification process, ERCOT will use the following 2-step validation process for the QSEs device-level telemetry.
+
+    -   Step 1: The ADER NPC telemetered values minus offset averaged over each 15-minute interval must be within 10% of the aggregate of the device-level sub-meter (data recorder) data, averaged over each 15-minute interval during the period being evaluated.
+
+        -   All of the following conditions must be met for Step 1:
+
+            -   Condition 1: Only intervals where the aggregate device-level data, averaged over each 15-minute Settlement window, are greater than 10% of the Resource’s requested energy capability will be evaluated as follows:
+
+                -   When the aggregate device-level data shows as net injecting, the Resource’s injections must exceed 10% of the Maximum Injection Capability (column E on the DOTA ADER Summary tab), OR
+
+                -   When the aggregate device-level data shows as net withdrawing, the Resource’s withdrawals must exceed 10% of the Maximum Withdrawal Capability (column D on the DOTA ADER Summary tab).
+
+            -   Condition 2: Of these intervals being evaluated, the telemetered NPC value less the Resource specific assigned offset must be within 50% of the aggregate device-level data averaged over each 15-minute Settlement Interval when the Total Expected Registered Capacity is less than or equal to 1 MW, or 10% of the aggregate device-level data averaged over each 15-minute Settlement Interval when the Total Expected Registered Capacity is greater than 1 MW.
+
+            -   Condition 3: During the 8-hour evaluation period, at least 50% of the intervals must meet condition 1 above.
+
+    -   Step 2: ERCOT will instruct the QSE to deploy the ADER to a mutually agreed value but one that represents a significant portion of its capability. This instruction will last for at least one full 15-minute Settlement Interval. The change in the telemetered NPC in response to the instruction must be within 10% of the total response observed in the aggregate Premise-level 15-minute interval meter data during each interval in the sustained response period.
+
+    -   In addition to the telemetry validation as part of the qualification ERCOT may also perform additional periodic validation of the telemetry during the term of the Pilot Project.
+
+-   Telemetry composed of both Premise and Device-level data
+
+    -   If the ADER telemetry values represent a composition of both Premise-level and device-level data ERCOT will perform the following:
+
+    -   Step 1: All of the following conditions must be met for Step 1:
+
+        -   Condition 1: Only intervals where telemetered NPC is greater than 10% of the registered Resource’s HRL will be evaluated.
+
+        -   Condition 2: Of the intervals being evaluated the telemetered NPC value less the Resource specific assigned offset must be within 10% of the sum of the aggregate Premise-level Settlement meter data for those sites choosing Premise-level telemetry and the aggregate of the device-level data for those sites choosing device level telemetry, both averaged over each 15-minute Settlement Interval.
+
+        -   Condition 3: During the 8-hour evaluation period, at least 50% of the intervals must meet condition 1 above.
+
+    -   Step 2: ERCOT will instruct the QSE to deploy the ADER to a mutually agreed value but one that represents a significant portion of its capability. This instruction will last for at least one full 15-minute Settlement Interval. The change in the telemetered NPC in response to the instruction must be within 10% of the total response observed in the aggregate Premise-level 15-minute interval meter data during each interval in the sustained response period.
+
+-   Regarding telemetry and other market submissions, an ADER providing Non-Spin or ECRS may not have an Ancillary Service Offer or Non-Spin or ECRS or an Ancillary Service Resource Responsibility for Non-Spin or ECRS that exceeds the Non-Spin and ECRS MW amounts in the QSE submission signed by ERCOT.
+
+Additional Data from the QSE Representing the ADER
+
+1.  The QSE shall provide allocation factors to ERCOT representing the fraction of the ERCOT-issued instruction to the ADER that is being provided by each particular metered Premise that is part of the aggregation. For Phase 3 of the Pilot Project, this information could be static and does not need to be provided in Real-Time or for the entire period of participation in the Pilot Project. Data that is provided will be used in off-line simulations to simulate different dispatch and pricing schemes. This data must be provided to ERCOT when requested, within a reasonable storage requirement timeframe. The data storage requirements and the mechanism of delivering this data to ERCOT will be determined later.
+
+Procurement and Deployment
+
+ADER participation will be through existing ALR and NCLR ERCOT market mechanisms.
+
+1.  ADERs qualified for Non-Spin and/or ECRS may be offered to provide Non-Spin and/or ECRS, as applicable, and will be cleared with other participating Resources, in accordance with existing ERCOT rules. Additionally, self-arranged or traded Non-Spin or ECRS may be provided by qualified ADERs. This Pilot Project is not intended to directly impact ERCOT’s determination of Ancillary Service quantities to be procured. However, ERCOT at its sole discretion, may consider increases to Non-Spin and ECRS quantities, if deemed necessary, due to concerns regarding ADER performance.
+
+2.  A) The deployment of an ADER participating as an ALR for Non-Spin, ECRS, or energy through SCED, will be in accordance with ALR requirements and other ERCOT rules. This includes dispatch using Load Zone shift factors.
+
+  B) The deployment of an ADER participating as an NCLR for Non-Spin or ECRS will be via an XML deployment instruction
+
+Performance Evaluation and Compliance Metrics
+
+ADERs will be registered as ALRs or NCLRs in ERCOT systems.
+
+ADERs registered as ALRs will have their performance evaluated using the existing CLREDP and Base Point Deviation processes for ALRs. The performance analysis results will be included in the monthly performance reports for CLRs. ERCOT may revoke an ADER’s qualification to provide Non-Spin or ECRS if the ADER demonstrates a continuing failure to perform. As part of Phase 3, ERCOT staff, along with stakeholders, may consider whether the existing performance tolerances for measuring performance when dispatched are appropriate for Resources whose rated capacity may be less than the current 2 MW compliance deadband.
+
+ADERs registered as NCLRs will have their performance evaluated using the meter-before/meter-after baseline model as described in the Demand Response Baseline Methodologies document posted to (https://www.ercot.com/files/docs/2024/09/09/demand_response_baseline_methodologies_sep-9-2024.docx)
+
+Settlement and Cost Allocation
+
+Energy from ADERs participating as ALRs will be settled in accordance with the ERCOT Nodal Protocols regarding ALR energy Settlement, and the Load Zone price will be used for Settlement of energy. There is no SCED participation for ADERs participating as NCLRs. In the event there are Premises within the ADER that inject into the distribution system, that injection will be treated as negative Load and the ERCOT energy Settlement will value it as negative Load in the Settlement for the QSE. The ADERs participating in the Pilot Project will be subject to other ERCOT Settlement calculations for Resources as described in the ERCOT Nodal protocols including the Ancillary Service Imbalance Settlement calculations.
+
+Evaluation and Analysis of Different ADER Participation Models for Phase 3
+
+This section outlines some of the studies that ERCOT will be conducting during Phase 3 of the Pilot Project:
+
+-   During the third phase of the Pilot Project, off-line studies using archived production data will be performed by ERCOT to analyze different dispatch and pricing schemes and their comparative effectiveness in managing congestion. These include dispatch and Settlement using:
+
+    -   Logical Resource Nodes (LRNs):
+
+        -   Dispatch with static allocation factors used to determine the LRN shift factor and pricing; and
+
+        -   Dispatch with dynamic allocation factors used to determine the LRN shift factor and pricing.
+
+        -   The process by which allocation factor data will be provided to ERCOT for each ADER will be determined later.
+
+    -   Smaller Load Zones.
+
+  These different ADER modeling approaches will be compared and trade-offs between accuracy and complexity will be evaluated.
+
+-   During the third phase of the Pilot Project, analysis should continue to be performed to evaluate the ability of ADERs to provide Primary Frequency Response (PFR), identify processes for verifying any PFR response from ADER, and understand how the provision of PFR by ADERs may impact, or be limited by, the distribution system. While ADERs are not explicitly required to provide PFR in Phase 3, ADERs that can provide PFR are requested to do so, as this participation will allow this needed analysis during Phase 3 of the Pilot Project to occur.
+
+-   During Phase 3 of the Pilot Project, ERCOT will continue to work with the PUCT and stakeholders regarding the provision of Ancillary Services by Resources connected to the electric distribution system. The approach taken for ADERs will be linked to broader discussions on this topic as it relates to all distribution-connected Resources.
+
+-   Pilot Project participants will collaborate with ERCOT to provide relevant data relating to these studies upon request. ERCOT will report back on the progress of these studies and availability of data from Pilot Project participants to the TAC or a designated working group.
+
+Program Costs
+
+ERCOT does not anticipate any cost impacts attributable to Phase 3 of the Pilot Project. ERCOT anticipates that the approach discussed in this document will not require any changes to its existing software systems and that it will be able to absorb staffing impacts in its current Operations and Maintenance budget.
+
+Reports
+
+Based on Phase 3 evaluations, ERCOT will continue to review and report on the following:
+
+-   Recommendations for performance and compliance verification and metrics for ADERs, including additional data recorder requirements;
+
+-   Recommendations regarding alternative dispatch and pricing schemes for consideration in the future, such as recommendations on the LRN concept;
+
+-   Recommendations for processes, Protocol language, or changes necessary to address feedback from TDSPs and Aggregators on the program;
+
+-   Size of participation in aggregate and by Load Zone; and
+
+-   How many devices are reported to have communication standards, and of those that do, what those standards are.
+
+These reports and other information related to this Pilot Project will be stored on the Pilot Projects page on ERCOT’s website.
+
+Construction 
+
+This Governing Document and appendices will be liberally construed to achieve the purposes of the Pilot Project. Except where explicitly provided in this Governing Document, capitalized terms will be given the meaning assigned by the ERCOT Protocols, provided that terms unique to ADERs shall be construed consistently with the requirements of this Governing Document for the purposes of the ADER Pilot Project. In the event of any conflict between this Governing Document and the ERCOT Protocols, Operating Guides, or any Other Binding Document, the Governing Document will govern, but only to the extent the conflict relates to the administration of this Pilot Project.
+
+ Appendix A 
+
+Load Serving Entity’s Qualified Scheduling Entity Acknowledgment for NCLR-Type Participation
+
+ERCOT Aggregate Distributed Energy Resource Pilot Project
+
+*This form is only required for ADERs opting to register as NCLRs
+
+This Acknowledgment is signed by an officer of the Qualified Scheduling Entity (“QSE”) of the Load Serving Entity (“LSE”) (“LSE QSE”) identified below.
+
+By my signature, I confirm that the below-identified LSE QSE has received from [QSE PARTICIPANT’s NAME], a QSE in the ERCOT Region, an initial “Details of the Aggregation” submittal as that term is defined in the “Aggregate Distributed Energy Resource Pilot Project Governing Document,” and that the LSE QSE represents the LSE of the Premises identified in the initial “Details of Aggregation,” and that the LSE QSE consents to the NCLR-type participation of those Premises in this Pilot Project through [QSE PARTICIPANT’s NAME]. For any subsequent updates to the ADER population, the below-identified LSE QSE confirms that it will verify that the LSE represented by the LSE QSE provides retail electric service to the of the Premises identified, and will consent to or exclude each such Premise’s participation in this Pilot Project. The LSE QSE acknowledges that it understands the potential for impacts to its ERCOT settlements and financial positions related to the Premises’ load as a consequence of that participation.
+
+I understand that the below-identified LSE QSE may rescind this acknowledgment by providing 30 days’ notice to [QSE PARTICIPANT’s NAME] and ERCOT, but that no termination of this acknowledgment will be effective before the end of any period for which ERCOT has already issued an award notification to [QSE PARTICIPANT’s NAME].
+
+LSE QSE:___________________________________________________
+
+LSE QSE DUNS+4:___________________________________________________
+
+Officer Signature: _____________________________________________________
+
+Printed Name:____________________________________________
+
+Title: ___________________________________________________
+
+Date: ___________________________________________________
+
+Appendix B
+
+Distribution Service Provider Acknowledgment
+
+ERCOT Aggregate Distributed Energy Resource Pilot Project
+
+This Acknowledgment is signed by an officer of the Distribution Service Provider (DSP) identified below.
+
+By my signature, I confirm that the below-identified DSP has received from [QSE PARTICIPANT’s NAME], a Qualified Scheduling Entity in the ERCOT Region (“QSE”), an initial “Details of the Aggregation” submittal as that term is defined in the “Aggregate Distributed Energy Resource Pilot Project Governing Document,” and that the DSP provides delivery service to each of the Premises identified in the initial “Details of Aggregation,” and that the DSP consents to the participation of those Premises in this Pilot Project. For any subsequent updates to the ADER population, the below-identified DSP confirms that it will verify that it provides delivery service to each of the Premises identified, and will consent to or exclude each Premise’s participation in this Pilot Project. The DSP acknowledges that it understands the potential for simultaneous injection of power from each Premise into the DSP’s system as a consequence of that participation.
+
+I understand that the below-identified DSP may rescind this acknowledgment by providing 30 days’ notice to the QSE and ERCOT, but that no termination of this acknowledgment will be effective before the end of any period for which ERCOT has already issued an award notification to QSE Participant.
+
+DSP:___________________________________________________
+
+Officer Signature: _____________________________________________________
+
+Printed Name:____________________________________________
+
+Title: ___________________________________________________
+
+Date: ___________________________________________________
+
+Appendix C
+
+Supplement to the Standard Form Market Participant Agreement
+
+Between
+
+[Name of QSE]
+
+and
+
+Electric Reliability Council of Texas, Inc.
+
+This Supplement to the Standard Form Market Participant Agreement (“Supplement”), effective as of [START DATE TO BE ENTERED BY ERCOT] (“Start Date”), is entered into by and between [PARTICIPANT’s NAME], a Qualified Scheduling Entity in the ERCOT Region (“QSE” or “QSE Participant”), and Electric Reliability Council of Texas, Inc., a Texas non-profit corporation (“ERCOT”).[1]
+
+Recitals
+
+WHEREAS:
+
+A.  The Public Utility Commission of Texas (“PUCT”) has authorized ERCOT to conduct pilot projects in 16 Texas Administrative Code § 25.361(k);
+
+B.  The ERCOT Board has approved an Aggregate Distributed Energy Resource (ADER) pilot project (“Pilot Project”), as described in the Governing Document for Aggregate Distributed Energy Resource Pilot Project (“Governing Document”);
+
+C.  Specific terms used in this Supplement that are defined in the Governing Document have the meanings assigned to them in that document;
+
+D.  QSE Participant is a QSE in the ERCOT Region and has executed a Standard Form Market Participant Agreement (“Market Participant Agreement”) with ERCOT;
+
+E.  QSE Participant wishes to submit bids and/or offers from ADERs; and
+
+F.  The Parties enter into this Supplement in order to establish the terms and conditions by which ERCOT and QSE Participant will discharge their respective duties and responsibilities with respect to the ADER Pilot Project.
+
+Agreements
+
+NOW, THEREFORE, in consideration of the mutual covenants and promises contained herein, ERCOT and QSE Participant (the “Parties”) hereby agree as follows:
+
+A.  All terms and conditions of the Market Participant Agreement between QSE Participant and ERCOT remain in full force and effect.
+
+B.  QSE Participant and ERCOT will abide by and comply with the rules of the ADER Pilot Project set out in the Governing Document.
+
+C.  Any Party may terminate this Supplement to the Market Participant Agreement by providing 30 days’ notice to the other Parties; however, no termination of this Supplement will be effective before the end of any period for which ERCOT has already issued an award notification to Participant.
+
+D.  Otherwise, this Supplement to the Market Participant Agreement will terminate upon the completion of all obligations incurred under the terms of the Governing Document.
+
+E.  This Supplement to the Market Participant Agreement may be executed in two or more counterparts, each of which is deemed an original, but all constitute one and the same instrument.
+
+SIGNED, ACCEPTED, AND AGREED TO by each undersigned signatory who, by signature hereto, represents and warrants that he or she has full power and authority to execute this Supplement.
+
+Electric Reliability Council of Texas, Inc.:
+
+By: ____________________________________________________
+
+Printed Name: ___________________________________________
+
+Title: ___________________________________________________
+
+Date: ___________________________________________________
+
+QSE Participant:
+
+By: _____________________________________________________
+
+Printed Name:____________________________________________
+
+Title: ___________________________________________________
+
+Date: ___________________________________________________
+
+Attached to this Agreement, QSE Participant shall include the “Details of the Aggregation,” as that term is defined in the “Aggregate Distributed Energy Resource Pilot Project Governing Document.”
+
+[1] Unless otherwise indicated, capitalized terms in this Supplement have the meanings ascribed to them in the ERCOT Protocols.

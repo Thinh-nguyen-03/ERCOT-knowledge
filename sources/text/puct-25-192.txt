@@ -1,0 +1,347 @@
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter I.
+
+TRANSMISSION AND DISTRIBUTION.
+
+DIVISION 1.
+
+OPEN-ACCESS COMPARABLE TRANSMISSION SERVICE FOR
+ELECTRIC UTILITIES IN THE ELECTRIC RELIABILITY COUNCIL
+OF TEXAS.
+
+§25.192. Transmission Service Rates.
+(a)
+
+Tariffs. Each transmission service provider (TSP) shall file a tariff for transmission service to establish
+its rates and other terms and conditions and shall apply its tariffs and rates on a non-discriminatory
+basis. The tariff shall apply to all distribution service providers (DSPs) and any entity scheduling the
+export of power from the Electric Reliability Council of Texas (ERCOT) region. The tariff shall not
+apply to any entity engaging in wholesale storage as described by §25.501(m) of this title (relating to
+Wholesale Market Design for the Electric Reliability Council of Texas) (storage entity).
+
+(b)
+
+Charges for transmission service delivered within ERCOT. DSPs, excluding storage entities, shall
+incur transmission service charges pursuant to the tariffs of the TSP.
+(1)
+A TSP’s transmission rate shall be calculated as its commission-approved transmission cost of
+service divided by the average of ERCOT coincident peak demand for the months of June,
+July, August and September (4CP), excluding the portion of coincident peak demand
+attributable to wholesale storage load. A TSP’s transmission rate shall remain in effect until
+the commission approves a new rate. The TSP’s annual rate shall be converted to a monthly
+rate. The monthly transmission service charge to be paid by each DSP is the product of each
+TSP’s monthly rate as specified in its tariff and the DSP’s previous year’s average of the 4CP
+demand that is coincident with the ERCOT 4CP.
+(2)
+Payments for transmission services shall be consistent with commission orders, approved
+tariffs, and §25.202 of this title (relating to Commercial Terms for Transmission Service).
+
+(c)
+
+Transmission cost of service. The transmission cost of service for each TSP shall be based on the
+expenses in Federal Energy Regulatory Commission (FERC) expense accounts 560-573 (or accounts
+with similar contents or amounts functionalized to the transmission function) plus the depreciation,
+federal income tax, and other associated taxes, and the commission-allowed rate of return based on
+FERC plant accounts 350-359 (or accounts with similar contents or amounts functionalized to the
+transmission function), less accumulated depreciation and accumulated deferred federal income taxes,
+as applicable.
+(1)
+The following facilities are deemed to be transmission facilities:
+(A)
+power lines, substations, reactive devices, and associated facilities, operated at 60
+kilovolts or above, including radial lines operated at or above 60 kilovolts, except the
+step-up transformers and a protective device associated with the interconnection from
+a generating station to the transmission network;
+(B)
+substation facilities on the high side of the transformer, in a substation where power
+is transformed from a voltage higher than 60 kilovolts to a voltage lower than 60
+kilovolts;
+(C)
+the portion of the direct-current interconnections with areas outside of the ERCOT
+region (DC ties) that are owned by a TSP in the ERCOT region, including those
+portions of the DC tie that operate at a voltage lower than 60 kilovolts; and
+(D)
+capacitors and other reactive devices that are operated at a voltage below 60 kilovolts,
+if they are located in a distribution substation, the load at the substation has a power
+factor in excess of 0.95 as measured or calculated at the distribution voltage level
+without the reactive devices, and the reactive devices are controlled by an operator or
+automatically switched in response to transmission voltage.
+(E)
+As used in subparagraphs (A) - (D) of this paragraph, reactive devices do not include
+generating facilities.
+
+§25.192-1
+
+effective 12/20/22
+(P 53169)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter I.
+
+TRANSMISSION AND DISTRIBUTION.
+
+DIVISION 1.
+
+OPEN-ACCESS COMPARABLE TRANSMISSION SERVICE FOR
+ELECTRIC UTILITIES IN THE ELECTRIC RELIABILITY COUNCIL
+OF TEXAS.
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(d)
+
+(e)
+
+For municipally owned utilities, river authorities, and electric cooperatives, the commission
+may permit the use of the cash flow method or other reasonable alternative methods of
+determining the annual transmission revenue requirement, including the return element of the
+revenue requirement, consistent with the rate actions of the rate-setting authority for a
+municipally owned utility.
+For municipally owned utilities, river authorities, and electric cooperatives, the return may be
+determined based on the TSP’s actual debt service and a reasonable coverage ratio. In
+determining a reasonable coverage ratio, the commission will consider the coverage ratios
+required in the TSP’s bond indentures or ordinances and the most recent rate action of the ratesetting authority for the TSP.
+A municipally owned utility that is required to apply for a certificate of public convenience
+and necessity to construct, install, or extend a transmission facility within ERCOT pursuant to
+§25.101 of this title (relating to Certification Criteria) is entitled to recover, through the
+utility’s wholesale transmission rate, reasonable payments made to a taxing entity in lieu of ad
+valorem taxes on that transmission facility, provided that:
+(A)
+The utility enters into a written agreement with the governing body of the taxing entity
+related to the payments;
+(B)
+The amount paid is the same as the amount the utility would have to pay to the taxing
+entity on that transmission facility if the facility were subject to ad valorem taxation;
+(C)
+The governing body of the taxing entity is not the governing body of the utility; and
+(D)
+The utility provides the commission with a copy of the written agreement and any
+other information that the commission considers necessary in relation to the
+agreement.
+The commission may adopt rate-filing requirements that provide additional details concerning
+the costs that may be included in the transmission costs and how such costs should be reported
+in a proceeding to establish transmission rates.
+
+Billing units. No later than December 1 of each year, ERCOT shall determine and file with the
+commission the current year’s average 4CP demand for each DSP, or the DSP’s agent for transmission
+service billing purposes, as appropriate, excluding the portion of coincident peak demand attributable
+to wholesale storage load. This demand shall be used to bill transmission service for the next year. The
+ERCOT average 4CP demand shall be the sum of the coincident peak of all of the ERCOT DSPs,
+excluding the portion of coincident peak demand attributable to wholesale storage load, for the four
+intervals coincident with ERCOT system peak for the months of June, July, August, and September,
+divided by four. As used in this section, a DSP’s average 4CP demand is determined from the total
+demand, coincident with the ERCOT 4CP, of all customers connected to a DSP, including load served
+at transmission voltage, but excluding the load of wholesale storage entities. The measurement of the
+coincident peak shall be in accordance with commission-approved ERCOT protocols.
+Transmission rates for exports from ERCOT. A transmission service charge for exports of power
+from ERCOT must be assessed to transmission service customers for transmission service within the
+boundaries of the ERCOT region, in accordance with this section and the ERCOT protocols.
+(1)
+A transmission service customer must be assessed a transmission service charge for the use of
+the ERCOT transmission system in exporting power from ERCOT based on scheduled exports
+and the rates established under subsections (c) and (d) of this section. The intervals must
+consist of one hour.
+(2)
+The hourly transmission rate for exports from ERCOT will be the TSP’s annual rate
+established under subsections (c) and (d) of this section divided by 8760.
+
+§25.192-2
+
+effective 12/20/22
+(P 53169)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter I.
+
+TRANSMISSION AND DISTRIBUTION.
+
+DIVISION 1.
+
+OPEN-ACCESS COMPARABLE TRANSMISSION SERVICE FOR
+ELECTRIC UTILITIES IN THE ELECTRIC RELIABILITY COUNCIL
+OF TEXAS.
+
+(3)
+(4)
+
+The entity scheduling the export of power over a DC tie is solely responsible to the TSP for
+payment of transmission service charges under this subsection.
+Beginning with the January 2023 reporting month, ERCOT must file a public report with the
+commission stating the total amount of energy imported and the total amount of energy
+exported over each DC tie for the calendar month. The report must also include the total
+amount of energy exported from the ERCOT region during the reporting month and each of
+the preceding 11 calendar months, reported by scheduling entity. Each report must be filed
+within 45 days of the end of the reporting month.
+
+(f)
+
+Transmission revenue. Revenue from the transmission of electric energy out of the ERCOT region
+over the DC ties that is recovered under subsection (e) of this section shall be credited to all transmission
+service customers as a reduction in the transmission cost of service for TSPs that receive the revenue.
+
+(g)
+
+Revision of transmission rates. Each TSP in the ERCOT region shall periodically revise its
+transmission service rates to reflect changes in the cost of providing such services. Any request for a
+change in transmission rates shall comply with the filing requirements established by the commission
+under this section.
+
+(h)
+
+Interim Update of Transmission rates.
+(1)
+Frequency. Each TSP in the ERCOT region may apply to update its transmission rates on an
+interim basis not more than once per calendar year to reflect changes in its invested capital.
+Upon the effective date of an amendment to §25.193 pursuant to an order in Project Number
+37909, Rulemaking Proceeding to Amend P.U.C. Subst. R. 25.193, Relating to Distribution
+Service Provider Transmission Cost Recovery factors (TCRF), that allows a distribution
+service provider to recover, through its transmission cost recovery factor, all transmission costs
+charged to the distribution service provider by TSPs, each TSP in the ERCOT region may
+apply to update its transmission rates on an interim basis not more than twice per calendar year
+to reflect changes in its invested capital. If the TSP elects to update its transmission rates, the
+new rates shall reflect the addition and retirement of transmission facilities and include
+appropriate depreciation, federal income tax and other associated taxes, and the commissionauthorized rate of return on such facilities as well as changes in loads. If the TSP does not
+have a commission-authorized rate of return, an appropriate rate of return shall be used.
+(2)
+Reconciliation. An update of transmission rates under paragraph (1) of this subsection shall
+be subject to reconciliation at the next complete review of the TSP’s transmission cost of
+service, at which time the commission shall review the costs of the interim transmission plant
+additions to determine if they were reasonable and necessary. Any amounts resulting from an
+update that are found to have been unreasonable or unnecessary, plus the corresponding return
+and taxes, shall be refunded with carrying costs determined as follows: for the time period
+beginning with the date on which over-recovery is determined to have begun to the effective
+date of the TSP’s rates set in that complete review of the TSP’s transmission cost of service,
+carrying costs shall be calculated using the same rate of return that was applied to the
+transmission investments included in the update. For the time period beginning with the
+effective date of the TSP’s rates set in that complete review of the TSP’s transmission cost of
+service, carrying costs shall be calculated using the TSP’s rate of return authorized in that
+complete review.
+(3)
+Future consideration of effect on TSP’s financial risk and rate of return. For a TSP that
+has increased its rates pursuant to paragraph (1) of this subsection, the commission may, in
+setting rates in the next complete review of the TSP’s transmission cost of service, expressly
+
+§25.192-3
+
+effective 12/20/22
+(P 53169)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter I.
+
+TRANSMISSION AND DISTRIBUTION.
+
+DIVISION 1.
+
+OPEN-ACCESS COMPARABLE TRANSMISSION SERVICE FOR
+ELECTRIC UTILITIES IN THE ELECTRIC RELIABILITY COUNCIL
+OF TEXAS.
+
+(4)
+
+(5)
+(6)
+
+(7)
+
+consider the effects of reduced regulatory lag resulting from the interim updates to the TSP’s
+rates and the concomitant impact on the TSP’s financial risk and rate of return.
+Commission processing of application. The commission shall process an application filed
+pursuant to paragraph (1) of this subsection in the following manner.
+(A)
+Notice and intervention deadline. The applicant shall provide notice of its
+application to all parties in the applicant’s last complete review of the applicant’s
+transmission cost of service and all of the distribution service providers listed in the
+last docket in which the commission set the annual transmission service charges for
+the Electric Reliability Council of Texas. The intervention deadline shall be 21 days
+from the date service of notice is completed.
+(B)
+Sufficiency of application. A motion to find an application materially deficient shall
+be filed no later than 21 days after an application is filed. The motion shall be served
+on the applicant by hand delivery, facsimile transmission, or overnight courier
+delivery, or by e-mail if agreed to by the applicant or ordered by the presiding officer.
+The motion shall specify the nature of the deficiency and the relevant portions of the
+application, and cite the particular requirement with which the application is alleged
+not to comply. The applicant’s response to a motion to find an application materially
+deficient shall be filed no later than five working days after such motion is received.
+If within ten working days after the deadline for filing a motion to find an application
+materially deficient, the presiding officer has not filed a written order concluding that
+material deficiencies exist in the application, the application is deemed sufficient.
+(C)
+Review of application. A proceeding initiated pursuant to paragraph (1) of this
+subsection is eligible for disposition pursuant to §22.35(b)(1) of this title (relating to
+Informal Disposition). If the requirements of §22.35 of this title are met, the presiding
+officer shall issue a notice of approval within 60 days of the date a materially
+sufficient application is filed unless good cause exists to extend this deadline or the
+presiding officer determines that the proceeding should be considered by the
+commission.
+Filing Schedule. The commission may prescribe a schedule for providers of transmission
+services to file proceedings to revise the rates for such services.
+DSP’s right to pass through changes in wholesale rates. A DSP may expeditiously pass
+through to its customers changes in wholesale transmission rates approved by the commission,
+pursuant to §25.193 of this title (relating to Distribution Service Provider Transmission Cost
+Recovery Factors (TCRF)).
+Reporting requirements. TSPs shall file reports that will permit the commission to monitor
+their transmission costs and revenues, in accordance with any filing requirements and
+schedules prescribed by the commission.
+
+§25.192-4
+
+effective 12/20/22
+(P 53169)
+
+

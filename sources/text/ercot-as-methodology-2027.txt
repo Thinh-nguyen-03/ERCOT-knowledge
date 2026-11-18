@@ -1,0 +1,1214 @@
+PUBLIC
+
+Item 18: 2027 ERCOT
+Methodologies for
+Determining Minimum
+Ancillary Service
+Requirements
+Nitika Mago
+Director, Forecasting and Operational
+Risk Management
+Board of Directors Meeting
+September 14-15, 2026
+
+Purpose
+•
+
+Provide a summary of proposed changes to ERCOT's Methodologies for
+Determining Minimum Ancillary Services Requirements for 2027 (2027
+AS Methodology).
+
+•
+
+Under ERCOT Protocol Section 3.16 the Board is required to review and
+recommend approval of ERCOT’s AS methodology. Any such
+recommendations require approval by the Public Utility Commission of
+Texas before implementation.
+
+Voting Items
+ERCOT requests the Board to recommend approval of the 2027 Ancillary
+Services Methodology
+
+Key Takeaways
+
+• For 2027, ERCOT is not proposing any change to the methodology for
+Regulation Service (Reg Up/Reg Down) and Responsive Reserve
+Service (RRS); their quantities reflect moving history forward.
+• ERCOT is proposing two measured parameter changes for ERCOT
+Contingency Reserve Service (ECRS) and Non-Spinning Reserve
+Service (Non-Spin) — the headroom credit and the target reserve level
+— that result in quantities meeting the reliability needs of the system.
+
+Background
+
+PUBLIC
+
+•
+
+•
+
+•
+
+Ancillary Services (AS) are needed for two general reasons:
+•
+
+to continuously maintain frequency; and,
+
+•
+
+to ensure sufficient capacity and energy is timely available to
+cover forecast errors and resource outages.
+
+The needed AS quantities depend on drivers such as:
+• amount of intermittent resources serving load,
+• load, wind, and solar forecast accuracy,
+• the probability of resource outages,
+• uncertainty in battery state of charge management,
+• system inertia, and
+• the size of the largest resource.
+Each type of AS may cover a variety of risks and uncertainties even
+though the quantities may be determined based on one risk factor.
+
+THE FOCUS OF AS METHODOLOGY
+DISCUSSION
+Regulation and RRS: relatively stable
+methodology for several years and there is
+general agreement; quantities are modified
+annually due to updated historic data.
+ECRS and Non-Spin: evolving methodology
+has been the focus of the discussion, with
+varying interests among different stakeholder
+segments leading to a lack of consensus on
+how much risk is appropriate to take.
+
+2
+
+Introduction
+
+PUBLIC
+
+•
+
+For 2027, ERCOT is not proposing any changes to the methodology for Regulation and RRS; their quantities reflect
+updated historical data.
+
+•
+
+ERCOT is proposing two parameter changes to the methodology for ECRS and Non-Spin (the risk credit and the target
+reserve level.)
+•
+
+ERCOT has implemented a probabilistic model for ECRS and Non-Spin that tailors requirements to each hour's
+risk. ERCOT used this model to assess over 900 sensitivities, based on stakeholder feedback, to develop this
+recommendation.
+
+•
+
+As anticipated in June, the three core issues remain the central points of discussion: the look-ahead period, the
+headroom credit, and the target reserve level — with Reg Up + RRS restoration as the reliability anchor beneath them.
+
+•
+
+The following slides will describe these issues and then address ERCOT’s recommended approach.
+
+Key Takeaway: ERCOT has completed the analysis it previewed in June — over 900 sensitivities were studied
+— and now is bringing its recommendations for the 2027 AS Methodology. This presentation covers the policy
+questions behind that recommendation, followed by the supporting methodology and results.
+3
+
+PUBLIC
+
+Building the Tools for a More Complex Grid
+
+BOTTOM LINE
+•
+
+ERCOT's grid continues to get more complex and uncertain — more inverter-based resources, more load, more duration-limited
+resources.
+
+•
+
+ERCOT has a clear roadmap to meet it: stronger market tools and a more dynamic way to set reserves — sequenced so reliability is
+maintained while the tools are built.
+
+•
+
+Making a large change to the methodology now, before those tools are in place, would trade away reliability margin without a proven
+replacement.
+
+THE ROADMAP:
+
+2026
+
+YOU ARE HERE
+
+Annual Probabilistic AS for 2027
+The approach being endorsed
+now.
+
+2027
+
+2028
+
+ASDCs
+
+Dynamic AS for 2029
+
+Develop and implement improved ASDCs.
+
+Annual Probabilistic AS for 2028
+
+Add accounting energy/MWh uncertainty
+and incorporate AS duration accounting in
+the model.
+
+A transparent, risk-based way to
+set reserve quantities closer to real
+time when the actual expected
+range of risks can be assessed.
+
+Key Takeaway: ERCOT has a roadmap to a more dynamic, market-based approach. The appropriate
+sequence is to build those tools first — changing AS quantities before these tools are in place would be
+premature
+
+4
+
+Preserving the Ability to Recover Reg Up and RRS
+
+PUBLIC
+
+BOTTOM LINE
+•
+
+Restoring Reg Up and RRS after an event is critical to frequency control and to meeting ERCOT's NERC obligations.
+
+•
+
+ERCOT cannot count on headroom beyond Ancillary Services always being available to provide that restoration — when it's needed most,
+all capacity in excess of procured reserves could be serving load.
+
+•
+
+If that headroom isn't there and ECRS and Non-Spin are not enough to restore Reg Up and RRS, ERCOT may have to shed firm load to
+maintain frequency and frequency-responsive margin.
+
+•
+
+Given the stakes, ERCOT plans and procures reserves to keep the ability to restore Reg Up and RRS at all time as the insurance the
+system requires — held before an event, not after.
+
+WHY
+•
+
+ERCOT's approach is not a claim that a specific NERC rule mandates "restore 100% of Reg Up and RRS." It is about holding the
+capability to meet ERCOT's NERC obligations — continuous balancing, contingency recovery, and frequency response for the next large
+loss — event after event, not just on average.
+
+•
+
+NERC's standards are written as a minimum requirement to be met by every Balancing Authority (BA). These minimum standards may be
+sufficient for a multiple BA interconnection where each BA maintains reserves to cover their largest contingency and then draws on
+synchronously-tied neighbors to cover any more-severe or subsequent losses.
+
+•
+
+ERCOT has no such neighbors. As the sole BA in its Interconnection, ERCOT must maintain sufficient reserves to meet the minimum
+standards and their underlying intent: to maintain continuous balancing, contingency recovery, and frequency response — and, ultimately,
+to protect firm load — even through more-severe or subsequent losses. This includes restoring reserves promptly to reduce exposure
+during a subsequent event.
+
+•
+
+ERCOT must therefore plan to hold the reserves it needs to maintain reliability and operate consistent with NERC's rules (and underlying
+intent), even where that means doing what other BAs don't have to.
+
+Key Takeaway: Restoring Reg Up and RRS is a reliability floor for ERCOT —not over-procurement, but what
+reliability needs for a grid with no neighbors to lean on.
+
+5
+
+Look-Ahead Period for forecast error & forced outages
+
+PUBLIC
+
+BOTTOM LINE
+•
+
+A six-hour look-ahead remains the prudent posture for 2027. It is based on analysis of the startup times of Resources ERCOT typically has
+to commit.
+
+•
+
+Dialing down the look-ahead does not change the uncertainty the Control Room must manage — an uncertainty that is growing* as the
+grid adds more inverter-based resources and depends more on duration-limited storage.
+
+•
+
+It reduces the reserves the tools plan with, leaving operators to bridge the gap with their own judgment more often — with limited insight
+into how battery energy availability will materialize in real time.
+
+•
+
+Reliability Unit Commitments (RUCs) will tend to increase, not decrease, if this Look-Ahead Period parameter is reduced.
+
+WHY
+•
+
+RUC study is a stop-gap assessment: it recommends committing resources to ensure enough capacity is available in real time to serve
+load and meet the planned AS requirements (to maintain reliability) when the market has not committed enough on its own.
+
+•
+
+Relying on short-start Resources — which typically do not dispatch until system-wide stored energy is already low — in place of longerlead Resources increases the risk of a deeper event.
+
+•
+
+RUC volume is high right now largely because of an exceptionally hot summer and record load. Some RUCs are avoidable with better
+inputs, especially how battery state of charge is represented, and through stronger AS Demand Curves (ASDCs) that encourage resources
+to self-commit — but not all.
+
+•
+
+What would let ERCOT plan closer to real time: Stronger self-commitment through improvements of the ASDCs, the transition to
+Dynamic AS, and a better way to account for battery state of charge in commitment and dispatch.
+
+Key Takeaway: Shortening the look-ahead now is premature — until the market and operating tools to plan
+closer to real time are in place, six hours remains the prudent posture.
+*Since Winter 2020-2021, installed solar has roughly doubled, battery capacity has roughly quadrupled, and load has set new records. Given this alone, comparisons to AS or RUC levels from before Winter 2020-2021 are
+not meaningful."
+
+6
+
+The Target Reserve Level (Watch vs. EEA1)
+
+PUBLIC
+
+BOTTOM LINE
+•
+
+Of the three parameters, the target reserve level (ZZ) is the one ERCOT is proposing to change for 2027 — moving from a criterion of
+avoiding a Watch (3,000 MW) toward avoiding EEA1 (2,500 MW) based on feedback during last year’s approval.
+
+•
+
+This is a measured change: it moves quantities and costs only marginally today, because the Reg Up + RRS restoration floor — not the
+target level — drives most hours. It may open an opportunity to design the ASDCs more around the AS requirement than the legacy
+threshold.
+
+WHY
+•
+
+The target reserve level sets ERCOT's operating posture through the resulting AS quantities — it defines the reserve level the
+methodology plans to.
+
+•
+
+ERCOT believes this is the parameter that can reasonably be adjusted: unlike the restoration floor and the look-ahead period, moving the
+target from Watch toward EEA1 does not compromise ERCOT's ability to restore fast reserves or to plan for uncertainty.
+
+•
+
+This move is supported by the operational improvements ERCOT has made in recent years to better manage and monitor operational
+uncertainty. At the same time, because the grid continues to grow more complex and more dependent on duration-limited resources,
+ERCOT does not recommend moving the target lower than EEA1.
+
+•
+
+It is worth noting that the target level has a limited effect on ECRS and Non-Spin quantities in 2027
+
+•
+
+This adjustment also creates an opportunity to align other operating procedures.
+
+Key Takeaway: Consistent with feedback from the Board last year, ERCOT is proposing a measured move of
+the target reserve level from Watch to EEA1 — supported by recent operational improvements, while
+maintaining caution given the grid's growing complexity.
+7
+
+Crediting Headroom that has Historically been Available
+
+PUBLIC
+
+BOTTOM LINE
+•
+
+As noted with the look-ahead period, the grid is evolving — more inverter-based resources and storage are shifting headroom between
+online and offline capacity — while load continues to grow.
+
+•
+
+Reducing the requirement by 100% of historically available headroom understates the risk operators may need to work around; counting
+on zero headroom overstates that risk.
+
+•
+
+For 2027, a measured increase — one that lands somewhere in the middle, rather than at either extreme — is acceptable for setting the
+ECRS and Non-Spin requirements: crediting more of the observed headroom than the cautious 2026 level, without relying on 100% of it.
+
+WHY
+•
+
+In 2026, ERCOT observed that more headroom was available during daytime hours than the cautious 25% daytime credit used in 2025 AS
+Methodology for 2026 — that credit had been set when the effect of RTC+B was still uncertain.
+
+•
+
+Under RTC+B, unit commitment grew more efficient, shifting some online capability to offline capacity that could be brought on within 30
+minutes; available online headroom also increased during the day as solar output grew.
+
+•
+
+ESR capacity grew significantly and added headroom, though less during the evening net-load ramp, when ESRs were depleted. This
+growth is projected to continue into 2027.
+
+•
+
+Load is also growing and will consume some of this headroom — which is why ERCOT is proposing a measured credit rather than the full
+historically available amount.
+
+Key Takeaway: Crediting a measured share of the historically available headroom is the prudent basis for
+setting ECRS and Non-Spin quantities in 2027 — more than the cautious 2026 level, but not the full amount.
+8
+
+PUBLIC
+
+ECRS & Non-Spin Probabilistic Model Recap & 2027 Recommendation
+INPUTS
+
+RISKS
+• (X=) hour ahead and 30 min
+ahead Net Load Forecast
+Error and
+• Accumulated Forced Outages
+in (X=) hours
+RISK CREDITS
+(Y=) % of historically available
+• 30 min online headroom
+• 30 min start Offline capacity
+• ESR capacity sustainable for
+(W=) hours
+(Night | Day) where night is HE23
+to HE5 and day is HE6 to HE22
+
+ENGINE
+
+OUTPUTS
+ECRS
+
+ECRS +
+Non-Spin
+Requirement
+
+MONTE CARLO
+OPTIMIZATION
+
+(12 Month x 24
+Hour)
+
+No
+
+Net Risk
+
+Requirement
+(12 Month x 24
+Hour)
+
+X = 6 Hours,
+
+Non-Spin
+
+Y = Online: (60%:50%)
+Offline (60%:50%) and
+ESR: (60%:60%) with
+W = 4-hour
+
+Requirement
+(12 Month x 24
+Hour)
+
++CONVERGENCE CRITERIA: 1 in XX year
+
+CONVERGENCE
+
+CRITERIA+
+MET?
+
+Yes
+
+2027 Recommendations
+
+probability of operating reserves dropping
+below the sum of YY% (Reg Up plus RRS)
+or ZZ threshold, whichever is higher.
+Mathematically, this equates to
+
+XX = 10 years,
+YY = 100%, and
+ZZ = 2,500 MW
+
+𝐸𝐸𝐶𝐶𝑅𝑅𝑆𝑆 +𝑁𝑁𝑆𝑆𝑅𝑅𝑆𝑆 < 𝑁𝑁𝑒𝑒𝑡𝑡𝑅𝑅𝑖𝑖𝑠𝑠𝑘𝑘 + 𝑀𝑀𝑎𝑎𝑥𝑥 (YY(𝑅𝑅𝑒𝑒𝑔𝑔 +
+𝑅𝑅𝑅𝑅𝑆𝑆), ZZ) with probability of 1 in XX year.
+
+Key Takeaway: ERCOT evaluated several sensitivities on each parameter across more than 900 scenarios
+and, based on that analysis, is recommending X = 6 hours, Y = the headroom credit shown, W = 4-hour
+sustainability, XX = 10 years, YY = 100%, and ZZ = 2,500 MW.
+
+9
+
+PUBLIC
+
+Total Requirement vs. Reliability Impact
+
+As part of the PUC's 2024 Ancillary Services Study, ERCOT was asked to produce probabilities and costs for experiencing a Watch, Emergency
+Alert (EEA), or Load Shed at alternative reserve levels. ERCOT has done so and has also used what it built to compare how the different
+scenarios fare when weighed against the same risk. The table shows the total requirement and estimated costs (based on 2025 prices) for each
+scenario, alongside the expected hours per year at each threshold under different assumptions about how much headroom is available in real
+time. ERCOT's recommended scenario is highlighted in purple.
+Potential Real Time Outcome: 6 Hour Ahead Risk
+Parameters used to compute
+ECRS + Non-Spin*
+
+S1: 6HA, 0% Credit, 4h ESR, 100%
+Restoration, 3000 MW Threshold
+S2: 6HA, 50|60% Credit, 4h ESR, 100%
+Restoration, 3000 MW Threshold
+S3’: 6HA, 50|60% Credit, 4h ESR, 100%
+Restoration, 2500 MW Threshold
+S4: 3HA, 100% H Credit, 1h ESR, 0%
+Restoration, 1500 MW Threshold
+
+Expected EEA3
+Hours / Year
+
+Expected EEA1
+Hours / Year
+
+Expected Watch
+Hours / Year
+
+Total AS
+(MWh)
+
+Total AS
+Cost ($)
+
+82.01M
+
+$244.03M
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+0.00
+
+0.04
+
+0.00
+
+0.00
+
+65.30M
+
+$208.97M
+
+48
+
+0.00
+
+0.00
+
+179
+
+0.01
+
+0.00
+
+311
+
+0.05
+
+0.00
+
+65.00M
+
+$208.18M
+
+54
+
+0.00
+
+0.00
+
+194
+
+0.01
+
+0.00
+
+337
+
+0.08
+
+0.03
+
+33.44M
+
+$127.80M
+
+2,014
+
+96
+
+6.9
+
+3,876
+
+691
+
+222
+
+4,962
+
+1,435
+
+668
+
+Some
+Some
+Lots of
+Lots of
+Lots of
+Some
+No
+No
+No
+Headroom Headroom
+Headroom Headroom
+Headroom**
+Headroom
+Headroom Headroom**
+Headroom
+**
+**
+*
+***
+***
+
+*Reliability Standard (1-in-XX), = 10 years; ‘ERCOT Proposed;
+**6 Hour Ahead risk basis adjusted to reflect 60% historic headroom. ***6 Hour Ahead risk basis adjusted to reflect 100% historic headroom.
+
+Key Takeaway: The table shows how quickly expected risk climbs as the parameters are dialed down more
+aggressively. The two proposed changes result in quantities that meet the reliability needs of ERCOT's
+increasingly complex grid.
+
+10
+
+PUBLIC
+
+Impacts on Quantities for ECRS and NSRS
+
+ERCOT Contingency Reserve Service = Reserved capacity from
+Resources that respond within 10 minutes to (1) restore Reg Up and
+RRS (and hence frequency) following the trip of a large generator
+and/or (2) cover net-load movement within the operating hour that
+the hourly commitment did not anticipate, bridging until Non-Spin
+and other resources respond.
+
+Non-Spinning Reserve Service = Reserved capacity from
+Resources that respond within 30 minutes to cover multi-hour
+capacity shortfalls the hourly commitment did not anticipate —
+caused by net load forecast error and resource forced outages —
+until additional resources are committed.
+
+Key Takeaway: ERCOT's recommended ECRS and Non-Spin quantities (S3) reflect a measured outcome —
+below the maximum that crediting no headroom would result in, but well above the aggressive scenarios that
+would take on more risk.
+* S3 is ERCOT proposed. S1, S2 S3, S4 scenario parameters are same as in Slide 10.
+
+11
+
+PUBLIC
+
+Impacts on Quantities for Regulation and RRS
+
+Regulation Up and Down = Services where Resources respond
+every 4 seconds to balance supply and demand between 5-minute
+SCED runs.
+
+Responsive Reserve Service = Reserved capacity from
+Resources that respond quickly to arrest the frequency decline
+without triggering under-frequency load shed (UFLS). following the
+trip of a large generator.
+
+Key Takeaway: ERCOT is not proposing any change to the methodology for Regulation and RRS; quantities
+reflect moving history forward. Preliminary results show a similar trend in average quantities as 2026.
+
+12
+
+PUBLIC
+
+2027 Ancillary Services Methodology Summary
+
+•
+
+To fulfill requirements in ERCOT Protocols Section 3.16, the
+Ancillary Services Methodology is reviewed annually. Changes to
+the methodology require PUC approval.
+
+•
+
+ERCOT reviewed the methodology for 2027 and is proposing no
+change to the methodology used for Regulation and RRS. ERCOT
+is proposing two parameter changes for ECRS and Non-Spin: an
+increased daytime risk credit and a target reserve level of EEA1.
+These changes do not decrease system reliability.
+
+•
+
+The grid continues to grow more complex. ERCOT's improvement
+actions will continue as market solutions evolve, operational tools
+mature, and experience operating under RTC+B with limitedduration resources grows.
+
+Key Takeaway: ERCOT requests the Board's endorsement of the 2027 Ancillary Services Methodology.
+Following Board endorsement, ERCOT expects to seek PUC approval so the methodology can be effective
+January 1, 2027.
+*S3 is ERCOT proposed. S1, S2 S3, S4 scenario parameters are same as in Slide 10.
+
+13
+
+PUBLIC
+
+Appendix
+
+14
+
+PUBLIC
+
+Parameters in Probabilistic Framework
+ISSUE
+
+How far ahead to look at
+forecast error and forced
+outages of conventional
+resources?
+Parameter X (in hours)
+What is the level of risk
+ERCOT should try to avoid by
+procuring AS to cover forecast
+error?
+
+ERCOT’S RECOMMENDATION AND
+SUMMARY OF STAKEHOLDER FEEDBACK
+6 Hours (ERCOT)
+OR
+3 Hours (Consumers)
+OR
+3 Hour (IMM, 1 hour preferred)
+
+3,000 i.e. Watch (ERCOT)
+OR
+Or 1,500 ie Load Shed (IMM)
+
+ERCOT’S PERSPECTIVE
+ERCOT’s recommendation of 6 hours is informed by policy guidance from Summer 2021 to operate
+to a higher reliability threshold (i.e. operate the system more conservatively with limited RUCs) and
+is based on historic availability of offline resources during RUC timeframe.
+
+ERCOT has noticed minimal difference in outcomes between ZZ = 3,000, 2,500 and 1,500 MW
+since quantities for most hours are a function of the amount of Reg Up plus RRS that these
+reserves have to replace.
+
+Parameter ZZ (in MW)
+What level of minimum
+reserves (Reg+RRS) should
+be maintained?
+Parameter YY (in %)
+How much should we discount
+the AS quantities for a
+particular time period based
+on the “extra” headroom from
+resources that were
+historically committed by
+market in that time period?
+Parameter Y (in %), W (in
+hours)
+
+100% (ERCOT)
+OR
+Less than 100% (IMM, Consumers)
+
+Online:60% in Night and 50% in Day
+Offline:60% in Night and 50% in Day
+ESR:60% in Night and 60% in Day
+Sustainable for 4 hours
+OR
+0 % Credit (Generators)
+OR
+100% Credit and 1 Hour duration (IMM)
+
+ERCOT proposes full restoration of deployed Reg Up + RRS. With that requirement, changing the
+target reserve level from Watch to EEA or Load Shed may not materially reduce quantities in many
+hours because Reg Up + RRS restoration often controls the requirement. Restoration of these fastresponse reserves is critical to maintaining reliability and staying compliant with NERC BAL
+requirements.
+ERCOT has observed that although RTC+B has had an impact on available (online + offline)
+headroom capacity, we are seeing additional capacity available that can be accounted for in the
+model. ERCOT expects the trend of having higher available (online + offline) headroom capacity
+during night hours to continue
+
+15
+
+PUBLIC
+
+Startup Times of RUC-Committed Units
+
+The startup times of RUCs between Jan 2, 2012, and Sep 2, 2026 (2,152 RUCs), were analyzed. RUCs for congestion and
+extensions were excluded.
+
+Key Takeaway: At least half of the units ERCOT commits for capacity have startup times of 5 hours or more —
+and the RUC process adds 20-30 minutes — supporting ERCOT’s recommendation for a six-hour look-ahead
+period.
+
+16
+
+Date:
+To:
+From:
+Subject:
+
+September 7, 2026
+Board of Directors
+Nitika Mago, Director Balancing Operations Planning
+2027 ERCOT Methodologies for Determining Minimum Ancillary
+Service Requirements
+
+Issue for the ERCOT Board of Directors
+ERCOT Board of Directors Meeting Date: September 14-15, 2026
+Item No.: 18
+Issue:
+Whether the Board of Directors (Board) of Electric Reliability Council of Texas, Inc.
+(ERCOT) should recommend approval of the proposed 2027 ERCOT Methodologies for
+Determining Minimum Ancillary Service Requirements (2027 AS Methodology) as
+presented herein, to be effective January 1, 2027.
+Background/History:
+Ancillary Services are necessary to maintain the reliability of the ERCOT System. The
+ERCOT Protocols define these Ancillary Services and charge ERCOT with determining
+a methodology for the minimum levels of Ancillary Services required. Paragraph (2) of
+Protocol Section 3.16 requires ERCOT to review the methodology at least annually, and
+paragraph (3) of Section 3.16 requires the Board to review and recommend approval of
+ERCOT’s methodology.
+ERCOT staff previously presented the 2026 ERCOT Methodologies for Determining
+Minimum Ancillary Service Requirements (2026 AS Methodology) to the Board on
+September 23, 2025, which the Board approved to be effective January 1, 2026 as
+requested.
+The primary change for the 2027 AS Methodology in comparison to 2026 AS
+Methodology is related to ERCOT Contingency Reserve Service (ECRS) and NonSpinning Reserve (Non-Spin) Service. No change has been proposed to the
+methodology used to compute Regulation Service or Responsive Reserve Service. The
+changes that are shown in red-line in Attachment A can be summarized as follows:
+• Regulation Service
+o No Change – i.e., same methodology as approved on September 23, 2025.
+Item 18
+ERCOT Public
+
+1
+
+Responsive Reserve Service (RRS)
+o No Change – i.e., same methodology as approved on September 23, 2025.
+• ERCOT Contingency Reserve Service (ECRS) and Non-Spinning Reserve
+Service (Non-Spin)
+o Change to the methodology to update the risk credit parameter during daytime hours used in the probabilistic model to identify minimum
+requirements. Parameters are updated to be 50% of historically available
+capacity for online and offline Generation Resources and 60% of
+historically available capacity for Energy Storage Resources (ESRs) with
+four-hour sustainable duration. Night hours remain unchanged at 60% for
+all risk credit categories.
+o Change to the convergence criteria in the model to reduce from declaration
+of Watch (3,000 MW) threshold down to a declaration of EEA1 (2,500 MW)
+threshold.
+In addition to the changes proposed in the 2027 AS Methodology as outlined above,
+Attachment A indicates the minimum level of RRS from Resources providing RRS using
+Primary Frequency Response will remain at 1,377 MW.
+•
+
+Key Factors Influencing Issue:
+ERCOT Contingency Reserve Service and Non-Spinning Reserve Service: The
+proposed change is to increase the risk credit accounting during day-time hours in the
+probabilistic model for determining ECRS and Non-Spin quantities in comparison to last
+year. All other parameters are recommended to remain the same as last year. The
+probabilistic model utilizes net risk data (net risk = risk – risk credit) as input in an
+optimization with convergence criteria to identify the necessary ECRS and NSRS
+quantities by month and hour. The following summarizes the key parameters in this
+probabilistic model and ERCOT’s recommended values for the same:
+• Risk credits are categorized in 3 distinct subgroups. (1) Historic online and (2)
+offline headroom that is achievable within 30 minutes and (3) historical four-hour
+sustainable ESR headroom is used to determine a reduction on the risks. Each
+is used to determine a reduction on the risks. A 60% discount during night hours
+for all three risk credit categories remains unchanged. An increase to 50%
+discount for online and offline risk credit, and 60% discount for ESR during the
+day is recommended. This recommendation is informed by several factors. Post
+implementation of RTC+B project indicates that ERCOT has gained efficiency in
+unit commitment which has moved much of online capability to offline 30-minute
+capability. Although ERCOT has seen a shift in online capability, online available
+headroom still exists due to increased solar penetration and ESR capacity growth.
+ESR capacity has shown a significant increase with projections indicating a
+Item 18
+ERCOT Public
+
+2
+
+•
+
+•
+
+continued growth into 2027. Additionally, ERCOT expects load growth over the
+next year and expects that some of the historical headroom may be reduced in
+order to cover this new load. This is the reason ERCOT is not recommending a
+credit increase to 100% of historical available headroom. Overall, these factors
+have provided insights that an increased credit from 25% to the recommended
+values can be taken during day hours.
+The reduction in the target threshold level to EEA1 (2,500 MW) is a measured
+change to ERCOT’s operating posture. Over recent years, ERCOT has made
+improvements to operational procedures and tools to better manage and monitor
+operational uncertainty. By linking these improvements with a target threshold in
+the probabilistic model ERCOT is able to tailor the ECRS and Non-Spin quantities
+to meet this objective. At the same time, because the grid continues to grow more
+complex and more dependent on duration-limited resources, ERCOT does not
+recommend moving the target lower than EEA1. This adjustment also creates an
+opportunity to align other operating procedures.
+A probability and capacity floor/threshold together establish the convergence
+criteria for the optimization. A 1-in-10-year probability and greater PRC level to
+declare a EEA1 (presently 2,500 MW) or sum of Reg Up plus RRS requirement
+are recommended. These recommendations are informed by policy guidance
+from PUC and policy makers and to meet all NERC requirements in the BAL
+standards around frequency control. It is worth recognizing that there is a minimal
+difference in AS requirement outcomes between 3,000, 2,500 and 1,500 MW or
+1-in-10, 1-in-5 or 1-in-1 since quantities for most hours are a function of the
+amount of Reg Up plus RRS that these reserves have to replace.
+
+As part of the PUC's 2024 Ancillary Services Study, ERCOT was asked to analyze the
+probability of experiencing a Watch, Emergency Alert (EEA), or Load Shed at alternative
+target reserve levels. Measured under comparable historic risk conditions, the AS
+requirements from ERCOT recommended parameters, mentioned above, show a
+minimal increase in the probability of expected EEA3 hours per year. These figures
+represent what the model indicates could occur under those historic risk conditions if
+credited headroom did not materialize — not a prediction that such events will occur. For
+context, crediting no headroom would yield the highest AS plan and zero expected hours
+per year of an EEA Level 3; ERCOT’s recommendation increases modeled exposure to
+54 hours per year; and crediting 100% of headroom would increase it to 274 hours per
+year. ERCOT's recommended parameters result in AS quantities that meet the reliability
+needs of an increasingly complex grid.
+Conclusion/Recommendation:
+Item 18
+ERCOT Public
+
+3
+
+ERCOT staff recommend that the Board recommend approval of the proposed 2027
+ERCOT Methodologies for Determining Minimum Ancillary Service Requirements,
+attached as Attachment A, to be effective January 1, 2027.
+
+Item 18
+ERCOT Public
+
+4
+
+ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.
+BOARD OF DIRECTORS RESOLUTION
+WHEREAS, Protocol Section 3.16 requires that the Board of Directors (Board) of Electric
+Reliability Council of Texas, Inc. (ERCOT), review and recommend approval of the ERCOT
+methodology for determining the minimum Ancillary Service requirements;
+WHEREAS, Protocol Section 3.16 requires, prior to implementation, approval by the Public
+Utility Commission of Texas (PUCT) of any Board recommendation for determining the
+minimum Ancillary Service requirements; and
+WHEREAS, ERCOT staff recommends approval of the 2027 ERCOT Methodologies for
+Determining Minimum Ancillary Service Requirements (2027 AS Methodology) as set forth
+in Attachment A, to be effective on January 1, 2027; and
+WHEREAS, the Board reviewed the 2027 AS Methodology and, after due consideration of
+the alternatives, deems it desirable and in the best interest of ERCOT to recommend
+approval;
+THEREFORE, BE IT RESOLVED, that the Board recommends that the PUCT approve
+ERCOT to implement the 2027 AS Methodology, as set forth in Attachment A, to be
+effective on January 1, 2027.
+
+CORPORATE SECRETARY’S CERTIFICATE
+I, Brandon Gleason, Assistant Corporate Secretary of ERCOT, do hereby certify that, at its
+September 14-15, 2026 meeting, the Board passed a motion approving the above
+Resolution by ______.
+IN WITNESS WHEREOF, I have hereunto set my hand this ___ day of ______________,
+2026.
+______________________________
+Brandon Gleason
+Assistant Corporate Secretary
+
+Item 18
+ERCOT Public
+
+5
+
+Attachment A
+
+ERCOT Methodologies for Determining
+Minimum Ancillary Service Requirements
+ERCOT Board Recommendedrecommended approval on
+09/XX/2026
+PUC Approvedapproved on XX/XX/2026
+Effective Datedate of 01/01/2027
+
+TABLE OF CONTENTS
+INTRODUCTION ................................................................................................................................ 2
+REGULATION SERVICE REQUIREMENT DETAILS .............................................................................. 3
+RESPONSIVE RESERVE (RRS) REQUIREMENT DETAILS .................................................................... 4
+ERCOT CONTINGENCY RESERVE SERVICE (ECRS) AND NON-SPINNING RESERVE (NON-SPIN)
+REQUIREMENT DETAILS ................................................................................................................... 5
+
+ERCOT Methodologies for Determining Minimum Ancillary Service Requirements 010127
+
+1
+
+Introduction
+Paragraph (2) of Protocol Section 3.16, Standards for Determining Ancillary Service Quantities,
+requires that methodologies for determining the amounts of Ancillary Services to be required by
+ERCOT must be developed at least annually. Paragraph (3) of Protocol Section 3.16 requires
+review of this methodologythese methodologies by the ERCOT Board of Directors and approval
+by the Public Utility Commission of Texas (PUCT).
+This document discusses the various Ancillary Services for which methodologies to determine
+megawatt (MW) quantity requirements are to be developed. Further, detailedDetailed
+methodologies for determining those requirements are included as part of this document.
+Specifically, methodologies are required for the determination of the MW quantities of Regulation
+Service, (Reg Up and Reg Down), ERCOT Contingency Reserve Service (ECRS), Non-Spinning
+Reserve (Non-Spin) and Responsive Reserve (RRS) that are required to maintain system
+reliability. Those proceduresmethodologies are discussed below.
+These proceduresmethodologies are intended for determining each of the Ancillary Service
+requirements for all months of the upcoming year. This procedure will be performed annually.
+The Ancillary Service minimum MW requirements are determined annually andby these
+methodologies will be posted to the Market Information System (MIS) by December 20th for the
+upcoming year. If necessary, any additional incremental adjustment to the posted Ancillary
+Service requirements for a particular month will be made using this procedure and will be posted
+to the MIS prior to the 20th of each month for the upcoming month. If the Ancillary Service
+requirements identified through this process for a particular operating dayOperating Day are found
+to be insufficient closer to Real-Time based on the expected operating conditions for that day,
+ERCOT may make an updated Ancillary Service requirements posting for that day if the need for
+incremental adjustments is identified closer to Real-Time.. For any additional months for which
+ERCOT is required to provide an Ancillary Service requirement forecast, the forecasted
+requirement will be set to the historical requirement for the same month of the previous year.
+
+ERCOT Methodologies for Determining Minimum Ancillary Service Requirements
+
+2
+
+Regulation Service RequirementMethodology Details
+Introduction
+Regulation Service consists of resources that can be deployed by ERCOT in response to changes
+in ERCOT System frequency to maintain the target ERCOT System frequency within
+predetermined limits according to the Operating Guides. ERCOT is required to evaluate normal
+requirements for Reg-Up Service and Reg-Down Service on an annual basis. It is ERCOT’s
+practice to use historical rates of Regulation Service usage to perform evaluation and determine
+the required quantities for this service. Regulation Service is deployed in order to correct actual
+frequency to scheduled frequency and to ensure North American Electric Reliability Corporation
+(NERC) requirements are met.
+Summary
+The Regulation Service requirements are calculated with the expectation that sufficient Regulation
+Service will be available to cover the 95th percentile of deployed regulation or net load variability.
+An adjustment may also be made based on historic CPS1 performance.
+Procedure
+To evaluate Regulation Service requirements, ERCOT will collect historical Resource
+Registration information, CPS1 data, Regulation Service deployment data, and ERCOT system
+load data. For determining the base Reg-Up requirements for a particular hour, ERCOT will
+calculate the 95th percentile of the positive net load (load – wind – solar) forecast error for the same
+month of the previous two years. For determining the base Reg-Down requirements, ERCOT will
+calculate the 95th percentile of the negative net load (load – wind – solar) forecast error for the
+same month of the previous two years. To better reflect balancing needs within the hours, the net
+load variability may be updated to account for accumulated Area Control Error (ACE).
+In order to consider the increased amount of wind and solar penetration, ERCOT will calculate the
+increase in installed wind and solar generation capacity, respectively. Then, depending on the
+month of the year and the hour of the day, ERCOT will add incremental MWs that areMW, derived
+using the wind and solar forecast error adjustment tables and the associated increase in wind and
+solar generation capacity, to the values determined above. The wind and solar forecast error
+adjustment tables for incremental MWsMW for Reg-Up and Reg-Down come from thea study
+ERCOT performs annually, using which uses similar techniques asto the 2008 GE wind study, but
+using actual Texas wind and solar data respectively. The increase in wind (or solar) generation
+capacity will be calculated by taking the total nameplate capacity of wind (or solar)
+resourcesResources in the ERCOT network modelNetwork Operations Model at the time of the
+procurement study and subtracting out the total nameplate capacity of wind (or solar)
+resourcesResources in the ERCOT modelNetwork Operations Model at the end of the month being
+studied from the previous year.
+ERCOT will post these monthly amounts for Regulation Service requirements for the upcoming
+year on the MIS.
+
+ERCOT Methodologies for Determining Minimum Ancillary Service Requirements
+
+3
+
+If any incremental changes to the annually posted minimum MW quantity amounts are needed,
+then the revised amounts for the following month will be posted to the MIS prior to the 20th of the
+current month., unless the adjustment is to a daily quantity that necessitates same-day or day-prior
+posting. ERCOT may include adjustments for hours in a month considering monthly average for
+CPS1 and 12-month rolling average CPS1 scores. If it is determined that during the course of the
+year that the ERCOT monthly average for the CPS1 score was less than 140% for a specific month,
+ERCOT will apply an extra 10% of both Reg-Up and Reg-Down for hours in which the CPS1
+score was less than 140%. Additionally, if the ERCOT 12-month rolling average CPS1 score is
+less than 140%, for the next month ERCOT will procure an extra 10% of both Reg-Up and RegDown for hours in which the hourly CPS1 score was less than 140%. This value will increase to
+an extra 20% if the CPS1 score falls below 100%.
+
+Responsive Reserve (RRS) RequirementMethodology Details
+Nodal Operating Guide Section 2.3.1.1, Obligation, sets the minimum RRS MW requirement for
+all hours under normal conditions. In addition to that minimum obligation, ERCOT will procure
+amounts of RRS that vary by hour of the day and by month. These RRS MW amounts will be
+published by month in six separate blocks covering four-hour intervals. These amounts will be
+based on expected diurnal load, solar, and wind patterns for the month, will cover 70% of historic
+systemERCOT System inertia conditions for each block of hours for the month, and will use the
+equivalency ratio for RRS between Load Resources and Generation Resources to establish the
+conditions for each block of hours. The equivalency ratio will be used to establish the total reserves
+assuming the Day-Ahead Market (DAM) will use a one -to -one equivalency ratio.
+The minimum level of RRS procured from Resources providing RRS using Primary Frequency
+Response shall be determined for each month by ERCOT through the use of studies and shall not
+be less than 1,377 MWs. MW. Note that this minimum MW quantity is updated annually when
+NERC issues a new Interconnection Frequency Response Obligation (IFRO) value. The remaining
+capacity required for RRS will be procured from all Resources qualified to provide RRS, including
+Load Resources. The maximum amount of RRS that can be provided by Resources providing Fast
+Frequency Response (FFR) is limited to 450 MW. DAM will limit the combined RRS procured
+from Load Resources controlled by high set under frequency relay and from Resources providing
+FFR to 60% of the total RRS requirement. ERCOT may increase the minimum capacity required
+from Resources providing RRS using Primary Frequency Response if it believes that the current
+posted quantity will have a negative impact on reliability or if it would require additional
+Regulation Service to be deployed. ERCOT will procure an additional 200 MW of RRS for each
+percent of Reserve Discount Factor (RDF) when ERCOT estimates RDF to be less than 1. This
+adjustment will only apply for those 4four-hour blocks wherein which the 85th percentile of the
+weighted average temperatetemperature is greater than 95°F Fahrenheit. RDFs are reviewed and
+adjusted based on the generatorsgenerators’ performance during an unannounced test. As
+explained above, RRS amountMW amounts will be published as a monthly requirement along
+with the equivalency ratio for each 4four-hour block. Additionally, ERCOT will make incremental
+adjustments to account for Resources operating in synchronous condenser fast response mode
+providing RRS. This adjustment will only apply to those 4four-hour blocks when systemin which
+ERCOT Methodologies for Determining Minimum Ancillary Service Requirements
+
+4
+
+ERCOT System inertia is typically expected to be less than 250 gigawatt seconds (GW*s.).
+ERCOT will post these monthly amounts for the upcoming year on the MIS. These annually published amounts are the minimum MW quantity that will be procured in the DAM for each hour
+of the year.
+Self-arranged RRS used to fulfill a Qualified Scheduling Entity’s (QSE’s) RRS requirement will
+be limited to 60% from Resources providing FFR and Load Resources excluding Controllable
+Load Resources.
+If the percentage level for Resources providing FFR and Load Resources, excluding Controllable
+Load Resources, specified in the Protocols is changed, that change will be reflected in these MW
+requirements.
+
+ERCOT Contingency Reserve Service (ECRS) and Non-Spinning Reserve (NonSpin) RequirementMethodology Details
+Introduction
+ECRS is a service that is provided using capacity that is capable of being ramped to a specified
+output level within 10 minutes. ECRS may be provided by unloaded, On-Line Generation
+Resource capacity; Quick Start Generation Resources (QSGRs); Load Resources that may or may
+not be controlled by high-set, underfrequency relays; Controllable Load Resources; and
+Generation Resources operating in synchronous condenser fast-response mode as defined in the
+Protocols and Operating Guides. ECRS may be deployed to restore frequency within 10 minutes
+of a significant frequency deviation to recover deployed Regulation Service, to compensate for
+intra-hour net load forecast uncertainty and variability on days in which large amounts of
+onlineOn-Line thermal Generation Resource ramping capability is not available, or when there is
+a limited amount of capacity available for Security-Constrained Economic Dispatch (SCED).
+Non-Spin consists of Generation Resources capable of being ramped to a specified output level
+within 30 minutes or Controllable Load Resources that are capable of being interrupted within 30
+minutes and that are capable of running (or being interrupted) at a specified output level for at least
+four consecutive hours. Non-Spin may also be provided by Load Resources that are not
+Controllable Load Resources and are capable of reducing consumption based on an ERCOT
+Extensible Markup Language (XML) instruction within 30 minutes and maintaining that
+deployment until recalled. Non-Spin may be deployed to replace loss of generating capacity, to
+compensate for net Load forecast and/or forecast uncertainty on days in which large amounts of
+reserve are not available online, to address the risk of net load ramp, or when there is a limited
+amount of capacity available for Security-Constrained Economic Dispatch (SCED).SCED.
+The periods when load is increasing and wind and/or solar are decreasing requiresrequire other
+generation resourcesGeneration Resources or Energy Storage Resources (ESRs) to increase output
+or come onlineOn-Line quickly to compensate for the sudden net load increases. As a result, net
+load ramp risk should be accounted for in the determination of Non-Spin requirements. While net
+
+ERCOT Methodologies for Determining Minimum Ancillary Service Requirements
+
+5
+
+load forecast analysis may cover reserves required for forecast uncertainty, it may not necessarily
+cover exposure to the loss of generation and net load ramp risk. Due to this risk, it may be
+necessary for ERCOT to have additional reserves available to protect against forecast uncertainty
+and Forced Outages of dispathcabledispatchable Resources.
+Procedure
+A diagram of a probabilistic methodology used to calculate ECRS and NSRS requirements is
+shown below. The methodology utilizes an accounting of risk for which ECRS and NSRS are
+needed and accounting of historic excess Resource capacity that may have availableavailability to
+respond to these risks.
+Risks accounting includes 30minute accounted for include 30-minute-ahead and 6 six-hour -ahead
+historic net load forecast errors and historic rolling 6 six-hour -ahead forced outagesForced
+Outages of conventionaldispatchable Resources from the previous four years. ERCOT continues
+to see significant growth in installed solar capacity from one year to the next; an increase in solar
+capacity also tends to increase the MW quantity of error in itsthe forecast. Hence, ERCOT’s
+reliance on historical solar forecast errors alone creates a possibility of under-estimation of the
+total requirement of ECRS and NSRS. To address this, ERCOT will include an adjustment for
+expected increase in solar forecast error due to expected increase in installed capacity of solar
+Resources.
+Risk credits are categorized into three groups, : (1) historic onlineOn-Line capacity that can be
+ramped to in 30-minutes, excluding Energy Storage Resources,ESRs, (2) historic offlineOff-Line
+capacity that can be brought onlineOn-Line in 30 minutes, energy storage resourceand (3) historic
+ESR capacity that can be sustained for 4four hours.
+The engineprobabilistic model will consume the risk and utilize risk credit parameter inputs of:
+
+
+for night hours (i.e., Hour Ending (HE) 23 – HE5): 60% of the historically available
+capacity for night hours (HE23-HE5) for all three risk credit categories. Additionaly,; and
+
+
+
+for day hours (i.e., HE6 - HE22): 50% of the historically available capacity for online and
+offlinefrom On-Line and Off-Line Generation Resources and 60% of energy storage
+resource of the historically available capacity in day hours (HE6-HE22) as inputs,from
+ESRs.
+
+Using these input parameters, the model will run a monte carloMonte Carlo optimization to
+compute a combined ECRS and NSRS requirement for each month and hour based on a
+convergence criteriacriterion. The convergence criteriacriterion will ensure that the ECRS and
+Non-Spin MW requirements computed (i.e., 12 x 24 = 288 values) are setup such that there is a 1
+-in -10-year probability of operational reserves dropping below the sum of procured Reg Up and
+RRS or the Watch EEA1 threshold (i.e., Physical Responsive Capability (PRC) = 2,3,5000 MW),
+whichever is higher, due to uncertainty in net load (load – wind - solar) forecast and conventional
+resourcehistorical Resource availability. The hourly requirement for ECRS and Non-Spin will be
+derived by using the 30 -minute ahead and 6 six-hour -ahead historic net load forecast error and
+the combined ECRS and Non-Spin requirements from the model’s optimization. The ECRS MW
+
+ERCOT Methodologies for Determining Minimum Ancillary Service Requirements
+
+6
+
+requirement may be increased further to account for the capacity needed to recover frequency
+following a large unit trip.
+
+The frequency recovery -related capacity for ECRS is computed for each hour in every month as:
+capacity needed following a supply-side trip to recover frequency; will be based on expected
+diurnal load, solar, and wind patterns; will cover 70% of historic system inertia conditions for each
+hour for the month.; and will include an adjustment to account for the Regulation Up requirement
+in the hour.
+ERCOT will post the monthly amounts for ECRS and Non-Spin MW requirements for the
+upcoming year on the MIS. Following this posting, ERCOT will monitor the weather and net load
+
+ERCOT Methodologies for Determining Minimum Ancillary Service Requirements
+
+7
+
+forecast (i.e.., load, wind, and solar forecasts) near Real-Time and may procure up to an additional
+1,000 MW of Non-Spin for Operating Hours that are (a) identified as having an increased potential
+of high forecast variability, (b) there is a risk that the actual net load during these Operating Hours
+could be higher than forecast (after making appropriate forecast model selection) and), or (c) the
+expected available capacity and expected reserves, including the posted minimum Non-Spin
+requirements during these Operating Hours, is not sufficient to cover the projected net load forecast
+uncertainty risk.
+The minimum amount of Non-Spin procured from SCED -dispatchable Resources in any hour
+shall not be less than the lower of ERCOT’s Most Severe Single Contingency (MSSC) value and
+the Non-Spin requirement for that hour.
+
+ERCOT Methodologies for Determining Minimum Ancillary Service Requirements
+
+8
+
+

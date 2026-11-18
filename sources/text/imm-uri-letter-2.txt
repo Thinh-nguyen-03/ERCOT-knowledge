@@ -1,0 +1,110 @@
+Control Number: 51812
+
+Item Number: 61
+
+Addendum StartPage: 0
+
+Potomac Economics, Ltd.
+
+7620 Metro Center Drive
+Austin, Texas 78744
+
+POTOMAC
+
+'
+
+,
+
+. Telephone: 512-879-7971
+Facsimile: 703-383-0796
+
+ECONOMIC i iAR-4 PM 12: 13
+March 4, 202:1.. .d : ' _I T T
+
+, J, :HN,
+
+FN '*G CLLAK
+
+Public Utility Commission ofTexas
+Chairman Arthur C. D'Andrea
+Commissioner Shelly Botkin
+1701 N. Congress Avenue
+Austin, Texas 78711
+
+Re:
+
+PUC Project No. 51812, Issues Related to the State of Disaster for the
+February 2021 Winter Weather Event
+
+Dear Chairman and Commissioner:
+As the Independent Market Monitor (IMM) for the Public Utility Commission of Texas
+(Commission), Potomac Economics appreciates the opportunity to provide the following
+
+recommendation related to real-time energy prices during the recent winter weather event.
+The IMM agrees with the Commission's Order from February 15, 2021, which mandated that
+real-time energy prices reflect firm load shed by setting prices at the value of lost load (VOLL).1
+This is essential in an energy-only market because it provides efficient economic signals to
+increase the electric generation needed to restore the load and service it reliably over the long
+term.
+Conversely, it is equally important that prices not reflect VOLL when the system is not in
+shortage and load is being served. The Commission recognized this principle in its Order,
+expressly stating it is only ERCOT's out-of-market shedding firm load that is required to be
+reflected in prices. Unfortunately, ERCOT exceeded the mandate ofthe Commission by
+continuing to set process at VOLL long after it ceased the firm load shed.
+ERCOT recalled the last ofthe firm load shed instructions at 23:55 on February 17, 2021.
+Therefore, in order to comply with the Commission Order, the pricing intervention that raised
+prices to VOLL should have ended immediately at that time. However, ERCOT continued to
+hold prices at VOLL by inflating the Real-Time On-Line Reliability Deployment Price Adder for
+an additional 32 hours through the morning of February 19. This decision resulted in $16 billion
+in additional costs to ERCOT's market, of which roughly $1.5 billion was uplifted to loadserving entities to provide make-whole payments to generators for energy that was not needed or
+produced. Although most energy costs can be hedged by ERCOT's load-serving entities through
+
+bilateral contracts or generation, these make-whole payments are particularly harmful because
+
+PUC ProjectNo. 5\617, Calendar Year 202] - Open Meeting Agenda Items without an Associated Control,
+Second Order Directing ERCOT to take Action and Granting Exception to Commission Rules at 1 -2 (Feb. 16,
+
+2021).
+
+POTOMAC
+
+ECONOMICS
+
+IMM Recommendation PUCT Project No. 51812
+March 4, 2021
+
+they are uplifted to alltoads through the Real-Time Ancillary Service Imbalance Charge.
+Therefore, they cannot be hedged and will likely result in substantial adverse economic effects,
+
+including higher levels of defaults.
+Therefore, the IMM recommends that the Commission direct ERCOT to correct the real-time
+prices from 0:00 February 18,2021, to 09:00 February 19,2021, to remove the inappropriate
+pricing intervention that occurred during that time period. From a practical standpoint, this will
+primarily be accomplished by removing most, if not all, of the Real-Time On-Line Reliability
+Deployment Price Adder during these intervals, which will substantially eliminate the Real-Time
+Ancillary Service Imbalance Charge.
+
+Importantly, adopting this recommendation will not result any revenue shortfalls for ERCOT's
+
+generation as the corrected prices will cover the generator's as-offered costs, and efficiently
+reflect the actual supply, demand, and reserves during this period. We recognize that revising
+the prices retroactively is not ideal. In this case however, given that the prices are inconsistent
+with ERCOT's protocols and the Commission Order and that allowing them to remain will result
+in substantial and unjustified economic harm, we respectfully recommend that the Commission
+take the action described above to correct ERCOT's real time prices.
+As always, the IMM stands ready to address any questions the Commission may have regarding
+this recommendation or the outcomes in the ERCOT wholesale market.
+
+Sincerely,
+
+G.u e.
+Carrie Bivens
+VP, ERCOT IMM Director
+Potomac Economics
+
+M: 512-879-7971
+cbivens@potomaceconomics.com
+
+2
+
+

@@ -1,0 +1,465 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+§25.53. Electric Service Emergency Operations Plans.
+(a)
+
+Application. This section applies to an electric utility, transmission and distribution utility, power generation
+company (PGC), municipally owned utility, electric cooperative, and retail electric provider (REP), and to
+the Electric Reliability Council of Texas (ERCOT).
+
+(b)
+
+Definitions.
+(1)
+Annex -- a section of an emergency operations plan that addresses how an entity plans to respond
+in an emergency involving a specified type of hazard or threat.
+(2)
+Drill -- an operations-based exercise that is a coordinated, supervised activity employed to test an
+entity’s EOP or a portion of an entity’s EOP. A drill may be used to develop or test new policies or
+procedures or to practice and maintain current skills.
+(3)
+Emergency – a situation in which the known, potential consequences of a hazard or threat are
+sufficiently imminent and severe that an entity should take prompt action to prepare for and reduce
+the impact of harm that may result from the hazard or threat. The term includes an emergency
+declared by local, state, or federal government, or ERCOT or another reliability coordinator
+designated by the North American Electric Reliability Corporation and that is applicable to the
+entity.
+(4)
+Entity -- an electric utility, transmission and distribution utility, PGC, municipally owned utility,
+electric cooperative, REP, or ERCOT.
+(5)
+Hazard -- a natural, technological, or human-caused condition that is potentially dangerous or
+harmful to life, information, operations, the environment, or property, including a condition that is
+potentially harmful to the continuity of electric service.
+(6)
+Threat -- the intention and capability of an individual or organization to harm life, information,
+operations, the environment, or property, including harm to the continuity of electric service.
+
+(c)
+
+Filing requirements.
+(1)
+Except as provided by paragraph (3) of this subsection, an entity must file an emergency operations
+plan (EOP) and executive summary under this section by March 15 of every calendar year. Each
+individual entity is responsible for compliance with the requirements of this section. An entity filing
+a joint EOP or other joint document under this section on behalf of one or more entities over which
+it has control is jointly responsible for each entity’s compliance with the requirements of this section.
+(A)
+An entity must file with the commission:
+(i)
+an executive summary that:
+(I)
+describes the contents and policies contained in the EOP;
+(II)
+includes a reference to specific sections and page numbers of the entity’s
+EOP that correspond with the requirements of this rule;
+(III)
+includes a comprehensive list of affiliated generation assets and facilities
+for PGCs that are included in the EOP including changes in facilities
+from the previous year such as sale of assets, relinquishments, and name
+changes;
+(IV)
+includes the record of distribution required under paragraph (4)(A) of
+this subsection;
+(V)
+contains the affidavit required under paragraph (4)(C) of this subsection;
+and
+(VI)
+follows the executive summary template posted on PUCT website.
+(ii)
+a complete copy of the EOP with all confidential portions removed.
+(B)
+For an entity with operations within the ERCOT region, the entity must submit its
+unredacted EOP in its entirety to ERCOT.
+(C)
+ERCOT must designate an unredacted EOP submitted by an entity as Protected
+Information under the ERCOT Protocols.
+(D)
+An entity must make its unredacted EOP available in its entirety to commission staff on
+request through an encrypted electronic method designated by commission staff, such as
+a secure file sharing method selected by an entity in consultation with commission staff.
+§25.53-1
+
+effective 01/01/226
+(P-57928)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+(E)
+
+(2)
+
+(3)
+
+An entity may file a joint EOP on behalf of itself and one or more other entities over which
+it has control provided that:
+(i)
+the executive summary required under subparagraph (A)(i) of this paragraph
+identifies which sections of the joint EOP apply to each entity; and
+(ii) the joint EOP satisfies the requirements of this section for each entity as if each entity
+had filed a separate EOP.
+(F)
+An entity filing a joint EOP under subparagraph (E) of this paragraph may also jointly file
+one or more of the documents required under paragraph (4) of this subsection provided that
+each joint document satisfies the requirements for each entity to which the document
+applies.
+(G)
+An entity that is required to file similar annexes for different facility types under subsection
+(e) of this section, such as a pandemic annex for both generation facilities and transmission
+and distribution facilities, may file a single combined annex addressing the requirement for
+multiple facility types. The combined annex must conspicuously identify the facilities to
+which it applies.
+A person seeking registration as a PGC or certification as a REP must meet the filing requirements
+under paragraph (1)(A) of this subsection at the time it applies for registration or certification with
+the commission and must submit the EOP to ERCOT if it will operate in the ERCOT region, no
+later than ten days after the commission approves the person’s registration or certification.
+An entity must continuously maintain its EOP in between the annual updates required under this
+paragraph. No later than March 15 of each calendar year, an entity that has previously filed an EOP
+must submit an update in accordance with the provisions of this paragraph, except that an entity
+must file its EOP in full in accordance with paragraph (1) of this subsection at least once every three
+calendar years.
+(A)
+An entity that in the previous calendar year made a change to its EOP that materially affects
+how the entity would respond to an emergency must:
+(i)
+file with the commission an executive summary that:
+(I)
+describes the changes to the contents or policies contained in the EOP;
+(II)
+includes an updated reference to specific sections and page numbers of
+the entity’s EOP that correspond with the requirements of this rule;
+(III)
+includes a comprehensive list of affiliated generation assets and facilities
+for PGCs that are included in the EOP including changes in facilities
+from the previous year such as sale of assets, relinquishments, and name
+changes;
+(IV)
+includes the record of distribution required under paragraph (4)(A) of
+this subsection;
+(V)
+contains the affidavit required under paragraph (4)(C) of this section; and
+(VI)
+follows the executive summary template posted on PUCT website.
+(ii)
+file with the commission a complete, revised copy of the EOP with all confidential
+portions removed; and
+(iii)
+submit to ERCOT its revised unredacted EOP in its entirety if the entity operates
+within the ERCOT region.
+(B)
+An entity that in the previous calendar year did not make a change to its EOP that materially
+affects how the entity would respond to an emergency must file with the commission:
+(i)
+a pleading that documents any changes to the list of emergency contacts as
+provided under paragraph (4)(B) of this subsection;
+(ii)
+an attestation from the entity’s highest-ranking representative, official, or officer
+with binding authority over the entity stating the entity did not make a change to
+its EOP that materially affects how the entity would respond to an emergency;
+and
+(iii)
+the affidavit described under paragraph (4)(C) of this subsection.
+(C)
+An entity must update its EOP or other documents required under this section if
+commission staff determines that the entity’s EOP or other documents do not contain
+sufficient information to determine whether the entity can provide adequate electric service
+through an emergency. If directed by commission staff, the entity must file its revised EOP
+§25.53-2
+
+effective 01/01/226
+(P-57928)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+
+(D)
+(E)
+
+or other documentation, or a portion thereof, with the commission and, for entities with
+operations in the ERCOT region, with ERCOT.
+ERCOT must designate any revised unredacted EOP submitted by an entity as Protected
+Information under the ERCOT Protocols.
+An entity must make a revised unredacted EOP available in its entirety to commission staff
+on request through an encrypted electronic method designated by commission staff, such
+as a secure file sharing method selected by an entity in consultation with commission staff.
+
+(F)
+(4)
+
+(5)
+
+(d)
+
+The requirements for joint and combined filings under paragraph (1) of this subsection
+apply to revised joint and revised combined filings under this paragraph.
+In accordance with the deadlines prescribed by paragraphs (1) and (3) of this subsection, an entity
+must also file with the commission the following documents:
+(A)
+A record of distribution that contains the following information in table format:
+(i)
+titles and names of persons in the entity’s organization receiving access to and
+training on the EOP; and
+(ii)
+dates of access to or training on the EOP, as appropriate.
+(B)
+A list of primary and, if possible, backup emergency contacts for the entity, including
+identification of specific individuals who can immediately address urgent requests and
+questions from the commission during an emergency.
+(C)
+An affidavit from the entity’s highest-ranking representative, official, or officer with
+binding authority over the entity affirming the following:
+(i)
+relevant operating personnel are familiar with and have received training on the
+applicable contents and execution of the EOP, and such personnel are instructed
+to follow the applicable portions of the EOP except to the extent deviations are
+appropriate as a result of specific circumstances during the course of an
+emergency;
+(ii)
+the EOP has been reviewed and approved by the appropriate executives;
+(iii)
+drills have been conducted to the extent required by subsection (f) of this section;
+(iv)
+the EOP or an appropriate summary has been distributed to local jurisdictions as
+needed;
+(v)
+the entity maintains a business continuity plan that addresses returning to normal
+operations after disruptions caused by an incident; and
+(vi)
+the entity’s emergency management personnel who are designated to interact with
+local, state, and federal emergency management officials during emergency
+events have received the latest IS-100, IS-200, IS-700, and IS-800 National
+Incident Management System training.
+Notwithstanding the other requirements of this subsection, ERCOT must maintain its own current
+EOP in its entirety, consistent with the requirements of this section and available for review by
+commission staff.
+
+Information to be included in the emergency operations plan. An entity’s EOP must address both
+common operational functions that are relevant across emergency types and annexes that outline the entity’s
+response to specific types of emergencies, including those listed in subsection (e) of this section. An EOP
+may consist of one or multiple documents. Each entity’s EOP must include the information identified below,
+as applicable. If a provision in this section does not apply to an entity, the entity must include in its EOP an
+explanation of why the provision does not apply.
+(1)
+An approval and implementation section that:
+(A)
+introduces the EOP and outlines its applicability;
+(B)
+lists the individuals responsible for maintaining and implementing the EOP, and those who
+can change the EOP;
+(C)
+provides a revision control summary that lists the dates of each change made to the EOP
+since the initial EOP filing pursuant to paragraph (1) of this subsection;
+(D)
+provides a dated statement that the current EOP supersedes previous EOPs; and
+(E)
+states the date the EOP was most recently approved by the entity.
+(2)
+A communication plan.
+§25.53-3
+
+effective 01/01/226
+(P-57928)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+(A)
+
+(3)
+(4)
+(5)
+(6)
+(e)
+
+An entity with transmission or distribution service operations must describe the procedures
+during an emergency for handling complaints and for communicating with the public; the
+media; customers; the commission; the Office of Public Utility Counsel (OPUC); local and
+state governmental entities, officials, and emergency operations centers, as appropriate in
+the circumstances for the entity; the reliability coordinator for its power region; and critical
+load customers directly served by the entity.
+(B)
+An entity with generation operations must describe the procedures during an emergency
+for communicating with the media; the commission; OPUC; fuel suppliers; local and state
+governmental entities, officials, and emergency operations centers, as appropriate in the
+circumstances for the entity; and the applicable reliability coordinator.
+(C)
+A REP must describe the procedures for communicating during an emergency with the
+public, media, customers, the commission, and OPUC, and the procedures for handling
+complaints during an emergency.
+(D)
+ERCOT must describe the procedures for communicating, in advance of and during an
+emergency, with the public, the media, the commission, OPUC, governmental entities and
+officials, the state emergency operations center, and market participants.
+A plan to maintain pre-identified supplies for emergency response.
+A plan that addresses staffing during emergency response.
+A plan that addresses how an entity identifies weather-related hazards, including tornadoes,
+hurricanes, extreme cold weather, extreme hot weather, drought, and flooding, and the process the
+entity follows to activate the EOP.
+Each relevant annex presented in its full and comprehensive version, as detailed in subsection (e) of
+this section and other annexes applicable to an entity.
+
+Annexes to be included in the emergency operations plan.
+(1)
+An electric utility, a transmission and distribution utility, a municipally owned utility, and an electric
+cooperative must include in its EOP for its transmission and distribution facilities the following
+annexes:
+(A)
+A weather emergency annex that includes:
+(i)
+operational plans for responding to a cold or hot weather emergency, distinct from
+the weather preparations required under §25.55 of this title (relating to Weather
+Emergency Preparedness); and
+(ii)
+a checklist for transmission or distribution facility personnel to use during cold or
+hot weather emergency response that includes lessons learned from past weather
+emergencies to ensure necessary supplies and personnel are available through the
+weather emergency;
+(B)
+A load shed annex that must include:
+(i)
+procedures for controlled shedding of load;
+(ii)
+priorities for restoring shed load to service; and
+(iii)
+a procedure for maintaining an accurate registry of critical load customers, as
+defined under 16 TAC §25.5(22) of this title (relating to Definitions), §25.52(c)(1)
+and (2) of this title (relating to Reliability and Continuity of Service) and §25.497
+of this title (relating to Critical Load Industrial Customers, Critical Load Public
+Safety Customers, Critical Care Residential Customers, and Chronic Condition
+Residential Customers), and TWC §13.1396 (relating to Coordination of
+Emergency Operations), directly served, if maintained by the entity. The registry
+must be updated as necessary but, at a minimum, annually. The procedure must
+include the processes for providing assistance to critical load customers in the
+event of an unplanned outage, for communicating with critical load customers
+during an emergency, coordinating with government and service agencies as
+necessary during an emergency, and for training staff with respect to serving
+critical load customers;
+(C)
+A pandemic and epidemic annex;
+(D)
+A wildfire annex;
+§25.53-4
+
+effective 01/01/226
+(P-57928)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+(E)
+
+(2)
+(3)
+
+(4)
+
+(5)
+
+(f)
+
+A hurricane annex that includes evacuation and re-entry procedures if facilities are located
+within a hurricane evacuation zone, as defined by the Texas Division of Emergency
+Management (TDEM);
+(F)
+A cyber security annex;
+(G)
+A physical security incident annex;
+(H)
+A flood annex; and
+(I)
+Any additional annexes as needed or appropriate to the entity’s particular circumstances.
+A transmission and distribution utility that leases or operates facilities under PURA §39.918(b)(1)
+or procures, owns, and operates facilities under PURA §39.918(b)(2) must include an annex that
+details its plan for the use of those facilities.
+A PGC or an electric cooperative, an electric utility, or a municipally owned utility that operates a
+generation resource in Texas must include the following annexes for its generation resources:
+(A)
+A weather emergency annex that includes:
+(i)
+operational plans for responding to a cold or hot weather emergency, distinct from
+the weather preparations required under §25.55 of this title;
+(ii)
+verification of the adequacy and operability of fuel switching equipment, if
+installed; and
+(iii)
+a checklist for generation resource personnel to use during a cold or hot weather
+emergency response that includes lessons learned from past weather emergencies
+to ensure necessary supplies and personnel are available through the weather
+emergency;
+(B)
+A water shortage annex that addresses supply shortages of water used in the generation of
+electricity;
+(C)
+A restoration of service annex that identifies plans intended to restore to service a
+generation resource that failed to start or that tripped offline due to a hazard or threat;
+(D)
+A pandemic and epidemic annex;
+(E)
+A hurricane annex that includes evacuation and re-entry procedures if facilities are located
+within a hurricane evacuation zone, as defined by TDEM;
+(F)
+A cyber security annex;
+(G)
+A physical security incident annex;
+(H)
+A flood annex; and
+(I)
+Any additional annexes as needed or appropriate to the entity’s particular circumstances.
+A REP must include in its EOP the following annexes:
+(A)
+A pandemic and epidemic annex;
+(B)
+A hurricane annex that includes evacuation and re-entry procedures if facilities are located
+within a hurricane evacuation zone, as defined by TDEM;
+(C)
+A cyber security annex;
+(D)
+A physical security incident annex; and
+(E)
+Any additional annexes as needed or appropriate to the entity’s particular circumstances.
+ERCOT must include the following annexes:
+(A)
+A pandemic and epidemic annex;
+(B)
+A weather emergency annex that addresses ERCOT's plans to ensure continuous market
+and grid management operations during weather emergencies, such as tornadoes, wildfires,
+extreme cold weather, extreme hot weather, and flooding;
+(C)
+A hurricane annex that includes evacuation and re-entry procedures if facilities are located
+within a hurricane evacuation zone, as defined by TDEM;
+(D)
+A cyber security annex;
+(E)
+A physical security incident annex; and
+(F)
+Any additional annexes as needed or appropriate to ERCOT’s particular circumstances.
+
+Drills. An entity must conduct or participate in at least one drill each calendar year to test its EOP. Following
+an annual drill the entity must assess the effectiveness of its emergency response and revise its EOP as
+needed. If the entity operates in a hurricane evacuation zone as defined by TDEM, at least one of the annual
+drills must include a test of its hurricane annex. An entity conducting an annual drill must, at least 30 days
+prior to the date of at least one drill each calendar year, notify commission staff, using the method and form
+§25.53-5
+
+effective 01/01/226
+(P-57928)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter C. INFRASTRUCTURE AND RELIABILITY.
+prescribed by commission staff on the commission’s website, and the appropriate TDEM District
+Coordinators, by email or other written form, of the date, time, and location of the drill. An entity that has
+activated its EOP in response to an emergency is not required, under this subsection, to conduct or participate
+in a drill in the calendar year in which the EOP was activated.
+(g)
+
+Reporting requirements. Upon request by commission staff during an activation of the State Operations
+Center by TDEM, an affected entity must provide updates on the status of operations, outages, and restoration
+efforts. Updates must continue until all incident-related outages of customers able to take service are restored
+or unless otherwise notified by commission staff. After an emergency, commission staff may require an
+affected entity to provide an after action or lessons learned report and file it with the commission by a date
+specified by commission staff.
+
+§25.53-6
+
+effective 01/01/226
+(P-57928)
+
+

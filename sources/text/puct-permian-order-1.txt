@@ -1,0 +1,272 @@
+Control Number: 55718
+Item Number: 52
+
+RELIABILITY PLAN FOR THE
+PERMIAN BASIN REGION UNDER
+PURA § 39.167
+
+§
+§
+§
+
+h
+
+PROJECT NO. 55718
+
+PUBLIC UTILITY COMMISSION ~
+OF TEXAS
+
+ORDER APPROVING THE RELIABILITY PLAN
+FOR THE PERMIAN BASIN REGION
+
+Pursuant to PURA1 §§ 39.166 and 39.167, and to the extent provided in this Order, the
+Commission approves the reliability plan submitted by the Electric Reliability Council of Texas,
+Inc. (ERCOT) to serve the Permian Basin region through 2038.2 This includes approval of all the
+
+common local projects that are required to serve the region through 2038, irrespective of the
+voltage level that the Commission approves for the import paths,3 and authorization for
+
+transmission service providers (TSPs) to prepare Certificate of Convenience and Necessity (CCN)
+applications for all eight import paths,4 which include three extra high voltage (EHV) 765-kilovolt
+(kV) import paths5 and five 345-kV import paths.6 ERCOT must work with the TSPs preparing
+
+the CCN applications for the eight import paths to identify the import paths that will be needed to
+serve load in 2030 so that the preparation ofthose CCN applications is prioritized by the applicable
+TSPs.
+
+Authorization to file the CCN applications for the eight import paths is subject to the
+Commission's decision on EHV on a statewide basis by May 1,2025. The Commission determines
+
+1 Public Utility Regulatory Act, Tex. Util. Code §§ 11.001-66.016.
+
+2 Reliabih* Planfor the Permian Basin Under PURA f 39.167, Project No. 55718, ERCOT Permian Basin
+Reliability Plan Study Report (Jul. 25,2024) (Permian Basin Reliability Plan); ERCOT Permian Basin Reliability
+Plan Study Report Addendum (Sept. 11,2024) (Reliability Plan Addendum).
+3 Permian Basin Reliability Plan at 45-48, Table 7.1: Common Local Transmission Upgrades Needed in 2030
+
+and 2038.
+4 Reference to "import path" in this Order includes the incremental local transmission upgrades and
+incorporates the modifications in ERCOT's September 11,2024 addendum.
+5 Permian Basin Reliability Plan at 51-52, Table 7.5: 765-kV Import Paths and Associated Incremental Local
+Transmission Upgrades.
+
+6 ERCOT Permian Basin Reliability Plan Study Addendum at 4-5, Table 1: Modified 2038 345-kV Import
+Paths and Associated Incremental Local Transmission Upgrades.
+
+Project No. 55718 Order Approving the Reliability Plan for the Permian Basin Region Page 2 of6
+
+that this approach: (1) allows the applicable TSPs to begin preparing CCN applications for the
+import paths that are necessary to serve the electricity needs of the Permian Basin region, (2)
+
+allows ERCOT and the Commission to complete their EHV review, and (3) ensures timely
+development and approval of necessary transmission service improvements, as required by PURA
+
+§ 39.166(b).
+Section 39.167 of PURA, implementing House Bill (HB) 5066, enacted by the 88th Texas
+
+Legislature, requires the Commission, not later than January 30,2024, to direct ERCOT to develop
+a reliability plan under PURA § 39.166 for the Permian Basin region. In compliance with this
+
+legislative mandate, the Commission issued an order on December 14,2023, directing ERCOT to
+(1) develop a reliability plan for the Permian Basin region under PURA § 39.166, and (2) file its
+
+final reliability plan at the Commission no later than July of2024. Additionally, the Commission's
+December 14, 2023 Order required that the reliability plan developed by ERCOT address the
+factors set forth in PURA § 39.167(b). Specifically, ERCOT's reliability plan was required to:
+
+(1) address extending transmission service to areas where mineral resources have been
+found;
+(2) address increasing available capacity to meet forecasted load; and
+(3) provide available infrastructure to reduce interconnection times in areas without access
+to transmission service.
+In response, after stakeholder workshops7 and Regional Planning Group (RPG)
+discussions,8 ERCOT filed the Permian Basin Reliability Plan at the Commission on July 25,
+2024.' As required by PURA § 39.166, ERCOT's assessment of transmission needs in the Permian
+
+Basin region is based on load forecast information provided by TSPs.10 These forecasts, which
+
+include a study of future oil and gas demand performed by S&P Global, show that, by 2030, TSPs
+
+7 The Commission held an in-person workshop in Midland, Texas that was live streamed on December 12,
+2023, and ERCOT held a workshop in Austin, Texas with the option to participate in-person or virtually via WebEx
+
+on June 28,2024.
+8 ERCOT Staffpresented status updates on the Permian Basin Reliability Plan and engaged with stakeholders
+at RPG meetings on the following dates: March 18,2024, June 11, 2024, and July 16,2024.
+' Reliability Planfor the Permian Basin Under PURA § 39.167, Projectblo. 5571%,ERCOT Permian Basin
+Reliability Plan Study Report (Jul. 25,2024) (ERCOT Reliability Plan).
+'0 Permian Basin Reliability Plan at 6; see also PURA § 39.166(a)(1) (providing that the "existing and
+forecasted load" that ERCOT uses in identi fying transmission needs as part of a reliability plan must be the load that
+
+is "reasonably determined by the certificated transmission service provider.").
+
+Project No. 55718 Order Approving the Reliability Plan for the Permian Basin Region Page 3 of 6
+
+anticipate approximately 23,659 MW of load in the Permian Basin region and by 2038, TSPs
+anticipate a total projected demand of approximately 26,400 MW.11
+The Permian Basin Reliability Plan consists of new and upgraded 138-kV and 345-kV
+
+transmission lines, substations, and equipment that represent the common local projects for the
+area that will allow for the expansion of transmission service to areas where minerals have been
+found and will reduce interconnection times for transmission service.
+
+The Permian Basin
+
+Reliability Plan also provides new import paths that consist of 345-kV and EHV 765-kV
+
+transmission line options that will increase access to available generation capacity to meet the
+region's growing electricity needs.
+After ERCOT filed its reliability plan at the Commission, Commission Staff issued a
+
+memorandum on July 30, 2024, requesting stakeholder comment on the reliability plan.
+Stakeholders filed comments on August 9, 2024, and Commission Staff held a stakeholder
+workshop on August 22, 2024.
+
+On September 11, 2024, ERCOT filed an addendum to its
+
+reliability plan modifying the recommended endpoint of one of the 345-kV import paths and
+
+providing an updated table identifying the five recommended 345-kV import paths.
+To ensure timely development and approval of necessary transmission service
+
+improvements, as required by PURA § 39.166(b):
+
+1. The Commission approves all the common local projects that are required to serve the
+Permian Basin region through 2038, irrespective of the voltage level that the
+
+Commission approves for the import paths, as identified in Table 7.1 of the Permian
+Basin Reliability Plan.
+
+2. The Commission authorizes the applicable TSPs to begin preparing CCN applications
+
+for all eight transmission import paths to serve load in 2038, which include the three
+765-kV import paths identified in Table 7.5 of the Permian Basin Reliability Plan and
+
+the five 345-kV import paths identified in Table 1 of the Reliability Plan Addendum.
+
+3. ERCOT must work with the TSPs to identify the import paths that would be needed to
+
+serve load in 2030 so that the preparation of those CCN applications is prioritized by
+the applicable TSPs.
+
+" Permian Basin Reliability Plan at 9, Table 2.4 Permian Basin Region Load Comparison.
+
+Project No. 55718 Order Approving the Reliability Plan for the Permian Basin Region Page 4 of 6
+
+4. Authorization for the preparation of the CCN applications is conditioned as follows:
+a. If by May 1,2025, the Commission has decided to move forward with allowing
+
+TSPs to build 765-kV transmission in the ERCOT region on a statewide basis,
+then the three import paths with 765-kV are considered approved and the TSPs
+
+responsible for the ownership, construction, and operation of these import paths
+may file their CCN applications at 765-kV at the Commission. Upon approval
+of the three import paths at 765-kV, the Commission's authorization for the
+
+preparation of CCN applications for the five 345-kV import paths expires.
+b. If by May 1, 2025, the Commission has not decided to move forward with
+
+allowing TSPs to build 765-kV transmission in the ERCOT region on a
+statewide basis, then the five import paths with 345-kV are considered approved
+
+and the TSPs responsible for the ownership, construction, and operation ofthese
+
+import paths may file their CCN applications at 345-kV at the Commission.
+
+Upon approval of the five import paths at 345-kV, the Commission's
+authorization for the preparation of CCN applications for the three 765-kV
+
+import paths expires.
+5. The Commission authorizes, under its statutory authority to preserve on utilities' books
+
+costs incurred, 12 the applicable TSPs that are authorized to prepare CCN applications
+
+for the eight import paths to record as a regulatory asset expense resulting from the
+preparation of the CCN applications until authorization expires. The Commission will
+consider whether each responsible TSP's request for recovery of, but not on, these
+
+regulatory assets is reasonable and necessary in a later base-rate proceeding.
+6. Within 10 business days of this Order, ERCOT must provide notice to the TSPs in the
+
+ERCOT region and file a report in Project No . 51752 , Identifying Transmission Service
+Providersfor Implementing the Permian Basin Reliability Plan, thatidentifiestheTSPs
+
+responsible for the ownership, construction, and operation ofthe transmission lines and
+
+facilities associated with the common local projects and import paths approved by this
+Order.
+
+12 PURA §14.151.
+
+Project No. 55718 Order Approving the Reliability Plan for the Permian Basin Region Page 5 of 6
+
+7. Within 15 business days of ERCOT's filing of the report in Project No. 51752,
+Identifying Transmission Service Providers for implementing the Permian Basin
+
+Reliability Plan, the TSPs must file a response to ERCOT's report in Project No. 51752
+
+stating whether the TSP disputes ERCOT's identification of responsibility for the
+
+ownership, construction, and operation of the transmission lines and facilities
+associated with the common local projects and import paths.
+8. Within 15 business days of the applicable TSPs' response filing in Project No. 51752,
+
+Identifying Transmission Service Providers for implementing the Permian Basin
+Reliability Plan, the applicable TSPs and ERCOT must file ajoint report stating where
+
+there is agreement on the ownership, construction, and operation of the transmission
+
+lines and facilities associated with the common local projects and import paths
+approved by this Order.
+
+9 . On or before October 24 , 2024 , Commission Staff must file in Project No. 57152 its
+
+recommendation on the procedure for the Commission to make a final determination
+of, identify, and approve the TSPs responsible for the ownership, construction, and
+
+operation of the transmission lines and facilities associated with the common local
+projects and import paths for the Permian Basin Reliability Plan, including a framework
+
+for the initiation of one or more contested cases, the provision ofproper notice, and any
+other procedures Commission Staff deems necessary.
+
+10. For each common local project and import path that requires a CCN application, the
+applicable TSP must establish in the CCN proceeding that the certificate meets all
+applicable legal requirements for a CCN, including the requirement set forth in PURA
+
+§ 37.056(a) that the certificate is necessary for the service, accommodation,
+
+convenience, or safety of the public.
+11. The common local projects and import paths approved in this Order do not require
+additional ERCOT RPG review before a CCN application may be filed by the
+applicable TSPs.
+
+Project No. 55718 Order Approving the Reliability Plan forthe Permian Basin Region Page 6 of 6
+
+Signed at Austin, Texas the <
+
+day of /t40~>' k
+
+2024.
+
+PUBLIC UTILITY COMMISSION OF TEXAS
+
+THOMAS J. GLEESON, CHAIRMAN
+
+-o~i ft hos
+
+LORI COBOS, €DMMI~SIONER~/-
+
+J~IMY GLOTF5LTY, COMMISSIONER
+
+9*L
+
+KA~HLEEN JA
+
+COMMISSIONER
+
+U*i t Hf,0*wan
+
+COURTNEY 4¢. HJALT\NIAN, COMMISSIONER
+
+

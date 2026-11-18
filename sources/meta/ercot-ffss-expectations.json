@@ -1,0 +1,12 @@
+{
+ "id": "ercot-ffss-expectations",
+ "title": "Firm Fuel Supply Service Expectations v3",
+ "publisher": "ERCOT",
+ "tier": 2,
+ "edition": "2026-07-28",
+ "url": "https://www.ercot.com/files/docs/2026/07/28/Firm-Fuel-Supply-Service-Expectations_v3.docx",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 753771,
+ "raw_sha256": "871df7b12ebe7f634dbb2e4eb4a3407cacaa9e24ebf8b59e729ef53dd1f8805f",
+ "text_chars": 7396
+}

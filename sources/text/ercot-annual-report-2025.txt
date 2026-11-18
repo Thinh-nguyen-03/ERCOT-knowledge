@@ -1,0 +1,1141 @@
+Reliability.
+Innovation.
+Growth.
+
+2025
+STATE OF THE GRID
+
+About ERCOT
+Founded in 1970, the Electric Reliability Council of Texas (ERCOT) is an independent, not-for-profit organization
+responsible for overseeing the reliable and safe transmission of electricity over the power grid serving most of
+Texas. As the Independent System Operator (ISO) since 1996, ERCOT has four primary responsibilities:
+• Maintain system reliability
+• Facilitate a competitive wholesale market
+• Facilitate a competitive retail market
+• Ensure open access to transmission
+ERCOT manages the flow of electric power to more than 27 million Texas customers – representing about
+90 percent of the state’s electric load. As the ISO for the region, ERCOT schedules power, performs financial
+settlement for the competitive wholesale bulk-power market, and administers retail switching for more than
+eight million premises in competitive choice areas.
+ERCOT is a membership-based 501(c)(4) nonprofit corporation governed by a 12-member Board of Directors
+and subject to oversight by the Public Utility Commission of Texas (PUCT) and the Texas Legislature. Its
+members include consumers, cooperatives, generators, battery owners/operators, load resources, power
+marketers, retail electric providers, investor-owned electric utilities, transmission and distribution providers,
+and municipally owned electric utilities.
+
+Table of Contents
+02 Message from the
+Board of Directors
+
+04 CEO Letter
+06 By the Numbers
+08 2025 Highlights
+10 Operational Excellence
+12 Grid Research,
+
+Innovation, and
+Transformation
+
+14 Communication
+16 Key Future Projects
+
+1
+
+Message from the ERCOT Board of Directors
+As Texas electric demand continued its record growth, the
+Electric Reliability Council of Texas (ERCOT) reliably served our state
+throughout 2025. We fulfilled our core responsibilities of maintaining
+system reliability, facilitating competitive wholesale and retail
+markets, and ensuring open access to transmission.
+Simultaneously, the organization continued its evolution to
+accommodate a rapidly changing electric grid. With average annual
+electric consumption increasing by 5 percent over multiple years,
+it is imperative that we evolve as well to anticipate the needs of
+tomorrow’s Texas in every decision we make.
+We approved and monitored a variety of changes and positive policy outcomes throughout the year
+that helped ensure a reliable, resilient, competitive, and cost-efficient electric grid. These included
+the implementation of Real-Time Co-optimization Plus Batteries, the continued expansion of the
+transmission grid to meet new demands, and improved integration of large loads into forecasting
+and operations. While additional work remains, we are committed to strong oversight, transparent
+governance, and consistent communication.
+In addition, the Board approved new mission, vision, and values statements to guide ERCOT through
+the coming years of change. Our new vision is as bold as it is challenging: “To be the most reliable and
+innovative grid in the world.” This statement reflects both the responsibility we bear and the standard
+to which we hold ourselves.
+On behalf of our Board of Directors, we extend our sincere appreciation to our members, Market
+Participants, stakeholders, and ERCOT team members who keep the grid operating every day. It is
+your investments, time, and expertise that make us – and will keep us – strong. We appreciate and
+applaud your tireless work on behalf of hardworking Texans today, and the Texas of tomorrow.
+With great respect,
+
+Bill Flores
+Chair
+Bryan, Texas
+2
+
+Peggy Heeg
+Vice Chair
+Houston, Texas
+
+Reliability. Innovation. Growth.
+
+ERCOT Board of Directors
+
+First Row (left to right): Courtney Hjaltman, PUCT Commissioner - Austin; Dr. Linda Capuano - Houston; Bill Flores, Chair - Bryan; Pablo Vegas, President & CEO Austin; Peggy Heeg, Vice Chair - Houston; John Swainson - Austin Second Row: Julie England - Flower Mound; Thomas Gleeson, PUCT Chair - Pflugerville;
+Bill Mohl - Bullard; Christopher A. Krummel - Houston; Kathleen McAllister - Austin; Benjamin Barkley, Public Counsel, Office of Public Utility Counsel - Austin
+
+Our Guiding Principles
+VISION
+To be the most reliable and
+innovative grid in the world
+
+MISSION
+We ensure a reliable grid with competitive and cost-efficient electricity markets.
+We carry out our core functions by ensuring open transmission and distribution
+system access, reliability and adequacy of the grid, customer retail choice,
+and accurate accounting for energy.
+VALUES
+
+Mission Driven
+
+Grow People
+
+Lead with Integrity
+
+Own It
+
+Better Together
+
+We prioritize grid
+reliability and
+public service
+above all.
+
+We invest
+in learning,
+development, and
+career growth.
+
+We do what’s
+right, even when
+it’s inconvenient
+or hard.
+
+We take
+accountability
+for our work and
+follow through.
+
+We collaborate
+across teams,
+functions, and roles.
+
+Innovate with
+Purpose
+
+Stay Curious,
+Stay Ready
+
+Listen Well, Speak Up, and Respect
+Every Voice
+
+Celebrate
+the Win
+
+We embrace change
+and drive progress
+through innovation.
+
+We adapt, learn,
+and prepare for
+what’s next.
+
+We build trust and inclusion through open,
+respectful communication. We listen to
+understand, speak with courage, and ensure
+every voice is welcomed and valued.
+
+We recognize
+effort, progress,
+and excellence.
+
+3
+
+CEO Letter
+The state of the ERCOT
+market and electric
+grid is strong – reliable,
+innovative, and growing.
+It reflects disciplined
+execution by the ERCOT
+team, sustained
+investment from Market
+Participants, and
+thoughtful policy
+leadership from the Texas Legislature, the Public
+Utility Commission of Texas (PUCT), and the ERCOT
+Board of Directors.
+With this foundation and business-friendly policies
+that foster efficiency, rapid interconnection, and
+open transmission access, Texas continues to set
+the standard for reliable electric growth. Notably,
+ERCOT experienced the fastest electric demand
+growth among U.S. electricity grids between 2024
+and 2025.
+Here are some key areas of our success:
+Reliability
+Operational reliability remained strong as
+customers consumed more than 488 million
+megawatt-hours (MWh) of electricity in 2025 –
+about a 5.7 percent increase over 2024.
+This contributes to an average
+annual energy growth rate
+of 5.0 percent from
+2021-2025 – a
+sustained trajectory
+rarely seen in mature
+power markets.
+Market Participants
+added more than
+16,000 megawatts
+(MW) of power
+supply, primarily
+from energy storage
+and solar resources.
+4
+
+We also observed a notable uptick in interest from
+natural gas resources seeking grid connection, with
+approximately 8,800 MW of new gas-fired generation
+expected by the end of 2029, supported in part by
+incentives from the Texas Energy Fund.
+Transmission line buildout also saw progress,
+with more than 500 miles of lines added or
+upgraded last year. With approval of all
+765-kilovolt (kV) import paths identified in the
+2024 Regional Transmission Plan and the Permian
+Basin Reliability Plan, Texas is positioning itself to
+move large quantities of power efficiently across
+regions to support continued growth.
+Texas legislation also continues to shape reliability
+in meaningful ways. Improvements like load
+forecast standardization, large load interconnection
+standards, cost allocation, and net metering are
+strengthening the reliability framework, and we are
+working closely with the PUCT and stakeholders to
+ensure comprehensive implementation.
+Innovation
+One of our standout accomplishments in 2025
+was the successful deployment of Real-Time
+Co-optimization Plus Batteries (RTC+B) — the most
+significant upgrade to the nodal market design
+since its inception in 2010.
+
+Reliability. Innovation. Growth.
+
+RTC+B improves how we co-optimize energy
+and Ancillary Services in real time, enhancing
+operational efficiency, strengthening congestion
+management, and better integrating battery
+storage into system operations while preserving
+efficient price formation.
+We also advanced our transformation efforts with
+ERCOT 4.0. This effort reflects our recognition
+that we are operating in a new paradigm defined
+by rapid load growth, increasing variability in the
+resource mix, and technology-driven operational
+change. It aligns planning, operations, market
+design, and workforce development to ensure
+we can deliver reliability in a grid that is larger,
+faster-moving, and more complex than at any
+point in our history.
+Growth
+In 2025, almost 61,000 MW was added to
+active generation interconnection requests –
+a 15.6 percent increase from 2024. This brings
+our total active requests to 450,306 MW as of
+January 2026.
+Notably, more than 70 percent of future
+demand stems from a significant number of
+large interconnection requests, like data centers
+and crypto-mining operations. These facilities
+represent transformative economic investment
+for Texas, but they introduce planning and
+operational complexity due to their scale and
+load characteristics. We are actively working
+with the PUCT and stakeholders to refine planning
+frameworks and interconnection standards to
+accommodate this growth while preserving grid
+stability and market certainty.
+On the supply side, the market is robust –
+having added almost 62,000 MW of new
+generation since 2021– and we see generation
+continuing to increase across all resource types.
+However, the changing composition of the
+resource fleet presents new considerations.
+
+Solar and battery resources provide important
+reliability benefits, but their variability and limited
+duration increase reliance on dispatchable
+generation during certain critical demand
+periods. Coupled with robust growth projections,
+future planning reserves are approaching
+recommended thresholds, underscoring the
+need for continued and balanced infrastructure
+investment to safeguard future grid reliability.
+In addition, market risks increase as thermal
+power plants age and retire. Today, 40 percent
+of the thermal generation fleet in ERCOT is
+more than 30 years old. As these units age and
+eventually retire, we must ensure adequate
+dispatchable capacity replaces them —
+particularly in an environment where wholesale
+prices, adjusted for inflation, have been low
+during the last two years.
+Conclusion
+2025 marked a year of significant progress as we
+improved our market, invested in innovation, and
+reliably managed growth. At the same time, we
+are operating in a period of structural transition
+marked by accelerating demand, increasing
+system complexity, and a changing generation
+fleet. Our responsibility is to anticipate these
+shifts and ensure the market framework evolves
+appropriately to preserve reliability and efficiency
+for the long term. I remain confident that Texas
+policymakers, Market Participants, and the
+ERCOT team will continue to meet these
+challenges with the pragmatism and innovation
+that have defined our success to date.
+Sincerely,
+
+Pablo Vegas
+President and Chief Executive Officer
+5
+
+By the Numbers
+SUPPLY: Fuel Mix Snapshot (MW Capacity)
+2016
+
+2020
+
+2025
+
+2030*
+
+Thermal
+(Dispatchable
+Generation)
+
+Solar, Wind
+(Intermittent
+Generation)
+
+Storage
+(Limited-Duration
+Dispatchable
+Generation)
+
+Total
+
+110,752
+
+124,858
+
+184,904
+
+284,494
+
+DISPATCHABLE THERMAL GENERATION (NUMBERS ARE ROUNDED)
+2016-2025
+
+-10,227 MW
+
+of dispatchable
+thermal
+generation retired
+
+9,365 MW
+
+of dispatchable
+thermal
+generation added
+
+-862 MW
+
+of net new
+dispatchable thermal
+generation added
+
+8,845 MW
+
+Texas Energy Fund
+(TEF) Projects in
+ERCOT Queue
+
+Notes:
+- Capacity totals are based on Installed Capacity Ratings for generating units. “Thermal” is made up of Natural Gas, Nuclear, Coal, Biomass, and Diesel.
+- Totals include: 588 MW of Hydro in 2016 and 2022; 579 MW of Hydro in 2025 and 2030.
+- Planned projects are added to installed capacity after approval for synchronization to ERCOT Grid.
+- Totals include Private-Use Networks (PUNs), Distribution Generation Resources (DGRs), Settlement-Only Distribution Generators (SODGs), Unavailable Switchable Capacity,
+Extended Outage Units, and Seasonal Mothballed Units but not Indefinite Mothballed Units.
+*2030 accounts for forecasted planned projects expected to be in-service between the start of 2026 to end of 2030 that have reached the signed interconnection agreement (SGIA)
+interconnection milestone from the December 2025 file of the Resource Capacity Trend Charts. Unconfirmed Retirements and Unconfirmed Fuel Conversion listed in the December
+2025 CDR are also reflected in this snapshot. Includes January 2026 snapshot of all TEF Projects, even those without SGIAs.
+
+6
+
+Reliability. Innovation. Growth.
+
+DEMAND: Summer Peak Demand Snapshot (MW Demand)
+
+Future Demand
+138,944
+
+71,110
+
+83,707
+
+74,376
+
+FORECASTED DEMAND (MW)
+Summer Load and Resource Scenarios
+
+2026
+
+2027
+
+2028
+
+2029
+
+Original Firm Peak Load
+
+102,624
+
+117,359
+
+133,558
+
+137,111
+
+Firm Peak Load, including 50% of TSP*
+Officer Letter Loads
+
+97,281
+
+107,492
+
+118,248
+
+121,264
+
+Firm Peak Load, including 25% of TSP*
+Officer Letter Loads
+
+94,610
+
+102,558
+
+110,593
+
+113,341
+
+* Transmission Service Provider
+Note: Future demand projections will be updated in Q2, 2026. Please see ercot.com for the latest information.
+
+TRANSMISSION ADDITIONS & STRATEGIC TRANSMISSION EXPANSION PLAN
+In 2025, Transmission Service Providers added or upgraded more
+than 540 miles of transmission lines. The Strategic Transmission
+Expansion Plan is expected to add more than 2,400 miles of 765-kV
+Extra-High Voltage (EHV) lines and 20 substations in coming years.
+These additions will help meet growing electric demand, decrease
+line losses, reduce Right-of-Way requirements, improve outage
+coordination capacity, and provide more flexibility for generation
+resource siting.
+
+MAP LEGEND
+New 765-kV EHV Line (Permian)
+New 765-kV EHV Line (Eastern)
+New 765-kV EHV Line (Western)
+765-kV EHV Substation (Permian)
+765-kV EHV Substation (Eastern)
+
+MAP LEGEND
+New 765-kV EHV Line (Permian)
+New 765-kV EHV Line (Eastern)
+New 765-kV EHV Line (Western)
+
+7
+
+Reliability. Innovation. Growth.
+
+2025 Highlights
+Real-Time Co-optimization Plus Batteries
+This December 2025 market design change
+represents the most significant enhancement
+to the nodal market since 2010 and strengthens
+ERCOT’s ability to simultaneously optimize
+energy and Ancillary Services in real time.
+Delivered six months ahead of schedule,
+early results show measurable operational
+improvements, including automatic selection
+of the most cost-effective and reliabilitysupporting resources each day.
+
+Key benefits include:
+• Faster and more precise procurement of
+Ancillary Services;
+• Enhanced congestion management by
+leveraging a broader range of resources to
+address transmission constraints;
+• Better Ancillary Services oversight through
+real-time monitoring of resource capabilities,
+along with a framework to optimize the use
+of all resource types; and
+• Improved real-time visibility into resource
+capabilities, enabling more effective
+deployment of both dispatchable and
+storage assets.
+Strategic Transmission Expansion Plan
+ERCOT is responding to unprecedented load
+growth and increasing regional transfer
+requirements by identifying efficient ways to
+expand Texas’ transmission network for
+future demand.
+
+In January 2025, we submitted a comparison
+of the 2024 Regional Transmission Plan for the
+345-kV network and the Texas 765-kV Strategic
+Transmission Expansion Plan to the PUCT. This
+analysis compared the reliability and economic
+benefits of building new 765-kV transmission
+lines versus only expanding the existing 345-kV
+infrastructure. Following the Commission’s
+approval in April, the region’s first 765-kV
+8
+
+transmission lines are now in a PUCT process
+to meet the state’s surging power needs. After
+a thorough stakeholder review, ERCOT’s Board
+of Directors endorsed two additional 765-kV
+transmission projects in December.
+These new projects will allow electricity to move
+more reliably, efficiently, and cost-effectively
+over long distances, bringing power from
+resource-rich regions to major load centers like
+Dallas-Fort Worth, Houston, San Antonio, and
+Corpus Christi.
+Large Load Interconnection Process
+In February 2026, ERCOT’s Large Load
+Interconnection queue contained approximately
+400 individual requests, totaling 239,000 MW,
+equivalent to 2.8 times the ERCOT record
+system peak.
+
+To meet our obligation to assess these requests
+and maintain the reliability of the electric grid,
+we introduced new large load interconnection
+process enhancements in 2025. However, as the
+volume of large load applications continued to
+grow, additional improvements to ensure market
+certainty were identified through the stakeholder
+
+ADDING NEW GENERATION
+From 2021-2025, we synchronized
+approximately 62,000 MW of new
+generation projects to the electric grid.
+Solar
+Battery Energy Storage
+Wind
+Thermal (Gas, Diesel)
+Total
+
+~31,000
+~16,000
+~10,000
+~5,000
+~62,000
+
+Reliability. Innovation. Growth.
+
+process and with the PUCT. We are now
+incorporating requirements from Senate Bill 6
+(89th Texas Legislature) and developing a new
+Batch Study process. This process will group
+qualifying large loads for collective review,
+improving transmission capacity allocation,
+offering greater efficiency and predictability,
+and maintaining system reliability.
+Weatherization and Inspections
+We continue to ensure that generation and
+transmission assets owned by Market
+Participants comply with rigorous
+weatherization standards established by
+the PUCT. Our inspection teams, supported
+by contracted experts, conduct site visits at
+hundreds of locations each year, verify
+declarations of weather readiness from
+corporate officers, and host weatherization
+workshops twice a year.
+
+Since inception in December 2021,
+the Weatherization Inspection Program
+successfully met and exceeded the
+PUCT rule requirements for inspection
+frequency. At the end of February 2026,
+we had completed 4,588 weatherization
+inspections of generation and
+transmission facilities.
+Generation
+Facilities
+
+Transmission
+Facilities
+
+Total
+Weatherization
+Inspections
+
+2,990
+
+1,598
+
+4,588
+
+9
+
+Reliability. Innovation. Growth.
+
+Operational Excellence
+ERCOT manages both real-time operations and
+performs system planning to support the electric
+grid. In 2025, we focused on strengthening the
+operational, analytical, and organizational
+capabilities required to manage a larger and
+more complex electric system.
+Organizational Improvements
+ERCOT announced two major organizational
+improvements during the year:
+Interconnection and Grid Analysis
+The new Interconnection and Grid Analysis
+organization was established to support the
+rapid growth in both large load and generation
+interconnection activity. The group’s responsibilities
+include generation interconnection, large load
+interconnection, stability analysis, and stability
+model validation. This structural alignment
+improves accountability, reduces study timelines,
+and strengthens analytical consistency across
+planning and operations.
+Enterprise Data and Artificial Intelligence (AI)
+The new Enterprise Data and AI organization
+accelerates responsible AI adoption across ERCOT
+and fully leverages the recently implemented Data
+Analytics and AI Platform. Their responsibilities
+include data governance, data product
+management, and data operations.
+
+“By strengthening our data foundation,
+modernizing our interconnection
+processes, and aligning our teams
+around emerging technologies, we are
+building an organization that is more
+agile, analytically rigorous, and prepared
+to support Texas’ continued growth.”
+— Pablo Vegas, ERCOT President and CEO
+10
+
+Market Participant Communications
+While we do not own, operate, or maintain
+generation resources, transmission assets, or
+distribution lines, our operators coordinate the
+real-time activities of Market Participants
+much like air-traffic controllers manage
+complex flight systems. We remain in constant
+communication with Market Participants and
+direct their activities through real-time scheduling
+systems, market notices, and phone calls.
+Every year, we send more than 30 million
+dispatch instructions to Market Participant
+resources. Our rules also require backup
+systems in case regular communications are
+interrupted for any reason.
+
+In 2025, more than 1,800
+participants — including market
+and industry professionals, system
+operators, and shift engineers — took
+part in ERCOT’s emergency training,
+drills, and simulations designed
+to prepare for severe weather
+and grid-related events.
+
+Operator Training
+ERCOT helps ensure the reliable operation of the
+bulk power system by employing trained grid
+operators. These professionals undergo a variety
+of training programs and events to meet state and
+federal requirements for the continuous operation
+of the electric grid.
+New Operator Training
+We offer an extensive program for entry-level
+system operators that provides specialized training,
+one-on-one mentorship, and shadowing with
+seasoned operators on the control room floor.
+
+Reliability. Innovation. Growth.
+
+Continuing Education
+System operators and shift engineers are required
+to take a minimum of 85 continuing education
+hours each year. In 2025, we offered five cycles
+of continuing education for system operators. In
+addition, ERCOT provides a minimum of 30 hours
+of training, a minimum of 30 hours of simulations,
+and 200 hours of operating topics over a threeyear period to meet North American Electric
+Reliability Corporation (NERC) standards.
+Drills and Simulations
+In addition to individual training, operators
+undergo regular drills and simulations on a
+variety of topics, including emergency procedures,
+severe weather, cyber and physical security,
+and event recovery planning. In 2025, ERCOT
+participated in GridEx VIII, North America’s largest
+grid security exercise, designed to stress-test
+our crisis response and recovery plans for cyber
+and physical threat scenarios.
+Security and Cybersecurity
+ERCOT constantly prepares for threats to the
+electric system. Whether the threat is cyber or
+physical, ERCOT continues to invest in trained
+staff and resources to help keep the electric grid
+safe. From system redundancies to controlled
+access, ERCOT has multiple layers of protective
+measures to safeguard its critical infrastructure.
+This layered cyber and physical security approach
+is known as a defense-in-depth strategy.
+We comply with – and strive to exceed – federal
+cybersecurity and critical infrastructure protection
+standards enforced by NERC. These standards
+require bulk power system users, owners, and
+operators in the U.S. to address cyber risks and
+vulnerabilities by establishing controls to secure
+critical assets from physical and cyber sabotage,
+reporting security incidents, and establishing
+plans for recovery in the event of an emergency.
+ERCOT’s Critical Infrastructure Security
+Department leverages industry best practices,
+including the National Institute of Standards
+and Technology Cybersecurity Framework, to
+
+continuously strengthen our policies, monitoring
+capabilities, and incident response protocols.
+Critical Infrastructure
+We continue to implement Texas’ Lone Star
+Infrastructure Protection Act, which is intended
+to reduce the risk of foreign influence over critical
+electric grid equipment and services. Under this
+framework, ERCOT Market Participants are
+restricted from using certain vendors or service
+providers if doing so would allow those vendors
+direct or remote access to, or control of, critical grid
+equipment and those vendors are tied to certain
+countries identified in Texas law (including China,
+Iran, Russia, and North Korea) or any other country
+later designated by the Governor as a threat.
+To support compliance, Market Participants must
+keep ERCOT informed about their affiliates —
+meaning other companies that are part of the
+same corporate family (such as a parent company,
+subsidiaries, or sister companies under common
+ownership or control). Market Participants are
+required to provide this information and update it
+when it changes.
+Texas Cybersecurity Monitor Program
+As established by Texas law, ERCOT supports the
+PUCT Texas Cybersecurity Monitor Program by
+contracting for and funding an independent
+cybersecurity monitor. The monitor conducts
+cybersecurity outreach, communicates emerging
+threats and leading practices, reviews cybersecurity
+self-assessments, develops recommended
+practices, and reports to the PUCT regarding
+cybersecurity preparedness for monitored utilities.
+
+11
+
+Reliability. Innovation. Growth.
+
+Grid Research, Innovation, and
+Transformation
+The Texas grid continues to evolve at an
+unprecedented pace, fueled by rapid load growth
+from sources like new data centers and industrial
+facilities. This growth is reshaping planning
+assumptions, operational models, and reliability
+risk profiles. Our Grid Research, Innovation, and
+Transformation (GRIT) initiative enables us to
+anticipate emerging challenges and drive
+innovation at the scale and speed needed to
+transform the grid in response to these changes.
+Research
+ERCOT engages in a wide range of research
+collaborations with academic institutions and
+industry organizations, including the Power
+Systems Engineering Research Center, Electric
+Power Research Institute, and Centre for Energy
+Advancement through Technological Innovation.
+We also work directly with leading universities like
+these to address specific research needs:
+Applied Research Partnership Highlights
+Grid Forming Controls and Power Quality:
+University of Texas at Austin
+Our partnership with the University of Texas
+at Austin centers on modeling and analyzing
+next-generation grids with a high proportion of
+inverter-based resources and power electronic
+loads. The resulting case studies, simulations,
+and assessments will help us anticipate future
+challenges and develop effective solutions.
+Large Load Modeling: Texas A&M University
+In collaboration with the Texas A&M Engineering
+Experiment Station, we are creating dynamic
+models of large loads, such as data centers and
+crypto-mining operations, and examining how these
+loads respond during and after grid disturbances.
+Completing this research will allow us to make
+more accurate assumptions for grid studies and
+offer in formed recommendations for optimal large
+load characteristics.
+12
+
+Innovation
+We continue to drive cutting-edge solutions in
+several key areas, including advanced grid
+support, AI applications, probabilistic approaches
+to computing Ancillary Service requirements,
+large load voltage ride-through studies, and
+geomagnetic disturbance model validation.
+Transformation
+Our grid transformation strategy includes a wide
+range of internal initiatives aimed at preparing for
+future challenges. These efforts, from in-depth
+white papers to transformative projects, are paving
+the way for new tools and processes to assess grid
+reliability, the development of innovative market
+products, and recommendations for ERCOT
+protocol enhancements.
+ERCOT Distribution Awareness Platform
+In 2025, we conducted a meter data
+disaggregation study to advance load research
+and deepen our understanding of how customer
+energy consumption and distributed generation
+affect the power grid. Our primary goal was to
+obtain granular, disaggregated customer load
+profiles to allow us to better assess current
+demand response initiatives and develop new,
+innovative demand flexibility programs.
+Partnerships and New Website
+In 2025, we introduced the Research, Innovation,
+and Partnership Engagement program, along with
+new information designed to connect and engage
+industry stakeholders. Visit ercot.com/about/grit to
+explore our latest white papers and stay updated on
+our ongoing progress.
+Innovation Summit
+The second annual ERCOT Innovation Summit was
+a resounding success, drawing more than 800
+attendees and highlighting the latest advancements
+shaping our industry. The summit provided a forum
+
+Reliability. Innovation. Growth.
+
+for meaningful dialogue, knowledge sharing, and
+collaboration across the industry on emerging grid
+challenges and solutions.
+Aggregated Distributed Energy Resource
+Pilot Program
+The Aggregated Distributed Energy Resource pilot
+program allows aggregations of residential smart
+devices, like batteries, to provide energy and
+Ancillary Services and compete with other service
+providers, such as generators and large loads.
+In 2025, the program changed to allow for larger
+aggregations of resources and new participation
+models. As a result, participation in the pilot program
+grew from three commercial resources registered
+to provide 15 MW of energy, 9 MW of Non-Spinning
+Reserves, and 9 MW of ERCOT Contingency Reserve
+Service, to seven commercial resources registered to
+
+provide 108 MW of energy, 35 MW of Non-Spinning
+Reserves, and 50 MW of ERCOT Contingency
+Reserve Service. On average, these resources
+were available for dispatch in nearly 60 percent
+of ERCOT’s real-time market intervals.
+
+GRIT’s mission is to lead the rapid
+evolution of the electric power grid
+with resilience and operational
+excellence. Through pioneering
+research, bold innovation, and
+collaborative partnerships, we are
+dedicated to building a reliable,
+adaptable, and future-ready grid.
+
+13
+
+Reliability. Innovation. Growth.
+
+Communication
+In 2025, we prioritized effective communication with
+Texans, Market Participants, and other stakeholders
+in the following ways:
+Speaker’s Bureau
+Throughout the year, we coordinated more than
+170 speaking engagements with diverse groups
+across the state. These events provided valuable
+opportunities to educate citizens about grid
+operations, discuss legislative and policy
+advancements, and address questions related to
+the electric grid and its growth.
+Consistent Information
+We are committed to transparency by regularly
+sharing operational updates and other key
+information related to a reliable and resilient
+grid. Our digital communications include:
+
+• ERCOT Monthly Reports: This monthly
+publication offers a concise summary of
+significant developments from the previous
+month, insights on the upcoming month, and a
+snapshot of additional important topics. 2025
+marked the second complete year of this
+reporting initiative.
+• Grid Insights & Trending Topics: These updates
+address current issues such as Ancillary
+Services, Real-Time Co-optimization Plus
+Batteries integration, and Weatherization.
+Increased Social Media Presence to Reach
+More Texans
+In 2025, ERCOT expanded digital engagement to
+improve transparency and public awareness of
+grid conditions and market developments.
+Texas Advisory and Notification System (TXANS)
+This opt-in public notification program helps
+raise awareness earlier about possible periods
+of high demand and tight grid conditions.
+Available in both English and Spanish, the
+program provides transparent communication
+with Texans about grid operations.
+
+SOCIAL MEDIA METRICS
+2.7 MILLION IMPRESSIONS
+
+565% FROM 2021
+
+159,543 ENGAGEMENTS
+
+129% FROM 2021
+
+36,250 POST LINK CLICKS
+
+425% FROM 2021
+
+8,545 NET AUDIENCE GROWTH
+
+427% FROM 2021
+620 TOTAL POSTS
+
+684% FROM 2021
+74,400 VIDEO VIEWS
+
+28,081% FROM 2021
+14
+
+Reliability. Innovation. Growth.
+
+Energy Industry Collaboration
+Natural gas facilities are crucial to the
+resilience of the ERCOT grid. We have partnered
+with the gas industry to continue collaborative
+relationships, ensuring the reliable operation of
+the power system.
+Our efforts include monitoring for potential
+disruptions from operational flow orders or other
+pipeline issues and communicating with pipeline
+representatives to identify reliability concerns that
+could impact grid stability, including generation
+and load.
+We also participate in the following formal efforts:
+Texas Energy Reliability Council
+The Texas Legislature created this council to
+ensure that the state’s energy and electric
+industries meet high-priority human needs and
+address critical infrastructure issues. The
+council, led by the Chief of the Texas Division of
+Emergency Management, includes leaders from
+ERCOT, the PUCT, the Railroad Commission of
+Texas, the Office of Public Utility Counsel, the
+Texas Commission on Environmental Quality, and
+the Texas Transportation Commission, along with
+appointees from the electric and gas industries.
+Gas-Electric Coordination
+Through the Gas-Electric Working Group, we
+bring ERCOT, stakeholders, and gas pipeline
+operators together to improve communication
+on issues like those above, current events,
+maintenance, critical infrastructure designations,
+and other topics of shared interest.
+Critical Supply Chain and Infrastructure Map
+We help maintain a map that shows the
+locations and connections of critical Texas
+power infrastructure. This confidential map is
+shared with state agencies and transmission
+and distribution providers that focus on
+protecting key assets during grid events.
+
+15
+
+Reliability. Innovation. Growth.
+
+Key Future Projects
+These are some of the key future projects we are
+currently engaged in:
+Dispatchable Reserve Reliability Service
+This legislatively required new Ancillary Service
+will be designed to compensate dispatchable
+generators for being available to address
+uncertainty in load and generation forecasts.
+While still in development, multiple options are
+being reviewed that would comply with state
+law and provide the most reliability benefits
+under both moderate-load and high-load
+growth scenarios.
+Large Load Batch Study Process
+ERCOT is managing an unprecedented
+level of interest from large loads (≥75 MW)
+seeking to connect to the grid. To help provide
+certainty for developers, ERCOT is transitioning
+toward a Batch Study process for large load
+interconnection requests in which ERCOT will
+study all proposed large loads meeting the
+study standard as a group.
+The Batch Study process allows ERCOT to:
+•
+
+Assess cumulative impacts on the
+transmission system;
+
+•
+
+Identify shared infrastructure needs;
+
+•
+
+Improve coordination with Transmission
+Service Providers; and
+
+•
+
+Better align interconnection decisions with
+system-wide reliability considerations.
+
+“ ERCOT is the best market
+in the country to react
+quickly to large load
+growth potential. We
+are diligently working
+with the PUCT and
+stakeholders to
+implement new laws
+related to these loads
+and to integrate
+them reliably.”
+
+— Chad Seely, SVP, Regulatory Policy,
+General Counsel & Chief Compliance Officer
+
+ERCOT is actively engaging stakeholders for input
+throughout the Batch Study process, including
+working with Technical Advisory Committee
+leadership to schedule additional workshops
+and special meetings during 2026.
+Permian Basin Reliability Plan
+Forecasts show that electricity demand in the
+Permian Basin will reach approximately 26 GW by
+2038, which is about the size of current demand in
+the Dallas-Fort Worth Metroplex.
+As a result of this anticipated electric demand
+here and throughout the state, the Texas
+Legislature and the PUCT instructed ERCOT to
+create a transmission reliability plan for the
+Permian Basin region. This plan focuses on
+extending transmission service to additional
+mineral resource areas, increasing capacity to
+
+16
+
+Reliability. Innovation. Growth.
+
+meet future demand, and reducing interconnection
+times for areas without transmission access.
+
+in compliance. Moving forward, this assessment
+will be repeated every three years.
+
+We submitted this plan to the PUCT for review
+in July 2024. Local projects were approved in
+September 2024, and the transmission paths
+required to import power into the region were
+approved in April 2025. The Commission is
+expected to review transmission route proposals
+in 2026. Following these decisions, construction
+will begin, with completion expected in 2030.
+
+PUCT Rulemaking Projects
+ERCOT is supporting these and other PUCT
+rulemaking projects that will affect market
+planning and operations:
+
+Reliability Standard Assessment
+We supported the PUCT in developing ERCOT’s
+first empirical Reliability Standard. In 2026, we
+will conduct an inaugural probability-based
+assessment to evaluate the grid’s compliance
+with this standard and use the data to inform
+market or operational changes needed to remain
+
+•
+
+Evaluation of Transmission Cost Recovery;
+
+•
+
+Large Load Forecasting Criteria;
+
+•
+
+Large Load Interconnection Standards;
+
+•
+
+Net Metering;
+
+•
+
+Net Metering Arrangements Involving a
+Large Load Co-Located with an Existing
+Generation Resource; and
+
+•
+
+Reliability Service to Competitively
+Procure Demand Reductions from
+Large Loads.
+
+17
+
+ercot.com
+
+

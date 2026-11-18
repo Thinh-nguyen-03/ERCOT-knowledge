@@ -1,0 +1,1370 @@
+ERCOT Public
+
+REPORT
+
+2024 Regional Transmission Plan (RTP) 345-kV Plan
+and Texas 765-kV Strategic Transmission Expansion
+Plan Comparison
+
+January 2025
+
+ERCOT
+
+Jan. 2025
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Executive Summary
+The ERCOT System is experiencing rapid changes, including trends of substantial growth in demand
+and increasing penetration of Inverter-Based Resources (IBRs). ERCOT’s 2024 Regional
+Transmission Plan (RTP)1, which includes an analysis of needed transmission improvements for 20262030, included an unprecedented amount of economic growth led by a significant increase in large
+load interconnections (i.e., data centers, hydrogen and hydrogen-related manufacturing, crypto
+mining, and electrification). The forecasted summer peak demand for 2030 exceeds 150 GW, of which
+approximately 50 GW is large load growth. This unprecedented load growth coupled with the growing
+amount of congestion already present in today’s system prompted discussions about introducing 765kV infrastructure to the ERCOT Transmission Grid. The 765-kV addition would enable power to flow
+more efficiently through long-distance transmission from resource-rich regions to load centers.
+In July 2024, ERCOT filed the Permian Basin Reliability Plan Study2 with the Public Utility Commission
+of Texas (PUCT). The study presented options for both 345-kV and 765-kV import paths to the
+Permian Basin area.
+The PUCT approved the Permian Basin Reliability Plan in October 2024, but deferred a decision on
+the voltage level of the import paths. The PUCT is anticipated to make a determination on the voltage
+level by May 1, 2025. The 2024 RTP developed two transmission plans (345-kV and 765-kV), which
+built upon both versions of the Permian Basin Reliability Plan to address statewide reliability needs.
+To serve both current and future load growth reliably and efficiently, many miles of new transmission
+build as well as upgrades to existing lines will be required no matter the decision on which voltage
+level is to be used. This document provides some additional analysis to compare the benefits of the
+345-kV plan and the Texas 765-kV Strategic Transmission Expansion Plan (TX 765-kV STEP) to
+address statewide reliability needs.
+Key points of the 2024 RTP 345-kV plan and the Texas 765-kV Strategic Transmission Expansion
+Plan include:
+•
+
+The TX 765-kV STEP with the approved Permian Basin Reliability Plan projects includes:
+2,468 miles of new 765-kV lines; 649 miles of new 345-kV lines; 1,098 miles of existing 345kV upgrades; 324 miles of new 138-kV lines, 1,287 miles of existing 138-kV upgrades; 446
+miles of existing 69-to-138-kV conversions, and 11.3 GVArs of reactive support devices. The
+estimated construction cost of the TX 765-kV STEP (including the Permian Basin Reliability
+projects) is approximately $32.99 billion.
+
+•
+
+The 2024 RTP 345-kV plan with the approved Permian Basin Reliability Plan projects includes:
+2,673 miles of new 345-kV lines; 1,913 miles of existing 345-kV upgrades; 334 miles of new
+138-kV lines, 1,714 miles of existing 138-kV upgrades; 647 miles of existing 69-to-138-kV
+
+1 https://www.ercot.com/mp/data-products/data-product-details?id=pg7-048-m
+2
+
+https://www.ercot.com/files/docs/2024/07/25/2024-ERCOT-Permian-Basin-Reliability-Plan-Study-Report-and-Addendum.zip
+
+ii
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+conversions, and 13.4 GVArs of reactive support devices. The estimated construction cost of
+the 2024 RTP 345-kV Plan (including the Permian Basin Reliability projects) is approximately
+$30.75 billion.
+Table E1: Summary of the Construction Cost Estimates ($Billion)
+345-kV Plan
+TX 765-kV STEP
+Permian Basin Reliability Plan Projects
+12.95
+13.77
+2024 RTP Projects (beyond Permian Projects)
+16.23
+17.68
+2024 RTP – Reactive Support (Dynamic &
+1.58
+1.53
+Static)
+Total
+30.75
+32.99
+•
+
+Both the 345-kV plan and the TX 765-kV STEP options are estimated to require approximately
+$5 billion per year of transmission project investment over the six-year planning horizon
+compared to an average of over $3 billion per year of transmission projects endorsed in the
+past three years ($3.78 billion endorsed in 2024). Compared to the 345-kV plan, the TX 765kV STEP includes 434 more miles of new ROW impact but significantly fewer upgrades to the
+existing system (815 fewer miles of existing 345-kV upgrades; 427 fewer miles of existing 138kV upgrades; and 201 fewer miles of 69-to-138-kV conversions). As today’s system fully
+utilizes its current capability, facilitating construction outages for the existing system upgrades
+will become increasingly more difficult and expensive.
+
+Figure E1: Comparison of New ROW Miles in the 345-kV and 765-kV RTP Plans – Including
+Permian Basin Projects
+
+iii
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Figure E2: Comparison of Existing Line Upgrade Miles in the 345-kV and 765-kV RTP Plans
+– Including Permian Basin Projects
+•
+
+The initial estimated cost of the TX 765-kV STEP is approximately $2.24 billion higher than
+the 345-kV plan. The cost difference does not account for the additional construction cost
+(including live “hot” construction) the 345-kV Plan will require to minimize construction outages,
+to maintain system reliability, and to ensure timely completion of certain major upgrades. The
+outage-related construction cost for the 345-kV plan (with over 1,400 more existing upgrade
+miles) is estimated to be $890 million higher than the TX 765-kV STEP. Considering this
+additional cost would reduce the overall cost difference between the TX 765-kV STEP and the
+345-kV Plan to approximately $1.35 billion. Upgrade or rebuild of the existing 345-kV could
+also have additional new ROW impact and congestion cost related to construction outages for
+the 345-kV Plan.
+
+•
+
+Transmission congestion in the real-time market occurs when uneconomic generators are
+dispatched to reduce flows over constrained lines. The total congestion rent ERCOT
+experienced in 2023 was $2.3 billion, and total congestion rent in 2024 was $1.97 billion. The
+economic analysis performed to evaluate system congestion shows that, in the long-term, the
+TX 765-kV STEP provides greater economic benefit than the 345-kV plan. Estimated in 2025
+dollars, the TX 765-kV STEP reduces annual production cost by approximately $28 million and
+produces approximately $229 million more savings in consumer energy cost each year
+compared to the 345-kV plan in the long term.
+
+iv
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+•
+
+The 765-kV transmission lines significantly reduce power losses by transmitting electricity at
+a higher voltage. Power loss calculations showed that the TX 765-kV STEP can reduce annual
+systemwide transmission losses by about 5% compared to the 345-kV option (about 560 GWh
+each year, which is approximately equivalent to a 128 MW thermal unit operating at a 50%
+capacity factor).
+
+•
+
+ERCOT conducted a transfer capability analysis to compare the ability to move power across
+the system without causing thermal overloads or voltage collapse from a steady state
+perspective. The steady state transfer capability analysis performed for both options indicates
+that the TX 765-kV STEP provides higher regional transfer capability compared to the 345-kV
+option, providing a more robust solution for meeting future demand. With the increasing
+curtailments of existing generation due to Generic Transmission Constraints (GTCs), such as
+South Texas Import and Export GTCs, or steady-state thermal limits, enhanced transfer
+capability will be a benefit. Specifically, the TX 765-kV STEP enhances transfer capability by
+an additional 600 MW to 3,000 MW across various scenarios evaluated in the analysis. This
+higher transfer capability could also provide a greater range of siting options for both
+Generation Resources and large loads.
+
+•
+
+ERCOT conducted a stability analysis to examine the system’s ability to return to normal
+operating conditions after sudden changes or disturbances (e.g., line trip). The analysis
+evaluated the potential impact to the West Texas Export and McCamey GTCs. The study
+results indicate that the TX 765-kV STEP would increase the West Texas Export stability
+constraint limit from 12.7 GW to 16.2 GW, compared to only 15.8 GW with the 345-kV option.
+No stability limits were identified for the McCamey area stability constraint with the
+implementation of both the options. Additionally, the study results showed that bypassing all
+series capacitors had no impact on stability limits, suggesting that both options make certain
+series capacitor(s) in the ERCOT grid less critical or unnecessary. The ability to potentially
+eliminate some or all series capacitors from the system means greater flexibility in siting and
+interconnecting generators without concerns about potential subsynchronous oscillation
+(SSO) issues.
+
+•
+
+System strength is increasingly important for a grid’s ability to mitigate potential instability risks.
+IBRs in the ERCOT grid have experienced rapid and sustained growth, driving significant
+transformations in the energy landscape. The performance of IBRs heavily depends on power
+electronics controls, which are highly complex and fast-acting, making them particularly
+sensitive in weaker grids dominated by IBRs with limited or no conventional synchronous
+generation. Recognizing that adding new major transmission infrastructure, such as 765-kV or
+345-kV options, can significantly improve system strength, thereby enhancing the grid’s ability
+to support the reliable operation of IBRs and mitigate potential instability risks, ERCOT
+conducted a system strength analysis to compare the performance of these options. The
+
+v
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+results indicate that both options provide comparable improvement in system strength,
+measured by weighted short-circuit MVA.
+•
+
+ERCOT performed a sensitivity analysis with a reduced load level (~ 20 GW less overall load)
+to assess the impact on the need of the 345-kV plan and the TX 765-kV STEP if less than
+forecasted load materializes. Results showed major portions of the 345-kV plan and the TX
+765-kV STEP will still be needed to meet the reduced demand. However, significantly fewer
+345-kV upgrades (new and existing) will be needed under both plans. The estimated cost of
+the 345-kV plan and the TX 765-kV STEP under the sensitivity case including the Permian
+Basin Reliability Import Path is $20.98 billion and $23.91 billion, respectively.
+
+vi
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Table E2: Comparison of the Cost & Benefits
+
+345-kV Plan
+New ROW impact
+
+434 fewer miles of
+ROW
+1,443 fewer miles of
+existing upgrades
+
+Existing System Upgrades impact
+Estimated New Construction Cost
+(345-kV $30.75 billion; TX 765-kV STEP $32.99
+billion)
+Estimated Additional cost: Live/Hot
+construction to facilitate existing upgrades
+
+Estimated Consumer Energy Cost Savings
+(Long-term)
+
+TX 765-kV STEP
+
+$2.24 billion less
+construction cost
+$890 million less in
+construction outage
+related cost
+$229 million more
+annual Consumer
+Energy Cost Savings
+
+Estimated Production Cost Savings
+(Long-term)
+
+$28 million more
+annual Production
+Cost Savings
+
+Estimated System Loss Reduction
+
+560 GWh/year less
+energy loss
+
+Incremental Transfer Capability
+
+600 to 3,000 MW
+increase in power
+transfer capability
+
+West Texas Stability Limit Improvement
+
+13% more
+improvement
+
+Potential Retirement of Series Capacitors
+Comparable/Similar
+Improvement to the Overall System Strength
+
+Comparable/Similar
+
+vii
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Table of Contents
+
+Executive Summary ................................................................................................................... ii
+Introduction ............................................................................................................................... 1
+ERCOT Engineering Studies .................................................................................................... 3
+1.1. Steady State Studies .................................................................................................... 3
+1.2. Dynamic Stability Studies ........................................................................................... 15
+1.3. Economic Study .......................................................................................................... 18
+1.4. Power Losses Reduction Study ................................................................................. 19
+1.5. TX 765-kV STEP Potential Future Expansion ........................................................... 21
+1.6. Conclusions ................................................................................................................ 22
+Appendix ................................................................................................................................. 25
+
+viii
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Introduction
+The global demand for electricity is growing exponentially, driven by economic growth and population
+increase, industrial expansion, electrification of transportation, and growth in data centers and cloud
+computing. Extra High Voltage (EHV) transmission networks, such as a 765-kV system, offer an option
+to serve this demand more efficiently than lower-voltage networks. Backed by Ohm’s Law of physics,
+these EHV systems offer superior capacity to transfer power on a long distance, reduce losses, and
+enhance grid stability, making them a cornerstone of modern energy infrastructure.
+While other regions have utilized higher voltages for many decades, the current highest voltage in the
+ERCOT system is 345-kV. To operate a future transmission system able to move large amount of
+power from remote generation sites to load centers, ERCOT evaluated the merits of transmission
+projects at 765-kV compared to the 345-kV option.
+Section 1.1 addresses ERCOT’s steady state studies. The ERCOT 2024 Regional Transmission Plan
+(RTP) included two plans: a 345-kV and a 765-kV plan, which expanded on the Permian Basin
+Reliability Plan 345-kV and 765-kV import path options to address statewide reliability needs. The
+study results indicated the Texas 765-kV Strategic Transmission Expansion Plan (TX 765-kV STEP)
+requires 434 miles of additional new ROW but significantly fewer upgrades and approximately 1400
+fewer existing upgrade miles compared to the 345-kV plan.
+Section 1.1.4 provides steady-state transfer capability analysis, comparing the power transfer
+capabilities of the 345-kV and 765-kV transmission options within the ERCOT grid. The study
+examined eight critical source-sink combinations to assess the benefits of each option in supporting
+growing demand and integrating new generation.
+ERCOT performed a dynamic stability study and presented findings in Section 1.2.1. The study
+evaluates the effectiveness of each EHV option in addressing stability constraints in critical areas,
+including the West Texas Export and McCamey areas. Additionally, it examines the potential impact
+of each option on existing series capacitors, highlighting the inherent stability benefit provided by these
+options.
+New transmission infrastructure additions, such as 765-kV or 345-kV, can significantly improve system
+strength, thereby enhancing the grid’s ability to support the reliable operation of IBRs while mitigating
+potential instability risks. To quantify these benefits, ERCOT conducted a system strength analysis,
+as detailed in Section 1.2.2. IBRs, which have driven significant transformations in the energy
+landscape, rely heavily on power electronics controls that are highly complex and fast-acting. These
+controls are particularly sensitive in weaker grids dominated by IBRs with limited or no conventional
+synchronous generation. The analysis evaluates the performance of the 345-kV and 765-kV options
+in strengthening the system, as measured by the weighted short-circuit MVA (WSCMVA) metric.
+Section 1.3 describes ERCOT’s economic studies. ERCOT performed a chronological 8760-hour
+production cost simulation analysis to compare the economic benefits between the 345-kV and 765-
+
+1
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+kV plans. The economic analysis aims to capture the production cost savings and the consumer
+energy cost reduction resulting from the buildout of the 345-kV and 765-kV plans.
+Section 1.4 covers the system power losses for both scenarios. ERCOT evaluated the power losses
+savings resulting from the 765-kV plan compared to 345-kV. A power grid operated at the higher
+voltage level can reduce power losses, especially when transferring large amounts of power over a
+long distance.
+
+2
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+ERCOT Engineering Studies
+To test the operation of a future EHV transmission system capable of moving large amounts of
+power from remote generation sites to load centers, ERCOT has evaluated the merits of
+transmission projects at 765-kV compared to the 345-kV option. Analysis to demonstrate the
+reliability and economics of 345-kV and the 765-kV backbone added to the existing grid (steady
+state studies to assert operating conditions, transient stability studies to assert the dynamic
+response of the grid to dynamic disturbances and economic studies to compare multiple
+transmission options under targeted grid performance goals) are described below.
+
+1.1.
+
+Steady State Studies
+
+1.1.1.
+
+Regional Transmission Plan (RTP)
+
+In the 2024 RTP, ERCOT began by developing a holistic 765-kV plan for potential future demand
+growth and then identified the critical components (core plan) needed by 2030. After establishing
+the core plan, ERCOT developed a 765-kV plan in parallel with the regular 345-kV plan to address
+the reliability issues identified in the analysis. The RTP 765-kV plan was created using the 2030
+summer peak case, which also served as the start case for the 345-kV plan. The start case for
+the 765-kV plan incorporated all local projects needed by 2030 in the Permian Basin Reliability
+Plan, along with the three Permian Basin 765-kV import paths. Analyses were performed under
+the N-1 contingency conditions, prior outage of a generator or 345/138-kV transformer followed
+by N-1 contingency conditions, and maintenance outages at the 300-kV and above voltage level.
+Figure 1.1.1.1 below illustrates the core 765-kV plan.
+
+3
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Figure 1.1.1.1: The 765-kV Core Plan needed in 2030
+Comparisons between the 345-kV and 765-kV plans are provided below in Figures 1.1.1.2 to
+1.1.1.5. Geographic locations for proposed new lines in Figures 1.1.1.1 to 1.1.1.5 are meant to
+demonstrate general electrical point-to-point connections. Specific routing of any new
+transmission infrastructure is determined by the Public Utility Commission as part of the CCN
+process with Transmission Service Providers.
+
+4
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Figure 1.1.1.2: 345-kV New Lines and Upgrades Needed with the 345-kV Plan – Including Permian
+Basin Import Paths and Local Projects
+
+5
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Figure 1.1.1.3: 345-kV New Lines and Upgrades Needed with the 765-kV Plan – Including Permian
+Basin Import Paths and Local Projects
+
+6
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Figure 1.1.1.4: Comparison of New ROW Miles in the 345-kV and 765-kV RTP Plans – Including
+Permian Basin Projects
+
+Figure 1.1.1.5: Comparison of Existing Line Upgrade Miles in the 345-kV and 765-kV RTP Plans –
+Including Permian Basin Projects
+
+7
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+1.1.2. Cost Comparison
+To perform the cost comparison between the 345-kV and 765-kV plans, generic cost estimates
+were used. The Midcontinent Independent System Operator (MISO) approved in Dec. 2024 the
+Tranche 2.1 portfolio to expand its transmission network including 1800 miles of new 765-kV
+transmission projects. There is currently one 765 kV, 64 miles, transmission line in operation
+within the MISO footprint since 2018. ERCOT used MISO’s Transmission Cost Estimation Guide
+to develop cost estimates for 765-kV equipment for both the 2024 RTP and the Permian Basin
+Reliability Plan Study. The cost estimates for the Permian import paths come directly from the
+Permian Basin Reliability Plan Study report. However, routing changes could potentially change
+costs.
+A cost estimate of $4.2M/mi was used for 345-kV lines. This is the average cost for new 345-kV
+double-circuits provided by Transmission Service Providers (TSPs) in the Permian Basin study.
+While locations outside of the Permian Basin could potentially impact the cost estimate, that would
+be determined in subsequent TSP discussions. Additionally, upgrades and second-circuit
+additions to existing single circuits had cost estimates close to the new line cost estimate.
+Therefore, the single amount was used for all 345-kV line work. $2.5M/mi was used as the cost
+estimate for 138-kV line work, for both upgrades and 69-to-138-kV conversions.
+Tables 1.1.2.1-1.1.2.4 below summarize cost comparisons of the 345-kV and 765-kV plans.
+Table 1.1.2.1 Summary of Construction Cost Estimates ($Billion)
+345-kV Plan
+765-kV Plan
+Permian Basin – Import Paths
+7.69
+9.06
+Permian Basin – Incremental Local Upgrades
+1.23
+0.69
+Permian Basin – Common Local Upgrades
+4.02
+4.02
+RTP – 765-kV New Lines, Substations, and Transformers
+0
+8.09
+RTP – 345-kV New Lines and Upgrades
+10.31
+5.35
+RTP – 138-kV New Lines and Upgrades
+4.04
+3.01
+RTP – 69-to-138-kV Line Conversions
+1.04
+0.54
+RTP – Dynamic Reactive Support
+1.44
+1.44
+RTP – Static Reactive Support
+0.14
+0.09
+RTP – New 345/138-kV Substations
+0.12
+0.10
+RTP – New 345/138-kV Transformers
+0.72
+0.60
+Total
+30.75
+32.99
+
+Given the large number of 345-kV upgrades that are needed in both plans, but particularly in the
+345-kV plan, the impact of construction outages to complete work should be considered. Many of
+the 345-kV upgrades needed are densely clustered, which will make granting outages extremely
+difficult and could extend the construction time. In this situation, live “hot” reconductoring work will
+also be needed, which results in increased costs.
+
+8
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+To capture this additional cost, an alternative cost comparison was performed. It was assumed
+half of the 345-kV upgrades would need to be performed live and would result in a 50% cost
+increase to the original upgrade cost. Including live reconductoring, the 345-kV plan total cost
+estimate increases by $1.8B and the 765-kV plan total cost estimate increases by $910M. This
+reduces the difference between the two total cost estimates of the two plans by $890M. Tables
+1.1.2.3 and 1.1.2.4 show this alternative cost comparison.
+Table 1.1.2.3 Summary of the Total Cost Estimates – with Live Reconductoring ($Billion)
+345-kV Plan
+765-kV Plan
+Permian Basin – Import Paths
+7.69
+9.06
+Permian Basin – Incremental Local Upgrades
+1.23
+0.69
+Permian Basin – Common Local Upgrades
+4.02
+4.02
+RTP – 765-kV New Lines, Substations, and Transformers
+0
+8.09
+RTP – 345-kV New Lines and Upgrades
+12.11
+6.26
+(with Live Reconductoring)
+RTP – 138-kV New Lines and Upgrades
+4.04
+3.01
+RTP – 69-to-138-kV Line Conversions
+1.04
+0.54
+RTP – Dynamic Reactive Support
+1.44
+1.44
+RTP – Static Reactive Support
+0.14
+0.09
+RTP – New 345/138-kV Substations
+0.12
+0.10
+RTP – New 345/138-kV Transformers
+0.72
+0.60
+Total
+32.55
+33.90
+1.1.3.
+
+Sensitivity Analysis
+
+To review need based on varying demand levels, an additional RTP analysis was performed
+with the TSP officer letter’s demand reduced to 50% of the maximum value. Table 1.1.3.1
+shows the adjusted load levels.
+Table 1.1.3.1 RTP Sensitivity Analysis – Adjusted Load
+Officer Letter Load Officer Letter Load – Total Contract Load Total System Load
+– Full (MW)
+Reduced (MW)
+(MW)
+(MW)
+20,868
+129,168
+31,197
+15,599
+
+Figures 1.1.3.1 and 1.1.3.2 show the needed 345-kV upgrades in the 345-kV and 765-kV plans
+under the reduced load conditions (~ 20 GW less overall load) in the sensitivity analysis. The
+results indicated major portions of the 345-kV Plan and the TX 765-kV STEP Plans will still be
+needed to meet the reduced demand. However, significantly less 345-kV upgrades (new and
+existing) will be needed under both plans.
+
+9
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Figure 1.1.3.1: 345-kV Upgrades Needed with the 345-kV Plan under Reduced Load Conditions –
+Including Permian Basin Projects
+
+10
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Figure 1.1.3.2: 345-kV Upgrades Needed with the 765-kV Plan under Reduced Load Conditions –
+Including Permian Basin Projects
+
+Comparisons between the 345-kV and 765-kV plans under the reduced load conditions are
+provided below in Figures 1.1.3.3 and 1.1.3.4.
+
+11
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Figure 1.1.3.3: Comparison of New ROW Miles in the 345-kV and 765-kV RTP Plans under
+Reduced Load Conditions – Including Permian Basin Projects
+
+Figure 1.1.3.4: Comparison of Existing Line Upgrade Miles in the 345-kV and 765-kV RTP Plans
+under Reduced Load Conditions – Including Permian Basin Projects
+
+12
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Tables 1.1.3.5-1.1.3.6 below summarize cost comparisons of the 345-kV and 765-kV plans
+under the reduced load conditions.
+Table 1.1.3.5 Summary of the Construction Cost Estimates – Reduced Load Conditions ($Billion)
+345-kV Plan
+765-kV Plan
+Permian Basin – Import Paths
+7.69
+9.06
+Permian Basin – Incremental Local Upgrades
+1.23
+0.69
+Permian Basin – Common Local Upgrades
+4.02
+4.02
+RTP – 765-kV New Lines, Substations, and Transformers
+0
+8.09
+RTP – 345-kV New Lines and Upgrades
+3.67
+0.45
+RTP – 138-kV New Lines and Upgrades
+1.96
+0.86
+RTP – 69-to-138-kV Line Conversions
+0.58
+0.30
+RTP – Dynamic Reactive Support
+1.26
+0.18
+RTP – Static Reactive Support
+0.07
+0.03
+RTP – New 345/138-kV Substations
+0.06
+0.04
+RTP – New 345/138-kV Transformers
+0.44
+0.18
+Total
+20.98
+23.91
+Table 1.1.3.6 Summary of the Total Cost Estimates – Reduced Load Conditions – with Live
+Reconductoring ($Billion)
+345-kV Plan
+765-kV Plan
+Permian Basin – Import Paths
+7.69
+9.06
+Permian Basin – Incremental Local Upgrades
+1.23
+0.69
+Permian Basin – Common Local Upgrades
+4.02
+4.02
+RTP – 765-kV New Lines, Substations, and Transformers
+0
+8.09
+RTP – 345-kV New Lines and Upgrades
+4.12
+0.53
+(with Live Reconductoring)
+RTP – 138-kV New Lines and Upgrades
+1.96
+0.86
+RTP – 69-to-138-kV Line Conversions
+0.58
+0.30
+RTP – Dynamic Reactive Support
+1.26
+0.18
+RTP – Static Reactive Support
+0.07
+0.03
+RTP – New 345/138-kV Substations
+0.06
+0.04
+RTP – New 345/138-kV Transformers
+0.44
+0.18
+Total
+21.43
+23.99
+
+1.1.4. Steady-State Transfer Capability Analysis
+Steady-state transfer capability analysis aims to evaluate and compare the steady-state power
+transfer capabilities between the two transmission options—345-kV and TX 765-kV STEP within
+the ERCOT grid. By quantifying the steady-state transfer limit of each plan, the analysis seeks to
+identify the benefits associated with each option to support increasing load demand, enhance
+system reliability, and accommodate the growth of potential generation integration.
+The analysis utilized two specific cases, both derived from the 2024 RTP 2030 Summer Peak
+Final Secure Case:
+
+13
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+•
+•
+
+Case 1: 2024 RTP 2030 Summer Peak Final – 345-kV option
+Case 2: 2024 RTP 2030 Summer Peak Final – TX 765-kV STEP
+
+The study evaluated transfer capabilities across eight scenarios, representing critical source-sink
+combinations within ERCOT:
+•
+•
+•
+•
+•
+•
+•
+•
+
+West/Far West (WFW) to Dallas/Fort Worth (DFW)
+WFW to Houston
+WFW to South Central
+WFW to South
+Dallas-Fort Worth (DFW) to Houston
+Houston to DFW
+DFW to Corpus area (Corpus = Nueces and Refugio Counties)
+Houston to Corpus area (Corpus = Nueces and Refugio Counties)
+
+The study, conducted using Transmission Adequacy & Reliability Assessment (TARA) software,
+tested all North American Electric Reliability Corporation (NERC) Category P1 and P7
+contingencies for transmission facilities at 138-kV and above. The analysis focused on identifying
+thermal constraints and voltage collapse across the ERCOT grid, excluding 69-kV facilities. The
+key findings of the study results include:
+•
+
+•
+
+•
+
+•
+
+Key Observations
+o Both the 345-kV and 765-kV options result in notable enhancements to steadystate transfer capability compared to existing configurations.
+o TX 765-kV STEP demonstrates substantially greater improvements in transfer
+capability compared to the 345-kV option, providing a more robust solution for
+meeting future demand.
+General Observations: Transfers from WFW to Major Load Centers
+o TX 765-kV STEP consistently outperforms the 345-kV option for transfers
+originating from WFW to major load centers, except for DFW. Both options provide
+similar performance for transfers to DFW.
+o For transfers from WFW to major load centers (excluding DFW), TX 765-kV STEP
+offers an additional 600 to 3,000 MW of transfer capability over the 345-kV
+alternative.
+General Observations: DFW to/from Houston Transfer Scenario
+o Transfers from DFW to Houston see a marked improvement in transfer capability
+with TX 765-kV STEP compared to the 345-kV option. TX 765-kV STEP offers an
+additional 750 MW of transfer capability over the 345-kV alternative.
+o In contrast, transfers from Houston to DFW exhibit similar performance for both
+345-kV and 765-kV options.
+General Observations: DFW to Corpus and Houston to Corpus Transfer Scenarios
+
+14
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+o
+
+No significant differences were observed between the 345-kV and 765-kV options
+for transfers from DFW to Corpus or Houston to Corpus, indicating similar
+performance levels for these scenarios.
+
+A summary of the transfer capability analysis can be found in Table 1.1.4.1 below.
+Table 1.1.4.1 Transfer Capability Analysis
+Incremental Transfer Capability
+Scenarios
+345-kV Plan (MW)
+765-kV Plan (MW)
+WFW to DFW
+3,450
+3,450
+WFW to Houston
+3,750
+6,750
+WFW to South Central
+1,050
+1,650
+WFW to South
+550
+1,650
+DFW to Houston
+3,000
+3,750
+Houston to DFW
+1,725
+1,725
+DFW to Corpus
+350
+350
+Houston to Corpus
+350
+350
+
+1.2.
+
+Dynamic Stability Studies
+
+This section assesses the impact of the 765-kV and 345-kV options on system stability and overall
+system strength in the ERCOT grid. It summarizes the results of stability studies that evaluate the
+effectiveness of the options in alleviating existing system constraints and presents the findings
+from a system strength analysis comparing the relative benefits of each option.
+1.2.1.
+
+Impact Analysis of EHV Options on System Stability
+
+The 765-kV and 345-kV options are designed to strengthen the system by reducing overall system
+impedances and facilitating improved power transfer from various generation sources to
+customers through new additional EHV transmission paths. This enhancement supports a more
+reliable and efficient power supply, increasing the availability of Generation Resources to meet
+demand.
+To evaluate the potential impact of the 765-kV and 345-kV options, ERCOT conducted a stability
+study focused on the existing West Texas Export and McCamey stability constraints, which
+currently limit generation exports from these regions.
+ERCOT used the Dynamics Working Group (DWG)-approved 2027 High Renewable Minimum
+Load (HRML) case as a baseline and updated it to include Regional Planning Group (RPG)approved synchronous condensers and 35 additional generators in the North, North Central,
+West, and Far West weather zones that satisfied the ERCOT Planning Guide Section 6.9(1)
+requirements as of February 2024. Using this updated case, ERCOT performed stability analysis
+by testing critical NERC Category P1 and P7 contingencies associated with the interfaces of the
+West Texas Export and McCamey area stability constraints, as well as the new EHV transmission
+paths running from the West Texas region toward the major load centers.
+
+15
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Furthermore, ERCOT conducted a sensitivity analysis to assess potential impact of bypassing all
+existing series compensation devices in cases with the 765-kV and 345-kV options. The ERCOT
+system currently has 18 series capacitors installed in the transmission network, primarily to
+enhance power transfer capability and provide voltage support by reducing the impedance of 345kV lines between generation sources and major load centers. While series capacitors improve
+power transfer, they also introduce a risk of subsynchronous oscillation (SSO), an abnormal
+energy interaction at frequencies lower than the operating frequency (60 Hz). SSO can cause
+significant damage to generator shafts, series capacitors, and other system elements, potentially
+resulting in equipment trips or cascading outages. The risk of SSO increases as more Generation
+Resources are located near series capacitors.
+Key findings of the dynamic stability studies include:
+•
+•
+
+•
+
+•
+
+•
+
+The 765-kV and 345-kV options are expected to significantly improve the West Texas
+Export and McCamey area stability limits under the tested critical N-1 conditions.
+Improvements in West Texas Export stability constraints under N-1 conditions:
+o The stability limit in the study base case is estimated at 12.7 GW.
+o The 345-kV option increases the limit to 15.8 GW, representing an improvement
+of 24.4%.
+o TX 765-kV STEP raises the limit to 16.2 GW, reflecting an improvement of 27.6%.
+o Both the 765-kV and 345-kV options were also tested with all series capacitors
+bypassed, and no impact was found on the estimated stability limit.
+Improvements in McCamey Area Stability constraints under N-1 conditions:
+o No stability issues were identified in the McCamey area in the study base case
+which assumed approximately 6.4 GW of generation within the McCamey area.
+This is primarily due to the RPG-approved projects such as addition of the new
+Bearkat-North McCamey-Sand Lake 345-kV double-circuit transmission line
+(expected in-service year: 2026) and the new synchronous condensers at
+Bakersfield (expected in-service year: 2027).
+o Both the 765-kV and 345-kV options were tested with all series capacitors
+bypassed, and no stability issues were identified in the McCamey area.
+Study results showed that bypassing all series capacitors had no impact on stability limits
+which suggests that the either 345-kV or 765-kV infrastructure options makes series
+capacitor(s) less critical. The inherent characteristics of EHV systems effectively address
+the objectives for which series capacitors were originally installed—such as improved
+power transfer and voltage support—without introducing the additional complexity and risk
+associated with series capacitors. As a result, series capacitors become largely redundant
+in the presence of robust EHV infrastructure. Therefore, it can be concluded that some of
+the existing series capacitor(s) related to the West Texas interface may become less
+critical or unnecessary with the introduction of new EHV transmission infrastructure.
+Note that the stability limits presented above are estimated values for future system
+conditions. The West Texas Export and McCamey Generic Transmission Constraints
+
+16
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+(GTCs) will continue to be reviewed and updated as part of future Quarterly Stability
+Assessments (QSAs).
+Figure 1.2.1.1 shows plots illustrating examples of stable and unstable responses, one with the
+EHV option and the other without it.
+
+Figure 1.2.1.1 Plots illustrating examples of stable and unstable responses
+1.2.2.
+
+System Strength Analysis of EHV Options in the ERCOT Grid
+
+Inverter-based resources (IBRs) in the ERCOT grid, including solar, wind, and energy storage,
+have experienced rapid and sustained growth, driving significant transformations in the energy
+landscape. The performance of these resources heavily depends on power electronics controls
+and system strength. Due to the highly complex and fast-acting nature of IBR controls, their
+responses are exceptionally sensitive. This sensitivity becomes particularly critical in weaker
+systems, where IBRs dominate, and conventional synchronous generation is limited or absent.
+As a result, such systems are more susceptible to instability issues.
+Improving system strength is essential to mitigating these risks. Transmission upgrades, such as
+345-kV and 765-kV options, can enhance system strength by reducing overall system
+impedances. ERCOT conducted a system strength analysis to compare relative benefits of the
+two options. System strength is commonly measured by short-circuit current (or MVA), and
+ERCOT employed a weighted short-circuit MVA (WSCMVA) metric in this study, as outlined in
+the formula below:
+
+where:
+SCMVAk: short-circuit MVA at the POI of the k-th IBR
+PGK: the capacity (MW) of the k-th IBR
+
+17
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+The system strength analysis was conducted using the same option cases that were employed in
+evaluating the impact of options on system stability. The analysis concluded that both options
+offer similar overall system strength and benefits. The results are detailed in the table below.
+
+Table 1.2.2.1 System Strength Comparison
+
+1.3.
+
+Options
+
+WSCMVA (MVA)
+
+345-kV Plan
+TX 765-kV STEP
+
+6,264
+6,289
+
+Economic Study
+
+To qualitatively compare the economic benefits between 345-kV and 765-kV plans, an economic
+analysis was performed using two study year cases, i.e., 2034 and 2039. The 2034 and 2039
+economic cases for the Current Trends scenario from the 2024 Long-Term System Assessment
+(LTSA) were used as the base cases of this economic analysis. At the time when the economic
+study cases were created, the large loads substantiated by officer letters from the TSPs were not
+available. Moreover, the reliability projects (345-kV or 765-kV plan) needed to reliably supply such
+a significant amount of large load additions had not been developed. As a result, the large loads
+substantiated by officer letters from TSPs were not included in the economic base cases. As
+reflected in Table 1.3.1 below, the peak demand was 106,581 MW and 113,349 MW respectively
+for 2034 and 2039.
+Table 1.3.1 Load Demand and Annual Energy of Base Cases
+Peak Demand (MW)
+
+Annual Energy (GWh)
+
+2034 Base Case
+
+106,581
+
+648,138
+
+2039 Base Case
+
+113,349
+
+693,213
+
+The 345-kV and 765-kV plans were added separately to the base cases to simulate the
+incremental impact of the proposed transmission addition. Anticipated responses from price
+responsive load under system scarcity conditions were modeled in the simulation. TX 765-kV
+STEP demonstrated more consistent benefits through the years evaluated compared with the
+345-kV plan in both the production cost savings and system-wide consumer energy cost reduction
+as shown in Tables 1.3.2 and 1.3.3. Key findings from the economic analysis are summarized as
+follows and monetary numbers are in 2025 dollars:
+•
+
+•
+
+For year 2034, both the 345-kV and 765-kV options showed savings in production cost
+and consumer energy cost while the 765-kV plan had $133 million more production cost
+savings but $136 million less savings in system-wide consumer energy cost compared
+with the 345-kV plan. The 765-kV plan also had $94 million less congestion rent than the
+345-kV plan.
+For year 2039, while the 765-kV plan continued to show savings in both production cost
+and consumer energy cost, the 345-kV plan showed an increase in the consumer energy
+
+18
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+cost. The 765-kV plan had $28 million more production cost savings and approximately
+$229 million more system-wide consumer energy cost reduction than the 345-kV plan.
+The 765-kV plan also had $172 million less congestion rent than the 345-kV plan.
+Table 1.3.2 Economic Study Results for 2034
+Year
+2034
+2034
+2034
+2034
+
+Project Description
+
+Production Cost
+(M$)
+
+Base Case
+345-kV Plan
+765-kV Plan
+Incremental Benefit
+(765-kV Plan vs 345kV Plan)
+
+Consumer Energy Cost
+(M$)
+
+Congestion Rent (M$)
+
+17,139
+16,969
+16,836
+
+18,342
+18,143
+18,279
+
+1,873
+1,539
+1,444
+
+133
+
+-136
+
+94
+
+Table 1.3.3 Economic Study Results for 2039
+Year
+
+Project Description
+
+Production Cost
+(M$)
+
+Consumer Energy Cost
+(M$)
+
+Congestion Rent (M$)
+
+2039
+
+Base Case
+
+19,462
+
+22,070
+
+2,545
+
+2039
+
+345-kV Plan
+
+19,088
+
+22,143
+
+2,261
+
+2039
+
+765-kV Plan
+
+19,059
+
+21,914
+
+2,089
+
+2039
+
+Incremental Benefit
+(765-kV Plan vs 345-kV
+Plan)
+
+28
+
+229
+
+172
+
+The economic study showed that the TX 765-kV STEP can produce more economic benefits in
+the long-term planning horizon. When considering which option is more cost effective, it should
+be noted that the future conditions can differ from the study scenarios assumed and economic
+benefits other than production cost savings and system-wide consumer energy cost reductions
+are not quantified here.
+
+1.4.
+
+Power Losses Reduction Study
+
+The 765-kV transmission lines significantly reduce power losses by transmitting electricity at a
+higher voltage, which results in a lower current for the same power transfer, thereby minimizing
+the resistive losses in the power lines due to the relationship between current and heat generation
+(P = I2·R). ERCOT performed the AC power flow analysis for three snapshots (Peak, Off-Peak,
+and Light Load conditions) and compared the resulting power losses as a percentage of the total
+load demand between 345-kV and 765-kV plan. As reflected in Table 1.4.1 below, the study
+shows that TX 765-kV STEP resulted in the most savings in power losses (7.58%) for Light Load
+condition and the least savings (0.83%) for Off-Peak Load condition while the change in power
+losses was modest for Peak Load condition (4.72%).
+
+19
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Table 1.4.1 AC Power Losses Comparison for Peak, Off-Peak and Light Load Conditions
+Losses (% of Load)
+
+345-kV
+
+765-kV
+
+Peak Load
+
+1.97%
+
+1.88%
+
+Difference with
+respect to 345kV Power
+Losses3
+4.72%
+
+Off-Peak Load
+
+1.62%
+
+1.61%
+
+0.83%
+
+Light Load
+
+1.61%
+
+1.49%
+
+7.58%
+
+The power loss reduction resulting from 765-kV was estimated for both study years (2034 and
+2039). The 8760-hour load duration curve was sorted for each of two years from the highest to
+the lowest. For the top 10% load duration curve, 1.97% and 1.88% transmission losses were
+assumed respectively for 345-kV and 765-kV plan. For the middle 60% to 90% of load duration
+curve, 1.62% and 1.61% transmission losses were assumed respectively for 345-kV and 765-kV
+plan. For the bottom 60% load duration curve, 1.61% and 1.49% transmission losses were
+assumed respectively for 345-kV and 765-kV plan. The comparison of the total transmission
+losses for both years between 345-kV and 765-kV is shown in Table 1.4.2. It shows that the 765kV can reduce the annual transmission losses by about 5% compared to the 345-kV option, which
+ranged from 540 GWh in 2034 to 577 GWh in 2039.
+Table 1.4.2 Power Losses Comparison for 2034 and 2039
+Project Description
+
+Transmission Losses in 2034 (GWh)
+
+Transmission Losses in 2039 (GWh)
+
+345-kV Plan
+
+10,764
+
+11,518
+
+765-kV Plan
+
+10,224
+
+10,941
+
+Power Loss Saving in
+GWh
+Power Loss Saving in %
+
+540
+
+577
+
+5.02%
+
+5.01%
+
+3 Calculated as the difference between the power losses for 345-kV and 765-kV plans normalized by the
+
+345-kV power losses, e.g., 4.72%=(1.97%-1.88%)/1.91%.
+
+20
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+1.5.
+
+TX 765-kV STEP Potential Future Expansion
+
+The TX 765-kV STEP core plan was determined based on the 2024 RTP reliability needs for
+2030. As the system continues to evolve, the core plan could be expanded to serve more of the
+ERCOT system as need materializes. A potential expansion example is shown below in Figure
+1.5.1. This option could expand the 765-kV system into the Panhandle and Valley areas or add
+additional east-to-central pathways. Any potential future expansion options would be further
+evaluated as system needs evolve.
+
+Figure 1.5.1: TX 765-kV STEP Potential Future Expansion
+
+21
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+1.6.
+
+Conclusions
+
+Integrating a new 765-kV transmission network into the ERCOT System would represent a
+strategic transformative step in power infrastructure, enabling efficient, reliable, and sustainable
+electricity delivery for both current and future demand.
+The comparison between the 345-kV and 765-kV plans highlights the benefits and cost
+effectiveness of the TX 765-kV STEP. To serve both current and future load growth reliably and
+efficiently, many miles of new transmission build as well as upgrades to existing lines will be
+required no matter the decision on which voltage level is to be used. While the TX 765-kV STEP
+has 434 more miles of new ROW impact, it significantly reduces the need to upgrade, rebuild, or
+add 345-kV, 138-kV, and 69-kV infrastructure, with approximately 1400 miles fewer existing
+upgrades compared to the 345-kV plan. The overall cost of the 765-kV plan is comparable with
+the 345-kV plan based on generic cost estimates.
+The evaluation highlights that both the 345-kV and 765-kV transmission options provide
+significant advantages across key areas, including steady-state transfer capability, dynamic
+stability, and system strength. Among the two, the 765-kV option demonstrates superior
+performance, making it a more robust and forward-thinking solution for meeting future challenges
+for the ERCOT grid. By implementing the TX 765-kV STEP, the ERCOT grid would benefit from
+enhanced reliability, resilience, and readiness for an evolving energy landscape.
+In terms of steady-state transfer capability, both transmission options deliver substantial
+improvements across eight critical source-sink combinations. However, the 765-kV option stands
+out by providing an additional 600 MW to 3,000 MW of transfer capacity in various scenarios,
+particularly for transfers from West/Far West Texas to major load centers. This advantage makes
+TX 765-kV STEP better suited to address growing energy demands and improve grid efficiency.
+When considering dynamic stability, both options significantly enhance stability limits under critical
+N-1 conditions, with the 765-kV option providing markedly better results than the 345-kV option
+in alleviating stability constraints related to the West Texas Export. Additionally, the analysis
+reveals that bypassing series capacitors does not impact stability, suggesting that the new
+infrastructure could render some existing series capacitors unnecessary, reducing SSO risk.
+Overall, the findings underscore the positive role of transmission infrastructure in enhancing grid
+stability and reducing reliance on technologies like series capacitors.
+For system strength, analysis shows that both options provide similar improvement in system
+strength, measured by weighted short-circuit MVA. These upgrades are expected to mitigate
+instability risks by reducing system impedance and strengthening regions with limited
+synchronous generation.
+The economic analysis shows more promising results for the 765-kV plan in the long term.
+ERCOT’s analysis concludes that the TX 765-kV STEP can reduce annual production costs by
+approximately $28 million and produce approximately $229 million more savings in consumer
+energy cost each year compared to the 345-kV plan.
+
+22
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+The power losses study shows the TX 765-kV STEP can reduce the annual transmission losses
+by about 5% compared to the 345-kV option (about 560 GWh each year) in the long-term studies.
+
+23
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Table 1.6.1 Comparison of the Cost & Benefits
+
+345-kV Plan
+New ROW impact
+
+434 fewer miles of
+ROW
+1,443 fewer miles of
+existing upgrades
+
+Existing System Upgrades impact
+Estimated New Construction Cost
+(345-kV $30.75 billion; TX 765-kV STEP $32.99
+billion)
+Estimated Additional cost: Live/Hot
+construction to facilitate existing upgrades
+
+Estimated Consumer Energy Cost Savings
+(Long-term)
+
+TX 765-kV STEP
+
+$2.24 billion less
+construction cost
+$890 million less in
+construction outage
+related cost
+$229 million more
+annual Consumer
+Energy Cost Savings
+
+Estimated Production Cost Savings
+(Long-term)
+
+$28 million more
+annual Production
+Cost Savings
+
+Estimated System Loss Reduction
+
+560 GWh/year less
+energy loss
+
+Incremental Transfer Capability
+
+600 to 3,000 MW
+increase in power
+transfer capability
+
+West Texas Stability Limit Improvement
+
+13% more
+improvement
+
+Potential Retirement of Series Capacitors
+Comparable/Similar
+Improvement to the Overall System Strength
+
+Comparable/Similar
+
+24
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Appendix
+Appendix A.1
+Comparisons between the 345-kV and 765-kV plans are provided below in Figures A1.1 to A1.5
+and Tables A1.1, A1.2, and A1.3.
+
+Figure A1.1: Comparison of Upgrades to Existing 345-kV Transmission lines between 345-kV and
+765-kV Plans – Including Permian Basin Local Projects
+
+Figure A1.2: Comparison of Upgrades to Existing 138-kV Transmission Lines between 345-kV and
+765-kV Plans – Including Permian Basin Local Projects
+
+25
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Figure A1.3: Comparison of 69-to-138-kV Conversions of Existing Transmission Lines between 345kV and 765-kV Plans – Including Permian Basin Local Projects
+
+Figure A1.4: Comparison of New 345-kV ROW in Addition to Import Paths between 345-kV and 765kV Plans – Including Permian Basin Local Projects
+
+26
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Figure A1.5: Comparison of New 138-kV ROW between 345-kV and 765-kV Plans – Including
+Permian Basin Local Projects
+
+Table A1.1 Comparison of 345-kV Line Needs in Addition to Import Paths – Including Permian Basin
+Projects
+
+27
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Table A1.2 Comparison of 138-kV Line Needs – Including Permian Basin Projects
+
+Table A1.3 Comparison of 69-to-138-kV Line Conversion Needs – Including Permian Basin Projects
+
+28
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Appendix A.2
+Comparisons between the 345-kV and 765-kV plans under the reduced load conditions are
+provided below in Figures A2.1 to A2.5 and Tables A2.1, A2.2, and A2.3.
+
+Figure A2.1: Comparison of Upgrades to Existing 345-kV Transmission Lines between 345-kV and
+765-kV Plans under Reduced Load Conditions – Including Permian Basin Local Projects
+
+Figure A2.2: Comparison of Upgrades to Existing 138-kV Transmission Lines between 345-kV and
+765-kV Plans under Reduced Load Conditions – Including Permian Basin Local Projects
+
+29
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Figure A2.3: Comparison of 69-to-138-kV Conversions of Existing Transmission Lines between 345kV and 765-kV Plans under Reduced Load Conditions – Including Permian Basin Local Projects
+
+Figure A2.4: Comparison of New 345-kV ROW in addition to Import Paths between 345-kV and 765kV Plans under Reduced Load Conditions – Including Permian Basin Local Projects
+
+30
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Figure A2.5: Comparison of New 138-kV ROW between 345-kV and 765-kV Plans under Reduced
+Load Conditions – Including Permian Basin Local Projects
+
+Table A2.1 Comparison of 345-kV Line Needs on top of Import Paths under Reduced Load
+Conditions – Including Permian Basin Projects
+
+31
+
+2024 RTP 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison
+
+Table A2.2 Comparison of 138-kV Line Needs under Reduced Load Conditions – Including Permian
+Basin Projects
+
+Table A2.3 Comparison of 69-to-138-kV Line Conversion Needs Under Reduced Load Conditions –
+Including Permian Basin Projects
+
+32
+
+

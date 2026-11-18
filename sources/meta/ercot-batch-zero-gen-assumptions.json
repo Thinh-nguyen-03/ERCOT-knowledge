@@ -1,0 +1,12 @@
+{
+ "id": "ercot-batch-zero-gen-assumptions",
+ "title": "Batch Zero Interconnection Study Generation Assumption Discussion (RPG)",
+ "publisher": "ERCOT",
+ "tier": 2,
+ "edition": "2026-09-22",
+ "url": "https://www.ercot.com/files/docs/2026/09/22/9.-Batch-Zero-Interconnection_Study_Generation_Assumption_Discussion_RPG_September_2026.pdf",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 207767,
+ "raw_sha256": "90b8e2de1c48fb63e2b4d89636b2124b1dcc0bd1c6c2e586236e3549d6d9e1d5",
+ "text_chars": 2207
+}

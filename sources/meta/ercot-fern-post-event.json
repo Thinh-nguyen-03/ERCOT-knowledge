@@ -1,0 +1,12 @@
+{
+ "id": "ercot-fern-post-event",
+ "title": "ERCOT Post-Event Report, Winter Storm Fern",
+ "publisher": "ERCOT",
+ "tier": 2,
+ "edition": "2026-01-28",
+ "url": "https://www.ercot.com/files/docs/2026/01/28/ERCOT-Post-Event-Report-Winter-Storm-Fern.pdf",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 308392,
+ "raw_sha256": "dfebc738d98e33a41d4f69590b433ba4b56da84c1826b2fc37df960560140bd3",
+ "text_chars": 4100
+}

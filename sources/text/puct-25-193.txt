@@ -1,0 +1,201 @@
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter I.
+
+TRANSMISSION AND DISTRIBUTION.
+
+DIVISION 1.
+
+OPEN-ACCESS COMPARABLE TRANSMISSION SERVICE FOR
+ELECTRIC UTILITIES IN THE ELECTRIC RELIABILITY COUNCIL
+OF TEXAS.
+
+§25.193. Distribution Service Provider Transmission Cost Recovery Factor (TCRF).
+(a)
+
+Application. The provisions of this section apply to all investor-owned distribution service providers
+(DSPs) providing distribution service within the Electric Reliability Council of Texas (ERCOT)
+region to retail electric providers and other customers of the distribution system.
+
+(b)
+
+TCRF authorized.
+(1)
+A DSP subject to this section that is billed for transmission service by a transmission service
+provider (TSP) pursuant to §25.192 of this title (relating to Transmission Service Rates) shall
+be allowed to include within its tariff a TCRF clause that authorizes the DSP to charge or
+credit its customers for the amount of wholesale transmission cost changes approved or
+allowed by the commission to the extent that such costs vary from the transmission service
+cost utilized to fix the base rates of the DSP. The DSP shall update its TCRF twice per year
+on March 1 and September 1 to pass through the wholesale transmission cost changes billed
+by a TSP. For the March 1 update, the DSP shall file a request to update its TCRF no later
+than December 1; and for the September 1 update, no later than June 1. Within 45 days after
+a DSP files a request to update its TCRF, the commission shall issue an order establishing
+the amount of the revised TCRF and suspend the effective date of the revised TCRF as
+necessary so that the new TCRF charges will take effect on March 1 or September 1, as
+applicable.
+(2)
+A DSP shall include in its TCRF update calculation:
+(A)
+the cost of wholesale transmission cost changes approved or allowed by the
+commission to the extent that such costs vary from the transmission service cost
+utilized to fix the rates of the DSP; and
+(B)
+an adjustment amount, which shall equal:
+(i)
+the actual costs paid by the DSP during the review period to TSPs as a
+result of increases in the TSPs’ wholesale transmission rates above the
+wholesale transmission rates of the TSPs used to develop the retail
+transmission charges of the DSP in the DSP’s last rate case; minus
+(ii)
+the revenues recovered through the DSP’s TCRF minus the portion of the
+adjustments approved by the commission in the DSP’s most recent two
+TCRF filings that were in effect during the review period.
+(iii)
+For a March 1 TCRF update, the adjustment shall reflect the six-month
+period beginning with the preceding May 1 and continuing through
+October 31 (review period); for a September 1 update, the adjustment shall
+reflect the six-month period beginning with the preceding November 1 and
+continuing through April 30 (review period). In no event shall a DSP’s
+TCRF clause result in the DSP recovering more than its actual cost of
+wholesale transmission service included in the TCRF.
+
+§25.193--1
+
+effective date 10/25/10
+(P 37909)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter I.
+
+TRANSMISSION AND DISTRIBUTION.
+
+DIVISION 1.
+
+OPEN-ACCESS COMPARABLE TRANSMISSION SERVICE FOR
+ELECTRIC UTILITIES IN THE ELECTRIC RELIABILITY COUNCIL
+OF TEXAS.
+
+(c)
+
+TCRF Formula. The TCRF for each class shall be computed pursuant to the following formula:
+
+N
+
+N
+
+i =1
+
+i =1
+
+{[∑ ( NWTRi * NLi ) − ∑ ( BWTRi * NLi )] * 1 / 2 * ALLOC} + ADJ
+BD
+Where:
+
+NWTRi is the new wholesale transmission rate of a TSP, approved by the commission
+by order or pursuant to commission rules, since the DSP’s last rate case;
+BWTRi is the base wholesale transmission rate of the TSP represented in the NWTRi,
+used to develop the retail transmission charges of the DSP in the DSP’s last rate case;
+NLi is the DSP’s individual 4CP load component of the total ERCOT 4CP load
+information used to develop the NWTRi;
+
+Where:
+6
+
+ADJ =
+
+∑{EXP ( REV − ADJP 1 − ADJP 2 )}
+p−
+
+p
+
+p =1
+
+p
+
+p
+
+ADJ = adjustment to Rate Class TCRF;
+EXPp = transmission expenses not included in base rates for period p;
+REVp = TCRF revenue for period p;
+ADJP1p = 1/6th of ADJ calculated in the previous TCRF update for the periods 5 and 6;
+ADJP2p = 1/6th of ADJ calculated in second previous TCRF update for the periods 1
+through 4;
+ALLOC is the class allocator approved by the commission to allocate the transmission
+revenue requirement among classes in the DSP’s last rate case, unless otherwise ordered
+by the commission; and,
+BD is each class’s billing determinant (kilowatt-hour (kWh), or kilowatt (kW), or
+kilovolt-ampere (kVa)) for the previous March 1 through August 31 period for the
+March 1 TCRF update, and for the previous September 1 through February 28 period
+for the September 1 TCRF update.
+(d)
+
+TCRF charges. A DSP’s TCRF charge shall remain in effect until adjusted under this section or
+until the DSP’s delivery rates change pursuant to a commission order in a rate proceeding.
+
+§25.193--2
+
+effective date 10/25/10
+(P 37909)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter I.
+
+TRANSMISSION AND DISTRIBUTION.
+
+DIVISION 1.
+
+OPEN-ACCESS COMPARABLE TRANSMISSION SERVICE FOR
+ELECTRIC UTILITIES IN THE ELECTRIC RELIABILITY COUNCIL
+OF TEXAS.
+
+(e)
+
+Reports. The DSP shall maintain and provide to the commission semi-annual reports containing all
+information required to monitor the costs recovered through the TCRF clause. This information
+includes, but is not limited to, the total estimated TCRF cost for each month, the actual TCRF cost on
+a cumulative basis, the amount of transmission costs included in base rates, total revenues resulting
+from the TCRF, and the calculation of the amount to be recovered under subsection (b)(2) of this
+section. The reports shall be filed by March 31 and September 30 of each year.
+
+§25.193--3
+
+effective date 10/25/10
+(P 37909)
+
+

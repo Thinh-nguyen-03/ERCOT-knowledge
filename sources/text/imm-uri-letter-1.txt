@@ -1,0 +1,151 @@
+Control Number: 51812
+
+Item Number: 34
+
+Addendum StartPage: 0
+
+Potoniac Economics, Ltd.
+7620 Metro Center Drive
+Austin, Teras 78744
+
+-Ieleph~e: 512-879-7971
+
+ECONOMICS
+
+1:'acsil)ll¢: 703-383-0796
+1t
+
+DU
+,·
+t
+
+!:L:
+,
+
+March 1, 2021
+I· »isst.ON
+
+Public Utility Commission of Texas
+Chairman DeAnn T. Walker
+Commissioner Arthur C. D'Andrea
+Commissioner Shelly Botkin
+1701 N. Congress Avenue
+Austin, Texas 78711
+Ile:
+
+t- .,
+
+PUC Project No. 51812, Issues Related to the State of Disaster for the
+February 2021 Winter Weather Event
+
+Dear Chairman and Commissioners:
+As the Independent Market Monitor (IMM) of the Electric Reliability Council of Texas
+(ERCOT) wholesale electricity market for the Public Utility Commission of Texas
+(Commission), Potomac Economics closely monitored real-time market performance throughout
+the recent winter weather event and provides the following recommendations related to ancillary
+services in light of certain market outcomes.
+Recommendation 1: For operating days February 15 through February 20, 2021, reprice
+all day-ahead ancillary services (AS) clearing prices to cap them at the System-Wide Offer
+Cap (SWCAP) of $9,000 per MWh.
+
+When there are insufficient offers to clear the entire AS Plan (Section 4.2.1.1 of the ERCOT
+Nodal Protocols), ERCOT uses very high penalty costs to ensure that the day-ahead market
+algorithm can clear as much o f the AS Plan as possible. A pricing run is then used to remove
+those penalty costs prior to publishing the prices in accordance with the Other Binding
+Document (OBD) Methodology for Setting Maximum Shadow Prices for Network and Power
+Balance Constraints. Between February 15 and February 20, the scarcity of offers, generator
+constraints, and opportunity costs applied during this pricing run resulted in unexpected clearing
+prices higher than the SWCAP in effect on those days. The IMM recommends that these prices
+be capped at the SWCAP of $9,000 per MWh.
+
+Capping the AS Market Clearing Prices for Capacity (MCPC) for each AS for those days will
+produce outcomes more consistent with economic market design principles. Since reserves are
+procured to reduce the probability of losing load, such principles dictate that the value of
+reserves cannot not exceed the value of lost load (VOLL), which is equal to the SWCAP of
+$9,000.
+Further, to avoid this unintended outcome in the future, the IMM recommends that the language
+on page 32 of Appendix 2 of the OBD cited above be changed to include the following:
+
+bS
+
+POTOMAC
+ECONOMICS
+
+IMM Recommendations PUCT Project No. 51812
+March 1,2021
+
+Notably however, the AS penalty factors are not used to set the MCPC for each Ancillary
+Service. Instead, the infeasible AS requirement amounts are reduced to the feasible level
+and the DAM clearing is rerun so that the price of the last AS awarded MW sets the
+MCPC for the each Ancillary Service. In no case shall the MCPC for each Ancillary
+Service exceed the System-Wide Offer Cap (SWCAP) in effect for the relevant Operating
+Day.
+Recommendation 2: For operating days February 14 through February 19, 2021, invoke
+the "failure to provide" settlement treatment for all AS that were not provided in real time.
+
+There were a number of instances during the operating days outlined above in which AS was not
+provided in real time because of forced outages or derations. For market participants that are not
+able to meet their AS responsibility, typically the ERCOT operator marks the short amount in the
+software. This causes the AS responsibility to be effectively removed and the day-ahead AS
+payment to be clawed back in settlement. However, the ERCOT operators did not complete this
+task during the winter event, and therefore the "failure to provide" settlements were not invoked
+in real time.
+Removing the operator intervention step and automating the "failure to provide" settlement was
+contemplated in NPRR947: Clarification to Ancillary Service Supply Responsibility Definition
+and Improvements to Determining and Charging for Ancillary Service Failed Quantities;
+however, the NPRR was withdrawn in August 2020 because of the system cost, some
+complexities related to AS trades, and the implementation of real-time co-optimization.
+Invoking the "failure to provide" settlement for all AS that market participants failed to provide
+
+during the operating days outlined above will produce market outcomes and settlements
+consistent with underlying market principles. In this case, the principle is that market
+participants should not be paid for services that they do not provide. Whether ERCOT marked
+the short amount in real-time or not should not affect the settlement of these ancillary services.
+
+In the short term, the IMM recommends that the language in Section 6 of the ERCOT Nodal
+Protocols below be modified to allow ERCOT to determine these quantities after-the-fact. The
+IMM further recommends that the "failure to provide" settlement treatment for AS be automated.
+
+6.4.9.1.3
+
+Replacement of Ancillary Service Due to Failure to Provide
+
+(l)
+ERCOT may procure Ancillary Services to replace those of a QSE that has failed
+on its Ancillary Services Supply Responsibility through a Supplemental Ancillary
+Services Market, as described below in Section 6.4.9.2, Supplemental Ancillary Services
+Market. A QSE is considered to have failed on its Ancillary Services Supply
+Responsibility when ERCOT determines, in its sole discretion, that some or all of the
+QSE's Resource-specific Ancillary Service capacity either will not be available in Real
+
+2
+
+POTOMAC
+
+ECONOMICS
+
+IMM Recommendations PUCT Project No. 51812
+March 1, 2021
+
+Time, or was not provided in Real Time. This Section does not apply to a failure to
+provide caused by events described in Section 6.4.9.1.2, Replacement of Infeasible
+Ancillary Service Due to Transmission Constraints.
+
+In the event the Commission adopts both of the recommendations contained in this letter, ERCOT
+should complete them in order: resettle the day-ahead market to cap the AS prices first, then
+initiate the "failure to provide" settlement.
+As always, the IMM stands ready to address any questions the Commission may have regarding
+these recommendations or the outcomes in the ERCOT wholesale market.
+
+Sincerely,
+
+/ 0.
+Carrie Bivens
+VP, ERCOT IMM Director
+Potomac Economics
+M: 512-879-7971
+cbivens(ajpotomaceconomics.com
+
+3
+
+

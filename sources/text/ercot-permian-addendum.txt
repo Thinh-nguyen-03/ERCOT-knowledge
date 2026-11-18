@@ -1,0 +1,709 @@
+PUBL~ 4
+
+~* TEX>~
+Filing Receipt
+Filing Date - 2024-09-11 03:50:32 PM
+
+Control Number - 55718
+Item Number - 42
+
+~rcot*
+
+TAYLOR
+
+AUSTIN
+
+2705 West Lake Dr.
+
+8000 Metropolis Dr.
+Bldg. E, Suite 100
+Austin, Texas 78744
+T: 512-225-7000
+R 512-225-7079
+
+Taylor, Texas 76574
+T: 512248=3000
+F: 512-225-7079
+
+Your Power. Our Promise.
+
+ercot.com
+
+September 11, 2024
+Public Utility Commission of Texas
+Chairman, Thomas J. Gleeson
+Commissioner Kathleen Jackson
+Commissioner Lori Cobos
+Commissioner Jimmy Glotfelty
+Commissioner Courtney Hj altman
+1701 N. Congress Avenue
+Austin, TX 78711
+Re :
+
+PUC ProjedNo . 5511%, Reliability Planfor the Permian Basin under PURA § 39. 167
+
+Dear Chairman and Commissioners:
+Attached for your consideration is a brief addendum to the Permian Basin Reliability Plan
+Study ERCOT filed on July 25,2024. This addendum identifies a new endpoint for 345-kV Import
+Path 4, which is one of the 345-kV import path options identified in ERCOT' s original study. As
+explained in the addendum, the new endpoint recommended for Import Path 4 better aligns with the
+load and generation patterns identified in ERCOT's initial 2024 Regional Transmission Plan (RTP)
+
+results.
+One important incidental benefit to this new endpoint is that it would better align with the
+"alternative stage two" recommendation identified by Commission Staff' s memorandum filed on
+September 7, 2024. Under that alternative recommendation, the Commission would authorize
+Transmission Service Providers (TSP) to begin certain preparatory work for both 345-kV and 765kV import path options while a final decision on voltage level is pending. The updated endpoint for
+Import Path 4, as described in the addendum, would provide for additional commonality in the rights
+
+of way needed for the 345-kV and 765-kV options should the Commission choose to accept Staff' s
+alternative recommendation. For the Commission' s benefit, I note that ERCOT has no concern with
+Commission Staff' s primary recommendation or its alternative stage two recommendation.
+Thank you for your consideration of this addendum. ERCOT would be pleased to provide
+any additional information you may need in evaluating the Permian Basin Reliability Plan.
+Respectfully submitted,
+
+/s/ Kristi Hobbs
+Kristi Hobbs
+Vice President, System Planning & Weatherization
+
+kristi.hobbs(@ercot.com
+
+ERCOT Public
+
+REPORT
+
+ercot9
+
+ERCOT Permian Basln Rellabality P~an Study - Addendum
+September 2024
+
+ERCOT
+
+September 2024
+
+ERCOT Permian Basin Reliability Plan Study Addendum
+
+ERCOT Public
+
+Document Revasaons
+Date
+
+Version
+
+Description
+
+Author(s)
+
+09/11/2024
+
+1.0
+
+Final Report
+
+Ying Li, Scott Zuloaga
+
+Reviewed by
+
+Robert Golen, Sun Wook Kang, Prabhu Gnanam
+
+© 2024 ERCOT
+All rights reserved.
+
+1
+
+ERCOT Permian Basin Reliability Plan Study Addendum
+
+ERCOT Public
+
+Addendum
+On July 25,2024, ERCOT submitted the Reliability Plan forthe Permian Basin Region as directed by
+the Public Utility Commission of Texas (Commission) in its December 14, 2023 order. The Reliability
+Plan identifies the transmission facilities needed to meet the forecasted demand in the Permian Basin
+region of Texas.
+ERCOT is submitting this addendum to the Reliability Plan for the Permian Basin Region to change
+the recommended endpoint of one of the 345-kV import paths, Import Path 4. Specifically, ERCOT
+now recommends that this Import Path 4 should terminate at Howard 345-kV instead of Fowlerton
+345-kV. This change will require the addition of a new 345-kV substation-"New Substation 3"-in
+place of the proposed new Hamilton 345-kV substation. ERCOT is recommending this change to the
+endpoint of Import Path 4 to better accommodate the changing load and generation patterns across
+the larger system, as identified in the initial 2024 Regional Transmission Plan (RTP). ERCOT has
+conducted additional reliability assessments consistent with the methodology identified in the Permian
+Basin Reliability Plan Study and confirmed that the proposed new endpoint to Import Path 4 meets the
+overall reliability need and performance of the 345-kV import path in the Permian Basin Reliability Plan
+Study. Figure 1.1 shows the original proposed 345-kV import paths for 2038, and Figure 1.2 shows
+the modified 345-kV import paths for 2038.
+Modified Import Path 4:
+·
+
+Construct a new 345-kV "New Substation 3" substation. Add new dynamic reactive devices
+(350 MVAr) at New Substation 3 345-kV substation; and
+
+·
+
+Add new Howard - New Substation 3 - Bottlebrush - Solstice 345-kV double-circuit lines with
+a normal and emergency rating of at Ieast 2988 MVA percircuit. This will require approximately
+370 miles of new right of way (ROW).
+
+© 2024 ERCOT
+All rights reserved.
+
+2
+
+ERCOT Permian Basin Reliability Plan Study Addendum
+
+ERCOT Public
+. White
+
+Map Legend
+- Existing 138-kV Line
+
+" [!liver
+
+"
+
+I 1*'
+
+1.
+Lubb#'
+
+1
+
+//
+
+11
+
+Il ' /
+
+Existing 345-kV Line
+New 345-kV Line under RPG Review
+---- Proposed New 345-kV Line
+---- Proposed New 500-kV Line
+---- Proposed New 765-kV Line
+0 Existing Substation
+New/Converted 345-kV Substation
+Permian Basin Region
+-
+
+$. -
+
+//
+
+li
+
+Lamesa
+
+~'Long OI?W
+
+'Faraday · ·- -
+
+-.+Lr- ·,
+
+-
+
+Gearfork Rogtound
+
+p
+
+New Substation 2 t''
+
+#
+
+Drill Hole Border ->~
+ce6tral
+, *'
+Bluff
+~- fl_ Sand
+*'= =~ i=·-4- =.=I = Iv~b<1
+·,·. r, ,- rt-ongshore Butte
+nche
+toma
+- - 4~='3 ~ * = Twin
+Switch
+
+Sam Swjtch
+
+--
+
+Lake-r
+
+~' „L
+
+. v .
+
+·
+
+*:al -
+
+e -4 King'
+¥, , -Creosot - MountaiD- ===- - -
+
+*·«Ioyab- ; =#
+Lyn)C IH-d-*-+======= ,f~~~a~t~o~f
+==
+Faulkner 4.reeK,
+«
+d
+->-lk.Nevil Roa
+v ·.'
+4- Bakersfield
+Solstice * .
+/,* * „ white Baker
+
+Bii Hill
+
+4„
+
+Bottlebrush~ +
+
+~.4 $ */1/~
+
+»J
+
+*.
+
+1. P-
+
+=x
+
+11
+
+-2-U
+
+Buckhorn~ = :: = - Beilfast
+
+1
+
+; N b, L L
+
+L I
+
+Z
+
+*
+
+.
+
+% 1-amilton
+
+.*.
+
+'* Fowlerton
+
+Figure 1.1: 345-kV Import Paths in 2038
+l
+
+White
+
+Map legend
+
+'i. j-!Myer
+
+4 =='
+
+F
+
+-
+
+Existing 138 kVLine
+Existing 345-kV Line
+New 345-kV line under RPG Review
+- - - - Proposed New 345-kV Line
+
+4
+
+Lu.:J i
+
+'
+
+---- Proposed New 500-kV Line
+
+1"r
+1
+
+1 "
+
+--- Proposed New 765-kV Line
+O Existing Substation
+
+Lamesa.
+
+.
+;4_ong Dr~y
+
+''' ' *Farnday
+
+New/Converted 345-kV Substation
+
+--' -1~~~---,7
+
+Permian Basin Region
+
+j New Subsration 2 w
+
+-----=..=:
+L
+>0* .3.~.,=======**f=====------- *- Sam Switch
+Drill Hole Border
+.'.....=.P=..
+'$ :,.1'-Cd=.....fo,t-1
+t
+31
+/
+tomanche
+,
+·
+·
+„e
+lake '
+*'earfork
+
+*
+
+f
+
+Rockhound
+
+*,.ffL
+
+Cefitrai
+Bluff
+
+Longshole
+
+-* * *
+
+Twin BI.Itte=..~i..0'~--
+
+(Ireosote
+
+Faulknet>'§=ek
+
+King "
+
+~ _ =='.*
+
+naCA,rlt
+
+a~p.. • ·-
+
+7
+
+Switch
+
+-.New-x:zz:_*-" -*.
+-
+
+-
+
+Lynx , -- ==========·.StrbRMbnl
+
+- -'. lilevil Road
+
+, bakersfield
+
+Solsti~%°·.:. /fWh
+ite Baker
+:Bottlebrush- '~k. -
+
+Buckhor,E ~Z-+ Bell East
+
+Big Hill
+'
+
+---
+
+--
+
+- ·4 .
+
+New Substation 3
+
+t
+
+J
+
+t,
+Howard
+
+Figure 1.2: Modified 345-kV Import Paths in 2038
+
+© 2024 ERCOT
+All rights reserved.
+
+3
+
+ERCOT Permian Basin Reliability Plan Study Addendum
+
+ERCOT Public
+
+ERCOT does not anticipate any significant difference in new ROW requirements and anticipates the
+cost of the 2038 345-kV import path plan with the modified Import Path 4 would be consistent with the
+cost estimate provided in the Permian Basin Reliability Plan Study. Table 1 shows the complete list of
+345-kV import paths and associated incremental local transmission upgrades for 2038, including the
+modified Import Path 4.
+Table 1: Modified 2038 345-kV Import Paths and Associated Incremental Local Transmission Upgrades
+
+Proposed Transmission Upgrades
+(Note: Assumed ratings can be found in Section 5)
+
+Project ID
+
+Year of Study
+Case with
+Reliability Need
+Starting to
+
+Appear
+Import 1
+
+111
+
+Import 1
+
+Construct a new 345-kV New Substation 2, about 2 miles southeast of the
+existing Comanche Peak Switch, cutting into the existing Comanche Peak
+- Wolf Hollow/Mitchell Bend 345-kV double-circuit line and Comanche
+Peak - Timberview/Johnson 345-kV double-circuit line
+Add a new New Substation 2 - Comanche Switch 345-kV double-circuit
+
+line
+
+2030
+2030
+
+Import 1
+
+Add a new New Substation 2 - Central Bluff 345-kV double-circuit line
+
+2038
+
+Import 1
+
+Add a new Central Bluff- Longshore 345-kV double-circuit line
+
+2038
+
+Import 1
+
+Add a new Longshore - Rockhound 345-kV double-circuit line
+
+Import 1
+
+Add a new Moss - Border 345-kV double-circuit line
+
+Import 2
+
+Add a new Sam Switch - Comanche Switch 345-kV double-circuit line
+
+2038
+2038
+2030
+
+Import 2
+
+Add a new Comanche Switch - Twin Butte 345-kV double-circuit line
+
+2030
+
+Import 2
+
+Add a new Twin Butte - King Mountain 345-kV double-circuit line
+
+2030
+2038
+
+Import 3
+
+Add a new Bell East - Buckhorn 345-kV double-circuit line
+
+Import 3
+
+Establish a new New Substation 1 345-kV substation cutting into the
+existing Big Hill - Twin Butte 345-kV line, about 16 miles away from Big Hill
+
+2038
+
+Import 3
+
+Add a new Buckhorn - New Substation 1 345-kV double-circuit line
+
+2038
+
+Import 3
+
+Add a new New Substation 1 - Nevil Road 345-kV double-circuit line
+
+2038
+
+Import 3
+
+Establish a new Lynx 345-kV Station at the existing Lynx station
+
+2038
+
+Import 3
+
+Add a new Nevil Road - Lynx 345-kV double-circuit line
+
+2038
+
+Import 4
+
+Establish a new 345-kV New Substation 3 substation
+
+2030
+
+Import 4
+
+Add a new Howard - New Substation 3 345-kV double-circuit line
+
+2030
+
+Import 4
+
+Add a new New Substation 3 - Bottlebrush 345-kV double-circuit line
+
+2030
+
+Import 4
+
+Add a new Bottlebrush - Solstice 345-kV double-circuit line
+
+2030
+
+Import 4
+Import Al
+Import A2
+
+L2
+L2
+
+Add dynamic reactive devices (e.g., Synchronous Condenser) at New
+Substation 3
+Bypass the series capacitors at Edison and add dynamic reactive devices
+(e.g., Synchronous Condenser) at Edison
+Add a new White River - Long Draw 345-kV double-circuit line
+Establish a new Border 345/138-kV substation and install two new
+345/138-kV transformers
+Loop the Stage 5 upgrade of new Clearfork - Drill Hole 345-kV doublecircuit line into the new Border 345-kV substation
+
+1,832.0
+
+1,447.7
+
+1,679.7
+
+2,062.9
+
+2030
+2030
+
+120.0
+
+2038
+
+538.6
+
+2038
+95.0
+
+2038
+
+L2
+
+Add a new Border- Quarry Field 345-kV double-circuit line
+
+2038
+
+L6
+
+Upgrade the existing Cowpen - Birds of Pray Tap 138-kV line
+
+2038
+
+© 2024 ERCOT
+All rights reserved.
+
+Approximate
+Cost
+Estimate
+($M)
+
+2.0
+
+4
+
+ERCOT Permian Basin Reliability Plan Study Addendum
+
+Project ID
+
+Proposed Transmission Upgrades
+(Note: Assumed ratings can be found in Section 5)
+
+L7
+
+Add a new King Mountain - Creosote 345-kV double-circuit line
+
+ERCOT Public
+
+Year of Study
+Case with
+Reliability Need
+Starting to
+
+Appear
+L9
+L9
+
+Establish a new FT Stockton Switch 345/138-kV substation at the existing
+FT Stockton Switch and install three new 345/138-kV transformers
+Loop the existing Solstice - Bakersfield 345-kV double-circuit line into the
+new FT Stockton Switch 345-kV substation
+
+L13
+L16
+L16
+L16
+
+Upgrade the existing White Baker - Bottlebrush 138-kV line
+Upgrade the existing Moss - Midland County NW 345-kV line and add a
+
+second circuit
+Upgrade the existing Gardendale - Clearfork 345-kV line and add a
+
+second circuit
+Upgrade the existing Gardendale - Telephone Road 345-kV line and add a
+
+© 2024 ERCOT
+All rights reserved.
+
+second circuit
+
+Approximate
+Cost
+Estimate
+($M)
+
+2030
+
+340.0
+
+2038
+104.1
+
+2038
+2030
+
+41.8
+
+2030
+2030
+
+649.0
+
+2030
+
+5
+
+

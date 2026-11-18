@@ -1,0 +1,12 @@
+{
+ "id": "eia-glossary-heat-rate",
+ "title": "EIA Glossary: Heat rate",
+ "publisher": "U.S. Energy Information Administration",
+ "tier": 2,
+ "edition": null,
+ "url": "https://www.eia.gov/tools/glossary/index.php?id=Heat%20rate",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 47168,
+ "raw_sha256": "e66ee56376046e18eb323d1b0ab96da28e2a90392fb81ac5d3007caa19357493",
+ "text_chars": 5034
+}

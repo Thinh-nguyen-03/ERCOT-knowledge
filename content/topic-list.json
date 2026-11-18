@@ -381,7 +381,7 @@
   },
   {
    "id": "market-power-mitigation",
-   "name": "Market Power Mitigation (TPS Test, Mitigated Offer Caps)",
+   "name": "Market Power Mitigation (Competitiveness Tests, Mitigated Offer Caps)",
    "kind": "rule",
    "domain": "pricing"
   },

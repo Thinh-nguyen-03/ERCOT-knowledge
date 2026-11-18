@@ -1,0 +1,121 @@
+Winter Storm Fern – January 2026
+
+POST-EVENT
+REPORT
+Winter Storm Fern – January 2026
+Summary
+During Winter Storm Fern, ERCOT successfully managed the Texas electric grid
+through a period of extreme cold and freezing precipitation, utilizing available tools and
+resources to ensure electricity demand was met safely and reliably. The statewide grid
+performed well; ERCOT did not need to call for conservation, did not issue an Energy
+Emergency Alert (EEA), and there were no systemwide power outages.
+ERCOT’s pre-storm preparation included working with the generation and transmission
+operators to meet the anticipated high demand. ERCOT also worked closely with state
+and federal partners before and during the storm, including the Texas Energy Reliability
+Council (TERC), Public Utility Commission of Texas (PUCT), Texas Division of
+Emergency Management (TDEM), and Texas Commission on Environmental Quality
+(TCEQ). Additionally, ERCOT collaborated with large customers (such as data centers
+and crypto facilities) for their awareness of grid conditions.
+Since 2021, ERCOT, PUCT, Texas Legislature, and stakeholders have worked
+collaboratively to strengthen the ERCOT grid’s reliability and resiliency. While work will
+continue, these improvements have made a positive impact.
+
+ERCOT | January 28, 2026
+
+1
+
+Winter Storm Fern – January 2026
+
+Winter Storm Preparation
+Key preparations and improvements included:
+•
+
+Mandatory weatherization and inspections
+Power plants and transmission facilities are required to be weatherized for
+extreme weather events. ERCOT conducts regular inspections and plans to
+complete at least 450 inspections during this winter season.
+
+•
+
+More reserve power available
+ERCOT increased the amount of backup electricity available to respond quickly if
+a power plant unexpectedly goes offline.
+
+•
+
+Earlier and more flexible grid operations
+ERCOT can bring power generation online earlier during periods of high demand
+to reduce risk during extreme weather.
+
+•
+
+Leveraging Real-Time Co-optimization Plus Batteries (RTC+B)
+A new market design change implemented in December 2025 better optimizes
+energy reserves with real-time energy needs and incorporates battery resources,
+improving grid flexibility and stability.
+
+•
+
+Backup fuel options for generators
+Some power plants now have additional on-site fuel available if natural gas
+supplies are constrained.
+
+•
+
+Improved coordination with state agencies
+ERCOT strengthened communication and information sharing with emergency
+management and reliability partners.
+
+•
+
+TCEQ enforcement discretion and Department of Energy (DOE) Orders
+obtained in advance of potential emergency operations and are used when
+necessary.
+
+ERCOT | January 28, 2026
+
+2
+
+Winter Storm Fern – January 2026
+
+Winter Storm Management
+ERCOT managed grid operations around the clock, balancing electricity supply
+and demand throughout Winter Storm Fern. Electricity demand was high but lower
+than originally forecast, primarily due to two factors:
+•
+
+Weather conditions
+Increased cloud cover over parts of North Texas and Coastal Texas led to slightly
+warmer temperatures than expected in those areas, reducing usage of heaters,
+which lowered demand.
+
+•
+
+School and business closures
+Widespread closures across the state lowered electricity use, particularly during
+daytime hours.
+
+Some localized outages did occur due to ice accumulation on power lines and other
+conditions (trees falling on lines, etc.). These were managed by local electric utilities
+and were not related to issues on the ERCOT grid.
+
+Communicating with Texans
+ERCOT provided early notice and frequent updates before and during the storm.
+•
+•
+
+•
+
+On January 21, ERCOT issued a Weather Watch to alert Texans of expected
+extreme cold and higher electricity demand with the potential for lower reserves.
+ERCOT shared consistent updates through a news release, social media posts,
+website messages, and the ERCOT mobile app alert, in both English and
+Spanish.
+The public dashboards on ERCOT.com provided stakeholders real-time
+information on grid conditions.
+
+ERCOT | January 28, 2026
+
+3
+
+

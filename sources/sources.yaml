@@ -404,3 +404,568 @@ sources:
     tier: 2
     kind: html
     url: "https://www.eia.gov/todayinenergy/detail.php?id=47116"
+  - id: puct-25-194
+    title: "PUCT Substantive Rule 16 TAC §25.194, Large Load Interconnection Standards"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.194/25.194.pdf"
+  - id: puct-25-205
+    title: "PUCT Substantive Rule 16 TAC §25.205 (net metering arrangements for large loads co-located with generation)"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.205/25.205.pdf"
+  - id: puct-58482-pfp
+    title: "PUCT Project 58482, Proposal for Publication of new §25.521, Large Load Demand Management Service (not yet adopted)"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    edition: "proposed 2026"
+    url: "https://interchange.puc.texas.gov/Documents/58482_30_1669532.PDF"
+  - id: ercot-nprr1325-puct-report
+    title: "NPRR1325 PUCT Report (Batch Zero large load interconnection study)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "2026-06-18"
+    url: "https://www.ercot.com/files/docs/2026/06/22/1325NPRR-18-PUCT-Report-061826.docx"
+  - id: ercot-pgrr145-puct-report
+    title: "PGRR145 PUCT Report (Batch Zero; Planning Guide Section 9)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "2026-06-18"
+    url: "https://www.ercot.com/files/docs/2026/06/22/145PGRR-130-PUCT-Report-061826.docx"
+  - id: ercot-batch-zero-explainer
+    title: "Trending Topics: ERCOT's New Batch Connection Process for Large Electricity Users"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-06-18"
+    url: "https://www.ercot.com/files/docs/2026/06/18/Trending-Topics-ERCOT-s-New-Batch-Connection-Process-for-Large-Electricity-Users-v2.pdf"
+  - id: puct-59142-good-cause-order
+    title: "PUCT Project 59142, Order Granting Good Cause Exceptions (Batch Zero deadlines)"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    edition: "2026-08-20"
+    url: "https://interchange.puc.texas.gov/Documents/59142_53_1675960.PDF"
+  - id: ercot-interconnection-update-2026-09
+    title: "Interconnection and Grid Analysis Update to the Board (revised)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-09-17"
+    url: "https://www.ercot.com/files/docs/2026/09/17/10-Interconnection-and-Grid-Analysis-Update-REVISED.pdf"
+  - id: ercot-large-load-update-2026-04
+    title: "ERCOT Large Load Update"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "April 2026"
+    url: "https://www.ercot.com/files/docs/2026/04/01/ERCOT_LargeLoad_Update_April2026_B-C_-Hearing.pdf"
+  - id: ercot-large-load-qa
+    title: "Large Load Interconnection Process Q&A"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2025-12-24"
+    url: "https://www.ercot.com/files/docs/2025/12/24/Large-Load-Interconnection-Process-Q-A.pdf"
+  - id: ercot-senate-2026-07
+    title: "ERCOT presentation to the Texas Senate, Assessing the Grid"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-07-29"
+    url: "https://www.ercot.com/files/docs/2026/07/29/ERCOT-Senate-July-29-Panel-1-Assessing-The-Grid.pdf"
+  - id: ercot-planning-guide-09
+    title: "ERCOT Planning Guide Section 9, Large Load Interconnection or Modification"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2026-07-11"
+    url: "https://www.ercot.com/files/docs/2011/04/28/09-071126.docx"
+  - id: ercot-planning-guide-05
+    title: "ERCOT Planning Guide Section 5, Generator Interconnection or Modification"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2026-08-01"
+    url: "https://www.ercot.com/files/docs/2025/12/01/05-080126.docx"
+  - id: ercot-batch-zero-gen-assumptions
+    title: "Batch Zero Interconnection Study Generation Assumption Discussion (RPG)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-09-22"
+    url: "https://www.ercot.com/files/docs/2026/09/22/9.-Batch-Zero-Interconnection_Study_Generation_Assumption_Discussion_RPG_September_2026.pdf"
+  - id: ercot-ltlf-2025
+    title: "2025 ERCOT Long-Term Load Forecast Report"
+    publisher: "ERCOT"
+    tier: 2
+    kind: docx
+    edition: "April 2025"
+    url: "https://www.ercot.com/files/docs/2025/04/08/2025_LTLF_Report.docx"
+  - id: ercot-ltlf-2026-prelim
+    title: "Preliminary Long-Term Load Forecast for 2026-2032 (PUCT Project 58777 filing)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-04-15"
+    url: "https://interchange.puc.texas.gov/Documents/58777_38_1622647.PDF"
+  - id: ercot-ltlf-2026-adjust-proposal
+    title: "ERCOT Proposal to Adjust the Load Forecast (PUCT Project 59772)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "May 2026"
+    url: "https://interchange.puc.texas.gov/Documents/59772_1_1645544.PDF"
+  - id: puct-59772-order
+    title: "PUCT Project 59772, Order Granting ERCOT's Load Forecast Adjustment Request"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    edition: "June 2026"
+    url: "https://interchange.puc.texas.gov/Documents/59772_18_1658216.PDF"
+  - id: ercot-permian-addendum
+    title: "Permian Basin Reliability Plan Study Addendum"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2024-09-11"
+    url: "https://interchange.puc.texas.gov/Documents/55718_42_1427174.PDF"
+  - id: puct-permian-order-1
+    title: "PUCT Project 55718, Order Approving the Reliability Plan for the Permian Basin Region"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    edition: "2024-10-07"
+    url: "https://interchange.puc.texas.gov/Documents/55718_52_1433300.PDF"
+  - id: puct-permian-order-2
+    title: "PUCT Project 55718, Second Order Approving the Reliability Plan for the Permian Basin Region (765 kV)"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    edition: "2025-04-24"
+    url: "https://interchange.puc.texas.gov/Documents/55718_109_1492424.PDF"
+  - id: ercot-rtp-765-comparison
+    title: "2024 Regional Transmission Plan 345-kV Plan and Texas 765-kV Strategic Transmission Expansion Plan Comparison"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2025-01-27"
+    url: "https://www.ercot.com/files/docs/2025/01/27/2024-regional-transmission-plan-rtp-345-kv-plan-and-texas-765-kv-strategic-transmission-expans.pdf"
+  - id: ercot-permian-geren-response
+    title: "ERCOT response to Rep. Geren on the Permian Basin plan"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-08-12"
+    url: "https://www.ercot.com/files/docs/2026/08/20/Rep.-Geren-Response-2026-08-12.pdf"
+  - id: ercot-constraints-needs-2025
+    title: "2025 Report on Existing and Potential Electric System Constraints and Needs"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "December 2025"
+    url: "https://www.ercot.com/files/docs/2025/12/23/2025-Report-on-Existing-and-Potential-Electric-System-Constraints-and-Needs.pdf"
+  - id: ercot-monthly-2026-06
+    title: "ERCOT Monthly, June 2026"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-07-10"
+    url: "https://www.ercot.com/files/docs/2026/07/10/ERCOT-Monthly-June-2026-FINAL.pdf"
+  - id: ercot-drrs-workshop-3
+    title: "TAC DRRS Workshop 3"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-03-09"
+    url: "https://www.ercot.com/files/docs/2026/03/06/TAC-DRRS-Workshop-3-03092026.pdf"
+  - id: ercot-nprr1309-puct-report
+    title: "NPRR1309 PUCT Report (Dispatchable Reliability Reserve Service)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "2026-07-09"
+    url: "https://www.ercot.com/files/docs/2026/07/11/1309NPRR-35-PUCT-Report-070926.docx"
+  - id: ercot-nprr1309-board-priority
+    title: "Board item 6.1: NPRR1309 Dispatchable Reliability Reserve Service and NOGRR283"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2025-12-04"
+    url: "https://www.ercot.com/files/docs/2025/12/04/6.1-NPRR1309-Dispatchable-Reliability-Reserve-Service-Ancillary-Service-and-NOGRR283.pdf"
+  - id: puct-58000-pfp
+    title: "PUCT Project 58000, Proposal for Publication: amendments to §25.192, §25.193 and new §25.252 (transmission cost recovery / 4CP)"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    edition: "2026-07-09, proposed"
+    url: "https://www.ercot.com/files/docs/2026/07/23/PUCT-Project-58000-pfp_adopted-9-July-2026.pdf"
+  - id: puct-25-192
+    title: "PUCT Substantive Rule 16 TAC §25.192, Transmission Service Rates"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.192/25.192.pdf"
+  - id: puct-25-193
+    title: "PUCT Substantive Rule 16 TAC §25.193, Distribution Service Provider Transmission Cost Recovery Factors"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.193/25.193.pdf"
+  - id: puct-58484-draft-report
+    title: "PUCT Project 58484, Evaluation of Transmission Cost Recovery: Staff Draft Report"
+    publisher: "PUCT"
+    tier: 2
+    kind: pdf
+    edition: "2026-03-16, draft"
+    url: "https://interchange.puc.texas.gov/Documents/58484_77_1603622.PDF"
+  - id: ercot-fern-post-event
+    title: "ERCOT Post-Event Report, Winter Storm Fern"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-01-28"
+    url: "https://www.ercot.com/files/docs/2026/01/28/ERCOT-Post-Event-Report-Winter-Storm-Fern.pdf"
+  - id: ercot-fern-board-sysops
+    title: "Board item 9.3 System Operations Update (Winter Storm Fern)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-02-04"
+    url: "https://www.ercot.com/files/docs/2026/02/04/9.3-System-Operations-Update-REVISED.pdf"
+  - id: ercot-fern-outage-review
+    title: "Winter Storm Fern Forced Outage Review"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-11-04"
+    url: "https://www.ercot.com/files/docs/2026/11/04/Winter-Storm-Fern-Forced-Outage-Review-Inspection-Process-Refreshers-Cyle-Lublin.pdf"
+  - id: ercot-monthly-ops-2026-07
+    title: "ERCOT Monthly Operational Overview, July 2026"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-08-17"
+    url: "https://www.ercot.com/files/docs/2026/08/17/ERCOT-Monthly-Operational-Overview-July-2026.pdf"
+  - id: ercot-annual-report-2025
+    title: "2025 ERCOT Annual Report"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "March 2026"
+    url: "https://www.ercot.com/files/docs/2026/03/19/2025-ERCOT-Annual-Report-Final-Single-Pages-March-19-2026.pdf"
+  - id: puct-25-510
+    title: "PUCT Substantive Rule 16 TAC §25.510, Texas Energy Fund In-ERCOT Generation Loan Program"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.510/25.510.pdf"
+  - id: puct-25-511
+    title: "PUCT Substantive Rule 16 TAC §25.511, Texas Energy Fund Completion Bonus Grant Program"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.511/25.511.pdf"
+  - id: puct-25-520
+    title: "PUCT Substantive Rule 16 TAC §25.520, Firm Fuel Supply Service"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.520/25.520.pdf"
+  - id: puct-25-43
+    title: "PUCT Substantive Rule 16 TAC §25.43, Provider of Last Resort (POLR)"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.43/25.43.pdf"
+  - id: puct-25-174
+    title: "PUCT Substantive Rule 16 TAC §25.174, Competitive Renewable Energy Zones"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.174/25.174.pdf"
+  - id: puct-25-101
+    title: "PUCT Substantive Rule 16 TAC §25.101, Certification Criteria"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.101/25.101.pdf"
+  - id: puct-25-52
+    title: "PUCT Substantive Rule 16 TAC §25.52, Reliability and Continuity of Service"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.52/25.52.pdf"
+  - id: puct-25-53
+    title: "PUCT Substantive Rule 16 TAC §25.53, Electric Service Emergency Operations Plans"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.53/25.53.pdf"
+  - id: puct-25-195
+    title: "PUCT Substantive Rule 16 TAC §25.195, Terms and Conditions for Transmission Service"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.195/25.195.pdf"
+  - id: puct-tef-faq
+    title: "Texas Energy Fund FAQ"
+    publisher: "PUCT"
+    tier: 2
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/industry/electric/business/texas-energy-fund/TEF_FAQ.pdf"
+  - id: puct-tef-fifth-grant
+    title: "PUCT news release: Agreement for Fifth Texas Energy Fund Completion Bonus Grant"
+    publisher: "PUCT"
+    tier: 2
+    kind: pdf
+    edition: "June 2026"
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/resources/pubs/news/2026/PUCT-Executes-Agreement-for-Fifth-Texas-Energy-Fund-Completion-Bonus-Grant.pdf"
+  - id: puct-pcm-staff-rec
+    title: "PUCT Project 55000, Staff Recommendation on the Performance Credit Mechanism"
+    publisher: "PUCT"
+    tier: 2
+    kind: pdf
+    edition: "December 2024"
+    url: "https://interchange.puc.texas.gov/Documents/55000_47_1449541.PDF"
+  - id: puct-pcm-chair-memo
+    title: "PUCT Project 55000, Chairman Gleeson memorandum on the Performance Credit Mechanism"
+    publisher: "PUCT"
+    tier: 2
+    kind: pdf
+    edition: "December 2024"
+    url: "https://interchange.puc.texas.gov/Documents/55000_48_1450615.PDF"
+  - id: fed-pl-119-21
+    title: "Public Law 119-21 (2025 budget reconciliation act)"
+    publisher: "U.S. Congress"
+    tier: 1
+    kind: html
+    edition: "2025-07-04"
+    url: "https://www.congress.gov/119/plaws/publ21/PLAW-119publ21.htm"
+  - id: imm-som-2023
+    title: "2023 State of the Market Report for the ERCOT Electricity Markets"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: pdf
+    edition: "published 2024"
+    url: "https://www.potomaceconomics.com/wp-content/uploads/2024/05/2023-State-of-the-Market-Report_Final.pdf"
+  - id: imm-som-2022
+    title: "2022 State of the Market Report for the ERCOT Electricity Markets"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: pdf
+    edition: "published 2023"
+    url: "https://ftp.puc.texas.gov/public/puct-info/industry/electric/reports/ERCOT_annual_reports/2022annualreport.pdf"
+  - id: imm-som-2021
+    title: "2021 State of the Market Report for the ERCOT Electricity Markets"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: pdf
+    edition: "published 2022"
+    url: "https://potomaceconomics.com/wp-content/uploads/2022/05/2021-State-of-the-Market-Report.pdf"
+  - id: ercot-as-methodology-2027
+    title: "Recommendation regarding 2027 ERCOT Methodologies for Determining Minimum Ancillary Service Requirements (Board)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-09-07"
+    url: "https://www.ercot.com/files/docs/2026/09/07/18-2027-ERCOT-Methodologies-for-Determining-Minimum-Ancillary-Service-Requirements.pdf"
+  - id: ercot-ordc-methodology-2016
+    title: "Methodology for Implementing Operating Reserve Demand Curve (historical Other Binding Document)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2016, historical"
+    url: "https://www.ercot.com/files/docs/2016/06/07/2.2_Other_Binding_Document__Methodology_for_Implementing_ORDC.pdf"
+  - id: np-22p
+    title: "ERCOT Nodal Protocols, Section 22 Attachment P: Methodology for Setting Maximum Shadow Prices for Network and Power Balance Constraints"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2025-04-01"
+    url: "https://ercot.com/files/docs/2024/04/30/22P-040125_Nodal.docx"
+  - id: ercot-ers-tech-req
+    title: "ERS Technical Requirements, October-November 2026"
+    publisher: "ERCOT"
+    tier: 2
+    kind: docx
+    edition: "2026-07-20"
+    url: "https://www.ercot.com/files/docs/2026/07/20/ERS-Technical-Requirements_OctNov26.docx"
+  - id: ercot-ffss-expectations
+    title: "Firm Fuel Supply Service Expectations v3"
+    publisher: "ERCOT"
+    tier: 2
+    kind: docx
+    edition: "2026-07-28"
+    url: "https://www.ercot.com/files/docs/2026/07/28/Firm-Fuel-Supply-Service-Expectations_v3.docx"
+  - id: ercot-ader-governing
+    title: "ADER Pilot Project Governing Document, Phase 3.3"
+    publisher: "ERCOT"
+    tier: 2
+    kind: docx
+    edition: "2026"
+    url: "https://www.ercot.com/files/docs/2026/03/02/ADER-Pilot-Project-Governing-Document-Phase-3.3.docx"
+  - id: ercot-elliott-board
+    title: "Review of Winter Storm Elliott (Board item 7)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2023-02-21"
+    url: "https://www.ercot.com/files/docs/2023/02/21/7-Review-of-Winter-Storm-Elliott.pdf"
+  - id: ercot-elliott-report
+    title: "December 2022 Cold Weather Operations Public Report"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2023-03-27"
+    url: "https://www.ercot.com/files/docs/2023/03/27/December-2022-Cold-Weather-Operations-Public-Report.pdf"
+  - id: ercot-eea2-2023-report
+    title: "ERCOT Report of Emergency Event, September 6, 2023 EEA2 (PUCT Project 54444)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2023-09-13"
+    url: "https://interchange.puc.texas.gov/Documents/54444_54_1329529.PDF"
+  - id: ercot-summer-2023-review
+    title: "Summer 2023 Operational and Market Review (Board)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2023-10-10"
+    url: "https://www.ercot.com/files/docs/2023/10/10/6%20Summer%202023%20Operational%20and%20Market%20Review%20v3.pdf"
+  - id: puct-51617-order-1
+    title: "PUCT Project 51617, Order Directing ERCOT to Take Action (February 15, 2021)"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    edition: "2021-02-15"
+    url: "https://interchange.puc.texas.gov/Documents/51617_3_1111656.PDF"
+  - id: puct-51617-order-2
+    title: "PUCT Project 51617, Second Order Directing ERCOT to Take Action (February 16, 2021)"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    edition: "2021-02-16"
+    url: "https://interchange.puc.texas.gov/Documents/51617_4_1111709.PDF"
+  - id: imm-uri-letter-1
+    title: "IMM letter to PUCT Commissioners on February 2021 pricing (Project 51812, item 34)"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: pdf
+    edition: "March 2021"
+    url: "https://interchange.puc.texas.gov/Documents/51812_34_1113309.PDF"
+  - id: imm-uri-letter-2
+    title: "IMM second letter to PUCT Commissioners (Project 51812, item 61)"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: pdf
+    edition: "March 2021"
+    url: "https://interchange.puc.texas.gov/Documents/51812_61_1114183.PDF"
+  - id: imm-uri-letter-3
+    title: "IMM follow-up letter to PUCT Commissioners (Project 51812, item 149)"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: pdf
+    edition: "March 2021"
+    url: "https://interchange.puc.texas.gov/Documents/51812_149_1115720.PDF"
+  - id: repricing-court-summary
+    title: "ERCOT Winter Storm Uri Repricing Decision from Third Court of Appeals (law-firm alert)"
+    publisher: "Haynes Boone"
+    tier: 3
+    kind: pdf
+    url: "https://www.haynesboone.com/news/alerts/ercot-winter-storm-uri-repricing-decision-from-third-court-of-appeals.pdf"
+  - id: eia-glossary-henry-hub
+    title: "EIA Glossary: Henry Hub"
+    publisher: "U.S. Energy Information Administration"
+    tier: 2
+    kind: html
+    url: "https://www.eia.gov/tools/glossary/index.php?id=Henry%20Hub"
+  - id: eia-glossary-heat-rate
+    title: "EIA Glossary: Heat rate"
+    publisher: "U.S. Energy Information Administration"
+    tier: 2
+    kind: html
+    url: "https://www.eia.gov/tools/glossary/index.php?id=Heat%20rate"
+  - id: eia-faq-heat-rate
+    title: "EIA FAQ: What is the efficiency of different types of power plants?"
+    publisher: "U.S. Energy Information Administration"
+    tier: 2
+    kind: html
+    url: "https://www.eia.gov/tools/faqs/faq.php?id=107&t=3"
+  - id: eia-waha-2024
+    title: "EIA Today in Energy: Natural gas spot prices fell across key hubs in 2024"
+    publisher: "U.S. Energy Information Administration"
+    tier: 2
+    kind: html
+    url: "https://www.eia.gov/todayinenergy/detail.php?id=64445"
+  - id: eia-gas-hubs
+    title: "EIA Today in Energy: Market dynamics vary at key natural gas pricing hubs"
+    publisher: "U.S. Energy Information Administration"
+    tier: 2
+    kind: html
+    url: "https://www.eia.gov/todayinenergy/detail.php?id=63504"
+  - id: eia-gas-2025
+    title: "EIA Today in Energy: 2025 U.S. natural gas spot prices increased from 2024's record low"
+    publisher: "U.S. Energy Information Administration"
+    tier: 2
+    kind: html
+    url: "https://www.eia.gov/todayinenergy/detail.php?id=66984"
+  - id: eia-tx-large-load
+    title: "EIA Today in Energy: Data centers and cryptocurrency mining in Texas drive strong power demand growth"
+    publisher: "U.S. Energy Information Administration"
+    tier: 2
+    kind: html
+    url: "https://www.eia.gov/todayinenergy/detail.php?id=63344"
+  - id: ice-ercot-north-peak
+    title: "ICE ERCOT North 345KV Real-Time Peak Fixed Price Future, contract specification"
+    publisher: "ICE Futures U.S."
+    tier: 2
+    kind: pdf
+    url: "https://www.ice.com/api/productguide/spec/6590337/pdf"
+  - id: ice-ercot-north-offpeak
+    title: "ICE ERCOT North 345KV Real-Time Off-Peak Fixed Price Future, contract specification"
+    publisher: "ICE Futures U.S."
+    tier: 2
+    kind: pdf
+    url: "https://www.ice.com/api/productguide/spec/6590406/pdf"
+  - id: pura-34
+    title: "Texas Utilities Code Chapter 34, Texas Energy Fund"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    url: "https://tcss.legis.texas.gov/resources/UT/htm/UT.34.htm"
+  - id: pura-36
+    title: "Texas Utilities Code Chapter 36, Rates"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    url: "https://tcss.legis.texas.gov/resources/UT/htm/UT.36.htm"
+  - id: pura-37
+    title: "Texas Utilities Code Chapter 37, Certificates of Convenience and Necessity"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    url: "https://tcss.legis.texas.gov/resources/UT/htm/UT.37.htm"
+  - id: pura-38
+    title: "Texas Utilities Code Chapter 38, Regulation of Electric Services"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    url: "https://tcss.legis.texas.gov/resources/UT/htm/UT.38.htm"
+  - id: pura-40
+    title: "Texas Utilities Code Chapter 40, Competition for Municipally Owned Utilities"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    url: "https://tcss.legis.texas.gov/resources/UT/htm/UT.40.htm"
+  - id: pura-41
+    title: "Texas Utilities Code Chapter 41, Electric Cooperatives and Competition"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    url: "https://tcss.legis.texas.gov/resources/UT/htm/UT.41.htm"

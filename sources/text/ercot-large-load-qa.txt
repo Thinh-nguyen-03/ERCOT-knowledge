@@ -1,0 +1,581 @@
+Questions and Answers About the
+Large Load Interconnection Process
+This document describes in question-and-answer format the process for
+interconnecting a large load to the ERCOT transmission system (Large Load
+Interconnection Process), from initiating an interconnection request through
+to energization and ongoing operations. It also explains some of the reasons
+that an entity seeking to interconnect to the ERCOT transmission system may
+be delayed or otherwise unable to energize its full load on its requested
+energization date.
+Unless otherwise noted, capitalized terms have the meaning defined in the
+ERCOT Protocols or Planning Guide.
+This question-and-answer document is provided solely for informational
+purposes. In the event of any conflict with the ERCOT Protocols or Planning
+Guide, those authorities would govern over this document.
+
+Overview
+Q: What is the purpose of the Large Load Interconnection Process?
+A: The Large Load Interconnection Process facilitates the reliable and
+orderly interconnection of large loads—i.e., customers with a peak demand
+of 75 MW or more at a single site. Each request to interconnect a large load
+is studied to identify potential system limitations using North American
+Electric Reliability Corporation (NERC) Reliability Standards, ERCOT
+Protocols, ERCOT Planning and Operating Guides, Transmission Service
+Provider (TSP) criteria, and other appropriate standards. It also determines
+what transmission facilities or operational limits are needed to avoid
+potential violations of operating standards.
+Q: How has the Large Load Interconnection Process in ERCOT
+evolved over time?
+A: In March 2022, ERCOT issued Market Notice W-A032522-01, Interim
+Large Load Interconnection Process, informing Market Participants that it
+was implementing an interim interconnection process for large load
+customers requesting to interconnect within two years or less. Prior to this,
+each Transmission Service Provider (TSP) conducted a decentralized
+interconnection process for any large loads proposing to connect in its area.
+1
+Rev. 12.15.25
+
+The interim process was needed to centrally address an increase in requests
+to interconnect large loads on accelerated timelines. The interim process has
+applied to both stand-alone large load customers and those co-locating with
+existing or planned generation.
+In 2024, ERCOT worked closely with stakeholders to formalize the Large
+Load Interconnection Process through Planning Guide Revision Request 115
+(PGRR115), which created new Section 9 of the Planning Guide. The
+Planning Guide revisions, along with several related changes to the ERCOT
+Protocols, were approved by the Public Utility Commission of Texas (Texas
+PUC) in May 2025.
+On November 25, 2025, ERCOT issued Market Notice M-A052125-02,
+Partial Implementation Details of NPRR1234/PGRR115, Interconnection
+Requirements for Large Loads and Modeling Standards for Loads 25 MW or
+Greater, informing all Market Participants that the requirements in
+PGRR115 would be effective on December 15, 2025. This question-andanswer document outlines how the interim process has worked and how
+implementation of Section 9 and other revisions in PGRR115 will change the
+process going forward. Upon implementation of PGRR115, large loads that
+have already begun the Large Load Interconnection Process will, in general,
+be required to comply with the remaining steps in the PGRR115 process but
+will not generally be required to complete any new PGRR115 requirements
+that would apply to an earlier stage of the interconnection process.
+During the 2025 legislative session, the Texas Legislature passed Texas
+Senate Bill 6, which includes a series of directives for the Texas PUC and
+ERCOT relating to large loads. Several of these directives will have an
+impact on the Large Load Interconnection Process. For example, the Texas
+PUC is required to establish interconnection standards for large load
+customers. The Texas PUC has initiated several rulemaking projects to
+implement Texas Senate Bill 6. An overview of those rulemaking efforts can
+be found here.
+Texas Senate Bill 6 also requires an operator of any existing generation
+resource that enters into a net metering arrangement with a new large load
+customer to request an ERCOT review of the arrangements and obtain
+approval from the Texas PUC (Net Metering Review). For more information
+about the Net Metering Review, please see Market Notice M-B090225-01,
+2
+Rev. 12.15.25
+
+List of Stand-Alone Generation Resources Subject to PURA Section 39.169
+Net Metering Review and Notice Form for Initiating ERCOT Impact Study.
+Q: Where can I find the Large Load Interconnection Process rules
+and other relevant information?
+A: The rules for the Large Load Interconnection Process can primarily be
+found in Section 9 of the Planning Guide. However, some requirements are
+in other sections of the Planning Guide. From time to time, ERCOT provides
+clarifications or notifications relevant to large load through Market Notices.
+ERCOT also has a stakeholder working group dedicated to collaboratively
+addressing large load issues, the Large Load Working Group (LLWG), and a
+Large Load Integration webpage with forms and other useful information.
+Q: How does ERCOT define a large load?
+A: The ERCOT Protocols define a “Large Load” as one or more facilities at a
+single site with an aggregate peak demand greater than or equal to 75 MW
+behind one or more common points of interconnection or service delivery
+points.
+Q: How does a large load customer know if it is subject to the Large
+Load Interconnection Process?
+A: The interim process has applied to: (1) new large loads not co-located with
+a Generation Resource with total demand within the next two years of 75
+MW or greater; (2) existing loads not co-located with a Generation Resource
+increasing total demand by 75 MW or greater within the next two years; (3)
+new loads co-located with a Generation Resource with total demand within
+the next two years of 20 MW or greater; and (4) existing loads co-located with
+a Generation Resource increasing total demand by 20 MW or greater within
+the next two years.
+PGRR115 Policy: New Planning Guide Section 9.2.1 addresses the
+applicability of the Large Load Interconnection Process. It eliminates the
+exemption for large loads interconnecting beyond the next two years, does
+not distinguish between loads that are co-located and not co-located with
+Generation Resources or Energy Storage Resources, and does not apply to
+loads under 75 MW.
+
+3
+Rev. 12.15.25
+
+Specifically, Section 9.2.1 states that the Large Load Interconnection Process
+applies to (1) a new Large Load; (2) modification of any existing load facility
+that increases the aggregate peak demand of the facility by 75 MW or more;
+or (3) modification of an existing large load that changes or adds a point of
+interconnection or service delivery point to a different electrical bus on a
+different electrical circuit.
+Q: What does it mean for a large load customer to net with an
+existing or new Generation Resource or Energy Storage Resource?
+A: A net metering arrangement involves a load and Generation Resource or
+Energy Storage Resource interconnecting at the same point and “netting”
+the load’s power consumption against the Resource’s power production for
+financial settlement purposes, in accordance with Protocols Section 10.3.2.3.
+Q: Are there different rules if a large load customer intends to net
+with an existing or planned generator?
+A: Yes. A new large load that would participate in a net metering
+arrangement with a new Generation Resource or Energy Storage Resource
+must be evaluated through the Large Load Interconnection Process, while
+the associated Generation Resource or Energy Storage Resource must go
+through the Generator Interconnection or Modification Process.
+If the net metering arrangement involves an existing “stand-alone”
+Generation Resource or Energy Storage Resource (i.e., one that was modeled
+in ERCOT’s systems as of September 1, 2025), the interconnecting large load
+customer must follow the Large Load Interconnection Process, and the
+existing Generation Resource or Energy Storage Resource and the
+interconnecting large load customer must also obtain approval through the
+Net Metering Review process described above before the load can be
+energized.
+Q: Can you explain the different project status categories in
+ERCOT’s “Actual and Projected Large Load Growth” chart?
+A: ERCOT publishes a chart each month showing the growth in large load
+over time. The following example is the most recent version published on
+November 18, 2025:
+
+4
+Rev. 12.15.25
+
+The chart groups projects into five categories according to project status. The
+categories are explained as follows:
+No Studies Submitted: This group includes all large load projects for
+which no Large Load Interconnection Study (LLIS) has been submitted to
+ERCOT by the TSP responsible for studying the project (see “TSP Reliability
+Studies” section below). Developers of large load projects that have just
+recently requested a LLIS or for which a LLIS is currently underway will be
+in this category. This category includes the majority of large loads that are
+currently in the interconnection process.
+Under ERCOT Review: This category corresponds to those large load
+projects for which an LLIS has been submitted to ERCOT by the TSP
+responsible for studying the project. ERCOT must review each LLIS study
+submitted by a TSP. This process may take a few days to many weeks,
+depending on the complexity of the studies and the need to obtain additional
+information from the TSP that conducted the study. ERCOT must often wait
+for TSPs to respond to questions during this period regarding the TSP’s
+study methods and assumptions and the characteristics of the load. Just
+because the project is pending under ERCOT review does not mean that the
+length of the ERCOT review period is entirely attributable to ERCOT’s
+actions. The quantity of large loads in the “Under ERCOT Review” category
+is second only to the loads in the “No Studies Submitted” category.
+5
+Rev. 12.15.25
+
+Planning Studies Approved: Once all concerns raised during ERCOT’s
+review of the LLIS have been resolved to ERCOT’s satisfaction, ERCOT will
+approve the studies and communicate the results of the study to the TSP
+responsible for interconnecting the customer. This approval gives the
+customer material information it needs to decide whether to sign an
+interconnection agreement and proceed with the development of project.
+Approved to Energize But Not Operational: When the developer of a
+large load project has completed construction of the project, it may seek
+approval from ERCOT to energize the project. If ERCOT determines that
+the load has completed all steps required to energize, it may grant the
+request. The conditions for energization are addressed in the section titled
+“Approval to Energize,” below. This is the smallest share (currently < 1%) of
+loads in the chart because loads that have received approval to energize
+typically do not delay energization for extended periods.
+Observed Energized: This category includes all large loads tracked by
+ERCOT since 2022 that have received approval by ERCOT to energize and
+that have been observed to be energized at some point. As of November 18,
+2025, ERCOT had identified 5,302 MW of large loads in this category, which
+constitutes approximately 2% of the total load in ERCOT’s large load
+interconnection process.
+
+Initiation of the Interconnection Process
+Q: How does a customer who wants to interconnect a large load
+initiate the Large Load Interconnection Process?
+A: Under the interim process, a customer interconnecting a large load would
+submit an interconnection request to the appropriate TSP. Each TSP has its
+own process for interconnecting large load customers, but the customer could
+expect the TSP to request detailed information about the planned large load,
+including the customer’s requested peak demand and requested energization
+date/in-service date, and collect a fee for processing the request. After the
+TSP was satisfied that it had the information it required, it would notify
+ERCOT of the interconnection request. ERCOT would then assign the large
+load customer a unique Large Load Interconnection identifier (LLI-#) and a
+kickoff meeting would be scheduled.
+
+6
+Rev. 12.15.25
+
+PGRR115 Policy (December 15, 2025 Implementation): Planning
+Guide Section 9.2.2 generally maintains the interim process but provides
+greater detail about the information that an interconnecting large load
+customer must provide to the TSP, including providing a preliminary Load
+Commissioning Plan. A Load Commissioning Plan specifies the load
+increments and timeline by which the interconnecting large load customer
+intends to reach peak Demand.
+Section 9.2.2 also requires the
+interconnecting large load customer, or the TSP on its behalf, to pay ERCOT
+an application fee separate from any fees that the TSP collects. The
+requirement to pay this fee is expected to be implemented next year.
+Q: What happens if the interconnecting large load customer makes
+a material change to its project?
+A: Under the interim process, the TSP was required to notify ERCOT of a
+material change in the project information provided by the customer, which
+could trigger the need for a full or partial re-study.
+PGRR115 Policy: Planning Guide Section 9.2.3 continues to require the
+TSP to notify ERCOT of any material changes in the project information.
+Material changes may necessitate full or partial re-studies. Such changes
+would include, but are not limited to, the following:
+⦁
+
+Changing the type of load (e.g., data center to hydrogen electrolyzer)
+or the mix of motor and power electronic load from what was studied.
+
+⦁
+
+Changing the interconnection timeline significantly (especially if the
+customer is proposing to energize the load faster than what was
+studied).
+
+⦁
+
+Proposing to change the Service Delivery Point or Point of
+Interconnection.
+
+⦁
+
+Changing control systems that might materially impact the dynamic
+response of the site.
+
+TSP Reliability Studies
+Q: What is the purpose of the kickoff meeting?
+A: Under the interim process, the purpose of the kickoff meeting was to allow
+the TSP, ERCOT, and any affected TSPs to identify the required reliability
+7
+Rev. 12.15.25
+
+studies, define the study area, and identify the appropriate cases to use.
+ERCOT would provide the TSP conducting the study a list of other
+interconnecting large load customer loads that were required to be included
+in the reliability studies (“must-study” loads) and a list of any “may-study”
+loads that are expected to become must-study loads.
+PGRR115 Policy: Planning Guide Section 9.3.2 continues to require the
+kickoff meeting. It assigns the TSP responsibility for preparing, with input
+from ERCOT and other affected TSPs, the preliminary scope of work and,
+after opportunities for comments, a final study scope. The study scope
+identifies the necessary reliability studies (collectively referred to as the
+Large Load Interconnection Study, or LLIS), base cases, study assumptions,
+and scenarios used in the studies. ERCOT will continue to provide a list of
+must-study and may-study loads. The distinction between must-study and
+may-study loads and the criteria for each are discussed in greater detail
+below. The final study scope is subject to ERCOT approval.
+Q: May the large load customer participate in the kickoff meeting?
+A: The large load customer is invited to the meeting but is not required to
+attend. In the event the customer elects to attend, all individuals associated
+with the customer will be asked to leave during discussion of any confidential
+information or ERCOT Critical Energy Infrastructure Information.
+Q: What types of reliability studies are required?
+A: Under the interim process, the required reliability studies were performed
+by the TSP, with ERCOT giving input on the study scope and reviewing the
+study results. Required studies included (1) a steady-state analysis and (2)
+dynamic and transient stability studies under both normal and contingency
+conditions. In addition, a Subsynchronous Oscillation study (SSO study) was
+sometimes required. An interconnecting large load project could proceed
+through the interconnection process while the SSO study was in progress,
+but the study had to be completed before the TSP could request approval to
+energize the large load customer.
+PGRR115 Policy: Planning Guide Section 9.3.1 continues to require a set
+of reliability studies performed by the TSP. These include the same studies
+required under the interim process, with the addition of a system protection
+(short-circuit) analysis. Each type of study is defined in Section 9.3. If the
+8
+Rev. 12.15.25
+
+large load customer is co-locating with a Generation Resource or Energy
+Storage Resource, then an updated Reactive study also will be required.
+As was true under the interim process, if the large load customer is
+participating in a net metering arrangement with an existing Generator
+Resource or Energy Storage Resource, then it must undergo a Net Metering
+Review under Texas Senate Bill 6 and obtain the Texas PUC’s approval.
+Q: What happens after the studies are completed?
+A: The TSP sends the studies to ERCOT for review and comment. After
+ERCOT receives the final reports, it confirms the amount of load that can be
+served reliably by the large load customer’s requested energization date. If
+the studies show that transmission upgrades are necessary for the full
+requested load to reliably interconnect, the TSP and interconnecting large
+load customer update the Load Commissioning Plan based on the date those
+upgrades are expected to be energized.
+PGRR115 Policy: Planning Guide Section 9.4 sets out a study review
+process that incorporates time limits that may result in an interconnecting
+large load customer’s project being removed from the interconnection process
+if the customer does not meet required milestones.
+The lead TSP submits a preliminary study report for each study or a
+combined preliminary report to ERCOT and other directly affected TSPs.
+ERCOT has ten Business Days to review the preliminary study report and
+provide any questions, comments, or proposed revisions to the lead TSP.
+ERCOT may extend this review period an additional 20 Business Days by
+notifying the lead and directly affected TSPs in writing. Directly affected
+TSPs also may provide questions, comments, and proposed revisions.
+The TSP then prepares a final study report that incorporates ERCOT’s and
+the directly affected TSPs’ feedback. ERCOT has ten Business Days after
+receiving the final study report to (1) determine whether system upgrades
+recommended to support the full requested load amount specified in the
+initial Load Commission Plan are sufficient; (2) grant conditional approval
+to interconnect in accordance with the schedule in the final Load
+Commissioning Plan; and (3) communicate the completed studies and
+resulting Load Commissioning Plan to the TSP and directly affected TSPs.
+
+9
+Rev. 12.15.25
+
+Q: Does ERCOT’s approval of the final studies guarantee the large
+load customer approval to energize?
+A: No, there are additional steps described below that must be completed
+before a large load customer is authorized to energize.
+Q: Is it possible that the studies would need to be redone?
+A: Yes, sometimes re-studies are necessary. A common reason re-studies are
+needed is that another large load customer in the same area becomes a
+“must-study” load while the interconnecting large load customer’s studies
+are being conducted or under review. While ERCOT and TSPs take steps to
+minimize the need for re-studies, they are often unavoidable due to the large
+number of large load projects currently requesting interconnection. Due to
+the large size of these proposed loads (many requests are 1 GW or more), the
+inclusion or omission of even a single large load from another load’s study
+can significantly change study outcomes. This must be accounted for to
+ensure a large load customer can reliably interconnect. This situation is
+likely to occur in areas where several large load customers are seeking to
+interconnect.
+Q: How does a load become a “must-study” load?
+A: Under the interim large-load interconnection process, a stand-alone large
+load became a “must-study” load for purposes of studies of other nearby large
+loads once ERCOT approved that load’s steady state studies and the
+customer had executed an interconnection agreement with the TSP. For a
+large load that would be co-located with a Generation Resource or Energy
+Storage Resource, the load became a “must-study” load when ERCOT
+approved the load’s steady state studies and the Standard Generator
+Interconnection Agreement (SGIA) for the co-located Generation Resource or
+Energy Storage Resource had been modified to reflect the service of the load
+or else the customer had executed an interconnection agreement or other
+equivalent agreement reflecting a commitment to take service from the
+TDSP with the retail service obligation.
+PGRR115 Policy: Under the new PGRR 115 process, these criteria are
+more robust. Specifically, under Section 9.3.4.1 of the ERCOT Planning
+Guide, to be a “must-study” load, a large load must have a completed LLIS—
+not just the steady state study—and must have met the requirements in
+10
+Rev. 12.15.25
+
+Section 9.5 (see “Approval to Energize,” below), which generally include
+executing all required agreements, giving notice to proceed with construction
+of all required interconnection facilities, and paying all required financial
+security.
+Section 9.3.4.1 also provides that the lead TSP for a LLIS “may include” in
+the studies other “Substantiated Load.” Substantiated Load is defined in
+ERCOT Protocols to include loads that have been substantiated by evidence
+such as an interconnection agreement, an independent third-party load
+forecast, or a letter from a TSP officer attesting to that load.
+
+Execution of Agreements and Network Operations Model
+Additions
+Q: What happens after the Large Load Interconnection Studies are
+final and approved by ERCOT?
+A: Under the interim process, the interconnecting large load customer and
+TSP would execute the necessary binding agreements, such as an
+interconnection agreement.
+PGRR115 Policy: As noted above, Planning Guide Section 9.5 sets out the
+steps that must be completed prior to ERCOT allowing initial energization.
+(The requirements are described in the following “Approval to Energize”
+section of this document.) Planning Guide Section 9.4(9) requires that the
+interconnecting large load customer meet the relevant requirements in
+section 9.5 within 180 days. If the interconnecting large load customer has
+not met the requirements within 180 days, then ERCOT may notify the TSP
+that the project is subject to cancellation. If the TSP does not provide a
+project status update within 30 days, ERCOT may consider the project
+canceled.
+Under both the interim and new process, if the large load customer is
+participating in a net metering arrangement, the TSP must submit an
+ERCOT Polled-Settlement (EPS) Meter design that included the large load
+customer, and the Resource Entity will execute a new or amended Standard
+Generation Interconnection Agreement that reflects the addition of the large
+load customer. Additional agreements may be necessary in some cases.
+
+11
+Rev. 12.15.25
+
+Q: Why does a large load customer’s load need to be added to
+ERCOT’s Network Operations Model?
+A: ERCOT’s Network Operations Model is the tool that ERCOT operators
+use to monitor the reliability of the grid, and it is critical that all grid
+equipment, including large loads and their associated transmission facilities,
+are accurately represented in the model.
+Q: When is the large load customer’s load added to Network
+Operations Model?
+A: Under the interim process, a TSP could request that a large load be added
+to the Network Operations Model after it had completed the LLIS and
+executed an interconnection agreement.
+PGRR115 Policy: Under Planning Guide Section 6.6, a large load may be
+included in the Network Operations Model when ERCOT has communicated
+the completion of the LLIS and the TSP has provided the appropriate
+confirmation concerning an interconnection agreement in accordance with
+Section 9.5 (see “Approval to Energize,” below).
+Q: When does the TSP start construction of any transmission
+upgrades identified in the studies that are needed to interconnect
+the large load?
+A: In general, the TSP will begin construction of the transmission facilities
+needed to interconnect the load after the necessary agreements are executed
+and the TSP receives necessary security and a notice to proceed with
+construction from the customer.
+
+Approval to Energize
+Q: What are the conditions for a large load customer to receive
+approval to energize?
+A: In the interim process, the TSP and large load customer had to complete
+the following evaluations or studies prior to the TSP requesting approval to
+energize the large load customer:
+•
+
+All Large Load Interconnection Studies
+
+12
+Rev. 12.15.25
+
+•
+
+Interim Ride-Through Evaluation, as described in ERCOT’s June 23,
+2025 Market Notice addressing voltage ride-through risks
+
+•
+
+SSO study (if applicable, must be completed and any required
+mitigation must be in place)
+
+•
+
+Texas Senate Bill 6 Net Metering Review completed (if required)
+
+PGRR115 Policy: Planning Guide Sections 9.5 and 9.6 set out the
+requirements that must be met before ERCOT allows initial energization.
+In Section 9.5, there are two sets of requirements, one applicable to standalone large load customers and another applicable to large load customers
+co-locating with a Generation Resource Facility. In general, the TSP must
+confirm the following: all necessary agreements have been executed, the TSP
+has received a notice to proceed with construction of all required
+interconnection facilities and the financial security or payments to fund
+those facilities, and the interconnecting large load customer has confirmed
+it understands its obligation to update information and maintain
+consumption at the level specified in the Load Commissioning Plan.
+Planning Guide Section 9.6 authorizes ERCOT to establish additional
+conditions that the interconnecting large load must meet before initial
+energization. The conditions outlined in Section 9.6(1) are: (1) inclusion of
+the large load in the Network Operations Model in accordance with Section
+6.6, Modeling of Large Loads; (2) verification that all required telemetry is
+operational and accurate; (3) completion of the requirements of Planning
+Guide Section 5.3.5, ERCOT Quarterly Stability Assessment; (4) if required,
+completion and approval of all SSO studies, SSO Mitigation Plan, SSO
+Countermeasures, and SSO monitoring; and (5) submission of a current Load
+Commissioning Plan meeting the requirements of Planning Guide Section
+9.2.4, Load Commissioning Plan.
+The Interim Ride-Through Evaluation will also continue to be required, and
+for large load customers co-locating with existing Generation Resources or
+Energy Storage Resources, the SB6 Net Metering Review process will also
+continue to apply.
+
+13
+Rev. 12.15.25
+
+Q: What could delay energization?
+A: The increase in the number of large loads and speed at which they are
+interconnecting is presenting new and unforeseen challenges to the electric
+grid. It is possible that a new reliability risk associated with large loads
+could be identified that requires additional study. For example, large
+electronic loads (LELs)—large consumers primarily using power electronics,
+such as data centers and cryptominers—have exhibited a tendency to trip
+during normal voltage excursions, presenting a risk to system stability. The
+recent growth in LELs has necessitated that ERCOT obtain additional
+information from these customers and propose new procedures to address
+these risks.
+Another risk is that new regulatory requirements impacting the
+interconnection or operation of large loads could be introduced. For example,
+the PUC is in the process of establishing new interconnection standards for
+large loads in Project No. 58481. That rulemaking could require changes to
+ERCOT’s large load interconnection process and delay projects that must
+meet new requirements.
+Q: How could ERCOT’s efforts to address voltage and frequency
+ride-through risks impact the timing and operation of my project?
+A: ERCOT has recently proposed voltage and frequency ride-through
+standards in Nodal Operating Guide Revision Request (NOGRR) 282. As
+proposed, these standards would apply to each large electronic load (LEL) as
+a condition for interconnection and continued operation. ERCOT has
+proposed a limited exemption from these requirements for LELs that
+received approval to energize on or before November 14, 2025 or that met
+certain significant development milestones by that date. All other LELs
+would be subject to the requirements as a condition of energization once
+those requirements are ultimately approved. Because this NOGRR has been
+designated a Board-Priority Revision Request, ERCOT anticipates that the
+NOGRR will be approved sometime in the first half of next year. Thus,
+developers of LELs may need to modify their project designs or implement
+other measures to ensure they can comply with the final standards that are
+ultimately approved.
+In the interim period before these standards are approved, ERCOT has
+identified several additional steps that an LEL must take before proceeding
+14
+Rev. 12.15.25
+
+to energization. As noted in ERCOT’s June 23, 2025 Market Notice MB062325-01, Large Load Survey and Request for Information of Voltage
+Ride-Through Capabilities to Ensure Reliable Interconnection and
+Operation of Large Electronic Loads, an LEL seeking interconnection to the
+ERCOT System must submit the ERCOT Dynamic Working Group Large
+Load Survey to ERCOT. ERCOT and the interconnecting TDSP use that
+information to determine whether a change to the LEL’s dynamic model is
+needed. If necessary, the LEL may be required to update its dynamic model
+to align with the information in the survey. If the LLIS stability study for
+the LEL has already been completed, then the interconnecting TDSP for the
+LEL must consider whether the information requires a re-study.
+ERCOT will also conduct an interim assessment of LEL ride-through
+capability as a condition for each LEL’s energization. In this assessment,
+ERCOT evaluates each modeled LEL under various voltage excursion
+conditions. If the model indicates the LEL will fail to ride through those
+simulated conditions, and that failure results in the violation of a System
+Operating Limit (SOL) or Interconnection Reliability Operating Limit
+(IROL), ERCOT will allow the load to energize subject to curtailment once
+ERCOT has developed and implemented the necessary curtailment tools and
+control room procedures. If the LEL does not fail to ride through those
+simulated conditions, or if that failure does not result in an SOL or IROL
+violation, the LEL may proceed to energization immediately but could be
+subject to curtailment during certain conditions if more loads connect in the
+same area.
+Q: What happens if the large load customer fails to achieve Initial
+Energization on a timely basis after its studies are completed?
+A: Under the interim process, there was no requirement for a large load
+customer to energize by a particular date.
+PGRR115 Policy: Under Planning Guide Section 9.4(10), if the
+interconnecting large load customer has not met the requirements to
+energize in Planning Guide Section 9.6(1) within 365 days of the requested
+Initial Energization date used for the LLIS study, then the lead TSP must
+provide an opinion to ERCOT on whether any re-studies are needed.
+
+15
+Rev. 12.15.25
+
+Q: Is a large load customer bound by the consumption limit in its
+Load Commissioning Plan?
+A: Under the interim process, a large load customer could be subject to a
+limit on consumption as part of its energization schedule. ERCOT monitors
+the large load’s consumption to ensure the large load customer remains
+within identified limits.
+PGRR115 Policy: New Planning Guide Section 9.2.2 requires each large
+load interconnection request to have a Load Commissioning Plan that
+reflects the proposed energization schedule. This plan must be updated by
+the TSP once the timeline needed to construct the required transmission
+upgrades identified in the LLIS has been determined. Under Planning
+Guide Section 9.6, the interconnecting TSP or applicable Resource Entity
+must notify ERCOT if it identifies that a large load customer has exceeded a
+demand limit established in the final studies and the Load Commissioning
+Plan. In addition, the applicable TSP must notify ERCOT when a
+transmission upgrade identified in a Load Commissioning Plan becomes
+operational and seek ERCOT’s written approval before increasing the large
+load customer’s demand.
+
+16
+Rev. 12.15.25
+
+

@@ -1,0 +1,346 @@
+-   
+-   
+
+[U.S. Energy Information Administration logo]
+
+Skip to sub-navigation
+
+U.S. Energy Information Administration - EIA - Independent Statistics and Analysis
+
+Menu
+
+-   Statistics
+
+-   Analysis
+
+-   Tools
+
+-   Education
+
+-   News
+
+-   
+
+Search
+
+Frequently Asked Questions (FAQs)
+
+This page has no sub-navigation. Skip to page content.
+
+What is the efficiency of different types of power plants?
+
+Heat rate is one measure of the efficiency of electric generators and power plants that convert fuel into heat and then into electricity. The heat rate is the amount of energy used by an electrical generator or power plant to generate one kilowatthour (kWh) of electricity. We express heat rates in British thermal units (Btu) per net kWh generated. Net generation is the amount of electricity a power plant supplies to the power transmission line connected to the power plant. Net generation accounts for all the electricity the power plant consumes to operate the plant’s equipment and generators, such as fuel feeding systems, boiler water pumps, cooling equipment, and pollution control devices.
+
+To express the efficiency of a generator or power plant as a percentage, divide the equivalent Btu content of a kWh of electricity (3,412 Btu) by the heat rate. For example, if the heat rate is 10,500 Btu, the efficiency is 33%. If the heat rate is 7,500 Btu, the efficiency is 45%.
+
+In 2023, we changed our methodology for estimating energy consumption for generating electricity with renewable energy sources (geothermal, hydro, solar, and wind energy). You can read more about the change in the Monthly Energy Review (MER): Changes to the MER and Appendix E: Alternative Measures for the Energy Content of Noncombustible Renewables.
+
+Learn more:
+Historical average annual heat rates for fossil fuel and nuclear power plants
+Average annual heat rates for specific types of fossil-fuel generators and nuclear power plants
+Approximate Heat Rates for Electricity, and Heat Content of Electricity (average annual heat rates from 1949 to most recent year available)
+
+Other FAQs about Electricity
+
+-   How old are U.S. nuclear power plants, and when was the newest one built?
+-   How much coal, natural gas, or petroleum is used to generate a kilowatthour of electricity?
+-   How many smart meters are installed in the United States, and who has them?
+-   What is the outlook for home heating fuel prices this winter?
+-   How much does it cost to generate electricity with different types of power plants?
+-   Does EIA publish electric utility rate, tariff, and demand-charge data?
+-   Can customers choose their electricity supplier?
+-   Does EIA have data on each power plant in the United States?
+-   What types and amounts of energy are produced in each state?
+-   How much of U.S. carbon dioxide emissions are associated with electricity generation?
+-   How much of U.S. energy production and consumption comes from renewable energy sources?
+-   Does EIA publish energy consumption and price data for cities, counties, or by zip code?
+-   How many power plants are in the United States?
+-   Does EIA project energy production, consumption, or prices for individual states?
+-   How much electricity is used for lighting in the United States?
+-   What is U.S. electricity generation by energy source?
+-   How much does it cost to build different types of power plants in the United States?
+-   Does EIA publish data on peak or hourly electricity generation, demand, and prices?
+-   How much electricity is lost in electricity transmission and distribution in the United States?
+-   What is the efficiency of different types of power plants?
+-   Does EIA publish the location of electric power plants and transmission lines?
+-   How much carbon dioxide is produced per kilowatthour of U.S. electricity generation?
+-   What is the difference between electric generation capacity and electricity generation?
+-   How much electricity does a power plant generate?
+-   How much electricity is used for air conditioning in the United States?
+-   How many nuclear power plants are in the United States, and where are they located?
+-   How much electricity does an American home use?
+-   Does EIA have county-level energy production data?
+-   How is electricity used in U.S. homes?
+-   Does EIA publish electricity sales and price data by state and by utility?
+-   Does EIA publish data on costs for electricity transmission and distribution?
+-   How much of world energy production and consumption is from renewable energy?
+-   How much energy does the world consume by each energy end-use sector?
+-   Does EIA have information on unplanned outages of U.S. infrastructures?
+-   How many electric vehicles (EV) and EV charging stations are in the United States?
+
+-   
+
+    FAQ Topics:
+
+-   Coal
+
+-   Conversion & Equivalents
+
+-   Diesel
+
+-   Electricity
+
+-   Environment
+
+-   Gasoline
+
+-   General Energy
+
+-   Natural Gas
+
+-   Nuclear
+
+-   Oil/Petroleum
+
+-   Prices
+
+-   Renewables
+
+-   Full list of upcoming reports
+-   Sign up for email notifications
+-   Get the What's New RSS feed
+
+-   Didn't find the answer to your question?
+
+-   Ask an energy expert
+
+-   About EIA
+-   Open Data
+-   Legacy
+-   Contact Us
+
+U.S. Energy Information Administration
+
+1000 Independence Ave., SW
+
+Washington, DC 20585
+
+Policies
+
+Privacy/Security
+
+Copyright & Reuse
+
+Accessibility
+
+Information Quality
+
+Freedom of Information Act (FOIA)
+
+Related Sites
+
+usa.gov
+
+U.S. Department of Energy
+
+Stay Connected
+
+Facebook
+
+X
+
+Youtube
+
+LinkedIn
+
+Email Updates
+
+RSS Feeds
+
+[]
+
+Statistics
+
+Analysis
+
+Tools
+
+Education
+
+News
+
+Petroleum & Other Liquids
+
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+
+Natural Gas
+
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+
+Electricity
+
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+
+Coal
+
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+
+Nuclear & Uranium
+
+Uranium fuel, nuclear reactors, generation, spent fuel.
+
+Renewable & Alternative Fuels
+
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+
+EIA Survey Forms
+
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+
+Total Energy
+
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+
+-   Monthly Energy Review
+
+Consumption & Efficiency
+
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+
+-   Residential Energy Consumption Survey (RECS)
+-   Commercial Buildings Energy Consumption Survey (CBECS)
+-   Manufacturing Energy Consumption Survey (MECS)
+
+U.S. States
+
+State energy information, including overviews, rankings, data, and analyses.
+
+International
+
+International energy information, including overviews, rankings, data, and analyses.
+
+Environment
+
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+
+-   U.S. Energy-Related Carbon Dioxide Emissions
+-   Energy-Related Carbon Dioxide Emissions at the State Level
+
+Analysis and Projections
+
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+
+-   Short-Term Energy Outlook
+-   Annual Energy Outlook
+
+Special Reports
+
+Special market analysis and/or data requests.
+
+-   EIA-112 Residential Utility Disconnections
+-   SHIP Act
+-   Energy & Financial Markets: What Drives Crude Oil Prices?
+
+International
+
+International energy analyses.
+
+-   Regional Analysis Briefs
+-   Country Analysis Briefs
+-   World Oil Transit Chokepoints
+-   OPEC Revenue
+-   Global Energy Security Data
+
+Data Tools, Apps, & Maps
+
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+
+Open Data
+
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+
+EIA Beta
+
+Come test out some of the products still in development and let us know what you think!
+
+Open Source Code
+
+EIA's open source code, available on GitHub.
+
+All Reports & Products
+
+Email Updates
+
+Sign up for email subscriptions to receive messages about specific EIA products
+
+RSS Feeds
+
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+
+Follow us. . .
+
+A-Z Index
+
+A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | XYZ
+
+Energy Explained
+
+-   What is Energy?
+-   Units & Calculators
+-   U.S. Energy Facts
+-   Use of Energy
+-   Energy & Environment
+-   Petroleum
+-   Hydrocarbon Gas Liquids
+-   Natural Gas
+
+-   Coal
+-   Nuclear
+-   Electricity
+-   Hydrogen
+-   Hydropower
+-   Biofuels
+-   Biomass
+-   Wind
+-   Geothermal
+-   Solar
+
+For Teachers
+
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+
+Glossary
+
+FAQs
+
+-   Coal
+-   Conversion & Equivalents
+-   Oil/Petroleum
+-   Diesel
+-   Electricity
+-   Environment
+
+-   Gasoline
+-   General Energy
+-   Natural Gas
+-   Nuclear
+-   Prices
+-   Renewables
+
+[]
+
+What's New?
+
+-   Global Energy Security Data
+-   Nov 16, 2026
+-   Wholesale Electricity Market Data
+-   Nov 12, 2026
+-   Monthly Densified Biomass Fuel Report
+-   Nov 12, 2026
+
+Press Room
+
+-   Press Releases
+-   Congressional Testimony
+-   Presentations
+-   Events

@@ -1,0 +1,12 @@
+{
+ "id": "eia-glossary-henry-hub",
+ "title": "EIA Glossary: Henry Hub",
+ "publisher": "U.S. Energy Information Administration",
+ "tier": 2,
+ "edition": null,
+ "url": "https://www.eia.gov/tools/glossary/index.php?id=Henry%20Hub",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 46955,
+ "raw_sha256": "81a2e3a54d72996f48043605df90411476b021e68c92171760679b644ebbbd5a",
+ "text_chars": 4901
+}

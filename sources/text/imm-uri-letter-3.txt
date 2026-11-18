@@ -1,0 +1,176 @@
+Control Number: 51812
+
+Item Number: 149
+
+Addendum StartPage: 0
+
+Potomac Economics, Ltd.
+7620 Metro Center Drive
+Austin. Texas 78744
+
+ECONOMICS
+March 11,2021
+
+[elephdne: '51-2479-7971
+Facsimild: 703-3'83=0796
+
+2021 MAR l I AM ID: 02
+' U C 1. 1 '~. '~~
+
+I
+
+r : t 1 ;i U ,, L l. ,\ t'·,
+,
+
+Public Utility Commission of Texas
+Chairman Arthur C. D'Andrea
+1701 N. Congress Avenue
+Austin, Texas 78711
+
+Re:
+
+PUC Project No. 51812, Issues Related to the State of Disaster for the
+February 2021 Winter Weather Event
+
+Dear Chairman:
+
+As the Independent Market Monitor (IMM) for the Public Utility Commission of Texas
+(Commission), Potomac Economics appreciates the opportunity to follow-up on our March 4,
+2021, recommendation related to real-time energy prices during the recent winter weather event.
+
+As stated in our March 4,2021 letter, ERCOT recalled the last of the firm load shed instructions
+at 23:55 on February 17, 2021. Therefore, in order to comply with the Commission Order,1 the
+pricing intervention that raised prices to the value of lost load (VOLL) should have ended
+immediately at that time. Regrettably, ERCOT failed to do so and instead issued a notice to the
+market that it would remain in an emergency state through the morning of February 19, signaling
+to generators ERCOT's intention to hold prices at $9,000 per MWh over this period.2
+This decision resulted over-priced energy in ERCOT's real-time market by $16 billion.
+Correcting this error will not reduce costs to consumers by $16 billion because a substantial
+share of the demand is served by owned generation or forward contracts. Given the deliberations
+currently underway regarding our repricing recommendations, this letter provides our estimates
+of the changes in settlement costs that would result from our recommended price corrections
+described in our March 4,2021 letter, as well as the settlement effects of our recommendation to
+cap the Ancillary Services (AS) prices at the VOLL of $9,000 per MWh that we made in our
+letter dated March 1, 2021.
+The results ofthe analysis described in this letter only includes transactions that are settled by
+ERCOT and, therefore, do not include forward contract settlements. Since all changes in
+settlements will net to zero for ERCOT, the positive changes for some entities will be offset by
+negative changes for other entities. Our results are netted at the corporate level, which accounts
+
+1
+
+PUC Project No . 51617 , Calendar Year 2021 - Open Meeting Agenda Items without an Associated Control*,
+Second Order Directing ERCOT to take Action and Granting Exception to Commission Rules at 1-2 (Feb. 16,
+2021 ); PUC Project No . 51812 , Issues Related to the State of Disasterfor the February 2021 Winter Weather
+Event, Order Directing ERCOT to take Action and Granting Exception to Commission Rules (Mar. 1, 2021).
+
+http://www.ercot.com/services/comm/mkt_notices/archives/5225.
+
+POTOMAO
+ECONOMICS
+
+IMM Recommendation PUCT Project No. 51812
+March 11,2021
+
+for any offsetting effects on multiple entities under the same corporate umbrella. Therefore, they
+provide as accurate an analysis of the effects of entities' financial positions as possible, since
+some entities both have generation and serve load.3- When we account for day-ahead market
+positions and all offsetting supply and demand positions at the corporate level, our
+recommendations would alter the ERCOT settlements by a total of $5.1 billion.
+Two components ofthe settlement effects are related to correcting the real-time energy pricing:
+
+•
+
+The real-time energy imbalance settlement effect is *$3.2 billion. This represents the
+effects on net energy buyers and sellers in the real-time energy market.
+
+•
+
+Total real-time reserve imbalance settlement (known as the Real-Time AS Imbalance
+Charge) effect is *$ 1 billion. This reflects the change in make-whole payments to
+generators for energy that was not needed or produced. In other words, because ERCOT
+had a surplus of generation online offered at prices well below $9,000 per MWh, it was
+obligated to provide make-whole payments to cover the "lost profits" of all the generators
+that would have preferred to produce more energy at $9,000 per MWh.
+
+The third settlement adjustment is associated with the remaining recommendation in our March 1
+letter. ERCOT priced AS that were in shortage at prices much higher than the value of lost load
+of $9,000 per MWh. Ancillary services are generally operating reserves held aside to provide
+additional supply to satisfy the energy demand when unforeseen events occur. Neither ERCOT's
+protocols nor any Commission Order endorses pricing shortages of operating reserves higher
+than shortages of energy. Further, it is economically inconsistent to value operating reserves
+higher than the energy demand that they protect. Hence, we recommended that the Commission
+correct this pricing error by capping the AS prices at the VOLL of $9,000 per MWh. The net
+effect of this correction, accounting for offsetting effects at the corporate level, is *$900 million.
+
+Once again, these corrections do not include the effects of any transactions that are outside of
+ERCOT settlement. We recognize that there are futures markets that are derived from the
+ERCOT real-time prices. We had hoped that action on our recommendations would be taken
+quickly, prior to the settlement of these futures markets. Given that many of these futures
+products have now settled against the original inflated real-time prices, the unintended
+consequences in these markets of correcting the real-time prices have increased. Therefore,
+although correcting the prices will allow them to more efficiently reflect the actual supply and
+demand during this period, this resolution is complicated by the downstream impacts that are
+difficult to quantify. Importantly, these unintended downstream impacts relate almost entirely to
+the energy imbalance resettlement. Although this is the largest effect, it is also the portion ofthe
+error that was likely the most well-hedged by the ERCOT participants.
+
+The results are rounded approximations and can change as meter and other data adjusts the load numbers used
+by ERCOT settlements.
+
+2
+
+POTOMAC
+
+IMM Recommendation PUCT Project No. 51812
+March 11,2021
+
+ECONOMICS
+
+Although the other two components of the corrections are smaller, these errors are arguably more
+harmful because they produce costs that are difficult or impossible to hedge. In other words,
+participants that have contracted for adequate supply or otherwise fully hedged their energy
+demand obligations receive an allocation of both the AS themselves and the AS imbalance costs
+
+that may be economically ruinous.
+Therefore, we recommend that the Commission, at a minimum, seek to correct these two classes
+of inflated costs. Capping the Ancillary Services prices at $9,000 per MWh should be relatively
+straight-forward. The Real-Time AS Imbalance Charges would naturally be eliminated if the
+real-time energy prices are corrected. If real-time energy prices are not corrected, these charges
+could be addressed by suspending these make-whole payments. This would still allow the
+generators to be paid the uncorrected real-time energy prices for the energy they actually
+
+produced.
+With regards to correcting the real-time energy prices, we note that the actions of ERCOT could
+
+understandably be perceived as a reliability instruction to generators to keep their resources
+committed throughout the event. At the corrected price levels, some generators may not cover
+
+all of their fixed as-offered operating costs. These costs would typically be recovered through a
+Reliability Unit Commitment (RUC) guarantee payment for generators instructed to run for
+reliability. Therefore, if the real-time energy prices are corrected, the IMM would not oppose a
+make-whole payment comparable to the RUC settlement for the period in question (0:00
+February 18,2021, to 09:00 February 19, 2021). This would result in make-whole payments
+only to generators whose as-offered operating costs exceeded their market revenue during this
+period.
+As always, the IMM stands ready to address any questions the Commission may have regarding
+this or any outcome in the ERCOT wholesale market.
+
+Sincerely,
+
+n 4Eku
+David B. Patton, Ph.D.
+President
+Potomac Economics
+dpatton@potomaceconomics.com
+
+GAAit 0.
+
+Carrie Bivens
+VP, ERCOT IMM Director
+Potomac Economics
+cbivens@potoniaceconomics.coin
+
+3
+
+

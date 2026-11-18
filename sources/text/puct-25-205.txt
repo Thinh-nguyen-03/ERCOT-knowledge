@@ -1,0 +1,707 @@
+CHAPTER 25.
+
+SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+
+SUBCHAPTER I.
+DIVISION 1.
+
+TRANSMISSION AND DISTRIBUTION
+OPEN-ACCESS COMPARABLE TRANSMISSION SERVICE FOR
+ELECTRICAL UTILITIES IN THE ELECTRIC RELIABILITY
+COUNCIL OF TEXAS.
+
+§25.205. Net Metering Arrangements Involving a Large Load Customer Co-Located with
+an Existing Generation Resource.
+(a)
+
+Applicability. This section applies to a net metering arrangement involving a large load
+
+customer and an existing generation resource in the ERCOT region. This section does not apply
+to a generation resource or energy storage resource that meets the following criteria:
+(1)
+
+the modeled generation resource or energy storage resource facility included a colocated large load customer at the time of the generation resource or energy storage
+resource’s energization, regardless of whether the large load customer was
+energized at a later date; or
+
+(2)
+
+a majority interest of the generation resource or energy storage resource was owned
+indirectly or directly as of January 1, 2025, by a parent company of a large load
+customer that participates in the new net metering arrangement.
+
+(b)
+
+Definitions. The following words and terms, when used in this section, have the following
+meanings unless the context indicates otherwise:
+(1)
+
+Applicants -- The large load customer and the power generation company,
+municipally owned utility, or electric cooperative that are parties to a net metering
+arrangement for which approval is sought under this section.
+
+(2)
+
+Dispatchable capacity -- Output capacity that can be controlled primarily by forces
+under human control.
+
+(3)
+
+Energy storage resource -- An energy storage resource as the term is defined in
+ERCOT protocols.
+
+(4)
+
+ERCOT system -- ERCOT system as the term is defined in ERCOT protocols.
+
+(5)
+
+Existing generation resource -- A generation resource registered with ERCOT as
+a stand-alone generation resource as of September 1, 2025 or an energy storage
+§25.205-1
+
+effective 4/15/2026
+(P-58479)
+
+resource registered with ERCOT as a stand-alone energy storage resource as of
+September 1, 2025.
+(6)
+
+Generation resource -- A generation resource as the term is defined in ERCOT
+protocols.
+
+(7)
+
+Interconnecting distribution service provider (DSP) -- Includes the transmission
+and distribution utility, municipally owned utility, or electric cooperative that is
+certificated or otherwise authorized to provide either retail electric service or retail
+electric delivery service at the location in which the large load customer seeks to
+interconnect.
+
+(8)
+
+Interconnecting transmission service provider (TSP) -- The electric utility,
+municipally owned utility, or electric cooperative that owns and operates the
+facilities necessary to interconnect the large load customer or the existing
+generation resource to the ERCOT system.
+
+(9)
+
+Large load customer -- An entity requesting a new or expanded interconnection
+where the customer’s total expected non-coincident peak demand at a single site is
+equal to or greater than 75 megawatts (MW), and as of September 1, 2025, was not
+modeled in ERCOT’s Network Operations Model as part of a generation resource
+private use network (PUN) or an energy storage resource PUN.
+
+(10)
+
+Net metering arrangement -- An arrangement in which an existing generation
+resource and a large load customer agree to net the existing generation resource’s
+output with the customer’s load for settlement purposes based on a metering
+scheme approved by ERCOT.
+
+(11)
+
+Stand-alone energy storage resource -- An energy storage resource that, as of
+September 1, 2025, was included in ERCOT’s Network Operations Model and such
+model of the resource site did not include modeled load other than auxiliary load.
+
+(12)
+
+Stand-alone generation resource -- A generation resource that, as of September
+1, 2025, was included in ERCOT’s Network Operations Model and such model of
+the resource site did not include modeled load other than auxiliary load.
+
+(13)
+
+Stranded transmission asset -- A transmission asset that, as a result of a net
+metering arrangement, is no longer providing service to the public or may otherwise
+§25.205-2
+
+effective 4/15/2026
+(P-58479)
+
+be retired from service without impairing the ability of the ERCOT system to
+provide adequate transmission service to customers.
+(14)
+
+Underutilized transmission asset -- A transmission asset that, as a result of a net
+metering arrangement, is expected to transmit on an average, annual basis at least
+25% less power commensurate with its maximum capacity to transmit power and
+is not providing significant reliability benefits to the ERCOT system.
+
+(c)
+
+Commission approval required. A power generation company, municipally owned
+utility, or electric cooperative must not implement a net metering arrangement involving a
+large load customer and an existing generation resource unless the net metering
+arrangement is approved by the commission.
+
+(d)
+
+Initiating the process for approval of a net metering arrangement.
+(1)
+
+Prior to ERCOT commencing its study under subsection (g) of this section, the
+applicants seeking approval of a net metering arrangement must apply to the
+commission, using a new docket number, for approval of the net metering
+arrangement by filing an application that meets the requirements of §22.73 of this
+title (relating to General Requirements for Applications). The application must
+include:
+(A)
+
+direct testimony supporting the application;
+
+(B)
+
+a completed large load interconnection study as the term is defined in
+ERCOT protocols as of the date the application is filed with the commission
+or a study report from another completed study process to interconnect a
+large load customer that is required by ERCOT protocols as of the date the
+application is filed with the commission;
+
+(C)
+
+identification of the interconnecting transmission service provider (TSP);
+
+(D)
+
+if different from the interconnecting TSP, the identification of the
+interconnecting DSP; and
+
+(E)
+
+a copy of the notice submitted to ERCOT.
+
+§25.205-3
+
+effective 4/15/2026
+(P-58479)
+
+(2)
+
+Upon filing its application with the commission, the applicants must serve copies
+of the application, consistent with the requirements in §22.74 of this title (relating
+to Service of Pleadings and Documents), on:
+
+(3)
+
+(A)
+
+ERCOT;
+
+(B)
+
+the interconnecting TSP; and
+
+(C)
+
+if different from the interconnecting TSP, the interconnecting DSP.
+
+Following the filing of an application under this section, if the physical
+characteristics of the proposed large load or the proposed physical configuration of
+the load in the net metering arrangement materially changes in a way that requires
+restudy under the large load interconnection study process, as described in ERCOT
+protocols in effect at the time the application for the net metering arrangement is
+filed with the commission, ERCOT must file notice in the docket that restudy is
+necessary. An application for approval of a net metering arrangement that requires
+restudy under this subsection is considered a new application and restarts the
+procedural deadlines.
+
+(e)
+
+Parties to a proceeding under this section.
+(1)
+
+The parties to a proceeding under this section are limited to:
+(A)
+
+the applicants;
+
+(B)
+
+commission staff;
+
+(C)
+
+ERCOT;
+
+(D)
+
+the interconnecting TSP; and
+
+(E)
+
+if different from the interconnecting TSP, the interconnecting DSP.
+
+(2)
+
+The parties to a proceeding under this section need not file a motion to intervene.
+
+(3)
+
+A party to a proceeding under this section may file notice identifying whether the
+party intends to participate in the proceeding.
+
+(f)
+
+Discovery.
+(1)
+
+Discovery may commence on or after the date an application under this section is
+filed with the commission.
+§25.205-4
+
+effective 4/15/2026
+(P-58479)
+
+(2)
+
+ERCOT is not required to follow the discovery process to obtain the necessary
+information to conduct its study under subsection (g) of this section.
+
+(3)
+
+The presiding officer may establish reasonable deadlines relating to discovery to
+facilitate the processing of the application within the statutory deadlines.
+
+(g)
+
+Commencement of ERCOT study.
+(1)
+
+The parties to a net metering arrangement must provide ERCOT all information
+that ERCOT deems necessary regarding the net metering arrangement.
+
+(2)
+
+The interconnecting TSP must submit the following to ERCOT:
+(A)
+
+all transmission security analysis studies that ERCOT requires of the TSP
+under the large load interconnection study process and described in ERCOT
+protocols that are in effect at the time the application for approval of the net
+metering arrangement is filed with the commission;
+
+(B)
+
+assets and facilities that are de-energized as a result of the net metering
+arrangement, the results of power flow modeling, and any other information
+relevant to a determination of whether stranded or underutilized
+transmission assets may result from the arrangement; and
+
+(C)
+(3)
+
+any other information that ERCOT deems necessary.
+
+Upon confirmation of completion of all studies required by ERCOT under the large
+load interconnection study process, as described in ERCOT protocols, that is in
+effect at the time the application for approval of the net metering arrangement is
+filed with the commission and following receipt of the information described in
+paragraph (2) of this subsection , ERCOT must conduct a study of the system
+impacts of the net metering arrangement, including transmission security and
+resource adequacy impacts, and stranded or underutilized transmission assets
+associated with the net metering arrangement. Not later than seven days after
+commencing its study, ERCOT must file notice in the docket indicating ERCOT
+received all information it deems necessary to conduct its study regarding the net
+metering arrangement and specifying the date that ERCOT commenced its study
+and the date ERCOT must file its study results and recommendations.
+§25.205-5
+
+effective 4/15/2026
+(P-58479)
+
+(4)
+
+ERCOT must provide commission staff any access, information, support, or
+cooperation that commission staff determines is necessary to provide its
+recommendations under this section.
+
+(h)
+
+General requirements of ERCOT study. ERCOT’s study of a net metering arrangement
+must include:
+(1)
+
+a resource adequacy analysis that considers:
+(A)
+
+the large load customer’s curtailment capability;
+
+(B)
+
+on-site back up generation capability to offset the large load customer;
+
+(C)
+
+expected net generation available to the ERCOT system after
+implementation of the net metering arrangement; and
+
+(D)
+
+the impacts of reduced net capability or lower availability on reserve
+margins or other reliability criteria;
+
+(2)
+
+a transmission security analysis that is comprised of a steady state and stability load
+serving study with and without the generation, under peak scenarios and off-peak
+scenarios, including review of a completed large load interconnection study as the
+term is defined in ERCOT protocols as of the effective date of this section or
+another study required by ERCOT under the large load interconnection study
+process described in ERCOT protocols in effect at the time the application for
+approval of a net metering arrangement is filed with the commission;
+
+(3)
+
+an analysis identifying transmission assets that may become stranded or
+underutilized as a result of the net metering arrangement, including the identity of
+the TSP associated with each such asset and the degree to which any transmission
+assets are expected to be underutilized from both a delivery and a reliability
+perspective; and
+
+(4)
+(i)
+
+any other analysis or study that ERCOT determines is necessary.
+
+ERCOT study results. Not later than ten days before ERCOT files its study results and
+recommendations, ERCOT must file notice in the docket indicating the date that ERCOT
+expects to file its study results and recommendations. Not later than 120 days after
+§25.205-6
+
+effective 4/15/2026
+(P-58479)
+
+ERCOT’s filing indicating ERCOT received all information it deems necessary to conduct
+its study regarding the net metering arrangement and specifying the date ERCOT
+commenced its study, ERCOT must file its study results and associated recommendations.
+ERCOT’s filing must include:
+(1)
+
+direct testimony supporting the filing;
+
+(2)
+
+an executive summary of the study, including any ERCOT recommendations, that
+identifies:
+(A)
+
+the large load customer;
+
+(B)
+
+whether the large load customer seeks a new or expanded interconnection;
+
+(C)
+
+whether the large load customer or any other customer is already located at
+the requested interconnection site and if so, that customer’s peak demand at
+the requested interconnection site;
+
+(D)
+
+whether ERCOT identified any potentially stranded transmission assets or
+underutilized transmission assets, or any negative impacts to system
+reliability, including transmission security and resource adequacy impacts;
+
+(E)
+
+ERCOT’s recommendation to approve, with or without conditions, or deny
+the net metering arrangement; and
+
+(F)
+
+whether ERCOT recommends conditions to mitigate an impact or potential
+impact to transmission security, resource adequacy, or both;
+
+(3)
+
+the complete study, detailing:
+(A)
+
+ERCOT’s analysis;
+
+(B)
+
+the underlying assumptions used in the study;
+
+(C)
+
+the sources of data used in the study;
+
+(D)
+
+the existing generation resource’s seasonal net max sustainable rating for
+each season as reported to ERCOT in the existing generation resource’s
+most recent resource registration data and how that existing generation
+resource can comply with a requirement to make at least that same amount
+of dispatchable capacity available after implementation of the net metering
+arrangement, as applicable; and
+
+§25.205-7
+
+effective 4/15/2026
+(P-58479)
+
+(E)
+
+whether ERCOT identified any negative impacts to resource adequacy that
+cannot be mitigated with curtailment of the large load customer; and
+
+(F)
+
+whether any transmission assets are stranded or underutilized, including the
+degree to which any underutilized transmission assets are underutilized
+from a delivery or a reliability perspective, and the identity of the associated
+TSPs;
+
+(4)
+
+a detailed explanation of the basis for any conditions that ERCOT recommends and
+the extent to which those conditions are expected to mitigate a reliability risk to the
+ERCOT system; and
+
+(5)
+(j)
+
+any other information that ERCOT relied on or considered.
+
+Procedural schedule. After ERCOT files its study results and recommendations, the
+presiding officer must set a procedural schedule that will enable the commission to issue
+an order in the proceeding within 60 days of ERCOT’s filing.
+(1)
+
+The procedural schedule must be substantially similar to the following:
+(A)
+
+the deadline for the applicants to file a statement of position or supplemental
+direct testimony is five days after ERCOT files its study results and
+recommendations;
+
+(B)
+
+the deadline for the interconnecting TSP, and, if different from the
+interconnecting TSP, the interconnecting DSP to file a statement of
+position, direct testimony, or an objection to the net metering arrangement
+is ten days after ERCOT files its study results and recommendations;
+
+(C)
+
+the deadline to request a hearing on the merits is ten days after ERCOT files
+its study results and recommendations;
+
+(D)
+
+the deadline for ERCOT to file a response to other parties’ filings is 15 days
+after ERCOT files its study results and recommendations;
+
+(E)
+
+the deadline for commission staff to file a statement of position or direct
+testimony, including its recommendations, is 17 days after ERCOT files its
+study results and recommendations;
+
+§25.205-8
+
+effective 4/15/2026
+(P-58479)
+
+(F)
+
+if no hearing on the merits is requested, the deadline to file a stipulation or
+agreement, a joint motion to admit evidence, and a joint proposed order is
+24 days after ERCOT files its study results and recommendations;
+
+(G)
+
+if a hearing on the merits is requested, the hearing on the merits will
+commence up to 28 days after ERCOT files its study results and
+recommendations; and
+
+(H)
+
+if a hearing on the merits is requested:
+(i)
+
+the deadline for initial briefs is 34 days after ERCOT files its study
+results and recommendations; and
+
+(ii)
+
+the deadline for reply briefs and proposed orders is 40 days after
+ERCOT files its study results and recommendations.
+
+(2)
+
+Notwithstanding any provision of this section, the presiding officer may set a
+different procedural schedule than the one set forth in this subsection or adjust any
+procedural deadlines to facilitate the commission issuing an order in the proceeding
+within 60 days after ERCOT files its study results and recommendations.
+
+(k)
+
+Commission decision. Not later than 60 days after ERCOT files its study results and
+recommendations, the commission will approve, with or without conditions, or deny an
+application for a net metering arrangement as necessary to maintain system reliability,
+including transmission security and resource adequacy impacts.
+(1)
+
+If the commission approves a net metering arrangement with conditions on an
+existing generation resource that makes dispatchable capacity available to the
+ERCOT region before the net metering arrangement, then the conditions imposed
+on the net metering arrangement must include requiring the existing generation
+resource to make dispatchable capacity available to the ERCOT region as directed
+by ERCOT in advance of an anticipated emergency condition. The dispatchable
+capacity made available to the ERCOT region in such an event must be at least
+equal to the amount of dispatchable capacity that was made available to the ERCOT
+region before implementation of the net metering arrangement.
+
+§25.205-9
+
+effective 4/15/2026
+(P-58479)
+
+(2)
+
+The commission may impose conditions on a net metering arrangement, including
+requiring one or more of the following:
+(A)
+
+the retail customer(s) served behind-the-meter to reduce load during certain
+events;
+
+(B)
+
+the existing generation resource to make capacity available to the ERCOT
+region during certain events;
+
+(C)
+
+initiation of a separate hold harmless proceeding for each net metering
+arrangement that results in stranded or underutilized transmission assets in
+order to ensure TSPs and their customers are held harmless;
+
+(3)
+
+(D)
+
+any ramp rate limitations or maximum duration for load curtailment; or
+
+(E)
+
+any other requirement that is necessary to maintain system reliability.
+
+An existing generation resource that must make dispatchable capacity available
+under paragraph (1) of this subsection must make dispatchable capacity available
+by adjusting the existing generation resource’s output in accordance with ERCOT’s
+instructions.
+
+(4)
+
+An existing generation resource that must make capacity available under paragraph
+(2) of this subsection must make capacity available by complying with any
+conditions specific to the existing generation resource.
+
+(5)
+
+If the commission imposes a condition that requires a large load customer to reduce
+load or requires an existing generation resource to adjust its output in accordance
+with ERCOT’s instructions, ERCOT must include any such load reduction and
+generation increases when calculating any price adjustments for reliability
+deployments.
+
+(6)
+
+If the commission imposes a condition requiring a hold harmless proceeding and
+the TSP associated with the stranded or underutilized transmission assets was not a
+party to the proceeding in which the commission considered approving, with or
+without conditions, or denying the proposed net metering arrangement, then
+commission staff must provide notice to the TSP of the requirement to initiate a
+hold harmless proceeding under subsection (l) of this section not later than seven
+days after the commission order imposing the condition. Notice may be served by
+§25.205-10
+
+effective 4/15/2026
+(P-58479)
+
+delivering a copy of the commission order by physical or electronic mail to the
+TSP’s authorized representative or attorney of record in the TSP’s last
+comprehensive base rate case.
+(7)
+
+Nothing in this section limits the commission’s authority to impose conditions on
+a net metering arrangement under the Public Utility Regulatory Act.
+
+(l)
+
+Hold harmless proceeding. Within 60 days of a commission order requiring a hold
+harmless proceeding, each TSP associated with stranded or underutilized transmission
+assets that result from a net metering arrangement must file an application to quantify the
+costs associated with such assets and to reflect removal of those costs from the TSP’s rates.
+Such costs must not be included in the TSP’s rates in future proceedings absent an explicit
+commission determination in a comprehensive base rate proceeding that the associated
+transmission assets are no longer stranded or underutilized, and that the TSP has not
+otherwise been compensated for those costs. Upon removal from rates, these costs must
+be collected by the TSP from the existing generation resource owner and the
+interconnecting large load customer in a proportion determined by the commission or by
+agreement between the existing generation resource owner and the interconnecting large
+load customer.
+(1)
+
+The application must include information sufficient to identify the costs associated
+with the stranded or underutilized transmission assets.
+
+(2)
+
+The parties to a hold harmless proceeding under this subsection are not limited to
+the parties identified in subsection (e) of this section.
+
+(3)
+
+Removal from rates of the costs associated with stranded or underutilized
+transmission assets, along with all associated depreciation, tax, return, and other
+cost of service components including an appropriate amount of operations and
+maintenance expenses, may be implemented in a manner otherwise consistent with
+the ratemaking treatments associated with an interim update of transmission rates
+under §25.192 of this Title (related to Transmission Service Rates), provided that:
+(A)
+
+increases in costs must not be included in a hold harmless proceeding;
+
+§25.205-11
+
+effective 4/15/2026
+(P-58479)
+
+(B)
+
+the timeline for approval included in §25.192 does not apply to a hold
+harmless proceeding under this subsection; and
+
+(C)
+
+a hold harmless proceeding under this subsection is not an interim update
+to a TSP’s rates for purposes of determining the frequency of interim
+updates authorized under §25.192.
+
+(m)
+
+Periodic evaluation of conditions imposed. If the conditions imposed on a net metering
+arrangement under this section are not limited to a specific period, a party to the net
+metering arrangement must apply for a commission determination of whether the
+conditions should be extended, with or without modification, or rescinded at least 36
+months and not more than 60 months after the order approving the net metering
+arrangement with conditions. A party to the net metering arrangement applying for a
+commission determination of whether the conditions should be extended, with or without
+modification, or rescinded must serve a copy of the application on all parties identified in
+subsection (d)(2) of this subsection.
+
+§25.205-12
+
+effective 4/15/2026
+(P-58479)
+
+

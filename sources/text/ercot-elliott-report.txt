@@ -1,0 +1,1353 @@
+December 2022 ERCOT Cold Weather Operations Report (PUBLIC):
+
+Winter Storm Elliott Public Report
+Version 1.0
+
+© 2023 ERCOT
+All rights reserved.
+
+Contents
+1. Executive Summary ............................................................................................................ 1
+2. Report Summary ................................................................................................................. 2
+3. Peak Demand: Forecast and Actual ................................................................................... 2
+4. Renewable Generation: Forecasts and Actual ................................................................... 5
+5. Committed Capacity and Generation Used by Fuel Type .................................................. 7
+6. Natural Gas Restrictions ................................................................................................... 10
+7. Reliability Unit Commitment (RUC) and Firm Fuel Supply Service (FFSS) Summary .... 11
+8. Generation and Transmission Outages ............................................................................ 11
+9. Winter Storm Elliott vs. Winter Storm Uri.......................................................................... 18
+10. Market Summary............................................................................................................... 19
+10.1. System-Wide Pricing .................................................................................................. 19
+10.2. Hub Average and Hub Bus Average Settlement Point Prices ................................... 20
+10.3. Day-Ahead Prices ....................................................................................................... 21
+11. Ancillary Services.............................................................................................................. 21
+11.1. Deployment of Responsive Reserves ........................................................................ 21
+11.2. Deployment of Non-Spin ............................................................................................ 21
+11.3. Energy Storage ........................................................................................................... 22
+12. Large Flexible Load Performance .................................................................................... 24
+13. Outreach During Winter Storm Elliott ............................................................................... 25
+13.1. Operations Outreach .................................................................................................. 25
+13.2. Communications Outreach ......................................................................................... 26
+13.3. Legislative Outreach ................................................................................................... 29
+14. Conclusions and Lessons Learned .................................................................................. 30
+
+© 2023 ERCOT
+All rights reserved.
+
+1. Executive Summary
+The Cold Weather event that occurred from December 22 nd to December 25th, 2022,
+was precipitated by severe winter weather, commonly referred to as “Winter Storm
+Elliott,” originating in the Pacific Northwest and covering a great portion of the United
+States (U.S.), including the entire ERCOT region. In parts of Texas during the event,
+temperatures stayed at or below freezing for extended periods. Due to the extended
+cold weather, ERCOT surpassed the previous peak demand record reaching 74,100
+MW on December 23rd, 2022. However, the generation capacity was more than
+sufficient in meeting this record. Instantaneous Physical Responsive Capability (PRC),
+which indicates the amount of operating reserves, never fell below 4,052 MW during the
+storm. ERCOT does not declare a Level 1 Energy Emergency Alert (EEA) until PRC
+falls below 2,300 MW.
+Throughout Winter Storm Elliot, there were far less generation outages due to cold
+weather when compared to Winter Storm Uri. Prior to Elliott, ERCOT’s Weatherization &
+Inspection team examined 255 resources, only 4 of which experienced weather-related
+outages between December 22 nd to December 25th, 2022. Weather related outages that
+occurred on units that had recently been inspected for winter weather readiness will
+receive additional scrutiny and any lessons learned will be included in future
+inspections.
+ERCOT did experience some discrepancies between the forecasted system demand
+versus actual system demand once the storm arrived. This was primarily due to a
+software upgrade; more detail is provided in Section 3 of this report. However, as
+mentioned previously, ERCOT’s operating reserves remained sufficient for the duration
+of the cold weather period.
+During Winter Storm Uri, the extreme temperatures, prolonged duration, and
+widespread nature of the storm negatively impacted the ability of some natural gas
+providers to supply sufficient fuel to a portion of the natural gas-fired generation fleet
+within the ERCOT region to generate needed electricity. In order to mitigate this issue,
+ERCOT has implemented a tool called Firm Fuel Supply Service (FFSS), which requires
+participating generation resources to carry stored on-site fuel for the purpose of
+maintaining availability in the event of primary fuel supply disruption. This service
+helped reduce the amount of resources that were unavailable due to lack of fuel during
+Winter Storm Elliott. In addition, in connection with Winter Storm Elliot, ERCOT
+requested that the U.S. Secretary of Energy issue an order allowing generating units in
+the ERCOT region to operate in excess of their federal environmental permit limits so
+that these units could provide maximum output. The Secretary of Energy granted
+ERCOT’s request and issued an order on December 23, 2022. The order allowed
+certain identified units to exceed permitted limitations in the event ERCOT declared an
+EEA Level 2 or 3.
+
+© 2023 ERCOT
+All rights reserved.
+
+1
+
+2. Report Summary
+Time Frame: Thursday, December 22, 2022 – Sunday, December 25, 2022
+Summary: This report summarizes the performance of the ERCOT grid throughout
+Winter Storm Elliott, detailing peak demand and forecasted demand, renewable
+resources performance, major generation and transmission outages, operational
+messages, generation breakdown by fuel type, Reliability Unit Commitment (RUC)
+deployments, and operational reserve margins. Additionally, ERCOT will summarize the
+outreach and communication efforts prior to and throughout Winter Storm Elliott. After
+Winter Storm Elliott, ERCOT sent requests for information (RFIs) to Market Participants
+whose resources experienced outages or derates for weather- or fuel-related issues.
+The final section of this report will be a summary of ERCOT’s lessons learned.
+
+3. Peak Demand: Forecast and Actual
+In the days leading up to the storm, the weather forecast models and vendor-supplied
+weather forecasts changed significantly between forecast runs. These changes were
+reflected in the changes in the peak load forecast. As the front moved in on the 22nd the
+weather forecasts for the timing and the intensity of the front’s arrival were off. The front
+arrived several hours sooner in the major cities, and the temperature drop was more
+intense than the forecast in the days leading up to the storm.
+For the operational load forecast, ERCOT primarily uses internally-developed forecast
+models, but also has two vendor-developed forecast models as a backup. The software
+used for the internally-developed forecast models was recently updated to a newer
+version. The new version contained a change in the way the software applies holidays
+to the forecast. This resulted in the forecast models double counting the typical
+reduction in load typically experienced due to holidays. As a result, the load forecasts
+produced by the internally-developed forecast models were obviously too low for the
+23rd and 24th so ERCOT switched to the vendor-developed forecast models. The load
+forecasts produced by these vendor-developed forecast models were also too low
+because these models do not have the sophistication of ERCOT’s internally-developed
+forecast models but were still better in this case due to the double counting of the
+effects of the holiday in the internally-developed models.
+The following charts show the forecasted peak load for Thursday, Friday, Saturday, and
+Sunday (December 22nd to December 25th) for the respective five prior days. The last
+bar is the actual peak.
+
+© 2023 ERCOT
+All rights reserved.
+
+2
+
+© 2023 ERCOT
+All rights reserved.
+
+3
+
+MW
+
+Load Forecast vs. Actual for December 24 HE08
+70,000
+60,000
+50,000
+40,000
+30,000
+20,000
+10,000
+0
+
+64,153
+
+63,400
+
+62,479
+
+64,034
+
+64,614
+
+65,570
+
+Dec-19
+
+Dec-20
+
+Dec-21
+
+Dec-22
+
+Dec-23
+
+Dec-24
+
+Forecast Creation Date
+(except for Dec-24 which shows the actual value)
+
+MW
+
+Load Forecast vs. Actual for December 25 HE08
+70,000
+60,000
+50,000
+40,000
+30,000
+20,000
+10,000
+0
+
+47,961
+
+50,523
+
+Dec-20
+
+Dec-21
+
+56,804
+
+59,128
+
+58,262
+
+60,870
+
+Dec-22
+
+Dec-23
+
+Dec-24
+
+Dec-25
+
+Forecast Creation Date
+(except for Dec-25 which shows the actual value)
+
+The following chart shows the actual peak load for Dec 22 to 25.
+
+Actual Daily Peak Load (Dec 22 to 25)
+
+MW
+
+73,658
+
+73,910
+
+65,570
+
+60,870
+
+Dec-24 HE08
+
+Dec-25 HE08
+
+70,000
+60,000
+50,000
+40,000
+30,000
+20,000
+10,000
+0
+Dec-22 HE22
+
+Dec-23 HE09
+
+Daily Peak Load Hour
+
+© 2023 ERCOT
+All rights reserved.
+
+4
+
+4.
+
+Renewable Generation: Forecasts and Actual
+
+Overall, the renewable generation forecasts performed well during the cold weather
+conditions. ERCOT’s staff meteorologists identified a risk that the normal wind and solar
+forecasts may over-forecast renewable generation output. Based on this, on Thursday
+December 22nd, ERCOT used the most conservative solar forecast and switched to the
+most conservative wind forecast in the afternoon, in advance of the cold weather and
+high load. The extreme weather forecasts – which account for icing impacts – were only
+slightly less than the normal 50th percentile forecast, so the 80th percentile forecasts
+were chosen as most conservative. The conservative wind and solar forecasts
+continued to be utilized until switching back on December 24th after the highest load
+peaks. High winds on Thursday December 22 nd followed by a down ramp and low winds
+on December 23 rd and 24th were predicted before the cold front arrived. Though the
+chosen 80th percentile forecast under-forecasted wind High Sustained Limit (HSL), it
+mitigated the potential effects of choosing the 50th percentile forecast, which would have
+slightly over-forecasted wind HSL during the December 22nd evening peak.
+
+Due to cloud cover, the solar HSL was over-forecasted on December 22nd. The chosen
+80th percentile forecast still over-forecasted the HSL, but by a lower margin than the 50th
+percentile forecast which is typically used.
+
+© 2023 ERCOT
+All rights reserved.
+
+5
+
+The table below summarizes the wind and solar forecast performance in Mean Absolute
+Percentage Error (MAPE) during the event compared to the monthly performance for
+December 2022.
+
+Day-ahead Forecast
+Performance (MAPE)
+1-hour-ahead
+Forecast
+Performance (MAPE)
+
+Wind forecast
+(Dec. 22-25, 2022)
+
+Wind forecast
+(Dec. 2022)
+
+Solar forecast
+(Dec. 22-25, 2022)
+
+Solar forecast
+(Dec. 2022)
+
+5.07%
+
+3.6%
+
+2.72%
+
+3.23%
+
+2.83%
+
+1.9%
+
+2.55%
+
+2.53%
+
+Wind produced a significant amount of energy during the early morning of December
+22nd and continued to increase during the early morning of December 23 rd. Afterwards,
+wind output remained under 10 GW for the majority of Winter Storm Elliott until
+increasing back up on the morning of December 26 th. The following charts show the
+actual output MW from Wind and Solar as well as any curtailments that were being
+observed. The output MW may be lower than the HSL due to curtailments, which are
+typically due to transmission capacity limitations.
+
+© 2023 ERCOT
+All rights reserved.
+
+6
+
+Total Wind Output and Curtailment
+30,000
+25,000
+
+MW
+
+20,000
+
+15,000
+10,000
+5,000
+
+0
+12/22
+0:00
+
+12/22
+12:00
+
+12/23
+0:00
+
+12/23
+12:00
+
+Wind Output
+
+12/24
+0:00
+
+12/24
+12:00
+
+12/25
+0:00
+
+12/25
+12:00
+
+12/26
+0:00
+
+12/25
+0:00
+
+12/25
+12:00
+
+12/26
+0:00
+
+Wind Curtailment
+
+Total Solar Output and Curtailment
+10,000
+9,000
+8,000
+7,000
+
+MW
+
+6,000
+5,000
+4,000
+3,000
+2,000
+1,000
+0
+12/22
+0:00
+
+12/22
+12:00
+
+12/23
+0:00
+
+12/23
+12:00
+
+Solar Output
+
+5.
+
+12/24
+0:00
+
+12/24
+12:00
+
+Solar Curtailment
+
+Committed Capacity and Generation Used by Fuel Type
+
+Over 72 GW of capacity was committed for the evening of December 23 rd. Most of this
+capacity was self-committed by market participants. Online reserves remained high
+throughout Winter Storm Elliott. The minimum Physical Responsive Capability (PRC) of
+© 2023 ERCOT
+All rights reserved.
+
+7
+
+4,052 MW was observed on December 23 rd at approximately 8:33 PM. PRC remained
+well above the EEA Level 1 criteria of 2,300 MW.
+
+The following chart shows the breakdown of the generation used for the entire four-day
+period. Resources burning fuel oil were counted as natural gas generation for the
+purposes of this chart.
+
+Generation Used by Fuel Type
+80,000
+70,000
+60,000
+
+MW
+
+50,000
+40,000
+
+30,000
+20,000
+10,000
+0
+12/22 0:00
+
+Nuclear
+
+12/22
+12:00
+
+Coal
+
+12/23 0:00
+
+12/23
+12:00
+
+12/24 0:00
+
+Natural Gas
+
+Wind
+
+Solar
+
+12/24
+12:00
+
+Hydro
+
+12/25 0:00
+
+12/25
+12:00
+
+12/26 0:00
+
+Energy Storage Resource
+
+© 2023 ERCOT
+All rights reserved.
+
+8
+
+The instantaneous peak demand of 74,100 MW occurred on December 23 rd at 7:30 am.
+The following chart illustrates the breakdown of the generation used during the peak
+demand. Additionally, ERCOT was importing and exporting varying amounts of energy
+across the Direct Current (DC) Ties from the morning of December 22 nd through
+December 25th. During the peak demand on December 23rd, ERCOT was importing
+approximately 1,139 MW through DC Ties.
+
+The following graph shows the level of several different types of reserves: online
+Operating Reserve Demand Curve (ORDC) reserves, offline ORDC reserves that could
+be online quickly, and Physically Responsive Capacity (PRC) which is the variable used
+to calculate the need to implement emergency operations procedures. Each of these
+measures of reserves remained high throughout the event.
+
+© 2023 ERCOT
+All rights reserved.
+
+9
+
+6. Natural Gas Restrictions
+The severe winter weather led to gas pipeline operators communicating to generator
+operators to be extra cautious with delivery overages and pipeline / shipper contract
+maximums.
+Several pipeline operators issued Operational Flow Orders (OFO) to prevent shippers
+from moving additional gas beyond contract maximums during the cold weather. There
+was a report from one market participant that line pressure was beginning to fluctuate
+beyond normal levels, but ultimately, that caused no impact to their Resources’ output.
+Action
+Pipeline Notification
+Pipeline Notification
+Pipeline Notification
+No Notices From Pipes
+
+Date
+20-Dec
+22-Dec
+23-Dec
+
+Situations
+OFO
+OFO
+'segments at risk'
+
+# of Pipes
+8
+1
+1
+13
+
+# of Generation Sites
+155
+31
+6
+159
+
+Total MW on Pipeline
+20927
+4772
+1222
+21010
+
+Additionally, gas generators that normally experience gas restrictions during cold
+weather were restricted during the week. However, gas restrictions were not a
+significant issue during this cold weather period, in part because Firm Fuel Supply
+Service was used to backfill capacity that was otherwise unavailable due to these gas
+restrictions.
+
+© 2023 ERCOT
+All rights reserved.
+
+10
+
+7. Reliability Unit Commitment (RUC) and Firm Fuel Supply Service
+(FFSS) Summary
+The following chart shows the total RUC capacity and FFSS committed per hour. Each
+bar represents the cumulative capacity committed for the hour. Hours when there was
+not a change from the previous hour were omitted from the graphic for clarity.
+
+FFSS is a new service starting this winter season. Generators providing FFSS are
+required to have 48 hours of stored fuel. This service was beneficial in replacing
+generation capacity unavailable due to gas restrictions.
+
+8. Generation and Transmission Outages
+At the beginning of the day on December 22 nd, there were 11,988 MW of pre-existing
+generation outages and derates. Most of these outages were forced rather than
+planned. The maximum outage and derate capacity of 19,885 MW occurred on
+December 23rd at 08:00. The majority of this increase was due to an increase in gas
+resource outages. For Intermittent Renewable Resource (IRRs), wind and solar,
+seasonal capacity (High Sustainable Limit – HSL) rather than the expected IRR output
+was used to calculate the outaged and derated capacity.
+
+© 2023 ERCOT
+All rights reserved.
+
+11
+
+The following chart shows the preliminary breakdown of outages and derates by cause
+since December 22nd. “Faulted turbines or inverters” are wind turbine or solar inverter
+faults that did not mention icing. Requests For Information (RFIs) were sent by ERCOT
+to resources that experienced outages or derates due to weather- or fuel-related issues.
+The responses to these RFIs are broken down later in this section.
+
+© 2023 ERCOT
+All rights reserved.
+
+12
+
+The following four charts show the outages and derates by cause since December 22 nd
+for natural gas, coal, wind, and solar, respectively, along with an assessment of the
+cause category of the forced outages based on data entered by market participants into
+the ERCOT Outage Scheduler. Market participant’s responses to the RFIs clarified the
+causes of some of these outages.
+
+© 2023 ERCOT
+All rights reserved.
+
+13
+
+© 2023 ERCOT
+All rights reserved.
+
+14
+
+Following Winter Storm Elliott, ERCOT sent RFIs to market participants (MPs) whose
+resources experienced outages or derates for weather- or fuel-related issues. An initial
+list of impacted units was based on data entered by market participants into the ERCOT
+Outage Scheduler. The RFIs contained questions concerning the outage cause, outage
+duration, amount of MWs lost, gas pressure and flow (if relevant), etcetera. The
+following chart shows the amount of generation outaged or derated for reasons related
+to cold weather or fuel by type as well as the aggregate temperature (based on a
+weighted average) during Winter Storm Elliott.
+Note that this is a subset of all outages that occurred during the cold weather period.
+
+© 2023 ERCOT
+All rights reserved.
+
+15
+
+Total outages during Elliott peaked at close to 20,000 MW; outages reported as cold
+weather- or fuel-related made up approximately 4,500 MW of that. Before Winter Storm
+Elliott, ERCOT inspected 255 resources for winter weather readiness. Of those
+inspected sites, four were subsequently found to have weather-related outages or
+derates during the cold weather period (all of which were gas generators). Weatherrelated outages that occurred on units that had recently been inspected for winter
+weather readiness will receive additional scrutiny, and any lessons learned will be
+included in future inspections.
+
+© 2023 ERCOT
+All rights reserved.
+
+16
+
+The following two charts show the transmission outages since December 22 nd, 2022.
+
+© 2023 ERCOT
+All rights reserved.
+
+17
+
+The transmission outages did not have a significant impact on the system during Winter
+Storm Elliott. The maximum resource curtailment caused by transmission constraints
+was below 500 MW, and it came down to 0 MW by December 24th.
+
+9. Winter Storm Elliott vs. Winter Storm Uri
+Elliot
+Uri
+74,100 MW (Instantaneous
+69,812 (Hourly Actual)
+12/23/2022 HE08)
+76,819 (Hourly Back-cast)
+Coldest Temperature (°F):
+Dallas
+11
+-2
+Houston
+15
+13
+Austin
+15
+7
+San Antonio
+16
+12
+Brownsville
+27
+26
+Abilene
+10
+-4
+Midland
+10
+4
+Precipitation (inch): does not separate rain, snow, sleet, and freezing rain/ice
+
+Peak Demand
+(MW)
+
+Dallas
+Houston
+Austin
+San Antonio
+Brownsville
+Abilene
+Midland
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+0.37
+1.37
+1.76
+1.32
+0.60
+0.31
+0.16
+
+A strong polar cold front moved through the ERCOT region on December 22 nd. The
+front moved through all but southern West Texas during the pre-dawn hours, reached
+Dallas-Fort Worth around 08:00, Austin around 12:00, Houston around 16:00, and the
+Rio Grande Valley between 18:00 and 20:00. Temperatures commonly dropped 10-20
+degrees in a matter of minutes behind the front. Some West Texas locations dropped
+more than 20 degrees in less than an hour. Along with the sharp drop in temperatures,
+a strong North-Northwest wind of 20-30 MPH with gusts to 40 MPH was common
+behind the front across the ERCOT region on the 22nd and into the morning of the 23rd.
+Wind gradually diminished during the day on the 23rd and was much lighter heading into
+Christmas weekend. All locations, except for the Panhandle, recorded their coldest
+temperature on the morning of December 23rd. Wind chill values during the AM hours
+on December 23 rd mostly ranged from the single digits above zero to single digits below
+zero. The Rio Grande Valley did not quite get to that level, with a peak wind chill of 13 at
+Brownsville. Afternoon highs on December 23 rd were also well below normal, reaching
+the 20s over North and West Texas and 30s for most of the rest of the state.
+Temperatures slowly moderated through the Christmas holiday but remained below
+normal on December 24th, 25th, and the morning of the 26th.
+This winter storm was not to the level of February 2021 but was closest to the extremes
+faced in February 2011. West Texas was mostly colder in February 2011. The rest of
+the state was colder with the December 2022 event compared to February 2011. The
+© 2023 ERCOT
+All rights reserved.
+
+18
+
+most extreme temperatures in relation to normal occurred in the Coastal and South
+zones. The low temperature of 15 degrees in Houston on the morning of December 23 rd
+was several degrees below the minimum temperatures from February 2011 and was
+only two degrees warmer than the February 2021 winter storm. Dallas, on the other
+hand, was 13 degrees warmer than the peak cold in February 2021.
+From a system-wide perspective, ERCOT tracks a load-weighted system temperature.
+Winter Storm Elliott was the coldest in the last 15 years, except for Winter Storm Uri.
+
+No significant precipitation fell with this extreme, late-December cold air.
+
+10.
+
+Market Summary
+
+10.1.
+
+System-Wide Pricing
+
+The following chart shows the total real-time system price (blue trend) in addition to the
+individual price adders, including the Reliability Deployment Price Adder (gray trend)
+and Online Reserve Price Adder (purple trend) for ORDC. The highest real-time
+system-wide prices occurred on December 23rd, reaching its peak of $4,466.79/MWh
+during the SCED execution on December 23rd 06:52. Excluding December 23 rd, the
+peak total Real-Time system-wide price was $155.24/MWh from the SCED execution
+
+© 2023 ERCOT
+All rights reserved.
+
+19
+
+on December 24 th 07:40. These prices reflect the wholesale market prices for these four
+days and do not have a direct impact on the retail prices that customers pay.
+
+10.2.
+
+Hub Average and Hub Bus Average Settlement Point Prices
+
+The real-time hub average and hub bus average prices mirror the trend in total systemwide prices shown in section 10.1. The real-time prices were much greater than dayahead prices on December 23 rd. In contrast, day-ahead prices were much greater than
+Real-Time prices on December 24th. The graph below shows Real-Time Market (RTM)
+and Day-Ahead Market (DAM) Settlement Point Prices (SPPs) for the relevant time
+period.
+
+© 2023 ERCOT
+All rights reserved.
+
+20
+
+10.3.
+
+Day-Ahead Prices
+
+During this period, the DAM continued to clear and publish. The DAM Hub Average
+Settlement Point Price (DASPP) was the highest during the morning of December 24th,
+reaching a peak of $2,539.16/MWh during hour ending 08. Ancillary Service prices
+followed a similar trend as energy prices.
+
+11.
+
+Ancillary Services
+
+Ancillary Services performed well during Winter Storm Elliott.
+11.1.
+
+Deployment of Responsive Reserve Service
+
+Responsive Reserve Service was not deployed during this winter storm.
+11.2.
+
+Deployment of Non-Spin
+
+Offline Non-Spin Reserve was deployed between 6:50 am to 10:00 am on December
+23rd due to the projected ramping capability of available resources being below the
+forecasted load ramp. The maximum deployment was 3,222 MW. The chart below does
+not include Non-Spin Reserve provided by resources that were already online at the
+time.
+
+© 2023 ERCOT
+All rights reserved.
+
+21
+
+11.3.
+
+Energy Storage
+
+Energy Storage Resources carried a meaningful amount of Ancillary Services during the
+cold weather. The following chart shows the total MW and percent contribution of
+Ancillary Services with a focus on Regulation Up, Responsive Reserve Service (RRS),
+and Non-Spin Reserve that ESRs were carrying during the week. The trend shows that
+Energy Storage Resources (ESRs) carry more percentage of total Regulation Up from
+hours 16-22. ESRs were carrying roughly 45-55% of total RRS-Primary Frequency
+Response (PFR) and up to 88% of Regulation Up. On December 22 nd, over peak load
+hours about 50% of Regulation Up was being carried by ESRs, which allowed more
+conventional capacity to be available to serve demand.
+
+© 2023 ERCOT
+All rights reserved.
+
+22
+
+Below is a chart indicating the amount of State of Charge (SOC) in MWh that was being
+maintained amongst all ESRs carrying Ancillary Services over the week. As can be
+seen the minimum amount of delta SOC (Actual SOC – Minimum Required SOC) is
+seen during the peak period on December 23rd. This can be seen due to sustained
+deployments for energy and regulation deployments. Overall, the expected amount of
+SOC was maintained by ESRs carrying Ancillary Services during this period.
+
+© 2023 ERCOT
+All rights reserved.
+
+23
+
+The chart below shows a breakdown of all ESRs and their expected generation
+(Updated Desired Base Point (UDBP), Regulation dispatch, and PFR) vs the
+percentage of SOC available. The general observation is that ESRs were maintaining
+SOC before being depleted during the peak load hours followed by ESRs charging back
+up to prepare for the next peak period. ESRs were also maintaining SOC to meet the
+Ancillary Service obligation they were carrying throughout the day. On December 23rd, a
+significant amount of MW contribution due to ESR SCED dispatchable capacity and a
+sharp decline in SOC is observed due to continued dispatch. The total real-time systemwide price peak was a ~$4,460 MWh during the morning peak of December 23 rd from
+SCED interval 06:55 to 07:00 which contributed to the sustained dispatch of ESRs.
+
+12.
+
+Large Flexible Load Performance
+
+During Winter Storm Elliot, Large-Flexible-Loads (LFLs) registered with ERCOT, which
+consist of loads such as Bitcoin mining facilities and other datacenters, curtailed their
+consumption from 1,530 MW to 130 MW (a 91.5% reduction) during the peak demand.
+Additionally, they provided 75 MW of RRS throughout the event. Of the approximately
+20 known LFL sites, all curtailed their load to some extent. Several responded by
+shutting off completely for the entirety of the event, while most sites curtailed when
+prices rose above the $70/MWh to $110/MWh range.
+
+© 2023 ERCOT
+All rights reserved.
+
+24
+
+13.
+
+Outreach During Winter Storm Elliott
+
+13.1.
+
+Operations Outreach
+
+The following table outlines the timeline for ERCOT operations communications,
+including Operating Condition Notices (OCN 1) and Control Room Advisory:
+Date Time Notice
+12/16/2022 OCN issued for the predicted extreme cold
+8:59 weather event for the ERCOT Region Thursday
+morning, December 22, 2022, through Monday,
+December 26, 2022.
+12/19/2022 Advisory issued for the predicted extreme cold
+13:26 weather event for the ERCOT Region Thursday
+morning, December 22, 2022, through Monday,
+December 26, 2022.
+12/21/2022 At 10:00, Watch issued for the predicted
+10:00 extreme cold weather event for the ERCOT
+Region Thursday morning, December 22,
+2022, through Monday, December 26, 2022.
+12/21/2022 At 12:00, QSEs representing Firm Fuel Supply
+12:00 Service Resources (FFSSRs) shall begin
+preparations for potential FFSS deployment.
+
+Type
+Operational
+Information
+
+Status
+Active
+
+Advisory
+
+Active
+
+Watch
+
+Active
+
+Watch
+
+Active
+
+1 An OCN is the first of three levels of communication issued by ERCOT to market participants and the public in anticipation of a
+
+possible Emergency Condition. The second level is an Advisory and the third level is a Watch.
+© 2023 ERCOT
+All rights reserved.
+
+25
+
+12/25/2022 ERCOT has cancelled the following notice: At
+11:52 10:00, Watch issued for the predicted extreme
+cold weather event for the ERCOT Region
+Thursday morning, December 22, 2022,
+through Monday, December 26, 2022.
+12/25/2022 ERCOT has cancelled the following notice: At
+11:54 12:00, QSEs representing Firm Fuel Supply
+Service Resources (FFSSRs) shall begin
+preparations for potential FFSS deployment.
+13.2.
+
+Watch
+
+Cancelled
+
+Watch
+
+Cancelled
+
+Communications Outreach
+
+Winter Storm Elliott Communications Outreach - December 2022
+ERCOT kept Texans informed of the week’s weather events, grid preparation,
+and active storm response efforts on an ongoing basis. ERCOT Public Affairs
+used several key avenues in this effort, including:
+•
+
+Press Briefing. Participated in press briefing at the State Operations Center,
+along with Governor Abbott and representatives from the Texas Department of
+Emergency Management (TDEM) and Texas Public Utility Commission (PUC)
+Grid Communicators Outreach. Hosted pre-storm call with the communications
+staff of a small group of grid/market participants to discuss the current grid
+situation, messaging, and best practices through the duration of the weather
+event
+News Release. Distributed a news release summarizing the grid preparedness
+and storm outlook in advance of the weather
+Media Engagement/Response. Responded to approximately 100 media
+inquiries from local, regional, and national reporters
+Social Media. Shared messaging on social media (Facebook and Twitter)
+before, during, and after the winter storm
+Website/Dashboards. Directed the media and the public to the Grid Dashboards
+to monitor the grid in real-time
+
+•
+
+•
+•
+•
+•
+
+Key Public Affairs Communication Event Timeline
+•
+
+12/15/22, 9 am – ERCOT provided update of potential cold weather event at
+PUC Open Meeting
+
+•
+
+12/16/22, 9:30 am – Informed market participant/grid communicators of
+anticipated weather situation
+
+© 2023 ERCOT
+All rights reserved.
+
+26
+
+•
+
+12/16/22, 1 pm – Distributed news release ahead of winter storm to ERCOT
+Board, Executive Staff, PUC, state officials and Texas Congressional
+delegation; ERCOT employees; market participants; and statewide media
+
+•
+
+12/16/22, 1:30 pm –Initial post on social media linking to news release about
+reforms implemented since February 2021
+
+•
+
+12/19/22, 9:30 am – Participated in the State Agency communicators call led
+by Governor’s Office regarding grid enhancements in preparation for the winter
+storm
+
+•
+
+12/20/22, 9:30 am – ERCOT CEO addressed upcoming winter storm at the
+beginning of the ERCOT Board meeting
+
+•
+
+12/21/22, 10 am – ERCOT CEO participated in Gov. Abbott’s State Agency
+briefing at State Operations Center (SOC), along with TDEM, PUC, RRC, and
+other state officials
+
+•
+
+12/21/22, 11 am – ERCOT CEO participated in Gov. Abbott’s Press Briefing at
+SOC, along with TDEM and PUC
+
+•
+
+12/22/22, 10:30 am – Posted an update on social media, sharing how the
+general public and media can follow current grid conditions on the dashboards
+page on the ERCOT website
+
+•
+
+12/22/22, 5:30 pm – Posted an update on social media, sharing what steps to
+take if experiencing a local outage, which is not an ERCOT grid issue
+
+•
+
+12/24/22, 1 pm – Posted an update on social media, thanking all those
+working hard to keep the grid operating reliably
+
+•
+
+12/25/22 – Posted final update of returning to normal conditions
+
+Social Media (Facebook and Twitter) Analytics
+December 16, 1:30 pm — Initial post linking to news release about reforms
+implemented since February 2021.
+•
+
+Twitter: 75,000 views, 110 comments, 95 retweets, 97 likes
+
+•
+
+Facebook: 135 reactions, 107 comments, 71 shares
+
+December 22, 10:30 am — 2nd post sharing how the general public and media can
+follow current grid conditions on the ERCOT dashboards page on the ERCOT website
+•
+
+Twitter: 129,200 views, 65 comments, 143 retweets, 325 likes
+
+•
+
+Facebook: 388 reactions, 234 comments, 244 shares
+
+© 2023 ERCOT
+All rights reserved.
+
+27
+
+December 22, 5:30 pm — 3rd post, sharing what steps to take if experiencing a local
+outage, which is not an ERCOT grid issue
+•
+
+Twitter: 155,100 views, 98 comments, 110 retweets, 339 likes
+
+•
+
+Facebook: 69 reactions, 55 comments, 39 shares
+
+December 24, 1 pm — 4th post, thanking all those working hard to keep the grid
+operating reliably
+•
+
+Twitter: 104,900 views, 82 comments, 69 retweets, 656 likes
+
+•
+
+Facebook: 422 reactions, 86 comments, 18 shares
+
+December 25, 1:30 pm — 5th and final post, sharing ERCOT was returning to normal
+operations
+•
+
+Twitter: 73,200 views, 31 comments, 45 retweets, 303 likes
+
+•
+
+Facebook: 161 reactions, 17 comments, 9 shares
+
+ERCOT Dashboard Analytics December 21-24
+Page Title
+
+Views
+
+Total Users
+
+Grid and Market Conditions
+
+532,144
+
+212,578
+
+Supply and Demand
+
+108,516
+
+56,402
+
+Grid Conditions
+
+67,021
+
+32,799
+
+System-Wide Demand
+
+20,000
+
+10,341
+
+System-Wide Prices
+
+13,040
+
+4,352
+
+Fuel Mix
+
+12,439
+
+8,470
+
+Combined Wind and Solar
+
+6,353
+
+4,893
+
+Weather Forecast
+
+4,299
+
+3,764
+
+Grid and Market Conditions
+
+2,138
+
+507
+
+Ancillary Services
+
+1,981
+
+1,048
+
+DC Tie Flows
+
+1,395
+
+1,189
+
+© 2023 ERCOT
+All rights reserved.
+
+28
+
+Total
+
+769,451
+
+13.3.
+
+258,552
+
+Legislative Outreach
+
+ERCOT provided daily updates to both PUC Commissioners and Legislative leadership
+offices through calls and emails. Legislative leadership offices included representatives
+from the Governor’s office, Lt. Governor’s office, Speaker’s office, Chairman of Senate
+Business & Commerce’s office, and Chairman of House State Affairs office. The
+updates provided those offices with current and forecasted grid conditions, advisories,
+ERCOT news releases, and other information that could have an impact on grid
+operations.
+Key Legislative & Regulatory Communications Timeline
+
+•
+
+12/15 – Notice given of upcoming weather event potential at PUC Open
+Meeting
+
+•
+
+12/16 – Grid Conditions email to PUC Commissioners and legislative
+leadership offices – OCN issuance
+
+•
+
+12/16 – Email to notify legislative leadership offices of press release
+
+•
+
+12/19 – Grid Conditions email to PUC Commissioners and legislative
+leadership offices – Advisory issuance
+
+•
+
+12/20 – Updates and communication call with PUC Commissioners and
+Executive PUCT leadership
+
+•
+
+12/21 – Updates and communication call with PUC Commissioners and
+Executive PUCT leadership – 09:00 update
+
+•
+
+12/21 – Grid Conditions email to PUC Commissioners and legislative
+leadership offices – Watch issuance
+
+•
+
+12/22 – Updates and communication call with PUC Commissioners and
+Executive PUCT leadership – 09:00 update
+
+•
+
+12/22 – Grid Conditions email to PUC Commissioners and legislative
+leadership offices – 09:30 update
+
+•
+
+12/22 – Updates and communication call with PUC Commissioners and
+Executive PUCT leadership – 14:30 update
+
+•
+
+12/22 – Grid Conditions email to PUC Commissioners and legislative
+leadership offices – 16:45 update
+
+•
+
+12/22 – Grid Conditions email to PUC Commissioners – 22:30 update
+
+© 2023 ERCOT
+All rights reserved.
+
+29
+
+14.
+
+•
+
+12/23 – Grid Conditions email to PUC Commissioners – 05:00 update
+
+•
+
+12/23 – Updates and communication call with PUC Commissioners and
+Executive PUCT leadership – 09:00 update
+
+•
+
+12/23 – Grid Conditions email to PUC Commissioners and legislative
+leadership offices – and 10:00 update
+
+•
+
+12/23 – Updates and communication call with PUC Commissioners and
+Executive PUCT leadership – 13:30 update
+
+•
+
+12/23 – Grid Conditions email to PUC Commissioners – 14:00 update
+
+•
+
+12/23 – Updates and communication call with PUC Commissioners and
+Executive PUCT leadership – 17:30 update
+
+•
+
+12/23 – Grid Conditions email to PUC Commissioners and legislative
+leadership offices – 18:30 update
+
+•
+
+12/23 – Grid Conditions email to PUC Commissioners – 22:30 update
+
+•
+
+12/24 – Updates and communication call with PUC Commissioners and
+Executive PUCT leadership – 09:00 update
+
+•
+
+12/24 – Grid Conditions email to PUC Commissioners and legislative
+leadership offices – 09:30 update
+
+•
+
+12/25 – Grid Conditions email to PUC Commissioners – 11:30 update
+
+Conclusions and Lessons Learned
+
+Winter Storm Elliott represented the coldest temperatures the ERCOT region has
+experienced since Winter Storm Uri and the second coldest temperatures over the last
+fifteen years. In fact, temperatures were colder than when ERCOT entered Energy
+Emergency Alert (EEA) on February 15, 2021, and load was more than 4,000 MW
+higher at the peak on December 23, 2022. Despite this, the ERCOT grid did not
+experience the level of generation outages as was observed during Winter Storm Uri
+and maintained adequate reserves throughout the cold weather period. This likely
+indicates that winterization efforts led by the PUCT and implemented by generation
+owners have had a positive impact on the ability of generators to perform under extreme
+cold conditions. Nevertheless, despite these efforts, a subset of generators did have
+cold weather-related outages. ERCOT will continue investigating the specific issues that
+caused these outages and report any findings to stakeholders, as appropriate.
+A change in the vendor-supplied software that ERCOT uses to create its internally
+developed load forecast caused the forecast to double count the typical demand
+© 2023 ERCOT
+All rights reserved.
+
+30
+
+reduction that occurs during holidays. As a result, ERCOT had to rely on its backup load
+forecast, which is supplied by an external vendor. This forecast, which is not as
+sophisticated as ERCOT’s internally developed forecast, performed poorly during
+Winter Storm Elliott. ERCOT has identified four corrective actions based on load
+forecasting lessons learned:
+1. Reduce forecast errors from the alternative load forecasting source by procuring
+a new external load forecast,
+2. Develop an innovative process for developing load forecast models specifically
+designed for extreme cold weather,
+3. Reduce weather forecast error by procuring additional raw weather forecasting
+models; and
+4. Improve the forecasting software upgrade testing process, including updating
+testing procedures to include holiday and other outlier phenomena.
+Other processes performed well during the cold weather conditions. Specifically, there
+were no significant issues with the renewable generation forecasts, Ancillary Services,
+Firm Fuel Supply Service, transmission system performance, and communications.
+
+© 2023 ERCOT
+All rights reserved.
+
+31
+
+

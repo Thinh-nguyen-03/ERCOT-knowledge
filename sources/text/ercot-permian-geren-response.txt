@@ -1,0 +1,176 @@
+TAYLOR
+
+AUSTIN
+
+2705 West Lake Dr.
+Taylor, Texas 76574
+T: 512-248-3000
+F: 512-225-7079
+
+8000 Metropolis Dr.
+Bldg. E, Suite 100
+Austin, Texas 78744
+T: 512-225-7000
+F: 512-225-7079
+
+ercot.com
+
+August 12, 2026
+The Honorable Charlie Geren
+Texas State House of Representatives
+P.O. Box 12910
+Austin, TX 78711
+Re:
+
+Permian Basin Reliability Plan and 765 kV Transmission Facilities
+
+Dear Representative Geren:
+Thank you for your letter to Electric Reliability Council of Texas, Inc. (ERCOT) dated
+August 10, 2026, requesting additional information regarding ERCOT's reliability analyses and
+the development of the Permian Basin Reliability Plan (PBRP). ERCOT appreciates the
+opportunity to engage with members of the Texas Legislature on issues related to the ERCOT
+System, and we appreciate your leadership as author of House Bill 5066.
+ERCOT's transmission planning process is designed to identify the facilities needed to
+reliably serve load across the ERCOT region, both today and over the long-term planning
+horizon. That process relies on engineering studies of existing and projected load, existing
+generation, and known future generation, and it evaluates a range of infrastructure alternatives
+before ERCOT recommends a plan to the Public Utility Commission of Texas (PUC). Our
+responses to your specific questions are provided below.
+1. You testified that ERCOT builds its engineering models using metrics that include existing
+load, projected load, existing generation, and known future generation to identify reliability
+needs now over the next ten years. Please summarize the studies and analyses ERCOT
+performed to develop the reliability plans prescribed by House Bill 5066, and how ERCOT’s
+assessment of the state’s transmission needs has evolved since House Bill 5066 was
+implemented.
+ERCOT Response: ERCOT has conducted three relevant studies to date that considered
+765-kV transmission. First, the Permian Basin Reliability Plan (PBRP), published in July 2024,
+met the requirements of HB 5066 and focused on West Texas. In addition to studying a 345-kV
+option, the PBRP evaluated the benefits of using an additional voltage level (500-kV or 765-kV)
+and concluded that adding 765-kV facilities to the system provided the optimal engineering
+solution for meeting reliability needs. Second, the 2024 Regional Transmission Plan (RTP), an
+annual five-year plan published in December 2024, built on the PBRP and recommended 765-kV
+transmission across the remainder of the system through the Strategic Transmission Expansion
+Plan (STEP). Third, the 2025 Regional Transmission Plan (RTP), published in December 2025,
+included the STEP and added one additional 765-kV path between Houston and Central Texas.
+The results of all three studies demonstrated, based on NERC reliability standards, the
+need for 765-kV additions to the system beginning in 2030. The evolution in ERCOT’s
+
+assessment of transmission need has primarily been driven by the effect of HB 5066 on the load
+forecast.
+2. You testified that ERCOT evaluated multiple load assumptions, including higher load
+growth based on information collected under House Bill 5066 (around 150 gigawatts) and a
+lower sensitivity analysis (around 120 gigawatts). According to your testimony, each scenario
+indicated a reliability need for the 765-kV transmission facilities by 2030. Please describe in
+greater detail the load data that ERCOT evaluated, including whether the need for 765-kV
+transmission lines depends upon projected data center development.
+ERCOT Response: The PBRP study, which focused on transmission needs in the
+Permian Basin portion of ERCOT, used load levels of 23,659 MW in 2030 and 26,400 MW in
+2038 for that region, consistent with HB 5066 requirements. The 2024 RTP focused on the entire
+system, incorporated recommendations from the PBRP study, and increased the 2030 load
+assumption to approximately 150 GW based on HB 5066 requirements. The 2025 RTP used a
+reduced summer peak load forecast that reached approximately 159 GW in 2031. In the 2024
+RTP, ERCOT also performed a lower-load sensitivity analysis at approximately 125 GW for
+2030. The analysis showed that the entire 765-kV STEP plan was needed by 2030 at both load
+levels. ERCOT’s most recent econometric load forecast shows that base load plus mid-size loads
+will result in approximately 110 GW of load in 2032. That 110 GW figure does not include any
+large loads currently in the Batch process. Those load amounts would need to be added to the
+approximately 110 GW forecast to achieve a total ERCOT forecast. ERCOT currently expects
+to have a final forecast that includes the Batch loads by the end of this year.
+3. You testified that ERCOT evaluated various transmission infrastructure options, including
+upgrades to existing 345-kV facilities, before recommending 765-kV transmission lines as the
+“optimal engineering option” for the Permian Basin Reliability Plan and the broader statewide
+Strategic Transmission Expansion Plan. Please describe the alternatives ERCOT evaluated and
+explain why ERCOT concluded that incremental upgrades to the existing transmission system
+would not be sufficient. In particular, please elaborate on your testimony that upgrading facilities
+would require taking existing transmission lines out of service, and explain the associated
+operational and reliability challenges.
+ERCOT Response: As noted above, ERCOT considered adding 500-kV and 765-kV
+transmission as alternatives to relying exclusively on 345-kV facilities. Each option included
+rebuilding and reusing existing infrastructure. The plan that used 345-kV as the exclusive voltage
+relied heavily on upgrades or rebuilds and would require a large number of outages on existing
+equipment. Rebuild times for existing lines vary greatly. Although line length and terrain are
+important factors, the most significant consideration is scheduling and obtaining approval for
+outages. All transmission-line maintenance requiring an outage must be closely coordinated with
+ERCOT, which manages more than 200,000 outages per year. When a transmission line can be
+taken out of service for one long, continuous outage, the work can be completed much more
+quickly. However, the current transmission system, particularly in West Texas, has reached the
+point where ERCOT can no longer approve long, continuous outages because maintaining
+system reliability requires those lines to remain in service to serve existing load. As a result,
+needed construction outages must be taken on a daily basis or else the work must be performed
+
+2
+
+while the lines remain energized. These factors further complicate construction for TSPs, making
+the exclusive 345-kV option less feasible.
+4. Please explain further your comments that the addition of thermal generation alone would
+not eliminate the need for the 765-kV transmission facilities.
+ERCOT Response: Generation additions would not eliminate the need for 765-kV
+facilities for several reasons. First, ERCOT already includes known future generation in
+planning studies. For example, in the 2025 RTP, which looks six years ahead, ERCOT included
+17 future Texas Energy Fund gas-powered units at six separate sites in the West Load Zone,
+which includes the Permian Basin. Second, many large loads are rapidly developing in the
+Permian Basin, which is projected to grow to an electrical size equivalent to other large load
+areas in the ERCOT grid (e.g., Dallas-Fort Worth, Houston, and the Gulf Coast). Even with
+substantial amounts of native generation, these large load areas require transmission
+infrastructure to provide electrical stability and preserve overall system reliability. Additional
+new generation in the Permian Basin, beyond what is already expected to be built, would likely
+change some aspects of transmission planning, but it would not eliminate the need for the
+transmission additions outlined in the Permian Basin Reliability Plan. To understand the full
+impacts of any new generation additions, ERCOT would need to perform a new study that
+included that generation.
+5. During your testimony, you briefly discussed transmission constraints in West Texas and
+other areas of the ERCOT system. You indicated that if load continues to grow in West Texas in
+particular, there may be periods in the near future when load there cannot be reliably served
+because the existing transmission infrastructure cannot import power into the region. Please
+explain the transmission constraints ERCOT has identified and the reliability impacts ERCOT
+anticipates.
+ERCOT Response: On February 23, 2026, ERCOT issued a Market Notice titled “MA022326-01 Large Load Interconnection Studies update for Far West Texas region,” which
+stated: “ERCOT has identified an emerging reliability risk in Far West Texas of local load shed
+potentially being needed in the area during low wind conditions at night, especially during
+transmission and thermal resource outages. This risk is expected to increase as additional loads
+are interconnected in this area.” The primary time of concern will be high-load, low-wind
+nights, when the entire Far West region would depend on the limited thermal generation in the
+area together with the limited import capability of the existing transmission infrastructure.
+During those conditions, the amount of power imported into the Permian Basin could result in
+damage to existing infrastructure if ERCOT does not order temporary load shed.
+6. Finally, if one or more of the 765-kV transmission applications pending before the Public
+Utility Commission were denied or delayed, what effect would that have on ERCOT’s long-term
+transmission planning and its ability to serve forecasted load, including the projects advancing
+through ERCOT’s Batch Zero interconnection process?
+ERCOT Response: A denial of one of the 765-kV applications would require a new
+reliability study and the addition of new and different transmission solutions to meet NERC
+reliability requirements. A delay in the current schedule would require operational mitigation
+
+3
+
+plans that would make regional load shed more likely, as described in the February 23, 2026
+Market Notice mentioned above.
+The current Batch process is contingent on a number of TSP studies that identify
+transmission system needs associated with individual Large Loads. These studies included the
+PBRP and STEP 765-kV additions in their scope. Therefore, all supporting studies provided by
+TSPs (more than 600 individual studies) would be invalidated if any of the STEP 765-kV
+additions were delayed or denied. The Batch 0 process would need to be substantially modified
+or delayed if the 765-kV additions were delayed or denied.
+In addition, since the ERCOT Board of Director’s endorsement of STEP and the PUCT’s
+approval of the PBRP, ERCOT has completed its review of fifty-eight (58) Regional Planning
+Group (RPG) transmission projects that incorporated the PBRP and STEP 765-kV additions. A
+delay or denial of the 765-kV PBRP or STEP plans would invalidate these studies. These RPG
+studies represent a large percentage of future transmission planning for the ERCOT grid over the
+next six years.
+In summary, ERCOT’s recommendation of 765-kV transmission facilities reflects
+extensive engineering analysis of multiple load scenarios, each of which identified a reliability
+need for those facilities. ERCOT evaluated alternatives, including incremental upgrades to
+existing 345-kV facilities, and concluded that 765-kV facilities are the optimal engineering
+option to reliably serve the load growth Texas is experiencing.
+If ERCOT can be of any further assistance to you or your staff, please let us know.
+
+Respectfully,
+/s/ D. Woody Rickerson
+D. Woody Rickerson
+Senior Vice President and Chief Operating
+Officer
+woody.rickerson@ercot.com
+
+4
+
+

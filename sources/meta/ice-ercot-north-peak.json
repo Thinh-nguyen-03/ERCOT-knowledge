@@ -1,0 +1,12 @@
+{
+ "id": "ice-ercot-north-peak",
+ "title": "ICE ERCOT North 345KV Real-Time Peak Fixed Price Future, contract specification",
+ "publisher": "ICE Futures U.S.",
+ "tier": 2,
+ "edition": null,
+ "url": "https://www.ice.com/api/productguide/spec/6590337/pdf",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 11363,
+ "raw_sha256": "3625ec28c23dab962c60e652f870b062eb98897085b8c7cd26ddcd896b1023ad",
+ "text_chars": 1823
+}

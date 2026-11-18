@@ -1,0 +1,64 @@
+CONFIDENTIAL
+PUBLIC
+
+Batch Zero Interconnection Study Generation
+Assumption Discussion
+
+September 22, 2026
+
+Disclaimer: This presentation is provided solely for informational and discussion purposes
+and does not constitute a binding interpretation of the ERCOT Protocols, Planning Guide, or
+any other governing authority. In the event of any conflict between this presentation and the
+ERCOT Protocols, Planning Guide, or other applicable governing documents, the governing
+documents shall prevail.
+
+PUBLIC
+
+Batch Zero Interconnection Study Generation Need
+
+• As presented at the September Board meeting, the Batch Zero conditional base and
+studied load total ranges from around 100 GW in 2028 to around 192 GW in 2032
+• The total load forecast may potentially reach 200 GW for 2028 and 300 GW for 2032
+• The total available generation in the interconnection queue will not be sufficient to meet
+the anticipated load in the Batch Zero Interconnection Study under certain system
+conditions (e.g., no solar)
+• As outlined in PGRR127, additional generation outside of the interconnection queue may
+need to be added
+2
+
+PUBLIC
+
+Potential Options for Generation Assumptions
+
+• ERCOT is considering the following to address the generation need in the Batch Zero
+Interconnection Study
+o Incorporate generation with a later in-service-date into earlier study years
+o Address the generation need under certain system conditions using one or a combination of
+the following options
+✓ Dispatch batteries to a higher level than the previous planning studies; or
+✓ Dispatch both batteries and wind to a higher level than the previous planning studies; or
+✓ Add additional generators that are not in the current interconnection queue
+
+3
+
+PUBLIC
+
+Stakeholder Engagement and Next Steps
+
+• ERCOT welcomes stakeholder feedback on the options currently under consideration and
+any additional options the stakeholders deem viable
+• ERCOT will plan for a special RPG meeting to have additional discussions on the
+generation assumptions with stakeholders in early October (exact date to be determined
+and will be communicated through the RPG listserv)
+
+4
+
+PUBLIC
+
+Questions?
+Ping.Yan@ercot.com
+Gnanaprabhu.Gnanam@ercot.com
+
+5
+
+

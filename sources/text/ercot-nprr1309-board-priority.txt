@@ -1,0 +1,232 @@
+• Purpose
+
+New design for Dispatchable Reliability Reserve
+Service (DRRS) submitted in Nodal Protocol
+Revision Request (NPRR) 1309 and Nodal
+Operating Guide Revision Request (NOGRR) 283,
+and ERCOT seeks Urgent timelines.
+
+PUBLIC
+
+• Voting Item
+
+This is a voting item. ERCOT requests that the
+Board designate NPRR1309 and NOGRR283 as
+Board Priority Revision Requests and for the
+Technical Advisory Committee (TAC) to bring the
+Revision Requests for consideration at the June
+2026 Board meeting.
+
+Item 6.1: Dispatchable
+Reliability Reserve Service
+Ancillary Service
+Keith Collins
+Vice President, Commercial Operations
+Board of Directors Meeting
+December 8-9, 2025
+
+Key Takeaways
+• NPRR1309 is the third iteration of DRRS design
+and presents requested improvements while
+meeting all statutory criteria
+•
+
+Texas Legislature expects expeditious
+implementation of DRRS
+
+•
+
+PUCT has designated DRRS as a key Commission
+priority in ERCOT’s budget approval
+
+Item 6.1
+PUBLIC
+
+DRRS Revision Request Overview
+• NPRR 1309, Dispatchable Reliability Reserve Service Ancillary Service, submitted to:
+1.
+2.
+
+Address stakeholder feedback that DRRS procurements be able to be co-optimized with
+procurements of energy and other Ancillary Services;
+While fulfilling all statutory design criteria in TEX. UTIL. CODE § 39.159(d)
+
+• NPRR 1310, Dispatchable Reliability Reserve Service Plus Energy Storage Resource
+Participation and Release Factor, also submitted to include optionality for:
+1.
+2.
+
+•
+
+Energy Storage Resource (ESR) participation in DRRS; and
+Add Release Factor for DRRS to be capable of supporting resource adequacy
+
+NOGRR 283, Related to NPRR 1309
+
+• Existing NPRR 1235, Dispatchable Reliability Reserve Service as Stand-Alone
+Ancillary Service, withdrawn
+Key Takeaway: NPRR 1309 provides the new baseline design to allow for co-optimization
+while meeting statutory criteria. NPRR 1310 adds optional functionality to that baseline.
+2
+
+Item 6.1
+PUBLIC
+
+Board Priority Revision Request
+• Protocols § 21.5(3) allows the Board to designate an NPRR as a Board Priority
+Revision Request so that it is considered on an Urgent timeline
+• ERCOT requests that the Board designate NPRR 1309 and NOGRR 283 as Board
+Priority Revision Requests and instruct the Technical Advisory Committee to submit a
+recommendation on the Revision Requests for consideration at the Board’s June 2026
+meeting
+• Designation as Board Priority Revision Request is appropriate because:
+1.
+2.
+3.
+
+NPRR 1309 is third iteration of DRRS design and stakeholders are familiar with the
+statutory criteria driving the design;
+Leadership of Texas Legislature submitted a letter allowing for more time for DRRS
+design development, but nevertheless expeditious implementation is necessary; and
+Public Utility Commission of Texas designated DRRS as a key PUCT priority in approval
+of ERCOT’s budget on November 6, 2025
+
+Key Takeaway: ERCOT requests NPRR 1309 and NOGRR 283 be designated as Board
+Priority Revision Requests to support consideration at June 2026 Board meeting.
+3
+
+Date:
+To:
+From:
+Subject:
+
+December 1, 2025
+Board of Directors
+Keith Collins, Vice President Commercial Operations
+Request to Designate as Board Priority Revision Requests NPRR1309,
+Dispatchable Reliability Reserve Service Ancillary Service, and
+NOGRR283, Related to NPRR1309, Dispatchable Reliability Reserve
+Service Ancillary Service
+
+Issue for the ERCOT Board of Directors
+ERCOT Board of Directors Meeting Date: December 8-9, 2025
+Item No.: 6.1
+Issue: Electric Reliability Council of Texas, Inc. (ERCOT) requests that the ERCOT
+Board of Directors (Board) designate Nodal Protocol Revision Request (NPRR) 1309,
+Dispatchable Reliability Reserve Service Ancillary Service, and Nodal Operating Guide
+(NOGRR) 283, Related to NPRR1309, Dispatchable Reliability Reserve Service
+Ancillary Service, as Board Priority Revision Requests pursuant to ERCOT Nodal
+Protocols § 21.5(3).
+Background/History: House Bill (H.B.) 1500 § 22, 88th Leg., R.S. (2023) amended
+TEXAS UTILITIES CODE § 39.159 to require the Public Utility Commission of Texas (PUCT)
+to require ERCOT to develop and implement an Ancillary Service, Dispatchable
+Reliability Reserve Service (DRRS). Subsection (d) of § 39.159 establishes certain
+minimum characteristics for DRRS, including that the service reduce the amount of
+Reliability Unity Commitment (RUC) by the amount of DRRS procured and that
+participating Resources: (A) be capable of running for at least four hours at the
+Resource’s High Sustained Limit; (B) be On-Line and dispatchable not more than two
+hours after being called on for deployment; and (C) have the dispatchable flexibility to
+address inter-hour operational challenges.
+On September 27, 2023, ERCOT submitted NPRR1203, Implementation of
+Dispatchable Reliability Reserve Service, to establish DRRS as a subtype of an existing
+Ancillary Service, Non-Spinning Reserve Service (Non-Spin). H.B. 1500 § 51
+established a statutory deadline of December 1, 2024, by which to implement DRRS and
+establishing DRRS as a sub-type of an existing Ancillary Service was deemed necessary
+to allow for implementation by this deadline. However, on October 17, 2023, Senator
+Item 6.1
+ERCOT Public
+
+1
+
+Schwertner, Chairman of the Senate Committee on Business and Commerce, and
+Representatives Hunter and Holland, Chairman and Vice Chairman respectively of the
+House Committee on State Affairs, issued a letter to the PUCT that was filed in PUCT
+Project No. 55156 and urged the PUCT “to direct ERCOT to revise NPRR 1203 to
+establish DRRS as a standalone ancillary service, even if doing so will cause a delay in
+the implementation timeline while, of course, still expeditiously pursued. Doing so will
+ensure the forthcoming DRRS product is implemented in a manner which aligns with the
+intent of the legislature and provides the most overall benefit to the ERCOT market.” On
+May 29, 2024, ERCOT submitted NPRR1235, Dispatchable Reliability Reserve Service
+as a Stand-Alone Ancillary Service, to establish DRRS as a new Ancillary Service
+separate from Non-Spin.
+NPRR1235 only permitted participation in DRRS by Off-Line Resources. In order to
+incorporate stakeholder feedback for design improvements, ERCOT has withdrawn
+NPRR1235, and on November 20, 2025, submitted NPRR1309, Dispatchable Reliability
+Reserve Service Ancillary Service. This new NPRR meets all statutory criteria of TEX.
+UTIL. CODE § 39.159(d) while improving on NPRR1235 by allowing On-Line Resources
+to participate in DRRS in addition to Off-Line Resources. This new design enables
+DRRS to be awarded in Real-Time and accordingly procurement of DRRS may be cooptimized with procurement of energy and other Ancillary Services. Additionally, ERCOT
+submitted NOGRR283, Related to NPRR1309, Dispatchable Reliability Reserve Service
+Ancillary Service.
+Key Factors Influencing Issue: Designation of NPRR1309 and NOGRR283 as Board
+Priority Revision Requests will ensure that they move expeditiously through the
+stakeholder process due to consideration on Urgent timelines. This is appropriate
+because NPRR1309 is now the third iteration of DRRS design and, although leadership
+of the Texas Legislature indicated through their letter to the PUCT that additional
+development time would be permissible in order to achieve a design that better aligns
+with the intent of the Legislature, it is nevertheless incumbent on ERCOT to present a
+DRRS design to the PUCT for implementation as expeditiously as possible.
+Furthermore, in PUCT Docket No. 38533 in its Order Approving ERCOT’s 2026 to 2027
+Biennial Budget and Authorizing the System Administration Fee, the PUCT designated
+DRRS as a key PUCT priority with associated requirements for ERCOT performance
+measures and quarterly reporting on “quantifiable measures of success in achieving
+milestones that will ensure key Commission priorities are implemented on a timely basis
+and within budget.”
+
+Item 6.1
+ERCOT Public
+
+2
+
+Conclusion/Recommendation: Because expeditious design and implementation of
+DRRS is necessary both to satisfy the legislative requirements of TEX. UTIL. CODE
+§ 39.159(d) and the PUCT’s designation of DRRS as a key PUCT priority associated
+with ERCOT’s budget and performance measures, ERCOT recommends that the Board
+designate NPRR1309 and NOGRR283 as Board Priority Revision Requests and instruct
+the Technical Advisory Committee to bring a recommendation on NPRR1309 and
+NOGRR283 to the Board at its June 1-2, 2026 meeting for consideration of a
+recommendation of approval.
+
+Item 6.1
+ERCOT Public
+
+3
+
+ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.
+BOARD OF DIRECTORS RESOLUTION
+WHEREAS, Nodal Protocol Revision Request (NPRR) 1309 has been submitted to
+establish Dispatchable Reliability Reserve Service (DRRS) in accordance with the
+requirements of Texas Utilities Code § 39.159(d);
+WHEREAS, leadership of the Texas Legislature has indicated that DRRS should be
+designed and implemented expeditiously;
+WHEREAS, the Public Utility Commission of Texas (PUCT) has designated DRRS as a key
+PUCT priority in its Order Approving ERCOT’s 2026 to 2027 Biennial Budget and
+Authorizing the System Administration Fee issued in PUCT Docket No. 38533 on November
+6, 2025;
+WHEREAS, Nodal Operating Guide Revision Request (NOGRR) 283 has been submitted
+in relation to NPRR1309; and
+WHEREAS, after due consideration of the alternatives, the Board of Directors (Board) of
+Electric Reliability Council of Texas, Inc. (ERCOT) deems it desirable and in the best
+interest of ERCOT for NPRR1309 and NOGRR283 to be considered on Urgent timelines;
+THEREFORE, BE IT RESOLVED, that the Board hereby designates NPRR1309,
+Dispatchable Reliability Reserve Service Ancillary Service, and NOGRR283, Related to
+NPRR1309, Dispatchable Reliability Reserve Service Ancillary Service, each as a Board
+Priority Revision Request pursuant to Section 21.5(3) of the ERCOT Protocols and directs
+the Technical Advisory Committee to bring a recommendation on NPRR1309 and
+NOGRR283 to the June 2026 meeting of the Board for consideration of a recommendation
+of approval.
+
+CORPORATE SECRETARY’S CERTIFICATE
+I, Brandon Gleason, Assistant Corporate Secretary of ERCOT, do hereby certify that, at its
+December 8-9, 2025, meeting, the Board passed a motion approving the above Resolution
+by ______.
+IN WITNESS WHEREOF, I have hereunto set my hand this ___ day of December, 2025.
+______________________________
+Brandon Gleason
+Assistant Corporate Secretary
+Item 6.1
+ERCOT Public
+
+4
+
+

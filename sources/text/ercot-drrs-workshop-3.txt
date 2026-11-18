@@ -1,0 +1,207 @@
+Dispatchable Reliability Reserve
+Service (DRRS)
+TAC Workshop 3 Presentation
+ERCOT
+March 9, 2026
+
+DRRS TAC Workshop #3 to cover outstanding design and policy issues
+• Recap DRRS TAC Workshops #1 and #2
+• Timeline for NPRR 1309 and 1310
+• Discussion on statutory language
+– Interpretation of High Sustained Limit (HSL) for Energy Storage Resource (ESR) participation
+– What if ESR is not permitted to adjust its HSL
+– Resource qualification
+– Duration requirement
+
+• DRRS Demand Curve
+– New IMM/ERCOT proposal for DRRS demand curve under NPRR 1309
+
+• Discuss next steps
+
+PUBLIC
+
+2
+
+DRRS TAC Workshops #1 & #2 reviewed NPRRs 1309 and 1310
+Dec 2025
+
+Feb 2026
+
+Protocol Revision
+Subcommittee
+(PRS)
+
+DRRS TAC
+Workshop #2
+• Examples on release
+factor, demand curve, realtime eligibility validation
+and day-in-the-life
+
+• Stakeholders requested
+workshops on NPRRs
+1309 & 1310
+
+Today
+
+PUBLIC
+
+Jan 2026
+
+Mar 2026
+
+DRRS TAC
+Workshop #1
+
+DRRS TAC
+Workshop #3
+
+• ERCOT reviewed NPRR
+1309/1310 core
+mechanics, deployment,
+constraints, demand curve,
+real-time eligibility
+validation and settlements
+
+• Timeline for NPRR
+1309/1310
+• Energy Storage Resource
+participation and resource
+qualification
+
+3
+
+Energy Storage Resource Participation
+and Design Criteria
+
+PUBLIC
+
+4
+
+DRRS Statutory Requirements
+The impetus for developing DRRS comes from Public Utility Regulatory Act (PURA) § 39.159(d)-(e):
+(d) The commission shall require the independent organization certified under Section 39.151 for
+the ERCOT power region to develop and implement an ancillary services program to procure
+dispatchable reliability reserve services on a day-ahead and real-time basis to account for
+market uncertainty. Under the required program, the independent organization shall:
+1) determine the quantity of services necessary based on historical variations in generation
+availability for each season based on a targeted reliability standard or goal, including
+intermittency of non-dispatchable generation facilities and forced outage rates, for
+dispatchable generation facilities;
+2) develop criteria for resource participation that require a resource to:
+A. be capable of running for at least four hours at the resource's high sustained limit;
+B. be online and dispatchable not more than two hours after being called on for deployment;
+and
+C. have the dispatchable flexibility to address inter-hour operational challenges; and
+3) reduce the amount of reliability unit commitment by the amount of dispatchable reliability
+reserve services procured under this section.
+PUBLIC
+
+5
+
+PUBLIC
+
+Should
+Resource
+qualification
+amount for
+DRRS be
+limited to what it
+can ramp to
+within two hours
+and sustain for
+at least four
+hours?
+
+#4
+
+What is the
+impact of
+restricting ESRs
+from adjusting
+their HSL
+downwards for
+DRRS
+participation?
+
+#3
+
+If ESRs were to
+participate in
+DRRS, how
+best to interpret
+the statutory
+reference to
+High Sustained
+Limit (HSL)?
+
+#2
+
+#1
+
+ERCOT has requested stakeholder feedback on ESR-related design
+questions
+
+Should the
+DRRS duration
+requirement be
+extended
+beyond four
+hours?
+
+6
+
+DRRS Demand Curve
+
+PUBLIC
+
+7
+
+Current DRRS Demand Curve is a linear curve sloping down from $150/MW/h
+NPRR 1309
+•
+
+Assume DRRS Operational Reserve requirement =
+1,500 MW.
+
+NPRR 1310
+•
+•
+
+Assume DRRS Operational Reserve requirement
+= 1,500 MW
+Assume PUCT approves a non-zero Release
+Factor, and DRRS Resource Adequacy
+requirement = 60,000 MW
+
+Values of requirements are for illustrative purpose only
+PUBLIC
+
+8
+
+IMM/ERCOT DRRS Demand Curve
+Proposal
+
+PUBLIC
+
+9
+
+Next Steps
+
+Review stakeholder
+feedback on ESR
+participation questions and
+propose a path forward
+Incorporate joint IMMERCOT demand curve
+design proposal into
+NPRR1309, reflecting
+stakeholder feedback
+Continue to advance
+NPRR1309 towards
+consideration at the June
+Board of Directors meeting
+
+PUBLIC
+
+10
+
+

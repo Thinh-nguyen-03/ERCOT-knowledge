@@ -1,0 +1,4795 @@
+PUBL~ 4
+
+~* TEX>~
+Filing Receipt
+Filed Date - 2026-03-16 03:03:15 PM
+
+Control Number - 58484
+Item Number - 77
+
+Public Utility Commission of Texas
+Memorandum
+
+TO:
+
+Interested Persons
+
+FROM:
+
+Jessie Horn, Sr. Counsel, Rules and Projects Division
+
+DATE:
+
+March 16, 2026
+
+RE :
+
+Project -No . 5%4%4, Evaluation of Transmission Cost Recovery
+
+Commission Staff opened Project No. 58484, Evaluation qf Transmission Cost Recovery, on
+August 1, 2025 to fulfill the requirements in Section 6 of Senate Bill 6, requiring the
+Commission to evaluate (a) whether the existing methodology used to charge wholesale
+transmission costs to distribution service providers under PURA §35.004(d) continues to
+appropriately assign costs for transmission investments; and (b) whether the commission' s
+retail ratemaking practices ensure that transmission cost recovery appropriately charges the
+system costs that are caused by each customer class.
+
+On August 5,2025, Commission Staff filed its first set of questions for comment and public
+comments were filed on September 9,2025. On November 10,2025, Commission Staff held
+a workshop, and a second set of public comments were filed on November 25,2025. The
+attached draft report summarizes commission staff' s evaluation of (a) whether the existing
+methodology used to charge wholesale transmission costs to distribution service providers
+under PURA §35.004(d) continues to appropriately assign costs for transmission investments;
+and (b) whether the commission' s retail ratemaking practices ensure that transmission cost
+recovery appropriately charges the system costs that are caused by each customer class.
+Public comment
+Based on this evaluation, Commission Staff invites public comments on each of the draft
+recommendations identified below, which Commission Staffis considering for inclusion in the
+final report that will be presented to the Commission.
+
+Comments may be filed through the interchange on the Commission's website or by submitting
+a paper copy to Central Records, Public Utility Commission of Texas, 1701 North congress
+Avenue, P.O. Box 13326, Austin, Texas 78711-3326. Comments are due by April 13, 2026.
+All comments should reference Project No. 58484. Each set of comments should include a
+standalone executive summary as the last page of the filing. This executive summary must be
+
+clearly labeled with the submitting entity's name and should list each substantive
+recommendation made in the comments.
+
+Page 1 of 2
+
+Wholesale Transmission Cost Recovery
+
+Rate design
+
+1.
+
+Change the methodology for assessing wholesale transmission costs on distribution
+service providers to a coincident peak (CP) methodology with a greater number of
+CPs.
+
+2.
+
+Lengthen the interval over which a coincident peak period is measured.
+
+Retail Transmission Cost Recovery
+
+Interconnection costs
+3.
+
+Eliminate cost allowances related to interconnecting large load customers.
+
+4.
+
+Require large load customers to pay a portion of system upgrade costs.
+
+Cost allocation
+5.
+
+Require annual updates to allocation factor values.
+
+Rate design
+6.
+
+Require large load customers to pay a minimum demand charge that is based on the
+
+large load customer's contracted peak demand for a 10 to 15 year period.
+
+Page 2 of 2
+
+DRAFT
+Evaluation of Transmission Cost Recovery
+
+U BIJC
+
+< Xi Y C,O
+
+Public Utility Commission of Texas
+Project No. 58484
+March 16, 2026
+
+Table of Contents
+I.
+
+Current 4CP Methodology.
+
+1
+
+A.
+
+History.
+
+1
+
+B.
+
+Pros and cons list
+
+5
+
+C.
+
+Impacts to wholesale market.
+
+6
+
+II.
+
+Commission StaffAnalysis.
+
+9
+
+A.
+
+Background and Descriptive Statistics .
+
+10
+
+B.
+
+Evaluation ofAlternative Cost Assessment Methodologies.
+
+16
+
+III. Alternative Methodologies (Wholesale).
+
+35
+
+A.
+
+Pros and cons .
+
+35
+
+B.
+
+Impacts to wholesale market.
+
+35
+
+IV.
+
+Additional Considerations .
+
+35
+
+A.
+
+Nonbypassable costs .
+
+35
+
+B.
+
+Separate rate treatment for large loads and flexible large loads
+
+36
+
+C.
+
+Recommendations in other projects or dockets that may have downstream impacts.
+
+37
+
+1. Project No. 58481, Rulemaking to Implement Large Load Interconnection Standards
+Under PURA § 37.0561
+37
+
+2. Docket No. 58923, Commission Staff's Petition to Require Annual Updates to Class
+Allocation Factor Values Under 16 TAC §25.193(c).
+38
+
+V.
+
+Commission Staff's Recommendations and Next Steps.
+
+39
+
+I.
+
+Current 4CP Methodology
+A.
+
+History
+
+This section provides a historical overview concerning relevant legislative action, rulemaking, and
+Commission decisions on the use of the ERCOT four coincident peak (4CP) in the Commission's
+regulated rate setting practice. For both wholesale transmission rates and retail transmission rates,
+the usage of 4CP derives its origins from the transition to competition driven by legislative action
+
+in the 1990s.
+4CP in the Development of Wholesale Transmission Rates
+
+Prior to the unbundling and deregulation of the wholesale energy market in the ERCOT region,
+wholesale transmission rates were not standardized. In 1982, the Commission recognized the need
+
+for a rule to establish transparent, fair, and reasonable rates for transmission service that avoided
+subsidization of wholesale costs by a utility's retail customers. The Commission adopted a rule in
+1982 that prescribed two formulas for calculating a facilities charge. Each methodology produced
+a facilities charge assessed in dollars per megawatt (MW) for each transaction. For transactions
+larger than 25 MW, the formula was based on a transaction's impact on a utility's transmission
+system "megawatt-miles". 1 This calculation was a somewhat complex operation that required
+transmission line thermal ratings, length of the line in miles, and peak power flow studies for each
+transaction. Transactions that were 25 MW or less were assessed a charge by taking the utility's
+total annual transmission costs and dividing by system peak demand.2
+Preliminary methodologies set out by this rule remained in place with minimal changes until the
+1990s. The passage of SB 3733 in 1995 began a near decade-long period that brought about
+
+numerous changes to both the wholesale energy market and the competitive retail market.
+Senate Bill (SB) 373 added Public Utility Regulatory Act (PURA) §§ 2.056 and 2.057, directing
+the Commission to initiate the process of deregulating the wholesale energy market in the ERCOT
+region. The Commission then replaced many existing transmission service rules for consistency
+with the new provisions of PURA. New 16 Texas Administrative Code (TAC) § 23.67 required
+each transmission service provider (TSP) to "provide wholesale transmission service to other
+
+electric utilities, power marketers, exempt wholesale generators, and qualifying facilities," at both
+transmission and distribution voltage.4 Under this commission rule, utilities in the ERCOT region
+
+were also required to begin the process of functionally unbundling costs associated with the
+generation, transmission, and distribution rates on customer bills.5 Perhaps most importantly, this
+iteration created the first version of the ERCOT Independent System Operator to manage the
+
+1 16 Texas Administrative Code (TAC) § 23.59(c)(1) (1982), repealed 20 Tex. Reg. 9520 (1995) (proposed
+Nov. 13, 1995).
+
+2 Icl. at §23.59(c)(2).
+3 SB 373, enacted by the 74th Texas Legislature, Regular Session.
+
+4 16 TAC § 23.67(c) (1996), repealed 24 Tex. Reg. 2874 (1999) *roposed Sept. 23, 1998).
+5 Id. at § 23.67(p)
+
+1
+
+administration, coordination, and reliability of the transmission network, as well as oversight of
+the wholesale market operations.
+The creation of a wholesale energy market meant that a new standardized method for determining
+wholesale transmission rates was required. The Commission evaluated several different
+
+methodologies, ranging from various distance-sensitive approaches to the uniform postage stamp
+methodology used today. Ultimately, the Commission opted for a two-part rate formula that
+reflected the usage of an entirely interconnected grid. This new rate applied to all utilities operating
+within the boundaries of the ERCOT region.
+The first part of the new rate, an "access fee," collected 70% of the total transmission cost of
+service (TCOS) in the ERCOT region and was based on the ERCOT-wide postage stamp rate. The
+
+remaining 30% was an "impact fee" based on the vector-absolute "megawatt-mile" methodology. 6
+No interim update mechanism existed to update a utility's TCOS in between comprehensive base
+rate proceedings. Recognizing the magnitude of change required by this rule, the Commission also
+implemented a phase-in mechanism to mitigate any outsized rate impact and to allow "utilities
+who might suffer an adverse transmission cost impact adequate time to adjust to the new
+transmission pricing" required by the new rule.7
+Determining the access fee portion was relatively simple. Each utility's access fee was calculated
+by taking 70% of the total TCOS of all TSPs in the ERCOT region and dividing by the average
+ERCOT peak demand over the 4CP intervals to determine a $/4CP-MW rate. The average of the
+utility's demand during the ERCOT 4CP intervals was then multiplied by the $/MW rate to
+determine the annual access fee portion of the transmission facilities charge. The overall goal of
+
+the postage stamp portion of the annual charge was to provide a simple, transparent, and
+predictable rate to promote competition within the wholesale energy market in the ERCOT region.
+Calculating the impact fee consistent with the vector-absolute "megawatt-mile" method required
+an evaluation of the system "megawatt-mile" impacts related to each individual utility and was
+typically performed during a TCOS proceeding. The goal of the impact fee was to encourage some
+level of economic efficiency among the usage of the transmission system between generators and
+the load served by basing charges in part upon the distance that power had to flow The variance
+
+ofthe vector-absolute "megawatt-mile" calculation was designed to impose a higher cost on energy
+consumers who were further away from a generator, and therefore "used" more ofthe transmission
+system for consumption of power. Combining the impact fee with the access fee resulted in an
+annual facilities charge, which was divided by the twelve months and billed to each utility per 4CP
+MW monthly.
+
+In 1999, among many of the other retail related provisions, SB 78 amended PURA § 35.004 to
+require the Commission to price ERCOT wholesale transmission rates based entirely on the
+postage stamp methodology. Next, rulemaking proceedings adopted an amended 16 TAC § 25.192
+
+6-Id. at § 23.67(g)
+7 21 Tex. Reg. 1403 (Feb. 20, 1996).
+8 SB 7, enacted by the 76th Texas Legislature, Regular Session.
+
+2
+
+to reflect the new requirements. ' The rate calculation was identical to that described in the previous
+"access fee," this time including 100% of the TCOS in the ERCOT region. The removal of the
+impact fee negated any explicit distance-sensitive "usage" charges, but the postage stamp rate
+appropriately accounts for usage by billing customers based on load during the ERCOT 4CP
+intervals. A postage stamp rate methodology provides a stable and predictable rate for wholesale
+transmission service, allowing for the continued development of the wholesale energy market.
+4CP in the Development of Retail Electric Delivery Service Rates
+
+The use of 4CP in the development of retail rates originates from the deregulation and unbundling
+requirements of SB 7. Three new entities were created as a result of the functional unbundling of
+the vertically integrated investor-owned utilities: (1) a power generating company (PGC), (2) a
+retail electric provider (REP), and (3) a transmission and distribution utility (TDU). 10 The new
+PGCs and REPs were no longer subject to the traditional tariff regulation performed by the
+Commission. The newly created TDUs were still natural monopolies, and Commission rate
+regulation and open access oversight remained. The first unbundled cost of service (UCOS)
+proceedings were initiated for the affected utilities, and Docket No. 2234411 (the generic issues
+docket) was opened to address any generally applicable issues associated with the inaugural TDU
+base rate proceedings. Three key decisions made by the Commission in the generic issues docket
+created the foundation for the use of 4CP in setting retail transmission rates.
+First, the Commission determined that TSPs should bill distribution service providers (DSPs) for
+wholesale transmission service. Two methods for TSP cost recovery were presented to the
+Commission: (1) TSPs direct billing REPs and (2) TSPs billing DSPs. The Commission chose the
+second option for a multitude of reasons. 12 The direct billing methodology would have introduced
+a new billing relationship between nearly 40 TSPs and each individual REP, significantly
+complicating the billing process for REPs, the costs of which could be reflected in competitive
+retail rates. The direct billing methodology also raised concerns from municipally owned utilities
+
+and electric cooperatives regarding the appropriate process undertaken to bill customers in their
+service areas, should they choose to opt in to retail competition. In contrast, DSP billing followed
+a preexisting, simpler process. As discussed in the wholesale rate section, each DSP's assessment
+of wholesale transmission charges was determined by its 4CP demand.
+
+Second, the Commission concluded that a "uniform rate design and customer classification scheme
+[wasl appropriate" for standardizing rates for the IOU DSPs subject to the Commission's rate9 The Appropriations Act of 1997 (House Bill (HB) 1) required all state agencies to conduct a substantive
+review and potential readoption each rule. As a result of the review of the Chapter 23 rules, the Commission designated
+Chapter 25 as the appropriate location for all rules applicable to electric service providers. The transmission service
+rules formerly located in §§ 23.67 and 23.70 were readopted under §§ 25.191-.204. No changes were made to the
+
+calculation of wholesale transmission rates.
+* ATDU is both an IOU TSP and an IOU DSR The concept of transmission only utilities was introduced in
+the ERCOT region later in time. For purposes of this report, the focus is on TSPs and IOU DSPs to reflect the current
+state of the ERCOT region.
+11 Generic Issues Associated with Applications for Approval of Unbundled Cost of Service Rate Pursuant to
+PURA Section 39. 201 and Public Utility Commission Subs. R. 25 . 344, Docket No . 22344 .
+12 Docket No. 22344, Order No. 14 at 7 (Jul. 18, 2000).
+
+3
+
+setting authority. 13 The initial proceedings were a unique opportunity for the Commission to
+establish standardized rate classes and rate designs. The Commission identified approximately six
+rate classes based on common customer characteristics and implemented those classes in each of
+the rate cases before the Commission. Like the TSP billing methodology, creating a uniform rate
+classification and rate design furthered the development ofthe competitive retail market while also
+supporting cost-based rates. Because retail electric service, rate classes, and rate design were
+standardized across IOU DSP service areas, REPs could now adopt product offerings that were
+immediately scalable across different IOU DSP service areas.
+The Commission sought to match rate design with cost causation as much as possible while
+acknowledging the practical limitations of metering technology at that time. Therefore, the
+Commission adopted a rate design for each class that reflected the best-available metering data for
+that class at that time. For customers with an interval data recorder (IDR) meter, this meant that
+the retail transmission rate design should reflect how the DSP incurs transmission charges and how
+these transmission charges are allocated to the rate classes. For this reason, the Commission
+determined that transmission rates for REPs serving IDR-metered customers to be billed using
+4CP kW billing determinants. With respect to REPs billing their non-IDR metered customers, NCP
+kW billing determinants were to be used, given that these customers' 4CP data was not available.
+Furthermore, for residential and other small secondary customers that did not have demand meters,
+transmission charges were to be recovered on a per-kWh basis. This metering-based rate design
+approach ensured that rates were as cost-responsive as the available metering technology allowed.
+Finally, the Commission determined that it was appropriate for DSPs to pass through wholesale
+transmission charges directly to the REPs serving their customers. 14 A provision of § 25.192 now
+allowed TSPs within the ERCOT region were now authorized to update their wholesale
+transmission rate on an interim basis each year. This meant that an IOU DSP, over a four-year
+period between base rate proceedings, could potentially be responsible for paying for several
+
+separate wholesale transmission rate increases, with no ability to reflect the new costs in its
+delivery rates outside of a comprehensive base rate case. Of course, an IOU DSP was not
+prohibited from initiating a comprehensive base rate proceeding. However, base rate proceedings
+are extremely time consuming and resource intensive endeavors. As such, the Commission
+determined the TCRF necessary to reflect the change in wholesale transmission rates and adopted
+a rule to allow IOU DSPs the ability to pass these changes along to REPs serving their customers
+in a timely manner. The TCRF was eligible for update twice annually, effective on March 1 st and
+September 1 st each year.
+The Commission also approved an unopposed settlement agreement among the parties to the
+generic issues docket. The agreement determined that using a rate class's share of the IOU DSP's
+4CP demand was the appropriate way to allocate transmission costs among the classes. This
+approach established rate class allocation factors and provided uniformity across each IOU DSP,
+ensuring the retail transmission rates aligned with wholesale transmission costs to the extent
+feasible with the metering technology widely available at the time.
+
+13 Docket No. 22344, Order No. 17 at 11 (Jul. 24, 2000).
+14 Docket No. 22344, Order No. 14 at 7 (Jul. 18, 2000).
+
+4
+
+The three Commission decisions, combined with the agreement on allocation factors, provided the
+structure for reflecting wholesale transmission charges in retail rates applied to REPs. Within each
+initial UCOS proceeding, class allocation factors based on a utility's 4CP demand were
+implemented and used to determine the base transmission revenue requirement for each rate class.
+The same 4CP-based allocators were used in each TCRF proceeding that followed to determine
+the proper assignment of each rate class's share of wholesale transmission costs. An adjustment
+was made to the TCRF formula in 2010, allowing IOU DSPs to "true-up" the amounts collected
+from the TCRF. The under- or over-collected amounts were then applied to the revenue
+requirement established in the next TCRF proceeding. Outside of this formulaic change, the
+process of setting retail transmission rates based on 4CP has remained largely unchanged since the
+initial UCOS proceedings from 25 years ago.
+As a result of this history, the status-quo transmission cost recovery construct means:
+(1)
+
+Wholesale transmission cost recovery by a TSP is based on the TSP's rate multiplied
+by DSP 4CP demand. The resulting revenues recovered by TSPs increase when 4CP
+demand increases and decrease when 4CP demand decreases.
+
+(2)
+
+For IOU DSPs, the wholesale transmission charges paid by that DSP are allocated
+among rate classes based upon each rate class's share of that DSP's 4CP demand from
+the test year in the DSP's most recent base rate proceeding to establish that class's
+revenue requirement.
+
+(3)
+
+For the retail transmission rates IOU DSPs charge to REPs, TCRF rates for each rate
+
+class are designed to recover the class revenue requirements along with true-ups for
+past under- or over-collections. TCRF rates for residential and smaller non-residential
+customers are per-kWh energy charges. TCRF rates for mid-sized non-residential
+customers are NCP demand charges, and TCRF rates for larger non-residential
+customers are 4CP demand charges.
+B.
+
+Pros and cons list
+
+The existing 4CP methodology for wholesale transmission rate design, retail class cost allocation,
+
+and rate design practices provides the following benefits:
+(1)
+
+Wholesale 4CP rate design combined with 4CP class allocation and 4CP retail rates,
+sends a conservation and demand response price signal. This price signal incentivizes
+non-opt-in-entity (NOIE) DSPs and customers billed on a 4CP basis to respond in a
+manner that reduces peak demand on the transmission system during times of
+transmission scarcity. This retail rate design component can also help REPs determine
+the hedge value of an energy efficiency program for customers in competitive choice
+
+areas.
+(2)
+
+Wholesale 4CP rate design allows revenue and rate stability, with 4CP values
+fluctuating less than 3% per year on average. TSPs can accurately estimate annual
+revenues for the subsequent year shortly after September. Stable billing units support
+predictable TSP rate revenue, which in turn benefits ratepayers via lower-thanotherwise financing costs to be recovered through rates.
+
+5
+
+(3)
+
+The transparency and predictability associated with wholesale 4CP rate design enables
+DSPs, including NOIE DSPs, which predominately serve residential and small non-
+
+residential customers, to reasonably estimate and plan for their subsequent year's
+transmission charges based on their own 4CP demand being determined after
+September of each year.
+Shortcomings of the existing 4CP methodology include the following:
+(1)
+
+The 4CP methodology does not capture transmission scarcity which has recently
+occurred during winter season peak periods.
+
+(2)
+
+The use of a single peak from each of the four "summef' months does not adequately
+
+reflect significant scarcity on the transmission system that occurs outside of those four
+intervals-notably during solar ramp hours in the morning and evening-and which
+may reflect higher scarcity than occurs during the other three summer months that
+comprise the 4CP methodology.
+(3)
+
+The use of 15-minute intervals to establish the peak period in each month likely
+
+provides too "sharp" of a price signal in too narrow a timeframe, thereby over-valuing
+the amount of peak demand reduction or avoidance achieved in relation to the
+transmission costs avoided.
+(4)
+
+Some types of sophisticated large industrial consumers can reasonably predict 4CP
+intervals and rapidly reduce consumption during likely peak hours, thus creating a
+mismatch in allocation factors on average over time.
+
+(5)
+
+As more flexible large loads, such as crypto mines and certain types of data centers,
+interconnect to the ERCOT transmission system, clear transmission cost assignment
+may become increasingly difficult. These flexible large loads require significant
+transmission system investment and consume electricity on an order of magnitude
+higher than most other consumers. Their flexible operating procedures allow them to
+quickly reduce consumption without significantly disrupting their core business
+functions. This will become both a feature and a bug of the 4CP methodology.
+C.
+
+Impacts to wholesale market
+
+The reduction in demand resulting from customer 4CP price response behavior can introduce
+impacts on the wholesale energy market, particularly when such behavior is motivated by the
+avoidance of transmission charges rather than by real-time system conditions reflected in energy
+prices.
+In ERCOT's wholesale energy market, demand reductions are typically expected to occur as a
+response to high energy prices, which signal real-time generation scarcity. In contrast, the 4CP
+methodology introduces an additional--and often more significant--form of price-responsive
+
+behavior, where customers decrease demand primarily to reduce wholesale transmission charges
+rather than to avoid high real-time energy prices. Historically, ERCOT summer system peaks
+coincided with periods of high energy prices. However, the increasing market penetration of
+
+renewable generation resources has shifted this relationship so that high prices now tend to have a
+
+6
+
+stronger relationship with peak net load (defined as gross load minus wind and solar generation).
+Peak net load typically occurs during the evening solar ramp down.
+The top panel of Figure 6 presents average hourly energy prices compared to both average hourly
+load and average hourly net load for years 2023-2024.15 The bottom four panels of Figure 6 show
+the same relationships, separated by season. In general, these graphs suggest that higher real-time
+
+energy prices tend to occur during periods of high net load associated with reduced output from
+renewable generation resources, which may not coincide with peak demand on the ERCOT system.
+Overall, these results suggest that 4CP-incentivized reductions in demand may occur during hours
+
+that do not necessarily reflect the highest scarcity of generation resources.
+On average, across all seasons, the ERCOT system load peaks during Hour Ending (HE) 18-or
+6:00 p.m.-(with an average value ofnearly 59,000 MW), whileboth netload and real-time energy
+prices tend to peak later during HE 20 (with average values of approximately 43,500 MW and
+$134, respectively). At a seasonal level, the highest prices observed in this analysis were during
+HE 20 in the summer months, when real-time prices were nearly $313, on average. During HE 20
+of the summer months, load averaged 73,051 MW (its peak average value was 76,648 MW during
+HE 17) and net load averaged 56,628 MW (its peak average value was 57,313 MW during HE 21).
+
+15 This analysis was conducted using publicly available ERCOT data (Load, wind genemtion, and solar
+generation data are available at: https://www.ercot.com/mp/data-products/data-product-details?id=pg7-126-m. RealTime energy price data is available at: https://www.ercot.com/mp/dam-products/data-product-details?id=NP6-785-
+
+2) (the analysis reported examines real-time hub bus average prices).
+
+7
+
+80000
+
+-350
+- Avg Load (MW)
+
+70000 - - Avg Net Load (MW)
+- Avg Price {$/MWh)
+60000-
+
+-300
+-
+
+40000-
+
+1
+
+-- 200
+
+-
+
+30000
+-20000
+10000
+
+-250
+
+.-----.1~
+
+--~
+
+50000-
+
+-150
+
+. -/.
+--- ---------.
+
+-100
+- 50
+
+---.
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+0
+
+Hour Ending
+
+Spring
+
+Winter
+
+80000
+
+7000060000-
+
+50000 -
+
+-
+
+-
+
+-
+
+-
+
+-250
+
+--~
+
+---
+
+-350
+-300
+
+- - 200
+--~
+
+40000-
+
+30000-
+
+-150
+
+-----
+
+20000-
+
+----
+
+--100
+
+,----
+
+~
+
+10000 ,~,i,,,i,,,,,i,~,,,,i,,
+1 2 3 4 5 6 7 8 9 101112131415161718192021222324
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+Summer
+
+80000
+
+Fall
+
+-350
+
+70000-
+
+-300
+
+\.-
+
+60000-
+
+-
+
+50000-
+
+/----,
+
+,\
+
+30000-
+
+-150
+/.
+
+\
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+-50
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9 101112131415161718192021222324
+
+~
+
+,
+
+,
+
+,
+
+,
+
+,
+
+-100
+
+/.
+
+/
+
+200001
+
+- 250
+-200
+
+40000 - 10000
+
+-50
+
+i 0
+101112 1314 1516 17 1819 20 2122 23 24
+
+,
+
+,
+
+1
+
+Hour Ending
+
+,
+
+,
+
+~
+
+,
+
+,
+
+~
+
+,
+
+,
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9 101112 13141516 17 1819 20 2122 23 24
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,0
+
+Hour Ending
+
+Figure 61: Load, Net Load, and Real-Time Energy Prices
+
+However, reductions in demand that result from 4CP price signals are intended to align with
+
+transmission scarcity and are not specifically intended to align with periods of high energy prices.
+High energy prices provide a market signal indicating generation scarcity, which should ultimately
+drive investment and retention of generation resources needed for long-term reliability. That said,
+
+reductions in demand as a response to out-of-market financial incentives impact market outcomes
+by suppressing energy prices below the level they would be absent this behavior. If 4CPincentivized demand reductions were to more often occur during these periods when high energy
+prices often occur, there would be a greater overall alignment of transmission scarcity with
+
+generation scarcity to create effective wholesale and retail pricing signals.
+In summary, 4CP-incentivized demand reductions may impact price formation and observed load
+patterns without a corresponding relationship to times of actual generation scarcity. Historically,
+
+when high energy prices tended to coincide with high gross load rather than high net load,
+4CP-incentivized demand reductions likely had a more substantial price suppression effect because
+those reductions in demand occurred during the very hours when generation was most scarce. As
+generation scarcity pricing conditions have become more associated with periods of high net load,
+the degree of price suppression resulting from 4CP-incentivized demand reductions may be
+diminished relative to prior years.
+
+8
+
+II.
+
+Commission StaffAnalysis
+
+This section presents empirical analyses conducted by staffto provide insight around the questions
+posed by SB 6 about the impacts of different cost assessment methodologies. These analyses use
+combined data from multiple sources. The following points describe the data collected, all ofwhich
+
+cover calendar year 2020 through calendar year 2024.
+Data Provided by ERCOT:
+
+1 . Peak Demand Data: This data details , for each daily peak interval and daily peak hour, the
+date, time (interval or HE), and the aggregate ERCOT-wide level of demand.
+
+2. 4CP Demand Reduction Data: This data includes estimates of the amount of 4CPincentivized demand reduction during 158 CP and Near-CP days.16 ERCOT has separately
+analyzed response behavior for consumers in competitive choice areas that are billed on a
+4CP basis and for NOIEs. However, due to the nature of other available data, the analyses
+described in this report restrict attention to the aggregate level of CP-incentivized demand
+reduction by consumers in competitive choice areas.
+Data Provided by Transmission and Distribution Utilities (TDUs) in the ERCOT region 17.
+
+1. Consumer Demand Data: Demand by customers in each utility's service territory during
+each daily peak period identified in the data provided by ERCOT, described above. This
+data disaggregates consumer demand into three distinct customer groups: 18
+a. Residential customers (Residential)
+
+b. Non-residential customers that are not billed on a 4CP basis (Non-Residential)
+
+c.
+
+Customers billed on a 4CP basis (CP)
+
+2. Wholesale Transmission Service Charges (WTSC) Data: The dollar amount of WTSC
+passed on to retail customers in each utility's service territory, again disaggregated
+according to the above customer groups.
+
+16 The majority of this data is presented in the Annual Report on ERCOT Demand Response ( available at
+https://www.ercot.com/mp/data-products/data-product-details?id=NP3-110), however, ERCOT did provide staff with
+data for additional days that, for the sake of brevity, were omitted from these reports. This report provides a
+comprehensive overview of how ERCOT identifies Near-CP days and estimates CP-related response behavior.
+
+\1 See Evaluation of Transmission Cost Recovery, Project No . 58484 , Staff ' s Request for Infonnation to
+TDUs w/11.14 Response Deadline (Oct. 17, 2025) (requesting data from AEP Texas Inc., CenterPoint Energy Houston
+Electric, LLC, Oncor Electric Delivery Company, LLC, and Texas-New Mexico Power Company).
+18 For the purposes of staff's analysis, the critical delineation between customer groups involves the ability
+to separately identify customers who are billed on a 4CP basis and those who are not. Beyond this, because residential
+
+consumers are likely fundamentally different from non-residential consumers in their consumption patterns, staff also
+elected to request data that separately identifies residential consumers. While further, more granular consumer class
+
+subdivisions may be possible, this is not strictly necessary for the present analyses and analyzing increasingly smaller
+customer classes likely only serves to unnecessarily complicate the results.
+
+9
+
+Overview of Staff's Analyses: Subsection A presents analyses that provide an overview of the
+historical data collected, detailing historical trends in customer utilization and cost assessment,
+describing the relative magnitudes of coincident peaks throughout different parts of the year, and
+investigating the nature of CP-incentivized demand reduction (CPDR). While the ERCOT
+provided data gives separate estimates for the aggregate amount of CPDR in competitive choice
+areas and in NOIE service areas, the analyses described in this report restrict attention to CPDR in
+competitive choice areas to align with other available data.
+Subsection B presents the results of a Monte Carlo-based analysis designed to estimate the firstorder impacts of transitioning to alternative cost assessment methodologies. Specifically, the
+results provide estimates ofthe impact to the relative share of costs assessed to each customer class
+under a pre-defined set of methodologies, and more generally, from modifying the cost assessment
+methodology by adding evaluation periods at varying times of the year. These are "first-order"
+
+estimates in the sense that the analysis assumes total costs are fixed and does not attempt to fully
+account for potential behavioral changes that may occur in response to changes in the cost
+assessment methodology; however, staff provides some discussion on how these factors may
+directionally affect the estimates.
+A.
+
+Background and Descriptive Statistics
+
+Consumer Demand and Wholesale Transmission Service Charges - This section provides an
+overview of recent trends in consumer demand and WTSC. Data provided by ERCOT reflects the
+timing of each daily peak interval and peak hour, as well as the corresponding level of ERCOTwide demand during each ofthese periods from January 1,2020, through December 31, 2024. This
+information was paired with TDU data describing the amount of demand by consumers in their
+respective service territories during each of these daily peak periods. Additional TDU-provided
+data describes the amount of WTSC passed on to retail customers during each year from 20202024. As discussed above, both demand and WTSC data are disaggregated into three customer
+groups: residential (Residential), non-residential consumers not billed on a 4CP basis (NonResidential), and consumers billed on a CP basis (CP).
+
+As a first step, staff examined the degree to which the data collected is representative of the
+ERCOT system as a whole. To demonstrate this, Figure 7 illustrates the TDU provided customer
+demand as a percentage of ERCOT-wide demand during daily peak interval (top panel) and daily
+peak hour (bottom panel), for each month across all five years. On average, the data represents
+nearly 70% ofERCOT-wide demand during daily peak periods (69.41% for peak intervals, 69.06%
+for peak hours). Given the level of similarity in the distributions for daily peak intervals and daily
+peak hours, the remainder of this analysis is primarily focused on aggregate demand during daily
+peak intervals, unless otherwise noted.
+
+10
+
+mand
+
+80%
+
+¤~ 70°/o,©+6#***,%*f,~+3*444#4+0*i,4*4,+*+~ffif##4416£+
+-75%
+
+.
+
+4f?ft'6+4#tfz
+
+o o. 65%
+
+CD >.
+
+U, - 60%
+
+LL
+
+•
+
+55'1' Ji If 2 *#4 ~ifiB ~ Eji if 2 *#4 ~ f#3 5&%@2 *#4*f#E@ E* F ~M *#4* f#3 ~ E~@ 2*#**fRB@ E
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+80%
+C
+
+E
+
+75%
+
+.
+
+****+**~*+1444*+++©*++*4,*+**tt4++0*+4***©**97¢**60*+t
+EgE < 700/0**+4**
+65%
+Ee
+U)
+
+.
+
+60%
+.
+
+55% jigj*34:* 3,3-g#,1 ji@**jfi,f**kij ji#**k.%* Ffj~@E %**jfi, F#*jj ji@~**~k-%* fkB#%
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+Figure 7 2:Aggregate RFI Demand as Share of ERCOT Demand
+
+Table 4 summarizes annual WTSC by customer group, reports an approximate count for the total
+number of customers in each group (based on monthly averages reported by TDUs), and describes
+the share of aggregate demand during daily peak intervals for each customer group. In total, this
+data represents approximately $16.33 billion in WTSC over a five-year period. Of this amount,
+Residential customers were charged $7.66 billion (46.89%), Non-Residential customers were
+charged $4.13 billion (25.32%), and CP customers were charged $4.54 billion (27.79%). While
+
+there is some inter-year variation, the average share of demand by each group is fairly stable over
+time. Across all years, on average, Residential consumers accounted for approximately 37.56% of
+demand during daily peak intervals, Non-Residential consumers accounted for 21.15%, and CP
+consumers accounted for the remaining 41.29%. This indicates a potential misalignment between
+
+demand and payment, with residential consumers paying a larger share of total wholesale
+transmission costs than would be expected.
+Table 41: Historical Demand and Wholesale Transmission Service Charges (WTSC)
+
+2020
+
+2021
+
+Share of
+
+Number of
+Customers
+
+WTSC Share
+($ million)
+
+WTSC Share
+(%)
+
+Demand (%)
+
+Residential
+
+6,583,178
+
+$1,307.00
+
+47.27%
+
+39.87%
+
+Non-Residential
+
+998,466
+
+$698.91
+
+25.28%
+
+21.55%
+
+CP
+
+13,188
+
+$758.99
+
+27.45%
+
+38.59%
+
+All
+
+7,594,832
+
+$2,764.90
+
+100.00%
+
+100.00%
+
+Residential
+
+6,719,054
+
+$1,407.95
+
+46.88%
+
+37.80%
+
+Non-Residential
+
+1,018,200
+
+$772.26
+
+25.71%
+
+22.03%
+
+Year
+
+Customer Group
+
+11
+
+CP
+
+13,510
+
+$823.41
+
+27.41%
+
+40.17%
+
+All
+
+7,750,764
+
+$3,003.63
+
+100.00%
+
+100.00%
+
+Residential
+
+6,834,321
+
+$1,562.42
+
+47.06%
+
+39.07%
+
+Non-Residential
+
+1,031,157
+
+$842.29
+
+25.37%
+
+21.50%
+
+CP
+
+13,892
+
+$915.53
+
+27.57%
+
+39.42%
+
+All
+
+7,879,370
+
+$3,320.24
+
+100.00%
+
+100.00%
+
+Residential
+
+6,973,930
+
+$1,641.88
+
+46.66%
+
+36.59%
+
+Non-Residential
+
+1,038,084
+
+$883.03
+
+25.10%
+
+20.80%
+
+CP
+
+14,419
+
+$993.57
+
+28.24%
+
+42.61%
+
+All
+
+8,026,432
+
+$3,518.48
+
+100.00%
+
+100.00%
+
+Residential
+
+7,111,765
+
+$1,736.33
+
+46.70%
+
+34.49%
+
+Non-Residential
+
+1,064,878
+
+$937.36
+
+25.21%
+
+19.87%
+
+CP
+
+14,844
+
+$1,044.66
+
+28.09%
+
+45.64%
+
+All
+
+8,191,487
+
+$3,718.36
+
+100.00%
+
+100.00%
+
+2022
+
+2023
+
+2024
+
+Relative Magnitude of Daily Peaks - This section presents analyses comparing the relative
+
+magnitudes of monthly peaks, measured as a percentage of annual peak demand in the same year.
+One rationale for the current 4CP methodology, which only considers the coincident peaks in June,
+July, August, and September, is that the ERCOT system peaks in the summer and peak demand is
+a significant driver of the need for new transmission investment. As such, the 4CP methodology
+both assigns transmission costs based on usage during times when the transmission system is most
+utilized and incentivizes demand reduction during these same periods. While the ERCOT system
+continues to peak in the summer, recent trends have raised questions about whether this evaluation
+window should be expanded to consider other parts of the year as well. Winter peaks have grown
+substantially in recent years, even surpassing 90% ofthe annual peak demand value in some years.
+Figure 8 depicts, for each month, the magnitude of the monthly peak as a percentage of the annual
+peak in the corresponding year. Unsurprisingly, monthly peaks in the summer (June, July, August,
+
+and September) are consistently high, often above 95% ofthe annual peak and almost exclusively
+above 90%. While non-summer peaks are generally lower, there are some notable instances of
+months with relatively large peaks. The monthly peak during one of the winter months (January,
+February, and December) exceeded 90% of the annual peak during three of the five years
+examined: February 2021, December 2022, and January 2024.
+
+12
+
+0
+
+<80%
+
+0
+
+2 80%
+
+2 85%
+
+0
+
+2 90%
+
+0
+
+2 95%
+
+100%
+
+\
+
+Percent of Annual Peak
+
+95%
+
++T / \TI
+
+90%
+85%
+
+80%
+
+75% R
+
+.
+
+700/0 ~
+
+..
+
+65%
+Aflo.A
+
+f
+
+..
+
+C S %*.%·§* g'@-t B 8%-2 hihkgm g'g-N B 2%-g 5£ hi?%~ g'@·~ 8 yc-@ m &*·E-5 g,@-U z gm-g ~-'- >,c-3 Oal,L=-m-,
+
+<WOzo--,u-=<m--,
+
+'<MUZO-,LL5<Jn
+
+2020
+
+2021
+
+2022
+
+'<UBOZO-~LL5'f j-31<U)OZO-lli-2#2-R-'2'3|8:*~%
+
+2023
+
+2024
+
+Figure 83: Monthly Peaks as a Percentage ofAnnual Peak
+
+Table 5 presents similar information at a more granular level, providing the number of days
+
+exceeding specific thresholds of daily peak demand as a percentage of the annual peak in the
+corresponding year. The data is presented at varying levels of aggregation: by month, year, and
+overall. These results also demonstrate that high demand days are largely concentrated in the
+summer months (June, July, August, and September). Daily peaks in non-summer months that
+exceed 90% of the annual peak were relatively infrequent. In total, there were only five such days
+
+across all five years (one in 2021, two in 2022, and two in 2024), all of which occurred during one
+of the winter months (January, February, and December). Among all non-summer, non-winter
+months, only a single day exceeded 85% ofthe annual peak.
+Table 52: Number of Operating Days at or Above Threshold Percentage ofAnnual Peak
+
+Year
+
+Threshold
+
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Jun
+
+Jul
+
+Aug
+
+Sep
+
+Oct
+
+Nov
+
+Dec
+
+All
+Months
+
+80%
+
+0
+
+0
+
+0
+
+0
+
+4
+
+20
+
+28
+
+31
+
+10
+
+2
+
+0
+
+0
+
+95
+
+85%
+
+0
+
+0
+
+0
+
+0
+
+1
+
+12
+
+27
+
+29
+
+1
+
+0
+
+0
+
+0
+
+70
+
+90%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+2
+
+18
+
+25
+
+0
+
+0
+
+0
+
+0
+
+45
+
+95%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+9
+
+10
+
+0
+
+0
+
+0
+
+0
+
+19
+
+80%
+
+0
+
+5
+
+0
+
+0
+
+3
+
+22
+
+28
+
+31
+
+23
+
+5
+
+0
+
+0
+
+117
+
+85%
+
+0
+
+4
+
+0
+
+0
+
+1
+
+20
+
+23
+
+27
+
+15
+
+0
+
+0
+
+0
+
+90
+
+90%
+
+0
+
+1
+
+0
+
+0
+
+0
+
+12
+
+11
+
+21
+
+12
+
+0
+
+0
+
+0
+
+57
+
+95%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+3
+
+7
+
+14
+
+4
+
+0
+
+0
+
+0
+
+28
+
+80%
+
+0
+
+3
+
+0
+
+0
+
+20
+
+28
+
+31
+
+25
+
+19
+
+1
+
+0
+
+3
+
+130
+
+85%
+
+0
+
+1
+
+0
+
+0
+
+10
+
+26
+
+31
+
+21
+
+8
+
+0
+
+0
+
+2
+
+99
+
+90%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+21
+
+27
+
+14
+
+0
+
+0
+
+0
+
+2
+
+64
+
+95%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+3
+
+18
+
+6
+
+0
+
+0
+
+0
+
+0
+
+27
+
+80%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+21
+
+30
+
+31
+
+25
+
+2
+
+0
+
+0
+
+109
+
+85%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+17
+
+26
+
+31
+
+20
+
+0
+
+0
+
+0
+
+94
+
+2020
+
+2021
+
+2022
+
+2023
+
+13
+
+90%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+9
+
+20
+
+30
+
+9
+
+0
+
+0
+
+0
+
+68
+
+95%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+9
+
+23
+
+4
+
+0
+
+0
+
+0
+
+36
+
+80%
+
+5
+
+0
+
+0
+
+0
+
+12
+
+28
+
+22
+
+31
+
+15
+
+11
+
+0
+
+0
+
+124
+
+85%
+
+3
+
+0
+
+0
+
+0
+
+4
+
+21
+
+14
+
+30
+
+11
+
+1
+
+0
+
+0
+
+84
+
+90%
+
+2
+
+0
+
+0
+
+0
+
+1
+
+7
+
+9
+
+25
+
+2
+
+0
+
+0
+
+0
+
+46
+
+95%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+
+14
+
+0
+
+0
+
+0
+
+0
+
+15
+
+80%
+
+5
+
+8
+
+0
+
+0
+
+39
+
+119
+
+139
+
+149
+
+92
+
+21
+
+0
+
+3
+
+575
+
+85%
+
+3
+
+5
+
+0
+
+0
+
+16
+
+96
+
+121
+
+138
+
+55
+
+1
+
+0
+
+2
+
+437
+
+90%
+
+2
+
+1
+
+0
+
+0
+
+1
+
+51
+
+85
+
+115
+
+23
+
+0
+
+0
+
+2
+
+280
+
+95%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+6
+
+44
+
+67
+
+8
+
+0
+
+0
+
+0
+
+125
+
+2024
+
+All
+Years
+
+In summary, the results presented in this section demonstrate that high demand days, when the
+
+transmission system will tend to be most strained, most frequently occur during the traditional
+summer months of June, July, August, and September. This observation aligns with the previously
+discussed rationale for the current 4CP methodology, which only considers the coincident peaks
+in the summer months. However, the increasing winter peak values observed in recent years may
+
+provide support for expanding the current methodology to a wider set of months that also captures
+these high demand periods.
+Historical CP-Incentivized Demand Response - This section presents analyses describing the
+amount of CPDR observed in recent years, based on data provided by ERCOT estimating the
+amount of CPDR during 158 CP and near-CP days in the summer months (June, July, August, and
+September) of 2020-2024. The amount of CPDR described in this section represents ERCOT's
+estimate of the aggregate amount of CPDR by CP consumers only in competitive choice areas
+within the ERCOT region.
+
+Figure 9 presents two plots summarizing the distribution of CPDR on these 158 historical days.
+The left panel presents a histogram of aggregate CPDR, broken into 500 MW bins, with a visual
+delineation between CP and Near-CP days. A smooth kernel density curve, which provides an
+
+approximation of the underlying probability density function, is overlaid on top of the histogram.
+The right panel displays boxplots of CPDR values within each year, highlighting the inter-year
+variation in the amount of CPDR observed. Notably, CPDR values in 2023 and 2024 are generally
+higher than in earlier years. Table 6 provides a more detailed breakdown of the distribution of
+CPDR values, both within each year and overall.
+
+14
+
+4000
+
+50
+- Near-CP Days
+
+I CP Days
+
+45 -
+
+3500
+
+40
+3000
+35
+* 2500
+
+Count
+
+30
+
+C
+
+0
+
+25 -
+
+@ 2000
+C
+
+20 -
+
+~ 1500 --
+
+15-
+
+0
+
+1000
+10500 -
+
+5
+0
+
+500
+
+2020
+
+1,000 1,500 2,000 2,500 3,000 3,500 4,000
+
+2021
+
+2022
+
+2023
+
+2024
+
+Year
+
+4CP Demand Response (MW)
+
+Figure 94: Distribution of Historical CP-Incentivized Demand Response
+Table 63: Distribution of CP-Incentivized Demand Response Over Time
+
+Year
+
+Count
+
+Mean
+
+Min
+
+25th Pet
+
+50m Pet
+
+75th Pet
+
+Max
+
+2020
+
+19
+
+1098.17
+
+607.05
+
+983.68
+
+1072.42
+
+1314.83
+
+1438.87
+
+2021
+
+26
+
+1015.26
+
+730.96
+
+882.05
+
+946.86
+
+1146.06
+
+1449.67
+
+2022
+
+45
+
+1461.78
+
+583.98
+
+1099.27
+
+1547.61
+
+1795.41
+
+2001.60
+
+2023
+
+33
+
+2456.90
+
+838.47
+
+2340.31
+
+2574.95
+
+2733.61
+
+3198.88
+
+2024
+
+35
+
+2176.91
+
+1114.52
+
+1918.58
+
+2188.67
+
+2577.77
+
+2902.06
+
+All
+
+158
+
+1710.83
+
+583.98
+
+1088.96
+
+1652.64
+
+2337.10
+
+3198.88
+
+Aggregate Non-4CP Demand and Probability of Experiencing a Monthly CP Day - This
+
+section presents results demonstrating a significant relationship between the aggregate amount of
+demand by non-CP consumers (i.e., residential consumers and non-residential consumers that are
+not billed on a CP basis) during a daily peak interval and the likelihood of that day being a monthly
+CP day. In turn, because CP customers are incentivized to curtail demand during a coincident peak,
+these results imply a relationship between aggregate non-4CP demand and CPDR, which will
+prove useful for subsequent analyses.
+
+15
+
+Table 7 reports the results of multiple probit models estimating the relationship between aggregate
+non-4CP demand and the probability of a day being a monthly CP day (or Near-CP day).19 The
+first two columns present results estimating the relationship between aggregate non-4CP demand
+during the daily peak interval and probability of that day being a monthly CP day (the dependent
+variable has a value of one ifthe day was a CP day, zero otherwise). The third and fourth columns
+present results estimating the relationship between non-4CP demand during the daily peak interval
+and the probability of that day being a CP day or Near-CP day (the dependent variable has a value
+of one if the day was a CP day or Near-CP day, zero otherwise). In columns two and four, non4CP demand is expressed as a percentage of the monthly maximum value of non-4CP demand.
+Table 74: Relationship Between Non-4CP Demand and Probability ofa CP or Near-CP Day
+
+Dependent Variable
+
+CP Day
+
+CP Day
+
+***
+
+Non-4CP Demand (GW)
+
+0.016
+(0.004)
+
+CP or Near-CP
+Day
+***
+0.063
+(0.003)
+
+CP or Near-CP
+Day
+
+Non-4CP Demand
+0.023 ***
+0.032 ***
+Percent of Monthly Max (%)
+(0.004)
+(0.002)
+***
+p < 0.01, -p< 0.05, 'p< 0.10. Probit regression average marginal effects reported, standard errors
+reported in parentheses. All models include year fixed effects.
+
+Overall, across all models, the results indicate that the aggregate amount of non-4CP demand
+during the daily peak interval is strongly, positively associated with the probability of a day being
+a CP or Near-CP day. The results in the first column indicate that, on average, the probability of a
+given day being a monthly CP day increases by 0.016 (1.6 percentage points) for each incremental
+GW of non-4CP demand during the daily peak. The second column reports a similar relationship
+with non-4CP demand expressed as a percentage of the monthly maximum value-on average, a
+one percentage point increase in this value corresponds to an increase in the probability of a given
+day being a monthly CP day by 0.024 (2.4 percentage points). The final two columns of the table
+report qualitatively similar findings related to the probability of a given day being a monthly CP
+day or Near-CP day-the probability of a given day being a CP or Near-CP day is significantly,
+positively related to the aggregate amount of non-4CP demand during the daily peak interval.
+B.
+
+Evaluation of Alternative Cost Assessment Methodologies
+
+This section presents the results of a Monte Carlo-based analysis designed to provide insight on
+the estimated impacts of alternative transmission cost assessment methodologies. Using the data
+described in the previous section, collected from ERCOT and TDUs in the ERCOT region, staff
+first developed three different statistical approaches (linear regression, spline regression, and
+random forest) for estimating CPDR behavior during non-summer months. Each historical year
+(2020-2024) was then simulated multiple times under several different alternative cost assessment
+methodologies to obtain estimates around the expected outcomes. This analysis provides estimates
+
+19 A probit model is a statistical method for estimating the relationship between a binary dependent variable
+(one that takes only one of two values) and a set of independent variables. That is, a probit model estimates the
+
+probability that an observation with given characteristics belongs to one of two outcome categories.
+
+16
+
+of the share of costs assessed to each customer class under each methodology and the marginal
+impacts of specific changes to the cost assessment methodology.
+Cost Assessment Methodologies - The following list describes the set of cost assessment
+methodologies examined in this section of the report. Each methodology described below is based
+on a coincident peak formulation, but the method of determining a given CP varies across
+mechanisms. In the 4CP (baseline), 7CP, and 12CP cases, a CP is the highest demand interval
+within a given month. The remaining mechanisms introduce the concept of floating CPs, such as
+floating summer (FS) and floating winter (FW). Floating CPs are determined by comparing daily
+peak intervals across time frames longer than a fixed calendar month. If a floating CP window
+overlaps with fixed CP months (e.g., 5CP (4CP + FS) introduces a floating summer CP in addition
+to the four monthly CPs in the baseline 4CP case), the floating CP is the highest demand interval
+that does not occur on the same day as a monthly CP.
+
+•
+
+4CP (baseline) cost assessment is based on demand during each of the monthly CPs in
+the summer (June, July, August, and September).
+
+•
+
+5CP (4CP + FW): cost assessment is based on demand during each of the monthly CPs in
+the summer and a floating winter CP.
+
+•
+
+5CP (4CP + FS): cost assessment is based on demand during each of the monthly CPs in
+the summer and a floating summer CP.
+
+•
+
+6CP ( 4CP + FW + FS) cost assessment is based on demand during each of the monthly
+CPs in the summer, a floating winter CP, and a floating summer CP.
+
+•
+
+7CP: cost assessment is based on demand during each of the monthly CPs in the summer
+(June, July, August, and September) and each of the monthly CPs in the winter (January,
+February, and December).
+
+•
+
+SCP (7CP + FW) cost assessment is based on demand during each of the monthly CPs in
+the summer, each of the monthly CPs in the winter, and a floating winter CP.
+
+•
+
+8CP (7CP + FS): cost assessment is based on demand during each of the monthly CPs in
+the summer, each of the monthly CPs in the winter, and a floating summer CP.
+
+•
+
+9CP ( 7CP + FW + FS) cost assessment is based on demand during each of the monthly
+CPs in the summer, each of the monthly CPs in the winter, a floating winter CP, and a
+floating summer CP.
+
+•
+
+12CP: cost assessment is based on demand during all monthly CPs.
+
+Approaches for Estimating CP-Incentivized Demand Response - Under the existing 4CP
+
+methodology, some large consumers can reduce the amount of transmission charges they
+ultimately pay by strategically curtailing demand during each of the four assessed CP intervals.
+For the purposes of this report, this type of behavior is referred to as CP-Incentivized Demand
+Reduction (CPDR). Data obtained from ERCOT provides estimates of the extent to which this has
+
+17
+
+occurred, on aggregate, during existing CP months (June, July, August, and September). However,
+ifthe cost assessment methodology were to change, this type of demand reduction behavior would
+likely adjust accordingly. Since no historical CPDR data exists for non-summer months, these
+values must be estimated using the information available.
+A variety of analytical techniques were employed to impute expected aggregate CPDR values for
+other times of the year. Specifically, CPDR estimates are generated using three distinct approaches:
+
+a linear regression model, a quadratic spline regression model, and a random forest machine
+learning algorithm. Each of these approaches is described in additional detail in the following
+sections. Using multiple methods provides additional insights into the underlying data and
+
+enhances the robustness of the results by reducing reliance on any single approach.
+•
+
+Linear Regression: A well-established, statistical method for modeling the relationship
+between a dependent variable and one or more independent variables. A linear regression
+fits a straight line (or hyperplane, in the case of multiple independent variables) that best
+represents the data by minimizing the sum of squared errors (the difference between actual
+and predicted values). The resulting linear equation can then be used to estimate the value
+of the dependent variable for any combination of independent variables.
+Table 8 reports the results of the linear regression models estimating the impact of several
+independent variables onthe amount ofCPDR observed during 158 historical CP and NearCP days during the summer months of 2020-2024. All three models include an intercept
+and a variable describing aggregate demand by non-4CP consumers as a percentage of the
+monthly peak demand by these same consumers. Model 2 additionally includes year fixed
+effects (binary variables equal to one if an observation occurred in a given year, zero
+otherwise). Model 3 also includes month fixed effects, day of week fixed effects, and two
+variables-peak interval HE and peak hour HE-that capture variation in the timing of
+daily peak intervals and hours.
+
+Comparing results across models reveals that Model 3 has marginally better explanatory
+power than Model 2 (adjusted Rf of 0.814 and 0.785, respectively).20 Both models have
+considerably better explanatory power than Model 1, which has an adjusted R2 value of
+just 0.175. The sharp drop in the amount of explanatory power when year fixed effects are
+removed indicates that there is substantial variation in CPDR values across years and that
+it is important to account for these time effects (as in Model 2 and Model 3). However, the
+additional variables included in Model 3 are either not statistically significant at
+conventional levels or are unsuitable for use in prediction of out of sample CPDR values.
+The Model 3 results indicate that, treating June as the reference month, CPDR values are,
+
+on average, significantly lower in July (p-value == 0.024) and significantly higher in
+September (p-value == 0.015). However, month fixed effects cannot be used for out of
+
+20 Rf (Coefficient of Determination) is a metric describing how much of the variation in the dependent
+
+variable is explained by the independent variables included in the model; this metric describes the 'goodness offit' of
+the model, with values closer to one indicating a better overall fit. Adjusted Rf is a modified version of the Rf metric
+that accounts for the number of independent variables included in the model, penalizing the inclusion of unhelpful
+
+independent variables.
+
+18
+
+sample CPDR predictions because it is not possible to estimate the marginal effect for nonsummer months. Finally, the Model 3 results fail to detect a significant relationship
+between CPDR and peak interval HE, peak hour HE, or day of week fixed effects.
+Table 85: CP-Incentivized Demand Response Linear Regressions
+
+Intercept
+
+Linear Regression
+Model 1
+
+Linear Regression
+Model 2
+
+Linear Regression
+Model 3
+
+-4,405.996 ***
+
+-4,479.340 ***
+
+-5,215.367 ***
+
+(1,046.073)
+
+(559.990)
+-122.543
+(96.218)
+488.714 ***
+(88.032)
+1,304.336
+(91.890)
+1,086.789
+(90.771)
+
+(961.243)
+
+-160.406*
+(91.822)
+427.660 ***
+(84.618)
+***
+1,250.315
+(91.176)
+***
+1,026.281
+(88.491)
+
+58.259
+(5.799)
+
+57.992
+(5.902)
+
+Year = 2021
+Year = 2022
+Year = 2023
+Year = 2024
+
+Non-4CP Demand
+Percent of Monthly
+Max (%)
+
+64.117
+(10.953)
+
+41.901
+(47.444)
+6.043
+(62.590)
+
+Peak Interval HE
+Peak Hour HE
+
+Day of Week
+
+***
+
+No
+
+No
+
+Yes
+
+Month Fixed Effects
+
+No
+
+No
+
+Yes
+
+Num. Observations
+
+158
+
+158
+
+158
+
+Rf
+
+0.180
+
+0.792
+
+0.833
+
+Adjusted Rf
+
+0.175
+
+0.785
+
+0.814
+
+F-Statistic
+
+34.27
+
+115.7
+
+43.81
+
+Fixed Effects
+
+*** p< 0.01, " p< 0.05, *p< 0.10. Standard errors reported in parentheses
+Figure 10 illustrates the results of the Model 2 linear regression described above. This
+graph plots the relationship between aggregate demand by Non-4CP consumers, expressed
+as a percentage of their monthly peak demand, and CPDR, accounting for year fixed
+effects. The points in the graph represent actual CPDR values (as estimated by ERCOT)
+
+while the dashed lines show predicted values derived from the estimated linear regression
+equation. Year fixed effects act as intercept shifts, producing five parallel lines (one per
+year), each with the same slope that describes the marginal effect of increasing Non-4CP
+demand, expressed as a percentage of the monthly maximum value. In all years, as this
+measure of Non-4CP demand increases, the model predicts increasingly higher values of
+CPDR.
+
+Finally, we note that, for any level of percent of monthly maximum Non-4CP demand,
+actual and predicted CPDR values do not necessarily align (i.e., existing data points do not
+necessarily lie on the estimated regression line). This is to be expected because linear
+
+regression does not seek to exactly mirror the existing data but rather estimates a best-fit
+
+19
+
+line that minimizes the squared error between actual and predicted values. To quantify this
+error, we introduce two metrics that will also be used in subsequent sections: Mean Squared
+Error (MSE) and Root Mean Squared Error (RMSE). Formally, with n data points,
+11
+
+MSE = - Uyi- 9iy
+n
+
+RMSE =VMS-R
+
+;
+
+i=1
+
+MSE measures the average ofthe squared distance between predicted values (j>i) and actual
+values (yi). This describes the amount of error, on average, in the model's predictions,
+applying increasing penalty to larger errors through squaring of the individual error terms.
+RMSE is simply the square root of MSE and describes the same basic idea, but it is
+
+expressed in the original units of the dependent variable, which will prove more useful for
+subsequent applications.
+
+3500
+- - -
+
+* 3000 - -
+
+- -
+
+E0 2500 - -
+
+Predicted (2020)
+Predicted (2021)
+Predicted (2022)
+Predicted (2023)
+Predicted (2024)
+
+o
+o
+o
+o
+o
+
+Actual (2020)
+Actual (2021)
+Actual (2022)
+Actual (2023)
+Actual (2024)
+
+o
+0
+0
+
+O
+
+aoood
+
+e
+
+0
+
+0
+al)
+
+- -
+
+--
+
+- ,//
+
+o & ~- jf-%1
+-· - g-· o o w~
+*
+
+0 90-
+
+- -O0
+
+-
+
+.o 2000
+C
+
+(0
+
+-
+
+E
+CD
+0 1500
+
+/
+
+--
+
+-
+
+d)
+
+N
+
+-
+
+8(1) 1000 - ----* .--
+
+-
+
+. la
+/ *
+
+-
+
+O 500
+
+.-
+
+C'
+
+---
+
+D-
+
+O
+
+-O
+
+O- -
+
+/
+
+/ * a.- 0'5 -0~0 o
+0
+
+0
+
+-
+
+-
+
+--
+
+--
+
+% 0
+
+-
+
+*#-~0
+0
+
+-
+
+0
+
+6 ) F-O q.o /b -&
+o
+
+- --
+
+O¢
+
+o
+
+-o0
+
+0
+
+00 o
+
+0
+
+00 -r,0
+0/
+I
+
+0
+-
+
+-
+
+c) Boo-1' *-0o
+
+00
+
+'
+
+--
+
+00
+
+o
+
+0
+
+0
+
+o
+
+O
+
+00
+
+00* *
+
+-
+
+-O- .Ser
+
+O o
+
+0
+
+-
+
+-
+
+0
+
+--
+
+-
+
+,
+
+C
+
+Q-
+
+--
+
+/
+
+,--
+
+0
+
+o - , - 6-
+
+.0-0--
+
+*=ocr , 3'(Zg
+
+O
+
+3) - -3 O
+0
+
+o
+
+¢
+O
+
+,
+
+/
+
+O
+
+-
+
+O
+
+/
+
+/
+
+70
+
+75
+
+-
+
+-
+
+80
+
+85
+
+90
+
+95
+
+1C0
+
+Percent of Monthly Maximum Non-4CP Demand (%)
+Figure 5: Relationship between Non-4CP Demand and CPDR (Linear Regression)
+
+Spline Regression: A flexible statistical method designed to capture complex, non-linear
+relationships in data. Whereas the linear regression approach described above assumes a
+single linear relationship between the dependent and independent variables, spline
+regression adapts to localized variation by fitting multiple polynomial functions over
+different segments ofthe data. These polynomials are joined together at points called knots
+to form a smooth, continuous function that can be used to predict the value ofthe dependent
+variable for any combination of values of the independent variables. The flexibility of this
+approach improves predictive accuracy in situations where relationships between variables
+are non-linear or exhibit localized variation in different segments of the data.
+
+20
+
+The first step in estimating a spline regression model is selecting appropriate
+hyperparameters (settings that control how the model learns from the data). This involves
+
+choosing three specific values: the polynomial degree, the number of knots, and the knot
+placement strategy. The degree of the polynomial determines the flexibility within each
+
+segment-a higher degree polynomial can capture more non-linearity but risks overfitting
+to the existing data. The number of knots determines how many segments the data is
+
+divided into-too few knots will produce a poor fit while too many can make the resulting
+equation unnecessarily complex. Two common strategies exist for knot placement strategy:
+
+uniform (knots are evenly spaced across the range of the independent variable) and
+quantile-based (knots are placed at specific quantiles ofthe data).
+A tuning algorithm that conducts an exhaustive search over every combination of a
+specified set of values was used to determine the optimal hyperparameters for this model.
+This algorithm evaluated degree two (quadratic) and three (cubic) polynomials, with
+anywhere from two to five knots placed either uniformly or at quantile-based locations.
+For each combination of hyperparameters, the model was trained on a subset of the data
+and validated on another subset to prevent overfitting to the training set. The algorithm
+compared the performance of each model to determine the hyperparameters that provide
+the best predictive accuracy. The best configuration was degree two (quadratic spline), two
+knots, and uniform knot placement. This combination provides enough flexibility to
+capture localized variation while remaining relatively simple and avoiding overfitting.
+Figure 11 depicts the predictions of the quadratic spline regression with the selected
+hyperparameters. The points in the graph represent actual CPDR values (estimated by
+ERCOT) while the dashed lines show the predicted values derived from the estimated
+spline regression model. As before, the primary independent variable is demand by Non4CP consumers expressed as a percentage of the monthly peak demand by these same
+consumers. Year fixed effects are also included in the model, producing five parallel curves
+(one per year) that account for differences in CPDR values over time.
+
+Across the range of values shown in this figure, the model generally predicts higher CPDR
+values as the measure ofNon-4CP demand increases. However, due to the quadratic nature
+
+ofthis model, the upward curve that can be seen at the left-hand side ofthe graph continues
+as the Non-4CP demand measure decreases (i.e., the model predicts higher CPDR values
+at lower Non-4CP demand values). As such, while this model better accounts for nonlinearity in the relationship between CPDR and Non-4CP demand, it may be inappropriate
+for use in predicting CPDR when Non-4CP demand is much lower.
+
+21
+
+3500
+- - -
+
+* 3000 - -
+
+- -
+
+0)
+
+Z 2500 - -
+
+g-U)
+
+Predicted (2020)
+Predicted (2021)
+Predicted (2022)
+Predicted (2023)
+Predicted (2024)
+
+o
+o
+o
+o
+o
+
+Actual (2020)
+Actual (2021)
+Actual (2022)
+Actual (2023)
+Actual (2024)
+
+0
+
+- , 0 Ot 'C]
+
+0
+O
+
+/ -
+
+/
+
+,
+
+-
+
+o- Dr
+WO
+
+O
+
+~ 2000
+eo
+
+E
+
+a)
+
+o f
+
+o
+
+<D
+C
+
+~
+
+e
+
+----
+
+---------
+
+-
+
+a 1500 ----
+
+--
+
+-
+
+------E --
+
+-
+
+Oo
+
+f o
+
+--
+
+%
+
+0
+
+-- -
+
+00
+
+e-*O
+
+0oo
+
+-- A
+
+0
+
+0
+-
+
+>
+
+0
+
+~ 1000 - _ --------- I- pl ----0 -
+
+-0 - -*
+
+0
+C
+
+-
+
+Cr Z~0
+
+00
+_ O- ~ -
+
+0
+
+0
+
+Oo
+
+0
+
+0 B..-0/ P . 0
+
+81~f<
+-if 3 o 02
+
+00
+
+¢
+
+00.C
+
+0
+
+--
+
+CL
+
+O
+
+0 500---- ___
+70
+
+-
+
+---
+
+----
+
+75
+
+80
+
+-
+
+-
+
+85
+
+--
+
+-
+
+--t
+
+--0-
+
+90
+
+0
+
+95
+
+100
+
+Percent of Monthly Maximum Non-4CP Demand (%)
+Figure 6: Relationship between Non-4CP Demand and CPDR (Quadratic Spline Regression)
+
+Random Forest: A commonly used ensemble machine learning method that aggregates
+
+the results of multiple decision tree models to produce a more robust, generalizable model.
+To understand how a random forest functions, it is helpful to first describe the behavior of
+an individual decision tree. Each decision tree in the random forest is a stand-alone
+
+predictive model that repeatedly partitions the data into increasingly homogeneous subsets
+based on observed relationships in the data. The data partitioning process ends when the
+
+tree reaches a stopping condition , resulting in a set ofterminal nodes ( also known as leaves)
+each ofwhich contains a relatively small and homogeneous subset ofthe data. The resulting
+
+data partitioning rules and the leaves can then be used to make predictions.
+Figure 12 depicts this partitioning process for a simple, illustrative decision tree. The tree
+
+starts at the root node with the full dataset, where it first splits the data by year based on
+whether an observation occurred before a threshold value, yeari Each of the resulting
+
+subsets are then further partitioned at subsequent decision nodes based on the value of some
+numerical variable, x. On the left-hand side of the tree, the model splits the data at a
+threshold value x1, and on the right-hand side, it splits the data at a (potentially different)
+threshold value x2. This repeated partitioning process isolates increasingly similar
+observations, resulting in the leaf nodes (Leaf 1 through Leaf 4) which contain the final
+
+subsets used for prediction.
+A trained decision tree can be used to make a prediction for an out-of-sample observation
+by applying the same sequence of decision rules learned during the training ofthe tree until
+it reaches a leaf. At that point, the model outputs a prediction for the dependent variable
+that is equal to the mean value of observations from the training dataset that are contained
+in the corresponding leaf. In a random forest, which consists of multiple decision trees,
+
+22
+
+each tree produces its own leaf-based prediction, and the final model prediction is equal to
+the average of the individual tree predictions.
+Root Node
+Year 59 Yeag~/'~
+
+~~\.Year > Yearl
+
+Decision Node.
+
+C
+
+Leaf 1 )
+
+Decision Node
+
+Leaf 3
+
+(~eaf 2
+
+3
+
+Leaf 4
+
+Figure 7: Illustrative Example ofa Decision Tree Model
+
+As with the spline regression model discussed previously, training the random forest model
+begins with selecting appropriate hyperparameters using an algorithm that conducts an
+exhaustive search over every combination of a specified set of values. Several key
+parameters were decided through this process: the number of estimators (i.e., the number
+of decision tress within the forest), the minimum number of samples that a node must
+contain for the model to consider further splitting that subset of the data, and the minimum
+number of observations that must be present in each of the terminal (leaf) nodes. This
+algorithm compared the performance of each candidate model to determine the
+hyperparameters that provide the best predictive accuracy, resulting in the following
+combination: 250 estimators (trees), a requirement that a node contains at least two
+observations to consider a split, and a minimum of at least 10 observations per leaf.
+Figure 13 depicts the predictions of the random forest with the selected hyperparameters.
+The points in the graph present actual CPDR values (estimated by ERCOT) while the
+dashed lines show the predicted values derived from the trained random forest model. As
+with the other predictive models, the primary independent variable is demand by Non-4CP
+
+consumers expressed as a percentage of the monthly peak demand by these same
+consumers.
+Like the other models, the random forest produces CPDR predictions that are generally
+increasing in this measure of Non-4CP demand; specifically, the predictions are weakly
+increasing with discrete jumps at various points. Interestingly, in contrast with the
+
+predictions of the other models, while the random forest accounts for inter-year variation,
+it does not fully differentiate the predictions across years. Rather, the model produces
+
+identical predictions for 2020 and 2021, and likewise for 2023 and 2024, indicating that it
+viewed observations within each pair of years as more similar than different.
+
+23
+
+3500
+Predicted (2020)
+Predicted (2021)
+Predicted (2022)
+Predicted (2023)
+~ Predicted (2024)
+
+* 3000
+0)
+
+Z 2500
+
+g-
+
+o
+o
+o
+o
+o
+
+Actual (2020)
+Actual (2021)
+Actual (2022)
+Actual (2023)
+Actual (2024)
+
+0
+
+e
+
+o f
+
+&0 n o
+
+e 0 &1 ,%,
+O
+
+,
+
+O 00
+
+)
+
+OO
+
+%
+
+Ho
+
+H
+
+0
+
+0
+
+0~0 0 00
+
+-c,2000
+c
+
+00 0 0
+°o
+°G
+; !~
+;
+_6.92o
+9A
+OIO
+
+E
+
+(D
+
+a 1500
+
+C
+
+O
+0
+
+O
+
+c?0
+
+O
+
+0
+
+d
+
+1
+
+0
+
+0
+
+0¢
+
+Oo
+
+OO
+
+>
+
+c 1000
+
+0
+-----------------------o- o -O~--CL ---Po
+8
+co
+oo BOO
+oo
+o
+
+U
+CL
+
+0
+
+0, 0 0
+
+o
+
+O 500
+70
+
+o
+
+o
+r----bo
+U
+
+80
+
+85
+
+90
+
+¢
+
+OO
+
+oo
+
+0
+
+75
+
+0 0
+
+0
+
+95
+
+100
+
+Percent of Monthly Maximum Non-4CP Demand (%)
+Figure 8: Relationship between Non-4CP Demand and CPDR (Random Forest)
+
+Finally, below a specific value of the Non-4CP demand measure, the predictions
+completely flatten out. This is because all observations at the lower end of the range of the
+Non-4CP demand measure will fall into the same terminal (leaf) node, and as a result, the
+model returns predictions equal to the average CPDR value among observations in that
+leaf. Thus, while the random forest is more accurate than the other models at the higher
+end of the range, it willlikely tend to overstate CPDR values for lower values of the Non4CP demand measure.
+Methodology for Imputing CP-Incentivized Demand Response (CPI)R) - Evaluating the
+effects of adding more CPs to the cost assessment methodology requires first determining what
+CPDR would look like in non-summer months. Since no historical CPDR data exists for nonsummer months, these values must be imputed. This section describes the methodology that staff
+
+employed for estimating these values using the predictive models described in the previous section,
+which were developed based on observed CPDR patterns in historical summer months.
+
+For each day, i, staff used the set of independent variables (year identifier and Non-4CP demand
+as a percent of monthly maximum) and each model, m, to predict a CPDR value, Fi,m· To obtain
+the imputed CPDR value, ~i, m, a random error term, Em, is added to the predicted CPDR value to
+account for uncertainty in the prediction. This error term is assumed to be normally distributed
+with mean zero and variance equal to the Mean Squared Error of the model (MSEm)· Formally,
+the imputed CPDR values are defined as follows:
+
+yi,m - yi,m + Em
+
+;
+
+24
+
+Em - N(0, MSEm)
+
+Therefore, the imputed CPDR value is the realization of a random draw from a normal distribution
+with mean 9i,m, variance 02 = MSEm, and standard deviation a = RMSEm.21 As such, for a
+
+sufficiently large number of draws from this distribution, the average value will be
+approximately Fi,m· Further, by the empirical rule of normal distributions, approximately 68% of
+observations will fall within one standard deviation of the mean, 95% within two standard
+
+Frequency
+
+deviations, and 99.7% within three standard deviations. Figure 14 provides a graphical
+representation ofthese properties of normal distributions, and Table 9 reports the key metrics (R2,
+MSE, and RMSE) for each of the estimated models.
+
+1
+2.1%~i
+
+13.6%
+
+Z/trn- ka
+
+34.170
+
+34.1%
+
+13.6%
+
+b-2.1%
+
+i!1
+
+yh,U,
+
+t/i,rn
+
++a
+
+.
+
+*i,m +20
+
+Uz,Tri + 3a
+
+Figure 149: Graphical Representation of Normal Distribution Properties
+
+Table 96: Key Model Metrics
+
+Linear Regression
+
+0.792
+
+97,606.449
+
+312.420
+
+Spline Regression
+
+0.803
+
+92,664.699
+
+304.409
+
+Random Forest
+
+0.830
+
+79,668.638
+
+282.256
+
+As an example of the imputation process, consider some value of Non-4CP demand expressed as
+a percentage of the monthly maximum during a particular year and suppose we want to impute a
+CPDR value using the linear regression model. The model uses the available information to predict
+a CPDR value , ~i, LinearRegression · Then , a random error term , ELinearRegression - N G, 312 . 42 ),
+is added to the predicted value to produce an imputed CPDR value , yi, LinearRegression Repeated
+imputations would produce different values that vary around the predicted value, depending upon
+the realization of the error term. With a sufficiently large sample of imputed values, the normal
+distribution properties discussed above imply that approximately 68% of the values would fall
+
+21 Within the simulation, to avoid the unnecessary complications that would arise from an imputed CPDR
+value that is less than zero, if a random draw results in an imputed CPDR value being negative, the value is set to zero.
+
+25
+
+within 312.42 MW of the prediction, approximately 95% would fall within 624.84 MW of the
+prediction, and approximately 99.7% would fall within 937.26 MW of the prediction.
+
+Monte-Carlo Simulation Overview - Within the simulation, several parameters that are likely
+to affect the annual cost assessment are varied to study the relative impacts of different values for
+each parameter. Table 10 provides a brief description of each parameter and the range of values
+examined within the simulation. Each scenario in the simulation is defined by a unique
+combination of parameters (cost assessment methodology, CPDR imputation model, CPDR
+imputation threshold, CP Duration, and Year). Since each imputation model employs a normally
+distributed error term, cost assessment outcomes are stochastic. As a result, each run of a scenario
+produces varying demand reduction, and therefore, different cost shares for each customer class.
+Each scenario is simulated 25 times to ensure the final dataset is balanced and contains a sufficient
+number of observations to perform sound statistical analysis.
+Table 10: Simulation parameter values.
+~~ Parameter
+
+- Description
+
+Cost Assessment
+Methodology
+
+CPDR Imputation
+Model
+CPDR Imputation
+Threshold
+
+CP Duration
+
+(in minutes)
+
+Year
+
+-
+
+Mechanism to determine cost
+
+assessment for a given year
+
+Statistical model used to impute
+CPDR values
+Minimum value of Non-CP demand
+
+(as a percent of monthly maximum)
+for which CPDR values are imputed
+Duration of the daily peak
+
+Calendar Year
+
+Values
+
+-=--
+
+Total
+
+Values
+
+•
+
+4CP
+
+•
+•
+•
+
+5CP (4CP + FS)
+5CP (4CP + FW)
+6CP (4CP + FS + FW)
+
+•
+
+7CP
+
+•
+•
+•
+
+8CP (7CP + FW)
+8CP (7CP + FS)
+9CP (7CP + FW + FS)
+
+•
+
+12CP
+
+•
+
+Linear Regression
+
+•
+•
+
+Spline Regression
+Random Forest
+
+.
+.
+
+80 %
+90 %
+
+2
+
+•
+•
+
+15 minutes
+60 minutes
+
+2
+
+•
+•
+•
+•
+•
+
+2020
+2021
+2022
+2023
+2024
+
+5
+
+Total Scenarios
+
+9
+
+3
+
+540
+
+The following points describe how each parameter can affect the simulation outcomes:
+
+•
+
+Cost Assessment Methodology -Directly affects cost shares by defining the days on which
+demand reduction is calculated and how costs are apportioned between customer classes.
+This parameter acts as the primary treatment variable for the simulation. Subsequent
+
+26
+
+•
+
+•
+
+analyses will examine the average treatment effect of each methodology on relative cost
+shares for each customer class.
+CPDR Imputation Model - ¥ or any given day, the CPDR values predicted by each
+imputation model will almost certainly differ. Additionally, the MSE of each model differs,
+which affects the normally distributed error terms added to the predicted values. Using
+multiple imputation models, that fit to the historical data in different ways, increases
+robustness of the results by reducing reliance on any single approach.
+CPDR Imputation Threshold - Sets the condition that determines for which days a CPDR
+value is imputed. A higher CPDR threshold results in fewer days where CP consumers
+engage in CPDR, which can affect the timing of coincident peaks and the ultimate cost
+assessment. The lower value of 80% was selected for two reasons. First the historical data
+
+on which the imputation models are trained primarily includes days above 80%, and
+therefore, the imputation models are less accurate and realistic below this level. The higher
+
+value of 90% was selected to provide a case that focuses attention on the types of days
+where the majority of historical CPDR behavior has been observed.
+
+CP Duration - Currently, annual cost shares are determined based on customer usage
+during the four 15-minute CP intervals during the summer months. Variation in this
+parameter allows for an examination ofthe effects of cost assessment methodologies based
+
+•
+
+on demand during an hourly period. This change, from 15 minutes to hourly, can shift the
+timing of CPs across hours or even days.
+Year - The possible values for this parameter are restricted by the calendar years for which
+ERCOT and TDU data were collected. Simulating across multiple years provides value by
+allowing the simulation to capture some level of inter-year variation in demand, which may
+also reflect variation in other conditions (e.g., temperature). As shown in Figure 9,
+historical CPDR, which can also clearly have a substantial effect on the annual cost share
+outcomes, varies considerably across years.
+
+The following points describe technical details of the simulation that merit additional discussion:
+
+•
+
+Determining CPDR Days - Within the simulation , CPDR values are only imputed for
+days outside the current 4CP months (June, July, August, September). This approach
+assumes that load data for these months already reflect any existing CPDR behavior, and
+therefore, further estimation is unnecessary. Additionally, analysis of historical CPDR
+behavior discussed previously highlights that CP customers do not respond to the same
+degree on every day, but rather their response is related to the likelihood that a CP interval
+will occur. To reflect this observation within the simulation, CP consumers are assumed to
+only engage in CPDR for days that are within some range of the estimated coincident peak
+and the corresponding aggregate response depends on the proximity to the actual CP
+interval or hour.
+However, the actual coincident peak can change based on the imputed level of demand
+reduction. Consequently, within the simulation, CP consumers effectively use Non-CP
+customer demand (Residential + Non-Residential) as a proxy for estimating the coincident
+peak. This approach was informed by analyses described previously demonstrating a
+
+27
+
+relationship in the historical data between Non-CP customer demand and CPDR behavior.
+Residential and Non-Residential customers are assumed to be inflexible and nonresponsive within the model.
+In summary, CPDR values are only imputed for days that are within some percentage of
+the estimated coincident peak (based on aggregate demand by Non-CP consumers). For
+instance, for a simulation scenario with a CPDR threshold of 80%, CPDR values are only
+imputed on days where Non-CP consumer demand is at least 80% of the maximum value
+of Non-CP consumer demand for the corresponding period.
+
+•
+
+Overlapping CP Periods - Some cost assessment methodologies include CP periods that
+overlap with one another. For example, the 5CP (4CP + FS) case includes the traditional
+4CP months as well as a floating summer CP, which identifies a single peak over the entire
+summer Oune-September). In this case, because the floating summer period shares days
+with the fixed month CPs, it is considered an overlapping period. The simulation is
+designed to ensure that overlapping periods do not result in repeated coincident peak days.
+Without this design choice, the floating summer period would choose one ofthe coincident
+peaks already selected by one of the fixed month CPs, which would create no additional
+incentive to respond and have no effect on the resulting cost assessment.
+In all scenarios, even if there are overlapping periods, CPDR values are calculated once
+per day. If a CPDR value was already imputed for a day while estimating response for
+
+another period, the simulation does not recalculate values even ifthat same day falls within
+an overlapping period. Thus, the presence of overlapping periods can introduce new
+
+demand response days, but it cannot change any preexisting demand response behavior.
+Ideally, demand response estimation during overlapping periods would be informed by a
+
+formal game-theoretic analysis, but the above approach was chosen for simplicity and to
+minimize the number of assumptions built into the model.
+•
+
+Cost Assessment Calculation - Once demand reduction values have been imputed ,
+aggregate demand (by all consumers) is adjusted and coincident peaks for each period are
+determined. Annual cost shares are calculated based on consumer demand during the
+coincident peaks corresponding to the cost assessment methodology for that scenario.
+
+This section concludes by providing an overview ofthe flow ofthe Monte Carlo simulation, which
+is shown visually in Figure 15. At a high level, the simulation can be divided into three steps. First,
+the historical consumer demand data is passed to the simulation. Then, CPDR values are imputed
+by identifying demand response days and estimating the aggregate amount of CPDR on each day
+using the statistical models described previously. Finally, cost shares for each customer class are
+determined by adjusting aggregate demand by the imputed level of CPDR, identifying relevant CP
+periods, and measuring consumer demand during each peak period. For each simulation run, the
+
+primary output is a cost assessment share for each customer class.
+
+28
+
+Flowchart shapes
+
+O Historical TDU and ERCOT Data
+
+Parameter effect
+on Simulation Step
+
+U Parameters
+
+Next
+Simulation Step
+
+EJ Simulation steps
+0 Output
+Historical Data
+
+CP Duration,
+Consumer Demand,
+
+Year
+Simulation
+
+-1_
+
+f-
+
+Calculate
+Annual Cost Share
+
+Impute CP-Incentivized
+Demand Response
+
+CPDR
+Imputation
+
+Threshold
+
+3
+
+Demand
+-----
+
+74
+~
+
+Response
+Days
+
+~--
+
+Adjust Total
+
+Demand
+,
+
+CPDR
+
+Imputation
+Model
+
+I
+------t-I
+
+Find
+Coincident
+Peaks
+
+Demand
+Response
+
+Values
+
+~ Annual
+
+--l< Shares
+Cost
+
+Cost
+Assessment
+
+Methodology
+
+Figure 10: Monte-Carlo Simulation Flow Diagram
+
+Simulation Results - This section presents results summarizing the simulation outcomes, with
+
+an emphasis on how variation across different cost assessment methodologies affects each
+customer class's share of costs. All results described in this section are presented on a percentage
+scale describing the share of costs assessed to each customer class. To help put these results into
+perspective, recall that, in the available data, total WTSC from 2020-2024 were approximately
+$13.33 Billion. Therefore, WTSC averaged approximately $3.27 Billion annually and a one
+percentage point share equates to just over $32.65 Million. The cost shares described in this section
+
+are normalized such that they represent a share of the total costs represented within the data
+provided by TDUs (recall that, on average, this data represents approximately 70% of ERCOTwide demand).
+
+29
+
+Another important consideration in the interpretation of these results is that the estimated effects
+described are likely conservative. CPDR behavior within the simulation is imputed using data on
+historical CPDR behavior under the existing 4CP methodology. As a result, the simulation cannot
+account for any potential dampening effect on CPDR behavior that may arise when the number of
+CPs assessed is increased. Specifically, as more intervals are included in the cost assessment
+methodology, it may be the case that the amount of CPDR observed decreases, whether due to CP
+consumers becoming less responsive overall as the number of CP periods assessed increases or
+due to the increased complexity of having to correctly time demand response in more instances. If
+there is an aggregate dampening effect , then the simulation results would tend to overstate the
+amount of CPDR , and as a result , understate the amount of demand ( and cost share assessment)
+by CP consumers. In turn, the share of costs assessed to Residential and Non-Residential
+consumers would tend to be 0¥erstated.
+Figure 16 provides a general overview of the simulation data by depicting the range of cost
+
+assessment outcomes for each customer class under each cost assessment methodology. Overall,
+the share of costs assessed to Residential consumers ranges from 39.73% to 48.93%, the share of
+costs assessed to Non-Residential consumers ranges from 20.30% to 23.28%, and the share of
+costs assessed to CP consumers ranges from 29.02% to 39.01%. Visual inspection of this figure
+
+reveals considerable variation across methodologies, which is explored in subsequent analyses.
+•
+•
+•
+
+4CP
+5CP (4CP + FW)
+5CP (4CP + FS)
+
+•
+•
+·
+
+6CP (4CP + FW + FS)
+
+•
+
+7CP
+8CP (7CP + FW)
+
+·
+•
+
+8CP (7CP + FS)
+9CP (7CP + FW + FS)
+
+12CP
+
+50.0%
+
+47.5% % WG . . .=.
+
+g # rn
+
+45.0% =- = - w: i" . 4+
+42.5%
+M :M fl
+40.0%
+*
+
+4*:3
+
+W
+
+e 37.5%
+
+a,
+
+r
+
+f 35.0%
+·-
+
+8 32.5%
+
+*
+
+-
+
+e.omd
+
+30.0%
+27.5%
+25.0%
+
+22.5%
+20.0%
+
+=
+
+Residential
+Share
+
+MEE
+g'Eg 9
+=== Z Z = ==
+Non-Residential
+Share
+
+Figure 1611: Simulated Cost Share Outcomes
+
+30
+
+¢3
+
+CP
+Share
+
+Table 11 reports the results of simple linear regressions estimating the average marginal effect of
+adding more CPs to the cost assessment methodology. For these analyses, the 4CP methodology
+
+is treated as the baseline such that the value of each intercept represents the average share of costs
+assessed to the corresponding customer class . The Num . Additional CPs variable is normalized to
+the 4CP case (e.g., for each 5CP case the value of this variable is equal to one, for the 7CP case it
+is equal to three, and for the 12CP case it is equal to eight). Therefore, the estimated coefficients
+on this variable describe the average marginal effect from each additional CP beyond those already
+included in the 4CP methodology. These results suggest that, on average, each additional CP has a
+significant effect on the share of costs assessed to each customer class-each additional CP
+decreases Residential share by 0.382 percentage points, decreases Non-Residential share by 0.035
+percentage points, and increases CP share by 0.417 percentage points.
+Table 117: Effect ofAdditional CPs on Cost Shares
+Residential
+
+Non-Residential
+
+Share (%)
+
+Share (%)
+
+CP
+Share (%)
+
+47.327 ***
+
+22.202 ***
+
+30.471 ***
+
+(0.022)
+
+(0.011)
+
+(0.028)
+
+-0.382 ***
+
+-0.035 ***
+
+0.417 ***
+
+(0.006)
+
+(0.003)
+
+(0.007)
+
+13,500
+
+13,500
+
+13,500
+
+0.257
+
+0.011
+
+0.201
+
+Adjusted Rf
+
+0.257
+
+0.011
+
+0.201
+
+F-Statistic
+
+4661.0
+
+150.2
+
+3388.0
+
+Intercept
+
+Num. Additional CPs
+
+Num. Observations
+
+***
+
+p< 0.01, " p< 0.05, *p< 0.10. Standard errors reported in parentheses.
+
+However, Figure 17, which provides a graphical representation of the average cost shares (and
+
+corresponding 95% confidence intervals) for each customer class under each cost assessment
+methodology, suggests that these regressions may not account for much of the variation between
+methodologies. In particular, it is worth highlighting the cost shares for Residential and CP
+consumers. While each class's share differs across methodologies, the average values are relatively
+similar in most cases, with the notable exception of the 12CP case. Because the share of costs
+assessed to Residential and CP consumers are considerably different in the 12CP case, the simple
+
+linear regressions reported above may somewhat overstate the expected effect of including a small
+number of additional CPs to the methodology.
+
+31
+
+••• 4CP
+I 5CP (4CP + FW)
+I 5CP (4CP + FS)
+47.5%
+
+I 6CP (4CP + FW + FS)
+I 7CP
+I 8CP (7CP + FW)
+
+22.6%
+
+••• 8CP (7CP + FS)
+I 9CP (7CP + FW + FS)
+= 12CP
+
+35.0%
+I
+
+46.5% -
+
+22.4% -
+
+34.0%
+
+45.5%
+
+22.2%
+
+33.0%
+
+I
+44.5% -
+
+32.0%
+
+43.5% -
+
+~|| 310%|~ ~|~
+
+21.8%
+I
+
+/1 O C 0/
+
+21.6%
+
+on nw
+
+Non-Residential
+Share
+
+.V. V //
+
+CP
+Share
+
+Figure 1712: Customer Class Cost Shares Under Alternative Cost Assessment Methodologies
+
+To better assess the relative changes under each alternative cost assessment methodology, Table
+
+12 reports the results of linear regressions that directly examine how the share of costs assessed to
+each customer class varies with the cost assessment methodology. In each case, 4CP is again
+
+treated as the baseline such that the value of the intercept describes the share of costs assessed, on
+average, to each customer class under the 4CP methodology. Then, the coefficient for each
+
+alternative cost assessment methodology describes the average estimated change (relative to the
+4CP case) in the share of costs assessed to the respective customer class. These models also include
+a CP - duration variable , Hour , that describes the average effect on each customer class ' s share
+when cost assessment is based on demand during daily peak hours rather than peak 15 minute
+intervals. For most cost assessment methodologies, the estimated change in the share of costs
+assessed to each customer class, relative to the baseline 4CP methodology, is significant at least at
+
+the 90% level; however, the sign and magnitude of the effects differ across mechanisms and
+customer class.
+For the Non-Residential customer groups all methodologies other than the 5CP (4CP + FS) tend
+
+to decrease its share of costs; however, the share of costs assessed to this class does not exhibit
+much variation across cases. The largest estimated effect (in absolute value) is a 0.587 percentage
+point decrease in the 8CP (7CP + FW) case. Changing to an hourly methodology is estimated to
+decrease Non-Residential customers' share of costs by 0.162 percentage points, on average.
+Residential customers' share of costs tends to increase under mechanisms with a small number of
+additional CPs (e.g., in both 5CP cases and the 6CP (4CP + FW +FS) case), decrease slightly in
+
+32
+
+the 7CP and 8CP (7CP+FS) cases, and increase slightly in the 8CP (7CP + FW) and 9CP (7CP +
+FW +FS) cases. Across these cases, the estimated effect is relatively small-the largest estimated
+change (in absolute value) occurs in the 5CP (4CP + FW) case where Residential customers' share
+of costs increases by 1.054 percentage points, on average. The single largest effect occurs in the
+12CP case, where Residential customers' share of costs decreases by 3.137 percentage points, on
+average. Finally, changing to an hourly cost assessment methodology is estimated to increase
+Residential customers' share of costs, on average, by 0.138 percentage points.
+The share of costs assessed to CP customers tends to decrease slightly when a small number of
+CPs are added to the cost assessment methodology (e.g., in both 5CP cases and the 6CP (4CP +
+FW + F S) case). Under all other alternative methodologies, CP customers' share of costs increases.
+In the 7CP case, both 8CP cases, and the 9CP case, the estimated change is relatively small, with
+the largest change occurring in the 7CP case where CP customers' share of costs increases by 0.883
+percentage points, on average. As with Residential customers, the 12CP case shows the single
+largest shift in the share of costs assessed to CP customers, with an average increase of 3.294
+percentage points. The share of costs assessed to CP customers under an hourly methodology, on
+average, is not significantly different from their share under a 15-minute interval methodology.
+Table 128: Cost Assessment Methodology Regression Analysis
+
+Intercept
+
+5CP (4CP + FW)
+
+5CP (4CP + FS)
+6CP (4CP + FW + FS)
+
+7CP
+8CP (7CP + FW)
+
+8CP (7CP + FS)
+9CP (7CP + FW + FS)
+
+12CP
+Hour
+
+Residential
+
+Non-Residential
+
+Share (%)
+
+Share (%)
+
+CP
+Share (%)
+
+46.270
+(0.036)
+1.054
+(0.049)
+0.031
+(0.049)
+
+22.444
+(0.020)
+-0.291
+(0.027)
+0.048*
+(0.027)
+
+31.286
+(0.050)
+***
+-0.763
+(0.068)
+-0.079
+(0.068)
+
+0.903 ***
+
+-0.198 ***
+
+-0.705 ***
+
+(0.049)
+
+(0.027)
+
+(0.068)
+
+-0.450 ***
+
+-0.433 ***
+
+0.883 ***
+
+(0.049)
+0.085.
+(0.049)
+
+(0.027)
+
+(0.068)
+
+-0.587 ***
+
+0.502 ***
+
+(0.027)
+
+(0.068)
+
+-0.376 ***
+
+-0.339 ***
+
+0.715 ***
+
+(0.049)
+0.088.
+(0.049)
+-3.137
+(0.049)
+0.138
+(0.023)
+
+***
+
+(0.027)
+
+(0.068)
+
+-0.480 ***
+
+0.392 ***
+
+(0.027)
+-0.157
+(0.027)
+***
+-0.162
+(0.013)
+
+(0.068)
+***
+3.294
+(0.068)
+0.024
+(0.032)
+
+Num. Observations
+
+13,500
+
+13,500
+
+13,500
+
+Rf
+
+0.425
+
+0.078
+
+0.275
+
+Adjusted Rf
+
+0.425
+
+0.077
+
+0.274
+
+F-Statistic
+
+1108.0
+
+126.7
+
+567.2
+
+***
+
+p< 0.01, " p< 0.05, *p< 0.10. Standard errors reported in parentheses.
+
+33
+
+Finally, Table 13 reports additional regression results that abstract from the specific cost
+
+assessment methodology and, instead, examine how the share of costs assessed to each customer
+class are impacted by the inclusion of additional CPs at specific points throughout the year.
+Specifically, these results provide estimates of the effect of including a floating summer CP, a
+floating winter CP, all winter CPs, and all shoulder month CPs (non-summer, non-winter). As with
+the preceding analyses, these results are structured so that the 4CP methodology is the baseline
+(i.e., each intercept describes the average share of costs assessed to the respective customer class
+under a 4CP methodology).
+Introducing a floating summer CP tends to shift the share of costs from CP customers to NonResidential customers, while the estimated effect of introducing a floating summer CP on
+Residential customers' share of costs is not statistically significant at conventional levels.
+Introducing a floating winter CP tends to shift the share of costs from both Non-Residential and
+CP customers to Residential customers. Cost assessment methodologies that include all winter
+month CPs (i.e., 7CP cases, 8CP cases, 9CP cases, and 12CP cases) tend to shift the share of costs
+from Residential and Non-Residential customers to CP customers, on average relative to other
+methodologies that do not include all winter month CPs. The addition of shoulder month CPs (nonsummer, non-winter) to the cost assessment methodology-which only occurs in the 12CP case-
+
+results in the largest estimated cost share shifting effect, primarily shifting the share of costs from
+Residential customers (2.613 percentage point decrease) to CP customers (2.372 percentage point
+
+increase).
+Table 139: Estimated Effects of the Timing ofAdditional CPs
+
+CP
+Share (%)
+
+Residential
+
+Non-Residential
+
+Share (%)
+
+Share (%)
+
+46.476
+(0.024)
+-0.011
+(0.024)
+
+22.314
+(0.014)
+(0.014)
+
+31.210
+(0.034)
+-0.075**
+(0.034)
+
+0.731 ***
+
+-0.208 ***
+
+-0.523 ***
+
+(0.024)
+-0.660
+(0.024)
+
+(0.014)
+-0.350
+(0.014)
+
+(0.034)
+***
+1.010
+(0.034)
+
+-2.613 ***
+
+0.241 ***
+
+2.372 ***
+
+(0.042)
+
+(0.024)
+
+(0.059)
+
+13,500
+
+13,500
+
+13,500
+
+0.419
+
+0.066
+
+0.273
+
+Adjusted Rf
+
+0.419
+
+0.065
+
+0.273
+
+F-Statistic
+
+2433.0
+
+237.3
+
+1266.0
+
+Intercept
+
+Floating Summer
+Floating Winter
+Winter Months
+
+Shoulder Months
+Num. Observations
+
+***
+
+0.085 ***
+
+*** p< 0.01, " p< 0.05, *p< 0.10. Standard errors reported in parentheses.
+
+34
+
+III.
+
+Alternative Methodologies (Wholesale)
+A.
+
+Pros and cons
+[LEFT INTENTIONALLY BLANK FOR THIS DRAFT]
+
+B.
+
+Impacts to wholesale market
+
+Section I. C. of this report discusses potential wholesale market impacts associated with the current
+4CP methodology, focusing on how an out-of-market financial incentive may influence observed
+load patterns and wholesale energy price outcomes. Any mechanism that is based on a coincident
+peak methodology for transmission cost recovery likely creates incentives for customers to reduce
+demand during targeted intervals, and therefore, introduces a risk of suppressing energy prices
+during those periods. In general, the wholesale energy price impacts under any alternative cost
+assessment methodology will depend on whether the methodology shifts the timing of demand
+reductions or changes the strength ofthe incentive to reduce demand.
+As shown in Figure 6, elevated energy prices in recent years have tended to occur during periods
+of higher net load, which does not necessarily align with peak gross load. If an alternative cost
+
+assessment methodology incentivized additional load reductions during periods of high energy
+prices (such as hours with high net load), it may further increase the difference between actual
+energy prices and the energy prices that would have occurred absent this out-of-market incentive.
+Conversely, if incentivized load reductions were to occur primarily during hours that are
+increasingly not associated with generation scarcity, the resulting wholesale energy price impacts
+would be expected to be smaller.
+More broadly, if the number of CP intervals included in the cost assessment methodology were
+increased, there would be more instances during which CP-incentivized demand response may
+impact wholesale market energy prices. However, it may also be the case that the incentive
+
+associated with reducing load in any single interval is dampened, because the benefit of curtailing
+demand would be spread across a larger set of intervals. On the other end of the spectrum,
+eliminating the demand response incentives associated with CP based methodologies would likely
+bring back avoided load, but the effect on energy prices would depend on whether that load returns
+during generation scarcity conditions.
+Finally, transmission cost assessment is fundamentally a cost-recovery and cost-assignment
+mechanism, not a wholesale market design tool. Accordingly, alternative cost assessment
+
+methodologies should be evaluated primarily on ratemaking principles rather than strictly on their
+impacts on wholesale energy prices. These effects are best considered secondary and potentially
+
+unintended, rather than goals of the cost assessment methodology.
+IV.
+
+Additional Considerations
+A.
+
+Nonbypassable costs
+
+SB 6 amended PURA § 35.004 to add new subsection (c-1), which requires the Commission, by
+rule, to ensure that a large load customer who is subject to the standards adopted under PURA
+
+35
+
+§ 37.0561 contributes to the interconnecting electric utility's costs to interconnect the large load
+customer to the utility's system. As further detailed below, the costs to interconnect a large load
+customer to a utility's system are paid by the large load customer typically through contribution in
+aid of construction (CIAC), and therefore, are not included in TCOS and wholesale transmission
+service at transmission voltage (WTS-TV) rates collected from the broader body of ratepayers.
+Project No. 58481 was opened on July 31, 2025 to implement PURA §37.0561 and is the
+appropriate rulemaking project to implement PURA § 35.004(c-1). An additional rulemaking
+project is not necessary to specifically implement PLJRA § 35.004(c-1). Commission Staff
+provides additional details related to Project No. 58481 in Section IVC. below.
+
+B.
+
+Separate rate treatment for large loads and flexible large loads
+
+The magnitude of load in a small geographic area associated with large load customers raises
+important issues associated with the existing transmission cost recovery methodology. Importantly,
+
+large loads are likely to need significant and extensive transmission upgrades to adequately serve
+them. Even though a single large load customer may be fully capable of eliminating electric
+consumption during the 4CP or successor intervals, the probable need for system upgrades beyond
+
+typical interconnection costs may warrant a distinct but temporary cost recovery treatment for such
+customers based on some type of a demand metric. For example, large load customers could, for
+some period determined by the Commission, be billed at retail 4CP or successor interval rates on
+
+a nonbypassable basis based on the large load customer's maximum contracted peak demand.
+In order to equitably reflect this retail rate treatment at the wholesale level, DSPs would need to
+give ERCOT access to the necessary metering data for all large load customers in the ERCOT
+region, and in turn, ERCOT would include both actual and maximum contracted load of large load
+customers by DSP in ERCOT's annual 4CP or successor data report to the Commission, for use in
+wholesale transmission cost recovery. Similarly, investor owned utility (IOU) DSPs would be
+
+required to correspondingly allocate costs to large load customers based on maximum contracted
+demand, and to design rates for large load customers based on that same demand.
+This approach would ensure that large load customers' transmission charges better reflect the
+uniquely disproportionate costs they cause to be imposed on the system. DSPs serving large load
+
+customers would pay wholesale transmission charges as if its large load customers were on the
+system at the time of the 4CP or successor intervals. IOU DSPs would then allocate their
+transmission costs to the transmission rate class as if the large load customers were at maximum
+load at the peak intervals, and thereby avoid allocating those costs to other rate classes. Requiring
+
+such treatment for large load customers for a period of ten or fifteen years would ensure that large
+load customers pay a significant portion of the system upgrade costs they cause to be incurred, as
+well as their use of the existing transmission system. After such a time period, organic load growth
+would presumably develop to utilize some or all ofthe associated transmission buildout, and large
+load customers would revert to the standard 4CP or successor rate design based on their actual
+metered load in order to realize the benefits offered by that rate design.
+
+36
+
+C.
+
+Recommendations in other projects or dockets that may have downstream
+impacts
+1.
+
+Project No. 58481, Rulemaking to Implement
+Interconnection Standards Under PURA § 37.0561
+
+Large
+
+Load
+
+PURA § 37.0561 requires the Commission to establish standards for interconnecting large load
+customers in the ERCOT region in a manner designed to support business development while
+minimizing the potential for stranded infrastructure costs and maintaining system reliability.
+PURA § 37.0561 also requires the Commission to ensure that the standards include uniform
+financial requirements for the development of transmission infrastructure needed to serve a large
+load customer. Consistent with these legislative directives and the legislative directives in PURA
+§ 35.004(c-1), Commission Staff opened Project No. 5848122 to establish interconnection
+standards for large load customers. In Project No. 58481, Commission Staff aims to standardize
+across all electric utilities in the ERCOT region the financial commitments and the direct
+interconnection costs that large load customers must pay.
+Historically, electric utilities in the ERCOT region have taken different approaches to determining
+
+the financial commitments and the direct interconnection costs that large load customers must pay.
+Some electric utilities require a large load customer to post financial security for services, such as
+engineering studies, or for equipment that has a long-lead time for procurement. Other electric
+utilities have no such requirement. With respect to direct interconnection costs, some electric
+utilities offer an allowance. In these circumstances, the large load customer pays only the direct
+interconnection costs that exceed the allowance. This patchwork approach across electric utilities
+in the ERCOT region has resulted in some service areas being viewed as more favorable for siting
+and has contributed to difficulties in accurately forecasting load in the ERCOT transmission
+planning process. Additionally, to the extent that not all direct interconnection costs are treated the
+same, ratepayers across the ERCOT region are bearing more of the direct interconnection costs for
+
+transmission infrastructure than they should be.
+One ofthe ways the pending rule in Project No. 58481 is expected to standardize the requirements
+for financial commitments is by requiring a large load customer to post significant financial
+security on a dollar per MW basis. A second way is by requiring a large load customer to post
+security for significant equipment or services and for system upgrades. Significant equipment is
+that equipment that has a long-lead time of six months or more. Additionally, the pending rule will
+address the circumstances that security may be refunded and whether a certain amount of security
+
+should be non-refundable.
+Finally, the pending rule is expected to establish a non-refundable interconnection fee and
+standardize the requirements for CIAC, including allowances, if any. CIAC is a direct cash
+payment to the utility for the costs to interconnect a large load customer. While CIAC has
+traditionally been limited to the interconnection costs that exceed TSP-specific standard allowance
+
+amounts and is typically characterized as "driveway costs" to denote that the interconnecting large
+load customer is the sole beneficiary of the infrastructure, the pending rule evaluates whether the
+22 Rulemaking to Implement Large Load Interconnection Standards Under PURA §37.0561, Project. No.
+58481 (pending)
+
+37
+
+interconnection costs should be expanded to include system upgrades, which are typically
+characterized as "highway costs" to denote that the system as a whole benefits from system
+
+upgrades.
+On its face, expanding the interconnection costs to include system upgrades is an appealing
+approach that seems consistent with cost causation and equitable ratemaking principles. However,
+such an approach comes with many challenges and would be complex to administer. Examples of
+
+the challenges with that approach include assignment of costs based on cost causation principles.
+Power flows on the transmission system do not serve just one entity or even a handful of entities.
+Moreover, the direction of power flows is not consistent, making it difficult to identify the
+beneficiary of individual transmission facilities in a limiting manner. Another challenge is whether
+
+a system upgrade that is identified in the batch study process can be attributed to a large load
+customer when the system upgrade will serve other loads on the system in order to free a path for
+existing power flows to the large load customer seeking interconnection. Therefore, Commission
+Staff notes that such an approach will be given full consideration in the pending rule in Proj ect No.
+
+58481.
+2.
+
+Docket No. 58923, Commission Staff's Petition to Require Annual
+Updates to Class Allocation Factor Values Under 16 TAC §25.193(c)
+
+The transmission cost recovery factor (TCRF) proceeding, discussed above, is available to IOU
+DSPs and governed by 16 TAC § 25.193, relating to Distribution Service Provider Transmission
+Cost Recovery Factor (TCRF). TCRF proceedings allow IOU DSPs that are billed for transmission
+service by a TSP to charge or credit the DSP's customers for the wholesale transmission charges
+approved or allowed by the Commission. Because the TCRF proceeding reflects transmission
+charges that the Commission has already authorized, this type of proceeding is essentially a "passthrough" mechanism that enables a DSP to recover transmission charges that the Commission has
+previously approved for TSPs to bill DSPs. A DSP may file up to two TCRF proceedings per year.
+TCRF rates are calculated using baseline class allocation factor values for each customer class.
+The class allocation factor values are approved for use in the DSP's most recent comprehensive
+rate proceeding. Under 16 TAC § 25.247, an electric utility must file an application for a
+
+comprehensive rate review within 48 months of the order setting rates in its most recent
+comprehensive rate proceeding. Thus, the class allocation factor values are fixed between
+comprehensive rate proceedings and generally updated on a four-year cycle. The transmissionvoltage class load has been growing at a disproportionate rate to other classes. As an example, AEP
+
+estimates that its transmission voltage class load will be over four times the size of residential by
+2030.23 This disproportionate growth combined with the four-year cycle for updating cost
+
+allocation factor values results in significant inequitable cost-shifting between customer classes.
+The TCRF formula's default use of the class allocation factor from the most recent base rate
+
+proceeding, in combination with the use of updated billing determinants reflecting customer
+growth, leads to inequitable cost-shifting between customer classes and large swings in rates when
+allocation factor values are updated in a base rate proceeding. With the widespread deployment of
+Advanced Metering Systems (AMS), annual updates to the class allocation factor values used in
+23 Project No. 58484, AEP Companies' Comments on Questions for Public Comment at 7 (Sept. 9,2025).
+
+38
+
+TCRF proceedings may reasonably be implemented to address the inequitable cost shifting and
+rate volatility. The current TCRF rule language fixing allocation factor values between rate cases
+was based on an era without widespread AMS deployment, when updating class allocation factor
+values involved contentious and highly contestable load research studies. These studies required
+
+establishing customer samples and applying various statistical assumptions and techniques to
+estimate class loads, and such practices would be inconsistent with the routine and streamlined
+nature of the TCRF proceedings. These conditions no longer hold, and AMS systems can now
+provide accurate class load values for all customers with AMS meters, without the need for any
+
+significant degree of sampling or statistical estimation.
+Where a TCRF rate class is experiencing disproportionate load growth, as has been the case for
+many classes that include industrial customers in recent years, the failure to update the TCRF class
+allocation factor values in the biannual TCRF updates results in the same outdated and fixed
+proportion of TCRF costs being allocated to that class despite the load growth. As the load growth
+causes a higher amount of wholesale transmission costs to be charged to the DSP, the failure to
+
+update the allocation factor values annually results in other rate classes inequitably bearing a large
+portion ofthe costs associated with the disproportionate load growth. Annually updating the TCRF
+
+class allocation factor values would avoid this inequitable outcome, as the updated class allocation
+factor values would align the class allocations with the cost-causative 4CP demand that causes the
+DSP to incur wholesale transmission charges under the current wholesale transmission rate design.
+Unlike with the class allocation factor values, the TCRF rule does currently require updates to the
+billing determinant values used to establish the TCRF rates. This aspect of the rule, interacting
+with the fixed allocation factor value issue discussed above, means that a rate class demonstrating
+disproportionately high load growth faces significant downward pressure to its TCRF rates
+between base rate proceedings, as the allocation factor value used to allocate TCRF costs to the
+class is fixed, but the billing determinant denominator value used to calculate the rate increasesleading to rates being established significantly below cost for customers of these fast-growing
+classes. This in turn can lead to increasingly lower TCRF rates for these fast-growing classes with
+each TCRF update until the TCRF class allocation factor values are updated in the DSP's next rate
+case. This dynamic has produced the situation where, as part of a base rate proceeding, the fastgrowing classes abruptly face very large rate increases as the allocation factor value update
+"catches up" to the load growth and billing determinant values and abruptly corrects the
+inequitable intra-class cross-subsidization caused by failing to update the class allocation factor
+values on an annual basis. In other words, the status-quo contributes to significant rate volatility,
+in addition to the equity issues discussed above.
+Currently, the Commission has a pending docket in which Commission Staff has petitioned the
+Commission to require annual updates to class allocation factor values under 16 TAC
+§ 25.193(c).24 However, an additional option for resolving this issue is to update 16 TAC § 25.193
+to require annual updates to class allocation factor values.
+
+v.
+
+Commission Staff's Recommendations and Next Steps
+[LEFT INTENTIONALLY BLANK IN THIS DRAFT REPORT]
+
+39
+
+40
+
+

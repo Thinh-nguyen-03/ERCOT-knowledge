@@ -1,0 +1,129 @@
+Texas Energy Fund
+Frequently Asked Questions
+Last Updated November 4, 2026
+
+Table of Contents
+
+What is the PUCT? ................................................................................................................... 3
+What is the Texas Energy Fund (TxEF)? ................................................................................... 3
+What are the different TxEF programs? .................................................................................. 3
+Who is eligible to apply to each program? .............................................................................. 5
+What are the key dates and deadlines for the TxEF programs? ............................................. 5
+How do I learn more and apply to TxEF programs? ................................................................ 5
+Who do I contact for more information? ................................................................................ 5
+
+This document provides answers to Frequently Asked Questions (FAQs) on the Texas Energy
+Fund (TxEF). This document is updated as new information becomes available.
+
+What is the PUCT?
+The Public Utility Commission of Texas (PUCT) is the state agency responsible for economic
+regulation of Texas' electric, telecommunication, and water and wastewater utilities.
+The PUCT oversees the state's utility providers, implementing legislation and enforcing market
+rules that promote reliability and high-quality infrastructure, including oversight of the Electric
+Reliability Council of Texas (ERCOT), which runs the electric grid for 90% of Texas' power needs.
+Through rate regulation and consumer assistance, the PUCT ensures consumers across the
+state are treated fairly and receive the benefits of competitive markets. The PUCT was directed
+by the 88th Texas Legislature through Senate Bill 2627, the Powering Texas Forward Act, and by
+the Texans who voted in the November 7, 2023, constitutional amendment election to
+administer the TxEF.
+
+What is the Texas Energy Fund (TxEF)?
+The TxEF provides grants and loans to finance the construction, maintenance, modernization,
+and operation of electric facilities in Texas. The Texas Legislature passed Senate Bill 2627, the
+Powering Texas Forward Act, to create the TxEF, which Texans approved through a
+constitutional election on November 7, 2023. The 89th Texas Legislature then passed Senate Bill
+2268 to adjust certain financing requirements, programmatic caps, and deadlines for loans and
+grants awarded from the TxEF.
+
+What are the different TxEF programs?
+The TxEF is made up of four programs that provide loan and grant opportunities for electric
+generation projects inside and outside the ERCOT power region: 1) the In-ERCOT Generation
+Loan Program; 2) the Completion Bonus Grant Program; 3) the Outside ERCOT Grant Program;
+and 4) the Texas Backup Power Package Program. Each program is guided by a set of rules
+drafted with public input and adopted by the Commission.
+In-ERCOT Generation Loan Program
+The In-ERCOT Generation Loan (Loan) Program provides three percent-interest loans with a
+term of 20 years to qualifying companies for the construction of new or expansion of existing
+dispatchable electric generating facilities in the ERCOT power region. Qualifying projects must
+add at least 100 MW of new dispatchable generation capacity, which is output that can be
+controlled primarily by forces under human control. Projects involving resources such as solar,
+wind, and hydroelectric are considered non-dispatchable and therefore ineligible for the
+program.
+
+3
+
+On March 21, 2024, the PUCT adopted 16 TAC §25.510, which establishes the Loan Program
+application process, project eligibility requirements, evaluation criteria, and loan terms. The
+PUCT began accepting Loan Program applications on June 1, 2024, and closed the submission
+period on July 27, 2024. High-level information on Loan Program activity to date is listed on the
+TxEF website, and detailed information and resources for Loan Program applicants and
+borrowers is available on the TxEF Online website.
+Completion Bonus Grant Program
+New generation resources at a new or existing electric generating facility may be eligible for a
+Completion Bonus Grant (CBG) if they interconnect to the ERCOT power grid before June 1,
+2029. Eligible projects must provide at least 100 megawatts (MW) of new, dispatchable
+nameplate capacity in the ERCOT region, among other criteria. Dispatchable capacity is output
+that can be controlled primarily by forces under human control.
+On April 25, 2024, the PUCT adopted 16 TAC §25.511, which establishes the CBG Program
+application process, project eligibility requirements, and evaluation criteria. The PUCT began
+accepting CBG Program applications on January 1, 2025, and continues to accept new
+applications. High-level information on CBG Program activity to date is listed on the TxEF
+website, and detailed information and resources for CBG Program applicants and grantees is
+available on the TxEF Online website.
+Outside ERCOT Grant Program
+The Outside ERCOT Grant Program (OEGP) provides funding to existing transmission and
+distribution infrastructure and existing electric generating facilities in Texas outside of the
+ERCOT power region. Projects under the OEGP must meet one of the program objectives:
+facility modernization, facility weatherization, reliability and resiliency, and vegetation
+management. Construction of a new electric generation resource is considered an ineligible
+activity under this program, among other exclusions.
+On February 13, 2025, the PUCT adopted 16 TAC §25.512, which establishes the OEGP
+application process, project eligibility requirements, and evaluation criteria. The PUCT began
+accepting OEGP applications on May 28, 2025, and continues to accept new applications. Highlevel information on OEGP activity to date is listed on the TxEF website, and detailed
+information and resources for OEGP applicants and grantees is available on the TxEF Online
+website.
+Texas Backup Power Package Program
+The Texas Backup Power Package (TBPP) Program will provide grants and loans to qualifying
+entities to design, procure, install, and operate backup power packages at critical facilities that
+support community health, safety, and well-being. Examples of critical facilities include but are
+not limited to hospitals, fire stations, assisted living facilities, cooling centers, and gas stations
+
+4
+
+along evacuation routes. A backup power package is a stand-alone, multiday back up power
+source that connects directly to a critical facility without passing through a utility meter.
+On May 7, 2026, the PUCT adopted 16 TAC §25.513, which establishes the TBPP Program
+application process, project eligibility requirements, and evaluation criteria. The PUCT will begin
+accepting TBPP applications in 2027. The PUCT has facilitated multiple opportunities for the
+public to provide input on TBPP research reports, program design, and vendor procurement.
+High-level information on TBPP Program activity to date is listed on the TxEF website, and
+detailed information and resources for TBPP Program applicants will be available on the TxEF
+Online website.
+
+Who is eligible to apply to each program?
+Eligibility requirements are different per program.
+For In-ERCOT Generation Loan Program eligibility, refer to 16 TAC §25.510(c).
+For Completion Bonus Grant Program eligibility, refer to 16 TAC §25.511(c).
+For Outside ERCOT Grant Program eligibility, refer to 16 TAC §25.512(b).
+For Texas Backup Power Package Program eligibility, refer to 16 TAC §25.513(b).
+
+What are the key dates and deadlines for the TxEF programs?
+Key dates for each TxEF program are summarized on the TxEF website. Visit TxEF Online for
+detailed resources for applicants and awardees, organized by program.
+
+How do I learn more and apply to TxEF programs?
+For general information about each TxEF program, visit the PUCT’s TxEF website to view
+program descriptions, awardee information and links to rules, Interchange filings and press
+releases.
+For detailed resources on preparing to apply for a TxEF program, visit TxEF Online to view
+program-specific Frequently Asked Questions, program manuals, video tutorials, and user
+guides for forms and reports.
+To upload documents and submit an application for a TxEF program, log into the TxEF Portal.
+
+Who do I contact for more information?
+For more information or assistance, contact the Texas Energy Fund Administrator by phone at
+1-866-526-2269 or email at info@txenergyfund.texas.gov.
+
+5
+
+

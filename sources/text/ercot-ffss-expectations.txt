@@ -1,0 +1,121 @@
+It is the responsibility of the qualifying Market Participant to be aware of and ensure compliance with its obligations under the ERCOT Protocols and other regulations or laws. It is possible that the information below may have omitted additional relevant information or contain incomplete information. The information below is provided “AS IS” and shall not be construed as waiving or altering any obligations under the ERCOT Protocols.
+
+Introduction 2
+
+Annual Timeline of Significant FFSS Milestones 2
+
+FFSS Capability Demonstration and Qualification 2
+
+Activities During the FFSS Obligation Period 3
+
+  ------------------------------------------------------------------------
+  DATE                    VERSION                 DESCRIPTION
+  ----------------------- ----------------------- ------------------------
+  07/24/2023              1                       First Version
+
+  07/31/2024              2                       Second Version
+
+  7/27/2026               3                       Date/Reference Updates
+  ------------------------------------------------------------------------
+
+Introduction
+
+The main purpose of this document is to summarize key QSE requirements related to Firm Fuel Supply Service (FFSS). It also contains instructions on how to fulfill the FFSS Capability Demonstration Requirements.
+
+Annual Timeline of Significant FFSS Milestones
+
+[]
+
+Nodal Protocol references:
+
+-   3.14.5 (2), 3.14.5 (3), 8.1.1.2.1.6 (5-6)
+
+FFSS Capability Demonstration and Qualification
+
+Prior to the submission of the FFSS Offer Submission Form, all primary and alternate Resources offered must demonstrate their generating capability by sustaining its output for 60 minutes while using reserved fuel sources. This may be accomplished through a previous deployment of the Resource that a QSE would like to use for purposes of qualification or through a self-test that is coordinated with the ERCOT Control Room. The Resource will be eligible to receive an FFSS award for no greater than the average net real power output during the duration of the demonstration.
+
+For Resources demonstrating capability through a previous deployment, the previous deployment must be within the testing period which covers one year prior to the deadline to inform ERCOT of the FFSS capability demonstration; the deadline to inform ERCOT is August 15. To fulfill this requirement using this option, the QSE must submit to ERCOT the starting date and time of the 60-minute demonstration period for each Resource by completing the FFSS Capability Demonstration Form using Table 1. With this option, Table 2 should be left empty. Completed forms should be submitted through email to FFSS@ercot.com by August 15.
+
+If the Resource did not adequately demonstrate its capability within the testing period or does not have a previous deployment to use for purposes of qualification, the QSE has the option to coordinate a self-test with the ERCOT Control Room using the steps outlined below.
+
+Coordinate a Test with the ERCOT Control Room
+
+-   Complete the Resource FFSS Capability Demonstration Form using Table 2 and submit the form to FFSS@ercot.com by August 15. Table 1 will be left blank at this point and until the self-test is complete.
+
+-   The testing coordinator will work with the designated QSE contact and the ERCOT Control Room to schedule the date and time of the test.
+
+-   During the scheduled self-test
+
+    -   The Resource must have a Resource Status of “ONTEST” (RST = 8) in Real-Time telemetry for the duration of the test and for the appropriate Operating Hours in the Current Operating Plan (COP).
+
+    -   The Resource will ramp up to the desired qualification amount and attempt to sustain its output for 60 minutes while using reserved fuel sources.
+
+-   Resume normal operations immediately following completion of the scheduled self-test and update the telemetered Resource Status to an appropriate value that reflects that the test has ended.
+
+-   Following the completed scheduled self-test, update the previously submitted FFSS Capability Demonstration Form using Table 1 and submit the form by emailing FFSS@ercot.com.
+
+Nodal Protocol references:
+
+-   8.1.1.2.1.6 (5)
+
+Activities During the FFSS Obligation Period
+
+Deployment
+
+FFSS is deployed by ERCOT operators during an anticipated or ongoing fuel supply disruption. FFSS deployments will be issued to each Resource using verbal dispatch instructions (VDI), which will specify the start and end time of the deployment.
+
+Throughout the deployment period, the Resource is expected to
+
+-   Burn reserved fuel
+
+-   Telemeter an online status
+
+-   Telemeter on average an HSL greater than or equal to the awarded FFSS MW value
+
+-   Follow Base Point instructions from ERCOT
+
+The FFSS deployment ends when one of the following conditions is met:
+
+1.  The Resource exhausted the fuel reserved to generate during the deployment to satisfy their FFSS obligation.
+
+2.  The fuel supply disruption no longer exists.
+
+3.  ERCOT determines the FFSS deployment is no longer needed.
+
+The QSE is responsible for communicating with the ERCOT Control Room the anticipated exhaustion of the reserved fuel or emissions credits at least six hours before that anticipated exhaustion and upon the exhaustion of that fuel or emissions credits.
+
+Nodal Protocol references:
+
+-   3.14.5 (4) (f-h)
+
+Fuel Restocking
+
+Following the deployment of FFSS, the QSE for an FFSS Resource (FFSSR) may request an approval from ERCOT to restock their fuel reserve to restore their ability to generate at the FFSS MW award level for the duration requirement specified in the RFP. Following approval from ERCOT, a QSE must restock their fuel reserve to restore their ability to generate at the FFSS MW award level for the specified duration requirement. In the event ERCOT does not receive the request to restock from a QSE representing an FFSSR, but the QSE no longer has sufficient reserved fuel to generate at the FFSS MW award level for the specified duration requirement, the QSE shall communicate to the ERCOT Control Room this reduced capability and ERCOT may instruct the QSE to restock the fuel reserve.
+
+Nodal Protocol references:
+
+-   3.14.5 (5)
+
+Communicating Resource Availability
+
+The following actions must be taken as soon as practicable if an FFSSR becomes unavailable and there is at least one available associated alternate Generation Resource as back-up.
+
+-   Call the ERCOT Control Room and inform an Operator that the FFSSR will be replaced by one alternate Generation Resource, specify which alternate Generation Resource (if multiple alternate Generation Resources have been designated), and provide an estimate of how long the replacement will be in effect.
+
+The following actions must be taken within 60 minutes after identifying the change in availability of an FFSSR or an associated alternate Generation Resource.
+
+-   Update the Availability Plan starting with the current Operating Hour to reflect the change in availability.
+
+-   After the Availability Plan is updated, update the COP for future hours in which the COP is available for updates.
+
+Nodal Protocol references:
+
+-   3.14.5 (9) (a-c)
+
+FFSS Performance Evaluation and Penalties
+
+The Nodal Protocol references listed below describe how ERCOT will evaluate Resource performance and the penalties associated with poor performance.
+
+Nodal Protocol references:
+
+8.1.1.2.1.6 (8-26)

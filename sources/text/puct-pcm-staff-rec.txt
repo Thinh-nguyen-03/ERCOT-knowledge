@@ -1,0 +1,563 @@
+PUBL~ 4
+
+~* TEX>~
+Filing Receipt
+Filing Date - 2024-12-13 05:22:24 PM
+
+Control Number - 55000
+Item Number - 47
+
+Public Utility Commission of Texas
+Memorandum
+TO:
+
+Chairman Thomas J. Gleeson
+Commissioner Lori Cobos
+Commissioner Jimmy Glotfelty
+Commissioner Kathleen Jackson
+Commissioner Courtney K. Hjaltman
+
+FROM:
+
+Werner Roth, Market Analysis
+Chris Brown PhD, Market Analysis
+
+DATE:
+
+December 13, 2024
+
+RE:
+
+December 19, 2024 Open Meeting - Item No. 17
+Project No. 55000 - Performance Credit Mechanism (PCM)
+Staff's Review of the ERCOT and E3 PCM Assessments and Staff's Final
+Recommendation on the PCM
+
+On February 29,2024, ERCOT and its consultant, Energy and Environmental Economics, Inc.
+(E3), filed a draft strawman design with the Commission that identified 37 Performance Credit
+Mechanism (PCM) design parameter decisions that the Commission would need to make
+before the PCM design could be finalized.1 After several months of discussion and
+engagement, including multiple rounds of public comment and workshops, the Commission
+selected the final PCM design parameters at its August 29,2024 open meeting. These aligned
+with the Staff recommendations described in an August 22,2024 memo,2 with Staff capturing
+Commission decisions on the final PCM design parameters and on other relevant policy
+parameters, including the Value of Lost Load (VOLL), the Cost of New Entry (CONE), and
+the reliability standard, in an August 30,2024 memo.3
+For the next step in the process to evaluate the PCM, the PUCT required ERCOT and the IMM
+to "complete an updated assessment on the cost to and effects on the ERCOT market of the
+
+proposed reliability program and submit to the commission and the legislature a report on the
+costs and benefits of continuing the program."4 The PUCT received the updated assessments
+from both ERCOT5 and the IMM6 on December 6,2024. The IMM subsequently filed a revised
+version of its assessment to reflect the updated CONE value on December 10, 2024.7
+1 Project No. 55000, Item 4, PCM Draft Design Parameters Options Memorandum.
+2 Project No. 55000, Item 42, Staff PCM Design Recommendations.
+3 Project No. 55000, Item 43, Staff Memo to IMM and EROCT for PCM Cost/Benefit Analysis Policy
+Parameters.
+4 See PURA § 39.1594(d).
+5 Project No. 55000, Item 45, ERCOT and E3 PCM Cost-Benefit Assessment (ERCOT/E3
+Assessment).
+6 Project No. 55000, Item 44, IMM Evaluation of the PCM.
+7 Project No. 55000, Item 46, Revised IMM Evaluation of PCM (IMM Assessment).
+
+Project No. 55000
+
+Staff Recommendation
+
+Page 2 of 9
+
+Staff's Final Recommendation
+
+Staff appreciates the work ofERCOT, E3, the IMM, and the entire stakeholder community for
+their work on the PCM over the past couple of years. After reviewing the ERCOT/E3 and IMM
+assessments, Staff recommends not moving forward with the PCM as currently designed.
+
+Using the chosen design parameters, the PCM results in minimal additional resource
+adequacy value.
+The ERCOT/E3 assessment showed that, while the PCM would improve the resource adequacy
+picture in ERCOT, the additional capacity that would be incentivized is minimal.
+• The PCM, as designed, is anticipated to incentivize 780 MW of additional dispatchable
+generation relative to the energy-only market design, which would reduce the projected
+long-term equilibrium Loss of Load Expectation (LOLE) from 2.67 days per year to
+
+2.18 days per year.
+o
+
+However, an additional 10,388 MW (beyond that incentivized by the current
+PCM design) would be needed to meet the LOLE criteria of 0.1 days per year
+
+•
+
+in the reliability standard.
+Under the "Low Cost of Retention" sensitivity, which provides more insight into the
+
+•
+
+short-term equilibrium, the PCM would retain 1,340 MW of dispatchable capacity,
+relative to the energy-only market design. However, this would only lower the
+equilibrium LOLE of the system from 0.67 days per year to 0.52 days per year.
+The IMM stated that the capacity margin impact from the chosen PCM market design
+
+would be less than three percent over the long-term.
+Alternative design choices would result in the PCM not complying with statute.
+In its cover memo, ERCOT recommended that the Commission consider additional
+refinements to the PCM's design that could allow it to have a more sub stantive impact on
+reliability before eliminating the PCM as a potential option. Throughout the ERCOT/E3
+
+assessment, the specific design parameter that most significantly limits the effectiveness of the
+PCM is the $1 billion gross cost cap. The decision to use a gross cap, as opposed to a more
+
+flexible net cost cap calculation, was thoroughly debated and discussed before the final design
+parameters were decided. Comparing the ERCOT/E3 and IMM assessments makes it clear
+why using a gross cap was the only viable path forward to ensure compliance with statute.
+The ERCOT/E3 analysis found that the $1 billion of PCM costs would almost be offset by a
+reduction in energy and ancillary service costs, resulting in the net cost of the PCM coming
+out to approximately $12 million. This is well below the $1 billion net cost cap imposed by
+statute. However, the IMM stated that the reduction in energy and ancillary service costs are
+unlikely to offset the PCM costs to the degree that ERCOT/E3 indicated. In its assessment, the
+IMM stated that, while higher capacity margins induced by the PCM will reduce the frequency
+of shortage pricing, the long-term net costs of PCM with the gross cap in place may be in the
+range of $350 million to $725 million.
+
+Project No. 55000
+
+Staff Recommendation
+
+Page 3 of 9
+
+This discrepancy demonstrates the difficulty in crafting a net cost cap: the calculation of net
+cost is extremely dependent upon the assumptions used to create the base case. We only have
+two assessments ofthe PCM with the gross cost cap in place, yet their estimates on the net cost
+implications of PCM differ by an order of magnitude. Other parties, conducting their own
+
+independent assessment, would likely come to different conclusions about the net cost impacts.
+Thus, any proceeding to determine if a PCM utilizing a net cost cap is compliant with statute
+would likely be contentious. As Staff has previously stated, the only way to ensure compliance
+with the statute's language around a net cost cap is to utilize a gross cost cap on the PCM.
+
+Current analyses indicate that market modijications will likely be needed to achieve the
+Commission's chosen reliability standard long-term.
+As Staff has previously noted8 (and E3 mentioned several times throughout its assessment),
+the chosen PCM design parameters would limit its ability to achieve the reliability standard on
+its own. Whether the Commission moves forward with the PCM or not, additional analysis
+
+will be required to determine how much additional generation capacity is needed to achieve
+the Commission' s chosen reliability standard.
+• The long-term equilibrium of the ERCOT market design is well below the frequency
+criterion of the Commission's reliability standard (LOLE of 2.67 days per year in the
+energy-only construct, 2.18 days per year with the addition of the PCM)
+• Using the "Low Cost of Retention" sensitivity, the short-term equilibrium also falls
+
+•
+
+below the reliability standard (LOLE of 0.67 days per year in the energy-only construct,
+0.52 days per year with the addition of the PCM)
+ERCOT indicated that its Long-Term Reliability Assessment shows a forecasted 2026
+ERCOT system having an LOLE of 0.51 days per year.
+
+ERCOT and the stakeholder community will need to continue discussions around different
+ways to address the resource adequacy ofthe system. Furthermore, the Commission may want
+
+a slate of options from which it can choose to achieve its resource adequacy target after the
+first resource adequacy assessment is conducted in 2026, should the analysis still show that the
+system is deficient.
+Review of ERCOT Assessment
+In its cover memo, ERCOT described the work conducted by ERCOT staff and E3. ERCOT
+
+justified the rationale to use a study system at market equilibrium rather than a forecasted year
+due to the fact that the analysis was conducted to evaluate the PCM as a long-term market
+product contributing to the overall ERCOT market design.' The memo also emphasized that
+the E3 analysis does not forecast the anticipated state of the market in 2026 or the expected
+reliability outcomes in that year. E3 determined that a long-term equilibrium outcome with the
+current energy-only market design reaches an LOLE of 2.67 days per year. ERCOT included
+results from its Long-Term Reliability Assessment probabilistic modeling of a forecasted 2026
+ERCOT system that showed an LOLE of 0.51 days per year, which is a more likely outcome
+
+for 2026 as it is based on an evaluation of the anticipated resource portfolio and load forecast
+8 Project No. 55000, Item 42, Staff PCM Design Recommendations.
+9 ERCOT/E3 Assessment at 3.
+
+Project No. 55000
+
+Staff Recommendation
+
+Page 4 of 9
+
+for that year. 10 In this cover memo, ERCOT also recommended that additional refinements to
+the PCM' s design be considered to allow for the PCM to have a more sub stantive impact on
+reliability before eliminating the PCM as a potential option. 11
+The ERCOT filing comprises two assessments:
+• ERCOT' s own assessment, which provides an evaluation of CONE and the planned
+timeline for the implementation of the Real-Time Co-optimization plus Batteries
+(RTC+B) initiative.
+• An accompanying assessment by E3 that addresses the PCM' s cost to and effects on
+the ERCOT market as well as the following evaluations:
+o the PCM' s effects on consumer costs and the competitive retail market;
+o detailed information regarding cost offsets realized through a reduction in costs
+in the energy and ancillary services markets and use of Reliability Unit
+Commitment (RUC);
+o a set of metrics to measure the effects of the PCM on system reliability;
+o evaluation of the cost to retain existing dispatchable resources in the ERCOT
+Region; and
+
+o
+
+the anticipated market and reliability effects of new and updated ancillary
+service products.
+
+ERCOT Assessment
+PURA requires that this assessment include an evaluation of CONE. 12 In its assessment,
+ERCOT summarized the work that went into the Commission's review of CONE. Ultimately,
+the Commission selected a CONE of $140 per kW-year based on ERCOT' s update to Brattle' s
+sensitivity in the CONF, study for a Frame CT reference technology with a 20-year economic
+lifetime assumption levelized in real dollars.13 This is the value that E3 used to perform its
+
+assessment.
+PURA requires that this assessment also include an evaluation of the planned timeline for
+implementation of real-time co-optimization of energy and ancillary services in the ERCOT
+region. 14 ERCOT noted that the current timeline to complete a full, simultaneous
+implementation ofRTC+B targets a launch date ofDecember 5,2025. ERCOT also noted that,
+consistent with PURA, PCM would not be implemented until after the implementation of
+RTC+B.15
+E3 Assessment
+
+E3 continued to coordinate with Astrapd Consulting on the PCM evaluation to use Astrapd' s
+Strategic Energy & Risk Valuation Model (SERVM) to perform the modeling for this
+10 ERCOT/E3 Assessment at 5.
+11 ERCOT/E3 Assessment at 5-6.
+12 See PURA § 39.1594(d)(1).
+13 ERCOT/E3 Assessment at 12.
+14 See PURA § 39.1594(d)(5)
+15 See PURA § 39.1594(a)(10).
+
+Project No. 55000
+
+Staff Recommendation
+
+Page 5 of 9
+
+assessment. In order to assess the impact that the PCM would have on the ERCOT market, E3
+developed a theoretical study system in which the ERCOT market is in a state of equilibrium.
+E3 noted several differences between this analysis and the one used in its PCM Design White
+Paper. The updated analysis uses:
+• the Commission approved PCM design parameters;
+
+•
+•
+
+the multi-criteria reliability standard (frequency, duration, magnitude);
+a CONE value of $140/kW-year;
+
+•
+
+the framework for the Dispatchable Reliability Reserve Service (DRR S) included in
+NPRR1235; and
+the latest SERVM model and market inputs, including updates to ERCOT forecasts for
+
+•
+
+load growth, resource additions, and fuel prices.
+E3 provided the following key quantitative results:
+• The chosen PCM design would improve system reliability relative to the existing
+energy-only market design framework, decreasing the LOLE of the study system at
+
+market equilibrium from 2.67 days per year to 2.18 days per year.
+•
+
+•
+
+The chosen PCM design does not provide sufficient price signals for the study system
+to achieve the reliability standard that the PUCT adopted in 16 TAC § 25.508.
+o The PCM would incentivize an additional 780 MW of additional natural gas
+CT generation capacity relative to the energy-only market.
+o An additional 10,388 MW of natural gas CT capacity (beyond that incentivized
+by the chosen PCM design) would be needed to meet the 0.1 LOLE criteria in
+the reliability standard.
+The final cost impact of PCM with a $1 billion per year gross cost cap is significantly
+lower than the $1 billion legislative guardrail.
+o E3's analysis shows a $12 million peryear increase in total net cost from PCM,
+as the $1 billion of PCM costs is almost entirely offset by a decrease in energy
+
+and ancillary service costs.
+•
+
+PCM reduces annual total system cost variability.
+o The primary determinant of high-cost versus low-cost years is scarcity pricing.
+o The additional natural gas CT capacity that is supported with the addition ofthe
+PCM reduces energy and ancillary service market costs during the tightest
+
+years.
+•
+
+o The reduction in variability is limited by the $1 billion gross cost cap.16
+Resource margins for various resource classes are generally similar between the
+energy-only and PCM market designs.
+o For dispatchable resources, the PCM revenues are largely offset by decreases
+
+in energy and ancillary service revenues.
+o
+
+The only resource classes that see a change of greater than one percent of
+expected revenues are battery storage and wind. Battery storage sees a 29%
+increase in margins under PCM while wind resources see a 1.2% reduction in
+
+margins.
+16 ERCOT/E3 Assessment at 42.
+
+Project No. 55000
+
+o
+
+Staff Recommendation
+
+Page 6 of 9
+
+The selected PCM decreases the volatility of natural gas CT margins slightly
+
+relative to the energy-only equilibrium case, but this decrease is limited due to
+the cost limitations of the PCM design.
+•
+
+The seasonal risk occurs most frequently in the winter season.
+
+o
+o
+•
+
+90.2% of the loss of load hours occur in the winter, 8.4% in the summer, 1.4%
+in the fall, and zero percent in the spring.17
+This impacts the PC demand curves in each of the seasons and shows how the
+$1 billion cost cap would be distributed across the seasons.
+
+E3 compared the collateral requirements under the energy-only equilibrium to the PCM
+equilibrium.
+o E3 determined that the collateral requirements under the energy-only and PCM
+system are nearly equal ($61 million vs $59 million). This is because the new
+collateral requirement for PCs is offset by a reduction in the collateral
+
+requirement for energy and ancillary services.18
+•
+
+E3 also tested the system under out-of-equilibrium conditions:
+o As expected, when the system is less reliable than the equilibrium system, the
+expected margins increase above CONE to incent new entry, and when the
+
+system is more reliable than the equilibrium system, the margins decrease
+below CONE to reduce new entry and potentially induce retirements.19
+Next, E3 provided a summary of the qualitative evaluation of the PCM:
+• Market Efficiency - E3 stated that the chosen PCM design is moderately efficient. The
+hours of high net load do not directly reflect the hours of highest reliability risk, and
+this leads to increased long-term costs relative to a more efficient design. Additionally,
+duration-limited resources, such as batteries, have an incentive under the chosen PCM
+design to economically withhold discharge during PC Hours by bidding above the
+market clearing price to be able to retain charge and be "available" across all PC Hours,
+increasing costs without improving reliability.20
+• Market Competition - E3 stated that the chosen PCM design is moderately competitive.
+Non-dispatchable resources can contribute to system reliability, but by excluding them
+from the PCM market for a value they provide to the grid, it inhibits competition and
+increases system costs in the long-term.
+• Administrative Complexity - E3 stated that the chosen PCM design would not be
+complex to implement and is less complex than many other potential reliability
+products. The gross cost cap reduces complexity by not requiring a counterfactual
+scenario of the system without PCM. Additionally, the PCM does not require any
+forward-looking individual resource accreditation, which is a component of all other
+U. S. capacity markets or resource adequacy market constructs.21
+
+17 Id. at 34.
+18 Id at 47.
+19 Id. at 48.
+20 Idat 51.
+21 Id at 52.
+
+Project No. 55000
+
+•
+
+Staff Recommendation
+
+Page 7 of 9
+
+Performance Incentives and Penalties - E3 stated that the chosen PCM design has
+strong Performance Incentives. By definition, PCM is performance-based and does not
+compensate generators ifthey are not available during reliability hours. Loads also have
+strong financial incentives to shift usage outside of high net load hours. A generator
+that clears in the forward PCM market and then is not available in the PCM market is
+
+penalized at two percent of the forward market price, in addition to the requirement to
+buy back the full quantity at the actual PCM market price.
+•
+
+•
+
+Market Power Risk - E3 found a low level of market power risk with the chosen PCM
+design. PCM has low risk of supply withholding in the PCM market because PC supply
+is based on actual availability rather than "offers". The sloped demand curve in the
+PCM market also mitigates the ability of market participants to exert market power.
+However, E3 recommended that additional market power mitigation measures or
+enforcement mechanisms should be developed by ERCOT and the IMM, as the novelty
+of PCM might create a short-term market adjustment period during implementation.
+Effect on Competitive Retail Market - E3 found minimal impact on competition in the
+retail market with the chosen PCM design. PCM was intentionally designed to replicate
+desirable attributes of the energy market, and therefore, the impact of PCM on
+ERCOT' s existing competitive retail market is expected to be minimal. The final PCM
+design applies non-performance penalties at the plant-level (PCM Design Parameter
+
+#27), which ensures that larger generators or "gentailers" do not hold an unfair
+advantage over smaller players due to generation portfolio effects.
+•
+
+Effect on RUC - E3 stated that the chosen PCM design would have a minimal impact
+on RUC. PCM is designed to award PCs based on available capacity, so when deciding
+
+whether to self-commit, generators will face the same incentives they do in the current
+market design. Additionally, PCM will impact generator behavior during the highest
+net load hours of each season when many generators are already incentivized to be
+online due to high energy prices.
+Lastly, E3 provided two additional assessments:
+• It reviewed a system where resources only need to recover their going-forward cost of
+
+operation, also referred to as the cost of retention.
+o Under this alternative, the cost of retention was $75/kW-year instead of the
+$140/kW-year value used for CONE.22
+o Under the energy-only framework, the equilibrium using the cost of retention
+results in an additional 3.5 GW of natural gas CT capacity remaining on the
+o
+
+system, decreasing the LOLE from 2.67 days per year to 0.67 days per year.23
+Using the cost of retention results in the PCM equilibrium LOLE decreasing
+from 0.67 days per year to 0.52 days per year, as the PCM results in an
+additional 1.3 GW of natural gas CT capacity being retained.
+
+22 Id at 55.
+23 Id. at 56.
+
+Project No. 55000
+
+Staff Recommendation
+
+Page 8 of 9
+
+o
+
+•
+
+Because of the high levels of load growth that are forecasted for the ERCOT
+system, E3 noted that this sensitivity may only provide insight into outcomes in
+the very short term. 24
+As directed by ERCOT, E3 also reviewed the impacts of DRRS absent the PCM, as
+this new ancillary service would provide an additional revenue stream for ERCOT
+resources, which could incentivize new capacity into the market. E3 stated that, if
+DRRS is crafted as currently defined in NPRR1235, it would have negligible impacts
+on the total system capacity. Its analysis shows that DRRS would incent less than 100
+MW of additional natural gas CT capacity into the market.25
+
+Review of IMM Assessment
+In its memo, the IMM stated that the PCM is a novel form of a capacity market because it is
+
+settled ex-post based on after-the-fact availability rather than ex-ante based on expected
+availability. The IMM also concluded that the PCM would provide a new source of revenue
+for generators that would increase ERCOT' s capacity margin, increase the costs to ERCOT's
+customers, but reduce shortage revenues.26 After its review and analysis of the PCM with the
+Commission' s chosen design parameters, the IMM offered the following conclusions27 as part
+
+of its assessment:
+1. The net costs of PCM in the short term are likely to be $1 billion per year because the
+IMM suggested the cost cap provision is likely to bind.
+o Markets are rarely at long-run equilibrium, so it is important to understand what
+the expected cost of PCM implementation would be during the first few years.
+o The IMM did not find that PCM payment costs will be offset in the near-term
+
+by reductions in shortage pricing.28
+2. Over the longer term as higher capacity margins reduce the frequency of shortage
+pricing, the IMM suggested that the net costs would fall in a range of $350 million to
+
+$725 million per year.
+o
+
+This amount differs significantly from the long-term net cost impact calculated
+by ERCOT and E3, which found the net costs of the equilibrium system to be
+
+approximately $12 million per year.29
+o With the gross PCM cost cap, the expected increase to ERCOT's capacity
+margin would be less than three percent over the long term.30
+3. Long-term net costs would be higher if the $1 billion annual PCM cost cap were
+removed. The IMM estimated that these costs would range from $930 million to $2
+
+billion per year.
+
+24 Id. at.55.
+15 Id, at 57 .
+26 IMM Assessment at 9.
+21 Id. all.
+
+28 Id. at 8.
+29 ERCOT/E3 Assessment at 4.
+30 IMM Assessment at 7.
+
+Project No. 55000
+
+o
+
+Staff Recommendation
+
+Page 9 of 9
+
+This range of net costs are associated with gross PCM payments ranging from
+
+$6 to $7 billion per year.31
+o
+
+Without the gross PCM cost cap, the IMM stated that the increase to ERCOT' s
+
+capacity margin would be six to ten percent.32
+•
+•
+
+This is based on comparing markets with and without capacity markets.
+The IMM noted that this is less than the 10 GW forecasted by ERCOT
+and E3.33
+4. The trailing one-year net energy and ancillary service revenue rule for determining the
+PCM demand curve would likely introduce substantial year-to-year volatility in costs
+
+absent the cap.
+o
+
+The trailing 12-month energy and ancillary service offset can cause PCM
+
+settlements over time to be overstated because shortage revenues tend to occur
+unevenly on an annual basis-they may be low for several years and then very
+high in one year.
+o
+
+Low energy and ancillary service revenues cause higher PCM settlements in a
+
+number of years that are not completely offset in the smaller number of years
+when shortages are frequent and energy and ancillary service revenues exceed
+gross CONE. 34
+5. Because PCM settlements would not be as accurately focused on resources utilized
+during shortages to minimize the risk or magnitude of load shedding, PCM revenues
+
+will not likely be as efficient as shortage pricing in motivating investment in resources
+that provide the highest reliability value.
+o An advantage ofthe energy-only market is that the shortage revenue it provides
+to resources is accurately focused on resources that reduce the risk of or actual
+loss of load.35
+o While PCM provides similar incentives, it deviates in two notable ways, which
+could affect how effectively PCM would contribute to reliability:
+• The PC hours are a broader array of hours that exhibit high net load,
+which may not align with the hours that were most vital to maintain
+reliability.
+• PCM payments will go to resources that are deemed to be available
+during PC hours, which may not align with resources actually utilized
+to provide energy or operating reserves during shortages.36
+
+31 Id. at 7
+32 Id. all.
+
+33 Id. at 6.
+34 Id. all.
+
+35 Id. at 8.
+36 Id. at 9.
+
+

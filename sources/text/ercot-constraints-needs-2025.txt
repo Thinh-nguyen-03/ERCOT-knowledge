@@ -1,0 +1,1300 @@
+Report on Existing and
+Potential Electric System
+Constraints and Needs
+December 2025
+
+PUBLIC
+
+Key Takeaways
+On April 24, 2025, the Public
+Utility Commission of Texas (PUCT)
+approved the three 765-kV import paths
+recommended in the Permian Basin
+Reliability Plan, introducing the new 765kV voltage class in the ERCOT Region. The
+ERCOT Board of Directors endorsed the
+remaining portions of the 765-kV Strategic
+Transmission Expansion Plan (STEP)
+proposed in the 2024 Regional Transmission
+Plan (RTP) in December 2025.
+
+ERCOT and Transmission Service Providers
+(TSPs) that serve West Texas have been
+proactively positioning the ERCOT grid to reliably
+serve the rapid load growth in West Texas. Since
+2014, about $23 billion in projects have been
+approved in the Permian Basin. So far, roughly
+630 miles of 345-kV transmission lines have been
+built, 1,585 miles of 345-kV, 1,329 miles of 765-kV
+lines have been approved for new build, and
+various 138-kV upgrades are underway.
+
+PUBLIC
+
+ERCOT is tracking more than three times
+as many Large Load interconnection requests
+compared to 2024. The total load seeking
+interconnection is approximately 239 GW.
+ERCOT
+is
+actively
+collaborating
+with
+stakeholders to improve the Large Load
+interconnection process to address current and
+anticipated challenges associated with the
+substantial volume of requests and the
+complexity involved in ensuring reliable
+interconnection of the Large Loads.
+
+The ERCOT System continues to evolve with
+significant load growth, rapid expansion in
+transmission-connected wind, solar, and
+energy storage development, and distributed
+generation. ERCOT is critically evaluating
+planning processes and pursuing changes
+necessary to meet challenges associated with
+the evolving grid.
+
+2
+
+•
+
+Recent Constraints
+
+•
+
+Projected Constraints
+
+•
+
+Planned Improvements
+
+•
+
+Transmission Cost Trend for ERCOT Region
+
+•
+
+The Changing Grid
+
+•
+
+The Introduction of 765-kV to the ERCOT Region
+
+•
+
+2025 RTP Highlights
+
+•
+
+Recent Planning Criteria and Rule Revisions
+
+•
+
+Effort to Integrate Inverter-Based Resources
+
+•
+
+Ongoing Efforts for Large Load Interconnection
+
+•
+
+ERCOT Interregional Transfer Study
+
+•
+
+Contacts and Links
+
+Table of Contents
+
+PUBLIC
+
+3
+
+About ERCOT Transmission Planning
+ERCOT supervises and exercises comprehensive
+independent authority over the planning of
+transmission projects for the ERCOT System as
+outlined in the Public Utility Regulatory Act (PURA)
+and PUCT rules. PUCT rules further require ERCOT
+to evaluate and make a recommendation to the PUCT
+as to the need for any transmission facility over which
+ERCOT has comprehensive transmission planning
+authority.
+
+ERCOT annually performs a planning assessment of
+the ERCOT Transmission Grid primarily based on two
+sets of studies:
+•
+
+•
+
+ERCOT examines the need for proposed transmission
+projects based on ERCOT planning criteria and North
+American Electric Reliability Corporation (NERC)
+Reliability Standards. Once a project need has been
+identified, ERCOT evaluates project alternatives based
+on cost-effectiveness, long-term system needs, and
+other factors.
+The ERCOT Protocols and Planning Guide describe
+the practices and procedures through which ERCOT
+meets its requirements related to system planning
+under PURA, PUCT rules, and NERC Reliability
+Standards.
+
+PUBLIC
+
+The Regional Transmission Plan (RTP) addresses regionwide reliability and economic transmission needs and
+includes the recommendation of specific planned
+improvements to meet those needs for the upcoming six
+years. The public version of the 2025 RTP report is posted
+on
+the
+ERCOT
+website
+at:
+https://www.ercot.com/gridinfo/planning.
+Stability studies are performed to assess the angular
+stability, voltage stability, and frequency response of the
+ERCOT System. Due to the security-related sensitive
+nature of the information contained in these study reports,
+they are not published on the ERCOT website.
+
+ERCOT also conducts the biennial Long-Term System
+Assessment (LTSA) and biennial Grid Reliability and
+Resiliency Assessment (GRRA), which are completed
+in even-numbered years. The LTSA uses scenarioanalysis techniques to assess the potential needs of
+the ERCOT System up to 15 years into the future. The
+role of the LTSA is to guide near-term planning
+decisions by providing a longer-term view of system
+reliability and economic needs. The GRRA assesses
+the system needs based on the resiliency criteria.
+
+4
+
+Map
+
+Monitored Element of
+Constraint
+
+Congestion
+Rent*
+
+1
+
+Koch Tap - Vealmoor 138kV
+
+$211M
+
+Top 10 constraints on the ERCOT
+System
+
+2
+
+Hargrove - Twin Buttes 138kV
+
+$176M
+
+Oct. 2024 to Sep. 2025, based
+on real-time data
+
+3
+
+Odessa EHV Switch Yarbrough Sub 138kV
+
+$151M
+
+4
+
+West Texas Export Interface
+
+$127M
+
+5
+
+Longshore Switch - Consavvy
+Switch 345kV
+
+$102M
+
+6
+
+Laredo VFT North - Las
+Cruces 138kV
+
+$64M
+
+7
+
+Bell County - Salado Switch
+138kV
+
+$64M
+
+8
+
+Knapp - Scurry Chevron
+138kV
+
+$57M
+
+9
+
+Haine Drive - La Palma 138kV
+
+$54M
+
+10
+
+Polecat Creek Switch - Wrage
+Ranch Pod 138kV
+
+$52M
+
+Outage
+Related?
+
+Planned and
+Forced
+Outages
+
+Recent Constraints
+
+Congestion occurs when
+transmission constraints
+do not allow for the most efficient
+dispatch of generation to meet
+customer demand.
+
+Planned and
+Forced
+Outages
+
+*Congestion rent indicates areas of the system where economic transmission projects may be beneficial. It is
+not an indication of whether a project to reduce specific congestion would or would not meet the ERCOT
+economic planning criteria.
+
+PUBLIC
+
+5
+
+Congestion Rent*
+
+Map
+
+Constraint
+
+2027
+Base*
+
+1
+
+West Texas Export Interface
+
+$130M
+
+2
+
+Houdini - W A Parish 345-kV
+Line
+
+$155M
+
+$5M
+
+3
+
+Bell County East Switch - Voss
+Lake 345-kV Line
+
+$112M
+
+-
+
+Projected Constraints
+
+2030
+Base*
+$147M
+
+Top 10 projected constraints on the
+ERCOT System for 2027 and 2030
+Base Cases
+Based on economic analysis
+conducted for the 2025 RTP
+
+4
+4
+
+Panhandle Interface
+
+$19M
+
+$72M
+
+10
+8
+
+5
+
+Holly POI - Wett Long Draw 345kV Line
+
+$18M
+
+$69M
+
+6
+
+North - Houston Interface
+
+$26M
+
+$60M
+
+5,9
+
+1
+
+3
+6
+
+7
+
+Fowlerton - Tilden 138 Sub 138kV Line
+
+$33M
+
+$33M
+
+8
+
+Murray - Paint Creek 138-kV
+Line
+
+$56M
+
+-
+
+9
+
+Farmland - Holly POI 345-kV
+Line
+
+$47M
+
+$9M
+
+10
+
+MacKenzie Substation Northeast Substation 115-kV
+Line
+
+$48M
+
+$6M
+
+*Congestion rent indicates areas of the system where economic transmission projects may be beneficial. It is not an indication of whether a project to reduce
+specific congestion would or would not meet the ERCOT economic planning criteria. Planned transmission outages were not included in the analysis.
+
+PUBLIC
+
+2
+7
+
+*Base Cases: Large loads with a signed
+Interconnection Agreement or an Officer
+Letter were included and the PUCT-approved
+Good Cause Exception was applied.
+
+6
+
+Congestion Rent*
+2027
+2030
+
+Projected Constraints
+
+Map
+
+Constraint
+
+Sensitivity
+**
+
+Sensitivity
+**
+
+1
+
+West Texas Export Interface
+
+$245M
+
+$209M
+
+Top 10 projected constraints on the
+ERCOT System for 2027 and 2030
+Sensitivity Cases
+
+2
+
+North - Houston Interface
+
+$48M
+
+$141M
+
+Based on economic analysis
+conducted for the 2025 RTP
+
+3
+
+Houdini - W A Parish 345-kV
+Line
+
+$150M
+
+$22M
+
+4
+
+Bell County East Switch - Voss
+Lake 345-kV Line
+
+$106M
+
+-
+
+5
+
+Holly POI - Wett Long Draw 345kV Line
+
+$9M
+
+$48M
+
+6
+
+Panhandle Interface
+
+$12M
+
+$45M
+
+7
+
+Farmland - Holly POI 345-kV
+Line
+
+$35M
+
+$13M
+
+9
+
+5,7
+
+1
+
+4
+2
+3,8
+
+8
+
+Elmato POI - Houdini 345-kV
+Line
+
+$33M
+
+$14M
+
+9
+
+Buntin Drive - Simpson Stuart
+138-kV Line
+
+-
+
+$37M
+
+10
+
+Oasis - Savana POI 345-kV line
+
+$17M
+
+$20M
+
+*Congestion rent indicates areas of the system where economic transmission projects may be beneficial. It is not an indication of whether a project to reduce
+specific congestion would or would not meet the ERCOT economic planning criteria. Planned transmission outages were not included in the analysis.
+
+PUBLIC
+
+6
+
+10
+
+**Sensitivity Cases: Only large loads with a
+signed Interconnection Agreement were included.
+
+7
+
+Map
+
+Transmission Improvement
+
+In Service
+
+1
+
+Bearkat - North McCamey - Sand Lake
+345-kV Transmission Line Addition
+Project
+
+2026
+
+Top 10 significant improvements on
+the ERCOT System
+
+2
+
+Roanoke Area Upgrades Project
+
+2026
+
+Pecos County Transmission
+Improvement Project
+
+Projects planned for completion within
+the next six years
+
+2026
+
+Silverleaf and Cowpen 345/138-kV
+Stations Project
+
+2027
+
+Lower Rio Grande Valley System
+Enhancement Project
+
+2027
+
+Synchronous Condenser Project
+
+2027
+
+West Texas Synchronous Condenser
+Project
+
+2027
+
+3
+
+4
+
+5
+
+Bakersfield Dynamic Reactive
+Substation Upgrade
+6
+
+San Antonio South Reliability Project
+
+Planned Improvements
+
+Currently, there are $30.21 billion of
+future transmission improvement projects
+that are expected to be put in service
+between 2026 and the end of 2031,
+according to the October 2025 TPIT*.
+
+7
+
+2027
+9
+
+2
+
+5
+3
+
+2027
+
+1
+
+8
+
+10
+
+7
+
+West Texas Infrastructure Project
+
+2028
+
+8
+
+Texas A&M University System RELLIS
+Campus Reliability Project
+
+2029
+
+9
+
+Delaware Basin Stage 5 Project
+
+2029
+
+10
+
+Permian Basin 765-kV Import Paths
+
+2031
+
+PUBLIC
+
+6
+
+4
+
+*TPIT: Transmission
+Project Information
+Tracking
+
+8
+
+Transmission Investment Trend for ERCOT Region
+ERCOT Region nn al Transmission Cost o Service
+illion
+
+The total Transmission Cost of
+Service1 (TCOS), which is driven by
+investments in new infrastructure and
+system upgrades, has risen in recent
+years as Texas experiences strong
+economic growth and increasing
+electricity demand.
+The same economic growth also
+results in an increase in MWh of
+energy usage2. The TCOS per MWh,
+when adjusted for inflation3, has
+declined slightly for the last 10 years
+as shown in the bottom graph.
+
+1.
+2.
+
+3.
+
+PUBLIC
+
+TCOS values are based on ERCOT’s Yearly Wholesale Transmission Service Charges filed with
+PUCT
+Total MWh Energy Use values are based on ERCOT’s Demand and Energy Report published on
+the ERCOT website
+Adjusted using the Consumer Price Index
+
+9
+
+The Changing Grid – Generation
+2023
+
+22,153 MW
+
+2023
+
+38,736 MW
+
+2023
+
+5,090 MW
+
+2024
+
+29,344 MW
+
+2024
+
+39,497 MW
+
+2024
+
+10,015 MW
+
+2025
+
+36,126 MW
+
+2025
+
+40,599 MW
+
+2025
+
+16,703 MW
+
+2026
+
+45,286 MW
+
+2026
+
+41,933 MW
+
+2026
+
+27,218 MW
+
+2027
+
+68,681 MW
+
+2027
+
+47,429 MW
+
+2027
+
+41,945 MW
+
+2028
+
+79,965 MW
+
+2028
+
+49,277 MW
+
+2028
+
+47,568 MW
+
+Solar
+•
+•
+
+•
+
+•
+
+PUBLIC
+
+Wind
+
+> 7,300 MW
+Thermal Generation
+Retirements
+(2018-2025)
+
+Storage
+
+ERCOT continues to experience a rapid shift in the type and location of generation available to serve demand.
+Robust growth of inverter-based resources (IBRs) has continued. IBRs are power generation or storage
+systems that connect to the power grid through power electronic inverters, such as solar PV, wind turbines,
+and battery energy storage systems. By the end of 2026, it is projected that over 114 GW of transmissionconnected wind, solar, and battery energy storage capacity will be installed. Total IBR capacity has the
+potential to exceed 176 GW in 2028. However, additional growth is expected to be impacted by reduced
+federal tax incentives and other financial challenges.
+Over 7,300 MW of coal and natural gas generation has retired since 2018. ERCOT anticipates 8.8 GW of new
+gas-fired generation by the end of 2029, driven by incentives from the Texas Energy Fund. Supply chain
+issues and increasing costs for generation equipment may limit resource additions beyond that.
+The change in generation mix has also resulted in increased distance between generation sites and demand
+centers. Retired coal and gas generation were closer to large cities, whereas the most abundant wind and
+solar resources tend to be more distant from demand centers.
+
+10
+
+The Changing Grid – Distributed Generation (DG)
+•
+
+ERCOT continues to improve DG integration processes under increasing DG penetration.
+–
+
+–
+•
+
+•
+
+PUBLIC
+
+HB3390 introduced a requirement for Transmission Distribution Service Providers (TDSPs) to
+provide unregistered DG information to ERCOT via their TSPs. As part of this, NPRR1265 for
+Unregistered Distrib ted Generators ≤ MW was approved by the PUCT
+ERCOT recently posted NPRR1317 and PGRR140. These Revision Requests aim to establish
+a process for collecting data from Non-Settled Generators with a capacity greater than 1 MW.
+
+These efforts align with the
+proposed Distributed Energy
+Resource (DER) modeling
+requirements in NERC
+Reliability Standard MOD-032,
+in accordance with FERC
+Order 901.
+ERCOT participates in the
+NERC System Planning
+Impacts from Distributed
+Energy Resources Working
+Group (SPIDERWG), which
+develops guidance documents
+to aid transmission planning,
+modeling, and analysis as
+DER penetration increases.
+
+11
+
+The Changing Grid – Demand
+•
+
+•
+
+•
+
+•
+
+•
+
+The 2025 TSP-Provided Load Forecast projects a demand of 218 GW for year 2031, which is
+significantly higher than the forecast submitted in 2024, which was 150 GW. This increase is attributed
+to future data center load growth attested to by TSP Officers “O icer Letter Loads” – OLLs).
+ERCOT Protocols and Planning Guide have incorporated HB5066 policy into the transmission planning
+process. ERCOT must include TSP officer-attested load information in its transmission planning
+analysis.
+ERCOT filed a Good Cause
+Exception with the PUCT to
+allow the use of the ERCOT
+Transmission
+Planning
+Adjusted
+Load
+Forecast
+(ETPALF) in the 2025 RTP.
+Based on historical trends,
+the ETPALF reduced OLLs
+to 55.4% of their maximum
+demand. Data center OLLs
+were reduced an additional
+49.8%
+from
+the
+initial
+reduction.
+For example, a 100 MW data
+center OLL was reduced to:
+100 MW * 55.4% * 49.8% = 27.6 MW
+
+•
+
+Peak load studied for year
+2031 was 159 GW.
+
+PUBLIC
+
+12
+
+The Changing Grid – Interconnection of Large Loads*
+•
+
+ERCOT continues to track
+nearly 238.6 GW of large
+load
+interconnection
+requests.
+
+•
+
+7,502
+MW
+have been
+approved to energize since
+January 2022.
+
+•
+
+The interim Large Load
+interconnection
+process,
+created in 2022 to integrate
+load additions reliably and
+quickly, has been replaced by
+the formalized Large Load
+interconnection
+process
+created in NPRR1234 and
+PGRR115. Submitted by
+ERCOT and approved in May
+2025,
+these
+Revision
+Requests formalize the Large
+Load interconnection process
+and establish operational
+standards for maintaining
+reliability.
+
+•
+
+ERCOT continues to work
+with stakeholders to address
+the challenges associated
+with
+the
+unprecedented
+volume
+and
+unique
+characteristics of the current
+large load interconnection
+request process.
+
+• Approved to Energize – Projects that have received Approval to Energize from ERCOT Operations. NOTE: Not all
+MWs in this category have been observed to be operational.
+• Planning Studies Approved – Projects that have received ERCOT approval of required interconnection studies.
+Any MWs that were not approved are reclassified as No Studies Submitted.
+• Under ERCOT Review – Projects that have studies under review by ERCOT.
+• No Studies Submitted – Projects that are tracked by ERCOT but that have not yet provided sufficient information
+for ERCOT to begin review. Additionally, MWs that were not approved by ERCOT after review of planning studies
+are included in this category until a path to interconnect these MWs is identified, or the customer cancels the
+interconnection request.
+
+*All information is as of December 17, 2025.
+
+PUBLIC
+
+13
+
+The Introduction of 765-kV to the ERCOT Region
+•
+
+•
+
+•
+
+On April 24, 2025, the PUCT
+approved the three 765-kV import
+paths recommended in the Permian
+Basin
+Reliability
+Plan.
+This
+introduced the 765-kV voltage class
+to the ERCOT Region, the first new
+voltage class since the 345-kV was
+introduced in Texas over 60 years
+ago.
+In December 2025, the ERCOT
+Board of Directors endorsed the
+eastern and western portions of the
+765-kV STEP proposed by the 2024
+RTP, which completed the STEP
+backbone to meet the future growth,
+reliability, and need for large power
+transfer between major generation
+locations and load centers.
+With the unprecedented load growth
+in Texas, ERCOT continues to
+evaluate potential additional 765-kV
+needs.
+
+PUBLIC
+
+14
+
+Permian Basin Development
+•
+
+ERCOT and TSPs that serve West Texas have been proactively positioning the ERCOT grid for
+potential long lead time transmission enhancements needed to reliably serve the fast-growing
+loads. These efforts include the completion of four special studies for the region in the past six
+years.
+–
+
+2019: ERCOT completed the Delaware Basin Load Integration Study with extensive input from TSPs,
+identifying a five-stage transmission upgrade road map to reliably serve different levels of Delaware Basin
+load.
+▪
+
+–
+
+2021: ERCOT completed the Permian Basin Load Interconnection Study, informed by the TSP-sponsored
+IHS Markit study report for Permian Basin load forecast.
+▪
+▪
+
+–
+
+All recommended synchronous condensers were endorsed by the ERCOT Board in January 2024.
+
+2024: As directed by the PUCT, ERCOT developed the Permian Basin Reliability Plan, which incorporated
+the S&P Global Commodity Insights Permian Basin load forecast and TSP-provided Large Load information.
+▪
+
+•
+
+More than 500 miles of 345-kV transmission line addition and upgrades were identified.
+Approximately 900 miles of 138-kV transmission line addition, upgrades, and conversion were identified.
+
+2023: ERCOT identified reliability risks in West Texas due to unexpected loss of generation and or load
+during the disturbance and proposed six synchronous condensers to improve transmission grid strength to
+support the overall system reliability and resiliency in West Texas.
+▪
+
+–
+
+All five-stage transmission upgrades, including two new 345-kV import paths to Delaware Basin anticipated to
+significantly increase the load serving capability in Delaware Basin, have since been accepted or endorsed by
+ERCOT.
+
+This plan contains both local upgrades and new 765-kV import paths to address reliability issues in the
+Permian Basin area.
+
+As the grid quickly evolves, ERCOT continues to collaborate with stakeholders to reliably serve the
+rapid load growth in West Texas. This includes not only the oil and gas loads but also Large Loads.
+
+PUBLIC
+
+15
+
+Permian Basin Transmission Buildout
+•
+
+Since 2014, there have been ~$23 billion of approved projects in the Permian Basin area.
+–
+–
+–
+–
+
+PUBLIC
+
+~630 circuit miles of 345-kV transmission lines have been built.
+~1,585 circuit miles of 345-kV transmission lines have been approved for new build.
+~1,329 miles of 765-kV transmission lines have been approved for new build.
+Numerous 138-kV upgrades are either already built, approved for new build or upgrade,
+upgraded, or converted along with approved future upgrades.
+
+16
+
+2025 RTP Highlights
+•
+
+•
+
+•
+
+•
+
+The 2025 RTP evaluated potential
+765-kV equipment additions to
+address additional load growth.
+Additional 765-kV equipment was
+added to address a growing import
+need in Central Texas.
+The 2023 and 2024 RTPs identified
+strained import capability into the
+Central Texas region. Additional
+regional load growth incorporated
+into the 2025 RTP further strained
+import capability.
+The Euclid 765-kV substation plus
+~130-mile Euclid – Hillje 765-kV line
+bring approximately 2,500 additional
+MW into Central Texas, reduce the
+345-kV upgrade needs, and provide
+operational outage flexibility for
+remaining 345-kV upgrades needed
+along the existing critical paths.
+
+PUBLIC
+
+17
+
+Recent Planning Criteria and Rule Revisions
+• Large Load interconnection requirements and modeling standards
+–
+
+NPRR1234 and PGRR115, which established the interconnection and modeling requirements for Large
+Loads, were approved in May 2025 and implemented in December 2025.
+
+• Resiliency
+–
+–
+
+The resiliency criteria proposed by ERCOT in PGRR117, Addition of Resiliency Assessment and Criteria to
+Reflect PUCT Rule Changes, became effective on April 1, 2025.
+ERCOT submitted NPRR1286, Establish Multi-Value Criteria for Resiliency-Related Transmission Project
+Evaluation, in May 2025, to address the process for determining whether an upgrade that meets the
+resiliency criteria provides sufficient benefit balanced with economic savings and/or reliability benefits, in
+accordance with 16 TAC § 25.101(b)(3)(A)(iii). This NPRR is currently in the stakeholder process.
+
+• Generation addition in planning models
+–
+–
+
+Additional steps outside of the current planning practices were needed to create planning models capable
+of accommodating the unprecedented load growth in the 2024 and 2025 RTPs.
+ERCOT submitted PGRR127, Addition of Proposed Generation to the Planning Models, in May 2025, to
+adjust the criteria for adding Generation Resources to the planning models. This PGRR is currently in the
+stakeholder process.
+
+• Regional Planning Group (RPG) estimated capital cost update for the tier classification
+–
+
+–
+
+PUBLIC
+
+The estimated capital cost thresholds used by ERCOT to categorize transmission projects were last
+changed in June of 2018 and have since become outdated with the rise of transmission project costs over
+the years.
+ERCOT submitted NPRR1274 in 2025 to update the estimated capital cost thresholds to reflect the
+transmission costs increase over the years. The NPRR was recommended for approval by the ERCOT
+Board in December 2025.
+
+18
+
+Effort to Integrate Inverter-Based Resources
+•
+
+•
+
+•
+
+Source: ERCOT GIS Report posted on 10/2/2025 for September 2025
+
+•
+
+•
+
+Unlike synchronous machines, IBRs (i.e.,
+wind, solar, and battery) rely on grid strength
+and inverter controls for stable operation; as
+IBR penetration increases and synchronous
+machines decline, ensuring system stability
+becomes increasingly critical.
+Approximately 89% of new interconnection
+requests are IBRs, with nearly 41%
+specifically for inverter-based ESRs (i.e.,
+batteries).
+With minimal impact to the hardware,
+Advanced Grid Support (AGS) ESR can
+enhance grid stability, reduce generation
+curtailment due to stability constraints, and
+lessen the severity of grid disturbance.
+
+The AGS-ESR test requirement has been approved and incorporated into ERCOT DWG
+Procedure Manual posted on the DWG website, and the Frequently Asked Questions (FAQ)
+document has been posted on the Inverter-Based Resource Working Group (IBRWG)
+website.
+The Planning and Operating Guides revision requests (NOGRR272 and PGRR121, Advanced
+Grid Support Requirements for ESRs) were approved in November and became effective in
+December 2025.
+
+PUBLIC
+
+19
+
+Ongoing Efforts for Large Load Interconnection
+•
+
+Over 200 GW of Large Loads are currently in the interconnection process. ERCOT and
+stakeholders are improving the Large Load interconnection process to address
+anticipated challenges. Key efforts include:
+–
+–
+–
+–
+–
+–
+–
+
+PUBLIC
+
+Published the ERCOT DWG Large Load Survey and the Large Load Stability Whitepaper to help
+TSPs and Large Load Customers with data collection and stability assessments during the
+interconnection process.
+Completed assessment of transmission upgrade effectiveness in reducing loss of load,
+considering the rapid growth of Large Electronic Loads (LELs) and uncertainties in their voltage
+ride-through (VRT) capabilities. The results were presented at the October LLWG meeting.
+Submitted Nodal Operating Guide Revision Request (NOGRR) 282 to establish LEL ride-through
+performance requirements
+Assessing the proposed VRT requirements in the planning horizon and the potential impact on
+system response by varying LEL trip and reconnection behavior based on the scope presented at
+the September LLWG meeting.
+Engaged with consultants for potential subsynchronous resonance (SSR) risks on synchronous
+generators due to LEL exhibiting AI-driven active power variations, with findings shared at the
+October LLWG meeting.
+Engaged with Texas A&M University and EPRI for phase domain and electromagnetic transient
+models of LELs.
+Contracted with McKinsey and Company to assist with improvement of the Large Load
+Interconnection process. ERCOT and McKinsey will work with Large Load customers, including
+data centers, utilities, and other stakeholders to develop a framework expected to identify shortand mid-term solutions to interconnection queue issues in early 2026 — with a goal of providing a
+streamlined, transparent, and consistent interconnection process for reliably connecting Large
+Loads later in the year.
+20
+
+ERCOT Interregional Transfer Study
+•
+
+ERCOT is currently working with PowerGEM to perform a study of the costs
+and benefits of increasing synchronous and/or asynchronous connections
+between ERCOT and other regions.
+
+•
+
+Summary of the study objectives and scope:
+−
+−
+−
+
+•
+
+PUBLIC
+
+Full assessment of costs and benefits of increasing connections to other regions
+from the perspective of Texas consumers
+Advantages/disadvantages of synchronous vs. asynchronous connections
+Alternatives to synchronous and asynchronous connections, such as switchable
+generation
+
+Target study and report completion in Q2 2026.
+
+21
+
+Contacts and Links
+Contacts and Information
+For general communications and queries,
+please submit an information request to:
+https://www.ercot.com/about/contact/inforeq
+uest
+Media
+Media@ercot.com
+
+Regulatory and Government Relations
+GovernmentRelations@ercot.com
+
+PUBLIC
+
+Links
+ERCOT website: ercot.com
+
+Market Participants can access additional
+planning information on the Market
+Information System (MIS), which can be
+accessed through the “MIS LOG IN” link
+located at the top of the ERCOT website. A
+digital certificate is required to access to this
+area. Information available on the MIS
+includes a variety of data, procedures,
+reports, and maps for both operations and
+planning purposes, including the following
+planning-related information:
+• Generation
+project
+interconnection
+information
+• RPG information
+• Steady-state base cases
+
+22
+
+

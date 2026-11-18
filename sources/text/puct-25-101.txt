@@ -1,0 +1,478 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter E. CERTIFICATION, LICENSING, AND REGISTRATION.
+§25.101. Certification Criteria.
+(a)
+
+Definitions. The following words and terms, when used in this section, have the following meanings unless
+the context indicates otherwise:
+(1)
+Construction or extension -- Does not include the purchase or condemnation of real property for
+use as facility sites or right-of-way. Acquisition of right-of-way must not be deemed to entitle an
+electric utility to the grant of a certificate of convenience and necessity without showing that the
+construction or extension is necessary for the service, accommodation, convenience, or safety of the
+public.
+(2)
+Generating unit -- Any electric generating facility. This section does not apply to any generating
+unit that is ten megawatts or less and is built for experimental purposes only.
+(3)
+Habitable structures -- Structures normally inhabited by humans or intended to be inhabited by
+humans on a daily or regular basis. Habitable structures include, but are not limited to: single-family
+and multi-family dwellings and related structures, mobile homes, apartment buildings, commercial
+structures, industrial structures, business structures, churches, hospitals, nursing homes, and
+schools.
+(4)
+Municipal Power Agency (MPA) -- Agency or group created under Texas Utilities Code, Chapter
+163 – Joint Powers Agencies.
+(5)
+Municipal Public Entity (MPE) -- A municipally owned utility (MOU) or a municipal power
+agency.
+(6)
+Prudent avoidance -- The limiting of exposures to electric and magnetic fields that can be avoided
+with reasonable investments of money and effort.
+(7)
+Tie line -- A facility to be interconnected to the Electric Reliability Council of Texas (ERCOT)
+transmission grid by a person, including an electric utility or MPE, that would enable additional
+power to be imported into or exported out of the ERCOT power grid.
+
+(b)
+
+Certificates of convenience and necessity for new service areas and facilities. Except for certificates
+granted under subsection (e) of this section, the commission will grant an application and issue a certificate
+only if it finds that the certificate is necessary for the service, accommodation, convenience, or safety of the
+public, and complies with the statutory requirements in the Public Utility Regulatory Act (PURA) §37.056.
+The commission may issue a certificate as applied for, or refuse to issue it, or issue it for the construction of
+a portion of the contemplated system or facility or extension thereof, or for the partial exercise only of the
+right or privilege. The commission will render a decision approving or denying an application for a certificate
+within one year of the date of filing of a complete application for such a certificate, unless good cause is
+shown for exceeding that period. A certificate, or certificate amendment, is required for the following:
+(1)
+Change in service area. Any certificate granted under this section must not be construed to vest
+exclusive service or property rights in and to the area certificated.
+(A)
+Uncontested applications: An application for a certificate under this paragraph must be
+approved administratively within 80 days from the date of filing a complete application if:
+(i)
+no motion to intervene has been filed or the application is uncontested;
+(ii)
+all owners of land that is affected by the change in service area and all customers
+in the service area being changed have been given direct mail notice of the
+application; and
+(iii)
+commission staff has determined that the application is complete and meets all
+applicable statutory criteria and filing requirements, including, but not limited to,
+the provision of proper notice of the application.
+§25.101-1
+
+effective 08/19/2026
+(P-59528)
+
+(B)
+
+(2)
+
+(3)
+
+Minor boundary changes or service area exceptions: Applications for minor boundary
+changes or service area exceptions must be approved administratively within 45 days of
+the filing of the application provided that:
+(i)
+every utility whose certificated service area is affected agrees to the change;
+(ii)
+all customers within the affected area have given prior consent; and
+(iii)
+commission staff has determined that the application is complete and meets all
+applicable statutory criteria and filing requirements, including, but not limited to,
+the provision of proper notice of the application.
+Generation facility.
+(A)
+In a proceeding involving the purchase of an existing electric generating facility by an
+electric utility that operates solely outside of ERCOT, the commission will issue a final
+order on a certificate for the facility not later than the 181st day after the date a request for
+the certificate is filed with the commission under PURA §37.058(b).
+(B)
+In a proceeding involving a newly constructed generating facility by an electric utility that
+operates solely outside of ERCOT, the commission will issue a final order on a certificate
+for the facility not later than the 366th day after the date a request for the certificate is filed
+with the commission under PURA §37.058(b).
+(C)
+An electric utility operating solely outside of the ERCOT region may, but is not required
+to, obtain a certificate to install, own, or operate a generation facility with a capacity of 10
+megawatts or less.
+Electric transmission line. All new electric transmission lines must be reported to the commission
+in accordance with §25.83 of this title (relating to Transmission Construction Reports). This
+reporting requirement is also applicable to new electric transmission lines to be constructed by an
+MPE seeking to directly or indirectly construct, install, or extend a transmission facility outside of
+its applicable boundaries. For an MOU, the applicable boundaries are the municipal boundaries of
+the municipality that owns the MOU. For an MPA, the applicable boundaries are the municipal
+boundaries of the public entities participating in the MPA.
+(A)
+Determination of need:
+(i)
+Economic projects. Except as otherwise stated in this subparagraph, the
+following must be met for a transmission line in the ERCOT region. The applicant
+must present an economic cost-benefit study that analyzes the transmission
+project under a congestion cost savings test and a production cost savings test.
+The commission will give great weight to such a study if it is conducted by the
+ERCOT independent system operator. Adequately quantifiable and ongoing
+direct and indirect costs and benefits to the transmission system attributable to the
+project may be included in the cost-benefit study.
+(I)
+Congestion cost savings test. ERCOT, in consultation with commission
+staff, must develop a congestion cost savings test.
+(-a-)
+The congestion cost savings test must include an analysis of
+whether the levelized ERCOT-wide annual congestion cost
+savings attributable to the proposed project are equal to or
+greater than the average of the first three years annual revenue
+requirement of the proposed project of which the transmission
+line is a part.
+(-b-)
+Prior to the effective date of the test developed by ERCOT
+under this subclause ERCOT may immediately, without
+updating its current protocols, utilize the generator revenue
+reduction test, effective Dec. 1, 2011 under ERCOT Nodal
+Protocols §3.11.2(6), as the congestion cost benefit test required
+under this clause. ERCOT may continue to rely upon
+completed calculations using the generator revenue reduction
+test to evaluate ongoing applications after the effective date of
+the test developed under this subclause.
+§25.101-2
+
+effective 08/19/2026
+(P-59528)
+
+Production cost savings test. The production cost savings test must
+include an analysis of whether the levelized ERCOT-wide annual
+production cost savings attributable to the proposed project are equal to
+or greater than the first-year annual revenue requirement of the proposed
+project of which the transmission line is a part.
+(III)
+Economic cost-benefit analysis must be studied for the projected inservice date of the project using the study case identified in the ERCOT
+planning guide.
+(IV)
+ERCOT may recommend, and the commission may approve, a
+transmission line in the ERCOT region that demonstrates a savings under
+either a congestion cost savings test or a production cost savings test.
+Reliability projects.
+(I)
+The requirements of clause (i) of this subparagraph do not apply to an
+application for a transmission line that is necessary to meet state or
+federal reliability standards, including: a transmission line needed to
+interconnect a transmission service customer or end-use customer; or
+needed due to the requirements of any federal, state, county, or municipal
+government body or agency for purposes including, but not limited to,
+highway transportation, airport construction, public safety, or air or
+water quality.
+(II)
+For a transmission line not addressed by clause (i) of this subparagraph,
+the commission will consider, among other factors, the needs of the
+interconnected transmission systems to support a reliable and adequate
+network and to facilitate robust wholesale competition. When evaluating
+reliability for a proposed project in the ERCOT region, the commission
+will consider and any review conducted by ERCOT must incorporate the
+historical load, forecasted load growth, and additional load currently
+seeking interconnection. The forecasted load growth and additional load
+currently seeking interconnection must be substantiated by quantifiable
+evidence of projected load growth. The commission will give great
+weight to:
+(-a-)
+the recommendation of an organization that meets the
+requirement of PURA §39.151; and/or
+(-b-)
+written documentation provided by a transmission service
+provider to ERCOT that the transmission line is needed to
+interconnect transmission service or retail customers.
+Resiliency. ERCOT may recommend, and the commission may approve, a
+transmission project that is submitted as an economic or reliability project and
+does not demonstrate sufficient economic savings or reliability benefits to merit
+approval on those grounds if ERCOT determines the line would address a
+resiliency issue identified in the grid reliability and resiliency assessment required
+by subparagraph (E) of this paragraph. In determining whether to approve such a
+project the commission will consider:
+(I)
+the margin by which the transmission project was unable to demonstrate
+sufficient economic savings or reliability benefits to merit approval on
+those grounds;
+(II)
+whether the resiliency benefits the transmission project would provide
+by reducing the impacts to customers of potential outages caused by
+regional extreme weather scenarios are sufficient to compensate for the
+project’s inability to demonstrate sufficient economic savings or
+reliability benefits to merit approval on those grounds.
+(III)
+the cost effectiveness of the transmission project’s ability to address the
+(II)
+
+(ii)
+
+(iii)
+
+§25.101-3
+
+effective 08/19/2026
+(P-59528)
+
+(4)
+
+(c)
+
+resiliency issue identified by ERCOT compared to other possible
+solutions,
+(IV)
+other factors listed in PURA §37.056(c), as appropriate.
+(B)
+Routing: An application for a new transmission line must address the criteria in PURA
+§37.056(c) and considering those criteria, engineering constraints, and costs, the line must
+be routed to the extent reasonable to moderate the impact on the affected community and
+landowners unless grid reliability and security dictate otherwise. The following factors
+must be considered in the selection of the utility’s alternative routes unless a route is agreed
+to by the utility, the landowners whose property is crossed by the proposed line, and owners
+of land that contains a habitable structure within 300 feet of the centerline of a transmission
+project of 230 kV or less, or within 500 feet of the centerline of a transmission project
+greater than 230 kV, and otherwise conforms to the criteria in PURA §37.056(c):
+(i)
+whether the routes parallel or utilize existing compatible rights-of-way for electric
+facilities, including the use of vacant positions on existing multiple- circuit
+transmission lines;
+(ii)
+whether the routes parallel or utilize other existing compatible rights-of- way,
+including roads, highways, railroads, or telephone utility rights-of-way;
+(iii)
+whether the routes parallel property lines or other natural or cultural features; and
+(iv)
+whether the routes conform with the policy of prudent avoidance.
+(C)
+Uncontested transmission lines: An application for a certificate for a transmission line
+will be approved administratively within 80 days from the date of filing a complete
+application if:
+(i)
+no motion to intervene has been filed or the application is uncontested; and
+(ii)
+commission staff has determined that the application is complete and meets all
+applicable statutory criteria and filing requirements, including, but not limited to,
+the provision of proper notice of the application.
+(D)
+Projects deemed critical to reliability. Applications for transmission lines which have
+been formally designated by a PURA §39.151 organization as critical to the reliability of
+the system will be considered by the commission on an expedited basis. The commission
+will render a decision approving or denying an application for a certificate under this
+subparagraph within 180 days of the date of filing a complete application for such a
+certificate unless good cause is shown for extending that period.
+(E)
+Grid reliability and resiliency assessment. ERCOT must conduct a biennial assessment
+of the ERCOT power grid’s reliability and resiliency in extreme weather scenarios. Each
+assessment must:
+(i)
+consider the impact of different levels of thermal and renewable generation
+availability;
+(ii)
+identify areas of the state that face significant grid reliability and resiliency issues,
+taking into account the impact of potential outages caused by regional extreme
+weather scenarios on customers, including multiple element outage analysis when
+appropriate, and
+(iii)
+recommend transmission projects that may increase the grid’s reliability or
+resiliency in extreme weather scenarios.
+Tie line. An application for a tie line must include a study of the tie line by ERCOT. The study
+must include, at a minimum, an ERCOT-approved reliability assessment of the proposed tie line. If
+an independent system operator intends to conduct a study to evaluate a proposed tie line or intends
+to provide confidential information to another entity to permit the study of a proposed tie line, the
+independent system operator must file notice with the commission at least 45 days prior to the
+commencement of such a study or the provision of such information.
+
+Projects or activities not requiring a certificate. A certificate, or certificate amendment, is not required for
+§25.101-4
+
+effective 08/19/2026
+(P-59528)
+
+the following:
+(1)
+An extension of facilities as described in PURA §37.052(a) and (b);
+(2)
+A new electric high voltage switching station, or substation;
+(3)
+The repair or reconstruction of a transmission facility due to emergencies. The repair or
+reconstruction of a transmission facility due to emergencies should proceed without delay or prior
+approval of the commission and must be reported to the commission in accordance with §25.83 of
+this title (relating to Transmission Construction Reports);
+(4)
+The construction or upgrading of distribution facilities within the electric utility’s service area;
+(5)
+Routine activities associated with transmission facilities that are conducted by transmission service
+providers. Nothing contained in the following subparagraphs should be construed as a limitation of
+the commission’s authority as set forth in PURA. Any activity described in the following
+subparagraphs must be reported to the commission in accordance with §25.83 of this title. The
+commission may require additional facts or call a public hearing thereon to determine whether a
+certificate of convenience and necessity is required. Routine activities are defined as follows:
+(A)
+The modification, construction, or extension of a transmission line that connects existing
+transmission facilities to a substation or metering point provided that:
+(i)
+the transmission line modification, construction, or extension does not exceed:
+(I)
+five miles if the line connects to a load-serving substation or metering
+point; or
+(II)
+two miles if the line connects to a generation substation or metering
+point; and
+(ii)
+all rights-of-way necessary for the modification, construction, or extension have
+been acquired, and
+(iii)
+all landowners whose property is directly affected by the transmission line, as
+defined in §22.52(a)(3) of this title (relating to Notice in Licensing Proceedings),
+have given written consent for the modification, construction, or extension. If the
+transmission line modification, construction, or extension does not exceed one
+mile to provide service to a substation or metering point, written consent is only
+required by landowners whose property is crossed by the transmission line.
+(B)
+The rebuilding, replacement, or respacing of structures along an existing route of the
+transmission line; upgrading to a higher voltage not greater than 230 kV; bundling of
+conductors or reconductoring of an existing transmission facility, provided that:
+(i)
+no additional right-of-way is required; or
+(ii)
+if additional right-of-way is required, all landowners of property crossed by the
+electric facilities have given prior written consent.
+(C)
+The installation, on an existing transmission line, of an additional circuit not previously
+certificated, provided that:
+(i)
+the additional circuit is not greater than 230 kV; and
+(ii)
+all landowners whose property is crossed by the transmission facilities have given
+prior written consent.
+(D)
+The relocation of all or part of an existing transmission facility due to a request for
+relocation, provided that:
+(i)
+the relocation is to be done at the expense of the requesting party; and
+(ii)
+the relocation is solely on a right-of-way provided by the requesting party.
+(E)
+The relocation or alteration of all or part of an existing transmission facility to avoid or
+eliminate existing or impending encroachments, provided that all landowners of property
+crossed by the electric facilities have given prior written consent.
+(F)
+The relocation, alteration, or reconstruction of a transmission facility due to the
+requirements of any federal, state, county, or municipal governmental body or agency for
+purposes including, but not limited to, highway transportation, airport construction, public
+safety, or air and water quality, provided that:
+(i)
+all landowners of property crossed by the electric facilities have given prior
+written consent; and
+(ii)
+the relocation, alteration, or reconstruction is responsive to the governmental
+request.
+§25.101-5
+
+effective 08/19/2026
+(P-59528)
+
+(6)
+(7)
+(8)
+
+Upgrades to an existing transmission line by an MPE that do not require any additional land, rightof-way, easement, or other property not owned by the MOU;
+The construction, installation, or extension of a transmission facility by an MPE that is entirely
+located not more than 10 miles outside of an MOU’s certificated service area that occurs before
+September 1, 2021; or
+A transmission facility by an MOU placed in service after September 1, 2015, that is developed to
+interconnect a new natural gas generation facility to the ERCOT transmission grid and for which,
+on or before January 1, 2015, an MOU was contractually obligated to purchase at least 190
+megawatts of capacity.
+
+(d)
+
+Standards of construction and operation. In determining standard practice, the commission will be guided
+by the provisions of the American National Standards Institute, Incorporated, the National Electrical Safety
+Code, and such other codes and standards that are generally accepted by the industry, except as modified by
+this commission or by municipal regulations within their jurisdiction. Each electric utility must construct,
+install, operate, and maintain its plant, structures, equipment, and lines in accordance with these standards,
+and in such manner to best accommodate the public, and to prevent interference with service furnished by
+other public utilities insofar as practical.
+(1)
+The standards of construction apply to, but are not limited to, the construction of any new electric
+transmission facilities, rebuilding, upgrading, or relocation of existing electric transmission
+facilities.
+(2)
+For electric transmission line construction requiring the acquisition of new rights-of-way, an electric
+utility must include in the easement agreement, at a minimum, a provision prohibiting the new
+construction of any above-ground structures within the right-of-way. For this purpose, new
+construction of above-ground structures does not include necessary repairs to existing structures,
+farm or livestock facilities, storage barns, hunting structures, small personal storage sheds, or similar
+structures. A utility may negotiate appropriate exceptions in instances where the electric utility is
+subject to a restrictive agreement being granted by a governmental agency or within the constraints
+of an industrial site. Any exception to this paragraph must meet all applicable requirements of the
+National Electrical Safety Code.
+(3)
+Measures must be applied when appropriate to mitigate the adverse impacts of the construction of
+any new electric transmission facilities, and the rebuilding, upgrading, or relocation of existing
+electric transmission facilities. Mitigation measures must be adapted to the specifics of each project
+and may include such requirements as:
+(A)
+selective clearing of the right-of-way to minimize the amount of flora and fauna disturbed;
+(B)
+implementation of erosion control measures;
+(C)
+reclamation of construction sites with native species of grasses, forbs, and shrubs; and
+(D)
+returning site to its original contours and grades.
+
+(e)
+
+Certificates of convenience and necessity for existing service areas and facilities. For purposes of
+granting these certificates for those facilities and areas in which an electric utility was providing service on
+September 1, 1975, or was actively engaged in the construction, installation, extension, improvement of, or
+addition to any facility actually used or to be used in providing electric utility service on September 1, 1975,
+unless found by the commission to be otherwise, the following provisions prevail for certification purposes:
+(1)
+The electrical generation facilities and service area boundary of an electric utility having such
+facilities in place or being actively engaged in the construction, installation, extension, improvement
+of, or addition to such facilities or the electric utility’s system as of September 1, 1975, must be
+limited, unless otherwise provided, to the facilities and real property on which the facilities were
+actually located, used, or dedicated as of September 1, 1975.
+(2)
+The transmission facilities and service area boundary of an electric utility having such facilities in
+place or being actively engaged in the construction, installation, extension, improvement of, or
+addition to such facilities or the electric utility’s system as of September 1, 1975, must be, unless
+otherwise provided, the facilities and a corridor extending 100 feet on either side of said
+transmission facilities in place, used or dedicated as of September 1, 1975.
+§25.101-6
+
+effective 08/19/2026
+(P-59528)
+
+(3)
+
+The facilities and service area boundary for the following types of electric utilities providing
+distribution or collection service to any area, or actively engaged in the construction, installation,
+extension, improvement of, or addition to such facilities or the electric utility’s system as of
+September 1, 1975, must be limited, unless otherwise found by the commission, to the facilities and
+the area which lie within 200 feet of any point along a distribution line, which is specifically deemed
+to include service drop lines, for electrical utilities.
+
+(f)
+
+Transferability of certificates. Any certificate granted under this section is not transferable without
+approval of the commission and remains in force until further order of the commission.
+
+(g)
+
+Certification forms. All applications for certificates of convenience and necessity must be filed on
+commission-prescribed forms so that the granting of certificates, both contested and uncontested, may be
+expedited. Forms may be obtained from Central Records.
+
+(h)
+
+Commission authority. Nothing in this section is intended to limit the commission’s authority to
+recommend or direct the construction of transmission under PURA §§35.005, 36.008, or 39.203(e).
+
+§25.101-7
+
+effective 08/19/2026
+(P-59528)
+
+

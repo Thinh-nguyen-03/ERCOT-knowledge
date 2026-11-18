@@ -1,0 +1,324 @@
+-   
+-   
+
+[U.S. Energy Information Administration logo]
+
+Skip to sub-navigation
+
+U.S. Energy Information Administration - EIA - Independent Statistics and Analysis
+
+Menu
+
+-   Statistics
+
+-   Analysis
+
+-   Tools
+
+-   Education
+
+-   News
+
+-   
+
+Search
+
+Today in Energy
+
+Skip to page content
+
+-   Recent articles
+-   Browse by tag
+    -   liquid fuels
+    -   natural gas
+    -   electricity
+    -   oil/petroleum
+    -   production/supply
+    -   crude oil
+    -   consumption/demand
+    -   generation
+    -   prices
+    -   map
+    -   states
+    -   exports/imports
+    -   international
+    -   coal
+    -   renewables
+    -   weather
+    -   forecasts/projections
+    -   gasoline
+    -   capacity
+    -   steo (short-term energy outlook)
+-   Prices
+-   Archive
+-   About
+
+Glossary FAQS
+
+In-brief analysis
+
+January 9, 2026
+
+In 2025, U.S. natural gas spot prices increased from 2024’s record low
+
+[annual average Henry Hub natural gas spot price]
+
+Data source: LSEG Data
+Data values: Henry Hub Natural Gas Spot Price adjusted for inflation using the GDP Implicit Price Deflator
+
+------------------------------------------------------------------------
+
+In 2025, the wholesale U.S. natural gas spot price at the national benchmark Henry Hub in Louisiana averaged $3.52 per million British thermal units (MMBtu), based on data from LSEG Data. The 2025 average Henry Hub natural gas spot price increased 56% from the 2024 annual average, which—when adjusted for inflation—was the lowest on record. On a daily basis, the Henry Hub natural gas spot price ranged from $2.65/MMBtu to $9.86/MMBtu, reflecting a narrower range of daily prices compared with the previous year.
+
+Natural gas prices tend to be higher in winter months, when colder winter temperatures lead to more demand for natural gas, both directly for space heating and indirectly because natural gas is also the most prevalent source of electricity generation in the United States. Demand for U.S. liquefied natural gas exports (LNG) also rose by an estimated 3 billion cubic feet per day (Bcf/d) in 2025 as U.S. LNG export capacity increased.
+
+Lower prices over the summer were driven by record high production, which increased by an estimated 4.5 Bcf/d, and less natural gas consumption in the electric power sector. Natural gas spot prices gradually rose in the final months of 2025 because of factors such as a polar vortex event in late November and early December, which briefly pushed prices above $5.00/MMBtu.
+
+[annual average natural gas spot price at selected hubs]
+
+Data source: Natural Gas Intelligence
+
+------------------------------------------------------------------------
+
+U.S. natural gas spot prices at most major trading hubs increased in 2025, except at the Northwest Sumas point near the U.S.-Canada border. Two hubs in the Northeast—Algonquin Citygate near Boston and Transco Zone 6 NY near New York City—had price increases that were much more than Henry Hub’s $1.33/MMBtu increase in 2025, according to data from Natural Gas Intelligence.
+
+In the Northwest, the annual average natural gas spot price at Northwest Sumas fell by $0.24/MMBtu in 2025 as ample natural gas supply from Canada coincided with less demand for natural gas-fired electricity in the Pacific Northwest region. Natural gas production in Western Canada set record highs last year, led by the Montney, a shale basin in British Columbia and Alberta.
+
+In the Northeast, natural gas spot prices in New York (Transco Zone 6 NY) and New England (Algonquin Citygate) surged in early 2025, primarily driven by colder temperatures and supply constraints within the region’s pipeline network. Natural gas prices at the Algonquin Citygate averaged $16.37/MMBtu in January and $14.00/MMBtu in February, the highest prices for these months since 2022, coinciding with a polar vortex event. Spot natural gas prices in the Northeast tend to be more volatile during winter months when rising regional natural gas demand leads to more congestion on the natural gas pipeline network.
+
+Principal contributor: Andrew Iraola
+
+Tags: natural gas, spot prices
+
+More recent articles ›
+
+-   About EIA
+-   Open Data
+-   Legacy
+-   Contact Us
+
+U.S. Energy Information Administration
+
+1000 Independence Ave., SW
+
+Washington, DC 20585
+
+Policies
+
+Privacy/Security
+
+Copyright & Reuse
+
+Accessibility
+
+Information Quality
+
+Freedom of Information Act (FOIA)
+
+Related Sites
+
+usa.gov
+
+U.S. Department of Energy
+
+Stay Connected
+
+Facebook
+
+X
+
+Youtube
+
+LinkedIn
+
+Email Updates
+
+RSS Feeds
+
+[]
+
+Statistics
+
+Analysis
+
+Tools
+
+Education
+
+News
+
+Petroleum & Other Liquids
+
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+
+Natural Gas
+
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+
+Electricity
+
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+
+Coal
+
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+
+Nuclear & Uranium
+
+Uranium fuel, nuclear reactors, generation, spent fuel.
+
+Renewable & Alternative Fuels
+
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+
+EIA Survey Forms
+
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+
+Total Energy
+
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+
+-   Monthly Energy Review
+
+Consumption & Efficiency
+
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+
+-   Residential Energy Consumption Survey (RECS)
+-   Commercial Buildings Energy Consumption Survey (CBECS)
+-   Manufacturing Energy Consumption Survey (MECS)
+
+U.S. States
+
+State energy information, including overviews, rankings, data, and analyses.
+
+International
+
+International energy information, including overviews, rankings, data, and analyses.
+
+Environment
+
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+
+-   U.S. Energy-Related Carbon Dioxide Emissions
+-   Energy-Related Carbon Dioxide Emissions at the State Level
+
+Analysis and Projections
+
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+
+-   Short-Term Energy Outlook
+-   Annual Energy Outlook
+
+Special Reports
+
+Special market analysis and/or data requests.
+
+-   EIA-112 Residential Utility Disconnections
+-   SHIP Act
+-   Energy & Financial Markets: What Drives Crude Oil Prices?
+
+International
+
+International energy analyses.
+
+-   Regional Analysis Briefs
+-   Country Analysis Briefs
+-   World Oil Transit Chokepoints
+-   OPEC Revenue
+-   Global Energy Security Data
+
+Data Tools, Apps, & Maps
+
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+
+Open Data
+
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+
+EIA Beta
+
+Come test out some of the products still in development and let us know what you think!
+
+Open Source Code
+
+EIA's open source code, available on GitHub.
+
+All Reports & Products
+
+Email Updates
+
+Sign up for email subscriptions to receive messages about specific EIA products
+
+RSS Feeds
+
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+
+Follow us. . .
+
+A-Z Index
+
+A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | XYZ
+
+Energy Explained
+
+-   What is Energy?
+-   Units & Calculators
+-   U.S. Energy Facts
+-   Use of Energy
+-   Energy & Environment
+-   Petroleum
+-   Hydrocarbon Gas Liquids
+-   Natural Gas
+
+-   Coal
+-   Nuclear
+-   Electricity
+-   Hydrogen
+-   Hydropower
+-   Biofuels
+-   Biomass
+-   Wind
+-   Geothermal
+-   Solar
+
+For Teachers
+
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+
+Glossary
+
+FAQs
+
+-   Coal
+-   Conversion & Equivalents
+-   Oil/Petroleum
+-   Diesel
+-   Electricity
+-   Environment
+
+-   Gasoline
+-   General Energy
+-   Natural Gas
+-   Nuclear
+-   Prices
+-   Renewables
+
+[]
+
+What's New?
+
+-   Global Energy Security Data
+-   Nov 16, 2026
+-   Wholesale Electricity Market Data
+-   Nov 12, 2026
+-   Monthly Densified Biomass Fuel Report
+-   Nov 12, 2026
+
+Press Room
+
+-   Press Releases
+-   Congressional Testimony
+-   Presentations
+-   Events

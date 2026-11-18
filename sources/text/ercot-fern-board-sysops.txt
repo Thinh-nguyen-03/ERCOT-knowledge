@@ -1,0 +1,921 @@
+CONFIDENTIAL
+PUBLIC
+
+Item 9.3: System Operations
+Update
+Dan Woodfin
+Vice President, System Operations
+
+Purpose
+•
+
+Provide an update on key operational metrics to the
+Board of Directors
+
+•
+
+Provide information on recent Ancillary Services
+performance
+
+•
+
+Provide information on hot topics
+
+For information only
+No action is requested; for discussion only.
+Key Takeaways
+• All key operational metrics are trending well, and all
+Ancillary Services are performing well.
+
+Board of Directors Meeting
+
+• The ERCOT grid operated reliably during Winter
+Storm Fern.
+
+February 9-10, 2026
+
+• ERCOT implemented SOC and
+Cryptocurrency Mining Demand (Crypto)
+forecasting models to enhance system operations’
+situational awareness on forecasted energy
+sufficiency.
+
+*Revised 02/04/2026
+
+• Between January of 2025 and January of 2026
+Data Centers’ growth in actual demand was 15.5%.
+
+Item 9.3
+PUBLIC
+
+Winter Storm Fern
+
+2
+
+Item 9.3
+PUBLIC
+
+Winter Storm Fern: January 23 – 27
+•
+
+Cold temperatures impacted the entire ERCOT
+region, while winter precipitation impacted the upper
+half of the state.
+
+•
+
+Sufficient Resources were available to meet
+demand throughout the duration of the winter storm.
+
+•
+
+Transmission outages during the event were low for
+the amount of winter precipitation observed (total,
+not concurrent):
+•
+
+345 kV: 3 transmission outages
+
+•
+
+138 kV: 15 transmission outages
+
+•
+
+69 kV: 2 transmission outages
+
+ERCOT Winter Storm Temperature Comparison
+
+Key Takeaway: Winter Storm Fern resulted in minimal impacts to ERCOT system reliability.
+
+3
+
+Item 9.3
+PUBLIC
+
+ESR SOC, Solar & Wind Generation during Winter Storm Fern
+About 13.5GW of wind
+(nameplate) capacity was
+unavailable due to icing, but
+the actual lost generation
+was less due to reduced wind
+speeds.
+
+Key Takeaway: ERCOT had adequate generation and reserves throughout Winter Storm Fern. ESRs
+maintained sufficient SOC and were prepared for the morning and evening load peaks.
+4
+
+Item 9.3
+PUBLIC
+
+System Analysis at Various Winter Peaks
+
+Key Takeaway: ERCOT’s maximum unofficial instantaneous peak demand during Winter Storm Fern was
+75,922 MW, which was not a new winter peak (winter peak recorded during Winter Storm Kingston), and
+there was 6,777 MW wind and 3,167 MW solar output at that time.
+
+5
+
+Item 9.3
+PUBLIC
+
+ERCOT Fuel Mix During Winter Storm Fern
+Reduced demand and higher wind
+output (due to minimal additional icing
+impacts overnight) during the evening
+of 1/25 through the morning of 1/26
+required less ESR discharge for the
+1/25 evening peak and more state of
+charge to be available for the 1/26
+morning peak.
+
+Key Takeaway: All resource types contributed to meeting demand during Winter Storm Fern.
+6
+
+Item 9.3
+PUBLIC
+
+Winter Storm Fern – Special Topics
+
+• Department of Energy (DOE) 202(c) Orders
+• Transmission Emergency
+• Load Forecast and Reductions
+• Resource Outages
+
+7
+
+Item 9.3
+PUBLIC
+
+DOE 202(c) Orders and TCEQ Enforcement Discretion
+• ERCOT successfully sought enforcement discretion from TCEQ.
+• ERCOT successfully sought a 202(c) order from US DOE to ensure generators could
+maximize their availability.
+• ERCOT successfully sought a separate 202(c) order that was offered by the DOE for
+the use of backup generation that may be available at data centers and other sites.
+• ERCOT quickly developed a process to implement order if required.
+• ERCOT is currently developing an enhanced process for implementation should similar
+202(c) orders be issued in the future.
+
+• ERCOT did not enter an Energy Emergency Alert Level 2, thus not requiring DOE
+Order 202(c) implementation.
+
+Key Takeaway: ERCOT successfully sought regulatory relief in preparation for Winter Storm Fern.
+Continuous improvement efforts are underway to ensure new applications of regulatory relief can be utilized
+in future winter storms.
+8
+
+Item 9.3
+PUBLIC
+
+Transmission Emergency
+•
+
+Following trip of a large unit in Central Texas, South Texas
+Export IROL was briefly exceeded and other transmission lines
+between Houston and San Antonio experienced postcontingency overloads.
+
+•
+
+A localized transmission emergency was in effect from Jan. 25th
+9:04 PM – Jan. 26th 10:00 AM in San Antonio to Houston area.
+• Real Time Co-optimization (RTC) system redistributed
+Ancillary Services across the system to maximize generation
+used to relieve overloads, reducing manual action required.
+
+Large
+Unit
+Trip
+
+Simplified representation
+
+Braunig
+3 and
+Lifecycle
+
+• Braunig Unit 3 repairs under Reliability Must Run (RMR)
+contract were completed prior to the storm.
+◦ ERCOT committed the unit throughout storm, providing
+support to relieve overloads and manage the binding South
+Texas Export.
+• ERCOT committed the Life Cycle units during the
+Transmission Emergency to relieve the overloads.
+
+Key Takeaway: A transmission emergency for the South Texas Export IROL was handled effectively via
+RTC improvements, Braunig Unit 3, and Life Cycle Power unit deployments.
+9
+
+Item 9.3
+PUBLIC
+
+Load Forecast
+•
+
+The load forecast peak for Winter Storm
+Fern was 84,500 MW, which assumes
+no demand response.
+
+•
+
+This forecast was ~5 GW higher
+than February 2025 actual peak due to
+growth and colder temperatures.
+
+•
+
+•
+
+System temp at peak 2025: 24.7F
+
+•
+
+System temp at peak 2026: 18.9F
+
+•
+
+Estimated 4GW of load growth
+
+Abnormal statewide school & business
+closure (more than typical Holiday) and
+reduced Oil and Gas demand resulted in
+actual load well under forecasted
+values.
+
+Key Takeaway: The load forecast overestimated expected peak consumption on Monday, January 26th
+and Tuesday, January 27th. Further analysis is being conducted to apply insights into future winter weather
+forecasts.
+10
+
+Item 9.3
+
+Estimated Demand Reductions for Customer Types
+
+PUBLIC
+
+•
+
+ERCOT has developed
+capability to estimate load
+reductions for some large types
+of customers.
+
+•
+
+Oil & Gas began reducing
+~4,200 MW overnight Friday into
+Saturday and remained reduced
+through the event.
+
+•
+
+Cryptocurrency mining began
+reducing ~4,100 MW Saturday.
+
+•
+
+Others:
+• Hydrogen & Electrofuel: 75 MW
+• Data Center: 170 MW
+• Steel: 420 MW
+
+•
+
+Impacts from school and
+other business closings are not
+available.
+
+Key Takeaway: Adding back load reduction values brings Monday morning peak to 84,558 MW.
+
+11
+
+Item 9.3
+PUBLIC
+
+Historical Non-IRR Outage Data from Previous Winter Storms
+•
+
+Due to the low temperatures,
+the typical gas restrictions in
+North Texas were issued.
+
+•
+
+ERCOT utilized the Firm
+Fuel Supply Service (FFSS) to
+keep units impacted by gas
+restrictions running (340 MW).
+
+•
+
+Many generators reported their
+pipelines issuing Operational
+Flow Orders (OFOs).
+
+Key Takeaway: Non-IRR outages stayed at a consistent level across recent winter storms.
+12
+
+Item 9.3
+PUBLIC
+
+State of Charge and Cryptocurrency
+Mining Demand Forecasts
+
+13
+
+Item 9.3
+PUBLIC
+
+State of Charge (SOC) and Cryptocurrency Mining Demand Forecasts
+•
+
+ERCOT implemented SOC and Cryptocurrency Mining
+Demand (Crypto) forecasting models to enhance system
+operations’ situational awareness on forecasted energy
+sufficiency.
+
+•
+
+While these models continue to be tuned and improved,
+they have been used for general operational awareness
+since June 2025.
+
+SOC
+•
+
+Machine learning models are used for forecasting hourly
+system-level SOC
+
+•
+
+Model inputs include the active wind/solar/load forecasts,
+expected battery usage, and historical battery behavior
+
+Fig. 1: Hourly SOC forecast created at 10:00am on 8/18/25
+
+Crypto
+•
+
+ERCOT’s MTLF Forecast does not explicitly model
+expected price response from crypto-demand, however
+some amount of historical response is captured in the
+forecast.
+
+•
+
+The crypto model provides the forecasted response from
+these loads to better assess energy sufficiency when
+compared to the base MTLF.
+
+•
+
+A statistical model is used for hourly forecasting
+
+•
+
+Historical price-responsive and 4CP behavior are
+incorporated into the model
+
+Fig. 2: Hourly LFL forecast created at 10:00am on 8/18/25
+
+14
+
+Item 9.3
+PUBLIC
+
+Cloud-Based Data Center Growth
+
+15
+
+Item 9.3
+
+Cloud-Based Data Center Growth Jan 2025 - Jan 2026
+•
+
+•
+
+•
+
+3,700
+
+Cloud-based data centers include facilities like
+cloud-based computing, storage, co-locations,
+and AI computation, but not crypto mining.
+ERCOT has evaluated usage patterns and other
+sources to identify operational data
+center demand at sites that are 1MW and greater
+(approximately 400 cloud-based data center
+sites).
+The current installed capacity at these sites =
+9,850 MW Approved to Energize in the Large
+Load Interconnection process (LLI) + Operational
+(non-LLI).
+
+Note: this is a broader set of sites than the LLI
+tracking of requests that are 75MW and greater.
+
+3,600
+3,500
+Average Daily
+MW
+
+PUBLIC
+
+3,400
+3,300
+3,200
+3,100
+3,000
+
+Key Takeaway: Between January of 2025 and January of 2026, Data Centers’ actual MW growth was
+15.5%
+16
+
+Item 9.3
+PUBLIC
+
+Appendix
+Operational Metrics and Ancillary
+Services (AS) Performance
+
+17
+
+Item 9.3
+PUBLIC
+
+Demand
+*Based on the
+maximum net system
+hourly value from July
+release of Demand
+and Energy 2025
+report.
+**Based on the
+minimum net system
+15-minute interval
+value from January
+release of Demand
+and Energy 2026
+report.
+Data for latest two
+months are based on
+preliminary
+settlements.
+
+Key Takeaway: ERCOT set a new all-time record of 64,698 MW* for the month of November on 11/17/2025. This is
+4,524 MW more than the November 2024 demand of 60,174 MW on 11/4/2024.
+18
+
+Item 9.3
+PUBLIC
+
+Forecast Performance
+Day Ahead Net Load Forecast- Mean Absolute Forecast Error
+Day Ahead Net Load Forecast MAE (MW)
+
+KPI Goal (4,000 MW)
+
+4,500
+4,000
+3,500
+3,000
+2,500
+2,000
+1,500
+1,000
+500
+0
+
+Key Takeaway(s): Day Ahead Net Load Forecast Mean Absolute Forecast Error has met the target and has been trending
+well.
+19
+
+Item 9.3
+PUBLIC
+
+Frequency Control
+•
+
+Control Performance Standard 1 (CPS-1) is a measure of the frequency control on a power system,
+pursuant to NERC Standard BAL-001. The 12-month rolling-average of this measure is required to stay
+above 100%.
+12 Month Rolling Average CPS1 KPI
+Target > 140 % | Stretch > 150%
+
+Key Takeaway(s): Frequency control has been performing extremely well.
+
+20
+
+Item 9.3
+
+Transmission Limit Control
+The most-recent Interconnection Reliability Operating Limit (IROL) exceedance occurred
+in November 2025.
+Monthly IROL Exceedances (Jan 2022 to December 2025)
+All exceedances had the duration between 10 second and 10 minutes.
+There were no exceedances which lasted for more than 10 minutes.
+
+8
+
+Number of Exceedances
+
+PUBLIC
+
+7
+6
+5
+4
+3
+2
+1
+0
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+2023
+
+2022
+
+10
+
+11
+
+12
+
+Month
+
+2025
+
+2024
+
+Key Takeaway: In November, ERCOT had 1 IROL exceedance occur.
+
+21
+
+Item 9.3
+
+Regulation Service Deployments for November to December 4th 2025
+
+Exhaustion Rate (%)
+
+Regulation-Up Exhaustion Rate
+8.0%
+6.0%
+4.0%
+2.0%
+0.0%
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+HE
+Nov-25
+
+Regulation-Down
+Nov-25 Dec-25
+All
+Hours 1.87% 4.43%
+Average
+
+Dec-25
+
+Regulation-Down Exhaustion Rate
+Exhaustion Rate (%)
+
+PUBLIC
+
+Regulation-Up
+Nov-25 Dec-25
+All
+Hours 1.07% 0.95%
+Average
+
+25.0%
+20.0%
+15.0%
+10.0%
+5.0%
+0.0%
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+HE
+Nov-25
+
+Dec-25
+
+Key Takeaway(s): Average Regulation Up and
+Down exhaustion rates were similar in 2024
+December data currently excludes days after RTC.
+Future reports will backfill December 2025 postRTC.
+
+22
+
+Item 9.3
+PUBLIC
+
+Non-Spinning Reserve Service (Non-Spin) Deployments for Nov –
+Dec 2025
+From Nov to Dec 2025, there were 4 events that resulted in deployment of offline Non-Spin.
+From Nov to Dec 4th 2025, an average of ~43% of Non-Spin was provided using online capacity and by Quick Start Generation Resources.
+From Dec 5th to Dec 31st 2025, an average of ~51% of Non-Spin awards was provided using online capacity and by Quick Start Generation Resources.
+
+Deployment Start Time
+
+Deployment
+Duration
+
+Max Deployment
+(MW)
+
+11/7/2025 16:36
+
+01:43:31
+
+736.6
+
+12/6/25 16:43
+
+01:31:00
+
+1415.7
+
+12/8/25 16:59
+
+00:56:00
+
+1281
+
+12/11/25 16:34
+
+00:56:00
+
+1512.98
+
+Data shown is from Nov to Dec 4th 2025.
+
+Key Takeaway: All recent Non-Spin deployments were to meet 30-minute ramping needs.
+Non-Spin performed well in all deployments.
+
+23
+
+Item 9.3
+PUBLIC
+
+Non-Spinning Reserve Service (Non-Spin) Deployments for Nov –
+Dec 2025 Cont.
+
+Data shown is from Dec 5th to Dec 31st 2025.
+
+Key Takeaway: With the implementation of RTC Non-Spinning Reserve Service can be
+procured above the plan.
+
+24
+
+Item 9.3
+PUBLIC
+
+ERCOT Contingency Reserve Service (ECRS) Release for Nov-Dec
+2025
+From Nov to Dec 2025, there were no events that resulted in the release of SCED dispatchable ECRS.
+With the implementation of RTC+B, ECRS is no longer released to SCED.
+
+Deployment
+Start Time
+
+Deployment
+Duration
+
+Maximum
+SCED
+Dispatchable
+MW Released
+
+Reason
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+Key Takeaway: There were no events that resulted in events that triggered ECRS
+deployments.
+
+25
+
+Item 9.3
+PUBLIC
+
+Responsive Reserve Service (RRS) Released for November - December 2025
+
+From November to December 2025, there was no manual release of RRS.
+With the implementation of RTC+B, RRS is no longer manually released to SCED.
+
+Key Takeaway: There was no manual RRS release from November-December
+2025.
+26
+
+Item 9.3
+PUBLIC
+
+AS MW Shortfall Analysis
+
+Key Takeaway(s): This slide will be deprecated post-RTC as SOC is now an input to SCED when
+awarding AS. November and December 1-5th data will be the last data reported as RTC-cutover occurred
+on 12/5/2025.
+27
+
+Item 9.3
+PUBLIC
+
+2025 Year-to-Date (YTD) Event Analysis Summary
+Number of
+Events
+(2025)
+
+Number of
+Events
+(Nov-Dec 2025)
+
+NERC Reportable by ERCOT*
+
+0
+
+0
+
+Inverter Based Resource (IBR) Ride-Through Events
+
+12
+
+0
+
+Large Load Ride-Through Events
+
+12
+
+2
+
+Large Load Oscillation Events
+
+1
+
+0
+
+IBR Oscillation Events
+
+24
+
+4
+
+IBR Large MW Change Events (no fault associated)
+
+39
+
+8
+
+Miscellaneous (transmission or telemetry event)
+
+4
+
+0
+
+Event Type
+
+Key Takeaway: The Event Analysis team investigates each event to keep the system reliable and prevent
+reoccurring issues.
+*Meeting the criteria for NERC’s Electric Reliability Organization Event Analysis Process and requiring ERCOT to submit a report.
+
+28
+
+Item 9.3
+PUBLIC
+
+IBR Ride-Through Events
+
+Key Takeaway: ERCOT continues to have IBR ride-through events, although the magnitude of events has
+remained below 500 MW. The most common cause of ride-through failure has been individual turbines
+tripping on a variety of different fault codes such as UPS failure, crowbar circuit failure, vibration sensors,
+etc. Also, improper frequency measurements during fault events have caused Power Plant Controllers to
+inhibit proper ride-through operation of turbines and inverters.
+
+29
+
+Item 9.3
+PUBLIC
+
+Large Load Ride-Through Events
+
+Key Takeaway: Large Electronic Loads reduce consumption quickly when system faults occur in their
+area. The magnitude and frequency of these events will likely increase as more of these types of loads are
+connected to the system, especially when they are concentrated in an area.
+
+30
+
+

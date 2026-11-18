@@ -1,0 +1,460 @@
+CONFIDENTIAL
+PUBLIC
+
+Key Takeaways
+
+ERCOT Update
+Senate Committee on
+Business & Commerce
+April 1, 2026
+Pablo Vegas
+ERCOT President and Chief Executive Officer
+
+•
+
+Solar and Energy Storage account for more
+than 76% of the amount of
+generation seeking interconnection in the
+ERCOT grid.
+
+•
+
+271% growth of gas project capacity in the
+queue since the Texas Energy Fund (TEF)
+was passed in 2023.
+
+•
+
+ERCOT is tracking approximately 410 GW
+of Large Loads seeking interconnection of
+which ~87% are data centers.
+
+•
+
+The Stakeholder Process is underway for a
+transition to a Batch Process for the reliable
+interconnection of Large Loads.
+
+Generation Interconnection Requests (as of February 2026)
+
+PUBLIC
+
+70 GW
+
+2,008 active generation
+
+60 GW
+
+interconnection requests totaling
+453,562 MW as of February 28.
+
+50 GW
+
+Queue totals:
+• Energy Storage 177,642 MW
+• Solar 162,927 MW
+• Wind 47,793 MW
+• Gas 60,715 MW
+
+40 GW
+30 GW
+20 GW
+10 GW
+0 GW
+Gas
+
+Wind
+
+2025
+
+Solar
+
+(Intermittent)
+
+(Intermittent)
+
+2026
+
+2028
+
+2027
+
+2029
+
+Battery
+
+(Duration Limited)
+
+2030
+
+Other*
+
+2031
+
+*Other includes petroleum coke (pet coke), hydroelectric, fuel oil, geothermal energy, other miscellaneous fuels reported by developers, and fuel cells that use fuels
+other than natural gas. (Numbers exclude capacity associated with projects designated as Inactive per Planning Guide Section 5.2.5).
+
+Key Takeaway: Solar and Energy Storage account for more than 76% of the amount of generation seeking interconnection in the
+ERCOT grid. 271% growth of gas project capacity in the queue since the Texas Energy Fund (TEF) was passed in 2023.
+2
+
+PUBLIC
+
+Large Load Interconnection Requests (as of March 26, 2026)
+Actual and Projected Large Loads Growth 2022-2030
+
+Large Loads by Project Type
+
+Key Takeaway: ERCOT is tracking
+approximately 410 GW of Large Loads seeking
+interconnection of which ~87% are data centers.
+3
+
+PUBLIC
+
+Large Load Interconnection Requests – By Submitted Quarter
+(as of March 26, 2026)
+
+Rush of requests for AI
+Data Center loads
+seeking firm service
+
+Small number of loads
+received quarterly after
+initial wave
+
+4
+
+PUBLIC
+
+Large Load Interconnection Requests – By Transmission Service Provider (TSP)
+(as of March 26, 2026)
+
+5
+
+PUBLIC
+
+Large Load Interconnection Requests – By Project In Service Date
+(as of March 26, 2026)
+
+6
+
+PUBLIC
+
+Large Load Interconnection: Moving to a Batch Study Framework
+
+Communication point
+Non-ERCOT action
+ERCOT action
+
+From the existing single study process…
+Dev.
+submits
+project
+to TSP
+
+…to the new batch study process
+
+Initial
+approval
+
+Single study
+
+Dev. submits
+project to TSP
+
+Dev.
+submits
+project
+to TSP
+
+A
+Dev.
+submits
+project
+to TSP
+
+Single study
+(invalidating
+prior results)
+
+Initial
+approval
+
+Energization
+
+B
+
+A
+
+Single study
+(invalidating
+prior results)
+
+Dev.
+submits
+project
+to TSP
+
+A
+
+RPG,
+QSA
+
+Initial
+approval
+
+Single study
+(invalidating
+prior results)
+
+Dev.
+submits
+project
+to TSP
+
+A
+
+Dev. submits
+project to TSP
+
+Batch study: ERCOT compiles
+applications, studies together as a
+batch, and allocates load
+
+RPG,
+QSA
+
+Dev. submits
+project to TSP
+
+Initial
+approval
+
+Single study
+(invalidating
+prior results)
+
+Energization
+
+C
+
+Dev. submits
+project to TSP
+
+Dev. submits
+project to TSP
+
+Initial
+approval
+
+A
+
+Frequent restudies required
+If another project impacts the same transmission zone, all previous studies are
+invalidated and impacted projects which haven’t yet energized must be restudied
+
+B
+
+Restudy loop
+In the absence of capacity reservation, projects can be repeatedly pulled into
+restudies as new requests enter the system, delaying approvals and potentially
+extending timelines by years
+
+C
+
+Batching process
+Every ~6 months, all submitted requests are clustered and studied together; allocated
+capacity coming out of the study is “reserved” to prevent restudies
+
+Transparent communications
+Along with the new batch study process, ERCOT is redesigning the study
+communication process to have clearly defined touchpoints and transparent
+information handovers
+
+Source: ERCOT discussions
+
+7
+
+PUBLIC
+
+Batch Zero Revision Request Timeline
+
+Note that TAC/PRS/ROS leadership are actively considering options to ensure successful review and approval
+2026
+Q1
+
+Forums
+
+Objective
+
+Workshops and
+working groups
+
+Align stakeholders on direction/scope following Commission decision
+
+Q2
+
+Feb
+
+Mar
+
+Q3
+
+Apr
+
+May
+
+Jun
+
+Jul
+
+Workshop
+#2 Feb 12
+
+Define the scope, boundaries, and intended role of Batch Zero
+Preview structure/governing concepts of Batch Zero NPRR before filing
+
+Close outstanding design and drafting issues, incorporate vetted
+stakeholder feedback, and finalize Revision Request language for
+committee approval
+
+LLWG
+Monthly LLWG updates
+Feb 19
+Workshop
+#3 Feb 26
+Workshop
+#4 Mar 10
+Workshop
+#5 Mar 24
+Workshop
+#6 Mar 30
+Workshop
+#7 Apr 9
+
+PRS (Protocols
+Review
+Subcommittee)
+
+Confirm proposed protocol changes are ready for governance review
+
+ROS (Reliability
+and Operations
+Subcommittee)
+
+If accompanying PGRR filed, then ROS will be involved in review
+
+TAC
+
+Review/endorse combined NPRR/PGRR package for Board approval
+
+ERCOT Board
+
+Authorize implementation of Batch Zero by approval of NPRR/PGRRs
+
+PRS Update
+3/11
+
+Special PRS
+4/22
+
+Regular PRS
+4/15
+
+PRS Vote
+5/6
+
+Endorse NPRR for advancement to TAC (contingent on technical valid.)
+
+ROS Update
+(special) 4/23
+
+ROS Update
+3/5
+ROS Update
+4/2
+
+ROS approval will be required for any PGRR(s).
+
+Monthly TAC updates
+
+ROS Update
+(special) 4/14
+Regular TAC
+4/29
+
+Board
+Meeting 4/20
+3/4 ERCOT files Batch
+Zero Revision
+Request(s)
+
+4/8 ERCOT files
+CLR/BYOG Revision
+Request(s)
+
+ROS Vote
+5/7
+
+Special TAC
+5/13
+Target Board
+approval date
+
+TAC Vote
+5/19-20
+Board Vote
+6/1
+8/1 Target effective
+date of protocols
+
+8
+
+PUBLIC
+
+Related PUCT Activities
+
+PUC Project 58480, 16 TAC § 25.370, Large Load Forecasting Rule (Adopted & Effective March 1, 2026)
+
+ After 2026, only Large Loads that have executed an interconnection agreement that satisfies the requirements in PUC
+Project 58481 will be included in the Large Load forecast. These requirements will be reflected in future revision
+requests.
+ Establishes alternative gating criteria for Large Loads to be included in the 2026 Large Load Forecast, which is used in
+planning assessments until new cases are constructed in 2027 using new rule criteria.
+PUC Project 58481, proposed to be 16 TAC § 25.194, Large Load Interconnection Standards
+(Proposal for Publication published March 12, 2026)
+
+ Intermediate Agreement Requirements:
+‒ Site control
+‒ Financial Security ($50,000/MW, 20% refundable)
+‒ Disclosures
+‒ Option to pay for significant equipment or services
+
+ Interconnection Agreement Requirements:
+‒ Site control
+‒ Financial security
+‒ Interconnection fee ($50,000/MW converts to nonrefundable)
+‒ CIAC
+ Other Provisions
+‒ Reallocation
+‒ Withdrawal Consequences
+‒ Refund Eligibility and Timing
+9
+
+PUBLIC
+
+Status Communications with Large Loads
+
+• Enhancing technical communications to better support stakeholder questions on current interconnection
+process and future state Batch Process impacting Large Load projects.
+
+• In the near future, will provide periodic status reports to Transmission Service Providers (TSPs) about
+Large Load projects in their service area. Allows Large Load customers to have more dynamic
+information about their specific projects.
+• Developing a Large Load Portal that will allow Large Load customers to access their project information
+directly through an ERCOT system. Targeting end of year implementation.
+
+10
+
+

@@ -1,0 +1,163 @@
+PUBL~ 4
+
+~* TEX>~
+Filing Receipt
+Filed Date - 2026-08-20 12:29:32 PM
+
+Control Number - 59142
+Item Number - 53
+
+PROJECT NO. 59142
+
+REVIEW OF ERCOT'S
+INTERCONNECTION PROCESSES
+FOR LARGE LOADS
+
+§
+§
+§
+
+PUBLIC UTILITY COMMISSION
+OF TEXAS
+
+ORDER GRANTING GOOD CAUSE EXCEPTIONS
+On August 3, 2026, Governor Greg Abbott issued a letter directing the Public Utility
+
+Commission of Texas (Commission) and Electric Reliability Council of Texas, Inc. (ERCOT) to
+
+conduct "a comprehensive verification and audit of all data centers advancing through ERCOT's
+interconnection process."1
+
+The Governor further directed that this verification and audit be
+
+completed before any additional data centers are approved to move forward. In response, ERCOT
+intends to temporarily pause its transitional Batch Zero interconnection study of loads that are 75
+
+MW or more (Large Loads), including data centers and virtual currency mining facilities, until the
+
+verification and audit are complete.
+On August 10, 2026, ERCOT filed with the Commission a request for good cause
+exceptions, pursuant to 16 Texas Administrative Code (TAC) § 25.3(b), to the requirement of 16
+
+TAC § 25.361(b)(16), to allow ERCOT to deviate from ERCOT Planning Guide § § 9.2.2(3)(a),
+9.3.1(2)(a), and 5.3.5(5)(a)(ii). ERCOT Planning Guide § 9.3.1(2)(a) requires ERCOT to classify
+
+Large Loads as base load, studied load, or load that has not met sufficient criteria to be included
+in Batch Zero by August 7,2026. During the pause of the Batch Zero study, ERCOT will verify
+
+the accuracy of information Large Load developers submitted in support of their interconnection
+
+requests. As part of the same effort, ERCOT will request the community impact information
+
+identified in the Governor's letter from all data centers and virtual currency mining facilities of 25
+MW or more that have not yet energized. The verification and audit will take several months, so
+
+ERCOT was unable to meet an initial classification deadline in its rules for the Batch Zero study
+
+process.
+Given the delay in classifying Large Loads, ERCOT further requests an exception from the
+
+requirement in ERCOT Planning Guide § 5.3.5(5)(a)(ii) that ERCOT include in the August 1 and
+i Letter from Governor Greg Abbott, to Thomas Gleeson, Chairman of the Public Utility Commission of Texas and
+Pablo Vegas, President and ChiefExecutive Officer, Electric Reliability Council of Texas, Inc. (Aug.3,2026),
+
+available at
+https://gov.texas.gov/uploads/files/press/Thomas_Gleeson_Pablo_Vegas_Data_Centers_Directive_Letter_to_PUCT
+_ERCOT_August_2026_.pdf.
+
+Project No. 59142
+
+Order
+
+Page 2 of 3
+
+November 1, 2026 quarterly stability assessments (QSAs) only those Large Loads it has classified
+
+as base load. ERCOT Planning Guide § 9.2.1.1(1) provides that a Large Load will be classified
+as base load if it qualifies for that designation under any one of the seven eligibility paths. Because
+
+ERCOT now intends to delay its classification of Large Loads for several months to complete the
+
+verification process required by the Governor's letter, no Large Load will be able to meet the QSA
+qualification requirement in Planning Guide § 5.3.5(5)(aXii) during this period.
+
+To avoid
+
+unnecessary delay, ERCOT requests to allow those Large Loads that Interconnecting Distribution
+Service Providers (DSPs) and Transmission Service Providers (TSPs) submitted as base load and
+that ERCOT has determined are eligible to qualify as base load but has not yet classified to be
+
+included in the August 2026 and November 2026 QSAs.
+
+ERCOT also requests authorization to allow it to continue to review dynamic data
+submissions after the August 7,2026 deadline in ERCOT Planning Guide § 9.2.2(3)(a). ERCOT
+
+was unable to review all the dynamic data submissions by the deadline due to internal processing
+constraints and variations in how Interconnecting Large Load Entities (ILLEs) submitted their
+
+data. ERCOT intends to complete its review ofthe remaining dynamic data submissions and notify
+ILLEs of any deficiencies as soon as possible. ERCOT further requests ILLEs be permitted to
+
+cure any deficiencies within 24 days ofnotification, which is the same cure period provided under
+
+§ 9.2.2(3)(a).
+Good cause exists to allow ERCOT to complete the verification and audit and report the
+
+results to the Commission before continuing the Batch Zero interconnection process.
+
+In
+
+accordance with 16 TAC § 25.3(b), the Commission grants ERCOT a good cause exception from
+the requirements of 16 TAC § 25.361(b)(16) that ERCOT (1) classify Large Loads by the August
+7,2026 deadline in accordance with ERCOT Planning Guide §§ 9.3.1(2)(a); and (2) include in the
+
+August 1 and November 1, 2026 QSAs only those Large Loads that ERCOT has classified as base
+load under ERCOT Planning Guide § 9.2.1.1(1).
+
+The exceptions permit ERCOT to delay
+
+classifying Large Loads for inclusion in Batch Zero and include in those QSAs Large Loads that
+
+Interconnecting DSPs and TSPs submitted as base load and that ERCOT has determined are
+
+eligible to qualify as base load but has not yet classified. Good cause also exists to allow ERCOT
+to review dynamic data submissions after the August 7,2026 deadline in ERCOT Planning Guide
+
+§ 9.2.2(3)(a) and allow ILLEs to cure deficiencies within 24 days of notification.
+
+Project No. 59142
+
+Page 3 of 3
+
+Order
+
+OA M-day of
+
+Signed at Austin, Texas the ZW
+
+/jtr+--
+
+2026.
+
+PUBLIC UTILITY COMMISSIO N OFy EXAS
+/
+
+/i
+
+LZ=7
+-
+
+THOMAS J. GLEESONJHAIRMAN
+
+KAT*ILEEN JAUKSON, COM
+
+V
+
+A
+Ltl«llgv-
+
+z:Ln
+
+COURTNEY Kdl~ALTMAN, COMMISSIONER
+
+

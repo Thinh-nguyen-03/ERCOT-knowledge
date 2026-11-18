@@ -1,0 +1,12 @@
+{
+ "id": "ercot-eea2-2023-report",
+ "title": "ERCOT Report of Emergency Event, September 6, 2023 EEA2 (PUCT Project 54444)",
+ "publisher": "ERCOT",
+ "tier": 2,
+ "edition": "2023-09-13",
+ "url": "https://interchange.puc.texas.gov/Documents/54444_54_1329529.PDF",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 370806,
+ "raw_sha256": "8a948bb09ce9975f91826369240f39ffe1f9c38e04cb1d45bfa6c0084ca9efba",
+ "text_chars": 20301
+}

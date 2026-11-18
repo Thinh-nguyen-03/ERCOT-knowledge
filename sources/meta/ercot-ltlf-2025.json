@@ -1,0 +1,12 @@
+{
+ "id": "ercot-ltlf-2025",
+ "title": "2025 ERCOT Long-Term Load Forecast Report",
+ "publisher": "ERCOT",
+ "tier": 2,
+ "edition": "April 2025",
+ "url": "https://www.ercot.com/files/docs/2025/04/08/2025_LTLF_Report.docx",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 1038521,
+ "raw_sha256": "1028603e53839ef33ce118f8851de61fe3771320fb41c986b304c95fc6aa208d",
+ "text_chars": 29942
+}

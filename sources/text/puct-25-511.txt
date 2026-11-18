@@ -1,0 +1,591 @@
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+RELATING
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter S. WHOLESALE MARKETS.
+§25.511. Texas Energy Fund Completion Bonus Grant Program.
+(a)
+
+Purpose. The purpose of this section is to implement Public Utility Regulatory Act (PURA) §34.0105
+and §34.0106 and establish:
+(1)
+Procedures for submitting an application to be eligible for a completion bonus grant award;
+(2)
+The process by which an applicant may receive an annual grant payment; and
+(3)
+Performance standards for electric generating facilities for which an applicant seeks a
+completion bonus grant payment.
+
+(b)
+
+Definitions. The following words and terms, when used in this section, have the following meanings
+unless the context indicates otherwise.
+(1)
+Assessed hours -- the 100 hours during the test period with the least quantity of operating
+reserves, as determined by the highest values of peak net load, where peak net load is
+calculated as gross load minus wind, solar, and storage injection.
+(2)
+Availability reliability factor (ARF) -- a metric calculated with ERCOT data for each
+generation resource for which the commission awards a completion bonus grant under this
+section. The ARF is computed as the proportion of time that each generation resource was
+available (i.e., not in a planned outage) during the assessed hours. The ARF is calculated as
+follows:
+𝑇𝑜𝑡𝑎𝑙 𝐸𝑣𝑎𝑙𝑢𝑎𝑡𝑒𝑑 𝑃𝑒𝑟𝑖𝑜𝑑 𝐼𝑛𝑡𝑒𝑟𝑣𝑎𝑙𝑠
+𝐴𝑅𝐹 =
+𝑇𝑜𝑡𝑎𝑙 𝑃𝑒𝑟𝑖𝑜𝑑 𝐼𝑛𝑡𝑒𝑟𝑣𝑎𝑙𝑠
+“Total evaluated period intervals” is equal to the total number of intervals during the assessed
+hours, excluding any that occurred during an approved planned outage of the generation
+resource. “Total period intervals” is equal to the total number of intervals during the assessed
+hours.
+(3)
+Interconnection date -- the resource commissioning date, as defined in the ERCOT
+protocols, for the last generation resource in an electric generating facility for which an
+applicant seeks a completion bonus grant award. The new electric generating facility or new
+generation resources at an existing electric generating facility must meet the eligibility
+criteria described in subsection (c) of this section.
+(4)
+Performance reliability factor (PRF) -- a metric calculated with ERCOT availability and
+real time (RT) telemetered data for each generation resource for which the commission
+awards a completion bonus grant under this section. The PRF is computed as the average
+ratio of each generation resource’s RT high sustainable limit (HSL) and its obligated capacity
+over the assessed hours. Intervals that occurred during an approved planned outage of a
+generation resource are excluded. The PRF is calculated as follows:
+𝑅𝑇 𝑇𝑒𝑙𝑒𝑚𝑒𝑡𝑒𝑟𝑒𝑑 𝐻𝑆𝐿 × 𝐴𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒 𝐹𝑙𝑎𝑔
+∑(
+)
+𝑂𝑏𝑙𝑖𝑔𝑎𝑡𝑒𝑑 𝐶𝑎𝑝𝑎𝑐𝑖𝑡𝑦
+𝑃𝑅𝐹 =
+× 100
+𝑇𝑜𝑡𝑎𝑙 𝐸𝑣𝑎𝑙𝑢𝑎𝑡𝑒𝑑 𝑃𝑒𝑟𝑖𝑜𝑑 𝐼𝑛𝑡𝑒𝑟𝑣𝑎𝑙𝑠
+“RT Telemetered HSL” is the HSL telemetered by the generation resource in real time.
+“Available Flag” is a binary flag that is equal to the minimum of a current operating plan
+(COP) available flag and a RT available flag. “COP available flag” is a binary flag that
+equals one if each hourly check of the generation resource’s COP for the hour that includes
+the interval in question indicates that the generation resource will be available in that interval
+(i.e., any status other than OUT or EMRSWGR), with such hourly checks starting at 14:30
+on the day before the relevant interval; otherwise, the flag equals zero. “RT available flag”
+is a binary flag that equals one if the RT telemetered resource status code indicates the
+generation resource is available (i.e., any status other than OUT or EMRSWGR); otherwise,
+the flag equals zero. For a generation resource that provides capacity to an industrial load or
+private use network (PUN), obligated capacity is equal to the net capacity that is dedicated
+to ERCOT, as of the interconnection date. For all other generation resources, obligated
+capacity is equal to the adjusted seasonal net max sustainable rating (defined as the registered
+
+§25.511-1
+
+effective 5/15/2024
+(P-55812)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+RELATING
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter S. WHOLESALE MARKETS.
+
+(5)
+
+ERCOT Seasonal Net Max Sustainable Rating adjusted for planned derates). “Total
+evaluated period intervals” is equal to the total number of intervals during the assessed hours,
+excluding any that occurred during an approved planned outage of the generation resource.
+Test period -- the one-year period starting on June 1 of one year and ending on May 31 of
+the following year.
+
+(c)
+
+Eligibility. To be eligible for a completion bonus grant award under this section, an applicant must
+construct at least 100 MW of new nameplate capacity, either as new generation resources in a new
+electric generating facility, or new generation resources at an existing electric generating facility, and
+the generation resources for which a completion bonus grant is sought must also:
+(1)
+interconnect to and provide power for the ERCOT region;
+(2)
+be dispatchable with an output that can be controlled primarily by forces under human
+control;
+(3)
+not be an electric energy storage facility;
+(4)
+participate in the ERCOT wholesale market;
+(5)
+consist of one or more generation resources physically capable of interconnecting to the
+ERCOT region through a single point of interconnection;
+(6)
+be eligible to interconnect to the ERCOT region based on the attributes of the owners of the
+electric generating facility, according to the requirements in the Lone Star Infrastructure
+Protection Act (codified at Texas Business and Commerce Code §117.002);
+(7)
+not meet the planning model requirements necessary to be included in an ERCOT capacity,
+demand, and reserves report for the ERCOT region before June 1, 2023 for the construction
+or addition of any generation resource;
+(8)
+operate in such a manner that the electric generating facility that is serving an industrial load
+or PUN must meet the following conditions: the portion of nameplate capacity that will serve
+the maximum non-coincident peak demand of the industrial load or PUN must be less than
+50 percent of the facility’s total nameplate capacity, and the remaining capacity serving the
+ERCOT market must be greater than 100 MW; and
+(9)
+meet the interconnection deadlines described in subsection (e)(2) of this section.
+
+(d)
+
+Determination of eligibility for completion bonus grant award.
+(1)
+Eligibility application. No earlier than January 1, 2025, and no later than 180 days after the
+interconnection date of the electric generating facility for which an applicant requests a
+completion bonus grant award, an applicant must submit an electronic application in the form
+and manner prescribed by the commission. The application must include:
+(A)
+the applicant’s legal name and the proposed name of each generation resource in the
+electric generating facility for which it seeks a completion bonus grant award. A
+corporate sponsor or parent may submit the application on behalf of its subsidiary
+applicant;
+(B)
+information describing the applicant’s quality of services and management;
+(C)
+information describing the applicant’s efficiency of operations;
+(D)
+a record of the applicant’s history of electric generation operations in this state and
+this country, including information demonstrating the applicant’s experience
+operating and maintaining dispatchable electric generating facilities;
+(E)
+a description of the operational attributes of the electric generating facility; if any
+generation resource in the electric generating facility will serve an industrial load or
+PUN, a description of the manner in which it will serve the industrial load or PUN,
+how the electric generating facility will primarily serve and benefit the ERCOT bulk
+power system given its relationship to a PUN or industrial load, the total nameplate
+capacity of the electric generating facility, the anticipated or actual maximum noncoincident peak demand of the associated industrial load or PUN, whether the
+electric generating facility’s generation capacity would be available to the ERCOT
+
+§25.511-2
+
+effective 5/15/2024
+(P-55812)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+RELATING
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter S. WHOLESALE MARKETS.
+
+(2)
+
+bulk power system during any Energy Emergency Alert, and a copy of any
+information submitted to ERCOT regarding PUN net generation capacity
+availability;
+(F)
+a description of the electric generating facility’s ability to address regional and
+reliability needs;
+(G)
+for electric generating facilities not yet interconnected to the ERCOT region:
+(i)
+a proposed project schedule with anticipated dates for completion of
+construction, submission of registration documents with ERCOT and the
+commission, and anticipated interconnection date;
+(ii)
+the anticipated nameplate capacity of the electric generating facility when
+commercial operations begin; and
+(iii)
+the estimated construction costs of the electric generating facility.
+(H)
+for electric generating facilities already interconnected to the ERCOT region:
+(i)
+the actual construction costs of the electric generating facility, listed by
+generation resource;
+(ii)
+the interconnection date of the newly constructed electric generating
+facility or of the last new generation resource added to an existing electric
+generating facility;
+(iii)
+the total nameplate capacity of each generation resource in the electric
+generating facility that meets the eligibility requirement described in
+subsection (c)(7) of this section; and
+(iv)
+the name of each generation resource in the electric generating facility and
+the name of the electric generating facility on ERCOT’s market participant
+list.
+(I)
+a statement describing when each generation resource in the electric generating
+facility met the planning model requirements necessary to be included in an ERCOT
+capacity, demand, and reserves report with an identification of the first appearance
+of the electric generating facility, or any generation resource in the electric
+generating facility, in an ERCOT capacity, demand, and reserves report;
+(J)
+a statement of whether the applicant applied for a loan under §25.510 of this title
+(relating to Texas Energy Fund In-ERCOT Generation Loan Program) and the
+commission’s determination on the loan application, if known;
+(K)
+if applicable, a statement asserting that extenuating circumstances support the
+extension of any deadline described in subsection (e)(2) of this section, including
+the facts surrounding those extenuating circumstances;
+(L)
+documentation that the applicant has registered or will register with the commission
+as a power generation company, unless the applicant is an MOU, electric
+cooperative, or river authority
+(M)
+documentation that the applicant has registered or will register its generation
+resources according to ERCOT’s registration requirements; and
+(N)
+a narrative explanation of the applicant’s preparations for compliance with §25.55
+of this title (relating to Weather Emergency Preparedness).
+The commission will evaluate the information provided in an application to determine
+whether an applicant is eligible to receive a completion bonus grant award. Determination
+of eligibility to receive a completion bonus grant award does not entitle an applicant to a
+grant payment.
+(A)
+The commission will issue a notice of eligibility for an applicant it determines is
+eligible to receive a completion bonus grant award. The notice of eligibility will
+state the completion bonus grant award amount based on the actual or projected
+capacity of each generation resource in the electric generating facility and its actual
+or projected interconnection date. The award amount is calculated for each
+generation resource, and these amounts are added together, if applicable, to reach a
+
+§25.511-3
+
+effective 5/15/2024
+(P-55812)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+RELATING
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter S. WHOLESALE MARKETS.
+
+(3)
+(4)
+
+(e)
+
+total award amount for the electric generating facility. For a project that has not
+reached its interconnection date at the time the application is submitted, the
+applicant must subsequently submit to the TEF administrator documentation
+demonstrating that the interconnection date satisfies the applicable deadline in
+subsection (e)(2) of this section and demonstrate adherence to the criteria described
+in subsection (c) of this section. If the actual nameplate capacity or interconnection
+date differs from estimates, the commission may revise the eligible applicant’s
+completion bonus grant award amount to reflect actual information and amend the
+notice of eligibility accordingly.
+(B)
+For the ten successive test periods following a qualifying electric generating
+facility’s interconnection date, an eligible applicant is authorized to receive an
+annual completion bonus grant payment for each test period in which its generation
+resource or resources meet the performance standard established in this section.
+(C)
+An eligible applicant must enter into a grant agreement in the form and manner
+specified by the commission whereby the eligible applicant commits to adhere to
+the requirements described in subsection (c) of this section for the duration of any
+test period for which it may receive a completion bonus grant payment. Failure to
+enter into a grant agreement or breach of the executed grant agreement will be
+grounds for the commission to determine that an applicant is ineligible to obtain any
+future completion bonus grant payment.
+Information submitted to the commission in a completion bonus grant application is
+confidential and not subject to disclosure under Chapter 552 of the Texas Government Code.
+An applicant must separately file a statement indicating that an application for a completion
+bonus grant award has been presented to the commission for review with the date of
+application submission.
+
+Completion bonus grant award amount.
+(1)
+The amount of a completion bonus grant award is based on program funding availability, and
+either
+(A)
+the combined capacity of each new generation resource and interconnection date of
+the new electric generating facility; or
+(B)
+the combined capacity of each new generation resource and interconnection date of
+the last new generation resource added to an existing electric generating facility.
+(2)
+Unless the commission determines that extenuating circumstances justify extension of the
+deadlines under this subsection, the commission may approve a completion bonus grant
+award for an applicant considered eligible to receive a completion bonus grant award in an
+amount not to exceed:
+(A)
+$120,000 per MW of applicable capacity that is interconnected to the ERCOT
+region before June 1, 2026; or
+(B)
+$80,000 per MW of applicable capacity that is interconnected to the ERCOT region
+on or after June 1, 2026, and before June 1, 2029.
+(3)
+The applicable capacity for use in paragraph (1)(A) and (1)(B) of this subsection is:
+(A)
+the combined nameplate capacity of all new generation resources, if the newly
+constructed electric generating facility provides all capacity exclusively to the
+ERCOT power region;
+(B)
+the increase in nameplate capacity attributable to the addition of one or more new
+generation resources at an existing electric generating facility; or
+(C)
+the net nameplate capacity that exclusively serves the ERCOT region, as determined
+by the maximum non-coincident peak demand of the industrial load or PUN, if the
+electric generating facility serves an industrial load or PUN.
+
+§25.511-4
+
+effective 5/15/2024
+(P-55812)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+RELATING
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter S. WHOLESALE MARKETS.
+(f)
+
+Grant payment process.
+(1)
+For each test period, the TEF administrator will disburse a grant payment to an applicant
+eligible to receive a completion bonus grant award. A grant payment is one-tenth of an
+applicant’s total completion bonus grant award, subject to the performance standards and
+discount methodology prescribed under subsections (g) and (h) of this section.
+(2)
+No later than 45 days following the end of each test period, ERCOT must determine and
+provide to the TEF administrator the assessed hours, the median and optimal performance
+levels of the generation resources in the reference group, the PRF and ARF for each
+generation resource in an electric generating facility under this section, and the amount of
+payment each eligible applicant is entitled to for that test period, based on the performance
+of each of its generation resources. The TEF administrator will provide each eligible
+applicant the assessed hours, the median and optimal performance levels, the eligible
+applicant’s PRF and ARF, and the eligible applicant’s calculated completion bonus grant
+payment amount.
+(3)
+ERCOT’s determination of a generation resource’s PRF and ARF and the calculation of the
+applicant’s completion bonus award payment following a test period are subject to review
+under Section 20 of the ERCOT protocols (alternative dispute resolution procedure) as
+modified by this subsection. To seek review of ERCOT’s determination of PRF, ARF, or
+payment amount, an eligible applicant must submit a written request for an alternative dispute
+resolution proceeding to ERCOT no later than 30 days after the date the TEF administrator
+provides PRF and ARF determinations and payment calculations to the eligible applicant for
+the test period. The eligible applicant must simultaneously notify the TEF administrator in
+writing in the manner prescribed by the commission that it has invoked review of ERCOT’s
+determination of PRF or ARF or payment calculations. An eligible applicant may appeal the
+outcome of the ERCOT review in accordance with §22.251(d) of this title (relating to Review
+of Electric Reliability Council of Texas (ERCOT) Conduct). The only parties to an appeal
+of the ERCOT review are the eligible applicant, ERCOT, and commission staff.
+(4)
+Thirty-five days after the TEF administrator provides the PRF, ARF, and completion bonus
+grant payment amount to each eligible applicant, the TEF administrator will instruct the
+Texas Treasury Safekeeping Trust Company to disburse the grant payment to the eligible
+applicant and notify the eligible applicant of the disbursement, unless the eligible applicant
+requests review of the determination of PRF or ARF under paragraph (3) of this subsection.
+Upon resolution of a requested review, the TEF administrator will instruct the Texas Treasury
+Safekeeping Trust Company to disburse the grant payment, if appropriate.
+
+(g)
+
+Performance standards. An electric generating facility’s performance is based on the PRF and ARF
+of each generation resource in the facility during the test period. The generation resource’s PRF will
+be compared against the PRF of a reference group of non-grant recipient generation resources in the
+ERCOT region. ERCOT, in consultation with commission staff, must select a reference group
+comprising at least 30 resources randomly sampled from all dispatchable, interconnected, thermal
+generation resources with a nameplate capacity of at least 50 MW that were first interconnected to the
+ERCOT region on or after January 1, 2004. A grant payment may be discounted based on the formula
+prescribed in subsection (h) of this section. The performance standards for any test period are as
+follows:
+(1)
+Optimal performance standard is determined by the 90th percentile of PRF scores achieved
+by resources in the reference group during the assessed hours.
+(2)
+Median performance standard is determined by the 50th percentile of PRF scores achieved by
+resources in the reference group during the assessed hours.
+
+(h)
+
+Grant payment discount formula. A grant payment equals one-tenth of an applicant’s completion
+bonus grant award as stated in the applicant’s notice of eligibility, subject to discount or withholding.
+Grant payments are calculated per generation resource. Each generation resource’s performance is
+
+§25.511-5
+
+effective 5/15/2024
+(P-55812)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+RELATING
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter S. WHOLESALE MARKETS.
+computed separately, and a grant payment for that generation resource calculated accordingly. The
+total grant payment is summed from the individual generation resources’ grant payments, if applicable.
+The formula for any discount of an annual grant payment is as follows:
+𝐺𝑟𝑎𝑛𝑡 𝑃𝑎𝑦𝑚𝑒𝑛𝑡
+0,
+𝑖𝑓𝑃𝑅𝐹 ≤ 𝑃𝑅𝐹50
+⎧
+1
+3
+𝑃𝑅𝐹
+−
+𝑃𝑅𝐹
+50
+)] δ, 𝑖𝑓𝑃𝑅𝐹50 < 𝑃𝑅𝐹 < 𝑃𝑅𝐹90
+= [1 − 10(1 − 𝐴𝑅𝐹)2 ] [ + (
+4
+4
+𝑃𝑅𝐹
+−
+𝑃𝑅𝐹
+90
+50
+⎨
+[1 − 10(1 − 𝐴𝑅𝐹)2 ]δ,
+𝑖𝑓 𝑃𝑅𝐹 ≥ 𝑃𝑅𝐹90
+⎩
+
+Where δ is equal to one-tenth of the applicant’s completion bonus grant award based on the
+applicant’s notice of eligibility, 𝑃𝑅𝐹50 denotes the median performance standard, and 𝑃𝑅𝐹90 denotes
+the optimal performance standard.
+(1)
+Discount or withholding of payment.
+(A)
+The TEF administrator will not apply any discount to a grant payment if the
+generation resource meets or exceeds the optimal PRF performance standard
+established under subsection (g)(1) of this section and achieves an ARF of between
+0.9 and one.
+(B)
+The TEF administrator will disburse a discounted grant payment if the PRF of the
+generation resource for which the grant was provided is above the median
+performance standard established under subsection (g)(2) of this section but less
+than an optimal performance standard established under subsection (g)(1) of this
+section, or if the ARF of the generation resource is less than 0.9.
+(C)
+The TEF administrator will withhold a grant payment if the PRF of the generation
+resource is equal to or below the median performance standard established under
+subsection (g)(2) of this section, or if the generation resource’s calculation
+according to the formula in this subsection returns a value less than or equal to zero.
+(2)
+Example. An applicant would receive the following grant payments for hypothetical test
+periods 1, 2, and 3 based on a $12,000,000 completion bonus grant award described in a
+notice of eligibility for a 100 MW generation resource interconnected on March 1, 2026. The
+table below represents an example of hypothetical test period PRF distributions.
+Percentile
+50th
+60th
+70th
+80th
+90th
+100th
+90
+92
+94
+96
+98
+100
+𝑷𝑹𝑭𝒀𝒆𝒂𝒓 𝟏
+88
+90
+92
+94
+96
+98
+𝑷𝑹𝑭𝒀𝒆𝒂𝒓 𝟐
+92
+93
+94
+95
+96
+97
+𝑷𝑹𝑭𝒀𝒆𝒂𝒓 𝟑
+
+Test Period 1 -- The generation resource achieved a PRF of 92 and an ARF of 1.0.
+Its PRF is above the median value (𝑃𝑅𝐹50 = 90) but below the optimal performance
+standard (𝑃𝑅𝐹90 = 98). Therefore, its completion bonus grant payment for this test
+period would be:
+1 3 92 − 90
+[1 − 10(1 − 1)2 ] [ + (
+)] ($1,200,000) = $525,000
+4 4 98 − 90
+Test Period 2 -- The generation resource achieved a PRF of 85 and an ARF of 1.0.
+Its PRF is below the median value (𝑃𝑅𝐹50 = 88). The applicant receives no grant
+payment for this test period.
+Test Period 3 - The generation resource achieved a PRF of 96 and an ARF of 0.80.
+Its PRF is equal to the optimal performance standard (𝑃𝑅𝐹90 = 96), but its payment
+will be discounted as a result of its ARF being less than 0.9. Its completion bonus
+grant payment for this test period would be:
+[1 − 10(1 − 0.80)2 ]($1,200,000) = $720,000
+§25.511-6
+
+effective 5/15/2024
+(P-55812)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+RELATING
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter S. WHOLESALE MARKETS.
+(i)
+
+No Contested Case or Appeal. An application for completion bonus grant eligibility is not a
+contested case. A commission decision on completion bonus grant program eligibility is not subject
+to a motion for rehearing or appeal under the commission’s procedural rules.
+
+(j)
+
+Expiration. This section expires December 1, 2040.
+
+§25.511-7
+
+effective 5/15/2024
+(P-55812)
+
+

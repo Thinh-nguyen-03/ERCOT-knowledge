@@ -1,0 +1,687 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+§25.510. Texas Energy Fund In-ERCOT Generation Loan Program.
+(a)
+
+Purpose. The purpose of this section is to implement Public Utility Regulatory Act (PURA) §§34.0104,
+34.0106, and 34.0108, which establish requirements and terms for loans to finance dispatchable electric
+generating facilities within the ERCOT region.
+
+(b)
+
+Definitions. The following words and terms, when used in this section, have the following meanings unless
+the context indicates otherwise.
+(1)
+Borrower -- An applicant to the Texas Energy Fund who is successfully awarded a loan under this
+section and executes a loan agreement with the commission.
+(2)
+Commercial operations date -- The resource commissioning date, as defined in the ERCOT protocols, for the last generation resource that is part of an electric generating facility financed by a
+loan under this section.
+(3)
+Generation resource -- has the same meaning as defined in the ERCOT protocols.
+(4)
+12-Month performance availability factor (PAF) --A metric calculated with ERCOT availability
+and real time (RT) telemetered data for each generation resource in an electric generating facility
+financed by a loan under this section. The PAF is computed as the average ratio of each generation
+resource’s RT high sustainable limit (HSL) and its obligated capacity over a 12-month measurement period, expressed as a percentage. Intervals that occurred during an approved planned outage
+of a generation resource are excluded. The PAF is calculated as follows:
+𝑃𝐴𝐹 =
+
+(5)
+
+∑(
+
+𝑅𝑇 𝑇𝑒𝑙𝑒𝑚𝑒𝑡𝑒𝑟𝑒𝑑 𝐻𝑆𝐿 × 𝐴𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒 𝐹𝑙𝑎𝑔
+)
+𝑂𝑏𝑙𝑖𝑔𝑎𝑡𝑒𝑑 𝐶𝑎𝑝𝑎𝑐𝑖𝑡𝑦
+
+𝑇𝑜𝑡𝑎𝑙 𝐸𝑣𝑎𝑙𝑢𝑎𝑡𝑒𝑑 𝑃𝑒𝑟𝑖𝑜𝑑 𝐼𝑛𝑡𝑒𝑟𝑣𝑎𝑙𝑠
+
+× 100.
+
+“RT telemetered HSL” is the HSL telemetered by the generation resource in real time. “Available
+flag” is a binary flag that is equal to the minimum of a current operating plan (COP) available flag
+and an RT available flag. “COP available flag” is a binary flag that equals one if each hourly check
+of the generation resource’s COP for the hour that includes the interval in question indicates the
+generation resource will be available in that interval (i.e., any status other than OUT), with such
+hourly checks starting at 14:30 on the day before the relevant interval; otherwise, the flag equals
+zero. “RT available flag” is a binary flag that equals one if the RT telemetered resource status code
+indicates the generation resource is available (i.e., any status other than OUT); otherwise, the flag
+equals zero. For a generation resource that provides capacity to an industrial load or private use
+network (PUN), obligated capacity is equal to the net capacity that is dedicated to ERCOT, as of
+the commercial operations date. For all other generation resources, obligated capacity is equal to
+the adjusted seasonal net max sustainable rating (defined as the registered ERCOT Seasonal Net
+Max Sustainable Rating adjusted for planned derates). “Total evaluated period intervals” is equal
+to the total number of intervals in the evaluation period, excluding any that occurred during an
+approved planned outage of the generation resource.
+12-Month planned outage factor (POF)—A metric calculated with ERCOT data for each generation resource in an electric generating facility financed by a loan under this section. The POF is
+computed as the percentage of time each generation resource spent in planned outages over a 12month measurement period. The POF is calculated as follows:
+𝑃𝑂𝐹 = [1 −
+
+𝑇𝑜𝑡𝑎𝑙 𝐸𝑣𝑎𝑙𝑢𝑎𝑡𝑒𝑑 𝑃𝑒𝑟𝑖𝑜𝑑 𝐼𝑛𝑡𝑒𝑟𝑣𝑎𝑙𝑠
+𝑇𝑜𝑡𝑎𝑙 𝑃𝑒𝑟𝑖𝑜𝑑 𝐼𝑛𝑡𝑒𝑟𝑣𝑎𝑙𝑠
+
+] × 100.
+
+“Total period intervals” is equal to the total number of intervals in the evaluation period. “Total
+evaluated period intervals” is equal to the total number of intervals in the evaluation period that the
+generation resource was not in a planned outage.
+
+§25.510-1
+
+amdmt effective 10/02/24
+(P-55826)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+(c)
+
+Eligibility.
+(1)
+A power generation company, municipally owned utility (MOU), electric cooperative, or river authority is eligible for a loan under this section. An electric utility other than a river authority is not
+eligible for a loan under this section.
+(2)
+The following are eligible for a loan under this section:
+(A)
+New construction of an electric generating facility having at least 100 megawatts (MW)
+of nameplate capacity with an output that can be controlled primarily by forces under
+human control. For purposes of this section, new construction of an electric generating
+facility means that the facility site has no existing point of interconnection to the ERCOT
+power region.
+(B)
+An upgrade to an existing electric generating facility that results in a net increase of at
+least 100 MW of nameplate capacity for the facility with an output that can be controlled
+primarily by forces under human control. For purposes of this section, an existing electric
+generating facility already has a point of interconnection to the ERCOT power region,
+and the upgrade does not require an additional point of interconnection to enable delivery
+of energy from the increased capacity.
+(C)
+A new or upgraded electric generating facility that is serving or will serve an industrial
+load or PUN, provided that the electric generating facility meets the following conditions:
+the portion of new nameplate capacity that will serve the industrial load or PUN must be
+less than 50 percent of the facility’s total new nameplate capacity, and the remainder of
+new capacity serving the ERCOT market must be greater than 100 MW.
+(3)
+In addition, to be eligible for a loan under this section, a proposed electric generating facility must:
+(A)
+be designed to interconnect and provide power to the ERCOT region;
+(B)
+be designed to participate in the ERCOT wholesale market;
+(C)
+consist of one or more generation resources that interconnect to the ERCOT region
+through a single point of interconnection; and
+(D)
+be eligible to interconnect to the ERCOT region based on the attributes of the owners of
+the facility, according to the requirements in the Lone Star Infrastructure Protection Act
+(codified at Texas Business and Commerce Code §117.002).
+(4)
+The following activities are not eligible for a loan under this section:
+(A)
+Construction or operation of an electric energy storage facility.
+(B)
+Construction or operation of a natural gas transmission pipeline. For the purposes of this
+section, only the infrastructure necessary to connect an electric generating facility to a
+natural gas supply system may be considered part of the cost of the facility and eligible
+for a loan. Only those costs in support of new or upgraded capacity that is exclusively
+provided to the ERCOT region are eligible.
+(C)
+Construction of an electric generating facility that met the planning model requirements
+necessary to be included in the capacity, demand, and reserves report issued by ERCOT
+before June 1, 2023.
+(D)
+Construction or upgrade of an electric generating facility that will provide more than 50
+percent of its nameplate capacity to an industrial load or PUN.
+(E)
+Construction or upgrade of an electric generating facility that is capable of switching service at its point of interconnection between ERCOT and another power region.
+
+(d)
+
+Notice of intent to apply.
+(1)
+No earlier than May 1, 2024 and no later than May 31, 2024, an applicant must submit a notice of
+intent to apply in the manner prescribed by the commission. A corporate sponsor or parent may
+submit the notice of intent on behalf of a subsidiary applicant. Except as provided in paragraph
+(2) of this subsection, information submitted to the commission as part of the notice of intent to
+apply is confidential and not subject to disclosure under Chapter 552, Government Code.
+
+§25.510-2
+
+amdmt effective 10/02/24
+(P-55826)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+The notice of intent to apply must include:
+(A)
+The applicant's legal name and the proposed name of the electric generating facility for
+which it seeks a loan;
+(B)
+The anticipated nameplate capacity of each generation resource in an electric generating
+facility proposed to be financed with a loan under this section, and if the proposed facility
+will serve an industrial load or PUN, the net nameplate capacity of each generation resource that will be dedicated to ERCOT;
+(C)
+The anticipated commercial operations date of each generation resource in the electric
+generating facility;
+(D)
+The amount of the loan requested; and
+(E)
+For each electric generating facility, if an applicant anticipates contributing equity in its
+application, a non-binding attestation demonstrating that the applicant, or a corporate
+sponsor or parent on the applicant’s behalf, is capable of financing project-related costs
+not financed by a loan under this section.
+(2)
+Concurrent with the notice of intent to apply, the applicant, or a corporate sponsor or parent of the
+applicant, must separately file a letter with the commission stating the applicant's legal name and
+the MW capacity that the requested loan amount will finance.
+(e)
+
+Application requirements and process. A loan application must be submitted in the form and in the
+manner prescribed by the commission. The application portal will be open for an eight-week window,
+beginning on June 1, 2024, at 12:00 a.m., and closing on July 27, 2024, at 11:59 p.m. The executive director
+may extend the application window by providing public notice of the extension at least 30 days prior to the
+previously announced closing date. The executive director may also open additional application windows
+if necessary to achieve the objectives of this section. A corporate sponsor or parent may submit an application on behalf of a subsidiary applicant. Information submitted to the commission as part of the loan application process is confidential and not subject to disclosure under Chapter 552, Government Code. An application must include each of the requirements detailed in this subsection. An applicant may withdraw an
+application at any time while under commission review.
+(1)
+The applicant’s legal name and the proposed name of the electric generating facility for which it
+requests a loan.
+(2)
+Amount of the loan requested.
+(3)
+The anticipated nameplate capacity of each generation resource in an electric generating facility
+proposed to be financed with a loan under this section, and in the case of an electric generating
+facility that will serve an industrial load or PUN, the nameplate capacity of each generation resource that is proposed to be dedicated to ERCOT and the anticipated maximum non-coincident
+peak demand of the industrial load or PUN.
+(4)
+Applicant information.
+(A)
+A copy of any information submitted to ERCOT regarding the applicant's attestation of
+market participant citizenship, ownership, or headquarters, if submitted, or a direct attestation of market participant citizenship, ownership, or headquarters, if such information
+has not yet been submitted to ERCOT;
+(B)
+Evidence of the applicant's experience with siting, permitting, financing, constructing,
+commissioning, operating, and maintaining electric generating facilities to provide reliable electric service in competitive energy markets;
+(C)
+Evidence of the applicant's creditworthiness, including:
+(i)
+A binding equity commitment letter, if the applicant proposes to fund any project
+costs using equity, or a binding letter with information regarding the applicant’s
+other funding sources, demonstrating the ability to fund the balance of project
+costs separate from the loan under this section plus the required three percent
+construction escrow deposit amount; and
+(ii)
+Audited financial statements for each of the previous five fiscal years of the applicant’s operations, or if not available, audited financial statements of the
+
+§25.510-3
+
+amdmt effective 10/02/24
+(P-55826)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+
+(5)
+
+applicant’s corporate sponsor or parent company. Statements must include total
+assets, total liabilities, and net worth; and, if available for the applicant, its corporate sponsor or parent, or both, credit ratings issued by major credit rating
+agencies.
+Project information.
+(A)
+A narrative explanation that details how the facility will contribute to reliably meeting
+peak winter and summer load in the ERCOT region, including the project’s plans for ensuring adequate fuel supplies and preparations for compliance with §25.55 of this title
+(relating to Weather Emergency Preparedness);
+(B)
+Demonstration of the project's eligibility under subsection (c) of this section, including a
+statement indicating whether any generation resource in the electric generating facility
+will serve an industrial load or PUN;
+(C)
+Project-specific information that will allow the TEF administrator to evaluate the viability
+and attributes of the electric generating facility, and each individual generation resource,
+including:
+(i)
+A table with the resource operation attributes, including nameplate capacity, heat
+rate, seasonal net maximum sustainable ratings during winter and summer, cold
+and hot temperature start times, resource ramp rate, and the original equipment
+manufacturer's estimated equivalent availability factor (EAF) calculation.
+(ii)
+If any generation resource in the electric generating facility will serve an industrial load or PUN, an attestation of the net nameplate capacity of each generation
+resource that will be dedicated to ERCOT and nameplate capacity that will serve
+the industrial load or PUN, a description of how the electric generating facility
+will primarily serve and benefit the ERCOT bulk power system given its relationship to an industrial load or PUN, including details of all obligations or commitments of the electric generating facility to provide energy or capacity to the
+industrial load or PUN, and whether the proposed electric generating facility’s
+generation capacity would be available to the ERCOT bulk power system during
+any Energy Emergency Alert, and a copy of any information submitted to ERCOT regarding PUN net generation capacity availability;
+(iii)
+One-line diagrams of the proposed project for both transmission planning and
+the facility;
+(iv)
+Evidence of site control, consistent with applicable ERCOT planning guide requirements;
+(v)
+An up-to-date phase I environmental site assessment, conducted in accordance
+with standards identified in 40 C.F.R. Part 312;
+(vi)
+A description of the electrical interconnection plan, including evidence that the
+proposed project is in the interconnection queue with ERCOT; a copy of the
+ERCOT screening study, if completed; and a copy of the full interconnection
+study with the interconnecting transmission service provider, if completed;
+(vii)
+A description of the fuel and water supply arrangements, including copies of
+applicable fuel and water supply agreements, if available, and evidence of receipt
+of necessary water rights and applicable permits;
+(viii)
+A description of the operations and maintenance staffing plan, organizational
+structure, and operating programs and procedures for the proposed project, including copies of operations and maintenance agreements, if available, and organizational charts;
+(ix)
+A list of all required environmental, construction, and operating permits with
+current approval status;
+(x)
+A description of the air emissions compliance plan, including evidence of receipt
+of any required air emissions credits;
+(xi)
+A detailed financial forecast of cash available for debt service, covering a period
+
+§25.510-4
+
+amdmt effective 10/02/24
+(P-55826)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+
+(6)
+
+(f)
+
+equal to the repayment period of the loan, including sources of revenue, capital,
+and an annual operating and maintenance budget; and
+(xii)
+A proposed project schedule with anticipated dates for major project milestones,
+such as the start date for project engineering, construction start date, submission
+of available interconnection documents with ERCOT, completion date of the
+ERCOT screening study, completion date of the full interconnection study, execution of the standard generation interconnection agreement, if applicable, submission of applicable registration documents with ERCOT and the commission,
+and commercial operations date.
+Estimated costs. A description of estimated project costs, which includes:
+(A)
+Development, construction, and capital commitments required for the project to reach
+completion;
+(B)
+Permitting-related costs;
+(C)
+Development fees;
+(D)
+Land acquisition and lease costs;
+(E)
+Legal fees;
+(F)
+Up-front fees;
+(G)
+Commitment fees;
+(H)
+Interest accrued and capitalized during construction;
+(I)
+Ancillary credit facility fees, if applicable;
+(J)
+Title insurance; and
+(K)
+Interconnection costs.
+
+Evaluation Criteria. The commission will approve or deny an application based on the criteria and TEF
+administrator evaluations outlined in this subsection. Evaluations and other recommendations provided by
+the TEF administrator are advisory only. All final decisions on whether to approve or deny each application
+will be made by the commission.
+(1)
+The TEF administrator will evaluate an application under this section based on:
+(A)
+The applicant’s or its corporate sponsor or parent’s:
+(i)
+Quality of services and management and proposed organizational structure for
+the project for which the applicant seeks a loan;
+(ii)
+Efficiency of operations, as shown by the applicant's existing generation resources and asset management practices;
+(iii)
+History of electricity generation operations in this state and this country;
+(iv)
+Resource operation attributes, including fuel type and heat rate, seasonal net
+maximum sustainable ratings for winter and summer, cold and hot temperature
+start times, resource ramp rate, and the original equipment manufacturer's estimated EAF;
+(v)
+Ability to address regional and reliability needs;
+(vi)
+Access to resources essential for operating the facility for which the loan is requested, such as land, water, and reliable infrastructure, as applicable;
+(vii)
+Evidence of creditworthiness and ability to repay the loan on the terms established in the loan agreement, including the applicant’s total assets, total
+liabilities, net worth, and credit ratings issued by major credit rating agencies;
+(B)
+The nameplate capacity, total forecasted revenues, and total estimated costs of the facility
+for which the loan is requested; and
+(C)
+The completeness of the application.
+(2)
+The TEF administrator may also consider the following criteria:
+(A)
+The suitability of the facility site to support the construction, operation, and maintenance
+of the proposed facility and to provide sufficient access to utilities;
+(B)
+The sufficiency of the various construction and equipment supply contracts necessary to
+construct the facility;
+
+§25.510-5
+
+amdmt effective 10/02/24
+(P-55826)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+(C)
+(D)
+
+(3)
+
+(g)
+
+Whether and to what extent the proposed facility will serve an industrial load or PUN;
+The commercial feasibility of the facility's construction schedule, including the projected
+commercial operations date;
+(E)
+The facility's proposed environmental permits and commitments;
+(F)
+The reasonableness of the applicant's forecast of non-fuel operating and maintenance
+costs;
+(G)
+The methodology used to construct the facility's financial forecast of projected net revenues, expenses, and cash flows;
+(H)
+The sufficiency of the applicant's proposed sources of equity or other funding sources to
+cover the costs of the facility not funded through a loan provided under this section;
+(I)
+Whether the facility can achieve the applicant’s EAF and capacity projections over the
+life of the loan agreement; and
+(J)
+The basis for the total projected construction costs, including project contingencies.
+The TEF administrator will conduct due diligence on each application to gauge the feasibility of
+the project. Each applicant must submit an independent engineer’s report, signed and sealed by a
+professional engineer licensed in the state of Texas, at the applicant’s own expense, that assesses
+the feasibility of the project, its location, and all supporting commercial agreements relating to fuel,
+water, site control, and interconnection. The TEF administrator may request that an applicant provide additional information it determines necessary to conduct a complete evaluation of the project
+proposal.
+
+Loan Structure. An approved loan will have the following characteristics:
+(1)
+Consist of no more than 60 percent of the estimated cost of the electric generating facility to be
+completed, or in the case of an electric generating facility that serves an industrial load or PUN,
+consist of no more than 60 percent of a percentage of total estimated facility costs equal to the
+percentage of the total capacity of the facility that is dedicated to ERCOT;
+(2)
+Be the senior debt secured by:
+(A)
+the electric generating facility to be completed; or
+(B)
+with regard to an MOU or river authority, the revenues of the applicant’s utility system
+into which the electric generating facility will be incorporated and made a part of;
+(3)
+Have a term of 20 years;
+(4)
+Be payable starting on the third anniversary of the estimated commercial operations date of the
+electric generating facility as stated in the application;
+(5)
+Be payable ratably on terms on which the TEF administrator and the applicant have agreed, based
+on the applicant’s expectation of cash flows from the project and the TEF administrator’s assessment of the applicant’s cash flows; and
+(6)
+With respect to a borrower other than an MOU or river authority, be structured as senior debt
+secured by a first lien security interest in the assets and revenues of the project.
+(7)
+Notwithstanding paragraph (1) through (6) of this subsection, a loan accepted by a borrower that
+is an MOU or river authority may be in the form of a public security, as defined in Chapter 1201,
+Government Code, issued under Texas laws governing MOU or river authority financing, provided
+that the MOU or river authority, at its own expense, presents documentation of indebtedness satisfactory to the commission.
+
+§25.510-6
+
+amdmt effective 10/02/24
+(P-55826)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+(h)
+
+Loan Terms and Agreements. A borrower must enter into one or more agreements with the commission
+that include the terms of this section.
+(1)
+Credit agreement -- the primary agreement between the borrower and the commission that will
+govern the terms and conditions under which the commission will loan funds to the borrower. The
+credit agreement will include the following key terms:
+(A)
+Performance covenant -- each generation resource in an electric generating facility that
+is financed by a loan under this section must maintain a PAF of at least 85 percent and a
+POF no greater than 15 percent, evaluated monthly, over the trailing 12-month period,
+throughout the term of the loan.
+(B)
+Loan facility -- a senior secured first lien loan facility will be advanced to the borrower
+in one or more drawdowns after the closing date of the credit agreement and upon satisfaction of any conditions precedent, and may continue until the project achieves commercial operation. Amortization schedules for the loan facilities will be determined during
+due diligence and specified in the credit agreement.
+(i)
+Upon initial closing of the credit agreement and after the borrower has met the
+conditions precedent outlined in the loan agreement, the borrower may request
+an initial loan disbursement for up to 60 percent of qualifying and documented
+incurred expenses that are part of the total estimated cost of construction for the
+project, as verified by the TEF administrator. Equity may be funded pro rata
+with TEF debt or may be required in its entirety prior to funding of TEF debt,
+based on the credit quality of the application and discretion of the commission
+and as outlined in the loan agreement.
+(ii)
+During the period of construction, the borrower may request loan disbursements
+for up to 60 percent of the documented project construction and commissioning
+costs.
+(iii)
+For all loan disbursements, the borrower must submit a construction drawdown
+certificate in the form specified by the commission. The TEF administrator will
+review the construction drawdown certificate and, upon the TEF administrator’s
+approval, will instruct the Texas Treasury Safekeeping Trust Company to disburse funds.
+(C)
+Other capital contributions. The TEF administrator will verify the borrower’s ability, or
+the ability of the borrower’s corporate sponsor, to fund the required commitment of the
+balance of no less than 40 percent of the construction and commissioning costs.
+(D)
+Interest on the loan amounts disbursed under the credit agreement will accrue daily at a
+fixed annual rate of three percent, starting at initial disbursement and continuing throughout the term of the loan.
+(E)
+Voluntary prepayment -- the borrower may voluntarily prepay the loan amount under the
+credit agreement in whole or in part at any time without premium or penalty, except that
+the loan agreement may require that borrowers pay any breakage costs associated with
+the loan, and the borrower must agree to adhere to the terms of the performance covenant
+for the duration of the 20-year term.
+(F)
+Collateral -- to secure the indebtedness under the credit agreement, the borrower, other
+than an MOU or river authority, will grant the commission a first priority security interest
+in all of its existing and after-acquired real and personal property related to the facility
+and in all of the outstanding equity interests of the borrower in the facility.
+(G)
+Registration -- prior to the initial loan disbursement, the borrower must register with the
+commission as a power generation company, unless the borrower is an MOU, electric
+cooperative, or river authority. The borrower must also agree to register each generation
+resource in the electric generating facility with ERCOT, according to ERCOT’s registration requirements in its protocols for generation resources.
+(H)
+A change of ownership and control occurs if greater than 50 percent of the equity interest
+in the project is sold to a third party. The borrower and the third party must submit an
+
+§25.510-7
+
+amdmt effective 10/02/24
+(P-55826)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+(6)
+
+(7)
+(8)
+
+(9)
+
+application for change of ownership and control commission, that meets the eligibility
+requirements of subsections (c) and (e) of this section. The acquiring third party must
+agree to adhere to the terms of the performance covenant in paragraph (1)(A) of this subsection and compliance and audit covenant in paragraph (1)(I) of this subsection for the
+remainder of the 20-year term of the borrower’s loan. A change of ownership and control
+will require the commission's approval, and such approval will not be unreasonably withheld. Upon approval of a change of ownership and control, the acquiring third party must
+update the power generation company registration and the generation resource registration
+to reflect the change of ownership and control. The commission’s determination on a
+change of ownership does not impact any person’s obligations under PURA §39.158.
+(I)
+Compliance and audit covenants -- the credit agreement will include debt covenants requiring the borrower to meet all statutory requirements for loan application eligibility and
+a debt covenant requiring that the borrower submit annual financial audits and credit assessments throughout the term of the loan. If the borrower’s electric generating facility
+serves an industrial load or PUN, the borrower must also submit an annual accounting, at
+the generation resource level, showing the capacity made available exclusively to the ERCOT bulk power system during the performance year. The annual accounting must consist of a comparison between the sum of the nameplate capacity of each generation resource in the electric generating facility and the maximum non-coincident peak demand
+of the associated industrial load or PUN. Annual financial audits, credit assessments, and
+electric generating facility performance assessments submitted under this section are confidential and not subject to disclosure under Chapter 552, Government Code.
+Depositary agreement -- an agreement between the borrower and commission that will give the
+commission, as lender, control over the borrower’s deposit accounts and securities accounts to
+perfect the commission’s security interest in those accounts.
+Security agreement -- an agreement between the borrower and the commission that will authorize
+the commission, as lender, to take control of and transfer all material project assets in the event of
+a default on the credit agreement, subject to the applicable procedures and approvals identified in
+PURA §34.0108.
+Pledge agreement -- an agreement between the borrower and the commission that will create a
+security interest in the equity interests of the project in favor of the commission as the senior secured party.
+Deposit agreement -- an agreement between the borrower and the commission in which the borrower will agree to a deposit described in subsection (i) of this section.
+Events of default -- the borrower must agree to specified events of default, which include:
+(A)
+Failure to pay principal, interest, or other amounts due;
+(B)
+Breach of a covenant in any agreement that has not been remedied within the time prescribed by the loan agreement;
+(C)
+Inaccuracy of representations in any agreement;
+(D)
+Bankruptcy or insolvency of the borrower; and
+(E)
+Abandonment.
+Remedies for events of default -- the borrower must agree to the remedies described in PURA
+§34.0108 following an event of default.
+Subordination and other agreements -- to the extent that the project is to be financed by debt
+other than a loan under this section, each other creditor must agree that a loan under this section
+will be the senior debt secured by the facility. The borrower will be responsible for the preparation
+and costs associated with any agreement necessary to maintain the senior position of the loan under
+this section.
+With respect to a borrower that is an MOU or river authority, the forms by which the requirements
+of paragraph (1) through (8) of this subsection are accomplished can be substituted by documentation satisfactory to the commission that is customarily used in connection with the issuance of
+public securities that are subject to approval by the Office of the Texas Attorney General or
+
+§25.510-8
+
+amdmt effective 10/02/24
+(P-55826)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+satisfied by reference to applicable Texas law. An MOU or river authority that presents documentation in accordance with this paragraph will be responsible for the preparation and costs of that
+documentation.
+(i)
+
+Deposits.
+(1)
+The borrower must deposit in an escrow account held by the Texas Comptroller of Public Accounts
+or provide in a standby letter of credit an amount equal to three percent of the estimated cost of the
+project for which the loan is provided. The terms of a standby letter of credit must permit a draw
+in full upon a commission determination that withdrawal of a borrower’s deposit is not authorized
+under paragraph (4) of this subsection. The borrower must deposit the required funds or provide
+the standby letter of credit before the initial loan amount is disbursed.
+(A)
+Standby letters of credit provided under paragraph (1) of this subsection must use the
+standard form standby letter of credit template approved by the commission. The original
+document of the standby letter of credit must be provided in a manner established by the
+commission.
+(B)
+The standby letter of credit must be issued by a financial institution that is supervised by
+the Board of Governors of the Federal Reserve system, the Office of the Comptroller of
+the Currency, or a state banking department and is a:
+(i)
+U.S. domestic bank with an investment-grade credit rating; or
+(ii)
+U.S. domestic office of a foreign bank with an investment-grade credit rating.
+(2)
+The borrower may not withdraw the deposit from the escrow account or terminate its standby letter
+of credit unless authorized by the commission.
+(A)
+For deposits related to the construction of new facilities, the commission will authorize
+the borrower’s withdrawal of its deposit funds or the release of the borrower’s standby
+letter of credit, as applicable, if the facility for which the loan was provided is interconnected in the ERCOT region:
+(i)
+before the fourth anniversary of the date the initial loan funds were disbursed; or
+(ii)
+after the fourth anniversary but before the fifth anniversary of the date the initial
+loan funds were disbursed, if the commission finds that extenuating circumstances caused the delay.
+(B)
+For deposits related to upgrades to existing facilities, the commission will authorize the
+borrower’s withdrawal of its deposit funds or the release of the borrower’s standby letter
+of credit, as applicable, if the facility for which the loan was provided is completed:
+(i)
+before the third anniversary of the date the initial loan funds were disbursed; or
+(ii)
+after the third anniversary but before the fourth anniversary of the date the initial
+loan funds were disbursed, if the commission finds that extenuating circumstances caused a delay in the completion of the project.
+(C)
+For the purpose of this subsection, interconnection occurs when the last generation resource that is part of an electric generating facility financed by a loan under this section
+is issued a resource commissioning date, as defined in the ERCOT protocols .
+(3)
+Upon the occurrence of an event that entitles the borrower to withdraw its deposit or request termination of its standby letter of credit--interconnection or completion of its project--the borrower
+will file a notice of satisfaction with the commission stating that the borrower requests the return
+of the deposit. The notice must state:
+(A)
+A description of the event that the borrower asserts as justification for withdrawal of the
+deposit or termination of the standby letter of credit, including the date on which the event
+occurred and any relevant evidence required to support the assertion;
+(B)
+The date of initial loan disbursement; and
+(C)
+A detailed statement of extenuating circumstances, if any, that support the borrower's request for a late withdrawal of the deposit resulting from a delayed interconnection or
+completion of the project, as described in paragraph (2)(A)(ii) or (B)(ii) of this subsection.
+
+§25.510-9
+
+amdmt effective 10/02/24
+(P-55826)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+(4)
+
+The commission will evaluate each notice of satisfaction to determine whether the borrower is
+entitled to withdrawal of its deposit or release of its standby letter of credit. If the borrower demonstrates that it has satisfied the requirements for withdrawal, then the commission will instruct the
+comptroller to return the deposit to the borrower or will release the borrower’s standby letter of
+credit. If the commission determines that withdrawal is not authorized, including if the borrower
+fails to file a timely notice of satisfaction, then it will instruct the comptroller to transfer the deposit
+to the Texas Energy Fund or will direct a draw on the borrower’s standby letter of credit and deposit
+the funds in the Texas Energy Fund.
+
+(j)
+
+No Contested Case or Appeal. None of an application for a loan, a request for withdrawal of a deposit, or
+a request for approval of a change of ownership is a contested case. Commission decisions on a loan application or request for withdrawal of deposit are not subject to motions for rehearing or appeal under the
+commission’s procedural rules.
+
+(k)
+
+Expiration. This section expires September 1, 2050.
+
+§25.510-10
+
+amdmt effective 10/02/24
+(P-55826)
+
+

@@ -1,0 +1,12 @@
+{
+ "id": "ercot-large-load-update-2026-04",
+ "title": "ERCOT Large Load Update",
+ "publisher": "ERCOT",
+ "tier": 2,
+ "edition": "April 2026",
+ "url": "https://www.ercot.com/files/docs/2026/04/01/ERCOT_LargeLoad_Update_April2026_B-C_-Hearing.pdf",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 580435,
+ "raw_sha256": "15ac8d6a3a8b99a1011c8be2e6254ccbdc66656745a787cc946f2b7c1382aa5d",
+ "text_chars": 7488
+}

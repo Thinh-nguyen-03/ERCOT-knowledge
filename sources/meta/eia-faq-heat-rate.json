@@ -1,0 +1,12 @@
+{
+ "id": "eia-faq-heat-rate",
+ "title": "EIA FAQ: What is the efficiency of different types of power plants?",
+ "publisher": "U.S. Energy Information Administration",
+ "tier": 2,
+ "edition": null,
+ "url": "https://www.eia.gov/tools/faqs/faq.php?id=107&t=3",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 53255,
+ "raw_sha256": "e2987e2ba87f5cd9baf5ee4e880e06a4e6a513b8565b863cc1e78d12520ed207",
+ "text_chars": 9362
+}

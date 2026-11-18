@@ -1,0 +1,1402 @@
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+§25.43. Provider of Last Resort (POLR).
+(a)
+
+Purpose. This section establishes the requirements for Provider of Last Resort (POLR) service and
+ensures that it is available to any requesting retail customer and any retail customer who is transferred
+to another retail electric provider (REP) by the Electric Reliability Council of Texas (ERCOT) because
+the customer’s REP failed to provide service to the customer or failed to meet its obligations to the
+independent organization.
+
+(b)
+
+Application. The provisions of this section relating to the selection of REPs providing POLR service
+apply to all REPs that are serving retail customers in transmission and distribution utility (TDU) service
+areas. This section does not apply when an electric cooperative or a municipally owned utility (MOU)
+designates a POLR provider for its certificated service area. However, this section is applicable when
+an electric cooperative delegates its authority to the commission in accordance with subsection (r) of
+this section to select a POLR provider for the electric cooperative’s service area. All filings made with
+the commission pursuant to this section, including filings subject to a claim of confidentiality, must be
+filed with the commission’s Filing Clerk in accordance with the commission’s Procedural Rules,
+Chapter 22, Subchapter E, of this title (relating to Pleadings and other Documents).
+
+(c)
+
+Definitions. The following terms when used in this section have the following meanings, unless the
+context indicates otherwise:
+(1)
+Affiliate -- As defined in §25.107 of this title (relating to Certification of Retail Electric
+Providers (REPs).
+(2)
+Basic firm service -- Electric service that is not subject to interruption for economic reasons
+and that does not include value-added options offered in the competitive market. Basic firm
+service excludes, among other competitively offered options, emergency or back-up service,
+and stand-by service. For purposes of this definition, the phrase “interruption for economic
+reasons” does not mean disconnection for non-payment.
+(3)
+Billing cycle -- A period bounded by a start date and stop date that REPs and TDUs use to
+determine when a customer used electric service.
+(4)
+Billing month -- Generally a calendar accounting period (approximately 30 days) for
+recording revenue, which may or may not coincide with the period a customer’s consumption
+is recorded through the customer’s meter.
+(5)
+Business day -- As defined by the ERCOT Protocols.
+(6)
+Large non-residential customer -- A non-residential customer who had a peak demand in the
+previous 12-month period at or above one megawatt (MW).
+(7)
+Large service provider (LSP) -- A REP that is designated to provide POLR service pursuant
+to subsection (j) of this section.
+(8)
+Market-based product – A month-to-month product that is either offered to or matches the
+rate of a product offered to non-POLR customers of the REP for the same TDU territory and
+customer class. A month-to-month contract may not contain a termination fee or penalty. For
+purposes of this section, a rate for residential customers that is derived by applying a positive
+or negative multiplier to the rate described in subsection (m)(2) of this section is not a marketbased product.
+(9)
+Mass transition -- The transfer of customers as represented by ESI IDs from a REP to one or
+more POLR providers pursuant to a transaction initiated by the independent organization that
+carries the mass transition (TS) code or other code designated by the independent organization.
+(10)
+Medium non-residential customer -- A non-residential retail customer who had a peak
+demand in the previous 12-month period of 50 kilowatt (kW) or greater, but less than 1,000
+kW.
+(11)
+POLR area -- The service area of a TDU in an area where customer choice is in effect.
+
+§25.43--1
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+(12)
+(13)
+
+(14)
+(15)
+(16)
+
+POLR provider -- A volunteer retail electric provider (VREP) or LSP that may be required
+to provide POLR service pursuant to this section.
+Residential customer -- A retail customer classified as residential by the applicable TDU
+tariff or, in the absence of classification under a tariff, a retail customer who purchases
+electricity for personal, family, or household purposes.
+Transitioned customer -- A customer as represented by ESI IDs that is served by a POLR
+provider as a result of a mass transition under this section.
+Small non-residential customer -- A non-residential retail customer who had a peak demand
+in the previous 12-month period of less than 50 kW.
+Voluntary retail electric provider (VREP) -- A REP that has volunteered to provide POLR
+service pursuant to subsection (i) of this section.
+
+(d)
+
+POLR service.
+(1)
+There are two types of POLR providers: VREPs and LSPs.
+(2)
+For the purpose of POLR service, there are four classes of customers: residential, small nonresidential, medium non-residential, and large non-residential.
+(3)
+A VREP or LSP may be designated to serve any or all of the four customer classes in a POLR
+area.
+(4)
+A POLR provider must offer a basic, standard retail service package to customers it is
+designated to serve, which is limited to:
+(A)
+Basic firm service; and
+(B)Call center facilities available for customer inquiries.
+(5)
+A POLR provider must, in accordance with §25.108 of this title (relating to Financial
+Standards for Retail Electric Providers Regarding the Billing and Collection of Transition
+Charges), fulfill billing and collection duties for REPs that have defaulted on payments to the
+servicer of transition bonds or to TDUs.
+(6)
+Each LSP’s customer billing for residential customers taking POLR service under a rate
+prescribed by subsection (m)(2) of this section must contain notice to the customer that other
+competitive products or services may be available from the LSP or another REP. The notice
+must also include contact information for the LSP, and the Power to Choose website, and must
+include a notice from the commission in the form of a bill insert or a bill message with the
+header “An Important Message from the Public Utility Commission Regarding Your Electric
+Service” addressing why the customer has been transitioned to an LSP, a description of the
+purpose and nature of POLR service, and explaining that more information on competitive
+markets can be found at www.powertochoose.org, or toll-free at 1-866-PWR-4-TEX (1-866797-4839).
+
+(e)
+
+Standards of service.
+(1)
+An LSP designated to serve a class in a given POLR area must serve any eligible customer
+requesting POLR service or assigned to the LSP pursuant to a mass transition in accordance
+with the Standard Terms of Service in subsection (f)(1) of this section for the provider
+customer’s class. However, in lieu of providing terms of service to a transitioned customer
+under subsection (f) of this section and under a rate prescribed by subsection (m)(2) of this
+section an LSP may at its discretion serve the customer pursuant to a market-based month-tomonth product, provided it serves all transitioned customers in the same class and POLR area
+pursuant to the product.
+(2)
+A POLR provider must abide by the applicable customer protection rules as provided for under
+Subchapter R of this chapter (relating to Customer Protection Rules for Retail Electric
+Service), except that if there is an inconsistency or conflict between this section and Subchapter
+R of this chapter, the provisions of this section apply. However, for the medium nonresidential customer class, the customer protection rules as provided for under Subchapter R
+
+§25.43--2
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+(3)
+
+of this chapter do not apply, except for §25.481 of this title (relating to Unauthorized Charges),
+§25.485(a)-(b) of this title (relating to Customer Access and Complaint Handling), and
+§25.495 of this title (relating to Unauthorized Change of Retail Electric Provider).
+An LSP that has received commission approval to designate one of its affiliates to provide
+POLR service on behalf of the LSP pursuant to subsection (k) of this section must retain
+responsibility for the provision of POLR service by the LSP affiliate and remains liable for
+violations of applicable laws and commission rules and all financial obligations of the LSP
+affiliate associated with the provisioning of POLR service on its behalf by the LSP affiliate.
+
+(f)
+
+Customer information.
+(1)
+The Standard Terms of Service prescribed in subparagraphs (A)-(D) of this paragraph apply
+to POLR service provided by an LSP under a rate prescribed by subsection (m)(2) of this
+section.
+(A)
+Standard Terms of Service, POLR Provider Residential Service:
+Figure: 16 TAC 25.43(f)(1)(A)
+(B)
+Standard Terms of Service, POLR Provider Small Non-Residential Service:
+Figure: 16 TAC §25.43(f)(1)(B)
+(C)
+Standard Terms of Service, POLR Provider Medium Non-Residential Service:
+Figure: 16 TAC §25.43(f)(1)(C)
+(D)
+Standard Terms of Service, POLR Provider Large Non-Residential Service:
+Figure: 16 TAC §25.43(f)(1)(D)
+(2)
+An LSP providing service under a rate prescribed by subsection (m)(2) of this section must
+provide each new customer the applicable Standard Terms of Service. Such Standard Terms
+of Service must be updated as required under §25.475(f) of this title (relating to General Retail
+Electric Provider Requirements and Information Disclosures to Residential and Small
+Commercial Customers).
+
+(g)
+
+General description of POLR service provider selection process.
+(1)
+Each REP must provide information to the commission in accordance with subsection (h)(1)
+of this section. Based on this information, the commission’s designated representative will
+designate REPs that are eligible to serve as POLR providers in areas of the state in which
+customer choice is in effect, except that the commission will not designate POLR providers in
+the service areas of MOUs or electric cooperatives unless an electric cooperative has delegated
+to the commission its authority to designate the POLR provider, in accordance with subsection
+(r) of this section.
+(2)
+POLR providers must serve two-year terms. The initial term for POLR service in areas of the
+state where retail choice is not in effect as of the effective date of the rule must be set at the
+time POLR providers are initially selected in such areas.
+
+(h)
+
+REP eligibility to serve as a POLR provider. In each even-numbered year, the commission will
+determine the eligibility of certified REPs to serve as POLR providers for a term scheduled to
+commence in January of the next year.
+(1)
+Each REP must provide information to the commission necessary to establish its eligibility to
+serve as a POLR provider for the next term. A REP must file, by July 10th of each evennumbered year, by service area, information on the classes of customers it provides service to,
+and for each customer class, the number of ESI IDs the REP serves and the retail sales in
+megawatt-hours for the annual period ending March 31 of the current year. As part of that
+filing, a REP may request that the commission designate one of its affiliates to provide POLR
+service on its behalf pursuant to subsection (k) of this section in the event that the REP is
+designated as an LSP. The independent organization must provide to the commission the total
+number of ESI ID and total MWh data for each class. Each REP must also provide information
+
+§25.43--3
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+(2)
+
+(3)
+
+(4)
+(5)
+
+on its technical capability and financial ability to provide service to additional customers in a
+mass transition. The commission’s determination regarding eligibility of a REP to serve as
+POLR provider under the provisions of this section will not be considered confidential
+information.
+Eligibility to be designated as a POLR provider is specific to each POLR area and customer
+class. A REP is eligible to be designated a POLR provider for a particular customer class in a
+POLR area, unless:
+(A)
+A proceeding to revoke or suspend the REP’s certificate is pending at the
+commission, the REP’s certificate has been suspended or revoked by the commission,
+or the REP’s certificate is deemed suspended pursuant to §25.107 of this title (relating
+to Certification of Retail Electric Providers (REPs));
+(B)
+The sum of the numeric portion of the REP’s percentage of ESI IDs served and
+percentage of retail sales by MWhs in the POLR area, for the particular class, is less
+than 1.0;
+(C)
+The commission does not reasonably expect the REP to be able to meet the criteria
+set forth in subparagraph (B) of this paragraph during the entirety of the term;
+(D)
+On the date of the commencement of the term, the REP or its predecessor will not
+have served customers in Texas for at least 18 months;
+(E)
+The REP does not serve the applicable customer class, or does not have an executed
+delivery service agreement with the service area TDU;
+(F)
+The REP is certificated as an Option 2 REP under §25.107 of this title;
+(G)
+The REP’s customers are limited to its own affiliates;
+(H)
+A REP files an affidavit stating that it does not serve small or medium non-residential
+customers, except for the low-usage sites of the REP’s large non-residential
+customers, or commonly owned or franchised affiliates of the REP’s large nonresidential customers and opts out of eligibility for either, or both of the small or
+medium non-residential customer classes; or
+(I)
+The REP does not meet minimum financial, technical and managerial qualifications
+established by the commission under §25.107 of this title.
+For each term, the commission will publish the names of all REPs eligible to serve as a POLR
+provider under this section for each customer class in each POLR area and will provide notice
+to REPs determined to be eligible to serve as a POLR provider. A REP may challenge its
+eligibility determination within five business days of the notice of eligibility by filing with the
+commission additional documentation that includes the specific data, the specific calculation,
+and a specific explanation that clearly illustrate and prove the REP’s assertion. Commission
+staff will verify the additional documentation and, if accurate, reassess the REP’s eligibility.
+Commission staff will notify the REP of any change in eligibility status within 10 business
+days of the receipt of the additional documentation. A REP may then appeal to the commission
+through a contested case if the REP does not agree with the staff determination of eligibility.
+The contested status will not delay the designation of POLR providers.
+A standard form may be created by the commission for REPs to use in filing information
+concerning their eligibility to serve as a POLR provider.
+If ERCOT or a TDU has reason to believe that a REP is no longer capable of performing POLR
+responsibilities, ERCOT or the TDU must make a filing with the commission detailing the
+basis for its concerns and must provide a copy of the filing to the REP that is the subject of the
+filing. If the filing contains confidential information, ERCOT or the TDU must file the
+confidential information in accordance with §22.71 of this title (relating to Filing of Pleadings,
+Documents, and Other Materials). Commission staff will review the filing, and will request
+that the REP demonstrate that it still meets the qualifications to provide the service. The
+commission staff may initiate a proceeding with the commission to disqualify the REP from
+providing POLR service. No ESI IDs will be assigned to a POLR provider after the
+
+§25.43--4
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+commission staff initiates a proceeding to disqualify the POLR provider, unless the
+commission by order confirms the POLR provider’s designation.
+(i)
+
+VREP list. Based on the information provided in accordance with this subsection and subsection (h)
+of this section, the commission will post the names of VREPs on its webpage, including the aggregate
+customer count offered by VREPs. A REP may submit a request to be a VREP no earlier than June 1,
+and no later than July 31, of each even-numbered year unless otherwise determined by the executive
+director. This filing must include a description of the REP’s capabilities to serve additional customers
+as well as the REP’s current financial condition in enough detail to demonstrate that the REP is capable
+of absorbing a mass transition of customers without technically or financially distressing the REP and
+the specific information set out in this subsection. The commission’s determination regarding eligibility
+of a REP to serve as a VREP, under the provisions of this section, will not be considered confidential
+information.
+(1)
+A VREP must provide to the commission the name of the REP, the appropriate contact person
+with current contact information, which customer classes the REP is willing to serve within
+each POLR area, and the number of ESI IDs the REP is willing to serve by customer class and
+POLR area in each transition event.
+(2)
+A REP that has met the eligibility requirements of subsection (h) of this section and provided
+the additional information set out in this subsection is eligible for designation as a VREP.
+(3)
+Commission staff will make an initial determination of the REPs that are to serve as a VREP
+for each customer class in each POLR area and publish their names. A REP may challenge its
+eligibility determination within five business days of the notice of eligibility by submitting to
+commission staff additional evidence of its capability to serve as a VREP. Commission staff
+will reassess the REP’s eligibility and notify the REP of any change in eligibility status within
+10 business days of the receipt of the additional documentation. A REP may then appeal to
+the commission through a contested case if the REP does not agree with the staff determination
+of eligibility. The contested status will not delay the designation of VREPs.
+(4)
+A VREP may file a request at any time to be removed from the VREP list or to modify the
+number of ESI IDs that it is willing to serve as a VREP. If the request is to increase the number
+of ESI IDs, it must provide information to demonstrate that it is capable of serving the
+additional ESI IDs, and the commission staff will make an initial determination, which is
+subject to an appeal to the commission, in accordance with the timelines specified in paragraph
+(3) of this subsection. If the request is to decrease the number of ESI IDs, the request must be
+effective five calendar days after the request is filed with the commission; however, after the
+request becomes effective the VREP must continue to serve ESI IDs previously acquired
+through a mass transition event as well as ESI IDs the VREP acquires from a mass transition
+event that occurs during the five-day notice period. If in a mass transition a VREP is able to
+acquire more customers than it originally volunteered to serve, the VREP may work with
+commission staff and ERCOT to increase its designation. Changes approved by commission
+staff will be communicated to ERCOT and must be implemented for the current allocation if
+possible.
+(5)
+ERCOT or a TDU may challenge a VREP’s eligibility. If ERCOT or a TDU has reason to
+believe that a REP is no longer capable of performing VREP responsibilities, ERCOT or the
+TDU must make a filing with the commission detailing the basis for its concerns and must
+provide a copy of the filing to the REP that is the subject of the filing. If the filing contains
+confidential information, ERCOT or the TDU must file it in accordance with §25.71 of this
+title (relating to General Procedures, Requirements and Penalties). Commission staff will
+review the filing of ERCOT and if commission staff concludes that the REP should no longer
+provide VREP service, it will request that the REP demonstrate that it still meets the
+qualifications to provide the service. The commission staff may initiate a proceeding with the
+commission to disqualify the REP from providing VREP service. No ESI IDs will be assigned
+
+§25.43--5
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+to a VREP after the commission staff initiates a proceeding to disqualify the VREP, unless the
+commission by order confirms the VREP’s designation.
+(j)
+
+LSPs. This subsection governs the selection and service of REPs as LSPs.
+(1)
+The REPs eligible to serve as LSPs must be determined based on the information provided by
+REPs in accordance with subsection (h) of this section. However, for new TDU service areas
+that are transitioned to competition, the transition to competition plan approved by the
+commission may govern the selection of LSPs to serve as POLR providers.
+(2)
+In each POLR area, for each customer class, the commission will designate up to 15 LSPs.
+The eligible REPs that have the greatest market share based upon retail sales in megawatthours, by customer class and POLR area must be designated as LSPs. Commission staff will
+designate the LSPs by October 15th of each even-numbered year, based upon the data
+submitted to the commission under subsection (h) of this section. Designation as a VREP does
+not affect a REP’s eligibility to also serve as an LSP.
+(3)
+For the purpose of calculating the POLR rate for each customer class in each POLR area, an
+EFL must be completed by the LSP that has the greatest market share in accordance with
+paragraph (2) of this subsection. The Electricity Facts Label (EFL) must be supplied to
+commission staff electronically for placement on the commission webpage by the 10th of each
+month. Where REP-specific information is required to be inserted in the EFL, the LSP
+supplying the EFL must note that such information is REP-specific.
+(4)
+An LSP serving transitioned residential and small non-residential customers under a rate
+prescribed by subsection (m)(2) of this section must move such customers to a market-based
+month-to-month product, with pricing for such product to be effective no later than either the
+61st day of service by the LSP or beginning with the customer’s next billing cycle date
+following the 60th day of service by the LSP. For each transition event, all such transitioned
+customers in the same class and POLR area must be served pursuant to the same product terms,
+except for those customers specified in subparagraph (B) of this paragraph.
+(A)
+The notice required by §25.475(d) of this title to inform the customers of the change to a
+market-based month-to-month product may be included with the notice required by subsection
+(t)(3) of this section or may be provided 14 days in advance of the change. If the §25.475(d)
+notice is included with the notice required by subsection (t)(3) of this section, the LSP may
+state that either or both the terms of service document and EFL for the market-based monthto-month product will be provided at a later time, but no later than 14 days before their effective
+date.
+(B)
+The LSP is not required to transfer to a market-based product any transitioned customer who
+is delinquent in payment of any charges for POLR service to such LSP as of the 60th day of
+service. If such a customer becomes current in payments to the LSP, the LSP must move the
+customer to a market-based month-to-month product as described in this paragraph on the next
+billing cycle that occurs five business days after the customer becomes current. If the LSP
+does not plan to move customers who are delinquent in payment of any charges for POLR
+service as of the 60th day of service to a market-based month-to-month product, the LSP must
+inform the customer of that potential outcome in the notice provided to comply with
+§25.475(d) of this title.
+(5)
+Upon a request from an LSP and a showing that the LSP will be unable to maintain its financial
+integrity if additional customers are transferred to it under this section, the commission may
+relieve an LSP from a transfer of additional customers. The LSP must continue providing
+continuous service until the commission issues an order relieving it of this responsibility. In
+the event the requesting LSP is relieved of its responsibility, the commission staff designee
+will, with 90 days’ notice, designate the next eligible REP, if any, as an LSP, based upon the
+criteria in this subsection.
+
+§25.43--6
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+(k)
+
+Designation of an LSP affiliate to provide POLR service on behalf of an LSP.
+(1)
+An LSP may request the commission designate an LSP affiliate to provide POLR service on
+behalf of the LSP either with the LSP’s filing under subsection (h) of this section or as a
+separate filing in the current term project. The filing must be made at least 30 days prior to
+the date when the LSP affiliate is to begin providing POLR service on behalf of the LSP. To
+be eligible to provide POLR service on behalf of an LSP, the LSP affiliate must be certificated
+to provide retail electric service; have an executed delivery service agreement with the service
+area TDU; and meet the requirements of subsection (h)(2) of this section, with the exception
+of subsection (h)(2)(B), (C), (D), and (E) of this section as related to serving customers in the
+applicable customer class.
+(2)
+The request must include the name and certificate number of the LSP affiliate, information
+demonstrating the affiliation between the LSP and the LSP affiliate, and a certified agreement
+from an officer of the LSP affiliate stating that the LSP affiliate agrees to provide POLR service
+on behalf of the LSP. The request must also include an affidavit from an officer of the LSP
+stating that the LSP will be responsible and indemnify any affected parties for all financial
+obligations of the LSP affiliate associated with the provisioning of POLR service on behalf of
+the LSP in the event that the LSP affiliate defaults or otherwise does not fulfill such financial
+obligations.
+(3)
+Commission staff will make an initial determination of the eligibility of the LSP affiliate to
+provide POLR service on behalf of an LSP and publish their names. The LSP or LSP affiliate
+may challenge commission staff’s eligibility determination within five business days of the
+notice of eligibility by submitting to commission staff additional evidence of its capability to
+provide POLR service on behalf of the LSP. Commission staff will reassess the LSP affiliate’s
+eligibility and notify the LSP and LSP affiliate of any change in eligibility status within 10
+business days of the receipt of the additional documentation. If the LSP or LSP affiliate does
+not agree with staff’s determination of eligibility, either or both may then appeal the
+determination to the commission through a contested case. The LSP must provide POLR
+service during the pendency of the contested case.
+(4)
+ERCOT or a TDU may challenge an LSP affiliate’s eligibility to provide POLR service on
+behalf of an LSP. If ERCOT or a TDU has reason to believe that an LSP affiliate is not eligible
+or is not performing POLR responsibilities on behalf of an LSP, ERCOT or the TDU must
+make a filing with the commission detailing the basis for its concerns and must provide a copy
+of the filing to the LSP and the LSP affiliate that are the subject of the filing. If the filing
+contains confidential information, ERCOT or the TDU must file it in accordance with §25.71
+of this title (relating to General Procedures, Requirements and Penalties). Commission staff
+will review the filing and if commission staff concludes that the LSP affiliate should not be
+allowed to provide POLR service on behalf of the LSP, it will request that the LSP affiliate
+demonstrate that it has the capability. The commission staff will review the LSP affiliate’s
+filing and may initiate a proceeding with the commission to disqualify the LSP affiliate from
+providing POLR service. The LSP affiliate may continue providing POLR service to ESI IDs
+currently receiving the service during the pendency of the proceeding; however, the LSP must
+immediately assume responsibility to provide service under this section to customers who
+request POLR service, or are transferred to POLR service through a mass transition, during
+the pendency of the proceeding.
+(5)
+Designation of an affiliate to provide POLR service on behalf of an LSP must not change the
+number of ESI IDs served or the retail sales in megawatt-hours for the LSP for the reporting
+period nor does such designation relieve the LSP of its POLR service obligations in the event
+that the LSP affiliate fails to provide POLR service in accordance with the commission rules.
+(6)
+The designated LSP affiliate must provide POLR service and all reports as required by the
+commission’s rules on behalf of the LSP.
+
+§25.43--7
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+(7)
+
+(8)
+
+(9)
+
+(l)
+
+The methodology used by a designated LSP affiliate to calculate POLR rates must be
+consistent with the methodology used to calculate LSP POLR rates in subsection (m) of this
+section.
+If an LSP affiliate designated to provide POLR service on behalf of an LSP cannot meet or
+fails to meet the POLR service requirements in applicable laws and Commission rules, the
+LSP must provide POLR service to any ESI IDs currently receiving the service from the LSP
+affiliate and to ESI IDs in a future mass transition or upon customer request.
+An LSP may elect to reassume provisioning of POLR service from the LSP affiliate by filing
+a reversion notice with the commission and notifying ERCOT at least 30 days in advance.
+
+Mass transition of customers to POLR providers. The transfer of customers to POLR providers
+must be consistent with this subsection.
+(1)
+ERCOT must first transfer customers to VREPs, up to the number of ESI IDs that each VREP
+has offered to serve for each customer class in the POLR area. ERCOT must use the VREP
+list to assign ESI IDs to the VREPs in a non-discriminatory manner, before assigning
+customers to the LSPs. A VREP must not be assigned more ESI IDs than it has indicated it is
+willing to serve pursuant to subsection (i) of this section. To ensure non-discriminatory
+assignment of ESI IDs to the VREPs, ERCOT must:
+(A)
+Sort ESI IDs by POLR area;
+(B)
+Sort ESI IDs by customer class;
+(C)
+Sort ESI IDs numerically;
+(D)
+Sort VREPs numerically by randomly generated number; and
+(E)
+Assign ESI IDs in numerical order to VREPs, in the order determined in subparagraph
+(D) of this paragraph, in accordance with the number of ESI IDs each VREP indicated
+a willingness to serve pursuant to subsection (i) of this section. If the number of ESI
+IDs is less than the total that the VREPs indicated that they are willing to serve, each
+VREP must be assigned an equal number of ESI IDs, up to the number that each
+VREP indicated it was willing to serve for a given class and POLR area.
+(2)
+If the number of ESI IDs exceeds the amount the VREPs are designated to serve, ERCOT must
+assign remaining ESI IDs to LSPs in a non-discriminatory fashion, in accordance with their
+percentage of market share based upon retail sales in megawatt-hours, on a random basis
+within a class and POLR area, except that a VREP that is also an LSP that volunteers to serve
+at least 1% of its market share for a class of customers in a POLR area must be exempt from
+the LSP allocation up to 1% of the class and POLR area. To ensure non-discriminatory
+assignment of ESI IDs to the LSPs, ERCOT must:
+(A)
+Sort the ESI IDs in excess of the allocation to VREPs, by POLR area;
+(B)
+Sort ESI IDs in excess of the allocation to VREPs, by customer class;
+(C)
+Sort ESI IDs in excess of the allocation to VREPs, numerically;
+(D)
+Sort LSPs, except LSPs that volunteered to serve 1% of their market share as a VREP,
+numerically by MWhs served;
+(E)
+Assign ESI IDs that represent no more than 1% of the total market for that POLR area
+and customer class less the ESI IDs assigned to VREPs that volunteered to serve at
+least 1% of their market share for each POLR area and customer class in numerical
+order to LSPs designated in subparagraph (D) of this paragraph, in proportion to the
+percentage of MWhs served by each LSP to the total MWhs served by all LSPs;
+(F)
+Sort LSPs, including any LSPs previously excluded under subparagraph (D) of this
+paragraph; and
+(G)
+Assign all remaining ESI IDs in numerical order to LSPs in proportion to the
+percentage of MWhs served by each LSP to the total MWhs served by all LSPs.
+(3)
+Each mass transition must be treated as a separate event.
+
+§25.43--8
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+(m)
+
+Rates applicable to POLR service.
+(1)
+A VREP must provide service to customers using a market-based, month-to-month product.
+The VREP must use the same market-based, month-to-month product for all customers in a
+mass transition that are in the same class and POLR area.
+(2)
+Subparagraphs (A)-(C) of this paragraph establish the maximum rate for POLR service
+charged by an LSP. An LSP may charge a rate less than the maximum rate if it charges the
+lower rate to all customers in a mass transition that are in the same class and POLR area.
+(A)
+Residential customers. The LSP rate for the residential customer class must be
+determined by the following formula:
+LSP rate (in $ per kWh) = (Non-bypassable charges + LSP customer charge + LSP energy charge) /
+kWh used
+Where:
+(i)
+
+Non-bypassable charges must be all TDU charges and credits for the
+appropriate customer class in the applicable service territory and other
+charges including ERCOT administrative charges, nodal fees or surcharges,
+reliability unit commitment (RUC) capacity short charges attributable to
+LSP load, and applicable taxes from various taxing or regulatory authorities,
+multiplied by the level of kWh and kW used, where appropriate.
+(ii)
+LSP customer charge must be $0.09 per kWh.
+(iii)
+Beginning on the 10th of each month, an LSP energy charge must be the
+average of the actual Real-Time Settlement Point Prices (RTSPPs) for the
+applicable load zone for the preceding calendar month (the historical
+average RTSPP) multiplied by the number of kWhs the customer used
+during that billing period and further multiplied by 120%. The LSP energy
+charge must not exceed 160%of the preceding calendar month’s LSP energy
+charge. The applicable load zone will be the load zone located partially or
+wholly in the customer’s TDU service territory with the highest average
+under the historical average RTSPP calculation.
+(iv)
+“Number of kWhs the customer used” is based on usage data provided to the
+POLR by the TDU.
+(B)Small and medium non-residential customers. The LSP rate for the small and medium
+non-residential customer classes must be determined by the following formula:
+LSP rate (in $ per kWh) = (Non-bypassable charges + LSP customer charge + LSP energy charge) /
+kWh used
+Where:
+(i)
+
+(ii)
+(iii)
+
+Non-bypassable charges must be all TDU charges and credits for the
+appropriate customer class in the applicable service territory, and other
+charges including ERCOT administrative charges, nodal fees or surcharges,
+RUC capacity short charges attributable to LSP load, and applicable taxes
+from various taxing or regulatory authorities, multiplied by the level of kWh
+and kW used, where appropriate.
+LSP customer charge must be $0.09per kWh.
+Beginning on the 10th of each month, LSP energy charge must be the
+average of the actual RTSPPs for the applicable load zone for the preceding
+calendar month multiplied by the number of kWhs the customer used during
+that billing period and further multiplied by 125%. The LSP energy charge
+must not exceed 160% of the preceding calendar month’s LSP energy
+
+§25.43--9
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+(iv)
+
+(C)
+
+charge. The applicable load zone will be the load zone located partially or
+wholly in the customer’s TDU service territory with the highest average
+under the historical average RTSPP calculation.
+“Number of kWhs the customer used” is based on usage data provided to the
+POLR by the TDU.
+
+Large non-residential customers. The LSP rate for the large non-residential
+customer class must be determined by the following formula:
+
+LSP rate (in $ per kWh) = (Non-bypassable charges + LSP customer charge + LSP demand charge +
+LSP energy charge) / kWh used
+Where:
+(i)
+
+(3)
+
+(4)
+
+(5)
+
+(n)
+
+Non-bypassable charges must be all TDU charges and credits for the
+appropriate customer class in the applicable service territory, and other
+charges including ERCOT administrative charges, nodal fees or surcharges,
+RUC capacity short charges attributable to LSP load, and applicable taxes
+from various taxing or regulatory authorities, multiplied by the level of kWh
+and KW used, where appropriate.
+(ii)
+LSP customer charge must be $2,897.00 per month.
+(iii)
+LSP demand charge must be $6.00 per kW, per month.
+(iv) LSP energy charge must be the appropriate RTSPP, determined on the basis of
+15-minute intervals, for the customer multiplied by 125%, multiplied by the
+level of kilowatt-hours used. The energy charge must have a floor of $7.25
+per MWh.
+If in response to a complaint or upon its own investigation, the commission determines that an
+LSP failed to charge the appropriate rate prescribed by paragraph (2) of this subsection, and
+as a result overcharged its customers, the LSP must issue refunds to the specific customers
+who were overcharged.
+On a showing of good cause by an affected person, the commission may direct an LSP to adjust
+the rate prescribed by paragraph (2) of this subsection, if necessary to ensure that the rate is
+consistent with prevailing market conditions. Notwithstanding any other commission rule to
+the contrary, such rates may be adjusted on an interim basis for good cause shown and after at
+least 10 business days’ notice and an opportunity for hearing on the request for interim relief.
+Any adjusted rate must be applicable to all LSPs charging the rate prescribed by paragraph (2)
+of this subsection to the specific customer class, within the POLR area that is subject to the
+adjustment.
+For transitioned customers, the customer and demand charges associated with the rate
+prescribed by paragraph (3) of this subsection must be pro-rated for partial month usage if a
+large non-residential customer switches from the LSP to a REP of choice.
+
+Challenges to customer assignments. A POLR provider is not obligated to serve a customer within a
+customer class or a POLR area for which the REP is not designated as a POLR provider, after a
+successful challenge of the customer assignment. A POLR provider must use the ERCOT market
+variance resolution tool to challenge a customer class assignment with the TDU. The TDU must make
+the final determination based upon historical usage data and not premise type. If the customer class
+assignment is changed and a different POLR provider for the customer is determined appropriate, the
+customer must then be served by the appropriate POLR provider. Back dated transactions may be used
+to correct the POLR assignment.
+
+§25.43--10
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+(o)
+
+Limitation on liability. A POLR provider must make reasonable provisions to provide service under
+this section to any ESI IDs currently receiving the service and to ESI IDs obtained in a future mass
+transition or served upon customer request; however, liabilities not excused by reason of force majeure
+or otherwise must be limited to direct, actual damages.
+(1)
+Neither the customer nor the POLR provider must be liable to the other for consequential,
+incidental, punitive, exemplary, or indirect damages. These limitations apply without regard
+to the cause of any liability or damage.
+(2)
+In no event will ERCOT or a POLR provider be liable for damages to any REP, whether under
+tort, contract or any other theory of legal liability, for transitioning or attempting to transition
+a customer from such REP to the POLR provider to carry out this section, or for marketing,
+offering or providing competitive retail electric service to a customer taking service under this
+section from the POLR provider.
+
+(p)
+
+REP obligations in a transition of customers to POLR service.
+(1)
+A customer may initiate service with an LSP by requesting such service at the rate prescribed
+by subsection (m)(2) of this section with any LSP that is designated to serve the requesting
+customer’s customer class within the requesting customer’s service area. An LSP cannot
+refuse a customer’s request to make arrangements for POLR service, except as otherwise
+permitted under this title.
+(2)
+The POLR provider is responsible for obtaining resources and services needed to serve a
+customer once it has been notified that it is serving that customer. The customer is responsible
+for charges for service under this section at the rate in effect at that time.
+(3)
+If a REP terminates service to a customer, or transitions a customer to a POLR provider, the
+REP is financially responsible for the resources and services used to serve the customer until
+it notifies the independent organization of the termination or transition of the service and the
+transfer to the POLR provider is complete.
+(4)
+The POLR provider is financially responsible for all costs of providing electricity to customers
+from the time the transfer or initiation of service is complete until such time as the customer
+ceases taking service under this section.
+(5)
+A defaulting REP whose customers are subject to a mass transition event must return the
+customers’ deposits within seven calendar days of the initiation of the transition.
+(6)
+ERCOT must create a single standard file format and a standard set of customer billing contact
+data elements that, in the event of a mass transition, must be used by the exiting REP and the
+POLRs to send and receive customer billing contact information. The process, as developed
+by ERCOT must be tested on a periodic basis. Each REP must submit timely, accurate, and
+complete files, as required by ERCOT in a mass transition event, as well as for periodic testing.
+The commission will establish a procedure for the verification of customer information
+submitted by REPs to ERCOT. ERCOT must notify the commission if any REP fails to
+comply with the reporting requirements in this subsection.
+(7)
+When customers are to be transitioned or assigned to a POLR provider, the POLR provider
+may request usage and demand data, and customer contact information including email,
+telephone number, and address from the appropriate TDU and from ERCOT, once the
+transition to the POLR provider has been initiated. Customer proprietary information provided
+to a POLR provider in accordance with this section must be treated as confidential and must
+only be used for mass transition related purposes.
+(8)
+Information from the TDU and ERCOT to the POLR providers must be provided in Texas
+SET format when Texas SET transactions are available. However, the TDU or ERCOT may
+supplement the information to the POLR providers in other formats to expedite the transition.
+The transfer of information in accordance with this section must not constitute a violation of
+the customer protection rules that address confidentiality.
+
+§25.43--11
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+(9)
+
+A POLR provider may require a deposit from a customer that has been transitioned to the
+POLR provider to continue to serve the customer. Despite the lack of a deposit, the POLR
+provider is obligated to serve the customer transitioned or assigned to it, beginning on the
+service initiation date of the transition or assignment, and continuing until such time as any
+disconnection request is effectuated by the TDU. A POLR provider may make the request for
+deposit before it begins serving the customer, but the POLR provider must begin providing
+service to the customer even if the service initiation date is before it receives the deposit - if
+any deposit is required. A POLR provider must not disconnect the customer until the
+appropriate time period to submit the deposit has elapsed. For the large non-residential
+customer class, a POLR provider may require a deposit to be provided in three calendar days.
+For the residential customer class, the POLR provider may require a deposit to be provided
+after 15 calendar days of service if the customer received 10 days’ notice that a deposit was
+required. For all other customer classes, the POLR provider may require a deposit to be
+provided in 10 calendar days. The POLR provider may waive the deposit requirement at the
+customer’s request if deposits are waived in a non-discriminatory fashion. If the POLR
+provider obtains sufficient data, it must determine whether a residential customer has
+satisfactory credit based on the criteria the POLR provider routinely applies to its other
+residential customers. If the customer has satisfactory credit, the POLR provider must not
+request a deposit from the residential customer.
+(A)
+At the time of a mass transition, the executive director or staff designated by the
+executive director will distribute available proceeds from an irrevocable stand-by
+letter of credit in accordance with the priorities established in §25.107(f)(6) of this
+title. For a REP that has obtained a current list from the Low Income List
+Administrator (LILA) that identifies low-income customers, these funds must first be
+used to provide deposit payment assistance for that REP’s transitioned low-income
+customers. The Executive Director or staff designee will, at the time of a transition
+event, determine the reasonable deposit amount up to $400 per customer ESI ID,
+unless good cause exists to increase the level of the reasonable deposit amount above
+$400. Such reasonable deposit amount may take into account factors such as typical
+residential usage and current retail residential prices, and, if fully funded, must satisfy
+in full the customers’ initial deposit obligation to the VREP or LSP.
+(B)
+For a REP that has obtained a current list from the LILA that identifies low-income
+customers, the Executive Director or the staff designee will distribute available
+proceeds pursuant to §25.107(f)(6) of this title to the VREPs proportionate to the
+number of customers they received in the mass transition, who at the time of the mass
+transition were identified as low-income customers by the current LILA list, up to the
+reasonable deposit amount set by the Executive Director or staff designee. If funds
+remain available after distribution to the VREPs, the remaining funds must be
+distributed to the appropriate LSPs by dividing the amount remaining by the number
+of low income customers as identified in the LILA list that are allocated to LSPs, up
+to the reasonable deposit amount set by the Executive Director or staff designee.
+(C)
+If the funds distributed in accordance with §25.107(f)(6) of this title do not equal the
+reasonable deposit amount determined, the VREP and LSP may request from the
+customer payment of the difference between the reasonable deposit amount and the
+amount distributed. Such difference must be collected in accordance with
+§25.478(e)(3) of this title (relating to Credit Requirements and Deposits).
+(D)
+Notwithstanding §25.478(d) of this title, 90 days after the transition date, the VREP
+or LSP may request payment of an amount that results in the total deposit held being
+equal to what the VREP or LSP would otherwise have charged a customer in the same
+customer class and service area in accordance with §25.478(e) of this title, at the time
+of the transition.
+
+§25.43--12
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+(10)
+
+(11)
+
+(12)
+(13)
+
+(14)
+
+(15)
+
+(16)
+
+(17)
+
+On the occurrence of one or more of the following events, ERCOT must initiate a mass
+transition to POLR providers, of all of the customers served by a REP:
+(A)
+Termination of the Load Serving Entity (LSE) or Qualified Scheduling Entity (QSE)
+Agreement for a REP with ERCOT;
+(B)
+Issuance of a commission order recognizing that a REP is in default under the TDU
+Tariff for Retail Delivery Service;
+(C)
+Issuance of a commission order de-certifying a REP;
+(D)
+Issuance of a commission order requiring a mass transition to POLR providers;
+(E)
+Issuance of a judicial order requiring a mass transition to POLR providers; and
+(F)
+At the request of a REP, for the mass transition of all of that REP’s customers.
+A REP must not use the mass transition process in this section as a means to cease providing
+service to some customers, while retaining other customers. A REP’s improper use of the
+mass transition process may lead to de-certification of the REP.
+ERCOT may provide procedures for the mass transition process, consistent with this section.
+A mass transition under this section must not override or supersede a switch request made by
+a customer to switch an ESI ID to a new REP of choice, if the request was made before a mass
+transition is initiated. If a switch request has been made but is scheduled for any date after the
+next available switch date, the switch must be made on the next available switch date.
+ERCOT must identify customers who are mass transitioned for a period of 60 calendar days.
+The identification must terminate at the first completed switch or at the end of the 60-day
+period, whichever is first. If necessary, ERCOT system changes or new transactions must be
+implemented no later than 14 months from the effective date of this section to communicate
+that a customer was acquired in a mass transition and is not charged the out-of-cycle meter
+read pursuant to paragraph (16) of this subsection.
+In the event of a transition to a POLR provider or away from a POLR provider to a REP of
+choice, the switch notification notice detailed in §25.474(l) of this title (relating to Selection
+of Retail Electric Provider) is not required.
+In a mass transition event, the ERCOT initiated transactions must request an out-of-cycle meter
+read for the associated ESI IDs for a date two calendar days after the calendar date ERCOT
+initiates such transactions to the TDU. If an ESI ID does not have the capability to be read in
+a fashion other than a physical meter read, the out-of-cycle meter read may be estimated. An
+estimated meter read for the purpose of a mass transition to a POLR provider must not be
+considered a break in a series of consecutive months of estimates, but must not be considered
+a month in a series of consecutive estimates performed by the TDU. A TDU must create a
+regulatory asset for the TDU fees associated with a mass transition of customers to a POLR
+provider pursuant to this subsection. Upon review of reasonableness and necessity, a
+reasonable level of amortization of such regulatory asset must be included as a recoverable
+cost in the TDU’s rates in its next rate case or such other rate recovery proceeding as deemed
+necessary. The TDU must not bill as a discretionary charge, the costs included in this
+regulatory asset, which must consist of the following:
+(A)
+fees for out-of-cycle meter reads associated with the mass transition of customers to
+a POLR provider; and
+(B)
+fees for the first out-of-cycle meter read provided to a customer who transfers away
+from a POLR provider, when the out-of-cycle meter read is performed within 60
+calendar days of the date of the mass transition and the customer is identified as a
+transitioned customer.
+In the event the TDU estimates a meter read for the purpose of a mass transition, the TDU
+must perform a true-up evaluation of each ESI ID after an actual meter reading is obtained.
+Within 10 days after the actual meter reading is obtained, the TDU must calculate the actual
+average kWh usage per day for the time period from the most previous actual meter reading
+occurring prior to the estimate for the purpose of a mass transition to the most current actual
+
+§25.43--13
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+meter reading occurring after the estimate for the purpose of mass transition. If the average
+daily estimated usage sent to the exiting REP is more than 50% greater than or less than the
+average actual kWh usage per day, the TDU must promptly cancel and re-bill both the exiting
+REP and the POLR using the average actually daily usage.
+(q)
+
+Termination of POLR service provider status.
+(1)
+The commission may revoke a REP’s POLR status after notice and opportunity for hearing:
+(A)
+If the POLR provider fails to maintain REP certification;
+(B)
+If the POLR provider fails to provide service in a manner consistent with this section;
+(C)
+The POLR provider fails to maintain appropriate financial qualifications; or
+(D)
+For other good cause.
+(2)
+If an LSP defaults or has its status revoked before the end of its term, after a review of the
+eligibility criteria, the commission staff designee will, as soon as practicable, designate the
+next eligible REP, if any, as an LSP, based on the criteria in subsection (j) of this section.
+(3)
+At the end of the POLR service term, the outgoing LSP must continue to serve customers who
+have not selected another REP.
+
+(r)
+
+Electric cooperative delegation of authority. An electric cooperative that has adopted customer
+choice may select to delegate to the commission its authority to select POLR providers under PURA
+§41.053(c) in its certificated service area in accordance with this section. After notice and opportunity
+for comment, the commission will, at its option, accept or reject such delegation of authority. If the
+commission accepts the delegation of authority, the following conditions apply:
+(1)
+The board of directors must provide the commission with a copy of a board resolution
+authorizing such delegation of authority;
+(2)
+The delegation of authority must be made at least 30 calendar days prior to the time the
+commission issues a publication of notice of eligibility;
+(3)
+The delegation of authority must be for a minimum period corresponding to the period for
+which the solicitation must be made;
+(4)
+The electric cooperative wishing to delegate its authority to designate a continuous provider
+must also provide the commission with the authority to apply the selection criteria and
+procedures described in this section in selecting the POLR providers within the electric
+cooperative’s certificated service area; and
+(5)
+If there are no competitive REPs offering service in the electric cooperative certificated area,
+the commission must automatically reject the delegation of authority.
+
+(s)
+
+Reporting requirements. Each LSP that serves customers under a rate prescribed by subsection (m)(2)
+of this section must file the following information with the commission on a quarterly basis beginning
+January of each year in a project established by the commission for the receipt of such information.
+Each quarterly report must be filed within 30 calendar days of the end of the quarter.
+(1)
+For each month of the reporting quarter, each LSP must report the total number of new
+customers acquired by the LSP under this section and the following information regarding
+these customers:
+(A)
+The number of customers from whom a deposit was requested pursuant to the
+provisions of §25.478 of this title, and the average amount of deposit requested;
+(B)
+The number of customers from whom a deposit was received, including those who
+entered into deferred payment plans for the deposit, and the average amount of the
+deposit;
+(C)
+The number of customers whose service was physically disconnected pursuant to the
+provisions of §25.483 of this title (relating to Disconnection of Service) for failure to
+pay a required deposit; and
+
+§25.43--14
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+(D)
+(2)
+
+(3)
+
+(t)
+
+Any explanatory data or narrative necessary to account for customers that were not
+included in either subparagraph (B) or (C) of this paragraph.
+For each month of the reporting quarter each LSP must report the total number of customers
+to whom a disconnection notice was issued pursuant to the provisions of §25.483 of this title
+and the following information regarding those customers:
+(A)
+The number of customers who entered into a deferred payment plan, as defined by
+§25.480(j) of this title (relating to Bill Payment and Adjustments) with the LSP;
+(B)
+The number of customers whose service was physically disconnected pursuant to
+§25.483 of this title;
+(C)
+The average amount owed to the LSP by each disconnected customer at the time of
+disconnection; and
+(D)
+Any explanatory data or narrative necessary to account for customers that are not
+included in either subparagraph (A) or (B) of this paragraph.
+For the entirety of the reporting quarter, each LSP must report, for each customer that received
+POLR service, the TDU and customer class associated with the customer’s ESI ID, the number
+of days the customer received POLR service, and whether the customer is currently the LSP’s
+customer.
+
+Notice of transition to POLR service to customers. When a customer is moved to POLR service, the
+customer must be provided notice of the transition by ERCOT, the REP transitioning the customer, and
+the POLR provider. The ERCOT notice must be provided within two days of the time ERCOT and the
+transitioning REP know that the customer must be transitioned and customer contact information is
+available. If ERCOT cannot provide notice to customers within two days, it must provide notice as
+soon as practicable. The POLR provider must provide the notice required by paragraph (3) of this
+subsection to commission staff at least 48 hours before it is provided to customers, and must provide
+the notice to transitioning customers as soon as practicable. The POLR provider must email the notice
+to the commission staff members designated for receipt of the notice.
+(1)
+ERCOT notice methods must include a post-card, containing the official commission seal with
+language and format approved by the commission. ERCOT must notify transitioned customers
+with an automated phone-call and email to the extent the information to contact the customer
+is available pursuant to subsection (p)(6) of this section. ERCOT must study the effectiveness
+of the notice methods used and report the results to the commission.
+(2)
+Notice by the REP from which the customer is transferred must include:
+(A)
+The reason for the transition;
+(B)
+A contact number for the REP;
+(C)
+A statement that the customer will receive a separate notice from the POLR provider
+that must disclose the date the POLR provider must begin serving the customer;
+(D)
+Either the customer’s deposit plus accrued interest, or a statement that the deposit
+must be returned within seven days of the transition;
+(E)
+A statement that the customer can leave the assigned service by choosing a
+competitive product or service offered by the POLR provider, or another competitive
+REP, as well as the following statement: “If you would like to see offers from
+different retail electric providers, please access www.powertochoose.org, or call tollfree 1-866-PWR-4-TEX (1-866-797-4839) for a list of providers in your area;”
+(F)
+For residential customers, notice from the commission in the form of a bill insert or
+a bill message with the header “An Important Message from the Public Utility
+Commission Regarding Your Electric Service” addressing why the customer has been
+transitioned to another REP, the continuity of service purpose, the option to choose a
+different competitive provider, and information on competitive markets to be found
+at www.powertochoose.org, or toll-free at 1-866-PWR-4-TEX (1-866-797-4839);
+
+§25.43--15
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+(G)
+
+(3)
+
+If applicable, a description of the activities that the REP will use to collect any
+outstanding payments, including the use of consumer reporting agencies, debt
+collection agencies, small claims court, and other remedies allowed by law, if the
+customer does not pay or make acceptable payment arrangements with the REP; and
+(H)
+Notice to the customer that after being transitioned to POLR service, the customer
+may accelerate a switch to another REP by requesting a special or out-of-cycle meter
+read.
+Notice by the POLR provider must include:
+(A)
+The date the POLR provider began or will begin serving the customer and a contact
+number for the POLR provider;
+(B)
+A description of the POLR provider’s rate for service. In the case of a notice from an
+LSP that applies the pricing of subsection (m)(2) of this section, a statement that the
+price is generally higher than available competitive prices;
+(C)
+The deposit requirements of the POLR provider and any applicable deposit waiver
+provisions and a statement that, if the customer chooses a different competitive
+product or service offered by the POLR provider, a REP affiliated with the POLR
+provider, or another competitive REP, a deposit may be required;
+(D)
+A statement that the additional competitive products or services may be available
+through the POLR provider, a REP affiliated with the POLR provider, or another
+competitive REP, as well as the following statement: “If you would like to choose a
+different retail electric provider, please access www.powertochoose.org, or call tollfree 1-866-PWR-4-TEX (1-866-797-4839) for a list of providers in your area;”
+(E)
+The applicable Terms of Service and Electricity Facts Label (EFL); and
+(F)
+For residential customers that are served by an LSP under a rate prescribed by
+subsection (m)(2) of this section, a notice to the customer that after being transitioned
+to service from a POLR provider, the customer may accelerate a switch to another
+REP by requesting a special or out-of-cycle meter read.
+
+(u)
+
+Market notice of transition to POLR service. ERCOT must notify all affected Market Participants
+and the Retail Market Subcommittee (RMS) email listserv of a mass transition event within the same
+day of an initial mass-transition call after the call has taken place. The notification must include the
+exiting REP’s name, total number of ESI IDs, and estimated load.
+
+(v)
+
+Disconnection by a POLR provider. The POLR provider must comply with the applicable customer
+protection rules as provided for under Subchapter R of this chapter, except as otherwise stated in this
+section. To ensure continuity of service, service under this section must begin when the customer’s
+transition to the POLR provider is complete. A customer deposit is not a prerequisite for the initiation
+of service under this section. Once service has been initiated, a customer deposit may be required to
+prevent disconnection. Disconnection for failure to pay a deposit may not occur until after the proper
+notice and after that appropriate payment period detailed in §25.478 of this title has elapsed, except
+where otherwise noted in this section.
+
+(w)
+
+Deposit payment assistance.
+(1)
+The commission staff designee will distribute the deposit payment assistance monies to the
+appropriate POLRs on behalf of customers as soon as practicable.
+(2)
+The executive director or staff designee will use best efforts to provide written notice to the
+appropriate POLRs of the following on or before the second calendar day after the transition:
+(A)
+a list of the ESI IDs identified by the LILA that have been or will be transitioned to
+the applicable POLR (if available); and
+(B)
+the amount of deposit payment assistance that will be provided on behalf of a POLR
+customer identified by the LILA (if available).
+
+§25.43--16
+
+effective date 11/23/2022
+(P 53820)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter B. CUSTOMER SERVICE AND PROTECTION.
+
+(3)
+
+Amounts credited as deposit payment assistance pursuant to this section must be refunded to
+the customer in accordance with §25.478(j) of this title.
+
+§25.43--17
+
+effective date 11/23/2022
+(P 53820)
+
+

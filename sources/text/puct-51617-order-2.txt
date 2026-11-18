@@ -1,0 +1,157 @@
+Control Number: 51617
+
+Item Number: 4
+
+Addendum StartPage: 0
+
+2%
+
+/405
+
+97 RECEIVED ~\
+
+~
+
+§
+§
+§
+
+8 tel
+
+~~By
+
+PUC PROJECT NO. 51617
+
+OVERSIGHT OF THE ELECTRIC
+RELIABILITY COUNCIL OF TEXAS
+
+FEB 1
+
+PUBLIC UTILITY COMMISSION-~
+OF TEXAS
+
+SECOND ORDER DIRECTING ERCOT TO TAKE ACTION
+AND GRANTING EXCEPTION TO COMMISSION RULES
+
+On February 12, 2021, pursuant to Texas Government Code § 418.014, in response to an
+extreme winter weather event, Governor Greg Abbott issued a Declaration of a State of Disaster
+for all counties in Texas.
+
+Further, on February 15,2021, the Electric Reliability Council of Texas, Inc. (ERCOT)
+
+declared its highest state of emergency, an Emergency Energy Alert Level 3 (EEA3), due to
+exceptionally high electric demand exceeding supply. ERCOT has directed transmission operators
+
+in the ERCOT region to curtail more than 10,000 megawatts (MW) of firm load. The ERCOT
+
+System is expected to remain in EEA3, and firm load shed is expected to continue, for a sustained
+
+period oftime in light of the expected duration of the extreme weather event.
+This Order addresses two significant market anomalies identified during this EEA3 event.
+I.
+
+Energy Prices Lower than System-Wide Offer Cap During Load-Shed Event
+ERCOT has informed the Commission that energy prices across the system are clearing at
+
+less than $9,000, which is the current system-wide offer cap pursuant to
+
+16 TAC
+
+§ 25.505(g)(6)(B). At various times today, energy prices across the system have been as low as
+
+approximately $1,200.
+
+The Commission believes this outcome is inconsistent with the
+
+fundamental design ofthe ERCOT market. Energy prices should reflect scarcity ofthe supply. If
+
+customer load is being shed, scarcity is at its maximum, and the market price for the energy needed
+to serve that load should also be at its highest.
+Utilities Code § 39.151(d) gives the Commission "complete authority" over ERCOT, the
+independent organization certified by the Commission pursuant to § 39.151. Further, 16 TAC
+
+§ 25.501(a) provides that ERCOT determines market clearing prices of energy and other ancillary
+services in the ERCOT market unless "otherwise directed by the commission."
+
+~
+
+/*J
+
+PUC Docket No. 51617
+
+Order Directing ERCOT
+
+Page 2 of 3
+
+Pursuant to this authority, the Commission determines that adjustments are needed to
+
+ERCOT prices to ensure they accurately reflect the scarcity conditions in the market. Accordingly,
+the Commission directs ERCOT to ensure that firm load that is being shed in EEA3 is accounted
+
+for in ERCOT's scarcity pricing signals. However, the Commission determines that its directive
+
+to ERCOT in its order dated February 15 to also correct any past prices to account for load shed
+in EEA3 should be and is hereby rescinded and directs ERCOT to not correct any such past
+
+practices.
+II.
+
+Suspension of LCAP in Scarcity Pricing Mechanism Due to Abnormal Fuel Prices
+
+ERCOT has informed the Commission that generator revenues are approaching the peaker
+net margin (PNM) threshold established in 16 TAC § 25.505(g)(6). That threshold is currently
+
+$315,000/MW-year. As provided in §25.505(g)(6)(D), once the PNM threshold is achieved, the
+
+system - wide offer cap is set at the low system - wide offer cap ( LCAP ), which is is "the greater of"
+either "(i) $2,000 per MWh and $2,000 per MW per hour; or (ii) 50 times the natural gas price
+
+index value determined by ERCOT, expressed in dollars per MWh and dollars per MW per hour."
+Due to exceptionally high natural gas prices at this time, if the LCAP is calculated as "50 times
+the natural gas price index value," it may exceed the high system-wide offer cap (HCAP) of $9,000
+
+per MWh and $9,000 per MW per hour. 16 TAC § 25.505(g)(6).
+This outcome would be contrary to the purpose of the rule, which is to protect consumers
+
+from substantially high prices in years with substantial generator revenues. It would make little
+
+sense to expose consumers to prices that are higher than the usual maximum price after a generator
+revenue threshold has been achieved. Given the need to ensure appropriate energy prices to both
+
+consumers and generators during this system emergency, the Commission finds that, in accordance
+with 16 TAC §§ 22.5(a) and 25.3(b), a public emergency exists and good cause exists for granting
+an exception to 16 TAC § 25.505(g)(6)(A). On this basis, and because of the aforementioned
+concerns with the application of the LCAP, the Commission orders that ERCOT shall suspend any
+
+use of the LCAP until after the Commission's regularly-scheduled next open meeting, and that
+ERCOT shall continue to use the HCAP as the system-wide offer cap until that time.
+
+PUC Docket No. 51617
+
+Order Directing ERCOT
+
+Page 3 of 3
+
+Signed at Austin, Texas the 16th day of February 2021.
+
+PUBLIC UTILITY COMMISSION OF TEXAS
+
+DEANN T. WALKER, CHAIRMAN
+
+ARTHUR C. D'ANDREA, COMMISSIONER
+
+Commissioner Botkin abstains for the portion of this order that rescinds the Commission's
+directive to ERCOT in its order dated February 15 to also correct any past prices to account for
+load shed in EEA3 and the portion that directs ERCOT to not correct any such past practices. In
+
+all other aspects, Commissioner Bolin joins in this Order.
+
+~-jh -Fo,«
+
+SHELLY BOTKIN, COMMISSIONER
+
+W2013
+
+q:\cadm\orders\misc.orders\5xxxx\51617 2nd winter ercot order.docx
+
+

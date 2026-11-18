@@ -1,0 +1,719 @@
+PUBL~ 4
+
+~* TEX>~
+Filing Receipt
+Filing Date - 2023-09-13 05:13:38 PM
+
+Control Number - 54444
+Item Number - 54
+
+PROJECT NO. 54444
+CY 2023 REPORTS OF THE
+ELECTRIC RELIABILITY COUNCIL
+OF TEXAS
+
+§
+§
+§
+
+PUBLIC UTILITY COMMISSION
+
+OF TEXAS
+
+ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.' S
+REPORT OF EMERGENCY EVENT
+Pursuant to 16 TEX. ADMIN. CODE (TAC) § 25.362(i)(4), Electric Reliability Council of
+
+Texas, Inc. (ERCOT) files this report regarding the Energy Emergency Alert (EEA) condition that
+
+affected the ERCOT System on September 6,2023, including a description of the events leading
+
+up to and following that condition.
+I.
+
+EXTENSION OF DEADLINE
+
+Subsection 25.362(i)(4) requires ERCOT to file an emergency report "by the end of the
+following business day after becoming aware of such event or situation," unless the Executive
+
+Director of the Public Utility Commission of Texas (Commission) specifies in writing that the
+report may be delayed. ERCOT issued a Level 2 Energy Emergency Alert (EEA) on September
+
+6,2023. Due to continued tight conditions on the ERCOT Transmission Grid, on September 7,
+2023, ERCOT requested an extension to file the emergency report by close of business on
+September 13, 2023. The Executive Director subsequently approved this extension request on
+
+September 7,2023. Accordingly, this report is timely filed.
+II.
+
+EMERGENCY EVENT OVERVIEW
+
+On September 6, 2023, from approximately 7:10 p.m. until approximately 7:25 p.m.,
+ERCOT observed a decline in the system frequency from 60 Hz to 59.77 Hz, which is outside the
+target range of 59.9 to 60.1 Hz. In order to access additional power reserves to restore and maintain
+
+frequency, ERCOT declared an EEA Level 2 (EEA.2) at 7:25 p.in.1 Due to tight reserve margins
+1 ERCOT Nodal Protocol § 6.5.9 governs actions taken in anticipation of, and in response to, an Emergency
+Condition in the ERCOT Region. These include entering EEA Levels 1, 2, and 3 respectively, as well as preliminary
+notices in preparation for a potential Emergency Condition that include, in escalating order, an Operating Condition
+Notice (OCN), Advisory, and Watch.
+An EEA overview is available on ERCOT's website at:
+https://www.ercot.com/files/docs/2023/06/20/2023%20EEA%20Overview Final Updates.pdf. Note that a Watch
+under the ERCOT Protocols is distinct from a Weather Watch, which is a separate notification intended for the general
+
+public.
+
+Page 1 of 10
+
+that evening, ERCOT had already deployed Ancillary Services, including Non-Spinning Reserve
+
+Service (Non-Spin), ERCOT Contingency Reserve Service (ECRS), generation-provided
+Responsive Reserve Service (RRS), and Fast Frequency Response (FFR) at the time of the EEA2.
+
+ERCOT had also already deployed Emergency Response Service (ERS) and requested that
+
+Transmission Operators (TOs) implement distribution voltage reduction measures, if available.
+As part of the EEA2 declaration, ERCOT requested deployment of load management program
+capacity. And immediately after the EEA2 declaration, Load Resources were deployed through
+
+RRS to stop frequency decay. At 7:37 p.m., system frequency was restored to 60 Hzthrough these
+
+actions, and no additional measures, including firm load-shedding, were necessary. At 8:27 p.m.,
+
+the ERCOT System moved from EEA2 up to EEA1, and at 8:37 p.m., the ERCOT System exited
+EEA1 and returned to normal operations. Operating reserve levels remained tight the following
+day on Thursday, September 7, at their lowest reaching 3,685 MW, but conditions improved on
+Friday, September 8 with the lowest reserves of 4,612 MW on that date.
+
+A variety of factors contributed to the low power reserve conditions that resulted in the
+system frequency decline on September 6. The most significant factor is that the ERCOT Region
+
+has experienced an unusually hot summer, resulting in abnormally high electric power demand.
+This summer' s peak demand of 85,464 MW, which occurred on August 10, surpassed the summer
+
+2022 peak demand of 80,148 MW by approximately 6.6%. The week of September 4 through 8
+
+was particularly abnormal, with the peak load of 84,182 MW on September 8 exceeding the
+
+previous September demand record of 72,370 MW (set in 2021) by approximately 16%. On
+September 6, the day ofthe EEA, high temperatures contributed to a very high peak demand during
+Hour Ending (HE) 18:00 of 82,705 MW.2
+
+As has been true on many days this summer, abnormally high demand on September 6
+
+persisted into the evening hours, overlapping with the period during which solar generation output
+decreases. With a decline in solar output, other generation must be used to meet system demand
+and ensure sufficient reserves.
+
+However, because the sunset in early September occurs
+
+approximately half an hour earlier than it does in early August and about 45 minutes earlier than
+
+2 The previous all-time September peak demand record was 81,674 MW on September 5, 2023 at HE 17:00
+(1,031 MW less than the peak demand on September 6,2023). Each day after September 6,2023 also set a new alltime September peak demand record: 83,911 MW at HE 17:00 on September 7,2023 and 84,182 MW also at HE
+17:00 on September 8,2023.
+
+Page 2 of 10
+
+it does in July, the risk associated with the solar ramp is greater in early September than it has been
+
+in other periods of extreme demand this summer because of the greater proximity to the demand
+
+peak.
+On the evening of September 6, the decline in solar generation output was accompanied by
+limitations on other generation. Wind generation output that evening was relatively low across
+most of the system. A high-risk transmission constraint in South Texas restricted the flow of
+generation out of that area to the rest of the ERCOT Transmission Grid. Following the solar
+
+generation ramp-down on September 6, and with low wind generation output in the North, Central,
+and West regions but high wind generation output in the South region, energy flow out ofthe South
+increased the loading on a significant 345 kV transmission line beyond that line's post-contingency
+limit. Because the overload of this element following a contingency could have had significant
+
+consequences for grid reliability, ERCOT was forced to direct manual curtailment of 1,590 MW
+
+of generation from the South region.
+
+ERCOT also moved Ancillary Services from certain
+
+Generation Resources immediately north of the constraint to other units in order to allow more
+generation capacity to provide energy north of the constraint.3
+
+Additionally, although some
+
+Generation Resources were experiencing ongoing forced outages during the EEA, the total amount
+
+of forced outages was at a lower level than the immediately preceding days and was in line with
+the level of forced outages observed throughout the 2023 summer season.
+Based on the occurrence of the EEA and the need for additional generation, ERCOT
+
+initiated communications with the Texas Commission on Environmental Quality (TCEQ) to
+request enforcement discretion with respect to exceedances of state air permits. Under the TCEQ' s
+
+existing policy, if ERCOT determines that it is unlikely to be able to meet electric demand and
+reserve requirements on the ERCOT System, ERCOT may request that TCEQ exercise its
+
+3 To help address this transmission limitation inthe future, the ERCOT Board of Directors approved the CPS
+Energy-San Antonio South Reliability Regional Planning Group Project at the August 31, 2023 meeting and that
+project is pending Commission approval. The project is expected to provide long-term system reliability
+improvements and address congestion in the South Texas region. More information on this project is available on the
+ERCOT
+website
+at:
+https://www.ercot.com/files/docs/2023/08/24/11.2%20CPS%20Energy%20San%20Antonio%20South%20Reliabilit
+v%20Regional%20Planning%20Groul)%20Proiect%20(Template)%20v3.pdf. During the interim period until that
+project is fully approved and constructed, ERCOT is working with TOs in the South Texas region to investigate
+
+solutions that may partially mitigate the impact of the transmission limitation.
+
+Page 3 of 10
+
+enforcement discretion with respect to potential violations under its jurisdiction.4 On September
+6 at 7:29 p.m., immediately after the EEA2 was declared, ERCOT requested that TCEQ exercise
+
+enforcement discretion beginning immediately and extending through midnight. TCEQ approved
+the request shortly thereafter at 7:49 p.m. and ERCOT issued a Market Notice to notify Market
+
+Participants. ERCOT placed another such request the following morning of September 7 to extend
+
+from noon through midnight on September 7 and 8, and TCEQ approved that request.
+Additionally, based on ERCOT's assessment that conditions similar to those observed on
+September 6 could arise again on September 7 and 8, ERCOT contacted the Department of Energy
+
+on the morning of September 7 to inquire about the possibility of securing an order under Federal
+Power Act5 (FPA) § 202(c) for the evening hours of September 7 and 8. Under § 202(c), if DOE
+
+finds that an electric reliability emergency exists, it may allow specific generating facilities to
+operate up to their maximum output levels for a designated period of time, notwithstanding air
+quality or other permit limitations. ERCOT had been notified that at least one generator would be
+able to run at a higher level if ERCOT were able to secure a § 202(c) order from the DOE. After
+consulting with the DOE, ERCOT submitted the official request to DOE at 3:42 p.m., requesting
+
+such relief forthe period of 5:00 - 9:00 p.m. on September 7 and 8.6 At 5:56 p.m., DOE notified
+ERCOT that it had granted the request in Order No. 202-23-1. ERCOT issued a Market Notice
+
+describing the order shortly thereafter.7 At 6:51 p.m. on September 8, ERCOT received notice of
+16 additional Generation Resources requesting allowances under the DOE' s Order.8 The order
+
+expired at 9:00 p.m. on September 8.
+
+4 An explanation of TCEQ's policy on enforcement discretion is available on TCEQ's website at:
+
+https://www.tcea.texas.gov/downloads/response/enforcement-discretion.pdf.
+5 Federal Power Act, 16 U.S.C. §§ 791a-825r.
+6 ERCOT'S request is available on DOE's website at: https://www.energv.gov/sites/default/files/202309/ERCOT%20202%28c%29%20Reauest.pdf. At the time of the request, only one generation owner had notified
+ERCOT of limits to its power output due to certain opacity limits under federal environmental permits: WA Parish
+Unit 8.
+7
+
+DOES
+
+Order
+
+No.
+
+202-23-1
+
+is
+
+available
+
+on
+
+ERCOT's
+
+website
+
+at:
+
+https://www.ercot.com/about/legakdoe202c.
+8 The additional 16 units were each natural gas generation facilities: Bosque Energy Center Block 1, Bosque
+Energy CenterBlock 2, Freestone Energy CenterBlock 1, Freestone Energy CenterBlock 2, Guadalupe Energy Center
+Block 1, Guadalupe Energy Center Block 2, Baytown Energy Center, Channel Energy Center, Deer Park Energy
+Center, Pasadena Power Plant I, Pasadena Power Plant II, Jack A. Fusco Energy Center, Texas City Power Plant,
+Magic Valley Generation Station, Corpus Christi Energy Center, and Hidalgo Energy Center. The list of units with
+
+Page 4 of 10
+
+III.
+
+CHRONOLOGY OF EMERGENCY EVENT
+
+To provide greater context for the September 6,2023 EEA, ERCOT offers this chronology
+
+of its activities that preceded and followed this event. The week of September 4,2023 began with
+a federal holiday and load was accordingly lower on September 4 than for a typical Monday.
+
+Conditions on the Transmission Grid tightened during the evening hours on Tuesday, September
+5, and reserve levels remained relatively low in the evenings with high demand through Thursday,
+
+September 7. The summary below identifies, in chronological order, ERCOT's actions taken to
+
+maintain reliability on the Transmission Grid for each Operating Day from September 5 through
+
+8, along with the forecasted and actual conditions each day.
+Tuesday, September 5
+• Forecasts:
+
+•
+
+o
+
+Projected Peak Hourly Demand: 81,458 MW
+
+o
+
+Proj ected Tightest Hour: HE 20:00
+
+o
+
+Projected Demand during HE 20:00: 77,084 MW
+
+o
+
+Projected Wind during HE 20:00: 12,597 MW
+
+o
+
+Projected Solar during HE 20:00: 1,322 MW
+
+Actuals:
+o
+
+Peak Hourly Demand: 81,674 MW during HE 17:00
+
+o
+
+Tightest Hour: HE 20:00
+
+o
+
+Actual Load during HE 20:00: 77,496 MW
+
+o
+
+Wind during HE 20:00: 11,385 MW
+
+•
+
+10:31 a.m.: OCN issued for September 7-9 due to anticipated extreme hot weather during
+that period, with forecasted temperatures above 103° Fahrenheit in the North Central and
+South Central weather zones.
+
+•
+
+7:20 p.m.: ECRS deployed.
+
+•
+
+8:02 p.m.: ECRS recalled.
+
+Wednesday, September 6
+•
+
+Forecasts:
+
+o
+
+Projected Peak Hourly Demand: 82,604 MW
+
+accompanying information is available on DOE's website under "ERCOT 202(c) Specified Resources" at:
+
+https://www.energv.gov/ceser/federal-power-act-section-202c-ercot-september-2023.
+
+Page 5 of 10
+
+o
+
+Proj ected Tightest Hour: HE 20:00
+
+o
+
+Projected Demand during HE 20:00: 76,699 MW
+
+o
+
+Projected Wind during HE 20:00: 7,153 MW
+
+o
+
+Projected Solar during HE 20:00: 1,158 MW
+
+Actuals:
+o
+
+Peak Hourly Demand: 82,705 MW during HE 18:00
+
+o
+
+Tightest Hour: HE 20:00
+
+o
+
+Actual Load during HE 20:00: 77,196 MW
+
+o
+
+Wind during HE 20:00: 5,492 MW
+
+9:30 a.m.: Watch issued forHE 19:00 - 20:00 (i.e., 6:00 - 8:00 p.m.) for aprojected reserve
+capacity shortage with no market solution available, which causes a risk for an EEA event.
+
+2:57 p.m.: ECRS deployments began in increments.
+
+3:33 p.m.: Non-Spin deployed.
+4:30 p.m.: Appeal for energy conservation issued through public news media forHE 19:00
+
+- 21:00 (i.e., 6:00 - 9:00 p.m.).
+6:27 p.m.: All ECRS deployed.
+
+6:34 p.m.: Transmission Watch issued forthe area south of San Antonio due to a constraint
+on the DELMSAN5 for high post-contingency overloads in the area. Manual actions were
+performed to reduce post-contingency overloads.
+6:46 p.m.: Operating instructions were issued to CPS Energy to remove all RRS and ECRS
+from thermal units.
+6:59 p.m.: RRS deployed.
+
+7:00 p.m. Directed manual curtailment of 1,590 MW on Pawnee-to-Calaveras
+transmission line to manage DELSAN5 constraint.
+7:14 p.m. 1,023 MW of ERS deployed.
+
+ERCOT also instructed TOs to implement
+
+distribution voltage reduction, if available, from 7:15 - 8:44 pm
+7: 15 p.m. Advisory issued due to Physical Responsive Capability (PRC, i.e., the total
+amount of frequency responsive Resource capability On-Line in Real-Time) falling below
+3,000 MW.
+
+7:16 p.m.: System frequency reached 59.90 Hz.
+7: 19 p.m. System frequency reached 59.85 Hz. Fast Frequency Response (FFR) deployed.
+
+Page 6 of 10
+
+•
+
+7:25 p.m. System frequency reached its lowest point of 59.77 Hz. EEA2 declared.9
+Transmission and Distribution Utilities (TDUs) were requested to deploy load management
+
+programs, if available.
+•
+
+7:28 p.m.: 1,593 MW of Load Resources deployed.
+
+•
+
+7:29 p.m. Request submitted to TCEQ for enforcement discretion to begin immediately
+and end at midnight.
+
+•
+
+7:40 p.m.: 500 MW ofRRS recalled.
+
+•
+
+7:49 p.m.: TCEQ approved ERCOT' s request for enforcement discretion.10
+
+•
+
+7:54 p.m.: All RRS recalled.
+
+•
+
+7:56 p.m. DC Tie Curtailment Notice (DCTCN) issued regarding curtailment of DC_L
+(Laredo VFT) DC Tie.
+
+•
+
+8:06 p.m.: 800 MW of Load Resources recalled.
+
+•
+
+8:17 p.m.: All Load Resources recalled.
+
+•
+
+8:27 p.m.: EEA2 ended and EEA1 declared.
+
+•
+
+8:34 p.m.: DCTCN cancelled.
+
+•
+
+8:37 p.m.: EEA1 ended returning the ERCOT Transmission Grid returned to normal
+
+operations.11
+•
+
+8:44 p.m.: ERS recalled.
+
+•
+
+8:50 p.m.: Advisory cancelled.
+
+•
+
+8:55 p.m.: All ECRS recalled.
+
+•
+
+9:02 p.m.: Transmission Watch for DELMSAN5 constraint cancelled.
+
+•
+
+9:04 p.m.: All Non-Spin recalled.
+
+•
+
+9:33 p.m.: Watch and public energy conservation appeal cancelled.
+
+Thursday, September 7
+• Forecasts:
+o
+
+Projected Peak Hourly Demand: 84,025 MW
+
+9 ERCOT issued a news release providing additional information to the public regarding the EEA2
+declaration, available on ERCOT's website at: https://www.ercot.com/news/release/2023-09-06-ercot-has-initiated.
+10 ERCOT issued a Market Notice at 8:01 p.m. announcing TCEQ's approval of enforcement discretion for
+September 6, available on ERCOT's website at: https://www.ercot.com/services/comm/mkt notices/M-13090623-01.
+11 ERCOT issued a news release providing information to the public when EEA1 ended and the ERCOT
+Transmission
+returned
+to
+normal
+Grid
+operations,
+available
+website
+at:
+on ERCOT's
+
+https://www.ercot.com/news/release/2023-09-06-ercot-has-exited.
+
+Page 7 of 10
+
+•
+
+o
+
+Proj ected Tightest Hour: HE 20:00
+
+o
+
+Projected Demand during HE 20:00: 79,252 MW
+
+o
+
+Projected Wind during HE 20:00: 8,117 MW
+
+o
+
+Projected Solar during HE 20:00: 1,213 MW
+
+Actuals:
+o
+
+Peak Hourly Demand: 83,911 MW during HE 17:00
+
+o
+
+Tightest Hour: HE 20:00
+
+o
+
+Actual Load during HE 20:00: 79,223 MW
+
+o
+
+Wind during HE 20:00: 8,528 MW
+
+•
+
+9:57 a.m. ERCOT contacted DOE regarding likely need for FPA § 202(c) relief.
+
+•
+
+10:00 a.m.: Watch issued for Hour Ending (HE) 19:00 - 20:00 (i.e., 6:00 - 8:00 p.m.) for
+
+a proj ected reserve capacity shortage with no market solution available, which causes a
+risk for an EEA event.
+
+•
+
+•
+
+10:08 a.m.: TCEQ approved ERCOT's request for enforcement discretion.12
+
+10:45 a.m. Appeal for energy conservation issued through public news media for HE 18:00
+
+- 21:00 (i.e., 5:00 - 9:00 p.m.).
+•
+
+3:42 p.m.: ERCOT submitted an official request to DOE seeking FPA § 202(c) relief for
+the hours of 5:00-9:00 pm on September 7 and 8.
+
+•
+
+5:56 p.m.: DOE sent ERCOT Order No. 202-23-1 granting FPA § 202(c) request.
+
+•
+
+6:17 p.m.: Non-Spin deployed.
+
+•
+
+6:34 p.m.: ECRS began deployment.
+
+•
+
+6:47 p.m.: Market Notice issued attaching DOE's FPA § 202(c) Order and explaining the
+process for utilizing allowances provided by the Order.13
+
+•
+
+6:51 p.m.: All ECRS deployed.
+
+•
+
+6:55 p.m.: Transmission Watch issued forthe area south of San Antonio due to a constraint
+on the DELMSAN5 for high post-contingency overloads in the area.
+
+•
+
+7:00 p.m. Manual action taken using base case constraint PAWNEE-TANGO for post
+contingency overload of DELMSAN5.
+
+•
+
+8:03 p.m.: All ECRS had been recalled.
+
+•
+
+8:04 p.m.: All Non-Spin had been recalled.
+
+12 ERCOT issued a Market Notice at 10:33 a.m. announcing TCEQ's approval of enforcement discretion for
+September 7, available on ERCOT's website at: https://www.ercot.com/services/comm/mkt notices/M-13090723-01.
+13 ERCOT's Market Notice attaching and describing DOE's issuance of Order No. 202-23-1 is available on
+ERCOT's website at: https://www.ercot.com/services/comm/mkt notices/M-C090723-01.
+
+Page 8 of 10
+
+•
+
+8:23 p.m.: Transmission Watch cancelled.
+
+•
+
+9:00 p.m.: Watch and public energy conservation appeal cancelled.
+
+Friday, September 8
+• Forecasts:
+
+•
+
+o
+
+Projected Peak Hourly Demand: 84,336 MW
+
+o
+
+Proj ected Tightest Hour: HE 16:00
+
+o
+
+Projected Demand during HE 16:00: 84,336 MW
+
+o
+
+Projected Wind during HE 16:00: 5,679 MW
+
+o
+
+Projected Solar during HE 16:00: 13,209 MW
+
+Actuals:
+o
+
+Peak Hourly Demand: 84,182 MW during HE 17:00
+
+o
+
+Tightest Hour: HE 19:00
+
+o
+
+Actual Load during HE 19:00: 80,512 MW
+
+o
+
+Wind during HE 19:00: 6,869 MW
+
+•
+
+4:06 p.m.: ECRS deployed.
+
+•
+
+4:10 p.m.: Non-Spin deployed.
+
+•
+
+5:45 p.m.: All ECRS recalled.
+
+•
+
+6:56 p.m.: ECRS deployed to assist with solar generation ramp down.
+
+•
+
+7:32 p.m.: All ECRS recalled.
+
+•
+
+7:55 p.m.: All Non-Spin recalled.
+IV.
+
+CONCLUSION
+
+ERCOT will continue to take all actions necessary to ensure the reliability of the ERCOT
+
+System. ERCOT would be pleased to provide any additional information regarding the September
+6,2023 EEA that may be helpful for the Commission' s consideration. ERCOT personnel will be
+
+available at the Commission' s September 14, 2023 Open Meeting to address any questions
+
+regarding that event.
+
+Page 9 of 10
+
+Dated: September 13, 2023
+
+Respectfully submitted,
+
+/s/ Matthew Arth
+Chad V. Seely
+Senior Vice President and General Counsel
+Texas Bar No. 24037466
+(512) 225-7035 (Phone)
+Chad.Seely@ercot.com
+Nathan Bigbee
+Deputy General Counsel
+Texas Bar No. 24036224
+(512) 225-7093 (Phone)
+Nathan.Bigbee@ercot.com
+
+Matthew A. Arth
+Regulatory Counsel
+Texas Bar No. 24090806
+(512) 275-7435 (Phone)
+Matthew.Arth@ercot.com
+8000 Metropolis, Bldg. E, Ste. 100
+Austin, Texas 78744
+
+ATTORNEYS FOR ELECTRIC
+RELIABILITY COUNCIL OF TEXAS, INC
+
+Page 10 of 10
+
+

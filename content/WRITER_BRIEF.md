@@ -51,3 +51,11 @@ Copy numbers exactly as they appear there.
 The bill PDFs put line numbers inside sentences. `sources/text/<bill-id>.alt.txt` (sb6-89r, hb1500-88r, sb3-87r,
 hb4492-87r, sb2627-88r) is the same enrolled bill from the Legislature's HTML version, without line numbers.
 Quote from the .alt.txt file using the same source id.
+
+## Update: more sources are now saved
+`sources/sources.yaml` now lists about 145 documents, including PUCT large-load rules and filings, Batch Zero
+documents, the Permian 765 kV orders, DRRS (NPRR1309) reports, the 4CP proposal, Winter Storm Fern (January 2026)
+reports, Texas Energy Fund rules, PCM filings, Public Law 119-21, IMM State of the Market reports for 2021-2025,
+Elliott and September 2023 EEA reports, the February 2021 PUCT pricing orders and IMM letters, EIA gas pages,
+ICE contract specifications, and more PURA chapters. Read the list before you start.
+The OCR copies `imm-som-2025.ocr.txt` and `imm-som-2024.ocr.txt` now exist (tables are legible there).

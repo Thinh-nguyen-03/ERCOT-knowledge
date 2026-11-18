@@ -1,0 +1,12 @@
+{
+ "id": "ercot-ltlf-2026-prelim",
+ "title": "Preliminary Long-Term Load Forecast for 2026-2032 (PUCT Project 58777 filing)",
+ "publisher": "ERCOT",
+ "tier": 2,
+ "edition": "2026-04-15",
+ "url": "https://interchange.puc.texas.gov/Documents/58777_38_1622647.PDF",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 950049,
+ "raw_sha256": "fe4c6cec7a244daf3a4228ff8932d3a54588bffcb5172ea0ecfb43e73cdf3b79",
+ "text_chars": 9644
+}

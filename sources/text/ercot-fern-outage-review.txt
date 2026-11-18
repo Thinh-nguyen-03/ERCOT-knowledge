@@ -1,0 +1,823 @@
+CONFIDENTIAL
+PUBLIC
+
+Presentation Roadmap
+PART I | WINTER STORM FERN
+• Review scope and results
+
+Winter Readiness Briefing
+
+Winter Storm Fern Forced Outage Review
+Inspection Process Refresher
+
+•
+
+Common causes by asset class
+
+•
+
+Prevention practices and RFI follow-up
+
+PART II | INSPECTION PROCESS REFRESHER
+• Response timing and escalation exposure
+•
+
+Cyle Lublin
+
+Weatherization Field Services Analyst Lead
+October 2026
+
+Portal readiness, uploads, and safe inspections
+
+PART I | WINTER STORM FERN
+PUBLIC
+
+Dispatchable Generation: common causes during Winter Storm Fern
+Control-path, combustion systems, air inlets, and coal-path issues drove the largest dispatchable impacts.
+
+Total Number of
+Outages
+76
+
+Total MWh Lost
+~156,000 MWh
+
+Total MWh Lost
+0
+
+20,000
+
+Valves / positioners /
+controls
+
+11 outages
+
+Vibration / exciter /
+probes
+
+5 outages
+
+Air preheater /
+flame support
+
+2
+
+Air inlet /
+guide vane
+
+9
+
+Coal conveyor /
+belt
+
+40,000
+
+4
+
+60,000
+
+54,150
+40,831
+
+15,046
+13,000
+
+7,730
+
+Key takeaway: Prepare for both the problems that happen most often and the problems that could cause the biggest loss
+of delivered energy.
+
+PART I | WINTER STORM FERN
+PUBLIC
+
+Wind and Solar Generation: common causes during Winter Storm Fern
+Icing dominated renewable impacts, with faults and electrical issues also contributing.
+
+Total Number of
+Outages
+107
+
+Total MWh Lost
+~610,000 MWh
+
+Total MWh Lost
+0
+
+100,000
+
+200,000
+
+51 Outages
+
+Icing / freezing
+Icing + faulted
+turbines
+
+17
+
+Turbine faults /
+repairs
+
+18
+
+Cold-weather
+operating limits
+
+9 31,419
+
+Electrical / inverter /
+feeder / breaker
+
+7 21,851
+
+300,000
+
+400,000
+
+325,872
+
+160,910
+
+53,083
+
+Key takeaway: When weather and equipment problems happen at the same time, make sure your outage logs and
+ERCOT Outage Schedule inputs clearly explain which issue caused the loss of output.
+
+PART I | WINTER STORM FERN
+PUBLIC
+
+Energy storage: common causes during Winter Storm Fern
+Applying the 2-hour cap shifts the largest MWh impact to controls / PPC / communications.
+
+Total Number of
+Outages
+25
+
+Total MWh Lost
+2,162 MWh
+
+MWh Lost
+0
+
+200
+
+Controls / PPC /
+communications
+Transformer / CT /
+switchgear
+
+600
+
+8 outages
+4 outages
+
+Breaker / feeder /
+bus
+
+5 outages
+
+Inverter / cell /
+controller
+
+188
+
+Water intrusion /
+PCS enclosure / HVAC
+
+400
+
+96
+
+800
+
+1,000
+
+1,200
+
+930
+
+502
+394
+
+3 outages
+2 outages
+
+ESR = Energy Storage Resource; PPC = Power Plant Controller; CT = Current Transformer.
+
+Key takeaway: Do not prioritize preparation solely by how often an issue occurs; verify electrical and transformer-related
+vulnerabilities that may be less frequent but capable of resulting in significant energy delivery loss.
+
+PART I | WINTER STORM FERN
+PUBLIC
+
+Transmission: common causes during Winter Storm Fern
+Protection, switching equipment, oil/LTC issues, and line icing shaped outage exposure.
+
+Total Number of
+Outages
+83
+
+Total Outage Hours
+2,810 hours
+
+Total Outage Hours
+0
+
+200
+
+400
+
+Capacitor bank /
+fuse
+
+13 Outages
+
+Administrative /
+planned / testing
+
+10 Outages
+
+Transformer
+low oil
+Galloping /
+ice on line
+CT / metering /
+protection
+
+8
+
+531
+501
+
+10 Outages
+9 Outages
+
+600
+
+464
+356
+
+220
+
+Key takeaway: Consider both recurrence and outage duration when prioritizing winter work, particularly for equipment or
+conditions capable of keeping transmission facilities unavailable for extended periods.
+
+PART I | WINTER STORM FERN
+PUBLIC
+
+Cross-asset failure families and prevention priorities
+Use Fern patterns to prioritize winter-readiness checks by asset class.
+
+Failure family
+Controls / Automation
+Electrical Protection / Switching
+Mechanical / Rotating / Flow-path
+
+Icing / Cold-environment
+Fuel / Combustion Support
+Transformer / Oil / LTC
+
+HIGH
+
+Valves / controls
+
+LOW
+HIGH
+
+IRR - Wind
+MEDIUM
+
+Turbine controls
+
+MEDIUM
+
+Feeders / breakers
+
+IRR - Solar
+MEDIUM
+
+Inverter controls
+
+HIGH
+
+ESR
+HIGH
+
+controls / communications
+
+HIGH
+
+Transmission
+MEDIUM
+
+Protection logic
+
+HIGH
+
+Inverters / feeders
+
+Switchgear / breakers
+
+Breakers / relays
+
+Rotating / flow path
+
+Turbine faults
+
+MEDIUM
+
+LOW
+
+LOW
+
+LOW
+
+MEDIUM
+
+HIGH
+
+MEDIUM
+Panel icing
+
+LOW
+
+Thermal / HVAC
+
+HIGH
+
+Galloping / ice
+
+HIGH
+
+-
+
+-
+
+-
+
+-
+
+LOW
+
+LOW
+
+Air / instrument systems
+
+Fuel / combustion
+
+Blade icing
+
+HIGH = strong Fern signal / prominent prevention target;
+MEDIUM
+MEDIUM
+= meaningful secondary pattern;
+LOW
+LOW = less prominent, less frequent, or less clearly supported in Fern data;
+— = no priority assigned in this comparison.
+HIGH
+
+Rating legend:
+
+Dispatchable
+
+MEDIUM
+
+Transformer alarms
+
+HIGH
+
+Transformer / CT
+
+HIGH
+
+Oil / LTC
+
+Acronyms: IRR = Intermittent Renewable Resource; ESR = Energy Storage Resource;
+LTC = Load Tap Changer; PPC = Power Plant Controller; CT = Current Transformer;
+HVAC = Heating, Ventilation, and Air Conditioning.
+
+Key takeaway: Winter preparation should fit the type of facility. The biggest risks are not the same for dispatchable
+generation, renewables, storage, and transmission.
+
+PART I | WINTER STORM FERN
+PUBLIC
+
+What Market Participants should do before winter to prevent outages
+These are based on Winter Storm Fern and other previous winter storm findings
+
+1
+•
+
+•
+
+•
+
+2 Test alarms and controls
+
+Review your CWCC list
+Check actual cold weather critical
+component (CWCC) equipment
+and support-system
+dependencies, not only historical
+labels.
+Add overlooked components that
+can cause trips, derates, or
+failures to start.
+Use ERCOT's sample CWCC list
+as an illustrative reference to
+prompt discussions, not as a
+mandatory checklist.
+
+•
+
+Test telemetry, alarm routing, and
+communications.
+
+•
+
+Confirm setpoints, Power Plant
+Controller logic, and response
+under winter conditions.
+
+•
+
+Check oil levels, pressure,
+temperature, SF6 levels, and
+protection circuits.
+
+3 Inspect repeat failure points
+•
+
+Electrical: transformers, breakers,
+arresters, and protection
+equipment.
+
+•
+
+Support systems: heating / heat
+tracing, cooling, instrument air,
+and fuel / combustion support.
+
+•
+
+Asset-specific: rotating
+equipment and wind, solar, and
+storage systems.
+
+Key takeaway: Check the systems that support your weather-critical equipment, not just the equipment itself. Alarms,
+controls, heating, cooling, instrument air, and fuel support can all affect whether critical equipment works when needed.
+
+PART II | NOTICE OF INSPECTION
+PUBLIC
+
+Part II: Inspection Process Refresher
+
+Under 16 TAC §25.55(d)(1)(A) and (g)(1)(A):
+Generation entities and TSPs must submit all requirements for accessing their facilities to ERCOT,
+commission staff, and designated contractors no later than 24 hours after receiving an inspection notice.
+
+ServiceNow elapsed time is measured in hours.
+
+Email or a support request may document a problem, but it does not replace timely portal acceptance.
+
+Key takeaway: Make sure someone can complete the unique-link portal acknowledgement within 24 hours; emails and
+support requests do not replace the required portal action.
+
+PART II | NOTICE OF INSPECTION
+PUBLIC
+
+Before the inspection: contacts, certificates, and NOI acceptance
+Set up the people and portal access needed before the 24-hour clock starts.
+
+1
+
+Keep AR / BAR current
+
+•
+
+Maintain current contacts,
+inboxes, phone numbers, and
+backup coverage.
+
+•
+
+•
+
+Confirm how notices are routed
+internally when a contact is
+unavailable.
+Add
+ercot@servicenowservices.com to
+your approved sender list.
+
+2 Verify certificates and roles
+•
+
+Confirm the responding user has
+an active digital certificate.
+
+•
+
+Assign the W&I Portal manager
+role:
+SN_M_W_MGR_ECEII
+
+•
+
+Do not concurrently assign the
+read-only role:
+SN_M_W_VIEW_ECEII
+
+3 Acknowledge through NOI link
+
+•
+
+Use the unique link provided in the
+NOI email.
+
+•
+
+The NOI is not accessible directly
+from the portal.
+
+•
+
+Forward internally as needed but
+make sure the authorized portal
+response is completed.
+
+Key takeaway: Build coverage before the NOI is issued so someone can acknowledge the notice quickly and correctly.
+
+PART II | NOTICE OF INSPECTION
+PUBLIC
+
+Before the inspection: prepare and share documentation
+Use the inspection work order to communicate, upload records, and clarify site details.
+
+1 Communicate proactively
+•
+•
+
+Use the inspection work order for
+inspector communication.
+
+2
+
+•
+
+Coordinate with on-site and offsite staff responsible for the
+inspection.
+
+•
+
+•
+
+Confirm arrival procedures,
+contact details, and logistics.
+
+•
+
+•
+
+Share changes through work
+order messaging.
+
+Review key documents
+
+3 Prepare and share records
+•
+
+Attach all relevant records to the
+inspection work order.
+
+•
+
+Confirm weather-critical
+component lists.
+
+Organize documents for on-site
+availability.
+
+•
+
+Review weatherization
+procedures, staffing plans, and
+training records.
+
+Include maintenance records,
+operator logs, and supporting
+evidence.
+
+•
+
+Provide site-specific safety and
+access requirements.
+
+Review 16 TAC §25.55 and
+applicable inspection checklists.
+
+Key takeaway: Prepare records before ERCOT arrives so on-site time can focus on facility conditions instead of
+document gathering.
+
+PART II | NOTICE OF INSPECTION
+PUBLIC
+
+During the inspection: arrival, review, and walkthrough
+Inspector compares documentation to field conditions and confirms weatherization readiness.
+
+Inspection step
+
+What to expect
+
+Arrival and site entry
+
+Inspector checks in with the designated site contact and confirms safety requirements.
+
+Initial meeting
+
+Introductions, site conditions, access requirements, and inspection scope are confirmed.
+
+Documentation review
+
+Inspector reviews documents provided in the portal and available on-site. This can be
+expedited if documentation was provided in the portal.
+
+Site walkthrough
+
+Inspector examines weather-critical components, support systems, insulation,
+enclosures, and heating/cooling systems.
+
+Wrap-up and follow-up
+
+Inspector summarizes key findings and immediate concerns before leaving the site.
+
+Keep knowledgeable personnel available and be prepared to explain procedures, training, staffing coverage, maintenance cycles,
+and extreme-weather response.
+
+Key takeaway: During the inspection, be ready to connect records, site conditions, and staff knowledge in real time.
+
+PART II | NOTICE OF INSPECTION
+PUBLIC
+
+After the inspection: report, deficiencies, and follow-up
+Inspection results are documented in the work order and tracked through closeout.
+
+DEFICIENCY
+RESOLUTION
+
+INSPECTION REPORT
+•
+
+•
+
+•
+
+Final report is typically
+attached to the work
+order within two weeks.
+Report addresses
+compliance with 16 TAC
+§25.55.
+Review the report and
+any noted
+concerns/deficiencies
+promptly.
+
+•
+
+ERCOT collaborates with
+the RE/TSP to address
+identified deficiencies.
+
+•
+
+Resolve open items
+quickly when possible.
+
+•
+
+Provide evidence
+through the work order.
+
+CURE PERIOD TASK
+
+•
+
+•
+
+•
+
+Unresolved deficiencies
+may receive a
+reasonable cure period.
+Deficiencies are tracked
+through a Cure Period
+Task (CPTSK).
+Keep corrective actions
+moving to completion.
+
+PROGRESS REPORTING
+•
+
+Submit CPTSK progress
+reports by the 15th and
+last day of each month.
+
+•
+
+Continue updates until
+the deficiency is declared
+closed by ERCOT.
+
+•
+
+Unremedied deficiencies
+extending beyond the
+cure period will be
+reported to the PUCT.
+
+Key takeaway: After the inspection, take ownership of open action items and provide timely evidence until issues and/ore
+deficiencies are resolved.
+
+PART II | NOTICE OF INSPECTION
+PUBLIC
+
+What’s New in the Notice of Inspection
+
+Two updates clarify what ERCOT needs before the inspection begins.
+
+Site operating status is now part of the 24-hour response
+
+Attach site access forms in advance
+
+Report the site’s expected status on the inspection date:
+
+If ERCOT inspection personnel must review, complete, or
+sign a form or agreement before entering the site, attach it
+to the work order in advance.
+
+•
+
+Operating
+
+•
+
+Available but not operating
+
+•
+
+De-energized
+
+•
+
+Planned or Forced Outage
+
+•
+
+Reserve Shutdown
+
+•
+
+Seasonally idle
+
+•
+
+Mothballed
+
+•
+
+In commissioning
+
+This includes visitor orientation forms, site access agreements,
+and similar documents.
+
+Notify ERCOT through work order messaging if the site’s
+status changes after you acknowledge the NOI
+
+Key takeaway: Report site status in the 24-hour response, use work order messaging if it changes, and upload access
+forms with the inspection acknowledgement.
+
+PUBLIC
+
+Learn More
+www.ercot.com
+
+Download ERCOT Mobile App
+
+Questions / Comments?
+Connect With Us
+facebook.com/ERCOTISO
+
+Key takeaway: Strong weatherization program means keeping
+equipment prepared, documenting outages clearly, and responding to
+NOIs on time. RFIs are used to better understand outages and ensure
+Market Participants are meeting the intent of the rule.
+
+Cyle.Lublin@ercot.com
+Weatherization Field Services Analyst Lead
+
+x.com/ercot_iso
+linkedin.com/company/ercot
+instagram.com/ercot_iso
+
+

@@ -1,0 +1,12 @@
+{
+ "id": "ercot-nprr1309-puct-report",
+ "title": "NPRR1309 PUCT Report (Dispatchable Reliability Reserve Service)",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "2026-07-09",
+ "url": "https://www.ercot.com/files/docs/2026/07/11/1309NPRR-35-PUCT-Report-070926.docx",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 571118,
+ "raw_sha256": "ee7ce5ca8183c6547f7a527f3cc671e7ac1ff40f60ef520c37cded3ddfdd3677",
+ "text_chars": 1768763
+}

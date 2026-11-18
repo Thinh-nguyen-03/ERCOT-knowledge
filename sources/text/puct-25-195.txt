@@ -1,0 +1,350 @@
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+RELATING
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter I.
+
+TRANSMISSION AND DISTRIBUTION.
+
+DIVISION 1.
+
+OPEN-ACCESS COMPARABLE TRANSMISSION SERVICE FOR
+ELECTRIC UTILITIES IN THE ELECTRIC RELIABILITY COUNCIL OF
+TEXAS.
+
+§25.195. Terms and Conditions for Transmission Service.
+(a)
+
+Applicability. This section applies to the provision of transmission service in the Electric Reliability
+Council of Texas (ERCOT) region by transmission service providers (TSPs) to transmission service
+customers. This section also applies to ERCOT.
+
+(b)
+
+Definitions. The following terms have the following meanings unless context indicates otherwise.
+(1)
+Transmission-level generator -- a transmission service customer that is an electric generating
+facility under §25.5 of this title (relating to Definitions), is interconnected to a TSP’s system
+at or above 60 kilovolts (kV), and is located behind one or more unique points of
+interconnection.
+(2)
+Transmission system upgrade -- any additional transmission facilities or modifications
+beyond what is required to interconnect a transmission-level generator to the transmission
+system. The construction of a new substation or modifications to an existing substation is not
+a transmission-system upgrade if necessary to interconnect a transmission-level generator.
+
+(c)
+
+Interconnection agreement. As a condition of obtaining transmission service, a transmission service
+customer that owns electrical facilities in the ERCOT region must execute an interconnection agreement
+with the TSP to which it is physically interconnected. The commission-approved standard generation
+interconnection agreement (SGIA) must be used for the interconnection of a new transmission service
+customer that is a transmission-level generator. The SGIA may be modified by mutual agreement of the
+parties to address specific facts presented by a particular interconnection request provided that the
+modifications do not frustrate the goal of expeditious, nondiscriminatory interconnection and are not
+otherwise inconsistent with the principles underlying the commission-approved SGIA. The SGIA must
+not be modified to relieve a transmission-level generator’s responsibility for all costs of installing
+interconnection facilities that are incurred by the TSP that exceed the allowance under subsection (f) of
+this section.
+
+(d)
+
+Transmission service provider responsibilities. The TSP must plan, construct, operate, and maintain
+its transmission system in accordance with good utility practice to provide transmission service
+customers with transmission service over its transmission system in accordance with Division 1 of this
+subchapter (relating to Open-Access Comparable Transmission Service for Electric Utilities in the
+Electric Reliability Council of Texas). The TSP must, consistent with good utility practice, endeavor to
+construct and place into service sufficient transmission capacity to ensure adequacy and reliability of
+the network to deliver power to transmission service customer loads. The TSP must plan, construct,
+operate, and maintain facilities that are needed to relieve transmission constraints, as recommended by
+ERCOT and approved by the commission, in accordance with Division 1 of this subchapter. The
+construction of facilities requiring commission issuance of a certificate of convenience and necessity is
+subject to such commission approval.
+
+(e)
+
+Construction of new facilities. If new transmission facilities or interconnections between TSPs are
+needed to provide transmission service in response to a request for such service, the TSPs must construct
+or acquire transmission facilities necessary to provide the transmission service in accordance with good
+utility practice, unless ERCOT identifies an alternative means of providing the transmission service that
+is less costly, is operationally sound, and is as effective as the new transmission facilities would be at
+providing the requested transmission service.
+
+§25.195 - 1
+
+Effective 03/07/24
+(P-55566)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+RELATING
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter I.
+
+TRANSMISSION AND DISTRIBUTION.
+
+DIVISION 1.
+
+OPEN-ACCESS COMPARABLE TRANSMISSION SERVICE FOR
+ELECTRIC UTILITIES IN THE ELECTRIC RELIABILITY COUNCIL OF
+TEXAS.
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(f)
+
+An affected TSP may require the transmission service customer to pay a reasonable deposit or
+provide another means of security, to cover the costs of planning, licensing, and constructing
+any new transmission facilities that will be required in order to provide the requested service.
+Any repayment of a cash deposit under subparagraphs (A) or (B) of this paragraph must
+include interest at a commercially reasonable rate based on that portion of the deposit being
+returned.
+(A)
+If the new transmission service customer’s interconnection is completed and the
+transmission service customer begins to take the requested transmission service, the
+TSP must return the deposit or security to the transmission service customer.
+(B)
+If the new transmission service customer’s interconnection is not completed and the
+new transmission facilities are not required, the TSP may retain as much of the deposit
+or security as is required to cover the costs the TSP incurred in planning, licensing,
+and construction activities related to the planned new transmission facilities.
+If the TSP’s acquisition or construction of the new transmission facilities would impair the
+tax-exempt status of obligations issued by the TSP then the TSP may require a contribution in
+aid of construction (CIAC) from the transmission service customer to cover all or part of the
+cost of acquiring and constructing the new transmission facilities.
+For a transmission service customer that is not a transmission-level generator, the TSP is
+responsible for the cost of installing any new transmission facilities, other than those provided
+for in paragraph (2) of this subsection, in a contractual agreement between the TSP and the
+customer, or in a commission-approved transmission service tariff.
+For a transmission-level generator, the costs of installing new transmission facilities must be
+borne in accordance with subsection (f) of this section.
+
+Cost responsibilities to interconnect transmission-level generatorsat transmission voltage.
+(1)
+A new transmission-level generator seeking interconnection to a TSP's transmission network
+is responsible for the cost of installing step-up transformers and protective devices at the point
+of interconnection capable of electrically isolating the transmission-level generator.
+(2)
+If the SGIA between the transmission-level generator and the TSP is executed on or before
+December 31, 2025, then the TSP is responsible for the cost of installing any new transmission
+facilities.
+(3)
+If the SGIA between a transmission-level generator and TSP is executed after December 31,
+2025, then the interconnecting transmission-level generator is responsible for all costs of
+installing interconnection facilities that are incurred by the TSP that exceed the allowance
+established in accordance with this paragraph. The TSP is responsible for the costs of installing
+any transmission system upgrades deemed necessary by the TSP.
+(A)
+The allowance will be calculated by the commission as follows:
+(i)
+For a transmission-level generator interconnecting at a transmission voltage
+of 138 kV or less, the allowance beginning on January 1, 2026, is based on
+the 2024 amount of $14,000,000 adjusted for subsequent years consistent
+with clause (ii) of this subparagraph. For a transmission-level generator
+interconnecting at a transmission voltage higher than 138kV, the allowance
+beginning on January 1, 2026, is based on the 2024 amount of $20,000,000
+adjusted for subsequent years consistent with clause (ii) of this
+subparagraph.
+(ii)
+The commission will increase or decrease the allowance on or before
+January 1 of each calendar year in accordance with this clause. The
+
+§25.195 - 2
+
+Effective 03/07/24
+(P-55566)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+RELATING
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter I.
+
+TRANSMISSION AND DISTRIBUTION.
+
+DIVISION 1.
+
+OPEN-ACCESS COMPARABLE TRANSMISSION SERVICE FOR
+ELECTRIC UTILITIES IN THE ELECTRIC RELIABILITY COUNCIL OF
+TEXAS.
+
+(B)
+
+(C)
+
+(D)
+
+(E)
+
+commission will publish the new values of the allowance to be used in the
+subsequent calendar year on or around November 1 of each calendar year.
+(I)
+The annual adjustment will be proportional to the third quarter to
+third quarter percentage change in the national Consumer Price
+Index (CPI) published by the United States Department of Labor,
+Bureau of Labor Statistics.
+(II)
+The executive director must designate a substitute index to be used
+as a reference for adjustments under this clause if the index
+referenced by subclause (I) of this clause becomes unavailable.
+A transmission-level generator that seeks to interconnect an energy storage resource
+is only eligible to receive the allowance described under this subsection and not
+additional allowances provided to interconnect load, such as may be provided under
+a tariff.
+The amount of the allowance that a transmission-level generator is provided to
+complete the interconnection is the amount that was in effect on the date the notice to
+proceed with the interconnection was issued by the transmission-level generator to
+the TSP in accordance with the executed SGIA. A TSP’s costs to procure, design, and
+construct or upgrade interconnection facilities that exceed the allowance must be
+directly billed to and collected from the transmission-level generator that caused the
+costs to be incurred by the TSP. The TSP may collect such costs as a contribution in
+aid to construction prior to procuring, designing, and constructing or upgrading the
+interconnection facilities.
+Notwithstanding any payments made by a transmission-level generator under this
+section, an interconnecting TSP retains ownership and control of its transmission
+facilities.
+After the completion and energization of the initial interconnection, the responsibility
+for costs incurred by a TSP for new or upgraded interconnection facilities due to
+modifications or expansions made by the interconnected transmission-level generator
+will be borne in accordance with this subparagraph.
+(i)
+For the ten calendar years following the date of energization for the initial
+interconnection of the transmission-level generator, and to the extent that the
+costs of the new or upgraded interconnection facilities needed due to
+modifications made by the transmission-level generator exceed the
+remainder of the allowance calculated under paragraph (3) of this
+subsection, the current owner of the transmission-level generator that is
+listed in the new or amended SGIA is responsible for the interconnection
+costs incurred by the TSP, where:
+(I)
+the allowance is the amount that was in effect on the date the notice
+to proceed with the initial interconnection was issued in accordance
+with paragraph (3) of this subsection and the executed SGIA; and
+(II)
+the remainder is the difference between the allowance described
+under subclause (I) of this clause and the actual costs that a TSP
+incurred to construct, design, and upgrade interconnection facilities
+to initially interconnect the transmission-level generator. The
+remainder will be adjusted by the TSP in accordance with the
+methodology in subparagraph (A)(ii) of this paragraph.
+
+§25.195 - 3
+
+Effective 03/07/24
+(P-55566)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+RELATING
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter I.
+
+TRANSMISSION AND DISTRIBUTION.
+
+DIVISION 1.
+
+OPEN-ACCESS COMPARABLE TRANSMISSION SERVICE FOR
+ELECTRIC UTILITIES IN THE ELECTRIC RELIABILITY COUNCIL OF
+TEXAS.
+
+(ii)
+
+(F)
+
+After ten calendar years from the date of energization for the initial
+interconnection, the transmission-level generator is eligible for a new
+allowance determined in accordance with paragraph (3)(A) of this
+subsection for the costs of new or upgraded interconnection facilities
+necessary to accommodate modifications made by the transmission-level
+generator at the same point of interconnection.
+Beginning on or around May 1, 2029, and at least every five calendar years thereafter,
+the commission will open a project and request comments on whether the allowance
+or annual allowance adjustment methodology described in paragraph (3)(A) of this
+subsection should be modified. If the commission determines the allowance or the
+annual allowance adjustment methodology should be adjusted, the commission will
+initiate a rulemaking proceeding.
+
+(g)
+
+Curtailment of service. In an emergency situation, as determined by ERCOT and at its direction, a
+TSP may interrupt transmission service on a non-discriminatory basis, if necessary, to preserve the
+stability of the transmission network and service to customers. Such curtailments must be carried out in
+accordance with §25.200 of this title (relating to Load Shedding, Curtailments, and Redispatch) and in
+accordance with ERCOT protocols.
+
+(h)
+
+Filing of contracts. An electric utility must file with the commission each new, and all amendments to,
+interconnection agreements within 30 days of execution, including a cover letter explaining any
+deviations from the commission-approved SGIA. An interconnection agreement is subject to
+commission review and approval upon request by any party to the agreement. Appropriate portions of
+the filings may be filed confidentially and be subject to provisions of confidentiality to protect
+competitively sensitive commercial or financial information.
+
+(i)
+
+Transmission-level generator interconnection costs report. ERCOT must, in consultation with
+commission staff, include as part of the ERCOT Generation Interconnection Status report or any
+successor report the generation interconnection costs for each new transmission-level generator
+interconnected in each calendar month based on date of energization, including the total cost of the
+interconnection, any CIAC paid by the transmission-level generator, and any above-allowance costs
+incurred by the transmission-level generator.
+(1)
+Beginning in January 2026, within 90 calendar days from the end of each calendar month the
+TSP must provide to ERCOT the information described in this subsection for each new
+transmission-level generator interconnection to the TSP’s system in that calendar month.
+(2)
+Beginning in April 2027 and every calendar year thereafter, ERCOT will publish the
+information described in this subsection in a separate report for each new transmission-level
+generator interconnection to the ERCOT transmission system in the prior calendar year.
+ERCOT will, at a minimum, provide the information described in this subsection and total
+amounts for the prior calendar year.
+
+§25.195 - 4
+
+Effective 03/07/24
+(P-55566)
+
+

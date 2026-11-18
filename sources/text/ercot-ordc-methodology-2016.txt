@@ -1,0 +1,636 @@
+Date:
+To:
+From:
+Subject:
+
+June 7, 2016
+Board of Directors
+Joel Mickey, Director Wholesale Market Design & Operations
+Other Binding Document, Methodology for Implementing Operating
+Reserve Demand Curve (ORDC) to Calculate Real-Time Reserve Price
+Adder
+Issue for the ERCOT Board of Directors
+
+ERCOT Board of Directors Meeting Date: June 14, 2016
+Item No.: 2.2
+Issue:
+Consideration of revisions to the Other Binding Document, Methodology for
+Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time
+Reserve Price Adder consistent with ERCOT staff’s recommendation.
+Background/History:
+Section 6.5.7.3, Security Constrained Economic Dispatch, of the ERCOT Protocols
+requires Technical Advisory Committee (TAC) review and ERCOT Board of Directors
+(Board) approval of the methodology for implementing the ORDC to calculate the RealTime Reserve Price Adder in the Other Binding Document, Methodology for
+Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time
+Reserve Price Adder (Methodology).
+On April 22, 2016 ERCOT proposed revisions to the Methodology to align with Nodal
+Protocol Revision Request (NPRR) 766, Alignment of System-Wide Discount Factor
+Description with Operational Adjustments to RDF; and to align with the operational
+adjustment to the Reserve Discount Factor (RDF) in the Physical Responsive
+Capability (PRC) and ORDC calculations. Both the Methodology and NPRR766 are
+recommended to be effective on October 1, 2016.
+Key Factors Influencing Issue:
+At its May 26, 2016 meeting, TAC unanimously voted to endorse the proposed
+changes to the Methodology, with an effective date of October 1, 2016 in conjunction
+with NPRR766, Alignment of System-Wide Discount Factor, as set forth in Attachment
+A hereto.
+Conclusion/Recommendation:
+ERCOT staff recommends that the Board approve revision of the Other Binding
+Document, Methodology for Implementing Operating Reserve Demand Curve (ORDC)
+to Calculate Real-Time Reserve Price Adder, consistent with TAC’s and ERCOT staff’s
+recommendation as set forth in Attachment A.
+
+Item 2.2
+ERCOT Public
+
+1
+
+ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.
+BOARD OF DIRECTORS RESOLUTION
+WHEREAS, after due consideration of the alternatives, the Board of Directors (Board) of
+Electric Reliability Council of Texas, Inc. (ERCOT) deems it desirable and in the best
+interest of ERCOT to modify the Other Binding Document, Methodology for
+Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time
+Reserve Price Adder;
+THEREFORE, BE IT RESOLVED, that the Other Binding Document, Methodology for
+Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time
+Reserve Price Adder is hereby modified to reflect the changes set forth in Attachment A
+to this Resolution.
+CORPORATE SECRETARY’S CERTIFICATE
+I, Vickie G. Leady, Assistant Corporate Secretary of ERCOT, do hereby certify that, at
+its June 14, 2016 meeting, the ERCOT Board passed a motion approving the above
+Resolution by ______.
+IN WITNESS WHEREOF, I have hereunto set my hand this ___ day of June, 2016.
+
+______________________________
+Vickie G. Leady
+Assistant Corporate Secretary
+
+Item 2.2
+ERCOT Public
+
+2
+
+Attachment A
+
+Methodology for Implementing Operating Reserve Demand
+Curve (ORDC) to Calculate Real-Time Reserve Price Adder
+
+Version _1.10
+
+© 2013 Electric Reliability Council of Texas, Inc. All rights reserved.
+
+Methodology for Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time Reserve Price
+Adder 102215100116
+PUBLIC
+
+Attachment A
+
+Document Revisions
+Date
+Approved
+11/19/13
+
+Version
+
+Description
+
+Author(s)
+
+Approved By
+
+Effective Date
+
+0.5
+
+ERCOT
+
+ERCOT Board
+
+Upon system
+implementation
+of NPRR568
+
+4/8/14
+
+0.6
+
+ERCOT Board approved NPRR568,
+Real-Time Reserve Price Adder
+Based on Operating Reserve
+Demand Curve, and associated
+OBD, Methodology for Implementing
+Operating Reserve Demand Curve
+(ORDC) to Calculate Real-Time
+Reserve Price Adder
+Revisions proposed via NPRR598,
+Clarify Inputs to PRC and ORDC
+
+ERCOT
+
+ERCOT Board
+
+Upon
+implementation
+of NPRR568
+
+6/1/14
+
+0.7
+
+ERCOT
+
+8/11/15
+
+0.8
+
+Partial unboxing of NPRR568 due to
+system implementation of NPRR568
+and NPRR555, Load Resource
+Participation in Security-Constrained
+Economic Dispatch
+Synchronize the OBD with as built
+methodology, the removal of Phase
+2, and the implementation of
+NPRR698
+Revisions proposed via NPRR710,
+Removal of ORDC Phase 2
+Language and Modification to HASL
+Calculation
+
+1.0
+
+1.1
+
+0.9
+
+TBD
+
+6/1/14
+
+ERCOT
+
+ERCOT Board
+
+9/1/15
+
+ERCOT
+
+ERCOT Board
+
+Upon
+implementation
+of NPRR710
+
+Unboxing of NPRR710 due to
+system implementation
+
+ERCOT
+
+ERCOT Board
+
+10/22/15
+
+Revisions proposed by NPRR766,
+Alignment of System-Wide Discount
+Factor Description with Operational
+Adjustments to RDF, to the systemwide discount factor determination
+
+ERCOT
+
+10/1/16
+
+Methodology for Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time Reserve Price
+Adder 102215100116
+i
+PUBLIC
+
+Attachment A
+
+PROTOCOL DISCLAIMER
+This document describes ERCOT systems and the response of these systems to Market
+Participant submissions incidental to the conduct of operations in the ERCOT Texas Nodal
+Market and is not intended to be a substitute for the ERCOT Protocols (available at
+http://www.ercot.com/mktrules/nprotocols/current), as amended from time to time. If any
+conflict exists between this document and the Protocols, the Protocols shall control in all
+respects.
+
+Methodology for Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time Reserve Price
+Adder 102215100116
+ii
+PUBLIC
+
+Attachment A
+
+Table of Contents
+1.
+
+Purpose ...................................................................................................................................1
+
+2.
+
+Methodology for Implementing ORDC .................................................................................1
+2.1.
+2.2.
+
+Determine VOLL ........................................................................................................1
+Determine PBMCL .....................................................................................................1
+2.2.1.
+Calculation of Rs and Rsns ...............................................................................3
+2.2.2.
+Calculation of  S RS  and  NS RSNS  ...........................................................5
+2.3. Determination of Price Adders (RTORPA and RTOFFPA) ......................................7
+3.
+
+Methodology Revision Process ..............................................................................................7
+
+4.
+
+Parameters for Implementing ORDC....................................................................................8
+
+Methodology for Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time Reserve Price
+Adder 102215100116
+iii
+PUBLIC
+
+Attachment A
+1. PURPOSE
+For each Security-Constrained Economic Dispatch (SCED) process, ERCOT calculates a RealTime On-Line Reserve Price Adder (RTORPA) and a Real-Time Off-Line Reserve Price Adder
+(RTOFFPA) based on the On-Line and Off-Line available reserves in the ERCOT System and
+the ORDC. The price after the addition of RTORPA to LMPs approximates the pricing outcome
+of Real-Time energy and Ancillary Service co-optimization since RTORPA captures the value of
+the opportunity cost of reserves based on the defined ORDC. Additionally, the Real-Time OffLine Reserve Capacity (RTOFFCAP) shall be administratively set to zero when the SCED
+snapshot of the Physical Responsive Capability (PRC) is less than or equal to the PRC MW at
+which Energy Emergency Alert (EEA) Level 1 is initiated. An Ancillary Service imbalance
+Settlement is done based on Protocol Section 6.7.4, Real-Time Ancillary Service Imbalance
+Payment or Charge, to make Resources indifferent to the utilization of their capacity for energy
+or Ancillary Service reserves.
+This document describes:
+ The ERCOT Board-approved methodology that ERCOT uses for determining the RealTime reserve price adders based on ORDC.
+ The ERCOT Board-approved parameters for implementing ORDC.
+2. METHODOLOGY FOR IMPLEMENTING ORDC
+For each execution of SCED, the System Lambda of the power balance constraint will be
+determined and the ORDC will be constructed as probability of reserves falling below the
+minimum contingency level (PBMCL) multiplied by the difference between Value of Lost Load
+(VOLL) and System Lambda. This approach is needed with the current rules in order to ensure
+that power balance is given the highest priority and can result in a reserve price that is near zero
+with an energy price near SWCAP under scarcity conditions.
+Determining the following values is a major part of implementing ORDC to calculate Real-Time
+Reserve Price Adder:
+1. VOLL
+2. PBMCL
+3. RTORPA and RTOFFPA
+2.1. Determine VOLL
+The VOLL is a parameter for implementing the ORDC and shall be approved by ERCOT Board.
+2.2. Determine PBMCL
+The key part of the concept is the determination of the PBMCL. PBMCL is derived from Loss
+of Load Probability curve (LOLP), which depends on many factors, including the probability of
+forced outages, probability of Load forecast error and probability of wind forecast error. LOLP
+at a given reserve level can be interpreted as the probability of the occurrence of an event with a
+magnitude greater than that reserve level. A minimum contingency level (X) is chosen in order
+to send an appropriate scarcity price signal to maintain reliability and stability of the system.
+Methodology for Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time Reserve Price
+Adder 102215100116
+Page 1
+
+Attachment A
+The PBMCL is constructed by shifting the curve to the right by the minimum contingency level
+(X) amount and setting the value to one for reserve levels below the minimum contingency level
+(X). The PBMCL curve for a given reserve level (R) is given as follows:
+
+LOLPR  X , R  X > 0
+1
+,R  X  0
+
+LOLP is determined by analyzing historic events defined as the difference between the hourahead forecasted reserves with the reserves that were available in Real-Time during the
+Operating Hour. These events are split into twenty-four groups, comprising of four seasons and
+six time-of-day blocks per day. These groups are used to determine twenty-four distinct normal
+probability distributions of the events, which will determine the LOLP for the corresponding
+season and time block. The detailed logic for determining LOLP is described as below:
+
+ R   
+
+1) For each Operating Hour in the study period, calculate the system-wide Hour-Ahead (HA)
+reserve using the snapshot of last Hourly Reliability Unit Commitment (HRUC) for the
+Operating Hour (at the end of Adjustment Period):
+HA Reserve = RUC On-Line Gen COP HSL - (RUC Load Forecast + RUC DCTIE Load)
++ RUC On-Line Load COP Non-Spin Responsibility + RUC On-Line Load COP Reg-Up
+Responsibility + RUC On-Line Load COP RRS Responsibility + RUC On-Line NonControllable Load COP Additional Available Capacity + RUC Off-Line Gen COP OFFNS
+HSL + RUC Off-Line Gen COP CST30HSL
+The calculation above excludes the following Generation Resources:
+(a)
+Intermittent Renewable Resources (IRRs) other than Wind-powered Generation
+Resources (WGRs);
+(b)
+Nuclear Resources; and
+(c)
+Resources with ONTEST COP Status.
+2) For each SCED interval in the study period, calculate the system-wide available SCED
+reserve using SCED telemetry and solution as:
+SCED Reserve = SCED On-Line Gen HSL – SCED Gen Base Point + SCED On-Line Load
+Telemetry RRS Schedule + SCED On-Line Non-Controllable Load Additional Available
+Capacity + SCED On-Line Load Telemetry Reg-Up Responsibility + SCED On-Line Load
+Telemetry Non-Spin Schedule + SCED Off-Line Gen OFFNS HSL + SCED Off-Line
+RTCST30HSL - SCED under-generation Power Balance MW
+The calculation above excludes the following Generation Resources:
+(a)
+Intermittent Renewable Resources (IRRs) other than Wind-powered Generation
+Resources (WGRs);
+(b)
+Nuclear Resources;
+(c)
+Resources with telemetered net real power (in MW) less than 95% of their
+telemetered LSL; and
+
+Methodology for Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time Reserve Price
+Adder 102215100116
+Page 2
+
+Attachment A
+(d)
+
+Resources with a telemetered status of:
+(i)
+ONTEST;
+(ii)
+STARTUP (except Resources with Non-Spin Ancillary Service Resource
+Responsibility greater than zero); or
+(iii) SHUTDOWN.
+
+3) For each Operating Hour in the study period, calculate the hourly average system-wide
+SCED reserve by averaging the interval SCED reserve in step 2).
+4) For each Operating Hour in the study period, calculate the system-wide Reserve Error as:
+Reserve Error = HA Reserve – SCED Reserve (Hourly Average) + Firm_Load_Shed (Hourly
+Average)
+5) For each Operating Hour in the study period, allocate it to the corresponding season and time
+block. All the hours will be split into 24 distribution groups based on the Season and the
+time of day:
+
+
+
+
+4 Seasons of
+o Winter (Months 12, 1, 2),
+o Spring (Months 3, 4, 5),
+o Summer (Months 6, 7, 8)
+o Fall (Months 9, 10, 11)
+6 time-of-day blocks each consisting of 4 hours
+
+6) Calculate the mean (  ) and standard deviation (  ) for each of the twenty-four distinct
+LOLP distributions using the calculated Reserve Error in step 4). The current values can be
+found at ERCOT.com on the Real-Time Market page. This hourly error is normally
+distributed and hence LOLP for a given value reserve level R can be calculated:
+LOLP ,  , R  1  CDF  ,  , R
+
+Where CDF is the Cumulative Distribution Function of the normal distribution with mean 
+and standard deviation  .
+2.2.1. Calculation of Rs and Rsns
+Rs is the reserves from Resources participating in SCED plus the Reg-Up and RRS from Load
+Resources and the additional available capacity from Load Resources other than Controllable
+Load Resources with a validated Real-Time RRS Schedule. Rsns is equal to Rs plus the reserves
+from Resources that are not currently available to SCED but could be available in 30 minutes.
+1) Rs is calculated based on SCED telemetry and solution as:
+Rs = RTOLCAP = RTOLHSL – RTBP + RTCLRCAP + RTNCLRCAP – RTOLNSRS –
+RTPBPC
+Methodology for Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time Reserve Price
+Adder 102215100116
+Page 3
+
+Attachment A
+
+Where:
+RTCLRCAP = RTCLRBP – RTCLRLPC – RTCLRNS + RTCLRREG
+RTNCLRCAP = RTNCLRNPC – RTNCLRLPC
+Where
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RTOLCAP is the system total Real-Time On-Line reserve capacity of all On-Line
+Resources for the SCED interval.
+RTOLHSL is the system total Real-Time telemetered High Sustained Limits (HSLs)
+for all Generation Resources (excluding non-Wind-powered Generation Resource
+(WGR) Intermittent Renewable Resources (IRRs), Nuclear Resources, Resources
+with a telemetered ONTEST, STARTUP (except Resources with Non-Spin Ancillary
+Service Resource Responsibility greater than zero), or SHUTDOWN Resource Status
+and Resources with telemetered net real power (in MW) less than 95% of their
+telemetered LSL) available to SCED for the SCED interval discounted by the systemwide discount factor.
+RTBP is the system total SCED Base Points for all Generation Resources (excluding
+all IRRs other than WGRs, nuclear Resources, Resources with a telemetered
+ONTEST, STARTUP (except Resources with Non-Spin Ancillary Service Resource
+Responsibility greater than zero), or SHUTDOWN Resource Status and Resources
+with telemetered net real power (in MW) less than 95% of their telemetered LSL) for
+the SCED interval discounted by the system-wide discount factor.
+RTCLRCAP is the system total Real-Time capacity from Controllable Load
+Resources for the SCED interval. It is the sum of SCED Base Points less the
+telemetered CLR LSL and Non-Spin Schedule for all Controllable Load Resources.
+RTNCLRCAP is the system total Real-Time capacity for all Load Resources other
+than Controllable Load Resources that have a validated Real-Time RRS Ancillary
+Service Schedule for the SCED interval.
+RTPBPC is the system total SCED under-generation Power Balance MW violated for
+the SCED interval.
+RTNCLRNPC is the system total Real-Time net real power consumption from all
+Load Resources other than Controllable Load Resources that have a validated RealTime RRS Ancillary Service Schedule for the SCED interval discounted by the
+system-wide discount factor.
+RTNCLRLPC is the system total Real-Time Low Power Consumption (LPC) from all
+Load Resources other than Controllable Load Resources that have a validated RealTime RRS Ancillary Service Schedule for the SCED interval discounted by the
+system-wide discount factor.
+RTOLNSRS is the system total Real-Time telemetered On-Line Non-Spin Ancillary
+Service Schedule for all On-Line Generation Resources for the SCED interval
+discounted by the system-wide discount factor.
+RTCLRBP is the system total SCED Base Points from Controllable Load Resources
+for the SCED interval discounted by the system-wide discount factor.
+RTCLRLPC is the system total Real-Time telemetered Low Power Consumption from
+Controllable Load Resources for the SCED interval discounted by the system-wide
+discount factor.
+
+Methodology for Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time Reserve Price
+Adder 102215100116
+Page 4
+
+Attachment A
+
+
+
+RTCLRREG is the system total validated capacity from Controllable Load Resources
+with Primary Frequency Response (not SCED qualified) Regulation-Up Ancillary
+Service Schedule discounted by the system-wide discount factor.
+RTCLRNS is the system total validated Real-Time telemetered Non-Spin Ancillary
+Service Schedules from Controllable Load Resources for the SCED interval
+discounted by the system-wide discount factor.
+
+The Resource reserve discount factors are the seasonal system level parameters calculated based
+on average seasonal temperature and can be different for different Resource type reserves.
+2) Rsns is calculated based on SCED telemetry and solution as
+Rsns = RTOLCAP + RTOFFCAP
+RTOFFCAP = RTCST30HSL + RTOFFNSHSL +RTCLRNS + RTOLNSRS
+Where
+
+
+
+
+
+
+
+
+RTOLCAP is the system total Real-Time On-Line reserve capacity of all On-Line
+Resources for the SCED interval.
+RTOFFCAP is the system total Real-Time Off-Line reserve capacity for the SCED
+interval.
+RTCST30HSL is the system total Real-Time telemetered HSLs of Generation
+Resources, excluding IRRs, that have telemetered an OFF Resource Status and can be
+started from a cold temperature state in 30 minutes and discounted by the systemwide discount factor.
+RTCLRNS is the system total validated Real-Time telemetered Non-Spin Ancillary
+Service Schedules from Controllable Load Resources for the SCED interval
+discounted by the system-wide discount factor.
+RTOLNSRS is the system total validated Real-Time telemetered On-Line Non-Spin
+Ancillary Service Schedule for all On-Line Generation Resources for the SCED
+interval discounted by the system-wide discount factor.
+RTOFFNSHSL is the system total telemetered HSLs of Generation Resources that
+have telemetered an OFFNS Resource Status and discounted by the system-wide
+discount factor.
+
+The system-wide discount factor used to discount inputs used in the calculation of reserves Rs
+and Rsns is calculated as the average of the currently approved Reserve Discount Factors (RDFs)
+applied to the temperatures from the current Season from the prior year.is calculated for each
+Season based on the average of the Reserve Discount Factors (RDFs) for that Season from the
+year prior.
+2.2.2. Calculation of  S RS  and  NS RSNS 
+
+ S RS  and  NS RSNS  are functions that describe the PBMCL at various reserve levels.
+
+Methodology for Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time Reserve Price
+Adder 102215100116
+Page 5
+
+Attachment A
+1) Calculation of Curve  S RS  :
+
+ S RS  is a function of the Real-Time reserves that should be available in the first 30 minutes of
+the hour and is intended to capture the PBMCL for that level of reserves. The general equation
+for  S RS  is:
+
+LOLPS RS  X , RS  X > 0
+1
+, RS  X  0
+
+
+ S RS   
+Where
+
+
+
+X in this equation is the minimum contingency level
+LOLPS is the LOLP function for the spinning reserve.
+
+LOLPS is different from the 60 minutes LOLP in Table 1, which is calculated based on the hourly
+error analysis. The reserves are classified into two categories; those that are being provided by
+Resources in SCED and Load Resources providing Reg-Up and RRS and those that are being
+provided by Resources that are not currently available to SCED but could be made available in
+30 minutes. Since the first reserve type is available immediately, those reserves are the only
+ones considered to be available to respond to any event that happens in the first 30 minutes of the
+hour. All reserve types are then considered to be available to respond to events that happen in
+the second 30 minutes of the hour. From the hourly error analysis, a mean (  ) and standard
+deviation (  ) for the 60 minute LOLP is determined for each of the different seasons and time
+blocks. Because the error analysis is hourly, to capture the events within the first 30 minutes for
+ S RS  , the  and  needs to be scaled to reflect the 30 minute timeframe, with   0.5 hour:
+
+    *   0.5
+
+ 
+*   0.707
+ 2  1   2
+So the LOLPS can be calculated based on the 60 minute LOLP as follows:
+LOLPS  ,  , R  LOLP0.5 ,0.707 , R  1  CDF 0.5 ,0.707 , R
+
+24  S RS  curves are developed based on the season and the time of day.
+2) Calculation of Curve  NS RSNS  :
+
+ NS RSNS  is a function of all the Real-Time reserves that can be expected to be available within
+the hour and is intended to capture the PBMCL for that level of reserves. The general equation
+for  NS RSNS  is:
+
+LOLPRSNS  X , RSNS  X > 0
+1
+, RSNS  X  0
+
+
+ NS RSNS   
+
+Methodology for Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time Reserve Price
+Adder 102215100116
+Page 6
+
+Attachment A
+
+This is similar to  S RS  but the key differences here are the types of reserves considered and
+the  and  that are used in calculating LOLP
+ The total On-Line and Off-Line applies for the full change in net Load over the hour
+ 
+and there is no scaling adjustments needed for  and  in the  NS RSNS
+calculations
+ X in this equation is the minimum contingency level
+24  NS RSNS  curves are developed based on the season and the time of day.
+2.3. Determination of Price Adders (RTORPA and RTOFFPA)
+Once PBMCL is determined, the Real-Time On-Line Reserve Price Adder (RTORPA) and RealTime Off-Line Reserve Price Adder (RTOFFPA) for each SCED interval can be calculated.
+RTORPA (a.k.a. PS) and RTOFFPA (a.k.a. PNS) are functions of the PBMCL at various levels of
+Real-Time reserves, the net value of Load curtailment, and time duration during which the
+reserves are available. RTORPA and RTOFFPA are determined as follows:
+
+RTORPA  PS  v * 0.5 *  S RS   PNS
+
+RTOFFPA  PNS  v * (1  0.5) *  NS RSNS 
+where
+v  max( 0, VOLL  SystemLambda)
+RS  RTOLCAP
+RSNS  RTOLCAP  RTOFFCAP
+
+Where v represents the net value of Load curtailment and is calculated as the VOLL minus the
+SCED System Lambda. System Lambda is subtracted from VOLL to reflect the scarcity value
+of the marginal dispatch capacity and to ensure that the final cost of energy does not go above
+the VOLL. The Off-Line Available Reserves (RTOFFCAP) will be set to zero when the SCED
+snapshot of the PRC is equal to or below the PRC MW at which EEA Level 1 is initiated
+
+3. METHODOLOGY REVISION PROCESS
+Revisions to this document, and the parameters to be used in the methodology, shall be made
+according to the approval process as prescribed in Protocol Section 6.5.7.3, Security Constrained
+Economic Dispatch, which requires TAC review and ERCOT Board approval.
+
+Methodology for Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time Reserve Price
+Adder 102215100116
+Page 7
+
+Attachment A
+4. PARAMETERS FOR IMPLEMENTING ORDC
+The definition and values of the parameters used in implementing ORDC are as follows:
+Parameter Definition
+VOLL
+Value of Lost Load
+X
+Minimum contingency reserve level
+
+Unit
+$/MWh
+MW
+
+Value
+9000
+2000
+
+Methodology for Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time Reserve Price
+Adder 102215100116
+Page 8
+
+

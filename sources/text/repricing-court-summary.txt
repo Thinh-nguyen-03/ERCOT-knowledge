@@ -1,0 +1,69 @@
+ERCOT Winter Storm Uri Repricing Decision from Third
+Court of Appeals
+By Diana Liebmann, Ryan Pitts | March 17, 2023
+RELATED PRACTICES Energy, Power and Natural Resources, Traditional Power, Litigation
+
+The Third Court of Appeals issued a ruling on March 17, 2023 in Luminant Energy Co. LLC v.
+Public Utility Commission of Texas, No. 03-21-00098-CV, that may require the resettlement of the
+Electric Reliability Council of Texas, Inc. (“ERCOT”) market for the majority of hours during Winter
+Storm Uri. A motion for rehearing en banc or petition to the Texas Supreme Court is expected,
+which will prevent the Third Court’s ruling from going into effect during those further proceedings.
+The opinion—if upheld—would invalidate the Public Utility Commission of Texas (“PUCT”) orders
+issued during Winter Storm Uri that set the market clearing price for energy and the spot market
+price at the market cap of $9,000 per megawatt hour (“MWh”).
+PUCT Orders
+The appeal places two PUCT orders at issue; the Third Court invalidated both of them. The first
+PUCT order required that the market cap of $9,000 MWh be used for price setting because rotating
+outages had been—and continued to be—used at levels not seen before on the ERCOT system.
+There was not sufficient generation capacity to meet the needs of the ERCOT system or of the
+millions of customers relying on the intrastate grid for power. As a result, ERCOT shed load by
+rotating customers through lengthy outages, which continued for days. The market cap was set to
+protect consumers from higher prices when inadequate generation existed to meet demands.
+During Winter Storm Uri, however, the ERCOT automated systems showed that off-line load was
+being served and the market cap was not reached despite many customers being without power.
+The PUCT Order included discussion intended to address how to settle the ERCOT grid during
+outages in light of PUCT rules that required clearing prices to track the cap during rotating outage
+periods. The Order also required ERCOT to retroactively resettle amounts that had been settled
+below the cap after load shed had begun. The second PUCT order removed the first order’s
+retroactive component and required that prices remain at the cap while load shed continued.
+Luminant Appeal
+Luminant challenged the PUCT Orders as “competition rules.” The Public Utility Regulatory Act
+(Tex. Util. Code §§ 11.001-66.016 (“PURA”)) permits a party to contest competition rules directly to
+a Texas Court of Appeals without prior review in a lower court. Luminant lacked enough generation
+to serve its commitments and had to buy power out of the ERCOT market at the market cap prices
+in the PUCT orders. Luminant argued that both the market cap and the PUCT orders instituting the
+cap for periods during Winter Storm Uri contravened PURA’s framework that prices for power
+generation be set through the normal forces of competition. In Luminant’s view, the section under
+which PUCT established the market cap—PURA §39.151—related to PUCT’s oversight of ERCOT
+and the ERCOT system and remained subject to PURA’s basic premise that competitive, not
+regulatory, means determine prices in the ERCOT market (see PURA 39.001(d)).
+Third Court of Appeals Judgment
+
+© 2026 Haynes and Boone, LLP
+
+1
+
+The Third Court of Appeals opinion determined that the PUCT Orders were, in fact, “competition
+rules” challengeable directly to a court of appeals. Having found jurisdiction, the Third Court moved
+on to the substantive issues raised by Luminant. It held that the $9,000 MWh market cap
+supplanted competition. The opinion did not discuss the market condition at the time, which was not
+competitive since no suppliers could compete to provide generation to load because the amount of
+consumer demand had substantially outstripped any ability to supply power, the situation giving rise
+to the emergency. The opinions leaves open the possibility that any cap on market prices may be
+inconsistent with PURA. This would mark a sea change in that the PUCT would lack the authority to
+—in an Energy-only market—establish any cap, meaning the market could escalate to any level
+without moderation with consumers having to pay the unmoderated rates.
+En Banc Rehearing or Appeal to Texas Supreme Court
+From here, the PUCT has two options for challenging the Third Court’s decision. First, the PUCT
+could petition for rehearing en banc with all the justices of the Third Court, rather than just the
+three-justice panel that issued the opinion. Or, second, the PUCT could choose to file a petition for
+review in the Texas Supreme Court, without any further proceedings in the Third Court. The PUCT
+will have to choose which option to pursue within, roughly, the next month and a half (absent any
+requests for extension of time).
+If you have any questions, please contact one of the lawyers listed below.
+
+© 2026 Haynes and Boone, LLP
+
+2
+
+

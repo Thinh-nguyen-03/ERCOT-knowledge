@@ -1,0 +1,12 @@
+{
+ "id": "ercot-fern-board-sysops",
+ "title": "Board item 9.3 System Operations Update (Winter Storm Fern)",
+ "publisher": "ERCOT",
+ "tier": 2,
+ "edition": "2026-02-04",
+ "url": "https://www.ercot.com/files/docs/2026/02/04/9.3-System-Operations-Update-REVISED.pdf",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 2267149,
+ "raw_sha256": "df78d6acb92f8b68d50e419a16a80fc614d513781b1cd8b9ceaa6b61757fdeb5",
+ "text_chars": 15070
+}

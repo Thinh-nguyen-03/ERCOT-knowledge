@@ -1,0 +1,427 @@
+Item 7: Review of Winter Storm Elliott
+Dan Woodfin
+Vice President, System Operations
+Board of Directors Meeting
+ERCOT Public
+February 28, 2023
+
+Overview
+• Purpose
+
+– Provide the Board with an overview of operations during Winter Storm Elliott
+
+• Voting Items / Requests
+
+– No action is requested of the Board; for discussion only
+
+• Key Takeaways
+
+– ERCOT set new winter demand records, and resource performance coupled with
+conservative operations supported reliable execution throughout event.
+– ERCOT identified load forecast lessons learned and initiated improvements.
+
+Item 7
+ERCOT Public
+
+2
+
+Operational Highlights
+12/16/2022
+OCN issued for
+Extreme Cold
+Weather
+
+12/22/2022 HE22
+
+12/25/2022 11:52
+
+Set new all-time
+Winter Demand
+Record 73,658 MW
+
+Cancelled Watch
+for Extreme Cold
+Weather
+
+12/22/2022 HE2
+
+12/23/2022 HE9
+
+First Hour of FFSS
+Commitment
+
+Set new all-time
+Winter Demand
+Record 73,910 MW
+
+Key Takeaway: Two consecutive winter demand records were set, and
+resource performance coupled with conservative operations supported reliable
+execution throughout event.
+Item 7
+ERCOT Public
+
+3
+
+Weather
+
+• Minimum daily
+temperatures
+don’t tell the
+whole story, but
+are one indicator
+of severity
+• Winds were also
+very strong
+
+Key Takeaway: In the last 15 years, only two days of Winter Storm Uri had
+minimum temperatures colder across ERCOT than Winter Storm Elliott
+
+Item 7
+ERCOT Public
+
+4
+
+Load Forecast
+•
+
+Load Forecasts were too low going into event
+
+•
+•
+•
+
+ERCOT has identified lessons learned and initiated improvements
+Many other system operators across the eastern US had similar forecast errors
+The under-forecast had no impact on reliability because we intentionally prepared
+for higher demand than what the forecast models were projecting
+
+– Cold weather intrusion was deeper and quicker than the national weather models were
+forecasting
+– Load forecasting models overplayed the reduction in demand due to the holiday
+– Lack of historic load data without loadshed for temperatures this cold for the load
+forecast models to reference
+
+Key Takeaway: ERCOT
+identified load forecast lessons
+learned and initiated
+improvements.*
+* See load forecast presentation from the February
+2023 Operations Working Group meeting for more
+details:
+https://www.ercot.com/files/docs/2023/02/15/MTLF
+%20Winter%20Storm%20Elliot%20OWG.pptx
+Item 7
+ERCOT Public
+
+5
+
+Wind and Solar Forecast
+• On Thursday 12/22, ERCOT used the most conservative solar
+forecast and switched to the most conservative wind forecast in the
+afternoon, in advance of the cold weather and high load
+• High winds on Thursday 12/22 followed by a down ramp and low
+winds on 12/23-12/24 was predicted before the cold front arrived
+Wind forecast
+(Dec. 22-25, 2022)
+
+Wind forecast
+(Dec. 2022)
+
+Solar forecast
+(Dec. 22-25, 2022)
+
+Solar forecast
+(Dec. 2022)
+
+Day-ahead Forecast
+Performance (MAPE)
+
+5.07%
+
+3.60%
+
+2.72%
+
+3.23%
+
+1-hour-ahead Forecast
+Performance (MAPE)
+
+2.83%
+
+1.90%
+
+2.55%
+
+2.53%
+
+Key Takeaway: The wind and solar forecasts performed well during Winter
+Storm Elliott.
+Item 7
+ERCOT Public
+
+6
+
+Supply vs. Demand 12/22-12/24
+
+Key Takeaway: ERCOT had adequate generation throughout Winter Storm
+Elliott.
+Item 7
+ERCOT Public
+
+Thermal Unit Outages in OS as of 1/6/2023 10:00
+
+7
+
+Real-time Pricing
+
+Key Takeaway: Wholesale prices in real-time were elevated during the morning
+and evening of December 23.
+Item 7
+ERCOT Public
+
+8
+
+Forced Generation Outages by Fuel Type – RFI Response Summary
+RFI Response Summary by Fuel Type
+5000
+
+60
+
+•
+
+4500
+50
+
+4000
+3500
+
+40
+
+2500
+
+30
+
+TEMP (F)
+
+MW
+
+3000
+
+2000
+20
+
+1500
+
+•
+
+1000
+
+10
+
+500
+0
+12/22/2022 0:00
+
+12/23/2022 0:00
+
+12/24/2022 0:00
+
+12/25/2022 0:00
+
+0
+12/26/2022 0:00
+
+Wind: Cold Weather Related Outages
+
+Gas: Cold Weather Related Outages
+
+Gas: Fuel Related Outages
+
+Coal: Weather Related Outages
+
+Coal: Fuel Related Outages
+
+AGGREGATE TEMPERATURE (F)
+
+- The outages
+shown are the
+subset of all
+outages that
+occurred during the
+cold weather period
+that were attributed
+to either weather or
+fuel related issues
+- Wind outages
+shown are
+nameplate capacity
+on outage, not lost
+output which was
+less
+
+Key Takeaway: Weather-related outages were not insignificant, illustrating
+value of the PUC’s additional Phase 2 weatherization standards that will be
+effective next winter. ERCOT is investigating root causes of these outages.
+Item 7
+ERCOT Public
+
+9
+
+System-Wide Large Flexible Loads (LFL) Consumption
+•
+•
+
+A significant portion of the load associated with known LFLs curtailed during
+the event in response to market prices.
+At its peak, the response from LFLs totaled ~1,400 MW with an additional 75
+MW carrying Responsive Reserve (RRS).
+LFL Consumption (MW) vs. System Price ($/MWh) vs AS Obligation (MW)
+1,600
+
+MW
+
+RRS
+
+System $
+
+1,400
+
+$3,000
+
+1,200
+
+$2,500
+
+1,000
+$2,000
+800
+$1,500
+600
+$1,000
+
+400
+
+$500
+
+200
+
+0
+12/22/2022 1:00
+
+System Price ($/MWh)
+
+LFL Consumption (MW)
+
+$3,500
+
+12/22/2022 13:00
+
+12/23/2022 1:00
+
+12/23/2022 13:00
+
+12/24/2022 1:00
+
+12/24/2022 13:00
+
+12/25/2022 1:00
+
+$12/25/2022 13:00
+
+Key Takeaway: LFLs curtailed in response to market prices.
+Item 7
+ERCOT Public
+
+10
+
+Energy Storage Resource (ESR)
+
+Key Takeaway: Energy Storage Resources carried a meaningful amount of
+Ancillary Services during the cold weather.
+Item 7
+ERCOT Public
+
+11
+
+Natural Gas Limitations
+•
+
+Typical gas restrictions on units in North Texas and several Operational Flow
+Orders (OFOs) issued to prevent gas flowing beyond contract maximums
+– Resulted in some natural gas curtailments and reduction of Generation Resource
+capacity
+
+•
+
+Firm Fuel Supply Service (FFSS) used to maintain unit availability with natural
+gas curtailments
+– ERCOT requested the deployed FFSS units to refuel in preparation for future events
+Operating Day
+
+Number of Resource
+Deployed
+
+Total FFSS Deployed in MW
+(Based on FFSS Awards)
+
+12/22/22
+
+4
+
+758
+
+12/23/22
+
+8
+
+949
+
+12/24/22
+
+8
+
+949
+
+12/25/22
+
+2
+
+39
+
+Key Takeaway: Natural gas generators experienced gas restrictions typical
+during cold weather. The new FFSS was beneficial in replacing the otherwise
+unavailable capacity.
+Item 7
+ERCOT Public
+
+12
+
+TCEQ Enforcement Discretion and DOE Order
+• ERCOT made requests to the Texas Commission on Environmental
+Quality (TCEQ) and Department of Energy (DOE) to maximize
+generation and avoid an Emergency Condition
+• TCEQ Requests
+– 12/21/22: ERCOT requested and TCEQ granted emission enforcement discretion
+– 12/25/22: TCEQ enforcement discretion ended at noon
+
+• DOE Requests
+– 12/23/22: ERCOT requested and DOE issued 202(c) order to allow generation
+emission exceedances
+– DOE Order was not used since ERCOT did not declare an Emergency Condition
+
+Key Takeaway: ERCOT requested emission waivers to ensure maximum
+generation availability during the cold weather.
+Item 7
+ERCOT Public
+
+13
+
+Questions?
+
+Item 7
+ERCOT Public
+
+14
+
+

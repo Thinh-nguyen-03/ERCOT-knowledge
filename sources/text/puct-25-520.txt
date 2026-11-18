@@ -1,0 +1,262 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+§25.520. Firm Fuel Supply Service.
+(a)
+
+Purpose. The purpose of this section is to promote reliability through the procurement of FFSS for
+deployment during, or in preparation for, a natural gas curtailment or other fuel supply disruption during
+extreme cold weather conditions.
+
+(b)
+
+Definitions. The following words and terms, when used in this section, have the following meanings
+unless the context indicates otherwise:
+(1)
+Firm gas storage agreement -- An agreement for firm off-site storage of natural gas, as the term
+is defined in ERCOT protocols.
+(2)
+Firm transportation agreement -- An agreement for firm transportation of natural gas to a
+resource from an off-site storage facility, as the term is defined in ERCOT protocols.
+(3)
+FFSS obligation period -- The period from November 15 through March 15 for which a
+procured resource is obligated to provide FFSS.
+(4)
+FFSS resource -- A generation resource that ERCOT procures for FFSS.
+(5)
+Market clearing price -- The dollar amount per megawatt (MW) that is awarded for an FFSS
+resource that ERCOT procures for an FFSS obligation period.
+(6)
+Non-procurement costs -- The fuel restocking payments to FFSS resources following a
+deployment during the FFSS obligation period.
+(7)
+Offer cap -- The maximum dollar amount per MW that a qualified scheduling entity (QSE)
+representing a resource may offer into the FFSS program for the applicable FFSS category.
+(8)
+Procurement costs -- The standby payments to FFSS resources for an FFSS obligation period.
+
+(c)
+
+Resource requirements for FFSS eligibility. A resource that meets the requirements for one of the
+three FFSS categories under this subsection is eligible and may be selected by ERCOT in the
+procurement process to provide FFSS for an FFSS obligation period.
+(1)
+On-site FFSS category. An FFSS resource that provides on-site FFSS must successfully
+demonstrate dual fuel capability, have the ability to establish and burn an alternative on-site
+stored fuel, and have on-site fuel storage capability.
+(2)
+Resource-controlled FFSS category. An FFSS resource that provides resource-controlled
+FFSS must have an on-site natural gas or fuel oil storage capability or off-site natural gas
+storage where the resource or QSE owns and controls both the natural gas storage facility and
+the pipeline to deliver the required amount of reserved natural gas to the resource from the
+storage facility.
+(3)
+Contractual off-site FFSS category. An FFSS resource that provides contractual off-site
+FFSS must have a firm gas storage agreement with a storage provider for firm storage of the
+natural gas at the storage facility and have a firm transportation agreement with a natural gas
+pipeline that is a critical natural gas facility, as defined in §25.52 of this title (relating to
+Reliability and Continuity of Service) for firm transportation of the natural gas from the storage
+facility to the FFSS resource. The natural gas pipeline providing firm transportation of the
+natural gas from the storage facility to the FFSS resource must be:
+(A)
+subject to the jurisdiction of the Federal Energy Regulatory Commission under the
+Natural Gas Act (15 U.S.C. §717 et seq);
+(B)
+an intrastate natural gas pipeline that is not operated by a gas utility, as defined in
+Title 3 of the Texas Utilities Code; or
+(C)
+an intrastate natural gas pipeline that is owned or operated by a gas utility, as defined
+in Title 3 of the Texas Utilities Code. An intrastate natural gas pipeline that is owned
+or operated by a gas utility must:
+(i)
+provide only transmission service in accordance with its gas utility tariff;
+(ii)
+certify that, if the gas utility reduces firm deliveries to customers pursuant
+to §7.455 of this title (relating to Curtailment Standards), the intrastate
+
+§25.520-1
+
+effective 2/25/2026
+(P-58434)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+
+(iii)
+
+pipeline will have sufficient operational capacity, including sufficient
+pipeline pressure, to provide the volume of gas required for the
+transportation path between the storage facility and FFSS resource to
+provide continuous service in the event of a curtailment; and
+certify that the pipeline has not curtailed deliveries of gas, under §7.455 of
+this title or an order issued by the Railroad Commission of Texas, to a
+resource that was subject to a firm transportation agreement during a
+curtailment event that occurred after January 1, 2021.
+
+(d)
+
+FFSS procurement. ERCOT must procure FFSS ahead of each FFSS obligation period to help
+maintain reliability during, or in preparation for, a natural gas curtailment or other fuel supply
+disruption.
+(1)
+ERCOT may spend a maximum of $54 million in procurement costs during a single FFSS
+obligation period. ERCOT may reject an offer that a QSE submits on behalf of a resource if
+ERCOT determines that:
+(A)
+the offer is unreasonable;
+(B)
+the offer is an outlier when evaluating the parameters of an acceptable offer;
+(C)
+the offer exceeds the applicable offer cap;
+(D)
+ERCOT lacks a sufficient basis to verify whether the resource complied with ERCOT
+established performance standards in an event in which the resource was deployed by
+ERCOT during the preceding FFSS obligation period;
+(E)
+the QSE representing the resource fails to reserve sufficient fuel for the first
+deployment for the FFSS obligation period; or
+(F)
+the QSE representing the resource fails to reserve sufficient emissions allowances or
+credits to meet at least three deployments for the FFSS obligation period.
+(2)
+ERCOT must allocate a combined amount of at least 70% of the $54 million budget to procure
+resources under the on-site FFSS category and the resource-controlled FFSS category, unless
+insufficient offers were submitted for resources under those categories. If insufficient offers
+were submitted for resources under the on-site FFSS category and the resource-controlled
+FFSS category to allocate 70% of the budget to those resources, then ERCOT may reallocate
+the remainder of that portion of the budget to resources under the contractual off-site FFSS
+category.
+
+(e)
+
+Offer caps. Before the start of an FFSS obligation period, ERCOT must administratively set the offer
+cap for each category of eligible resources. The offer cap must be calculated as a function of maximum
+hours per deployment (hours), heat rate (MMBtu/MWh), and fuel price ($/MMBtu), using the following
+equation:
+Offer cap ($/MW) = hours * heat rate * fuel price
+(1)
+The fuel price for resources eligible to provide FFSS under the on-site FFSS category and the
+resource-controlled FFSS category must be based on the projected price of fuel oil for the
+upcoming FFSS obligation period.
+(2)
+The fuel price for resources eligible to provide FFSS under the contractual off-site FFSS
+category must be based on the projected price of natural gas for the upcoming FFSS obligation
+period.
+(3)
+ERCOT must establish a heat rate for each of the three categories of resources that are eligible
+to provide FFSS under subsection (c) of this section. The heat rate for each category must be
+based on the characteristics of the resources that are eligible to provide FFSS under that
+category.
+
+(f)
+
+FFSS program requirements. The following minimum requirements apply to the FFSS program.
+(1)
+An FFSS resource must be represented by a QSE.
+
+§25.520-2
+
+effective 2/25/2026
+(P-58434)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+(2)
+(3)
+(4)
+(5)
+(6)
+
+(7)
+(8)
+
+ERCOT must establish qualifications for a QSE to represent an FFSS resource.
+ERCOT must establish performance criteria for an FFSS resource and a QSE representing an
+FFSS resource.
+An FFSS resource’s offer must be submitted to ERCOT through a QSE representing the FFSS
+resource.
+ERCOT may deploy FFSS as necessary throughout the FFSS obligation period.
+When deployed by ERCOT, an FFSS resource must deploy consistent with its obligations and
+must remain deployed until the earlier of:
+(A)
+exhaustion of the fuel reserved to generate at the MW level and for the specified
+duration associated with the FFSS award, including any fuel that was restocked
+following approval or instruction by ERCOT;
+(B)
+the fuel supply disruption no longer exists; or
+(C)
+ERCOT determines the FFSS deployment is no longer needed.
+ERCOT may limit the restocking of fuel to manage the overall cost of the service or for
+reliability needs.
+ERCOT must develop protocols to establish procedures for testing FFSS resources.
+
+(g)
+
+FFSS payment and charges.
+(1)
+ERCOT must establish a single market clearing price mechanism for resources eligible to
+provide FFSS under the on-site FFSS category and the resource-controlled FFSS category.
+ERCOT must establish a separate market clearing price mechanism for resources eligible to
+provide FFSS under the contractual off-site FFSS category.
+(2)
+ERCOT must make a payment to each QSE representing an FFSS resource based on the
+appropriate market clearing price mechanism, subject to modifications determined by ERCOT
+based on the FFSS resource’s availability during an FFSS obligation period and the FFSS
+resource’s performance in a deployment event.
+(3)
+ERCOT must charge each load serving entity (LSE) for FFSS procurement costs based upon
+the LSE’s load ratio share during the relevant FFSS obligation period.
+(4)
+Non-procurement costs may be charged to an LSE based on the LSE’s load ratio share during
+the FFSS resource’s deployment.
+
+(h)
+
+Compliance.
+(1)
+ERCOT must establish criteria to reduce a QSE’s payment, claw back a QSE’s payment,
+suspend a QSE from participation in FFSS, or any combination thereof, based on the QSE’s
+failure to meet its FFSS obligation under this section or a related ERCOT protocol. ERCOT
+must also establish criteria for subsequent reinstatement.
+(2)
+ERCOT must establish criteria to suspend an FFSS resource based on noncompliance with this
+section or a related ERCOT protocol. ERCOT must also establish criteria for subsequent
+reinstatement.
+(3)
+ERCOT must notify the commission of all alleged instances of noncompliance with this
+section or a related ERCOT protocol.
+(4)
+ERCOT must maintain records relating to any alleged noncompliance with this section or a
+related ERCOT protocol.
+
+(i)
+
+Reporting. Prior to the start of each FFSS obligation period, ERCOT must publicly report the number
+and category of FFSS resources providing the service, the market clearing prices, the amount of reserved
+fuel associated with each FFSS award, the highest and lowest offers, the number of MW associated
+with each FFSS award, and the projected total cost to procure FFSS for that obligation period.
+
+(j)
+
+Implementation. ERCOT must develop, in consultation with commission staff, additional procedures,
+guides, technical requirements, protocols, or other standards that are consistent with this section and
+
+§25.520-3
+
+effective 2/25/2026
+(P-58434)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter S. WHOLESALE MARKETS.
+that ERCOT finds necessary to implement FFSS, including development of a standard FFSS agreement
+and specific performance guidelines.
+
+§25.520-4
+
+effective 2/25/2026
+(P-58434)
+
+

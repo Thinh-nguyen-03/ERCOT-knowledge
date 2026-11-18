@@ -1,0 +1,373 @@
+-   
+-   
+
+[U.S. Energy Information Administration logo]
+
+Skip to sub-navigation
+
+U.S. Energy Information Administration - EIA - Independent Statistics and Analysis
+
+Menu
+
+-   Statistics
+
+-   Analysis
+
+-   Tools
+
+-   Education
+
+-   News
+
+-   
+
+Search
+
+Today in Energy
+
+Skip to page content
+
+-   Recent articles
+-   Browse by tag
+    -   liquid fuels
+    -   natural gas
+    -   electricity
+    -   oil/petroleum
+    -   production/supply
+    -   crude oil
+    -   consumption/demand
+    -   generation
+    -   prices
+    -   map
+    -   states
+    -   exports/imports
+    -   international
+    -   coal
+    -   renewables
+    -   weather
+    -   forecasts/projections
+    -   gasoline
+    -   capacity
+    -   steo (short-term energy outlook)
+-   Prices
+-   Archive
+-   About
+
+Glossary FAQS
+
+In-depth analysis
+
+October 3, 2024
+
+Data centers and cryptocurrency mining in Texas drive strong power demand growth
+
+[annual ERCOT net energy for load with detail for large flexible load demand]
+
+Data source: U.S. Energy Information Administration, Short-Term Energy Outlook (STEO), September 2024
+Note: The Electric Reliability Council of Texas (ERCOT) defines large flexible load as any facility drawing power from the grid with an expected peak demand capacity of 75 megawatts or more.
+
+------------------------------------------------------------------------
+
+In the United States, electricity consumption is growing fastest in Texas, where the Electric Reliability Council of Texas (ERCOT) manages 90% of the load on the state’s power grid. One of the main sources of growing demand for power is large-scale computing facilities such as data centers and cryptocurrency mining operations, although their future demands are uncertain. In our latest Short-Term Energy Outlook (STEO), we expect electricity demand from customers identified by ERCOT as large flexible load (LFL) will total 54 billion kilowatthours (kWh) in 2025, up almost 60% from expected demand in 2024. This expected demand from LFL customers would represent about 10% of total forecast electricity consumption on the ERCOT grid next year.
+
+These facilities consume large amounts of electricity, both to run their computing equipment and to keep them cool. Some of the larger facilities can consume as much electricity as a medium-sized power plant. In mid-2022, ERCOT developed a program for approving proposed LFL customers (those with an expected peak demand capacity of 75 megawatts [MW] or greater) to ensure grid reliability. The LFL Task Force publishes periodic status updates that indicate how much capacity has been approved and is expected in upcoming years.
+
+Certain large-load facilities, primarily cryptocurrency mining facilities but also data centers and some industrial factories, have entered into voluntary curtailment agreements with ERCOT to temporarily reduce their power consumption during periods of particularly high system demand or low generator availability. As part of the program, LFL facilities can participate in ERCOT’s energy and ancillary service markets. This flexibility in large-load operations can help mitigate some of the effects that strong growth in electricity demand is having on the ERCOT system.
+
+We use the information from ERCOT about current and future LFL demand in developing our STEO forecasts of regional electric load. We assume that by the end of 2025 ERCOT will have approved operations of 9,500 MW of LFL demand capacity, which would be 73% more than is currently approved (5,479 MW of which 1,570 MW was approved over the past 12 months).
+
+Historically, LFL customers have consumed about 65% of their total approved capacity. In the STEO, we assume that LFL demand is constant throughout the day at this percentage, so the expected 2025 capacity and its utilization translate to an assumed total LFL of 54 billion kWh next year. This new electricity consumption from large computing and industrial facilities contributes to our forecast that ERCOT’s load across all customers will grow by 5% between 2024 and 2025.
+
+Uncertainty about future levels of large-load demand
+
+Although much planned capacity for large-load customers is awaiting approval from ERCOT, when or if the capacity will be brought online remains uncertain. ERCOT’s status update from early September indicates that projects representing about 26,500 MW of LFL capacity have applied to become operational by the end of 2025. This amount includes about 2,000 MW of capacity for projects that have not yet submitted plans and more than 12,000 MW of capacity for projects that currently have plans under review by ERCOT. Given the typical approval timeline, these projects are unlikely to come online by the end of next year.
+
+To analyze the potential effects of different levels of future large-load electricity demand on power generation and wholesale prices in ERCOT, we modeled two scenarios with different assumptions about 2025 LFL capacity and compared the results with the September STEO forecast as a base case. In all three cases, we assume that LFL facilities will be demand-responsive, cutting back part of their electricity consumption during hours when potential wholesale power prices exceed $100 per megawatthour (MWh). The actual level of curtailment observed could vary greatly from these assumptions depending on whether the large-load customer believes the incentives are worthwhile.
+
+[ERCOT large flexible load capacity]
+
+Data source: U.S. Energy Information Administration, Short-Term Energy Outlook (STEO), September 2024
+
+------------------------------------------------------------------------
+
+Delays in the large-load approval process or in developers’ plans could reduce new large-load power demand next year. In our low-growth scenario, we assume that no additional LFL capacity comes online next year beyond what we expect to be operational at the end of 2024 (6,500 MW). This assumption would translate into about 37 billion kWh of LFL electricity consumption in 2025 (32% lower than the baseline forecast of 54 billion kWh).
+
+Conversely, it’s possible that ERCOT could quickly begin approving projects in the LFL queue at a faster pace. Our high-growth scenario assumes that about 14,200 MW of LFL capacity will be operational by the end of next year, leading to a forecasted 81 billion kWh of electricity consumption from LFL customers in 2025 (50% higher than the baseline STEO assumption).
+
+In our baseline September STEO, we forecast that ERCOT’s electricity load across all types of customers will grow by 5% from 464 billion kWh in 2024 to 487 billion kWh in 2025. In contrast, in our low-growth scenario, overall ERCOT load would grow by only 1% next year, and in our high-growth scenario, ERCOT load would grow by 10%. For both the low- and high-growth scenarios, we assume all other factors (such as generator fuel costs and non-LFL) remain the same as in the baseline forecast.
+
+How growing demand from large flexible load sources could affect power generation
+
+The largest source of electricity generation in ERCOT is natural gas, accounting for 45% of that region’s generation in 2023. We assume that existing and planned generating capacity is the same across the three scenarios, and our different assumptions about future electricity demand have the most effect on natural gas generation. In reality, the electric power sector could respond to the expected level of future demand by expanding the capacity available from other sources of generation.
+
+In our September STEO, we forecast that annual natural gas-fired generation in ERCOT will fall by 5% between 2024 and 2025 to an annual total of 198 billion kWh in response to increased generation from renewable energy sources, particularly solar. Our scenario with stronger growth in large-load demand results in 8% more natural gas-fired generation in 2025 than the baseline forecast, at 213 billion kWh. Our low-growth scenario forecasts 12% less natural gas-fired generation than the baseline.
+
+[annual ERCOT natural gas generation by electric power sector]
+
+Data source: U.S. Energy Information Administration, Short-Term Energy Outlook, September 2024
+Note: ERCOT=Electric Reliability Council of Texas
+
+------------------------------------------------------------------------
+
+The fastest-growing source of new electric generating capacity in the United States is solar power, with growth concentrated in Texas. Our base case STEO forecasts that solar generation in ERCOT by the electric power sector will grow by 54% in 2025 to 67 billion kWh. Solar power is generally dispatched as generation whenever it’s available because it does not have operating costs like fossil-fuel generators. It can also be curtailed to avoid grid congestion or if electricity demand is low at a particular time. In 2023, about 3% of solar output in ERCOT was curtailed. In our high-growth scenario, we forecast 2% more solar generation than in the base case in 2025 because less output would need to be curtailed.
+
+The other major source of power generation that could change under different assumptions about electricity demand trends would be coal, which accounted for 14% of ERCOT generation in 2023. Like natural gas, coal has more flexible generation patterns than renewables, and so changes in demand are more likely to raise or lower coal-fired generation. In our low-growth scenario, we forecast 5% less ERCOT coal-fired generation in 2025 than the STEO base case forecast of 62 billion kWh and 12% more in the high-growth scenario.
+
+[annual ERCOT coal generation by electric power sector]
+
+Data source: U.S. Energy Information Administration, Short-Term Energy Outlook, September 2024
+Note: ERCOT=Electric Reliability Council of Texas
+
+------------------------------------------------------------------------
+
+Impact of uncertain large-load demand on wholesale power prices
+
+The effect of uncertain future electricity consumption is most evident in wholesale power prices, which reflect how well generating supply can meet electricity demand. As a representative wholesale price for ERCOT, the STEO uses average settlement point prices (SPP) during peak hours at the North zone hub, which includes the Dallas-Fort Worth metropolitan area. The base case STEO forecasts ERCOT wholesale power prices in 2025 will average about $27/MWh, which would be 22% lower than our expected wholesale price for 2024. Lower prices are a result of expected lower fuels costs for natural gas along with increased penetration of solar generation.
+
+The scenario with less-than-expected growth in large-load demand reduces forecasted 2025 wholesale power by 11% from the base case STEO forecast, while the high-growth scenario increases prices by 17% from the base case. In both scenarios the largest differences from the base case scenario occur in the summer months. LFL demand was curtailed only during 10 hours of the high-growth and base case scenarios, averaging 23% of LFL in the high-growth scenario and 13% of LFL in the base case during those hours.
+
+[monthly wholesale electricity price at ERCOT north hub]
+
+Data source: U.S. Energy Information Administration, Short-Term Energy Outlook (STEO), September 2024
+Note: ERCOT=The Electric Reliability Council of Texas
+
+------------------------------------------------------------------------
+
+ERCOT set up its LFL program for large-load customers to help manage the impact of potentially strong growth in demand. By requiring approval of the projects and encouraging curtailment of demand when needed, the LFL process intends to minimize the risk of wholesale power prices spiking to levels of $1,000/MWh or more. Texas is pursuing other avenues to accommodate the expected increase in power demand from large computing facilities such as the Texas Energy Fund, which is designed to encourage development of new dispatchable generating capacity.
+
+Principal contributor: Tyler Hodge
+
+Tags: forecasts/projections, coal, natural gas, generation, consumption/demand, electricity, Texas, STEO (Short-Term Energy Outlook), states, cryptocurrency
+
+More recent articles ›
+
+-   About EIA
+-   Open Data
+-   Legacy
+-   Contact Us
+
+U.S. Energy Information Administration
+
+1000 Independence Ave., SW
+
+Washington, DC 20585
+
+Policies
+
+Privacy/Security
+
+Copyright & Reuse
+
+Accessibility
+
+Information Quality
+
+Freedom of Information Act (FOIA)
+
+Related Sites
+
+usa.gov
+
+U.S. Department of Energy
+
+Stay Connected
+
+Facebook
+
+X
+
+Youtube
+
+LinkedIn
+
+Email Updates
+
+RSS Feeds
+
+[]
+
+Statistics
+
+Analysis
+
+Tools
+
+Education
+
+News
+
+Petroleum & Other Liquids
+
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+
+Natural Gas
+
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+
+Electricity
+
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+
+Coal
+
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+
+Nuclear & Uranium
+
+Uranium fuel, nuclear reactors, generation, spent fuel.
+
+Renewable & Alternative Fuels
+
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+
+EIA Survey Forms
+
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+
+Total Energy
+
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+
+-   Monthly Energy Review
+
+Consumption & Efficiency
+
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+
+-   Residential Energy Consumption Survey (RECS)
+-   Commercial Buildings Energy Consumption Survey (CBECS)
+-   Manufacturing Energy Consumption Survey (MECS)
+
+U.S. States
+
+State energy information, including overviews, rankings, data, and analyses.
+
+International
+
+International energy information, including overviews, rankings, data, and analyses.
+
+Environment
+
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+
+-   U.S. Energy-Related Carbon Dioxide Emissions
+-   Energy-Related Carbon Dioxide Emissions at the State Level
+
+Analysis and Projections
+
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+
+-   Short-Term Energy Outlook
+-   Annual Energy Outlook
+
+Special Reports
+
+Special market analysis and/or data requests.
+
+-   EIA-112 Residential Utility Disconnections
+-   SHIP Act
+-   Energy & Financial Markets: What Drives Crude Oil Prices?
+
+International
+
+International energy analyses.
+
+-   Regional Analysis Briefs
+-   Country Analysis Briefs
+-   World Oil Transit Chokepoints
+-   OPEC Revenue
+-   Global Energy Security Data
+
+Data Tools, Apps, & Maps
+
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+
+Open Data
+
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+
+EIA Beta
+
+Come test out some of the products still in development and let us know what you think!
+
+Open Source Code
+
+EIA's open source code, available on GitHub.
+
+All Reports & Products
+
+Email Updates
+
+Sign up for email subscriptions to receive messages about specific EIA products
+
+RSS Feeds
+
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+
+Follow us. . .
+
+A-Z Index
+
+A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | XYZ
+
+Energy Explained
+
+-   What is Energy?
+-   Units & Calculators
+-   U.S. Energy Facts
+-   Use of Energy
+-   Energy & Environment
+-   Petroleum
+-   Hydrocarbon Gas Liquids
+-   Natural Gas
+
+-   Coal
+-   Nuclear
+-   Electricity
+-   Hydrogen
+-   Hydropower
+-   Biofuels
+-   Biomass
+-   Wind
+-   Geothermal
+-   Solar
+
+For Teachers
+
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+
+Glossary
+
+FAQs
+
+-   Coal
+-   Conversion & Equivalents
+-   Oil/Petroleum
+-   Diesel
+-   Electricity
+-   Environment
+
+-   Gasoline
+-   General Energy
+-   Natural Gas
+-   Nuclear
+-   Prices
+-   Renewables
+
+[]
+
+What's New?
+
+-   Global Energy Security Data
+-   Nov 16, 2026
+-   Wholesale Electricity Market Data
+-   Nov 12, 2026
+-   Monthly Densified Biomass Fuel Report
+-   Nov 12, 2026
+
+Press Room
+
+-   Press Releases
+-   Congressional Testimony
+-   Presentations
+-   Events

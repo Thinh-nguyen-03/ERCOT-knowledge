@@ -1,0 +1,723 @@
+[]
+
+Emergency Response Service
+
+Technical Requirements & Scope of Work
+
+October 1, 2026 through November 30, 2026
+
+Table of Contents
+
+Definitions 3
+
+Document Description and Change Control Process 4
+
+Overview and Description of Service 4
+
+ERS Resource Identification (ERID) 5
+
+Offer Submission 8
+
+Evaluation Methods for ERS Loads 9
+
+Metering & Meter Data 10
+
+Participation by Sites in NOIE Territories 13
+
+Participation by Active Load Resources (LRs) 13
+
+Communications Systems 14
+
+Periods of Unavailability 15
+
+Substitutions 15
+
+Supplemental Resources 18
+
+Deployment 21
+
+Event Performance Measurement and Verification 21
+
+QSE Performance Criteria 21
+
+Reinstatement of Suspended ERS Resources 22
+
+Prohibition on Other Market Activity 23
+
+ERS Self-Provision 23
+
+ Definitions
+
+ERS Submission Form - Excel spreadsheet used by QSEs to submit substitutions, supplementals, procurement & reinstatement ERIDS and offers for all ERS service types.
+
+ERS Web Page - http://www.ercot.com/services/programs/load/eils/index
+
+Interval metering - Meters measuring energy usage in 15-minute intervals and meeting the requirements applicable to the ERCOT system, including Interval Data Recorders (IDRs) and Advanced Meters, as defined in the Protocols, and other types of metering meeting the accuracy standards described in the Metering & Meter Data section of this document.
+
+Protocols - Prevailing ERCOT Nodal Protocols[1].
+
+Ramp Period[2] – Ten minutes for ERS-10 and thirty minutes for ERS-30 period of time beginning with ERCOT’s issuance of an Extensible Markup Language (XML) message requesting ERS deployment.
+
+Site[3] - Either an individual ERS Resource or a member of an aggregated ERS Resource.
+
+Unique Meter Identifier - Identifier assigned by the QSE to a site and to the interval data used for the site for ERS performance measurement & verification when the site is within the service territory of a Non-Opt In Entity (NOIE), within a Private Use Network, or is sub-metered behind a revenue meter. QSEs are required to use a single Unique Meter Identifier for a specific Site throughout its participation in ERS.
+
+Any capitalized terms not specifically defined in this document are deemed to be consistent with the Protocols, Section 2, Definitions and Acronyms.
+
+ Document Description and Change Control Process
+
+This document sets forth detailed requirements for participation in ERS by QSEs and ERS Resources; and is specific to the ERS Standard Contract Term (SCT) defined herein. This document is reviewed by ERCOT Staff prior to the start of every ERS Standard Contract Term. Any updates or changes to this document are subject to the Change Control process described below. 
+
+ERCOT Staff will provide a period for stakeholder review and input for any draft changes to this document. The Change Control procedure is as follows:
+
+A.  ERCOT shall post the draft version of the Technical Requirements and Scope of Work to the ERS Web Page on or before the date published in the ERS procurement schedule for an ERS Standard Contract Term.
+
+B.  ERCOT will notify stakeholders of the posted draft by sending an email to the subscribers to the Demand Side Working Group (DSWG) email exploder list on the posting date.
+
+C.  ERCOT will identify a period of time for review and written comments from stakeholders and will consider any written feedback provided by stakeholders during the review period.
+
+    i.  Comments should be submitted via email to ERS@ercot.com by the deadline set forth in the procurement schedule, which shall be at least fourteen (14) days after the posting date of the draft.
+
+D.  Upon request by a representative of any Market Participant that has submitted written comments, ERCOT will conduct a conference call and online review of the submitted comments.
+
+E.  ERCOT at its discretion may choose to adopt or incorporate any changes recommended by stakeholders if ERCOT concludes that the proposed changes are consistent with PUC Substantive Rule 25.507 and the Protocols and can be administered by ERCOT Staff.
+
+F.  ERCOT may correct errors in numbering and formatting after the review period described above without additional review.
+
+Overview and Description of Service 
+
+1.  
+
+Throughout this document the use of the term ERS by itself applies to all ERS service types.
+
+ERS is an emergency response service, which may be deployed by ERCOT as an operational tool when PRC falls below 3,000 MW and is not projected to be recovered above 3,000 MW within 30 minutes following the deployment of Non-Spin. ERS is designed to decrease the likelihood of depleting ERCOT operating reserves and the need for ERCOT to order firm Load shedding, which is EEA Level 3. ERCOT may also deploy ERS Resources during EEA Level 3.
+
+ERCOT procures ERS by contracting with QSEs after selecting offers submitted in response to a Request for Proposal. If a QSE’s offer is selected by the Emergency Response Service Procurement Methodology, ERCOT will pay the QSE a capacity payment in exchange for making ERS Resources available for deployment upon ERCOT’s instruction. 
+
+The procurement and reinstatement schedules for an upcoming ERS Standard Contract Term are posted on the ERS Web Page.
+
+ERCOT may restructure ERS Standard Contract Terms. Notice of change shall be provided no fewer than ninety (90) days prior to the start date of that ERS Standard Contract Term. 
+
+The standing ERS Time Periods are as follows (all times are Central Prevailing Time):
+
+  ---------------------------------------------------------------------------------------------------------------------
+  Time Period     Time Period Hours
+  --------------- -----------------------------------------------------------------------------------------------------
+  Time Period 1   Hours Ending 0600-0900 (5:00:00 a.m. to 9:00:00 a.m.) Monday through Friday except ERCOT Holidays.
+
+  Time Period 2   Hours Ending 1000-1300 (9:00:00 a.m. to 1:00:00 p.m.) Monday through Friday except ERCOT Holidays.
+
+  Time Period 3   Hours Ending 1400-1600 (1:00:00 p.m. to 4:00:00 p.m.) Monday through Friday except ERCOT Holidays.
+
+  Time Period 4   Hours Ending 1700-1900 (4:00:00 p.m. to 7:00:00 p.m.) Monday through Friday except ERCOT Holidays.
+
+  Time Period 5   Hours Ending 2000-2200 (7:00:00 p.m. to 10:00:00 p.m.) Monday through Friday except ERCOT Holidays.
+
+  Time Period 6   Hours Ending 0600-0900 (5:00:00 a.m. to 9:00:00 a.m.) Weekend and ERCOT Holidays.
+
+  Time Period 7   Hours Ending 1600-2100 (3:00:00 p.m. to 9:00:00 p.m.) Weekend and ERCOT Holidays.
+
+  Time Period 8   All other hours
+  ---------------------------------------------------------------------------------------------------------------------
+
+ERS Resource Identification (ERID)
+
+2.  
+
+ERID submission is the first mandatory step in the ERS procurement process. QSEs submit data relating to all prospective ERS Resources to ERCOT using the current version of the ERS Submission Form, and by adhering to the published procurement schedule. 
+
+A.  Steps for completing the ERS Submission Form, as well as information regarding ERID analysis results, are described in detail in a separate document titled “ERS Submission Form Instructions”, posted to the ERS Web Page.
+
+Residential sites will not be allowed into Non-Weather Sensitive ERS.
+
+Unless there is a legitimate business reason for the name change, QSEs are required to use a single descriptive name for a specific site throughout the QSE’s representation of that Site in ERS. 
+
+The ERID form must include one or more of the following meter identifiers:
+
+A.  An ESI ID number for any Site where an ESI ID is present, this applies to:
+
+    i.  All Sites that are situated in competitive choice areas of the ERCOT Region even if a sub-meter will be used to measure and verify ERS;
+
+    ii. The injection point of a Private Use Network if a Site within the Private Use Network will be providing ERS;
+
+    iii. A NOIE Settlement metering point if the meter at that point is dedicated to the Site that will provide ERS; or
+
+    iv. A non-Settlement ESI ID within a NOIE footprint.
+
+B.  A Resource ID for any Site (Generators) where a Resource ID is present, (note the ESI ID for the Site is also required).
+
+C.  A unique meter identifier number for prospective Sites including but not limited to the following:
+
+    i.  Sites within a NOIE service territory that are not metered by a dedicated Settlement metering point ESI ID or a non-Settlement ESI ID;
+
+    ii. Sites behind an ESI ID, including sub-metered Sites or Sites within a Private Use Network, if the sub-meter will be used for measurement and verification of ERS performance. QSEs should not provide separate meter data if it is identical to the ESI ID meter data used for ERCOT Settlement or will not provide an accurate measurement of the Site’s performance;
+
+    iii. Any Site at a non-interval metered location where the QSE is responsible for installation of interval metering prior to the start of the Standard Contract Term and is responsible for submission of interval meter data.
+
+D.  Unique meter identifier numbers must be distinct and must remain consistent throughout ERID and offer submissions and from SCT to SCT. Unique meter identifiers for Sites in NOIE service territories should be formatted according to the instructions in the Participation by Sites in NOIE Territories section of this document.
+
+    i.  If a change to the UMI is required, the QSE must submit a substitution form.
+
+QSEs must submit ERID information for prospective ERS Generators, even though baselines do not apply to ERS Generators. The performance of an ERS Generator is measured based on the production of energy by the generator(s) and by the injection of energy to the ERCOT System.
+
+For Sites with Distributed Renewable Generation (DRG), the QSE may elect to have the Site evaluated solely with its premise-level load as metered by the TDSP or based on the site native load that is served by a combination of the ERCOT grid and the DRG. Metering requirements for both options are described in the Metering and Meter Data section of this document. 
+
+A Non-Weather-Sensitive ERS Load will be classified as co-located with an ERS Generator if: 
+
+A.  Each site in the ERS Load is physically located with a site in the ERS Generator,
+
+B.  Both the ERS Generator and the ERS Load are represented by the same QSE,
+
+C.  Both ERS Generator and the ERS Load are in the same ERS service type and
+
+D.  Both ERS Load and ERS Gen are obligated in all the same Time Periods.
+
+    i.  If both ERS Load and ERS Gen are not awarded in all the same Time Periods it makes the resource ineligible to be classified as co-located.
+
+A Weather-Sensitive ERS Load is not eligible to be classified as co-located with an ERS Generator.
+
+If both a prospective ERS Load and a prospective ERS Generator are co-located (present at the same service delivery point), the QSE shall submit separate ERIDs for the ERS Load and the ERS Generator. 
+
+A Load site with a DRG is ineligible to be treated as co-located with an ERS Generator.
+
+In order to evaluate the applicability of a default baseline, ERCOT generally must have access to Site-specific historic interval meter data, pulled within the last 45 days. 
+
+A.  If such data is not available in the ERCOT systems from an active interval-metered ESI ID, the QSE is responsible for submitting the data to ERCOT consistent with the specifications detailed in the Metering & Meter Data section of this document. This requirement applies to any Site meeting any of the following descriptions:
+
+    i.  The Site is in a competitive choice area of the ERCOT Region but does not have sufficient historical interval meter data.
+
+    ii. The Site is situated in a NOIE territory or within a Private Use Networks.
+
+    iii. The Site providing ERS is only part of the overall Load behind a single premise-level meter and the dedicated measurement of the Site providing ERS is necessary for measurement and verification of ERS. The QSE may consult with ERCOT Staff as necessary to make this determination.
+
+ERCOT may request additional meter data (i.e., more than twelve months of data) at its own discretion for prospective ERS Loads desiring a default baseline.
+
+For prospective ERS Loads desiring a default baseline, QSEs should consider the following: 
+
+A.  A more accurate default baseline model can usually be created for an aggregation than for an individual Site. Similarly, large aggregations are typically more likely to be accurately modeled than small aggregations.
+
+B.  During the ERID process QSEs may submit the same Sites multiple times as part of different aggregations.
+
+QSEs should be aware that ERCOT will limit the baseline options for an ERS Load to the MBL performance evaluation methodology (Alternate) [4] in the following circumstances:
+
+A.  If one or more Sites within the ERS Load has insufficient available historic interval meter data.
+
+B.  If the prospective ERS Load contains a non-interval metered Site. In such cases the QSE is responsible for ensuring that the Site is equipped with interval metering by the start of the applicable Standard Contract Term, and that the interval meter data will be delivered to ERCOT on schedule by the relevant meter-reading entity.
+
+QSEs should provide ERCOT with a list of intervals from the previous twelve months that the prospective ERS Load was unavailable, or for which the meter data may not provide an accurate indication of its true Load shape, due to factors such as scheduled maintenance, backup generation testing, or Force Majeure events. ERCOT will exclude these intervals in its baseline analysis for the prospective ERS Load.
+
+A.  For a Load Resource (LR), this list should include intervals that it was deployed via ERCOT Dispatch instruction or under frequency relay trip.
+
+QSEs shall designate on the ERS Submission Form any ERS Site that is an active LR or is located behind an ESI ID with one or more active LRs as part of the ESI ID’s overall Load. For additional details, please see the Participation by Active Load Resources (LRs) section of this document.
+
+A QSE may include non-interval metered Sites in an aggregation only if the QSE is committed to having interval metering, see Metering & Meter Data section of this document, installed prior to the beginning of the Standard Contract Term. Aggregations that include such Sites will automatically be assigned to the MBL performance evaluation methodology (Alternate), see the Baselines for ERS Loads section of this document.
+
+Submission of ERID data does not bind the QSE or the ERS Resource to provide ERS or submit an offer. 
+
+QSEs may aggregate multiple Sites to constitute an ERS Resource provided that each Site in an ERS Resource aggregation meets all technical requirements described herein.
+
+A.  Aggregations for Weather Sensitive resources will be limited to 50,000 sites per ERS Resource.
+
+ERCOT will validate each prospective ERS Resource submitted and will assign an ERID number to each properly validated ERS Resource. 
+
+At the end of the ERID process, ERCOT will notify affected QSEs of any Site for which more than one QSE has submitted the site on an R tab in the ERID form. It is the QSEs’ responsibility to resolve any such problems prior to Offer submission. 
+
+Offer Submission
+
+3.  
+
+QSEs representing prospective ERS Resources shall submit offers to provide ERS using the ERS Submission Form and shall adhere to the deadlines in the procurement schedule posted to the ERS Web Page. 
+
+For each ERS Load, the QSE shall select an approved baseline for that specific resource. 
+
+For each site in an ERS Load with a backup generator used to provide some or all of the demand response, for each site in an ERS Load with a DRG, and for each site in an ERS Generator, the QSE must specify the nameplate MW of the generator. 
+
+A.  If more than one generating unit is present, the total nameplate MW should be reported.
+
+B.  If the QSE has opted to have a site with DRG evaluated by its premise-level load as metered by the TDSP, the nameplate MW of the generator must be left blank.
+
+Other than issues relating to price, the requirements for offering self-provided ERS are identical to those for offering ERS competitively. 
+
+Offers must be for a single price, MW capacity and maximum base Load for any specific Time Period, although those values may vary across Time Periods. 
+
+Offer parameters are the sole responsibility of the QSE and ERS Resource. The MW capacity of an ERS Load offer is not required to equal that of the pre-screened capacity (based on historical data) provided as a service to the QSE by ERCOT. 
+
+QSEs may not change the price, the MW capacity, the baseline selection, or the declared maximum base Load of an ERS Resource after the offer is submitted.
+
+Any offer that includes a premise submitted by more than one QSE is subject to rejection by ERCOT. ERCOT may only process a new ERID for an approved ERS Resource if the arrangement of ERS sites needs to change in order to resolve conflicts for offers that are submitted by more than one QSE. Under such circumstances, QSEs may not change any parameters specified in paragraph 4.7 above and must still qualify for the selected baseline on the offer.
+
+Submetered load(s) within a premise that are participating in a single ERS service type must be represented by a single Unique Meter Identifier. 
+
+Separate Submetered Load(s) within a premise may participate in Non-Weather-Sensitive ERS-10 and Non-Weather-Sensitive ERS-30 only. In this case, the following applies:
+
+A.  The capacity participating in ERS-10 must be represented by a single Unique Meter Identifier;
+
+B.  The capacity participating in ERS-30 must be represented by a different single Unique Meter Identifier;
+
+C.  Both sites must be represented by the same QSE
+
+Evaluation Methods for ERS Loads
+
+4.  
+
+ERS performance evaluation methodologies fall into two categories; default or Maximum Base Load (MBL) also referred to as Alternate (described below). ERCOT will evaluate interval-metered Load from prospective ERS Loads to determine their baseline options. 
+
+An ERS Load may qualify for multiple baseline options and its QSE may select a baseline from the options offered by ERCOT. The baseline will be used to verify the ERS Load’s performance as compared to its contracted capacity during an ERS deployment event and is a key determinant in ERCOT’s measurement and verification of the ERS Load’s availability. 
+
+A selected baseline applies to the ERS Load for all Time Periods and Contract Periods within a Standard Contract Term. 
+
+All Sites within an aggregated ERS Load must be on the same baseline type (one of the default baseline types or MBL). 
+
+Default Baseline
+
+(Drop By)
+
+The primary goal of a default baseline is to accurately estimate an ERS Load’s level of electric energy usage under “business as usual” conditions – that is, in the absence of an ERS deployment – for any given interval. The combination of inputs to a default baseline are designed to yield interval-by-interval Load estimates for the ERS Load to provide the most accurate possible benchmark for evaluating the performance of the ERS Load in a deployment event. This estimate can then be compared to the ERS Load’s interval meter data from an ERS deployment event to determine its performance throughout the Sustained Response Period. Depending on the default baseline type, analysis of at least twelve months of historic interval meter data may be necessary for ERCOT to determine whether an ERS Load can be modeled accurately under a default baseline. 
+
+A.  A detailed description of the seven ERCOT default baseline types are in a document titled “Demand Response Baseline Methodologies”, posted to the ERS Web Page.
+
+Maximum Base Load (MBL)
+
+(Drop To)
+
+If, in ERCOT’s sole discretion, a sufficiently accurate default baseline cannot be established due to the characteristics of the Sites within an ERS Load, ERCOT will assign the ERS Load to the MBL performance evaluation methodology. ERCOT may also assign an ERS Load to the MBL performance evaluation methodology if it determines the ERS Load’s availability and performance can be more accurately evaluated or more simply administered if assigned to the MBL performance evaluation methodology, if such assignment would not affect the ERS Load’s MW offer capacity, and if such assignment is agreed to by the QSE and ERS Load. 
+
+The availability factor for an ERS Load assigned to the MBL performance evaluation methodology is calculated based on its average 15-minute interval Load, or, if applicable, average calculated native load 15-minute interval data, during the committed Time Period minus its declared maximum base Load. MW capacity offers for such ERS Loads should be based on this calculation. 
+
+Metering & Meter Data
+
+5.  
+
+Each Site within an ERS Generator must have the following metering in place:
+
+A.  TDSP metering capable of measuring energy exported to the ERCOT System;
+
+B.  TDSP metering capable of measuring energy imported from the ERCOT System; and
+
+C.  The QSE will be required to submit output meter data from interval metering dedicated to the generator that meets the requirements for meter data submission as detailed in this section.
+
+    i.  ERCOT may grant an exception to this dedicated output meter requirement if the QSE submits an attestation in a submission format specified by ERCOT stating that the only import from the Grid for a site is auxiliary load for the ERS Generator.
+
+Sites with Distributed Renewable Generation (DRG) which the QSE has elected to have evaluated solely with its premise-level load as metered by the TDSP will be subject to the metering requirements as described in the Meter Data Submitted to ERCOT by TDSPs in Competitive Choice Areas subsection of this document.
+
+For Sites with Distributed Renewable Generation (DRG) which the QSE elects to have evaluated based on its native load, the native load will be calculated by adding the DRG output to the site’s import load as measured on the TDSP import meter and subtracting the site’s export to the grid as measured on the TDSP export meter and the following are required:
+
+A.  If the site is located in a competitive area of ERCOT, the ESI ID for the site must have a profile segment assignment in the ERCOT system that indicates the presence of distributed renewable generation as well as interval metering for both import from and export to the ERCOT grid.
+
+Meter Data Submitted to ERCOT by TDSPs in Competitive Choice Areas
+
+For ESI IDs situated in competitive choice areas of the ERCOT Region, meter data is stored in the ERCOT systems and will be accessed by ERCOT using the ESI ID number provided in the ERS Submission Form. Depending on the amount of data available, ERCOT may request additional or alternative data from the QSE or ERS Resource or may analyze meter data for a shorter period.
+
+A.  For any missing or invalid data, ERCOT may declare the ERS Resource to have failed to meet its performance requirements in an ERS deployment event or ERCOT unannounced test event.
+
+  If TDSP submitted data is missing for any Site in an ERS Resource for any part of an ERS deployment event or ERCOT unannounced test event, ERCOT may declare the ERS Resource to have failed to meet its performance requirements for that event.
+
+Meter Data for ERS Resources in NOIE Territories
+
+QSEs representing ERS Resources that include Sites located in a territory served by a NOIE are responsible for arranging with the NOIE Transmission and/or Distribution Service Provider (TDSP) to provide ERCOT with the most recently available twelve months of interval meter data. 
+
+A.  ERCOT may request additional meter data for ERS Load baseline evaluation purposes.
+
+B.  If sufficient interval meter data is not available, the submitting QSE must arrange to provide ERCOT with as much detailed meter data from the preceding period of up to 24 months as is available. Data from prospective ERS Resources located within NOIE service territories will be used only for ERS offer analysis and performance measurement purposes and will not be used for any other market Settlement purposes.
+
+C.  QSEs representing Sites in NOIE service territories are responsible for arranging for the NOIE TDSP to provide ERCOT with interval meter data for the Sites in the prescribed format on a monthly basis, within 35 days following the end of a calendar month or following an ERCOT unannounced test.
+
+D.  Meter data for a Site in a NOIE service territory that is not submitted by the NOIE TDSP is subject to the requirements for meter data from sources other than a registered TDSP as described below.
+
+Meter Data from sources other than a registered TDSP[5]
+
+QSEs providing meter data from a source other than a registered TDSP shall submit such data to ERCOT according to the following rules:
+
+A.  If a QSE provides premise-level sub-meter data for a Site that is also an interval-metered ESI ID within the ERCOT system, ERCOT will use the ESI ID data from its system.
+
+QSEs providing meter data from a source other than a registered TDSP shall submit such data to ERCOT according to the following rules: 
+
+A.  The data must be provided in one of the formats described in the document entitled “Interval Data File Format Descriptions,” posted to the ERS Web Page.
+
+B.  The data must be submitted on a monthly basis and is due at ERCOT no later than 35 days after the last day of the calendar month.
+
+C.  QSEs are responsible for submitting meter data to ERCOT no later than 35 days after an ERS deployment event or ERCOT unannounced test.
+
+D.  QSEs are strongly encouraged to submit meter data as soon as possible after the end of a month or an ERCOT unannounced test. Prompt submission of data allows ERCOT staff to identify and work with the submitting QSE and applicable TDSP to resolve any data irregularities or inconsistencies in ample time prior to Settlement.
+
+E.  For any missing or invalid data, ERCOT may declare the ERS Resource to have failed to meet its performance requirements in an ERS deployment event or ERCOT unannounced test. 
+
+F.  If QSE submitted data is missing or invalid for any Site in an ERS Resource for any part of an ERS deployment event or ERCOT unannounced test event, ERCOT may declare the ERS Resource to have failed to meet its performance requirements for that event.
+
+G.  For documented meter failures ERCOT may estimate the missing data.
+
+Within 35 days after the end of Standard Contract Term QSE must submit an affidavit signed by a licensed Professional Engineer affirming that all submitted meter data for the Standard Contract Term meets the accuracy standards described below, and 
+
+A.  In the absence of a signed affidavit, ERCOT will treat the site as being unavailable for purposes of calculating availability factors, event performance factors and test performance factors.
+
+If an entity other than a registered TDSP submits meter data to ERCOT for use in administering ERS, the metering used to produce the data must adhere to accuracy standards consistent with those required by PUC Substantive Rules and the Protocols, as follows:
+
+A.  Metering equipment shall conform to the requirements described in PUC Subst. Rule §25.142, Submetering.[6]
+
+B.  Time stamps shall conform to the requirements in the Protocols, Section 10.9.2, TSP or DSP Metered Entities.
+
+If an entity other than a registered TDSP submits meter data to ERCOT for use in administering ERS, the data should be subjected to Validation, Editing and Estimation (VEE) consistent with the requirements in the Protocols, Section 10.11.3, TSP or DSP Settlement Meters.
+
+Non-TDSP interval data must be provided to ERCOT in a file format defined in the document entitled “Interval Data File Format Descriptions” at the ERS Web Page.
+
+Participation by Sites in NOIE Territories
+
+6.  
+
+Sites situated in NOIE service territories are eligible to participate in ERS. Any non-NOIE QSE wishing to represent sites in a NOIE service territory must obtain written authorization from the NOIE to represent the Site. This authorization must be signed by an individual with authority to bind the NOIE and must be submitted to ERCOT prior to the submission of any offer on behalf of one or more such Sites. 
+
+Sites within NOIE service territories generally are not assigned an ESI ID within the ERCOT system. Exceptions to this include a Site directly metered by IDR metering at a NOIE Settlement Metering Point, and certain non-Settlement ESI IDs that have been installed by the NOIE TDSP for purposes other than ERCOT Settlement. ERCOT must be able to track the performance history of Non-ESI ID Sites and therefore must have assurance that the Site Identification and unique meter identifier associated with a Site providing ERS must continue to assign the same name to the Site throughout its participation in ERS. The QSE representing the ERS Resource must not change a unique identifier assigned to a Site providing ERS throughout its participation in ERS.
+
+Participation by Active Load Resources (LRs)
+
+7.  
+
+A Load Resource is considered “active” when the registration process has been completed and the Load Resource is in the ERCOT Network Operations Model and market systems.
+
+The following combinations are ineligible to participate in ERS and will be rejected:
+
+A.  For one or more sites in the ERS Load, the LR QSE is different from the ERS QSE.
+
+    i.  The responsibility for determining if an ERS Site is represented by a QSE other than ERS QSE for purposes of participating as a Load Resource is on the ERS QSE.
+
+    ii. Exception being if the LR is represented by a QSE and the ERS resource is represented by a sub QSE of the QSE representing the LR or vice versa.
+
+    iii. If during an ERS SCT a site is determined to be represented by a QSE other than the ERS QSE, the site will be deemed unavailable for ERS for all hours starting at the time the other QSE relationship was initiated when the LR became active until the dual representation is resolved.
+
+B.  The QSE indicates that an LR is not present, but the ERCOT systems indicate an active LR at that ESI ID;
+
+C.  The QSE indicates an LR is present, but no LR is present in the ERCOT systems at that ESI ID.
+
+D.  The ESI ID field on the submission form is blank.
+
+If the QSE indicates that one or more LRs are present but will not be providing AS during the Standard Contract Term, and the QSE is offering the entire premise load into ERS:
+
+A.  The Unique Meter ID field should be left blank.
+
+B.  For this site, ERCOT will use premise-level (ESI ID) meter data or if applicable, calculated native load data, to determine baseline options, availability, event and test performance for the associated ERS Load.
+
+C.  After the end of the Contract Period, ERCOT will determine whether any of the LRs provided AS during the ERS Load’s awarded Time Periods in the Contract Period     and will, if necessary, follow the procedure described in the section titled Prohibition on Other Market Activity of this document.
+
+If the QSE indicates that one or more LRs are present but will not be providing AS during the Standard Contract Term, and the QSE is offering a sub-metered load into ERS:
+
+A.  The Unique Meter ID field should be filled in.
+
+B.  The entire sub-metered Load will be treated as dedicated to ERS;
+
+C.  For this site, ERCOT will use sub-meter data to determine baseline options, availability, and event and test performance for the associated ERS Load.
+
+D.  After the end of the Contract Period, ERCOT will determine whether any of the LRs provided AS during the ERS Load’s awarded Time Periods in the Contract Period and will, if necessary, follow the procedure described in the section titled Prohibition on Other Market Activity of this document.
+
+If the QSE indicates that one or more LRs are present and will be providing AS during the Standard Contract Term, and the QSE is offering a sub-metered load that is separate from any of the LR into ERS:
+
+A.  The Unique Meter ID field should be filled in.
+
+B.  The entire sub-metered Load will be treated as dedicated to ERS;
+
+C.  For this site, ERCOT will use sub-meter data to determine baseline options, availability, and event and test performance for the associated ERS Load.
+
+D.  ERCOT will determine whether the sum of the LR load and the ERS load is less than or equal to the premise load and if necessary, follow the procedure described in the section titled Prohibition on Other Market Activity of this document.
+
+If the QSE indicates that one or more LRs are present and will be providing AS during the Standard Contract Term, and the QSE is offering load into ERS that includes some or all of the LR load.
+
+A.  ERCOT will determine baseline options using ESI ID premise-level data, or, if applicable, calculated native load data and will exclude LR deployment intervals;
+
+B.  If any LR has an AS obligation during any hour of a day the ERS load will be treated as not providing ERS during any interval of that day.
+
+Communications Systems
+
+8.  
+
+QSEs must establish a WAN connection and execute a WAN agreement with ERCOT. Installation and enablement of the WAN connection at the QSE’s site is the full responsibility of the QSE, or
+
+Has an existing Agency Agreement with a certified Level 4 QSE to provide the required communication. 
+
+When ERCOT issues Dispatch instructions regarding ERS, QSEs shall instruct their committed ERS Resources to deploy their contracted capacity. QSEs are fully responsible during all contracted hours for communicating Dispatch instructions to the contracted ERS Resources they represent. 
+
+Periods of Unavailability 
+
+9.  
+
+The Unavailability Submission Form, posted to the ERS website, is used by ERS Resources to submit unplanned periods of unavailability and power interruptions. The completed Unavailability Submission Form should be emailed to ERS@ercot.com. 
+
+QSEs are required to notify ERCOT of any committed intervals that the ERS Resource will be subjected to a test initiated by any entity other than ERCOT. This includes any intervals that a backup generator is being tested. Notification shall be provided using the Unavailability Submission Form. 
+
+QSEs must submit a notice of unavailability when the ERS Resource will be materially reduced or unable to be deployed during the scheduled period. 
+
+QSEs are required to obtain notifications via e-mail from committed ERS Resources by the end of the next Business Day regarding any material change in their availability status.  
+
+QSEs representing ERS Resources shall retain all email communications from their ERS Resources regarding material changes in availability. QSEs must report any material change in availability status of their portfolio to ERS@ercot.com by the end of the next Business Day following notification from their ERS Resources. Material changes must be reported irrespective of whether the change in availability is scheduled with ERCOT as described in this section. 
+
+For purposes of this subsection, a material change is defined as a reduction of 25 MW or more in the availability of a QSE’s ERS portfolio for a period estimated to last longer than 72 hours.
+
+Substitutions 
+
+10. 
+
+The intent of this section is to provide QSEs with a method to continue to meet their ERS commitments by substituting ERS Resources during unanticipated periods of ERS unavailability or reduced availability. 
+
+If an ERS Resource experiences an unanticipated period of unavailability or reduced availability, its QSE may provide the service temporarily with a pre-qualified or provisionally qualified substituting ERS Resource under the conditions detailed in this section.
+
+ERCOT at its discretion may disallow any ERS Resource substitution if it determines that the substitution may cause operational or reliability concerns or is inconsistent with the intent of this section. 
+
+ERCOT at its discretion may limit the number of substitutions per ERS Resource per Contract Period. 
+
+The MW capacity and price of the original ERS Resource’s award may not be changed for a substitution.
+
+If for any reason the meter identification number(s) (ESIID, RID & UMI) are changed during a Standard Contract Term, it is the QSE’s responsibility to submit a substitution form reflecting the change. The substitution form shall be submitted before the end of that Standard Contract Term.
+
+Substitution Process
+
+The QSE shall notify ERCOT via email to ERS@ercot.com when an ERS Resource substitution is to occur. The email notification must include the following information:
+
+A.  Identification of the ERS Resource for which the substitution is being submitted (“original ERS Resource Erid Number”);
+
+B.  Start date and time of the period of substitution;
+
+C.  Estimated date and time of the original ERS Resource’s return to service; and,
+
+D.  A completed ERS Submission Form describing the substituting ERS Resource.
+
+A period of substitution will begin no earlier than the calendar day following ERCOT’s receipt of the notification. 
+
+Submission of the form designating a substitution constitutes a binding commitment to provide ERS. All affirmations on the Identification tab of the ERS Offer Submission form are applicable to substituting ERS Resources. 
+
+The minimum duration for a substitution is one calendar day.
+
+Description of Substituting ERS Resources
+
+A substituting ERS Resource may include Sites that are part of the original ERS Resource.
+
+An individual ERS Resource may substitute for an aggregated ERS Resource, and vice versa.
+
+The performance evaluation methodology of a substituting ERS Resource must be consistent with that of the original ERS Resource. 
+
+A.  ERS Generators may substitute for ERS Generators and all sites in the substituting ERS Generator must have exported energy to the grid prior to being submitted as a substitution.
+
+B.  Only MBL performance evaluation methodology ERS Loads may substitute for MBL performance evaluation methodology ERS Loads.
+
+C.  Default baseline ERS Loads may substitute for default baseline ERS Loads.
+
+    i.  A substituting ERS Load may have a different default baseline type than the original ERS Load.
+
+A substituting MBL performance evaluation methodology ERS Load may declare a different maximum base Load from the original ERS Load.
+
+A substituting ERS Generator may declare a different self-serve capacity and injection capacity from the original ERS Generator.
+
+If a substitution is submitted for either an ERS Load or an ERS Generator, or both, and the original ERS Load and ERS Generator were deemed to be co-located, the substitution(s) must continue to meet the requirements for being co-located, and the co-located evaluation shall continue during the period of substitution. 
+
+The substituting ERS Resource shall not provide ERS with any capacity that is separately obligated, and receiving a separate reservation payment for such obligation, during the committed hours.
+
+Substituting ERS Resources may be subject to an ERCOT unannounced test during their period of substitution. 
+
+Pre-Qualified Substitutions
+
+A substituting ERS Resource will be considered pre-qualified if it meets one of the following conditions:
+
+A.  It is an active LR that has successfully completed an ERCOT administered Load-shed test within the previous 365 days;
+
+B.  It is an ERS Resource that has successfully completed an ERCOT administered test prior to the substitution period and within the previous 365 days.
+
+C.  It is an intact ERS Resource that has successfully completed its reinstatement procedures following a suspension. Individual Sites within a reinstated aggregated ERS Resource may not be separated to provide a substitution during the current or immediately following SCT.
+
+    i.  A reinstated ERS Resource may substitute only if the MW capacity of its reinstatement offer is greater than or equal to the committed capacity of the original ERS Resource.
+
+D.  It is an aggregated ERS Resource consisting primarily of Sites that have passed unannounced ERCOT tests within the preceding 365 days (potentially including Sites from the original ERS Resource) and ERCOT determines that the new or untested Sites in the aggregation do not materially change the ability of the ERS Resource to meet its performance requirements.
+
+    i.  ERCOT will apply the same “material change” criteria for determining the test status of a substituting ERS Resource as it does for an ERS Resource’s annual unannounced test. If ERCOT determines the ERS Resource is not subject to an unannounced test prior to the substitution period, ERCOT reserves the right to conduct a test during the substitution period.
+
+Provisional Substitutions
+
+ERCOT at its discretion may accept a substituting ERS Resource that is not pre-qualified. 
+
+A.  A provisionally qualified substituting ERS Resource that the QSE is submitting as a substitute for an ERS Load on a default baseline type may only be ERS Load that ERCOT determines to be qualified for a default baseline. If the substituting resource is an ERS Load and is determined by ERCOT to be ineligible for a default baseline, the substitution will be disallowed retroactively and the original ERS Load or immediately previously submitted substitution ERS Resource will be treated as still obligated.
+
+B.  A provisionally qualified substituting ERS Resource that the QSE is submitting as a substitute for an ERS Generator may only be an ERS Generator. The rules regarding the treatment of co-located ERS Loads and ERS Generators in Protocols Section 8.1.3.1.2 Performance Evaluation for Emergency Responsive Service Generators shall apply to the substitutions for any tests or events that occur during the period of substitution.
+
+C.  A provisionally qualified substituting ERS Resource will be required to successfully perform in an ERCOT unannounced test. If the QSE withdraws the substitution before ERCOT is able to administer the test, or the substituting ERS Resource fails to meet its performance requirements in the test or an ERS deployment event, the substitution will be disallowed retroactively, the test failure will be disregarded for purposes of payment reductions pursuant to Protocols Section 8.1.3.3 Payment Reductions and Suspension of Qualification of Emergency Response Service Resources and/or their Qualified Scheduling Entities and the original ERS Resource will be treated as still obligated.
+
+Compliance
+
+A substituting ERS Resource is subject to all applicable Protocol requirements and is subject to ERS deployment throughout the substitution period. In a deployment event, the ERS Resource that is obligated at the time of the event is subject to the deployment requirements
+
+If the original and substituting ERS Resources in combination fail to meet their availability requirements, ERCOT will endeavor through meter data analysis to determine responsibility for the failure. If ERCOT determines that the substituting ERS Resource met its contractual obligations during the substitution period, then only the original ERS Resource will be treated as having failed. If ERCOT determines that the original ERS Resource met its contractual obligations outside the substitution period, then only the substituting ERS Resource will be treated as having failed. If ERCOT determines that both the original and substituting ERS Resources failed to meet their obligations, then both will be treated as having failed.
+
+Supplemental Resources
+
+11. 
+
+The intent of this section is to provide QSEs with a method to supplement its ERS portfolio-level obligations by submitting supplemental ERS Resources during an ERS Standard Contract Term.
+
+ERCOT at its discretion may disallow any supplemental ERS Resource if it determines that acceptance may cause operational or reliability concerns or is inconsistent with the intent of this section.
+
+ERCOT at its discretion may limit the number of supplemental ERS Resources per Standard Contract Term.
+
+Supplemental Resource Process
+
+The QSE shall notify ERCOT via email to ERS@ercot.com when a supplemental ERS Resource is to be initiated. The email notification must include the following information:
+
+A.  Start and stop dates of the period for the supplemental ERS Resource;
+
+B.  A completed ERS Submission Form describing the supplemental ERS Resource.
+
+The effective start date of a supplemental ERS Resource must begin no earlier than the calendar day following ERCOT’s receipt of the notification.
+
+Submission of the form designating a supplemental ERS Resource constitutes a binding commitment for the Resource to provide ERS. All affirmations on the Identification tab of the ERS Offer Submission Form are applicable to supplemental ERS Resources.
+
+The minimum duration for a supplemental ERS Resource is one calendar day.
+
+Description of Supplemental ERS Resources
+
+A supplemental ERS Resource may not include Sites that are currently obligated to provide ERS in any time period. The supplemental ERS Resource shall not provide ERS with any capacity that is separately obligated, and receiving a separate reservation payment for such obligation, during the committed hours.
+
+If a supplemental ERS Resource is an ERS Generator, the rules regarding the treatment of co-located ERS Loads and ERS Generators in Protocols Section 8.1.3.1.2 Performance Evaluation for Emergency Response Service Generators shall apply for any tests or events that occur during the period the supplemental ERS Resource is participating in ERS.
+
+Pre-Qualified Supplementals
+
+A supplemental ERS Resource will be considered pre-qualified if it meets one of the following conditions:
+
+A.  It is an active LR that has successfully completed an ERCOT administered Load-shed test within the previous 365 days.
+
+B.  It is an intact ERS Resource that has successfully completed its reinstatement procedures following a suspension. Individual Sites within a reinstated aggregated ERS Resource may not be removed from the supplemental.
+
+C.  It is an aggregated ERS Resource consisting primarily of Sites that have passed unannounced ERCOT tests within the preceding 365, and ERCOT determines that any new or untested Sites in the aggregation are unlikely to materially change the ability of the ERS Resource to meet its performance requirements.
+
+ERCOT will apply the same “material change” criteria for determining the test status of a supplemental ERS Resource as it does for an ERS Resource’s annual unannounced test. If ERCOT determines the ERS Resource is not subject to an unannounced test prior to the participation period, ERCOT reserves the right to conduct a test during the period the supplemental ERS Resource is participating in ERS.
+
+Provisional Supplementals
+
+ERCOT at its discretion may accept a supplemental ERS Resource that is not pre-qualified; if accepted, the supplemental ERS Resource will be deemed to be provisionally qualified.
+
+A provisionally qualified supplemental ERS Resource will be required to successfully perform in an ERCOT unannounced test. If the QSE withdraws the supplemental ERS Resource before ERCOT is able to administer the test, or if the supplemental ERS Resource fails to meet its performance requirements in the test or an ERS deployment event, the supplemental ERS Resource will be disallowed, the test failure will be disregarded for purposes of payment reductions pursuant to Protocols, Section 8.1.3.3, Payment Reductions & Suspension of Emergency Response Service Resources and/or their Qualified Scheduling Entities. 
+
+Compliance
+
+A supplemental ERS Resource is subject to all applicable Protocol requirements and is subject to ERS deployment throughout its participation in ERS.
+
+The calculation of QSE portfolio-level event performance shall include interval values for any supplemental ERS Resource subject to the following:
+
+A.  The obligation for the ERS Resource shall be set to zero, and;
+
+B.  The (Base_MWh) shall be determined as specified in Protocols Section 8.1.3.1.4 Event Performance Criteria for Emergency Response Service Resources, with the limitation that the Base_MWh shall be set such that the load reduction calculated for an ERS Load, or the injection/output for an ERS Generator is less than or equal to the capacity specified on the ERS Submission form.
+
+For purposes of calculating QSE portfolio-level availability, when supplemental ERS Resources are in force, the portfolio-level obligation and declared maximum baseload remain unchanged, but the following apply to supplemental ERS Resources:
+
+A.  The contribution to portfolio availability for an interval for a supplemental ERS Load on a default baseline shall be the lesser of the actual load for the interval or the capacity specified on its ERS Submission form.
+
+B.  The contribution to portfolio availability for an interval for a supplemental ERS Load on the MBL performance evaluation methodology shall be the actual load for the interval less the declared maximum base Load on the ERS Submission Form or zero, if the result is negative.
+
+C.  The contribution to portfolio availability for a supplemental ERS Generator shall be based on treating the supplemental ERS Generator as having an obligation equal to the lowest of the following:
+
+    i.  The capacities specified on its ERS Submission Form;
+
+    ii. The average export provided during all events that occur during the period the supplemental ERS Resource is participating in ERS; or,
+
+    iii. If no events have occurred and an ERCOT unannounced test has been administered, the export provided during the test.
+
+For purposes of settlement, supplemental ERS Resources will be treated as having obligations of zero for all submitted time-periods.
+
+Deployment
+
+12. 
+
+The deployment time within the ERCOT XML deployment message shall represent the beginning of the ERS-10 and ERS-30 ramp periods.
+
+Shifting Load or Generation from one ESI ID or Service Delivery Point to another, to meet an ERS obligation is not allowed.
+
+Event Performance Measurement and Verification
+
+13. 
+
+The performance of an ERS Resource within a Private Use Network will be evaluated based on two factors: 
+
+A.  The event performance of the ERS Resource itself, based on the actual interval data collected at the isolated Site-level meter, or, if applicable, calculated 15-minute interval native load data; and,
+
+B.  Energy flows at the Private Use Network’s tie point to the ERCOT System.
+
+The Sustained Response Period for an ERS Resource will end at the time ERCOT issues a release instruction to the QSEs representing the ERS Resource, via an XML message. The ERCOT System Operator will confirm issuance of the release instruction to all parties on the Hot Line call. Upon receipt of this release instruction, ERS Resources shall return to a condition that will allow them to meet their contracted obligations within 10 hours. 
+
+The obligation of a deployed ERS Resource is based on its awarded MW capacity by Time Period in the Sustained Response Period. QSEs and ERS Resources are responsible for making any adjustments necessary to allow the ERS Resource to continue to meet its performance requirements at the time of a transition to a new Time Period. 
+
+ERCOT may issue subsequent XML messages to QSEs to dispatch newly obligated ERS Resources in later Time Periods. The performance obligations of such ERS Resources begin at the time of the later instruction. QSEs representing ERS Resources obligated in a new Time Period shall not deploy those ERS Resources unless instructed to do so by ERCOT via a new, separate XML message.
+
+QSE Performance Criteria
+
+14. 
+
+QSE portfolio-level event performance factors and availability factors are expressed as a number between 0 and 1. ERCOT will assign final factors to three decimal points using standard rounding procedures. For example, a factor of 0.94950 will round to 0.950; a factor of 0.94949 will be rounded to 0.949.
+
+Reinstatement of Suspended ERS Resources 
+
+15. 
+
+The procedures for a suspended ERS Resource to regain its eligibility to provide ERS after the suspension period are as follows:
+
+A.  The QSE shall submit a reinstatement ERID using ERID Submission Form as described in the Offer Submission section of this document.
+
+B.  Aggregations submitted on the ERS Submission Form may consist of non-suspended Sites as well as suspended Sites.
+
+C.  If the ERS Resource being reinstated is an ERS Load, upon receipt of the form ERCOT will provide the QSE with baseline options and MW capacity pre-screening information.
+
+D.  The ERS QSE shall then submit a reinstatement offer by returning the ERS Submission Form containing all relevant offer parameters except price. The reinstatement offer must specify whether the reinstatement is for participation in ERS-10 or ERS-30.
+
+    i.  An ERS Resource that successfully completes the reinstatement process for ERS-10 will be eligible to participate in either ERS-10 or ERS-30. An ERS Resource that successfully completes the reinstatement process for ERS-30 will be eligible to participate only in ERS-30.
+
+ERCOT shall conduct an unannounced test of the ERS Resource, based on the parameters of the reinstatement offer. 
+
+A.  Upon receipt of meter data covering the test period, ERCOT shall evaluate interval meter data to determine a test performance factor.
+
+B.  If the test is successful, ERCOT shall notify the QSE that the ERS Resource has been reinstated and is eligible to offer into an upcoming Standard Contract Term.
+
+C.  If the ERS Resource fails the ERCOT unannounced test, the ERS Resource will be ineligible to provide ERS until a test has been successfully completed.
+
+D.  If the ERS Resource fails a test during the 4 month SCT they will have an opportunity to test again if ERCOT conducts a second round of testing in that SCT.
+
+E.  If the ERS Resource fails a test during the 2 month SCT they will not be tested again in that SCT.
+
+F.  If the ERS Resource fails to pass a reinstatement test they must begin the reinstatement process again in the next reinstatement cycle.
+
+ERCOT will provide reinstatement test results only to the QSE representing the ERS Resource in the reinstatement process. 
+
+The Sites comprising an ERS Resource in a Reinstatement Offer will be eligible to submit an Offer for the next Standard Contract Term only in the same configuration and limited to some or all of the Time Periods selected in the Reinstatement Offer. 
+
+If a QSE submits an offer in the upcoming Standard Contract Term on behalf of a reinstated ERS Resource, the MW capacity specified on the offer must be less than or equal to the MW capacity identified on the Reinstatement Offer. If the reinstated ERS Resource is an ERS Load and the MBL performance evaluation methodology is selected for the offer, the maximum base Load specified must be greater than or equal to the maximum base Load specified on the Reinstatement Offer. If the reinstated ERS Resource is a Self-Serving ERS Generator, both the declared self-serve value and declared injection value must be greater than or equal to the values specified on the Reinstatement Offer. These parameters apply regardless of whether the submitting QSE is the original QSE or a new QSE. Any offers submitted outside of these parameters are subject to rejection by ERCOT. 
+
+Prohibition on Other Market Activity
+
+16. 
+
+Details regarding participation in ERS by Load Resources is described in the Participation by Active Load Resources (LRs) section of this document. Any other form of participation by an ESI ID in ERS and as an LR is not allowed.
+
+An ESI ID or a customer in a NOIE area participating as a Site in an ALR may not participate in ERS on any day during which it has a bid to buy active in SCED.
+
+An ESI ID participating in a TDSP Standard Offer Program may not participate in ERS in any Time Period which covers all or part of the period of obligation for the TDSP Standard Offer Program.
+
+A Site in an ERS Generator may not register with ERCOT as a Generation Resource while it is committed in ERS.
+
+An RID, ESI ID or a customer in a NOIE area which is in any way obligated in a program other than those listed above for which a separate reservation payment is being received by any entity may not participate in ERS during that participation.
+
+QSEs are responsible for communicating details relating to Prohibition on Other Market Activity to their current and prospective ERS participants.
+
+ERS Self-Provision
+
+1.  QSEs opting for ERS Self-Provision must submit the ERS Notification of Self-Provision Form[7] by the prescribed deadline identified on the ERS Procurement Schedule. The Self-Provision Form shall be submitted by email to ERS@ercot.com.
+
+2.  The QSE may reduce its ERS Self-Provision commitment by removing one or more ERS Resources from its Self-Provision offers and/or by reducing the MW commitment of one or more ERS Resources. The QSE shall submit a revised ERS Submission form to ERCOT specifying the revised commitments within two Business Days following ERCOT’s notification to the QSE of its reduced obligation.
+
+3.  Self-provided ERS Resources may participate in renewal ERS Contract Periods. QSEs representing self-provided ERS Resources that elect to participate in renewal Contract Periods shall receive credit at settlement for any such participation. However, the obligation of a Self-Provided ERS Resource in a renewal Contract Period is not subject to adjustment by the QSE through the SPCUL process.[8]
+
+[1] http://www.ercot.com/mktrules/nprotocols/current.
+
+[2] Defined for purposes of this document only.
+
+[3] Defined for purposes of this document only.
+
+[4] See Demand Response Baseline Methodologies https://www.ercot.com/services/programs/load/eils/documents
+
+[5] This may apply to but is not limited to an ERS Load located within a Private Use Network or any Load independently metered or submetered.
+
+[6] For example, submeter testing facilities, accuracy requirements for submeters, submeter test prior to installation, and testing of electric submeters. See additionally, http://www.puc.state.tx.us/rules/subrules/electric/index.cfm,for the rule’s complete requirements.
+
+[7] Form is posted to http://www.ercot.com/services/programs/load/ERS/index.html.
+
+[8] Protocols Section 3.14.3.2.
