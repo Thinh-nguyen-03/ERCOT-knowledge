@@ -112,7 +112,7 @@ The Legislature's answer was HB 4492, which defines a "default balance" of up to
 
 ## Common confusion
 
-(Guidance) Brazos was a generation and transmission cooperative, not a retail electric provider, yet it was the largest defaulter. [e1] Keep the figures apart: $2.9-3 billion is total short payments, about $1.9 billion is Brazos's share, and $800 million is only the cap on the default balance that HB 4492 financed. [e1][e4][e6]
+(Guidance) Brazos was an electric cooperative, which the IMM lists separately from the retail electric providers that exited, yet it was the largest defaulter. [e4][e1] Keep the figures apart: $2.9-3 billion is total short payments, about $1.9 billion is Brazos's share, and $800 million is only the cap on the default balance that HB 4492 financed. [e1][e4][e6]
 
 ## Questions
 
