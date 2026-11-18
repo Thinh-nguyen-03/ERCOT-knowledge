@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: winter-storm-uri
     type: related
-    note: SB 3 and the PUCT weather rule followed Winter Storm Uri; the FERC-NERC report found ERCOT's earlier program had no meaningful follow-up on missed preparations. [e9]
+    note: The FERC-NERC Uri report found no meaningful follow-up when entities missed the December 1 winter preparation deadline. [e9]
   - to: puct
     type: regulates
     note: The PUCT adopted 16 TAC 25.55 and sets penalties for violations. [e1][e6]
@@ -46,6 +46,10 @@ evidence:
     source: puct-25-55
     locator: "16 TAC 25.55(c)(3)(A)"
     quote: "No earlier than November 1 and no later than December 1 of each year, a generation entity must submit a declaration of winter weather preparedness for the upcoming winter season that:"
+  - id: e13
+    source: puct-25-55
+    locator: "16 TAC 25.55(c)(3)(B)"
+    quote: "No earlier than May 1 and no later than June 1 of each year, a generation entity must submit a declaration of summer weather preparedness for the upcoming summer season that at a minimum:"
   - id: e5
     source: puct-25-55
     locator: "16 TAC 25.55(d)(1)"
@@ -86,7 +90,7 @@ Weatherization standards are the PUCT's weather emergency preparedness rule, 16 
 
 ## How it works
 
-Each generation entity must submit a declaration of winter weather preparedness between November 1 and December 1, and a summer one on a similar schedule before June 1. [e4] ERCOT must inspect every resource interconnected to the ERCOT power region at least once every three years. [e5]
+Each generation entity must submit a declaration of winter weather preparedness between November 1 and December 1, and a declaration of summer weather preparedness between May 1 and June 1. [e4][e13] ERCOT must inspect every resource interconnected to the ERCOT power region at least once every three years. [e5]
 
 Enforcement is through the PUCT. A violation is a Class A violation and may carry a penalty up to $1,000,000 per violation per day. [e6] If a resource has a repeated or major weather-related forced interruption of service, ERCOT notifies the entity and staff, and the entity must contract a qualified professional engineer to assess its preparation measures, plans, procedures and operations. [e7]
 
@@ -99,7 +103,7 @@ The reliability standard rule links to this one: the model must state an assumed
 ## Key facts
 
 - Winter measures must be complete by December 1 each year; summer measures by June 1. [e2][e3]
-- Declarations of winter preparedness are due between November 1 and December 1. [e4]
+- Declarations of winter preparedness are due between November 1 and December 1; summer declarations between May 1 and June 1. [e4][e13]
 - ERCOT inspects each resource at least once every three years. [e5]
 - A violation is a Class A violation, with a penalty up to $1,000,000 per violation per day. [e6]
 - A repeated or major weather-related forced interruption requires an independent engineer assessment. [e7]
@@ -110,7 +114,7 @@ Texas moved from voluntary winter spot checks to a mandatory rule: every generat
 
 ## Common confusion
 
-Weatherization is a compliance duty with penalties, not a paid service. Firm fuel supply is the paid fuel-readiness product, and the two should not be mixed up. [e2][e6] The rule also covers transmission service providers, not only generators. [e1]
+Weatherization is a compliance duty with penalties, not a paid service. Firm fuel supply (FFSS) is the paid fuel-readiness product, and the two should not be mixed up. [e6] The rule also covers transmission service providers, not only generators. [e1]
 
 ## Questions
 

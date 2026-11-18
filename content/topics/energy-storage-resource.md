@@ -22,7 +22,7 @@ links:
     note: SCED accounts for state of charge inside its optimization after RTC+B. [e6]
   - to: eea
     type: related
-    note: ESR charging is suspended in an EEA, with exceptions; see the EEA topic.
+    note: See the EEA topic for the rules on ESR charging during an EEA.
   - to: battery-revenue-stack
     type: related
     note: ESR revenue shifted from ancillary services toward energy arbitrage in 2025. [e11]
