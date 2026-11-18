@@ -19,13 +19,13 @@ links:
     note: ICE lists monthly ERCOT North futures for a peak block and an off-peak block. [e3][e4]
   - to: hb-north
     type: related
-    note: The ICE contracts reference the ERCOT North 345KV Hub real-time price. [e3][e4]
+    note: The ICE contracts reference the ERCOT North 345KV Hub real-time price. [e8][e3][e4]
   - to: trading-hub
     type: related
-    note: ICE reference prices are published ERCOT hub settlement prices.
+    note: The ICE reference price is the ERCOT North 345KV Hub real-time price published by ERCOT. [e8]
   - to: shape-risk
     type: related
-    note: A fixed-price block covers only the hours in the block, so load outside it carries shape exposure.
+    note: A block covers only the hours defined for it, so hours outside the block are not covered by it. [e1]
 evidence:
   - id: e1
     source: np-07
@@ -55,6 +55,10 @@ evidence:
     source: ice-ercot-north-peak
     locator: "Reference Price A (b) Pricing Date"
     quote: "Each Monday through Friday, excluding NERC holidays, that prices are reported for the Delivery Date"
+  - id: e8
+    source: ice-ercot-north-peak
+    locator: "ICE Futures U.S., ERCOT North 345KV Real-Time Peak Fixed Price Future, Reference Price A, (a) Description"
+    quote: "\"ELECTRICITY-ERCOT-NORTH 345KV HUB-REAL TIME\" means that the price for a Pricing Date will be that day's Specified Price per MWh of electricity for delivery on the Delivery Date, stated in U.S. Dollars, published by the ERCOT"
 ---
 
 ## Definition
@@ -75,7 +79,7 @@ The CRR auction rules and the ICE contracts line up on hours: the 0700-2200 wind
 
 - CRR TOU blocks are 5x16, 2x16 and 7x8, each in one-month strips. [e1]
 - CRR bids and PCRR nominations must specify a TOU block. [e2]
-- ICE's ERCOT North peak and off-peak futures are monthly and cash settled, referencing the ERCOT North 345KV Hub real-time price. [e3][e4]
+- ICE's ERCOT North peak and off-peak futures are monthly and cash settled, referencing the ERCOT North 345KV Hub real-time price. [e8][e3][e4]
 - The peak average uses hours ending 0700-2200 CPT. [e5]
 - A single-month block bid is allowed only in the CRR Monthly Auction. [e6]
 
@@ -95,7 +99,7 @@ Hours ending 0700-2200, Monday through Friday, excluding NERC holidays. [e1]
 
 ### What does the ICE ERCOT North peak future settle against?
 
-The average of the daily peak-hour prices published by ERCOT for the ERCOT North 345KV Hub real-time price, using hours ending 0700-2200 CPT. [e3][e5]
+The average of the daily peak-hour prices published by ERCOT for the ERCOT North 345KV Hub real-time price, using hours ending 0700-2200 CPT. [e8][e3][e5]
 
 ### How is a 7x24 position bought in a CRR auction?
 

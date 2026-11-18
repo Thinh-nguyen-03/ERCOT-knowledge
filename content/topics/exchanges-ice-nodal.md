@@ -19,13 +19,13 @@ links:
     note: ICE's reference price is an ERCOT-published hub settlement price. [e3]
   - to: rtm
     type: determines
-    note: The final settlement price comes from ERCOT's real-time SPPs. [e3]
+    note: The contracts settle against the real-time price published by ERCOT for the North 345KV Hub. [e3]
   - to: dart-spread
     type: related
-    note: ICE futures settle against real-time prices, so they bear on how forwards compare with real-time outcomes.
+    note: ICE futures settle against real-time prices rather than day-ahead prices, so they bear on how forwards compare with real-time outcomes. [e3]
   - to: retail-hedging
     type: related
-    note: Fixed-price futures are one way to fix a power price in advance.
+    note: The ICE contracts are named Fixed Price Futures and settle in cash against the real-time price. [e9][e3]
 evidence:
   - id: e1
     source: ice-ercot-north-peak
@@ -71,13 +71,13 @@ ICE Futures U.S. lists monthly cash-settled futures on ERCOT power, including th
 
 ## How it works
 
-The contract settles in cash against the "ELECTRICITY-ERCOT-NORTH 345KV HUB-REAL TIME" price published by ERCOT. [e3] The size is 1 MW, the price is quoted in cents per MWh, and up to 50 consecutive monthly contract periods can be listed. [e4][e8][e5] Trading ends on the last business day of the contract period, and the final payment date is the sixth clearing organization business day after that. [e6][e7]
+The contract settles in cash against the "ELECTRICITY-ERCOT-NORTH 345KV HUB-REAL TIME" price published by ERCOT. [e3] The size is 1 MW, the price is quoted in US dollars per MWh with a minimum fluctuation of one cent, and up to 50 consecutive monthly contract periods can be listed. [e4][e3][e8][e5] Trading ends on the last business day of the contract period, and the final payment date is the sixth clearing organization business day after that. [e6][e7]
 
 The peak contract averages the peak hourly prices and the off-peak contract averages the off-peak hourly prices; the specific hours are in the block-products topic. [e1][e2]
 
 ## ERCOT context
 
-The saved ICE specifications show that ERCOT hub real-time prices are the underlying for exchange-traded power futures. This lets a participant fix a monthly price that settles on the published real-time result at the North hub. [e1][e3] The saved sources contain no information on Nodal Exchange.
+The saved ICE specifications show that the ERCOT North 345KV Hub real-time price is the underlying for these exchange-traded power futures, which settle in cash on a monthly average of the published prices. [e1][e3] The saved sources contain no information on Nodal Exchange.
 
 ## Key facts
 
