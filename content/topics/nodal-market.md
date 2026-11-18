@@ -1,6 +1,6 @@
 ---
 id: nodal-market
-name: Nodal Market (since Dec 2010)
+name: Nodal Market
 aliases: [nodal market, Texas Nodal Market, nodal design, LMP market, nodal pricing]
 kind: concept
 domain: pricing
