@@ -31,3 +31,18 @@ Write only your assigned files in content/topics/. Do not edit other files, do n
 
 ## Report back (short)
 For each topic: number of evidence quotes, and its open items. Plus anything in the sources that surprised you or contradicts common belief.
+
+## General-level pass (applies unless your assignment says "deep")
+The owner wants broad coverage first and depth later. For each topic write a solid general-level entry:
+- Definition (cited), How it works (1-3 short paragraphs), ERCOT context (1-2 paragraphs), Key facts (3-5 bullets),
+  Say it like this, Common confusion, 2-3 Questions, links (4-6), Open items.
+- 4-8 evidence quotes per topic is enough. Do not chase every sub-rule; note deeper areas under Open items as
+  "Deeper pass: ..." so the next round knows where to dig.
+- If the saved sources do not cover a topic well enough to write a cited Definition, do NOT write the file.
+  Report the topic as "skipped: no source" with what source would be needed.
+
+## OCR copies of the IMM reports
+`sources/text/imm-som-2025.ocr.txt` and `imm-som-2024.ocr.txt` (if present) are image-read copies in which the
+tables are legible (the normal .txt files garble table numbers). You may quote from them using the same source id
+(`imm-som-2025`); add "(OCR)" to the locator and include the page marker, e.g. "page 29 (OCR), Table 1".
+Copy numbers exactly as they appear there.

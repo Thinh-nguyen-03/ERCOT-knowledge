@@ -187,6 +187,55 @@
    "domain": "structure"
   },
   {
+   "id": "large-load-interconnection",
+   "name": "Large Load Interconnection & Batch Zero",
+   "kind": "rule",
+   "domain": "structure",
+   "hot": true
+  },
+  {
+   "id": "polr",
+   "name": "POLR (Provider of Last Resort)",
+   "kind": "rule",
+   "domain": "structure"
+  },
+  {
+   "id": "mass-transition",
+   "name": "Mass Transition",
+   "kind": "concept",
+   "domain": "structure"
+  },
+  {
+   "id": "tx-set",
+   "name": "TX SET (Texas Standard Electronic Transactions)",
+   "kind": "concept",
+   "domain": "structure"
+  },
+  {
+   "id": "resource-types",
+   "name": "Resource Types (Generation, Load, ESR, SOG)",
+   "kind": "concept",
+   "domain": "structure"
+  },
+  {
+   "id": "clr",
+   "name": "CLR (Controllable Load Resource)",
+   "kind": "concept",
+   "domain": "structure"
+  },
+  {
+   "id": "dgr-sodg",
+   "name": "DGR & SODG (Distribution-Connected Generation)",
+   "kind": "concept",
+   "domain": "structure"
+  },
+  {
+   "id": "market-information-system",
+   "name": "MIS (Market Information System) & Public Data",
+   "kind": "concept",
+   "domain": "structure"
+  },
+  {
    "id": "nodal-market",
    "name": "Nodal Market (since Dec 2010)",
    "kind": "concept",
@@ -382,13 +431,15 @@
    "id": "asdc",
    "name": "ASDC (Ancillary Service Demand Curves)",
    "kind": "rule",
-   "domain": "reliability"
+   "domain": "reliability",
+   "hot": true
   },
   {
    "id": "rtc-b",
    "name": "RTC+B (Real-Time Co-optimization + Batteries)",
    "kind": "rule",
-   "domain": "reliability"
+   "domain": "reliability",
+   "hot": true
   },
   {
    "id": "prc",
@@ -418,19 +469,22 @@
    "id": "drrs",
    "name": "DRRS (Dispatchable Reliability Reserve Service)",
    "kind": "product",
-   "domain": "reliability"
+   "domain": "reliability",
+   "hot": true
   },
   {
    "id": "pcm",
    "name": "PCM (Performance Credit Mechanism)",
    "kind": "rule",
-   "domain": "reliability"
+   "domain": "reliability",
+   "hot": true
   },
   {
    "id": "texas-energy-fund",
    "name": "Texas Energy Fund",
    "kind": "rule",
-   "domain": "reliability"
+   "domain": "reliability",
+   "hot": true
   },
   {
    "id": "load-shed",
@@ -459,6 +513,42 @@
   {
    "id": "weatherization",
    "name": "Weatherization Standards",
+   "kind": "rule",
+   "domain": "reliability"
+  },
+  {
+   "id": "rmr",
+   "name": "RMR (Reliability Must-Run) & Must-Run Alternatives",
+   "kind": "product",
+   "domain": "reliability"
+  },
+  {
+   "id": "black-start",
+   "name": "Black Start Service",
+   "kind": "product",
+   "domain": "reliability"
+  },
+  {
+   "id": "peaker-net-margin",
+   "name": "Peaker Net Margin (PNM)",
+   "kind": "metric",
+   "domain": "reliability"
+  },
+  {
+   "id": "reliability-standard",
+   "name": "ERCOT Reliability Standard",
+   "kind": "rule",
+   "domain": "reliability"
+  },
+  {
+   "id": "operating-notices",
+   "name": "Operating Notices (OCN, Advisory, Watch, Emergency)",
+   "kind": "rule",
+   "domain": "reliability"
+  },
+  {
+   "id": "emergency-pricing-program",
+   "name": "Emergency Pricing Program",
    "kind": "rule",
    "domain": "reliability"
   },
@@ -562,6 +652,13 @@
    "id": "four-cp",
    "name": "4CP Transmission Charges",
    "kind": "rule",
+   "domain": "congestion",
+   "hot": true
+  },
+  {
+   "id": "crez",
+   "name": "CREZ (Competitive Renewable Energy Zones)",
+   "kind": "rule",
    "domain": "congestion"
   },
   {
@@ -640,7 +737,8 @@
    "id": "tax-credits-recs",
    "name": "PTC / ITC & RECs",
    "kind": "rule",
-   "domain": "fundamentals"
+   "domain": "fundamentals",
+   "hot": true
   },
   {
    "id": "load-forecasting",
@@ -652,23 +750,39 @@
    "id": "large-load-growth",
    "name": "Large Load Growth (Data Centers, Crypto, Industrial)",
    "kind": "concept",
-   "domain": "fundamentals"
+   "domain": "fundamentals",
+   "hot": true
   },
   {
    "id": "sb6",
    "name": "SB 6 (2025) Large Load Legislation",
    "kind": "rule",
-   "domain": "fundamentals"
+   "domain": "fundamentals",
+   "hot": true
   },
   {
    "id": "permian-transmission",
    "name": "Permian Basin Load & 765 kV Plan",
    "kind": "concept",
-   "domain": "fundamentals"
+   "domain": "fundamentals",
+   "hot": true
   },
   {
    "id": "thermal-outages",
    "name": "Thermal Outages (Planned & Forced)",
+   "kind": "concept",
+   "domain": "fundamentals"
+  },
+  {
+   "id": "long-term-load-forecast",
+   "name": "ERCOT Long-Term Load Forecast",
+   "kind": "report",
+   "domain": "fundamentals",
+   "hot": true
+  },
+  {
+   "id": "wind-solar-forecasts",
+   "name": "Wind & Solar Forecasts (STWPF, STPPF)",
    "kind": "concept",
    "domain": "fundamentals"
   },
@@ -729,30 +843,6 @@
   {
    "id": "asset-optimization",
    "name": "Asset Optimization",
-   "kind": "concept",
-   "domain": "trading"
-  },
-  {
-   "id": "var",
-   "name": "VaR (Value at Risk)",
-   "kind": "metric",
-   "domain": "trading"
-  },
-  {
-   "id": "mark-to-market",
-   "name": "Mark-to-Market",
-   "kind": "concept",
-   "domain": "trading"
-  },
-  {
-   "id": "pnl-attribution",
-   "name": "P&L Attribution",
-   "kind": "concept",
-   "domain": "trading"
-  },
-  {
-   "id": "options-basics",
-   "name": "Power Options & Greeks Basics",
    "kind": "concept",
    "domain": "trading"
   },
@@ -857,6 +947,20 @@
    "name": "Scenario: Explaining an Uplift Charge to Finance",
    "kind": "scenario",
    "domain": "cases"
+  },
+  {
+   "id": "winter-storm-jan-2026",
+   "name": "January 2026 Winter Storm",
+   "kind": "event",
+   "domain": "cases",
+   "hot": true
+  },
+  {
+   "id": "summer-2026",
+   "name": "Summer 2026 Peak & Market Review",
+   "kind": "event",
+   "domain": "cases",
+   "hot": true
   }
  ]
 }
