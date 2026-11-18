@@ -9,7 +9,7 @@ cd "$(dirname "$0")/.."
 for id in "$@"; do
   pdf="sources/raw/$id.pdf"; tmp=$(mktemp -d); out="sources/text/$id.ocr.txt"
   pdftoppm -r 200 -png "$pdf" "$tmp/p"
-  ls "$tmp"/p-*.png | sort | xargs -P 4 -I{} sh -c 'tesseract "$1" "${1%.png}" --psm 6 >/dev/null 2>&1' _ {}
+  ls "$tmp"/p-*.png | sort | OMP_THREAD_LIMIT=1 xargs -P 3 -I{} sh -c 'tesseract "$1" "${1%.png}" --psm 6 >/dev/null 2>&1' _ {}
   : > "$out"
   for f in $(ls "$tmp"/p-*.txt | sort); do n=$(basename "$f" .txt | sed 's/p-0*//'); printf '\n===== page %s (OCR) =====\n' "$n" >> "$out"; cat "$f" >> "$out"; done
   rm -rf "$tmp"; echo "ocr $id -> $out ($(wc -c < "$out") chars)"

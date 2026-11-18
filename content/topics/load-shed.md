@@ -75,6 +75,10 @@ evidence:
     source: ferc-nerc-uri
     locator: "Executive Summary, ERCOT Interconnection, February 15"
     quote: "At first ERCOT was able to recover its frequency to normal levels through deployment of load management measures, but it continued to suffer generating unit outages and needed to order its first 1,000 MW of load shed at 1:20 a.m."
+  - id: e13
+    source: ferc-nerc-uri
+    locator: "Executive Summary, The February 2021 Cold Weather Outages in Texas and the South Central United States"
+    quote: "The Event was the fourth cold-weather-related event in the last ten years to jeopardize BES reliability, 5 and with a combined 23,418 MW of manual firm load shed, 6 the largest controlled firm load shed event in U.S. history."
 ---
 
 ## Definition
@@ -121,7 +125,7 @@ The combined size and duration of the shed made it hard to rotate, so operators 
 
 ### How much was shed in 2021?
 
-ERCOT shed 20,000 MW at the worst point; the combined firm load shed across the affected regions was larger. [e7] ERCOT's own overview lists it as the largest of four controlled-outage events. [e11]
+ERCOT shed 20,000 MW at the worst point; the FERC and NERC report puts the combined manual firm load shed across the affected regions at 23,418 MW. [e7][e13] ERCOT's own overview lists it as the largest of four controlled-outage events. [e11]
 
 ## Scenarios
 
@@ -132,7 +136,6 @@ ERCOT shed 20,000 MW at the worst point; the combined firm load shed across the 
 
 ## Open items
 
-- The FERC and NERC report's combined 23,418 MW figure (all footprints) was read but is not cited here; no source for a combined total beyond the ERCOT 20,000 MW.
 - Deeper pass: the Operating Guide load shed tables, the Load Shed Obligation (Section 4.5.3.4), critical load definitions and the exemption of critical loads, and the PUCT rules on rotating outages.
 - Deeper pass: restoration of load after shed and the settlement treatment (e.g., prices during shed) are not covered here.
 - Deeper pass: how ORDC and VOLL reflect the probability of load shed in scarcity pricing.

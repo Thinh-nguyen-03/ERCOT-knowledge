@@ -153,7 +153,7 @@ Prices: the UT report says the price of electricity went to $9,000 per MWh and s
 
 Money: by April 14, 2021, ERCOT reported about $2.9 billion of short payments, later raised to $2.99 billion, of which $1.86 billion related to Brazos Electric Power Cooperative, which filed for bankruptcy on March 1, 2021. [e13] HB 4492 then created two financing paths: a default balance financed under PURA Subchapter M capped at $800 million, and an uplift balance of up to $2.1 billion that had been uplifted to load-serving entities for reliability deployment price adder and related charges. [e19][e20] The law defines the "period of emergency" as February 12, 2021, 12:01 a.m., through February 20, 2021, 11:59 p.m. [e21]
 
-Rules: before the storm, ERCOT told its Board that generators were not required to meet any minimum weatherization standard and no entity had rules to enforce one. [e16] SB 3 requires ERCOT to inspect generation assets for compliance with the new weather reliability standards, and 16 TAC §25.55 requires each generation entity to complete winter preparation measures for each resource by December 1 each year. [e17][e18] The IMM credits SB 3 with laying the foundation for ERCOT's reliability standard. [e25] FFSS was implemented in 2022 in response to the fuel supply disruptions. [e23] The current rule sets the HCAP at $5,000 per MWh, compared with the $9,000 cap in effect during the storm. [e22][e11]
+Rules: before the storm, ERCOT told its Board that generators were not required to meet any minimum weatherization standard and no entity had rules to enforce one. [e16] SB 3 requires ERCOT to inspect generation assets for compliance with the new weather reliability standards, and 16 TAC §25.55 requires each generation entity to complete winter preparation measures for each resource by December 1 each year. [e17][e18] The IMM credits SB 3 with laying the foundation for ERCOT's reliability standard. [e25] FFSS was implemented in 2022 in response to the fuel supply disruptions. [e23] The current rule sets the HCAP at $5,000 per MWh, compared with the $9,000 per MWh price held during the storm. [e22][e11]
 
 Lasting operating change: the IMM reports RUC commitments ran 202 to 613 resource-hours per year in 2017-2020 but have been in the thousands every year since 2021. [e24]
 
@@ -188,7 +188,7 @@ Lasting operating change: the IMM reports RUC commitments ran 202 to 613 resourc
 
 ## Common confusion
 
-(Guidance) "Wind froze, so it was a renewables failure" is too simple: wind was 27 percent of the units with outages, but the federal report's two named causes are cold-weather unpreparedness across unit types and natural gas fuel supply. [e1][e2] Also keep the two dollar figures apart: the $9,000 price was the cap during the storm, while today's HCAP is $5,000. [e11][e22] The 20,000 MW load shed figure is ERCOT only; 23,418 MW is the combined event-area figure. [e7][e8]
+(Guidance) "Wind froze, so it was a renewables failure" is too simple: wind was 27 percent of the units with outages, but the federal report's two named causes are cold-weather unpreparedness across unit types and natural gas fuel supply. [e1][e2] Also keep the two dollar figures apart: the $9,000 price was what the PUCT held prices at during the storm, while today's HCAP is $5,000. [e11][e22] The 20,000 MW load shed figure is ERCOT only; 23,418 MW is the combined event-area figure. [e7][e8]
 
 ## Questions
 
@@ -216,7 +216,7 @@ The IMM points to much more RUC: from 202-613 resource-hours per year in 2017-20
 
 ### A client asks whether "another Uri" would produce the same prices today.
 
-- The offer cap is lower now: the HCAP is $5,000 per MWh under 16 TAC §25.509, versus the $9,000 cap during Uri. [e22][e11]
+- The offer cap is lower now: the HCAP is $5,000 per MWh under 16 TAC §25.509, versus the $9,000 per MWh price held during Uri. [e22][e11]
 - Generators now face mandatory winter preparation by December 1 each year and ERCOT inspections. [e17][e18]
 - Fuel supply risk was a core cause in 2021, and the sources do not say it has been eliminated; FFSS is one response. [e2][e23]
 

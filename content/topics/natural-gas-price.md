@@ -136,7 +136,7 @@ Henry Hub appears in the Protocols as the natural gas price index source for FFS
 
 ### Why do ERCOT power prices track natural gas?
 
-Because gas plants are usually the marginal generator, and fuel is the largest part of their marginal cost. [e2]
+Because gas plants are typically the marginal generator; the IMM names gas prices and shortage pricing as the main drivers of real-time prices. [e2]
 
 ### Why did power prices rise much less than gas prices in 2025?
 
