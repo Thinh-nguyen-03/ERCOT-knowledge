@@ -79,7 +79,8 @@ In the Protocols, a "Resource" means an Energy Storage Resource, a Generation Re
 
 ## How it works
 
-Each type is defined by what it is registered to do:
+Each type is defined by what it is registered to do. [e1]
+
 
 - A Generation Resource is a generator capable of providing energy or ancillary service and registered as a Generation Resource. [e3]
 - An ESR is an energy storage system registered to provide energy and/or ancillary service. [e2]
@@ -90,7 +91,7 @@ Resource Entities own or control these types. [e7]
 
 ## ERCOT context
 
-Distribution-connected generation has its own split: a Distribution Generation Resource is a Generation Resource connected to the distribution system, while a Settlement Only Distribution Generator is a distribution-connected generator below the DGR threshold or one that does not register as a DGR. [e5][e6] Details are in the dgr-sodg topic.
+Distribution-connected generation has its own split: a Distribution Generation Resource is a Generation Resource connected to the Distribution System, while a Settlement Only Distribution Generator is a generator connected to the Distribution System with a defined rating. [e5][e6] The size tests are in the dgr-sodg topic.
 
 Pending change: NPRR995 would, upon system implementation, add a Settlement Only Energy Storage System to the list excluded from the bare term "Resource" and would delete the SOG definition, among others. [e10][e11] This is not yet in effect.
 

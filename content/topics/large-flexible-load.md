@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: sb6
     type: related
-    note: SB 6 added the Large Load Demand Management Service, which uses the same 75 MW size line. [e5]
+    note: SB 6 large-load provisions share the 75 MW size line; see the sb6 topic for detail.
   - to: large-load-growth
     type: related
     note: Large flexible load is one component of ERCOT's load forecast alongside large loads. [e6]
@@ -19,7 +19,7 @@ links:
     note: The Protocols define a Large Load and a Large Computational Load for interconnection purposes. [e4][e5]
   - to: texas-legislature
     type: related
-    note: Large flexible load registration is a PURA requirement added by SB 1929 in 2023. [e1]
+    note: Large flexible load registration is a PURA requirement added by SB 1929 in 2023. [e9]
   - to: ers
     type: related
     note: Crypto-mining operations accounted for more than half of ERS capacity at the end of 2025. [e8]

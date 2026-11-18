@@ -72,9 +72,9 @@ The State of the Market report is the annual report the Independent Market Monit
 
 ## How it works
 
-The IMM is a market monitor that ERCOT contracts with, selected by the commission, to detect and prevent market manipulation strategies, recommend ways to improve efficiency and give independent analysis of proposed market changes. [e3] Under rule 25.365 all of its reports must reflect its independent analysis, findings and expertise, and it prepares and submits the annual report to the commission alongside other price and congestion reports. [e2][e1]
+The IMM is a market monitor that ERCOT contracts with, selected by the commission, to detect and prevent market manipulation strategies, recommend ways to improve efficiency and give independent analysis of proposed market changes. [e3] Under rule 25.365 all of its reports must reflect its independent analysis, findings and expertise, and it prepares and submits the annual report to the commission. [e2][e1]
 
-The 2025 report, issued in May 2026, is written by Potomac Economics as IMM and presents its assessment of the 2025 wholesale market outcomes plus recommended changes. [e4] The recommendations are numbered by the year first introduced and the order within that report; the 2025 report has one new recommendation, on the Firm Fuel Supply Service, plus outstanding ones from prior years and some being retired. [e5]
+The 2025 report is written by Potomac Economics as IMM and presents its assessment of the 2025 wholesale market outcomes plus recommended changes. [e4] The recommendations are numbered by the year first introduced and the order within that report; the 2025 report has one new recommendation, on the Firm Fuel Supply Service, plus outstanding ones from prior years and some being retired. [e5]
 
 ## ERCOT context
 
@@ -94,7 +94,7 @@ The report is the main public record of annual market outcomes and the IMM's des
 
 ## Common confusion
 
-(Guidance) The IMM recommends but does not decide. The PUCT keeps enforcement authority and approves market design changes, so a recommendation in the report does not mean a rule change is coming. [e3] Also, this is the IMM's report, not ERCOT's. [e4]
+(Guidance) The IMM's role is to recommend measures and give independent analysis, not to decide them. [e3] A recommendation in the report does not by itself mean a rule change is coming. Also, this is the IMM's report, not ERCOT's. [e4]
 
 ## Questions
 
