@@ -1,0 +1,693 @@
+  --- --------------- --
+                      
+                      
+      H.B. No. 4492   
+  --- --------------- --
+
+  --- ------------------------------------------------------------------------ --------------------------------
+                                                                               
+                                                                               
+                                                                               
+      AN ACT                                                                   
+      relating to financing certain costs associated with electric             
+      markets; granting authority to issue bonds; authorizing fees.            
+             BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF TEXAS:           
+             SECTION 1.  Section 404.0241, Government Code, is amended by      
+      adding Subsections (b-1), (b-2), (b-3), (b-4), and (b-5) to read as      
+      follows:                                                                 
+             (b-1)  Notwithstanding any other law, directly or indirectly      
+      through a separately managed account or other investment vehicle,        
+      the comptroller shall invest not more than $800 million of the           
+      economic stabilization fund balance to finance the default balance       
+      as defined by Section 39.602, Utilities Code, to be repaid by ERCOT      
+      market participants through default charges established by the           
+      Public Utility Commission of Texas. The interest rate charged in         
+      connection with the debt obligations must be calculated by adding        
+      the rate determined by the Municipal Market Data Municipal Electric      
+      Index, as published by Refinitiv TM3, based on the credit rating of      
+      the independent organization, as defined by Section 39.602,              
+      Utilities Code, plus 2.5 percent. The term of the debt obligations       
+      may not exceed 30 years.                                                 
+             (b-2)  A person may not bring a civil action against this         
+      state, the Texas Treasury Safekeeping Trust Company, or an               
+      employee, independent contractor, or official of this state,             
+      including the comptroller, for any claim, including breach of            
+      fiduciary duty or violation of any constitutional, statutory, or         
+      regulatory requirement, in connection with any action, inaction,         
+      decision, divestment, investment, report, or other determination         
+      made or taken in connection with Subsections (b-1), (b-4), and           
+      (b-5).                                                                   
+             (b-3)  A person who brings an action described by Subsection      
+      (b-2) is liable to the defendant for the defendant's costs and           
+      attorney's fees resulting from the action.                               
+             (b-4)  The comptroller shall manage the investments required      
+      by Subsection (b-1) as a separate investment portfolio. The              
+      comptroller shall provide separate accounting and reporting for the      
+      investments in that portfolio. The comptroller shall credit to that      
+      portfolio all payments, distributions, interest, and other               
+      earnings on the investments in that portfolio.                           
+             (b-5)  The comptroller has any power necessary to accomplish      
+      the purposes of managing and investing the assets of the portfolio       
+      described by Subsection (b-4). In managing the assets of that            
+      portfolio, through procedures and subject to restrictions the            
+      comptroller considers appropriate, the comptroller may acquire,          
+      sell, transfer, or otherwise assign the investments as appropriate,      
+      taking into consideration the purposes, terms, distribution              
+      requirements, and other circumstances of that portfolio then             
+      prevailing.                                                              
+             SECTION 2.  Section 39.002, Utilities Code, is amended to         
+      read as follows:                                                         
+             Sec. 39.002.  APPLICABILITY. This chapter, other than             
+      Sections 39.151, 39.1516, 39.155, 39.157(e), 39.159, 39.203,             
+      39.904, 39.9051, 39.9052, and 39.914(e), and Subchapters M and N,        
+      does not apply to a municipally owned utility or an electric             
+      cooperative. Sections 39.157(e), 39.203, and 39.904, however,            
+      apply only to a municipally owned utility or an electric                 
+      cooperative that is offering customer choice. If there is a              
+      conflict between the specific provisions of this chapter and any         
+      other provisions of this title, except for Chapters 40 and 41, the       
+      provisions of this chapter control.                                      
+             SECTION 3.  Section 39.151, Utilities Code, is amended by         
+      adding Subsection (j-1) to read as follows:                              
+             (j-1)  Notwithstanding Subsection (j) of this section,            
+      Section 39.653(c), or any other law, the independent system              
+      operator in the ERCOT power region may not reduce payments to or         
+      uplift short-paid amounts to a municipally owned utility that            
+      becomes subject to the jurisdiction of that independent system           
+      operator on or after May 29, 2021, and before December 30, 2021,         
+      related to a default on a payment obligation by a market participant     
+      that occurred before May 29, 2021.                                       
+             SECTION 4.  Subchapter D, Chapter 39, Utilities Code, is          
+      amended by adding Section 39.159 to read as follows:                     
+             Sec. 39.159.  AMOUNTS OWED TO INDEPENDENT ORGANIZATION BY         
+      MARKET PARTICIPANTS. (a) The commission shall require that all           
+      market participants fully and promptly pay to the independent            
+      organization certified under Section 39.151 for the ERCOT power          
+      region all amounts owed to the independent organization, or provide      
+      for the full and prompt payment of those amounts owed, which must        
+      be calculated solely according to the protocols of the independent       
+      organization in effect during the period of emergency and subject        
+      to the jurisdiction of the commission, to qualify, or to continue        
+      to qualify, as a market participant in the ERCOT power region.           
+             (b)  The independent organization shall report to the             
+      commission that a market participant is in default for the failure       
+      to pay, or provide for the full and prompt payment of, all amounts       
+      owed to the independent organization as calculated in accordance         
+      with this section. The commission may not allow the defaulting           
+      market participant to continue to be a market participant in the         
+      ERCOT power region for any purpose or allow the independent              
+      organization to accept the defaulting market participant's loads or      
+      generation for scheduling in the ERCOT power region until all            
+      amounts owed to the independent organization by the market               
+      participant as calculated in this section are fully paid.                
+             (c)  The commission and the independent organization shall        
+      pursue collection in full of amounts owed to the independent             
+      organization by any market participant to reduce the costs that          
+      would otherwise be borne by other market participants or their           
+      customers.                                                               
+             SECTION 5.  Chapter 39, Utilities Code, is amended by adding      
+      Subchapters M and N to read as follows:                                  
+      SUBCHAPTER M. WINTER STORM URI DEFAULT BALANCE FINANCING                 
+             Sec. 39.601.  PURPOSE. (a) The purpose of this subchapter is      
+      to address the Winter Storm Uri default balance, as defined by           
+      Section 39.602, in a manner that benefits the public interest by:        
+                   (1)  enabling the independent organization to finance       
+      the payment of the default balance with debt obligations; and            
+                   (2)  authorizing the commission to contract with the        
+      comptroller under Section 404.0241, Government Code, to finance the      
+      payment of the default balance with debt obligations.                    
+             (b)  Financing the default balance in the manner provided by      
+      this subchapter will:                                                    
+                   (1)  allow wholesale market participants that are owed      
+      money to be paid in a more timely manner;                                
+                   (2)  replenish financial revenue auction receipts           
+      temporarily used by the independent organization to reduce the           
+      Winter Storm Uri-related amounts short-paid to the wholesale market      
+      participants; and                                                        
+                   (3)  allow the wholesale market to repay the default        
+      balance over time.                                                       
+             (c)  The legislature finds that the financing authorized by       
+      this subchapter serves the public purpose of preserving the              
+      integrity of the electricity market in the ERCOT power region.           
+             (d)  The proceeds of debt obligations issued under this           
+      subchapter must be used solely for the purpose of financing default      
+      balances that otherwise would be or have been uplifted to the            
+      wholesale market.                                                        
+             (e)  The commission shall ensure that the structuring and         
+      pricing of debt obligations issued under this subchapter result in       
+      the lowest financing costs consistent with market conditions and         
+      the terms of the commission's order. The present value calculation       
+      must use a discount rate equal to the proposed interest rate on the      
+      debt obligations.                                                        
+             Sec. 39.602.  DEFINITIONS. In this subchapter:                    
+                   (1)  "Default balance" means an amount of money of not      
+      more than $800 million that includes only:                               
+                         (A)  amounts owed to the independent organization     
+      by competitive wholesale market participants from the period of          
+      emergency that otherwise would be or have been uplifted to other         
+      wholesale market participants;                                           
+                         (B)  financial revenue auction receipts used by       
+      the independent organization to temporarily reduce amounts               
+      short-paid to wholesale market participants related to the period        
+      of emergency; and                                                        
+                         (C)  reasonable costs incurred by a state agency      
+      or the independent organization to implement a debt obligation           
+      order under Sections 39.603 and 39.604, including the cost of            
+      retiring or refunding existing debt.                                     
+                   (2)  "Default charges" means charges assessed to            
+      wholesale market participants to repay amounts financed under this       
+      subchapter to pay the default balance.                                   
+                   (3)  "Independent organization" means the independent       
+      organization certified under Section 39.151 for the ERCOT power          
+      region.                                                                  
+                   (4)  "Period of emergency" means the period beginning       
+      12:01 a.m., February 12, 2021, and ending 11:59 p.m., February 20,       
+      2021.                                                                    
+             Sec. 39.603.  DEBT OBLIGATION ORDER. (a) On application by        
+      the independent organization, the commission by order may authorize      
+      the independent organization to establish a debt financing               
+      mechanism to finance the default balance if the commission finds         
+      that the debt obligations are needed to preserve the integrity of        
+      the wholesale market and the public interest, after considering:         
+                   (1)  the need to timely replenish financial revenue         
+      auction receipts used by the independent organization to reduce          
+      amounts short-paid to wholesale market participants;                     
+                   (2)  the interests of wholesale market participants         
+      that are owed balances; and                                              
+                   (3)  the potential effects of uplifting those balances      
+      to the wholesale market without a financing vehicle.                     
+             (b)  The order must state:                                        
+                   (1)  the default balance to be financed; and                
+                   (2)  the period over which the default charges must be      
+      assessed to repay the debt obligations, which may not exceed 30          
+      years.                                                                   
+             (c)  The order must include an adjustment mechanism               
+      requiring the independent organization to adjust default charges to      
+      refund, over the remaining period of the default charges, any            
+      payments made by a market participant toward unpaid obligations          
+      from the period of emergency that were included in the financed          
+      default balance.                                                         
+             (d)  The independent organization shall collect from and          
+      allocate among wholesale market participants the default charges         
+      using the same allocated pro rata share methodology under which the      
+      charges would otherwise be uplifted under the protocols in effect        
+      on March 1, 2021. The default charges must be assessed on all            
+      wholesale market participants, including market participants who         
+      are in default but still participating in the wholesale market and       
+      who enter the market after a debt obligation order is issued under       
+      this subchapter, and may be based on periodically updated                
+      transaction data to prevent market participants from engaging in         
+      behavior designed to avoid the default charges.                          
+             (e)  Not later than the 30th day after the date the               
+      independent organization receives a default charge payment from a        
+      wholesale market participant, the independent organization shall         
+      remit the payment to the comptroller toward repayment of debt            
+      obligations in which the comptroller made an investment under            
+      Section 404.0241(b-1), Government Code, if applicable.                   
+             (f)  Notwithstanding another provision of this subchapter,        
+      default charges may not be collected from or allocated to a market       
+      participant that:                                                        
+                   (1)  otherwise would be subject to a default charge         
+      solely as a result of acting as a central counterparty                   
+      clearinghouse in wholesale market transactions in the ERCOT power        
+      region; and                                                              
+                   (2)  is regulated as a derivatives clearing                 
+      organization, as defined by Section 1a, Commodity Exchange Act (7        
+      U.S.C. Section 1a).                                                      
+             (g)  Not later than the 90th day after the date the               
+      independent organization files an application for an order under         
+      Subsection (a), the commission shall issue an order described by         
+      Subsection (a) or an order denying the application. The order            
+      becomes effective in accordance with its terms and the order,            
+      together with the default charges authorized in the order, shall be      
+      irrevocable and not subject to reduction, impairment, or adjustment      
+      by further action of the commission after the order takes effect.        
+      Notwithstanding this requirement, the commission may refinance any       
+      debt obligations created by an order issued under this subchapter        
+      if the commission determines that the refinancing is in the public       
+      interest, considering the interest of both the ERCOT market and the      
+      state's interest in the economic stabilization fund, and otherwise       
+      meets the requirements of this subchapter.                               
+             (h)  An order described by Subsection (a) or (g) is not           
+      subject to rehearing by the commission. The order may be reviewed by     
+      appeal by a party to the proceeding to a Travis County district          
+      court that is filed not later than the 15th day after the date the       
+      order is signed by the commission. The judgment of the district          
+      court may be reviewed only by a direct appeal to the Supreme Court       
+      of Texas that is filed not later than the 15th day after the date of     
+      the entry of judgment. All appeals shall be heard and determined by      
+      the district court and the Supreme Court of Texas as expeditiously       
+      as possible with lawful precedence over other matters. Review on         
+      appeal shall be based solely on the record before the commission and     
+      briefs to the court and shall be limited to whether the order            
+      conforms to the constitution and laws of this state and the United       
+      States and is within the authority of the commission under this          
+      chapter.                                                                 
+             (i)  A debt obligation issued under this section is a             
+      nonrecourse debt secured solely by the default charges explicitly        
+      assessed to repay the obligation. The independent organization's         
+      obligations authorized under this section do not create personal         
+      liability for the independent organization.                              
+             Sec. 39.604.  COMMISSION-AUTHORIZED FINANCING. (a) The            
+      commission may contract with another state agency with expertise in      
+      public financing to establish a debt financing mechanism for the         
+      payment of the default balance as defined in this subchapter, under      
+      an order that meets the requirements of Section 39.603. This             
+      section does not apply to a default balance securitized under            
+      Subchapter D, Chapter 41.                                                
+             (b)  The contracted state agency and any issuer, along with       
+      the independent organization, must be a party to the commission's        
+      proceedings that address the issuance of an order.                       
+             (c)  In addition to the other applicable requirements of this     
+      subtitle, an order issued under this section must:                       
+                   (1)  require the sale, assignment, or other transfer to     
+      the contracted state agency of default charges created by the order      
+      and, following that sale, assignment, or transfer, require that          
+      default charges paid under any order be created, assessed, and           
+      collected as the property of the contracted state agency, subject        
+      to subsequent sale, assignment, or transfer by the contracted state      
+      agency as authorized under this subchapter;                              
+                   (2)  authorize:                                             
+                         (A)  the issuance of debt obligations by the          
+      contracted state agency secured by a pledge of default charge            
+      revenue, and the application of the proceeds of those debt               
+      obligations, net of issuance costs, to the independent                   
+      organization; or                                                         
+                         (B)  the acquisition of default charge revenue        
+      from the independent organization by the contracted state agency,        
+      financed:                                                                
+                               (i)  by a loan by an issuer to the contracted   
+      state agency of the proceeds of debt obligations, net of issuance        
+      costs; or                                                                
+                               (ii)  by the acquisition by an issuer from      
+      the contracted state agency of the default charge revenue and in         
+      each case the pledge of the revenue to the repayment of the loan or      
+      other debt obligation, as applicable; and                                
+                   (3)  authorize the independent organization to serve as     
+      collection agent to collect the default charges and transfer the         
+      collected default charges to the contracted state agency or the          
+      issuer, as appropriate.                                                  
+             (d)  After issuance of the order, the contracted state agency     
+      shall arrange for the issuance of debt obligations, as specified by      
+      the order, by the contracted state agency or another issuer              
+      selected by the contracted state agency and approved by the              
+      commission.                                                              
+             (e)  Debt obligations issued pursuant to an order issued          
+      under this section are secured only by the default charge revenue        
+      and any other funds pledged under the bond documents. No assets of       
+      the state or the independent organization are subject to claims by       
+      the holders of the debt obligations. Following assignment of the         
+      default charge revenue, the independent organization does not have       
+      any beneficial interest or claim of right in the revenue.                
+             (f)  Effective on the date the first debt obligations are         
+      issued under this subchapter, if any provision of this title or          
+      portion of this title is held to be invalid or is invalidated,           
+      superseded, replaced, or repealed, or expires for any reason, that       
+      occurrence does not affect the validity or continuation of this          
+      subchapter or any other provision of this title that is relevant to      
+      the issuance, administration, payment, retirement, or refunding of       
+      debt obligations authorized under this subchapter or to any actions      
+      of the independent organization, its successors, an assignee, a          
+      collection agent, the contracted state agency, or an issuer and          
+      those provisions shall remain in full force and effect.                  
+             Sec. 39.605.  DEFAULT CHARGES NONBYPASSABLE. An order             
+      issued under Section 39.603 or 39.604 must:                              
+                   (1)  include terms ensuring that the imposition and         
+      collection of default charges authorized in the order shall be           
+      nonbypassable by wholesale market participants; and                      
+                   (2)  authorize the independent organization to              
+      establish appropriate fees and other methods for pursuing amounts        
+      owed from entities exiting the wholesale market.                         
+             Sec. 39.606.  TRUE-UP MECHANISM. An order issued under            
+      Section 39.603 or 39.604 must include a mechanism requiring that         
+      default charges be reviewed and adjusted at least annually, not          
+      later than the 45th day after the anniversary date of the issuance       
+      of the order, to:                                                        
+                   (1)  correct over-collections or under-collections          
+      over the preceding 12 months; and                                        
+                   (2)  ensure the expected recovery of amounts sufficient     
+      to timely provide all payments of debt service.                          
+             Sec. 39.607.  TAX EXEMPTION. The transfer and receipt of          
+      default charges are exempt from state and local sales and use,           
+      franchise, and gross receipts taxes.                                     
+             Sec. 39.608.  PROPERTY RIGHTS. (a)  The rights and interests      
+      of the independent organization or its successor under a debt            
+      obligation order issued under this subchapter, including the right       
+      to impose, collect, and receive default charges, shall be only           
+      contract rights until they are first transferred to an assignee or       
+      pledged in connection with an investment agreement entered into          
+      under Section 404.0241, Government Code, or the issuance of debt         
+      obligations, at which time they will become default property, as         
+      described by Subsection (b).                                             
+             (b)  Default property shall constitute a present property         
+      right for purposes of contracts concerning the sale or pledge of         
+      property, even though the imposition and collection of default           
+      charges depends on further acts of the independent organization or       
+      others that have not yet occurred. A debt obligation order issued        
+      under this subchapter shall remain in effect and the property shall      
+      continue to exist for the same period as the pledge of the state         
+      described by Section 39.609.                                             
+             (c)  All revenues and collections resulting from default          
+      charges shall constitute proceeds only of the default property           
+      arising from the debt obligation order.                                  
+             Sec. 39.609.  PLEDGE OF STATE. Debt obligations issued            
+      pursuant to this subchapter, including any bonds, are not a debt or      
+      obligation of the state and are not a charge on its full faith and       
+      credit or taxing power. The state pledges, however, for the benefit      
+      and protection of financing parties and the independent                  
+      organization that it will not take or permit any action that would       
+      impair the value of default property, or reduce, alter, or impair        
+      the default charges to be imposed, collected, and remitted to            
+      financing parties, until the principal, interest and premium, and        
+      any other charges incurred and contracts to be performed in              
+      connection with the related debt obligations have been paid and          
+      performed in full. Any party issuing a debt obligation under this        
+      subchapter is authorized to include this pledge in any                   
+      documentation relating to the obligation.                                
+      SUBCHAPTER N. WINTER STORM URI UPLIFT FINANCING                          
+             Sec. 39.651.  PURPOSE; USE OF PROCEEDS. (a) The purpose of        
+      this subchapter is to address the Winter Storm Uri uplift balance        
+      by:                                                                      
+                   (1)  enabling the independent organization certified        
+      under Section 39.151 for the ERCOT power region to finance the           
+      uplift balance on behalf of wholesale market participants through        
+      debt obligations; and                                                    
+                   (2)  authorizing the commission to contract with            
+      another state agency to finance the payment of the uplift balance        
+      with debt obligations or use any another financial mechanism             
+      consistent with this subchapter for that purpose.                        
+             (b)  Financing the uplift balance in the manner provided by       
+      this subchapter will allow wholesale market participants who were        
+      assessed extraordinary uplift charges due to consumption during the      
+      period of emergency to pay those charges over a longer period of         
+      time, alleviating liquidity issues and reducing the risk of              
+      additional defaults in the wholesale market.                             
+             (c)  The legislature finds that authorizing financing under       
+      this subchapter serves the public purpose of allowing the                
+      commission to stabilize the wholesale electricity market in the          
+      ERCOT power region.                                                      
+             (d)  The proceeds of debt obligations issued under this           
+      subchapter must be used solely for the purpose of financing              
+      reliability deployment price adder charges and ancillary service         
+      costs that exceeded the commission's system-wide offer cap and were      
+      uplifted to load-serving entities based on consumption during the        
+      period of emergency. A load-serving entity that receives proceeds        
+      from the debt obligations may use the proceeds solely for the            
+      purposes of fulfilling payment obligations directly related to such      
+      costs and refunding such costs to retail customers who have paid or      
+      otherwise would be obligated to pay such costs.                          
+             (e)  The commission shall ensure that the structuring and         
+      pricing of the debt obligations results in the lowest uplift             
+      charges consistent with market conditions and the terms of the           
+      order issued under this subchapter. The present value calculation        
+      must use a discount rate equal to the proposed interest rate on the      
+      debt obligations.                                                        
+             Sec. 39.652.  DEFINITIONS. In this subchapter:                    
+                   (1)  "Independent organization" means the independent       
+      organization certified under Section 39.151 for the ERCOT power          
+      region.                                                                  
+                   (2)  "Load-serving entity" means a municipally owned        
+      utility, an electric cooperative, or a retail electric provider.         
+                   (3)  "Period of emergency" means the period beginning       
+      12:01 a.m., February 12, 2021, and ending 11:59 p.m., February 20,       
+      2021.                                                                    
+                   (4)  "Uplift balance" means an amount of money of not       
+      more than $2.1 billion that was uplifted to load-serving entities        
+      on a load ratio share basis due to energy consumption during the         
+      period of emergency for reliability deployment price adder charges       
+      and ancillary services costs in excess of the commission's               
+      system-wide offer cap, excluding amounts securitized under               
+      Subchapter D, Chapter 41. The term does not include amounts that         
+      were part of the prevailing settlement point price during the            
+      period of emergency.                                                     
+                   (5)  "Uplift charges" means charges assessed to             
+      load-serving entities to repay amounts financed under this               
+      subchapter to pay the uplift balance and reasonable costs incurred       
+      by a state agency or the independent organization to implement a         
+      debt obligation order under Section 39.653, 39.654, or 39.655,           
+      including the cost of retiring or refunding existing debt.               
+             Sec. 39.653.  DEBT OBLIGATION ORDER. (a) The independent          
+      organization shall file an application with the commission to            
+      establish a debt financing mechanism for the payment of the uplift       
+      balance if the commission finds that such financing will support         
+      the financial integrity of the wholesale market and is necessary to      
+      protect the public interest, considering the impacts on both             
+      wholesale market participants and retail customers.                      
+             (b)  An order issued under this section must:                     
+                   (1)  state the uplift balance to be financed;               
+                   (2)  state the period over which the uplift charges         
+      must be assessed to repay the debt obligations, which may not exceed     
+      30 years; and                                                            
+                   (3)  provide the process for remitting the proceeds of      
+      the financing to load-serving entities who were exposed to the           
+      costs included in the uplift balance, including a requirement for        
+      the load-serving entities to submit documentation of their               
+      exposure.                                                                
+             (c)  The independent organization shall assess uplift             
+      charges to all load-serving entities on a load ratio share basis,        
+      which may be translated to a kWh charge, including load serving          
+      entities who enter the market after an order has been issued under       
+      this subchapter, but excluding the load of entities that opt out         
+      under Subsection (d).                                                    
+             (d)  The commission shall develop a one-time process that         
+      allows municipally owned utilities, electric cooperatives, river         
+      authorities, a retail electric provider that has the same corporate      
+      parent as each of the provider's customers, a retail electric            
+      provider that is an affiliate of each of the provider's customers,       
+      and transmission-voltage customers served by a retail electric           
+      provider to opt out of the uplift charges by paying in full all          
+      invoices owed for usage during the period of emergency.                  
+      Load-serving entities and transmission-voltage customers that opt        
+      out under this subsection shall not receive any proceeds from the        
+      uplift financing.                                                        
+             (e)  An order issued under this section must include a            
+      requirement that any load-serving entity that receives proceeds          
+      from the financing that exceed the entity's actual exposure to           
+      uplift charges from consumption during the period of emergency           
+      notify the independent organization and remit any excess receipts.       
+      Any payments received under this subsection must be credited             
+      against the uplift balance to reduce the remaining uplift charges.       
+             (f)  Not later than the 90th day after the date the               
+      independent organization files an application for an order under         
+      Subsection (a), the commission shall issue an order described by         
+      Subsection (a) or an order denying the application. The order            
+      becomes effective in accordance with its terms and the order,            
+      together with the uplift charges authorized in the order, shall be       
+      irrevocable and not subject to reduction, impairment, or adjustment      
+      by further action of the commission after it takes effect.               
+      Notwithstanding this requirement, the commission may refinance any       
+      debt obligations created by an order under this subchapter if the        
+      commission determines that the refinancing is in the public              
+      interest and otherwise meets the requirements of this subchapter.        
+             (g)  An order issued under this section is not subject to         
+      rehearing by the commission. An order may be reviewed by appeal by a     
+      party to the proceeding to a Travis County district court filed not      
+      later than the 15th day after the date the order is signed by the        
+      commission. The judgment of the district court may be reviewed only      
+      by direct appeal to the Supreme Court of Texas filed not later than      
+      the 15th day after the date of the entry of judgment. All appeals        
+      shall be heard and determined by the district court and the Supreme      
+      Court of Texas as expeditiously as possible with lawful precedence       
+      over other matters. Review on appeal shall be based solely on the        
+      record before the commission and briefs to the court and shall be        
+      limited to whether the order conforms to the constitution and laws       
+      of this state and the United States and is within the authority of       
+      the commission under this chapter.                                       
+             (h)  A debt obligation issued under this section is a             
+      nonrecourse debt secured solely by the uplift charges explicitly         
+      assessed to repay the obligation. The independent organization's         
+      obligations authorized under this section do not create personal         
+      liability for the independent organization.                              
+             (i)  This section does not apply to any balance securitized       
+      under Subchapter D, Chapter 41.                                          
+             Sec. 39.654.  COMMISSION-AUTHORIZED FINANCING. (a) The            
+      commission may contract with another state agency with expertise in      
+      public financing to establish a debt financing mechanism to finance      
+      the payment of the uplift balance under an order that meets the          
+      requirements of Section 39.653.                                          
+             (b)  The contracted state agency and any issuer must be a         
+      party to the commission's proceedings that address the issuance of       
+      an order along with the independent organization.                        
+             (c)  In addition to the other applicable requirements of this     
+      subtitle, an order issued under this section must:                       
+                   (1)  require the sale, assignment, or other transfer to     
+      the contracted state agency of uplift charges created by the order       
+      and, following that sale, assignment, or transfer, require that          
+      uplift charges paid under any order be created, assessed, and            
+      collected as the property of the contracted state agency, subject        
+      to subsequent sale, assignment, or transfer by the contracted state      
+      agency as authorized under this subchapter;                              
+                   (2)  authorize:                                             
+                         (A)  the issuance of debt obligations by the          
+      contracted state agency secured by a pledge of uplift charge             
+      revenue, and the application of the proceeds of those debt               
+      obligations, net of issuance costs, to the independent                   
+      organization; or                                                         
+                         (B)  the acquisition of uplift charge revenue from    
+      the independent organization by the contracted state agency,             
+      financed:                                                                
+                               (i)  by a loan by an issuer to the contracted   
+      state agency of the proceeds of debt obligations, net of issuance        
+      costs; or                                                                
+                               (ii)  by the acquisition by an issuer from      
+      the contracted state agency of the uplift charge revenue and in each     
+      case the pledge of the revenue to the repayment of the loan or debt      
+      obligations, as applicable; and                                          
+                   (3)  authorize the independent organization to serve as     
+      collection agent to collect the uplift charges and transfer the          
+      collected uplift charges to the contracted state agency or the           
+      issuer, as appropriate.                                                  
+             (d)  After issuance of the order, the contracted state agency     
+      shall arrange for the issuance of debt obligations, as specified by      
+      the order, by the contracted state agency or another issuer              
+      selected by the contracted state agency and approved by the              
+      commission.                                                              
+             (e)  Debt obligations issued pursuant to an order issued          
+      under this section are secured only by the uplift charge revenue and     
+      any other funds pledged under the bond documents. No assets of the       
+      state or the independent organization are subject to claims by the       
+      holders of the debt obligations. Following assignment of the             
+      uplift charge revenue, the independent organization does not have        
+      any beneficial interest or claim of right in the revenue.                
+             Sec. 39.655.  OTHER FINANCIAL MECHANISM. The commission may       
+      use a financial mechanism other than the mechanisms described by         
+      Sections 39.653 and 39.654 that meets the requirements of this           
+      subchapter to accomplish the purposes of this subchapter.                
+             Sec. 39.656.  UPLIFT CHARGES NONBYPASSABLE. An order issued       
+      under Section 39.653, 39.654, or 39.655 must:                            
+                   (1)  include terms ensuring that the imposition and         
+      collection of uplift charges authorized in the order shall be            
+      nonbypassable, except for entities excluded under Section                
+      39.653(d); and                                                           
+                   (2)  authorize the independent organization to              
+      establish appropriate fees and other methods for pursuing amounts        
+      owed from entities exiting the wholesale market.                         
+             Sec. 39.657.  TRUE-UP. An order shall include a mechanism         
+      requiring that uplift charges be reviewed and adjusted at least          
+      annually, not later than the 45th day after the anniversary date of      
+      the issuance of the debt obligations, to:                                
+                   (1)  correct over-collections or under-collections          
+      over the preceding 12 months; and                                        
+                   (2)  ensure the expected recovery of amounts sufficient     
+      to timely provide all payments of debt service and other required        
+      amounts and charges in connection with the debt obligations.             
+             Sec. 39.658.  TAX EXEMPTION. Transactions involving the           
+      transfer and ownership of uplift property and the receipt of uplift      
+      charges are exempt from state and local income, sales, franchise,        
+      gross receipts, and other taxes or similar charges.                      
+             Sec. 39.659.  SEVERABILITY. Effective on the date the first       
+      debt obligations are issued under this subchapter, if any provision      
+      in this title or portion of this title is held to be invalid or is       
+      invalidated, superseded, replaced, repealed, or expires for any          
+      reason, that occurrence does not affect the validity or                  
+      continuation of this subchapter or any other provision of this           
+      title that is relevant to the issuance, administration, payment,         
+      retirement, or refunding of debt obligations or to any actions of        
+      the independent organization, its successors, an assignee, a             
+      collection agent, or a financing party, which shall remain in full       
+      force and effect.                                                        
+             Sec. 39.660.  CUSTOMER CHARGES. All load-serving entities         
+      that receive offsets to specific uplift charges from the                 
+      independent organization under this subchapter must adjust               
+      customer invoices to reflect the offsets for any charges that were       
+      or would otherwise be passed through to customers under the terms of     
+      service with the load-serving entity, including by providing a           
+      refund for any offset charges that were previously paid. An              
+      electric cooperative, including an electric cooperative that             
+      elects to receive offsets, shall not otherwise become subject to         
+      rate regulation by the commission and receipt of offsets does not        
+      affect the applicability of Chapter 41 to an electric cooperative.       
+             Sec. 39.661.  ENFORCEMENT. The commission may use any             
+      enforcement mechanism established by Chapter 15 or this chapter,         
+      including revocation of certification by the commission, against         
+      any entity that fails to remit excess receipts from the uplift           
+      balance financing under Section 39.653(e) or otherwise                   
+      misappropriates or misuses amounts received from the uplift balance      
+      financing this subchapter.                                               
+             Sec. 39.662.  PROPERTY RIGHTS. (a) The rights and interests       
+      of the independent organization or its successor under a debt            
+      obligation order issued under this subchapter, including the right       
+      to impose, collect, and receive uplift charges authorized in a debt      
+      obligation order under this subchapter, shall be only contract           
+      rights until they are first transferred to an assignee or pledged in     
+      connection with the issuance of a financing agreement entered into       
+      under Section 39.654(a) or the issuance of debt obligations, at          
+      which time they will become uplift property, as described by             
+      Subsection (b).                                                          
+             (b)  Uplift property shall constitute a present property          
+      right for purposes of contracts concerning the sale or pledge of         
+      property, even though the imposition and collection of uplift            
+      charges depends on further acts of the independent organization or       
+      others that have not yet occurred. A debt obligation order issued        
+      under this subchapter shall remain in effect and the property shall      
+      continue to exist for the same period as the pledge of the state         
+      described by Section 39.663.                                             
+             (c)  All revenues and collections resulting from uplift           
+      charges shall constitute proceeds only of the uplift property            
+      arising from the debt obligation order.                                  
+             Sec. 39.663.  PLEDGE OF STATE. Debt obligations issued            
+      pursuant to this subchapter, including any bonds, are not a debt or      
+      obligation of the state and are not a charge on its full faith and       
+      credit or taxing power. The state pledges, however, for the benefit      
+      and protection of financing parties and the independent                  
+      organization that it will not take or permit any action that would       
+      impair the value of uplift property, or reduce, alter, or impair the     
+      uplift charges to be imposed, collected, and remitted to financing       
+      parties, until the principal, interest and premium, and any other        
+      charges incurred and contracts to be performed in connection with        
+      the related debt obligations have been paid and performed in full.       
+      Any party issuing a debt obligation under this subchapter is             
+      authorized to include this pledge in any documentation relating to       
+      the obligation.                                                          
+             Sec. 39.664.  LEGAL ACTIONS INVOLVING PRICING OR UPLIFT           
+      ACTIONS. A load-serving entity that receives proceeds from the           
+      financing under this subchapter shall return an amount of the            
+      proceeds equal to any amount of money received by the entity due to      
+      litigation seeking judicial review of pricing or uplift actions          
+      taken by the commission or the independent organization in               
+      connection with the period of emergency.                                 
+             SECTION 6.  The independent organization to which Section         
+      39.653(a), Utilities Code, applies shall file the application            
+      required by that section not later than the 30th day after the           
+      effective date of this Act.                                              
+             SECTION 7.  Sections 404.0241(b-2) and (b-3), Government          
+      Code, as added by this Act, apply only to a cause of action that         
+      accrues on or after the effective date of this Act.                      
+             SECTION 8.  This Act takes effect immediately if it receives      
+      a vote of two-thirds of all the members elected to each house, as        
+      provided by Section 39, Article III, Texas Constitution. If this         
+      Act does not receive the vote necessary for immediate effect, this       
+      Act takes effect September 1, 2021.                                      
+                                                                               
+                                                                               
+      ______________________________                                           ______________________________
+         President of the Senate                                               Speaker of the House     
+                                                                               
+                                                                               
+             I certify that H.B. No. 4492 was passed by the House on May 6,    
+      2021, by the following vote:  Yeas 129, Nays 15, 1 present, not          
+      voting; that the House refused to concur in Senate amendments to         
+      H.B. No. 4492 on May 28, 2021, and requested the appointment of a        
+      conference committee to consider the differences between the two         
+      houses; and that the House adopted the conference committee report       
+      on H.B. No. 4492 on May 30, 2021, by the following vote:  Yeas 116,      
+      Nays 18, 2 present, not voting.                                          
+                                                                               
+      ______________________________                                           
+      Chief Clerk of the House                                                 
+                                                                               
+             I certify that H.B. No. 4492 was passed by the Senate, with       
+      amendments, on May 26, 2021, by the following vote:  Yeas 31, Nays       
+      0; at the request of the House, the Senate appointed a conference        
+      committee to consider the differences between the two houses; and        
+      that the Senate adopted the conference committee report on H.B. No.      
+      4492 on May 30, 2021, by the following vote:  Yeas 25, Nays 6.           
+                                                                               
+      ______________________________                                           
+      Secretary of the Senate                                                  
+      APPROVED: __________________                                             
+                      Date                                                     
+                                                                               
+               __________________                                              
+                    Governor                                                   
+  --- ------------------------------------------------------------------------ --------------------------------

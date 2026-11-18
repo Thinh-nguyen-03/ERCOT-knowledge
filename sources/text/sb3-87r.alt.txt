@@ -1,0 +1,1379 @@
+  --- ------------ --
+                   
+                   
+      S.B. No. 3   
+  --- ------------ --
+
+  --- ------------------------------------------------------------------------- --------------------------------
+                                                                                
+                                                                                
+                                                                                
+      AN ACT                                                                    
+      relating to preparing for, preventing, and responding to weather          
+      emergencies and power outages; increasing the amount of                   
+      administrative and civil penalties.                                       
+             BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF TEXAS:            
+             SECTION 1.  Chapter 411, Government Code, is amended by            
+      adding Subchapter K-1 to read as follows:                                 
+      SUBCHAPTER K-1. POWER OUTAGE ALERT                                        
+             Sec. 411.301.  POWER OUTAGE ALERT. (a) With the cooperation        
+      of the Texas Department of Transportation, the Texas Division of          
+      Emergency Management, the office of the governor, and the Public          
+      Utility Commission of Texas, the department shall develop and             
+      implement an alert to be activated when the power supply in this          
+      state may be inadequate to meet demand.                                   
+             (b)  The Public Utility Commission of Texas by rule shall          
+      adopt criteria for the content, activation, and termination of the        
+      alert described by Subsection (a). The criteria must provide for an       
+      alert to be regional or statewide.                                        
+             Sec. 411.302.  ADMINISTRATION. (a) The director is the             
+      statewide coordinator of the power outage alert.                          
+             (b)  The director shall adopt rules and issue directives as        
+      necessary to ensure proper implementation of the power outage             
+      alert. The rules and directives must include the procedures to be         
+      used by the Public Utility Commission of Texas and the independent        
+      organization certified under Section 39.151, Utilities Code, to           
+      communicate with the director about the power outage alert.               
+             Sec. 411.303.  DEPARTMENT TO RECRUIT PARTICIPANTS. The             
+      department shall recruit public and commercial television and radio       
+      broadcasters, private commercial entities, state or local                 
+      governmental entities, the public, and other appropriate persons to       
+      assist in developing and implementing the power outage alert              
+      system.                                                                   
+             Sec. 411.304.  STATE AGENCIES. (a) A state agency                  
+      participating in the power outage alert system shall:                     
+                   (1)  cooperate with the department and assist in             
+      developing and implementing the alert system; and                         
+                   (2)  establish a plan for providing relevant                 
+      information to its officers, investigators, or employees, as              
+      appropriate, once the power outage alert system has been activated.       
+             (b)  In addition to its duties as a state agency under             
+      Subsection (a), the Texas Department of Transportation shall              
+      establish a plan for providing relevant information to the public         
+      through an existing system of dynamic message signs located across        
+      the state.                                                                
+             Sec. 411.305.  ACTIVATION OF POWER OUTAGE ALERT. (a) When          
+      the Public Utility Commission of Texas or an independent                  
+      organization certified under Section 39.151, Utilities Code,              
+      notifies the department that the criteria adopted under Section           
+      411.301(b) for the activation of the alert has been met, the              
+      department shall confirm the accuracy of the information and, if          
+      confirmed, immediately issue a power outage alert under this              
+      subchapter in accordance with department rules.                           
+             (b)  In issuing the power outage alert, the department shall       
+      send the alert to designated media outlets in this state. Following       
+      receipt of the alert, participating radio stations and television         
+      stations and other participating media outlets may issue the alert        
+      at designated intervals.                                                  
+             Sec. 411.306.  CONTENT OF POWER OUTAGE ALERT. The power            
+      outage alert must include a statement that electricity customers          
+      may experience a power outage.                                            
+             Sec. 411.307.  TERMINATION OF POWER OUTAGE ALERT. The              
+      director shall terminate any activation of the power outage alert         
+      as soon as practicable after the Public Utility Commission of Texas       
+      or the Electric Reliability Council of Texas notifies the                 
+      department that the criteria adopted under Section 411.301(b) for         
+      the termination of the alert has been met.                                
+             Sec. 411.308.  LIMITATION ON PARTICIPATION BY TEXAS                
+      DEPARTMENT OF TRANSPORTATION. Notwithstanding Section 411.304(b),         
+      the Texas Department of Transportation is not required to use any         
+      existing system of dynamic message signs in a statewide alert             
+      system created under this subchapter if that department receives          
+      notice from the United States Department of Transportation Federal        
+      Highway Administration that the use of the signs would result in the      
+      loss of federal highway funding or other punitive actions taken           
+      against this state due to noncompliance with federal laws,                
+      regulations, or policies.                                                 
+             SECTION 2.  Section 418.048, Government Code, is amended to        
+      read as follows:                                                          
+             Sec. 418.048.  MONITORING WEATHER; DISASTER PREPAREDNESS           
+      EDUCATION. (a) The division shall keep continuously apprised of           
+      weather conditions that present danger of climatic activity, such         
+      as precipitation, severe enough to constitute a disaster.                 
+             (b)  The division shall create a list of suggested actions         
+      for state agencies and the public to take to prepare for winter           
+      storms, organized by severity of storm based on the National              
+      Weather Service Winter Storm Severity Index.                              
+             (c)  The division shall develop disaster preparedness              
+      educational materials that include instructions for preparing a           
+      disaster kit containing supplies most needed in a disaster or             
+      emergency, such as water, nonperishable food, medical supplies,           
+      flashlights, and other essential items, to assist families and            
+      businesses in adequately preparing for winter storms, hurricanes,         
+      floods, drought, fires, and other potential disasters.                    
+             (d)  The division shall post on the division's Internet            
+      website and distribute to local governments and businesses the            
+      educational materials and instructions developed under Subsection         
+      (c).                                                                      
+             SECTION 3.  Chapter 418, Government Code, is amended by            
+      adding Subchapter J to read as follows:                                   
+      SUBCHAPTER J. TEXAS ENERGY RELIABILITY COUNCIL                            
+             Sec. 418.301.  DEFINITIONS. In this subchapter:                    
+                   (1)  "Chief" means the division's chief.                     
+                   (2)  "Council" means the Texas Energy Reliability            
+      Council.                                                                  
+             Sec. 418.302.  COUNCIL ESTABLISHED. (a)  The Texas Energy          
+      Reliability Council is established to:                                    
+                   (1)  ensure that the energy and electric industries in       
+      this state meet high priority human needs and address critical            
+      infrastructure concerns; and                                              
+                   (2)  enhance coordination and communication in the           
+      energy and electric industries in this state.                             
+             (b)  Chapter 2110 does not apply to the council.                   
+             Sec. 418.303.  MEMBERSHIP. (a) The council is composed of:         
+                   (1)  the chairman of the Railroad Commission of Texas;       
+                   (2)  the presiding officer of the Public Utility             
+      Commission of Texas;                                                      
+                   (3)  the chief executive of the Office of Public             
+      Utility Counsel;                                                          
+                   (4)  the presiding officer of the Texas Commission on        
+      Environmental Quality;                                                    
+                   (5)  the chair of the Texas Transportation Commission;       
+                   (6)  a person to represent the independent organization      
+      certified under Section 39.151, Utilities Code, for the ERCOT power       
+      region, appointed by the governor;                                        
+                   (7)  the chief;                                              
+                   (8)  five persons to represent participants in the           
+      natural gas supply chain in this state, appointed by the Railroad         
+      Commission of Texas to represent as many types of participants as         
+      possible;                                                                 
+                   (9)  five persons to represent the electric industry,        
+      appointed by the Public Utility Commission of Texas, including:           
+                         (A)  one person to represent entities that provide     
+      dispatchable electric energy to the power grid in this state;             
+                         (B)  one person to represent transmission and          
+      distribution utilities, as defined by Section 31.002, Utilities           
+      Code;                                                                     
+                         (C)  one person to represent retail electric           
+      providers, as defined by Section 31.002, Utilities Code;                  
+                         (D)  one person to represent municipally owned         
+      utilities, as defined by Section 11.003, Utilities Code; and              
+                         (E)  one person to represent electric                  
+      cooperatives;                                                             
+                   (10)  three persons to represent energy sectors not          
+      otherwise represented on the council, appointed by the Public             
+      Utility Commission of Texas; and                                          
+                   (11)  five persons to represent industrial concerns,         
+      appointed by the governor, including:                                     
+                         (A)  one person to represent motor fuel producers;     
+      and                                                                       
+                         (B)  one person to represent chemical                  
+      manufacturers.                                                            
+             (b)  A member of the council described by Subsection (a)(1),       
+      (2), (3), (4), (5), (6), or (7) may designate a person from the           
+      member's agency to represent the member in any meeting.                   
+             (c)  The council may request that a person collaborate with        
+      the council to achieve the purposes described by Section 418.302.         
+             Sec. 418.304.  OFFICERS. (a) The chief shall serve as              
+      presiding officer of the council.                                         
+             (b)  The council may select an assistant presiding officer         
+      and secretary from among its members.                                     
+             Sec. 418.305.  COMPENSATION; REIMBURSEMENT. A member of the        
+      council is not entitled to compensation or reimbursement of               
+      expenses for service on the council.                                      
+             Sec. 418.306.  MEETINGS. (a) After its initial meeting, the        
+      council shall meet at least twice each year at a time and place           
+      determined by the chief.                                                  
+             (b)  The council may meet at other times the council               
+      considers appropriate. The presiding officer may call a meeting on        
+      the officer's own motion.                                                 
+             Sec. 418.307.  ADMINISTRATIVE SUPPORT. The division shall          
+      provide administrative support to the council.                            
+             Sec. 418.308.  GENERAL DUTIES OF COUNCIL. (a) The council          
+      shall foster communication and planning to ensure preparedness for        
+      making available and delivering energy and electricity in this            
+      state to ensure that high priority human needs are met and critical       
+      infrastructure needs are addressed.                                       
+             (b)  The council shall foster communication and coordination       
+      between the energy and electric industries in this state.                 
+             Sec. 418.309.  INFORMATION.  (a)  In this section:                 
+                   (1)  "Gas provider" means:                                   
+                         (A)  a natural gas pipeline facility operator;         
+                         (B)  an operator of a natural gas well; or             
+                         (C)  an entity that produces, treats, processes,       
+      pressurizes, stores, or transports natural gas in this state or           
+      otherwise participates in the natural gas supply chain in this            
+      state.                                                                    
+                   (2)  "Public utility" means an entity that generates,        
+      transmits, or distributes electric energy to the public, including        
+      an electric cooperative, an electric utility, a municipally owned         
+      utility, or a river authority.                                            
+             (b)  A public utility or gas provider shall provide to the         
+      council any information related to a disaster requested by the            
+      council. Information obtained by the council under this subsection        
+      is confidential and not subject to disclosure by the council if the       
+      information is critical energy infrastructure information as              
+      defined by the independent organization certified under Section           
+      39.151, Utilities Code, for the ERCOT power region or federal law.        
+             (c)  Except as provided by Subsection (d), the meetings of         
+      the council and information obtained or created by the council are        
+      not subject to the requirements of Chapter 551 or 552.                    
+             (d)  Information written, produced, collected, assembled, or       
+      maintained under law or in connection with the transaction of             
+      official business by the council or an officer or employee of the         
+      council is subject to Section 552.008 in the same manner as public        
+      information.                                                              
+             Sec. 418.310.  REPORT. (a)  Not later than November 1 of           
+      each even-numbered year, the council shall submit to the                  
+      legislature a report on the reliability and stability of the              
+      electricity supply chain in this state.                                   
+             (b)  The report must include recommendations on methods to         
+      strengthen the electricity supply chain in this state and to              
+      decrease the frequency of extended power outages caused by a              
+      disaster in this state.                                                   
+             SECTION 4.  Subchapter C, Chapter 81, Natural Resources            
+      Code, is amended by adding Section 81.073 to read as follows:             
+             Sec. 81.073.  CRITICAL NATURAL GAS FACILITIES AND ENTITIES.        
+      (a) The commission shall collaborate with the Public Utility              
+      Commission of Texas to adopt rules to establish a process to              
+      designate certain natural gas facilities and entities associated          
+      with providing natural gas in this state as critical customers or         
+      critical gas suppliers during energy emergencies.                         
+             (b)  The rules must:                                               
+                   (1)  establish criteria for designating persons who own      
+      or operate a facility under the jurisdiction of the commission            
+      under Section 81.051(a) or engage in an activity under the                
+      jurisdiction of the commission under Section 81.051(a) who must           
+      provide critical customer and critical gas supply information, as         
+      defined by the commission, to the entities described by Section           
+      38.074(b)(1), Utilities Code;                                             
+                   (2)  consider essential operational elements when            
+      defining critical customer designations and critical gas supply           
+      information for the purposes of Subdivision (1), including natural        
+      gas production, processing, and transportation, related produced          
+      water handling and disposal facilities, and the delivery of natural       
+      gas to generators of electric energy; and                                 
+                   (3)  require that only facilities and entities that are      
+      prepared to operate during a weather emergency may be designated as       
+      a critical customer under this section.                                   
+             SECTION 5.  Subchapter C, Chapter 86, Natural Resources            
+      Code, is amended by adding Section 86.044 to read as follows:             
+             Sec. 86.044.  WEATHER EMERGENCY PREPAREDNESS. (a) In this          
+      section, "gas supply chain facility" means a facility that is:            
+                   (1)  used for producing, treating, processing,               
+      pressurizing, storing, or transporting natural gas;                       
+                   (2)  not primarily used to support liquefied natural         
+      gas pretreatment, liquefaction, or regasification facilities in           
+      the business of exporting or importing liquefied natural gas to or        
+      from foreign countries;                                                   
+                   (3)  otherwise regulated by the commission under this        
+      subtitle; and                                                             
+                   (4)  not regulated by the commission under Chapter 121,      
+      Utilities Code.                                                           
+             (b)  This section applies only to a gas supply chain facility      
+      that is:                                                                  
+                   (1)  included on the electricity supply chain map            
+      created under Section 38.203, Utilities Code; and                         
+                   (2)  designated as critical by the commission in the         
+      manner provided by Section 81.073.                                        
+             (c)  The commission by rule shall require a gas supply chain       
+      facility operator to implement measures to prepare to operate             
+      during a weather emergency. In adopting the rules, the commission         
+      shall take into consideration weather predictions produced by the         
+      office of the state climatologist.                                        
+             (d)  The commission shall:                                         
+                   (1)  inspect gas supply chain facilities for compliance      
+      with rules adopted under Subsection (c);                                  
+                   (2)  provide the owner of a facility described by            
+      Subdivision (1) with a reasonable period of time in which to remedy       
+      any violation the commission discovers in an inspection; and              
+                   (3)  report to the attorney general any violation that       
+      is not remedied in a reasonable period of time.                           
+             (e)  The commission shall prioritize inspections conducted         
+      under Subsection (d)(1) based on risk level, as determined by the         
+      commission.                                                               
+             (f)  The commission by rule shall require an operator of a         
+      gas supply chain facility that experiences repeated                       
+      weather-related or major weather-related forced interruptions of          
+      production to:                                                            
+                   (1)  contract with a person who is not an employee of        
+      the operator to assess the operator's weatherization plans,               
+      procedures, and operations; and                                           
+                   (2)  submit the assessment to the commission.                
+             (g)  The commission may require an operator of a gas supply        
+      chain facility to implement appropriate recommendations included          
+      in an assessment submitted to the commission under Subsection (f).        
+             (h)  If the commission determines that a person has violated       
+      a rule adopted under this section, the commission shall notify the        
+      attorney general of a violation that is not remedied in a reasonable      
+      amount of time. The attorney general shall initiate a suit to             
+      recover a penalty for the violation in the manner provided by             
+      Subchapter G.                                                             
+             SECTION 6.  Section 86.222, Natural Resources Code, is             
+      amended by adding Subsections (a-1), (c), and (d) to read as              
+      follows:                                                                  
+             (a-1)  Notwithstanding Subsection (a), a person who violates       
+      a provision of a rule adopted under Section 86.044 is liable for a        
+      penalty of not more than $1,000,000 for each offense.                     
+             (c)  The commission by rule shall establish a classification       
+      system to be used by a court under this subchapter for violations of      
+      rules adopted under Section 86.044 that includes a range of               
+      penalties that may be recovered for each class of violation based         
+      on:                                                                       
+                   (1)  the seriousness of the violation, including:            
+                         (A)  the nature, circumstances, extent, and            
+      gravity of a prohibited act; and                                          
+                         (B)  the hazard or potential hazard created to the     
+      health, safety, or economic welfare of the public;                        
+                   (2)  the history of previous violations;                     
+                   (3)  the amount necessary to deter future violations;        
+                   (4)  efforts to correct the violation; and                   
+                   (5)  any other matter that justice may require.              
+             (d)  The classification system established under Subsection        
+      (c) shall provide that a penalty in an amount that exceeds $5,000         
+      may be recovered only if the violation is included in the highest         
+      class of violations in the classification system.                         
+             SECTION 7.  Section 15.023, Utilities Code, is amended by          
+      adding Subsection (b-1) to read as follows:                               
+             (b-1)  Notwithstanding Subsection (b), the penalty for a           
+      violation of a provision of Section 35.0021 or 38.075 may be in an        
+      amount not to exceed $1,000,000 for a violation. Each day a               
+      violation continues or occurs is a separate violation for purposes        
+      of imposing a penalty.                                                    
+             SECTION 8.  Section 17.002, Utilities Code, is amended by          
+      adding Subdivisions (3-a) and (3-b) to read as follows:                   
+                   (3-a)  "Critical care residential customer" means a          
+      residential customer who has a person permanently residing in the         
+      customer's home who has been diagnosed by a physician as being            
+      dependent upon an electric-powered medical device to sustain life.        
+                   (3-b)  "Critical load industrial customer" means an          
+      industrial customer for whom an interruption or suspension of             
+      electric service will create a dangerous or life-threatening              
+      condition on the customer's premises.                                     
+             SECTION 9.  Section 17.003, Utilities Code, is amended by          
+      adding Subsection (d-1) to read as follows:                               
+             (d-1)  An electric utility providing electric delivery             
+      service for a retail electric provider, as defined by Section             
+      31.002, shall provide to the retail electric provider, and the            
+      retail electric provider shall periodically provide to the retail         
+      electric provider's retail customers together with bills sent to          
+      the customers, information about:                                         
+                   (1)  the electric utility's procedures for implementing      
+      involuntary load shedding initiated by the independent                    
+      organization certified under Section 39.151 for the ERCOT power           
+      region;                                                                   
+                   (2)  the types of customers who may be considered            
+      critical care residential customers, critical load industrial             
+      customers, or critical load according to commission rules adopted         
+      under Section 38.076;                                                     
+                   (3)  the procedure for a customer to apply to be             
+      considered a critical care residential customer, a critical load          
+      industrial customer, or critical load according to commission rules       
+      adopted under Section 38.076; and                                         
+                   (4)  reducing electricity use at times when involuntary      
+      load shedding events may be implemented.                                  
+             SECTION 10.  Section 17.005, Utilities Code, is amended to         
+      read as follows:                                                          
+             Sec. 17.005.  PROTECTIONS FOR CUSTOMERS OF MUNICIPALLY OWNED       
+      UTILITIES. (a) A municipally owned utility may not be deemed to be        
+      a "service provider" or "billing agent" for purposes of Sections          
+      17.156(b) and (e).                                                        
+             (b)  The governing body of a municipally owned utility shall       
+      adopt, implement, and enforce rules that shall have the effect of         
+      accomplishing the objectives set out in Sections 17.004(a) and (b)        
+      and 17.102, as to the municipally owned utility within its                
+      certificated service area.                                                
+             (c)  The governing body of a municipally owned utility or its      
+      designee shall perform the dispute resolution function provided for       
+      by Section 17.157 for disputes arising from services provided by          
+      the municipally owned utility to electric customers served within         
+      the municipally owned utility's certificated service area.                
+             (d)  With respect to electric customers served by a                
+      municipally owned utility outside its certificated service area or        
+      otherwise served through others' distribution facilities, after           
+      retail competition begins as authorized by the legislature, the           
+      provisions of this chapter as administered by the commission apply.       
+             (e)  Nothing in this chapter shall be deemed to apply to a         
+      wholesale customer of a municipally owned utility.                        
+             (f)  A municipally owned utility shall periodically provide        
+      with bills sent to retail customers of the utility information            
+      about:                                                                    
+                   (1)  the utility's procedure for implementing                
+      involuntary load shedding;                                                
+                   (2)  the types of customers who may be considered            
+      critical care residential customers, critical load industrial             
+      customers, or critical load according to commission rules adopted         
+      under Section 38.076;                                                     
+                   (3)  the procedure for a customer to apply to be             
+      considered a critical care residential customer, a critical load          
+      industrial customer, or critical load according to commission rules       
+      adopted under Section 38.076; and                                         
+                   (4)  reducing electricity use at times when involuntary      
+      load shedding events may be implemented.                                  
+             SECTION 11.  Section 17.006, Utilities Code, is amended to         
+      read as follows:                                                          
+             Sec. 17.006.  PROTECTIONS FOR CUSTOMERS OF ELECTRIC                
+      COOPERATIVES. (a) An electric cooperative shall not be deemed to          
+      be a "service provider" or "billing agent" for purposes of Sections       
+      17.156(b) and (e).                                                        
+             (b)  The electric cooperative shall adopt, implement, and          
+      enforce rules that shall have the effect of accomplishing the             
+      objectives set out in Sections 17.004(a) and (b) and 17.102.              
+             (c)  The board of directors of the electric cooperative or         
+      its designee shall perform the dispute resolution function provided       
+      for by Section 17.157 for electric customers served by the electric       
+      cooperative within its certificated service area.                         
+             (d)  With respect to electric customers served by an electric      
+      cooperative outside its certificated service area or otherwise            
+      served through others' distribution facilities, after the                 
+      legislature authorizes retail competition, the provisions of this         
+      chapter as administered by the commission shall apply.                    
+             (e)  Nothing in this chapter shall be deemed to apply to a         
+      wholesale customer of an electric cooperative.                            
+             (f)  An electric cooperative shall periodically provide with       
+      bills sent to retail customers of the cooperative information             
+      about:                                                                    
+                   (1)  the cooperative's procedure for implementing            
+      involuntary load shedding;                                                
+                   (2)  the types of customers who may be considered            
+      critical care residential customers, critical load industrial             
+      customers, or critical load according to commission rules adopted         
+      under Section 38.076;                                                     
+                   (3)  the procedure for a customer to apply to be             
+      considered a critical care residential customer, a critical load          
+      industrial customer, or critical load according to commission rules       
+      adopted under Section 38.076; and                                         
+                   (4)  reducing electricity use at times when involuntary      
+      load shedding events may be implemented.                                  
+             SECTION 12.  The heading to Chapter 35, Utilities Code, is         
+      amended to read as follows:                                               
+      CHAPTER 35. [~~ALTERNATIVE~~] ENERGY PROVIDERS                            
+             SECTION 13.  Subchapter A, Chapter 35, Utilities Code, is          
+      amended by adding Section 35.0021 to read as follows:                     
+             Sec. 35.0021.  WEATHER EMERGENCY PREPAREDNESS. (a) This            
+      section applies only to a municipally owned utility, electric             
+      cooperative, power generation company, or exempt wholesale                
+      generator that sells electric energy at wholesale in the ERCOT            
+      power region.                                                             
+             (b)  The commission by rule shall require each provider of         
+      electric generation service described by Subsection (a) to                
+      implement measures to prepare the provider's generation assets to         
+      provide adequate electric generation service during a weather             
+      emergency according to reliability standards adopted by the               
+      commission. In adopting the rules, the commission shall take into         
+      consideration weather predictions produced by the office of the           
+      state climatologist.                                                      
+             (c)  The independent organization certified under Section          
+      39.151 for the ERCOT power region shall:                                  
+                   (1)  inspect generation assets in the ERCOT power            
+      region for compliance with the reliability standards;                     
+                   (2)  provide the owner of a generation asset with a          
+      reasonable period of time in which to remedy any violation the            
+      independent organization discovers in an inspection; and                  
+                   (3)  report to the commission any violation.                 
+             (c-1)  The independent organization certified under Section        
+      39.151 for the ERCOT power region shall prioritize inspections            
+      conducted under Subsection (c)(1) based on risk level, as                 
+      determined by the organization.                                           
+             (d)  The commission by rule shall require a provider of            
+      electric generation service described by Subsection (a) for a             
+      generation asset that experiences repeated or major                       
+      weather-related forced interruptions of service to:                       
+                   (1)  contract with a person who is not an employee of        
+      the provider to assess the provider's weatherization plans,               
+      procedures, and operations for that asset; and                            
+                   (2)  submit the assessment to the commission and the         
+      independent organization certified under Section 39.151 for the           
+      ERCOT power region.                                                       
+             (e)  The commission may require a provider of electric             
+      generation service described by Subsection (a) to implement               
+      appropriate recommendations included in an assessment submitted to        
+      the commission under Subsection (d).                                      
+             (f)  The independent organization certified under Section          
+      39.151 for the ERCOT power region shall review, coordinate, and           
+      approve or deny requests by providers of electric generation              
+      service described by Subsection (a) for a planned power outage            
+      during any season and for any period of time.                             
+             (g)  The commission shall impose an administrative penalty         
+      on an entity, including a municipally owned utility or an electric        
+      cooperative, that violates a rule adopted under this section and          
+      does not remedy that violation within a reasonable period of time.        
+             SECTION 14.  Section 35.004, Utilities Code, is amended by         
+      amending Subsection (e) and adding Subsections (f), (g), and (h) to       
+      read as follows:                                                          
+             (e)  In this section, "ancillary services" means services          
+      necessary to facilitate the transmission of electric energy               
+      including load following, standby power, backup power, reactive           
+      power, and any other services as the commission may determine by          
+      rule.                                                                     
+             (f)  The commission shall ensure that ancillary services           
+      necessary to facilitate the transmission of electric energy are           
+      available at reasonable prices with terms and conditions that are         
+      not unreasonably preferential, prejudicial, discriminatory,               
+      predatory, or anticompetitive. [~~In this subsection, "ancillary~~        
+      ~~services" means services necessary to facilitate the transmission~~     
+      ~~of electric energy including load following, standby power, backup~~    
+      ~~power, reactive power, and any other services as the commission may~~   
+      ~~determine by rule.~~] On the introduction of customer choice in the     
+      ERCOT power region, acquisition of generation-related ancillary           
+      services on a nondiscriminatory basis by the independent                  
+      organization in ERCOT on behalf of entities selling electricity at        
+      retail shall be deemed to meet the requirements of this subsection.       
+             (g)  The commission shall:                                         
+                   (1)  review the type, volume, and cost of ancillary          
+      services to determine whether those services will continue to meet        
+      the needs of the electricity market in the ERCOT power region; and        
+                   (2)  evaluate whether additional services are needed         
+      for reliability in the ERCOT power region while providing adequate        
+      incentives for dispatchable generation.                                   
+             (h)  The commission shall require the independent                  
+      organization certified under Section 39.151 for the ERCOT power           
+      region to modify the design, procurement, and cost allocation of          
+      ancillary services for the region in a manner consistent with             
+      cost-causation principles and on a nondiscriminatory basis.               
+             SECTION 15.  Subchapter B, Chapter 35, Utilities Code, is          
+      amended by adding Section 35.037 to read as follows:                      
+             Sec. 35.037.  FACILITATING CERTAIN INTERCOMPANY LANDFILL           
+      GAS-TO-ELECTRICITY USE. (a) This section only applies in a county         
+      with a population of more than one million in which a national            
+      wildlife refuge is wholly or partly located.                              
+             (b)  Notwithstanding any other provision of this title, and        
+      for the purposes of reducing environmental emissions, putting to a        
+      beneficial purpose landfill gas as an electric generation fuel that       
+      would otherwise be flared, enabling the operation of electric             
+      generation to a greater degree, and enhancing the reliability and         
+      resilience of electric service in this state, a person who is not an      
+      electric utility and who owns and operates equipment or facilities        
+      to produce, generate, transmit, distribute, store, sell, or furnish       
+      electricity produced by the use of landfill methane gas may:              
+                   (1)  use the equipment or facilities to provide              
+      electricity and electric service to the person and to the person's        
+      affiliates without being considered to be an electric utility, a          
+      public utility, a retail electric provider, a power marketer, or a        
+      person providing aggregation;                                             
+                   (2)  interconnect the equipment or facilities in a           
+      timely manner and on reasonable and nondiscriminatory terms and           
+      conditions with any electric utility, municipally owned utility, or       
+      electric cooperative that has a retail service area for any portion       
+      of the equipment or facilities; and                                       
+                   (3)  receive backup, supplemental, or other electric         
+      service for any of the person's or the person's affiliates'               
+      facilities that consume electricity from any electric utility,            
+      municipally owned utility, or electric cooperative that has a             
+      retail service area for any portion of the person's facilities or         
+      equipment that are interconnected regardless of whether those             
+      facilities are in the same retail service area as the location of         
+      the interconnection point.                                                
+             (c)  Backup, supplemental, or other electric service               
+      provided under this section through an interconnection for a              
+      person's electricity-consuming facilities that are connected to           
+      the person's interconnected equipment or facilities does not              
+      constitute a service area encroachment or other violation of law by       
+      the electric utility, municipally owned utility, or electric              
+      cooperative supplying the backup, supplemental, or other electric         
+      service.                                                                  
+             SECTION 16.  Subchapter D, Chapter 38, Utilities Code, is          
+      amended by adding Sections 38.074, 38.075, 38.076, and 38.077 to          
+      read as follows:                                                          
+             Sec. 38.074.  CRITICAL NATURAL GAS FACILITIES AND ENTITIES.        
+      (a) The commission shall collaborate with the Railroad Commission         
+      of Texas to adopt rules to establish a process to designate certain       
+      natural gas facilities and entities associated with providing             
+      natural gas in this state as critical during energy emergencies.          
+             (b)  The rules must:                                               
+                   (1)  ensure that the independent organization                
+      certified under Section 39.151 for the ERCOT power region and each        
+      electric utility, municipally owned utility, and electric                 
+      cooperative providing service in the ERCOT power region is provided       
+      with the information required by Section 81.073, Natural Resources        
+      Code;                                                                     
+                   (2)  provide for prioritizing for load-shed purposes         
+      during an energy emergency the facilities and entities designated         
+      under Subsection (a); and                                                 
+                   (3)  provide discretion to an electric utility,              
+      municipally owned utility, or electric cooperative providing              
+      service in the ERCOT power region to prioritize power delivery and        
+      power restoration among the facilities and entities designated            
+      under Subsection (a) on the utility's or cooperative's systems, as        
+      circumstances require.                                                    
+             Sec. 38.075.  WEATHER EMERGENCY PREPAREDNESS. (a) The              
+      commission by rule shall require each electric cooperative,               
+      municipally owned utility, and transmission and distribution              
+      utility providing transmission service in the ERCOT power region to       
+      implement measures to prepare the cooperative's or utility's              
+      facilities to maintain service quality and reliability during a           
+      weather emergency according to standards adopted by the commission.       
+      In adopting the rules, the commission shall take into consideration       
+      weather predictions produced by the office of the state                   
+      climatologist.                                                            
+             (b)  The independent organization certified under Section          
+      39.151 for the ERCOT power region shall:                                  
+                   (1)  inspect the facilities of each electric                 
+      cooperative, municipally owned utility, and transmission and              
+      distribution utility providing transmission service in the ERCOT          
+      power region for compliance with the reliability standards;               
+                   (2)  provide the owner of a facility described by            
+      Subdivision (1) with a reasonable period of time in which to remedy       
+      any violation the independent organization discovers in an                
+      inspection; and                                                           
+                   (3)  report to the commission any violation that is not      
+      remedied in a reasonable period of time.                                  
+             (c)  The independent organization certified under Section          
+      39.151 for the ERCOT power region shall prioritize inspections            
+      conducted under Subsection (b)(1) based on risk level, as                 
+      determined by the organization.                                           
+             (d)  The commission shall impose an administrative penalty         
+      on an entity, including a municipally owned utility or an electric        
+      cooperative, that violates a rule adopted under this section and          
+      does not remedy that violation within a reasonable period of time.        
+             (e)  Notwithstanding any other provision of this subtitle,         
+      the commission shall allow a transmission and distribution utility        
+      to design and operate a load management program for nonresidential        
+      customers to be used where the independent organization certified         
+      under Section 39.151 for the ERCOT power region has declared a Level      
+      2 Emergency or a higher level of emergency or has otherwise directed      
+      the transmission and distribution utility to shed load. A                 
+      transmission and distribution utility implementing a load                 
+      management program under this subsection shall be permitted to            
+      recover the reasonable and necessary costs of the load management         
+      program under Chapter 36. A load management program operated under        
+      this subsection is not considered a competitive service.                  
+             Sec. 38.076.  INVOLUNTARY AND VOLUNTARY LOAD SHEDDING. (a)         
+      The commission by rule shall adopt a system to allocate load              
+      shedding among electric cooperatives, municipally owned utilities,        
+      and transmission and distribution utilities providing transmission        
+      service in the ERCOT power region during an involuntary load              
+      shedding event initiated by the independent organization certified        
+      under Section 39.151 for the region during an energy emergency.           
+             (b)  The system must provide for allocation of the load            
+      shedding obligation to each electric cooperative, municipally             
+      owned utility, and transmission and distribution utility in               
+      different seasons based on historical seasonal peak demand in the         
+      service territory of the electric cooperative, municipally owned          
+      utility, or transmission and distribution utility.                        
+             (c)  The commission by rule shall:                                 
+                   (1)  categorize types of critical load that may be           
+      given the highest priority for power restoration; and                     
+                   (2)  require electric cooperatives, municipally owned        
+      utilities, and transmission and distribution utilities providing          
+      transmission service in the ERCOT power region to submit to the           
+      commission and the independent organization certified under               
+      Section 39.151 for the region:                                            
+                         (A)  customers or circuits the cooperative or          
+      utility has designated as critical load; and                              
+                         (B)  a plan for participating in load shedding in      
+      response to an involuntary load shedding event described by               
+      Subsection (a).                                                           
+             (d)  The commission by rule shall require electric                 
+      cooperatives and municipally owned utilities providing                    
+      transmission service in the ERCOT power region to:                        
+                   (1)  maintain lists of customers willing to voluntarily      
+      participate in voluntary load reduction; and                              
+                   (2)  coordinate with municipalities, businesses, and         
+      customers that consume large amounts of electricity to encourage          
+      voluntary load reduction.                                                 
+             (e)  This section does not abridge, enlarge, or modify the         
+      obligation of an electric cooperative, a municipally owned utility,       
+      or a transmission and distribution utility to comply with federal         
+      reliability standards.                                                    
+             (f)  After each load shedding event, the commission may            
+      conduct an examination of the implementation of load shedding,            
+      including whether each electric cooperative, municipally owned            
+      utility, and transmission and distribution utility complied with          
+      its plan as filed with the commission under Subsection (c)(2).            
+             Sec. 38.077.  LOAD SHEDDING EXERCISES. (a) The commission          
+      and the independent organization certified for the ERCOT power            
+      region shall conduct simulated or tabletop load shedding exercises        
+      with providers of electric generation service and transmission and        
+      distribution service in the ERCOT power region.                           
+             (b)  The commission shall ensure that each year at least one       
+      simulated or tabletop exercise is conducted during a summer month         
+      and one simulated or tabletop exercise is conducted during a winter       
+      month.                                                                    
+             SECTION 17.  Chapter 38, Utilities Code, is amended by             
+      adding Subchapter F to read as follows:                                   
+      SUBCHAPTER F. TEXAS ELECTRICITY SUPPLY CHAIN SECURITY AND MAPPING         
+      COMMITTEE                                                                 
+             Sec. 38.201.  TEXAS ELECTRICITY SUPPLY CHAIN SECURITY AND          
+      MAPPING COMMITTEE. (a) In this subchapter, "electricity supply            
+      chain" means:                                                             
+                   (1)  facilities and methods used for producing,              
+      treating, processing, pressurizing, storing, or transporting              
+      natural gas for delivery to electric generation facilities; and           
+                   (2)  critical infrastructure necessary to maintain           
+      electricity service.                                                      
+             (b)  The Texas Electricity Supply Chain Security and Mapping       
+      Committee is established to:                                              
+                   (1)  map this state's electricity supply chain;              
+                   (2)  identify critical infrastructure sources in the         
+      electricity supply chain;                                                 
+                   (3)  establish best practices to prepare facilities          
+      that provide electric service and natural gas service in the              
+      electricity supply chain to maintain service in an extreme weather        
+      event and recommend oversight and compliance standards for those          
+      facilities; and                                                           
+                   (4)  designate priority service needs to prepare for,        
+      respond to, and recover from an extreme weather event.                    
+             (c)  The committee is composed of:                                 
+                   (1)  the executive director of the commission;               
+                   (2)  the executive director of the Railroad Commission       
+      of Texas;                                                                 
+                   (3)  the president and the chief executive officer of        
+      the independent organization certified under Section 39.151 for the       
+      ERCOT power region; and                                                   
+                   (4)  the chief of the Texas Division of Emergency            
+      Management.                                                               
+             (d)  Each member of the committee may designate a personal         
+      representative from the member's organization to represent the            
+      member on the committee. A member is responsible for the acts and         
+      omissions of the designee related to the designee's representation        
+      on the committee.                                                         
+             (e)  The executive director of the commission serves as the        
+      chair of the committee. The executive director of the Railroad            
+      Commission of Texas serves as vice chair of the committee.                
+             Sec. 38.202.  ADMINISTRATION. (a) The committee shall meet         
+      at least once each calendar quarter at a time determined by the           
+      committee and at the call of the chair.                                   
+             (b)  A member who is an ex officio member from a state agency      
+      shall be reimbursed for actual and necessary expenses in carrying         
+      out committee responsibilities from money appropriated for that           
+      purpose in the agency's budget. Other members of the committee may        
+      receive reimbursement for actual and necessary expenses in carrying       
+      out committee responsibilities from money appropriated for that           
+      purpose.                                                                  
+             (c)  The commission, the Railroad Commission of Texas, and         
+      the Texas Division of Emergency Management shall provide staff as         
+      necessary to assist the committee in carrying out the committee's         
+      duties and responsibilities.                                              
+             (d)  The independent organization certified under Section          
+      39.151 for the ERCOT power region shall provide staff as necessary        
+      to assist the committee in carrying out the committee's duties and        
+      responsibilities.                                                         
+             (e)  Except as otherwise provided by this subchapter, the          
+      committee is not subject to Chapters 2001, 551, and 552, Government       
+      Code.                                                                     
+             (f)  Information written, produced, collected, assembled, or       
+      maintained under law or in connection with the transaction of             
+      official business by the committee or an officer or employee of the       
+      committee is subject to Section 552.008, Government Code.  This           
+      subsection does not apply to the physical locations of critical           
+      facilities, maps created under this subchapter, or proprietary            
+      information created or gathered during the mapping process.               
+             Sec. 38.203.  POWERS AND DUTIES OF COMMITTEE. (a) The              
+      committee shall:                                                          
+                   (1)  map the state's electricity supply chain in order       
+      to designate priority electricity service needs during extreme            
+      weather events;                                                           
+                   (2)  identify and designate the sources in the               
+      electricity supply chain necessary to operate critical                    
+      infrastructure, as defined by Section 421.001, Government Code;           
+                   (3)  develop a communication system between critical         
+      infrastructure sources, the commission, and the independent               
+      organization certified under Section 39.151 for the ERCOT power           
+      region to ensure that electricity and natural gas supplies in the         
+      electricity supply chain are prioritized to those sources during an       
+      extreme weather event; and                                                
+                   (4)  establish best practices to prepare facilities          
+      that provide electric service and natural gas service in the              
+      electricity supply chain to maintain service in an extreme weather        
+      event and recommend oversight and compliance standards for those          
+      facilities.                                                               
+             (b)  The committee shall update the electricity supply chain       
+      map at least once each year.                                              
+             (c)  The commission shall:                                         
+                   (1)  create and maintain a database identifying              
+      critical infrastructure sources with priority electricity needs to        
+      be used during an extreme weather event; and                              
+                   (2)  update the database at least once each year.            
+             (d)  The information maintained in the database is                 
+      confidential under Section 418.181, Government Code, and not              
+      subject to disclosure under Chapter 552, Government Code.                 
+             (e)  The committee shall provide the Texas Energy                  
+      Reliability Council with access to the electricity supply chain           
+      map.                                                                      
+             Sec. 38.204.  MAPPING REPORT. (a) Not later than January 1,        
+      2022, the committee shall submit a report to the governor, the            
+      lieutenant governor, the speaker of the house of representatives,         
+      the legislature, and the Texas Energy Reliability Council on the          
+      activities and findings of the committee. The report must:                
+                   (1)  provide an overview of the committee's findings         
+      regarding mapping the electricity supply chain and identifying            
+      sources necessary to operate critical infrastructure;                     
+                   (2)  recommend a clear and thorough communication            
+      system for the commission, the Railroad Commission of Texas, the          
+      Texas Division of Emergency Management, and the independent               
+      organization certified under Section 39.151 for the ERCOT power           
+      region and critical infrastructure sources in this state to ensure        
+      that electricity supply is prioritized to those sources during            
+      extreme weather events; and                                               
+                   (3)  include a list of the established best practices        
+      and recommended oversight and compliance standards adopted under          
+      Section 38.203(a)(4).                                                     
+             (b)  The report is public information except for portions          
+      considered confidential under Chapter 552, Government Code, or            
+      other state or federal law.                                               
+             SECTION 18.  Subchapter D, Chapter 39, Utilities Code, is          
+      amended by adding Sections 39.159 and 39.160 to read as follows:          
+             Sec. 39.159.  DISPATCHABLE GENERATION. (a)  For the                
+      purposes of this section, a generation facility is considered to be       
+      non-dispatchable if the facility's output is controlled primarily         
+      by forces outside of human control.                                       
+             (b)  The commission shall ensure that the independent              
+      organization certified under Section 39.151 for the ERCOT power           
+      region:                                                                   
+                   (1)  establishes requirements to meet the reliability        
+      needs of the power region;                                                
+                   (2)  periodically, but at least annually, determines         
+      the quantity and characteristics of ancillary or reliability              
+      services necessary to ensure appropriate reliability during               
+      extreme heat and extreme cold weather conditions and during times         
+      of low non-dispatchable power production in the power region;             
+                   (3)  procures ancillary or reliability services on a         
+      competitive basis to ensure appropriate reliability during extreme        
+      heat and extreme cold weather conditions and during times of low          
+      non-dispatchable power production in the power region;                    
+                   (4)  develops appropriate qualification and                  
+      performance requirements for providing services under Subdivision         
+      (3), including appropriate penalties for failure to provide the           
+      services; and                                                             
+                   (5)  sizes the services procured under Subdivision (3)       
+      to prevent prolonged rotating outages due to net load variability         
+      in high demand and low supply scenarios.                                  
+             (c)  The commission shall ensure that:                             
+                   (1)  resources that provide services under Subsection        
+      (b) are dispatchable and able to meet continuous operating                
+      requirements for the season in which the service is procured;             
+                   (2)  winter resource capability qualifications for a         
+      service described by Subsection (b) include on-site fuel storage,         
+      dual fuel capability, or fuel supply arrangements to ensure winter        
+      performance for several days; and                                         
+                   (3)  summer resource capability qualifications for a         
+      service described by Subsection (b) include facilities or                 
+      procedures to ensure operation under drought conditions.                  
+             Sec. 39.160.  WHOLESALE PRICING PROCEDURES. (a) The                
+      commission by rule shall establish an emergency pricing program for       
+      the wholesale electric market.                                            
+             (b)  The emergency pricing program must take effect if the         
+      high system-wide offer cap has been in effect for 12 hours in a           
+      24-hour period after initially reaching the high system-wide offer        
+      cap. The commission by rule shall determine the criteria for the          
+      emergency pricing program to cease.                                       
+             (c)  The emergency pricing program may not allow an emergency      
+      pricing program cap to exceed any nonemergency high system-wide           
+      offer cap.                                                                
+             (d)  The commission by rule shall establish an ancillary           
+      services cap to be in effect during the period an emergency pricing       
+      program is in effect.                                                     
+             (e)  Any wholesale pricing procedure that has a low                
+      system-wide offer cap may not allow the low system-wide offer cap to      
+      exceed the high system-wide offer cap.                                    
+             (f)  The commission shall review each system-wide offer cap        
+      program adopted by the commission, including the emergency pricing        
+      program, at least once every five years to determine whether to           
+      update aspects of the program.                                            
+             (g)  The emergency pricing program must allow generators to        
+      be reimbursed for reasonable, verifiable operating costs that             
+      exceed the emergency cap.                                                 
+             SECTION 19.  Subchapter Z, Chapter 39, Utilities Code, is          
+      amended by adding Section 39.9165 to read as follows:                     
+             Sec. 39.9165.  DISTRIBUTED GENERATION REPORTING. (a) In            
+      this section, "distributed generation" is an electrical generating        
+      facility that:                                                            
+                   (1)  may be located at a customer's point of delivery;       
+                   (2)  is connected at a voltage less than 60 kilovolts;       
+      and                                                                       
+                   (3)  may be connected in parallel operation to the           
+      utility system.                                                           
+             (b)  An independent organization certified under Section           
+      39.151 shall require an owner or operator of distributed generation       
+      to register with the organization and interconnecting transmission        
+      and distribution utility information necessary for the                    
+      interconnection of the distributed generator.                             
+             (c)  This section does not apply to distributed generation         
+      serving a residential property.                                           
+             SECTION 20.  Section 105.023, Utilities Code, is amended by        
+      adding Subsections (b-1), (e), and (f) to read as follows:                
+             (b-1)  Notwithstanding Subsection (b), a civil penalty under       
+      this section shall be in an amount of not less than $1,000 and not        
+      more than $1,000,000 for each violation of Section 104.258(c).            
+             (e)  The railroad commission by rule shall establish a             
+      classification system to be used by a court under this subchapter         
+      for violations of Section 104.258(c) that includes a range of             
+      penalties that may be recovered for each class of violation based         
+      on:                                                                       
+                   (1)  the seriousness of the violation, including:            
+                         (A)  the nature, circumstances, extent, and            
+      gravity of a prohibited act; and                                          
+                         (B)  the hazard or potential hazard created to the     
+      health, safety, or economic welfare of the public;                        
+                   (2)  the history of previous violations;                     
+                   (3)  the amount necessary to deter future violations;        
+                   (4)  efforts to correct the violation; and                   
+                   (5)  any other matter that justice may require.              
+             (f)  The classification system established under Subsection        
+      (e) shall provide that a penalty in an amount that exceeds $5,000         
+      may be recovered only if the violation is included in the highest         
+      class of violations in the classification system.                         
+             SECTION 21.  Section 121.2015, Utilities Code, is amended by       
+      amending Subsection (a) and adding Subsections (a-1), (c-1), (c-2),       
+      (d), (e), and (f) to read as follows:                                     
+             (a)  The railroad commission shall adopt rules regarding:          
+                   (1)  public education and awareness relating to gas          
+      pipeline facilities; [~~and~~]                                            
+                   (2)  community liaison for responding to an emergency        
+      relating to a gas pipeline facility; and                                  
+                   (3)  measures a gas pipeline facility operator must          
+      implement to prepare the gas pipeline facility to maintain service        
+      quality and reliability during extreme weather conditions if the          
+      gas pipeline facility:                                                    
+                         (A)  directly serves a natural gas electric            
+      generation facility operating solely to provide power to the              
+      electric grid for the ERCOT power region or for the ERCOT  power          
+      region and an adjacent power region; and                                  
+                         (B)  is included on the electricity supply chain       
+      map created under Section 38.203.                                         
+             (a-1)  In adopting rules under Subsection (a)(3), the              
+      railroad commission shall take into consideration weather                 
+      predictions produced by the office of the state climatologist.            
+             (c-1)  The railroad commission shall:                              
+                   (1)  inspect gas pipeline facilities described by            
+      Subsection (a)(3) for compliance with rules adopted under                 
+      Subsection (a)(3);                                                        
+                   (2)  provide the owner of a facility described by            
+      Subsection (a)(3) with a reasonable period of time in which to            
+      remedy any violation the railroad commission discovers in an              
+      inspection; and                                                           
+                   (3)  report to the attorney general any violation that       
+      is not remedied in a reasonable period of time.                           
+             (c-2)  The railroad commission shall prioritize inspections        
+      conducted under Subsection (c-1)(1) based on risk level, as               
+      determined by the railroad commission.                                    
+             (d)  The railroad commission by rule shall require a gas           
+      pipeline facility operator described by Subsection (a)(3) that            
+      experiences repeated or major weather-related forced interruptions        
+      of service to:                                                            
+                   (1)  contract with a person who is not an employee of        
+      the operator to assess the operator's weatherization plans,               
+      procedures, and operations; and                                           
+                   (2)  submit the assessment to the commission.                
+             (e)  The railroad commission may require an operator of a gas      
+      pipeline facility described by Subsection (a)(3) to implement             
+      appropriate recommendations included in an assessment submitted to        
+      the commission under Subsection (d).                                      
+             (f)  The railroad commission shall assess an administrative        
+      penalty against a person who violates a rule adopted under                
+      Subsection (a)(3) if the violation is not remedied in a reasonable        
+      period of time in the manner provided by this subchapter.                 
+             SECTION 22.  Section 121.206, Utilities Code, is amended by        
+      adding Subsections (b-1) and (e) to read as follows:                      
+             (b-1)  Notwithstanding Subsection (b), the penalty for each        
+      violation may not exceed $1,000,000 for a violation of a rule             
+      adopted under Section 121.2015(a)(3). Each day a violation                
+      continues may be considered a separate violation for the purpose of       
+      penalty assessment.                                                       
+             (e)  The guidelines must provide that a penalty in an amount       
+      that exceeds $5,000 for a violation of a rule adopted under Section       
+      121.2015(a)(3) may be assessed only if circumstances justify the          
+      enhancement of the penalty.                                               
+             SECTION 23.  The heading to Section 186.007, Utilities Code,       
+      is amended to read as follows:                                            
+             Sec. 186.007.  PUBLIC UTILITY COMMISSION WEATHER EMERGENCY         
+      PREPAREDNESS REPORTS [~~REPORT~~].                                        
+             SECTION 24.  Sections 186.007(a-1), (b), (d), (e), and (f),        
+      Utilities Code, are amended to read as follows:                           
+             (a-1)  The commission shall analyze emergency operations           
+      plans developed by electric utilities as defined by Section 31.002,       
+      power generation companies as defined by Section 31.002,                  
+      municipally owned utilities, and electric cooperatives that               
+      operate generation facilities in this state and retail electric           
+      providers as defined by Section 31.002 and prepare a weather              
+      emergency preparedness report on power [~~generation~~] weatherization    
+      preparedness. In preparing the report, the commission shall:              
+                   (1)  review [~~the~~] emergency operations plans             
+      [~~currently~~] on file with the commission;                              
+                   (2)  analyze and determine the ability of the electric       
+      grid to withstand extreme weather events in the upcoming year;            
+                   (3)  consider the anticipated weather patterns for the       
+      upcoming year as forecasted by the National Weather Service or any        
+      similar state or national agency; and                                     
+                   (4)  make recommendations on improving emergency             
+      operations plans and procedures in order to ensure the continuity         
+      of electric service.                                                      
+             (b)  The commission shall [~~may~~] require an [~~electric~~       
+      ~~generation~~] entity subject to this section to file an updated         
+      emergency operations plan if it finds that an emergency operations        
+      plan on file does not contain adequate information to determine           
+      whether the [~~electric generation~~] entity can provide adequate         
+      electric [~~generation~~] services.                                       
+             (d)  The commission shall submit the report described by           
+      Subsection (a-1) to the lieutenant governor, the speaker of the           
+      house of representatives, and the members of the legislature not          
+      later than September 30 of each even-numbered year[~~, 2012~~].           
+             (e)  The commission may submit additional [~~subsequent~~]         
+      weather emergency preparedness reports if the commission finds that       
+      significant changes to weatherization techniques have occurred or         
+      are necessary to protect consumers or vital services, or if there         
+      have been changes to statutes or rules relating to weatherization         
+      requirements. A report under this subsection must be submitted not        
+      later than:                                                               
+                   (1)  March 1 for a summer weather emergency                  
+      preparedness report; and                                                  
+                   (2)  September 1 for a winter weather emergency              
+      preparedness report.                                                      
+             (f)  The emergency operations plans submitted for a [~~the~~]      
+      report described by Subsection (a-1) and any additional                   
+      [~~subsequent~~] plans submitted under Subsection (e) are public          
+      information except for the portions of the plan considered                
+      confidential under Chapter 552, Government Code, or other state or        
+      federal law. If portions of a plan are designated as confidential,        
+      the plan shall be provided to the commission in a redacted form for       
+      public inspection with the confidential portions removed. An              
+      [~~electric generation~~] entity within the ERCOT power region shall      
+      provide the entity's plan to ERCOT in its entirety.                       
+             SECTION 25.  Subchapter A, Chapter 186, Utilities Code, is         
+      amended by adding Section 186.008 to read as follows:                     
+             Sec. 186.008.  RAILROAD COMMISSION WEATHER EMERGENCY               
+      PREPAREDNESS REPORTS. (a) In this section, "commission" means the         
+      Railroad Commission of Texas.                                             
+             (b)  The commission shall analyze emergency operations plans       
+      developed by operators of facilities that produce, treat, process,        
+      pressurize, store, or transport natural gas and are included on the       
+      electricity supply chain map created under Section 38.203 and             
+      prepare a weather emergency preparedness report on weatherization         
+      preparedness of those facilities. In preparing the report, the            
+      commission shall:                                                         
+                   (1)  review any emergency operations plans on file with      
+      the commission;                                                           
+                   (2)  analyze and determine the ability of the                
+      electricity supply chain, as mapped under Section 38.203, to              
+      withstand extreme weather events in the upcoming year;                    
+                   (3)  consider the anticipated weather patterns for the       
+      upcoming year as forecasted by the National Weather Service or any        
+      similar state or national agency; and                                     
+                   (4)  make recommendations on improving emergency             
+      operations plans and procedures in order to ensure the continuity         
+      of natural gas service for the electricity supply chain, as mapped        
+      under Section 38.203.                                                     
+             (c)  The commission shall require an entity subject to this        
+      section to file an updated emergency operations plan if it finds          
+      that an emergency operations plan on file does not contain adequate       
+      information to determine whether the entity can provide adequate          
+      natural gas services.                                                     
+             (d)  The commission may adopt rules relating to the                
+      implementation of the report described by Subsection (b).                 
+             (e)  The commission shall submit the report described by           
+      Subsection (b) to the lieutenant governor, the speaker of the house       
+      of representatives, and the members of the legislature not later          
+      than September 30 of each even-numbered year.                             
+             (f)  The commission may submit additional weather emergency        
+      preparedness reports if the commission finds that significant             
+      changes to weatherization techniques have occurred or are necessary       
+      to protect consumers or vital services, or if there have been             
+      changes to statutes or rules relating to weatherization                   
+      requirements. A report under this subsection must be submitted not        
+      later than:                                                               
+                   (1)  March 1 for a summer weather emergency                  
+      preparedness report; and                                                  
+                   (2)  September 1 for a winter weather emergency              
+      preparedness report.                                                      
+             (g)  The emergency operations plans submitted for a report         
+      described by Subsection (b) and any additional plans submitted            
+      under Subsection (f) are public information except for the portions       
+      of the plan considered confidential under Chapter 552, Government         
+      Code, or other state or federal law. If portions of a plan are            
+      designated as confidential, the plan shall be provided to the             
+      commission in a redacted form for public inspection with the              
+      confidential portions removed.                                            
+             SECTION 26.  Subchapter E, Chapter 13, Water Code, is              
+      amended by adding Section 13.1394 to read as follows:                     
+             Sec. 13.1394.  STANDARDS OF EMERGENCY OPERATIONS. (a) In           
+      this section:                                                             
+                   (1)  "Affected utility" means a retail public utility,       
+      exempt utility, or provider or conveyor of potable or raw water           
+      service that:                                                             
+                         (A)  furnishes water service to more than one          
+      customer; and                                                             
+                         (B)  is not an affected utility under Section          
+      13.1395.                                                                  
+                   (2)  "Emergency operations" means the operation of a         
+      water system during an extended power outage that impacts the             
+      operating affected utility.                                               
+                   (3)  "Extended power outage" means a power outage            
+      lasting for more than 24 hours.                                           
+             (b)  An affected utility shall:                                    
+                   (1)  ensure the emergency operation of its water system      
+      during an extended power outage at a minimum water pressure of 20         
+      pounds per square inch, or at a water pressure level approved by the      
+      commission, as soon as safe and practicable following the                 
+      occurrence of a natural disaster; and                                     
+                   (2)  adopt and submit to the commission for its              
+      approval:                                                                 
+                         (A)  an emergency preparedness plan that               
+      demonstrates the utility's ability to provide the emergency               
+      operations described by Subdivision (1); and                              
+                         (B)  a timeline for implementing the plan              
+      described by Paragraph (A).                                               
+             (c)  The commission shall review an emergency preparedness         
+      plan submitted under Subsection (b). If the commission determines         
+      that the plan is not acceptable, the commission shall recommend           
+      changes to the plan. The commission must make its recommendations         
+      on or before the 90th day after the commission receives the plan.         
+      In accordance with commission rules, an emergency preparedness plan       
+      for a provider of potable water shall provide for one or more of the      
+      following:                                                                
+                   (1)  the maintenance of automatically starting               
+      auxiliary generators;                                                     
+                   (2)  the sharing of auxiliary generator capacity with        
+      one or more affected utilities, including through participation in        
+      a statewide mutual aid program;                                           
+                   (3)  the negotiation of leasing and contracting              
+      agreements, including emergency mutual aid agreements with other          
+      retail public utilities, exempt utilities, or providers or                
+      conveyors of potable or raw water service, if the agreements              
+      provide for coordination with the division of emergency management        
+      in the governor's office;                                                 
+                   (4)  the use of portable generators capable of serving       
+      multiple facilities equipped with quick-connect systems;                  
+                   (5)  the use of on-site electrical generation or             
+      distributed generation facilities;                                        
+                   (6)  hardening the electric transmission and                 
+      distribution system serving the water system;                             
+                   (7)  for existing facilities, the maintenance of direct      
+      engine or right angle drives;                                             
+                   (8)  designation of the water system as a critical load      
+      facility or redundant, isolated, or dedicated electrical feeds;           
+                   (9)  water storage capabilities;                             
+                   (10)  water supplies delivered from outside the service      
+      area of the affected utility;                                             
+                   (11)  the ability to provide water through artesian          
+      flows;                                                                    
+                   (12)  redundant interconnectivity between pressure           
+      zones;                                                                    
+                   (13)  emergency water demand rules to maintain               
+      emergency operations; or                                                  
+                   (14)  any other alternative determined by the                
+      commission to be acceptable.                                              
+             (d)  Each affected utility that supplies, provides, or             
+      conveys raw surface water shall include in its emergency                  
+      preparedness plan under Subsection (b) provisions for                     
+      demonstrating the capability of each raw water intake pump station,       
+      pump station, and pressure facility to provide raw water service to       
+      its wholesale customers during emergencies. This subsection does          
+      not apply to raw water services that are unnecessary or otherwise         
+      subject to interruption or curtailment during emergencies under a         
+      contract.                                                                 
+             (e)  The commission shall adopt rules to implement this            
+      section as an alternative to any rule requiring elevated storage.         
+             (f)  The commission shall provide an affected utility with         
+      access to the commission's financial, managerial, and technical           
+      contractors to assist the utility in complying with the applicable        
+      emergency preparedness plan submission deadline.                          
+             (g)  The commission by rule shall create an emergency              
+      preparedness plan template for use by an affected utility when            
+      submitting a plan under this section. The emergency preparedness          
+      plan template shall contain:                                              
+                   (1)  a list and explanation of the preparations an           
+      affected utility may make under Subsection (c) for the commission         
+      to approve the utility's emergency preparedness plan; and                 
+                   (2)  a list of all commission rules and standards            
+      pertaining to emergency preparedness plans.                               
+             (h)  An emergency generator used as part of an approved            
+      emergency preparedness plan under Subsection (c) must be operated         
+      and maintained according to the manufacturer's specifications.            
+             (i)  The commission shall inspect each utility to ensure that      
+      the utility complies with the approved plan.                              
+             (j)  The commission shall consider whether compliance with         
+      this section will cause a significant financial burden on customers       
+      of an affected utility when making recommended changes under              
+      Subsection (c).                                                           
+             (k)  An affected utility may adopt and enforce limitations on      
+      water use while the utility is providing emergency operations.            
+             (l)  Except as specifically required by this section,              
+      information provided by an affected utility under this section is         
+      confidential and is not subject to disclosure under Chapter 552,          
+      Government Code.                                                          
+             (m)  The commission shall coordinate with the utility              
+      commission in the administration of this section.                         
+             SECTION 27.  The heading to Section 13.1395, Water Code, is        
+      amended to read as follows:                                               
+             Sec. 13.1395.  STANDARDS OF EMERGENCY OPERATIONS IN CERTAIN        
+      COUNTIES.                                                                 
+             SECTION 28.  Section 13.1395(d), Water Code, is amended to         
+      read as follows:                                                          
+             (d)  This subsection does not apply to raw water services          
+      that are unnecessary or otherwise subject to interruption or              
+      curtailment during emergencies under a contract. Each affected            
+      utility that supplies, provides, or conveys surface water shall           
+      include in its emergency preparedness plan under Subsection (b)           
+      provisions:                                                               
+                   (1)  for the actual installation and maintenance of          
+      automatically starting auxiliary generators or distributive               
+      generation facilities for each raw water intake pump station, water       
+      treatment plant, pump station, and pressure facility necessary to         
+      provide water to its wholesale customers during emergencies; or           
+                   (2)  that demonstrate the capability of each raw water       
+      intake pump station, water treatment plant, pump station, and             
+      pressure facility to provide water to its wholesale customers             
+      during emergencies through alternative means acceptable to the            
+      commission.                                                               
+             SECTION 29.  Section 13.1396, Water Code, is amended by            
+      adding Subsection (a-1) to read as follows:                               
+             (a-1)  This section applies only to an affected utility, as        
+      defined by Section 13.1394 or 13.1395.                                    
+             SECTION 30.  Subchapter E, Chapter 13, Water Code, is              
+      amended by adding Section 13.151 to read as follows:                      
+             Sec. 13.151.  BILLING FOR SERVICES PROVIDED DURING EXTREME         
+      WEATHER EMERGENCY. (a) In this section, "extreme weather                  
+      emergency" means a period when the previous day's highest                 
+      temperature did not exceed 28 degrees Fahrenheit and the                  
+      temperature is predicted to remain at or below that level for the         
+      next 24 hours according to the nearest National Weather Service           
+      reports.                                                                  
+             (b)  A retail public utility that is required to possess a         
+      certificate of public convenience and necessity or a district or          
+      affected county that furnishes retail water or sewer utility              
+      service shall not impose late fees or disconnect service for              
+      nonpayment of bills that are due during an extreme weather                
+      emergency until after the emergency is over and shall work with           
+      customers that request to establish a payment schedule for unpaid         
+      bills that are due during the extreme weather emergency.                  
+             SECTION 31.  Section 13.414, Water Code, is amended by             
+      adding Subsections (a-1), (d), and (e) to read as follows:                
+             (a-1)  Notwithstanding Subsection (a), a retail public             
+      utility or affiliated interest that violates Section 13.151 is            
+      subject to a civil penalty of not less than $100 nor more than            
+      $50,000 for each violation.                                               
+             (d)  The utility commission by rule shall establish a              
+      classification system to be used by a court under this section for        
+      violations of Section 13.151 that includes a range of penalties           
+      that may be recovered for each class of violation based on:               
+                   (1)  the seriousness of the violation, including:            
+                         (A)  the nature, circumstances, extent, and            
+      gravity of a prohibited act; and                                          
+                         (B)  the hazard or potential hazard created to the     
+      health, safety, or economic welfare of the public;                        
+                   (2)  the history of previous violations;                     
+                   (3)  the amount necessary to deter future violations;        
+                   (4)  efforts to correct the violation; and                   
+                   (5)  any other matter that justice may require.              
+             (e)  The classification system established under Subsection        
+      (d) shall provide that a penalty in an amount that exceeds $5,000         
+      may be recovered only if the violation is included in the highest         
+      class of violations in the classification system.                         
+             SECTION 32.  Section 13.1396(a)(1), Water Code, is repealed.       
+             SECTION 33.  (a) The State Energy Plan Advisory Committee is       
+      composed of 12 members. The governor, lieutenant governor, and            
+      speaker of the house of representatives each shall appoint four           
+      members to the advisory committee.                                        
+             (b)  Not later than September 1, 2022, the State Energy Plan       
+      Advisory Committee shall prepare a comprehensive state energy plan.       
+      The plan must:                                                            
+                   (1)  evaluate barriers in the electricity and natural        
+      gas markets that prevent sound economic decisions;                        
+                   (2)  evaluate methods to improve the reliability,            
+      stability, and affordability of electric service in this state;           
+                   (3)  provide recommendations for removing the barriers       
+      described by Subdivision (1) of this subsection and using the             
+      methods described by Subdivision (2) of this subsection; and              
+                   (4)  evaluate the electricity market structure and           
+      pricing mechanisms used in this state, including the ancillary            
+      services market and emergency response services.                          
+             (c)  The state energy plan prepared under this section must        
+      be submitted to the legislature not later than September 1, 2022.         
+             SECTION 34.  The Public Utility Commission of Texas and the        
+      independent organization certified under Section 39.151, Utilities        
+      Code, shall annually review statutes, rules, protocols, and bylaws        
+      that apply to conflicts of interest for commissioners and for             
+      members of the governing body of the independent organization and         
+      submit to the legislature a report on the effects the statutes,           
+      rules, protocols, and bylaws have on the ability of the commission        
+      and the independent organization to fulfill their duties.                 
+             SECTION 35.  The Public Utility Commission of Texas shall          
+      complete the first review required by Section 39.160(f), Utilities        
+      Code, as added by this Act, not later than December 31, 2021.             
+             SECTION 36.  (a) Not later than November 1, 2021, each             
+      affected utility, as defined by Section 13.1394, Water Code, as           
+      added by this Act, shall complete the submissions required by             
+      Section 13.1396(c), Water Code.                                           
+             (b)  Not later than March 1, 2022, each affected utility           
+      shall submit to the Texas Commission on Environmental Quality the         
+      emergency preparedness plan required by Section 13.1394, Water            
+      Code, as added by this Act.                                               
+             (c)  Not later than July 1, 2022, or upon final approval by        
+      the commission, each affected utility shall implement the emergency       
+      preparedness plan approved by the Texas Commission on Environmental       
+      Quality under Section 13.1394, Water Code, as added by this Act.          
+             (d)  An affected utility, as defined by Section 13.1394,           
+      Water Code, as added by this Act, may file with the Texas Commission      
+      on Environmental Quality a written request for an extension, not to       
+      exceed 90 days, of the date by which the affected utility is              
+      required under Subsection (b) of this section to submit the               
+      affected utility's emergency preparedness plan or of the date by          
+      which the affected utility is required under Subsection (c) of this       
+      section to implement the affected utility's emergency preparedness        
+      plan. The Texas Commission on Environmental Quality shall approve         
+      the requested extension for good cause shown.                             
+             SECTION 37.  The Texas Electricity Supply Chain Security and       
+      Mapping Committee shall produce the map required under Section            
+      38.203, Utilities Code, as added by this Act, not later than              
+      September 1, 2022.                                                        
+             SECTION 38.  Not later than six months after the date the          
+      Texas Electricity Supply Chain Security and Mapping Committee             
+      produces the map required under Section 38.203, Utilities Code, as        
+      added by this Act, the Railroad Commission of Texas shall adopt           
+      rules necessary to implement:                                             
+                   (1)  Section 86.044, Natural Resources Code, as added        
+      by this Act; and                                                          
+                   (2)  Section 121.2015, Utilities Code, as amended by         
+      this Act.                                                                 
+             SECTION 39.  Not later than six months after the effective         
+      date of this Act, the Public Utility Commission of Texas shall adopt      
+      rules necessary to implement:                                             
+                   (1)  Section 35.0021, Utilities Code, as added by this       
+      Act; and                                                                  
+                   (2)  Section 38.075, Utilities Code, as added by this        
+      Act.                                                                      
+             SECTION 40.  It is the intent of the legislature that this         
+      Act not restrict or amend the sole jurisdiction of the Railroad           
+      Commission of Texas to establish rules or requirements relating to        
+      curtailment orders for facilities and entities in the commission's        
+      jurisdiction under the Natural Resources Code or the Utilities            
+      Code.                                                                     
+             SECTION 41.  This Act takes effect immediately if it               
+      receives a vote of two-thirds of all the members elected to each          
+      house, as provided by Section 39, Article III, Texas Constitution.        
+      If this Act does not receive the vote necessary for immediate             
+      effect, this Act takes effect September 1, 2021.                          
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+      ______________________________                                            ______________________________
+         President of the Senate                                                Speaker of the House     
+                                                                                
+             I hereby certify that S.B. No. 3 passed the Senate on              
+      March 29, 2021, by the following vote:  Yeas 31, Nays 0;                  
+      May 27, 2021, Senate refused to concur in House amendments and            
+      requested appointment of Conference Committee; May 28, 2021, House        
+      granted request of the Senate; May 30, 2021, Senate adopted               
+      Conference Committee Report by the following vote:  Yeas 31,              
+      Nays 0.                                                                   
+                                                                                
+                                                                                
+      ______________________________                                            
+      Secretary of the Senate                                                   
+                                                                                
+             I hereby certify that S.B. No. 3 passed the House, with            
+      amendments, on May 24, 2021, by the following vote:  Yeas 142,            
+      Nays 1, one present not voting; May 28, 2021, House granted request       
+      of the Senate for appointment of Conference Committee;                    
+      May 30, 2021, House adopted Conference Committee Report by the            
+      following vote:  Yeas 142, Nays 0, two present not voting.                
+                                                                                
+                                                                                
+      ______________________________                                            
+      Chief Clerk of the House                                                  
+                                                                                
+                                                                                
+                                                                                
+      Approved:                                                                 
+                                                                                
+      ______________________________                                            
+                 Date                                                           
+                                                                                
+                                                                                
+      ______________________________                                            
+                Governor                                                        
+  --- ------------------------------------------------------------------------- --------------------------------

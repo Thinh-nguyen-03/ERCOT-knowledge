@@ -46,3 +46,8 @@ The owner wants broad coverage first and depth later. For each topic write a sol
 tables are legible (the normal .txt files garble table numbers). You may quote from them using the same source id
 (`imm-som-2025`); add "(OCR)" to the locator and include the page marker, e.g. "page 29 (OCR), Table 1".
 Copy numbers exactly as they appear there.
+
+## Clean copies of the bills
+The bill PDFs put line numbers inside sentences. `sources/text/<bill-id>.alt.txt` (sb6-89r, hb1500-88r, sb3-87r,
+hb4492-87r, sb2627-88r) is the same enrolled bill from the Legislature's HTML version, without line numbers.
+Quote from the .alt.txt file using the same source id.

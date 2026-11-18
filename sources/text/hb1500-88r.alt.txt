@@ -1,0 +1,1357 @@
+  --- --------------- --
+                      
+                      
+      H.B. No. 1500   
+  --- --------------- --
+
+  --- -------------------------------------------------------------------------------- --------------------------------
+                                                                                       
+                                                                                       
+                                                                                       
+      AN ACT                                                                           
+      relating to the continuation and functions of the Public Utility                 
+      Commission of Texas and the Office of Public Utility Counsel, and                
+      the functions of the independent organization certified for the                  
+      ERCOT power region; increasing an administrative penalty.                        
+             BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF TEXAS:                   
+             SECTION 1.  Section 12.005, Utilities Code, is amended to                 
+      read as follows:                                                                 
+             Sec. 12.005.  APPLICATION OF SUNSET ACT. The Public Utility               
+      Commission of Texas is subject to Chapter 325, Government Code                   
+      (Texas Sunset Act). Unless continued in existence as provided by                 
+      that chapter or by Chapter 39, the commission is abolished [~~and this~~         
+      ~~title expires~~] September 1, 2029 [~~2023~~].                                 
+             SECTION 2.  Section 12.059, Utilities Code, is amended to                 
+      read as follows:                                                                 
+             Sec. 12.059.  TRAINING PROGRAM FOR COMMISSIONERS. (a) A                   
+      person who is appointed to and qualifies for office as a member of               
+      the commission may not vote, deliberate, or be counted as a member               
+      in attendance at a meeting of the commission until the person                    
+      completes a [~~Before a commissioner may assume the commissioner's~~             
+      ~~duties and before the commissioner may be confirmed by the senate,~~           
+      ~~the commissioner must complete at least one course of the~~] training          
+      program that complies with [~~established under~~] this section.                 
+             (b)  The [~~A~~] training program must [~~established under this~~        
+      ~~section shall~~] provide the person with information [~~to the~~               
+      ~~commissioner~~] regarding:                                                     
+                   (1)  the law governing [~~enabling legislation that~~               
+      ~~created the~~] commission operations [~~and its policymaking body to~~         
+      ~~which the commissioner is appointed to serve~~];                               
+                   (2)  the programs, functions, rules, and budget of                  
+      [~~operated by~~] the commission;                                                
+                   (3)  the scope [~~role and functions~~] of and limitations          
+      on the rulemaking authority of the commission;                                   
+                   (4)  the results [~~rules~~] of the most recent formal              
+      audit of the commission [~~with an emphasis on the rules that relate~~           
+      ~~to disciplinary and investigatory authority~~];                                
+                   (5)  the requirements of:                                           
+                         (A)  laws relating to open meetings, public                   
+      information, administrative procedure, and disclosing conflicts of               
+      interest; and                                                                    
+                         (B)  other laws applicable to members of a state              
+      policy-making body in performing their duties [~~current budget for~~            
+      ~~the commission~~]; and                                                         
+                   (6)  [~~the results of the most recent formal audit of the~~        
+      ~~commission;~~                                                                  
+                   [~~(7)  the requirements of Chapters 551, 552, and 2001,~~          
+      ~~Government Code;~~                                                             
+                   [~~(8)  the requirements of the conflict of interest laws~~         
+      ~~and other laws relating to public officials; and~~                             
+                   [~~(9)~~]  any applicable ethics policies adopted by the            
+      commission or the Texas Ethics Commission.                                       
+             (c)  A person [~~who is~~] appointed to the commission is                 
+      entitled to reimbursement, as provided by the General                            
+      Appropriations Act, for the travel expenses incurred in attending                
+      the training program regardless of whether the attendance at the                 
+      program occurs before or after the person qualifies for office.                  
+             (d)  The executive director of the commission shall create a              
+      training manual that includes the information required by                        
+      Subsection (b). The executive director shall distribute a copy of                
+      the training manual annually to each member of the commission. Each              
+      member of the commission shall sign and submit to the executive                  
+      director a statement acknowledging that the member received and has              
+      reviewed the training manual.                                                    
+             SECTION 3.  Section 12.202, Utilities Code, is amended by                 
+      adding Subsections (a-1) and (a-2) to read as follows:                           
+             (a-1)  The policies adopted under this section must require               
+      the agenda for each regular commission meeting to include public                 
+      testimony as a meeting agenda item and allow members of the public               
+      to comment on:                                                                   
+                   (1)  each meeting agenda item unrelated to a contested              
+      case; and                                                                        
+                   (2)  other matters under the commission's jurisdiction.             
+             (a-2)  The commission may prohibit public comment at a                    
+      regular commission meeting on a meeting agenda item related to a                 
+      contested case.                                                                  
+             SECTION 4.  Section 12.203, Utilities Code, is amended to                 
+      read as follows:                                                                 
+             Sec. 12.203.  BIENNIAL REPORT. (a) Not later than January                 
+      15 of each odd-numbered year, the commission shall prepare a                     
+      written report that includes:                                                    
+                   (1)  suggestions regarding modification and                         
+      improvement of the commission's statutory authority and for the                  
+      improvement of utility regulation in general, including the                      
+      regulation of water and sewer service under Chapter 13, Water Code,              
+      that the commission considers appropriate for protecting and                     
+      furthering the interest of the public;                                           
+                   (2)  a report on the scope of competition in the                    
+      electric and telecommunications markets that includes:                           
+                         (A)  an assessment of:                                        
+                               (i)  the effect of competition and industry             
+      restructuring on customers in both competitive and noncompetitive                
+      electric markets; and                                                            
+                               (ii)  the effect of competition on the rates            
+      and availability of electric services for residential and small                  
+      commercial customers;                                                            
+                         (B)  an assessment of the effect of competition               
+      on:                                                                              
+                               (i)  customers in both competitive and                  
+      noncompetitive telecommunications markets, with a specific focus                 
+      on rural markets; and                                                            
+                               (ii)  the rates and availability of                     
+      telecommunications services for residential and business                         
+      customers, including any effects on universal service; and                       
+                         (C)  a summary of commission action over the                  
+      preceding two years that reflects changes in the scope of                        
+      competition in regulated electric and telecommunications markets;                
+      and                                                                              
+                   (3)  recommendations for legislation that the                       
+      commission determines appropriate to promote the public interest in              
+      the context of partially competitive electric and                                
+      telecommunications markets.                                                      
+             (b)  A telecommunications utility, as defined by Section                  
+      51.002, shall cooperate with the commission as necessary for the                 
+      commission to satisfy the requirements of this section.                          
+             SECTION 5.  Subchapter E, Chapter 12, Utilities Code, is                  
+      amended by adding Section 12.205 to read as follows:                             
+             Sec. 12.205.  STRATEGIC COMMUNICATIONS PLAN. The commission               
+      shall:                                                                           
+                   (1)  develop an agency-wide plan for:                               
+                         (A)  improving the effectiveness of commission                
+      communications with the public, market participants, and other                   
+      relevant audiences; and                                                          
+                         (B)  responding to changing communications needs;             
+                   (2)  include in the plan required by Subdivision (1)                
+      goals, objectives, and metrics to assess commission efforts; and                 
+                   (3)  update the plan required by Subdivision (1) at                 
+      least once every two years.                                                      
+             SECTION 6.  Section 13.002, Utilities Code, is amended to                 
+      read as follows:                                                                 
+             Sec. 13.002.  APPLICATION OF SUNSET ACT. The Office of                    
+      Public Utility Counsel is subject to Chapter 325, Government Code                
+      (Texas Sunset Act). Unless continued in existence as provided by                 
+      that chapter, the office is abolished [~~and this chapter expires~~]             
+      September 1, 2029 [~~2023~~].                                                    
+             SECTION 7.  Sections 15.023(b-1) and (f), Utilities Code,                 
+      are amended to read as follows:                                                  
+             (b-1)  Notwithstanding Subsection (b), the penalty for a                  
+      violation of a voluntary mitigation plan entered into under                      
+      Subsection (f) or of a provision of Section 35.0021 or 38.075 may be             
+      in an amount not to exceed $1,000,000 for a violation.  Each day a               
+      violation continues or occurs is a separate violation for purposes               
+      of imposing a penalty.                                                           
+             (f)  The commission and a person may develop and enter into a             
+      voluntary mitigation plan relating to a violation of Section 39.157              
+      or rules adopted by the commission under that section. The                       
+      commission may approve the plan only if the commission determines                
+      that the plan is in the public interest.  The voluntary mitigation               
+      plan must be reviewed at least once every two years and not later                
+      than the 90th day after the implementation date of a wholesale                   
+      market design change. As part of the review, the commission must                 
+      determine whether the voluntary mitigation plan remains in the                   
+      public interest. If the commission determines that the voluntary                 
+      mitigation plan is no longer in the public interest, the commission              
+      and the person must agree to a modification of the plan or the                   
+      commission must terminate the plan.  Adherence [~~If the commission~~            
+      ~~and a person enter into a voluntary mitigation plan, adherence~~] to           
+      the plan must be considered in determining whether a violation                   
+      occurred and, if so, the penalty to be assessed [~~constitutes an~~              
+      ~~absolute defense against an alleged violation with respect to~~                
+      ~~activities covered by the plan~~].                                             
+             SECTION 8.  Subchapter A, Chapter 35, Utilities Code, is                  
+      amended by adding Section 35.0022 to read as follows:                            
+             Sec. 35.0022.  SERVICE INTERRUPTION NOTIFICATIONS. (a)                    
+      This section applies only to a provider of electric generation                   
+      service described by Section 35.0021(a).                                         
+             (b)  The commission by rule shall require a provider of                   
+      electric generation service to provide to the independent                        
+      organization certified under Section 39.151 for the ERCOT power                  
+      region the reason for each unplanned service interruption. Not                   
+      later than the third business day after the service is restored, the             
+      independent organization shall include the reason for each                       
+      unplanned service interruption in a publicly available report                    
+      published on the independent organization's Internet website.                    
+             SECTION 9.  Section 35.004, Utilities Code, is amended by                 
+      amending Subsection (d) and adding Subsections (d-1), (d-2), and                 
+      (d-3) to read as follows:                                                        
+             (d)  The commission shall price wholesale transmission                    
+      services within ERCOT based on the postage stamp method of pricing               
+      under which a transmission-owning utility's rate is based on the                 
+      ERCOT utilities' combined annual costs of transmission, other than               
+      costs described by Subsections (d-2) and (d-3), divided by the                   
+      total demand placed on the combined transmission systems of all                  
+      such transmission-owning utilities within a power region. An                     
+      electric utility subject to the freeze period imposed by Section                 
+      39.052 may treat transmission costs in excess of transmission                    
+      revenues during the freeze period as an expense for purposes of                  
+      determining annual costs in the annual report filed under Section                
+      39.257. Notwithstanding Section 36.201, the commission may approve               
+      wholesale rates that may be periodically adjusted to ensure timely               
+      recovery of transmission investment. Notwithstanding Section                     
+      36.054(a), if the commission determines that conditions warrant the              
+      action, the commission may authorize the inclusion of construction               
+      work in progress in the rate base for transmission investment                    
+      required by the commission under Section 39.203(e).                              
+             (d-1)  The commission by rule shall establish a reasonable                
+      allowance for transmission-owning utility costs incurred to                      
+      interconnect generation resources directly with the ERCOT                        
+      transmission system at transmission voltage. The allowance must                  
+      take into account:                                                               
+                   (1)  the potential to reduce the costs to consumers of              
+      generation interconnection;                                                      
+                   (2)  historical generation interconnection costs; and               
+                   (3)  any other factor that the commission considers                 
+      reasonable to accomplish the goal of this subsection.                            
+             (d-2)  Costs in excess of the transmission-owning utility                 
+      allowance provided by Subsection (d-1) incurred to interconnect                  
+      generation resources with the ERCOT transmission system must be                  
+      directly assigned to and collected from the generation resource                  
+      interconnecting through the facilities.                                          
+             (d-3)  Not later than September 1 of every fifth year, the                
+      commission shall review and may adjust the allowance provided by                 
+      Subsection (d-1) to account for inflation or supply chain issues.                
+             SECTION 10.  Section 36.053(d), Utilities Code, is amended                
+      to read as follows:                                                              
+             (d)  If the commission issues a certificate of convenience                
+      and necessity or if the commission, acting under the authority                   
+      formerly provided by Section 39.203(e), ordered [~~orders~~] an                  
+      electric utility or a transmission and distribution utility to                   
+      construct or enlarge transmission or transmission-related                        
+      facilities to facilitate meeting the goal for generating capacity                
+      from renewable energy technologies under former Section 39.904(a),               
+      the commission shall find that the facilities are used and useful to             
+      the utility in providing service for purposes of this section and                
+      are prudent and includable in the rate base, regardless of the                   
+      extent of the utility's actual use of the facilities.                            
+             SECTION 11.  Section 37.0541, Utilities Code, is amended to               
+      read as follows:                                                                 
+             Sec. 37.0541.  CONSOLIDATION OF CERTAIN PROCEEDINGS. The                  
+      commission shall consolidate the proceeding on an application to                 
+      obtain or amend a certificate of convenience and necessity for the               
+      construction of a transmission line with the proceeding on another               
+      application to obtain or amend a certificate of convenience and                  
+      necessity for the construction of a transmission line if it is                   
+      apparent from the applications or a motion to intervene in either                
+      proceeding that the transmission lines that are the subject of the               
+      separate proceedings share a common point of interconnection.                    
+      [~~This section does not apply to a proceeding on an application for a~~         
+      ~~certificate of convenience and necessity for a transmission line to~~          
+      ~~serve a competitive renewable energy zone as part of a plan~~                  
+      ~~developed by the commission under Section 39.904(g)(2).~~]                     
+             SECTION 12.  Sections 37.056(c) and (d), Utilities Code, are              
+      amended to read as follows:                                                      
+             (c)  The commission shall grant each certificate on a                     
+      nondiscriminatory basis after considering:                                       
+                   (1)  the adequacy of existing service;                              
+                   (2)  the need for additional service;                               
+                   (3)  the effect of granting the certificate on the                  
+      recipient of the certificate and any electric utility serving the                
+      proximate area; and                                                              
+                   (4)  other factors, such as:                                        
+                         (A)  community values;                                        
+                         (B)  recreational and park areas;                             
+                         (C)  historical and aesthetic values;                         
+                         (D)  environmental integrity; and                             
+                         (E)  the probable improvement of service or                   
+      lowering of cost to consumers in the area if the certificate is                  
+      granted, including any potential economic or reliability benefits                
+      associated with dual fuel and fuel storage capabilities in areas                 
+      outside the ERCOT power region[~~; and~~                                         
+                         [~~(F)  to the extent applicable, the effect of~~             
+      ~~granting the certificate on the ability of this state to meet the~~            
+      ~~goal established by Section 39.904(a) of this title~~].                        
+             (d)  The commission by rule shall establish criteria, in                  
+      addition to the criteria described by Subsection (c), for granting               
+      a certificate for a transmission project that serves the ERCOT                   
+      power region and[~~,~~] that is not necessary to meet state or federal           
+      reliability standards[~~, and that is not included in a plan~~                   
+      ~~developed under Section 39.904(g)~~]. The criteria must include a              
+      comparison of the estimated cost of the transmission project for                 
+      consumers and the estimated congestion cost savings for consumers                
+      that may result from the transmission project, considering both                  
+      current and future expected congestion levels and the transmission               
+      project's ability to reduce those congestion levels. The                         
+      commission shall include with its decision on an application for a               
+      certificate to which this subsection applies findings on the                     
+      criteria.                                                                        
+             SECTION 13.  Subchapter D, Chapter 38, Utilities Code, is                 
+      amended by adding Section 38.078 to read as follows:                             
+             Sec. 38.078.  CIRCUIT SEGMENTATION STUDY AND COST RECOVERY.               
+      (a) Not later than September 15, 2023, the commission shall direct               
+      each transmission and distribution utility to perform a circuit                  
+      segmentation study.                                                              
+             (b)  A circuit segmentation study must:                                   
+                   (1)  use an engineering analysis to examine whether and             
+      how the transmission and distribution utility's transmission and                 
+      distribution systems can be segmented and sectionalized to manage                
+      and rotate outages more evenly across all customers and circuits,                
+      while maintaining the protections offered to critical facilities;                
+                   (2)  include an engineering analysis of the feasibility             
+      of using sectionalization, automated reclosers, and other                        
+      technology to break up the circuits that host significant numbers                
+      of critical facilities into smaller segments for outage management               
+      purposes to enable more granular and flexible outage management;                 
+                   (3)  identify feeders with critical facilities that, if             
+      equipped with facility-specific backup power systems and                         
+      segmentation, can enhance the utility's outage management                        
+      flexibility; and                                                                 
+                   (4)  include an estimate of the time, capital cost, and             
+      expected improvements to load-shed management associated with the                
+      circuit segmentation study.                                                      
+             (c)  Each transmission and distribution utility shall submit              
+      a report of the conclusions of the utility's study to the commission             
+      not later than September 1, 2024.                                                
+             (d)  The commission shall review each circuit segmentation                
+      study not later than March 15, 2025.                                             
+             SECTION 14.  Section 39.002, Utilities Code, as amended by                
+      Chapters 908 (H.B. 4492) and 950 (S.B. 1580), Acts of the 87th                   
+      Legislature, Regular Session, 2021, is reenacted and amended to                  
+      read as follows:                                                                 
+             Sec. 39.002.  APPLICABILITY. This chapter, other than                     
+      Sections 39.151, 39.1516, 39.155, 39.157(e), 39.159, 39.160,                     
+      39.203, [~~39.904,~~] 39.9051, 39.9052, and 39.914(e), and Subchapters           
+      M and N, does not apply to a municipally owned utility or an                     
+      electric cooperative. Sections 39.157(e) and[~~,~~] 39.203[~~, and~~             
+      ~~39.904, however,~~] apply only to a municipally owned utility or an            
+      electric cooperative that is offering customer choice. If there is               
+      a conflict between the specific provisions of this chapter and any               
+      other provisions of this title, except for Chapters 40 and 41, the               
+      provisions of this chapter control.                                              
+             SECTION 15.  Section 39.151, Utilities Code, is amended by                
+      amending Subsections (d), (g-1), and (g-6) and adding Subsection                 
+      (g-7) to read as follows:                                                        
+             (d)  The commission shall adopt and enforce rules relating to             
+      the reliability of the regional electrical network and accounting                
+      for the production and delivery of electricity among generators and              
+      all other market participants, or may delegate those                             
+      responsibilities to an independent organization [~~responsibilities~~            
+      ~~for adopting or enforcing such rules. Rules adopted by an~~                    
+      ~~independent organization and enforcement actions taken by the~~                
+      ~~organization under delegated authority from the commission are~~               
+      ~~subject to commission oversight and review and may not take effect~~           
+      ~~before receiving commission approval~~]. An independent organization           
+      certified by the commission is directly responsible and accountable              
+      to the commission. The commission has complete authority to                      
+      oversee and investigate the independent organization's finances,                 
+      budget, and operations as necessary to ensure the organization's                 
+      accountability and to ensure that the organization adequately                    
+      performs the organization's functions and duties. The independent                
+      organization shall fully cooperate with the commission in the                    
+      commission's oversight and investigatory functions. The                          
+      commission may take appropriate action against an independent                    
+      organization that does not adequately perform the organization's                 
+      functions or duties or does not comply with this section, including              
+      decertifying the organization or assessing an administrative                     
+      penalty against the organization. The commission by rule shall                   
+      adopt procedures governing decertification of an independent                     
+      organization, selecting and certifying a successor organization,                 
+      and transferring assets to the successor organization to ensure                  
+      continuity of operations in the region. The commission may not                   
+      implement, by order or by rule, a requirement that is contrary to an             
+      applicable federal law or rule.                                                  
+             (g-1)  The [~~independent organization's~~] bylaws of an                  
+      independent organization certified for the ERCOT power region [~~or~~            
+      ~~protocols~~] must be approved by [~~the commission~~] and [~~must~~] reflect   
+      the input of the commission. The bylaws must require that every                  
+      member of the governing body be a resident of this state and must                
+      prohibit a legislator from serving as a member. The governing body               
+      must be composed of:                                                             
+                   (1)  two members [~~the chairman~~] of the commission as            
+      [~~an~~] ex officio nonvoting members:                                           
+                         (A)  one of whom must be the presiding officer of             
+      the commission; and                                                              
+                         (B)  one of whom must be designated by the                    
+      presiding officer of the commission to serve a one-year term on the              
+      governing body [~~member~~];                                                     
+                   (2)  the counsellor as an ex officio voting member                  
+      representing residential and small commercial consumer interests;                
+                   (3)  the chief executive officer of the independent                 
+      organization as an ex officio nonvoting member; and                              
+                   (4)  eight members selected by the selection committee              
+      under Section 39.1513 with executive-level experience in any of the              
+      following professions:                                                           
+                         (A)  finance;                                                 
+                         (B)  business;                                                
+                         (C)  engineering, including electrical                        
+      engineering;                                                                     
+                         (D)  trading;                                                 
+                         (E)  risk management;                                         
+                         (F)  law; or                                                  
+                         (G)  electric market design.                                  
+             (g-6)  In this subsection, a reference to a protocol includes             
+      a rule. Protocols adopted by an independent organization and                     
+      enforcement actions taken by the organization under delegated                    
+      authority from the commission are subject to commission oversight                
+      and review and may not take effect before receiving commission                   
+      approval. To maintain certification as an independent organization               
+      under this section, the organization's governing body must                       
+      establish and implement a formal process for adopting new protocols              
+      or revisions to existing protocols. The process must require that                
+      new or revised protocols may not take effect until the commission                
+      approves a market impact statement describing the new or revised                 
+      protocols. The commission may approve, reject, or remand with                    
+      suggested modifications to the independent organization's                        
+      governing body protocols adopted by the organization.                            
+             (g-7)  The presiding officer of the commission shall                      
+      designate commissioners to serve terms on the independent                        
+      organization's governing body under Subsection (g-1)(1)(B) in the                
+      order in which the commissioners were first appointed to the                     
+      commission. A commissioner may not serve an additional term until                
+      each commissioner has served a term.                                             
+             SECTION 16.  Section 39.1511, Utilities Code, is amended by               
+      amending Subsection (a) and adding Subsection (a-1) to read as                   
+      follows:                                                                         
+             (a)  Meetings of the governing body of an independent                     
+      organization certified under Section 39.151 and meetings of a                    
+      subcommittee that includes a member of the governing body must be                
+      open to the public. The bylaws of the independent organization and               
+      the rules of the commission may provide for the governing body or                
+      subcommittee to enter into executive session closed to the public                
+      only to address risk management or a matter that the independent                 
+      organization would be authorized to consider in a closed meeting if              
+      the independent organization were governed under Chapter 551,                    
+      Government Code [~~sensitive matters such as confidential personnel~~            
+      ~~information, contracts, lawsuits, competitively sensitive~~                    
+      ~~information, or other information related to the security of the~~             
+      ~~regional electrical network~~].                                                
+             (a-1)  An independent organization's governing body or a                  
+      subcommittee may adopt a policy allowing the governing body or                   
+      subcommittee to enter into an executive session closed to the                    
+      public and commissioners, including the commissioners serving as ex              
+      officio nonvoting members, only to address a contested case, as                  
+      defined by Section 2001.003, Government Code, or a personnel matter              
+      that is unrelated to members of the governing body.                              
+             SECTION 17.  Subchapter D, Chapter 39, Utilities Code, is                 
+      amended by adding Section 39.1514 to read as follows:                            
+             Sec. 39.1514.  COMMISSION DIRECTIVES TO INDEPENDENT                       
+      ORGANIZATION. (a) The commission may not use a verbal directive                  
+      to direct an independent organization certified under Section                    
+      39.151 to take an official action. The commission may direct the                 
+      organization to take an official action only through:                            
+                   (1)  a contested case;                                              
+                   (2)  rulemaking; or                                                 
+                   (3)  a memorandum or written order adopted by a                     
+      majority vote.                                                                   
+             (a-1)  The commission must use a contested case or rulemaking             
+      process to direct an independent organization certified under                    
+      Section 39.151 to take an official action that will create a new                 
+      cost or fee, increase an existing cost or fee, or impose significant             
+      operational obligations on an entity.                                            
+             (b)  The commission by rule shall:                                        
+                   (1)  specify the types of directives the commission may             
+      issue through a contested case, rulemaking, memorandum, or written               
+      order, in accordance with Subsection (a-1);                                      
+                   (2)  require that proposed commission directives be                 
+      included as an item on a commission meeting agenda and require the               
+      commission to allow members of the public an opportunity to comment              
+      on the agenda item; and                                                          
+                   (3)  establish a reasonable timeline for the release                
+      before a commission meeting of discussion materials relevant to                  
+      any proposed commission directives included as agenda items for                  
+      that meeting.                                                                    
+             (c)  Notwithstanding another provision of this section, the               
+      commission may use a verbal directive to direct an independent                   
+      organization to take an official action in an urgent or emergency                
+      situation that poses an imminent threat to public health, public                 
+      safety, or the reliability of the power grid.  If the commission                 
+      uses a verbal directive, the commission shall provide written                    
+      documentation of the directive to the independent organization not               
+      later than 72 hours after the urgent or emergency situation ends.                
+      The commission by rule shall establish criteria for determining                  
+      whether a situation is urgent or an emergency under this subsection              
+      and establish a process by which the commission will issue                       
+      directives to the independent organization under this subsection.                
+             SECTION 18.  Section 39.1515, Utilities Code, is amended by               
+      amending Subsections (a) and (f) and adding Subsection (i) to read               
+      as follows:                                                                      
+             (a)  An independent organization certified under Section                  
+      39.151 shall contract with an entity selected by the commission to               
+      act as the commission's wholesale electric market monitor to detect              
+      and prevent market manipulation strategies, [~~and~~] recommend                  
+      measures to enhance the efficiency of the wholesale market, and                  
+      provide independent analysis of any material changes proposed to                 
+      the wholesale market. The commission may not restrict the market                 
+      monitor from appearing or speaking before or providing analysis to               
+      the legislature. The independent organization may not                            
+      substantially modify the market monitor's contract unless the                    
+      modification is approved by a majority of the commissioners.                     
+             (f)  The market monitor immediately shall report in writing               
+      directly to the commission and commission staff all [~~any~~] potential          
+      market manipulations and all [~~any~~] discovered or potential                   
+      violations of commission rules or rules of the independent                       
+      organization.                                                                    
+             (i)  Not later than December 1 of each year, the commission               
+      shall submit a report to the legislature that describes for the                  
+      12-month period preceding the report's submission:                               
+                   (1)  the number of instances in which the market                    
+      monitor reported potential market manipulation to the commission or              
+      commission staff;                                                                
+                   (2)  the statutes, commission rules, and rules of the               
+      independent organization alleged to have been violated by the                    
+      reported entities; and                                                           
+                   (3)  the number of instances reported under Subdivision             
+      (1) for which the commission instituted a formal investigation on                
+      its own motion or commission staff initiated an enforcement action.              
+             SECTION 19.  Section 39.155(d), Utilities Code, is amended                
+      to read as follows:                                                              
+             (d)  In a qualifying power region, the report [~~reports~~]               
+      required by Subsection (c) [~~Subsections (b) and (c)~~] shall be                
+      submitted by the independent organization or organizations having                
+      authority over the power region or discrete areas thereof.                       
+             SECTION 20.  Section 39.157(f), Utilities Code, is amended                
+      to read as follows:                                                              
+             (f)  Following review of the annual report [~~reports~~]                  
+      submitted to it under Section 39.155(c) [~~Sections 39.155(b) and~~              
+      ~~(c)~~], the commission shall determine whether specific transmission           
+      or distribution constraints or bottlenecks within this state give                
+      rise to market power in specific geographic markets in the state.                
+      The commission, on a finding that specific transmission or                       
+      distribution constraints or bottlenecks within this state give rise              
+      to market power, may order reasonable mitigation of that potential               
+      market power by ordering, under Section 39.203(e), one or more                   
+      electric utilities or transmission and distribution utilities to                 
+      construct additional transmission or distribution capacity, or                   
+      both, subject to the certification provisions of this title.                     
+             SECTION 21.  The heading to Section 39.159, Utilities Code,               
+      as added by Chapter 426 (S.B. 3), Acts of the 87th Legislature,                  
+      Regular Session, 2021, is amended to read as follows:                            
+             Sec. 39.159.  POWER REGION RELIABILITY AND DISPATCHABLE                   
+      GENERATION.                                                                      
+             SECTION 22.  Section 39.159, Utilities Code, as added by                  
+      Chapter 426 (S.B. 3), Acts of the 87th Legislature, Regular                      
+      Session, 2021, is amended by adding Subsections (d) and (e) to read              
+      as follows:                                                                      
+             (d)  The commission shall require the independent                         
+      organization certified under Section 39.151 for the ERCOT power                  
+      region to develop and implement an ancillary services program to                 
+      procure dispatchable reliability reserve services on a day-ahead                 
+      and real-time basis to account for market uncertainty.  Under the                
+      required program, the independent organization shall:                            
+                   (1)  determine the quantity of services necessary based             
+      on historical variations in generation availability for each season              
+      based on a targeted reliability standard or goal, including                      
+      intermittency of non-dispatchable generation facilities and forced               
+      outage rates, for dispatchable generation facilities;                            
+                   (2)  develop criteria for resource participation that               
+      require a resource to:                                                           
+                         (A)  be capable of running for at least four hours            
+      at the resource's high sustained limit;                                          
+                         (B)  be online and dispatchable not more than two             
+      hours after being called on for deployment; and                                  
+                         (C)  have the dispatchable flexibility to address             
+      inter-hour operational challenges; and                                           
+                   (3)  reduce the amount of reliability unit commitment               
+      by the amount of dispatchable reliability reserve services procured              
+      under this section.                                                              
+             (e)  Notwithstanding Subsection (d)(2)(A), the independent                
+      organization certified under Section 39.151 for the ERCOT power                  
+      region may require a resource to be capable of running for more than             
+      four hours as the organization determines is needed.                             
+             SECTION 23.  Subchapter D, Chapter 39, Utilities Code, is                 
+      amended by adding Sections 39.1591, 39.1592, 39.1593, 39.1594, and               
+      39.1595 to read as follows:                                                      
+             Sec. 39.1591.  REPORT ON DISPATCHABLE AND NON-DISPATCHABLE                
+      GENERATION FACILITIES. Not later than December 1 of each year, the               
+      commission shall file a report with the legislature that:                        
+                   (1)  includes:                                                      
+                         (A)  the estimated annual costs incurred by                   
+      load-serving entities under this subchapter associated with                      
+      backing up dispatchable and non-dispatchable electric generation                 
+      facilities to guarantee that a firm amount of electric energy will               
+      be available to the ERCOT power grid; and                                        
+                         (B)  as calculated by the independent system                  
+      operator, the cumulative annual costs that have been incurred in                 
+      the ERCOT market to facilitate the transmission of dispatchable and              
+      non-dispatchable electricity to load and to interconnect                         
+      transmission level loads, including a statement of the total                     
+      cumulative annual costs and of the cumulative annual costs incurred              
+      for each type of activity described by this paragraph; and                       
+                   (2)  documents the status of the implementation of this             
+      subchapter, including whether the rules and protocols adopted to                 
+      implement this subchapter have materially improved the                           
+      reliability, resilience, and transparency of the electricity                     
+      market.                                                                          
+             Sec. 39.1592.  GENERATION RELIABILITY REQUIREMENTS. (a)                   
+      This section applies only to an electric generation facility in the              
+      ERCOT power region for which a standard generator interconnection                
+      agreement is signed on or after January 1, 2027, that has been in                
+      operation for at least one year, and that is not a self-generator.               
+             (b)  Not later than December 1 of each year, an owner or                  
+      operator of an electric generation facility, other than a battery                
+      energy storage resource, shall demonstrate to the commission the                 
+      ability of the owner or operator's portfolio to operate or be                    
+      available to operate when called on for dispatch at or above the                 
+      seasonal average generation capability during the times of highest               
+      reliability risk, as determined by the commission, due to low                    
+      operation reserves, as determined by the commission. The owner or                
+      operator must be allowed to meet the performance requirements                    
+      described by this subsection by supplementing or contracting with                
+      on-site or off-site resources, including battery energy storage                  
+      resources. The commission shall determine the average generation                 
+      capability based on expected resource availability and                           
+      seasonal-rated capacity on a standalone basis.                                   
+             (c)  The commission shall require the independent                         
+      organization certified under Section 39.151 for the ERCOT power                  
+      region to:                                                                       
+                   (1)  enforce the requirements of Subsection (b) by                  
+      imposing financial penalties, as determined by the commission, for               
+      failing to comply with the performance requirements described by                 
+      that subsection; and                                                             
+                   (2)  provide financial incentives, as determined by the             
+      commission, for exceeding the performance requirements described                 
+      by that subsection.                                                              
+             (d)  The independent organization certified under Section                 
+      39.151 for the ERCOT power region may not impose penalties under                 
+      Subsection (c):                                                                  
+                   (1)  for resource unavailability due to planned                     
+      maintenance outages or transmission outages;                                     
+                   (2)  on resources that are already subject to                       
+      performance obligations during the highest reliability risk hours                
+      under the day-ahead market rules or other ancillary or reliability               
+      services established by the commission or the independent                        
+      organization; or                                                                 
+                   (3)  during hours outside a baseline established by the             
+      commission that includes morning and evening ramping periods.                    
+             Sec. 39.1593.  COST ALLOCATION OF RELIABILITY SERVICES. (a)               
+      The commission shall direct the independent organization certified               
+      under Section 39.151 for the ERCOT power region to evaluate with                 
+      input from a technical advisory committee established under the                  
+      bylaws of the independent organization that includes market                      
+      participants whether allocating the costs of ancillary and                       
+      reliability services, including those procured under Section                     
+      39.159, as added by Chapter 426 (S.B. 3), Acts of the 87th                       
+      Legislature, Regular Session, 2021, using a methodology described                
+      by Subsection (b) would result in a net savings to consumers in the              
+      ERCOT power region compared to allocating all costs of ancillary                 
+      and reliability services to load to ensure reliability.                          
+             (b)  The commission shall evaluate whether to allocate the                
+      cost of ancillary and reliability services:                                      
+                   (1)  on a semiannual basis among electric generation                
+      facilities and load-serving entities in proportion to their                      
+      contribution to unreliability during the times of highest                        
+      reliability risk due to low operating reserves by season, as                     
+      determined by the commission based on a number of hours adopted by               
+      the commission for that season; or                                               
+                   (2)  using another method identified by the commission.             
+             (c)  The evaluation must:                                                 
+                   (1)  use historical ancillary and reliability services              
+      data;                                                                            
+                   (2)  consider the causes for ancillary services                     
+      deployments; and                                                                 
+                   (3)  consider the design, procurement, and cost                     
+      allocation of ancillary services required by Section 35.004(h).                  
+             (d)  Not later than December 1, 2026, the commission shall                
+      submit a report on the evaluation to the legislature.                            
+             Sec. 39.1594.  RELIABILITY PROGRAM. (a)  Under Section                    
+      39.159(b), as added by Chapter 426 (S.B. 3), Acts of the 87th                    
+      Legislature, Regular Session, 2021, or other law, the commission                 
+      may not require retail customers or load-serving entities in the                 
+      ERCOT power region to purchase credits designed to support a                     
+      required reserve margin or other capacity or reliability                         
+      requirement unless the commission ensures that:                                  
+                   (1)  the net cost to the ERCOT market of the credits                
+      does not exceed $1 billion annually, less the cost of any interim or             
+      bridge solutions that are lawfully implemented, except that the                  
+      commission may adjust the limit:                                                 
+                         (A)  proportionally according to the highest net              
+      peak demand year-over-year with a base year of 2026; and                         
+                         (B)  for inflation with a base year of 2026;                  
+                   (2)  credits are available only for dispatchable                    
+      generation;                                                                      
+                   (3)  the independent organization certified under                   
+      Section 39.151 for the ERCOT power region is required to procure the             
+      credits centrally in a manner designed to prevent market                         
+      manipulation by affiliated generation and retail companies;                      
+                   (4)  a generator cannot receive credits that exceed the             
+      amount of generation bid into the forward market by that generator;              
+                   (5)  an electric generating unit can receive a credit               
+      only for being available to perform in real time during the tightest             
+      intervals of low supply and high demand on the grid, as defined by               
+      the commission on a seasonal basis;                                              
+                   (6)  a penalty structure is established, resulting in a             
+      net benefit to load, for generators that bid into the forward market             
+      but do not meet the full obligation;                                             
+                   (7)  any program reliability standard reasonably                    
+      balances the incremental reliability benefits to customers against               
+      the incremental costs of the program based on an evaluation by the               
+      wholesale electric market monitor;                                               
+                   (8)  a single ERCOT-wide clearing price is established              
+      for the program and does not differentiate payments or credit                    
+      values based on locational constraints;                                          
+                   (9)  any market changes implemented as a bridge                     
+      solution for the program are removed not later than the first                    
+      anniversary of the date the program was implemented;                             
+                   (10)  the independent organization certified under                  
+      Section 39.151 for the ERCOT power region begins implementing real               
+      time co-optimization of energy and ancillary services in the ERCOT               
+      wholesale market before the program is implemented;                              
+                   (11)  all elements of the program are initially                     
+      implemented on a single starting date;                                           
+                   (12)  the terms of the program and any associated                   
+      market rules do not assign costs, credit, or collateral for the                  
+      program in a manner that provides a cost advantage to load-serving               
+      entities who own, or whose affiliates own, generation facilities;                
+                   (13)  secured financial credit and collateral                       
+      requirements are adopted for the program to ensure that other                    
+      market participants do not bear the risk of nonperformance or                    
+      nonpayment; and                                                                  
+                   (14)  the wholesale electric market monitor has the                 
+      authority and necessary resources to investigate potential                       
+      instances of market manipulation by program participants,                        
+      including financial and physical actions, and recommend penalties                
+      to the commission.                                                               
+             (b)  This section does not require the commission to adopt a              
+      reliability program that requires an entity to purchase capacity                 
+      credits.                                                                         
+             (c)  The commission and the independent organization                      
+      certified under Section 39.151 for the ERCOT power region shall                  
+      consider comments and recommendations from a technical advisory                  
+      committee established under the bylaws of the independent                        
+      organization that includes market participants when adopting and                 
+      implementing a program described by Subsection (a), if any.                      
+             (d)  Before the commission adopts a program described by                  
+      Subsection (a), the commission shall require the independent                     
+      organization certified under Section 39.151 for the ERCOT power                  
+      region and the wholesale electric market monitor to complete an                  
+      updated assessment on the cost to and effects on the ERCOT market of             
+      the proposed reliability program and submit to the commission and                
+      the legislature a report on the costs and benefits of continuing the             
+      program.  The assessment must include:                                           
+                   (1)  an evaluation of the cost of new entry and the                 
+      effects of the proposed reliability program on consumer costs and                
+      the competitive retail market;                                                   
+                   (2)  a compilation of detailed information regarding                
+      cost offsets realized through a reduction in costs in the energy and             
+      ancillary services markets and use of reliability unit commitments;              
+                   (3)  a set of metrics to measure the effects of the                 
+      proposed reliability program on system reliability;                              
+                   (4)  an evaluation of the cost to retain existing                   
+      dispatchable resources in the ERCOT power region;                                
+                   (5)  an evaluation of the planned timeline for                      
+      implementation of real time co-optimization for energy and                       
+      ancillary services in the ERCOT power region; and                                
+                   (6)  anticipated market and reliability effects of new              
+      and updated ancillary service products.                                          
+             (e)  If the commission adopts a program described by                      
+      Subsection (a), the commission by rule shall prohibit a generator                
+      that receives credits through the program for a dispatchable                     
+      electric generating unit operated by the generator from                          
+      decommissioning or removing from service that unit while the                     
+      generator participates in the program unless the decommissioning or              
+      removal from service begins after September 1, 2028, or the                      
+      commission finds that the decommissioning or removal from service:               
+                   (1)  is required by or is a result of federal law; or               
+                   (2)  would alleviate significant financial hardship                 
+      for the generator.                                                               
+             (f)  If the commission adopts a program described by                      
+      Subsection (a), the wholesale electric market monitor described by               
+      Section 39.1515 biennially shall:                                                
+                   (1)  evaluate the incremental reliability benefits of               
+      the program for consumers compared to the costs to consumers of the              
+      program and the costs in the energy and ancillary services markets;              
+      and                                                                              
+                   (2)  report the results of each evaluation to the                   
+      legislature.                                                                     
+             Sec. 39.1595.  GRID RELIABILITY LEGISLATIVE OVERSIGHT                     
+      COMMITTEE.  (a)  In this section, "committee" means the Grid                     
+      Reliability Legislative Oversight Committee established under this               
+      section.                                                                         
+             (b)  The Grid Reliability Legislative Oversight Committee is              
+      created to oversee the commission's implementation of legislation                
+      related to the regulation of the electricity market in this state                
+      enacted by the 87th and 88th Legislatures.                                       
+             (c)  The committee is composed of eight members as follows:               
+                   (1)  three members of the senate, appointed by the                  
+      lieutenant governor;                                                             
+                   (2)  three members of the house of representatives,                 
+      appointed by the speaker of the house of representatives;                        
+                   (3)  the chair of the committee of the senate having                
+      primary jurisdiction over matters relating to the generation of                  
+      electricity; and                                                                 
+                   (4)  the chair of the committee of the house having                 
+      primary jurisdiction over matters relating to the generation of                  
+      electricity.                                                                     
+             (d)  An appointed member of the committee serves at the                   
+      pleasure of the appointing official.                                             
+             (e)  The committee members described by Subsections (c)(3)                
+      and (4) serve as presiding co-chairs.                                            
+             (f)  A member of the committee may not receive compensation               
+      for serving on the committee but is entitled to reimbursement for                
+      travel expenses incurred by the member while conducting the                      
+      business of the committee as provided by the General Appropriations              
+      Act.                                                                             
+             (g)  The committee shall meet at least twice each year at the             
+      call of either co-chair and shall meet at other times at the call of             
+      either co-chair, as that officer determines appropriate.                         
+             (h)  Chapter 551, Government Code, applies to the committee.              
+             SECTION 24.  (a) This section takes effect only if the Act                
+      of the 88th Legislature, Regular Session, 2023, relating to                      
+      nonsubstantive additions to and corrections in enacted codes                     
+      becomes law.                                                                     
+             (b)  Subchapter D, Chapter 39, Utilities Code, is amended by              
+      adding Sections 39.166, 39.167, and 39.168 to read as follows:                   
+             Sec. 39.166.  ELECTRIC INDUSTRY REPORT. (a) Not later than                
+      January 15 of each odd-numbered year, the commission, in                         
+      consultation with the independent organization certified under                   
+      Section 39.151 for the ERCOT power region, shall prepare and submit              
+      to the legislature an electric industry report.                                  
+             (b)  Each electric industry report submitted under this                   
+      section must:                                                                    
+                   (1)  identify existing and potential transmission and               
+      distribution constraints and system needs within the ERCOT power                 
+      region, alternatives for meeting system needs, and recommendations               
+      for meeting system needs;                                                        
+                   (2)  summarize key findings from:                                   
+                         (A)  the grid reliability assessment conducted                
+      under Section 39.165; and                                                        
+                         (B)  the report required by Section 39.9112;                  
+                   (3)  outline basic information regarding the electric               
+      grid and market in this state, including generation capacity,                    
+      customer demand, and transmission capacity currently installed on                
+      the grid and projected in the future; and                                        
+                   (4)  be presented in plain language that is readily                 
+      understandable by a person with limited knowledge of the electric                
+      industry.                                                                        
+             Sec. 39.167.  CONFLICTS OF INTEREST REPORT. The commission                
+      and the independent organization certified under Section 39.151 for              
+      the ERCOT power region annually shall review statutes, rules,                    
+      protocols, and bylaws that apply to conflicts of interest for                    
+      commissioners and for members of the governing body of the                       
+      independent organization and submit to the legislature a report on               
+      the effects the statutes, rules, protocols, and bylaws have on the               
+      ability of the commission and the independent organization to                    
+      fulfill their duties.                                                            
+             Sec. 39.168.  RETAIL SALES REPORT.  (a)  Each retail electric             
+      provider that offers electricity for sale shall report to the                    
+      commission:                                                                      
+                   (1)  its annual retail sales in this state;                         
+                   (2)  the annual retail sales of its affiliates by                   
+      number of customers, kilowatts per hour sold, and revenue from                   
+      kilowatts per hour sold by customer class; and                                   
+                   (3)  any other information the commission requires                  
+      relating to affiliations between retail electric providers.                      
+             (b)  The commission by rule shall prescribe the nature and                
+      detail of the reporting requirements. The commission may accept                  
+      information reported under other law to satisfy the requirements of              
+      this section. Information reported under this section is                         
+      confidential and not subject to disclosure if the information is                 
+      competitively sensitive information. The commission shall                        
+      administer the reporting requirements in a manner that ensures the               
+      confidentiality of competitively sensitive information.                          
+             SECTION 25.  (a) This section takes effect only if the Act of             
+      the 88th Legislature, Regular Session, 2023, relating to                         
+      nonsubstantive additions to and corrections in enacted codes does                
+      not become law.                                                                  
+             (b)  Subchapter D, Chapter 39, Utilities Code, is amended by              
+      adding Sections 39.166, 39.167, and 39.168 to read as follows:                   
+             Sec. 39.166.  ELECTRIC INDUSTRY REPORT. (a) Not later than                
+      January 15 of each odd-numbered year, the commission, in                         
+      consultation with the independent organization certified under                   
+      Section 39.151 for the ERCOT power region, shall prepare and submit              
+      to the legislature an electric industry report.                                  
+             (b)  Each electric industry report submitted under this                   
+      section must:                                                                    
+                   (1)  identify existing and potential transmission and               
+      distribution constraints and system needs within the ERCOT power                 
+      region, alternatives for meeting system needs, and recommendations               
+      for meeting system needs;                                                        
+                   (2)  summarize key findings from:                                   
+                         (A)  the grid reliability assessment conducted                
+      under Section 39.159, as added by Chapter 876 (S.B. 1281), Acts of               
+      the 87th Legislature, Regular Session, 2021; and                                 
+                         (B)  the report required by Section 39.9112;                  
+                   (3)  outline basic information regarding the electric               
+      grid and market in this state, including generation capacity,                    
+      customer demand, and transmission capacity currently installed on                
+      the grid and projected in the future; and                                        
+                   (4)  be presented in plain language that is readily                 
+      understandable by a person with limited knowledge of the electric                
+      industry.                                                                        
+             Sec. 39.167.  CONFLICTS OF INTEREST REPORT. The commission                
+      and the independent organization certified under Section 39.151 for              
+      the ERCOT power region annually shall review statutes, rules,                    
+      protocols, and bylaws that apply to conflicts of interest for                    
+      commissioners and for members of the governing body of the                       
+      independent organization and submit to the legislature a report on               
+      the effects the statutes, rules, protocols, and bylaws have on the               
+      ability of the commission and the independent organization to                    
+      fulfill their duties.                                                            
+             Sec. 39.168.  RETAIL SALES REPORT.  (a)  Each retail electric             
+      provider that offers electricity for sale shall report to the                    
+      commission:                                                                      
+                   (1)  its annual retail sales in this state;                         
+                   (2)  the annual retail sales of its affiliates by                   
+      number of customers, kilowatts per hour sold, and revenue from                   
+      kilowatts per hour sold by customer class; and                                   
+                   (3)  any other information the commission requires                  
+      relating to affiliations between retail electric providers.                      
+             (b)  The commission by rule shall prescribe the nature and                
+      detail of the reporting requirements. The commission may accept                  
+      information reported under other law to satisfy the requirements of              
+      this section. Information reported under this section is                         
+      confidential and not subject to disclosure if the information is                 
+      competitively sensitive information. The commission shall                        
+      administer the reporting requirements in a manner that ensures the               
+      confidentiality of competitively sensitive information.                          
+             SECTION 26.  Sections 39.203(e) and (i), Utilities Code, are              
+      amended to read as follows:                                                      
+             (e)  The commission may require an electric utility or a                  
+      transmission and distribution utility to construct or enlarge                    
+      facilities to ensure safe and reliable service for the state's                   
+      electric markets and to reduce transmission constraints within                   
+      ERCOT in a cost-effective manner where the constraints are such                  
+      that they are not being resolved through Chapter 37 or the ERCOT                 
+      transmission planning process. [~~The commission shall require an~~              
+      ~~electric utility or a transmission and distribution utility to~~               
+      ~~construct or enlarge transmission or transmission-related~~                    
+      ~~facilities for the purpose of meeting the goal for generating~~                
+      ~~capacity from renewable energy technologies under Section~~                    
+      ~~39.904(a).~~] In any proceeding brought under Chapter 37, an                   
+      electric utility or transmission and distribution utility ordered                
+      to construct or enlarge facilities under this subchapter need not                
+      prove that the construction ordered is necessary for the service,                
+      accommodation, convenience, or safety of the public and need not                 
+      address the factors listed in Sections 37.056(c)(1)-(3) and (4)(E).              
+      Notwithstanding any other law, including Section 37.057, in any                  
+      proceeding brought under Chapter 37 by an electric utility or a                  
+      transmission and distribution utility related to an application for              
+      a certificate of public convenience and necessity to construct or                
+      enlarge transmission or transmission-related facilities under this               
+      subsection, the commission shall issue a final order before the                  
+      181st day after the date the application is filed with the                       
+      commission. If the commission does not issue a final order before                
+      that date, the application is approved.                                          
+             (i)  The commission, in cooperation with transmission and                 
+      distribution utilities and the ERCOT independent system operator,                
+      shall study whether existing transmission and distribution                       
+      planning processes are sufficient to provide adequate                            
+      infrastructure for seawater desalination projects. If the                        
+      commission determines that statutory changes are needed to ensure                
+      that adequate infrastructure is developed for projects of that                   
+      kind, the commission shall include recommendations in the report                 
+      required by Section 12.203 [~~31.003~~].                                         
+             SECTION 27.  Section 39.206(q), Utilities Code, is amended                
+      to read as follows:                                                              
+             (q)  The commission shall, in conjunction with the Nuclear                
+      Regulatory Commission, investigate the development of a mechanism                
+      whereby the State of Texas could ensure that funds for                           
+      decommissioning will be obtained when necessary in the same manner               
+      as if the State of Texas were the licensee under federal law. [~~The~~           
+      ~~commission shall file legislative recommendations regarding any~~              
+      ~~changes in law that may be necessary to carry out the purposes of~~            
+      ~~this subsection prior to January 15, 2009, which may be combined~~             
+      ~~with the report required by Section 31.003.~~]                                 
+             SECTION 28.  Section 39.402(a), Utilities Code, is amended                
+      to read as follows:                                                              
+             (a)  Until the date on which an electric utility subject to               
+      this subchapter is authorized by the commission to implement                     
+      customer choice, the rates of the utility shall be regulated under               
+      traditional cost of service regulation and the utility is subject                
+      to all applicable regulatory authority prescribed by this subtitle               
+      and Subtitle A, including Chapters 14, 32, 33, 36, and 37. Until the             
+      date on which an electric utility subject to this subchapter                     
+      implements customer choice, the provisions of this chapter, other                
+      than this subchapter, Sections 39.1516[~~, 39.904,~~] and 39.905, and            
+      the provisions relating to the duty to obtain a permit from the                  
+      Texas Commission on Environmental Quality for an electric                        
+      generating facility and to reduce emissions from an electric                     
+      generating facility, shall not apply to that utility. That portion               
+      of any commission order entered before September 1, 2001, to comply              
+      with this subchapter shall be null and void.                                     
+             SECTION 29.  Section 39.408(g), Utilities Code, is amended                
+      to read as follows:                                                              
+             (g)  This section expires September 1, 2029 [~~2023~~].                   
+             SECTION 30.  Section 39.452(d), Utilities Code, is amended                
+      to read as follows:                                                              
+             (d)  Until the date on which an electric utility subject to               
+      this subchapter implements customer choice:                                      
+                   (1)  the provisions of this chapter do not apply to that            
+      electric utility, other than this subchapter, Sections 39.1516[~~,~~             
+      ~~39.904,~~] and 39.905, the provisions relating to the duty to obtain a         
+      permit from the Texas Commission on Environmental Quality for an                 
+      electric generating facility and to reduce emissions from an                     
+      electric generating facility, and the provisions of Subchapter G                 
+      that pertain to the recovery and securitization of hurricane                     
+      reconstruction costs authorized by Sections 39.458-39.463; and                   
+                   (2)  the electric utility is not subject to a rate                  
+      freeze and, subject to the limitation provided by Subsection (b),                
+      may file for rate changes under Chapter 36 and for approval of one               
+      or more of the rate rider mechanisms authorized by Sections 39.454               
+      and 39.455.                                                                      
+             SECTION 31.  Section 39.4525(g), Utilities Code, is amended               
+      to read as follows:                                                              
+             (g)  This section expires September 1, 2029 [~~2023~~].                   
+             SECTION 32.  Section 39.502(b), Utilities Code, is amended                
+      to read as follows:                                                              
+             (b)  Until the date on which an electric utility subject to               
+      this subchapter implements customer choice, the provisions of this               
+      chapter, other than this subchapter and Sections 39.1516[~~, 39.904,~~]          
+      and 39.905, do not apply to that utility.                                        
+             SECTION 33.  Section 39.504(g), Utilities Code, is amended                
+      to read as follows:                                                              
+             (g)  This section expires September 1, 2029 [~~2023~~].                   
+             SECTION 34.  Section 39.552(b), Utilities Code, is amended                
+      to read as follows:                                                              
+             (b)  Until the date on which an electric utility subject to               
+      this subchapter implements customer choice, the provisions of this               
+      chapter, other than this subchapter and Sections 39.1516[~~, 39.904,~~]          
+      and 39.905, do not apply to that utility.                                        
+             SECTION 35.  Section 39.9055, Utilities Code, is amended to               
+      read as follows:                                                                 
+             Sec. 39.9055.  EXAMINATION OF DEMAND RESPONSE POTENTIAL OF                
+      SEAWATER DESALINATION PROJECTS. The commission and the ERCOT                     
+      independent system operator shall study the potential for seawater               
+      desalination projects to participate in existing demand response                 
+      opportunities in the ERCOT market. To the extent feasible, the                   
+      study shall determine whether the operational characteristics of                 
+      seawater desalination projects enable projects of that kind to                   
+      participate in ERCOT-operated ancillary services markets or other                
+      competitively supplied demand response opportunities. The study                  
+      shall also determine the potential economic benefit to a seawater                
+      desalination project if the project is able to reduce its demand                 
+      during peak pricing periods. The commission shall include the                    
+      results of the study in the report required by Section 12.203                    
+      [~~31.003~~].                                                                    
+             SECTION 36.  Section 39.908, Utilities Code, is amended to                
+      read as follows:                                                                 
+             Sec. 39.908.  EFFECT OF SUNSET PROVISION. [~~(a)~~] If the                
+      commission is abolished under Section 12.005 or other law, the [~~and~~          
+      ~~the other provisions of this title expire as provided by Chapter~~             
+      ~~325, Government Code (Texas Sunset Act), this subchapter, including~~          
+      ~~the provisions of this title referred to in this subchapter,~~                 
+      ~~continues in full force and effect and does not expire.~~                      
+             [~~(b)  The~~] authorities, duties, and functions of the                  
+      commission under this chapter shall be performed and carried out by              
+      a successor agency to be designated by the legislature before                    
+      abolishment of the commission or, if the legislature does not                    
+      designate the successor, by the secretary of state.                              
+             SECTION 37.  Subchapter Z, Chapter 39, Utilities Code, is                 
+      amended by adding Sections 39.9111, 39.9112, and 39.9113 to read as              
+      follows:                                                                         
+             Sec. 39.9111.  RULES RELATED TO RENEWABLE POWER FACILITIES.               
+      The commission may adopt rules requiring renewable power facilities              
+      to have reactive power control capabilities or any other feasible                
+      technology designed to reduce the facilities' effects on system                  
+      reliability.                                                                     
+             Sec. 39.9112.  REPORT ON TRANSMISSION AND GENERATION                      
+      CAPACITY. The commission and the independent organization                        
+      certified under Section 39.151 for the ERCOT power region shall                  
+      study the need for increased transmission and generation capacity                
+      throughout this state and report to the legislature the results of               
+      the study and any recommendations for legislation. The report must               
+      be filed with the legislature not later than December 31 of each                 
+      even-numbered year.                                                              
+             Sec. 39.9113.  RENEWABLE ENERGY CREDITS. To facilitate                    
+      voluntary contractual obligations and verify claims regarding                    
+      environmental attributes of renewable energy production in this                  
+      state, the independent organization certified under Section 39.151               
+      for the ERCOT power region shall maintain an accreditation and                   
+      banking system to award and track voluntary renewable energy                     
+      credits generated by eligible facilities.                                        
+             SECTION 38.  Section 39.916(a), Utilities Code, is amended                
+      by amending Subdivision (1) and adding Subdivision (4) to read as                
+      follows:                                                                         
+                   (1)  "Distributed renewable generation" means electric              
+      generation with a capacity of not more than 2,000 kilowatts                      
+      provided by a renewable energy technology[~~, as defined by Section~~            
+      ~~39.904,~~] that is installed on a retail electric customer's side of           
+      the meter.                                                                       
+                   (4)  "Renewable energy technology" means any                        
+      technology that relies exclusively on an energy source that is                   
+      naturally regenerated over a short time and is derived from the sun              
+      directly or indirectly or from moving water or other natural                     
+      movements or mechanisms of the environment. The term includes a                  
+      technology that relies on energy derived from the sun directly, on               
+      wind, geothermal, hydroelectric, wave, or tidal energy, or on                    
+      biomass or biomass-based waste products, including landfill gas.                 
+      The term does not include a technology that relies on an energy                  
+      resource derived from a fossil fuel, a waste product from a fossil               
+      fuel, or a waste product from an inorganic source.                               
+             SECTION 39.  The heading to Section 39.918, Utilities Code,               
+      is amended to read as follows:                                                   
+             Sec. 39.918.  UTILITY FACILITIES FOR POWER RESTORATION AFTER              
+      SIGNIFICANT [~~WIDESPREAD~~] POWER OUTAGE.                                       
+             SECTION 40.  Section 39.918, Utilities Code, is amended by                
+      amending Subsections (a) and (b) and adding Subsection (a-1) to                  
+      read as follows:                                                                 
+             (a)  In this section, "significant [~~"widespread~~] power                
+      outage" means an event that [~~results in~~]:                                    
+                   (1)  results in a loss of electric power that:                      
+                         (A)  affects a significant number of distribution             
+      customers of a transmission and distribution utility[~~;~~] and                  
+                         [~~(B)~~]  has lasted or is expected to last for at           
+      least six [~~eight~~] hours;                                                     
+                         (B)  affects distribution customers of a                      
+      transmission and distribution utility in an area for which the                   
+      governor has issued a disaster or emergency declaration;                         
+                         (C)  affects distribution customers served by a               
+      radial transmission or distribution facility, creates a risk to                  
+      public health or safety, and has lasted or is expected to last for               
+      at least 12 hours; or                                                            
+                         (D)  creates [~~and~~                                         
+                   [~~(2)~~] a risk to public health or safety because it              
+      affects a critical infrastructure facility that serves the public                
+      such as a hospital, health care facility, law enforcement facility,              
+      fire station, or water or wastewater facility; or                                
+                   (2)  causes the independent system operator to order a              
+      transmission and distribution utility to shed load.                              
+             (a-1)  The Texas Division of Emergency Management, the                    
+      independent organization certified under Section 39.151 for the                  
+      ERCOT power region, or the executive director of the commission may              
+      determine that a power outage other than an outage described by                  
+      Subsection (a) is a significant power outage for the purposes of                 
+      this section.                                                                    
+             (b)  Notwithstanding any other provision of this subtitle, a              
+      transmission and distribution utility may:                                       
+                   (1)  lease and operate facilities that provide                      
+      temporary emergency electric energy to aid in restoring power to                 
+      the utility's distribution customers during a significant                        
+      [~~widespread~~] power outage in which:                                          
+                         (A)  the independent system operator has ordered              
+      the utility to shed load; or                                                     
+                         (B)  the utility's distribution facilities are                
+      not being fully served by the bulk power system under normal                     
+      operations; and                                                                  
+                   (2)  procure, own, and operate, or enter into a                     
+      cooperative agreement with other transmission and distribution                   
+      utilities to procure, own, and operate jointly, transmission and                 
+      distribution facilities that have a lead time of at least six months             
+      and would aid in restoring power to the utility's distribution                   
+      customers following a significant [~~widespread~~] power outage.  In             
+      this section, long lead time facilities may not be electric energy               
+      storage equipment or facilities under Chapter 35, Utilities Code.                
+             SECTION 41.  Section 40.001(a), Utilities Code, is amended                
+      to read as follows:                                                              
+             (a)  Notwithstanding any other provision of law, except                   
+      Sections 39.155, 39.157(e), and 39.203, [~~and 39.904,~~] this chapter           
+      governs the transition to and the establishment of a fully                       
+      competitive electric power industry for municipally owned                        
+      utilities. With respect to the regulation of municipally owned                   
+      utilities, this chapter controls over any other provision of this                
+      title, except for sections in which the term "municipally owned                  
+      utility" is specifically used.                                                   
+             SECTION 42.  Section 40.004, Utilities Code, is amended to                
+      read as follows:                                                                 
+             Sec. 40.004.  JURISDICTION OF COMMISSION. Except as                       
+      specifically otherwise provided in this chapter, the commission has              
+      jurisdiction over municipally owned utilities only for the                       
+      following purposes:                                                              
+                   (1)  to regulate wholesale transmission rates and                   
+      service, including terms of access, to the extent provided by                    
+      Subchapter A, Chapter 35;                                                        
+                   (2)  to regulate certification of retail service areas              
+      to the extent provided by Chapter 37;                                            
+                   (3)  to regulate rates on appeal under Subchapters D                
+      and E, Chapter 33, subject to Section 40.051(c);                                 
+                   (4)  to establish a code of conduct as provided by                  
+      Section 39.157(e) applicable to anticompetitive activities and to                
+      affiliate activities limited to structurally unbundled affiliates                
+      of municipally owned utilities, subject to Section 40.054;                       
+                   (5)  to establish terms and conditions for open access              
+      to transmission and distribution facilities for municipally owned                
+      utilities providing customer choice, as provided by Section 39.203;              
+                   (6)  to administer [~~the renewable energy credits~~                
+      ~~program under Section 39.904(b) and~~] the natural gas energy credits          
+      program under Section 39.9044(b);                                                
+                   (7)  to require reports of municipally owned utility                
+      operations only to the extent necessary to:                                      
+                         (A)  enable the commission to determine the                   
+      aggregate load and energy requirements of the state and the                      
+      resources available to serve that load; or                                       
+                         (B)  enable the commission to determine                       
+      information relating to market power as provided by Section 39.155;              
+      and                                                                              
+                   (8)  to evaluate and monitor the cybersecurity                      
+      preparedness of a municipally owned utility described by Section                 
+      39.1516(a)(3) or (4).                                                            
+             SECTION 43.  Section 41.001, Utilities Code, is amended to                
+      read as follows:                                                                 
+             Sec. 41.001.  APPLICABLE LAW. Notwithstanding any other                   
+      provision of law, except Sections 39.155, 39.157(e), and 39.203,                 
+      [~~and 39.904,~~] this chapter governs the transition to and the                 
+      establishment of a fully competitive electric power industry for                 
+      electric cooperatives. Regarding the regulation of electric                      
+      cooperatives, this chapter shall control over any other provision                
+      of this title, except for sections in which the term "electric                   
+      cooperative" is specifically used.                                               
+             SECTION 44.  Section 52.060, Utilities Code, is amended to                
+      read as follows:                                                                 
+             Sec. 52.060.  ADMINISTRATIVE FEE OR ASSESSMENT. The                       
+      commission may prescribe and collect a fee or assessment from local              
+      exchange companies necessary to recover the cost to the commission               
+      and to the office of activities carried out and services provided                
+      under this subchapter and Section 12.203 [~~52.006~~].                           
+             SECTION 45.  Section 13.4132, Water Code, is amended by                   
+      adding Subsection (b-1) to read as follows:                                      
+             (b-1)  Notwithstanding Section 5.505, the term of an                      
+      emergency order issued under this section by the utility commission              
+      or the commission may not exceed 360 days. The emergency order may               
+      be renewed:                                                                      
+                   (1)  once for a period not to exceed 360 days; or                   
+                   (2)  if the utility is undergoing a sale, transfer,                 
+      merger, consolidation, or acquisition required to be reported to                 
+      the utility commission under Section 13.301, for a reasonable time               
+      until the sale, transfer, merger, consolidation, or acquisition is               
+      complete.                                                                        
+             SECTION 46.  (a) The following provisions are repealed:                   
+                   (1)  Section 304.201, Business & Commerce Code;                     
+                   (2)  Section 31.003, Utilities Code;                                
+                   (3)  Section 39.155(b), Utilities Code;                             
+                   (4)  Section 39.904, Utilities Code;                                
+                   (5)  Section 39.916(g), Utilities Code;                             
+                   (6)  Section 39.918(k), Utilities Code; and                         
+                   (7)  Section 52.006, Utilities Code.                                
+             (b)  Section 34, Chapter 426 (S.B. 3), Acts of the 87th                   
+      Legislature, Regular Session, 2021, is repealed.                                 
+             SECTION 47.  The Public Utility Commission of Texas is not                
+      required to conduct the first review of an allowance under Section               
+      35.004(d-3), Utilities Code, as added by this Act, until the fifth               
+      year after the adoption of the rules required by Section                         
+      35.004(d-1), Utilities Code, as added by this Act.                               
+             SECTION 48.  The Public Utility Commission of Texas shall                 
+      adopt rules as necessary to implement the changes in law made by                 
+      this Act to Section 35.004, Utilities Code, not later than the 180th             
+      day after the effective date of this Act.                                        
+             SECTION 49.  The changes in law made by this Act to Section               
+      35.004, Utilities Code, apply only to an electric generation                     
+      facility that executes a standard generator interconnection                      
+      agreement with a transmission-owning utility after December 31,                  
+      2025.                                                                            
+             SECTION 50.  (a)  The presiding officer of the Public Utility             
+      Commission of Texas shall designate a commissioner to serve a term               
+      on the governing body of the independent organization certified                  
+      under Section 39.151, Utilities Code, for the ERCOT power region                 
+      that begins January 1, 2024, to comply with Section 39.151(g-1),                 
+      Utilities Code, as amended by this Act.                                          
+             (b)   Except as provided by Subsection (c) of this section,               
+      Section 12.059, Utilities Code, as amended by this Act, applies to a             
+      member of the Public Utility Commission of Texas appointed before,               
+      on, or after the effective date of this Act.                                     
+             (c)  A member of the Public Utility Commission of Texas who,              
+      before the effective date of this Act, completed the training                    
+      program required by Section 12.059, Utilities Code, as that law                  
+      existed before the effective date of this Act, is only required to               
+      complete additional training on the subjects added by this Act to                
+      the training program required by Section 12.059, Utilities Code.  A              
+      commission member described by this subsection may not vote,                     
+      deliberate, or be counted as a member in attendance at a meeting of              
+      the commission held on or after December 1, 2023, until the member               
+      completes the additional training.                                               
+             SECTION 51.  The Public Utility Commission of Texas shall                 
+      require the independent organization certified under Section                     
+      39.151, Utilities Code, for the ERCOT power region to implement the              
+      program required by Section 39.159(d), Utilities Code, as added by               
+      this Act, not later than December 1, 2024.                                       
+             SECTION 52.  (a) The Public Utility Commission of Texas                   
+      shall prepare the portions of the report required by Section                     
+      39.1591(2), Utilities Code, as added by this Act, only for reports               
+      due on or after December 1, 2024.                                                
+             (b)  The Public Utility Commission of Texas shall implement               
+      Section 39.1592, Utilities Code, as added by this Act, not later                 
+      than December 1, 2027.                                                           
+             (c)  Notwithstanding Subsection (b) of this section and the               
+      deadline provided by Section 39.1592(b), Utilities Code, as added                
+      by this Act, an owner or operator of an electric generation facility             
+      to which Section 39.1592(b), Utilities Code, as added by this Act,               
+      applies shall make the first demonstration required by that                      
+      subsection not later than January 1, 2028.                                       
+             (d)  The Public Utility Commission of Texas and the                       
+      independent organization certified under Section 39.151, Utilities               
+      Code, for the ERCOT power region shall:                                          
+                   (1)  conduct a study on whether implementing an                     
+      alternative to the single market clearing price for energy,                      
+      ancillary services, and other products would reduce costs to                     
+      residential and small commercial customers or their load-serving                 
+      entities, such as paying generators the price bid and not the                    
+      additional amounts up to the highest cost generator needed to clear              
+      the market;                                                                      
+                   (2)  analyze:                                                       
+                         (A)  whether cost savings can be achieved for                 
+      consumers, or load-serving entities serving residential and small                
+      commercial consumers, by:                                                        
+                               (i)  limiting generators that have received             
+      state or federal subsidies to receiving the price bid by that type               
+      of generator; or                                                                 
+                               (ii)  limiting a generator to receiving the             
+      price bid by that generator; and                                                 
+                         (B)  if a pay as bid mechanism is used or a single            
+      market clearing price mechanism is retained, whether                             
+      non-dispatchable and dispatchable generation facilities should bid               
+      into separate markets for ERCOT power region products such that the              
+      generation facilities are directly competing against technologies                
+      with similar attributes; and                                                     
+                   (3)  report the results of the study and analysis                   
+      conducted under this subsection to the legislature not later than                
+      December 1, 2025.                                                                
+             SECTION 53.  (a) Except as provided by Subsection (b) of                  
+      this section, notwithstanding the repeal by this Act of Section                  
+      39.904, Utilities Code, the Public Utility Commission of Texas by                
+      rule shall adopt a program to apply that section as it existed                   
+      immediately before the effective date of this Act, and to apply                  
+      other statutes that referred to that section immediately before the              
+      effective date of this Act, as if that section had not been repealed             
+      by this Act and the other statutes that referred to that section had             
+      not been repealed or amended by this Act.                                        
+             (b)  Under Subsection (a) of this section, the statutes                   
+      described in that subsection must be applied as if Section 39.904                
+      were applicable only to renewable energy technologies that                       
+      exclusively rely on an energy source that is naturally regenerated               
+      over a short time and derived directly from the sun.                             
+             (c)  This section expires September 1, 2025, and the Public               
+      Utility Commission of Texas shall phase out the program required by              
+      Subsection (a) of this section so that it terminates on that date.               
+             SECTION 54.  The changes in law made by this Act to Section               
+      15.023, Utilities Code, apply only to a violation committed on or                
+      after the effective date of this Act. A violation committed before               
+      the effective date of this Act is governed by the law in effect when             
+      the violation was committed, and the former law is continued in                  
+      effect for that purpose.                                                         
+             SECTION 55.  It is the intent of the 88th Legislature,                    
+      Regular Session, 2023, that the amendments made by this Act be                   
+      harmonized with another Act of the 88th Legislature, Regular                     
+      Session, 2023, relating to nonsubstantive additions to and                       
+      corrections in enacted codes.                                                    
+             SECTION 56.  This Act takes effect September 1, 2023.                     
+                                                                                       
+                                                                                       
+      ______________________________                                                   ______________________________
+         President of the Senate                                                       Speaker of the House     
+                                                                                       
+                                                                                       
+             I certify that H.B. No. 1500 was passed by the House on April             
+      19, 2023, by the following vote:  Yeas 140, Nays 1, 1 present, not               
+      voting; that the House refused to concur in Senate amendments to                 
+      H.B. No. 1500 on May 25, 2023, and requested the appointment of a                
+      conference committee to consider the differences between the two                 
+      houses; and that the House adopted the conference committee report               
+      on H.B. No. 1500 on May 28, 2023, by the following vote:  Yeas 140,              
+      Nays 1, 2 present, not voting.                                                   
+                                                                                       
+      ______________________________                                                   
+      Chief Clerk of the House                                                         
+                                                                                       
+             I certify that H.B. No. 1500 was passed by the Senate, with               
+      amendments, on May 24, 2023, by the following vote:  Yeas 30, Nays               
+      0; at the request of the House, the Senate appointed a conference                
+      committee to consider the differences between the two houses; and                
+      that the Senate adopted the conference committee report on H.B. No.              
+      1500 on May 28, 2023, by the following vote:  Yeas 31, Nays 0.                   
+                                                                                       
+      ______________________________                                                   
+      Secretary of the Senate                                                          
+      APPROVED: __________________                                                     
+                      Date                                                             
+                                                                                       
+               __________________                                                      
+                    Governor                                                           
+  --- -------------------------------------------------------------------------------- --------------------------------
