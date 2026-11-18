@@ -110,7 +110,7 @@ The reliability standard rule links to this one: the model must state an assumed
 
 ## Say it like this
 
-Texas moved from voluntary winter spot checks to a mandatory rule: every generator must prepare for each season, declare it, be inspected at least every three years, and face penalties of up to $1 million a day. After a major weather outage it must pay an independent engineer to find the root cause.
+Texas now has a PUCT rule that makes every generator prepare for each season, declare it, be inspected at least every three years, and face penalties of up to $1 million a day. [e2][e5][e6] After a major weather outage the unit must pay an independent engineer to find the root cause. [e7]
 
 ## Common confusion
 

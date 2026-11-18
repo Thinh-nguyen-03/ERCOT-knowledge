@@ -29,7 +29,7 @@ links:
 evidence:
   - id: e1
     source: np-02
-    locator: "Section 2.1, definitions of Operating Condition Notice, Advisory, Watch and Emergency Notice"
+    locator: "Section 2.1, definition of Operating Condition Notice (OCN)"
     quote: "The first of three levels of communication issued by ERCOT in anticipation of a possible Emergency Condition."
   - id: e2
     source: np-06
@@ -45,7 +45,7 @@ evidence:
     quote: "(3) Reasons for OCNs include, but are not limited to, unplanned transmission Outages, insufficient Resources to meet forecasted conditions, and weather-related concerns such as anticipated freezing temperatures, hurricanes, wet weather, and ice storms."
   - id: e5
     source: np-06
-    locator: "Section 6.5.9.3.2, Advisory, paragraphs (2)(a)-(b) and (3)"
+    locator: "Section 6.5.9.3.2, Advisory, paragraph (3)"
     quote: "(3) The Advisory must communicate existing constraints. ERCOT shall notify TSPs and QSEs of the Advisory, and QSEs shall notify appropriate Resources and Load Serving Entities (LSEs)."
   - id: e6
     source: np-06
@@ -79,11 +79,19 @@ evidence:
     source: np-06
     locator: "Section 6.5.9.3, paragraph (4)"
     quote: "The communications must specify the severity of the situation, the area affected, the areas potentially affected, and the anticipated duration of the Emergency Condition."
+  - id: e14
+    source: np-02
+    locator: "Section 2.1, definition of Advisory"
+    quote: "The second of three levels of communication issued by ERCOT in anticipation of a possible Emergency Condition."
+  - id: e15
+    source: np-02
+    locator: "Section 2.1, definition of Watch"
+    quote: "The third of three levels of communication issued by ERCOT in anticipation of a possible Emergency Condition."
 ---
 
 ## Definition
 
-ERCOT issues three levels of communication in anticipation of a possible Emergency Condition, in rising order: the Operating Condition Notice (OCN), the Advisory and the Watch. [e1][e5][e6] The Emergency Notice is the communication issued to declare that ERCOT is operating in an Emergency Condition. [e12]
+ERCOT issues three levels of communication in anticipation of a possible Emergency Condition, in rising order: the Operating Condition Notice (OCN), the Advisory and the Watch. [e1][e14][e15] The Emergency Notice is the communication issued to declare that ERCOT is operating in an Emergency Condition. [e12]
 
 ## How it works
 
@@ -99,7 +107,7 @@ The notices tie to resource obligations: when ERCOT issues any of the four due t
 
 ## Key facts
 
-- Four communications: OCN, Advisory, Watch (three levels in anticipation) and Emergency Notice. [e1][e12]
+- Four communications: OCN, Advisory, Watch (three levels in anticipation) and Emergency Notice. [e1][e14][e15][e12]
 - An OCN is for information only; ERCOT exercises no additional operational authority with it. [e3]
 - ERCOT can bypass steps when time is short. [e2]
 - A Watch is posted to the website and by TO and QSE hotline. [e6]
@@ -111,13 +119,13 @@ ERCOT escalates in steps: an OCN is a heads-up, an Advisory says more reserves o
 
 ## Common confusion
 
-An Emergency Notice is not an EEA level. The EEA is the orderly procedure for maximizing resources and, only if necessary, curtailing load, and ERCOT uses PRC and frequency to pick both the Emergency Notice and the EEA level. [e9] A Watch is also not an EEA, but the IMM and the Protocols tie it to PRC below 3,000 MW in some contexts (see PRC). [e6]
+An Emergency Notice is not an EEA level. The EEA is the orderly procedure for maximizing resources and, only if necessary, curtailing load, and ERCOT uses PRC and frequency to pick both the Emergency Notice and the EEA level. [e9] A Watch is also not an EEA; it is the third of the three pre-emergency communications. [e15] See the PRC topic for how PRC thresholds relate to a Watch.
 
 ## Questions
 
 ### What are the three levels before an emergency?
 
-OCN, Advisory and Watch, then the Emergency Notice when ERCOT is operating in an Emergency Condition. [e1][e12]
+OCN, Advisory and Watch, then the Emergency Notice when ERCOT is operating in an Emergency Condition. [e1][e14][e15][e12]
 
 ### Does an OCN change what ERCOT can do?
 
