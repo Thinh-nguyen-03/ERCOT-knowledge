@@ -90,6 +90,10 @@ evidence:
     source: imm-som-2025
     locator: "Chapter II, Demand Response Capability, 3. 4CP Response"
     quote: "4CP response is associated with several adverse market outcomes. Load reductions during peak intervals can suppress prices and reduce generator revenues, particularly when those intervals no longer correspond to system scarcity. As a result, 4CP response can weaken scarcity pricing and erode the revenue signals needed to support long-term resource adequacy."
+  - id: e16
+    source: imm-som-2025
+    locator: "Recommendations, 2015-1: Transition Away from the 4CP Method of Allocating Transmission Costs"
+    quote: "The Permian Basin Reliability Plan further exacerbates this misalignment."
 ---
 
 ## Definition
