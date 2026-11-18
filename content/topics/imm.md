@@ -100,7 +100,7 @@ The PUCT rule sets two objectives: detect and prevent manipulation and market po
 
 The IMM has no enforcement power. Its authority covers monitoring, analysis and reporting. [e4] It must report all potential market manipulation and all discovered or potential rule violations in writing, directly to the commission and its staff, and the commission decides on enforcement. [e8]
 
-Its required reporting includes an annual State of the Market report. That report assesses competitiveness, how efficiently ERCOT manages the energy, ancillary service and congestion rights markets, and how effective its congestion management is. It also looks for flaws, inefficiencies and manipulation opportunities in the market design, and recommends improvements. [e9]
+Its required reporting includes an annual State of the Market report. That report assesses competitiveness, how efficiently ERCOT manages the balancing energy, ancillary service and congestion rights markets, and how effective its congestion management is. It also looks for flaws, inefficiencies and manipulation opportunities in the market design, and recommends improvements. [e9]
 
 ## ERCOT context
 
@@ -121,7 +121,7 @@ In its 2025 report the IMM found the share of top-quartile net load hours with a
 
 ## Say it like this
 
-(Guidance) The IMM, Potomac Economics, is the PUCT's independent market watchdog. It has full access to ERCOT data and can demand information from participants, but it cannot penalize anyone: it reports to the commission, which enforces. Its State of the Market report is the best single read on how the market performed and where the monitor thinks the design is broken.
+(Guidance) The IMM, Potomac Economics, is the PUCT's independent market watchdog. It can demand information from ERCOT and participants, but it cannot penalize anyone: it reports to the commission, which enforces. Its State of the Market report is the best single read on how the market performed and where the monitor thinks the design is broken.
 
 ## Common confusion
 
