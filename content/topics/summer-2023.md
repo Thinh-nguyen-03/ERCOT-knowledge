@@ -139,7 +139,7 @@ The IMM says ECRS procurement withheld dispatchable capacity from energy, produc
 
 ## Open items
 
-- Peak demand: the IMM and ERCOT Board deck give 85.7 GW on August 10, 2023; the ERCOT EEA2 report gives 85,464 MW.
+- Peak demand: the IMM and ERCOT Board deck give 85.7 GW on August 10, 2023; the ERCOT EEA2 report gives 85,464 MW; ERCOT's July 2026 monthly overview (ercot-monthly-ops-2026-07) calls the August 10, 2023 record 85,508 MW.
 - Growth versus 2022: the IMM executive summary says 3.4% higher than 2022; another IMM passage says "roughly 7% higher than the 80 GW peak load in 2022"; the ERCOT EEA2 report says about 6.6% above the 2022 peak of 80,148 MW.
 - September 6 curtailment: ERCOT's EEA2 report says 1,590 MW; the IMM says 1,500 MW including 1,300 MW of wind.
 - Frequency description: ERCOT says frequency fell to 59.77 Hz between about 7:10 and 7:25 p.m.; the IMM says it was below 59.91 Hz for 15 consecutive minutes. Consistent but described differently.
