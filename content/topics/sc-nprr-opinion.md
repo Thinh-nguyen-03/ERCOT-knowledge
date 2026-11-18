@@ -16,7 +16,7 @@ links:
     note: NPRR1309 went through PRS, TAC, the ERCOT Board and the PUCT, with recorded segment votes. [e10][e14][e15]
   - to: drrs
     type: example-of
-    note: NPRR1309 created DRRS as a new Ancillary Service offered, awarded and paid in both the DAM and RTM.
+    note: NPRR1309 created DRRS as a new Ancillary Service offered, awarded and paid in both the DAM and RTM. [e8]
   - to: non-spin
     type: affects
     note: NPRR1309 cut the Non-Spin duration requirement from four hours to two hours once DRRS is implemented. [e9]
@@ -129,6 +129,10 @@ evidence:
     source: ercot-nprr1309-puct-report
     locator: "NPRR1309 PUCT Report, Comments Received, Texas REP Coalition 020426"
     quote: "Requested a date-certain be added into NPRR1309 to avoid any regulatory uncertainty around the new Ancillary Service unnecessarily impacting retail pricing"
+  - id: e25
+    source: ercot-nprr1309-puct-report
+    locator: "NPRR1309 PUCT Report, Comments Received, ERCOT 042826"
+    quote: "Responded to the 4/24/26 IMM comments and proposed additional redlines to lower the Non-Spin duration to two hours"
 ---
 
 ## Definition
@@ -141,7 +145,7 @@ Step 1, know the path. Comments on a posted Revision Request are due within 14 d
 
 Step 2, pick a live debate with a public record. NPRR1309 created DRRS, which statute requires to run at least four hours at High Sustained Limit, come on-line within two hours, and reduce RUC by the amount procured. [e6] ERCOT called NPRR1309 the third iteration of the DRRS design; DRRS is offered, awarded and paid in both the DAM and RTM. [e7][e8] The contested piece was a side change: Non-Spin's duration requirement drops from four hours to two once DRRS is implemented. [e9]
 
-Step 3, give the positions as recorded. At PRS on 4/15/26 participants edited the proposal to keep Non-Spin at four hours. [e22] The IMM opposed that PRS version and proposed a two-hour Non-Spin; ERCOT's later comments did the same, and TAC approved on 4/29/26 with five opposing votes from LCRA, Brazos, STEC, Vistra and Constellation. [e23][e10] LCRA called the two-hour change premature without more analysis, and Vistra argued it was not required for DRRS, should wait for the 2029 AS methodology review, and could degrade durable reserves and increase RUC of thermal units. [e11][e12] The Board recommended approval unanimously on 6/2/26 and the PUCT approved on 7/9/26. [e14][e15]
+Step 3, give the positions as recorded. At PRS on 4/15/26 participants edited the proposal to keep Non-Spin at four hours. [e22] The IMM opposed that PRS version and proposed a two-hour Non-Spin; ERCOT's 4/28/26 comments did the same, and TAC approved on 4/29/26 with five opposing votes from LCRA, Brazos, STEC, Vistra and Constellation. [e23][e25][e10] LCRA called the two-hour change premature without more analysis, and Vistra argued it was not required for DRRS, should wait for the 2029 AS methodology review, and could degrade durable reserves and increase RUC of thermal units. [e11][e12] The Board recommended approval unanimously on 6/2/26 and the PUCT approved on 7/9/26. [e14][e15]
 
 Step 4, bring evidence for your side. The IMM says NSRS was priced at a premium in 2025 because of oversized procurement and the four-hour duration, which forces a storage resource to hold four hours of energy for its award; its Recommendation 2024-2 asks for one hour. [e17] It also says ERCOT's proposed AS Methodology procures 140% more than the 1-in-10 load shed standard requires. [e18]
 
@@ -155,7 +159,7 @@ Step 4, bring evidence for your side. The IMM says NSRS was priced at a premium 
 
 ## Say it like this
 
-(Guidance) "My view is that the Non-Spin duration cut in NPRR1309 is right, because a four-hour requirement makes storage hold four times its award in energy and the IMM shows that drove Non-Spin to a price premium. The best counter-argument is the generators' and co-ops': shorter reserves may lead to more out-of-market RUC, so I would want ERCOT to track RUC volumes after DRRS goes live."
+(Guidance) "My view is that the Non-Spin duration cut in NPRR1309 is right, because a four-hour requirement makes storage hold four times its award in energy and the IMM shows that drove Non-Spin to a price premium. The best counter-argument is the generators' and co-ops': shorter reserves may lead to more out-of-market RUC, so I would want ERCOT to track RUC volumes after DRRS goes live." [e9][e17][e12]
 
 ## Common confusion
 
