@@ -117,7 +117,7 @@ ERCOT measures adequacy through planning reports. A resource adequacy report cov
 
 The planning view and the operating view point in different directions. The December 2025 CDR base scenario shows Planning Reserve Margins falling each year and turning negative in 2028. Summer 2026 starts at 18.3% for the peak load hour and 20.9% for the peak net load hour. [e9] Its alternative scenarios vary SB 6 large-load curtailment, large-load growth, and the amount and timing of Texas Energy Fund capacity. [e10] In real-time operations, however, the IMM reports that PRC was below 6,500 MW for only 102 hours in 2025 and has not fallen below 3,000 MW since 2023. [e11]
 
-Revenues were weak in 2025. Net revenues were $52.59/kW-year for a CT and $82.96/kW-year for a CC, below the $140 planning CONE. [e14] The first Reliability Standard Assessment was scheduled to file results in August 2026, with market design options if ERCOT looked unlikely to meet the standard in 2029. [e6] The IMM warns that meeting the standard through prices alone would need an extraordinarily high operational VOLL. [e16]
+Revenues were weak in 2025. Net revenues were $52.59/kW-year for a CT and $82.96/kW-year for a CC, below the $140 planning CONE. [e14] The 2026 Reliability Standard Assessment was scheduled to file results in August 2026, with market design options if ERCOT looked unlikely to meet the standard in 2029. [e6] The IMM warns that meeting the standard through prices alone would need an extraordinarily high operational VOLL. [e16]
 
 ## Key facts
 
