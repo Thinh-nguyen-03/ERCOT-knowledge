@@ -136,6 +136,10 @@ evidence:
     source: ercot-elliott-report
     locator: "Section 3, Peak Demand: Forecast and Actual"
     quote: "As a result, the load forecasts produced by the internally-developed forecast models were obviously too low for the 23rd and 24th so ERCOT switched to the vendor-developed forecast models."
+  - id: e26
+    source: ercot-fern-post-event
+    locator: "Report title, p. 1"
+    quote: "Winter Storm Fern – January 2026"
 ---
 
 ## Definition
@@ -152,7 +156,7 @@ Step 3, watch ERCOT's notices. OCNs can be issued for weather concerns such as a
 
 Step 4, know the emergency steps. ERCOT declares EEA Level 1 when PRC falls below 2,500 MW and is not projected to recover within 30 minutes. [e12] In February 2021 ERCOT had ordered 20,000 MW of manual firm load shed by 7:00 p.m. on February 15 and held it for nearly three days. [e3]
 
-Step 5, use the recent storms as calibration. During Winter Storm Fern (January 23-27, 2026) ERCOT issued a Weather Watch on January 21, issued no EEA and had no systemwide outages. [e13][e15][e14] Gas restrictions still appeared in North Texas, FFSS kept 340 MW of gas-restricted units running, and about 13.5 GW of wind nameplate was unavailable due to icing. [e18][e19][e23] The Fern load forecast of 84,500 MW overestimated actual peak consumption, while in Elliott (December 2022) ERCOT's internal load forecasts were too low. [e16][e17][e25]
+Step 5, use the recent storms as calibration. During Winter Storm Fern (January 23-27, 2026) ERCOT issued a Weather Watch on January 21, issued no EEA and had no systemwide outages. [e26][e13][e15][e14] Gas restrictions still appeared in North Texas, FFSS kept 340 MW of gas-restricted units running, and about 13.5 GW of wind nameplate was unavailable due to icing. [e18][e19][e23] The Fern load forecast of 84,500 MW overestimated actual peak consumption, while in Elliott (December 2022) ERCOT's internal load forecasts were too low. [e16][e17][e25]
 
 ## Key facts
 
