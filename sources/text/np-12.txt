@@ -1,0 +1,82 @@
+ERCOT Nodal Protocols
+
+Section 12: Market Information System
+
+August 1, 2026
+
+12 Market Information System 12-1
+
+12.1 Overview 12-1
+
+12.2 ERCOT Responsibilities 12-1
+
+12.3 MIS Administrative and Design Requirements 12-2
+
+12.4 ERCOT Website 12-3
+
+Market Information System
+
+12.1 Overview
+
+(1) ERCOT shall create and maintain an electronic ERCOT Market Information System (MIS). The purpose of the MIS is to provide certain information available only to applicable Entities in the MIS Secure Area and to provide certain information available only to an individual Market Participant in the MIS Certified Area.
+
+(2) The MIS Secure and Certified Areas provide restricted access to ERCOT Critical Energy Infrastructure Information (ECEII), to the extent that the Protocols or any Other Binding Document requires such information to be posted thereon. All ECEII posted on the MIS Secure or Certified Area shall be subject to the restrictions in Section 1.3.2, ERCOT Critical Energy Infrastructure Information. ECEII posted on the MIS Secure or Certified Area may be accessed only by those authorized individuals with ECEII-eligible credentials.
+
+(3) ERCOT shall also create and maintain an Internet website with public and restricted areas.
+
+12.2 ERCOT Responsibilities
+
+(1) ERCOT shall post information to the Market Information System (MIS) as directed throughout these Protocols. With the exception of information requested by a Market Participant in accordance with paragraph (3) below, ERCOT may not use the MIS to post information beyond that specifically required in these Protocols or market guides as described in paragraph (2) of Section 1.1, Summary of the ERCOT Protocols Document.
+
+(2) ERCOT may use the ERCOT website to communicate information that is not posted to the MIS.
+
+(3) To the extent a request is reasonable, in ERCOT’s sole discretion, ERCOT shall post to the MIS Certified Area information that is requested by a Market Participant but not required to be posted by these Protocols.
+
+(4) ERCOT shall create and maintain a list of all of the posting requirements contained in these Protocols or market guides as described in paragraph (2) of Section 1.1. This list and changes thereto shall be posted to the ERCOT website.
+
+(5) ERCOT shall post the list of Other Binding Documents to the ERCOT website.
+
+(6) ERCOT shall use the MIS, as necessary, to post information that meets requirements to disseminate information under North American Electric Reliability Corporation (NERC) Reliability Standards.  Information posted pursuant to this paragraph shall be added to the list described in paragraph (4) above. ERCOT shall notify Market Participants via a Market Notice when such information is posted.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR244: Insert paragraph (7) below upon project completion:]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| (7) ERCOT shall post to the ERCOT website business procedure documents, if they exist, for the following activities: credit management, process for conducting interconnection studies, process for conducting Reliability Must-Run (RMR) studies, processes for managing the commitment of RMR Units, process for conducting Reliability Unit Commitment (RUC) and Hourly Reliability Unit Commitment (HRUC), process for development of the Congestion Revenue Right (CRR) Auction models, process for determining the Pre-Assigned Congestion Revenue Right (PCRR) allocations, process for determining when a market price is to be revised, process for revising prices, and process for determining when units procured in DRUC or HRUC are not needed. For the above listed activities, ERCOT will post a business procedure document only after it has reviewed and determined that the document does not contain confidential information. If a business procedure document contains confidential information, such information shall be redacted before posting to the ERCOT website. |
++=================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+12.3 MIS Administrative and Design Requirements
+
+(1) The Market Information System (MIS) must comply with the administrative and design requirements specified as follows:
+
+  (a) ERCOT shall ensure that all Market Participants have access to the ERCOT MIS on a nondiscriminatory basis.
+
+  (b) The MIS must, at a minimum, provide all information required under any regulations of the Public Utility Commission of Texas (PUCT) or other Governmental Authorities.
+
+  (c) The MIS must include any available information that may be used by a Qualified Scheduling Entity (QSE) to estimate or verify bills for all ERCOT-provided settlements.
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR1239: Replace paragraph (c) above with the following upon system implementation:]                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                           |
+|   (c) The ERCOT website must include, consistent with the requirements in Section 1.3, Confidentiality, any available information that may be used by a Qualified Scheduling Entity (QSE) to estimate or verify bills for all ERCOT-provided settlements. |
++===========================================================================================================================================================================================================================================================+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+  (d) At the request of an Eligible Transmission Service Customer, ERCOT shall provide the methodology and data to independently reproduce information contained in the MIS related to the operation of the ERCOT market.
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR1239: Replace paragraph (d) above with the following upon system implementation:]                                                                                                                                               |
+|                                                                                                                                                                                                                                      |
+|   (d) On the ERCOT website, ERCOT shall provide, consistent with the requirements in Section 1.3, the methodology and data to independently reproduce information contained in the MIS related to the operation of the ERCOT market. |
++======================================================================================================================================================================================================================================+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+  (e) The MIS must include security measures to safeguard ERCOT Critical Energy Infrastructure Information (ECEII) and protect the confidentiality of Protected Information as required by these Protocols.
+
+  (f) The MIS must comply with industry standards for commercial websites, including query and search functionality.
+
+  (g) The MIS must provide easy navigation based on the posting list described in paragraph (4) of Section 12.2, ERCOT Responsibilities, above for document retrieval. This navigability must include hyperlinks between listings and the MIS posted information.
+
+12.4 ERCOT Website
+
+(1) ERCOT shall create and maintain an Internet website consistent with industry standards for commercial websites, including query and search functionality. The Market Information System (MIS) or a link to the MIS must be available from the ERCOT website. ERCOT may use the ERCOT website to communicate information that is not posted to the MIS. Data, extracts, and reports required by the Protocols to be published on the ERCOT website must be made available on a non-discriminatory basis.

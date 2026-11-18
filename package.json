@@ -1,0 +1,13 @@
+{
+  "name": "ercot-knowledge",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node pipeline/fetch.ts",
+    "verify": "node pipeline/verify.ts",
+    "render": "node pipeline/render.ts"
+  },
+  "dependencies": {
+    "yaml": "^2.6.0"
+  }
+}

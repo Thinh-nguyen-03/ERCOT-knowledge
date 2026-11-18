@@ -104,7 +104,7 @@
   },
   {
    "id": "noe",
-   "name": "NOE (Non-Opt-In Entity: Munis & Co-ops)",
+   "name": "NOIE (Non-Opt-In Entity: Munis & Co-ops)",
    "kind": "entity",
    "domain": "structure"
   },

@@ -1,0 +1,12 @@
+{
+ "id": "np-18",
+ "title": "ERCOT Nodal Protocols, Section 18: Load Profiling",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "effective 2026-06-01",
+ "url": "https://www.ercot.com/files/docs/2022/04/01/18-060126_Nodal.docx",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 56519,
+ "raw_sha256": "4b8e5df25b6682c71e2db8ad39924399057151aa8ebb391cd6fca8eb95fb85a4",
+ "text_chars": 18187
+}

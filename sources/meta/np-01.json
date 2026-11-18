@@ -1,0 +1,12 @@
+{
+ "id": "np-01",
+ "title": "ERCOT Nodal Protocols, Section 1: Overview",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "effective 2026-11-06",
+ "url": "https://www.ercot.com/files/docs/2023/01/26/01-110626_Nodal.docx",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 83014,
+ "raw_sha256": "5f5421900261f0d4582305832f16715fa676e4d34a62fe4fe4d0cf6fc4c18828",
+ "text_chars": 101972
+}

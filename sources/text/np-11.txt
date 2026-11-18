@@ -1,0 +1,911 @@
+ERCOT Nodal Protocols
+
+Section 11: Data Acquisition and Aggregation
+
+June 1, 2026
+
+11 Data Acquisition and Aggregation 11-1
+
+11.1 Data Acquisition and Aggregation from ERCOT Polled Settlement Metered Entities 11-1
+
+11.1.1 Overview 11-1
+
+11.1.2 ERCOT Polled Settlement Meter Data Collection 11-1
+
+11.1.3 ERCOT Polled Settlement Meter Time Synchronization 11-1
+
+11.1.4 ERCOT Polled Settlement Meter Data Validation, Editing, and Estimation 11-1
+
+11.1.5 Loss Compensation of ERCOT Polled Settlement Meter Data 11-2
+
+11.1.6 ERCOT-Polled Settlement Meter Netting 11-3
+
+11.1.7 ERCOT Polled Settlement Generation Meter Splitting 11-8
+
+11.1.8 Correction of ERCOT Polled Settlement Meter Data for Non-Opt-In Transmission Losses 11-8
+
+11.1.9 Treatment of Non-Opt-In Entity or External Load Serving Entity Radially Connected Entities 11-8
+
+11.1.10 Treatment of ERCOT Polled Settlement Load Data 11-8
+
+11.1.11 Treatment of ERCOT Polled Settlement Resource ID Data 11-9
+
+11.1.12 Treatment of ERCOT-Polled Settlement Energy Storage Resource Load Data 11-9
+
+11.2 Data Acquisition from Transmission Service Providers and/or Distribution Service Providers 11-10
+
+11.2.1 Overview 11-10
+
+11.2.2 Data Provision and Verification of Non ERCOT Polled Settlement Metered Points 11-10
+
+11.3 Electric Service Identifier Synchronization 11-10
+
+11.3.1 Electric Service Identifier Service History and Usage 11-10
+
+11.3.2 Variance Process 11-11
+
+11.3.3 Alternative Dispute Resolution 11-11
+
+11.4 Load Data Aggregation 11-11
+
+11.4.1 Estimation of Missing Data 11-11
+
+11.4.2 Non-Interval Missing Consumption Data Estimation 11-11
+
+11.4.3 Interval Consumption Data Estimation 11-13
+
+11.4.3.1 Weather Sensitive Proxy Day Method 11-13
+
+11.4.3.2 Non-Weather Sensitive Proxy Day Method 11-14
+
+11.4.3.3 Interval Data Recorder Estimation Reporting 11-15
+
+11.4.4 Data Aggregation Processing for Actual Data 11-15
+
+11.4.4.1 Application of Profiles to Non-Interval Data 11-15
+
+11.4.4.2 Load Reduction for Excess PhotoVoltaic and Wind Distributed Renewable Generation 11-16
+
+11.4.4.3 Load Reduction for Excess from Other Distributed Generators 11-17
+
+11.4.5 Adjustment of Consumption Data for Losses 11-18
+
+11.4.6 Unaccounted for Energy Calculation and Allocation 11-19
+
+11.4.6.1 Calculation of ERCOT-Wide Unaccounted For Energy 11-19
+
+11.4.6.2 Allocation of Unaccounted For Energy 11-20
+
+11.4.6.3 Unaccounted For Energy Allocation to Unaccounted For Energy Categories 11-20
+
+11.4.6.4 Unaccounted For Energy Allocation to Load Serving Entities within Unaccounted For Energy Categories 11-21
+
+11.5 Data Aggregation 11-22
+
+11.5.1 Aggregate Load Data 11-22
+
+11.5.1.1 Aggregated Load Data Posting/Availability 11-22
+
+11.5.1.2 TSP and/or DSP Load Data Posting/Availability 11-23
+
+11.5.2 Generation Meter Data Aggregation 11-24
+
+11.5.2.1 Participant Specific Generation Data Posting/Availability 11-24
+
+11.5.2.2 General Public Data Posting/Availability 11-24
+
+11.6 Unaccounted For Energy Analysis 11-25
+
+11.6.1 Overview 11-25
+
+11.6.2 Annual Unaccounted For Energy Analysis Report 11-25
+
+11 Data Acquisition and Aggregation
+
+11.1 Data Acquisition and Aggregation from ERCOT Polled Settlement Metered Entities
+
+11.1.1 Overview
+
+(1) ERCOT will collect interval data from all ERCOT-Polled Settlement (EPS) metered Entities according to Section 10, Metering. Collection of data from EPS metered Entities will be done via the Meter Data Acquisition System (MDAS). This data will be validated, edited, estimated, adjusted, netted, loss corrected, split, and aggregated as necessary to provide the required Settlement inputs.
+
+11.1.2 ERCOT Polled Settlement Meter Data Collection
+
+(1) ERCOT will perform remote interrogation of EPS metered Entities to provide the necessary data for the Settlement process. Upon initiation of connection with the meter, the MDAS will verify that the meter’s internal Interval Data Recorder (IDR) protocol (Translation Interface Module setting) and the device identifier programmed into the IDR match the master file database stored in the MDAS. If remote-polling fails for any reason, ERCOT will work closely with the Transmission Service Provider (TSP) and/or Distribution Service Provider (DSP) to resolve data collection problems within the time frame defined in Section 10, Metering.
+
+11.1.3 ERCOT Polled Settlement Meter Time Synchronization
+
+(1) ERCOT will update the clock of any EPS meter that falls outside the threshold defined in Section 10, Metering of these Protocols. ERCOT will notify the TSP and/or DSP regarding any meter that is determined to be inconsistent in its timekeeping function. The TSP and/or DSP will facilitate correction of this problem within the time frame detailed in Section 10.
+
+11.1.4 ERCOT Polled Settlement Meter Data Validation, Editing, and Estimation
+
+(1) After EPS time synchronization has been completed and interval meter data has been retrieved, ERCOT will determine if the data is valid. The validation process will include, but not be limited to, the following tests:
+
+(a) Flagging of intervals with missing data;
+
+  (b) Exception reporting if the total number of zero values for any channel exceeds the tolerance limit;
+
+  (c) Exception reporting if the total number of power outage intervals exceeds the tolerance limit;
+
+  (d) Channel level exception reporting if any single interval breaches the upper or lower threshold of the limit;
+
+  (e) Channel level validation of the percent change between two consecutive intervals being greater than the established tolerance limit;
+
+  (f) Data overlap validation test, which rejects validations when the current interrogation of data overlaps data previously collected;
+
+  (g) Channel level energy tolerance test, which reports exceptions of total energy accumulated from the interval data not being equivalent to the energy calculated from the meter register’s start and stop readings;
+
+  (h) Validation that the number of expected intervals equals the number of actual intervals collected during the interrogation process; and
+
+(i) Validation of data between primary, backup and check meters where available.
+
+(2) ERCOT will perform editing and estimation of EPS meter data according to Section 10, Metering. The validation process occurs each time data is collected from a meter.
+
+11.1.5 Loss Compensation of ERCOT Polled Settlement Meter Data
+
+(1) Adjustments will be made to actual metered consumption to accommodate the energy consumption related to line and transformation losses to the Point of Interconnection (POI) with the ERCOT Transmission Grid in accordance with Section 10.3.2.2, Loss Compensation of EPS Meter Data. These adjustments are intended specifically to correct the metered consumption when the meter is not located at the POI with the ERCOT Transmission Grid.
+
+(2) The preferred method for loss compensation and correction is by programming of the meter. Recognizing that some meters may not have the ability to perform internal compensation computations, ERCOT’s Data Aggregation System (DAS) will have the ability to perform approved loss compensation as necessary.
+
+(3) TSPs and/or DSPs requesting loss compensation for a specific meter will comply with Section 10, Metering, and the Settlement Metering Operating Guide (SMOG). ERCOT will provide a compensation mechanism based upon a single percentage value submitted by the TSP and/or DSP and approved by ERCOT. The loss compensation percentage value will remain in place and will be applied to all intervals of data until such time as the TSP and/or DSP submits, and ERCOT approves, revised loss compensation values. The loss compensation percentage values should not be changed more than once annually.
+
+11.1.6 ERCOT-Polled Settlement Meter Netting
+
+(1) As allowed by Section 10, Metering, of these Protocols, ERCOT will perform the approved netting schemes, which sum the meters at a given Generation Resource or Energy Storage Resource (ESR) site.
+
+(2) Both Load consumption and generation production meters will be combined together to obtain a total amount of Load or generation.
+
+(3) For an ESR site with Wholesale Storage Load (WSL):
+
++---------------------------------------------------------------------------------------+
+| [NPRR995: Replace paragraph (3) above with the following upon system implementation:] |
+|                                                                                       |
+| (3) For an ESR site:                                                                  |
++=======================================================================================+
++---------------------------------------------------------------------------------------+
+
+  (a) WSL is measured by the corresponding EPS Meter, except that when a Resource Entity for an ESR communicates its auxiliary Load value to the EPS Meter, WSL is calculated by subtracting the auxiliary Load from the total Load measured by the corresponding EPS Meter. If the calculated auxiliary Load is greater than the total Load, WSL shall be zero.
+
+  (b) For WSL that is metered behind the POI metering point, the WSL will be added back into the POI metering point to determine the net flows for the POI metering point.
+
+  (c) For WSL that is separately metered at the POI, the WSL will not be included in the determination of whether the generation site is net generation or net Load for the purpose of Settlement.
+
+(4) For an ESR that has separately metered its charging Load, but elects not to receive WSL treatment, the Non-WSL ESR Charging Load for the 15-minute interval shall be determined using the metered ESR charging Load.
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR1188: Replace paragraph (4) above with the following upon system implementation:]                                                                                                                                                                                                                  |
+|                                                                                                                                                                                                                                                                                                         |
+| (4) For a single POI Generation Resource site that includes an ESR whose charging Load is not receiving WSL treatment or includes a Controllable Load Resource (CLR):                                                                                                                                   |
+|                                                                                                                                                                                                                                                                                                         |
+|   (a) The portion of Non-WSL ESR Charging Load or CLR Load supplied from the grid will be adjusted for Distribution Losses, Transmission Losses, and Unaccounted for Energy (UFE);                                                                                                                      |
+|                                                                                                                                                                                                                                                                                                         |
+|   (b) The portion of Non-WSL ESR Charging Load or CLR Load supplied from the co-located generation will not be adjusted for Distribution Losses, Transmission Losses, and UFE;                                                                                                                          |
+|                                                                                                                                                                                                                                                                                                         |
+|   (c) For RTAML, 4-CP, and Load Ratio Share (LRS) volumes, only the Non-WSL ESR Charging Load or CLR Load supplied from the grid (after loss and UFE adjustment) shall be included;                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                         |
+|   (d) For Section 6.6.3.1, Real-Time Energy Imbalance Payment or Charge at a Resource Node, (the Non-WSL ESR Charging Load or CLR Load shall be the Load supplied from the grid (after loss and UFE adjustment) plus the Non-WSL ESR Charging Load or CLR Load supplied from the co-located generation; |
+|                                                                                                                                                                                                                                                                                                         |
+|   (e) An Electric Service Identifier (ESI ID) is required for each ESR and CLR and the unadjusted energy supplied from the grid will be allocated to each ESI ID.                                                                                                                                       |
+|                                                                                                                                                                                                                                                                                                         |
+|   (f) For sites with multiple ESRs or CLRs, the unadjusted energy supplied from the grid will be allocated to each ESI ID based upon load ratio share using metered Non-WSL ESR Charging Load or CLR Load or calculated Non-WSL ESR Charging Load; and                                                  |
+|                                                                                                                                                                                                                                                                                                         |
+|   (g) For a single POI Generation Resource site that includes an ESR that has separately metered its charging Load, the Non-WSL ESR Charging Load for the 15-minute interval shall be determined using the metered ESR Charging Load.                                                                   |
++=========================================================================================================================================================================================================================================================================================================+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(5) For an ESR that has not separately metered its charging Load, or has forfeited WSL treatment pursuant to paragraph (3) of Section 10.2.4, Resource Entity Calculation and Telemetry of ESR Auxiliary Load Values, the Non-WSL ESR Charging Load for the 15-minute interval shall be equal to the total metered ESR Load minus auxiliary Load, where auxiliary Load is calculated as the greater of the following:
+
+  (a) The lesser of the total metered ESR Load or X MWh, where X is calculated as 15% of the ESR’s nameplate capacity multiplied by 0.25; or
+
+  (b) 15% of the total metered ESR Load for the 15-minute interval.
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR1188: Insert paragraph (6) below upon system implementation and renumber accordingly:]                                                                                                                                                                                |
+|                                                                                                                                                                                                                                                                            |
+| (6) For a single POI Generation Resource site that includes a CLR, CLR Load shall be metered with an EPS Meter and the metered energy will be considered as Generation Resource production to determine the net flows for Settlement of the corresponding generation site. |
++============================================================================================================================================================================================================================================================================+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR995: Insert paragraphs (6) and (7) below upon system implementation and renumber accordingly:]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| (6) For a Settlement Only Distribution Energy Storage System (SODESS) or Settlement Only Transmission Energy Storage System (SOTESS) that has been approved for WSL treatment and has a single POI or Service Delivery Point:                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (a) For withdrawals from the ERCOT System consisting of only WSL or WSL in combination with auxiliary Load:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (i) WSL is measured by the corresponding EPS Meter, except when a Resource Entity communicates its auxiliary Load value to the EPS Meter, WSL is calculated by subtracting the auxiliary Load from the total Load measured by the corresponding EPS Meter. If the calculated auxiliary Load is greater than the total Load, WSL shall be set to zero.                                                                                                                                                                                                                                                                                                                                   |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (ii) For measured or calculated WSL that is behind the POI or Service Delivery Point, the WSL will be added back into the POI or Service Delivery Point metering point to determine the net flows for the POI or Service Delivery Point metering point.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (b) For withdrawals from the ERCOT System that include Load other than WSL Load or auxiliary Load:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (i) The charging Load is measured by the corresponding EPS Meter, except that when the Resource Entity communicates its auxiliary Load value to the EPS Meter, the charging Load is calculated by subtracting the auxiliary Load from the total SODESS or SOTESS Load measured by the corresponding EPS Meter. If the calculated auxiliary Load is greater than the total SODESS or SOTESS Load, the charging Load shall be set to zero.                                                                                                                                                                                                                                                |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (ii) Where injections are exclusively the result of generation from an SODESS or SOTESS, the WSL quantity shall be determined through the use of a generation accumulator, which is calculated as the accumulated output measured at the POI or Service Delivery Point minus the accumulated charging Load receiving WSL treatment. The charging Load that is less than or equal to the generation accumulator will be settled as WSL for each 15-minute interval.                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (iii) Where injections are the result of a combination of SODESS or SOTESS and non-SODESS or non-SOTESS generation, the output channel of the EPS Meter that measures charging Load is required to be used for Settlement. For these sites, the WSL quantity shall be determined through the use of a generation accumulator, which is calculated as the lesser of (i) the accumulated SODESS or SOTESS output or (ii) the accumulated output measured at the POI or Service Delivery Point minus the accumulated charging Load receiving WSL treatment. The charging Load that is less than or equal to the generation accumulator will be settled as WSL for each 15-minute interval. |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (iv) For measured or calculated charging Load that is behind the POI or Service Delivery Point, the charging Load will be added back into the POI or Service Delivery Point metering point to determine the net flows for the POI or Service Delivery Point metering point.                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| (7) For an SODESS or SOTESS that either has not elected or has not been approved for WSL treatment and has a single POI or Service Delivery Point:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (a) For withdrawals from the ERCOT System consisting of only charging Load or charging Load in combination with auxiliary Load, the Non-WSL Settlement Only Charging Load for the 15-minute Settlement Interval shall be determined as follows:                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (i) The metered charging Load that would otherwise be eligible for WSL; or                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (ii) The total metered SODESS or SOTESS Load minus auxiliary Load, where auxiliary Load is calculated as the greater of the following:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (A) The lesser of the total metered Load or X MWh, where X is calculated as 15% of the nameplate capacity of the ESS multiplied by 0.25; or                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (B) 15% of the total SODESS or SOTESS metered Load.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (b) For withdrawals from the ERCOT System that include Load other than Non-WSL Settlement Only Charging Load or auxiliary Load, the Non-WSL Settlement Only Charging Load for the 15-minute Settlement Interval shall be determined as follows:                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (i) Where injections are exclusively the result of generation from an SODESS or SOTESS, the Non-WSL Settlement Only Charging Load quantity shall be determined through the use of a generation accumulator, which is calculated as the accumulated output measured at the POI or Service Delivery Point minus the metered or calculated charging Load determined in option (A) or (B) below:                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (A) Where the charging Load is separately metered, the accumulated metered charging Load that would otherwise be eligible for WSL; or                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (B) Where the charging Load is not separately metered, the accumulated total metered SODESS or SOTESS Load minus auxiliary Load, where auxiliary Load is calculated as the greater of the following:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (1) The lesser of the total SODESS or SOTESS metered Load or X MWh, where X is calculated as 15% of the nameplate capacity of the SODESS or SOTESS multiplied by 0.25; or                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (2) 15% of the total SODESS or SOTESS metered Load.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (ii) Where injections are the result of a combination of generation from SODESS or SOTESS and other generating facilities, the output channel of the EPS Meter that measures charging Load is required to be used for Settlement. For these sites, the Non-WSL Settlement Only Charging Load quantity shall be determined through the use of a generation accumulator, which is calculated as the lesser of (a) the accumulated SODESS or SOTESS output or (b) the accumulated output measured at the POI or Service Delivery Point minus:                                                                                                                                              |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (A) Where the charging Load is separately metered, the accumulated metered charging Load that would otherwise be eligible for WSL; or                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (B) Where the charging Load is not separately metered, the accumulated total metered SODESS or SOTESS Load minus auxiliary Load, where auxiliary Load is calculated as the greater of the following:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (1) The lesser of the total metered Load or X MWh, where X is calculated as 15% of the nameplate capacity of the SODESS or SOTESS multiplied by 0.25; or                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (2) 15% of the total SODESS or SOTESS metered Load.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (iii) For each 15-minute interval, the metered or calculated charging Load that is less than or equal to the generation accumulator will be settled as Non-WSL Settlement Only Charging Load.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
++===========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(6) For a Generation Resource or ESR that excludes its Load(s) from the netting arrangement pursuant to paragraph (9) of Section 10.3.2.3, Generation Netting for ERCOT-Polled Settlement Meters:
+
+  (a) The excluded Load(s) are measured by the corresponding EPS Meter, except that when a Resource Entity for an ESR communicates its non-charging Load(s) value(s) to the EPS Meter in accordance with Section 10.2.4.
+
+  (b) The excluded Load will be added back into the POI metering point to determine the net flows for the POI metering point.
+
+  (c) For sites that are not located behind a Non-Opt-In Entity (NOIE) meter point, it shall be the responsibility of the Transmission and/or Distribution Service Provider(s) (TDSP(s)) serving the excluded Load at the facility to account for the excluded Load by creating Electric Service Identifier(s) (ESI ID(s)) and providing ERCOT with interval data. If there is a one-to-one relationship between each excluded Load meter and ESI ID, then the TDSP may request that ERCOT populate the ESI ID(s) for the excluded Load.
+
+11.1.7 ERCOT Polled Settlement Generation Meter Splitting
+
+(1) ERCOT will apply any approved splitting schemes to partition generation production and auxiliary Load when the unit is not in operation in accordance with Section 10, Metering of these Protocols.
+
+11.1.8 Correction of ERCOT Polled Settlement Meter Data for Non-Opt-In Transmission Losses
+
+(1) ERCOT will correct the total Load of EPS meters for NOIEs that have transmission behind the Settlement meters and are connected to the ERCOT Transmission Grid via bi-directional metering for actual Transmission Losses according to Section 13, Transmission and Distribution Losses. ERCOT will populate Settlement Interval Load data for NOIEs into data sets to be used in the Load aggregation process. NOIEs will receive extract Load data via the Market Information System (MIS) Certified Area.
+
+11.1.9 Treatment of Non-Opt-In Entity or External Load Serving Entity Radially Connected Entities
+
+(1) At NOIE or External Load Serving Entity (ELSE) metering points for which the TSP and/or DSP is supplying data to ERCOT, the interval Load data that is not bi-directional will have each point of delivery treated as an individual ESI ID.
+
+11.1.10 Treatment of ERCOT Polled Settlement Load Data
+
+(1) For EPS metering that ERCOT is populating ESI ID Load data, ERCOT will:
+
+  (a) Utilize the data for all Settlement calculations and reports;
+
+  (b) Provide the TSP and/or DSP and Load Serving Entity (LSE) with daily kWh consumption information in accordance with Texas Standard Electronic Transaction (Texas SET) 867_03, Monthly Usage, for interval data upon completion of the Data Aggregation process for the Settlement day. Data changes during Settlement runs subsequent to the most current Settlement run will result in an additional Texas SET 867_03 being provided to the TSP and/or DSP and LSE. The TSP, DSP, or LSE may request not to receive the consumption information. Such a request must be submitted by the applicable Authorized Representative or Backup Authorized Representative;
+
+  (c) Accommodate retail switching via the standard switching process and timelines;
+
+  (d) Be identified as the Meter Reading Entity (MRE); and
+
+  (e) Make ESI ID interval data available to the TSP and/or DSP and LSE via an extract.
+
+(2) The ERCOT read ESI ID data extract will:
+
+  (a) Select all ERCOT read ESI IDs for the Market Participant; and
+
+  (b) Provide interval data as populated by ERCOT for each channel associated to an ESI ID.
+
+11.1.11 Treatment of ERCOT Polled Settlement Resource ID Data
+
+(1) For EPS Resource ID (RID) data, ERCOT will:
+
+  (a) Be identified as the MRE;
+
+  (b) Model and populate data to appropriate channels such that netting and aggregation conform to the ERCOT Protocol requirements; and
+
+  (c) Make RID interval and Supervisory Control and Data Acquisition (SCADA) interval data available to the associated Qualified Scheduling Entity (QSE), TSP and/or DSP, Resource Entity, and LSE via an extract.
+
+(2) The ERCOT RID data extract will:
+
+  (a) Select all ERCOT read RIDs for the Market Participant;
+
+  (b) Provide interval data as populated by ERCOT for each channel associated to a RID;
+
+(c) Provide the interval data to the TSPs and/or DSPs no later than noon on the tenth Business Day after ERCOT reads the EPS meter;
+
+(d) Provide interval data for Load and generation to TSPs and/or DSPs in accordance with Section 3.11.5, Transmission Service Provider and Distribution Service Provider Access to Interval Data; and
+
+  (e) Whenever ERCOT makes an edit to data previously provided to the TSP and/or DSP, ERCOT shall provide the revised data to the TSP and/or DSP by noon of the tenth Business Day after the edit is made.
+
+11.1.12 Treatment of ERCOT-Polled Settlement Energy Storage Resource Load Data
+
+(1) For EPS data associated with WSL and Non-WSL ESR Charging Load, ERCOT will:
+
+  (a) Be identified as the MRE; and
+
+  (b) Model and populate data to appropriate channels such that netting and aggregation conform to the ERCOT Protocol requirements.
+
+11.2 Data Acquisition from Transmission Service Providers and/or Distribution Service Providers
+
+11.2.1 Overview
+
+(1) This Section addresses the manner in which ERCOT will receive and validate data from the Transmission Service Providers (TSPs) and/or Distribution Service Providers (DSPs) regarding generation and Load from TSP and/or DSP metered Entities as defined in Section 10, Metering.
+
+11.2.2 Data Provision and Verification of Non ERCOT Polled Settlement Metered Points
+
+(1) The TSP and/or DSP will provide data for TSP and/or DSP metered Entities as defined in Section 10, Metering, of these Protocols.
+
+(2) The TSP and/or DSP will provide data in accordance with the TSP and/or DSP meter data responsibilities detailed in Section 10 and will conform to data formats specified in Section 19, Texas Standard Electronic Transaction.
+
+(3) ERCOT will:
+
+  (a) Provide the TSP and/or DSP a notification of successful/unsuccessful data transfer for the Texas Standard Electronic Transaction (TX SET) meter data submitted. At the Electric Service Identifier (ESI ID) level, the TSP and/or DSP will be notified of successful and unsuccessful validations;
+
+  (b) Validate that the correct TSP and/or DSP is submitting meter consumption data on an individual ESI ID basis. At the ESI ID level, the TSP and/or DSP will be notified of unsuccessful validations;
+
+  (c) Provide a report to the TSP and/or DSP listing each ESI ID for which ERCOT has not received consumption data for 38 days; and
+
+  (d) Synchronize the Data Aggregation System (DAS) data with the Customer registration system on a daily basis to ensure the appropriate relationship between the ESI ID, Load Serving Entity (LSE) and/or Resource Entity, and the meter. DAS will provide versioning to ensure ESI ID characteristic changes are time stamped.
+
+11.3 Electric Service Identifier Synchronization
+
+11.3.1 Electric Service Identifier Service History and Usage
+
+(1) On a daily basis, ERCOT shall provide incremental updates to Electric Service Identifier (ESI ID) service history and usage information to Load Serving Entities (LSEs), Meter Reading Entities (MREs), and Transmission Service Providers (TSPs) and/or Distribution Service Providers (DSPs). ESI ID service history includes ESI ID relationships and ESI ID characteristics.
+
+11.3.2 Variance Process
+
+(1) Any LSE, MRE, TSP or DSP that contests the accuracy of ESI ID service history and usage information maintained by ERCOT shall file a variance in the manner specified by the Retail Market Guide. The variance shall be processed in the manner specified in the Retail Market Guide, and ERCOT and Market Participants that are or may be affected by the variance shall comply with the provisions of the Retail Market Guide as they relate to the variance.
+
+11.3.3 Alternative Dispute Resolution
+
+(1) An LSE, MRE, TSP or DSP may seek correction of ESI ID service history/usage information and resettlement pursuant to the provisions of Section 20, Alternative Dispute Resolution Procedure.
+
+11.4 Load Data Aggregation
+
+(1) Data Aggregation is the process of netting, grouping and summing Load consumption data, applying appropriate profiles, Transmission Loss Factors (TLFs) and Distribution Loss Factors (DLFs) and calculating and allocating Unaccounted For Energy (UFE) to determine each Qualified Scheduling Entity (QSE) and/or Load Serving Entity (LSE) responsibility by Settlement Interval by Settlement Point and by other prescribed aggregation determinants. The process of aggregating Load data provides the determinants that allow the Settlement to occur.
+
+11.4.1 Estimation of Missing Data
+
+(1) The Data Aggregation System (DAS) will perform estimation of missing interval and non-interval retail Load meter consumption data for use in Settlement when actual meter consumption data is unavailable.
+
+11.4.2 Non-Interval Missing Consumption Data Estimation
+
+(1) The DAS will distinguish each Electric Service Identifier (ESI ID) for which consumption data has not been received for the Operating Day. Non-interval ESI ID locations for which no actual consumption exists for the specified Operating Day will be pre-aggregated by like components which may include but are not limited to the following sets:
+
+(a) QSE;
+
+(b) LSE;
+
+(c) Settlement Point;
+
+(d) UFE zone;
+
+(e) Profile ID;
+
+(f) DLF code;
+
+  (g) Transmission Service Provider (TSP) and /or Distribution Service Provider (DSP);
+
+(h) Read start date (reading from date); and
+
+(i) Read stop date (reading to date).
+
+(2) Estimates of missing data are based on Profile ID, which includes:
+
+(a) Load Profile Type;
+
+(b) Weather Zone;
+
+(c) Meter type;
+
+(d) Weather sensitivity; and
+
+(e) Time Of Use Schedule (TOUS).
+
+(3) Profile application will take aggregated non-interval consumption data and apply the Load Profile in order to create interval consumption data. Profiled non-interval data is calculated by dividing the aggregated ESI ID’s total kWh for a specific time period (usually a month) by the profile class’ kWh for the same specific time period and scaling the Load Profile for that same specific Operating Day by the resulting value to provide the profiled non-interval consumption data.
+
+PND _(Operating Day) = (ΣActual KWH _(Specific Time Period) / ΣCP KWH _(Specific Time Period)) * LP _(Operating Day)
+
+The above variables are defined as follows:
+
+  -----------------------------------------------------------------------
+  Variable   Unit    Description
+  ---------- ------- ----------------------------------------------------
+  PND                Profiled non-interval data.
+
+  CP                 Class profile.
+
+  LP         kWh     Load Profile (daily interval data set).
+  -----------------------------------------------------------------------
+
+(4) Any active ESI ID on the Operating Day being settled for which ERCOT does not have a meter read within 12 months of the Operating Day will not have a usage estimate applied to its Load Profile. That is, the estimate for these Customers will be their assigned profile without any scaling factor applied.
+
+11.4.3 Interval Consumption Data Estimation
+
+(1) ERCOT will estimate all ESI IDs with Interval Data Recorders (IDRs) for which consumption data has not been received for the Operating Day. The method for estimating interval data for ESI IDs with IDR Meters is a “Weather Response Informed Proxy Day” technique. This approach seeks to increase estimation accuracy by segmenting ESI IDs with IDR Meters into two groups based on a known indicator of Load (i.e., weather). The classification of ESI IDs with IDR Meters into a Weather Sensitive (WS) group and a Non-Weather Sensitive (NWS) group determines the proxy day method used for estimation purposes. The proxy day estimation method for each group captures the factors that best predict the ESI ID-specific Load shape for the Operating Day.
+
+(2) The NWS proxy day method will be used for estimating interval data for IDRs where the profile type code is BUSLRG or BUSLRGDG.
+
+(3) The WS proxy day method will be used for estimating interval data for IDRs where the profile type code is not BUSIDRRQ, BUSLRG, or BUSLRGDG.
+
+11.4.3.1 Weather Sensitive Proxy Day Method
+
+(1) For ESI IDs estimated as Weather Sensitive IDR (WSIDR), ERCOT will use this WS proxy day method. ESI IDs within the same Weather Zone will be grouped together. The proxy days will be the same for all ESI IDs within each of the Weather Zones. This method incorporates the following:
+
+  (a) To determine eligible proxy days, select all days (of matching weekday/weekend day type and time period) within five degrees of the maximum temperature of the target Operating Day based on the previous 365 days and then limit the selection to those days that have their maximum temperatures occurring within two hours of the maximum temperature hour of occurrence of the Operating Day. The maximum temperature separation criterion provides initial assurance that the eligible day will have a similar diurnal temperature pattern as the target Settlement Operating Day.
+
+  (b) Perform two tests on each potential proxy day identified in item (a) above:
+
+  (i) Temperature magnitude test sums the squared differences between the hourly temperatures of the target Operating Day and the hourly temperatures of the potential proxy day; and
+
+  (ii) Temperature shape test calculates the incremental change in temperature from hour to hour during the day and sums the squared differences between the corresponding values of the target Operating Day and the potential proxy day.
+
+  (c) Each potential proxy day for each test described in item (b) above is ranked in ascending order based on the sum of squared differences.
+
+  (d) A final ranking is performed with the temperature magnitude test weighted more heavily than the shape test. The weighting factors are 70% and 30%.
+
+  (e) Select the top three ranked eligible days.
+
+  (f) For each ESI ID, do the following:
+
+  (i) Use the top ranked proxy day for the target Operating Day, if available;
+
+  (ii) If the top ranked proxy day data is not available, use the second ranked proxy day data as the estimate;
+
+  (iii) If the second ranked proxy day data is not available, use the third proxy day; and
+
+  (iv) If no data is available for any of the proxy days selected, then default to the NWS proxy day method.
+
+11.4.3.2 Non-Weather Sensitive Proxy Day Method
+
+(1) For ESI IDs estimated as Non-Weather Sensitive IDR (NWSIDR), ERCOT will use this NWS proxy day method. This method incorporates the following:
+
+  (a) Use the most recent proxy day for which data is available as the estimate for the target Operating Day. From historical ESI ID specific interval data, choose the most recent occurrence of the appropriate day of the week (Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday) corresponding to the day of the week of the Operating Day (holidays are treated as Sundays) within the most recent 12 months of the Operating Day; or
+
+  (b) If there is no historic interval data available according to item (a) above, the IDR data will be estimated using the default profile assigned to the ESI ID for the Operating Day. If non-interval consumption data with a meter read within 12 months of the Operating Day is available, and if the ESI ID was profiled with a non-interval meter data type code within 90 days of the Operating Day, the default profile shall be estimated and/or scaled in accordance with Section 11.4.2, Non-Interval Missing Consumption Data Estimation.
+
+11.4.3.3 Interval Data Recorder Estimation Reporting
+
+(1) ERCOT shall produce a report detailing the proxy day selection list for both NWSIDR and WSIDR methodologies. This report will be made available to Market Participants on a daily basis.
+
+11.4.4 Data Aggregation Processing for Actual Data
+
+(1) The DAS will apply backcasted profiles to aggregated actual non-interval consumption data for use in Settlement when actual meter consumption data is available. IDR ESI IDs for which actual data exists will be used directly in the Data Aggregation process.
+
+11.4.4.1 Application of Profiles to Non-Interval Data
+
+(1) Non-Interval ESI ID locations for which actual consumption exists for the specified Operating Day will be pre-aggregated by like components which may include but are not limited to the following sets:
+
+(a) QSE;
+
+(b) LSE;
+
+(c) Settlement Point;
+
+(d) UFE zone;
+
+(e) Profile ID;
+
+(f) DLF code;
+
+(g) TSP and/or DSP;
+
+(h) Read start date (reading from date); and
+
+(i) Read stop date (reading to date).
+
+(2) Profile application will take aggregated non-interval consumption data and apply the Load Profile in order to create interval consumption data. Profiled non-interval data is calculated by dividing the aggregated ESI ID’s total kWh for a specific time period (usually a month) by the profile class’ kWh for the same specific time period and scaling the Load Profile for that same specific Operating Day by the resulting value to provide the profiled non-interval consumption data.
+
+PND _(Operating Day) = (ΣActual KWH _(Specific Time Period) / ΣCP KWH _(Specific Time Period)) * LP _(Operating Day)
+
+The above variables are defined as follows:
+
+  -----------------------------------------------------------------------
+  Variable   Unit    Description
+  ---------- ------- ----------------------------------------------------
+  PND                Profiled non-interval data.
+
+  CP                 Class profile.
+
+  LP         kWh     Load Profile (daily interval data set).
+  -----------------------------------------------------------------------
+
+11.4.4.2 Load Reduction for Excess PhotoVoltaic and Wind Distributed Renewable Generation 
+
+(1) Adjusted Metered Load (AML) for ESI IDs with PhotoVoltaic (PV) generation shall be adjusted as follows:
+
+For ESI IDs with non-IDRs installed, AML shall be reduced for excess generation from ESI IDs with Unregistered Distributed Generators (UDGs) made up of PV generation behind the meter where there is a meter that measures excess energy flow into the ERCOT System in a separate register. Only ESI IDs that have been assigned a PV profile segment as specified in Load Profiling Guide Appendix D, Profile Decision Tree, shall be eligible for this reduction.
+
+  Intervals beginning 1100 and ending 1500 Central Prevailing Time (CPT) (spanning (16) 15-minute intervals) shall be reduced by the following amount:
+
+PV_adjust _(i) = kWh_gen / (read_days * 16)
+
+The above variables are defined as follows:
+
+  ------------------------------------------------------------------------------------------------------------------
+  Variable         Unit    Description
+  ---------------- ------- -----------------------------------------------------------------------------------------
+  PV_adjust _(i)   kWh     Reduction for PV excess generation for interval i.
+
+  kWh_gen          kWh     Actual (measured) kWh flowing into the Distribution System (out-flow from the Premise).
+
+  read_days        days    Number of days in meter read period.
+  ------------------------------------------------------------------------------------------------------------------
+
+(2) AML for ESI IDs with wind generation shall be adjusted as follows:
+
+  For ESI IDs with non-IDRs installed, AML shall be reduced for excess generation from ESI IDs with UDG made up of wind generation behind the meter where there is a meter that measures excess energy flow into the ERCOT System in a separate register.  Only ESI IDs that have been assigned a wind profile segment as specified in the Load Profiling Guide Appendix D, shall be eligible for this reduction.
+
+  Intervals beginning 0800 and ending 2000 CPT (spanning (48) 15-minute intervals) shall be reduced by the following amount:
+
+Wind_adjust = kWh_gen * .65 / (read_days * 48)
+
+  All other intervals in the day (the remaining 48 intervals) shall be reduced by the following amount:
+
+Wind_adjust = kWh_gen * .35 / ((read_days * 48) + DST adjust)
+
+Where:
+
+  -------------------------------------------------------------------------------------------------------------------
+  Variable          Unit    Description
+  ----------------- ------- -----------------------------------------------------------------------------------------
+  wind_adjust_(i)   kWh     Reduction for wind excess generation for interval i.
+
+  kWh_gen           kWh     Actual (measured) kWh flowing into the Distribution System (out-flow from the Premise).
+
+  read_days         days    Number of days in meter read period.
+
+  DST adjust        N/A     Daylight Savings Time Adjustment: Spring DST = -4; Fall DST = 4.
+  -------------------------------------------------------------------------------------------------------------------
+
+(3) The excess generation adjustments for ESI IDs, which have UDG made up of PV or wind generation behind the meter and that have an Advanced Metering System (AMS) integrated meter or Municipally Owned Utility (MOU) / Electric Cooperative (EC) Non-BUSIDRRQ IDR that measures the excess energy flow into the ERCOT System in 15-minute intervals, shall be determined using the actual 15-minute interval data, if available.
+
+11.4.4.3 Load Reduction for Excess from Other Distributed Generators 
+
+(1) AML for ESI IDs with DG that is neither PV nor wind shall be adjusted as follows:
+
+  For ESI IDs with non-IDRs installed, AML shall be reduced for excess generation from ESI IDs with UDGs behind the meter where there is a meter that measures excess energy flow into the ERCOT System in a separate register. Only ESI IDs that have been assigned a DG profile segment as specified in Load Profiling Guide Appendix D, Profile Decision Tree, shall be eligible for this reduction.
+
+  All intervals in the meter read period shall be reduced by the following amount:
+
+DG_adjust _(i) = kWh_gen / read_ints
+
+The above variables are defined as follows:
+
+  ----------------------------------------------------------------------------------------------------------------------
+  Variable         Unit        Description
+  ---------------- ----------- -----------------------------------------------------------------------------------------
+  DG_adjust _(i)   kWh         Reduction for excess DG for interval i.
+
+  kWh_gen          kWh         Actual (measured) kWh flowing into the Distribution System (out-flow from the Premise).
+
+  read_ints        Intervals   Number of 15-minute intervals in the meter read period.
+  ----------------------------------------------------------------------------------------------------------------------
+
+(2) The energy reduction adjustment for ESI IDs, which have UDGs behind the meter and have an AMS integrated meter that measures the excess energy flow into the ERCOT System in 15-minute intervals, shall be determined using the actual 15-minute interval data, if available.
+
+11.4.5 Adjustment of Consumption Data for Losses
+
+(1) The ERCOT DAS shall adjust consumption data for Transmission Losses and Distribution Losses. The sources of data used in this process are:
+
+(a) Profiled estimated non-interval data;
+
+(b) Estimated proxy day interval data;
+
+(c) Profiled actual non-interval data;
+
+(d) Actual interval data;
+
+(e) DLFs; and
+
+(f) TLFs (average ERCOT-wide).
+
+(2) ERCOT will apply DLFs to aggregate levels of Load data in accordance with Section 13, Transmission and Distribution Losses. Aggregated Loads will be adjusted for Distribution Losses based upon DLF code correlated to the DLF for each TSP and/or DSP. Loads that are transmission connected or that are settled at transmission level will not be allocated distribution level losses. Intervals with negative Load will not be allocated distribution level losses.
+
+NDLAL _(i) _(Aggregated Group) = Max (0, L _(i Aggregated Group)) * 1 / (1- DLF _(i Aggregated Group))
+
+The above variables are defined as follows:
+
+  -------------------------------------------------------------------------
+  Variable     Unit    Description
+  ------------ ------- ----------------------------------------------------
+  i            None    Interval
+
+  NDLAL _(i)   MWh     Net Distribution Loss adjusted Load per interval
+
+  L _(i)       MWh     Load per interval
+
+  DLF _(i)     None    DLF (voltage code specific) per interval
+  -------------------------------------------------------------------------
+
+(3) ERCOT will apply the ERCOT wide TLF to the net Distribution Loss adjusted Loads to produce a net loss adjusted aggregated Load value for each aggregation set. ERCOT wide TLFs will be developed in accordance with Section 13. Intervals with negative Load will not be allocated Transmission Losses.
+
+NLAL _(i) _(Aggregated Group) = Max (0, NDLAL _(i) _(Aggregated Group)) * 1/ (1 - TLF _(i))
+
+The above variables are defined as follows:
+
+  -------------------------------------------------------------------------
+  Variable     Unit    Description
+  ------------ ------- ----------------------------------------------------
+  i            None    Interval
+
+  NDLAL _(i)   MWh     Net Distribution Loss adjusted Load per interval
+
+  NLAL _(i)    MWh     Net loss adjusted Load per interval
+
+  TLF _(i)     None    TLF (ERCOT wide factor) per interval
+  -------------------------------------------------------------------------
+
+11.4.6 Unaccounted for Energy Calculation and Allocation
+
+(1) The DAS shall adjust the net loss adjusted Load for each aggregated retail Load group for UFE. The Data Aggregation process will calculate the difference between net loss adjusted Load for the entire ERCOT System, which has been adjusted for Distribution Losses and Transmission Losses, and the total system Load (generation) in order to determine the total UFE. The calculated UFE for each Settlement Interval is then allocated to positive Loads. For the purpose of the UFE calculation, scheduled flow out of ERCOT on a Direct Current Tie (DC Tie) will be deemed as Load, and scheduled flow into ERCOT on a DC Tie will be deemed as generation.
+
+11.4.6.1 Calculation of ERCOT-Wide Unaccounted For Energy
+
+(1) The DAS will calculate ERCOT-wide UFE as the difference between the total ERCOT generation and the total Load, adjusted for losses in ERCOT during each Settlement Interval. UFE may be positive or negative in any single Settlement Interval.
+
+UFE _(i) (MWh) = ERCOT Generation _(i) _(Total) – ERCOT Net Loss Adjusted Load _(i) _(Total)
+
+The above variables are defined as follows:
+
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Variable                                     Unit   Description
+  -------------------------------------------- ------ -------------------------------------------------------------------------------------------------------------------------------------------------
+  UFE _(i)                                     MWh    Total ERCOT system UFE per interval.
+
+  ERCOT Generation _(i) _(Total)               MWh    Total ERCOT internal generation plus sum of approved ERCOT DC Tie imports.
+
+  ERCOT Net Loss Adjusted Load _(i) _(Total)   MWh    Total ERCOT load plus Block Load Transfer (BLT) exports plus sum of approved DC Tie exports, adjusted for distribution and transmission losses.
+
+  i                                                   Interval
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11.4.6.2 Allocation of Unaccounted For Energy
+
+(1) ERCOT will allocate UFE to specific categories based upon adjusted Load Ratio Share. The adjusted Load Ratio Share will be determined using the following UFE category weighting factors:
+
+(a) 0.0 - Transmission voltage level IDR Non-Opt-In Entities (NOIEs);
+
+(b) 0.10 - Transmission voltage level IDR Premises;
+
+(c) 0.50 - Distribution voltage level IDR Premises; and
+
+(d) 1.00 - Distribution voltage level profiled Premises.
+
+(2) The ERCOT DAS shall provide a mechanism to change the UFE category weighting factors for specific transition periods.
+
+11.4.6.3 Unaccounted For Energy Allocation to Unaccounted For Energy Categories
+
+(1) For each Premise category, and for each Settlement interval, the UFE allocated to each UFE category is calculated as follows:
+
+UFE _(PRiz) = UFE _(iz) * [(f _(PRiz) * L _(PRiz)) / L _(UFEiz)]
+
+UFE _(IDRiz) = UFE _(iz) * [(f _(IDRiz) * L _(IDRiz)) / L _(UFEiz)]
+
+UFE _(TRiz) = UFE _(iz) * [(f _(TRiz) * L _(TRiz)) / L _(UFEiz)]
+
+UFE _(TNOIEiz) = UFE _(iz) * [(f _(TNOIEiz) * L _(TNOIEiz)) / L _(UFEiz)]
+
+L _(UFEiz) = f _(PRiz) * L _(PRiz) + f _(IDRiz) * L _(IDRiz) + f _(TRiz) * L _(TRiz) + f _(TNOIEiz) * L _(TNOIEiz)
+
+The above variables are defined as follows:
+
+  --------------------------------------------------------------------------------------------------------------------------------
+  Variable         Unit    Description
+  ---------------- ------- -------------------------------------------------------------------------------------------------------
+  UFE _(PRiz)              Amount of UFE allocated to profile category per interval per zone.
+
+  UFE _(IDRiz)             Amount of UFE allocated to IDR category per interval per zone.
+
+  UFE _(TRiz)              Amount of UFE allocated to transmission category per interval per zone.
+
+  UFE _(TNOIEiz)           Amount of UFE allocated to transmission voltage level NOIE category per interval per zone.
+
+  UFE _(iz)                Total ERCOT system UFE per interval per zone.
+
+  L _(PRiz)                Aggregate Load of profile category - adjusted for losses per interval per zone.
+
+  L _(IDRiz)               Aggregate Load of all IDR category - adjusted for losses per interval per zone.
+
+  L _(TRiz)                Aggregate Load of transmission category - adjusted for losses per interval per zone.
+
+  L _(TNOIEiz)             Aggregate Load of transmission level non opt-in category - adjusted for losses per interval per zone.
+
+  f _(PRiz)                Adjustment percentage for profiled Premises per interval per zone.
+
+  f _(IDRiz)               Adjustment percentage for IDR Premises per interval per zone.
+
+  f _(TRiz)                Adjustment percentage for transmission Premises per interval per zone.
+
+  f _(TNOIEiz)             Adjustment percentage for transmission voltage level non-opt-in Premises per interval per zone.
+
+  L _(UFEiz)               Adjusted total UFE allocation reference Load per interval per zone.
+  --------------------------------------------------------------------------------------------------------------------------------
+
+11.4.6.4 Unaccounted For Energy Allocation to Load Serving Entities within Unaccounted For Energy Categories
+
+(1) The UFE allocated to each UFE category type is then allocated to the LSEs within each UFE category based upon each LSE’s share of the total Load for the UFE category.
+
+UFE _(PRiz) _(LSE) = UFE _(PRiz) * (Max (0, L _(PRiz LSE)) / L _(PRiz))
+
+UFE _(IDRiz LSE) = UFE _(IDRiz) * (Max (0, L _(IDRiz LSE)) / L _(IDRiz))
+
+UFE _(TRiz LSE) = UFE _(TRiz) * (Max (0, L _(TRiz LSE)) / L _(TRiz))
+
+UFE _(TNOIEiz LSE) = UFE _(TNOIEiz) * (Max (0, L _(TNOIEiz LSE)) / L _(TNOIEiz))
+
+The above variables are defined as follows:
+
+  ------------------------------------------------------------------------------------------------------------------------------------
+  Variable             Unit    Description
+  -------------------- ------- -------------------------------------------------------------------------------------------------------
+  i                    None    Interval.
+
+  z                    None    Zone.
+
+  UFE _(PRiz) _(LSE)   MWh     UFE allocated to LSE in UFE profile category per interval per zone.
+
+  UFE _(IDRiz LSE)     MWh     UFE allocated to LSE in UFE IDR category per interval per zone.
+
+  UFE _(TRiz LSE)      MWh     UFE allocated to LSE in UFE transmission category per interval per zone.
+
+  UFE _(TNOIEiz LSE)   MWh     UFE allocated to LSE in UFE transmission NOIE category per interval per zone.
+
+  UFE _(PRiz)          MWh     Amount of UFE allocated to profile category per interval per zone.
+
+  UFE _(IDRiz)         MWh     Amount of UFE allocated to IDR category per interval per zone.
+
+  UFE _(TRiz)          MWh     Amount of UFE allocated to transmission category per interval per zone.
+
+  UFE _(TNOIEiz)       MWh     Amount of UFE allocated to transmission voltage level NOIE category per interval per zone.
+
+  L _(PRiz LSE)        MWh     LSE Load in profile category - adjusted for losses per interval per zone.
+
+  L _(IDRiz LSE)       MWh     LSE Load in IDR category - adjusted for losses per interval per zone.
+
+  L _(TRiz LSE)        MWh     LSE Load in transmission category - adjusted for losses per interval per zone.
+
+  L _(TNOIEiz LSE)     MWh     LSE Load in transmission NOIE category - adjusted for losses per interval per zone.
+
+  L _(PRiz)            MWh     Aggregate Load of profile category - adjusted for losses per interval per zone.
+
+  L _(IDRiz)           MWh     Aggregate Load of all IDR category - adjusted for losses per interval per zone.
+
+  L _(TRiz)            MWh     Aggregate Load of transmission category - adjusted for losses per interval per zone
+
+  L _(TNOIEiz)         MWh     Aggregate Load of transmission level non opt-in category - adjusted for losses per interval per zone.
+  ------------------------------------------------------------------------------------------------------------------------------------
+
+11.5 Data Aggregation
+
+11.5.1 Aggregate Load Data
+
+(1) Load data will be aggregated into distinct grouping and segments such as Load Serving Entity (LSE), Qualified Scheduling Entity (QSE), and Settlement Point, and provided to Settlement.
+
+11.5.1.1 Aggregated Load Data Posting/Availability
+
+(1) The following market-specific Load information will be made available by ERCOT to each Market Participant:
+
+(a) LSE Load Ratio Share (LRS) data by ERCOT total;
+
+  (b) LSE Load values, by unique combination of QSE, Settlement Point, Unaccounted For Energy (UFE) zone, Load Profile Type, Distribution Loss Factor (DLF) code and Transmission Service Provider (TSP) and /or Distribution Service Provider (DSP);
+
+  (c) LSE Load plus allocation of Distribution Losses by unique combination of QSE, Settlement Point, UFE zone, Load Profile Type, DLF code and TSP and/or DSP;
+
+  (d) LSE Load plus allocation of Distribution Losses and Transmission Losses by unique combination of QSE, Settlement Point, UFE zone, Load Profile Type, DLF code and TSP and/or DSP; and
+
+  (e) LSE Load plus allocation of Distribution Losses, Transmission Losses, and UFE by unique combination of QSE, Settlement Point, UFE zone, Load Profile Type, DLF code and TSP and/or DSP.
+
+(2) Each Market Participant will have access only to its own information and/or the information of the Entities which it represents. ERCOT will make the aforementioned data for each Settlement run available to Market Participants via the Market Information System (MIS) Certified Area within 48 hours of finalizing the data for Settlement statements.
+
+11.5.1.2 TSP and/or DSP Load Data Posting/Availability
+
+(1) ERCOT will post TSP and/or DSP Load plus allocation of Distribution Losses, Transmission Losses, and UFE, by TSP and/or DSP, to the MIS Secure Area.
+
+(2) ERCOT will make the aforementioned data for each Settlement run type available to Market Participants via the MIS Secure Area within 48 hours of finalizing the data for Settlement Statements.
+
+(3) ERCOT will post to the MIS Secure Area, a monthly report including TSP and/or DSP 15-minute interval Load data for each Operating Day adjusted to exclude Block Load Transfers (BLTs) or Direct Current Tie (DC Tie) exports.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR1239: Replace paragraphs (1)-(3) above with the following upon system implementation:]                                                                                                                 |
+|                                                                                                                                                                                                             |
+| (1) ERCOT shall post on the ERCOT website the following information, consistent with the requirements in Section 1.3, Confidentiality:                                                                      |
+|                                                                                                                                                                                                             |
+|   (a) ERCOT will post TSP and/or DSP Load plus allocation of Distribution Losses, Transmission Losses, and UFE, by TSP and/or DSP.                                                                          |
+|                                                                                                                                                                                                             |
+|   (b) ERCOT will make the aforementioned data for each Settlement run type available to Market Participants within 48 hours of finalizing the data for Settlement Statements.                               |
+|                                                                                                                                                                                                             |
+|   (c) ERCOT will post a monthly report including TSP and/or DSP 15-minute interval Load data for each Operating Day adjusted to exclude Block Load Transfers (BLTs) or Direct Current Tie (DC Tie) exports. |
++=============================================================================================================================================================================================================+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+11.5.2 Generation Meter Data Aggregation
+
+(1) ERCOT will perform generation aggregation by the following distinct criteria sets:
+
+  (a) By UFE zone: This data set is used in the calculation of UFE in the Load aggregation process; and
+
+  (b) By Generation Resource or Energy Storage Resource (ESR) (Resource ID (RID)), by Resource Entities, by QSE and Settlement Point: This data set is passed to the Settlement process for generation imbalance calculations.
+
+11.5.2.1 Participant Specific Generation Data Posting/Availability
+
+(1) The following market-specific generation information will be made available by ERCOT to each Market Participant:
+
+  (a) Generation unit production by Generation Resource or ESR Entity; and
+
+(b) Generation unit production by QSE.
+
+(2) Each Market Participant will have access only to its own information and/or the information of the Entities, which it represents. ERCOT will make the aforementioned data for each Settlement run available to Market Participants via the MIS Certified Area within 48 hours of finalizing the data for Settlement statements.
+
+11.5.2.2 General Public Data Posting/Availability
+
+(1) The following general market information will be posted to the MIS Secure Area:
+
+(a) Total generation;
+
+(b) Total Adjusted Meter Load (AML); and
+
+(c) Total Wholesale Storage Load (WSL).
+
++----------------------------------------------------------------------------------------+
+| [NPRR1239: Replace paragraph (1) above with the following upon system implementation:] |
+|                                                                                        |
+| (1) The following general market information will be posted on the ERCOT website:      |
+|                                                                                        |
+|   (a) Total generation;                                                                |
+|                                                                                        |
+|   (b) Total Adjusted Meter Load (AML); and                                             |
+|                                                                                        |
+|   (c) Total Wholesale Storage Load (WSL).                                              |
++========================================================================================+
++----------------------------------------------------------------------------------------+
+
+(2) ERCOT will make the aforementioned data for each Settlement run type available to Market Participants via the MIS Certified Area within 48 hours of finalizing the data for Settlement statements.
+
+11.6 Unaccounted For Energy Analysis
+
+11.6.1 Overview
+
+(1) ERCOT will provide an annual Unaccounted For Energy (UFE) analysis report consisting of UFE data analysis from the preceding calendar year. This report will be based on final Settlement data and will be posted to the ERCOT website by April 30^(th). The appropriate Technical Advisory Committee (TAC) Subcommittee may:
+
+(a) Request interim UFE analysis reports;
+
+  (b) Establish a task force for further UFE investigation that may include the establishment of UFE analysis zones. UFE analysis zones will not be used for Settlement purposes until adopted as UFE Settlement zones. Before adoption as UFE Settlement zones the following will be considered, at a minimum:
+
+  (i) Cost-benefit analysis;
+
+  (ii) Installation requirements for Revenue Quality Meters;
+
+  (iii) Impact on the Settlement system;
+
+  (iv) Impact on Market Participant systems; and
+
+  (v) Cost of UFE to Market Participants; and
+
+  (c) Identify factors that are contributing to UFE and work with the appropriate Entities to rectify problems causing UFE.
+
+(2) ERCOT currently has one UFE zone for Settlement purposes, which encompasses all of ERCOT.
+
+11.6.2 Annual Unaccounted For Energy Analysis Report
+
+(1) The annual UFE analysis report will contain both ERCOT-wide and UFE allocation category quantities as follows:
+
+  (a) Total UFE MWhs;
+
+  (b) Total UFE cost;
+
+  (c) Percent of total UFE to ERCOT Load;
+
+  (d) Percent of total UFE cost; and
+
+  (e) Notice of any factors that may be contributing to UFE.

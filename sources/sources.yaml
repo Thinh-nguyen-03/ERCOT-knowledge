@@ -1,0 +1,178 @@
+# Registry of source documents. tier 1 = rules, 2 = official reports, 3 = commentary.
+# kind: docx | pdf | html. Run `node pipeline/fetch.ts <id>` to snapshot.
+sources:
+  - id: np-01
+    title: "ERCOT Nodal Protocols, Section 1: Overview"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-11-06"
+    url: https://www.ercot.com/files/docs/2023/01/26/01-110626_Nodal.docx
+  - id: np-02
+    title: "ERCOT Nodal Protocols, Section 2: Definitions and Acronyms"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-11-06"
+    url: https://www.ercot.com/files/docs/2024/06/28/02-110626_Nodal.docx
+  - id: np-03
+    title: "ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-11-06"
+    url: https://www.ercot.com/files/docs/2025/09/01/03-110626_Nodal.docx
+  - id: np-04
+    title: "ERCOT Nodal Protocols, Section 4: Day-Ahead Operations"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-08-01"
+    url: https://www.ercot.com/files/docs/2024/06/28/04-080126_Nodal.docx
+  - id: np-05
+    title: "ERCOT Nodal Protocols, Section 5: Transmission Security Analysis and Reliability Unit Commitment"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-08-01"
+    url: https://www.ercot.com/files/docs/2024/06/28/05-080126_Nodal.docx
+  - id: np-06
+    title: "ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-11-06"
+    url: https://www.ercot.com/files/docs/2024/06/28/06-110626_Nodal.docx
+  - id: np-07
+    title: "ERCOT Nodal Protocols, Section 7: Congestion Revenue Rights"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2025-12-05"
+    url: https://www.ercot.com/files/docs/2021/08/01/07-120525_Nodal.docx
+  - id: np-08
+    title: "ERCOT Nodal Protocols, Section 8: Performance Monitoring"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-11-06"
+    url: https://www.ercot.com/files/docs/2022/12/09/08-110626_Nodal.docx
+  - id: np-09
+    title: "ERCOT Nodal Protocols, Section 9: Settlement and Billing"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-08-01"
+    url: https://www.ercot.com/files/docs/2023/06/01/09-080126_Nodal.docx
+  - id: np-10
+    title: "ERCOT Nodal Protocols, Section 10: Metering"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-06-01"
+    url: https://www.ercot.com/files/docs/2024/07/01/10-060126_Nodal.docx
+  - id: np-11
+    title: "ERCOT Nodal Protocols, Section 11: Data Acquisition and Aggregation"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-06-01"
+    url: https://www.ercot.com/files/docs/2024/07/01/11-060126_Nodal.docx
+  - id: np-12
+    title: "ERCOT Nodal Protocols, Section 12: Market Information System"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-08-01"
+    url: https://www.ercot.com/files/docs/2022/06/01/12-080126_Nodal.docx
+  - id: np-13
+    title: "ERCOT Nodal Protocols, Section 13: Transmission and Distribution Losses"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2025-12-05"
+    url: https://www.ercot.com/files/docs/2023/06/01/13-120525_Nodal.docx
+  - id: np-14
+    title: "ERCOT Nodal Protocols, Section 14: State of Texas Renewable Energy Credit Trading Program"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-08-01"
+    url: https://www.ercot.com/files/docs/2020/12/31/14-080126_Nodal.docx
+  - id: np-15
+    title: "ERCOT Nodal Protocols, Section 15: Customer Registration"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-08-01"
+    url: https://www.ercot.com/files/docs/2023/03/31/15-080126_Nodal.docx
+  - id: np-16
+    title: "ERCOT Nodal Protocols, Section 16: Registration and Qualification of Market Participants"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-08-01"
+    url: https://www.ercot.com/files/docs/2024/07/01/16-080126_Nodal.docx
+  - id: np-17
+    title: "ERCOT Nodal Protocols, Section 17: Market Monitoring and Data Collection"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2021-06-01"
+    url: https://www.ercot.com/files/docs/2021/06/01/17-060121_Nodal.docx
+  - id: np-18
+    title: "ERCOT Nodal Protocols, Section 18: Load Profiling"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-06-01"
+    url: https://www.ercot.com/files/docs/2022/04/01/18-060126_Nodal.docx
+  - id: np-19
+    title: "ERCOT Nodal Protocols, Section 19: Texas Standard Electronic Transaction"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-08-01"
+    url: https://www.ercot.com/files/docs/2023/03/31/19-080126_Nodal.docx
+  - id: np-20
+    title: "ERCOT Nodal Protocols, Section 20: Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2023-11-01"
+    url: https://www.ercot.com/files/docs/2021/04/01/20-110123_Nodal.docx
+  - id: np-21
+    title: "ERCOT Nodal Protocols, Section 21: Revision Request Process"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-08-01"
+    url: https://www.ercot.com/files/docs/2023/06/01/21-080126_Nodal.docx
+  - id: np-24
+    title: "ERCOT Nodal Protocols, Section 24: Retail Point to Point Communications"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2023-11-01"
+    url: https://www.ercot.com/files/docs/2020/12/31/24-110123_Nodal.docx
+  - id: np-25
+    title: "ERCOT Nodal Protocols, Section 25: Market Suspension and Restart"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2025-12-05"
+    url: https://www.ercot.com/files/docs/2022/11/15/25-120525_Nodal.docx
+  - id: np-26
+    title: "ERCOT Nodal Protocols, Section 26: Securitization Default Charges"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2025-12-05"
+    url: https://www.ercot.com/files/docs/2022/06/01/26-120525_Nodal.docx
+  - id: np-27
+    title: "ERCOT Nodal Protocols, Section 27: Securitization Uplift Charges"
+    publisher: ERCOT
+    tier: 1
+    kind: docx
+    edition: "effective 2026-03-01"
+    url: https://www.ercot.com/files/docs/2022/07/15/27-030126_Nodal.docx

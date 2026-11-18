@@ -1,0 +1,12 @@
+{
+ "id": "np-11",
+ "title": "ERCOT Nodal Protocols, Section 11: Data Acquisition and Aggregation",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "effective 2026-06-01",
+ "url": "https://www.ercot.com/files/docs/2024/07/01/11-060126_Nodal.docx",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 73452,
+ "raw_sha256": "84130e29db34e2778ff660645e94d33619a0430efe7e036bb468217f8e83a0b4",
+ "text_chars": 99178
+}

@@ -1,0 +1,12 @@
+{
+ "id": "np-25",
+ "title": "ERCOT Nodal Protocols, Section 25: Market Suspension and Restart",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "effective 2025-12-05",
+ "url": "https://www.ercot.com/files/docs/2022/11/15/25-120525_Nodal.docx",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 84500,
+ "raw_sha256": "6a194f047347decc14ef1e01ffa8665b9d642fdc560017ff46272e8b1836d095",
+ "text_chars": 51199
+}

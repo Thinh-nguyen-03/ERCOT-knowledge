@@ -1,0 +1,689 @@
+ERCOT Nodal Protocols
+
+Section 25: Market Suspension and Restart
+
+December 5, 2025
+
+25 Market Suspension and Restart 25-1
+
+25.1 Introduction 25-1
+
+25.2 Market Suspension Principles 25-1
+
+25.3 Market Restart Processes 25-3
+
+25.4 Market Suspension Credit Processes 25-4
+
+25.4.1 Market Suspension Credit Assumptions 25-4
+
+25.4.2 Determination of Counter-Party Available Credit Limits 25-5
+
+25.4.3 Collateral Management 25-5
+
+25.5 Market Suspension and Market Restart Settlement 25-5
+
+25.5.1 Settlement Activity for a Market Suspension 25-5
+
+25.5.2 Market Suspension Make-Whole Payment 25-8
+
+25.5.3 Market Suspension DC Tie Import Payment 25-12
+
+25.5.4 Market Suspension Block Load Transfer Payment 25-13
+
+25.5.5 Market Suspension Charge Allocation 25-14
+
+25.5.6 Market Suspension Data Submissions 25-18
+
+25.5.7 Invoice Payment and Charges Schedule 25-19
+
+25.5.8 RMR Settlements 25-19
+
+25.6 ERCOT Retail Operations 25-19
+
+25.6.1 ERCOT Retail Operations Market Suspension Procedures 25-19
+
+Market Suspension and Restart
+
+25.1 Introduction
+
+(1) A Market Suspension triggering event may result in the suspension and restart of market activity, including but not limited to:
+
+  (a) Day-Ahead Market (DAM) activities;
+
+  (b) Real-Time Market (RTM) activities;
+
+  (c) Congestion Revenue Right (CRR) Auctions;
+
+  (d) Market credit activities;
+
+  (e) Retail market activities;
+
+  (f) Network Operations Model updates;
+
+  (g) Market reporting activities; and
+
+  (h) Other impacted ERCOT operations and activities.
+
+(2) A Market Suspension will be declared by ERCOT at its sole discretion and communicated to Market Participants in as timely a manner as feasible, given the constraints of the triggering event.
+
+25.2 Market Suspension Principles
+
+(1) The specific activities that will take place during a Market Suspension will depend on the nature of the triggering event, the extent to which market-supporting systems and processes have been curtailed, and other specific circumstances. However, in acting to restore markets, ERCOT shall act in accordance with the following principles:
+
+  (a) ERCOT shall use its crisis communication procedures to foster orderly and timely communication of information with the Public Utility Commission of Texas (PUCT), other Governmental Authorities, Market Participants and stakeholders, the media, and the general public.
+
+  (b) During Market Suspension, ERCOT shall act in accordance with the State of Texas Emergency Management Plan (Annex L).
+
+  (c) Restart of the Real-Time Market (RTM) will be prioritized before other markets and activities.
+
+  (d) Congestion Revenue Right (CRR) Auctions and related functions will start only after the RTM and Day-Ahead Market (DAM) are restored. CRR Auctions will be rescheduled on a best efforts basis. CRR Auctions may be cancelled.
+
+  (e) In the event of market outage where there are DAM awards with no corresponding Security-Constrained Economic Dispatch (SCED) execution, or CRRs with no corresponding DAM execution, these results will be invalidated for the hours corresponding to the Market Suspension.
+
+  (f) Certain transactions, such as trades, DAM bids and offers, and CRR bids and offers, may be restricted until such time as supporting systems are deemed stable.
+
+  (g) Limited Settlement functionality is expected while restoring ERCOT markets. To the extent data are available, reconciliation Settlements may be produced after ERCOT market operations are fully restored.
+
+  (h) Payments to Qualified Scheduling Entities (QSEs) representing Resources shall be made in as timely a manner as possible to support recovery of market functionality.
+
+  (i) As necessary, QSEs representing Resources that support restoration of the ERCOT Transmission Grid shall be made whole to their costs as described in Section 25.5.2, Market Suspension Make-Whole Payment.
+
+  (j) Startup Costs and operating costs incurred during a Market Suspension shall be uplifted on a Load Ratio Share (LRS) basis after Market Restart. If necessary to avoid financial disruption to Market Participants, uplift charges may be assessed on an installment basis.
+
+  (k) If additional liquidity is required during a Market Suspension, ERCOT may utilize available funds such as undistributed CRR Auction Revenues before seeking emergency funding to pay QSEs representing Resources.
+
+  (l) Credit and collateral requirements will be reviewed by ERCOT staff as appropriate to facilitate Market Restart. This could include relaxation of credit requirements and release of cash or other collateral to provide short-term Market Participant liquidity.
+
+  (m) Potential Mass Transitions arising in consequence of the event shall be suspended.
+
+  (n) Retail operations will follow the processes outlined in Retail Market Guide Section 7.10, Extended Unplanned Outage, and related supporting documentation.
+
+  (o) ERCOT will call a special ERCOT Board meeting prior to effectuating Market Restart for the DAM and RTM.
+
+25.3 Market Restart Processes
+
+(1) Specific Market Restart processes may be modified depending on the nature of the triggering event.
+
+(2) Market Restart processes work in conjunction with, but will not supersede, other ERCOT emergency processes and procedures such as Black Start procedures.
+
+(3) Following a declaration by ERCOT of a Market Suspension, in effectuating Market Restart for the Real-Time Market (RTM), ERCOT:
+
+  (a) Shall determine the interval to resume Security-Constrained Economic Dispatch (SCED) execution based on availability and functioning of:
+
+  (i) The Energy Management System (EMS);
+
+  (ii) The Market Management System (MMS);
+
+  (iii) The ERCOT System operating as a single Island as described in the Nodal Operating Guides; and
+
+  (iv) Electronic communications between ERCOT and Market Participants.
+
+  (b) Shall suspend all RTM Settlements and shall settle pursuant to Section 25.5, Market Suspension and Market Restart Settlement;
+
+  (c) Shall suspend Day-Ahead Market (DAM) Settlements for any Operating Days for which ERCOT declares the RTM was suspended;
+
+  (d) May assign Ancillary Services once the ERCOT System is operating as a single Island as described in the Nodal Operating Guides, and ERCOT is ready to control the system using Load Frequency Control (LFC); and
+
+  (e) Shall not restart the RTM until ERCOT has satisfied paragraph (6) below.
+
+(4) When there are no posted DAM results for the Operating Day, and operational conditions allow, ERCOT shall assign Ancillary Services to Qualified Scheduling Entities (QSEs) based on the amount of capacity that their Resources have or can bring On-Line. This process will remain in place until the RTM is able to award Ancillary Services to Resources.
+
+(5) Following a declaration by ERCOT of a Market Suspension, in effectuating a Market Restart for the DAM, ERCOT shall restart the DAM when the below conditions are satisfied:
+
+  (a) The RTM has restarted pursuant to paragraph (3) above;
+
+  (b) ERCOT is reasonably able to model the expected state of the ERCOT Transmission Grid for the next day;
+
+  (c) ERCOT is able to receive market submissions to successfully run the DAM; and
+
+  (d) ERCOT has satisfied paragraph (6) below and has issued a Market Notice stating that it has obtained the necessary approvals.
+
+(6) ERCOT shall not restart the RTM or DAM until:
+
+  (a) The Technical Advisory Committee (TAC) has approved the restart; and
+
+  (b) Either:
+
+  (i) The ERCOT Board has approved the restart; or
+
+  (ii) If, after taking into consideration the possibility of conducting an urgent meeting and holding such meeting by teleconference as set forth in paragraphs (b) and (c) of Section 4.6, Meetings, of the ERCOT Bylaws, it is not reasonably practicable to obtain ERCOT Board approval prior to the restart, the ERCOT CEO, or if designated by the ERCOT CEO, the ERCOT General Counsel, have approved the restart, provided that the ERCOT CEO or ERCOT General Counsel shall not approve a restart of the RTM or DAM pursuant to this paragraph (ii) unless the following parties have agreed in writing to restart the RTM or DAM as proposed by ERCOT:
+
+  (A) The ERCOT Board Chair, or the ERCOT Board Vice Chair in the case the ERCOT Board Chair is, either, unavailable or the position is vacant; and
+
+  (B) Either the Reliability and Markets Committee Chair or the Technology and Security Committee Chair.
+
+(7) During the Market Restart process, credit constraints may be relaxed as applicable as detailed in Section 25.4, Market Suspension Credit Processes.
+
+25.4 Market Suspension Credit Processes
+
+25.4.1 Market Suspension Credit Assumptions
+
+(1) During a Market Suspension, the estimation of market credit is contingent upon the following conditions:
+
+  (a) ERCOT systems critical to credit processes have been restored, with the understanding that some data normally used in credit calculations might not be available;
+
+  (b) Adequate means of communication with Counter-Parties are available; and
+
+  (c) Systems are available for transfer of funds to and from Market Participants.
+
+25.4.2 Determination of Counter-Party Available Credit Limits
+
+(1) During a Market Suspension, a Counter-Party’s Available Credit Limit for the CRR Auction (ACLC) and Available Credit Limit for the DAM (ACLD) will be determined pursuant to Section 16.11.4.6, Determination of Counter-Party Available Credit Limits.
+
+(2) In accordance with Section 25.4.3, Collateral Management, ERCOT may, at its sole discretion, waive, in part or in full, the requirements in paragraph (2) of Section 16.11.5, Monitoring of a Counter-Party’s Creditworthiness Credit Exposure by ERCOT, for Counter-Parties to maintain designated amounts of Secured and/or Remainder Collateral.
+
+(3) The exercise of any measures described in paragraph (2) above shall be reflected in the estimated ACLC and/or ACLD values provided to Counter-Parties pursuant to Section 16.11.4.6.
+
+25.4.3 Collateral Management
+
+(1) During a Market Suspension, and for no more than two Bank Business Days following restart of the Day-Ahead Market (DAM), ERCOT may, at its sole discretion, forego the requirement in paragraph (3) of Section 16.11.5, Monitoring of a Counter-Party’s Creditworthiness Credit Exposure by ERCOT, to provide prompt notice to Counter-Parties of the need to increase Financial Security.
+
+(2) During a Market Suspension, and for no more than two Bank Business Days following restart of the DAM, ERCOT may, at its sole discretion, extend the timelines in paragraph (6) of Section 16.11.5 to allow Counter-Parties to make arrangements to provide collateral, without unmet requests for collateral being designated as Late Payments.
+
+25.5 Market Suspension and Market Restart Settlement
+
+25.5.1 Settlement Activity for a Market Suspension
+
+(1) Settlement for the Operating Days for which the Real-Time Market (RTM) has been suspended shall be limited to the following payments and charges:
+
+  (a) Market Suspension Make-Whole Payment;
+
+  (b) Market Suspension Direct Current Tie (DC Tie) Import Payment;
+
+  (c) Market Suspension Block Load Transfer Payment;
+
+  (d) Reliability Must-Run (RMR) Standby Payment;
+
+  (e) RMR Payment for Energy;
+
+  (f) Black Start Hourly Standby Fee Payment;
+
+  (g) Firm Fuel Supply Service Hourly Standby Fee Payment and Fuel Replacement Cost Recovery;
+
+  (h) Market Suspension Charge Allocation; and
+
+  (i) ERCOT System Administration Fee.
+
+(2) During a Market Suspension:
+
+  (a) To the extent feasible, ERCOT shall calculate and pay the Real-Time Market Suspension Make-Whole Payment to each eligible Qualified Scheduling Entity (QSE).
+
+  (b) ERCOT shall wire the funds to the QSE’s banking institution as soon as practicable, subject to the availability of funds and the availability of systems for transfer of funds.
+
+  (c) At its sole discretion, ERCOT may suspend calculating monthly verifiable cost updates.
+
+  (d) ERCOT shall not assess:
+
+  (i) Market Suspension Charge Allocation as defined in Section 25.5.5, Market Suspension Charge Allocation;
+
+  (ii) Market Suspension DC Tie Import Payment as defined in Section 25.5.3, Market Suspension DC Tie Import Payment;
+
+  (iii) Market Suspension Block Load Transfer Payment as defined in Section 25.5.4, Market Suspension Block Load Transfer Payment;
+
+  (iv) RMR Standby Payment;
+
+  (v) RMR Payment for Energy;
+
+  (vi) Black Start Hourly Standby Fee Payment; and
+
+  (vii) ERCOT System Administration Fee.
+
+(3) ERCOT may, at its sole discretion, settle the Operating Days that occur during a Market Suspension without use of RTM Settlement Statements, Settlement Invoices, and associated provisions, as described in Section 9, Settlement and Billing.
+
+(4) ERCOT shall maintain available supporting billing determinant Settlement data for Market Suspension Operating Day Settlement and shall provide this information to each QSE as soon as practicable.
+
+(5) ERCOT shall cease to utilize the provisions for Market Suspension Settlement beginning with the first complete Operating Day for which ERCOT issues Dispatch Instructions to QSEs in accordance with Section 25.3, Market Restart Processes.
+
+(6) After Market Restart ERCOT shall:
+
+  (a) Reconcile payments to QSEs with Generation Resources or Energy Storage Resources (ESRs) pursuant to Section 25.5.2, Market Suspension Make-Whole Payment, using the best available generation data;
+
+  (b) Calculate Market Suspension DC Tie Import Payments as defined in Section 25.5.3;
+
+  (c) Calculate Market Suspension Block Load Transfer Payments as defined in Section 25.5.4;
+
+  (d) Calculate Market Suspension RMR Standby Payments in accordance with Section 6.6.6.1, RMR Standby Payment;
+
+  (e) Calculate Market Suspension RMR Payment for Energy in accordance with Section 6.6.6.2, RMR Payment for Energy;
+
+  (f) Calculate Market Suspension Black Start Service in accordance with Section 6.6.8.1, Black Start Hourly Standby Fee Payment;
+
+  (g) Allocate costs in accordance with Section 25.5.5; and
+
+  (h) Assess the ERCOT System Administration Fee for the time period of the Market Suspension in accordance with Section 9.16.1, ERCOT System Administration Fee, using the best available Load data.
+
+(7) ERCOT shall provide Notice no less than two Business Days prior to issuing any reconciliation Settlement for the impacted period.
+
+(8) ERCOT shall resume other Settlement activities that were suspended as a result of, or in relation to, the Market Suspension as soon as practicable following the Market Restart, including, but not limited to, pending Congestion Revenue Right (CRR), Day-Ahead Market (DAM) and RTM Settlement for Operating Days prior to the Market Suspension.
+
+25.5.2 Market Suspension Make-Whole Payment
+
+(1) To compensate QSEs representing Generation Resources or ESRs for providing energy during a Market Suspension, ERCOT shall calculate a Market Suspension Make-Whole Payment for the Operating Day as follows:
+
+  MSMWAMT _(q, r, d) = (-1) * (MSSUC _(q, r, d) + MSOC _(q, r, d) + MSSUCADJ _(q, r, d) + MSOCADJ _(q, r, d))
+
+  Where,
+
+  The startup cost (MSSUC) is calculated as follows:
+
+  For Black Start Resources:
+
+  MSSUC _(q, r, d) = $0.00
+
+  For Combined Cycle Trains:
+
+  MSSUC _(q, r, d) = []MSSUPR _(q, r, s) + [](MAX (0, MSSUPR _(afterCCGR) –
+
+  MSSUPR _(beforeCCGR)))
+
+  For all other Resources:
+
+  MSSUC _(q, r, d) = [] MSSUPR _(q, r, s)
+
+  The startup price (MSSUPR) and operating cost (MSOC) are calculated as follows:
+
+  If ERCOT has approved verifiable costs for the Generation Resource:
+
+  For Firm Fuel Supply Resources (FFSRs) starting with a reserved fuel
+
+  MSSUPR _(q, r, s) = RVOMS _(q, r, s)
+
+  MSOC _(q, r, d) = [](ROM _(q, r)) * MSGEN _(q, r, i)
+
+  Otherwise,
+
+  MSSUPR _(q, r, s) = RABCFCRS _(q, r, s) * (MSAVGFP + FA _(q, r)) + RVOMS _(q, r, s)
+
+  MSOC _(q, r, d) = [](AHR _(q, r, i) * (MSAVGFP + FA _(q, r)) + ROM _(q, r)) * MSGEN _(q, r, i)
+
+  If ERCOT has not approved verifiable costs for the Generation Resource:
+
+  For FFSRs starting with a reserved fuel
+
+  MSSUPR _(q, r, s) = RCGSC
+
+  MSOC _(q, r, d) = [](STOM _(rc)) * MSGEN _(q, r, i)
+
+  Otherwise,
+
+  MSSUPR _(q, r, s) = RCGSC
+
+  MSOC _(q, r, d) = [](PAHR _(r, i) * (MSAVGFP + PFA _(rc)) + STOM _(rc)) * MSGEN _(q, r, i)
+
+  Where,
+
+  MSAVGFP = MSAVGFIP for Generation Resources that indicate in the Resource Registration process or the verifiable cost process to start on natural gas. For ESRs, the MSAVGFIP shall be set to zero.
+
+Or,
+
+  MSAVGFP = MSAVGFOP for Generation Resources that indicate in the Resource Registration process or through the verifiable cost process to start on fuel oil
+
+The above variables are defined as follows:
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Variable              Unit            Definition
+  --------------------- --------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  MSMWAMT _(q, r, d)    $               Market Suspension Make-Whole Payment – The Market Suspension Make-Whole Payment to the QSE q, for Resource r, for the Operating Day d. Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+
+  MSSUCADJ _(q, r, d)   $               Market Suspension Startup Costs Adjustment – Adjustment to the Market Suspension Make-Whole Payment to pay or charge the QSE q for actual costs related to starting up Resource r, for the Operating Day d. Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+
+  MSOCADJ _(q, r, d)    $               Market Suspension Operating Costs Adjustment – Adjustment to the Market Suspension Make-Whole Payment to pay or charge the QSE q for actual costs for operating Resource r, for the Operating Day d. Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+
+  MSSUC _(q, r, d)      $               Market Suspension Startup Cost – The Startup Costs for Resource r represented by QSE q during restart hours, for the Operating Day d. Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+
+  MSSUPR _(q, r, s)     $               Market Suspension Startup Price per Start – The Market Suspension Settlement price for Resource r represented by QSE q for the start s. Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+
+  RABCFCRS _(q, r, s)   MMBtu / start   Raw Actual Breaker Close Fuel Consumption Rate per Start – The raw actual verifiable fuel consumption rate, from first fire to breaker close, for the Resource r represented by QSE q, per start s, for the warmth state, as submitted through the verifiable cost process. Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+
+  MSOC _(q, r, d)       $               Market Suspension Operating Cost – The Market Suspension operating cost for Resource r represented by QSE q for operations after breaker close for the Operating Day d. Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+
+  RVOMS _(q, r, s)      $/start         Raw Verifiable Operations and Maintenance Cost per Start – The raw verifiable Operations and Maintenance (O&M) cost for the Resource r represented by QSE q, per start s, for the warmth state, as submitted through the verifiable cost process. Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+
+  ROM _(q, r)           $/MWh           Raw Verifiable Operations and Maintenance Cost Above LSL – The raw verifiable O&M cost for the Resource r represented by QSE q for operations above Low Sustained Limit (LSL). Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+
+  STOM _(rc)            $/MWh           Standard Operations and Maintenance Cost – The standard O&M cost for the Resource category rc for operations above LSL, shall be set to the minimum energy variable O&M costs, as described in paragraph (6)(c) of Section 5.6.1, Verifiable Costs. For an ESR, STOM shall be set at $0.3/MWh and for a DC-Coupled Resource, the value shall be set at $4.40/MWh.
+
+  MSAVGFP               $/MMBtu         Market Suspension Average Fuel Price – The Market Suspension average fuel price calculated based on MSAVGFIP or MSAVGFOP.
+
+  MSAVGFIP              $/MMBtu         Market Suspension Average Fuel Index Price – The Market Suspension average Fuel Index Price (FIP) calculated as the average price of FIP for the 15 days prior to the Market Suspension event, calculated on a daily rolling basis for Operating Days the index price is available to ERCOT.
+
+  MSAVGFOP              $/MMBtu         Market Suspension Average Fuel Oil Price – The Market Suspension average Fuel Oil Price (FOP) calculated as the average price of FOP for the 15 days prior to the Market Suspension event, calculated on a daily rolling basis for Operating Days the index price is available to ERCOT.
+
+  RCGSC                 $/start         Resource Category Generic Startup Cost – The Resource Category Generic Startup Cost cap for the category of the Resource, according to Section 4.4.9.2.3, Startup Offer and Minimum-Energy Offer Generic Caps, for the Operating Day.
+
+  FA _(q, r)            $/MMBtu         Verifiable Average Fuel Adder – The verifiable average fuel price adder for the Resource r represented by QSE q. The fuel adder shall be set to the actual approved verifiable fuel adder or the standard value defined in the Verifiable Cost Manual. Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+
+  PFA _(rc)             $/MMBtu         Proxy Fuel Adder – The proxy fuel price adder for the Resource category rc. For all thermal Generation Resources, the fuel adder shall be set to $0.50/MMBtu; otherwise, the fuel adder shall be set to $0.00/MMBtu.
+
+  AHR _(q, r, i)        MMBtu / MWh     Average Heat Rate per Resource – The verifiable average heat rate for the Resource r represented by QSE q, for operating levels between LSL and High Sustained Limit (HSL), for the 15-minute Settlement Interval i. Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+
+  PAHR _(r, i)          MMBtu / MWh     Proxy Average Heat Rate – The proxy average heat rate for the Resource r for the 15-minute Settlement Interval i. Where for a Combined Cycle Train, the Resource r is a Combined Cycle Generation Resource within the Combined Cycle Train.
+
+  MSGEN _(q, r, i)      MWh             Market Suspension Generation per Resource – The generation for the Resource r represented by QSE q for the 15-minute Settlement Interval i.
+
+  q                     None            A QSE.
+
+  r                     None            A Generation Resource or ESR.
+
+  d                     None            An Operating Day during a Market Suspension event.
+
+  i                     None            A 15-minute Settlement Interval within the hour of an Operating Day of a Market Suspension event.
+
+  s                     None            A Generation Resource start during an Operating Day of a Market Suspension event.
+
+  t                     None            A transition that is eligible to have its costs included in the Market Suspension Startup Cost.
+
+  rc                    None            A Resource category.
+
+  afterCCGR             None            The Combined Cycle Generation Resource to which a Combined Cycle Train transitions.
+
+  beforeCCGR            None            The Combined Cycle Generation Resource from which a Combined Cycle Train transitions.
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+(2) The total compensation to each QSE for the Market Suspension Make-Whole Payment for an Operating Day is calculated as follows:
+
+  MSMWAMTQSETOT _(q, d) = []MSMWAMT _(q, r, d)
+
+  And,
+
+  MSMWAMTTOT _(d) = [] MSMWAMTQSETOT _(q, d)
+
+The above variables are defined as follows:
+
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Variable                Unit   Definition
+  ----------------------- ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  MSMWAMTQSETOT _(q, d)   $      Market Suspension Make-Whole Payment per QSE – The total payment to QSE q for Market Suspension Make-Whole Payment for the Operating Day d.
+
+  MSMWAMTTOT _(d)         $      Market Suspension Make-Whole Payment Total – The total payment to all QSEs for Market Suspension Make-Whole Payment for the Operating Day.
+
+  MSMWAMT _(q, r, d)      $      Market Suspension Make-Whole Payment – The Market Suspension Make-Whole Payment to the QSE q, for Resource r, for the Operating Day d. Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+
+  q                       none   A QSE.
+
+  r                       none   A Generation Resource or ESR.
+
+  d                       none   An Operating Day during a Market Suspension event.
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+(3) During a Market Suspension, ERCOT may cease making payments in accordance with this Section in the event that funds are not available to make such payments.
+
+25.5.3 Market Suspension DC Tie Import Payment
+
+(1) To compensate each QSE for energy imported into the ERCOT System through each DC Tie during a Market Suspension, the payment for an Operating Day is calculated as follows:
+
+  MSEDCIMPAMT _(q, p, d) = (-1) * [] (MSVEEPDCTP _(q, p, i) * MSCAEDCT *
+
+  MSEDCIMP _(q, p, i) * ¼)
+
+The above variables are defined as follows:
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Variable                 Unit    Description
+  ------------------------ ------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  MSEDCIMPAMT _(q, p, d)   $       Market Suspension Emergency DC Import Amount per QSE per Settlement Point – The payment to QSE q for emergency energy imported through DC Tie p, during a Market Suspension, for the Operating Day d.
+
+  MSEDCIMP _(q, p, i)      MW      Market Suspension Emergency DC Import per QSE per Settlement Point – The aggregated DC Tie Schedule for emergency energy imported by QSE q into the ERCOT System during a Market Suspension condition through DC Tie p, for the 15-minute Settlement Interval i.
+
+  MSVEEPDCTP _(q, p, i)    $/MWh   Market Suspension Verified Emergency Energy Price at DC Tie Point – The ERCOT verified cost for the energy imported by QSE q into the ERCOT System during a Market Suspension through a DC Tie p as instructed by a Dispatch Instruction, for the 15-minute Settlement Interval i.
+
+  MSCAEDCT                 none    Market Suspension Cost Adder for Emergency DC Tie Import – A multiplier of 1.10.
+
+  q                        none    A QSE.
+
+  p                        none    A DC Tie Settlement Point.
+
+  i                        none    A 15-minute Settlement Interval within the hour of an Operating Day of a Market Suspension event.
+
+  d                        none    An Operating Day during a Market Suspension event.
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+(2) The total payment to each QSE for all energy imported into the ERCOT System during a Market Suspension through DC Ties for the Operating Day is calculated as follows:
+
+  MSEDCIMPAMTQSETOT _(q, d) = [] MSEDCIMPAMT _(q, p, d)
+
+  And,
+
+  MSEDCIMPAMTTOT _(d) = [] MSEDCIMPAMTQSETOT _(q, d)
+
+The above variables are defined as follows:
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Variable                    Unit   Definition
+  --------------------------- ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  MSEDCIMPAMTQSETOT _(q, d)   $      Market Suspension Emergency DC Import Amount Total per QSE – The total of the payments to QSE q for DC Tie import emergency energy imported into the ERCOT System during a Market Suspension condition through DC Ties, for the Operating Day d.
+
+  MSEDCIMPAMT _(q, p, d)      $      Market Suspension Emergency DC Import Amount per QSE per Settlement Point – The payment to QSE q for emergency energy imported through DC Tie p, for the Operating Day d.
+
+  MSEDCIMPAMTTOT _(d)         $      Market Suspension Emergency DC Import Amount Total – The total Market Suspension Emergency DC Import Amount charges for all QSEs.
+
+  q                           none   A QSE.
+
+  p                           none   A DC Tie Settlement Point.
+
+  d                           none   An Operating Day during a Market Suspension event.
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+25.5.4 Market Suspension Block Load Transfer Payment
+
+(1) The total payment to each QSE for the energy delivered to an ERCOT Load through a Block Load Transfer (BLT) Point that is moved in response to an ERCOT Verbal Dispatch Instruction (VDI) for an Operating Day during a Market Suspension is calculated as follows:
+
+  MSBLTRAMT _(q, bltp, p, d) = (-1) * [](MSVEEPBLTP _(q, bltp, i) * MSCABLT *
+
+  BLTR _(q, p, bltp, i))
+
+The above variables are defined as follows:
+
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Variable                     Unit    Definition
+  ---------------------------- ------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  MSBLTRAMT _(q, bltp, p, d)   $       Market Suspension Block Load Transfer Resource Amount per QSE per Settlement Point per BLT Point – The payment to QSE q for the BLT Resource that delivers energy to Load Zone p through BLT Point bltp during a Market Suspension, for the Operating Day d.
+
+  MSVEEPBLTP _(q, bltp, i)     $/MWh   Market Suspension Verified Emergency Energy Price at BLT Point – The ERCOT verified cost for the energy delivered to an ERCOT Load through BLT Point bltp, represented by QSE q during a Market Suspension event in ERCOT as determined by an ERCOT VDI, for the 15-minute Settlement Interval i.
+
+  MSCABLT                      none    Market Suspension Cost Adder for Block Load Transfer – A multiplier of 1.10.
+
+  BLTR _(q, p, bltp, i)        MWh     Block Load Transfer Resource per QSE per Settlement Point per BLT Point – The energy delivered to an ERCOT Load in Load Zone p through BLT Point bltp represented by QSE q, during a Market Suspension event, for the 15-minute Settlement Interval i.
+
+  q                            none    A QSE.
+
+  p                            none    A Load Zone Settlement Point.
+
+  bltp                         none    A BLT Point.
+
+  i                            none    A 15-minute Settlement Interval within the hour of an Operating Day of a Market Suspension event.
+
+  d                            none    An Operating Day during a Market Suspension event.
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+(2) The total payment to each QSE for all energy delivered to ERCOT Loads through BLT Points during a Market Suspension event for the Operating Day is calculated as follows:
+
+  MSBLTRAMTQSETOT _(q, d) =[][]MSBLTRAMT _(q, bltp, p, d)
+
+  And,
+
+  MSBLTRAMTTOT _(d) = [] MSBLTRAMTQSETOT _(q, d)
+
+The above variables are defined as follows:
+
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Variable                  Unit   Definition
+  ------------------------- ------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  MSBLTRAMTQSETOT _(q, d)   $      Market Suspension Block Load Transfer Amount Total per QSE – The total payment to QSE q for energy delivered into the ERCOT System through BLT Points during a Market Suspension for the Operating Day d.
+
+  MSBLTRAMT _(q, bltp, p)   $      Market Suspension Block Load Transfer Resource Amount per QSE per Settlement Point per BLT Point – The payment to QSE q for the BLT Resource that delivers energy to Load Zone p through BLT Point bltp during a Market Suspension for the Operating Day d.
+
+  MSBLTRAMTTOT _(d)         $      Market Suspension Block Load Transfer Amount Total – The total Market Suspension Block Load Transfer Amount for all QSEs for the Operating Day d.
+
+  q                         none   A QSE.
+
+  p                         none   A Load Zone Settlement Point.
+
+  bltp                      none   A BLT Point.
+
+  d                         none   An Operating Day during a Market Suspension event.
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+25.5.5 Market Suspension Charge Allocation
+
+(1) After resumption of the RTM, and in accordance with Section 25.5.1, Settlement Activity for a Market Suspension, ERCOT shall allocate the cost on a Load Ratio Share (LRS) basis for the cost to:
+
+  (a) Reimburse QSEs representing Resources for Market Suspension Make-Whole Payments in accordance with Section 25.5.2, Market Suspension Make-Whole Payment;
+
+  (b) Reimburse QSEs for Market Suspension DC Tie Import Payments in accordance with Section 25.5.3, Market Suspension DC Tie Import Payment;
+
+  (c) Reimburse QSEs for Market Suspension Block Load Transfer Payments in accordance with Section 25.5.4, Market Suspension Block Load Transfer Payment;
+
+  (d) Reimburse QSEs for Market Suspension RMR Standby Payments in accordance with Section 6.6.6.1, RMR Standby Payment;
+
+  (e) Reimburse QSEs for Market Suspension RMR Payment for Energy in accordance with Section 6.6.6.2, RMR Payment for Energy;
+
+  (f) Reimburse QSEs for Market Suspension Firm Fuel Supply Service Standby Payment and Fuel Replacement Cost Recovery Payment in accordance with Section 6.6.14.2, Firm Fuel Supply Service Hourly Standby Fee Payment and Fuel Replacement Cost Recovery;
+
+  (g) Reimburse QSEs for Market Suspension Black Start Service in accordance with Section 6.6.8.1, Black Start Hourly Standby Fee Payment;
+
+  (h) Reimburse QSEs representing ESRs for approved charging costs incurred prior to the Market Suspension; and
+
+  (i) Pay any other unfunded non-recurring costs incurred in restarting ERCOT markets.
+
+(2) ERCOT shall charge for the costs described above through the Market Suspension Charge Allocation.
+
+  (a) These charges shall be initially allocated on an LRS basis for the most recent 30 days prior to the Market Suspension event for which Initial Settlement has been completed. For purposes of this charge, a QSE’s basis shall be the QSE’s total Real-Time Adjusted Metered Load (AML) for the 30 days prior to the Market Suspension divided by the total ERCOT Real-Time AML for the same period. The initial Market Suspension Charge to each QSE for a given Operating Day is calculated as follows:
+
+  LARTMSAMT _(q) = (-1) * (MSMWAMTTOT _(d) + MSEDCIMPAMTTOT _(d) + MSBLTRAMTTOT _(d) + []RMRSBAMTTOT + []RMREAMTTOT + []BSSAMTTOT) * RTMSLRS _(q)
+
+  Where:
+
+  RTMSLRS _(q) = Max(0,[][][]RTAML _(q, p, i)) / [](Max(0,[][][]RTAML _(q, p, i)))
+
+The above variables are defined as follows:
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Variable              Unit     Definition
+  --------------------- -------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  LARTMSAMT _(q)        $        Load Allocated Real-Time Market Suspension Charge – The allocated charge to QSE q for Market Suspension activities for the Operating Day.
+
+  MSEDCIMPAMTTOT _(d)   $        Market Suspension Emergency DC Import Amount Total – The total Market Suspension Emergency DC Import Amount charges for all QSEs for the Operating Day d.
+
+  MSMWAMTTOT _(d)       $        Market Suspension Make-Whole Payment Total – The total payment to all QSEs for Market Suspension Make-Whole Payments for the Operating Day.
+
+  MSBLTRAMTTOT _(d)     $        Market Suspension Block Load Transfer Amount Total – The total Market Suspension Block Load Transfer Amount for all QSEs for the Operating Day d.
+
+  BSSAMTTOT             $        Black Start Service Amount QSE Total ERCOT-Wide – The total of the payments to QSE q for Black Start Service (BSS) provided by all the BSS Resource represented by this QSE for the hour h.
+
+  RMREAMTTOT            $        RMR Energy Amount Total – The total of the energy cost payments to all QSEs for all RMR Units, for the hour.
+
+  RMRSBAMTTOT           $        RMR Standby Amount Total – The total of the Standby Payments to all QSEs for all RMR Units, for the hour.
+
+  RTMSLRS _(q)          none     Real-Time Market Suspension Load Ratio Share – The ratio of the QSE q’s Real-Time AML to the total ERCOT Real-Time AML for the 30 day period prior to the Market Suspension for which Initial Settlement has been completed.
+
+  RTAML _(q, p, i)      MWh      Real-Time Adjusted Metered Load – The sum of the AML at the Electrical Buses that are included in Settlement Point p, represented by QSE q, for the 15-minute Settlement Interval i.
+
+  i                     none     A 15-minute Settlement Interval.
+
+  q                     none     A QSE.
+
+  p                     none     A Load Zone Settlement Point.
+
+  d                     none     An Operating Day.
+
+  h                     none     An hour within a Market Suspension.
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  (b) This Market Suspension Charge shall be resettled using Transmission and/or Distribution Service Provider (TDSP)-submitted actual and estimated Load data. ERCOT-estimated data will be excluded. The most recent 30 day LRS prior to the Market Suspension event, as described in paragraph (a) above, will continue to be used to allocate Startup Costs and standby payments for RMR Units and Black Start Resources. The resettled Market Suspension Charge to each QSE for a given Operating Day is calculated as follows:
+
+  LARTMSAMT _(q) = (-1) * {([][](MSSUC _(q, r, d) + MSSUCADJ _(q, r, d)) + []RMRSBAMTTOT +[]BSSAMTTOT) * RTMSLRS _(q) + [MSMWAMTTOT _(d) - [][](MSSUC _(q, r, d) + MSSUCADJ _(q, r, d)) + MSEDCIMPAMTTOT _(d) + MSBLTRAMTTOT _(d) + []RMREAMTTOT] * AMRTSLRS _(q, d)}
+
+  Where:
+
+  AMRTSLRS _(q, d) = Max(0, AMRTAML _(q, d) – AMRTAESRML _(q, d)) / []Max(0, AMRTAML _(q, d) – AMRTAESRML _(q, d))
+
+The above variables are defined as follows:
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Variable              Unit   Definition
+  --------------------- ------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  LARTMSAMT _(q)        $      Load Allocated Real-Time Market Suspension Charge – The allocated charge to QSE q for Market Suspension activities for the Operating Day.
+
+  MSSUC _(q, r, d)      $      Market Suspension Startup Cost – The Startup Costs for Resource r represented by QSE q during restart hours, for the Operating Day d. Where for a Combined Cycle Train, the Resource r is the Combined Cycle Train.
+
+  MSEDCIMPAMTTOT _(d)   $      Market Suspension Emergency DC Import Amount Total – The total Market Suspension Emergency DC Import Amount charges for all QSEs for the Operating Day d.
+
+  MSMWAMTTOT _(d)       $      Market Suspension Make-Whole Payment Total – The total payment to all QSEs for Market Suspension Make-Whole Payments for the Operating Day.
+
+  MSBLTRAMTTOT _(d)     $      Market Suspension Block Load Transfer Amount Total – The total Market Suspension Block Load Transfer Amount for all QSEs for the Operating Day d.
+
+  BSSAMTTOT             $      Black Start Service Amount QSE Total ERCOT-Wide – The total of the payments to QSE q for BSS provided by all the BSS Resource represented by this QSE for the hour.
+
+  RMREAMTTOT            $      RMR Energy Amount Total – The total of the energy cost payments to all QSEs for all RMR Units, for the hour.
+
+  RMRSBAMTTOT           $      RMR Standby Amount Total – The total of the Standby Payments to all QSEs for all RMR Units, for the hour.
+
+  RTMSLRS _(q, d)       none   Real-Time Market Suspension Load Ratio Share – The ratio of the QSE q’s Real-Time AML to the total ERCOT Real-Time AML for the 30 day period prior to the Market Suspension for which Initial Settlement has been completed.
+
+  AMRTSLRS _(q, d)      none   Actual Metered Real-Time Suspension Load Ratio Share – The ratio of the QSE q’s actual metered Real-Time AML to the total ERCOT actual metered Real-Time AML.
+
+  AMRTAML _(q, d)       MWh    Actual Metered Real-Time Adjusted Metered Load – The sum of the actual metered Load represented by QSE q for the day d.
+
+  AMRTAESRML _(q, d)    MWh    Actual Metered Real-Time Adjusted ESR Metered Load – The sum of the ESR actual metered Load represented by QSE q for the day d. Where the ESR actual metered Load represents the ESR Load as measured by Metered Energy for Energy Storage Resource Load at Bus (MEBR), as described in Section 6.6.3.1, Real-Time Energy Imbalance Payment or Charge at a Resource Node.
+
+  q                     none   A QSE.
+
+  d                     none   An Operating Day during a Market Suspension event.
+
+  h                     none   An hour within a Market Suspension.
+
+  r                     none   A Generation Resource or ESR.
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+25.5.6 Market Suspension Data Submissions
+
+(1) Any data submissions provided by the TDSP, Meter Reading Entity (MRE), or a QSE representing a Generation Resource required or requested by ERCOT due to a Market Suspension shall be filed within five months of the Market Restart, including but not limited to:
+
+  (a) Generation data;
+
+  (b) Load data;
+
+  (c) Actual price paid for delivered natural gas, fuel oil, or another fuel; and
+
+  (d) Costs associated with the transport or delivery of fuel.
+
+(2) Any QSE representing an ESR may submit the following information to ERCOT within five months of the Market Restart for ERCOT’s use in calculating the QSE’s payment pursuant to Section 25.5.2, Market Suspension Make-Whole Payment:
+
+  (a) Actual variable O&M rate incurred during the Market Suspension period in lieu of the Standard Operations and Maintenance Cost (STOM);
+
+  (b) The electricity cost incurred prior to a Market Suspension for any net amount of discharge of the battery during the Market Suspension period, if the ESR’s state of charge at the end of the Market Suspension is less than the state of charge at the beginning of the period. The electricity cost incurred to charge the battery prior to a Market Suspension may include the cost of serving any auxiliary Load not measured with the settlement meters. The following information must be provided to support recovery of these costs:
+
+  (i) Battery state of charge prior to Market Suspension;
+
+  (ii) Battery state of charge at the end of the Market Suspension;
+
+  (iii) Prices paid to charge the battery for the MWh difference between (i) and (ii) above.
+
+25.5.7 Invoice Payment and Charges Schedule
+
+(1) To the extent feasible, ERCOT will calculate and pay the Market Suspension Make-Whole Payment in accordance with Section 25.5.2, Market Suspension Make-Whole Payment, to each QSE during a Market Suspension Event.
+
+(2) Beginning five Business Days after the Market Restart, ERCOT will issue initial daily Invoices each Business Day for each Operating Day of the Market Suspension.
+
+(3) ERCOT shall send a Market Notice and post a Settlement Calendar for the Operating Days of the Market Suspension no later than five Business Days after the Market Restart.
+
+(4) ERCOT shall adjust the initial Invoice with a final Invoice that shall be issued 55 days after the initial Invoice was issued unless that day is not a Business Day. If the 55th day is not a Business Day, then ERCOT shall issue the final Invoice on the first Business Day after the 55th day.
+
+(5) ERCOT shall true up the final Invoice with a true up Invoice that shall be issued 180 days after the initial Invoice was issued unless that day is not a Business Day. If the 180th day is not a Business Day, then ERCOT shall issue the true up Invoice on the first Business Day after the 180th day.
+
+(6) Payments due to and from ERCOT for Settlement Invoices related to a Market Suspension shall be done in accordance with Section 9.7, Payment Process for the Settlement Invoices.
+
+25.5.8 RMR Settlements
+
+(1) After ERCOT resumes Settlement of the RTM following a Market Suspension, RMR Units shall be settled in accordance with Section 6.6.6.1, RMR Standby Payment, and Section 6.6.6.2, RMR Payment for Energy, except that, before actual costs are submitted, the FIP may be replaced with the Market Suspension Average Fuel Index Price (MSAVGFIP), as described in Section 25.5.2, Market Suspension Make-Whole Payment.
+
+25.6 ERCOT Retail Operations
+
+25.6.1 ERCOT Retail Operations Market Suspension Procedures
+
+(1) Once ERCOT has declared a Market Suspension, Market Participants shall follow the processes outlined in Retail Market Guide Section 7.10, Extended Unplanned Outage, and in applicable supplementary documentation.
+
+(2) Following a declaration of Market Suspension, when practicable, ERCOT shall issue a Market Notice informing Market Participants of when ERCOT expects to resume processing retail market transactions. This may not be contemporaneous with the restart of other ERCOT market-related functions.
+
+(3) As soon as practicable, following the issuance of the Market Notice, ERCOT shall conduct one or more retail market conference calls. The calls are intended to allow ERCOT and Market Participants to identify and communicate ongoing issues and system constraints, coordinate processes for staging, ordering and submission of back-logged retail market transactions, and identify impacts on related processes such as flight testing.

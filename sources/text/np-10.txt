@@ -1,0 +1,1135 @@
+ERCOT Nodal Protocols
+
+Section 10: Metering
+
+June 1, 2026
+
+10 METERING 10-1
+
+10.1 Overview 10-1
+
+10.2 Scope of Metering Responsibilities 10-1
+
+10.2.1 QSE Real-Time Metering 10-1
+
+10.2.2 TSP and DSP Metered Entities 10-2
+
+10.2.3 ERCOT-Polled Settlement Meters 10-3
+
+10.2.3.1 Entity EPS Responsibilities 10-4
+
+10.2.4 Resource Entity Calculation and Telemetry of ESR Auxiliary Load Values 10-6
+
+10.2.4.1 Responsibilities for Resource Entity Calculation and Telemetry of ESR Auxiliary Load Values 10-7
+
+10.3 Meter Data Acquisition System (MDAS) 10-10
+
+10.3.1 Purpose 10-10
+
+10.3.2 ERCOT-Polled Settlement Meters 10-10
+
+10.3.2.1 Generation Resource Meter Splitting 10-11
+
+10.3.2.1.1 Split Generation Resource Metering Real-Time Signal 10-11
+
+10.3.2.1.2 Allocating EPS Metered Data to Split Generation Resource Meters 10-12
+
+10.3.2.1.3 Processing for Missing Dynamic Split Generation Resource Signal 10-12
+
+10.3.2.1.4 Calculating the Split Generation Resource Ratio 10-12
+
+10.3.2.1.5 Split Generation Resource Data Made Available to Market Participants 10-13
+
+10.3.2.1.6 Allocating EPS Metered Data to Generator Owners When It Is Net Load 10-13
+
+10.3.2.2 Loss Compensation of EPS Meter Data 10-13
+
+10.3.2.3 Generation Netting for ERCOT-Polled Settlement Meters 10-13
+
+10.3.2.4 Reporting of Net Generation Capacity 10-17
+
+10.3.3 TSP or DSP Metered Entities 10-17
+
+10.3.3.1 Data Responsibilities 10-17
+
+10.3.3.2 Retail Load Meter Splitting 10-18
+
+10.3.3.2.1 Retail Customer Load Splitting Mechanism 10-18
+
+10.3.3.2.2 TSP and DSP Responsibilities Associated with Retail Customer Load Splitting 10-19
+
+10.3.3.2.3 ERCOT Requirements for Retail Load Splitting 10-19
+
+10.3.3.3 Submission of Settlement Quality Meter Data to ERCOT 10-19
+
+10.3.3.3.1 Past Due Data Submission 10-20
+
+10.4 Certification of EPS Metering Facilities 10-20
+
+10.4.1 Overview 10-20
+
+10.4.2 EPS Design Proposal Documentation Required from the TSP or DSP 10-21
+
+10.4.2.1 Approval or Rejection of an EPS Design Proposal for EPS Metering Facilities 10-21
+
+10.4.2.1.1 Unconditional Approval 10-21
+
+10.4.2.1.2 Conditional Approval 10-21
+
+10.4.2.1.3 Rejection 10-22
+
+10.4.3 Site Certification Documentation Required from the TSP or DSP EPS Meter Inspector 10-22
+
+10.4.3.1 Review by ERCOT 10-23
+
+10.4.3.2 Provisional Approval 10-23
+
+10.4.3.3 Obligation to Maintain Approval 10-23
+
+10.4.3.4 Revocation of Approval 10-23
+
+10.4.3.5 Changes to Approved EPS Metering Facilities 10-24
+
+10.4.3.6 Confirmation of Certification 10-24
+
+10.5 TSP and DSP EPS Meter Inspectors 10-24
+
+10.5.1 List of TSP and DSP EPS Meter Inspectors 10-24
+
+10.5.2 EPS Meter Inspector Approval Process 10-24
+
+10.5.2.1 TSP and DSP Responsibilities 10-24
+
+10.5.2.2 ERCOT Responsibilities 10-25
+
+10.6 Auditing and Testing of Metering Facilities 10-25
+
+10.6.1 EPS Meter Entities 10-25
+
+10.6.1.1 ERCOT Requirement for Audits and Tests 10-25
+
+10.6.1.2 TSP and DSP Testing Requirements for EPS Metering Facilities 10-25
+
+10.6.1.3 Failure to Comply 10-27
+
+10.6.1.4 Requests by Market Participants 10-27
+
+10.6.2 TSP and DSP Metered Entities 10-27
+
+10.6.2.1 Requirement for Audit and Testing 10-27
+
+10.6.2.2 TSP and DSP Requirement to Certify per Governmental Authorities 10-27
+
+10.7 ERCOT Request for Installation of EPS Metering Facilities 10-27
+
+10.7.1 Additional EPS Metering Installations 10-27
+
+10.7.2 Approval or Rejection of Waiver Request for Installation of EPS Metering Facilities 10-28
+
+10.7.2.1 Approval 10-28
+
+10.7.2.2 Rejection 10-28
+
+10.8 Maintenance of Metering Facilities 10-29
+
+10.8.1 EPS Meters 10-29
+
+10.8.1.1 Duty to Maintain EPS Metering Facilities 10-29
+
+10.8.1.2 EPS Metering Facilities Repairs 10-29
+
+10.8.2 TSP or DSP Metered Entities 10-30
+
+10.9 Standards for Metering Facilities 10-30
+
+10.9.1 ERCOT-Polled Settlement Meters 10-30
+
+10.9.2 TSP or DSP Metered Entities 10-31
+
+10.9.3 Failure to Comply with Standards 10-32
+
+10.10 Security of Meter Data 10-32
+
+10.10.1 EPS Meters 10-32
+
+10.10.1.1 TSP and DSP Data Security Responsibilities 10-33
+
+10.10.1.2 ERCOT Data Security Responsibilities 10-33
+
+10.10.1.3 Resource Entity Data Security Responsibilities 10-33
+
+10.10.1.4 Third Party Access Withdrawn 10-33
+
+10.10.1.5 Meter Site Security 10-34
+
+10.10.2 TSP or DSP Metered Entities 10-34
+
+10.11 Validating, Editing, and Estimating of Meter Data 10-34
+
+10.11.1 EPS Meters 10-34
+
+10.11.2 Obligation to Assist 10-34
+
+10.11.3 TSP or DSP Settlement Meters 10-35
+
+10.12 Communications 10-35
+
+10.12.1 ERCOT Acquisition of ERCOT-Polled Settlement (EPS) Meter Data 10-35
+
+10.12.2 TSP or DSP Meter Data Submittal to ERCOT 10-35
+
+10.12.3 ERCOT Distribution of Settlement Quality Meter Data 10-35
+
+10.13 Meter Identification 10-36
+
+10.14 Exemptions from Compliance to Metering Protocols 10-36
+
+10.14.1 Authority to Grant Exemptions 10-36
+
+10.14.2 Guidelines for Granting Temporary Exemptions 10-36
+
+10.14.3 Procedure for Applying for Exemptions 10-37
+
+10.14.3.1 Information to be Included in the Application 10-37
+
+METERING
+
+10.1 Overview
+
+(1) This Section specifies the responsibilities and requirements for meter data, certification of Metering Facilities, meter standards, approved meter types and the process for auditing, testing, and maintenance of Metering Facilities to be used in the ERCOT Region.
+
+(2) Transmission Service Providers (TSPs) and Distribution Service Providers (DSPs) are the only Entities authorized to provide Settlement Meter data to ERCOT. ERCOT shall maintain a Meter Data Acquisition System (MDAS) to collect generation and consumption energy data for Settlement purposes under these Protocols. The MDAS must receive Customer Load meter data from TSPs and DSPs and must collect data from all ERCOT-Polled Settlement (EPS) Meters.
+
+(3) All Service Delivery Points, excluding EPS, Settlement Only Distribution Generator (SODG), or Non-Opt-In Entity (NOIE) metering points, that meet the requirements of P.U.C. SUBST. R. 25.311, Competitive Metering Services, are eligible for competitive meter ownership pursuant to such Public Utility Commission of Texas (PUCT) Substantive Rule. All competitively owned meters shall meet all the applicable metering requirements of these Protocols and the Retail Market Guide Section 10, Competitive Metering.
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR995: Replace paragraph (3) above with the following upon system implementation:]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| (3) All Service Delivery Points, excluding EPS, Settlement Only Distribution Generator (SODG), Settlement Only Distribution Energy Storage System (SODESS), or Non-Opt-In Entity (NOIE) metering points, that meet the requirements of P.U.C. SUBST. R. 25.311, Competitive Metering Services, are eligible for competitive meter ownership pursuant to such Public Utility Commission of Texas (PUCT) Substantive Rule. All competitively owned meters shall meet all the applicable metering requirements of these Protocols and the Retail Market Guide Section 10, Competitive Metering. |
++==============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+10.2 Scope of Metering Responsibilities
+
+10.2.1 QSE Real-Time Metering
+
+(1) The Qualified Scheduling Entity’s (QSE’s) responsibility for Real-Time metering requirements is contained in Section 6.5.5.2, Operational Data Requirements.
+
+10.2.2 TSP and DSP Metered Entities
+
+(1) Each Transmission Service Provider (TSP) and Distribution Service Provider (DSP) is responsible for supplying ERCOT with meter data associated with:
+
+(a) All Loads using the ERCOT System;
+
+(b) Any Settlement Only Distribution Generator (SODG); a DSP may make some or all such meters ERCOT-Polled Settlement (EPS) compliant and may request that ERCOT poll the meters. Notwithstanding the foregoing sentence, meter data is not required from:
+
+(i) Generation owned by a Non-Opt-In Entity (NOIE) and used for the NOIE’s self-use (not serving Customer Load);
+
+(ii) Distributed Renewable Generation (DRG) with a design capacity less than 50 kW interconnected to a DSP where the owner chooses not to have the out-flow measured in accordance with P.U.C. SUBST. R. 25.213, Metering for Distributed Renewable Generation; and
+
+(iii) Unregistered Distributed Generator (UDG) interconnected to a DSP behind a registered NOIE boundary metering point.
+
+(c) NOIE or External Load Serving Entity (ELSE) points of delivery where metering points are radial Loads and are uni-directionally metered and NOIE points of delivery that have bi-directional flows that are solely the result of generation interconnected to a Transmission and/or Distribution Service Provider (TDSP) owned Distribution System behind a NOIE point of delivery metering point. A TSP or DSP has the option of making some or all such meters EPS compliant and to request that ERCOT poll the meters; and
+
+(d) Generation participating in a current Emergency Response Service (ERS) Contract Period, where such generation only exports energy to the ERCOT System during an ERS deployment or ERS test.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR1188: Insert paragraph (e) below upon system implementation:]                                                                                                                                                      |
+|                                                                                                                                                                                                                         |
+|   (e) Load that has TDSP read meter(s) and is participating as a Controllable Load Resource (CLR) that is not an Aggregate Load Resource (ALR). The CLR must be metered separately from all other Loads and generation. |
++=========================================================================================================================================================================================================================+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(2) Each TSP and DSP is responsible for the following:
+
+(a) Compliance with the procedures and standards in this Section, the Settlement Metering Operating Guide (SMOG) and the Operating Guides;
+
+(b) Installation, control, and maintenance of the Settlement Metering Facilities, as more fully described in this Section and the SMOG, which includes meters, recorders, instrument transformers, wiring, and miscellaneous equipment required to measure electrical energy;
+
+(c) Costs incurred in the installation and maintenance of these Metering Facilities and communications except for incremental costs incurred for functions not required for the Settlement of the Load or Generation Resource, Energy Storage Resource (ESR), Settlement Only Generator (SOG), or Load Resource. These incremental costs shall be borne by the Entities requesting the service pursuant to the TSP or DSP tariffs; and
+
+(d) Installation, maintenance, data collection, and related communications, telemetry for the Metering Facilities, and related services necessary to meet the mandatory Interval Data Recorder (IDR) requirements detailed in this Section, Section 18, Load Profiling, and the SMOG.
+
+10.2.3 ERCOT-Polled Settlement Meters
+
+(1) ERCOT shall poll Metering Facilities that meet any one of the following criteria:
+
+(a) Generation connected directly to the ERCOT Transmission Grid, unless the generation is participating in a current ERS Contract Period and the generation only exports energy to the ERCOT Transmission Grid during equipment testing, an ERS deployment, or an ERS test;
+
+(b) Auxiliary meters used for generation netting by ERCOT;
+
+(c) Generation delivering 10 MW or more to the ERCOT System, unless the generation is participating in a current ERS Contract Period and the generation only exports energy to the ERCOT System during equipment testing, an ERS deployment, or an ERS test;
+
+(d) Generation participating in any Ancillary Service market;
+
+(e) NOIE points connected bi-directionally to the ERCOT System, unless the bi-directional energy flows are the sole result of generation interconnected to a TDSP owned Distribution System behind a NOIE point of delivery metering point;
+
+(f) Direct Current Ties (DC Ties);
+
+  (g) DG where there is an energy storage Load Resource that has associated Wholesale Storage Load (WSL);
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR995: Replace paragraph (g) above with the following upon system implementation:]                                                                                                                                                                      |
+|                                                                                                                                                                                                                                                            |
+|   (g) Metering required to determine the Wholesale Storage Load (WSL) or Non-WSL Settlement Only Charging Load associated to a Settlement Only Distribution Energy Storage System (SODESS) or Settlement Only Transmission Energy Storage System (SOTESS); |
++============================================================================================================================================================================================================================================================+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(h) Metering required to determine WSL associated with an Energy Storage Resource (ESR); and
+
+(i) Metering required to determine the Non-WSL ESR Charging Load.
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR1188: Insert paragraph (j) below upon system implementation:]                                                                                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                                                                                       |
+|   (j) Metering required to measure the consumption of a Load that has registered as a CLR with ERCOT and is not an ALR, where the CLR is behind the Point of Interconnection (POI) of a generator, as reflected in an ERCOT-approved EPS Design Proposal. The CLR must be metered separately from all other Loads and generation through a single EPS metering point. |
++=======================================================================================================================================================================================================================================================================================================================================================================+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(2) Additionally, ERCOT shall poll any SODG or NOIE metering point at the request of such Entity, provided the Metering Facility meets all requirements and approvals associated with EPS metering requirements of this Section and the SMOG. Load Resources of ten MW or more on the ERCOT System, may, at their option have an EPS Meter.
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR1188: Replace paragraph (2) above with the following upon system implementation:]                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| (2) Additionally, ERCOT shall poll any SODG or NOIE metering point at the request of such Entity, provided the Metering Facility meets all requirements and approvals associated with EPS metering requirements of this Section and the SMOG. Load Resources that have registered as a CLR with ERCOT and are not an ALR, where the CLR is ten MW or more and the CLR is the only Load behind the Service Delivery Point such that it can be separately metered at its Service Delivery Point, may, at their option have an EPS Meter. |
++========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+10.2.3.1 Entity EPS Responsibilities
+
+(1) The following defines the responsibilities of Entities regarding EPS metering:
+
+(a) EPS Meters must be polled directly by ERCOT, which shall then convert the raw data to Settlement Quality Meter Data in accordance with this Section, Section 11, Data Acquisition and Aggregation, and the SMOG.
+
+(b) A TSP or DSP shall have EPS Metering Facilities installed and maintained under the supervision of a TSP or DSP “EPS Meter Inspector,” which is defined as an employee or agent of the TSP or DSP who has received EPS training from ERCOT, and is described further herein. This requirement does not apply to Resource Entity-owned Metering Facilities used to measure, calculate, or telemeter ESR auxiliary Load pursuant to Section 10.2.4, Resource Entity Calculation and Telemetry of ESR Auxiliary Load Values.
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR995: Replace paragraph (b) above with the following upon system implementation:]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|   (b) A TSP or DSP shall have EPS Metering Facilities installed and maintained under the supervision of a TSP or DSP “EPS Meter Inspector,” which is defined as an employee or agent of the TSP or DSP who has received EPS training from ERCOT, and is described further herein. This requirement does not apply to Resource Entity-owned Metering Facilities used to measure, calculate, or telemeter ESR, SODESS, or SOTESS auxiliary Load pursuant to Section 10.2.4, Resource Entity Calculation and Telemetry of ESR, SODESS, or SOTESS Auxiliary Load Values. |
++======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(c) Each TSP and DSP shall install, control, and maintain the meters, recorders, instrument transformers, wiring, communications, and other miscellaneous equipment required to measure electrical energy, as described in this Section and SMOG, except for Resource Entity-owned equipment used to measure, calculate, or telemeter an auxiliary Load value for an ESR pursuant to Section 10.2.4.
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR995: Replace paragraph (c) above with the following upon system implementation:]                                                                                                                                                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   (c) Each TSP and DSP shall install, control, and maintain the meters, recorders, instrument transformers, wiring, communications, and other miscellaneous equipment required to measure electrical energy, as described in this Section and SMOG, except for Resource Entity-owned equipment used to measure, calculate, or telemeter an auxiliary Load value for an ESR, SODESS, or SOTESS pursuant to Section 10.2.4. |
++===========================================================================================================================================================================================================================================================================================================================================================================================================================+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(d) Each TSP and DSP shall install and maintain a Back-up Meter(s) at each EPS Meter location for Resources, auxiliary netting, and bi-directional meter points. A “Back-up Meter” is defined as a redundant revenue quality EPS Meter connected at the same metering point as the primary EPS Meter and meeting the requirements defined in the SMOG.
+
+(e) Costs incurred in the installation and maintenance of EPS metered Facilities and communications will be the responsibility of the TSP or DSP except for incremental costs incurred for functions not required for the energy settlement as required by these Protocols. These incremental costs shall be borne by the Entities requesting the service, as per the TSP’s or DSP’s tariffs.
+
+(f) Specific operating practices for EPS Metering Facilities are included in the SMOG.
+
+10.2.4 Resource Entity Calculation and Telemetry of ESR Auxiliary Load Values
+
+(1) When the Resource Entity certifies, the interconnecting TDSP confirms by approving the metering design, and, based on the information provided by the TDSP as part of the EPS Design Proposal, ERCOT agrees that metering of an ESR’s WSL separate from the ESR’s auxiliary Load is not feasible based on the ESR’s physical design, the Resource Entity for that ESR shall be permitted to calculate the auxiliary Load using measurements from its own internal sensors and telemeter a Real-Time aggregated value for that Load to the TDSP’s EPS Meter. The Resource Entity may telemeter a zero Load value only when the ESR is discharging more than the calculated auxiliary Load. The methodology by which the auxiliary Load is calculated is subject to ERCOT approval.
+
+(2) An officer of the Resource Entity shall annually attest to the methodology and validity of the auxiliary Load calculation, as further described in the SMOG. The Resource Entity shall include with its annual attestation the findings of an independent audit performed by a registered Texas Professional Engineer confirming the auxiliary Load calculation does not understate the Load value. The audit shall be based on laboratory testing that reflects the anticipated field conditions of the same model of sensor as that used by the Resource Entity or validation using measurements by other devices over the past year, as further described in the SMOG. The audit shall evaluate the impact of any degradation in accuracy of the sensors over time.
+
+(3) If the Resource Entity is unable to provide the attestation and audit findings meeting the requirements of paragraph (2) above, it shall either reconfigure the Resource Entity’s site and resubmit its meter design within 30 days to allow for separately metering the WSL, or forfeit WSL treatment.
+
+(4) ERCOT may conduct an audit of the Resource Entity’s processes, equipment, and calculation of the auxiliary Load.
+
+(5) The TSP or DSP shall assign all costs required for separately metering the auxiliary Load for WSL treatment to the EPS Meter to the Resource Entity.
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR995: Replace Section 10.2.4 above with the following upon system implementation:]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 10.2.4 Resource Entity Calculation and Telemetry of ESR, SODESS, or SOTESS Auxiliary Load Values                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| (1) When the Resource Entity certifies, the interconnecting TDSP confirms by approving the metering design, and, based on the information provided by the TDSP as part of the EPS Design Proposal, ERCOT agrees that metering of an ESR’s WSL separate from the ESR’s, SODESS’s, or SOTESS’s auxiliary Load is not feasible based on the ESR’s, SODESS’s, or SOTESS’s physical design, the Resource Entity for that ESR, SODESS, or SOTESS shall be permitted to calculate the auxiliary Load using measurements from its own internal sensors and telemeter a Real-Time aggregated value for that Load to the TDSP’s EPS Meter. The Resource Entity may telemeter a zero Load value only when the ESR, SODESS, or SOTESS is discharging more than the calculated auxiliary Load. The methodology by which the auxiliary Load is calculated is subject to ERCOT approval. |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| (2) An officer of the Resource Entity shall annually attest to the methodology and validity of the auxiliary Load calculation, as further described in the SMOG. The Resource Entity shall include with its annual attestation the findings of an independent audit performed by a registered Texas Professional Engineer confirming the auxiliary Load calculation does not understate the Load value. The audit shall be based on laboratory testing that reflects the anticipated field conditions of the same model of sensor as that used by the Resource Entity or validation using measurements by other devices over the past year, as further described in the SMOG. The audit shall evaluate the impact of any degradation in accuracy of the sensors over time.                                                                                                |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| (3) If the Resource Entity is unable to provide the attestation and audit findings meeting the requirements of paragraph (2) above, it shall either reconfigure the Resource Entity’s site and resubmit its meter design within 30 days to allow for separately metering the WSL or forfeit WSL treatment.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| (4) ERCOT may conduct an audit of the Resource Entity’s processes, equipment, and calculation of the auxiliary Load.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| (5) The TSP or DSP shall assign all costs required for separately metering the auxiliary Load for WSL treatment to the EPS Meter to the Resource Entity.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
++===========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+10.2.4.1 Responsibilities for Resource Entity Calculation and Telemetry of ESR Auxiliary Load Values
+
+(1) For each site at which a Resource Entity telemeters its auxiliary Load value, as permitted by Section 10.2.4, Resource Entity Calculation and Telemetry of ESR Auxiliary Load Values:
+
+  (a) The Resource Entity shall:
+
+  (i) Provide supporting information on the equipment, configuration, drawings and processes used to calculate the telemetry signal, including supporting information on the calculation of the telemetry signal for inclusion in the EPS Design Proposal.
+
+  (ii) Provide documentation of the auxiliary Load calculation methodology as defined in this Section and the SMOG.
+
+  (iii) Install, control, and maintain the sensors, instrumentation, wiring, communications, and other equipment required to calculate and provide the telemetry signal.
+
+  (iv) Provide and update contact information for a person designated for communication regarding the auxiliary Load supporting information and data.
+
+  (v) Act in accordance with any TDSP requirements concerning EPS Meters and Metering Facilities in the Protocols and SMOG that pertain to the following issues:
+
+  (A) Calculation of Load values and data estimation issues;
+
+  (B) The provision of notice to ERCOT regarding any outage or any other issue affecting the accuracy of the Load calculation or the availability of the telemetry of the Load value; and
+
+  (C) The implementation of any proposed change to the calculation or equipment, as documented in the EPS Design Proposal; and
+
+  (vi) Provide any information requested by ERCOT or the TDSP with respect to the measurement, calculation, and/or telemetry of the auxiliary Load value.
+
+  (b) The interconnecting TDSP shall:
+
+  (i) Use an EPS Meter to calculate 15-minute energy values from the Resource Real-Time telemetry signal for the auxiliary Load and store the data in the EPS Meter for retrieval by the ERCOT Meter Data Acquisition System (MDAS); and
+
+  (ii) Include an auxiliary Load metering point on the EPS Design Proposal that represents the calculation of the telemetry signal.
+
+  (c) ERCOT shall:
+
+  (i) Review the Resource-provided data on the calculation of the telemetry signal submitted as part of the EPS Design Proposal to ensure compliance with defined rules in this Section and the SMOG; and
+
+  (ii) Request assistance and information from the Resource-designated contact for items related to the telemetry.
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR995: Replace Section 10.2.4.1 above with the following upon system implementation:]                                                                                                                                                                   |
+|                                                                                                                                                                                                                                                            |
+| 10.2.4.1 Responsibilities for Resource Entity Calculation and Telemetry of ESR, SODESS, or SOTESS Auxiliary Load Values                                                                                                                                    |
+|                                                                                                                                                                                                                                                            |
+| (1) For each site at which a Resource Entity telemeters its auxiliary Load value, as permitted by Section 10.2.4, Resource Entity Calculation and Telemetry of ESR, SODESS, or SOTESS Auxiliary Load Values:                                               |
+|                                                                                                                                                                                                                                                            |
+|   (a) The Resource Entity shall:                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                                                                            |
+|   (i) Provide supporting information on the equipment, configuration, drawings and processes used to calculate the telemetry signal, including supporting information on the calculation of the telemetry signal for inclusion in the EPS Design Proposal. |
+|                                                                                                                                                                                                                                                            |
+|   (ii) Provide documentation of the auxiliary Load calculation methodology as defined in this Section and the SMOG.                                                                                                                                        |
+|                                                                                                                                                                                                                                                            |
+|   (iii) Install, control, and maintain the sensors, instrumentation, wiring, communications, and other equipment required to calculate and provide the telemetry signal.                                                                                   |
+|                                                                                                                                                                                                                                                            |
+|   (iv) Provide and update contact information for a person designated for communication regarding the auxiliary Load supporting information and data.                                                                                                      |
+|                                                                                                                                                                                                                                                            |
+|   (v) Act in accordance with any TDSP requirements concerning EPS Meters and Metering Facilities in the Protocols and SMOG that pertain to the following issues:                                                                                           |
+|                                                                                                                                                                                                                                                            |
+| (A) Calculation of Load values and data estimation issues;                                                                                                                                                                                                 |
+|                                                                                                                                                                                                                                                            |
+| (B) The provision of notice to ERCOT regarding any outage or any other issue affecting the accuracy of the Load calculation or the availability of the telemetry of the Load value; and                                                                    |
+|                                                                                                                                                                                                                                                            |
+| (C) The implementation of any proposed change to the calculation or equipment, as documented in the EPS Design Proposal; and                                                                                                                               |
+|                                                                                                                                                                                                                                                            |
+|   (vi) Provide any information requested by ERCOT or the TDSP with respect to the measurement, calculation, and/or telemetry of the auxiliary Load value.                                                                                                  |
+|                                                                                                                                                                                                                                                            |
+|   (b) The interconnecting TDSP shall:                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                                                                            |
+|   (i) Use an EPS Meter to calculate 15 minute energy values from the Resource Real-Time telemetry signal for the auxiliary Load and store the data in the EPS Meter for retrieval by the ERCOT Meter Data Acquisition System (MDAS); and                   |
+|                                                                                                                                                                                                                                                            |
+|   (ii) Include an auxiliary Load metering point on the EPS Design Proposal that represents the calculation of the telemetry signal.                                                                                                                        |
+|                                                                                                                                                                                                                                                            |
+|   (c) ERCOT shall:                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                            |
+|   (i) Review the Resource-provided data on the calculation of the telemetry signal submitted as part of the EPS Design Proposal to ensure compliance with defined rules in this Section and the SMOG; and                                                  |
+|                                                                                                                                                                                                                                                            |
+|   (ii) Request assistance and information from the Resource-designated contact for items related to the telemetry.                                                                                                                                         |
++============================================================================================================================================================================================================================================================+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+10.3 Meter Data Acquisition System (MDAS)
+
+10.3.1 Purpose
+
+(1) The Meter Data Acquisition System (MDAS) will be used:
+
+(a) By ERCOT to obtain and receive Revenue Quality Meter data from the ERCOT-Polled Settlement (EPS) Meters and Settlement Quality Meter Data from the Transmission Service Provider (TSP) and Distribution Service Provider (DSP) for Settlement and billing purposes; and,
+
+(b) To populate the ERCOT Data Archive used by Market Participants or their agents with authority to access Settlement Quality Meter Data held by ERCOT.
+
+10.3.2 ERCOT-Polled Settlement Meters
+
+(1) Each TSP and DSP shall, in accordance with these Protocols and the Settlement Metering Operating Guide (SMOG), provide ERCOT-approved metering communication equipment and connection to permit ERCOT access to the TSP’s or DSP’s EPS Meters.
+
+(2) For a Resource site that consumes Load other than Wholesale Storage Load (WSL) and is not behind a Non-Opt-In Entity (NOIE) tie meter:
+
+(a) A Resource site may not energize until ERCOT has received an Electric Service Identifier(s) (ESI ID(s)) to be used in the generation netting process for that site, and the ESI ID has been established in the ERCOT Settlement system in a state that allows for the Load to be properly settled to the appropriate Qualified Scheduling Entity (QSE);
+
+(b) The Resource Entity must request an ESI ID(s) from the DSP(s) that will be serving the Load at the Resource site;
+
+(c) Each DSP that will be serving Load at the Resource site shall provide ERCOT and the Resource Entity with the ESI ID(s); and
+
+(d) The Resource Entity must enter the ESI ID(s) in ERCOT’s Resource Integration and Ongoing Operations (RIOO) interconnection services application, or alternate application designated by ERCOT.
+
+(3) ERCOT shall retrieve meter data electronically and automatically by MDAS. ERCOT may also collect meter data on demand.
+
+10.3.2.1 Generation Resource Meter Splitting
+
+(1) Each Generation Resource must be represented by only one QSE, except that a jointly owned Generation Resource unit or group of Generation Resources may split the net generation output into two or more Split Generation Resources for a Resource Entity. Each Resource Entity representing a Split Generation Resource may have its energy and capacity scheduled through a separate QSE. For purposes of this paragraph, a jointly owned Generation Resource unit or group of Generation Resources shall also include the San Miguel and Gibbons Creek power projects and Intermittent Renewable Resources (IRRs) such as wind and solar generation.
+
+(2) When a Generation Resource that has been split to function as two or more Split Generation Resources is registered with ERCOT, the Resource Entities representing the Split Generation Resources shall be required to submit a percentage allocation of the Generation Resource to be used to determine the capacity available at each Split Generation Resource.
+
+(3) When a Generation Resource that has been split to function as two or more Split Generation Resources is registered with ERCOT, the owners of the Generation Resource shall submit all required ERCOT Facility registration documentation and an ERCOT-approved splitting agreement executed by an Authorized Representative from each owning Resource Entity. Such agreement shall contain a defined and fixed ownership percentage as among the owning Resource Entities. ERCOT shall establish this Generation Resource as a “split,” essentially establishing Split Generation Resource meters. Generation splitting based on a static ratio is not permitted. Generation splitting requires Real-Time splitting signals.
+
+10.3.2.1.1 Split Generation Resource Metering Real-Time Signal
+
+(1) When a Split Generation Resource is registered with ERCOT, the QSE representing the Split Generation Resource shall provide ERCOT with a Real-Time signal of the MW of generation for the Split Generation Resource. The Real-Time MW signals must be revised every scan cycle and must represent the QSE’s Split Generation Resource in positive MW.
+
+(2) ERCOT shall integrate the Real-Time MW signals and provide a MWh value for each 15-minute interval for each Split Generation Resource.
+
+(3) The settlement system shall use the integrated MWh per interval value to calculate the percentage breakdowns to be applied to the actual metered MWh values retrieved from the EPS Metering Facility.
+
+10.3.2.1.2 Allocating EPS Metered Data to Split Generation Resource Meters
+
+(1) ERCOT shall poll the EPS Metering Facilities related to the actual Generation Resource and store the meter data at 15-minute intervals. This metering data must be validated, edited, estimated, and compensated for losses, as necessary, and be netted as required. This resulting data must then have the Split Generation Resource ratios applied to assign the generation to the QSE representing each owner of the Split Generation Resources. The MWh quantities of the Split Generation Resources must be used in all Settlement calculations and reports.
+
+(2) The following example illustrates the splitting of the generation data:
+
+Splitting Example 1
+
+[TABLE]
+
+10.3.2.1.3 Processing for Missing Dynamic Split Generation Resource Signal
+
+(1) For any interval when ERCOT has not received a Real-Time signal for any one of the Split Generation Resources, ERCOT shall use the last valid percentage ratio for a completed interval.
+
+Splitting Example 2
+
+[TABLE]
+
+10.3.2.1.4 Calculating the Split Generation Resource Ratio
+
+(1) For Split Generation Resources, ERCOT shall provide for Settlement the net MWh value for each 15-minute interval. This value is the MWh accumulated based on the MW value over each scan cycle. ERCOT shall use a standard “integration” mechanism to perform this function.
+
+(2) For Settlement, ERCOT shall use the integrated data to determine the allocation ratio as the integrated share of each signal divided by the integrated total of signals.
+
+10.3.2.1.5 Split Generation Resource Data Made Available to Market Participants
+
+(1) Market Participants shall have access to allocated generation output and ratio data only for Split Generation Resources that they represent.
+
+10.3.2.1.6 Allocating EPS Metered Data to Generator Owners When It Is Net Load
+
+(1) EPS Generation Resource and Energy Storage Resource (ESR) sites that are netted by ERCOT may have multiple Competitive Retailers (CRs) associated with the Load. ERCOT shall poll the EPS metering facilities related to the actual Generation Resource or ESR facility and store the meter data at 15-minute intervals. ERCOT shall perform validation, editing, estimation, compensation for losses as necessary, and netting as required for EPS metering data. For intervals when data is net Load, the fixed ownership percentages stored in the asset database must be used to allocate the consumption to multiple ESI IDs. The consumption quantities for the ESI IDs must be used in all energy settlement calculations and reports.
+
+10.3.2.2 Loss Compensation of EPS Meter Data
+
+(1) Where the EPS Meter is not located at the Point of Interconnection (POI) to the ERCOT Transmission Grid, actual metered consumption must be adjusted for line and transformation losses to the POI in accordance with SMOG Section 8, Transformer and Line Loss Compensation Factors. The preferred method for loss compensation and correction is via internal meter programming.
+
+(2) Recognizing the fact that some locations may not have the total functionality necessary to perform internal compensation, the Data Aggregation System (DAS) must have the functionality to perform approved loss compensation as necessary. ERCOT shall retain the discretion to allow or deny the continued use of this type of metering.
+
+(3) No meter may be compensated internally for losses more than once. ERCOT may compensate multiple meters prior to netting to the POI. Pulse communications transfer of data between meters is not allowed.
+
+10.3.2.3 Generation Netting for ERCOT-Polled Settlement Meters
+
+(1) Each Generation Resource, ESR, and Settlement Only Generator (SOG) and each Load that is designated to be netted with that Generation Resource or SOG, including construction and maintenance Load that is netted with existing generation auxiliaries, must be physically metered at its POI to the ERCOT Transmission Grid or Service Delivery Point, or, in accordance with Section 10.3.2.2, Loss Compensation of EPS Meter Data, loss-compensated to its POI to the ERCOT Transmission Grid. Interval Data Recorders (IDRs) must be used to determine generator output or Load usage. In the intervals where the generation output exceeds the Load, the net must be settled as generation. In the intervals where the Load exceeds the generation output, the net must be settled as Load, and carry any applicable Load shared charges and credits.
+
+(2) For Settlement purposes, netting is not allowed except under the configurations described in paragraphs (2)(a) through (2)(e) below, and only if the service arrangement is otherwise lawful. ERCOT has no obligation to independently determine whether a site configuration that includes both Loads and Generation Resource(s), ESR(s), or SOG(s) complies with Public Utility Regulatory Act (PURA) or the Public Utility Commission of Texas (PUCT) Substantive Rules, and ERCOT’s approval of a metering proposal for such a site is not a verification of the legality of that arrangement:
+
+(a) Single POI or Service Delivery Point;
+
+  (b) Transmission-level interconnections where all POIs are located at the same substation, at the same voltage, and under normal operating conditions, are interconnected through common electrical equipment such as circuit breakers, connecting cables, bus bars, switches/isolators. Qualifying station arrangements include, but are not limited to, Generation and Load connected in a line bus, ring bus, double-breaker, or breaker-and-a-half configuration;
+
+(c) Multiple POIs where the Loads and generator output are electrically connected to a common switchyard, as defined in paragraph (7) below. In addition, there must be sufficient generator capacity to serve all plant Loads for netting to occur;
+
+(d) A Qualifying Facility (QF) with POIs, where the QF is selling energy to a thermal host, may net the Load meters of the thermal host with the QF’s generation meters when the Load and generation are electrically connected to a common switchyard. In instances in which Load is served by new on-site generation through a common switchyard, the TSP or DSP may install monitoring equipment necessary for measuring Load to determine stranded cost charges, if any are applicable, as determined under the PURA and applicable PUCT rules. For purposes of this Section, new on-site generation has the meaning as contained in Public Utility Regulatory Act, TEX. UTIL. CODE ANN. §§ 39.252 and 39.262(k) (Vernon 1998 & Supp. 2007) (PURA); or
+
+(e) For Generation Resources and/or Load with flow-through on a private, contiguous transmission system (not included in a TSP or DSP rate base) and in a configuration existing as of October 1, 2000, the meters at the interconnections with the ERCOT Transmission Grid may be netted for the purpose of determining Generation Resources or Load. For Settlement purposes, when the net is a Load, the metered interconnection points must be assigned to the same Load Zone and Unaccounted for Energy (UFE) zone.
+
+(3) For ESR sites, WSL must be separately metered from all other Loads and generation, and must be metered using EPS Metering Facilities.
+
+  (a) For configurations where the Resource Entity telemeters an auxiliary Load value to the EPS Meter:
+
+  (i) The total energy into the ESR must be separately metered from all other Loads and generation, and must be metered using EPS Metering Facilities; and
+
+  (ii) The auxiliary Load energy shall be stored in the EPS Meter’s IDR, per channel assignments defined in the SMOG.
+
+  (b) For configurations where the WSL is not at a POI, it must be metered behind a single POI metering point, per the requirements in paragraph (3) or (3)(a) above; and
+
+(c) WSL for a compressed air energy storage Load Resource is exempt from the requirement to be electrically connected to a common switchyard, as defined in paragraph (7) below.
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR995: Replace paragraph (3) above with the following upon system implementation:]                                                                                                                                                                                                            |
+|                                                                                                                                                                                                                                                                                                  |
+| (3) For Energy Storage Resource (ESR), Settlement Only Distribution Energy Storage System (SODESS), or Settlement Only Transmission Energy Storage System (SOTESS) sites, WSL must be separately metered from all other Loads and generation, and must be metered using EPS Metering Facilities. |
+|                                                                                                                                                                                                                                                                                                  |
+|   (a) For configurations where the Resource Entity telemeters an auxiliary Load value to the EPS Meter:                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                                  |
+|   (i) The total energy into the ESR, SODESS, or SOTESS must be separately metered from all other Loads and generation, and must be metered using EPS Metering Facilities; and                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                  |
+|   (ii) The auxiliary Load energy shall be stored in the EPS Meter’s IDR, per channel assignments defined in the SMOG.                                                                                                                                                                            |
+|                                                                                                                                                                                                                                                                                                  |
+|   (b) For configurations where the WSL is not at a POI, it must be metered behind a single POI metering point, per the requirements in paragraph (3) or (3)(a) above; and                                                                                                                        |
+|                                                                                                                                                                                                                                                                                                  |
+|   (c) WSL for a compressed air energy storage Load Resource is exempt from the requirement to be electrically connected to a common switchyard, as defined in paragraph (7) below.                                                                                                               |
++==================================================================================================================================================================================================================================================================================================+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR1188: Insert paragraph (4) below upon system implementation and renumber accordingly:]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| (4) For a generation site with a single POI and one or more Controllable Load Resources (CLRs) behind the POI, an EPS Meter to separately measure each CLR Load is required. The TDSP(s) must install the EPS Meter only if all of the Entities consuming energy behind the POI, including the Resource Entity for such generation site, consent in writing to the metering arrangement, and the arrangement is included in an EPS Design Proposal that is approved by ERCOT. The CLR shall provide notice to all Entities consuming energy behind the POI of its request for installation of an EPS Meter. |
++=============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(4) ERCOT shall maintain descriptions of the Metering Facilities of all common switchyards that contain multiple POIs of Loads (ESI IDs) and generation meters (EPS). The description is limited to identifying the Entities within a common switchyard and a simplified diagram showing the metering configuration of all Supervisory Control and Data Acquisition (SCADA) and Settlement Metering points.
+
+(5) All Load(s) included in the netting arrangement for an EPS Metering Facility shall only be electrically connected to the ERCOT Transmission Grid through the EPS metering point(s) for such Facility.  Such Loads shall not be electrically connected to the ERCOT Transmission Grid through electrical connections that are not metered by the EPS metering point(s) for the Facility.
+
+(6) Notwithstanding the requirements of paragraph (5) above, auxiliary Load(s) connected to the station service transformer not to exceed 500 kW in aggregate shall be permitted an additional electrical connection to a TSP’s or DSP’s Facilities through a separately metered Transmission and/or Distribution Service Provider (TDSP) read metering point. In locations subject to multiple certificated service areas, the Resource Entity shall notify each DSP that has the right to serve in the service area of the proposed connection. This configuration requires mutual agreement between the connecting TSP, DSP, and Resource Entity, and the connection shall be achieved through an open transition load transfer switch listed for emergency service and shall only be used in emergency and maintenance situations.
+
+(7) For purposes of this Section, a common switchyard is defined as an electric substation Facility where the POI for Load and Generation Resources or ESRs are located at the same Facility but where the interconnection points are physically not greater than 400 yards apart. The physical connections of the Load to its POI and the Generation Resource or ESR to its POI cannot be Facilities that have been placed in a TSP’s or DSP’s rate base.
+
+(8) Notwithstanding any other provision in this Section, for any Generation Resource or ESR that is configured to serve a Customer Load as part of a Private Microgrid Island (PMI), the connection to the Customer Load in the PMI configuration shall be located behind the EPS metering point at the Resource’s POI. For a PMI configuration that includes an ESR that is receiving WSL treatment for charging Load, an EPS Meter shall be located to measure the ESR’s gross output net of any internal telemetered auxiliary Load, and a separate TDSP ESI ID (for nodal Settlement) with a Load Serving Entity (LSE) association must be established for the site prior to service of any Load.
+
+(9) ERCOT shall post on the ERCOT website a report listing all Generation Resources, ESRs, or SOGs that have achieved commercial operations, excluding Decommissioned Generation Resources or decommissioned ESRs, Mothballed Generation Resources or Mothballed ESRs, and decommissioned SOGs, whose Resource Registration data indicates that the Generation Resource, ESR, or SOG is part of a Private Use Network. The report must identify the name of the Generation Resource, ESR, or SOG site, its nameplate capacity, and the date the Generation Resource, ESR, or SOG was added to the report. The report shall not identify any confidential, customer-specific information regarding netted loads. ERCOT shall update the list at least monthly.
+
+(10) Notwithstanding any other provision in this Section, for any Generation Resource or ESR that elects for Load(s) located behind the EPS metering point at the Resource’s POI to be excluded from the netting arrangement for an EPS Metering Facility, a Load EPS meter shall be located behind the EPS metering point at the Resource’s POI and a separate TDSP ESI ID with an LSE association must be established for the site prior to Load(s) being removed from the netting arrangement. This configuration requires mutual agreement between the connecting TSP, DSP, Resource Entities, and any other Load(s) behind the EPS metering point. The above requirement to have a separate TDSP ESI ID with an LSE association does not apply to EPS Metering Facilities that are located behind a NOIE meter point.
+
+10.3.2.4 Reporting of Net Generation Capacity
+
+(1) Each Resource Entity with either a Generation Resource, ESR, or Settlement Only Transmission Self-Generator (SOTSG) in a Private Use Network shall complete and submit the declaration in Section 22, Attachment L, Declaration of Private Use Network Net Generation Capacity Availability, to ERCOT by February 1 of each year, stating its projected annual changes in net generation capacity available to the ERCOT Transmission Grid for May 31 of the previous calendar year to May 31 of the current calendar year, and annual changes as of May 31 for the next ten subsequent years. ERCOT will use the aggregated capacity forecasts for the Report on Capacity, Demand and Reserves in the ERCOT Region (CDR), pursuant to Section 3.2.6.2.2, Total Capacity Estimate.
+
+10.3.3 TSP or DSP Metered Entities
+
+10.3.3.1 Data Responsibilities
+
+(1) Each TSP and DSP shall be responsible for the following:
+
+(a) Providing consumption data for each ESI ID and RID on at least a monthly basis according to the data timeliness and accuracy standards defined in this Section and in the SMOG;
+
+(b) Providing start date, stop date, ESI ID or RID, and consumption data in kWh as well as an identifier for “estimated” reads as applicable;
+
+(c) Submitting a single Demand value for each non-IDR ESI ID that has a Demand register to ERCOT if, and only if, a Demand value is required for TSP or DSP tariffs or for CR Customer billing. If the CR and TSP or DSP do not require a Demand value, then the TSP or DSP shall not submit a Demand value to ERCOT even if the meter has a Demand register;
+
+(d) Validation, Editing, and Estimation of meter data (VEE) according to the standards in this Section before submitting data to the settlement process;
+
+(e) Calculating consumption for any unmetered services by ESI ID and submitting such data monthly to ERCOT, subject to ERCOT audit. These calculations must be made pursuant to TSP and DSP-approved tariffs; and
+
+(f) Metering all Loads, unless the Load meets one of the following criteria:
+
+(i) Energy consumption by substation Facilities and equipment for the purpose of transporting electricity (e.g., substation transformers, fans, etc.).
+
+(ii) Unmetered energy consumption represented by an ERCOT-approved Load Profile; or
+
+(iii) Energy charge and discharge and associated losses for the ERCOT Board-approved storage devices installed as part of a transmission reliability project for the Presidio substation Facilities.
+
+10.3.3.2 Retail Load Meter Splitting
+
+(1) Retail Service Delivery Points with Loads above 1 MW may split their actual meter data into a maximum of four consumption values with each value being assigned a unique ESI ID; provided, however, that if a Customer is using Provider of Last Resort (POLR) or the “Price-to-Beat” retail service, such Customer may not split its meter signal among multiple CRs through this Section.
+
+10.3.3.2.1 Retail Customer Load Splitting Mechanism
+
+(1) Customer meter data may be split into separate ESI IDs by the installation of a programmable signal splitter that would take the master meter signal and split it into no more than four separate values that must at all times equal the total output of the master meter signal. Splitting of Customer meter data must meet the following requirements:
+
+(a) The signal splitter may be programmed to split the Load in any way the Customer chooses, provided that such splitting results in positive Load;
+
+(b) The Customer, or its CR(s), shall provide the signal splitter and shall be responsible for all costs of installing, maintaining, and operating the signal splitter, any associated equipment, and communications;
+
+(c) The TSP or DSP shall be responsible for approving the specifications and installation of any signal splitting devices;
+
+(d) IDRs shall be required on the master Customer Load meter and each of the split channels for verification and settlement purposes;
+
+(e) The TSP or DSP metering system recording such split signals (four ESI IDs) may be required to be redundant if so provided by TSP or DSP tariffs;
+
+(f) The split signals must be recorded in Real-Time and cannot be altered or substituted later in time;
+
+(g) One Entity shall be designated to pay the total TSP and/or DSP charges for the Customer; and
+
+(h) Switching of CRs for the individual split-metered Customers shall comply with the registration procedures in Section 19, Texas Standard Electronic Transaction.
+
+10.3.3.2.2 TSP and DSP Responsibilities Associated with Retail Customer Load Splitting
+
+(1) Each consumption value from a Customer Load split meter shall be assigned a separate ESI ID by the TSP or DSP. Each ESI ID may be assigned to a separate CR. The master meter may not be assigned an ESI ID.
+
+(2) The TSP or DSP shall send interval data for each ESI ID for the ERCOT settlement system.
+
+(3) The TSP or DSP shall be responsible for verifying that the sum of the split ESI ID IDR data equals the total IDR value from the master meter.
+
+10.3.3.2.3 ERCOT Requirements for Retail Load Splitting
+
+(1) ERCOT shall settle all ESI IDs in the same manner.
+
+(2) ERCOT shall not receive or process the IDR data associated with the master meter.
+
+10.3.3.3 Submission of Settlement Quality Meter Data to ERCOT
+
+(1) Settlement Quality Meter Data shall be submitted to ERCOT on a periodic cycle, but no later than monthly:
+
+  (a) For provisioned Advanced Meters and Municipally Owned Utility (MOU) / Electric Cooperative (EC) Non-BUSIDRRQ IDRs, Settlement Quality Meter Data will be submitted using an ERCOT specified file format for the interval data only, which will be used for Settlement.
+
+  (i) The monthly non-interval total consumption and demand (if applicable) values for these ESI IDs shall be provided to ERCOT and LSEs using the appropriate Texas Standard Electronic Transactions (TX SETs) in order to effectuate the registration transactions outlined in Section 15, Customer Registration.
+
+  (ii) These non-interval total consumption and demand values will not be used for Settlement.
+
+  (b) For all other meters, Settlement Quality Meter Data will be submitted using the appropriate TX SET.
+
+(2) Each TSP or DSP shall ensure that consumption meter data submitted to ERCOT is in intervals of:
+
+(a) 15-minutes for those ESI IDs and RIDs served by IDRs; and
+
+(b) Monthly or on an ERCOT-approved meter reading cycle for non-IDRs.
+
+(3) The Settlement Quality Meter Data submitted by TSP or DSP must be in kWh and kVArh values (as applicable).
+
+10.3.3.3.1 Past Due Data Submission
+
+(1) ERCOT shall provide a report to the appropriate TSP and DSP for any ESI ID or RID for which consumption data has not been received in the past 38 days. Upon receipt of the missing consumption data report, the TSP or DSP shall have two Business Days to submit the missing consumption data.
+
+10.4 Certification of EPS Metering Facilities
+
+(1) Each Transmission Service Provider (TSP) and Distribution Service Provider (DSP) shall certify ERCOT-Polled Settlement (EPS) Metering Facilities in a manner approved by ERCOT.
+
+10.4.1 Overview
+
+(1) This Section describes the steps that a TSP or DSP shall use to certify each EPS Metering Facility and the steps ERCOT shall use to approve each EPS Metering Facility. This Section also describes the manner in which EPS Metering Facility approval requests must be made to ERCOT.
+
+10.4.2 EPS Design Proposal Documentation Required from the TSP or DSP
+
+(1) Before installation of new EPS Meters, TSP or DSP shall provide ERCOT with an EPS Design Proposal of the Metering Facilities being considered for ERCOT approval as EPS Meter Facilities. An “EPS Design Proposal” is the documentation required pursuant to Settlement Metering Operating Guide (SMOG), Section 12, Attachment A, EPS Metering Design Proposal. Included one line drawings must be dated, detailed, bear the current drawing revision number, and show all devices which contribute to the burden in the metering circuits. Other information may also be required by ERCOT for review regarding the meter and related installation and Facilities; such additional information shall be promptly provided to ERCOT by the TSP or DSP upon request of ERCOT.
+
+10.4.2.1 Approval or Rejection of an EPS Design Proposal for EPS Metering Facilities
+
+(1) ERCOT may unconditionally approve, conditionally approve, or reject an EPS Design Proposal.
+
+10.4.2.1.1 Unconditional Approval
+
+(1) If ERCOT unconditionally approves an EPS Design Proposal, then ERCOT shall promptly notify the TSP or DSP that the EPS Design Proposal has been approved. The TSP or DSP may then commence installation of the EPS Metering Facilities in accordance with the EPS Design Proposal.
+
+10.4.2.1.2 Conditional Approval
+
+(1) Notification of Conditional Approval:
+
+If ERCOT conditionally approves an EPS Design Proposal, then ERCOT shall promptly notify the TSP or DSP that the EPS Design Proposal has been conditionally approved. It shall set forth in such Notice the conditions on which approval is granted and the time period in which each such condition must be satisfied by the TSP or DSP.
+
+(2) Ability to Satisfy Conditions:
+
+If the TSP or DSP disputes any condition imposed by ERCOT, the TSP or DSP must promptly notify ERCOT of its concerns and provide ERCOT with the reasons for its concerns. If the TSP or DSP provides ERCOT such Notice, ERCOT may amend or withdraw any of the conditions on which it granted its approval or ERCOT may require the TSP or DSP to satisfy other conditions. ERCOT and the TSP or DSP shall use good faith efforts to reach agreement on accomplishing the installation.
+
+(3) Notification of Satisfaction of Conditions:
+
+The TSP or DSP shall promptly notify ERCOT when each condition in the approval has been satisfied and provide to ERCOT any information reasonably requested by ERCOT as evidence that such condition has been satisfied.
+
+(4) Confirmation of Satisfaction of Conditions:
+
+If ERCOT determines that a condition has been satisfied, then ERCOT shall provide the TSP or DSP written confirmation that the condition has been satisfied.
+
+(5) Unsatisfied Conditions:
+
+If ERCOT determines that a condition has not been satisfied, ERCOT shall notify the TSP or DSP that it does not consider the condition satisfied and shall set out in such Notice the reason(s) that it does not consider the condition satisfied. If, after using good faith efforts, ERCOT and the TSP or DSP are unable to agree on whether the condition is satisfied, either Entity may refer the dispute to the Alternative Dispute Resolution (ADR) Procedures as described in Section 20, Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds.
+
+10.4.2.1.3 Rejection
+
+(1) If ERCOT rejects an EPS Design Proposal, then ERCOT shall promptly notify the TSP or DSP that the EPS Design Proposal has been rejected and shall set forth the reasons for its rejection. The TSP or DSP shall submit to ERCOT a revised EPS Design Proposal after receiving such Notice. If ERCOT rejects for a second time an EPS Design Proposal submitted by a TSP or DSP with respect to the same or similar Notice issued by ERCOT as described above, then ERCOT and the TSP or DSP shall use good faith efforts to reach agreement on the requirements and disputed items. In the absence of agreement either Entity may refer the dispute to the ADR Procedures as described in Section 20, Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds.
+
+10.4.3 Site Certification Documentation Required from the TSP or DSP EPS Meter Inspector
+
+(1) A TSP or DSP EPS Meter Inspector shall complete an ERCOT site certification form for each set of EPS Metering Facilities that it inspects. The site certification form is the official form used to document whether EPS Metering Facilities meet ERCOT criteria.
+
+(2) The TSP or DSP EPS Meter Inspector shall promptly notify ERCOT and document any discrepancy between ERCOT approved EPS Design Proposal on file and the actual Metering Facilities inspected by the TSP or DSP EPS Meter Inspector.
+
+(3) The TSP or DSP shall provide the documents as outlined in SMOG for each set of EPS Metering Facilities being considered for ERCOT approval.
+
+10.4.3.1 Review by ERCOT
+
+(1) ERCOT shall review the ERCOT site certification documentation prepared by the TSP or DSP EPS Meter Inspector within 45 days of receipt. If ERCOT finds that this data is incomplete or demonstrates that the EPS Metering Facilities fail to meet the standards contained within this Section or the SMOG, ERCOT shall promptly provide written or electronic notice of the deficiencies to the TSP or DSP.
+
+(2) ERCOT shall notify the TSP or DSP of the approval of the Metering Facility. ERCOT shall return a copy of the schematic drawings, and a copy of the ERCOT site certification form marked by ERCOT as approved. ERCOT shall retain a copy of these documents.
+
+10.4.3.2 Provisional Approval
+
+(1) If ERCOT finds that the documentation: provided by the TSP or DSP is incomplete or demonstrates that the EPS Metering Facility fails to meet the standards contained within this Section and SMOG; then ERCOT may, elect to issue a provisional approval for the Metering Facility. The terms and conditions on which such provisional approval is issued shall be at ERCOT’s discretion and shall be defined for the TSP or DSP. ERCOT shall not issue an approval until such time as all of the conditions of the provisional approval have been fulfilled to the satisfaction of ERCOT. ERCOT shall post any provisional approvals on the ERCOT website on a quarterly basis.
+
+10.4.3.3 Obligation to Maintain Approval
+
+(1) Once an EPS Metering Facility has been installed, it is the responsibility of the TSP or DSP to ensure that the EPS Metering Facility complies with the approval criteria referred to in this Section and the SMOG.
+
+10.4.3.4 Revocation of Approval
+
+(1) ERCOT may revoke in full or in part any approval of Metering Facilities, including a provisional approval if:
+
+(a) ERCOT or a TSP or DSP EPS Meter Inspector demonstrates that all or part of the EPS Metering Facilities covered by that approval no longer meet the approval criteria for EPS Metering Facilities contained in this Section and the SMOG; and
+
+(b) ERCOT has given written Notice to the TSP or DSP stating that the identified EPS Metering Facilities do not meet the approval criteria and the reasons and that the TSP or DSP fails to correct the deficiency and satisfy ERCOT, within 30 days, that the EPS Metering Facilities meet the approval criteria.
+
+(2) If ERCOT revokes in full or part an approval of EPS Metering Facilities, the TSP or DSP may seek re-approval of the EPS Metering Facilities by requesting approval in accordance with this Section.
+
+10.4.3.5 Changes to Approved EPS Metering Facilities
+
+(1) Each TSP and DSP shall notify ERCOT of any planned modifications or changes to be made to any EPS Metering Facilities that would affect the EPS Metering Facility’s approval, not less than ten Business Days prior to the intended implementation of the change. Before the intended date of the change, ERCOT may request additional information from the TSP or DSP to demonstrate that the EPS Metering Facilities will still meet the applicable approval standards; the TSP or DSP shall promptly comply with such request for information. ERCOT may at its discretion audit Metering Facilities to determine compliance. The TSP or DSP shall provide ERCOT with meter specific program details, as downloaded from the meter, when the EPS Meter is programmed.
+
+10.4.3.6 Confirmation of Certification
+
+(1) On the written request of ERCOT, the TSP or DSP shall provide ERCOT written or electronic confirmation that the Metering Facilities of each metered Entity that the TSP or DSP represents have been certified in accordance with this Section and the SMOG within five Business Days of receiving such a request from ERCOT.
+
+10.5 TSP and DSP EPS Meter Inspectors
+
+10.5.1 List of TSP and DSP EPS Meter Inspectors
+
+(1) ERCOT shall maintain a list of TSP and DSP ERCOT-Polled Settlement (EPS) Meter Inspectors, and details related to ERCOT training to become a Transmission Service Provider (TSP) or Distribution Service Provider (DSP) EPS Meter Inspector.
+
+10.5.2 EPS Meter Inspector Approval Process
+
+10.5.2.1 TSP and DSP Responsibilities
+
+(1) Each TSP and DSP shall ensure that personnel performing EPS Meter Facility certification duties are approved EPS Meter Inspectors and comply with this Section and the Settlement Metering Operating Guide (SMOG). A TSP or DSP EPS Meter Inspector is required to complete an ERCOT EPS Meter Inspector training session.
+
+(2) The TSP and DSP shall submit to ERCOT the following information for individuals performing EPS Metering Facility certification.
+
+(a) Name of individual;
+
+(b) Time period the individual has been testing Generation Resource or transmission interconnect metering points;
+
+(c) TSP or DSP statement indicating that the individual has the technical expertise to perform EPS Metering Facility certification; and,
+
+(d) Additional documentation as required by ERCOT.
+
+10.5.2.2 ERCOT Responsibilities
+
+(1) ERCOT shall hold EPS Meter Inspector training sessions on a regularly scheduled basis. Sessions must include information on the following:
+
+(a) Market responsibilities of EPS Meter Inspectors;
+
+(b) Documentation requirements for the site certification;
+
+(c) Overview of EPS Metering Facilities related topics and documents;
+
+(d) Protocols requirements;
+
+(e) SMOG requirements; and
+
+(f) Technical requirements.
+
+(2) ERCOT shall issue a certificate of attendance to individuals upon completion of the EPS Meter Inspector training sessions.
+
+(3) ERCOT shall have the authority to revoke an individual’s involvement with EPS Metering Facility certification.
+
+10.6 Auditing and Testing of Metering Facilities
+
+10.6.1 EPS Meter Entities
+
+10.6.1.1 ERCOT Requirement for Audits and Tests
+
+(1) ERCOT shall have the right to audit any ERCOT-Polled Settlement (EPS) Metering Facility that it considers necessary or to request and witness a test carried out by a Transmission Service Provider (TSP) or Distribution Service Provider (DSP) EPS Meter Inspector.
+
+10.6.1.2 TSP and DSP Testing Requirements for EPS Metering Facilities
+
+(1) At a minimum, the TSP and DSP EPS Meter Inspector shall conduct testing of EPS Meters on an annual basis, within the same month of each year as the previous year’s test. Metering Facilities used in the ERCOT system for settlement must be tested pursuant to the TSP or DSP tariffs, the Settlement Metering Operating Guide and these Protocols.
+
+(2) Instrument transformers used in settlement metering circuits must be tested per the American National Standards Institute (ANSI) C12.1, Code for Electricity Metering, and the following guidelines:
+
+(a) Magnetic Instrument Transformers do not require periodic testing;
+
+(b) Coupling Capacitor Voltage Transformers (CCVTs) shall be tested for accuracy:
+
+  (i) By the end of the year in which the fifth anniversary of the previous test occurs; or
+
+  (ii) By the end of the year in which the sixth anniversary of the previous test occurs, if the previous test occurred during the fourth quarter of the year.
+
+  (c) At the end of the year of the fifth anniversary of the original CCVT testing a TSP or DSP may request in writing to be exempt from paragraph (2)(b) above for a period of 15 years by agreeing to perform monitoring of the phase voltages along with the following requirements:
+
+  (i) The TSP or DSP shall perform monitoring of the phase voltages ensuring that the voltages do not fall outside 1.6% of the other two phases; or
+
+  (ii) The TSP or DSP shall perform monitoring of the voltages of two CCVTs that are physically located on the same phase of the same electrical bus ensuring that the voltages do not fall outside 0.6% of each other.
+
+  (iii) The TSP or DSP will review this monitoring monthly to ensure that the voltages do not exceed the parameters defined in paragraph (2)(c)(i) above or paragraph (2)(c)(ii) above on a continuous basis for a period of one month. This review may be an automated or manual process.
+
+  (iv) The TSP or DSP shall add comments to the annual meter test report that voltage monitoring is being performed as per paragraph (2)(c)(i) above or paragraph (2)(c)(ii) above and there has been no consistent failure lasting a month or longer.
+
+  (v) If there is a failure of the voltage monitoring per paragraph (2)(c)(iii) above the TSP or DSP shall remove the CCVT from service with the option to send it back to the manufacturer for testing and calibration.
+
+  (vi) The TSP or DSP shall remove the CCVT from service by the end of the year of the 20^(th) anniversary of the original CCVT testing with the option to send it back to the manufacturer for testing and calibration.
+
+(3) ERCOT may determine that periodic testing of CCVTs and/or voltage monitoring is not required once these devices have been proven to be stable. If the devices have shown themselves to be unstable, ERCOT may discontinue the use of these devices for settlement purposes.
+
+10.6.1.3 Failure to Comply
+
+(1) If an EPS Metering Facility fails to comply with ERCOT’s audit or test procedures, ERCOT shall issue a warning to the TSP or DSP responsible for such Metering Facilities. If the TSP or DSP fails to comply with ERCOT’s recommendations in a reasonable time, as determined by ERCOT, ERCOT shall notify the Public Utility Commission of Texas (PUCT) or the appropriate Governmental Authority.
+
+10.6.1.4 Requests by Market Participants
+
+(1) Market Participants shall follow appropriate Governmental Authority rules for requesting the testing of Metering Facilities.
+
+10.6.2 TSP and DSP Metered Entities
+
+10.6.2.1 Requirement for Audit and Testing
+
+(1) Audit and Testing by a TSP or DSP
+
+Each TSP or DSP shall conduct (or engage a qualified Entity to conduct) audits and tests of the Metering Facilities of the TSP or DSP Metered Entities that it represents to ensure compliance with all applicable requirements of any relevant Governmental Authority. Each TSP and DSP shall undertake any other actions that are reasonably necessary to ensure the accuracy and integrity of the meter data.
+
+(2) Audit and Testing Requests by an affected Market Participant
+
+Subject to any applicable Governmental Authority requirements, an affected Market Participant shall have the right to witness an audit or test carried out by the TSP or DSP or its authorized representative.
+
+10.6.2.2 TSP and DSP Requirement to Certify per Governmental Authorities
+
+(1) If a Governmental Authority has authority to certify meter installations, then the TSP or DSP shall comply with such regulations.
+
+10.7 ERCOT Request for Installation of EPS Metering Facilities
+
+10.7.1 Additional EPS Metering Installations
+
+(1) If ERCOT determines that there is a potential need to install additional ERCOT-Polled Settlement (EPS) Metering Facilities on the ERCOT System, ERCOT shall notify the relevant Transmission Service Provider (TSP) or Distribution Service Provider (DSP) in writing or electronically. ERCOT’s Notice must include the following information:
+
+(a) The location of the meter point at which the additional EPS Metering Facilities are required;
+
+(b) The projected installation date by which the relevant EPS Metering Facilities should be installed;
+
+(c) The reason for the need to install the additional EPS Metering Facilities; and
+
+(d) Any other information that ERCOT considers relevant.
+
+(2) A TSP or DSP that is notified by ERCOT of the potential need to install additional EPS Metering Facilities must:
+
+(a) Give ERCOT written confirmation of receipt of Notice within three Business Days of receiving such Notice;
+
+(b) Submit an EPS Design Proposal to ERCOT within 45 Business Days of receiving such Notice.
+
+(3) The TSP or DSP may request a waiver to install additional Metering Facilities.
+
+10.7.2 Approval or Rejection of Waiver Request for Installation of EPS Metering Facilities
+
+(1) ERCOT may approve, or reject a waiver request at ERCOT’s sole discretion.
+
+10.7.2.1 Approval
+
+(1) If ERCOT approves a waiver request, then ERCOT shall promptly notify the TSP or DSP.
+
+10.7.2.2 Rejection
+
+(1) If ERCOT rejects a waiver request, then ERCOT shall promptly notify the TSP or DSP and shall set forth the reasons for its rejection. The TSP or DSP may submit to ERCOT a revised waiver request within 14 Business Days of receiving such Notice. If ERCOT rejects for a second time a waiver request submitted by a TSP or DSP with respect to the same or similar Notice issued by ERCOT as described above, then ERCOT and the TSP or DSP shall use good faith efforts to reach agreement on the requirements and disputed items. In the absence of agreement either Entity may refer the dispute to the ADR Procedures as described in Section 20, Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds.
+
+10.8 Maintenance of Metering Facilities
+
+10.8.1 EPS Meters
+
+10.8.1.1 Duty to Maintain EPS Metering Facilities
+
+(1) Each Transmission Service Provider (TSP) and Distribution Service Provider (DSP) shall maintain its ERCOT-Polled Settlement (EPS) Metering Facilities to meet the standards prescribed by this Section and the Settlement Metering Operating Guide (SMOG). If the EPS Metering Facilities of a TSP or DSP require maintenance to ensure that they operate in accordance with the requirements of this Section, SMOG, or any Governmental Authority, then the TSP or DSP shall notify ERCOT of the need for such maintenance. The TSP or DSP shall also inform ERCOT five Business Days in advance of the time period during which such maintenance is expected to occur. During that period, the TSP or DSP, or its authorized representative, after notifying ERCOT, shall be entitled to access sealed EPS Metering Facilities to which access is required in order to undertake the required maintenance.
+
+(2) Resource Entities shall be responsible for the maintenance of EPS Metering Facilities owned by the Resource Entity as prescribed by this Section and the SMOG.
+
+10.8.1.2 EPS Metering Facilities Repairs
+
+(1) If an EPS Metering Facility requires repairs to ensure that it operates in accordance with the requirements of this Section, then the TSP or DSP shall immediately notify ERCOT of the need for repairing such Metering Facility. If, however, operating conditions are such that it is not possible for the Transmission and/or Distribution Service Provider (TDSP) to notify ERCOT of the need for repairs, then the TDSP may make the necessary repairs and then notify ERCOT of the repairs prior to the end of the next Business Day.
+
+(a) Where no Back-up Meter exists or Back-up Meter data is unavailable, the TSP or DSP shall ensure that the metering point is repaired and operational within 12 hours of problem detection. ERCOT may, at its discretion, reduce the repair timeline from 12 to six hours if the meter data is required for Real-Time Market (RTM) Settlements on the same day or an upcoming ERCOT non-Business Day.
+
+(b) Where a functional and operational Back-up Meter exists, the TSP or DSP shall ensure that the metering point is repaired and operational within five Business Days of problem detection.
+
+(c) Resource Entities that own a portion of the facilities associated with the EPS Meter shall be responsible for meeting the requirements of paragraphs (a) and (b) above.
+
+10.8.2 TSP or DSP Metered Entities
+
+(1) Each TSP and DSP shall maintain its Metering Facilities in accordance with the requirements of the relevant Governmental Authorities and according to this Section.
+
+10.9 Standards for Metering Facilities
+
+(1) For Transmission Service Provider (TSP) and Distribution Service Provider (DSP) Metered Entities, an Interval Data Recorder (IDR) Meter is required on any of the following locations/sites:
+
+  (a) Non-Opt-In Entity (NOIE) or External Load Serving Entity (ELSE) metering points used to determine the total Load for that NOIE or ELSE; and
+
+  (b) Block Load Transfer (BLT) metering points, registered for Settlements in accordance with Section 6.5.9.5.1, Registration and Posting of BLT Points.
+
+(2) For TSP and DSP Metered Entities, an IDR is required on any of the following locations/sites:
+
+  (a) Load Resources participating in the Ancillary Services markets, with the exception of Aggregate Load Resources (ALRs) for which statistical sampling is used to validate telemetry, as detailed in Section 22, Attachment O, Requirements for Aggregate Load Resource Participation in the ERCOT Markets;
+
+  (b) Settlement Only Distribution Generators (SODGs); and
+
+  (c) Locations meeting IDR requirements defined in Section 18, Load Profiling.
+
+10.9.1 ERCOT-Polled Settlement Meters 
+
+(1) The TSP or DSP for ERCOT-Polled Settlement (EPS) Meters shall ensure that the EPS Metering Facilities comply with this Section and the Settlement Metering Operating Guide (SMOG). This requirement does not apply to Resource Entity-owned Metering Facilities used to measure, calculate, or telemeter Energy Storage Resource (ESR) auxiliary Load pursuant to Section 10.2.4, Resource Entity Calculation and Telemetry of ESR Auxiliary Load Values.
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR995: Replace paragraph (1) above with the following upon system implementation:]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| (1) The TSP or DSP for ERCOT-Polled Settlement (EPS) Meters shall ensure that the EPS Metering Facilities comply with this Section and the Settlement Metering Operating Guide (SMOG) except that any EPS Metering Facilities owned by the Resource Entity shall be the responsibility of the Resource Entity to maintain acceptable performance. This requirement does not apply to Resource Entity-owned Metering Facilities used to measure, calculate, or telemeter Energy Storage Resource (ESR), Settlement Only Distribution Energy Storage System (SODESS), or Settlement Only Transmission Energy Storage System (SOTESS) auxiliary Load pursuant to Section 10.2.4, Resource Entity Calculation and Telemetry of ESR, SODESS, or SOTESS Auxiliary Load Values. |
++==========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(2) IDRs used for settlement of EPS Metering Facilities shall:
+
+(a) Capture energy consumption and/or production in increments consistent with ERCOT defined Settlement Interval;
+
+(b) Be able to capture energy in increments of five minutes (excluding memory allocation) for new and replacement IDRs used for settlement;
+
+(c) Provide interval data for daily polling on a schedule that supports ERCOT’s requirements (typically a daily cycle);
+
+(d) Be capable of having data retrieved via telemetry by Meter Data Acquisition System (MDAS);
+
+(e) Have battery or other energy-storage back-up to maintain time during power outages;
+
+(f) Have remote time synchronization capability compatible with the MDAS;
+
+(g) Maintain meter clocks on a time reference standard that enables ERCOT MDAS to maintain the IDR data on Central Prevailing Time (CPT). The meter clock shall be synchronized to within +/- 1% of the Settlement Interval when compared with the National Institute of Standards and Technology (NIST) Atomic Clock. ERCOT shall perform the time synchronization for meters at the time of the interrogation if the meter is outside tolerance; and
+
+(h) Divide each hour into Settlement Intervals ending as follows:
+
+  XX:15:00
+
+  XX:30:00
+
+  XX:45:00
+
+  XX:00:00
+
+10.9.2 TSP or DSP Metered Entities
+
+(1) IDRs used for settlement of TSP or DSP Metered Entities shall:
+
+(a) Capture energy consumption in increments consistent with, or in fractions of, ERCOT-defined settlement time interval;
+
+(b) Provide interval data on a schedule that supports the requirements of final Settlement;
+
+(c) Have battery or other energy-storage back-up to maintain time during power outages;
+
+(d) Have time synchronization capability;
+
+(e) Maintain meter clocks on a time reference that enables the TSP or DSP to submit data on the CPT. The meter clock shall be synchronized to within at least +/- 5% of the Settlement Interval when compared to the NIST Atomic Clock;
+
+(f) Have data aggregated to the appropriate Settlement Interval time block by the TSP or DSP prior to the data being sent to ERCOT if recorded at increments less than the ERCOT defined Settlement Interval;
+
+(g) Be able to capture energy in increments of five minutes (excluding memory allocation) for new and replacement IDRs used for Settlement;
+
+(h) Divide each hour into Settlement Intervals ending as follows:
+
+  XX:15:00
+
+  XX:30:00
+
+  XX:45:00
+
+  XX:00:00
+
+(i) IDR data submitted to ERCOT for Operating Days January 1, 2003, or later must contain only whole days with start times beginning at 0000 and stop times ending at 2359.
+
+10.9.3 Failure to Comply with Standards
+
+(1) If the TSP or DSP fails to comply with the standards for EPS Metering Facilities referred to in this Section and the SMOG, then ERCOT shall notify the Public Utility Commission of Texas (PUCT) or the appropriate Governmental Authority.
+
+10.10 Security of Meter Data
+
+10.10.1 EPS Meters
+
+(1) A Transmission Service Provider (TSP) or Distribution Service Provider (DSP) is responsible for data security of the ERCOT-Polled Settlement (EPS) Metering Facilities on their system. This responsibility extends to third-party contracts and access to EPS Metering Facilities.
+
+(2) A TSP, DSP or any Entity authorized to poll EPS Meters may not issue any EPS Meter programming passwords to any Market Participant.
+
+10.10.1.1 TSP and DSP Data Security Responsibilities
+
+(1) Each TSP and DSP shall:
+
+(a) Maintain and modify the passwords for programming and read access to EPS Meters;
+
+(b) Provide the appropriate password access to ERCOT, which will allow ERCOT to synchronize the meter clock;
+
+(c) Establish any other security requirements for accessing the EPS Meters so as to ensure the security of those meters and their meter data;
+
+(d) Coordinate any EPS Meter programming parameter changes with ERCOT according to this Section, including informing the Load or Resource Entity of any changes to the meter;
+
+(e) Upon request of the Resource Entity that represents an EPS metered facility, provide the EPS meter “read only” password to such Resource Entity for such facility and other EPS metered facility required to calculate their Qualified Scheduling Entity (QSE) Load, to the extent that such provision does not violate the Customer service and protection provisions of the Public Utility Commission of Texas (PUCT) Substantive Rules; and
+
+(f) Modify the “read only” password for EPS meters when a Resource Entity that represents a facility requests a change due to data security reasons, provided that such modification does not violate the Customer service and protection provisions of the PUCT Substantive Rules.
+
+10.10.1.2 ERCOT Data Security Responsibilities
+
+(1) ERCOT may request that TSP or DSP alter the password and other requirements for accessing EPS Meters, as it deems necessary.
+
+10.10.1.3 Resource Entity Data Security Responsibilities
+
+(1) A Resource Entity must request that the TSP or DSP modify the EPS Meter “read only” password for a facility when the Resource Entity relationships that affect EPS Meter data security change. Such request must include the reason for the request.
+
+10.10.1.4 Third Party Access Withdrawn
+
+(1) If, in the reasonable opinion of ERCOT, access granted to a third party interferes with or impedes ERCOT’s ability to poll any EPS Meter, ERCOT may require immediate withdrawal of any access granted to such third party. Separate access through additional communications ports may be allowed so long as it does not interfere with ERCOT’s ability to communicate with the meter.
+
+10.10.1.5 Meter Site Security
+
+(1) EPS Metering Facilities and secondary devices that could have any impact on the performance of the EPS Metering Facilities must be sealed to the extent practicable.
+
+(2) ERCOT shall provide each TSP and DSP with uniquely numbered seals to be used by the TSP or DSP EPS Meter Inspector to seal EPS Meters and EPS Meter test switches. Procedures for seal use shall be in accordance with this Section and the SMOG.
+
+10.10.2 TSP or DSP Metered Entities
+
+(1) Security for TSP and DSP polled meters and meter data shall be the responsibility of the TSP or DSP. Each TSP and DSP shall maintain polled meters in accordance with applicable Governmental Authority rules and regulations. The TSP and DSP shall ensure that only Customer-approved Market Participants have access to the Customer meter.
+
+10.11 Validating, Editing, and Estimating of Meter Data
+
+10.11.1 EPS Meters
+
+(1) The raw meter data that ERCOT retrieves from ERCOT-Polled Settlement (EPS) Meters must be processed by Meter Data Acquisition System (MDAS) using the Validating, Editing, and Estimating (VEE) procedures published in Section 11, Data Acquisition and Aggregation, and the Settlement Metering Operating Guide (SMOG) in order to produce Settlement Quality Meter Data. During periods for which no primary EPS Meter data is available, ERCOT shall use the backup meter data or substitute estimated usage data for that metered Entity using estimation procedures referred to in these Protocols and the SMOG. This data shall be used by ERCOT in its settlement and billing process.
+
+10.11.2 Obligation to Assist
+
+(1) At the request of ERCOT, a Transmission Service Provider (TSP), Distribution Service Provider (DSP) and Market Participant shall promptly assist ERCOT in correcting or replacing defective data from EPS Meters and in detecting and correcting underlying causes for such defects. Such assistance shall be rendered in a timely manner so that the settlement process is not delayed.
+
+10.11.3 TSP or DSP Settlement Meters
+
+(1) The TSP and DSP shall provide ERCOT with Settlement Quality Meter Data for the TSP or DSP Settlement Meters on its system and shall ensure that at a minimum the Validation, Editing and Estimating (VEE) requirements as specified in the Uniform Business Practices (UBP) standard for VEE have been properly performed on such data. ERCOT shall not perform any VEE on the Settlement Quality Meter Data it receives from TSP or DSP.
+
+(2) The following UBP manual validation processes are exempt for Interval Data:
+
+(a) Spike Check; and
+
+(b) Reactive channel check for kWh data.
+
+10.12 Communications
+
+10.12.1 ERCOT Acquisition of ERCOT-Polled Settlement (EPS) Meter Data 
+
+(1) ERCOT shall acquire ERCOT-Polled Settlement (EPS) Meter data via the following communication links:
+
+(a) ERCOT private communication network established by ERCOT for ERCOT Real-Time metered Entities; or
+
+(b) Other ERCOT-approved communication technology provided by the Transmission Service Provider (TSP) or Distribution Service Provider (DSP).
+
+10.12.2 TSP or DSP Meter Data Submittal to ERCOT
+
+(1) TSP and DSPs shall submit meter consumption data to ERCOT through a standard data interface into the Meter Data Acquisition System (MDAS). In order to submit meter consumption data, a TSP or DSP shall use an automated system with an ERCOT-approved and tested interface to MDAS.
+
+10.12.3 ERCOT Distribution of Settlement Quality Meter Data
+
+(1) ERCOT shall distribute Settlement Quality Meter Data to Market Participants:
+
+(a) Whenever a TSP or DSP submits meter consumption data to ERCOT via a Texas Standard Electronic Transaction (TX SET), ERCOT will forward the consumption data and other information for the Electric Service Identifiers (ESI IDs) to the Competitive Retailer (CR) indicated in the transaction. ERCOT relies upon the TSP or DSP to ensure that the CR included in the transaction is the appropriate CR for the meter data timeframe. ERCOT does not further validate the accuracy of the CR indicated.
+
+(b) Whenever a TSP or DSP submits meter data to ERCOT via an ERCOT specified file format for Advanced Meters, upon certified request by a Market Participant, ERCOT shall make that data available to the Market Participant via Market Information System (MIS) Certified Area.
+
+(c) On Request – A Market Participant may submit an electronic request via the MIS Certified Area for specific meter consumption data. ERCOT will receive and validate the request and, if appropriate, automatically forward the appropriate information to the Market Participant.
+
+10.13 Meter Identification
+
+(1) The device id used to identify an ERCOT-Polled Settlement (EPS) Meter shall be unique for such meters on the ERCOT System. ERCOT shall maintain a master list of device ids and shall notify each Transmission Service Provider (TSP) and Distribution Service Provider (DSP) if the device id selected has been used elsewhere in Meter Data Acquisition System (MDAS).
+
+10.14 Exemptions from Compliance to Metering Protocols
+
+10.14.1 Authority to Grant Exemptions
+
+(1) ERCOT may grant on a case by case basis, exemptions from compliance on a temporary basis until new arrangements can be completed in accordance with the guidelines as listed below. Any permanent exemption to this Section requires approval by the Technical Advisory Committee (TAC) and the ERCOT Board. Any permanent exemption shall be subject to periodic review and revocation by the ERCOT Board.
+
+10.14.2 Guidelines for Granting Temporary Exemptions
+
+(1) ERCOT shall use the following process when considering applications for temporary exemptions from compliance with this Section and the Settlement Metering Operating Guide (SMOG).
+
+(a) Publication of Guidelines: ERCOT shall post on the ERCOT website the general guidelines that it will use when considering applications for exemptions within five Business Days of a change of guidelines, so as to achieve consistency in its reasoning and decision-making and to give prospective applicants an indication of whether an application for exemption may be considered favorably.
+
+(b) Publication of Decision: ERCOT shall post on the ERCOT website the application for exemption and whether the application was approved or rejected by ERCOT and the reasons for rejecting the application, if applicable, on a quarterly basis.
+
+10.14.3 Procedure for Applying for Exemptions
+
+(1) All applications to ERCOT for exemptions from compliance with the requirements of this Section must be submitted in writing. ERCOT shall confirm receipt of an application within three Business Days of receipt. For temporary exemptions, ERCOT shall decide whether to grant or reject the exemption within 45 Business Days of receipt. For permanent exemptions, ERCOT shall forward the application to TAC for review at the next scheduled meeting for which appropriate Notice can be made. At any time during the application process, ERCOT may require the applicant to provide additional information in support of its application.
+
+(2) The applicant shall provide such additional information to ERCOT within five Business Days of receiving the request or within such other period as ERCOT may specify. If ERCOT requests additional information more than 40 Business Days after the date on which it received the application, ERCOT shall have an additional seven Business Days after receiving that additional information in which to consider the application. If the applicant does not provide the additional information requested, then ERCOT shall reject the application, in which case it will notify the applicant that its application has been rejected for failure to provide the additional information.
+
+10.14.3.1 Information to be Included in the Application
+
+(1) The application for exemption to ERCOT shall include:
+
+(a) A detailed description of the exemption sought. including specific reference to the relevant Section(s) of these Protocols or the SMOG authorizing ERCOT to grant the exemption, and the Metering Facilities to which the exemption will apply;
+
+(b) A detailed statement of the reason for seeking the exemption, including any supporting documentation;
+
+(c) Details of the Entity(s) to which the exemption will apply;
+
+(d) Details of the location to which the exemption will apply;
+
+(e) Details of the period of time for which the exemption will apply, including the proposed start and finish dates of that period; and
+
+(f) Any other information requested by ERCOT.

@@ -1,0 +1,247 @@
+ERCOT Nodal Protocols
+
+Section 20: Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds
+
+November 1, 2023
+
+20 Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds 20-1
+
+20.1 Applicability 20-1
+
+20.2 Deadline for Initiating ADR Proceeding 20-2
+
+20.3 Exhaustion of Other Dispute Resolution Procedures 20-2
+
+20.4 Initiation of ADR Proceedings 20-3
+
+20.5 Alternative Dispute Resolution Process 20-4
+
+20.6 Mediation Procedures 20-5
+
+20.7 Alternative Dispute Resolution Costs and Return of Settlement Funds 20-6
+
+20.8 Requests for Documents and Data 20-6
+
+20.9 Resolution of Alternative Dispute Resolution Proceedings and Notification to Market Participants 20-6
+
+20.10 Return of Settlement Funds by a Qualified Scheduling Entity or Congestion Revenue Right Account Holder to ERCOT 20-7
+
+20.10.1 Applicability 20-7
+
+20.10.2 Initiation of Return of Settlement Funds 20-7
+
+20.10.3 Process for a Return of Settlement Funds Request 20-8
+
+20.10.4 Settlement Following Approved Return of Settlement Funds 20-8
+
+20.11 Settlement of Approved Alternative Dispute Resolution Claims 20-9
+
+20.11.1 Adjustments Based on Alternative Dispute Resolution 20-9
+
+20.11.2 Charges for Approved ADR Claim 20-9
+
+20 Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds
+
+20.1 Applicability
+
+(1) Except as otherwise provided in Section 20, Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds, this Alternative Dispute Resolution (ADR) procedure applies to any claim by a Market Participant that ERCOT has violated or misinterpreted any law, including any statute, rule, Protocol, Other Binding Document, or Agreement, where such violation or misinterpretation results in actual harm, or could result in imminent harm, to the Market Participant. A Market Participant that disputes an interpretation of the ERCOT Protocols, an Other Binding Document, or an Agreement made by ERCOT through the Protocol interpretation request process described in subsection (i) of P.U.C. SUBST. R. 25.503, Oversight of Wholesale Market Participants, is not required to follow the ADR procedure prior to seeking relief from the Public Utility Commission of Texas (PUCT) or other Governmental Authority.
+
+(2) Only a Counter-Party may request ADR to seek correction of Settlement data and resettlement, except that:
+
+  (a) A Market Participant that is not a Counter-Party may submit an ADR request seeking correction of Settlement data and resettlement on behalf of an affected Counter-Party upon providing ERCOT written documentation executed by the Authorized Representative of the Counter-Party designating the Market Participant as the Counter-Party’s agent for purposes of submitting the ADR request; and
+
+  (b) A Load Serving Entity (LSE), with its Counter-Party, or a Transmission and/or Distribution Service Provider (TDSP) may submit an ADR request for correction of Electric Service Identifier (ESI ID) service history, usage information, and/or resettlement, as set forth in these Protocols and the Retail Market Guide.
+
+(3) Nothing in this ADR procedure is intended to limit or restrict the right of a Market Participant to file a petition seeking direct relief from the PUCT or another Governmental Authority without first exhausting this ADR procedure where actual or threatened action by ERCOT or a Market Participant could cause irreparable harm and where such harm cannot be addressed within the time permitted under the ADR process.
+
+(4) Except for the provisions of this Section 20.1, the ADR procedure may be modified by mutual agreement of the parties.
+
+(5) Parties shall exercise good faith efforts to timely resolve disputes under Section 20.
+
+(6) Nothing contained in Section 20 is intended to supersede any dispute resolution process mandated by applicable law or tariff. Furthermore, this ADR procedure does not apply to any dispute concerning an agreement between Market Participants or the terms of any tariff. To the extent any dispute not governed by Section 20 involves the interpretation of the ERCOT Protocols, an Other Binding Document, or an Agreement, that dispute may be submitted to ERCOT through the Protocol interpretation request process described in subsection (i) of P.U.C. SUBST. R. 25.503.
+
+20.2 Deadline for Initiating ADR Proceeding
+
+(1) The following deadlines shall apply for the initiation of an Alternative Dispute Resolution (ADR) proceeding:
+
+  (a) For any ADR proceeding invoked in connection with a Settlement and billing dispute submitted pursuant to Section 9.14, Settlement and Billing Disputes, the Market Participant must submit a complete written request for ADR no later than 45 days after the resolution date on which ERCOT denied the Market Participant’s Settlement and billing dispute.
+
+  (b) For any ADR proceeding invoked in connection with the rejection or rescission (or a portion thereof) of a verifiable cost, or rejection of a verifiable cost appeal, the Market Participant must submit a complete written request for ADR no later than 45 days after either:
+
+  (i) Rejection or rescission (or a portion thereof) of a verifiable cost; or
+
+  (ii) Notice from ERCOT that the appeal, in whole or in part, has been rejected.
+
+  (c) For any ADR proceeding invoked in connection with a disagreement arising from a Data Extract Variance process, the Market Participant must submit a complete written request for ADR no later than 45 days after issuance of the True-Up Statement for the applicable Operating Day.
+
+  (d) For any ADR proceeding invoked in connection with any other matter, the Market Participant must submit a complete written request for ADR no later than six months after the date on which information giving rise to the ADR request became available to the Market Participant.
+
+(2) If the Market Participant requesting ADR does not submit a complete written request for ADR (as set forth in Section 20.4, Initiation of ADR Proceedings) within the time required by paragraph (1) above, the Market Participant waives any claim regarding the dispute.
+
+20.3 Exhaustion of Other Dispute Resolution Procedures
+
+(1) When a section of these Protocols, an Other Binding Document, or an Agreement sets forth a dispute resolution procedure, a Market Participant shall exhaust that procedure prior to initiating an Alternative Dispute Resolution (ADR) proceeding, including but not limited to the following:
+
+  (a) If a Market Participant seeks resolution of a variance subject to the Data Extract Variance Process, the Market Participant must comply with that process prior to initiating an ADR proceeding, or the claim is waived.
+
+  (b) If a Counter-Party seeks correction of Settlement data and resettlement, except for resolution of a variance subject to the Data Extract Variance Process as described in paragraph (a) above, the Counter-Party must comply with the process set forth in Section 9.14, Settlement and Billing Dispute Process, prior to initiating an ADR proceeding, or the claim is waived.
+
+20.4 Initiation of ADR Proceedings
+
+(1) To initiate an Alternative Dispute Resolution (ADR) proceeding, a Market Participant shall complete and submit to the ERCOT Legal Department the designated form provided on the ERCOT website in the manner required by the form.
+
+  (a) All written requests shall include the following information:
+
+  (i) The name of the disputing Market Participant;
+
+  (ii) A description of the relief sought;
+
+  (iii) A detailed description of the grounds for the relief and the basis of each claim that must, at a minimum, identify which statute(s), rule(s), Protocol Section(s), Other Binding Document(s), Agreement(s) or other law(s) are alleged to have been violated;
+
+  (iv) A list of all other parties that would be affected by the dispute; and
+
+  (v) Designation of a senior dispute representative.
+
+  (b) For ADR proceedings for which the Market Participant seeks a monetary resolution, the Market Participant shall also include the following information:
+
+  (i) Operating Day(s) involved in the dispute;
+
+  (ii) Settlement dispute number (if applicable); and
+
+  (iii) Amount of compensation requested.
+
+(2) The date on which ERCOT receives the completed ADR written request shall be the ADR initiation date.
+
+20.5 Alternative Dispute Resolution Process
+
+(1) No later than seven days after the Alternative Dispute Resolution (ADR) initiation date, ERCOT shall determine, and provide Notice to, all parties directly involved in the dispute. Such Notice shall include the ADR file number and the designation of the ERCOT senior dispute representative.
+
+(2) For ADR proceedings that involve more than one Market Participant, each Market Participant other than the Market Participant that submitted the ADR request shall provide the name and contact information of a senior dispute representative no later than seven days after receipt of Notice from ERCOT pursuant to paragraph (1) above. If a Market Participant does not provide this information within the time required, the Market Participant waives its right to participate in the ADR proceeding.
+
+(3) Any dispute subject to ADR as described in this Section shall be referred to a senior dispute representative of each of the parties to the dispute. The senior dispute representative shall be an individual with authority to resolve the dispute (through delegation or otherwise). A disputing party may change its senior dispute representative upon reasonable written notice to all parties though such redesignation shall not extend any of the ADR timelines.
+
+(4) The parties to the dispute shall arrange a mutually convenient time and place for a meeting, with the initial ADR meeting taking place no later than 75 days after the ADR initiation date unless all parties agree to an extension of time. If the party that submitted the request for ADR fails to make reasonable efforts to schedule and attend the initial ADR meeting within the time required (including any agreed-upon extension of time), ERCOT may, in its sole discretion, deny the dispute.
+
+(5) After the initial ADR meeting, ERCOT may approve or deny the dispute in whole or in part by issuing the disposition Market Notice described in paragraph (1) of Section 20.9, Resolution of Alternative Dispute Resolution Proceedings and Notification to Market Participants. ERCOT must issue the Market Notice disposing of the ADR request no later than 30 days after the initial ADR meeting unless all parties agree in writing to an extension of time.
+
+(6) If the senior dispute representatives cannot resolve the dispute by mutual agreement within 45 days after the initial senior dispute resolution meeting (unless all parties agree in writing to an extension of time), then, upon the agreement of all parties to the ADR, the dispute may be referred to mediation pursuant to Section 20.6, Mediation Procedures.
+
+(7) The parties to the dispute may elect to waive ADR by written agreement, which will also complete the ADR proceeding.
+
+(8) The following table summarizes the ADR process timelines:
+
++------------------------------------------------------------------------------------------------+---------------------------+------------------------------------------+-----------+----------------------------+----------------------------+
+| Deadline to submit ADR Request                                                                 | ERCOT                     | Other Market Participant                 |           | ERCOT/ Market Participant  | ERCOT/ Market Participant  |
+|                                                                                                |                           |                                          |           |                            |                            |
+| to ERCOT                                                                                       | Notice of Receipt         | Contact Info                             |           | Initial ADR meeting        | resolution of ADR          |
+|                                                                                                |                           |                                          |           |                            |                            |
+|                                                                                                |                           | to ERCOT¹                                |           |                            |                            |
++================================================================================================+===========================+==========================================+===========+============================+============================+
+| ≤ 45 days                                                                                      | ≤ 7 days                  | ≤ 7 days                                 |           | ≤ 75 days                  | ≤ 30 days                  |
+|                                                                                                |                           |                                          |           |                            |                            |
+| of denial (Settlement and billing dispute denied by ERCOT)                                     | after ADR initiation date | after receipt of ERCOT Notice of receipt |           | after ADR initiation date² | after initial ADR meeting² |
+|                                                                                                |                           |                                          |           |                            |                            |
+| ≤ 45 days                                                                                      |                           |                                          |           |                            |                            |
+|                                                                                                |                           |                                          |           |                            |                            |
+| of True-Up (Data Extract Variance dispute not resolved by True-Up)                             |                           |                                          |           |                            |                            |
+|                                                                                                |                           |                                          |           |                            |                            |
+| ≤ 6 months                                                                                     |                           |                                          |           |                            |                            |
+|                                                                                                |                           |                                          |           |                            |                            |
+| from date on which information giving rise to ADR request became available (any other dispute) |                           |                                          |           |                            |                            |
++------------------------------------------------------------------------------------------------+---------------------------+------------------------------------------+-----------+----------------------------+----------------------------+
+|                                                                                                |                           |                                          |           |                            |                            |
++------------------------------------------------------------------------------------------------+---------------------------+------------------------------------------+-----------+----------------------------+----------------------------+
+|                                                                                                |                           |                                          |           |                            |                            |
++------------------------------------------------------------------------------------------------+---------------------------+------------------------------------------+-----------+----------------------------+----------------------------+
+
+Notes:
+
+1. If required pursuant to paragraph (2) above.
+
+2. Unless all parties agree to an extension of time.
+
+20.6 Mediation Procedures
+
+(1) The parties shall agree on a mediator who has no past or present official, financial, or personal conflict of interest with respect to the issues or parties in dispute, unless the interest is fully disclosed in writing to all participants in the dispute and all such participants waive in writing any objection to the conflict of interest. If the parties are unable to agree on a mediator within ten days of the agreement to mediate, then the Commercial Mediation Rules of the American Arbitration Association (AAA) will be used to select the mediator.
+
+(2) The mediator and senior dispute representatives of the parties shall commence mediation of the dispute within ten days after the mediator’s date of appointment. Communications regarding mediation shall be confidential and shall not be referred to or disclosed in any subsequent proceeding. The mediator shall aid the parties in reaching a mutually acceptable resolution of the dispute. If agreement regarding the Alternative Dispute Resolution (ADR) cannot be reached, any of the parties may apply for relief to the Public Utility Commission of Texas (PUCT), or any other Governmental Authority.
+
+20.7 Alternative Dispute Resolution Costs and Return of Settlement Funds
+
+(1) Each party shall be responsible for its own costs incurred during an Alternative Dispute Resolution (ADR) or Return of Settlement Funds (RSF) proceeding.
+
+20.8 Requests for Documents and Data
+
+(1) If, as part of the Alternative Dispute Resolution (ADR) proceeding or Return of Settlement Funds (RSF) proceeding, a party requests documents or data from another party to the ADR or RSF proceeding, the responding party must provide one of the following within 15 days of the request:
+
+  (a) The requested documents or data;
+
+  (b) An explanation of why the documents or data should not be produced (e.g., relevance); or
+
+  (c) An explanation of why the information cannot be provided on that date and a reasonable date on which the documents or data will be produced.
+
+(2) All information provided pursuant to this subsection shall be provided by mail, email, or other mutually agreed-upon method.
+
+20.9 Resolution of Alternative Dispute Resolution Proceedings and Notification to Market Participants 
+
+(1) If ERCOT has determined the appropriate disposition of an Alternative Dispute Resolution (ADR) proceeding, ERCOT shall issue a Market Notice providing a brief description of the relevant facts, a list of the parties involved in the dispute, the disposition of the proceeding and the reasoning supporting the resolution. No later than seven days prior to issuing a Market Notice pursuant to this paragraph (1), ERCOT shall provide a copy of the proposed Market Notice, including the proposed issuance date, to the party that submitted the request for ADR, who may comment on the proposed Market Notice.
+
+(2) In addition to the Market Notice described in paragraph (1) above, if an ADR claim is approved in whole or in part, ERCOT shall issue a Market Notice describing the total resettlement amount and the manner in which the resulting overpayments or underpayments will be allocated to the appropriate Settlement Statement recipients and Invoice Recipients, including the specific Settlement Statements and Invoices that will be affected. The Market Notice shall include the information required by Section 9.2.6, Notice of Resettlement for the DAM, or Section 9.5.7, Notice of Resettlement for the Real-Time Market, as applicable.
+
+(3) If, in connection with the disposition of an ADR proceeding, ERCOT determines that it is appropriate to correct Day-Ahead Market Clearing Prices for Capacity (MCPCs), Day-Ahead hourly Locational Marginal Prices (LMPs), Day-Ahead Settlement Point Prices (DASPPs), Real-Time Settlement Point Prices, Real-Time Settlement Point LMPs, Real-Time Electrical Bus LMPs, Real-Time prices for energy metered, Real-Time On-Line Reserve Price Adders, Real-Time Off-Line Reserve Price Adders, Real-Time Reserve Prices for On-Line Reserves, Real-Time Reserve Prices for Off-Line Reserves, Real-Time On-Line Reliability Deployment Adders, Real-Time On-Line Reliability Deployment Prices, and/or constraint Shadow Prices, approval of the ERCOT Board pursuant to paragraph (6) of Section 4.5.3, Communicating DAM Results, or paragraph (7) of Section 6.3, Adjustment Period and Real-Time Operations Timeline, as applicable, is not required.
+
+(4) Upon issuance of the Market Notice described in paragraph (1) above, the ADR process shall be deemed complete, and any Market Participant that is adversely affected may appeal ERCOT’s decision to the Public Utility Commission of Texas (PUCT) pursuant to P.U.C. PROC. R. 22.251, Review of Electric Reliability Council of Texas (ERCOT) Conduct.
+
+20.10 Return of Settlement Funds by a Qualified Scheduling Entity or Congestion Revenue Right Account Holder to ERCOT 
+
+20.10.1 Applicability
+
+(1) This Section applies to a claim by a Qualified Scheduling Entity (QSE) or Congestion Revenue Right (CRR) Account Holder (“Applicant”) that it received a payment or reduction of charge from ERCOT that exceeds the amount that ERCOT should have credited to the QSE or CRR Account Holder for a “Charge Type” for a given Operating Day or other period of time (“Overpayment”).
+
+(2) An Applicant may use the procedures set forth in this Section to return Settlement funds to ERCOT in the event that it has received an Overpayment. This process shall be known as a Return of Settlement Funds (RSF) proceeding.
+
+(3) An Applicant that seeks to initiate an RSF proceeding shall file a request with ERCOT, as described in Section 20.10.2, Initiation of Return of Settlement Funds, within one year of the Operating Day at issue. ERCOT may reject a request if it determines that other Protocol processes apply to address the issue.
+
+(4) If ERCOT denies an Applicant’s RSF request, the Applicant may appeal ERCOT’s decision to the Public Utility Commission of Texas (PUCT) pursuant to P.U.C. PROC. R. 22.251, Review of Electric Reliability Council of Texas (ERCOT) Conduct.
+
+20.10.2 Initiation of Return of Settlement Funds
+
+(1) To initiate an RSF proceeding, an Applicant shall complete and submit to the ERCOT Legal Department and the Independent Market Monitor (IMM) the designated form provided on the ERCOT website in the manner required by the form. All written requests shall include the following information:
+
+  (a) The name of the Applicant initiating the RSF proceeding;
+
+  (b) The amount of Settlement funds that the Applicant intends to return;
+
+  (c) A description of the reason(s) for the Applicant’s initiation of the RSF proceeding, including references to any statute(s), rule(s), Protocol Section(s), Other Binding Document(s), Agreement(s), or other law(s) that may form all or part of the basis for the RSF;
+
+  (d) The Operating Day(s) involved in the RSF;
+
+  (e) A list of all other parties that would be affected by the RSF; and
+
+  (f) Designation of a senior representative who is responsible for handling matters relating to the RSF proceeding.
+
+(2) The date on which ERCOT receives the completed RSF written request shall be the RSF initiation date.
+
+20.10.3 Process for a Return of Settlement Funds Request
+
+(1) Unless otherwise specified in these Protocols, the process for the resolution of an Applicant’s request to return an Overpayment of Settlement funds filed under this Section will follow the process established for the resolution of Alternative Dispute Resolutions (ADRs) under Section 20.5, Alternative Dispute Resolution Process.
+
+20.10.4 Settlement Following Approved Return of Settlement Funds
+
+(1) If resettlement is practicable to address an adjustment required by the resolution of an RSF proceeding, ERCOT shall issue a Resettlement Statement for the affected Operating Day(s) and shall adjust applicable timelines accordingly.
+
+(2) If a resettlement is not practicable to address an adjustment required by an RSF resolution, ERCOT shall make the adjustments through a separate miscellaneous RSF Invoice that is produced outside of normal Settlement Invoices. The appropriate payments and charges, along with Settlement quality information, shall be supplied to all impacted Market Participants.
+
+20.11 Settlement of Approved Alternative Dispute Resolution Claims
+
+20.11.1 Adjustments Based on Alternative Dispute Resolution
+
+(1) If resettlement is practicable to address an adjustment required by the resolution of an Alternative Dispute Resolution (ADR) proceeding, ERCOT shall issue a Resettlement Statement for the affected Operating Day(s) and shall adjust applicable timelines accordingly.
+
+(2) If a resettlement is not practicable to address an adjustment required by an ADR resolution, ERCOT shall make the adjustments through a separate ADR Invoice that is produced outside of normal Settlement Invoices. The appropriate payments and charges, along with Settlement quality information, shall be supplied to all impacted Market Participants.
+
+(3) Any amount greater than $5,000,000, as approved through the ADR proceeding, shall be divided so that no one Invoice has more than $5,000,000 in ADR adjustments and such Invoices shall be issued at least 14 days apart from each other. Payments shall be due on the date specified on the Invoice. Any short payment shall be handled pursuant to Section 9.19, Partial Payments by Invoice Recipients.
+
+20.11.2 Charges for Approved ADR Claim
+
+(1) The charges assigned to Market Participants to pay for an approved ADR claim shall be settled on the same Resettlement Statement or ADR Invoice as set forth in Section 20.11.1, Adjustments Based on Alternative Dispute Resolution. ERCOT shall assign the costs for the approved ADR claim according to the appropriate allocation for the market service in dispute as outlined in the applicable Protocol sections.

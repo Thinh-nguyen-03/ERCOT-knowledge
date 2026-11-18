@@ -1,0 +1,243 @@
+ERCOT Nodal Protocols
+
+Section 13: Transmission and Distribution Losses
+
+December 5, 2025
+
+13 Transmission and Distribution Losses 13-1
+
+13.1 Overview 13-1
+
+13.1.1 Responsibility for Transmission and Distribution Losses 13-1
+
+13.1.2 Calculation of Losses for Settlement 13-2
+
+13.2 Transmission Losses 13-2
+
+13.2.1 Forecasted Transmission Loss Factors 13-2
+
+13.2.2 Actual Transmission Loss Factors 13-2
+
+13.2.3 Forecasted Transmission Loss Factor Calculations 13-2
+
+13.2.4 Seasonal On-Peak and Off-Peak Transmission Loss Factor Calculation 13-3
+
+13.2.5 Actual Transmission Loss Factor Calculation 13-3
+
+13.2.6 Loss Monitoring 13-4
+
+13.3 Distribution Losses 13-4
+
+13.3.1 Loss Factor Calculation 13-5
+
+13.3.2 Loss Monitoring 13-5
+
+13.4 Special Loss Calculations for NOIEs with Behind-the-Meter Transmission Losses 13-6
+
+13.4.1 Deemed Actual Transmission Losses for NOIEs 13-6
+
+Transmission and Distribution Losses
+
+13.1 Overview
+
+(1) This section sets forth the method for calculating Transmission and Distribution Losses (T&D Losses) and responsibilities of ERCOT, Qualified Scheduling Entities (QSEs), Transmission Service Providers (TSPs) and Distribution Service Providers (DSPs) with respect to T&D Losses.
+
+13.1.1 Responsibility for Transmission and Distribution Losses
+
+(1) T&D Losses are the responsibility of each QSE representing Load. ERCOT shall allocate T&D Losses to Load at the appropriate aggregate level as part of the data aggregation process to calculate the Load obligation of QSEs for settlement purposes.
+
+(2) ERCOT shall forecast Transmission Loss Factors (TLFs) and post them to the ERCOT website by 0600 of the Day-Ahead period. ERCOT shall forecast the ERCOT-wide TLFs as a percentage of Load for each Settlement Interval of the Operating Day. By the close of business on the day following the Operating Day, ERCOT shall also calculate Actual TLFs using the actual system Load and shall post the resulting Actual TLFs to the settlement system and the ERCOT website.
+
+(3) ERCOT shall forecast Settlement Interval Distribution Loss Factors (DLFs) and post them to the ERCOT website by 0600 of the Day Ahead period. ERCOT shall forecast the Settlement Interval DLFs as a percentage of Load for each Settlement Interval of the Operating Day. On the day following the Operating Day, ERCOT shall also calculate Settlement Interval DLFs using actual system Load for that Settlement Interval and post the resulting deemed actual Settlement Interval DLFs to the settlement system and the ERCOT website.
+
+(4) Distribution loss coefficients, and the calculation methodology from which they are derived, will be subject to audit by ERCOT for accurate and consistent application. Non-Opt-in Entities (NOIEs) with Interval Data Recorders (IDRs) at the settlement point of delivery are not required to provide Distribution loss coefficients and calculation methodology.
+
+(5) In the special case where there are distribution facilities upstream from a wholesale NOIE or External Load Serving Entity (ELSE) settlement IDR, that settlement IDR will be compensated for line and transformer losses between the IDR and the ERCOT Transmission Grid to account for the Distribution Losses. The NOIE or ELSE will then be treated as a transmission level NOIE or ELSE. Calculations are subject to review by ERCOT. Since loss compensation is included in the wholesale settlement IDR, the TSP and/or DSP providing upstream wheeling facilities may need to offer wholesale wheeling tariffs excluding the losses for which compensation has already been provided.
+
+13.1.2 Calculation of Losses for Settlement
+
+(1) ERCOT shall use the deemed actual Settlement Interval DLFs applicable to each Electric Service Identifier (ESI ID) and the Actual TLFs when adjusting aggregated Load for losses to determine the QSE total Load obligations.
+
+13.2 Transmission Losses
+
+13.2.1 Forecasted Transmission Loss Factors
+
+(1) The forecasted Transmission Loss Factor (TLF) for each interval in the Operating Day shall be a linear interpolation or extrapolation using the on-peak and the off-peak TLFs and the corresponding forecast of ERCOT System Load during the same interval to calculate the loss factors.
+
+(2) At 0600 of the Day-Ahead period, ERCOT shall forecast a TLF for each Settlement Interval of the Operating Day and post on the ERCOT website the forecasted TLFs which correspond to the Operating Day forecast. The source of the on-peak and off-peak losses are the ERCOT load flow base cases for the applicable season. For the purpose of Section 13.2, Transmission Losses, “season” is defined as those set forth in item (1) of Section 13.2.4, Seasonal On-Peak and Off-Peak Transmission Loss Factor Calculation.
+
+13.2.2 Actual Transmission Loss Factors
+
+(1) ERCOT shall determine the Actual TLF for each interval in the Operating Day by dividing the sum of line and transformer MW losses by the total ERCOT Load as determined by the State Estimator in the Energy Management System (EMS).
+
+(2) The day after the Operating Day, ERCOT shall publish Actual TLFs to be used in Settlement calculations.
+
+13.2.3 Forecasted Transmission Loss Factor Calculations
+
+(1) The following formulas shall be used to translate the Seasonal On-Peak and Off-Peak TLFs into forecasted Settlement Interval TLFs.
+
+  TLF _(i) = (SSC * SIEL _(i)) + SIC
+
+  --------------------------------------------------------------------------
+  Variable    Unit    Description
+  ----------- ------- ------------------------------------------------------
+  i           none    Interval
+
+  TLF _(i)    none    Transmission Loss Factor for a Settlement Interval
+
+  SIEL _(i)   MWh     Settlement Interval ERCOT System Load (forecasted)
+
+  SSC         none    Seasonal Slope Coefficient
+
+  SIC         none    Seasonal Intercept Coefficient
+  --------------------------------------------------------------------------
+
+Where
+
+SSC = (SONLF – SOFFLF) / (SONL – SOFFL)
+
+SIC = [(SOFFLF * SONL) – (SONLF * SOFFL)] / (SONL – SOFFL)
+
+  -------------------------------------------------------------------------
+  Variable   Unit    Description
+  ---------- ------- ------------------------------------------------------
+  SONLF      none    Seasonal on-peak percent loss factor
+
+  SOFFLF     none    Seasonal off-peak percent loss factor
+
+  SONL       none    Seasonal on-peak Load value
+
+  SOFFL      none    Seasonal off-peak Load value
+  -------------------------------------------------------------------------
+
+13.2.4 Seasonal On-Peak and Off-Peak Transmission Loss Factor Calculation
+
+(1) Seasonal On-Peak and Off-Peak TLFs are derived from the annually updated ERCOT on-peak and off-peak load flow base cases analysis by ERCOT. Base cases reflect the most current data on the transmission system and Generation Resource and Energy Storage Resource (ESR) Dispatch. The ERCOT Transmission Grid topology and related Generation Resource and ESR Dispatch in the base cases are the critical factors in calculating losses. Seasonal time periods are defined as follows:
+
+  (a) Spring (March – May)
+
+  (b) Summer (June – September)
+
+  (c) Fall (October – November)
+
+  (d) Winter (December – February)
+
+(2) ERCOT shall calculate seasonal TLFs by dividing ERCOT seasonal case Transmission Losses (60 kV system and higher) by the ERCOT seasonal base Load adjusted (reduced) for self-serve Load modeled in the case. The resulting TLFs are expressed as a percentage of Load.
+
+(3) ERCOT shall post the seasonal TLFs to the ERCOT website prior to the start of the year for the next four seasons beginning with the Spring season.
+
+13.2.5 Actual Transmission Loss Factor Calculation
+
+(1) The following formula shall be used by ERCOT’s State Estimator process to determine Actual TLFs.
+
+  TLF _(i) = (ΣLINE_LOSSES _(i)) + (ΣTRANSFORMER_LOSSES _(i)) / ESL _(i)
+
+  -------------------------------------------------------------------------------------------------
+  Variable                  Unit   Description
+  ------------------------- ------ ----------------------------------------------------------------
+  i                         none   15-Minute Interval
+
+  TLF _(i)                  none   Transmission Loss Factor for the 15-Minute Settlement Interval
+
+  ESL _(i)                  MW     ERCOT System Load for the 15-Minute Interval
+
+  LINE_LOSSES _(i)          MW     Line Losses for the 15-Minute Interval
+
+  TRANSFORMER_LOSSES _(i)   MW     Transformer Losses for the 15-Minute Interval
+  -------------------------------------------------------------------------------------------------
+
+13.2.6 Loss Monitoring
+
+(1) ERCOT shall monitor Transmission Losses annually and will investigate any abnormal loss factors. ERCOT and Transmission Service Providers (TSPs) shall use the cost of losses as one criterion in evaluating the need for transmission additions.
+
+13.3 Distribution Losses
+
+(1) By October 30^(th) of each year for the next calendar year, or two months prior to the posting of any update to the approved Distribution loss coefficients, codes, or calculation, each Distribution Service Provider (DSP), except Non-Opt-In Entities (NOIEs), shall calculate and provide ERCOT the annual Distribution loss coefficients to be applied to distribution voltage level Loads in its area of certification. ERCOT shall review and approve the Distribution Loss Factor (DLF) calculation methodology used by each DSP prior to use of the loss coefficients for settlement purposes. If the DLF calculation methodology does not conform with ERCOT’s interpretation of the Protocol criteria in this subsection, ERCOT will work with the DSP to correct the deficiency. Until deficiencies are resolved, the last approved Distribution loss coefficients and the calculation methodology will be posted, and the last approved Distribution loss coefficients shall be used for settlement. A DSP may only submit a change to the DLF calculation methodology annually or when a change in a DSP service area warrants an update to the approved DLF methodology based on the DSP internal evaluation.
+
+(2) The DSP shall assign a Distribution loss code to each Electric Service Identifier (ESI ID). A maximum of five Distribution loss codes may be submitted for each DSP based upon ERCOT approved parameters, such as service voltages or number of transformations.
+
+(3) The following standards will be used to identify the Distribution loss code applicable to each ESI ID:
+
+-   T = Transmission connected Customers (no Settlement Interval DLF applied)
+
+-   A through E = Transmission and/or Distribution Service Provider (TDSP) defined Customer segment(s)
+
+(4) The DSPs, except NOIEs, are obligated to provide Distribution loss coefficients to ERCOT. ERCOT will post the Distribution loss coefficients and calculation methodology, for each DSP.
+
+(5) Distribution loss information submitted by the DSP shall include:
+
+  (a) The annual Distribution loss coefficients (F₁, F₂, and F₃) for each Distribution loss code; and
+
+  (b) The methodology upon which the calculation of the coefficients (F₁, F₂, and F₃) was made.
+
+(6) A NOIE may provide ERCOT with the information detailed in paragraph (5) above. If such information is provided, ERCOT shall calculate and post NOIE DSP DLFs using the same processes for the calculation and posting of competitive DSP DLFs.
+
+13.3.1 Loss Factor Calculation
+
+(1) ERCOT shall use the Distribution loss coefficients submitted by the DSP to calculate the Settlement Interval DLFs. Settlement Interval DLFs will be calculated from the data provided by DSPs as follows using the following equation:
+
+SILF _(i) = F₁ * (SIEL _(i) / AAL) + F₂ + F₃ / (SIEL _(i) / AAL)
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Variable             Unit   Description
+  -------------------- ------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  i                           interval
+
+  SILF_(i)                    Settlement Interval DLF
+
+  SIEL_(i)                    Settlement Interval ERCOT System Load (forecasted or actual)
+
+  AAL                         Annual Interval Average ERCOT System Load. The AAL is calculated using the total ERCOT Load stated in the most recent settlement during the period beginning on September 1 and ending August 31. ERCOT will provide the AAL to DSPs that are obligated to provide Distribution loss coefficients and calculation methodology to ERCOT, by September 15^(th) of each year.
+
+  F_(1 ,) F_(2 ,) F₃          Distribution Loss coefficients determined by the Distribution Service Provider to allow calculation of its SILF from ERCOT System Load
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+(2) ERCOT shall use the deemed actual Settlement Interval DLFs calculated for each Settlement Interval of the Operating Day for settlement purposes.
+
+13.3.2 Loss Monitoring
+
+(1) Distribution loss coefficients and the calculation methodology from which they are derived for all DSPs, except for NOIEs, will be submitted to ERCOT and will be subject to audit for accuracy and consistency of application.
+
+13.4 Special Loss Calculations for NOIEs with Behind-the-Meter Transmission Losses 
+
+13.4.1 Deemed Actual Transmission Losses for NOIEs
+
+(1) All Qualified Scheduling Entities (QSEs) representing Load, including Non-Opt-In Entities (NOIEs), will be responsible for Transmission Losses allocated in the manner described in these Protocols. For NOIE Entities using transmission tie line meters to determine Load, ERCOT will adjust the net meter readings to remove calculated Transmission Losses behind the meter prior to applying ERCOT-wide Actual Transmission Loss Factors (TLFs).
+
+(2) The deemed actual Transmission Losses for NOIEs shall be a linear interpolation or extrapolation between the seasonal on-peak and the seasonal off-peak NOIE TLFs posted pursuant to paragraph (3) of Section 13.2.4, Seasonal On-Peak and Off-Peak Transmission Loss Factor Calculation, corresponding to the actual NOIE metered Load in the interval.
+
+(3) The following formulas shall be used to translate the Seasonal On-Peak and Off-Peak TLFs into NOIE deemed actual Settlement Interval TLFs.
+
+  TLF_(i) = (SSC * SIEL_(i)) + SIC
+
+  -------------------------------------------------------------------------
+  Variable   Unit    Description
+  ---------- ------- ------------------------------------------------------
+  i          none    Interval
+
+  TLF_(i)    none    Transmission Loss Factor for a Settlement Interval
+
+  SIEL_(i)   MWh     Settlement Interval NOIE System Load (actual)
+
+  SSC        none    Seasonal Slope Coefficient
+
+  SIC        none    Seasonal Intercept Coefficient
+  -------------------------------------------------------------------------
+
+Where
+
+SSC = (SONLF – SOFFLF) / (SONL – SOFFL)
+
+SIC = [(SOFFLF * SONL) – (SONLF * SOFFL)] / (SONL – SOFFL)
+
+  -------------------------------------------------------------------------
+  Variable   Unit    Description
+  ---------- ------- ------------------------------------------------------
+  SONLF      none    Seasonal on-peak percent loss factor
+
+  SOFFLF     none    Seasonal off-peak percent loss factor
+
+  SONL       none    Seasonal on-peak Load value
+
+  SOFFL      none    Seasonal off-peak Load value
+  -------------------------------------------------------------------------

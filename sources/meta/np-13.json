@@ -1,0 +1,12 @@
+{
+ "id": "np-13",
+ "title": "ERCOT Nodal Protocols, Section 13: Transmission and Distribution Losses",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "effective 2025-12-05",
+ "url": "https://www.ercot.com/files/docs/2023/06/01/13-120525_Nodal.docx",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 42243,
+ "raw_sha256": "07db742df9dd5edfd4e83f8ba7ce324729f7dfa22ce56a56a970c2fa6f9f1a19",
+ "text_chars": 16207
+}

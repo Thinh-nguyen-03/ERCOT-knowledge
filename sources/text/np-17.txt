@@ -1,0 +1,93 @@
+ERCOT Nodal Protocols
+
+Section 17: Market Monitoring and Data Collection
+
+June 1, 2021
+
+17 MARKET MONITORING AND DATA COLLECTION 17-1
+
+17.1 Overview 17-1
+
+17.2 Objectives and Scope of Market Monitoring Data Collection 17-1
+
+17.3 Market Data Collection and Use 17-1
+
+17.3.1 Information System Data Collection and Retention 17-1
+
+17.3.2 Data Categories and Handling Procedures 17-2
+
+17.3.3 Accuracy of Data Collection 17-2
+
+17.3.4 PUCT Staff and IMM Review of Data Collection 17-2
+
+17.3.5 Data Retention 17-3
+
+17.4 Provision of Data to Individual Market Participants 17-3
+
+17.5 Reports to PUCT Staff, IMM, and the FERC 17-3
+
+17.6 Changes to Facilitate Market Operation 17-3
+
+MARKET MONITORING AND DATA COLLECTION
+
+17.1 Overview
+
+(1) The Public Utility Commission of Texas (PUCT), with the assistance of the Independent Market Monitor (IMM) established in accordance with PUCT rules, has the ultimate responsibility for market oversight in ERCOT. ERCOT shall assist the PUCT and the IMM by performing the data collection functions specified in this Section.
+
+17.2 Objectives and Scope of Market Monitoring Data Collection
+
+(1) The market monitoring data collection is designed to assist the Public Utility Commission of Texas (PUCT) and Independent Market Monitor (IMM) to:
+
+(a) Protect Market Participants and Customers from the exercise of market power and from market manipulations;
+
+(b) Ensure that there is effective and persistent competition for events that are not mitigated;
+
+(c) Ensure that the market design and implementation are efficient;
+
+(d) Guard against inefficiencies in the market and market manipulations;
+
+(e) Ensure a justifiable and reasonable price impact; and
+
+(f) Ensure that data posted on the ERCOT website fulfills the objective of transparency of market information consistent with Section 1.3, Confidentiality.
+
+17.3 Market Data Collection and Use
+
+(1) ERCOT shall establish procedures to ensure that the Public Utility Commission of Texas (PUCT) Staff and Independent Market Monitor (IMM) may access all data maintained by ERCOT and deemed necessary by the PUCT staff and IMM to perform its market oversight activities, pursuant to subsection (e) of P.U.C. SUBST. R. 25.362, Electric Reliability Council of Texas (ERCOT) Governance. The following sections explain the collection, handling, verification, and retention of information by ERCOT that is accessible by the PUCT Staff and IMM.
+
+17.3.1 Information System Data Collection and Retention 
+
+(1) ERCOT shall develop and operate an information system to collect and to store data required by these Protocols. ERCOT shall provide adequate communication equipment and necessary software packages to enable the PUCT Staff and the IMM to establish electronic access to the information system and to facilitate the development and application of quantitative tools necessary for the market monitoring function. Data from source systems must be replicated near Real-Time and available for remote query by the PUCT Staff and the IMM until data is available in the Data Archive and Data Warehouse. The Data Warehouse and Data Archive must be designed to accommodate a remote query function by the PUCT Staff and the IMM at any time.
+
+17.3.2 Data Categories and Handling Procedures
+
+(1) ERCOT shall develop, and refine based on experience, a detailed catalog of all data categories that it can acquire and the procedures that it will use to handle such data, including procedures for protecting Protected Information and ERCOT Critical Energy Infrastructure Information (ECEII). This catalog must include documentation of the meaning of the data elements, and must be updated upon any change in systems (e.g. Energy and Market Management System (EMMS) or Settlements) that affect the data elements or interpretation of these elements.
+
+17.3.3 Accuracy of Data Collection
+
+(1) ERCOT shall continuously apply appropriate procedures for the accurate collection of data into the Data Warehouse and accurate communication of that data for use by the PUCT Staff and IMM. By written notice, ERCOT may require Market Participants to verify the accuracy of data previously submitted to ERCOT.
+
+(2) ERCOT shall report to the PUCT and IMM any failure by a Market Participant to provide accurate and complete information in the manner and time requested under these Protocols, and that failure may be treated as grounds for action against the Market Participant.
+
+(3) ERCOT shall cause to be performed an audit on a periodic basis no less than once every three years of ERCOT data, data collection, and data documentation for adequacy and accuracy. The auditor will provide recommendations to address potential areas of improvements.
+
+17.3.4 PUCT Staff and IMM Review of Data Collection
+
+(1) The PUCT Staff and IMM may review the catalogs of information and data collection verification criteria, developed by ERCOT according to these Protocols, and may propose such changes, additions, or deletions to the catalogs and criteria as it sees fit. In so doing, the PUCT Staff or IMM may require database items or evaluation criteria to be included in the pertinent catalogs.
+
+17.3.5 Data Retention
+
+(1) Data stored in the Data Warehouse and Data Archive must be available online for four years from ERCOT’s creation or receipt of the data. Data stored in the Data Archive must be maintained by ERCOT for a total of seven years from ERCOT’s creation or receipt of the data.
+
+17.4 Provision of Data to Individual Market Participants
+
+(1) Data requested by a Market Participant that is not available to the requesting Market Participant via the Market Information System (MIS) may be provided by ERCOT to the requesting Market Participant subject to constraints on ERCOT’s resources and applicable restrictions on Protected Information and ERCOT Critical Energy Infrastructure Information (ECEII), but this Section is not an authorization to release Protected Information or ECEII of other Entities. ERCOT shall accommodate these requests on a nondiscriminatory basis.
+
+17.5 Reports to PUCT Staff, IMM, and the FERC 
+
+(1) ERCOT shall make data available to the Public Utility Commission of Texas (PUCT) Staff and Independent Market Monitor (IMM). PUCT Staff or IMM may require, after consultation with ERCOT, changes to the form of the data, limited to data ERCOT is reasonably able to collect.
+
+(2) ERCOT shall submit reports in accordance with its regulatory obligations under the applicable rules, laws, and orders of the PUCT and the Federal Energy Regulatory Commission (FERC).
+
+17.6 Changes to Facilitate Market Operation 
+
+(1) ERCOT shall evaluate its system operation and market performance to identify potential areas for improvements. This evaluation must consider impacts on system operations and market performance of Public Utility Commission of Texas (PUCT) rules, these Protocols, Operating Guides, and any other ERCOT operating procedures. Upon identification of areas that require improvements, ERCOT shall take appropriate actions to make those improvements including revising its procedures, proposing changes to these Protocols through the process specified in Section 21, Revision Request Process, and submitting recommendations to the PUCT or other appropriate Governmental Authorities. In performing these tasks, ERCOT shall seek comments and recommendations from the Independent Market Monitor (IMM), PUCT Staff, Market Participants, and other interested Entities.

@@ -1,0 +1,12 @@
+{
+ "id": "np-05",
+ "title": "ERCOT Nodal Protocols, Section 5: Transmission Security Analysis and Reliability Unit Commitment",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "effective 2026-08-01",
+ "url": "https://www.ercot.com/files/docs/2024/06/28/05-080126_Nodal.docx",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 320205,
+ "raw_sha256": "640a108a172d93a6858bb7dc7e39fba46ef658db15fe4e2f544e7d7548c046ab",
+ "text_chars": 781470
+}

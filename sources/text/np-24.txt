@@ -1,0 +1,187 @@
+ERCOT Nodal Protocols
+
+Section 24: Retail Point to Point Communications
+
+November 1, 2023
+
+24 Retail Point to Point Communications 24-1
+
+24.1 Maintenance Service Order Request 24-1
+
+24.1.1 Disconnect/Reconnect 24-1
+
+24.1.2 Suspension of Delivery Service 24-1
+
+24.1.2.1 Notification 24-1
+
+24.1.2.2 Cancellation 24-2
+
+24.1.3 Switch Hold Indicator 24-2
+
+24.1.3.1 Tampering Switch Hold 24-2
+
+24.1.3.2 Bill Payment Switch Hold 24-3
+
+24.2 Transmission and/or Distribution Service Provider to Competitive Retailer Invoice 24-3
+
+24.3 Monthly Remittance 24-4
+
+24.3.1 Competitive Retailer to Transmission and/or Distribution Service Provider Monthly Remittance Advice 24-4
+
+24.3.1.1 Remittance Advice Total Matches Payment Total 24-4
+
+24.3.1.2 Negative Remittance Advice 24-4
+
+24.3.1.3 Acceptable Payment Methods 24-5
+
+24.3.1.4 Warehousing an 820 Remittance Advice 24-5
+
+24.4 Municipally Owned Utility/Electric Cooperative Transmission and/or Distribution Service Provider to Competitive Retailer Monthly Remittance Advice 24-5
+
+24.4.1 Timing 820 Remittance to CR 24-5
+
+24.4.2 Remittance Advice Total Matches Payment Total 24-6
+
+24.4.3 Negative Remittance Advice 24-6
+
+24.4.4 Acceptable Payment Methods 24-6
+
+24.4.5 Warehousing an 820 Remittance Advice 24-6
+
+24.5 Maintain Customer Information Request 24-6
+
+24.5.1 Timing of 814_PC Maintain Customer Information Request from Competitive Retailer 24-7
+
+24.6 MOU/EC TDSP to CR Maintain Customer Information Request 24-7
+
+24.6.1 Timing of 814_PC Maintain Customer Information Request from Municipally Owned Utility/Electric Cooperative Transmission and/or Distribution Service Provider 24-7
+
+24 Retail Point to Point Communications
+
+(1) Point to point communications include transactions flowing directly between Competitive Retailers (CRs), and Transmission and/or Distribution Service Providers (TDSPs) and do not flow through ERCOT. These point to point transactions may be Customer requested service orders and CR/TDSP invoicing and remittance.
+
+24.1 Maintenance Service Order Request
+
+(1) To initiate an original service order, cancel, or change (update) request, the Competitive Retailer (CR) sends maintenance related information to the Transmission and/or Distribution Service Provider (TDSP) using the 650_01, Service Order Request. The 650_01 transaction sent by the CR shall include a level of information such that the TDSP clearly understands the nature of the request and the work that it is being requested to perform. The TDSP will respond within one Retail Business Day after completion, or attempted completion, of the requested action using the 650_02, Service Order Response, to notify the CR that the service order is either completed, unable to be completed, or rejected, or that a permit is required before the order can be completed. There is a one-to-one relationship between the 650_01 and 650_02 transactions.
+
+24.1.1 Disconnect/Reconnect
+
+(1) Public Utility Commission of Texas (PUCT) Substantive Rules and orders, along with TDSP tariffs, dictate the timeline for both disconnection for non-payment and reconnection after disconnection for non-payment. For more information please refer to the Retail Market Guide Section 7.6, Disconnect and Reconnect for Non-Payment Process.
+
+24.1.2 Suspension of Delivery Service 
+
+(1) The following transactions shall be used by a TDSP seeking to suspend delivery service for an Electric Service Identifier (ESI ID).
+
+24.1.2.1 Notification
+
+(1) The 650_04, Planned or Unplanned Outage Notification, is electronically transmitted by the TDSP to the CR to notify the CR of the ESI ID(s) and Service Address(es) affected by either a temporary or permanent suspension of service. The situations under which a 650_04 transaction may be created and transmitted to the CR include:
+
+  (a) An outage has been scheduled by the TDSP for the Customer's Service Address for a specific date and time. This type of suspension may be the result of scheduled tree trimming, electrical inspection, testing, maintenance, or changes/upgrades to network equipment.
+
+  (b) An outage has occurred at the Customer's Service Address, but it was not planned or previously scheduled. Such a suspension is normally needed to remedy a dangerous electrical condition that exists at the Customer's address due to an event or activity such as a fire, meter tampering, or theft of service.
+
+  (c) For circumstances when a CR, the Customer, or authorized legal authority (county, city, fire, or police personnel) requests disconnection and meter removal because a structure has been destroyed or demolished, or the TDSP has found the meter removed by an unknown Entity, or has removed the meter for unsafe conditions, the TDSP will send a 650_04 transaction. In events where the CR receives a 650_04 transaction indicating that service to the Premise has been permanently suspended by the TDSP for one of the reasons indicated above, the CR will send an 814_24, Move Out Request, to the TDSP within ten Retail Business Days.
+
+  (d) Just like a suspension is scheduled or requested it can also be cancelled. If the suspension request is cancelled for any reason, the TDSP will create a 650_04 transaction indicating that the suspension has been cancelled and send a 650_04 transaction to the CR for every ESI ID that would have been affected by the outage.
+
+(2) To notify the CR of a suspension of delivery service, the TDSP sends Notice to the CR using the 650_04 transaction.
+
+24.1.2.2 Cancellation
+
+(1) To notify the CR of a cancellation of the Notification of suspension of delivery service, the TDSP sends Notice to the CR using the 650_04, Planned or Unplanned Outage, for each ESI ID that would otherwise have been affected by the outage.
+
+24.1.3 Switch Hold Indicator
+
+24.1.3.1 Tampering Switch Hold
+
+(1) A tampering switch hold is used when tampering has been determined to have occurred. A switch hold will be placed on the ESI ID in accordance with P.U.C. SUBST. R. 25.126, Adjustments Due to Non-Compliant Meters and Meter Tampering in Areas Where Customer Choice Has Been Introduced.
+
+(2) To remove a switch hold indicator, the CR sends the 650_01, Service Order Request, to the TDSP requesting the removal of the switch hold indicator. The TDSP will respond with the 650_02, Service Order Response, to the CR acknowledging receipt of the service order request. Confirmation that the service order request has been completed will be received through the 814_20, ESI ID Maintenance Request.
+
+24.1.3.2 Bill Payment Switch Hold
+
+(1) A bill payment switch hold is used when a Customer has entered into a payment agreement with their current CR. A switch hold will be placed on the ESI ID in accordance with P.U.C. SUBST. R. 25.480, Bill Payment and Adjustments.
+
+  (a) To add a switch hold indicator, the CR sends the 650_01, Service Order Request, to the TDSP requesting the addition of the switch hold indicator. The TDSP will respond with the 650_02, Service Order Response, to the CR acknowledging receipt of the service order request. Confirmation that the service order request has been completed will be received through the 814_20, ESI ID Maintenance Request.
+
+  (b) To remove a switch hold indicator, the CR sends the 650_01 to the TDSP requesting the removal of the switch hold indicator. The TDSP will respond with the 650_02 response to the CR acknowledging receipt of the service order request. Confirmation that the service order request has been completed will be received through the 814_20 transaction.
+
+24.2 Transmission and/or Distribution Service Provider to Competitive Retailer Invoice 
+
+(1) The 810_02, TDSP Invoice, may include monthly delivery charges, discretionary service charges, service order charges, interest credit, and/or late payment charges for the current billing period. Following a positive acknowledgement indicating the transaction passed American National Standards Institute Accredited Standards Committee (ANSI ASC) X12 validation, the Competitive Retailer (CR) shall have five Business Days to send a rejection response in accordance with the Texas Standard Electronic Transaction (TX SET) Implementation Guides posted on the ERCOT website and Public Utility Commission of Texas (PUCT) Substantive Rules. If the CR has not received a response transaction to an enrollment or move in, the CR shall not reject the invoice, but will utilize an approved market process (MarkeTrak or dispute process) to resolve the issue. Details of these processes may be found in the Retail Market Guide Section 7, Market Processes.
+
+(2) Only one 810_02 transaction may be sent for a single service period, however, any additional 810_02 transaction for the same Electric Service Identifier (ESI ID) may be sent for a late payment charge after the 35^(th) calendar day for an unpaid 810_02 transaction or for interest credit.
+
+(3) The 810_02 may be paired with an 867_03, Monthly or Final Usage, to trigger the Customer billing process.
+
+(4) The Transmission and/or Distribution Service Provider (TDSP) may cancel and replace (rebill) the original 810_02 transaction. The values in the cancel transaction will be identical in amounts to what they were on the original invoice. The replacement (rebilled) invoice now becomes the monthly invoice for that service period.
+
+(5) If the 867_03 is cancelled after the TDSP has sent the 810_02 transaction, the TDSP will cancel the 810_02 transaction. If the 810_02 transaction error is not related to consumption, the TDSP may cancel the 810_02 transaction and not the 867_03 transaction.
+
+24.3 Monthly Remittance
+
+(1) Transmission and/or Distribution Service Providers (TDSPs) and Competitive Retailers (CR) shall use the following transactions to remit monthly payments.
+
+24.3.1 Competitive Retailer to Transmission and/or Distribution Service Provider Monthly Remittance Advice
+
+(1) This transaction set, from the CR to the TDSP, is used by the CR to notify the TDSP of payment details related to a specific invoice. A CR must pass an 820_02, CR Remittance Advice, for every invoice (original, cancel, replacement) received, validated, and accepted by the CR even when a cancel and restatement of usage subsequently cancels the original invoice.
+
+(2) Each Market Participant is responsible for ensuring that the data provided in the 820_02 transaction is presented in a format that is consistent with market specifications prescribed in the Texas Standard Electronic Transaction (TX SET) Implementation Guide posted on the ERCOT website.
+
+24.3.1.1 Remittance Advice Total Matches Payment Total
+
+(1) The remittance advice must match the total payment. The CR must ensure that the remittance advice and the payment instructions have the same (matching) trace/reference numbers. A one-to-one correlation must be maintained between payments and remittance advices. It is acceptable for one payment and one remittance advice to include many invoices. It is not acceptable for several payments to reference one remittance advice. Every payment trace/reference number sent via the bank must match a remittance advice trace/reference number sent to the TDSP. The trace/reference number must be unique for each associated payment and remittance advice.
+
+24.3.1.2 Negative Remittance Advice
+
+(1) A negative remittance advice is not allowed in the Texas retail market. If the adjustments are larger than the payments (creating a negative remittance advice), payments must be held until the CR can submit a net positive remittance advice as a credit against the overpayment. It is not necessary for a CR to hold an adjustment amount until the CR has accumulated sufficient invoices to result in a complete offset of the overpayment. Instead the CR may use the adjustment amount by taking a partial credit on another Invoice. If the CR has determined that the negative remittance cannot be offset within a reasonable amount of time, the CR will contact the TDSP to resolve the situation.
+
+24.3.1.3 Acceptable Payment Methods
+
+(1) Acceptable payment methods are CCD+, CTX and Fed wire.
+
+24.3.1.4 Warehousing an 820 Remittance Advice
+
+(1) When the payment instruction and the remittance advice are generated separately, the TDSP will warehouse the 820_02, CR Remittance Advice, until the payment instructions received by the CR’s bank cause the money to be deposited in the TDSP’s account. The payment instruction and remittance shall be transmitted within five Business Days of each other. The remittance advice and payment instruction dollar amount must balance to the corresponding transaction. Payment will be considered received on the date company’s bank receives the electronic funds transfer or wire transfer and the appropriate remittance advice is received by the company in accordance with the requirements specified by Applicable Legal Authorities (ALA).
+
+24.4 Municipally Owned Utility/Electric Cooperative Transmission and/or Distribution Service Provider to Competitive Retailer Monthly Remittance Advice
+
+(1) This transaction set, from a Municipally Owned Utility (MOU) Transmission and/or Distribution Service Provider (TDSP) or an Electric Cooperative (EC) TDSP (MOU/EC TDSP) to the Competitive Retailer (CR) is used by the MOU/EC TDSP to notify the CR of payment details related to a specific Invoice, unless otherwise indicated in Retail Market Guide Section 8.1, Municipally Owned Utility and/or Electric Cooperative Transmission and/or Distribution Service Provider Market. An MOU/EC TDSP must pass an 820_03, MOU/EC Remittance Advice, for every CR account number even when a cancel and restatement of usage subsequently cancels the original invoice.
+
+(2) Each Market Participant is responsible for ensuring that the data provided in the 820_03 transaction is presented in a format that is consistent with the market specifications in the Texas Standard Electronic Transaction (TX SET) Implementation Guide.
+
+24.4.1 Timing 820 Remittance to CR
+
+(1) When the payment is received from the retail Customer on behalf of the CR, MOU/EC TDSP shall send the payment instructions within five Retail Business Days of the due date of the retail Customer’s bill, or if the Customer has paid after the due date, five Business Days after the MOU/EC TDSP has received payment. Payment instruction shall cause the money to be deposited in the CR’s account. There should not be more than five Business Days difference in the receipt of the payment instruction and the remittance advice.
+
+24.4.2 Remittance Advice Total Matches Payment Total
+
+(1) The remittance advice must match the total payment. The MOU/EC TDSP must ensure that the remittance advice and the payment instructions have the same (matching) trace/reference numbers. A one-to-one correlation must be maintained between payments and remittance advice. It is acceptable for one payment and one remittance advice to include many invoices. It is not acceptable for several payments to reference one remittance advice. Every payment trace/reference number sent via the bank must match a remittance advice trace/reference number sent to the CR. The trace/reference number must be unique for each associated payment and remittance advice.
+
+24.4.3 Negative Remittance Advice
+
+(1) A negative remittance advice is not allowed in the Texas market. If the adjustments are larger than the payments (creating a negative remittance advice), payment must be held until the MOU/EC TDSP can submit a net positive remittance advice as a credit against the overpayment. It is not necessary for a MOU/EC TDSP to hold an adjustment amount until the MOU/EC TDSP has accumulated sufficient Invoices to result in a complete offset of the overpayment. Instead the MOU/EC TDSP may use the adjustment amount by taking a partial credit on another Invoice. If the MOU/EC TDSP has determined that the negative remittance cannot be offset within a reasonable amount of time, the MOU/EC TDSP will contact the CR to resolve the situation.
+
+24.4.4 Acceptable Payment Methods
+
+(1) Acceptable payment instruction methods are CCD+, CTX, check, and Fed wire.
+
+24.4.5 Warehousing an 820 Remittance Advice
+
+(1) When the payment instruction and the remittance advice are generated separately, the CR may warehouse the 820_03, MOU/EC Remittance Advice, until the payment instructions received by the MOU/EC TDSP’s bank cause the money to be deposited in the CR’s account.
+
+24.5 Maintain Customer Information Request
+
+(1) This transaction set, from a Competitive Retailer (CR) to a Transmission and/or Distribution Service Provider (TDSP), is used for CRs who have chosen Options 2 and 3 concerning service orders and/or outages. A CR choosing Option 2 or 3 shall be required to provide the TDSP with the information necessary to verify CR’s retail Customer’s identity (name, address, and home or contact telephone number) for a particular point of delivery served by the CR and to continually provide the TDSP updates of such information.
+
+24.5.1 Timing of 814_PC Maintain Customer Information Request from Competitive Retailer
+
+(1) This transaction shall be transmitted from the CR of Record to the TDSP in one Retail Business Day only after the CR has received an 867_04, Initial Meter Read, from the TDSP for that specific move in Customer. Also, the CR shall not transmit this transaction and/or provide any updates to the TDSP after receiving a final reading via an 867_03, Monthly or Final Usage, for that specific move-out Customer. The TDSP shall provide the 814_PD, Maintain Customer Information Response, in one Retail Business Day acknowledging receipt of the 814_PC, Maintain Customer Information Request, which would indicate that the TDSP accepts or rejects the transaction.
+
+24.6 MOU/EC TDSP to CR Maintain Customer Information Request
+
+(1) This transaction set, from a Municipally Owned Utility (MOU)/Electric Cooperative (EC) Transmission and/or Distribution Service Provider (TDSP) to the Competitive Retailer (CR), is used by the MOU/EC TDSP to provide the CR with Customer information (name, address, membership id, and home or contact telephone number) for a particular point of delivery served by both the MOU/EC TDSP and CR and to continually provide the CR updates of such information, unless otherwise indicated in Retail Market Guide Section 8.1, Municipally Owned Utility and/or Electric Cooperative Transmission and/or Distribution Service Provider Market.
+
+24.6.1 Timing of 814_PC Maintain Customer Information Request from Municipally Owned Utility/Electric Cooperative Transmission and/or Distribution Service Provider
+
+(1) This transaction shall be transmitted from the MOU/EC TDSP to the CR in one Retail Business Day upon an update in Customer information. The CR shall provide the 814_PD, Maintain Customer Information Response, in one Retail Business Day acknowledging receipt of the 814_PC, Maintain Customer Information Request, which would indicate that the CR accepts or rejects the transaction.

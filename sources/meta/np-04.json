@@ -1,0 +1,12 @@
+{
+ "id": "np-04",
+ "title": "ERCOT Nodal Protocols, Section 4: Day-Ahead Operations",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "effective 2026-08-01",
+ "url": "https://www.ercot.com/files/docs/2024/06/28/04-080126_Nodal.docx",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 394880,
+ "raw_sha256": "6c0fc0882f574f8b5732cbd0a895b0a3c4678fec9b908fe03e080ca90c603fbd",
+ "text_chars": 688123
+}

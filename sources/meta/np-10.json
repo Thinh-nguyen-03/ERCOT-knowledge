@@ -1,0 +1,12 @@
+{
+ "id": "np-10",
+ "title": "ERCOT Nodal Protocols, Section 10: Metering",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "effective 2026-06-01",
+ "url": "https://www.ercot.com/files/docs/2024/07/01/10-060126_Nodal.docx",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 87422,
+ "raw_sha256": "8e57149719d57061c0ccc2189a174861c6710f696ea9a0e5605d434950fb6187",
+ "text_chars": 131177
+}

@@ -1,0 +1,12 @@
+{
+ "id": "np-24",
+ "title": "ERCOT Nodal Protocols, Section 24: Retail Point to Point Communications",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "effective 2023-11-01",
+ "url": "https://www.ercot.com/files/docs/2020/12/31/24-110123_Nodal.docx",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 38280,
+ "raw_sha256": "0edeae962b7b3b9c21f72916fddb3dfe998caa58a6b23d47b64154aa88ac4d36",
+ "text_chars": 18898
+}

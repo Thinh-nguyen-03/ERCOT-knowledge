@@ -1,0 +1,289 @@
+ERCOT Nodal Protocols
+
+Section 18: Load Profiling
+
+June 1, 2026
+
+18 Load Profiling 18-1
+
+18.1 Overview 18-1
+
+18.2 Methodology 18-1
+
+18.2.1 Guidelines for Development of Load Profiles 18-2
+
+18.2.2 Load Profiles for Non-Interval Metered Loads 18-2
+
+18.2.2.1 Load Profiles for Non-Interval Metered Loads Without an Unregistered Distributed Generator 18-2
+
+18.2.2.2 Load Profiles for Non-Interval Metered Loads With an Unregistered Distributed Generator 18-2
+
+18.2.3 Load Profiles for Non-Metered Loads 18-3
+
+18.2.4 Default Load Profiles for Interval Data Recorders 18-3
+
+18.2.5 Identification of Weather Zones and Load Profile Types 18-3
+
+18.2.6 Daily Profile Creation Process 18-3
+
+18.2.7 Maintenance of the Load Profile Models 18-3
+
+18.2.8 Adjustments and Changes to Load Profile Development 18-4
+
+18.2.9 ERCOT Responsibilities in Support of Load Profiling 18-4
+
+18.3 Posting 18-5
+
+18.3.1 Methodology Information 18-5
+
+18.3.2 Load Profiling Models 18-5
+
+18.3.3 Load Profiles 18-5
+
+18.4 Assignment of Load Profile ID 18-5
+
+18.4.1 Development of Load Profile ID Assignment Table 18-6
+
+18.4.2 Load Profile ID Assignment 18-6
+
+18.4.3 Validation of Load Profile Type and Weather Zone Assignments 18-6
+
+18.4.3.1 Validation Process 18-6
+
+18.4.3.2 Correction Procedure 18-7
+
+18.4.4 Assignment of Weather Zones to Electric Service Identifiers 18-7
+
+18.5 Additional Responsibilities 18-7
+
+18.5.1 ERCOT Responsibilities 18-7
+
+18.5.2 Market Participant Responsibilities 18-8
+
+18.6 Installation and Use of Interval Data Recorders 18-8
+
+18.6.1 Interval Data Recorder Mandatory Installation Requirements 18-8
+
+18.7 Transition of Interval Data Recorder Meter to AMS Profile Type 18-8
+
+Load Profiling
+
+18.1 Overview
+
+(1) The ERCOT retail market requires a 15-minute Settlement Interval. Load Profiling provides a cost-effective way of estimating and allocating 15-minute Load for Electric Service Identifiers (ESI IDs). This Section details how Load Profiling will be implemented in ERCOT when ERCOT does not receive 15-minute Settlement Interval consumption data and enables the accounting of energy usage in the market Settlement process.
+
+18.2 Methodology
+
+(1) A Load Profiling Methodology is the fundamental basis on which Load Profiles are created. The implementation of a Load Profiling Methodology may require statistical Sampling, engineering methods, econometric modeling, or other approaches. All Load Profiles shall conform to the ERCOT-defined Settlement Interval length.
+
+(2) ERCOT has developed Load Profiles for:
+
+  (a) Non-interval metered Loads;
+
+  (b) Non-Metered Loads; and
+
+  (c) Interval Data Recorders (IDRs) including:
+
+(i) Advanced Meters; and
+
+(ii) IDR Meters.
+
+(3) The following Load Profiling Methodologies are used:
+
+  -------------------------------------------------------------------- --------------------------------------------------
+  Type of Load                                                         Load Profiling Methodology
+
+  Non-interval metered                                                 Adjusted Static Models
+
+  Non-interval metered with Unregistered Distributed Generator (UDG)   Adjusted Static Models and engineering estimates
+
+  Non-metered                                                          Engineering estimates
+  -------------------------------------------------------------------- --------------------------------------------------
+
+18.2.1 Guidelines for Development of Load Profiles
+
+(1) In developing Load Profiles, ERCOT shall strive to achieve an optimal combination of the following:
+
+(a) Give no unfair advantage to any Entity;
+
+(b) Maximize usability by minimizing the total number of Load Profiles without compromising accuracy and cost effectiveness;
+
+(c) Minimize the Load Profiles’ contribution to Unaccounted For Energy (UFE) over all Settlement Intervals, paying particular attention to higher cost periods;
+
+(d) Reflect reasonably homogenous groups, with respect to Load shape and likely supply costs;
+
+(e) Develop Load Profiles that are distinctly different;
+
+(f) Develop Load Profiles for areas with incomplete Load data utilizing data from other sources, taking into account similarities and differences in Load;
+
+(g) Accommodate development of unique rate classes;
+
+(h) Use the most accurate Load research data available; and
+
+(i) Develop Load Profiles based on readily identifiable parameters that are not subject to frequent change.
+
+18.2.2 Load Profiles for Non-Interval Metered Loads
+
+18.2.2.1 Load Profiles for Non-Interval Metered Loads Without an Unregistered Distributed Generator
+
+(1) Load Profiles for non-interval metered Loads are created using statistical models developed from appropriate Load research sample data. These models are referred to as adjusted static. These model equations relate daily Settlement Interval Load patterns to relevant weather descriptors such as maximum and minimum dry-bulb temperature and humidity. Other daily characteristics such as day-of-the-week and sunrise/sunset times are also employed.
+
+18.2.2.2 Load Profiles for Non-Interval Metered Loads With an Unregistered Distributed Generator
+
+(1) Load Profiles for non-interval metered Loads that utilize UDGs (e.g., PhotoVoltaic (PV) or wind) will be created using a hybrid approach. At least a portion of the Load Profile will be based on Adjusted Static Models, while engineering estimates and/or generation models may be integrated as well or otherwise utilized.
+
+18.2.3 Load Profiles for Non-Metered Loads
+
+(1) Load Profiles for Non-Metered Loads, e.g. streetlights, traffic signals, security lighting, billboards, and parking lots are created using engineering estimates based on known criteria, such as hours of operation, with appropriate variation in sunrise/sunset times. Transmission Service Providers (TSPs) and/or Distribution Service Providers (DSPs) are responsible for providing monthly consumption (kWh) for non-metered Electric Service Identifiers (ESI IDs).
+
+18.2.4 Default Load Profiles for Interval Data Recorders
+
+(1) Default Load Profiles for IDRs will only be used when no historic Customer-specific interval data is available for Settlements. The Adjusted Static Model methodology will be used to create these Load Profiles.
+
+(2) For details on the method to estimate IDR data for Settlement purposes, refer to Section 11, Data Acquisition and Aggregation.
+
+18.2.5 Identification of Weather Zones and Load Profile Types
+
+(1) ERCOT, in coordination with the appropriate Technical Advisory Committee (TAC) subcommittee, will identify Weather Zones and Load Profile Types based on an analysis of Load data, weather data, and sunrise/sunset data.
+
+18.2.6 Daily Profile Creation Process
+
+(1) ERCOT will maintain Load Profile Models to create profiles for the target Settlement day (backcast) and three days following the current day (forecast). ERCOT will automatically collect actual weather conditions and weather forecasts to enable the creation of the Load Profiles. ERCOT will maintain sunrise/sunset information for creating Load Profiles that require these parameters.
+
+18.2.7 Maintenance of the Load Profile Models
+
+(1) Upon request from the appropriate TAC subcommittee, ERCOT shall review the validity and accuracy of the Load Profile Models. ERCOT shall make the necessary recommendation to alleviate any situations whereby Load Profiles are no longer representative.
+
+18.2.8 Adjustments and Changes to Load Profile Development
+
+(1) Any changes to the Load Profiling Methodology, existing Load Profiles, and/or creation of new Load Profiles shall be in accordance with Load Profiling Guide Section 2.4, Load Profiling Guide Revision Procedure
+
+(2) Section 9.18, Profile Development Cost Recovery Fee for a Non-ERCOT Sponsored Load Profile Segment, describes the process for compensating the originator of a Load Profile Segment change request by Retail Electric Providers (REPs) wishing to subscribe to the Load Profile Segment.
+
+(3) ERCOT shall give at least 150 days’ Notice to all Market Participants prior to market implementation of any change to the Load Profiling Methodology, existing Load Profiles, or when any additional Load Profiles are developed. This Notice shall include a Load Profile change implementation timeline, which specifies dates on which key events during the Load Profile change process will take place. Upon any change in Load Profile Types, TSPs and/or DSPs shall send any revised Load Profile ID assignments required by the change to the registration system within the implementation timeline. After the new Load Profile(s) becomes available, changes to Load Profile Types will be effective on the next meter read date for each ESI ID.
+
+(4) If one or more Load Profiles require changes to reduce excessive UFE, as determined by the appropriate TAC subcommittee, TAC may provide a shorter Notice period and implementation date, than otherwise provided herein, for such required changes to Load Profiles. If the Load Profiling Methodology requires changes to reduce excessive UFE, as determined by the appropriate TAC subcommittee, TAC may provide an expedited Notice period and implementation date.
+
+18.2.9 ERCOT Responsibilities in Support of Load Profiling
+
+(1) ERCOT is responsible for the development and maintenance of Load Profiles used in the ERCOT market. ERCOT shall follow the Load Profiling and Load research rules and procedures as specified in the Public Utility Commission of Texas (PUCT) rules.
+
+18.3 Posting
+
+(1) ERCOT will make available to Market Participants the following information in a timely manner, subject to confidentiality agreements, proprietary arrangements, and Public Utility Commission of Texas (PUCT) rules.
+
+18.3.1 Methodology Information
+
+(1) Upon request, ERCOT will provide a complete description of all supporting Load Profile Models, documentation and data used in preparation of Load Profiles, including:
+
+(a) The historic Load data used to create the Load Profiles;
+
+(b) Average interval accuracy of each Load Profile Model;
+
+(c) Weather information;
+
+(d) Sunrise/sunset information; and
+
+(e) Any other data used for Load Profile development.
+
+18.3.2 Load Profiling Models
+
+(1) ERCOT will make available the Load Profile Models used to produce the forecast and backcast profiles for the Settlement process. The Load Profile Models shall be accessible via the ERCOT website in a downloadable format.
+
+18.3.3 Load Profiles
+
+(1) ERCOT will publish Load Profile data from the Load Profile creation process, in accordance with Section 18.2.6, Daily Profile Creation Process, to the ERCOT website and through the common application program interface (API). Load Profile data will be made available to Market Participants for a period of two years.
+
+(2) ERCOT will post to the ERCOT website by 1000 Central Prevailing Time (CPT) each Business Day, forecasted Load Profiles for the three following days for each Load Profile Type and Weather Zone. Backcast Load Profiles for each Load Profile Type and Weather Zone will be available by 1000 CPT of the second Business Day following the backcast day. No data will be provided that will allow identification of individual Customers.
+
+18.4 Assignment of Load Profile ID
+
+(1) Each Electric Service Identifier (ESI ID) is required to be associated with an appropriate Load Profile ID. Upon request, ERCOT and the appropriate Technical Advisory Committee (TAC) subcommittee shall review the Load Profile ID assignment process, make recommendations for enhancements, and evaluate the integration of the validation and assignment processes. This Section details the process of assigning a Load Profile ID to each ESI ID.
+
+18.4.1 Development of Load Profile ID Assignment Table
+
+(1) ERCOT shall develop a cross-reference table of all Load Profile IDs used in the ERCOT market. The table shall clearly state class relationship to Load Profile Type. This information shall be made accessible on the ERCOT website. The cross-reference information shall be compiled and expressed in clear, unambiguous language, and in a manner that will minimize Load Profile ID assignment disputes.
+
+18.4.2 Load Profile ID Assignment
+
+(1) All Load Profile ID assignments shall conform with the valid combinations within the Load Profiling Guide Appendix D, Profile Decision Tree.
+
+(2) Should there be any change in Load Profile ID assignment to any ESI ID, it will be the responsibility of the Transmission Service Provider (TSP) and/or Distribution Service Provider (DSP) to submit those changes to ERCOT.
+
+(3) Competitive Retailers (CRs) may dispute a Load Profile ID assignment through the process described in Load Profiling Guide Section 14, Load Profile ID Dispute Procedure.
+
+(4) TSPs and/or DSPs shall change the assignment of a Load Profile ID based on a dispute outcome finding in favor of a CR. If required to change an assignment, TSPs and/or DSPs must correct the assignment in their system and the ERCOT Customer registration system within three Business Days.
+
+18.4.3 Validation of Load Profile Type and Weather Zone Assignments
+
+(1) In this Section validation shall mean performing checks to ensure correct assignment of Load Profile Types and Weather Zones to ESI IDs.
+
+18.4.3.1 Validation Process
+
+(1) Validation of Load Profile Type and Weather Zone assignments, at a minimum, will be performed as follows:
+
+(a) Initial Load Profile ID assignment for opt-in Entities;
+
+(b) When a change is made in the Load Profile Type or Weather Zone assignment;
+
+(c) One time per year for the Business Load Profiles; and
+
+(d) At least one time every three years for the Residential Load Profiles during the Load Profile validation process.
+
+(2) Details of the validation process will be specified in the Load Profiling Guide Section 11, Validation of Load Profile ID.
+
+(3) Any Market Participant may request temporary changes to the process for validating Load Profile IDs to address unusual circumstances. Such change requests shall be recommended by the appropriate TAC subcommittee and approved by TAC. Change requests as a result of an extreme event such as a hurricane or ice storm may be approved directly by TAC. Such requests, if approved by the TAC, shall be in effect only for the requested year.
+
+18.4.3.2 Correction Procedure
+
+(1) TSPs and/or DSPs are responsible for investigating each ESI ID identified by ERCOT or a Market Participant as having a potentially incorrect Load Profile ID assignment. Market Participants may dispute an assignment of a Load Profile ID as described in Load Profiling Guide Section 14, Load Profile ID Dispute Procedure.
+
+18.4.4 Assignment of Weather Zones to Electric Service Identifiers
+
+(1) TSPs and /or DSPs will assign each ESI ID to a Weather Zone, based on service address ZIP code.
+
+(2) ERCOT will post to the ERCOT website a mapping of a Weather Zone to appropriate Customer registration element used in assigning Weather Zones.
+
+18.5 Additional Responsibilities
+
+(1) This Section addresses responsibilities for Load Profiling not specified in other sections of the Protocols.
+
+18.5.1 ERCOT Responsibilities
+
+(1) ERCOT will develop, administer, and maintain Load Profiles in accordance with these Protocols. There may be extenuating circumstances including, but not limited to, prolonged widespread power outages that may necessitate ERCOT’s discretion for adjusting non-Interval Data Recorder (IDR) backcasted Load Profiles. If an event requires ERCOT to utilize this discretion, ERCOT shall send a Market Notice within three Business Days of making the adjustments and report its action(s) and reason(s) for doing so to the next meeting of the appropriate Technical Advisory Committee (TAC) subcommittee.
+
+(2) Any disputes related to the accuracy, appropriateness, or adjustment of Load Profiles shall be handled in accordance with Section 9.14, Settlement and Billing Dispute Process.
+
+18.5.2 Market Participant Responsibilities
+
+(1) Market Participants shall use the appropriate TAC subcommittee as a forum for their input in the development and refinement of Load Profiles.
+
+(2) Competitive Retailers (CRs) shall be responsible for reviewing any assignment of Load Profiles to Electric Service Identifiers (ESI IDs) they represent.
+
+18.6 Installation and Use of Interval Data Recorders
+
+18.6.1 Interval Data Recorder Mandatory Installation Requirements
+
+(1) Interval Data Recorders (IDRs) are required and shall be installed and utilized for Settlement of Premises having either:
+
+  (a) A peak Demand greater than 700 kW (or 700 kVA in CenterPoint Energy’s service territory); or
+
+  (b) Service provided at transmission voltage (above 60 kV).
+
+(2) All non-metered Loads such as street lighting, regardless of the aggregation level, shall not be required to install IDRs under the IDR Mandatory Installation Requirements. These Loads shall be settled using Load Profiles.
+
+(3) Municipally Owned Utilities (MOUs) and Electric Cooperatives (ECs) that opt-in to Customer Choice must install IDRs at all Premises subject to the IDR Mandatory Installation Requirements for metering prior to the effective date of their participation in the testing and integration requirements of ERCOT systems for Customer Choice.
+
+18.7 Transition of Interval Data Recorder Meter to AMS Profile Type
+
+(1) At a Transmission and/or Distribution Service Provider’s (TDSP’s) discretion, or upon a Customer’s request and TDSP’s approval, a TDSP shall:
+
+  (a) Utilize a provisioned Advanced Meter or similarly functional meter for Customer’s Premise;
+
+  (b) Assign the appropriate Load Profile, other than one with a BUSIDRRQ Profile Type Code, to Premise’s Electric Service Identifier (ESI ID);
+
+  (c) Submit Settlement Quality Meter Data, which will be used for Settlement, using the ERCOT specified file format for the interval data only in accordance with Retail Market Guide Section 7.15, Advanced Meter Interval Data File Format and Submission;
+
+  (d) If the ESI ID will be transitioning to an Advanced Metering System (AMS) Profile Type other than BUSLRG or BUSLRGDG, submit a MarkeTrak issue to notify ERCOT; and
+
+  (e) Submit the appropriate Texas Standard Electronic Transaction (TX SET) transaction notifying the Competitive Retailer (CR) of the Load Profile change.

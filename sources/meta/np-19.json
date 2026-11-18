@@ -1,0 +1,12 @@
+{
+ "id": "np-19",
+ "title": "ERCOT Nodal Protocols, Section 19: Texas Standard Electronic Transaction",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "effective 2026-08-01",
+ "url": "https://www.ercot.com/files/docs/2023/03/31/19-080126_Nodal.docx",
+ "retrieved": "2026-11-18",
+ "raw_bytes": 45099,
+ "raw_sha256": "811a890db520e25287251e31b18d5c5847435e8c7a45f6ae37862d7b691580a6",
+ "text_chars": 31829
+}
