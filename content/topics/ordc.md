@@ -6,7 +6,7 @@ kind: rule
 domain: reliability
 level: 1
 lenses: [analyst, trading, portfolio]
-as_of: 2026-11-18
+as_of: 2026-11-19
 links:
   - to: asdc
     type: contrasts-with

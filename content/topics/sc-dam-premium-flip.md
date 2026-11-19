@@ -6,7 +6,7 @@ kind: scenario
 domain: cases
 level: 2
 lenses: [analyst, trading]
-as_of: 2026-11-18
+as_of: 2026-11-19
 links:
   - to: dart-spread
     type: measures

@@ -142,7 +142,7 @@ Mostly solar and storage: of about 14.8 GW added in 2025, 6.2 GW was solar and 7
 
 ### Why doesn't adding solar fix evening reliability?
 
-Solar's capacity factor at the net peak has fallen sharply as the net peak moves into the evening, while wind's has risen. [e5] Storage is what has grown to serve those hours. [e4]
+Solar's capacity factor at the net peak has fallen sharply as the net peak moves into the evening, while wind's has risen. [e5] Storage is the capacity that has grown fastest: ESR capacity was up almost 80% in 2025. [e4]
 
 ### How has wind's role changed?
 

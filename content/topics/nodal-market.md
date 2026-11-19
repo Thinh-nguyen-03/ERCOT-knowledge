@@ -101,6 +101,14 @@ evidence:
     source: np-02
     locator: "Section 2.1, definition of Load Zone, paragraph (3)"
     quote: "(3) A Non-Opt-In Entity (NOIE) Load Zone is a type of Load Zone."
+  - id: e18
+    source: ercot-nodal-go-live-plan
+    locator: "Nodal Program Update to the ERCOT Board (19 October 2010), slide: TAC Certification of Full Nodal Systems for Go-Live"
+    quote: "TAC voted to certify the Full Nodal systems for a December 1, 2010 Go-Live"
+  - id: e19
+    source: ercot-nodal-go-live-plan
+    locator: "Nodal Program Update to the ERCOT Board (19 October 2010), slide: System Cut-Over / Go-Live"
+    quote: "November 30th – Execute DAM for December 1 (the first Operating Day to be binding with Nodal settlement)"
 ---
 
 ## Definition
@@ -119,7 +127,9 @@ The market runs in layers. Real-time prices come from SCED, which sets base poin
 
 Zonal settlement for load trades signal accuracy for smoother prices, and the quality of the signal depends on the zones. [e6] The IMM says ERCOT set the four current load zones in 2003: North, West, South and Houston. [e7] The Protocols also define a Non-Opt-In Entity (NOIE) Load Zone as a type of Load Zone. [e17] The IMM argues that LMP signals are only as accurate as the match between load zones and persistent transmission constraints. [e6]
 
-The zonal layer has real costs. The IMM's 2025 report says controllable load resources are dispatched and settled at zonal prices, which hurts CLRs at low-cost nodes, such as in the Panhandle, where the zonal price is often above their actual cost of service. [e14] NPRR 1188, approved by the PUCT in November 2024, will introduce nodal pricing for CLRs [e15]; in the November 2026 Protocols its changes are still marked for insertion "upon system implementation". [e16] On the operations side, the IMM reported that in 2025 the rate of transmission constraints violated because they were too expensive to resolve fell to its lowest level since the nodal market was implemented. [e13]
+The zonal layer has real costs. The IMM's 2025 report says controllable load resources are dispatched and settled at zonal prices, which hurts CLRs at low-cost nodes, such as in the Panhandle, where the zonal price is often above their actual cost of service. [e14] NPRR 1188, approved by the PUCT in November 2024, will introduce nodal pricing for CLRs [e15]; in the November 2026 Protocols an NPRR1188 definition (Energy Bid Curve) is still marked for insertion "upon system implementation". [e16] On the operations side, the IMM reported that in 2025 the rate of transmission constraints violated because they were too expensive to resolve fell to its lowest level since the nodal market was implemented. [e13]
+
+On timing, the saved source is a pre-launch plan: an October 19, 2010 program update to the ERCOT Board says TAC voted to certify the Full Nodal systems for a December 1, 2010 go-live, and planned December 1 as the first Operating Day binding with nodal settlement. [e18][e19]
 
 ## Key facts
 
@@ -129,6 +139,7 @@ The zonal layer has real costs. The IMM's 2025 report says controllable load res
 - Four current load zones, set in 2003 (per the IMM): North, West, South, Houston. [e7] NOIE Load Zones are also a type of Load Zone. [e17]
 - CRRs are financial rights sold in a simultaneous combinatorial auction. ERCOT offers no physical transmission rights. [e9]
 - 2025: constraint violations hit their lowest level since nodal implementation (IMM). [e13]
+- Planned nodal go-live, per an October 2010 Board update: December 1, 2010 (a pre-launch plan). [e18]
 
 ## Say it like this
 
@@ -165,6 +176,6 @@ The IMM calls the real-time market the most consequential: it coordinates real-t
 
 ## Open items
 
-- The topic name says "since Dec 2010", but no saved source gives the nodal go-live date. np-02 defines a "Texas Nodal Market Implementation Date" without stating it. The IMM 2024 report says "since the nodal market began in 2011", which may refer to the first full year of data. Needs owner review.
+- Nodal go-live date: the only saved source is a pre-launch plan (October 19, 2010 Board update) giving a planned go-live of December 1, 2010 [e18][e19]. No saved source confirms after the fact that the launch happened on that date; np-02 defines a "Texas Nodal Market Implementation Date" without stating it, and the IMM 2024 report says "since the nodal market began in 2011", which may refer to the first full year of data.
 - No saved source describes the zonal market that came before nodal, or why ERCOT switched.
 - The status of NPRR 1188 (nodal pricing for CLRs, PUCT-approved in November 2024 per IMM 2025) was not confirmed as implemented.

@@ -6,7 +6,7 @@ kind: metric
 domain: fundamentals
 level: 1
 lenses: [analyst, trading, portfolio]
-as_of: 2026-11-18
+as_of: 2026-11-19
 links:
   - to: evening-ramp
     type: related
@@ -19,7 +19,7 @@ links:
     note: Wind output is subtracted from load and held a 29.3% capacity factor at the net peak interval in 2025. [e1][e11]
   - to: load-forecasting
     type: related
-    note: ERCOT's average net load forecast error fell to about 452 MW in 2025, per the IMM. [e9]
+    note: The IMM reports that the average net load forecast error, measured eight hours ahead of real time, fell to about 452 MW in 2025. [e9][e15]
   - to: energy-storage-resource
     type: related
     note: ERCOT says ESRs helped serve record net loads in summer 2026, with evening state-of-charge exhaustion a recurring pattern. [e14]
@@ -89,6 +89,10 @@ evidence:
     source: ercot-summer-2026-review
     locator: "Key Takeaways slide"
     quote: "Energy Storage Resources (ESRs) were helpful to serve record net loads, and as a result, ESR State of Charge (SOC) exhaustion in the evenings was a pattern throughout the summer."
+  - id: e15
+    source: imm-som-2025
+    locator: "Market Operations, C. Forecast Error, Figure 50 introduction"
+    quote: "Figure 50 illustrates the distribution of net load forecast errors eight hours ahead of real-time."
 ---
 
 ## Definition
@@ -99,7 +103,7 @@ In the ERCOT Protocols, Net Load is the Load for a given period minus generation
 
 Net load is Load minus solar and wind generation for the same period, so it is the demand left over after those Resources. [e1] Because solar output falls in the evening while demand stays high, the hour of highest net load lands later than the hour of highest gross load. [e3] The IMM reports that the tightest hours have moved from the firm peak load hour around 4 to 5 p.m. to 7 to 9 p.m., the net load peak. [e2]
 
-ERCOT's planning reports now track both peaks. The December 2025 CDR's base case gives summer 2026 reserve margins of 18.3% at the peak Load hour (hour ending 5 p.m.) and 20.9% at the peak Net Load hour (hour ending 9 p.m.). [e5] ERCOT's summer 2026 review says the peak net load typically falls in HE 20-21, and that in June and July the net load hour moved from HE 21 to HE 22. [e6][e7]
+ERCOT's planning reports now track both peaks. The December 2025 CDR's base case gives summer 2026 reserve margins of 18.3% at the peak Load hour (hour ending 5 p.m. Central Standard Time) and 20.9% at the peak Net Load hour (hour ending 9 p.m. CST). [e5] ERCOT's summer 2026 review says the peak net load typically falls in HE 20-21, and that in June and July the net load hour moved from HE 21 to HE 22. [e6][e7]
 
 In winter the pattern is different: ERCOT's MORA battery model uses two scheduling windows in winter months because of bimodal morning and evening high net load periods. [e13]
 
@@ -107,7 +111,7 @@ In winter the pattern is different: ERCOT's MORA battery model uses two scheduli
 
 Price spikes cluster at the net peak. Most real-time price spikes in 2025 occurred during the 7 to 9 p.m. peak net load hours as solar ramped down. [e12] At the daily net peak interval, solar's capacity factor fell to 1.7% in 2025 while wind's held at 29.3%. [e11]
 
-Net load drives operations and procurement. The Regulation procurement target is based on the 95th percentile of five-minute net load forecast error. [e10] The IMM says ERCOT's average net load forecast error fell to about 452 MW in 2025 from more than 1,000 MW in 2023 and 2024, but forecasts still under-forecast renewable output and over-forecast load. [e9] An SB 3 (2021) provision, new PURA §39.159(b)(5), refers to preventing prolonged rotating outages due to net load variability in high demand and low supply scenarios. [e8]
+Net load drives operations and procurement. As the IMM describes the AS methodology, the Regulation procurement target is set from the 95th percentile of net load forecast error on a five-minute look-ahead. [e10] Separately, the IMM measures net load forecast errors eight hours ahead of real time and says the average error fell to about 452 MW in 2025 [e15] from more than 1,000 MW in 2023 and 2024, but forecasts still under-forecast renewable output and over-forecast load. [e9] An SB 3 (2021) provision, new PURA §39.159(b)(5), refers to preventing prolonged rotating outages due to net load variability in high demand and low supply scenarios. [e8]
 
 Storage serves the net peak: ERCOT says ESRs helped serve record net loads in summer 2026, with evening state-of-charge exhaustion a pattern through the summer. [e14]
 
@@ -115,9 +119,9 @@ Storage serves the net peak: ERCOT says ESRs helped serve record net loads in su
 
 - Protocol definition: Load minus PVGR and WGR generation for the same period. [e1]
 - 2024 peak net load was 69.6 GW, about 10 GW lower than 2023 and 5 GW lower than 2022 (IMM). [e4]
-- Summer 2026 CDR base case: 18.3% reserve margin at peak Load hour (HE 5 p.m.) and 20.9% at peak Net Load hour (HE 9 p.m.). [e5]
+- December 2025 CDR base scenario for summer 2026: 18.3% reserve margin at peak Load hour (HE 5 p.m. CST) and 20.9% at peak Net Load hour (HE 9 p.m. CST). [e5]
 - 12 of the top 20 hourly net load hours were in 2026, as of ERCOT's September 2026 review. [e6]
-- 2025 average net load forecast error was about 452 MW. [e9]
+- 2025 average net load forecast error, measured by the IMM eight hours ahead of real time, was about 452 MW. [e9][e15]
 - The IMM expected the peak net load hour to be in the late evening by 2028. [e3]
 
 ## Example
@@ -144,7 +148,7 @@ Load for a period minus generation from PhotoVoltaic Generation Resources and Wi
 
 ### What does net load forecast error affect?
 
-It sets the Regulation procurement target (95th percentile of five-minute net load forecast error); the IMM puts the 2025 average error at about 452 MW. [e10][e9]
+It sets the Regulation procurement target (95th percentile of five-minute net load forecast error); that is a five-minute look-ahead measure. [e10] On a different horizon, eight hours ahead of real time, the IMM puts the 2025 average net load forecast error at about 452 MW. [e9][e15]
 
 ### Was 2024 a high or low year for peak net load?
 

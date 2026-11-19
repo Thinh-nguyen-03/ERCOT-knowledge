@@ -194,6 +194,7 @@ The record peak was 91,134 MW on July 22, 2026. [e13] That is inside ERCOT's Apr
 ## Open items
 
 - The final adjusted 2026 LTLF values are not in the saved sources. ERCOT expected them by the end of 2026 (August statement) [e19], and on November 6, 2026 said it did not yet have a final load forecast because Batch Zero load values were still being finalized [e26]. No saved source gives a date for the final forecast.
+- The July 22, 2026 record is 91,134 MW in ERCOT's September 2026 summer review [e13], but the October 2026 ERCOT Fact Sheet shows 91,155 MW for the same date and notes records are unofficial until final settlements. This topic uses the summer review figure.
 - The text of 16 TAC §25.370 is not saved; its rules are described here from IMM and ERCOT summaries.
 - The 2025 LTLF report's peak figures sit in figures and an appendix table. Its "ERCOT Adjusted" versus "TSP Provided" peak values by year were not extractable beyond Appendix A.
 - Deeper pass: the 2026 RTP Compliance Plan criteria (January 22, 2026) and the 2025 forecast revision under Project 55999 (June 2025).

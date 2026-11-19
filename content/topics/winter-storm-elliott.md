@@ -6,7 +6,7 @@ kind: event
 domain: cases
 level: 2
 lenses: [analyst, trading, portfolio]
-as_of: 2026-11-18
+as_of: 2026-11-19
 links:
   - to: winter-storm-uri
     type: contrasts-with
@@ -89,7 +89,7 @@ evidence:
     quote: "The Cold Weather event that occurred from December 22 nd to December 25th, 2022, was precipitated by severe winter weather"
   - id: e16
     source: ercot-elliott-report
-    locator: "Section 4, generation at peak demand (p. 8)"
+    locator: "Page 9, text introducing the chart of generation used during the peak demand"
     quote: "The instantaneous peak demand of 74,100 MW occurred on December 23 rd at 7:30 am."
 ---
 
