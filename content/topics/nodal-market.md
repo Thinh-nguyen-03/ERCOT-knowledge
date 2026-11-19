@@ -89,6 +89,18 @@ evidence:
     source: imm-som-2025
     locator: "2025 State of the Market Report, Demand Response (controllable load resources)"
     quote: "Currently, CLRs are dispatched and settled using zonal prices. This creates an economic challenge for CLRs at nodes with structurally low energy costs, such as those in the Panhandle near large volumes of renewable generation, where the zonal price is often higher than the cost of serving their load."
+  - id: e15
+    source: imm-som-2025
+    locator: "2025 State of the Market Report, Demand Response (controllable load resources), sentence before e14"
+    quote: "Another major improvement is NPRR 1188, which the PUCT approved in November 2024 and13 which will introduce nodal pricing for CLRs."
+  - id: e16
+    source: np-02
+    locator: "Section 2.1, pending-change box for NPRR1188 (Energy Bid Curve definition)"
+    quote: "[NPRR1188: Insert the following definition “Energy Bid Curve” upon system implementation:]"
+  - id: e17
+    source: np-02
+    locator: "Section 2.1, definition of Load Zone, paragraph (3)"
+    quote: "(3) A Non-Opt-In Entity (NOIE) Load Zone is a type of Load Zone."
 ---
 
 ## Definition
@@ -105,16 +117,16 @@ The market runs in layers. Real-time prices come from SCED, which sets base poin
 
 ## ERCOT context
 
-Zonal settlement for load trades signal accuracy for smoother prices, and the quality of the signal depends on the zones. [e6] ERCOT set its four current load zones in 2003: North, West, South and Houston. [e7] The IMM argues that LMP signals are only as accurate as the match between load zones and persistent transmission constraints. [e6]
+Zonal settlement for load trades signal accuracy for smoother prices, and the quality of the signal depends on the zones. [e6] The IMM says ERCOT set the four current load zones in 2003: North, West, South and Houston. [e7] The Protocols also define a Non-Opt-In Entity (NOIE) Load Zone as a type of Load Zone. [e17] The IMM argues that LMP signals are only as accurate as the match between load zones and persistent transmission constraints. [e6]
 
-The zonal layer has real costs. Controllable load resources are still dispatched and settled at zonal prices, which hurts CLRs at low-cost nodes, such as in the Panhandle, where the zonal price is often above their actual cost of service. [e14] On the operations side, the IMM reported that in 2025 the rate of transmission constraints violated because they were too expensive to resolve fell to its lowest level since the nodal market was implemented. [e13]
+The zonal layer has real costs. The IMM's 2025 report says controllable load resources are dispatched and settled at zonal prices, which hurts CLRs at low-cost nodes, such as in the Panhandle, where the zonal price is often above their actual cost of service. [e14] NPRR 1188, approved by the PUCT in November 2024, will introduce nodal pricing for CLRs [e15]; in the November 2026 Protocols its changes are still marked for insertion "upon system implementation". [e16] On the operations side, the IMM reported that in 2025 the rate of transmission constraints violated because they were too expensive to resolve fell to its lowest level since the nodal market was implemented. [e13]
 
 ## Key facts
 
 - Resources are priced at nodal LMPs from security-constrained economic dispatch (rule 25.501(f)). [e1]
 - Load imbalances settle at zonal prices, and resource-to-load schedules pay the nodal-to-zonal price difference as congestion. [e2]
 - Settlement Point types: Resource Node, Load Zone, Hub. [e5]
-- Four current load zones, set in 2003: North, West, South, Houston. [e7]
+- Four current load zones, set in 2003 (per the IMM): North, West, South, Houston. [e7] NOIE Load Zones are also a type of Load Zone. [e17]
 - CRRs are financial rights sold in a simultaneous combinatorial auction. ERCOT offers no physical transmission rights. [e9]
 - 2025: constraint violations hit their lowest level since nodal implementation (IMM). [e13]
 
@@ -138,7 +150,7 @@ It is the offer- and bid-based marginal cost of serving the next increment of lo
 
 ### Why might a large controllable load prefer nodal settlement?
 
-CLRs are dispatched and settled at zonal prices today. At low-cost nodes, such as in the Panhandle, the zonal price is often above the cost of serving their load. [e14]
+Per the IMM's 2025 report, CLRs are dispatched and settled at zonal prices until NPRR 1188's nodal pricing for CLRs is implemented. [e14][e15][e16] At low-cost nodes, such as in the Panhandle, the zonal price is often above the cost of serving their load. [e14]
 
 ### Which ERCOT market matters most?
 
