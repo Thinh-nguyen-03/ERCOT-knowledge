@@ -91,7 +91,7 @@ evidence:
 
 ## Definition
 
-Winter Storm Elliott was the cold weather event of December 22 to 25, 2022 in which ERCOT set a new peak demand record, reported at 74,100 MW on December 23, 2022, while keeping operating reserves (PRC) above 4,052 MW, well above the 2,300 MW level at which ERCOT declares EEA 1. [e15][e1]
+Winter Storm Elliott was the cold weather event of December 22 to 25, 2022 in which, according to ERCOT's report, demand surpassed the previous peak demand record, reaching 74,100 MW on December 23, 2022, while keeping operating reserves (PRC) above 4,052 MW, well above the 2,300 MW level at which ERCOT declares EEA 1. [e15][e1]
 
 ## How it works
 
@@ -146,6 +146,7 @@ It said reserve levels and prices did not show a need for FFSS on three of the f
 
 ## Open items
 
+- Record scope and size: the IMM 2023 report (Executive Summary, Demand) says "The winter record was set in 2022 of 78.3 GW on December 23, 2022", and the same passage gives an 80 GW peak load for 2022, so the ERCOT report's "previous peak demand record" (74,100 MW) cannot be an all-time record; which record it means, and why 74,100 MW differs from 78.3 GW, is not explained in the saved sources.
 - Peak demand figures differ: the ERCOT report's executive summary says 74,100 MW on December 23 (its Uri comparison table says instantaneous, 12/23/2022 HE08); its peak load chart and the ERCOT Board deck show hourly peaks of 73,658 MW (Dec 22 HE22) and 73,910 MW (Dec 23 HE09).
 - Adequacy wording: ERCOT's Board deck says ERCOT "had adequate generation throughout Winter Storm Elliott"; the IMM 2022 report says "there were shortage conditions on December 23, 2022". Possibly different meanings of shortage; not resolved.
 - Board deck date: sources.yaml lists 2023-02-21 but the deck's cover says "February 28, 2023".

@@ -105,7 +105,7 @@ The Texas Energy Fund is a special fund in the state treasury, outside general r
 
 Under SB 2627 as enacted, loans can finance upgrades to existing dispatchable facilities that add at least 100 MW, or construction of dispatchable facilities of at least 100 MW. [e2] A loan has a 20-year term, ratable payments starting on the third anniversary of the estimated commercial operation date, and a three percent interest rate; a construction loan may cover up to 60 percent of the estimated cost. [e4][e5] Energy storage facilities are not eligible. [e3]
 
-Completion bonus grants are paid on construction of dispatchable generation in the ERCOT region, based on megawatts provided. The cap is $120,000 per MW for facilities interconnected before June 1, 2026, and $80,000 per MW for those interconnected on or after June 1, 2026 and before June 1, 2029, unless the commission extends deadlines for extenuating circumstances. [e6][e7] The commission must set by rule performance standards for grant recipients, based on reliability metrics, for the 100 hours with the least operating reserves each year. [e13]
+Completion bonus grants are paid on construction of dispatchable generation in the ERCOT region, based on megawatts provided. The SB 2627 cap is $120,000 per MW for facilities interconnected before June 1, 2026, and $80,000 per MW for those interconnected on or after June 1, 2026 and before June 1, 2029, unless the commission extends deadlines for extenuating circumstances. [e6][e7] The commission must set by rule performance standards for grant recipients, based on reliability metrics, for the 100 hours with the least operating reserves each year. [e13]
 
 ## ERCOT context
 
