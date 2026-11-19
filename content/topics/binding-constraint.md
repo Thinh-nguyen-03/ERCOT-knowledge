@@ -63,11 +63,15 @@ evidence:
     source: imm-som-2025
     locator: "Transmission Congestion and CRRs, Violated Constraints"
     quote: "Figure 38 shows that the overall rate of violated transmission constraints continued to drop precipitously to 64 constraint-hours in 2025, by far the lowest annual total."
+  - id: e10
+    source: imm-som-2025
+    locator: "Transmission Congestion and CRRs, Violated Constraints, Figure 38 discussion"
+    quote: "The next lowest year was 2016, with 271 constraint-hours of violations."
 ---
 
 ## Definition
 
-"Binding constraint" is not a defined term in the Protocol definitions (np-02). The Protocols and the IMM use it for a transmission constraint whose limit is reached so that dispatch must change. In ERCOT a constraint is a contingency and limiting Transmission Element pair that Network Security Analysis identifies and that is activated in SCED. [e1] When these limits bind, congestion raises dispatch costs and makes energy prices differ by location. [e4]
+"Binding constraint" does not have its own entry in the Protocol definitions (np-02, Section 2.1), although Section 6 refers to "binding transmission constraints". [e2] In ERCOT a constraint is a contingency and limiting Transmission Element pair that Network Security Analysis identifies and that is activated in SCED. [e1] When these limits bind, congestion raises dispatch costs and makes energy prices differ by location. [e4]
 
 ## How it works
 
@@ -87,11 +91,11 @@ The IMM reports that violated transmission constraints fell to 64 constraint-hou
 - ERCOT posts all binding constraints hourly. [e2]
 - Violated means flows exceed the limit. [e5]
 - Competitive or non-competitive status is posted for each binding constraint each hour. [e6]
-- 2025 violated constraint-hours: 64, the lowest on record per the IMM. [e8]
+- 2025 violated constraint-hours: 64, the lowest annual total in the IMM's comparison (next lowest was 2016, at 271). [e8][e10]
 
 ## Say it like this
 
-A binding constraint is a transmission limit that is actually holding dispatch back in that interval. It is the reason nodal prices separate.
+(Guidance) When a transmission limit binds, congestion raises dispatch costs and energy prices differ by location. [e4]
 
 ## Common confusion
 
