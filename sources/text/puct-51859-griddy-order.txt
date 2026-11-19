@@ -1,0 +1,663 @@
+Control Number: 51859
+
+Item Number: 40
+
+PUC DOCKET NO. 51859
+SOAH DOCKET NO. 473-21-2995
+
+ZOE AUG -4 PM 4: 44
+
+COMMISSION STAFF'S PETITION TO
+REVOKE THE RETAIL ELECTRIC
+PROVIDER CERTIFICATE OF
+GRIDDY ENERGY LLC
+
+§
+§
+§
+§
+
+PUBLIC UTILITY €OMMISSCON
+, , 4' f- ;-; i t, r,
+OF TEXAS
+I:
+
+I,1 J
+
+/.L
+
+ORDER
+This Order addresses Commission Staff's petition to revoke the retail electric provider
+(REP) certificate of Griddy Energy LLC.
+
+Commission Staff filed an agreement between
+
+Commission Staff, Griddy, the Office of Public Utility Counsel (OPUC), and the Electric
+Reliability Council of Texas, Inc. (ERCOT) to this proceeding. Intervenors AEP Texas Inc..
+CenterPoint Energy Houston Electric, LLC; and Texas-New Mexico Power Company (TNMP)
+
+are unopposed to the agreement. For the reasons identified in this Order, the Commission
+revokes Griddy's REP certificate number 10243.
+
+I.
+
+Findings of Fact
+
+The Commission makes the following findings of fact.
+
+Respondent
+1.
+
+Griddy is a Delaware limited liability company formerly registered with the Texas
+
+secretary of state under filing number 802462352.
+2.
+
+Griddy holds REP certificate number 10243.
+
+3.
+
+The Commission originally granted REP certificate number 10243 to Griddy in Docket
+No. 46342.1
+
+4.
+
+In Docket No. 50252,2 the Commission amended the certificate to reflect a change in
+
+customer deposits and advance payments.
+
+~ Application of Griddy Energy LLCfor Retail Electric Provider Certification, Docket No . 46342 , Notice of
+
+Approval (Jan. 10,2017).
+
+2 Applicalion of Griddy Energy LLC to Amend Its Retail Eleclric Providei· Certificate, Docket No . 50252 .
+
+Notice of Approval (Jan. 23,2020).
+
+PUC Docket No. 51859
+SOAH Docket No. 473-21-2995
+
+5.
+
+Order
+
+Page 2 of 10
+
+In Docket No. 51622,3 the Commission amended the certificate to reflect a change in
+
+ownership and control. In Griddy's application requesting the amendment, the following
+individuals were listed as principals of the company: Michael Fallquist, chief executive
+
+officer: Roop Bhullar, chief financial officer; Christian McArthur, chief operating officer:
+Gregory Craig. director; and Nicholas Bain, director.
+6.
+
+Before February 26,2021, Griddy sold electric energy to retail customers in Texas.
+
+7.
+
+On February 26,2021, ERCOT terminated its standard form market participant agreeinent
+
+with Griddy and revoked Griddy's rights as an ERCOT market participant due to a payment
+breach.
+
+8.
+
+Between February 26,2021 and March 2,2021, ERCOT performed a mass transition of
+
+Griddy's customers to providers of last resort.
+9.
+
+Griddy filed for bankruptcy on March 15,2021, and the bankruptcy plan was confirmed
+
+on July 7, 2021.
+10.
+
+Griddy's current authorized representative is Russell F. Nelms, sole member and plan
+administrator, 115 Kay Lane, West Worth Village, Texas 76114.
+
+Petition
+
+11.
+
+On March 2,2021, Commission Staff filed its petition to revoke Griddy's REP certificate.
+
+12.
+
+Commission Staff alleged that Griddy engaged in significant violations of PURA,4
+Commission rules, and ERCOT Nodal Protocols and that Griddy no longer had the
+
+financial and technical capability to provide continuous and reliable electric service to
+customers.
+Notice
+
+13.
+
+On March 2,2021,Commission Staffmailednotice ofthe petition by certified mail, return
+
+receipt requested, to the former authorized representatives of Griddy listed in the
+
+' Apphcation of Griddy Energy LLC to Amend Its Retail Electric Provider Certificate, Docket No . 51622 ,
+Notice of Approval (Feb. 26, 2021).
+
++ Public Utility Regulatory Act, Tex. Util. Code §§ 1 I.001-66.016 (PURA)
+
+PUC Docket No. 51859
+SOAH Docket No. 473-21-2995
+
+Order
+
+Page 3 o f 10
+
+Commission's records, Samantha Marin, director of operations, and Marilee Stewart,
+senior vice president.
+14.
+
+In State Office of Administrative Hearings (SOAH) Order No. 1 filed on August 3. 2021,
+the SOAH administrative law judge (ALJ) established an August 6,2021 deadline for any
+
+objection to the sufficiency or adequacy of notice provided.
+15.
+
+No objections to the sufficiency or adequacy of notice were filed in this proceeding.
+
+16.
+
+In SOAH Order No. 2 filed on August 18, 2021, the SOAH ALJ found notice sufficient.
+
+Intervenors
+17.
+
+In Order No. 1 filed on March 24,2021, the Commission ALJ granted a motion to intervene
+
+filed by OPUC.
+
+18.
+
+In Order No. 2 filed on April 9, 2021, the Commission ALJ granted motions to intervene
+filed by AEP Texas, CenterPoint Energy, ERCOT, and TNMP.
+
+Referral to SOAH
+
+19.
+
+On July 28, 2021, the Commission referred this matter to SOAH for a hearing on the merits.
+
+20.
+
+On July 30, 2021, the Commission filed a preliminary order detailing the issues to be
+addressed in the hearing on the merits.
+
+Proceedinfz Before SOAH
+
+21.
+
+In SOAH Order No. 2 filed on August 18, 2021, the SOAH ALJ abated the proceeding at
+
+the request of Commission Staff, Griddy, ERCOT, and OPUC because of negotiations
+regarding an agreement between the parties. AEP Texas, CenterPoint Energy, and TNMP
+
+did not oppose abatement.
+22.
+
+The SOAH ALJ required Commission Staff to file status reports regarding the progress of
+
+negotiations every 30 days beginning on September 24,2021.
+
+23.
+
+Commission Staff filed monthly status reports beginning on September 24, 2021 and
+continuing approximately every 30 days through March 25,2022.
+
+24.
+
+On April 25,2022, Commission Staff filed an agreement, including attachments, between
+
+Commission Staff, Griddy, ERCOT, and OPUC. The agreement includes certain stipulated
+
+PUC Docket No. 51859
+
+Order
+
+Page 4 of 10
+
+SOAH Docket No. 473-21-2995
+
+facts to which all the signatories agreed, certain facts to which only Commission Staff and
+Griddy agreed, and certain facts asserted by Commission Staff on which the other
+
+signatories took no position.
+25.
+
+In SOAI-1 Order No. 3 filed on April 29,2022, the SOAH ALJ remanded the proceeding
+back to the Commission.
+
+Evidence
+
+26.
+
+In SOA11 Order No. 3 filed on April 295 2022, the Commission ALJ admitted the following
+
+evidence into the evidentiary record: (a) Commission Staffs petition to revoke Griddy's
+REP certificate filed on March 2, 2021; and (b) the agreement, proposed order5 and all
+attachments, filed on April 25,2022.
+
+Financial Obligation to ERCOT
+
+27.
+
+Vrom February 16,2021 through February 24,2021, ERCOT issued a series of collateral
+
+calls and settlement invoices requiring Griddy to provide collateral in a cumulative amount
+
+of approximately $3.2 million and pay settlement invoices in a cumulative amount of
+approximately $30.6 million.
+28.
+
+On February 22,2021, ERCOT sent Griddy a notice ofmaterial breach of its standard form
+
+market participant agreement for failure to timely provide collateral and pay settlement
+invoices. The notice required Griddy to cure the payment breach by February 23,2021.
+29.
+
+On February 22,2021, in response to ERCOT's notice ofmaterial breach, Griddy provided
+
+ERCOT with sufficient funds to cover settlement invoices due on or before
+February 22,2021. Griddy did not provide ERCOT with the required collateral to cure the
+payment breach.
+
+30.
+
+Griddy did not remit additional payments due from February 23, 2021 through
+February 25,2021.
+
+31.
+
+On February 26,2021, ERCOT terminated Griddy's standard form market participant
+
+agreement, revoked Griddy's rights as a market participant, and initiated a mass transition
+oiGriddy's customers due to Griddy's payment breach.
+
+PUC Docket No. 51859
+SOAH Docket No. 473-21-2995
+
+32.
+
+Page 5 of 10
+
+Order
+
+On March 15,2021, Griddy filed for bankruptcy in the United States Bankruptcy Court for
+the Southern District of Texas.5
+
+33.
+
+On August 26, 2021, ERCOT filed an amended proof of claim in the bankruptcy court
+
+alleging that the balance owed by Griddy to ERCOT pursuant to its obligations under the
+
+ERCOT Nodal Protocols is $29,913,799.84.
+Mass Transition to Providers of Last Resort
+
+34.
+
+Between February 26, 2021 and March 2,2021, following ERGOI's revocation of
+
+Griddy's market participant rights, ERCOT executed a mass transition of Griddy's
+customers to providers of last resort. In total, ERCOT transitioned 9,926 Griddy customers
+to providers of last resort.
+
+Financial Obliwations to Customers
+
+35.
+
+On January 10,2017 in Docket No. 46342, when approving Griddy's application for a REP
+
+certificate, the Commission authorized Griddy to collect customer deposits and advance
+payments after providing the Commission with an irrevocable stand-by letter of credit with
+
+a face value of $10,000.6
+
+36.
+
+On January 23,2020 in Docket No. 50252, the Commission approved Griddy's application
+to amend its REP certificate number and authorized Griddy to change its method of
+
+maintaining customer deposits and advanced payments to keep customer deposits and
+advance payments in a segregated cash account.7
+
+In its application requesting the
+
+amendment, Griddy stated that both the segregated cash account and existing $10 000 letter
+of credit would be used to protect customer funds.8
+37.
+
+During its operation as a REP, Griddy did not collect customer deposits. Instead. Gi-iddy
+
+offered pay-as-you-go billing, which required customers to maintain advance payment
+balances that Griddy debited on a daily basis in amounts based on their electricity
+
+consumption.
+5 In re Griddy Energy LLC , No . 21 - 30923 ( MI ) ( Bankr . S . D . Tex . Mar . 15 , 2021 )
+~' Docket No. 46342, Notice of Approval (Jan. 10,2017)
+
+7 Docket No. 50252, Notice of Approval (Jan. 23,2020).
+8 Docket No. 50252, Application at 2 (Nov. 19,20]9)
+
+PUC Docket No. 51859
+SOAH Docket No. 473-21-2995
+
+38.
+
+Order
+
+Page 6 of 10
+
+Griddy refunded all remaining advance payment balances to customers before
+March 15, 2021, such that Griddy no longer holds any funds belonging to its former
+customers.
+
+Financial Obligations to Transmission and Distribution Utilities
+39.
+
+Transmission and distribution utilities AEP Texas, CenterPoint, and TNMP (the TDUs)
+
+filed proofs of claim and other documentation in the bankruptcy court alleging that Griddy
+
+failed to timely remit payment for invoiced charges in the following amounts pursuant to
+the terms of each TDU's respective tariff:
+Tl)U
+
+Total outstanding charges
+
+AEP Texas
+
+$110,736.94
+
+CenterPoint
+
+$1,184,792.71
+
+TNMP
+
+$150.692.72
+
+Administrative Penalties
+
+40.
+
+Commission Staff agreed not to seek administrative penalties against Griddy for the
+violations addressed in this Order.
+
+41.
+
+To the extent that Commission Staff has any open investigations into Griddy regarding
+
+matters not described in this Order, Commission Staff agreed to close the investigations
+without further action.
+Letters of Credit
+
+42.
+
+On December 28, 2020, the Bank of New York Mellon filed in Project No. 37919' an
+
+irrevocable stand-by letter of credit issued for Griddy in the amount of $500,000 for the
+purpose of Griddy maintaining REP certification.
+
+43.
+
+On December 28, 2020, the Bank of New York Mellon filed in Project No. 37919 an
+
+irrevocable stand-by letter of credit issued for Griddy in the amount of $10,000 for the
+
+protection of customer deposits and advance payments.
+
+' Letter of Credit and Letter of Credit Amendment Filings Pursuant to PUC Substantive Rule § 25.107,
+Project No. 37919 (pending)
+
+Order
+
+PUC Docket No. 51859
+SOAH Docket No. 473-21-2995
+
+44.
+
+Page 7 ofl0
+
+On March 5, 2021, following ERCOT's initiation of a mass transition of Griddy's
+customers to providers of last resort, the Commission drew on Griddy's $500 000 and
+
+$10,000 irrevocable stand-by letters of credit.
+45.
+
+As of March 24, 2022, all funds from Griddy's $500,000 letter of credit have been
+
+disbursed in order of priority.
+
+46.
+
+Because all obligations related to customer deposits or advance payments received by
+
+Griddy were satisfied through the refunds issued from Griddy's segregated cash account.
+
+all funds from Griddy's $10,000 letter of credit were returned to Griddy on
+March 31,2022.
+II.
+
+Conclusions of Law
+
+The Commission makes the following conclusions of law.
+
+1.
+
+The Commission has jurisdiction over this matter under PURA §§ 14.051.39.1510).
+
+and 39.356(a).
+2.
+
+Before this Order , Griddy was a retail electric provider in ERCOT as the term retail electric
+provider is defined in 16 Texas Administrative Code (TAC) § 25.5(114).
+
+3.
+
+Commission Staff provided notice of the petition in accordance with the requirements of
+Texas Government Code § 2001.054(c)(1) and 16 TAC §§ 22.54(a) and 22.55.
+
+4.
+
+Under PURA § 39.356(a) and 16 TAC § 25.1070), the Commission is authorized to
+suspend, revoke, or amend a REP certificate for significant violations of PURA.
+
+Commission rules, or ERCOT Nodal Protocols.
+
+5.
+
+Under PURA §39.151(i),Griddyis required to observe all scheduling. operating, planning,
+
+reliability, and settlement policies, rules, guidelines. and procedures established by the
+independent system operator in ERCOT.
+
+6.
+
+Under 16 TAC § 25.1070)(5), Griddy is required to maintain continuous and reliable
+electric service to customers.
+
+7.
+
+Under 16 TAC § 25.1070)(7), Griddy is required to satisfy its financial obligations on a
+reasonable and timely basis.
+
+PIJC Docket No. 51859
+
+Order
+
+Page 8 of 10
+
+SOAH Docket No. 473-21-2995
+
+8.
+
+Under 16 TAC § 25.1070)(8), Griddy is required to timely remit payment for invoiced
+charges to ERCOT.
+
+9.
+
+Under 16 TAC § 25.107(j)(9), Griddy is required to observe any applicable scheduling,
+
+operating, planning, reliability, and settlement policies, protocols, guidelines, procedures,
+and other rules established by ERCOT.
+
+10.
+
+Under 16 TAC § 25.107(j)(16), Griddy is required to timely remit payments for invoiced
+
+charges to transmission and distribution utilities in accordance with the terms of their
+
+respective Commission-approved tariffs.
+11.
+
+Under ERCOT Nodal Protocols § 9.7.1, Griddy is required to satisfy each settlement
+invoice issued by ERCOT within two bank business days of the date the settlement invoice
+is issued.
+
+12.
+
+Under ERCOT Nodal Protocols § 16.11.5(6), Griddy is required to satisfy each collateral
+call issued by ERCOT within two bank business days ofthe date the collateral call is issued.
+
+13.
+
+Griddy violated PURA §39.151(j) by not observing ERCOT's policies, rules, guidelines,
+
+and procedures related to collateral calls and the payment of settlement invoices.
+14.
+
+Griddy committed a significant violation of PURA, Commission rules, or ERCOT Nodal
+Protocols under 16 TAC § 25.107(j)(5) when it failed to maintain continuous and reliable
+electric service to its customers.
+
+15.
+
+Griddy committed a significant violation of PURA, Commission rules, or ERCOT Nodal
+Protocols under 16 TAC § 25.107(j)(7) by failing to satisfy its financial obligations on a
+
+reasonable and timely basis.
+16.
+
+Griddy committed a significant violation of PURA, Commission rules, or ERCOT Nodal
+Protocols under 16 TAC § 25.107(j)(8) by failing to timely remit payment for invoiced
+charges to ERGOT.
+
+17.
+
+Griddy committed a significant violation of PURA, Commission rules, or ERCOT Nodal
+Protocols under 16 TAC § 25.1070)(9) by failing to observe policies, protocols, guidelines,
+
+procedures, and other rules established by ERCOT.
+
+Order
+
+PUC Docket No. 51859
+SOAH Docket No. 473-21-2995
+
+18.
+
+Page 9 of 10
+
+Griddy committed a significant violation of PURA, Commission rules, or ERCOT Nodal
+Protocols under 16 TAC § 25.107(j)(16) by failing to timely remit payment for invoiced
+
+charges to transmission and distribution utilities.
+19.
+
+Griddy violated ERCOT Nodal Protocols § 9.7.1 by not timely paying each settlement
+invoice issued by ERCOT.
+
+20.
+
+Griddy violated ERCOT Nodal Protocols § 16.11.5(6) by not timely satisfying each
+collateral call by ERCOT.
+
+21.
+
+Under 16 TAC § 25.107(f)(1)(B), Griddy is required to provide and maintain an irrevocable
+
+stand-by letter of credit payable to the Commission with a face value of $500,000 for the
+purpose of maintaining certification as a REP.
+
+22.
+
+Under 16 TAC § 25.107(f)(2)(B), Griddy is required to provide and maintain an irrevocable
+stand-by letter of credit payable to the Commission in an amount sufficient to cover 100%
+of the REP's outstanding customer deposits and residential advance payments held at the
+close of each month for the purpose of maintaining certification as a REP.
+
+23.
+
+Under 16 TAC § 25.107(f)(4)(F)(i), the Commission's executive director or the executive
+director's designee may draw on a REP's irrevocable stand-by letter of credit if ERCOT
+performs a mass transition of the REP's customers.
+
+24.
+
+Under 16 TAC § 25.107(f)(6)(A), the proceeds from Griddy's irrevocable stand-by letter
+
+of credit may be used to satisfy certain obligations, in the order of priority established in
+
+the rule.
+25.
+
+All funds from Griddy's irrevocable stand-by letter of credit provided under 16 TAC
+§ 25.107(f)(1)(B) have been disbursed in accordance with the order of priority established
+
+in 16 TAC § 25.107(f)(6)(A).
+
+III. Ordering Paragraphs
+
+In accordance with these findings of fact and conclusions of law, the Commission issues
+
+the following orders:
+1.
+
+The Commission revokes Griddy's REP certificate number 10243.
+
+PUC Docket No. 51859
+SOAH Docket No. 473-21-2995
+
+2.
+
+Order
+
+Page 10 of 10
+
+This Order addresses only the revocation of Griddy's REP certificate and does not
+
+prejudice the rights and obligations of the parties in the bankruptcy court or proceedings in
+
+other forums.
+3.
+
+The Commission denies all other motions and any other requests for general or specific
+
+relief that have not been expressly granted.
+
+Signed at Austin, Texas the
+
+¢£ day of Ctl~ U/k'
+
+2022.
+
+PUBLIC UTILITY COMMISSION OF TEXAS
+
+PETER M. LAKE, CHAIRMAN
+
+»JAJ+stAL_
+WILL MCADAMS, COMMISSIONER
+
+I
+W2013
+q:\cadm\orders\final\51000\51859 fo.docx
+
+SIONER
+
+

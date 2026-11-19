@@ -1,0 +1,131 @@
+Control Number: 51812
+
+Item Number: 164
+
+Addendum StartPage: 0
+
+L
+
+2021 MAR 12 U E:
+ISSUES RELATED TO THE STATE OF
+DISASTER FOR THE FEBRUARY 2021
+WINTER WEATHER EVENT
+
+§
+§
+§
+
+PUBLIC UTILITY COMMISSION
+OF TEXAS
+
+SECOND ORDER ADDRESSING ANCILLARY SERVICES
+
+On February 12, 2021, in response to an extreme winter weather event, Governor Greg
+Abbott issued a Declaration of a State of Disaster for all counties in Texas. Further, on February
+
+15, 2021, the Electric Reliability Council of Texas, Inc. (ERCOT) declared its highest state of
+emergency, an Energy Emergency Alert Level 3 (EEA3), due to exceptionally high electric
+demand exceeding limited supply. ERCOT remained in EEA3 through 9AM on February 19,
+
+2021. During this period, ERCOT directed transmission operators in the ERCOT region to curtail
+more than 20,000 megawatts (MW) of firm load. These circumstances have affected and continue
+
+to affect various market activities.
+During this period, the Commission's Independent Market Monitor (IMM),1 Potomac
+
+Economics, closely monitored real-time market performance.
+
+After analyzing aspects of the
+
+market, the IMM submitted two recommendations to the Commission related to ancillary
+
+services . 2 The IMM ' s second recommendation was that the Commission order that the failure to
+
+provide settlement treatment be invoked for all ancillary services that were not provided in real
+time for ERCOT operating days February 14 through February 19, 2021.3
+The IMM explained there were a number of instances during the cited operating days that
+an ancillary service was not provided because of forced outages or derates. The IMM noted the
+
+ERCOT operators typically mark the short ancillary service amounts and the ancillary-service
+payments are clawed back in settlement. However, during this winter event, the ERCOT operators
+
+1 See PURA § 39.1515.
+2 Letter from Carrie Bivens, Vice-President and ERCOT IMM Director of Potomac Economics to the
+Commissioners of the Public Utility Commission of Texas, March 1,2021, filed in Project 51812 on March 1,2021.
+IMM Letter.
+
+3 IMM Letter at 2,
+
+(.)
+
+ROJECT NO. 51812
+
+f
+
+PUC Docket No. 51812
+
+Second Order Addressing Ancillary Services
+
+Page 2 of 3
+
+did not complete this marking task and the settlement process did not claw back ancillary-service
+
+payments for entities that did not meet an ancillary-service obligation.4
+The IMM noted that nodal protocol revision request (NPRR) number 947 was intended to
+address this issue but was withdrawn. However, the Commission notes that, in the withdrawal
+
+request, it was stated that NPRR 947 "improves the process for identifying and charging QSEs for
+
+failed ancillary - service - supply- responsibility quantities , processes currently exist to attain that
+and can remain in place until implementation of real-time co-optimization."5
+The IMM also stated in this second recommendation that section 6.4.9.1.3 of the ERCOT
+
+Nodal Protocols should be amended to better address this issue. This Commission does not act in
+
+this Order on that portion of the second recommendation.
+The Commission issued an order on March 3, 2021 adopting the recommendation of the
+IMM. On March 5, the IMM filed a request for clarification of the Commission's order to make
+
+clear that the Commission was ordering the invocation of thefailure -to-provide mechanism in the
+ERCOT Nodal Protocols.6
+In accordance with the recommendation and requested clarification of the IMM, the
+
+Commission issues the following orders.
+
+l.
+
+ERCOT must settle each qualified scheduling entity that failed on its ancillary service
+supply responsibility in accordance with ERCOT Nodal Protocol section 6.4.9.1.3, entitled
+
+Replacement of Ancillary Service Due to Failure to Provide , for a particular ancillary
+service for any hour of ERCOT's operating days February 14,2021 through February 19,
+
+2021.
+2.
+
+This Order supersedes and replaces the order addressing ancillary services dated March 3,
+
+2021.
+
+4 IMM Letter at 2.
+5 NPRR947, Request for Withdrawal (Aug. 5,2020) last accessed on March 3,2021 from the ERCOT
+website at http://www.ercot.com/mktrules/issues/NPRR947#keydocs.
+
+6 IMM's Request for Clarification (Mar. 5, 2021).
+
+PUC Docket No. 51812
+
+Second Order Addressing Ancillary Services
+
+Page 3 of 3
+
+Signed at Austin, Texas the 12th day of March 2021.
+
+PUBLIC UTILITY COMMISSION OF TEXAS
+
+k*THUR C. D'ANDREA, CHAIRMAN
+
+2013
+q:\cadm\orders\misc.orders\5xxxx\51812 second order addressing anciliary service.docx
+
+

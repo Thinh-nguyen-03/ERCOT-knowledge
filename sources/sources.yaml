@@ -969,3 +969,155 @@ sources:
     tier: 1
     kind: html
     url: "https://tcss.legis.texas.gov/resources/UT/htm/UT.41.htm"
+  - id: ercot-nprr1282-puct-report
+    title: "NPRR1282 PUCT Report (ancillary service duration under Real-Time Co-optimization)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "PUCT approved 2025-07-31"
+    url: "https://www.ercot.com/files/docs/2025/08/04/1282NPRR-20-PUCT-Report-073125.docx"
+  - id: ercot-nogrr277-puct-report
+    title: "NOGRR277 PUCT Report (companion to NPRR1282)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "2025-07-31"
+    url: "https://www.ercot.com/files/docs/2025/08/04/277NOGRR-08-PUCT-Report-073125.docx"
+  - id: ercot-nprr1309-tac-report
+    title: "NPRR1309 TAC Report (Dispatchable Reliability Reserve Service)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "2026-04-29"
+    url: "https://www.ercot.com/files/docs/2026/05/04/1309NPRR-32-TAC-Report-042926.docx"
+  - id: ercot-nprr1290-prs-report
+    title: "NPRR1290 PRS Report"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "2025-08-13"
+    url: "https://www.ercot.com/files/docs/2025/08/18/1290NPRR-13-PRS-Report-081325.docx"
+  - id: np-02-2024-11
+    title: "ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (historical edition, before Real-Time Co-optimization)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2024-11-01, superseded"
+    url: "https://www.ercot.com/files/docs/2024/06/28/02-110124_Nodal.docx"
+  - id: np-04-2025-02
+    title: "ERCOT Nodal Protocols, Section 4: Day-Ahead Operations (historical edition, before Real-Time Co-optimization go-live)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2025-02-01, superseded"
+    url: "https://www.ercot.com/files/docs/2024/06/28/04-020125_Nodal.docx"
+  - id: puct-51812-lcap-order
+    title: "PUCT Project 51812, Order Reinstating Low System-Wide Offer Cap"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    edition: "2021-03-03"
+    url: "https://interchange.puc.texas.gov/Documents/51812_57_1113894.PDF"
+  - id: puct-51812-as-order-2
+    title: "PUCT Project 51812, Second Order Addressing Ancillary Services"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    edition: "2021-03-12"
+    url: "https://interchange.puc.texas.gov/Documents/51812_164_1116026.PDF"
+  - id: luminant-coa-opinion
+    title: "Luminant Energy Co. v. Public Utility Commission of Texas, No. 03-21-00098-CV, opinion"
+    publisher: "Texas Third Court of Appeals"
+    tier: 1
+    kind: pdf
+    edition: "2023-03-17"
+    url: "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=a8950090-ca2c-4a35-b9ed-fd09ac50d34b&coa=coa03&DT=Opinion&MediaID=9488ad26-c8c4-4ba3-87a6-39cfa227c09c"
+  - id: luminant-txsc-opinion
+    title: "Public Utility Commission of Texas v. Luminant Energy Co., No. 23-0231, opinion"
+    publisher: "Supreme Court of Texas"
+    tier: 1
+    kind: pdf
+    edition: "2024-06-14"
+    url: "https://www.txcourts.gov/media/1458729/230231.pdf"
+  - id: puct-minutes-2024-12-19
+    title: "PUCT open meeting minutes, December 19, 2024"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    edition: "2024-12-19"
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/calendar/minutes/12-19-24.pdf"
+  - id: ercot-batch-zero-update-2026-09
+    title: "Batch Zero Update to the Board (item 14)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "September 2026"
+    url: "https://www.ercot.com/files/docs/2026/09/11/14-Batch-Zero-Update.pdf"
+  - id: ercot-batch-zero-audit-2026-11
+    title: "ERCOT Update: Batch Zero Verification and Audit Process (PUCT Project 59142, item 78)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-11-04"
+    url: "https://interchange.puc.texas.gov/Documents/59142_78_1699635.PDF"
+  - id: sb2268-89r
+    title: "SB 2268 (89th Legislature, 2025), enrolled: Texas Energy Fund loans and grants"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    edition: "2025"
+    url: "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB02268F.htm"
+  - id: sb6-89r-history
+    title: "SB 6 (89th Legislature) bill history"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    url: "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB6"
+  - id: ercot-nodal-go-live-plan
+    title: "Nodal Program Update to the Board (item 5e): go-live timeline"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2010-10-12, pre-launch plan"
+    url: "https://www.ercot.com/files/docs/2010/10/12/item_05e___nodal_program_update.pdf"
+  - id: ercot-hubs-load-zones-page
+    title: "ERCOT Hubs and Load Zones display (settlement point names)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: html
+    url: "https://www.ercot.com/content/cdr/html/hb_lz.html"
+  - id: ercot-griddy-notice
+    title: "ERCOT Market Notice M-G022621-01: Mass Transition of Griddy Energy LLC"
+    publisher: "ERCOT"
+    tier: 2
+    kind: html
+    edition: "2021-02-26"
+    url: "https://www.ercot.com/services/comm/mkt_notices/archives/5258"
+  - id: puct-51859-griddy-order
+    title: "PUCT Docket 51859, Order revoking Griddy Energy's REP certificate"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    edition: "2022"
+    url: "https://interchange.puc.texas.gov/Documents/51859_40_1227800.PDF"
+  - id: ercot-ltlf-good-cause-2026-11
+    title: "ERCOT motion for good cause exception on the 2027 forecast (PUCT Project 58777, item 42)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-11-06"
+    url: "https://interchange.puc.texas.gov/Documents/58777_42_1700401.PDF"
+  - id: imm-quarterly-fy2026-q3
+    title: "IMM Quarterly Report, FY2025-26 Q3"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: pdf
+    edition: "July 2026"
+    url: "https://www.potomaceconomics.com/wp-content/uploads/2026/07/FY2025-26-Q3-IMM_Quarterly_Market_Report.pdf"
+  - id: imm-monthly-2026-09
+    title: "IMM Nodal Monthly Report, September 2026"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: pdf
+    edition: "2026-10-19"
+    url: "https://www.potomaceconomics.com/wp-content/uploads/2026/10/2026-09_Nodal_Monthly_Report.pdf"

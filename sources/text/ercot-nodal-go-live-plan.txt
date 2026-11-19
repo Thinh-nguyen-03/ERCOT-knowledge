@@ -1,0 +1,4612 @@
+Nodal Program Update
+
+Mike Cleary
+Chief Operating Officer
+ERCOT Board of Directors
+19 October 2010
+
+Today’s Agenda
+
+• Program
+P
+St t
+Status
+• Market Trials Overview
+• Full Nodal Operations Go-Live
+• Financials
+Fi
+i l
+• Appendix
+
+19 October 2010
+
+2
+
+ERCOT Board of Directors
+
+Integrated Nodal Timeline – Go-Live December 1, 2010
+
+19 October 2010
+
+3
+
+ERCOT Board of Directors
+
+42 Days to Go-Live
+U
+Upcoming
+i Milestones:
+Mil t
+•
+
+Market Trials & Load Frequency Control(LFC)Tests:
+•
+
+October 18, 2010 – October 30, 2010: ERCOT will be performing the following Market Facing Tests:
+•
+•
+•
+
+•
+
+October 27, 2010 – October 28, 2010 - 24Hr LFC Test is scheduled
+
+•
+
+November 13, 2010 – November 15, 2010 Go-Live December Monthly CRR Auction
+
+•
+
+November 15, 2010 – November 29, 2010
+•
+•
+
+•
+
+•
+
+•
+
+Day Ahead Market runs
+DRUC and
+d HRUC runs
+SCED will publish LMPs and base points every five minutes during this period
+
+Non-Binding: Day Ahead Market, HRUC and DRUC per protocol timelines
+SCED will continue to publish base points and LMPs
+
+November 28, 2010 – November 30, 2010 LFC Test
+•
+Generation and Frequency Control cutover to Nodal systems
+
+System Cut-Over / Go-Live:
+•
+
+November 30th – Execute DAM for December 1 (the first Operating Day to be binding with Nodal settlement)
+
+•
+
+December 1st – First Operating Day
+
+Planning has begun for nodal stabilization, parking deck prioritization, deferred defects, and release
+management scheduling for post Go-Live
+
+19 October 2010
+
+4
+
+ERCOT Board of Directors
+
+Preliminary Nodal Stabilization Timeline
+
+• ERCOT is in the early stages of finalizing the 2010/2011 nodal stabilization and post
+G Li supportt titime-line
+Go-Live
+li
+19 October 2010
+
+5
+
+ERCOT Board of Directors
+
+Market Trials Overview
+Kenneth Ragsdale
+g
+Principal Market Operations
+
+Market Trials Overview
+Market
+a et Trials
+a s has
+as bee
+been running
+u
+g for
+o 3
+37 weeks
+ee s
+Achievements:
+•
+•
+
+100% of the QSEs with Resources submitted Three Part Offers (TPO) and Current Operating Plans
+(COPS)
+6 Months of SCED execution and LMP generation
+g
+•
+•
+
+•
+
+DAM / RUC / WRUC
+•
+•
+•
+
+•
+
+Approximately 200 hours of Load Frequency Testing
+CPS1 score averaged 142 over the last 4 LFC tests
+110 DAM runs
+The Last 4 LFC tests had an average State Estimator Convergence score of 99% (97% = is standard)
+100% of all QSEs with resources and 96% of all QSEs without resources participated in the voluntary DAM market
+–
+7 of the 186 QSEs without resources opted against participating in the DAM market
+
+ERCOT Sponsored Training
+•
+•
+
+•
+
+•
+
+120,000 man-hours of training on nodal market rules have been completed
+Approximately 6,500 individuals attended one or more training classes hosted by ERCOT over the past 4 years
+–
+4,500 individuals affiliated with a registered Market Participant attended one or more training sessions
+–
+Approximately 900 ERCOT/TRE employees and 200 contractors attended one or more nodal market
+training course
+–
+Another 900 individuals not affiliated with MPs attended training
+300 registered Market Participants attended one or more training sessions
+–
+115 Qualified Scheduling Entities (QSEs)
+–
+83 Resource Entities
+–
+87 Load Serving Entities (LSEs)
+»
+75 REPs and 12 NOIEs
+–
+35 Transmission and Distribution Service Providers (TDSPs)
+Over 20,000 hours of total ERCOT personnel training were completed over the past 4 years
+19 October 2010
+
+7
+
+ERCOT Board of Directors
+
+Cut-Over Monthly Outlook – October
+M
+May
+
+JJune
+
+JJuly
+l
+
+Functional Area
+Network Model
+Outage Scheduler
+Congestion Revenue Rights
+Credit
+MIS
+
+MP Activities / Impacts
+
+A
+Aug
+
+•Dec 2010 CRR Model available on MIS
+•Dec 2010 Monthly Auction Notice available on
+
+O
+Octt
+
+N
+Nov
+
+D
+Dec
+
+Key Cut-Over Activities for October 2010
+•
+
+(10/14-10/19)
+(10/14
+10/19) CRR: ERCOT begins accepting PCRR
+Nominations for December Monthly Auction (updated)
+
+•
+
+(10/15-11/15) Model: Network Operations Model posted to TSP
+Citrix location and TSPs begin validation process
+
+•
+
+(10/26) CRR: ERCOT shall allocate PCRRs to NOIEs for the
+2010 December Monthly Auction and publish to MIS
+
+•
+
+(10/26) CRR: ERCOT shall post CRR Network Model for the
+2010 December Monthly Auction to MIS
+
+•
+
+(10/28-11/08) Credit: ERCOT posts ACLs daily for CRR
+December monthly auction to CRR
+
+•
+
+(10/29) CRR: ERCOT to post December 2010 Monthly Auction
+Notice to MIS
+
+•CRRAH able to retrieve ACLs from CRR
+system each business day.
+•MPs can post additional collateral until
+11/08/2010 for Dec 2010 CRR Auction
+
+S
+Septt
+
+MIS
+
+19 October 2010
+
+8
+
+ERCOT Board of Directors
+
+Cut-Over Monthly Outlook – November
+M
+May
+
+JJune
+
+JJuly
+l
+
+Functional Area
+Settlements
+C dit
+Credit
+Congestion Revenue Rights
+Disputes
+Market Management
+
+A
+Aug
+
+S
+Septt
+
+O
+Octt
+
+N
+Nov
+
+D
+Dec
+
+Key Cut-Over Activities for November 2010
+•(11/8/2010 12:00pm) Credit: Collateral Posting Deadline (Dec Auction)
+• (11/8/2010 5:00pm) CRR: Credit Lock for Dec CRR Auction
+•(11/9/2010 – 11/11/2010) CRR: December CRR Auction Bid
+Open/Close
+• (11/12/2010) CRR: December CRR Auction Executes
+
+MP Activities / Impacts
+•Available Credit Limit is locked for
+CRRAHs
+•CRRAHs can submit disputes against
+CRR Auction Invoice via the API or
+MIS
+•CRRAHs can receive postings on
+MIS
+•QSEs can begin DAM Bid
+s bmission (15 ssubmission
+submission
+bmission items)
+•Market checkpoint calls begin to
+facilitate issues and readiness
+•Daily Market Conference Bridge
+starts 11/23
+
+19 October 2010
+
+• (11/15/2010) CRR: December CRR Auction Results published
+•(11/16/2010) Settlements: December CRR Auction Invoice published
+•(11/16/2010) Disputes: Dispute submitted to ERCOT for CRR Invoice
+•(11/19/2010) Credit: Payment Due for December CRR Auction
+Invoices
+• (11/22/2010) Settlements: Payments to CRRAH (Dec Auction)
+•(11/23/2010) Credit: ERCOT to Release ACL (TPE and ACL Reports
+Available on MIS)
+•(11/23/2010) Market Submission Opens (Remaining Protocol GoLive)
+•(11/24/2010) Model: Network Model Load
+•(11/29/2010)
+(11/29/2010) Credit: ERCOT to Publish ACL for the initial Day-Ahead
+Day Ahead
+Market execution by ERCOT
+9
+
+ERCOT Board of Directors
+
+Cut-Over Monthly Outlook – December
+M
+May
+
+JJune
+
+JJuly
+l
+
+Functional Area
+Network Model
+S ttl
+Settlements
+t
+Congestion Revenue Rights
+Credit
+Market Management System
+
+A
+Aug
+
+S
+Septt
+
+O
+Octt
+
+N
+Nov
+
+D
+Dec
+
+Key Cut-Over Activities for December 2010
+(12/01/10) Nodal Program: Nodal Go-Live
+Go Live (Operating Day 1)
+•(12/01/10)
+•(12/3/2010) Settlements: Nodal Day Ahead Market Statement &
+Invoice Available
+•(12/3/2010)
+(
+) Disputes:
+p
+Disputes
+p
+submitted to ERCOT for DAM
+Invoice
+
+MP Activities / Impacts
+•Daily Market Calls continue for issue
+facilitation
+•Settlement Calendar Extracts (See
+Emil for full list of postings)
+•MPs receive 1st Nodal Invoice for
+DAM and RTM via MIS
+•MPs can submit Disputes via MIS or
+API
+
+•(12/8/2010) Credit: Nodal Payment Due for OD12/01/2010
+•(12/9/2010) Credit: Nodal Payout for OD12/01/2010
+•(12/15/2010) Model: Network Model Load
+•(12/13/2010) Settlements: Nodal Real-Time Statement Available
+•(12/16/2010) Settlements: Nodal Real
+Real-Time
+Time Invoice Available
+•(12/27/2010) Credit: Nodal Payment Due for Real-Time Invoice
+12/16/10
+•(12/28/2010)
+(12/28/2010) Credit: Nodal Payout for Real
+Real-Time
+Time Invoice
+12/16/10
+
+19 October 2010
+
+10
+
+ERCOT Board of Directors
+
+Day Ahead Market
+Issues
+
+System and Data Improvements
+
+Activities for Go-Live
+
+• Load Distribution Factors
+(LDFs) produced by the
+automated process delivered
+unacceptable results during
+market trials.
+
+• Before the 168 hr test implemented methodology to use static LDF
+values
+• During 168 hr test began using updated software that made a
+change so that DAM would not constrain elements serving radial load
+pockets.
+• LDF methodology
+gy p
+presented to NATF on 9/22 and 9/30
+
+• LDF methodology approved by TAC in October
+• Generating LDFs for December
+• Continue to evaluate LDFs
+
+• Phase Shifter Transformers
+(PSTs) settings causing
+overloads in the DAM
+
+• During 168 hr test started to identify elements to not secure and
+‘monitor only’ due to the PSTs. Currently about 22 elements have
+been identified as monitor only.
+
+• ERCOT is developing procedures to analyze
+PSTs to determine the best setting to use for
+minimizing overloads. ‘Monitor Only’ elements list
+will continue to be managed.
+
+• Consideration of System
+Protection Schemes (SPSs) in
+DAM
+
+• Code migrated before 168 hr test to correct mishandling of some
+SPSs.
+
+• Modeling Corrections and Quality Assurance will
+continue
+
+• Questionable contingencies
+causing overloads in DAM
+
+• Automated contingency generation tool produced some invalid
+contingencies due to modeling issues.
+• Teams working to review the contingencies with auto transformers.
+• CIM Importer issue with series devices to be fixed in MMS5P10
+
+• NOMCRs submitted to be implemented in the
+10/15 database load
+
+• Not correctly modeling
+Generic Constraints and PCAPs
+not being considered in DAM
+
+• Process is in place to determine and send to DAM operator the
+generic constraints and PCAPS predicted to be used in RT.
+
+• Continue to refine the process.
+
+• Modeling Issues :
+
+• Work has been done to compare various sources of the data and to
+question differences with the TSPs.
+
+• Modeling Corrections and Quality Assurance will
+continue
+
+• Executed non-binding survey and performed some testing to better
+identify solutions
+
+• Exercise process to filter the full contingency
+list Accelerate upgrade of hardware project
+list.
+
+• Ratings
+• Impedances,
+• Default load values
+
+• DAM performance issues
+related to PTP Option offers
+
+19 October 2010
+
+11
+
+ERCOT Board of Directors
+
+RUC / HRUC
+Issues
+
+System and Data Improvements
+
+Activities for Go-Live
+
+• Noticeable improvement as we progressed through
+Market Trials. This issue will likely be less of an
+issue once Nodal settlements kicks in.
+• Operators are calling QSEs every day before
+DRUC run and if needed before HRUC run to correct
+COP issues.
+
+• Pick several days in the end of October in
+which it is requested that the QSEs should
+enter COPS that reflect how they plan to
+cover their obligations and operate their
+Resources.
+
+• Mis-interpretation by RUC of null Start-up and
+Minimum Energy Offers
+
+• Defect has been submitted on mishandling of null
+Start-up and null Minimum Energy offers. Fix
+deployed to NPROD
+
+• Run DRUC and RUC during the last few
+weeks in October including the LFC test
+
+• MMS doesn't optimize phase shifter tap position
+
+• RUC set to also “monitor only” those elements
+associated with the PSTs and also the RUC
+operators procedures instructs them to use updated
+PST settings
+• Procedures in place for Shift Engineers and
+p
+to update
+p
+the p
+phase Shifter tap
+pp
+position as
+operators
+system conditions changes
+
+• Run DRUC and RUC during the last few
+weeks in October including the LFC test
+
+• Slow execution times
+
+• COP data reflecting ERCOT to be short is primary • Will continue to monitor
+reason. Continue to evaluate parameter settings that
+can speed up process.
+• Procedures in place for Shift Engineers and
+p
+to p
+proactively
+y take manual action to resolve
+operators
+unsolvable constraints
+
+• RUC Operator Screens usability needs
+improvement
+
+• Work in progress and this is not critical for Go-Live. • Will continue to monitor
+
+• RUC Operators were unable to make manual
+changes
+
+• Resolved during 168hr test by software fix
+
+• Poor Quality COPs
+•COPS data different from Resource Plans
+
+19 October 2010
+
+12
+
+• Will continue to monitor
+
+ERCOT Board of Directors
+
+Real Time Market
+Issues
+
+System and Data Improvements
+
+Activities for Go-Live
+
+• Offers not covering entire HSL
+of Resource
+
+• Outreach has helped. NPRR 240 is at the BOD for approval.
+• Seen improvement of on average of 2000MWs during the LFC test
+• NPRR 240 approved 9/21
+
+• Will continue to provide insight and
+education to MPs
+
+• Poor Telemetry
+
+• Significant issue during 40 hr LFC test. Should be resolved by
+change implemented by MPs
+• NPRR on Resource Limit Calculator (RLC) calculation in draft should
+help mitigate issue.
+
+• Will continue to monitor.
+
+• Start-up and Shut down issues
+
+• Business Practices written to provide guidance. For go-live use
+"ONTEST"
+ONTEST as RST for both Start
+Start-ups
+ups and Shut-downs
+Shut downs. NPRR in
+progress to specify to use “ONTEST”.
+
+• NPRR scheduled to go to PRS to clarify the
+usage of on-test
+on test RESOURCESTATUS
+
+• Inaccurate Ratings
+
+• Early LFC tests revealed inaccurate rating in the model and in some
+cases being telemetered. ERCOT implemented review process for
+binding constraints showing up in Real time. (Review contingency and
+ratings)
+
+• Will continue to monitor and correct as
+required
+
+• Questionable Contingencies
+
+• Automated contingency generation tool produced some invalid
+contingencies due to modeling issues. NOMCRs were submitted to
+correct.
+• Teams working to review the contingencies with auto transformers.
+• Contacted TSPs requesting verification of transformer isolation.
+
+• Request to TSPs to review specific
+contingencies (including auto transformers)
+has been made.
+• NOMCRs submitted to be implemented in
+the 10/15 database load
+• Continue to review the contingencies.
+
+• Energy Offer Curve being
+rejected in Real Time. (This is a
+timing issue.)
+
+• Known defect being investigated
+• Fix in 10/1 NPROD migration
+
+• Verify fix in NPROD in October
+
+• Shift factor transfer issues
+
+• Resolved with code updates
+• No issues in the 168HR test
+• None observed during Sept 29-30 Nodal System test
+
+• Will continue to monitor
+
+19 October 2010
+
+13
+
+ERCOT Board of Directors
+
+Network Modeling Management System
+Issues
+
+System and Data Improvements
+
+Activities for Go-Live
+
+• Multiple System restarts
+• The restarts caused MP input to be lost
+resulting in significant delays for MP’s to input
+Model data.
+
+• Stability issue was improved with a
+system patch that was applied on July
+1st, 2010
+• The last restart occurred on 9/05/2010,
+but not related to the original issue
+
+• Continue to monitor restart activity to
+ensure system meets goal of 1 or fewer
+unscheduled restarts per week.
+Currently the system is meeting or
+exceeding the goal
+
+• Market Participants and ERCOT working through
+several items involving modeling:
+• Definition of interim updates
+• Mechanics of the Approval to Energize
+process for new equipment
+• Us
+Using
+g Outage scheduler
+sc edu e for
+o e
+energizing
+eg
+g new
+e
+equipment
+
+• ERCOT released the Modeling
+Expectations white paper and worked
+with the TSPs in several subcommittees
+to reach a market agreement
+• Approved by NATF
+
+• Continue to work with all Market
+Participants as it related to the Network
+Modeling and the TSP issues list in the
+various subcommittees
+
+• System navigation was slow
+• The response time for navigating through
+various layers of equipment increased.
+
+• Navigation performance issues
+improved Aug 1st (43% reduction in
+response time)
+
+• Continue to monitor system
+performance and assess MP helpdesk
+tickets to ensure performance continues
+to meet expectations.
+
+• Slow validation times for users
+• The validations which normally take 10-40
+minutes were taking 20-40%
+20 40% longer than
+expected
+
+• Validation performance improved
+August 27th (40% reduction in
+validation time)
+time).
+
+• Continue to monitor system
+performance and assess MP helpdesk
+tickets to ensure performance continues
+to meet expectations.
+
+19 October 2010
+
+14
+
+ERCOT Board of Directors
+
+Credit
+Issues
+
+System and Data Improvements
+
+Activities for Go-Live
+
+• In conjunction with the 168-hour test, ERCOT
+reset Market Trials data that was causing the core
+credit calculation to be high
+
+• Review 168-hour activity
+with CPs, individually and
+within MCWG and CWG, as
+needed.
+
+CMM (Core) Credit
+
+• Large exposure and credit calls in the market
+•Some Market Participants experienced swings in
+collateral calls within the market
+
+• Provided CPs that were behaving “normally”
+during the 168-hour test an opportunity to see
+what their credit calculation would be after “go
+live”
+DAM Credit Constraint
+
+• Available credit on non-business days
+•When DAM was run over the weekend in August, a
+significant amount of credit was consumed
+
+• ERCOT credit staff to update ACLs on nonbusiness days
+
+• ACLs will be updated on
+non-business days with a
+manual workaround until an
+after Go-Live automated
+solution is implemented
+• ERCOT staff is reviewing
+options to provide additional
+information
+
+• Concern by market with transparency into the step
+by step consumption of credit within DAM
+
+CRR Credit Constraint
+
+• Two parameters (the Multiplier (M) and Adder (A))
+used in the auction to collateralize initial mark to
+market are under review
+
+19 October 2010
+
+• Anticipate a request to change at least the
+Multiplier at the Oct BOD meeting to correct for
+understanding of how the parameter is used in
+CRR system
+
+15
+
+• Review at TAC on Oct 7th
+
+ERCOT Board of Directors
+
+Reports & Extracts
+Issues
+
+System and Data Improvements
+
+• QSE Ancillary Services Capacity Monitor report on
+the MIS
+
+• The report is not active at this time, release
+data is not yet established
+
+•Values reported for AS responsibilities different from
+the values observed in the source system
+
+• Two Credit reports are not functioning
+•Future Credit Exposure for CRR PTP Options
+(FCEOPT) Detail Report
+•Future C
+Credit Exposure
+p
+for C
+CRR PTP O
+Obligations
+g
+(FCEOBL) Detail Report
+
+• Some reports have errors, such as:
+•Forecasted Temp. Adj. Dynamic Ratings Duplicate
+Data: Each timestamp row of data is duplicated
+
+Activities for Go-Live
+• Complete validation
+
+•The report needs to be validated by business
+in iTest before it can be released in Production.
+•Still working
+g to g
+get an estimate for the nprod
+p
+delivery date
+
+• NPRR 241 allows ERCOT to not provide
+these reports and/or allows ERCOT to provide
+an extract instead.
+• NPRR 241 approved by the board 9/21
+
+• ERCOT is working on an extract of
+the data
+
+• ERCOT has open defects on the report
+
+• Complete and implement sort
+order fix
+• Complete validation
+
+•Duplicate data issue has been resolved
+•Fix for duplicate data resulted in an additional
+defect for a broken sort order for this report
+•This fix is still in development
+
+• Missing intervals for posting Real Time SPPs
+
+• Development is currently working on a
+solution to update the retry logic and change
+the scheduling of the report to account for
+p p
+postings
+g when p
+pricing
+g data is
+missed report
+available.
+
+• Fix to be developed and
+implemented. Report to go back
+through itest and business validation
+
+• Dashboards are not yet on in NPROD
+
+•The dashboard defects are currently in itest
+
+• Complete validation
+
+19 October 2010
+
+16
+
+ERCOT Board of Directors
+
+Settlement & Billing, Metering, and Data Aggregation
+Issues
+• Generation Resource Base Point Deviation Charge
+defects and known issues:
+• TELHSLFLAG Bill Determinant (Defect): The exemption
+logic for units during startup is inaccurately exempting
+resources, based on the data being provided to
+settlements
+• TWTG Bill Determinant (Defect): the calculation for
+TWTG is not built per protocol; it is performing a simple
+average of the telemetered generation over the settlement
+interval, rather than doing a time-weighted average based
+on SCED intervals
+• IRR Base Point Deviation Settlement (Known Issue):
+While the system
+y
+is built p
+per p
+protocol,, the p
+protocol
+formulas are inappropriately resulting in charges to IRR
+during non-curtailment intervals, and do not charge IRR
+during intervals of negative prices.
+• AABP Bill Determinant (Known Issue): While the system
+is built per protocol, when there are short SCED intervals
+the AABP formula, as defined, can calculate an overstated
+Adjusted Aggregated Base Point which may result in a
+charge to the QSE
+
+• Quick Start resource participation and settlement
+(known issue): NPRR 272, Definition and Participation
+of Quick Start Generation, includes revisions that
+provide for SCED dispatch of quick start units. The
+cchanges
+a ges merit
+e t additional
+add t o a changes
+c a ges within
+t
+settlement
+sett e e t to
+provide Base Point Deviation exemptions.
+
+19 October 2010
+
+System and Data Improvements
+
+Activities for Go-Live
+
+• Various protocol revisions provide improvements:
+• NPRR 273, Allow use of the ONTEST Resource Status to
+Indicate Resource Startup, Shutdown, and Test Operations.
+This NPRR allows settlements the ability to use the
+ONTEST status to give exemptions for Base Point during
+startup and shutdown. The ONTEST status can be
+leveraged as an efficient and effective resolution to the
+TELHSLFLAG defect and has been proposed by some in
+the market as a more desirable approach to this exemption.
+This solution only requires a minor system change (as
+opposed to the corrections required for the original
+TELSHSLFLAG logic/design.) The change is ready in a
+test environment and is pending board approval.
+• Draft Base Point Deviation NPRR at QMWG. While still
+under discussion, this NPRR focuses on an interim solution
+that can be achieved for go-live, and includes grey-box
+protocol changes that will support a better long-term
+solution. This draft NPRR addresses the known issues
+regarding protocol direction for IRR Base Point Deviation
+settlement and the AABP formula.
+• Given
+Gi
+th
+the ttolerances
+l
+th
+thatt are b
+built
+ilt into
+i t the
+th Base
+B
+Point
+P i t
+Deviation, the variance between the TWTG as currently
+calculated and per protocols should not be material enough
+to result in a Base Point Deviation charge. This issue will
+be contemplated during in QMWG discussions and work on
+the draft Base Point Deviation NPRR. QSEs have the
+opportunity to dispute the charge type if the TWTG defect
+actually causes the QSE to incur a charge
+charge.
+
+• ERCOT staff has discussed this NPRR at both WMS
+and PRS. The proposed settlement change to provide
+an exemption for Base Point Deviation is minor and will
+be addressed pending board approval.
+
+17
+
+• Continue to provide market
+support for NPRR 273
+discussions. Continue to work
+with the market to identify
+interim and long-term options
+f Base
+for
+B
+Point
+P i t Deviation
+D i ti
+settlement protocol revisions.
+• If an NPRR is not
+implemented before Go-Live,
+use dispute process to resolve
+mis-calculations (if any).
+
+• Continue to provide market
+support for NPRR 272
+discussions.
+
+ERCOT Board of Directors
+
+Defect Summary (slide 1 of 3) [as of 10-01-10]
+System
+
+Defects to be resolved by Go-Live Deferred Defects
+
+Comments
+
+MMS
+
+Total : 17
+
+Delivery Schedule
+
+Total: 63
+
+
+
+17 Defects to be resolved by 11/05
+
+Deferred Defects
+
+
+EMS
+
+Total: 19
+
+Total: 347
+
+51 Deferred defects require a workaround,
+workaround 48
+workarounds in place and exercised. 3 in progress
+to complete by 10/05
+Delivery Schedule
+
+
+19 Defects to be resolved by 11/05
+
+Deferred Defects
+
+
+COMS
+
+Total: 2
+
+Total:
+
+62
+
+119 Deferred defects require a workaround, 116
+workarounds in place and exercised. 3 in progress
+to complete by 10/05
+Delivery Schedule
+
+
+2 Defects to be resolved by 10/17 (test completion
+on 10/08, must migrate on Retail Outage Cycle)
+
+Deferred Defects
+
+
+CMM
+
+Total: 1
+
+Total:
+
+51
+
+34 Deferred defects require a workaround, all 34
+workarounds in place and exercised
+
+Delivery Schedule
+
+
+1 Defect to be resolved by 10/08
+
+Deferred Defects
+
+
+19 October 2010
+
+18
+
+12 Deferred defects require a workaround,
+workaround all 12
+workarounds in place and exercised
+
+ERCOT Board of Directors
+
+Defect Summary (slide 2 of 3) [as of 10-01-10]
+System
+
+Defects to be resolved by Go-Live Deferred Defects
+
+Comments
+
+MIS
+
+Total: 24
+
+Delivery Schedule
+
+Total:
+
+9
+
+
+
+24 Defects to be resolved by 10/15/2010
+
+Deferred Defects
+
+
+NMMS
+
+Total: 0
+
+Deferred: 10
+
+2 Deferred defects require a workaround,
+workaround both
+workarounds in place and exercised
+Delivery Schedule
+
+
+None
+
+Deferred Defects
+
+
+OS
+
+Total: 1
+
+Total:
+
+125
+
+9 Deferred defects require a workaround, all 9
+workarounds in place and exercised
+
+Delivery Schedule
+
+
+1 Defect to be resolved by 10/08
+
+Deferred Defects
+
+
+CRR
+
+T t l 3
+Total:
+
+T t l
+Total:
+
+5
+
+39 Deferred defects require a workaround, all 39
+workarounds in place and exercised
+
+Delivery Schedule
+
+
+3 Defects to be resolved by 10/08
+
+Deferred Defects
+
+
+19 October 2010
+
+19
+
+3 Deferred defects require a workaround, all 3
+workarounds in p
+place and exercised
+
+ERCOT Board of Directors
+
+Defect Summary (slide 3 of 3) [as of 10-01-10]
+System
+
+Defects to be resolved by Go-Live Deferred Defects
+
+Comments
+
+EIP
+
+Total: 4
+
+Delivery Schedule
+
+Total:
+
+62
+
+
+
+4 Defects to be resolved by 10/15
+
+Deferred Defects
+
+
+CDR
+
+Total: 16
+
+Total:
+
+7
+
+7 Deferred defects require a workaround, all 7
+workarounds in place and exercised
+
+Deliveryy Schedule
+
+
+16 Defects to be resolved by 10/15
+
+Deferred Defects
+
+
+EIS
+
+Total: 17
+
+Total:
+
+8
+
+4 Deferred defects require a workaround, all 4
+workarounds in place and exercised
+
+Delivery Schedule
+
+
+12 Defects to be resolved by 10/15
+
+
+
+5 defects
+d f
+to be
+b resolved
+l d by
+b 11/19
+
+Deferred Defects
+
+
+19 October 2010
+
+20
+
+5 Deferred defects require a workaround, all 5
+workarounds in place and exercised
+
+ERCOT Board of Directors
+
+Update on Telemetry and Offer Curves
+
+•
+
+Configuring Alarms to identify offenders and assign priorities.
+
+•
+
+In estigating ho
+Investigating
+how to convert
+con ert errors to market incenti
+incentives.
+es
+
+•
+
+Continue to review data from last LFC test
+– No large errors seen
+
+19 October 2010
+
+21
+
+ERCOT Board of Directors
+
+Update on the Potomac Economics Market Assessment
+Market Reform
+Category 1
+Needs Fixing Now (before market start)
+
+PTP Options in the DAM (computational)
+
+Category 2
+Likely to Need Fixing Soon (after market start) Load Zone Modeling/Pricing
+Ancillary Service Deliverability
+CRR Derating
+
+Category 3
+Must be Fixed Over Time (within a few years)
+
+Category 4
+Watch and Be Ready (if/when fix is needed)
+
+19 October 2010
+
+Potomac Economics
+PTP Options in the DAM (computational)
+Load Zone Modeling (DAM LDFs)
+CRR Derating
+Intermittent Renewable Resource SCED Curtailment Flag
+
+Scarcity Pricing
+
+SCED: (1) Real‐time Co‐optimization of Energy and Reserves
+((2)) Operating
+p
+g Reserve Demand Curves
+(3) SCED Look‐Ahead
+Ancillary Service Deliverability
+
+Settlement at Shadow Prices
+RUC and RUC Clawback
+SCED and 2‐Step Mitigation
+
+Settlement at Shadow Prices
+RUC and RUC Clawback
+2‐Step Mitigation
+Load Zone Pricing
+PTP Options in the DAM (price convergence)
+DAM Transmission Constraint Shadow Price Caps
+
+22
+
+ERCOT Board of Directors
+
+Update on the Potomac Economics Market Assessment
+Issue
+
+Category
+
+Mitigating Action
+
+PTP Options in DAM
+(Computational)
+
+Potomac 1
+Market Reform 1
+
+Tested PTP options in Dam trials. Install
+new hardware.
+
+Load Zone Modeling/Pricing
+
+Potomac 1
+Market Reform 2
+
+Radial load pocket code and Static LDFs .
+
+Ancillary Service Deliverability
+
+Market Reform 2
+Potomac 3
+
+Short term - Monitor and manage in the
+control room through HRUC and operator
+analysis and direct QSEs as necessary to
+other resources when issues occur.
+Medium term – Review procurement history
+and identify problems.
+Long term – Potential real time optimization
+with deliverability check. If needed.
+
+CRR Derating
+
+Potomac 2
+Market Reform 2
+
+Monitor CRR deratings in DAM
+During Market Trials CRR market
+appeared
+d tto b
+be undersubscribed
+d
+b ib d
+
+Scarcity Pricing
+
+Market Reform 3
+
+Monitor prices and behavior along with
+planning reserves, and new interconnect
+g
+.
+agreements
+Continue to track the peaker net margin.
+
+19 October 2010
+
+23
+
+ERCOT Board of Directors
+
+Update on the Potomac Economics Market Assessment
+Issue
+
+Category
+
+Mitigating Action
+
+Settlement at shadow Prices
+
+Market Reform 4
+Potomac 4
+
+Monitor during market cutover, create
+graphs and determine whether or not this
+is occurring with a frequency that justifies a
+make whole payment NPRR proposal
+proposal.
+
+RUC and RUC clawback
+
+Potomac 4
+Market Reform 4
+
+Monitor volumes (i.e. number of RUC units
+and determine whether units are
+participating in the DAM market and/or self
+scheduling
+
+SCED and two step mitigation
+
+Market Reform 4
+Potomac 4
+
+This issue is somewhat linked to scarcity
+pricing and we will utilize some of the
+same monitoring
+it i th
+thatt is
+i planned
+l
+d for
+f the
+th
+scarcity concern.
+
+Intermittent Renewable
+Resource curtailment flag
+g from
+SCED
+
+Potomac 2
+
+Monitor the curtailments and performance
+and review the need for a curtailment flag
+g
+post go live.
+
+DAM Transmission Constraints
+Shadow Price Caps
+
+Potomac 4
+
+Do not bind on constraints that do not have
+generation dispatch solutions (i.e. radial
+load pockets). Do not bind on constraints
+with mitigation plans.
+
+19 October 2010
+
+24
+
+ERCOT Board of Directors
+
+Nodal Go-Live Update
+
+Review of Full Nodal Operations Go
+Go-Live
+Live Items
+
+Kenneth Ragsdale
+Principal Market Operations
+
+Nodal Program Cutover Schedule: NMMS, OS, and CRR
+The table below outlines key dates and activities for Nodal cutover
+
+19 October 2010
+
+26
+
+ERCOT Board of Directors
+
+Nodal Program Communications
+Readiness Signoff Schedule
+
+Network Operations
+Modeling
+
+06/30
+07/01
+07/20
+07/30
+09/01
+
+ERCOT Management Readiness Signoff
+TAC Approval
+Board of Directors Approval
+30 Day Market Notice sent
+Nodal Protocol Section 3.10 goes into effect
+
+Congestion
+g
+Revenue
+Rights
+
+08/04
+08/05
+08/17
+08/30
+10/01
+
+ERCOT Management Readiness Signoff
+TAC Approval
+Board of Directors Approval
+30 Day Market Notice sent
+Nodal Protocol Section 7 goes into effect
+
+Outage Scheduling
+
+08/04
+08/05
+08/17
+10/01
+11/01
+
+ERCOT Management Readiness Signoff
+TAC A
+Approvall
+Board of Directors Approval
+30 Day Market Notice sent
+Nodal Protocol Section 7 goes into effect
+
+10/01
+10/07
+10/19
+10/23
+11/23
+
+ERCOT Management Readiness Signoff
+TAC Approval
+Board of Directors Approval
+30 Day Market Notice sent
+Nodal Protocol Sections 3,4,5,6
+3 4 5 6 go into effect as well as all other
+unimplemented Protocol Sections
+
+Full Nodal Operations
+
+19 October 2010
+
+27
+
+ERCOT Board of Directors
+
+Nodal Cutover Communications – Zonal Protocol 21.12.3
+
+21.12.3 Notice to Market Participants of Effective Date for Nodal Protocol
+Provisions and Retirement of Zonal Protocol Provision
+No part of the nodal market design may start operation until all the Market Readiness Criteria
+for that part of the nodal market design have been met. Certification that all Market
+Readiness Criteria have been met must be made at least by each of the following: the
+Technical Advisory Committee (TAC), ERCOT and the ERCOT Board. Upon such
+certification ERCOT shall issue two Notices alerting Market Participants to the effective date
+certification,
+of Nodal Protocol sections and the retirement of Zonal Protocol sections, as applicable.
+ERCOT shall issue the first Notice no less than thirty (30) days prior to the effective date or
+retirement date, as applicable, and the second Notice no less than ten (10) days prior to the
+effective date or retirement date,
+date as applicable.
+applicable The Notice shall include:
+(1) The Nodal Protocol Sections to become effective; and
+(2) The Zonal Protocol Sections to be retired, if any
+
+19 October 2010
+
+28
+
+ERCOT Board of Directors
+
+Readiness Methodology
+
+ERCOT will measure readiness by the following categories:
+• System Readiness – an evaluation of a particular system
+needed to support identified market activities
+• Process Readiness – an evaluation of the Processes and
+Procedures necessary to support identified market activities
+• People Readiness – an evaluation of ERCOT and Market
+Participant capabilities to support identified market activities
+ERCOT plans to review the Market Readiness Criteria at NATF and
+subsequently request a vote from TAC per Section 21.12.3,
+Notice to Market Participants of Effective Date for Nodal
+Protocol Provisions and Retirement of Zonal Protocol Provision
+
+19 October 2010
+
+29
+
+ERCOT Board of Directors
+
+Readiness Methodology
+
+System Readiness – evaluation of the Nodal system to support the
+market design
+– Core system functionality delivered
+• Protocol required system functionality available for market testing
+
+– System Integration delivered
+• System
+S t
+to
+t system
+t
+integration
+i t
+ti delivered
+d li
+d tto supportt Market
+M k t Timeline
+Ti li
+and Business Processes
+
+– Known defects resolution plan
+• All ‘Must
+Must fix prior to go
+go-live’
+live’ defects have a resolution plan in place
+
+– Active Readiness Metrics
+• Current status of Readiness Metrics
+
+19 October 2010
+
+30
+
+ERCOT Board of Directors
+
+Readiness Methodology
+
+Process Readiness – evaluation of the Processes and Procedures
+necessary to support the market design
+– Procedures complete
+• ERT project procedures to support business processes complete
+
+– System cutover transition plan established
+• ERCOT and
+dM
+Market
+k tP
+Participant
+ti i
+tb
+business
+i
+activities
+ti iti required
+i d ffor
+transitioning into Go-Live have been established and
+communicated.
+
+– Market rules transition communicated
+• Nodal and Zonal Protocol effective / retirement dates identified and
+communicated for Market Participant review
+
+19 October 2010
+
+31
+
+ERCOT Board of Directors
+
+Readiness Methodology
+
+People Readiness – evaluation of ERCOT employee readiness and
+Market Participant knowledge to support the market design
+– ERCOT staff supporting Market Trials
+• ERCOT Business teams supporting system execution, problem
+resolution, and market questions
+
+– ERCOT staff trained on System and Processes
+• ERCOT Business teams training status based on identified ERT
+training metrics
+
+– Market Participant Training delivered
+• ERT external training classes and web based training provided by
+the Nodal training project
+
+19 October 2010
+
+32
+
+ERCOT Board of Directors
+
+MMS – Day Ahead, Adj. Period, RT Market – Readiness Update
+System
+y
+Readiness
+
+Planned
+Completion
+
+Status
+
+MMS System release to Market Trials
+
+02/01/10
+
+Complete
+
+Market Submission Connectivity Qualification (MP3)
+
+08/31/10
+
+Complete
+
+Real-Time Market Daily Participation (MP15A)
+
+09/30/10
+
+Complete
+
+Generate LMP’s for 6 months (MO5)
+
+09/30/10
+
+Complete
+
+Verify SCED Price Validation (MO4)
+
+09/30/10
+
+Complete
+
+DAM Participation (MP16)
+
+09/30/10
+
+Complete
+
+Generate Day
+Day-Ahead
+Ahead LMPs (MO9)
+
+09/30/10
+
+Complete
+
+Verify DAM Price Validation (MO8)
+
+09/30/10
+
+Complete
+
+DRUC Execution (MO10)
+
+09/30/10
+
+Complete
+
+Verify Supplemental Ancillary Services Market (MO3)
+
+09/30/10
+
+Complete
+
+Day Ahead, Adjustment Period and RTM Procedures
+
+8/31/10
+
+Complete
+
+MMS Day Ahead & Real Time Price Validation Procedures
+
+8/31/10
+
+Complete
+
+Nodal Protocol Transition Plan Updated for DAM, RUC, SASM, SCED
+
+7/29/10
+
+Complete
+
+ERCOT Staff Support of Market Trials
+
+09/30/10
+
+Complete
+
+ERCOT Staff Trained on System and Processes
+
+08/27/10
+
+Complete
+
+Market Participant Training Delivered
+
+09/15/10
+
+Complete
+
+Process Readiness
+
+People Readiness
+
+19 October 2010
+
+33
+
+ERCOT Board of Directors
+
+EMS – Real-Time Operations Readiness Update
+System
+y
+Readiness
+
+Planned
+Completion
+
+Status
+
+EMS System Release to Market Trials
+
+02/01/10
+
+Complete
+
+Verify ACE Performance (EMO5)
+
+04/21/08
+
+Complete
+
+Individual LFC Testing (EMO6)
+
+05/31/10
+
+Complete
+
+Telemetry / ICCP System Failover (N2)
+
+09/22/10
+
+Complete
+
+Telemetry Compliance (MP6 SCED/SE)
+
+06/02/10
+
+Complete
+
+Validate Telemetry / SE ISM / Data Accuracy (E3)
+
+09/30/10
+
+Complete
+
+State Estimator Standards Performance (EMO9)
+
+09/30/10
+
+Complete
+
+RTCA Zonal to Nodal Modeling Differences (EMO9)
+
+09/30/10
+
+Complete
+
+RTCA CSC Zonal to Nodal Comparison (EMO9)
+
+09/30/10
+
+Complete
+
+Verify Voltage Support Functionality (EM02)
+
+09/10/10
+
+Complete
+
+A
+Anomalous/Auto-Disabled
+l
+/A t Di bl d T
+Telemeted
+l
+t dP
+Points
+i t (EMO10)
+
+09/30/10
+
+C
+Complete
+l t
+
+Telemetry Alarm Processing (N1)
+
+09/30/10
+
+Complete
+
+RT Operations Business Procedures
+
+8/31/10
+
+Complete
+
+Nodal Protocol Transition Plan Updated for RT Operations
+
+7/29/10
+
+Complete
+
+ERCOT Staff Support of Market Trials
+
+09/30/10
+
+Complete
+
+ERCOT Staff Trained on System and Processes
+
+09/03/10
+
+Complete
+
+Market Participant Training Delivered
+
+09/15/10
+
+Complete
+
+Process Readiness
+
+People Readiness
+
+19 October 2010
+
+34
+
+ERCOT Board of Directors
+
+S&B – Settlements and Billing, Metering, and Data Aggregation
+Readiness Update
+System
+y
+Readiness
+
+Planned
+Completion
+
+Status
+
+S&B System release to Market Trials
+
+05/01/10
+
+Complete
+
+Verify RTM Settlement Statements (CO5)
+
+09/30/10
+
+Complete
+
+Verify RTM Settlement Invoices (CO6)
+
+09/30/10
+
+Complete
+
+Verify DAM Settlement Statements (CO3)
+
+09/30/10
+
+Complete
+
+Verify DAM Settlement Invoices (CO7)
+
+09/30/10
+
+Complete
+
+Verify CRR Auction Invoices (CO8)
+
+09/30/10
+
+Complete
+
+Settle Market for 7 days and provide appropriate extracts (CO1)
+
+08/25/10
+
+Complete
+
+Verify Dispute Process (CO2)
+
+09/30/10
+
+Complete
+
+Zonal/Nodal Coordinated Settlement Operations (CO4)
+
+09/08/10
+
+Complete
+
+Settlements and Billing Procedures
+
+8/24/10
+
+Complete
+
+Nodal Protocol Transition Plan Updated for Settlements and Billing
+
+7/29/10
+
+Complete
+
+ERCOT Staff Support
+pp of Market Trials
+
+09/30/10
+
+Complete
+p
+
+ERCOT Staff Trained on System and Processes
+
+07/30/10
+
+Complete
+
+Market Participant Training Delivered
+
+09/15/10
+
+Complete
+
+Process Readiness
+
+People Readiness
+
+19 October 2010
+
+35
+
+ERCOT Board of Directors
+
+CMM – Credit Management and Monitoring – Go Live
+System
+y
+Readiness
+
+Planned
+Completion
+
+Status
+
+Credit Management Integrated in Market Trials
+
+5/3/10
+
+Complete
+
+Verify CMM Credit Calculations (CO10)
+
+9/8/2010
+
+Complete
+
+Credit Management Procedures
+
+8/24/10
+
+Complete
+
+Nodal Protocol Transition Plan Updated for Credit Management
+
+7/29/10
+
+Complete
+
+ERCOT Staff Support of Market Trials
+
+09/30/10
+
+Complete
+
+ERCOT Staff Trained on System and Processes
+
+08/13/10
+
+Complete
+
+Market Participant Training Delivered
+
+09/15/10
+
+Complete
+
+Process
+ocess Readiness
+ead ess
+
+People Readiness
+
+19 October 2010
+
+36
+
+ERCOT Board of Directors
+
+MIS – Market Information System – Go Live
+System
+y
+Readiness
+
+Planned
+Completion
+
+Status
+
+MIS System release to Market Trials
+
+2/1/10
+
+Complete
+
+MIS Compliance Test (E12)
+
+9/8/2010
+
+Complete
+
+MIS Procedures
+
+08/25/10
+
+Complete
+
+Nodal Protocol Transition Plan Updated for MIS
+
+07/29/10
+
+Complete
+
+ERCOT Staff Support of Market Trials
+
+09/30/10
+
+Complete
+
+ERCOT Staff Trained on System and Processes
+
+08/20/10
+
+Complete
+
+Market Participant Training Delivered
+
+09/15/10
+
+Complete
+
+Process
+ocess Readiness
+ead ess
+
+People Readiness
+
+19 October 2010
+
+37
+
+ERCOT Board of Directors
+
+Nodal – Overall Readiness Metrics
+Market Participant Readiness Items
+
+Planned
+Completion
+
+Status
+
+QSE with Resource Connectivity to EDS Environment (MP2)
+
+09/04/08
+
+Complete
+
+ICCP Point to Point Telemetry Test (MP5)
+
+09/04/08
+
+Complete
+
+QSE Ability to Submit Transactions via MIS (MP8)
+
+09/04/08
+
+Complete
+
+QSE Ability to Submit Web Services Transactions (MP9)
+
+09/04/08
+
+Complete
+
+Resource Registration (MP11)
+
+08/25/10
+
+Complete
+
+Wind Generation Resources ICCP Metrological Telemetry (MP21)
+
+09/30/10
+
+Complete
+
+Telemetry Quality (MP to ICCP Server) (MP23)
+
+09/30/10
+
+Complete
+
+Mapping of Resource and Loads in Private Area Networks (MP18)
+
+08/25/10
+
+Complete
+
+Telemetry Compliance (MP6 - TSP)
+
+06/02/10
+
+Complete
+
+Market Participant Nodal Readiness Declaration (R0)
+
+10/01/10
+
+Complete
+
+Market Monitor Systems Capability (IMM1)
+
+10/01/10
+
+Complete
+
+Validate ISM Access & Accuracy of Postings Required by the IMM (E7)
+
+10/01/10
+
+Complete
+
+Independent Market Monitor
+
+19 October 2010
+
+38
+
+ERCOT Board of Directors
+
+Nodal – Overall Readiness Metrics
+ERCOT Readiness
+
+Planned
+Completion
+
+Status
+
+ERCOT Internal Training (E1)
+
+09/30/10
+
+Complete
+
+Develop Nodal Procedures (E9)
+
+09/30/10
+
+Complete
+
+Develop Nodal Operating Guides (E6)
+
+09/22/10
+
+Complete
+
+Validate ISM, CDR, and Lodestar Source Reporting Access & Accuracy for internal
+ERCOT use (E10)
+
+09/30/10
+
+Complete
+
+Verify ERCOT Performance Monitoring Test Plan (E2)
+
+09/30/10
+
+Complete
+
+Nodal SAS 70 Preparedness* (E5)
+
+10/01/10
+
+Complete
+
+ERCOT Staffed for Texas Nodal Operations (E8)
+
+08/25/10
+
+Complete
+
+Verify QSE Performance Monitoring Test Plan (E14)
+
+09/30/10
+
+Complete
+
+Verify TSP Performance Monitoring Test Plan (E15)
+
+09/30/10
+
+Complete
+
+Operating
+p
+g Personnel and Facilities Readiness ((EMO13))
+
+08/11/10
+
+Complete
+p
+
+ERCOT Operating Personnel and Facilities Readiness (MO7)
+
+08/11/10
+
+Complete
+
+168-Hour Test Completion (R3)
+
+09/22/10
+
+Complete
+
+ERCOT Nodal Readiness Declaration (R1)
+
+10/01/10
+
+Complete
+
+Develop Texas Nodal Market Launch Plan (R2)
+
+10/01/10
+
+Complete
+
+* PWC completed
+l t d th
+their
+i assessmentt off th
+the N
+Nodal
+d lC
+Control
+t l Obj
+Objectives
+ti
+on 6/30/10
+6/30/10. ERCOT’
+ERCOT’s IInternal
+t
+lA
+Audit
+dit iis performing
+f
+i an audit
+dit
+to further ensure that ERCOT is ready to operate consistent with the control objectives
+19 October 2010
+
+39
+
+ERCOT Board of Directors
+
+Nodal – Overall Readiness Metrics
+Contingency
+g
+y Plans
+
+Planned
+Completion
+
+Status
+
+Contingency Plan for Weekly, Daily and Hourly RUC Failure (C1)
+
+09/30/10
+
+Complete
+
+Contingency Plan for DAM / LMP Failure (C2)
+
+09/30/10
+
+Complete
+
+Contingency Plan for ICCP Data Failure (C3)
+
+09/30/10
+
+Complete
+
+Contingency Plan for SCED Failure (C4)
+
+09/30/10
+
+Complete
+
+Contingency Plans for Key Settlement and Financial Transfer Processes (C5)
+
+09/30/10
+
+Complete
+
+Develop Plan for SE Failure (C6)
+
+09/30/10
+
+Complete
+
+Contingency Plan for a Backup Facility (C7)
+
+09/30/10
+
+Complete
+
+Contingency Plan for Portal/API Failure (C8)
+
+09/30/10
+
+Complete
+
+Contingency Plan for Site Unavailability (C9)
+
+09/30/10
+
+Complete
+
+Verify Single Point of Failure Recovery EMS/MMS/NMMS/CRR/COMS (C10)
+
+09/30/10
+
+Complete
+
+19 October 2010
+
+40
+
+ERCOT Board of Directors
+
+Nodal – Overall Readiness
+Readiness Signoff
+
+ERCOT Management Signoff
+
+10/01/10
+
+Complete
+
+NATF Recommendation for TAC Approval
+
+10/05/10
+
+Complete
+
+TAC Approval
+
+10/07/10
+
+Complete
+
+BOD Approval
+
+10/19/10
+
+30 Day Market Notice
+
+10/23/10
+
+10 Day Market Notice
+
+11/13/10
+
+19 October 2010
+
+41
+
+ERCOT Board of Directors
+
+NATF Approved Go-Live Recommendation
+“Based on the observations and experience of the NATF members and the certification
+by ERCOT management, NATF is unaware of any outstanding issue, or collection of
+issues, that would prohibit TAC from voting affirmatively for the ERCOT Nodal Market
+Go-Live; therefore, NATF recommends approval by TAC for a December 1, 2010 go-live.
+The NATF recommendation
+Th
+d ti
+is
+i based
+b
+d on our direct
+di t discussions
+di
+i
+with
+ith ERCOT and
+d Market
+M k t
+Trials observations. NATF acknowledges there is much that cannot be directly
+observed by individual Market Participants. Where not directly observed, NATF has
+relied on those that have direct knowledge.
+NATF has reviewed with ERCOT the issues that have been reported as of October 5,
+2010, as identified in the QSE and TDSP issue lists and in the ERCOT Management
+Readiness Certification. ERCOT currently has a plan to address each of the “Defects to
+be Resolved by Go-live
+Go live” which includes a delivery date for the fix,
+fix a workaround or has
+a workaround plan in progress. NATF accepts ERCOT’s status regarding deferred
+issues. The NATF expects ERCOT to continue updating NATF, TAC and the Board
+regarding the progress of the fixes and workarounds.”
+NATF Vote Totals
+MP Segment
+For
+Against
+Abstention
+19 October 2010
+
+7
+0
+1
+
+Consumer
+42
+
+ERCOT Board of Directors
+
+TAC Certification of Full Nodal Systems for Go-Live
+
+TAC voted to certify the Full Nodal systems for a December 1, 2010 Go-Live
+based on the October 1, 2010 ERCOT Management Readiness Certification and
+th October
+the
+O t b 5,
+5 2010 N
+Nodal
+d l Ad
+Advisory
+i
+T
+Task
+kF
+Force ( NATF) recommendation
+d ti .
+
+TAC Vote Totals
+MP Segment
+For
+Against
+Abstention
+
+19 October 2010
+
+25
+1
+3
+
+Consumer
+Cooperative (2) & Consumer
+
+43
+
+ERCOT Board of Directors
+
+Recommended Board Resolution for Full Nodal Operations Approval
+WHEREAS, Protocols Section 21.12.3, Notice to Market Participants of Effective Date for Nodal Protocol Provisions and Retirement of Zonal
+Protocol Provisions
+Provisions, provides that before a “part
+part of the nodal market design may start operation
+operation,” a vote of the Board of Directors (Board) of the
+Electric Reliability Council of Texas, Inc (ERCOT) is required affirming that the “Market Readiness Criteria for that part of the nodal market
+design have been met”;
+WHEREAS, the Section 21.12.3 certification by the Technical Advisory Committee (TAC), ERCOT staff, and the ERCOT Board of Directors
+regarding the satisfaction of “Market Readiness Criteria” for a particular part of the nodal market design will result in ERCOT issuing “two
+N ti
+Notices
+alerting
+l ti M
+Market
+k tP
+Participants
+ti i
+t tto the
+th effective
+ff ti date
+d t off Nodal
+N d l Protocol
+P t
+l sections
+ti
+and
+d the
+th retirement
+ti
+t off Zonal
+Z
+l Protocol
+P t
+l sections,
+ti
+as
+applicable”;
+WHEREAS, the Protocols do not define the term “Market Readiness Criteria,” and ERCOT, in conjunction with Market Participants, has
+developed specific metrics and a Nodal Readiness Scorecard that are used to determine the progress of specific parts of the nodal market
+design in meeting the criteria necessary for implementing the Nodal Protocols and starting operations;
+WHEREAS, the ERCOT Board recognizes that there are issues that remain to be addressed regarding the implementation and operation of
+Full Nodal Operations before the Texas Nodal Market Implementation Date (TNMID), but that none of those issues should prevent Full Nodal
+Operations Go-Live on December 1, 2010;
+WHEREAS, the ERCOT Board has reviewed the market readiness metrics documentation underlying ERCOT staff’s
+staff s recommendation
+regarding Full Nodal Operations part of the nodal market design, and has conducted due diligence on ERCOT staff’s conclusion that the Full
+Nodal Operations has satisfied all of the steps necessary to make the declaration of market readiness required by Section 21.12.3, in order to
+authorize Full Nodal Operations Go-Live on December 1, 2010;
+WHEREAS, ERCOT staff provided its Section 21.12.3 certification document, attached hereto as Exhibit A, and a list of known issues,
+attached hereto as Exhibit B
+B, to TAC prior to TAC’s
+TAC s consideration of this issue
+issue, and on October 7
+7, 2010
+2010, TAC voted to certify the Full Nodal
+systems for a December 1, 2010 go-live based on the October 1, 2010 ERCOT Management Readiness Certification and the October 5, 2010
+Nodal Advisory Task Force ( NATF) recommendation , attached hereto as Exhibit C;
+THEREFORE be it RESOLVED, that this Resolution shall serve as the ERCOT Board’s certification that all Market Readiness Criteria have
+been met, for purposes of ERCOT Protocols Section 21.12.3, regarding Full Nodal Operations Go-Live on December 1, 2010.
+FURTHERMORE, the ERCOT Board directs that status updates regarding outstanding issues be provided at future ERCOT Board meetings.
+
+19 October 2010
+
+44
+
+ERCOT Board of Directors
+
+Nodal Go-Live Update
+
+Certified Systems Update
+
+Kenneth Ragsdale
+Principal Market Operations
+
+NMMS Overview
+Recommendation of Certification
+ERCOT
+
+NATF
+
+TAC
+
+BOD
+
+Status / Other Issues:
+• No major issues
+• Stability issue resolved as of July 1st (ERCOT continues to monitor production)
+• Navigation performance issues improved Aug 1st (43% reduction in response time)
+• Validation performance improved August 27th (40% reduction in validation time).
+
+Deferred Defects*:
+
+Go –Live Required Defects*:
+
+Deferred
+
+Required For Go-Live: 0
+
+10
+* As of October 1, 2010
+
+19 October 2010
+
+46
+
+ERCOT Board of Directors
+
+OS Overview
+Recommendation of Certification
+ERCOT
+
+NATF
+
+TAC
+
+BOD
+
+Status / Other Issues:
+• All Full Nodal Operations issues within the TSP Issues list have either been reviewed or are resolved
+
+• ERCOT is working with the TSPs to plan and prioritize the defects and parking deck items for post Go-Live
+
+Deferred Defects*:
+
+Go –Live Required Defects*:
+
+Deferred
+
+Required For Go-Live: 1
+
+125
+* As of October 1, 2010
+
+19 October 2010
+
+47
+
+ERCOT Board of Directors
+
+CRR Overview
+Recommendation of Certification
+ERCOT
+
+NATF
+
+TAC
+
+BOD
+
+Status / Other Issues:
+• The latest version of the Topology Processor application, used to create Planning and CRR model with
+outages, has been received from the vendor and successfully creates the network model with the included
+outages
+• The October CRR Monthly Auction used manual workaround
+
+Deferred Defects*:
+
+Go –Live Required Defects*:
+Required For Go-Live:
+
+Deferred
+
+3
+
+5
+* As of October 1, 2010
+
+19 October 2010
+
+48
+
+ERCOT Board of Directors
+
+Nodal Parking Deck Items
+Troy
+y Anderson
+Manager Enterprise Project Portfolio
+
+Nodal Parking Deck – Prioritization Guidelines
+Priority
+
+Definition
+
+Critical
+
+Required by Statute, PUCT Order, NERC compliance or critical reliability of:
+• Grid Operations
+• IT Infrastructure
+• Commercial Settlement
+
+High
+
+High value for a majority of market segments or ERCOT
+
+High / Medium
+
+Medium
+
+High value to one or two segments, or
+M di
+Medium
+value
+l ffor a majority
+j it off market
+k t segments
+t or ERCOT
+
+Medium value for only one segment
+
+19 October 2010
+
+50
+
+ERCOT Board of Directors
+
+Nodal Parking Deck – Approved
+
+Total Approved = 16
+
+page 1 of 2
+
+Source
+
+Title
+
+Priority
+
+Approval Date
+
+NPRR208
+
+Registration and Settlement of Distributed Generation (DG)
+Less Than One MW
+
+Critical
+
+BoD Approved 7/20/2010
+
+Enhancements to the MarkeTrak Application
+
+Critical
+
+BoD Approved 7/20/2010
+
+NPRR131
+
+Ancillary Service Trades with ERCOT
+
+High
+
+BoD Approved 1/19/2010
+
+NPRR146
+
+ICCP Telemetry Information Submittals
+
+High
+
+BoD Approved 6/15/2010
+
+NPRR181
+
+FIP Definition Revision
+
+High
+
+BoD Approved 1/19/2010
+
+NPRR207
+
+Unit Deselection
+
+High
+
+BoD Approved 7/20/2010
+
+NPRR210
+
+Wi d F
+Wind
+Forecasting
+ti Ch
+Change to
+t P50,
+P50 S
+Synch
+h PRR841
+
+Hi h
+High
+
+BoD Approved 6/15/2010
+
+NPRR222
+
+Half-Hour Start Unit RUC Clawback
+
+High
+
+BoD Approved 7/20/2010
+
+NPRR251
+
+Sync of PRR845, Definition for IDR Meters and Optional
+Removal of IDR Meters at a Premise Where an Advanced
+Meter Can be Provisioned
+
+High
+
+BoD Approved 9/21/2010
+
+SCR759
+
+acLineSegment Name Length Increase in
+Information Model Manager
+
+High
+
+BoD Approved 9/21/2010
+
+ SCR756
+
+Parking Deck due to resource impact only.
+ On
+Separately funded on 2011 PPL.
+
+19 October 2010
+
+51
+
+ERCOT Board of Directors
+
+Nodal Parking Deck – Approved
+Source
+
+page 2 of 2
+
+Title
+
+Priority
+
+Approval Date
+
+NPRR240
+
+Proxy Energy Offer Curve
+
+High /
+Medium
+
+BoD Approved 9/21/2010
+
+NPRR153
+
+Generation Resource Fixed Quantity Block Offer
+
+Medium
+
+BoD Approved 1/19/2010
+
+NPRR164
+
+Resubmitting Ancillary Service offers in SASM
+
+Medium
+
+BoD Approved 1/19/2010
+
+NPRR241
+
+Aggregate Incremental Liability (AIL) Calculation
+and Credit Reports Publish Corrections
+
+Medium
+
+BoD Approved 9/21/2010
+
+NOGRR034
+
+Rescind Telemetry Performance Calculation
+Exclusions
+
+Medium
+
+BoD Approved 9/21/2010
+
+ERCOT.com Website Enhancements
+
+Medium
+
+BoD Approved 2/16/2010
+
+SCR755
+
+19 October 2010
+
+52
+
+ERCOT Board of Directors
+
+Nodal Parking Deck – Pending
+
+Total Pending = 8
+Suggested
+
+Current Status
+
+Source
+
+Title
+
+NPRR219
+
+Resolution of Alignment Items A33, A92, A106, and A150
+- TSPs Must Submit Outages for Resource Owned
+Equipment and Clarification
+C f
+off Changes
+C
+in Status
+S
+off
+Transmission Element Postings
+
+Critical
+
+Pending at Board
+TAC approved 10/7/2010
+
+NPRR244
+
+Clarification of Other Binding Documents
+
+High /
+Medium
+
+Pending at Board
+TAC approved 10/7/2010
+
+NPRR256
+
+Sync Nodal
+S
+N d lP
+Protocols
+l with
+i h PRR787
+PRR787, Add N
+NonCompliance Language to QSE Performance Standards
+
+TBD
+
+Pending at PRS
+
+NPRR257
+
+Synchronization with Nodal Operating Guide
+Section 9, Monitoring Programs
+
+TBD
+
+Pending at PRS
+
+NPRR258
+
+Sync with PRR824 and PRR833 and Additional
+S
+Clarifications
+
+TBD
+
+Pending at PRS
+
+NPRR260
+
+Providing Access to MIS Secure Area to MIS
+Registered Users
+
+TBD
+
+Tabled at PRS
+
+NPRR272
+
+Definition and Participation of Quick Start
+Generation Resources
+
+TBD
+
+Pending at PRS
+
+NOGRR050
+
+Resolution of Reporting Issues Related to
+NPRR219
+
+TBD
+
+Pending at Board
+TAC approved 10/7/2010
+
+19 October 2010
+
+Priority
+
+53
+
+ERCOT Board of Directors
+
+Nodal Parking Deck – Additional Items for Consideration
+
+Total “Other” = 17
+
+Title
+
+Current Status / Description
+
+Deferred NOGRR025 Reports
+
+Draft NPRR in progress to gray-box reports planned for delivery after Nodal go-live
+
+NMMS API
+
+Functionality to be considered for post-go-live development
+
+CRR API
+
+Functionality to be considered for post-go-live development
+
+MMS Multiple
+M lti l N
+Network
+t
+kM
+Models
+d l
+
+F
+Functionality
+ti
+lit tto be
+b considered
+id d ffor post-go-live
+t
+li d
+development
+l
+t
+
+Add PSS Status to RARF
+
+Automation of manual process as a result of NPRR156
+
+Automated Default Uplift
+p Invoice
+
+Automation of manual p
+process as a result of NPRR221
+
+EILS Enhancements
+
+Automation of manual process
+
+Load Participation in SCED
+
+Functionality to be considered for post-go-live development
+
+EMS Upgrade
+
+Upgrade EMS system from v2.3 to v2.5/v2.6
+
+Deferred Defects
+
+Defects not addressed prior to go-live
+Approximately 700 deferred defects as of July 2010
+Review underway to confirm issues and confirm acceptable workarounds
+
+19 October 2010
+
+54
+
+ERCOT Board of Directors
+
+Nodal Parking Deck – Additional Items for Consideration
+Title
+
+Current Status / Description
+
+Large Wind Power Production Ramp
+Forecasting Phase 2
+
+Phase 2 of the project that built a display for ERCOT operators to indicate periods of time
+within the next 6 hours during which there is a high risk for a large wind power production
+ramp to occur
+
+TML Transition to MIS
+
+Upon go live, most applications that are currently available through TML will migrate to MIS
+and will only be accessible to MPs through the MIS portal. RMS has requested that Zonal
+Reports, Find ESI ID, Find Transactions, and Transaction submission be accessed through
+TML until MIS has had sufficient time to stabilize.
+
+Decommission of Zonal Wholesale
+
+After go-live of the redesigned ERCOT wholesale market, certain ERCOT systems and
+components that were only applicable to zonal wholesale operations will become disposable
+and need to be decommissioned.
+decommissioned
+
+Nodal Cutover Cleanup
+
+Remove pre-go-live data from Nodal systems
+
+Move Price Validation Tool (PVT) to a Server
+Application
+
+Functionality to be considered for post-go-live development
+
+Update Credit PFE Model
+(Potential Future Exposure)
+
+Enhance PFE model to include the following risk factors:
+• Price volatility analysis for the Day Ahead Market,
+• Bid and offer volume analysis in the Day Ahead Market, and
+• Value of Congestion Revenue Rights
+
+Automate Identification of PUNs for
+Reporting
+
+NPRR202 required that Private Use Networks (PUNs) be excluded from State Estimator
+postings of transmission flows and voltages
+voltages. This requirement is being met by adding a
+static table to the reporting infrastructure to store the list of known PUNs. This Parking Deck
+item would create a method to dynamically derive the population of PUNs for this reporting.
+
+TSP / QSE Issue Lists
+
+Items not addressed prior to Nodal go-live
+
+Potomac Economics Market Assessment
+
+Items not addressed prior to Nodal go-live
+
+19 October 2010
+
+55
+
+ERCOT Board of Directors
+
+Monthly Financial Review
+
+Mike Petterson
+Controller
+Nodal Financial Management Office
+
+Current Monthly Financials
+
+57
+
+Financial Review – September 2010 Performance
+Forecast vs. Actual
+
+1
+
+Variance
+
+Line Cost Summary
+1 Internal
+I t
+l Labor
+L b Costs
+C t
+2 Backfill Labor Costs
+3 External Resource Costs
+4 Software
+f
+& Software
+f
+Maintenance
+i
+5 Hardware & Hardware Maintenance
+6 Other
+7
+Sub‐total Direct Project Costs
+8 Allocations
+9 Finance Charges
+10
+Sub‐total Indirect Project Costs
+
+Forecast
+$
+21
+2.1
+0.1
+2.0
+0.3
+0.2
+‐
+$
+4.7
+0.2
+1.1
+$
+1.3
+
+Actual
+$
+23
+2.3
+0.1
+1.8
+0.2
+0.4
+‐
+$
+4.8
+0.2
+0.9
+$
+1.1
+
+Fav./(Unfav.)
+
+$
+
+(0.2)
+(0
+2)
+‐
+0.2
+0.1
+(0.2)
+‐
+(0.1)
+‐
+0.2
+0.2
+
+11
+
+$
+
+$
+
+$
+
+0.1
+
+Total
+
+6.0
+
+5.9
+
+$
+
+$
+
+Amounts in Millions
+Note 1: Forecast consists of re-forecast from July 1,2010 plus Q3 NCRs
+
+19 October 2010
+
+58
+
+ERCOT Board of Directors
+
+Financial Review – LTD Performance through September 2010
+Forecast vs. Actual
+
+Line Cost Summary
+1 Internal Labor Costs
+2 Backfill Labor Costs
+3 External Resource Costs
+4 Software & Software Maintenance
+5 Hardware & Hardware Maintenance
+6 Other
+7
+Sub‐total Direct Project Costs
+8 Allocations
+9 Finance Charges
+10
+Sub‐total Indirect Project Costs
+g
+Contingency
+g
+y Fund Unutilized
+11 Program
+12 Board Discretionary Fund
+
+Forecast1
+$
+78.0
+6.2
+277.0
+30.1
+49.1
+2.2
+$ 442.6
+22 5
+22.5
+35.4
+$
+57.9
+‐
+‐
+
+Actual
+$
+79.0
+6.2
+276.6
+29.8
+49.2
+2.2
+$ 443.0
+22 6
+22.6
+34.8
+$
+57.4
+‐
+‐
+
+Estimate
+to
+Variance
+Fav./(Unfav.) Complete
+$
+((1.0)) $
+5.5
+‐
+0.2
+0.4
+3.7
+0.3
+0.9
+(0.1)
+0.7
+‐
+0.1
+$
+(0.4) $
+11.1
+(0 1)
+(0.1)
+06
+0.6
+0.6
+15.5
+$
+0.5 $
+16.1
+‐
+2.5
+‐
+113.6
+
+13
+
+$
+
+$
+
+$
+
+Total
+
+500.5
+
+500.4
+
+0.1
+
+$
+
+143.3
+
+Amounts in Millions
+Note 1: Forecast consists of re-forecast from July 1,2010 plus Q3 NCRs
+
+19 October 2010
+
+59
+
+ERCOT Board of Directors
+
+Financial Review – Program Contingency Fund
+Q3 Risk Items Update
+
+Line
+
+Likely to
+Spend1
+
+Major Activities/Adjustments
+
+Risk
+
+Approved
+NCRs
+
+Unutilized
+Risk Funds
+
+1.
+
+Operational Readiness Support
+
+H
+
+$ 2.0
+
+$0.1
+
+$1.9
+
+2.
+
+Infrastructure Hardware & Application Upgrades
+
+H
+
+0.5
+
+0.2
+
+0.3
+
+3
+3.
+
+Current Open Change Requests
+
+H
+
+06
+0.6
+
+06
+0.6
+
+00
+0.0
+
+4.
+
+Expected Nodal Change Requests
+
+H
+
+0.3
+
+0.2
+
+0.1
+
+5
+5.
+
+Network Model Management
+
+L
+
+02
+0.2
+
+01
+0.1
+
+01
+0.1
+
+6.
+
+Cutover Coordination
+
+L
+
+0.2
+
+0.1
+
+0.1
+
+$ 3.8
+38
+
+$1 3
+$1.3
+
+$ 2.5
+25
+
+Total
+
+Amounts in Millions
+Note 1: H – high probability risk has or will materialize, L – low probability risk has or will materialize
+
+19 October 2010
+
+60
+
+ERCOT Board of Directors
+
+Quarterly Reforecast Process Update
+
+61
+
+Financial Review – Board Discretionary Fund Summary
+• The
+Th Board
+B
+d Approved
+A
+d Budget
+B d t is
+i $643.8M
+$643 8M
+
+Summary
+
+Board Discretionary Fund
+• Board Discretionary Fund increasing by
+$4 1M to $117
+$4.1M
+$117.7M
+7M
+• Direct Program Costs:
+• Estimate at Completion reforecast favorable
+net variance $3.6M
+• Unutilized Q3 2010 EAC risk items $2.5M
+• Q3 unfavorable variance ($0.4M)
+• Program risk items for Q4 ($2.0M)
+• Indirect Program Costs:
+• Q3 favorable finance variance $0.6M
+• Q3 unfavorable allocations variance ($0.1M)
+
+19 October 2010
+
+62
+
+B i i b
+Beginning
+balance,
+l
+7/01/10
+
+Millions
+
+$113 6
+$113.6
+
+Direct Program Costs
+(see slide 8)
+
+3.6
+
+Indirect Program Costs
+
+0.5
+
+Ending balance, 10/1/10
+
+$117.7
+
+ERCOT Board of Directors
+
+Financial Review – Program Contingency Fund
+Q4 Risk Items Update
+Program Risk &
+Changes
+
+Approved Change
+Management Items
+Charged to Program
+Contingency
+
+Program Board
+Fund
+Fund
+
+Major Activities/Adjustments
+Existing Program Contingency at July 1, 2010
+• External Resource extensions to support
+pp Market Trials and Testing
+g ($
+($0.8M))
+• ABB Q4 Resource extension ($.3M)
+• SAS and CPLEX License and maintenance ($0.2M)
+• CRR Auction Related upgrades and staff backfill ($0.2M)
+• INT Testing Internal Resource extensions ($0.2M)
+
+$
+
+3.8
+
+(1.3)
+
+• Other Internal Resource extensions including Development,
+Development Cutover
+Cutover, ect ($0
+($0.2M)
+2M)
+• Giveback NCRs for Internal & External Labor and IBM HW Mainenance (-$0.4M)
+• EMS and OTS Vendor Funding changes (-$0.2M)
+
+Budget to Actual Variance
+
+Risk items for Inclusion in
+P
+Program
+C
+Contingency
+i
+
+Close out unutilized Q3 2010 EAC Risk Items
+• Q3 Unfavorable Direct Cost Variance
+Removal of Dec 2010 budget (-$2.8M)
+Reforecast of Q4 ETC budget using bottom-up estimates (-$0.7)
+• Operational Readiness Support
+• Current Open Nodal Change Request
+• Infrastructure Hardware Upgrades and Application Patching
+• Expected Nodal Change Requests
+• Market Design and Analysis
+Total Board Discretionary Fund Giveback
+Program Contingency Fund at October 1, 2010
+
+(2.5)
+
+2.5
+(0.4)
+3.5
+
+0.7
+0.5
+0.3
+0.3
+0.2
+$
+$
+
+2.0
+
+Amounts in Millions
+
+19 October 2010
+
+63
+
+ERCOT Board of Directors
+
+(0.7)
+(0.5)
+(0.3)
+(0.3)
+(0.2)
+3.6
+
+Financial Review – Program Contingency Fund
+Q4 Risk Request Detail
+Program Risk & Changes
+
+1.
+
+2.
+
+3.
+
+Operational Readiness Support
+
+Infrastructure Hardware & Application
+Upgrades
+
+Current Open Change Request
+
+Risk
+
+Risk Details
+
+$0.5
+
+• Potential staff augmentation due to attrition prior
+to go‐live
+• Assumes 8 additional contractors brought in
+@$2 0/h monthly
+@$250/hr
+hl
+
+0.5
+
+• Technical architecture for performance
+optimization
+• Unplanned hardware (servers and storage)
+true ups
+• HW/SW Maintenance true‐ups
+
+0.3
+
+• Open Nodal change request and exception request
+estimates as of October 1, 2010
+• Extension of internal and external labor
+
+4.
+
+Expected Nodal Change Requests
+
+0.5
+
+E ti t b
+based
+d on historical
+hi t i l change
+h
+requests
+t and
+d
+• Estimate
+future complexities. Includes risk for defect
+remediation and work efficiencies
+• ABB point –to‐point for NOIE
+• Process improvement to limit contingency in
+Wholesale Market Operations
+
+5.
+
+Market Analysis
+
+0.2
+
+• External Resource support for market design and
+analysis
+
+Total
+
+$2.0
+
+Amounts in Millions
+
+19 October 2010
+
+64
+
+ERCOT Board of Directors
+
+Financial Review – Board Discretionary Fund
+$120.0
+$117 7
+$117.7
+$113.6
+
+$112.8
+$110.0
+
+Increase of $4.1M to $117.7M
+
+$105.5
+
+$100.0
+
+$90.0
+
+$84.8
+$80.0
+
+$70.0
+
+$60.0
+
+$58.6
+
+Amounts in
+i Millions
+illi
+
+19 October 2010
+
+Potential Board Discretionary Fund
+
+65
+
+Board Discretionary Fund
+
+ERCOT Board of Directors
+
+Dec‐10
+
+Nov‐10
+
+Oct‐10
+
+Sep‐10
+
+Aug‐10
+
+Jul‐10
+
+Jun‐10
+
+May‐10
+
+Apr‐10
+
+Mar‐10
+
+Feb‐10
+
+Jan‐10
+
+Dec‐09
+
+Nov‐09
+
+Oct‐09
+
+Sep‐09
+
+Aug‐09
+
+Jul‐09
+
+Jun‐09
+
+May‐09
+
+Apr‐09
+
+Mar‐09
+
+Feb‐09
+
+Jan‐09
+
+$50.0
+
+Financial Review – Estimate At Completion
+Q4 Reforecast
+Estimate To
+Estimated
+LTD Actual
+Complete
+Program Total
+$
+79.0 $
+3.6 $
+82.6
+6.2
+0.2
+6.4
+276.6
+2.9
+279.5
+29.8
+0.6
+30.4
+49.2
+0.5
+49.7
+22
+2.2
+‐
+22
+2.2
+‐
+2.0
+2.0
+$ 443.0 $
+9.8 $
+452.8
+22.6
+0.4
+23.0
+34.8
+15.5
+50.3
+$
+57.4 $
+15.9 $
+73.3
+$ 500.4 $
+25.7 $
+526.1
+
+Line Cost Summary
+1 Internal Labor Costs
+2 Backfill Labor Costs
+3 External Resource Costs
+4 Software & Software Maintenance
+5 Hardware & Hardware Maintenance
+6 Other
+7 Program Contingency Fund Request
+9
+Sub‐total Direct Project Costs
+10 Allocations
+11 Finance Charges
+12
+Sub‐total Indirect Project Costs
+13
+Total
+Supplemental Information
+14
+15
+
+Q3 Balance
+
+Board Discretionary Fund
+February 2009 Approved Budget
+
+$ 113.6
+
+Giveback
+
+Q3 Balance
+$4.1
+
+$ 117.7
+$ 643.8
+
+Amounts in Millions
+
+19 October 2010
+
+66
+
+ERCOT Board of Directors
+
+Financial Performance
+
+67
+
+Financial Review – Program Cost Management
+Monthly Budget,
+Budget Forecast and Actual Analysis
+(Amounts in Millions)
+
+Monthly
+$18
+
+Cumulative Spend
+$570
+Dec. 2012
+
+$526.1
+
+$16
+
+$530
+$14
+$12
+
+$490
+
+$10
+$450
+$8
+$410
+
+$6
+$4
+
+$370
+$2
+
+Monthly Forecast
+
+Monthly Spend
+
+Cumulative Forecast
+
+Year 2012
+
+Year 2011
+
+Dec‐10
+
+Nov‐10
+
+Oct‐10
+
+Sep‐10
+
+Aug‐10
+
+Jul‐10
+
+Jun‐10
+
+May‐10
+
+Apr‐10
+
+Mar‐10
+
+Feb‐10
+
+Jan‐10
+
+Dec‐09
+
+Nov‐09
+
+Oct‐09
+
+Sep‐09
+
+Aug‐09
+
+Jul‐09
+
+Jun‐09
+
+May‐09
+
+Apr‐09
+
+Mar‐09
+
+Feb‐09
+
+$330
+
+Jan‐09
+
+$0
+
+Cumulative Spend
+
+Note: Years 2011 and 2012 reflect finance charges
+
+19 October 2010
+
+68
+
+ERCOT Board of Directors
+
+Financial Review – Program Cost Management
+Quarterly Budget, Forecast and Actual Analysis
+Quarterly
+$60
+
+Jan‐2006 through Project Completion (Amounts in Millions)
+Mar 2006
+Budget
+$125.7
+
+Jan 2007
+Budget
+$262.9
+
+Cumulative Spend
+
+Feb 2009
+Budget
+$643.8
+
+Jan 2008
+Budget
+$319.5
+
+Dec 2012
+$526.1
+
+$600
+
+$
+$50
+
+$525
+
+$450
+
+$40
+
+$375
+$30
+$300
+
+$225
+
+$20
+
+$150
+$10
+$75
+
+Quarterly Forecast
+
+Quarterly Spend
+
+Cumulative Forecast
+
+Year 2012
+
+Year 2011
+
+Q4'10
+
+Q3'10
+
+Q2'10
+
+Q1'10
+
+Q4'09
+
+Q3'09
+
+Q2'09
+
+Q1'09
+
+Q4'08
+
+Q3'08
+
+Q2'08
+
+Q1'08
+
+Q4'07
+
+Q3'07
+
+Q2'07
+
+Q1'07
+
+Q4'06
+
+Q3'06
+
+Q2'06
+
+$0
+
+Q1'06
+
+$0
+
+Cumulative Spend
+
+Note: Years 2011 and 2012 reflect finance charges
+
+19 October 2010
+
+69
+
+ERCOT Board of Directors
+
+Questions ?
+
+70
+
+Appendix
+pp
+
+71
+
+MMS – Day Ahead, Adjustment Period, RT Market Overview
+Recommendation of Certification
+ERCOT
+
+NATF
+
+TAC
+
+BOD
+
+Status / Other Issues:
+• Progress on the DAM performance issue concerning CRR PTP options continues to be made
+• ERCOT is planning to upgrade the hardware on which DAM runs
+• Upgraded servers are installed at ABB site and in the process of being installed at ERCOT
+• Testing of the new ERCOT servers is scheduled to begin October 18, 2010 at ERCOT
+
+• Configuration and data corrections have greatly improved HRUC performance
+• LDF methodology approved by TAC in October
+• Phase Shifter Transformers (PSTs) settings causing overloads in the DAM
+• ERCOT is developing procedures to analyze PSTs to determine the best setting to use for minimizing
+overloads. ‘Monitor Only’ elements list will continue to be managed
+
+• All required for Go-Live defects will be fixed and placed in production by no later than November 5, 2010
+Deferred Defects*:
+
+Go –Live Required Defects*:
+Required For Go-Live:
+
+Deferred
+
+17
+
+63
+* As of October 1, 2010
+
+19 October 2010
+
+72
+
+ERCOT Board of Directors
+
+EMS – Real-Time Operations
+Recommendation of Certification
+ERCOT
+
+NATF
+
+TAC
+
+BOD
+
+Status / Other Issues:
+• State Estimator/Real-Time Contingency Analysis/Transmission Constraint Manager/LFC and interface to
+MMS SCED during Full System Market and Reliability Test performing as expected.
+• STNET being upgraded to include current Zonal tools to support Outage Coordination and operations
+studies.
+• All reports required by State Estimator Standards/Telemetry Standards on track for delivery.
+
+• All remaining Required for Go-Live
+Go Live defects will be fixed and placed in production by no later than
+November 5, 2010
+Deferred Defects*:
+
+Go –Live Required Defects*:
+Required For Go-Live:
+
+Deferred
+
+19
+
+347
+* As of October 1, 2010
+
+19 October 2010
+
+73
+
+ERCOT Board of Directors
+
+COMS – Settlement & Billing, Metering, and Data Aggregation Overview
+Recommendation of Certification
+ERCOT
+
+NATF
+
+TAC
+
+BOD
+
+Status / Other Issues:
+• Statements and Invoices are being generated and published timely.
+• The core S&B calculations are working properly
+
+• There are 2 remaining go-live defects for Data Aggregation. The defects are related to transfer of owner
+h
+lilimits
+it ffrom NMMS and
+d a performance
+f
+ttuning
+i adjustment
+dj t
+t necessary ffor th
+d volume
+l
+share
+the iincreased
+off AMS
+Meters Data Aggregation. These will be resolved with the October 8, 2010 migration.
+Deferred Defects*:
+
+Go –Live Required Defects*:
+Required For Go-Live:
+
+Deferred
+
+2
+
+62
+* As of October 1, 2010
+
+19 October 2010
+
+74
+
+ERCOT Board of Directors
+
+CMM – Credit Overview
+Recommendation of Certification
+ERCOT
+
+NATF
+
+TAC
+
+BOD
+
+Status / Other Issues:
+• In conjunction with the 168-hour test, ERCOT reset Market Trials data that was causing the core credit
+calculation to be unrepresentatively high
+• This provides CPs that behave “normally” during the 168-hour test an opportunity to see what their credit calculation
+would be after “Go-Live”
+
+• Some concern by the market with transparency into the step by step consumption of credit within DAM still
+remains
+
+•The remaining Required for Go-Live defect will be fixed and placed in production by no later than by
+October 8, 2010
+Deferred Defects*:
+
+Go –Live Required Defects*:
+
+Deferred
+
+Required For Go-Live: 1
+
+51
+* As of October 1, 2010
+
+19 October 2010
+
+75
+
+ERCOT Board of Directors
+
+MIS – Market Information System Overview
+Recommendation of Certification
+ERCOT
+
+NATF
+
+TAC
+
+BOD
+
+Status / Other Issues:
+• MIS defects of highest priority are around Extract Subscriber and Dashboards. Dashboards will be
+available on the MIS on 10/12 but may be static screens due to specific data sets not running outside of the
+NPROD environment. Extract Subscriber defects will begin their testing phase during the MIS
+reconfiguration downtime..
+• Fixes for most of these are already developed and will be tested during the MIS reconfiguration downtime.
+
+i i R
+i d ffor G
+Li d
+f t will
+ill b
+d and
+d placed
+l
+d iin production
+d ti b
+t th
+• All remaining
+Required
+Go-Live
+defects
+be fifixed
+by no llater
+than b
+by
+October 15, 2010
+Deferred Defects*:
+
+Go –Live Required Defects*:
+Required For Go-Live:
+
+Deferred
+
+24
+
+9
+* As of October 1, 2010
+
+19 October 2010
+
+76
+
+ERCOT Board of Directors
+
+Nodal Defects Trends - High Priority
+(Must Fix Before Go-Live)
+• Defect counts
+decreased due to
+planned defect
+migrations into Nodal
+iTest.
+• Primary source of
+Open defect counts
+are MMS, EMS, MIS,
+and EDW.
+•Total
+Total active high
+priority defects are
+currently at 197.
+
+19 October 2010
+
+77
+
+ERCOT Board of Directors
+
+Defects, Issues, Quality of Solution: Definitions
+•
+
+Defects:
+–
+A technical error or problem between ERCOT’s internal system or between
+ERCOT and the market
+–
+Deferred defects are Severity 3 defects, that have been deferred until after GoLi
+Live,
+b
+butt h
+have a confirmed
+fi
+d workaround
+k
+d iin place
+l
+
+•
+
+Quality of Solution:
+–
+Data Issues:
+•
+•
+•
+
+–
+
+Performance Issues:
+•
+•
+
+•
+
+Heavily dependant on inputs
+No significant software issues
+On-going analysis of results and inputs
+ERCOT is constantly looking to improve performance
+Monitoring in place to detect issues
+
+Known Issues / Market Facing Issues
+–
+Issues uncovered during internal testing or market trials that impact Market
+Participants
+
+19 October 2010
+
+78
+
+ERCOT Board of Directors
+
+

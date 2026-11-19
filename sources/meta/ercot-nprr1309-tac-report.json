@@ -1,0 +1,12 @@
+{
+ "id": "ercot-nprr1309-tac-report",
+ "title": "NPRR1309 TAC Report (Dispatchable Reliability Reserve Service)",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "2026-04-29",
+ "url": "https://www.ercot.com/files/docs/2026/05/04/1309NPRR-32-TAC-Report-042926.docx",
+ "retrieved": "2026-11-19",
+ "raw_bytes": 562391,
+ "raw_sha256": "3a561dfef9d0325e682eb74666c1c999638089852023ab611545fd050ea36632",
+ "text_chars": 1755609
+}

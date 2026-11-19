@@ -1,0 +1,12 @@
+{
+ "id": "ercot-hubs-load-zones-page",
+ "title": "ERCOT Hubs and Load Zones display (settlement point names)",
+ "publisher": "ERCOT",
+ "tier": 2,
+ "edition": null,
+ "url": "https://www.ercot.com/content/cdr/html/hb_lz.html",
+ "retrieved": "2026-11-19",
+ "raw_bytes": 8539,
+ "raw_sha256": "225581f6cf64ce6789c89fde3481b3163391137decdadf2a77efda2dfce49985",
+ "text_chars": 3956
+}

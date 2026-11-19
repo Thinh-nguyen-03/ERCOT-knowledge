@@ -1,0 +1,9 @@
+To: general;operations
+
+Sent: 2/26/21, 7:57 PM
+
+Subject: M-G022621-01 Market Participant Mass Transition Event
+
+------------------------------------------------------------------------
+
+NOTICE DATE: February 26, 2021 NOTICE TYPE: M-G022621-01 Informational: Mass Transition Event SHORT DESCRIPTION: Market Participant Mass Transition Event INTENDED AUDIENCE: RMS and Affected Market Participants DAY AFFECTED: February 26, 2021 LONG DESCRIPTION: On Friday, February 26, 2021, ERCOT revoked all rights of GRIDDY ENERGY LLC to conduct activity under the ERCOT Protocols due to a Payment Breach. ERCOT Protocol Section 16.11.6.1.6(3)(b) provides that "On revocation of some or all of the Market Participant's rights...ERCOT shall initiate a Mass Transition of the Market Participant's ESI IDs pursuant to Section 15.1.3.1, Mass Transition Process." Pursuant to Protocol Section 15.1.3.1, Mass Transition, and Retail Market Guide (RMG) Section 7.11, Mass Customer Transition Process, ERCOT began the Mass Transition of GRIDDY ENERGY LLC (LSE) customers on Friday, February 26, 2021. All of GRIDDY ENERGY LLC (LSE) ESI IDs will be gained by one or more POLRs, as allocated by the PUCT Mass Transition process. The size of the associated combined 30 day Average Daily Load is approximately 1,065 MWHs and the number of ESI IDs involved is approximately 10,127. ERCOT has been working closely with PUCT staff and Affected Market Participants to ensure an efficient and effective transfer of Customers to designated POLRs. CONTACT: If you have any questions, please contact your ERCOT Account Manager. You may also call the general ERCOT Client Services phone number at (512) 248-3900 or contact ERCOT Client Services via email at ClientServices@ercot.com . If you are receiving email from an ERCOT distribution list that you no longer wish to receive, please follow this link in order to unsubscribe from this list: http://lists.ercot.com. dl

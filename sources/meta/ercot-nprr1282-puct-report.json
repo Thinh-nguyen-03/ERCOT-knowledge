@@ -1,0 +1,12 @@
+{
+ "id": "ercot-nprr1282-puct-report",
+ "title": "NPRR1282 PUCT Report (ancillary service duration under Real-Time Co-optimization)",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "PUCT approved 2025-07-31",
+ "url": "https://www.ercot.com/files/docs/2025/08/04/1282NPRR-20-PUCT-Report-073125.docx",
+ "retrieved": "2026-11-19",
+ "raw_bytes": 97761,
+ "raw_sha256": "54d492bf2088c86796be618b0897e0b9fa6fe0604ee17ccb766d74e941e6312f",
+ "text_chars": 428617
+}

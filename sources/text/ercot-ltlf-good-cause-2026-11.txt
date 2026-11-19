@@ -1,0 +1,219 @@
+PUBL~ 4
+
+~* TEX>~
+Filing Receipt
+Filed Date - 2026-11-06 01:59:00 PM
+
+Control Number - 58777
+Item Number - 42
+
+PROJECT NO. 58777
+TRIENNIAL RELIABILITY
+ASSESSMENT FOR THE ERCOT
+REGION UNDER §25.508
+
+§
+§
+§
+
+PUBLIC UTILITY COMMISSION
+
+OF TEXAS
+
+ERCOT'S MOTION FOR GOOD CAUSE EXCEPTION
+REGARDING 2027 MAGNITUDE
+Electric Reliability Council of Texas, Inc. (ERCOT) files this Motion for a Good Cause
+Exception requesting a variance from the December 1, 2026 deadline established in 16 Texas
+
+Administrative Code (TAC) § 25.508(b)(3) in order to file the reliability standard's magnitude
+update by the second quarter of 2027. A Proposed Order that would grant this request is included
+as Attachment A.
+I.
+
+BACKGROUND ON RELIABILITY STANDARD MAGNITUDE
+
+The ERCOT Region' s systemwide reliability standard, established by the Public Utility
+
+Commission of Texas (Commission) in 16 TAC § 25.508, consists ofthree criteria: the frequency,
+
+duration, and magnitude at which a loss of load event may occur as reflected in probabilistically
+modeled simulations of the ERCOT System. The values for the frequency and duration criteria
+are established in the rule while the magnitude criterion is updated on an annual basis. For the
+
+magnitude criterion, § 25.508(b)(3) requires:
+(3)
+
+Magnitude. The expected highest level of load shed during a loss of load
+event for the ERCOT region, measured as the average lost load for a given
+
+hour, must be less than the maximum number of megawatts of load shed
+that can be safely rotated during a loss of load event, as determined by
+ERCOT, in consultation with commission staff and the transmission
+operators, with a 1.00 percent exceedance tolerance. Beginning in 2024, on
+or before December 1 of each year, ERCOT must file the maximum number
+
+of megawatts of load shed that can be safely rotated during a loss of load
+event and a summary ofthe methodology used to calculate this value.
+To determine the magnitude criterion' s value, ERCOT has in prior years issued a Request
+for Information (RFI) to Transmission Operators (TOs) to determine the total megawatts (MW) in
+
+each TO's respective load shed rotation program and, of that total, how many MW can be shed at
+any one time to facilitate rotation of load shed. The aggregation of TO responses to the latter RFI
+
+1 of4
+
+question is the updated magnitude value for the ERCOT Region. The magnitude value for 2026
+
+is 13,988 MW based on a systemwide winter 2025-2026 peak load of 77,338 MW.1
+To respond to ERCOT's RFIs, ERCOT provides the TOs with the peak load forecast for
+
+the upcoming winter, including both the totalload across the ERCOT System at the peak and each
+TO's respective portion of that systemwide peak load. ERCOT has previously used the 75th
+percentile winter peak load forecast, excluding any load subject to curtailment under Public Utility
+
+Regulatory Act (PURA) §§ 37.0561(e) and 39.169.2
+II.
+
+MOTION FOR GOOD CAUSE EXCEPTION
+
+The Commission' s rule that addresses the determination of the magnitude criterion' s value,
+16 TAC § 25.508(b)(3), requires ERCOT to file by December 1 each year the maximum MW of
+
+load shed that can be safely rotated during a loss ofload event and a summary ofthe methodology
+used to calculate this value. Due to the ongoing work to finalize the Batch Zero load values,
+
+ERCOT does not yet have a final load forecast, including an official peak load forecast for winter
+2026-2027. Accordingly, ERCOT is not yet able to provide the systemwide and TO-specific total
+load that TOs require to respond to RFIs to provide an updated magnitude value for 2027. For this
+
+reason, there is good cause to grant an exception to the filing deadline in 16 TAC § 25.508(b)(3).
+ERCOT anticipates that the updated magnitude could be filed no later than the second
+quarter of 2027 after issuing RFIs near the end of the first quarter of 2027. Pursuant to the
+
+Commission's authority in 16 TAC § 25.3(b) to grant an exception, ERCOT respectfully requests
+a good cause exception to the December 1,2026 deadline in 16 TAC § 25.508(b)(3) to instead file
+
+the magnitude value for 2027 by the second quarter of 2027.
+ERCOT conferred with Commission Staff regarding its intention to seek this good cause
+
+exception and is authorized to represent that Commission Staff does not oppose this request.
+III.
+
+CONCLUSION
+
+ERCOT respectfully requests that the Commission grant ERCOT's motion for a good
+cause exception to the December 1,2026 magnitude filing deadline in 16 TAC § 25.508(b)(3) and
+
+1 See generally, Electric Reliability Council of Texas, Inc.'s Report on 2026 Reliability Standard Magnitude
+(Nov. 25,2025).
+2 These Large Load MW were excluded based on the understanding that any such load would already be
+curtailed prior to engagement of TOs' load shed rotation programs, which would be engaged only during a Level 3
+Energy Emergency Alert (EEA3).
+
+2 of4
+
+permit ERCOT to instead file the updated magnitude value no later than the second quarter of
+
+2027. Granting this request will not impact reliability or day-to-day operations of the ERCOT
+Transmission Grid and is only necessary to ensure that more accurate information is provided to
+the Commission for planning purposes. The magnitude criterion' s value is only used in assessing
+the long-term resource adequacy of the ERCOT Region.
+
+ERCOT appreciates the Commission' s consideration of this motion and would be pleased
+to provide any additional information. ERCOT personnel will attend the Commission' s November
+
+19, 2026 Open Meeting to address Commissioner comments or questions.
+
+3 of4
+
+Dated: November 6,2026
+
+Respectfully submitted,
+
+/s/ Matthew Arth
+Chad V. Seely
+SVP Regulatory Policy, General Counsel, and
+Chief Compliance Officer
+Texas Bar No. 24037466
+(512) 225-7035 (Phone)
+chad.seely@ercot.com
+Brandon Gleason
+Vice President, Legal and Compliance
+Texas Bar No. 24038679
+(512) 275-7442 (Phone)
+brandon.gleason@ercot.com
+Matthew A. Anh
+Managing Assistant General Counsel
+Texas Bar No. 24090806
+(512) 275-7435 (Phone)
+
+matthew. anh@ercot.com
+
+ERCOT
+8000 Metropolis Drive, Bldg. E, Suite 100
+Austin, Texas 78744
+(512) 225-7079 (Fax)
+
+ATTORNEYS FOR ELECTRIC RELIABILITY
+COUNCIL OF TEXAS, INC.
+
+4 of4
+
+Attachment A
+PROJECT NO. 58777
+TRIENNIAL RELIABILITY
+ASSESSMENT FOR THE ERCOT
+REGION UNDER §25.508
+
+§
+§
+§
+
+PUBLIC UTILITY COMMISSION
+
+OF TEXAS
+
+PROPOSED ORDER GRANTING GOOD CAUSE EXCEPTION
+On November 6,2026, Electric Reliability Council of Texas, Inc. (ERCOT) filed with the
+
+Public Utility Commission of Texas (Commission) a motion for a good cause exception pursuant
+to 16 Texas Administrative Code (TAC) § 25.3(b) requesting an extension of the deadline
+established by 16 TAC § 25.508(b)(3), which requires ERCOT to file by December 1, 2026 the
+
+maximum number of megawatts ofload shed that can be safely rotated during a loss of load event
+
+and a summary ofthe methodology used to calculate this value.
+Under the authority established in 16 TAC § 25.3(b), the Commission grants ERCOT a
+good cause exception to the filing deadline established by 16 TAC § 25.508(b)(3) in order for
+ERCOT to instead file the updated magnitude value no later than the second quarter of 2027. Good
+cause exists because the load or load forecast to be used by Transmission Operators (TOs) to
+
+provide information about their load shed rotation capabilities for magnitude determination
+purposes is not yet available. After that load or load forecast becomes available, ERCOT must use
+
+that information to consult with the TOs and Commission Staff and file with the Commission as
+
+soon as practicable thereafter the maximum number of megawatts of load shed that can be safely
+rotated during a loss ofload event and a summary ofthe methodology used to calculate this value.
+
+Signed at Austin, Texas the
+
+day of
+
+2026.
+
+PUBLIC UTILITY COMMISSION OF TEXAS
+
+THOMAS J. GLEESON, CHAIRMAN
+
+COURTNEY K. HJALTMAN, COMMISSIONER
+
+KATHLEEN JACKSON, COMMISSIONER
+
+MORGAN JOHNSON, COMMISSIONER
+
+PATRICK RHODE, COMMISSIONER
+
+2 of2
+
+

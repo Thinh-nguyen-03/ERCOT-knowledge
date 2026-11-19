@@ -1,0 +1,1105 @@
+PUBL~ 4
+
+~* TEX>~
+Filing Receipt
+Filed Date - 2026-11-04 06:00:45 PM
+
+Control Number - 59142
+Item Number - 78
+
+ercot*
+
+Your Power. Our Promise.
+
+TAYLOR
+
+AUSTIN
+
+2705 West Lake Dr.
+Taylor, Texas 76574
+T: 512-248-3000
+F: 512-225-7079
+
+8000 Metropolis Dr.
+Bldg. E, Suite 100
+Austin, Texas 78744
+T: 512-225-7000
+F: 512-225-7079
+
+ercot.com
+
+November 4,2026
+
+Public Utility Commission of Texas
+Chairman Thomas J. Gleeson
+Commissioner Kathleen Jackson
+Commissioner Courtney K. Hjaltman
+Commissioner Morgan Johnson
+Commissioner Patrick Rhode
+
+1701 N. Congress Avenue
+Austin, TX 78711
+Re :
+
+PUC Project No . 59142 , Review of ERCOT ' s Interconnection Processes for Large Loads
+- ERCOT Updates: Batch Zero Verification and Audit Process, Data Center State and
+Community Impact RFI, and Medium Load RFI
+
+Dear Chairman and Commissioners:
+Attached are three presentations that provide updates on several important initiatives
+relating to the interconnection of Large or Medium Loads in the Electric Reliability Council of
+Texas, Inc. (ERCOT) Region. Attachment A provides a status update on ERCOT's ongoing Batch
+Zero verification and audit process, including an update on some ofthe most common verification
+issues ERCOT has identified in this process to date. Attachment B provides some initial
+information about the responses ERCOT has received in response to its Data Center State and
+Community Impact Request for Information (RFI), including some information on the size,
+function, and location of data centers based on submitted information. Finally, Attachment C
+provides an update on an RFI ERCOT has recently issued to Transmission Service Providers
+(TSPs) and Distribution Service Providers (DSPs) to obtain additional information about Medium
+Loads (less than 75 MW) that have requested interconnection in the ERCOT Region. I will be
+prepared to discuss these with you at the November 5,2026 open meeting.
+Also, please note that ERCOT is continuing its evaluation of requests for potential good
+cause exceptions relating to the Batch Zero eligibility criteria in Planning Guide Revision Request
+(PGRR) 145 that were submitted in response to ERCOT's July 23, 2026 Market Notice. As
+discussed at the Commission' s August 20,2026 open meeting, ERCOT has determined that the
+
+only developer-submitted good cause exception requests it intends to pursue are those that sought
+additional time to post financial security beyond the deadline established in PGRR145 and those
+that requested additional time to submit a late Form W, regarding Provisional Controllable Load
+Resource (PCLR) status. With respect to the first of these two requests, ERCOT has confirmed
+that each ofthe Large Loads seeking a later security posting deadline has now posted that security;
+granting the exception would simply recognize that late posting as sufficient to meet the PGRR145
+
+eligibility criteria.
+ERCOT also intends to seek a good cause exception on its own initiative outside of the
+process defined in the Market Notice. This additional exception concerns Large Loads that were
+
+submitted as energized loads under Planning Guide Section 9.2.1.1(1)(b), but that ERCOT
+determined had not energized by July 10, 2026. ERCOT intends to ask the Commission to allow
+those loads to submit eligibility materials after the deadline so they may qualify under Section
+9.2.1.1(1)(e). ERCOT expects to file these good cause exception requests for PUC consideration
+next week, which would allow the Commission to consider them at the December 17, 2026 open
+meeting.
+Respectfully,
+
+/W Chad V. See1¥
+Chad V. Seely
+SVP, Regulatory Policy, General Counsel, and
+Chief Compliance Officer
+
+chad.seely@ercot.com
+
+2
+
+Attachment A
+
+ercoi7
+
+· Review timeline
+· Reviewing teams
+· Emerging trends
+
+· Next steps
+
+Batch Zero Eligibility
+~
+Verification Process Update
+Chad V. Seely
+Senior Vice President, Regulatory Policy,
+General Counsel, and Chief Compliance Officer
+PUC Open Meeting
+November 5,2026
+
+ercot9
+
+Batch Zero Eligibility Verification Requests for Information (RFI)
+
+PUBLIC
+
+Second Round RFIs Are Being Issued
+
+First Round RFI Review Update
+Transmission Service Providers (TSPs) timely submitted all first round RFIs.
+Several groups within ERCOT, as well as outside legal counsel, have reviewed
+
+the responses from 257 developers, approximately 5,140 questions.
+
+ERCOT is finalizing its review, conducting consistency checks, and issuing
+second RFIs. ERCOT expects to send RFIs to 80% of the developers. The
+RFIs are tailored to each developer and have fewer questions. Consistent with
+Planning Guide Section 9.1(8), the second round RFIs provide developers a
+"reasonable opportunity" to explain any deficiencies. 5 Business Day deadline.
+
+ERCOT Teams Involved in the Verification Review Process
+
+Review letters of credit,
+
+including bank ratings, and
+parental or corporate
+guaranties.
+
+Weatherization
+Inspectors
+Review site plans and
+
+equipment for financial
+security for system
+upgrades and direct
+interconnection costs.
+
+Engineers
+
+Legal
+
+Review long-lead time
+
+ERCOT Legal, working with
+
+equipment and studies for
+system upgrades.
+
+outside counsel, review site
+control evidence, agreements,
+financial security
+documentation and evaluate it
+
+Internal Audit
+Develop tools for tracking the
+
+review process for
+project consistency and
+monitoring of issues.
+
+against Planning Guide
+Section 9 requirements.
+
+Emerging, Recurring Issues
+
+Concluding the Verification Process
+
+Although ERCOT has not completed its review, common issues are emerging:
+
+ERCOT must complete its review this month to file a report with the PUCT on
+December 10, 2026.
+
+·
+
+Lack of documentation to establish affiliate relationships
+
+·
+
+Inability to demonstrate site control
+Inability to establish long-lead time equipment ordered and will be delivered
+
+before energization
+Difficulty confirming the amount of financial security posted
+
+ERCOT encourages developers, TSPs, and Distribution Service Providers
+(DSPs) to respond as soon as possible with the additional information. ERCOT
+may reach out to Interconnecting TSPs and DSPs to discuss deficiencies.
+N
+
+Finance
+
+Attachment B
+
+ercoi7
+
+RFI response statistics
+
+Comparison of Large Load and Medium
+Load responses
+Data on size, function, and location
+
+Data Center State and
+Community Impact RFI:
+Preliminary Summary
+Chad V. Seely
+Senior Vice President, Regulatory Policy,
+General Counsel, and Chief Compliance Officer
+PUC Open Meeting
+November 5,2026
+
+ercot·~
+Executive Summary
+
+IPIWJBjLII(¢,
+
+PRELIMINARY AS OF 11/5, SUBJECT TO CHANGE
+
+·
+
+ERCOT issued the Data Center State and Community Impact Request for Information (RFI) to 465 loads.
+
+·
+
+433 of 465 loads (93%) submitted the RFI, covering -177 GW (-97%) of requested interconnection capacity.
+- 417 RFIs were submitted on time (most due 5pm CT on 10/12), and 16 were submitted late. 32 Medium Load
+
+responses have not been submitted.
+- All 245 Large Loads (75 MW or greater) responded to the RFI.
+
+- Large Loads represent -94% of requested interconnection capacity (-166 GW). Among Large Loads, 33 projects
+representing 36% of capacity are requesting interconnections greater than 1 GV\L
+
+- Requests span every ERCOT Load Zone; V\/est Texas represents the plurality with 41% of capacity (73 GW).
+· Respondents answered 83% of the nearly 67,000 RFI questions, sufficient to provide a statistically meaningful
+
+analysis for the final report.
+- Projects with later planned energization dates (e.g., 2028+) had a higher rate of "Not Applicable or unable to
+answer" ('N/A) responses, commensurate with lower project maturity.
+- Medium Loads with energization dates planned pre-2028 included 'N/A' responses at a higher rate than Large
+Loads, indicating developers had not decided on some critical equipment configurations (e.g., cooling technology).
+
+Detailed data analysis is currently underway, and ERCOT is targeting a published final report on December 10, 2026.
+N
+
+·
+
+ercot9
+PUBLIC
+
+All Large Loads have responded to the Community
+Impact RFI
+
+PRELIMINARY AS OF 11/5, SUBJECT TO CHANGE
+
+~ Voluntary Medium Load ~ Medium Load ~ Large Load
+
+Key insights
+
+RFIs issued and received by ERCOT, # of loads
+
+•
+
+465
+17
+
+· The State and Community
+Impact RFI was issued to 465
+
+433 submitted
+
+16
+
+loads.
+417
+
+32
+203
+
+· All Large Loads going through
+the ERCOT interconnection
+
+process have responded to the
+RFI.
+
+~
+
+r159 1
+
+· 433 (93%) issued RFIs have
+
+been received, representing
+-97% of the requested capacity:
+·
+
+245
+
+417 (96%) RFIs were
+
+received on time
+
+241
+·
+
+16 (4%) RFIs were received
+
+after the deadline
+Final issued
+
+Not submitted to ERCOT
+
+Submitted late
+
+Submitted on time
+
+·
+
+32 (7%) of RFIs have not
+
+been submitted.
+
+ercot9
+PUBLIC
+
+Respondents answered over 56,000 individual questions,
+
+sufficient to provide a statistically meaningful analysis
+
+PRELIMINARY AS OF 11/5, SUBJECT TO CHANGE
+
+~ Answered with value ~ Marked "N/A or unable to answer"
+
+# of
+questions
+
+Large Load N/A responses, % of answers
+
+Medium Load N/A
+
+# of
+
+responses, % of answers
+
+questions
+
+Key insights
+·
+
+83% of -67,000 questions in
+
+FI - Facility Informationl
+
+100%
+
+1,701
+
+100%
+
+1,302
+
+RD - Reasons for developmentl
+
+100%
+
+243
+
+100%
+
+186
+
+providing -56,000 data
+
+1,488
+
+points. This data set is
+
+submitted RFIs were answered,
+A - Financial assistance
+
+73%
+
+27%
+1
+
+B - Power self-sufficiency
+
+83%
+
+D - Cooling
+
+63%
+
+37%
+1
+
+17% 9,642
+
+85%
+
+37%
+
+.
+
+15% 6,498
+1
+
+/
+
+~ 6,744
+
+79%
+
+63%
+
+.
+
+1
+
+C - Water
+
+1,988
+
+2,148
+
+E - Community Impact ~ 12,687
+
+71%
+55%
+
+29%
+45%
+
+81%
+
+/
+
+4,725
+1,646
+
+~ 9~520
+
+F - Owner'shipl
+
+100%
+
+3,487
+
+100%
+
+2,478
+
+G - Attestationl
+
+100%
+
+243
+
+100%
+
+186
+
+Total
+
+84%
+
+16% 38,883
+1
+
+.
+
+81%
+
+~ 28,029
+
+expected to be sufficient for a
+statistically meaningful analysis
+in the public report.
+· The largest fraction of not
+
+answered questions were
+related to cooling, where
+respondents indicated that
+many projects had not
+determined their final cooling
+configuration.
+rate of N/A answers was
+· The
+slightly lower among Large
+Loads (-16%) than Medium
+Loads (-19%).
+
+1.
+
+Category did not allow "N/A or unable to answer" as possible response option
+
+ercot9
+PUBLIC
+
+Projects with 2028+ requested energization dates were
+more likely to provide N/A responses
+
+PRELIMINARY AS OF 11/5, SUBJECT TO CHANGE
+
+Key insights
+~ Not applicable ~ Not determined ~ Dependent on third party
+
+Other
+
+energization dates responded
+
+N/A rationale by
+Requested energization
+
+pre-2028, 169 facilities, %1
+
+B - Power self-sufficiency
+
+Average number of'N/A'
+responses per RFI, #
+
+responses
+
+Jan 2028+, 260 facilities, %1
+
+responses
+
+/ 32%
+
+689
+
+21% ~18% 944
+
+26%
+
+E - Community Impact --6,
+
+Total
+
+# of N/A
+
+4%
+
+12%
+.
+916
+
+C - Water ~
+
+D - Cooling
+
+Requested energization
+
+'/16% 404
+
+50%
+
+A - Financial assistance *
+
+# of N/A
+
+~16% 463
+
+p
+
+21 %
+
+/~0 /// 65% 1//// ///,~
+
+1,697
+
+[*WI! 1 72% '~
+
+1,853
+
+113%, ® ~.%
+
+~ 15% 1,122
+
+60 %-,~
+
+15%
+
+23%
+
+3,849
+
+CiFED>
+
+Facility Information (FI), Reasons for development (RD), Ownership (F), Attestation (G) Sections omitted due to full compliance and no N/A reporting
+
+'N/A to questions 30% more
+
+frequently than pre-2028, and
+had a higher share of
+responses that were "Not
+
+determined"
+Full N/A answer text from RFI
+
+1,077
+
+I Not applicable - Does not
+
+apply given project, facility, or
+site design
+• Not determined - Project
+
+2,389
+
+7,705
+
+hasn't reached stage of
+development where decision
+has been made
+• Dependent on third party Decision rests with a party not
+
+yet selected or under contract
+E] Other
+
+,
+Cn
+
+facility energization
+date
+
+1.
+
+· Projects with 2028+ requested
+
+ercot9
+Medium Load projects with pre-2028 energization dates
+were more likely to select N/A and "not determined"
+
+PUBLIC
+
+PRELIMINARY AS OF 11/5, SUBJECT TO CHANGE
+
+Key insights
+~ Not applicable ~ Not determined ~ Dependent on third party
+
+Othi
+
+, For 169 facilities with requested
+
+N/A rationale for
+
+energization dates before 2028,
+
+pre-2028
+energization
+facilities, by size
+
+Large Loads, 88
+
+# of N/A
+
+facilities, %1
+
+Medium Loads, 81
+
+# of N/A
+
+responses
+
+facilities, %1
+
+resf)onses
+
+Medium Loads were more
+likely to provide N/A answers,
+
+and selected "not determined"
+
+B - Power self-sufficiency
+
+- -- 26%
+
+56%
+
+A - Financial assistance
+
+26% ~ 24%
+
+E - Community Impact
+
+Total
+
+32%
+
+29°f~~ 24% 190
+
+23% ~ 24%
+27%
+
+I 41 %
+
+/ 47%
+
+234
+
+~70°/~-Ljlilillr.Vilzfl 525
+273
+
+)22%
+
+~
+
+as N/A rationale at a higher rate
+than Large Loads (63% vs
+
+41%).
+Full N/A answer text from RFI
+I Not applicable - Does not
+
+apply given project, facility, or
+site design
+• Not determined - Project
+
+70%
+
+447
+
+_ &"& 23% 1,761
+
+I 41%
+
+---~-= 10%
+381
+12%
+
+563
+
+'. 21 % 391
+
+C - Water
+
+D - Cooling
+
+170
+
+19%
+
+675
+2,088
+
+hasn't reached stage of
+development where decision
+has been made
+• Dependent on third party Decision rests with a party not
+
+E] Other
+1.
+
+Facility Information (FI), Reasons for development (RD), Ownership (F), Attestation (G) Sections omitted due to full compliance and no N/A reporting
+
+Ard
+
+CD
+
+yet selected or under contract
+
+ercot9
+
+The overwhelming majority of capacity requested
+comes through Large Loads
+
+PUBLIC
+
+PRELIMINARY AS OF 11/5, SUBJECT TO CHANGE
+
+Key insights
+
+Requested interconnection capacity by RFI respondent, # of Ioadsl
+
+~ Total peak requested interconnection capacity (GW)
+
+~ Medium Load ~ Large Load
+Total ~.
+
+038.3
+
+026.2
+
+RFI responses represent -177
+GW of requested interconnection
+
+capacity.
+·
+
+capacity.
+
+143
+·
+
+89
+74
+
+While GW+ loads represent only
+
+25
+8
+50-75
+
+75-200
+
+200-500
+
+500-1,000
+
+1,000-2,000
+
+>2,000
+
+Interconnection capacity requested (MW)
+Source: ERCOT State and Community Impact RFI, Sep-Oct 2026; number of loads by total requested peak interconnection capacity (B-la, MW). Each
+band includes its lower bound (e.g., 75-200 = 275 to <200 MW). Load type is set by B-la at 75 MW (Large Load 275 MW, Medium Load <75 MW) rather
+than the categorythe respondent selected. The 17 Voluntary Loads are folded in (all 17 Medium). B-la n = 429 (243 LL, 186 ML); none N/A.
+1.
+
+Based on 429 loads in reviewed dataset
+
+Medium Loads skew heavily
+above 50 MW, with >85% of
+the -11 GW of requested
+Medium Load capacity above
+
+this threshold
+
+47
+
+43
+
+Large Loads represent -166
+GW (94%) of requested
+
+33 of respondents, they include
+over 1/3 (36%) of the requested
+capacity
+
+ercot9
+
+A small fraction of data centers plan to engage in virtual
+
+currency mining activities
+
+PUBLIC
+
+PRELIMINARY AS OF 11/5, SUBJECT TO CHANGE
+
+~ Partial virtual currency mining I All virtual currency mining I No virtual currency mining
+
+Total requested interconnection capacity, GW1
+
+Facility function, # of Ioadsl
+
+186
+
+11.3
+
+429
+
+177.4
+
+166.1
+
+Key insights
+
+· -95% of facilities will not
+conduct any virtual currency
+mining activities, representing
+>99% (175.9 GW) of the total
+
+10.1
+
+requested interconnection
+capacity.
+
+166
+
+· Of the 22 facilities reporting
+
+243
+
+virtual currency mining as a full
+or partial facility function, nearly
+all (20) are Medium Loads
+requesting <75 MW
+
+241
+
+· The observed price-responsive
+
+nature of virtual currency mining
+has operational implications for
+the ERCOT system.
+Medium Load
+
+All
+
+Large Load
+
+Medium Load
+
+All
+
+Source: ERCOT State and Community Impact RFI, Sep-Oct 2026; Left: number of loads by primary computation function (B-1). Right: total requested
+peak interconnection capacity (B-la, GW) by the same B-1 function. A load that reports both uses is counted once under "Partial virtual currency mining",
+with all of its MW; the RFI doesn't split MW between data center and mining. Load type is set by B-1 a at 75 MW (Large Load 275 MW, Medium Load <75
+MW), as on the previous page. B-1 and B-la n = 429 (243 LL, 186 ML); none N/A or"Other"
+1.
+
+Based on 429 loads in reviewed dataset
+
+00
+
+Large Load
+
+ercot9
+PUBLIC
+
+Requests span every ERCOT Load Zone; West Texas represents the plurality with
+41% of capacity (73 GW)
+
+PRELIMINARY AS OF 11/5, SUBJECT TO CHANGE
+
+Facilities and power draw by major Load Zonei count and peak interconnection capacity (GW)1
+LL = Large Load
+ML = Medium Load
+
+Houston
+14 LL · 24 ML · 10 GW
+
+South
+
+1
+
+<72 LL · 38 ML · 49 GW 4
+
+1.
+2.
+
+Based on 429 loads in reviewed dataset
+Does not include Non-Opt-In Entity (NOIE) Load Zones
+
+(m
+
+Source: ERCOT State and Community Impact RFI, Sep-Oct 2026; number of loads and requested peak MW by ERCOT Load Zone, assigned from facility GPS coordinates (FI-5) on the ERCOT load zone map;
+Actual assigned Load Zone is set at interconnection and may differ. N = 429 included loads (243 LL, 186 ML), 37 near a zone boundary;
+
+Attachment C
+
+ercot9
+
+· Why ERCOT issued the RFI
+· How the RFI process works
+· How responses are reviewed
+· Timeline and next steps
+
+Medium Load Request for
+Information (RFI)
+Process Overview
+Chad V. Seely
+Senior Vice President, Regulatory Policy,
+General Counsel, and Chief Compliance Officer
+PUC Open Meeting
+November 5,2026
+
+ercot9
+
+ERCOT initiated this RFI because of growing risk to the ERCOT System
+from Medium-size Loads
+
+132
+
+10 to <75 MW
+
+Nov 6,2026
+
+RFIs issued Oct. 26,2026, one per
+utility (all TSPs and DSPs)
+
+Load size covered: 10 MW to under
+75 MW (Medium Loads)
+
+Responses due, 5:00 PM CST
+
+Who receives it
+
+What it asks
+
+Why
+
+· The Authorized Representative for
+Transmission and Distribution Service
+Providers (TSPs and DSPs)
+
+· Interconnection requests from loads of
+any type, 10 MW to under 75 MW,
+received July 1 to Oct. 31, 2026
+
+· Significant increase in Medium Loads
+reported to ERCOT as part of the August
+
+· One RFI per TSP or DSP, issued and
+answered in ERCOT's Resource
+Integration and Ongoing Operations
+(RIOO) interconnection portal
+
+· Whether the TSP or DSP has requests to
+
+· Informal reports from TSPs and DSPs
+
+· For information purposes only
+
+report, has none, or is reported for by
+
+another TSP or DSP
+
+2026 data refresh
+that there has been a significant increase
+in requests over the Summer 2026
+
+· For each request: load type, requested
+MW, location, energization date and
+
+· Allocation of capacity to Medium Loads
+
+ramp, whether behind the meter, and
+developer and project names
+
+a Base Load in Batch Zero and leave
+
+could be the same capacity allocated to
+little capacity for native load growth
+
+Key Takeaway: The RFI gives ERCOT information on interconnection requests from Medium Loads, which fall below the
+75 MW Large Load threshold.
+N
+
+PUBLIC
+
+ercot9
+PUBLIC
+
+Responses are due Nov. 6,2026; ERCOT then follows up and assesses
+
+the information
+Oct. 26,2026
+
+132 RFIs issued
+
+Oct. 31, 2026
+
+Nov. 6,2026
+
+After Nov. 6
+
+Timing not yet set
+
+0
+
+0
+
+0
+
+0
+
+End of the request window
+(July 1 to Oct. 31)
+
+Responses due,
+5:00 PM CST
+
+Follow-up with utilities that
+
+Follow-up round for
+
+have not responded
+
+utilities to update their
+
+responses
+What ERCOT will do with the information
+· Compile the responses into a single view of Medium Load requests
+
+· Assess the size, timing and location of the requests and the risk they present to the ERCOT System
+
+· Update the information through follow-up round if necessary
+· May result in future regulatory changes
+
+Key Takeaway: The information will help ERCOT assess the risk from Medium Loads to the ERCOT System and work with
+the PUCT on possible future regulatory changes.
+
+

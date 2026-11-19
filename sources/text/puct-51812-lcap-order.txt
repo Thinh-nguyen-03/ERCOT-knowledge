@@ -1,0 +1,104 @@
+Control Number: 51812
+
+Item Number: 57
+
+Addendum StartPage: 0
+
+PROJECT NO. 51812
+
+2021 MAR -3 PM 12: 55
+ISSUES RELATED TO THE STATE OF
+DISASTER FOR THE FEBRUARY 2021
+WINTER WEATHER EVENT
+
+§
+§
+§
+
+PUBLIC UTILITY COMMISSION
+.
+
+1
+
+i
+
+FHJNG CLERK
+
+OF TEXAS
+
+ORDER REINSTATING LOW SYSTEM-WIDE OFFER CAP
+On February 12, 2021, in response to an extreme winter weather event, Governor Greg
+Abbott issued a Declaration ofa State ofDisaster for all counties in Texas. Further, on Februaryl 5,
+
+2021, the Electric Reliability Council of Texas, Inc. (ERCOT) declared its highest state of
+emergency, an Energy Emergency Alert Level 3 (EEA3), due to exceptionally high electric
+
+demand exceeding limited supply. ERCOT remained in EEA3 through 9AM on February 19,
+2021. Recovery from the emergency conditions is continuing as market activities stabilize.
+
+On February 16, 2021, in response to significant market anomalies, the Commission found
+
+good cause to suspend, and issued an order suspending, the use of the low system-wide offer cap
+(LCAP) until after the Commission's next regularly scheduled open meeting. The Commission
+ordered ERCOT to use the high system-wide offer cap (HCAP) until the LCAP is reinstated.
+When administering the scarcity-pricing mechanism, the system-wide offer cap is set equal
+
+to the HCAP at the beginning of each calendar year and maintained at this level until the peaker
+
+net margin during a calendar year exceeds a threshold of three times the cost of new entry of new
+
+generation plants.1 Once the peaker-net-margin threshold is achieved, the system-wide offer cap
+is set at the LCAP for the remainder of the calendar year.2 The LCAP is set at the greater of either
+
+$2,000 per megawatt-hour (MWh) and $2,000 per megawatt (MW) per hour or 50 times the
+natural-gas-price-index value determined by ERCOT expressed in dollars per MWh and dollars
+per MW per hour.3
+
+The peaker-net-margin threshold was exceeded during the ERCOT operating day of
+February 16, 2021.
+
+Due to exceptionally high natural gas prices at the time, and without
+
+1 16 Tex. Admin. Code § 25.505(g)(6)(C).
+1 Id.§ 25 . 505 ( g )( 6 )(D ).
+
+3 Id.§ 25 . 505 ( g )( 6 )( A ).
+
+PUC Docket No. 51812
+
+Order Reinstating Low System-Wide Offer Cap
+
+Page 2 of 2
+
+Commission action, the LCAP, calculated as 50 times the natural-gas-price-index value, would
+have exceeded the HCAP of $9,000 per MWh and $9,000 per MW per hour established by
+
+Commission rule.4 This anomalous event was the basis for the Commission's suspension of the
+LCAP mechanism. The natural gas price index has now stabilized and the LCAP is not expected
+
+to exceed the HCAP going forward.
+Therefore, good cause no longer exists to suspend the use of the LCAP and reinstatement
+
+of the LCAP mechanism is necessary to protect consumers, as originally contemplated by the
+
+scarcity pricing mechanism. Accordingly, the Commission terminates the suspension of the use
+of the LCAP and orders ERCOT to resume application of the LCAP when administering the
+
+scarcity pricing mechanism as provided by Commission rule.
+
+Signed at Austin, Texas the 3rd day of March 2021.
+
+PUBLIC UTILITY COMMISSION OF TEXAS
+
+ARTHUR C. D'ANDREA, COMMISSIONER
+
+<FL« *e 6/(*
+
+SHELLY BGTNIN, COMMISSIONER
+
+W2013
+q:\cadm\orders\misc.orders\5xxxx\51802 order reinstating leap.docx
+
+4 16 Tex. Admin. Code § 25.505(g)(6)(B)
+
+

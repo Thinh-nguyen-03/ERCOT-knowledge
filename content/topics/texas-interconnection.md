@@ -74,7 +74,7 @@ evidence:
   - id: e12
     source: ferc-nerc-uri
     locator: "FERC-NERC February 2021 report, ERCOT seasonal assessment discussion"
-    quote: "ERCOT does not classify flows across its DC ties as firm capacity because such flows are scheduled as day-ahead energy transactions."
+    quote: "ERCOT does not classify flows across its DC ties as firm capacity because such flows are scheduled as day-ahead energy transactions. However, in its SARA, ERCOT assumed an expected amount of net imports based on the average amount of net imports reported during winter 2013/2014 EEA intervals."
   - id: e13
     source: ferc-nerc-uri
     locator: "FERC-NERC February 2021 report, footnote 197"
@@ -93,7 +93,7 @@ The ERCOT System (often called the Texas Interconnection) is the interconnected 
 
 ERCOT is a functionally separate interconnection with four asynchronous ties. Two DC ties, the North Tie and the East Tie, connect it to the Eastern Interconnection through SPP. [e3] Two more, the Laredo Variable Frequency Tie and the Railroad Tie, connect it to Mexico. [e4] Total DC tie capability is about 1,220 MW: 820 MW to SPP and 400 MW to Mexico. [e5]
 
-Power can flow either way across the ties. Exports add to ERCOT demand and imports add to supply. [e6] ERCOT does not count DC tie flows as firm capacity because they are scheduled as day-ahead energy transactions. [e12]
+Power can flow either way across the ties. Exports add to ERCOT demand and imports add to supply. [e6] The 2021 FERC-NERC report says ERCOT does not classify DC tie flows as firm capacity because they are scheduled as day-ahead energy transactions, although its seasonal assessment (SARA) did assume an expected amount of net imports based on winter 2013/2014 EEA intervals. [e12]
 
 Isolation shapes reliability. With no synchronous neighbors, all frequency response must come from resources inside ERCOT. Because the system is smaller than the other interconnections, losing a unit causes a steeper frequency drop, so ERCOT needs more robust frequency response. [e7]
 

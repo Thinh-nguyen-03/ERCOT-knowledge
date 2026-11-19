@@ -1,0 +1,1086 @@
+TEXAS COURT OF APPEALS, THIRD DISTRICT, AT AUSTIN
+
+NO. 03-21-00098-CV
+
+Luminant Energy Company LLC, Appellant
+v.
+Public Utility Commission of Texas, Appellee
+
+DIRECT APPEAL FROM THE PUBLIC UTILITY COMMISSION OF TEXAS
+PROJECT NO. 51617
+
+OPINION
+In this direct appeal, we consider a challenge to the validity of a pair of related
+Orders issued by the Public Utility Commission (PUC, Commission) on February 15 and 16 of
+2021, respectively, governing scarcity pricing in the wholesale electricity market during Winter
+Storm Uri. See Order Directing ERCOT to Take Action and Granting Exception to Commission
+Rules, PUC Project No. 51617 (Feb. 15, 2021); Second Order Directing ERCOT to Take Action
+and Granting Exception to Commission Rules, PUC Project No. 51617 (Feb. 16, 2021). Appellant
+Luminant Energy Company LLC (Luminant) and aligned intervenors 1 (collectively, Appellants)
+
+1 Appellant-Intervenors are Constellation NewEnergy, Inc.; Exelon Generation Company,
+
+LLC; Logan’s Gap Wind LLC; Pattern Energy Group LP; Pattern Gulf Wind, LLC; Pattern
+Panhandle Wind, LLC; Pattern Panhandle Wind 2 LLC; RWE Renewables Americas LLC; Texpo
+Power LP; and TX Hereford Wind, LLC. Appellee-Intervenors are Calpine Corporation; Talen
+Energy Corporation; and TexGen Power, LLC. Intervenor DGSP2 LLC aligns with different
+parties on different issues.
+
+contend that the subject Orders (1) constitute de facto competition rules under Chapter 39 of the
+Texas Utilities Code, (2) were adopted in violation of the rulemaking provisions of the
+Administrative Procedure Act (APA), and (3) exceed the Commission’s statutory authority. We
+agree with Appellants’ first and third points and therefore do not reach the second. We reverse the
+Commission’s Orders and remand for further proceedings consistent with our ruling.
+I.
+BACKGROUND
+The generation and sale of electric power is subject to a number of unique physical
+and engineering constraints that make it unlike other goods and services. Although battery
+technology is constantly improving, electricity remains difficult to store at scale, meaning that
+most electricity generation must occur concurrently with consumption. See, e.g., TXU Generation
+Co., v. Public Util. Comm’n of Tex., 165 S.W.3d 821, 827 (Tex. App.—Austin 2005, pet. denied)
+(discussing background of electricity market in Texas).
+
+Moreover, for technical reasons,
+
+generation and consumption must at all times be maintained in near-perfect balance at an
+equilibrium point of 60 Hertz, or else a total grid collapse, together with serious damage to grid
+equipment, could result. Id. at 828. Moreover, constraints on transmission can result in grid
+congestion, and power generated in one geographic region may not be available to consumers in
+another. Id. at 827.
+In part for the foregoing reasons, electric power in Texas as elsewhere was
+historically thought of as a “natural monopoly,” with economies of scope and scale that rendered
+it relatively insusceptible to efficient delivery through market competition. Id. (citing Reliant
+Energy, Inc. v. Public Util. Comm’n of Tex., 101 S.W.3d 129, 133 (Tex. App.—Austin 2003),
+rev’d in part by CenterPoint Energy, Inc. v. Public Util. Comm’n of Tex., 143 S.W.3d 81
+2
+
+(Tex. 2004)). Through much of the Twentieth Century, electric utilities were authorized by law
+to operate in tightly regulated, vertically integrated monopolies throughout the state. Monopoly
+power meant that, in any given geographical area, only one electric utility was authorized to
+provide electricity to retail customers. Vertical integration meant that, for any given customer, a
+single entity controlled all three of the principal components of electricity delivery: “generation
+of power; transmission of that power on high-voltage lines over long distances; and distribution of
+power over shorter distances to the ultimate consumer.” TXU Generation, 165 S.W.3d at 827
+(quoting City Pub. Serv. Bd. of San Antonio v. Public Util. Comm’n of Tex., 9 S.W.3d 868, 870
+(Tex. App.—Austin 2000), aff’d, 53 S.W.3d 310, 312 (Tex. 2001)). Tight regulation meant that,
+for any utility, the rates it could charge for electricity were set by the Commission.
+The regulated monopoly model provided reliable electric power at a price to the
+consumer that actually fell year over year until the 1970s. Beginning in or around 1973, however,
+the OPEC oil embargo and the resultant energy crisis—which came at a time when a substantial
+portion of electricity generation in the U.S. was fueled by petroleum—produced dramatic price
+increases and gave rise to political pressure from consumers for some kind of reform in order to
+control costs. See Seth Blumsack, Measuring the Benefits and Costs of Regional Electric Grid
+Integration, 28 Energy L. J. 147, 149 (2007). In response, Congress and several states enacted
+measures to encourage competition in the electric power market through deregulation
+and restructuring. See, e.g., Public Utility Regulatory Policies Act of 1978, Pub. L. 95–617,
+92 Stat. 3117 (allowing electricity production by independent producers in federally regulated
+markets). That restructuring has taken a variety of forms in different regions, but essential
+components typically include (1) the vertical disintegration of electric utilities into separate
+generation, transmission, and distribution utility entities; (2) retail competition at the generation
+3
+
+level, with customers able to choose from among competing providers selling at rates based on
+market prices rather than regulated costs; (3) the use of spot markets for energy and, in some cases,
+ancillary services such as capacity and reserves; and (4) the management of the transmission and
+distribution grid on a regional scale by an independent entity rather than the transmission owners.
+Blumsack, supra at 152.
+The latter feature was necessary to ensure that competing generators received
+nondiscriminatory access to transmission infrastructure in order to reach their customers. Put
+another way, for generation to be deregulated and open to competition, it was necessary for
+transmission to remain tightly regulated and transparent, lest transmission owners grant
+preferential access to favored generators. Toward that end, the Federal Energy Regulatory
+Commission (FERC) in 1996 issued Orders 888 and 889 to require transmission utilities to give
+generators nondiscriminatory access under an open-access tariff and to publish real-time available
+capacity.
+
+See Order No. 888, Promoting Wholesale Competition Through Open Access
+
+Nondiscriminatory Transmission Services by Public Utilities; Recovery of Stranded Costs by
+Public Utilities and Transmitting Utilities, 61 Fed. Reg. 705-02 (1996) (codified at 18 C.F.R.
+pt. 35); Order No. 889, Open Access Same-Time Information System (formerly Real-Time
+Information Networks) and Standards of Conduct, 61 Fed. Reg. 21,737-01 (1996) (codified at
+18 C.F.R. pt. 37). These orders, together with Order 2000, introduced the closely related concepts
+of Independent System Operator (ISO) and Regional Transmission Organization (RTO).
+Order No. 2000, Regional Transmission Organizations, 65 Fed. Reg. 45,854-01 (2000) (codified
+at 18 C.F.R. pt. 35).
+
+Though distinct in terms of governance structure and congestion
+
+protocols, ISOs and RTOs are sufficiently similar in function that the terms are often used
+interchangeably. Blumsack, supra at 147 n. 1. Either designation, RTO or ISO, refers to the
+4
+
+independent, not-for-profit organization that manages the joint transmission assets of a number of
+regionally interconnected transmission utilities in a deregulated region. Such entities have no
+assets of their own and take no position in the wholesale market, but are responsible for managing
+bulk transmission, ensuring equal access to the grid by customers and suppliers, dispatching
+reserve generation as needed to balance supply and demand, and often making a market for
+wholesale electric generation and ancillary services. Id. at 147. Today, seven such regional
+entities are operating in the United States, covering approximately half of the states and two-thirds
+of total annual demand.
+Texas’s foray into deregulation began in 1999, when the Legislature enacted Senate
+Bill 7, amending the Public Utility Regulatory Act (PURA) to deregulate Texas’ electricity market
+and require that wholesale and retail rates generally be set by competition rather than regulation.
+See Act of May 27, 1999, 76th Leg., R.S., ch. 405, 1999 Tex. Gen. Laws 2543, 2543–2625
+(codified at Tex. Util. Code §§ 39.001–.910.) Texas is distinct in that, by sheer size, its grid is one
+of the nation’s three major regional interconnections, and yet, because it is entirely within the state,
+it is not subject to FERC regulation. Nevertheless, deregulation in Texas has largely conformed
+to the pattern seen elsewhere in the country. With SB 7, the Legislature required monopolies in
+Texas to unbundle their generation, transmission, and distribution units and form separate entities.
+See Tex. Util. Code § 39.051(b). The newly deregulated market was placed under the regulatory
+jurisdiction of the PUC which, in turn, certified the Electric Reliability Council of Texas (ERCOT)
+as the ISO for a sprawling, self-contained grid that covers approximately 70 percent of the state
+geographically and serves approximately 90 percent of the state’s electricity customers. Texas
+Com. Energy v. TXU Energy, Inc., No. CA No. C-03-249, 2004 WL 1777597, at *1–2 (S.D. Tex.
+June 24, 2004), aff’d, 413 F.3d 503 (5th Cir. 2005).
+5
+
+As the ISO, ERCOT is responsible for ensuring (inter alia) system reliability,
+nondiscriminatory access to transmission and distribution systems, and clearance of all market
+transactions in the region served by the grid. Importantly, ERCOT acts as the central counterparty
+for all transactions it settles and is deemed to be the sole buyer to each seller (typically a generator),
+and the sole seller to each buyer (typically a retailer) of all energy and related services. ERCOT
+Nodal Protocols § 1.2(4). From a central control room that has been likened to an air traffic control
+center, ERCOT monitors the flow of energy from more than 680 generation units to more than
+26 million customers over more than 46,500 miles of transmission lines, all while balancing
+generation with load to maintain a system frequency of 60 Hertz. Extreme weather condition
+preparedness/power outages: Hearing Before the S. Comm. On Bus. & Com. (Senate B&C Hr’g),
+87th Leg., R.S. (Tex. 2021) (testimony of Bill Magness, President and CEO, ERCOT); see also
+Bill Magness, Review of February 2021 Extreme Cold Weather Event—ERCOT Presentation at 4
+(Feb. 24, 2021). In addition to PURA and the substantive regulations adopted by the PUC pursuant
+to its rulemaking authority, ERCOT’s board is also authorized to adopt rules or so-called
+“protocols” that provide a framework for the administration of the electricity market, subject to
+Commission oversight and review. BP Chemicals, Inc. v. AEP Tex. Cent. Co., 198 S.W.3d 449,
+452 (Tex. App.—Corpus Christi–Edinburg 2006, no pet.); Tex. Util. Code § 39.151(d), (g).
+Scarcity pricing
+By statute, the PUC is required to “adopt and enforce rules relating to the reliability
+of the regional electrical network” or “delegate to an independent organization responsibilities for
+adopting or enforcing such rules.” Tex. Util. Code § 39.151(d). In 2006, pursuant to that statutory
+directive, the Commission by rule established the general outline of a scarcity pricing mechanism
+
+6
+
+(SPM) for use during periods of high demand. 16 Tex. Admin. Code § 25.505(g) (effective
+May 30, 2019, to July 13, 2021). The rule required that ERCOT “use a stakeholder process to
+develop and implement rules” to add detail and specificity to the general mechanism.
+Id. § 25.505(h) (effective May 30, 2019, to July 13, 2021). Pursuant to an earlier version of that
+mandate, ERCOT in 2014 revised its protocols to include a complex mathematical formula and to
+enumerate several variables to determine when and how scarcity pricing takes effect. See
+ERCOT Nodal Protocols § 6.5.7.3.1, Determination of Real Time On-Line Reliability Deployment
+Price Adder.
+Scarcity pricing is limited by rule to a system-wide offer cap (frequently
+abbreviated “HCAP”) of $9,000 per megawatt hour (MWh).
+
+16 Tex. Admin. Code
+
+§ 25.505(g)(6)(B) (effective May 30, 2019, to July 13, 2021). To put that figure in perspective, a
+typical market clearing price for electricity in Texas can be as little as $30/MWh. The reason for
+the orders-of-magnitude delta has to do with the way the state’s wholesale market is structured.
+Texas is what is known as an “energy-only” market, meaning that generators are
+compensated only for energy actually sold, as contrasted with a so-called “capacity” market, in
+which generators are compensated for making capacity available even if it is not ultimately used.
+A “base-load” generation utility (that is, one intended to operate continuously for long periods
+under normal market conditions) may incur significant initial costs investing in capacity, while
+expecting to recoup those costs through daily operations by offering at or below the market
+clearing price on most days. A so-called “peaker” generator, however, may invest a comparable
+amount of capital in generating capacity that it expects to use only during a few peak hours on
+summer afternoons. To defray the high costs of developing and maintaining such seldom-used
+capacity, it is necessary for such generators to receive a very high rate of return per megawatt hour
+7
+
+on the energy they do sell. Accordingly, the scarcity pricing mechanism is intended to accomplish
+two goals. First, by offering windfall prices to peak generators through a number of scarcity price
+“adders,” it creates incentives for any idle generation capacity to come online when demand (or
+“load”) threatens to exceed supply. Second, by imposing sticker-shock costs on consumption, it
+encourages conservation by any institutional consumers that may have some elasticity of demand,
+thus hopefully easing system load.
+Winter Storm Uri
+Texas typically experiences peak electricity demand during its long hot summers
+as consumers rely on electric power to run their air conditioners. In 2021, however, the winter
+weather event that has come to be known colloquially as Winter Storm Uri subjected the state’s
+electrical grid to historically unprecedented stress.
+The “perfect storm” of factors that would ultimately coalesce to produce Uri first
+came to meteorologists’ attention in late December and early January, with a rapid rise in
+temperatures by as much as 90 degrees in the Earth’s stratosphere over the North Pole. Senate
+B&C Hr’g, supra at 08:28–54:30 (testimony of Bob Rose, Meteorologist, Lower Colorado River
+Authority). Known simply as a “sudden stratospheric warming event,” the phenomenon is not
+terribly unusual, occurring on average approximately once in four years, but, when combined with
+other factors, it can produce disruptions in the so-called “polar vortex,” allowing super-chilled
+arctic air to flow south and at ground-level altitudes. Id. By late January, a pair of high-pressure
+ridges had begun to form near Greenland and the Gulf of Alaska, creating conditions favorable to
+a pronounced disruption of the jet stream that would allow bitterly cold Siberian air to spill over
+the pole and down across North America as far south as Texas. Id.
+
+8
+
+The looming emergency did not go unnoticed by ERCOT. As early as November
+of 2020, the entity’s meteorologist issued a winter outlook for market participants warning of “very
+good” chances for an extreme cold weather event during the 2020-21 winter season. Magness,
+supra at 9. On February 3, 2021, ERCOT warned market participants and the public of the coldest
+weather of the year, with additional advisories, operating condition notices, and press releases
+issued on February 10, 11, 13, and 14. Id. In anticipation of possible weather-related outages,
+pre-event precautions included canceling planned maintenance outages for more than 1,600
+transmission devices, waiving COVID restrictions, activating additional on-site and remote
+engineering and support staff, and requesting emissions waivers from federal and state regulators.
+Id. at 8.
+The Arctic air first began to arrive in Texas on Friday, February 12, 2021, with up
+to half-inch accumulations of ice observed on some surfaces. Senate B&C Hr’g at 9:20 (Rose
+testimony). Temperatures remained low into the weekend, hovering in the 20s and 30s, but dipped
+significantly on Sunday, February 14, as Siberian air flooded into Texas and plunged temperatures
+into the teens. Id. On Monday, February 15, the statewide average temperature in Texas was
+11 degrees Fahrenheit. Id. Several cities posted record or near-record lows, with the Dallas–Fort
+Worth area logging its third lowest temperature ever observed at 2 degrees below zero, Austin
+logging its fifth lowest at 7 degrees, and Corpus Christi logging its all-time lowest observed
+temperature at 17 degrees. Id. Moreover, the duration of the freeze shattered records, with cities
+across north Texas experiencing more than 200 consecutive hours of temperatures below freezing,
+and parts of central Texas seeing more than 160 hours. Id. Temperatures in Austin remained
+below freezing for 144 consecutive hours, the longest period on record. Id. Unlike comparable
+cold-weather events in 1989 and 2011, the extreme cold combined with heavy precipitation to
+9
+
+produce record or near-record snowfall in parts of the state, with Dallas receiving 4–5 inches of
+accumulation over the weekend, Midland 5–6 inches, Austin between 6 and 8 inches (its fourth
+largest two-day total on record), and Del Rio nearly a foot of snow, an all-time record. Id. For
+temperatures alone, Uri entered the history books among the four or five coldest weather events
+since reliable recordkeeping began in 1895. Id. When duration and precipitation are taken into
+account, Uri may have been the most severe winter weather event in the recorded history of Texas.
+At 8:30 a.m. on the morning of Sunday, February 14, 2021, ERCOT issued a
+conservation alert and media appeal. Magness, supra at 11. By mid-morning, it was already
+becoming clear to ERCOT’s leadership that offers for so-called “ancillary services,” i.e., additional
+generation necessary to make up a shortfall in scheduled base generation relative to demand, would
+fall short of the anticipated load, and a watch to this effect was issued at 10:54 a.m. that morning.
+Id. Based on projected demand, it was anticipated that ERCOT would probably need to order
+transmission entities to “shed load” in order to maintain the 60-Hertz balance with generation, but
+it was expected that these measures would take the form of brief rotating outages that would not
+leave any customer without power for longer than a few hours. Senate B&C Hr’g 1:06:27
+(Magness testimony). Despite the fact that demand was projected to break an all-time record,
+exceeding even the highest summer demand on record, it appeared to ERCOT personnel as though
+the system had enough generation online to get through the ensuing days with minimal disruption
+to service. Id. As night fell, however, all of that began to change.
+At 9:58 p.m., ERCOT issued a reserve capacity watch. Magness, supra at 11.
+At 11:17 p.m., ERCOT deployed responsive reserve. Id. By 11:32 p.m., ERCOT issued another
+advisory, announcing a physical response reserve of less than 3,000 megawatts remaining. Id.
+By 12:15 a.m. on the morning of the 15th, reserves had fallen below 2,300 megawatts, sending
+10
+
+ERCOT into Energy Emergency Alert (EEA) Level 1. Id. By 1:07 a.m., reserves had fallen below
+1,750, triggering EEA2 and prompting deployment of load resources. Id. At 1:20 a.m., ERCOT
+entered EEA3—its highest alert level—and began ordering that load be shed. Id.
+As the storm continued to move southward through Texas in the early morning
+hours of the 15th, it froze poorly winterized natural gas wellheads and gathering lines, nearly
+halving the supply of the state’s predominant fuel for electric generation at a time when the gas
+was already in high demand for direct-burn home heating in many areas. As more and more
+generation units went offline for want of fuel, the plummeting electricity supply rapidly
+overwhelmed ERCOT’s ability to manage scarcity and began to threaten the stability of the grid
+itself. As of 1:23 a.m., a combined capacity of 35,343 megawatts of generation was reported
+offline due to weather-related causes, and the system frequency fell to 59.9 Hertz, prompting
+ERCOT to order 1,000 megawatts of load shed to stabilize it. Id. at 12. Just a few minutes later,
+however, at 1:26 a.m., three additional outages of 1,481 megawatts, 248 megawatts, and
+329 megawatts occurred in rapid succession, causing the system frequency to fall to under
+59.8 Hertz by 1:43 a.m. Id. This prompted another 1,000 megawatts of load shed, but the grid
+continued hemorrhaging generation, with outages of 606 megawatts, 688 megawatts, and
+511 megawatts, respectively, between 1:48 a.m. and 1:53 a.m. Id.
+These additional failures drove the grid past a critical threshold, as the system
+frequency dipped below 59.4 Hertz.
+
+Id.; see also Senate B&C Hr’g at 1:16:30 (Magness
+
+testimony). At that level there existed an imminent risk of oscillations that could damage grid
+components, perhaps permanently. As a rule, the system could remain below 59.4 for no more
+than nine minutes. The grid frequency that night was below 59.4 for a total of four minutes and
+three seconds, during which time two more rounds of load shed were ordered, of 3,000 megawatts
+11
+
+and 3,500 megawatts, respectively. Magness, supra at 12. The frequency bottomed out at
+59.302 Hertz before beginning to recover. Id. By 2:03 a.m. it reached 60 Hertz again, but not
+before additional generation outages of 843 megawatts and 841 megawatts forced another 2,000
+megawatts of load shed, bringing the total load shed that night to a staggering 10,500 megawatts.
+The storm, at its worst, had taken out 48.6 percent of the generation available to
+ERCOT to manage the system. Id. at 13; see also Senate B&C Hr’g at 1:01:103 (Magness
+testimony). Some 4.5 million households and businesses lost power and, because of the volume
+of load shed, these outages could not easily be rotated without threatening critical infrastructure
+(e.g., hospitals). For that reason, many of the homes affected were left without power for days at
+a time during some of the coldest days ever recorded in the state’s history. Bad as this outcome
+was, ERCOT’s then-CEO later testified that it could have been much worse. The system had come
+perilously near collapse and, had it been allowed to fail, the result would have been a weeks-long,
+statewide blackout. The worst potential outcome had been averted.
+Also closely monitoring the situation that weekend were the then-current members
+of the Commission, all of whom have since resigned. During the course of the foregoing events,
+the previously established SPM (scarcity pricing mechanism) remained in effect but resulted in
+market clearing prices of just over $1,200/MWh. Hearing to examine billing errors resulting from
+Winter Storm Uri and explore the means available for correcting those errors: Hearing Before
+the S. Comm. on Juris., 87th Leg., R.S. (Tex. 2021) at 43:42—52 (Mar. 11, 2021) (testimony of
+Independent Market Monitor (IMM) director Carrie Bivens). In consultation with ERCOT
+personnel, then-PUC Chair DeAnn Walker concluded that the SPM had malfunctioned. Senate
+B&C Hr’g at 6:13:29 (testimony of DeAnn Walker, Chair, PUC). Chair Walker reasoned that the
+SPM was intended to move prices in an inverse correlation with reserve capacity and that, at load
+12
+
+shed, maximum demand had by definition been reached, such that the maximum offer price should
+be in effect as well. Id. Moreover, after speaking with ERCOT’s leadership, she had a working
+hypothesis to explain exactly why the SPM had failed. Specifically, her understanding was that,
+as the grid shed load pursuant to ERCOT’s emergency orders, the SMP algorithm erroneously
+disregarded the lost load altogether for purposes of computing price.
+The significance of this inference should not be understated. Clearing prices act as
+price signals, letting market participants know when additional generation is needed. According
+to Chair Walker’s interpretation, ERCOT’s computer system was, in effect, sending the market a
+false signal—signaling that additional generation was not needed, or at least not needed as urgently
+as was actually the case—and thereby failing to adjust incentives to answer the exigency presented
+by the storm.
+On the afternoon of February 15, 2021, the Commission held a brief open meeting
+in which the commissioners discussed the SPM and issued the first of the two Orders that are the
+subject of this litigation. Finding that the electricity market was clearing as low as $1,200 and that
+this outcome was “inconsistent with the fundamental design of ERCOT,” the Commission directed
+ERCOT “to ensure that firm load that is being shed in EEA3 is accounted for in ERCOT’s scarcity
+pricing signals.” Order Directing ERCOT to Take Action and Granting Exception to Commission
+Rules, PUC Project No. 51617 at 1-2 (Feb. 15, 2021) (First Order). The First Order stated, “If
+customer load is being shed, scarcity is at its maximum, and the market price for the energy needed
+to serve that load should also be at its highest.” Id. at 1. By its terms, the First Order applied only
+to the then-in-effect EEA event.
+Later that same day, ERCOT issued a market notice reflecting its understanding
+that the PUC’s “directive [was] based on the [PUC’s] observation in the order that energy prices
+13
+
+of less than $9,000/MWh during load shed conditions are ‘inconsistent with the fundamental
+design of the ERCOT market.’” ERCOT, M-C021521-01 Emergency Order of the Public Utility
+Commission Affecting ERCOT Market Prices (Feb. 15, 2021). ERCOT then adjusted its price
+algorithm to cause the market to clear at the $9,000/MWh cap.
+On the afternoon of the 16th, the Commission held a second meeting to revisit the
+First Order, ultimately issuing a second order that was substantially identical to the first, except
+that it rescinded language in the First Order that would have required retroactive repricing. Second
+Order Directing ERCOT to Take Action and Granting Exception to Commission Rules, PUC
+Project No. 51617 (Feb. 16, 2021) (Second Order). The Second Order again directed ERCOT that,
+if there was load shed, the market price for the energy needed to serve that load should also be “at
+its highest.” Id. at 1. ERCOT has since issued settlement statements to market participants
+reflecting the $9,000/MWh clearing price.
+II.
+PROCEDURAL HISTORY
+Appellant Luminant, a market participant subject to ERCOT protocols, filed its
+notice of direct appeal in this Court on March 2, 2021, challenging the first and second Orders as
+competition rules under Section 39.001(e) of the Utilities Code. Several parties intervened on
+either side. Generally, Appellants proceed on the theory that the subject Orders were procedurally
+invalid, beyond the PUC’s statutory authority to adopt, or both.
+
+Luminant has also filed
+
+administrative challenges to settlement invoices issued by ERCOT for transactions during the
+storm, asserting that, because the subject Orders are invalid, the price of electricity in the settlement
+invoices is also incorrect. See Luminant v. Public Util. Comm’n, No. 03-21-00126-CV (Tex.
+App.—Austin).
+14
+
+In their responses, the Commission and its aligned intervenors argue that (1) the
+subject Orders are not rules; (2) if they are rules, they were adopted in substantial compliance with
+emergency rulemaking provisions of the APA; (3) the PUC was expressly authorized by statute to
+correct the allegedly erroneous pricing by the SPM; and (4) for a variety of reasons, this Court
+lacks subject-matter jurisdiction. As jurisdiction is a threshold issue, we address it first, before
+turning to the merits.
+III.
+DISCUSSION
+Subject-Matter Jurisdiction.
+The PUC challenges this Court’s subject-matter jurisdiction in five separate but
+sometimes overlapping arguments. Each is addressed in turn.
+Appellants’ Claims are Not Moot.
+The Commission argues first that, because the Orders by their own terms applied
+only during the then-in-effect EEA3 event and consequent load shed, the Orders have now expired,
+and any controversy between the parties is now moot. We disagree.
+Mootness doctrine generally requires that a case or controversy exist at all stages
+of a proceeding and that, if events resolve the dispute, the case should be dismissed as moot.
+See, e.g., Matthews v. Kountze Indep. Sch. Dist., 484 S.W.3d 416, 418 (Tex. 2016). Events that
+may render a case moot include the death of a party, the settlement of the claim, the repeal of a
+challenged statute—essentially any change in the facts that ends the controversy.
+
+See
+
+Electric Reliability Council of Tex., Inc. v. Panda Power Generation Infrastructure Fund, LLC,
+619 S.W.3d 628, 634–35 (Tex. 2021). The doctrine has a constitutional dimension, in that it
+
+15
+
+prevents courts from rendering advisory opinions. Wilson v. Community Health Choice Tex., Inc.,
+607 S.W.3d 843, 849 (Tex. App.—Austin 2020, pet. denied) (citing Matthews, 484 S.W.3d at 418).
+Here, the controverted issue is the lawfulness of the Orders that purported to price
+electricity at its statutory cap of $9,000/MWh. If the Orders are held to have been lawful, so too
+(barring other grounds for challenge) will the invoices or settlement statements issued during the
+period in which the Orders were putatively in effect. If the Orders are held unlawful, Appellants
+(barring other factors not considered here) may succeed in their administrative challenges and
+secure adjustments to the invoiced amounts. The live controversy, then, is whether Appellants are
+presently entitled to the difference between the invoiced prices and the much lower clearing prices
+that they argue would have been charged in the absence of the allegedly invalid Orders. To grant
+or deny such material relief would not be to issue an advisory opinion.
+The Commission cites a number of cases for the proposition that, generally, “where
+an order expires by its own terms … all issues relating to the validity of the order become moot.”
+Rodriquez v. Texas Dep’t of Pub. Safety, 533 S.W.2d 849, 851 (Tex. App.—Tyler 1976, no writ).
+Upon review, however, we find the cited authorities consistent with our understanding. In
+Rodriquez, for example, the plaintiff appealed from a trial-court judgment affirming a 12-month
+administrative suspension of his certificate of appointment as a motor vehicle inspector and of his
+garage’s license as an official inspection station. Id. at 850. By the time the case reached the Tyler
+court, however, the suspension had expired. Id. On those facts, the court held the case to be moot.
+Id. at 850–51. In so holding, the court noted that “courts have sometimes entertained attacks on
+orders that have expired by their own terms because the person against whom such order was made
+might suffer some subsequent detriment if the legality of the order were not determined.” Id. at
+851. Rodriquez, however, sought “no relief other than reversal of the order of suspension”—he
+16
+
+did not, for example, claim to be entitled to monetary damages resulting from the suspension. Id.
+at 851. As such, an order of reversal could have had no prospective effect on any party’s rights or
+duties. Here, in contrast, Appellants are separately disputing the settlement statements through
+ERCOT’s administrative ADR process, alleging unlawful overpricing of thousands of dollars per
+megawatt hour; our decision in this appeal may have very real material consequences for all
+involved. The “subsequent detriment” Appellants will experience if the Orders are allowed to
+stand will be the obligation to honor the allegedly unlawful price.
+In Texas Department of Agriculture v. Wild Boar Meats, LLC, the Department of
+Agriculture adopted an emergency rule to allow the temporary registration of a certain chemical
+pesticide for use in feral-hog abatement. No. 03-17-00514-CV, 2018 WL 3748677, at *1 (Tex.
+App.—Austin Aug. 8, 2018, pet. denied) (mem. op.). Wild Boar Meats, a company that purchased
+feral hogs and hog carcasses from local hunters for use in food products, believed the pesticide
+presented safety risks to humans and sued the Department challenging the validity of the rule. Id.
+While the case was pending, the sole manufacturer to have requested registration under the rule
+asked the Department to cancel its request citing negative publicity, and the Department notified
+the Secretary of State that it was withdrawing the rule. Id. at *2. In reversing the trial court’s
+denial of the Department’s motion to dismiss on mootness grounds, this Court noted that the rule
+was withdrawn several months before the hearing on the motion to dismiss and that nothing in the
+record suggested any pesticide had ever been used under the rule, concluding that “any declaration
+regarding its validity would have no legal effect” and that the claim was therefore moot. Id. at *3.
+The present case is distinguishable. Whereas the declaration sought in Wild Boar would not have
+halted any actual or threatened use of the pesticide under the former rule, Appellants in this case
+seek to avoid the financial burden they will experience if required to honor the allegedly inflated
+17
+
+electricity pricing in their pending administrative challenges to the allegedly invalid rule at
+issue here.
+In Railroad Commission of Texas v. Oil Production Maintenance, Inc., the owners
+and operators of a gas well sued the Railroad Commission to set aside and enjoin enforcement of
+an order placing the well under a six-month restriction limiting the daily volume of gas that could
+be produced from it. 319 S.W.2d 822, 823 (Tex. App.—Austin 1958 writ ref’d n.r.e.). The trial
+court held in favor of the plaintiffs and granted the injunction but, by the time the case came before
+this Court on appeal, the six-month interval had run, and the order had expired of its own terms.
+Id. Accordingly, we set aside the judgment below and dismissed the case as moot. Id. at 824. As
+in the other cases cited by the Commission—and unlike the present case—the plaintiff sought no
+greater relief than what had already been brought about by the expiration of the challenged rule.
+The same distinction applies to the cases Calpine cites in its brief. In State v. City
+of Austin, the State sought to enjoin local orders intended to limit the spread of COVID-19 by
+suspending restaurants’ dine-in food and beverage service each night from 10:30 p.m. to 6:30 a.m.
+over the holiday weekend beginning December 31, 2020, and ending January 3, 2021.
+No. 03-20-00619-CV, 2021 WL 1313349, at *1 (Tex. App.—Austin Apr. 8, 2021, no pet.) (mem.
+op.). The orders were in force for a total of 7.5 hours before being temporarily enjoined and then
+expiring by their own terms. Id. at *4. Despite the expiration, the State nonetheless proceeded
+with its suit. In dismissing, this Court noted that “nothing in the parties’ briefing or the record
+indicates that the local officials actually enforced the local orders during the single 7.5-hour period
+that they were in effect.” Id. at *5. We held that “[a]bsent any enforcement efforts,” the State’s
+
+18
+
+requested relief would have had no legal effect. Id. at *5 (emphasis added). 2 Impliedly, the
+outcome may have been different had the plaintiff been a business owner who sought relief from
+a fine issued under the complained-of order. Cf. Lowenberg, v. City of Dallas, 261 S.W.3d 54, 59
+(Tex. 2008) (suit for refund of allegedly unlawful municipal fire registration on ground that it was
+improper occupation tax not mooted by voluntary payment or subsequent repeal of ordinance).
+Perhaps the most factually similar case the Commission cites is the second of two
+cases styled El Paso County Hospital District v. Texas Health & Human Services Commission,
+cited for the proposition that, “[e]ven if ERCOT undertook to reconstruct alternative pricing, those
+calculations would not make previously issued statements for EEA3-operating days any less
+valid.” See 400 S.W.3d 72, 82 (Tex. 2013) (El Paso II). In El Paso II, a number of hospitals
+alleged that the Texas Health and Human Services Commission (HHSC) had used an invalid rule
+to calculate reimbursement rates for Medicaid services, resulting in alleged underpayments to the
+hospitals dating back years. Moreover, the hospitals in that case sought not only the prospective
+invalidation of the rule but the retroactive recalculation and recovery of past payments. The
+Commission’s reliance on El Paso II is problematic, however, because, in that case, the Texas
+Supreme Court did not reach the retroactivity issue for which the Commission now cites it. Id.
+at 83 (referring to El Paso Hosp. Dist. v. Texas Health & Human Servs. Comm’n, 247 S.W.3d 709
+(Tex. 2008) (El Paso I) and explaining that “[w]e did not decide [in El Paso I] whether the
+
+2
+
+See also Methodist Hosps. of Dallas v. Texas Workers’ Compensation Comm’n,
+874 S.W.2d 144, 147 (Tex. App.—Austin 1994, no writ) (dismissing as moot challenge to expired
+rule when no other relief sought and no suggestion that ruling could result in the recovery of
+previously incurred costs or relief from previously assessed but unlawful fees or expenses); Young
+Trucking, Inc. v. Railroad Commission of Texas 781 S.W.2d 719, 720 (Tex. App.—Austin 1989,
+no writ) (dismissing as moot challenge to lapsed one-year administrative suspension of the
+plaintiff’s specialized motor carrier certificate when no prospective relief sought).
+19
+
+hospitals could reopen past agency proceedings or obtain relief for past years”). Moreover, much
+of the discussion of the availability of retroactive relief in that case concerned a close reading of
+administrative rules specifically applicable to HHSC and not relevant here. Finally, the relief
+sought here is not impermissibly retroactive because Appellants’ administrative challenges remain
+pending. Thus, nothing in El Paso II requires us to deem the previously issued Orders for EEA3
+a fait accompli, immune from review or revision.
+Here, Appellants do not merely seek a sterile declaration of the invalidity of a nowdefunct rule. Rather, they dispute the enforceability in still-pending administrative challenges of
+settlement statements issued pursuant to, and after the expiration of the allegedly invalid rule.
+The Commission’s “Voidability” Argument Does not Defeat Jurisdiction.
+The Commission also contends that, even if we find the Orders not to have been
+adopted in substantial compliance with the Act, we cannot grant the relief Appellants seek because
+a rule is valid until adjudicated void. Section 2001.035 of the Texas Government Code provides
+that “[a] rule is voidable unless a state agency adopts it in substantial compliance with Sections
+2001.0225 through 2001.034.” Tex. Gov’t Code § 2001.035 (emphasis added). The Commission
+cites a number of cases for the proposition that a voidable rule—as opposed to a rule that is void
+ab initio—is valid until adjudicated void. See Meeker v. Tarrant Cnty. Coll. Dist., 317 S.W.3d 754,
+761 (Tex. App.—Fort Worth 2010, pet. denied). Thus, the Commission reasons, “the validity of
+any actions ERCOT took in response to the … Orders in the interim (prior to a judgment in this
+case) is not contingent on previously-unadjudicated questions about APA compliance.” See
+Brazzel v. Murray, 481 S.W.2d 801, 803 (Tex. 1972). “At best,” the Commission concludes,
+
+20
+
+“Appellants’ APA challenge can invalidate only future efforts to include firm-load shed in
+calculating scarcity pricing signals.” We disagree.
+The Commission makes much of the distinction between an act that is void ab initio,
+which is a legal nullity, and an act that is merely voidable, and which therefore remains in effect
+until adjudicated void. The Commission would have us conclude that, upon holding a voidable
+rule to be void, a court is powerless to grant an aggrieved party any relief that would disturb the
+outcomes of actions previously undertaken pursuant to the then-voidable, now-void rule. We find
+that proposition poorly supported by the cases the Commission cites.
+Two such cases arose under the Texas Open Meetings Act, which provides that
+“[a]n action taken by a governmental body in violation of this chapter is voidable.” Tex. Gov’t
+Code § 551.141. In the first of these, Meeker challenged the validity of successive employment
+contracts between the Tarrant County College District and its chancellor, Dr. de la Garza, arguing
+that deliberations on the contracts violated the Open Meetings Act because the agenda notices for
+three meetings were improper, making two resultant contracts void. Meeker, 317 S.W.3d at 758.
+Meeker sought to enjoin the college from paying de la Garza’s salary or otherwise recognizing
+him as chancellor. Id. Finally, Meeker sought attorney’s fees. Id. at 760. The college prevailed
+on cross-motions for summary judgment, and Meeker appealed. Id. at 758. While the appeal was
+pending, the college entered into an amended contract with de la Garza under which he would step
+down as chancellor and receive severance consideration for release of claims. Id. The college
+then moved to dismiss the pending appeal as moot. Id. In dismissing the case, the Fort Worth
+court held that, because all of Meeker’s requests for injunctive relief related to de la Garza’s service
+as chancellor, the cause was moot because de la Garza was no longer the chancellor. Id. at 760
+(citing Day v. First City Nat’l Bank of Hous., 654 S.W.2d 794, 795 (Tex. App.—Houston [14th
+21
+
+Dist.] 1983, no writ) (“case is moot when the actions sought to be enjoined have been fully
+performed”)). The court similarly held that the final contract rendered moot the requests for
+declarations that the meeting notices violated the Open Meetings Act and the two prior
+employment contracts were void because the requested declarations could not affect a live
+controversy. Id. at 761. Finally, the court found the request for attorney’s fees to be wholly
+dependent on the claim for injunctive relief, and therefore also moot. Id. at 762.
+In Meeker, as in the cases discussed above involving expiration, the dispositive
+issue was that the plaintiff sought prospective relief against actions that were no longer in prospect.
+An injunction is inherently forward-looking, intended to prohibit present or future conduct. With
+de la Garza having stepped down as chancellor, an injunction purporting to prohibit his recognition
+in that office would have been pointless. His contracts having been superseded, any declaration
+would have been “ineffectual for want of a subject matter upon which it could operate.” Methodist
+Hosps., 874 S.W.2d at 147. Whereas, in the earlier cases, the allegedly valid rule had expired, in
+Meeker, the allegedly invalid contract had been superseded by a subsequent contract, but in neither
+scenario was the court confronted—as we are here—with the issue of whether an aggrieved
+plaintiff can recover damages (or obtain relief from obligations) incurred by reason of actions
+undertaken during the operation of the allegedly invalid rule or contract. True, the Meeker court
+noted that “[a]ctions in violation of [the Open Meetings Act] are voidable, not void, and remain
+valid until adjudicated and declared void,” apparently finding significance in the fact that “the
+[first] Contract had not been adjudicated void before the [second] Contract superseded it, and the
+[second] Contract had not been adjudicated void before the [final] Contract replaced it.” Meeker,
+317 S.W.3d at 761. While that language may be read to support the Commission’s position, we
+fail to see how it was essential to the outcome in Meeker itself. That is, we do not see how Meeker
+22
+
+would have had any greater or lesser entitlement to the prospective relief he sought if the
+employment contacts had been void ab initio. In that scenario, in our view, he still would have
+been improperly seeking to enjoin conduct completed in the past—the epitome of mootness.
+The second Open Meetings Act case is more distinct factually and, therefore, less
+instructive. In July of 2006, the City of Dallas executed the Love Field Agreement, formally
+binding itself to the terms of an earlier provisional agreement allegedly negotiated in violation of
+the Open Meetings Act. Love Terminal Partners v. City of Dallas, 256 S.W.3d 893, 896 (Tex.
+App.—Dallas 2008, no pet.). The federal government later enacted the Wright Amendment
+Reform Act of 2006, incorporating many provisions of the Love Field Agreement. Id. The
+Plaintiffs (LTP) sued the city and others seeking declaratory and injunctive relief concerning Open
+Meetings Act violations in adopting the agreement. Id. at 895–96. In affirming the trial court’s
+dismissal of the case as moot, the Dallas court held that the Reform Act’s incorporation of the
+contract made Dallas’ obligations a matter of federal law, rendering moot any challenge to the
+Love Field Agreement regarding such obligations. Id. at 897.
+Like Meeker, the LTP case discusses the void/voidable distinction in terms
+superficially favorable to the Commission but ultimately of little relevance to the instant case. LTP
+had argued that, because the City’s conduct leading up to the agreement violated the Open
+Meetings Act, the resulting contract was void and, therefore, the Reform Act did not moot their
+claims. Id. Admittedly, language in the opinion can be read as accepting LTP’s premise, if
+ultimately rejecting its conclusion. Although the court recites the rule that “if conduct is merely
+voidable, the act is valid until adjudicated and declared void,” id., it is unclear how the case could
+have come out differently had the agreement been void ab initio rather than merely voidable
+because the agreement’s terms had been incorporated into federal law at the time of the litigation.
+23
+
+What gave the agreement its continuing force, then, was not the (allegedly defective) process by
+which it was originally adopted but its incorporation into federal law. We do not understand our
+sister court to imply that, had it found the agreement void, it would have been free to enjoin Dallas’
+compliance with the federal Reform Act because, unbeknownst to the Congress that passed the
+bill and the President who signed it, they were incorporating a mere nullity into federal law.
+Rather, the LTP court probably meant nothing more than that the incorporation of the agreement
+into federal law rendered it too late for an adjudication of its voidability to have practical
+consequences for the parties, as they would be bound by the federal law in any event. This
+illustrates why the case is of limited use in resolving the present question. Whereas the operation
+of the Reform Act would have caused any intervention by the LTP court to be of no practical
+consequence, no comparable circumstance constrains our decision in the instant case. What
+Meeker and LTP have in common, then, is that, despite including language that, admittedly, can
+be read as supporting the Commission’s interpretation, the facts of each case disclose a wholly
+independent reason for reaching the result: the prospective nature of the relief sought in Meeker,
+and the intervention of the federal government in LTP.
+Of course, not every judgment or order overturning some putative official act
+necessarily operates to unwind every collateral consequence of the defunct act. The Commission
+cites Brazzel v. Murray, a 1972 case in which the Texas Supreme Court held that a judgment
+voidable for purely procedural reasons has practical effects until voided, unlike a void judgment
+that can have no effect from its inception. 481 S.W.2d 801, 803 (Tex. 1972). In that case, Brazzel
+obtained judgment against Murray at trial, but the Waco court reversed and remanded with costs
+assessed against Brazzel. Id. at 802. Under then-current procedural rules, the clerk of the appellate
+court was directed not to deliver the mandate of the court nor to certify the proceedings to the trial
+24
+
+court before the payment of costs, but the clerk did so in error. Id. Murray filed a motion to recall
+the mandate in the appellate court, which was granted, and later filed a motion to dismiss in the
+trial court, relying on a then-current rule providing that, if no mandate had issued within a year of
+final judgment, the trial court should dismiss the case from its docket. Id. Murray reasoned that,
+because the mandate had been issued in violation of the rule, the time during which the erroneously
+issued mandate had been in putative effect counted toward the one-year period prescribed by the
+rule. Finding that a year had passed after judgment without issuance of a mandate, the trial court
+dismissed the case, and the Corpus Christi court affirmed, holding that the erroneously issued
+mandate had been “void ab initio.” Id.
+The Supreme Court disagreed. The Court quoted liberally from the early case of
+Murchison v. White for the proposition that “[a] void act is one entirely null within itself, not
+binding on either party, and which is not susceptible of ratification or confirmation” such that “[its]
+nullity cannot be waived,” whereas “[a] voidable act is one which is not absolutely void within
+itself, but which is binding until disaffirmed, and which may be made finally valid by failure within
+the proper time to have it annulled, or by subsequent ratification or confirmation.” Brazzel,
+481 S.W.2d at 803 (quoting Murchison v. White, 54 Tex. 78, 81 (1880) (internal quotation marks
+omitted)). Concluding that “judgments which are rendered without observance of statutory
+requirements which are purely procedural are not void, however irregular or erroneous they may
+be,” the Court held that “[f]rom … the date of the original mandate, until … the date the original
+mandate was recalled, a mandate was on file with the trial court in this cause” and that, although
+“[it] was an unauthorized mandate, [it] was valid until recalled.” As such, “[at] no time [had] there
+been a period of twelve months in which no mandate has been filed with the trial court, as required
+by [then-existing rules], as a basis for dismissal.” Brazzel, 481 S.W.2d at 803.
+25
+
+But while Brazzel involves an official action that, once invalidated, was not entirely
+annulled, it does not stand for the proposition that Appellants here must live with the allegedly
+invalid electricity pricing at issue in this case without an opportunity for judicial review. In
+Brazzel, the primary defect in the mandate did not concern any relief to which Murray may have
+been entitled. True, Murray claimed a procedural right to challenge the validity of a mandate
+issued despite nonpayment of costs, but Murray did not claim the right to recover any costs
+incurred as a result of the mandate. The case therefore cannot be read to bar such recovery where
+such costs are at issue—nor to establish that the availability of such recovery would depend on
+whether the order was merely void rather than void ab initio. In any event, Appellants do not ask
+us to hold that the disputed Orders in this case were never issued. Rather, Appellants seek only a
+declaration as to the invalidity of the Orders, such that the pricing thereunder may not be applied
+in pending administrative proceedings. Such a declaration would not be inconsistent with Brazzel.
+In summary, none of the cases cited to us by the Commission or aligned intervenors
+compels support for the Commission’s position that courts lack jurisdiction to remedy actions
+undertaken pursuant to a voidable order before it is adjudicated as void. Our own review of the
+case law on this question inclines us to the opposite view.
+The cases on voidability, including those cited by the Commission, trace back to
+early cases addressing the voidability of private contracts. See, e.g., Cummings v. Powell, 8 Tex. 80
+(1852) (surveying then-current authorities on voidability of contracts with minors). Perhaps the
+most familiar context in which the void/voidability distinction arises is the voidability of a contact
+with a minor. The hornbook law is that a contract made with a minor is voidable at the minor’s
+election. Dairyland Cnty. Mut. Ins. v. Roman, 498 S.W.2d 154, 158 (Tex. 1973); Prudential Bldg.
+& Loan Ass’n v. Shaw, 26 S.W.2d 168, 171 (Tex. Comm’n App. 1930, judgm’t adopted).
+26
+
+Importantly, a contract so voided is deemed to have been void for both parties from the beginning.
+Kargar v. Sorrentino, 788 S.W.2d 189, 191 (Tex. App.—Houston [14th Dist.] 1990, no writ). The
+effect, therefore, is essentially identical to the remedy of rescission, i.e., to put the parties in their
+respective positions status quo ante, as though the contract had never formed. Accordingly, a
+minor who voids a contract on the ground of incapacity may recover the full amount of any
+consideration the minor has paid, but also must restore any consideration the minor has received.
+Shaw, 26 S.W.2d at 171; James v. Barnett, 404 S.W.2d 886, 888 (Tex. App.—Dallas 1966, writ
+ref’d n.r.e.); see also Hogue v. Wilkinson, 291 S.W.2d 750, 753 (Tex. App.—Texarkana 1956,
+no writ).
+The latter two points are crucial. The minor, upon attaining the age of majority,
+has the option to ratify and enforce the contract, enjoying the benefit of the bargain. That is the
+very definition of a voidable contract. See CONTRACT, Black’s Law Dictionary (11th ed. 2019)
+(defining “voidable contract” as “[a] contract that can be affirmed or rejected at the option of one
+of the parties”); Murchison, 54 Tex. at 81 (“[a] voidable act is one … which may be made finally
+valid . . . by subsequent ratification or confirmation”). And yet, in the contract context, we find
+nothing resembling the rule against retroactive relief urged by the Commission. On the contrary,
+not only may the voiding party recover consideration already paid under the contract, if any, the
+voiding party must tender any consideration previously received in order to be restored to status
+quo ante. By parity of reasoning, it is unclear why a party aggrieved by the voidable act of a state
+agency should not be able to recover a remedial sum necessary to make it whole once the act is
+finally adjudicated void, or, as here, to avoid an obligation predicated on the void act.
+We are mindful that we have found no precedent that clearly and unambiguously
+disposes of the question before us. It is, moreover, entirely reasonable to suppose that some
+27
+
+allegedly invalid act by an agency may eventually become impracticable to remedy due to
+developments over the passage of time. In the above-cited case of Murchison v. White, an early
+case involving a challenge to the judgment of a probate court, the Texas Supreme Court held that
+“[a] voidable act is one which is not absolutely void within itself, but which is binding until
+disaffirmed, and which may be made finally valid by failure within the proper time to have it
+annulled, or by subsequent ratification or confirmation.” 54 Tex. at 81 (emphasis added). The
+court did not specify the proper time in which to have an act annulled, but Appellants here filed
+their direct appeal within 15 days after the First Order was issued on February 15, 2021. Section
+39.001(f) of the Utilities Code, requires that validity challenges be brought “not later than the 15th
+day after the date on which the rule as adopted is published in the Texas Register.” It is undisputed
+that the Order challenged in this case was not filed in the Texas Register, so the event from which
+the statutory time limit is to run has not yet occurred. We think it consonant with the spirit and
+intent of the statute, however, to hold Appellants’ challenge, filed 15 days after the Order date, to
+be timely for purposes of the statutory provision. As such, we further conclude that, under
+Murchison, Appellants have acted “within the proper time” to have the Orders annulled.
+Appellants’ Alleged Injury is Redressable.
+The Commission next argues that this Court lacks jurisdiction because Appellants’
+claims are not redressable. We disagree.
+The Commission cites cases reciting the general standard that we lack jurisdiction
+over cases in which the alleged injury is not likely to be remedied by the requested relief. Referring
+to its own prior argument that Appellants can, at most, obtain a declaration concerning future
+application of the Orders but cannot disturb transactions already settled, the Commission reasons
+
+28
+
+that, because reversing the Orders “will not result in the return of any money that Appellants have
+already paid ERCOT pursuant to settlement invoices,” such reversal will not remedy Appellants’
+injury, and our jurisdiction to order such reversal fails for want of redressability. The Commission
+begs the question. It imports its own previous conclusion from its mootness/voidness argument
+and uses it as a premise in its redressability argument. Having rejected that conclusion in the
+former context, however, we likewise reject its application as a premise here. We see no reason
+why the resolution of challenges to settlement invoices in ADR proceedings, whether due and
+payable or already paid under timely preserved protest, cannot and should not be governed by this
+Court’s determination regarding appropriate pricing.
+Citing a pair of statutory provisions, the Commission contends that “Appellants
+cannot show that any further proceedings on remand to reconsider or further justify the substance
+of the orders . . . will lead to application of a different rule or otherwise change the outcome of any
+pending administrative disputes.” See Tex. Util. Code § 39.001(f); Tex. Gov’t Code § 2001.040.
+Section 39.001(f) of the Utilities Code provides that a court “shall . . . if appropriate on reversal,
+remand [a rule held to be invalid] to the commission for further proceedings.” Government Code
+Section 2001.040 requires that, on remanding certain rules to a state agency, a court “shall provide
+a reasonable time for the agency to either revise or readopt the rule through established procedure.”
+The Commission argues in essence that, for purposes of redressability analysis, these provisions
+render the question whether Appellants’ requested relief will remedy the alleged injury merely
+speculative, because the Commission may on remand simply ratify the previously adopted pricing
+Order. We disagree.
+First, we do not share the Commission’s view that the cited provisions limit our
+power to order an appropriate remedy. Taken in context, Section 39.001(f) of the Utilities Code
+29
+
+makes clear that we may affirm, reverse, or remand a rule. Reversal or remand of the rule could
+change the result of the pending administrative proceedings concerning amounts Appellants owe.
+Second, Section 2001.040 of the Government Code uses permissive language—a
+court “may remand” a rule—but does not expressly prohibit a court from reversing outright. To
+the extent any prohibition is thought to be implied by that provision, we think it controlled by the
+more specific authority found in the Utilities Code that permits remand “if appropriate” upon
+reversal, suggesting that reversal without remand is the default. See Tex. Util. Code § 39.001(f);
+see also id. § 39.001(e) (providing that “Judicial review of competition rules adopted by the
+commission shall be conducted under Chapter 2001, Government Code, except as otherwise
+provided by this chapter” (emphasis added)).
+Third, Section 2001.040 is limited by its own terms to remands based on a finding
+that an agency has not substantially complied with one or more procedural requirements of
+Sections 2001.0225 through 2001.034. Appellants’ challenge is not limited to alleged lack of
+compliance with those provisions, however, but includes others, such as the failure to file with the
+Secretary of State under Section 2001.036. Thus, even the Commission’s interpretation of Section
+2001.040 would not deprive us of jurisdiction for want of redressability.
+The Commission’s final argument on redressability in turn consists of three
+essential components: (1) that ERCOT, rather than the Commission, is the appropriate entity to
+initiate a market-wide price correction, and ERCOT is not a party; (2) that Section 39.001(f),
+Utilities Code, does not authorize us to order the PUC to order ERCOT to undertake such repricing;
+and (3) that ERCOT’s authority to act is too limited to redress Appellants’ injury and, in any case,
+that it is too late under the Nodal Protocols for ERCOT to act. We disagree.
+
+30
+
+First, we are not persuaded that ERCOT must be brought before us as a party in
+order for us to grant the requested relief in light of the Commission’s “complete authority” over
+ERCOT under Section 39.151(d), Utilities Code, together with ERCOT’s power to determine
+market clearing prices unless “otherwise directed by the commission” under Title 16, Texas
+Administrative Code Section 25.501(a), both of which provisions were expressly referenced in the
+Order that is the subject of this suit.
+Second, we do not find the limitation on our authority the Commission argues may
+be found in Section 39.001(f) of the Utilities Code. That provision directs a court of appeals
+considering a challenged rule “to render judgment affirming the rule or reversing and, if
+appropriate on reversal, remanding the rule to the commission for further proceedings, consistent
+with the court’s opinion and judgment.” Tex. Util. Code § 39.001(f) (emphasis added).
+Third, the Commission overstates the effects of the Nodal Protocols.
+
+The
+
+Commission acknowledges that those rules “provide ERCOT with some discretion after settlement
+point prices have become final to determine that prices qualify for a correction and then seek
+ERCOT Board review of such prices.” Per the Nodal Protocols, however, ERCOT would have
+had to notice participants during the month after the subject Order was issued and, the Commission
+argues, “[t]hat ship has sailed.” Thus, “even if this Court were to order the PUC to issue an order
+directing ERCOT to resettle the market,” the Commission reasons, “Appellants have not identified
+any means under the Nodal Protocols by which ERCOT can now make any market-wide
+corrections to pricing for EEA3-operating days.” This argument lacks merit. The fact that ERCOT
+may be time-barred under the protocols from effecting a price correction on its own initiative has
+few if any implications for the question of whether it may do so pursuant to an order of this Court.
+While we can imagine scenarios in which limitations on an entity’s powers to act may operate as
+31
+
+practical limitations on what a court may order it to do, this is not such a case. Where, as here,
+administrative disputes of the settlement statements were timely initiated and stayed pending
+decision of this timely-filed direct appeal, we discern no reason why the notice provisions that
+would ordinarily apply to ERCOT acting alone should prevent us from hearing Appellants’
+challenge and, if appropriate, granting relief.
+The Orders are Rules.
+In its fourth challenge to this Court’s jurisdiction, the Commission argues that the
+Orders were not competition rules within the meaning of Section 39.001(e), Utilities Code, and
+thus are not subject to the direct-appeal process provided by that statute. We agree that the statute
+is jurisdictional; as such, unless we find the subject Orders to be rules, we must dismiss. Appellants
+propose that the APA’s definition of “rule” should govern here. The Commission contests the
+applicability of that definition, but also argues that, in any event, the Orders do not fall within its
+ambit. We will begin our analysis by assuming the statutory definition applies.
+The APA defines “rule” as “a state agency statement of general applicability that:
+(i) implements, interprets, or prescribes law or policy; or (ii) describes the procedure or practice
+requirements of a state agency,” including “the amendment or repeal of a prior rule”, but not
+including “a statement regarding only the internal management or organization of a state agency
+and not affecting private rights or procedures.” Tex. Gov’t Code § 2001.003(6). The Commission
+argues, first, that the Orders cannot be rules because they are not generally applicable but are mere
+statements regarding internal management or organization and not affecting private rights or
+procedures. We have previously observed that the distinction between a rule and an internally
+directed agency statement may sometimes be “elusive” but have held the “core concept” to be that
+
+32
+
+“the agency statement must in itself have a binding effect on private parties.” Slay v. Texas
+Comm’n on Envtl. Quality, 351 S.W.3d 532, 546 (Tex. App.—Austin 2011, pet. denied) (citing
+Texas Dep’t of Pub. Safety v. Salazar, 304 S.W.3d 896, 905 (Tex. App.—Austin 2009, no pet.)).
+The Commission reasons in essence that, because the Orders at issue here were directed to ERCOT
+rather than to market participants, the Orders could not in themselves bind private parties and thus
+cannot be rules within the meaning of the APA. We disagree.
+The Commission’s position here suffers from two significant defects. First, there
+is no dispute that the Orders at issue were intended to affect the rights of private parties and in fact
+did so. The Commission’s hypothetical scenario, in which ERCOT fails to comply with the Order,
+may be an interesting thought experiment, but it does not refute the conclusion that the purpose
+and effect of the subject Orders was to cause market participants to pay (or receive) $9,000/MWh
+during the EEA3 event. For this reason, we are also unpersuaded by the Commission’s proposed
+distinction between this case and the cases relied on by Appellants, involving “self-executing”
+rules rather than orders directed at (or through) ERCOT. The distinction arises from an artifact of
+the unique regulatory structure governing electric power in Texas, in which ERCOT acts as
+something akin to a subagency between the PUC and market participants. ERCOT is a separate
+entity, but one over which the PUC has “complete authority.” Tex. Util. Code § 39.151(d). Where,
+as here, ERCOT acts as the Commission’s agent, its acts are imputed to its principal. Put another
+way, we fail to see legal or factual support for the Commission’s proposed distinction that would
+insulate it from review in countless cases in which it acts through ERCOT.
+Second, the Commission’s argument proves too much. For, if being directed solely
+to ERCOT rather than to market participants sufficed to negate a statement’s status as a rule, any
+number of rules found in Title 16, Texas Administrative Code, Chapter 25 (“Substantive Rules
+33
+
+Applicable to Electric Service Providers”) would likewise not be rules. Indeed, Section 25.505 of
+that chapter, the subject of the Orders at issue in this case, consists almost entirely of mandatory
+directives to ERCOT, and was adopted entirely through the formal APA rulemaking process. We
+think no one would seriously dispute that that section is a rule. Section 25.505 is general, in the
+sense that it affects the entire unregulated market in this state, or 26 million customers, and there
+can be little doubt that it “(i) implements, interprets, or prescribes law or policy” within the
+meaning of Section 2001.003(6)(A) of the Government Code. And, by definition, “the amendment
+… of a prior rule” is itself a rule. Tex. Gov’t Code § 2001.003(6)(B). Thus, if the subject Order
+had the effect of amending a rule, then the Order by definition must also be a rule. Citing an
+outcome that was believed to be “contrary to the purpose of the rule,” the Commission in its Order
+expressly granted an “exception” to Section 25.505’s application, the basis for which is neither
+found in nor logically derived from the text of the rule itself. Accordingly, the effect of the Order
+on the cited rule fits the ordinary meaning of “amendment,” and the Order, however packaged,
+therefore fits the statutory definition of a “rule.”
+None of the cases the Commission cites compel the contrary conclusion. At issue
+in Slay, for example, was whether an internal memorandum detailing the Texas Commission on
+Environmental Quality’s (TCEQ) penalty policy constituted a rule for purposes of establishing
+jurisdiction under a statutory waiver of governmental immunity. Slay, 351 S.W.3d at 532. Critical
+to our finding that the trial court did not abuse its discretion in answering that question in the
+negative was the fact that, although TCEQ staff was required to follow the penalty policy’s
+methodology in determining penalty recommendations, the commissioners were not bound to do
+so when acting on those recommendations but retained discretion to depart from the methodology
+when imposing penalties. Id. at 546. This is a significant distinction. In the present case, the
+34
+
+Commission issued the directive to ERCOT with the expectation that it be followed. Though
+ERCOT might have declined to follow the Commission’s Order, but it had no discretion to do so
+and, in any event, it followed the Commission’s directive in fact.
+Similarly unavailing is Vista Community Medical Center, another case
+distinguishing internally directed statements from those of general applicability. Texas Mut. Ins.
+v. Vista Cmty. Med. Ctr., LLP, 275 S.W.3d 538 (Tex. App.—Austin 2008, pet. denied). In Vista,
+we reversed the trial court’s determination that a one-page staff report, delivered by the director of
+medical review to the agency commissioners of the Texas Department of Insurance Division of
+Workers Compensation at an open meeting and arguing for one of two conflicting interpretations
+of an existing agency rule, was itself a rule that had to be adopted in conformance with APA
+rulemaking proposals. Id. at 545–46. We found that the staff report was not a “statement by a
+state agency” within the meaning of the APA’s definition of a rule. Id. at 555. We noted that the
+report “was a one-page document prepared by the director of the Medical Review Division … that
+was intended to address an internal agency matter—namely, the inconsistent application” of a
+particular rule. Id. The present case could scarcely be more different. Here, the subject Orders
+were voted on and issued by the Commission. There is therefore no dispute that they constitute a
+statement by a state agency.
+We went further in Vista, noting that, even if the report had been an agency
+statement, it lacked other characteristics of a rule. We noted that “not every administrative
+pronouncement is a rule within the meaning of the APA.” Id. (citing Texas Educ. Agency
+v. Leeper, 893 S.W.2d 432, 443 (Tex. 1994); Brinkley v. Texas Lottery Comm’n, 986 S.W.2d 764,
+769 (Tex. App.—Austin 1999, no pet.)). Acknowledging that “agencies routinely issue letters,
+guidelines, and reports, and occasionally file briefs in court proceedings, any of which might
+35
+
+contain statements that intrinsically implement, interpret, or prescribe law, policy, or procedure or
+practice requirements,” we reasoned that subjecting every such statement to rulemaking
+requirements would make it impossible for an agency to carry out its legislative functions. Id.
+(quoting Brinkley, 986 S.W.2d at 769). In determining whether an agency’s interpretation of its
+own rule was also a rule, following the Supreme Court’s holding in El Paso I, we concluded that
+an interpretation that contradicted or otherwise amended an existing rule would be a new rule, but
+found no such amendment in the case then before us. Id. at 555-56 (citing El Paso I, 247 S.W.3d
+at 714–15). The report “was presented to the Division at the January 2005 open meeting, but the
+Division simply thanked the director for the report and took no official action.” Id. Again, the
+present case could not be more different. Far from an internal discussion of opinion, the subject
+Order was just that—an order, intended to secure compliance by ERCOT and bring about a desired
+outcome. And, as already noted above, the Order at issue in this case had the effect of creating an
+extratextual exception to a previous rule, and therefore did not merely interpret but also amended
+that rule.
+Appellants Challenge the Validity of the Orders.
+The Commission further argues that we lack jurisdiction because Appellants
+challenge the application, rather than the validity of the subject Orders. We disagree. It is true
+that the PUC gave incomplete guidance to ERCOT, with the understanding that the latter entity
+would take appropriate measures to achieve the desired result. But from the face of the pleadings,
+it is apparent that most if not all Appellants clearly challenge not only the measures but the
+guidance itself.
+
+36
+
+In the subject Order, the Commission stated the problem it confronted as follows:
+ERCOT has informed the Commission that energy prices across the system
+are clearing at less than $9,000, which is the current system-wide offer cap
+pursuant to 16 TAC § 25.505(g)(6)(B). The Commission believes this
+outcome is inconsistent with the fundamental design of the ERCOT market.
+Energy prices should reflect scarcity of the supply. If customer load is being
+shed, scarcity is at its maximum, and the market price for the energy needed
+to serve that load should also be at its highest.
+Having thus summarized the problem it sought to address, the Commission continued,
+“[a]ccordingly, the Commission directs ERCOT to ensure that firm load that is being shed in EEA3
+is accounted for in ERCOT’s scarcity pricing signals.” Id.
+We read the foregoing Order to require—quite expressly—that ERCOT take steps
+necessary to ensure that energy prices would clear at $9,000 during the duration of the EEA3 event.
+We understand Appellants to complain that ERCOT in fact did so. We do not hear Appellants to
+challenge only the manner in which ERCOT achieved that result; nor has any party urged an
+interpretation of the Order in support of an argument that, for example, a rogue ERCOT made the
+complained-of pricing changes without authorization from the PUC. Moreover, Appellants
+explicitly invoke the language of a substantive and procedural validity challenge. In sum, we see
+nothing in the record or the briefing before us to indicate that this case involves a challenge to
+application rather than validity.
+For the reasons set forth above, we overrule the Commission’s challenges to our
+jurisdiction and proceed to consider the merits of the Appeal.
+Merits
+Appellants bring two challenges to the validity of the subject Orders in this case.
+First, Appellants argue that the Orders constitute competition rules and that the Commission in
+37
+
+adopting those rules failed to comply with APA’s regular or emergency rulemaking procedures.
+Second, as an independent ground for relief, Appellants contend that the substance of the Orders
+themselves exceeded the Commission’s statutory authority. Because we agree with Appellants as
+to the second ground, we do not address the first.
+Luminant’s substantive challenge to the Commission’s statutory authority in turn
+rests on two sub-arguments: first, that the subject Orders “contravene[ ] statutory language and
+run[ ] counter to statutory objectives that electricity prices should be determined by the normal
+forces of competition,” and, second, that the Orders were not properly limited in duration. Because
+we agree with the first of these arguments, we do not reach the second.
+State administrative agencies have only those powers that the legislature expressly
+confers upon them and those implied powers that are reasonably necessary to carry out their
+express functions or duties. See Public Util. Comm’n v. City Pub. Serv. Bd., 53 S.W.3d 310, 315
+(Tex. 2001).
+
+Absent specific or implied statutory authority, an agency rule is invalid. Id.
+
+Furthermore, an agency may not exercise what is effectively a new power based on a claim that
+the exercise is expedient for administrative purposes. Id. To establish a rule’s facial invalidity, a
+challenger must show that the rule (1) contravenes specific statutory language; (2) is counter to
+the statute’s general objectives; or (3) imposes additional burdens, conditions, or restrictions in
+excess of or inconsistent with the relevant statutory provisions. Texas Ass’n of Acupuncture &
+Oriental Med. v. Texas Bd. of Chiropractic Exam’rs, 524 S.W.3d 734, 739 (Tex. App.—Austin
+2017, no pet).
+Determining the validity of a rule requires us to construe the statutory language
+from which the agency’s authority purportedly flows. Texas Orthopaedic Ass’n v. Texas State Bd.
+of Podiatric Med. Exam’rs, 254 S.W.3d 714, 719–20 (Tex. App.—Austin 2008, pet. denied). In
+38
+
+construing a statute, our primary objective is to give effect to the legislature’s intent. Liberty Mut.
+Ins. v. Adcock, 412 S.W.3d 492, 494 (Tex. 2013). “The ‘surest guide to what lawmakers intended’
+is the enacted language of a statute.” Youngkin v. Hines, 546 S.W.3d 675, 680 (Tex. 2018) (quoting
+Entergy Gulf States, Inc. v. Summers, 282 S.W.3d 433, 463 (Tex. 2009)). We defer to the agency’s
+construction of a statute “only when the statutory language is ambiguous.” Southwest Royalties,
+Inc. v. Hegar, 500 S.W.3d 400, 405 (Tex. 2016).
+
+If the statute is unambiguous, agency
+
+deference “has no place.” TracFone Wireless, Inc. v. Commission on State Emergency Commc’ns,
+397 S.W.3d 173, 182 (Tex. 2013).
+Two Utilities Code provisions are key here.
+
+The first provision is the
+
+policy-and-purpose provision set forth at the beginning Chapter 39, which includes the
+Legislature’s express finding that “the production and sale of electricity is not a monopoly
+warranting regulation of rates, operations, and services and that the public interest in competitive
+electric markets requires that … electric services and their prices should be determined by
+customer choices and the normal forces of competition.” Id. § 39.001(a). That section further
+provides that “[r]egulatory authorities … shall authorize or order competitive rather than
+regulatory methods to achieve the goals of this chapter to the greatest extent feasible and shall
+adopt rules and issue orders that are both practical and limited so as to impose the least impact on
+competition.” Id. § 39.001(d).
+The second provision is Section 39.151(d), Utilities Code, which the Commission
+expressly invoked in the Orders. Importantly, the Orders expressly addressed the scarcity pricing
+mechanism that by its own terms was adopted pursuant to Section 39.151(d). See Tex. Admin.
+Code § 25.505(g)(6)(B) (eff. May 30, 2019, to July 13, 2021). Section 39.151 chiefly concerns
+the creation and management of ISOs but also provides, in relevant part, that “[t]he commission
+39
+
+shall adopt and enforce rules relating to the reliability of the regional electrical network and
+accounting for the production and delivery of electricity among generators and all other market
+participants, or may delegate to an independent organization responsibilities for establishing
+or enforcing such rules.” Tex. Util. Code § 39.151(d). “Independent organization” is defined
+as a region’s ISO, which, in this case, is ERCOT.
+
+Id. § 39.151(b); Texas Com. Energy,
+
+2004 WL 1777597, at *2. An adjacent provision requires such entities to “ensure the reliability
+and adequacy of the regional electrical network.” Id. § 39.151(a)(2).
+A threshold question is whether the authority granted by Section 39.151 qualifies,
+or is qualified by, the limitations imposed by 39.001. Put another way, the question is whether, or
+to what extent, Section 39.151’s directive to ensure system reliability provides an exception to
+Section 39.001’s general preference for reliance on competition rather than regulation to set prices.
+This appears to be a case of first impression. We must interpret statutory text in light of the statute
+as a whole. Davis v. Morath, 624 S.W.3d 215, 222 (Tex. 2021). We must, if possible, give effect
+to all included words without treating any language as surplusage. Hlavinka v. HSC Pipeline
+P’ship, LLC, 650 S.W.3d 483, 491 (Tex. 2022), reh’g denied (Sept. 2, 2022); see also Tex. Gov’t
+Code § 311.021 (providing that “[i]n enacting a statute, it is presumed that … the entire statute is
+intended to be effective”). Here, Section 39.001 makes clear that “competitive rather than
+regulatory methods” are preferred “to the greatest extent feasible,” and with “the least impact on
+competition.” Id. § 39.001(d). In contrast, Section 39.151 is silent as to whether “regulatory”
+rather than “competitive” methods may be adopted to ensure grid reliability. In the absence of
+specific guidance from Section 39.151, the Commission’s actions must be subject to the constraint
+provided by the text of Section 39.001. Fidelity to the whole-text canon, as codified in our Code
+Construction Act, requires that we give effect to the phrase “greatest extent feasible.” To find that
+40
+
+the subject Orders were compliant with this statutory constraint, then, we must find that the Orders
+could not have used “competitive rather than regulatory methods” to any greater extent than they
+did as issued. This we cannot do; the very notion is belied by the operation of the SPM as it existed
+immediately before the issuance of the subject Orders, and by the fact that, operating
+independently, this SMP did not result in “HCAP” pricing.
+In extreme circumstances under extraordinary pressure, the Commission exceeded
+its power by eliminating competition entirely. The previously adopted rule set the system-wide
+offer cap at $9,000/MWh. 16 Tex. Admin. Code § 25.505(g)(6)(B). The typical market clearing
+price in Texas can be $30/MWh. During Winter Storm Uri, the price had risen to just above
+$1,200, but that rise was not having the effect the Commission desired. The Orders, which we
+determined above are rules, instructed that if customer load is being shed, scarcity is at its
+maximum, and “the market price for the energy needed to serve that load should also be at its
+highest.” First Order, at 1; Second Order, at 1. Knowing that the First Order caused ERCOT to
+set the market clearing price at the market cap of $9,000/MWh, the Commission issued the Second
+Order with the identical language directing that the market price for energy be at its highest while
+there was load shed. For four days under the Orders, the minimum price was the same as the
+maximum price by operation of executive fiat. While the breadth of the Commission’s discretion
+largely resists sharp delineation, the Legislature clearly stated that the Commission’s rules must
+be “limited so as to impose the least impact on competition.” See Tex. Util. Code § 39.001(d)
+(emphasis added). Instead, the Orders had the maximum impact on competition conceivable by
+setting a single price for power and directing ERCOT to take all necessary steps to ensure the
+market cleared at that single price. While the extraordinary circumstances of Winter Storm Uri
+may have required extraordinary modifications to the SPM to send appropriate pricing signals to
+41
+
+prompt the necessary market response, the Commission here exceeded the Legislature’s limits on
+its power. Setting a single price at the rule-based maximum price violated the Legislature’s
+requirement in the Utilities Code Section 39.001(d) that the Commission use competitive methods
+to the greatest extent feasible and impose the least impact on competition.
+IV.
+CONCLUSION
+For the foregoing reasons, we reverse the Commission’s Orders of February 15
+and 16, 2021, and remand this case for further proceedings consistent with our ruling.
+
+_________________________________________
+Edward Smith, Justice
+Before Chief Justice Byrne, Justices Goodwin and Smith;
+Justice Goodwin not participating
+Reversed and Remanded
+Filed: March 17, 2023
+
+42
+
+

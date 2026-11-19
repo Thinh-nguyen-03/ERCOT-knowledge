@@ -1,0 +1,12 @@
+{
+ "id": "ercot-nprr1290-prs-report",
+ "title": "NPRR1290 PRS Report",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "2025-08-13",
+ "url": "https://www.ercot.com/files/docs/2025/08/18/1290NPRR-13-PRS-Report-081325.docx",
+ "retrieved": "2026-11-19",
+ "raw_bytes": 638412,
+ "raw_sha256": "82fb690e9afe8cb57e9e8abae6f02da5873899a0da1f6c4acaa01aaa28301975",
+ "text_chars": 2513882
+}

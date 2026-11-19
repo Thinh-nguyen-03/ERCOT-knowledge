@@ -25,7 +25,7 @@ links:
     note: The PUCT Chairman's December 2024 memo said resources were better directed to RTC+B and DRRS than to the PCM as designed. [e10]
   - to: reliability-standard
     type: related
-    note: PUCT Staff's memo said the PCM as designed was anticipated to cut projected long-term LOLE from 2.67 to 2.18 days per year. [e8]
+    note: PUCT Staff's memo, summarizing the ERCOT/E3 assessment, said the PCM as designed was anticipated to cut projected long-term LOLE from 2.67 to 2.18 days per year. [e15][e8]
   - to: imm
     type: related
     note: The IMM put long-term PCM net costs at $350 million to $725 million, against ERCOT/E3's approximately $12 million. [e9]
@@ -86,6 +86,10 @@ evidence:
     source: imm-som-2023
     locator: "Executive Summary, footnote 6"
     quote: "House Bill 1500 codified these legislative guardrails for the potential design of the PCM in PURA § 39.1594."
+  - id: e15
+    source: puct-pcm-staff-rec
+    locator: "PUCT Staff memo (2024-12-13), p. 2, lead-in to the 780 MW bullet"
+    quote: "The ERCOT/E3 assessment showed that, while the PCM would improve the resource adequacy picture in ERCOT, the additional capacity that would be incentivized is minimal."
 ---
 
 ## Definition
@@ -102,14 +106,14 @@ State law fences in any such program. The commission may not require LSEs or ret
 
 The PUCT adopted the PCM as its preferred Phase II market design on January 19, 2023, but delayed implementation until the Legislature weighed in. [e2] In November 2023 ERCOT added a multi-step ORDC price floor as the "bridge solution" until the PCM could be implemented. [e11]
 
-PUCT Staff reviewed the ERCOT/E3 and IMM assessments in December 2024. Its memo says the PCM as designed was anticipated to incentivize 780 MW of additional dispatchable generation and reduce projected long-term equilibrium LOLE from 2.67 to 2.18 days per year. [e8] ERCOT/E3 put the net cost at approximately $12 million, while the IMM said long-term net costs with the gross cap may be $350 million to $725 million. [e9] Staff recommended not moving forward, and Chairman Gleeson wrote that he did not believe the PCM as designed would provide the reliability benefits needed, and that resources were better directed to RTC+B and DRRS. [e7][e10]
+PUCT Staff reviewed the ERCOT/E3 and IMM assessments in December 2024. Its memo, summarizing the ERCOT/E3 assessment, says the PCM as designed was anticipated to incentivize 780 MW of additional dispatchable generation and reduce projected long-term equilibrium LOLE from 2.67 to 2.18 days per year. [e15][e8] ERCOT/E3 put the net cost at approximately $12 million, while the IMM said long-term net costs with the gross cap may be $350 million to $725 million. [e9] Staff recommended not moving forward, and Chairman Gleeson wrote that he did not believe the PCM as designed would provide the reliability benefits needed, and that resources were better directed to RTC+B and DRRS. [e7][e10]
 
 ## Key facts
 
 - Statutory net cost cap: $1 billion a year, less the cost of interim or bridge solutions. [e3]
 - Credits available only to dispatchable generation. [e4]
 - Must follow the start of real-time co-optimization; ERCOT said PCM would come only after RTC+B. [e5][e13]
-- PUCT Staff memo: anticipated 780 MW of additional dispatchable generation; LOLE 2.67 to 2.18 days per year. [e8]
+- ERCOT/E3 assessment, as summarized in the PUCT Staff memo: anticipated 780 MW of additional dispatchable generation; LOLE 2.67 to 2.18 days per year. [e15][e8]
 - Long-term net cost estimates: about $12 million (ERCOT/E3) versus $350 to $725 million (IMM). [e9]
 
 ## Timeline
@@ -133,7 +137,7 @@ PUCT Staff reviewed the ERCOT/E3 and IMM assessments in December 2024. Its memo 
 
 ### Why did PUCT Staff recommend against the PCM?
 
-After reviewing the ERCOT/E3 and IMM assessments, Staff recommended not moving forward with the PCM as currently designed. [e7] Its memo says the PCM as designed was anticipated to incentivize 780 MW of additional dispatchable generation and reduce LOLE from 2.67 to 2.18 days per year. [e8]
+After reviewing the ERCOT/E3 and IMM assessments, Staff recommended not moving forward with the PCM as currently designed. [e7] Its memo, summarizing the ERCOT/E3 assessment, says the PCM as designed was anticipated to incentivize 780 MW of additional dispatchable generation and reduce LOLE from 2.67 to 2.18 days per year. [e15][e8]
 
 ### What guardrails does PURA 39.1594 put on a credit program?
 

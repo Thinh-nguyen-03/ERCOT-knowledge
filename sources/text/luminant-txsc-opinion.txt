@@ -1,0 +1,1144 @@
+Supreme Court of Texas
+══════════
+No. 23-0231
+══════════
+Public Utility Commission of Texas,
+Petitioner,
+v.
+Luminant Energy Company LLC,
+Respondent
+═══════════════════════════════════════
+On Petition for Review from the
+Court of Appeals for the Third District of Texas
+═══════════════════════════════════════
+Argued January 30, 2024
+CHIEF JUSTICE HECHT delivered the opinion of the Court.
+Justice Huddle and Justice Young did not participate in the
+decision.
+During Winter Storm Uri, with the Texas electric grid on the
+brink of collapse, the Public Utility Commission issued two orders, the
+effect of which was to raise the market price of electricity to the
+regulatory ceiling of $9,000/MWh 1 to reflect the scarcity of supply,
+
+1 MWh is an abbreviation for megawatt hour, which is a unit of energy.
+
+thereby incentivizing generators capable of adding supply to do so and
+large industrial users to reduce their demand. Some market
+participants went bankrupt. Litigation ensued. 2
+In this case, the court of appeals held that the Commission’s
+orders exceeded its authority under Chapter 39 of the Public Utility
+Regulatory Act (PURA) because the statute prohibits price-setting. 3 We
+disagree. We also hold that the Commission substantially complied with
+the Administrative Procedure Act’s (APA) procedural rulemaking
+requirements, an issue the court of appeals did not reach. We reverse
+the judgment of the court of appeals and render judgment affirming the
+orders. 4
+I
+A
+The Legislature added Chapter 39 to PURA in 1999 as part of
+Texas’ transition to a competitive retail electric market. 5 Though its
+provisions are wide-ranging, only a few are at issue here. Among
+subchapter A’s “General Provisions” is Section 39.001, which includes
+2 See Pub. Util. Comm’n of Tex. v. RWE Renewables Ams., LLC, ___
+
+S.W.3d ___ (Tex. June 14, 2024) (No. 23-0555); CPS Energy v. Elec. Reliability
+Council of Tex., 671 S.W.3d 605 (Tex. 2023).
+3 665 S.W.3d 166, 191-192 (Tex. App.—Austin 2023).
+
+4 See TEX. R. APP. P. 60.2(c) (“The Supreme Court may . . . reverse the
+
+lower court’s judgment in whole or in part and render the judgment that the
+lower court should have rendered[.]”); TEX. UTIL. CODE § 39.001(f) (“The court
+of appeals shall render judgment affirming the rule or reversing . . . . The
+Texas Rules of Appellate Procedure apply to an appeal brought under this
+section to the extent not inconsistent with this section.”).
+5 Act of May 27, 1999, 76th Leg., R.S., ch. 405, § 39, 1999 Tex. Gen. Laws
+
+2543, 2558 (codified at TEX. UTIL. CODE ch. 39).
+
+2
+
+several statements of “Legislative Policy and Purpose”. There, in
+subsection (a), the Legislature states its finding that “the public interest
+in competitive electric markets requires”, with some exceptions, that
+“electric services and their prices should be determined by customer
+choices and the normal forces of competition.” 6 Continuing that theme,
+subsection (d) states that “[r]egulatory authorities . . . shall authorize or
+order competitive rather than regulatory methods to achieve the goals
+of this chapter to the greatest extent feasible and shall adopt rules and
+issue orders that are both practical and limited so as to impose the least
+impact on competition.” 7
+Subsections (c), (e), and (f) address rules. Subsection (c) prohibits
+regulatory authorities from “mak[ing] rules or issu[ing] orders
+regulating competitive electric services, prices, or competitors or
+restricting or conditioning competition except as authorized in this
+title”. 8 Subsections (e) and (f) authorize “[j]udicial review of competition
+rules” 9—a concept we return to later—and set out the procedure for
+initiating such review directly in the court of appeals. 10
+The other provisions at issue are in subchapter D, which
+
+6 TEX. UTIL. CODE § 39.001(a).
+7 Id. § 39.001(d).
+8 Id. § 39.001(c).
+9 Id. § 39.001(e).
+10 Id. § 39.001(e)-(f). When Luminant filed its suit for judicial review,
+
+Section 39.001(e) provided for review in the Third Court of Appeals. In 2023,
+the Legislature amended Section 39.001(e) to provide for review by the
+Fifteenth Court of Appeals going forward. Act of May 21, 2023, 88th Leg., R.S.,
+ch. 459, § 1.13, 2023 Tex. Gen. Laws ___.
+
+3
+
+addresses
+
+“Market
+
+Structure”.
+
+Section
+
+39.151(c)
+
+requires
+
+the
+
+Commission to “certify an independent organization”—here, ERCOT 11—
+“to perform the functions prescribed by this section.” 12 Four functions
+are listed in subsection (a). The second is “ensur[ing] the reliability and
+adequacy of the regional electrical network”. 13 The fourth is “ensur[ing]
+that electricity production and delivery are accurately accounted for
+among the generators and wholesale buyers and sellers in the region.” 14
+Section 39.151(d) sets out the Commission’s oversight of ERCOT.
+“The commission shall adopt and enforce rules relating to the reliability
+of the regional electrical network and accounting for the production and
+delivery of electricity among generators”, or it may delegate that
+responsibility to ERCOT. 15 ERCOT “is directly responsible and
+accountable to the commission”, which “has complete authority to
+oversee and investigate [ERCOT’s] finances, budget, and operations as
+necessary to ensure the organization’s accountability and to ensure that
+the organization adequately performs the organization’s functions and
+
+11
+
+ERCOT).
+
+See CPS Energy, 671 S.W.3d at 611-612 (giving the history of
+
+12 TEX. UTIL. CODE § 39.151(c).
+13 Id. § 39.151(a)(2).
+
+Id. § 39.151(a)(4). The others are “ensur[ing] access to the
+transmission and distribution systems for all buyers and sellers of electricity
+on nondiscriminatory terms”, id. § 39.151(a)(1), and “ensur[ing] that
+information relating to a customer’s choice of retail electric provider is
+conveyed in a timely manner to the persons who need that information”, id.
+§ 39.151(a)(3).
+14
+
+15 Id. § 39.151(d).
+
+4
+
+duties.” 16 If ERCOT “does not adequately perform [its] functions or
+duties or does not comply with this section,” the Commission can “take
+appropriate action”, including decertification. 17
+B
+As set out above, two of ERCOT’s statutory duties are ensuring
+the adequacy and reliability of the electric grid and ensuring that
+electricity production and delivery are accurately accounted for among
+the generators and wholesale buyers and sellers in the region. 18
+Relatedly, the Commission is charged with making rules addressing
+those duties or delegating the rulemaking responsibility to ERCOT, over
+which
+
+the
+
+Commission
+
+has
+
+complete
+
+authority. 19
+
+Under
+
+the
+
+Commission’s rules, “ERCOT shall determine the market clearing prices
+of energy”, “[e]xcept as otherwise directed by the commission”. 20 “The
+protocols and other rules” adopted by ERCOT “shall promote economic
+efficiency in the production and consumption of electricity; support
+wholesale and retail competition; support the reliability of electric
+service; and reflect the physical realities of the ERCOT electric
+system.” 21
+Texas maintains an “energy only” market in which generators are
+compensated only for the energy they actually produce, as opposed to a
+16 Id.
+17 Id.
+18 Id. § 39.151(a)(2), (4).
+19 Id. § 39.151(d).
+20 16 TEX. ADMIN. CODE § 25.501(a).
+21 Id.
+
+5
+
+“capacity market” in which generators are paid to maintain capacity for
+times of high demand. In an energy-only market, generators are
+incentivized to come online in times of high demand by higher prices for
+wholesale electricity. To ensure sufficient power generation during
+times of high demand, the Commission by rule established a
+scarcity-pricing
+
+mechanism—or
+
+SPM—and
+
+directed
+
+ERCOT
+
+to
+
+administer it. 22
+The SPM is a mathematical formula run on ERCOT’s computers
+that sends price-based signals to energy generators regarding whether
+additional power is needed. Its goal is to ensure that in times of energy
+shortage, prices adequately account for high demand and the amount of
+reserves needed to keep the lights on. The formula should result in an
+inverse correlation between energy capacity in the grid and the price of
+electricity—the less energy available, the higher the price to incentivize
+generators to add power.
+The SPM is complex, but only a few of its components need
+explanation here. The Commission by rule sets a ceiling on the price of
+energy, called the high system-wide offer cap, or HCAP. In
+February 2021, the HCAP was $9,000/MWh. 23 Another component of
+the SPM is the value of lost load or VOLL, which reflects the
+hypothetical price a customer would pay to avoid the loss of electrical
+service. The SPM was designed so that in times of extreme scarcity,
+when forced blackouts are imminent or occurring due to an insufficient
+22 Id. § 25.509(b).
+23 Id. § 25.505(g)(6)(B) (version in effect between May 30, 2019, and July
+
+13, 2021). Today the HCAP is $5,000/MWh. Id. § 25.509(b)(6)(B).
+
+6
+
+supply of electricity to meet demand, the wholesale price of electricity
+approaches the VOLL. By Commission rule, the VOLL in February 2021
+was set to be equal to the HCAP of $9,000/MWh. 24
+C
+For the ERCOT grid to remain functional, electricity supply and
+demand must remain balanced at a frequency of 60 hertz. The grid can
+operate at a frequency of 59.4 hertz for up to nine minutes before grid
+failure occurs.
+Winter Storm Uri descended upon Texas over Valentine’s Day
+weekend of 2021, bringing frigid air from the North Pole and record
+snowfall and low temperatures. As energy demand soared, almost 50%
+of the power-generation equipment in Texas froze and went offline. In
+the early morning hours of Monday, February 15, energy reserves
+dipped low enough to trigger the first level of grid emergency,
+Emergency Energy Alert Level 1. Within about an hour, reserves had
+dipped lower, triggering EEA2 and then EEA3—the highest level of
+alert. After breaching EEA3, ERCOT’s protocols required it to “shed firm
+load”—start mandatory rolling blackouts—which it did. Available power
+continued to fall, which necessitated massive, more widespread
+blackouts. That morning, the grid operated at or below 59.4 hertz for
+just over four minutes. Texas was fewer than five minutes away from a
+total grid collapse that would have plunged the state into darkness for
+weeks, maybe months.
+The mandatory blackouts averted the worst-case scenario, but
+24 Id. § 25.505(g)(6)(C), (E) (version in effect between May 30, 2019, and
+
+July 13, 2021).
+
+7
+
+ERCOT remained in EEA3. ERCOT called the Commission’s attention
+to a problem that ERCOT perceived in the pricing signals that the SPM
+was sending to the market. Because the system was in load shed—
+mandatory blackouts were occurring—the price of energy should have
+been at the VOLL and HCAP of $9,000/MWh to incentivize generation.
+Instead, the price was fluctuating to as low as $1,200. ERCOT was
+having to hold some energy in reserve to maintain the system, and it
+believed the SPM interpreted the existence of those reserves to mean
+that load shed was no longer occurring.
+D
+The Commission called an emergency meeting for the evening of
+February 15. The notice advised that the meeting was “necessary to
+allow the Commission to address the imminent threat to public health
+and safety due to this loss of electricity for millions of citizens in the
+ERCOT region.” At the meeting, the Commission would determine
+whether to “exercise its authority under section 39.151 of [PURA] to
+ensure that the electricity market provides clear signals to generators
+of the value of generation when customer loads must be shed to protect
+the ERCOT system”. Specifically, the Commission would “consider
+whether the system demand component of energy prices should be set
+at the system-wide offer cap when firm load is being shed.” “Without
+such decisions,” the notice stated, “the continuing lack of electricity for
+some of the citizens of Texas could result in loss of life or damage to
+property that otherwise could be prevented.”
+After a short meeting, the Commission issued the first of two
+orders at issue in this case. Citing the language in Section 39.151(d) that
+
+8
+
+gives the Commission complete authority over ERCOT, the order
+“directs ERCOT to ensure that firm load that is being shed in EEA3 is
+accounted for in ERCOT’s scarcity pricing signals”:
+ORDER DIRECTING ERCOT TO TAKE ACTION
+AND GRANTING EXCEPTION TO COMMISSION
+RULES
+On February 12, 2021, pursuant to Texas
+Government Code § 418.014, in response to an extreme
+winter weather event, Governor Greg Abbott issued a
+Declaration of a State of Disaster for all counties in Texas.
+Further, on February 15, 2021, the Electric
+Reliability Council of Texas, Inc. (ERCOT) declared its
+highest state of emergency, an Emergency Energy Alert
+Level 3 (EEA3), due to exceptionally high electric demand
+exceeding supply. ERCOT has directed transmission
+operators in the ERCOT region to curtail more than 10,000
+megawatts (MW) of firm load. The ERCOT System is
+expected to remain in EEA3, and firm load shed is expected
+to continue, for a sustained period of time in light of the
+expected duration of the extreme weather event.
+This Order addresses two significant market
+anomalies identified during this EEA3 event.
+I.
+
+Energy Prices Lower than System-Wide Offer
+Cap During Load-Shed Event
+
+ERCOT has informed the Commission that energy
+prices across the system are clearing at less than $9,000,
+which is the current system-wide offer cap pursuant to 16
+TAC § 25.505(g)(6)(B). At various times today, energy
+prices across the system have been as low as approximately
+$1,200. The Commission believes this outcome is
+inconsistent with the fundamental design of the ERCOT
+market. Energy prices should reflect scarcity of the supply.
+If customer load is being shed, scarcity is at its maximum,
+and the market price for the energy needed to serve that
+
+9
+
+load should also be at its highest.
+Utilities Code § 39.151(d) gives the Commission
+“complete authority” over ERCOT, the independent
+organization certified by the Commission pursuant to
+§ 39.151. Further, 16 TAC § 25.501(a) provides that
+ERCOT determines market clearing prices of energy and
+other ancillary services in the ERCOT market unless
+“otherwise directed by the commission.”
+Pursuant to this authority, the Commission
+determines that adjustments are needed to ERCOT prices
+to ensure they accurately reflect the scarcity conditions in
+the market. Accordingly, the Commission directs ERCOT
+to ensure that firm load that is being shed in EEA3 is
+accounted for in ERCOT’s scarcity pricing signals. The
+Commission further directs ERCOT to correct any past
+prices such that firm load that is being shed in EEA3 is
+accounted for in ERCOT’s scarcity pricing signals. 25
+The following day, February 16, the Commission issued a second order
+that is identical to the first except that it rescinds the last sentence
+under part I of the February 15 order directing ERCOT to correct past
+prices.
+ERCOT acted on the Commission’s directive by manually
+plugging a value into the SPM that would have the effect of raising the
+Commission rules also set a floor price for energy, called the low
+system-wide offer cap or LCAP. In February 2021, the LCAP was the greater
+of $2,000/MWh or 50 times the natural gas price index value determined by
+ERCOT. Id. § 25.505(g)(6)(A) (version in effect between May 30, 2019, and July
+13, 2021). In part II of the order, the Commission suspended the LCAP due to
+abnormal fuel prices. “Due to exceptionally high natural gas prices at this time,
+if the LCAP is calculated as ‘50 times the natural gas price index value,’ it may
+exceed the high system-wide offer cap (HCAP) of $9,000 per MWh”, the order
+explains.
+25
+
+LCAP.
+
+Respondents do not challenge the part of the orders suspending the
+
+10
+
+price of electricity to $9,000. This manual change remained in place
+until the grid returned to normal operations on February 19.
+E
+The storm’s fallout was substantial. All three commissioners
+resigned. The Legislature sprang into action, enacting laws to improve
+preparation for winter weather emergencies 26 and to stabilize the
+market by offering a securitization program to market participants who
+had suffered defaults or losses from the high prices. 27 Still, some utilities
+went bankrupt.
+Luminant is a power company that both buys and sells electricity.
+Although its sales offset some of the losses from purchasing electricity
+during the storm, Luminant claims that it suffered a net loss of a billion
+dollars from purchasing electricity at $9,000 during the storm.
+Luminant filed administrative challenges to the invoices it received for
+those purchases 28 and, in March 2021, sought judicial review of the
+Orders in the court of appeals under PURA Section 39.001(e)-(f). Several
+parties intervened on each side.
+A two-judge panel rejected each of the jurisdictional objections
+raised by the Commission and held that the Orders exceed the
+Commission’s authority under PURA and are therefore invalid. 29 The
+26 Act of May 30, 2021, 87th Leg., R.S., ch. 426, 2021 Tex. Gen. Laws
+
+833 (S.B. 3).
+
+27 Act of May 30, 2021, 87th Leg., R.S., ch. 908, 2021 Tex. Gen. Laws
+
+2218 (H.B. 4492).
+
+The administrative proceedings are abated until this litigation
+concludes.
+28
+
+29 665 S.W.3d at 192.
+
+11
+
+court did not reach Luminant’s alternative argument that the Orders
+fail to comply with the procedural rulemaking requirements of the APA.
+The Commission and parties aligned with it filed petitions for review,
+which we granted. 30
+II
+We start, as we must, with jurisdiction. The Commission
+challenges the court of appeals’ subject-matter jurisdiction on three
+bases.
+A
+The Commission raises issues of standing and mootness.
+“Constitutional standing requires a concrete injury that is both
+traceable to the defendant’s conduct and redressable by court order.” 31
+The Commission acknowledges that being overcharged for electricity is
+the “sort of pocketbook injury [that] is a prototypical form of injury in
+fact”, 32 but it argues that Luminant’s injuries are not redressable
+through this appeal. Specifically, the Commission argues that what
+Luminant “ultimately seek[s]” is “retrospective repricing”—it wants its
+money back—and PURA does not authorize the court of appeals to grant
+that relief. The court can only “render judgment affirming the rule or
+
+Our references to the arguments of the Commission include the
+arguments of all petitioners, and our references to the arguments of Luminant
+include the arguments of all respondents.
+30
+
+31 Tex. Bd. of Chiropractic Exam’rs v. Tex. Med. Ass’n, 616 S.W.3d 558,
+
+567 (Tex. 2021) (citing Heckman v. Williamson County, 369 S.W.3d 137, 154155 (Tex. 2012)).
+
+32 Mosaic Baybrook One, L.P. v. Simien, 674 S.W.3d 234, 251 (Tex. 2023)
+
+(quoting Collins v. Yellen, 141 S. Ct. 1761, 1779 (2021)).
+
+12
+
+reversing and, if appropriate on reversal, remand[] the rule to the
+commission for further proceedings, consistent with the court’s opinion
+and judgment.” 33
+But Luminant has challenged the invoices it received during the
+storm in an administrative proceeding, which is abated pending the
+outcome of this litigation. If the court of appeals’ judgment invalidating
+the Orders were upheld, the decision would be binding in the
+administrative process. The Commission points out that “it must be
+‘likely,’ as opposed to merely ‘speculative,’ that the injury will be
+‘redressed by a favorable decision.’” 34 The Commission argues that
+whether Luminant could recoup its losses in the administrative
+proceeding is speculative because ERCOT does not maintain a fund of
+money—it just facilitates market transactions—and any payment would
+come out of the pocket of other market participants. Essentially, the
+Commission’s argument is that the egg cannot be unscrambled. Yet
+potentially it can. Luminant points us to ERCOT protocols authorizing
+invoice repricing and market-wide resettlements 35 and to a market-wide
+resettlement that occurred just prior to the storm. 36 We conclude that
+
+33 TEX. UTIL. CODE § 39.001(f).
+
+Heckman, 369 S.W.3d at 154-155 (quoting Lujan v. Defenders of
+Wildlife, 504 U.S. 555, 560-561 (1992)).
+34
+
+35 See ERCOT NODAL PROTOCOLS §§ 6.3(4), 20.10.
+36 See Pub. Util. Comm’n of Tex., Complaints and Appeals of DC Energy
+
+Tex., LLC and Monterey TX, LLC Against ERCOT, Docket No. 50871 (Feb. 12,
+2021) (final order at 11), https://interchange.puc.texas.gov/Documents/50871_
+32_1110661.pdf.
+
+13
+
+Luminant has standing to seek judicial review of the Orders. 37
+We are likewise unpersuaded by the Commission’s argument that
+Luminant’s appeal was moot 38 before it even began. The Commission
+argues that the Orders expired on their own terms when the market
+returned to normal operations on February 19, 2021. But Luminant
+suffered financial loss as a result of the Orders. Following the
+Commission’s logic would mean that short-term rules could never be
+challenged. That is not the law. 39
+
+37 See San Jacinto River Auth. v. Medina, 627 S.W.3d 618, 625 (Tex.
+
+2021) (concluding that homeowners whose properties flooded during Hurricane
+Harvey had standing to sue the River Authority for statutory takings under
+Chapter 2007 of the Government Code, even though Chapter 2007 does not
+authorize damages, because the statute provides other remedies, including
+“invalidation of the governmental action resulting in the taking”).
+38 About mootness, we recently wrote:
+
+The mootness doctrine—a constitutional limitation founded in
+the separation of powers between the governmental branches—
+prohibits courts from issuing advisory opinions. A case becomes
+moot when (1) a justiciable controversy no longer exists between
+the parties, (2) the parties no longer have a legally cognizable
+interest in the case’s outcome, (3) the court can no longer grant
+the requested relief or otherwise affect the parties’ rights or
+interests, or (4) any decision would constitute an impermissible
+advisory opinion.
+Elec. Reliability Council of Tex., Inc. v. Panda Power Generation Infrastructure
+Fund, LLC, 619 S.W.3d 628, 634-635 (Tex. 2021) (citation omitted).
+39 See City of Corpus Christi v. Pub. Util. Comm’n of Tex., 572 S.W.2d
+
+290, 300 (Tex. 1978) (holding that the cities’ challenge to an interim order of
+the Commission granting a rate increase was not moot, even though it had
+been superseded by a final order, because “if the interim order should be
+determined to be invalid, . . . this court could grant relief by allowing the cities
+to recover the temporary rates paid under the interim order”).
+
+14
+
+B
+PURA authorizes judicial review of competition rules. 40 The
+Commission argues that the Orders are not rules at all, much less
+competition rules. The APA defines rule as “a state agency statement of
+general applicability” that “implements, interprets, or prescribes law or
+policy” or “describes the procedure or practice requirements of a state
+agency”. 41 The definition “includes the amendment or repeal of a prior
+rule” but “does not include a statement regarding only the internal
+management or organization of a state agency and not affecting private
+rights or procedures.” 42 The Commission argues that the Orders do not
+meet this definition because “they applied only to a single, discrete
+event: the EEA3 event that occurred [during Winter Storm Uri].”
+We conclude that the Orders meet the APA’s definition of a rule.
+They directed ERCOT to implement the Commission’s policy that “[i]f
+customer load is being shed, scarcity is at its maximum, and the market
+price for the energy needed to serve that load should also be at its
+highest.” This policy applied to all market transactions. 43 And while the
+40 See TEX. UTIL. CODE § 39.001(e) (“Judicial review of competition rules
+
+adopted by the commission shall be conducted under Chapter 2001,
+Government Code, except as otherwise provided by this chapter.”); id.
+§ 39.001(f) (“A person who challenges the validity of a competition rule must
+file a notice of appeal with the court of appeals . . . .”).
+41 TEX. GOV’T CODE § 2001.003(6)(A).
+42 Id. § 2001.003(6)(B)-(C).
+43 Cf. El Paso Hosp. Dist. v. Tex. Health & Hum. Servs. Comm’n, 247
+
+S.W.3d 709, 714 (Tex. 2008) (holding that HHSC’s imposition of a cutoff date
+for selecting claims data from which to calculate Medicaid reimbursement
+rates was a statement of general applicability because it “affect[ed] all
+
+15
+
+Orders were addressed to ERCOT, the policy they implemented affected
+market participants directly. 44
+We also conclude that the Orders are competition rules within the
+meaning of PURA. The statute does not define competition rule. Citing
+dictionary definitions of competition and derivative terms, the
+Commission proffers that “competition rules are anti-monopolistic rules
+geared
+
+toward
+
+curbing
+
+the
+
+effects
+
+of
+
+monopolies
+
+and
+
+other
+
+anti-competitive practices.” There is no language in PURA to support
+such a narrow construction. We need not delineate the precise contours
+of competition rule. The Orders were adopted under Chapter 39. A fair
+reading of Section 39.001 indicates that a rule regulating pricing of the
+wholesale electricity market is within the term’s ambit. 45
+The Commission points out that in 2023, the Legislature
+hospitals receiving reimbursement for inpatient Medicaid services”); id.
+(“Thus, no question exists that the February 28 cutoff is a statement of general
+applicability because it applies to all hospitals.”); see also R.R. Comm’n of Tex.
+v. WBD Oil & Gas Co., 104 S.W.3d 69, 79 (Tex. 2003) (“By ‘general
+applicability’, the APA definition references statements that affect the interest
+of the public at large such that they cannot be given the effect of law without
+public input.”).
+44 Cf. El Paso Hosp. Dist., 247 S.W.3d at 714-715 (explaining that “the
+
+February 28 cutoff [was] not a statement regarding the agency’s internal
+management or organization but rather affect[ed] the Hospitals’ private
+rights” by “directly affecting [their] right to reimbursement”).
+
+The parties dispute whether part I of the Orders, being challenged here,
+amended the pricing rules then in effect. See TEX. GOV’T CODE
+§ 2001.003(6)(B). We need not resolve that dispute. However, we note that
+part II of the Orders, which has not been challenged, expressly “grant[s] an
+exception to” the pricing rules by suspending the LCAP then in effect. See
+supra note 25.
+45 See TEX. UTIL. CODE § 39.001(a) (mentioning “electric services and
+
+16
+
+amended Chapter 39 to distinguish between rulemaking and a written
+order of the Commission adopted by majority vote and to authorize the
+Commission to give ERCOT verbal directives in an emergency. 46 The
+Commission argues that these amendments codify its preexisting
+authority to direct ERCOT through a written order that is distinct from
+rulemaking. Yet there is nothing in the text reflecting the Legislature’s
+intent either to confirm existing authority of the Commission or to give
+the Commission new authority, and the amendments did not take effect
+until September 1, 2023. Our task, therefore, is to determine whether
+the Orders are competition rules under the 2021 version of PURA such
+
+their prices”); id. § 39.001(c) (prohibiting rules that regulate “prices” “except as
+authorized in this title”).
+Indeed, the Commission has previously labeled a rule it described as
+“governing the enforcement of wholesale electricity markets and ERCOT
+administered markets” as a competition rule. Pub. Util. Comm’n of Tex., Re
+Enforcement of Wholesale Market Rules, Project No. 26201, 230 P.U.R.4th
+361, 2004 WL 367935, at *2 (Feb. 9, 2004) (order adopting 16 TEX. ADMIN.
+CODE § 25.503). In addition, the Orders cite Section 39.151(d) specifically, and
+the Commission has designated rules adopted under Section 39.151 as
+competition rules. See, e.g., Pub. Util. Comm’n of Tex., Order Adopting
+Amendment to §25.363 as Approved at the June 20, 2014 Open Meeting,
+Project No. 41949 (July 1, 2014) (at 1), https://interchange.puc.texas.gov/Docu
+ments/41949_12_798868.pdf.
+46 See Act of May 28, 2023, 88th Leg., R.S., ch. 410, § 17, 2023 Tex. Gen.
+
+Laws __ (H.B. 1500) (codified at TEX. UTIL. CODE § 39.1514); see TEX. UTIL.
+CODE § 39.1514(a) (stating a general rule that “[t]he commission may direct
+[ERCOT] to take an official action only through: (1) a contested case;
+(2) rulemaking; or (3) a memorandum or written order adopted by a majority
+vote”); id. § 39.1514(c) (authorizing the Commission to “use a verbal directive
+to direct [ERCOT] to take an official action in an urgent or emergency
+situation”, while requiring the Commission to “establish criteria for
+determining whether a situation is urgent or an emergency” and to “establish
+a process” for issuing emergency directives).
+
+17
+
+that they could be challenged by direct appeal to the court of appeals.
+We hold that they are.
+Having concluded that the court of appeals had jurisdiction over
+Luminant’s suit, we turn to the merits.
+III
+The Commission argues that the court of appeals erred in its
+conclusion that the Orders exceed the Commission’s authority under
+PURA. We agree.
+A
+Agency rules are presumed valid, and the challenger has the
+burden of proving a rule’s invalidity. 47 A challenger can meet this
+burden by showing that the challenged rule (1) contravenes specific
+statutory language; (2) runs counter to the general objectives of the
+statute; or (3) imposes additional burdens, conditions, or restrictions in
+excess of or inconsistent with the relevant statutory provisions. 48 Only
+(1) and (2) are at issue here.
+We discern a statute’s objectives from its plain text. 49 That text
+must always be read “in context—not isolation.” 50 We “give meaning to
+every word in a statute, harmonizing each provision”, 51 while
+
+47 Tex. Bd. of Chiropractic Exam’rs, 616 S.W.3d at 569 (citing Tex. State
+
+Bd. of Exam’rs of Marriage & Fam. Therapists v. Tex. Med. Ass’n, 511 S.W.3d
+28, 33 (Tex. 2017)).
+48 Id. (citing Marriage & Fam. Therapists, 511 S.W.3d at 33).
+49 Id. (citing Marriage & Fam. Therapists, 511 S.W.3d at 33).
+50 State v. Hollins, 620 S.W.3d 400, 407 (Tex. 2020).
+51 Hogan v. Zoanni, 627 S.W.3d 163, 175 (Tex. 2021).
+
+18
+
+“consider[ing] the context and framework of the entire statute”, in order
+to “meld its words into a cohesive reflection of legislative intent.” 52 At
+the same time, “[w]e take statutes as we find them, presuming the
+Legislature included words that it intended to include and omitted
+words it intended to omit.” 53
+B
+The court of appeals’ opinion acknowledges some of these
+principles, yet its analysis departs from them. The court compared the
+legislative
+
+findings
+
+on
+
+the
+
+desirability
+
+of
+
+competition
+
+in
+
+Section 39.001(a) and (d) 54 with the language setting out ERCOT’s
+responsibility to ensure the reliability of the power grid and the
+Commission’s
+
+responsibility
+
+to
+
+make
+
+rules
+
+on
+
+that
+
+topic
+
+in
+
+Section 39.151(a) and (d). 55 The court then phrased “[a] threshold
+question” as “whether the authority granted by Section 39.151 qualifies,
+
+52 Cadena Comercial USA Corp. v. Tex. Alcoholic Beverage Comm’n, 518
+
+S.W.3d 318, 326 (Tex. 2017).
+
+53 Union Carbide Corp. v. Synatzske, 438 S.W.3d 39, 52 (Tex. 2014).
+54 See TEX. UTIL. CODE § 39.001(a) (stating that “the public interest in
+
+competitive electric markets requires that, [with some listed exceptions],
+electric services and their prices should be determined by customer choices and
+the normal forces of competition”); id. § 39.001(d) (“Regulatory authorities . . .
+shall authorize or order competitive rather than regulatory methods to achieve
+the goals of this chapter to the greatest extent feasible and shall adopt rules
+and issue orders that are both practical and limited so as to impose the least
+impact on competition.”).
+55 See id. § 39.151(a)(2) (listing “ensure the reliability and adequacy of
+
+the regional electrical network” among ERCOT’s functions); id. § 39.151(d)
+(“The commission shall adopt and enforce rules relating to the reliability of the
+regional electrical network . . . or may delegate [that] responsibilit[y] to an
+independent organization.”).
+
+19
+
+or is qualified by, the limitations imposed by 39.001.” 56 “Put another
+way,” the court said, “the question is whether, or to what extent,
+Section 39.151’s directive to ensure system reliability provides an
+exception to Section 39.001’s general preference for reliance on
+competition rather than regulation to set prices.” 57
+The court observed that “Section 39.151 is silent as to whether
+‘regulatory’ rather than ‘competitive’ methods may be adopted to ensure
+grid reliability.” 58 From there, it concluded that “the Commission’s
+actions must be subject to the constraint provided by the text of
+Section 39.001.” 59 The court believed this result to be directed by “the
+whole-text canon”, which, the court said, “require[d] that [it] give effect
+to the phrase ‘greatest extent feasible’” in Section 39.001(d). 60 To find
+that the Orders complied with the statement in Section 39.001(d) that
+the Commission “shall authorize or order competitive rather than
+regulatory methods to achieve the goals of [Chapter 39] to the greatest
+extent feasible”, the court said that it “must find that the Orders could
+not have used ‘competitive rather than regulatory methods’ to any
+greater extent than they did as issued.” 61 “This [it] [could not] do”
+because, prior to the Orders’ being issued, the “SPM did not result in
+
+56 665 S.W.3d at 191.
+57 Id.
+58 Id.
+59 Id.
+60 Id.
+61 Id.
+
+20
+
+‘HCAP’ pricing.” 62
+C
+The whole-text canon “calls on the judicial interpreter to consider
+the entire text, in view of its structure and of the physical and logical
+relation of its many parts.” 63 It incorporates the principles of statutory
+interpretation we have set out above. 64 The canon does not support the
+court of appeals’ analysis or conclusion. Applying it yields the opposite
+result. Instead of treating Sections 39.001 and 39.151 as conflicting, 65
+the court should have asked whether they can be harmonized 66 within
+62 Id.
+
+ANTONIN SCALIA & BRYAN A. GARNER, READING LAW: THE
+INTERPRETATION OF LEGAL TEXTS 167 (2012) [hereinafter READING LAW].
+63
+
+64 The authors explain:
+
+Many of the other principles of interpretation are derived from
+the whole-text canon—for example, the rules that an
+interpretation that furthers the document’s purpose should be
+favored (§ 4 [presumption against ineffectiveness]), that if
+possible no word should be rendered superfluous (§ 26
+[surplusage canon]), that a word or phrase is presumed to bear
+the same meaning throughout the document (§ 25 [presumption
+of consistent usage]), that provisions should be interpreted in a
+way that renders them compatible rather than contradictory
+(§ 27 [harmonious-reading canon]), that irreconcilably
+contradictory provisions should be given no effect (§ 29
+[irreconcilability canon]), and that associated words bear on one
+another’s meaning (noscitur a sociis) (§ 31 [associated-words
+canon]).
+Id. at 168.
+65 See 665 S.W.3d at 191.
+66 Hogan, 627 S.W.3d at 175; see READING LAW, supra note 63, at 180
+
+(“[T]here can be no justification for needlessly rendering provisions in conflict
+if they can be interpreted harmoniously.”).
+
+21
+
+the context and framework of the entire statute, 67 giving effect to both. 68
+The answer is yes.
+Section 39.001 announces the legislative policy that the price of
+electricity
+
+should
+
+be
+
+determined
+
+by
+
+competition
+
+while
+
+also
+
+acknowledging that the new market will not be completely unregulated.
+Subsection (a) states that prices should be determined by competition
+“except for transmission and distribution services and for the recovery
+of
+
+stranded
+
+costs”. 69
+
+Subsection
+
+(c)
+
+reflects
+
+the
+
+Legislature’s
+
+understanding that “[r]egulatory authorities” may indeed have to “make
+rules or issue orders regulating . . . prices . . . or restricting . . .
+competition” by stating that such rules can only be made “as authorized
+in this title”. 70 Subsection (d) provides that “[r]egulatory authorities . . .
+shall authorize or order competitive rather than regulatory methods to
+achieve the goals of this chapter”, but then the Legislature added, “to
+the greatest extent feasible”. 71 Subsection (d) also directs regulatory
+authorities to “adopt rules and issue orders that are both practical and
+limited so as to impose the least impact on competition.” 72 Luminant
+argues that Section 39.001 prohibits the Commission from engaging in
+
+67 Cadena Comercial, 518 S.W.3d at 326; see READING LAW, supra note
+
+63, at 167 (“The text must be construed as a whole.”).
+
+68 Hogan, 627 S.W.3d at 175; see READING LAW, supra note 63, at 174
+
+(“If possible, every word and every provision is to be given effect . . . .”).
+69 TEX. UTIL. CODE § 39.001(a).
+70 Id. § 39.001(c).
+71 Id. § 39.001(d).
+72 Id. (emphasis added).
+
+22
+
+any act whatsoever that regulates prices, but it gets there by
+disregarding much of the section’s language. 73
+The subchapters that follow flesh out how the transition to a
+competitive market will take place and how the new market will be
+structured. They reveal an additional legislative policy: the provision of
+reliable electric service. Within a subchapter addressing retail
+competition, Section 39.101 directs the Commission, prior to the
+transition’s being completed, to establish protections entitling a
+customer “to safe, reliable, and reasonably priced electricity, including
+protection against service disconnections in an extreme weather
+emergency”. 74 Later, Section 39.151 expressly directs ERCOT to “ensure
+the reliability and adequacy of the regional electrical network” 75 and
+gives the Commission “complete authority” to ensure that ERCOT
+adequately performs that duty, which includes rulemaking “relating to
+the reliability of the regional electrical network”. 76 In sum, the Orders
+are authorized by Section 39.151. Nothing in Section 39.001 changes
+
+Luminant urges that “to the greatest extent feasible” in
+Section 39.001(d) modifies the phrase immediately preceding it, “to achieve the
+goals of this chapter”, rather than the earlier language directing the
+Commission to “authorize or order competitive rather than regulatory
+methods”. But this reading does not change the sentence’s overall meaning
+because the sentence must be read in context. And as we explain, the
+Legislature acknowledges in other statutory language, including the very next
+sentence, that competitive methods may not always suffice to achieve all the
+chapter’s goals.
+73
+
+74 Id. § 39.101(a)(1).
+75 Id. § 39.151(a)(2).
+76 Id. § 39.151(d).
+
+23
+
+that; 77 to the contrary, Section 39.001 acknowledges that the goal of
+prices set by competition may, in some circumstances, have to yield.
+Deciding when those circumstances are present—and how to
+respond—is the Commission’s job, not the judiciary’s. We addressed the
+judiciary’s limited role in reviewing agency rules for validity in Texas
+Board of Chiropractic Examiners v. Texas Medical Ass’n. 78 That case
+involved rules by the Chiropractic Examiners Board defining two terms
+that the Legislature had used in defining the scope of chiropractic
+practice. 79 The Medical Association challenged the rules’ validity under
+the APA, arguing that the rules enlarged the scope of chiropractic
+beyond its statutory bounds.
+We criticized the trial court for “weigh[ing] evidence—specifically,
+witness testimony presenting each side’s view of the appropriate line
+between chiropractic and [medicine]—as if it were doing the Board’s
+work anew.” 80 We reiterated that “[t]he proper question for the court
+was whether, despite [the rules’] presumption of validity, [they]
+contravene[] the Act’s specific text or run[] counter to its purpose as a
+matter of law.” 81 This textual analysis “ensures that courts will stay in
+
+77 “[A] preamble or purpose clause . . . cannot expand [text] beyond its
+
+permissible meaning. If they could, they would be the purposivists’
+playground . . . .”). READING LAW, supra note 63, at 35.
+78 616 S.W.3d 558.
+79 Id. at 560.
+80 Id. at 571.
+81 Id.
+
+24
+
+their lane.” 82 “Judges are experts in statutory analysis, not in
+healthcare”, we said. 83 “To prevent expensive and time-consuming
+usurpations of administrative agencies’ policymaking work, the court’s
+inquiry in a . . . suit challenging the validity of an agency rule must be
+limited.” 84
+The lessons of Chiropractic Examiners apply squarely here. The
+Commission has the expertise to manage the electric utility industry;
+the courts do not. The court of appeals thus strayed from its lane by
+inquiring whether the Orders could have used “‘competitive rather than
+regulatory methods’ to any greater extent than they did”. 85 And for the
+same reason, we must decline Luminant’s invitation to second-guess the
+Orders’ necessity and whether it was the price hike they enacted or the
+Commission’s earlier load-shed directives that truly saved the grid from
+collapse.
+When the claim is that an agency rule exceeds the scope of
+statutory law, the judiciary’s role is purely textual. We have concluded
+that the Orders do not “contravene[] specific statutory language” or
+“run[] counter to the general objectives of” Chapter 39, so the
+presumption of validity holds. 86
+IV
+Because of the court of appeals’ holding on PURA, the court did
+82 Id.
+83 Id.
+84 Id.
+85 665 S.W.3d at 191 (quoting TEX. UTIL. CODE § 39.001(d)).
+86 Tex. Bd. of Chiropractic Exam’rs, 616 S.W.3d at 569.
+
+25
+
+not reach Luminant’s alternative argument that the Orders violate the
+APA’s rulemaking procedures. The issue is fully briefed in this Court,
+and the parties urge us to address it. We do and conclude that the Orders
+substantially comply with the statutory requirements.
+The Government Code authorizes a state agency to “adopt an
+emergency rule without prior notice or hearing, or with an abbreviated
+notice and a hearing that it finds practicable, if the agency”:
+(1) finds that an imminent peril to the public health, safety,
+or welfare . . . requires adoption of a rule on fewer than
+30 days’ notice; and
+(2) states in writing the reasons for [that] finding . . . . 87
+The finding of imminent peril “shall [be] set forth in an emergency rule’s
+preamble”. 88 The agency “shall file” the emergency rule and the written
+reasons for it “in the office of the secretary of state for publication in the
+Texas Register”. 89 The Legislature has determined that substantial
+compliance with these requirements is enough to defeat a procedural
+challenge to an emergency rule. 90 “A mere technical defect that does not
+result in prejudice to a person’s rights or privileges is not grounds for
+invalidation of a rule.” 91
+
+87 TEX. GOV’T CODE § 2001.034(a). An emergency rule “may be effective
+
+for not longer than 120 days and may be renewed once for not longer than 60
+days.” Id. § 2001.034(c).
+88 Id. § 2001.034(b).
+89 Id. § 2001.034(d).
+90 See id. § 2001.035(a) (“A rule is voidable unless a state agency adopts
+
+it in substantial compliance with Sections 2001.0225 through 2001.034.”).
+91 Id. § 2001.035(d).
+
+26
+
+A
+The requirement of a written finding of imminent peril and
+reasons for that finding in the rule’s preamble is satisfied by language
+in the Orders’ introductory paragraphs, which note:
+•
+
+the Governor’s having issued a statewide disaster declaration
+under Section 418.014 of the Government Code; 92
+
+•
+
+ERCOT’s having “declared its highest state of emergency”, an
+EEA3, “due to exceptionally high electric demand exceeding
+supply”;
+
+•
+
+ERCOT’s having directed transmission operators to shed load;
+and
+
+•
+
+the expectations that ERCOT would remain in EEA3 and load
+shed would continue “for a sustained period of time in light of the
+expected duration of the extreme weather event.”
+Luminant complains that the Commission did not quote the exact
+
+statutory language under a heading titled “preamble”. But only
+substantial compliance is required. We have said that “[a]n agency’s
+order
+
+substantially
+
+complies
+
+with”
+
+a
+
+procedural
+
+rulemaking
+
+requirement if it “accomplishes the legislative objectives underlying the
+requirement” and “comes fairly within [its] character and scope”. 93 The
+requirement that a reasoned finding of imminent peril be set out at the
+beginning ensures that the agency explains to the public why it is not
+following the usual procedures and timeline before making the rule. The
+language the Commission included in the Orders’ introduction achieves
+
+92 To do so, the Governor must “find[] a disaster has occurred or that
+
+the occurrence or threat of disaster is imminent.” Id. § 418.014(a).
+
+93 Nat’l Ass’n of Indep. Insurers v. Tex. Dep’t of Ins., 925 S.W.2d 667, 669
+
+(Tex. 1996).
+
+27
+
+that goal. 94
+B
+It is undisputed that the Commission did not file the Orders with
+the Secretary of State to be published in the Texas Register. Publication
+in the Register is the only formal statutory notice requirement for an
+emergency rule, 95 but under the Secretary’s regulations, there is an
+almost two-week gap between the deadline for filing a rule and the date
+of its publication in the Register. 96 If the Commission had filed the
+Orders with the Secretary but done nothing else, the Orders would have
+expired before any interested party received notice of them.
+Elsewhere, the APA states that an “agency shall take appropriate
+measures to make emergency rules known to persons who may be
+affected by them.” 97 The Commission did that by immediately posting
+the Orders on its website. The Orders were also summarized and linked
+
+94 Luminant also argues that the Commission was required to comply
+
+with Section 2001.033, which requires that a final state agency order adopting
+a rule include “a reasoned justification” for it. See TEX. GOV’T CODE
+§ 2001.033(a)(1). This requirement applies to a final rules order promulgated
+in the ordinary course, not an emergency rule adopted under Section 2001.034.
+The “reasoned justification” required by Section 2001.033 must include “a
+summary of comments received from parties interested in the rule” and “the
+reasons why the agency disagrees with party submissions and proposals”. Id.
+§ 2001.033(a)(1)(A), (C). But emergency rulemaking is authorized when there
+is not time for a notice-and-comment period. See id. § 2001.034(a) (authorizing
+the adoption of “an emergency rule without prior notice or hearing”).
+95 See id. § 2001.034(d).
+96 See 1 TEX. ADMIN. CODE § 91.6(a) (“The Texas Register publishes 52
+
+issues yearly, excluding indexes. Friday is the day of publication.”); id. § 91.6(b)
+(“Rule filing deadline: 12:00 noon, Monday, the week before publication.”).
+97 TEX. GOV’T CODE § 2001.036(b).
+
+28
+
+in a notice that was posted on ERCOT’s website and emailed to its
+distribution list. Under the circumstances, these measures provided
+better and faster notice to interested parties and the public than
+publication in the Register would have.
+Luminant argues that substantial compliance does not apply to
+the filing requirement because the APA provides that emergency rules
+become “effective immediately on filing with the secretary of state”. 98
+Yet the statutory text says that it does. “A rule is voidable unless a state
+agency adopts it in substantial compliance with Sections 2001.0225
+through 2001.034.” 99 The filing requirement for an emergency rule is in
+Section 2001.034(d).
+Finally, neither Luminant nor any other respondent has
+articulated any prejudice resulting from the Commission’s failure to file
+the Orders with the Secretary. 100 There is no dispute that respondents
+had actual notice of the Orders. Luminant contends that the
+Commission’s “hasty process . . . cost Luminant and other market
+participants hundreds of millions of dollars”. But that complaint is about
+the Orders’ substance, not their procedure.
+We hold that the Commission substantially complied with the
+98 Id. § 2001.036(a)(2).
+99 Id. § 2001.035(a).
+100 See id. § 2001.035(d) (“A mere technical defect that does not result
+
+in prejudice to a person’s rights or privileges is not grounds for invalidation of
+a rule.”); cf. City of Corpus Christi v. Pub. Util. Comm’n of Tex., 51 S.W.3d 231,
+264 (Tex. 2001) (Owen, J., concurring) (“[W]e have previously held that failure
+to follow procedural requirements of statutes or rules is not reversible error
+without a showing of harm.” (citing Imperial Am. Res. Fund, Inc. v. R.R.
+Comm’n of Tex., 557 S.W.2d 280, 288 (Tex. 1977))).
+
+29
+
+APA’s emergency rulemaking procedure.
+*
+
+*
+
+*
+
+*
+
+*
+
+We reverse the judgment of the court of appeals and render
+judgment affirming the Orders. 101
+Nathan L. Hecht
+Chief Justice
+OPINION DELIVERED: June 14, 2024
+
+101 TEX. UTIL. CODE § 39.001(f); TEX. R. APP. P. 60.2(c).
+
+30
+
+
