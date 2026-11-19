@@ -149,7 +149,7 @@ Pivotal-supplier conditions in top-quartile net load hours fell to 35% in 2025, 
 
 ### ERCOT proposes a new paid demand response program. What should a market analyst expect from the IMM?
 
-- An assessment of how the program affects price formation. In 2025 the IMM said NPRR 1296 would undermine the energy-only market and its economic signals. [e14]
+- An assessment of how the program affects price formation. In its 2025 State of the Market report the IMM said NPRR 1296 would undermine the energy-only market and its economic signals. [e14]
 - The IMM's role is to analyze proposed rule changes and recommend efficiency improvements, so its comments feed the PUCT's decision but do not bind it. [e3][e4]
 
 ## Open items

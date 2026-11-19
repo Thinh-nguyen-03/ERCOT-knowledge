@@ -13,16 +13,16 @@ links:
     note: FERC certified NERC as the Electric Reliability Organization and approves its Reliability Standards. [e2]
   - to: puct
     type: contrasts-with
-    note: FERC does not regulate ERCOT's wholesale energy market because power exchanges stay within Texas. [e1]
+    note: The 2021 FERC-NERC staff report says ERCOT's wholesale energy market is not regulated by FERC because power exchanges occur wholly within the state. [e1]
   - to: ercot
     type: related
-    note: FERC does not regulate ERCOT's wholesale energy market, but ERCOT served as a Reliability Coordinator in the 2021 event area. [e1][e4]
+    note: The 2021 FERC-NERC staff report says ERCOT's wholesale energy market is not regulated by FERC, and that ERCOT served as a Reliability Coordinator in the 2021 event area. [e1][e4]
   - to: winter-storm-uri
     type: related
     note: FERC, NERC and Regional Entity staff jointly inquired into the February 2021 event. [e5]
   - to: texas-interconnection
     type: related
-    note: ERCOT's wholesale exchanges occur wholly within the state, which is why FERC does not regulate its market. [e1]
+    note: The 2021 FERC-NERC staff report gives ERCOT's wholesale exchanges occurring wholly within the state as the reason FERC does not regulate its wholesale energy market. [e1]
   - to: nodal-protocols
     type: related
     note: The Protocols reference FERC rules among the things Administrative NPRRs may correct. [e6]
@@ -63,22 +63,22 @@ FERC is the Federal Energy Regulatory Commission. The federal reliability law gi
 
 Congress granted FERC jurisdiction over electric grid reliability in the Energy Policy Act of 2005, which added a section to the Federal Power Act. [e3] Using that authority, FERC certified NERC as the Electric Reliability Organization responsible for establishing mandatory Reliability Standards, which FERC must approve. [e2]
 
-In the saved sources FERC shows up in ERCOT mostly through reliability: it joined NERC and the Regional Entities in a staff inquiry into the February 2021 cold weather outages, which looked at what occurred and at lessons for NERC cold weather Reliability Standards. [e5]
+One place FERC appears in the saved sources is reliability: it joined NERC and the Regional Entities in a staff inquiry into the February 2021 cold weather outages, which looked at what occurred and at lessons for NERC cold weather Reliability Standards. [e5]
 
 ## ERCOT context
 
-ERCOT's wholesale energy market is outside FERC's regulation. [e1] The same report notes that ERCOT, as a Reliability Coordinator, was one of three system operators in the event area, along with MISO and SPP. [e4] The Protocols also reference FERC rules, for example in the list of references that Administrative NPRRs may correct. [e6]
+The 2021 FERC-NERC staff report states that ERCOT's wholesale energy market is not regulated by FERC. [e1] The same report notes that ERCOT, MISO and SPP all served as Reliability Coordinators in the event area. [e4] The Protocols also reference FERC rules, for example in the list of references that Administrative NPRRs may correct. [e6]
 
 ## Key facts
 
-- ERCOT's wholesale energy market is not regulated by FERC because exchanges occur wholly within Texas. [e1]
+- Per the 2021 FERC-NERC staff report, ERCOT's wholesale energy market is not regulated by FERC because exchanges occur wholly within the state. [e1]
 - FERC's reliability jurisdiction comes from the Energy Policy Act of 2005, which added a new section to the Federal Power Act (16 U.S.C. § 215). [e3]
 - FERC certified NERC as the ERO and approves its mandatory Reliability Standards. [e2]
 - FERC, NERC and Regional Entity staff jointly inquired into the February 2021 outages. [e5]
 
 ## Say it like this
 
-(Guidance) FERC does not regulate ERCOT's wholesale market, which is intrastate; see the PUCT topic for who does. FERC matters to ERCOT mainly through the federal reliability framework, where FERC oversees NERC.
+(Guidance) The 2021 FERC-NERC staff report says FERC does not regulate ERCOT's wholesale energy market. [e1] FERC's reliability role runs through NERC, which FERC certified as the Electric Reliability Organization. [e2]
 
 ## Common confusion
 

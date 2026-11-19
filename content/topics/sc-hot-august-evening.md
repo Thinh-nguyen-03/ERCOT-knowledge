@@ -135,7 +135,7 @@ Finally, know the ceiling. After RTC go-live on 12/5/2025 the real-time SWCAP is
 - The units that cover the ramp are quick-start gas and batteries, often with high offer prices, so spikes are predictable. [e5][e7]
 - Batteries have limited energy. In summer 2026 their state of charge running out in the evenings was a pattern all summer. [e8][e17]
 - Under RTC, scarcity pricing comes from the ASDCs, not the ORDC. The ASDCs define the penalty price when the market goes short of reserves, and ERCOT's example shows AS cost entering the LMP. [e9][e11][e10]
-- Watch which reserves are short. In June 2026 the shortfalls were mostly Non-Spin in HE 22-23, not regulation or RRS. [e13]
+- Watch which reserves are short. In summer 2026 Reg-Up, Reg-Down and RRS had no shortages, Non-Spin and ECRS met the plan in nearly all intervals, and most June Non-Spin shortfalls came in the late evening, with 40% of intervals in HE 22-23 affected. [e13]
 - The real-time offer cap is $2,000/MWh after RTC, so offers have a lower ceiling than before December 2025. [e12]
 - (Reasoning) Then give a view: a spike is likely if the net load ramp is steep, batteries reach the net peak with little stored energy, and Non-Spin or ECRS look short. It is less likely if wind picks up in the evening.
 - Suppose (illustrative): gas is at $3/MMBtu. The IMM's spike threshold of 18 times the fuel price would be $54/MWh, so a jump from $40 to $200 easily counts as a spike. [e6]

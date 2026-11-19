@@ -129,7 +129,7 @@ Since December 6, 2025, the DAM has also allowed virtual Ancillary Service posit
 
 ## Say it like this
 
-A virtual is a purely financial day-ahead trade at a Settlement Point: you buy or sell energy in the DAM and it unwinds at the real-time price, so you make or lose the day-ahead-to-real-time spread there. It needs no physical asset, and arbitrage of day-ahead versus real-time differences is what the IMM links to price convergence. [e12]
+A virtual is the IMM's term for an energy-only bid or offer at a Settlement Point, which is not tied to a Resource. At a Hub, the Protocol text shows the DAM-cleared quantity also entering the real-time imbalance calculation at the real-time price. The IMM links arbitrage of day-ahead versus real-time differences to price convergence. [e12]
 
 ## Common confusion
 

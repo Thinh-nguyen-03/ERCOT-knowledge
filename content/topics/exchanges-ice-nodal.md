@@ -13,13 +13,13 @@ links:
     note: The ICE ERCOT North contracts come as a peak and an off-peak monthly block. [e1][e2]
   - to: hb-north
     type: related
-    note: Both ICE contracts settle on the ERCOT North 345KV Hub real-time price. [e3]
+    note: The ICE ERCOT North peak contract settles on the ERCOT North 345KV Hub real-time price. [e3]
   - to: trading-hub
     type: related
     note: ICE's reference price is an ERCOT-published hub settlement price. [e3]
   - to: rtm
     type: determines
-    note: The contracts settle against the real-time price published by ERCOT for the North 345KV Hub. [e3]
+    note: The peak contract settles against the real-time price published by ERCOT for the North 345KV Hub. [e3]
   - to: dart-spread
     type: related
     note: ICE futures settle against real-time prices rather than day-ahead prices, so they bear on how forwards compare with real-time outcomes. [e3]
@@ -58,7 +58,7 @@ evidence:
   - id: e8
     source: ice-ercot-north-peak
     locator: "Contract Specifications, Minimum Price Fluctuation"
-    quote: "The price quotation convention shall be One cent ($0.01) per MWh"
+    quote: "The price quotation convention shall be One cent ($0.01) per MWh; minimum price fluctuation may vary by trade type."
   - id: e9
     source: ice-ercot-north-peak
     locator: "Contract Specifications, header and Contract Symbol"
@@ -71,13 +71,13 @@ ICE Futures U.S. lists monthly cash-settled futures on ERCOT power, including th
 
 ## How it works
 
-The contract settles in cash against the "ELECTRICITY-ERCOT-NORTH 345KV HUB-REAL TIME" price published by ERCOT. [e3] The size is 1 MW, the price is quoted in US dollars per MWh with a minimum fluctuation of one cent, and up to 50 consecutive monthly contract periods can be listed. [e4][e3][e8][e5] Trading ends on the last business day of the contract period, and the final payment date is the sixth clearing organization business day after that. [e6][e7]
+The contract settles in cash against the "ELECTRICITY-ERCOT-NORTH 345KV HUB-REAL TIME" price published by ERCOT. [e3] The size is 1 MW, the price is quoted in US dollars per MWh with a one-cent price quotation convention (the specification says minimum price fluctuation may vary by trade type), and up to 50 consecutive monthly contract periods can be listed. [e4][e3][e8][e5] Trading ends on the last business day of the contract period, and the final payment date is the sixth clearing organization business day after that. [e6][e7]
 
 The peak contract averages the peak hourly prices and the off-peak contract averages the off-peak hourly prices; the specific hours are in the block-products topic. [e1][e2]
 
 ## ERCOT context
 
-The saved ICE specifications show that the ERCOT North 345KV Hub real-time price is the underlying for these exchange-traded power futures, which settle in cash on a monthly average of the published prices. [e1][e3] The saved sources contain no information on Nodal Exchange.
+The saved ICE peak specification shows that the ERCOT North 345KV Hub real-time price is the underlying for this exchange-traded power future, which settle in cash on a monthly average of the published prices. [e1][e3] The saved sources contain no information on Nodal Exchange.
 
 ## Key facts
 
@@ -93,7 +93,7 @@ The saved ICE specifications show that the ERCOT North 345KV Hub real-time price
 
 ## Common confusion
 
-These ICE futures settle on real-time prices, not day-ahead prices. [e3] They are also not ERCOT products: ERCOT only publishes the price used as the reference. [e1]
+These ICE futures settle on real-time prices, not day-ahead prices. [e3] They are listed by ICE Futures U.S., not by ERCOT; the specification refers to hourly prices published by ERCOT. [e9][e1]
 
 ## Questions
 

@@ -16,7 +16,7 @@ links:
     note: Each ESI ID has at most one REP of record at a time. [e6]
   - to: retail-choice
     type: used-in
-    note: Switches and move-ins are processed per ESI ID. [e7]
+    note: A Competitive Retailer's Switch Request is submitted for an ESI ID. [e7]
   - to: load-profiling
     type: related
     note: Load Profiling estimates and allocates 15-minute Load for ESI IDs. [e8]
@@ -88,7 +88,7 @@ The retail market requires a 15-minute Settlement Interval, and Load Profiling i
 
 ## Say it like this
 
-(Guidance) The ESI ID is the premise meter-point ID the whole retail market runs on. The ESI ID is used in registration and settlement, and a switch request must include one. [e1][e7]
+(Guidance) The ESI ID is the basic identifier assigned to each Service Delivery Point. It is used in registration and settlement, and a switch request must include one. [e1][e7]
 
 ## Common confusion
 
@@ -100,7 +100,7 @@ The retail market requires a 15-minute Settlement Interval, and Load Profiling i
 
 The TDSP serving the Service Delivery Point. [e4]
 
-### Can an ESI ID be reused after a premise is closed?
+### Can an ESI ID be reused after service at the point ends?
 
 No. The number is not re-issued even if the point of service ends. [e3]
 

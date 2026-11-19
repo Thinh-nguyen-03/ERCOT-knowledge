@@ -41,7 +41,7 @@ evidence:
   - id: e3
     source: puct-25-508
     locator: "16 TAC §25.508(b)(1)-(2)"
-    quote: "Frequency. The expected loss of load events for the ERCOT region must be equal to or less than one event per ten years on average, i.e., 0.1 loss of load expectation (LOLE). (2) Duration. The maximum expected length of a loss of load event for the ERCOT region, measured in hours, must be less than 12 hours, with a 1.00 percent exceedance tolerance."
+    quote: "Frequency. The expected loss of load events for the ERCOT region must be equal to or less than one event per ten years on average, i.e., 0.1 loss of load expectation (LOLE). (2) Duration. The maximum expected length of a loss of load event for the ERCOT region, measured in hours, must be less than 12 hours, with a 1.00 percent exceedance tolerance. (3) Magnitude. The expected highest level of load shed during a loss of load event for the ERCOT region, measured as the average lost load for a given hour, must be less than the maximum number of megawatts of load shed that can be safely rotated during a loss of load event, as determined by ERCOT, in consultation with commission staff and the transmission operators, with a 1.00 percent exceedance tolerance."
   - id: e4
     source: puct-25-508
     locator: "16 TAC §25.508(c)"
@@ -99,6 +99,10 @@ evidence:
     source: imm-som-2025
     locator: "Resource Adequacy chapter, F.4 Additional Notes on the RSA (p. 106)"
     quote: "As we have previously noted, meeting the reliability standard defined in 16 TAC §25.508 through price signals alone would imply an operational VOLL that is extraordinarily high for an energy-only market like ERCOT’s."
+  - id: e17
+    source: imm-som-2025
+    locator: "Resource Adequacy chapter, D.2 CONE vs Net Revenue (p. 103)"
+    quote: "More importantly, years like 2024 and 2025 occur often and are not a threat to resource adequacy because one should expect tighter conditions to occur in other years that can produce revenues substantially above CONE. The years 2021 and 2023 are such examples."
 ---
 
 ## Definition
@@ -107,7 +111,7 @@ Resource adequacy means having enough generation and demand-side resources to me
 
 ## How it works
 
-ERCOT has a formal reliability standard. Expected loss-of-load events for the ERCOT region must average no more than one per ten years (0.1 LOLE). The longest expected event must be under 12 hours, with a 1.00% exceedance tolerance. [e3] Starting January 1, 2026, ERCOT must assess at least every three years whether the system meets the standard and is likely to keep meeting it for the next three years. [e4] If it does not, ERCOT must give the Commission a menu of market design changes, including a primary recommendation. [e5]
+ERCOT has a formal reliability standard. Expected loss-of-load events for the ERCOT region must average no more than one per ten years (0.1 LOLE). The longest expected event must be under 12 hours, with a 1.00% exceedance tolerance, and the expected highest level of load shed in an event must be less than the maximum amount ERCOT determines can be safely rotated, also with a 1.00% exceedance tolerance. [e3] Starting January 1, 2026, ERCOT must assess at least every three years whether the system meets the standard and is likely to keep meeting it for the next three years. [e4] If it does not, ERCOT must give the Commission a menu of market design changes, including a primary recommendation. [e5]
 
 The market signal comes from scarcity prices. Since RTC, sloped Ancillary Service Demand Curves define shortage pricing in the day-ahead and real-time markets. [e12] The IMM compares net revenues with the cost of new entry (CONE). [e14] The PUCT approved a planning CONE of $140/kW-year in July 2024 and kept the legacy $105/kW-year for the peaker net margin threshold. [e13]
 
@@ -117,11 +121,11 @@ ERCOT measures adequacy through planning reports. A resource adequacy report cov
 
 The planning view and the operating view point in different directions. The December 2025 CDR base scenario shows Planning Reserve Margins falling each year and turning negative in 2028. Summer 2026 starts at 18.3% for the peak load hour and 20.9% for the peak net load hour. [e9] Its alternative scenarios vary SB 6 large-load curtailment, large-load growth, and the amount and timing of Texas Energy Fund capacity. [e10] In real-time operations, however, the IMM reports that PRC was below 6,500 MW for only 102 hours in 2025 and has not fallen below 3,000 MW since 2023. [e11]
 
-Revenues were weak in 2025. Net revenues were $52.59/kW-year for a CT and $82.96/kW-year for a CC, below the $140 planning CONE. [e14] The 2026 Reliability Standard Assessment was scheduled to file results in August 2026, with market design options if ERCOT looked unlikely to meet the standard in 2029. [e6] The IMM warns that meeting the standard through prices alone would need an extraordinarily high operational VOLL. [e16]
+Revenues were weak in 2025. Net revenues were $52.59/kW-year for a CT and $82.96/kW-year for a CC, below the $140 planning CONE. [e14] The IMM adds that years like 2024 and 2025 occur often and are not a threat to resource adequacy, because tighter years such as 2021 and 2023 can produce revenues substantially above CONE. [e17] The 2026 Reliability Standard Assessment was scheduled to file results in August 2026, with market design options if ERCOT looked unlikely to meet the standard in 2029. [e6] The IMM warns that meeting the standard through prices alone would need an extraordinarily high operational VOLL. [e16]
 
 ## Key facts
 
-- Reliability standard (16 TAC §25.508): 0.1 LOLE; maximum event duration under 12 hours with 1.00% exceedance tolerance. [e3]
+- Reliability standard (16 TAC §25.508): 0.1 LOLE; maximum event duration under 12 hours with 1.00% exceedance tolerance; expected highest load shed below the maximum that can be safely rotated. [e3]
 - Assessments must start from January 1, 2026 and be repeated at least every three years. [e4]
 - December 2025 CDR base case, summer 2026: 18.3% reserve margin at peak load and 20.9% at peak net load, turning negative in 2028. [e9]
 - Planning CONE: $140/kW-year (approved July 2024). The PNM threshold still uses $105/kW-year. [e13]
@@ -140,7 +144,7 @@ Revenues were weak in 2025. Net revenues were $52.59/kW-year for a CT and $82.96
 
 ### What is ERCOT's reliability standard?
 
-16 TAC §25.508 requires expected loss-of-load events of no more than one per ten years on average (0.1 LOLE), with the maximum expected event length under 12 hours at a 1.00% exceedance tolerance. [e3]
+16 TAC §25.508 requires expected loss-of-load events of no more than one per ten years on average (0.1 LOLE), with the maximum expected event length under 12 hours at a 1.00% exceedance tolerance, and the expected highest load shed in an event below the maximum ERCOT determines can be safely rotated. [e3]
 
 ### What happens if ERCOT fails the standard?
 
@@ -152,7 +156,7 @@ Not on its own. The CDR base case turns negative in 2028 [e9], but the CDR's sce
 
 ### Were 2025 revenues enough to build new gas plants?
 
-No, according to the IMM. CT and CC net revenues of $52.59 and $82.96 per kW-year were below the $140 planning CONE. [e14]
+No, according to the IMM. CT and CC net revenues of $52.59 and $82.96 per kW-year were below the $140 planning CONE. [e14] The IMM also says such years are not a threat to resource adequacy, because tighter years such as 2021 and 2023 can produce revenues substantially above CONE. [e17]
 
 ## Scenarios
 

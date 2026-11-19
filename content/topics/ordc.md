@@ -103,7 +103,7 @@ The ORDC was ERCOT's pre-RTC way of pricing reserve scarcity. It linked the leve
 
 ## How it works
 
-This section describes the design before December 5, 2025. Day-ahead procurement covered the full AS Plan, and the real-time market could not use those reserves unless they were manually released to dispatch. The ORDC then set shortage pricing outside the dispatch model, based on how many operating reserves were available. [e5] ERCOT described this as reflecting scarcity "through a process that is outside of the optimization". [e4]
+This section describes the design before December 5, 2025. Day-ahead procurement covered the full AS Plan, and the real-time market could not use those reserves unless they were manually released to dispatch. The ORDC then set shortage pricing outside the dispatch model, based on how many operating reserves were available. [e5] ERCOT described this as reflecting scarcity "through a process that is outside of the optimization". [e4] RTC went live on December 5, 2025. [e2]
 
 As reserves fall, the chance of load shed rises. The ORDC turned that probability, valued at VOLL, into a price adder. [e1][e2]
 

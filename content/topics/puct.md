@@ -98,6 +98,10 @@ evidence:
     source: imm-som-2025
     locator: "2025 State of the Market Report, Resource Adequacy, D.1 Updates to CONE"
     quote: "In July 2024, the Public Utility Commission of Texas approved an updated CONE value of 140 per kW-year for planning purposes in ERCOT, reflecting more recent cost estimates for new entry, while retaining the legacy $105 per kW-year value for the peaker net margin threshold."
+  - id: e18
+    source: np-04
+    locator: "Section 4.4.11, note under the parameter table"
+    quote: "The current value for the parameters referenced in this table above will be recommended by TAC and approved by the ERCOT Board."
 ---
 
 ## Definition
@@ -125,7 +129,7 @@ The 2023 Sunset bill, HB 1500, changed the PUCT's own footing. It changed the da
 - The PUCT certifies the independent organization and can decertify it or penalize it. [e1][e3]
 - The PUCT reviews ERCOT's budget annually or biennially and can modify any item. [e4]
 - Protocol changes need PUCT approval of a market impact statement before they take effect. [e5]
-- Since HB 1500 (2023), PUCT directives to ERCOT must come through a contested case, a rulemaking, or a written order or memo adopted by majority vote. [e6][e7]
+- Since HB 1500 (2023), PUCT directives to ERCOT to take an official action must come through a contested case, a rulemaking, or a written order or memo adopted by majority vote. [e6][e7]
 - Offer caps: rule 25.509 states HCAP $5,000/MWh and LCAP $2,000/MWh for energy. [e11] The Protocol table lists $5,000 day-ahead and $2,000 real-time, and the SWCAP was reduced to $2,000 after RTC go-live on 12/5/2025. [e15][e16]
 - Reliability standard frequency criterion: no more than one loss of load event per ten years on average (0.1 LOLE). [e12]
 - Sunset: HB 1500 sets September 1, 2029 as the date in the Sunset provision for abolishing the commission. [e13][e17]
@@ -146,7 +150,7 @@ Not by a verbal directive. Under §39.1514, added by HB 1500, an official-action
 
 ### Who sets the offer cap, ERCOT or the PUCT?
 
-The PUCT sets the caps by rule. Rule 25.509 states a high cap of $5,000 per MWh and a low cap of $2,000 per MWh for energy offers. [e11] Since RTC go-live the Protocol table lists a $5,000 day-ahead cap and a $2,000 real-time cap, and ERCOT says the SWCAP was reduced to $2,000 from $5,000 after 12/5/2025. [e15][e16]
+Both have a hand. PUCT rule 25.509 states a high cap of $5,000 per MWh and a low cap of $2,000 per MWh for energy offers. [e11] The current values in the Protocol parameter table are recommended by TAC and approved by the ERCOT Board, and Protocol changes need PUCT approval of a market impact statement. [e18][e5] Since RTC go-live the Protocol table lists a $5,000 day-ahead cap and a $2,000 real-time cap, and ERCOT says the SWCAP was reduced to $2,000 from $5,000 after 12/5/2025. [e15][e16]
 
 ### What can the PUCT do if it finds market power abuse?
 
@@ -161,7 +165,7 @@ In July 2024 it approved $140 per kW-year for planning, and it kept the legacy $
 ### The ERCOT board approves an NPRR that changes scarcity pricing. A trader asks when it becomes binding.
 
 - Not on board approval. New or revised protocols cannot take effect until the PUCT approves a market impact statement, and the PUCT can approve, reject or remand the change. [e5]
-- So the PUCT open meeting is the step to watch, after which the change still has to be implemented.
+- So the PUCT's approval is the step to watch, after which the change still has to be implemented.
 
 ## Open items
 

@@ -127,11 +127,11 @@ Despite the records, the IMM says 2023 had fewer true shortages than 2022, large
 
 ## Timeline
 
-- August 10, 2023: all-time peak demand of 85.7 GW (IMM). [e1]
+- August 10, 2023: peak demand of 85.7 GW, the highest of the summer's 49 new demand records (IMM). [e1]
 - August 17, 2023: one of the two main days at the $5,000 cap. [e11]
 - September 6, 2023, 7:00 p.m.: manual curtailment of 1,590 MW on the Pawnee-to-Calaveras line to manage the DELSAN5 constraint. [e7]
 - September 6, 2023, 7:14 p.m.: 1,023 MW of ERS deployed. [e7]
-- September 6, 2023, 7:25 p.m.: frequency at 59.77 Hz; EEA2 declared. [e5]
+- September 6, 2023, 7:25 p.m.: EEA2 declared, after frequency fell to 59.77 Hz from about 7:10 p.m. [e5]
 - September 6, 2023, 7:37 p.m.: frequency restored to 60 Hz. [e6]
 - September 6, 2023, 8:27 p.m. EEA1; 8:37 p.m. normal operations. [e6]
 

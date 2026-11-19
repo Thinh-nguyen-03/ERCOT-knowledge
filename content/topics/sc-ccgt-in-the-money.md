@@ -88,7 +88,7 @@ evidence:
   - id: e14
     source: imm-som-2025
     locator: "Appendix: Real-Time Co-Optimization, introduction (p. A-2)"
-    quote: "Co-optimization is a market-model feature that can simultaneously schedule energy and a set of operating reserve products, i.e., ancillary services, and make economic trade-offs among them."
+    quote: "Co-optimization is a market-model feature that can simultaneously schedule energy and a set of operating reserve products, i.e., ancillary services, and make economic trade-offs among them. In ERCOT prior to December 5, 2025, co-optimization between energy and operating reserves was only incorporated into the day-ahead market."
   - id: e15
     source: imm-som-2025
     locator: "Review of Real-Time Market Outcomes, 2. Implied Heat Rates"
@@ -123,7 +123,7 @@ ERCOT itself builds a cost reference the same way. The mitigated offer cap takes
 
 Then compare with the market. The implied heat rate divides the power price by the fuel price. If it is above the unit's own heat rate, the unit covers its fuel cost. [e3] Zero-cost renewables pull the implied heat rate down for hundreds of hours a year, and shortage pricing pushes it up for hundreds of hours. [e15]
 
-Hourly margin is not the whole answer. Thermal units that do not clear a three-part offer day-ahead risk not recovering start-up and minimum generation costs. [e11] Co-optimization, introduced with RTC, can also schedule energy and reserves together and make trade-offs between them. [e14]
+Hourly margin is not the whole answer. Thermal units that do not clear a three-part offer day-ahead risk not recovering start-up and minimum generation costs. [e11] Co-optimization schedules energy and reserves together and makes trade-offs between them; before December 5, 2025 ERCOT had it only in the day-ahead market. [e14]
 
 ## Key facts
 
@@ -131,7 +131,7 @@ Hourly margin is not the whole answer. Thermal units that do not clear a three-p
 - Labels in the IMM's natural gas price figure for 2021-2025: $7.30, $5.84, $2.22, $1.90, $3.06 (unit not stated in the quote). [e5]
 - 2025 ERCOT average real-time energy price, excluding adders: $36.94/MWh. [e6]
 - The 2025 implied heat rate was almost 28% below 2024 and in line with the marginal heat rate of ERCOT gas plants. [e7]
-- 2025 net revenue was $82.96/kW-year for a combined cycle and $52.59/kW-year for a combustion turbine, below the $140/kW-year planning CONE. [e13][e16]
+- IMM estimate of 2025 net revenue: $82.96/kW-year for a combined cycle and $52.59/kW-year for a combustion turbine, below the $140/kW-year planning CONE. [e13][e16]
 
 ## Scenarios
 
@@ -155,7 +155,7 @@ ERCOT's Fuel Index Price is the Katy Hub price. [e4] (Guidance) Use the price th
 
 ### Is the plant worth building if it is in the money most days?
 
-Not necessarily. In 2025 a combined cycle earned about $82.96/kW-year, below the $140/kW-year planning CONE. [e13][e16]
+Not necessarily. The IMM estimated 2025 net revenue for a combined cycle at $82.96/kW-year, below the $140/kW-year planning CONE, and concluded that 2025 net revenues were not high enough to incentivize new investment. [e13][e16]
 
 ### How does ERCOT estimate a gas unit's marginal cost for mitigation?
 

@@ -36,7 +36,7 @@ evidence:
   - id: e1
     source: imm-som-2021
     locator: "Day-Ahead Market Performance, day-ahead energy prices"
-    quote: "Day-ahead prices averaged $157 per MWh in 2021, while real-time prices averaged $160 per MWh."
+    quote: "Day-ahead prices averaged $157 per MWh in 2021, while real-time prices averaged $160 per MWh.63 This divergence was a change from the stability in 2020, which occurred throughout the year but especially in February because of the effects of Winter Storm Uri."
   - id: e2
     source: imm-som-2021
     locator: "Day-Ahead Market Performance, day-ahead energy prices"
@@ -101,7 +101,7 @@ evidence:
 
 ## Definition
 
-This scenario is about the times when day-ahead prices settle below real-time prices instead of at their usual small premium; in 2021, for example, day-ahead prices averaged $157/MWh while real-time prices averaged $160/MWh. [e1]
+This scenario is about the times when day-ahead prices settle below real-time prices instead of at their usual small premium; in 2021, for example, day-ahead prices averaged $157/MWh while real-time prices averaged $160/MWh, a divergence the IMM says was especially marked in February because of Winter Storm Uri. [e1]
 
 ## How it works
 
@@ -115,7 +115,7 @@ The day-ahead market is financial, so DA-RT gaps become cash. Energy and AS boug
 
 ## Key facts
 
-- 2021: day-ahead averaged $157/MWh, real-time $160/MWh. [e1]
+- 2021: day-ahead averaged $157/MWh, real-time $160/MWh (annual averages that include the Winter Storm Uri divergence in February). [e1]
 - 2023: day-ahead $58/MWh, real-time $51/MWh, a modest premium. [e3]
 - 2025: average day-ahead premium $1.17/MWh, average absolute difference $12/MWh, the low spread reflecting fewer price spikes. [e6]
 - Average net load forecast error fell to about 452 MW in 2025, but forecasts still under-forecast renewables and over-forecast load. [e10]

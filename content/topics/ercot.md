@@ -141,7 +141,7 @@ The board's composition is set in PURA. Eight members are picked by a three-pers
 
 ### Why does it matter that ERCOT is the central counterparty?
 
-Each participant settles with ERCOT, not with the other side of the trade. ERCOT is the sole buyer to each seller and the sole seller to each buyer for the products it settles. [e4] ERCOT also assesses participants' creditworthiness and enforces security requirements as part of settlement and billing. [e3]
+For the products ERCOT settles under the Protocols, each participant settles with ERCOT, not with the other side of the trade: ERCOT is the sole buyer to each seller and the sole seller to each buyer. Bilateral transactions between participants and self-arranged products are excluded. [e4] ERCOT also assesses participants' creditworthiness and enforces security requirements as part of settlement and billing. [e3]
 
 ### How is ERCOT funded?
 

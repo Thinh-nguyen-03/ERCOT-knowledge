@@ -64,6 +64,10 @@ evidence:
     source: pura-39
     locator: "PURA §39.361, history note"
     quote: "Added by Acts 2023, 88th Leg., R.S., Ch. 463 (S.B. 1929), Sec. 1, eff. September 1, 2023."
+  - id: e10
+    source: ercot-cdr-2025-12
+    locator: "Glossary, Large Flexible Load (LFL)"
+    quote: "A Large Load (as defined below) that can come online quickly and is very responsive to real time prices. An LFL is typically a crypto-currency mining site."
 ---
 
 ## Definition
@@ -94,7 +98,7 @@ The IMM's 2025 report says aggregate crypto-currency mining demand was about 4,6
 
 ## Common confusion
 
-(Guidance) "Large Flexible Load" is a PURA registration category for virtual currency mining facilities above 75 MW with interruptible load. [e1] "Large Load" and "Large Computational Load" are the Protocol terms, with a 75 MW site threshold, and they are not limited to flexible or crypto loads. [e4][e5] The saved np-02 does not define "Large Flexible Load".
+(Guidance) "Large Flexible Load" is a PURA registration category for virtual currency mining facilities above 75 MW with interruptible load. [e1] "Large Load" and "Large Computational Load" are the Protocol terms, with a 75 MW site threshold, and they are not limited to flexible or crypto loads. [e4][e5] The saved np-02 does not define "Large Flexible Load". ERCOT's December 2025 CDR glossary uses the term in a different, looser sense: a Large Load that can come online quickly and is very responsive to real time prices, typically a crypto-currency mining site. [e10]
 
 ## Questions
 

@@ -16,7 +16,7 @@ links:
     note: A Hub is a kind of Settlement Point. [e2]
   - to: hb-north
     type: contrasts-with
-    note: The North 345 kV Hub is defined the same way over a different bus list. [e3]
+    note: The North 345 kV Hub Price uses the same pricing method as the West 345 kV Hub (aggregated Shift Factors in the Day-Ahead, simple average of time-weighted Hub Bus prices in Real-Time) over its own Hub Buses. [e3][e8]
   - to: congestion
     type: related
     note: In the IMM's 2025 report the West Zone is the largest contributor to intrazonal congestion costs. [e5]
@@ -55,6 +55,10 @@ evidence:
     source: np-02
     locator: "Section 2.1, definition of Hub"
     quote: "The list of Hub Buses and the Settlement price calculation methodology that define a Hub can never be modified, and a Hub, once defined, exists in perpetuity."
+  - id: e8
+    source: np-03
+    locator: "Section 3.5.2.1, paragraph (2)"
+    quote: "The North 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Settlement Interval of the Day-Ahead Market (DAM) in the Day-Ahead and is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time, for each Hub Bus included in this Hub."
 ---
 
 ## Definition
@@ -63,7 +67,7 @@ The West 345 kV Hub (West 345) is one of the Hubs defined in Protocol Section 3.
 
 ## How it works
 
-The West 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour in the Day-Ahead, and in real time is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval. [e3] Its buses and method can never be modified. [e7] West 345 is one of four hub prices averaged into the ERCOT Hub Average 345 kV Hub. [e4]
+The West 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour in the Day-Ahead, and in real time is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval. [e3] Its buses and method can never be modified. [e7] In real time, the West 345 kV Hub price is one of four hub prices averaged into the ERCOT Hub Average 345 kV Hub price. [e4]
 
 ## ERCOT context
 
@@ -73,7 +77,7 @@ In the IMM's 2025 report the West Zone is the largest contributor to intrazonal 
 
 - The West 345 kV Hub is defined in Protocol Section 3.5.2.4. [e1]
 - Day-ahead price uses aggregated Shift Factors; real-time price is the simple average of time-weighted Hub Bus prices per 15-minute interval. [e3]
-- It is one of four prices in the ERCOT Hub Average 345 kV Hub price. [e4]
+- In real time it is one of four prices averaged in the ERCOT Hub Average 345 kV Hub price. [e4]
 - 2025 IMM: West Zone had the highest annual average zonal energy price for the second year in a row. [e6]
 
 ## Say it like this
