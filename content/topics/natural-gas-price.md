@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: heat-rate
     type: related
-    note: The Mitigated Offer Cap formula multiplies a generic incremental heat rate by the higher of the FIP or a weighted average fuel price. [e15]
+    note: One term of the Mitigated Offer Cap formula multiplies a generic incremental heat rate by the higher of the FIP or a weighted average fuel price. [e15]
   - to: implied-heat-rate
     type: measures
     note: The IMM calculates its implied heat rate by dividing the power price by the fuel price. [e16][e7]

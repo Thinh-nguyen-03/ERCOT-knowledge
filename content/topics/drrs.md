@@ -13,7 +13,7 @@ links:
     note: NPRR1309 defines DRRS as an Ancillary Service. [e1][e7]
   - to: non-spin
     type: related
-    note: The first DRRS design (NPRR1203) was a Non-Spin subtype, and NPRR1309 would cut the Non-Spin duration to two hours once DRRS is implemented. [e6][e5]
+    note: The first DRRS proposal (NPRR1203) would have made it a Non-Spin subtype, and NPRR1309 reduces the Non-Spin duration requirement from four hours to two hours once DRRS is implemented. [e6][e16][e5]
   - to: ruc
     type: related
     note: The statute requires ERCOT to reduce reliability unit commitment by the amount of DRRS procured. [e3]
@@ -28,7 +28,7 @@ links:
     note: HB 1500 (88th Legislature, 2023) added resource criteria and the RUC reduction requirement to PURA 39.159(d)(2)-(3). [e3]
   - to: pcm
     type: contrasts-with
-    note: DRRS is an operating-reserve product; the PCM was a separate proposed reliability credit program.
+    note: DRRS is an Ancillary Service that provides operating reserves, not a capacity or reliability credit program. [e1]
 evidence:
   - id: e1
     source: ercot-nprr1309-puct-report
@@ -90,11 +90,15 @@ evidence:
     source: imm-som-2025
     locator: "Recommendations, 2021-2: Implement an Uncertainty Product"
     quote: "ERCOT’s current proposal for DRRS an operating reserve under NPRR 1309 incorporates both design principles. If ERCOT implements it correctly, DRRS should reduce reliance on costly out-of-market actions and lower reserve procurement costs compared to holding excessive 30minute reserves."
+  - id: e16
+    source: ercot-nprr1309-puct-report
+    locator: "NPRR1309 PUCT Report, cover table, Revision Description, item 13"
+    quote: "13. Given that DRRS has at least a four-hour duration, the Non-Spin duration requirements are reduced from four hours to two hours."
 ---
 
 ## Definition
 
-DRRS is a new Ancillary Service, set up under NPRR1309, that provides operating reserves to manage uncertainty on the ERCOT System while mitigating the need for Reliability Unit Commitment (RUC) instructions. [e1][e7] It exists because state law requires ERCOT to procure dispatchable reliability reserve services on a day-ahead and real-time basis to account for market uncertainty. [e2]
+DRRS is a new Ancillary Service, set up under NPRR1309 (approved by the PUCT on July 9, 2026 but not yet implemented in the saved sources), that provides operating reserves to manage uncertainty on the ERCOT System while mitigating the need for Reliability Unit Commitment (RUC) instructions. [e1][e7][e11][e12] It exists because state law requires ERCOT to procure dispatchable reliability reserve services on a day-ahead and real-time basis to account for market uncertainty. [e2]
 
 ## How it works
 
@@ -102,13 +106,13 @@ The statute sets the minimum design. A participating resource must be able to ru
 
 Under the approved NPRR1309 language, DRRS comes from both Off-Line and On-Line Generation Resources that can ramp to a set output within two hours and hold it for at least four consecutive hours. [e4] Compared with the withdrawn NPRR1235, which allowed only Off-Line Resources, NPRR1309 lets DRRS be awarded in Real-Time, so its procurement can be co-optimized with energy and the other Ancillary Services. [e7]
 
-NPRR1309 also changes Non-Spin: the IMM notes it would set the Non-Spin duration at two hours once DRRS is implemented, and says DRRS is statutorily required to carry a four-hour duration requirement. [e5] Storage participation is not in NPRR1309; ERCOT filed NPRR1340 and NOGRR288 in June 2026 to continue that work. [e4][e13]
+NPRR1309 also changes Non-Spin: its revision description says that, given DRRS has at least a four-hour duration, the Non-Spin duration requirements are reduced from four hours to two hours. [e16] The IMM describes this as taking effect upon DRRS implementation, and says DRRS is statutorily required to carry a four-hour duration requirement. [e5] Storage participation is not in NPRR1309; ERCOT filed NPRR1340 and NOGRR288 in June 2026 to continue that work. [e4][e13]
 
 ## ERCOT context
 
 Status as of the saved sources: NPRR1309 is decided but not yet live. The PUCT approved it on July 9, 2026, after the ERCOT Board recommended approval on June 2, 2026. [e11][e10] ERCOT's impact analysis estimated a project duration of 20 to 30 months. [e12] The saved sources do not give a go-live date.
 
-DRRS took three tries. NPRR1203 (2023) made it a subtype of Non-Spin to meet HB 1500's December 1, 2024 deadline. [e6] NPRR1235 (May 2024) made it a stand-alone Ancillary Service but Off-Line only, and NPRR1309 (November 2025) replaced it. [e15][e7] The design was contested: TAC endorsed it with five opposing votes from cooperatives and independent generators. [e9] The IMM, in its 2025 report, said NPRR1309 follows both of its design principles and, if implemented correctly, should reduce costly out-of-market actions. [e14]
+DRRS took three tries. NPRR1203 (2023) proposed it as a subtype of Non-Spin to meet HB 1500's December 1, 2024 deadline. [e6] NPRR1235 (May 2024) proposed it as a stand-alone Ancillary Service but Off-Line only; ERCOT withdrew it and filed NPRR1309 (November 2025) instead. [e15][e7] The design was contested: TAC endorsed it with five opposing votes from cooperatives and independent generators. [e9] The IMM, in its 2025 report, said NPRR1309 follows both of its design principles and, if implemented correctly, should reduce costly out-of-market actions. [e14]
 
 ## Key facts
 
@@ -116,7 +120,7 @@ DRRS took three tries. NPRR1203 (2023) made it a subtype of Non-Spin to meet HB 
 - NPRR1309 eligibility: Off-Line and On-Line Generation Resources that can ramp within two hours and hold output for at least four consecutive hours. [e4]
 - PUCT approval: July 9, 2026 (Project No. 54445). [e11]
 - Estimated implementation: 20 to 30 months. [e12]
-- NPRR1309 would set the Non-Spin duration at two hours upon DRRS implementation, per the IMM. [e5]
+- NPRR1309 reduces the Non-Spin duration requirement from four hours to two hours; the IMM says this applies upon DRRS implementation. [e16][e5]
 
 ## Timeline
 
@@ -136,7 +140,7 @@ DRRS took three tries. NPRR1203 (2023) made it a subtype of Non-Spin to meet HB 
 
 ## Common confusion
 
-(Guidance) DRRS is not the PCM or a capacity market: it is an Ancillary Service bought day-ahead and in real time. [e2] It is also not the same as Non-Spin, even though the first design was a Non-Spin subtype; NPRR1309 makes it a separate service and changes the Non-Spin duration once DRRS goes live. [e6][e5] "Approved" does not mean "in effect": after the July 2026 PUCT approval, ERCOT still faces an estimated 20 to 30 months of project work. [e11][e12]
+(Guidance) DRRS is not the PCM or a capacity market: it is an Ancillary Service bought day-ahead and in real time. [e2] It is also not the same as Non-Spin, even though the first design was a Non-Spin subtype; NPRR1309 makes it a separate service and reduces the Non-Spin duration requirement to two hours once DRRS goes live. [e6][e16][e5] "Approved" does not mean "in effect": after the July 2026 PUCT approval, ERCOT still faces an estimated 20 to 30 months of project work. [e11][e12]
 
 ## Questions
 
@@ -157,6 +161,6 @@ Not in the saved sources. The PUCT approved NPRR1309 on July 9, 2026, but ERCOT 
 - No go-live date for DRRS appears in the saved sources; a Vistra comment in the PUCT report refers to aligning with "DRRS go-live" and a 2029 AS methodology review, but that is a commenter's statement, not an ERCOT date.
 - The DRRS quantity (how ERCOT sizes the requirement each season) and the DRRS demand curve in the approved text were not quoted. Deeper pass: NPRR1309 Sections 3.16, 4.4.12 (DRRS ASDC, $10 floor, $0.01 minimum price) and the joint IMM/ERCOT demand curve proposal from TAC Workshop 3 (March 2026).
 - NPRR1310 (DRRS with ESR participation and a resource-adequacy "Release Factor") and NPRR1340 are pending; their content and status after June 2026 were not traced.
-- The PRS discussion mentions desktop edits "to maintain the current four-hour duration for Non-Spin", while the IMM and the TAC dissents describe the TAC-endorsed version as reducing it to two hours. The final Non-Spin duration in the PUCT-approved text was not read directly from the redline.
+- The PRS discussion mentions desktop edits "to maintain the current four-hour duration for Non-Spin"; the TAC-recommended version (as amended by the 4/28/26 ERCOT II comments) and the PUCT report's revision description reduce it to two hours (cited as e16). The PRS-stage four-hour version is not the approved text.
 - Deeper pass: DRRS settlement (payments and charges, RUC make-whole exclusion, RUC Capacity Short treatment) and the new "DRRS" Resource Status in the pending np-03 boxes.
 - Deeper pass: the October 17, 2023 legislative letter urging a stand-alone DRRS, quoted in the Board memo across a page break.

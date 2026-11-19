@@ -103,7 +103,7 @@ The Texas Energy Fund is a special fund in the state treasury, outside general r
 
 ## How it works
 
-Loans can finance upgrades to existing dispatchable facilities that add at least 100 MW, or construction of dispatchable facilities of at least 100 MW. [e2] A loan has a 20-year term, ratable payments starting on the third anniversary of the estimated commercial operation date, and a three percent interest rate; a construction loan may cover up to 60 percent of the estimated cost. [e4][e5] Energy storage facilities are not eligible. [e3]
+Under SB 2627 as enacted, loans can finance upgrades to existing dispatchable facilities that add at least 100 MW, or construction of dispatchable facilities of at least 100 MW. [e2] A loan has a 20-year term, ratable payments starting on the third anniversary of the estimated commercial operation date, and a three percent interest rate; a construction loan may cover up to 60 percent of the estimated cost. [e4][e5] Energy storage facilities are not eligible. [e3]
 
 Completion bonus grants are paid on construction of dispatchable generation in the ERCOT region, based on megawatts provided. The cap is $120,000 per MW for facilities interconnected before June 1, 2026, and $80,000 per MW for those interconnected on or after June 1, 2026 and before June 1, 2029, unless the commission extends deadlines for extenuating circumstances. [e6][e7] The commission must set by rule performance standards for grant recipients, based on reliability metrics, for the 100 hours with the least operating reserves each year. [e13]
 
@@ -115,19 +115,19 @@ ERCOT's December 2025 CDR varies the amount and timing of TEF project capacity i
 
 ## Key facts
 
-- Loans: 20-year term, three percent interest, up to 60 percent of estimated facility cost for construction. [e4][e5]
-- Completion bonus grants: up to $120,000 per MW (interconnected before June 1, 2026) or $80,000 per MW (June 1, 2026 to before June 1, 2029). [e7]
-- Fund ceilings: $1 billion, $7.2 billion and $1.8 billion for its three purposes. [e8]
-- Loans plus completion bonus grants may support no more than 10,000 MW. [e12]
-- Funded facilities must be dispatchable (energy storage is excluded) and participate in the ERCOT wholesale market. [e3][e6][e10]
+- Loans (SB 2627 as enacted): 20-year term, three percent interest, up to 60 percent of estimated facility cost for construction. [e4][e5]
+- Completion bonus grants (SB 2627 as enacted): up to $120,000 per MW (interconnected before June 1, 2026) or $80,000 per MW (June 1, 2026 to before June 1, 2029). [e7]
+- Fund ceilings (SB 2627 as enacted): $1 billion, $7.2 billion and $1.8 billion for its three purposes. [e8]
+- Loans plus completion bonus grants may support no more than 10,000 MW (SB 2627 as enacted). [e12]
+- Facilities funded by in-ERCOT loans and completion bonus grants must be dispatchable (energy storage is excluded) and participate in the ERCOT wholesale market. [e3][e6][e10]
 
 ## Say it like this
 
-The Texas Energy Fund offers three percent, 20-year loans and per-MW completion bonuses to dispatchable plants of at least 100 MW, plus per-MW completion bonuses for dispatchable plants built in ERCOT, within a 10,000 MW ceiling (as enacted in SB 2627). [e2][e4][e7][e12] ERCOT's planning reports then have to decide how much of that pipeline to count on. [e15]
+The Texas Energy Fund offers three percent, 20-year loans for dispatchable plants of at least 100 MW, plus per-MW completion bonuses for dispatchable plants built in ERCOT, within a 10,000 MW ceiling (as enacted in SB 2627). [e2][e4][e7][e12] ERCOT's planning reports then have to decide how much of that pipeline to count on. [e15]
 
 ## Common confusion
 
-TEF money is not a market payment or a capacity market: it is a state loan and grant program run by the commission from a special state fund. [e1][e2] It does not fund storage. [e3][e6] The $7.2 billion and 10,000 MW figures are ceilings, not amounts awarded. [e8][e12]
+TEF money is not a market payment or a capacity market: it is a state loan and grant program run by the commission from a special state fund. [e1][e2] Its in-ERCOT loans and completion bonus grants do not fund energy storage facilities. [e3][e6] The $7.2 billion and 10,000 MW figures are ceilings, not amounts awarded. [e8][e12]
 
 ## Questions
 
