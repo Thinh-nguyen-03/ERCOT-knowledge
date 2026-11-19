@@ -137,7 +137,7 @@ AFTER:  The commission by rule shall define:(1) the market monitor's monitoring 
 - **Link to market-power-mitigation** (cites e3, e12) FLAG number-not-in-quote: 2025: related Market Power Mitigation (Competitiveness Tests, Mitigated Offer Caps): The IMM monitors for market power abuse and in its 2025 report again recommended system-wide mitigation. [e3][e12]
 - **Link to energy-only-market** (cites e14) FLAG number-not-in-quote: 2025: related Energy-Only Market Design: In its 2025 report the IMM said NPRR 1296 would undermine ERCOT's energy-only market and its economic signals. [e14]
 - **Link to nprr** (cites e3): affects NPRR (Nodal Protocol Revision Request): The IMM evaluates proposed changes to the market rules and recommends measures to enhance market efficiency. [e3]
-- **Link to resource-adequacy** (cites e13): related Resource Adequacy: Under the reliability standard rule, the IMM must independently review ERCOT's proposed market design fixes and their costs. [e13]
+- **Link to resource-adequacy** (cites e13): related Resource Adequacy: Under the reliability standard rule, if ERCOT's assessment shows a reviewed system fails the standard, the IMM must independently review ERCOT's proposed market design changes and their expected costs. [e13]
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
 - (Say it like this) (Guidance) The IMM, Potomac Economics, is the PUCT's independent market watchdog. It can demand information from ERCOT and participants, but it cannot penalize anyone: it reports to the commission, which enforces. Its State of the Market report is the best single read on how the market performed and where the monitor thinks the design is broken.

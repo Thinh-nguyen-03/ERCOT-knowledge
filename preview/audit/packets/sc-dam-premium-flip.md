@@ -116,6 +116,13 @@ BEFORE: …arket awards. Key insights from about the ERCOT day-ahead market in 2
 QUOTE: The day-ahead market cleared 62% of real-time load in 2025. This is in line with recent years in ERCOT, but other RTOs in the US clear more than 90% in the day-ahead market.
 AFTER:  • Three-part offers account for only 58% of the energy sold in the day-ahead market and serve only 36% of real-time load. Thermal resources not awarded through threepart offers risk not recovering their start-up and minimum generation costs. Most renewables intentionally do not submit three-part of…
 
+### e17 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: Market Operations, C. Forecast Error, Figure 50 introduction · text copy line 6600
+
+BEFORE: …), is a major determinant of thermal resource commitment decisions. An overforecast of net demand can lead to sub-optimal commitment decisions that reduce market efficiency. An under-forecast can lead to insufficient thermal commitments and real-time shortfalls that are often addressed through RUC. 
+QUOTE: Figure 50 illustrates the distribution of net load forecast errors eight hours ahead of real-time.
+AFTER:  Figure 50: Distribution of Net Load Forecast Error H2 2022-2025 82 | 2025 State of the Market Report / / Market Operations Figure 50 shows that forecast accuracy for net load and IRR generation has improved meaningfully since the second half of 2022, with substantial reductions in average error. Ho…
+
 ## Statements to check
 
 - **Definition #1** (cites e1): This scenario is about the times when day-ahead prices settle below real-time prices instead of at their usual small premium; in 2021, for example, day-ahead prices averaged $157/MWh while real-time prices averaged $160/MWh, a divergence the IMM says was especially marked in February because of Winter Storm Uri. [e1]
@@ -126,19 +133,19 @@ AFTER:  • Three-part offers account for only 58% of the energy sold in the day
 - **Key facts #1** (cites e1): - 2021: day-ahead averaged $157/MWh, real-time $160/MWh (annual averages that include the Winter Storm Uri divergence in February). [e1]
 - **Key facts #2** (cites e3): - 2023: day-ahead $58/MWh, real-time $51/MWh, a modest premium. [e3]
 - **Key facts #3** (cites e6) FLAG number-not-in-quote: 2025: - 2025: average day-ahead premium $1.17/MWh, average absolute difference $12/MWh, the low spread reflecting fewer price spikes. [e6]
-- **Key facts #4** (cites e10): - Average net load forecast error fell to about 452 MW in 2025, but forecasts still under-forecast renewables and over-forecast load. [e10]
+- **Key facts #4** (cites e10, e17): - The IMM's average net load forecast error, measured eight hours ahead of real time, fell to about 452 MW in 2025, but forecasts still under-forecast renewables and over-forecast load. [e10][e17]
 - **Key facts #5** (cites e14): - PTP obligations earned 10.9% more in real time than their day-ahead cost in 2025. [e14]
 - **Key facts #6** (cites e16): - The day-ahead market cleared 62% of real-time load in 2025, against more than 90% in other US RTOs. [e16]
 - **Scenarios #2** (cites e8): - First check whether it is a real pattern. A small average can hide large daily swings, so look at the average absolute daily difference too. [e8]
 - **Scenarios #3** (cites e7, e6, e2): - The usual state is a modest day-ahead premium, so a run of real-time premiums can mean real time is coming in tighter than day-ahead expected. [e7][e6][e2]
 - **Scenarios #4** (cites e4) FLAG number-not-in-quote: 2022: - Look at weather and load forecasts. July 2022 is the textbook case: sustained heat and day-ahead under-forecasting of demand pushed real-time above day-ahead. [e4]
-- **Scenarios #5** (cites e10): - Check the net load forecast bias. In 2025 forecasts tended to over-forecast load and under-forecast renewables. [e10]
+- **Scenarios #5** (cites e10, e17): - Check the net load forecast bias. In 2025 forecasts (which the IMM measures eight hours ahead of real time) tended to over-forecast load and under-forecast renewables. [e10][e17]
 - **Scenarios #7** (cites e9) FLAG number-not-in-quote: 2023: - Check congestion. In 2023 day-ahead under-priced real-time congestion, especially in August. [e9]
 - **Scenarios #8** (cites e12): - Check storage. Batteries that sell day-ahead but run low on charge must buy back the position at the real-time price. [e12]
 - **Scenarios #9** (cites e5, e11): - If the pattern is predictable, arbitrage should close it; virtual bids and offers are location-specific transactions submitted as a hedge or for speculation. [e5][e11]
 - **Scenarios #10** (cites e6) FLAG number-not-in-quote: 2025: - Size the trade for the tail: the IMM says the low 2025 spread reflected fewer price spikes, so spikes matter for the spread. [e6]
 - **Questions #2** (cites e7): The day-ahead market gives revenue certainty and generally a risk premium to generators. [e7] (Guidance) Buyers pay a little more to lock in a price and avoid real-time spikes.
-- **Questions #4** (cites e13): The IMM says that, excluding RegDown, elevated day-ahead prices on December 5, 2025 and during Winter Storm Fern on January 21-27, 2026 account for 57-75% of the average day-ahead premium for energy and up-reserve products. [e13] The saved sources do not otherwise say whether RTC changed DART behaviour.
+- **Questions #4** (cites e13): The IMM says the day-ahead premium was very high in the early days of RTC and that, excluding RegDown, elevated day-ahead prices on December 5, 2025 and during Winter Storm Fern on January 21-27, 2026 account for 57-75% of the average day-ahead premium for energy and up-reserve products. [e13] The saved sources do not otherwise say whether RTC changed DART behaviour.
 - **Questions #6** (cites e5, e11): Low trading barriers, good information and accurate network models let participants arbitrage predictable differences. [e5] Virtual bids and offers are location-specific transactions submitted as a hedge or for speculation. [e11]
 - **Common confusion #1** (cites e8, e4) FLAG number-not-in-quote: 2022: (Guidance) A low average DART does not mean the two markets are close every day: the average absolute difference can stay large even when the average gap is small. [e8] Also, a real-time premium does not mean the day-ahead market is broken; it can be one hot month, as in July 2022. [e4]
 - **Link to dart-spread** (cites e5): measures DART Spread: Day-ahead and real-time prices should converge when trading barriers are low, information is good and both markets reflect the network. [e5]
@@ -146,7 +153,7 @@ AFTER:  • Three-part offers account for only 58% of the energy sold in the day
 - **Link to rtm** (cites e4) FLAG number-not-in-quote: 2022: contrasts-with Real-Time Market (RTM): In July 2022 real-time prices diverged higher than day-ahead prices. [e4]
 - **Link to virtual-bids** (cites e11, e5): used-in Virtuals (Energy-Only Offers & Bids): Virtual bids and offers are location-specific transactions submitted as a hedge or for speculation, and participants can arbitrage predictable DA-RT differences. [e11][e5]
 - **Link to ptp-obligation** (cites e14): related PTP Obligation: PTPs received 10.9% more in real time than their day-ahead purchase cost in 2025. [e14]
-- **Link to net-load** (cites e10): affects Net Load: By 2025 the average net load forecast error was about 452 MW, and forecasts still under-forecast IRR generation and over-forecast load. [e10]
+- **Link to net-load** (cites e10, e17): affects Net Load: The IMM reports that by 2025 the average net load forecast error (eight hours ahead of real time) was about 452 MW, and forecasts still under-forecast IRR generation and over-forecast load. [e10][e17]
 - **Link to congestion** (cites e9) FLAG number-not-in-quote: 2023: related Transmission Congestion: Day-ahead congestion can be under-priced relative to real time, as in August 2023. [e9]
 - **Link to energy-storage-resource** (cites e12): related Energy Storage Resource (ESR): Storage with depleted SOC must buy back day-ahead sales at the real-time price. [e12]
 ## Uncited guidance text (check for new facts, numbers, dates, names)

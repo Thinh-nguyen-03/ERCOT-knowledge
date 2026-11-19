@@ -209,7 +209,7 @@ AFTER:  Contract Specifications Description A monthly cash settled Exchange Futu
 - **Link to rtm** (cites e4): affects Real-Time Market (RTM): The QSE's Energy Imbalance charge at a Load Zone is calculated at the Real-Time Settlement Point Price. [e4]
 - **Link to offer-cap** (cites e9, e23, e24) FLAG number-not-in-quote: 25.509: related Offer Caps (HCAP / LCAP / SWCAP): Since RTC go-live the sources show a $5,000/MWh day-ahead cap and a $2,000/MWh real-time cap, while PUCT rule 25.509 still states a $5,000 HCAP. [e9][e23][e24]
 - **Link to credit-tpe** (cites e12): affects Credit, Collateral & TPE: A Counter-Party must keep Financial Security at or above its Total Potential Exposure at all times. [e12]
-- **Link to mass-transition** (cites e18): related Mass Transition: If a Market Participant's rights are revoked, ERCOT initiates a Mass Transition of its ESI IDs. [e18]
+- **Link to mass-transition** (cites e18): related Mass Transition: If a breaching Market Participant that is also an LSE has its rights revoked, ERCOT initiates a Mass Transition of its ESI IDs. [e18]
 - **Link to net-load** (cites e10): related Net Load: Most 2025 price spikes came in the 7 to 9 p.m. peak net load hours. [e10]
 - **Link to load-zone** (cites e4, e5): settles Load Zone: The Energy Imbalance charge at a Load Zone is calculated at the Real-Time Settlement Point Price and includes the QSE's AML there. [e4][e5]
 - **Link to exchanges-ice-nodal** (cites e25, e16): related ICE & Nodal Exchange: ICE lists an ERCOT North 345KV Real-Time Peak Fixed Price Future, a monthly cash-settled contract on peak hourly ERCOT prices. [e25][e16]

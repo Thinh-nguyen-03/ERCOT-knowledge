@@ -130,14 +130,14 @@ AFTER:  Figure 1 provides additional insights: • Ancillary services costs were
 - **How it works #2** (cites e14, e10): Fuel costs are the largest component of marginal production cost for most generators, and natural gas is the most widely used fuel in ERCOT, according to the IMM. [e14] The IMM says the price band from zero to 10 times the FIP covers the incremental fuel price of the vast majority of the ERCOT fleet; 28% of capacity was offered in that band in 2025. [e10]
 - **ERCOT context #1** (cites e4, e6, e9, e11): Heat rates appear as fixed parameters in several rules and analyses. [e4][e6][e9][e11]
 - **ERCOT context #2** (cites e4, e5) FLAG number-not-in-quote: 25.509: - PUCT rule 25.509 sets the daily peaking operating cost at 10 times the natural gas price index, and the IMM says ERCOT calculates PNM using a 10.0 MMBtu per MWh heat rate. [e4][e5]
-- **ERCOT context #3** (cites e6): - The IMM's own net revenue analysis assumes 7 MMBtu per MWh for a combined-cycle unit and 10.5 MMBtu per MWh for a gas turbine. [e6]
-- **ERCOT context #4** (cites e9): - The IMM defines a price spike as a price above 18 MMBtu per MWh times the FIP, a level that typically exceeds the marginal cost of virtually all online generators. [e9]
+- **ERCOT context #3** (cites e6) FLAG number-not-in-quote: 2024: - The IMM's own net revenue analysis (2024 report) assumes 7 MMBtu per MWh for a combined-cycle unit and 10.5 MMBtu per MWh for a gas turbine. [e6]
+- **ERCOT context #4** (cites e9) FLAG number-not-in-quote: 2024: - For its price spike analysis in the 2024 report, the IMM defines a price spike as a 15-minute interval with a load-weighted average energy price above 18 MMBtu per MWh times the FIP, a level that typically exceeds the marginal cost of virtually all online generators. [e9]
 - **ERCOT context #5** (cites e11): - The 2024-2025 FFSS offer cap used a 15 MMBtu per MWh heat rate with a $17 per MMBtu fuel oil price and a 48-hour obligation. [e11]
 - **ERCOT context #6** (cites e8, e13): The market-wide counterpart is the implied heat rate, the power price divided by the gas price. [e8] The IMM says the 2025 average implied heat rate was in line with the marginal heat rate of ERCOT gas plants. [e13]
 - **Key facts #1** (cites e1): - Generic Incremental Heat Rate in the Mitigated Offer Cap: 10.5 MMBtu/MWh for COD on or before January 1, 2004; 14.5 after. [e1]
 - **Key facts #2** (cites e4, e5): - PNM peaking operating cost: 10 times the gas price index, i.e. a 10.0 MMBtu per MWh heat rate. [e4][e5]
-- **Key facts #3** (cites e6): - IMM net revenue assumptions: 7 MMBtu/MWh combined cycle, 10.5 MMBtu/MWh gas turbine, $4/MWh variable O&M. [e6]
-- **Key facts #4** (cites e9): - IMM price spike threshold: 18 times FIP. [e9]
+- **Key facts #3** (cites e6) FLAG number-not-in-quote: 2024: - IMM net revenue assumptions (2024 report): 7 MMBtu/MWh combined cycle, 10.5 MMBtu/MWh gas turbine, $4/MWh variable O&M. [e6]
+- **Key facts #4** (cites e9) FLAG number-not-in-quote: 2024: - IMM price spike threshold (2024 report): 18 times FIP. [e9]
 - **Key facts #5** (cites e11): - FFSS 2024-2025 offer cap: $12,240 per MW from $17/MMBtu, 15 MMBtu/MWh and 48 hours. [e11]
 - **Key facts #6** (cites e7): - U.S. coal fleet average heat rate: 10.4 MMBtu/MWh in 2013 to 10.7 in 2023 (national figure cited by the IMM). [e7]
 - **Formula #1** (cites e11, e3): The FFSS cap shows the arithmetic directly: fuel price ($17 per MMBtu) times heat rate (15 MMBtu per MWh) times the 48-hour obligation gives the $12,240 per MW cap. [e11] The same structure, heat rate times a fuel price, sits inside the Mitigated Offer Cap formula. [e3]
@@ -158,5 +158,5 @@ AFTER:  Figure 1 provides additional insights: • Ancillary services costs were
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
 - (Example) (Illustrative) Suppose gas is $3.00/MMBtu. A combined cycle at the IMM's assumed 7 MMBtu/MWh has a fuel cost of 7 × 3.00 = $21/MWh; a gas turbine at 10.5 MMBtu/MWh has 10.5 × 3.00 = $31.50/MWh. Add the IMM's assumed $4/MWh variable O&M and you get $25 and $35.50. If real-time power is $30/MWh, the combined cycle covers its marginal cost and the gas turbine does not. The IMM's price spike threshold at that gas price would be 18 × 3.00 = $54/MWh.
-- (Say it like this) (Guidance) Heat rate is how many MMBtu of fuel a plant burns per MWh, so heat rate times the gas price is the plant's fuel cost per MWh. ERCOT's rules plug fixed heat rates into offer caps, the peaker net margin and FFSS caps, so knowing the standard numbers lets you rebuild those caps in your head.
+- (Say it like this) (Guidance) Heat rate is how many MMBtu of fuel a plant burns per MWh, so heat rate times the gas price is the plant's fuel cost per MWh. ERCOT's rules plug fixed heat rates into mitigated offer caps, the peaker net margin and FFSS caps, so knowing the standard numbers lets you rebuild those caps in your head.
 

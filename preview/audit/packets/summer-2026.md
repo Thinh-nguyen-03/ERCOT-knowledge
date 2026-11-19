@@ -130,18 +130,32 @@ BEFORE: …ttern throughout the summer. • Both Energy and Ancillary Service co
 QUOTE: Board of Directors Meeting September 14-15, 2026
 AFTER:  PUBLIC Summer 2026 Weather • The June-July 2026 period ranked as the 11th hottest June-July period out of 132 historical years (mean temperatures, 1895-2026). • This was especially driven by the minimum temperatures, which ranked the 3rd warmest all-time. • The average rainfall across Texas during …
 
+### e19 · `ercot-summer-2026-review` · tier 2 · Summer 2026 Operational and Market Review (September 2026)
+locator: Slide 20, RUC Effective Resource-Hours, chart footnote (same footnote on slides 17 and 19) · text copy line 1090
+
+BEFORE: …o QSEs for AS procured in DAM and do not account for self-arrangement or bilateral trades (20242026). Beginning December 5, 2025, AS quantities are also procured and priced in RTM through the SCED co-optimization. RT AS cost values are market costs and do not represent the actual settlement result. 
+QUOTE: * August data for each year goes through 8/15.
+AFTER:  17 Most Ancillary Services were fully procured, with rare shortfalls in ECRS and Non-Spin Ancillary Service Shortage Incidence (as a percentage of Plan) Daily Average Ancillary Service Procurement (incl. Non-Spin above Plan) 100 90 80 70 60 50 40 30 20 10 0 Jun-26 Jul-26 Aug-26 Reg-Up Reg-Down RRS …
+
+### e20 · `ercot-summer-2026-review` · tier 2 · Summer 2026 Operational and Market Review (September 2026)
+locator: Slide 10, ESR SOC, Solar, and Wind Generation on Lowest SOC% Days, Key Takeaway · text copy line 656 · heading above: 4.5 5
+
+BEFORE: …centage on the lowest recorded days in 2026 was 50% lower than the lowest recorded days in 2025. *2026 data period is 6/1 - 8/15 9 PUBLIC ESR SOC, Solar, and Wind Generation on Lowest SOC% Days Key Takeaway: ESRs were charging during high solar generation and discharging during the solar ramp down. 
+QUOTE: Compared to last year SOC% was lower on raw percentage, however, since ESR MWh capacity is higher, this lower SOC% is not necessarily lower SOC MWh.
+AFTER:  10 PUBLIC State of Charge Operating Patterns Across Summer Key Takeaway: SOC levels were generally highest between Hours 12 and 20. There were several hours during the late evening through sunrise where SOC was very low. The percent of hours with SOC under 20% and 10% were 15% and 0.74% respectivel…
+
 ## Statements to check
 
 - **Definition #1** (cites e3, e1): Summer 2026 was the summer in which ERCOT set a new all-time demand record of 91,134 MW on July 22, 2026, while daytime hours stayed uneventful because solar growth outpaced large load additions. [e3][e1] ERCOT's Board review says energy and ancillary service costs were close to or slightly below summers 2024 and 2025. [e1]
 - **How it works #1** (cites e2, e3): The weather was hot: June-July 2026 ranked 11th hottest of 132 years on mean temperature. [e2] On July 22, crypto mining loads cut up to about 3,299 MW and 4CP response about 492 MW; ERCOT estimates the peak load would have been 94,861 MW if there was no reduction. [e3]
-- **How it works #2** (cites e5, e1, e6): Risk moved later into the evening. ERCOT says the net load hour shifted from HE 21 to HE 22 in June and July, and that batteries helped serve record net loads but ran their state of charge down in the evenings as a regular pattern. [e5][e1] On the three lowest-SOC days of 2026, SOC percentages averaged 50% lower than on the lowest days of 2025. [e6]
+- **How it works #2** (cites e5, e1, e6, e20): Risk moved later into the evening. ERCOT says the net load hour shifted from HE 21 to HE 22 in June and July, and that batteries helped serve record net loads but ran their state of charge down in the evenings as a regular pattern. [e5][e1] On the three lowest-SOC days of 2026, SOC percentages averaged 50% lower than on the lowest days of 2025. [e6] ERCOT adds that because ESR MWh capacity is higher, the lower SOC percentage is not necessarily lower SOC in MWh. [e20]
 - **ERCOT context #1** (cites e7, e11, e10, e8): Market outcomes were soft. Real-time prices were lower than in 2024 and 2025 because of more supply in daylight hours, which also lowered peaker net margin. [e7] There were no shortages of Reg-Up, Reg-Down or RRS, and Non-Spin and ECRS met plan in nearly all intervals. [e11] Real-time congestion rent was 10% lower than summer 2025, and ERCOT credits RTC for part of that and for lower ancillary service costs. [e10][e8]
-- **ERCOT context #2** (cites e9, e14, e13): Two things went the other way. RUC rose to 1,313 effective resource-hours, from 872 in 2025 and 148 in 2024, and only 17% was nominally attributed to congestion versus 100% in 2025. [e9][e14] Thermal forced outages as a share of installed capacity were higher in summers 2025-2026 than in 2019-2020. [e13]
+- **ERCOT context #2** (cites e9, e14, e13, e19): Two things went the other way. RUC rose to 1,313 effective resource-hours, from 872 in 2025 and 148 in 2024, and only 17% was nominally attributed to congestion versus 100% in 2025. [e9][e14] Thermal forced outages as a share of installed capacity were higher in summers 2025-2026 than in 2019-2020. [e13] The review's RUC and congestion rent charts count August only through August 15 in each year, so these are not full-summer totals. [e19]
 - **Key facts #1** (cites e4): - New all-time peak: 91,134 MW on July 22, 2026, 5,581 MW above the August 10, 2023 record of 85,508 MW (ERCOT monthly report). [e4]
 - **Key facts #2** (cites e3): - ERCOT's estimated peak load if there was no demand reduction: 94,861 MW. [e3]
 - **Key facts #3** (cites e7): - Peaker net margin and real-time prices lower than 2024 and 2025. [e7]
-- **Key facts #4** (cites e9): - RUC: 1,313 effective resource-hours in summer 2026 versus 872 (2025) and 148 (2024). [e9]
-- **Key facts #5** (cites e10): - Real-time congestion rent 10% below summer 2025. [e10]
+- **Key facts #4** (cites e9, e19): - RUC: 1,313 effective resource-hours in summer 2026 versus 872 (2025) and 148 (2024), with August counted through August 15 in each year. [e9][e19]
+- **Key facts #5** (cites e10, e19): - Real-time congestion rent 10% below summer 2025 (August through August 15 in each year). [e10][e19]
 - **Timeline #1** (cites e2): - June-July 2026: 11th hottest June-July in 132 years. [e2]
 - **Timeline #2** (cites e3, e4): - July 22, 2026: all-time demand record of 91,134 MW. [e3][e4]
 - **Timeline #3** (cites e4): - August 17, 2026: ERCOT's July monthly operational overview reports the record as unofficial. [e4]

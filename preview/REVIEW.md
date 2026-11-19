@@ -1,6 +1,6 @@
 # Review list
 
-Generated 2026-11-18. 143 topics, 2002/2002 quotes found word for word in the saved sources.
+Generated 2026-11-19. 144 topics, 2095/2095 quotes found word for word in the saved sources.
 
 ## Failed checks
 
@@ -28,8 +28,6 @@ None.
 - FERC interconnection or transmission rules relating to DC ties are not covered in the saved sources.
 
 ### NERC & Texas RE
-
-- The footnote on the August FERC approval of cold weather standard revisions does not give the year in the quoted text.
 
 - Deeper pass: the delegation agreement between NERC and Texas RE and how enforcement against Texas entities works in practice; the saved sources only give the generic Regional Entity definition.
 - Deeper pass: specific NERC standards that bind ERCOT participants (the report cites PRC-024-2 and cold weather revisions only).
@@ -171,7 +169,8 @@ None.
 
 ### Large Load Interconnection & Batch Zero
 
-- The date the Batch Zero pause ends and the audit results: not in the saved sources (latest is the order filed August 20, 2026).
+- The date the Batch Zero pause ends and the audit results: not in the saved sources (latest is ERCOT's filing of November 4, 2026, which gives a December 10, 2026 report date). ERCOT's September 2026 Board update says the effect on the study timeline is still to be determined.
+- The September 2026 Board update gives the conditional studied load as 127.9 GW (158 projects) in its Key Takeaways but 125.4 GW on its chart; the studied figure is therefore not stated in this topic.
 - The adoption date of §25.194 is not stated in the saved rule text. Only the page footer "effective 10/08/2026" is there. The April 2026 ERCOT update describes the proposal published March 12, 2026.
 - Deeper pass: the seven base-load eligibility paths (Planning Guide 9.2.1.1), the reclassification dispute window, the SLLIA terms, refund and forfeiture rules in §25.194, and WLPUN withdrawal limits.
 - Deeper pass: the NPRR1325 Protocol changes (PCLR registration in Section 16.5.5, adjusted bid caps, SCED changes).
@@ -221,7 +220,7 @@ None.
 
 ### Nodal Market
 
-- The topic name says "since Dec 2010", but no saved source gives the nodal go-live date. np-02 defines a "Texas Nodal Market Implementation Date" without stating it. The IMM 2024 report says "since the nodal market began in 2011", which may refer to the first full year of data. Needs owner review.
+- Nodal go-live date: the only saved source is a pre-launch plan (October 19, 2010 Board update) giving a planned go-live of December 1, 2010 [e18][e19]. No saved source confirms after the fact that the launch happened on that date; np-02 defines a "Texas Nodal Market Implementation Date" without stating it, and the IMM 2024 report says "since the nodal market began in 2011", which may refer to the first full year of data.
 - No saved source describes the zonal market that came before nodal, or why ERCOT switched.
 - The status of NPRR 1188 (nodal pricing for CLRs, PUCT-approved in November 2024 per IMM 2025) was not confirmed as implemented.
 
@@ -232,7 +231,7 @@ None.
 
 ### System Lambda
 
-- No saved protocol sentence writes LMP as System Lambda plus a congestion component; the definition only says System Lambda is the "energy component" of LMP. The decomposition in Say it like this is not directly quoted.
+- No saved protocol sentence writes LMP as System Lambda plus a congestion component; the definition only says System Lambda is the "energy component" of LMP, and this topic does not state the full decomposition.
 - Deeper pass: the value of the maximum Shadow Price for the power balance constraint (Section 22, Attachment P) was not read.
 - Deeper pass: the exact SCED Step 2 System Lambda calculation and how it relates to the posted real-time LMPs.
 - Deeper pass: IMM statistics on System Lambda levels by year; none were quoted here.
@@ -251,7 +250,7 @@ None.
 ### Load Zone
 
 - Annual average price by Load Zone (2024, 2025): the IMM tables in the saved reports are garbled in text form. Only the ranking (West highest in 2025, then South) is cited in the spp topic.
-- Official zone names LZ_NORTH/LZ_SOUTH/LZ_WEST/LZ_HOUSTON: the protocol text saved does not use the LZ_ naming; the aliases above are market convention, not sourced.
+- Resolved 2026-11-19: the LZ_ names are sourced from ERCOT's real-time display. The saved sources do not state which of the eight are Competitive Load Zones and which are NOIE Load Zones in so many words.
 - Status of any pending or approved load zone reconfiguration: not found in the saved sources beyond the IMM recommendation.
 - Real-time Load Zone formula for DC Tie zones details and energy-weighted SPP (RTSPPEW): not covered here.
 
@@ -259,19 +258,19 @@ None.
 
 - The Hub definition says a Hub's Hub Buses and price method "can never be modified" [e1], while Section 3.5.1 has ERCOT file an NPRR to "revise the appropriate Hub definition" if a Hub Bus is permanently removed [e9]. The saved text does not reconcile the two.
 
-- Market-convention hub names (HB_NORTH, HB_HOUSTON, etc.) and the Settlement Point names for hubs: not found in the saved protocol text, which uses names like "North 345 kV Hub (North 345)". The hb-north and hb-west topics should clarify naming.
+- Resolved 2026-11-19: the HB_ names are sourced from ERCOT's real-time display. The saved sources do not map each HB_ name to its Protocol hub definition in so many words (for example HB_NORTH to "North 345 kV Hub").
 - Average hub prices by year (for example North versus West hub): the saved IMM reports present zone averages in garbled tables, so none are cited.
 - Number of Hub Buses in each hub and the specific substations: lists exist in tables in np-03 but were not quoted.
 
 ### HB_NORTH (North Hub)
 
-- The market-convention name "HB_NORTH" and the settlement point name do not appear in the saved sources; the protocol uses "North 345 kV Hub (North 345)".
+- Resolved 2026-11-19: the name HB_NORTH is sourced from ERCOT's real-time display. No saved source states in so many words that HB_NORTH is the Protocols' "North 345 kV Hub (North 345)".
 - Deeper pass: the Hub Bus list (25+ buses in a table in np-03 Section 3.5.2.1) was not quoted.
 - Deeper pass: North hub price levels and spreads versus West by year; saved IMM tables are garbled, so none cited.
 
 ### HB_WEST (West Hub)
 
-- "HB_WEST" naming and the West hub's price levels and spreads to North are not in saved sources (garbled IMM tables).
+- Resolved in part 2026-11-19: the name HB_WEST is sourced from ERCOT's real-time display. No saved source states in so many words that HB_WEST is the Protocols' "West 345 kV Hub (West 345)"; hub price levels and spreads to North are still unsourced.
 - Deeper pass: Hub Bus list (17 buses in the np-03 table) and which are Panhandle versus Permian; not quoted.
 - Deeper pass: how the Waha price relates to West prices (IMM 2025 mentions Waha hub prices reflected in the West zone).
 
@@ -337,6 +336,12 @@ None.
 - Deeper pass: how LSL is set for Quick Start Generation Resources (OFFQS), Qualifying Facilities and Intermittent Renewable Resources (np-03 Sections 3.9 and 6.5.5), and the HSL/LSL rules for Combined Cycle Trains.
 - Deeper pass: the ESR LDL/HDL formulas in np-06 Section 6.5.7.2 and how RTC+B changed telemetry.
 
+### HASL / LASL
+
+- A search of the current Section 2 (np-02, effective 2026-11-06) finds no HASL or LASL definition. An absence cannot be quoted, so this is noted here and not cited above.
+- No saved source explains in one place how the pre-RTC HASL/LASL calculation was replaced inside SCED. Deeper pass: the NPRR1010-1014 reports.
+- The pre-RTC definition also carried a pending NPRR1216 replacement; it is not described here.
+
 ### RUC (Reliability Unit Commitment: DRUC/HRUC)
 
 - The IMM figure that only 3% of RUC-committed resources opted out in 2025 (versus 8% in 2024) sits across a page break in the saved text, so it is not quoted verbatim here.
@@ -362,7 +367,7 @@ None.
 
 ### Offer Caps (HCAP / LCAP / SWCAP)
 
-- PUCT rule versus Protocols: 16 TAC 25.509 (as saved) sets one HCAP of $5,000 for energy and ancillary service offers, while the np-04 Section 4.4.11 table lists RTSWCAP at $2,000 and ERCOT's summer 2026 review says the real-time SWCAP fell to $2,000 at RTC go-live (12/5/2025). The IMM 2025 report also describes a single $5,000 SWCAP. No saved source explains the basis for the $2,000 real-time value (a PUCT rule amendment, order, or TAC/Board parameter change), so the difference is unreconciled.
+- PUCT rule versus Protocols: 16 TAC 25.509 (as saved) sets one HCAP of $5,000 for energy and ancillary service offers, while the np-04 Section 4.4.11 table lists RTSWCAP at $2,000 and ERCOT's summer 2026 review says the real-time SWCAP fell to $2,000 at RTC go-live (12/5/2025). The IMM 2025 report also describes a single $5,000 SWCAP. The superseded February 2025 edition shows the $2,000 RTSWCAP row already sat in a pending box labelled NPRR1008 and NPRR1216 [e26][e27], but no saved source says which decision set the $2,000 value (a PUCT rule amendment or order, one of those NPRRs, or a TAC/Board parameter change), so the difference is unreconciled.
 - Whether the $2,000 RTSWCAP also applies to real-time ancillary service offers, and how it interacts with the EPP trigger (which compares real-time prices to the HCAP for DAM), was not traced. The Protocols (np-04 Section 4.4.11 paragraph (1)(a)(i)) test the EPP against the HCAP for DAM, while the PUCT rule says HCAP; [e23] is the Protocol wording.
 - The IMM says the $315 per kW-year trigger is three times a legacy CONE of $105 per kW-year; the protocol text says "three times the cost of new entry" and the protocol table lists $315,000 per MW-year, which matches. [e16]
 - No source in the saved set describes the history of why the HCAP was set at $5,000, or the change from the earlier cap, so none is stated.
@@ -404,7 +409,7 @@ None.
 
 ### ECRS (ERCOT Contingency Reserve Service)
 
-- Protocol text says two consecutive hours; the IMM says one hour since RTC under NPRR 1282. The saved Protocols may not include NPRR1282 yet. Not reconciled.
+- Resolved 2026-11-19: NPRR1282 (PUCT report) and Protocols Section 8.1.1.3.4 give one hour since RTC. Section 3's general description still says "two consecutive hours"; the saved sources do not say whether that wording is meant to remain.
 - Deeper pass: ECRS qualification (Section 8.1.1.2.1.7), deployment performance (8.1.1.4.4), ECRS prices and the net load ramp risk adjustment in the AS Methodology.
 - Deeper pass: how ECRS demand is priced in the ASDC and what a recall looks like in practice.
 
@@ -472,15 +477,15 @@ None.
 - No go-live date for DRRS appears in the saved sources; a Vistra comment in the PUCT report refers to aligning with "DRRS go-live" and a 2029 AS methodology review, but that is a commenter's statement, not an ERCOT date.
 - The DRRS quantity (how ERCOT sizes the requirement each season) and the DRRS demand curve in the approved text were not quoted. Deeper pass: NPRR1309 Sections 3.16, 4.4.12 (DRRS ASDC, $10 floor, $0.01 minimum price) and the joint IMM/ERCOT demand curve proposal from TAC Workshop 3 (March 2026).
 - NPRR1310 (DRRS with ESR participation and a resource-adequacy "Release Factor") and NPRR1340 are pending; their content and status after June 2026 were not traced.
-- The PRS discussion mentions desktop edits "to maintain the current four-hour duration for Non-Spin", while the IMM and the TAC dissents describe the TAC-endorsed version as reducing it to two hours. The final Non-Spin duration in the PUCT-approved text was not read directly from the redline.
+- The PRS discussion mentions desktop edits "to maintain the current four-hour duration for Non-Spin"; the TAC-recommended version (as amended by the 4/28/26 ERCOT II comments) and the PUCT report's revision description reduce it to two hours (cited as e16). The PRS-stage four-hour version is not the approved text.
 - Deeper pass: DRRS settlement (payments and charges, RUC make-whole exclusion, RUC Capacity Short treatment) and the new "DRRS" Resource Status in the pending np-03 boxes.
 - Deeper pass: the October 17, 2023 legislative letter urging a stand-alone DRRS, quoted in the Board memo across a page break.
 
 ### PCM (Performance Credit Mechanism)
 
-- The PUCT's action at the December 19, 2024 open meeting (whether it formally ended, shelved or deferred the PCM) is not in the saved sources; only the Staff recommendation and the Chairman's memo are.
+- The December 19, 2024 minutes record only "Adopted Staff's final recommendation on PCM"; they are a summary, and no written order or any further instruction (for example on later reconsideration) is in the saved sources.
 - The 2024 and 2025 IMM State of the Market reports in the saved set do not discuss the PCM; no later status was found.
-- HB 1500's own text of 39.1594 was quoted from the current PURA chapter, not from the bill; the 2026 base-year adjustments to the cap in 39.1594(a)(1)(A)-(B) were not covered.
+- HB 1500's own text of 39.1594 was quoted from the current PURA chapter, not from the bill; how the 2026 base-year adjustments to the cap in 39.1594(a)(1)(A)-(B) would be calculated was not covered.
 - Deeper pass: the 37 PCM design parameters (E3 strawman, February 2024), the PC demand curve, the 2% non-performance penalty and the trailing net-revenue offset.
 - Deeper pass: E3's finding that DRRS under NPRR1235 would add less than 100 MW of gas CT capacity, and the battery (+29%) and wind (-1.2%) margin effects.
 - Whether the PCM could be reconsidered after the 2026 reliability standard assessment was not traced.
@@ -490,7 +495,9 @@ None.
 - Deeper pass: individual project awards, loan amounts, who received them and current status; none are in the saved sources except the project names tagged "(TEF)" in the MORA data.
 - Deeper pass: the Texas Energy Fund Advisory Committee (Sec. 34.0109), the constitutional amendment (Section 49-q, Article III) and the Texas Power Promise backup power packages (Subchapter B).
 - HB 1500 (88th Legislature) was in the assignment but contains no Texas Energy Fund text in the saved copy, so no appropriation amount is stated.
-- The fund balance and appropriation size were not found. The PUCT FAQ says SB 2268 (89th Legislature) adjusted certain financing requirements, programmatic caps and deadlines; the specific new values are not in the saved sources, so the SB 2627 figures above may be superseded.
+- The fund balance and appropriation size were not found.
+- SB 2268 also added Sec. 34.0104(b-1) (alternative security for construction loans to municipally owned utilities and electric cooperatives) and widened the confidentiality provisions; these were read in sb2268-89r but not quoted.
+- Whether the commission has actually extended any loan disbursement past December 31, 2025, or extended the completion bonus interconnection deadlines, is not in the saved sources.
 - "The commission" in Chapter 34 is read as the PUCT based on SECTION 5 naming the Public Utility Commission of Texas; the chapter's own definition of commission was not quoted.
 - Loan and grant restrictions (industrial and private-use network exclusion, escrow deposit, debt covenants) in Sec. 34.0104 and 34.0106 were read but not quoted.
 
@@ -783,12 +790,13 @@ None.
 ### Large Load Growth (Data Centers, Crypto, Industrial)
 
 - Two June 2026 queue figures differ (more than 438,000 MW versus about 474 GW). The sources do not reconcile them, though the cut-off dates probably differ.
+- The same 239 GW / 239,000 MW total appears with two dates: the December 2025 Constraints and Needs report [e4] and "In February 2026" in the 2025 Annual Report [e5], while the April 1, 2026 Senate update shows about 410 GW as of March 26, 2026 [e6]. The sources do not explain whether the queue was flat from December to February or the Annual Report reused an earlier figure.
 - No saved source gives actual energized large-load MW (as opposed to requested MW) for 2026.
 - Deeper pass: breakdown of the queue by TSP, by in-service year and by load type (charts in ercot-large-load-update-2026-04 are not readable as text); the oscillation NOGRR once it is filed; PGRR144 model quality requirements (TAC endorsed August 2026).
 
 ### SB 6 (2025) Large Load Legislation
 
-- Sources disagree on when SB 6 "passed" or was "signed". The bill certification shows the Senate concurring in House amendments on May 29, 2025 [e12]. The statute history shows effect on June 20, 2025 [e11]. The CDR says "signed into law in June 2025" [e19], and the IMM 2025 report says "Passed in June 2025". The saved sources contain no Governor signature date.
+- Passage and signature dates are now sourced: the Senate concurred in House amendments on May 29, 2025 [e12] and the Governor signed the bill, effective immediately, on June 20, 2025 [e26][e11]. The CDR's "signed into law in June 2025" agrees [e19]. The IMM 2025 report says "Passed in June 2025", which does not match the May 29 final legislative vote; use the legislative record.
 - Not saved: the text of §25.370 (large load forecasting criteria). Its details here come from ERCOT and IMM summaries.
 - The SB 6 bill text states no fixed start date for the §37.0561(e) backup-generation provision. Deeper pass: ERCOT's EEA threshold and Protocol changes that implement it.
 - Deeper pass: §25.205 approval conditions and the hold-harmless process; LLDMS proposal details (obligation periods, payment, deployment); the final 4CP rule.
@@ -808,7 +816,8 @@ None.
 
 ### ERCOT Long-Term Load Forecast
 
-- The final adjusted 2026 LTLF values are not in the saved sources. ERCOT expected them by the end of 2026. [e19] The August 2026 Batch Zero pause (Project 59142) likely delays them further, but no saved source gives a new date.
+- The final adjusted 2026 LTLF values are not in the saved sources. ERCOT expected them by the end of 2026 (August statement) [e19], and on November 6, 2026 said it did not yet have a final load forecast because Batch Zero load values were still being finalized [e26]. No saved source gives a date for the final forecast.
+- The July 22, 2026 record is 91,134 MW in ERCOT's September 2026 summer review [e13], but the October 2026 ERCOT Fact Sheet shows 91,155 MW for the same date and notes records are unofficial until final settlements. This topic uses the summer review figure.
 - The text of 16 TAC §25.370 is not saved; its rules are described here from IMM and ERCOT summaries.
 - The 2025 LTLF report's peak figures sit in figures and an appendix table. Its "ERCOT Adjusted" versus "TSP Provided" peak values by year were not extractable beyond Appendix A.
 - Deeper pass: the 2026 RTP Compliance Plan criteria (January 22, 2026) and the 2025 forecast revision under Project 55999 (June 2025).
@@ -855,17 +864,20 @@ None.
 
 ### Uri $9,000 Pricing Controversy
 
-- Outcome of the IMM's repricing requests: the saved sources do not say whether the PUCT corrected the February 18-19 real-time prices or capped day-ahead ancillary service prices. The 2021 SOM says only that the PUCT ordered "failure to provide" ancillary service resettlement for February 14-19 (Project 51812 order of March 12, 2021). Source needed: the PUCT's March 2021 open meeting decisions in Project 51812.
-- Outcome of Luminant v. PUCT after March 17, 2023 (rehearing or Texas Supreme Court) is not in the saved sources. Source needed: the later court decision. The court summary is a tier 3 law-firm alert; the opinion itself is not saved.
+- Outcome of the IMM's repricing requests: no saved source states in so many words whether the PUCT corrected the February 18-19 real-time prices or capped day-ahead ancillary service prices. The saved March 12, 2021 order (puct-51812-as-order-2) acts only on the IMM's failure-to-provide recommendation. Source needed: the PUCT's March 2021 open meeting decisions in Project 51812.
+- After the Supreme Court decision: the opinion says Luminant's administrative challenges to its invoices were abated until the litigation concluded; what happened to them afterwards is not in the saved sources.
+- The Supreme Court opinion describes the orders' effect as raising the price "to the regulatory ceiling of $9,000/MWh" and says ERCOT's manual change stayed in place until the grid returned to normal operations on February 19; this topic's description of how long prices were held relies on the IMM's letters and report.
 - Date of the ~$1,200 low price: the February 15 order says prices were as low as about $1,200 "at various times today"; the 2021 SOM says prices "dipped as low as approximately $1,200 per MWh on February 16, 2021".
-- LCAP suspension date: the PUCT orders of February 15 and 16 suspended the LCAP; the 2021 SOM says "Suspension of LCAP occurred on March 3, 2021" while its footnote cites a March 3, 2021 "Order Reinstating Low System-Wide Offer Cap". Not resolved.
+- LCAP suspension date: the PUCT orders of February 15 and 16 suspended the LCAP and the saved March 3, 2021 order terminated the suspension; the 2021 SOM's sentence "Suspension of LCAP occurred on March 3, 2021" therefore appears to misstate the date the suspension ended as the date it occurred.
 - End of the pricing hold: IMM letter 2 says "through the morning of February 19" and recommends correction to 09:00; the 2021 SOM says "mid-morning on February 19". The UT and FERC-NERC reports were not checked for an exact time.
 - The February 15 order's signature line reads "the 15 day of February 2020", an apparent typo in the source; the order caption and other sources date it February 15, 2021.
 - Deeper pass: the IMM's breakdown of the $5.1 billion ($3.2 billion energy imbalance, about $1 billion AS imbalance, about $900 million AS price cap) in imm-uri-letter-3; ERCOT's own response to the IMM letters (not saved).
 
 ### Griddy & Brazos: 2021 Defaults
 
-- Griddy's product (wholesale price pass-through to customers) and the size of its customers' bills: not described in the saved sources. Source needed: PUCT or ERCOT documents on the Griddy mass transition or the Griddy bankruptcy filing.
+- Griddy's wholesale price pass-through product and the size of its customers' bills are not described in the saved sources (the PUCT order only describes pay-as-you-go advance-payment billing). The exact signing date of the Docket 51859 order is illegible in the saved copy (year 2022).
+- Griddy customer count: ERCOT's February 26, 2021 notice says approximately 10,127 ESI IDs; the PUCT order says 9,926 customers were transitioned. Not reconciled.
+- The UT report says the three retailers' certificates "were revoked" as of July 2021; for Griddy the PUCT order revoking the REP certificate is from 2022, so the UT wording probably refers to ERCOT's revocation of market participant rights. Entrust and Power of Texas dates are not in the saved sources.
 - Brazos amount: UT says $1.86 billion of the short payments relate to Brazos; the IMM 2022 report says Brazos failed to pay about $1.9 billion.
 - Total short payments: UT gives $2.9 billion (April 14, 2021) and $2.99 billion (May 14, 2021); the IMM 2021 and 2022 reports say "exceeded $3 billion".
 - Final bankruptcy court approval of the Brazos plan and the Rayburn Country Electric Cooperative outcome are not in the saved sources.
@@ -874,6 +886,7 @@ None.
 
 ### Winter Storm Elliott (Dec 2022)
 
+- Record scope and size: the IMM 2023 report (Executive Summary, Demand) says "The winter record was set in 2022 of 78.3 GW on December 23, 2022", and the same passage gives an 80 GW peak load for 2022, so the ERCOT report's "previous peak demand record" (74,100 MW) cannot be an all-time record; which record it means, and why 74,100 MW differs from 78.3 GW, is not explained in the saved sources.
 - Peak demand figures differ: the ERCOT report's executive summary says 74,100 MW on December 23 (its Uri comparison table says instantaneous, 12/23/2022 HE08); its peak load chart and the ERCOT Board deck show hourly peaks of 73,658 MW (Dec 22 HE22) and 73,910 MW (Dec 23 HE09).
 - Adequacy wording: ERCOT's Board deck says ERCOT "had adequate generation throughout Winter Storm Elliott"; the IMM 2022 report says "there were shortage conditions on December 23, 2022". Possibly different meanings of shortage; not resolved.
 - Board deck date: sources.yaml lists 2023-02-21 but the deck's cover says "February 28, 2023".
@@ -967,7 +980,7 @@ None.
 
 ### Scenario: Pitch Your View on a Market Rule
 
-- The timing of the Non-Spin duration reduction relative to DRRS go-live is not stated in the NPRR1309 Revision Description item quoted (the IMM's February comment says 'upon implementation of DRRS'); the IMM's recommendation moved from one hour (February) to two hours (April) in the saved comments.
+- The NPRR1309 PUCT Report lists the effective date as 'Upon system implementation'; whether the Non-Spin duration reduction takes effect at the same time as DRRS go-live or separately was not checked in the redlined Protocol language (the IMM's February comment says 'upon implementation of DRRS'); the IMM's recommendation moved from one hour (February) to two hours (April) in the saved comments.
 - No saved source gives the DRRS go-live date; only the 20 to 30 month implementation estimate.
 - Whether the PUCT adopted the 12CP proposal in Project 58000 is not in the saved sources.
 - The NPRR1310 outcome (ESR participation and release factor for DRRS) was not checked.
@@ -1006,4 +1019,4 @@ None.
 
 ## Topics not written yet
 
-10 of 153: HASL / LASL; Basis Risk; Spark Spread; Forward Curve; Heat Rate Call Option; Tolling Agreement; PPA & Virtual PPA; Shape Risk; Volumetric Risk; Asset Optimization.
+9 of 153: Basis Risk; Spark Spread; Forward Curve; Heat Rate Call Option; Tolling Agreement; PPA & Virtual PPA; Shape Risk; Volumetric Risk; Asset Optimization.

@@ -60,6 +60,13 @@ BEFORE: …---------------------------------------------+ Settlement Only Genera
 QUOTE: A Resource Node, Load Zone, or Hub.
 AFTER:  Settlement Point Price A price calculated for a Settlement Point for each Settlement Interval using LMP data and the formulas detailed in Section 4.6, DAM Settlement, and Section 6.6, Settlement Calculations for the Real-Time Energy Operations. Settlement Quality Meter Data Data that has been edite…
 
+### e9 · `ercot-hubs-load-zones-page` · tier 2 · ERCOT Hubs and Load Zones display (settlement point names)
+locator: ERCOT display "Real-Time LMPs for Load Zones and Trading Hubs", Settlement Point column (snapshot of a live page; the prices are those at retrieval and are not the point of the quote) · alt copy line 5
+
+BEFORE: …Same page as ercot-hubs-load-zones-page.txt, table rows written one per line (cells separated by |). Real-Time LMPs for Load Zones and Trading Hubs Display Price Adders | RTRDPA: $0.42 Settlement Point | LMP | 5 MinChange to LMP | RTRDPA + LMP | 5 Min Change to RTRDPA + LMP 
+QUOTE: HB_BUSAVG | 36.16 | -2.54 | 36.58 | -2.49 HB_HOUSTON | 36.02 | -2.69 | 36.44 | -2.64 HB_HUBAVG | 37.44 | -2.01 | 37.86 | -1.96 HB_NORTH | 34.32 | -3.30 | 34.74 | -3.25 HB_PAN | 33.70 | -3.74 | 34.12 | -3.69 HB_SOUTH | 37.76 | -1.90 | 38.18 | -1.85 HB_WEST | 41.67 | -0.13 | 42.09 | -0.08
+AFTER:  LZ_AEN | 37.40 | -2.06 | 37.82 | -2.01 LZ_CPS | 38.17 | -1.72 | 38.59 | -1.67 LZ_HOUSTON | 36.10 | -2.65 | 36.52 | -2.60 LZ_LCRA | 37.72 | -1.92 | 38.14 | -1.87 LZ_NORTH | 34.44 | -3.41 | 34.86 | -3.36 LZ_RAYBN | 34.25 | -3.49 | 34.67 | -3.44 LZ_SOUTH | 37.80 | -1.88 | 38.22 | -1.83 LZ_WEST | 50.55…
+
 ## Statements to check
 
 - **Definition #1** (cites e1, e2): The North 345 kV Hub (North 345) is one of the Hubs defined in Protocol Section 3.5.2, composed of a listed set of 345 kV Hub Buses. [e1] A Hub is a designated Settlement Point made of a Hub Bus or group of Hub Buses with the price methodology set out in its definition. [e2] The market shorthand "HB_NORTH" is not used in the saved protocol text.
@@ -69,6 +76,7 @@ AFTER:  Settlement Point Price A price calculated for a Settlement Point for eac
 - **Key facts #2** (cites e3): - Day-ahead price uses aggregated Shift Factors of the Hub Buses; real-time price is the simple average of time-weighted Hub Bus prices per 15-minute interval. [e3]
 - **Key facts #3** (cites e7): - The Hub definition can never be modified and exists in perpetuity. [e7]
 - **Key facts #4** (cites e5): - It is one of four prices in the ERCOT Hub Average 345 kV Hub price. [e5]
+- **Key facts #5** (cites e9): - ERCOT's real-time price display lists a hub Settlement Point named HB_NORTH. [e9]
 - **Common confusion #1** (cites e2, e3, e8): - North Hub versus North Load Zone: the Hub is a Settlement Point defined by a fixed Hub Bus list and its own price method, and a Load Zone is a separate kind of Settlement Point from a Hub (a Settlement Point is a Resource Node, Load Zone, or Hub; see the load-zone topic). [e2][e3][e8]
 - **Common confusion #2** (cites e5): - North Hub versus the ERCOT 345 average: the ERCOT average is a separate Hub that averages four hub prices, including North. [e5]
 - **Questions #2** (cites e3): As the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval, across each Hub Bus in the Hub. [e3]

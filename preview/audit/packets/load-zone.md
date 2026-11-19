@@ -116,6 +116,13 @@ BEFORE: …tial load has sprawled far from historical population centers. Moreov
 QUOTE: We continue to recommend that ERCOT revise the prevailing load zone configuration to reflect these evolving congestion patterns.
 AFTER:  Market Operations Taken together, the ERCOT wholesale markets coordinate the provision of energy and reserves from resources to maintain reliability and provide long-term economic signals governing new investment and retirement decisions. Ideally, the markets should procure and dispatch all resourc…
 
+### e17 · `ercot-hubs-load-zones-page` · tier 2 · ERCOT Hubs and Load Zones display (settlement point names)
+locator: ERCOT display "Real-Time LMPs for Load Zones and Trading Hubs", Settlement Point column (snapshot of a live page; the prices are those at retrieval and are not the point of the quote) · alt copy line 12
+
+BEFORE: …TRDPA + LMP HB_BUSAVG | 36.16 | -2.54 | 36.58 | -2.49 HB_HOUSTON | 36.02 | -2.69 | 36.44 | -2.64 HB_HUBAVG | 37.44 | -2.01 | 37.86 | -1.96 HB_NORTH | 34.32 | -3.30 | 34.74 | -3.25 HB_PAN | 33.70 | -3.74 | 34.12 | -3.69 HB_SOUTH | 37.76 | -1.90 | 38.18 | -1.85 HB_WEST | 41.67 | -0.13 | 42.09 | -0.08 
+QUOTE: LZ_AEN | 37.40 | -2.06 | 37.82 | -2.01 LZ_CPS | 38.17 | -1.72 | 38.59 | -1.67 LZ_HOUSTON | 36.10 | -2.65 | 36.52 | -2.60 LZ_LCRA | 37.72 | -1.92 | 38.14 | -1.87 LZ_NORTH | 34.44 | -3.41 | 34.86 | -3.36 LZ_RAYBN | 34.25 | -3.49 | 34.67 | -3.44 LZ_SOUTH | 37.80 | -1.88 | 38.22 | -1.83 LZ_WEST | 50.55 | 3.89 | 50.97 | 3.94
+AFTER: …
+
 ## Statements to check
 
 - **Definition #1** (cites e1, e3): A Load Zone is a group of power flow buses (in the DAM and CRR Auction) or Electrical Buses (in the Real-Time Market) assigned to the same zone under Protocol Section 3.4, and every bus in ERCOT with Load must be assigned to one for Settlement. [e1][e3]
@@ -130,9 +137,10 @@ AFTER:  Market Operations Taken together, the ERCOT wholesale markets coordinate
 - **Key facts #4** (cites e4, e7): - The four Competitive Load Zones date from the 2003 market; the IMM names them West, North, South and Houston. [e4][e7]
 - **Key facts #5** (cites e6): - There are four NOIE Load Zones approved before nodal start-up. [e6]
 - **Key facts #6** (cites e9): - A DC Tie Load Zone contains only the one Electrical Bus connecting the DC Tie. [e9]
+- **Key facts #7** (cites e17): - ERCOT's real-time price display lists eight Load Zone Settlement Points by the names LZ_AEN, LZ_CPS, LZ_HOUSTON, LZ_LCRA, LZ_NORTH, LZ_RAYBN, LZ_SOUTH and LZ_WEST. [e17]
 - **Say it like this #1** (cites e4, e7, e12): A load zone is a group of buses that settle load at one load-weighted average price. ERCOT has used the same four competitive zones since 2003 [e4][e7], and the IMM's view is that congestion inside zones now outpaces congestion between them [e7], with the West zone combining very different areas [e12].
 - **Common confusion #1** (cites e3, e16): - Load Zone versus Hub: a zone price is weighted by Load, while, for each Hub except the ERCOT Hub Average 345 kV Hub, the Hub LMP is the arithmetic average of its Hub Buses' Real-Time LMPs. [e3][e16]
-- **Common confusion #2** (cites e4): - The protocol text refers to Competitive, NOIE and DC Tie Load Zones; the LZ_ names are not used in the saved protocol text. [e4]
+- **Common confusion #2** (cites e4): - The protocol text refers to Competitive, NOIE and DC Tie Load Zones and does not use the LZ_ names. [e4]
 - **Common confusion #3** (cites e14): - NOIE Load Zones and Competitive Load Zones are both Load Zones, but the Cost-Allocation Load Zones used for LRS allocation are the four 2003 zones. [e14]
 - **Common confusion #4** (cites e10): - Generators do not settle at the Load Zone price; the IMM says they settle at the nodal level at their own locational marginal prices. [e10]
 - **Questions #2** (cites e3): As the Load-weighted average of LMPs at all Electrical Buses in the zone, with Load from the State Estimator at each bus. [e3]

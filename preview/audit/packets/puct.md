@@ -124,10 +124,10 @@ QUOTE: In July 2024, the Public Utility Commission of Texas approved an updated 
 AFTER:  In parallel with ERCOT's 2026 Reliability Standard Assessment (RSA), ERCOT is conducting an additional review of CONE to align cost assumptions with potential reliability pathways. Although CONE is not a direct input to the RSA, ERCOT has noted that certain recommendations for achieving the standar…
 
 ### e18 · `np-04` · tier 1 · ERCOT Nodal Protocols, Section 4: Day-Ahead Operations (effective 2026-08-01)
-locator: Section 4.4.11, note under the parameter table · text copy line 2178 · heading above: 4.4.10 Credit Requirement for DAM Bids and Offers
+locator: Section 4.4.11, note under the parameter table · text copy line 2248 · heading above: 4.4.11 Day-Ahead and Real-Time System-Wide Offer Caps
 
-BEFORE: …------------------------------------- ------------ ---------------------------------------------------- d percentile 85 ep1 percentile 95 a percentile 50 b percentile 45 dp percentile 90 ep2 percentile 0 e2 value 0 e3 value 1 y percentile 45 z percentile 50 u percentile 90 bd % 90 t percentile 50 * 
-QUOTE: The current value for the parameters referenced in this table above will be recommended by TAC and approved by the ERCOT Board.
+BEFORE: …------------------------------------------------------------------------------------------------------------------------------------------- ------------- --------------------------------------------- ECAP $/MWh 2,000 HCAP - DAM (DASWCAP) $/MWh 5,000 HCAP - RTM (RTSWCAP) $/MWh 2,000 LCAP $/MWh 2,000 
+QUOTE: PNM threshold $/MW-year 315,000 * The current value for the parameters referenced in this table above will be recommended by TAC and approved by the ERCOT Board.
 AFTER:  ERCOT shall update parameter values on the first day of the month following ERCOT Board approval unless otherwise directed by the ERCOT Board. ERCOT shall provide a Market Notice prior to implementation of a revised parameter value. ------------------------------------------------------------------…
 
 ## Statements to check
@@ -145,7 +145,7 @@ AFTER:  ERCOT shall update parameter values on the first day of the month follow
 - **Key facts #4** (cites e6, e7) FLAG number-not-in-quote: 2023: - Since HB 1500 (2023), PUCT directives to ERCOT to take an official action must come through a contested case, a rulemaking, or a written order or memo adopted by majority vote. [e6][e7]
 - **Key facts #5** (cites e11, e15, e16) FLAG number-not-in-quote: 25.509: - Offer caps: rule 25.509 states HCAP $5,000/MWh and LCAP $2,000/MWh for energy. [e11] The Protocol table lists $5,000 day-ahead and $2,000 real-time, and the SWCAP was reduced to $2,000 after RTC go-live on 12/5/2025. [e15][e16]
 - **Key facts #6** (cites e12): - Reliability standard frequency criterion: no more than one loss of load event per ten years on average (0.1 LOLE). [e12]
-- **Key facts #7** (cites e13, e17): - Sunset: HB 1500 sets September 1, 2029 as the date in the Sunset provision for abolishing the commission. [e13][e17]
+- **Key facts #7** (cites e13, e17): - Sunset: HB 1500 sets September 1, 2029 (previously 2023) as the date in the Sunset provision on which the commission is abolished unless it is continued in existence. [e13][e17]
 - **Common confusion #1** (cites e10, e9, e5): (Guidance) The PUCT is not FERC. In ERCOT, the PUCT, assisted by the IMM, holds ultimate responsibility for market oversight. [e10] The IMM has no enforcement authority; enforcement stays with the commission. [e9] Also, ERCOT protocol changes approved by the ERCOT board are not final until the PUCT approves them. [e5]
 - **Questions #2** (cites e6, e7): Not by a verbal directive. Under §39.1514, added by HB 1500, an official-action directive must come through a contested case, a rulemaking, or a memorandum or written order adopted by majority vote. [e6][e7]
 - **Questions #4** (cites e11, e18, e5, e15, e16) FLAG number-not-in-quote: 25.509: Both have a hand. PUCT rule 25.509 states a high cap of $5,000 per MWh and a low cap of $2,000 per MWh for energy offers. [e11] The current values in the Protocol parameter table are recommended by TAC and approved by the ERCOT Board, and Protocol changes need PUCT approval of a market impact statement. [e18][e5] Since RTC go-live the Protocol table lists a $5,000 day-ahead cap and a $2,000 real-time cap, and ERCOT says the SWCAP was reduced to $2,000 from $5,000 after 12/5/2025. [e15][e16]
@@ -157,7 +157,7 @@ AFTER:  ERCOT shall update parameter values on the first day of the month follow
 - **Link to texas-legislature** (cites e17): related Texas Legislature: The Legislature amends the Utilities Code that governs the PUCT (HB 1500, 2023), and the PUCT is subject to the Texas Sunset Act. [e17]
 - **Link to offer-cap** (cites e11, e15, e16) FLAG number-not-in-quote: 25.509: determines Offer Caps (HCAP / LCAP / SWCAP): PUCT rule 25.509 states a $5,000 high and a $2,000 low system-wide offer cap, while the Protocol table lists a $5,000 day-ahead and a $2,000 real-time cap after RTC go-live. [e11][e15][e16]
 - **Link to market-power-mitigation** (cites e8): regulates Market Power Mitigation (Competitiveness Tests, Mitigated Offer Caps): PURA directs the PUCT to monitor market power and order mitigation when it finds abuse. [e8]
-- **Link to resource-adequacy** (cites e12): determines Resource Adequacy: The PUCT adopted the ERCOT reliability standard of 0.1 loss of load expectation. [e12]
+- **Link to resource-adequacy** (cites e12) FLAG number-not-in-quote: 25.508: determines Resource Adequacy: PUCT rule 25.508 sets the ERCOT reliability standard, whose frequency criterion is 0.1 loss of load expectation. [e12]
 - **Link to nodal-protocols** (cites e5): regulates ERCOT Nodal Protocols: New or revised protocols cannot take effect until the PUCT approves a market impact statement for them. [e5]
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 

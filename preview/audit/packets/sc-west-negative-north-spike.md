@@ -154,7 +154,7 @@ AFTER:  The shift in peak prices to the peak net load hours demonstrates the gro
 - **Questions #4** (cites e15): Loads pay the load zone price, which is a load-weighted average of the zone's nodal prices, so a Panhandle-negative and Permian-high split gets averaged. [e15]
 - **Questions #6** (cites e17): ERCOT reported that real-time congestion rent in summer 2026 was 10% below summer 2025 and said RTC played a role. [e17]
 - **Questions #8** (cites e14, e15): Batteries, which can act as both supply and demand and can often charge at prices below $0 when added load at a location resolves congestion. [e14] (Guidance) Generators settle at their own nodal prices, so those at negative-priced West nodes receive the lower price. [e15]
-- **Common confusion #1** (cites e5): (Guidance) A negative West price does not by itself mean the whole system is oversupplied; the IMM describes the Panhandle as export-constrained. [e5] Also, HB_WEST and a Panhandle node are not the same thing: the zone also includes the Permian, where prices can be high. [e5]
+- **Common confusion #1** (cites e5): (Guidance) A negative West price does not by itself mean the whole system is oversupplied; the IMM describes the Panhandle as export-constrained. [e5] Also, a West zone price and a Panhandle node price are not the same thing: the West zone also includes the Permian Basin, which the IMM describes as import-constrained. [e5]
 - **Link to congestion** (cites e2): example-of Transmission Congestion: A West-North split is congestion showing up as different prices at different nodes. [e2]
 - **Link to lmp** (cites e3): used-in LMP (Locational Marginal Price): System Lambda is the energy component of the LMP at each Settlement Point. [e3]
 - **Link to shift-factor** (cites e4): used-in Shift Factors: A shift factor measures the flow on a transmission element due to a unit injection at a bus. [e4]
@@ -168,5 +168,5 @@ AFTER:  The shift in peak prices to the peak net load hours demonstrates the gro
 
 - (Scenarios) - (Reasoning) Check the posted binding constraints and shadow prices first, then confirm which side of the constraint each node sits on before calling a direction for the spread.
 - (Scenarios) - Suppose (illustrative): System Lambda is $600/MWh. A North node with a congestion component of +$300 settles at $900, while a Panhandle node with -$620 settles at -$20. Same energy price, opposite congestion signs.
-- (Say it like this) (Guidance) The energy price is the same across Texas; what differs is congestion. When the Panhandle cannot export its wind, prices there can go negative while North pays for expensive local units, and the shadow price on the binding constraint tells you how wide that gap is.
+- (Say it like this) (Guidance) The energy component of the price is the same at every ERCOT Settlement Point; what differs is congestion. When the Panhandle cannot export its wind, prices there can go negative while North pays for expensive local units, and the shadow price on the binding constraint tells you how wide that gap is.
 

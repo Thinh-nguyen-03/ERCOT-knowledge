@@ -33,7 +33,7 @@ QUOTE: Peak Generation Out: 48.6% (52,277 MW out of 107,514 MW total installed c
 AFTER:  •25,000 MW of forced outages, including 14,000 MW of wind and solar •2,800 MW of planned outages, including seasonally mothballed capacity PUBLIC 13 Generation Capacity Out by Fuel Type PUBLIC 14 Available Generation and Estimated Load Without Load Shed Load that could not be served without additio…
 
 ### e5 · `ut-uri-timeline` · tier 2 · The Timeline and Events of the February 2021 Texas Electric Grid Blackouts (July 2021)
-locator: Section 2 (grid operations), p. 32 · text copy line 836
+locator: Section 2 (grid operations), p. 26 · text copy line 836
 
 BEFORE: …during the implementation of the EEA; and 4) provide backup regulation. 25 the frequency of the grid began to decline.30,31 In such circumstances, ERCOT begins various contingency plans such as calling on reserves and shedding load, and at low enough frequencies, automated load shed can occur.32,33 
 QUOTE: On Monday, February 15 at 00:15 CST, ERCOT declared an Energy Emergency Alert Level 1 (EEA 1), at 01:07 CST ERCOT moved to EEA 2,34 and at 01:20 CST, ERCOT declared an EEA 3 event and began "firm load shed" or "blackouts."35 ERCOT did not return to normal operations until 10:36 CST Friday, February 19. The ERCOT system frequency reached a low of 59.302 Hz at roughly 1:55am on February 15, 2021.
@@ -89,7 +89,7 @@ QUOTE: According to PUCT data, natural gas prices, normally much less than $10/M
 AFTER:  Natural gas providers that were able to produce and transport gas reported windfall profits. Many financial sector firms that operate in the ERCOT energy market also reported large profits. • The price of electricity spiked to $9,000 per MWh and stayed there by orders of the PUCT, which suspended s…
 
 ### e13 · `ut-uri-timeline` · tier 2 · The Timeline and Events of the February 2021 Texas Electric Grid Blackouts (July 2021)
-locator: Section 3 (economic impacts), p. 64 · text copy line 2894
+locator: Section 3 (economic impacts), p. 65 · text copy line 2894
 
 BEFORE: …not known how different relative DAM prices would have been had LCAP not been suspended. Thus, while the absolute numbers might be different, the percentage increase might be similar. 118 See PUCT Open Meeting of March 5, 2021, item 22: http://www.adminmonitor.com/tx/puct/open_meeting/20210305/. 64 
 QUOTE: On April 14, 2021, ERCOT reported cumulative aggregate "short payments" of approximately $2.9 billion, and that it would take 96 years to collect the amount outstanding using its standard Default Uplift Invoice process.119 This estimate was raised to $2.99 billion on May 14, 2021.120 Of that, $1.86 billion relates to the default of Brazos Electric Power Cooperative Inc., which filed for bankruptcy on March 1, 2021.
@@ -187,7 +187,7 @@ QUOTE: ERCOT shall issue Invoices to Qualified Scheduling Entities (QSEs) and Co
 AFTER:  ERCOT may assess Securitization Default Charges over a period of up to 30 years. (2) Each Counter-Party's share of the Securitization Default Charge for a month is calculated using the best available Settlement data for the most recent month for which ERCOT has posted Final Settlement data for all …
 
 ### e27 · `ferc-nerc-uri` · tier 2 · The February 2021 Cold Weather Outages in Texas and the South Central United States (FERC-NERC-Regional Entity Staff Report) (November 2021)
-locator: Executive Summary, event comparison table (manual firm load shed row) · text copy line 2288 · heading above: 57.5 Hz or below
+locator: Figure 18, comparison of the 2011, 2014, 2018 and 2021 events (maximum firm load shed row) · text copy line 2288 · heading above: 57.5 Hz or below
 
 BEFORE: …atural Gas Fuel Issues Freezing Issues, Natural Gas Fuel Issues, Mechanical/ Electrical Issues Yes/ EEA 3 Yes/ EEA 3 Yes/ EEA 2 Yes/ EEA 3 Maximum Firm Load Shed (MW) 5,411.6 300 113 0 114 Overall Duration of Firm Load Shedding ERCOT: 7 hours, 24 minutes 3 hours N/A 40 to 50 deg F 108 below average 
 QUOTE: 23,418 (ERCOT 20,000, SPP 2,718, MISO South 700)

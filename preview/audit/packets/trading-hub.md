@@ -102,6 +102,13 @@ BEFORE: …ng Hubs 3.5.3.1 Posting of Hub Buses and Electrical Buses included in
 QUOTE: ERCOT shall calculate Hub prices for each Settlement Interval as identified in the description of each Hub.
 AFTER:  3.6 Load Participation 3.6.1 Load Resource Participation (1) A Load Resource may participate by providing: (a) Ancillary Service: (i) Regulation Up Service (Reg-Up) Service as a Controllable Load Resource (CLR) capable of providing Primary Frequency Response; (ii) Regulation Down Service (Reg-Down)…
 
+### e15 · `ercot-hubs-load-zones-page` · tier 2 · ERCOT Hubs and Load Zones display (settlement point names)
+locator: ERCOT display "Real-Time LMPs for Load Zones and Trading Hubs", Settlement Point column (snapshot of a live page; the prices are those at retrieval and are not the point of the quote) · alt copy line 5
+
+BEFORE: …Same page as ercot-hubs-load-zones-page.txt, table rows written one per line (cells separated by |). Real-Time LMPs for Load Zones and Trading Hubs Display Price Adders | RTRDPA: $0.42 Settlement Point | LMP | 5 MinChange to LMP | RTRDPA + LMP | 5 Min Change to RTRDPA + LMP 
+QUOTE: HB_BUSAVG | 36.16 | -2.54 | 36.58 | -2.49 HB_HOUSTON | 36.02 | -2.69 | 36.44 | -2.64 HB_HUBAVG | 37.44 | -2.01 | 37.86 | -1.96 HB_NORTH | 34.32 | -3.30 | 34.74 | -3.25 HB_PAN | 33.70 | -3.74 | 34.12 | -3.69 HB_SOUTH | 37.76 | -1.90 | 38.18 | -1.85 HB_WEST | 41.67 | -0.13 | 42.09 | -0.08
+AFTER:  LZ_AEN | 37.40 | -2.06 | 37.82 | -2.01 LZ_CPS | 38.17 | -1.72 | 38.59 | -1.67 LZ_HOUSTON | 36.10 | -2.65 | 36.52 | -2.60 LZ_LCRA | 37.72 | -1.92 | 38.14 | -1.87 LZ_NORTH | 34.44 | -3.41 | 34.86 | -3.36 LZ_RAYBN | 34.25 | -3.49 | 34.67 | -3.44 LZ_SOUTH | 37.80 | -1.88 | 38.22 | -1.83 LZ_WEST | 50.55…
+
 ## Statements to check
 
 - **Definition #1** (cites e1): A Hub is a designated Settlement Point made up of a Hub Bus or group of Hub Buses, together with the settlement price calculation methodology prescribed in that Hub's definition in Section 3.5.2. [e1] Hubs can only be created by amending Section 3.5.2, and the list of Hub Buses and the price methodology that define a Hub can never be modified; a Hub, once defined, exists in perpetuity. [e1]
@@ -115,6 +122,7 @@ AFTER:  3.6 Load Participation 3.6.1 Load Resource Participation (1) A Load Reso
 - **Key facts #3** (cites e7): - Real-Time Hub Bus LMP is the simple average of the LMPs of the energized Electrical Buses in it. [e7]
 - **Key facts #4** (cites e8): - The ERCOT 345 hub price in Real-Time averages the North, South, Houston and West hub prices; Panhandle is excluded. [e8]
 - **Key facts #5** (cites e13): - ERCOT calculates Hub prices for each Settlement Interval as identified in the description of each Hub. [e13]
+- **Key facts #6** (cites e15): - ERCOT's real-time price display lists seven hub Settlement Points by the names HB_BUSAVG, HB_HOUSTON, HB_HUBAVG, HB_NORTH, HB_PAN, HB_SOUTH and HB_WEST. [e15]
 - **Common confusion #1** (cites e1, e14): - Hub versus Load Zone: a Hub averages a fixed list of buses with the method written in its definition, while a Load Zone price is load-weighted from State Estimator Load. [e1][e14]
 - **Common confusion #2** (cites e2): - Hub versus Resource Node: a Resource Node is the point where a generator's price is calculated; a Hub is a Settlement Point made of buses. [e2]
 - **Common confusion #3** (cites e4, e8): - "ERCOT 345" and "ERCOT 345 Bus" are two different hubs: one averages four hub prices, the other averages the buses of the same four hubs. [e4][e8]

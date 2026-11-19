@@ -146,7 +146,7 @@ AFTER:  | | +----------------------------------------------------------------+--
 - **Link to ancillary-services** (cites e1, e7): part-of Ancillary Services (AS): NPRR1309 defines DRRS as an Ancillary Service. [e1][e7]
 - **Link to non-spin** (cites e6, e16, e5): related Non-Spinning Reserve: The first DRRS proposal (NPRR1203) would have made it a Non-Spin subtype, and NPRR1309 reduces the Non-Spin duration requirement from four hours to two hours once DRRS is implemented. [e6][e16][e5]
 - **Link to ruc** (cites e3): related RUC (Reliability Unit Commitment: DRUC/HRUC): The statute requires ERCOT to reduce reliability unit commitment by the amount of DRRS procured. [e3]
-- **Link to rtc-b** (cites e7): prerequisite-of RTC+B (Real-Time Co-optimization + Batteries): The NPRR1309 design lets DRRS be awarded in Real-Time and co-optimized with energy and other Ancillary Services. [e7]
+- **Link to rtc-b** (cites e7): related RTC+B (Real-Time Co-optimization + Batteries): The NPRR1309 design lets DRRS be awarded in Real-Time and co-optimized with energy and other Ancillary Services. [e7]
 - **Link to energy-storage-resource** (cites e4, e13) FLAG number-not-in-quote: 2026: related Energy Storage Resource (ESR): NPRR1309 limits DRRS to Generation Resources; storage participation was carried into NPRR1340 in June 2026. [e4][e13]
 - **Link to texas-legislature** (cites e3) FLAG number-not-in-quote: 2023, 39.159: related Texas Legislature: HB 1500 (88th Legislature, 2023) added resource criteria and the RUC reduction requirement to PURA 39.159(d)(2)-(3). [e3]
 - **Link to pcm** (cites e1): contrasts-with PCM (Performance Credit Mechanism): DRRS is an Ancillary Service that provides operating reserves, not a capacity or reliability credit program. [e1]

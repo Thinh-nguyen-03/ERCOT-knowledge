@@ -95,14 +95,35 @@ BEFORE: …---------------------------------------------------------------------
 QUOTE: Arrest frequency decay within the first few seconds of a significant frequency deviation on the ERCOT Transmission Grid using Primary Frequency Response, Fast Frequency Response (FFR), and interruptible Load;
 AFTER:  (b) After the first few seconds of a significant frequency deviation, help arrest and stabilize frequency; and (c) Provide energy or continued Load interruption during the implementation of the Energy Emergency Alert (EEA). Retail Business Day (see Business Day) Retail Business Hour Any hour within…
 
+### e14 · `np-08` · tier 1 · ERCOT Nodal Protocols, Section 8: Performance Monitoring (effective 2026-11-06)
+locator: Section 8.1.1.3.4, ERCOT Contingency Reserve Service Capacity Monitoring Criteria, paragraph (2) · text copy line 849 · heading above: 8.1.1.3.4 ERCOT Contingency Reserve Service Capacity Monitoring Criteria
+
+BEFORE: …pacity of each Resource to provide ECRS. ERCOT shall consider for each Resource the Resource Status, the On-Line versus Off-Line status, actual generation or Load, the Ancillary Service award for ECRS, the HSL, the LSL, ramp rates, relay status, and the Resource's qualification to provide ECRS. (2) 
+QUOTE: For the ECRS capability provided for a Resource to ERCOT by the Resource's QSE, the amount of ECRS reflected in that capability must be limited to the amount of ECRS that can be sustained by the Resource for at least one hour.
+AFTER:  (3) For Load Resources, excluding Controllable Load Resources, that have an ECRS award, the amount of ECRS capacity provided must be measured as the Load Resource's average Load level in the last five minutes. (4) A Resource that is capable of providing ECRS and that has a Resource Status code of O…
+
+### e15 · `ercot-nprr1282-puct-report` · tier 1 · NPRR1282 PUCT Report (ancillary service duration under Real-Time Co-optimization) (PUCT approved 2025-07-31)
+locator: NPRR1282 PUCT Report, Revision Description · text copy line 40
+
+BEFORE: …) makes changes to the duration requirements for the following Ancillary Services in preparation for Real-Time Co-optimization plus Batteries (RTC+B): | | | | | | | | | | - Updates duration requirements for Regulation Service and Responsive Reserve (RRS) to thirty minutes; and | | | | | | | | | | - 
+QUOTE: Updates duration requirement for ERCOT Contingency Reserve Service (ECRS) to one hour.
+AFTER:  | | | | | | | | | | This NPRR also updates the requirement for Reliability Unit Commitment (RUC) studies to use a one-hour duration for all Ancillary Service types, excluding Fast Frequency Response (FFR). | | | | | | | | | | ERCOT invites review of this NPRR from the RTC+B Task Force (RTCBTF). The…
+
+### e16 · `ercot-nprr1282-puct-report` · tier 1 · NPRR1282 PUCT Report (ancillary service duration under Real-Time Co-optimization) (PUCT approved 2025-07-31)
+locator: NPRR1282 PUCT Report, Effective Date · text copy line 14
+
+BEFORE: …------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------+ | Effective Date | | 
+QUOTE: Upon system implementation of PR447, Real-Time Co-Optimization (RTC)
+AFTER:  | | +----------------------------------------------------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------…
+
 ## Statements to check
 
 - **Definition #1** (cites e1): ERCOT Contingency Reserve Service (ECRS) is an ancillary service providing operating reserves intended to restore RRS within ten minutes after a deviation that significantly depletes it, to provide energy or continued load interruption to avoid or during an EEA, to provide backup regulation, and to be sustained for two consecutive hours. [e1]
 - **How it works #1** (cites e3, e4, e2): ECRS capacity can come from unloaded on-line generation, Quick Start Generation Resources, load resources with or without high-set under-frequency relays, and controllable load resources, generation resources operating in synchronous condenser fast-response mode, and ESRs. [e3] Load resources other than CLRs may supply no more than 50% of the total ECRS requirement, and ERCOT posts a monthly minimum capacity required from resources providing ECRS. [e4] ECRS provides resource capacity, or interruptible load, available for deployment on ten minutes' notice. [e2]
 - **How it works #2** (cites e5, e6, e7): ERCOT deploys ECRS by Dispatch Instruction over ICCP to resources with status ONSC, or by message to load resources. [e5] The protocol lists four purposes: restore frequency to 60 Hz within ten minutes, provide energy to avoid or during an EEA, back up Reg-Up, and provide energy when capacity is insufficient for net load ramps. [e6] ERCOT then uses SCED and Non-Spin as soon as practicable to recover the ECRS reserves it used. [e7]
 - **ERCOT context #1** (cites e8, e9, e10, e11): The IMM calls ECRS the latest addition to ERCOT's ancillary services, implemented in June 2023, and describes its purpose as restoring frequency within 10 minutes and recovering deployed regulation, as well as covering intra-hour net load forecast uncertainty. [e8][e9] In 2025 ECRS procurement volume fell by over 19% because the "adjustment for risk coverage" during sunset hours was removed, and ESRs supplied 42% of ECRS. [e10][e11]
-- **ERCOT context #2** (cites e12, e1): The IMM also reports that the ECRS duration requirement was two hours until RTC went live and is one hour since, under NPRR 1282. [e12] The protocol definition quoted above still says two consecutive hours, so treat the duration as an open point. [e1]
-- **Key facts #1** (cites e1): - ECRS is capacity sustained for two consecutive hours under the definition in the Protocols. [e1]
+- **ERCOT context #2** (cites e15, e16, e12, e14, e1): The duration requirement changed with RTC. NPRR1282 updated the ECRS duration requirement to one hour, effective upon system implementation of Real-Time Co-Optimization. [e15][e16] The IMM reports the same: two hours until RTC was implemented, one hour since. [e12] The current Protocols' capacity monitoring criteria limit a Resource's ECRS capability to what it can sustain for at least one hour. [e14] The general description of ECRS in Section 3 of the Protocols still reads "two consecutive hours". [e1]
+- **Key facts #1** (cites e14, e15, e16, e1): - A Resource's ECRS capability is limited to what it can sustain for at least one hour. [e14] NPRR1282 set the one-hour requirement, effective with RTC. [e15][e16] The general description in Section 3 of the Protocols still says two consecutive hours. [e1]
 - **Key facts #2** (cites e2): - ECRS is deployable on ten minutes' notice. [e2]
 - **Key facts #3** (cites e4): - Load resources other than CLRs may provide up to 50% of the total ECRS requirement. [e4]
 - **Key facts #4** (cites e9): - ECRS was implemented in June 2023. [e9]
@@ -110,7 +131,7 @@ AFTER:  (b) After the first few seconds of a significant frequency deviation, he
 - **Say it like this #1** (cites e1, e3, e6, e11): ECRS is the contingency reserve that backs up RRS and regulation: it restores frequency within ten minutes and supplies energy before or during an emergency. It can come from generators, quick-start units and load, and ESRs supply a large share. [e1][e3][e6][e11]
 - **Common confusion #1** (cites e13, e1, e5, e7): ECRS and RRS are often swapped. RRS is intended to arrest frequency decay within the first few seconds of a significant frequency deviation, [e13] and ECRS is intended to restore RRS within ten minutes after that. [e1] ERCOT deploys ECRS by Dispatch Instruction. [e5] ECRS is also not Non-Spin: ERCOT uses Non-Spin to recover ECRS after it is deployed. [e7]
 - **Questions #2** (cites e1, e6): To restore RRS within ten minutes after a significant depletion, to provide energy to avoid or during an EEA, to back up regulation, and to cover insufficient capacity for net load ramps. [e1][e6]
-- **Questions #4** (cites e1, e12): The Protocol definition says two consecutive hours. [e1] The IMM says it was two hours until RTC and then one hour under NPRR 1282. [e12]
+- **Questions #4** (cites e15, e16, e14, e12, e1): One hour since RTC went live. NPRR1282 updated the requirement to one hour, effective upon system implementation of RTC, and the Protocols' capacity monitoring criteria use one hour. [e15][e16][e14] It was two hours before, and the general description of ECRS in Section 3 still says two consecutive hours. [e12][e1]
 - **Questions #6** (cites e3, e11): Generators, quick-start units, loads and ESRs can; ESRs provided 42% in 2025. [e3][e11]
 - **Link to ancillary-services** (cites e1): part-of Ancillary Services (AS): ECRS is an Ancillary Service; see that topic for plan, obligations and cost. [e1]
 - **Link to rrs** (cites e1): related RRS (Responsive Reserve Service): ECRS restores RRS after a deviation that significantly depletes it. [e1]
