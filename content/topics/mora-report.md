@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: cdr-report
     type: contrasts-with
-    note: The MORA is a monthly outlook that evaluates the risk of emergency conditions; see the cdr-report topic for the multi-year planning view. [e2]
+    note: The MORA is a monthly outlook that evaluates the risk of emergency conditions; see the cdr-report topic for the separate CDR report. [e2]
   - to: eea
     type: measures
     note: The MORA estimates hourly probabilities that ERCOT would need to declare an Energy Emergency Alert. [e2]
@@ -64,7 +64,7 @@ evidence:
   - id: e8
     source: ercot-mora-2027-01
     locator: "Background tab, Capacity Available for Operating Reserves"
-    quote: "CAFOR Formula: = Monthly Maximum Expected Resource Generation Capability – Demand – Thermal Outages"
+    quote: "CAFOR Formula: = Monthly Maximum Expected Resource Generation Capability – Demand – Thermal Outages + Pre-EEA Resources if CAFOR < 3,000 MW + EEA Resources if CAFOR < 2,500 MW"
   - id: e10
     source: ercot-mora-2027-01
     locator: "Risk Outlook Highlights, January 2027"
@@ -77,13 +77,13 @@ The MORA, or Monthly Outlook for Resource Adequacy, is an ERCOT report that eval
 
 ## How it works
 
-ERCOT targets MORA releases for the first Friday of each month, and each MORA is released two months before its reporting month. [e1] The probabilistic side gives the chances, across a range of hours, that ERCOT may need to issue an Energy Emergency Alert or begin controlled outages. [e2] ERCOT runs its Probabilistic Reserve Risk Model, a Monte Carlo model, to generate 10,000 outcomes for Capacity Available for Operating Reserves (CAFOR). [e6]
+ERCOT targets MORA releases for the first Friday of each month (or the next business day if the Friday is a holiday), and each MORA is released two months before its reporting month. [e1] The probabilistic side gives the chances, across a range of hours, that ERCOT may need to issue an Energy Emergency Alert or begin controlled outages. [e2] ERCOT runs its Probabilistic Reserve Risk Model, a Monte Carlo model, to generate 10,000 outcomes for Capacity Available for Operating Reserves (CAFOR). [e6]
 
-CAFOR is the monthly maximum expected resource generation capability less demand and thermal outages. [e8] The MORA reads CAFOR against thresholds of 2,500 MW (EEA risk) and 1,500 MW (controlled outage risk), which are proxies for the 2,500 and 1,500 MW Physical Responsive Capability thresholds. [e5] For the deterministic scenario, the report states its monthly capacity reserve margin and gives the formula ((Total Resources / (Peak Demand - Emergency Resources)) - 1) * 100. [e7]
+The CAFOR formula is the monthly maximum expected resource generation capability, minus demand, minus thermal outages, plus Pre-EEA Resources if CAFOR is below 3,000 MW, plus EEA Resources if CAFOR is below 2,500 MW. [e8] The MORA reads CAFOR against thresholds of 2,500 MW (EEA risk) and 1,500 MW (controlled outage risk), which are proxies for the 2,500 and 1,500 MW Physical Responsive Capability thresholds. [e5] For the deterministic scenario, the report states its monthly capacity reserve margin and gives the formula ((Total Resources / (Peak Demand - Emergency Resources)) - 1) * 100. [e7]
 
 ## ERCOT context
 
-In the January 2027 MORA, the hour with the highest EEA risk is HE 8:00 a.m. CST, at a 3.20% probability that ERCOT would need to declare an EEA. [e4] That report also incorporates a new battery energy storage system sub-model integrated into the PRRM. [e10] For the multi-year seasonal view, see the CDR topic.
+In the January 2027 MORA, the hour with the highest EEA risk is HE 8:00 a.m. CST, at a 3.20% probability that ERCOT would need to declare an EEA. [e4] That report also incorporates a new battery energy storage system sub-model integrated into the PRRM. [e10] See the CDR topic for ERCOT's separate CDR report.
 
 ## Key facts
 

@@ -74,7 +74,7 @@ evidence:
   - id: e12
     source: pura-39
     locator: "PURA Sec. 39.105(b)"
-    quote: "A person or retail electric utility may not provide, furnish, or make available electric service at retail within the certificated service area of an electric cooperative that has not adopted customer choice or a municipally owned utility that has not adopted customer choice."
+    quote: "A person or retail electric utility may not provide, furnish, or make available electric service at retail within the certificated service area of an electric cooperative that has not adopted customer choice or a municipally owned utility that has not adopted customer choice. However, this subsection does not prohibit the provision of electric service in multiply certificated service areas to customers of any other retail electric utility."
   - id: e13
     source: np-16
     locator: "Section 16.2.3(1)(c)"
@@ -99,7 +99,7 @@ A NOIE is an Electric Cooperative (EC) or Municipally Owned Utility (MOU) that d
 
 ## How it works
 
-Customer choice applies to every Texas retail customer except customers of cooperatives and municipally owned utilities that have not opted for it. [e5] PURA also bars anyone else from providing retail electric service in the certificated area of a co-op or muni that has not adopted customer choice. [e12] An MOU or EC that does offer Customer Choice and sells at retail is a Competitive Retailer. [e3]
+Customer choice applies to every Texas retail customer except customers of cooperatives and municipally owned utilities that have not opted for it. [e5] PURA also bars a person or retail electric utility from providing retail electric service in the certificated area of a co-op or muni that has not adopted customer choice, but this does not prohibit service in multiply certificated service areas to customers of any other retail electric utility. [e12] An MOU or EC that does offer Customer Choice and sells at retail is a Competitive Retailer. [e3]
 
 Each MOU and EC must register with ERCOT and sign the agreements for the functions it performs, whether it plans to be a NOIE or a Competitive Retailer. [e6] If it registers an affiliate as a CR, it must tell ERCOT six months before opting in. [e7]
 
@@ -119,7 +119,7 @@ The Protocols carry NOIE-specific features. A NOIE or group of NOIEs can establi
 
 ## Say it like this
 
-(Guidance) A NOIE is a municipal utility or co-op that has not opened its territory to retail competition, so it serves its own load rather than competing against REPs. In ERCOT it still registers, needs a QSE and settles as a load serving entity.
+(Guidance) A NOIE is a municipal utility or co-op that has not opened its territory to retail competition, so it serves its own load rather than competing against REPs. In ERCOT it still registers with ERCOT, registers as an LSE if it serves Load, and each LSE applicant designates a QSE.
 
 ## Common confusion
 
@@ -133,7 +133,7 @@ A NOIE is an EC or MOU that does not offer Customer Choice; a Competitive Retail
 
 ### How does a muni or co-op move from NOIE to competitive?
 
-Per the Protocols, it registers an affiliate as a CR and must notify ERCOT six months before opting in. [e7]
+The Protocols say that an MOU or EC that decides to register an affiliate as a CR must notify ERCOT six months before opting in. [e7] The saved sources do not lay out the full process.
 
 ### Do NOIEs get anything different in the CRR market?
 

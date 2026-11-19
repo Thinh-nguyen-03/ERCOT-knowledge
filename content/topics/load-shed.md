@@ -10,10 +10,10 @@ as_of: 2026-11-18
 links:
   - to: eea
     type: part-of
-    note: Firm load shed is an EEA Level 3 step; see that topic for the levels and triggers. [e1]
+    note: Directing firm load shed is one of the measures ERCOT may take at EEA Level 3; see that topic for the levels and triggers. [e1]
   - to: prc
     type: related
-    note: Level 3 load shed aims to recover 1,500 MW of PRC within 30 minutes. [e1]
+    note: The firm load shed direction at Level 3 aims to recover 1,500 MW of PRC within 30 minutes. [e1]
   - to: tdsp
     type: related
     note: Transmission and distribution service providers implement the outages ERCOT orders. [e2]
@@ -83,6 +83,10 @@ evidence:
     source: imm-som-2025
     locator: "Chapter I, all-in price discussion (p. 2)"
     quote: "The Operating Reserve Demand Curve (ORDC) Adder, implemented in 2014 and discontinued in December 2025 with the introduction of RTC, reflects increasing reliability risks when reserves begin to run short; and"
+  - id: e16
+    source: np-06
+    locator: "Section 6.5.9.4.2, EEA Levels, paragraph (3), lead-in"
+    quote: "Upon declaration of an EEA Level 3, ERCOT shall take any of the following measures as necessary to recover frequency or PRC to the minimum required levels:"
   - id: e13
     source: ferc-nerc-uri
     locator: "Executive Summary, The February 2021 Cold Weather Outages in Texas and the South Central United States"
@@ -95,19 +99,19 @@ Controlled outages, also called load shed, are electric service interruptions or
 
 ## How it works
 
-Load shed is a last resort used to bring operating reserves back to a safe level and hold frequency. [e2] In the Protocols it is an EEA Level 3 step: ERCOT directs all transmission owners to shed firm load in 100 MW blocks, to hold steady-state frequency at a minimum of 59.91 Hz and recover 1,500 MW of PRC within 30 minutes. [e1]
+Load shed is a last resort used to bring operating reserves back to a safe level and hold frequency. [e2] In the Protocols, upon declaring an EEA Level 3 ERCOT shall take any of a list of measures as necessary to recover frequency or PRC. [e16] One of them is to direct all transmission owners to shed firm load in 100 MW blocks, to hold steady-state frequency at a minimum of 59.91 Hz and recover 1,500 MW of PRC within 30 minutes. [e1]
 
-ERCOT gives each utility a megawatt reduction amount based on its share of historic peak demand; each utility decides how to meet it and manages the outage locally, and ERCOT has no oversight of those plans. [e3] Transmission owners may use load on under-frequency or under-voltage relays for manual shed during Level 3 only if they keep meeting their automatic UFLS obligation. [e4] ERCOT can also instruct TSPs or DSPs to drop load when an Emergency Condition comes from a transmission problem, and must post an operations message within one day with the event's date, times, MW and location. [e5][e6]
+ERCOT gives each utility a megawatt reduction amount based on its share of historic peak demand; each utility decides how to meet it and manages the outage locally, and ERCOT has no oversight of those plans. [e3] Transmission owners and TDSPs may manually shed load connected to under-frequency or under-voltage relays under an ERCOT Level 3 directive so long as the TO has determined system conditions warrant it and each affected TO keeps complying with its UFLS and load shed obligations. [e4] ERCOT can also instruct TSPs or DSPs to drop load when an Emergency Condition comes from a transmission problem, and must post an operations message within one day with the event's date, times, MW and location. [e5][e6]
 
 ## ERCOT context
 
-ERCOT's overview lists four controlled-outage events: 500 MW in 1989, 1,000 MW in 2006, 4,000 MW in 2011 and 20,000 MW in February 2021. [e11] In February 2021 ERCOT ordered its first 1,000 MW of load shed at 1:20 a.m. and ended up shedding 20,000 MW at the worst point. [e12][e7]
+ERCOT's overview lists four controlled-outage events: 500 MW in 1989, 1,000 MW in 2006, 4,000 MW in 2011 and 20,000 MW in February 2021. [e11] In the early hours of 15 February 2021 ERCOT ordered its first 1,000 MW of load shed at 1:20 a.m. and ended up shedding 20,000 MW at the worst point. [e12][e7]
 
 The FERC and NERC report found that the size and duration of the shed made rotation hard and pushed operators into circuits normally reserved for automatic under-frequency load shed. In ERCOT at least 25 percent of load is reserved for automatic shed, not counting critical loads such as hospitals. [e9][e10]
 
 ## Key facts
 
-- Firm load shed is directed in 100 MW blocks at EEA Level 3. [e1]
+- Directing firm load shed in 100 MW blocks is one of the measures ERCOT may take at EEA Level 3. [e16][e1]
 - ERCOT sets each utility's required MW reduction by its share of historic peak demand; utilities choose how to do it. [e3]
 - ERCOT must post within one day an operations message on any load curtailment due to a transmission problem. [e6]
 - Peak controlled outage in February 2021: 20,000 MW, the largest of four events listed by ERCOT. [e11][e7]
@@ -115,11 +119,11 @@ The FERC and NERC report found that the size and duration of the shed made rotat
 
 ## Say it like this
 
-Load shed is ERCOT's last-resort tool: when reserves run too low it orders utilities to cut a set number of megawatts, and the utilities decide whose power to turn off. It is the Level 3 step of the emergency alert ladder, not the first thing ERCOT reaches for. [e1][e2][e3]
+Load shed is ERCOT's last-resort tool: when reserves run too low it orders utilities to cut a set number of megawatts, and the utilities decide whose power to turn off. Firm load shed is among the EEA Level 3 measures, and ERCOT's overview calls controlled outages a last resort. [e16][e1][e2][e3]
 
 ## Common confusion
 
-Load shed is not the same as an EEA: EEA Levels 1 and 2 use supply and demand-side tools, and firm load shed begins at Level 3. [e1] "Controlled outages", "rotating outages" and "load shed" are used for the same thing in these sources. [e2][e8]
+Load shed is not the same as an EEA: the Protocols list directing TOs to shed firm Load among the measures ERCOT may take upon declaring EEA Level 3. [e16][e1] "Controlled outages", "rotating outages" and "load shed" are used for the same thing in these sources. [e2][e8]
 
 ## Questions
 
@@ -139,7 +143,7 @@ ERCOT shed 20,000 MW at the worst point; the FERC and NERC report puts the combi
 
 ### Frequency is falling and PRC cannot be held above 1,500 MW. What does ERCOT do?
 
-- At EEA Level 3 it directs all TOs to shed firm load in 100 MW blocks to hold 59.91 Hz and recover 1,500 MW of PRC within 30 minutes. [e1]
+- Upon declaring EEA Level 3, ERCOT may direct all TOs to shed firm load in 100 MW blocks to hold 59.91 Hz and recover 1,500 MW of PRC within 30 minutes. [e16][e1]
 - Utilities carry out the shed using their local plans, using under-frequency relay load only within their UFLS obligations. [e3][e4]
 
 ## Open items

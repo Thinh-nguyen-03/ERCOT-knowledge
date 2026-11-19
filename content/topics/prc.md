@@ -16,7 +16,7 @@ links:
     note: A Watch can be issued for PRC below 3,000 MW. [e6]
   - to: ordc
     type: related
-    note: See the ORDC topic for how reserve levels were turned into price adders before RTC retired the ORDC adder.
+    note: See the ORDC topic for how reserve levels were turned into price adders before the ORDC adder was replaced by a set of ASDCs. [e12]
   - to: rrs
     type: related
     note: Section 3.16 sets a minimum capacity for RRS provided using Primary Frequency Response. [e8]
@@ -71,6 +71,10 @@ evidence:
     source: imm-som-2025
     locator: "Chapter III.D, AS Methodology, bullet on one-in-ten standard"
     quote: "Setting operating reserve targets to meet a one-in-ten standard for the probability of entering a “Watch,” defined as reserves dropping below 3,000 MW, rather than for the probability of firm load shed, defined as reserves dropping below 1,500 MW."
+  - id: e12
+    source: imm-som-2025
+    locator: "Appendix, G. RDPA (p. A-10)"
+    quote: "The ORDC price adder, which reflected the value of reserves under shortage conditions, was replaced by a set of ASDCs."
 ---
 
 ## Definition
@@ -97,11 +101,11 @@ PRC is the measure the Protocols use to decide when conditions are an emergency:
 
 ## Say it like this
 
-PRC is ERCOT's live count of how much frequency-responsive capacity is actually on line to catch a drop in supply. The emergency steps, from a Watch at 3,000 MW to load shed around 1,500 MW, are keyed to that number. [e1][e6][e7]
+PRC is ERCOT's measure of the total frequency-responsive Resource capability on-line in Real-Time. [e1] The emergency steps, from a Watch at 3,000 MW to load shed around 1,500 MW, are keyed to that number. [e1][e6][e7]
 
 ## Common confusion
 
-PRC is not the same as total reserve capacity or ancillary service awards. It measures what is on line and frequency responsive, and reserve discount factors are applied in the calculation. [e1][e10]
+Do not read PRC as a plain count of total capacity. The Protocols define it as frequency responsive Resource capability on-line in Real-Time, and reserve discount factors are used in the calculation. [e1][e10]
 
 ## Questions
 

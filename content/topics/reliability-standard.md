@@ -22,7 +22,7 @@ links:
     note: The IMM says meeting the standard through price signals alone would imply an extraordinarily high VOLL in an energy-only market. [e10]
   - to: weatherization
     type: related
-    note: The assessment must state a weatherization effectiveness assumption tied to the weatherization standards in 25.55. [e8]
+    note: The rule defines weatherization effectiveness as an assumed percentage reduction in weather-related unplanned outages due to compliance with the weatherization standards in 25.55. [e8]
   - to: cdr-report
     type: contrasts-with
     note: The standard is a probability-based simulation test; how it relates to the CDR was not sourced. [e1]
@@ -96,7 +96,7 @@ The ERCOT reliability standard is set in PUCT rule 16 TAC 25.508. The ERCOT bulk
 
 The frequency criterion is no more than one loss of load event per ten years on average, i.e., 0.1 loss of load expectation (LOLE). [e2] The duration criterion is that the maximum expected length of an event must be under 12 hours, with a 1.00 percent exceedance tolerance. [e3] The magnitude criterion is that the expected highest level of load shed must be below the maximum load that can be safely rotated, as determined by ERCOT with PUCT staff and transmission operators, again with a 1.00 percent exceedance tolerance. [e4] A loss of load event is when firm load plus the minimum operating reserves needed to avoid EEA Level 3 exceeds available capacity, resulting in involuntary load shed. [e5]
 
-Starting January 1, 2026, ERCOT must assess whether the system meets the standard and is likely to keep meeting it for the following three years, at least once every three years. [e6] If deficiencies are identified, ERCOT must give the PUCT a summary of deficiencies and a menu of proposed market design changes with a primary recommendation. [e7] The model assumptions include a weatherization effectiveness, the assumed percentage reduction in weather-related unplanned outages from complying with 25.55. [e8]
+Starting January 1, 2026, ERCOT must assess whether the system meets the standard and is likely to keep meeting it for the following three years, at least once every three years. [e6] If deficiencies are identified, ERCOT must give the PUCT a summary of deficiencies and a menu of proposed market design changes with a primary recommendation. [e7] The rule defines weatherization effectiveness, a model input, as the assumed percentage reduction in weather-related unplanned outages from complying with 25.55. [e8]
 
 ## ERCOT context
 

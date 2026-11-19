@@ -108,7 +108,7 @@ The report calls SB 6 the most impactful resource adequacy development since the
 
 ## Common confusion
 
-(Guidance) The CDR is not the MORA. The CDR gives forecast margins by season and year for at least five years, and the MORA evaluates resource adequacy for one upcoming month and the risk of emergency conditions. [e2][e4][e11] The CDR margin is also not an operating reserve measure; it is a planning margin against firm electricity demand. [e4][e5]
+(Guidance) The CDR is not the MORA. The CDR gives forecast margins by season and year for at least five years, and the MORA evaluates resource adequacy for one upcoming month and the risk of emergency conditions. [e2][e4][e11] The CDR margin is a planning margin against firm electricity demand, and ERCOT notes the CDR is not intended for characterizing real-time capacity scarcity risk. [e4][e5]
 
 ## Questions
 

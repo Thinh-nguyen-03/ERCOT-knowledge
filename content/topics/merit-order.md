@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: energy-offer-curve
     type: composed-of
-    note: The aggregated offer stack is built from each generator's energy offer curve, which the real-time dispatch optimizes against. [e1][e6]
+    note: The IMM's aggregated offer stack averages the capacity offered at selected price levels, and the real-time dispatch optimizes based on each generator's energy offer curve. [e1][e6]
   - to: sced
     type: used-in
     note: SCED dispatches against offer curves and produces LMPs, Base Points and Ancillary Service awards. [e5][e6]
@@ -25,7 +25,7 @@ links:
     note: The IMM says the capacity offered at or below $0 is primarily associated with wind and solar resources. [e4]
   - to: net-load
     type: related
-    note: The IMM shows the stack for the annual average, the peak load hour and the peak net load hour. [e1]
+    note: The IMM's 2023 report shows the stack for the annual average, the peak load hour and the peak net load hour. [e1]
   - to: offer-cap
     type: related
     note: In the 2024 IMM report's description of the then-current design, proxy offers for incomplete curves were set at the system-wide offer cap for non-IRRs. [e8]
@@ -66,6 +66,10 @@ evidence:
     source: imm-som-2025
     locator: "Review of Real-Time Market Outcomes, E. Aggregated Offer Curves, fourth bullet"
     quote: "Roughly 15% of capacity was offered above this level in 2025, compared to 19% in 2024. The $75 level corresponds to the energy offer floor for capacity providing online Non-Spin Reserve Service (NSRS), which averaged approximately 1,000 MW throughout 2025."
+  - id: e11
+    source: imm-som-2025
+    locator: "Review of Real-Time Market Outcomes, shortage and reliability pricing (ORDC adder paragraph)"
+    quote: "In ERCOT’s market design before RTC went live on December 5, 2025,"
   - id: e10
     source: np-04
     locator: "Section 4.4.11, parameter table (Parameter / Unit / Current Value)"
@@ -74,7 +78,7 @@ evidence:
 
 ## Definition
 
-The sources do not use the term "merit order" or "supply stack." What they do describe is the aggregated offer stack: the IMM assembles it by averaging the amount of capacity offered at selected price levels, and shows it for all hours of the year, the peak load hour and the peak net load hour. [e1] This topic uses that offer stack as ERCOT's version of the merit order: capacity ranked by offer price.
+The sources do not use the term "merit order" or "supply stack." What they do describe is the aggregated offer stack: the IMM (in its 2023 report) assembles it by averaging the amount of capacity offered at selected price levels, and shows it for all hours of the year, the peak load hour and the peak net load hour. [e1] This topic uses that offer stack as ERCOT's version of the merit order: capacity ranked by offer price.
 
 ## How it works
 
@@ -86,19 +90,19 @@ The IMM's 2025 breakdown shows the shape of the stack. 22% of real-time generati
 
 The IMM says the capacity offered at or below $0 is primarily wind and solar, and that the zero-to-10-times-FIP range is the incremental fuel price for the vast majority of the fleet. [e4][e3] In the evening ramp, when solar production ramps down, SCED often dispatches quick-start gas or ESRs with high-priced offer curves, which produces predictable price spikes. [e7]
 
-Offer curve rules also shape the stack. The 2024 IMM report notes that under the then-current design an incomplete curve is replaced by a proxy offer, $1,500 for IRRs and the system-wide offer cap for non-IRRs, creating steep, non-competitive offer curves. [e8] That report predates real-time co-optimization (5 December 2025), and the Protocol parameter table now lists a day-ahead cap (DASWCAP) of $5,000 per MWh and a real-time cap (RTSWCAP) of $2,000 per MWh (see offer-cap). [e10]
+Offer curve rules also shape the stack. The 2024 IMM report notes that under the then-current design an incomplete curve is replaced by a proxy offer, $1,500 for IRRs and the system-wide offer cap for non-IRRs, creating steep, non-competitive offer curves. [e8] That report predates real-time co-optimization, which went live on 5 December 2025 per the 2025 IMM report, [e11] and the Protocol parameter table now lists a day-ahead cap (DASWCAP) of $5,000 per MWh and a real-time cap (RTSWCAP) of $2,000 per MWh (see offer-cap). [e10]
 
 ## Key facts
 
 - 2025: 22% of capacity not dispatchable (below LSL), 35% offered at or below $0, 28% between $0 and 10 times daily gas, about 15% above "this level" (unclear reference, see Open items) (IMM). [e2][e4][e3][e9]
 - 2024 comparison: 27% below LSL, 32% at or below $0, 23% in the fuel-price band, 19% above. [e2][e4][e3][e9]
-- The IMM shows the stack for the annual average, the peak load hour and the peak net load hour. [e1]
+- The IMM's 2023 report shows the stack for the annual average, the peak load hour and the peak net load hour. [e1]
 - The 10x daily gas price band is described as the incremental fuel price for the vast majority of the fleet. [e3]
-- Proxy offers: $1,500 for IRRs and the system-wide offer cap for non-IRRs. [e8]
+- Proxy offers for incomplete energy offer curves, as described in the 2024 IMM report for the design before RTC: $1,500 for IRRs and the system-wide offer cap for non-IRRs. [e8]
 
 ## Say it like this
 
-(Guidance) ERCOT does not run a merit-order dispatch in name, but its offer stack works the same way: wind and solar at the bottom, thermal priced off gas in the middle, and a high-priced tail of quick-start gas and batteries at the top. What sets price at the net peak is how much of that tail is needed.
+(Guidance) The IMM describes ERCOT's offer stack by price band: offers at or below $0 are mostly wind and solar, the zero-to-10-times-gas-price band is the incremental fuel price for most of the fleet, and in the evening ramp SCED often dispatches quick-start gas and batteries with high-priced offers. [e4][e3][e7]
 
 ## Common confusion
 

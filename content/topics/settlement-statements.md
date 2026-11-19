@@ -45,11 +45,11 @@ evidence:
   - id: e4
     source: np-09
     locator: "Section 9.5.4, RTM Initial Statement"
-    quote: "ERCOT shall issue an RTM Initial Statement for each Statement Recipient for a given Operating Day on the fifth day after the Operating Day, unless that fifth day is not a Business Day. If the fifth day is not a Business Day, then ERCOT shall issue the RTM Initial Statement on the next Business Day after the fifth day."
+    quote: "ERCOT shall issue an RTM Initial Statement for each Statement Recipient for a given Operating Day on the fifth day after the Operating Day, unless that fifth day is not a Business Day. If the fifth day is not a Business Day, then ERCOT shall issue the RTM Initial Statement on the next Business Day after the fifth day. Notwithstanding the above, if the fifth day after the Operating Day is on or prior to the Business Day on which Real-Time prices are final pursuant to paragraph (7) of Section 6.3, Adjustment Period and Real-Time Operations Timeline, then ERCOT shall issue the RTM Initial Statement on the first Business Day after the Real-Time prices are final."
   - id: e5
     source: np-09
     locator: "Section 9.5.5, RTM Final Statement"
-    quote: "ERCOT shall issue an RTM Final Statement for each Statement Recipient for a given Operating Day on the 55th day after the Operating Day, unless that 55th day is not a Business Day."
+    quote: "ERCOT shall issue an RTM Final Statement for each Statement Recipient for a given Operating Day on the 55th day after the Operating Day, unless that 55th day is not a Business Day. If the 55th day is not a Business Day, then ERCOT shall issue the RTM Final Statement on the first Business Day after the 55th day."
   - id: e6
     source: np-09
     locator: "Section 9.5.8, RTM True-Up Statement, paragraph (2)"
@@ -96,7 +96,7 @@ A Settlement Statement is the statement ERCOT issues showing a breakdown of admi
 
 ERCOT posts a Settlement Calendar on its website showing, for each Operating Day, when each scheduled DAM and RTM statement will be issued. [e14] Statements are posted to the MIS Certified Area. [e10]
 
-The DAM gets a DAM Statement on the second Business Day after the Operating Day. [e3] The RTM gets a series of statements for each Operating Day: an Initial Statement on the fifth day after the Operating Day (next Business Day if that is not one), a Final Statement on the 55th day, and a True-Up Statement 180 days after the Operating Day if the IDR Meter Data Threshold is met. [e4][e5][e6] If the threshold is not met the True-Up comes when the data is available, and one is issued no later than 365 days after the Operating Day. [e7]
+The DAM gets a DAM Statement on the second Business Day after the Operating Day. [e3] The RTM gets a series of statements for each Operating Day: an Initial Statement on the fifth day after the Operating Day (next Business Day if that is not one, or the first Business Day after Real-Time prices are final if the fifth day falls on or before that date), a Final Statement on the 55th day (first Business Day after if that is not one), and a True-Up Statement 180 days after the Operating Day if the IDR Meter Data Threshold is met. [e4][e5][e6] If the threshold is not met the True-Up comes when the data is available, and one is issued no later than 365 days after the Operating Day. [e7]
 
 Resettlement statements correct earlier ones. A resettlement for non-price errors is triggered when the error exceeds 4% of the RTM Statement amount and $400 (2% and $200 for the DAM), and is found and noticed within a year of the Operating Day. [e8][e9]
 
@@ -109,7 +109,7 @@ The RTM True-Up is tied to ERCOT receiving and validating usage data from a thre
 ## Key facts
 
 - DAM Statement: second Business Day after the Operating Day. [e3]
-- RTM Initial Statement: fifth day after the Operating Day, moved to the next Business Day if needed. [e4]
+- RTM Initial Statement: fifth day after the Operating Day, moved to the next Business Day if needed, or to the first Business Day after Real-Time prices are final if that is later. [e4]
 - RTM Final Statement: 55th day after the Operating Day. [e5]
 - RTM True-Up: 180 days after the Operating Day if the IDR Meter Data Threshold is met; no later than 365 days. [e6][e7]
 - RTM resettlement threshold: 4% and $400; DAM: 2% and $200. [e8][e9]

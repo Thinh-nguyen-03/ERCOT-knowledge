@@ -92,16 +92,16 @@ Credit is tied directly to market access. Suspension of rights can include a CRR
 - Counter-Parties must maintain Financial Security at or above TPE at all times. [e2]
 - TPE = TPEA + TPES. [e3]
 - ERCOT recalculates TPEA and TPES daily. [e4]
-- A warning goes out at 90% of the requirement. [e6]
+- When TPEA or TPES reaches 90% of its requirement, ERCOT uses reasonable efforts to issue a warning. [e6]
 - ERCOT may suspend a Counter-Party's rights if it falls short, and the Protocols name DAM bidding and CRR bidding as examples of what suspension can include. [e7][e11]
 
 ## Say it like this
 
-(Guidance) ERCOT sizes each QSE's or CRR holder's likely unpaid obligations as TPE and requires collateral against it every day. Fall short and ERCOT can cut off DAM and CRR participation.
+(Guidance) ERCOT measures each Counter-Party's exposure as TPE, recalculates TPEA and TPES daily, and requires Financial Security at or above it. Fall short and ERCOT may suspend the Counter-Party's rights, which can include DAM and CRR bidding.
 
 ## Common confusion
 
-TPE is not a single collateral amount held by ERCOT; it is an exposure measure, and the collateral requirement is split between Financial Security (against TPES and CRR items) and Remainder Collateral (against TPEA). [e3][e5] "Counter-Party" is the entity level, not each individual QSE registration. [e1]
+TPE is the sum of TPEA and TPES [e3]; Section 16.11.1 states the requirement as Financial Security at or above TPE, and Section 16.11.5 spells out the requirement as Financial Security (against TPES and CRR items) and Remainder Collateral (against TPEA). [e2][e5] "Counter-Party" is the entity level, not each individual QSE registration. [e1]
 
 ## Questions
 

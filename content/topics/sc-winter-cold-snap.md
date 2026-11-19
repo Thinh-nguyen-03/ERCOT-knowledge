@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: winter-storm-uri
     type: related
-    note: February 2021 is the reference case, when 75% of unit outages, derates and failures to start came from freezing or fuel issues. [e1]
+    note: February 2021 is the reference case, when 75% of unit outages, derates and failures to start across the ERCOT, SPP and MISO South event area came from freezing or fuel issues. [e1][e27]
   - to: winter-storm-jan-2026
     type: related
     note: Winter Storm Fern in January 2026 passed with no EEA and no systemwide outages, and the load forecast overestimated expected peak consumption on January 26 and 27. [e14][e17]
@@ -140,11 +140,15 @@ evidence:
     source: ercot-fern-post-event
     locator: "Report title, p. 1"
     quote: "Winter Storm Fern – January 2026"
+  - id: e27
+    source: ferc-nerc-uri
+    locator: "Executive Summary, footnote 17"
+    quote: "See Figure 1 below for map of the Event Area: ERCOT, SPP and MISO South."
 ---
 
 ## Definition
 
-This scenario asks what drives ERCOT's risk when a cold snap is forecast a week out. The reference case is February 2021, when 75% of the outages, derates and failures to start in the event area were caused by freezing or fuel issues. [e1]
+This scenario asks what drives ERCOT's risk when a cold snap is forecast a week out. The reference case is February 2021, when 75% of the outages, derates and failures to start in the FERC-NERC report's event area (ERCOT, SPP and MISO South together, not ERCOT alone) were caused by freezing or fuel issues. [e1][e27]
 
 ## How it works
 
@@ -156,11 +160,11 @@ Step 3, watch ERCOT's notices. OCNs can be issued for weather concerns such as a
 
 Step 4, know the emergency steps. ERCOT declares EEA Level 1 when PRC falls below 2,500 MW and is not projected to recover within 30 minutes. [e12] In February 2021 ERCOT had ordered 20,000 MW of manual firm load shed by 7:00 p.m. on February 15 and held it for nearly three days. [e3]
 
-Step 5, use the recent storms as calibration. During Winter Storm Fern (January 23-27, 2026) ERCOT issued a Weather Watch on January 21, issued no EEA and had no systemwide outages. [e26][e13][e15][e14] Gas restrictions still appeared in North Texas, FFSS kept 340 MW of gas-restricted units running, and about 13.5 GW of wind nameplate was unavailable due to icing. [e18][e19][e23] The Fern load forecast peak was 84,500 MW (assuming no demand response), and the forecast overestimated expected peak consumption on January 26 and 27, while in Elliott (December 2022) ERCOT's internally developed load forecasts were too low for the 23rd and 24th. [e16][e17][e25]
+Step 5, use the recent storms as calibration. During Winter Storm Fern (January 23-27, 2026) ERCOT issued a Weather Watch on January 21, issued no EEA and had no systemwide outages. [e26][e13][e15][e14] Gas restrictions still appeared in North Texas, FFSS kept 340 MW of gas-restricted units running, and about 13.5 GW of wind nameplate was unavailable due to icing. [e18][e19][e23] The Fern load forecast peak was 84,500 MW (assuming no demand response), and the forecast overestimated expected peak consumption on January 26 and 27, while in Elliott (December 2022) ERCOT's internally developed load forecasts were too low for the 23rd and 24th. [e16][e17][e22][e25]
 
 ## Key facts
 
-- February 2021: 75% of outages, derates and failures to start were from freezing (44.2%) or fuel (31.4%) issues. [e1]
+- February 2021, across the ERCOT, SPP and MISO South event area: 75% of outages, derates and failures to start were from freezing (44.2%) or fuel (31.4%) issues. [e1][e27]
 - February 2021: 20,000 MW of manual firm load shed ordered by 7:00 p.m. on February 15. [e3]
 - Winter preparation deadline: December 1 each year. [e5]
 - FFSS obligation period: November 15 to March 15; budget up to $54 million per period. [e6][e8]
@@ -173,7 +177,7 @@ Step 5, use the recent storms as calibration. During Winter Storm Fern (January 
 
 ## Common confusion
 
-(Guidance) The risk is not just high demand. In February 2021 the main cause of outages was freezing and fuel problems on the supply side. [e1] Another mistake is treating the load forecast as fixed: the Fern forecast overestimated peak consumption on January 26-27 and Elliott's internal forecasts were too low on December 23-24. [e17][e25] Finally, the ERCOT "Weather Watch" sent to the public and the protocol Watch that triggers FFSS preparation should be checked against the actual notice text rather than assumed to be the same thing.
+(Guidance) The risk is not just high demand. In February 2021 the main cause of outages across the ERCOT, SPP and MISO South event area was freezing and fuel problems on the supply side. [e1][e27] Another mistake is treating the load forecast as fixed: the Fern forecast overestimated peak consumption on January 26-27 and Elliott's internal forecasts were too low on December 23-24. [e17][e25] Finally, the ERCOT "Weather Watch" sent to the public and the protocol Watch that triggers FFSS preparation should be checked against the actual notice text rather than assumed to be the same thing.
 
 ## Questions
 
@@ -195,7 +199,7 @@ Fern passed with no conservation call, no EEA and no systemwide outages, though 
 
 - (Reasoning) Frame it as supply risk first, demand second, and price third.
 - Gas supply is the first risk: in 2021 gas production, storage and distribution failed to deliver full fuel to gas plants. [e2]
-- Unit freezing and fuel together caused 75% of 2021 outages, derates and failures to start. [e1]
+- Unit freezing and fuel together caused 75% of 2021 outages, derates and failures to start across the ERCOT, SPP and MISO South event area. [e1][e27]
 - Check readiness: winter preparation was due December 1, and FFSS is procured for the November 15 to March 15 period. [e5][e6]
 - Watch ERCOT's notices (OCN, Advisory, Watch and Emergency Notice); a winter weather Watch triggers FFSS preparation and cold-weather notices require COP updates for fuel limits. [e9][e10]
 - Watch reserves against the EEA trigger: EEA Level 1 comes when PRC falls below 2,500 MW and is not projected to recover within 30 minutes. [e12]

@@ -16,10 +16,10 @@ links:
     note: ERCOT posts shift factors alongside the binding constraints they apply to. [e3]
   - to: congestion
     type: related
-    note: ERCOT posts shift factors by Resource Node, Hub, Load Zone and DC Tie. [e3]
+    note: ERCOT posts shift factors by Resource Node, Hub, Load Zone and DC Tie on the MIS Secure Area. [e3]
   - to: load-zone
     type: used-in
-    note: Load Zone prices are built from Load-weighted aggregated shift factors of the buses in the zone. [e2]
+    note: For DAM and CRR Settlement purposes, Load Zone prices are built from Load-weighted aggregated shift factors of the zone's power flow buses. [e2]
   - to: trading-hub
     type: used-in
     note: The North 345 kV Hub Price uses the aggregated shift factors of the Hub Buses. [e4]
@@ -34,7 +34,7 @@ evidence:
   - id: e2
     source: np-03
     locator: "Section 3.4, Load Zones, paragraph (1)"
-    quote: "ERCOT shall calculate a Settlement Point Price for each Load Zone using the Load-weighted aggregated Shift Factors of the applicable energized power flow buses for each constraint. The Load-weighting must be determined using the Load distribution factors."
+    quote: "ERCOT shall assign every power flow bus to a Load Zone for Day-Ahead Market (DAM) and Congestion Revenue Right (CRR) Settlement purposes. ERCOT shall calculate a Settlement Point Price for each Load Zone using the Load-weighted aggregated Shift Factors of the applicable energized power flow buses for each constraint. The Load-weighting must be determined using the Load distribution factors."
   - id: e3
     source: np-06
     locator: "Section 6.5.7.1.13, hourly MIS Secure Area postings, paragraph (3)(b)-(c)"
@@ -63,18 +63,18 @@ A shift factor measures the flow on a particular Transmission Element caused by 
 
 ## How it works
 
-Shift factors apply to each constraint at the bus level. Load Zone prices are built from those bus-level values: ERCOT calculates a Load Zone Settlement Point Price from the Load-weighted aggregated shift factors of the zone's power flow buses for each constraint, with the Load distribution factors supplying the weights. [e2] The North 345 kV Hub Price likewise uses the aggregated shift factors of the Hub Buses for each hour of the DAM. [e4]
+Shift factors apply to each constraint at the bus level. Load Zone prices for DAM and CRR Settlement purposes are built from those bus-level values: ERCOT calculates a Load Zone Settlement Point Price from the Load-weighted aggregated shift factors of the zone's power flow buses for each constraint, with the Load distribution factors supplying the weights. [e2] The North 345 kV Hub Price likewise uses the aggregated shift factors of the Hub Buses for each hour of the DAM. [e4]
 
-ERCOT publishes the inputs. Every hour it posts the binding transmission constraints with the contingency and overloaded element pairs behind them, and the shift factors by Resource Node, Hub, Load Zone and DC Tie. [e3]
+ERCOT posts the inputs. Every hour it posts the binding transmission constraints with the contingency and overloaded element pairs behind them, and the shift factors by Resource Node, Hub, Load Zone and DC Tie. [e3]
 
 ## ERCOT context
 
-Shift factors also enter the competitiveness screen for constraints. A constraint can only be classed as competitive in the SCED test if, among other conditions, buses with available Resource capacity have shift factors whose absolute value is at least the SFP3 threshold, which is set at 2%. [e5][e6] The current text requires negative shift factors at those buses; a pending revision (NPRR1182) would rewrite it to cover shift factors that can help resolve the constraint by raising injection or cutting withdrawal. [e7]
+Shift factors also enter the competitiveness screen for constraints. A constraint can only be classed as competitive in the SCED test if, among other conditions, buses with available Resource capacity have negative shift factors whose absolute value is at least the SFP3 threshold, which is set at 2%. [e5][e6] Those are the current text's terms; a pending revision (NPRR1182) would rewrite it to cover shift factors that can help resolve the constraint by raising injection or cutting withdrawal. [e7]
 
 ## Key facts
 
 - A shift factor is defined per Transmission Element, from a bus to a fixed reference bus. [e1]
-- Load Zone prices use Load-weighted aggregated shift factors for each constraint. [e2]
+- For DAM and CRR Settlement purposes, Load Zone prices use Load-weighted aggregated shift factors for each constraint. [e2]
 - ERCOT posts shift factors hourly by Resource Node, Hub, Load Zone and DC Tie. [e3]
 - The minimum shift factor threshold for the SCED competitiveness test is 2%. [e5]
 

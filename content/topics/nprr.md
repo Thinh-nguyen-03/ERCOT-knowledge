@@ -85,6 +85,10 @@ evidence:
     source: np-21
     locator: "Section 21.4.10(1), ERCOT Board Vote"
     quote: "Upon issuance of a TAC Report and Impact Analysis to the ERCOT Board, the ERCOT Board shall review the TAC Report and the Impact Analysis at the next regularly scheduled meeting."
+  - id: e15
+    source: np-21
+    locator: "Section 21.2(1)(h), Submission"
+    quote: "and (h) Any other Entity that meets the following qualifications: (i) Resides (or represents residents) in Texas or operates in the Texas electricity market; and (ii) Demonstrates that Entity (or those it represents) is affected by the Customer Registration or Renewable Energy Credit (REC) Trading Program or Energy Attribute Certificate (EAC) Program sections of these Protocols."
 ---
 
 ## Definition
@@ -93,7 +97,7 @@ A Nodal Protocol Revision Request (NPRR) is a request to make additions, edits, 
 
 ## How it works
 
-Any Market Participant or ERCOT Member can file one, as can PUCT Staff, the Reliability Monitor, the NERC Regional Entity, the IMM and ERCOT itself. [e2] NPRRs are submitted electronically by completing the designated form on the ERCOT website, and ERCOT has five Business Days to tell the submitter if the NPRR is incomplete. [e11][e3] Once it is complete, comments are due within 14 days of posting, and the Protocol Revision Subcommittee then considers it. [e4]
+Any Market Participant or ERCOT Member can file one, as can PUCT Staff, the Reliability Monitor, the NERC Regional Entity, the IMM and ERCOT itself. [e2] Any other Entity that resides (or represents residents) in Texas or operates in the Texas electricity market, and is affected by the Customer Registration or REC/EAC program sections, can also file. [e15] NPRRs are submitted electronically by completing the designated form on the ERCOT website, and ERCOT has five Business Days to tell the submitter if the NPRR is incomplete. [e11][e3] Once it is complete, comments must be delivered within 14 days of posting to receive consideration, and the Protocol Revision Subcommittee then considers it. [e4]
 
 After PRS, TAC considers a PRS Report, the ERCOT Board reviews the TAC Report and Impact Analysis at its next regularly scheduled meeting, and then PUCT approval is required. [e13][e14][e6] ERCOT implements an approved NPRR on the first day of the month after PUCT approval, unless the PUCT Report says otherwise. [e7]
 
@@ -105,9 +109,9 @@ Not every change is an NPRR: a request to change ERCOT's computer systems withou
 
 ## Key facts
 
-- Who can file: any Market Participant, ERCOT Member, PUCT Staff, the Reliability Monitor, the NERC Regional Entity, the IMM or ERCOT. [e2]
+- Who can file: any Market Participant, ERCOT Member, PUCT Staff, the Reliability Monitor, the NERC Regional Entity, the IMM, ERCOT, or another Entity meeting the Section 21.2(1)(h) qualifications. [e2][e15]
 - ERCOT tells the submitter within five Business Days if an NPRR is incomplete. [e3]
-- Comments are due within 14 days of posting. [e4]
+- To receive consideration, comments must be delivered within 14 days of posting. [e4]
 - All revision requests need PUCT approval before implementation. [e6]
 - Implementation is on the first day of the month after PUCT approval, unless the PUCT Report says otherwise. [e7]
 
@@ -123,7 +127,7 @@ Not every change is an NPRR: a request to change ERCOT's computer systems withou
 
 ### Who can submit an NPRR?
 
-Any Market Participant, ERCOT Member, PUCT Staff, the Reliability Monitor, the NERC Regional Entity, the IMM or ERCOT. [e2]
+Any Market Participant, ERCOT Member, PUCT Staff, the Reliability Monitor, the NERC Regional Entity, the IMM or ERCOT, plus any other Entity that meets the Section 21.2(1)(h) qualifications (it resides or represents residents in Texas or operates in the Texas market, and is affected by the Customer Registration or REC/EAC program sections). [e2][e15]
 
 ### When does an approved NPRR take effect?
 

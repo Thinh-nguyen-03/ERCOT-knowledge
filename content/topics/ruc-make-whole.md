@@ -75,7 +75,7 @@ A RUC Make-Whole Payment is what ERCOT pays a QSE to reimburse allowable startup
 
 ## How it works
 
-ERCOT calculates a make-whole payment per Operating Day for each RUC-committed Resource, whether committed by DRUC or HRUC, when revenue falls short of cost. [e5] If the Resource earned more than its guarantee, the QSE pays the clawback charge. [e2] The revenues from all clawback charges are paid back to all QSEs on a Load Ratio Share basis as the RUC Clawback Payment. [e6]
+ERCOT calculates a make-whole payment per Operating Day for each RUC-committed Resource, whether committed by DRUC or HRUC, when revenue falls short of cost. [e5] The QSE pays the clawback charge for the Operating Day if the RUC Guarantee is less than the sum of the RUC Minimum-Energy Revenue and the two revenue-less-cost amounts. [e2] The revenues from all clawback charges are paid back to all QSEs on a Load Ratio Share basis as the RUC Clawback Payment. [e6]
 
 The cost of make-whole payments is recovered in two steps. QSEs that were capacity-short in a RUC are charged first, in proportion to their shortfall and subject to a cap. [e3] Any remainder in a 15-minute Settlement Interval is uplifted to all QSEs on a Load Ratio Share basis. [e4]
 
@@ -83,7 +83,7 @@ The cost of make-whole payments is recovered in two steps. QSEs that were capaci
 
 The IMM reports 5,129 resource-hours of RUC instructions in 2025, up 176% from 2024, with congestion behind about 77% of them. [e7] Make-whole payments exceeded $21 million in 2025 against only $4.5 million of clawbacks. [e8]
 
-Rules changed in 2024. Before then, resources with valid day-ahead offers faced a 50% clawback of revenue above cost. [e9] NPRR 1172 took effect on March 1, 2024. [e10] The two IMM reports describe its clawback change differently (see Open items).
+Rules changed in 2024. The IMM's 2024 report says that prior to 2024, RUC-committed resources with valid day-ahead offers faced only a 50% clawback of revenue above cost. [e9] It also says the PUCT approved NPRR 1172 and that it took effect on March 1, 2024. [e10] The two IMM reports describe its clawback change differently (see Open items).
 
 ## Key facts
 
@@ -91,11 +91,11 @@ Rules changed in 2024. Before then, resources with valid day-ahead offers faced 
 - Capacity-short QSEs are charged first, subject to a cap; the rest is uplifted by LRS. [e3][e4]
 - Clawback revenue is paid to all QSEs by LRS. [e6]
 - 2025: make-whole above $21 million; clawbacks $4.5 million. [e8]
-- NPRR 1172 took effect March 1, 2024; prior clawback was 50% for resources with valid day-ahead offers. [e9][e10]
+- Per the IMM's 2024 report, NPRR 1172 took effect March 1, 2024; before 2024 the clawback was 50% for resources with valid day-ahead offers. [e9][e10]
 
 ## Say it like this
 
-If ERCOT commits a unit out of market and its revenue does not cover its costs, ERCOT makes it whole, and if it earns more than its guarantee, ERCOT claws the excess back. Short QSEs pay first and the balance is spread across load.
+If ERCOT commits a unit out of market and its revenue does not cover its costs, ERCOT makes it whole, and if its revenues exceed its RUC Guarantee, it pays a clawback charge. Short QSEs pay first and the balance is spread across load.
 
 ## Common confusion
 
@@ -109,7 +109,7 @@ First QSEs that were capacity-short, then all QSEs by Load Ratio Share. [e3][e4]
 
 ### What changed in March 2024?
 
-NPRR 1172 took effect; before it, resources with valid day-ahead offers faced only a 50% clawback. [e9][e10]
+Per the IMM's 2024 report, NPRR 1172 took effect on March 1, 2024; before 2024, resources with valid day-ahead offers faced only a 50% clawback. [e9][e10] The saved IMM reports describe the new clawback differently (see Open items).
 
 ### Can a resource avoid make-whole and clawback?
 

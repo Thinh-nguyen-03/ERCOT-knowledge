@@ -13,7 +13,7 @@ links:
     note: Wind generation dominates total IRR forecast error variance. [e9]
   - to: solar-generation
     type: related
-    note: Solar forecast errors raised NSRS volumes in 2025 per the IMM. [e10]
+    note: The IMM says higher net load and solar forecast errors drove a 7.5% rise in NSRS volumes in its 2025 ancillary service discussion. [e10]
   - to: load-forecasting
     type: related
     note: Net demand is demand minus expected IRR generation, and the IMM reports net load forecast error alongside under-forecast IRR generation and over-forecast load. [e8][e9]
@@ -86,6 +86,10 @@ evidence:
     source: np-03
     locator: "Section 3.9.1, Current Operating Plan (COP) Criteria, paragraph (8)"
     quote: "A QSE representing a WGR may override the STWPF HSL value but must submit an HSL value that is less than or equal to the amount for that Resource from the most recent STWPF provided by ERCOT; a QSE representing a PVGR may override the STPPF HSL value but must submit an HSL value that is less than or equal to the amount for that Resource from the most recent STPPF provided by ERCOT."
+  - id: e15
+    source: imm-som-2025
+    locator: "Market Operations, C. Forecast Error, Figure 50 introduction"
+    quote: "Figure 50 illustrates the distribution of net load forecast errors eight hours ahead of real-time."
 ---
 
 ## Definition
@@ -100,21 +104,21 @@ The forecasts feed operations. They are inputs to the Day-Ahead and Hour-Ahead R
 
 ## ERCOT context
 
-The IMM treats forecast error as a market operations issue: the net demand forecast (demand minus expected IRR generation) is a major determinant of thermal commitment. [e8] Accuracy has improved: average net load forecast error was about 452 MW in 2025, down from more than 1,000 MW in 2023 and 2024, and IRR generation was under-forecast by only 89 MW on average. [e9] Bias remains: forecasts systematically under-forecast IRR generation and over-forecast load, and wind dominates IRR forecast error variance. [e9]
+The IMM treats forecast error as a market operations issue: the net demand forecast (demand minus expected IRR generation) is a major determinant of thermal commitment. [e8] Accuracy has improved: in the IMM's Figure 50 analysis of net load forecast errors eight hours ahead of real-time, the average error was about 452 MW in 2025, down from more than 1,000 MW in 2023 and 2024, and IRR generation was under-forecast by only 89 MW on average. [e9][e15] Bias remains: forecasts systematically under-forecast IRR generation and over-forecast load, and wind dominates IRR forecast error variance. [e9]
 
-Forecast error shows up in ancillary service procurement: the IMM says NSRS volumes rose 7.5% in 2025, driven by higher net load and solar forecast errors. [e10]
+Forecast error shows up in ancillary service procurement: the IMM says that in its 2025 ancillary service procurement discussion NSRS volumes rose by 7.5%, driven by higher net load and solar forecast errors. [e10]
 
 ## Key facts
 
 - STWPF and STPPF are hourly 50% probability of exceedance forecasts per Resource; WGRPP and PVGRPP are based on 80% probability of exceedance. [e1][e2][e3][e4]
 - The STWPF is a rolling 168-hour forecast updated hourly. [e11]
-- 2025 average net load forecast error: about 452 MW; IRR under-forecast: 89 MW on average (IMM). [e9]
+- 2025 average net load forecast error: about 452 MW (eight hours ahead of real-time); IRR under-forecast: 89 MW on average (IMM). [e9][e15]
 - Wind dominates IRR forecast error variance. [e9]
 - COP HSL values for the first 168 hours are updated with the latest STWPF/STPPF. [e7]
 
 ## Say it like this
 
-(Guidance) ERCOT's wind and solar forecasts are median (50% exceedance) forecasts by Resource, used to set expected output for commitment and the COP, with a more conservative 80% exceedance version for production potential. [e1][e3] The forecast is good on average but wind remains the main source of error. [e9]
+(Guidance) ERCOT's wind and solar forecasts are median (50% exceedance) forecasts by Resource, used to set expected output for commitment and the COP, with an 80% exceedance version (a lower output level) for production potential. [e1][e3] The IMM says accuracy has improved on average, while wind dominates the forecast error variance. [e9]
 
 ## Common confusion
 

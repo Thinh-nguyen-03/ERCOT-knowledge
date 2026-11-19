@@ -75,7 +75,7 @@ A negative price is an energy price below $0 per MWh. ERCOT's rules allow Energy
 
 ## How it works
 
-In the IMM's account, negative prices show up when midday solar surges and in the West zone. [e6][e7] Offers can go negative because the protocol range for an Energy Offer Curve starts at -$250.00 per MWh. [e1] In SCED Step 2, each Energy Offer Curve subject to mitigation is bounded at the lesser of the Step 1 Reference LMP or the appropriate Mitigated Offer Floor, and the floors are Resource-category specific, for example -$100/MWh for wind and -$50/MWh for PV. [e4][e2][e3]
+In the IMM's account, negative prices show up when midday solar surges and in the West zone. [e6][e7] Offers can go negative because the protocol range for an Energy Offer Curve starts at -$250.00 per MWh. [e1] In SCED Step 2, each Energy Offer Curve for On-Line Generation Resources is bounded at the lesser of the Step 1 Reference LMP or the appropriate Mitigated Offer Floor, and the floors are Resource-category specific, for example -$100/MWh for wind and -$50/MWh for PV. [e4][e2][e3]
 
 Why would a generator offer below zero? The IMM says 35% of real-time generation capacity was offered at or below $0 in 2025 (32% in 2024), mostly wind and solar that are incentivized to produce even when prices are negative because many receive federal production tax credits. [e8]
 
@@ -95,7 +95,7 @@ Batteries are one way negative prices are being absorbed. As midday solar has su
 
 ## Say it like this
 
-Negative prices happen when a lot of zero-cost wind and solar, often supported by tax credits, keeps producing at times and places where the grid cannot use it. They are most common in the West, and batteries can charge cheaply or be paid to consume when prices go negative. [e6]
+Negative prices happen when a lot of zero-cost wind and solar, often supported by tax credits, keeps producing at times and places where the grid cannot use it. They are most common in the West, and batteries can charge cheaply or be paid to consume when prices go negative. [e6][e7][e8]
 
 ## Common confusion
 

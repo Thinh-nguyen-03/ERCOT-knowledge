@@ -86,6 +86,14 @@ evidence:
     source: imm-som-2024
     locator: "Real-time market, RDPA discussion"
     quote: "there were no ERS deployments in 2024, but ERS deployments on September 6, 2023, contributed to reliability pricing over $1,000 per MWh for several intervals, where the RDPA never exceeded $175 per MWh in 2024."
+  - id: e15
+    source: puct-25-507
+    locator: "16 TAC 25.507(b)(2)"
+    quote: "During that 12-month period, ERCOT may exceed the $75 million maximum by up to an additional $25 million for ERS contract renewals under paragraph (d)(9) of this section during a period where ERS has been exhausted."
+  - id: e16
+    source: np-06
+    locator: "Section 6.5.9.4.1, paragraph (3), pending NPRR1238 box"
+    quote: "(3) When PRC falls below 3,000 MW and is not projected to be recovered above 3,000 MW within 30 minutes following the deployment of Non-Spin and all VECL, ERCOT may deploy available contracted ERS-10 and ERS-30 via an XML message."
 ---
 
 ## Definition
@@ -96,11 +104,11 @@ ERS is a special emergency service that ERCOT procures and deploys to help preve
 
 An ERS resource is either a load (or an aggregation of loads) or a dispatchable generator that is not registered as a Generation Resource. [e3] ERCOT issues requests for proposals for four standard contract terms (December through March, April and May, June through September, October and November) and buys from four service types: weather-sensitive or non-weather-sensitive, each as ERS-10 or ERS-30. [e4][e5]
 
-Deployment is a late-stage step. When Physical Responsive Capability (PRC) falls below 3,000 MW and is not projected to recover above 3,000 MW within 30 minutes of Non-Spin deployment, ERCOT may deploy contracted ERS-10 and ERS-30 by XML message. [e6] ERCOT may spend at most $75 million in a 12-month period on ERS unless the PUCT decides otherwise, and the cost is charged to QSEs by load ratio share. [e7][e8]
+Deployment is a late-stage step. When Physical Responsive Capability (PRC) falls below 3,000 MW and is not projected to recover above 3,000 MW within 30 minutes of Non-Spin deployment, ERCOT may deploy contracted ERS-10 and ERS-30 by XML message. [e6] A pending change (NPRR1238, to take effect upon system implementation) would change the 30-minute test to run from the deployment of Non-Spin and all VECL. [e16] ERCOT may spend a maximum of $75 million in a 12-month period on ERS unless the PUCT decides otherwise, may exceed that by up to $25 million for ERS contract renewals when ERS has been exhausted, and the cost is charged to QSEs by load ratio share. [e7][e15][e8]
 
 ## ERCOT context
 
-The IMM describes ERS as an auction in which industrial and commercial consumers offer to be curtailed, and reports it was deployed for nine events up to September 2023. For the 2024 program year ERCOT procured an average of 1,147 MW per hour at an average clearing price of $7.36 per MWh. [e9] There were no ERS deployments in 2024. [e12] By the end of 2025, cryptocurrency mining operations accounted for more than half of all ERS capacity. [e10]
+The IMM describes ERS as an auction in which industrial and commercial consumers offer to be curtailed, and its 2024 report says ERS had been deployed for nine events since inception, most recently in September 2023. For the 2024 program year ERCOT procured an average of 1,147 MW per hour at an average clearing price of $7.36 per MWh. [e9] There were no ERS deployments in 2024. [e12] By the end of 2025, cryptocurrency mining operations accounted for more than half of all ERS capacity. [e10]
 
 The IMM lists ERS among a group of out-of-market products and argues that such programs compensate entities outside the energy and ancillary service markets, which will sharply reduce the expected shortage revenues that investors need. [e11][e13]
 
@@ -108,13 +116,13 @@ The IMM lists ERS among a group of out-of-market products and argues that such p
 
 - ERS is not an Ancillary Service; it is deployed to prevent or alleviate an EEA event. [e2]
 - Four standard contract terms and four service types (weather-sensitive or not, ERS-10 or ERS-30). [e4][e5]
-- Spending cap: $75 million in a 12-month period unless the PUCT decides otherwise. [e7]
+- Spending cap: $75 million in a 12-month period unless the PUCT decides otherwise, plus up to $25 million for renewals when ERS has been exhausted. [e7][e15]
 - Deployment may follow PRC below 3,000 MW and Non-Spin deployment. [e6]
 - 2024 program year: an average of 1,147 MW per hour procured at an average of $7.36 per MWh. [e9]
 
 ## Say it like this
 
-ERS is a pay-to-curtail emergency product: ERCOT contracts loads and unregistered dispatchable generators for set contract terms and calls on them late in a tightening event, before or during an EEA. It sits outside the ancillary service market, and the cost is spread to load.
+(Guidance) ERS is an emergency product: ERCOT contracts loads and dispatchable generators not registered as Generation Resources for set contract terms [e3][e4] and may deploy them when PRC is low, to help prevent or alleviate an EEA event. [e1][e6] It is not an Ancillary Service, and the cost is charged to QSEs by load ratio share. [e2][e8]
 
 ## Common confusion
 
@@ -128,7 +136,7 @@ ERCOT may deploy ERS when PRC is below 3,000 MW and not projected to recover abo
 
 ### Who pays for ERS?
 
-ERCOT charges each QSE based on its load ratio share during the relevant ERS time period and contract term, within a $75 million 12-month spending cap unless the PUCT decides otherwise. [e8][e7]
+ERCOT charges each QSE based on its load ratio share during the relevant ERS time period and contract term, within a $75 million 12-month spending cap unless the PUCT decides otherwise (with up to $25 million more allowed for renewals when ERS has been exhausted). [e8][e7][e15]
 
 ### Why does the IMM criticise out-of-market programs like ERS?
 

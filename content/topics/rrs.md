@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: ancillary-services
     type: part-of
-    note: RRS is one of the ancillary services in the AS Plan; see that topic for plan, obligations and cost. [e2]
+    note: The Protocols define RRS as an Ancillary Service; see that topic for plan, obligations and cost. [e1]
   - to: regulation
     type: contrasts-with
     note: ERCOT deploys RRS when restoring frequency would exceed the Reg-Up ramping capability. [e8]
@@ -101,7 +101,7 @@ The IMM describes three types of RRS in the market: primary frequency response, 
 
 ## Say it like this
 
-RRS is the reserve that responds on its own, within seconds, after a significant frequency deviation. It comes from generator governors, fast-responding batteries and interruptible load on under-frequency relays. [e1][e2][e10]
+RRS is the reserve that responds on its own after a significant frequency deviation, starting within the first few seconds. [e1][e2] It can come from generators with primary frequency response, FFR resources such as batteries, and load resources on under-frequency relays, among others. [e3][e10]
 
 ## Common confusion
 

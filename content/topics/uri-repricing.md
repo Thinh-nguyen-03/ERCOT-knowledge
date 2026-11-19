@@ -13,7 +13,7 @@ links:
     note: The pricing orders were issued during the Winter Storm Uri load shed and are one part of that event.
   - to: offer-cap
     type: related
-    note: The first order suspended use of the LCAP and kept the $9,000 HCAP in place; the HCAP was later lowered to $5,000 per MWh effective January 1, 2022, and ERCOT's later sources show a $2,000 real-time cap since RTC go-live. [e20][e15][e21]
+    note: The first order suspended use of the LCAP and kept the $9,000 HCAP in place; the HCAP was later lowered to $5,000 per MWh effective January 1, 2022, and ERCOT's later sources show a $2,000 real-time cap since RTC go-live. [e20][e4][e15][e21][e22]
   - to: peaker-net-margin
     type: related
     note: The PUCT's stated concern was that the LCAP formula, 50 times the natural gas price index, might exceed the HCAP given exceptionally high gas prices. [e4]
@@ -25,7 +25,7 @@ links:
     note: The IMM's first letter asked that February 2021 day-ahead ancillary service prices be capped at $9,000. [e9]
   - to: imm
     type: related
-    note: The IMM's March 4, 2021 letter challenges how long prices were held at $9,000. [e7]
+    note: The IMM's March 4, 2021 letter challenges how long prices were held at VOLL. [e7]
 evidence:
   - id: e1
     source: puct-51617-order-1
@@ -119,6 +119,10 @@ evidence:
     source: puct-25-509
     locator: "16 TAC 25.509(b)(6)(B)"
     quote: "The high system-wide offer cap (HCAP) will be $5,000 per MWh for energy offers and $5,000 per MW per hour for ancillary service offers."
+  - id: e24
+    source: imm-uri-letter-2
+    locator: "IMM letter of March 4, 2021 (Project 51812, item 61), p. 1, opening paragraph"
+    quote: "The IMM agrees with the Commission's Order from February 15, 2021, which mandated that real-time energy prices reflect firm load shed by setting prices at the value of lost load (VOLL)."
 ---
 
 ## Definition
@@ -165,7 +169,7 @@ Rule changes followed in 2021. NPRR1081, approved June 28, 2021, wrote the load 
 
 ## Say it like this
 
-(Guidance) During Uri the PUCT ordered ERCOT to price shed load at the $9,000 cap, on the logic that load shed is maximum scarcity. [e2][e3] The IMM's March 4 letter did not object to that logic but argued prices were held at $9,000 for about 32 hours after load shed ended and asked for those hours to be corrected. [e7][e8] Separately, Luminant challenged the orders in court, and per a law-firm alert the Third Court of Appeals held in 2023 that the $9,000 cap supplanted competition, though further appeal was expected. [e17][e18][e16]
+(Guidance) During Uri the PUCT ordered ERCOT to price shed load at the $9,000 cap, on the logic that load shed is maximum scarcity. [e2][e3] The IMM's March 4 letter said it agreed with the February 15 order but argued prices were held at VOLL for 32 hours after load shed ended and asked for those hours to be corrected. [e24][e7][e8] Separately, Luminant challenged the orders in court, and per a law-firm alert the Third Court of Appeals held in 2023 that the $9,000 cap supplanted competition, though further appeal was expected. [e17][e18][e16]
 
 ## Common confusion
 
@@ -175,7 +179,7 @@ Rule changes followed in 2021. NPRR1081, approved June 28, 2021, wrote the load 
 
 ### What did the February 15 and February 16, 2021 PUCT orders each do?
 
-The first order directed ERCOT to account for shed firm load in scarcity pricing, to correct past prices on the same basis, and to suspend the LCAP. [e3][e4] The second order kept the forward-looking direction but rescinded the retroactive correction. [e5]
+The first order directed ERCOT to account for shed firm load in scarcity pricing, to correct past prices on the same basis, and to suspend any use of the LCAP until after the next open meeting. [e3][e20] The second order kept the forward-looking direction but rescinded the retroactive correction. [e5]
 
 ### Why did the IMM call for repricing?
 

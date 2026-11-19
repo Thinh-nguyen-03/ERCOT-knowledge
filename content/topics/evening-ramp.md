@@ -19,7 +19,7 @@ links:
     note: Wind output tends to ramp up in the evening and was key to serving demand on most summer 2023 days. [e1][e6]
   - to: energy-storage-resource
     type: related
-    note: ESRs charge on midday solar and discharge during the solar ramp down. [e7]
+    note: ERCOT's summer 2026 review says more solar and ESR capacity lets ESRs charge during the day and later discharge over the evening solar ramp. [e10]
   - to: rtc-b
     type: related
     note: The IMM argues a multi-interval real-time market, which looks beyond the current five-minute interval, would help with the duck curve. [e4][e5]
@@ -84,25 +84,25 @@ The evening ramp, which the IMM calls the "duck curve," is the sharp rise in net
 
 Net load is demand minus renewable generation, so when solar ramps down in the evening and wind has only begun to ramp up, the rest of the fleet must cover a fast increase. [e1] ERCOT's summer 2023 review described the same pattern: the solar down ramp made late-evening conditions tighter than at peak demand, and the net peak hours moved from HE 17 to HE 21. [e8][e9]
 
-The ramp is met by fast resources. SCED often dispatches quick-start natural gas plants or ESRs with high-priced offer curves during the ramp-down, which produces frequent and predictable price spikes. [e2] ESRs charge during high solar output and discharge during the solar ramp down. [e7]
+The ramp is met by fast resources. SCED often dispatches quick-start natural gas plants or ESRs with high-priced offer curves during the ramp-down, which produces frequent and predictable price spikes. [e2] ERCOT's summer 2026 review says that on the lowest state-of-charge days it examined, ESRs were charging during high solar generation and discharging during the solar ramp down. [e7]
 
 ## ERCOT context
 
 In 2025 the evening ramp accounted for 30% of all price spikes, up from 22% in 2024, while the share of spikes in the middle of the day fell from 9.3% to 2.7%. [e2][e11] The IMM also reports that summer price spikes were 40% less frequent in 2025 than in summer 2024 as added ESR capacity improved ERCOT's ability to manage ramp needs. [e3] ERCOT's summer 2026 review says more solar and storage tends to lower daytime prices, which lets ESRs charge then and discharge over the evening ramp. [e10]
 
-The market design is a stated part of the issue. The IMM notes the real-time market optimizes over a single interval based on the next five minutes, and says a multi-interval market would help with the duck curve by pre-positioning slow-ramping resources earlier. [e5][e4]
+The IMM treats market design as part of the issue. It notes the real-time market optimizes over a single interval based on the next five minutes, and says a multi-interval market would help with the duck curve by pre-positioning slow-ramping resources earlier. [e5][e4]
 
 ## Key facts
 
 - Tightest hours shifted from about 4 to 5 p.m. to 7 to 9 p.m. between 2021 and 2025 (IMM). [e1]
 - Evening-ramp price spikes were 30% of all 2025 spikes, versus 22% in 2024. [e2]
-- Summer 2025 price spikes were 40% less frequent than summer 2024 as ESR capacity grew. [e3]
+- Summer 2025 price spikes were 40% less frequent than summer 2024, which the IMM attributes to added ESR capacity. [e3]
 - Low wind output was a primary factor on the 2023 conservation appeal days; wind ramping up in the evenings was key on most other days. [e6]
 - IMM recommendation 2022-1 (multi-interval real-time market) is framed partly as a duck-curve remedy. [e4]
 
 ## Say it like this
 
-(Guidance) The duck curve in ERCOT is a net load story: solar fades just as demand is still high, so the evening hours, not the afternoon peak, are where prices spike and batteries earn. Storage growth has softened the spikes but not removed the ramp.
+(Guidance) The duck curve in ERCOT is a net load story: solar fades just as demand is still high, so the evening hours, not the afternoon peak, are where prices spike. The IMM says storage growth has reduced the frequency of spikes, but the ramp itself remains.
 
 ## Common confusion
 

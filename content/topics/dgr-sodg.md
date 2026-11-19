@@ -83,11 +83,11 @@ The SODG definition is marked for deletion under NPRR995 upon system implementat
 - DGR thresholds: over 10 MW and not a PUCT self-generator, or over 1 MW by choice. [e1]
 - SODG: 1 MW or less by choice, or over 1 MW and up to 10 MW that can net export and does not register as a DGR. [e2]
 - Settlement Only Generators (SOG) are settled for exported energy only, with no energy offers, SCED, RUC or ancillary services. [e3]
-- SODG energy paid at the nodal price at the bus mapped to the associated load. [e4]
+- SODG energy is paid at the nodal price at the bus mapped to the associated load, subject to listed exceptions (for example an opt-out). [e4][e6]
 
 ## Say it like this
 
-(Guidance) A DGR is distribution-connected generation that participates in the market as a Generation Resource; an SODG sits on the distribution system too but is just paid for what it exports.
+(Guidance) A DGR is distribution-connected generation that participates in the market as a Generation Resource; an SODG sits on the distribution system too but does not register as a DGR (or is 1 MW or less by choice); its energy is settled at a nodal energy price. [e2][e6]
 
 ## Common confusion
 

@@ -16,7 +16,7 @@ links:
     note: PNM is a cumulative annual trigger, while the EPP reacts to 12 hours at the cap in a rolling 24-hour period. [e1][e15]
   - to: eea
     type: related
-    note: The duration of the EPP extends after ERCOT exits emergency operations. [e3]
+    note: If ERCOT entered or stayed in emergency operations while the EPP was active, the EPP lasts until 24 hours after ERCOT exits emergency operations without re-entering. [e3]
   - to: texas-legislature
     type: related
     note: SB 3 (2021) directed the commission by rule to establish an emergency pricing program. [e7]
@@ -101,7 +101,7 @@ The EPP lasts until the later of 24 hours after activation or, if ERCOT entered 
 
 ## ERCOT context
 
-The program comes from SB 3 (2021), which told the commission to establish an emergency pricing program by rule and to have it take effect when the HCAP has been in effect for 12 hours in a 24-hour period. [e7][e12] Within 10 working days of termination ERCOT must file an initial report with the commission. [e5] Until any system and protocol changes are complete, ERCOT may use a manual activation process and consider the real-time energy price, exclusive of any congestion. [e9]
+The program comes from SB 3 (2021), which told the commission to establish an emergency pricing program by rule and to have it take effect when the HCAP has been in effect for 12 hours in a 24-hour period. [e7][e12] Within 10 working days of termination ERCOT must file an initial report with the commission. [e5] The rule's transition provision says that, until any system and protocol changes are complete, ERCOT may use a manual activation process and consider the real-time energy price, exclusive of any congestion. [e9]
 
 The PUCT will review each system-wide offer cap program starting January 1, 2026, and every five years after. [e11]
 
@@ -109,7 +109,7 @@ The PUCT will review each system-wide offer cap program starting January 1, 2026
 
 - Trigger: system-wide energy price at the HCAP for 12 hours within a rolling 24-hour period. [e1]
 - While active, the cap is the ECAP, equal to the LCAP value. [e2]
-- Duration: the later of 24 hours after activation, or 24 hours after exiting emergency operations. [e3]
+- Duration: the later of 24 hours after activation or, if ERCOT entered or remained in emergency operations while the EPP was active, 24 hours after ERCOT exits emergency operations without re-entering. [e3]
 - Costs above the ECAP are reimbursed and allocated on a load ratio share basis. [e4][e6][e13]
 - ERCOT must file an initial report within 10 working days after termination. [e5]
 
@@ -119,7 +119,7 @@ If prices sit at the high cap for 12 hours in any rolling day, ERCOT must lower 
 
 ## Common confusion
 
-The EPP and the peaker net margin test both lower the cap to a lower level, but they are separate triggers: the EPP reacts to 12 hours at the cap in a rolling 24 hours, and the PNM test accumulates over a calendar year. [e1][e2][e14][e15] The EPP's end date can depend on when ERCOT exits emergency operations. [e3]
+The EPP and the peaker net margin test both lower the cap to a lower level, but they are separate triggers: the EPP reacts to 12 hours at the cap in a rolling 24 hours, and the PNM test accumulates over a calendar year. [e1][e2][e14][e15] The EPP's end date can depend on when ERCOT exits emergency operations, if ERCOT entered or remained in them while the EPP was active. [e3]
 
 ## Questions
 

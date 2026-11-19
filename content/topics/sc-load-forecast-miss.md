@@ -59,7 +59,7 @@ evidence:
   - id: e6
     source: np-05
     locator: "Section 5.7.1, RUC Make-Whole Payment, paragraph (1)"
-    quote: "To make up the difference when the revenues that a Reliability Unit Commitment (RUC)-committed Resource receives are less than its costs as described in paragraph (2) below, ERCOT shall calculate a RUC Make-Whole Payment for that Operating Day for that Resource (whether committed by Day-Ahead RUC (DRUC) or Hourly RUC (HRUC))."
+    quote: "To make up the difference when the revenues that a Reliability Unit Commitment (RUC)-committed Resource receives are less than its costs as described in paragraph (2) below, ERCOT shall calculate a RUC Make-Whole Payment for that Operating Day for that Resource (whether committed by Day-Ahead RUC (DRUC) or Hourly RUC (HRUC)). ERCOT shall not calculate or pay a RUC Make-Whole Payment for an Energy Storage Resource (ESR)."
   - id: e7
     source: np-05
     locator: "Section 5.7.4, paragraph (1)"
@@ -71,7 +71,7 @@ evidence:
   - id: e9
     source: imm-som-2025
     locator: "Executive Summary, Increased Reliability Risks due to Renewables and Batteries"
-    quote: "Despite the average PRC increasing by 128% from 4.9 GW in 2021 to over 11 GW in 2025, forecast errors associated with load, renewables, and battery SOC could produce hours in which the PRC is very low, resulting in a load-shed scenario."
+    quote: "Despite the average PRC increasing by 128% from 4.9 GW in 2021 to over 11 GW in 2025, forecast errors associated with load, renewables, and battery SOC could produce hours in which the PRC is very low, resulting in a load-shed scenario. In response, ERCOT increased its procurements of operating reserves – beyond the level at which any there is any potential risk of load shedding."
   - id: e10
     source: imm-som-2025
     locator: "Chapter III.B, Ancillary Services Market, description of NSRS"
@@ -132,9 +132,9 @@ Step 1, the day-ahead market does not commit for reliability. Day-ahead energy a
 
 Step 2, the forecast is updated through the day. HRUC runs at least one hour before each Operating Hour using updated Load forecasts and Outage information, and QSEs can adjust trades, Self-Schedules and commitments in the Adjustment Period as better information arrives. [e3][e21]
 
-Step 3, reserves absorb the rest. The IMM describes NSRS as covering intra-hour net load forecast uncertainty that leads to under-commitment, and the Regulation target is set at the 95th percentile of five-minute net load forecast error. [e10][e11] The IMM warns that forecast errors for load, renewables and battery state of charge could still produce very low PRC hours. [e9]
+Step 3, reserves absorb the rest. The IMM describes NSRS as covering intra-hour net load forecast uncertainty that leads to under-commitment, and the Regulation target is set at the 95th percentile of five-minute net load forecast error. [e10][e11] The IMM describes concern that forecast errors for load, renewables and battery state of charge could produce very low PRC hours as the reason ERCOT increased its operating reserve procurement, which the IMM says went beyond the level at which there is any potential risk of load shedding. [e9]
 
-Step 4, prices and settlement. Day-ahead positions are financial and ERCOT settles imbalances on them in real time, and the Load Zone Energy Imbalance charge uses the Real-Time Settlement Point Price. [e5][e19] Forecast errors also shift congestion between day-ahead and real-time. [e12] RUC-committed units that do not cover costs receive make-whole payments, charged first to capacity-short QSEs and then uplifted to all QSEs by Load Ratio Share. [e6][e7]
+Step 4, prices and settlement. Day-ahead positions are financial and ERCOT settles imbalances on them in real time, and the Load Zone Energy Imbalance charge uses the Real-Time Settlement Point Price. [e5][e19] Forecast errors also shift congestion between day-ahead and real-time. [e12] RUC-committed units that do not cover costs receive make-whole payments (ESRs excepted), charged first to capacity-short QSEs and then uplifted to all QSEs by Load Ratio Share. [e6][e7]
 
 ## Key facts
 

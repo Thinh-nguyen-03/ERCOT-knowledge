@@ -93,7 +93,7 @@ Only part of the network is sold in each auction. Auction capacity is 90% for th
 
 ## ERCOT context
 
-The IMM says participants can buy CRRs in monthly blocks up to three years ahead to manage congestion risk. [e9] Auction revenue is passed to load through CARD, by system-wide load ratio share for cross-zone CRRs and zonal share for same-zone CRRs. [e10] The IMM reports auction revenue up almost 6% in 2025, after 14% to 32% annual growth in 2021-2024. [e8]
+The IMM says participants can buy CRRs in monthly blocks up to three years ahead to manage congestion risk. [e9] The IMM says ERCOT distributes auction revenue to Load Serving Entities through CARD, by system-wide load ratio share for cross-zone CRRs and zonal share for same-zone CRRs. [e10] The IMM reports auction revenue up almost 6% in 2025, after 14% to 32% annual growth in 2021-2024. [e8]
 
 ## Key facts
 
@@ -109,7 +109,7 @@ ERCOT sells CRRs in a monthly auction and in long-term sequences up to three yea
 
 ## Common confusion
 
-The auction is not the only source of CRRs: PCRRs are allocated outside it and PTP Options and PTP Obligations can also be traded bilaterally. [e1][e12] The SFT is a market feasibility test that confirms the system can support the awarded CRRs. [e7]
+The auction is not the only source of CRRs: PCRRs are allocated outside it and PTP Options and PTP Obligations (other than those with Refund) can also be traded bilaterally. [e1][e12] The SFT is a market feasibility test that confirms the system can support the awarded CRRs. [e7]
 
 ## Questions
 
@@ -119,7 +119,7 @@ The percentage falls with each successive six-month window sold, from 70% for th
 
 ### Who gets the auction revenue?
 
-Load, through CARD: cross-zone revenue by ERCOT-wide load ratio share and same-zone revenue by zonal share. [e10]
+Load Serving Entities, through CARD (as the IMM describes it): cross-zone revenue by ERCOT-wide load ratio share and same-zone revenue by zonal share. [e10]
 
 ### What stops ERCOT from over-selling the grid?
 

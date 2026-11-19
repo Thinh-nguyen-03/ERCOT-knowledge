@@ -16,7 +16,7 @@ links:
     note: CLRs can submit bids to buy electricity in SCED, and ERCOT can dispatch them down when the clearing price exceeds those bids. [e3]
   - to: ers
     type: contrasts-with
-    note: Many crypto mines left CLR status for ERS in 2025. [e5]
+    note: Many crypto mines left CLR status for ERS in 2025 (the IMM's report calls it the "Emergency Reserve Service"). [e5]
   - to: rtc-b
     type: related
     note: RTC lets CLRs sell ancillary services in real time with less exposure to high energy prices. [e7]
@@ -71,7 +71,7 @@ A Controllable Load Resource is a Load Resource capable of controllably reducing
 
 ## How it works
 
-The CLR participation model in SCED was implemented in 2014. It lets loads that can respond to 5-minute dispatch instructions submit bids to buy electricity at price-quantity pairs, and ERCOT can dispatch them down when the clearing price exceeds those bids. [e3] A CLR's QSE pays a Set Point Deviation Charge if the Resource does not follow its dispatch set points within tolerances. [e6]
+The CLR participation model in SCED was implemented in 2014. It lets loads that can respond to 5-minute dispatch instructions submit bids to buy electricity at price-quantity pairs, and ERCOT can dispatch them down when the clearing price exceeds those bids. [e3] A CLR's QSE pays a Set Point Deviation Charge if the Resource does not follow its Updated Desired Set Points within defined tolerances, except when those set points violate the Resource Parameters. [e6]
 
 ## ERCOT context
 

@@ -37,8 +37,8 @@ evidence:
     quote: "(3) ECRS may be used to provide energy prior to or during the implementation of an EEA. ECRS provides Resource capacity, or capacity from interruptible Load available for deployment on ten minutes’ notice."
   - id: e3
     source: np-03
-    locator: "Section 3.17.4, paragraph (4)(a)-(d)"
-    quote: "(4) ECRS may be provided by: (a) Unloaded, On-Line Generation Resource capacity; (b) Quick Start Generation Resources (QSGRs); (c) Load Resources that may or may not be controlled by high-set, under-frequency relays; (d) Controllable Load Resources (CLRs);"
+    locator: "Section 3.17.4, paragraph (4)(a)-(f)"
+    quote: "(4) ECRS may be provided by: (a) Unloaded, On-Line Generation Resource capacity; (b) Quick Start Generation Resources (QSGRs); (c) Load Resources that may or may not be controlled by high-set, under-frequency relays; (d) Controllable Load Resources (CLRs); (e) Generation Resources operating in synchronous condenser fast-response mode as defined in the Operating Guides; and (f) ESRs."
   - id: e4
     source: np-03
     locator: "Section 3.16, paragraph (7)"
@@ -75,6 +75,10 @@ evidence:
     source: imm-som-2025
     locator: "Chapter III.C.1, ECRS and NSRS Provision by ESRs"
     quote: "The ECRS duration requirement was two hours until RTC was implemented, at which point it to one hour according to NPRR 1282."
+  - id: e13
+    source: np-02
+    locator: "Section 2.1, definition of Responsive Reserve (RRS), paragraph (a)"
+    quote: "Arrest frequency decay within the first few seconds of a significant frequency deviation on the ERCOT Transmission Grid using Primary Frequency Response, Fast Frequency Response (FFR), and interruptible Load;"
 ---
 
 ## Definition
@@ -83,7 +87,7 @@ ERCOT Contingency Reserve Service (ECRS) is an ancillary service providing opera
 
 ## How it works
 
-ECRS capacity can come from unloaded on-line generation, Quick Start Generation Resources, load resources with or without high-set under-frequency relays, and controllable load resources. [e3] Load resources other than CLRs may supply no more than 50% of the total ECRS requirement, and ERCOT posts a monthly minimum capacity required from resources providing ECRS. [e4] ECRS provides resource capacity, or interruptible load, available for deployment on ten minutes' notice. [e2]
+ECRS capacity can come from unloaded on-line generation, Quick Start Generation Resources, load resources with or without high-set under-frequency relays, and controllable load resources, generation resources operating in synchronous condenser fast-response mode, and ESRs. [e3] Load resources other than CLRs may supply no more than 50% of the total ECRS requirement, and ERCOT posts a monthly minimum capacity required from resources providing ECRS. [e4] ECRS provides resource capacity, or interruptible load, available for deployment on ten minutes' notice. [e2]
 
 ERCOT deploys ECRS by Dispatch Instruction over ICCP to resources with status ONSC, or by message to load resources. [e5] The protocol lists four purposes: restore frequency to 60 Hz within ten minutes, provide energy to avoid or during an EEA, back up Reg-Up, and provide energy when capacity is insufficient for net load ramps. [e6] ERCOT then uses SCED and Non-Spin as soon as practicable to recover the ECRS reserves it used. [e7]
 
@@ -107,7 +111,7 @@ ECRS is the contingency reserve that backs up RRS and regulation: it restores fr
 
 ## Common confusion
 
-ECRS and RRS are often swapped. RRS self-deploys within seconds on frequency, and ECRS is the reserve ERCOT dispatches to restore RRS. [e1][e5] ECRS is also not Non-Spin: ERCOT uses Non-Spin to recover ECRS after it is deployed. [e7]
+ECRS and RRS are often swapped. RRS is intended to arrest frequency decay within the first few seconds of a significant frequency deviation, [e13] and ECRS is intended to restore RRS within ten minutes after that. [e1] ERCOT deploys ECRS by Dispatch Instruction. [e5] ECRS is also not Non-Spin: ERCOT uses Non-Spin to recover ECRS after it is deployed. [e7]
 
 ## Questions
 

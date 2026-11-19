@@ -101,7 +101,7 @@ An Energy Storage Resource (ESR) is an energy storage system registered with ERC
 
 An ESR is one resource that both charges and discharges. Its High Sustained Limit is positive when describing maximum sustained discharge and negative when describing the minimum temporary charging capability. [e3] ERCOT's single-model approach has bid/offer curves, the Current Operating Plan and telemetry for the ESR as a single device across the whole range from maximum charging (negative MW) to maximum discharging (positive MW). [e5] A QSE can update the telemetered HSL and LSL in Real-Time to reflect state of charge limits. [e4]
 
-For ancillary services, an ESR in discharge mode provides Reg-Up by raising output, while an ESR in charge mode provides it by cutting load. [e8] With RTC+B, SCED accounts for state of charge in its optimization so awards are feasible for their duration requirements, and it will not violate telemetered minimum and maximum SOC. [e6] The day-ahead market does not consider SOC in clearing energy and ancillary services. [e7] RUC does not treat an ESR as off-line, so it is not committed by RUC. [e14]
+For ancillary services, an ESR in discharge mode provides Reg-Up by raising output, while an ESR in charge mode provides it by cutting load. [e8] ERCOT's July 2025 RTC+B battery overview says that with RTC+B, SCED accounts for state of charge in its optimization so awards are feasible for their duration requirements, and it will not violate telemetered minimum and maximum SOC. [e6] The day-ahead market does not consider SOC in clearing energy and ancillary services. [e7] The same overview says ESRs will not be seen as off-line in RUC and so are not available to be RUCed. [e14]
 
 ## ERCOT context
 
@@ -113,13 +113,13 @@ As supply grew, revenue per unit of ESR capacity fell by 37% in 2025 because AS 
 
 - An ESR is registered to provide energy and/or ancillary service. [e1]
 - ESR capacity was more than 17,000 MW and 31,500 MWh at the end of 2025. [e10]
-- In 2025 ESRs supplied 94% of Reg-Up and 86% of Reg-Down. [e9]
+- On average in 2025 ESRs provided 94% of Reg-Up and 86% of Reg-Down, per the IMM. [e9]
 - Revenue per MW of ESR capacity fell 37% in 2025. [e11]
 - SCED tracks ESR state of charge after RTC+B; the DAM does not. [e6][e7]
 
 ## Say it like this
 
-An ESR is a battery modelled as one resource that can be a generator or a load, bounded by its state of charge. In 2025 it supplied most regulation and large shares of the other ancillary services, and it plays a major role serving evening load, which the IMM says partly contributed to lower AS prices. [e5][e9][e13][e16]
+An ESR is a battery modelled as one resource that can be a generator or a load, bounded by its state of charge. In 2025 it supplied most regulation and large shares of the other ancillary services, and it plays a major role serving evening load, and the IMM says the growth in ESR capacity partly caused AS prices to fall. [e5][e9][e13][e16]
 
 ## Common confusion
 

@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: crr
     type: used-in
-    note: A CRR pays or charges the day-ahead congestion between its source and sink. [e1][e2]
+    note: A CRR is a financial right to congestion rent; a PTP Obligation settled in the DAM pays or charges the day-ahead price difference between its source and sink. [e1][e2]
   - to: crr-auction
     type: used-in
     note: The monthly CRR auction sells one-month PTP Options and PTP Obligations for the following month. [e4]
@@ -28,7 +28,7 @@ links:
     note: The number of active GTCs was 26 in 2025, up from 18 in 2021. [e16]
   - to: basis-risk
     type: related
-    note: PTP Obligations settled in the DAM pay on the Day-Ahead price difference, while real-time congestion was 7% higher than day-ahead in 2025. [e2][e12]
+    note: PTP Obligations settled in the DAM pay on the Day-Ahead price difference, while real-time congestion was about 7% higher than day-ahead in 2025. [e2][e12]
   - to: credit-tpe
     type: related
     note: Positional risk from CRRs has driven most of ERCOT's collateral. [e11]
@@ -79,8 +79,8 @@ evidence:
     quote: "ERCOT’s total collateral remained unchanged in 2025 at $6.9 billion. For the last two years, exposure to positional risks from CRRs has driven most of this collateral."
   - id: e12
     source: imm-som-2025
-    locator: "Chapter V.A, Summary of Transmission Congestion Results in 2025"
-    quote: "Real-time congestion was 7% higher in the RTM than in the DAM. This disparity is reasonable because forecast error persists for both load and renewable generation."
+    locator: "Chapter V, Real-Time Congestion, discussion of Figure 37"
+    quote: "This figure shows that real-time congestion in 2025 followed trends similar to those in the day-ahead market. Overall, congestion was approximately 7% higher in the real-time market than in the day-ahead market, likely because of forecast error for load and renewable generation and differences in thermal resource commitments between day-ahead and real time."
   - id: e13
     source: imm-som-2025
     locator: "Chapter V.A, Summary of Transmission Congestion Results in 2025"
@@ -129,10 +129,10 @@ Funding risk comes from outages. ERCOT pays less than target only when day-ahead
 
 - PTP obligations settle on the day-ahead sink-minus-source price difference. [e2]
 - CRR profitability rose 21% in 2025 after a 1.5% net loss in 2024. [e10]
-- Real-time congestion was 7% higher than day-ahead congestion in 2025. [e12]
+- Real-time congestion was about 7% higher than day-ahead congestion in 2025. [e12]
 - ERCOT's collateral was $6.9 billion in 2025, mostly driven by CRR positional risk. [e11]
 - CRRs can be bought in monthly blocks up to three years ahead. [e17]
-- The last CRR short payment was in November 2020. [e9]
+- The last CRR short payment was in November 2020 (as of the IMM's 2025 report). [e9]
 
 ## Scenarios
 
@@ -144,7 +144,7 @@ Funding risk comes from outages. ERCOT pays less than target only when day-ahead
 - Check outages. The CRR model includes outages expected to affect transfer capability, but unforeseen outages between the auction and the DAM can reduce transmission capability and leave CRRs short-funded. [e7][e8]
 - Check sink deration. This path sinks at a hub, but obligations that sink at a Resource Node can be cut for oversold elements. [e15]
 - (Reasoning) Build hour-by-hour scenarios and value on-peak and off-peak hours separately, since the spread may differ by hour.
-- Remember it settles on day-ahead prices. Real-time congestion in 2025 was 7% above day-ahead, so a generator using this as a hedge keeps some real-time exposure. [e12]
+- Remember it settles on day-ahead prices. Real-time congestion in 2025 was about 7% above day-ahead, so a generator using this as a hedge keeps some real-time exposure. [e12]
 - Suppose (illustrative): you expect an average day-ahead spread of $9/MWh across 744 August hours on 10 MW, about $67,000. Bid below that, say $6/MWh, to leave room for model error and collateral cost.
 - Price in credit: CRR positions drove most of ERCOT's $6.9 billion of collateral in 2025. [e11]
 
@@ -172,7 +172,7 @@ The long-term sequence sells 70% of capacity in the first six-month window and s
 
 ## Common confusion
 
-(Guidance) A PTP Obligation settled in the DAM pays on the Day-Ahead price difference, so it does not fully cover real-time congestion, which was 7% higher than day-ahead in 2025. [e2][e12] Also, a CRR is not a transmission reservation: it gives no right to move physical energy. [e1]
+(Guidance) A PTP Obligation settled in the DAM pays on the Day-Ahead price difference, so it does not fully cover real-time congestion, which was about 7% higher than day-ahead in 2025. [e2][e12] Also, a CRR is not a transmission reservation: it gives no right to move physical energy. [e1]
 
 ## Open items
 

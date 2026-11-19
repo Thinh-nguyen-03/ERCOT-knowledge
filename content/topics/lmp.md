@@ -16,7 +16,7 @@ links:
     note: System Lambda is the energy component of the LMP at each Settlement Point. [e2]
   - to: shadow-price
     type: composed-of
-    note: The shadow price of a constraint determines congestion prices at locations that affect it, per the IMM. [e11]
+    note: The IMM says that when a violated constraint hits its shadow price cap, the shadow price set determines congestion prices at locations that affect it. [e11]
   - to: sced
     type: related
     note: SCED is the real-time process that produces Real-Time LMPs. [e4]
@@ -25,7 +25,7 @@ links:
     note: The DAM process produces Day-Ahead LMPs. [e1]
   - to: congestion
     type: related
-    note: The IMM says the shadow price of a violated constraint determines congestion prices at locations that affect it. [e11]
+    note: The IMM says the shadow price set for a violated constraint (by the shadow price cap) determines congestion prices at locations that affect it. [e11]
   - to: resource-node
     type: related
     note: The day-ahead Settlement Point Price at a Resource Node is the LMP at that node. [e13]
@@ -92,9 +92,9 @@ An LMP is the offer and/or bid-based marginal cost of serving the next increment
 
 ## How it works
 
-The LMP is built at the bus level. Its energy component is System Lambda, the Shadow Price of the power balance constraint, meaning the change in the objective function from relaxing that constraint by one MW. [e2] A Shadow Price in general measures the marginal value of a commodity, the rate at which system costs would fall or rise if slightly more or less of it were available. [e3] The protocol text says System Lambda is the energy component of LMP at each Settlement Point. [e2] SCED produces Shadow Prices and LMPs in the same step, [e5] and the IMM says the shadow price of a violated constraint determines congestion prices at the locations that affect that constraint. [e11]
+The LMP is built at the bus level. Its energy component is System Lambda, the Shadow Price of the power balance constraint, meaning the change in the objective function from relaxing that constraint by one MW. [e2] A Shadow Price in general measures the marginal value of a commodity, the rate at which system costs would fall or rise if slightly more or less of it were available. [e3] The protocol text says System Lambda is the energy component of LMP at each Settlement Point. [e2] SCED produces Shadow Prices and LMPs in the same step, [e5] and the IMM says that when the cost of relief exceeds the reliability cost of violating a constraint, the shadow price caps set the shadow price, which determines congestion prices at the locations that affect that constraint. [e11]
 
-In real time, SCED runs approximately every five minutes, or more frequently if necessary, and calculates LMPs and Real-Time MCPCs alongside Base Points and Ancillary Service awards. [e4] SCED's second step produces Base Points, Ancillary Service awards, Shadow Prices, Real-Time MCPCs and LMPs, subject to security constraints and other Resource constraints. [e5] In the day-ahead, np-04 uses a matching system-wide term: the DAM Shadow Price for the system power balance constraint for the hour. [e7]
+In real time, SCED runs approximately every five minutes, or more frequently if necessary, and calculates LMPs and Real-Time MCPCs alongside Base Points and Ancillary Service awards. [e4] SCED's second step produces Base Points, Ancillary Service awards, Shadow Prices, Real-Time MCPCs and LMPs, subject to security constraints and other Resource constraints. [e5] In the day-ahead, the Protocols define Day-Ahead System Lambda as the DAM Shadow Price for the system power balance constraint for the hour. [e7]
 
 LMPs are not what settles directly for most participants. Settlement Point Prices are calculated using LMP data. [e12] The Load Zone LMP is calculated for each SCED interval using State Estimator Load data and the LMPs at the Electrical Buses in the zone. [e9]
 
@@ -112,19 +112,19 @@ Real-time LMPs in ERCOT now come out of a SCED that also procures Ancillary Serv
 
 ## Say it like this
 
-An LMP is the marginal cost of serving one more MW at a specific bus: a system-wide energy price plus whatever the binding transmission constraints add or subtract at that location. ERCOT computes them every five minutes in real time and hourly in the day-ahead, and settlement prices are built from them.
+An LMP is the marginal cost of serving one more MW at a specific bus: a system-wide energy price plus whatever the binding transmission constraints add or subtract at that location. ERCOT computes them approximately every five minutes in real time [e4] and for each hour in the day-ahead [e7], and settlement prices are built from them. [e12]
 
 ## Common confusion
 
 - LMP versus Settlement Point Price: the LMP is the bus-level output of DAM or SCED, while the Settlement Point Price is the price actually used in Settlement, calculated from LMP data by formula. [e12] See the spp topic.
-- LMP versus System Lambda: System Lambda is only the energy component; the LMP at a given bus also reflects congestion, since the shadow price of a constraint sets congestion prices at the locations it affects. [e2][e11]
+- LMP versus System Lambda: System Lambda is only the energy component; the LMP at a given bus also reflects congestion, since the IMM says the shadow price of a violated constraint (set by the shadow price cap when relief costs more than the reliability cost) determines congestion prices at the locations it affects. [e2][e11]
 - The Real-Time Settlement Point Price includes the Reliability Deployment Price Adder for Energy; the LMP alone does not. [e8]
 
 ## Questions
 
 ### What are the components of an LMP?
 
-The protocol text identifies System Lambda as the energy component of LMP at each Settlement Point. [e2] System Lambda is the Shadow Price on the power balance constraint. [e2] The location-specific differences come from the Shadow Prices of binding constraints produced in the same optimization. [e5]
+The protocol text identifies System Lambda as the energy component of LMP at each Settlement Point. [e2] System Lambda is the Shadow Price on the power balance constraint. [e2] Shadow Prices are produced in the same optimization [e5], and the IMM says the shadow price of a violated constraint determines congestion prices at the locations that affect it. [e11]
 
 ### How often are real-time LMPs produced?
 

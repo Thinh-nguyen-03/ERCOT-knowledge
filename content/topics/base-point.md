@@ -45,7 +45,7 @@ evidence:
     quote: "(c) For Settlement purposes, if the Base Points are inconsistent with the Real-Time LMPs, ignoring the Real-Time Reliability Deployment Price Adder for Energy, or Ancillary Service awards are inconsistent with the Real-Time MCPCs, ignoring the Real-Time Reliability Deployment Price Adder for Ancillary Service, averaged over the 15-minute Settlement Interval, then ERCOT shall consider the relevant Settlement Interval(s) in accordance with Section 6.6.9, Emergency Operations Settlement."
   - id: e5
     source: np-06
-    locator: "Section 6.5.7.1, paragraph (1)"
+    locator: "Section 6.5.1.2, Centralized Dispatch, paragraph (1)"
     quote: "ERCOT shall centrally Dispatch Resources and Transmission Facilities under these Protocols, including deploying energy by establishing Base Points, and Emergency Base Points, and by deploying Regulation Service, ERCOT Contingency Reserve Service (ECRS), and Non-Spinning Reserve (Non-Spin) to ensure operational security."
   - id: e6
     source: np-06

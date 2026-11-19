@@ -132,6 +132,10 @@ evidence:
     source: imm-som-2025
     locator: "Chapter III, The AS Methodology and the Energy-Only Market (p. 48)"
     quote: "With RTC, a set of sloped ancillary service demand curves (ASDCs) defines shortage pricing in the day-ahead and real-time markets. These ASDCs are intended to reflect the marginal reliability value of reserves and define the penalty price when the market goes short on them."
+  - id: e25
+    source: puct-25-509
+    locator: "16 TAC §25.509(b)(6)(B)"
+    quote: "The high system-wide offer cap (HCAP) will be $5,000 per MWh for energy offers and $5,000 per MW per hour for ancillary service offers."
 ---
 
 ## Definition
@@ -142,9 +146,9 @@ This scenario is about how a battery owner chooses between energy and ancillary 
 
 The physical side moved into SCED. SCED now does SOC accounting and will not breach an ESR's telemetered minimum and maximum SOC. [e1] Awards are limited by qualification, telemetry, SOC, ramp rates and AS duration requirements, and one SCED run can award several AS types plus energy to the same ESR. Before RTC+B, the QSE had to hold back enough SOC itself. [e12] The real-time duration requirements are 5 minutes for energy, 30 minutes for RegUp and RRS, 1 hour for ECRS and 4 hours for NSRS. [e3] The ECRS requirement fell from two hours to one under NPRR 1282. [e18]
 
-The financial side is still yours. The DAM does not consider SOC when it clears energy and AS, so a QSE can oversell an ESR day-ahead. [e2] Day-ahead energy and AS awards are financial positions, and imbalances settle at real-time prices. [e5] Because RTC lets AS providers sell straight into real time, the IMM expected ESR AS offers in the DAM to increase to reflect higher risk and lower benefit. [e4]
+The financial side is still yours. The DAM does not consider SOC when it clears energy and AS, so a QSE can oversell an ESR day-ahead. [e2] Day-ahead energy and AS awards are financial positions, and imbalances settle at real-time prices. [e5] Because RTC lets AS providers sell straight into real time, the IMM expected ESR AS offer prices in the DAM to increase to reflect higher risk and lower benefit. [e4]
 
-Offers still have to manage time. SCED optimizes one five-minute interval at a time, so ESR owners must offer strategically to save SOC for higher-value intervals. [e9] Each ESR submits a single bid/offer curve that must not decrease from full charge to full discharge. [e14] Performance is checked more tightly: Set Point Deviation tolerances for ESRs are 3% or 3 MW. [e13]
+Offers still have to manage time. SCED optimizes one five-minute interval at a time, so ESR owners must offer strategically to save SOC for higher-value intervals. [e9] Each ESR submits a single bid/offer curve that must be monotonically nondecreasing from maximum charging MW to maximum discharging MW. [e14] Performance is checked more tightly: Set Point Deviation tolerances for ESRs are 3% or 3 MW. [e13]
 
 ## Key facts
 
@@ -153,7 +157,7 @@ Offers still have to manage time. SCED optimizes one five-minute interval at a t
 - ESR revenue per unit of capacity fell 37% in 2025 as AS revenue fell by the same amount. [e6]
 - In 2025 ESRs provided 94% of RegUp, 86% of Reg-Down, 51% of RRS, 42% of ECRS and 24% of NSRS. [e16]
 - 18% of ESR offers were at the SWCAP in 2025, down from 32% in 2024, partly to protect SOC. [e10]
-- The Real-Time SWCAP is $2,000/MWh after RTC+B (per ERCOT; the PUCT rule text still states a $5,000 HCAP), and more ESR capacity is offered within $100/MWh of it. [e11]
+- The Real-Time SWCAP is $2,000/MWh after RTC+B (per ERCOT; the PUCT rule text still states a $5,000 HCAP), and more ESR capacity is offered within $100/MWh of it. [e11][e25]
 
 ## Scenarios
 
@@ -165,7 +169,7 @@ Offers still have to manage time. SCED optimizes one five-minute interval at a t
 - Let SCED handle feasibility in real time: it will only award energy and AS that your SOC can sustain for each product's duration. [e1][e12]
 - Match products to duration. At 100 MW, a 1-hour ECRS duration needs about 100 MWh, while a 4-hour NSRS duration would need about 400 MWh, more than the 200 MWh battery holds. [e3]
 - Be careful day-ahead. The DAM ignores SOC, so selling more than you can deliver leaves you buying back at real-time prices. [e2][e5]
-- Consider skipping DAM AS sales. RTC lets AS providers sell AS directly into real time, and the IMM expected ESR day-ahead AS offers to increase. [e4]
+- Consider skipping DAM AS sales. RTC lets AS providers sell AS directly into real time, and the IMM expected ESR day-ahead AS offer prices to increase to reflect the higher risk and lower benefit of selling AS there. [e4]
 - Shape the offer curve. SCED looks one interval ahead only, so price discharge high enough to keep energy for the peak; remember the Real-Time SWCAP is now $2,000/MWh. [e9][e11]
 - Keep the COP SOC accurate. RUC uses it to limit what each ESR can do, and the IMM reports aggregate COP SOC overestimated by about 874 MWh on average, which has been suggested as one factor in the jump in RUC commitments from 2024 to 2025. [e19][e23]
 - Suppose (illustrative): you charge 200 MWh at $5/MWh and, using the 85% round-trip efficiency the IMM cites from NREL, discharge about 170 MWh at $120/MWh. [e22] The spread earns about $20,400 minus $1,000 of charging cost, roughly $19,400 for the day, compared with whatever AS would have paid for the same capacity.

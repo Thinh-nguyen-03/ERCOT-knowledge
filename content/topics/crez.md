@@ -78,7 +78,7 @@ evidence:
 
 ## Definition
 
-Competitive Renewable Energy Zones (CREZ) were zones for which the Texas Legislature, via SB 408 in 2005, directed the PUCT to facilitate the design and construction of new transmission. [e1] SB 408 provided authority for the PUCT to direct ERCOT to plan for transmission to connect approximately 18 GW of wind capacity. [e3] The PUCT's rule, 16 TAC 25.174, sets out how zones were designated and how transmission for them was ordered and built. [e4][e7]
+Competitive Renewable Energy Zones (CREZ) were zones for which, according to a University of Texas timeline, the Texas Legislature, via SB 408 in 2005, directed the PUCT to facilitate the design and construction of new transmission. [e1] SB 408 provided authority for the PUCT to direct ERCOT to plan for transmission to connect approximately 18 GW of wind capacity. [e3] The PUCT's rule, 16 TAC 25.174, sets out how zones were designated and how transmission for them was ordered and built. [e4][e7]
 
 ## How it works
 
@@ -86,7 +86,7 @@ The mechanism began legislatively: SB 408 designated the framework and authorize
 
 Under the PUCT rule, zones are designated through contested-case proceedings that commission staff initiate. [e4] ERCOT had to give the commission a study of statewide wind production potential and the transmission constraints most likely to limit deliverability. [e5] The commission issues a final order within six months of the proceeding's start, unless it finds good cause to extend, and each order specifies the geographic extent of the CREZ. [e6] The commission selects the entity or entities responsible for constructing the transmission improvements and establishes a completion schedule. [e7]
 
-Financial commitment for a CREZ is sufficient to grant CCNs for its transmission facilities if the sum of renewable generating capacity under any combination of the rule's paragraph (3)(A) to (D) categories is at least 50% of the zone's designated capacity. [e8] The rule fixes 50% at 1,595.5 MW for Panhandle A and 1,196.5 MW for Panhandle B. [e9] Collateral is $15,350 per MW, or $10,000 per MW where supported by long-term land leases. [e10]
+Financial commitment for a CREZ is sufficient to grant CCNs for its transmission facilities if the sum of renewable generating capacity under any combination of the rule's paragraph (3)(A) to (D) categories is at least 50% of the zone's designated capacity. [e8] The rule fixes 50% at 1,595.5 MW for Panhandle A and 1,196.5 MW for Panhandle B. [e9] A renewable generator that elects to post collateral under paragraph (3)(D) must post $15,350 per MW of planned project capacity, or $10,000 per MW where the capacity is supported by leasing agreements of at least 20 years. [e10]
 
 ## ERCOT context
 
@@ -98,7 +98,7 @@ By the end of 2020, approximately 25,000 MW of wind and 4,000 MW of solar photov
 - Transmission planning was for roughly 18 GW of wind capacity. [e3]
 - Zones are designated in PUCT contested cases, with a final order due within six months unless extended. [e4][e6]
 - Financial commitment threshold: at least 50% of designated capacity (1,595.5 MW for Panhandle A, 1,196.5 MW for Panhandle B). [e8][e9]
-- Collateral for planned projects: $15,350 per MW, or $10,000 per MW with 20-year land leases. [e10]
+- Collateral for a generator electing to post it under paragraph (3)(D): $15,350 per MW of planned capacity, or $10,000 per MW with leases of at least 20 years. [e10]
 - End of 2020: about 25,000 MW of wind and 4,000 MW of solar PV installed in ERCOT. [e2]
 
 ## Say it like this

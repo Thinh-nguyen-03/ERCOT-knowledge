@@ -13,7 +13,7 @@ links:
     note: Load Profile IDs are assigned to individual ESI IDs. [e4]
   - to: ams-meters
     type: contrasts-with
-    note: Advanced meters supply actual 15-minute intervals; profiles fill in where those are not received. [e2]
+    note: Load Profiling is used when ERCOT does not receive 15-minute Settlement Interval consumption data. [e2]
   - to: lse
     type: related
     note: Aggregated profiled load is allocated to QSE and LSE settlement responsibilities. [e6]
@@ -77,7 +77,7 @@ A Load Profile represents the energy usage of a group of customers, showing dema
 
 The retail market requires 15-minute settlement intervals. Load profiling is a cost-effective way to estimate and allocate 15-minute load for ESI IDs when ERCOT does not receive 15-minute consumption data. [e2] For non-interval metered loads, profiles come from statistical "adjusted static" models built from load research samples and tied to weather descriptors such as temperature and humidity. [e3] Non-metered loads such as streetlights use engineering estimates. [e9]
 
-Profile application takes an ESI ID's aggregated usage for a period, usually a month, divides it by the profile class's usage for the same period, and scales the daily load profile by the result to produce interval data. [e8] These intervals feed Data Aggregation, which applies profiles, loss factors and unaccounted-for-energy allocation to determine QSE and LSE responsibility by settlement interval and settlement point. [e6]
+For non-interval data, profile application takes an ESI ID's aggregated usage for a period, usually a month, divides it by the profile class's usage for the same period, and scales the daily load profile by the result to produce interval data. [e8] These intervals feed Data Aggregation, which applies profiles, loss factors and unaccounted-for-energy allocation to determine QSE and LSE responsibility by settlement interval and settlement point. [e6]
 
 ## ERCOT context
 
@@ -92,11 +92,11 @@ Each ESI ID is assigned a Weather Zone by TDSPs based on service address ZIP cod
 
 ## Say it like this
 
-(Guidance) For customers without interval meters, ERCOT builds a 15-minute load shape from a weather-driven profile and scales it to the customer's metered usage. Profiled load then rolls up to each retailer's settlement position.
+(Guidance) Where ERCOT does not receive 15-minute consumption data, it applies a Load Profile and scales it to the ESI ID's usage. [e2][e8] For non-interval metered Loads the profile comes from weather-related models. [e3] Profiled load then goes into Data Aggregation, which determines each QSE and LSE's responsibility by Settlement Interval. [e6]
 
 ## Common confusion
 
-(Guidance) A profile is not that customer's own interval data: it is a class shape scaled to the ESI ID's usage. [e8] It is also not used where actual interval data is received. [e2]
+(Guidance) A profile is not that customer's own interval data: it is a class shape scaled to the ESI ID's usage. [e8] Load Profiling is implemented for cases where ERCOT does not receive 15-minute Settlement Interval consumption data. [e2]
 
 ## Questions
 

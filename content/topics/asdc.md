@@ -22,7 +22,7 @@ links:
     note: Leftover AORDC volume is assigned to the Non-Spin curve, so the market buys Non-Spin above plan. [e9][e13]
   - to: ruc
     type: related
-    note: The $15 floor on ASDCs is based on ERCOT's view of what is needed to avoid RUC for reserves. [e10][e14]
+    note: The protocol bases the $15 ASDC floor on ERCOT's assessment of the need for a floor price on the ASDC for RUC; the IMM says ERCOT added it to avoid shortages that would prompt RUC. [e10][e14]
   - to: offer-cap
     type: related
     note: The VOLL used to build the ASDCs is set to the day-ahead HCAP. [e11][e12]
@@ -77,7 +77,7 @@ evidence:
   - id: e12
     source: np-04
     locator: "Section 4.4.11, parameter table"
-    quote: "HCAP – DAM (DASWCAP)                                                                                                                                                                                                                                                                                                                                                         $/MWh         5,000"
+    quote: "HCAP – DAM (DASWCAP) $/MWh 5,000 HCAP – RTM (RTSWCAP) $/MWh 2,000"
   - id: e13
     source: imm-som-2025
     locator: "Appendix, D. AS Shortages (p. A-7)"
@@ -132,13 +132,13 @@ Reg-Down has its own simple curve: a constant price equal to VOLL across its ful
 
 The protocols define a Minimum Contingency Level (MCL) of 3,000 MW. [e7] For quantities up to the MCL, the maximum demand prices are Reg-Up at VOLL + 4,052, RRS at VOLL + 2,051, ECRS at VOLL + 50, and Non-Spin at VOLL. [e8] In the later steps of the split, remaining 1 MW segments of the AORDC go to ECRS and Non-Spin alternately until both requirements are met, and any remaining segments priced above $0.01/MWh go to Non-Spin. [e9]
 
-Every ASDC has a floor of $15 per MW per hour over the part of the curve that matches the AS Plan. ERCOT set this floor based on its view of what is needed to avoid using RUC for reserves. [e10] The VOLL used to build the curves is set to the day-ahead HCAP. [e11] The protocol table lists the day-ahead HCAP at $5,000/MWh (the real-time cap is listed at $2,000; see the offer-cap topic). [e12]
+Every ASDC has a floor of $15 per MW per hour over the part of the curve that matches the AS Plan. The protocol says the floor is based on ERCOT's assessment of the need for a floor price on the ASDC for RUC. [e10] The VOLL used to build the curves is set to the day-ahead HCAP. [e11] The protocol table lists the day-ahead HCAP at $5,000/MWh (the real-time cap is listed at $2,000; see the offer-cap topic). [e12]
 
 ## ERCOT context
 
 The aggregation rule has visible effects. The AORDC runs to 10,000 MW, but the combined AS Plan for the four up-reserves is often smaller. The leftover volume is added to the Non-Spin (NSRS) curve, so the real-time market buys more NSRS than the plan calls for. [e13]
 
-ERCOT added the $15/MWh floor on AS shortages through NPRR 1269, and ERCOT argues it reduces the likelihood of real-time AS shortages that would prompt RUC commitments. [e14][e20] The IMM calls the resulting reserve policy excessively conservative and says it suppresses price signals. [e19] It recommends dropping the rule that the ASDCs must add up to the AORDC and instead building each curve from the reliability value of its own product. [e15]
+According to the IMM, ERCOT added the $15/MWh floor on AS shortages through NPRR 1269, and ERCOT argues it reduces the likelihood of real-time AS shortages that would prompt RUC commitments. [e14][e20] The IMM calls the resulting reserve policy excessively conservative and says it suppresses price signals. [e19] It recommends dropping the rule that the ASDCs must add up to the AORDC and instead building each curve from the reliability value of its own product. [e15]
 
 ## Key facts
 
@@ -169,7 +169,7 @@ The up-reserve ASDCs must add up to a 10,000 MW AORDC. When the AS Plan is small
 
 ### What is the $15 ASDC floor and why is it controversial?
 
-No point on any ASDC can fall below $15 per MW per hour over the AS Plan quantity. [e10] ERCOT introduced it through NPRR 1269 to avoid shortages that would lead operators to use RUC. The IMM calls it part of an excessively conservative reserve policy that suppresses price signals. [e14][e19]
+No point on any ASDC can fall below $15 per MW per hour over the AS Plan quantity. [e10] According to the IMM, ERCOT introduced it through NPRR 1269 to avoid shortages that would lead operators to use RUC, and the IMM calls it part of an excessively conservative reserve policy that suppresses price signals. [e14][e19]
 
 ### What does the IMM want changed?
 

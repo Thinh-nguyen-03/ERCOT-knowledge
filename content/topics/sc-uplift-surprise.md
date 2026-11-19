@@ -144,7 +144,7 @@ Step 4, explain the timing and sign. ERCOT issues the RTM Initial Statement on t
 - 2025 RMR uplift: about $68 million, for RMR resources of around 730 MW. [e12]
 - 2025 FFSS uplift: $45.9 million, up 36% from $33.8 million in 2024. [e4]
 - 2025 RUC: 5,129 resource-hours; make-whole above $21 million; claw-backs $4.5 million. [e11][e9]
-- 2025 Revenue Neutrality Uplift in the IMM's annual table: $154 million. [e14]
+- 2025 Revenue Neutrality Uplift in the IMM's annual table: $154 million. [e14][e22]
 
 ## Say it like this
 

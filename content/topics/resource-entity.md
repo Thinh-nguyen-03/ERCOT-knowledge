@@ -62,7 +62,7 @@ evidence:
   - id: e9
     source: np-16
     locator: "Section 16.2.6.1(3)"
-    quote: "If ERCOT has given Notice of an LSE’s or Resource Entity’s QSE’s termination or suspension, that LSE or Resource Entity will be designated as a Virtual QSE for up to two Bank Business Days, during which time it must either: (a) Designate and begin operations with a new QSE; or (b) Satisfy all necessary creditworthiness requirements for QSEs as described in Section 16.2, and operate as an Emergency QSE as described below."
+    quote: "If ERCOT has given Notice of an LSE’s or Resource Entity’s QSE’s termination or suspension, that LSE or Resource Entity will be designated as a Virtual QSE for up to two Bank Business Days, during which time it must either: (a) Designate and begin operations with a new QSE; or (b) Satisfy all necessary creditworthiness requirements for QSEs as described in Section 16.2, and operate as an Emergency QSE as described below. As provided in paragraph (2) of Section 16.2.5, Suspended or Terminated Qualified Scheduling Entity – Notification to LSEs and Resource Entities Represented, this option does not apply to an LSE or Resource Entity represented by a terminated or suspended QSE that is the same Entity as the terminated or suspended QSE."
 ---
 
 ## Definition
@@ -73,7 +73,7 @@ A Resource Entity is an Entity that owns or controls a Generation Resource, an E
 
 Every Resource Entity operating in the ERCOT Region must register with ERCOT. [e2] To register it must execute the Standard Form Market Participant Agreement, name its Authorized Representatives, contacts and a User Security Administrator, and show ERCOT it can perform the functions of a Resource Entity under the Protocols. [e3] Before commissioning, Resource Entities regularly update the data ERCOT needs for modeling. [e5]
 
-A Resource Entity is the owner/controller role. A QSE is qualified to communicate with ERCOT for Resource Entities and to settle payments and charges with ERCOT. [e8] If ERCOT gives notice of a Resource Entity's QSE's termination or suspension, the Resource Entity is designated a Virtual QSE for up to two Bank Business Days, during which it must designate a new QSE or satisfy QSE creditworthiness requirements and operate as an Emergency QSE. [e9][e4] If an Emergency QSE that is a Resource Entity cannot meet the requirements in time, ERCOT may give it more time. [e6]
+A Resource Entity is the owner/controller role. A QSE is qualified to communicate with ERCOT for Resource Entities and to settle payments and charges with ERCOT. [e8] If ERCOT gives notice of a Resource Entity's QSE's termination or suspension, the Resource Entity is designated a Virtual QSE for up to two Bank Business Days, during which it must designate a new QSE or satisfy QSE creditworthiness requirements and operate as an Emergency QSE, except that the Emergency QSE option does not apply to a Resource Entity that is itself the terminated or suspended QSE. [e9][e4] If an Emergency QSE that is a Resource Entity cannot meet the requirements in time, ERCOT may give it more time. [e6]
 
 ## ERCOT context
 
@@ -83,7 +83,7 @@ The word "Resource" used alone in the Protocols covers ESRs, Generation Resource
 
 - Owns or controls a Generation Resource, ESR, SOG or Load Resource. [e1]
 - Must register with ERCOT, with a Standard Form Market Participant Agreement. [e2][e3]
-- Is designated a Virtual QSE for up to two Bank Business Days if ERCOT gives notice of its QSE's termination or suspension. [e9]
+- Is designated a Virtual QSE for up to two Bank Business Days if ERCOT gives notice of its QSE's termination or suspension (the Emergency QSE option does not apply if it is itself the terminated or suspended QSE). [e9]
 - ERCOT may give an Emergency QSE that is a Resource Entity extra time to fix its QSE arrangements. [e6]
 
 ## Say it like this
@@ -98,7 +98,7 @@ The word "Resource" used alone in the Protocols covers ESRs, Generation Resource
 
 ### What happens when a Resource Entity's QSE terminates?
 
-The Resource Entity is designated a Virtual QSE for up to two Bank Business Days, during which it must designate a new QSE or satisfy QSE creditworthiness requirements and operate as an Emergency QSE. [e9][e4] If it ends up as an Emergency QSE and cannot meet the requirements in time, ERCOT may allow additional time. [e6]
+The Resource Entity is designated a Virtual QSE for up to two Bank Business Days, during which it must designate a new QSE or satisfy QSE creditworthiness requirements and operate as an Emergency QSE, except that the Emergency QSE option does not apply to a Resource Entity that is itself the terminated or suspended QSE. [e9][e4] If it ends up as an Emergency QSE and cannot meet the requirements in time, ERCOT may allow additional time. [e6]
 
 ### Why isn't an SOG a "Resource" if the Resource Entity owns it?
 

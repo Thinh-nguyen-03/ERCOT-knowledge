@@ -105,12 +105,12 @@ Levels do not always happen in order: some steps do not apply when there are tra
 
 ## ERCOT context
 
-For load shed, ERCOT gives each utility a megawatt reduction amount based on its percentage of historic peak demand, and each utility decides how to meet it. [e13] ERCOT's own overview lists four controlled-outage events: 500 MW in December 1989, 1,000 MW in April 2006, 4,000 MW in February 2011 and 20,000 MW in February 2021. [e9] The PUCT's scarcity pricing rule defines "emergency operations" as ERCOT entering any level of EEA, [e11]
+For load shed, ERCOT gives each utility a megawatt reduction amount based on its percentage of historic peak demand, and each utility decides how to meet it. [e13] ERCOT's own overview lists four controlled-outage events: 500 MW in December 1989, 1,000 MW in April 2006, 4,000 MW in February 2011 and 20,000 MW in February 2021. [e9] The PUCT's scarcity pricing rule defines "emergency operations" as ERCOT entering any level of EEA. [e11]
 
 ## Key facts
 
 - EEA Level 1 trigger: PRC below 2,500 MW and not projected to recover above 2,500 MW within 30 minutes. [e3]
-- EEA Level 2 trigger: PRC below 2,000 MW on the same 30-minute test, or frequency below 59.91 Hz for 15 consecutive minutes. [e5]
+- EEA Level 2 trigger: PRC below 2,000 MW on the same 30-minute test; ERCOT may also declare it when clock-minute average frequency is below 59.91 Hz for 15 consecutive minutes. [e5]
 - EEA Level 3 trigger: PRC cannot be held above 1,500 MW, or frequency below 59.91 Hz for 25 consecutive minutes (may declare at 20 minutes, or steady-state frequency below 59.8 Hz). [e6]
 - Level 3 load shed is directed to transmission owners in 100 MW blocks. [e7]
 - ERCOT says it has about 2,500 MW of additional capacity available when it enters emergency conditions. [e12]
@@ -118,7 +118,7 @@ For load shed, ERCOT gives each utility a megawatt reduction amount based on its
 
 ## Say it like this
 
-An EEA is ERCOT's three-step emergency ladder, keyed to how much responsive capacity is left on the system and to frequency. Level 3 is the one where firm load is shed, and the protocol says the levels do not have to be reached in sequence. [e6][e8]
+An EEA is ERCOT's three-step emergency ladder, keyed to how much responsive capacity is left on the system and to frequency. Level 3 is the one where firm load is shed, and the protocol says the levels do not have to be reached in sequence. [e6][e7][e8]
 
 ## Common confusion
 
@@ -128,7 +128,7 @@ An EEA is not the same as load shed: Levels 1 and 2 use extra supply and demand-
 
 ### What triggers each EEA level?
 
-Level 1 is PRC below 2,500 MW and not expected to recover within 30 minutes; Level 2 is PRC below 2,000 MW on the same test, or frequency below 59.91 Hz for 15 minutes; Level 3 is PRC that cannot be kept above 1,500 MW, or frequency below 59.91 Hz for 25 minutes. [e3][e5][e6]
+Level 1 is PRC below 2,500 MW and not expected to recover within 30 minutes; Level 2 is PRC below 2,000 MW on the same test (ERCOT may also declare it at frequency below 59.91 Hz for 15 minutes); Level 3 is PRC that cannot be kept above 1,500 MW, or frequency below 59.91 Hz for 25 minutes. [e3][e5][e6]
 
 ### What does ERCOT do at each level?
 

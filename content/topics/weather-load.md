@@ -98,7 +98,7 @@ In the IMM's State of the Market reports, weather's effect on electricity use is
 
 ## How it works
 
-In ERCOT's long-term forecasting, hourly load models use weather variables such as temperature values alongside premises and calendar variables. [e15] The forecast is built by applying weather data from each historical year (2008 through 2024) one at a time. [e9] The operational Seven-Day Load Forecast is driven by current weather forecast parameters for each Weather Zone. [e7]
+In ERCOT's long-term forecasting, the base load forecast uses econometric models of hourly load with weather variables such as temperature values alongside premises and calendar variables. [e15] In the 2025 report, each weather zone's forecast is built by applying weather data from each historical year (2008 through 2024) one at a time. [e9] The operational Seven-Day Load Forecast is driven by current weather forecast parameters for each Weather Zone. [e7]
 
 Weather moves peak demand year to year while the underlying trend keeps growing. In 2024 average demand rose about 3.5% but peak demand fell 0.3% because of less extreme summer heat. [e3] In 2025 average load rose 6.1% while peak load fell 1.8%. [e4]
 
@@ -118,7 +118,7 @@ Weather also acts on supply. The IMM notes that rising ambient temperatures gene
 
 ## Say it like this
 
-(Guidance) Load has two drivers: a steady structural climb from population, industry and large loads, and a weather overlay measured in degree days. Peak records need both a high base and heat, which is why a milder summer can show a lower peak even when average load is growing.
+(Guidance) Load has two drivers: a steady structural climb in average load [e3][e4], and a weather overlay measured in degree days [e1]. Peak records need both a high base and heat, which is why a milder summer can show a lower peak even when average load is growing.
 
 ## Common confusion
 

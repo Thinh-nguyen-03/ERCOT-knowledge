@@ -123,7 +123,7 @@ Winter Storm Fern was the January 2026 cold weather and freezing precipitation e
 
 ## How it works
 
-Demand came in below forecast. ERCOT's peak forecast was 84,500 MW, but the maximum unofficial instantaneous peak was 75,922 MW, not a new winter record. [e6][e4] ERCOT's post-event report says demand was lower than forecast mainly because of two factors, slightly warmer weather in some areas and widespread school and business closures, and the Board update says oil and gas began reducing about 4,200 MW and cryptocurrency mining about 4,100 MW. [e3][e19][e16][e5]
+Demand came in below forecast. ERCOT's peak forecast was 84,500 MW, a figure that assumed no demand response, but the maximum unofficial instantaneous peak was 75,922 MW, not a new winter record. [e6][e4] ERCOT's post-event report says demand was lower than forecast mainly because of two factors, slightly warmer weather in some areas and widespread school and business closures, and the Board update says oil and gas began reducing about 4,200 MW and cryptocurrency mining about 4,100 MW. [e3][e19][e16][e5]
 
 On supply, about 13.5 GW of wind nameplate was unavailable due to icing, though the actual lost output was smaller because wind speeds were low. [e15] FFSS kept 340 MW of gas-restricted units running. [e8] After a large unit in Central Texas tripped, the South Texas Export IROL was briefly exceeded, and a localized transmission emergency ran from 9:04 PM on January 25 to 10:00 AM on January 26 in the San Antonio to Houston area, and ERCOT says RTC redistributed ancillary services to reduce the manual action needed. [e17][e13][e7]
 
@@ -136,7 +136,7 @@ What changed: ERCOT's October 2026 forced outage review counts 107 wind and sola
 ## Key facts
 
 - No conservation call, no EEA, no systemwide outages. [e1]
-- Peak forecast 84,500 MW versus a maximum unofficial instantaneous peak of 75,922 MW. [e6][e4]
+- Peak forecast 84,500 MW (assuming no demand response) versus a maximum unofficial instantaneous peak of 75,922 MW. [e6][e4]
 - About 13.5 GW of wind nameplate unavailable due to icing. [e15]
 - FFSS kept 340 MW of units running. [e8]
 - 42% of post-RTC RUC commitments (December 5, 2025 to February 2026) occurred during Fern (IMM). [e10]
@@ -150,7 +150,7 @@ What changed: ERCOT's October 2026 forced outage review counts 107 wind and sola
 
 ## Say it like this
 
-(Guidance) Fern was a real cold-and-ice test but a grid ERCOT managed without an EEA or conservation call, and the maximum unofficial instantaneous peak was about 8.6 GW below the forecast peak, with closures, milder weather in some areas and oil, gas and crypto reductions cited. [e1][e6][e4][e3][e5] Its market footprint shows up mainly in day-ahead ancillary service premiums and RUC in the first winter of RTC+B. [e9][e10]
+(Guidance) Fern was a real cold-and-ice test but a grid ERCOT managed without an EEA or conservation call, and the maximum unofficial instantaneous peak was about 8.6 GW below the forecast peak (84,500 MW forecast, which assumed no demand response, minus 75,922 MW), with closures, milder weather in some areas and oil, gas and crypto reductions cited. [e1][e6][e4][e3][e5] Its market footprint shows up mainly in day-ahead ancillary service premiums and RUC in the first winter of RTC+B. [e9][e10]
 
 ## Common confusion
 

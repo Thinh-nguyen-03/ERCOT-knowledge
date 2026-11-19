@@ -89,7 +89,7 @@ An ELSE assigns an ESI ID for each wholesale point of delivery. [e6]
 
 "Competitive Retailer" is itself a defined term: a REP, or an MOU or EC that offers Customer Choice and sells at retail. [e2] So the LSE label covers Competitive Retailers (REPs, and MOUs or ECs that offer Customer Choice), NOIEs that serve Load, and ELSEs. [e1][e2]
 
-If an LSE loses its QSE and does not cure the QSE Affiliation Breach, and it serves Load, ERCOT initiates a Mass Transition of the LSE's ESI IDs. [e10] An LSE without a QSE may be designated an Emergency QSE. [e9]
+If an LSE's QSE failure becomes a QSE Affiliation Breach that it does not cure within the cure period, and it serves Load, ERCOT shall, after notice, initiate a Mass Transition of the LSE's ESI IDs. [e10] An LSE without a QSE may be designated an Emergency QSE. [e9]
 
 ## Key facts
 
@@ -101,7 +101,7 @@ If an LSE loses its QSE and does not cure the QSE Affiliation Breach, and it ser
 
 ## Say it like this
 
-(Guidance) "LSE" is the wholesale-market label for whoever sells energy to end customers or wholesale customers: retailers, non-opt-in utilities and external load serving entities. It has to register with ERCOT and be represented by a QSE.
+(Guidance) "LSE" is the ERCOT registration label for an Entity that sells energy to Customers or Wholesale Customers: retailers, non-opt-in entities that serve Load, and external load serving entities. [e1] It has to register with ERCOT [e4] and designate a QSE. [e3]
 
 ## Common confusion
 

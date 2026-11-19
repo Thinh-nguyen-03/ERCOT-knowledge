@@ -90,7 +90,7 @@ Resource Entities own or control these types. [e7]
 
 Distribution-connected generation has its own split: a Distribution Generation Resource is a Generation Resource connected to the Distribution System, while a Settlement Only Distribution Generator is a generator connected to the Distribution System with a defined rating. [e5][e6] The size tests are in the dgr-sodg topic.
 
-Pending change: NPRR995 would, upon system implementation, add a Settlement Only Energy Storage System to the list excluded from the bare term "Resource" and would delete the SOG definition, among others. [e10][e11] This is not yet in effect.
+Pending change: NPRR995 would, upon system implementation, add a Settlement Only Energy Storage System to the list excluded from the bare term "Resource" and would delete the SOG definition (as the saved note states). [e10][e11] This is not yet in effect.
 
 ## Key facts
 

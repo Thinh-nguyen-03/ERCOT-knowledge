@@ -93,6 +93,14 @@ evidence:
     source: np-07
     locator: "Section 7.5.1, Nature and Timing, paragraph (4)(b)"
     quote: "Twice per year, a CRR Long-Term Auction Sequence shall be held, selling PTP Options and PTP Obligations, subject to the following constraints:"
+  - id: e19
+    source: np-07
+    locator: "Section 7.9.1.1, paragraph (2)"
+    quote: "For PTP Obligations that have a positive value and sink at a Resource Node, the PTP Obligation payment may be reduced due to directional network elements that are oversold in previous Congestion Revenue Right (CRR) Auctions."
+  - id: e20
+    source: np-07
+    locator: "Section 7.9.1.2, paragraph (2)"
+    quote: "For PTP Options that sink at a Resource Node, the PTP Option payment may be reduced due to Transmission Elements that are oversold in previous CRR Auctions."
   - id: e13
     source: imm-som-2025
     locator: "Transmission Congestion and CRRs, Highlights"
@@ -117,7 +125,7 @@ CRRs can be acquired in the CRR Auction (ERCOT also lets owners sell CRRs there)
 
 A CRR runs from a designated source Settlement Point to a different sink Settlement Point; the exception is a Flowgate Right, which names a network element instead. [e7] A PTP Option only pays: the holder receives the positive sink-minus-source price difference. [e5][e6] A PTP Obligation can produce either a payment or a charge. [e5]
 
-In the DAM, a PTP Obligation owner is paid or charged the Day-Ahead Settlement Point Price difference between sink and source, and a PTP Option owner is paid that difference if it is positive. [e11][e12]
+In the DAM, a PTP Obligation owner is paid or charged the Day-Ahead Settlement Point Price difference between sink and source, and a PTP Option owner is paid that difference if it is positive. [e11][e12] Those payments can be reduced when the CRR sinks at a Resource Node and the transmission elements were oversold in earlier CRR Auctions. [e19][e20]
 
 Net auction revenue from CRRs sourcing and sinking in the same 2003 congestion management zone is credited to QSEs in that zone by zonal Load Ratio Share, and all other net auction revenue is allocated by ERCOT-wide Load Ratio Share. [e10]
 
@@ -156,7 +164,7 @@ Through the CRR Auction, a PCRR allocation (for eligible municipal utilities and
 
 ### Where does the money from CRR auctions go?
 
-It is credited to QSEs on a Load Ratio Share basis, zonal for same-zone paths and ERCOT-wide for the rest. [e10]
+It is credited to QSEs on a Load Ratio Share basis: zonal for CRRs that source and sink within the same 2003 congestion management zone, and ERCOT-wide for the rest. [e10]
 
 ## Open items
 

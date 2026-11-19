@@ -83,7 +83,7 @@ evidence:
 
 ## Definition
 
-Regulation Up Service (Reg-Up) is a service that provides capacity that can respond to signals from ERCOT within five seconds to respond to changes from scheduled system frequency. [e1] Regulation Down (Reg-Down) is the matching capacity below a resource's Base Point, down to its low limit. [e3]
+Regulation Up Service (Reg-Up) is a service that provides capacity that can respond to signals from ERCOT within five seconds to respond to changes from scheduled system frequency. [e1] Regulation Down (Reg-Down) is the matching capacity below a Generation Resource's Base Point, down to its low limit, that may be called on to change output to maintain system frequency. [e3]
 
 ## How it works
 

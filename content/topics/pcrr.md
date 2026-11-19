@@ -67,6 +67,10 @@ evidence:
     source: np-02
     locator: "Section 2.1, definition of PCRR Nomination Year"
     quote: "The calendar year that is three years after the year containing a PCRR nomination process."
+  - id: e11
+    source: np-07
+    locator: "Section 7.4.2.2, paragraph (1)(g)(iii), PCRR charges"
+    quote: "For a NOIE that has chosen the refund option, the allocated number of PCRRs for Resources other than solid-fuel and combined-cycle Resources are provided at no charge."
 ---
 
 ## Definition
@@ -93,11 +97,11 @@ The IMM says PCRR holders pay only a fraction of the auction value of comparable
 
 ## Say it like this
 
-PCRRs are legacy congestion hedges given to co-ops and municipal utilities for plants and contracts that predate the market. They pay a fraction of the auction price for them.
+PCRRs are legacy congestion hedges given to co-ops and municipal utilities for plants and contracts that predate the market. The IMM says holders pay only a fraction of the auction value, and under the Protocols some refund-option PCRRs carry no charge.
 
 ## Common confusion
 
-PCRRs are allocated rather than bought in the auction, but they are not free: the IMM says holders pay a fraction of comparable auction value. [e7] They are also unrelated to retail electric providers: only NOIEs qualify. [e2][e3]
+PCRRs are allocated rather than bought in the auction, but whether they are free depends on the option: the IMM says holders pay a fraction of comparable auction value [e7], while the Protocols say refund-option PCRRs for Resources other than solid-fuel and combined-cycle Resources are provided at no charge. [e11] They are also unrelated to retail electric providers: only NOIEs qualify. [e2][e3]
 
 ## Questions
 

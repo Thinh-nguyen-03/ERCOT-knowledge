@@ -19,7 +19,7 @@ links:
     note: REPs exist because Texas gave most retail customers a choice of provider from January 1, 2002. [e5]
   - to: tdsp
     type: contrasts-with
-    note: A TDU may not sell electricity, and a REP may not own generation. [e2][e7]
+    note: After January 1, 2002 a transmission and distribution utility may not sell electricity except to buy for its own needs, and a REP may not own generation. [e2][e7]
   - to: esi-id
     type: related
     note: Each ESI ID has at most one REP of record at a time. [e8]

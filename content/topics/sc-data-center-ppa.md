@@ -13,7 +13,7 @@ links:
     note: A Large Load is a site with aggregate peak Demand of 75 MW or more, and a studied load may receive its full request, a partial allocation, or wait for a later batch. [e1][e9]
   - to: sb6
     type: regulates
-    note: SB 6 requires the PUCT to set a 75 MW threshold and a study fee of at least $100,000, and lets the independent organization direct large loads to deploy backup generation or curtail. [e3][e4][e6]
+    note: SB 6 requires the PUCT to set a 75 MW threshold and a study fee of at least $100,000, and lets the independent organization direct large loads with on-site backup generation to deploy it or curtail. [e3][e4][e6]
   - to: long-term-load-forecast
     type: affects
     note: The preliminary 2026 LTLF peak load is 278,003 MW in 2029, and ERCOT said it had concerns with using these values. [e12]
@@ -59,11 +59,11 @@ evidence:
   - id: e6
     source: sb6-89r
     locator: "SB 6 Section 2, PURA §37.0561(e)"
-    quote: "After the independent organization deploys all available market services, except for frequency responsive services, the independent organization may direct the applicable electric utility or municipally owned utility to require the large load customer to either deploy the customer's on-site backup generating facilities or curtail load."
+    quote: "For the purposes of this subsection, \"on-site backup generating facilities\" means generation that is not capable of exporting energy to the ERCOT transmission grid and that, in the aggregate, can serve at least 50 percent of on-site demand. The independent organization shall establish a threshold before or during an energy emergency alert at which the organization may issue reasonable notice that large load customers with on-site backup generating facilities may be directed to either deploy the customer's on-site backup generating facilities or curtail load. After the independent organization deploys all available market services, except for frequency responsive services, the independent organization may direct the applicable electric utility or municipally owned utility to require the large load customer to either deploy the customer's on-site backup generating facilities or curtail load."
   - id: e7
     source: sb6-89r
     locator: "SB 6 Section 4, PURA §39.170(a)"
-    quote: "The commission shall require the independent organization certified under Section 39.151 for the ERCOT power region to ensure that each electric cooperative, transmission and distribution utility, and municipally owned utility serving a transmission-voltage customer develops a protocol, including the installation of any necessary equipment or technology before the customer is interconnected, to allow the load to be curtailed during firm load shed."
+    quote: "The commission shall require the independent organization certified under Section 39.151 for the ERCOT power region to ensure that each electric cooperative, transmission and distribution utility, and municipally owned utility serving a transmission-voltage customer develops a protocol, including the installation of any necessary equipment or technology before the customer is interconnected, to allow the load to be curtailed during firm load shed. The electric cooperative, transmission and distribution utility, or municipally owned utility shall confer with the customer to the extent feasible to shed load in a coordinated manner. This subsection applies only to a load interconnected after December 31, 2025, that is not: (1) load operated by a critical load industrial customer, as defined by Section 17.002; or (2) designated as a critical natural gas facility under Section 38.074."
   - id: e8
     source: sb6-89r
     locator: "SB 6 Section 4, PURA §39.169(a)"
@@ -115,7 +115,7 @@ evidence:
   - id: e20
     source: ercot-summer-2026-review
     locator: "Slide 4, Key Takeaway on 2026 peak load"
-    quote: "The maximum reduction from cryptomining loads was about 3,299 MW and the estimated maximum Four Coincident Peak (4CP) reduction was about 492 MW."
+    quote: "On 7/22/2026, ERCOT set the all-time demand record at 91,134 MW during HE19. Demand response was observed during the peak hours. The maximum reduction from cryptomining loads was about 3,299 MW and the estimated maximum Four Coincident Peak (4CP) reduction was about 492 MW."
   - id: e21
     source: puct-58000-pfp
     locator: "Project 58000, Proposal for Publication (for the July 9, 2026 open meeting), page 1"
@@ -136,11 +136,11 @@ This scenario is about a data center that wants to connect to ERCOT and buy powe
 
 ## How it works
 
-Step 1, the connection rules. SB 6 told the PUCT to set a 75 MW threshold for large load interconnection standards and a flat study fee of at least $100,000. [e3][e4] The PUCT rule requires financial security of $50,000 per MW of requested peak demand for new requests. [e5] ERCOT now studies large loads together in batches: a studied load in Batch Zero may get its full request, a partial allocation, or have to wait, and projects face a commitment deadline, currently planned for June 2027, to post financial security and prove site control. [e9][e10]
+Step 1, the connection rules. SB 6 told the PUCT to set a 75 MW threshold for large load interconnection standards (unless it finds a lower threshold necessary) and a flat study fee of at least $100,000. [e3][e4] The PUCT rule requires financial security of $50,000 per MW of requested peak demand for new requests. [e5] ERCOT now studies large loads together in batches: a studied load in Batch Zero may get its full request, a partial allocation, or have to wait, and projects face a commitment deadline, currently planned for June 2027, to post financial security and prove site control. [e9][e10]
 
-Step 2, the operating conditions. Under SB 6, after ERCOT deploys all available market services except frequency responsive ones, the independent organization may direct the utility to require the large load customer to deploy its on-site backup generation or curtail load. [e6] New transmission-voltage loads must also have equipment installed so they can be curtailed during firm load shed. [e7] If the data center plans a net metering arrangement with an existing stand-alone generation resource, the generation company, municipally owned utility or cooperative must notify ERCOT before implementing it. [e8] ERCOT's December 2025 CDR called these SB 6 provisions the most impactful resource adequacy development since May 2025. [e23]
+Step 2, the operating conditions. Under SB 6, if the data center has on-site backup generation (non-exporting generation able to serve at least 50 percent of on-site demand), then after ERCOT deploys all available market services except frequency responsive ones, the independent organization may direct the utility to require it to deploy that backup generation or curtail load. [e6] Separately, utilities serving transmission-voltage customers must have a protocol, including any necessary equipment installed before interconnection, so the load can be curtailed during firm load shed; this applies to loads interconnected after December 31, 2025, other than critical load industrial customers and critical natural gas facilities. [e7] If the data center plans a net metering arrangement with an existing stand-alone generation resource, the generation company, municipally owned utility or cooperative must notify ERCOT before implementing it. [e8] ERCOT's December 2025 CDR called these SB 6 provisions the most impactful resource adequacy development since May 2025. [e23]
 
-Step 3, the forecast context. More than 438,000 MW of large-user requests were in ERCOT's queue by mid-2026, nearly 90% of them data centers. [e11] The preliminary 2026 long-term forecast reached 278,003 MW in 2029, which ERCOT itself had concerns about using, and the PUCT approved ERCOT's request to adjust the LTLF using the Option B methodology. [e12][e13] History suggests discounting requests: EIA reports that large flexible load (LFL) customers have consumed about 65% of their approved capacity. [e14]
+Step 3, the forecast context. More than 438,000 MW of large-user requests were in ERCOT's queue by mid-2026, nearly 90% of them data centers. [e11] The preliminary 2026 long-term forecast reached 278,003 MW in 2029, which ERCOT itself had concerns about using, and the PUCT approved ERCOT's request to adjust the LTLF using the Option B methodology. [e12][e13] For comparison, EIA reports that large flexible load (LFL) customers, a different category from data center requests, have historically consumed about 65% of their approved capacity. [e14]
 
 Step 4, buying the power. A person must hold a REP certificate to resell electricity for retail service, and load is billed at the load zone price, a load-weighted average of nodal prices. [e18][e16] LSEs manage price exposure with owned generation, bilateral PPAs, futures or day-ahead purchases. [e17] Transmission costs are a separate line: ERCOT allocates them on each customer's load-ratio share in the four summer peak intervals (4CP), and a PUCT proposal would replace 4CP with 12CP. [e19][e21]
 
@@ -165,7 +165,7 @@ Step 4, buying the power. A person must hold a REP certificate to resell electri
 
 ### What does SB 6 require of a new data center in an emergency?
 
-After the independent organization deploys all available market services except frequency responsive ones, it may direct the utility to require the large load customer to deploy on-site backup generation or curtail load, and new transmission-voltage loads must be equipped to be curtailed during firm load shed. [e6][e7]
+If the data center has on-site backup generation that can serve at least 50 percent of its demand, then after the independent organization deploys all available market services except frequency responsive ones, it may direct the utility to require the customer to deploy that backup generation or curtail load. [e6] Transmission-voltage loads interconnected after December 31, 2025 (other than critical load industrial customers and critical natural gas facilities) must be set up so they can be curtailed during firm load shed. [e6][e7]
 
 ### Why might the data center not get the full capacity it asks for?
 
@@ -183,7 +183,7 @@ Transmission charges are based on the customer's load-ratio share in the four su
 - Connection: the site is a Large Load (75 MW or more), pays at least a $100,000 study fee and must post $50,000 per MW of security. [e1][e4][e5]
 - Suppose (illustrative) the full 500 MW is requested: security at $50,000 per MW is 500 x 50,000 = $25 million.
 - Allocation risk: Batch Zero may give full, partial or no allocation this round, and projects must post security and show site control by a commitment deadline currently planned for June 2027. [e9][e10]
-- Operations: under SB 6 the independent organization may direct the utility to require the site to run backup generation or curtail, and new transmission-voltage loads must be curtailable in firm load shed. [e6][e7]
+- Operations: under SB 6, if the site has qualifying on-site backup generation, the independent organization may direct the utility to require it to run that generation or curtail; and a transmission-voltage load interconnected after December 31, 2025 must be curtailable in firm load shed. [e6][e7]
 - Co-location: a net metering arrangement with an existing stand-alone generation resource requires a notice to ERCOT before it is implemented. [e8]
 - Power cost: the load buys through a REP and is billed at the load zone price. [e18][e16]
 - (Reasoning) Check how the PPA's generation profile and settlement point line up with the data center's load shape at its load zone.

@@ -61,7 +61,7 @@ evidence:
   - id: e8
     source: sb6-89r
     locator: "SB 6 Section 4, PURA §39.170(a)"
-    quote: "The commission shall require the independent organization certified under Section 39.151 for the ERCOT power region to ensure that each electric cooperative, transmission and distribution utility, and municipally owned utility serving a transmission-voltage customer develops a protocol, including the installation of any necessary equipment or technology before the customer is interconnected, to allow the load to be curtailed during firm load shed."
+    quote: "The commission shall require the independent organization certified under Section 39.151 for the ERCOT power region to ensure that each electric cooperative, transmission and distribution utility, and municipally owned utility serving a transmission-voltage customer develops a protocol, including the installation of any necessary equipment or technology before the customer is interconnected, to allow the load to be curtailed during firm load shed. The electric cooperative, transmission and distribution utility, or municipally owned utility shall confer with the customer to the extent feasible to shed load in a coordinated manner. This subsection applies only to a load interconnected after December 31, 2025, that is not: (1) load operated by a critical load industrial customer, as defined by Section 17.002; or (2) designated as a critical natural gas facility under Section 38.074."
   - id: e9
     source: sb6-89r
     locator: "SB 6 Section 4, PURA §39.170(b)"
@@ -140,7 +140,7 @@ SB 6 is the 2025 Texas law (89th Legislature) on the planning, interconnection, 
 
 **Interconnection standards (PURA §37.0561).** The PUCT must set a demand threshold of 75 MW unless it finds a lower one is needed. [e3] The standards must include a flat study fee of at least $100,000 for initial transmission screening studies. [e4] The PUCT must also set criteria for how ERCOT includes forecasted large load in its transmission planning and resource adequacy models. [e6]
 
-**Emergency curtailment.** Some large loads have on-site backup generation. Once ERCOT has deployed all available market services other than frequency responsive services, it may direct the utility to have such a customer either run its backup generation or curtail. [e5] Each utility serving a transmission-voltage customer must also have a protocol, with any needed equipment, that lets the load be curtailed during firm load shed. [e8]
+**Emergency curtailment.** Some large loads have on-site backup generation. Once ERCOT has deployed all available market services other than frequency responsive services, it may direct the utility to have such a customer either run its backup generation or curtail. [e5] Each utility serving a transmission-voltage customer must also have a protocol, with any needed equipment, that lets the load be curtailed during firm load shed; this applies only to loads interconnected after December 31, 2025, and not to critical load industrial customers or designated critical natural gas facilities. [e8]
 
 **Co-location and a new service (PURA §39.169, §39.170).** Before netting a new large load against a generator that was registered as stand-alone on September 1, 2025, the generation owner must notify ERCOT. [e7] ERCOT must also develop a reliability service that competitively procures demand reductions from loads of 75 MW or more, for use in an anticipated emergency. [e9] Separately, Section 6 requires the PUCT to review wholesale transmission cost allocation and amend its rules by December 31, 2026. [e10]
 
@@ -188,7 +188,7 @@ It must meet PUCT standards. The threshold is 75 MW by default and there is a fl
 
 ### Can ERCOT curtail a data center under SB 6?
 
-Yes, in several ways. ERCOT can direct a load with on-site backup to run that backup or curtail once market services are exhausted. [e5] New transmission-voltage loads must be curtailable during firm load shed. [e8] ERCOT can also procure demand reductions through a new service. [e9]
+Yes, in several ways. ERCOT can direct a load with on-site backup to run that backup or curtail once market services are exhausted. [e5] Transmission-voltage loads interconnected after December 31, 2025 (other than critical load industrial customers and critical natural gas facilities) must be curtailable during firm load shed. [e8] ERCOT can also procure demand reductions through a new service. [e9]
 
 ### What is still pending from SB 6?
 

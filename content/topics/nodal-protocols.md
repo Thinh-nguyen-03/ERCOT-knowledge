@@ -87,7 +87,7 @@ evidence:
     quote: "The party submitting a Nodal Protocol Revision Request (NPRR) or System Change Request (SCR) (“Revision Request”) may request that the Revision Request be considered on an urgent timeline (“Urgent”) only when the submitter can reasonably show that an existing Protocol or condition is impairing or could imminently impair ERCOT System reliability or wholesale or retail market operations, or is causing or could imminently cause a discrepancy between a settlement formula and a provision of these Protocols."
   - id: e14
     source: np-04
-    locator: "Section 4.5.1, DAM Clearing Process, paragraph (4)(a), pending-change box"
+    locator: "Section 4.4.10, Credit Requirement for DAM Bids and Offers, paragraph (6)(a), pending-change box"
     quote: "[NPRR1188: Replace paragraph (a) above with the following upon system implementation:]"
 ---
 
@@ -107,7 +107,7 @@ Changes go through a Nodal Protocol Revision Request. [e9] PRS reviews and recom
 
 The statute behind this is PURA section 39.151: protocols adopted by an independent organization are subject to commission oversight and may not take effect before commission approval, and revised protocols may not take effect until the commission approves a market impact statement. [e7][e8]
 
-The published Protocol text carries boxes for revisions to apply "upon system implementation". For example, Section 4.5.1 of the DAM text contains a box beginning "NPRR1188: Replace paragraph (a) above with the following upon system implementation". [e14] Anything in such a box is pending, not current.
+The published Protocol text carries boxes for revisions to apply "upon system implementation". For example, Section 4.4.10 (Credit Requirement for DAM Bids and Offers) of the DAM text contains a box beginning "NPRR1188: Replace paragraph (a) above with the following upon system implementation". [e14] Anything in such a box is pending, not current.
 
 ## Key facts
 

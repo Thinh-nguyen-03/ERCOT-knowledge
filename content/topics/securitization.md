@@ -13,7 +13,7 @@ links:
     note: Both securitization balances relate to costs from Winter Storm Uri. [e1][e3]
   - to: retailer-defaults-2021
     type: related
-    note: The default balance covers amounts owed to ERCOT by competitive wholesale market participants during the period of emergency that would otherwise be uplifted. [e12]
+    note: The statutory default balance includes amounts owed to the independent organization by competitive wholesale market participants during the period of emergency that otherwise would be uplifted. [e12]
   - to: uplift
     type: related
     note: The Uplift Balance is money that was uplifted and then securitized. [e3]
@@ -101,7 +101,7 @@ The Securitization Uplift Charge is assessed to QSEs representing obligated LSEs
 
 ## ERCOT context
 
-HB 4492 (87th Legislature) directs the comptroller to invest not more than $800 million of the economic stabilization fund balance to finance the default balance, to be repaid by ERCOT market participants through default charges set by the PUCT. [e11] It defines the default balance (capped at $800 million) as amounts owed to ERCOT by competitive wholesale market participants during the period of emergency that would otherwise be uplifted to other participants. [e12] The uplift balance is capped at $2.1 billion and is the amount uplifted to load-serving entities on a load ratio share basis for reliability deployment price adder charges and ancillary services costs above the system-wide offer cap. [e13] The period of emergency runs from 12:01 a.m. on February 12, 2021 to 11:59 p.m. on February 20, 2021. [e14]
+HB 4492 (87th Legislature) directs the comptroller to invest not more than $800 million of the economic stabilization fund balance to finance the default balance, to be repaid by ERCOT market participants through default charges set by the PUCT. [e11] It defines the default balance (capped at $800 million) as an amount that includes only listed items, the first being amounts owed to the independent organization by competitive wholesale market participants from the period of emergency that otherwise would be or have been uplifted to other wholesale market participants. [e12] The uplift balance is capped at $2.1 billion and is the amount uplifted to load-serving entities on a load ratio share basis for reliability deployment price adder charges and ancillary services costs above the system-wide offer cap. [e13] The period of emergency runs from 12:01 a.m. on February 12, 2021 to 11:59 p.m. on February 20, 2021. [e14]
 
 The default-charge side comes with escrow and credit rules. Market Participants deposit cash or a letter of credit in escrow for their Default Charge obligations. [e8] If an invoice is short-paid, ERCOT first draws on the escrow deposits and then on Financial Security held for other ERCOT market activity. [e9]
 

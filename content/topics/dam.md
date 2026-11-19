@@ -22,7 +22,7 @@ links:
     note: Three-Part Supply Offers are one of the offer types the DAM clears, and the IMM reports how little of the DAM energy they represent. [e16]
   - to: spp
     type: determines
-    note: DAM Settlement Point Prices come from DAM LMPs and are final at 1000 of the second Business Day after the Operating Day. [e8][e11]
+    note: DAM Settlement Point Prices come from DAM LMPs and are final at 1000 of the second Business Day after the Operating Day. [e3][e8][e11]
   - to: dart-spread
     type: related
     note: The IMM reports the average DAM price premium and average absolute price difference for 2025. [e13]
@@ -113,7 +113,7 @@ A QSE must submit DAM Energy Bids by 1000 in the Day-Ahead, and ERCOT starts the
 
 Settlement uses DAM Settlement Point Prices for a one-hour Settlement Interval, built from DAM LMPs. [e3] A Resource Node's DAM price is simply its DAM LMP for the hour. [e8] Sellers whose energy offers clear receive the Day-Ahead Energy Payment, and a cleared PTP Obligation bid is paid or charged the sink-minus-source price difference. [e9][e10]
 
-ERCOT can intervene to make sure the DAM finishes. It may omit a procedure or take a manual action so that clearing completes by 1900 in the Day-Ahead. [e12] DAM prices become final at 1000 of the second Business Day after the Operating Day. [e11]
+ERCOT can intervene to make sure the DAM finishes. Subject to principles set out in the same Protocol section, it may omit a procedure or take a manual action so that clearing completes by 1900 in the Day-Ahead. [e12] DAM prices become final at 1000 of the second Business Day after the Operating Day. [e11]
 
 ## ERCOT context
 

@@ -19,7 +19,7 @@ links:
     note: The IMM discusses net load forecast error alongside under-forecast IRR generation and over-forecast load. [e6]
   - to: net-load
     type: related
-    note: ERCOT's average net load forecast error fell to about 452 MW in 2025. [e6]
+    note: The IMM reports that the average net load forecast error, measured eight hours ahead of real-time, fell to about 452 MW in 2025. [e6][e17]
   - to: ruc
     type: used-in
     note: The load forecast is used in DRUC and HRUC after ERCOT's review. [e5]
@@ -94,6 +94,10 @@ evidence:
     source: np-02
     locator: "Section 2.1, definition of Net Load"
     quote: "The Load for a given period minus generation from PhotoVoltaic Generation Resources (PVGRs) and Wind Generation Resources (WGRs) for the same period."
+  - id: e17
+    source: imm-som-2025
+    locator: "Market Operations, C. Forecast Error, Figure 50 introduction"
+    quote: "Figure 50 illustrates the distribution of net load forecast errors eight hours ahead of real-time."
 ---
 
 ## Definition
@@ -108,19 +112,19 @@ For the long term, ERCOT prepares at least annually a forecast of hourly Loads f
 
 ## ERCOT context
 
-Forecast accuracy affects commitment. The IMM says an over-forecast of net demand can lead to sub-optimal commitment, and an under-forecast can leave real-time shortfalls that are often addressed through RUC. [e10] ERCOT's average net load forecast error fell to about 452 MW in 2025 from more than 1,000 MW in 2023 and 2024, but forecasts still systematically over-forecast load and under-forecast renewable output. [e6] The IMM calls the LTLF ERCOT's primary tool for projecting load growth over ten years. [e9]
+Forecast accuracy affects commitment. The IMM says an over-forecast of net demand can lead to sub-optimal commitment, and an under-forecast can leave real-time shortfalls that are often addressed through RUC. [e10] The IMM reports that the average net load forecast error (measured eight hours ahead of real-time) fell to about 452 MW in 2025 from more than 1,000 MW in 2023 and 2024, but forecasts still systematically over-forecast load and under-forecast renewable output. [e6][e17] The IMM calls the LTLF ERCOT's primary tool for projecting load growth over ten years. [e9]
 
 ## Key facts
 
 - Seven-Day Load Forecast: hourly, 168 hours, by Weather Zone and Forecast Zone, posted hourly. [e2][e4]
 - 36-Month Load Forecast: monthly, daily min and max Load. [e3]
 - Intra-Hour Load Forecast: rolling two hours in five-minute increments, ERCOT-wide. [e7]
-- 2025 average net load forecast error about 452 MW; load over-forecast on average (IMM). [e6]
+- 2025 average net load forecast error about 452 MW, measured eight hours ahead of real-time; forecasts continue to over-forecast load (IMM). [e6][e17]
 - Long-term forecasts use seventeen weather-year scenarios (2008-2024) in the 2025 document. [e11][e15]
 
 ## Say it like this
 
-(Guidance) ERCOT runs three load forecasts on different horizons, with weather as the main short-term driver, and operators can override the model. The practical risk is bias: the IMM finds load is on average over-forecast, which matters for commitment. [e10]
+(Guidance) ERCOT runs several load forecasts on different horizons, with weather as the main short-term driver, and ERCOT can use judgment to modify the Seven-Day result. [e4][e5] The practical risk is bias: the IMM says forecasts continue to over-forecast load, and that over-forecasting net demand can lead to sub-optimal commitment. [e6][e10]
 
 ## Common confusion
 
@@ -138,7 +142,7 @@ Over-forecasting net demand can lead to sub-optimal commitment, while under-fore
 
 ### How did forecast accuracy change by 2025?
 
-Average net load error fell to about 452 MW from more than 1,000 MW in 2023 and 2024. [e6]
+Per the IMM, the average net load forecast error (eight hours ahead of real-time) fell to about 452 MW from more than 1,000 MW in 2023 and 2024. [e6][e17]
 
 ## Open items
 

@@ -16,7 +16,7 @@ links:
     note: System Lambda is the Shadow Price for the power balance constraint. [e1][e2]
   - to: sced
     type: related
-    note: Real-time System Lambda comes from SCED, and Step 2 System Lambda is capped at the effective VOLL. [e3]
+    note: The System Lambda from SCED Step 2 is capped at the effective VOLL. [e3]
   - to: dam
     type: related
     note: The day-ahead counterpart is the DAM Shadow Price for the system power balance constraint for the hour. [e6]
@@ -25,7 +25,7 @@ links:
     note: The real-time System Lambda plus the reliability deployment adder is the test that can activate the Emergency Pricing Program. [e8]
   - to: congestion
     type: related
-    note: The IMM treats an LMP above the system lambda as a sign that injections at that location help manage congestion. [e9]
+    note: For ESRs acting as generators, the IMM counts base points awarded at an LMP above the system lambda as a sign that injections at that location help manage congestion. [e9]
 evidence:
   - id: e1
     source: np-02
@@ -90,15 +90,15 @@ System Lambda is the cost of providing one MWh of energy at the reference Electr
 
 A Shadow Price measures the marginal value of a commodity: the rate at which system costs would fall or rise if slightly more or less of it were available. [e2] System Lambda is that price for the power balance constraint, and the definition calls it the energy component of LMP. [e1][e2]
 
-In real time, ERCOT uses System Lambda from SCED Step 2, and it is capped at the effective Value of Lost Load. [e3] Where an Electrical Bus LMP is above the effective VOLL, it is reset to the greater of the effective VOLL or the initial LMP minus the positive difference between System Lambda and the effective VOLL. ERCOT posts both capped and uncapped values of System Lambda to its website. [e3] Separately, the cost SCED calculates to resolve one more MW on the power balance constraint is limited to a maximum Shadow Price for that constraint set under Section 22, Attachment P. [e4]
+In real time, the System Lambda from SCED Step 2 is capped at the effective Value of Lost Load. [e3] Where an Electrical Bus LMP is above the effective VOLL, it is reset to the greater of the effective VOLL or the initial LMP minus the positive difference between System Lambda and the effective VOLL. ERCOT posts both capped and uncapped values of System Lambda to its website. [e3] Separately, the cost SCED calculates to resolve one more MW on the power balance constraint is limited to a maximum Shadow Price for that constraint set under Section 22, Attachment P. [e4]
 
 In the day-ahead, the Settlement Point Price formulas for Load Zones carry a system-wide term (the day-ahead counterpart of System Lambda), defined as the DAM Shadow Price for the system power balance constraint for the hour. [e6]
 
 ## ERCOT context
 
-System Lambda shows up in several price rules, not only as an LMP component. The Real-Time Reliability Deployment Price Adder for Energy is the positive difference between a System Lambda from a modified SCED run and the Step 2 System Lambda, with an exception when ERCOT is directing firm Load shed during EEA Level 3. [e5] The IMM describes the same adder as the difference in system lambda output by SCED with and without any reliability actions. [e10]
+System Lambda shows up in several price rules, not only as an LMP component. The Real-Time Reliability Deployment Price Adder for Energy is the positive difference between the System Lambda from the SCED run in item (n) of Section 6.5.7.3.1 and the Step 2 System Lambda, with an exception when ERCOT is directing firm Load shed during EEA Level 3. [e5] The IMM describes the same adder as the difference in system lambda output by SCED with and without any reliability actions. [e10]
 
-It is also a fallback price: when ERCOT must assign an LMP to a de-energized Electrical Bus, the last rule in the order is to use System Lambda, after a predetermined LMP, same-station same-voltage averages and same-station averages. [e7] And the Emergency Pricing Program test adds the RTM System Lambda to the reliability deployment adder and compares the sum to the HCAP for DAM over a rolling 24-hour period. [e8]
+It is also a fallback price: when ERCOT must assign an LMP to a de-energized Electrical Bus, the last rule in the order is to use System Lambda, after a predetermined LMP, same-station same-voltage averages and same-station averages. [e7] And the Emergency Pricing Program test adds the RTM System Lambda to the reliability deployment adder and compares the sum to the HCAP for DAM, with activation when it is at or above the HCAP for a total of 12 hours within a rolling 24-hour period. [e8]
 
 ## Key facts
 
@@ -110,11 +110,11 @@ It is also a fallback price: when ERCOT must assign an LMP to a de-energized Ele
 
 ## Say it like this
 
-(Guidance) System Lambda is the system-wide marginal price of energy: what one more MWh costs the whole system before location effects. An LMP at a given bus is that energy price plus whatever the transmission constraints add or subtract there.
+(Guidance) System Lambda is the marginal cost of one more MWh of energy at the reference bus, and it is the energy component of the LMP at each Settlement Point.
 
 ## Common confusion
 
-(Guidance) System Lambda is not the Settlement Point Price: it is one component of LMP, and Settlement Point Prices are calculated from LMP data. [e1][e11] The "plus whatever constraints add" part is the reader's decomposition of the two definitions; see Open items. Also, in the real-time reliability adder the same term appears twice, once from a modified SCED run and once from Step 2, so the adder is a difference, not a level. [e5]
+(Guidance) System Lambda is not the Settlement Point Price: it is one component of LMP, and Settlement Point Prices are calculated from LMP data. [e1][e11] Also, in the real-time reliability adder the same term appears twice, once from the item (n) SCED run and once from Step 2, so the adder is a difference, not a level. [e5]
 
 ## Questions
 
@@ -124,7 +124,7 @@ The cost of one more MWh of energy at the reference Electrical Bus, equal to the
 
 ### Where else does System Lambda matter besides being part of LMP?
 
-It sets the Real-Time Reliability Deployment Price Adder for Energy, as the difference between two System Lambda values. [e5] It is the final fallback LMP for de-energized buses, and the sum of RTM System Lambda and the adder is the test for activating the Emergency Pricing Program. [e7][e8]
+It is the input to the Real-Time Reliability Deployment Price Adder for Energy, which is the difference between two System Lambda values. [e5] It is the final fallback LMP for de-energized buses, and the sum of RTM System Lambda and the adder is the test for activating the Emergency Pricing Program. [e7][e8]
 
 ### Is real-time System Lambda capped?
 
@@ -132,7 +132,7 @@ Yes. System Lambda from SCED Step 2 is capped at the effective VOLL. [e3] Separa
 
 ## Open items
 
-- No saved protocol sentence writes LMP as System Lambda plus a congestion component; the definition only says System Lambda is the "energy component" of LMP. The decomposition in Say it like this is not directly quoted.
+- No saved protocol sentence writes LMP as System Lambda plus a congestion component; the definition only says System Lambda is the "energy component" of LMP, and this topic does not state the full decomposition.
 - Deeper pass: the value of the maximum Shadow Price for the power balance constraint (Section 22, Attachment P) was not read.
 - Deeper pass: the exact SCED Step 2 System Lambda calculation and how it relates to the posted real-time LMPs.
 - Deeper pass: IMM statistics on System Lambda levels by year; none were quoted here.

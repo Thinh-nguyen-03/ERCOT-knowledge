@@ -28,7 +28,7 @@ links:
     note: A large share of capacity is offered at or below $0, primarily wind and solar with federal production tax credits. [e7]
   - to: cdr-report
     type: related
-    note: The CDR cites a lower capacity contribution from wind and solar, due to the use of Effective Load Carrying Capabilities, as a reason for lower reserve margin trajectories. [e10]
+    note: The CDR cites a lower capacity contribution from wind and solar, due to the use of Effective Load Carrying Capabilities, as a reason for lower margin trajectories in its Adjusted Load Forecast scenario. [e10]
 evidence:
   - id: e1
     source: np-02
@@ -98,7 +98,7 @@ Because solar output is concentrated at midday, midday is also when curtailment 
 
 Solar is the growth story: generation grew almost 49% in 2025 after 62% in 2024. [e2][e11] ERCOT's summer 2026 review says solar growth outpacing large load additions made daytime hours uneventful. [e6] The share of price spikes between 9 a.m. and 2 p.m., when solar production peaks, fell from 9.3% in 2024 to 2.7% in 2025. [e8] The IMM says that as solar output has increased, it has shifted the timing of peak net load later in the evening. [e4]
 
-ERCOT says more solar and ESR capacity tends to result in lower daytime energy prices, allowing ESRs to charge then and discharge over the evening solar ramp. [e9] The IMM adds that the average captured energy price for renewable generation tends to decrease as installed renewable capacity increases. [e12] For resource adequacy, the December 2025 CDR lists a lower capacity contribution from wind and solar, due to the use of Effective Load Carrying Capabilities, among the reasons for the lower and sharply downward trajectory of its projected margins. [e10]
+ERCOT says more solar and ESR capacity tends to result in lower daytime energy prices, allowing ESRs to charge then and discharge over the evening solar ramp. [e9] The IMM adds that the average captured energy price for renewable generation tends to decrease as installed renewable capacity increases. [e12] For resource adequacy, the December 2025 CDR lists a lower capacity contribution from wind and solar, due to the use of Effective Load Carrying Capabilities, among the reasons for the lower and sharply downward trajectory of the margins in its scenario based on the ERCOT Adjusted Load Forecast and Protocol-prescribed resource capacity. [e10]
 
 ## Key facts
 
@@ -110,7 +110,7 @@ ERCOT says more solar and ESR capacity tends to result in lower daytime energy p
 
 ## Say it like this
 
-(Guidance) Solar has flattened the afternoon and pushed scarcity into the evening: it suppresses midday prices and fills the afternoon peak, but contributes almost nothing at the net peak. That is why storage and evening-capable supply now set the risk.
+(Guidance) Solar has flattened the afternoon and pushed scarcity into the evening: it suppresses midday prices and fills the afternoon peak, but contributes almost nothing at the net peak.
 
 ## Common confusion
 
@@ -120,7 +120,7 @@ ERCOT says more solar and ESR capacity tends to result in lower daytime energy p
 
 ### Why did solar growth not eliminate scarcity?
 
-Scarcity moved to the net peak, later in the evening, when solar's capacity factor was 1.7% in 2025. [e4]
+The IMM says solar output has shifted peak net load later into the evening, when solar's capacity factor during the daily net peak interval was 1.7% in 2025. [e4]
 
 ### Why do wind and solar offer at or below $0?
 

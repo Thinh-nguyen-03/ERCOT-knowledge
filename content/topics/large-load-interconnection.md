@@ -164,7 +164,7 @@ The PUCT's interconnection standards in 16 TAC §25.194 set the rules for utilit
 
 Batch Zero was preceded by an interim process started in March 2022 [e15] and by the PGRR115 requirements, which ERCOT said would be effective on December 15, 2025. [e16] The Batch Zero rules (PGRR145 and NPRR1325) [e28] were adopted by the ERCOT Board on June 2, 2026 and approved by the PUCT on June 18, 2026. [e6] Batch Zero and the WLPUN pathway took effect on July 11, 2026. [e7] In August 2026 ERCOT said it intends to temporarily pause the Batch Zero study until a verification and audit of data centers, directed by the Governor, was complete. [e11]
 
-The sizes involved are very large and depend on the date. As of July 28, 2026, ERCOT said about 205 GW of Large Load was eligible for Batch Zero based on existing studies. [e12] By September 2026, ERCOT said the conditional base and studied load totalled about 100 GW in 2028, rising to about 192 GW in 2032. [e13] The IMM's 2025 report argues that a resource adequacy constraint should be applied in load interconnection, so that ERCOT does not approve more new load than is physically feasible. [e14]
+The sizes involved are very large and depend on the date. As of July 28, 2026, ERCOT's preliminary overview put about 205 GW of Large Load as eligible for Batch Zero based on existing studies. [e12] By September 2026, ERCOT said the conditional base and studied load totalled about 100 GW in 2028, rising to about 192 GW in 2032. [e13] The IMM's 2025 report argues that a resource adequacy constraint should be applied in load interconnection, so that ERCOT does not approve more new load than is physically feasible. [e14]
 
 ## Key facts
 

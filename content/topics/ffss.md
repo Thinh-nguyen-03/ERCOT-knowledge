@@ -25,7 +25,7 @@ links:
     note: RMR is another reliability contract product; see the RMR topic.
   - to: weatherization
     type: related
-    note: SB 3 requires winter resource capability qualifications for a service described by PURA 39.159(b) to include fuel storage, dual fuel or fuel supply arrangements. [e11]
+    note: SB 3 directs the PUC to ensure that winter resource capability qualifications for a service described by PURA 39.159(b) include fuel storage, dual fuel or fuel supply arrangements. [e11]
   - to: natural-gas-price
     type: related
     note: FFSS exists to maintain availability in a natural gas curtailment or other fuel supply disruption. [e1]
@@ -112,7 +112,7 @@ Deployment is by ERCOT approval. When ERCOT issues a Watch for winter weather it
 
 ## ERCOT context
 
-The IMM says FFSS was implemented in 2022 in response to fuel supply disruptions during Winter Storm Uri. [e8] SB 3 separately requires that winter resource capability qualifications for a service described in PURA 39.159(b) include on-site fuel storage, dual fuel capability or fuel supply arrangements. [e11] In the 2024-2025 contract period ERCOT procured 4,195 MW; the offer cap was $12,240 per MW, built from a fuel oil price of $17 per MMBtu, a heat rate of 15 MMBtu per MWh and 48 hours. [e12] FFSS uplift rose from $33.8 million in 2024 to $45.9 million in 2025. [e9]
+The IMM says FFSS was implemented in 2022 in response to fuel supply disruptions during Winter Storm Uri. [e8] SB 3 separately directs the PUC to ensure that winter resource capability qualifications for a service described in PURA 39.159(b) include on-site fuel storage, dual fuel capability or fuel supply arrangements. [e11] In the 2024-2025 contract period ERCOT procured 4,195 MW; the offer cap was $12,240 per MW, built from a fuel oil price of $17 per MMBtu, a heat rate of 15 MMBtu per MWh and 48 hours. [e12] FFSS uplift rose from $33.8 million in 2024 to $45.9 million in 2025. [e9]
 
 The IMM is critical of deployment practice. It says the criteria for deployment beyond a winter weather watch remain unclear and are left to operator discretion, and (in its 2024 report) that deployed FFSS resources were removed from the online reserves used for the ORDC adder, which raised scarcity prices even when physical capacity remained. [e14][e10] The ORDC adder was discontinued in December 2025 with RTC, so that specific effect is historical. [e15] In 2025 ERCOT deployed FFSS over three consecutive days in February, with four resources deployed for a maximum of 470 MW. [e13]
 
@@ -140,7 +140,7 @@ The obligation period runs from November 15 through March 15, and ERCOT may spen
 
 ### What does the IMM say is wrong with FFSS deployment?
 
-Deployment criteria beyond a winter weather watch are unclear and left to operator discretion, and, in its 2024 report, deploying FFSS resources removed their capacity from the online reserves used for the ORDC adder, which raised scarcity prices. That adder has since been discontinued with RTC. [e14][e10][e15]
+The IMM says deployment criteria beyond a winter weather watch are unclear and left to operator discretion, and, in its 2024 report, deploying FFSS resources removed their capacity from the online reserves used for the ORDC adder, which raised scarcity prices. That adder has since been discontinued with RTC. [e14][e10][e15]
 
 ### Was FFSS deployed recently?
 

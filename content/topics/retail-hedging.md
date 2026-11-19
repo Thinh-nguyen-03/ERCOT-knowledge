@@ -16,7 +16,7 @@ links:
     note: The IMM describes how load-serving entities manage real-time price exposure. [e1]
   - to: ptp-obligation
     type: hedges
-    note: PTP obligations scheduled in the day-ahead market are one of the positions that hedge real-time load. [e2]
+    note: The IMM lists PTPs among the day-ahead market positions that hedge real-time load. [e2]
   - to: dam
     type: related
     note: Day-ahead purchases are one way LSEs cover real-time price exposure. [e1]
@@ -67,7 +67,7 @@ In the IMM's description, retail hedging is how load-serving entities manage the
 
 ## How it works
 
-Most load is not settled at real-time prices. The IMM reports that on average only 17% of load was exposed to real-time prices in 2024, with the rest of real-time load hedged by day-ahead market positions, including PTP obligations. [e2]
+Most load is not settled at real-time prices. The IMM reports that on average only 17% of load was exposed to real-time prices in 2024, with the rest of real-time load hedged by day-ahead market positions, including PTPs. [e2]
 
 In its 2021 report the IMM's exposure measure was based solely on ERCOT-administered markets and did not include bilateral or over-the-counter index purchases. [e4]
 

@@ -58,7 +58,7 @@ evidence:
   - id: e7
     source: np-04
     locator: "Section 4.4.9.3, paragraph (4)"
-    quote: "For any Operating Hour, the QSE for a Resource may submit or change Energy Offer Curve information at any time prior to SCED execution"
+    quote: "For any Operating Hour, the QSE for a Resource may submit or change Energy Offer Curve information at any time prior to SCED execution, except for the percentage of FIP and percentage of FOP"
   - id: e9
     source: np-04
     locator: "Section 4.4.9.1, Three-Part Supply Offers, paragraph (1)"
@@ -73,7 +73,7 @@ An Energy Offer Curve is a proposal to sell energy at a Settlement Point at a mo
 
 The curve represents the QSE's willingness to sell energy at or above a given price and quantity in the DAM, or its willingness to be dispatched by SCED in real time. [e2] A curve must be monotonically non-decreasing in both price and quantity, with no more than ten price/quantity pairs and no more than two consecutive pairs at the same price or quantity. [e5] A Resource-specific curve is bounded by the Generation Resource's LSL and HSL: in the DAM the limits specified in the COP, in SCED the limits shown by telemetry. [e3]
 
-A QSE may change its curve for any Operating Hour at any time before SCED executes. [e7] SCED then evaluates the curves, along with other offers and bids, to set dispatch by maximizing bid-based revenues minus offer-based costs subject to power balance and network constraints. [e4]
+A QSE may submit or change curve information for any Operating Hour at any time before SCED executes, except for the percentage of FIP and percentage of FOP. [e7] SCED then evaluates the curves, along with other offers and bids, to set dispatch by maximizing bid-based revenues minus offer-based costs subject to power balance and network constraints. [e4]
 
 ## ERCOT context
 
@@ -83,7 +83,7 @@ A QSE representing a Resource, other than an RMR Unit, must keep an Energy Offer
 
 - Curve must be monotonically non-decreasing, up to ten price/quantity pairs. [e5]
 - Bounded by LSL and HSL: COP values in the DAM, telemetry in SCED. [e3]
-- Can be changed any time before SCED execution for the hour. [e7]
+- Can be changed any time before SCED execution for the hour, except the percentage of FIP and percentage of FOP. [e7]
 - SCED uses the curves to maximize bid-based revenues minus offer-based costs. [e4]
 
 ## Say it like this
@@ -103,11 +103,11 @@ Monotonically non-decreasing in price and quantity, with at most ten price/quant
 
 ### What bounds the curve in SCED?
 
-The Resource's LSL and HSL as shown by telemetry. [e3]
+In SCED, the Resource's LSL and HSL as shown by telemetry (in the DAM, as specified in the COP). [e3]
 
 ### Until when can a QSE change its curve?
 
-At any time before SCED executes for that Operating Hour. [e7]
+At any time before SCED executes for that Operating Hour, except for the percentage of FIP and percentage of FOP. [e7]
 
 ## Open items
 

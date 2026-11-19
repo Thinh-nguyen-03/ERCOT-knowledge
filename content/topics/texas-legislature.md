@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: puct
     type: related
-    note: HB 1500 (2023) sets September 1, 2029 as the date in the Sunset provision for abolishing the PUCT, which is subject to the Texas Sunset Act. [e5]
+    note: HB 1500 (2023) sets September 1, 2029 as the date in the Sunset provision under which the PUCT is abolished unless continued in existence, which is subject to the Texas Sunset Act. [e5]
   - to: ercot
     type: related
     note: PURA creates the ERCOT board selection committee and requires PUCT approval of a market impact statement before new or revised protocols take effect. [e3][e4]
@@ -79,7 +79,7 @@ The Texas Legislature enacts the statutes that govern the ERCOT market, includin
 
 ## How it works
 
-Legislation sets the structure around ERCOT. PURA creates the ERCOT board selection committee, with one appointee each from the governor, the lieutenant governor and the speaker of the house. [e3] It requires that new or revised protocols not take effect until the PUCT approves a market impact statement. [e4] The PUCT is itself subject to the Texas Sunset Act, and HB 1500 sets September 1, 2029 as the date in the abolition provision. [e5]
+Legislation sets the structure around ERCOT. PURA creates the ERCOT board selection committee, with one appointee each from the governor, the lieutenant governor and the speaker of the house. [e3] It requires that new or revised protocols not take effect until the PUCT approves a market impact statement. [e4] The PUCT is itself subject to the Texas Sunset Act, and HB 1500 sets September 1, 2029 as the date in the abolition provision, under which the commission is abolished on that date unless continued in existence. [e5]
 
 The Legislature also asks for information back. Each year by December 1 the PUCT must file a report with the legislature that includes estimated annual costs to load-serving entities of backing up dispatchable and non-dispatchable generation. [e2] The market monitor may appear and speak before the legislature without PUCT restriction. [e9]
 
@@ -91,12 +91,12 @@ Recent sessions have written market and reliability design directly into PURA. S
 
 - PURA states a policy preference for customer choice and competition, except for transmission and distribution and stranded-cost recovery. [e1]
 - ERCOT board selection committee: one appointee each from the governor, lieutenant governor and house speaker. [e3]
-- HB 1500 (2023) sets September 1, 2029 as the date in the PUCT's Sunset abolition provision. [e5]
+- HB 1500 (2023) sets September 1, 2029 as the date in the PUCT's Sunset abolition provision (the commission is abolished on that date unless continued in existence). [e5]
 - SB 6 (2025, effective June 20, 2025) added PURA §39.170 on large load demand management. [e6][e7]
 
 ## Say it like this
 
-(Guidance) The Legislature sets the rules of the game in PURA and amends them by statute, as with the large-load rules in SB 6. The PUCT turns that law into rules and ERCOT turns the rules into Protocols.
+(Guidance) The Legislature sets the rules of the game in PURA and amends them by statute, as with the large-load rules in SB 6. Protocol changes still need PUCT approval before they take effect. [e4]
 
 ## Common confusion
 

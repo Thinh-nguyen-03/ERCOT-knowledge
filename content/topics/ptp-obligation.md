@@ -105,7 +105,7 @@ A PTP Obligation is a day-ahead position between two points: you pay the day-ahe
 
 ## Common confusion
 
-A PTP Obligation can lose money: it can produce a charge as well as a payment. [e1] Do not confuse it with a virtual: a PTP is a two-location spread, while an energy-only offer or bid is a one-location energy position. [e2][e6]
+A PTP Obligation can lose money: it can produce a charge as well as a payment. [e1] Do not confuse it with a virtual: a PTP is a two-location spread, while energy-only offers and energy bids are separate DAM instruments that may not be combined to create the net effect of one PTP between electrically similar Settlement Points. [e2][e6]
 
 ## Questions
 
@@ -119,7 +119,7 @@ Because PTP bid volume has grown a lot and ERCOT sees it as a key contributor to
 
 ### Was the PTP a good trade in 2025?
 
-On average yes: PTPs received 10.9% more in real time than their day-ahead purchase cost. [e8]
+In 2025, on average yes: PTPs received 10.9% more in real time than their day-ahead purchase cost. [e8]
 
 ## Open items
 

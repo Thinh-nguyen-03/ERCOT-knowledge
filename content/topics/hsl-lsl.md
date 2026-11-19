@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: sced
     type: used-in
-    note: SCED dispatches each Resource between its LSL and HSL, and the limits feed the Resource limit calculator that SCED uses. [e7][e8][e9]
+    note: An On-Line Resource's offer curve must price it between its HSL and LSL (or it needs an Output Schedule), and the Resource limits feed SCED. [e7][e8]
   - to: ancillary-services
     type: related
     note: A Resource's HSL must be greater than or equal to the LSL and the sum of its Resource-specific Ancillary Service awards. [e6]
@@ -19,7 +19,7 @@ links:
     note: The Energy Offer Curve must price the Resource between its HSL and LSL. [e7]
   - to: energy-storage-resource
     type: related
-    note: For an ESR a negative limit describes charging capability, with a negative HSL is the minimum temporary charging capability and a negative LSL the maximum sustained charging capability. [e3][e4]
+    note: For an ESR a negative HSL is the minimum temporary charging capability and a negative LSL is the maximum sustained charging capability. [e3][e4]
   - to: market-power-mitigation
     type: used-in
     note: For the SCED CCT, the telemetered HSL is used for Resources with specified telemetered statuses, and zero for all others. [e10]
@@ -89,7 +89,7 @@ The High Sustained Limit (HSL) of a Generation Resource is the limit set by its 
 
 The QSE sets and keeps updating the limits for a Generation Resource. [e1][e2] For a Load Resource, ERCOT calculates the HSL from the Maximum Power Consumption the QSE has established. [e5] For an Energy Storage Resource the limits are MW values that can be below, at, or above zero: a positive HSL is the maximum sustained discharge, a negative HSL is the minimum temporary charge, and a negative LSL is the maximum sustained charge. [e3][e4]
 
-SCED works between the two limits. ERCOT checks that every On-Line Resource has either an Energy Offer Curve (or Energy Bid/Offer Curve) that prices it between its HSL and LSL, or an Output Schedule. [e7] The Resource limits feed both SCED and the Ancillary Service Capacity Monitor. [e8] For example, for a SCED-dispatchable Generation Resource in certain telemetered status codes (other than SHUTDOWN), the High Dispatch Limit is the lesser of telemetered output plus five minutes of normal ramp up or the telemetered HSL. [e9]
+ERCOT checks that every On-Line Resource has either an Energy Offer Curve (or Energy Bid/Offer Curve) that prices it between its HSL and LSL, or an Output Schedule. [e7] The Resource limits feed both SCED and the Ancillary Service Capacity Monitor. [e8] For example, for a SCED-dispatchable Generation Resource in certain telemetered status codes (other than SHUTDOWN), the High Dispatch Limit is HDL = Min (POWERTELEM + (NORMRAMPUP * 5), HSLTELEM), that is, the lesser of telemetered output plus the telemetered normal ramp rate up times 5, or the telemetered HSL. [e9]
 
 The HSL is also tied to reserve awards: it must be greater than or equal to the LSL and the sum of the Resource-specific awards for RRS, ECRS, Reg-Up, Reg-Down and Non-Spin. [e6]
 
@@ -109,17 +109,17 @@ The HSL is also an input to the market power test: for the SCED CCT, the telemet
 
 ## Say it like this
 
-HSL and LSL are the top and bottom of the range a unit says it can sustain, and SCED will only dispatch it inside that range. Keeping them accurate matters because they set both how much energy and how much reserve a unit can be asked for.
+HSL and LSL are the top and bottom of the range of sustained output a unit's QSE reports. The offer curve has to price the unit between them, and the HSL must cover the unit's Ancillary Service awards.
 
 ## Common confusion
 
-HSL is not the same as the High Dispatch Limit. The HSL is what the QSE reports as sustained capability, while the HDL is ERCOT's calculated, ramp-limited ceiling for the next SCED run, which is capped by the telemetered HSL. [e9] For batteries, a negative number is normal, not an error. [e3][e4]
+HSL is not the same as the High Dispatch Limit. The HSL is what the QSE reports as sustained capability, while the HDL is a limit calculated from telemetered output, ramp rate and the telemetered HSL, and for a SCED-dispatchable Generation Resource in the status codes quoted it can be no higher than the telemetered HSL. [e9] For batteries, a negative number is normal, not an error. [e3][e4]
 
 ## Questions
 
 ### Why does a QSE have to update HSL after a forced derate?
 
-The Resource limits are inputs to SCED and the Ancillary Service Capacity Monitor and help ensure deployments respect Resources' physical limitations, so a stale HSL weakens that protection. [e8] The protocols require the update within 15 minutes for a derate over ten MW and more than 5% of the Seasonal net maximum sustainable rating that is expected to last more than 30 minutes. [e11]
+The Resource limits are inputs to SCED and the Ancillary Service Capacity Monitor and help ensure deployments respect Resources' physical limitations. [e8] The protocols require the update within 15 minutes for a derate over ten MW and more than 5% of the Seasonal net maximum sustainable rating that is expected to last more than 30 minutes. [e11]
 
 ### How do HSL and LSL work for a battery?
 

@@ -16,7 +16,7 @@ links:
     note: Each Hub has its own Settlement Point Price calculated by the method in its definition. [e5]
   - to: lmp
     type: related
-    note: Hub prices are averages of bus-level LMPs over the Hub Buses. [e1][e6]
+    note: Real-Time Hub LMPs are averages of the Real-Time LMPs of the Hub Buses. [e6]
   - to: hb-north
     type: related
     note: North 345 kV Hub is one of the defined Hubs. [e4]
@@ -44,7 +44,7 @@ evidence:
   - id: e3
     source: np-03
     locator: "Section 3.5.1, paragraph (1)"
-    quote: "Hubs settled through ERCOT may only be created by an amendment to Section 3.5.2, Hub Definitions. Hubs are made up of one or more Electrical Buses. ERCOT shall post the list of Electrical Buses (including their names) that are part of a Hub on the ERCOT website."
+    quote: "Hubs settled through ERCOT may only be created by an amendment to Section 3.5.2, Hub Definitions. Hubs are made up of one or more Electrical Buses. ERCOT shall post the list of Electrical Buses (including their names) that are part of a Hub on the ERCOT website. A Hub, once defined, may not be modified except as explicitly described in the definition of that Hub."
   - id: e4
     source: np-03
     locator: "Section 3.5.2.7, paragraph (1)"
@@ -99,15 +99,15 @@ A Hub is a designated Settlement Point made up of a Hub Bus or group of Hub Buse
 
 A Hub is made up of one or more Electrical Buses, and ERCOT posts the list of those buses on its website. [e3] In real time, a Hub Bus is an energized Electrical Bus or group of them treated as a single element, and its LMP is the simple average of the LMPs of the energized buses it contains. [e7] The Hub LMP is, for every defined Hub except the ERCOT Hub Average 345 kV Hub, the arithmetic average of the Real-Time LMPs of the Hub Buses in the Hub. [e6]
 
-Settlement prices follow the same pattern. For example, the North 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour in the Day-Ahead, and is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time. [e5] The Panhandle 345 kV Hub Price is written the same way. [e11] The Hub price is thus a simple average of Hub Bus prices rather than a Load-weighted one. [e5][e7]
+Settlement prices follow the same pattern. For example, the North 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour in the Day-Ahead, and is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time. [e5] The Panhandle 345 kV Hub Price is written the same way. [e11] In Real-Time the Hub price is thus a simple average of Hub Bus prices rather than a Load-weighted one. [e5][e7]
 
-The protocol's Section 3.5.2 defines North 345, South 345, Houston 345 and West 345 hubs, plus Panhandle 345, a Lower Rio Grande Valley 138/345 hub, the ERCOT Hub Average 345 kV Hub (ERCOT 345) and the ERCOT Bus Average 345 kV Hub (ERCOT 345 Bus). [e4][e8][e11][e12] The ERCOT 345 average is the simple average of the North, South, Houston and West hub prices in Real-Time, and the Panhandle hub is not part of it. [e8] The ERCOT Bus Average hub is composed of the Hub Buses of the North, South, Houston and West hubs. [e4]
+The protocol's Section 3.5.2 as currently in effect defines North 345, South 345, Houston 345 and West 345 hubs, plus Panhandle 345, the ERCOT Hub Average 345 kV Hub (ERCOT 345) and the ERCOT Bus Average 345 kV Hub (ERCOT 345 Bus). [e4][e8][e11] A Lower Rio Grande Valley 138/345 kV Hub appears only in text marked as pending (NPRR941 and NPRR1057, to be inserted upon system implementation), so it is not yet a defined Hub in the current Protocols. [e12] The ERCOT 345 average is the simple average of the North, South, Houston and West hub prices in Real-Time, and the Panhandle hub is not part of it. [e8] The ERCOT Bus Average hub is composed of the Hub Buses of the North, South, Houston and West hubs. [e4]
 
 Hub definitions change only through the protocol revision process: if a permanent change removes a Hub Bus from the grid, ERCOT files an NPRR to revise the Hub definition. [e9]
 
 ## ERCOT context
 
-A Hub's bus list and price method are locked into the Protocols and, per the definition, can never be modified and exist in perpetuity. [e1] A pending protocol change (NPRR941, not yet in effect) would also exclude the Lower Rio Grande Valley 138/345 kV Hub from the ERCOT Hub Average 345 kV Hub price. [e10]
+The definition of Hub says a Hub's bus list and price method can never be modified and that a Hub, once defined, exists in perpetuity. [e1] Section 3.5.1 adds that a Hub may not be modified except as explicitly described in that Hub's own definition. [e3] A pending protocol change (NPRR941, not yet in effect) would also exclude the Lower Rio Grande Valley 138/345 kV Hub from the ERCOT Hub Average 345 kV Hub price. [e10]
 
 ## Key facts
 
@@ -119,20 +119,20 @@ A Hub's bus list and price method are locked into the Protocols and, per the def
 
 ## Say it like this
 
-A hub is a fixed basket of 345 kV buses whose average price is written into the Protocols and never changes, which is why it works as a trading reference. A hub price is a simple average, not weighted by load, so it will differ from the load zone you settle in.
+A hub is a Settlement Point made of a defined group of buses, with its price method written into the Protocols. In Real-Time a hub price is a simple average of Hub Bus prices, not weighted by load, whereas a Load Zone price is Load-weighted.
 
 ## Common confusion
 
 - Hub versus Load Zone: a Hub averages a fixed list of buses with the method written in its definition, while a Load Zone price is load-weighted from State Estimator Load. [e1][e14]
 - Hub versus Resource Node: a Resource Node is the point where a generator's price is calculated; a Hub is a Settlement Point made of buses. [e2]
 - "ERCOT 345" and "ERCOT 345 Bus" are two different hubs: one averages four hub prices, the other averages the buses of the same four hubs. [e4][e8]
-- Whether a hub is one of the four main ones or Panhandle/LRGV matters for the ERCOT averages: Panhandle is excluded under the current text. [e8]
+- Whether a hub is one of the four main ones or Panhandle matters for the ERCOT averages: Panhandle is excluded under the current text. [e8]
 
 ## Questions
 
 ### Why is a Hub useful as a reference price?
 
-Its definition, including the Hub Buses and price method, can never be modified, and a Hub exists in perpetuity once defined. [e1] That stability is the reason the price is a durable reference.
+The Protocol definition says the Hub Buses and price method can never be modified and that a Hub exists in perpetuity once defined. [e1]
 
 ### How is the real-time Hub LMP calculated?
 
@@ -140,11 +140,11 @@ For each defined Hub other than the ERCOT Hub Average 345 kV Hub, it is the arit
 
 ### Which hubs make up the ERCOT 345 average?
 
-North 345, South 345, Houston 345 and West 345 in the current text. The Panhandle 345 kV Hub is excluded. [e8]
+North 345, South 345, Houston 345 and West 345 in the current text. The Panhandle 345 kV Hub is excluded. [e8] Pending text (NPRR941) would also exclude the Lower Rio Grande Valley 138/345 kV Hub. [e10]
 
 ### Can ERCOT change a hub's buses?
 
-Not through the ordinary process: the definition can never be modified, and a permanent removal of a Hub Bus requires an NPRR to revise the Hub definition. [e1][e9]
+Not through any ordinary process: the Hub definition says the list of Hub Buses can never be modified [e1], Section 3.5.1 allows modification only as explicitly described in a Hub's own definition [e3], and a permanent removal of a Hub Bus requires an NPRR to revise the Hub definition. [e9]
 
 ## Open items
 

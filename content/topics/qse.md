@@ -16,7 +16,7 @@ links:
     note: Resource Entities are also represented by a QSE, and the QSE definition names them alongside LSEs. [e1]
   - to: rep
     type: related
-    note: ERCOT must approve the LSE's QSE designation before a Competitive Retailer (the retail seller, or REP) enrolls customer ESI IDs. [e5]
+    note: ERCOT must approve the LSE's QSE designation before a Competitive Retailer (which includes REPs) enrolls customer ESI IDs. [e5][e13]
   - to: ercot
     type: related
     note: ERCOT qualifies QSEs and settles payments and charges with them. [e1]
@@ -75,6 +75,14 @@ evidence:
     source: np-16
     locator: "Section 16.2.1(1)(n)"
     quote: "Demonstrate to ERCOT’s reasonable satisfaction that the Entity can maintain a 24-hour, seven-day-per-week control or operations center with qualified personnel for the purposes of communicating with ERCOT relating to Day-Ahead and Operating Day exchange of market and operational obligations. This requirement applies to QSEs that are WAN Participants."
+  - id: e13
+    source: np-02
+    locator: "Section 2.1, definition of Load Serving Entity (LSE)"
+    quote: "LSEs include Competitive Retailers (which includes REPs) and NOIEs that serve Load and ELSEs."
+  - id: e14
+    source: np-16
+    locator: "Section 16.2.6.1(3)(b)"
+    quote: "this option does not apply to an LSE or Resource Entity represented by a terminated or suspended QSE that is the same Entity as the terminated or suspended QSE."
 ---
 
 ## Definition
@@ -89,7 +97,7 @@ One qualification requirement is that the entity be financially responsible for 
 
 The Protocols also define a Counter-Party as a single Entity that is a QSE and/or a CRR Account Holder, including all of that Entity's QSE registrations, subordinate QSEs and CRR Account Holder registrations. [e10]
 
-If a represented LSE or Resource Entity loses its QSE (termination or suspension), it is designated a Virtual QSE for up to two Bank Business Days. In that window it must designate and start operating with a new QSE, or meet QSE creditworthiness requirements and operate as an Emergency QSE. [e7][e8]
+If ERCOT has given notice of the termination or suspension of the QSE that represents an LSE or Resource Entity, that entity is designated a Virtual QSE for up to two Bank Business Days. In that window it must designate and start operating with a new QSE, or meet QSE creditworthiness requirements and operate as an Emergency QSE, though the Emergency QSE option does not apply to an entity represented by a terminated or suspended QSE that is the same Entity as that QSE. [e7][e8][e14]
 
 ## ERCOT context
 
@@ -100,16 +108,16 @@ The IMM reports that RUC make-whole costs are allocated first to QSEs that are c
 - QSE qualification is done by ERCOT under Section 16 of the Protocols. [e1]
 - A QSE is financially responsible for Settlement charges of the entities it represents. [e3]
 - Each LSE applicant designates its QSE, and ERCOT approval of the designation is a precondition to enrolling customers (CRs) or registering a wholesale delivery point (NOIEs, ELSEs). [e4][e5]
-- A represented entity whose QSE is terminated or suspended becomes a Virtual QSE for up to two Bank Business Days. [e8]
+- After ERCOT gives notice that a represented entity's QSE is terminated or suspended, the entity becomes a Virtual QSE for up to two Bank Business Days. [e8]
 - "Unreasonable Financial Risk" is a defined qualification test. [e6]
 
 ## Say it like this
 
-(Guidance) A QSE is the qualified middleman between ERCOT and the generators and retailers it represents: it schedules, bids, and pays or gets paid by ERCOT on their behalf. Because it is financially responsible for those settlements, its credit standing matters to everyone it represents.
+(Guidance) A QSE is the qualified middleman between ERCOT and the generators and retailers it represents: it submits schedules and ancillary service bids and settles payments with ERCOT. [e2] Because a QSE must be financially responsible for the Settlement charges of the entities it represents [e3], ERCOT also tests whether it poses an Unreasonable Financial Risk. [e6]
 
 ## Common confusion
 
-(Guidance) A QSE is not a retailer and not a generator; it is the entity that interfaces with ERCOT for them. A REP is a retail seller; a REP still needs a QSE. [e4][e5] Do not confuse a QSE with a Counter-Party: a Counter-Party is a single Entity that is a QSE and/or a CRR Account Holder and includes all of that Entity's QSE registrations. [e10]
+(Guidance) A QSE is not a retailer and not a generator; it is the entity that interfaces with ERCOT for them. A REP is a Competitive Retailer, which is a kind of LSE [e13], and each LSE applicant must designate a QSE. [e4][e5] Do not confuse a QSE with a Counter-Party: a Counter-Party is a single Entity that is a QSE and/or a CRR Account Holder and includes all of that Entity's QSE registrations. [e10]
 
 ## Questions
 
@@ -119,7 +127,7 @@ The Protocols require each LSE applicant to designate a QSE that will perform QS
 
 ### What happens if a QSE is suspended or terminated?
 
-ERCOT notifies the affected LSEs and Resource Entities, and each becomes a Virtual QSE for up to two Bank Business Days. It must then designate a new QSE or satisfy QSE creditworthiness requirements and operate as an Emergency QSE. [e7][e8]
+Once ERCOT has given notice of the termination or suspension, each affected LSE or Resource Entity is designated a Virtual QSE for up to two Bank Business Days. It must then designate a new QSE or satisfy QSE creditworthiness requirements and operate as an Emergency QSE, except that the Emergency QSE option does not apply where the represented entity is the same Entity as the QSE. [e7][e8][e14]
 
 ### What is "Unreasonable Financial Risk"?
 

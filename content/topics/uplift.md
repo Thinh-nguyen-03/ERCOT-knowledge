@@ -19,7 +19,7 @@ links:
     note: Some uplifts, such as the RUC make-whole shortfall, are allocated to all QSEs. [e2]
   - to: securitization
     type: related
-    note: The Securitization Uplift Charge pays the Winter Storm Uri securitization balance. [e5]
+    note: The Securitization Uplift Charge is used to pay the Securitization Uplift Balance, which the Protocols define as the amount ERCOT securitized under PURA Subchapter N, Winter Storm Uri Uplift Financing. [e5][e12]
   - to: sc-uplift-surprise
     type: related
     note: Worked scenario for an unexpected uplift charge.
@@ -71,6 +71,10 @@ evidence:
     source: imm-som-2024
     locator: "Executive Summary, all-in price"
     quote: "Uplift costs accounted for $1.24 per MWh of the all-in price in 2024, up 26% from 2023. Total uplift costs in 2024 were approximately $573 million."
+  - id: e12
+    source: np-02
+    locator: "Section 2.1, definition of Securitization Uplift Balance"
+    quote: "The amount of money ERCOT securitized under Public Utility Regulatory Act (PURA) Chapter 39, Restructuring of Electric Utility Industry, Subchapter N, Winter Storm Uri Uplift Financing, pursuant to the Debt Obligation Order (DOO) issued by the Public Utility Commission of Texas (PUCT) in PUCT Docket No. 52322"
 ---
 
 ## Definition
@@ -79,7 +83,7 @@ evidence:
 
 ## How it works
 
-In the Protocols uplift shows up as specific mechanisms: the RUC Make-Whole Uplift Charge, default uplift invoices that collect short-paid amounts from QSEs and CRR Account Holders, and the Securitization Uplift Charge for the Winter Storm Uri balance. [e2][e4][e5] Load Ratio Share, the ratio of an Entity's AML to total ERCOT AML, is the allocator for the RUC make-whole shortfall. [e3][e2] A Cost Allocation Zone may be used to uplift certain costs to a QSE's Load regardless of NOIE Load Zone. [e6]
+In the Protocols uplift shows up as specific mechanisms: the RUC Make-Whole Uplift Charge, default uplift invoices that collect short-paid amounts from QSEs and CRR Account Holders, and the Securitization Uplift Charge for the Winter Storm Uri securitization balance. [e2][e4][e5][e12] Load Ratio Share, the ratio of an Entity's AML to total ERCOT AML, is the allocator for the RUC make-whole shortfall. [e3][e2] A Cost Allocation Zone may be used to uplift certain costs to a QSE's Load regardless of NOIE Load Zone. [e6]
 
 In its 2024 report the IMM groups many settlements under uplift for its all-in price: the reliability and ORDC adder imbalance settlements, Revenue Neutrality Allocation, emergency energy charges, base point deviation payments, ERS, black start, block load transfer, firm fuel, high dispatch limit override, RMR, RUC, voltage services and the ERCOT administrative fee. [e7] The ORDC adder in that list was discontinued in December 2025 with the introduction of RTC. [e11]
 
@@ -97,7 +101,7 @@ The IMM put uplift at $1.24 per MWh in 2024, about $573 million in total, and $1
 
 ## Say it like this
 
-Uplift is the part of your all-in cost that is not energy or ancillary services: settlement items spread over load rather than priced into the market. It is the IMM's grouping, not a Protocol term.
+Uplift is the part of your all-in cost that is not energy or ancillary services: settlement items spread over load rather than priced into the market. It is the IMM's grouping for the all-in price; the Protocols name specific uplift charges but do not define "uplift" itself.
 
 ## Common confusion
 

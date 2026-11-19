@@ -67,7 +67,7 @@ evidence:
 
 ## Definition
 
-The implied heat rate is the IMM's market-based indicator of the fuel efficiency a gas generator would need to break even at current electricity and natural gas prices, calculated by dividing the power price by the fuel price. [e1] In the 2024 report the IMM calls it the "implied marginal heat rate" and divides the real-time price of electricity by the natural gas price. [e2]
+The implied heat rate, as the IMM calculates it, is the power price divided by the fuel price, giving the heat rate that equates revenue from selling electricity with the cost of buying gas. [e1] In the 2024 report the IMM calls it the "implied marginal heat rate" and divides the real-time price of electricity by the natural gas price. [e2]
 
 ## How it works
 
@@ -79,12 +79,12 @@ Wind and solar push the number down by creating hundreds of hours at or below $0
 
 The IMM reported that the 2025 average implied heat rate was almost 28% lower than 2024 and the lowest annual average of the last five years, now in line with the marginal heat rate of ERCOT gas plants. [e3] For 2024 it had been considerably lower than 2021 and 2023, years elevated by Winter Storm Uri and ECRS-related issues. [e5]
 
-The IMM also uses an implied heat rate of 18 times the Fuel Index Price as its threshold for a real-time price spike. [e8] ERCOT's FIP is a Katy Hub gas index. [e7]
+For one analysis in its 2025 report the IMM defines a real-time price spike as a 15-minute interval where the load-weighted average energy price exceeds an implied heat rate of 18 multiplied by the Fuel Index Price. [e8] ERCOT's FIP is a Katy Hub gas index. [e7]
 
 ## Key facts
 
 - Implied heat rate = power price divided by fuel price (IMM). [e1][e2]
-- 2025 average was almost 28% below 2024 and the lowest of 2021-2025. [e3]
+- 2025 average was almost 28% below 2024 and the lowest annual average of the last five years. [e3]
 - Wind and solar lower it; shortage pricing raises it. [e4]
 - The IMM's price-spike threshold is a heat rate of 18 times the FIP, applied to 15-minute intervals. [e8]
 
@@ -94,13 +94,13 @@ The IMM also uses an implied heat rate of 18 times the Fuel Index Price as its t
 
 ## Common confusion
 
-It is not a unit's heat rate. A unit's heat rate is its efficiency, whereas the implied heat rate is a market ratio and moves with price spikes, negative-price hours and gas prices. [e6][e4]
+It is not a unit's heat rate. A unit's heat rate is its efficiency, whereas the implied heat rate is a market ratio and is affected by hours at or below $0 per MWh and by shortage-pricing hours. [e6][e4]
 
 ## Questions
 
 ### Why did the implied heat rate fall in 2025?
 
-The IMM says the 2025 average fell almost 28% from 2024 to the lowest in five years, because price spikes had a smaller effect relative to fuel prices than in 2023 and 2024. [e3]
+The IMM says the 2025 average fell almost 28% from 2024 to the lowest in five years, and that price spikes, which have elevated the implied marginal heat rate in recent years, had a larger effect relative to fuel prices in 2023 and 2024 than in 2025. [e3]
 
 ### What pushes the implied heat rate above a gas plant's actual heat rate?
 

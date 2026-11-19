@@ -30,7 +30,7 @@ evidence:
   - id: e1
     source: np-02
     locator: "Section 2.1, definition of Non-Spinning Reserve (Non-Spin)"
-    quote: "An Ancillary Service that is provided through use of the part of Off-Line Generation Resources that can be synchronized and ramped to a specified output level within 30 minutes (or Load Resources that can be interrupted within 30 minutes) and that can operate (or Load Resources that can be interrupted) at a specified output level for at least four consecutive hours."
+    quote: "An Ancillary Service that is provided through use of the part of Off-Line Generation Resources that can be synchronized and ramped to a specified output level within 30 minutes (or Load Resources that can be interrupted within 30 minutes) and that can operate (or Load Resources that can be interrupted) at a specified output level for at least four consecutive hours. Non-Spin may also be provided from unloaded On-Line capacity that meets the 30-minute response requirements, that is reserved exclusively for use for this service and that can be sustained at a specified level for at least four consecutive hours."
   - id: e2
     source: np-03
     locator: "Section 3.17.3, Non-Spinning Reserve Service, paragraph (1)(a)"
@@ -87,13 +87,13 @@ evidence:
 
 ## Definition
 
-Non-Spinning Reserve (Non-Spin) is an ancillary service provided by off-line generation that can be synchronized and ramped to a specified output within 30 minutes, or by load that can be interrupted within 30 minutes, and that can sustain that level for at least four consecutive hours. [e1]
+Non-Spinning Reserve (Non-Spin) is an ancillary service provided by off-line generation that can be synchronized and ramped to a specified output within 30 minutes, or by load that can be interrupted within 30 minutes, and that can sustain that level for at least four consecutive hours. It may also be provided from unloaded On-Line capacity that meets the 30-minute response requirements, is reserved exclusively for this service and can be sustained for at least four consecutive hours. [e1]
 
 ## How it works
 
 Generation Resources, on-line or off-line, qualify if they can ramp to a specified output within 30 minutes and run at it for at least four consecutive hours. [e2] Controllable Load Resources qualified for SCED can also provide it if they can reach an ERCOT-instructed consumption level within 30 minutes and hold it for four hours. [e3]
 
-ERCOT deploys Non-Spin by operator Dispatch Instruction, under a TAC-approved procedure that starts when a threshold of capability available to SCED is reached. Operators may also use it to recover deployed RRS or ECRS or when other Emergency Conditions exist, and a deployment is always 100% of the individual resource's award. [e4] Once off-line capacity is deployed and on line, SCED determines its energy, and off-line resources offering Non-Spin must supply an Energy Offer Curve. [e6]
+For Off-Line Generation Resources, and the portion of On-Line Generation Resources available only through power augmentation, ERCOT deploys Non-Spin by operator Dispatch Instruction, under a TAC-approved procedure that starts when a threshold of capability available to SCED is reached. Operators may also use it to recover deployed RRS or ECRS or when other Emergency Conditions exist, and a deployment is always 100% of the individual resource's award. [e4] Once off-line capacity is deployed and on line, SCED determines its energy, and off-line resources offering Non-Spin must supply an Energy Offer Curve. [e6]
 
 ## ERCOT context
 
@@ -104,7 +104,7 @@ The IMM notes that the NSRS duration requirement remained four hours at the time
 ## Key facts
 
 - Non-Spin ramps to a specified output within 30 minutes and holds it for at least four consecutive hours (current Protocol text). [e1]
-- Deployment is always 100% of an individual resource's award. [e4]
+- Non-Spin deployment is always 100% of that awarded on an individual Resource. [e4]
 - Operators may use Non-Spin to recover deployed RRS or ECRS. [e4]
 - 2025: NSRS was the highest-priced AS product; ESRs provided 24%. [e9][e10]
 - Non-controllable load resources cannot hold an active UFR and also provide NSRS, so they choose NSRS or RRS. [e12]
@@ -121,7 +121,7 @@ Despite the name, Non-Spin is not only off-line capacity: on-line generation and
 
 ### How is Non-Spin deployed?
 
-By operator Dispatch Instruction under a TAC-approved procedure, always for 100% of the award, after which SCED sets the energy dispatched from the deployed resource. [e4][e6]
+For Off-Line Generation Resources (and the power-augmentation portion of On-Line Generation Resources), by operator Dispatch Instruction under a TAC-approved procedure, always for 100% of the award, after which SCED sets the energy dispatched from the deployed resource. [e4][e6]
 
 ### Why was Non-Spin expensive in 2025?
 

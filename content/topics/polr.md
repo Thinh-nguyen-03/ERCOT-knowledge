@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: mass-transition
     type: related
-    note: A mass transition moves ESI IDs from a failing competitive retailer to a POLR or designated CR. [e5]
+    note: A mass transition moves ESI IDs from one competitive retailer to a POLR or designated CR (or between TDSPs), as identified by Applicable Legal Authority. [e5]
   - to: rep
     type: related
     note: The PUCT designates retail electric providers to serve as providers of last resort. [e1]
@@ -89,18 +89,18 @@ A Provider of Last Resort (POLR) is a retail electric provider the PUCT designat
 
 PUCT rule 25.43 makes POLR service available to any requesting retail customer and to customers ERCOT transfers because their REP failed to provide service or meet its obligations to ERCOT. [e3] There are two types of POLR providers, VREPs and LSPs. A VREP is a REP that has volunteered to provide POLR service, and an LSP is a REP designated to provide it. [e4][e12][e13] There are four customer classes: residential, small non-residential, medium non-residential and large non-residential. [e4] A POLR provider offers a basic standard service package, limited to basic firm service and call center facilities. [e9] POLR providers serve two-year terms. [e8]
 
-Pricing differs by type. A VREP must use a market-based, month-to-month product. [e6] The rule sets a maximum rate for POLR service charged by an LSP, with a formula for the residential class. [e11] Under it, beginning on the 10th of each month the LSP energy charge is the preceding month's average real-time SPP for the applicable load zone, applied to the customer's kWh and multiplied by 120%. [e7]
+Pricing differs by type. A VREP must use a market-based, month-to-month product. [e6] The rule sets a maximum rate for POLR service charged by an LSP, with a formula for the residential class. [e11] Under the residential formula, beginning on the 10th of each month the LSP energy charge is the preceding month's average real-time SPP for the applicable load zone, applied to the customer's kWh and multiplied by 120%. [e7]
 
 ## ERCOT context
 
-When a retailer fails, ERCOT moves its customers in a mass transition, defined in the Protocols as the transition of ESI IDs from a competitive retailer to a POLR or designated CR. [e5] The PUCT designates POLR providers and sets requirements for POLR service. [e1][e3]
+The Protocols define a mass transition as the transition of ESI IDs from one competitive retailer to a POLR or designated CR (or between TDSPs), in a quantity or timeframe identified by Applicable Legal Authority. [e5] The PUCT designates POLR providers and sets requirements for POLR service. [e1][e3]
 
 ## Key facts
 
 - PURA requires the PUCT to designate POLRs where customer choice is in effect. [e1]
 - Two POLR types (VREP, LSP) and four customer classes. [e4]
 - POLR providers serve two-year terms. [e8]
-- The LSP energy charge is the preceding month's average real-time SPP for the load zone times the customer's kWh, multiplied by 120%. [e7]
+- Residential customers: the LSP energy charge is the preceding month's average real-time SPP for the load zone times the customer's kWh, multiplied by 120%. [e7]
 - A VREP serves on a market-based, month-to-month product. [e6]
 
 ## Say it like this
@@ -119,7 +119,7 @@ A POLR provider: customers are transferred by ERCOT to a VREP or LSP, with no in
 
 ### How is the LSP's residential rate set?
 
-By the 16 TAC 25.43(m)(2) formula, which sets a maximum rate. Its energy charge is the preceding month's average real-time SPP for the load zone, applied to the customer's kWh and multiplied by 120%. [e11][e7]
+By the 16 TAC 25.43(m)(2) formula, which sets a maximum rate. For residential customers, the energy charge is the preceding month's average real-time SPP for the load zone, applied to the customer's kWh and multiplied by 120%. [e11][e7]
 
 ## Open items
 

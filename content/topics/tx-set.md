@@ -79,7 +79,7 @@ TX SETs are the electronic data transactions, implementation guides and external
 
 ## How it works
 
-TX SET covers transactions among TDSPs, Competitive Retailers and ERCOT. [e10] EDI transactions are built on ANSI ASC X12 standards. [e2] Examples: a new CR sends ERCOT an 814_01 Switch Request to begin a switch enrollment, and an 814_16 Move In Request to begin a move in. [e3][e4] A CR sends a 650_01 Service Order Request to the TDSP, and the TDSP reports monthly usage to ERCOT with an 867_03. [e9][e5]
+TX SET covers transactions among TDSPs, Competitive Retailers and ERCOT. [e10] The responsible TAC subcommittee develops EDI transactions using ANSI ASC X12 standards. [e2] Examples: a new CR sends ERCOT an 814_01 Switch Request to begin a switch enrollment, and an 814_16 Move In Request to begin a move in. [e3][e4] A CR sends a 650_01 Service Order Request to the TDSP, and the TDSP reports monthly usage to ERCOT with an 867_03. [e9][e5]
 
 Changes follow a change control process: the appropriate TAC subcommittee makes modifications and additions, since TX SETs are expanded and modified on an ongoing basis. [e6] The TX SET Working Group works with ERCOT's flight administrator on test plans and standards for retail transactional changes. [e8]
 
@@ -90,7 +90,7 @@ TDSPs provide advanced meter interval data to ERCOT in an ERCOT-specified file f
 ## Key facts
 
 - Defined in the Protocols' Section 2.1 definitions. [e1]
-- EDI transactions follow ANSI ASC X12. [e2]
+- The TAC subcommittee develops EDI transactions using ANSI ASC X12 standards. [e2]
 - 814_01 switch, 814_16 move in, 867_03 monthly or final usage. [e3][e4][e5]
 - Changes go through TAC subcommittee change control. [e6]
 

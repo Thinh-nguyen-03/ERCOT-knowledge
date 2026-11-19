@@ -13,16 +13,16 @@ links:
     note: GTCs account for a measurable share of day-ahead congestion value. [e6]
   - to: binding-constraint
     type: related
-    note: A GTC is one kind of constraint that can bind in SCED, and a Non-Competitive Constraint can be associated with a GTC. [e1][e9]
+    note: A GTC is a transmission constraint used in the SCED application, and a Non-Competitive Constraint can be associated with a GTC. [e3][e9]
   - to: shadow-price
     type: related
     note: In 2025 ERCOT applied a $5,251 per MW shadow price cap to GTCs as base-case stability constraints. [e7]
   - to: wind-generation
     type: related
-    note: GTCs matter most where renewable generation sits far from load centers. [e5]
+    note: The IMM says GTCs are especially relevant in areas with significant renewable generation, which are often far from load centers. [e5]
   - to: crez
     type: related
-    note: Renewable export regions are where the IMM says stability constraints are most relevant. [e5]
+    note: The IMM says GTCs are especially relevant in areas with significant renewable generation; the source does not name CREZ here. [e5]
   - to: sced
     type: used-in
     note: GTCs created under Section 3.10.7.6 are used in the SCED application. [e3]

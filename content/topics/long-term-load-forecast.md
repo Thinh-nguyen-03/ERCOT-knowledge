@@ -131,7 +131,7 @@ evidence:
 
 ## Definition
 
-The long-term load forecast (LTLF) is ERCOT's main annual tool for projecting system load growth over ten years. [e2] The 2025 edition is called the Long-Term Demand and Energy Forecast (LTDEF). [e25] It was built from six parts: base economic load, EVs, rooftop PV, large flexible load, Large Load Contracts and Large Load Officer Letters. [e1]
+The IMM describes the long-term load forecast (LTLF) as ERCOT's primary annual tool for projecting system load growth over a ten-year horizon. [e2] The saved 2025 report's Appendix A table itself lists the years 2025 to 2031. [e5] The 2025 edition is called the Long-Term Demand and Energy Forecast (LTDEF). [e25] It was built from six parts: base economic load, EVs, rooftop PV, large flexible load, Large Load Contracts and Large Load Officer Letters. [e1]
 
 ## How it works
 
@@ -141,7 +141,7 @@ For 2026 the rules changed. Under 16 TAC §25.370, large loads enter the LTLF ac
 
 ## ERCOT context
 
-The preliminary 2026 LTLF, filed April 15, 2026, showed about 278,003 MW in 2029 and 367,790 MW by 2032. [e7] ERCOT said it had concerns with using the preliminary values for the Reliability Assessment and other planning analysis. [e20] It expected the summer 2026 peak to be about 90,500 to 98,000 MW, while the preliminary LTLF said about 112,000 MW. [e8] The actual summer 2026 peak was a record 91,134 MW on July 22, 2026. [e13]
+The preliminary 2026 LTLF, filed April 15, 2026, showed about 278,003 MW in 2029 and 367,790 MW by 2032. [e7] ERCOT said it had concerns with using the preliminary values for the Reliability Assessment and other planning analysis. [e20] It expected the summer 2026 peak to be about 90,500 to 98,000 MW, while the preliminary LTLF said about 112,000 MW. [e8] ERCOT's September 2026 summer review reports that on July 22, 2026 ERCOT set an all-time demand record of 91,134 MW. [e13]
 
 ERCOT offered two fixes. Option A cut computational large loads by 32% based on historical realization. Option B used Batch Zero Base Load, and ERCOT recommended using the Batch Zero forecast. [e9][e23][e10] The PUCT approved Option B. [e11] As a result, the adjusted number waits on Batch Zero classifications, which delays downstream reports. [e12] The PUCT also let ERCOT skip the May 2026 CDR and the 2026 RTP. [e18] In August 2026, ERCOT said base load plus mid-size loads alone came to about 110 GW in 2032, before adding any Batch loads. [e14] It expected a final forecast with Batch loads by the end of 2026. [e19]
 
@@ -166,7 +166,7 @@ ERCOT offered two fixes. Option A cut computational large loads by 32% based on 
 
 ## Say it like this
 
-(Guidance) ERCOT's preliminary 2026 forecast reached about 368 GW by 2032, mostly large loads taken from TDSP submissions, and ERCOT said it had concerns about using it. The PUCT directed ERCOT to base the adjusted forecast on the Batch Zero Base Load number, so the official number is still pending. [e7][e21][e20][e22]
+(Guidance) ERCOT's preliminary 2026 forecast reached about 367,790 MW by 2032, mostly large loads taken from TDSP submissions, and ERCOT said it had concerns about using it. The PUCT directed ERCOT to base the adjusted forecast on the Batch Zero Base Load number, so the official number was still pending in the saved sources. [e7][e21][e20][e22]
 
 ## Common confusion
 

@@ -77,7 +77,7 @@ The DART spread is the difference between the day-ahead (DA) and real-time (RT) 
 
 The IMM looks at the average difference between day-ahead and real-time spot prices to see whether persistent, predictable gaps exist that participants should arbitrage. [e2] It also reports the average absolute difference between daily average day-ahead and real-time prices, because that can be large even when the prices converge on average. [e10]
 
-Prices should converge when barriers to trading in either market are low, participants have enough information to form accurate expectations of real-time prices, and both markets reflect the physical limits of the transmission network, so that participants can arbitrage predictable differences. [e1] Day-ahead energy and Ancillary Services are now strictly financial positions, with imbalances settled in real time. [e7]
+Prices should converge when barriers to trading in either market are low, participants have enough information to form accurate expectations of real-time prices, and both markets reflect the physical limits of the transmission network, so that participants can arbitrage predictable differences. [e1] With RTC, day-ahead energy and Ancillary Services are strictly financial positions, with imbalances settled in real time. [e7]
 
 ## ERCOT context
 
@@ -91,17 +91,17 @@ For Ancillary Services under RTC, the day-ahead premium was very high in the ear
 
 - 2025 average DAM premium to RT: $1.17 per MWh; average absolute difference: $12 per MWh, the lowest since 2020. [e3]
 - 2024 average DAM premium under $1.50 per MWh; average absolute difference: $17.35 per MWh. [e4]
-- Day-ahead energy and AS positions are financial, settled against real time. [e7]
+- With RTC, day-ahead energy and AS positions are financial, settled against real time. [e7]
 - Early-RTC day-ahead AS premiums were very high; two events account for a disproportionate share. [e9]
 - PTPs earned 10.9% more in real time than their day-ahead cost in 2025. [e8]
 
 ## Say it like this
 
-The DART spread is the gap between the day-ahead and real-time price. In recent years the average gap has been small, a dollar or so per MWh, but daily gaps can still be large even when prices converge on average.
+The DART spread is the gap between the day-ahead and real-time price. In 2024 and 2025 the average gap was small, a dollar or so per MWh, but daily gaps can still be large even when prices converge on average. [e3][e4]
 
 ## Common confusion
 
-A small average spread does not mean a small risk. The average absolute daily difference was $12 per MWh in 2025 even though the average premium was only $1.17. [e3] Also, the average difference between day-ahead and real-time prices can hide persistent or offsetting gaps, while the average absolute difference captures variation in daily price differences. [e2][e10]
+A small average spread does not mean a small risk. The average absolute daily difference was $12 per MWh in 2025 even though the average premium was only $1.17. [e3] Also, daily price differences may be large even if prices converge on average, and the average absolute difference captures that variation. [e2][e10]
 
 ## Questions
 
@@ -115,7 +115,7 @@ Low barriers to trading, enough information to form accurate expectations of rea
 
 ### What changed for day-ahead Ancillary Service prices with RTC?
 
-Day-ahead energy and AS positions are now strictly financial positions with imbalances settled in real time, and the early-RTC day-ahead AS premium was very high. [e7][e9]
+With RTC, day-ahead energy and AS positions are strictly financial positions with imbalances settled in real time, and the early-RTC day-ahead AS premium was very high. [e7][e9]
 
 ## Open items
 

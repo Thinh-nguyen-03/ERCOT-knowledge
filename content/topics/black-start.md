@@ -19,7 +19,7 @@ links:
     note: The total Black Start capacity payment is allocated to QSEs representing Loads by load ratio share. [e8]
   - to: ers
     type: contrasts-with
-    note: ERS is an emergency service that is not an Ancillary Service, while Black Start is defined as one. [e1]
+    note: ERS is an emergency service that is not an Ancillary Service, while Black Start is defined as one. [e1][e14]
   - to: eea
     type: related
     note: A Black Start Resource may use its contracted back-up fuel outside of black start if ERCOT determines it is necessary during an EEA event. [e12]
@@ -79,6 +79,14 @@ evidence:
     source: np-03
     locator: "Section 3.14.2, paragraphs (4) and (5)"
     quote: "ERCOT may schedule unannounced Black Start testing, to verify that BSS is operable as specified in Section 8.1.1.2.1.5."
+  - id: e14
+    source: np-02
+    locator: "Section 2.1, definition of Emergency Response Service (ERS)"
+    quote: "ERS is not an Ancillary Service."
+  - id: e15
+    source: np-03
+    locator: "Section 3.14.2, paragraph (10)"
+    quote: "This requirement does not apply to Resources that do not rely on purchased fuel."
 ---
 
 ## Definition
@@ -89,7 +97,7 @@ Black Start Service (BSS) is an Ancillary Service provided by a Resource able to
 
 ERCOT obtains BSS through Black Start Agreements with QSEs for generation that can self-start, or that can start from a neighboring non-ERCOT control area under a firm standby power contract, without support from the ERCOT System. [e3] ERCOT may dispatch BSS under an emergency restoration plan after a Blackout. [e4] Bids are due on or before February 15 of each three-year period. [e6]
 
-Each selected Generation Resource must keep contracted back-up fuel to run at maximum output for at least 72 hours, though ERCOT may waive the requirement in whole or in part to procure enough resources, and ERCOT may schedule unannounced testing. [e9][e13][e11] ERCOT pays an hourly standby fee to the QSE representing the Black Start Resource, adjusted for availability against a rolling 85% reliability measure, and charges the total capacity payment to QSEs representing Loads by load ratio share. [e7][e8]
+Each selected Generation Resource must keep contracted back-up fuel to run at maximum output for at least 72 hours (the requirement does not apply to Resources that do not rely on purchased fuel) [e15], though ERCOT may waive the requirement in whole or in part to procure enough resources, and ERCOT may schedule unannounced testing. [e9][e13][e11] ERCOT pays an hourly standby fee to the QSE representing the Black Start Resource, adjusted for availability against a rolling 85% reliability measure, and charges the total capacity payment to QSEs representing Loads by load ratio share. [e7][e8]
 
 ## ERCOT context
 
@@ -99,7 +107,7 @@ The IMM counts Black Start Service Settlement among the items in the "uplift" it
 
 - BSS is an Ancillary Service delivered by resources that can start without the ERCOT grid. [e1]
 - Contract bids are due by February 15 of each three-year period. [e6]
-- Selected Black Start Resources must hold contracted back-up fuel for at least 72 hours at maximum output; ERCOT may waive this in whole or in part. [e9][e13]
+- Selected Black Start Resources must hold contracted back-up fuel for at least 72 hours at maximum output (not required of Resources that do not rely on purchased fuel); ERCOT may waive this in whole or in part. [e9][e13][e15]
 - ERCOT pays an hourly standby fee to the QSE; the cost is allocated to Load QSEs by load ratio share. [e7][e8]
 - ERCOT may schedule unannounced Black Start testing. [e11]
 
@@ -109,7 +117,7 @@ Black start is the grid's restart plan: ERCOT pays selected generators to be abl
 
 ## Common confusion
 
-Black Start is a defined Ancillary Service, unlike ERS, which the protocols say is not an Ancillary Service. [e1] Black Start is also not about ordinary reserves: it is for re-energizing the system after a Blackout or Partial Blackout. [e5]
+Black Start is a defined Ancillary Service, unlike ERS, which the protocols say is not an Ancillary Service. [e1][e14] Black Start is also not about ordinary reserves: it is for re-energizing the system after a Blackout or Partial Blackout. [e5]
 
 ## Questions
 

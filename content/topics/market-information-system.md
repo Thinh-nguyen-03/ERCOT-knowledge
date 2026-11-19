@@ -13,7 +13,7 @@ links:
     note: Data the Protocols require on the ERCOT website must be made available on a non-discriminatory basis. [e6]
   - to: settlement-statements
     type: related
-    note: Settlement-related invoices are posted to the MIS Certified Area. [e7]
+    note: The Securitization Default Charge Invoice, one settlement-related invoice, is posted to the MIS Certified Area. [e7]
   - to: ercot
     type: related
     note: ERCOT creates and maintains the MIS. [e3]
@@ -81,7 +81,7 @@ The Market Information System (MIS) is an electronic communications interface es
 
 The MIS has two restricted areas. The Secure Area is available only to registered Market Participants, and the Certified Area only to a specific Market Participant. [e2][e10] ERCOT posts to the MIS as directed by the Protocols. [e4] The restricted areas can carry ERCOT Critical Energy Infrastructure Information (ECEII) where the Protocols require it, and then only authorized individuals with ECEII-eligible credentials may access it. [e5]
 
-ERCOT can also post to the Certified Area information a Market Participant requests but the Protocols do not require, if the request is reasonable. [e9]
+ERCOT can also post to the Certified Area information a Market Participant requests but the Protocols do not require, to the extent the request is reasonable, in ERCOT's sole discretion. [e9]
 
 ## ERCOT context
 

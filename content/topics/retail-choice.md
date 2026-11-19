@@ -13,7 +13,7 @@ links:
     note: Customers may choose a retail electric provider, or a cooperative or municipal utility that offers choice. [e3]
   - to: tdsp
     type: related
-    note: The wires utility cannot sell electricity and continues to provide metering after choice begins. [e4][e5]
+    note: The wires utility cannot sell electricity and, with an exception for IDR-metered commercial and industrial customers, its affiliate continues to provide metering after choice begins. [e4][e5]
   - to: noe
     type: contrasts-with
     note: Co-ops and municipal utilities are outside customer choice unless they opt in. [e2]
@@ -46,7 +46,7 @@ evidence:
   - id: e5
     source: pura-39
     locator: "PURA Sec. 39.107(a)"
-    quote: "On introduction of customer choice in a service area, metering services for the area shall continue to be provided by the transmission and distribution utility affiliate of the electric utility that was serving the area before the introduction of customer choice."
+    quote: "On introduction of customer choice in a service area, metering services for the area shall continue to be provided by the transmission and distribution utility affiliate of the electric utility that was serving the area before the introduction of customer choice. Metering services provided to commercial and industrial customers that are required by the independent system operator to have an interval data recorder meter may be provided on a competitive basis."
   - id: e6
     source: ercot-fact-sheet
     locator: "ERCOT fact sheet, About ERCOT"
@@ -79,7 +79,7 @@ Customer Choice is the freedom of a retail customer to buy electric services, in
 
 ## How it works
 
-In Texas, each retail customer has choice from January 1, 2002, except customers of cooperatives and municipally owned utilities that have not opted for choice. [e2] The incumbent utility's affiliated retail provider could keep serving its customers until each chose a different REP, or a cooperative or municipal utility offering choice. [e3] After that date the transmission and distribution utility may not sell electricity except to buy for its own needs, and it continues to provide metering in the area. [e4][e5]
+In Texas, each retail customer has choice from January 1, 2002, except customers of cooperatives and municipally owned utilities that have not opted for choice. [e2] The incumbent utility's affiliated retail provider could keep serving its customers until each chose a different REP, or a cooperative or municipal utility offering choice. [e3] After that date the transmission and distribution utility may not sell electricity except to buy for its own needs, and metering services for the area continue to be provided by its transmission and distribution utility affiliate, except that metering for commercial and industrial customers required by the ISO to have an interval data recorder meter may be provided on a competitive basis. [e4][e5]
 
 ERCOT administers retail switching. [e6] A competitive retailer submits a Switch Request to ERCOT using an 814_01 transaction, and the customer stays with its current retailer during the switch process. [e8][e9] Co-ops and municipal utilities that opt in must meet interval-metering requirements before joining ERCOT's choice systems. [e7]
 
@@ -91,12 +91,12 @@ ERCOT states that it administers retail switching for more than 8 million premis
 
 - Customer choice began January 1, 2002 for most retail customers. [e2]
 - Co-ops and municipal utilities are in only if they opt in. [e2][e7]
-- The wires utility may not sell electricity and keeps metering after choice begins. [e4][e5]
+- The wires utility may not sell electricity, and its affiliate keeps metering after choice begins, except IDR-metered commercial and industrial customers, whose metering may be competitive. [e4][e5]
 - More than 8 million premises are in competitive choice areas, per ERCOT. [e6]
 
 ## Say it like this
 
-(Guidance) Most Texas customers outside co-op and municipal territory pick their own retailer, and the wires utility may not sell electricity. ERCOT administers the switching. [e4][e6]
+(Guidance) Customers outside non-opted-in co-op and municipal territory pick their own retailer, and the wires utility may not sell electricity. ERCOT administers the switching. [e4][e6]
 
 ## Common confusion
 

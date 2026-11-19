@@ -71,7 +71,7 @@ The 60-day disclosures are the entity-specific market data ERCOT posts publicly 
 
 ## How it works
 
-The rule has two tiers. Aggregated information, such as supply curves, actual output and actual load, is posted two calendar days after the day. [e2] Entity-specific information, with resource-specific offer information linked to the resource, submitting entity and controlling entity names, is posted 60 calendar days after. [e3] The Protocols mirror this: SCED-derived aggregate data is posted two days after the Operating Day, and resource-level SCED data and DAM data are posted 60 days prior to the current Operating Day. [e8][e6][e7]
+The rule has two tiers. Aggregated information, such as supply curves, actual output and actual load, is posted two calendar days after the day. [e2] Entity-specific information, with resource-specific offer information linked to the resource, submitting entity and controlling entity names, is posted 60 calendar days after. [e3] The Protocols mirror this: information derived from each SCED execution for the ERCOT System and each Disclosure Area is posted two days after the Operating Day, and resource-level SCED data and DAM data are posted 60 days prior to the current Operating Day. [e8][e6][e7]
 
 ## ERCOT context
 

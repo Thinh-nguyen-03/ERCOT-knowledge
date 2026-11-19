@@ -53,7 +53,7 @@ evidence:
     quote: "Energy trading hubs. ERCOT shall provide information for energy trading hubs by aggregating nodes and calculating an average price for each aggregation, for each financial settlement interval."
   - id: e6
     source: np-06
-    locator: "Section 6.2, paragraph (4)"
+    locator: "Section 6.1, Introduction, paragraph (4)"
     quote: "Real-Time energy settlements use Real-Time Settlement Point Prices that are calculated for Resource Nodes, Load Zones, and Hubs for a 15-minute Settlement Interval"
 ---
 

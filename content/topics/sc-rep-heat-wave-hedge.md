@@ -25,7 +25,7 @@ links:
     note: A Counter-Party must keep Financial Security at or above its Total Potential Exposure at all times. [e12]
   - to: mass-transition
     type: related
-    note: If a Market Participant's rights are revoked, ERCOT moves its ESI IDs to other retailers through a Mass Transition. [e18]
+    note: If a Market Participant's rights are revoked, ERCOT initiates a Mass Transition of its ESI IDs. [e18]
   - to: net-load
     type: related
     note: Most 2025 price spikes came in the 7 to 9 p.m. peak net load hours. [e10]
@@ -67,7 +67,7 @@ evidence:
   - id: e8
     source: imm-som-2025
     locator: "Day-Ahead Market Performance, A. Highlights"
-    quote: "The average price premium in the day-ahead market was $1.17 per MWh, while the average absolute price difference was only $12 per MWh."
+    quote: "Key insights from about the ERCOT day-ahead market in 2025 include: • The average price premium in the day-ahead market was $1.17 per MWh, while the average absolute price difference was only $12 per MWh."
   - id: e9
     source: puct-25-509
     locator: "16 TAC 25.509(b)(6)(B)"
@@ -150,9 +150,9 @@ Step 2, size the price risk. Offer caps differ by market since RTC go-live: the 
 
 Step 3, list the hedging tools. The IMM says LSEs manage price exposure by owning generation, signing bilateral PPAs, using futures, or buying in the day-ahead market. [e2] The day-ahead market cleared 62% of real-time load in 2025, and PTP obligations are also used to hedge real-time exposure from transactions outside the ERCOT market. [e6][e7] On the exchange side, ICE lists a monthly cash-settled ERCOT North 345KV Real-Time Peak Fixed Price Future, priced on the average of SPPs for hours ending 0700-2200. [e25][e16][e17]
 
-Step 4, know the limits of buying day-ahead. Day-ahead prices tend to reflect expected real-time prices, so buying day-ahead protects against volatility but not against a sustained rise in prices. [e3] In 2025 the average day-ahead premium was $1.17 per MWh, but the average absolute day-ahead to real-time difference was $12 per MWh. [e8]
+Step 4, know the limits of buying day-ahead. The IMM says day-ahead prices in a well-performing market tend to reflect expected real-time prices, so forward hedging gives some protection against real-time volatility but little against sustained elevated prices. [e3] In 2025 the average day-ahead premium was $1.17 per MWh, but the average absolute day-ahead to real-time difference was $12 per MWh. [e8]
 
-Step 5, check credit. The QSE's Counter-Party must keep Financial Security at or above its Total Potential Exposure at all times. [e12] ERCOT's real-time liability estimate includes the Load Zone imbalance charge, estimated from 14-day or seven-day-old Load Ratio Share. [e13][e14] ERCOT warns at 90% of the requirement, may suspend a Counter-Party that does not meet the requirement, and after revocation moves the participant's ESI IDs through a Mass Transition. [e20][e15][e18]
+Step 5, check credit. The QSE's Counter-Party must keep Financial Security at or above its Total Potential Exposure at all times. [e12] ERCOT's real-time liability estimate includes the Load Zone imbalance charge, estimated from 14-day or seven-day-old Load Ratio Share. [e13][e14] ERCOT warns at 90% of the requirement, may suspend a Counter-Party that does not meet the requirement, and, for a breaching participant that is an LSE, initiates a Mass Transition of its ESI IDs on revocation. [e20][e15][e18]
 
 ## Key facts
 
@@ -179,7 +179,7 @@ Because the REP pays the real-time Load Zone price on its actual Adjusted Metere
 
 ### Is buying everything day-ahead a full hedge?
 
-No. It removes day-ahead to real-time volatility for the volume bought, but day-ahead prices tend to track expected real-time prices, so it gives little protection against a sustained rise. [e3] It also only covers the volume you forecast.
+No. The IMM says it gives some protection against real-time volatility, but because day-ahead prices in a well-performing market tend to reflect expected real-time prices, it gives little protection against sustained elevated prices. [e3] It also only covers the volume you forecast.
 
 ### What happens to the REP's collateral during the heat wave?
 
@@ -199,7 +199,7 @@ The IMM expected hedging to increase in the months with the highest chance of ex
 - The tools the sources name are owned generation, bilateral PPAs, futures and day-ahead purchases; PTPs can hedge exposure from transactions outside the ERCOT market. [e2][e7]
 - For a fixed-price block, the ICE ERCOT North 345KV real-time peak future [e25] settles monthly on the average of SPPs for hours ending 0700-2200 on weekdays, so it averages the evening spike hours with the rest of the peak block. [e16][e17][e21]
 - (Reasoning) A hub-based future leaves basis between the hub and your Load Zone, and it fixes a flat volume, so it does not follow the heat-driven shape of your load.
-- Buying day-ahead locks the price for the volume bought, but day-ahead prices tend to reflect expected real-time prices, so it gives little protection against sustained elevated prices. [e3]
+- Buying day-ahead locks the price for the volume bought, but the IMM says day-ahead prices in a well-performing market tend to reflect expected real-time prices, so it gives little protection against sustained elevated prices. [e3]
 - Suppose (illustrative) 500 MW of load is unhedged for three evening hours and real-time averages $2,000 per MWh: the cost is 500 x 3 x 2,000 = $3 million, against about $150,000 at $100 per MWh.
 - Check collateral: ERCOT estimates real-time liability from RTM charges including the Load Zone imbalance charge, warns at 90% of the requirement, and may suspend a Counter-Party that falls short. [e13][e20][e15]
 - (Reasoning) Close with a plan: hedge the forecast volume ahead of the event, keep a buffer for forecast error in the evening hours, and pre-arrange extra collateral rather than waiting for the call.

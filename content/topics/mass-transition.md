@@ -67,6 +67,10 @@ evidence:
     source: np-16
     locator: "Section 16.2.6.3(1)"
     quote: "Within seven Business Days after receiving designation as an Emergency QSE, an Emergency QSE must either: (a) Designate a QSE that will represent the LSE or Resource Entity to ERCOT; or (b) Fulfill all QSE registration and qualification requirements."
+  - id: e11
+    source: np-16
+    locator: "Section 16.11.6.1.6(3)"
+    quote: "If a breaching Market Participant is also an LSE"
 ---
 
 ## Definition
@@ -81,18 +85,18 @@ To prepare, every CR must give ERCOT current customer billing contact informatio
 
 ## ERCOT context
 
-ERCOT initiates a mass transition of an LSE's ESI IDs when an Emergency QSE that is an LSE fails, within the allotted time, to designate a QSE or fulfill QSE registration and qualification requirements [e10][e6], and also on revocation or termination of a defaulting Market Participant's rights or agreements, without a PUCT order. [e6][e7] ERCOT may also adjust the credit exposure of Counter-Parties for QSEs that are POLRs to reflect the load they would take on. [e8]
+ERCOT initiates a mass transition of an LSE's ESI IDs when an Emergency QSE that is an LSE fails, within the allotted time, to designate a QSE or fulfill QSE registration and qualification requirements [e10][e6], and also, where a breaching Market Participant is also an LSE, on revocation of some or all of its rights or termination of its agreements, on notice to the Market Participant and the PUCT and without the need for a PUCT order. [e11][e7] ERCOT may also adjust the credit exposure of Counter-Parties for QSEs that are POLRs to reflect the load they would take on. [e8]
 
 ## Key facts
 
 - Applies to moving ESI IDs between CRs (to a POLR or designated CR) or between TDSPs. [e1]
 - 814_03 meter read requested for two days after initiation. [e3]
 - ERCOT monitors transitioned ESI IDs for up to 60 days. [e5]
-- ERCOT can initiate one without a PUCT order on revocation or termination of a defaulting Market Participant. [e7]
+- Where a breaching Market Participant is also an LSE, ERCOT can initiate one without a PUCT order on revocation of its rights or termination of its agreements. [e11][e7]
 
 ## Say it like this
 
-(Guidance) A mass transition is how ERCOT moves a failed retailer's customers, in bulk, to a provider of last resort or designated retailer. It is built into the default and QSE-loss rules.
+(Guidance) A mass transition is the Protocol process for moving ESI IDs in bulk from one CR to a provider of last resort or designated CR. [e1] ERCOT initiates it in the Protocol rules on QSE loss and on revocation of a breaching LSE's rights. [e6][e7]
 
 ## Common confusion
 
@@ -102,7 +106,7 @@ ERCOT initiates a mass transition of an LSE's ESI IDs when an Emergency QSE that
 
 ### What triggers a mass transition for a retailer?
 
-An Emergency QSE that is an LSE failing within the allotted time to designate a QSE or fulfill QSE registration and qualification requirements, or revocation or termination of a defaulting Market Participant's rights or agreements. [e10][e6][e7]
+An Emergency QSE that is an LSE failing within the allotted time to designate a QSE or fulfill QSE registration and qualification requirements, or revocation of rights or termination of agreements of a breaching Market Participant that is also an LSE. [e10][e6][e11][e7]
 
 ### Who gets the customers?
 

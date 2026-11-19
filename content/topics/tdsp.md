@@ -79,11 +79,11 @@ Each TSP and DSP in the ERCOT Region, including MOUs and ECs, must register with
 
 DSPs in areas where Customer Choice is in effect, including opt-in MOUs and opt-in co-ops, must complete Retail Market Testing before starting operations with ERCOT. [e10]
 
-Under PURA, a transmission and distribution utility must provide transmission or distribution service at retail to REPs, utilities and end-use customers on rates, terms and conditions comparable to those applying to the utility and its affiliates. [e9]
+Under PURA, a transmission and distribution utility must provide transmission or distribution service at retail to an electric utility, a REP, a municipally owned utility, an electric cooperative or an end-use customer, on rates, terms and conditions comparable to those applying to the utility and its affiliates. [e9]
 
 ## ERCOT context
 
-The PUCT definition of "TDU" excludes MOUs and ECs, and says a TDU may be one utility or separate transmission and distribution utilities. [e5] The ERCOT term TDSP is wider because ERCOT's registration requirement reaches MOUs and ECs that operate transmission or distribution. [e4]
+The PUCT definition of "TDU" excludes MOUs and ECs, and says a TDU may be one utility or separate transmission and distribution utilities. [e5] ERCOT's registration requirement for TSPs and DSPs expressly includes MOUs and ECs that operate transmission or distribution. [e4]
 
 Since January 1, 2002 a TDU may not sell electricity or otherwise participate in the electricity market except to buy electricity for its own needs. [e6] In customer-choice areas, metering stays with the TDU affiliate of the electric utility that served the area before choice began, with a competitive exception for interval-data-recorder customers that PURA describes. [e8]
 

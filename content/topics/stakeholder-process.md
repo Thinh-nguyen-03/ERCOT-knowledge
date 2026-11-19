@@ -16,7 +16,7 @@ links:
     note: Revisions to the Protocols are reviewed by PRS, TAC and the Board and need PUCT approval. [e3][e4][e5][e6]
   - to: ercot
     type: related
-    note: The ERCOT Board, selected through a statutory committee, sits at the top of the stakeholder path. [e8]
+    note: The ERCOT Board, selected through a statutory committee, sits at the top of the stakeholder path. [e8][e13]
   - to: puct
     type: related
     note: Nothing the stakeholder process recommends takes effect without PUCT approval. [e6][e7]
@@ -68,6 +68,10 @@ evidence:
     source: pura-39
     locator: "PURA §39.1513(a), (d)"
     quote: "The ERCOT board selection committee is composed of:(1)  one member appointed by the governor;(2)  one member appointed by the lieutenant governor; and(3)  one member appointed by the speaker of the house of representatives."
+  - id: e13
+    source: pura-39
+    locator: "PURA §39.1513(d)"
+    quote: "The committee shall select members eligible under Section 39.151 to serve on the governing body of an independent organization certified under that section for the ERCOT power region and shall designate the chair and vice chair of the governing body from those members."
   - id: e9
     source: np-21
     locator: "Section 21.4.12.1(1), Appeal of Protocol Revision Subcommittee Action"
@@ -103,7 +107,7 @@ PRS decisions can be challenged. Any ERCOT Member, Market Participant, PUCT Staf
 
 Other subcommittees appear in the Protocols' acronym list: the Wholesale Market Subcommittee (WMS) and the Reliability and Operations Subcommittee (ROS). [e10][e11] The saved Protocol text for the revision process (Section 21) names PRS and TAC as the committees on the NPRR path, and it treats other TAC subcommittees as places PRS or TAC can refer a request. [e3][e4]
 
-The top of the path is shaped by statute. ERCOT board members are chosen by a selection committee made up of one appointee each from the governor, the lieutenant governor and the speaker of the house. [e8]
+The top of the path is shaped by statute. The ERCOT board selection committee is made up of one member appointed by each of the governor, the lieutenant governor and the speaker of the house, [e8] and it selects the members who serve on the governing body and designates its chair and vice chair. [e13]
 
 ## Key facts
 
