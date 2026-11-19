@@ -87,7 +87,7 @@ evidence:
 
 ## Definition
 
-This topic covers two separate things. The federal clean electricity credits are the production credit in 26 USC 45Y and the investment credit in 48E, which Public Law 119-21 (July 4, 2025) ends for wind and solar facilities placed in service after December 31, 2027. [e12][e1][e14][e2] A Texas renewable energy credit (REC) is a tradable instrument representing all the renewable attributes of one MWh from a certified renewable generator, and it can trade separately from energy. [e7]
+This topic covers two separate things. The federal clean electricity credits are the production credit in 26 USC 45Y and the investment credit in 48E, which Public Law 119-21 (July 4, 2025) ends for wind and solar facilities placed in service after December 31, 2027, where construction begins more than 12 months after enactment. [e12][e1][e14][e2][e4] A Texas renewable energy credit (REC) is a tradable instrument representing all the renewable attributes of one MWh from a certified renewable generator, and it can trade separately from energy. [e7]
 
 ## How it works
 
@@ -103,7 +103,7 @@ The Texas REC market is now voluntary. HB 1500 repealed PURA 39.904, which held 
 
 ## Key facts
 
-- 45Y and 48E: no credit for wind or solar placed in service after December 31, 2027 (Public Law 119-21). [e1][e14][e2]
+- 45Y and 48E: no credit for wind or solar placed in service after December 31, 2027 (Public Law 119-21), subject to the construction-start rule in the next bullet. [e1][e14][e2]
 - The termination covers facilities that begin construction more than 12 months after enactment (enacted July 4, 2025). [e4][e12]
 - Storage placed at a wind or solar facility is excepted from the 48E termination. [e3]
 - Texas REC program became voluntary on September 1, 2025. [e8]

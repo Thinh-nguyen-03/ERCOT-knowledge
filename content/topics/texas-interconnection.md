@@ -87,11 +87,11 @@ evidence:
 
 ## Definition
 
-The ERCOT System (often called the Texas Interconnection) is the interconnected power system under PUCT jurisdiction that is not synchronously connected to the Eastern Interconnection or the Western (WECC) grid. [e1] A DC tie is a non-synchronous transmission interconnection between ERCOT and a non-ERCOT system, and the FERC-NERC report describes four asynchronous ties. [e2][e3]
+The ERCOT System (the FERC-NERC report calls it the "ERCOT Interconnection"; this topic uses the label Texas Interconnection) is the interconnected power system under PUCT jurisdiction that is not synchronously connected to the Eastern Interconnection or the Western (WECC) grid. [e1][e13] A DC tie is a non-synchronous transmission interconnection between ERCOT and a non-ERCOT system, and the FERC-NERC report describes four asynchronous ties. [e2][e3]
 
 ## How it works
 
-ERCOT is a functionally separate interconnection with four asynchronous ties. Two DC ties, the North Tie and the East Tie, connect it to the Eastern Interconnection through SPP. [e3] Two more, the Laredo Variable Frequency Tie and the Railroad Tie, connect it to Mexico. [e4] Total DC tie capability is about 1,220 MW: 820 MW to SPP and 400 MW to Mexico. [e5]
+The 2021 FERC-NERC report describes ERCOT as a functionally separate interconnection with four asynchronous ties. Two DC ties, the North Tie and the East Tie, connect it to the Eastern Interconnection through SPP. [e3] Two more, the Laredo Variable Frequency Tie and the Railroad Tie, connect it to Mexico. [e4] Total DC tie capability is about 1,220 MW: 820 MW to SPP and 400 MW to Mexico. [e5]
 
 Power can flow either way across the ties. Exports add to ERCOT demand and imports add to supply. [e6] The 2021 FERC-NERC report says ERCOT does not classify DC tie flows as firm capacity because they are scheduled as day-ahead energy transactions, although its seasonal assessment (SARA) did assume an expected amount of net imports based on winter 2013/2014 EEA intervals. [e12]
 
