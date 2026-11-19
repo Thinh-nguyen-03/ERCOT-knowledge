@@ -40,7 +40,7 @@ evidence:
     quote: "In ERCOT’s energy-only market, shortage pricing is the primary mechanism that drives revenue and signals investment decisions."
   - id: e3
     source: puct-25-508
-    locator: "16 TAC §25.508(b)(1)-(2)"
+    locator: "16 TAC §25.508(b)(1)-(3)"
     quote: "Frequency. The expected loss of load events for the ERCOT region must be equal to or less than one event per ten years on average, i.e., 0.1 loss of load expectation (LOLE). (2) Duration. The maximum expected length of a loss of load event for the ERCOT region, measured in hours, must be less than 12 hours, with a 1.00 percent exceedance tolerance. (3) Magnitude. The expected highest level of load shed during a loss of load event for the ERCOT region, measured as the average lost load for a given hour, must be less than the maximum number of megawatts of load shed that can be safely rotated during a loss of load event, as determined by ERCOT, in consultation with commission staff and the transmission operators, with a 1.00 percent exceedance tolerance."
   - id: e4
     source: puct-25-508
@@ -77,7 +77,7 @@ evidence:
     quote: "In addition to capturing potential Large Load curtailment impacts resulting from Texas Senate Bill 6 provisions, two of the three scenarios define reserve margin bookends by varying the magnitude of Large Loads along with the amount and timing of Texas Energy Fund (TEF) project capacity reflected in the ERCOT interconnection queue."
   - id: e11
     source: imm-som-2025
-    locator: "Chapter III.F, Operating Reserve Margin"
+    locator: "Chapter II (Demand and Supply in ERCOT), F. Operating Reserve Margin"
     quote: "In 2025, PRC was below 6,500 MW for only 102 hours. The frequency of PRC below 3,000 MW also dropped sharply. It averaged 82 hours from 2016 through 2021, but no such hours have been observed since 2023."
   - id: e12
     source: imm-som-2025
@@ -121,7 +121,7 @@ ERCOT measures adequacy through planning reports. A resource adequacy report cov
 
 The planning view and the operating view point in different directions. The December 2025 CDR base scenario shows Planning Reserve Margins falling each year and turning negative in 2028. Summer 2026 starts at 18.3% for the peak load hour and 20.9% for the peak net load hour. [e9] Its alternative scenarios vary SB 6 large-load curtailment, large-load growth, and the amount and timing of Texas Energy Fund capacity. [e10] In real-time operations, however, the IMM reports that PRC was below 6,500 MW for only 102 hours in 2025 and has not fallen below 3,000 MW since 2023. [e11]
 
-Revenues were weak in 2025. Net revenues were $52.59/kW-year for a CT and $82.96/kW-year for a CC, below the $140 planning CONE. [e14] The IMM adds that years like 2024 and 2025 occur often and are not a threat to resource adequacy, because tighter years such as 2021 and 2023 can produce revenues substantially above CONE. [e17] The 2026 Reliability Standard Assessment was scheduled to file results in August 2026, with market design options if ERCOT looked unlikely to meet the standard in 2029. [e6] The IMM warns that meeting the standard through prices alone would need an extraordinarily high operational VOLL. [e16]
+Revenues were weak in 2025. The IMM estimates net revenues of $52.59/kW-year for a CT and $82.96/kW-year for a CC, below the $140 planning CONE. [e14] The IMM adds that years like 2024 and 2025 occur often and are not a threat to resource adequacy, because tighter years such as 2021 and 2023 can produce revenues substantially above CONE. [e17] The 2026 Reliability Standard Assessment was scheduled to file results in August 2026, with market design options if ERCOT looked unlikely to meet the standard in 2029. [e6] The IMM warns that meeting the standard through prices alone would need an extraordinarily high operational VOLL. [e16]
 
 ## Key facts
 

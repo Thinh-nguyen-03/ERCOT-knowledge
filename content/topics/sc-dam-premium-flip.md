@@ -25,7 +25,7 @@ links:
     note: PTPs received 10.9% more in real time than their day-ahead purchase cost in 2025. [e14]
   - to: net-load
     type: affects
-    note: By 2025 the average net load forecast error was about 452 MW, and forecasts still under-forecast IRR generation and over-forecast load. [e10]
+    note: The IMM reports that by 2025 the average net load forecast error (eight hours ahead of real time) was about 452 MW, and forecasts still under-forecast IRR generation and over-forecast load. [e10][e17]
   - to: congestion
     type: related
     note: Day-ahead congestion can be under-priced relative to real time, as in August 2023. [e9]
@@ -97,6 +97,10 @@ evidence:
     source: imm-som-2025
     locator: "Day-Ahead Market Performance, A. Highlights"
     quote: "The day-ahead market cleared 62% of real-time load in 2025. This is in line with recent years in ERCOT, but other RTOs in the US clear more than 90% in the day-ahead market."
+  - id: e17
+    source: imm-som-2025
+    locator: "Market Operations, C. Forecast Error, Figure 50 introduction"
+    quote: "Figure 50 illustrates the distribution of net load forecast errors eight hours ahead of real-time."
 ---
 
 ## Definition
@@ -118,7 +122,7 @@ The day-ahead market is financial, so DA-RT gaps become cash. Energy and AS boug
 - 2021: day-ahead averaged $157/MWh, real-time $160/MWh (annual averages that include the Winter Storm Uri divergence in February). [e1]
 - 2023: day-ahead $58/MWh, real-time $51/MWh, a modest premium. [e3]
 - 2025: average day-ahead premium $1.17/MWh, average absolute difference $12/MWh, the low spread reflecting fewer price spikes. [e6]
-- Average net load forecast error fell to about 452 MW in 2025, but forecasts still under-forecast renewables and over-forecast load. [e10]
+- The IMM's average net load forecast error, measured eight hours ahead of real time, fell to about 452 MW in 2025, but forecasts still under-forecast renewables and over-forecast load. [e10][e17]
 - PTP obligations earned 10.9% more in real time than their day-ahead cost in 2025. [e14]
 - The day-ahead market cleared 62% of real-time load in 2025, against more than 90% in other US RTOs. [e16]
 
@@ -129,7 +133,7 @@ The day-ahead market is financial, so DA-RT gaps become cash. Energy and AS boug
 - First check whether it is a real pattern. A small average can hide large daily swings, so look at the average absolute daily difference too. [e8]
 - The usual state is a modest day-ahead premium, so a run of real-time premiums can mean real time is coming in tighter than day-ahead expected. [e7][e6][e2]
 - Look at weather and load forecasts. July 2022 is the textbook case: sustained heat and day-ahead under-forecasting of demand pushed real-time above day-ahead. [e4]
-- Check the net load forecast bias. In 2025 forecasts tended to over-forecast load and under-forecast renewables. [e10]
+- Check the net load forecast bias. In 2025 forecasts (which the IMM measures eight hours ahead of real time) tended to over-forecast load and under-forecast renewables. [e10][e17]
 - (Reasoning) That bias makes real time look looser than day-ahead expected, so if it reverses (load comes in above forecast, renewables below), real time tends to settle higher.
 - Check congestion. In 2023 day-ahead under-priced real-time congestion, especially in August. [e9]
 - Check storage. Batteries that sell day-ahead but run low on charge must buy back the position at the real-time price. [e12]
@@ -145,7 +149,7 @@ The day-ahead market gives revenue certainty and generally a risk premium to gen
 
 ### Did RTC change DART behaviour?
 
-The IMM says that, excluding RegDown, elevated day-ahead prices on December 5, 2025 and during Winter Storm Fern on January 21-27, 2026 account for 57-75% of the average day-ahead premium for energy and up-reserve products. [e13] The saved sources do not otherwise say whether RTC changed DART behaviour.
+The IMM says the day-ahead premium was very high in the early days of RTC and that, excluding RegDown, elevated day-ahead prices on December 5, 2025 and during Winter Storm Fern on January 21-27, 2026 account for 57-75% of the average day-ahead premium for energy and up-reserve products. [e13] The saved sources do not otherwise say whether RTC changed DART behaviour.
 
 ### What forces push DA and RT back together?
 

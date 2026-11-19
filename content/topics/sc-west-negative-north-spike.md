@@ -167,11 +167,11 @@ Batteries, which can act as both supply and demand and can often charge at price
 
 ## Say it like this
 
-(Guidance) The energy price is the same across Texas; what differs is congestion. When the Panhandle cannot export its wind, prices there can go negative while North pays for expensive local units, and the shadow price on the binding constraint tells you how wide that gap is.
+(Guidance) The energy component of the price is the same at every ERCOT Settlement Point; what differs is congestion. When the Panhandle cannot export its wind, prices there can go negative while North pays for expensive local units, and the shadow price on the binding constraint tells you how wide that gap is.
 
 ## Common confusion
 
-(Guidance) A negative West price does not by itself mean the whole system is oversupplied; the IMM describes the Panhandle as export-constrained. [e5] Also, HB_WEST and a Panhandle node are not the same thing: the zone also includes the Permian, where prices can be high. [e5]
+(Guidance) A negative West price does not by itself mean the whole system is oversupplied; the IMM describes the Panhandle as export-constrained. [e5] Also, a West zone price and a Panhandle node price are not the same thing: the West zone also includes the Permian Basin, which the IMM describes as import-constrained. [e5]
 
 ## Open items
 

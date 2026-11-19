@@ -123,13 +123,13 @@ Winter Storm Fern was the January 2026 cold weather and freezing precipitation e
 
 ## How it works
 
-Demand came in below forecast. ERCOT's peak forecast was 84,500 MW, a figure that assumed no demand response, but the maximum unofficial instantaneous peak was 75,922 MW, not a new winter record. [e6][e4] ERCOT's post-event report says demand was lower than forecast mainly because of two factors, slightly warmer weather in some areas and widespread school and business closures, and the Board update says oil and gas began reducing about 4,200 MW and cryptocurrency mining about 4,100 MW. [e3][e19][e16][e5]
+Demand came in below forecast. ERCOT's peak forecast was 84,500 MW, a figure that assumed no demand response, but the maximum unofficial instantaneous peak was 75,922 MW, not a new winter record. [e6][e4] ERCOT's post-event report says demand was lower than forecast mainly because of two factors, slightly warmer weather in some areas and widespread school and business closures, and the Board update gives ERCOT's estimates that oil and gas began reducing about 4,200 MW and cryptocurrency mining about 4,100 MW. [e3][e19][e16][e5]
 
 On supply, about 13.5 GW of wind nameplate was unavailable due to icing, though the actual lost output was smaller because wind speeds were low. [e15] FFSS kept 340 MW of gas-restricted units running. [e8] After a large unit in Central Texas tripped, the South Texas Export IROL was briefly exceeded, and a localized transmission emergency ran from 9:04 PM on January 25 to 10:00 AM on January 26 in the San Antonio to Houston area, and ERCOT says RTC redistributed ancillary services to reduce the manual action needed. [e17][e13][e7]
 
 ## ERCOT context
 
-Market effects in the saved sources come mainly from the IMM's early look at RTC. It says elevated day-ahead prices on December 5, 2025 and during Fern (January 21-27, 2026) account for 57-75% of the average day-ahead premium for energy and up-reserve products in early RTC. [e9] The IMM also says about 45% of the volume of NSRS shortages occurred during Fern, and 42% of RUC commitments from December 5, 2025 through February 2026 happened during Fern. [e14][e10]
+Market effects in the saved sources come mainly from the IMM's early look at RTC. It says elevated day-ahead prices on December 5, 2025 and during Fern (January 21-27, 2026) account for 57-75% of the average day-ahead premium for energy and up-reserve products in early RTC. [e9] The IMM also says about 45% of the volume of NSRS shortages since RTC go-live (its table covers December 5, 2025 through February 2026) occurred during Fern, and 42% of RUC commitments from December 5, 2025 through February 2026 happened during Fern. [e14][e10]
 
 What changed: ERCOT's October 2026 forced outage review counts 107 wind and solar outages losing about 610,000 MWh, mostly from icing, and 76 dispatchable outages losing about 156,000 MWh, driven by controls, combustion systems, air inlets and coal handling. [e11][e12] The review says to use Fern patterns to prioritize winter-readiness checks by asset class. [e21]
 

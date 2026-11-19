@@ -103,7 +103,7 @@ evidence:
 
 ## Definition
 
-Summer 2023 was a record-heat summer in which ERCOT set new demand records 49 times, peaking at 85.7 GW on August 10, 2023 (IMM figure). [e1] On September 6, 2023 frequency fell to 59.77 Hz and ERCOT declared EEA2 at 7:25 p.m. [e5]
+Summer 2023 was a hot summer in which ERCOT set new demand records 49 times, peaking at 85.7 GW on August 10, 2023 (IMM figure). [e1] On September 6, 2023 frequency fell to 59.77 Hz and ERCOT declared EEA2 at 7:25 p.m. [e5]
 
 ## How it works
 

@@ -28,7 +28,7 @@ links:
     note: The IMM evaluates proposed changes to the market rules and recommends measures to enhance market efficiency. [e3]
   - to: resource-adequacy
     type: related
-    note: Under the reliability standard rule, the IMM must independently review ERCOT's proposed market design fixes and their costs. [e13]
+    note: Under the reliability standard rule, if ERCOT's assessment shows a reviewed system fails the standard, the IMM must independently review ERCOT's proposed market design changes and their expected costs. [e13]
 evidence:
   - id: e1
     source: np-02

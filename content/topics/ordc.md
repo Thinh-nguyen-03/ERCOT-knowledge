@@ -103,7 +103,7 @@ The ORDC was ERCOT's pre-RTC way of pricing reserve scarcity. It linked the leve
 
 ## How it works
 
-This section describes the design before December 5, 2025. Day-ahead procurement covered the full AS Plan, and the real-time market could not use those reserves unless they were manually released to dispatch. The ORDC then set shortage pricing outside the dispatch model, based on how many operating reserves were available. [e5] ERCOT described this as reflecting scarcity "through a process that is outside of the optimization". [e4] RTC went live on December 5, 2025. [e2]
+This section describes the design before December 5, 2025, as the IMM's 2024 report summarized it. Day-ahead procurement covered the full AS Plan, and the real-time market could not use those reserves unless they were manually released to dispatch. The ORDC then set shortage pricing outside the dispatch model, based on how many operating reserves were available. [e5] ERCOT described this as reflecting scarcity "through a process that is outside of the optimization". [e4] RTC went live on December 5, 2025. [e2]
 
 As reserves fall, the chance of load shed rises. The ORDC turned that probability, valued at VOLL, into a price adder. [e1][e2]
 
@@ -113,7 +113,7 @@ The curve was changed over time. The IMM reports that the Commission raised the 
 
 The ORDC adder started in 2014 and ended in December 2025 when RTC was introduced. [e3] Under RTC, the ORDC price adder was replaced by a set of ASDCs. [e9] The ORDC still shapes the new curves. The Aggregate ORDC (AORDC) used to build the ASDCs is a fixed curve made from the pricing outcomes the ORDC produced before RTC. [e11] The current protocols build the AORDC from historical SCED intervals by computing historical reserve pricing outcomes with a fixed expression and fitting a regression to them. [e14][e15]
 
-In its final years the ORDC added almost nothing to prices. In 2025 it raised real-time energy prices by only about $0.02/MWh, the lowest annual value since 2014. [e8] It was active for only 57 hours in 2025. [e10]
+In its final year the ORDC added almost nothing to prices. In 2025 it raised real-time energy prices by only about $0.02/MWh, the lowest annual value since 2014. [e8] It was active for only 57 hours in 2025. [e10]
 
 Some PUCT rules still refer to the ORDC. §25.509 says that if the cap drops to LCAP, ERCOT keeps applying the ORDC and RDPA for the rest of the year. [e12] §25.505 still requires an ORDC report by November 1 of every even-numbered year. [e13]
 

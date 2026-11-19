@@ -25,7 +25,7 @@ links:
     note: PURA directs the PUCT to monitor market power and order mitigation when it finds abuse. [e8]
   - to: resource-adequacy
     type: determines
-    note: The PUCT adopted the ERCOT reliability standard of 0.1 loss of load expectation. [e12]
+    note: PUCT rule 25.508 sets the ERCOT reliability standard, whose frequency criterion is 0.1 loss of load expectation. [e12]
   - to: nodal-protocols
     type: regulates
     note: New or revised protocols cannot take effect until the PUCT approves a market impact statement for them. [e5]
@@ -101,7 +101,7 @@ evidence:
   - id: e18
     source: np-04
     locator: "Section 4.4.11, note under the parameter table"
-    quote: "The current value for the parameters referenced in this table above will be recommended by TAC and approved by the ERCOT Board."
+    quote: "PNM threshold $/MW-year 315,000 * The current value for the parameters referenced in this table above will be recommended by TAC and approved by the ERCOT Board."
 ---
 
 ## Definition
@@ -132,7 +132,7 @@ The 2023 Sunset bill, HB 1500, changed the PUCT's own footing. It changed the da
 - Since HB 1500 (2023), PUCT directives to ERCOT to take an official action must come through a contested case, a rulemaking, or a written order or memo adopted by majority vote. [e6][e7]
 - Offer caps: rule 25.509 states HCAP $5,000/MWh and LCAP $2,000/MWh for energy. [e11] The Protocol table lists $5,000 day-ahead and $2,000 real-time, and the SWCAP was reduced to $2,000 after RTC go-live on 12/5/2025. [e15][e16]
 - Reliability standard frequency criterion: no more than one loss of load event per ten years on average (0.1 LOLE). [e12]
-- Sunset: HB 1500 sets September 1, 2029 as the date in the Sunset provision for abolishing the commission. [e13][e17]
+- Sunset: HB 1500 sets September 1, 2029 (previously 2023) as the date in the Sunset provision on which the commission is abolished unless it is continued in existence. [e13][e17]
 
 ## Say it like this
 

@@ -16,7 +16,7 @@ links:
     note: Ancillary service revenue was the main ESR income until saturation pushed batteries toward energy arbitrage. [e5]
   - to: rtc-b
     type: affects
-    note: Under RTC+B, SCED can award energy and several AS types to one ESR in the same run, limited by state of charge. [e9]
+    note: ERCOT's pre-go-live RTC+B overview said SCED can award energy and several AS types to one ESR in the same run, limited by state of charge. [e9]
   - to: negative-prices
     type: related
     note: Energy arbitrage means buying when prices are low, and ESRs can often charge at prices below $0 where added load resolves congestion. [e5][e13]
@@ -86,6 +86,10 @@ evidence:
     source: ercot-summer-2026-review
     locator: "Summer 2026 Operational and Market Review, key takeaways (slide 1)"
     quote: "Energy Storage Resources (ESRs) were helpful to serve record net loads, and as a result, ESR State of Charge (SOC) exhaustion in the evenings was a pattern throughout the summer."
+  - id: e15
+    source: np-06
+    locator: "Section 6.4.9.1.1, Ancillary Service Awards, paragraph (1)"
+    quote: "Ancillary Service awards will be based on Resource capability (qualification, operating limits, Ancillary Service limits, ramp rates, State of Charge (SOC), SOC limits, etc.) and Ancillary Service Demand Curves (ASDCs) regardless of the quantity of Ancillary Service under deployment."
 ---
 
 ## Definition
@@ -96,7 +100,7 @@ A battery's revenue stack is the mix of income an Energy Storage Resource earns 
 
 Batteries first earned mainly from ancillary services because they respond quickly. As ESRs saturated several AS markets, they began shifting toward energy arbitrage in 2024. [e5] The IMM expects revenue per unit of capacity to fall as more ESRs enter, because AS markets saturate and arbitrage spreads tighten. [e4] Location also matters: the IMM says ESRs can act as both supply and demand, and can often charge at prices below $0 when increasing load at a location resolves congestion. [e13]
 
-Under RTC+B, SCED can award energy and AS to an ESR in the same run. Awards are limited by qualification, physical capability, state of charge, ramp rates and AS duration requirements, and one ESR can receive energy and several AS types in the same SCED execution; before, the QSE had to reserve enough state of charge itself. [e9]
+ERCOT's July 2025 RTC+B battery overview, written before go-live, described the change this way: awards are limited by qualification, physical capability, state of charge, ramp rates and AS duration requirements, and one ESR can receive energy and several AS types in the same SCED execution, where before the QSE had to reserve enough state of charge itself. [e9] The Protocols now in force base AS awards on Resource capability, including State of Charge and SOC limits, and the ASDCs. [e15]
 
 ## ERCOT context
 
@@ -110,11 +114,11 @@ Summer 2026 (ERCOT): AS costs were relatively low under real-time co-optimizatio
 - 2025: net energy revenue up 57%; AS revenue down more than 37%. [e3]
 - 2025: ESRs supplied 94% of Reg-Up, 86% of Reg-Down, 51% of RRS, 42% of ECRS and 24% of Non-Spin. [e10]
 - 2025: 55% of ESR energy offers priced at $0-100/MWh, up from 46% in 2024 and 25% in 2023. [e7]
-- Average ESR duration rose from 1.67 to 1.83 hours. [e6]
+- Average ESR duration rose from 1.67 to 1.83 hours (IMM 2025 report). [e6]
 
 ## Say it like this
 
-(Guidance) ERCOT batteries used to live on ancillary services, but they now supply most of those markets themselves, so AS prices fell and the IMM sees a shift toward energy arbitrage. Per-MW revenue dropped by more than a third in 2025 even as the fleet's total revenue rose, and average duration rose as participation shifted. [e1][e2][e3][e6]
+(Guidance) ERCOT batteries used to live on ancillary services, but they now supply most of the regulation and about half of RRS themselves, so AS prices fell and the IMM sees a shift toward energy arbitrage. Per-MW revenue dropped by more than a third in 2025 even as the fleet's total revenue rose, and average duration rose as participation shifted. [e1][e2][e3][e6][e10]
 
 ## Common confusion
 
@@ -128,7 +132,7 @@ Added ESR capacity raised AS supply and cut AS prices, so AS revenue fell more t
 
 ### How did RTC+B change how a battery's stack is set?
 
-SCED now awards energy and multiple AS types to an ESR in the same run, within limits set by qualification, physical capability, state of charge, ramp rates and duration requirements. Before, the QSE had to make sure it reserved enough state of charge. [e9]
+As ERCOT's pre-go-live (July 2025) battery overview described it, SCED can award energy and multiple AS types to an ESR in the same run, within limits set by qualification, physical capability, state of charge, ramp rates and duration requirements, where before the QSE had to make sure it reserved enough state of charge. [e9] The Protocols in force list State of Charge and SOC limits among the bases for AS awards. [e15]
 
 ### Why has average battery duration risen?
 

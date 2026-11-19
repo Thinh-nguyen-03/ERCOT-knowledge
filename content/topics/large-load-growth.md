@@ -166,5 +166,6 @@ On 22 July 2026 the maximum reduction from cryptomining loads was about 3,299 MW
 ## Open items
 
 - Two June 2026 queue figures differ (more than 438,000 MW versus about 474 GW). The sources do not reconcile them, though the cut-off dates probably differ.
+- The same 239 GW / 239,000 MW total appears with two dates: the December 2025 Constraints and Needs report [e4] and "In February 2026" in the 2025 Annual Report [e5], while the April 1, 2026 Senate update shows about 410 GW as of March 26, 2026 [e6]. The sources do not explain whether the queue was flat from December to February or the Annual Report reused an earlier figure.
 - No saved source gives actual energized large-load MW (as opposed to requested MW) for 2026.
 - Deeper pass: breakdown of the queue by TSP, by in-service year and by load type (charts in ercot-large-load-update-2026-04 are not readable as text); the oscillation NOGRR once it is filed; PGRR144 model quality requirements (TAC endorsed August 2026).

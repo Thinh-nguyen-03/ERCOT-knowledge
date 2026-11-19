@@ -87,6 +87,10 @@ evidence:
     source: ercot-elliott-report
     locator: "Section 1, Executive Summary (p. 1)"
     quote: "The Cold Weather event that occurred from December 22 nd to December 25th, 2022, was precipitated by severe winter weather"
+  - id: e16
+    source: ercot-elliott-report
+    locator: "Section 4, generation at peak demand (p. 8)"
+    quote: "The instantaneous peak demand of 74,100 MW occurred on December 23 rd at 7:30 am."
 ---
 
 ## Definition
@@ -107,7 +111,7 @@ What changed: ERCOT concluded that PUCT-led winterization likely improved genera
 
 ## Key facts
 
-- Peak demand: 74,100 MW on December 23, 2022 (ERCOT report executive summary). [e1]
+- Peak demand: 74,100 MW, an instantaneous figure, at 7:30 am on December 23, 2022 (ERCOT report). [e1][e16]
 - PRC never fell below 4,052 MW, above the 2,300 MW level at which ERCOT declares EEA 1. [e1]
 - Maximum outages and derates: 19,885 MW at 08:00 on December 23; about 4,500 MW were cold-weather or fuel related. [e2][e3]
 - Peak real-time system-wide price: $4,466.79/MWh at 06:52 on December 23. [e4]
@@ -119,12 +123,12 @@ What changed: ERCOT concluded that PUCT-led winterization likely improved genera
 - Late December 2022: FFSS deployed for the first time, over four days. [e6]
 - December 23, 2022, 06:52: real-time system-wide price peaks at $4,466.79/MWh. [e4]
 - December 23, 2022, 08:00: outages and derates peak at 19,885 MW. [e2]
-- December 23, 2022: peak demand of 74,100 MW. [e1]
+- December 23, 2022, 7:30 am: instantaneous peak demand of 74,100 MW. [e1][e16]
 - December 24, 2022, hour ending 08: day-ahead hub average price peaks at $2,539.16/MWh. [e13]
 
 ## Say it like this
 
-(Guidance) Elliott was the coldest test since Uri and set a demand record, but outages peaked at close to 20,000 MW while PRC never fell below 4,052 MW, against the 2,300 MW EEA 1 trigger. [e1][e3] ERCOT says the results likely indicate winterization helped, and that FFSS backfilled gas-restricted capacity; the real-time system-wide price peaked at $4,466.79/MWh at 06:52 on December 23. [e8][e5][e4]
+(Guidance) Elliott was the coldest test since Uri and, per ERCOT's report, passed the previous peak demand record (the IMM calls it record winter demand), but outages peaked at close to 20,000 MW while PRC never fell below 4,052 MW, against the 2,300 MW EEA 1 trigger. [e1][e12][e3] ERCOT says the results likely indicate winterization helped, and that FFSS backfilled gas-restricted capacity; the real-time system-wide price peaked at $4,466.79/MWh at 06:52 on December 23. [e8][e5][e4]
 
 ## Common confusion
 

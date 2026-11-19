@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: ordc
     type: composed-of
-    note: Until RTC went live on 5 December 2025 the shortage pricing in ERCOT came from operating reserve demand curves; with RTC, ancillary service demand curves define shortage pricing. [e12][e15][e16]
+    note: Until RTC went live in December 2025 the shortage pricing in ERCOT came from operating reserve demand curves; with RTC, ancillary service demand curves define shortage pricing. [e12][e15][e16]
   - to: offer-cap
     type: related
     note: Under PUCT rule 25.509 the offer cap stays at the HCAP until peaker net margin passes three times CONE, then drops to the low cap; the Protocol table now lists a $5,000 day-ahead and a $2,000 real-time cap. [e8][e7][e17]
@@ -169,7 +169,7 @@ Per PUCT rule 25.509 and the IMM's 2025 report, once PNM passes three times CONE
 
 - Agree on the number: 2025 CT net revenue was $52.59 per kW-year against $140 per kW-year planning CONE. [e5]
 - Push back on the conclusion: the IMM sees CONE as a long-run benchmark and expects lean years to be followed by tighter, higher-revenue ones. [e6]
-- Note the real risk: the reliability standard may be hard to meet through prices alone, and the PUCT has been asked to clarify how binding it is. [e11]
+- Note the real risk: the IMM says the reliability standard is difficult to meet in an energy-only market through prices alone, and it has asked the PUCT to clarify how binding the standard is. [e11]
 
 ## Open items
 

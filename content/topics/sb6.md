@@ -130,11 +130,15 @@ evidence:
     source: puct-25-194
     locator: "16 TAC \u00a725.194, title"
     quote: "§25.194. Large Load Interconnection Standards."
+  - id: e26
+    source: sb6-89r-history
+    locator: "Texas Legislature Online, History for 89(R) SB 6, actions table (top three rows)"
+    quote: "E Effective immediately 06/20/2025 E Signed by the Governor 06/20/2025 3878 E Sent to the Governor 06/01/2025 3844"
 ---
 
 ## Definition
 
-SB 6 is the 2025 Texas law (89th Legislature) on the planning, interconnection, operation and cost of serving certain large electrical loads. [e1] Its central rule tells the PUCT to set standards for interconnecting large load customers in ERCOT. The standards must support business development while limiting stranded infrastructure costs and maintaining reliability. [e2]
+SB 6 is the 2025 Texas law (89th Legislature) on the planning, interconnection, operation and cost of serving certain large electrical loads. [e1][e11] Its central rule tells the PUCT to set standards for interconnecting large load customers in ERCOT. The standards must support business development while limiting stranded infrastructure costs and maintaining reliability. [e2]
 
 ## How it works
 
@@ -148,21 +152,22 @@ SB 6 is the 2025 Texas law (89th Legislature) on the planning, interconnection, 
 
 The December 2025 CDR calls SB 6 the most impactful resource adequacy development since the May 2025 CDR. [e19] ERCOT told the Senate in July 2026 that it and the PUCT are carrying out the directive that large loads added at existing generators must not stop ERCOT from using those generators in emergencies. [e18] ERCOT is also building a Large Load Curtailment Manager, a control-room system whose first phase handles SB 6 net-metered facilities. [e22]
 
-Implementation status differs by piece as of late 2026. The net metering rule (§25.205) carries an effective date of 4/15/2026. [e24][e15] The large load forecasting rule (§25.370) was adopted and effective March 1, 2026. [e16] The interconnection standards (§25.194) carry an effective date of 10/08/2026. [e25][e17] The Large Load Demand Management Service is still only proposed, as new §25.521, filed July 30, 2026. [e13] The proposal includes a $54 million annual budget cap. [e14] The IMM's 2025 report expected that rulemaking to finish sometime in 2026. [e20]
+Implementation status differs by piece in the saved sources. The net metering rule (§25.205) carries an effective date of 4/15/2026. [e24][e15] The large load forecasting rule (§25.370) was adopted and effective March 1, 2026. [e16] The interconnection standards (§25.194) carry an effective date of 10/08/2026. [e25][e17] The Large Load Demand Management Service rule was a proposal (new §25.521) when filed July 30, 2026; no adopted version is saved. [e13] The proposal includes a $54 million annual budget cap. [e14] The IMM's 2025 report expected that rulemaking to finish sometime in 2026. [e20]
 
 ## Key facts
 
 - The large load threshold is 75 MW unless the PUCT finds a lower one is needed. [e3]
 - The study fee is at least $100,000 for initial screening studies. [e4]
-- §37.0561 took effect June 20, 2025. [e11]
+- SB 6 was signed by the Governor and effective immediately on June 20, 2025; §37.0561 took effect that day. [e26][e11]
 - Decided: §25.205 net metering (effective 4/15/2026) [e24][e15], §25.370 forecasting (effective March 1, 2026) [e16] and §25.194 interconnection (effective 10/08/2026). [e25][e17]
-- Proposed, not adopted: §25.521 LLDMS, with a proposed $54 million per year budget. [e13][e14]
+- Proposed (July 30, 2026), no adopted version saved: §25.521 LLDMS, with a proposed maximum budget of $54 million per calendar year. [e13][e14]
 - Transmission cost review (Section 6): the PUCT must amend its rules by December 31, 2026. Staff opened Project 58484 on August 1, 2025. [e10][e21]
 
 ## Timeline
 
 - March 19, 2025: the Senate passes SB 6. May 29, 2025: the Senate concurs in House amendments. [e12]
-- June 20, 2025: §37.0561, added by SB 6, takes effect. [e11]
+- June 1, 2025: SB 6 is sent to the Governor. [e26]
+- June 20, 2025: the Governor signs SB 6 and it is effective immediately; §37.0561, added by SB 6, takes effect the same day. [e26][e11]
 - August 1, 2025: PUCT Staff opens Project 58484 on transmission cost recovery (Section 6). [e21]
 - December 2025: the CDR calls SB 6 the most impactful resource adequacy development since May 2025. [e19]
 - March 1, 2026: §25.370 (large load forecasting) is adopted and effective. [e16]
@@ -174,11 +179,11 @@ Implementation status differs by piece as of late 2026. The net metering rule (�
 
 ## Say it like this
 
-(Guidance) SB 6 is the 2025 law that sets the terms for very large loads like data centers to connect to the grid and lets ERCOT curtail them in emergencies. The PUCT's interconnection, co-location and forecasting rules are now in effect. The large-load demand response service and the transmission cost allocation review were still in progress in late 2026. [e13][e10][e15][e16][e17]
+(Guidance) SB 6 is the 2025 law that sets the terms for very large loads like data centers to connect to the grid and lets ERCOT curtail them in emergencies. The PUCT's interconnection, co-location and forecasting rules carry 2026 effective dates. The large-load demand management service rule was still a proposal when filed in July 2026, and the transmission cost rule changes are due by December 31, 2026. [e13][e10][e15][e16][e17]
 
 ## Common confusion
 
-(Guidance) SB 6 creates several different curtailment tools. One is emergency direction to run backup generation or curtail. [e5] Another is curtailment during firm load shed. [e8] A third is the competitively procured demand reduction service (LLDMS). [e9] Only the LLDMS is a procured service, and its rule is still a proposal. [e13] Also, SB 6 did not itself set a dollar-per-MW security amount. The statute leaves that figure to the PUCT [e23]; see the large-load-interconnection topic for the rule.
+(Guidance) SB 6 creates several different curtailment tools. One is emergency direction to run backup generation or curtail. [e5] Another is curtailment during firm load shed. [e8] A third is the competitively procured demand reduction service (LLDMS). [e9] Only the LLDMS is a procured service, and its rule was a proposal as of the July 30, 2026 filing. [e13] Also, SB 6 did not itself set a dollar-per-MW security amount. The statute leaves that figure to the PUCT [e23]; see the large-load-interconnection topic for the rule.
 
 ## Questions
 
@@ -192,11 +197,11 @@ Yes, in several ways. ERCOT can direct a load with on-site backup to run that ba
 
 ### What is still pending from SB 6?
 
-The LLDMS rule (§25.521) is only proposed, filed July 30, 2026. [e13] The transmission cost allocation review is due by December 31, 2026. [e10]
+In the saved sources the LLDMS rule (§25.521) is only a proposal, filed July 30, 2026. [e13] The PUCT must amend its wholesale transmission charge rules by December 31, 2026, after its evaluation. [e10]
 
 ## Open items
 
-- Sources disagree on when SB 6 "passed" or was "signed". The bill certification shows the Senate concurring in House amendments on May 29, 2025 [e12]. The statute history shows effect on June 20, 2025 [e11]. The CDR says "signed into law in June 2025" [e19], and the IMM 2025 report says "Passed in June 2025". The saved sources contain no Governor signature date.
+- Passage and signature dates are now sourced: the Senate concurred in House amendments on May 29, 2025 [e12] and the Governor signed the bill, effective immediately, on June 20, 2025 [e26][e11]. The CDR's "signed into law in June 2025" agrees [e19]. The IMM 2025 report says "Passed in June 2025", which does not match the May 29 final legislative vote; use the legislative record.
 - Not saved: the text of §25.370 (large load forecasting criteria). Its details here come from ERCOT and IMM summaries.
 - The SB 6 bill text states no fixed start date for the §37.0561(e) backup-generation provision. Deeper pass: ERCOT's EEA threshold and Protocol changes that implement it.
 - Deeper pass: §25.205 approval conditions and the hold-harmless process; LLDMS proposal details (obligation periods, payment, deployment); the final 4CP rule.

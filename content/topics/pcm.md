@@ -41,7 +41,7 @@ evidence:
   - id: e3
     source: pura-39
     locator: "PURA Sec. 39.1594(a)(1)"
-    quote: "the commission may not require retail customers or load-serving entities in the ERCOT power region to purchase credits designed to support a required reserve margin or other capacity or reliability requirement unless the commission ensures that:(1)  the net cost to the ERCOT market of the credits does not exceed $1 billion annually, less the cost of any interim or bridge solutions that are lawfully implemented"
+    quote: "the commission may not require retail customers or load-serving entities in the ERCOT power region to purchase credits designed to support a required reserve margin or other capacity or reliability requirement unless the commission ensures that:(1)  the net cost to the ERCOT market of the credits does not exceed $1 billion annually, less the cost of any interim or bridge solutions that are lawfully implemented, except that the commission may adjust the limit:(A) proportionally according to the highest net peak demand year-over-year with a base year of 2026; and(B) for inflation with a base year of 2026;"
   - id: e4
     source: pura-39
     locator: "PURA Sec. 39.1594(a)(2)-(5)"
@@ -90,31 +90,36 @@ evidence:
     source: puct-pcm-staff-rec
     locator: "PUCT Staff memo (2024-12-13), p. 2, lead-in to the 780 MW bullet"
     quote: "The ERCOT/E3 assessment showed that, while the PCM would improve the resource adequacy picture in ERCOT, the additional capacity that would be incentivized is minimal."
+  - id: e16
+    source: puct-minutes-2024-12-19
+    locator: "PUCT Open Meeting Minutes, December 19, 2024, Item 17, p. 3"
+    quote: "Project No. 55000 – Performance Credit Mechanism (PCM). (Discussion and possible action) Werner Roth and Chris Brown Action: Adopted Staff’s final recommendation on PCM."
 ---
 
 ## Definition
 
-The Performance Credit Mechanism (PCM) is a proposed ERCOT reliability program in which LSEs would have to buy "performance credits" earned by generators for being available during the top 30 hours of highest risk, at a centrally set clearing price. [e1] The saved sources show it only as a proposal: in December 2024 PUCT Staff recommended not moving forward with the PCM as designed. [e7]
+The Performance Credit Mechanism (PCM) is a proposed ERCOT reliability program in which LSEs would have to buy "performance credits" earned by generators for being available during the top 30 hours of highest risk, at a centrally set clearing price. [e1] It was not implemented as designed: in December 2024 PUCT Staff recommended not moving forward with the PCM as currently designed, and the minutes of the December 19, 2024 open meeting record that the PUCT adopted Staff's final recommendation on the PCM. [e7][e16]
 
 ## How it works
 
-As designed, generators earn credits by being available in the highest-risk hours (the top 30 hours), and LSEs must buy them at a centrally determined price. [e1] The PUCT selected the final design parameters on August 29, 2024. [e12]
+As E3 described it (per the IMM's 2023 report), generators earn credits by being available in the top 30 hours of highest risk, and LSEs must buy them at a centrally determined clearing price. [e1] The PUCT selected the final design parameters on August 29, 2024. [e12]
 
-State law fences in any such program. The commission may not require LSEs or retail customers to buy such credits unless net cost to the market does not exceed $1 billion annually, less the cost of lawful interim or bridge solutions (among other conditions). [e3] Credits go only to dispatchable generation, ERCOT must buy them centrally, a generator cannot earn more credits than it bid into the forward market, and a unit earns credit only for being available in real time during the tightest intervals, defined seasonally by the PUCT. [e4] ERCOT must begin implementing real-time co-optimization before the program starts. [e5] Before adopting it, the PUCT must get an updated cost-benefit assessment from ERCOT and the IMM and report it to the Legislature. [e6]
+State law fences in any such program. The commission may not require LSEs or retail customers to buy such credits unless net cost to the market does not exceed $1 billion annually, less the cost of lawful interim or bridge solutions; the commission may adjust that limit for peak demand growth and inflation with a base year of 2026 (among other conditions). [e3] Credits go only to dispatchable generation, ERCOT must buy them centrally, a generator cannot earn more credits than it bid into the forward market, and a unit earns credit only for being available in real time during the tightest intervals, defined seasonally by the PUCT. [e4] ERCOT must begin implementing real-time co-optimization before the program starts. [e5] Before adopting it, the PUCT must require ERCOT and the IMM to complete an updated assessment of the program's cost to and effects on the ERCOT market and to submit a cost-benefit report to the commission and the Legislature. [e6]
 
 ## ERCOT context
 
 The PUCT adopted the PCM as its preferred Phase II market design on January 19, 2023, but delayed implementation until the Legislature weighed in. [e2] In November 2023 ERCOT added a multi-step ORDC price floor as the "bridge solution" until the PCM could be implemented. [e11]
 
-PUCT Staff reviewed the ERCOT/E3 and IMM assessments in December 2024. Its memo, summarizing the ERCOT/E3 assessment, says the PCM as designed was anticipated to incentivize 780 MW of additional dispatchable generation and reduce projected long-term equilibrium LOLE from 2.67 to 2.18 days per year. [e15][e8] ERCOT/E3 put the net cost at approximately $12 million, while the IMM said long-term net costs with the gross cap may be $350 million to $725 million. [e9] Staff recommended not moving forward, and Chairman Gleeson wrote that he did not believe the PCM as designed would provide the reliability benefits needed, and that resources were better directed to RTC+B and DRRS. [e7][e10]
+PUCT Staff reviewed the ERCOT/E3 and IMM assessments in December 2024. Its memo, summarizing the ERCOT/E3 assessment, says the PCM as designed was anticipated to incentivize 780 MW of additional dispatchable generation and reduce projected long-term equilibrium LOLE from 2.67 to 2.18 days per year. [e15][e8] ERCOT/E3 put the net cost at approximately $12 million, while the IMM said long-term net costs with the gross cap may be $350 million to $725 million. [e9] Staff recommended not moving forward, and Chairman Gleeson wrote that he did not believe the PCM as designed would provide the reliability benefits needed, and that resources were better directed to RTC+B and DRRS. [e7][e10] At the December 19, 2024 open meeting the PUCT adopted Staff's final recommendation on the PCM. [e16]
 
 ## Key facts
 
-- Statutory net cost cap: $1 billion a year, less the cost of interim or bridge solutions. [e3]
+- Statutory net cost cap: $1 billion a year, less the cost of interim or bridge solutions; the PUCT may adjust it for peak demand growth and inflation (base year 2026). [e3]
+- Outcome: on December 19, 2024 the PUCT adopted Staff's final recommendation, which was not to move forward with the PCM as currently designed. [e16][e7]
 - Credits available only to dispatchable generation. [e4]
 - Must follow the start of real-time co-optimization; ERCOT said PCM would come only after RTC+B. [e5][e13]
 - ERCOT/E3 assessment, as summarized in the PUCT Staff memo: anticipated 780 MW of additional dispatchable generation; LOLE 2.67 to 2.18 days per year. [e15][e8]
-- Long-term net cost estimates: about $12 million (ERCOT/E3) versus $350 to $725 million (IMM). [e9]
+- Net cost estimates with the gross cap: approximately $12 million (ERCOT/E3) versus a possible long-term range of $350 million to $725 million (IMM). [e9]
 
 ## Timeline
 
@@ -123,11 +128,12 @@ PUCT Staff reviewed the ERCOT/E3 and IMM assessments in December 2024. Its memo,
 - 2023-11: ERCOT implements the multi-step ORDC price floor as the bridge solution. [e11]
 - 2024-08-29: PUCT selects the final PCM design parameters. [e12]
 - 2024-12-13: PUCT Staff recommends not moving forward with the PCM as currently designed. [e7]
-- 2024-12-18: Chairman Gleeson's memo for the December 19, 2024 open meeting says the PCM as designed will not provide the reliability benefits needed. [e10]
+- 2024-12-18: Chairman Gleeson's memo for the December 19, 2024 open meeting says he does not believe the PCM as currently designed will provide the reliability benefits needed. [e10]
+- 2024-12-19: at its open meeting the PUCT adopts Staff's final recommendation on the PCM. [e16]
 
 ## Say it like this
 
-(Guidance) The PCM was Texas's proposed availability-credit program: LSEs would buy credits earned by dispatchable units that show up in the tightest hours, under a $1 billion net cost cap set by HB 1500. In December 2024 PUCT Staff recommended against the design as it stood, the Chairman did not believe it would provide the reliability benefits needed, and he pointed resources to RTC+B and DRRS. [e3][e7][e10]
+(Guidance) The PCM was Texas's proposed availability-credit program: LSEs would buy credits earned by dispatchable units that show up in the tightest hours, under a $1 billion net cost cap set by HB 1500. In December 2024 PUCT Staff recommended against the design as it stood, the Chairman did not believe it would provide the reliability benefits needed and pointed resources to RTC+B and DRRS, and on December 19, 2024 the PUCT adopted Staff's recommendation. [e3][e7][e10][e16]
 
 ## Common confusion
 
@@ -149,9 +155,9 @@ ERCOT/E3 found the $1 billion of PCM payments almost fully offset by lower energ
 
 ## Open items
 
-- The PUCT's action at the December 19, 2024 open meeting (whether it formally ended, shelved or deferred the PCM) is not in the saved sources; only the Staff recommendation and the Chairman's memo are.
+- The December 19, 2024 minutes record only "Adopted Staff's final recommendation on PCM"; they are a summary, and no written order or any further instruction (for example on later reconsideration) is in the saved sources.
 - The 2024 and 2025 IMM State of the Market reports in the saved set do not discuss the PCM; no later status was found.
-- HB 1500's own text of 39.1594 was quoted from the current PURA chapter, not from the bill; the 2026 base-year adjustments to the cap in 39.1594(a)(1)(A)-(B) were not covered.
+- HB 1500's own text of 39.1594 was quoted from the current PURA chapter, not from the bill; how the 2026 base-year adjustments to the cap in 39.1594(a)(1)(A)-(B) would be calculated was not covered.
 - Deeper pass: the 37 PCM design parameters (E3 strawman, February 2024), the PC demand curve, the 2% non-performance penalty and the trailing net-revenue offset.
 - Deeper pass: E3's finding that DRRS under NPRR1235 would add less than 100 MW of gas CT capacity, and the battery (+29%) and wind (-1.2%) margin effects.
 - Whether the PCM could be reconsidered after the 2026 reliability standard assessment was not traced.

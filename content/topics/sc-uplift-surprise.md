@@ -25,7 +25,7 @@ links:
     note: RMR uplift was the largest contributor to the 2025 increase in uplift, at $68 million. [e3]
   - to: ffss
     type: related
-    note: ERCOT uplifts most FFSS program costs to LSEs by load-ratio share. [e13]
+    note: The IMM, summarizing the FFSS rule (16 TAC 25.520), says ERCOT uplifts most FFSS program costs to LSEs by load-ratio share. [e13]
   - to: ruc
     type: causes
     note: RUC instructions rose to 5,129 resource-hours in 2025, mostly for congestion. [e11]
@@ -83,7 +83,7 @@ evidence:
     quote: "These RMR resources have a total capacity of around 730 MW. Since the beginning of the RMR period, the mobile generating units have produced approximately 1,226 MWh, and the maximum aggregate output of RMR units has been less than 40 MW. Total uplift associated with these RMR units in 2025 was approximately $68 million."
   - id: e13
     source: imm-som-2025
-    locator: "Section G, Firm Fuel Supply Service, rulemaking discussion (OCR)"
+    locator: "Section G, Firm Fuel Supply Service, 3. FFSS Rulemaking, Highlights of 16 TAC 25.520 (OCR)"
     quote: "ERCOT uplifts most FFSS program costs to LSEs based on load-ratio share."
   - id: e14
     source: imm-som-2025
@@ -131,7 +131,7 @@ This scenario asks an analyst to explain an unexpected uplift line on a settleme
 
 Step 1, name the bucket. The IMM's uplift covers a list of settlements including Revenue Neutrality Allocation, emergency energy, ERS, black start, Firm Fuel, RMR, RUC, voltage services and the ERCOT administrative fee. [e2] In 2025 uplift totalled $668 million, or $1.38 per MWh of the all-in price, up 12% from 2024; RMR at $68 million was the largest contributor to the increase. [e3] Real-time congestion shortfalls are charged to LSEs through the Revenue Neutrality Allocation, and the IMM's 2025 annual table (in $ millions) lists Revenue Neutrality Uplift at $154. [e15][e14][e22]
 
-Step 2, explain the allocation. Load Ratio Share is the ratio of an Entity's AML (retail Load usage data adjusted for UFE, losses and DC Tie exports) to total ERCOT AML for an interval, and several uplift items are spread on it. [e5][e6] For RUC, QSEs that were capacity-short pay first, and only the rest of the make-whole cost is uplifted to all QSEs by Load Ratio Share; RUC clawback revenues are paid back to QSEs on the same basis. [e7][e10] ERCOT also uplifts most FFSS costs to LSEs by load-ratio share. [e13]
+Step 2, explain the allocation. Load Ratio Share is the ratio of an Entity's AML (retail Load usage data adjusted for UFE, losses and DC Tie exports) to total ERCOT AML for an interval, and several uplift items are spread on it. [e5][e6] For RUC, QSEs that were capacity-short pay first, and only the rest of the make-whole cost is uplifted to all QSEs by Load Ratio Share; RUC clawback revenues are paid back to QSEs on the same basis. [e7][e10] The IMM, in its summary of the FFSS rule (16 TAC 25.520), also says ERCOT uplifts most FFSS program costs to LSEs by load-ratio share. [e13]
 
 Step 3, explain the cause. A make-whole payment reimburses allowable startup and minimum energy costs that a RUC-committed Resource did not recover in the market. [e8] RUC instructions rose to 5,129 resource-hours in 2025, 77% for congestion, and make-whole payments exceeded $21 million against $4.5 million of claw-backs. [e11][e9] The IMM attributes part of the rise to more RUC and fewer resources opting out of RUC settlement. [e21]
 

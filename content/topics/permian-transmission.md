@@ -121,7 +121,7 @@ The Permian Basin Reliability Plan is the transmission plan that PURA §39.167 (
 
 The plan has two layers. The first is common local projects, which the PUCT approved for service through 2038 whatever voltage it later chose for the import paths. [e4] The second is the import paths that bring more generation into the region. [e3] The PUCT approved the plan on October 7, 2024 but put off the voltage decision until no later than May 1, 2025. [e5] It then approved the three 765 kV import paths. [e18] ERCOT dates that approval April 24, 2025. [e6]
 
-The plan used Permian load levels of 23,659 MW in 2030 and 26,400 MW in 2038, consistent with HB 5066. [e2] ERCOT says three studies (the PBRP, the 2024 RTP and the 2025 RTP) showed a need for 765 kV additions starting in 2030. [e12][e19] It adds that more Permian generation than already expected would not eliminate the need for the plan's transmission additions, and that large loads in the Permian are expected to grow to the size of areas like Dallas-Fort Worth and Houston. [e20][e14]
+The plan used Permian load levels of 23,659 MW in 2030 and 26,400 MW in 2038, consistent with HB 5066. [e2] ERCOT says three studies (the PBRP, the 2024 RTP and the 2025 RTP) showed a need for 765 kV additions starting in 2030. [e12][e19] It adds that more Permian generation than already expected would not eliminate the need for the plan's transmission additions, and that many large loads are rapidly developing in the Permian Basin, which it says is projected to grow to an electrical size equivalent to other large load areas such as Dallas-Fort Worth and Houston. [e20][e14]
 
 ## ERCOT context
 
@@ -131,7 +131,7 @@ The costs are large and contested. The full Texas 765 kV STEP, including the Per
 
 ## Key facts
 
-- Statute: PURA §39.167 (HB 5066) required the PUCT to direct ERCOT to write a Permian plan by January 30, 2024. [e1]
+- Statute: PURA §39.167 (HB 5066) required the PUCT, not later than January 30, 2024, to direct ERCOT to develop a reliability plan for the Permian Basin. [e1]
 - Planning load: 23,659 MW (2030) and 26,400 MW (2038). [e2]
 - Decided: the plan was approved October 7, 2024, and the 765 kV import paths were approved in 2025 (April 24, 2025 per ERCOT). [e5][e6][e18]
 - Decided (ERCOT Board): the remaining STEP 765 kV portions were endorsed in December 2025. [e7]

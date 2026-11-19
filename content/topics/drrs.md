@@ -18,7 +18,7 @@ links:
     type: related
     note: The statute requires ERCOT to reduce reliability unit commitment by the amount of DRRS procured. [e3]
   - to: rtc-b
-    type: prerequisite-of
+    type: related
     note: The NPRR1309 design lets DRRS be awarded in Real-Time and co-optimized with energy and other Ancillary Services. [e7]
   - to: energy-storage-resource
     type: related

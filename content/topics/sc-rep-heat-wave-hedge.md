@@ -25,7 +25,7 @@ links:
     note: A Counter-Party must keep Financial Security at or above its Total Potential Exposure at all times. [e12]
   - to: mass-transition
     type: related
-    note: If a Market Participant's rights are revoked, ERCOT initiates a Mass Transition of its ESI IDs. [e18]
+    note: If a breaching Market Participant that is also an LSE has its rights revoked, ERCOT initiates a Mass Transition of its ESI IDs. [e18]
   - to: net-load
     type: related
     note: Most 2025 price spikes came in the 7 to 9 p.m. peak net load hours. [e10]

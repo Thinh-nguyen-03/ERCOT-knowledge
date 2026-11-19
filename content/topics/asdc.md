@@ -6,7 +6,7 @@ kind: rule
 domain: reliability
 level: 2
 lenses: [analyst, trading, portfolio]
-as_of: 2026-11-18
+as_of: 2026-11-19
 links:
   - to: ordc
     type: replaced
@@ -118,6 +118,14 @@ evidence:
     source: imm-som-2025
     locator: "Appendix, E. NSRS relative Pricing (p. A-8)"
     quote: "Two factors related to the implementation of RTC have reinforced this trend: 1) the extension of the ASDC for NSRS with the excess volume from the AORDC, and 2) the 4-hour duration constraint for NSRS."
+  - id: e23
+    source: np-04
+    locator: "Section 4.4.11(1)(a)(i), Emergency Pricing Program trigger"
+    quote: "If the sum of the RTM System Lambda and Real-Time Reliability Deployment Price Adder for Energy is greater than or equal to the HCAP for DAM for a total of 12 hours within a rolling 24-hour period, ERCOT will activate the Emergency Pricing Program (EPP) and the DASWCAP and VOLL used to determine the ASDCs for DAM and RTM will be set to ECAP starting at the beginning of the next Operating Hour that ERCOT can implement the change."
+  - id: e24
+    source: np-04
+    locator: "Section 4.4.11(1)(a)(ii), Peaker Net Margin threshold"
+    quote: "If the Peaker Net Margin (PNM) exceeds the PNM threshold per MW-year during a year, the DASWCAP and the VOLL used to determine the ASDCs for DAM and RTM shall be set per the schedule in Section 4.4.11.1, Scarcity Pricing Mechanism."
 ---
 
 ## Definition
@@ -132,11 +140,11 @@ Reg-Down has its own simple curve: a constant price equal to VOLL across its ful
 
 The protocols define a Minimum Contingency Level (MCL) of 3,000 MW. [e7] For quantities up to the MCL, the maximum demand prices are Reg-Up at VOLL + 4,052, RRS at VOLL + 2,051, ECRS at VOLL + 50, and Non-Spin at VOLL. [e8] In the later steps of the split, remaining 1 MW segments of the AORDC go to ECRS and Non-Spin alternately until both requirements are met, and any remaining segments priced above $0.01/MWh go to Non-Spin. [e9]
 
-Every ASDC has a floor of $15 per MW per hour over the part of the curve that matches the AS Plan. The protocol says the floor is based on ERCOT's assessment of the need for a floor price on the ASDC for RUC. [e10] The VOLL used to build the curves is set to the day-ahead HCAP. [e11] The protocol table lists the day-ahead HCAP at $5,000/MWh (the real-time cap is listed at $2,000; see the offer-cap topic). [e12]
+Every ASDC has a floor of $15 per MW per hour over the part of the curve that matches the AS Plan. The protocol says the floor is based on ERCOT's assessment of the need for a floor price on the ASDC for RUC. [e10] The VOLL used to build the curves is set to the day-ahead HCAP by default. [e11] It changes in two cases: when the Emergency Pricing Program is activated (prices at or above the day-ahead HCAP for 12 hours within a rolling 24-hour period), the VOLL is set to ECAP [e23]; and when the Peaker Net Margin exceeds its threshold during a year, the VOLL follows the schedule in Section 4.4.11.1. [e24] The protocol table lists the day-ahead HCAP at $5,000/MWh (the real-time cap is listed at $2,000; see the offer-cap topic). [e12]
 
 ## ERCOT context
 
-The aggregation rule has visible effects. The AORDC runs to 10,000 MW, but the combined AS Plan for the four up-reserves is often smaller. The leftover volume is added to the Non-Spin (NSRS) curve, so the real-time market buys more NSRS than the plan calls for. [e13]
+The IMM's 2025 report describes visible effects of the aggregation rule. The AORDC runs to 10,000 MW, but for much of the year the combined AS Plan for the four up-reserves is smaller. The leftover volume is currently added to the Non-Spin (NSRS) curve, so the real-time market buys more NSRS than the plan calls for. [e13]
 
 According to the IMM, ERCOT added the $15/MWh floor on AS shortages through NPRR 1269, and ERCOT argues it reduces the likelihood of real-time AS shortages that would prompt RUC commitments. [e14][e20] The IMM calls the resulting reserve policy excessively conservative and says it suppresses price signals. [e19] It recommends dropping the rule that the ASDCs must add up to the AORDC and instead building each curve from the reliability value of its own product. [e15]
 
@@ -146,8 +154,8 @@ According to the IMM, ERCOT added the $15/MWh floor on AS shortages through NPRR
 - Maximum demand prices (for quantities up to the MCL): Reg-Up VOLL + 4,052; RRS VOLL + 2,051; ECRS VOLL + 50; Non-Spin VOLL. [e8]
 - Reg-Down ASDC: flat at VOLL across its AS Plan quantity. [e5]
 - ASDC floor: $15 per MW per hour over the AS Plan portion (NPRR 1269). [e10][e14]
-- VOLL for ASDCs equals the day-ahead HCAP, listed at $5,000/MWh in the protocol table. [e11][e12]
-- AORDC length: 10,000 MW. Excess volume goes to Non-Spin. [e13]
+- VOLL for ASDCs equals the day-ahead HCAP, listed at $5,000/MWh in the protocol table, unless the Emergency Pricing Program or the Peaker Net Margin threshold has been triggered. [e11][e12][e23][e24]
+- AORDC length: 10,000 MW. Excess volume goes to Non-Spin (IMM 2025 report). [e13]
 
 ## Say it like this
 
@@ -155,7 +163,7 @@ According to the IMM, ERCOT added the $15/MWh floor on AS shortages through NPRR
 
 ## Common confusion
 
-(Guidance) The AORDC is not the old ORDC adder still running: the adder was replaced by the ASDCs, and the AORDC is a fixed curve formulated from the pricing outcomes the ORDC produced before RTC. [e17][e18] ERCOT builds it and then splits it into product-specific ASDCs. [e6] The ASDC prices are not offer caps either. The highest ASDC prices for the up-reserves sit above VOLL (Non-Spin at VOLL), which itself is tied to the day-ahead HCAP. [e8][e11]
+(Guidance) The AORDC is not the old ORDC adder still running: the adder was replaced by the ASDCs, and the AORDC is a fixed curve formulated from the pricing outcomes the ORDC produced before RTC. [e17][e18] ERCOT builds it and then splits it into product-specific ASDCs. [e6] The ASDC prices are not offer caps either. The highest ASDC prices for the up-reserves sit above VOLL (Non-Spin at VOLL), which itself is set to the day-ahead HCAP in normal conditions. [e8][e11]
 
 ## Questions
 

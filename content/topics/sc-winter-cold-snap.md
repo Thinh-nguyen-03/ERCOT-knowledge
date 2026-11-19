@@ -28,7 +28,7 @@ links:
     note: Cold-weather OCNs, Advisories, Watches and Emergency Notices require QSEs to update COPs and outages for fuel and weather limits. [e10]
   - to: eea
     type: related
-    note: EEA Level 1 is declared when PRC falls below 2,500 MW and is not expected to recover within 30 minutes. [e12]
+    note: EEA Level 1 is declared when PRC falls below 2,500 MW and is not projected to recover within 30 minutes without the EEA Level 1 actions. [e12]
   - to: natural-gas-price
     type: affects
     note: Demand for natural gas for heating is higher in winter, and gas accounts for a smaller share of Texas generation in winter than in summer. [e24]
@@ -158,7 +158,7 @@ Step 2, check what preparation the rules require. Generators must complete winte
 
 Step 3, watch ERCOT's notices. OCNs can be issued for weather concerns such as anticipated freezing temperatures and ice storms. [e11] When ERCOT issues an OCN, Advisory, Watch or Emergency Notice for forecast cold, QSEs must update COPs, telemetry and outage reports for weather, fuel supply and fuel switching limits. [e10] A winter weather Watch also starts FFSS deployment preparation. [e9]
 
-Step 4, know the emergency steps. ERCOT declares EEA Level 1 when PRC falls below 2,500 MW and is not projected to recover within 30 minutes. [e12] In February 2021 ERCOT had ordered 20,000 MW of manual firm load shed by 7:00 p.m. on February 15 and held it for nearly three days. [e3]
+Step 4, know the emergency steps. ERCOT declares EEA Level 1 when PRC falls below 2,500 MW and is not projected to recover above 2,500 MW within 30 minutes without the EEA Level 1 actions. [e12] In February 2021 ERCOT had ordered 20,000 MW of manual firm load shed by 7:00 p.m. on February 15 and held it for nearly three days. [e3]
 
 Step 5, use the recent storms as calibration. During Winter Storm Fern (January 23-27, 2026) ERCOT issued a Weather Watch on January 21, issued no EEA and had no systemwide outages. [e26][e13][e15][e14] Gas restrictions still appeared in North Texas, FFSS kept 340 MW of gas-restricted units running, and about 13.5 GW of wind nameplate was unavailable due to icing. [e18][e19][e23] The Fern load forecast peak was 84,500 MW (assuming no demand response), and the forecast overestimated expected peak consumption on January 26 and 27, while in Elliott (December 2022) ERCOT's internally developed load forecasts were too low for the 23rd and 24th. [e16][e17][e22][e25]
 
@@ -168,7 +168,7 @@ Step 5, use the recent storms as calibration. During Winter Storm Fern (January 
 - February 2021: 20,000 MW of manual firm load shed ordered by 7:00 p.m. on February 15. [e3]
 - Winter preparation deadline: December 1 each year. [e5]
 - FFSS obligation period: November 15 to March 15; budget up to $54 million per period. [e6][e8]
-- EEA Level 1 trigger: PRC below 2,500 MW and not recoverable within 30 minutes. [e12]
+- EEA Level 1 trigger: PRC below 2,500 MW and not projected to recover within 30 minutes without the EEA Level 1 actions. [e12]
 - January 2027 MORA: highest EEA risk at HE 8:00 a.m., with a 3.20% probability of an EEA. [e20]
 
 ## Say it like this
@@ -202,7 +202,7 @@ Fern passed with no conservation call, no EEA and no systemwide outages, though 
 - Unit freezing and fuel together caused 75% of 2021 outages, derates and failures to start across the ERCOT, SPP and MISO South event area. [e1][e27]
 - Check readiness: winter preparation was due December 1, and FFSS is procured for the November 15 to March 15 period. [e5][e6]
 - Watch ERCOT's notices (OCN, Advisory, Watch and Emergency Notice); a winter weather Watch triggers FFSS preparation and cold-weather notices require COP updates for fuel limits. [e9][e10]
-- Watch reserves against the EEA trigger: EEA Level 1 comes when PRC falls below 2,500 MW and is not projected to recover within 30 minutes. [e12]
+- Watch reserves against the EEA trigger: EEA Level 1 comes when PRC falls below 2,500 MW and is not projected to recover above 2,500 MW within 30 minutes without the EEA Level 1 actions. [e12]
 - Watch the morning hours: the January 2027 MORA puts the highest EEA risk at HE 8:00 a.m. [e20]
 - Treat the load forecast as uncertain both ways: Fern's forecast overestimated expected peak consumption on January 26-27 (forecast peak 84,500 MW), and Elliott's internal forecasts were too low on December 23-24. [e16][e17][e25]
 - Expect wind icing: about 13.5 GW of wind nameplate was unavailable during Fern. [e23]

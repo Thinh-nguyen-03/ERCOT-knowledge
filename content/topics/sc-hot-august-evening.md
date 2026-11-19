@@ -101,6 +101,10 @@ evidence:
     source: ercot-summer-2026-review
     locator: "Slide: State of Charge Operating Patterns Across Summer"
     quote: "SOC levels were generally highest between Hours 12 and 20. There were several hours during the late evening through sunrise where SOC was very low."
+  - id: e18
+    source: ercot-summer-2026-review
+    locator: "Slide 21, Energy Storage Capacity Offered in Real-Time Market, Key Takeaway"
+    quote: "The proportion of ESR capacity offered at price levels within $100/MWh of System Wide Offer Cap is slightly higher in the summer of 2026 compared to that of previous two summers, largely due to the lower Real-Time System Wide Offer Cap ($2000/MWh) introduced as part of RTC+B."
 ---
 
 ## Definition
@@ -115,14 +119,14 @@ Next, ask who serves the ramp. During the solar ramp-down SCED often dispatches 
 
 Then bring in reserves. Under RTC, the ORDC is no longer used; individual ASDCs set scarcity pricing and the value of reserves. [e9] These sloped curves define the penalty price when the market is short of reserves, in both day-ahead and real time. [e11] ERCOT's RTC example shows AS cost entering the LMP: a $30/MWh unit yields a $40/MWh LMP once $10/MWh of additional AS cost is added. [e10]
 
-Finally, know the ceiling. After RTC go-live on 12/5/2025 the real-time SWCAP is $2,000/MWh, down from $5,000/MWh. [e12]
+Finally, know the ceiling. ERCOT's summer 2026 review says the SWCAP was reduced to $2,000/MWh from $5,000/MWh after RTC go-live on 12/5/2025, and calls it the lower Real-Time System Wide Offer Cap introduced as part of RTC+B. [e12][e18] The day-ahead cap is a separate parameter; see the offer-cap topic.
 
 ## Key facts
 
 - Most 2025 price spikes came between 7 and 9 p.m., in the peak net load hours. [e1]
 - The IMM counts a price spike as a 15-minute interval above 18 times the fuel index price, a level above the marginal cost of almost every online generator. [e6]
 - Solar capacity factor in the 2025 net peak interval was 1.7%; wind's was 29.3%. [e3]
-- Real-time SWCAP has been $2,000/MWh since RTC go-live on 12/5/2025. [e12]
+- ERCOT's summer 2026 review: the SWCAP was reduced to $2,000/MWh from $5,000/MWh after RTC go-live on 12/5/2025; this is the Real-Time System Wide Offer Cap. [e12][e18]
 - In June 2026, 40% of intervals in HE 22-23 were affected by Non-Spin shortfalls; Reg-Up, Reg-Down and RRS were never short that summer. [e13]
 - The all-time demand record was 91,134 MW in HE19 on 7/22/2026, with cryptomining loads cutting up to about 3,299 MW. [e14]
 
@@ -136,7 +140,7 @@ Finally, know the ceiling. After RTC go-live on 12/5/2025 the real-time SWCAP is
 - Batteries have limited energy. In summer 2026 their state of charge running out in the evenings was a pattern all summer. [e8][e17]
 - Under RTC, scarcity pricing comes from the ASDCs, not the ORDC. The ASDCs define the penalty price when the market goes short of reserves, and ERCOT's example shows AS cost entering the LMP. [e9][e11][e10]
 - Watch which reserves are short. In summer 2026 Reg-Up, Reg-Down and RRS had no shortages, Non-Spin and ECRS met the plan in nearly all intervals, and most June Non-Spin shortfalls came in the late evening, with 40% of intervals in HE 22-23 affected. [e13]
-- The real-time offer cap is $2,000/MWh after RTC, so offers have a lower ceiling than before December 2025. [e12]
+- The real-time offer cap is $2,000/MWh after RTC, so real-time offers have a lower ceiling than before December 2025. [e12][e18]
 - (Reasoning) Then give a view: a spike is likely if the net load ramp is steep, batteries reach the net peak with little stored energy, and Non-Spin or ECRS look short. It is less likely if wind picks up in the evening.
 - Suppose (illustrative): gas is at $3/MMBtu. The IMM's spike threshold of 18 times the fuel price would be $54/MWh, so a jump from $40 to $200 easily counts as a spike. [e6]
 
@@ -156,7 +160,7 @@ Under RTC, scarcity pricing and the value of reserves are set by individual ASDC
 
 ### What role did demand response play at the July 2026 peak?
 
-At the 91,134 MW record on 7/22/2026, cryptomining loads cut up to about 3,299 MW and 4CP response cut about 492 MW. [e14]
+At the 91,134 MW record on 7/22/2026, cryptomining loads cut up to about 3,299 MW and ERCOT estimated the maximum 4CP reduction at about 492 MW. [e14]
 
 ## Say it like this
 
