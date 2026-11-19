@@ -22,7 +22,7 @@ links:
     note: SCED produces Shadow Prices along with Base Points and LMPs. [e3]
   - to: congestion
     type: determines
-    note: Day-ahead congestion value is flow over a constraint times its shadow price. [e7]
+    note: The IMM's Figure 36 calculates day-ahead congestion values as flow over each constraint times its shadow price. [e7]
   - to: lmp
     type: determines
     note: The shadow price set for a violated constraint determines congestion prices at the locations that affect it. [e8]
@@ -73,7 +73,7 @@ A shadow price is the marginal value of a commodity: the rate at which system co
 
 SCED's second step produces Base Points, Ancillary Service awards, Shadow Prices, Real-Time MCPCs and LMPs, subject to the security constraints. [e3] ERCOT sets a maximum shadow price for each network constraint as part of its contingency definition, and the cost SCED calculates to resolve another MW of congestion on that constraint cannot exceed it. A separate maximum applies to the power balance constraint. [e2][e9]
 
-Per the IMM, violations impose reliability costs or risks on the system, which ERCOT embeds in the shadow price caps. When the marginal cost of relief through dispatch exceeds the reliability cost of violating the constraint, the cap stops further dispatch cost and sets the shadow price, which determines congestion prices at the locations that affect the violated constraint. [e8] In the day-ahead market, congestion value is the flow over each constraint times its shadow price. [e7]
+Per the IMM, violations impose reliability costs or risks on the system, which ERCOT embeds in the shadow price caps. When the marginal cost of relief through dispatch exceeds the reliability cost of violating the constraint, the cap stops further dispatch cost and sets the shadow price, which determines congestion prices at the locations that affect the violated constraint. [e8] In its day-ahead congestion analysis (Figure 36), the IMM calculates congestion values as the product of power flows over each constraint and the constraint's shadow price. [e7]
 
 ## ERCOT context
 
@@ -85,7 +85,7 @@ The IMM reports that ERCOT implemented NPRR 1230 at the end of 2024 to raise the
 - SCED's cost to resolve one more MW of congestion is limited to that maximum. [e2]
 - 2025 cap for GTCs as base-case stability constraints: $5,251 per MW. [e6]
 - NPRR 1230, implemented at the end of 2024, raised the cap on base-case constraints. [e5]
-- Day-ahead congestion value equals flow times shadow price. [e7]
+- The IMM's day-ahead congestion values (Figure 36) are flow over each constraint times its shadow price. [e7]
 
 ## Say it like this
 
@@ -93,7 +93,7 @@ A shadow price is what it costs the system, at the margin, to squeeze one more M
 
 ## Common confusion
 
-The shadow price is a marginal cost per MW, not a total congestion cost; congestion value comes from multiplying it by flow. [e7] It is also not a bid or offer: it comes out of the SCED solution. [e3]
+The shadow price is a marginal cost per MW, not a total congestion cost; the IMM's day-ahead congestion values multiply it by flow over each constraint. [e7] It is also not a bid or offer: it comes out of the SCED solution. [e3]
 
 ## Questions
 
@@ -107,7 +107,7 @@ It raised the cap on base-case constraints so SCED can find more expensive dispa
 
 ### How does a shadow price become a congestion charge?
 
-In the day-ahead market, congestion value is the flow over the constraint times its shadow price. [e7]
+In its day-ahead congestion analysis (Figure 36), the IMM calculates congestion value as the flow over each constraint times its shadow price. [e7]
 
 ## Open items
 

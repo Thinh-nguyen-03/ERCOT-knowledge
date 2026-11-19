@@ -13,10 +13,10 @@ links:
     note: FERC certified NERC as the Electric Reliability Organization and approves its Reliability Standards. [e1]
   - to: ercot
     type: related
-    note: ERCOT serves as a Balancing Authority and Planning Authority/Planning Coordinator and shares Transmission Operator duties. [e4]
+    note: The 2021 FERC-NERC report says ERCOT serves as a Balancing Authority and Planning Authority/Planning Coordinator and shares Transmission Operator duties. [e4]
   - to: weatherization
     type: related
-    note: ERCOT and Texas RE staff visited generating units each year (winter 2011/2012 to 2019/2020) to assess winter readiness. [e5]
+    note: ERCOT and Texas RE staff typically visited 75-80 generating units per year (winter 2011/2012 to 2019/2020) to assess winter readiness. [e5]
   - to: winter-storm-uri
     type: related
     note: NERC and Texas RE took part in the joint inquiry, whose scope included lessons for NERC's development of cold weather Reliability Standards. [e6][e3]
@@ -59,7 +59,7 @@ evidence:
   - id: e8
     source: ferc-nerc-uri
     locator: "Footnote 28"
-    quote: "In August, the Commission approved revisions to the NERC Reliability Standards to address cold weather, including a new requirement for generating units to have a cold weather preparedness plan."
+    quote: "In August, the Commission approved revisions to the NERC Reliability Standards to address cold weather, including a new requirement for generating units to have a cold weather preparedness plan. However, the effective date for these revisions is April 1, 2023. See 176 FERC ¶ 61,119 (August 2021)."
 ---
 
 ## Definition
@@ -68,13 +68,13 @@ NERC is the North American Electric Reliability Corporation, certified by FERC a
 
 ## How it works
 
-NERC writes the mandatory standards and the Regional Entities administer and enforce them regionally under NERC's delegated authority. [e1][e2] In ERCOT, ERCOT itself carries reliability functions: it serves as a Balancing Authority and Planning Coordinator and shares Transmission Operator duties with transmission utilities in its footprint. [e4]
+NERC writes the mandatory standards and the Regional Entities administer and enforce them regionally under NERC's delegated authority. [e1][e2] In ERCOT, ERCOT itself carries reliability functions; per the 2021 FERC-NERC report it serves as a Balancing Authority and Planning Coordinator and shares Transmission Operator duties with transmission utilities in its footprint. [e4]
 
 Texas RE staff also worked alongside ERCOT on winter readiness. ERCOT and Texas RE staff typically visited 75-80 generating units per year from winter 2011/2012 to winter 2019/2020 to assess winter readiness. [e5]
 
 ## ERCOT context
 
-After the February 2021 event, FERC, NERC and all six Regional Entities, including Texas RE, formed an inquiry team whose scope included lessons for NERC cold weather Reliability Standards. [e6][e3] A footnote in the report says that in August FERC approved NERC Reliability Standard revisions that add a requirement for generating units to have a cold weather preparedness plan. [e8] The Protocols also let the NERC Regional Entity submit NPRRs. [e7]
+After the February 2021 event, FERC, NERC and all six Regional Entities, including Texas RE, formed an inquiry team whose scope included lessons for NERC cold weather Reliability Standards. [e6][e3] A footnote in the report says that in August (its cite is 176 FERC ¶ 61,119, August 2021) FERC approved NERC Reliability Standard revisions that add a requirement for generating units to have a cold weather preparedness plan, with an effective date of April 1, 2023. [e8] The Protocols also let the NERC Regional Entity submit NPRRs. [e7]
 
 ## Key facts
 
@@ -82,7 +82,7 @@ After the February 2021 event, FERC, NERC and all six Regional Entities, includi
 - Texas RE is one of the Regional Entities with delegated authority to propose and enforce standards. [e2][e3]
 - ERCOT is a Balancing Authority and Planning Coordinator and shares Transmission Operator duties. [e4]
 - The NERC Regional Entity may submit an NPRR. [e7]
-- The report says FERC approved NERC Reliability Standard revisions in August, adding a cold weather preparedness plan requirement for generating units. [e8]
+- The report says FERC approved NERC Reliability Standard revisions in August 2021, adding a cold weather preparedness plan requirement for generating units, effective April 1, 2023. [e8]
 
 ## Say it like this
 
@@ -103,8 +103,6 @@ It is a Regional Entity, with authority delegated from NERC to propose and enfor
 Balancing Authority and Planning Authority/Planning Coordinator, plus shared Transmission Operator duties. [e4]
 
 ## Open items
-
-- The footnote on the August FERC approval of cold weather standard revisions does not give the year in the quoted text.
 
 - Deeper pass: the delegation agreement between NERC and Texas RE and how enforcement against Texas entities works in practice; the saved sources only give the generic Regional Entity definition.
 - Deeper pass: specific NERC standards that bind ERCOT participants (the report cites PRC-024-2 and cold weather revisions only).

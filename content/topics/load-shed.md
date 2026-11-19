@@ -25,7 +25,7 @@ links:
     note: An Emergency Notice allows ERCOT to instruct TSPs or DSPs to drop load when the cause is a transmission problem. [e5]
   - to: ordc
     type: related
-    note: The ORDC adder reflected load shed risk in reserve pricing before it was discontinued with RTC in December 2025; see that topic. [e14][e15]
+    note: The IMM says the ORDC reflects the relationship between operating reserves and the probability of load shed, and that the ORDC adder was discontinued in December 2025 with the introduction of RTC; see that topic. [e14][e15]
 evidence:
   - id: e1
     source: np-06
