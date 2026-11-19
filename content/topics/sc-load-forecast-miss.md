@@ -34,7 +34,7 @@ links:
     note: During Winter Storm Fern the load forecast (84,500 MW peak) overestimated expected peak consumption on January 26 and 27. [e13][e14]
   - to: net-load
     type: related
-    note: ERCOT's average net load forecast error fell to 452 MW by 2025, but load is still systematically over-forecast. [e8]
+    note: The IMM reports that the average net load forecast error, measured eight hours ahead of real-time, fell to 452 MW in 2025, and says ERCOT still systematically over-forecasts load. [e8][e22]
 evidence:
   - id: e1
     source: np-02
@@ -66,11 +66,11 @@ evidence:
     quote: "All QSEs that were capacity-short in each RUC will be charged for that shortage, as described in Section 5.7.4.1, RUC Capacity-Short Charge. If the revenues from the charges under Section 5.7.4.1 are not enough to cover all RUC Make-Whole Payments for a Settlement Interval, then the difference will be uplifted to all QSEs on a Load Ratio Share (LRS) basis, as described in Section 5.7.4.2, RUC Make-Whole Uplift Charge."
   - id: e8
     source: imm-som-2025
-    locator: "Executive Summary, Market Operations bullets"
+    locator: "Market Operations chapter, key insights"
     quote: "ERCOT has meaningfully improved its forecast accuracy since 2022, reducing the average net load forecast error to 452 MW. This error is down from more than 1,000 MW in 2023 and 2024, but ERCOT still systematically underforecasts renewable generation and overforecasts load."
   - id: e9
     source: imm-som-2025
-    locator: "Executive Summary, Increased Reliability Risks due to Renewables and Batteries"
+    locator: "Demand and Supply chapter, F. Operating Reserve Margin, 1. Increased Reliability Risks due to Renewables and Batteries"
     quote: "Despite the average PRC increasing by 128% from 4.9 GW in 2021 to over 11 GW in 2025, forecast errors associated with load, renewables, and battery SOC could produce hours in which the PRC is very low, resulting in a load-shed scenario. In response, ERCOT increased its procurements of operating reserves – beyond the level at which any there is any potential risk of load shedding."
   - id: e10
     source: imm-som-2025
@@ -120,6 +120,10 @@ evidence:
     source: np-06
     locator: "Section 6.1, Introduction, paragraph (2)"
     quote: "The Adjustment Period provides each Qualified Scheduling Entity (QSE) the opportunity to adjust its trades, Self-Schedules, and Resource commitments as more accurate information becomes available under Section 6.4, Adjustment Period."
+  - id: e22
+    source: imm-som-2025
+    locator: "Market Operations chapter, C. Forecast Error, Figure 50 introduction"
+    quote: "Figure 50 illustrates the distribution of net load forecast errors eight hours ahead of real-time."
 ---
 
 ## Definition
@@ -128,7 +132,7 @@ This scenario asks how a large load forecast error moves through ERCOT's commitm
 
 ## How it works
 
-Step 1, the day-ahead market does not commit for reliability. Day-ahead energy and ancillary services are financial positions whose imbalances settle in real time. [e5] DRUC runs after the DAM closes and commits Generation Resources to match ERCOT's forecasted Load, subject to transmission constraints. [e4][e2] Because RUC commits to match ERCOT's forecasted Load, a forecast that is too high can lead to extra RUC commitments, and one that is too low can leave too little capacity committed. [e2]
+Step 1, the day-ahead market does not commit for reliability. Day-ahead energy and ancillary services are financial positions whose imbalances settle in real time. [e5] DRUC runs after the DAM closes and recommends commitment of Generation Resources to match ERCOT's forecasted Load, subject to transmission constraints. [e4][e2] Because RUC commits to match ERCOT's forecasted Load, a forecast that is too high can lead to extra RUC commitments, and one that is too low can leave too little capacity committed. [e2]
 
 Step 2, the forecast is updated through the day. HRUC runs at least one hour before each Operating Hour using updated Load forecasts and Outage information, and QSEs can adjust trades, Self-Schedules and commitments in the Adjustment Period as better information arrives. [e3][e21]
 
@@ -138,7 +142,7 @@ Step 4, prices and settlement. Day-ahead positions are financial and ERCOT settl
 
 ## Key facts
 
-- ERCOT's average net load forecast error was about 452 MW in 2025, down from more than 1,000 MW in 2023 and 2024; ERCOT still over-forecasts load. [e8]
+- The IMM reports that ERCOT's average net load forecast error (which it measures eight hours ahead of real-time) was about 452 MW in 2025, down from more than 1,000 MW in 2023 and 2024; the IMM says ERCOT still systematically over-forecasts load. [e8][e22]
 - RUC instructions totalled 5,129 resource-hours in 2025, 77% for congestion; make-whole payments exceeded $21 million. [e17][e20]
 - Summer 2026: RUC rose and shifted from congestion to capacity procurement. [e18]
 - Winter Storm Fern: the load forecast (84,500 MW peak, assuming no demand response) overestimated expected peak consumption on January 26 and 27. [e13][e14]
@@ -156,7 +160,7 @@ Step 4, prices and settlement. Day-ahead positions are financial and ERCOT settl
 
 ### Is ERCOT's load forecast biased?
 
-The IMM says that by 2025 ERCOT still systematically under-forecasts renewable generation and over-forecasts load, even though the average net load forecast error fell to 452 MW. [e8] Single events can go either way: Fern was over-forecast and Elliott under-forecast. [e14][e16]
+The IMM says that by 2025 ERCOT still systematically under-forecasts renewable generation and over-forecasts load, even though the average net load forecast error (measured eight hours ahead of real-time) fell to 452 MW. [e8][e22] Single events can go either way: Fern was over-forecast and Elliott under-forecast. [e14][e16]
 
 ### Who pays when RUC commits units for a forecast that does not show up?
 

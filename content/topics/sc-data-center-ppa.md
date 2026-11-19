@@ -6,7 +6,7 @@ kind: scenario
 domain: cases
 level: 2
 lenses: [structuring, analyst, retail, portfolio]
-as_of: 2026-11-18
+as_of: 2026-11-19
 links:
   - to: large-load-interconnection
     type: used-in
@@ -128,6 +128,10 @@ evidence:
     source: ercot-cdr-2025-12
     locator: "Findings & Discussion, Overview"
     quote: "The most impactful resource adequacy development since the May 2025 CDR release are provisions in Texas Senate Bill 6 (SB6), signed into law in June 2025, that establish new interconnection requirements for Large Loads and ERCOT authority to curtail Large Load consumption before and during declared grid emergencies."
+  - id: e24
+    source: ercot-batch-zero-update-2026-09
+    locator: "Batch Zero Update to the Board (Sept. 14-15, 2026), Key Takeaways"
+    quote: "The verification and audit process will have a TBD impact on the Batch Zero process and timeline."
 ---
 
 ## Definition
@@ -136,26 +140,26 @@ This scenario is about a data center that wants to connect to ERCOT and buy powe
 
 ## How it works
 
-Step 1, the connection rules. SB 6 told the PUCT to set a 75 MW threshold for large load interconnection standards (unless it finds a lower threshold necessary) and a flat study fee of at least $100,000. [e3][e4] The PUCT rule requires financial security of $50,000 per MW of requested peak demand for new requests. [e5] ERCOT now studies large loads together in batches: a studied load in Batch Zero may get its full request, a partial allocation, or have to wait, and projects face a commitment deadline, currently planned for June 2027, to post financial security and prove site control. [e9][e10]
+Step 1, the connection rules. SB 6 told the PUCT to set a 75 MW threshold for large load interconnection standards (unless it finds a lower threshold necessary) and a flat study fee of at least $100,000. [e3][e4] The PUCT rule requires intermediate financial security of $50,000 per MW of requested peak demand for new requests. [e5] ERCOT now studies large loads together in batches: a studied load in Batch Zero may get its full request, a partial allocation, or have to wait, and projects face a commitment deadline, planned for June 2027 when ERCOT described the process in June 2026, to post financial security and prove site control. [e9][e10] ERCOT's September 2026 Board update says the verification and audit process will have a to-be-determined impact on the Batch Zero process and timeline, so that date may move. [e24]
 
-Step 2, the operating conditions. Under SB 6, if the data center has on-site backup generation (non-exporting generation able to serve at least 50 percent of on-site demand), then after ERCOT deploys all available market services except frequency responsive ones, the independent organization may direct the utility to require it to deploy that backup generation or curtail load. [e6] Separately, utilities serving transmission-voltage customers must have a protocol, including any necessary equipment installed before interconnection, so the load can be curtailed during firm load shed; this applies to loads interconnected after December 31, 2025, other than critical load industrial customers and critical natural gas facilities. [e7] If the data center plans a net metering arrangement with an existing stand-alone generation resource, the generation company, municipally owned utility or cooperative must notify ERCOT before implementing it. [e8] ERCOT's December 2025 CDR called these SB 6 provisions the most impactful resource adequacy development since May 2025. [e23]
+Step 2, the operating conditions. Under SB 6, if the data center has on-site backup generation (non-exporting generation able to serve at least 50 percent of on-site demand), then after ERCOT deploys all available market services except frequency responsive ones, the independent organization may direct the utility to require it to deploy that backup generation or curtail load. [e6] Separately, utilities serving transmission-voltage customers must have a protocol, including any necessary equipment installed before interconnection, so the load can be curtailed during firm load shed; this applies to loads interconnected after December 31, 2025, other than critical load industrial customers and critical natural gas facilities. [e7] If the data center plans a net metering arrangement with an operating facility registered as a stand-alone generation resource as of September 1, 2025, the generation company, municipally owned utility or cooperative must notify ERCOT before implementing it. [e8] ERCOT's December 2025 CDR called these SB 6 provisions the most impactful resource adequacy development since May 2025. [e23]
 
-Step 3, the forecast context. More than 438,000 MW of large-user requests were in ERCOT's queue by mid-2026, nearly 90% of them data centers. [e11] The preliminary 2026 long-term forecast reached 278,003 MW in 2029, which ERCOT itself had concerns about using, and the PUCT approved ERCOT's request to adjust the LTLF using the Option B methodology. [e12][e13] For comparison, EIA reports that large flexible load (LFL) customers, a different category from data center requests, have historically consumed about 65% of their approved capacity. [e14]
+Step 3, the forecast context. More than 438,000 MW of large-user requests were in ERCOT's queue by mid-2026, nearly 90% of them data centers. [e11] The preliminary 2026 long-term forecast reached 278,003 MW in 2029, which ERCOT itself had concerns about using, and the PUCT approved ERCOT's request to adjust the LTLF using the Option B methodology. [e12][e13] For comparison, EIA reports that large flexible load (LFL) customers have historically consumed about 65% of their total approved capacity. [e14]
 
-Step 4, buying the power. A person must hold a REP certificate to resell electricity for retail service, and load is billed at the load zone price, a load-weighted average of nodal prices. [e18][e16] LSEs manage price exposure with owned generation, bilateral PPAs, futures or day-ahead purchases. [e17] Transmission costs are a separate line: ERCOT allocates them on each customer's load-ratio share in the four summer peak intervals (4CP), and a PUCT proposal would replace 4CP with 12CP. [e19][e21]
+Step 4, buying the power. A person must hold a REP certificate before reselling electricity to provide retail electric service, and load is billed at the load zone price, a load-weighted average of nodal prices. [e18][e16] LSEs manage price exposure with owned generation, bilateral PPAs, futures or day-ahead purchases. [e17] Transmission costs are a separate line: ERCOT allocates them on each customer's load-ratio share in the four summer peak intervals (4CP), and a PUCT proposal would replace 4CP with 12CP. [e19][e21]
 
 ## Key facts
 
 - Large Load threshold: 75 MW at a single site. [e1][e3]
 - SB 6 minimum screening study fee: $100,000. [e4]
-- PUCT financial security: $50,000 per MW of requested peak demand for new requests. [e5]
+- PUCT intermediate financial security: $50,000 per MW of requested peak demand for new requests. [e5]
 - Large-user requests: more than 438,000 MW by mid-2026, nearly 90% data centers. [e11]
 - Data center actual demand grew 15.5% between January 2025 and January 2026. [e22]
 - Summer 2026 peak: estimated maximum 4CP reduction about 492 MW; crypto reduction about 3,299 MW. [e20]
 
 ## Say it like this
 
-(Guidance) "Getting connected is now a batch process with real money up front, and the data center should expect curtailment obligations in emergencies and possibly only a partial allocation of what it asked for. On the supply side it buys through a REP at its load zone price, so any PPA has to be judged against that zone price and its own load shape, and transmission charges are a separate line that may move away from 4CP."
+(Guidance) "Getting connected is now a batch process with real money up front, and the data center should expect curtailment obligations in emergencies and possibly only a partial allocation of what it asked for. On the supply side its load is billed at its load zone price, so any PPA has to be judged against that zone price and its own load shape, and transmission charges are a separate line that may move away from 4CP."
 
 ## Common confusion
 
@@ -173,19 +177,19 @@ In Batch Zero a studied load may receive its full request, a partial allocation,
 
 ### Why does 4CP matter to a data center?
 
-Transmission charges are based on the customer's load-ratio share in the four summer peak intervals, so cutting load in those intervals cuts the bill; ERCOT estimated about 492 MW of 4CP reduction at the summer 2026 peak. [e19][e20] The PUCT has proposed moving to 12CP, so the value of that strategy may change. [e21]
+Transmission charges are based on the customer's load-ratio share in the four summer peak intervals, so cutting load in those intervals cuts the bill; ERCOT estimated about 492 MW of 4CP reduction at the summer 2026 peak. [e19][e20] A PUCT proposal for publication would move to 12CP, so the value of that strategy may change. [e21]
 
 ## Scenarios
 
 ### A developer wants a 500 MW data center in ERCOT, with power bought under a solar VPPA. What do you check and what do you tell them?
 
 - (Reasoning) Split the answer into connection, operations, forecast credibility and power cost.
-- Connection: the site is a Large Load (75 MW or more), pays at least a $100,000 study fee and must post $50,000 per MW of security. [e1][e4][e5]
+- Connection: the site is a Large Load (75 MW or more), pays at least a $100,000 study fee and must post intermediate financial security of $50,000 per MW. [e1][e4][e5]
 - Suppose (illustrative) the full 500 MW is requested: security at $50,000 per MW is 500 x 50,000 = $25 million.
-- Allocation risk: Batch Zero may give full, partial or no allocation this round, and projects must post security and show site control by a commitment deadline currently planned for June 2027. [e9][e10]
+- Allocation risk: Batch Zero may give full, partial or no allocation this round, and projects must post security and show site control by a commitment deadline that was planned for June 2027 as of June 2026; ERCOT has since said the verification and audit will have a to-be-determined impact on the timeline. [e9][e10][e24]
 - Operations: under SB 6, if the site has qualifying on-site backup generation, the independent organization may direct the utility to require it to run that generation or curtail; and a transmission-voltage load interconnected after December 31, 2025 must be curtailable in firm load shed. [e6][e7]
 - Co-location: a net metering arrangement with an existing stand-alone generation resource requires a notice to ERCOT before it is implemented. [e8]
-- Power cost: the load buys through a REP and is billed at the load zone price. [e18][e16]
+- Power cost: whoever resells electricity to the site for retail service needs a REP certificate, and the load is billed at the load zone price. [e18][e16]
 - (Reasoning) Check how the PPA's generation profile and settlement point line up with the data center's load shape at its load zone.
 - Transmission: 4CP charges are based on summer peak intervals, and a PUCT proposal would move to 12CP. [e19][e21]
 - For the analyst view, treat queue-based numbers with caution: ERCOT said it had concerns with the preliminary LTLF values and the PUCT approved an adjustment (Option B). [e12][e13]
