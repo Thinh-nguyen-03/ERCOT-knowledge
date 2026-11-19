@@ -95,25 +95,39 @@ BEFORE: …be due to ERCOT by March 1st of that year. ERCOT shall share the feed
 QUOTE: ERCOT may schedule unannounced Black Start testing, to verify that BSS is operable as specified in Section 8.1.1.2.1.5.
 AFTER:  (5) QSEs representing Generation Resources contracting for BSSs shall participate in training and restoration drills coordinated by ERCOT. (6) ERCOT shall periodically determine and review the location and number of Black Start Resources required, as well as any special transmission or voice commun…
 
+### e14 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
+locator: Section 2.1, definition of Emergency Response Service (ERS) · text copy line 805
+
+BEFORE: …ee Rating) Emergency Response Service (ERS) An emergency service consistent with P.U.C. SUBST. R. 25.507, Electric Reliability Council of Texas (ERCOT) Emergency Response Service (ERS), to be deployed by ERCOT to help prevent or alleviate an actual or anticipated Energy Emergency Alert (EEA) event. 
+QUOTE: ERS is not an Ancillary Service.
+AFTER:  ERS-10 ERS with a ten-minute ramp period. ERS-30 ERS with a 30-minute ramp period. Non-Weather-Sensitive ERS A type of ERS in which an ERS Resource may participate in ERS without meeting the qualification requirements for weather sensitivity set forth in paragraph (5) of Section 3.14.3.1, Emergency…
+
+### e15 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.14.2, paragraph (10) · text copy line 6939 · heading above: 3.14.2 Black Start
+
+BEFORE: …s at its maximum output. The Generation Resource shall maintain the contracted amount of BSS Back-up Fuel at all times during the duration of the BSS contract term unless performing a BSS Back-up Fuel Switching Test or the Generation Resource is operating pursuant to a Black Start deployment event. 
+QUOTE: This requirement does not apply to Resources that do not rely on purchased fuel.
+AFTER:  (11) A Black Start Resource may utilize the contracted amount of BSS Back-up Fuel outside of BSS if ERCOT determines it is necessary during an Energy Emergency Alert (EEA) event. (12) A Black Start Resource is not obligated to contract its full on site fuel storage capability for BSS Back-up Fuel. …
+
 ## Statements to check
 
 - **Definition #1** (cites e1, e5, e2): Black Start Service (BSS) is an Ancillary Service provided by a Resource able to start without support of the ERCOT Transmission Grid. [e1] Its job is to let ERCOT re-energize the system after a Blackout, a condition in which frequency for the entire ERCOT System has dropped to zero. [e5][e2]
 - **How it works #1** (cites e3, e4, e6): ERCOT obtains BSS through Black Start Agreements with QSEs for generation that can self-start, or that can start from a neighboring non-ERCOT control area under a firm standby power contract, without support from the ERCOT System. [e3] ERCOT may dispatch BSS under an emergency restoration plan after a Blackout. [e4] Bids are due on or before February 15 of each three-year period. [e6]
-- **How it works #2** (cites e9, e13, e11, e7, e8): Each selected Generation Resource must keep contracted back-up fuel to run at maximum output for at least 72 hours, though ERCOT may waive the requirement in whole or in part to procure enough resources, and ERCOT may schedule unannounced testing. [e9][e13][e11] ERCOT pays an hourly standby fee to the QSE representing the Black Start Resource, adjusted for availability against a rolling 85% reliability measure, and charges the total capacity payment to QSEs representing Loads by load ratio share. [e7][e8]
+- **How it works #2** (cites e15, e9, e13, e11, e7, e8): Each selected Generation Resource must keep contracted back-up fuel to run at maximum output for at least 72 hours (the requirement does not apply to Resources that do not rely on purchased fuel) [e15], though ERCOT may waive the requirement in whole or in part to procure enough resources, and ERCOT may schedule unannounced testing. [e9][e13][e11] ERCOT pays an hourly standby fee to the QSE representing the Black Start Resource, adjusted for availability against a rolling 85% reliability measure, and charges the total capacity payment to QSEs representing Loads by load ratio share. [e7][e8]
 - **ERCOT context #1** (cites e10) FLAG number-not-in-quote: 2024, 2025: The IMM counts Black Start Service Settlement among the items in the "uplift" it tracks, alongside ERS, firm fuel, RMR and RUC settlements. [e10] The saved sources give no Black Start cost, MW or unit counts for 2024 or 2025.
 - **Key facts #1** (cites e1): - BSS is an Ancillary Service delivered by resources that can start without the ERCOT grid. [e1]
 - **Key facts #2** (cites e6): - Contract bids are due by February 15 of each three-year period. [e6]
-- **Key facts #3** (cites e9, e13): - Selected Black Start Resources must hold contracted back-up fuel for at least 72 hours at maximum output; ERCOT may waive this in whole or in part. [e9][e13]
+- **Key facts #3** (cites e9, e13, e15): - Selected Black Start Resources must hold contracted back-up fuel for at least 72 hours at maximum output (not required of Resources that do not rely on purchased fuel); ERCOT may waive this in whole or in part. [e9][e13][e15]
 - **Key facts #4** (cites e7, e8): - ERCOT pays an hourly standby fee to the QSE; the cost is allocated to Load QSEs by load ratio share. [e7][e8]
 - **Key facts #5** (cites e11): - ERCOT may schedule unannounced Black Start testing. [e11]
-- **Common confusion #1** (cites e1, e5): Black Start is a defined Ancillary Service, unlike ERS, which the protocols say is not an Ancillary Service. [e1] Black Start is also not about ordinary reserves: it is for re-energizing the system after a Blackout or Partial Blackout. [e5]
+- **Common confusion #1** (cites e1, e14, e5): Black Start is a defined Ancillary Service, unlike ERS, which the protocols say is not an Ancillary Service. [e1][e14] Black Start is also not about ordinary reserves: it is for re-energizing the system after a Blackout or Partial Blackout. [e5]
 - **Questions #2** (cites e1, e9, e13): Start without support of the ERCOT Transmission Grid, and keep contracted back-up fuel for at least 72 hours at maximum output (ERCOT can waive the fuel requirement in whole or in part). [e1][e9][e13]
 - **Questions #4** (cites e7, e8): ERCOT pays the hourly standby fee to the QSE representing the resource and allocates the total capacity payment to QSEs representing Loads by load ratio share. [e7][e8]
 - **Questions #6** (cites e6): Bids are due on or before February 15 of each three-year period. [e6]
 - **Link to ancillary-services** (cites e1): is-a Ancillary Services (AS): The protocols define Black Start Service as an Ancillary Service. [e1]
 - **Link to qse** (cites e3, e7): related QSE (Qualified Scheduling Entity): Black Start Agreements are with QSEs, and the standby fee is paid to the QSE representing the Black Start Resource. [e3][e7]
 - **Link to load-ratio-share** (cites e8): related Load Ratio Share (LRS): The total Black Start capacity payment is allocated to QSEs representing Loads by load ratio share. [e8]
-- **Link to ers** (cites e1): contrasts-with ERS (Emergency Response Service): ERS is an emergency service that is not an Ancillary Service, while Black Start is defined as one. [e1]
+- **Link to ers** (cites e1, e14): contrasts-with ERS (Emergency Response Service): ERS is an emergency service that is not an Ancillary Service, while Black Start is defined as one. [e1][e14]
 - **Link to eea** (cites e12): related EEA (Energy Emergency Alert) Levels: A Black Start Resource may use its contracted back-up fuel outside of black start if ERCOT determines it is necessary during an EEA event. [e12]
 - **Link to uplift** (cites e10): related Uplift: The IMM lists Black Start Service Settlement among the items it counts as uplift. [e10]
 ## Uncited guidance text (check for new facts, numbers, dates, names)

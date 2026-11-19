@@ -70,7 +70,7 @@ AFTER:  +-----------------------------------------------------------------------
 ## Statements to check
 
 - **Definition #1** (cites e1, e2): A Controllable Load Resource is a Load Resource capable of controllably reducing or increasing consumption under ERCOT's Dispatch control. [e1] A Load Resource is a load capable of providing ancillary service and/or energy as demand response, registered with ERCOT. [e2]
-- **How it works #1** (cites e3, e6): The CLR participation model in SCED was implemented in 2014. It lets loads that can respond to 5-minute dispatch instructions submit bids to buy electricity at price-quantity pairs, and ERCOT can dispatch them down when the clearing price exceeds those bids. [e3] A CLR's QSE pays a Set Point Deviation Charge if the Resource does not follow its dispatch set points within tolerances. [e6]
+- **How it works #1** (cites e3, e6): The CLR participation model in SCED was implemented in 2014. It lets loads that can respond to 5-minute dispatch instructions submit bids to buy electricity at price-quantity pairs, and ERCOT can dispatch them down when the clearing price exceeds those bids. [e3] A CLR's QSE pays a Set Point Deviation Charge if the Resource does not follow its Updated Desired Set Points within defined tolerances, except when those set points violate the Resource Parameters. [e6]
 - **ERCOT context #1** (cites e4, e5, e7, e8): In 2025 all 12 registered CLRs were cryptocurrency mines. [e4] The IMM reports that average CLR load fell to 240 MW in 2025 as many mines deregistered and moved to the Emergency Reserve Service, where they now account for 64% of ERS volume. [e5] The IMM notes that RTC lets CLRs sell ancillary services in real time with less exposure to high energy prices. [e7] It supports NPRR 1188 (nodal pricing for CLRs) and NPRR 1244 (registration without primary frequency response), both scheduled for January 2027 implementation, as of its 2025 report. [e8]
 - **Key facts #1** (cites e3): - CLR participation in SCED dates from 2014. [e3]
 - **Key facts #2** (cites e4): - 12 registered CLRs in 2025, all crypto mines. [e4]
@@ -83,7 +83,7 @@ AFTER:  +-----------------------------------------------------------------------
 - **Questions #6** (cites e8): NPRR 1188 and NPRR 1244, scheduled by the IMM's account for January 2027. [e8]
 - **Link to resource-types** (cites e1, e2): is-a Resource Types (Generation, Load, ESR, SOG): A CLR is a Load Resource, one of the Resource types. [e1][e2]
 - **Link to sced** (cites e3): used-in SCED (Security-Constrained Economic Dispatch): CLRs can submit bids to buy electricity in SCED, and ERCOT can dispatch them down when the clearing price exceeds those bids. [e3]
-- **Link to ers** (cites e5): contrasts-with ERS (Emergency Response Service): Many crypto mines left CLR status for ERS in 2025. [e5]
+- **Link to ers** (cites e5): contrasts-with ERS (Emergency Response Service): Many crypto mines left CLR status for ERS in 2025 (the IMM's report calls it the "Emergency Reserve Service"). [e5]
 - **Link to rtc-b** (cites e7): related RTC+B (Real-Time Co-optimization + Batteries): RTC lets CLRs sell ancillary services in real time with less exposure to high energy prices. [e7]
 - **Link to large-flexible-load** (cites e4, e5): related Large Flexible Load (LFL): Large price-responsive loads such as crypto mines are the CLR population in the IMM's account. [e4][e5]
 - **Link to resource-entity** (cites e9): related Resource Entity: A Load Resource is owned or controlled by a Resource Entity. [e9]

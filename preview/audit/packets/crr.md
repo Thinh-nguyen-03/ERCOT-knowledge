@@ -109,6 +109,20 @@ BEFORE: … ERCOT shall conduct CRR Auctions as follows: (a) The CRR Monthly Auc
 QUOTE: Twice per year, a CRR Long-Term Auction Sequence shall be held, selling PTP Options and PTP Obligations, subject to the following constraints:
 AFTER:  (i) Each CRR Long-Term Auction Sequence shall consist of six successive CRR Auctions, each of which offers for sale CRRs spanning a term of six consecutive calendar months (either January through June, or July through December). In each such CRR Auction, CRRs shall be offered in one-month strips or…
 
+### e19 · `np-07` · tier 1 · ERCOT Nodal Protocols, Section 7: Congestion Revenue Rights (effective 2025-12-05)
+locator: Section 7.9.1.1, paragraph (2) · text copy line 1414 · heading above: 7.9.1.1 Payments and Charges for PTP Obligations Settled in DAM
+
+BEFORE: …arges for PTP Obligations Settled in DAM (1) Except as specified in paragraph (2) below, ERCOT shall pay or charge the owner of each Point-to-Point (PTP) Obligation based on the difference in the Day-Ahead Settlement Point Price between the sink Settlement Point and the source Settlement Point. (2) 
+QUOTE: For PTP Obligations that have a positive value and sink at a Resource Node, the PTP Obligation payment may be reduced due to directional network elements that are oversold in previous Congestion Revenue Right (CRR) Auctions.
+AFTER:  (3) The payment or charge to each CRR Owner for a given Operating Hour of PTP Obligations with each pair of source and sink Settlement Points settled in the Day-Ahead Market (DAM) is calculated as follows: If the PTP Obligation has a non-positive value, i.e. (DAOBLPR _((j, k)) ≤ 0), or the sink, k,…
+
+### e20 · `np-07` · tier 1 · ERCOT Nodal Protocols, Section 7: Congestion Revenue Rights (effective 2025-12-05)
+locator: Section 7.9.1.2, paragraph (2) · text copy line 1538 · heading above: 7.9.1.2 Payments for PTP Options Settled in DAM
+
+BEFORE: …------------ 7.9.1.2 Payments for PTP Options Settled in DAM (1) Except as specified otherwise in paragraph (2) below, ERCOT shall pay the owner of a PTP Option the difference in the Day-Ahead Settlement Point Price between the sink Settlement Point and the source Settlement Point, if positive. (2) 
+QUOTE: For PTP Options that sink at a Resource Node, the PTP Option payment may be reduced due to Transmission Elements that are oversold in previous CRR Auctions.
+AFTER:  (3) The payment to each CRR Owner for a given Operating Hour of PTP Options with each pair of source and sink Settlement Points settled in the DAM is calculated as follows: If the sink, k, is a Load Zone or Hub, then DAOPTAMT _(o, (j, k)) = (-1) * DAOPTTP _(o, (j, k)) If the sink, k, is a Resource …
+
 ### e13 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
 locator: Transmission Congestion and CRRs, Highlights · text copy line 5110
 
@@ -135,7 +149,7 @@ AFTER:  • The last two sections of this chapter cover recommendations on the o
 - **Definition #1** (cites e1, e2): A Congestion Revenue Right is a financial instrument that entitles its holder to be charged or to receive compensation (congestion rent), depending on the instrument, when the ERCOT Transmission Grid is congested in the DAM or in real time. [e1] CRRs do not represent a right to receive, or an obligation to deliver, physical energy. [e2]
 - **How it works #1** (cites e16, e17, e3, e4): CRRs can be acquired in the CRR Auction (ERCOT also lets owners sell CRRs there), through PCRR allocations, bilaterally, and, for PTP Obligations, by bidding in the DAM. [e16][e17][e3] PCRRs are allocated to eligible municipally owned utilities and electric cooperatives. [e4]
 - **How it works #2** (cites e7, e5, e6): A CRR runs from a designated source Settlement Point to a different sink Settlement Point; the exception is a Flowgate Right, which names a network element instead. [e7] A PTP Option only pays: the holder receives the positive sink-minus-source price difference. [e5][e6] A PTP Obligation can produce either a payment or a charge. [e5]
-- **How it works #3** (cites e11, e12): In the DAM, a PTP Obligation owner is paid or charged the Day-Ahead Settlement Point Price difference between sink and source, and a PTP Option owner is paid that difference if it is positive. [e11][e12]
+- **How it works #3** (cites e11, e12, e19, e20): In the DAM, a PTP Obligation owner is paid or charged the Day-Ahead Settlement Point Price difference between sink and source, and a PTP Option owner is paid that difference if it is positive. [e11][e12] Those payments can be reduced when the CRR sinks at a Resource Node and the transmission elements were oversold in earlier CRR Auctions. [e19][e20]
 - **How it works #4** (cites e10): Net auction revenue from CRRs sourcing and sinking in the same 2003 congestion management zone is credited to QSEs in that zone by zonal Load Ratio Share, and all other net auction revenue is allocated by ERCOT-wide Load Ratio Share. [e10]
 - **ERCOT context #1** (cites e8, e18, e9): ERCOT sells CRRs in a monthly auction and in a long-term auction sequence held twice per year, each sequence being six auctions of six-month terms. [e8][e18][e9]
 - **ERCOT context #2** (cites e13, e14, e15): The IMM's 2025 numbers: auction revenues rose 6% (versus 14-32% annual growth in 2021-2024), CRR profitability rose 21% after a 1.5% net loss in 2024, and surplus payments to load were $293 million with the balancing account fully funding CRRs every month. [e13][e14][e15]
@@ -148,7 +162,7 @@ AFTER:  • The last two sections of this chapter cover recommendations on the o
 - **Common confusion #1** (cites e2, e3, e11): CRRs are not transmission rights to move power. They do not entitle the holder to physical energy. [e2] Also, PTP Obligation bids in the DAM are a different way to acquire a position than the CRR auction, though both pay on the sink-minus-source difference. [e3][e11]
 - **Questions #2** (cites e5, e6): An Option can only produce payments to the holder, equal to the positive sink-minus-source price difference. An Obligation can produce a payment or a charge, so it can lose money when the price difference is negative. [e5][e6]
 - **Questions #4** (cites e16, e17, e3, e4): Through the CRR Auction, a PCRR allocation (for eligible municipal utilities and cooperatives), bilateral trades, or by bidding for PTP Obligations in the DAM. [e16][e17][e3][e4]
-- **Questions #6** (cites e10): It is credited to QSEs on a Load Ratio Share basis, zonal for same-zone paths and ERCOT-wide for the rest. [e10]
+- **Questions #6** (cites e10): It is credited to QSEs on a Load Ratio Share basis: zonal for CRRs that source and sink within the same 2003 congestion management zone, and ERCOT-wide for the rest. [e10]
 - **Link to crr-auction** (cites e8, e18): related CRR Auctions: ERCOT holds a CRR Monthly Auction once per calendar month and a Long-Term Auction Sequence twice per year. [e8][e18]
 - **Link to pcrr** (cites e4): related PCRR (Pre-Assigned CRR): PCRRs are the CRRs ERCOT allocates to eligible Municipally Owned Utilities and Electric Cooperatives. [e4]
 - **Link to ptp-obligation** (cites e5, e3): related PTP Obligation: A PTP Obligation can produce either a payment or a charge, and can also be bid for in the DAM. [e5][e3]

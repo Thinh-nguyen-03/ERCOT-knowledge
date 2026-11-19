@@ -89,6 +89,10 @@ evidence:
     source: np-03
     locator: "Section 3.5.3.2, paragraph (1)"
     quote: "ERCOT shall calculate Hub prices for each Settlement Interval as identified in the description of each Hub."
+  - id: e15
+    source: ercot-hubs-load-zones-page
+    locator: 'ERCOT display "Real-Time LMPs for Load Zones and Trading Hubs", Settlement Point column (snapshot of a live page; the prices are those at retrieval and are not the point of the quote)'
+    quote: "HB_BUSAVG | 36.16 | -2.54 | 36.58 | -2.49 HB_HOUSTON | 36.02 | -2.69 | 36.44 | -2.64 HB_HUBAVG | 37.44 | -2.01 | 37.86 | -1.96 HB_NORTH | 34.32 | -3.30 | 34.74 | -3.25 HB_PAN | 33.70 | -3.74 | 34.12 | -3.69 HB_SOUTH | 37.76 | -1.90 | 38.18 | -1.85 HB_WEST | 41.67 | -0.13 | 42.09 | -0.08"
 ---
 
 ## Definition
@@ -116,6 +120,7 @@ The definition of Hub says a Hub's bus list and price method can never be modifi
 - Real-Time Hub Bus LMP is the simple average of the LMPs of the energized Electrical Buses in it. [e7]
 - The ERCOT 345 hub price in Real-Time averages the North, South, Houston and West hub prices; Panhandle is excluded. [e8]
 - ERCOT calculates Hub prices for each Settlement Interval as identified in the description of each Hub. [e13]
+- ERCOT's real-time price display lists seven hub Settlement Points by the names HB_BUSAVG, HB_HOUSTON, HB_HUBAVG, HB_NORTH, HB_PAN, HB_SOUTH and HB_WEST. [e15]
 
 ## Say it like this
 
@@ -150,6 +155,6 @@ Not through any ordinary process: the Hub definition says the list of Hub Buses 
 
 - The Hub definition says a Hub's Hub Buses and price method "can never be modified" [e1], while Section 3.5.1 has ERCOT file an NPRR to "revise the appropriate Hub definition" if a Hub Bus is permanently removed [e9]. The saved text does not reconcile the two.
 
-- Market-convention hub names (HB_NORTH, HB_HOUSTON, etc.) and the Settlement Point names for hubs: not found in the saved protocol text, which uses names like "North 345 kV Hub (North 345)". The hb-north and hb-west topics should clarify naming.
+- Resolved 2026-11-19: the HB_ names are sourced from ERCOT's real-time display. The saved sources do not map each HB_ name to its Protocol hub definition in so many words (for example HB_NORTH to "North 345 kV Hub").
 - Average hub prices by year (for example North versus West hub): the saved IMM reports present zone averages in garbled tables, so none are cited.
 - Number of Hub Buses in each hub and the specific substations: lists exist in tables in np-03 but were not quoted.

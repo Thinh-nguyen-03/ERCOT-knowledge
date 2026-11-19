@@ -67,9 +67,16 @@ BEFORE: … these constraints. Figure 38 shows the distribution of violated cons
 QUOTE: Figure 38 shows that the overall rate of violated transmission constraints continued to drop precipitously to 64 constraint-hours in 2025, by far the lowest annual total.
 AFTER:  The next lowest year was 2016, with 271 constraint-hours of violations. This drop in the frequency of constraint violations continued despite the increase in the frequency and cost of congestion from 2024 to 2025. The sharp decline may be partly explained by the growing participation of energy stor…
 
+### e10 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: Transmission Congestion and CRRs, Violated Constraints, Figure 38 discussion · text copy line 5427
+
+BEFORE: …#$%C'(#%)*"HC$,'%,-'#./ &'#!! *+,-./M12.&)3 &'"!! &!3./+.&)3 &'!!! !3./+.)3 )3./+.&!3 %!! $!! #!! "!! ! "!"& "!"" "!"( "!"# "!") Figure 38 shows that the overall rate of violated transmission constraints continued to drop precipitously to 64 constraint-hours in 2025, by far the lowest annual total. 
+QUOTE: The next lowest year was 2016, with 271 constraint-hours of violations.
+AFTER:  This drop in the frequency of constraint violations continued despite the increase in the frequency and cost of congestion from 2024 to 2025. The sharp decline may be partly explained by the growing participation of energy storage resources (ESRs) in the real-time energy market. As the ancillary se…
+
 ## Statements to check
 
-- **Definition #1** (cites e1, e4): "Binding constraint" is not a defined term in the Protocol definitions (np-02). The Protocols and the IMM use it for a transmission constraint whose limit is reached so that dispatch must change. In ERCOT a constraint is a contingency and limiting Transmission Element pair that Network Security Analysis identifies and that is activated in SCED. [e1] When these limits bind, congestion raises dispatch costs and makes energy prices differ by location. [e4]
+- **Definition #1** (cites e2, e1, e4) FLAG number-not-in-quote: 2.1: "Binding constraint" does not have its own entry in the Protocol definitions (np-02, Section 2.1), although Section 6 refers to "binding transmission constraints". [e2] In ERCOT a constraint is a contingency and limiting Transmission Element pair that Network Security Analysis identifies and that is activated in SCED. [e1] When these limits bind, congestion raises dispatch costs and makes energy prices differ by location. [e4]
 - **How it works #1** (cites e1, e2, e7): ERCOT may not activate a constraint in SCED until it has verified that the contingency definition behind it is accurate for the current operating state of the grid. [e1] Each hour ERCOT posts the binding transmission constraints and the contingency or overloaded element pairs that caused them. [e2] The IMM notes that SCED manages flows as physical constraints become binding in real time. [e7]
 - **How it works #2** (cites e5): A binding constraint is not the same as a violated one: a constraint is violated when market dispatch flows exceed its transmission limit, and the shadow price is the marginal cost of redirecting flow around the binding constraint. [e5]
 - **How it works #3** (cites e6, e3): Each binding constraint is also classified as competitive or non-competitive, and ERCOT posts the designation for each SCED execution each hour. [e6] A non-competitive constraint is one that is not determined to be competitive under the Section 3.19 tests. [e3]
@@ -78,7 +85,8 @@ AFTER:  The next lowest year was 2016, with 271 constraint-hours of violations. 
 - **Key facts #2** (cites e2): - ERCOT posts all binding constraints hourly. [e2]
 - **Key facts #3** (cites e5): - Violated means flows exceed the limit. [e5]
 - **Key facts #4** (cites e6): - Competitive or non-competitive status is posted for each binding constraint each hour. [e6]
-- **Key facts #5** (cites e8): - 2025 violated constraint-hours: 64, the lowest on record per the IMM. [e8]
+- **Key facts #5** (cites e8, e10): - 2025 violated constraint-hours: 64, the lowest annual total in the IMM's comparison (next lowest was 2016, at 271). [e8][e10]
+- **Say it like this #1** (cites e4): (Guidance) When a transmission limit binds, congestion raises dispatch costs and energy prices differ by location. [e4]
 - **Common confusion #1** (cites e5): Binding does not mean violated: a violation means market dispatch flows exceed the transmission limit. [e5]
 - **Questions #2** (cites e5, e4): The IMM says a constraint is violated when market dispatch flows exceed its transmission limit; when limits bind, congestion increases dispatch costs, and the shadow price is the marginal cost of redirecting flow around a binding constraint. [e5][e4]
 - **Questions #4** (cites e2, e6): ERCOT posts them hourly with the contingency and overloaded element pairs, and the competitive or non-competitive designation. [e2][e6]
@@ -88,7 +96,3 @@ AFTER:  The next lowest year was 2016, with 271 constraint-hours of violations. 
 - **Link to congestion** (cites e4): related Transmission Congestion: When a constraint binds, prices differ across locations. [e4]
 - **Link to sced** (cites e1, e6): used-in SCED (Security-Constrained Economic Dispatch): Constraints identified by NSA are activated in SCED, and each binding constraint's competitive designation is posted per SCED execution. [e1][e6]
 - **Link to market-power-mitigation** (cites e6): related Market Power Mitigation (Competitiveness Tests, Mitigated Offer Caps): Each binding constraint is designated Competitive or Non-Competitive; how that feeds mitigation was not sourced here. [e6]
-## Uncited guidance text (check for new facts, numbers, dates, names)
-
-- (Say it like this) A binding constraint is a transmission limit that is actually holding dispatch back in that interval. It is the reason nodal prices separate.
-

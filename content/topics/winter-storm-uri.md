@@ -51,7 +51,7 @@ evidence:
     quote: "Peak Generation Out: 48.6% (52,277 MW out of 107,514 MW total installed capacity)"
   - id: e5
     source: ut-uri-timeline
-    locator: "Section 2 (grid operations), p. 32"
+    locator: "Section 2 (grid operations), p. 26"
     quote: "On Monday, February 15 at 00:15 CST, ERCOT declared an Energy Emergency Alert Level 1 (EEA 1), at 01:07 CST ERCOT moved to EEA 2,34 and at 01:20 CST, ERCOT declared an EEA 3 event and began \"firm load shed\" or \"blackouts.\"35 ERCOT did not return to normal operations until 10:36 CST Friday, February 19. The ERCOT system frequency reached a low of 59.302 Hz at roughly 1:55am on February 15, 2021."
   - id: e6
     source: ferc-nerc-uri
@@ -83,7 +83,7 @@ evidence:
     quote: "According to PUCT data, natural gas prices, normally much less than $10/MMBTU, spiked to over $400/MMBTU at Texas trading hubs."
   - id: e13
     source: ut-uri-timeline
-    locator: "Section 3 (economic impacts), p. 64"
+    locator: "Section 3 (economic impacts), p. 65"
     quote: "On April 14, 2021, ERCOT reported cumulative aggregate \"short payments\" of approximately $2.9 billion, and that it would take 96 years to collect the amount outstanding using its standard Default Uplift Invoice process.119 This estimate was raised to $2.99 billion on May 14, 2021.120 Of that, $1.86 billion relates to the default of Brazos Electric Power Cooperative Inc., which filed for bankruptcy on March 1, 2021."
   - id: e14
     source: imm-som-2025
@@ -139,7 +139,7 @@ evidence:
     quote: "ERCOT shall issue Invoices to Qualified Scheduling Entities (QSEs) and Congestion Revenue Right (CRR) Account Holders to collect the monthly amount determined by ERCOT to be necessary to repay the Securitization Default Balance."
   - id: e27
     source: ferc-nerc-uri
-    locator: "Executive Summary, event comparison table (manual firm load shed row)"
+    locator: "Figure 18, comparison of the 2011, 2014, 2018 and 2021 events (maximum firm load shed row)"
     quote: "23,418 (ERCOT 20,000, SPP 2,718, MISO South 700)"
   - id: e28
     source: ercot-uri-board

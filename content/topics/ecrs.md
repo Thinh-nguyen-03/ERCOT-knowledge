@@ -79,6 +79,18 @@ evidence:
     source: np-02
     locator: "Section 2.1, definition of Responsive Reserve (RRS), paragraph (a)"
     quote: "Arrest frequency decay within the first few seconds of a significant frequency deviation on the ERCOT Transmission Grid using Primary Frequency Response, Fast Frequency Response (FFR), and interruptible Load;"
+  - id: e14
+    source: np-08
+    locator: "Section 8.1.1.3.4, ERCOT Contingency Reserve Service Capacity Monitoring Criteria, paragraph (2)"
+    quote: "For the ECRS capability provided for a Resource to ERCOT by the Resource’s QSE, the amount of ECRS reflected in that capability must be limited to the amount of ECRS that can be sustained by the Resource for at least one hour."
+  - id: e15
+    source: ercot-nprr1282-puct-report
+    locator: "NPRR1282 PUCT Report, Revision Description"
+    quote: "Updates duration requirement for ERCOT Contingency Reserve Service (ECRS) to one hour."
+  - id: e16
+    source: ercot-nprr1282-puct-report
+    locator: "NPRR1282 PUCT Report, Effective Date"
+    quote: "Upon system implementation of PR447, Real-Time Co-Optimization (RTC)"
 ---
 
 ## Definition
@@ -95,11 +107,11 @@ ERCOT deploys ECRS by Dispatch Instruction over ICCP to resources with status ON
 
 The IMM calls ECRS the latest addition to ERCOT's ancillary services, implemented in June 2023, and describes its purpose as restoring frequency within 10 minutes and recovering deployed regulation, as well as covering intra-hour net load forecast uncertainty. [e8][e9] In 2025 ECRS procurement volume fell by over 19% because the "adjustment for risk coverage" during sunset hours was removed, and ESRs supplied 42% of ECRS. [e10][e11]
 
-The IMM also reports that the ECRS duration requirement was two hours until RTC went live and is one hour since, under NPRR 1282. [e12] The protocol definition quoted above still says two consecutive hours, so treat the duration as an open point. [e1]
+The duration requirement changed with RTC. NPRR1282 updated the ECRS duration requirement to one hour, effective upon system implementation of Real-Time Co-Optimization. [e15][e16] The IMM reports the same: two hours until RTC was implemented, one hour since. [e12] The current Protocols' capacity monitoring criteria limit a Resource's ECRS capability to what it can sustain for at least one hour. [e14] The general description of ECRS in Section 3 of the Protocols still reads "two consecutive hours". [e1]
 
 ## Key facts
 
-- ECRS is capacity sustained for two consecutive hours under the definition in the Protocols. [e1]
+- A Resource's ECRS capability is limited to what it can sustain for at least one hour. [e14] NPRR1282 set the one-hour requirement, effective with RTC. [e15][e16] The general description in Section 3 of the Protocols still says two consecutive hours. [e1]
 - ECRS is deployable on ten minutes' notice. [e2]
 - Load resources other than CLRs may provide up to 50% of the total ECRS requirement. [e4]
 - ECRS was implemented in June 2023. [e9]
@@ -121,7 +133,7 @@ To restore RRS within ten minutes after a significant depletion, to provide ener
 
 ### What is the duration requirement?
 
-The Protocol definition says two consecutive hours. [e1] The IMM says it was two hours until RTC and then one hour under NPRR 1282. [e12]
+One hour since RTC went live. NPRR1282 updated the requirement to one hour, effective upon system implementation of RTC, and the Protocols' capacity monitoring criteria use one hour. [e15][e16][e14] It was two hours before, and the general description of ECRS in Section 3 still says two consecutive hours. [e12][e1]
 
 ### Who provides ECRS?
 
@@ -129,6 +141,6 @@ Generators, quick-start units, loads and ESRs can; ESRs provided 42% in 2025. [e
 
 ## Open items
 
-- Protocol text says two consecutive hours; the IMM says one hour since RTC under NPRR 1282. The saved Protocols may not include NPRR1282 yet. Not reconciled.
+- Resolved 2026-11-19: NPRR1282 (PUCT report) and Protocols Section 8.1.1.3.4 give one hour since RTC. Section 3's general description still says "two consecutive hours"; the saved sources do not say whether that wording is meant to remain.
 - Deeper pass: ECRS qualification (Section 8.1.1.2.1.7), deployment performance (8.1.1.4.4), ECRS prices and the net load ramp risk adjustment in the AS Methodology.
 - Deeper pass: how ECRS demand is priced in the ASDC and what a recall looks like in practice.

@@ -74,25 +74,29 @@ BEFORE: …) An Emergency QSE or a Virtual QSE that is also a Resource Entity ma
 QUOTE: Within seven Business Days after receiving designation as an Emergency QSE, an Emergency QSE must either: (a) Designate a QSE that will represent the LSE or Resource Entity to ERCOT; or (b) Fulfill all QSE registration and qualification requirements.
 AFTER:  After completing the requirements in item (b), ERCOT may redesignate the Emergency QSE as a QSE. (2) If an Emergency QSE that is an LSE fails to meet at least one of the requirements listed above within the allotted time, then ERCOT shall, after notice as specified in Retail Market Guide Section 7.…
 
+### e11 · `np-16` · tier 1 · ERCOT Nodal Protocols, Section 16: Registration and Qualification of Market Participants (effective 2026-08-01)
+locator: Section 16.11.6.1.6(3) · text copy line 2177 · heading above: 16.11.6.1.6 Revocation of a Market Participant’s Rights and Termination of Agreements
+
+BEFORE: …icipant's agreements, then the provisions of Section 16.2.5, Suspended or Terminated Qualified Scheduling Entity - Notification to LSEs and Resource Entities Represented, and Section 16.2.6.1, Designation as an Emergency Qualified Scheduling Entity or Virtual Qualified Scheduling Entity, apply. (3) 
+QUOTE: If a breaching Market Participant is also an LSE
+AFTER:  (whether or not the Default occurred pursuant to the Market Participant's activities as an LSE), then: (a) Within 24 hours of receiving notice of the Payment Breach, the Market Participant shall provide to ERCOT all the information regarding its ESI IDs set forth in the ERCOT Retail Market Guide; a…
+
 ## Statements to check
 
 - **Definition #1** (cites e1): A Mass Transition is the transition of ESI IDs from one Competitive Retailer to a Provider of Last Resort or designated CR, or from one TDSP to another, in a quantity or timeframe identified by Applicable Legal Authority. [e1]
 - **How it works #1** (cites e2, e3, e4, e5): The Protocols provide it for circumstances where standard market transactions and processes do not fully support moving ESI IDs in that quantity or timeframe. [e2] ERCOT submits an 814_03 Enrollment Notification Request asking for a meter read two days after it initiates the transactions to the TDSP. [e3] ERCOT then sends an 814_11 Drop Response to the transitioning CR and an 814_14 Drop Enrollment Request to the POLR or designated CR. [e4] ERCOT monitors transitioned ESI IDs for 60 days, ending earlier on the first completed switch, move in or move out. [e5]
 - **How it works #2** (cites e9): To prepare, every CR must give ERCOT current customer billing contact information for use in a mass transition. [e9]
-- **ERCOT context #1** (cites e10, e6, e7, e8): ERCOT initiates a mass transition of an LSE's ESI IDs when an Emergency QSE that is an LSE fails, within the allotted time, to designate a QSE or fulfill QSE registration and qualification requirements [e10][e6], and also on revocation or termination of a defaulting Market Participant's rights or agreements, without a PUCT order. [e6][e7] ERCOT may also adjust the credit exposure of Counter-Parties for QSEs that are POLRs to reflect the load they would take on. [e8]
+- **ERCOT context #1** (cites e10, e6, e11, e7, e8): ERCOT initiates a mass transition of an LSE's ESI IDs when an Emergency QSE that is an LSE fails, within the allotted time, to designate a QSE or fulfill QSE registration and qualification requirements [e10][e6], and also, where a breaching Market Participant is also an LSE, on revocation of some or all of its rights or termination of its agreements, on notice to the Market Participant and the PUCT and without the need for a PUCT order. [e11][e7] ERCOT may also adjust the credit exposure of Counter-Parties for QSEs that are POLRs to reflect the load they would take on. [e8]
 - **Key facts #1** (cites e1): - Applies to moving ESI IDs between CRs (to a POLR or designated CR) or between TDSPs. [e1]
 - **Key facts #2** (cites e3): - 814_03 meter read requested for two days after initiation. [e3]
 - **Key facts #3** (cites e5): - ERCOT monitors transitioned ESI IDs for up to 60 days. [e5]
-- **Key facts #4** (cites e7): - ERCOT can initiate one without a PUCT order on revocation or termination of a defaulting Market Participant. [e7]
+- **Key facts #4** (cites e11, e7): - Where a breaching Market Participant is also an LSE, ERCOT can initiate one without a PUCT order on revocation of its rights or termination of its agreements. [e11][e7]
+- **Say it like this #1** (cites e1, e6, e7): (Guidance) A mass transition is the Protocol process for moving ESI IDs in bulk from one CR to a provider of last resort or designated CR. [e1] ERCOT initiates it in the Protocol rules on QSE loss and on revocation of a breaching LSE's rights. [e6][e7]
 - **Common confusion #1** (cites e2, e1): (Guidance) It is not an ordinary switch: it runs on a special process because standard market transactions do not completely support moving ESI IDs in that quantity or timeframe. [e2] It also is not limited to retailer failure: the definition includes TDSP-to-TDSP transitions. [e1]
-- **Questions #2** (cites e10, e6, e7): An Emergency QSE that is an LSE failing within the allotted time to designate a QSE or fulfill QSE registration and qualification requirements, or revocation or termination of a defaulting Market Participant's rights or agreements. [e10][e6][e7]
+- **Questions #2** (cites e10, e6, e11, e7): An Emergency QSE that is an LSE failing within the allotted time to designate a QSE or fulfill QSE registration and qualification requirements, or revocation of rights or termination of agreements of a breaching Market Participant that is also an LSE. [e10][e6][e11][e7]
 - **Questions #4** (cites e1): A Provider of Last Resort or a designated CR. [e1]
 - **Link to polr** (cites e1): related POLR (Provider of Last Resort): A mass transition can move ESI IDs from a Competitive Retailer to a Provider of Last Resort. [e1]
 - **Link to rep** (cites e1): related REP (Retail Electric Provider): The exiting and gaining parties are competitive retailers. [e1]
 - **Link to esi-id** (cites e1): composed-of ESI ID: A mass transition moves ESI IDs in a quantity or timeframe identified by Applicable Legal Authority. [e1]
 - **Link to tx-set** (cites e3, e4): used-in TX SET (Texas Standard Electronic Transactions): The process runs on TX SET transactions such as the 814_03 and 814_14. [e3][e4]
 - **Link to qse** (cites e6): related QSE (Qualified Scheduling Entity): ERCOT initiates a mass transition of an LSE's ESI IDs if its Emergency QSE fails to meet the requirements within the allotted time. [e6]
-## Uncited guidance text (check for new facts, numbers, dates, names)
-
-- (Say it like this) (Guidance) A mass transition is how ERCOT moves a failed retailer's customers, in bulk, to a provider of last resort or designated retailer. It is built into the default and QSE-loss rules.
-

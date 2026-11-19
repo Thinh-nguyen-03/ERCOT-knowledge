@@ -74,6 +74,13 @@ BEFORE: …ion 7.7.1, Determination of the PTP Option Award Charge. Power System
 QUOTE: The calendar year that is three years after the year containing a PCRR nomination process.
 AFTER:  Pre-Contingency Action Plan (PCAP) (see Constraint Management Plan) Premise A Service Delivery Point or combination of Service Delivery Points that is assigned a single ESI ID for Settlement and registration. Presidio Exception The losses associated with keeping the 69 kV line from the Gonzales sub…
 
+### e11 · `np-07` · tier 1 · ERCOT Nodal Protocols, Section 7: Congestion Revenue Rights (effective 2025-12-05)
+locator: Section 7.4.2.2, paragraph (1)(g)(iii), PCRR charges · text copy line 381 · heading above: 7.4.2.2 PCRR Allocations and Nominations
+
+BEFORE: …ive; 100% of the applicable CRR Auction clearing price if it is negative; or (C) Hydro, wind, simple cycle, or other Resources not included in (A) or (B): 10% of the applicable CRR Auction clearing prices if it is positive; 100% of the applicable CRR Auction clearing prices if it is negative. (iii) 
+QUOTE: For a NOIE that has chosen the refund option, the allocated number of PCRRs for Resources other than solid-fuel and combined-cycle Resources are provided at no charge.
+AFTER:  (h) PCRRs shall not be able to be bilaterally traded through ERCOT systems prior to the completion of the CRR Auction used to determine their value. 7.5 CRR Auctions 7.5.1 Nature and Timing (1) The Congestion Revenue Right (CRR) Auction auctions the available network capacity of the ERCOT transmiss…
+
 ## Statements to check
 
 - **Definition #1** (cites e1, e2): A PCRR is a CRR that ERCOT allocates, rather than auctions, to a Non-Opt-In Entity that owned a specific Generation Resource before September 1, 1999 or has a pre-September 1, 1999 long-term (over five years) contract for annual capacity and energy from specific Generation Resources. [e1] NOIEs are the only entities eligible. [e2]
@@ -85,7 +92,7 @@ AFTER:  Pre-Contingency Action Plan (PCAP) (see Constraint Management Plan) Prem
 - **Key facts #3** (cites e6): - Allocation is capped by the 2010 registration-data net max sustainable rating. [e6]
 - **Key facts #4** (cites e9): - Nomination Year is three years after the nomination process. [e9]
 - **Key facts #5** (cites e7): - The IMM says holders pay a fraction of comparable auction value. [e7]
-- **Common confusion #1** (cites e7, e2, e3): PCRRs are allocated rather than bought in the auction, but they are not free: the IMM says holders pay a fraction of comparable auction value. [e7] They are also unrelated to retail electric providers: only NOIEs qualify. [e2][e3]
+- **Common confusion #1** (cites e7, e11, e2, e3): PCRRs are allocated rather than bought in the auction, but whether they are free depends on the option: the IMM says holders pay a fraction of comparable auction value [e7], while the Protocols say refund-option PCRRs for Resources other than solid-fuel and combined-cycle Resources are provided at no charge. [e11] They are also unrelated to retail electric providers: only NOIEs qualify. [e2][e3]
 - **Questions #2** (cites e1, e2): NOIEs with pre-September 1, 1999 generation ownership or qualifying long-term contracts for specific resources. [e1][e2]
 - **Questions #4** (cites e1, e10): Not on new capacity: eligibility rests on pre-September 1, 1999 ownership or contracts, [e1] and new or upgraded components that increase the capacity of those resources are not eligible for increased PCRR MW amounts. [e10]
 - **Link to crr** (cites e1): is-a CRR (Congestion Revenue Right): ERCOT allocates a portion of available CRRs as PCRRs to NOIEs that meet the pre-September 1, 1999 ownership or contract test. [e1]
@@ -95,5 +102,5 @@ AFTER:  Pre-Contingency Action Plan (PCAP) (see Constraint Management Plan) Prem
 - **Link to four-cp** (cites e4): related 4CP Transmission Charges: Where a portfolio supply contract does not describe the NOIE entitlement by resource, the PCRR allocation uses a 2003 4-CP ratio share. [e4]
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
-- (Say it like this) PCRRs are legacy congestion hedges given to co-ops and municipal utilities for plants and contracts that predate the market. They pay a fraction of the auction price for them.
+- (Say it like this) PCRRs are legacy congestion hedges given to co-ops and municipal utilities for plants and contracts that predate the market. The IMM says holders pay only a fraction of the auction value, and under the Protocols some refund-option PCRRs carry no charge.
 

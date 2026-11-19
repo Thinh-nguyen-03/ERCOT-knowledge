@@ -97,6 +97,10 @@ evidence:
     source: imm-som-2025
     locator: "Chapter I, Congestion section"
     quote: "We continue to recommend that ERCOT revise the prevailing load zone configuration to reflect these evolving congestion patterns."
+  - id: e17
+    source: ercot-hubs-load-zones-page
+    locator: 'ERCOT display "Real-Time LMPs for Load Zones and Trading Hubs", Settlement Point column (snapshot of a live page; the prices are those at retrieval and are not the point of the quote)'
+    quote: "LZ_AEN | 37.40 | -2.06 | 37.82 | -2.01 LZ_CPS | 38.17 | -1.72 | 38.59 | -1.67 LZ_HOUSTON | 36.10 | -2.65 | 36.52 | -2.60 LZ_LCRA | 37.72 | -1.92 | 38.14 | -1.87 LZ_NORTH | 34.44 | -3.41 | 34.86 | -3.36 LZ_RAYBN | 34.25 | -3.49 | 34.67 | -3.44 LZ_SOUTH | 37.80 | -1.88 | 38.22 | -1.83 LZ_WEST | 50.55 | 3.89 | 50.97 | 3.94"
 ---
 
 ## Definition
@@ -125,6 +129,7 @@ The IMM says congestion within load zones continues to outpace congestion betwee
 - The four Competitive Load Zones date from the 2003 market; the IMM names them West, North, South and Houston. [e4][e7]
 - There are four NOIE Load Zones approved before nodal start-up. [e6]
 - A DC Tie Load Zone contains only the one Electrical Bus connecting the DC Tie. [e9]
+- ERCOT's real-time price display lists eight Load Zone Settlement Points by the names LZ_AEN, LZ_CPS, LZ_HOUSTON, LZ_LCRA, LZ_NORTH, LZ_RAYBN, LZ_SOUTH and LZ_WEST. [e17]
 
 ## Say it like this
 
@@ -133,7 +138,7 @@ A load zone is a group of buses that settle load at one load-weighted average pr
 ## Common confusion
 
 - Load Zone versus Hub: a zone price is weighted by Load, while, for each Hub except the ERCOT Hub Average 345 kV Hub, the Hub LMP is the arithmetic average of its Hub Buses' Real-Time LMPs. [e3][e16]
-- The protocol text refers to Competitive, NOIE and DC Tie Load Zones; the LZ_ names are not used in the saved protocol text. [e4]
+- The protocol text refers to Competitive, NOIE and DC Tie Load Zones and does not use the LZ_ names. [e4]
 - NOIE Load Zones and Competitive Load Zones are both Load Zones, but the Cost-Allocation Load Zones used for LRS allocation are the four 2003 zones. [e14]
 - Generators do not settle at the Load Zone price; the IMM says they settle at the nodal level at their own locational marginal prices. [e10]
 
@@ -158,6 +163,6 @@ A zone containing only the Electrical Bus that connects the DC Tie, used to sett
 ## Open items
 
 - Annual average price by Load Zone (2024, 2025): the IMM tables in the saved reports are garbled in text form. Only the ranking (West highest in 2025, then South) is cited in the spp topic.
-- Official zone names LZ_NORTH/LZ_SOUTH/LZ_WEST/LZ_HOUSTON: the protocol text saved does not use the LZ_ naming; the aliases above are market convention, not sourced.
+- Resolved 2026-11-19: the LZ_ names are sourced from ERCOT's real-time display. The saved sources do not state which of the eight are Competitive Load Zones and which are NOIE Load Zones in so many words.
 - Status of any pending or approved load zone reconfiguration: not found in the saved sources beyond the IMM recommendation.
 - Real-time Load Zone formula for DC Tie zones details and energy-weighted SPP (RTSPPEW): not covered here.

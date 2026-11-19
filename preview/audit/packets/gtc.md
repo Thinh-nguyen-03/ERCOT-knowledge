@@ -84,10 +84,10 @@ AFTER:  3. Captured Prices for Wind and Solar The net effect of this congestion 
 - **Questions #4** (cites e6): The IMM attributed roughly 12% of 2024 day-ahead congestion value to GTCs. [e6]
 - **Questions #6** (cites e4): Post a report listing alternatives for exiting it no later than 180 days after it takes effect. [e4]
 - **Link to congestion** (cites e6): related Transmission Congestion: GTCs account for a measurable share of day-ahead congestion value. [e6]
-- **Link to binding-constraint** (cites e1, e9): related Binding Constraint: A GTC is one kind of constraint that can bind in SCED, and a Non-Competitive Constraint can be associated with a GTC. [e1][e9]
+- **Link to binding-constraint** (cites e3, e9): related Binding Constraint: A GTC is a transmission constraint used in the SCED application, and a Non-Competitive Constraint can be associated with a GTC. [e3][e9]
 - **Link to shadow-price** (cites e7) FLAG number-not-in-quote: 2025: related Shadow Price: In 2025 ERCOT applied a $5,251 per MW shadow price cap to GTCs as base-case stability constraints. [e7]
-- **Link to wind-generation** (cites e5): related Wind Generation: GTCs matter most where renewable generation sits far from load centers. [e5]
-- **Link to crez** (cites e5): related CREZ (Competitive Renewable Energy Zones): Renewable export regions are where the IMM says stability constraints are most relevant. [e5]
+- **Link to wind-generation** (cites e5): related Wind Generation: The IMM says GTCs are especially relevant in areas with significant renewable generation, which are often far from load centers. [e5]
+- **Link to crez** (cites e5): related CREZ (Competitive Renewable Energy Zones): The IMM says GTCs are especially relevant in areas with significant renewable generation; the source does not name CREZ here. [e5]
 - **Link to sced** (cites e3) FLAG number-not-in-quote: 3.10, 7.6: used-in SCED (Security-Constrained Economic Dispatch): GTCs created under Section 3.10.7.6 are used in the SCED application. [e3]
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 

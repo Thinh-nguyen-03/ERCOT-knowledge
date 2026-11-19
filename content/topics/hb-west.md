@@ -59,6 +59,10 @@ evidence:
     source: np-03
     locator: "Section 3.5.2.1, paragraph (2)"
     quote: "The North 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Settlement Interval of the Day-Ahead Market (DAM) in the Day-Ahead and is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time, for each Hub Bus included in this Hub."
+  - id: e9
+    source: ercot-hubs-load-zones-page
+    locator: 'ERCOT display "Real-Time LMPs for Load Zones and Trading Hubs", Settlement Point column (snapshot of a live page; the prices are those at retrieval and are not the point of the quote)'
+    quote: "HB_BUSAVG | 36.16 | -2.54 | 36.58 | -2.49 HB_HOUSTON | 36.02 | -2.69 | 36.44 | -2.64 HB_HUBAVG | 37.44 | -2.01 | 37.86 | -1.96 HB_NORTH | 34.32 | -3.30 | 34.74 | -3.25 HB_PAN | 33.70 | -3.74 | 34.12 | -3.69 HB_SOUTH | 37.76 | -1.90 | 38.18 | -1.85 HB_WEST | 41.67 | -0.13 | 42.09 | -0.08"
 ---
 
 ## Definition
@@ -79,6 +83,7 @@ In the IMM's 2025 report the West Zone is the largest contributor to intrazonal 
 - Day-ahead price uses aggregated Shift Factors; real-time price is the simple average of time-weighted Hub Bus prices per 15-minute interval. [e3]
 - In real time it is one of four prices averaged in the ERCOT Hub Average 345 kV Hub price. [e4]
 - 2025 IMM: West Zone had the highest annual average zonal energy price for the second year in a row. [e6]
+- ERCOT's real-time price display lists a hub Settlement Point named HB_WEST. [e9]
 
 ## Say it like this
 
@@ -101,6 +106,6 @@ As the simple average of time-weighted Hub Bus prices for each 15-minute Settlem
 
 ## Open items
 
-- "HB_WEST" naming and the West hub's price levels and spreads to North are not in saved sources (garbled IMM tables).
+- Resolved in part 2026-11-19: the name HB_WEST is sourced from ERCOT's real-time display. No saved source states in so many words that HB_WEST is the Protocols' "West 345 kV Hub (West 345)"; hub price levels and spreads to North are still unsourced.
 - Deeper pass: Hub Bus list (17 buses in the np-03 table) and which are Panhandle versus Permian; not quoted.
 - Deeper pass: how the Waha price relates to West prices (IMM 2025 mentions Waha hub prices reflected in the West zone).

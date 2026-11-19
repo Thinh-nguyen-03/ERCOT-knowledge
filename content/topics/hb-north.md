@@ -59,6 +59,10 @@ evidence:
     source: np-02
     locator: "Section 2.1, definition of Settlement Point"
     quote: "A Resource Node, Load Zone, or Hub."
+  - id: e9
+    source: ercot-hubs-load-zones-page
+    locator: 'ERCOT display "Real-Time LMPs for Load Zones and Trading Hubs", Settlement Point column (snapshot of a live page; the prices are those at retrieval and are not the point of the quote)'
+    quote: "HB_BUSAVG | 36.16 | -2.54 | 36.58 | -2.49 HB_HOUSTON | 36.02 | -2.69 | 36.44 | -2.64 HB_HUBAVG | 37.44 | -2.01 | 37.86 | -1.96 HB_NORTH | 34.32 | -3.30 | 34.74 | -3.25 HB_PAN | 33.70 | -3.74 | 34.12 | -3.69 HB_SOUTH | 37.76 | -1.90 | 38.18 | -1.85 HB_WEST | 41.67 | -0.13 | 42.09 | -0.08"
 ---
 
 ## Definition
@@ -79,6 +83,7 @@ North 345 is one of four hubs whose real-time prices are averaged into the ERCOT
 - Day-ahead price uses aggregated Shift Factors of the Hub Buses; real-time price is the simple average of time-weighted Hub Bus prices per 15-minute interval. [e3]
 - The Hub definition can never be modified and exists in perpetuity. [e7]
 - It is one of four prices in the ERCOT Hub Average 345 kV Hub price. [e5]
+- ERCOT's real-time price display lists a hub Settlement Point named HB_NORTH. [e9]
 
 ## Say it like this
 
@@ -101,6 +106,6 @@ The definition can never be modified. [e7]
 
 ## Open items
 
-- The market-convention name "HB_NORTH" and the settlement point name do not appear in the saved sources; the protocol uses "North 345 kV Hub (North 345)".
+- Resolved 2026-11-19: the name HB_NORTH is sourced from ERCOT's real-time display. No saved source states in so many words that HB_NORTH is the Protocols' "North 345 kV Hub (North 345)".
 - Deeper pass: the Hub Bus list (25+ buses in a table in np-03 Section 3.5.2.1) was not quoted.
 - Deeper pass: North hub price levels and spreads versus West by year; saved IMM tables are garbled, so none cited.

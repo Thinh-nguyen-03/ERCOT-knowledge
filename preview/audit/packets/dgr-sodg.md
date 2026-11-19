@@ -69,7 +69,8 @@ AFTER:  ------------------------------------------------------------------------
 - **Key facts #1** (cites e1) FLAG number-not-in-quote: 10 MW, 1 MW: - DGR thresholds: over 10 MW and not a PUCT self-generator, or over 1 MW by choice. [e1]
 - **Key facts #2** (cites e2) FLAG number-not-in-quote: 1 MW, 10 MW: - SODG: 1 MW or less by choice, or over 1 MW and up to 10 MW that can net export and does not register as a DGR. [e2]
 - **Key facts #3** (cites e3): - Settlement Only Generators (SOG) are settled for exported energy only, with no energy offers, SCED, RUC or ancillary services. [e3]
-- **Key facts #4** (cites e4): - SODG energy paid at the nodal price at the bus mapped to the associated load. [e4]
+- **Key facts #4** (cites e4, e6): - SODG energy is paid at the nodal price at the bus mapped to the associated load, subject to listed exceptions (for example an opt-out). [e4][e6]
+- **Say it like this #1** (cites e2, e6) FLAG number-not-in-quote: 1 MW: (Guidance) A DGR is distribution-connected generation that participates in the market as a Generation Resource; an SODG sits on the distribution system too but does not register as a DGR (or is 1 MW or less by choice); its energy is settled at a nodal energy price. [e2][e6]
 - **Common confusion #1** (cites e1, e3, e2) FLAG number-not-in-quote: 10 MW: (Guidance) The names look alike but the market roles differ: a DGR is a Generation Resource, while the settlement-only (SOG) category cannot make energy offers. [e1][e3] The size line is not sharp: units between 1 and 10 MW can be either, depending on whether they register as a DGR. [e2]
 - **Questions #2** (cites e2): If it can net export to ERCOT and does not register as a DGR. [e2]
 - **Questions #4** (cites e4, e8): At the electrical bus associated with the mapped load, subject to listed exceptions. [e4][e8]
@@ -78,7 +79,3 @@ AFTER:  ------------------------------------------------------------------------
 - **Link to tdsp** (cites e1, e2): related TDSP (Transmission & Distribution Service Provider): These units connect to the Distribution System rather than the ERCOT transmission system. [e1][e2]
 - **Link to settlement-point** (cites e4, e8): related Settlement Point: SODG energy is paid on a nodal price at the bus mapped to its associated load, with listed exceptions including an opt-out. [e4][e8]
 - **Link to load-zone** (cites e8): related Load Zone: Exceptions to nodal SODG pricing include an opt-out and sites where energy storage is more than 50% of nameplate; the quote does not say how those are priced. [e8]
-## Uncited guidance text (check for new facts, numbers, dates, names)
-
-- (Say it like this) (Guidance) A DGR is distribution-connected generation that participates in the market as a Generation Resource; an SODG sits on the distribution system too but is just paid for what it exports.
-

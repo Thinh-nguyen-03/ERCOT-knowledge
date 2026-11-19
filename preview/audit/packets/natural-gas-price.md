@@ -139,7 +139,7 @@ AFTER:  16 TAC § 25.505(g)(6).109 Because of the extreme demand for natural gas
 - **Scenarios #2** (cites e2): - Expect upward pressure on hours where gas units are marginal, since real-time prices are driven mainly by gas. [e2]
 - **Scenarios #3** (cites e5, e7): - Expect less effect in hours set by zero-cost renewables or with ample reserves; in 2025 a 61% gas increase came with less than a 14% power increase. [e5][e7]
 - **Scenarios #4** (cites e8): - If the position is in the West, check Waha rather than Katy. [e8]
-- **Link to heat-rate** (cites e15): related Heat Rate: The Mitigated Offer Cap formula multiplies a generic incremental heat rate by the higher of the FIP or a weighted average fuel price. [e15]
+- **Link to heat-rate** (cites e15): related Heat Rate: One term of the Mitigated Offer Cap formula multiplies a generic incremental heat rate by the higher of the FIP or a weighted average fuel price. [e15]
 - **Link to implied-heat-rate** (cites e16, e7): measures Implied Market Heat Rate: The IMM calculates its implied heat rate by dividing the power price by the fuel price. [e16][e7]
 - **Link to waha-hub** (cites e8): contrasts-with Waha Gas Hub: The IMM says Permian production and limited export capability have historically kept Waha gas prices low relative to Katy. [e8]
 - **Link to winter-storm-uri** (cites e9) FLAG number-not-in-quote: 2021: related Winter Storm Uri (Feb 2021): Texas hub gas prices spiked to over $400/MMBtu during Uri, per the UT report. [e9]

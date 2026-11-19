@@ -60,6 +60,13 @@ BEFORE: …which the disclosure is made.(c) The fact that a member is recused fr
 QUOTE: The ERCOT board selection committee is composed of:(1) one member appointed by the governor;(2) one member appointed by the lieutenant governor; and(3) one member appointed by the speaker of the house of representatives.
 AFTER: (b) A person may not be appointed as a member of the committee unless the person is a resident of this state.(c) A member of the committee is not entitled to compensation for serving as a member but is entitled to reimbursement for actual and necessary expenses incurred in performing the official du…
 
+### e13 · `pura-39` · tier 1 · Texas Utilities Code (PURA) Chapter 39, Restructuring of Electric Utility Industry
+locator: PURA §39.1513(d) · text copy line 86
+
+BEFORE: …t be appointed as a member of the committee unless the person is a resident of this state.(c) A member of the committee is not entitled to compensation for serving as a member but is entitled to reimbursement for actual and necessary expenses incurred in performing the official duties of office.(d) 
+QUOTE: The committee shall select members eligible under Section 39.151 to serve on the governing body of an independent organization certified under that section for the ERCOT power region and shall designate the chair and vice chair of the governing body from those members.
+AFTER: (e) The ERCOT board selection committee shall retain an outside consulting firm to help select members of the governing body under Subsection (d). Added by Acts 2021, 87th Leg., R.S., Ch. 425 (S.B. 2), Sec. 4, eff. June 8, 2021. Sec. 39.1514. COMMISSION DIRECTIVES TO INDEPENDENT ORGANIZATION. (a) Th…
+
 ### e9 · `np-21` · tier 1 · ERCOT Nodal Protocols, Section 21: Revision Request Process (effective 2026-08-01)
 locator: Section 21.4.12.1(1), Appeal of Protocol Revision Subcommittee Action · text copy line 311 · heading above: 21.4.12.1 Appeal of Protocol Revision Subcommittee Action
 
@@ -95,7 +102,7 @@ AFTER:  (a) PRS meetings are open to ERCOT, ERCOT Members, Market Participants, 
 - **How it works #2** (cites e4, e5, e6): TAC takes up requests that PRS has sent forward. It can recommend approval as recommended or as modified, reject, table, remand to PRS with instructions, or refer to another TAC subcommittee or working group. [e4] The ERCOT Board then reviews the TAC Report and the Impact Analysis at its next regularly scheduled meeting. [e5] Every revision request then needs PUCT approval before implementation. [e6]
 - **How it works #3** (cites e9): PRS decisions can be challenged. Any ERCOT Member, Market Participant, PUCT Staff, the Reliability Monitor, the IMM, the NERC Regional Entity or ERCOT may appeal a PRS decision to reject, table or refer a request directly to TAC. [e9]
 - **ERCOT context #1** (cites e10, e11, e3, e4): Other subcommittees appear in the Protocols' acronym list: the Wholesale Market Subcommittee (WMS) and the Reliability and Operations Subcommittee (ROS). [e10][e11] The saved Protocol text for the revision process (Section 21) names PRS and TAC as the committees on the NPRR path, and it treats other TAC subcommittees as places PRS or TAC can refer a request. [e3][e4]
-- **ERCOT context #2** (cites e8): The top of the path is shaped by statute. ERCOT board members are chosen by a selection committee made up of one appointee each from the governor, the lieutenant governor and the speaker of the house. [e8]
+- **ERCOT context #2** (cites e8, e13): The top of the path is shaped by statute. The ERCOT board selection committee is made up of one member appointed by each of the governor, the lieutenant governor and the speaker of the house, [e8] and it selects the members who serve on the governing body and designates its chair and vice chair. [e13]
 - **Key facts #1** (cites e3, e4, e5, e6): - Path for an NPRR: PRS, then TAC, then ERCOT Board, then PUCT. [e3][e4][e5][e6]
 - **Key facts #2** (cites e2): - Each Market Segment has equal voting power at PRS. [e2]
 - **Key facts #3** (cites e4): - TAC can recommend, reject, table, remand to PRS, or refer to another subcommittee. [e4]
@@ -107,7 +114,7 @@ AFTER:  (a) PRS meetings are open to ERCOT, ERCOT Members, Market Participants, 
 - **Questions #6** (cites e6): The PUCT. All revision requests require PUCT approval before implementation. [e6]
 - **Link to nprr** (cites e3, e4, e5, e6): used-in NPRR (Nodal Protocol Revision Request): The stakeholder committees (PRS, TAC, then the Board) are the path an NPRR travels before PUCT approval. [e3][e4][e5][e6]
 - **Link to nodal-protocols** (cites e3, e4, e5, e6): determines ERCOT Nodal Protocols: Revisions to the Protocols are reviewed by PRS, TAC and the Board and need PUCT approval. [e3][e4][e5][e6]
-- **Link to ercot** (cites e8): related ERCOT: The ERCOT Board, selected through a statutory committee, sits at the top of the stakeholder path. [e8]
+- **Link to ercot** (cites e8, e13): related ERCOT: The ERCOT Board, selected through a statutory committee, sits at the top of the stakeholder path. [e8][e13]
 - **Link to puct** (cites e6, e7): related PUCT (Public Utility Commission of Texas): Nothing the stakeholder process recommends takes effect without PUCT approval. [e6][e7]
 - **Link to imm** (cites e1, e9): related Independent Market Monitor (Potomac Economics): The IMM may attend PRS meetings and may appeal committee actions. [e1][e9]
 - **Link to texas-legislature** (cites e7): related Texas Legislature: The Legislature wrote into PURA that ERCOT's governing body must run a formal process for revising protocols. [e7]

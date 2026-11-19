@@ -84,11 +84,11 @@ AFTER:  The 814_03 transaction shall contain a request for historical usage and 
 ## Statements to check
 
 - **Definition #1** (cites e1): TX SETs are the electronic data transactions, implementation guides and external standards that enable and facilitate the retail business processes in the deregulated Texas electric market. [e1]
-- **How it works #1** (cites e10, e2, e3, e4, e9, e5): TX SET covers transactions among TDSPs, Competitive Retailers and ERCOT. [e10] EDI transactions are built on ANSI ASC X12 standards. [e2] Examples: a new CR sends ERCOT an 814_01 Switch Request to begin a switch enrollment, and an 814_16 Move In Request to begin a move in. [e3][e4] A CR sends a 650_01 Service Order Request to the TDSP, and the TDSP reports monthly usage to ERCOT with an 867_03. [e9][e5]
+- **How it works #1** (cites e10, e2, e3, e4, e9, e5): TX SET covers transactions among TDSPs, Competitive Retailers and ERCOT. [e10] The responsible TAC subcommittee develops EDI transactions using ANSI ASC X12 standards. [e2] Examples: a new CR sends ERCOT an 814_01 Switch Request to begin a switch enrollment, and an 814_16 Move In Request to begin a move in. [e3][e4] A CR sends a 650_01 Service Order Request to the TDSP, and the TDSP reports monthly usage to ERCOT with an 867_03. [e9][e5]
 - **How it works #2** (cites e6, e8): Changes follow a change control process: the appropriate TAC subcommittee makes modifications and additions, since TX SETs are expanded and modified on an ongoing basis. [e6] The TX SET Working Group works with ERCOT's flight administrator on test plans and standards for retail transactional changes. [e8]
 - **ERCOT context #1** (cites e7): TDSPs provide advanced meter interval data to ERCOT in an ERCOT-specified file format, submitted via NAESB at least monthly. [e7]
 - **Key facts #1** (cites e1) FLAG number-not-in-quote: 2.1: - Defined in the Protocols' Section 2.1 definitions. [e1]
-- **Key facts #2** (cites e2): - EDI transactions follow ANSI ASC X12. [e2]
+- **Key facts #2** (cites e2): - The TAC subcommittee develops EDI transactions using ANSI ASC X12 standards. [e2]
 - **Key facts #3** (cites e3, e4, e5): - 814_01 switch, 814_16 move in, 867_03 monthly or final usage. [e3][e4][e5]
 - **Key facts #4** (cites e6): - Changes go through TAC subcommittee change control. [e6]
 - **Common confusion #1** (cites e1): (Guidance) TX SET is the set of transactions, implementation guides and standards for retail processes, not a database. [e1]

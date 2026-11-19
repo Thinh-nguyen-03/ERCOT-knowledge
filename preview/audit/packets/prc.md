@@ -81,6 +81,13 @@ BEFORE: …to the excessive procurement volumes in more detail. 2. The AS Method
 QUOTE: Setting operating reserve targets to meet a one-in-ten standard for the probability of entering a "Watch," defined as reserves dropping below 3,000 MW, rather than for the probability of firm load shed, defined as reserves dropping below 1,500 MW.
 AFTER:  This parameter increases the AS Plan target level by approximately 43%. • Assessing the operational risk that NSRS is meant to manage based on the six hour-ahead forecast error for demand and generation from intermittent renewables. This parameter inflates the target level of the AS Plan by 57% mor…
 
+### e12 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: Appendix, G. RDPA (p. A-10) · text copy line 9736
+
+BEFORE: …nter Storm Fern, January 21 to 27. • Compared to the same period a year before RTC go-live, December 5, 2024, through February 2025, RUC commitments fell by 80% after go-live. G. RDPA Before RTC, two distinct prices were added to the LMP to determine settlement prices in the ERCOT real-time market. 
+QUOTE: The ORDC price adder, which reflected the value of reserves under shortage conditions, was replaced by a set of ASDCs.
+AFTER:  The Reliability Deployment Price Adder, which accounts for the price suppression effects of out-of-market actions by ERCOT operators, remains after RTC is implemented but includes a new feature. The RDPA process now produces separate price adders for energy and each AS product. The real-time market…
+
 ## Statements to check
 
 - **Definition #1** (cites e1): Physical Responsive Capability (PRC) is a representation of the total amount of frequency responsive resource capability on-line in Real-Time. [e1]
@@ -92,13 +99,14 @@ AFTER:  This parameter increases the AS Plan target level by approximately 43%. 
 - **Key facts #3** (cites e4): - ERCOT posts a rolling PRC view updated every ten seconds. [e4]
 - **Key facts #4** (cites e9): - EEA Level 1: PRC below 2,500 MW and not projected to recover within 30 minutes. [e9]
 - **Key facts #5** (cites e6, e7) FLAG number-not-in-quote: 6.5, 9.4: - Watch for PRC below 3,000 MW (Section 6.5.9.4.1); load shed at Level 3 aims to recover 1,500 MW of PRC. [e6][e7]
-- **Say it like this #1** (cites e1, e6, e7): PRC is ERCOT's live count of how much frequency-responsive capacity is actually on line to catch a drop in supply. The emergency steps, from a Watch at 3,000 MW to load shed around 1,500 MW, are keyed to that number. [e1][e6][e7]
-- **Common confusion #1** (cites e1, e10): PRC is not the same as total reserve capacity or ancillary service awards. It measures what is on line and frequency responsive, and reserve discount factors are applied in the calculation. [e1][e10]
+- **Say it like this #1** (cites e1, e6, e7): PRC is ERCOT's measure of the total frequency-responsive Resource capability on-line in Real-Time. [e1] The emergency steps, from a Watch at 3,000 MW to load shed around 1,500 MW, are keyed to that number. [e1][e6][e7]
+- **Common confusion #1** (cites e1, e10): Do not read PRC as a plain count of total capacity. The Protocols define it as frequency responsive Resource capability on-line in Real-Time, and reserve discount factors are used in the calculation. [e1][e10]
 - **Questions #2** (cites e6, e9, e7): A Watch can be issued for PRC below 3,000 MW, EEA Level 1 is declared for PRC below 2,500 MW and not projected to recover within 30 minutes, and Level 3 load shed aims to recover 1,500 MW of PRC. [e6][e9][e7]
 - **Questions #4** (cites e4): On the ERCOT website, as a rolling ERCOT-wide view updated every ten seconds. [e4]
 - **Questions #6** (cites e3): ESR capacity capable of providing primary frequency response is a PRC component. [e3]
 - **Link to eea** (cites e5): determines EEA (Energy Emergency Alert) Levels: PRC and system frequency determine the Emergency Notice and EEA level. [e5]
 - **Link to operating-notices** (cites e6): determines Operating Notices (OCN, Advisory, Watch, Emergency): A Watch can be issued for PRC below 3,000 MW. [e6]
+- **Link to ordc** (cites e12): related ORDC (Operating Reserve Demand Curve): See the ORDC topic for how reserve levels were turned into price adders before the ORDC adder was replaced by a set of ASDCs. [e12]
 - **Link to rrs** (cites e8) FLAG number-not-in-quote: 3.16: related RRS (Responsive Reserve Service): Section 3.16 sets a minimum capacity for RRS provided using Primary Frequency Response. [e8]
 - **Link to energy-storage-resource** (cites e3): related Energy Storage Resource (ESR): ESR capacity capable of primary frequency response counts toward PRC. [e3]
 - **Link to load-shed** (cites e7): related Load Shed / Rotating Outages: At EEA Level 3 ERCOT directs firm load shed to recover 1,500 MW of PRC. [e7]

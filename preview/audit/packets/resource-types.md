@@ -90,7 +90,7 @@ AFTER:  ------------------------------------------------------------------------
 - **How it works #4** (cites e8): - A Settlement Only Generator is settled for exported energy only and may not participate in the ancillary services market, RUC, SCED or make energy offers. [e8]
 - **How it works #5** (cites e7): Resource Entities own or control these types. [e7]
 - **ERCOT context #1** (cites e5, e6): Distribution-connected generation has its own split: a Distribution Generation Resource is a Generation Resource connected to the Distribution System, while a Settlement Only Distribution Generator is a generator connected to the Distribution System with a defined rating. [e5][e6] The size tests are in the dgr-sodg topic.
-- **ERCOT context #2** (cites e10, e11): Pending change: NPRR995 would, upon system implementation, add a Settlement Only Energy Storage System to the list excluded from the bare term "Resource" and would delete the SOG definition, among others. [e10][e11] This is not yet in effect.
+- **ERCOT context #2** (cites e10, e11): Pending change: NPRR995 would, upon system implementation, add a Settlement Only Energy Storage System to the list excluded from the bare term "Resource" and would delete the SOG definition (as the saved note states). [e10][e11] This is not yet in effect.
 - **Key facts #1** (cites e1): - "Resource" = ESR, Generation Resource or Load Resource; SOGs and ERS Resources are excluded. [e1]
 - **Key facts #2** (cites e3, e2): - Generation Resources and ESRs can provide energy and/or ancillary service. [e3][e2]
 - **Key facts #3** (cites e4): - A CLR can be dispatched by ERCOT to reduce or increase consumption. [e4]

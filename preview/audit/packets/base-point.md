@@ -33,7 +33,7 @@ QUOTE: (c) For Settlement purposes, if the Base Points are inconsistent with the
 AFTER:  (7) All Real-Time LMPs, Real-Time Settlement Point Prices, Real-Time prices for energy metered, Real-Time Reliability Deployment Price Adders for Energy, Real-Time MCPCs, and Real-Time Reliability Deployment Price Adders for Ancillary Service are final at 1600 of the second Business Day after the O…
 
 ### e5 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.5.7.1, paragraph (1) · text copy line 1020 · heading above: 6.5.1.2 Centralized Dispatch
+locator: Section 6.5.1.2, Centralized Dispatch, paragraph (1) · text copy line 1020 · heading above: 6.5.1.2 Centralized Dispatch
 
 BEFORE: …rates that any payments made to accelerate the Commercial Operations Date is justifiable and reasonable, and that, absent the payments, the acceleration would not have occurred otherwise. (j) An Entity cannot be compelled to enter into a contract under this Section. 6.5.1.2 Centralized Dispatch (1) 
 QUOTE: ERCOT shall centrally Dispatch Resources and Transmission Facilities under these Protocols, including deploying energy by establishing Base Points, and Emergency Base Points, and by deploying Regulation Service, ERCOT Contingency Reserve Service (ECRS), and Non-Spinning Reserve (Non-Spin) to ensure operational security.

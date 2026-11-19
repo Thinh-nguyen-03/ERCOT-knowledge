@@ -123,6 +123,13 @@ BEFORE: …ntaining system reliability. 2025 State of the Market Report | 101 / 
 QUOTE: In July 2024, the Public Utility Commission of Texas approved an updated CONE value of 140 per kW-year for planning purposes in ERCOT, reflecting more recent cost estimates for new entry, while retaining the legacy $105 per kW-year value for the peaker net margin threshold.
 AFTER:  In parallel with ERCOT's 2026 Reliability Standard Assessment (RSA), ERCOT is conducting an additional review of CONE to align cost assumptions with potential reliability pathways. Although CONE is not a direct input to the RSA, ERCOT has noted that certain recommendations for achieving the standar…
 
+### e18 · `np-04` · tier 1 · ERCOT Nodal Protocols, Section 4: Day-Ahead Operations (effective 2026-08-01)
+locator: Section 4.4.11, note under the parameter table · text copy line 2178 · heading above: 4.4.10 Credit Requirement for DAM Bids and Offers
+
+BEFORE: …------------------------------------- ------------ ---------------------------------------------------- d percentile 85 ep1 percentile 95 a percentile 50 b percentile 45 dp percentile 90 ep2 percentile 0 e2 value 0 e3 value 1 y percentile 45 z percentile 50 u percentile 90 bd % 90 t percentile 50 * 
+QUOTE: The current value for the parameters referenced in this table above will be recommended by TAC and approved by the ERCOT Board.
+AFTER:  ERCOT shall update parameter values on the first day of the month following ERCOT Board approval unless otherwise directed by the ERCOT Board. ERCOT shall provide a Market Notice prior to implementation of a revised parameter value. ------------------------------------------------------------------…
+
 ## Statements to check
 
 - **Definition #1** (cites e1, e2): The PUCT is the state commission that certifies ERCOT as the independent organization for the ERCOT power region. It is also the regulator to which ERCOT is directly responsible and accountable. [e1][e2]
@@ -135,13 +142,13 @@ AFTER:  In parallel with ERCOT's 2026 Reliability Standard Assessment (RSA), ERC
 - **Key facts #1** (cites e1, e3): - The PUCT certifies the independent organization and can decertify it or penalize it. [e1][e3]
 - **Key facts #2** (cites e4): - The PUCT reviews ERCOT's budget annually or biennially and can modify any item. [e4]
 - **Key facts #3** (cites e5): - Protocol changes need PUCT approval of a market impact statement before they take effect. [e5]
-- **Key facts #4** (cites e6, e7) FLAG number-not-in-quote: 2023: - Since HB 1500 (2023), PUCT directives to ERCOT must come through a contested case, a rulemaking, or a written order or memo adopted by majority vote. [e6][e7]
+- **Key facts #4** (cites e6, e7) FLAG number-not-in-quote: 2023: - Since HB 1500 (2023), PUCT directives to ERCOT to take an official action must come through a contested case, a rulemaking, or a written order or memo adopted by majority vote. [e6][e7]
 - **Key facts #5** (cites e11, e15, e16) FLAG number-not-in-quote: 25.509: - Offer caps: rule 25.509 states HCAP $5,000/MWh and LCAP $2,000/MWh for energy. [e11] The Protocol table lists $5,000 day-ahead and $2,000 real-time, and the SWCAP was reduced to $2,000 after RTC go-live on 12/5/2025. [e15][e16]
 - **Key facts #6** (cites e12): - Reliability standard frequency criterion: no more than one loss of load event per ten years on average (0.1 LOLE). [e12]
 - **Key facts #7** (cites e13, e17): - Sunset: HB 1500 sets September 1, 2029 as the date in the Sunset provision for abolishing the commission. [e13][e17]
 - **Common confusion #1** (cites e10, e9, e5): (Guidance) The PUCT is not FERC. In ERCOT, the PUCT, assisted by the IMM, holds ultimate responsibility for market oversight. [e10] The IMM has no enforcement authority; enforcement stays with the commission. [e9] Also, ERCOT protocol changes approved by the ERCOT board are not final until the PUCT approves them. [e5]
 - **Questions #2** (cites e6, e7): Not by a verbal directive. Under §39.1514, added by HB 1500, an official-action directive must come through a contested case, a rulemaking, or a memorandum or written order adopted by majority vote. [e6][e7]
-- **Questions #4** (cites e11, e15, e16) FLAG number-not-in-quote: 25.509: The PUCT sets the caps by rule. Rule 25.509 states a high cap of $5,000 per MWh and a low cap of $2,000 per MWh for energy offers. [e11] Since RTC go-live the Protocol table lists a $5,000 day-ahead cap and a $2,000 real-time cap, and ERCOT says the SWCAP was reduced to $2,000 from $5,000 after 12/5/2025. [e15][e16]
+- **Questions #4** (cites e11, e18, e5, e15, e16) FLAG number-not-in-quote: 25.509: Both have a hand. PUCT rule 25.509 states a high cap of $5,000 per MWh and a low cap of $2,000 per MWh for energy offers. [e11] The current values in the Protocol parameter table are recommended by TAC and approved by the ERCOT Board, and Protocol changes need PUCT approval of a market impact statement. [e18][e5] Since RTC go-live the Protocol table lists a $5,000 day-ahead cap and a $2,000 real-time cap, and ERCOT says the SWCAP was reduced to $2,000 from $5,000 after 12/5/2025. [e15][e16]
 - **Questions #6** (cites e8): It must require reasonable mitigation. Its tools include ordering new transmission or distribution facilities, injunctions or civil penalties, administrative penalties, disgorgement of excess revenue, and suspending, revoking or amending a certificate or registration. [e8]
 - **Questions #8** (cites e14) FLAG number-not-in-quote: $140: In July 2024 it approved $140 per kW-year for planning, and it kept the legacy $105 per kW-year for the peaker net margin threshold. [e14]
 - **Scenarios #2** (cites e5): - Not on board approval. New or revised protocols cannot take effect until the PUCT approves a market impact statement, and the PUCT can approve, reject or remand the change. [e5]
@@ -155,5 +162,5 @@ AFTER:  In parallel with ERCOT's 2026 Reliability Standard Assessment (RSA), ERC
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
 - (Say it like this) (Guidance) The PUCT is ERCOT's regulator. It certifies ERCOT, approves its budget and every protocol change, and sets key market parameters such as the offer caps and the reliability standard. When the market design changes in a big way, the final decision usually sits with the commission, with the IMM advising and ERCOT implementing.
-- (Scenarios) - So the PUCT open meeting is the step to watch, after which the change still has to be implemented.
+- (Scenarios) - So the PUCT's approval is the step to watch, after which the change still has to be implemented.
 

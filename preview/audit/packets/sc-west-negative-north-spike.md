@@ -139,7 +139,7 @@ AFTER:  The shift in peak prices to the peak net load hours demonstrates the gro
 - **How it works #4** (cites e7, e8): Prices go negative because many renewables are paid to produce even when prices are below zero. In 2025, 35% of real-time capacity was offered at or below $0, mainly wind and solar, many of which receive federal production tax credits. [e7] Real-time Settlement Point Prices have an administrative floor of -$251/MWh. [e8]
 - **Key facts #1** (cites e7): - In 2025, 35% of real-time generation capacity was offered at or below $0, up from 32% in 2024. [e7]
 - **Key facts #2** (cites e6) FLAG number-not-in-quote: 2025: - The West zone had the most negative-price intervals and the most price spikes of any load zone in 2025. [e6]
-- **Key facts #3** (cites e16): - West zone average energy price in 2025 was $41.59/MWh against an ERCOT average of $36.94/MWh, reflecting Permian import limits and Panhandle export limits. [e16]
+- **Key facts #3** (cites e16): - West zone average energy price in 2025, excluding adders, was $41.59/MWh against an ERCOT average of $36.94/MWh, reflecting Permian import limits and Panhandle export limits. [e16]
 - **Key facts #4** (cites e13): - Day-ahead congestion rose 26% in 2025, driven by the North zone (with heavy RUC use for congestion) and the West zone. [e13]
 - **Key facts #5** (cites e17): - Real-time congestion rent in summer 2026 was 10% lower than in summer 2025, partly because of RTC. [e17]
 - **Key facts #6** (cites e8): - Real-time Settlement Point Prices cannot go below -$251/MWh. [e8]

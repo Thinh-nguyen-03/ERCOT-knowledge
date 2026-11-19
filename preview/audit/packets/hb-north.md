@@ -53,16 +53,23 @@ BEFORE: … executed after the DRUC. Hub A designated Settlement Point consistin
 QUOTE: The list of Hub Buses and the Settlement price calculation methodology that define a Hub can never be modified, and a Hub, once defined, exists in perpetuity.
 AFTER:  Hub Bus (1) In the Day-Ahead Market (DAM) and Congestion Revenue Right (CRR) Auction, an energized power flow bus or group of energized power flow buses are defined as a single element in the Hub definition. The Locational Marginal Price (LMP) of the Hub Bus is the simple average of the LMPs assign…
 
+### e8 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
+locator: Section 2.1, definition of Settlement Point · text copy line 2911
+
+BEFORE: …---------------------------------------------+ Settlement Only Generator (SOG) (see Resource) Settlement Only Distribution Generator (SODG) (see Resource) Settlement Only Transmission Generator (SOTG) (see Resource) Settlement Only Transmission Self-Generator (SOTSG) (see Resource) Settlement Point 
+QUOTE: A Resource Node, Load Zone, or Hub.
+AFTER:  Settlement Point Price A price calculated for a Settlement Point for each Settlement Interval using LMP data and the formulas detailed in Section 4.6, DAM Settlement, and Section 6.6, Settlement Calculations for the Real-Time Energy Operations. Settlement Quality Meter Data Data that has been edite…
+
 ## Statements to check
 
 - **Definition #1** (cites e1, e2): The North 345 kV Hub (North 345) is one of the Hubs defined in Protocol Section 3.5.2, composed of a listed set of 345 kV Hub Buses. [e1] A Hub is a designated Settlement Point made of a Hub Bus or group of Hub Buses with the price methodology set out in its definition. [e2] The market shorthand "HB_NORTH" is not used in the saved protocol text.
 - **How it works #1** (cites e3, e7): The North 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Day-Ahead Market, and in real time is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval. [e3] In real time it is therefore a simple (unweighted) average across its Hub Buses. [e3] The list of Hub Buses and the price method can never be modified once defined. [e7]
-- **ERCOT context #1** (cites e5, e6): North 345 is one of four hubs whose prices are averaged into the ERCOT Hub Average 345 kV Hub price (the others are South, Houston and West). [e5] ERCOT posts the list of Electrical Buses in each Hub on its website. [e6]
+- **ERCOT context #1** (cites e5, e6): North 345 is one of four hubs whose real-time prices are averaged into the ERCOT Hub Average 345 kV Hub price (the others are South, Houston and West). [e5] ERCOT posts the list of Electrical Buses in each Hub on its website. [e6]
 - **Key facts #1** (cites e1) FLAG number-not-in-quote: 3.5, 2.1: - The North 345 kV Hub is defined in Protocol Section 3.5.2.1. [e1]
 - **Key facts #2** (cites e3): - Day-ahead price uses aggregated Shift Factors of the Hub Buses; real-time price is the simple average of time-weighted Hub Bus prices per 15-minute interval. [e3]
 - **Key facts #3** (cites e7): - The Hub definition can never be modified and exists in perpetuity. [e7]
 - **Key facts #4** (cites e5): - It is one of four prices in the ERCOT Hub Average 345 kV Hub price. [e5]
-- **Common confusion #1** (cites e2, e3): - North Hub versus North Load Zone: the Hub is a Settlement Point defined by a fixed Hub Bus list and its own price method, and a Load Zone is a separate kind of Settlement Point (see the load-zone topic). [e2][e3]
+- **Common confusion #1** (cites e2, e3, e8): - North Hub versus North Load Zone: the Hub is a Settlement Point defined by a fixed Hub Bus list and its own price method, and a Load Zone is a separate kind of Settlement Point from a Hub (a Settlement Point is a Resource Node, Load Zone, or Hub; see the load-zone topic). [e2][e3][e8]
 - **Common confusion #2** (cites e5): - North Hub versus the ERCOT 345 average: the ERCOT average is a separate Hub that averages four hub prices, including North. [e5]
 - **Questions #2** (cites e3): As the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval, across each Hub Bus in the Hub. [e3]
 - **Questions #4** (cites e7): The definition can never be modified. [e7]
@@ -73,5 +80,5 @@ AFTER:  Hub Bus (1) In the Day-Ahead Market (DAM) and Congestion Revenue Right (
 - **Link to lmp** (cites e3): related LMP (Locational Marginal Price): The Hub price averages Hub Bus prices. [e3]
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
-- (Say it like this) HB_NORTH is the price of a fixed list of 345 kV buses in the north, a simple average of Hub Bus prices in real time. It is a different Settlement Point from the North Load Zone, so a load there does not settle at the hub price.
+- (Say it like this) HB_NORTH is the price of a fixed list of 345 kV buses in the north, a simple average of Hub Bus prices in real time. A Hub is a different kind of Settlement Point from a Load Zone.
 

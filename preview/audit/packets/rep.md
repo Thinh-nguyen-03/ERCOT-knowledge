@@ -128,7 +128,7 @@ AFTER:  (3) ERCOT may require that the Entity satisfactorily complete testing of
 - **Link to lse** (cites e13): is-a LSE (Load Serving Entity): LSEs include Competitive Retailers, which includes REPs. [e13]
 - **Link to qse** (cites e6): related QSE (Qualified Scheduling Entity): A REP must have its QSE designation approved by ERCOT before enrolling customer ESI IDs. [e6]
 - **Link to retail-choice** (cites e5): part-of Retail Choice / Competitive Retail Market: REPs exist because Texas gave most retail customers a choice of provider from January 1, 2002. [e5]
-- **Link to tdsp** (cites e2, e7): contrasts-with TDSP (Transmission & Distribution Service Provider): A TDU may not sell electricity, and a REP may not own generation. [e2][e7]
+- **Link to tdsp** (cites e2, e7): contrasts-with TDSP (Transmission & Distribution Service Provider): After January 1, 2002 a transmission and distribution utility may not sell electricity except to buy for its own needs, and a REP may not own generation. [e2][e7]
 - **Link to esi-id** (cites e8): related ESI ID: Each ESI ID has at most one REP of record at a time. [e8]
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 

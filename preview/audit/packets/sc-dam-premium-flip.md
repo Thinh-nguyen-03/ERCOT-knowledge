@@ -8,8 +8,8 @@ kind scenario · domain cases · level 2
 locator: Day-Ahead Market Performance, day-ahead energy prices · text copy line 3165
 
 BEFORE: …ted on a daily basis. This measure captures the volatility of the daily price differences, which may be large even if the prices converge on average. Figure 28: Convergence Between Day-Ahead and Real-Time Energy Prices (with Uri) 44 | 2021 State of the Market Report / / Day-Ahead Market Performance 
-QUOTE: Day-ahead prices averaged $157 per MWh in 2021, while real-time prices averaged $160 per MWh.
-AFTER: 63 This divergence was a change from the stability in 2020, which occurred throughout the year but especially in February because of the effects of Winter Storm Uri. The relative instability of real-time prices and persistence of tight conditions increased the risk premium associated with day-ahead …
+QUOTE: Day-ahead prices averaged $157 per MWh in 2021, while real-time prices averaged $160 per MWh.63 This divergence was a change from the stability in 2020, which occurred throughout the year but especially in February because of the effects of Winter Storm Uri.
+AFTER:  The relative instability of real-time prices and persistence of tight conditions increased the risk premium associated with day-ahead hedges. Price divergence was pronounced in February, April, the summer months and October in 2021, when conditions were tighter, real-time prices were higher, and ER…
 
 ### e2 · `imm-som-2021` · tier 2 · 2021 State of the Market Report for the ERCOT Electricity Markets (published 2022)
 locator: Day-Ahead Market Performance, day-ahead energy prices · text copy line 3170
@@ -118,12 +118,12 @@ AFTER:  • Three-part offers account for only 58% of the energy sold in the day
 
 ## Statements to check
 
-- **Definition #1** (cites e1): This scenario is about the times when day-ahead prices settle below real-time prices instead of at their usual small premium; in 2021, for example, day-ahead prices averaged $157/MWh while real-time prices averaged $160/MWh. [e1]
+- **Definition #1** (cites e1): This scenario is about the times when day-ahead prices settle below real-time prices instead of at their usual small premium; in 2021, for example, day-ahead prices averaged $157/MWh while real-time prices averaged $160/MWh, a divergence the IMM says was especially marked in February because of Winter Storm Uri. [e1]
 - **How it works #1** (cites e7, e3, e6) FLAG number-not-in-quote: 2025: The normal state is a small day-ahead premium. The IMM says the day-ahead market "generally" gives generators a risk premium as well as revenue certainty. [e7] In 2023 day-ahead averaged $58/MWh against $51/MWh in real time, which the IMM called a modest risk premium. [e3] In 2025 the average premium was $1.17/MWh. [e6]
 - **How it works #2** (cites e5, e2, e4) FLAG number-not-in-quote: 2022: Prices should converge when trading barriers are low, participants have good information about real time, and both markets model the transmission network accurately; then participants can arbitrage predictable gaps away. [e5] A flip is consistent with real time turning out tighter than the day-ahead market expected. [e2] In July 2022 real-time prices rose above day-ahead because of sustained extreme heat and some day-ahead under-forecasting of demand. [e4] In 2021 the gap was largest in the tight months, when real-time prices were higher and ERCOT moved to more conservative operations. [e2]
 - **How it works #3** (cites e9) FLAG number-not-in-quote: 2023: Congestion can flip too. In 2023 day-ahead congestion was priced lower than real-time congestion, especially in the high-congestion periods of August, meaning some of it was not predicted. [e9]
 - **How it works #4** (cites e15, e11): The day-ahead market is financial, so DA-RT gaps become cash. Energy and AS bought or sold day-ahead are settled against real-time prices for any imbalance. [e15] Virtual bids and offers are location-specific trades used as hedges or for speculation. [e11]
-- **Key facts #1** (cites e1): - 2021: day-ahead averaged $157/MWh, real-time $160/MWh. [e1]
+- **Key facts #1** (cites e1): - 2021: day-ahead averaged $157/MWh, real-time $160/MWh (annual averages that include the Winter Storm Uri divergence in February). [e1]
 - **Key facts #2** (cites e3): - 2023: day-ahead $58/MWh, real-time $51/MWh, a modest premium. [e3]
 - **Key facts #3** (cites e6) FLAG number-not-in-quote: 2025: - 2025: average day-ahead premium $1.17/MWh, average absolute difference $12/MWh, the low spread reflecting fewer price spikes. [e6]
 - **Key facts #4** (cites e10): - Average net load forecast error fell to about 452 MW in 2025, but forecasts still under-forecast renewables and over-forecast load. [e10]

@@ -90,9 +90,9 @@ AFTER:  (2) Notwithstanding the provisions in paragraph (1) above, ERCOT may dra
 - **Key facts #1** (cites e2): - Counter-Parties must maintain Financial Security at or above TPE at all times. [e2]
 - **Key facts #2** (cites e3): - TPE = TPEA + TPES. [e3]
 - **Key facts #3** (cites e4): - ERCOT recalculates TPEA and TPES daily. [e4]
-- **Key facts #4** (cites e6): - A warning goes out at 90% of the requirement. [e6]
+- **Key facts #4** (cites e6): - When TPEA or TPES reaches 90% of its requirement, ERCOT uses reasonable efforts to issue a warning. [e6]
 - **Key facts #5** (cites e7, e11): - ERCOT may suspend a Counter-Party's rights if it falls short, and the Protocols name DAM bidding and CRR bidding as examples of what suspension can include. [e7][e11]
-- **Common confusion #1** (cites e3, e5, e1): TPE is not a single collateral amount held by ERCOT; it is an exposure measure, and the collateral requirement is split between Financial Security (against TPES and CRR items) and Remainder Collateral (against TPEA). [e3][e5] "Counter-Party" is the entity level, not each individual QSE registration. [e1]
+- **Common confusion #1** (cites e3, e2, e5, e1) FLAG number-not-in-quote: 16.11: TPE is the sum of TPEA and TPES [e3]; Section 16.11.1 states the requirement as Financial Security at or above TPE, and Section 16.11.5 spells out the requirement as Financial Security (against TPES and CRR items) and Remainder Collateral (against TPEA). [e2][e5] "Counter-Party" is the entity level, not each individual QSE registration. [e1]
 - **Questions #2** (cites e2, e3): The sum of TPEA and TPES, each a positive net exposure of the Counter-Party. A Counter-Party must keep Financial Security at or above it. [e2][e3]
 - **Questions #4** (cites e7, e11): It may suspend the Counter-Party's rights under the Protocols, which can include a QSE's DAM bidding and a CRR Account Holder's CRR bidding. [e7][e11]
 - **Questions #6** (cites e4): Daily, for both TPEA and TPES. [e4]
@@ -104,5 +104,5 @@ AFTER:  (2) Notwithstanding the provisions in paragraph (1) above, ERCOT may dra
 - **Link to retailer-defaults-2021** (cites e2) FLAG number-not-in-quote: 2021: related Griddy & Brazos: 2021 Defaults: Counter-Party creditworthiness standards apply to every QSE and CRR Account Holder. [e2]
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
-- (Say it like this) (Guidance) ERCOT sizes each QSE's or CRR holder's likely unpaid obligations as TPE and requires collateral against it every day. Fall short and ERCOT can cut off DAM and CRR participation.
+- (Say it like this) (Guidance) ERCOT measures each Counter-Party's exposure as TPE, recalculates TPEA and TPES daily, and requires Financial Security at or above it. Fall short and ERCOT may suspend the Counter-Party's rights, which can include DAM and CRR bidding.
 

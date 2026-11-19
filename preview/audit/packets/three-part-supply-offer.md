@@ -19,7 +19,7 @@ QUOTE: An offer for all costs incurred by a Generation Resource in starting up a
 AFTER:  State Estimator A computational algorithm that uses Real-Time inputs from the network's Supervisory Control and Data Acquisition (SCADA) system that measure the network's electrical parameters, including its topology, voltage, power flows, etc., to estimate electrical parameters (such as line flows…
 
 ### e3 · `np-04` · tier 1 · ERCOT Nodal Protocols, Section 4: Day-Ahead Operations (effective 2026-08-01)
-locator: Section 4.4.9.2, paragraphs (1) and (2) · text copy line 1262 · heading above: 4.4.9.1 Three-Part Supply Offers
+locator: Section 4.4.9.1, paragraph (1) · text copy line 1262 · heading above: 4.4.9.1 Three-Part Supply Offers
 
 BEFORE: … at its discretion, Dispatch RMR Units to restore the ERCOT Transmission Grid. (c) RMR offers shall be treated as if they were Resource offers for purposes of posting under Section 3.2.5, Publication of Resource and Load Information. 4.4.9 Energy Offers and Bids 4.4.9.1 Three-Part Supply Offers (1) 
 QUOTE: A Three-Part Supply Offer consists of a Startup Offer, a Minimum-Energy Offer, and an Energy Offer Curve. ERCOT must validate each Startup Offer, Minimum-Energy Offer, and Energy Offer Curve before it can be used in any ERCOT process.
@@ -33,7 +33,7 @@ QUOTE: An offer for the costs incurred by a Resource in producing energy at the 
 AFTER:  Minimum Point-to-Point (PTP) Option Bid Price A value of $0.010 representing the minimum price that can be submitted into the CRR Auction for a PTP Option bid. Minimum Reservation Price The lowest price that a seller is willing to accept. Mitigated Offer Cap (MOC) An upper limit on the price of an …
 
 ### e5 · `np-04` · tier 1 · ERCOT Nodal Protocols, Section 4: Day-Ahead Operations (effective 2026-08-01)
-locator: Section 4.4.9.2, paragraph (2) · text copy line 1264 · heading above: 4.4.9.1 Three-Part Supply Offers
+locator: Section 4.4.9.1, paragraph (2) · text copy line 1264 · heading above: 4.4.9.1 Three-Part Supply Offers
 
 BEFORE: … Energy Offers and Bids 4.4.9.1 Three-Part Supply Offers (1) A Three-Part Supply Offer consists of a Startup Offer, a Minimum-Energy Offer, and an Energy Offer Curve. ERCOT must validate each Startup Offer, Minimum-Energy Offer, and Energy Offer Curve before it can be used in any ERCOT process. (2) 
 QUOTE: The DAM uses all three parts of the Three-Part Supply Offer and also uses Energy Offer Curves submitted without a Startup Offer and without a Minimum-Energy Offer. The RUC only uses the Startup Offer and the Minimum-Energy Offer components for determining RUC commitments, but the Energy Offer Curve may be used in Settlement to claw back some or all of a RUC-committed Resource's energy payments. The Energy Offer Curve may also be used by SCED in Real-Time Operations.
@@ -69,9 +69,9 @@ AFTER:  This high minimumoffer price reduces the likelihood that these resources
 - **Questions #4** (cites e5): Only the Startup Offer and Minimum-Energy Offer for commitments; the energy curve may be used in Settlement to claw back energy payments. [e5]
 - **Questions #6** (cites e2): All costs incurred in starting up and reaching LSL, in dollars per start. [e2]
 - **Link to energy-offer-curve** (cites e1): composed-of Energy Offer Curve: The Energy Offer Curve is the third component of the Three-Part Supply Offer. [e1]
-- **Link to dam** (cites e3): used-in Day-Ahead Market (DAM): The DAM uses all three parts of the offer. [e3]
-- **Link to ruc** (cites e3): used-in RUC (Reliability Unit Commitment: DRUC/HRUC): RUC uses only the Startup and Minimum-Energy components to determine commitments. [e3]
-- **Link to sced** (cites e3): used-in SCED (Security-Constrained Economic Dispatch): SCED may use the Energy Offer Curve in Real-Time Operations. [e3]
+- **Link to dam** (cites e5): used-in Day-Ahead Market (DAM): The DAM uses all three parts of the offer. [e5]
+- **Link to ruc** (cites e5): used-in RUC (Reliability Unit Commitment: DRUC/HRUC): RUC uses only the Startup and Minimum-Energy components to determine commitments. [e5]
+- **Link to sced** (cites e5): used-in SCED (Security-Constrained Economic Dispatch): SCED may use the Energy Offer Curve in Real-Time Operations. [e5]
 - **Link to qse** (cites e1): related QSE (Qualified Scheduling Entity): A QSE makes the offer for a Generation Resource it represents. [e1]
 - **Link to cop** (cites e6): related COP (Current Operating Plan): Energy Offer Curves are bounded in the DAM by the LSL and HSL of the Generation Resource specified in the COP. [e6]
 ## Uncited guidance text (check for new facts, numbers, dates, names)

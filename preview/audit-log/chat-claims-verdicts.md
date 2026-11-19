@@ -100,8 +100,8 @@ Checked against sources/text/*.txt only. Quotes are verbatim from the saved text
     imm-som-2025, line 3292: "In 2025, all 12 registered CLRs are cryptocurrency mines."
 49. CONFIRMED: sunset date Sept 1, 2029.
     hb1500-88r.alt, Sec. 12.005: "the commission is abolished ... September 1, 2029" unless continued under the Sunset Act.
-50. NOT IN SOURCES: no source gives ERCOT's share of Texas land area. Searched: "land area", "geograph", "square miles", "75 percent" in fact sheet, annual report, EIA profile. The fact sheet's "75%" means "of load is competitive-choice customers", not land area.
-    ercot-fact-sheet: "75% of load is competitive-choice customers".
+50. CONFIRMED (corrected by the main session after checking the source directly; the checker had searched the wrong documents): the federal Uri report gives the land-area share.
+    ferc-nerc-uri, "Description of Affected Electric Grid Entities": "ERCOT is an Independent System Operator (ISO) that covers approximately 75 percent of the landmass in Texas". (The fact sheet's separate "75%" is the share of load with competitive choice.)
 51. CONFIRMED: REC program voluntary Sept 1, 2025.
     np-14 14.1(3): "REC Trading Program, which became effective July 1, 2001, and became a voluntary market on September 1, 2025."
 52. CONFIRMED: Dec 2025 CDR, 18.3% summer 2026, negative 2028.

@@ -170,7 +170,7 @@ AFTER:  Energy $17,659 Regulation Up $11 Regulation Down $6 Responsive Reserve $
 - **Key facts #3** (cites e12): - 2025 RMR uplift: about $68 million, for RMR resources of around 730 MW. [e12]
 - **Key facts #4** (cites e4): - 2025 FFSS uplift: $45.9 million, up 36% from $33.8 million in 2024. [e4]
 - **Key facts #5** (cites e11, e9): - 2025 RUC: 5,129 resource-hours; make-whole above $21 million; claw-backs $4.5 million. [e11][e9]
-- **Key facts #6** (cites e14) FLAG number-not-in-quote: 2025: - 2025 Revenue Neutrality Uplift in the IMM's annual table: $154 million. [e14]
+- **Key facts #6** (cites e14, e22) FLAG number-not-in-quote: 2025: - 2025 Revenue Neutrality Uplift in the IMM's annual table: $154 million. [e14][e22]
 - **Common confusion #1** (cites e2, e7, e20): (Guidance) Uplift is not one charge; it is a family of settlements, each with its own allocation, and the IMM's total mixes them. [e2] RUC make-whole is not charged purely by load share: capacity-short QSEs pay first. [e7] The Securitization Uplift Charge is a separate charge to QSEs representing obligated LSEs, a different charge from the RUC make-whole uplift. [e20]
 - **Questions #2** (cites e11, e21): The IMM reports RUC instructions rose 176% to 5,129 resource-hours in 2025, mostly for congestion, and make-whole payments exceeded $21 million, which the IMM says is partly explained by greater use of RUC and fewer resources opting out of RUC settlement. [e11][e21]
 - **Questions #4** (cites e5, e7): Not the Load Ratio Share part, which every QSE pays in proportion to its AML. [e5][e7] The capacity-short charge is the part tied to the QSE's own position, so being capacity-short in a RUC interval adds cost. [e7]

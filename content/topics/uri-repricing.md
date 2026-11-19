@@ -1,7 +1,7 @@
 ---
 id: uri-repricing
 name: Uri $9,000 Pricing Controversy
-aliases: [Uri repricing, Project 51617 orders, February 2021 pricing orders, $9,000 pricing controversy, Luminant v. PUCT]
+aliases: [Uri repricing, Project 51617 orders, February 2021 pricing orders, $9,000 pricing controversy, Luminant v. PUCT, PUCT v. Luminant]
 kind: event
 domain: cases
 level: 2
@@ -95,14 +95,6 @@ evidence:
     source: repricing-court-summary
     locator: "Haynes Boone alert, Luminant Appeal"
     quote: "Luminant argued that both the market cap and the PUCT orders instituting the cap for periods during Winter Storm Uri contravened PURA’s framework that prices for power generation be set through the normal forces of competition."
-  - id: e18
-    source: repricing-court-summary
-    locator: "Haynes Boone alert, Third Court of Appeals Judgment (p. 2)"
-    quote: "The Third Court of Appeals opinion determined that the PUCT Orders were, in fact, “competition rules” challengeable directly to a court of appeals. Having found jurisdiction, the Third Court moved on to the substantive issues raised by Luminant. It held that the $9,000 MWh market cap supplanted competition."
-  - id: e19
-    source: repricing-court-summary
-    locator: "Haynes Boone alert, Third Court of Appeals Judgment (p. 2)"
-    quote: "The opinions leaves open the possibility that any cap on market prices may be inconsistent with PURA."
   - id: e20
     source: puct-51617-order-1
     locator: "Project 51617, Order of February 15, 2021, p. 2, Section II"
@@ -123,27 +115,51 @@ evidence:
     source: imm-uri-letter-2
     locator: "IMM letter of March 4, 2021 (Project 51812, item 61), p. 1, opening paragraph"
     quote: "The IMM agrees with the Commission's Order from February 15, 2021, which mandated that real-time energy prices reflect firm load shed by setting prices at the value of lost load (VOLL)."
+  - id: e25
+    source: luminant-coa-opinion
+    locator: "Luminant Energy Co. v. PUCT, No. 03-21-00098-CV (Tex. App.-Austin, filed March 17, 2023), Part IV Conclusion, p. 42"
+    quote: "For the foregoing reasons, we reverse the Commission’s Orders of February 15 and 16, 2021, and remand this case for further proceedings consistent with our ruling."
+  - id: e26
+    source: luminant-coa-opinion
+    locator: "Luminant Energy Co. v. PUCT, No. 03-21-00098-CV (Tex. App.-Austin, filed March 17, 2023), Part III, p. 41"
+    quote: "In extreme circumstances under extraordinary pressure, the Commission exceeded its power by eliminating competition entirely."
+  - id: e27
+    source: luminant-txsc-opinion
+    locator: "PUCT v. Luminant Energy Co., No. 23-0231 (Tex., opinion delivered June 14, 2024), introduction, p. 2"
+    quote: "In this case, the court of appeals held that the Commission’s orders exceeded its authority under Chapter 39 of the Public Utility Regulatory Act (PURA) because the statute prohibits price-setting. 3 We disagree. We also hold that the Commission substantially complied with the Administrative Procedure Act’s (APA) procedural rulemaking requirements, an issue the court of appeals did not reach. We reverse the judgment of the court of appeals and render judgment affirming the orders."
+  - id: e28
+    source: luminant-txsc-opinion
+    locator: "PUCT v. Luminant Energy Co., No. 23-0231 (Tex.), final page, p. 30"
+    quote: "We reverse the judgment of the court of appeals and render judgment affirming the Orders. 101 Nathan L. Hecht Chief Justice OPINION DELIVERED: June 14, 2024"
+  - id: e29
+    source: puct-51812-lcap-order
+    locator: "Project 51812 (item 57), Order Reinstating Low System-Wide Offer Cap, p. 2, ordering sentence and signature date"
+    quote: "Accordingly, the Commission terminates the suspension of the use of the LCAP and orders ERCOT to resume application of the LCAP when administering the scarcity pricing mechanism as provided by Commission rule. Signed at Austin, Texas the 3rd day of March 2021."
+  - id: e30
+    source: puct-51812-as-order-2
+    locator: "Project 51812 (item 164), Second Order Addressing Ancillary Services, signed March 12, 2021, p. 2, ordering paragraph 1"
+    quote: "ERCOT must settle each qualified scheduling entity that failed on its ancillary service supply responsibility in accordance with ERCOT Nodal Protocol section 6.4.9.1.3, entitled Replacement of Ancillary Service Due to Failure to Provide , for a particular ancillary service for any hour of ERCOT's operating days February 14,2021 through February 19, 2021."
 ---
 
 ## Definition
 
-The Uri pricing controversy is the dispute over the PUCT's February 15 and 16, 2021 orders in Project 51617, which directed ERCOT to account for firm load shed in its scarcity pricing so that real-time prices reflected the $9,000 per MWh system-wide offer cap during the Winter Storm Uri load shed. [e1][e3] The orders were later questioned by the IMM over how long prices stayed at $9,000, and challenged in court as unlawful price setting. [e7][e17]
+The Uri pricing controversy is the dispute over the PUCT's February 15 and 16, 2021 orders in Project 51617, which directed ERCOT to account for firm load shed in its scarcity pricing so that real-time prices reflected the $9,000 per MWh system-wide offer cap during the Winter Storm Uri load shed. [e1][e3] The IMM later questioned how long prices stayed at $9,000, and Luminant challenged the orders in court: the Third Court of Appeals reversed the orders in March 2023, but the Supreme Court of Texas reversed that judgment and rendered judgment affirming the orders on June 14, 2024. [e7][e25][e28]
 
 ## How it works
 
-What the PUCT said: on February 15, 2021, the PUCT stated that energy prices were clearing below the $9,000 offer cap, at times as low as about $1,200, while firm load was being shed. [e1] It reasoned that when load is being shed, scarcity is at its maximum and the price should be at its highest. [e2] The first order directed ERCOT to count shed firm load in its scarcity pricing signals and to correct past prices the same way. [e3] It also suspended use of the LCAP and kept the HCAP as the cap until the next open meeting; the order's stated concern was that, with very high gas prices, the "50 times the natural gas price index" formula could exceed the $9,000 HCAP. [e20][e4]
+What the PUCT said: on February 15, 2021, the PUCT stated that energy prices were clearing below the $9,000 offer cap, at times as low as about $1,200, while firm load was being shed. [e1] It reasoned that when load is being shed, scarcity is at its maximum and the price should be at its highest. [e2] The first order directed ERCOT to count shed firm load in its scarcity pricing signals and to correct past prices the same way. [e3] It also suspended use of the LCAP and kept the HCAP as the cap until the next open meeting; the order's stated concern was that, with very high gas prices, the "50 times the natural gas price index" formula could exceed the $9,000 HCAP. [e20][e4] On March 3, 2021 the PUCT terminated that suspension and ordered ERCOT to resume applying the LCAP. [e29]
 
 On February 16, 2021, a second order kept the forward-looking direction but rescinded the instruction to correct past prices. [e5] Commissioner Botkin abstained from the part of the second order that rescinded the retroactive correction. [e6]
 
 What the IMM said: in its March 4, 2021 letter the IMM said that, to comply with the Commission Order, the pricing intervention should have ended when ERCOT recalled the last firm load shed instructions at 23:55 on February 17, but ERCOT held prices at VOLL for another 32 hours by inflating the reliability deployment price adder. [e7] The IMM put the effect at $16 billion of additional costs to the market, about $1.5 billion of which was uplifted to load-serving entities as make-whole payments, and asked the PUCT to correct prices from 0:00 February 18 to 09:00 February 19, 2021. [e7][e8] Its March 1 letter separately asked that day-ahead ancillary service prices for February 15-20 be capped at $9,000. [e9] Its March 11 letter estimated that, after netting day-ahead positions and offsetting positions at the corporate level, its recommendations would change ERCOT settlements by $5.1 billion in total, and warned that many futures had already settled on the original prices. [e10][e11]
 
-What the court summary says: according to a Haynes Boone law-firm alert (a tier 3 source), the Third Court of Appeals ruled on March 17, 2023 in Luminant Energy Co. LLC v. PUCT that the orders were "competition rules" and that the $9,000 cap supplanted competition, a ruling that may require resettlement of most Uri hours. [e16][e18] Luminant had argued that the cap and the orders went against PURA's framework that generation prices be set by competition. [e17] The alert expected further appeal, which would keep the ruling from taking effect in the meantime. [e16]
+What the courts said: on March 17, 2023 the Third Court of Appeals, in Luminant Energy Co. LLC v. PUCT, reversed the February 15 and 16, 2021 orders and remanded, saying the Commission "exceeded its power by eliminating competition entirely". [e25][e26] A Haynes Boone law-firm alert of the same day (a tier 3 source) said the ruling might require resettlement of most Uri hours and that further appeal was expected, which would keep the ruling from taking effect in the meantime; the alert describes Luminant's argument as being that the cap and the orders went against PURA's framework that generation prices be set by competition. [e16][e17] That ruling did not stand. On June 14, 2024 the Supreme Court of Texas disagreed with the court of appeals' holding that the orders exceeded the Commission's authority under PURA Chapter 39, also held that the Commission substantially complied with the Administrative Procedure Act's rulemaking requirements, and reversed the court of appeals and rendered judgment affirming the orders. [e27][e28]
 
 ## ERCOT context
 
-The IMM's 2021 State of the Market report repeats its view: the last firm load shed recall was just before midnight on February 17, but prices stayed at $9,000 through mid-morning on February 19, which raised the value of energy substantially but raised loads' settlement costs much less because of owned generation and supply purchases. [e12] On ancillary services, it says the day-ahead algorithm set prices above $25,000 per MW, overvaluing those services by close to $2 billion and changing net settlements by about $900 million. [e14]
+The IMM's 2021 State of the Market report repeats its view: the last firm load shed recall was just before midnight on February 17, but prices stayed at $9,000 through mid-morning on February 19, which raised the value of energy substantially but raised loads' settlement costs much less because of owned generation and supply purchases. [e12] On ancillary services, it says the day-ahead algorithm set prices above $25,000 per MW, overvaluing those services by close to $2 billion and changing net settlements by about $900 million. [e14] On a separate IMM ancillary service recommendation, a PUCT order signed March 12, 2021 directed ERCOT to settle each QSE that failed its ancillary service supply responsibility under Protocol Section 6.4.9.1.3 (failure to provide) for operating days February 14 through February 19, 2021. [e30]
 
-Rule changes followed in 2021. NPRR1081, approved June 28, 2021, wrote the load shed treatment into the reliability deployment price adder so that prices equal VOLL when ERCOT directs firm load shed in EEA3. [e13] The PUCT removed the link between the LCAP and gas prices and lowered the HCAP to $5,000 per MWh from January 1, 2022. [e15] That is no longer the whole picture: PUCT rule 25.509 still states an HCAP of $5,000 per MWh [e23], but ERCOT's September 2026 summer review says the system-wide offer cap was reduced to $2,000/MWh from $5,000/MWh after RTC go-live on 12/5/2025, and the Protocol table lists $5,000 day-ahead and $2,000 real-time. [e21][e22]
+Rule changes followed. NPRR1081, approved June 28, 2021, wrote the load shed treatment into the reliability deployment price adder so that prices equal VOLL when ERCOT directs firm load shed in EEA3. [e13] The PUCT removed the link between the LCAP and gas prices and lowered the HCAP to $5,000 per MWh from January 1, 2022. [e15] That is no longer the whole picture: PUCT rule 25.509 still states an HCAP of $5,000 per MWh [e23], but ERCOT's September 2026 summer review says the system-wide offer cap was reduced to $2,000/MWh from $5,000/MWh after RTC go-live on 12/5/2025, and the Protocol table lists $5,000 day-ahead and $2,000 real-time. [e21][e22]
 
 ## Key facts
 
@@ -152,7 +168,9 @@ Rule changes followed in 2021. NPRR1081, approved June 28, 2021, wrote the load 
 - IMM (March 4, 2021): prices were held at VOLL for 32 hours after load shed ended, costing $16 billion, with about $1.5 billion uplifted to load-serving entities. [e7]
 - IMM (March 11, 2021): its recommendations would change ERCOT settlements by $5.1 billion after netting at the corporate level. [e10]
 - Day-ahead ancillary service prices exceeded $25,000 per MW during Uri, according to the IMM. [e14]
-- March 17, 2023: Third Court of Appeals rules against the orders in Luminant v. PUCT (as reported by a law firm). [e16]
+- March 17, 2023: the Third Court of Appeals reversed the orders in Luminant v. PUCT and remanded. [e25]
+- June 14, 2024: the Supreme Court of Texas reversed the court of appeals and rendered judgment affirming the orders. [e28]
+- March 3, 2021: the PUCT ended the LCAP suspension. [e29]
 
 ## Timeline
 
@@ -162,18 +180,21 @@ Rule changes followed in 2021. NPRR1081, approved June 28, 2021, wrote the load 
 - February 19, 2021, mid-morning: prices stop being held at $9,000 per MWh (IMM). [e12]
 - March 1, 2021: IMM letter asks that day-ahead ancillary service prices be capped at $9,000. [e9]
 - March 4, 2021: IMM letter asks that real-time prices from 0:00 February 18 to 09:00 February 19 be corrected. [e8]
+- March 3, 2021: PUCT order terminates the LCAP suspension. [e29]
 - March 11, 2021: IMM letter estimates a $5.1 billion settlement effect. [e10]
+- March 12, 2021: PUCT second order addressing ancillary services directs failure-to-provide settlement for February 14-19. [e30]
 - June 28, 2021: NPRR1081 approved. [e13]
 - January 1, 2022: HCAP lowered to $5,000 per MWh. [e15]
-- March 17, 2023: Third Court of Appeals rules in Luminant v. PUCT. [e16]
+- March 17, 2023: Third Court of Appeals reverses the orders and remands in Luminant v. PUCT. [e25]
+- June 14, 2024: Supreme Court of Texas reverses the court of appeals and renders judgment affirming the orders. [e28]
 
 ## Say it like this
 
-(Guidance) During Uri the PUCT ordered ERCOT to price shed load at the $9,000 cap, on the logic that load shed is maximum scarcity. [e2][e3] The IMM's March 4 letter said it agreed with the February 15 order but argued prices were held at VOLL for 32 hours after load shed ended and asked for those hours to be corrected. [e24][e7][e8] Separately, Luminant challenged the orders in court, and per a law-firm alert the Third Court of Appeals held in 2023 that the $9,000 cap supplanted competition, though further appeal was expected. [e17][e18][e16]
+(Guidance) During Uri the PUCT ordered ERCOT to price shed load at the $9,000 cap, on the logic that load shed is maximum scarcity. [e2][e3] The IMM's March 4 letter said it agreed with the February 15 order but argued prices were held at VOLL for 32 hours after load shed ended and asked for those hours to be corrected. [e24][e7][e8] Separately, Luminant challenged the orders in court: the Third Court of Appeals reversed them in March 2023, but in June 2024 the Supreme Court of Texas reversed that judgment and affirmed the orders. [e25][e28]
 
 ## Common confusion
 
-(Guidance) There are two different disputes. In its March 4 letter the IMM said the pricing intervention should have ended when load shed ended and objected to the hours after. [e7] Its other letters raised separate issues such as day-ahead ancillary service prices. [e9] Luminant's case, as summarized by the law firm, attacked the cap and the orders themselves. [e17] Also keep the three IMM dollar figures apart: $16 billion is the additional cost to ERCOT's market from holding prices at VOLL after load shed, $1.5 billion the make-whole uplift, and $5.1 billion the net settlement effect of the IMM's recommendations after day-ahead and offsetting positions. [e7][e10] The court-ruling description comes from a law-firm alert, not the opinion itself; the line that any price cap "may be inconsistent with PURA" is the firm's reading. [e19]
+(Guidance) There are two different disputes. In its March 4 letter the IMM said the pricing intervention should have ended when load shed ended and objected to the hours after. [e7] Its other letters raised separate issues such as day-ahead ancillary service prices. [e9] Luminant's case, as summarized by a law-firm alert, attacked the cap and the orders themselves. [e17] Also keep the three IMM dollar figures apart: $16 billion is the additional cost to ERCOT's market from holding prices at VOLL after load shed, $1.5 billion the make-whole uplift, and $5.1 billion the net settlement effect of the IMM's recommendations after day-ahead and offsetting positions. [e7][e10] And do not stop at the 2023 court of appeals ruling: the Supreme Court of Texas reversed it and affirmed the orders. [e28]
 
 ## Questions
 
@@ -191,10 +212,11 @@ The order's stated concern was that, with gas prices exceptionally high, the LCA
 
 ## Open items
 
-- Outcome of the IMM's repricing requests: the saved sources do not say whether the PUCT corrected the February 18-19 real-time prices or capped day-ahead ancillary service prices. The 2021 SOM says only that the PUCT ordered "failure to provide" ancillary service resettlement for February 14-19 (Project 51812 order of March 12, 2021). Source needed: the PUCT's March 2021 open meeting decisions in Project 51812.
-- Outcome of Luminant v. PUCT after March 17, 2023 (rehearing or Texas Supreme Court) is not in the saved sources. Source needed: the later court decision. The court summary is a tier 3 law-firm alert; the opinion itself is not saved.
+- Outcome of the IMM's repricing requests: no saved source states in so many words whether the PUCT corrected the February 18-19 real-time prices or capped day-ahead ancillary service prices. The saved March 12, 2021 order (puct-51812-as-order-2) acts only on the IMM's failure-to-provide recommendation. Source needed: the PUCT's March 2021 open meeting decisions in Project 51812.
+- After the Supreme Court decision: the opinion says Luminant's administrative challenges to its invoices were abated until the litigation concluded; what happened to them afterwards is not in the saved sources.
+- The Supreme Court opinion describes the orders' effect as raising the price "to the regulatory ceiling of $9,000/MWh" and says ERCOT's manual change stayed in place until the grid returned to normal operations on February 19; this topic's description of how long prices were held relies on the IMM's letters and report.
 - Date of the ~$1,200 low price: the February 15 order says prices were as low as about $1,200 "at various times today"; the 2021 SOM says prices "dipped as low as approximately $1,200 per MWh on February 16, 2021".
-- LCAP suspension date: the PUCT orders of February 15 and 16 suspended the LCAP; the 2021 SOM says "Suspension of LCAP occurred on March 3, 2021" while its footnote cites a March 3, 2021 "Order Reinstating Low System-Wide Offer Cap". Not resolved.
+- LCAP suspension date: the PUCT orders of February 15 and 16 suspended the LCAP and the saved March 3, 2021 order terminated the suspension; the 2021 SOM's sentence "Suspension of LCAP occurred on March 3, 2021" therefore appears to misstate the date the suspension ended as the date it occurred.
 - End of the pricing hold: IMM letter 2 says "through the morning of February 19" and recommends correction to 09:00; the 2021 SOM says "mid-morning on February 19". The UT and FERC-NERC reports were not checked for an exact time.
 - The February 15 order's signature line reads "the 15 day of February 2020", an apparent typo in the source; the order caption and other sources date it February 15, 2021.
 - Deeper pass: the IMM's breakdown of the $5.1 billion ($3.2 billion energy imbalance, about $1 billion AS imbalance, about $900 million AS price cap) in imm-uri-letter-3; ERCOT's own response to the IMM letters (not saved).

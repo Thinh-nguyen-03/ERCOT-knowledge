@@ -116,6 +116,13 @@ BEFORE: …---------------------------------------------------------------------
 QUOTE: The payment or charge to each QSE for Energy Imbalance Service is calculated based on the Real-Time Settlement Point Price for the following amounts at a particular Resource Node Settlement Point:
 AFTER:  (a) The energy produced by all its Generation Resources, consumed as WSL, or consumed as Non-WSL ESR Charging Load at the Settlement Point; plus +---------------------------------------------------------------------------------------------------------------------------------------------------------…
 
+### e19 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.1, Introduction, paragraph (4) · text copy line 408 · heading above: 6.1 Introduction
+
+BEFORE: …LMPs) from all of the executions of SCED in the Settlement Interval. Similarly, Real-Time Ancillary Service Settlements use Real-Time Market (RTM) Clearing Prices for Capacity (MCPCs) for a 15-minute Settlement Interval, using the MCPCs from all of the executions of SCED in the Settlement Interval. 
+QUOTE: In contrast, the Day-Ahead Market (DAM) energy settlements will use DAM Settlement Point Prices that are calculated for Resource Nodes, Load Zones, and Hubs for a one-hour Settlement Interval, and DAM Ancillary Service Settlements will use DAM MCPCs for a one-hour Settlement Interval.
+AFTER:  (5) To the extent that the ERCOT CEO or designee determines that Market Participant activities have produced an outcome inconsistent with the efficient operation of the ERCOT-administered markets as defined in subsection (c)(2) of P.U.C. SUBST. R. 25.503, Oversight of Wholesale Market Participants,…
+
 ### e18 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
 locator: Appendix, G. RDPA (p. A-10) · text copy line 9736
 
@@ -144,11 +151,11 @@ AFTER:  Resources can now sell ancillary services directly into the real-time ma
 - **Key facts #4** (cites e10): - Real-time prices are final at 1600 on the second Business Day after the Operating Day. [e10]
 - **Key facts #5** (cites e3): - The Adjustment Period runs from 1800 in the Day-Ahead to the start of the hour before the Operating Hour. [e3]
 - **Key facts #6** (cites e15): - 2025: price spikes were 40% less frequent than in 2024. [e15]
-- **Common confusion #1** (cites e7, e8): The five-minute SCED prices are not what you are settled on. Settlement is on 15-minute Settlement Point Prices that combine all SCED runs in the interval and add the reliability deployment adder. [e7][e8] The DAM, by contrast, settles hourly. (See the dam topic.)
+- **Common confusion #1** (cites e7, e8, e19): The five-minute SCED prices are not what you are settled on. Settlement is on 15-minute Settlement Point Prices that combine all SCED runs in the interval and add the reliability deployment adder. [e7][e8] The DAM, by contrast, settles on a one-hour Settlement Interval. [e19] (See the dam topic.)
 - **Questions #2** (cites e5): About every five minutes, or more often if necessary. It produces Base Points, Ancillary Service awards, LMPs and Real-Time MCPCs. [e5]
 - **Questions #4** (cites e6, e3): It lets QSEs adjust trades, Self-Schedules and Resource commitments as more accurate information becomes available. [e6] It starts at 1800 in the Day-Ahead. [e3]
 - **Questions #6** (cites e17, e11): RTC was implemented, and the real-time market now simultaneously procures energy and ancillary services. [e17][e11]
-- **Link to dam** (cites e7): contrasts-with Day-Ahead Market (DAM): The DAM is the forward financial market, settled hourly, while real time settles on 15-minute intervals. [e7]
+- **Link to dam** (cites e19, e7): contrasts-with Day-Ahead Market (DAM): DAM energy settlements use a one-hour Settlement Interval, while real time settles on 15-minute intervals. [e19][e7]
 - **Link to sced** (cites e5, e6): composed-of SCED (Security-Constrained Economic Dispatch): SCED produces the Base Points, Ancillary Service awards, LMPs and MCPCs that the RTM runs on about every five minutes. [e5][e6]
 - **Link to spp** (cites e8, e9): determines SPP (Settlement Point Price): Real-Time Settlement Point Prices are built from SCED LMPs plus the reliability deployment adder, with a floor of -$251/MWh. [e8][e9]
 - **Link to lmp** (cites e8): used-in LMP (Locational Marginal Price): The Resource Node settlement price is the time-weighted average of LMPs plus the adder. [e8]

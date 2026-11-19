@@ -64,7 +64,7 @@ AFTER:  (8) Each QSE representing a Qualifying Facility (QF) must submit a Low S
 
 - **Definition #1** (cites e1): The Current Operating Plan (COP) is a QSE's plan reflecting anticipated operating conditions for each Resource it represents for each hour in the next seven Operating Days, including Resource operational data, Resource Status and Ancillary Service capabilities. [e1]
 - **How it works #1** (cites e2, e3, e4, e8, e5): Every QSE that represents a Resource must submit a COP. [e2] ERCOT uses the information to calculate operating limits and Ancillary Service capabilities for each Resource for the RUC processes. [e3] QSEs report changes by exception for all hours after the Operating Period through the rest of the Operating Day, [e4] and must submit a revised COP no later than 60 minutes after an event that changes Resource availability. [e8] When a COP changes Resource Status, the QSE must update the Energy Offer Curve or Output Schedule for each On-Line Resource. [e5]
-- **ERCOT context #1** (cites e6, e7): The COP is a planning and commitment input, not the real-time dispatch input: SCED uses telemetered Resource Status validated by the Real-Time Sequence instead of the COP Resource Status. [e6] The COP still matters for pricing because the day-ahead Energy Offer Curve is bounded by the LSL and HSL specified in the COP. [e7]
+- **ERCOT context #1** (cites e6, e7): For Resource Status, SCED does not use the COP: SCED uses telemetered Resource Status validated by the Real-Time Sequence instead of the COP Resource Status. [e6] The COP still matters in the day-ahead market because a Generation Resource's Energy Offer Curve is bounded in the DAM by the LSL and HSL specified in the COP. [e7]
 - **Key facts #1** (cites e1): - Covers each hour in the next seven Operating Days. [e1]
 - **Key facts #2** (cites e2): - Must be submitted by each QSE that represents a Resource. [e2]
 - **Key facts #3** (cites e3): - Used by ERCOT for RUC operating limits and Ancillary Service capabilities. [e3]
@@ -80,7 +80,7 @@ AFTER:  (8) Each QSE representing a Qualifying Facility (QF) must submit a Low S
 - **Link to energy-offer-curve** (cites e5): related Energy Offer Curve: When a COP changes Resource Status, the QSE must update the Energy Offer Curve or Output Schedule. [e5]
 - **Link to sced** (cites e6): contrasts-with SCED (Security-Constrained Economic Dispatch): SCED uses telemetered Resource Status instead of the COP Resource Status. [e6]
 - **Link to hsl-lsl** (cites e7): related HSL / LSL: The DAM offer curve is bounded by the LSL and HSL specified in the COP. [e7]
-- **Link to three-part-supply-offer** (cites e7): related Three-Part Supply Offer: Day-ahead offers are bounded by COP limits. [e7]
+- **Link to three-part-supply-offer** (cites e7): related Three-Part Supply Offer: A Generation Resource's day-ahead Energy Offer Curve is bounded by the LSL and HSL specified in the COP. [e7]
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
 - (Say it like this) The COP is the QSE's rolling seven-day plan for each unit: whether it is on, its limits and what ancillary services it can provide. ERCOT uses it for commitment and day-ahead; real-time dispatch runs off telemetry.

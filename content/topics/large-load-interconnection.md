@@ -6,7 +6,7 @@ kind: rule
 domain: structure
 level: 2
 lenses: [analyst, trading, portfolio, structuring]
-as_of: 2026-11-18
+as_of: 2026-11-19
 links:
   - to: sb6
     type: related
@@ -146,6 +146,22 @@ evidence:
     source: pura-39
     locator: "PURA §39.361(b), Large Flexible Load Registration"
     quote: "The commission by rule shall require a person operating a virtual currency mining facility who enters into an agreement for retail electric service in the ERCOT power region to register the facility receiving service as a large flexible load under this section if:(1)  the facility requires a total load of more than 75 megawatts; and(2)  the facility load is interruptible."
+  - id: e30
+    source: ercot-batch-zero-update-2026-09
+    locator: "Batch Zero Update to the Board (Sept. 14-15, 2026), slide 3, Actions taken by ERCOT"
+    quote: "August 3, 2026 – Issued a Market Notice pausing the Batch Zero study process and delaying final classification of all Large Loads."
+  - id: e31
+    source: ercot-batch-zero-update-2026-09
+    locator: "Batch Zero Update to the Board (Sept. 14-15, 2026), slide 7, note"
+    quote: "Final project inclusion / exclusion determination will be based on the results of the eligibility verification and audit and provided in December"
+  - id: e32
+    source: ercot-batch-zero-audit-2026-11
+    locator: "ERCOT Update filed Nov. 4, 2026 (Project 59142, item 78), Attachment A, Concluding the Verification Process"
+    quote: "ERCOT must complete its review this month to file a report with the PUCT on December 10, 2026."
+  - id: e33
+    source: ercot-batch-zero-update-2026-09
+    locator: "Batch Zero Update to the Board (Sept. 14-15, 2026), Key Takeaways"
+    quote: "204 projects (66.4 GW) met the qualifications to be conditionally included as base load;"
 ---
 
 ## Definition
@@ -158,13 +174,13 @@ Planning Guide Section 9 records the move from individual Large Load interconnec
 
 Each request is sorted into base load, studied load or excluded load. Base load is a mature project that gets its full allocation without a restudy. Excluded load is deferred to a later batch. [e22] A studied load may get its full request, part of it, or be told to wait for a later batch if the grid cannot take it yet. [e4] There are two optional pathways. [e27] The first is the Withdrawal-Limited Private Use Network (WLPUN): a private network with both generation and a Large Load, whose withdrawal limit at its point of interconnection is set by ERCOT's system-wide study. [e23] The second is the Provisional Controllable Load Resource (PCLR). A PCLR site lets ERCOT curtail it when local transmission constraints bind, and in return it gets some grid access before the full transmission build-out. [e8]
 
-The PUCT's interconnection standards in 16 TAC §25.194 set the rules for utilities connecting a large load customer in ERCOT. [e9] One of those rules is $50,000 per MW of financial security, posted with the utility, for a new request or for an expansion's added MW. [e10]
+The PUCT's interconnection standards in 16 TAC §25.194 set the rules for utilities connecting a large load customer in ERCOT. [e9] One of those rules is intermediate financial security of $50,000 per MW, posted with the utility, for a new request or for an expansion's added MW. [e10]
 
 ## ERCOT context
 
-Batch Zero was preceded by an interim process started in March 2022 [e15] and by the PGRR115 requirements, which ERCOT said would be effective on December 15, 2025. [e16] The Batch Zero rules (PGRR145 and NPRR1325) [e28] were adopted by the ERCOT Board on June 2, 2026 and approved by the PUCT on June 18, 2026. [e6] Batch Zero and the WLPUN pathway took effect on July 11, 2026. [e7] In August 2026 ERCOT said it intends to temporarily pause the Batch Zero study until a verification and audit of data centers, directed by the Governor, was complete. [e11]
+Batch Zero was preceded by an interim process started in March 2022 [e15] and by the PGRR115 requirements, which ERCOT said would be effective on December 15, 2025. [e16] The Batch Zero rules (PGRR145 and NPRR1325) [e28] were adopted by the ERCOT Board on June 2, 2026 and approved by the PUCT on June 18, 2026. [e6] Batch Zero and the WLPUN pathway took effect on July 11, 2026. [e7] In August 2026 ERCOT said it intends to temporarily pause the Batch Zero study until a verification and audit of data centers, directed by the Governor, was complete. [e11] ERCOT's September 2026 Board update lists, among its actions, issuing a Market Notice on August 3, 2026 that paused the Batch Zero study process and delayed final classification of all Large Loads. [e30] The same update says the final decision on which projects are included or excluded will follow the eligibility verification and audit and be provided in December. [e31] In its November 4, 2026 filing ERCOT said it must complete its review that month to file a report with the PUCT on December 10, 2026. [e32]
 
-The sizes involved are very large and depend on the date. As of July 28, 2026, ERCOT's preliminary overview put about 205 GW of Large Load as eligible for Batch Zero based on existing studies. [e12] By September 2026, ERCOT said the conditional base and studied load totalled about 100 GW in 2028, rising to about 192 GW in 2032. [e13] The IMM's 2025 report argues that a resource adequacy constraint should be applied in load interconnection, so that ERCOT does not approve more new load than is physically feasible. [e14]
+The sizes involved are very large and depend on the date. As of July 28, 2026, ERCOT's preliminary overview put about 205 GW of Large Load as eligible for Batch Zero based on existing studies. [e12] By September 2026, ERCOT said the conditional base and studied load totalled about 100 GW in 2028, rising to about 192 GW in 2032. [e13] The September Board update counts 204 projects (66.4 GW) as conditionally included as base load. [e33] The IMM's 2025 report argues that a resource adequacy constraint should be applied in load interconnection, so that ERCOT does not approve more new load than is physically feasible. [e14]
 
 ## Key facts
 
@@ -172,8 +188,8 @@ The sizes involved are very large and depend on the date. As of July 28, 2026, E
 - Three classifications: base load, studied load, excluded load. A studied load may get full, partial or no allocation in Batch Zero. [e22][e4]
 - Decided: ERCOT Board adoption on June 2, 2026; PUCT approval on June 18, 2026. [e6]
 - Batch Zero and WLPUN effective July 11, 2026. The PCLR pathway takes effect "upon system implementation", so it is still pending. [e7][e21]
-- §25.194 sets security of $50,000 per MW of requested peak demand. [e10]
-- Pending: ERCOT said in August 2026 that it intends to pause the Batch Zero study until a verification and audit is complete. [e11]
+- §25.194 sets intermediate financial security of $50,000 per MW of requested peak demand (or of the added MW for an expansion). [e10]
+- Paused: the PUCT's August 2026 order says ERCOT intends to pause the Batch Zero study until a verification and audit is complete [e11]; ERCOT's September 2026 Board update says a Market Notice of August 3, 2026 paused the study process. [e30] As of ERCOT's November 4, 2026 filing, its report to the PUCT is due December 10, 2026. [e32]
 - Batch 1 applications are planned to open in summer 2027 (as stated June 18, 2026). [e17]
 
 ## Timeline
@@ -184,18 +200,20 @@ The sizes involved are very large and depend on the date. As of July 28, 2026, E
 - June 18, 2026: the PUCT approves the rules, making them final. [e6]
 - July 11, 2026: Batch Zero and WLPUN take effect. [e7]
 - July 28, 2026 (data date): about 205 GW is shown as eligible for Batch Zero based on existing studies. [e12]
-- August 2026: ERCOT plans to pause the Batch Zero study until the Governor-directed verification and audit is done. The PUCT grants good cause exceptions, including from the August 7, 2026 deadline to classify Large Loads. [e25]
+- August 3, 2026: per ERCOT's September Board update, a Market Notice pauses the Batch Zero study process and delays final classification of all Large Loads. [e30]
+- August 2026: ERCOT plans to pause the Batch Zero study until the Governor-directed verification and audit is done. The PUCT grants good cause exceptions, including from the August 7, 2026 deadline to classify Large Loads. [e11][e25]
 - September 2026: the conditional base and studied load is about 100 GW in 2028 and about 192 GW in 2032. [e13]
 - October 8, 2026: §25.194 is in effect (the rule pages carry "effective 10/08/2026"). [e20]
+- November 2026: ERCOT says it must complete its verification review this month to file a report with the PUCT on December 10, 2026. [e32]
 - Summer 2027 (planned as of June 2026): Batch 1 applications open. [e17]
 
 ## Say it like this
 
-(Guidance) ERCOT no longer studies big data centers one at a time. It studies every qualifying request together in "Batch Zero" and gives each project a MW allocation the grid can support. The rules were final in June 2026, but in August 2026 ERCOT said it intends to pause the study for an audit, so allocations and the transmission plan that follows are still pending. [e6][e11]
+(Guidance) ERCOT no longer studies big data centers one at a time. It studies every qualifying request together in "Batch Zero" and gives each project a MW allocation the grid can support. The rules were final in June 2026, but the study was paused in August 2026 for a verification and audit, so allocations and the transmission plan that follows are still pending. [e6][e11][e30]
 
 ## Common confusion
 
-(Guidance) Queue size, the Batch Zero eligible amount and the Batch Zero allocated amount are three different numbers. The queue is everything requested. About 205 GW was eligible as of July 2026 [e12], and the conditional base plus studied load was about 100 to 192 GW over 2028 to 2032 as of September 2026. [e13] Also, a PCLR is not the same as an ordinary CLR. It is a pathway for getting interconnected, and it takes effect only after system implementation. [e8][e21]
+(Guidance) Queue size, the Batch Zero eligible amount and the conditionally classified base plus studied amount are three different numbers, and none of them is a final allocation. The queue is everything requested. About 205 GW was eligible as of July 2026 [e12], and the conditional base plus studied load was about 100 to 192 GW over 2028 to 2032 as of September 2026. [e13] Also, a PCLR is not the same as an ordinary CLR. It is a pathway for getting interconnected, and it takes effect only after system implementation. [e8][e21]
 
 ## Questions
 
@@ -205,7 +223,7 @@ Studying projects one at a time meant every new project could invalidate earlier
 
 ### What is the status of Batch Zero as of late 2026?
 
-The rules were approved by the PUCT on June 18, 2026 and took effect on July 11, 2026. [e6][e7] In August 2026 ERCOT said it would pause the study for a verification and audit, and the PUCT granted a good cause exception from the August 7, 2026 deadline to classify Large Loads. [e11][e25]
+The rules were approved by the PUCT on June 18, 2026 and took effect on July 11, 2026. [e6][e7] In August 2026 the study was paused for a verification and audit, and the PUCT granted a good cause exception from the August 7, 2026 deadline to classify Large Loads. [e11][e30][e25] As of November 2026, ERCOT's verification report to the PUCT is due December 10, 2026, and final inclusion decisions were expected in December. [e32][e31]
 
 ### How can a data center connect faster than the queue allows?
 
@@ -213,7 +231,8 @@ It can use one of two optional pathways. [e27] A WLPUN lets on-site generation o
 
 ## Open items
 
-- The date the Batch Zero pause ends and the audit results: not in the saved sources (latest is the order filed August 20, 2026).
+- The date the Batch Zero pause ends and the audit results: not in the saved sources (latest is ERCOT's filing of November 4, 2026, which gives a December 10, 2026 report date). ERCOT's September 2026 Board update says the effect on the study timeline is still to be determined.
+- The September 2026 Board update gives the conditional studied load as 127.9 GW (158 projects) in its Key Takeaways but 125.4 GW on its chart; the studied figure is therefore not stated in this topic.
 - The adoption date of §25.194 is not stated in the saved rule text. Only the page footer "effective 10/08/2026" is there. The April 2026 ERCOT update describes the proposal published March 12, 2026.
 - Deeper pass: the seven base-load eligibility paths (Planning Guide 9.2.1.1), the reclassification dispute window, the SLLIA terms, refund and forfeiture rules in §25.194, and WLPUN withdrawal limits.
 - Deeper pass: the NPRR1325 Protocol changes (PCLR registration in Section 16.5.5, adjusted bid caps, SCED changes).

@@ -53,14 +53,21 @@ BEFORE: … executed after the DRUC. Hub A designated Settlement Point consistin
 QUOTE: The list of Hub Buses and the Settlement price calculation methodology that define a Hub can never be modified, and a Hub, once defined, exists in perpetuity.
 AFTER:  Hub Bus (1) In the Day-Ahead Market (DAM) and Congestion Revenue Right (CRR) Auction, an energized power flow bus or group of energized power flow buses are defined as a single element in the Hub definition. The Locational Marginal Price (LMP) of the Hub Bus is the simple average of the LMPs assign…
 
+### e8 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.5.2.1, paragraph (2) · text copy line 2542 · heading above: 3.5.2.1 North 345 kV Hub (North 345)
+
+BEFORE: …ONE 345 NORTH 65 TRCNR 345 NORTH 66 TRSES 345 NORTH 67 TOKSW 345 NORTH 68 VENSW 345 NORTH 69 WLVEE 345 NORTH 70 W_DENT 345 NORTH 71 WTRML 345 NORTH 72 WCSWS 345 NORTH 73 WEBBS 345 NORTH 74 WHTNY 345 NORTH 75 WCPP 345 NORTH ------------------------------------------------------------------------ (2) 
+QUOTE: The North 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Settlement Interval of the Day-Ahead Market (DAM) in the Day-Ahead and is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval in Real-Time, for each Hub Bus included in this Hub.
+AFTER:  (3) The Day-Ahead Settlement Point Price of the Hub for a given Operating Hour is calculated as follows: DASPP _(North345) = DASL - $\begin{array}{r} \mathbf{\Sigma} \\ \mathbf{c} \end{array}$(DAHUBSF _(North345, c) * DASP _(c)), if HBBC _(North345)≠0 DASPP _(North345) = DASPP _(ERCOT345Bus), if HB…
+
 ## Statements to check
 
 - **Definition #1** (cites e1, e2): The West 345 kV Hub (West 345) is one of the Hubs defined in Protocol Section 3.5.2, composed of a listed set of 345 kV Hub Buses. [e1] A Hub is a designated Settlement Point made of a Hub Bus or group of Hub Buses with the price methodology in its definition. [e2] The market shorthand "HB_WEST" is not used in the saved protocol text.
-- **How it works #1** (cites e3, e7, e4): The West 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour in the Day-Ahead, and in real time is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval. [e3] Its buses and method can never be modified. [e7] West 345 is one of four hub prices averaged into the ERCOT Hub Average 345 kV Hub. [e4]
+- **How it works #1** (cites e3, e7, e4): The West 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour in the Day-Ahead, and in real time is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval. [e3] Its buses and method can never be modified. [e7] In real time, the West 345 kV Hub price is one of four hub prices averaged into the ERCOT Hub Average 345 kV Hub price. [e4]
 - **ERCOT context #1** (cites e5, e6) FLAG number-not-in-quote: 2025: In the IMM's 2025 report the West Zone is the largest contributor to intrazonal congestion costs, export constrained in the panhandle because of renewables and import constrained in the Permian Basin. [e5] The IMM also reports that the West Zone had the highest annual average zonal energy prices for the second year in a row (2025). [e6] Those statements are about the West Load Zone, not the West Hub, so hub-specific price levels should be checked separately. [e6]
 - **Key facts #1** (cites e1) FLAG number-not-in-quote: 3.5, 2.4: - The West 345 kV Hub is defined in Protocol Section 3.5.2.4. [e1]
 - **Key facts #2** (cites e3): - Day-ahead price uses aggregated Shift Factors; real-time price is the simple average of time-weighted Hub Bus prices per 15-minute interval. [e3]
-- **Key facts #3** (cites e4): - It is one of four prices in the ERCOT Hub Average 345 kV Hub price. [e4]
+- **Key facts #3** (cites e4): - In real time it is one of four prices averaged in the ERCOT Hub Average 345 kV Hub price. [e4]
 - **Key facts #4** (cites e6) FLAG number-not-in-quote: 2025: - 2025 IMM: West Zone had the highest annual average zonal energy price for the second year in a row. [e6]
 - **Common confusion #1** (cites e3, e6): - West Hub versus West Load Zone: the Hub price follows the Hub definition, and the IMM's zone statements do not automatically apply to the Hub. [e3][e6]
 - **Common confusion #2** (cites e5): - Hub versus generators in the Permian or Panhandle: the IMM reports large intrazonal congestion costs in the West Zone, so check node-level prices rather than assuming the hub or zone price applies to a given generator. [e5]
@@ -68,7 +75,7 @@ AFTER:  Hub Bus (1) In the Day-Ahead Market (DAM) and Congestion Revenue Right (
 - **Questions #4** (cites e3): As the simple average of time-weighted Hub Bus prices for each 15-minute Settlement Interval. [e3]
 - **Link to trading-hub** (cites e1): is-a Trading Hubs: The West 345 kV Hub is one of the defined Hubs. [e1]
 - **Link to settlement-point** (cites e2): is-a Settlement Point: A Hub is a kind of Settlement Point. [e2]
-- **Link to hb-north** (cites e3): contrasts-with HB_NORTH (North Hub): The North 345 kV Hub is defined the same way over a different bus list. [e3]
+- **Link to hb-north** (cites e3, e8): contrasts-with HB_NORTH (North Hub): The North 345 kV Hub Price uses the same pricing method as the West 345 kV Hub (aggregated Shift Factors in the Day-Ahead, simple average of time-weighted Hub Bus prices in Real-Time) over its own Hub Buses. [e3][e8]
 - **Link to congestion** (cites e5) FLAG number-not-in-quote: 2025: related Transmission Congestion: In the IMM's 2025 report the West Zone is the largest contributor to intrazonal congestion costs. [e5]
 - **Link to load-zone** (cites e6): contrasts-with Load Zone: The IMM's West Zone statements are about the Load Zone, not this Hub. [e6]
 ## Uncited guidance text (check for new facts, numbers, dates, names)

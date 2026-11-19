@@ -105,7 +105,7 @@ AFTER:  The West zone includes both the Panhandle, which has abundant wind and s
 - **ERCOT context #2** (cites e12): For outcomes, the IMM reports that in 2025 the West zone had the highest average price, followed by the South zone. [e12]
 - **Key facts #1** (cites e2): - Settlement Points are Resource Nodes, Load Zones and Hubs. [e2]
 - **Key facts #2** (cites e3): - The Day-Ahead SPP at a Resource Node equals the DAM LMP there. [e3]
-- **Key facts #3** (cites e5): - The Real-Time SPP is calculated per 15-minute Settlement Interval from SCED-interval LMPs plus the Reliability Deployment Price Adder for Energy. [e5]
+- **Key facts #3** (cites e5): - The Real-Time SPP is calculated per 15-minute Settlement Interval from Real-Time LMPs plus the Reliability Deployment Price Adder for Energy. [e5]
 - **Key facts #4** (cites e8): - Real-Time SPPs have an administrative floor of -$251/MWh. [e8]
 - **Key facts #5** (cites e12): - In 2025 the West zone had the highest average zonal price, then South (IMM). [e12]
 - **Common confusion #1** (cites e1): - SPP versus LMP: the LMP is a bus-level SCED or DAM output, while the SPP is the settled price at a Settlement Point. [e1]
@@ -124,5 +124,5 @@ AFTER:  The West zone includes both the Panhandle, which has abundant wind and s
 - **Link to negative-prices** (cites e8): related Negative Prices: The real-time SPP has an administrative floor. [e8]
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
-- (Say it like this) The SPP is the price that actually settles: it is built from LMPs but computed at a Resource Node, Load Zone or Hub, hourly in the day-ahead and per 15 minutes in real time. Generators see node prices, loads see zone averages, and hubs are the standardized reference points.
+- (Say it like this) The SPP is the price that actually settles: it is built from LMPs but computed at a Resource Node, Load Zone or Hub, hourly in the day-ahead and per 15 minutes in real time. Generators see node prices, loads see zone averages, and hubs follow their own definitions.
 

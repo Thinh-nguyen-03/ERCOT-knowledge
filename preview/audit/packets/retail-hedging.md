@@ -63,7 +63,7 @@ AFTER:  Flowgate Right (FGR) A type of CRR that entitles the holder to receive c
 ## Statements to check
 
 - **Definition #1** (cites e1): In the IMM's description, retail hedging is how load-serving entities manage their exposure to real-time energy prices: by owning generation, entering bilateral power purchase agreements (PPAs), participating in futures markets, or procuring energy in the day-ahead market. [e1]
-- **How it works #1** (cites e2): Most load is not settled at real-time prices. The IMM reports that on average only 17% of load was exposed to real-time prices in 2024, with the rest of real-time load hedged by day-ahead market positions, including PTP obligations. [e2]
+- **How it works #1** (cites e2): Most load is not settled at real-time prices. The IMM reports that on average only 17% of load was exposed to real-time prices in 2024, with the rest of real-time load hedged by day-ahead market positions, including PTPs. [e2]
 - **How it works #2** (cites e4) FLAG number-not-in-quote: 2021: In its 2021 report the IMM's exposure measure was based solely on ERCOT-administered markets and did not include bilateral or over-the-counter index purchases. [e4]
 - **ERCOT context #1** (cites e3): The IMM cautions that day-ahead forward hedging protects against volatility and uncertainty but gives little protection against sustained high prices, because day-ahead prices in a well-performing market tend to reflect expected real-time prices. [e3]
 - **ERCOT context #2** (cites e5, e6) FLAG number-not-in-quote: 2021: In the February 2021 event, retailers' outcomes depended on how well their price risk was hedged and on how outages affected their obligations to provide energy. [e5] Load-serving entities that were inadequately hedged were named among the financial losers. [e6]
@@ -77,7 +77,7 @@ AFTER:  Flowgate Right (FGR) A type of CRR that entitles the holder to receive c
 - **Questions #6** (cites e5): How much of their price risk was hedged, and how outages affected their obligation to provide energy. [e5]
 - **Link to rep** (cites e5) FLAG number-not-in-quote: 2021: related REP (Retail Electric Provider): REPs are the retailers whose exposure to wholesale prices was tested in February 2021. [e5]
 - **Link to lse** (cites e1): related LSE (Load Serving Entity): The IMM describes how load-serving entities manage real-time price exposure. [e1]
-- **Link to ptp-obligation** (cites e2): hedges PTP Obligation: PTP obligations scheduled in the day-ahead market are one of the positions that hedge real-time load. [e2]
+- **Link to ptp-obligation** (cites e2): hedges PTP Obligation: The IMM lists PTPs among the day-ahead market positions that hedge real-time load. [e2]
 - **Link to dam** (cites e1): related Day-Ahead Market (DAM): Day-ahead purchases are one way LSEs cover real-time price exposure. [e1]
 - **Link to winter-storm-uri** (cites e6) FLAG number-not-in-quote: 2021: example-of Winter Storm Uri (Feb 2021): Inadequately hedged retailers were among the financial losers of the event. [e6]
 - **Link to crr** (cites e8): related CRR (Congestion Revenue Right): A CRR entitles the holder to be charged or to receive congestion rent when the grid is congested, which is a different risk from the energy price level. [e8]

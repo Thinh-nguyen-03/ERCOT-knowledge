@@ -67,6 +67,13 @@ BEFORE: …ed on whether it is possible for the facility operator to choose to i
 QUOTE: Added by Acts 2023, 88th Leg., R.S., Ch. 463 (S.B. 1929), Sec. 1, eff. September 1, 2023.
 AFTER: Redesignated from Utilities Code, Section 39.360 by Acts 2025, 89th Leg., R.S., Ch. 204 (H.B. 1620), Sec. 22.001(71), eff. September 1, 2025. SUBCHAPTER I. PROVISIONS FOR CERTAIN NON-ERCOT UTILITIES Sec. 39.401. APPLICABILITY. This subchapter shall apply to investor-owned electric utilities operatin…
 
+### e10 · `ercot-cdr-2025-12` · tier 2 · Report on the Capacity, Demand and Reserves (CDR) in the ERCOT Region, 2026-2030 (December 2025)
+locator: Glossary, Large Flexible Load (LFL) · text copy line 114128
+
+BEFORE: …ns as specified by the equipment manufacturer. ERCOT uses Real Power Ratings that reflect the continuous flow of power to loads (as opposed to reactive power, which is the power that flows back and forth between the power source and loads, and doesn't perform useful work.) Large Flexible Load (LFL) 
+QUOTE: A Large Load (as defined below) that can come online quickly and is very responsive to real time prices. An LFL is typically a crypto-currency mining site.
+AFTER:  Large Load One or more Facilities at a single site with an aggregate peak Demand greater than or equal to 75 MW behind one or more common Points of Interconnection (POIs) or Service Delivery Points. LRs (Load Resources) Load capable of reducing or increasing the need for electrical energy or provid…
+
 ## Statements to check
 
 - **Definition #1** (cites e1): Under PURA, a large flexible load is a facility operated by a virtual currency mining operator, with an agreement for retail electric service in ERCOT, that requires a total load of more than 75 megawatts and whose load is interruptible. The PUCT must by rule require such a facility to be registered as a large flexible load. [e1]
@@ -78,7 +85,7 @@ AFTER: Redesignated from Utilities Code, Section 39.360 by Acts 2025, 89th Leg.,
 - **Key facts #3** (cites e4): - The Protocols' Large Load threshold: aggregate peak Demand of at least 75 MW at a site. [e4]
 - **Key facts #4** (cites e5): - A Large Computational Load is a Large Load that is at least 50% computational power-electronic load. [e5]
 - **Key facts #5** (cites e7): - 2025: crypto-currency mining demand about 4,600 MW. [e7]
-- **Common confusion #1** (cites e1, e4, e5): (Guidance) "Large Flexible Load" is a PURA registration category for virtual currency mining facilities above 75 MW with interruptible load. [e1] "Large Load" and "Large Computational Load" are the Protocol terms, with a 75 MW site threshold, and they are not limited to flexible or crypto loads. [e4][e5] The saved np-02 does not define "Large Flexible Load".
+- **Common confusion #1** (cites e1, e4, e5, e10) FLAG number-not-in-quote: 2025: (Guidance) "Large Flexible Load" is a PURA registration category for virtual currency mining facilities above 75 MW with interruptible load. [e1] "Large Load" and "Large Computational Load" are the Protocol terms, with a 75 MW site threshold, and they are not limited to flexible or crypto loads. [e4][e5] The saved np-02 does not define "Large Flexible Load". ERCOT's December 2025 CDR glossary uses the term in a different, looser sense: a Large Load that can come online quickly and is very responsive to real time prices, typically a crypto-currency mining site. [e10]
 - **Questions #2** (cites e1) FLAG number-not-in-quote: 75 MW: It is a virtual currency mining facility under a retail electric service agreement in ERCOT, requiring more than 75 MW, with interruptible load. [e1]
 - **Questions #4** (cites e4, e5): It is a Large Load where 50% or more of site Demand is power-electronic computational load such as data centers and crypto mining. [e4][e5]
 - **Questions #6** (cites e7, e8): It reports about 4,600 MW of crypto-mining demand in 2025 and that crypto operations were more than half of ERS capacity by year end. [e7][e8]

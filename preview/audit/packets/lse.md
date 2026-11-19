@@ -88,12 +88,13 @@ AFTER:  (6) If a Resource Entity fails to meet the requirements of one of the op
 - **How it works #2** (cites e3, e5): An LSE does not interface with ERCOT alone: it must designate a QSE to perform QSE functions on its behalf. [e3] All CRs must also complete Retail Market Testing before commencing operations with ERCOT. [e5]
 - **How it works #3** (cites e6): An ELSE assigns an ESI ID for each wholesale point of delivery. [e6]
 - **ERCOT context #1** (cites e2, e1): "Competitive Retailer" is itself a defined term: a REP, or an MOU or EC that offers Customer Choice and sells at retail. [e2] So the LSE label covers Competitive Retailers (REPs, and MOUs or ECs that offer Customer Choice), NOIEs that serve Load, and ELSEs. [e1][e2]
-- **ERCOT context #2** (cites e10, e9): If an LSE loses its QSE and does not cure the QSE Affiliation Breach, and it serves Load, ERCOT initiates a Mass Transition of the LSE's ESI IDs. [e10] An LSE without a QSE may be designated an Emergency QSE. [e9]
+- **ERCOT context #2** (cites e10, e9): If an LSE's QSE failure becomes a QSE Affiliation Breach that it does not cure within the cure period, and it serves Load, ERCOT shall, after notice, initiate a Mass Transition of the LSE's ESI IDs. [e10] An LSE without a QSE may be designated an Emergency QSE. [e9]
 - **Key facts #1** (cites e1): - LSEs include CRs (which includes REPs), NOIEs that serve Load, and ELSEs. [e1]
 - **Key facts #2** (cites e4): - Each LSE must register with ERCOT. [e4]
 - **Key facts #3** (cites e5): - All CRs must complete Retail Market Testing before commencing operations with ERCOT. [e5]
 - **Key facts #4** (cites e7, e4) FLAG number-not-in-quote: 16.4, 16.3: - TSPs and DSPs register with ERCOT as a TSP or DSP, under Section 16.4 rather than the LSE registration in Section 16.3. [e7][e4]
 - **Key facts #5** (cites e10): - Failure to cure a QSE Affiliation Breach by an LSE serving Load leads to a Mass Transition of its ESI IDs. [e10]
+- **Say it like this #1** (cites e1, e4, e3): (Guidance) "LSE" is the ERCOT registration label for an Entity that sells energy to Customers or Wholesale Customers: retailers, non-opt-in entities that serve Load, and external load serving entities. [e1] It has to register with ERCOT [e4] and designate a QSE. [e3]
 - **Common confusion #1** (cites e1, e2, e7, e4) FLAG number-not-in-quote: 16.4, 16.3: (Guidance) LSE is broader than REP. A REP is one kind of Competitive Retailer, and Competitive Retailers are one kind of LSE. [e1][e2] TSPs and DSPs register as such with ERCOT under Section 16.4, and Section 16.3 lists NOIEs, CRs and ELSEs as the LSE types. [e7][e4]
 - **Questions #2** (cites e1, e4): Competitive Retailers (including REPs), NOIEs that serve Load, and External Load Serving Entities. [e1][e4]
 - **Questions #4** (cites e4, e3, e11, e5): It must register with ERCOT, designate a QSE, and have ERCOT approve that designation before a CR enrolls Customer ESI IDs. [e4][e3][e11] A CR must also complete Retail Market Testing. [e5]
@@ -103,7 +104,3 @@ AFTER:  (6) If a Resource Entity fails to meet the requirements of one of the op
 - **Link to esi-id** (cites e6): related ESI ID: An ELSE assigns an ESI ID for each wholesale point of delivery. [e6]
 - **Link to retail-choice** (cites e1): related Retail Choice / Competitive Retail Market: LSEs include Competitive Retailers and NOIEs that serve Load. [e1]
 - **Link to tdsp** (cites e7, e4) FLAG number-not-in-quote: 16.3: contrasts-with TDSP (Transmission & Distribution Service Provider): TSPs and DSPs register with ERCOT as a TSP or DSP, which is separate from the LSE registration in Section 16.3. [e7][e4]
-## Uncited guidance text (check for new facts, numbers, dates, names)
-
-- (Say it like this) (Guidance) "LSE" is the wholesale-market label for whoever sells energy to end customers or wholesale customers: retailers, non-opt-in utilities and external load serving entities. It has to register with ERCOT and be represented by a QSE.
-

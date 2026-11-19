@@ -66,12 +66,13 @@ AFTER:  A mix of private price reporting agencies and exchanges offer services a
 - **How it works #1** (cites e8, e5, e1): Changes in prices at natural gas hubs tend to be reflected in movements in prices at nearby power market hubs or zones. [e8] Most natural gas at U.S. trading hubs is priced relative to Henry Hub. [e5] EIA says Permian production has grown more rapidly than pipeline takeaway capacity, so Waha prices are typically lower than those at other hubs, sometimes turning negative. [e1]
 - **How it works #2** (cites e2): EIA reported that Waha traded below zero on 42% of trading days in 2024, and that the Matterhorn Express Pipeline (2.5 Bcf/d, in service October 2024) helped clear part of the bottleneck. [e2]
 - **ERCOT context #1** (cites e6, e4): ERCOT's own Fuel Index Price is based on Katy Hub gas, not Waha. [e6] The IMM therefore treats the two hubs separately when it calculates net revenue by location: Katy prices for the Houston zone and Waha prices for the West zone. [e4]
-- **ERCOT context #2** (cites e3, e7): The IMM says low Waha gas prices have historically produced much higher net revenues for gas resources in the West, and that the hub price gap widened in 2024 and 2025 as West zone congestion costs rose. It expects the gap to narrow as the related transmission work concludes. [e3][e7]
+- **ERCOT context #2** (cites e3, e7): The IMM says low Waha gas prices have historically produced much higher net revenues for gas resources in the West, and that the hub price gap widened in 2024 and 2025 as West zone congestion costs rose. The 2025 report expects the gap to narrow as work on "these projects" concludes (the 2025 text does not name them; the 2024 report tied the gap to transmission upgrades and maintenance in the West zone). [e3][e7]
 - **Key facts #1** (cites e1): - Waha is in West Texas near Permian Basin production. [e1]
 - **Key facts #2** (cites e2): - Waha traded below zero on 42% of trading days in 2024 (EIA). [e2]
 - **Key facts #3** (cites e1): - The Permian Basin produced 19% of total U.S. natural gas in 2023. [e1]
 - **Key facts #4** (cites e6): - ERCOT's FIP uses Katy Hub prices. [e6]
-- **Key facts #5** (cites e3): - The IMM expected the Katy-Waha gap to narrow again after the transmission work ends (2025 report). [e3]
+- **Key facts #5** (cites e3): - The IMM expected the Katy-Waha gap to narrow again as work on "these projects" concludes (2025 report; projects not named in that text). [e3]
+- **Say it like this #1** (cites e1, e4): (Guidance) Waha is the West Texas gas hub, and EIA says its prices are typically lower than other hubs because Permian production has grown faster than takeaway capacity. [e1] In ERCOT, the IMM uses Waha prices for West-zone gas units and Katy prices for Houston. [e4]
 - **Common confusion #1** (cites e6, e5): Waha is not ERCOT's Fuel Index Price: the FIP is a Katy Hub index. [e6] Waha is also not Henry Hub, the benchmark most hubs are priced against. [e5]
 - **Questions #2** (cites e1): Permian production, much of it associated gas from oil wells, has grown faster than takeaway pipeline capacity, so local gas is discounted and sometimes negative. [e1]
 - **Questions #4** (cites e4): Gas prices vary by location, so the IMM uses Katy for the Houston zone and Waha for the West zone when comparing net revenue for gas units. [e4]
@@ -80,8 +81,4 @@ AFTER:  A mix of private price reporting agencies and exchanges offer services a
 - **Link to hb-west** (cites e4): related HB_WEST (West Hub): The IMM reflects Waha gas prices in its West zone net-revenue calculations. [e4]
 - **Link to peaker-net-margin** (cites e4): related Peaker Net Margin (PNM): The IMM shows gas-unit net revenues by location, using Katy prices for Houston and Waha prices for the West zone. [e4]
 - **Link to congestion** (cites e3, e7): related Transmission Congestion: The IMM says congestion in the West zone widened the gap between the Katy and Waha hubs in 2024 and 2025. [e3][e7]
-- **Link to permian-transmission** (cites e3) FLAG number-not-in-quote: 765 kV: related Permian Basin Load & 765 kV Plan: The IMM expects the hub gap to narrow as transmission work in the Permian Basin concludes. [e3]
-## Uncited guidance text (check for new facts, numbers, dates, names)
-
-- (Say it like this) (Guidance) Waha is the West Texas gas hub, and it often trades well below Katy because Permian gas has had limited ways out. In ERCOT that matters for West-zone gas generators, whose gas cost can be below what the Katy-based FIP implies.
-
+- **Link to permian-transmission** (cites e3) FLAG number-not-in-quote: 765 kV: related Permian Basin Load & 765 kV Plan: The IMM's 2025 report ties the wider hub gap to the Permian Basin import constraint and expects the gap to narrow as work on "these projects" concludes. [e3]

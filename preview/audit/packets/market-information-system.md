@@ -85,7 +85,7 @@ AFTER:  12.2 ERCOT Responsibilities (1) ERCOT shall post information to the Mark
 
 - **Definition #1** (cites e1): The Market Information System (MIS) is an electronic communications interface established and maintained by ERCOT that lets Market Participants access certain information through authenticated credentials. [e1]
 - **How it works #1** (cites e2, e10, e4, e5): The MIS has two restricted areas. The Secure Area is available only to registered Market Participants, and the Certified Area only to a specific Market Participant. [e2][e10] ERCOT posts to the MIS as directed by the Protocols. [e4] The restricted areas can carry ERCOT Critical Energy Infrastructure Information (ECEII) where the Protocols require it, and then only authorized individuals with ECEII-eligible credentials may access it. [e5]
-- **How it works #2** (cites e9): ERCOT can also post to the Certified Area information a Market Participant requests but the Protocols do not require, if the request is reasonable. [e9]
+- **How it works #2** (cites e9): ERCOT can also post to the Certified Area information a Market Participant requests but the Protocols do not require, to the extent the request is reasonable, in ERCOT's sole discretion. [e9]
 - **ERCOT context #1** (cites e7, e8, e6): Examples from the Protocols: Securitization Default Charge invoices are posted to the MIS Certified Area, and TSP and DSP load with loss and UFE allocations goes to the MIS Secure Area. [e7][e8] Public data is different: items the Protocols require on the ERCOT website must be available on a non-discriminatory basis. [e6]
 - **Key facts #1** (cites e2, e10): - The MIS has a Secure Area (registered Market Participants) and a Certified Area (a specific Market Participant). [e2][e10]
 - **Key facts #2** (cites e1): - Access uses authenticated credentials. [e1]
@@ -95,7 +95,7 @@ AFTER:  12.2 ERCOT Responsibilities (1) ERCOT shall post information to the Mark
 - **Questions #2** (cites e2, e10): Secure Area: available only to registered Market Participants. Certified Area: available only to a specific Market Participant. [e2][e10]
 - **Questions #4** (cites e7): The Securitization Default Charge invoice is posted on the MIS Certified Area. [e7]
 - **Link to sixty-day-disclosure** (cites e6): related 60-Day Disclosure Reports: Data the Protocols require on the ERCOT website must be made available on a non-discriminatory basis. [e6]
-- **Link to settlement-statements** (cites e7): related Settlement Statements & Timeline: Settlement-related invoices are posted to the MIS Certified Area. [e7]
+- **Link to settlement-statements** (cites e7): related Settlement Statements & Timeline: The Securitization Default Charge Invoice, one settlement-related invoice, is posted to the MIS Certified Area. [e7]
 - **Link to ercot** (cites e3): related ERCOT: ERCOT creates and maintains the MIS. [e3]
 - **Link to nodal-protocols** (cites e4): related ERCOT Nodal Protocols: The Protocols say what ERCOT posts to the MIS. [e4]
 - **Link to qse** (cites e1): related QSE (Qualified Scheduling Entity): Market Participants access the MIS with authenticated credentials. [e1]
