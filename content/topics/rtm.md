@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: dam
     type: contrasts-with
-    note: The DAM is the forward financial market, settled hourly, while real time settles on 15-minute intervals. [e7]
+    note: DAM energy settlements use a one-hour Settlement Interval, while real time settles on 15-minute intervals. [e19][e7]
   - to: sced
     type: composed-of
     note: SCED produces the Base Points, Ancillary Service awards, LMPs and MCPCs that the RTM runs on about every five minutes. [e5][e6]
@@ -97,6 +97,10 @@ evidence:
     source: np-06
     locator: "Section 6.6.3.1, Real-Time Energy Imbalance Payment or Charge at a Resource Node"
     quote: "The payment or charge to each QSE for Energy Imbalance Service is calculated based on the Real-Time Settlement Point Price for the following amounts at a particular Resource Node Settlement Point:"
+  - id: e19
+    source: np-06
+    locator: "Section 6.1, Introduction, paragraph (4)"
+    quote: "In contrast, the Day-Ahead Market (DAM) energy settlements will use DAM Settlement Point Prices that are calculated for Resource Nodes, Load Zones, and Hubs for a one-hour Settlement Interval, and DAM Ancillary Service Settlements will use DAM MCPCs for a one-hour Settlement Interval."
   - id: e18
     source: imm-som-2025
     locator: "Appendix, G. RDPA (p. A-10)"
@@ -140,7 +144,7 @@ Real time is where physical dispatch happens: SCED sets prices and dispatch abou
 
 ## Common confusion
 
-The five-minute SCED prices are not what you are settled on. Settlement is on 15-minute Settlement Point Prices that combine all SCED runs in the interval and add the reliability deployment adder. [e7][e8] The DAM, by contrast, settles hourly. (See the dam topic.)
+The five-minute SCED prices are not what you are settled on. Settlement is on 15-minute Settlement Point Prices that combine all SCED runs in the interval and add the reliability deployment adder. [e7][e8] The DAM, by contrast, settles on a one-hour Settlement Interval. [e19] (See the dam topic.)
 
 ## Questions
 

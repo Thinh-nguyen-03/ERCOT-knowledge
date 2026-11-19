@@ -22,10 +22,10 @@ links:
     note: Constraint competitiveness is tested before each SCED execution. [e15]
   - to: offer-cap
     type: contrasts-with
-    note: The system-wide offer cap limits every offer, while mitigated offer caps apply only to specific Resources dispatched to resolve non-competitive constraints. [e5][e6]
+    note: Mitigated offer caps apply to Resources that meet the mitigation conditions for a non-competitive constraint, which is different from the system-wide offer cap covered in that topic. [e5][e6]
   - to: ruc
     type: related
-    note: A RUC-committed unit resolving a non-competitive constraint is dispatched with offers capped at mitigated levels. [e8]
+    note: A RUC-committed unit resolving a non-competitive constraint is often dispatched with offers capped at mitigated levels, per the IMM. [e8]
 evidence:
   - id: e1
     source: puct-25-502
@@ -125,7 +125,7 @@ Even so, the IMM continues to recommend system-wide market power mitigation [e12
 - SCED mitigation is two-step: Step 2 caps mitigated offers at the greater of Reference LMP (plus a small variable) or the MOC. [e5][e6]
 - The IMM may override the test by designating any constraint competitive or non-competitive. [e9]
 - Pivotal-supplier hours: over 90% of top-quartile net load hours in 2022, 35% in 2025. [e11]
-- The IMM recommends adding system-wide mitigation. [e12]
+- The IMM continues to recommend system-wide market power mitigation. [e12]
 
 ## Say it like this
 
@@ -133,7 +133,7 @@ ERCOT does not cap every offer; it tests each binding constraint, and if too few
 
 ## Common confusion
 
-This is not the system-wide offer cap. The offer caps limit every offer, while mitigation applies only to the Resources that SCED relies on for a non-competitive constraint. [e5][e6] The saved protocols describe the ECI and pivotal-player tests. [e4][e13]
+This is not the system-wide offer cap (see the offer-cap topic). Mitigation in SCED applies to Energy Offer Curves that meet the Section 3.19.4 criteria for a non-competitive constraint. [e5][e6] The saved protocols describe the ECI and pivotal-player tests. [e4][e13]
 
 ## Questions
 

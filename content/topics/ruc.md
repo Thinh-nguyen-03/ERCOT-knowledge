@@ -19,7 +19,7 @@ links:
     note: RUC recommends commitment of Generation Resources; see the SCED topic for dispatch. [e7]
   - to: ordc
     type: related
-    note: The reliability deployment price adder is meant to offset the price suppression from RUC and other out-of-market actions. [e9]
+    note: The IMM says the Reliability Deployment Price Adder adjusts prices for the price-suppressing effects of RUC and other out-of-market actions. [e9]
   - to: market-power-mitigation
     type: related
     note: A unit that receives a RUC instruction and must resolve a non-competitive constraint is often dispatched with offers capped at mitigated levels. [e10]
@@ -113,7 +113,7 @@ A RUC-committed Resource whose revenues fall short of its costs receives a RUC M
 
 The IMM treats RUC as an out-of-market reliability action [e9] and says persistent reliance on out-of-market interventions indicates a misalignment between market design and system operations. [e17] In 2025 ERCOT issued RUC instructions for 5,129 resource-hours, 176% more than in 2024, and about 77% were for congestion. [e11] Make-whole payments exceeded $21 million in 2025, helped by more RUC use and fewer opt-outs. [e12] Since 2021 annual RUC commitments have totaled thousands of hours, against 202 to 613 per year from 2017 through 2020. [e13]
 
-One driver the IMM names is ESR state of charge being fed into the RUC engine under NPRR 1186, implemented in summer 2024. [e14] RUC also suppresses prices, which the reliability deployment price adder is meant to offset. [e9] When a RUC-committed unit must resolve a non-competitive constraint, it is often dispatched in real time with offers capped at mitigated levels. [e10]
+One driver the IMM names is ESR state of charge being fed into the RUC engine under NPRR 1186, implemented in summer 2024. [e14] The IMM says RUC can artificially lower prices by increasing supply outside the normal market process, which the Reliability Deployment Price Adder adjusts for. [e9] When a RUC-committed unit must resolve a non-competitive constraint, it is often dispatched in real time with offers capped at mitigated levels. [e10]
 
 ## Key facts
 

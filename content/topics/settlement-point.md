@@ -13,10 +13,10 @@ links:
     note: A Resource Node is one kind of Settlement Point, where generator prices are calculated. [e1][e2]
   - to: load-zone
     type: composed-of
-    note: A Load Zone is one kind of Settlement Point, priced as a load-weighted average. [e1][e4]
+    note: A Load Zone is one kind of Settlement Point, its real-time price is based on state-estimated Load and time-weighted average Real-Time LMPs. [e1][e4]
   - to: trading-hub
     type: composed-of
-    note: A Hub is one kind of Settlement Point, priced by the method in its definition. [e1][e5]
+    note: A Hub is one kind of Settlement Point, its real-time price follows the method in its definition. [e1][e5]
   - to: spp
     type: determines
     note: Each Settlement Point gets a Settlement Point Price for each Settlement Interval. [e3]
@@ -25,7 +25,7 @@ links:
     note: Settlement Point Prices are calculated using LMP data. [e3]
   - to: dam
     type: used-in
-    note: Day-ahead settlement uses Settlement Point Prices at these points. [e3]
+    note: The Settlement Point Price definition refers to the DAM Settlement formulas. [e3]
 evidence:
   - id: e1
     source: np-02
@@ -59,20 +59,20 @@ A Settlement Point is a Resource Node, a Load Zone, or a Hub. [e1]
 
 ## How it works
 
-Settlement Points are the places where a price is calculated for money to change hands. Each one gets a Settlement Point Price for each Settlement Interval, calculated from LMP data using the day-ahead and real-time settlement formulas. [e3] In real time those prices are calculated for Resource Nodes, Load Zones and Hubs for each 15-minute Settlement Interval. [e6]
+A Settlement Point Price is calculated for each Settlement Point for each Settlement Interval, using LMP data and the formulas in the day-ahead (DAM Settlement) and real-time settlement sections of the Protocols. [e3] In real time those prices are calculated for Resource Nodes, Load Zones and Hubs for each 15-minute Settlement Interval. [e6]
 
-The three kinds are priced differently. A Resource Node is where the price for a Generation Resource or Energy Storage Resource is calculated and used in Settlement. [e2] A Load Zone price is based on state-estimated Load and the time-weighted average Real-Time LMPs at the buses in the zone. [e4] A Hub price follows the methodology in that Hub's own definition. [e5]
+The three kinds are priced by their own methods. A Resource Node is where the price for a Generation Resource or Energy Storage Resource is calculated and used in Settlement. [e2] The Real-Time Settlement Point Price for a Load Zone is based on state-estimated Load and the time-weighted average Real-Time LMPs at the buses in the zone. [e4] The Real-Time Settlement Point Price at a Hub follows the methodology in that Hub's own definition. [e5]
 
 ## ERCOT context
 
-Real-time energy settlements use Settlement Point Prices calculated for Resource Nodes, Load Zones and Hubs. [e6] Because each kind of point is priced by its own method, a generator at its Resource Node and a load at its Load Zone can be exposed to different prices at the same moment. [e2][e4]
+Real-time energy settlements use Settlement Point Prices calculated for Resource Nodes, Load Zones and Hubs. [e6] A Resource Node price is calculated for a Generation Resource or ESR, and a Load Zone price is calculated from Load and the LMPs at the buses in the zone. [e2][e4]
 
 ## Key facts
 
 - Settlement Points are Resource Nodes, Load Zones and Hubs. [e1]
 - A Settlement Point Price is calculated per Settlement Interval from LMP data. [e3]
 - Real-time settlement prices are calculated for a 15-minute Settlement Interval. [e6]
-- Hub prices follow the method written in each Hub's definition in Section 3.5.2. [e5]
+- Real-Time Hub prices follow the method written in each Hub's definition in Section 3.5.2. [e5]
 
 ## Say it like this
 
@@ -80,7 +80,7 @@ A settlement point is any of the three places ERCOT actually prices energy for s
 
 ## Common confusion
 
-- Settlement Point versus bus: many buses exist, but only Resource Nodes, Load Zones and Hubs are Settlement Points. [e1]
+- Settlement Point versus bus: only Resource Nodes, Load Zones and Hubs are Settlement Points. [e1]
 - Settlement Point Price versus LMP: the SPP is calculated from LMP data by the settlement formulas. [e3]
 
 ## Questions

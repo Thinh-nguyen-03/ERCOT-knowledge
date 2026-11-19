@@ -13,13 +13,13 @@ links:
     note: The Energy Offer Curve is the third component of the Three-Part Supply Offer. [e1]
   - to: dam
     type: used-in
-    note: The DAM uses all three parts of the offer. [e3]
+    note: The DAM uses all three parts of the offer. [e5]
   - to: ruc
     type: used-in
-    note: RUC uses only the Startup and Minimum-Energy components to determine commitments. [e3]
+    note: RUC uses only the Startup and Minimum-Energy components to determine commitments. [e5]
   - to: sced
     type: used-in
-    note: SCED may use the Energy Offer Curve in Real-Time Operations. [e3]
+    note: SCED may use the Energy Offer Curve in Real-Time Operations. [e5]
   - to: qse
     type: related
     note: A QSE makes the offer for a Generation Resource it represents. [e1]
@@ -37,7 +37,7 @@ evidence:
     quote: "An offer for all costs incurred by a Generation Resource in starting up and reaching Low Sustained Limit (LSL). The Startup Offer is in dollars per start."
   - id: e3
     source: np-04
-    locator: "Section 4.4.9.2, paragraphs (1) and (2)"
+    locator: "Section 4.4.9.1, paragraph (1)"
     quote: "A Three-Part Supply Offer consists of a Startup Offer, a Minimum-Energy Offer, and an Energy Offer Curve. ERCOT must validate each Startup Offer, Minimum-Energy Offer, and Energy Offer Curve before it can be used in any ERCOT process."
   - id: e4
     source: np-02
@@ -45,7 +45,7 @@ evidence:
     quote: "An offer for the costs incurred by a Resource in producing energy at the Resource’s LSL expressed in $/MWh."
   - id: e5
     source: np-04
-    locator: "Section 4.4.9.2, paragraph (2)"
+    locator: "Section 4.4.9.1, paragraph (2)"
     quote: "The DAM uses all three parts of the Three-Part Supply Offer and also uses Energy Offer Curves submitted without a Startup Offer and without a Minimum-Energy Offer. The RUC only uses the Startup Offer and the Minimum-Energy Offer components for determining RUC commitments, but the Energy Offer Curve may be used in Settlement to claw back some or all of a RUC-committed Resource’s energy payments. The Energy Offer Curve may also be used by SCED in Real-Time Operations."
   - id: e6
     source: np-04

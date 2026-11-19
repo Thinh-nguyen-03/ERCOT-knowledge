@@ -25,7 +25,7 @@ links:
     note: The DAM offer curve is bounded by the LSL and HSL specified in the COP. [e7]
   - to: three-part-supply-offer
     type: related
-    note: Day-ahead offers are bounded by COP limits. [e7]
+    note: A Generation Resource's day-ahead Energy Offer Curve is bounded by the LSL and HSL specified in the COP. [e7]
 evidence:
   - id: e1
     source: np-02
@@ -71,7 +71,7 @@ Every QSE that represents a Resource must submit a COP. [e2] ERCOT uses the info
 
 ## ERCOT context
 
-The COP is a planning and commitment input, not the real-time dispatch input: SCED uses telemetered Resource Status validated by the Real-Time Sequence instead of the COP Resource Status. [e6] The COP still matters for pricing because the day-ahead Energy Offer Curve is bounded by the LSL and HSL specified in the COP. [e7]
+For Resource Status, SCED does not use the COP: SCED uses telemetered Resource Status validated by the Real-Time Sequence instead of the COP Resource Status. [e6] The COP still matters in the day-ahead market because a Generation Resource's Energy Offer Curve is bounded in the DAM by the LSL and HSL specified in the COP. [e7]
 
 ## Key facts
 

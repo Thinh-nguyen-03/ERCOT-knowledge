@@ -19,7 +19,7 @@ links:
     note: Load Zone prices are built from bus-level LMPs. [e3]
   - to: trading-hub
     type: contrasts-with
-    note: A Hub LMP is the arithmetic average of the Real-Time LMPs of its Hub Buses, while a Load Zone price is weighted by Load. [e16][e3]
+    note: For each Hub except the ERCOT Hub Average 345 kV Hub, the Hub LMP is the arithmetic average of the Real-Time LMPs of its Hub Buses, while a Load Zone price is weighted by Load. [e16][e3]
   - to: congestion
     type: related
     note: Zones are meant to group areas with similar congestion, and the IMM says intrazonal congestion now exceeds interzonal congestion. [e7]
@@ -132,10 +132,10 @@ A load zone is a group of buses that settle load at one load-weighted average pr
 
 ## Common confusion
 
-- Load Zone versus Hub: a zone price is weighted by Load, while a Hub LMP is the arithmetic average of its Hub Buses' LMPs. [e3][e16]
+- Load Zone versus Hub: a zone price is weighted by Load, while, for each Hub except the ERCOT Hub Average 345 kV Hub, the Hub LMP is the arithmetic average of its Hub Buses' Real-Time LMPs. [e3][e16]
 - The protocol text refers to Competitive, NOIE and DC Tie Load Zones; the LZ_ names are not used in the saved protocol text. [e4]
 - NOIE Load Zones and Competitive Load Zones are both Load Zones, but the Cost-Allocation Load Zones used for LRS allocation are the four 2003 zones. [e14]
-- Generators do not settle at the Load Zone price; they settle at their Resource Node. [e10]
+- Generators do not settle at the Load Zone price; the IMM says they settle at the nodal level at their own locational marginal prices. [e10]
 
 ## Questions
 

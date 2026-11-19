@@ -129,7 +129,7 @@ Ancillary services are the reserve products ERCOT procures to support reliable o
 
 ## Common confusion
 
-Ancillary services are capacity products, not energy: awards reserve headroom rather than delivering MWh, though ECRS and RRS can supply energy in an emergency. [e3][e4] Before December 2025 a day-ahead AS award was a physical obligation, and now it is a financial position. [e11] "AS Obligation" is also not the same as an award: the obligation is a QSE's allocated share of ERCOT's need. [e7]
+Ancillary services are capacity products, not energy: awards reserve headroom rather than delivering MWh, though ECRS can supply energy to avoid or during an EEA [e4] and RRS is deployed through real power increases or decreases by Resources. [e3] Before December 2025 a day-ahead AS award was a physical obligation, and now it is a financial position. [e11] "AS Obligation" is also not the same as an award: the obligation is a QSE's allocated share of ERCOT's need. [e7]
 
 ## Questions
 

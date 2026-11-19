@@ -22,13 +22,13 @@ links:
     note: A QSE must update the COP within 60 minutes of a Forced Derate above 20 MW with expected duration over 120 minutes. [e19]
   - to: weatherization
     type: related
-    note: Cold-weather outages in 2021 were mostly freezing and fuel issues. [e14]
+    note: In the February 2021 event area (ERCOT, SPP and MISO South), 75 percent of unplanned unit outages, derates and failures to start were freezing or fuel issues. [e14]
   - to: ruc
     type: related
     note: The IMM says many outages are forced by unexpected failures that take units offline. [e11]
   - to: winter-storm-uri
     type: related
-    note: FERC-NERC attributes 75 percent of Uri's outages, derates and failures to start to freezing or fuel issues. [e14]
+    note: FERC-NERC attributes 75 percent of the outages, derates and failures to start across the whole event area (ERCOT, SPP and MISO South) to freezing or fuel issues. [e14]
 evidence:
   - id: e1
     source: np-02
@@ -110,6 +110,10 @@ evidence:
     source: imm-som-2025
     locator: "Market Operations, F. Thermal Generation Outages and Deratings"
     quote: "Outages and deratings of thermal power plants are especially important because they can affect reliability when other resources are limited."
+  - id: e21
+    source: np-03
+    locator: "Section 3.1.4.7, Reporting of Forced Derates, paragraph (3)"
+    quote: "Notwithstanding paragraphs (1) and (2) above, for any Forced Derate or change to a Forced Derate that meets the reporting criteria specified in paragraph (1) or (2) above and that is caused by ambient temperature or humidity, the Resource Entity or its designee must enter the Forced Derate into the Outage Scheduler as soon as practicable but no longer than eight hours after the beginning of the Force Derate or change."
 ---
 
 ## Definition
@@ -120,17 +124,17 @@ Under the Protocols, a Forced Outage of a Generation Resource or ESR is an outag
 
 Resource Entities give ERCOT a Planned and Maintenance Outage plan for at least the next 12 months, updated monthly. [e5] ERCOT approves or rejects outage plans submitted more than 45 days ahead, and approves a plan if it would not push aggregate MW of Resource outages above the Resource Planned Outage Limit (RPOL) at any point. [e6][e7]
 
-Forced derates have reporting thresholds: a derate over ten MW and 5% of the Seasonal net maximum sustainable rating that lasts longer than 30 minutes must go into the Outage Scheduler within 60 minutes. [e8] The IMM describes derated capacity as the difference between registered maximum capacity and actual capability. [e9]
+Forced derates have reporting thresholds: a derate over ten MW and 5% of the Seasonal net maximum sustainable rating that lasts longer than 30 minutes must go into the Outage Scheduler within 60 minutes, except that a derate caused by ambient temperature or humidity has eight hours. [e8][e21] The IMM describes derated capacity as the difference between registered maximum capacity and actual capability. [e9]
 
 ## ERCOT context
 
 The IMM says thermal outages and deratings are especially important because they can affect reliability when other resources are limited. [e20] It reports that planned and unapproved outages were lowest in summer and highest in spring and fall, while the most noteworthy change from 2024 to 2025 was a higher rate of forced outages and derates, particularly in summer. [e10] The IMM also says planned outages are only part of the total, many outages are forced, and many go unreported, which makes system planning harder. [e11]
 
-ERCOT's reviews show the same: summer thermal forced outages as a share of installed capacity have been higher in 2025-2026 than in 2019-2020, and in summer 2023 forced thermal outages stayed in a 4-8 GW range except on low net load days when generators did repairs. [e13][e15] ERCOT's MORA assumes 8,105 MW of total thermal outages (planned plus unplanned) in normal conditions for its January deterministic scenario. [e16] In the February 2021 event, freezing and fuel issues caused 75% of outages, derates and failures to start. [e14]
+ERCOT's reviews show the same: summer thermal forced outages as a share of installed capacity have been higher in 2025-2026 than in 2019-2020, and in summer 2023 forced thermal outages stayed in a 4-8 GW range except on low net load days when generators did repairs. [e13][e15] ERCOT's January 2027 MORA assumes 8,105 MW of total thermal outages (planned plus unplanned) in normal grid conditions for its deterministic scenario. [e16] In the February 2021 event, FERC-NERC found that across the whole event area (ERCOT, SPP and MISO South, not ERCOT alone) freezing and fuel issues caused 75% of outages, derates and failures to start. [e14]
 
 ## Key facts
 
-- Forced derate reporting: more than ten MW and 5% of rating, lasting over 30 minutes, entered within 60 minutes. [e8]
+- Forced derate reporting: more than ten MW and 5% of rating, lasting over 30 minutes, entered within 60 minutes (eight hours if caused by ambient temperature or humidity). [e8][e21]
 - Outage plans cover at least 12 months and ERCOT decides on requests made more than 45 days ahead. [e5][e6]
 - Outage approval is limited by the Resource Planned Outage Limit (RPOL). [e7]
 - 2025 saw more forced outages and derates in summer than 2024, per the IMM. [e10]
@@ -138,7 +142,7 @@ ERCOT's reviews show the same: summer thermal forced outages as a share of insta
 
 ## Say it like this
 
-(Guidance) Planned outages are scheduled around the seasons, with the lowest levels in summer when energy is most valuable, so what hurts at the margin is forced outages and unreported derates. The more the system relies on wind and solar, the more a surprise thermal outage on a high-net-load evening matters.
+(Guidance) Planned outages are scheduled around the seasons, with the lowest levels in summer when energy is most valuable, so what hurts at the margin is forced outages and unreported outages. [e10][e11] The IMM says thermal outages and deratings matter most when other resources are limited. [e20]
 
 ## Common confusion
 
@@ -152,7 +156,7 @@ Planned Outages are scheduled in advance with ERCOT; a Maintenance Outage is wor
 
 ### When must a forced derate be reported?
 
-If it exceeds ten MW and 5% of the Seasonal net maximum sustainable rating and lasts over 30 minutes, within 60 minutes of starting. [e8]
+If it exceeds ten MW and 5% of the Seasonal net maximum sustainable rating and lasts over 30 minutes, within 60 minutes of starting (eight hours if the cause is ambient temperature or humidity). [e8][e21]
 
 ### What did the IMM find about outages in 2025?
 
