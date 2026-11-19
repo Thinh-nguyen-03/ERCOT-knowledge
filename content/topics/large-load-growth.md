@@ -10,7 +10,7 @@ as_of: 2026-11-18
 links:
   - to: large-load-interconnection
     type: related
-    note: The queue of large load requests is what the Batch Zero process sorts and allocates. [e1]
+    note: The interconnection rules covered in that topic apply to Large Loads, which the Protocols define as sites with aggregate peak Demand of 75 MW or more. [e1]
   - to: long-term-load-forecast
     type: affects
     note: The long-term forecast has to decide how much of the requested large load to count, given realization like the 49.8% observed for data centers. [e9]
@@ -130,7 +130,7 @@ Actual operations in 2025-2026 looked much calmer than the queue. The IMM found 
 
 ## Timeline
 
-- October 3, 2024: EIA expects ERCOT large flexible load demand of 54 billion kWh in 2025, up almost 60% from 2024. [e14]
+- October 3, 2024: EIA expects ERCOT large flexible load demand of 54 billion kWh in 2025, up almost 60% from its expected 2024 demand. [e14]
 - 2025: crypto mining demand is about 4,600 MW (IMM). [e12]
 - December 2025: the queue is about 239 GW. [e4]
 - February 2026: about 400 requests totalling 239,000 MW. [e5]

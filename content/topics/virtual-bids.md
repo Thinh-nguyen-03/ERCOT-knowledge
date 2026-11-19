@@ -103,13 +103,13 @@ evidence:
 
 ## Definition
 
-A virtual, in ERCOT, is a DAM Energy-Only Offer (a QSE's willingness to sell energy at or above a price at a specific Settlement Point in the DAM) or a DAM Energy Bid (a proposal to buy energy at a Settlement Point in the DAM). [e1][e2][e14] The IMM describes an energy-only, or virtual, bid or offer as a location-specific transaction submitted as a hedge or for speculative purposes. [e7]
+The IMM describes an energy-only, or virtual, bid or offer as a location-specific transaction submitted as a hedge or for speculative purposes. [e7] In the Protocols the instruments at a Settlement Point in the DAM are the DAM Energy-Only Offer (a QSE's willingness to sell energy at or above a price at a specific Settlement Point in the DAM) [e1] and the DAM Energy Bid (a proposal to buy energy at a Settlement Point in the DAM). [e2][e14] The saved Protocol text does not itself say that every DAM Energy Bid is a virtual.
 
 ## How it works
 
 Both instruments can be made only in the DAM, and a QSE must submit them by 1000 for the effective DAM. [e1][e15][e5] Unlike a Three-Part Supply Offer, a DAM Energy-Only Offer Curve is not tied to a Resource. [e1] An offer curve must fall between -$250.00 per MWh and the DAM system-wide offer cap, with a minimum of one MW. [e3][e13]
 
-A cleared offer is paid, and a cleared bid is charged, based on the Day-Ahead Settlement Point Price at its Settlement Point. [e6][e8][e16][e17] The position does not stay in the DAM: at a Hub, for example, the amounts of DAM Energy Bids and energy offers cleared in the DAM are included in the QSE's Real-Time Energy Imbalance calculation at the Real-Time Settlement Point Price. [e9] In effect, at a Hub, the DAM-cleared position is settled against the real-time price, so it earns or loses the difference between the two.
+A cleared offer is paid, and a cleared bid is charged, based on the Day-Ahead Settlement Point Price at its Settlement Point. [e6][e8][e16][e17] The position does not stay in the DAM: at a Hub, for example, the amounts of DAM Energy Bids and energy offers cleared in the DAM are included in the QSE's Real-Time Energy Imbalance calculation at the Real-Time Settlement Point Price. [e9] At a Hub, the cleared quantity is therefore paid or charged at the Day-Ahead Settlement Point Price in the DAM and again, in the imbalance calculation, at the Real-Time Settlement Point Price. [e16][e17][e9]
 
 There is a guard against disguising a congestion position: energy-only offers, energy bids and PTP Obligation bids may not be combined to create the net effect of one PTP Obligation between electrically similar Settlement Points. [e4]
 
