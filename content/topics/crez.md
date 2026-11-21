@@ -6,7 +6,8 @@ kind: rule
 domain: congestion
 level: 2
 lenses: [analyst, congestion, portfolio]
-as_of: 2026-11-18
+as_of: 2026-11-21
+depth: deep
 links:
   - to: texas-legislature
     type: related
@@ -23,6 +24,15 @@ links:
   - to: permian-transmission
     type: related
     note: A separate transmission topic; see its own file.
+  - to: gtc
+    type: related
+    note: The Panhandle and West Texas Export GTCs are the constraints the IMM tied to Panhandle and West generation export; the IMM linked the fall of the Panhandle GTC's cost in 2022 to completed CREZ maintenance outages. [e19]
+  - to: binding-constraint
+    type: affects
+    note: The IMM expected the physical limit of the West to North interface constraint to rise as CREZ transmission projects were completed. [e15]
+  - to: hb-west
+    type: related
+    note: The IMM ties low West-zone prices to high wind output and congested interfaces out of the West. [e16]
   - to: tdsp
     type: related
     note: Under the PUCT rule the commission selects the entity or entities responsible for constructing CREZ transmission improvements. [e7]
@@ -61,7 +71,9 @@ evidence:
   - id: e8
     source: puct-25-174
     locator: "16 TAC 25.174(e)(4), Certificates of convenience and necessity"
-    quote: "Financial commitment for a CREZ is sufficient under PURA §39.904(g)(3) to grant CCNs for transmission facilities for the CREZ if the sum of the renewable generating capacity under any combination of paragraph (3)(A), (B), (C), and (D) of this subsection is at least 50% of the designated generating capacity for the CREZ."
+    quote: "For each new CREZ the commission's order specifies the geographic extent, the major transmission improvements (new and upgraded lines by voltage level and a general description of where new lines interconnect), and an estimate of the maximum generating capacity the transmission is expected to accommodate. [e6][e12] Each selected TSP had to file all required CREZ CCN applications not later than three years after the final order designating a CREZ, unless the commission granted an extension for good cause. [e13]
+
+Financial commitment for a CREZ is sufficient under PURA §39.904(g)(3) to grant CCNs for transmission facilities for the CREZ if the sum of the renewable generating capacity under any combination of paragraph (3)(A), (B), (C), and (D) of this subsection is at least 50% of the designated generating capacity for the CREZ."
   - id: e9
     source: puct-25-174
     locator: "16 TAC 25.174(e)(4)"
@@ -118,16 +130,29 @@ The mechanism began legislatively: SB 408 designated the framework and authorize
 
 Under the PUCT rule, zones are designated through contested-case proceedings that commission staff initiate. [e4] ERCOT had to give the commission a study of statewide wind production potential and the transmission constraints most likely to limit deliverability. [e5] The commission issues a final order within six months of the proceeding's start, unless it finds good cause to extend, and each order specifies the geographic extent of the CREZ. [e6] The commission selects the entity or entities responsible for constructing the transmission improvements and establishes a completion schedule. [e7]
 
-Financial commitment for a CREZ is sufficient to grant CCNs for its transmission facilities if the sum of renewable generating capacity under any combination of the rule's paragraph (3)(A) to (D) categories is at least 50% of the zone's designated capacity. [e8] The rule fixes 50% at 1,595.5 MW for Panhandle A and 1,196.5 MW for Panhandle B. [e9] A renewable generator that elects to post collateral under paragraph (3)(D) must post $15,350 per MW of planned project capacity, or $10,000 per MW where the capacity is supported by leasing agreements of at least 20 years. [e10]
+Financial commitment for a CREZ is sufficient to grant CCNs for its transmission facilities if the sum of renewable generating capacity under any combination of the rule's paragraph (3)(A) to (D) categories is at least 50% of the zone's designated capacity. [e8] The rule fixes 50% at 1,595.5 MW for Panhandle A and 1,196.5 MW for Panhandle B. [e9] For the McCamey, Central and Central West CREZs approved in Docket Number 33672, the rule treats installed generation, generation under construction and planned projects with signed interconnection agreements as satisfying the financial commitment test. [e14] A renewable generator that elects to post collateral under paragraph (3)(D) must post $15,350 per MW of planned project capacity, or $10,000 per MW where the capacity is supported by leasing agreements of at least 20 years. [e10]
 
 ## ERCOT context
 
+The IMM's 2011 report said that the physical limit of its most active constraint, the West to North interface, would over the long term increase as CREZ transmission projects were completed. [e15] The same report said low West-zone prices were generally caused by high wind output in the West that frequently results in severe congestion on transmission interfaces from the West zone to the other zones. [e16]
+
+By 2020 the IMM was reporting the Panhandle GTC constraint as the second most costly constraint of the year, at $140 million of congestion, mostly caused by planned outages including ETT maintenance outages; almost 4.6 GW of generation, about 90% wind, was in the Panhandle by the end of 2020. [e17] The IMM said that activating the Panhandle GTC and nearby Lewisville and Eagle Mountain constraints dispatched wind down and increased generation in the North. [e18] In 2022 the IMM said the Panhandle GTC ($129 million in 2021) fell to seventh because of the resolution of CREZ maintenance outages completed in 2022, while the West Texas Export GTC ($304 million) was the most costly constraint. [e19]
+
 By the end of 2020, approximately 25,000 MW of wind and 4,000 MW of solar photovoltaic capacity were installed in ERCOT, surpassing the RPS. [e2] The rule anticipates that too much generation in a zone could cause congestion that SCED alone cannot resolve; in that case the commission may consider limiting interconnection or setting dispatch priorities in the CREZ. [e11]
+
+## Timeline
+
+- 2005: SB 408 directs the PUCT to facilitate new transmission for CREZ, alongside an RPS increase to 5,880 MW. [e1][e3]
+- 1 December 2006: the date by which the PUCT rule required ERCOT to give the commission a statewide wind potential and transmission constraint study. [e5]
+- 2011: the IMM expects the West to North interface limit to rise as CREZ transmission projects are completed. [e15]
+- 2020: Panhandle GTC is the second most costly constraint ($140 million). [e17]
+- 2022: the IMM refers to CREZ maintenance outages completed in 2022 and the Panhandle GTC falls from first (2021, $129 million) to seventh. [e19]
 
 ## Key facts
 
 - In 2005 the RPS was increased to 5,880 MW, and SB 408 directed the PUCT to facilitate transmission for CREZ. [e1]
 - Transmission planning was for roughly 18 GW of wind capacity. [e3]
+- Panhandle GTC congestion: $140 million in 2020 and $129 million in 2021 (IMM); the West Texas Export GTC was the costliest constraint in 2022 at $304 million. [e17][e19]
 - Zones are designated in PUCT contested cases, with a final order due within six months unless extended. [e4][e6]
 - Financial commitment threshold: at least 50% of designated capacity (1,595.5 MW for Panhandle A, 1,196.5 MW for Panhandle B). [e8][e9]
 - Collateral for a generator electing to post it under paragraph (3)(D): $15,350 per MW of planned capacity, or $10,000 per MW with leases of at least 20 years. [e10]
@@ -139,7 +164,7 @@ By the end of 2020, approximately 25,000 MW of wind and 4,000 MW of solar photov
 
 ## Common confusion
 
-CREZ is a transmission-planning policy, not a market product like a CRR; the saved sources do not describe CREZ as a settlement or pricing mechanism. [e1][e3] The rule does, however, contemplate congestion from excess development. [e11]
+CREZ is a transmission-planning policy, not a market product like a CRR; the saved sources do not describe CREZ as a settlement or pricing mechanism. [e1][e3] Building the lines did not remove congestion: the IMM kept reporting Panhandle and West export constraints (and in 2022 attributed some of it to outages on the CREZ facilities). [e17][e19] The rule itself contemplates congestion from excess development. [e11]
 
 ## Questions
 
@@ -155,8 +180,17 @@ Through a PUCT contested case, with a final order specifying the zone, then sele
 
 By reaching at least 50% of the zone's designated capacity, summed over the categories in paragraph (3)(A) to (D) of the rule. [e8]
 
+### Why did the Panhandle and West still congest after the CREZ build-out?
+
+The sources do not give a full causal account. What the IMM reports is that Panhandle GTC congestion in 2020 was mostly caused by planned outages including maintenance on ETT structures, and that West Texas Export GTC congestion in 2022 was mostly caused by transmission maintenance outages in the West combined with high renewable output. [e17][e19] The rule also anticipated that excess development beyond a zone's order could produce congestion SCED cannot resolve. [e11]
+
+### What if more generation connects to a CREZ than the order allows?
+
+If requested transmission service exceeds the maximum renewable capacity in the order, and the commission finds SCED dispatch priority insufficient to resolve the resulting congestion, it may open a proceeding and consider limiting interconnection or setting dispatch priorities. [e11]
+
 ## Open items
 
 - PURA Section 39.904, which the rule cites as the statutory basis (39.904(g)), is not in the saved pura-39 text: the file goes from Sec. 39.903 to Sec. 39.9044. The statute's own wording was therefore not quoted.
-- The saved rule is the version effective 7/5/16; the zone names beyond Panhandle A and B, zone locations, the total transmission cost and the completion date were not found in the sources. The IMM reports do not mention CREZ.
-- Deeper pass: how CREZ transmission shapes today's West-to-load congestion patterns is not sourced.
+- The saved rule is the version effective 7/5/16; the zone names beyond Panhandle A and B, zone locations, the total transmission cost and the completion date were not found in the sources. The IMM 2011 and 2022 reports mention CREZ only briefly.
+- Resolved 2026-11-21 in part: the IMM 2011, 2020 and 2022 reports now tie CREZ to West/Panhandle congestion. The saved IMM texts for 2021 and 2023-2025 contain no mention of CREZ, and none of the sources quantifies how much transmission was built, its cost or its completion date, or measures how much West-to-load congestion CREZ removed.
+- The IMM 2011 statement is a 2011 expectation, not a measured result.
