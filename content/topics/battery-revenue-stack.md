@@ -99,23 +99,23 @@ evidence:
     quote: "Ancillary Service awards will be based on Resource capability (qualification, operating limits, Ancillary Service limits, ramp rates, State of Charge (SOC), SOC limits, etc.) and Ancillary Service Demand Curves (ASDCs) regardless of the quantity of Ancillary Service under deployment."
   - id: e16
     source: imm-som-2024
-    locator: "Chapter I.E.5, ESR Revenue Trends, page 64 (OCR)"
+    locator: "Chapter II.E.5, ESR Revenue Trends, page 64 (OCR)"
     quote: "Normalized revenues from energy arbitrage have grown every year as their offer patterns have become more competitive."
   - id: e17
     source: imm-som-2025
-    locator: "Chapter I.E.3, ESR Revenue Trends, page 44 (OCR)"
+    locator: "Chapter II.E.3, ESR Revenue Trends, page 44 (OCR)"
     quote: "Events such as Winter Storm Uri in 2021 and the artificial scarcity caused by the implementation of ECRS in 2023 created revenue spikes that obscure year-over-year trends in revenue per kilowatt (kW) and total revenue growth."
   - id: e18
     source: imm-som-2025
-    locator: "Chapter I.E.4, ESR Net Injection of Power, page 46 (OCR)"
+    locator: "Chapter II.E.4, ESR Net Injection of Power, page 46 (OCR)"
     quote: "rate increased by 215% to 2,171 MW. Together, those increases amount to roughly triple the volume of energy arbitrage in 2025 compared to 2024."
   - id: e19
     source: imm-som-2025
-    locator: "Chapter I.E.4, ESR Participation in Energy Markets"
+    locator: "Chapter II.E.4, ESR Participation in Energy Markets"
     quote: "As solar generation has surged during the midday hours, real-time prices have dropped correspondingly, sometimes even to negative prices. This has allowed batteries to charge inexpensively or even get paid to consume energy that would otherwise be curtailed."
   - id: e20
     source: imm-som-2025
-    locator: "Chapter I.E.2, ESR capacity and duration, page 44 (OCR)"
+    locator: "Chapter II.E.2, ESR capacity and duration, page 44 (OCR)"
     quote: "To capitalize on revenue opportunities throughout the day, particularly during the morning and evening ramps, battery developers increasingly focus on duration rather than power capacity."
   - id: e21
     source: imm-som-2023

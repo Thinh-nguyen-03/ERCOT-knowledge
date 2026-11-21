@@ -6,7 +6,8 @@ kind: concept
 domain: pricing
 level: 1
 lenses: [analyst, trading, congestion, portfolio, retail]
-as_of: 2026-11-18
+as_of: 2026-11-21
+depth: deep
 links:
   - to: lmp
     type: composed-of
@@ -32,6 +33,18 @@ links:
   - to: congestion
     type: related
     note: Congestion rents on a scheduled transaction are the difference between the resource's nodal LMP and the load zone price. [e2]
+  - to: rtc-b
+    type: related
+    note: RTC went live on December 5, 2025, and the PUCT rule already required simultaneous optimization of ancillary capacity services priced at their shadow prices. [e34][e30]
+  - to: clr
+    type: related
+    note: CLRs are still dispatched and settled at zonal prices; the IMM reports NPRR 1188's nodal pricing for CLRs is scheduled for January 2027. [e14][e35]
+  - to: ferc
+    type: contrasts-with
+    note: FERC's 2024 Energy Primer says FERC regulates all RTOs/ISOs except ERCOT; ERCOT's design rule is PUCT rule 25.501. [e32][e1]
+  - to: nodal-protocols
+    type: related
+    note: ERCOT's guiding principles for proposals that change the Nodal Market start with improving price signals and dispatch efficiency. [e33]
 evidence:
   - id: e1
     source: puct-25-501
@@ -109,6 +122,74 @@ evidence:
     source: ercot-nodal-go-live-plan
     locator: "Nodal Program Update to the ERCOT Board (19 October 2010), slide: System Cut-Over / Go-Live"
     quote: "November 30th – Execute DAM for December 1 (the first Operating Day to be binding with Nodal settlement)"
+  - id: e20
+    source: imm-som-2011
+    locator: "2011 State of the Market Report, Executive Summary, introduction (p. i)"
+    quote: "ERCOT transitioned from the zonal market design that had been in place since 2001 and implemented the nodal market design on December 1, 2010. Thus, this is the first annual report that contains an entire year of nodal market operations."
+  - id: e21
+    source: imm-som-2010
+    locator: "2010 State of the Market Report, Executive Summary, introduction"
+    quote: "The market outcomes during the eleven months of zonal market operation in 2010 were generally similar to those in 2009. The highlight of 2010 was the much anticipated implementation of ERCOT’s nodal market on December 1, 2010."
+  - id: e22
+    source: imm-som-2010
+    locator: "2010 State of the Market Report, Transmission and Congestion, introduction (p. 57)"
+    quote: "Under ERCOT’s zonal market design, constraints on the transmission network are managed in two ways. First, ERCOT is made up of zones with the constraints between the zones managed through the balancing energy market. The balancing energy market model increases energy production in one zone and reduces it in another zone to manage the flows between the two zones when the interface constraint is binding, i.e., when there is interzonal congestion. Second, all other constraints not defined as zonal constraints (i.e., local congestion) are managed through the redispatch of individual generating resources."
+  - id: e23
+    source: imm-som-2010
+    locator: "2010 State of the Market Report, Transmission and Congestion, A. Electricity Flows between Zones"
+    quote: "To manage interzonal congestion, SPD uses a simplified network model with four zone-based locations and five transmission interfaces. These five transmission interfaces, referred to as Commercially Significant Constraints (“CSCs”), are simplified representations of groups of transmission elements."
+  - id: e24
+    source: imm-som-2011
+    locator: "2011 State of the Market Report, III. Transmission and Congestion, introduction"
+    quote: "Although zonal congestion management instructions were bid-based, because all generators located within in a zone were assumed to have the same ability to affect the flows across a zonal constraint, the result was significant operational inefficiency and uncertainty. All other constraints were managed by paying generators to either increase or decrease their output from their scheduled level. Because the money to make these payments to generators was collected from all loads in ERCOT, generators had no incentive to take into account the state of the transmission system when scheduling their output."
+  - id: e25
+    source: imm-som-2011
+    locator: "2011 State of the Market Report, III. Transmission and Congestion, introduction"
+    quote: "The nodal market provides many improvements, including unit-specific offers and shift factors, simultaneous resolution of all transmission congestion, actual output instead of schedule-based dispatch, and 5-minute instead of 15-minute dispatch, among others."
+  - id: e26
+    source: imm-som-2011
+    locator: "2011 State of the Market Report, III. Transmission and Congestion, CRR discussion"
+    quote: "In the zonal market only the costs associated with managing congestion on the commercially significant constraints could be hedged. All other congestion costs were uplifted to all loads."
+  - id: e27
+    source: imm-som-2010
+    locator: "2010 State of the Market Report, Review of Market Outcomes (p. 13)"
+    quote: "One of the fundamental improvements brought about by the implementation of ERCOT’s nodal market design is the establishment of a centralized day-ahead market."
+  - id: e28
+    source: imm-som-2011
+    locator: "2011 State of the Market Report, Executive Summary bullets (p. i)"
+    quote: "More reliable and efficient shortage pricing mechanisms than existed in the zonal market allowed energy prices to rise automatically up to the system-wide offer cap during periods of operating reserve shortages."
+  - id: e29
+    source: puct-25-501
+    locator: "16 TAC §25.501(h), Zonal energy prices for loads"
+    quote: "ERCOT shall maintain stable zones and shall notify market participants in advance of zonal boundary changes in order that the market participants will have an appropriate amount of time to adjust to the changes."
+  - id: e30
+    source: puct-25-501
+    locator: "16 TAC §25.501(k), Simultaneous optimization of ancillary capacity services"
+    quote: "For ancillary capacity services that it competitively procures in the day-ahead or operating day, ERCOT shall use simultaneous optimization and shall set prices for each service to the corresponding shadow price."
+  - id: e31
+    source: puct-25-501
+    locator: "16 TAC §25.501(i), Congestion rights, last sentence"
+    quote: "CRRs shall not be subject to “use-it-or-lose-it” or “schedule-it-or-lose-it” restrictions and shall be tradable."
+  - id: e32
+    source: ref-ferc-energy-primer
+    locator: "FERC Energy Primer (2024), Electricity Markets chapter, RTO/ISO section"
+    quote: "FERC regulates all RTOs/ISOs except ERCOT."
+  - id: e33
+    source: ercot-nodal-guiding-principles
+    locator: "Guiding Principles of the Nodal Market, Purpose"
+    quote: "This non-binding document provides general principles of the future Nodal Market design that may be used by entities to help develop their proposed Nodal Protocol Revision Request (NPRR) or market change proposal."
+  - id: e34
+    source: imm-som-2025
+    locator: "Chapter I.D.1, ORDC (p. 8)"
+    quote: "In ERCOT’s market design before RTC went live on December 5, 2025, ERCOT did this by adding an ORDC price adder to energy and reserve prices when reserves were low."
+  - id: e35
+    source: imm-som-2025
+    locator: "Demand Response chapter, footnote 13 on NPRR 1188"
+    quote: "Although NPRR 1188 was approved in November 2024, its implementation is not complete yet. According to ERCOT project management, NPRR 1188 will be implemented in January 2027"
+  - id: e36
+    source: imm-som-2010
+    locator: "2010 State of the Market Report, Executive Summary, expected benefits of the nodal market"
+    quote: "Figure 43 demonstrates the improved utilization of the West to North interface observed during market trials; an increase from 64 percent to 83 percent."
 ---
 
 ## Definition

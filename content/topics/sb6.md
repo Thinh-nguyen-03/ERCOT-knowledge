@@ -285,7 +285,7 @@ SB 6 is the 2025 Texas law (89th Legislature) on the planning, interconnection, 
 
 The December 2025 CDR calls SB 6 the most impactful resource adequacy development since the May 2025 CDR. [e19] ERCOT told the Senate in July 2026 that it and the PUCT are carrying out the directive that large loads added at existing generators must not stop ERCOT from using those generators in emergencies. [e18] ERCOT added that the arrangement applies only where the generation resource existed before September 1, 2025. [e51] ERCOT is also building a Large Load Curtailment Manager, a control-room system whose first phase handles SB 6 net-metered facilities. [e22] SB 6 curtailment is already showing up in planning: for the reliability standard's magnitude value, ERCOT has given TOs a winter peak that excludes load curtailable under §§37.0561(e) and 39.169, on the understanding that such load would be curtailed before rotating outages, which begin only in EEA3. [e42][e56]
 
-Implementation status, piece by piece (as of the saved sources):
+Implementation status differs by piece in the saved sources; the IMM's 2025 report expected the LLDMS rulemaking to finish sometime in 2026. [e20]
 - Decided: §25.370 large load forecasting, adopted and effective March 1, 2026. It bars large loads from ERCOT's planning and resource adequacy forecasts without an executed §25.194 interconnection agreement. [e16][e40]
 - Decided: §25.205 co-location net metering, effective 4/15/2026. No such arrangement may be implemented without PUCT approval. [e24][e15][e39]
 - Decided: §25.194 interconnection standards, effective 10/08/2026, with a $100,000 study fee and $50,000/MW intermediate security. [e25][e17][e36][e35]
