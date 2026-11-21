@@ -234,7 +234,7 @@ Peaker net margin (PNM) is a running calendar-year sum of how much the real-time
 
 **Accumulation.** PNM accumulates in dollars per MW on a cumulative basis across all past intervals in the year. [e4] In the Protocols each qualifying 15-minute interval adds (RTEP minus POC) times 0.25, counting only intervals where RTEP exceeds POC. [e23] ERCOT posts the updated PNM and current day-ahead cap on its website by the end of the next business day. [e5]
 
-**Threshold and trigger.** ERCOT sets the PNM threshold at three times the cost of new entry, and the Protocol parameter table lists it as 315,000 $/MW-year. [e6][e21] The system-wide offer cap starts each calendar year at the HCAP and stays there until PNM exceeds the threshold. [e17] If it does, the cap is set to the LCAP for the rest of the calendar year. [e10] In the Protocols the sequence is: the HCAP stays in effect for the day PNM crosses and the next Operating Day (Days 1 and 2), ERCOT sends a Market Notice on Day 2 before the DAM that the DASWCAP and the VOLL used to determine the ASDCs for DAM and RTM will be changed to the LCAP, and the LCAP applies from Day 3 to year end. [e7][e25][e14] On December 31 the DASWCAP and VOLL reset to the HCAP for the next January 1. [e24]
+**Threshold and trigger.** ERCOT sets the PNM threshold at three times the cost of new entry, and the Protocol parameter table lists it as 315,000 $/MW-year. [e6][e21] The system-wide offer cap starts each calendar year at the HCAP and stays there until PNM exceeds the threshold. [e17] The Protocol's statement of the trigger covers the DASWCAP and the VOLL used to set the ASDCs for the DAM and RTM. [e43] If it does, the cap is set to the LCAP for the rest of the calendar year. [e10] In the Protocols the sequence is: the HCAP stays in effect for the day PNM crosses and the next Operating Day (Days 1 and 2), ERCOT sends a Market Notice on Day 2 before the DAM that the DASWCAP and the VOLL used to determine the ASDCs for DAM and RTM will be changed to the LCAP, and the LCAP applies from Day 3 to year end. [e7][e25][e14] On December 31 the DASWCAP and VOLL reset to the HCAP for the next January 1. [e24]
 
 **What the LCAP regime does.** The rule says that when the cap is the LCAP, ERCOT keeps applying the operating reserve demand curve and the reliability deployment price adder, but energy prices exclusive of congestion will not exceed the LCAP plus $1 for the rest of the year. [e18] ERCOT must reimburse resource entities for actual marginal costs above the larger of the LCAP or their real-time energy price. [e19]
 
@@ -251,7 +251,9 @@ PNM for the current year, in $ per MW, in the Protocols: [e4][e23]
 - 0.25 converts a 15-minute Settlement Interval to hours; the PUCT rule writes the same factor as minutes in the interval divided by 60. [e23][e1]
 - Only intervals where RTEP exceeds POC count, so PNM only ever rises during the year. [e1]
 
-Illustration (guidance, not a source figure): suppose gas is $4/MMBtu, so POC is $40/MWh. An interval at $140/MWh adds (140 - 40) x 0.25 = $25/MW; an interval at $30/MWh adds nothing.
+## Example
+
+Suppose gas is $4/MMBtu, so POC is $40/MWh. An interval at $140/MWh adds (140 - 40) x 0.25 = $25/MW; an interval at $30/MWh adds nothing.
 
 ## ERCOT context
 
@@ -326,7 +328,7 @@ The IMM says years with lower net revenues occur often and are not a threat to r
 
 - Resolved 2026-11-21: the threshold table in np-04 now shows both $5,000 (DAM) and $2,000 (RTM) HCAP values, which matches the IMM's description of separate caps after RTC; how the PNM switch applies separately to the real-time cap is still not stated in the saved text (np-04 4.4.11.1 only mentions DASWCAP and VOLL for ASDCs).
 - The PUCT rule says RTEP is an average system-wide price as determined by ERCOT, while the protocol specifies the Hub Average 345 kV Hub price; the protocol is used here for the operational definition.
-- PNM values for 2018-2020 and 2024 are in Figure 57 (a chart), not in text; the only 2024 figure the sources allow is "about 21% higher than 2025's almost $79 per kW", which this topic does not compute.
+- PNM values for 2018-2020 and 2024 are in Figure 57 (a chart), not in text; the saved sources give 2024 only as 2025's almost $79 per kW being roughly 21% lower, and this topic does not back-calculate a 2024 figure.
 - Whether NPRR1216's "next Operating Day" language has been implemented is not stated in the saved np-04.
 - The outcome of the PUCT's 2026 review of the system-wide offer cap programs (25.509(d)) was not found in the saved sources.
 - The IMM 2025 net revenue by technology (Figure 55) is a chart; per-technology dollar values are not quotable.

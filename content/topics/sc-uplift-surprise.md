@@ -240,30 +240,47 @@ This scenario asks an analyst to explain an unexpected uplift line on a settleme
 
 ## How it works
 
-Step 1, name the bucket. The IMM's uplift covers a list of settlements including Revenue Neutrality Allocation, emergency energy, ERS, black start, Firm Fuel, RMR, RUC, voltage services and the ERCOT administrative fee. [e2] In 2025 uplift totalled $668 million, or $1.38 per MWh of the all-in price, up 12% from 2024; RMR at $68 million was the largest contributor to the increase. [e3] Real-time congestion shortfalls are charged to LSEs through the Revenue Neutrality Allocation, and the IMM's 2025 annual table (in $ millions) lists Revenue Neutrality Uplift at $154. [e15][e14][e22]
+Step 1, name the bucket. The IMM's uplift covers a list of settlements including Revenue Neutrality Allocation, emergency energy, ERS, black start, Firm Fuel, RMR, RUC, voltage services and the ERCOT administrative fee. [e2] In 2025 uplift totalled $668 million, or $1.38 per MWh of the all-in price, up 12% from 2024; RMR at $68 million was the largest contributor to the increase. [e3] Real-time congestion shortfalls are charged to LSEs through the Revenue Neutrality Allocation, and the IMM's 2025 annual table (in $ millions) lists Revenue Neutrality Uplift at $154, AS Imbalance Uplift at $27, the ERCOT Fee at $308 and Firm Fuel at $46. [e15][e31][e22] "Uplift" is the IMM's analytical grouping; on a statement each item is its own charge type under its own Protocol section, such as the RUC Make-Whole Uplift Charge, the RMR Service Charge and the Real-Time Revenue Neutrality Allocation. [e7][e26][e27]
 
-Step 2, explain the allocation. Load Ratio Share is the ratio of an Entity's AML (retail Load usage data adjusted for UFE, losses and DC Tie exports) to total ERCOT AML for an interval, and several uplift items are spread on it. [e5][e6] For RUC, QSEs that were capacity-short pay first, and only the rest of the make-whole cost is uplifted to all QSEs by Load Ratio Share; RUC clawback revenues are paid back to QSEs on the same basis. [e7][e10] The IMM, in its summary of the FFSS rule (16 TAC 25.520), also says ERCOT uplifts most FFSS program costs to LSEs by load-ratio share. [e13]
+Step 2, explain the allocation. Load Ratio Share is the ratio of an Entity's AML (retail Load usage data adjusted for UFE, losses and DC Tie exports) to total ERCOT AML for an interval; for a 15-minute interval a QSE's LRS is its AML (floored at zero) over total ERCOT AML. [e5][e6][e25] Most uplift items are spread on it: total RMR cost goes to QSEs representing Loads by LRS, ERCOT allocates the net RENA amount by LRS to stay revenue-neutral in each Settlement Interval, and Real-Time AS payments and charges are allocated to QSEs representing Load by LRS. [e26][e27][e28] The IMM, in its summary of the FFSS rule (16 TAC 25.520), also says ERCOT uplifts most FFSS program costs to LSEs by load-ratio share. [e13]
 
-Step 3, explain the cause. A make-whole payment reimburses allowable startup and minimum energy costs that a RUC-committed Resource did not recover in the market. [e8] RUC instructions rose to 5,129 resource-hours in 2025, 77% for congestion, and make-whole payments exceeded $21 million against $4.5 million of claw-backs. [e11][e9] The IMM attributes part of the rise to more RUC and fewer resources opting out of RUC settlement. [e21]
+Step 3, explain RUC specifically. For RUC, QSEs that were capacity-short pay first, and only the rest of the make-whole cost is uplifted to all QSEs by Load Ratio Share; RUC clawback revenues are paid back to QSEs on the same basis, and RUC Decommitment Payments are charged back on LRS. [e7][e10][e48] A capacity-short QSE pays its shortfall ratio share of the total make-whole payments for that RUC, capped at two times the total make-whole payments times its shortfall over the total capacity of RUC-committed Resources. [e23][e24]
 
-Step 4, explain the timing and sign. ERCOT issues the RTM Initial Statement on the fifth day after the Operating Day and the RTM Final Statement on the 55th day, unless that day is not a Business Day. [e16][e17] A positive amount on a statement is owed to ERCOT; a negative amount is owed by ERCOT. [e18]
+Step 4, explain the cause. A make-whole payment reimburses allowable startup and minimum energy costs that a RUC-committed Resource did not recover in the market. [e8] RUC instructions rose to 5,129 resource-hours in 2025, 77% for congestion, and make-whole payments exceeded $21 million against $4.5 million of claw-backs. [e11][e9] The IMM attributes part of the rise to more RUC and fewer resources opting out of RUC settlement; opting out means giving up both make-whole and claw-back, and after NPRR1172 imposed a full claw-back on resources that opted out, the opt-out rate fell. [e21][e40][e41] The IMM's table shows the opt-out frequency at 3% in 2025, against 39% in 2021. [e45]
+
+Step 5, explain the timing and sign. ERCOT issues the RTM Initial Statement on the fifth day after the Operating Day, the RTM Final Statement on the 55th day, unless that day is not a Business Day, and an RTM True-Up Statement 180 days after the Operating Day if meter data thresholds are met. [e16][e17][e42] A positive amount on a statement is owed to ERCOT; a negative amount is owed by ERCOT. [e18]
+
+## Formula
+
+- QSE Load Ratio Share for a 15-minute interval: LRS = max(0, the QSE's Real-Time AML summed over its Settlement Points) divided by RTAMLTOT, total ERCOT AML. [e25]
+- RUC Capacity-Short Charge: the QSE's shortfall ratio share times total RUC Make-Whole Payments for that RUC, capped at 2 x total make-whole x (QSE shortfall / total capacity of RUC-committed Resources). [e23][e24]
+- RUC Make-Whole Uplift Charge: whatever make-whole the capacity-short charges do not cover, times each QSE's LRS. [e7]
+- Default uplift is different: each Counter-Party's share (DURSCP) is the total short-pay amount times its Maximum MWh Activity ratio share (MMARS = MMA / MMATOT), using the month before the default. [e30][e46]
 
 ## Key facts
 
 - 2025 uplift: $668 million in total, $1.38 per MWh of the all-in price, up 12% from 2024. [e3]
 - 2024 uplift: about $573 million, $1.24 per MWh. [e19]
+- 2021 uplift: about $2.1 billion, $5.34 per MWh, driven mostly by the ancillary service imbalance settlement. [e36]
 - 2025 RMR uplift: about $68 million, for RMR resources of around 730 MW. [e12]
 - 2025 FFSS uplift: $45.9 million, up 36% from $33.8 million in 2024. [e4]
 - 2025 RUC: 5,129 resource-hours; make-whole above $21 million; claw-backs $4.5 million. [e11][e9]
-- 2025 Revenue Neutrality Uplift in the IMM's annual table: $154 million. [e14][e22]
+- 2025 Revenue Neutrality Uplift in the IMM's annual table: $154 million; RENA was $160 million in 2024. [e14][e22][e33]
+- Summer 2026 RUC: 1,313 effective Resource-hours, against 872 in summer 2025 and 148 in summer 2024. [e37]
 
 ## Say it like this
 
 (Guidance) "Uplift is ERCOT passing through reliability costs that the market prices did not cover, such as paying units it ordered on-line, and every load-serving QSE pays its share based on how much load it served in those intervals. The charge is not a penalty on us; it rises when ERCOT relies more on out-of-market actions like RUC and RMR, and we can budget for it per MWh."
 
+(Guidance) For a finance audience: "Think of it as a pro-rata pass-through by load share, booked on the day-five statement, trued up on day 55, and possibly again at 180 days."
+
 ## Common confusion
 
-(Guidance) Uplift is not one charge; it is a family of settlements, each with its own allocation, and the IMM's total mixes them. [e2] RUC make-whole is not charged purely by load share: capacity-short QSEs pay first. [e7] The Securitization Uplift Charge is a separate charge to QSEs representing obligated LSEs, a different charge from the RUC make-whole uplift. [e20]
+(Guidance) Uplift is not one charge; it is a family of settlements, each with its own allocation, and the IMM's total mixes them. [e2] RUC make-whole is not charged purely by load share: capacity-short QSEs pay first. [e7] The Securitization Uplift Charge is a separate charge to QSEs representing obligated LSEs, a different charge from the RUC make-whole uplift, and it may not be passed through to a transmission-voltage Customer that is a Securitization Uplift Charge Opt-Out Entity. [e20][e44]
+
+(Guidance) Default uplift after another participant short-pays is not allocated by Load Ratio Share: it uses each Counter-Party's Maximum MWh Activity share and reaches QSEs and CRR Account Holders. [e29][e30]
+
+(Guidance) Not every allocated line is a cost: the IMM's 2025 table shows CRR Auction Distribution ($1,810 million) and Balancing Account Surplus ($293 million) as credits. [e32]
 
 ## Questions
 
@@ -273,11 +290,27 @@ The IMM reports RUC instructions rose 176% to 5,129 resource-hours in 2025, most
 
 ### Could we have avoided it?
 
-Not the Load Ratio Share part, which every QSE pays in proportion to its AML. [e5][e7] The capacity-short charge is the part tied to the QSE's own position, so being capacity-short in a RUC interval adds cost. [e7]
+Not the Load Ratio Share part, which every QSE pays in proportion to its AML. [e5][e7] The capacity-short charge is the part tied to the QSE's own position, so being capacity-short in a RUC interval adds cost, though it is capped. [e7][e24]
 
 ### Is the number on the initial statement final?
 
-Not necessarily. The RTM Initial Statement comes on the fifth day and the RTM Final Statement on the 55th day after the Operating Day. [e16][e17] The saved sources do not say how much amounts typically change between the two.
+Not necessarily. The RTM Initial Statement comes on the fifth day and the RTM Final Statement on the 55th day after the Operating Day, and the RTM True-Up Statement 180 days after, if the meter data threshold is met. [e16][e17][e42] The saved sources do not say how much amounts typically change between them.
+
+### Why did fewer units opt out of RUC settlement, and why does that matter to us?
+
+NPRR1172 imposed a full rather than partial claw-back on resources that opted out, and the opt-out rate fell below its long-term trend in 2024. [e41] A unit that stays in RUC settlement collects make-whole, which flows to loads by LRS, so fewer opt-outs means more uplift. [e40][e7]
+
+### What if a competitor REP defaults? Do we pay?
+
+Possibly. If short-paid amounts cannot be recovered, ERCOT collects them through Default Uplift Invoices from QSEs and CRR Account Holders, with each Counter-Party's share based on its Maximum MWh Activity in the month before the default, not on Load Ratio Share. [e29][e30][e46]
+
+### Will RUC uplift keep growing, and will its cause stay the same?
+
+The reason has shifted: ERCOT reports 1,313 effective RUC Resource-hours in summer 2026, more than the previous two summers, largely to address capacity needs and ensure sufficient Ancillary Service quantities, and in October 2026 99.4% of RUC hours were for capacity. [e37][e38][e39] Under NPRR1309, once implemented, DRRS deployments will not qualify for RUC Make-Whole Payments. [e43]
+
+### Why does RENA move with congestion?
+
+ERCOT must be revenue-neutral each interval and allocates the net residual by LRS. [e27] For 2024 the IMM attributes $75 million of RENA to the Load Distribution Factor contribution and $55 million to day-ahead versus real-time transmission model differences, and says NPRR1004 (approved August 11, 2020, still pending) should reduce it. [e34][e35]
 
 ## Scenarios
 
@@ -287,15 +320,24 @@ Not necessarily. The RTM Initial Statement comes on the fifth day and the RTM Fi
 - What it is: a payment ERCOT makes so a unit it committed through RUC recovers allowable startup and minimum energy costs the market did not cover. [e8]
 - Why we pay it: capacity-short QSEs are charged first, and what remains is uplifted to all QSEs by Load Ratio Share, our AML over total ERCOT AML. [e7][e5]
 - How big it is system-wide: RUC make-whole exceeded $21 million in 2025, against $4.5 million of claw-backs. [e9]
-- Why it grew in 2025: RUC instructions rose 176% to 5,129 resource-hours, about 77% for congestion, and make-whole payments rose with greater use of RUC and fewer opt-outs. [e11][e21] The saved sources do not forecast 2026 growth.
+- Why it grew in 2025: RUC instructions rose 176% to 5,129 resource-hours, about 77% for congestion, and make-whole payments rose with greater use of RUC and fewer opt-outs. [e11][e21]
+- What 2026 looks like: summer 2026 RUC was higher again but mostly for capacity and Ancillary Service quantities rather than congestion. [e37][e38] The saved sources do not forecast make-whole dollars for 2026.
 - Suppose (illustrative) a day's RUC make-whole uplift is $500,000 and our Load Ratio Share is 4%: our charge is about $20,000 for that day.
 - Context for the total bill: all 2025 uplift was $668 million, or $1.38 per MWh of the all-in price. [e3]
-- Timing: ERCOT issues the RTM Initial Statement on day five and the RTM Final Statement on day 55 after the Operating Day. [e16][e17]
+- Timing: ERCOT issues the RTM Initial Statement on day five and the RTM Final Statement on day 55 after the Operating Day, with a True-Up at 180 days. [e16][e17][e42]
 - (Reasoning) Recommend budgeting uplift per MWh of load, checking whether our QSE was capacity-short in the RUC intervals, and watching RUC and RMR trends in ERCOT and IMM reports.
+
+### Variant: finance asks why "uplift" in the IMM report does not match the sum of uplift lines on our statements.
+
+- The IMM's uplift is a defined list that includes items such as the ERCOT System Administrative Fee and Black Start Service Settlement, not a single ERCOT charge type. [e2]
+- On statements, each item settles under its own section: RMR by LRS to QSEs representing Loads, RENA by LRS, RUC make-whole after capacity-short charges. [e26][e27][e7]
+- Some allocations are credits, such as CRR Auction Distribution in the IMM's 2025 table. [e32]
+- (Reasoning) Reconcile by mapping each statement charge type to the IMM's list, then compare per-MWh rather than dollars, since our share moves with our LRS.
 
 ## Open items
 
-- No saved source gives a full per-category 2025 uplift breakdown that adds to $668 million; only RMR, FFSS, RUC and the Revenue Neutrality line were cited.
-- The RUC Capacity-Short Charge formula and its cap (np-05 Section 5.7.4.1) were not worked through.
-- How RMR costs are allocated to QSEs was not confirmed from the Protocols in this pass.
-- Deeper pass: the difference between the IMM's "uplift" definition and the ERCOT settlement charge types on an actual statement.
+- No saved source gives a full per-category 2025 uplift breakdown that adds to $668 million; the IMM's Table A4 lines (RENA $154 million, AS Imbalance $27 million, ERCOT Fee $308 million, Firm Fuel $46 million) were not reconciled to that total.
+- Resolved 2026-11-21: RMR cost allocation is confirmed in np-06 Section 6.6.6.5 (total RMR cost to QSEs representing Loads by LRS). [e26]
+- The RUC Capacity-Short Charge shortfall calculation (np-05 Section 5.7.4.1.1, RCAPSNAP and related variables) was not worked through beyond the cap.
+- Partly resolved 2026-11-21: the IMM's "uplift" list is mapped to several ERCOT charge types here; the saved sources do not include a sample settlement statement with charge-type codes.
+- How much amounts typically change between Initial, Final and True-Up statements is not in the saved sources.

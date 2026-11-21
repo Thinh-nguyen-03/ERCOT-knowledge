@@ -202,6 +202,10 @@ evidence:
     source: imm-som-2025
     locator: "Section on Controllable Load Resources, page 30"
     quote: "We recommend that ERCOT continue to incentivize loads to register as CLRs rather than participate in out of market programs like ERS or engage in self-curtailment outside of SCED."
+  - id: e37
+    source: imm-som-2025
+    locator: "Section on Controllable Load Resources, footnotes 14-15 (page 30)"
+    quote: "Although NPRR 1188 was approved in November 2024, its implementation is not complete yet. According to ERCOT project management, NPRR 1188 will be implemented in January 2027:"
 ---
 
 ## Definition
@@ -230,7 +234,7 @@ In 2025 all 12 registered CLRs were cryptocurrency mines. [e4] The IMM reports t
 
 The IMM calls the 2025 decline inconsistent with recent policy changes that raised incentives to register as CLRs. [e32] One was the resolution in April 2025 of a patent dispute, which the IMM says allowed cryptocurrency facilities to license the relevant patents at no cost and register as CLRs. [e32] The other is RTC: the IMM says that before RTC a CLR with a day-ahead AS award had to run in real time according to the award, while with RTC it can sell out of day-ahead positions or skip the day-ahead market and sell AS only in real time when energy prices are favorable. [e33][e7]
 
-The IMM says that currently CLRs are dispatched and settled at zonal prices, which creates an economic challenge for CLRs at structurally low-cost nodes such as the Panhandle. [e34] Protocol Section 3.6.1(5) currently gives the CLR its Load Zone Settlement Point. [e12] The IMM supports NPRR 1188 (nodal pricing for CLRs) and NPRR 1244 (registration without primary frequency response), both scheduled for January 2027 implementation per its 2025 report. [e8] NPRR1188 is a pending replacement in the Protocol text: it would let a CLR consume only when dispatched by SCED, restrict OUTL to a CLR that is Off-Line with zero consumption, and require status ONHOLD when the CLR cannot follow Dispatch but still consumes. [e18]
+The IMM says that currently CLRs are dispatched and settled at zonal prices, which creates an economic challenge for CLRs at structurally low-cost nodes such as the Panhandle. [e34] Protocol Section 3.6.1(5) currently gives the CLR its Load Zone Settlement Point. [e12] The IMM supports NPRR 1188 (nodal pricing for CLRs) and NPRR 1244 (registration without primary frequency response), both scheduled for January 2027 implementation per its 2025 report. [e8] A footnote in that report says NPRR 1188 was approved in November 2024 but not yet implemented, and that ERCOT project management expects implementation in January 2027. [e37] NPRR1188 is a pending replacement in the Protocol text: it would let a CLR consume only when dispatched by SCED, restrict OUTL to a CLR that is Off-Line with zero consumption, and require status ONHOLD when the CLR cannot follow Dispatch but still consumes. [e18]
 
 Provisional CLRs (PCLRs) are a newer category. The Protocols define a PCLR as a CLR required to maintain registration and qualification as a CLR until defined exit or de-registration criteria are met. [e25] A Resource Entity wishing to de-register a Large Load as a PCLR before its end date must give ERCOT at least 120 days' written notice, and the Large Load is then limited to the maximum LPC identified in the Batch Zero Interconnection Study and documented in the Load Commissioning Plan until new studies are done. [e26] The PUCT approved NPRR1325 on 6/18/26, effective upon implementation of PGRR 145 (Batch Zero Process). [e28][e27] The approved NPRR1325 text adds an Adjusted Bid Cap for PCLRs in Step 2 of two-step SCED: where a PCLR has a Shift Factor of -2% or lower on a matching constraint, the cap is the lowest absolute constraint contribution plus the first-step System Lambda minus $0.01/MWh, and otherwise no cap applies. [e29]
 
@@ -289,7 +293,7 @@ Before RTC a CLR with a day-ahead award had to run in real time per the award; w
 ## Open items
 
 - Set Point Deviation Charge parameters XO, YO, XU and YU are set by TAC and posted to the ERCOT website; their current values are not in the saved sources.
-- The Protocol text of NPRR1188 and NPRR1244 is pending in np-06, np-03 and np-02 boxes; the saved sources do not confirm implementation. The IMM's January 2027 date is from its 2025 report.
+- The Protocol text of NPRR1188 and NPRR1244 is pending in np-06, np-03 and np-02 boxes; the saved sources do not confirm implementation. The IMM's January 2027 date is from its 2025 report, citing ERCOT project management (a revision-request spreadsheet dated 2026-04-14).
 - The saved sources do not give CLR telemetry attribute lists or Section 22 Attachment O (ALR) requirements in detail.
 - The PCLR ramp rate requirements (Section 6.5.7.11) exist in np-06 only as a pending NPRR1325 insertion upon PGRR145 implementation and are not cited.
 - Resolved 2026-11-21: the patent dispute (IMM, resolved April 2025, no-cost licensing) and the Set Point Deviation Charge formulas.
