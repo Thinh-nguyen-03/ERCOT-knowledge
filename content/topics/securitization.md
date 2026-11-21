@@ -17,7 +17,7 @@ links:
     note: The statutory default balance includes amounts owed to the independent organization by competitive wholesale market participants during the period of emergency that otherwise would be uplifted. [e13]
   - to: uplift
     type: related
-    note: The Uplift Balance is money that was uplifted and then securitized. [e3]
+    note: The Uplift Balance is money that was uplifted and then securitized. [e3][e14]
   - to: credit-tpe
     type: related
     note: Securitization Default Charges have an escrow deposit, and ERCOT can use Financial Security to cover short-pays when escrow is insufficient. [e8][e9]
@@ -29,7 +29,7 @@ links:
     note: The financing was authorized under PURA Chapter 39 subchapters. [e1][e3]
   - to: ptp-obligation
     type: related
-    note: The Default Charge activity measure includes day-ahead and real-time PTP Obligation and Option activity and CRR auction activity, so CRR Account Holders are charged. [e32][e64]
+    note: The Default Charge activity measure includes day-ahead and real-time PTP Obligation and Option activity and CRR auction activity, so CRR Account Holders are charged. [e32][e64][e66][e67][e68]
   - to: winter-storm-uri
     type: related
     note: The statutes define the period of emergency as 12:01 a.m. on February 12, 2021 to 11:59 p.m. on February 20, 2021. [e15]
@@ -237,7 +237,7 @@ evidence:
   - id: e51
     source: np-27
     locator: "Section 27.2, paragraph (6)"
-    quote: "if a transmission-voltage Customer of a REP is a Securitization Uplift Charge Opt-Out Entity, the only ESI IDs associated with the transmission-voltage Customer that will be included in the Adjusted Metered Load (AML) adjustments for Securitization Uplift Charge Opt-Out Entities made under Section 27.3 are the specific ESI IDs included in opt-out notifications filed by the opt-out deadline in PUCT Project No. 52364"
+    quote: "Subject to paragraph (2) above, if a transmission-voltage Customer of a REP is a Securitization Uplift Charge Opt-Out Entity, the only ESI IDs associated with the transmission-voltage Customer that will be included in the Adjusted Metered Load (AML) adjustments for Securitization Uplift Charge Opt-Out Entities made under Section 27.3 are the specific ESI IDs included in opt-out notifications filed by the opt-out deadline in PUCT Project No. 52364"
   - id: e52
     source: np-27
     locator: "Section 27.2.1, Return of Securitization Proceeds, paragraph (1)"
@@ -294,6 +294,18 @@ evidence:
     source: np-26
     locator: "Section 26.3.1.2, paragraph (1)(d)"
     quote: "Regardless of whether ERCOT’s draw on available Securitization Default Charge escrow deposits or other Financial Security under paragraphs (a) through (c) above is sufficient to cover the amount owed by a Market Participant for a Securitization Default Charge Invoice, a Market Participant’s failure to pay the Invoice by the payment due date and time will still be deemed a Payment Breach under Section 16.11.6, Payment Breach and Late Payments by Market Participants."
+  - id: e66
+    source: np-26
+    locator: "Section 26.2, paragraph (2), variable table, SDCRTOBL"
+    quote: "The monthly total in the reference month of Market Participant mp’s PTP Obligations settled in Real-Time, counting the quantity only once per source and sink pair"
+  - id: e67
+    source: np-26
+    locator: "Section 26.2, paragraph (2), variable table, SDCDAOPT"
+    quote: "monthly total in the reference month of Market Participant mp’s PTP Options owned in the DAM"
+  - id: e68
+    source: np-26
+    locator: "Section 26.2, paragraph (2), variable table, SDCOBLS"
+    quote: "The MW quantity that represents the monthly total in the reference month of Market Participant mp’s PTP Obligation offers awarded in CRR Auctions"
 ---
 
 ## Definition
@@ -312,7 +324,7 @@ Two separate charges repay the two balances. Securitization Default Charges are 
 
 **Uplift Charge allocation.** ERCOT allocates the daily Securitization Uplift Charge amount to QSEs representing obligated LSEs on a daily QSE Non-Opted-Out LSE Load Ratio Share: LASUCAMT = SUCDA x DQSELSELRS. [e6][e44][e45][e11] The load used excludes opt-out entities, load exempt under the PUCT declaratory order in Docket No. 56119, and DC Tie exports. [e46] ERCOT re-evaluates at least quarterly so the charge is repaid in substantially equal payments, and gives a Market Notice at least 15 calendar days before a revised daily amount takes effect. [e47][e48] An LSE that is not an opt-out entity pays its QSE for its share, and may not pass the charge through to a transmission-voltage Customer that is an opt-out entity. [e49]
 
-**Opt-out.** Entities that qualified to opt out under PURA 39.653(d) do not pay it. [e7] The statute's one-time opt-out process was for municipally owned utilities, electric cooperatives, river authorities, certain affiliated REPs and transmission-voltage customers served by a REP, by paying in full all invoices owed for usage during the period of emergency; those that opt out do not receive any proceeds from the uplift financing. [e27] Opt-out status for a transmission-voltage Customer attaches to the ESI ID of the original Customer and cannot be transferred, and only ESI IDs in notifications filed by the opt-out deadline in PUCT Project No. 52364 are included in the Adjusted Metered Load adjustments. [e50][e51] If an LSE must return securitization proceeds, it remits them to its QSE, which remits them to ERCOT within two Business Days of receipt. [e52]
+**Opt-out.** Entities that qualified to opt out under PURA 39.653(d) do not pay it. [e7] The statute's one-time opt-out process was for municipally owned utilities, electric cooperatives, river authorities, certain affiliated REPs and transmission-voltage customers served by a REP, by paying in full all invoices owed for usage during the period of emergency; those that opt out do not receive any proceeds from the uplift financing. [e27] Opt-out status for a transmission-voltage Customer attaches to the ESI ID of the original Customer and cannot be transferred, and, subject to paragraph (2) of Section 27.2, only ESI IDs in notifications filed by the opt-out deadline in PUCT Project No. 52364 are included in the Adjusted Metered Load adjustments. [e50][e51] If an LSE must return securitization proceeds, it remits them to its QSE, which remits them to ERCOT within two Business Days of receipt. [e52]
 
 **Uplift Charge invoicing.** ERCOT issues Initial Invoices (based on Initial Settlement data) on the same Business Day that RTM Initial Statements are posted for the Operating Day, due at 1700 on the second Bank Business Day after the invoice date. [e53][e54] Reallocation Invoices follow on the same Business Day as RTM Final, True-Up and Resettlement Statements. [e55] If ERCOT lacks funds to pay all Reallocation Invoice recipients, it reduces payments pro rata to achieve revenue neutrality for ERCOT. [e56] A short-pay of an Initial Invoice that cannot be recovered is considered in ERCOT's next evaluation of the Uplift Charge Daily Amount. [e57]
 
