@@ -17,13 +17,13 @@ links:
     note: The disclosure timing comes from PUCT Substantive Rule 25.506. [e1][e3]
   - to: sced
     type: related
-    note: The Protocols require posting SCED offer and bid data 60 days after the Operating Day. [e6]
+    note: The Protocols require posting each Resource's Energy Offer Curve for each SCED execution 60 days prior to the current Operating Day. [e6]
   - to: dam
     type: related
     note: The Protocols require posting DAM offer data 60 days after the Operating Day. [e7]
   - to: market-information-system
     type: related
-    note: These postings go to a publicly accessible location on the ERCOT website. [e1]
+    note: The PUCT rule requires ERCOT to post the information at a publicly accessible location on its website; the current Protocol text posts the 60-day State Estimator data to the MIS Secure Area. [e1][e30]
   - to: imm
     type: related
     note: Entity-specific offer data is posted 60 calendar days after the day it is accumulated. [e3]
@@ -241,7 +241,7 @@ evidence:
 
 ## Definition
 
-The 60-day disclosures are the entity-specific market data ERCOT posts publicly 60 calendar days after the day the information is accumulated, under PUCT Substantive Rule 25.506 and Protocol Section 3.2.5. [e3][e6][e7]
+The 60-day disclosures are the entity-specific market data ERCOT posts 60 calendar days after the day the information is accumulated, under PUCT Substantive Rule 25.506 and Protocol Section 3.2.5. [e3][e6][e7]
 
 ## How it works
 
@@ -263,7 +263,7 @@ Shorter clocks. The highest-priced offer selected or dispatched in each interval
 
 ERCOT must release relevant State Estimator data earlier than 60 days if, in its sole discretion, it determines the release is necessary to explain unexpected market operations or system events, including pricing anomalies. [e5] That release is limited to the intervals associated with the event and made available simultaneously to all market participants. [e29]
 
-What is public with no 60-day lag. For each Operating Day ERCOT posts each Resource's name, the Resource Entity name and, for most Resources, the name of the Decision Making Entity controlling it (and an RMR flag). [e13]
+Resource identity postings. Section 3.2.5(11) has ERCOT post on its website, for each Operating Day, each Resource's name, the Resource Entity name and, except for Load Resources that are not SCED qualified, the name of the Decision Making Entity controlling it, plus a flag for Reliability Must-Run Resources; that paragraph states no 60-day delay. [e13]
 
 Pending changes (not in force). A pending NPRR1188 box in Section 3.2.5(12) would insert further items (m) and (n) into the 60-day DAM list upon system implementation; it is not current rule. [e23] A pending NPRR1239 box would replace the State Estimator paragraph upon system implementation, and its replacement text says ERCOT posts it on the ERCOT website rather than the MIS Secure Area. [e38][e40]
 
@@ -271,10 +271,10 @@ Where it is posted. The PUCT rule requires ERCOT to use a stakeholder process, i
 
 ## Timeline
 
-- Two days after the Operating Day: aggregated SCED and DAM data, actual load and output. [e2][e8]
+- Two days after the Operating Day: aggregated offer, output and load information under the PUCT rule, and information derived from each SCED execution under the Protocols. [e2][e8]
 - Three days: highest-priced offer or bid and the offering entity. [e4][e12][e39]
 - Seven days: portions of offers at or above 50 times the gas index or Fuel Index Price, when the price test is met. [e10][e11]
-- 55th day: RTM Final Statement issues, five days before the 60-day postings; the saved sources do not say the 60-day lag was set to follow it. [e33]
+- 55th day (or the first Business Day after it): RTM Final Statement issues, about five days before the 60-day postings; the saved sources do not say the 60-day lag was set to follow it. [e33]
 - 60 days: entity-specific offers, bids, awards and State Estimator data. [e3][e6][e7][e5]
 - Within 60 days of the date information became available under Section 1.3.3: deadline to register a settlement or billing dispute that relates to that information. [e37]
 
@@ -303,11 +303,11 @@ Two-day postings are aggregated (curves, output, load). The 60-day postings are 
 
 ### Can anything entity-specific come out earlier?
 
-Yes: the highest-priced offer each interval (three days), portions of offers at or above 50 times the index when prices spike (seven days), and State Estimator data when ERCOT finds it necessary for explaining unexpected events. [e4][e10][e5]
+Yes: the highest-priced offer each interval (three days) and portions of offers at or above 50 times the index when prices spike (seven days); separately, State Estimator data (system data, not offers) can be released earlier when ERCOT finds it necessary for explaining unexpected events. [e4][e10][e5]
 
 ### Why do offers show up three versions on the 60-day report?
 
-Section 3.2.5(4)(a) lists the Energy Offer Curve as submitted, as extended or truncated with proxy logic to fit the operational HSL and LSL, and as mitigated and extended for use in SCED. [e14] The mitigated version shows what SCED actually used. [e14]
+Section 3.2.5(4)(a) lists the Energy Offer Curve as submitted, as extended or truncated with proxy logic to fit the operational HSL and LSL, and as mitigated and extended for use in SCED. [e14] The third form is the curve as mitigated and extended for use in SCED. [e14]
 
 ### What if someone's Protected Information would be revealed by a two-day posting?
 
@@ -323,7 +323,7 @@ The saved sources do not give the reason for 60 days; they only state the rule's
 
 - Individual DAM Energy-Only Offer Curves with the QSE name, Three-Part Supply Offers by Generation Resource, and DAM awards, 60 days after each Operating Day. [e19][e21]
 - Individual Energy Bids and PTP Obligation bids with the QSE. [e20]
-- Only after the 60-day point; before that, only aggregate curves are posted (two days). [e3][e2][e8]
+- Entity-specific DAM offers and bids come at the 60-day point. Earlier, the saved sources show only aggregated data (two days) and the limited items described above (highest-priced offers at three days, high-priced portions of offers at seven days). [e3][e2][e8][e4][e10][e11]
 
 ## Open items
 

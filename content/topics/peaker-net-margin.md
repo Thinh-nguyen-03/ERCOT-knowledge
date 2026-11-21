@@ -222,6 +222,10 @@ evidence:
     source: imm-som-2025
     locator: "Chapter I, all-in price discussion (p. 2)"
     quote: "The Operating Reserve Demand Curve (ORDC) Adder, implemented in 2014 and discontinued in December 2025 with the introduction of RTC, reflects increasing reliability risks when reserves begin to run short; and"
+  - id: e45
+    source: imm-som-2021
+    locator: "page 123 (OCR), Resource Adequacy, Peaker Net Margin in 2021"
+    quote: "Once the natural gas prices had stabilized and the LCAP was no longer expected to exceed the HCAP, and the Commission reinstituted the application of the LCAP."
 ---
 
 ## Definition
@@ -236,7 +240,7 @@ Peaker net margin (PNM) is a running calendar-year sum of how much the real-time
 
 **Threshold and trigger.** ERCOT sets the PNM threshold at three times the cost of new entry, and the Protocol parameter table lists it as 315,000 $/MW-year. [e6][e21] The system-wide offer cap starts each calendar year at the HCAP and stays there until PNM exceeds the threshold. [e17] The Protocol's statement of the trigger covers the DASWCAP and the VOLL used to set the ASDCs for the DAM and RTM. [e43] If it does, the cap is set to the LCAP for the rest of the calendar year. [e10] In the Protocols the sequence is: the HCAP stays in effect for the day PNM crosses and the next Operating Day (Days 1 and 2), ERCOT sends a Market Notice on Day 2 before the DAM that the DASWCAP and the VOLL used to determine the ASDCs for DAM and RTM will be changed to the LCAP, and the LCAP applies from Day 3 to year end. [e7][e25][e14] On December 31 the DASWCAP and VOLL reset to the HCAP for the next January 1. [e24]
 
-**What the LCAP regime does.** The rule says that when the cap is the LCAP, ERCOT keeps applying the operating reserve demand curve and the reliability deployment price adder, but energy prices exclusive of congestion will not exceed the LCAP plus $1 for the rest of the year. [e18] ERCOT must reimburse resource entities for actual marginal costs above the larger of the LCAP or their real-time energy price. [e19]
+**What the LCAP regime does.** The rule says that when the cap is the LCAP, ERCOT keeps applying the operating reserve demand curve and the reliability deployment price adder, but energy prices exclusive of congestion will not exceed the LCAP plus $1 for the rest of the year. [e18] (The IMM says the ORDC adder was discontinued in December 2025 with RTC, so the adder part of this rule text no longer describes current practice. [e44]) ERCOT must reimburse resource entities for actual marginal costs above the larger of the LCAP or their real-time energy price. [e19]
 
 **Cap values.** In the PUCT rule (copy effective 12/20/23) the LCAP is $2,000 per MWh (and per MW per hour for ancillary service offers) and the HCAP is $5,000 per MWh (and per MW per hour). [e16] The saved np-04 (edition effective 2026-08-01) parameter table lists the day-ahead HCAP at $5,000/MWh and the real-time HCAP (RTSWCAP) at $2,000/MWh. [e22]
 
@@ -257,16 +261,16 @@ Suppose gas is $4/MMBtu, so POC is $40/MWh. An interval at $140/MWh adds (140 - 
 
 ## ERCOT context
 
-The IMM says the threshold has been exceeded only once, on February 16, 2021, during Winter Storm Uri. [e9] In 2025 PNM reached almost $79 per kW, about 21% below 2024, and did not reach the threshold. [e12] The IMM stresses that PNM is not a true net revenue measure: it uses protocol-specified values, a 10.0 MMBtu per MWh heat rate, and excludes variable O&M costs and outage rates. [e11] By contrast, its own net revenue analysis assumes 10.5 MMBtu per MWh, $4 per MWh variable O&M and a 10% outage rate. [e35]
+The IMM says the threshold has been exceeded only once, on February 16, 2021, during Winter Storm Uri. [e9] In 2025 PNM reached almost $79 per kW, about 21% below 2024, and did not reach the threshold. [e12] The IMM stresses that PNM is not a true net revenue measure: it uses protocol-specified values, a 10.0 MMBtu per MWh heat rate, and excludes variable O&M costs and outage rates. [e11] By contrast, its own net revenue analysis (as described in its 2024 report) assumes 10.5 MMBtu per MWh, $4 per MWh variable O&M and a 10% outage rate. [e35]
 
-The threshold is still based on the legacy cost of new entry of $105 per kW-year; in July 2024 the PUCT approved $140 per kW-year for planning purposes but kept $105 for the PNM threshold. [e13] The IMM defines CONE as the estimated annualized revenue requirement for a marginal new generating resource, typically gas-fired, to recover capital and fixed operating costs. [e39] Comparing PNM with CONE is the IMM's check on whether market revenues are enough to support new generation, and the IMM says that if PNM approaches or exceeds CONE, market revenues are sufficient for that year. [e8][e40] ERCOT is separately reviewing CONE alongside its 2026 Reliability Standard Assessment. [e41]
+The threshold is still based on the legacy cost of new entry of $105 per kW-year; in July 2024 the PUCT approved $140 per kW-year for planning purposes but kept $105 for the PNM threshold. [e13] The IMM defines CONE as the estimated annualized revenue requirement for a marginal new generating resource, typically gas-fired, to recover capital and fixed operating costs. [e39] Comparing PNM with CONE is the IMM's check on whether market revenues are enough to support new generation, and the IMM says that if PNM approaches or exceeds CONE, it suggests market revenues are sufficient to support new generation for that year. [e8][e40] ERCOT is separately reviewing CONE alongside its 2026 Reliability Standard Assessment. [e41]
 
-Year by year, from the IMM reports: 2021 crossed the $315,000 threshold on February 16. [e28] In 2022 PNM was higher than any other year except 2021 but nowhere near the threshold, with $32k/MW-yr accumulated in the winter months. [e31][e32] In 2023 PNM was about $263,968, again the highest since 2021 but well below the threshold, and the IMM attributes it largely to ECRS implementation affecting real-time prices. [e33][e34] The IMM says net revenues in 2024 and 2025 were significantly lower than in previous years and that low-revenue years occur often and are not a threat to resource adequacy. [e36] In 2025 the IMM also saw a wide West versus Houston gap in gas unit net revenues, driven by Permian import-constrained congestion. [e37] Wind and solar net revenues were lower than gas-fired technologies in all areas in 2025. [e38]
+Year by year, from the IMM reports: 2021 crossed the $315,000 threshold on February 16. [e28] In 2022 PNM was higher than any other year except 2021 but nowhere near the threshold, with $32k/MW-yr accumulated in the winter months. [e31][e32] In 2023 PNM was about $263,968, again the highest since 2021 but well below the threshold, and the IMM attributes it largely to ECRS implementation affecting real-time prices. [e33][e34] The IMM says net revenues in 2024 and 2025 were significantly lower than in previous years and that low-revenue years occur often and are not a threat to resource adequacy. [e36] In 2025 the IMM says the price gap between the two hubs it compares widened because the import constraint in the Permian Basin substantially increased congestion costs in the region. [e37] Wind and solar net revenues were lower than gas-fired technologies in all areas in 2025. [e38]
 
 ## Timeline
 
 - February 16, 2021: PNM threshold exceeded for the first and only time; the LCAP in effect then was the greater of $2,000 or 50 times the natural gas price index, and the IMM says the gas price (up to $400/MMBtu) pushed it to more than double the HCAP. [e28][e29]
-- March 3, 2021: the IMM says the Commission suspended use of the LCAP to avoid outcomes contrary to the rule's purpose. [e30]
+- March 3, 2021: the IMM says the Commission suspended use of the LCAP to avoid outcomes contrary to the rule's purpose; the IMM adds that the Commission reinstituted the LCAP once gas prices had stabilized and the LCAP was no longer expected to exceed the HCAP. [e30][e45]
 - July 2024: PUCT approves a planning CONE of $140 per kW-year but keeps the $105 value for the PNM threshold. [e13]
 - September 26, 2024: Board approval of NPRR1216 (per its report); its proposed language would set the SWCAP to the LCAP on the next Operating Day after the threshold is exceeded, instead of from Day 3 as in the Protocols saved here. The saved np-04 still shows the Day 3 schedule, so this is pending or not yet reflected. [e42][e25]
 - December 2025: RTC go-live; the IMM says the ORDC adder was discontinued then. [e44]
@@ -298,7 +302,7 @@ For each settlement interval where the Hub Average 345 kV price exceeds the POC 
 
 ### What happens when PNM crosses the threshold?
 
-The cap goes to the LCAP for the rest of the calendar year, after the HCAP stays for the day of the crossing and the next Operating Day. [e10][e7] Energy prices excluding congestion will not exceed the LCAP plus $1, and resources are reimbursed for marginal costs above the larger of the LCAP or their real-time price. [e18][e19]
+The PUCT rule says the cap goes to the LCAP for the rest of the calendar year; in the Protocols the DASWCAP and the VOLL used for the ASDCs change to the LCAP after the HCAP stays in effect for the day of the crossing and the next Operating Day. [e10][e7] Energy prices excluding congestion will not exceed the LCAP plus $1, and resources are reimbursed for marginal costs above the larger of the LCAP or their real-time price. [e18][e19]
 
 ### Why is the threshold still $315 per kW-year when CONE was updated to $140?
 
@@ -310,11 +314,11 @@ The IMM reports 2023 PNM of approximately $263,968, below the $315,000 threshold
 
 ### What if gas prices spike, as in Winter Storm Uri?
 
-Because POC is ten times the daily gas index, a gas price spike raises the hurdle the real-time price must clear. [e2] In 2021 the IMM says the LCAP at the time was tied to 50 times the gas index and rose to more than double the HCAP, and the Commission suspended it on March 3. [e29][e30] The LCAP in the saved rule is a fixed $2,000. [e16]
+Because POC is ten times the daily gas index, a gas price spike raises the hurdle the real-time price must clear. [e2] In 2021 the IMM says the LCAP at the time was tied to 50 times the gas index and rose to more than double the HCAP, and the Commission suspended its use on March 3, reinstituting it once gas prices stabilized. [e29][e30][e45] The LCAP in the saved rule is a fixed $2,000. [e16]
 
 ### Why does the IMM say low PNM years are not a problem?
 
-The IMM says years with lower net revenues occur often and are not a threat to resource adequacy, as part of the cycle in an energy-only market. [e36]
+The IMM says years with lower net revenues occur often and are not a threat to resource adequacy. [e36]
 
 ## Scenarios
 

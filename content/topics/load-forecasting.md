@@ -266,6 +266,10 @@ evidence:
     source: ercot-ltlf-2026-prelim
     locator: "Preliminary LTLF for 2026-2032, filing letter, paragraph 1 (footnote text)"
     quote: "The vast majority of the load forecast for 2029 and 2032 is attributable to Large Loads that were identified in Transmission and/or Distribution Service Provider (TDSP) load submissions"
+  - id: e56
+    source: puct-25-370
+    locator: "16 TAC §25.370, Effective date subsection (final page)"
+    quote: "ERCOT must use load data submitted for the 2026 RTP in its transmission planning studies or resource adequacy assessments, including Regional Planning Group project submissions until ERCOT constructs new planning cases with the load data submitted by DSPs using the criteria in subsection (c) of this section."
 ---
 
 ## Definition
@@ -292,7 +296,7 @@ Forecast error feeds ancillary service sizing. ERCOT's 2026 methodology accounts
 
 Operator posture. The IMM's 2021 report says that after the June 2021 conservation appeal ERCOT adopted a more conservative operating posture, including adjusting its selection of forecast to rely more frequently on the highest load forecast and the lowest wind and solar forecasts. [e42]
 
-Long-term and large loads. The IMM says ERCOT's peak demand grew from 74.7 GW in 2019 to 85.6 GW in 2024 (2.76% a year), while recent forecasts diverged sharply: its chronology notes a July 2024 LTLF including officer letter loads that projected 148 GW in 2030, against 86.5 GW and 82.8 GW in the December 2023 and May 2024 CDRs. [e39][e38] PUCT rule 16 TAC §25.370, effective 3/1/2026, says ERCOT must not include a large load customer's forecasted demand in a load forecast used for identifying transmission planning needs or performing resource adequacy assessments unless the customer executed an interconnection agreement and provided the required disclosures and financial commitments. [e29] By its terms the criterion applies to load forecasts used for transmission planning needs and resource adequacy assessments [e29], and the rule lets ERCOT use different forecasts for different study scopes and horizons [e32]; no saved source says it applies to the Seven-Day Load Forecast. ERCOT may adjust DSP-provided load data to correct errors or account for withdrawn or cancelled interconnection requests if the DSP agrees [e54]; any other adjustment needs PUCT approval, which the Commission may give if the adjustment is supported by actual historical realization rates or other objective, credible, independent information. [e30] It must also file an annual assessment comparing past forecasts to actual outcomes, identifying error sources and recommending improvements. [e31]
+Long-term and large loads. The IMM says ERCOT's peak demand grew from 74.7 GW in 2019 to 85.6 GW in 2024 (2.76% a year), while recent forecasts diverged sharply: its chronology notes a July 2024 LTLF including officer letter loads that projected 148 GW in 2030, against 86.5 GW and 82.8 GW in the December 2023 and May 2024 CDRs. [e39][e38] PUCT rule 16 TAC §25.370, effective 3/1/2026, says ERCOT must not include a large load customer's forecasted demand in a load forecast used for identifying transmission planning needs or performing resource adequacy assessments unless the customer executed an interconnection agreement and provided the required disclosures and financial commitments. [e29] Its effective-date clause has ERCOT keep using the load data submitted for the 2026 RTP until it constructs new planning cases using those criteria, so the criteria are phased in. [e56] By its terms the criterion applies to load forecasts used for transmission planning needs and resource adequacy assessments [e29], and the rule lets ERCOT use different forecasts for different study scopes and horizons [e32]; no saved source says it applies to the Seven-Day Load Forecast. ERCOT may adjust DSP-provided load data to correct errors or account for withdrawn or cancelled interconnection requests if the DSP agrees [e54]; any other adjustment needs PUCT approval, which the Commission may give if the adjustment is supported by actual historical realization rates or other objective, credible, independent information. [e30] It must also file an annual assessment comparing past forecasts to actual outcomes, identifying error sources and recommending improvements. [e31]
 
 In its preliminary LTLF for 2026-2032 ERCOT projected approximately 278,003 MW of total demand by 2029 and 367,790 MW by 2032, against an all-time peak of 85,508 MW; the filing says the vast majority of the 2029 and 2032 figures is attributable to Large Loads identified in TDSP load submissions. [e33][e55] The same filing says ERCOT currently expected summer 2026 peak load of approximately 90,500 to 98,000 MW against about 112,000 MW in the preliminary LTLF, and proposed two ways to adjust the LTLF: a historical realization rate or the forecast from the Large Load Batch Zero process. [e34][e35]
 
@@ -313,7 +317,7 @@ In its preliminary LTLF for 2026-2032 ERCOT projected approximately 278,003 MW o
 - July 2021 onward: the IMM says ERCOT relied more frequently on the highest load forecast and lowest wind and solar forecasts. [e42]
 - July 2024: revised 2024 LTLF includes officer letter loads (148 GW in 2030). [e38]
 - April 2025: LTLF with 2025 summer peak 85,759 MW. [e37]
-- March 1, 2026: 16 TAC §25.370 effective. [e29]
+- March 1, 2026: 16 TAC §25.370 effective; its subsection (c) criteria apply to planning cases ERCOT constructs after that (phased in). [e29][e56]
 - 2026: preliminary LTLF 367,790 MW by 2032 and ERCOT's proposed adjustment options. [e33][e35]
 
 ## Say it like this
