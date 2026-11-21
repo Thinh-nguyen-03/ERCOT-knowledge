@@ -41,7 +41,7 @@ links:
     note: The IMM says FFSS was first deployed during Winter Storm Elliott in late December 2022. [e73]
   - to: puct
     type: related
-    note: The PUCT rule for FFSS, 16 TAC 25.520, is shown in the saved copy as effective 2/25/2026. [e18]
+    note: The PUCT rule for FFSS, 16 TAC 25.520, is shown in the saved copy as effective 2/25/2026. [e18][e74]
 evidence:
   - id: e1
     source: np-02
@@ -310,11 +310,11 @@ evidence:
   - id: e67
     source: puct-ffss-memo-2025
     locator: "Project No. 56000, Staff memo of July 3, 2025, Appendix, NPRR1118"
-    quote: "Decreases the number of FFSS obligation periods awarded in an FFSS procurement from two to one."
+    quote: "N-PRR 1118: Continued One-Winter Procurements for Firm Fuel Supply Service (FFSS) (Approved 07/25/2024; effective 08/01/2024) Decreases the number of FFSS obligation periods awarded in an FFSS procurement from two to one."
   - id: e68
     source: puct-ffss-memo-2025
     locator: "Project No. 56000, Staff memo of July 3, 2025, Appendix, NPRR1141"
-    quote: "Provides equity and clarity surrounding the hourly standby fee claw backs for FFSS during a Watch for winter weather using a linear curve approach."
+    quote: "N-PRR 1141: Firm Fuel Supply Service (FFSS) Availability and Hourly Standby Fee (Approved 05/15/2025; effective 06/01/2025) Provides equity and clarity surrounding the hourly standby fee claw backs for FFSS during a Watch for winter weather using a linear curve approach."
   - id: e69
     source: ercot-ffss-expectations
     locator: "FFSS Capability Demonstration and Qualification (version 3, 7/27/2026)"
@@ -331,6 +331,10 @@ evidence:
     source: np-06
     locator: "Section 6.6.14.2, paragraph (5), award amount"
     quote: "FFSSAWARD _(q, r, h) = FFSSPR _(q, r, h) * FFSSACAP _(q, r, h)"
+  - id: e74
+    source: puct-25-520
+    locator: "16 TAC 25.520, page footer of saved copy"
+    quote: "§25.520-1 effective 2/25/2026 (P-58434)"
   - id: e73
     source: imm-som-2022
     locator: "page 105 (OCR), Winter Storm Elliott discussion"
@@ -345,7 +349,7 @@ Firm Fuel Supply Service (FFSS) is a service provided by certain Generation Reso
 
 **Procurement calendar.** ERCOT issues an RFP by August 1 each year, offers are due on or before September 1, and awards are issued by September 30. [e24][e25] ERCOT procures FFSS ahead of each obligation period, with a maximum of $54 million in procurement costs for a single obligation period, and at least 70% of that budget goes to the on-site and resource-controlled categories unless offers fall short. [e3][e4] An offer is an offer to supply the awarded capacity, hold enough reserved fuel for at least one deployment, and reserve emissions hours for at least three deployments in the obligation period. [e26]
 
-**Three categories.** The PUCT rule, shown in the saved copy as effective 2/25/2026, defines three ways to qualify. On-site FFSS needs demonstrated dual fuel capability, the ability to burn alternative on-site stored fuel, and on-site fuel storage. [e19] Resource-controlled FFSS needs on-site gas or fuel oil storage, or off-site gas storage where the resource or QSE owns and controls both the storage facility and the pipeline delivering to the resource. [e20] Contractual off-site FFSS needs a firm gas storage agreement and a firm transportation agreement with a pipeline that is a critical natural gas facility. [e21] The Protocols add that a resource may take part under only one category. [e22] The IMM says that in July 2023 ERCOT expanded FFSS to include certain gas-fired resources with owned natural gas stored offsite and backed by firm transportation and storage agreements. [e61]
+**Three categories.** The PUCT rule, shown in the saved copy as effective 2/25/2026 [e74], defines three ways to qualify. On-site FFSS needs demonstrated dual fuel capability, the ability to burn alternative on-site stored fuel, and on-site fuel storage. [e19] Resource-controlled FFSS needs on-site gas or fuel oil storage, or off-site gas storage where the resource or QSE owns and controls both the storage facility and the pipeline delivering to the resource. [e20] Contractual off-site FFSS needs a firm gas storage agreement and a firm transportation agreement with a pipeline that is a critical natural gas facility. [e21] The Protocols add that a resource may take part under only one category. [e22] The IMM says that in July 2023 ERCOT expanded FFSS to include certain gas-fired resources with owned natural gas stored offsite and backed by firm transportation and storage agreements. [e61]
 
 **Qualification and testing.** Every year a QSE must show each offered primary and alternate resource can use its reserved fuel and sustain output for 60 minutes at the MW level it wants to qualify, and the most that can be offered is the average Real-Time net real power telemetered during that demonstration. [e23] ERCOT's guidance says a previous deployment can be used if it falls in the one-year testing period, with an August 15 deadline to inform ERCOT. [e69] An offer form may name up to three alternate resources per primary resource. [e35]
 
@@ -402,7 +406,7 @@ Deployments, per the IMM: five consecutive days in January 2024 (10 resources, m
 - July 2023: FFSS expanded to certain gas-fired resources with offsite gas storage backed by firm transportation and storage agreements (per the IMM). [e61]
 - NPRR1118 (effective 08/01/2024 per the PUCT staff memo's appendix): decreased the number of obligation periods awarded in one procurement from two to one. [e67]
 - NPRR1141 (approved 05/15/2025, effective 06/01/2025 per the PUCT staff memo): standby fee clawbacks during a winter weather Watch use a linear curve approach. [e68]
-- February 2026: PUCT rulemaking for 16 TAC 25.520 (per the IMM; saved rule copy shows effective 2/25/2026). [e54][e18]
+- February 2026: PUCT rulemaking for 16 TAC 25.520 (per the IMM; saved rule copy shows effective 2/25/2026). [e54][e18][e74]
 
 ## Say it like this
 
