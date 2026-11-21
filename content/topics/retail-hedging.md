@@ -29,16 +29,16 @@ links:
     note: The IMM lists bilateral PPAs as one of the ways LSEs manage price exposure. [e1]
   - to: volumetric-risk
     type: related
-    note: ERCOT settles each QSE's real-time imbalance on the net of its supplies and its metered load, so a fixed-volume hedge leaves the load-volume difference at the real-time price. [e11][e12]
+    note: ERCOT settles each QSE's real-time imbalance on the net of its supply-side amounts and its AML (Adjusted Metered Load), so a fixed-volume hedge leaves the load-volume difference at the real-time price. [e11][e12][e38]
   - to: shape-risk
     type: related
-    note: ERCOT's CRR and ICE products use peak and off-peak hour blocks, which are flat-block shapes that do not follow an individual load's hourly pattern. [e24][e25]
+    note: ERCOT's CRR auction includes 5x16 blocks for hours ending 0700-2200 on weekdays, and the ICE peak future averages SPPs for hours ending 0700-2200 CPT; both are fixed hour blocks. [e24][e25]
   - to: basis-risk
     type: related
     note: In ERCOT's own LSE training example a hub purchase left a real-time charge at the load zone, so the hedge did not fully cover the load. [e15]
   - to: exchanges-ice-nodal
     type: related
-    note: ICE lists cash-settled ERCOT North real-time futures, one of the futures routes the IMM lists for LSEs. [e1]
+    note: See that topic for the ICE ERCOT North futures; the IMM lists participating in futures markets among the ways LSEs manage price exposure. [e1]
   - to: retailer-defaults-2021
     type: related
     note: Three retailers filed for bankruptcy and had certificates revoked after February 2021. [e22]
@@ -179,7 +179,7 @@ evidence:
   - id: e32
     source: pura-39
     locator: "PURA §39.110(b)-(c), Wholesale Indexed Products Prohibited"
-    quote: "An aggregator, a broker, or a retail electric provider may enroll a customer other than a residential and small commercial customer in a wholesale indexed product only if the provider, aggregator, or broker obtains before the customer's enrollment an acknowledgment signed by the customer that the customer accepts the potential price risks associated with a wholesale indexed product."
+    quote: "An aggregator, a broker, or a retail electric provider may not offer a wholesale indexed product to a residential or small commercial customer.(c)  An aggregator, a broker, or a retail electric provider may enroll a customer other than a residential and small commercial customer in a wholesale indexed product only if the provider, aggregator, or broker obtains before the customer's enrollment an acknowledgment signed by the customer that the customer accepts the potential price risks associated with a wholesale indexed product."
   - id: e33
     source: pura-39
     locator: "PURA §39.110, session-law note following the section"
@@ -200,6 +200,10 @@ evidence:
     source: imm-som-2023
     locator: "Section G (Exposure of Load to Real-Time Prices), page 54 (OCR)"
     quote: "Load is not fully exposed to these real-time prices to the extent that load-serving entities (LSEs) may own generation or bilaterally contract for supply ahead of the real-time market."
+  - id: e38
+    source: np-02
+    locator: "Section 2.2, Acronyms and Abbreviations, AML"
+    quote: "AML Adjusted Metered Load"
 ---
 
 ## Definition
@@ -210,18 +214,18 @@ In the IMM's description, retail hedging is how load-serving entities manage the
 
 **What an LSE has to cover.** ERCOT's training for Load Serving Entities lists the tools for hedging wholesale market costs: the Day Ahead Market (energy, congestion, capacity), bilateral trades (energy, capacity, ancillary service) and Congestion Revenue Rights (congestion). [e9]
 
-**What is left unhedged is settled at real time.** In the LSE training, real-time energy imbalance is the negative of supplies minus obligations, times the real-time settlement point price. [e10] In the Protocols, a QSE's Energy Imbalance at a Load Zone is priced at the Real-Time Settlement Point Price on a net of amounts that includes its Self-Schedules, its cleared DAM Energy Bids and its Energy Trades as buyer, against offsets that include its actual metered load. [e11][e12] So load that is covered by a day-ahead award or a bilateral buy is settled in real time only on the difference. The IMM notes that load is not fully exposed to real-time prices to the extent LSEs own generation or bilaterally contract for supply ahead of the real-time market. [e37]
+**What is left unhedged is settled at real time.** In the LSE training, real-time energy imbalance is the negative of supplies minus obligations, times the real-time settlement point price. [e10] In the Protocols, a QSE's Energy Imbalance at a Load Zone is priced at the Real-Time Settlement Point Price on a net of amounts that includes its Self-Schedules, its cleared DAM Energy Bids and its Energy Trades as buyer, against offsets that include its AML (Adjusted Metered Load, excluding Non-WSL ESR Charging Load). [e11][e12][e38] So load that is covered by a day-ahead award or a bilateral buy is settled in real time only on the difference. The IMM notes that load is not fully exposed to real-time prices to the extent LSEs own generation or bilaterally contract for supply ahead of the real-time market. [e37]
 
 **Worked example from ERCOT training (illustrative numbers, Load Zone West, one hour, 100 MW).** [e13][e14][e16]
 - No hedge: the load buys all energy in real time at $40. [e13]
 - Day-ahead hedge: a 100 MW DAM award at the load zone costs $50/MWh, a charge of $5,000 per hour. [e14]
 - Bilateral trade at the hub: a 100 MW purchase for delivery to West Hub at $55/MWh costs $5,500 per hour, and the scorecard shows a net real-time settlement of $500 and a net cost of $6,000 for the hour. [e16][e15] The training example thereby shows a hub hedge leaving a location difference to the load zone; the numbers are the course's, not market data.
 
-**Retail products decide what price risk the REP carries (PUCT rule 16 TAC §25.475, version effective 6 January 2022).** A fixed rate product has a term of at least three months with the same price in each billing period, except for pass-through of TDU charges, ERCOT or Texas Regional Entity administrative fees and new fees imposed by law that are beyond the REP's control. [e27] The price may not vary to reflect ancillary service charges unless the commission expressly designates a specific type of ancillary service product as beyond the REP's control for a customer's existing contract. [e28] An indexed product's price varies by a disclosed formula based on publicly available indices or information, plus the same pass-through items. [e29] A wholesale indexed product passes through real-time settlement point prices directly. [e30]
+**Retail products decide what price risk the REP carries (PUCT rule 16 TAC §25.475 on REP requirements for residential and small commercial customers, version effective 6 January 2022).** A fixed rate product has a term of at least three months with the same price in each billing period, except for pass-through of TDU charges, ERCOT or Texas Regional Entity administrative fees and new fees imposed by law that are beyond the REP's control. [e27] The price may not vary to reflect ancillary service charges unless the commission expressly designates a specific type of ancillary service product as beyond the REP's control for a customer's existing contract. [e28] An indexed product's price varies by a disclosed formula based on publicly available indices or information, plus the same pass-through items. [e29] A wholesale indexed product passes through real-time settlement point prices directly. [e30]
 
-**Wholesale indexed products are restricted.** A REP, aggregator or broker is prohibited from offering a wholesale indexed product to a residential or small commercial customer on or after 1 September 2021, and an indexed product to such customers on or after 1 February 2022. [e31] PURA §39.110 allows enrolling a customer other than residential and small commercial in a wholesale indexed product only with a signed acknowledgment that the customer accepts the potential price risks. [e32] That section was added by HB 16, effective 1 September 2021. [e33]
+**Wholesale indexed products are restricted.** A REP, aggregator or broker is prohibited from offering a wholesale indexed product to a residential or small commercial customer on or after 1 September 2021, and an indexed product to such customers on or after 1 February 2022. [e31] PURA §39.110(b) says a REP, aggregator or broker may not offer a wholesale indexed product to a residential or small commercial customer, and §39.110(c) allows enrolling a customer other than residential and small commercial in a wholesale indexed product only with a signed acknowledgment that the customer accepts the potential price risks. [e32] That section was added by HB 16, effective 1 September 2021. [e33]
 
-**Credit for hedging in the DAM.** In ERCOT's LSE training, the day-ahead credit requirement for an energy bid is volume times bid price and for a PTP obligation bid is volume times (bid price plus historical real-time exposure). [e17]
+**Credit for hedging in the DAM.** In ERCOT's LSE training (February 2024), the day-ahead credit requirement for an energy bid is volume times bid price and for a PTP obligation bid is volume times (bid price plus historical real-time exposure). [e17]
 
 **Does day-ahead cover reduce exposure?** The IMM says it reduces volatility and uncertainty but gives little protection against sustained price elevations, because day-ahead prices in a well-performing market tend to reflect expected real-time prices. [e3] The IMM said in its 2023 report that day-ahead purchases provide very little protection for load for the same reason. [e19]
 
@@ -257,7 +261,7 @@ In the IMM's description, retail hedging is how load-serving entities manage the
 
 ## Say it like this
 
-(Guidance) A retailer's hedge is whatever covers its load against real-time prices: owned generation, bilateral PPAs, futures, or day-ahead positions. Day-ahead cover smooths volatility, but it does not shield against a sustained price rise. Exposure shares in the IMM report are measured from ERCOT settlement data, so they leave out bilateral and futures hedges the IMM cannot see.
+(Guidance) A retailer's hedge is whatever covers its load against real-time prices: owned generation, bilateral PPAs, futures, or day-ahead positions. Day-ahead cover smooths volatility, but it does not shield against a sustained price rise. Exposure shares in the IMM report are measured from ERCOT settlement data, so they leave out bilateral hedges the IMM has no information on.
 
 ## Common confusion
 
@@ -298,8 +302,8 @@ Not in the saved text of 16 TAC §25.107 as read; it sets access-to-capital and 
 ### A REP sells a fixed rate product and real-time prices spike in a heat wave
 
 - The REP cannot pass the cost through: a fixed rate product's price may vary only for the listed pass-throughs, and not for ancillary service charges unless the commission designates them. [e27][e28]
-- Load covered by DAM awards or trades is settled in real time only on the difference between supply and actual metered load. [e10][e11][e12]
-- A day-ahead hedge bought earlier, in a market where day-ahead prices reflect expected real-time prices, will already have priced much of the expected scarcity. [e3]
+- Load covered by DAM awards or trades is settled in real time only on the difference between its supply-side amounts and its AML (Adjusted Metered Load). [e10][e11][e12][e38]
+- A day-ahead hedge gives little protection against sustained elevations in prices, because day-ahead prices in a well-performing market tend to reflect expected real-time prices (IMM). [e3]
 - Hedging activity is expected to be higher in months with extreme weather likelihood. [e7]
 
 ## Open items

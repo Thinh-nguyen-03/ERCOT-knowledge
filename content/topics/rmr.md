@@ -281,6 +281,50 @@ evidence:
     source: ercot-monthly-ops-2026-01
     locator: "ERCOT monthly operations report (January 2026), Operating Days undergoing Criteria Analysis"
     quote: "Operating Days January 14, 2026 to January 16, 2026 were impacted by a software defect that resulted in the Reliability Deployment Price Adder (RDPA) not being triggered when a Reliability Must-Run (RMR) Resource was online for testing. ERCOT corrected the defect on January 17th, 2026."
+  - id: e59
+    source: np-03
+    locator: "Section 3.14.1.2, paragraph (3)(c)(v)"
+    quote: "ERCOT may, in its sole discretion, deviate from the above criteria in order to maintain ERCOT System reliability."
+  - id: e60
+    source: np-03
+    locator: "Section 3.14.1.17, paragraph (3)(a), availability reduction"
+    quote: "The reduction will be linear; with a 2% reduction in the Incentive Factor payment for every 1% of the Hourly Rolling Equivalent Availability Factor less than the Target Availability stated in the RMR Agreement."
+  - id: e61
+    source: imm-som-2025
+    locator: "Market Operations chapter, section E, RMRs in 2025"
+    quote: "In March 2024, ERCOT received Notifications of Suspension of Operations (NSOs) stating that three CPS Energy Braunig gas units planned to suspend operations in early 2025."
+  - id: e62
+    source: imm-som-2025
+    locator: "Market Operations chapter, section E, RMR policy changes"
+    quote: "The ERCOT Board of Directors approved NPRR 1313 in April 2026, and the PUC will take these up at the May 29 Open Meeting."
+  - id: e63
+    source: np-03
+    locator: "Section 3.14.1.2, paragraph (10), last sentence"
+    quote: "This paragraph does not apply to a Generation Resource that suspended operations due to a Forced Outage."
+  - id: e64
+    source: np-06
+    locator: "Section 6.6.6.1, paragraph (3), when the equation applies"
+    quote: "For the Initial Settlement and resettlements executed before true-up and before actual cost data is submitted, the standby price of an RMR Unit is either the “Initial Standby Cost” stated in the RMR Agreement or the revised Standby Cost calculated in accordance with paragraph (2) of Section 3.14.1.13."
+  - id: e65
+    source: np-06
+    locator: "Section 6.6.6.1, variable definition of RMRMNFNCC"
+    quote: "The actual non-capital and non-fuel Eligible Cost of RMR Unit r represented by QSE q, for the month."
+  - id: e66
+    source: np-06
+    locator: "Section 6.6.6.1, variable definition of RMRMNFCC"
+    quote: "The actual non-fuel and capital Eligible Cost of RMR Unit r represented by QSE q, for the month."
+  - id: e67
+    source: np-06
+    locator: "Section 6.6.6.1, variable definition of RMRMNFCC, second sentence"
+    quote: "Notwithstanding the above, reservation and transportation costs associated with firm fuel supplies as described in paragraph (1)(a)(vi) of Section 3.14.1.10, Eligible Costs, shall be included herein."
+  - id: e68
+    source: np-06
+    locator: "Section 6.6.6.1, variable definition of MH"
+    quote: "The total number of hours of the month, when RMR Unit r represented by QSE q is under an RMR Agreement."
+  - id: e69
+    source: np-06
+    locator: "Section 6.6.6.1, variable definition of RMRIF"
+    quote: "The Incentive Factor of RMR Units under RMR Agreement."
 ---
 
 ## Definition
@@ -291,45 +335,45 @@ A Reliability Must-Run (RMR) Unit is a Generation Resource operated under an agr
 
 **Trigger and timeline.** The process starts when a Resource Entity files a Notification of Suspension of Operations (NSO); ERCOT may then begin procuring RMR Service. [e3] Except for a Forced Outage, the Resource Entity must give written notice at least 150 days before it intends to cease or suspend operation for more than 180 days, or at least 90 days before a seasonal mothball. [e19] PUCT rule 25.502(e) likewise requires ERCOT to make a final determination of the need for RMR service within 60 calendar days of receiving the notice. [e45] In the Protocols, Market Participants have 21 days to comment (unless ERCOT shortens it), ERCOT's reliability analysis must be completed within 60 days after receiving Parts I and II of the NSO, and ERCOT conducts that analysis for resources with a summer net max sustainable rating of at least 20 MW. [e20][e23][e21]
 
-**The need test.** A thermal-overload performance deficiency counts as materially impacted by the resource only if the resource has a more than 2% unloading Shift Factor and more than 5% unloading impact on the overloaded facility. [e22] Before entering an agreement ERCOT must assess alternatives, including re-dispatch or reconfiguration, Automatic Mitigation Plans and Remedial Action Plans, and Remedial Action Schemes. [e4][e16] ERCOT must minimize the use of RMR Units as much as practicable. [e17]
+**The need test.** A thermal-overload performance deficiency is deemed materially impacted by the resource only if the resource has a more than 2% unloading Shift Factor and more than 5% unloading impact on the overloaded facility; ERCOT may, in its sole discretion, deviate from these criteria in order to maintain ERCOT System reliability. [e22][e59] Before entering an agreement ERCOT must assess alternatives, including re-dispatch or reconfiguration, Automatic Mitigation Plans and Remedial Action Plans, and Remedial Action Schemes. [e4][e16] ERCOT must minimize the use of RMR Units as much as practicable. [e17]
 
-**MRA RFP and Board approval.** Within ten days after a determination that the proposed suspension would cause a performance deficiency the resource materially affects, ERCOT issues an RFP for Must-Run Alternatives. [e24] If it finds an RMR or MRA agreement cost-effective (or finds a deficiency but that an agreement is not cost-effective), it presents the finding to the ERCOT Board for approval, and PUCT rule 25.502 makes ERCOT staff's recommendations subject to board approval. [e8][e47] If ERCOT has neither cleared the unit nor obtained Board approval after 150 days, the Resource Entity may file a complaint at the PUCT under 25.502(e)(1); if it does not file, it is deemed to have accepted ERCOT's most recent offer as of the suspension date. [e25][e46] If the Board approves an RMR agreement but it is not yet executed by the suspension date, the unit must stay available for RUC commitment. [e26]
+**MRA RFP and Board approval.** Within ten days after a determination that the proposed suspension would cause a performance deficiency the resource materially affects, ERCOT issues an RFP for Must-Run Alternatives. [e24] If it finds an RMR or MRA agreement cost-effective (or finds a deficiency but that an agreement is not cost-effective), it presents the finding to the ERCOT Board for approval, and PUCT rule 25.502 makes ERCOT staff's recommendations subject to board approval. [e8][e47] If ERCOT has neither cleared the unit nor obtained Board approval after 150 days (seasonal mothballs have a separate timing rule), the Resource Entity may file a complaint at the PUCT under 25.502(e)(1); if it does not file, it is deemed to have accepted ERCOT's most recent offer as of the suspension date. [e25][e46] If the Board approves an RMR agreement but it is not yet executed by the suspension date, the unit must stay available for RUC commitment until no longer required to do so under PUCT rule 25.502(e)(2), except that this does not apply to a Generation Resource that suspended operations due to a Forced Outage. [e26][e63]
 
 **Terms.** RMR is voluntary for the owner: a Resource Entity cannot be compelled to sign, and one with an uneconomic unit can petition for RMR status. [e6] ERCOT must contract for the entire capacity of each RMR Unit. [e18] Agreements run from one month to one year, with longer terms allowed when a significant capital expenditure is needed. [e5] While under RMR the unit may not participate in the bilateral energy market, self-provide energy (other than plant auxiliary load) or provide Ancillary Service to any entity. [e7] No later than 90 days after an RMR agreement is executed, ERCOT must report a list of feasible alternatives that may later be more cost-effective than continued renewal. [e27]
 
-**Money.** Eligible Costs are those the owner would incur to provide RMR Service, excluding fuel costs or other costs it would have incurred anyway had it been mothballed or shut down; depreciation, return on equity and debt costs are among the examples that are not eligible. [e28][e29] The initial Standby Cost for each month is the monthly approved budget divided by the hours in the month, and it is recalculated if the remaining-term costs change by more than 10% from the most recently approved budget. [e30][e31] The incentive factor is 10% of actual Eligible Costs, excluding fuel and firm fuel reservation and transportation costs, and it is reduced linearly for failed capacity tests and for availability below target. [e32][e33] Energy is paid on the contract input/output curve and FIP at initial settlement and on actual fuel costs in later settlements. [e37] If the resource later participates in the energy or ancillary service markets, it must refund contributed capital under the Protocols' schedule (100% of remaining book value plus 10% of accelerated tax depreciation, less salvage previously repaid), and the PUCT rule says ERCOT may require less than the full amount to reflect depreciation. [e49][e48] The total RMR cost for all RMR Units is allocated to QSEs representing Load based on load ratio share. [e36]
+**Money.** Eligible Costs are those the owner would incur to provide RMR Service, excluding fuel costs or other costs it would have incurred anyway had it been mothballed or shut down; depreciation, return on equity and debt costs are among the examples that are not eligible. [e28][e29] The initial Standby Cost for each month is the monthly approved budget divided by the hours in the month, and it is recalculated if the remaining-term costs change by more than 10% from the most recently approved budget. [e30][e31] The incentive factor is 10% of actual Eligible Costs, excluding fuel and firm fuel reservation and transportation costs, and it is reduced linearly for failed capacity tests (2% per 1% of reduced capacity) and for availability below target (2% per 1% of availability shortfall). [e32][e33][e60] Energy payment on the Initial Settlement and settlements before true-up and before actual cost data is submitted uses the estimated input/output curve and startup fuel in the RMR Agreement, actual energy produced and the FIP; other settlements use actual fuel costs. [e37] If the resource later participates in the energy or ancillary service markets, it must refund contributed capital under the Protocols' schedule (100% of remaining book value plus 10% of accelerated tax depreciation, less salvage previously repaid), and the PUCT rule says ERCOT may require less than the full amount to reflect depreciation. [e49][e48] The total RMR cost for all RMR Units is allocated to QSEs representing Load based on load ratio share. [e36]
 
-**Operations.** ERCOT may manually commit an RMR Unit through DRUC or HRUC to resolve a transmission constraint, and may submit Energy Offer Curves at the effective VOLL on its behalf. [e39][e38] ERCOT sets the unit's mitigated offer cap at the highest value expected to allow SCED to dispatch it. [e40] A pending change (NPRR826, to take effect upon system implementation) would instead use one single price for the full operating range of the Resource, determined through a shadow price test. [e41]
+**Operations.** ERCOT may manually commit an RMR Unit through DRUC or HRUC to resolve a transmission constraint, and may submit Energy Offer Curves at the effective VOLL on its behalf, unless ERCOT declares a Market Suspension, in which case no Energy Offer Curves are submitted. [e39][e38] ERCOT sets the unit's mitigated offer cap at the highest value expected to allow SCED to dispatch it. [e40] A pending change (NPRR826, to take effect upon system implementation) would instead use a single price ($/MWh) as the MOC curve for the full operating range of the Resource. [e41]
 
-**Must-Run Alternatives (pending text).** The saved protocol text for Section 3.14.4 sits inside a pending NPRR885 and NPRR995 box and is not yet in effect. As proposed there, ERCOT may procure MRA Service, subject to Board approval, if the MRA agreements would address the reliability need identified in the RMR study more cost-effectively, each MRA must provide at least five MW, and offers are paid as offered with no clearing price mechanism. [e42][e43][e44]
+**Must-Run Alternatives (pending text).** The saved protocol text for Section 3.14.4 sits inside a pending NPRR885 and NPRR995 box and is not yet in effect. As proposed there, ERCOT may procure MRA Service, subject to Board approval, if the MRA agreements would address the reliability need identified in the RMR study more cost-effectively, each MRA must provide at least five MW, and a clearing price mechanism shall not be used for awarding offers. [e42][e43][e44]
 
 ## Formula
 
-Monthly standby price in later settlements, in $ per hour (np-06 Section 6.6.6.1): [e35]
+Hourly standby price in $ per hour, used for resettlements after actual cost data is submitted (np-06 Section 6.6.6.1; the Initial Settlement and earlier resettlements use the Initial Standby Cost or revised Standby Cost instead): [e35][e64]
 
 `RMRSBPR = (RMRMNFNCC * (1 + RMRIF * RMRCRF * RMRARF) + RMRMNFCC) / MH` [e35]
 
-- RMRMNFNCC is the actual monthly non-fuel, non-capital Eligible Cost; RMRMNFCC is the actual monthly non-fuel capital Eligible Cost, which also includes firm fuel reservation and transportation costs. [e35]
-- RMRIF is the incentive factor, 10% of eligible costs excluding fuel and firm fuel reservation and transportation, reduced by the capacity and availability factors. [e32][e33]
-- RMRCRF and RMRARF are the capacity and availability reduction factors; the incentive factor falls 2% for each 1% of capacity shortfall or availability shortfall against target. [e33]
+- RMRMNFNCC is the actual non-capital and non-fuel Eligible Cost for the month; RMRMNFCC is the actual non-fuel and capital Eligible Cost for the month, and it also includes firm fuel reservation and transportation costs. [e65][e66][e67]
+- RMRIF is the incentive factor of the unit under its agreement (10% of actual Eligible Costs excluding fuel and firm fuel reservation and transportation costs, before reductions); the formula scales it by RMRCRF and RMRARF. [e69][e32][e33]
+- RMRCRF and RMRARF are the capacity and availability reduction factors; the incentive factor falls 2% for each 1% of reduced capacity in a Capacity Test, and 2% for each 1% of availability below the Target Availability. [e33][e60]
 - Availability is measured as available MW per hour per the final COP over contracted MW per hour for the previous 4380 hours. [e34]
-- MH is the number of hours in the month under the agreement. [e35]
+- MH is the total number of hours of the month when the unit is under an RMR Agreement. [e68]
 
 ## ERCOT context
 
 RMR addresses local reliability needs where market solutions do not exist, an RMR unit may not trade bilaterally or provide Ancillary Service, and the owner cannot be compelled into a contract. [e1][e7][e6] The IMM describes compensation as a standby payment based on the approved budget or actual eligible costs, adjusted for performance and availability, plus a 10% incentive factor that is reduced for missed capacity or availability. [e50]
 
-The IMM reports that in March 2024 ERCOT received NSOs for three CPS Energy Braunig gas units, and that ERCOT's reliability analysis found retiring them would significantly increase the risk of overloading key 345-kV lines south of San Antonio. [e51] The ERCOT Board approved RMR service for Braunig Unit 3 (HSL about 410 MW) on February 24, 2025; the agreement runs from March 2, 2025 through no later than March 1, 2027, and for Units 1 and 2 the Board later approved 15 mobile diesel-fired generation units with HSLs of 12 to 28 MW as a temporary solution in lieu of RMR agreements. [e9][e52] The IMM counts RMR settlement as part of the 2025 uplift, with RMR uplift the largest contributor to the increase at $68 million of $668 million in total uplift, and says the mobile generating units had produced about 1,226 MWh with maximum aggregate output of RMR units under 40 MW. [e10][e11] ERCOT allocates the cost of RMR agreements to LSEs. [e12]
+The IMM reports that in March 2024 ERCOT received NSOs for three CPS Energy Braunig gas units, and that ERCOT's reliability analysis found retiring them would significantly increase the risk of overloading key 345-kV lines south of San Antonio. [e61][e51] The ERCOT Board approved RMR service for Braunig Unit 3 (HSL about 410 MW) on February 24, 2025; the agreement runs from March 2, 2025 through no later than March 1, 2027, and for Units 1 and 2 the Board later approved 15 mobile diesel-fired generation units with HSLs of 12 to 28 MW as a temporary solution in lieu of RMR agreements. [e9][e52] The IMM counts RMR settlement as part of the 2025 uplift, with RMR uplift the largest contributor to the increase at $68 million of $668 million in total uplift, and says the mobile generating units had produced about 1,226 MWh with maximum aggregate output of RMR units under 40 MW. [e10][e11] ERCOT allocates the cost of RMR agreements to LSEs. [e12]
 
-In January 2026, ERCOT told its Board that Braunig Unit 3 repairs under the RMR contract were completed before Winter Storm Fern and that ERCOT committed the unit throughout the storm to relieve overloads and manage the binding South Texas Export. [e54][e55] A monthly operations report notes a software defect on January 14 to 16, 2026 that stopped the RDPA being triggered when an RMR Resource was online for testing; ERCOT corrected it on January 17. [e58]
+In a February 2026 Board system operations update on Winter Storm Fern (January 2026), ERCOT said Braunig Unit 3 repairs under the RMR contract were completed before the storm and that ERCOT committed the unit throughout the storm to relieve overloads and manage the binding South Texas Export. [e54][e55] A monthly operations report notes a software defect on January 14 to 16, 2026 that stopped the RDPA being triggered when an RMR Resource was online for testing; ERCOT corrected it on January 17. [e58]
 
 ## Timeline
 
-- March 2024: NSOs received for three Braunig units. [e51]
+- March 2024: NSOs received for three Braunig units. [e61]
 - February 24, 2025: ERCOT Board approves RMR for Braunig Unit 3. [e9]
 - March 2, 2025: Braunig Unit 3 agreement period starts, to run no later than March 1, 2027. [e52]
 - October 2025: ERCOT workshop on out-of-market contracts proposes a longer NSO notice period (15-21 months instead of 5), annual retirement-plan RFIs and a frontloaded budget structure. [e56]
-- April 2026: the ERCOT Board approves NPRR1313 (variable monthly initial standby cost), per the IMM; ERCOT proposes NPRR1330 on mitigated offer caps for RMR units. [e53][e13]
+- April 2026: the ERCOT Board approves NPRR1313 (variable monthly initial standby cost), per the IMM; ERCOT proposes NPRR1330 on mitigated offer caps for RMR units. [e53][e62][e13]
 
 ## Key facts
 
@@ -369,7 +413,7 @@ A standby payment from the approved budget (or actual eligible costs later), adj
 
 ### Why can a retiring owner not just walk away if ERCOT needs the unit?
 
-The owner must give notice and, if ERCOT's 150 days pass without a determination or Board approval, it can complain to the PUCT. If the Board has approved an RMR agreement that is not yet executed, the unit must stay available for RUC. [e19][e25][e26] But ERCOT cannot compel an RMR agreement. [e6]
+The owner must give notice and, if ERCOT's 150 days pass without a determination or Board approval, it can complain to the PUCT. If the Board has approved an RMR agreement that is not yet executed, the unit must stay available for RUC (not applicable after a Forced Outage). [e19][e25][e26][e63] But ERCOT cannot compel an RMR agreement. [e6]
 
 ### What if the RMR need disappears?
 
