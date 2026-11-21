@@ -35,7 +35,7 @@ links:
     note: ERCOT does not calculate or pay a RUC Make-Whole Payment for an ESR, and ESRs are not subject to RUC Clawback Charges. [e11][e22]
   - to: rmr
     type: related
-    note: Make-whole, clawback, capacity-short and uplift amounts all include amounts for RMR Units. [e34][e22]
+    note: The capacity-short charge, the total make-whole payments it is based on, and the clawback charge all include amounts for RMR Units. [e34][e22]
   - to: sced
     type: related
     note: A QSE that opts out of RUC Settlement must make the Resource available to SCED for all RUC Buy-Back Hours. [e31]
@@ -161,7 +161,7 @@ evidence:
   - id: e29
     source: np-05
     locator: "Section 5.6.3, Forced Outage of a RUC-Committed Resource, paragraph (2)"
-    quote: "If a RUC-committed Resource, which Resource is eligible to include startup costs in its RUC guarantee under Section 5.6.2 without considering the criteria in item (2)(d) of Section 5.6.2, experiences startup failure that creates a Forced Outage before breaker close, ERCOT shall include the Resource’s submitted and approved verifiable actual costs in the Resource’s RUC guarantee, limited to the lesser of:"
+    quote: "If a RUC-committed Resource, which Resource is eligible to include startup costs in its RUC guarantee under Section 5.6.2 without considering the criteria in item (2)(d) of Section 5.6.2, experiences startup failure that creates a Forced Outage before breaker close, ERCOT shall include the Resource’s submitted and approved verifiable actual costs in the Resource’s RUC guarantee, limited to the lesser of: (a) Costs that qualify as normal startup expenses, including fuel and operation and maintenance expenses, incurred before the event that caused the Forced Outage; or (b) Resource’s Startup Offer in the RUC."
   - id: e30
     source: np-05
     locator: "Section 5.5.2, RUC Process, paragraph (21), opt out"
@@ -266,6 +266,30 @@ evidence:
     source: imm-som-2021
     locator: "page 109 (OCR), RUC (2021 report)"
     quote: "This increase from preceding years was due to ERCOT’s desire to have at least 6,500 MW in reserve above the load forecast, which began in July 2021."
+  - id: e56
+    source: np-05
+    locator: "Section 5.7.4.2, paragraph (1), variable RUCMWAMTTOT"
+    quote: "RUC Make-Whole Amount Total—The sum of RUC Make-Whole Payments for all RUC processes, including amounts for RMR Units, for the hour that includes the 15-minute Settlement Interval."
+  - id: e57
+    source: np-05
+    locator: "Section 5.7.4.2, paragraph (1), variable RUCCSAMTTOT"
+    quote: "RUC Capacity Amount Total—The sum of RUC Capacity-Short Charges for all QSEs and RUC processes, including payments for RMR Units, for the 15-minute Settlement Interval."
+  - id: e58
+    source: np-05
+    locator: "Section 5.7.5, paragraph (1), variable RUCCBAMTTOT"
+    quote: "RUC Clawback Charge Total —The sum of RUC Clawback Charges to all QSEs, including amounts for RMR Units, for the hour that includes the 15-minute Settlement Interval."
+  - id: e59
+    source: imm-som-2024
+    locator: "page 105 (OCR), 3. Make-Whole Payments and Clawbacks"
+    quote: "In response to concerns that this undermined efficient market behavior, consumer stakeholder representatives filed NPRR 1172, Fuel Adder Definition, Mitigated Offer Caps, and RUC Clawback, in April 2023"
+  - id: e60
+    source: np-09
+    locator: "Section 9.14.7, paragraph (2)"
+    quote: "If the QSE submitting a Settlement dispute under paragraph (1) above, or the Resource Entity for the Resource, has an executed and enforceable transportation contract (together with any associated statement of operating conditions), on an interstate or intrastate pipeline, for the Generation Resource that received the RUC instruction, the QSE must show proof that the QSE or Resource Entity (or another entity acting on behalf of the Resource Entity with respect to fuel procurement) purchased and nominated fuel in sufficient quantities to start and operate the Resource at its Low Sustained Limit (LSL) during the RUC-Committed Intervals."
+  - id: e61
+    source: imm-som-2025
+    locator: "Executive Summary, Market Operations"
+    quote: "The increase in make-whole payments can be partially explained by greater use of RUC and fewer resources opting out of RUC settlement."
 ---
 
 ## Definition
@@ -278,13 +302,13 @@ A RUC Make-Whole Payment is what ERCOT pays a QSE to reimburse allowable startup
 
 **What the guarantee is made of.** The RUC Guarantee is the sum of eligible Startup Costs and minimum-energy costs during all RUC-Committed Hours of the Operating Day. [e15] The minimum-energy part is prorated by actual generation when average output in a 15-minute Settlement Interval is below LSL. [e16] If a validated Three-Part Supply Offer was submitted, the guarantee uses the lesser of the offers and caps; if none was submitted and ERCOT has not approved unit-specific costs, it uses the Resource Category generic caps. [e17][e18] Until ERCOT approves verifiable unit-specific costs the caps are the generic caps, and a QSE or Resource Entity must file verifiable costs no later than 30 days after five RUC events for the Resource in a calendar year. [e25]
 
-**Startup eligibility.** All contiguous RUC-Committed Hours count as one RUC instruction, and only one Startup Cost is eligible per block. [e26] Breaker tests also apply: the breakers must have been open (Off-Line) for at least five minutes during the six hours before the first RUC-Committed Hour and then closed (On-Line) for at least one minute. [e27] If the Resource suffers a startup failure that creates a Forced Outage before breaker close, ERCOT includes submitted and approved verifiable actual costs, limited to the lesser of normal startup expenses incurred and the Resource's Startup Offer in the RUC. [e29]
+**Startup eligibility.** All contiguous RUC-Committed Hours count as one RUC instruction, and only one Startup Cost is eligible per block. [e26] Among the criteria that must all be met, breaker tests also apply: the breakers must have been open (Off-Line) for at least five minutes during the six hours before the first RUC-Committed Hour and then closed (On-Line) for at least one minute. [e27] If the Resource suffers a startup failure that creates a Forced Outage before breaker close, ERCOT includes submitted and approved verifiable actual costs, limited to the lesser of normal startup expenses incurred before the event and the Resource's Startup Offer in the RUC. This applies to a Resource that is eligible to include startup costs under Section 5.6.2 without considering criterion (2)(d). [e29]
 
 **Clawback.** The QSE pays a clawback charge for the Operating Day if the RUC Guarantee is less than the sum of the same three revenue measures. [e2] The charge is allocated evenly over the Resource's RUC-Committed Hours, includes RMR Units, and does not apply to ESRs. [e22] Revenues from all clawback charges are paid to all QSEs on a Load Ratio Share basis as the RUC Clawback Payment. [e6][e41]
 
 **Opt-out.** A QSE with a Resource that is not an RMR Unit and has not received an OSA may opt out of RUC Settlement ("buy back" the commitment) by setting the COP status to ONOPTOUT for the first hour of the contiguous block of RUC-Committed Hours in the Opt Out Snapshot. [e30] Opting out forfeits RUC Settlement for the block of RUC Buy-Back Hours, and the Resource must be available to SCED for all those hours. [e31] The IMM says suppliers may opt out of both the make-whole payment and any associated clawback, effectively self-committing the unit and accepting full exposure to market outcomes. [e46]
 
-**Who pays.** QSEs that were capacity-short in each RUC are charged first, in proportion to their shortfall and subject to a cap; any remainder in a 15-minute Settlement Interval is uplifted to all QSEs on a Load Ratio Share basis. [e3][e4] The cap on a QSE's charge is two times total RUC Make-Whole Payments for all QSEs multiplied by that QSE's capacity shortfall divided by the total capacity of all RUC-committed Resources during the Settlement Interval for the RUC process. [e34] ERCOT posts monthly, within ten days after Initial Settlement of the month's last day, the total make-whole charges and clawback payment amounts by interval, by QSE capacity shortfall and by amount uplifted. [e33]
+**Who pays.** QSEs that were capacity-short in each RUC are charged first, by shortfall ratio share and subject to a cap; any remainder in a 15-minute Settlement Interval is uplifted to all QSEs on a Load Ratio Share basis. [e3][e4] The cap on a QSE's charge is two times total RUC Make-Whole Payments for all QSEs multiplied by that QSE's capacity shortfall divided by the total capacity of all RUC-committed Resources during the Settlement Interval for the RUC process. [e34] (The capacity-short formula printed in 5.7.4.1 wraps this term and the shortfall-ratio-share term in Max(...); see Open items.) ERCOT posts monthly, within ten days after Initial Settlement of the month's last day, the total make-whole charges and clawback payment amounts by interval, by QSE capacity shortfall and by amount uplifted. [e33]
 
 **How shortfall is measured.** The available capacity of an IRR in the shortfall calculation is the lesser of its COP HSL and its wind or PV production potential at the time of RUC execution. [e35] A QSE is credited for non-IRR Resources given notice of decommitment within the two hours before the Operating Hour, and for a non-IRR Resource that suffers a Forced Outage within two hours before the Settlement Interval if its capacity was credited in the RUC Snapshot. [e36][e37] A QSE charged for a shortfall in one RUC gets a capacity credit, equal to the lesser of its RUC shortfall and the total RUC capacity purchased times its shortfall ratio share, for future RUC processes for the same Settlement Interval. [e38]
 
@@ -292,11 +316,11 @@ A RUC Make-Whole Payment is what ERCOT pays a QSE to reimburse allowable startup
 
 ## Formula
 
-Make-whole (per RUC-Committed Hour): RUCMWAMT = (-1) x Max(0, RUCG - RUCMEREV - RUCEXRR - RUCEXRQC) / RUCHR. [e13] RUCG is the RUC Guarantee, RUCMEREV the RUC Minimum-Energy Revenue (energy revenue up to LSL during RUC-Committed Hours), RUCEXRR the revenue less cost above LSL during RUC-Committed Hours, RUCEXRQC the revenue less cost during QSE Clawback Intervals, and RUCHR the number of RUC-Committed Hours in the Operating Day. [e15][e19][e20][e21][e14] The leading (-1) is the Protocols' sign convention for a payment to the QSE.
+Make-whole (per RUC-Committed Hour): RUCMWAMT = (-1) x Max(0, RUCG - RUCMEREV - RUCEXRR - RUCEXRQC) / RUCHR. [e13] RUCG is the RUC Guarantee, RUCMEREV the RUC Minimum-Energy Revenue (energy revenue up to LSL during RUC-Committed Hours), RUCEXRR the revenue less cost above LSL during RUC-Committed Hours, RUCEXRQC the revenue less cost during QSE Clawback Intervals, and RUCHR the number of RUC-Committed Hours in the Operating Day. [e15][e19][e20][e21][e14]
 
 Clawback (per RUC-Committed Hour): RUCCBAMT = Max(0, RUCMEREV + RUCEXRR + RUCEXRQC - RUCACREV - RUCG) / RUCHR. [e23] RUCACREV is the net positive revenue from RUCAC Hours. [e24]
 
-Uplift: LARUCAMT = (-1) x (RUCMWAMTTOT / 4 + RUCCSAMTTOT) x LRS, where RUCMWAMTTOT is make-whole payments for all RUC processes in the hour, RUCCSAMTTOT is capacity-short charges for the interval, and LRS is the ratio of the QSE's Adjusted Metered Load to total ERCOT Adjusted Metered Load for the 15-minute interval. [e39][e40] Clawback payment to QSEs: LARUCCBAMT = (-1) x (RUCCBAMTTOT / 4 x LRS). [e41]
+Uplift: LARUCAMT = (-1) x (RUCMWAMTTOT / 4 + RUCCSAMTTOT) x LRS, where RUCMWAMTTOT is the sum of RUC Make-Whole Payments for all RUC processes, including amounts for RMR Units, for the hour, RUCCSAMTTOT is the sum of RUC Capacity-Short Charges for all QSEs and RUC processes for the 15-minute interval, and LRS is the ratio of the QSE's Adjusted Metered Load to total ERCOT Adjusted Metered Load for the 15-minute interval. [e39][e56][e57][e40] Clawback payment to QSEs: LARUCCBAMT = (-1) x (RUCCBAMTTOT / 4 x LRS), where RUCCBAMTTOT is the sum of RUC Clawback Charges to all QSEs for the hour. [e41][e58]
 
 ## ERCOT context
 
@@ -304,16 +328,16 @@ Uplift: LARUCAMT = (-1) x (RUCMWAMTTOT / 4 + RUCCSAMTTOT) x LRS, where RUCMWAMTT
 
 **Why they moved.** The IMM attributes the 2021 jump in make-whole payments to ERCOT's desire to hold at least 6,500 MW of reserve above the load forecast beginning in July 2021. [e55] It says the 2024 fall in opt-outs came largely from NPRR 1172, and that the lower 2025 opt-out level most likely reflects prices not being expected to be high enough to warrant opting out, with large make-whole growth and low clawbacks. [e49][e51]
 
-**The 2024 rule change.** Before 2024, RUC-committed resources with valid day-ahead offers were subject to only a 50% clawback of revenues above their costs. [e9][e54] NPRR 1172 was filed by consumer stakeholder representatives in April 2023 and called for a 100% clawback of revenue above cost for economic resources RUC-committed after submitting day-ahead offers; the PUCT approved it and it took effect on March 1, 2024. [e52][e10] The IMM says clawbacks increased and make-whole payments declined in 2024. [e53] (The IMM's 2025 report describes the same rule as a full rather than partial clawback for resources that opted out; see Open items.) [e49]
+**The 2024 rule change.** Before 2024, RUC-committed resources with valid day-ahead offers were subject to only a 50% clawback of revenues above their costs. [e9][e54] The IMM says NPRR 1172 was filed by consumer stakeholder representatives in April 2023 and that the proposal called for a 100% clawback of revenue above cost for economic resources RUC-committed after submitting day-ahead offers; it says the PUCT approved NPRR 1172 and it took effect on March 1, 2024. [e59][e52][e10] The IMM says clawbacks increased and make-whole payments declined in 2024. [e53] (The IMM's 2025 report describes the same rule as a full rather than partial clawback for resources that opted out; see Open items.) [e49]
 
-**Fuel disputes.** A QSE may file a Settlement dispute for a Resource's RUC Make-Whole Payment when the actual price paid for delivered natural gas during a RUC-Committed Interval exceeds the Fuel Index Price adjusted by the proxy fuel adder; the maximum recovery is the difference between the RUC Guarantee based on the actual price and on FIP * (1+X). [e43] The QSE or Resource Entity must purchase and nominate fuel to start and operate at LSL, unless the initial RUC instruction was under 12 contiguous hours in the same gas day, there was insufficient time, or the instruction came outside Business Hours or when it could not procure fuel. [e44]
+**Fuel disputes.** A QSE may file a Settlement dispute for a Resource's RUC Make-Whole Payment when the actual price paid for delivered natural gas during a RUC-Committed Interval exceeds the Fuel Index Price adjusted by the proxy fuel adder; the maximum recovery is the difference between the RUC Guarantee based on the actual price and on FIP * (1+X). [e43] For the dispute, if the QSE or the Resource Entity has an executed and enforceable pipeline transportation contract for the Resource, the QSE must show proof that fuel was purchased and nominated in quantities sufficient to start and operate the Resource at LSL. [e60] The QSE or Resource Entity must purchase and nominate fuel in that way unless the initial RUC instruction was under 12 contiguous hours in the same gas day, there was insufficient time, or the instruction came outside Business Hours or when it could not procure fuel. [e44]
 
-**Event-specific costs.** The Verifiable Cost Manual describes Event Specific Verifiable Costs as documented costs a Resource actually incurred during a specific event, excluding amortized or discounted future costs. [e45]
+**Event-specific costs.** The Verifiable Cost Manual (the saved edition is effective 2026-12-01) describes Event Specific Verifiable Costs as documented costs a Resource actually incurred during a specific event, excluding amortized or discounted future costs. [e45]
 
 ## Timeline
 
 - July 2021: ERCOT begins wanting at least 6,500 MW of reserve above the load forecast, which the IMM links to the 2021 rise in make-whole payments. [e55]
-- April 2023: NPRR 1172 filed to clawback 100% of revenue above cost for economic RUC resources with day-ahead offers. [e52]
+- April 2023: NPRR 1172 filed (per the IMM) calling for a 100% clawback of revenue above cost for economic RUC resources with day-ahead offers. [e59][e52]
 - 1 March 2024: NPRR 1172 takes effect. [e10]
 - 2025: RUC resource-hours rise to 5,129, 77% reported for congestion, make-whole above $21 million. [e47][e48][e8]
 
@@ -328,11 +352,11 @@ Uplift: LARUCAMT = (-1) x (RUCMWAMTTOT / 4 + RUCCSAMTTOT) x LRS, where RUCMWAMTT
 
 ## Example
 
-Suppose a unit is RUC-committed for 4 hours with a RUC Guarantee of $20,000. If RUC Minimum-Energy Revenue is $5,000, revenue less cost above LSL is $8,000 and there are no QSE Clawback Intervals, the sum is $13,000, below the guarantee, so ERCOT pays a make-whole of $7,000 spread over the 4 hours. If instead revenue less cost above LSL is $30,000, the sum is $35,000, above the guarantee, so the clawback charge is $15,000 over the 4 hours (ignoring any RUCAC revenue). The Protocol formulas are mirror images: the same three revenue measures are tested against the guarantee. [e13][e23]
+Illustration with figures chosen by this knowledge base (not from a source; the arithmetic only applies the two formulas below). Suppose a unit is RUC-committed for 4 hours with a RUC Guarantee of $20,000. If RUC Minimum-Energy Revenue is $5,000, revenue less cost above LSL is $8,000 and there are no QSE Clawback Intervals, the sum is $13,000, below the guarantee, so ERCOT pays a make-whole of $7,000 spread over the 4 hours. If instead revenue less cost above LSL is $30,000, the sum is $35,000, above the guarantee, so the clawback charge is $15,000 over the 4 hours (ignoring any RUCAC revenue). The Protocol formulas are mirror images: the same three revenue measures are tested against the guarantee. [e13][e23]
 
 ## Say it like this
 
-If ERCOT commits a unit out of market and its revenue does not cover its allowable costs, ERCOT makes it whole, and if its revenues exceed its RUC Guarantee, it pays a clawback charge. Short QSEs pay first and the balance is spread across load; a QSE can opt out of both by buying back the commitment.
+If ERCOT commits a unit out of market and its revenue does not cover its allowable costs, ERCOT makes it whole, and if its revenues exceed its RUC Guarantee, it pays a clawback charge. Short QSEs pay first and the balance is spread across all QSEs by load ratio share; a QSE can opt out of both by buying back the commitment.
 
 ## Common confusion
 
@@ -358,7 +382,7 @@ The IMM links the 2024 drop largely to NPRR 1172's clawback change, and says the
 
 ### Why were make-whole payments so much higher in 2025 than 2024?
 
-The IMM reports $21.84 million in 2025 against $3.35 million in 2024 and ties the increase to more RUC (5,129 resource-hours, 77% for congestion) and fewer opt-outs. [e50][e47][e48][e7]
+The IMM reports $21.84 million in 2025 against $3.35 million in 2024 and says the increase can be partially explained by greater use of RUC (5,129 resource-hours in 2025, 77% reported for congestion) and fewer resources opting out. [e50][e47][e48][e7][e61]
 
 ### What if a RUC-committed unit trips on startup?
 
@@ -373,7 +397,7 @@ The QSE is credited for non-IRR Resources given notice of decommitment within th
 ### ERCOT RUC-commits a CCGT for a transmission constraint; the QSE had a valid day-ahead offer. What are the economics after March 2024?
 
 - The unit is guaranteed its allowable startup and minimum-energy costs through the RUC Guarantee. [e15]
-- Per the IMM, NPRR 1172 calls for a 100% clawback of revenue above cost for such economic resources, where before it was 50%. [e52][e9]
+- Per the IMM's 2024 report, the NPRR 1172 proposal called for a 100% clawback of revenue above cost for such economic resources, where before 2024 it was 50% (the IMM's 2025 report describes the rule differently; see Open items). [e52][e9]
 - The QSE could instead opt out, forfeiting make-whole and clawback and taking full market exposure. [e31][e46]
 
 ## Open items
