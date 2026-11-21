@@ -4,20 +4,6 @@ kind concept · domain pricing · level 1
 
 ## Evidence (quote, where it sits in the source, and the text around it)
 
-### e1 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
-locator: Section 2.1, definition of Energy Offer Curve · text copy line 882
-
-BEFORE: …possible continuity of service and maintaining the integrity of the ERCOT System. Energy Imbalance Service The difference between the amount of energy cleared in the Day-Ahead Market (DAM) and through trades and the amount of delivery of that energy in the Real-Time Market (RTM). Energy Offer Curve 
-QUOTE: A proposal to sell energy at a Settlement Point at a monotonically non-decreasing price with increasing quantity.
-AFTER:  Energy Storage Resource (ESR) (see Resource) Energy Storage System (ESS) A facility, process, or device(s) that receives electric energy and stores it, in any form, for the purpose of later releasing electrical energy. Energy Trade A QSE-to-QSE financial transaction that transfers responsibility fo…
-
-### e2 · `np-04` · tier 1 · ERCOT Nodal Protocols, Section 4: Day-Ahead Operations (effective 2026-08-01)
-locator: Section 4.4.9.3, paragraph (1) · text copy line 1404 · heading above: 4.4.9.3 Energy Offer Curve
-
-BEFORE: … and Minimum-Energy Offer Generic Caps. A QSE may file verifiable unit-specific costs for a Resource at any time, but it is not required to file those costs only because of a DAM commitment. The most recent approved verifiable costs on file must be used going forward. 4.4.9.3 Energy Offer Curve (1) 
-QUOTE: The Energy Offer Curve represents the QSE's willingness to sell energy at or above a certain price and at a certain quantity in the DAM or its willingness to be dispatched by SCED in Real-Time Operations.
-AFTER:  (2) A QSE may submit Resource-specific Energy Offer Curves to ERCOT. Such Energy Offer Curves will be bounded in the DAM for each Operating Hour by the LSL and HSL of the Generation Resource specified in the COP, and bounded in SCED by the LSL and HSL of the Generation Resource as shown by telemetr…
-
 ### e3 · `np-04` · tier 1 · ERCOT Nodal Protocols, Section 4: Day-Ahead Operations (effective 2026-08-01)
 locator: Section 4.4.9.3, paragraph (2) · text copy line 1406 · heading above: 4.4.9.3 Energy Offer Curve
 
@@ -38,20 +24,6 @@ locator: Section 4.4.9.3.1, paragraph (1)(c) · text copy line 1430 · heading a
 BEFORE: …ffer Curve is submitted in a subsequent Adjustment Period. 4.4.9.3.1 Energy Offer Curve Criteria (1) Each Energy Offer Curve must be reported by a QSE and must include the following information: (a) The selling QSE; (b) The Resource represented by the QSE from which the offer would be supplied; (c) 
 QUOTE: A monotonically non-decreasing offer curve for both price (in $/MWh) and quantity (in MW) with no more than ten price/quantity pairs and no more than two consecutive price/quantity pairs at the same price or quantity;
 AFTER:  (d) The first and last hour of the Offer; (e) The expiration time and date of the offer; (f) Inclusive or exclusive designation relative to other DAM offers (for Real-Time, Energy Offer Curves are always considered to be inclusive with Ancillary Service Offers); (g) Percentage of FIP and percentage…
-
-### e6 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.4.3, paragraph (1) · text copy line 711 · heading above: 6.4.2 Output Schedules
-
-BEFORE: …les during the Adjustment Period. (4) A detailed explanation of Ancillary Service Trade criteria and validations performed by ERCOT is provided in Section 4.4.7.3, Ancillary Service Trades. A QSE may submit and update Ancillary Service Trades during the Adjustment Period. 6.4.2 Output Schedules (1) 
-QUOTE: A QSE that represents a Resource, other than a Reliability Must-Run (RMR) Unit, must submit and maintain an Energy Offer Curve, an Energy Bid/Offer Curve, or an Output Schedule for the Resource for all times when the Resource is On-Line.
-AFTER:  (2) The entry of an Energy Offer Curve or Energy Bid/Offer Curve for a Resource automatically nullifies the Output Schedule for that Resource and prohibits entry of future Output Schedules for that Resource for the time during which the Energy Offer Curve or Energy Bid/Offer Curve is in effect. (3)…
-
-### e8 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
-locator: Congestion chapter, introduction · text copy line 5083
-
-BEFORE: …ower flows on the transmission network efficiently. The markets manage congestion by coordinating generation dispatch so the resulting power flows do not exceed the operating limits of the transmission infrastructure. This coordination occurs through the real-time market dispatch model, i.e., SCED, 
-QUOTE: which schedules generation to meet demand based on each generator's energy offer curve and its corresponding
-AFTER:  impact on transmission constraints. This market dispatch produces a set of locational prices that vary across the network and congestion costs collected from participants. Key insights on transmission and congestion in ERCOT in 2025 include: • Day-ahead congestion in ERCOT increased 26% in 2025, en…
 
 ### e7 · `np-04` · tier 1 · ERCOT Nodal Protocols, Section 4: Day-Ahead Operations (effective 2026-08-01)
 locator: Section 4.4.9.3, paragraph (4) · text copy line 1410 · heading above: 4.4.9.3 Energy Offer Curve
@@ -326,10 +298,8 @@ BEFORE: …Mitigation Plans The PUCT has discretion to approve VMPs filed by mar
 QUOTE: However, House Bill 1500, passed during the 88" Legislative Session and effective September 1, 2023, modified the statutory requirements for VMPs. Adherence to a VMP no longer constitutes an absolute defense against allegations of market power abuse with respect to the behaviors addressed by the VMP; instead, it must be considered in determining whether a violation occurred and, if so, the penalty to assess.
 AFTER: *! VMPs should promote competitive outcomes and prevent abuse of market power through economic withholding in the ERCOT real-time energy market. Forward energy markets (e.g., the ERCOT day-ahead market) do not require the same restrictions, but prices in those markets reflect expectations for real-t…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
-- **Definition #1** (cites e1): An Energy Offer Curve is a proposal to sell energy at a Settlement Point at a monotonically non-decreasing price with increasing quantity. [e1]
-- **How it works #1** (cites e2, e5, e3): The curve represents the QSE's willingness to sell energy at or above a given price and quantity in the DAM, or its willingness to be dispatched by SCED in real time. [e2] A curve must be monotonically non-decreasing in both price and quantity, with no more than ten price/quantity pairs and no more than two consecutive pairs at the same price or quantity. [e5] A Resource-specific curve is bounded by the Generation Resource's LSL and HSL: in the DAM the limits specified in the COP, in SCED the limits shown by telemetry. [e3]
 - **How it works #3** (cites e13, e14, e5, e11): Each curve states the selling QSE, the Resource, the curve, first and last hour, expiration, an inclusive or exclusive designation relative to other DAM offers (in Real-Time, curves are always inclusive with Ancillary Service Offers), and the percentages of FIP and FOP above LSL, which may not sum above 100%. [e13][e14][e5] Curves stay active until the offer expiration time the QSE selected. [e11]
 - **How it works #4** (cites e15): The price must be within -$250.00 per MWh and either the DASWCAP or RTSWCAP, depending on submission timing. No curve received after 1430 in the Day-Ahead may contain a price exceeding the RTSWCAP, and after 1430 ERCOT cancels any curve with a price above the RTSWCAP and notifies the QSE. [e15]
 - **How it works #5** (cites e7, e10, e12): A QSE may submit or change curve information for any Operating Hour at any time before SCED executes, except for the percentage of FIP and percentage of FOP. [e7] A reason is required if the submission is after the end of the Adjustment Period, FIP and FOP percentages must reach ERCOT in the Adjustment Period, an invalid new curve is rejected and the latest valid curve is used, and once the Operating Hour ends the curve for that hour cannot be submitted, updated or canceled. [e10] If an On-Line Resource has neither a valid curve nor an Output Schedule at the end of the Adjustment Period, ERCOT notifies the QSE and sets the Output Schedule equal to the then current telemetered output. [e12]
@@ -340,24 +310,14 @@ AFTER: *! VMPs should promote competitive outcomes and prevent abuse of market p
 - **How it works #13** (cites e28, e29): Curves may also be mitigated in the RTM with a Mitigated Offer Floor. [e28] The floors are: Nuclear and Hydro -$250/MWh; Coal and Lignite, Combined Cycle, and Gas/Oil Steam and Combustion Turbine -$20/MWh; Qualifying Facility, PV and Other -$50/MWh; Wind -$100/MWh; ESR -$250/MWh. [e29]
 - **How it works #15** (cites e16, e17, e18): A separate set of caps applies to make-whole Settlements, Real-Time High Dispatch Limit Override Energy Payments, Real-Time Constraint Management Plan Cost Recovery Payments and Voltage Support Service Payments: for example nuclear $15.00/MWh, coal and lignite $18.00/MWh, and heat-rate-based caps for gas technologies. [e16] Hydro is $10.00/MWh, Other is the DASWCAP or RTSWCAP, RMR is the effective VOLL, and Wind, PVGR and ESR are $0.00/MWh. [e17] FIP and FOP for the cap are those for the Operating Day, or the most recent preceding day if not yet available, and the minimum of FIP or FOP is used if the fuel mix is not specified or no curve exists. [e18]
 - **How it works #17** (cites e32, e33, e34, e35, e36, e37, e38): To use the available capacity of all committed Generation Resources, ERCOT creates proxy Energy Offer Curves for certain Resources. [e32] A non-IRR that submitted an Output Schedule instead of a curve gets a proxy running from -$250.00 at LSL up to the RTSWCAP at HSL. [e33] A non-IRR curve that does not cover the full range is extended to HSL at the highest offered price and to the LSL at the offer floor. [e34] An IRR with no curve gets a proxy with $1,500 at HSL. [e35] A RUC-committed Resource with no curve gets a proxy at $250 from zero to HSL, and one with a curve gets the greater of $250 or its submitted curve. [e36][e37] Curves built wholly or partly from proxies are marked as such in ERCOT postings. [e38]
-- **ERCOT context #1** (cites e6, e8): A QSE representing a Resource, other than an RMR Unit, must keep an Energy Offer Curve, an Energy Bid/Offer Curve or an Output Schedule in place whenever the Resource is On-Line. [e6] The IMM describes SCED as scheduling generation to meet demand based on each generator's energy offer curve. [e8]
 - **ERCOT context #2** (cites e42, e43, e44, e45): The IMM measures potential economic withholding with an "output gap": energy not produced by online resources although producing would be economic by a substantial margin at the real-time energy price, which a participant can create by raising offers to reduce dispatch. [e42] The IMM treats the mitigated offer cap as a proxy for the resource's marginal production cost, and counts output not produced when the offer exceeds both the mitigated offer price and the LMP plus the lesser of $10/MWh or 15%. [e43] For 2025 the IMM found over 80% of hours exhibited an output gap, but the quantities were relatively low, and it called potential withholding low overall but not trivial. [e44] The IMM continues to recommend system-wide market power mitigation. [e45]
 - **ERCOT context #3** (cites e46): House Bill 1500 (88th Legislature, effective September 1, 2023) changed Voluntary Mitigation Plans so that adherence is no longer an absolute defense against market power abuse allegations but must be considered in determining whether a violation occurred and any penalty. [e46]
 - **Formula #1** (cites e19, e20, e21, e22, e23): MOC(q, r, h) = Max[ GIHR * Max(FIP, WAFP), (IHR * FPRC + OM) ], per Resource per hour. In words: GIHR is the generic incremental heat rate; FIP is the natural gas fuel index price; WAFP is the weighted average fuel price a QSE may submit for the hour (volume-weighted intraday, same-day and spot fuel price, or projected incremental fuel consistent with a contract); IHR is the Resource's approved verifiable incremental heat rate curve; FPRC is the fuel price calculated from the Resource's fuel mix (using Max(WAFP, FIP + fuel adder) weighted by the gas percentage plus FOP weighted by the oil percentage); and OM is variable O&M above LSL including emissions, as approved. [e19][e20][e21][e22][e23]
-- **Key facts #1** (cites e5): - Curve must be monotonically non-decreasing, up to ten price/quantity pairs. [e5]
 - **Key facts #2** (cites e15): - Price range -$250/MWh to the DASWCAP or RTSWCAP; RTSWCAP ceiling after 1430 in the Day-Ahead. [e15]
-- **Key facts #3** (cites e3): - Bounded by LSL and HSL: COP values in the DAM, telemetry in SCED. [e3]
-- **Key facts #4** (cites e7): - Can be changed any time before SCED execution for the hour, except the percentage of FIP and percentage of FOP. [e7]
-- **Key facts #5** (cites e4): - SCED uses the curves to maximize bid-based revenues minus offer-based costs. [e4]
 - **Key facts #6** (cites e19, e28, e25): - Real-time mitigation uses a Mitigated Offer Cap and a Mitigated Offer Floor; the ESR MOC is the RTSWCAP. [e19][e28][e25]
 - **Key facts #7** (cites e20): - Generic incremental heat rate in the MOC is 10.5 (COD on or before January 1, 2004) or 14.5 (later). [e20]
 - **Say it like this #1** (cites e4, e31): The energy offer curve is the generator's price ladder: how much it will produce at each price. SCED evaluates that ladder, along with other offers and bids, to decide dispatch, and where a constraint is non-competitive the ladder is capped by a cost-based mitigated offer cap. [e4][e31]
-- **Common confusion #1** (cites e9): - Energy Offer Curve versus Three-Part Supply Offer: a Three-Part Supply Offer has three parts, the Startup Offer, the Minimum-Energy Offer and the Energy Offer Curve, so the curve is only one of them. [e9]
-- **Common confusion #2** (cites e6): - Offer curve versus Output Schedule: an On-Line Resource must have an Energy Offer Curve, an Energy Bid/Offer Curve or an Output Schedule, so the Output Schedule is the alternative to an offer curve. [e6]
 - **Common confusion #3** (cites e19, e16): - Mitigated Offer Cap versus Energy Offer Curve Cost Cap: the MOC limits offers in Real-Time SCED mitigation, while the Cost Caps are used to compute make-whole and similar payments. [e19][e16]
-- **Questions #2** (cites e5): Monotonically non-decreasing in price and quantity, with at most ten price/quantity pairs. [e5]
-- **Questions #4** (cites e3): In SCED, the Resource's LSL and HSL as shown by telemetry (in the DAM, as specified in the COP). [e3]
-- **Questions #6** (cites e7): At any time before SCED executes for that Operating Hour, except for the percentage of FIP and percentage of FOP. [e7]
 - **Questions #8** (cites e32, e33, e34): So that SCED can use the available capacity of all committed Generation Resources, for example when a QSE submits only an Output Schedule or a curve that does not cover the full range. [e32][e33][e34]
 - **Questions #10** (cites e31, e19, e42): In Real-Time, where mitigation applies, the curve can be capped at the Mitigated Offer Cap built from the Resource's heat rate, fuel and O&M costs. [e31][e19] The IMM watches for this through the output gap. [e42]
 - **Questions #12** (cites e16, e17): The Protocols list Energy Offer Curve Cost Caps by technology specifically for make-whole and related payments, such as nuclear at $15.00/MWh or wind at $0.00/MWh. [e16][e17]
@@ -371,3 +331,4 @@ AFTER: *! VMPs should promote competitive outcomes and prevent abuse of market p
 - **Link to market-power-mitigation** (cites e19, e28): related Market Power Mitigation (Competitiveness Tests, Mitigated Offer Caps): The Mitigated Offer Cap and Mitigated Offer Floor limit Energy Offer Curves in Real-Time under SCED. [e19][e28]
 - **Link to ruc-make-whole** (cites e16): related RUC Make-Whole & Clawback: The Energy Offer Curve Cost Caps are used for make-whole Settlements. [e16]
 - **Link to ruc** (cites e36, e37): related RUC (Reliability Unit Commitment: DRUC/HRUC): ERCOT builds proxy Energy Offer Curves for RUC-committed Resources. [e36][e37]
+

@@ -67,13 +67,6 @@ BEFORE: … these constraints. Figure 38 shows the distribution of violated cons
 QUOTE: Figure 38 shows that the overall rate of violated transmission constraints continued to drop precipitously to 64 constraint-hours in 2025, by far the lowest annual total.
 AFTER:  The next lowest year was 2016, with 271 constraint-hours of violations. This drop in the frequency of constraint violations continued despite the increase in the frequency and cost of congestion from 2024 to 2025. The sharp decline may be partly explained by the growing participation of energy stor…
 
-### e10 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
-locator: Transmission Congestion and CRRs, Violated Constraints, Figure 38 discussion · text copy line 5427
-
-BEFORE: …#$%C'(#%)*"HC$,'%,-'#./ &'#!! *+,-./M12.&)3 &'"!! &!3./+.&)3 &'!!! !3./+.)3 )3./+.&!3 %!! $!! #!! "!! ! "!"& "!"" "!"( "!"# "!") Figure 38 shows that the overall rate of violated transmission constraints continued to drop precipitously to 64 constraint-hours in 2025, by far the lowest annual total. 
-QUOTE: The next lowest year was 2016, with 271 constraint-hours of violations.
-AFTER:  This drop in the frequency of constraint violations continued despite the increase in the frequency and cost of congestion from 2024 to 2025. The sharp decline may be partly explained by the growing participation of energy storage resources (ESRs) in the real-time energy market. As the ancillary se…
-
 ### e11 · `imm-som-2024` · tier 2 · 2024 State of the Market Report for the ERCOT Electricity Markets (published 2025)
 locator: page 88 (OCR), Types and Frequency of Constraints in 2024 · text copy line 5625
 
@@ -207,7 +200,7 @@ BEFORE: …ences in the cost of delivering electricity to different locations ar
 QUOTE: Congestion rent, which equals the difference between what consumers pay and generators receive, is based on locational price differences. The financial right to this congestion rent accrues to holders of CRRs.
 AFTER:  The annual cost of congestion in the day-ahead and real-time markets increased by 26% and 32%, respectively in 2025, reversing the previous 3-year trend of declining annual congestion costs. The main driver of this increase were: • The increase in natural gas prices, the fuel for the resources most…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
 - **Definition #1** (cites e2, e1, e11, e4) FLAG number-not-in-quote: 2.1: "Binding constraint" does not have its own entry in the Protocol definitions (np-02, Section 2.1), although Section 6 refers to "binding transmission constraints". [e2] In ERCOT a constraint is a contingency and limiting Transmission Element pair that Network Security Analysis identifies and that is activated in SCED. [e1] The IMM says constraints are considered binding when dispatch costs are incurred to maintain transmission flows below the constraint limit, and not binding when they require no redispatch and have no effect on prices. [e11] When these limits bind, congestion raises dispatch costs and makes energy prices differ by location. [e4]
 - **How it works #1** (cites e7, e12, e22) FLAG number-not-in-quote: 2021: **Where constraints come from.** The IMM notes SCED manages flows as physical constraints become binding in real time. [e7] Thousands of constraints exist on physical network elements, and ERCOT activates only a subset in SCED at a time; besides GTCs, whose limits are set before the operating day, ERCOT activates constraints based on the Real-Time Contingency Analysis process that runs continuously (IMM description). [e12] A base-case constraint exists when flow on an element exceeds its normal rating; a thermal contingency constraint exists when the outage of an element would push flow above the rating of an in-service element (IMM, 2021). [e22]
@@ -218,17 +211,11 @@ AFTER:  The annual cost of congestion in the day-ahead and real-time markets inc
 - **How it works #6** (cites e16): **Reporting.** ERCOT must report monthly security violations of 125% or more of the Emergency Rating for a single SCED interval, or above 100% for 30 minutes or more, with occurrences and congestion cost per constraint on a rolling 12-month basis. [e16]
 - **ERCOT context #1** (cites e23, e27, e25, e26, e28) FLAG number-not-in-quote: $211: Congestion is common: at least one constraint was binding during 70% of 2021, down from 75% in 2020. [e23] The IMM values real-time congestion as the shadow price of each constraint times flow over the constraint. [e27] ERCOT's December 2025 report lists the top constraints by real-time congestion rent for October 2024 to September 2025; the list starts with Koch Tap - Vealmoor 138kV at $211M, Hargrove - Twin Buttes 138kV at $176M, Odessa EHV Switch - Yarbrough Sub 138kV at $151M and the West Texas Export Interface at $127M. [e25] ERCOT cautions that congestion rent indicates where economic transmission projects may be beneficial, not whether a project would pass the economic planning criteria. [e26] GTC binding hours fell in 2023 from 2022 and 2021 but stayed far above earlier years, according to the IMM. [e28]
 - **ERCOT context #2** (cites e8, e24): The IMM reports that violated transmission constraints fell to 64 constraint-hours in 2025, the lowest annual total, and says growing ESR participation in real-time may partly explain it. [e8][e24]
-- **Key facts #1** (cites e1): - A constraint is a contingency and limiting Transmission Element pair activated in SCED. [e1]
-- **Key facts #2** (cites e2): - ERCOT posts all binding constraints hourly. [e2]
-- **Key facts #3** (cites e5): - Violated means flows exceed the limit. [e5]
 - **Key facts #4** (cites e13): - Security violation threshold: post-contingency MVA above 100% of the Emergency Rating with no RAP, AMP or RAS relief in time. [e13]
 - **Key facts #5** (cites e6, e19): - Competitive or non-competitive status is posted for each binding constraint each hour; the SCED ECI threshold is 2300. [e6][e19]
-- **Key facts #6** (cites e8, e10): - 2025 violated constraint-hours: 64, the lowest annual total in the IMM's comparison (next lowest was 2016, at 271). [e8][e10]
 - **Key facts #7** (cites e25) FLAG number-not-in-quote: $211: - Top real-time constraint by congestion rent, Oct 2024 to Sep 2025: Koch Tap - Vealmoor 138kV, $211M. [e25]
 - **Say it like this #1** (cites e4, e5): (Guidance) When a transmission limit binds, congestion raises dispatch costs and energy prices differ by location. The shadow price tells you what one more MW of relief costs. [e4][e5]
 - **Common confusion #1** (cites e5, e11): Binding does not mean violated: a violation means market dispatch flows exceed the transmission limit. [e5] Also, an active constraint is not necessarily binding: it binds only when it forces redispatch. [e11]
-- **Questions #2** (cites e5, e4): The IMM says a constraint is violated when market dispatch flows exceed its transmission limit; when limits bind, congestion increases dispatch costs, and the shadow price is the marginal cost of redirecting flow around a binding constraint. [e5][e4]
-- **Questions #4** (cites e2, e6): ERCOT posts them hourly with the contingency and overloaded element pairs, and the competitive or non-competitive designation. [e2][e6]
 - **Questions #6** (cites e12, e11): Active constraints are those ERCOT passes into SCED; they bind only when dispatch costs are incurred to keep flow under the limit. [e12][e11]
 - **Questions #8** (cites e1): The Protocol says ERCOT may not activate an NSA-identified constraint until it has verified the contingency definition is accurate and appropriate for the current operating state. [e1]
 - **Questions #10** (cites e14): ERCOT can use manual tools including RUC commitment, Non-Spin deployment, HDL/LDL overrides and, as a last resort, a TOAP or Mitigation Plan. [e14]
@@ -244,3 +231,4 @@ AFTER:  The annual cost of congestion in the day-ahead and real-time markets inc
 - **Link to ruc** (cites e14): related RUC (Reliability Unit Commitment: DRUC/HRUC): Committing additional Generation Resources through RUC is one of the steps ERCOT may take if SCED does not resolve a security violation. [e14]
 - **Link to crr** (cites e29): related CRR (Congestion Revenue Right): Congestion rent from binding constraints funds CRRs; the IMM says the financial right to congestion rent accrues to CRR holders. [e29]
 - **Link to energy-storage-resource** (cites e24): related Energy Storage Resource (ESR): The IMM says ESRs can resolve congestion by charging or discharging and may explain the fall in violated constraints. [e24]
+

@@ -32,20 +32,6 @@ BEFORE: …he prices converge on average. 2024 State of the Market Report | 37 /
 QUOTE: Price convergence was much better in 2024 compared to recent years. The average price for energy in the day-ahead market was less than $1.50 per MWh higher than in the real-time market and the average absolute difference in prices was only $17.35 per MWh, the lowest since 2020.
 AFTER:  B. Day-Ahead Market Activity Market participants can participate in the day-ahead market by submitting bids to buy electricity or offers to sell electricity for real-time delivery. These bids and offers may take two forms:  A three-part supply offer, which allows a seller to represent the financia…
 
-### e5 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
-locator: Day-Ahead Market Performance, section B · text copy line 4681
-
-BEFORE: …to develop accurate expectations of real-time prices, and (3) both markets accurately reflect the physical limitations of the transmission network. These conditions allow market participants to arbitrage predictable differences between day-ahead and real-time prices, resulting in price convergence. 
-QUOTE: Price convergence between the day-ahead and real-time markets is important because it leads to more efficient commitment of resources for use in real-time.
-AFTER:  The average difference between day-ahead and real-time spot prices shows whether persistent, predictable differences exist that participants should arbitrage over time. Figure 30 shows the annual average day-ahead and real-time prices for the past five years. It also shows the average absolute diff…
-
-### e6 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
-locator: Appendix, section B, Convergence between DAM and RT · text copy line 9493
-
-BEFORE: …d market has also allowed transactions in virtual AS, i.e., strictly financial positions that are not associated with any physical resources. Ultimately, including virtual AS positions in the day-ahead market clearing should lead to greater convergence between day-ahead and real-time prices for AS. 
-QUOTE: Table A2 shows the average prices for energy and each AS product in the day-ahead and real-time markets, as well as the corresponding DART premium.
-AFTER:  A-4 | 2025 State of the Market Report / / Appendix: Real-Time Co-Optimization Table A2: Convergence in Energy and AS Prices in the Day-Ahead and Real-Time Markets December 5, 2026, through February 2026 !"#A%&#D !"#A%&#D !"#A%&#D (%)*!+#%,D M#%1*2.P#D (!M2D -A./# -A./# -A#P.4P RD6#ADT8+ RD6#ADT8+ 9…
-
 ### e7 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
 locator: Executive Summary, Forward Markets · text copy line 812
 
@@ -270,14 +256,10 @@ BEFORE: … of reserves that provide virtually no incremental reliability value 
 QUOTE: The day-ahead and CRR markets functioned as expected in 2025. The day-ahead market cleared at a modest premium to the real-time market in 2025.
 AFTER:  With the implementation of RTC, dayahead ancillary service awards no longer represent physical obligations to provide reserves in real time. Instead, energy and ancillary services in the day-ahead market are now strictly financial positions, and ERCOT settles imbalances on those positions in real t…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
-- **Definition #1** (cites e6, e2): The DART spread is the difference between the day-ahead (DA) and real-time (RT) price. The IMM tracks it as the DART premium, for example in its comparison of day-ahead and real-time prices for energy and each Ancillary Service. [e6][e2]
-- **How it works #1** (cites e2, e10): The IMM looks at the average difference between day-ahead and real-time spot prices to see whether persistent, predictable gaps exist that participants should arbitrage. [e2] It also reports the average absolute difference between daily average day-ahead and real-time prices, because that can be large even when the prices converge on average. [e10]
-- **How it works #2** (cites e1, e7): Prices should converge when barriers to trading in either market are low, participants have enough information to form accurate expectations of real-time prices, and both markets reflect the physical limits of the transmission network, so that participants can arbitrage predictable differences. [e1] With RTC, day-ahead energy and Ancillary Services are strictly financial positions, with imbalances settled in real time. [e7]
 - **How it works #3** (cites e10, e3): Two measures matter: the signed average premium (DA minus RT) and the average absolute daily difference. The IMM reports both; the second is the better gauge of day-to-day risk. [e10][e3]
 - **How it works #5** (cites e35, e36, e34, e37) FLAG number-not-in-quote: 50 MW: In ERCOT's Forward Markets 101 training deck (tier 2), a QSE awarded 60 MW of day-ahead energy offer that provides only 50 MW is paid for 60 MW at the DAM price and charged for the 10 MW shortfall at the Real-Time price. [e35] A QSE awarded a 60 MW energy bid that consumes only 50 MW is charged 60 MW at the DAM price and paid for the 10 MW at the Real-Time price. [e36] The deck also describes PTP Obligations as hourly financial instruments purchased at the DAM price spread and settled at the Real-Time price spread. [e34] The Protocols settle a cleared PTP Obligation bid on the DAM price difference between the sink and the source Settlement Point. [e37]
-- **ERCOT context #1** (cites e5): The IMM treats convergence as important because it leads to more efficient commitment of resources for use in real time. [e5]
 - **ERCOT context #2** (cites e3, e31, e4): For energy, the spread has been small recently. In 2025 the average day-ahead premium was $1.17 per MWh, slightly lower than 2024, and the average absolute difference was only $12 per MWh, the lowest since 2020. [e3] The IMM attributes the low spread to fewer price spikes in 2025. [e31] In 2024 the day-ahead price averaged under $1.50 per MWh above real time, with an average absolute difference of $17.35 per MWh. [e4]
 - **ERCOT context #4** (cites e11, e15, e18, e22): Earlier years from the IMM's annual reports, with the IMM's own explanations (not Protocol facts): [e11][e15][e18][e22]
 - **ERCOT context #5** (cites e11, e12): - 2021: day-ahead prices averaged $157 per MWh and real-time $160; the IMM says instability of real-time prices and persistent tight conditions increased the risk premium on day-ahead hedges. [e11][e12]
@@ -293,18 +275,11 @@ AFTER:  With the implementation of RTC, dayahead ancillary service awards no lon
 - **Timeline #4** (cites e4): - 2024: $17.35 per MWh, the lowest since 2020. [e4]
 - **Timeline #5** (cites e3): - 2025: $12 per MWh, the lowest since 2020; premium $1.17. [e3]
 - **Timeline #6** (cites e29): - December 6, 2025: virtual AS transactions become allowed in the day-ahead market with RTC. [e29]
-- **Key facts #1** (cites e3): - 2025 average DAM premium to RT: $1.17 per MWh; average absolute difference: $12 per MWh, the lowest since 2020. [e3]
 - **Key facts #2** (cites e4, e21): - 2024 average DAM premium under $1.50 per MWh ($1.46 in the IMM's 2024 summary); average absolute difference: $17.35 per MWh. [e4][e21]
-- **Key facts #3** (cites e7): - With RTC, day-ahead energy and AS positions are financial, settled against real time. [e7]
 - **Key facts #4** (cites e9, e27): - Early-RTC day-ahead AS premiums were very high; two events (December 5, 2025 and Winter Storm Fern) account for 57-75% of the premium for energy and up-reserve products, excluding RegDown. [e9][e27]
-- **Key facts #5** (cites e8): - PTPs earned 10.9% more in real time than their day-ahead cost in 2025. [e8]
-- **Say it like this #1** (cites e3, e4): The DART spread is the gap between the day-ahead and real-time price. In 2024 and 2025 the average gap was small, a dollar or so per MWh, but daily gaps can still be large even when prices converge on average. [e3][e4]
 - **Common confusion #1** (cites e3, e2, e10): - A small average spread does not mean a small risk. The average absolute daily difference was $12 per MWh in 2025 even though the average premium was only $1.17. [e3] Daily price differences may be large even if prices converge on average, and the average absolute difference captures that variation. [e2][e10]
 - **Common confusion #2** (cites e7, e38): - A positive DART premium means day-ahead cleared above real time. It is not a profit on its own: a day-ahead position is financial and the imbalance settles in real time. [e7][e38]
 - **Common confusion #3** (cites e25) FLAG number-not-in-quote: 698%: - A percentage premium on a low-priced AS product can look huge (Responsive 698%) while the dollar gap is a few dollars per MW. [e25]
-- **Questions #2** (cites e3): Higher, on average, by $1.17 per MWh, slightly less than in 2024. [e3]
-- **Questions #4** (cites e1): Low barriers to trading, enough information to form accurate expectations of real-time prices, and markets that both reflect transmission limits, which let participants arbitrage predictable differences. [e1]
-- **Questions #6** (cites e7, e9): With RTC, day-ahead energy and AS positions are strictly financial positions with imbalances settled in real time, and the early-RTC day-ahead AS premium was very high. [e7][e9]
 - **Questions #8** (cites e27, e28): The IMM says two events, December 5, 2025 and Winter Storm Fern, explain 57-75% of the premium for energy and up-reserve products (excluding RegDown), that physical-resource offers drove the prices because virtual AS offers were not yet in the DAM, and that it expects the premium to diminish. [e27][e28]
 - **Questions #10** (cites e13, e14, e4, e3, e12, e31): In 2021 the IMM reports an average absolute difference of $52.70 per MWh and a February maximum tied to rolling blackouts, versus $17.35 in 2024 and $12 in 2025. [e13][e14][e4][e3] The IMM says tight conditions and unstable real-time prices raised the risk premium on day-ahead hedges in 2021, while 2025 had fewer price spikes. [e12][e31]
 - **Questions #12** (cites e19): The IMM's 2023 report attributes the June-August divergence to artificial real-time spikes from excessive ECRS procurement, which are very difficult to predict day-ahead, so a day-ahead position bears that risk. [e19]
@@ -322,3 +297,4 @@ AFTER:  With the implementation of RTC, dayahead ancillary service awards no lon
 - **Link to winter-storm-uri** (cites e14) FLAG number-not-in-quote: 2021: related Winter Storm Uri (Feb 2021): The IMM's February 2021 day-ahead versus real-time difference was the largest absolute difference it cites. [e14]
 - **Link to ancillary-services** (cites e25): related Ancillary Services (AS): Table A2 reports DART premiums for each AS product as well as energy. [e25]
 - **Link to congestion** (cites e32): related Transmission Congestion: Participants use PTP obligations to hedge congestion in the day-ahead market. [e32]
+

@@ -4,20 +4,6 @@ kind concept · domain reliability · level 1
 
 ## Evidence (quote, where it sits in the source, and the text around it)
 
-### e1 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
-locator: Section 2.1, definition of Energy Storage Resource (ESR) under Resource · text copy line 2450
-
-BEFORE: …----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ Energy Storage Resource (ESR) 
-QUOTE: An Energy Storage System (ESS) registered with ERCOT for the purpose of providing energy and/or Ancillary Service to the ERCOT System.
-AFTER:  +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------…
-
-### e2 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
-locator: Section 2.1, definition of Energy Storage System (ESS) · text copy line 888
-
-BEFORE: …) and through trades and the amount of delivery of that energy in the Real-Time Market (RTM). Energy Offer Curve A proposal to sell energy at a Settlement Point at a monotonically non-decreasing price with increasing quantity. Energy Storage Resource (ESR) (see Resource) Energy Storage System (ESS) 
-QUOTE: A facility, process, or device(s) that receives electric energy and stores it, in any form, for the purpose of later releasing electrical energy.
-AFTER:  Energy Trade A QSE-to-QSE financial transaction that transfers responsibility for energy between a buyer and a seller at a Settlement Point. Entity Any natural person, partnership, municipal corporation, cooperative corporation, association, governmental subdivision, or public or private organizati…
-
 ### e3 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
 locator: Section 2.1, definition of High Sustained Limit (HSL) for an Energy Storage Resource (ESR) · text copy line 1188
 
@@ -333,9 +319,8 @@ BEFORE: …t one five-minute duration interval selected to evaluate each of the 
 QUOTE: (iv) For an ESR, in all other test sequence intervals, the Resource's measured ESREDP must be less than or equal to 3.0% as calculated for the entire duration of each test interval.
 AFTER:  (d) On successful demonstration of the above test criteria, ERCOT shall qualify that the Resource is capable of providing Regulation Service and shall provide a copy of the certificate to the QSE and the Resource. (5) The maximum quantity of Reg-Up or Reg-Down that an individual Resource is qualifi…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
-- **Definition #1** (cites e1, e2): An Energy Storage Resource (ESR) is an energy storage system registered with ERCOT for the purpose of providing energy and/or ancillary service to the ERCOT System. [e1] An energy storage system is a facility or device that receives electric energy and stores it for later release. [e2]
 - **How it works #1** (cites e3, e19, e5, e4, e20): An ESR is one resource that both charges and discharges. Its High Sustained Limit is positive when describing maximum sustained discharge and negative when describing the minimum temporary charging capability. [e3] The Low Sustained Limit works the other way: a negative LSL is the maximum sustained charging capability and a positive LSL the minimum temporary discharging capability. [e19] ERCOT's single-model approach has bid/offer curves, the Current Operating Plan and telemetry for the ESR as a single device across the whole range from maximum charging (negative MW) to maximum discharging (positive MW). [e5] A QSE can update the telemetered HSL and LSL in Real-Time to reflect state of charge limits, and a QSE for an ESR co-located with a Generation Resource may set the LSL to the MW level of self-charge when charging from that generator. [e4][e20]
 - **How it works #2** (cites e18, e17, e37) FLAG number-not-in-quote: 2025: State of charge (SOC) is the stored energy in MWh that can be injected at the POI or POCC. [e18] The QSE must telemeter maximum SOC, minimum SOC, SOC, and the maximum operating discharge and charge power limits, and must ensure SOC stays between the minimum and maximum. [e17] Telemetered net MW does not include internal battery and inverter losses when the ESR is charging or has a zero Base Point, according to ERCOT's July 2025 RTC+B overview. [e37]
 - **How it works #3** (cites e8, e41, e6, e23, e7, e14, e39) FLAG number-not-in-quote: 2025: For ancillary services, an ESR in discharge mode provides Reg-Up by raising output, while an ESR in charge mode provides it by cutting load. [e8] Under RTC, ancillary service awards are based on Resource capability including state of charge and SOC limits, and ERCOT's July 2025 RTC+B overview says SCED accounts for state of charge in its optimization so awards are feasible for their duration requirements and it will not violate telemetered minimum and maximum SOC. [e41][e6] The same overview says that is different from before, when the QSE had to reserve sufficient SoC to cover its ancillary service duration requirements. [e23] The day-ahead market does not consider SOC in clearing energy and ancillary services. [e7] The same overview says ESRs will not be seen as off-line in RUC and so are not available to be RUCed; RUC uses the hour-beginning SoC in the COP to limit each ESR. [e14][e39]
@@ -349,18 +334,11 @@ AFTER:  (d) On successful demonstration of the above test criteria, ERCOT shall 
 - **Timeline #2** (cites e25): - November 2024: NPRR1236 (RUC capacity short calculations) approved; March 2025: NPRR1246 (terminology) approved; 24 June 2025: ERCOT Board approved NPRR1282 (AS duration under RTC). [e25]
 - **Timeline #3** (cites e26) FLAG number-not-in-quote: 2025: - NPRR1029 (DC-coupled resources, approved December 2020) was described in July 2025 as not part of the RTC+B project. [e26]
 - **Timeline #4** (cites e46): - 5 December 2025: RTC go-live. [e46]
-- **Key facts #1** (cites e1): - An ESR is registered to provide energy and/or ancillary service. [e1]
-- **Key facts #2** (cites e10): - ESR capacity was more than 17,000 MW and 31,500 MWh at the end of 2025. [e10]
-- **Key facts #3** (cites e9) FLAG number-not-in-quote: 2025: - On average in 2025 ESRs provided 94% of Reg-Up and 86% of Reg-Down, per the IMM. [e9]
 - **Key facts #4** (cites e34): - Revenue per MW of ESR capacity fell almost 37% in 2025. [e34]
-- **Key facts #5** (cites e6, e7): - SCED tracks ESR state of charge after RTC+B; the DAM does not. [e6][e7]
 - **Key facts #6** (cites e21, e22): - Set Point Deviation tolerance for an ESR is 3% of AASP or three MW. [e21][e22]
 - **Key facts #7** (cites e27): - The default RRS limit for a newly qualified ESR is 20% of its MDRR. [e27]
-- **Say it like this #1** (cites e5, e9, e13, e16): An ESR is a battery modelled as one resource that can be a generator or a load, bounded by its state of charge. In 2025 it supplied most regulation and large shares of the other ancillary services, and it plays a major role serving evening load, and the IMM says the growth in ESR capacity partly caused AS prices to fall. [e5][e9][e13][e16]
 - **Common confusion #1** (cites e5, e6, e10, e19): An ESR is not a generator plus a separate load: the single-model approach treats it as one device with one curve across charging and discharging. [e5] ESR capacity in MW is also not energy: duration and state of charge limit how long it can sustain MW awards. [e6][e10] And a positive LSL is not an error: it means a minimum temporary discharge. [e19]
-- **Questions #2** (cites e6): After RTC+B, SCED includes state of charge accounting so awards can be sustained for their duration, and will not violate the telemetered min and max SOC. [e6]
 - **Questions #4** (cites e34, e35, e16): Revenue per unit of ESR capacity fell almost 37% as AS revenues fell by more than 37%, and the IMM says the continued growth in ESR capacity and AS provision by ESRs partly caused AS prices to fall. [e34][e35][e16]
-- **Questions #6** (cites e14): ERCOT's RTC+B material says ESRs will not be seen as off-line and so are not available to be RUCed. [e14]
 - **Questions #8** (cites e28): ERCOT can instruct it to suspend charging; it must stop unless it is providing Primary Frequency Response, has a SCED charging Base Point, or is carrying Reg-Down with an LFC charge instruction. [e28]
 - **Questions #10** (cites e38, e21, e22): ERCOT's overview says the Set Point Deviation calculation is less tolerant than Base Point Deviation, with an ESR tolerance of 3% of AASP or three MW. [e38][e21][e22] (Guidance: with one device and one set point, the charge and discharge ranges share one tolerance.)
 - **Questions #12** (cites e43): The IMM argues an ESR must hold four times its NSRS obligation (10 MW needs 40 MWh), which it says raises the opportunity cost of selling reserves; this is the IMM's view. [e43]
@@ -374,3 +352,4 @@ AFTER:  (d) On successful demonstration of the above test criteria, ERCOT shall 
 - **Link to ruc** (cites e39, e14): related RUC (Reliability Unit Commitment: DRUC/HRUC): RUC uses each ESR's hour-beginning State of Charge from the COP, and ESRs are not seen as off-line so cannot be RUCed. [e39][e14]
 - **Link to load-shed** (cites e30, e28): related Load Shed / Rotating Outages: A DESR on a circuit subject to load shed is disqualified from offering ancillary service, and ESRs must suspend charging at EEA Level 3. [e30][e28]
 - **Link to ordc** (cites e44): related ORDC (Operating Reserve Demand Curve): RTC replaced the ORDC adder with ASDCs, so ESR scarcity revenue now comes through ancillary service prices in the optimization. [e44]
+

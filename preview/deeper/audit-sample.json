@@ -1,0 +1,48 @@
+{
+ "AS1": [
+  "securitization",
+  "load-zone",
+  "cdr-report",
+  "negative-prices"
+ ],
+ "AS2": [
+  "state-of-market-report",
+  "load-profiling",
+  "retail-choice",
+  "waha-hub"
+ ],
+ "AS3": [
+  "ptp-obligation",
+  "ancillary-services",
+  "mass-transition",
+  "wind-generation"
+ ],
+ "AS4": [
+  "uplift",
+  "energy-offer-curve",
+  "emergency-pricing-program",
+  "large-flexible-load"
+ ],
+ "AS5": [
+  "nprr",
+  "noe",
+  "non-spin",
+  "nodal-protocols"
+ ],
+ "AO1": [
+  "permian-transmission",
+  "sc-west-negative-north-spike",
+  "sc-hot-august-evening"
+ ],
+ "AO2": [
+  "sc-winter-cold-snap",
+  "sc-rep-heat-wave-hedge",
+  "imm"
+ ],
+ "AO3": [
+  "summer-2023",
+  "summer-2026",
+  "heat-rate",
+  "net-load"
+ ]
+}

@@ -382,7 +382,7 @@ BEFORE: …---------------------------------------------------------------------
 QUOTE: (1) A QSE must submit any DAM Energy-Only Offer Curves by 1000 for the effective DAM.
 AFTER:  (2) The DAM Energy-Only Offer Curve represents the QSE's willingness to sell energy at or above a certain price and at a certain quantity at a specific Settlement Point in the DAM. A DAM Energy-Only Offer Curve may be offered only in the DAM. (3) DAM Energy-Only Offer Curves are not Resource-specif…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
 - **Definition #1** (cites e1, e2, e18, e17) FLAG number-not-in-quote: 25.501: The Day-Ahead Market is a daily, co-optimized market run the day before the Operating Day for forward financial energy, Ancillary Services, and congestion transactions. [e1][e2] Participation is voluntary. [e18] PUCT rule 25.501 requires ERCOT to operate a voluntary day-ahead energy market. [e17]
 - **How it works #2** (cites e7, e53, e4, e19, e6, e52): A QSE must submit DAM Energy Bids and DAM Energy-Only Offer Curves by 1000 in the Day-Ahead, and ERCOT starts the DAM clearing process at 1000. [e7][e53][e4] If processing of bids and offers after 0900 is significantly delayed or impacted by a failure of ERCOT software or systems that directly impacts the DAM, ERCOT posts a Notice extending the start time by at least the duration of the delay plus ten minutes, and the extension may not exceed one hour from when the delay is resolved. [e19] ERCOT must notify the parties to each cleared transaction of the results no later than 1330 in the Day-Ahead. [e6] ERCOT's Forward Markets 101 training deck (tier 2) shows the same 10:00 and 13:30 markers. [e52]
@@ -401,17 +401,9 @@ AFTER:  (2) The DAM Energy-Only Offer Curve represents the QSE's willingness to 
 - **Formula #2** (cites e28): Day-Ahead Energy Charge per QSE per Settlement Point per hour: DAEPAMT = DASPP * DAEP, where DAEP is the QSE's cleared purchases (DAM Energy Bids and the bid portion of Energy Bid/Offer Curves) at that point. [e28]
 - **Timeline #1** (cites e50, e49) FLAG number-not-in-quote: 2020: - 2020-12-08: the ERCOT Board approved NPRR1008, RTC - NP 4: Day-Ahead Operations, which updates the Day-Ahead Operations section for changes associated with the implementation of RTC. [e50][e49]
 - **Timeline #2** (cites e48) FLAG number-not-in-quote: 2025: - December 2025: the IMM's 2025 report says RTC was implemented in December. [e48]
-- **Key facts #1** (cites e17) FLAG number-not-in-quote: 25.501: - PUCT rule 25.501 calls for a voluntary day-ahead energy market. [e17]
 - **Key facts #2** (cites e7, e53, e4): - DAM Energy Bids and Energy-Only Offer Curves are due by 1000 in the Day-Ahead; clearing starts at 1000. [e7][e53][e4]
-- **Key facts #3** (cites e6): - Results are communicated no later than 1330 in the Day-Ahead. [e6]
-- **Key facts #4** (cites e3): - DAM settles hourly, versus 15-minute intervals in real time. [e3]
-- **Key facts #5** (cites e11): - DAM prices are final at 1000 of the second Business Day after the Operating Day. [e11]
-- **Key facts #6** (cites e14, e13): - 2025: DAM cleared 62% of real-time load; average DAM premium $1.17/MWh. [e14][e13]
 - **Common confusion #1** (cites e15): - The DAM is financial, not a physical commitment: a DAM energy award is settled against real-time prices, with imbalances settled in real time. [e15]
 - **Common confusion #2** (cites e29, e31): - DAM versus RUC: the DAM does not guarantee a unit runs. A generator's DAM award earns the DAM price and the DAM make-whole applies only under its own eligibility conditions. [e29][e31]
-- **Questions #2** (cites e1, e2, e5, e7, e4, e6): Energy offers and bids, Ancillary Service capacity and PTP Obligation bids are cleared together. [e1][e2][e5] DAM Energy Bids are due by 1000, clearing starts at 1000, and results go out by 1330. [e7][e4][e6]
-- **Questions #4** (cites e3, e15): The DAM uses one-hour Settlement Intervals with DAM Settlement Point Prices, while real time uses 15-minute intervals. [e3] Real-time prices are the ones that settle any imbalance against a DAM position. [e15]
-- **Questions #6** (cites e13): At a modest premium: the IMM reports an average premium of $1.17/MWh and an average absolute difference of $12/MWh. [e13]
 - **Questions #8** (cites e14, e42, e45): The IMM reports 62% in 2025, with less than half of physical real-time generation scheduled through the DAM. [e14][e42] The IMM's view is that part of the reason is imbalance risk for intermittent and duration-limited storage resources, and that thermal resources are mostly self-committed. [e45]
 - **Questions #10** (cites e12, e32, e33): It may omit procedures or take manual actions, removing transactions only as a last resort and starting with a QSE's most recent submissions. [e12][e32] If it still cannot execute, it may abort all or part of the process, require schedules and trades in the Adjustment Period, and issue a Watch. [e33]
 - **Questions #12** (cites e34, e35, e11, e36): ERCOT corrects prices when a solution or prices are invalid and the impact is significant, with thresholds such as $0.05/MWh at a Resource Node. [e34][e35] Prices are final at 1000 on the second Business Day, but Board review is possible if ERCOT gave notice within 30 days. [e11][e36]
@@ -428,6 +420,7 @@ AFTER:  (2) The DAM Energy-Only Offer Curve represents the QSE's willingness to 
 - **Link to offer-cap** (cites e23): related Offer Caps (HCAP / LCAP / SWCAP): DAM Energy-Only Offer Curves are limited to the range of -$250 per MWh to the DASWCAP. [e23]
 - **Link to crr** (cites e20): related CRR (Congestion Revenue Right): The DAM clearing runs a Simultaneous Feasibility Test that evaluates all CRRs for feasibility. [e20]
 - **Link to rtc-b** (cites e49, e15): related RTC+B (Real-Time Co-optimization + Batteries): NPRR1008 updated Day-Ahead Operations for the implementation of RTC, and the IMM says RTC made DAM awards strictly financial positions. [e49][e15]
+
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
 - (Say it like this) The day-ahead market is ERCOT's voluntary forward market where energy, ancillary services and PTP congestion positions are cleared the day before, on hourly prices. It lets you lock in a price and a congestion position, and whatever you do not take there is settled at real-time prices.

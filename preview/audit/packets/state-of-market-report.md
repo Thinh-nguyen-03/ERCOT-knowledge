@@ -431,7 +431,7 @@ BEFORE: …Overview of 2025 State of the Market Report for ERCOT Presented to: E
 QUOTE: Vice President, Potomac Economics August 13, 2026
 AFTER:  © 2025 Potomac Economics 1 Highlights of the 2025 State of the Market Report • Summary of market pricing trends - All-in price of electricity - Implied heat rate - Shortage pricing • Summary of operating reserve trends • Conservative operations - Reliability Unit Commitment (RUC) - Ancillary Servic…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
 - **Definition #1** (cites e1) FLAG number-not-in-quote: 25.365: The State of the Market report is the annual report the Independent Market Monitor (IMM) submits to the PUCT assessing how the ERCOT wholesale market performed and recommending changes. PUCT rule 25.365 requires an annual report on the state of the market covering competitiveness, ERCOT's management of the balancing energy, ancillary services and congestion rights markets, congestion management, flaws and opportunities for manipulation in the market design, and recommendations for improving it. [e1]
 - **How it works #1** (cites e3, e2, e1, e11, e12, e13) FLAG number-not-in-quote: 25.365: **Legal basis and independence.** The IMM is a market monitor that ERCOT contracts with, selected by the commission, to detect and prevent market manipulation strategies, recommend ways to improve efficiency and give independent analysis of proposed market changes. [e3] Under rule 25.365 all of its reports must reflect its independent analysis, findings and expertise, and it prepares and submits the annual report to the commission. [e2][e1] The annual report sits alongside other required reports: daily, monthly and quarterly reports on prices and congestion, and periodic or special reports on market conditions or events the commission directs. [e11] The market monitor operates under the commission's supervision and oversight, and the statute may not be construed to give the monitor enforcement authority. [e12] The IMM must immediately report potential market manipulation and discovered or potential rule violations directly to the commission. [e13]
@@ -500,6 +500,7 @@ AFTER:  © 2025 Potomac Economics 1 Highlights of the 2025 State of the Market R
 - **Link to four-cp** (cites e16): related 4CP Transmission Charges: Recommendation 2015-1 calls for transitioning away from the 4CP method of allocating transmission costs. [e16]
 - **Link to load-zone** (cites e59) FLAG number-not-in-quote: 2020: related Load Zone: Recommendation 2020-3 calls for reconfiguring load zones; the current four zones were established in 2003. [e59]
 - **Link to ruc** (cites e50): related RUC (Reliability Unit Commitment: DRUC/HRUC): The 2025 report counts 5,129 RUC resource-hours, up 176% from 2024. [e50]
+
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
 - (Scenarios) - (Guidance) Say it is an open IMM recommendation, not a rule.

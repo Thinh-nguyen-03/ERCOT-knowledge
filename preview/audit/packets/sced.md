@@ -25,13 +25,6 @@ BEFORE: …- LDL Low Dispatch Limit. POWERTELEM Net real power flow provided via
 QUOTE: The SCED process is designed to simultaneously manage energy, Ancillary Services, the system power balance and network congestion through Resource Base Points, Ancillary Service awards, and the calculation of LMPs and Real-Time MCPCs approximately every five minutes, or more frequently if necessary.
 AFTER:  The SCED process uses a two-step methodology that applies mitigation to offers for energy prospectively to resolve Non-Competitive Constraints for the current Operating Hour. The SCED process evaluates Energy Offer Curves, Energy Bid/Offer Curves, Ancillary Service Offers, Output Schedules, and RTM…
 
-### e4 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.5.7.3, paragraph (14)(a) · text copy line 2229
-
-BEFORE: …-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ (14) The two-step SCED methodology referenced in paragraph (1) above is: (a) 
-QUOTE: The first step is to execute the SCED process to determine Reference LMPs. In this step, ERCOT executes SCED using the full Network Operations Model while only observing limits of Competitive Constraints in addition to power balance and Ancillary Service constraints.
-AFTER:  Energy Offer Curves for all On-Line Generation Resources, Energy Bid/Offer Curves for all On-Line ESRs, and RTM Energy Bids from available CLRs, whether submitted by QSEs or created by ERCOT under this Section, are used in the SCED to determine "Reference LMPs." +-----------------------------------…
-
 ### e5 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
 locator: Section 6.5.7.3, paragraph (14)(b) · text copy line 2238
 
@@ -60,26 +53,12 @@ BEFORE: …o power balance, Ancillary Service Demand Curves (ASDCs), and network
 QUOTE: In addition, the SCED process accounts for each ESR's State of Charge (SOC) and SOC operating limits.
 AFTER:  This is to ensure that the SCED process will issue ESR Base Points and Ancillary Services that are feasible taking into account SCED duration requirements for energy and Ancillary Services and also that do not violate the ESR's Minimum State of Charge (MinSOC) and Maximum State of Charge (MaxSOC) l…
 
-### e9 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.5.7.3, paragraph (15) · text copy line 2268
-
-BEFORE: …shall also be capped at the effective VOLL. ERCOT shall post both the capped and uncapped values for Electrical Bus LMPs, System Lambda, and Real-Time MCPCs to the ERCOT website. (15) For each SCED process, in addition to the binding Base Points, Ancillary Service awards, Real-Time MCPCs, and LMPs, 
-QUOTE: ERCOT shall calculate a non-binding projection of the Base Points, Ancillary Service awards, MCPCs, Resource Node LMPs, Real-Time Reliability Deployment Price Adders, Hub LMPs, and Load Zone LMPs at a frequency of every five minutes for at least 15 minutes into the future
-AFTER:  based on the same inputs to the SCED process as described in this Section, except that the Resource's HDL and LDL and the total generation requirement will be as estimated at future intervals. The Resource's HDL and LDL will be calculated for each interval of the projection based on the ramp rate c…
-
 ### e10 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
 locator: Section 6.6.1.1, paragraph (1) · text copy line 3703 · heading above: 6.6.1.1 Real-Time Settlement Point Price for a Resource Node
 
 BEFORE: …for Electrical Buses within the same station having the same voltage level as the de-energized Electrical Bus, if any exist. (ii) Use average LMP for all Electrical Buses within the same station, if any exist. (iii) Use System Lambda. 6.6.1.1 Real-Time Settlement Point Price for a Resource Node (1) 
 QUOTE: The Real-Time Settlement Point Price for a Resource Node Settlement Point is the time-weighted average of the sum of the Real-Time LMPs and the Real-Time Reliability Deployment Price Adder for Energy.
 AFTER:  The Real-Time Settlement Point Price for a 15-minute Settlement Interval is calculated as follows: RTSPP = Max (-$251, ([](RNWF _(y) * (RTLMP _(y) + RTRDPA _(y))))) Where the Resource Node weighting factor is: RNWF _(y) = TLMP _(y) / []TLMP _(y) The above variables are defined as follows: ---------…
-
-### e11 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
-locator: Executive Summary, Real-time Market Performance · text copy line 741
-
-BEFORE: …er flows to maintain system reliability and sets expectations for the forward markets. Real-time Market Performance The most noteworthy ERCOT real-time market development in 2025 was the long-awaited introduction of real-time co-optimization (RTC), a major market upgrade that began in January 2019. 
-QUOTE: With RTC, the real-time market simultaneously procures energy and ancillary services. Previously, the day-ahead market alone procured ancillary services, and qualified scheduling entities (QSEs) could adjust those positions only within their resource portfolios or through bilateral trades reported to ERCOT.
-AFTER:  Now, ancillary service awards can be adjusted in real-time to reflect changes in system conditions. As part of the RTC project, ERCOT also implemented the single-model for ESRs, which improves the real-time market's coordination of energy and ii | 2025 State of the Market Report / / Executive Summa…
 
 ### e12 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
 locator: Chapter I.D, Shortage and Reliability Pricing · text copy line 1725
@@ -101,13 +80,6 @@ locator: Section 6.1, Introduction, paragraph (4) · text copy line 408 · headi
 BEFORE: …------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ (4) 
 QUOTE: Real-Time energy settlements use Real-Time Settlement Point Prices that are calculated for Resource Nodes, Load Zones, and Hubs for a 15-minute Settlement Interval, using the Locational Marginal Prices (LMPs) from all of the executions of SCED in the Settlement Interval.
 AFTER:  Similarly, Real-Time Ancillary Service Settlements use Real-Time Market (RTM) Clearing Prices for Capacity (MCPCs) for a 15-minute Settlement Interval, using the MCPCs from all of the executions of SCED in the Settlement Interval. In contrast, the Day-Ahead Market (DAM) energy settlements will use …
-
-### e16 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
-locator: Chapter I.D, Shortage and Reliability Pricing · text copy line 1361
-
-BEFORE: … / / Review of Real-Time Market Outcomes • The Reliability Deployment Price Adder (RDPA), implemented in 2015, ensures that prices are not inefficiently reduced when ERCOT takes out-of-market reliability actions.2 These adders are ERCOT's primary means of reflecting shortage pricing in its markets. 
-QUOTE: Since RTC was implemented, shortage pricing has been incorporated into the price of energy rather than functioning as a separate adder.
-AFTER:  The all-in cost of electricity increased 13.8% from almost $34 per MWh in 2024 to $38 per MWh in 2025. This increase was driven primarily by the cost of energy, with no adders or uplift, and corresponded to a 61% increase in the average daily index price for natural gas. Gas and energy prices are e…
 
 ### e14 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
 locator: Section 6.5.7.3, paragraph (1) · text copy line 1779 · heading above: 6.5.7.3 Security Constrained Economic Dispatch
@@ -256,41 +228,23 @@ BEFORE: …Energy Bid/Offer Curve, ERCOT shall create a proxy Energy Bid/Offer C
 QUOTE: The Entity with decision-making authority, as more fully described in Section 3.19.1, Constraint Competitiveness Test Definitions, over how a Resource or Split Generation Resource is offered or scheduled, shall be responsible for all offers associated with each Resource, including offers represented by a proxy Energy Offer Curve, proxy Energy Bid/Offer Curve, or proxy Ancillary Service Offer.
 AFTER:  (8) For a CLR whose QSE has submitted an RTM Energy Bid that does not cover the full range of the Resource's available Demand response capability, consistent with the CLR's telemetered quantities, ERCOT shall create a proxy energy bid as described below: --------------------------------------------…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
-- **Definition #1** (cites e1, e2): SCED is the process for determining Ancillary Service awards and Base Point instructions for Resources, using Energy Offer Curves, Energy Bid/Offer Curves, RTM Energy Bids, Ancillary Service Offers and Ancillary Service Demand Curves (ASDCs). [e1] A Base Point is the MW output level for a Resource that SCED produces. [e2]
-- **How it works #1** (cites e3, e6, e8): SCED is designed to manage energy, Ancillary Services, the system power balance and network congestion at the same time, through Base Points, Ancillary Service awards and the calculation of LMPs and Real-Time MCPCs, approximately every five minutes or more frequently if necessary. [e3] It determines dispatch and awards by maximizing bid-based revenues minus offer-based costs, subject to power balance, ASDCs and network constraints. [e6] It also accounts for each Energy Storage Resource's state of charge and SOC operating limits. [e8]
-- **How it works #2** (cites e14, e4, e5): SCED uses a two-step method that applies mitigation to offers for energy prospectively to resolve Non-Competitive Constraints for the current Operating Hour. [e14] Step 1 runs SCED on the full Network Operations Model observing only Competitive Constraints (plus power balance and Ancillary Service constraints) to determine Reference LMPs. [e4] Step 2 produces the Base Points, Ancillary Service awards, Shadow Prices, Real-Time MCPCs and LMPs, subject to all security constraints, Competitive and Non-Competitive, and other Resource constraints. [e5]
-- **How it works #3** (cites e15, e10, e7, e9): The prices SCED produces feed settlement. Real-time energy settlements use Settlement Point Prices for a 15-minute Settlement Interval, using the LMPs from all SCED executions in that interval. [e15] A Resource Node's real-time Settlement Point Price is the time-weighted average of the sum of the Real-Time LMPs and the Reliability Deployment Price Adder for Energy. [e10] System Lambda and Real-Time MCPCs from Step 2 are capped at the effective VOLL, and ERCOT posts both capped and uncapped values. [e7] Separately from the binding run, ERCOT calculates a non-binding projection of Base Points, awards, MCPCs, Resource Node, Hub and Load Zone LMPs every five minutes for at least 15 minutes ahead. [e9]
 - **How it works #5** (cites e17, e18, e21, e35, e34): Inputs. SCED uses the Resource Status from SCADA telemetry, validated by the Real-Time Sequence, instead of the COP Resource Status. [e17] ERCOT builds proxy Energy Offer Curves so that the available capacity of all committed Generation Resources is used, for example for non-IRRs that submitted only an Output Schedule or a partial curve. [e18] For an On-Line ESR with no valid curve or Output Schedule, ERCOT notifies the QSE and creates a proxy curve at -$250/MWh below zero MW and at the RTSWCAP above zero. [e21] The entity with decision-making authority over a Resource is responsible for offers represented by proxy curves. [e35] An ESR may withdraw energy only when dispatched by SCED to do so. [e34]
 - **How it works #6** (cites e33, e22): Constraints. The SCED solution monitors cumulative Regulation deployment and keeps it minimized over time. [e33] A 5/7 scaling factor is applied to Reg-Up awards when checking that Base Point plus scaled award does not exceed HDL. [e22]
 - **How it works #7** (cites e19): Step 2 mitigation detail. Each Energy Offer Curve is bounded at the lesser of the Step 1 Reference LMP or the Mitigated Offer Floor, and a curve subject to mitigation is capped at the greater of the Reference LMP at the Resource Node plus a variable not exceeding 0.01 times the Mitigated Offer Cap curve value at LSL, or the MOC. [e19]
 - **How it works #8** (cites e20): VOLL cap. A bus LMP above the effective VOLL is set to the greater of the VOLL or the initial LMP minus the positive difference between System Lambda and VOLL, and LMPs below VOLL are unchanged. [e20]
 - **How it works #9** (cites e25, e24, e36): Failure. When SCED cannot solve, ERCOT issues a Watch. [e25] The LMPs, MCPCs and adders for an unsolved interval equal those of the most recently solved interval. [e24] Paragraph (2) adds separate handling for Settlement Intervals identified as erroneous and set as failed under Section 6.3. [e36]
-- **ERCOT context #1** (cites e11, e1, e6, e12): Real-time co-optimization (RTC) changed what SCED does in price formation. The IMM reports that with RTC the real-time market simultaneously procures energy and ancillary services, whereas previously the day-ahead market alone procured them. [e11] The current protocol text reflects this: SCED determines Ancillary Service awards using Ancillary Service Offers and ASDCs. [e1][e6] Before RTC went live on December 5, 2025, shortage pricing came from an ORDC price adder added to energy and reserve prices when reserves were low. [e12]
 - **ERCOT context #2** (cites e29, e26, e27, e32) FLAG number-not-in-quote: 2026: The IMM says that with RTC, operators no longer manually deploy ECRS and SCED instead trades off energy and ancillary services using reserve shortage prices under an ASDC. [e29] The IMM describes the ASDCs as defining shortage pricing in the day-ahead and real-time markets, and reports that ERCOT operations signalled skepticism and imposed a $15 per MWh floor on AS shortages through NPRR 1269 to avoid RUC. [e26][e27] ERCOT's summer 2026 review says RTC helped lower ancillary service costs and market congestion. [e32]
 - **ERCOT context #3** (cites e13): The IMM says that since RTC the real-time market has functioned as expected without major malfunctions, but flags issues with real-time ancillary service price formation likely due to the design of the ancillary service demand curves and duration constraints for ESRs providing ancillary services. [e13]
 - **Timeline #1** (cites e31, e30) FLAG number-not-in-quote: 2020: - December 8, 2020: the ERCOT Board approved NPRR1010, which updates the Adjustment Period and Real-Time Operations sections to address RTC; it takes effect with RTC implementation. [e31][e30]
 - **Timeline #2** (cites e12): - December 5, 2025: RTC went live (IMM). [e12]
 - **Timeline #3** (cites e28) FLAG number-not-in-quote: 2026: - After go-live the System-Wide Offer Cap in ERCOT's summer 2026 review is $2000/MWh, down from $5000/MWh. [e28]
-- **Key facts #1** (cites e3): - SCED runs approximately every five minutes, or more frequently if necessary. [e3]
-- **Key facts #2** (cites e6): - It maximizes bid-based revenues minus offer-based costs subject to power balance, ASDCs and network constraints. [e6]
-- **Key facts #3** (cites e4, e5): - It is a two-step process: Step 1 sets Reference LMPs with only Competitive Constraints; Step 2 produces Base Points, awards, Shadow Prices, MCPCs and LMPs. [e4][e5]
-- **Key facts #4** (cites e1): - SCED outputs include Ancillary Service awards as well as energy Base Points. [e1]
-- **Key facts #5** (cites e12, e11): - RTC went live December 5, 2025 (per the IMM), moving AS procurement into real time. [e12][e11]
-- **Key facts #6** (cites e9): - ERCOT calculates a non-binding projection every five minutes for at least 15 minutes into the future. [e9]
 - **Key facts #7** (cites e17): - SCED uses telemetered Resource Status, not the COP status. [e17]
 - **Key facts #8** (cites e25, e24, e36): - If SCED cannot solve, ERCOT issues a Watch and carries forward the prior solved interval's prices (with special handling for intervals set as failed). [e25][e24][e36]
-- **Say it like this #1** (cites e3, e6, e11, e12): SCED is ERCOT's real-time engine: about every five minutes [e3] it dispatches Resources by maximizing bid-based revenues minus offer-based costs subject to network constraints [e6], and the same solve produces the LMPs [e3]. Since RTC in December 2025 the same solve also awards ancillary services, so energy and reserve prices are formed together. [e11][e12]
-- **Common confusion #1** (cites e1): - SCED versus RUC: SCED produces Base Points and awards; RUC is a separate process covered in the ruc topic. [e1]
-- **Common confusion #2** (cites e15, e10): - SCED versus the Settlement Point Price: SCED produces LMPs, and the settlement price uses the LMPs from all SCED executions in a 15-minute interval and adds the reliability adder. [e15][e10]
-- **Common confusion #3** (cites e11, e12): - Pre-RTC descriptions (separate ORDC adder, day-ahead-only AS procurement) are historical as of December 2025. [e11][e12]
-- **Questions #2** (cites e5): Base Points, Ancillary Service awards, Shadow Prices, Real-Time MCPCs and LMPs, from Step 2 of its two-step process. [e5]
-- **Questions #4** (cites e14, e4, e5): Step 1 finds Reference LMPs observing only Competitive Constraints, and Step 2 then solves with all constraints, with mitigation applied to energy offers to resolve Non-Competitive Constraints. [e14][e4][e5]
 - **Questions #6** (cites e17): SCED uses the Resource Status from SCADA telemetry validated by the Real-Time Sequence instead of the COP status. [e17] (Reading: dispatch has to rest on what the unit is actually doing, while the COP is a plan.)
 - **Questions #8** (cites e25, e24): ERCOT issues a Watch, and prices for the unsolved interval equal those of the most recently solved interval. [e25][e24]
 - **Questions #10** (cites e27): The IMM says ERCOT operations indicated it would use RUC to add reserves when the market does not procure the full AS Plan, and that the $15 floor on AS shortages was imposed to avoid that outcome. [e27]
-- **Questions #12** (cites e11, e16): The real-time market now co-optimizes energy and ancillary services, where previously the day-ahead market alone procured ancillary services. [e11] Shortage pricing is now incorporated into the price of energy rather than being a separate adder. [e16]
 - **Link to base-point** (cites e2): determines Base Point: SCED produces the Base Point, the MW output level for each Resource. [e2]
 - **Link to lmp** (cites e3): determines LMP (Locational Marginal Price): SCED calculates the real-time LMPs, approximately every five minutes. [e3]
 - **Link to system-lambda** (cites e7): determines System Lambda: System Lambda is a SCED output, capped at the effective VOLL. [e7]
@@ -304,3 +258,4 @@ AFTER:  (8) For a CLR whose QSE has submitted an RTM Energy Bid that does not co
 - **Link to energy-storage-resource** (cites e8): related Energy Storage Resource (ESR): SCED accounts for each ESR's state of charge and issues ESR Base Points that respect SOC limits. [e8]
 - **Link to offer-cap** (cites e28) FLAG number-not-in-quote: 2026: related Offer Caps (HCAP / LCAP / SWCAP): The System-Wide Offer Cap was lowered to $2000/MWh from $5000/MWh after RTC go-live, per ERCOT's summer 2026 review. [e28]
 - **Link to ordc** (cites e12, e26): replaced ORDC (Operating Reserve Demand Curve): The IMM says the ORDC adder was replaced under RTC by sloped Ancillary Service Demand Curves. [e12][e26]
+

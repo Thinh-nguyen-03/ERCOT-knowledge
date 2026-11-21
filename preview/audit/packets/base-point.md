@@ -39,13 +39,6 @@ BEFORE: …rates that any payments made to accelerate the Commercial Operations 
 QUOTE: ERCOT shall centrally Dispatch Resources and Transmission Facilities under these Protocols, including deploying energy by establishing Base Points, and Emergency Base Points, and by deploying Regulation Service, ERCOT Contingency Reserve Service (ECRS), and Non-Spinning Reserve (Non-Spin) to ensure operational security.
 AFTER:  Responsive Reserve (RRS) shall be self-deployed in response to frequency deviations or as specified in Nodal Operating Guide Section 4.8, Responsive Reserve Service and ERCOT Contingency Reserve Service During Scarcity Conditions. (2) ERCOT shall verify that either an Energy Offer Curve or Energy B…
 
-### e6 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.5.7.3, paragraph (1) · text copy line 1779 · heading above: 6.5.7.3 Security Constrained Economic Dispatch
-
-BEFORE: …- LDL Low Dispatch Limit. POWERTELEM Net real power flow provided via telemetry. NORMRAMPUP Normal Ramp Rate up, as telemetered by the QSE. LSLTELEM LSL provided via telemetry. ----------------------------------------------------------------------- 6.5.7.3 Security Constrained Economic Dispatch (1) 
-QUOTE: The SCED process is designed to simultaneously manage energy, Ancillary Services, the system power balance and network congestion through Resource Base Points, Ancillary Service awards, and the calculation of LMPs and Real-Time MCPCs approximately every five minutes, or more frequently if necessary.
-AFTER:  The SCED process uses a two-step methodology that applies mitigation to offers for energy prospectively to resolve Non-Competitive Constraints for the current Operating Hour. The SCED process evaluates Energy Offer Curves, Energy Bid/Offer Curves, Ancillary Service Offers, Output Schedules, and RTM…
-
 ### e7 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
 locator: Section 6.5.7.4, paragraph (1) · text copy line 2472 · heading above: 6.5.7.4 Base Points
 
@@ -165,33 +158,23 @@ BEFORE: … droop = 0.05, the Governor Dead-Band (Hz) and Resource HSL (MW) prov
 QUOTE: (3) ERCOT shall compute the ESREDP for ESRs. The ESREDP is calculated for each five-minute clock interval as a percentage and in MWs as follows:
 AFTER:  ESREDP (%) = ABS[((ATPF - AEPFR)/(ASP)) - 1.0] * 100 ESREDP (MW) = ABS(ATPF - AEPFR - ASP) Where: ATPF = Average Telemetered Power Flow = the average telemetered power flow of the Energy Storage Resource for the five-minute clock interval. ASP = Average Set Point = the time-weighted average of UDSP…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
-- **Definition #1** (cites e1): A Base Point is the MW output level for a Resource produced by the Security-Constrained Economic Dispatch (SCED) process. [e1]
-- **How it works #1** (cites e2, e6, e3): ERCOT issues a Base Point for each On-Line Generation Resource, ESR and CLR on completion of each SCED execution, and the Base Point must observe the Resource's HDL and LDL. [e2] SCED runs approximately every five minutes, or more frequently if necessary, setting Base Points and calculating LMPs together. [e6] To get there it evaluates Energy Offer Curves and other offers and bids, maximizing bid-based revenues minus offer-based costs subject to power balance, ASDCs and network constraints. [e3]
 - **How it works #2** (cites e7, e8): Base Points are delivered as Dispatch Instructions over the ICCP data link to the QSE representing each Resource. A new Base Point automatically supersedes the previous one regardless of any ramping still under way. [e7] The instruction carries the Resource identifier, the time, and the MW target, which is MW output for a Generation Resource, MW output or MW consumption for an ESR, and MW consumption for a CLR. [e7][e8]
 - **How it works #4** (cites e9, e10, e11, e12): A Resource does not simply jump to its Base Point. Each Resource follows ERCOT-issued Updated Desired Set Points (UDSPs) unless ERCOT instructs otherwise, and UDSPs do not include expected Primary Frequency Response. [e9] A UDSP is the sum of a calculated MW value for the expected output of the Resource ramping to its SCED Base Point and the Resource-specific Regulation Service instruction. [e10] Load Frequency Control sends the Resource-specific UDSP to QSEs every four seconds. [e11] When system frequency deviates 0.05 Hz or more from scheduled and a Resource is ramping to a Base Point in the direction opposite to system frequency, the ramping component of its UDSP is temporarily held constant and flagged. [e12]
-- **ERCOT context #1** (cites e5, e4): Base Points are how ERCOT deploys energy: the Protocols describe central dispatch as including deploying energy by establishing Base Points and Emergency Base Points. [e5] For Settlement, if Base Points are inconsistent with the Real-Time LMPs (ignoring the Real-Time Reliability Deployment Price Adder for Energy) averaged over the 15-minute Settlement Interval, ERCOT considers that Settlement Interval under Section 6.6.9, Emergency Operations Settlement. [e4]
 - **ERCOT context #3** (cites e13, e14, e16): Separately from SCED, ERCOT, based on system reliability needs, may issue a Dispatch Instruction requiring a Resource to move to a specific output level, called an "Emergency Base Point". [e13] The Protocols say ERCOT shall, to the fullest extent practicable, use the Day-Ahead, Adjustment Period and Real-Time processes before ordering Resources to specific output levels with Emergency Base Point instructions. [e14] After ERCOT issues a Watch for a SCED process failure, it may issue Emergency Base Points for Resources, and when it does so manually it must tell the QSE the Resource name, MW output requested, and start time and duration. [e16]
 - **ERCOT context #4** (cites e15): Emergency Base Points can trigger extra pay. Under Section 6.6.9, where a Generation Resource or ESR gets an Emergency Base Point during Emergency Conditions or Watches and is instructed to increase generation at a price below its offer curve price, ERCOT pays the QSE additional compensation for the change from the SCED Base Point immediately before, and the offer curve is capped by the Mitigated Offer Cap. [e15]
 - **ERCOT context #6** (cites e17, e23) FLAG number-not-in-quote: 8.1, 1.4: Section 8.1.1.4.1 measures how well a Resource follows its set point, not the raw Base Point. ERCOT computes the Generation Resource Energy Deployment Performance (GREDP) for each Generation Resource that is On-Line and released to SCED for Base Point Dispatch Instructions, for each five-minute clock interval. [e17] ESRs have an equivalent measure, the ESREDP. [e23]
 - **Formula #1** (cites e18): GREDP (%) = ABS[((ATG - AEPFR)/(ASP)) - 1.0] * 100, and GREDP (MW) = ABS(ATG - AEPFR - ASP). In words: ATG is the average telemetered generation of the Resource (or the aggregate of an IRR Group) for the five-minute clock interval, AEPFR is the average Estimated Primary Frequency Response, and ASP is the time-weighted average of the Resource's UDSP for the interval. [e18]
-- **Key facts #1** (cites e1): - A Base Point is the SCED output MW level for a Resource. [e1]
-- **Key facts #2** (cites e2): - Issued for each On-Line Generation Resource, ESR and CLR after each SCED execution. [e2]
-- **Key facts #3** (cites e6): - SCED runs approximately every five minutes or more often. [e6]
-- **Key facts #4** (cites e2): - Must observe the Resource's HDL and LDL. [e2]
 - **Key facts #5** (cites e7): - A new Base Point supersedes the prior one regardless of current ramping. [e7]
 - **Key facts #6** (cites e11): - UDSPs are sent to QSEs every four seconds. [e11]
 - **Key facts #7** (cites e19): - ERCOT posts, per month, the percentage of intervals in which a Generation Resource or IRR Group released to SCED had a GREDP under 2.5% and under 2.5 MW. [e19]
 - **Key facts #8** (cites e20): - ERCOT does not count five-minute intervals in which it has issued Emergency Base Points to the QSE when it calculates GREDP, CLREDP and ESREDP. [e20]
 - **Key facts #9** (cites e22): - Intervals where a Generation Resource's ASP is below the average telemetered LSL are also excluded. [e22]
 - **Key facts #10** (cites e21): - A non-IRR Generation Resource must have a GREDP less than the greater of X% or Y MW for 85% of the five-minute intervals in the month in which GREDP was calculated. [e21]
-- **Common confusion #1** (cites e3, e1): - Base Point versus offer curve: the offer curve is the input from the QSE and the Base Point is the output from SCED. [e3][e1]
 - **Common confusion #2** (cites e13, e14): - Base Point versus Emergency Base Point: the Emergency Base Point is a manual reliability instruction to move to a specific output level, outside the SCED price-setting process. [e13][e14]
 - **Common confusion #3** (cites e10): - Base Point versus UDSP: the UDSP is the ramping value toward the Base Point plus the Regulation Service instruction, so it is not the same number. [e10]
 - **Common confusion #4** (cites e18): - Deviation is measured against the average set point (ASP), not against the Base Point itself. [e18]
-- **Questions #2** (cites e2, e6): ERCOT, through SCED, after each execution, roughly every five minutes. [e2][e6]
-- **Questions #4** (cites e2): The Resource's HDL and LDL. [e2]
 - **Questions #6** (cites e10, e11): The Base Point is SCED's MW target. The UDSP is the sum of the expected output of the Resource ramping to that Base Point and its Regulation Service instruction, and LFC sends it every four seconds. [e10][e11]
 - **Questions #8** (cites e13, e14, e15): They are reliability-driven instructions to move to a specific output level, and ERCOT is to use the market processes first as far as practicable. [e13][e14] Because they can push a Resource off its offer-curve economics, Section 6.6.9 can pay additional compensation, with the offer capped at the MOC. [e15]
 - **Questions #10** (cites e16): ERCOT issues a Watch and may issue Emergency Base Points, manually if necessary. [e16]
@@ -202,6 +185,7 @@ AFTER:  ESREDP (%) = ABS[((ATPF - AEPFR)/(ASP)) - 1.0] * 100 ESREDP (MW) = ABS(A
 - **Link to lmp** (cites e4): related LMP (Locational Marginal Price): The Protocols send Settlement Intervals where Base Points are inconsistent with the Real-Time LMPs to Emergency Operations Settlement. [e4]
 - **Link to qse** (cites e7): related QSE (Qualified Scheduling Entity): Base Points are sent to the QSE representing each Resource. [e7]
 - **Link to rtm** (cites e5): related Real-Time Market (RTM): Base Points are the real-time energy dispatch signal. [e5]
+
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
 - (Say it like this) The base point is the MW target SCED gives each online resource every few minutes, derived from offers, limits and network constraints. The resource actually chases an updated desired set point that ramps toward it, and ERCOT scores how closely it tracks that set point.

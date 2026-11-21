@@ -4,13 +4,6 @@ kind concept · domain fundamentals · level 1
 
 ## Evidence (quote, where it sits in the source, and the text around it)
 
-### e1 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
-locator: Section 2.1, definition of Intermittent Renewable Resource (IRR) · text copy line 2600
-
-BEFORE: …y has submitted a Notification of Suspension of Operations or a Notification of Change of Generation Resource Designation, for which ERCOT has declined to execute a Reliability Must-Run (RMR) Agreement, and which has been decommissioned and permanently retired. Intermittent Renewable Resource (IRR) 
-QUOTE: A Generation Resource that can only produce energy from variable, uncontrollable Resources, such as wind, solar, or run-of-the-river hydroelectricity.
-AFTER:  Intermittent Renewable Resource (IRR) Group A group of two or more IRRs whose performance in responding to Security-Constrained Economic Dispatch (SCED) Dispatch Instructions will be assessed as an aggregate for Generation Resource Energy Deployment Performance (GREDP) and Set Point Deviation. An I…
-
 ### e2 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
 locator: Demand and Supply in ERCOT, D.1 Production and Curtailment · text copy line 2524 · heading above: 1.2 GW of wind, and 280 MW of combustion turbines. Since 2021, most new capacity has come
 
@@ -228,9 +221,8 @@ BEFORE: …er, as solar output has increased, it has shifted the timing of peak 
 QUOTE: In contrast, wind maintained a capacity factor of 28.4% during the same interval, consistent with previous years.
 AFTER:  Table 2: Aggregate Capacity Factor of Wind and Solar Generation, 2020-2024 Year Overall 2020 2021 2022 2023 2024 35.3% 33.4% 34.4% 32.4% 32.0% Wind Daily Peak Load Daily Net Peak Load Overall 31.8% 30.6% 31.8% 28.9% 29.3% 26.2% 25.8% 28.2% 27.1% 28.4% 25.6% 23.6% 24.2% 22.7% 22.3% Solar Daily Peak …
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
-- **Definition #1** (cites e1): Wind is an Intermittent Renewable Resource: in the Protocols, a Generation Resource that can only produce energy from variable, uncontrollable sources such as wind, solar or run-of-the-river hydroelectricity. [e1]
 - **How it works #1** (cites e7, e4, e5, e13, e32): Wind output is described with the capacity factor, the ratio of a resource's energy output to its maximum capability. [e7] The IMM reports it three ways: overall, during daily peak load intervals and during the daily net peak interval. [e4] Wind's overall capacity factor was 31.6% in 2025, with 28.5% at daily peak load and 29.3% at the daily net peak. [e5][e4] In the 2025 report's Table 2 the wind net-peak capacity factor was 26.7% in 2023 and 27.8% in 2024 (first three columns of each row, matching the 2025 text). [e13] The IMM's 2024 report had said wind maintained 28.4% at the net peak in 2024, consistent with previous years. [e32]
 - **How it works #2** (cites e4, e5, e14, e30) FLAG number-not-in-quote: 2023, 2024: Wind is less aligned with afternoon peak load than solar, but its capacity factor at the net peak, which has shifted into the evening, has held up while solar's has collapsed. [e4][e5] The IMM's 2023 report says wind's value in meeting summer peak demand is limited by its negative correlation with load in most areas (excluding the Gulf Coast), that the highest wind output occurs in non-summer months and mainly off-peak, and that wind output during high load periods will continue to be a pivotal determinant of shortages, a risk that may be mitigated by more solar and ESRs. [e14] The IMM's 2024 report describes the evening as a solar-to-wind hand-off: wind typically begins ramping up as the sun sets, but the hand-off is a reliability risk if wind output lags its forecast. [e30]
 - **How it works #3** (cites e6, e31) FLAG number-not-in-quote: 2023: ERCOT's 2023 review found that evening wind ramp-up was key to serving demand on most days, and low wind was a primary factor on the days ERCOT asked for conservation (11 days that summer). [e6][e31]
@@ -242,16 +234,8 @@ AFTER:  Table 2: Aggregate Capacity Factor of Wind and Solar Generation, 2020-20
 - **Timeline #3** (cites e15, e20): - 2023: installed wind more than 38 GW; curtailment fell from 5% of wind output in 2022 to 4.2%. [e15][e20]
 - **Timeline #4** (cites e12): - 2024: generation up 3.9%, more than 4% curtailed. [e12]
 - **Timeline #5** (cites e2, e4): - 2025: generation up 2.9%, 4.7% curtailed, net-peak capacity factor 29.3%. [e2][e4]
-- **Key facts #1** (cites e5, e4): - 2025 capacity factors: 31.6% overall, 28.5% at daily peak load, 29.3% at daily net peak (IMM). [e5][e4]
-- **Key facts #2** (cites e2): - 2025 wind generation growth was 2.9%; 4.7% of wind generation was curtailed. [e2]
-- **Key facts #3** (cites e12): - 2024 wind generation growth was 3.9% with more than 4% curtailed for congestion. [e12]
-- **Key facts #4** (cites e11) FLAG number-not-in-quote: 2025: - 2025 captured price: wind about $19 per MWh versus solar about $21 per MWh. [e11]
 - **Key facts #5** (cites e17, e16, e15): - Installed wind: more than 34 GW (end 2021), 37 GW (end 2022), 38 GW (end 2023) per the IMM. [e17][e16][e15]
-- **Key facts #6** (cites e9) FLAG number-not-in-quote: 2021: - Winter 2021: generating unit outages in the week of February 7 were primarily caused by wind turbine blade freezing and natural gas fuel supply issues. [e9]
 - **Common confusion #1** (cites e4, e10, e27): (Guidance) A high overall capacity factor does not mean high output at the system's critical hour. Look at the capacity factor at the relevant interval: peak load, net peak, or the January EEA risk. [e4][e10] An ELCC is not a capacity factor either: the CDR's own example, a wind ELCC of 25%, means wind capacity is only 25% as effective as perfect capacity in maintaining reliability. [e27]
-- **Questions #2** (cites e4): Wind held 29.3% at the daily net peak interval; solar fell to 1.7%. [e4]
-- **Questions #4** (cites e3): Wind sites are concentrated in the best resource locations, so congestion curtails output; 4.7% of 2025 wind generation was curtailed. [e3]
-- **Questions #6** (cites e8): The IMM says wind dominates IRR forecast error variance because it is more volatile and less predictable than solar. [e8]
 - **Questions #8** (cites e10) FLAG number-not-in-quote: 2027: ERCOT's January 2027 MORA says variability in wind generation is the greatest risk factor for declaring an EEA in January, with very low BESS state of charge also substantial. [e10]
 - **Questions #10** (cites e30): Solar's contribution falls to zero there and wind typically ramps up as the sun sets, so the IMM says the solar-to-wind hand-off is a reliability risk if wind lags its forecast. [e30]
 - **Questions #12** (cites e6, e24) FLAG number-not-in-quote: 2023: ERCOT's 2023 review says low wind output was a primary factor on the conservation appeal days, and on September 6, 2023 reserves were very tight due to high demand, low wind in north and west and an earlier solar ramp. [e6][e24]
@@ -265,6 +249,7 @@ AFTER:  Table 2: Aggregate Capacity Factor of Wind and Solar Generation, 2020-20
 - **Link to winter-storm-jan-2026** (cites e25) FLAG number-not-in-quote: 2026: related January 2026 Winter Storm: At the Winter Storm Fern peak of 75,922 MW, there was 6,777 MW of wind output. [e25]
 - **Link to resource-adequacy** (cites e26): related Resource Adequacy: ERCOT's CDR splits wind capacity contribution into Coastal, Panhandle and Other regions using ELCCs. [e26]
 - **Link to gtc** (cites e23): related GTC (Generic Transmission Constraint): The IMM says the export-constrained Texas Panhandle sees frequent curtailment of abundant wind generation. [e23]
+
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
 - (Say it like this) (Guidance) Wind in ERCOT is a lot of energy but not much of it lines up with the afternoon peak; it does show up in the evening, which is why its capacity factor at the net peak is higher than solar's. Its volatility, congestion-driven curtailment and forecast error are the things to model.

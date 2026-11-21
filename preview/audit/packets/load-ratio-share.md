@@ -228,9 +228,8 @@ BEFORE: …other factors that reduce transmission capability between the CRR auc
 QUOTE: Despite being approved in 2020, the project to implement NPRR 1030 has not been initiated yet.
 AFTER:  https://www.ercot.com/files/docs/2022/01/27/Revision_Requests_2026_04_14.xlsx 2025 State of the Market Report | 67 / / Transmission Congestion and CRRs based on the decrease in day-ahead transfer capability. If revenue remains insufficient after this adjustment, ERCOT allocates the remaining shortf…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
-- **Definition #1** (cites e1, e2): Load Ratio Share is the ratio of an Entity's Adjusted Metered Load (AML) to total ERCOT AML for an interval. [e1] AML is retail Load usage adjusted for UFE, Transmission Losses, Distribution Losses and DC Tie exports. [e2]
 - **How it works #1** (cites e3, e1, e4, e5, e6, e8): Each QSE has its own LRS for each 15-minute Settlement Interval. [e3] An Entity's LRS is its AML over total ERCOT AML. [e1] ERCOT uses LRS as the allocation key for costs and credits that are spread across load. [e4][e5][e6][e8]
 - **How it works #2** (cites e3, e12, e10, e11) FLAG number-not-in-quote: 6.6, 2.2, 2.4: **Variants in force.** The Protocols define the 15-minute LRS in Section 6.6.2.2 and an hourly LRS in Section 6.6.2.4. [e3][e12] The 15-minute LRS for a QSE is its AML summed over Settlement Points, floored at zero, divided by ERCOT total AML for the interval; the total is the sum across QSEs and Settlement Points (floored at zero), meaning negative AML does not reduce the total or a QSE's share. [e10][e11] The hourly LRS is the same calculation summed over the four 15-minute intervals of the Operating Hour. [e12]
 - **How it works #3** (cites e16, e17, e18, e28): **Monthly LRS is a peak-interval share.** In the CRR Balancing Account, the monthly LRS is the 15-minute LRS calculated for the peak-Load Settlement Interval during the month. [e16] The Block Load Transfer charge likewise uses a Monthly Load Ratio Share defined as the LRS for the peak-Load 15-minute Settlement Interval in the month. [e17][e18] This differs from the monthly LRS in one capital-contribution clawback provision, which defines it as the QSE's total Real-Time AML for the month divided by the total ERCOT Real-Time AML for the same month. [e28]
@@ -250,18 +249,10 @@ AFTER:  https://www.ercot.com/files/docs/2022/01/27/Revision_Requests_2026_04_14
 - **How it works #17** (cites e27): - ERS: QSEs self-providing ERS submit a proxy LRS estimating their final settlement LRS. [e27]
 - **ERCOT context #1** (cites e8, e30): Some allocations are ERCOT-wide and some are zonal. CRR auction revenue for paths wholly within one 2003 congestion management zone is credited on a zonal LRS basis, and all other CRR auction revenue goes on an ERCOT-wide LRS basis. [e8] The IMM calls this the CARD process, allocating cross-zone CRR revenue ERCOT-wide and same-zone revenue zonally, in each case by load ratio share during the month's coincident peak interval. [e30]
 - **ERCOT context #2** (cites e31, e14): The IMM says the method has drawn scrutiny as CARD payments have grown, because it can create incentives for loads to increase consumption during high demand when prices should encourage them to cut it, and that to date only DC tie operators have clearly exhibited such behavior. [e31] That concern is the stated reason for NPRR1030, which would allocate DC Tie shares on monthly load. [e14][e31]
-- **ERCOT context #3** (cites e7, e9): The Securitization Uplift Charge is allocated to QSEs representing obligated LSEs. [e7] It uses a daily QSE Non-Opted-Out LSE Load Ratio Share, the ratio of the QSE's non-opted-out LSE load to the ERCOT total of the same, per Operating Day. [e9]
-- **Key facts #1** (cites e1): - LRS = an Entity's AML divided by total ERCOT AML for the interval. [e1]
-- **Key facts #2** (cites e2): - AML already includes UFE, loss and DC Tie export adjustments. [e2]
-- **Key facts #3** (cites e5): - RUC make-whole shortfalls are uplifted to all QSEs on an LRS basis. [e5]
-- **Key facts #4** (cites e4): - Ancillary Service obligations are assigned to QSEs from LSE LRSs, including DC Tie export shares. [e4]
-- **Key facts #5** (cites e8): - CRR auction revenue is credited by zonal LRS (same-zone paths) or ERCOT-wide LRS (all others). [e8]
 - **Key facts #6** (cites e16, e18): - In CRR and BLT settlement, "monthly LRS" means the LRS in the peak-Load 15-minute interval of the month. [e16][e18]
 - **Key facts #7** (cites e14, e32): - DC Tie-specific LRS variants (NPRR1030) are pending, not implemented. [e14][e32]
 - **Say it like this #1** (cites e16): (Guidance) LRS is your share of ERCOT's metered load in an interval. Whenever ERCOT has a cost or credit to spread over load, such as uplift or auction revenue, your LRS decides your slice. For the monthly allocations, it is your share at the monthly peak interval. [e16]
 - **Common confusion #1** (cites e1, e2, e8, e16, e28): LRS is a share of adjusted metered load in an interval, not of capacity. [e1][e2] Zonal and ERCOT-wide LRS are both used, depending on the charge. [e8] "Monthly" LRS can mean the peak-interval LRS or a whole-month share depending on the provision, so read the section. [e16][e28]
-- **Questions #2** (cites e1, e3): A QSE's adjusted metered load over total ERCOT adjusted metered load, for a 15-minute interval. [e1][e3]
-- **Questions #4** (cites e5, e8): RUC make-whole uplift to QSEs, and CRR auction revenue credits to QSEs. [e5][e8]
 - **Questions #6** (cites e16, e31): When a monthly allocation is keyed to the load at the month's peak interval, a participant that raises consumption then gets a bigger share. The IMM says this incentive is real for DC tie operators, which is why NPRR1030 was proposed. [e16][e31]
 - **Questions #8** (cites e11): In the formula the sum is floored at zero (max(0,...)), so a QSE's share cannot be negative. [e11]
 - **Questions #10** (cites e26): Zonal LRS costs must use the four "Cost-Allocation Load Zones" from the 2003 market, so zonal sharing does not move when current Load Zones change. [e26]
@@ -277,3 +268,4 @@ AFTER:  https://www.ercot.com/files/docs/2022/01/27/Revision_Requests_2026_04_14
 - **Link to ers** (cites e27): related ERS (Emergency Response Service): A QSE self-providing ERS submits a proxy LRS representing its estimate of its final LRS used in ERS Settlement. [e27]
 - **Link to four-cp** (cites e16, e18): contrasts-with 4CP Transmission Charges: Monthly LRS for CRR and BLT allocations uses the peak-Load 15-minute interval of the month, a coincident-peak style share; see the 4CP topic for transmission cost allocation. [e16][e18]
 - **Link to load-zone** (cites e26): related Load Zone: Zonal LRS allocations use the four 2003-era Cost-Allocation Load Zones, not today's Load Zones. [e26]
+

@@ -15,8 +15,8 @@ AFTER:  The chart above shows spark spreads during 2012, calculated for four loc
 locator: Simon Fraser University MBA project (Powerex tolling), Chapter 2, section on generation fuel and efficiency, before 2.4.1.1 Steam Units · text copy line 1016
 
 BEFORE: …heat required to raise the temperature of water a given amount, and measured in British thermal units (BTUs) or in the metric unit Joules. For simplicity these are typically measured in millions of BTUs (MMBTU) or in Giga-joules (GJ). Conversion between these is calculated at 1 MMBtu = 1.O55O56 GJ. 
-QUOTE: The profitability of running a fuelled power plant is measured by the spark spread. This is the difference between the demand price of electricity and the cost of the fuel to produce it and may or may not include fixed and/or variable operating and maintenance costs, depending upon the context.
-AFTER:  Spark spread is a fundamental consideration when assessing tolling contract offerings. 2.4.1.1 Steam Units Steam units supply the majority of energy in North America. They are large, base-load plants that take considerable time to ramp-up for use. They are expensive to start and consequently discou…
+QUOTE: The profitability of running a fuelled power plant is measured by the spark spread. This is the difference between the demand price of electricity and the cost of the fuel to produce it and may or may not include fixed and/or variable operating and maintenance costs, depending upon the context. Spark spread is a fundamental consideration when assessing tolling contract offerings.
+AFTER:  2.4.1.1 Steam Units Steam units supply the majority of energy in North America. They are large, base-load plants that take considerable time to ramp-up for use. They are expensive to start and consequently discouraged from shutting down. These plants use boilers to turn turbines that drive an elect…
 
 ### e3 · `ref-eia-spark-spread-2013` · tier 2 · An introduction to spark spreads (Today in Energy) (2013)
 locator: EIA Today in Energy (2013), 'Spark spread calculation' · text copy line 75
@@ -193,6 +193,13 @@ BEFORE: …er plants [daily PJM western hub spark spread and dark spread] Data s
 QUOTE: The heat rate used for the dark spread was 10,500 British thermal units per kilowatthour (Btu/kWh), while the heat rate for the spark spread was 7,000 Btu/kWh.
 AFTER:  ------------------------------------------------------------------------ Higher average daily wholesale electricity prices between January and November 2025 may be improving the operational competitiveness of some natural gas- and coal-fired generators in the PJM Interconnection compared with the s…
 
+### e29 · `ref-nrf-energy-hedges` · tier 3 · Energy Hedges: What To Look For
+locator: Norton Rose Fulbright (2015), Contrasts · text copy line 127
+
+BEFORE: …ment by the hedge provider to the project or vice versa. Contrasts Backing up to see the big picture, the hedge provider is usually not taking physical delivery of any electricity. Most hedges are financial instruments. That said, we have seen a few heat rate call options involve physical delivery. 
+QUOTE: Both products provide downside protection for project revenue. With a revenue put, the project has all the upside - the assumed excess revenue from physical sales - if market prices turn in the project's favor. With a heat rate call option, the upside goes to the hedge provider.
+AFTER:  With a revenue put, there is little likelihood that the project will have to make significant payments to the hedge provider apart from the large upfront payment. With a heat rate call option, there may be ongoing payments to the hedge provider. The hedge protects the project from market deteriorat…
+
 ### e28 · `ref-eia-spark-spread-2013` · tier 2 · An introduction to spark spreads (Today in Energy) (2013)
 locator: EIA Today in Energy (2013), third paragraph · text copy line 72
 
@@ -200,7 +207,7 @@ BEFORE: …age spark spread levels across regions: New York City tends to have r
 QUOTE: Note that spark spreads are not reported if they have negative values.
 AFTER:  Spark spread calculation. Spark spreads are calculated using the following equation: Spark spread ($/MWh) = power price ($/MWh) - [natural gas price ($/mmBtu) * heat rate (mmBtu/MWh)] A key component of the spark spread equation is the heat rate, or measure of efficiency, of a generating unit. Thos…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
 - **Definition #1** (cites e1, e2): The spark spread is the difference between the price a gas-fired generator receives for its electricity and the cost of the natural gas needed to produce that electricity, and it is used as a measure of the profitability of running a gas-fired plant. [e1][e2]
 - **How it works #1** (cites e3, e4, e8): The fuel cost is the gas price multiplied by a heat rate, so the spark spread is the power price minus gas price times heat rate, in $/MWh. [e3][e4] The result is the margin a plant would earn if it bought gas, converted it to power at the stated heat rate and sold the power at the market price. [e4] The heat rate is the plant's conversion rate between gas and power. [e8][e3]
@@ -215,8 +222,8 @@ AFTER:  Spark spread calculation. Spark spreads are calculated using the followi
 - **Formula #4** (cites e8, e5): - Heat rate: the plant's conversion rate between gas and power, in MMBtu per MWh (7,000 Btu/kWh is 7.0 MMBtu/MWh). [e8][e5]
 - **Formula #5** (cites e6, e8, e7): - Net versions also subtract at least gas transportation and power transmission costs (SFU), or VOM (Fields); EIA's version subtracts neither. [e6][e8][e7]
 - **ERCOT context #1** (cites e25): ERCOT's own reference gas price, the Fuel Index Price (FIP), is the daily midpoint or average gas price at Katy Hub in $/MMBtu, so a spark spread built on ERCOT's own gas index uses Katy, not Henry Hub. [e25]
-- **ERCOT context #2** (cites e14, e13, e23): The IMM does not publish a spark spread in the reports saved here; it publishes the implied heat rate, which is the zero-spark-spread view of the same two prices. [e14][e13] For 2025 the IMM reported that the average implied heat rate was almost 28% lower than in 2024 and now in line with the marginal heat rate of ERCOT gas plants. [e23] Read with the definition above, an average implied heat rate equal to a plant's heat rate is the point where that plant's average spark spread is zero. [e13][e14]
-- **ERCOT context #3** (cites e24): In ERCOT, zero-cost wind and solar create hundreds of hours at or below $0 per MWh, where a gas plant's spark spread is negative, while shortage pricing creates hundreds of hours above gas plants' marginal cost, where spreads are wide. [e24]
+- **ERCOT context #2** (cites e14, e13, e23): The IMM does not publish a spark spread in the reports saved here; it publishes the implied heat rate, which is the zero-spark-spread view of the same two prices. [e14][e13] For 2025 the IMM reported that the average implied heat rate was almost 28% lower than in 2024 and now in line with the marginal heat rate of ERCOT gas plants. [e23] Read with the definition above, a plant whose heat rate equals the implied heat rate would roughly break even on fuel at those prices; this is reasoning from the definitions, not an IMM statement, and an annual average implied heat rate says nothing about the spread in individual hours. [e13][e14]
+- **ERCOT context #3** (cites e24): In ERCOT, zero-cost wind and solar create hundreds of hours at or below $0 per MWh, where a gas plant's spark spread is negative, while shortage pricing creates hundreds of hours above gas plants' marginal cost, where their spreads are positive. [e24]
 - **ERCOT context #4** (cites e21, e22) FLAG number-not-in-quote: 2024: ERCOT metrics also differ on variable O&M. ERCOT's peaker net margin uses a protocol-specified 10.0 MMBtu per MWh heat rate and excludes variable O&M and outage rates, while the IMM's 2024 net revenue analysis assumed 7 MMBtu per MWh for a combined cycle, 10.5 for a gas turbine, and $4 per MWh of variable O&M. [e21][e22]
 - **Key facts #1** (cites e5, e17): - EIA's benchmark heat rate for the spark spread is 7,000 Btu/kWh (a fairly new, efficient combined cycle); one kWh contains 3,412 Btu, so that unit is slightly below 50% efficient. [e5][e17]
 - **Key facts #2** (cites e27) FLAG number-not-in-quote: 2025: - EIA's December 2025 article used 7,000 Btu/kWh for the spark spread and 10,500 Btu/kWh for the dark spread. [e27]
@@ -230,7 +237,7 @@ AFTER:  Spark spread calculation. Spark spreads are calculated using the followi
 - **Questions #2** (cites e3, e20, e5): It converts the gas price into a fuel cost per MWh. A less efficient plant needs more fuel per MWh, so at the same prices it earns a smaller spark spread. [e3][e20] That is why someone marketing a unit uses its tested heat rate, while market observers use a benchmark such as EIA's 7,000 Btu/kWh. [e5]
 - **Questions #4** (cites e7, e2, e8, e21, e22): It depends who is calculating. EIA's leaves it out; the SFU thesis says it may or may not be included; the Fields toll formula subtracts it. [e7][e2][e8] In ERCOT, the PNM calculation excludes variable O&M while the IMM's net revenue analysis included $4 per MWh. [e21][e22] Always state the convention.
 - **Questions #6** (cites e13, e14): The implied heat rate is the heat rate at which the spark spread is zero, computed by dividing the power price by the gas price. [e13][e14] A high implied heat rate means even inefficient plants have positive spreads; a low one means only the most efficient are in the money. [e14]
-- **Questions #8** (cites e24): In those hours the spark spread of every gas plant is negative, because the power price is below any fuel cost. The IMM says these hours lower the implied heat rate, while shortage-priced hours raise it. [e24] So the spread is earned in fewer, higher-priced hours.
+- **Questions #8** (cites e24): In those hours the spark spread of every gas plant is negative, because the power price is below any fuel cost. The IMM says these hours lower the implied heat rate, while shortage-priced hours raise it. [e24] So, reasoning from the IMM statement, a gas plant's positive spreads are concentrated in the higher-priced hours.
 - **Questions #10** (cites e15): EIA attributes it mainly to wholesale power prices, which vary widely with demand and available supply. [e15]
 - **Scenarios #2** (cites e23, e13): - Point out that the IMM's 2025 average implied heat rate was in line with the marginal heat rate of ERCOT gas plants, so on an average-price basis the spread for a typical gas unit was close to zero (this is reasoning from the IMM figure, not an IMM statement). [e23][e13]
 - **Scenarios #3** (cites e24): - Note that the money is in the hours, not the average: zero-price hours give negative spreads and shortage hours give wide ones. [e24]
@@ -238,11 +245,12 @@ AFTER:  Spark spread calculation. Spark spreads are calculated using the followi
 - **Link to heat-rate** (cites e3, e4): prerequisite-of Heat Rate: The heat rate converts the gas price into a fuel cost per MWh, so it is a key input to the spark spread. [e3][e4]
 - **Link to implied-heat-rate** (cites e13, e14): related Implied Market Heat Rate: The market-inferred (implied) heat rate is the heat rate at which the spark spread is exactly zero. [e13][e14]
 - **Link to natural-gas-price** (cites e1): prerequisite-of Natural Gas Prices (Henry Hub): The spark spread subtracts the cost of the natural gas needed to produce the electricity from the power price. [e1]
-- **Link to heat-rate-call-option** (cites e18): related Heat Rate Call Option: A heat rate call option protects a gas project against tightening spark spreads in exchange for giving up the upside from widening spreads. [e18]
+- **Link to heat-rate-call-option** (cites e18, e29): related Heat Rate Call Option: A heat rate call option protects a gas project against tightening spark spreads in exchange for giving up the upside from widening spreads. [e18][e29]
 - **Link to tolling-agreement** (cites e2): related Tolling Agreement: The spark spread is a fundamental consideration when assessing tolling contracts. [e2]
 - **Link to peaker-net-margin** (cites e21): contrasts-with Peaker Net Margin (PNM): ERCOT's PNM uses a protocol-specified 10.0 MMBtu per MWh heat rate and excludes variable O&M, unlike a net revenue calculation. [e21]
 - **Link to merit-order** (cites e9): related Merit Order / Supply Stack: Spark spreads indicate the general operational competitiveness of gas-fired generators in meeting demand. [e9]
 - **Link to sc-ccgt-in-the-money** (cites e5, e20): used-in Scenario: Is the CCGT In the Money?: Whether a combined-cycle unit is in the money is a spark spread question at that unit's heat rate. [e5][e20]
+
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
 - (Example) Suppose (illustrative, made-up round numbers) the North Hub power price for an hour is $40/MWh and gas costs $3.00/MMBtu. At a 7.0 MMBtu/MWh heat rate the fuel cost is $21/MWh and the gross spark spread is $19/MWh. A 10.0 heat-rate peaker has a fuel cost of $30/MWh and a spark spread of $10/MWh. If you also subtract a made-up $4/MWh VOM, the combined cycle's net figure is $15/MWh. The implied heat rate for that hour is 40 / 3 = 13.3: any plant with a heat rate below 13.3 has a positive gross spread.

@@ -53,13 +53,6 @@ BEFORE: …LSE's addresses; (b) A list of Affiliates; and (c) Designation of the
 QUOTE: Each Entity operating as a Transmission Service Provider (TSP) or Distribution Service Provider (DSP) within the ERCOT Region, including Municipally Owned Utilities (MOUs) and Electric Cooperatives (ECs), shall register as a TSP or DSP, or both, as applicable, with ERCOT.
 AFTER:  To register as a TSP or DSP, an Entity must comply with the backup plan requirements in the Operating Guides, execute a Standard Form Market Participant Agreement (using the form provided in Section 22, Attachment A, Standard Form Market Participant Agreement), designate TSP or DSP Authorized Repre…
 
-### e8 · `np-16` · tier 1 · ERCOT Nodal Protocols, Section 16: Registration and Qualification of Market Participants (effective 2026-08-01)
-locator: Section 16.3.1(1)(c) · text copy line 650 · heading above: 16.3.1 Technical and Managerial Requirements for LSE Applicants
-
-BEFORE: …, registration requirements and procedures established by these Protocols, ERCOT, or other Independent Organizations, if applicable; (b) Be capable of purchasing power from Entities registered with or by ERCOT or the Independent Organizations and capable of complying with its system rules; and, (c) 
-QUOTE: Be capable of purchasing capacity and reserves, or other Ancillary Services, as may be required by ERCOT, or other Independent Organizations, to provide adequate electricity to all the applicant's Customers.
-AFTER:  16.3.1.1 Designation of a Qualified Scheduling Entity (1) Each LSE applicant within the ERCOT Region shall designate the Qualified Scheduling Entity (QSE) that will perform QSE functions per these Protocols on behalf of the LSE. Each applicant shall acknowledge that it bears sole responsibility for…
-
 ### e9 · `np-16` · tier 1 · ERCOT Nodal Protocols, Section 16: Registration and Qualification of Market Participants (effective 2026-08-01)
 locator: Section 16.3.1.1(2) · text copy line 656 · heading above: 16.3.1.1 Designation of a Qualified Scheduling Entity
 
@@ -249,10 +242,8 @@ BEFORE: …tionship to take effect on the Termination Date, or earlier if allowe
 QUOTE: If ERCOT has given Notice of an LSE's or Resource Entity's QSE's termination or suspension, that LSE or Resource Entity will be designated as a Virtual QSE for up to two Bank Business Days, during which time it must either: (a) Designate and begin operations with a new QSE; or
 AFTER:  (b) Satisfy all necessary creditworthiness requirements for QSEs as described in Section 16.2, and operate as an Emergency QSE as described below. As provided in paragraph (2) of Section 16.2.5, Suspended or Terminated Qualified Scheduling Entity - Notification to LSEs and Resource Entities Represe…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
-- **Definition #1** (cites e1): An LSE is an Entity that sells energy to Customers or Wholesale Customers and has registered as an LSE with ERCOT. [e1] LSEs include Competitive Retailers (which includes REPs), NOIEs that serve Load, and ELSEs. [e1]
-- **How it works #1** (cites e4, e8) FLAG number-not-in-quote: 16.3: Every LSE must register with ERCOT. [e4] Registration under Section 16.3 covers three groups: NOIEs that serve Load, Competitive Retailers (including REPs), and External Load Serving Entities. [e4] An applicant must be capable of purchasing capacity and reserves or other Ancillary Services required by ERCOT to provide adequate electricity to all its Customers. [e8]
 - **How it works #3** (cites e12, e5): To register, an Entity executes a Standard Form Market Participant Agreement, designates LSE Authorized Representatives, contacts and a User Security Administrator on the Form B application, and shows ERCOT it can perform the LSE functions; a REP must also demonstrate certification under P.U.C. SUBST. R. 25.107. [e12] All CRs must also complete Retail Market Testing before commencing operations with ERCOT. [e5]
 - **How it works #4** (cites e14, e15, e16, e17): Application clock: ERCOT confirms receipt within three Business Days [e14]; it tells the applicant within ten Business Days whether the application is complete [e15]; and it may reject within ten Business Days after the application is deemed complete, otherwise the application is deemed approved. [e16] A rejected applicant may challenge within ten Business Days of the rejection letter using Section 20 dispute resolution. [e17]
 - **How it works #6** (cites e3, e13, e11, e18, e19): An LSE does not interface with ERCOT alone: it must designate a QSE to perform QSE functions on its behalf, and it bears sole responsibility for selecting and maintaining that QSE. [e3][e13] ERCOT must approve the designation before a CR enrolls Customer ESI IDs. [e11] An LSE may change its QSE designation on written notice no more than once in any consecutive three days, and it must submit the updated designation no less than six days before the effective date. [e18][e19]
@@ -262,17 +253,9 @@ AFTER:  (b) Satisfy all necessary creditworthiness requirements for QSEs as desc
 - **ERCOT context #2** (cites e22, e23, e31): The LSE label is also how load shows up in market rules. ERCOT assigns Ancillary Service obligations to each QSE from the QSE's LSE Load Ratio Shares, where Load Ratio Share is an Entity's AML relative to total ERCOT AML for the interval. [e22][e23] A QSE bidding a Load Resource to buy in SCED must represent the LSE serving that Load Resource's Load. [e31]
 - **ERCOT context #3** (cites e24, e25): A Mass Transition is the market's tool when large numbers of Customers must move at once from one CR to a Provider of Last Resort or designated CR. [e24] The Mass Transition Date is Calendar Day 0 plus two days (the date requested in ERCOT's 814_03), and POLRs are responsible for ESI IDs no earlier than that date. [e25]
 - **ERCOT context #4** (cites e32): Each LSE must keep its application information current, such as addresses, affiliates and representatives. [e32]
-- **Key facts #1** (cites e1): - LSEs include CRs (which includes REPs), NOIEs that serve Load, and ELSEs. [e1]
-- **Key facts #2** (cites e4): - Each LSE must register with ERCOT. [e4]
 - **Key facts #3** (cites e14, e15, e16): - ERCOT's application clock: 3 Business Days to acknowledge, 10 to say complete, 10 after completion to reject or the application is deemed approved. [e14][e15][e16]
-- **Key facts #4** (cites e5): - All CRs must complete Retail Market Testing before commencing operations with ERCOT. [e5]
-- **Key facts #5** (cites e7, e4) FLAG number-not-in-quote: 16.4, 16.3: - TSPs and DSPs register with ERCOT as a TSP or DSP, under Section 16.4 rather than the LSE registration in Section 16.3. [e7][e4]
-- **Key facts #6** (cites e10): - Failure to cure a QSE Affiliation Breach by an LSE serving Load leads to a Mass Transition of its ESI IDs. [e10]
 - **Key facts #7** (cites e21): - A Virtual QSE is liable for Initial, Final, True-Up and Resettlement charges. [e21]
-- **Say it like this #1** (cites e1, e4, e3): (Guidance) "LSE" is the ERCOT registration label for an Entity that sells energy to Customers or Wholesale Customers: retailers, non-opt-in entities that serve Load, and external load serving entities. [e1] It has to register with ERCOT [e4] and designate a QSE. [e3]
 - **Common confusion #1** (cites e1, e2, e7, e4, e26) FLAG number-not-in-quote: 16.4, 16.3: (Guidance) LSE is broader than REP. A REP is one kind of Competitive Retailer, and Competitive Retailers are one kind of LSE. [e1][e2] TSPs and DSPs register as such with ERCOT under Section 16.4, and Section 16.3 lists NOIEs, CRs and ELSEs as the LSE types. [e7][e4] An ELSE can itself be a distribution service provider, so "DSP" and "LSE" are not exclusive labels in every case. [e26]
-- **Questions #2** (cites e1, e4): Competitive Retailers (including REPs), NOIEs that serve Load, and External Load Serving Entities. [e1][e4]
-- **Questions #4** (cites e4, e3, e11, e5): It must register with ERCOT, designate a QSE, and have ERCOT approve that designation before a CR enrolls Customer ESI IDs. [e4][e3][e11] A CR must also complete Retail Market Testing. [e5]
 - **Questions #6** (cites e3, e21): The Protocols have the QSE perform QSE functions on the LSE's behalf and accept responsibility for the LSE's transactions, so ERCOT deals with a qualified scheduling counterparty. [e3] Without one, the LSE may be made a Virtual QSE liable for settlement charges. [e21]
 - **Questions #8** (cites e20, e10): The REP must by noon on the fourth Business Day after the notice designate a new QSE or qualify as an Emergency QSE. [e20] If it does neither and does not cure the breach, ERCOT initiates a Mass Transition of its ESI IDs. [e10]
 - **Questions #10** (cites e21): The Protocols make a Virtual QSE liable for all Initial, Final and True-Up Settlements and Resettlements covering dates it represented ESI IDs, plus ERCOT's collection costs. [e21]
@@ -289,3 +272,4 @@ AFTER:  (b) Satisfy all necessary creditworthiness requirements for QSEs as desc
 - **Link to mass-transition** (cites e10): related Mass Transition: An LSE serving Load that fails to cure a QSE Affiliation Breach faces a Mass Transition of its ESI IDs. [e10]
 - **Link to load-ratio-share** (cites e22, e23): related Load Ratio Share (LRS): ERCOT assigns Ancillary Service obligations to QSEs from their LSEs' Load Ratio Shares. [e22][e23]
 - **Link to polr** (cites e24): related POLR (Provider of Last Resort): A Mass Transition moves a defaulting CR's ESI IDs to a Provider of Last Resort or designated CR. [e24]
+

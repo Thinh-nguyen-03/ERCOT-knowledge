@@ -221,7 +221,7 @@ BEFORE: …he de-energized Hub Bus. If power flow buses within a Hub Bus are de-
 QUOTE: In the Real-Time Market (RTM), an energized Electrical Bus or group of energized Electrical Buses defined as a single element in the Hub definition. The LMP of the Hub Bus is the simple average of the LMPs assigned to each energized Electrical Bus in the Hub Bus. If all Electrical Buses within a Hub Bus are de-energized, the LMP of the Hub does not include the de-energized Hub Bus.
 AFTER:  This is used solely for calculating the prices of existing Hub Buses defined in Section 3.5.2. Hub LMP (see Locational Marginal Price) I [Back to Top] Independent Market Information System Registered Entity (IMRE) A Market Participant that has signed the Standard Form Market Participant Agreement (…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
 - **Definition #1** (cites e1, e2, e9): The West 345 kV Hub (West 345) is one of the Hubs defined in Protocol Section 3.5.2, composed of a listed set of 345 kV Hub Buses. [e1] A Hub is a designated Settlement Point made of a Hub Bus or group of Hub Buses with the price methodology in its definition. [e2] ERCOT's real-time price display lists the hub Settlement Point name HB_WEST. [e9] The saved Protocol text does not itself use the name HB_WEST.
 - **How it works #1** (cites e10, e11) FLAG number-not-in-quote: 345 kV: The Hub Bus list. The Protocol table for the West 345 kV Hub starts with MULBERRY, BOMSW, OECCS and BITTCR and ends at number 17, TWINBU, so it has 17 listed Hub Buses. [e10][e11] The table gives only bus names, voltage (345 kV) and the hub label, so it does not show which buses sit in the Panhandle and which in the Permian Basin (see Open items). [e10]
@@ -243,8 +243,6 @@ AFTER:  This is used solely for calculating the prices of existing Hub Buses def
 - **Common confusion #1** (cites e3, e19, e6): - West Hub versus West Load Zone: the Hub price follows the Hub definition (equal-weighted Hub Bus average), the Load Zone price is weighted by Load, and the IMM's zone statements do not automatically apply to the Hub. [e3][e19][e6]
 - **Common confusion #2** (cites e12, e15, e9): - West Hub versus Panhandle Hub (HB_PAN on ERCOT's display): separate hubs with separate bus lists; only West is in the ERCOT Hub Average. [e12][e15][e9]
 - **Common confusion #3** (cites e27, e2): - West Hub versus Waha: Waha is a natural gas pricing hub, while the West Hub is an electricity Settlement Point. [e27][e2]
-- **Common confusion #4** (cites e5): - Hub versus generators in the Permian or Panhandle: the IMM reports large intrazonal congestion costs in the West Zone, so check node-level prices rather than assuming the hub or zone price applies to a given generator. [e5]
-- **Questions #2** (cites e6): The IMM says transmission projects have not kept pace with renewables growth in the Panhandle and rising demand in the Permian Basin, leading to higher congestion in the West. [e6]
 - **Questions #4** (cites e3, e18): As the simple average of time-weighted Hub Bus prices for each 15-minute Settlement Interval, with the -$251 floor applied. [e3][e18]
 - **Questions #6** (cites e24, e5): The IMM says the West zone includes the export-constrained Panhandle and the import-constrained Permian Basin, and that this duality explains the highest number of negative-price intervals and the greatest frequency of price spikes. [e24][e5]
 - **Questions #8** (cites e12, e14, e2): The Panhandle 345 kV Hub is a separate hub with its own 12 buses, so a position referenced to HB_WEST does not settle at the Panhandle hub price. [e12][e14][e2]
@@ -260,3 +258,4 @@ AFTER:  This is used solely for calculating the prices of existing Hub Buses def
 - **Link to permian-transmission** (cites e5) FLAG number-not-in-quote: 765 kV: related Permian Basin Load & 765 kV Plan: The IMM ties West congestion to import constraints in the Permian Basin and export constraints in the Panhandle. [e5]
 - **Link to shift-factor** (cites e3): related Shift Factors: The day-ahead hub price uses aggregated Shift Factors of the Hub Buses. [e3]
 - **Link to exchanges-ice-nodal** (cites e30, e12): related ICE & Nodal Exchange: ICE lists an ERCOT Panhandle Heat Rate 345kV Hub contract, a different hub from West 345. [e30][e12]
+

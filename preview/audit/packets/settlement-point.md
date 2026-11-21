@@ -123,27 +123,14 @@ BEFORE: …ations between a Market Participant and ERCOT. Settlement Calendar A 
 QUOTE: The time period for which markets are settled.
 AFTER:  Settlement Invoice A notice for payment or credit due rendered by ERCOT based on data contained in Settlement Statements. Settlement Meter Generation and end-use consumption meters used for allocation of ERCOT charges and wholesale and retail Settlements. +------------------------------------------…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
-- **Definition #1** (cites e1): A Settlement Point is a Resource Node, a Load Zone, or a Hub. [e1]
-- **How it works #1** (cites e3, e6): A Settlement Point Price is calculated for each Settlement Point for each Settlement Interval, using LMP data and the formulas in the day-ahead (DAM Settlement) and real-time settlement sections of the Protocols. [e3] In real time those prices are calculated for Resource Nodes, Load Zones and Hubs for each 15-minute Settlement Interval. [e6]
-- **How it works #2** (cites e2, e4, e5): The three kinds are priced by their own methods. A Resource Node is where the price for a Generation Resource or Energy Storage Resource is calculated and used in Settlement. [e2] The Real-Time Settlement Point Price for a Load Zone is based on state-estimated Load and the time-weighted average Real-Time LMPs at the buses in the zone. [e4] The Real-Time Settlement Point Price at a Hub follows the methodology in that Hub's own definition. [e5]
 - **How it works #4** (cites e7, e9, e8, e10, e11, e12): Day-ahead energy is paid to the QSE for each Settlement Point and hour at the DASPP there. [e7] Real-time Energy Imbalance Service is charged or paid at the Real-Time Settlement Point Price at each Resource Node, Load Zone and Hub, using separate quantity lists for each kind. [e9][e8] The Load Zone list, for example, starts from Self-Schedules sinking at the point, DAM Energy Bids cleared there and Energy Trades where the QSE is buyer, less the matching source-side items. [e8] A Self-Schedule's real-time congestion charge is the sink price minus the source price times the amount. [e10] A DAM PTP Obligation settles on the DASPP difference between sink and source, though a positive value sinking at a Resource Node may be reduced. [e11] Day-ahead Ancillary Service settlements do not use Settlement Point Prices: they use DAM MCPCs. [e12]
 - **How it works #5** (cites e17, e12, e6, e13): Interval basis: a Settlement Interval is the time period for which markets are settled. [e17] DAM energy uses a one-hour Settlement Interval and real time a 15-minute one. [e12][e6] Where a 15-minute Load Zone quantity varies with each SCED interval, an energy-weighted Real-Time Settlement Point Price is used instead of the simple time-weighted one. [e13]
 - **How it works #6** (cites e15, e14, e16) FLAG number-not-in-quote: 6.6: Hubs: a Hub is made of one or more Electrical Buses and can be created only by amending Section 3.5.2. [e15] The Hub LMP is the arithmetic average of the Real-Time LMPs of the Hub Buses, except for the ERCOT Hub Average 345 kV Hub. [e14] De-energized buses get an LMP by heuristic rules defined in Section 6.6.1. [e16]
-- **ERCOT context #1** (cites e6, e2, e4): Real-time energy settlements use Settlement Point Prices calculated for Resource Nodes, Load Zones and Hubs. [e6] A Resource Node price is calculated for a Generation Resource or ESR, and a Load Zone price is calculated from Load and the LMPs at the buses in the zone. [e2][e4]
-- **Key facts #1** (cites e1): - Settlement Points are Resource Nodes, Load Zones and Hubs. [e1]
-- **Key facts #2** (cites e3): - A Settlement Point Price is calculated per Settlement Interval from LMP data. [e3]
-- **Key facts #3** (cites e6): - Real-time settlement prices are calculated for a 15-minute Settlement Interval. [e6]
 - **Key facts #4** (cites e7, e9, e10, e11, e12): - Day-ahead energy payments, real-time imbalance, Self-Schedule congestion and PTP Obligations all settle on Settlement Point Prices, while day-ahead Ancillary Services use MCPCs. [e7][e9][e10][e11][e12]
-- **Key facts #5** (cites e5): - Real-Time Hub prices follow the method written in each Hub's definition in Section 3.5.2. [e5]
-- **Common confusion #1** (cites e1): - Settlement Point versus bus: only Resource Nodes, Load Zones and Hubs are Settlement Points. [e1]
-- **Common confusion #2** (cites e3): - Settlement Point Price versus LMP: the SPP is calculated from LMP data by the settlement formulas. [e3]
-- **Questions #2** (cites e1): Resource Nodes, Load Zones and Hubs. [e1]
 - **Questions #4** (cites e2, e4, e9, e8): Generator energy settles at a Resource Node price, while Load Zone prices are state-estimated-Load-weighted averages across buses in the zone. [e2][e4] Imbalance charges are computed separately at each Settlement Point. [e9][e8]
 - **Questions #6** (cites e16): ERCOT assigns it an LMP by ordered heuristic rules, starting from a predetermined LMP for that bus. [e16]
-- **Questions #8** (cites e2): Its Resource Node, which is where the Settlement Point Price for a Generation Resource or ESR is calculated and used in Settlement. [e2]
-- **Questions #10** (cites e6): For each 15-minute Settlement Interval. [e6]
 - **Link to resource-node** (cites e1, e2): composed-of Resource Node: A Resource Node is one kind of Settlement Point, where generator prices are calculated. [e1][e2]
 - **Link to load-zone** (cites e1, e4): composed-of Load Zone: A Load Zone is one kind of Settlement Point, its real-time price is based on state-estimated Load and time-weighted average Real-Time LMPs. [e1][e4]
 - **Link to trading-hub** (cites e1, e5): composed-of Trading Hubs: A Hub is one kind of Settlement Point, its real-time price follows the method in its definition. [e1][e5]
@@ -154,6 +141,7 @@ AFTER:  Settlement Invoice A notice for payment or credit due rendered by ERCOT 
 - **Link to ptp-obligation** (cites e11): used-in PTP Obligation: A PTP Obligation settles on the difference in DASPP between sink and source Settlement Points. [e11]
 - **Link to congestion** (cites e10): related Transmission Congestion: A Self-Schedule's real-time congestion charge is the difference in prices at its sink and source Settlement Points times its amount. [e10]
 - **Link to crr** (cites e11): related CRR (Congestion Revenue Right): CRR payments are based on Settlement Point price differences between sink and source. [e11]
+
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
 - (Say it like this) A settlement point is any of the three places ERCOT actually prices energy for settlement: a resource node for generators, a load zone for load, and a hub. The LMP is the underlying bus price; the settlement point price is what gets paid.

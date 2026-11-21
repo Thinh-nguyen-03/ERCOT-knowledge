@@ -67,23 +67,234 @@ BEFORE: …The date on which ERCOT declares that a Resource has completed all qu
 QUOTE: An Entity that owns or controls a Generation Resource, an Energy Storage Resource (ESR), a Settlement Only Generator (SOG), or a Load Resource and is registered with ERCOT as a Resource Entity.
 AFTER:  +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ | [NPRR995: Replace the above definition "Resource E…
 
-## Statements to check
+### e10 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.6.1(1)(a)(i)-(iii), Load Resource Participation · text copy line 4014 · heading above: 3.6.1 Load Resource Participation
 
-- **Definition #1** (cites e1, e2): A Controllable Load Resource is a Load Resource capable of controllably reducing or increasing consumption under ERCOT's Dispatch control. [e1] A Load Resource is a load capable of providing ancillary service and/or energy as demand response, registered with ERCOT. [e2]
-- **How it works #1** (cites e3, e6): The CLR participation model in SCED was implemented in 2014. It lets loads that can respond to 5-minute dispatch instructions submit bids to buy electricity at price-quantity pairs, and ERCOT can dispatch them down when the clearing price exceeds those bids. [e3] A CLR's QSE pays a Set Point Deviation Charge if the Resource does not follow its Updated Desired Set Points within defined tolerances, except when those set points violate the Resource Parameters. [e6]
-- **ERCOT context #1** (cites e4, e5, e7, e8): In 2025 all 12 registered CLRs were cryptocurrency mines. [e4] The IMM reports that average CLR load fell to 240 MW in 2025 as many mines deregistered and moved to the Emergency Reserve Service, where they now account for 64% of ERS volume. [e5] The IMM notes that RTC lets CLRs sell ancillary services in real time with less exposure to high energy prices. [e7] It supports NPRR 1188 (nodal pricing for CLRs) and NPRR 1244 (registration without primary frequency response), both scheduled for January 2027 implementation, as of its 2025 report. [e8]
-- **Key facts #1** (cites e3): - CLR participation in SCED dates from 2014. [e3]
-- **Key facts #2** (cites e4): - 12 registered CLRs in 2025, all crypto mines. [e4]
-- **Key facts #3** (cites e5): - Average CLR load: 240 MW in 2025. [e5]
-- **Key facts #4** (cites e8): - NPRR 1188 and NPRR 1244 were scheduled for January 2027. [e8]
-- **Say it like this #1** (cites e4, e5): (Guidance) A CLR is a load that ERCOT can dispatch down in SCED against its own bid curve. As of 2025 that was entirely crypto miners, and many had moved to ERS. [e4][e5]
-- **Common confusion #1** (cites e2, e1): (Guidance) A CLR is not any demand response: a Load Resource only needs to be able to provide ancillary service or energy as demand response, while a CLR is dispatchable by ERCOT. [e2][e1]
-- **Questions #2** (cites e4): In 2025, all 12 registered CLRs were cryptocurrency mines. [e4]
-- **Questions #4** (cites e5): Many mines deregistered as CLRs and moved to ERS. [e5]
-- **Questions #6** (cites e8): NPRR 1188 and NPRR 1244, scheduled by the IMM's account for January 2027. [e8]
+BEFORE: …cluded in each Hub Bus. 3.5.3.2 Calculation of Hub Prices (1) ERCOT shall calculate Hub prices for each Settlement Interval as identified in the description of each Hub. 3.6 Load Participation 3.6.1 Load Resource Participation (1) A Load Resource may participate by providing: (a) Ancillary Service: 
+QUOTE: (i) Regulation Up Service (Reg-Up) Service as a Controllable Load Resource (CLR) capable of providing Primary Frequency Response; (ii) Regulation Down Service (Reg-Down) Service as a CLR capable of providing Primary Frequency Response; (iii) Responsive Reserve (RRS) as a CLR qualified for Security-Constrained Economic Dispatch (SCED) Dispatch and capable of providing Primary Frequency Response, or as a Load Resource controlled by high-set under-frequency relay;
+AFTER:  (iv) ERCOT Contingency Reserve Service (ECRS) as a CLR qualified for SCED Dispatch and capable of providing Primary Frequency Response, or as a Load Resource that may or may not be controlled by high-set under-frequency relay; +-----------------------------------------------------------------------…
+
+### e11 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.6.1(1)(a)(v)-(vi), (1)(b) · text copy line 4029 · heading above: 3.6.1 Load Resource Participation
+
+BEFORE: …=====================================================================================================================+ +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ 
+QUOTE: (v) Non-Spinning Reserve (Non-Spin) as a CLR qualified for SCED Dispatch or as a Load Resource that is not a CLR and that is not controlled by under-frequency relay; and (vi) A Load Resource that is not a CLR cannot simultaneously provide Non-Spin and RRS in Real-Time; (b) Energy in the form of Demand response from a CLR in Real-Time via SCED;
+AFTER:  (c) Emergency Response Service (ERS) for hours in which the Load Resource has a Resource Status of OUTL; and (d) Voluntary Load response in Real-Time. (2) Except for voluntary Load response and ERS, loads participating in any ERCOT market must be registered as a Load Resource and are subject to qua…
+
+### e12 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.6.1(4)-(5), Load Resource Participation (paragraph (5) as currently in force, before the NPRR1188 replacement) · text copy line 4043 · heading above: 3.6.1 Load Resource Participation
+
+BEFORE: …s participating in any ERCOT market must be registered as a Load Resource and are subject to qualification testing administered by ERCOT. (3) All ERCOT Settlements resulting from Load Resource participation are made only with the Qualified Scheduling Entity (QSE) representing the Load Resource. (4) 
+QUOTE: A QSE representing a Load Resource and submitting a bid to buy for participation in SCED, as described in Section 6.4.3.1, RTM Energy Bids, must represent the Load Serving Entity (LSE) serving the Load of the Load Resource. If the Load Resource is an Aggregate Load Resource (ALR), the QSE must represent the LSE serving the Load of all sites within the ALR. (5) The Settlement Point for a CLR is its Load Zone Settlement Point.
+AFTER:  +-----------------------------------------------------------------------------------------------------------------------------------------------------------------+ | [NPRR1188: Replace paragraph (5) above with the following upon system implementation:] | | | | (5) The Settlement Point for a CLR tha…
+
+### e13 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.6.1(2), Load Resource Participation · text copy line 4039 · heading above: 3.6.1 Load Resource Participation
+
+BEFORE: …t a CLR cannot simultaneously provide Non-Spin and RRS in Real-Time; (b) Energy in the form of Demand response from a CLR in Real-Time via SCED; (c) Emergency Response Service (ERS) for hours in which the Load Resource has a Resource Status of OUTL; and (d) Voluntary Load response in Real-Time. (2) 
+QUOTE: Except for voluntary Load response and ERS, loads participating in any ERCOT market must be registered as a Load Resource and are subject to qualification testing administered by ERCOT.
+AFTER:  (3) All ERCOT Settlements resulting from Load Resource participation are made only with the Qualified Scheduling Entity (QSE) representing the Load Resource. (4) A QSE representing a Load Resource and submitting a bid to buy for participation in SCED, as described in Section 6.4.3.1, RTM Energy Bid…
+
+### e14 · `np-08` · tier 1 · ERCOT Nodal Protocols, Section 8: Performance Monitoring (effective 2026-11-06)
+locator: Section 8.1.1.2(10), General Capacity Testing Requirements · text copy line 260 · heading above: 8.1.1.2 General Capacity Testing Requirements
+
+BEFORE: … Any unannounced Generation Resource test VDI that ERCOT issues as a result of a QSE-requested retest will not be considered for additional compensation under Section 6.6.9. (9) All unannounced Generation Resource test VDIs will be considered as an instructed deviation for compliance purposes. (10) 
+QUOTE: Before the start of each Season, a QSE shall provide ERCOT a list identifying each Controllable Load Resource that is expected to operate in a Season as a provider of Ancillary Service. Prior to the beginning of each Season, QSEs shall identify the Controllable Load Resources to be tested during the Season and the specific week of the test if known.
+AFTER:  Any Controllable Load Resource for which the QSE desires qualification to provide Ancillary Services shall have its Net Dependable Capability verified prior to providing Ancillary Services. (11) ERCOT shall verify the telemetry attributes of each qualified Load Resource as follows: (a) ERCOT shall …
+
+### e15 · `np-08` · tier 1 · ERCOT Nodal Protocols, Section 8: Performance Monitoring (effective 2026-11-06)
+locator: Section 8.1.1.2(11)(b), General Capacity Testing Requirements · text copy line 266 · heading above: 8.1.1.2 General Capacity Testing Requirements
+
+BEFORE: …ut from the solid-state switch, whichever applies. However, if a Load Resource's performance has been verified through response to an actual event, the data from the event can be used to meet the annual telemetry verification requirement for that year and the biennial relay-testing requirement. (b) 
+QUOTE: ERCOT shall periodically validate the telemetry attributes of each Controllable Load Resource.
+AFTER:  In the case of an Aggregate Load Resource (ALR), ERCOT will follow the validation procedures described in Section 22, Attachment O, Requirements for Aggregate Load Resource Participation in the ERCOT Markets. If a QSE fails to meet its telemetry validation requirements, ERCOT may suspend the QSE an…
+
+### e16 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.5.7.3, Security Constrained Economic Dispatch (proxy bid paragraph (8), current text) · text copy line 2138 · heading above: 6.5.7.3 Security Constrained Economic Dispatch
+
+BEFORE: …petitiveness Test Definitions, over how a Resource or Split Generation Resource is offered or scheduled, shall be responsible for all offers associated with each Resource, including offers represented by a proxy Energy Offer Curve, proxy Energy Bid/Offer Curve, or proxy Ancillary Service Offer. (8) 
+QUOTE: For a CLR whose QSE has submitted an RTM Energy Bid that does not cover the full range of the Resource's available Demand response capability, consistent with the CLR's telemetered quantities, ERCOT shall create a proxy energy bid as described below:
+AFTER:  ----------------------------------------------------------------------------------------------------------------------- MW Price (per MWh) ----------------------------------------------- ----------------------------------------------------------------------- LPC to MPC minus maximum MW of RTM Energ…
+
+### e17 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.5.7.3, paragraph (10), current text · text copy line 2185
+
+BEFORE: …=================================================================+ +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ (10) 
+QUOTE: If a CLR telemeters a status of OUTL, it is not considered as dispatchable capacity by SCED. A QSE may use this function to inform ERCOT of instances when the CLR is unable to follow SCED Dispatch Instructions.
+AFTER:  Under all telemetered statuses, including OUTL, the remaining telemetry quantities submitted by the QSE shall represent the operating conditions of the CLR that can be verified by ERCOT. A QSE representing a CLR with a telemetered status of OUTL is still obligated to provide any applicable Ancillar…
+
+### e18 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.5.7.3, paragraph (10) as proposed to be replaced by NPRR1188 (pending box, upon system implementation) · text copy line 2190
+FLAG pending-box: | [NPRR1188: Replace paragraph (10) above with the following upon system implementation:] |
+BEFORE: …---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ | [NPRR1188: Replace paragraph (10) above with the following upon system implementation:] | | | | (10) 
+QUOTE: A CLR may consume energy only when dispatched by SCED to do so. A CLR may telemeter a status of OUTL only if the Resource is Off-Line and unavailable with its energy consumption at zero. In instances when the CLR is unable to follow SCED Dispatch Instructions but still consumes energy, the CLR must submit a Resource Status of ONHOLD.
+AFTER:  Under all telemetered statuses, including OUTL, the remaining telemetry quantities submitted by the QSE shall represent the operating conditions of the CLR that can be verified by ERCOT. A QSE representing a CLR with a telemetered status of OUTL or ONHOLD is still obligated to provide any applicabl…
+
+### e19 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.6.5.3(1)-(2), Controllable Load Resource Set Point Deviation Charge for Over Consumption · text copy line 6454 · heading above: 6.6.5.3 Controllable Load Resource Set Point Deviation Charge for Over Consumption
+
+BEFORE: …-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ 6.6.5.3 Controllable Load Resource Set Point Deviation Charge for Over Consumption (1) 
+QUOTE: ERCOT shall charge a QSE of a CLR, for over-consumption that exceeds the following tolerance. The tolerance is the greater of: (a) XO% of the AASP in the Settlement Interval; or (b) YO MW above the AASP in the Settlement Interval. (2) The CLR Set Point Deviation Charge for over-consumption variables XO and YO shall be subject to review and approval by the Technical Advisory Committee (TAC) and shall be posted to the ERCOT website no later than three Business Days after TAC approval.
+AFTER:  (3) The charge to each QSE for non-excused over-consumption for each CLR, during a 15-minute Settlement Interval is calculated as follows: SPDAMT _(q, r, p, i) = -1 * Min (PRZ1, RTSPP _(p, i)) * Min (1, KP1) * OCONSM _(q, r, p, i) Where: OCONSM _(q, r, p, i) = Max [0, (ATPC _(q, r, p, i) - 1⁄4* Max…
+
+### e20 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.6.5.3(3), variable PRZ1 · text copy line 6491 · heading above: 6.6.5.3 Controllable Load Resource Set Point Deviation Charge for Over Consumption
+
+BEFORE: …ettlement Point per Controllable Load Resource-The amount over-consumed by the Controllable Load Resource r represented by QSE q at Settlement Point p for the 15-minute Settlement Interval i. KP1 none The coefficient applied to the Settlement Point Price for over-consumption charge, 1.0. PRZ1 $/MWh 
+QUOTE: The price to use for the charge calculation when RTSPP is greater than -$20, -$20/MWh.
+AFTER:  KLR1 none The percentage tolerance for over-consumption of a Controllable Load Resource, XO%. QLR1 MW The MW tolerance for over-consumption of a Controllable Load Resource, YO MW. q none A QSE. p none A Settlement Point. r none A Controllable Load Resource. i none A 15-minute Settlement Interval. y…
+
+### e21 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.6.5.3.1(1)-(2), Controllable Load Resource Set Point Deviation Charge for Under Consumption · text copy line 6510 · heading above: 6.6.5.3.1 Controllable Load Resource Set Point Deviation Charge for Under Consumption
+
+BEFORE: …----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 6.6.5.3.1 Controllable Load Resource Set Point Deviation Charge for Under Consumption (1) 
+QUOTE: ERCOT shall charge a QSE for a CLR, for under-consumption if the average telemetered power consumption is below than the lesser of: (a) [100-XU]% of the AASP in the Settlement Interval; or (b) The AASP in the Settlement Interval minus YU MW.
+AFTER:  (2) The CLR Set Point Deviation Charge for under-consumption variables XU and YU shall be subject to review and approval by TAC and shall be posted to the ERCOT website no later than three Business Days after TAC approval. (3) The charge to each QSE for non-excused under-consumption of each CLR, du…
+
+### e22 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.6.5.3.1(3), variable PRZ2 · text copy line 6545 · heading above: 6.6.5.3.1 Controllable Load Resource Set Point Deviation Charge for Under Consumption
+
+BEFORE: …5-minute Settlement Interval i. UCONSM _(q, r, p, i) MWh Under-Consumption Volumes per QSE per Settlement Point per Controllable Load Resource-The amount under-consumed by the Controllable Load Resource r represented by QSE q at Settlement Point p for the 15-minute Settlement Interval i. PRZ2 $/MWh 
+QUOTE: The price to use for the Set Point Deviation Charge for under-consumption calculation when RTSPP is less than $20/MWh, $20/MWh.
+AFTER:  KLR2 The percentage tolerance for under-consumption of a Controllable Load Resource, XU%. QLR2 MW The MW tolerance for under-consumption of a Controllable Load Resource, YU MW. q none A QSE. p none A Settlement Point. r none A Controllable Load Resource. i none A 15-minute Settlement Interval. y no…
+
+### e23 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.6.5.1(2), variable AASP · text copy line 6163 · heading above: 6.6.5.1 Resource Set Point Deviation Charge
+
+BEFORE: …------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- AASP _(q, r, p, i) MW 
+QUOTE: Average Aggregated Set Point per QSE per Settlement Point per Resource-The average of the Average Five Minute Clock Interval Set Point (AVGSP5M) of Resource r represented by QSE q at Settlement Point p, for the 15-minute Settlement Interval i.
+AFTER:  Where for a Combined Cycle Train, AASP is calculated for the Combined Cycle Train considering all UDSPs to any Combined Cycle Generation Resources within the Combined Cycle Train. AVGSP5M _(q, r, p, i, y) MW Average Five Minute Clock Interval Set Point per QSE per Settlement Point per Resource -The…
+
+### e24 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
+locator: Section 2.1, definition of Aggregate Load Resource (ALR) · text copy line 2507
+
+BEFORE: …than one MW that chooses to register as a Generation Resource to participate in the ERCOT markets. Load Resource A Load capable of providing Ancillary Service to the ERCOT System and/or energy in the form of Demand response and registered with ERCOT as a Load Resource. Aggregate Load Resource (ALR) 
+QUOTE: A Controllable Load Resource (CLR) that is an aggregation of individual metered sites, each of which has less than ten MW of Demand response capability and all of which are located within a single Load Zone.
+AFTER:  ----------------------------------------------------------------------------------------------------- [NPRR1188: Delete the above definition "Aggregate Load Resource (ALR)" upon system implementation.] -------------------------------------------------------------------------------------------------…
+
+### e25 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
+locator: Section 2.1, definition of Provisional Controllable Load Resource (PCLR) · text copy line 2530
+
+BEFORE: …======================================+ +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ Provisional Controllable Load Resource (PCLR) 
+QUOTE: A Controllable Load Resource (CLR) that is required to maintain registration and qualification as a CLR until defined exit or de-registration criteria are met.
+AFTER:  Settlement Only Generator (SOG) A generator that is settled for exported energy only, but may not participate in the Ancillary Services market, Reliability Unit Commitment (RUC), Security-Constrained Economic Dispatch (SCED), or make energy offers. These units are comprised of: --------------------…
+
+### e26 · `np-16` · tier 1 · ERCOT Nodal Protocols, Section 16: Registration and Qualification of Market Participants (effective 2026-08-01)
+locator: Section 16.5.5(2), Provisional Controllable Load Resources (PCLRs) · text copy line 883 · heading above: 16.5.5 Provisional Controllable Load Resources (PCLRs)
+
+BEFORE: …tity election to change the Large Load's registration status. After the end date, the PCLR's existing registration shall remain unchanged until the Resource Entity elects to modify the Resource registration for the Large Load. A PCLR may convert to another type of Load Resource or to firm Load. (2) 
+QUOTE: A Resource Entity that desires to de-register a Large Load as a PCLR prior to its end date shall provide ERCOT no less than 120 days' written notice. Upon de-registration, the Large Load shall be limited to the maximum Low Power Consumption (LPC) amounts identified in the Batch Zero Interconnection Study and documented in the Load Commissioning Plan (LCP) until new interconnection studies have been performed according to applicable ERCOT Protocols and Guides.
+AFTER:  (3) If ownership of a Large Load registered as a PCLR is transferred to another Entity, the acquiring Entity shall be bound by all obligations applicable to the PCLR under these Protocols and Guides. The acquiring Entity shall notify ERCOT and submit an updated, signed, and notarized Part A or Part…
+
+### e27 · `ercot-nprr1325-puct-report` · tier 1 · NPRR1325 PUCT Report (Batch Zero large load interconnection study) (2026-06-18)
+locator: NPRR1325 PUCT Report, Effective Date · text copy line 14
+
+BEFORE: …------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+ | Effective Date | | 
+QUOTE: Upon implementation of Planning Guide Revision Request (PGRR) 145, Batch Zero Process for Large Load Interconnections
+AFTER:  | | +----------------------------------------------------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------…
+
+### e28 · `ercot-nprr1325-puct-report` · tier 1 · NPRR1325 PUCT Report (Batch Zero large load interconnection study) (2026-06-18)
+locator: NPRR1325 PUCT Report, PUCT Decision · text copy line 94
+
+BEFORE: …-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+ | PUCT Decision | | 
+QUOTE: On 6/18/26, the PUCT approved NPRR1325 and accompanying ERCOT Market Impact Statement as presented in Project No. 54445, Review of Protocols Adopted by the Independent Organization.
+AFTER:  | | +----------------------------------------------------------------+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------…
+
+### e29 · `ercot-nprr1325-puct-report` · tier 1 · NPRR1325 PUCT Report (Batch Zero large load interconnection study) (2026-06-18)
+locator: NPRR1325 PUCT Report, proposed Section 4.4.9.4.4, Adjusted Bid Caps, paragraph (1)(c) · text copy line 897 · heading above: 4.4.9.4.4 Adjusted Bid Caps
+
+BEFORE: …pare the transmission constraint list generated in paragraph (a) above from the previous SCED run against all active constraints in the current run. (c) For any active transmission constraint in the current SCED which matches the list identified in paragraph (a) above, all PCLRs will be considered: 
+QUOTE: (i) Where a PCLR has a Shift Factor equal to or less than -2% on the list identified in paragraph (c) above, the constraint contribution shall be calculated by multiplying the maximum Shadow Price of that constraint by the Shift Factor of the PCLR for each constraint identified in paragraph (c) above. (A) If no such constraints exist, or where the PCLR has a Shift Factor greater than -2%, no Adjusted Bid Cap (ABC) will be applied. (B) Otherwise, the Adjusted Bid Cap (ABC) used in Step 2 of the two-step SCED process as described in paragraph (14)(b)(iv) of Section 6.5.7.3 will be set at the lowest absolute value of these constraint contributions plus the System Lambda of the first step in the two-step SCED process described in paragraph (14)(a) of Section 6.5.7.3 minus $0.01/MWh.
+AFTER:  6.5.7.3 Security Constrained Economic Dispatch (1) The SCED process is designed to simultaneously manage energy, Ancillary Services, the system power balance and network congestion through Resource Base Points, Ancillary Service awards, and the calculation of LMPs and Real-Time MCPCs approximately …
+
+### e30 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: Section on Controllable Load Resources, page 29 · text copy line 3374
+
+BEFORE: … B>> $"> '(">> (#>>)(">> (>)(#>> *(> +,.L012P456 $>> #"> #>> "> > $>$B $>$C $>$" Year-to-year variation in CLR bid prices reflects the changing economic value of their output, including fluctuations in cryptocurrency prices and the associated break-even cost of electricity consumption. For example, 
+QUOTE: despite a 41% decrease in average load from CLRs, the volume of CLR bids priced above $100/MWh increased by over 19%.
+AFTER:  Note that the volume of base points shown in Figure 22 is significantly lower than the average load values shown in Figure 21. That's because, prior to the go-live of RTC, CLRs commonly operated outside of SCED and without a bid curve under certain conditions, such as when they carried AS on all or…
+
+### e31 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: Section on Controllable Load Resources, page 29 · text copy line 3377
+
+BEFORE: …eak-even cost of electricity consumption. For example, despite a 41% decrease in average load from CLRs, the volume of CLR bids priced above $100/MWh increased by over 19%. Note that the volume of base points shown in Figure 22 is significantly lower than the average load values shown in Figure 21. 
+QUOTE: That's because, prior to the go-live of RTC, CLRs commonly operated outside of SCED and without a bid curve under certain conditions, such as when they carried AS on all or most of their online capacity.
+AFTER:  The decrease in CLR activity is inconsistent with recent policy changes that have increased incentives for loads to register as CLRs. Two notable developments are the resolution of a patent dispute over exclusive rights to operate CLRs and the implementation of RTC. The patent 2025 State of the Mar…
+
+### e32 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: Section on Controllable Load Resources, pages 29-30 · text copy line 3390
+
+BEFORE: …ith recent policy changes that have increased incentives for loads to register as CLRs. Two notable developments are the resolution of a patent dispute over exclusive rights to operate CLRs and the implementation of RTC. The patent 2025 State of the Market Report | 29 / / Demand and Supply in ERCOT 
+QUOTE: dispute was resolved in April 2025, allowing cryptocurrency facilities to license the relevant patents at no cost and register and operate as CLRs.
+AFTER:  RTC allows CLRs to sell ancillary services in real-time with less risk of exposure to excessively high energy prices. Before RTC, if a CLR received an AS award in the day-ahead market, it had to run in real-time according to the volume of the award. With RTC, CLRs can sell out of their day-ahead po…
+
+### e33 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: Section on Controllable Load Resources, page 30 · text copy line 3393
+
+BEFORE: …29 / / Demand and Supply in ERCOT dispute was resolved in April 2025, allowing cryptocurrency facilities to license the relevant patents at no cost and register and operate as CLRs. RTC allows CLRs to sell ancillary services in real-time with less risk of exposure to excessively high energy prices. 
+QUOTE: Before RTC, if a CLR received an AS award in the day-ahead market, it had to run in real-time according to the volume of the award. With RTC, CLRs can sell out of their day-ahead positions or forego the day-ahead market entirely and only sell AS in real-time when energy prices are favorable.
+AFTER:  Another major improvement is NPRR 1188, which the PUCT approved in November 2024 and13 which will introduce nodal pricing for CLRs.14 Currently, CLRs are dispatched and settled using zonal prices. This creates an economic challenge for CLRs at nodes with structurally low energy costs, such as those…
+
+### e34 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: Section on Controllable Load Resources, page 30 · text copy line 3398
+
+BEFORE: …ard. With RTC, CLRs can sell out of their day-ahead positions or forego the day-ahead market entirely and only sell AS in real-time when energy prices are favorable. Another major improvement is NPRR 1188, which the PUCT approved in November 2024 and13 which will introduce nodal pricing for CLRs.14 
+QUOTE: Currently, CLRs are dispatched and settled using zonal prices. This creates an economic challenge for CLRs at nodes with structurally low energy costs, such as those in the Panhandle near large volumes of renewable generation, where the zonal price is often higher than the cost of serving their load.
+AFTER:  A related rule change also approved in November 2024,15 NPRR 1244, will allow loads to register as CLRs even if they cannot provide primary frequency response (PFR). This change expands participation to wholesale consumers that SCED can dispatch, improving reliability and real-time price formation …
+
+### e35 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: Section on CDR deficiencies, Excludes most demand response resources · text copy line 7956
+
+BEFORE: …oduce an incomplete or misleading view of future supply and demand conditions and affect how market participants plan. The key deficiencies are as follows: Excludes most demand response resources: The CDR report does not account for demand response capacity outside Emergency Response Service (ERS). 
+QUOTE: According to the January 2026 Annual Report on ERCOT Demand Response, 10,550 MW of Non-Controllable Load Resources (NCLRs) and 915 MW of Controllable Load Resources (CLRs) are available
+AFTER: .68 Combined, these resources total 11.5 GW of flexible load that reliably reduces consumption during periods of system strain. These are the conditions the CDR is intended to evaluate. During these events, these load resources would likely reduce to a fraction of their peak demand. Unreliable beyon…
+
+### e36 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: Section on Controllable Load Resources, page 30 · text copy line 3407
+
+BEFORE: …atch, improving reliability and real-time price formation even if those loads cannot provide the full suite of ancillary services. Taken together, these market design improvements substantially increase the amount of load that can operate as CLRs and reduce the risks inherent in operating as a CLR. 
+QUOTE: We recommend that ERCOT continue to incentivize loads to register as CLRs rather than participate in out of market programs like ERS or engage in self-curtailment outside of SCED.
+AFTER:  2. Self-curtailment In addition to participating in demand response programs in which ERCOT directly instructs them to reduce consumption, loads also engage in self-curtailment outside the formal wholesale market process. Self-curtailment takes two primary forms. The first is price response, in whi…
+
+### e37 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: Section on Controllable Load Resources, footnotes 14-15 (page 30) · text copy line 3427
+
+BEFORE: …s are examples of price responsive load in ERCOT, but we have limited visibility into price response outside of SCED. For example, how much cryptocurrency demand is economical at different electricity prices? What we do know is that 13 14 15 NPRR 1188: https://www.ercot.com/mktrules/issues/NPRR1188 
+QUOTE: Although NPRR 1188 was approved in November 2024, its implementation is not complete yet. According to ERCOT project management, NPRR 1188 will be implemented in January 2027:
+AFTER:  https://www.ercot.com/files/docs/2022/01/27/Revision_Requests_2026_04_14.xlsx NPRR 1244 is slated for implementation at the same time as NPRR 1188 in January 2027: https://www.ercot.com/mktrules/issues/NPRR1244 30 | 2025 State of the Market Report / / Demand and Supply in ERCOT cryptocurrency mines…
+
+## Statements to check (new or changed since the last audit)
+
+- **How it works #1** (cites e3, e11, e12, e24): The CLR participation model in SCED was implemented in 2014. It lets loads that can respond to 5-minute dispatch instructions submit bids to buy electricity at price-quantity pairs, and ERCOT can dispatch them down when the clearing price exceeds those bids. [e3] The Protocols let a Load Resource provide energy as demand response from a CLR in Real-Time via SCED. [e11] A QSE that submits a bid to buy for a Load Resource must represent the LSE serving that Load; for an Aggregate Load Resource it must represent the LSE serving all sites in the ALR. [e12] An ALR is a CLR that aggregates individual metered sites, each with less than ten MW of demand response capability, all in a single Load Zone. [e24]
+- **How it works #2** (cites e10, e11, e13): Ancillary services: a Load Resource can provide Reg-Up and Reg-Down as a CLR capable of Primary Frequency Response, and RRS as a CLR qualified for SCED dispatch and capable of Primary Frequency Response (or as a Load Resource controlled by high-set under-frequency relay). [e10] Non-Spin can be provided as a CLR qualified for SCED Dispatch, and a Load Resource that is not a CLR cannot provide Non-Spin and RRS simultaneously in Real-Time. [e11] Except for voluntary Load response and ERS, loads participating in any ERCOT market must be registered as a Load Resource and pass ERCOT qualification testing. [e13]
+- **How it works #3** (cites e14, e15, e16, e17): Before each Season a QSE must give ERCOT a list of each CLR expected to provide Ancillary Service that Season and identify which will be tested. [e14] ERCOT periodically validates each CLR's telemetry attributes. [e15] If a CLR's bid does not cover its full demand-response range, ERCOT creates a proxy energy bid. [e16] In current text, a CLR that telemeters status OUTL is not dispatchable capacity for SCED, and a QSE may use that to tell ERCOT when the CLR cannot follow Dispatch Instructions. [e17]
+- **Formula #1** (cites e19, e23, e20): Set Point Deviation Charge, over-consumption. ERCOT charges the QSE of a CLR for over-consumption above a tolerance equal to the greater of XO% of the AASP or YO MW above the AASP in the Settlement Interval. [e19] AASP is the average of the five-minute set points the Resource should have followed within the 15-minute Settlement Interval. [e23] XO and YO are set by TAC review and approval and posted to the ERCOT website no later than three Business Days after TAC approval. [e19] The charge price uses the Real-Time Settlement Point Price together with a fixed reference price, PRZ1, defined as -$20/MWh for when RTSPP is greater than -$20, applied to the over-consumption volume. [e20] The saved text gives the formula as an equation with variables; the sign convention should be read from the Protocol itself.
+- **Formula #2** (cites e21, e22): Set Point Deviation Charge, under-consumption. ERCOT charges when average telemetered consumption is below the lesser of [100-XU]% of the AASP or the AASP minus YU MW. [e21] The price variable PRZ2 is $20/MWh, used when RTSPP is less than $20/MWh, applied to the under-consumption volume. [e22]
+- **Formula #3** (cites e6): The charge applies to a CLR's QSE unless the set points violate the Resource Parameters. [e6]
+- **ERCOT context #1** (cites e4, e5, e30, e31): In 2025 all 12 registered CLRs were cryptocurrency mines. [e4] The IMM reports that average CLR load fell to 240 MW in 2025 as many mines deregistered and moved to the Emergency Reserve Service, where they now account for 64% of ERS volume. [e5] The IMM also says that despite a 41% decrease in average CLR load, CLR bids priced above $100/MWh increased by over 19%. [e30] The IMM says CLR base points shown in its Figure 22 are much lower than average load because, before RTC go-live, CLRs commonly operated outside SCED and without a bid curve under certain conditions, such as carrying AS on all or most of their online capacity. [e31]
+- **ERCOT context #2** (cites e32, e33, e7): The IMM calls the 2025 decline inconsistent with recent policy changes that raised incentives to register as CLRs. [e32] One was the resolution in April 2025 of a patent dispute, which the IMM says allowed cryptocurrency facilities to license the relevant patents at no cost and register as CLRs. [e32] The other is RTC: the IMM says that before RTC a CLR with a day-ahead AS award had to run in real time according to the award, while with RTC it can sell out of day-ahead positions or skip the day-ahead market and sell AS only in real time when energy prices are favorable. [e33][e7]
+- **ERCOT context #3** (cites e34, e12, e8, e37, e18) FLAG number-not-in-quote: 3.6, 2025: The IMM says that currently CLRs are dispatched and settled at zonal prices, which creates an economic challenge for CLRs at structurally low-cost nodes such as the Panhandle. [e34] Protocol Section 3.6.1(5) currently gives the CLR its Load Zone Settlement Point. [e12] The IMM supports NPRR 1188 (nodal pricing for CLRs) and NPRR 1244 (registration without primary frequency response), both scheduled for January 2027 implementation per its 2025 report. [e8] A footnote in that report says NPRR 1188 was approved in November 2024 but not yet implemented, and that ERCOT project management expects implementation in January 2027. [e37] NPRR1188 is a pending replacement in the Protocol text: it would let a CLR consume only when dispatched by SCED, restrict OUTL to a CLR that is Off-Line with zero consumption, and require status ONHOLD when the CLR cannot follow Dispatch but still consumes. [e18]
+- **ERCOT context #4** (cites e25, e26, e28, e27, e29): Provisional CLRs (PCLRs) are a newer category. The Protocols define a PCLR as a CLR required to maintain registration and qualification as a CLR until defined exit or de-registration criteria are met. [e25] A Resource Entity wishing to de-register a Large Load as a PCLR before its end date must give ERCOT at least 120 days' written notice, and the Large Load is then limited to the maximum LPC identified in the Batch Zero Interconnection Study and documented in the Load Commissioning Plan until new studies are done. [e26] The PUCT approved NPRR1325 on 6/18/26, effective upon implementation of PGRR 145 (Batch Zero Process). [e28][e27] The approved NPRR1325 text adds an Adjusted Bid Cap for PCLRs in Step 2 of two-step SCED: where a PCLR has a Shift Factor of -2% or lower on a matching constraint, the cap is the lowest absolute constraint contribution plus the first-step System Lambda minus $0.01/MWh, and otherwise no cap applies. [e29]
+- **ERCOT context #5** (cites e35): At the system level, the IMM says that per the January 2026 Annual Report on ERCOT Demand Response, 915 MW of CLRs and 10,550 MW of NCLRs are available. [e35]
+- **Key facts #4** (cites e20, e22): - Reference prices in the CLR Set Point Deviation Charge: PRZ1 is -$20/MWh and PRZ2 is $20/MWh. [e20][e22]
+- **Key facts #5** (cites e8) FLAG number-not-in-quote: 2025: - NPRR 1188 and NPRR 1244 were scheduled for January 2027 per the IMM's 2025 report. [e8]
+- **Key facts #6** (cites e26): - A PCLR must give 120 days' notice to de-register early. [e26]
+- **Say it like this #1** (cites e4, e5, e34): (Guidance) A CLR is a load that ERCOT can dispatch down in SCED against its own bid curve. As of 2025 that was entirely crypto miners, and many had moved to ERS. [e4][e5] Zonal settlement is the IMM's stated reason nodal pricing matters for CLRs. [e34]
+- **Common confusion #1** (cites e2, e1, e24, e25): (Guidance) A CLR is not any demand response: a Load Resource only needs to be able to provide ancillary service or energy as demand response, while a CLR is dispatchable by ERCOT. [e2][e1] A PCLR and an ALR are both kinds of CLR, but they are different things: an ALR is an aggregation of small sites, while a PCLR is a Large Load held to CLR registration. [e24][e25]
+- **Questions #4** (cites e5, e32, e31): Many mines deregistered as CLRs and moved to ERS. [e5] The IMM calls this inconsistent with policy changes meant to encourage registration, and notes that CLRs had previously often operated outside SCED. [e32][e31]
+- **Questions #8** (cites e34): The IMM says the zonal price there is often higher than the cost of serving the load, because the area has large volumes of renewable generation. A CLR dispatched and settled at the zonal price bears that mismatch. [e34]
+- **Questions #10** (cites e6, e19, e21, e20, e22): Its QSE pays a Set Point Deviation Charge if it does not follow the set points within tolerance, unless the set points violate Resource Parameters. [e6] Over-consumption above the tolerance and under-consumption below it are each charged, using the reference prices PRZ1 (-$20/MWh) and PRZ2 ($20/MWh) with the RTSPP. [e19][e21][e20][e22]
+- **Questions #12** (cites e33): Before RTC a CLR with a day-ahead award had to run in real time per the award; with RTC it can sell out of day-ahead positions or sell AS only in real time. [e33]
+- **Scenarios #2** (cites e5): - In 2025 many mines deregistered as CLRs and joined ERS, where they now account for 64% of ERS volume. [e5]
+- **Scenarios #3** (cites e36): - The IMM says it recommends that ERCOT continue to incentivize loads to register as CLRs rather than participate in out of market programs like ERS or engage in self-curtailment outside of SCED. [e36]
 - **Link to resource-types** (cites e1, e2): is-a Resource Types (Generation, Load, ESR, SOG): A CLR is a Load Resource, one of the Resource types. [e1][e2]
 - **Link to sced** (cites e3): used-in SCED (Security-Constrained Economic Dispatch): CLRs can submit bids to buy electricity in SCED, and ERCOT can dispatch them down when the clearing price exceeds those bids. [e3]
 - **Link to ers** (cites e5): contrasts-with ERS (Emergency Response Service): Many crypto mines left CLR status for ERS in 2025 (the IMM's report calls it the "Emergency Reserve Service"). [e5]
 - **Link to rtc-b** (cites e7): related RTC+B (Real-Time Co-optimization + Batteries): RTC lets CLRs sell ancillary services in real time with less exposure to high energy prices. [e7]
 - **Link to large-flexible-load** (cites e4, e5): related Large Flexible Load (LFL): Large price-responsive loads such as crypto mines are the CLR population in the IMM's account. [e4][e5]
 - **Link to resource-entity** (cites e9): related Resource Entity: A Load Resource is owned or controlled by a Resource Entity. [e9]
+- **Link to ancillary-services** (cites e10, e11): used-in Ancillary Services (AS): A CLR can provide Reg-Up, Reg-Down, RRS and Non-Spin when qualified. [e10][e11]
+- **Link to settlement-point** (cites e12): related Settlement Point: The Protocols currently give a CLR its Load Zone Settlement Point. [e12]
+- **Link to large-load-interconnection** (cites e25, e26): related Large Load Interconnection & Batch Zero: A Provisional CLR is a Large Load registered as a CLR under the Batch Zero process. [e25][e26]
+- **Link to nprr** (cites e28, e27): related NPRR (Nodal Protocol Revision Request): NPRR1325 was approved by the PUCT on 6/18/26, effective upon PGRR145 implementation. [e28][e27]
+

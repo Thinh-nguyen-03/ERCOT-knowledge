@@ -228,7 +228,7 @@ BEFORE: …dequacy reports. ERCOT must publish a resource adequacy report by Dec
 QUOTE: ERCOT may publish other resource adequacy reports or forecasts as it deems appropriate.
 AFTER:  ERCOT must prescribe requirements for generation entities and transmission service providers (TSPs) to report their plans for adding new facilities, upgrading existing facilities, and mothballing or retiring existing facilities. ERCOT also must prescribe requirements for load entities to report the…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
 - **Definition #1** (cites e2, e3): The MORA, or Monthly Outlook for Resource Adequacy, is an ERCOT report that evaluates resource adequacy for the upcoming assessment month. It does so in two ways: a probabilistic estimate of the risk of emergency conditions on the monthly peak load day, and a deterministic scenario for typical grid conditions. [e2][e3]
 - **How it works #1** (cites e1, e31, e2, e6): ERCOT targets MORA releases for the first Friday of each month (or the next business day if the Friday is a holiday), and each MORA is released two months before its reporting month. [e1] ERCOT may post revised versions if material data errors are found, and resource data come from a mid-month RIOO snapshot. [e1][e31] The probabilistic side gives the chances, across a range of hours, that ERCOT may need to issue an Energy Emergency Alert or begin controlled outages. [e2] ERCOT runs its Probabilistic Reserve Risk Model, a Monte Carlo model, to generate 10,000 outcomes for Capacity Available for Operating Reserves (CAFOR). [e6]
@@ -241,7 +241,6 @@ AFTER:  ERCOT must prescribe requirements for generation entities and transmissi
 - **ERCOT context #1** (cites e4, e23, e22, e30) FLAG number-not-in-quote: 2027: In the January 2027 MORA, the hour with the highest EEA risk is HE 8:00 a.m. CST, at a 3.20% probability that ERCOT would need to declare an EEA. [e4] ERCOT treats an EEA probability at or below 10% as low reserve adequacy risk for the monthly peak load day, and the January figures are well below the 10% mark. [e23][e22] The report cites wind variability as the greatest EEA risk factor in January, with low battery state of charge a substantial one. [e30]
 - **ERCOT context #2** (cites e24, e25, e26, e27, e7) FLAG number-not-in-quote: 2027, 417 MW: Deterministic scenario, January 2027, HE 8:00 a.m.: load 78,912 MW (50th percentile) and expected thermal outages of 8,105 MW (417 MW planned, 7,688 MW unplanned). [e24][e25] Dispatchable resources are 88,322 MW, of which energy storage is 13,275 MW. [e25] Total available resources under normal conditions are 97,116 MW; emergency resources available before an EEA are 3,680 MW (ERS 2,401 MW, distribution voltage reduction 1,279 MW). [e26] Total emergency resources are 6,279 MW, and CAFOR is 21,884 MW under normal and 24,483 MW under emergency conditions. [e27] The reserve margin is 44.9%. [e7]
 - **ERCOT context #3** (cites e28, e29): Crypto-mining self-curtailment is not counted as an emergency resource in the scenario because it is not dispatchable or controllable. [e28] The model does not capture emergency risk from transmission constraints limiting imports into Far West Texas. [e29]
-- **Key facts #1** (cites e1): - Release is targeted for the first Friday of each month, for the reporting month two months ahead. [e1]
 - **Key facts #2** (cites e2, e3): - Two approaches: probabilistic EEA and controlled-outage risk, plus a deterministic typical-conditions scenario. [e2][e3]
 - **Key facts #3** (cites e5): - CAFOR thresholds: 2,500 MW for EEA risk and 1,500 MW for controlled outage risk. [e5]
 - **Key facts #4** (cites e6): - Model: PRRM, with 10,000 Monte Carlo outcomes. [e6]
@@ -250,7 +249,6 @@ AFTER:  ERCOT must prescribe requirements for generation entities and transmissi
 - **Key facts #7** (cites e4, e7) FLAG number-not-in-quote: 2027: - January 2027 MORA: highest EEA risk hour is HE 8:00 a.m. CST at 3.20%; deterministic reserve margin 44.9%. [e4][e7]
 - **Common confusion #1** (cites e9, e5, e11): (Guidance) The MORA's probability is not a prediction of a specific outcome. [e9] Also, the MORA's CAFOR thresholds are intended as proxies for the PRC thresholds, not the same measure. [e5] The MORA is also not the CDR: the CDR gives a deterministic multi-year view with scenarios. [e11]
 - **Common confusion #2** (cites e7): (Guidance) The MORA reserve margin (44.9%) is a different quantity from a CDR Planning Reserve Margin: its formula nets emergency resources out of peak demand. [e7]
-- **Questions #2** (cites e1): It is released two months before the month it covers. [e1]
 - **Questions #4** (cites e5): They indicate the risk that an EEA and controlled outages may be triggered, and they are proxies for the PRC thresholds of the same sizes. [e5]
 - **Questions #6** (cites e5, e12, e13): PRC is a real-time capability measure for fast-responding Resources, and ERCOT believes the CAFOR levels are appropriate indicators of emergency risk given the uncertainty in predicting conditions months in advance. The Protocols' EEA triggers are written on PRC. [e5][e12][e13]
 - **Questions #8** (cites e22, e4, e30) FLAG number-not-in-quote: 2027: The January 2027 MORA reports the highest reserve shortage risk in the morning hours, with HE 8:00 a.m. highest at 3.20%. [e22][e4] It cites wind variability as the greatest risk factor. [e30]
@@ -267,6 +265,7 @@ AFTER:  ERCOT must prescribe requirements for generation entities and transmissi
 - **Link to ffss** (cites e15): related FFSS (Firm Fuel Supply Service): The PRRM models an outage reduction for units in the Firm Fuel Supply Service program. [e15]
 - **Link to large-flexible-load** (cites e17, e16): related Large Flexible Load (LFL): The MORA forecasts Large Flexible Load consumption and price-responsive demand reduction as model inputs. [e17][e16]
 - **Link to winter-storm-uri** (cites e15) FLAG number-not-in-quote: 2021: related Winter Storm Uri (Feb 2021): The extreme-weather outage distribution in the PRRM is scaled up to the maximum amount observed during Winter Storm Uri. [e15]
+
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
 - (Say it like this) (Guidance) The MORA is ERCOT's monthly look-ahead for resource adequacy. It gives hour-by-hour probabilities of an emergency alert on the peak day and a deterministic reserve margin for typical conditions.

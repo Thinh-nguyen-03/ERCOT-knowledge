@@ -123,35 +123,224 @@ BEFORE: …ntaining system reliability. 2025 State of the Market Report | 101 / 
 QUOTE: In July 2024, the Public Utility Commission of Texas approved an updated CONE value of 140 per kW-year for planning purposes in ERCOT, reflecting more recent cost estimates for new entry, while retaining the legacy $105 per kW-year value for the peaker net margin threshold.
 AFTER:  In parallel with ERCOT's 2026 Reliability Standard Assessment (RSA), ERCOT is conducting an additional review of CONE to align cost assumptions with potential reliability pathways. Although CONE is not a direct input to the RSA, ERCOT has noted that certain recommendations for achieving the standar…
 
-### e18 · `np-04` · tier 1 · ERCOT Nodal Protocols, Section 4: Day-Ahead Operations (effective 2026-08-01)
-locator: Section 4.4.11, note under the parameter table · text copy line 2248 · heading above: 4.4.11 Day-Ahead and Real-Time System-Wide Offer Caps
+### e19 · `pura-12` · tier 1 · Texas Utilities Code Chapter 12, Organization of Commission
+locator: PURA §12.051, Appointment; Term · text copy line 24
 
-BEFORE: …------------------------------------------------------------------------------------------------------------------------------------------- ------------- --------------------------------------------- ECAP $/MWh 2,000 HCAP - DAM (DASWCAP) $/MWh 5,000 HCAP - RTM (RTSWCAP) $/MWh 2,000 LCAP $/MWh 2,000 
-QUOTE: PNM threshold $/MW-year 315,000 * The current value for the parameters referenced in this table above will be recommended by TAC and approved by the ERCOT Board.
-AFTER:  ERCOT shall update parameter values on the first day of the month following ERCOT Board approval unless otherwise directed by the ERCOT Board. ERCOT shall provide a Market Notice prior to implementation of a revised parameter value. ------------------------------------------------------------------…
+BEFORE: …S., Ch. 596 (S.B. 619), Sec. 3.07, eff. June 10, 2019.Acts 2021, 87th Leg., R.S., Ch. 850 (S.B. 713), Sec. 1.06, eff. June 16, 2021.Acts 2023, 88th Leg., R.S., Ch. 410 (H.B. 1500), Sec. 1, eff. September 1, 2023. SUBCHAPTER B. COMMISSION APPOINTMENT AND FUNCTIONS Sec. 12.051. APPOINTMENT; TERM. (a) 
+QUOTE: The commission is composed of five commissioners appointed by the governor with the advice and consent of the senate.(b) An appointment to the commission shall be made without regard to the race, color, disability, sex, religion, age, or national origin of the appointee.(c) Commissioners serve staggered, six-year terms.
+AFTER:  Acts 1997, 75th Leg., ch. 166, Sec. 1, eff. Sept. 1, 1997.Amended by: Acts 2021, 87th Leg., R.S., Ch. 1052 (S.B. 2154), Sec. 1, eff. June 18, 2021. Sec. 12.052. PRESIDING OFFICER. (a) The governor shall designate a commissioner as the presiding officer.(b) The presiding officer serves in that capac…
 
-## Statements to check
+### e20 · `pura-12` · tier 1 · Texas Utilities Code Chapter 12, Organization of Commission
+locator: PURA §12.052, Presiding Officer · text copy line 27
 
-- **Definition #1** (cites e1, e2): The PUCT is the state commission that certifies ERCOT as the independent organization for the ERCOT power region. It is also the regulator to which ERCOT is directly responsible and accountable. [e1][e2]
-- **How it works #1** (cites e2): PURA gives the PUCT the job of adopting and enforcing rules on the reliability of the regional network and on accounting for electricity production and delivery. It may delegate those responsibilities to an independent organization, and that organization (ERCOT) is accountable to the commission. [e2]
-- **How it works #2** (cites e3, e4): The commission has complete authority to oversee and investigate ERCOT's finances, budget and operations. If ERCOT does not perform its duties, the commission can act against it, up to decertification or an administrative penalty. [e3] ERCOT must submit its entire proposed annual budget, and the commission may approve, disapprove or modify any item. [e4]
-- **How it works #3** (cites e5, e6): The PUCT also controls ERCOT's rulebook. New or revised protocols cannot take effect until the commission approves a market impact statement for them, and the commission may approve, reject or remand protocols the ERCOT board adopts. [e5] When the PUCT directs ERCOT to take an official action, it cannot use a verbal directive. It must act through a contested case, a rulemaking, or a memorandum or written order adopted by majority vote. [e6]
-- **How it works #4** (cites e8, e9, e10): On market conduct, PURA directs the commission to monitor market power. When it finds abuse, it must require mitigation, using tools that include ordering new transmission, seeking penalties, ordering disgorgement of excess revenue, or acting against a certificate or registration. [e8] The Independent Market Monitor works under the commission's supervision, but the commission keeps all enforcement authority. [e9] The Protocols state that the PUCT, assisted by the IMM, has ultimate responsibility for market oversight in ERCOT. [e10]
-- **ERCOT context #1** (cites e11, e15, e16, e12, e14) FLAG number-not-in-quote: 25.509, 2026, 25.508, $140: Several of the parameters that analysts model come from PUCT rules, not from ERCOT. Rule 25.509 states a high system-wide offer cap (HCAP) of $5,000 per MWh and a low cap (LCAP) of $2,000 per MWh for energy. [e11] The Protocol parameter table, however, lists the day-ahead cap at $5,000 and the real-time cap at $2,000 per MWh, and ERCOT's September 2026 review says the SWCAP fell to $2,000 from $5,000 after RTC go-live on 12/5/2025. [e15][e16] The rule text in the saved sources has not been updated to show a separate real-time value (see the offer-cap topic). Rule 25.508 sets the ERCOT reliability standard, which includes a frequency criterion of 0.1 loss of load expectation. [e12] In July 2024 the PUCT approved a planning CONE of $140 per kW-year, while keeping the legacy $105 per kW-year value for the peaker net margin threshold. [e14]
-- **ERCOT context #2** (cites e13, e17, e7, e6): The 2023 Sunset bill, HB 1500, changed the PUCT's own footing. It changed the date in the Sunset provision to September 1, 2029, replacing 2023. [e13][e17] It also added PURA §39.1514, which limits how the commission can direct ERCOT. [e7][e6]
-- **Key facts #1** (cites e1, e3): - The PUCT certifies the independent organization and can decertify it or penalize it. [e1][e3]
-- **Key facts #2** (cites e4): - The PUCT reviews ERCOT's budget annually or biennially and can modify any item. [e4]
-- **Key facts #3** (cites e5): - Protocol changes need PUCT approval of a market impact statement before they take effect. [e5]
-- **Key facts #4** (cites e6, e7) FLAG number-not-in-quote: 2023: - Since HB 1500 (2023), PUCT directives to ERCOT to take an official action must come through a contested case, a rulemaking, or a written order or memo adopted by majority vote. [e6][e7]
-- **Key facts #5** (cites e11, e15, e16) FLAG number-not-in-quote: 25.509: - Offer caps: rule 25.509 states HCAP $5,000/MWh and LCAP $2,000/MWh for energy. [e11] The Protocol table lists $5,000 day-ahead and $2,000 real-time, and the SWCAP was reduced to $2,000 after RTC go-live on 12/5/2025. [e15][e16]
-- **Key facts #6** (cites e12): - Reliability standard frequency criterion: no more than one loss of load event per ten years on average (0.1 LOLE). [e12]
-- **Key facts #7** (cites e13, e17): - Sunset: HB 1500 sets September 1, 2029 (previously 2023) as the date in the Sunset provision on which the commission is abolished unless it is continued in existence. [e13][e17]
-- **Common confusion #1** (cites e10, e9, e5): (Guidance) The PUCT is not FERC. In ERCOT, the PUCT, assisted by the IMM, holds ultimate responsibility for market oversight. [e10] The IMM has no enforcement authority; enforcement stays with the commission. [e9] Also, ERCOT protocol changes approved by the ERCOT board are not final until the PUCT approves them. [e5]
-- **Questions #2** (cites e6, e7): Not by a verbal directive. Under §39.1514, added by HB 1500, an official-action directive must come through a contested case, a rulemaking, or a memorandum or written order adopted by majority vote. [e6][e7]
-- **Questions #4** (cites e11, e18, e5, e15, e16) FLAG number-not-in-quote: 25.509: Both have a hand. PUCT rule 25.509 states a high cap of $5,000 per MWh and a low cap of $2,000 per MWh for energy offers. [e11] The current values in the Protocol parameter table are recommended by TAC and approved by the ERCOT Board, and Protocol changes need PUCT approval of a market impact statement. [e18][e5] Since RTC go-live the Protocol table lists a $5,000 day-ahead cap and a $2,000 real-time cap, and ERCOT says the SWCAP was reduced to $2,000 from $5,000 after 12/5/2025. [e15][e16]
-- **Questions #6** (cites e8): It must require reasonable mitigation. Its tools include ordering new transmission or distribution facilities, injunctions or civil penalties, administrative penalties, disgorgement of excess revenue, and suspending, revoking or amending a certificate or registration. [e8]
-- **Questions #8** (cites e14) FLAG number-not-in-quote: $140: In July 2024 it approved $140 per kW-year for planning, and it kept the legacy $105 per kW-year for the peaker net margin threshold. [e14]
-- **Scenarios #2** (cites e5): - Not on board approval. New or revised protocols cannot take effect until the PUCT approves a market impact statement, and the PUCT can approve, reject or remand the change. [e5]
+BEFORE: …ability, sex, religion, age, or national origin of the appointee.(c) Commissioners serve staggered, six-year terms. Acts 1997, 75th Leg., ch. 166, Sec. 1, eff. Sept. 1, 1997.Amended by: Acts 2021, 87th Leg., R.S., Ch. 1052 (S.B. 2154), Sec. 1, eff. June 18, 2021. Sec. 12.052. PRESIDING OFFICER. (a) 
+QUOTE: The governor shall designate a commissioner as the presiding officer.(b) The presiding officer serves in that capacity at the pleasure of the governor.
+AFTER:  Acts 1997, 75th Leg., ch. 166, Sec. 1, eff. Sept. 1, 1997. Sec. 12.0521. PRESIDING OFFICER QUALIFICATIONS. The commissioner designated as the presiding officer must be a resident of this state. Added by Acts 2021, 87th Leg., R.S., Ch. 425 (S.B. 2), Sec. 1, eff. June 8, 2021. Sec. 12.053. MEMBERSHIP…
+
+### e21 · `pura-12` · tier 1 · Texas Utilities Code Chapter 12, Organization of Commission
+locator: PURA §12.053(a)-(a-1), Membership Qualifications · text copy line 33
+
+BEFORE: …, ch. 166, Sec. 1, eff. Sept. 1, 1997. Sec. 12.0521. PRESIDING OFFICER QUALIFICATIONS. The commissioner designated as the presiding officer must be a resident of this state. Added by Acts 2021, 87th Leg., R.S., Ch. 425 (S.B. 2), Sec. 1, eff. June 8, 2021. Sec. 12.053. MEMBERSHIP QUALIFICATIONS. (a) 
+QUOTE: To be eligible for appointment, a commissioner must:(1) be a qualified voter;(2) be a citizen of the United States;(3) be a resident of this state;(4) be a competent and experienced administrator; and(5) have at least five years of experience:(A) in the administration of business or government; or(B) as a practicing attorney, certified public accountant, or professional engineer.(a-1) At least two commissioners must be well informed and qualified in the field of public utilities and utility regulation.
+AFTER: (b) A person is not eligible for appointment as a commissioner if the person:(1) at any time during the one year preceding appointment:(A) personally served as an officer, director, owner, employee, partner, or legal representative of a public utility regulated by the commission or of an affiliate o…
+
+### e22 · `pura-12` · tier 1 · Texas Utilities Code Chapter 12, Organization of Commission
+locator: PURA §12.053(b)(1)(A)-(B) · text copy line 33
+
+BEFORE: … least five years of experience:(A) in the administration of business or government; or(B) as a practicing attorney, certified public accountant, or professional engineer.(a-1) At least two commissioners must be well informed and qualified in the field of public utilities and utility regulation.(b) 
+QUOTE: A person is not eligible for appointment as a commissioner if the person:(1) at any time during the one year preceding appointment:(A) personally served as an officer, director, owner, employee, partner, or legal representative of a public utility regulated by the commission or of an affiliate or direct competitor of a public utility regulated by the commission;(B) owned or controlled, directly or indirectly, more than a 10 percent interest in a public utility regulated by the commission or in an affiliate or direct competitor of a public utility regulated by the commission;
+AFTER:  or(C) served as an executive officer listed under Section 1, Article IV, Texas Constitution, other than the secretary of state, or a member of the legislature; or(2) is not qualified to serve under Section 12.151, 12.152, or 12.153. Acts 1997, 75th Leg., ch. 166, Sec. 1, eff. Sept. 1, 1997.Amended …
+
+### e23 · `pura-12` · tier 1 · Texas Utilities Code Chapter 12, Organization of Commission
+locator: PURA §12.005, Application of Sunset Act (current text) · text copy line 20
+
+BEFORE: …ENTATION BY THE ATTORNEY GENERAL. The attorney general shall represent the commission in a matter before a state court, a court of the United States, or a federal public utility regulatory commission. Acts 1997, 75th Leg., ch. 166, Sec. 1, eff. Sept. 1, 1997. Sec. 12.005. APPLICATION OF SUNSET ACT. 
+QUOTE: The Public Utility Commission of Texas is subject to Chapter 325, Government Code (Texas Sunset Act). Unless continued in existence as provided by that chapter or by Chapter 39, the commission is abolished September 1, 2029.
+AFTER:  Acts 1997, 75th Leg., ch. 166, Sec. 1, eff. Sept. 1, 1997. Amended by Acts 1999, 76th Leg., ch. 405, Sec. 2, eff. Sept. 1, 1999; Acts 1999, 76th Leg., ch. 1212, Sec. 1, eff. Sept. 1, 1999.Amended by: Acts 2005, 79th Leg., Ch. 797 (S.B. 408), Sec. 1, eff. September 1, 2005.Acts 2011, 82nd Leg., R.S.…
+
+### e24 · `pura-14` · tier 1 · Texas Utilities Code Chapter 14, Jurisdiction and Powers of Commission
+locator: PURA §14.001-14.002 · text copy line 8
+
+BEFORE: …UTILITIES CODE TITLE 2. PUBLIC UTILITY REGULATORY ACT SUBTITLE A. PROVISIONS APPLICABLE TO ALL UTILITIES CHAPTER 14. JURISDICTION AND POWERS OF COMMISSION AND OTHER REGULATORY AUTHORITIES SUBCHAPTER A. GENERAL POWERS OF COMMISSION Sec. 14.001. POWER TO REGULATE AND SUPERVISE. 
+QUOTE: The commission has the general power to regulate and supervise the business of each public utility within its jurisdiction and to do anything specifically designated or implied by this title that is necessary and convenient to the exercise of that power and jurisdiction.
+AFTER:  Acts 1997, 75th Leg., ch. 166, Sec. 1, eff. Sept. 1, 1997. Sec. 14.002. RULES. The commission shall adopt and enforce rules reasonably required in the exercise of its powers and jurisdiction. Acts 1997, 75th Leg., ch. 166, Sec. 1, eff. Sept. 1, 1997. Sec. 14.0025. NEGOTIATED RULEMAKING AND ALTERNAT…
+
+### e25 · `pura-15` · tier 1 · Texas Utilities Code Chapter 15, Judicial Review, Enforcement, and Penalties
+locator: PURA §15.023(a)-(b), Administrative Penalty · text copy line 27
+
+BEFORE: …mmission;(2) fails to comply with a subpoena or subpoena duces tecum; or(3) refuses to testify about a matter on which the person may be lawfully interrogated. Acts 1997, 75th Leg., ch. 166, Sec. 1, eff. Sept. 1, 1997. Sec. 15.023. ADMINISTRATIVE PENALTY, DISGORGEMENT ORDER, OR MITIGATION PLAN. (a) 
+QUOTE: The commission may impose an administrative penalty against a person regulated under this title who violates this title or a rule or order adopted under this title.(b) The penalty for a violation may be in an amount not to exceed $25,000. Each day a violation continues or occurs is a separate violation for purposes of imposing a penalty.
+AFTER: (b-1) Notwithstanding Subsection (b), the penalty for a violation of a voluntary mitigation plan entered into under Subsection (f) or of a provision of Section 35.0021 or 38.075 may be in an amount not to exceed $1,000,000 for a violation. Each day a violation continues or occurs is a separate viola…
+
+### e26 · `pura-15` · tier 1 · Texas Utilities Code Chapter 15, Judicial Review, Enforcement, and Penalties
+locator: PURA §15.023(b-1) · text copy line 27
+
+BEFORE: …enalty against a person regulated under this title who violates this title or a rule or order adopted under this title.(b) The penalty for a violation may be in an amount not to exceed $25,000. Each day a violation continues or occurs is a separate violation for purposes of imposing a penalty.(b-1) 
+QUOTE: Notwithstanding Subsection (b), the penalty for a violation of a voluntary mitigation plan entered into under Subsection (f) or of a provision of Section 35.0021 or 38.075 may be in an amount not to exceed $1,000,000 for a violation.
+AFTER:  Each day a violation continues or occurs is a separate violation for purposes of imposing a penalty.(b-2) Notwithstanding Subsection (b), the penalty for a violation of Section 39.360 in which a business entity fails to submit all required information to or knowingly submits false information to an…
+
+### e27 · `pura-15` · tier 1 · Texas Utilities Code Chapter 15, Judicial Review, Enforcement, and Penalties
+locator: PURA §15.001, Right to Judicial Review · text copy line 8
+
+BEFORE: …UTILITIES CODE TITLE 2. PUBLIC UTILITY REGULATORY ACT SUBTITLE A. PROVISIONS APPLICABLE TO ALL UTILITIES CHAPTER 15. JUDICIAL REVIEW, ENFORCEMENT, AND PENALTIES SUBCHAPTER A. JUDICIAL REVIEW Sec. 15.001. RIGHT TO JUDICIAL REVIEW. 
+QUOTE: Any party to a proceeding before the commission is entitled to judicial review under the substantial evidence rule.
+AFTER:  Acts 1997, 75th Leg., ch. 166, Sec. 1, eff. Sept. 1, 1997. Sec. 15.002. COMMISSION AS DEFENDANT. The commission must be a defendant in a proceeding for judicial review. Acts 1997, 75th Leg., ch. 166, Sec. 1, eff. Sept. 1, 1997. Sec. 15.003. COSTS AND ATTORNEY'S FEES. (a) A party represented by coun…
+
+### e28 · `hb1500-88r` · tier 1 · HB 1500 (88th Legislature, 2023), enrolled: PUCT/ERCOT sunset bill
+locator: HB 1500 (2023), SECTION 17, new PURA §39.1514(a-1) (clean .alt.txt copy) · alt copy line 445 · heading above: 39.151 to take an official action. The commission may direct the
+
+BEFORE: …directive to direct an independent organization certified under Section 39.151 to take an official action. The commission may direct the organization to take an official action only through: (1) a contested case; (2) rulemaking; or (3) a memorandum or written order adopted by a majority vote. (a-1) 
+QUOTE: The commission must use a contested case or rulemaking process to direct an independent organization certified under Section 39.151 to take an official action that will create a new cost or fee, increase an existing cost or fee, or impose significant operational obligations on an entity.
+AFTER:  (b) The commission by rule shall: (1) specify the types of directives the commission may issue through a contested case, rulemaking, memorandum, or written order, in accordance with Subsection (a-1); (2) require that proposed commission directives be included as an item on a commission meeting agen…
+
+### e29 · `hb1500-88r` · tier 1 · HB 1500 (88th Legislature, 2023), enrolled: PUCT/ERCOT sunset bill
+locator: HB 1500 (2023), SECTION 17, new PURA §39.1514(c) (clean .alt.txt copy) · alt copy line 462 · heading above: 39.151 to take an official action. The commission may direct the
+
+BEFORE: …quire the commission to allow members of the public an opportunity to comment on the agenda item; and (3) establish a reasonable timeline for the release before a commission meeting of discussion materials relevant to any proposed commission directives included as agenda items for that meeting. (c) 
+QUOTE: Notwithstanding another provision of this section, the commission may use a verbal directive to direct an independent organization to take an official action in an urgent or emergency situation that poses an imminent threat to public health, public safety, or the reliability of the power grid. If the commission uses a verbal directive, the commission shall provide written documentation of the directive to the independent organization not later than 72 hours after the urgent or emergency situation ends.
+AFTER:  The commission by rule shall establish criteria for determining whether a situation is urgent or an emergency under this subsection and establish a process by which the commission will issue directives to the independent organization under this subsection. SECTION 18. Section 39.1515, Utilities Cod…
+
+### e30 · `pura-39` · tier 1 · Texas Utilities Code (PURA) Chapter 39, Restructuring of Electric Utility Industry
+locator: PURA §39.151(g-1), ERCOT governing body · text copy line 77
+
+BEFORE: …ttee.(g-1) The bylaws of an independent organization certified for the ERCOT power region must be approved by and reflect the input of the commission. The bylaws must require that every member of the governing body be a resident of this state and must prohibit a legislator from serving as a member. 
+QUOTE: The governing body must be composed of:(1) two members of the commission as ex officio nonvoting members:(A) one of whom must be the presiding officer of the commission; and(B) one of whom must be designated by the presiding officer of the commission to serve a one-year term on the governing body;
+AFTER: (2) the counsellor as an ex officio voting member representing residential and small commercial consumer interests;(3) the chief executive officer of the independent organization as an ex officio nonvoting member; and(4) eight members selected by the selection committee under Section 39.1513 with ex…
+
+### e31 · `hb1500-88r` · tier 1 · HB 1500 (88th Legislature, 2023), enrolled: PUCT/ERCOT sunset bill
+locator: HB 1500 (2023), SECTION 15, amending PURA §39.151(g-1) (clean .alt.txt copy; struck text in [~~ ~~]) · alt copy line 369 · heading above: 39.052 may treat transmission costs in excess of transmission
+
+BEFORE: …~~ ~~protocols~~] must be approved by [~~the commission~~] and [~~must~~] reflect the input of the commission. The bylaws must require that every member of the governing body be a resident of this state and must prohibit a legislator from serving as a member. The governing body must be composed of: 
+QUOTE: (1) two members [~~the chairman~~] of the commission as [~~an~~] ex officio nonvoting members:
+AFTER:  (A) one of whom must be the presiding officer of the commission; and (B) one of whom must be designated by the presiding officer of the commission to serve a one-year term on the governing body [~~member~~]; (2) the counsellor as an ex officio voting member representing residential and small commer…
+
+### e32 · `puct-permian-order-2` · tier 1 · PUCT Project 55718, Second Order Approving the Reliability Plan for the Permian Basin Region (765 kV) (2025-04-24)
+locator: PUCT Project No. 55718, Second Order Approving the Reliability Plan for the Permian Basin Region (2025), p. 1 · text copy line 35
+
+BEFORE: … (PURA)1 required the Commission to direct ERCOT to develop a reliability plan under PURA § 39.166 for the Permian Basin region. ERCOT filed the Permian Basin Reliability Plan Study on July 25,2024 (Permian Basin Reliability Plan) with an addendum on September 11, 2024 (Reliability Plan Addendum).2 
+QUOTE: On October 7,2024, the Commission issued the Order Approving the Reliability Plan for the Permian Basin Region, but reserved a decision on which voltage level should be approved for the transmission import paths until no later than May 1, 2025.
+AFTER: 3 The Commission approves the three 765-kilovolt (kV) import paths identified in Table 7.5 ofthe Permian Basin Reliability Plan. The Commission's prior authorization to prepare certificate of convenience and necessity applications for the 345-kV import paths identified in Table 1 of the Reliability …
+
+### e33 · `puct-permian-order-2` · tier 1 · PUCT Project 55718, Second Order Approving the Reliability Plan for the Permian Basin Region (765 kV) (2025-04-24)
+locator: PUCT Project No. 55718, Second Order, p. 1 · text copy line 41
+
+BEFORE: …m on September 11, 2024 (Reliability Plan Addendum).2 On October 7,2024, the Commission issued the Order Approving the Reliability Plan for the Permian Basin Region, but reserved a decision on which voltage level should be approved for the transmission import paths until no later than May 1, 2025.3 
+QUOTE: The Commission approves the three 765-kilovolt (kV) import paths identified in Table 7.5 ofthe Permian Basin Reliability Plan.
+AFTER:  The Commission's prior authorization to prepare certificate of convenience and necessity applications for the 345-kV import paths identified in Table 1 of the Reliability Plan Addendum expires the date of this Order. ' Tex. Util. Code §§ 11.001-66.1016. 2 ERCOT Permian Basin Reliability Plan Study …
+
+### e34 · `puct-59772-order` · tier 1 · PUCT Project 59772, Order Granting ERCOT's Load Forecast Adjustment Request (June 2026)
+locator: PUCT Project No. 59772, Order Granting Adjustment Request (2026), p. 2 · text copy line 100
+
+BEFORE: …ng the Option B Methodology. The Option B Methodology relies on objective credible independent information. as required by § 25.370(e)(2)(b). by using load information developed through the ERCOT stakeholder process in PORR 145 and has been subject to significant stakeholder consultation and input. 
+QUOTE: In accordance with 16 TAC § 25.370(e)(2)(B) the Commission approves ERCOTs request to adjust the LTLF using the Option B methodology.
+AFTER:  The Commission orders ERCOT to provide notice in this Proiect to the Commission ofthe load forecast MW values based on the above adjustments. once those MW values are known. ' ERCOT Market Notice. M-B051826-0 I Proposal to Adiust 2026 L.ong-lerin Load Forecast (May I 8,2026) (available at. hllps .'…
+
+### e35 · `puct-59142-good-cause-order` · tier 1 · PUCT Project 59142, Order Granting Good Cause Exceptions (Batch Zero deadlines) (2026-08-20)
+locator: PUCT Project No. 59142, Order Granting Good Cause Exceptions (filed 2026-08-20), p. 2 · text copy line 104
+
+BEFORE: …data. ERCOT intends to complete its review ofthe remaining dynamic data submissions and notify ILLEs of any deficiencies as soon as possible. ERCOT further requests ILLEs be permitted to cure any deficiencies within 24 days ofnotification, which is the same cure period provided under § 9.2.2(3)(a). 
+QUOTE: Good cause exists to allow ERCOT to complete the verification and audit and report the results to the Commission before continuing the Batch Zero interconnection process.
+AFTER:  In accordance with 16 TAC § 25.3(b), the Commission grants ERCOT a good cause exception from the requirements of 16 TAC § 25.361(b)(16) that ERCOT (1) classify Large Loads by the August 7,2026 deadline in accordance with ERCOT Planning Guide §§ 9.3.1(2)(a); and (2) include in the August 1 and Novem…
+
+### e36 · `puct-59142-good-cause-order` · tier 1 · PUCT Project 59142, Order Granting Good Cause Exceptions (Batch Zero deadlines) (2026-08-20)
+locator: PUCT Project No. 59142, Order Granting Good Cause Exceptions, p. 1 · text copy line 24
+
+BEFORE: …PUBL~ 4 ~* TEX>~ Filing Receipt Filed Date - 2026-08-20 12:29:32 PM Control Number - 59142 Item Number - 53 PROJECT NO. 59142 REVIEW OF ERCOT'S INTERCONNECTION PROCESSES FOR LARGE LOADS § § § PUBLIC UTILITY COMMISSION OF TEXAS ORDER GRANTING GOOD CAUSE EXCEPTIONS 
+QUOTE: On August 3, 2026, Governor Greg Abbott issued a letter directing the Public Utility Commission of Texas (Commission) and Electric Reliability Council of Texas, Inc. (ERCOT) to conduct "a comprehensive verification and audit of all data centers advancing through ERCOT's interconnection process."
+AFTER: 1 The Governor further directed that this verification and audit be completed before any additional data centers are approved to move forward. In response, ERCOT intends to temporarily pause its transitional Batch Zero interconnection study of loads that are 75 MW or more (Large Loads), including da…
+
+### e37 · `puct-51812-lcap-order` · tier 1 · PUCT Project 51812, Order Reinstating Low System-Wide Offer Cap (2021-03-03)
+locator: PUCT Project No. 51812, Order Reinstating Low System-Wide Offer Cap (March 3, 2021), p. 1 · text copy line 39
+
+BEFORE: …ERCOT) declared its highest state of emergency, an Energy Emergency Alert Level 3 (EEA3), due to exceptionally high electric demand exceeding limited supply. ERCOT remained in EEA3 through 9AM on February 19, 2021. Recovery from the emergency conditions is continuing as market activities stabilize. 
+QUOTE: On February 16, 2021, in response to significant market anomalies, the Commission found good cause to suspend, and issued an order suspending, the use of the low system-wide offer cap (LCAP) until after the Commission's next regularly scheduled open meeting.
+AFTER:  The Commission ordered ERCOT to use the high system-wide offer cap (HCAP) until the LCAP is reinstated. When administering the scarcity-pricing mechanism, the system-wide offer cap is set equal to the HCAP at the beginning of each calendar year and maintained at this level until the peaker net marg…
+
+### e38 · `puct-51812-lcap-order` · tier 1 · PUCT Project 51812, Order Reinstating Low System-Wide Offer Cap (2021-03-03)
+locator: PUCT Project No. 51812, Order Reinstating Low System-Wide Offer Cap, p. 2 · text copy line 84
+
+BEFORE: …rice index has now stabilized and the LCAP is not expected to exceed the HCAP going forward. Therefore, good cause no longer exists to suspend the use of the LCAP and reinstatement of the LCAP mechanism is necessary to protect consumers, as originally contemplated by the scarcity pricing mechanism. 
+QUOTE: Accordingly, the Commission terminates the suspension of the use of the LCAP and orders ERCOT to resume application of the LCAP when administering the scarcity pricing mechanism as provided by Commission rule. Signed at Austin, Texas the 3rd day of March 2021.
+AFTER:  PUBLIC UTILITY COMMISSION OF TEXAS ARTHUR C. D'ANDREA, COMMISSIONER <FL« *e 6/(* SHELLY BGTNIN, COMMISSIONER W2013 q:\cadm\orders\misc.orders\5xxxx\51802 order reinstating leap.docx 4 16 Tex. Admin. Code § 25.505(g)(6)(B)…
+
+### e39 · `puct-minutes-2024-12-19` · tier 1 · PUCT open meeting minutes, December 19, 2024 (2024-12-19)
+locator: PUCT Open Meeting Minutes, December 19, 2024, Item 17 · text copy line 112
+
+BEFORE: …ifying Transmission Service Providers for Implementing the Permian Basin Reliability Plan. (Discussion and possible action) Action: ERCOT provided an overview of its proposed guiding principles for sequencing of certificate of convenience and necessity applications related to the Permian Basin. 17. 
+QUOTE: Project No. 55000 - Performance Credit Mechanism (PCM). (Discussion and possible action) Werner Roth and Chris Brown Action: Adopted Staff's final recommendation on PCM.
+AFTER:  18. Project No. 57374 - Exemption Process for ERCOT Technical Standards. (Proposal for Publication) Allison Fink Action: Approved both proposals for publication. MEETING MINUTES OF THE PUCT Page 4 December 19, 2024 19. Project No. 57390 - Black Start Project. (Discussion and possible action) Chuck …
+
+### e40 · `puct-minutes-2024-12-19` · tier 1 · PUCT open meeting minutes, December 19, 2024 (2024-12-19)
+locator: PUCT Open Meeting Minutes, December 19, 2024, header · text copy line 5
+
+BEFORE: …OPEN MEETING MINUTES Thursday, December 19, 2024, 9:30 A.M. Commissioners' Hearing Room 7th Floor, William B. Travis Building 
+QUOTE: These minutes serve as a summary of the meeting but not as a transcription.
+AFTER:  A recording of the meeting is located on the Commission's website at Broadcasts (texas.gov). You may also refer to the Commission's final order for further details. Chairman Gleeson called the meeting to order. A quorum was established with all commissioners in attendance. Chairman Gleeson was recu…
+
+### e41 · `puct-59550-ercot-comments` · tier 2 · ERCOT comments, PUCT Project 59550 (quinquennial review of system-wide offer cap programs) (filed 2026-09-17, a party filing)
+locator: PUCT Project No. 59550, ERCOT comments (filed 2026-09-17), p. 1 · text copy line 39
+
+BEFORE: …se to the Public Utility Commission of Texas (Commission) Staff' s Questions for Comment filed on August 20,2026. The deadline to file comments is September 17,2026, therefore these comments are timely filed. An executive summary is included as the last page to this filing. I. COMMENTS TO QUESTIONS 
+QUOTE: Pursuant to 16 Texas Administrative Code (TAC) § 25.509(d), the Commission is required to "review each of the system-wide offer cap programs to determine whether to update aspects of each program." This proceeding initiates the first such review and subsequent reviews are to be performed quinquennially (i.e., every five years) hereafter.
+AFTER:  ERCOT agrees that it is appropriate to evaluate such programs on this cadence given the continuing changes in the ERCOT Region in order to ensure that the values and formula settings of these programs are set at the appropriate levels to achieve their intended purposes. ERCOT here provides initial …
+
+### e42 · `puct-25-501` · tier 1 · PUCT Substantive Rule 16 TAC §25.501, Wholesale Market Design for the Electric Reliability Council of Texas
+locator: 16 TAC §25.501(a), General · text copy line 20
+
+BEFORE: …CHAPTER 25. SUBSTANTIVE PROVIDERS. Subchapter S. RULES APPLICABLE TO ELECTRIC SERVICE WHOLESALE MARKETS. §25.501. Wholesale Market Design for the Electric Reliability Council of Texas. (a) General. 
+QUOTE: The protocols and other rules and requirements of the Electric Reliability Council of Texas (ERCOT) that implement this section shall be developed with consideration of microeconomic principles and shall promote economic efficiency in the production and consumption of electricity; support wholesale and retail competition; support the reliability of electric service; and reflect the physical realities of the ERCOT electric system.
+AFTER:  Except as otherwise directed by the commission, ERCOT shall determine the market clearing prices of energy and other ancillary services that it procures through auctions and the congestion rents that it charges or credits, using economic concepts and principles such as: shadow price of a constraint…
+
+### e43 · `ref-ferc-energy-primer` · tier 2 · Energy Primer: A Handbook of Energy Market Basics (January 2024)
+locator: FERC Energy Primer (2024), Electricity Markets chapter, RTO/ISO section · text copy line 8943
+
+BEFORE: …fit entity over a large geographic footprint. Further, RTOs/ISOs do not own or conduct maintenance on the transmission or other resources involved in providing electric service. Currently, seven RTO/ISOs operate in the United States, listed below in order of the size of their all-time peak load.130 
+QUOTE: FERC regulates all RTOs/ISOs except ERCOT.
+AFTER:  In addition to operating RTOs/ISOs, SPP and CAISO also operate regional short-term or imbalance energy markets, which, while not RTOs/ISOs, provide markets for real-time energy sales and purchases. SPP operates the WEIS and CAISO runs the WEIM, which are discussed at the end of the SPP and CAISO se…
+
+### e44 · `puct-59550-ercot-comments` · tier 2 · ERCOT comments, PUCT Project 59550 (quinquennial review of system-wide offer cap programs) (filed 2026-09-17, a party filing)
+locator: PUCT Project No. 59550, ERCOT comments, response to Question 2, p. 5 (NPRR1216, OBDRR051, VCMRR039) · text copy line 270
+
+BEFORE: … immediately. 8 ERCOT subsequently sponsored Nodal Protocols Revision Request (NPRR) 1216, Other Binding Document Revision Request (OBDRR) 051, and Verifiable Cost Manual Revision Request (VCMRR) 039 in the ERCOT stakeholder committee process to incorporate the EPP into ERCOT's rules and systems. 9 
+QUOTE: The Commission approved these Revision Requests on September 26,2024 and ERCOT implemented Phase 1 of these Revision Requests on December 5,2025.
+AFTER:  Phase 2 is in the queue for future implementation. The conditions required by PURA § 39.160 and 16 TAC § 25.509(d) to trigger activation of the EPP have not occurred since the adoption of the program and therefore the EPP has yet to 6 Public Utility Regulatory Act, TEx. Um. CoDE §§ 11.001-66.066 (P…
+
+## Statements to check (new or changed since the last audit)
+
+- **Definition #1** (cites e1, e2, e19): The PUCT is the state commission that certifies ERCOT as the independent organization for the ERCOT power region. It is also the regulator to which ERCOT is directly responsible and accountable. [e1][e2] It has five commissioners appointed by the governor with the advice and consent of the senate. [e19]
+- **How it works #1** (cites e19, e20, e21, e22): Who sits on it. The commission has five commissioners appointed by the governor with senate consent, serving staggered six-year terms. [e19] The governor designates one commissioner as presiding officer, who serves in that role at the governor's pleasure. [e20] Each commissioner must be a qualified voter, a U.S. citizen and a Texas resident, a competent and experienced administrator, and have at least five years of experience in business or government administration or as a practicing attorney, CPA or professional engineer; at least two must be well informed in public utilities and utility regulation. [e21] A person is ineligible if, in the year before appointment, they worked for or represented a PUCT-regulated utility, its affiliate or a direct competitor, or owned more than 10% of one. [e22]
+- **How it works #2** (cites e24, e2): General powers. The commission has the general power to regulate and supervise the business of each public utility in its jurisdiction and to do what the statute designates or implies as necessary to that power. [e24] PURA gives it the job of adopting and enforcing rules on the reliability of the regional network and on accounting for electricity production and delivery. It may delegate those responsibilities to an independent organization, and that organization (ERCOT) is accountable to the commission. [e2]
+- **How it works #3** (cites e3, e4, e30): Over ERCOT. The commission has complete authority to oversee and investigate ERCOT's finances, budget and operations. If ERCOT does not perform its duties, the commission can act against it, up to decertification or an administrative penalty. [e3] ERCOT must submit its entire proposed annual budget, and the commission may approve, disapprove or modify any item. [e4] Two commissioners sit on ERCOT's board as ex officio nonvoting members: the presiding officer and one commissioner designated by the presiding officer for a one-year term. [e30]
+- **How it works #4** (cites e5, e6, e28, e29): The rulebook. New or revised protocols cannot take effect until the commission approves a market impact statement for them, and the commission may approve, reject or remand protocols the ERCOT board adopts. [e5] When the PUCT directs ERCOT to take an official action, it normally cannot use a verbal directive. It must act through a contested case, a rulemaking, or a memorandum or written order adopted by majority vote. [e6] A directive that creates or increases a cost or fee, or imposes significant operational obligations, must go through a contested case or rulemaking. [e28] The exception: in an urgent or emergency situation that poses an imminent threat to public health, public safety or grid reliability, the commission may give a verbal directive, but must document it in writing to ERCOT within 72 hours after the situation ends. [e29]
+- **How it works #5** (cites e8, e25, e26, e9, e10, e27): Market conduct and enforcement. PURA directs the commission to monitor market power. When it finds abuse, it must require mitigation, using tools that include ordering new transmission, seeking penalties, ordering disgorgement of excess revenue, or acting against a certificate or registration. [e8] The commission may impose an administrative penalty of up to $25,000 per violation, each day counting as a separate violation [e25], or up to $1,000,000 per violation of a voluntary mitigation plan or of Sections 35.0021 or 38.075. [e26] The Independent Market Monitor works under the commission's supervision, but the commission keeps all enforcement authority. [e9] The Protocols state that the PUCT, assisted by the IMM, has ultimate responsibility for market oversight in ERCOT. [e10] A party to a PUCT proceeding is entitled to judicial review under the substantial evidence rule. [e27]
+- **ERCOT context #1** (cites e42, e43) FLAG number-not-in-quote: 25.501, 2024: Design rules. Rule 25.501 says ERCOT's protocols must be developed with microeconomic principles in mind, promote economic efficiency, support wholesale and retail competition and reliability, and reflect the physical realities of the ERCOT system. [e42] FERC's 2024 Energy Primer says FERC regulates all RTOs/ISOs except ERCOT. [e43]
+- **ERCOT context #2** (cites e11, e15, e16, e41, e12, e14) FLAG number-not-in-quote: 2026, 25.508, $140: Parameters analysts model. Rule 25.509 states a high system-wide offer cap (HCAP) of $5,000 per MWh and a low cap (LCAP) of $2,000 per MWh for energy. [e11] The Protocol parameter table, however, lists the day-ahead cap at $5,000 and the real-time cap at $2,000 per MWh, and ERCOT's September 2026 review says the SWCAP fell to $2,000 from $5,000 after RTC go-live on 12/5/2025. [e15][e16] The rule text in the saved sources has not been updated to show a separate real-time value (see the offer-cap topic). The 2026 offer-cap review (Project 59550) is the first five-year review required by §25.509(d), according to ERCOT's filing. [e41] Rule 25.508 sets the ERCOT reliability standard, which includes a frequency criterion of 0.1 loss of load expectation. [e12] In July 2024 the PUCT approved a planning CONE of $140 per kW-year, while keeping the legacy $105 per kW-year value for the peaker net margin threshold. [e14]
+- **ERCOT context #3** (cites e37, e33, e39, e34, e35): What its decisions look like. The saved orders and minutes give these examples. [e37][e33][e39][e34][e35]
+- **ERCOT context #4** (cites e37, e38): - February 16, 2021 (Winter Storm Uri): the commission found good cause to suspend the LCAP and ordered ERCOT to use the HCAP; on March 3, 2021 it ended the suspension and ordered ERCOT to resume the LCAP. [e37][e38]
+- **ERCOT context #5** (cites e32, e33): - October 7, 2024: it approved the Permian Basin Reliability Plan but reserved the voltage decision until no later than May 1, 2025 [e32]; its second order approved the three 765-kV import paths in Table 7.5 of the plan. [e33]
+- **ERCOT context #6** (cites e39, e40) FLAG number-not-in-quote: 2024: - December 19, 2024 open meeting: it adopted Staff's final recommendation on the Performance Credit Mechanism (the minutes are a summary, not a transcript). [e39][e40]
+- **ERCOT context #7** (cites e34) FLAG number-not-in-quote: 2026: - 2026: it approved ERCOT's request to adjust the 2026 long-term load forecast using the "Option B" methodology under 16 TAC §25.370(e)(2)(B). [e34]
+- **ERCOT context #8** (cites e36, e35): - August 2026: after a gubernatorial letter of August 3, 2026 directing a verification and audit of data centers in ERCOT's interconnection process [e36], it granted ERCOT good cause exceptions, finding good cause to complete the audit before continuing the Batch Zero process. [e35]
+- **Timeline #1** (cites e37, e38): - 2021: the PUCT suspends (February 16) and reinstates (March 3) the LCAP during and after Winter Storm Uri. [e37][e38]
+- **Timeline #2** (cites e13, e7, e31): - 2023: HB 1500 (the Sunset bill) moves the Sunset date to September 1, 2029, adds §39.1514 on directives to ERCOT, and changes the PUCT's seat on ERCOT's board from "the chairman" to two commissioners. [e13][e7][e31]
+- **Timeline #3** (cites e14) FLAG number-not-in-quote: $140: - July 2024: the PUCT approves a $140/kW-year planning CONE. [e14]
+- **Timeline #4** (cites e32): - October 7, 2024: first Permian Basin Reliability Plan order. [e32]
+- **Timeline #5** (cites e39) FLAG number-not-in-quote: 2024: - December 19, 2024: PUCT adopts Staff's final PCM recommendation. [e39]
+- **Timeline #6** (cites e35) FLAG number-not-in-quote: 2026: - August 2026: good cause exceptions pausing Batch Zero classification. [e35]
+- **Timeline #7** (cites e41) FLAG number-not-in-quote: 2026: - September 2026: first five-year review of the offer-cap programs under way (Project 59550). [e41]
+- **Timeline #8** (cites e23): - September 1, 2029: the commission is abolished unless continued under the Sunset Act or Chapter 39. [e23]
+- **Key facts #1** (cites e19, e20): - Five commissioners, appointed by the governor with senate consent, staggered six-year terms; the governor names the presiding officer. [e19][e20]
+- **Key facts #5** (cites e6, e29): - Directives to ERCOT for an official action: contested case, rulemaking, or written order/memo by majority vote; verbal only in an imminent-threat emergency, documented within 72 hours. [e6][e29]
+- **Key facts #6** (cites e25, e26): - Administrative penalties: up to $25,000 per violation per day; up to $1,000,000 for some violations, including of a voluntary mitigation plan. [e25][e26]
+- **Key facts #8** (cites e23): - Sunset: the commission is abolished September 1, 2029 unless continued in existence. [e23]
+- **Say it like this #2** (cites e19, e6, e29) FLAG number-not-in-quote: 2023: (Guidance) It is five governor-appointed commissioners, and since 2023 it has to give ERCOT formal written direction rather than steer it from the dais, except in a genuine emergency. [e19][e6][e29]
+- **Common confusion #1** (cites e43, e10, e9, e5, e30): (Guidance) The PUCT is not FERC: FERC's own primer says it regulates all RTOs/ISOs except ERCOT, and in ERCOT the PUCT, assisted by the IMM, holds ultimate responsibility for market oversight. [e43][e10] The IMM has no enforcement authority; enforcement stays with the commission. [e9] Also, ERCOT protocol changes approved by the ERCOT board are not final until the PUCT approves them. [e5] Commissioners on the ERCOT board do not vote there. [e30]
+- **Questions #2** (cites e6, e7, e28, e29): Not normally. Under §39.1514, added by HB 1500, an official-action directive must come through a contested case, a rulemaking, or a memorandum or written order adopted by majority vote, and one that adds costs or significant obligations needs a contested case or rulemaking. [e6][e7][e28] Only in an urgent or emergency situation with an imminent threat to health, safety or grid reliability can it use a verbal directive, documented in writing within 72 hours after the situation ends. [e29]
+- **Questions #4** (cites e19, e20, e21, e22): Five commissioners appointed by the governor with senate consent, on staggered six-year terms, with a presiding officer the governor designates. [e19][e20] At least two must be well informed in utility regulation, and recent ties to a regulated utility or its competitor disqualify a candidate. [e21][e22]
+- **Questions #8** (cites e8, e25, e26): It must require reasonable mitigation. Its tools include ordering new transmission or distribution facilities, injunctions or civil penalties, administrative penalties, disgorgement of excess revenue, and suspending, revoking or amending a certificate or registration. [e8] Administrative penalties can reach $25,000 per violation per day, or $1,000,000 for a violation of a voluntary mitigation plan. [e25][e26]
+- **Questions #10** (cites e37, e38, e35) FLAG number-not-in-quote: 2026: In February 2021 it found good cause to suspend the LCAP because of significant market anomalies, then reinstated it two weeks later. [e37][e38] In August 2026 it granted good cause exceptions so ERCOT could pause Batch Zero classification for a data-center audit. [e35] Both show the commission using good-cause findings to depart from a rule's normal operation.
+- **Questions #12** (cites e3): The commission can take appropriate action, including decertifying ERCOT or assessing an administrative penalty against it. [e3]
+- **Scenarios #3** (cites e44): - So the PUCT's approval is the step to watch, after which the change still has to be implemented. For example, the PUCT approved NPRR1216 (the EPP's Protocol implementation) in September 2024, but ERCOT reports Phase 1 went in only on December 5, 2025 (see offer-cap). [e44]
 - **Link to ercot** (cites e1, e4, e5): regulates ERCOT: The PUCT certifies ERCOT as the independent organization, approves its budget and must approve its protocols before they take effect. [e1][e4][e5]
 - **Link to imm** (cites e9): regulates Independent Market Monitor (Potomac Economics): The market monitor works under the PUCT's supervision and oversight, and the PUCT keeps all enforcement authority. [e9]
 - **Link to texas-legislature** (cites e17): related Texas Legislature: The Legislature amends the Utilities Code that governs the PUCT (HB 1500, 2023), and the PUCT is subject to the Texas Sunset Act. [e17]
@@ -159,8 +348,11 @@ AFTER:  ERCOT shall update parameter values on the first day of the month follow
 - **Link to market-power-mitigation** (cites e8): regulates Market Power Mitigation (Competitiveness Tests, Mitigated Offer Caps): PURA directs the PUCT to monitor market power and order mitigation when it finds abuse. [e8]
 - **Link to resource-adequacy** (cites e12) FLAG number-not-in-quote: 25.508: determines Resource Adequacy: PUCT rule 25.508 sets the ERCOT reliability standard, whose frequency criterion is 0.1 loss of load expectation. [e12]
 - **Link to nodal-protocols** (cites e5): regulates ERCOT Nodal Protocols: New or revised protocols cannot take effect until the PUCT approves a market impact statement for them. [e5]
+- **Link to permian-transmission** (cites e33) FLAG number-not-in-quote: 765 kV, 2025: example-of Permian Basin Load & 765 kV Plan: The PUCT approved three 765-kV import paths for the Permian Basin Reliability Plan in a 2025 second order. [e33]
+- **Link to large-load-interconnection** (cites e35) FLAG number-not-in-quote: 2026: regulates Large Load Interconnection & Batch Zero: In August 2026 the PUCT granted ERCOT good cause exceptions to pause Batch Zero classification of Large Loads for a verification and audit. [e35]
+- **Link to winter-storm-uri** (cites e37, e38): related Winter Storm Uri (Feb 2021): On February 16, 2021 the PUCT suspended the low system-wide offer cap and reinstated it on March 3, 2021. [e37][e38]
+
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
 - (Say it like this) (Guidance) The PUCT is ERCOT's regulator. It certifies ERCOT, approves its budget and every protocol change, and sets key market parameters such as the offer caps and the reliability standard. When the market design changes in a big way, the final decision usually sits with the commission, with the IMM advising and ERCOT implementing.
-- (Scenarios) - So the PUCT's approval is the step to watch, after which the change still has to be implemented.
 

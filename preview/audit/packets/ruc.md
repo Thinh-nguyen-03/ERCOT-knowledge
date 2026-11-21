@@ -4,20 +4,6 @@ kind concept · domain pricing · level 1
 
 ## Evidence (quote, where it sits in the source, and the text around it)
 
-### e1 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
-locator: Section 2.1, definition of Reliability Unit Commitment (RUC) · text copy line 2339
-
-BEFORE: …rms of an Agreement with ERCOT that would not otherwise be operated except that it is necessary to provide voltage support, stability or management of localized transmission constraints under Credible Single Contingency criteria where market solutions do not exist. Reliability Unit Commitment (RUC) 
-QUOTE: A process to ensure that there is adequate Resource capacity and Ancillary Service capacity committed in the proper locations to serve ERCOT forecasted Load.
-AFTER:  Reliability Unit Commitment for Additional Capacity (RUCAC)-Hour An Operating Hour for which a Combined Cycle Generation Resource is Qualified Scheduling Entity (QSE)-committed and receives a Reliability Unit Commitment (RUC) instruction from ERCOT to transition to a configuration with additional c…
-
-### e2 · `np-05` · tier 1 · ERCOT Nodal Protocols, Section 5: Transmission Security Analysis and Reliability Unit Commitment (effective 2026-08-01)
-locator: Section 5.1, Introduction, paragraph (2) · text copy line 97 · heading above: 5.1 Introduction
-
-BEFORE: …tem reliability and to ensure that enough Resource capacity and qualified Ancillary Service capacity are committed in the right locations to reliably serve the forecasted Load and Ancillary Service needs on the ERCOT System including Direct Current Tie (DC Tie) Load that has not been curtailed. (2) 
-QUOTE: ERCOT shall conduct at least one Day-Ahead Reliability Unit Commitment (DRUC) and at least one Hourly Reliability Unit Commitment (HRUC) before each hour of the Operating Day. ERCOT, in its sole discretion, may conduct a RUC at any time to evaluate and resolve reliability issues.
-AFTER:  (3) The DRUC must be run after the close of the Day-Ahead Market (DAM). (4) The DRUC uses Three-Part Supply Offers, capped at the maximum of generic or verifiable minimum energy and Startup Costs, submitted before the DAM by Qualified Scheduling Entities (QSEs) that were considered in the DAM but n…
-
 ### e3 · `np-05` · tier 1 · ERCOT Nodal Protocols, Section 5: Transmission Security Analysis and Reliability Unit Commitment (effective 2026-08-01)
 locator: Section 5.1, Introduction, paragraph (4) · text copy line 101 · heading above: 5.1 Introduction
 
@@ -31,13 +17,6 @@ locator: Section 5.1, Introduction, paragraph (3) · text copy line 99 · headin
 BEFORE: …curtailed. (2) ERCOT shall conduct at least one Day-Ahead Reliability Unit Commitment (DRUC) and at least one Hourly Reliability Unit Commitment (HRUC) before each hour of the Operating Day. ERCOT, in its sole discretion, may conduct a RUC at any time to evaluate and resolve reliability issues. (3) 
 QUOTE: The DRUC must be run after the close of the Day-Ahead Market (DAM).
 AFTER:  (4) The DRUC uses Three-Part Supply Offers, capped at the maximum of generic or verifiable minimum energy and Startup Costs, submitted before the DAM by Qualified Scheduling Entities (QSEs) that were considered in the DAM but not awarded in the DAM. A QSE may not submit a Three-Part Supply Offer to…
-
-### e4 · `np-05` · tier 1 · ERCOT Nodal Protocols, Section 5: Transmission Security Analysis and Reliability Unit Commitment (effective 2026-08-01)
-locator: Section 5.1, Introduction, paragraph (5) · text copy line 103 · heading above: 5.1 Introduction
-
-BEFORE: …um energy and Startup Costs, submitted before the DAM by Qualified Scheduling Entities (QSEs) that were considered in the DAM but not awarded in the DAM. A QSE may not submit a Three-Part Supply Offer to be considered in the DRUC unless the offer was also submitted for consideration in the DAM. (5) 
-QUOTE: ERCOT must initiate the HRUC process at least one hour before the Operating Hour to fine-tune the Resource commitments using updated Load forecasts and updated Outage information.
-AFTER:  (6) The RUC Study Period for DRUC is the next Operating Day. The RUC Study Period for HRUC is the balance of the current Operating Day plus the next Operating Day if the DRUC for the Operating Day has been solved. (7) HRUC may decommit Resources only to maintain the reliability of the ERCOT System.…
 
 ### e5 · `np-05` · tier 1 · ERCOT Nodal Protocols, Section 5: Transmission Security Analysis and Reliability Unit Commitment (effective 2026-08-01)
 locator: Section 5.7.1, RUC Make-Whole Payment, paragraph (1) · text copy line 822 · heading above: 5.7.1 RUC Make-Whole Payment
@@ -60,13 +39,6 @@ BEFORE: …---------------------------------------------------------------------
 QUOTE: The RUC process recommends commitment of Generation Resources, to match ERCOT's forecasted Load including Direct Current Tie (DC Tie) Schedules and RUC Ancillary Service Demand Curves (ASDCs), subject to all transmission constraints and Resource performance characteristics. The RUC process takes into account Resources already committed in the Current Operating Plans (COPs), Resources already committed in previous RUCs, and Off-Line Available Resources having a start-up time of one hour or less.
 AFTER:  For On-Line Energy Storage Resources (ESRs), using RUC duration requirements for energy and Ancillary Services, RUC-projected dispatch for energy and Ancillary Service in one interval shall respect the ESR's minimum and maximum State of Charge (SOC) values from the COP, while incorporating any adju…
 
-### e8 · `np-05` · tier 1 · ERCOT Nodal Protocols, Section 5: Transmission Security Analysis and Reliability Unit Commitment (effective 2026-08-01)
-locator: Section 5.1, Introduction, paragraph (11) · text copy line 115 · heading above: 5.1 Introduction
-
-BEFORE: …it Resources. (10) The Security Sequence is a set of prerequisite processes for RUC that describes the key system components and inputs that are required to support the RUC process, the RUC process itself, and the ERCOT review of the Resource commitment recommendations made by the RUC process. (11) 
-QUOTE: After the use of market processes to the fullest extent practicable without jeopardizing the reliability of the ERCOT System, any ERCOT Dispatch Instructions for additional capacity that order a QSE to commit a specific Generation Resource to be On-Line shall be considered a RUC Dispatch for the purpose of the Settlement of payments and charges related to the committed Generation Resource. An Operating Condition Notice (OCN), Advisory, Watch, or Emergency Notice requesting the available capacity of any currently available Generation Resources but not naming specific Generation Resources is not considered a RUC Dispatch for purposes of Settlement.
-AFTER:  (12) ERCOT shall post on the Market Information System (MIS) Certified Area, for each Off-Line Generation Resource that may be selected by an HRUC process, the current time since the Generation Resource last went Off-Line (in hours) and the corresponding start-up times ERCOT is using for each such …
-
 ### e9 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
 locator: Review of Real-Time Market Outcomes, Shortage and Reliability Pricing, 2. RDPA · text copy line 1828
 
@@ -80,13 +52,6 @@ locator: Analysis of Competitive Performance, section E, Market Power Mitigation
 BEFORE: …n applies whether the unit is self-committed or receives a Reliability Unit Commitment (RUC) instruction. Prior to 2021, ERCOT typically issued RUC instructions to resolve transmission constraints. However, RUCs for system-wide capacity became common in summer 2021 and continued through early 2023. 
 QUOTE: When a unit that receives a RUC instruction is required to resolve a non-competitive transmission constraint, ERCOT often dispatches it in real time with its offer prices capped at mitigated levels.
 AFTER:  ERCOT's dispatch software includes an automatic two-step mitigation process: 83 • The dispatch software calculates output levels (base points) and prices using participants' offer curves and considering only the "competitive" transmission constraints. In the second step of the dispatch process, the…
-
-### e11 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
-locator: Executive Summary, Market Operations · text copy line 916
-
-BEFORE: …imes necessary for reliability, persistent reliance on them indicates a misalignment between market design and system operations. Despite high operating reserve levels in 2025, out-of-market reliability actions increased substantially from 2024, particularly the Reliability Unit Commitment process. 
-QUOTE: ERCOT operators issued RUC instructions for 5,129 resource-hours in 2025, a 176% increase from 2024. Congestion accounted for approximately 77% of these commitments.
-AFTER:  The increase in RUC commitments corresponds to higher make-whole payments, which exceeded $21 million in 2025. The increase in make-whole payments can be partially explained by greater use of RUC and fewer resources opting out of RUC settlement. In 2025, only 3% of vi | 2025 State of the Market Rep…
 
 ### e12 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
 locator: Executive Summary, Market Operations · text copy line 919
@@ -108,20 +73,6 @@ locator: Executive Summary, Market Operations · text copy line 939
 BEFORE: …tted in December 2023, seeks to address this RDPA shortcoming by producing node-specific price adders to reduce out-of-market makewhole payments for resources committed through RUC to manage local transmission issues. PRS has tabled this NPRR since May 2025 as ERCOT was focused on implementing RTC. 
 QUOTE: One factor increasing RUC commitments is the incorporation of ESR state of charge (SOC) into the RUC engine under NPRR 1186, which ERCOT implemented in summer 2024.
 AFTER:  ESR operators reflect their expected SOC for the beginning of each hour in their Current Operating Plan (COP). Rather than optimizing ESR charging and discharging schedules across the RUC study period, RUC uses this hourly SOC value as a fixed input. Increases in SOC are treated as energy withdrawa…
-
-### e16 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.5.7.3, paragraph (1) · text copy line 1779 · heading above: 6.5.7.3 Security Constrained Economic Dispatch
-
-BEFORE: …- LDL Low Dispatch Limit. POWERTELEM Net real power flow provided via telemetry. NORMRAMPUP Normal Ramp Rate up, as telemetered by the QSE. LSLTELEM LSL provided via telemetry. ----------------------------------------------------------------------- 6.5.7.3 Security Constrained Economic Dispatch (1) 
-QUOTE: The SCED process is designed to simultaneously manage energy, Ancillary Services, the system power balance and network congestion through Resource Base Points, Ancillary Service awards, and the calculation of LMPs and Real-Time MCPCs approximately every five minutes, or more frequently if necessary.
-AFTER:  The SCED process uses a two-step methodology that applies mitigation to offers for energy prospectively to resolve Non-Competitive Constraints for the current Operating Hour. The SCED process evaluates Energy Offer Curves, Energy Bid/Offer Curves, Ancillary Service Offers, Output Schedules, and RTM…
-
-### e17 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
-locator: Market Operations chapter, A. Summary of Market Operations Results in 2025 · text copy line 6317
-
-BEFORE: …tors often supplement market outcomes with out-of-market actions to address reliability concerns. These actions are undesirable because they interfere with price signals that guide efficient short-term decisions and long-term investment, shift costs, reduce transparency, and complicate settlements. 
-QUOTE: Although such interventions are sometimes necessary, persistent reliance on them indicates a misalignment between market design and system operations.
-AFTER:  This chapter examines the role and implications of these out-of-market operator actions. The following are the key insights from this chapter: • RUC commitments have risen sharply since 2021 when ERCOT adopted a more conservative operating posture. This approach aims to reduce reliability risk, but…
 
 ### e18 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
 locator: Section 2.1, definition of Weekly Reliability Unit Commitment (WRUC) · text copy line 3273
@@ -431,11 +382,8 @@ BEFORE: …s for which this RUC Capacity Credit is calculated. -----------------
 QUOTE: If the revenues from the charges under Section 5.7.4.1, RUC Capacity-Short Charge, are not enough to cover all RUC Make-Whole Payments, including amounts for RMR Units, for a 15-minute Settlement Interval, then the difference will be uplifted to all QSEs on a Load Ratio Share basis, as a RUC Make-Whole Uplift Charge, calculated as follows:
 AFTER:  LARUCAMT_(q,i) = (-1) * ( RUCMWAMTTOT_(h) / 4 + RUCCSAMTTOT_(i)) * LRS_(q,i) Where: RUCMWAMTTOT_(h) = []RUCMWAMTRUCTOT_(ruc,h) RUCCSAMTTOT_(i) = [][]RUCCSAMT_(ruc,i,q) The above variables are defined as follows: ---------------------------------------------------------------------------------------…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
-- **Definition #1** (cites e1): Reliability Unit Commitment (RUC) is the process ERCOT uses to ensure there is adequate Resource capacity and Ancillary Service capacity committed in the proper locations to serve its forecasted Load. [e1]
-- **How it works #1** (cites e2, e15, e3, e4): ERCOT runs at least one Day-Ahead RUC (DRUC) and at least one Hourly RUC (HRUC) before each hour of the Operating Day, and may run a RUC at any time to deal with reliability issues. [e2] The DRUC runs after the DAM closes and uses Three-Part Supply Offers that were submitted to the DAM, considered there, but not awarded. [e15][e3] The HRUC starts at least one hour before the Operating Hour to fine-tune commitments using updated Load forecasts and Outage information. [e4]
-- **How it works #2** (cites e7, e8): The RUC recommends commitments of Generation Resources to match forecast Load, including DC Tie Schedules, and the RUC Ancillary Service Demand Curves, subject to transmission constraints and Resource performance. It starts from Resources already committed in COPs and previous RUCs and from Off-Line Available Resources with a start-up time of one hour or less. [e7] Any ERCOT instruction that orders a QSE to commit a named Generation Resource, after the market has been used as far as practicable, is a RUC Dispatch for Settlement purposes. [e8]
 - **How it works #3** (cites e5, e25, e6, e26): A RUC-committed Resource whose revenues fall short of its costs receives a RUC Make-Whole Payment for that Operating Day, whether it came from DRUC or HRUC, but not an ESR. [e5] A QSE can instead opt out of RUC Settlement unless the Resource is an RMR Unit or has received an OSA, and the Operating Hours for which it does so are RUC Buy-Back Hours. [e25][e6] An opt-out forfeits RUC Settlement for that block of hours and requires the Resource to be available to SCED for all of them. [e26]
 - **How it works #5** (cites e18, e19, e20, e21, e22): Before 1330 in the Day-Ahead ERCOT may issue a Weekly RUC (WRUC) instruction, which reserves a Generation Resource that needs a longer startup lead time than the DRUC allows. [e18] ERCOT commits the Resource in the DRUC for WRUC-instructed hours that are not DAM-committed or self-committed, and for RUC Settlement it is treated as DRUC-committed. [e19] The DRUC Study Period is the next Operating Day; the HRUC Study Period is the rest of the current day plus the next day if that day's DRUC has been solved. [e20] If the DAM is delayed, the DRUC runs after 1430 and at least an hour after DAM awards post. [e21] If the Day-Ahead process is aborted for a reason other than a Market Suspension, the HRUC is used instead of the DRUC. [e22]
 - **How it works #7** (cites e23, e52, e24, e54, e55, e56): The RUC engine uses 60 minutes as the duration for energy and Ancillary Services, and 15 minutes for RRS provided by Fast Frequency Response; ESR dispatch is constrained so the end-of-hour state of charge equals the next hour's COP HBSOC. [e23] A feasibility check on COP-submitted HBSOC can adjust the HBSOC used. [e52] ERCOT reviews the engine's commitments and may change them in its sole discretion. [e24] Quick Start Generation Resources with status OFFQS are committed through RUC only when a reliability issue would not otherwise be managed through SCED dispatch. [e54] ERCOT may decommit a Resource through RUC only to resolve otherwise unresolvable transmission constraints, and Qualifying Facilities only after all other types have been assessed. [e55] A QSE that gave notice of a physical limitation at least seven days ahead is excused from the part of an instruction it could not meet. [e56]
@@ -443,7 +391,6 @@ AFTER:  LARUCAMT_(q,i) = (-1) * ( RUCMWAMTTOT_(h) / 4 + RUCCSAMTTOT_(i)) * LRS_(
 - **How it works #11** (cites e31, e32, e33, e34, e35, e61, e36, e37): The RUC Guarantee is the allowable Startup and minimum-energy costs, with minimum-energy costs prorated when output in a 15-minute interval is below LSL. [e31] A QSE pays a RUC Clawback Charge if the Guarantee is less than the sum of its revenue items; ESRs are not subject to it. [e32][e33] Capacity-short QSEs are charged first, subject to a cap of twice the total make-whole payments times the QSE's shortfall divided by total RUC-committed capacity. [e34][e35] Any remainder is uplifted to all QSEs on a Load Ratio Share basis. [e61] A QSE gets a capacity credit for non-IRR Resources notified of decommitment within two hours before the Operating Hour. [e36] ERCOT reports annually to TAC each January on RUC activity by type of instruction. [e37]
 - **How it works #12** (cites e53) FLAG number-not-in-quote: 5.7: Pending: a box in Section 5.7.1 (NPRR1309) would also exclude Dispatchable Reliability Reserve Service deployments from make-whole payments. It was not yet in effect in the saved text. [e53]
 - **How it works #14** (cites e58, e43, e42): The Real-Time Reliability Deployment Price Adder counts RUC-committed Resources, except those whose QSEs opted out of RUC Settlement. [e58] The IMM says the RDPA does not address local nodal price effects and so does not significantly raise prices unless commitments affect system-wide prices; it notes NPRR 1214, tabled at PRS since May 2025, would produce nodal adders. [e43][e42]
-- **ERCOT context #1** (cites e9, e17, e11, e12, e13): The IMM treats RUC as an out-of-market reliability action [e9] and says persistent reliance on out-of-market interventions indicates a misalignment between market design and system operations. [e17] In 2025 ERCOT issued RUC instructions for 5,129 resource-hours, 176% more than in 2024, and about 77% were for congestion. [e11] Make-whole payments exceeded $21 million in 2025, helped by more RUC use and fewer opt-outs. [e12] Since 2021 annual RUC commitments have totaled thousands of hours, against 202 to 613 per year from 2017 through 2020. [e13]
 - **ERCOT context #2** (cites e49, e14, e9, e10) FLAG number-not-in-quote: 2026: The IMM's August 2026 presentation to TAC calls the inaccuracy of the battery state-of-charge forecast a legitimate and growing challenge in using RUC appropriately. [e49] One driver the IMM names is ESR state of charge being fed into the RUC engine under NPRR 1186, implemented in summer 2024. [e14] The IMM says RUC can artificially lower prices by increasing supply outside the normal market process, which the Reliability Deployment Price Adder adjusts for. [e9] When a RUC-committed unit must resolve a non-competitive constraint, it is often dispatched in real time with offers capped at mitigated levels. [e10]
 - **Timeline #1** (cites e13): - 2017-2020: 202 to 613 RUC resource-hours a year; since 2021 thousands. [e13]
 - **Timeline #2** (cites e41, e40) FLAG number-not-in-quote: 8%: - 2024: NPRR 1172 imposed a full rather than partial claw-back on opt-outs, and opt-outs fell to 8% (IMM). [e41][e40]
@@ -452,19 +399,10 @@ AFTER:  LARUCAMT_(q,i) = (-1) * ( RUCMWAMTTOT_(h) / 4 + RUCCSAMTTOT_(i)) * LRS_(
 - **Timeline #5** (cites e51) FLAG number-not-in-quote: 2025: - December 2025: RTC went live; the IMM says ERCOT operations signalled it would use RUC to add reserves when AS is not fully procured. [e51]
 - **Timeline #6** (cites e44, e45, e46): - Summer 2026: 1,313 effective RUC Resource-hours, 17% attributed to congestion (100% in summer 2025), driven by Ancillary Service needs. [e44][e45][e46]
 - **Timeline #7** (cites e48) FLAG number-not-in-quote: 2026: - October 2026: 165.6 effective RUC Resource-hours, 99.4% for capacity. [e48]
-- **Key facts #1** (cites e2): - ERCOT runs at least one DRUC and one HRUC before each hour of the Operating Day. [e2]
-- **Key facts #2** (cites e3): - The DRUC uses Three-Part Supply Offers that were considered but not awarded in the DAM. [e3]
-- **Key facts #3** (cites e11): - 2025 RUC: 5,129 resource-hours, up 176% from 2024; roughly 77% for congestion. [e11]
-- **Key facts #4** (cites e12): - 2025 RUC make-whole payments exceeded $21 million. [e12]
-- **Key facts #5** (cites e5): - ESRs do not receive a RUC Make-Whole Payment. [e5]
 - **Key facts #6** (cites e38): - IMM Table 7 (2021-2025 resource-hours): 3,863; 7,910; 2,501; 1,861; 5,129. [e38]
 - **Key facts #7** (cites e39) FLAG number-not-in-quote: 9%, 18%, 8%, 34%, 77%: - Reported reason, congestion share: 9% (2021), 18%, 8%, 34%, 77% (2025). [e39]
 - **Key facts #8** (cites e40) FLAG number-not-in-quote: 39%, 24%, 23%, 8%: - Make-whole ($ millions) 2021-2025: 5.38, 70.13, 3.69, 3.35, 21.84; opt-out frequency 39%, 24%, 23%, 8%, 3%. [e40]
 - **Key facts #9** (cites e47) FLAG number-not-in-quote: 2026: - "Effective" Resource-hours exclude startup, shutdown, off-line and other periods when the unit was not dispatchable by SCED, so ERCOT's 2026 counts are not the same measure as the IMM's resource-hours. [e47]
-- **Say it like this #1** (cites e11, e13): RUC is ERCOT's back-stop commitment process: if the market and QSE self-commitments do not put enough of the right units on, ERCOT instructs units on and pays them make-whole if they lose money. It has grown a lot in recent years, and the IMM says congestion accounted for about 77% of 2025 commitments. [e11][e13]
-- **Common confusion #1** (cites e16, e8): RUC is not SCED. RUC decides which units are committed, ahead of the hour, while SCED manages energy and Ancillary Services through Base Points approximately every five minutes. [e16] A RUC instruction is not an OCN, Advisory, Watch or Emergency Notice that asks for capacity without naming a Resource; only an instruction naming a specific Generation Resource counts as a RUC Dispatch. [e8]
-- **Questions #2** (cites e15, e4): The DRUC must be run after the close of the DAM, while the HRUC is initiated at least one hour before the Operating Hour to fine-tune commitments using updated Load forecasts and Outage information. [e15][e4]
-- **Questions #4** (cites e11, e12, e17): RUC instructions rose 176% to 5,129 resource-hours and make-whole payments passed $21 million. [e11][e12] The IMM says persistent reliance on out-of-market interventions indicates a misalignment between market design and system operations. [e17]
 - **Questions #6** (cites e25, e6, e12): Usually: it can opt out, making the hours RUC Buy-Back Hours, unless the Resource is an RMR Unit or got an OSA. [e25][e6] The IMM notes that in 2025 fewer resources opted out, which is part of why make-whole payments rose. [e12]
 - **Questions #8** (cites e39, e45, e46, e51) FLAG number-not-in-quote: 77%, 34%: In 2025 the IMM reports 77% of commitments were reported as congestion, up from 34% in 2024. [e39] In summer 2026 ERCOT reports 17% congestion and attributes the activity mostly to capacity, particularly Ancillary Service quantities. [e45][e46] The IMM's account of the link is that operations indicated it would use RUC to add reserves when the market does not procure the full AS Plan. [e51]
 - **Questions #10** (cites e60, e40): Opting out means self-committing the unit and accepting full exposure to market outcomes, with no make-whole and no clawback. [e60] The IMM says the most likely explanation for the 2025 drop to 3% opt-outs is that market prices were not expected to be high enough to warrant it. [e40]
@@ -481,3 +419,4 @@ AFTER:  LARUCAMT_(q,i) = (-1) * ( RUCMWAMTTOT_(h) / 4 + RUCCSAMTTOT_(i)) * LRS_(
 - **Link to load-ratio-share** (cites e61): related Load Ratio Share (LRS): Make-whole costs not covered by capacity-short charges are uplifted on a Load Ratio Share basis. [e61]
 - **Link to rtc-b** (cites e50): related RTC+B (Real-Time Co-optimization + Batteries): NPRR 1236 changed RUC capacity-short calculations as part of RTC+B. [e50]
 - **Link to uplift** (cites e34): related Uplift: RUC make-whole costs end up as uplift to QSEs after capacity-short charges. [e34]
+

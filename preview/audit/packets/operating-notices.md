@@ -4,13 +4,6 @@ kind rule · domain reliability · level 1
 
 ## Evidence (quote, where it sits in the source, and the text around it)
 
-### e1 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
-locator: Section 2.1, definition of Operating Condition Notice (OCN) · text copy line 1889
-
-BEFORE: … of a Resource that is not synchronously interconnected to the ERCOT System. On-Line The status of a Resource that is synchronously interconnected to the ERCOT System. On-Peak Hours Hours ending in 0700 to 2200 CPT from Monday through Friday excluding NERC holidays. Operating Condition Notice (OCN) 
-QUOTE: The first of three levels of communication issued by ERCOT in anticipation of a possible Emergency Condition.
-AFTER:  Operating Day The day, including hours ending 0100 to 2400, during which energy flows. Operating Hour A full clock hour during which energy flows. Operating Period A two-hour period comprised of the Operating Hour and the clock hour preceding the Operating Hour. Opportunity Outage (see Outage) Opt …
-
 ### e2 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
 locator: Section 6.5.9.3, Communication Prior to and During Emergency Conditions, paragraph (2) · text copy line 3262 · heading above: 6.5.9.3 Communication Prior to and During Emergency Conditions
 
@@ -94,13 +87,6 @@ locator: Section 6.5.9.3, paragraph (4) · text copy line 3266 · heading above:
 BEFORE: …ndition potentially affecting the entire ERCOT System. (4) The following Sections describe the types of communications that will be issued by ERCOT to inform all QSEs and TSPs of the operating situation. These communications may relate to transmission, distribution, or Generation or Load Resources. 
 QUOTE: The communications must specify the severity of the situation, the area affected, the areas potentially affected, and the anticipated duration of the Emergency Condition.
 AFTER:  +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------…
-
-### e14 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
-locator: Section 2.1, definition of Advisory · text copy line 65 · heading above: 2.1 DEFINITIONS
-
-BEFORE: … SUBST. R. 25.130, Advanced Metering. Advanced Metering System (AMS) A system, including Advanced Meters and the associated hardware, software, and communications devices, that collects time-differentiated energy usage and is deployed pursuant to P.U.C. SUBST. R. 25.130, Advanced Metering. Advisory 
-QUOTE: The second of three levels of communication issued by ERCOT in anticipation of a possible Emergency Condition.
-AFTER:  Affiliate (1) An Entity that directly or indirectly owns or holds at least 5% of the voting securities of a Market Participant; or (2) An Entity in a chain of successive ownership of at least 5% of the voting securities of a Market Participant; or (3) An Entity that has at least 5% of its voting se…
 
 ### e15 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
 locator: Section 2.1, definition of Watch · text copy line 3265
@@ -242,9 +228,8 @@ BEFORE: …---------------------------------------------------------------------
 QUOTE: (1) An Advisory will be issued by ERCOT in accordance with Protocol Section 6.5.9.3.2, Advisory, when it recognizes that conditions are developing or have changed such that QSE and/or TO actions may be prudent in anticipation of possible Emergency Conditions.
 AFTER:  (2) ERCOT may require information from QSEs and TOs. Typical information requested may include, but is not limited to: (a) Resource fuel capabilities; (b) Resource condition details; and (c) Actual weather conditions. (3) ERCOT shall provide verbal notice of an Advisory to TOs and QSEs representing…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
-- **Definition #1** (cites e1, e14, e15, e12): ERCOT issues three levels of communication in anticipation of a possible Emergency Condition, in rising order: the Operating Condition Notice (OCN), the Advisory and the Watch. [e1][e14][e15] The Emergency Notice is the communication issued to declare that ERCOT is operating in an Emergency Condition. [e12]
 - **How it works #1** (cites e2, e13, e20): The type of communication depends mainly on how much time the market has to respond before an Emergency Condition. Lead times range from days to immediate, and ERCOT may skip steps if there is not enough time. [e2] Each communication must specify severity, the area affected, areas potentially affected and the anticipated duration. [e13] When time permits ERCOT will issue an OCN before an Advisory, Watch or Emergency Notice. [e20]
 - **How it works #2** (cites e3, e4, e20, e28, e21, e31): **OCN.** An OCN is informational only and gives ERCOT no extra operational authority; its reasons include unplanned transmission outages, insufficient resources for forecast conditions and weather concerns. [e3][e4] It may require no action by any Market Participant but signals that attention to changing conditions may be warranted. [e20] Issuing an OCN does not place ERCOT in an Emergency Condition. [e28] Based on its assessment ERCOT may require fuel capability information from QSEs, covering no more than seven days from the request. [e21] The Operating Guides add typical information requests: fuel capabilities, resource condition details and actual weather. [e31]
 - **How it works #3** (cites e18, e19): **Advance Action Notice (AAN).** ERCOT may also issue an AAN in anticipation of a possible Emergency Condition; it identifies actions ERCOT expects to take unless QSE or TSP actions or other developments alleviate the need before a time stated in the AAN, and it may not require action by any Market Participant. [e18][e19]
@@ -252,18 +237,10 @@ AFTER:  (2) ERCOT may require information from QSEs and TOs. Typical information
 - **How it works #5** (cites e11, e24, e30, e29, e6, e25, e33): **Watch.** ERCOT shall issue a Watch when it determines that (a) SCED's market-based congestion management will not resolve transmission security violations, (b) Forced Outages or abnormal conditions require operating with active security violations unless a CMP exists, (c) or (d) it varies from or omits timing requirements for Day-Ahead, Adjustment Period, Real-Time or scheduling procedures, or (e) SCED fails to reach a solution. [e11][e24] The Operating Guides add that a Watch is issued when a post-contingency overload cannot be rectified, including through CMPs, and that a Watch may be issued when an Emergency Condition may be imminent. [e30][e29] ERCOT posts it on its website and by hotline, and each QSE must immediately notify the Market Participants it represents. [e6] ERCOT may instruct TSPs or DSPs to reconfigure system elements, and each QSE, TSP and DSP must prepare for an Emergency Condition in case conditions worsen. [e25] When a Watch is issued for PRC below 3,000 MW, QSEs suspend ongoing ERCOT-required Resource performance testing. [e33]
 - **How it works #6** (cites e8, e26, e5, e27): **Emergency Notice.** An Emergency Notice is issued when ERCOT cannot maintain minimum reliability standards with every practicably obtainable resource, or cannot take immediate action to relieve a Transmission Element above its Emergency Rating. [e8] ERCOT is in an Emergency Condition whenever a violation of security criteria threatens uncontrolled separation, cascading outages, large-scale load disruption (other than load on a radial line) or overload of a Transmission Element and no timely solution is available through SCED or CMPs. [e26] If it results from a transmission problem, ERCOT acts immediately, including instructing TSPs or DSPs to drop load, and may instruct an ESR QSE to suspend charging if that load reduction could mitigate the problem. [e5][e27]
 - **ERCOT context #1** (cites e10, e9, e32): The notices tie to resource obligations: when ERCOT issues any of the four due to forecast or actual cold or hot weather, QSEs must update the COP, telemetry and outage or derate reporting for each generation resource and ESR to reflect operating limits. [e10] ERCOT uses PRC and system frequency to determine the appropriate Emergency Notice and EEA levels. [e9] Downward, the Operating Guides say ERCOT notifies TOs and QSEs, TOs notify TSPs and LSEs, and QSEs notify resources, REPs and LSEs. [e32]
-- **Key facts #1** (cites e1, e14, e15, e12): - Four communications: OCN, Advisory, Watch (three levels in anticipation) and Emergency Notice. [e1][e14][e15][e12]
 - **Key facts #2** (cites e3, e28): - An OCN is for information only; ERCOT exercises no additional operational authority with it, and it does not place ERCOT in an Emergency Condition. [e3][e28]
-- **Key facts #3** (cites e2): - ERCOT can bypass steps when time is short. [e2]
-- **Key facts #4** (cites e6): - A Watch is posted to the website and by TO and QSE hotline. [e6]
-- **Key facts #5** (cites e10): - Weather-driven notices require QSEs to update COP, telemetry and derate reporting for resources. [e10]
 - **Key facts #6** (cites e22): - An Advisory can lead ERCOT to raise ancillary service requirements above day-ahead quantities. [e22]
 - **Key facts #7** (cites e21): - Fuel capability requests last no more than seven days from the request. [e21]
-- **Say it like this #1** (cites e3, e7, e11, e12, e2): ERCOT escalates in steps: an OCN is a heads-up, an Advisory says more reserves or lead time are needed, a Watch says normal market tools may not solve a security problem, and an Emergency Notice says ERCOT is in an Emergency Condition. It can skip steps if time is short. [e3][e7][e11][e12][e2]
 - **Common confusion #1** (cites e17, e9, e15, e28): An Emergency Notice is not an EEA level. The EEA is the orderly procedure for maximizing resources and, only if necessary, curtailing load. [e17] ERCOT uses PRC and frequency to pick both the Emergency Notice and the EEA level. [e9] A Watch is also not an EEA; it is the third of the three pre-emergency communications. [e15] And an OCN, Advisory or Watch does not itself place ERCOT in an Emergency Condition; the Operating Guides say so for an OCN. [e28]
-- **Questions #2** (cites e1, e14, e15, e12): OCN, Advisory and Watch, then the Emergency Notice when ERCOT is operating in an Emergency Condition. [e1][e14][e15][e12]
-- **Questions #4** (cites e3): No. OCNs are informational only and ERCOT exercises no additional operational authority, though it may ask QSEs for more information. [e3]
-- **Questions #6** (cites e10, e5, e6): Update the COP, telemetry and outage or derate reporting for each generation resource and ESR to reflect operating limits, and for Advisories and Watches pass the notice to those they represent. [e10][e5][e6]
 - **Questions #8** (cites e2): The type of communication depends mainly on the time the market has to respond, and ERCOT may bypass steps if there is insufficient time. [e2]
 - **Questions #10** (cites e24): That is one of the Watch triggers: a Watch is issued when SCED fails to reach a solution. [e24]
 - **Questions #12** (cites e22): ERCOT may use it to raise ancillary service requirements above the day-ahead quantities, which changes what the market must supply. [e22]
@@ -276,3 +253,4 @@ AFTER:  (2) ERCOT may require information from QSEs and TOs. Typical information
 - **Link to weather-load** (cites e4): related Weather-Driven Load (CDD / HDD): Weather conditions are among the stated reasons for OCNs. [e4]
 - **Link to ancillary-services** (cites e22): related Ancillary Services (AS): ERCOT may raise ancillary service requirements above the day-ahead quantities when it issues an Advisory. [e22]
 - **Link to energy-storage-resource** (cites e27): related Energy Storage Resource (ESR): On an Emergency Notice caused by a transmission problem, ERCOT may instruct an ESR QSE to suspend charging. [e27]
+

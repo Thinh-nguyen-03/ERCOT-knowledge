@@ -46,13 +46,6 @@ BEFORE: …ction (h) of this section. (f) Nodal energy prices for resources. ERC
 QUOTE: Energy trading hubs. ERCOT shall provide information for energy trading hubs by aggregating nodes and calculating an average price for each aggregation, for each financial settlement interval.
 AFTER:  (h) Zonal energy prices for loads. ERCOT shall use zonal energy prices for loads that consist of an aggregation of either the individual load node energy prices within each zone or the individual §25.501--1 effective date 4/18/12 (P39917) CHAPTER 25. SUBSTANTIVE PROVIDERS. Subchapter S. RULES APPLI…
 
-### e6 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
-locator: Section 6.1, Introduction, paragraph (4) · text copy line 408 · heading above: 6.1 Introduction
-
-BEFORE: …------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ (4) 
-QUOTE: Real-Time energy settlements use Real-Time Settlement Point Prices that are calculated for Resource Nodes, Load Zones, and Hubs for a 15-minute Settlement Interval
-AFTER: , using the Locational Marginal Prices (LMPs) from all of the executions of SCED in the Settlement Interval. Similarly, Real-Time Ancillary Service Settlements use Real-Time Market (RTM) Clearing Prices for Capacity (MCPCs) for a 15-minute Settlement Interval, using the MCPCs from all of the executi…
-
 ### e8 · `np-22r` · tier 1 · ERCOT Nodal Protocols, Section 22 Attachment R: Procedure for Identifying Resource Nodes (effective 2026-04-01)
 locator: Procedure to Incorporate a Resource Node into the Network Operations Model, items 4-5 · text copy line 28
 
@@ -186,29 +179,18 @@ BEFORE: …---------------------------------------------------------------------
 QUOTE: This procedure is the guiding attachment for ERCOT and Market Participants with a Generation Resource, Energy Storage Resource (ESR), or Controllable Load Resource (CLR) that is not an Aggregate Load Resource (ALR), to identify Resource Nodes and manage the lifecycle of the Resource Node.
 AFTER:  | +===================================================================================================================================================================================================================================================================================================+ +--…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
-- **Definition #1** (cites e1): A Resource Node is either a logical construct that creates a virtual pricing point needed to model a Combined-Cycle Configuration, or an Electrical Bus defined in the Network Operations Model, at which a Settlement Point Price for a Generation Resource or Energy Storage Resource is calculated and used in Settlement. [e1] All Resource Nodes are identified under Section 22, Attachment R. [e1]
-- **How it works #1** (cites e3, e4, e6): In the day-ahead, the price at a Resource Node for an hour is simply the LMP at that node from the DAM process. [e3] In real time, the price is the time-weighted average of the sum of the Real-Time LMPs and the Real-Time Reliability Deployment Price Adder for Energy, calculated for each 15-minute Settlement Interval. [e4][e6]
-- **ERCOT context #1** (cites e1, e2, e7, e4, e5): The Resource Node is the generator's side of the market: it is a Settlement Point alongside the Load Zone and Hub, and it is the point where a Generation Resource or ESR price is calculated, whereas a Hub aggregates nodes into an average price. [e1][e2][e7] Because the Load Zone price is based on state-estimated Load and time-weighted average LMPs across buses in the zone, a generator paid at its node and a load paid at its zone can see different prices in the same interval. [e4][e5]
 - **ERCOT context #3** (cites e8, e10, e24): Section 22, Attachment R sets the procedure. The Resource Entity submits registration information with a one-line drawing, ERCOT's Network Modeling Group proposes the parameters, and the Resource Entity has five Business Days to accept or reject them. [e8] If there is no agreement within 20 Business Days, no Resource Node parameters are entered in the Network Operations Model, which may affect CRR Network Models and CRR activities for that Resource, and an agreement is required before implementation. [e10] Once effective, the Resource Node name cannot be changed. [e24]
 - **ERCOT context #4** (cites e12, e11, e13, e14, e15, e16, e22, e23): A Generation Resource, or an ESR, can be mapped to only one Resource Node, so its offers settle at one price. [e12] Several Resources can share a node. [e11] The location is set by the First Fork Rule: the first Electrical Bus with alternate paths from the Resource Connectivity Node, where parallel paths do not count. [e13] Other rules favour a bus less often de-energized and a bus with no constrainable element between the node and the plant. [e14][e15] If the rules conflict they are applied in priority order, with ERCOT discretion, provided the Resource Entity cannot control its Resource Node price. [e16] Resource Nodes are not placed at DC Ties, which are Load Zones. [e22] After a later ownership change the node does not move. [e23]
 - **ERCOT context #5** (cites e19, e20, e21): Combined cycle plants: each CCP train has a logical Resource Node to which all of its configurations map. [e19] In real time that node's price is the weighted average of unit node LMPs, weighted by telemetered output when On-Line and by High Reasonability Limit when the train is Off-Line. [e20] A Private Use Network Resource Node is optional and sits where the EPS Meter is effectively located when no other node does. [e21]
 - **ERCOT context #6** (cites e18): Retirement: a Resource Node cannot be retired until outstanding CRRs on it have settled, unless a model error was made in creating it, and TSPs cannot submit a NOMCR to delete one. [e18]
 - **ERCOT context #7** (cites e25) FLAG number-not-in-quote: 2026: Pending: the Attachment R text dated April 1, 2026 carries an OBDRR046 box that, upon system implementation of NPRR1188, extends the procedure to Controllable Load Resources that are not Aggregate Load Resources. It is not yet in effect. [e25]
-- **Key facts #1** (cites e1): - A Resource Node can be an Electrical Bus or a virtual point used to model a Combined-Cycle Configuration. [e1]
-- **Key facts #2** (cites e1): - Resource Nodes apply to Generation Resources and Energy Storage Resources. [e1]
-- **Key facts #3** (cites e3): - The day-ahead Resource Node price is the DAM LMP at that node. [e3]
-- **Key facts #4** (cites e4): - The real-time Resource Node price includes the Reliability Deployment Price Adder for Energy. [e4]
 - **Key facts #5** (cites e8, e10) FLAG number-not-in-quote: 2026: - The Resource Entity has five Business Days to accept or reject proposed node parameters; the normal procedure is capped at 20 Business Days (Attachment R, dated April 1, 2026). [e8][e10]
 - **Key facts #6** (cites e12): - A Generation Resource or ESR maps to exactly one Resource Node. [e12]
 - **Key facts #7** (cites e17): - A PTP Obligation that sinks at a Resource Node and has a positive value can be paid less when network elements were oversold in earlier CRR Auctions. [e17]
-- **Common confusion #1** (cites e1, e7): - Resource Node versus Hub: a Hub aggregates nodes into an average price; a Resource Node is where a Generation Resource's or ESR's price is calculated. [e1][e7]
-- **Common confusion #2** (cites e5): - Resource Node versus Load Zone: the zone price is based on state-estimated Load and time-weighted average LMPs across the zone's buses, not a single node. [e5]
-- **Questions #2** (cites e3): The DASPP at its Resource Node, which is the LMP at that node for the hour from the DAM. [e3]
 - **Questions #4** (cites e13, e15, e16): The rule puts the node at the first bus with alternate paths from the plant, and the other placement rules aim for no congestion between the node and the plant's connection point. [e13][e15] Attachment R also says ERCOT uses discretion only where the location does not let the Resource Entity control its node price. [e16] (Reading: the design keeps the node price from reflecting congestion the plant itself creates.)
 - **Questions #6** (cites e10, e26): After 20 Business Days with no agreement, no parameters go into the Network Operations Model, which can affect CRR activity for that Resource. [e10] Attachment R says the Wholesale Market Subcommittee or an appropriate working group helps guide the decision. [e26]
-- **Questions #8** (cites e1): Yes. It can be a logical construct that creates a virtual pricing point required to model a Combined-Cycle Configuration. [e1]
 - **Link to settlement-point** (cites e2): is-a Settlement Point: A Resource Node is one of the three kinds of Settlement Point. [e2]
 - **Link to spp** (cites e3, e4): determines SPP (Settlement Point Price): The Resource Node price is the DAM LMP in the day-ahead and a time-weighted LMP plus adder in real time. [e3][e4]
 - **Link to lmp** (cites e3): related LMP (Locational Marginal Price): Resource Node prices are built directly from LMPs at that node. [e3]
@@ -218,6 +200,7 @@ AFTER:  | +=====================================================================
 - **Link to ptp-obligation** (cites e11): related PTP Obligation: PTP bids can be submitted and settled at a Generation Resource Node, subject to the PUN exception. [e11]
 - **Link to energy-storage-resource** (cites e12, e9): related Energy Storage Resource (ESR): An ESR can be mapped to only one Resource Node, and its charging consumption is withdrawn at the Resource Connectivity Node. [e12][e9]
 - **Link to congestion** (cites e15): related Transmission Congestion: The placement rules aim at no congestion between the Resource Node and the physical connection point. [e15]
+
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
 - (Say it like this) The resource node is the pricing point where a generator or battery is paid. Its day-ahead price is the node LMP, and its real-time price is the time-weighted node LMP plus any reliability deployment adder.

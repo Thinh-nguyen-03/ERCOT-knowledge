@@ -2,6 +2,7 @@
 // so a human or reviewing agent can judge each statement against its quote AND the text around the quote.
 //   node pipeline/audit.ts     -> preview/audit/flags.json, preview/audit/SUMMARY.md, preview/audit/packets/<id>.md
 import { existsSync, mkdirSync, readFileSync, writeFileSync, rmSync } from "node:fs";
+import { execFileSync } from "node:child_process";
 import { blocks, loadSources, loadTopicList, loadTopics, markers, normalize, p } from "./lib.ts";
 
 type Copy = { kind: "text" | "ocr" | "alt"; norm: string; lineAt: number[]; lines: string[] };
@@ -54,6 +55,22 @@ function locate(source: string, quote: string) {
 const NUM = /\$\s?\d[\d,]*(?:\.\d+)?|\d[\d,]*(?:\.\d+)?\s?(?:%|percent|MW|GW|MWh|kV|Hz|GWh|kW)|\b(?:19|20)\d\d\b|\b\d{1,3}(?:,\d{3})+(?:\.\d+)?\b|\b\d+\.\d+\b/g;
 const digits = (s: string) => (s.match(/\d[\d,]*(?:\.\d+)?/) ?? [""])[0].replace(/,/g, "").replace(/\.0+$/, "");
 
+// --since <git-rev>: packets list only evidence and statements that are new or changed since that commit,
+// so a re-audit after a deeper pass does not re-read material already audited. Industry-reference topics
+// audited separately can be skipped with --skip-audited (topics already logged in preview/audit-log/I*.md).
+const sinceArg = process.argv.indexOf("--since"), since = sinceArg > 0 ? process.argv[sinceArg + 1] : null;
+function oldVersion(file: string): { quotes: Set<string>; blocks: Set<string> } {
+  const out = { quotes: new Set<string>(), blocks: new Set<string>() };
+  if (!since) return out;
+  try {
+    const raw = execFileSync("git", ["show", `${since}:content/topics/${file}`], { encoding: "utf8", maxBuffer: 1 << 28, stdio: ["ignore", "pipe", "ignore"] });
+    for (const m of raw.matchAll(/^\s+quote:\s*(.*)$/gm)) out.quotes.add(normalize(m[1].replace(/^["']|["']$/g, "").replace(/\\"/g, '"')).slice(0, 80));
+    const body = raw.split(/\n---\n/).slice(1).join("\n---\n");
+    for (const b of blocks(body)) out.blocks.add(normalize(b.replace(/\[e\d+\]/g, "")));
+  } catch { /* file did not exist at that commit: everything is new */ }
+  return out;
+}
+let totalNewQuotes = 0, totalNewStatements = 0;
 const list = loadTopicList();
 const nameOf = new Map(list.nodes.map((n) => [n.id, n.name]));
 const sources = new Map(loadSources().map((s) => [s.id, s]));
@@ -68,6 +85,9 @@ const tierCount: Record<string, number> = {};
 
 for (const t of topics) {
   const id = t.meta.id, ev = new Map((t.meta.evidence ?? []).map((e) => [e.id, e]));
+  const old = oldVersion(t.file);
+  const isNewQuote = (e: { quote: string }) => !since || !old.quotes.has(normalize(e.quote).slice(0, 80));
+  const needed = new Set<string>();
   const loc = new Map<string, ReturnType<typeof locate>>();
   for (const e of ev.values()) {
     const l = locate(e.source, e.quote); loc.set(e.id, l);
@@ -87,18 +107,24 @@ for (const t of topics) {
     const stmt = text.replace(/\[e\d+\]/g, "").replace(/^\s*(\d+\.|[-*])\s+/, "");
     const missing = [...new Set((stmt.match(NUM) ?? []).map((n) => n.trim()))].filter((n) => !quoteDigits.has(digits(n)) && ![...quoteDigits].some((q) => q && (q.startsWith(digits(n)) || digits(n).startsWith(q))));
     if (missing.length) flags.push({ topic: id, kind: "number-not-in-quote", where, detail: `${missing.join(", ")} :: ${stmt.slice(0, 140)}` });
-    P.push(`- **${where}** (cites ${ms.join(", ")})${missing.length ? " FLAG number-not-in-quote: " + missing.join(", ") : ""}: ${text}`);
+    const changed = !since || !old.blocks.has(normalize(text.replace(/\[e\d+\]/g, ""))) || ms.some((m) => ev.get(m) && isNewQuote(ev.get(m)!));
+    if (!changed) return;
+    totalNewStatements++; ms.forEach((m) => needed.add(m));
+    S2.push(`- **${where}** (cites ${ms.join(", ")})${missing.length ? " FLAG number-not-in-quote: " + missing.join(", ") : ""}: ${text}`);
   };
+  const S2: string[] = [];
+  for (const s of t.sections) { if (s.heading === "Open items") continue; blocks(s.body).forEach((b, i) => unit(`${s.heading} #${i + 1}`, b)); }
+  (t.meta.links ?? []).forEach((l) => { unit(`Link to ${l.to}`, `${l.type} ${nameOf.get(l.to) ?? l.to}: ${l.note ?? ""}`); if (!written.has(l.to)) flags.push({ topic: id, kind: "link-to-unwritten", where: l.to, detail: "" }); });
   P.push("## Evidence (quote, where it sits in the source, and the text around it)", "");
   for (const e of ev.values()) {
+    if (!needed.has(e.id)) continue;
+    if (isNewQuote(e)) totalNewQuotes++;
     const l = loc.get(e.id), s = sources.get(e.source);
     P.push(`### ${e.id} · \`${e.source}\` · tier ${s?.tier} · ${s?.title}${s?.edition ? " (" + s.edition + ")" : ""}`,
       `locator: ${e.locator}` + (l ? ` · ${l.copy} copy line ${l.line}${l.page ? ", OCR page " + l.page : ""}${l.heading ? " · heading above: " + l.heading : ""}` : " · NOT FOUND"),
       l?.pending ? `FLAG pending-box: ${l.pending}` : "", `BEFORE: …${l?.before.slice(-300) ?? ""}`, `QUOTE: ${normalize(e.quote)}`, `AFTER: ${l?.after.slice(0, 300) ?? ""}…`, "");
   }
-  P.push("## Statements to check", "");
-  for (const s of t.sections) { if (s.heading === "Open items") continue; blocks(s.body).forEach((b, i) => unit(`${s.heading} #${i + 1}`, b)); }
-  (t.meta.links ?? []).forEach((l) => { unit(`Link to ${l.to}`, `${l.type} ${nameOf.get(l.to) ?? l.to}: ${l.note ?? ""}`); if (!written.has(l.to)) flags.push({ topic: id, kind: "link-to-unwritten", where: l.to, detail: "" }); });
+  P.push("## Statements to check" + (since ? " (new or changed since the last audit)" : ""), "", ...S2, "");
   // uncited blocks in guidance sections, listed so a reviewer can scan them for smuggled facts
   const g: string[] = [];
   for (const s of t.sections) if (["Say it like this", "Common confusion", "Questions", "Scenarios", "Example"].includes(s.heading))
@@ -114,4 +140,4 @@ const S = ["# Mechanical audit", "", `Generated ${new Date().toISOString().slice
   "## Counts", "", ...Object.entries(by).map(([k, v]) => `- ${k}: ${v}`), "", "## Evidence quotes by source tier", "", ...Object.entries(tierCount).map(([k, v]) => `- tier ${k}: ${v}`), ""];
 for (const k of Object.keys(by)) { S.push(`## ${k}`, ""); for (const f of flags.filter((x) => x.kind === k)) S.push(`- ${f.topic} · ${f.where}${f.detail ? " · " + f.detail : ""}`); S.push(""); }
 writeFileSync(p("preview/audit/SUMMARY.md"), S.join("\n"));
-console.log(JSON.stringify({ topics: topics.length, flags: by, tiers: tierCount, ocrPages: [...ocrPages].map(([k, v]) => `${k}:${v.size}`) }));
+console.log(JSON.stringify({ since, newQuotes: totalNewQuotes, newOrChangedStatements: totalNewStatements, topics: topics.length, flags: by, tiers: tierCount, ocrPages: [...ocrPages].map(([k, v]) => `${k}:${v.size}`) }));

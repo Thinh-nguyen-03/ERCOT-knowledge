@@ -263,7 +263,7 @@ BEFORE: …formance Monitoring. (8) ERCOT shall issue Reg-Up and Reg-Down deploy
 QUOTE: (10) Upon the receipt of new Base Points and Ancillary Service awards from SCED, LFC will reset Regulation Service instructions to zero.
 AFTER:  6.5.7.6.2.2 Deployment of Responsive Reserve (RRS) (1) RRS is intended to: (a) Help restore the frequency within the first few seconds of a significant frequency deviation of the interconnected transmission system; and (b) Provide energy during the implementation of an EEA. (2) ERCOT shall deploy R…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
 - **Definition #1** (cites e1, e16, e3): Regulation Up Service (Reg-Up) is a service that provides capacity that can respond to signals from ERCOT within five seconds to respond to changes from scheduled system frequency. [e1] Regulation Down Service (Reg-Down) is defined in the Protocols in the same terms, and Reg-Down capacity is the amount available below a Generation Resource's Base Point, down to its low limit. [e16][e3]
 - **How it works #1** (cites e2, e35, e15, e1, e9): ERCOT dispatches regulation by a Load Frequency Control (LFC) signal, sent through an automatic signal from ERCOT to each QSE provider. [e2][e35] A generator or an ESR in discharge mode providing Reg-Up raises output when deployed and lowers it when recalled, while a Load Resource or an ESR in charge mode providing Reg-Up cuts load when deployed and restores it when recalled. [e2] ERCOT executes LFC every four seconds, which resolves the apparent conflict with the five-second figure: five seconds is the response time the service must meet, and four seconds is how often the control signal is issued. [e15][e1][e9]
@@ -277,16 +277,10 @@ AFTER:  6.5.7.6.2.2 Deployment of Responsive Reserve (RRS) (1) RRS is intended t
 - **ERCOT context #4** (cites e34, e33, e32) FLAG number-not-in-quote: 2021, 2025: On prices and cost, the IMM reports annual average DAM clearing prices for Reg-Down of $116.16, $9.64, $15.19, $3.90 and $1.79 per MWh for 2021 to 2025 (OCR reading), and 2025 regulation charges of $11 million for Reg-Up and $6 million for Reg-Down. [e34][e33] The IMM says regulation has the most expensive offers in the real-time market since RTC go-live, consistent with its higher opportunity cost. [e32]
 - **Key facts #1** (cites e1, e15): - Reg-Up provides capacity that can respond to ERCOT signals within five seconds; LFC runs every four seconds. [e1][e15]
 - **Key facts #2** (cites e2, e4): - ERCOT dispatches Reg-Up by an LFC signal; regulation energy is settled at the Resource's Settlement Point Price. [e2][e4]
-- **Key facts #3** (cites e5): - Implied ramp rate in MW per minute equals the regulation award divided by five. [e5]
 - **Key facts #4** (cites e18, e17, e20): - Qualification: 60-minute test, full capacity deliverable within five minutes, ESREDP at or below 3.0% in test intervals for an ESR. [e18][e17][e20]
 - **Key facts #5** (cites e29): - Qualified and reported quantity is limited to what can be sustained for 30 minutes. [e29]
-- **Key facts #6** (cites e7): - ECRS provides backup to Reg-Up. [e7]
 - **Key facts #7** (cites e8, e34) FLAG number-not-in-quote: 2025: - 2025: ESRs provided 94% of Reg-Up and 86% of Reg-Down on average; Reg-Down averaged $1.79/MWh in the day-ahead market (OCR). [e8][e34]
-- **Say it like this #1** (cites e2, e6, e8): Regulation is the fast frequency-balancing service: resources follow ERCOT's LFC signal up or down. Batteries now supply most of it, and ERCOT may not substitute another ancillary service for it. [e2][e6][e8]
 - **Common confusion #1** (cites e2, e13, e3, e1, e15): Regulation is not the same as RRS: ERCOT dispatches Reg-Up by an LFC signal, while RRS is used in response to a significant frequency deviation. [e2][e13] Reg-Up and Reg-Down are separate products, and Reg-Down capacity is the amount available below the Base Point. [e3] The five-second response requirement and the four-second LFC cycle are different things. [e1][e15]
-- **Questions #2** (cites e1, e2, e3): Reg-Up is capacity that can respond to ERCOT signals within five seconds and is deployed by raising output (or cutting load). [e1][e2] Reg-Down is the capacity available below the Base Point that can be called on to change output to maintain frequency. [e3]
-- **Questions #4** (cites e4): ERCOT settles energy provided by Reg-Up and Reg-Down at the resource's Settlement Point Price, and it is to minimize regulation energy in each SCED cycle. [e4]
-- **Questions #6** (cites e8) FLAG number-not-in-quote: 2025: Mostly batteries: ESRs provided 94% of Reg-Up and 86% of Reg-Down in 2025 on average. [e8]
 - **Questions #8** (cites e18, e17, e20): It passes a 60-minute test where ERCOT sends random ramp, hold and ramp-down signals, delivers the full amount within five minutes, and keeps ESREDP at or below 3.0% in the test intervals. [e18][e17][e20]
 - **Questions #10** (cites e22): The AS Methodology says that when the monthly average CPS1 score is under 140%, ERCOT applies an extra 10% of both Reg-Up and Reg-Down in the hours where the score was under 140%. (Guidance: the extra quantity is a margin against poor control performance.) [e22]
 - **Questions #12** (cites e30): ERCOT's NPRR1282 analysis says the Regulation and RRS duration was raised from 15 to 30 minutes to reduce the risk of violating NERC BAL-001 if SCED is not available. [e30]
@@ -298,3 +292,4 @@ AFTER:  6.5.7.6.2.2 Deployment of Responsive Reserve (RRS) (1) RRS is intended t
 - **Link to rtc-b** (cites e12): related RTC+B (Real-Time Co-optimization + Batteries): Since RTC, ERCOT also procures ancillary services in real time. [e12]
 - **Link to asdc** (cites e24, e25): related ASDC (Ancillary Service Demand Curves): The Reg-Up ASDC has a maximum demand price of VOLL plus 4,052 $/MWh and a minimum price of 250 $/MWh in the current Protocol text. [e24][e25]
 - **Link to prc** (cites e14): related PRC (Physical Responsive Capability): Regulation capability is one of the items ERCOT monitors in real time next to PRC, and ECRS is sized to restore Reg-Up and RRS. [e14]
+

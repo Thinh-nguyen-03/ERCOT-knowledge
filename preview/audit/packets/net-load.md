@@ -88,13 +88,6 @@ BEFORE: …ity was lower on both an absolute and percentage basis. This trend li
 QUOTE: As in 2024, most price spikes in 2025 occurred during the peak net load hours between 7 and 9 p.m., when solar production across the state ramped down for the day.
 AFTER:  During this ramp-down period, SCED often dispatches quick-start natural gas plants or energy storage resources with high-priced energy offer curves, which results in frequent and predictable price spikes. Price spikes during this evening ramp accounted for 30% of all price spikes in 2025, up from 2…
 
-### e13 · `ercot-mora-2027-01` · tier 2 · Monthly Outlook for Resource Adequacy (MORA), January 2027 (posted 2026-11-06)
-locator: Battery Energy Storage System (BESS) Output Sub-model description · text copy line 16378
-
-BEFORE: … PRRM. The sub-model uses net load "look-ahead" functionality to build the daily BESS charge/discharge schedule. This entails (1) ranking all the forecasted net load hours during a given scheduling period from highest to lowest, and (2) determining the highest net load hour for a scheduling period. 
-QUOTE: The daily scheduling period for non-winter months is all 24 hours, while the winter months have two daily scheduling periods, hours 1-10 and 11-24, reflecting bimodal morning and evening high net load periods, respectively.
-AFTER:  The sub-model then determines the fleet's operational state for each hour. The four operational states are charge, discharge, top-off, and idle. (The top-off state reflects an extra charging window just before the peak load for hours that aren't already charging. It's purpose is to ensure that the …
-
 ### e14 · `ercot-summer-2026-review` · tier 2 · Summer 2026 Operational and Market Review (September 2026)
 locator: Key Takeaways slide · text copy line 24
 
@@ -109,28 +102,128 @@ BEFORE: …), is a major determinant of thermal resource commitment decisions. A
 QUOTE: Figure 50 illustrates the distribution of net load forecast errors eight hours ahead of real-time.
 AFTER:  Figure 50: Distribution of Net Load Forecast Error H2 2022-2025 82 | 2025 State of the Market Report / / Market Operations Figure 50 shows that forecast accuracy for net load and IRR generation has improved meaningfully since the second half of 2022, with substantial reductions in average error. Ho…
 
-## Statements to check
+### e16 · `imm-som-2022` · tier 2 · 2022 State of the Market Report for the ERCOT Electricity Markets (published 2023)
+locator: 2022 State of the Market Report, Demand and Supply in ERCOT, discussion of Figure 19 · text copy line 2716
 
-- **Definition #1** (cites e1, e3): In the ERCOT Protocols, Net Load is the Load for a given period minus generation from solar (PVGRs) and wind (WGRs) for the same period. [e1] Peak net load is the highest value of that quantity over a period, which the IMM describes as the peak of system demand net of renewable generation. [e3]
-- **How it works #1** (cites e1, e3, e2): Net load is Load minus solar and wind generation for the same period, so it is the demand left over after those Resources. [e1] Because solar output falls in the evening while demand stays high, the hour of highest net load lands later than the hour of highest gross load. [e3] The IMM reports that the tightest hours have moved from the firm peak load hour around 4 to 5 p.m. to 7 to 9 p.m., the net load peak. [e2]
-- **How it works #2** (cites e5, e6, e7) FLAG number-not-in-quote: 2025: ERCOT's planning reports now track both peaks. The December 2025 CDR's base case gives summer 2026 reserve margins of 18.3% at the peak Load hour (hour ending 5 p.m. Central Standard Time) and 20.9% at the peak Net Load hour (hour ending 9 p.m. CST). [e5] ERCOT's summer 2026 review says the peak net load typically falls in HE 20-21, and that in June and July the net load hour moved from HE 21 to HE 22. [e6][e7]
-- **How it works #3** (cites e13): In winter the pattern is different: ERCOT's MORA battery model uses two scheduling windows in winter months because of bimodal morning and evening high net load periods. [e13]
-- **ERCOT context #1** (cites e12, e11): Price spikes cluster at the net peak. Most real-time price spikes in 2025 occurred during the 7 to 9 p.m. peak net load hours as solar ramped down. [e12] At the daily net peak interval, solar's capacity factor fell to 1.7% in 2025 while wind's held at 29.3%. [e11]
-- **ERCOT context #2** (cites e10, e15, e9, e8) FLAG number-not-in-quote: 2021, 39.159: Net load drives operations and procurement. As the IMM describes the AS methodology, the Regulation procurement target is set from the 95th percentile of net load forecast error on a five-minute look-ahead. [e10] Separately, the IMM measures net load forecast errors eight hours ahead of real time and says the average error fell to about 452 MW in 2025 [e15] from more than 1,000 MW in 2023 and 2024, but forecasts still under-forecast renewable output and over-forecast load. [e9] An SB 3 (2021) provision, new PURA §39.159(b)(5), refers to preventing prolonged rotating outages due to net load variability in high demand and low supply scenarios. [e8]
-- **ERCOT context #3** (cites e14) FLAG number-not-in-quote: 2026: Storage serves the net peak: ERCOT says ESRs helped serve record net loads in summer 2026, with evening state-of-charge exhaustion a pattern through the summer. [e14]
-- **Key facts #1** (cites e1): - Protocol definition: Load minus PVGR and WGR generation for the same period. [e1]
-- **Key facts #2** (cites e4): - 2024 peak net load was 69.6 GW, about 10 GW lower than 2023 and 5 GW lower than 2022 (IMM). [e4]
-- **Key facts #3** (cites e5) FLAG number-not-in-quote: 2025: - December 2025 CDR base scenario for summer 2026: 18.3% reserve margin at peak Load hour (HE 5 p.m. CST) and 20.9% at peak Net Load hour (HE 9 p.m. CST). [e5]
-- **Key facts #4** (cites e6): - 12 of the top 20 hourly net load hours were in 2026, as of ERCOT's September 2026 review. [e6]
-- **Key facts #5** (cites e9, e15): - 2025 average net load forecast error, measured by the IMM eight hours ahead of real time, was about 452 MW. [e9][e15]
-- **Key facts #6** (cites e3): - The IMM expected the peak net load hour to be in the late evening by 2028. [e3]
-- **Common confusion #1** (cites e5, e1, e6): (Guidance) Peak load and peak net load are different hours with different reserve margins; the CDR reports both. [e5] Also, the Protocol definition subtracts only solar and wind, not storage discharge; ERCOT's summer review separately shows storage's contribution against net load. [e1][e6]
-- **Questions #2** (cites e2, e12, e11): Because the system is tightest when solar has ramped down but demand is still high, and the IMM shows the tight hours and price spikes moved to 7-9 p.m. [e2][e12] Solar contributes almost nothing at that interval (1.7% capacity factor in 2025). [e11]
-- **Questions #4** (cites e1): Load for a period minus generation from PhotoVoltaic Generation Resources and Wind Generation Resources for the same period. [e1]
-- **Questions #6** (cites e10, e9, e15): It sets the Regulation procurement target (95th percentile of five-minute net load forecast error); that is a five-minute look-ahead measure. [e10] On a different horizon, eight hours ahead of real time, the IMM puts the 2025 average net load forecast error at about 452 MW. [e9][e15]
-- **Questions #8** (cites e4): Low: 69.6 GW, about 10 GW lower than 2023, which the IMM attributes to a sharp increase in solar capacity and milder summer weather. [e4]
-- **Scenarios #2** (cites e1, e11): - Look at the net peak, not the gross peak: low wind means less is subtracted from load, and solar is gone after sunset. [e1][e11]
-- **Scenarios #3** (cites e6, e7): - ERCOT's 2026 review says the peak net load usually falls in HE 20-21 and moved to HE 22 in June and July. [e6][e7]
+BEFORE: …ape of the remaining load they must serve. This also has important implications for resource adequacy in ERCOT. Figure 19 shows net load in the highest and lowest hours in 2022. Figure 19: Top and Bottom Deciles (Hours) of Net Load 32 | 2022 State of the Market Report / / Demand and Supply in ERCOT 
+QUOTE: Figure 19 shows the peak net load was 74.5 GW and the 95th percentile was 61.5 GW in 2022. These net load values across the highest 440 net load hours reflect a 14% increase from 2021. This continues a trend of increasing load that must be served by non-renewable resources. The minimum net load dropped from roughly 15 GW in 2016 to about 10.4 GW in 2022.
+AFTER:  This reflects the sizable increase in wind and solar output in off-peak hours in recent years. Although less load must be served by baseload resources in these hours (such as nuclear and coal), we believe the increases in real-time prices and net revenues discussed earlier in the report provide suf…
+
+### e17 · `imm-som-2023` · tier 2 · 2023 State of the Market Report for the ERCOT Electricity Markets (published 2024)
+locator: 2023 State of the Market Report, Demand and Supply in ERCOT, discussion of Figure 20 · text copy line 3040 · heading above: 5.8 GW of newly installed solar capacity entered the market with an effective peak serving
+
+BEFORE: …portant implications for other types of resources by changing the shape of the remaining load they must serve. This also has important implications for resource adequacy in ERCOT. Figure 20 shows net load in the highest and lowest hours in 2023. Figure 20: Top and Bottom Deciles (Hours) of Net Load 
+QUOTE: Figure 20 shows the peak net load was 79.3 GW in 2023 with the 95th percentile of peak net load at 67.6 GW. The net load values across the highest 440 net load hours reflect a 9% increase from 2022. This continues a trend of increasing load that must be served by non-renewable resources. The minimum net load dropped from roughly 15 GW in 2022 to about 12 GW in 2023.
+AFTER:  This reflects the sizable increase in wind and solar output in off-peak hours in recent years. Although less load must be served by baseload resources in these hours (such as nuclear and coal), we believe the increases in real-time prices and net revenues discussed earlier in the report provide suf…
+
+### e18 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: page 42 (OCR), Table 2: Aggregate Capacity Factor of Wind and Solar Generation 2021-2025 (columns: wind overall, daily peak load, daily net peak load; solar overall, daily peak load, daily net peak load) · ocr copy line 1747, OCR page 42 · heading above: 1.2 GW of wind, and 280 MW of combustion turbines. Since 2021, most new capacity has come
+
+BEFORE: …in 2025. In contrast, wind maintained a capacity factor of 29.3% during the same interval, a slight increase from recent years. Table 2: Aggregate Capacity Factor of Wind and Solar Generation 2021-2025 Daily Peak Daily Net Daily Peak _ Daily Net Y Il Il ear Overa Load Peak Load Overa Load Peak Load 
+QUOTE: 2021 33.0% 30.6% 25.6% 23.1% 41.2% 31.1%
+AFTER:  2022 33.6% 31.3% 27.6% 23.9% 41.4% 214% 2023 31.7% 28.5% 26.7% 22.6% 40.4% 10.1% 2024 31.4% 29.0% 27.8% 22.2% 42.5% 3.9% 2025 31.6% 28.5% 29.3% 23.8% 48.4% 1.7% E. Energy Storage Resources Energy storage resources are technologies that consume and store energy for later use. ESRs include pumped hyd…
+
+### e19 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: page 42 (OCR), Table 2, rows 2023-2025 · ocr copy line 1749, OCR page 42 · heading above: 1.2 GW of wind, and 280 MW of combustion turbines. Since 2021, most new capacity has come
+
+BEFORE: …interval, a slight increase from recent years. Table 2: Aggregate Capacity Factor of Wind and Solar Generation 2021-2025 Daily Peak Daily Net Daily Peak _ Daily Net Y Il Il ear Overa Load Peak Load Overa Load Peak Load 2021 33.0% 30.6% 25.6% 23.1% 41.2% 31.1% 2022 33.6% 31.3% 27.6% 23.9% 41.4% 214% 
+QUOTE: 2023 31.7% 28.5% 26.7% 22.6% 40.4% 10.1% 2024 31.4% 29.0% 27.8% 22.2% 42.5% 3.9% 2025 31.6% 28.5% 29.3% 23.8% 48.4% 1.7%
+AFTER:  E. Energy Storage Resources Energy storage resources are technologies that consume and store energy for later use. ESRs include pumped hydro storage systems, compressed air energy storage (CAES), hydrogen and 8 The capacity factor is the ratio of a resource's energy output to its maximum capability…
+
+### e20 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: page 28 (OCR), Review of Real-Time Market Outcomes, 4. Price Spike Impacts · ocr copy line 1091, OCR page 28
+
+BEFORE: …ad hours between 7 and 9 p.m., when solar production across the state ramped down for the day. During this ramp-down period, SCED often dispatches quick-start natural gas plants or energy storage resources with high-priced energy offer curves, which results in frequent and predictable price spikes. 
+QUOTE: Price spikes during this evening ramp accounted for 30% of all price spikes in 2025, up from 22% in 2024. Price spikes also occurred relatively frequently during the morning ramp hours, 1.e., between 6 a.m. and 8 a.m., but they accounted for only 7.5% of the total in 2025, down from 8.9% in 2024.
+AFTER:  Conversely, the share of price spikes that occurred during the middle of the day, when solar production peaks, i.e., between 9 a.m. and 2 p.m., dropped from 9.3% in 2024 to 2.7% in 2025. 6 | 2025 State of the Market Report ===== page 29 (OCR) ===== Review of Real-Time Market Outcomes The increase i…
+
+### e21 · `ercot-as-methodology-2026` · tier 1 · ERCOT Methodologies for Determining Minimum Ancillary Service Requirements, 2026 (effective 2026-01-01)
+locator: ERCOT Methodologies for Determining Minimum Ancillary Service Requirements (2026), Non-Spin section · text copy line 65
+
+BEFORE: …ss of generating capacity, to compensate for Load forecast and/or forecast uncertainty on days in which large amounts of reserve are not available online, to address the risk of net load ramp, or when there is a limited amount of capacity available for Security-Constrained Economic Dispatch (SCED). 
+QUOTE: The periods when load is increasing and wind and/or solar are decreasing requires other generation resources to increase output or come online quickly to compensate for the sudden net load increases. As a result, net load ramp risk should be accounted for in the determination of Non-Spin requirements.
+AFTER:  While net load forecast analysis may cover reserves required for forecast uncertainty, it may not necessarily cover exposure to the loss of generation and net load ramp risk. Due to this risk, it may be necessary for ERCOT to have additional reserves available to protect against forecast uncertaint…
+
+### e22 · `ercot-as-methodology-2026` · tier 1 · ERCOT Methodologies for Determining Minimum Ancillary Service Requirements, 2026 (effective 2026-01-01)
+locator: ERCOT AS Methodology (2026), ECRS and Non-Spin, Procedure · text copy line 71
+
+BEFORE: … Resources. Procedure A diagram of a probabilistic methodology used to calculate ECRS and NSRS requirements is shown below. The methodology utilizes an accounting of risk for which ECRS and NSRS are needed and accounting of historic excess capacity that may have available to respond to these risks. 
+QUOTE: Risks accounting includes 30minte ahead and 6 hour ahead historic net load forecast errors and historic rolling 6 hour ahead forced outages of conventional Resources from the previous four years.
+AFTER:  ERCOT continues to see significant growth in installed solar capacity from one year to the next; an increase in solar capacity also tends to increase the MW quantity of error in its forecast. Hence, ERCOT's reliance on historical solar forecast errors alone creates a possibility of under-estimation…
+
+### e23 · `ercot-as-methodology-2026` · tier 1 · ERCOT Methodologies for Determining Minimum Ancillary Service Requirements, 2026 (effective 2026-01-01)
+locator: ERCOT AS Methodology (2026), Regulation Service section · text copy line 37
+
+BEFORE: …tes of Regulation Service usage to perform evaluation and determine the required quantities for this service. Regulation Service is deployed in order to correct actual frequency to scheduled frequency and to ensure North American Electric Reliability Corporation (NERC) requirements are met. Summary 
+QUOTE: The Regulation Service requirements are calculated with the expectation that sufficient Regulation Service will be available to cover the 95^(th) percentile of deployed regulation or net load variability.
+AFTER:  An adjustment may also be made based on historic CPS1 performance. Procedure To evaluate Regulation Service requirements, ERCOT will collect historical Resource Registration information, CPS1 data, Regulation Service deployment data, and ERCOT system load data. For determining the base Reg-Up requi…
+
+### e24 · `ercot-cdr-2025-12` · tier 2 · Report on the Capacity, Demand and Reserves (CDR) in the ERCOT Region, 2026-2030 (December 2025)
+locator: December 2025 CDR, ELCC/resource definitions appendix, ECRS description · text copy line 114100
+
+BEFORE: … restoring frequency to its scheduled value to return the system to normal; (b) Provide energy or continued Load interruption to avoid or during the implementation of an Energy Emergency Alert (EEA); (c) Provide backup regulation; and (d) Be sustained at a specified level for two consecutive hours. 
+QUOTE: ECRS was developed to address net load ramps and take advantage of Energy Storage Resources with maximum durations of at least two hours.
+AFTER:  Forecast Zone The CDR report uses Forecast Zones to identify the geographical location of generation resources. Forecast Zones generally have the same boundaries as the 2003 Congestion Management Zones with the following exceptions: A) Panhandle Zone for resources in the Texas Panhandle counties an…
+
+### e25 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: Executive Summary, Competition and Market Power · text copy line 973
+
+BEFORE: …te of the Market Report | vii / / Executive Summary Competition and Market Power We evaluate market power from two perspectives: structural (does market power exist) and behavioral (have attempts been made to exercise it). There has been a downtrend in uncompetitive hours over the last three years. 
+QUOTE: The percentage of top-quartile net load hours with a pivotal supplier declined from over 90% in 2022 to 35% in 2025. This positive development is due in large part to milder weather and a large influx of energy storage resources held by smaller participants.
+AFTER:  Potential economic withholding, measured by the output gap, occurs frequently but has a relatively low impact. Along with the declining frequency of uncompetitive hours, this reflects a generally positive competitive environment. Analysis of potential physical withholding indicates that large suppl…
+
+### e26 · `ercot-cdr-2025-12` · tier 2 · Report on the Capacity, Demand and Reserves (CDR) in the ERCOT Region, 2026-2030 (December 2025)
+locator: December 2025 CDR, Planning Reserve Margins for the Peak Load and Peak Net Load Hours · text copy line 283
+
+BEFORE: …eserve Margins for the Peak Load and Peak Net Load Hours ● The following charts show the summer and winter Planning Reserve Margin trends for the scenario based on the ERCOT Adjusted Load Forecast and Protocol-prescribed resource capacity. Trends are shown for the peak Load and peak Net Load hours. 
+QUOTE: For the winter, both peak Load and peak Net Load Margins enter negative territory beginning winter 2028/29.
+AFTER:  The lower and sharply downward trajectory of the Margins is due to (1) high load growth largely driven by new Loads reported by Transmission Service Providers, (2) a lower capacity contribution from wind and solar resources due to the use of Effective Load Carrying Capabilities, (3) fewer planned r…
+
+### e27 · `ercot-monthly-ops-2026-10` · tier 2 · ERCOT Monthly Operational Overview, 2026-10 (2026-10)
+locator: Monthly Operational Overview (October 2026), slide 8, Net Load Forecast Performance · text copy line 304
+
+BEFORE: …d on the maximum net system hourly value from the October 2026 Demand and Energy report. **Based on the minimum net system 15-minute interval value from the October 2026 Demand and Energy report. Data for latest two months are based on preliminary settlements. 7 PUBLIC Net Load Forecast Performance 
+QUOTE: Day Ahead Net Load Forecast - Mean Absolute Forecast Error Day Ahead Net Load Forecast MAE (MW) KPI Goal (4,000 MW)
+AFTER:  4,500 4,000 3,500 3,000 2,500 2,000 1,500 1,000 500 0 8 PUBLIC Loads Approved to Energize - Observations • Of the 9,456 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly peak consumption of 5,115 MW in October 2026, which is a large increase since September 2…
+
+### e28 · `ercot-summer-2026-review` · tier 2 · Summer 2026 Operational and Market Review (September 2026)
+locator: Slide 8: Net Load HE 17-22 for Summers 2024-2026, footnote · text copy line 349
+
+BEFORE: …11 7/12 7/13 7/14 7/15 7/16 7/17 7/18 7/19 7/21 7/22 7/23 7/24 7/25 7/26 7/27 7/28 7/29 7/30 7/31 8/1 8/2 8/3 8/4 8/5 8/6 8/7 8/8 8/9 8/10 8/11 8/12 8/13 8/15 8/16 8/17 MW 2025/2026 Summer Thermal Forced Outage Comparison 2025 Ext Planned Outage MW 2025 Forced Outage MW 2026 Ext Planned Outage MW 0 
+QUOTE: *2026 data period is 6/1 - 8/15
+AFTER:  2026 Forced Outage MW Key Takeaway: Summer 2026 has generally had lower forced outages than summer 2025. 6 Historic Summer Thermal Forced Outage Comparison Summer Thermal Forced Outage (% of Installed Capacity) 25% 20% 15% 10% 5% 0% 6/1 6/2 6/3 6/4 6/5 6/6 6/8 6/9 6/10 6/11 6/12 6/13 6/15 6/16 6/17…
+
+### e29 · `ercot-cdr-2025-12` · tier 2 · Report on the Capacity, Demand and Reserves (CDR) in the ERCOT Region, 2026-2030 (December 2025)
+locator: December 2025 CDR, Definitions, Net Load / Peak Net Load · text copy line 114147
+
+BEFORE: …is not available for operations during the summer Peak Load Season (June, July, August and September) or winter Peak Load Season (December, January and February). Seasons Summer months are June, July, August, and September; winter months are December, January, and February. Net Load / Peak Net Load 
+QUOTE: The Load for a given period minus generation from PhotoVoltaic Generation Resources (PVGRs) and Wind Generation Resources (WGRs) for the same period. The peak Net Load is the highest value for the given period.
+AFTER:  Private Use Networks (PUNs) An electric network connected to the ERCOT transmission grid that contains load that is not directly metered by ERCOT (i.e., load that is typically netted with internal generation). The Capacity from Private Use Networks forecast estimate in the Seasonal Summary tab is b…
+
+## Statements to check (new or changed since the last audit)
+
+- **Definition #1** (cites e1, e29, e3) FLAG number-not-in-quote: 2025: In the ERCOT Protocols, Net Load is the Load for a given period minus generation from solar (PVGRs) and wind (WGRs) for the same period. [e1] The December 2025 CDR uses the same definition and defines the peak Net Load as the highest value for the given period. [e29] The IMM describes peak net load as the peak of system demand net of renewable generation. [e3]
+- **How it works #2** (cites e5, e26, e6, e7, e28) FLAG number-not-in-quote: 2025: ERCOT's planning reports now track both peaks. The December 2025 CDR's base case gives summer 2026 reserve margins of 18.3% at the peak Load hour (hour ending 5 p.m. Central Standard Time) and 20.9% at the peak Net Load hour (hour ending 9 p.m. CST). [e5] For winter, the same CDR says both the peak Load and peak Net Load margins turn negative from winter 2028/29. [e26] ERCOT's summer 2026 review says the peak net load typically falls in HE 20-21 [e6], and that the hour of highest average net load in June and July moved from HE 21 to HE 22, based on 2026 data from June 1 to August 15. [e7][e28]
+- **How it works #4** (cites e23, e21, e22, e24) FLAG number-not-in-quote: 2026: Net load sizes reserves. Regulation requirements are set to cover the 95th percentile of deployed regulation or net load variability, per ERCOT's 2026 methodology. [e23] ERCOT says periods when load rises while wind or solar fall need other generation to ramp or start quickly, so net load ramp risk is accounted for in Non-Spin requirements. [e21] The ECRS and Non-Spin risk calculation uses 30-minute-ahead and 6-hour-ahead historic net load forecast errors and 6-hour-ahead forced outages from the previous four years. [e22] The CDR says ECRS itself was developed to address net load ramps. [e24]
+- **ERCOT context #1** (cites e12, e20): Price spikes cluster at the net peak. Most real-time price spikes in 2025 occurred during the 7 to 9 p.m. peak net load hours as solar ramped down. [e12] The IMM counts spikes during this evening ramp at 30% of all 2025 spikes (22% in 2024), against 7.5% in the 6 to 8 a.m. morning ramp (8.9% in 2024). [e20]
+- **ERCOT context #2** (cites e18, e19, e11): Solar has stopped helping at the net peak. In the IMM's Table 2, solar's capacity factor at the daily net peak interval was 31.1% in 2021, 10.1% in 2023, 3.9% in 2024 and 1.7% in 2025, while wind's was 25.6% in 2021 and 29.3% in 2025. [e18][e19][e11]
+- **ERCOT context #3** (cites e16, e17, e4): Peak net load by year (IMM): 74.5 GW in 2022 (95th percentile 61.5 GW) [e16], 79.3 GW in 2023 (95th percentile 67.6 GW) [e17], and 69.6 GW in 2024, about 10 GW below 2023, which the IMM attributes to a sharp increase in solar capacity and milder summer weather. [e4] At the other end, the IMM reports minimum net load of about 10.4 GW in 2022 (down from roughly 15 GW in 2016) and about 12 GW in 2023; its 2023 report gives the 2022 starting point as roughly 15 GW, so the two reports disagree on 2022. [e16][e17]
+- **ERCOT context #4** (cites e15, e9, e27, e8) FLAG number-not-in-quote: 2021, 39.159: Forecast error. The IMM measures net load forecast errors eight hours ahead of real time [e15] and says the average error fell to about 452 MW in 2025 from more than 1,000 MW in 2023 and 2024, but forecasts still under-forecast renewable output and over-forecast load. [e9] ERCOT's monthly operations report tracks day-ahead net load forecast mean absolute error against a KPI goal of 4,000 MW. [e27] An SB 3 (2021) provision, new PURA §39.159(b)(5), refers to preventing prolonged rotating outages due to net load variability in high demand and low supply scenarios. [e8]
+- **ERCOT context #5** (cites e25): Market power. The IMM tests structural market power in the top quartile of net load hours; the share of those hours with a pivotal supplier fell from over 90% in 2022 to 35% in 2025, which it attributes largely to milder weather and storage held by smaller participants. [e25]
+- **Timeline #1** (cites e18): - 2021: solar capacity factor at the daily net peak interval is 31.1% (IMM). [e18]
+- **Timeline #2** (cites e16): - 2022: peak net load 74.5 GW (IMM). [e16]
+- **Timeline #3** (cites e17, e19): - 2023: peak net load 79.3 GW; solar at the net peak falls to 10.1%. [e17][e19]
+- **Timeline #4** (cites e4): - 2024: peak net load 69.6 GW, about 10 GW below 2023. [e4]
+- **Timeline #5** (cites e19, e20, e9): - 2025: solar at the net peak 1.7%; evening ramp has 30% of price spikes; average 8-hour-ahead net load forecast error about 452 MW. [e19][e20][e9]
+- **Timeline #6** (cites e6, e7): - Summer 2026: 12 of the top 20 hourly net load hours are from 2026; the June-July peak hour moves to HE 22. [e6][e7]
+- **Key facts #2** (cites e16, e17, e4): - Peak net load: 74.5 GW (2022), 79.3 GW (2023), 69.6 GW (2024), all per the IMM. [e16][e17][e4]
+- **Key facts #6** (cites e23) FLAG number-not-in-quote: 2026: - Regulation covers the 95th percentile of deployed regulation or net load variability (ERCOT 2026 methodology). [e23]
+- **Common confusion #1** (cites e5, e1, e6, e15, e10, e22) FLAG number-not-in-quote: 452 MW: (Guidance) Peak load and peak net load are different hours with different reserve margins; the CDR reports both. [e5] Also, the Protocol definition subtracts only solar and wind, not storage discharge; ERCOT's summer review separately shows storage's contribution against net load. [e1][e6] Forecast-error figures need their horizon: the IMM's 452 MW is eight hours ahead, Regulation uses a five-minute look-ahead, and ECRS/Non-Spin use 30-minute and 6-hour errors. [e15][e10][e22]
+- **Questions #6** (cites e10, e23, e22, e9, e15): It sets the Regulation procurement target (95th percentile of five-minute net load forecast error, as the IMM describes it). [e10][e23] ECRS and Non-Spin sizing uses 30-minute and 6-hour-ahead net load forecast errors. [e22] On a different horizon, eight hours ahead of real time, the IMM puts the 2025 average net load forecast error at about 452 MW. [e9][e15]
+- **Questions #8** (cites e4, e17): Low: 69.6 GW, about 10 GW lower than 2023's 79.3 GW, which the IMM attributes to a sharp increase in solar capacity and milder summer weather. [e4][e17]
+- **Questions #10** (cites e1, e18, e19, e21): Solar output is subtracted from load, so more solar lowers midday net load but does little after sunset: its capacity factor at the net peak fell from 31.1% in 2021 to 1.7% in 2025. [e1][e18][e19] ERCOT says the rising-load, falling-renewables period needs other generation to ramp or start quickly. [e21]
+- **Questions #12** (cites e1, e11, e12): Less is subtracted from load, so net load is higher; wind averaged a 29.3% capacity factor at the 2025 net peak, so a low-wind evening removes a large part of that offset. [e1][e11] That is when the IMM sees most price spikes. [e12]
+- **Scenarios #4** (cites e20): - Evening-ramp spikes were 30% of all 2025 spikes, so price risk sits in the ramp as well as the peak hour. [e20]
 - **Link to evening-ramp** (cites e2): related Evening Ramp / Duck Curve: The IMM ties the shift of tight hours to the evening to the solar down-ramp, which is when net load peaks. [e2]
 - **Link to solar-generation** (cites e1, e11): affects Solar Generation: Solar output is subtracted from load, and its capacity factor at the net peak interval fell to 1.7% in 2025. [e1][e11]
 - **Link to wind-generation** (cites e1, e11): affects Wind Generation: Wind output is subtracted from load and held a 29.3% capacity factor at the net peak interval in 2025. [e1][e11]
@@ -139,8 +232,12 @@ AFTER:  Figure 50: Distribution of Net Load Forecast Error H2 2022-2025 82 | 202
 - **Link to cdr-report** (cites e5): used-in CDR Report: The CDR reports reserve margins for both the peak Load hour and the peak Net Load hour. [e5]
 - **Link to ancillary-services** (cites e10): related Ancillary Services (AS): Regulation targets are set from the 95th percentile of five-minute net load forecast error. [e10]
 - **Link to resource-adequacy** (cites e8) FLAG number-not-in-quote: 39.159: related Resource Adequacy: SB 3 (new PURA §39.159(b)(5)) refers to preventing prolonged rotating outages due to net load variability in high demand and low supply scenarios. [e8]
+- **Link to ecrs** (cites e24, e22): related ECRS (ERCOT Contingency Reserve Service): ERCOT's CDR glossary says ECRS was developed to address net load ramps; ECRS and Non-Spin sizing uses 30-minute and 6-hour-ahead net load forecast errors. [e24][e22]
+- **Link to non-spin** (cites e21) FLAG number-not-in-quote: 2026: related Non-Spinning Reserve: ERCOT's 2026 AS methodology says net load ramp risk should be accounted for in setting Non-Spin requirements. [e21]
+- **Link to market-power-mitigation** (cites e25): related Market Power Mitigation (Competitiveness Tests, Mitigated Offer Caps): The IMM measures structural market power in top-quartile net load hours; the share with a pivotal supplier fell from over 90% in 2022 to 35% in 2025. [e25]
+
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
 - (Example) (Illustrative) Suppose at 5 p.m. load is 85 GW, solar is 20 GW and wind is 10 GW: net load is 85 - 20 - 10 = 55 GW. Suppose at 9 p.m. load is 80 GW, solar is 0 GW and wind is 14 GW: net load is 80 - 0 - 14 = 66 GW. Gross load peaked at 5 p.m., but the rest of the fleet faced its heaviest requirement at 9 p.m.
-- (Say it like this) (Guidance) Net load is demand after you take out wind and solar, so it is the part the dispatchable fleet and batteries actually have to serve. In ERCOT the net peak now comes after sunset, and that is where the price spikes and the reliability risk have moved.
+- (Say it like this) (Guidance) Net load is demand after you take out wind and solar, so it is the part the dispatchable fleet and batteries actually have to serve. In ERCOT the net peak now comes after sunset, and that is where the price spikes, the reserve sizing and the reliability risk have moved.
 

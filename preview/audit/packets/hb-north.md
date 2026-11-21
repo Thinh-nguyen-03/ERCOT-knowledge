@@ -200,7 +200,7 @@ BEFORE: …hrough DC ties. Table 1: Average Annual Real-Time Energy Market Price
 QUOTE: West $111.56 $66.62 $67.56 $35.88 $41.59
 AFTER:  Continuing the trend from 2024, the West zone had the highest average price in 2025, followed by the South zone. The West zone includes both the Panhandle, which has abundant wind and solar resources but is export-constrained, and the Permian Basin, which has seen rapid demand growth and is import-…
 
-## Statements to check
+## Statements to check (new or changed since the last audit)
 
 - **Definition #1** (cites e1, e2, e9): The North 345 kV Hub (North 345) is one of the Hubs defined in Protocol Section 3.5.2, composed of a listed set of 345 kV Hub Buses. [e1] A Hub is a designated Settlement Point made of a Hub Bus or group of Hub Buses with the price methodology set out in its definition. [e2] ERCOT's real-time price display lists the hub Settlement Point name HB_NORTH. [e9] The saved Protocol text does not itself use the name HB_NORTH.
 - **How it works #1** (cites e12, e10, e11, e6) FLAG number-not-in-quote: 345 kV: The Hub Bus list. The Protocol table for the North 345 kV Hub starts with buses ANASW, CN345, WLSH, FMRVL and LPCCS and ends at number 75, WCPP, so the hub has 75 listed Hub Buses, each at 345 kV. [e12][e10] The West 345 kV Hub, by comparison, ends at number 17. [e11] ERCOT posts the list of Electrical Buses in each Hub on its website. [e6]
@@ -216,7 +216,6 @@ AFTER:  Continuing the trend from 2024, the West zone had the highest average pr
 - **Timeline #2** (cites e14): - Temporary bus outages: ERCOT gives notice and excludes the disconnected Electrical Bus from the Hub Bus price calculation. [e14]
 - **Timeline #3** (cites e14): - Permanent removal of a Hub Bus from the grid requires ERCOT to file an NPRR revising the Hub definition. [e14]
 - **Key facts #1** (cites e1, e10) FLAG number-not-in-quote: 3.5, 2.1: - The North 345 kV Hub is defined in Protocol Section 3.5.2.1 and lists 75 Hub Buses. [e1][e10]
-- **Key facts #2** (cites e3): - Day-ahead price uses aggregated Shift Factors of the Hub Buses; real-time price is the simple average of time-weighted Hub Bus prices per 15-minute interval. [e3]
 - **Key facts #3** (cites e20): - The Real-Time Settlement Point Price floor is -$251/MWh, applied after adding the Reliability Deployment Price Adders. [e20]
 - **Key facts #4** (cites e5): - It is one of four prices in the ERCOT Hub Average 345 kV Hub price; Panhandle is excluded. [e5]
 - **Key facts #5** (cites e7, e13, e14) FLAG number-not-in-quote: 3.5: - Definition language: np-02 says Hub Bus lists and methods can never be modified, while np-03 Section 3.5.1 says a Hub may not be modified except as its definition explicitly describes, with notice and NPRR steps for bus changes. [e7][e13][e14]
@@ -241,3 +240,4 @@ AFTER:  Continuing the trend from 2024, the West zone had the highest average pr
 - **Link to lmp** (cites e3, e15): related LMP (Locational Marginal Price): The Hub price averages Hub Bus prices, which are averages of bus LMPs. [e3][e15]
 - **Link to shift-factor** (cites e3): related Shift Factors: The day-ahead hub price uses aggregated Shift Factors of the Hub Buses. [e3]
 - **Link to basis-risk** (cites e2, e8): related Basis Risk: A position settled at a node or load zone against a hub price carries a price difference between the two Settlement Points. [e2][e8]
+
