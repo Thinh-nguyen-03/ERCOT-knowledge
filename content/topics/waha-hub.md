@@ -6,7 +6,8 @@ kind: concept
 domain: fundamentals
 level: 2
 lenses: [analyst, trading, portfolio]
-as_of: 2026-11-18
+as_of: 2026-11-21
+depth: deep
 links:
   - to: natural-gas-price
     type: contrasts-with
@@ -26,6 +27,18 @@ links:
   - to: permian-transmission
     type: related
     note: The IMM's 2025 report ties the wider hub gap to the Permian Basin import constraint and expects the gap to narrow as work on "these projects" concludes. [e3]
+  - to: market-power-mitigation
+    type: related
+    note: The Mitigated Offer Cap formula uses the larger of FIP and the Resource's weighted average fuel price in its heat-rate term. [e24]
+  - to: offer-cap
+    type: related
+    note: The IMM says ERCOT may select the natural gas price index used to calculate the PNM threshold and the LCAP. [e15]
+  - to: winter-storm-uri
+    type: related
+    note: The IMM says February 2021 gas price increases across all indices were unprecedented during Winter Storm Uri. [e22]
+  - to: implied-heat-rate
+    type: related
+    note: Implied heat rate divides a power price by a gas price, so the choice of Katy or Waha changes the answer for West-zone units; see that topic.
 evidence:
   - id: e1
     source: eia-gas-hubs
@@ -139,6 +152,14 @@ evidence:
     source: np-04
     locator: "Section 4.4.9.3.1, Energy Offer Curve Criteria, paragraph (1)(g)"
     quote: "Percentage of FIP and percentage of FOP for generation above LSL subject to the sum of the percentages not exceeding 100%; and"
+  - id: e29
+    source: imm-som-2021
+    locator: "page 204 (OCR), Appendix, A. Locational Variations in Net Revenues in the West Zone"
+    quote: "Waha prices dipped below $0 multiple times throughout 2021, and were more volatile than Katy."
+  - id: e30
+    source: imm-som-2022
+    locator: "page 192 (OCR), Appendix, A. Locational Variations in Net Revenues in the West Zone"
+    quote: "Waha prices in 2022 dipped below $0 multiple times and were again more volatile than Katy."
 ---
 
 ## Definition
@@ -147,37 +168,52 @@ Waha is the natural gas pricing hub in West Texas near Permian Basin production,
 
 ## How it works
 
-Changes in prices at natural gas hubs tend to be reflected in movements in prices at nearby power market hubs or zones. [e8] Most natural gas at U.S. trading hubs is priced relative to Henry Hub. [e5] EIA says Permian production has grown more rapidly than pipeline takeaway capacity, so Waha prices are typically lower than those at other hubs, sometimes turning negative. [e1]
+Changes in prices at natural gas hubs tend to be reflected in movements in prices at nearby power market hubs or zones. [e8] Most natural gas at U.S. trading hubs is priced relative to Henry Hub. [e5] EIA says Permian production has grown more rapidly than pipeline takeaway capacity, so Waha prices are typically lower than those at other hubs, sometimes turning negative. [e1] FERC's 2024 Energy Primer adds that since 2018 natural gas production has outpaced pipeline capacity in the Permian, which it ties to associated gas rising with crude oil production, and that the lack of transport infrastructure has frequently contributed to Waha prices falling below Henry Hub. [e11][e12]
 
-EIA reported that Waha traded below zero on 42% of trading days in 2024, and that the Matterhorn Express Pipeline (2.5 Bcf/d, in service October 2024) helped clear part of the bottleneck. [e2]
+EIA reported that Waha traded below zero on 42% of trading days in 2024, and that the Matterhorn Express Pipeline (2.5 Bcf/d, in service October 2024) helped clear part of the bottleneck; since mid-November 2024 the Waha price had been above zero as of EIA's February 2025 article. [e2] For scale, EIA reports the Henry Hub benchmark averaged $2.22/MMBtu in 2024 and $3.52/MMBtu in 2025. [e9][e10] The saved sources do not give Waha's own average price for either year.
+
+Pipeline additions have narrowed the gap before: FERC's primer says the Permian Highway, Whistler and Double E pipelines came online in 2021 and narrowed the price difference between Waha and Henry Hub. [e14][e13] The IMM's 2021 report likewise says the Waha-Katy separation lessened in 2021, and its 2022 report says it returned in 2022. [e16][e18]
 
 ## ERCOT context
 
-ERCOT's own Fuel Index Price is based on Katy Hub gas, not Waha. [e6] The IMM therefore treats the two hubs separately when it calculates net revenue by location: Katy prices for the Houston zone and Waha prices for the West zone. [e4]
+ERCOT's own Fuel Index Price is based on Katy Hub gas, not Waha. [e6] The IMM says that since December 12, 2019 the Katy Hub replaced Houston Ship Channel as the FIP reference (NPRR952), and that ERCOT has flexibility to select the index used for the PNM threshold and LCAP. [e15] ERCOT must issue a Market Notice naming its selected source for the daily index prices used to calculate FIP. [e23] The IMM therefore treats the two hubs separately when it calculates net revenue by location: Katy prices for the Houston zone and Waha prices for the West zone. [e4]
 
-The IMM says low Waha gas prices have historically produced much higher net revenues for gas resources in the West, and that the hub price gap widened in 2024 and 2025 as West zone congestion costs rose. The 2025 report expects the gap to narrow as work on "these projects" concludes (the 2025 text does not name them; the 2024 report tied the gap to transmission upgrades and maintenance in the West zone). [e3][e7]
+Where FIP enters offers. Offer curves carry a percentage of FIP and FOP for generation above LSL. [e28] The Mitigated Offer Cap for a Generation Resource takes the larger of two terms, the first being the generic incremental heat rate times the greater of FIP and the Resource's weighted average fuel price (WAFP), and the fuel price calculated for the second term is likewise the greater of WAFP or FIP plus a fuel adder. [e24][e27] WAFP is the volume-weighted average intraday, same-day and spot fuel price, or the projected incremental fuel consistent with a fuel supply contract, submitted to ERCOT in the Adjustment Period, and the fuel adder is the average cost above the index price the Resource has paid to obtain fuel. [e25][e26] (Reading of the formula: because FIP, a Katy price, sets a floor in these terms, a unit buying gas below Katy would not see that discount reflected in the formula's fuel price; the sources do not discuss this case.)
+
+Net revenue effect. The IMM says low Waha gas prices have historically produced much higher net revenues for gas resources in the West, and that the hub price gap widened in 2024 and 2025 as West zone congestion costs rose. The 2025 report attributes the 2025 widening to the Permian Basin import constraint and expects the gap to narrow as work on "these projects" concludes; the 2024 report tied the 2024 widening to transmission upgrades and maintenance in the West zone. [e3][e7] The IMM also says Waha prices dipped below $0 multiple times in 2021, 2022 and 2023 and were more volatile than Katy. [e29][e30][e21]
+
+## Timeline
+
+- 2018 onward: Permian natural gas production outpaces pipeline capacity (FERC). [e11]
+- December 12, 2019: Katy Hub replaces Houston Ship Channel as the FIP reference (NPRR952, per the IMM). [e15]
+- 2021: Permian Highway, Whistler and Double E pipelines come online, narrowing the Waha-Henry gap; the IMM says the Waha-Katy separation lessened in 2021. IMM net revenue estimate for two new gas resources, based on 2021 revenues: $770 to $850 per kW-year at Waha versus $700 to $800 at Katy. [e14][e13][e16][e17]
+- 2022: the IMM says the Waha-Katy separation returned; $150 to $200 per kW-year at Waha versus $130 to $180 at Katy, based on 2022 revenues. [e18][e19]
+- 2023: the IMM says net revenue roughly 10% higher at Waha than Katy, based on 2023 revenues. [e20]
+- 2024: Waha traded below zero on 42% of trading days (EIA); Matterhorn Express enters service in October 2024; the IMM says the Waha-Katy gap widened with West zone congestion costs. [e2][e7]
+- 2025: the IMM says the gap widened because the Permian import constraint substantially increased congestion costs. [e3]
 
 ## Key facts
 
 - Waha is in West Texas near Permian Basin production. [e1]
 - Waha traded below zero on 42% of trading days in 2024 (EIA). [e2]
 - The Permian Basin produced 19% of total U.S. natural gas in 2023. [e1]
-- ERCOT's FIP uses Katy Hub prices. [e6]
+- ERCOT's FIP uses Katy Hub prices (since December 12, 2019, per the IMM). [e6][e15]
+- IMM net revenue for two new gas resources, Waha versus Katy: $770 to $850 versus $700 to $800 per kW-year (2021), $150 to $200 versus $130 to $180 (2022), roughly 10% higher at Waha (2023). [e17][e19][e20]
 - The IMM expected the Katy-Waha gap to narrow again as work on "these projects" concludes (2025 report; projects not named in that text). [e3]
 
 ## Say it like this
 
-(Guidance) Waha is the West Texas gas hub, and EIA says its prices are typically lower than other hubs because Permian production has grown faster than takeaway capacity. [e1] In ERCOT, the IMM uses Waha prices for West-zone gas units and Katy prices for Houston. [e4]
+(Guidance) Waha is the West Texas gas hub, and EIA says its prices are typically lower than other hubs because Permian production has grown faster than takeaway capacity. [e1] In ERCOT, the IMM uses Waha prices for West-zone gas units and Katy prices for Houston, while ERCOT's FIP and offer-mitigation formulas run on Katy. [e4][e6]
 
 ## Common confusion
 
-Waha is not ERCOT's Fuel Index Price: the FIP is a Katy Hub index. [e6] Waha is also not Henry Hub, the benchmark most hubs are priced against. [e5]
+Waha is not ERCOT's Fuel Index Price: the FIP is a Katy Hub index. [e6] Waha is also not Henry Hub, the benchmark most hubs are priced against. [e5] A cheap-gas West zone does not mean low West power prices: the IMM says West net revenues for gas units were much higher, with congestion costs also rising in the West. [e3] The IMM's net revenue comparison is a modeled estimate for new gas resources, not a measure of Waha-to-power price pass-through. [e17]
 
 ## Questions
 
 ### Why does Waha trade below other hubs?
 
-Permian production, much of it associated gas from oil wells, has grown faster than takeaway pipeline capacity, so local gas is discounted and sometimes negative. [e1]
+Permian production, much of it associated gas from oil wells, has grown faster than takeaway pipeline capacity, so local gas is discounted and sometimes negative. [e1][e11]
 
 ### Why does the IMM use Waha for the West zone?
 
@@ -187,8 +223,23 @@ Gas prices vary by location, so the IMM uses Katy for the Houston zone and Waha 
 
 EIA notes the Matterhorn Express Pipeline entered service in October 2024 and that Waha had stayed above zero since mid-November 2024 as of its February 2025 article. [e2]
 
+### Why is ERCOT's FIP a Katy price rather than Waha, and what would change if it were Waha?
+
+NPRR952 made Katy the FIP reference effective December 12, 2019, replacing Houston Ship Channel. [e15] The saved sources do not give the reasoning. FIP feeds the percentage-of-FIP offer inputs and the mitigated offer cap formulas, so a different index would change those inputs. [e28][e24]
+
+### What if Waha goes negative: do West-zone gas units get paid to run?
+
+The sources do not say how a negative Waha price flows into West-zone power prices. The IMM notes Waha prices dipped below $0 several times in 2021, 2022 and 2023 and were more volatile than Katy. [e29][e30][e21] Its net revenue comparison is for modeled new units and is not a statement about operating decisions.
+
+### How did the Waha-Katy gap affect net revenue over time?
+
+The IMM's modeled new-unit net revenue was higher at Waha than Katy in each of 2021, 2022 and 2023 (about 10% higher in 2023). [e17][e19][e20] In 2024 and 2025 the IMM says the gap in net revenues between West and Houston was wide, widening with West zone congestion. [e3][e7]
+
 ## Open items
 
-- Deeper pass: no saved source gives Waha price levels or Katy-Waha basis in $/MMBtu for 2025 or 2026.
-- Deeper pass: the link between Waha prices and West-zone or HB West power prices is not quantified in the saved sources.
-- The saved sources do not say which ERCOT-selected source provides the FIP index prices.
+- No saved source gives Waha price levels or Katy-Waha basis in $/MMBtu for 2025 or 2026. EIA gives Henry Hub averages ($2.22 in 2024, $3.52 in 2025) and Waha's 42% negative-price days for 2024 only.
+- The link between Waha prices and West-zone or HB West power prices is described only qualitatively (IMM net revenue by location, congestion); no saved source quantifies it.
+- The saved sources do not say which ERCOT-selected source provides the FIP index prices; the Protocols say only that ERCOT issues a Market Notice naming it.
+- The reasoning behind NPRR952 (Katy replacing Houston Ship Channel) is not in the saved sources.
+- The IMM 2024 and 2025 net revenue by location figure (Figure 55) values are in a chart; the text does not give dollar amounts for Waha versus Katy in those years.
+- EIA's January 2026 article's table of hub averages (which may include Waha) did not extract; Waha's 2025 average is not available.

@@ -86,6 +86,166 @@ evidence:
     source: np-09
     locator: "Section 9.1.2, Settlement Calendar, paragraph (1)"
     quote: "ERCOT shall post and maintain on the ERCOT website a Settlement Calendar to denote, for each Operating Day, when: (a) Each scheduled Settlement Statement for the DAM will be issued under Section 9.2.4, DAM Statement, and Section 9.2.5, DAM Resettlement Statement; (b) Each scheduled Settlement Statement for the RTM will be issued under Section 9.5.4, RTM Initial Statement, Section 9.5.5, RTM Final Statement, Section 9.5.6, RTM Resettlement Statement, and Section 9.5.8, RTM True-Up Statement;"
+  - id: e15
+    source: np-09
+    locator: "Section 9.2.2, Settlement Statements for the DAM, paragraph (2)"
+    quote: "A Settlement Statement for the DAM can be: (a) A “DAM Statement,” which is the Settlement Statement issued for a particular DAM; (b) A “DAM Resettlement Statement,” which corrects a DAM Statement."
+  - id: e16
+    source: np-09
+    locator: "Section 9.2.2, paragraph (7)"
+    quote: "Settlement Statements for the DAM must break fees down by Charge Types into the appropriate one-hour Settlement Interval for that type."
+  - id: e17
+    source: np-09
+    locator: "Section 9.5.3, Real-Time Market Settlement Charge Types, paragraph (8)"
+    quote: "A Settlement Statement for the RTM must break the fees down by Charge Type into the appropriate 15-minute or one-hour Settlement Interval for that type."
+  - id: e18
+    source: np-09
+    locator: "Section 9.2.5, DAM Resettlement Statement, paragraph (1)"
+    quote: "ERCOT shall issue DAM Resettlement Statements for a given Operating Day if the ERCOT Board finds that the DAM Locational Marginal Prices (LMPs), Market Clearing Prices for Capacity (MCPCs), or Settlement Point Prices are significantly affected by a software or other error under Section 4.5.2, Communicating DAM Results. ERCOT shall also produce DAM Resettlement Statements required by resolution of Settlement and billing disputes and the correction of errors other than price errors pursuant to this Section. In addition, the ERCOT Board may, in its discretion, direct ERCOT to run a resettlement of any Operating Day, at any time, to address unusual circumstances."
+  - id: e19
+    source: np-09
+    locator: "Section 9.2.5, paragraph (3)"
+    quote: "ERCOT shall issue a DAM Resettlement Statement for an Operating Day if an error in the DAM Settlement, which does not otherwise meet the Protocol requirements for resettlement as specified in paragraphs (1) and (2) above, will prevent ERCOT from achieving revenue neutrality."
+  - id: e20
+    source: np-09
+    locator: "Section 9.2.5, paragraph (4)"
+    quote: "No later than 150 days after each affected Operating Day, ERCOT shall resettle Operating Days with errors, other than errors in prices, with cumulative impacts that do not meet the threshold described in paragraph (2) above if the cumulative effect of errors to a single Statement Recipient in the 150 day window results in an absolute value impact greater than 1% of the total DAM Statement amounts for any Statement Recipient for the affected Operating Days, if this impact to the Statement Recipient is greater than $5,000.00."
+  - id: e21
+    source: np-09
+    locator: "Section 9.2.7, Confirmation of Statement for the DAM, paragraph (1)"
+    quote: "Each Settlement Statement for the DAM is deemed to have been available on the posting date specified on the Settlement Calendar, unless ERCOT is notified to the contrary."
+  - id: e22
+    source: np-09
+    locator: "Section 9.5.2, Settlement Statements for the RTM, paragraph (4)"
+    quote: "To issue an RTM Settlement Statement, ERCOT may use estimated, disputed, or calculated meter data."
+  - id: e23
+    source: np-09
+    locator: "Section 9.5.5, RTM Final Statement, paragraph (2)"
+    quote: "An RTM Final Statement will reflect differences to financial records generated on the previous Settlement Statement for the given Operating Day."
+  - id: e24
+    source: np-09
+    locator: "Section 9.5.6, RTM Resettlement Statement, paragraph (1)"
+    quote: "Any resettlement occurring after an RTM True-Up Statement has been issued must meet the same Interval Data Recorder (IDR) Meter Data Threshold requirements defined in Section 9.5.8, RTM True-Up Statement, and is subject to the same limitations for filing a dispute. Despite the preceding sentence, the ERCOT Board may, in its discretion, direct ERCOT to run a resettlement of any Operating Day, at any time, to address unusual circumstances."
+  - id: e25
+    source: np-09
+    locator: "Section 9.5.6, paragraph (4)"
+    quote: "For any Settlement and billing disputes resolved prior to issuance of the RTM Final Statement, ERCOT shall effect the dispute’s resolution on the RTM Final Statement for that Operating Day. If a dispute is submitted by 15 Business Days after the issuance of the RTM Initial Statement for an Operating Day and is not resolved on the RTM Final Statement, ERCOT will affect the dispute’s resolution on an RTM Resettlement Statement for that Operating Day."
+  - id: e26
+    source: np-09
+    locator: "Section 9.5.6, paragraph (5)"
+    quote: "ERCOT must effect the resolution of any dispute submitted more than 15 Business Days after the issuance of the RTM Initial Statement on the next available Resettlement or RTM True-Up statement for that Operating Day. For Settlement and billing disputes resolved under Section 9.14, Settlement and Billing Dispute Process, and submitted at least 20 Business Days before the scheduled date for issuance of the RTM True-Up Statement, ERCOT will include adjustments relating to the dispute on the RTM True-Up Statement."
+  - id: e27
+    source: np-09
+    locator: "Section 9.5.6, paragraph (6)"
+    quote: "ERCOT may not issue an RTM Resettlement Statement less than 20 days before a scheduled RTM Final Statement or RTM True-Up Statement for the relevant Operating Day."
+  - id: e28
+    source: np-09
+    locator: "Section 9.5.6, paragraph (9)"
+    quote: "If ERCOT is required to issue a Resettlement Statement per this Section, but resettlement is not practicable due to system limitations, ERCOT shall make the adjustments through a separate Invoice that is produced outside of normal Settlement Invoices."
+  - id: e29
+    source: np-09
+    locator: "Section 9.5.8, RTM True-Up Statement, paragraph (2), last sentence"
+    quote: "If any RTM True-Up Statement issuance date does not fall on a Business Day, then the RTM True-Up Statement must be issued by the end of the next Business Day after the RTM True-Up Settlement date."
+  - id: e30
+    source: np-09
+    locator: "Section 9.5.9, Notice of True-Up Settlement Timeline Changes for the Real-Time Market, paragraph (1)"
+    quote: "If the IDR Meter Data Threshold has not been met by the 180^(th) day after the Operating Day (or, if the 180^(th) day is not a Business Day, by the next day thereafter that is a Business Day), then ERCOT shall send a Market Notice about the delay of any RTM True-Up Statement issuance indicating the IDR Meter Data Threshold has not been met."
+  - id: e31
+    source: np-09
+    locator: "Section 9.5.11, Validation of the True-Up Statement for the Real-Time Market, paragraph (1)"
+    quote: "The Statement Recipient is considered to have validated each RTM True-Up Statement unless it has filed a Settlement and billing dispute or reported an exception within ten Business Days after the RTM True-Up Statement has been posted on the MIS Certified Area."
+  - id: e32
+    source: np-09
+    locator: "Section 9.6, Settlement Invoices for the DAM and RTM, paragraph (2)"
+    quote: "Each Invoice Recipient shall pay any net debit and be entitled to receive any net credit shown on the Settlement Invoice on the payment due date, whether or not there is any Settlement and billing dispute regarding the amount of the debit or credit."
+  - id: e33
+    source: np-09
+    locator: "Section 9.6, paragraph (4)"
+    quote: "Settlement Invoice items must be grouped by DAM, DAM Resettlement, RTM Initial, RTM Final, RTM Resettlement, and RTM True-Up categories and must be sorted by Operating Day within each category."
+  - id: e34
+    source: np-09
+    locator: "Section 9.7.2, ERCOT Payment to Invoice Recipients for the Settlement Invoices, paragraph (1)"
+    quote: "Subject to the availability of funds as discussed in paragraph (2) below, ERCOT must pay Settlement Invoices with funds owed to an Invoice Recipient by 1700 on the next Bank Business Day after payments are due for that Settlement Invoice under Section 9.7.1, Invoice Recipient Payment to ERCOT for the Settlement Invoices, subject to ERCOT’s right to withhold payments for any reason set forth in these Protocols or as a matter of law, unless that next Bank Business Day is not a Business Day."
+  - id: e35
+    source: np-09
+    locator: "Section 9.14.2, Notice of Dispute, paragraph (1)"
+    quote: "A Settlement Statement Recipient may dispute items or calculations in the most recently issued Settlement Statement for an Operating Day, except as limited for RTM True-Up Statements in paragraph (3) below. The dispute will apply to the Operating Day in question, not to the associated Settlement Statement."
+  - id: e36
+    source: np-09
+    locator: "Section 9.14.2, paragraph (2)"
+    quote: "An Invoice Recipient may dispute elements of an Invoice that are not the result of a Settlement Statement that are contained on the Invoice. The Invoice Recipient must file the Invoice dispute within ten Business Days of the date on which ERCOT posted the Invoice."
+  - id: e37
+    source: np-09
+    locator: "Section 9.14.2, paragraph (3)"
+    quote: "With respect to an RTM True-Up Statement or any subsequent Resettlement Statement after ERCOT issued the True-Up Statement, ERCOT will consider only Settlement and billing disputes associated with incremental changes between the RTM True-Up Statement or Resettlement Statement, and the most recent previous Settlement Statement for that Operating Day. The Settlement Statement Recipient may recover only the amounts associated with the incremental monetary change between the prior statement and the statement from which the dispute arose. ERCOT shall reject late-filed Settlement and billing disputes. Once the deadline for filing a dispute has passed, the RTM True-Up Statement binds the Settlement Statement Recipient to which it relates unless ERCOT issues a subsequent Resettlement Statement pursuant to this Section."
+  - id: e38
+    source: np-09
+    locator: "Section 9.14.2, paragraph (4)"
+    quote: "ERCOT shall reject Settlement and billing disputes for a given Operating Day during the 20 Business Days before the scheduled date for issuance of the RTM True-Up Statement for that Operating Day."
+  - id: e39
+    source: np-09
+    locator: "Section 9.14.2, paragraph (6)"
+    quote: "Once the deadline for filing a dispute has passed, a DAM Statement binds the Settlement Statement Recipient to which it relates unless ERCOT issues a subsequent Resettlement Statement."
+  - id: e40
+    source: np-09
+    locator: "Section 9.14.3, Contents of Notice, paragraphs (1)-(2)"
+    quote: "ERCOT shall reject a dispute that does not contain the data elements listed in this Section. (2) ERCOT shall provide automatic field population techniques or drop-down boxes for appropriate data elements below. The notice of Settlement and billing dispute must state clearly: (a) Disputing Entity; (b) Dispute contact person(s); (c) Dispute contact information; (d) Operating Day or Invoice date in dispute; (e) Charge Type; (f) Time period in dispute; (g) Amount in dispute; (h) Settlement and billing dispute type; and (i) Reasons for the dispute."
+  - id: e41
+    source: np-09
+    locator: "Section 9.14.4, ERCOT Processing of Disputes, paragraph (2)"
+    quote: "If ERCOT requires additional data to resolve the dispute, ERCOT shall send the Settlement Statement Recipient or Invoice Recipient a list of the required additional data within seven Business Days of the date the dispute was filed. The Settlement Statement Recipient or Invoice Recipient shall respond with the entire set of required data within five Business Days of ERCOT’s request or by a date agreed upon by ERCOT and the Market Participant that is no later than eight Business Days prior to the posting of the True-Up Settlement Statement for the disputed Operating Day. If ERCOT does not receive the data within that time frame, ERCOT shall deny the dispute."
+  - id: e42
+    source: np-09
+    locator: "Section 9.14.4, paragraph (5)"
+    quote: "All complete disputes of the DAM received within ten Business Days after ERCOT posts that day’s DAM Settlement Statement shall be included in a Resettlement of the DAM Operating Day under Section 9.2.5, DAM Resettlement Statement."
+  - id: e43
+    source: np-09
+    locator: "Section 9.14.4.1.3, Closed, paragraph (1)(a)"
+    quote: "If, after 45 days from receiving notice of a denied dispute, the Settlement Statement Recipient or Invoice Recipient does not begin the ADR process, ERCOT will close the dispute."
+  - id: e44
+    source: np-09
+    locator: "Section 9.14.4.2.1, Denied, paragraph (2)"
+    quote: "If the Settlement Statement Recipient or Invoice Recipient is not satisfied with the outcome of a denied Settlement and billing dispute, the Settlement Statement Recipient or Invoice Recipient may proceed to ADR as described in Section 20, Alternative Dispute Resolution Procedure and Procedure for Return of Settlement Funds."
+  - id: e45
+    source: np-09
+    locator: "Section 9.14.4.2.3, Granted with Exceptions, paragraph (1)"
+    quote: "If the Settlement Statement or Invoice Recipient does not timely reject the dispute outcome, it shall be deemed accepted."
+  - id: e46
+    source: np-09
+    locator: "Section 9.19, Partial Payments by Invoice Recipients, paragraph (1)(d)"
+    quote: "If, after taking the actions set forth in paragraphs (a), (b) and (c) above, ERCOT still does not have sufficient funds to pay all amounts that it owes to Settlement Invoice Recipients in full, ERCOT shall deduct any applicable administrative fees as specified in Section 9.16, ERCOT System Administration and User Fees, payments for Reliability Must-Run (RMR) Services, and the Congestion Revenue Right (CRR) Balancing Account (CRRBA) from the amount received or collected and then reduce payments to all Settlement Invoice Recipients owed monies from ERCOT."
+  - id: e47
+    source: np-09
+    locator: "Section 9.19, paragraph (1)(e)"
+    quote: "If sufficient funds continue to be unavailable for ERCOT to pay all amounts in full to short-paid Entities for that Settlement Invoice and the short-paying Entity is not complying with a payment plan designed to enable ERCOT to pay all amounts in full to short-paid Entities, ERCOT shall uplift short-paid amounts through the Default Uplift process described below in Section 9.19.1 and Section 9.19.2, Payment Process for Default Uplift Invoices."
+  - id: e48
+    source: copmg-08
+    locator: "Commercial Operations Market Guide Section 8.2, Settlement Statements and Invoices, paragraph (1)"
+    quote: "The Real-Time Market (RTM), the Day-Ahead Market (DAM), and the Congestion Revenue Right (CRR) Auction are settled separately. Each type of Settlement has a unique set of statements and/or Invoices and settles according to a different timeline."
+  - id: e49
+    source: copmg-08
+    locator: "Commercial Operations Market Guide Section 8.2.2, Day-Ahead Market Statements"
+    quote: "In the case of a “No DAM” scenario, where DAM is not successfully executed for an Operating Day, DAM Statements will not be generated or posted for that Operating Day."
+  - id: e50
+    source: copmg-08
+    locator: "Commercial Operations Market Guide Section 8.2.3.3, Default Uplift Invoice"
+    quote: "The Default Uplift Invoicing process allocates DAM and/or RTM losses to QSEs and CRRAHs."
+  - id: e51
+    source: copmg-08
+    locator: "Commercial Operations Market Guide Section 8.2.3.4, Miscellaneous Invoice, paragraph (1)"
+    quote: "In the event that ERCOT cannot reasonably Invoice Market Participants via one of the other Protocol-defined Invoices, ERCOT may utilize the Miscellaneous Invoice."
+  - id: e52
+    source: copmg-11
+    locator: "Commercial Operations Market Guide Section 11.1.4, Dispute Items, paragraph (1)"
+    quote: "(a) DAM Statement; (b) DAM Resettlement Statement; (c) RTM Initial Statement; (d) RTM Final Statement; (e) RTM True-Up Statement; (f) Any RTM Resettlement Statement issued after the RTM True-Up Statement; (g) Default Uplift Invoice; (h) CRR Auction Invoice; (i) CARD Invoice; and (j) CRRBA Invoice."
+  - id: e53
+    source: copmg-11
+    locator: "Commercial Operations Market Guide Section 11.1.3, Dispute Access, paragraph (1)"
+    quote: "There are two methods available for filing a dispute, MIS Web Portal and Application Programmatic Interface (API)."
+  - id: e54
+    source: copmg-11
+    locator: "Commercial Operations Market Guide Section 11.1.6, Dispute Reporting, paragraph (1)(a)"
+    quote: "Market Participant Dispute Extract – This certified extract provides QSEs and CRR Account Holders with the current status of all of their Entity specific disputes that are not closed or withdrawn, as well as all disputes closed or withdrawn within the last 120 days."
 ---
 
 ## Definition
