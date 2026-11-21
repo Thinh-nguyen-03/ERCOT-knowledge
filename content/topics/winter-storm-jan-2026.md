@@ -276,6 +276,30 @@ evidence:
     source: imm-som-2025
     locator: "Appendix: Real-Time Co-Optimization, AS shortages"
     quote: "These ASDCs effectively replace the ORDC price adder used to produce scarcity pricing in the previous market design."
+  - id: e60
+    source: ercot-fern-post-event
+    locator: "Post-Event Report, Winter Storm Preparation (p. 2), reserves and earlier operations"
+    quote: "More reserve power available ERCOT increased the amount of backup electricity available to respond quickly if a power plant unexpectedly goes offline."
+  - id: e61
+    source: ercot-fern-post-event
+    locator: "Post-Event Report, Winter Storm Preparation (p. 2), earlier operations"
+    quote: "Earlier and more flexible grid operations ERCOT can bring power generation online earlier during periods of high demand to reduce risk during extreme weather."
+  - id: e62
+    source: ercot-fern-post-event
+    locator: "Post-Event Report, Winter Storm Preparation (p. 2), RTC+B and backup fuel"
+    quote: "Leveraging Real-Time Co-optimization Plus Batteries (RTC+B) A new market design change implemented in December 2025 better optimizes energy reserves with real-time energy needs and incorporates battery resources, improving grid flexibility and stability."
+  - id: e63
+    source: ercot-fern-post-event
+    locator: "Post-Event Report, Winter Storm Preparation (p. 2), backup fuel"
+    quote: "Backup fuel options for generators Some power plants now have additional on-site fuel available if natural gas supplies are constrained."
+  - id: e64
+    source: ercot-monthly-ops-2026-01
+    locator: "Cover slide (January 2026 overview)"
+    quote: "ERCOT Monthly Operational Overview (January 2026) ERCOT Public February 17, 2026"
+  - id: e65
+    source: ercot-fern-outage-review
+    locator: "Part I, Transmission: common causes during Winter Storm Fern, chart categories"
+    quote: "Capacitor bank / fuse 13 Outages Administrative / planned / testing 10 Outages"
 ---
 
 ## Definition
@@ -284,13 +308,13 @@ Winter Storm Fern was the January 2026 cold weather and freezing precipitation e
 
 ## How it works
 
-Preparation. ERCOT's post-event report (January 28, 2026) lists mandatory weatherization with at least 450 inspections planned for the winter, more reserves, earlier commitment, RTC+B, backup fuel, and TCEQ enforcement discretion and DOE orders obtained in advance. [e27][e23][e24] ERCOT sought one DOE 202(c) order so generators could maximize availability and a separate one for backup generation at data centers and other sites; neither had to be implemented because ERCOT did not enter EEA Level 2. [e31][e32]
+Preparation. ERCOT's post-event report (January 28, 2026) lists mandatory weatherization with at least 450 inspections planned for the winter, more reserves, earlier commitment, RTC+B, backup fuel, and TCEQ enforcement discretion and DOE orders obtained in advance. [e27][e23][e60][e61][e62][e63][e24] ERCOT sought one DOE 202(c) order so generators could maximize availability and a separate one for backup generation at data centers and other sites; neither had to be implemented because ERCOT did not enter EEA Level 2. [e31][e32]
 
 Demand came in below forecast. ERCOT's peak forecast was 84,500 MW, a figure that assumed no demand response and was about 5 GW above the February 2025 actual peak because of about 4 GW of load growth and colder temperatures (18.9F system temperature at peak versus 24.7F). [e6][e34] The maximum unofficial instantaneous peak was 75,922 MW, not a new winter record; the January monthly overview gives an hourly peak of 75,572 MW on January 26. [e4][e42][e43] ERCOT says demand was lower than forecast mainly because of slightly warmer weather in some areas and widespread school and business closures, and it estimates that oil and gas began reducing about 4,200 MW and cryptocurrency mining about 4,100 MW, with smaller cuts from steel (420 MW), data centers (170 MW) and hydrogen and electrofuel (75 MW). [e3][e19][e16][e5][e36] ERCOT's Board update says the forecast overestimated peak consumption on Monday, January 26 and Tuesday, January 27. [e35]
 
 Supply. About 13.5 GW of wind nameplate was unavailable due to icing, though actual lost output was smaller because wind speeds were low. [e15] The usual North Texas gas restrictions were issued, many generators reported pipeline Operational Flow Orders, and FFSS kept 340 MW of gas-restricted units running; ERCOT says non-IRR outages stayed at a level consistent with recent winter storms. [e37][e38][e8] Batteries kept enough state of charge for the morning and evening peaks; lower demand and higher wind overnight on January 25-26 meant less discharge for the January 25 evening peak and more charge left for the January 26 morning peak. [e29][e30]
 
-Transmission. After a large unit in Central Texas tripped, the South Texas Export IROL was briefly exceeded and lines between Houston and San Antonio had post-contingency overloads; a localized transmission emergency ran from 9:04 PM on January 25 to 10:00 AM on January 26. [e17][e13][e44] ERCOT says RTC redistributed ancillary services to reduce the manual action needed, Braunig Unit 3 (repaired under an RMR contract before the storm) was committed throughout, and the Life Cycle units were committed during the emergency to relieve overloads. [e7][e33] Bulk transmission outages were low for the precipitation: 3 at 345 kV, 15 at 138 kV and 2 at 69 kV (total, not concurrent). [e28] Local distribution outages from ice and falling trees were handled by local utilities and were not ERCOT grid issues. [e26]
+Transmission. After a large unit in Central Texas tripped, the South Texas Export IROL was briefly exceeded and lines between Houston and San Antonio had post-contingency overloads; a localized transmission emergency ran from 9:04 PM on January 25 to 10:00 AM on January 26. [e17][e13][e44] ERCOT says RTC redistributed ancillary services to reduce the manual action needed, Braunig Unit 3 (repaired under an RMR contract before the storm) was committed throughout, and the Life Cycle units were committed during the emergency to relieve overloads. [e7][e33] Bulk transmission outages were low for the precipitation: 3 at 345 kV, 15 at 138 kV and 2 at 69 kV (total, not concurrent). [e28] Some localized outages from ice accumulation on lines and falling trees were handled by local utilities and were not ERCOT grid issues. [e26]
 
 ## ERCOT context
 
@@ -300,7 +324,7 @@ The IMM's view of RTC in its first winter. It says elevated day-ahead prices on 
 
 RUC. The IMM says 42% of all RUC commitments from December 5, 2025 through February 2026 occurred during Fern, while RUC commitments over that period were 80% below the same period a year before. [e10][e55] ERCOT's January overview counts 340.4 RUC effective resource-hours, 285.7 (84%) for congestion, with 72% of non-opt-out RUC (233.0 hours) from manual actions to manage congestion, primarily E_PASP, during Fern. [e48][e47]
 
-Lessons. ERCOT's October 2026 forced outage review counts 107 wind and solar outages losing about 610,000 MWh, mostly from icing; 76 dispatchable outages losing about 156,000 MWh, driven by controls, combustion systems, air inlets and coal handling; 25 storage outages losing 2,162 MWh after applying a 2-hour cap, led by controls and communications; and 83 transmission outages totalling 2,810 outage hours. [e11][e12][e40][e41] The review says to use Fern patterns to prioritize winter-readiness checks by asset class. [e21]
+Lessons. ERCOT's October 2026 forced outage review counts 107 wind and solar outages losing about 610,000 MWh, mostly from icing; 76 dispatchable outages losing about 156,000 MWh, driven by controls, combustion systems, air inlets and coal handling; 25 storage outages losing 2,162 MWh after applying a 2-hour cap, led by controls and communications; and 83 transmission outages totalling 2,810 outage hours. [e22][e11][e12][e40][e41] The review says to use Fern patterns to prioritize winter-readiness checks by asset class. [e21]
 
 ## Key facts
 
@@ -312,12 +336,12 @@ Lessons. ERCOT's October 2026 forced outage review counts 107 wind and solar out
 - January 2026 ERCOT-wide average prices (IMM): DA $95.47/MWh, RT $57.43/MWh. [e52]
 - January RUC: 340.4 effective resource-hours, 84% for congestion (ERCOT). [e48]
 - 42% of RUC commitments from December 5, 2025 to February 2026 occurred during Fern (IMM). [e10]
-- Outage review (October 2026): 107 wind/solar, 76 dispatchable, 25 storage and 83 transmission outages. [e11][e12][e40][e41]
+- Outage review (October 2026): 107 wind/solar, 76 dispatchable, 25 storage and 83 transmission outages. [e22][e11][e12][e40][e41]
 
 ## Timeline
 
 - November 15, 2025 - March 15, 2026: FFSS obligation period covering the storm. [e57]
-- December 5, 2025: RTC go-live; AS virtual offers in the DAM from December 6. [e9][e54]
+- December 5, 2025: RTC go-live; AS virtual offers in the DAM from December 6. [e55][e9][e54]
 - January 21, 2026: ERCOT issues a Weather Watch; start of Fern as dated by the IMM. [e25][e10]
 - January 23-27, 2026: Fern period as dated by ERCOT's Board update. [e20]
 - January 24 to noon January 27, 2026: period of ERCOT's Advisory and Watch for extreme cold and possible frozen precipitation. [e45]
@@ -325,7 +349,7 @@ Lessons. ERCOT's October 2026 forced outage review counts 107 wind and solar out
 - January 26, 2026: January hourly peak of 75,572 MW. [e42]
 - January 28, 2026: ERCOT post-event report. [e27]
 - February 9-10, 2026: ERCOT Board meeting with the System Operations Fern update and the IMM's NSRS pricing recommendation. [e39][e56]
-- February 17, 2026: ERCOT January monthly operational overview. [e42]
+- February 17, 2026: ERCOT January monthly operational overview. [e64][e42]
 - October 2026: date on ERCOT's Fern forced outage review. [e22][e11][e12]
 
 ## Say it like this
@@ -336,7 +360,7 @@ Lessons. ERCOT's October 2026 forced outage review counts 107 wind and solar out
 
 (Guidance) The 84,558 MW "adding back load reductions" number on ERCOT's Board slide is an estimate of what demand would have been, not the actual peak, which was 75,922 MW. [e18][e4] Fern's peak was not a new winter record; ERCOT says the winter peak was set during Winter Storm Kingston. [e4] The 75,922 MW figure is instantaneous; the 75,572 MW figure is the maximum net system hourly value. [e4][e42][e43]
 
-(Guidance) The Board's 20 bulk transmission outages (345, 138 and 69 kV) and the outage review's 83 transmission outages are different counts: the review includes categories such as administrative, planned and testing outages. [e28][e41] ERCOT's "84% for congestion" (January RUC hours) and the IMM's "42% of RUC commitments" (December 5 to February share during Fern) measure different things. [e48][e10]
+(Guidance) The Board's 20 bulk transmission outages (345, 138 and 69 kV) and the outage review's 83 transmission outages are different counts: the review includes categories such as administrative, planned and testing outages. [e28][e41][e65] ERCOT's "84% for congestion" (January RUC hours) and the IMM's "42% of RUC commitments" (December 5 to February share during Fern) measure different things. [e48][e10]
 
 ## Questions
 
@@ -362,7 +386,7 @@ The DOE 202(c) orders, one for generator availability and one for backup generat
 
 ### Why was RUC mostly about congestion in Fern, unlike summer 2026?
 
-ERCOT says 72% of January non-opt-out RUC came from manual actions to manage congestion, primarily E_PASP, during Fern, tied to the San Antonio to Houston transmission emergency. [e47][e13] Braunig 3 and the Life Cycle units were committed to relieve those overloads. [e33]
+ERCOT says 72% of January non-opt-out RUC came from manual actions to manage congestion, primarily E_PASP, during Fern. [e47] Separately, a localized transmission emergency ran in the San Antonio to Houston area, and Braunig 3 and the Life Cycle units were committed to relieve those overloads. [e13][e33] The saved sources do not say whether the E_PASP RUC commitments were part of that emergency.
 
 ## Scenarios
 
@@ -371,7 +395,7 @@ ERCOT says 72% of January non-opt-out RUC came from manual actions to manage con
 - The South Texas Export IROL was briefly exceeded and Houston-San Antonio lines had post-contingency overloads, leading to a transmission emergency that evening. [e17][e13]
 - January 25 congestion rent was $65.5 million, the largest of the outlier days. [e46]
 - ERCOT committed Braunig 3 and Life Cycle units to relieve the overloads. [e33]
-- Collateral calls follow: January Max TPE was more than double December's. [e53]
+- Credit exposure rose: January Max TPE was $4,162 million against $1,765 million in December, more than double (the knowledge base's comparison of the table values). [e53]
 
 ## Open items
 
