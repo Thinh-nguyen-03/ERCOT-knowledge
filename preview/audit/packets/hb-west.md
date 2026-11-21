@@ -67,26 +67,196 @@ BEFORE: …Same page as ercot-hubs-load-zones-page.txt, table rows written one p
 QUOTE: HB_BUSAVG | 36.16 | -2.54 | 36.58 | -2.49 HB_HOUSTON | 36.02 | -2.69 | 36.44 | -2.64 HB_HUBAVG | 37.44 | -2.01 | 37.86 | -1.96 HB_NORTH | 34.32 | -3.30 | 34.74 | -3.25 HB_PAN | 33.70 | -3.74 | 34.12 | -3.69 HB_SOUTH | 37.76 | -1.90 | 38.18 | -1.85 HB_WEST | 41.67 | -0.13 | 42.09 | -0.08
 AFTER:  LZ_AEN | 37.40 | -2.06 | 37.82 | -2.01 LZ_CPS | 38.17 | -1.72 | 38.59 | -1.67 LZ_HOUSTON | 36.10 | -2.65 | 36.52 | -2.60 LZ_LCRA | 37.72 | -1.92 | 38.14 | -1.87 LZ_NORTH | 34.44 | -3.41 | 34.86 | -3.36 LZ_RAYBN | 34.25 | -3.49 | 34.67 | -3.44 LZ_SOUTH | 37.80 | -1.88 | 38.22 | -1.83 LZ_WEST | 50.55…
 
+### e10 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.5.2.4, paragraph (1), Hub Bus table, first rows · text copy line 3137 · heading above: 3.5.2.4 West 345 kV Hub (West 345)
+
+BEFORE: …-------------------------------------------------------------------------------------------------------+ 3.5.2.4 West 345 kV Hub (West 345) (1) The West 345 kV Hub is composed of the following listed Hub Buses: ------ ---------------------------------- ---------- ------------------ ERCOT Operations 
+QUOTE: No. Hub Bus kV Hub 1 MULBERRY 345 WEST 2 BOMSW 345 WEST 3 OECCS 345 WEST 4 BITTCR 345 WEST
+AFTER:  5 FSHSW 345 WEST 6 FLCNS 345 WEST 7 GRSES 345 WEST 8 JCKSW 345 WEST 9 MDLNE 345 WEST 10 MOSSW 345 WEST 11 MGSES 345 WEST 12 DCTM 345 WEST 13 ODEHV 345 WEST 14 OKLA 345 WEST 15 REDCREEK 345 WEST 16 SWESW 345 WEST 17 TWINBU 345 WEST ------ ---------------------------------- ---------- ---------------…
+
+### e11 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.5.2.4, paragraph (1), Hub Bus table, last rows · text copy line 3169 · heading above: 3.5.2.4 West 345 kV Hub (West 345)
+
+BEFORE: …COT Operations No. Hub Bus kV Hub 1 MULBERRY 345 WEST 2 BOMSW 345 WEST 3 OECCS 345 WEST 4 BITTCR 345 WEST 5 FSHSW 345 WEST 6 FLCNS 345 WEST 7 GRSES 345 WEST 8 JCKSW 345 WEST 9 MDLNE 345 WEST 10 MOSSW 345 WEST 11 MGSES 345 WEST 12 DCTM 345 WEST 13 ODEHV 345 WEST 14 OKLA 345 WEST 15 REDCREEK 345 WEST 
+QUOTE: 16 SWESW 345 WEST 17 TWINBU 345 WEST
+AFTER:  ------ ---------------------------------- ---------- ------------------ (2) The West 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Settlement Interval of the DAM in the Day-Ahead and is the simple average of the time weighted Hub Bus prices for each 15-min…
+
+### e12 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.5.2.5, paragraph (1) (Panhandle 345 kV Hub) · text copy line 3330 · heading above: 3.5.2.5 Panhandle 345 kV Hub (Pan 345)
+
+BEFORE: …---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ 3.5.2.5 Panhandle 345 kV Hub (Pan 345) (1) 
+QUOTE: The Panhandle 345 kV Hub is composed of the following listed Hub Buses:
+AFTER:  ----------------------------------------------------------------------- ERCOT Operations ------- --------------------------------- ---------- ------------------ No. Hub Bus kV Hub 1 ABERNATH 345 PAN 2 AJ_SWOPE 345 PAN 3 ALIBATES 345 PAN 4 CTT_CROS 345 PAN 5 CTT_GRAY 345 PAN 6 OGALLALA 345 PAN 7 RAI…
+
+### e13 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.5.2.5, Hub Bus table, first and last rows · text copy line 3335 · heading above: 3.5.2.5 Panhandle 345 kV Hub (Pan 345)
+
+BEFORE: …----------------------+ 3.5.2.5 Panhandle 345 kV Hub (Pan 345) (1) The Panhandle 345 kV Hub is composed of the following listed Hub Buses: ----------------------------------------------------------------------- ERCOT Operations ------- --------------------------------- ---------- ------------------ 
+QUOTE: No. Hub Bus kV Hub 1 ABERNATH 345 PAN 2 AJ_SWOPE 345 PAN 3 ALIBATES 345 PAN
+AFTER:  4 CTT_CROS 345 PAN 5 CTT_GRAY 345 PAN 6 OGALLALA 345 PAN 7 RAILHEAD 345 PAN 8 TESLA 345 PAN 9 TULECNYN 345 PAN 10 W_CW_345 345 PAN 11 WHIT_RVR 345 PAN 12 WINDMILL 345 PAN ----------------------------------------------------------------------- (2) The Panhandle 345 kV Hub Price uses the aggregated S…
+
+### e14 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.5.2.5, Hub Bus table, last rows · text copy line 3357 · heading above: 3.5.2.5 Panhandle 345 kV Hub (Pan 345)
+
+BEFORE: …--- ERCOT Operations ------- --------------------------------- ---------- ------------------ No. Hub Bus kV Hub 1 ABERNATH 345 PAN 2 AJ_SWOPE 345 PAN 3 ALIBATES 345 PAN 4 CTT_CROS 345 PAN 5 CTT_GRAY 345 PAN 6 OGALLALA 345 PAN 7 RAILHEAD 345 PAN 8 TESLA 345 PAN 9 TULECNYN 345 PAN 10 W_CW_345 345 PAN 
+QUOTE: 11 WHIT_RVR 345 PAN 12 WINDMILL 345 PAN
+AFTER:  ----------------------------------------------------------------------- (2) The Panhandle 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour of the Settlement Interval of the DAM in the Day-Ahead and is the simple average of the time weighted Hub Bus prices for each 1…
+
+### e15 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.5.2.6, paragraph (1) (ERCOT Hub Average 345 kV Hub) · text copy line 3731 · heading above: 3.5.2.6 ERCOT Hub Average 345 kV Hub (ERCOT 345)
+
+BEFORE: …45 kV Hub, the Houston 345 kV Hub, and the West 345 kV Hub. The ERCOT Hub Average 345 kV Hub price for Real-Time is the simple average of four prices from the applicable time period: the North 345 kV Hub price, the South 345 kV Hub price, the Houston 345 kV Hub price, and the West 345 kV Hub price. 
+QUOTE: The Panhandle 345 kV Hub is not included in either the Day-Ahead or Real-Time ERCOT Hub Average 345 kV Hub price.
+AFTER:  +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------…
+
+### e16 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.5.2.4, paragraph (3), day-ahead formula, fallback case · text copy line 3185 · heading above: 3.5.2.4 West 345 kV Hub (West 345)
+
+BEFORE: …lement Interval in Real-Time, for each Hub Bus included in this Hub. (3) The Day-Ahead Settlement Point Price of the Hub for a given Operating Hour is calculated as follows: DASPP _(West345) = DASL - $\begin{array}{r} \Sigma \\ c \end{array}$(DAHUBSF _(West345, c) * DASP _(c)), if HBBC _(West345)≠0 
+QUOTE: DASPP _(West345) = DASPP _(ERCOT345Bus), if HBBC _(West345)=0
+AFTER:  Where: DAHUBSF _(West345, c) = $\begin{array}{r} \Sigma \\ hb \end{array}$(HUBDF _(hb, West345, c) * DAHBSF _(hb, West345, c)) DAHBSF _(hb, West345, c) = $\begin{array}{r} \Sigma \\ pb \end{array}$(HBDF _(pb, hb, West345, c) * DASF _(pb, hb, West345, c)) HUBDF _(hb, West345, c) = IF(HB _(West345, c…
+
+### e17 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.5.2.4, paragraph (4), real-time formula, fallback case · text copy line 3243 · heading above: 3.5.2.4 West 345 kV Hub (West 345)
+
+BEFORE: …-------------------------------- (4) The Real-Time Settlement Point Price of the Hub for a given 15-minute Settlement Interval is calculated as follows: RTSPP _(West345) = Max [-$251, (RTRDP + [](HUBDF _(hb, West345) * ([](RTHBP _(hb, West345, y) * TLMP _(y)) / ([]TLMP _(y)))))], if HB _(West345)≠0 
+QUOTE: RTSPP _(West345) = RTSPP _(ERCOT345Bus), if HB _(West345)=0
+AFTER:  Where: RTRDP = [](RNWF _(y) * RTRDPA _(y)) RNWF _(y) = TLMP _(y) / []TLMP _(y) RTHBP _(hb, West345, y) = [](HBDF _(b, hb, West345) * RTLMP _(b, hb, West345, y)) HUBDF _(hb, West345) = IF(HB _(West345)=0, 0, 1 / HB _(West345)) HBDF _(b, hb, West345) = IF(B _(hb, West345)=0, 0, 1 / B _(hb, West345)) …
+
+### e18 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.5.2.4, paragraph (4), real-time formula · text copy line 3239 · heading above: 3.5.2.4 West 345 kV Hub (West 345)
+
+BEFORE: …----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- (4) The Real-Time Settlement Point Price of the Hub for a given 15-minute Settlement Interval is calculated as follows: 
+QUOTE: RTSPP _(West345) = Max [-$251, (RTRDP +
+AFTER:  [](HUBDF _(hb, West345) * ([](RTHBP _(hb, West345, y) * TLMP _(y)) / ([]TLMP _(y)))))], if HB _(West345)≠0 RTSPP _(West345) = RTSPP _(ERCOT345Bus), if HB _(West345)=0 Where: RTRDP = [](RNWF _(y) * RTRDPA _(y)) RNWF _(y) = TLMP _(y) / []TLMP _(y) RTHBP _(hb, West345, y) = [](HBDF _(b, hb, West345) *…
+
+### e19 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.6.1.5, paragraph (2) · text copy line 3917 · heading above: 6.6.1.5 Hub LMPs
+
+BEFORE: …------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ 6.6.1.5 Hub LMPs (1) The Hub LMPs shall be posted on the ERCOT website. (2) 
+QUOTE: For each defined Hub except for the ERCOT Hub Average 345 kV Hub, the Hub LMP is the arithmetic average of the Real-Time LMPs of the Hub Buses included in the Hub.
+AFTER:  The Hub LMP for a SCED Interval is calculated as follows: HUBLMP _(Hub, y) = [](HUBDF _(hb, Hub) * RTHBP _(hb, Hub, y)), if HB _(Hub) ≠ 0 HUBLMP _(Hub, y) = HUBLMP_(ERCOT345Bus), if HB _(Hub) = 0 Where: RTHBP _(hb, Hub, y) = [](HBDF _(b, hb, Hub) * RTLMP _(b, hb, Hub, y)) HUBDF _(hb, Hub) = 1 / HB …
+
+### e20 · `np-03` · tier 1 · ERCOT Nodal Protocols, Section 3: Management Activities for the ERCOT System (effective 2026-11-06)
+locator: Section 3.5.1, paragraph (1) · text copy line 2363 · heading above: 3.5.1 Process for Defining Hubs
+
+BEFORE: … 3.5.1 Process for Defining Hubs (1) Hubs settled through ERCOT may only be created by an amendment to Section 3.5.2, Hub Definitions. Hubs are made up of one or more Electrical Buses. ERCOT shall post the list of Electrical Buses (including their names) that are part of a Hub on the ERCOT website. 
+QUOTE: A Hub, once defined, may not be modified except as explicitly described in the definition of that Hub.
+AFTER:  (2) When any Electrical Bus within a Hub Bus is added to the Network Operations Model or the Congestion Revenue Right (CRR) Network Model through changes to the Network Operations Model or CRR Network Model, ERCOT shall provide notice to all Market Participants as soon as practicable and include th…
+
+### e21 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: page 29 (OCR), Chapter II.C, Table 1: Average Annual Real-Time Energy Market Prices by Zone, West row ($ per MWh, 2021 to 2025); Load Zone prices, not Hub prices · ocr copy line 1118, OCR page 29
+
+BEFORE: …hrough DC ties. Table 1: Average Annual Real-Time Energy Market Prices by Zone 2021 2022 2023 2024 2025 Energy Prices ($ per MWh) ERCOT $179.24 $76.41 $73.28 $32.41 $36.94 Houston $136.69 $82.47 $72.88 $30.24 $34.95 North $221.52 $77.30 $78.01 $30.42 $35.34 South $200.35 $74.39 $71.12 $34.66 $37.59 
+QUOTE: West $111.56 $66.62 $67.56 $35.88 $41.59
+AFTER:  Continuing the trend from 2024, the West zone had the highest average price in 2025, followed by the South zone. The West zone includes both the Panhandle, which has abundant wind and solar resources but is export-constrained, and the Permian Basin, which has seen rapid demand growth and is import-…
+
+### e22 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: page 29 (OCR), Chapter II.C, Table 1, ERCOT row ($ per MWh, 2021 to 2025) · ocr copy line 1114, OCR page 29
+
+BEFORE: …each zone for 2021-2025. These prices differ slightly from the all-in costs discussed in Section B.1 because they exclude imports and exports to and from the ERCOT grid through DC ties. Table 1: Average Annual Real-Time Energy Market Prices by Zone 2021 2022 2023 2024 2025 Energy Prices ($ per MWh) 
+QUOTE: ERCOT $179.24 $76.41 $73.28 $32.41 $36.94
+AFTER:  Houston $136.69 $82.47 $72.88 $30.24 $34.95 North $221.52 $77.30 $78.01 $30.42 $35.34 South $200.35 $74.39 $71.12 $34.66 $37.59 West $111.56 $66.62 $67.56 $35.88 $41.59 Continuing the trend from 2024, the West zone had the highest average price in 2025, followed by the South zone. The West zone inc…
+
+### e23 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: page 94 (OCR), Chapter V.G.2, Congestion Impact · text copy line 6024
+
+BEFORE: …. In 2025, roughly 9% of congestion costs were interzonal, down from 11% in 2024. The West Zone is the largest contributor to intrazonal congestion costs because it is export constrained in the panhandle because of the abundance of renewables in the area and import constrained in the Permian Basin. 
+QUOTE: Congestion costs within the West increased by 27% between 2024 and 2025.
+AFTER:  Next, we discuss a methodology to define load-zone boundaries based on geographic coordinates and historical pricing outcomes. 3. Methodology for Defining Load Zones Our methodology groups substation-level load nodes into new load zones based on geographic coordinates and historical price data.47 W…
+
+### e24 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: page 29 (OCR), Chapter II.C, Zonal Energy Prices · text copy line 1704
+
+BEFORE: …he trend from 2024, the West zone had the highest average price in 2025, followed by the South zone. The West zone includes both the Panhandle, which has abundant wind and solar resources but is export-constrained, and the Permian Basin, which has seen rapid demand growth and is import-constrained. 
+QUOTE: This duality explains why the West zone experienced the highest number of intervals with negative prices and the greatest frequency of price spikes of any load zone.
+AFTER:  We expand in Chapter V on how the load zones in ERCOT have not been updated since 2003 and we recommend updating them to reflect ERCOT's current, more complex topology. D. Shortage and Reliability Pricing Before RTC was implemented, ERCOT's market design featured two distinct price adders, the ORDC…
+
+### e25 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: Chapter VI, Resource Adequacy, Net Revenue by Location (page 122 OCR) · text copy line 7521
+
+BEFORE: … types of new generators. Because natural gas prices can vary widely by location, the figure shows revenues for natural gas units in the Houston zone (reflecting Katy hub prices) and the West zone (reflecting Waha hub prices). Figure 55 shows a wide gap in net revenues between the West and Houston. 
+QUOTE: Historically, high natural gas production in the Permian Basin and limited export capability have resulted in low gas prices at the Waha location and, as a result, much higher net revenues for gas resources in this area. The price gap between the two hubs widened in 2025 because the import constraint in the Permian Basin substantially increased congestion costs in the region.
+AFTER:  As work on these projects concludes, we expect the gap between the two hubs to narrow again. 100 | 2025 State of the Market Report / / Resource Adequacy Figure 55: Net Revenues by Location 2025 $C! $%! #! "! /(W;F*H<(, =F0;<,. /(W;<,.9 />?T. S(TN0 -.*H S(FH5 8N,5N,9T. 4(0H5 /(N*HNT S(FH5.N*H 4(0H52…
+
+### e26 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: Chapter VI, Resource Adequacy, Net Revenue by Location (page 122 OCR) · text copy line 7519
+
+BEFORE: …ility Deployment Price Adder (RDPA) also raises energy prices by accounting for operator actions that impact the market prices. 2. Net Revenue by Location Figure 55 shows net revenues at different locations for several types of new generators. Because natural gas prices can vary widely by location, 
+QUOTE: the figure shows revenues for natural gas units in the Houston zone (reflecting Katy hub prices) and the West zone (reflecting Waha hub prices).
+AFTER:  Figure 55 shows a wide gap in net revenues between the West and Houston. Historically, high natural gas production in the Permian Basin and limited export capability have resulted in low gas prices at the Waha location and, as a result, much higher net revenues for gas resources in this area. The p…
+
+### e27 · `eia-gas-hubs` · tier 2 · EIA Today in Energy: Market dynamics vary at key natural gas pricing hubs
+locator: EIA, natural gas pricing hubs, Waha · text copy line 84
+
+BEFORE: …otal marketed natural gas in the United States last year. Growing LNG exports and related facilities that process the hydrocarbon gas liquids present in natural gas in this region have also further increased the significance of this hub, as have increased natural gas exports via pipeline to Mexico. 
+QUOTE: The Waha natural gas pricing hub is in West Texas near Permian Basin production activities and helps natural gas market participants get a sense of pricing in West Texas and southeastern New Mexico.
+AFTER:  The Permian Basin produced 19% of total U.S. natural gas in 2023, with most coming from associated gas from crude oil wells. Because natural gas production in the Permian Basin has increased more rapidly than natural gas pipeline takeaway capacity, Waha prices are typically lower than those at othe…
+
+### e28 · `eia-gas-hubs` · tier 2 · EIA Today in Energy: Market dynamics vary at key natural gas pricing hubs
+locator: EIA, natural gas pricing hubs, Waha · text copy line 84
+
+BEFORE: …cing hub is in West Texas near Permian Basin production activities and helps natural gas market participants get a sense of pricing in West Texas and southeastern New Mexico. The Permian Basin produced 19% of total U.S. natural gas in 2023, with most coming from associated gas from crude oil wells. 
+QUOTE: Because natural gas production in the Permian Basin has increased more rapidly than natural gas pipeline takeaway capacity, Waha prices are typically lower than those at other hubs, sometimes turning negative.
+AFTER:  Pacific region SoCal Citygate is the major natural gas pricing hub in Southern California in the Los Angeles Basin, with substantial natural gas consumption by the various local sectors, averaging about 2.5 billion cubic feet per day (Bcf/d) in 2023. SoCal Citygate prices reflect the price of movin…
+
+### e29 · `eia-waha-2024` · tier 2 · EIA Today in Energy: Natural gas spot prices fell across key hubs in 2024
+locator: EIA, Today in Energy on 2024 natural gas prices, West Texas paragraph · text copy line 73
+
+BEFORE: … the Northeast at Algonquin Citygate and Eastern Gas South averaged 32 cents per million British thermal units (MMBtu) and 6 cents/MMBtu lower in 2024, respectively, and western prices at Northwest Sumas and SoCal Citygate averaged $2.51/MMBtu and $4.55/MMBtu lower compared with 2023, respectively. 
+QUOTE: In West Texas, prices at the Waha Hub near Permian Basin production activities traded below zero for 42% of trading days in 2024 as natural gas production from the Permian Basin outpaced available pipeline takeaway capacity.
+AFTER:  The Matterhorn Express Pipeline, capable of carrying 2.5 billion cubic feet per day from the Permian Basin to demand centers on the Texas coast, entered service in October 2024 and helped clear some of the regional production bottleneck. Since mid-November the price at the Waha Hub has been more th…
+
+### e30 · `ref-ice-ercot-heat-rate` · tier 2 · ICE ERCOT Panhandle Heat Rate 345kV Hub Off-Peak contract specification
+locator: ICE OTC contract specification dated November 21, 2026, title · text copy line 4
+
+BEFORE: …ICE OTC November 21, 2026 
+QUOTE: ERCOT Panhandle Heat Rate 345kV Hub Off-Peak
+AFTER:  Contract Specifications Contract Symbol B09 Contract Size 50 MW per hour Currency US $ and cents per MWH Minimum Price Fluctuation 0.001 per MMBTU/MWh Listing Cycle Up to 72 consecutive monthly Contract Periods Schedule All off-peak hours for the applicable strip length referenced by the market for…
+
+### e31 · `np-02` · tier 1 · ERCOT Nodal Protocols, Section 2: Definitions and Acronyms (effective 2026-11-06)
+locator: Section 2.1, definition of Hub Bus, paragraph (2) (Real-Time Market) · text copy line 1214
+
+BEFORE: …he de-energized Hub Bus. If power flow buses within a Hub Bus are de-energized under contingency, the disconnected MWs are redistributed among remaining energized power flow buses. This is used solely for calculating the prices of existing Hub Buses defined in Section 3.5.2, Hub Definitions; or (2) 
+QUOTE: In the Real-Time Market (RTM), an energized Electrical Bus or group of energized Electrical Buses defined as a single element in the Hub definition. The LMP of the Hub Bus is the simple average of the LMPs assigned to each energized Electrical Bus in the Hub Bus. If all Electrical Buses within a Hub Bus are de-energized, the LMP of the Hub does not include the de-energized Hub Bus.
+AFTER:  This is used solely for calculating the prices of existing Hub Buses defined in Section 3.5.2. Hub LMP (see Locational Marginal Price) I [Back to Top] Independent Market Information System Registered Entity (IMRE) A Market Participant that has signed the Standard Form Market Participant Agreement (…
+
 ## Statements to check
 
-- **Definition #1** (cites e1, e2): The West 345 kV Hub (West 345) is one of the Hubs defined in Protocol Section 3.5.2, composed of a listed set of 345 kV Hub Buses. [e1] A Hub is a designated Settlement Point made of a Hub Bus or group of Hub Buses with the price methodology in its definition. [e2] The market shorthand "HB_WEST" is not used in the saved protocol text.
-- **How it works #1** (cites e3, e7, e4): The West 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour in the Day-Ahead, and in real time is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval. [e3] Its buses and method can never be modified. [e7] In real time, the West 345 kV Hub price is one of four hub prices averaged into the ERCOT Hub Average 345 kV Hub price. [e4]
-- **ERCOT context #1** (cites e5, e6) FLAG number-not-in-quote: 2025: In the IMM's 2025 report the West Zone is the largest contributor to intrazonal congestion costs, export constrained in the panhandle because of renewables and import constrained in the Permian Basin. [e5] The IMM also reports that the West Zone had the highest annual average zonal energy prices for the second year in a row (2025). [e6] Those statements are about the West Load Zone, not the West Hub, so hub-specific price levels should be checked separately. [e6]
-- **Key facts #1** (cites e1) FLAG number-not-in-quote: 3.5, 2.4: - The West 345 kV Hub is defined in Protocol Section 3.5.2.4. [e1]
-- **Key facts #2** (cites e3): - Day-ahead price uses aggregated Shift Factors; real-time price is the simple average of time-weighted Hub Bus prices per 15-minute interval. [e3]
-- **Key facts #3** (cites e4): - In real time it is one of four prices averaged in the ERCOT Hub Average 345 kV Hub price. [e4]
-- **Key facts #4** (cites e6) FLAG number-not-in-quote: 2025: - 2025 IMM: West Zone had the highest annual average zonal energy price for the second year in a row. [e6]
-- **Key facts #5** (cites e9): - ERCOT's real-time price display lists a hub Settlement Point named HB_WEST. [e9]
-- **Common confusion #1** (cites e3, e6): - West Hub versus West Load Zone: the Hub price follows the Hub definition, and the IMM's zone statements do not automatically apply to the Hub. [e3][e6]
-- **Common confusion #2** (cites e5): - Hub versus generators in the Permian or Panhandle: the IMM reports large intrazonal congestion costs in the West Zone, so check node-level prices rather than assuming the hub or zone price applies to a given generator. [e5]
+- **Definition #1** (cites e1, e2, e9): The West 345 kV Hub (West 345) is one of the Hubs defined in Protocol Section 3.5.2, composed of a listed set of 345 kV Hub Buses. [e1] A Hub is a designated Settlement Point made of a Hub Bus or group of Hub Buses with the price methodology in its definition. [e2] ERCOT's real-time price display lists the hub Settlement Point name HB_WEST. [e9] The saved Protocol text does not itself use the name HB_WEST.
+- **How it works #1** (cites e10, e11) FLAG number-not-in-quote: 345 kV: The Hub Bus list. The Protocol table for the West 345 kV Hub starts with MULBERRY, BOMSW, OECCS and BITTCR and ends at number 17, TWINBU, so it has 17 listed Hub Buses. [e10][e11] The table gives only bus names, voltage (345 kV) and the hub label, so it does not show which buses sit in the Panhandle and which in the Permian Basin (see Open items). [e10]
+- **How it works #2** (cites e3, e31, e19, e18, e16, e17): Pricing. The West 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour in the Day-Ahead, and in real time is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval. [e3] The real-time Hub Bus LMP is the simple average of the LMPs of its energized Electrical Buses, and a fully de-energized Hub Bus drops out. [e31] The Hub LMP is the arithmetic average of the Hub Buses' Real-Time LMPs (the ERCOT Hub Average 345 kV Hub is the exception). [e19] The real-time formula carries the -$251 floor, written Max[-$251, (RTRDP + ...)]. [e18] If no Hub Bus has an energized component, the hub price equals the ERCOT Bus Average 345 kV Hub price in both the day-ahead and real-time formulas. [e16][e17]
+- **How it works #3** (cites e20, e7) FLAG number-not-in-quote: 3.5: Stability. A Hub, once defined, may not be modified except as explicitly described in its definition (np-03 Section 3.5.1), and np-02 says the Hub Bus list and method can never be modified. [e20][e7]
+- **Formula #1** (cites e18, e3, e4): West hub real-time price per 15-minute Settlement Interval: the floor Max[-$251, ...] applied to the Real-Time Reliability Deployment Price (RTRDP) plus the equal-weighted average over Hub Buses of the time-weighted Hub Bus prices. [e18][e3] The Protocol defines the RT variables with the same structure as the North hub, over West Hub Buses. [e3][e4]
+- **ERCOT context #1** (cites e12, e13, e14, e15, e9, e30) FLAG number-not-in-quote: 3.5: The West Hub and the Panhandle Hub are different hubs. The Panhandle 345 kV Hub is its own Section 3.5.2.5 hub of 12 Hub Buses (ABERNATH through WINDMILL) and is not part of the ERCOT Hub Average. [e12][e13][e14][e15] ERCOT's display lists an HB_PAN Settlement Point, though no saved source says in words that it is the Panhandle hub. [e9] ICE lists an "ERCOT Panhandle Heat Rate 345kV Hub Off-Peak" contract, which refers to that Panhandle hub rather than West 345. [e30]
+- **ERCOT context #2** (cites e5, e23, e6): In the IMM's 2025 report the West Zone is the largest contributor to intrazonal congestion costs, export constrained in the panhandle because of renewables and import constrained in the Permian Basin. [e5] Congestion costs within the West increased by 27% between 2024 and 2025. [e23] The IMM also reports that the West Zone had the highest annual average zonal energy price for the second year in a row (2025). [e6] Those statements are about the West Load Zone, not the West Hub. [e6]
+- **ERCOT context #3** (cites e21, e22, e19) FLAG number-not-in-quote: 2021, 2025, 2022, 2023, 2024: Zone price levels (load-weighted real-time prices by Load Zone, IMM Table 1, $ per MWh for 2021 to 2025): West $111.56, $66.62, $67.56, $35.88, $41.59; ERCOT $179.24, $76.41, $73.28, $32.41, $36.94. [e21][e22] So the West zone was below the ERCOT average from 2022 to 2023 and above it in 2024 and 2025 (comparison from the two rows). [e21][e22] These are Load Zone prices, not HB_WEST. [e19]
+- **ERCOT context #4** (cites e24) FLAG number-not-in-quote: 2025: Negative prices and spikes: the IMM says the West zone's Panhandle/Permian duality explains why it had the highest number of negative-price intervals and the greatest frequency of price spikes of any load zone in 2025. [e24]
+- **ERCOT context #5** (cites e26, e25, e27, e28, e29): Gas link: the IMM's net revenue analysis uses Waha hub gas prices for the West zone. [e26] It says high Permian gas production and limited export capability have resulted in low gas prices at Waha, and that the price gap between the Waha and Katy gas hubs widened in 2025 because the Permian import constraint increased congestion costs. [e25] EIA describes the Waha gas pricing hub as in West Texas near Permian production, with prices typically below other hubs and sometimes negative. [e27][e28] EIA reports Waha traded below zero for 42% of trading days in 2024. [e29] These are gas prices, not electricity hub prices.
+- **Key facts #1** (cites e1, e11) FLAG number-not-in-quote: 3.5, 2.4: - The West 345 kV Hub is defined in Protocol Section 3.5.2.4 and lists 17 Hub Buses. [e1][e11]
+- **Key facts #2** (cites e3, e18): - Day-ahead price uses aggregated Shift Factors; real-time price is the simple average of time-weighted Hub Bus prices per 15-minute interval, with a -$251 floor in the formula. [e3][e18]
+- **Key facts #3** (cites e4, e15): - In real time it is one of four prices averaged in the ERCOT Hub Average 345 kV Hub price; Panhandle is excluded. [e4][e15]
+- **Key facts #4** (cites e6, e21) FLAG number-not-in-quote: 2025: - 2025 IMM: West Zone had the highest annual average zonal energy price ($41.59 per MWh) for the second year in a row. [e6][e21]
+- **Key facts #5** (cites e23): - 2025 IMM: congestion within the West rose 27% from 2024 to 2025. [e23]
+- **Key facts #6** (cites e9): - ERCOT's real-time price display lists HB_WEST and HB_PAN as separate Settlement Points. [e9]
+- **Say it like this #1** (cites e3, e11, e5, e24): HB_WEST is the price of a fixed set of 17 west 345 kV buses, a simple average of Hub Bus prices in real time. The IMM ties the West zone's higher prices and negative prices to congestion between the Panhandle and the Permian, so check whether a west hub price is the right reference for a particular west generator or load. [e3][e11][e5][e24]
+- **Common confusion #1** (cites e3, e19, e6): - West Hub versus West Load Zone: the Hub price follows the Hub definition (equal-weighted Hub Bus average), the Load Zone price is weighted by Load, and the IMM's zone statements do not automatically apply to the Hub. [e3][e19][e6]
+- **Common confusion #2** (cites e12, e15, e9): - West Hub versus Panhandle Hub (HB_PAN on ERCOT's display): separate hubs with separate bus lists; only West is in the ERCOT Hub Average. [e12][e15][e9]
+- **Common confusion #3** (cites e27, e2): - West Hub versus Waha: Waha is a natural gas pricing hub, while the West Hub is an electricity Settlement Point. [e27][e2]
+- **Common confusion #4** (cites e5): - Hub versus generators in the Permian or Panhandle: the IMM reports large intrazonal congestion costs in the West Zone, so check node-level prices rather than assuming the hub or zone price applies to a given generator. [e5]
 - **Questions #2** (cites e6): The IMM says transmission projects have not kept pace with renewables growth in the Panhandle and rising demand in the Permian Basin, leading to higher congestion in the West. [e6]
-- **Questions #4** (cites e3): As the simple average of time-weighted Hub Bus prices for each 15-minute Settlement Interval. [e3]
+- **Questions #4** (cites e3, e18): As the simple average of time-weighted Hub Bus prices for each 15-minute Settlement Interval, with the -$251 floor applied. [e3][e18]
+- **Questions #6** (cites e24, e5): The IMM says the West zone includes the export-constrained Panhandle and the import-constrained Permian Basin, and that this duality explains the highest number of negative-price intervals and the greatest frequency of price spikes. [e24][e5]
+- **Questions #8** (cites e12, e14, e2): The Panhandle 345 kV Hub is a separate hub with its own 12 buses, so a position referenced to HB_WEST does not settle at the Panhandle hub price. [e12][e14][e2]
+- **Questions #10** (cites e26, e25): The IMM uses Waha gas prices for West-zone gas units and says Permian gas is cheap because of limited export capability. [e26][e25] It does not state a numerical link between Waha and HB_WEST.
 - **Link to trading-hub** (cites e1): is-a Trading Hubs: The West 345 kV Hub is one of the defined Hubs. [e1]
 - **Link to settlement-point** (cites e2): is-a Settlement Point: A Hub is a kind of Settlement Point. [e2]
 - **Link to hb-north** (cites e3, e8): contrasts-with HB_NORTH (North Hub): The North 345 kV Hub Price uses the same pricing method as the West 345 kV Hub (aggregated Shift Factors in the Day-Ahead, simple average of time-weighted Hub Bus prices in Real-Time) over its own Hub Buses. [e3][e8]
 - **Link to congestion** (cites e5) FLAG number-not-in-quote: 2025: related Transmission Congestion: In the IMM's 2025 report the West Zone is the largest contributor to intrazonal congestion costs. [e5]
 - **Link to load-zone** (cites e6): contrasts-with Load Zone: The IMM's West Zone statements are about the Load Zone, not this Hub. [e6]
-## Uncited guidance text (check for new facts, numbers, dates, names)
-
-- (Say it like this) HB_WEST is the price of a fixed set of west 345 kV buses, a simple average of Hub Bus prices in real time. The IMM ties higher West Zone prices to congestion, so check whether a west hub price is the right reference for a particular west generator.
-
+- **Link to basis-risk** (cites e5, e23): related Basis Risk: A position settled at a node or load zone against the West Hub carries the price difference between the two Settlement Points, which the IMM ties to West congestion. [e5][e23]
+- **Link to waha-hub** (cites e26, e28): related Waha Gas Hub: The IMM uses Waha gas prices for West-zone gas units, and EIA says Waha prices are typically lower than other hubs and sometimes negative. [e26][e28]
+- **Link to negative-prices** (cites e24): related Negative Prices: The IMM says the West zone had the highest number of negative-price intervals. [e24]
+- **Link to permian-transmission** (cites e5) FLAG number-not-in-quote: 765 kV: related Permian Basin Load & 765 kV Plan: The IMM ties West congestion to import constraints in the Permian Basin and export constraints in the Panhandle. [e5]
+- **Link to shift-factor** (cites e3): related Shift Factors: The day-ahead hub price uses aggregated Shift Factors of the Hub Buses. [e3]
+- **Link to exchanges-ice-nodal** (cites e30, e12): related ICE & Nodal Exchange: ICE lists an ERCOT Panhandle Heat Rate 345kV Hub contract, a different hub from West 345. [e30][e12]
