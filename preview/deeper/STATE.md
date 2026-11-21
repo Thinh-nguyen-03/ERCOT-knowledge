@@ -1,28 +1,21 @@
-# Deeper pass: state (written 2026-11-21, for the next check-in)
-
-Usage limit (5-hour window) stopped five Opus agents at about 08:30 UTC; it resets at 12:50 UTC.
+# Deeper pass and audit: state (written 2026-11-21 ~14:10 UTC, for the next check-in)
 
 ## Done
-- All 153 topics exist. Nine industry-reference topics written and audited (logs: preview/audit-log/I1.md, I2.md).
-- Wave 1 (54 must-know topics, Sonnet): complete.
-- Wave 2 batches complete: W2-1 (asdc, drrs, four-cp, large-load-growth, large-load-interconnection),
-  W2-5 (energy-only-market, ercot, heat-rate, imm, natural-gas-price).
+- All 153 topics exist and are `depth: deep`. 6,444 quotes verified word for word.
+- Nine industry-reference topics audited (preview/audit-log/I1.md, I2.md).
+- Sample audit of the deeper pass: 30 topics, 1,067 statements, 77 wrong before fixes (7.2%):
+  single-source topics 5.9%, multi-source topics 9.5%. Logs: preview/audit-log/D-A*.md.
 
-## Stopped mid-work: resume with SendMessage ("limit has reset, continue and report")
-- W2-2 agent ac552f4bc735536db: long-term-load-forecast, pcm, permian-transmission, rtc-b, sb6
-- W2-3 agent a6ba3fc2942df32e3: summer-2026, tax-credits-recs, texas-energy-fund, winter-storm-jan-2026, retailer-defaults-2021
-- W2-4 agent a6badad465fd88cc3: summer-2023, uri-repricing, winter-storm-elliott, winter-storm-uri, battery-revenue-stack
-- W2-6 agent a5fd2c293693e4cd5: net-load, nodal-market, offer-cap, ordc, puct
-- W2-7 agent aad0c8383667c4c99: resource-adequacy, resource-mix, texas-interconnection, sc-battery-strategy, sc-ccgt-in-the-money
-If an agent id no longer resolves, start a new Opus agent with content/DEEPER_BRIEF.md and the same topic list
-(only topics whose frontmatter lacks `depth: deep` or that fail verify need work).
+## In progress: audit of the remaining 114 deepened topics
+- Plan: preview/deeper/audit-full.json. FO-* = multi-source (Opus), FS1-* = must-know single-source (Sonnet),
+  FS3-* = other single-source (Sonnet). Brief: content/AUDIT_BRIEF.md plus the sample-audit additions
+  (packets list only new/changed material; check formulas term by term; label writer arithmetic).
+- Each batch writes preview/audit-log/F-<batch>.md. A batch is done when that log exists and lists all its topics.
+- Launched at ~14:10 UTC: FO-1..FO-12 and FS1-1..FS1-10. NOT yet launched: FS3-1..FS3-11.
+- If agents stopped on a usage limit, resume with SendMessage or relaunch the batch (topics with no log entry).
+- DO NOT run `node pipeline/audit.ts` while auditors are running (it rebuilds the packets). If packets must be
+  rebuilt, use: `node pipeline/audit.ts --since bcd6d4f`.
 
-## Not started
-- W2-8 (Opus): sc-crr-valuation, sc-dam-premium-flip, sc-data-center-ppa, sc-hot-august-evening, sc-load-forecast-miss
-- W2-9 (Opus): sc-nprr-opinion, sc-rep-heat-wave-hedge, sc-uplift-surprise, sc-west-negative-north-spike, sc-winter-cold-snap
-- Wave 3 (Sonnet, 7 batches): see preview/deeper/batches.json key "W3".
-- Then: `node pipeline/audit.ts`, context audit of deepened topics (content/AUDIT_BRIEF.md; Sonnet for single-source,
-  Opus for multi-source), `node pipeline/render.ts`, update preview/DECISIONS.md, commit, push, report to the owner.
-
-## Pace
-One 5-hour window funded roughly 11 Sonnet + 9 Opus agents. Launch in priority order and expect two more windows.
+## After the audit
+- Tally preview/audit-log/F-*.md and D-*.md, `node pipeline/render.ts`, update preview/DECISIONS.md, commit, push,
+  send the reading view and decisions page to the owner.

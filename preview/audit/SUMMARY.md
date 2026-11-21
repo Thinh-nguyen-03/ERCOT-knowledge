@@ -4,16 +4,16 @@ Generated 2026-11-21 over 153 topics.
 
 ## Counts
 
-- number-not-in-quote: 1201
-- proposal-or-filing-source: 274
-- ocr: 91
-- pending-box: 53
+- number-not-in-quote: 1207
+- proposal-or-filing-source: 280
+- ocr: 92
+- pending-box: 60
 - tier-3: 182
 
 ## Evidence quotes by source tier
 
-- tier 1: 3576
-- tier 2: 2566
+- tier 1: 3655
+- tier 2: 2607
 - tier 3: 182
 
 ## number-not-in-quote
@@ -95,8 +95,10 @@ Generated 2026-11-21 over 153 topics.
 - congestion · Link to permian-transmission · 765 kV :: related Permian Basin Load & 765 kV Plan: The IMM ties West-zone congestion to Panhandle renewables and Permian demand outrunning transmissi
 - cop · How it works #2 · 3.9 :: What the COP must contain (Section 3.9.1): the COP must show each Resource's ability to provide each Ancillary Service by product and sub-ty
 - cop · ERCOT context #4 · 3.9, 8.1 :: Accuracy monitoring: ERCOT monitors COP accuracy under Section 8 (Section 3.9, paragraph (3) points there).  Under Section 8.1.2, ERCOT post
+- credit-tpe · How it works #5 · 16.11 :: A pending change (NPRR1023, to take effect upon system implementation) would add a Section 16.11.8 under which ERCOT may at its sole discret
+- credit-tpe · Example #1 · $15, $5, 0.10, 1.10, $4.4, $0, :: Suppose a Counter-Party has TPEA of $4 million, TPES of $10 million, no CRR bilateral trades or locked auction limit, and posts $15 million 
+- credit-tpe · Timeline #1 · 2021 :: 2021: Winter Storm Uri short payments exceed $3 billion (IMM). 
 - credit-tpe · Common confusion #1 · 16.11 :: TPE is the sum of TPEA and TPES ; Section 16.11.1 states the requirement as Financial Security at or above TPE, and Section 16.11.5 spells o
-- credit-tpe · Link to retailer-defaults-2021 · 2021 :: related Griddy & Brazos: 2021 Defaults: Counter-Party creditworthiness standards apply to every QSE and CRR Account Holder. 
 - crez · Definition #1 · 25.174 :: Competitive Renewable Energy Zones (CREZ) were zones for which, according to a University of Texas timeline, the Texas Legislature, via SB 4
 - crez · ERCOT context #1 · 2011 :: The IMM's 2011 report said that the physical limit of its most active constraint, the West to North interface, would over the long term incr
 - crez · Timeline #3 · 2011 :: 2011: the IMM expects the West to North interface limit to rise as CREZ transmission projects are completed. 
@@ -161,14 +163,13 @@ Generated 2026-11-21 over 153 topics.
 - eea · Link to summer-2023 · 2023 :: example-of Summer 2023 Tight Conditions: ERCOT moved from EEA2 to EEA1 on September 6, 2023 after a frequency decline. 
 - eea · Link to ancillary-services · 2027 :: related Ancillary Services (AS): ERCOT's 2027 AS methodology proposal would lower the ECRS/Non-Spin convergence threshold from Watch (3,000 
 - emergency-pricing-program · ERCOT context #1 · 2021 :: The program comes from SB 3 (2021), which told the commission to establish an emergency pricing program by rule and to have it take effect w
-- emergency-pricing-program · ERCOT context #5 · 2026 :: Party filing (not a rule or a finding): in comments filed September 17, 2026 in PUCT Project 59550 (the first quinquennial review of the sys
-- emergency-pricing-program · Timeline #1 · 25.509, 2026 :: December 2023: the PUCT adopts the EPP rule (16 TAC 25.509(c), Project 54585), per the Staff question and ERCOT comments in the 2026 filing.
+- emergency-pricing-program · Timeline #1 · 2026 :: December 2023: the PUCT adopts the EPP rule (16 TAC 25.509(c), Project 54585), per ERCOT's comments and the Staff question quoted in the 202
 - emergency-pricing-program · Timeline #3 · 2026 :: December 5, 2025: ERCOT implements Phase 1 of NPRR1216, OBDRR051 and VCMRR039 (per ERCOT's 2026 filing). 
-- emergency-pricing-program · Timeline #5 · 2026 :: September 17, 2026: ERCOT files comments in Project 59550. 
 - emergency-pricing-program · Key facts #7 · 2026 :: Per the Staff question quoted in ERCOT's September 2026 filing, the EPP has never been activated. 
 - emergency-pricing-program · Questions #12 · 2026 :: Per ERCOT's 2026 filing, the 12-hour trigger is set by statute in PURA 39.160(b), so changing it would require new legislation. 
 - emergency-pricing-program · Link to texas-legislature · 2021 :: related Texas Legislature: SB 3 (2021) directed the commission by rule to establish an emergency pricing program. 
 - emergency-pricing-program · Link to puct · 25.509 :: regulates PUCT (Public Utility Commission of Texas): The PUCT rule 25.509(c) sets the EPP and receives ERCOT's initial report after the EPP 
+- energy-offer-curve · How it works #9 · 2026 :: Energy Offer Curves may be subject to mitigation in Real-Time operations using a MOC; for Generation Resources ERCOT builds an incremental M
 - energy-only-market · How it works #2 · 2010 :: The core of the design is shortage pricing. When supply is tight, prices rise to reflect the higher value of available generation, and those
 - energy-only-market · Formula #2 · 25.509 :: Peaker net margin (16 TAC §25.509(b)): each day the peaking operating cost (POC) is 10 times ERCOT's natural gas price index, in $/MWh. From
 - energy-only-market · ERCOT context #3 · 2010 :: 2010: net revenues were insufficient to support new investment for any technology in any region, which the IMM put down to low gas prices an
@@ -206,6 +207,7 @@ Generated 2026-11-21 over 153 topics.
 - ers · Key facts #4 · 2025 :: Offer cap in Attachment Q (December 5, 2025 version): $80/MW/hr. 
 - ers · Timeline #2 · 2022 :: October 2021: the PUCT directed ERCOT to change ERS deployment, enacted via NPRR1106 (per the IMM's 2022 report). 
 - ers · Timeline #5 · 2025 :: December 2025 version of Attachment Q: offer cap of $80/MW/hr. 
+- ers · Questions #10 · 2026 :: The IMM says crypto mines that migrated from CLR registration are no longer price-responsive in SCED, and that paying them to curtail essent
 - esi-id · How it works #10 · 15.4 :: If an ESI ID has been inadvertently placed in inactive status, ERCOT re-instates it on notification from the responsible TDSP.  That is the 
 - esi-id · ERCOT context #6 · 150 kW :: Each month the TDSP lists ESI IDs with consumption of at least 150 kWh in a single meter reading cycle but no REP of record in its customer 
 - esi-id · Questions #4 · 15.4 :: No. The number is not re-issued even if the point of service ends.  The one exception in Section 15.4 is reinstatement of an ESI ID inadvert
@@ -301,14 +303,17 @@ Generated 2026-11-21 over 153 topics.
 - heat-rate-call-option · Link to hb-north · 345kV :: related HB_NORTH (North Hub): The ICE ERCOT heat-rate contract in the saved sources references the ERCOT Panhandle 345kV Hub, not North. 
 - heat-rate · Formula #1 · 1,000, 10.5 :: Efficiency (EIA): efficiency (%) = 3,412 Btu per kWh divided by the heat rate in Btu/kWh. A 10,500 Btu/kWh heat rate is 33% efficient and a 
 - heat-rate · Formula #2 · 2026, 10 MW :: I/O curve (Verifiable Cost Manual, version effective December 1, 2026): fuel input y (MMBtu/hr) = A + Bx + Cx² + Dx³, where x is output in M
-- heat-rate · Formula #3 · 4.4, 9.4 :: Mitigated Offer Cap (Protocols 4.4.9.4.1): MOC = the greater of GIHR × max(FIP, WAFP) and IHR × FPRC + OM.  For a resource with verifiable c
+- heat-rate · Formula #3 · 4.4, 9.4, 2026 :: Mitigated Offer Cap (Protocols 4.4.9.4.1): MOC = the greater of GIHR × max(FIP, WAFP) and IHR × FPRC + OM.  For a resource with verifiable c
 - heat-rate · ERCOT context #2 · 25.509, 2020 :: PUCT rule 25.509 sets the daily peaking operating cost at 10 times the natural gas price index, and the IMM says ERCOT calculates PNM using 
 - heat-rate · ERCOT context #3 · 2023, 2024 :: The IMM's own net revenue analysis (2023 and 2024 reports) assumes 7 MMBtu per MWh for a combined-cycle unit and 10.5 MMBtu per MWh for a ga
 - heat-rate · ERCOT context #4 · 2024 :: For its price spike analysis in the 2024 report, the IMM defines a price spike as a 15-minute interval with a load-weighted average energy p
+- heat-rate · ERCOT context #6 · 2013 :: In a 2013 article, EIA's daily price table used a benchmark heat rate of 7,000 Btu/kWh for the spark spread, which it described as a fairly 
 - heat-rate · Key facts #3 · 2023, 2024 :: IMM net revenue assumptions (2023 and 2024 reports): 7 MMBtu/MWh combined cycle, 10.5 MMBtu/MWh gas turbine, $4/MWh variable O&M. 
 - heat-rate · Key facts #4 · 2024 :: IMM price spike threshold (2024 report): 18 times FIP. 
 - heat-rate · Questions #6 · 2023, 2024 :: 7 MMBtu/MWh for a combined cycle and 10.5 MMBtu/MWh for a gas turbine, plus $4/MWh variable O&M, in its 2023 and 2024 net revenue analyses. 
+- heat-rate · Questions #14 · 2013 :: EIA's 2013 introduction to spark spreads used a 7,000 Btu/kWh benchmark to represent a fairly new, efficient combined cycle; it is a market-
 - heat-rate · Link to offer-cap · 25.509 :: used-in Offer Caps (HCAP / LCAP / SWCAP): PUCT rule 25.509 sets a daily peaking operating cost of 10 times the natural gas price index, and 
+- heat-rate · Link to spark-spread · 2013 :: prerequisite-of Spark Spread: EIA's spark spread is the power price minus the gas price times a heat rate; EIA's 2013 article used a 7,000 B
 - hsl-lsl · Formula #1 · 6.5, 7.2 :: The current Resource Limit Calculator (np-06 Section 6.5.7.2) turns telemetered output, ramp rate and the telemetered limits into dispatch l
 - imm · ERCOT context #2 · 39.1594, 2024 :: The IMM also has formal roles in resource adequacy. If ERCOT's assessment shows a reviewed system failing the reliability standard, the IMM 
 - imm · ERCOT context #4 · 2026 :: On NPRR1309 (DRRS), in February 2026 it offered qualified support, crediting ERCOT with addressing its concerns about the earlier NPRR1235, 
@@ -334,11 +339,11 @@ Generated 2026-11-21 over 153 topics.
 - large-flexible-load · ERCOT context #3 · 2024 :: On 4CP, the IMM's 2024 report says the growth of LFLs, most located in West Texas, worsens the misalignment of the 4CP transmission cost met
 - large-flexible-load · ERCOT context #4 · 2025, 2024 :: Forecasting. ERCOT's long-term load forecast treats large flexible loads as one of its major components: five in the IMM's 2025 description 
 - large-flexible-load · Key facts #1 · 39.361, 75 MW :: PURA §39.361: virtual currency mining facility over 75 MW with interruptible load must register as an LFL. 
-- large-flexible-load · Key facts #7 · 2022, 2024 :: LFLs reduce consumption by as much as 75% when system lambda exceeds $1,000 per MWh (IMM, 2022-2024 data). 
+- large-flexible-load · Key facts #7 · 2024 :: LFLs reduce consumption by as much as 75% when system lambda exceeds $1,000 per MWh (IMM, 2024 report). 
 - large-flexible-load · Common confusion #1 · 2025 :: (Guidance) "Large Flexible Load" is a PURA registration category for virtual currency mining facilities above 75 MW with interruptible load.
 - large-flexible-load · Questions #2 · 75 MW :: It is a virtual currency mining facility under a retail electric service agreement in ERCOT, requiring more than 75 MW, with interruptible l
 - large-flexible-load · Questions #10 · 2024 :: The IMM's 2024 report says existing cryptocurrency mining enterprises may convert to conventional data center operations if cryptocurrency p
-- large-flexible-load · Link to clr · 2025 :: related CLR (Controllable Load Resource): Many crypto-mining LFLs have registered as CLRs, though many deregistered in 2025; a Large Load ca
+- large-flexible-load · Link to clr · 2025 :: related CLR (Controllable Load Resource): The IMM says a substantial percentage of LFL capacity has been registered as Load Resources, and t
 - large-load-growth · How it works #2 · 25.370 :: Forecasting now has a gate. Since 16 TAC 25.370 took effect on March 1, 2026, ERCOT may not put a large load's forecast demand into planning
 - large-load-growth · How it works #3 · 2026 :: The growth also brings operating risks that ERCOT is addressing one rule at a time. Ride-through requirements for Large Computational Loads 
 - large-load-growth · ERCOT context #1 · 2025 :: The queue figure changes with every update, so always quote it with its date. It was about 239 GW in December 2025 , and the same 239,000 MW
@@ -403,7 +408,7 @@ Generated 2026-11-21 over 153 topics.
 - load-shed · ERCOT context #5 · 3,000 MW :: Scarcity pricing: the IMM says the ORDC reflects the relationship between operating reserves and the probability of load shed, and that the 
 - load-shed · Questions #10 · 2021 :: The Operating Guides require TOs to minimize that overlap, and FERC and NERC found in 2021 that using UFLS circuits for manual shed made the
 - load-shed · Link to winter-storm-uri · 2021 :: example-of Winter Storm Uri (Feb 2021): ERCOT shed 20,000 MW of firm load at the worst point of the February 2021 event. 
-- load-zone · ERCOT context #2 · 2021, 2025 :: Zone price levels. The IMM's Table 1 gives load-weighted average annual real-time prices by zone, in $ per MWh, for 2021 to 2025 in order. H
+- load-zone · ERCOT context #2 · 2021 :: Zone price levels. The IMM's Table 1 gives load-weighted average annual real-time prices by zone, in $ per MWh, for 2021 to 2025 in order. H
 - load-zone · Timeline #3 · 2024 :: 2024 and 2025 reports: the IMM repeats the recommendation; the 2025 report adds the 7-zone analysis and says ERCOT has not indicated it will
 - load-zone · Key facts #7 · 2025 :: 2025 average real-time zone prices ($/MWh): West $41.59, South $37.59, North $35.34, Houston $34.95. 
 - load-zone · Link to negative-prices · 2025 :: related Negative Prices: The IMM says the West zone had the most negative-price intervals in 2025. 
@@ -477,7 +482,7 @@ Generated 2026-11-21 over 153 topics.
 - negative-prices · Key facts #6 · 2025 :: The West zone had the most negative-price intervals in 2025. 
 - negative-prices · Common confusion #1 · 2021 :: A negative price is not an error or a free-energy event. It is a legitimate outcome of offers that go as low as -$250 per MWh, and it is loc
 - negative-prices · Link to congestion · 2025 :: related Transmission Congestion: The West zone, which includes export-constrained Panhandle wind and solar, had the most negative-price inte
-- negative-prices · Link to hb-west · 345 kV, $251 :: related HB_WEST (West Hub): The IMM's negative-price findings are about the West zone, and ERCOT also settles a West 345 kV Hub price with t
+- negative-prices · Link to hb-west · 345 kV :: related HB_WEST (West Hub): The IMM's negative-price findings are about the West zone, and ERCOT also settles a West 345 kV Hub price with t
 - negative-prices · Link to sc-west-negative-north-spike · 2025 :: example-of Scenario: West Negative While North Spikes: The West zone had the most negative-price intervals in 2025 while also having the mos
 - nerc · Definition #1 · 2021 :: NERC is the North American Electric Reliability Corporation, certified by FERC as the Electric Reliability Organization (ERO) responsible fo
 - nerc · How it works #1 · 2024 :: NERC writes the mandatory standards and the Regional Entities administer and enforce them regionally under NERC's delegated authority.  A 20
@@ -496,9 +501,9 @@ Generated 2026-11-21 over 153 topics.
 - net-load · ERCOT context #6 · 2026 :: Storage serves the net peak: ERCOT says ESRs helped serve record net loads in summer 2026, with evening state-of-charge exhaustion a pattern
 - net-load · Key facts #3 · 2025 :: December 2025 CDR base scenario for summer 2026: 18.3% reserve margin at peak Load hour (HE 5 p.m. CST) and 20.9% at peak Net Load hour (HE 
 - net-load · Key facts #6 · 2026 :: Regulation covers the 95th percentile of deployed regulation or net load variability (ERCOT 2026 methodology). 
-- net-load · Common confusion #1 · 452 MW :: (Guidance) Peak load and peak net load are different hours with different reserve margins; the CDR reports both.  Also, the Protocol definit
 - net-load · Link to energy-storage-resource · 2026 :: related Energy Storage Resource (ESR): ERCOT says ESRs helped serve record net loads in summer 2026, with evening state-of-charge exhaustion
-- net-load · Link to resource-adequacy · 39.159 :: related Resource Adequacy: SB 3 (new PURA §39.159(b)(5)) refers to preventing prolonged rotating outages due to net load variability in high
+- net-load · Link to ancillary-services · 2026 :: related Ancillary Services (AS): The IMM says the Regulation procurement target is set according to the 95th percentile of net load forecast
+- net-load · Link to resource-adequacy · 39.159 :: related Resource Adequacy: SB 3 (new PURA §39.159(b)(5)) has the commission ensure ERCOT sizes the services procured under subdivision (3) t
 - net-load · Link to non-spin · 2026 :: related Non-Spinning Reserve: ERCOT's 2026 AS methodology says net load ramp risk should be accounted for in setting Non-Spin requirements. 
 - nodal-market · How it works #1 · 25.501 :: PUCT rule 25.501 sets the design. ERCOT must price energy, ancillary services and congestion using economic principles such as the shadow pr
 - nodal-market · ERCOT context #2 · 2011 :: Why it changed, in the IMM's account. The IMM wrote in 2011 that because every generator in a zone was assumed to have the same effect on a 
@@ -519,6 +524,7 @@ Generated 2026-11-21 over 153 topics.
 - nodal-protocols · ERCOT context #1 · 39.151 :: The statute behind this is PURA section 39.151: protocols adopted by an independent organization are subject to commission oversight and may
 - nodal-protocols · ERCOT context #2 · 1.2 :: Section 1.2 sets ERCOT's role. ERCOT is the central counterparty for transactions it settles, the sole buyer to each seller and sole seller 
 - nodal-protocols · ERCOT context #3 · 1.8, 4.4 :: The published Protocol text carries boxes for revisions to apply "upon system implementation". Section 1.8 requires approved provisions not 
+- nodal-protocols · Timeline #4 · 2010 :: 1 July 2010 (TAC approval date of a pre-go-live document): the Guiding Principles of the Nodal Market says an NPRR should strive to improve 
 - nodal-protocols · Key facts #8 · 1.8 :: Approved-but-not-yet-implemented provisions must sit in boxes (Section 1.8). 
 - nodal-protocols · Questions #6 · 39.151 :: PURA section 39.151 says protocols adopted by an independent organization are subject to commission oversight and may not take effect before
 - nodal-protocols · Questions #8 · 1.8 :: Section 1.8 requires provisions approved through Section 21 but not yet implemented (or awaiting prerequisites) to be set out in boxes.  Tre
@@ -533,6 +539,7 @@ Generated 2026-11-21 over 153 topics.
 - non-spin · Key facts #6 · 2026 :: NPRR1309, approved by the PUCT on 9 July 2026, would cut the duration to two hours on implementation. 
 - nprr · How it works #13 · 2011 :: A submitter can ask for an urgent timeline only if it can reasonably show that an existing Protocol or condition is impairing or could immin
 - nprr · How it works #16 · 6.18, 2024 :: A submitter may withdraw before PRS recommends approval; after that, withdrawal needs TAC approval (if TAC has not yet recommended), then Bo
+- nprr · ERCOT context #2 · 2010 :: ERCOT's Guiding Principles of the Nodal Market (TAC approved 2010-07-01) is a non-binding document that entities may use when developing an 
 - nprr · Key facts #1 · 21.2 :: Who can file: any Market Participant, ERCOT Member, PUCT Staff, the Reliability Monitor, the NERC Regional Entity, the IMM, ERCOT, or anothe
 - nprr · Questions #2 · 21.2 :: Any Market Participant, ERCOT Member, PUCT Staff, the Reliability Monitor, the NERC Regional Entity, the IMM or ERCOT, plus any other Entity
 - offer-cap · Definition #1 · 25.509 :: The system-wide offer cap is the upper limit on the price of energy and ancillary service offers.  PUCT rule 25.509 states a high cap (HCAP)
@@ -598,8 +605,8 @@ Generated 2026-11-21 over 153 topics.
 - permian-transmission · How it works #1 · 138 kV, 345 kV, 2024, 765 kV :: The plan has two layers. The first is common local projects: new and upgraded 138 kV and 345 kV lines, substations and equipment that extend
 - permian-transmission · How it works #2 · 345 kV, 25.101 :: The PUCT then approved the three 765 kV import paths in Table 7.5 of the plan, and the authorization to prepare CCNs for the 345 kV paths ex
 - permian-transmission · How it works #3 · 345 kV, 500 kV, 765 kV :: The plan used Permian load levels of 23,659 MW in 2030 and 26,400 MW in 2038, consistent with HB 5066.  It drew on the S&P Global Commodity 
-- permian-transmission · ERCOT context #2 · 345 kV, 765 kV :: ERCOT has warned of possible local load shed in Far West Texas on low-wind nights, especially during transmission and thermal outages.  The 
-- permian-transmission · ERCOT context #3 · 2025, 345 kV, 765 kV :: The costs are large and contested. In January 2025 ERCOT put the Permian Basin Reliability Plan projects at $12.95 billion under the 345 kV 
+- permian-transmission · ERCOT context #2 · 345 kV, 765 kV :: ERCOT has warned of possible local load shed in Far West Texas on low-wind nights, especially during transmission and thermal outages.  ERCO
+- permian-transmission · ERCOT context #3 · 2025, 345 kV, 765 kV :: Cost estimates are large and differ by scope and source. In January 2025 ERCOT put the Permian Basin Reliability Plan projects at $12.95 bil
 - permian-transmission · ERCOT context #4 · 765 kV :: In August 2026 Rep. Geren asked ERCOT about 765 kV applications pending before the PUCT.  ERCOT answered that a denial would require a new r
 - permian-transmission · Key facts #5 · 2025, 765 kV :: Cost (ERCOT estimate, January 2025): PBRP projects $13.77 billion in the 765 kV plan; STEP in total about $32.99 billion. 
 - permian-transmission · Key facts #7 · 37.057 :: CCN clock: 180 days for a new transmission facility under PURA §37.057. 
@@ -614,10 +621,9 @@ Generated 2026-11-21 over 153 topics.
 - permian-transmission · Timeline #12 · 765 kV :: December 2025: the 2025 RTP adds one more 765 kV path, between Houston and Central Texas (the Euclid-Hillje line). 
 - permian-transmission · Timeline #13 · 2026 :: February 23, 2026: ERCOT flags the Far West Texas local load shed risk. 
 - permian-transmission · Timeline #14 · 2026, 765 kV :: August 12, 2026: ERCOT tells Rep. Geren that delaying or denying the pending 765 kV applications would invalidate the TSP studies behind Bat
-- permian-transmission · Say it like this #1 · 2026 :: (Guidance) The Permian is import constrained, and the IMM ties West zone prices and congestion in 2025 to that constraint, so the PUCT appro
 - permian-transmission · Common confusion #1 · 765 kV :: (Guidance) The Permian Basin Reliability Plan and the statewide 765 kV STEP are different things. The PBRP is the Permian plan required by H
 - permian-transmission · Common confusion #2 · 765 kV :: (Guidance) The Euclid-Hillje 765 kV line is a Central Texas import path added in the 2025 RTP, not a Permian path. 
-- permian-transmission · Questions #2 · 765 kV, 345 kV :: ERCOT says its studies showed a NERC-based need for 765 kV additions beginning in 2030, and that the 345 kV-only plan relied heavily on rebu
+- permian-transmission · Questions #2 · 765 kV, 345 kV :: ERCOT says its studies showed a NERC-based need for 765 kV additions beginning in 2030, and that the 345 kV-only plan relied heavily on upgr
 - permian-transmission · Scenarios #3 · 2025, 765 kV, 2026 :: ERCOT's December 2025 list shows the Permian 765 kV import paths beside 2031, and in August 2026 the applications were described as pending.
 - permian-transmission · Link to large-load-interconnection · 765 kV :: related Large Load Interconnection & Batch Zero: ERCOT says all supporting TSP studies (more than 600) behind the Batch process would be inv
 - permian-transmission · Link to texas-energy-fund · 765 kV :: related Texas Energy Fund: The 2025 RTP included 17 future Texas Energy Fund gas units at six West Load Zone sites, and ERCOT says generatio
@@ -638,7 +644,7 @@ Generated 2026-11-21 over 153 topics.
 - prc · Key facts #9 · 20% :: PRC1, PRC2 and PRC5 are each capped at 20% of the discounted capability. 
 - prc · Questions #8 · 20% :: (Guidance on a sourced formula.) The PRC2 term floors the discounted headroom at zero and caps it at 20% of the discounted HSL, and counts o
 - prc · Link to rrs · 3.16 :: related RRS (Responsive Reserve Service): Section 3.16 sets a minimum capacity for RRS provided using Primary Frequency Response. 
-- ptp-obligation · How it works #1 · 4.4, 6.1 :: A QSE buys PTP Obligations in the DAM by submitting bids.  A bid must come from a QSE and, per Section 4.4.6.1, names the source and sink Se
+- ptp-obligation · How it works #1 · 4.4, 6.1 :: A QSE buys PTP Obligations in the DAM by submitting bids.  A bid must come from a QSE  and, per Section 4.4.6.1, names the source and sink S
 - ptp-obligation · Formula #1 · 4.6 :: Day-ahead leg (Protocol Section 4.6.3): the DAM amount for a QSE, source j and sink k for the hour is DAOBLPR times RTOBL, with DAOBLPR bein
 - ptp-obligation · Formula #2 · 7.9, 2.1 :: Real-time leg (Protocol Section 7.9.2.1): RTOBLAMT = (-1) * RTOBLPR * RTOBL, where RTOBLPR is the Real-Time Obligation Price for the hour.  
 - ptp-obligation · ERCOT context #1 · 2021 :: The IMM reports that PTPs remained profitable in 2025, receiving 10.9% more in real time than their day-ahead purchase cost, up from a 7.5% 
@@ -648,6 +654,7 @@ Generated 2026-11-21 over 153 topics.
 - ptp-obligation · Key facts #6 · 2025 :: PTP bid volume up 258% over the past decade (IMM 2025). 
 - ptp-obligation · Key facts #7 · 2025 :: The IMM's Recommendation 2020-4 is a small fee on PTP bids; CMWG options were under discussion in the 2025 report. 
 - ptp-obligation · Example #1 · 10 MW, $4, $40,, $7, $70,, $30, $2, $20 :: Suppose a QSE buys 10 MW for one hour from A to B and the DAM clears the spread at $4. By the IMM's description the cost is $4 times 10 MWh,
+- ptp-obligation · Questions #8 · 7.9, 2.1 :: Section 7.9.2.1(3) says ERCOT pays or charges the owner of each PTP Obligation based on the real-time sink-minus-source Settlement Point Pri
 - puct · ERCOT context #1 · 25.501, 2024 :: Design rules. Rule 25.501 says ERCOT's protocols must be developed with microeconomic principles in mind, promote economic efficiency, suppo
 - puct · ERCOT context #2 · 2026, 25.508, $140 :: Parameters analysts model. Rule 25.509 states a high system-wide offer cap (HCAP) of $5,000 per MWh and a low cap (LCAP) of $2,000 per MWh f
 - puct · ERCOT context #6 · 2024 :: December 19, 2024 open meeting: it adopted Staff's final recommendation on the Performance Credit Mechanism (the minutes are a summary, not 
@@ -716,7 +723,7 @@ Generated 2026-11-21 over 153 topics.
 - resource-types · How it works #12 · 2026 :: **Resource Nodes.** For a new Generation Resource or ESR, the Resource Entity has five Business Days to accept or reject the Resource Node p
 - resource-types · Questions #10 · 2024 :: They can qualify as an Aggregate Load Resource if each site has less than ten MW of Demand response capability and all are in a single Load 
 - retail-choice · How it works #5 · 150 kW :: **ESI IDs with no REP.** The TDSP prepares a monthly list of ESI IDs with consumption of 150 kWh or more in a single meter reading cycle but
-- retail-choice · Questions #8 · 150 kW :: The TDSP lists ESI IDs with at least 150 kWh in a cycle and no REP of record each month, REPs have a window to claim them, and the TDSP may 
+- retail-choice · Questions #8 · 150 kW :: The TDSP lists ESI IDs with at least 150 kWh in a cycle and no REP of record each month, a REP may claim them, and the TDSP may disconnect u
 - retail-hedging · How it works #7 · 25.475, 2022 :: **Retail products decide what price risk the REP carries (PUCT rule 16 TAC §25.475, version effective 6 January 2022).** A fixed rate produc
 - retail-hedging · How it works #8 · 39.110 :: **Wholesale indexed products are restricted.** A REP, aggregator or broker is prohibited from offering a wholesale indexed product to a resi
 - retail-hedging · ERCOT context #4 · 2021 :: **February 2021.** Retailers' outcomes depended on how well their price risk was hedged and how outages affected their obligations to provid
@@ -869,6 +876,7 @@ Generated 2026-11-21 over 153 topics.
 - sc-hot-august-evening · Scenarios #11 · $3, $54, $40, $200 :: Suppose (illustrative): gas is at $3/MMBtu. The IMM's spike threshold of 18 times the fuel price would be $54/MWh, so a jump from $40 to $20
 - sc-hot-august-evening · Scenarios #15 · 2023 :: ERCOT's summer 2023 review says the solar down-ramp made late evening tighter than the demand peak that summer. 
 - sc-hot-august-evening · Questions #4 · 2025 :: Not in ERCOT's December 2025 CDR. Its base case for summer 2026 shows an 18.3% margin at the 5 p.m. peak load hour and 20.9% at the 9 p.m. p
+- sc-hot-august-evening · Questions #10 · 2026 :: In its September 2026 comments in PUCT Project 59550 (a party filing), ERCOT says allowing higher energy bids in the DAM lets participants h
 - sc-hot-august-evening · Link to non-spin · 2026 :: related Non-Spinning Reserve: Most Non-Spin shortfalls in June occurred in the late evening, per ERCOT's summer 2026 review. 
 - sc-load-forecast-miss · How it works #1 · 2026, 2027 :: Step 1, the forecast itself. ERCOT's Seven-Day Load Forecast predicts hourly Loads for the next 168 hours from current weather forecast para
 - sc-load-forecast-miss · How it works #4 · 2026 :: Step 4, reserves absorb the rest, each for its own horizon. The Regulation target is set at the 95th percentile of five-minute net load fore
@@ -894,7 +902,7 @@ Generated 2026-11-21 over 153 topics.
 - sc-nprr-opinion · Scenarios #4 · 2025 :: Why it matters: the IMM says the four-hour duration plus oversized procurement drove an NSRS price premium in 2025, because a storage resour
 - sc-rep-heat-wave-hedge · How it works #2 · 25.509 :: Step 2, size the price risk. Offer caps differ by market since RTC go-live: the Protocol parameter table lists a day-ahead HCAP (DASWCAP) of
 - sc-rep-heat-wave-hedge · Key facts #4 · 25.509 :: Offer caps: $5,000/MWh day-ahead and $2,000/MWh real-time in the Protocol table and per ERCOT since RTC go-live on 12/5/2025; PUCT rule 25.5
-- sc-rep-heat-wave-hedge · Key facts #5 · 2026 :: ERCOT (September 2026): at the $2,000 real-time cap, a four-day scarcity event accrues roughly $192,000 of exposure per exposed MW. 
+- sc-rep-heat-wave-hedge · Key facts #5 · 2026 :: ERCOT's illustration (Project 59550 comments, September 2026): at the $2,000 real-time cap, an illustrative four-day scarcity event accrues 
 - sc-rep-heat-wave-hedge · Scenarios #4 · 2026 :: The riskiest hours are the net-load peak: most 2025 price spikes came between 7 and 9 p.m., and in June and July 2026 the net load hour move
 - sc-rep-heat-wave-hedge · Link to offer-cap · 25.509 :: related Offer Caps (HCAP / LCAP / SWCAP): Since RTC go-live the sources show a $5,000/MWh day-ahead cap and a $2,000/MWh real-time cap, whil
 - sc-uplift-surprise · How it works #2 · 25.520 :: Step 2, explain the allocation. Load Ratio Share is the ratio of an Entity's AML (retail Load usage data adjusted for UFE, losses and DC Tie
@@ -907,25 +915,24 @@ Generated 2026-11-21 over 153 topics.
 - sc-uplift-surprise · Link to crr · 2025 :: related CRR (Congestion Revenue Right): The IMM's 2025 annual table shows CRR Auction Distribution as a credit of $1,810 million to load, al
 - sc-west-negative-north-spike · Key facts #2 · 2025 :: The West zone had the most negative-price intervals and the most price spikes of any load zone in 2025. 
 - sc-west-negative-north-spike · Key facts #6 · 2025 :: 2025 shadow price cap for GTCs (treated as base-case stability constraints): $5,251 per MW. 
+- sc-west-negative-north-spike · Scenarios #7 · 2025 :: A GTC may be the binding limit rather than one thermal line, since GTCs are used for stability limits between areas with a lot of renewables
 - sc-west-negative-north-spike · Scenarios #15 · 2025 :: The price signal is visible in net revenue: the IMM estimates a combustion turbine could earn up to $177 per kW-year in the West zone in 202
 - sc-west-negative-north-spike · Link to negative-prices · 2025 :: related Negative Prices: The West zone had the most negative-price intervals of any load zone in 2025. 
 - sc-winter-cold-snap · Definition #1 · 2021 :: This scenario asks what drives ERCOT's risk when a cold snap is forecast a week out. The reference case is February 2021, when 75% of the ou
-- sc-winter-cold-snap · How it works #4 · 2021 :: Step 4, know the emergency steps. ERCOT declares EEA Level 1 when PRC falls below 2,500 MW, EEA Level 2 when PRC falls below 2,000 MW, and E
+- sc-winter-cold-snap · How it works #4 · 2021 :: Step 4, know the emergency steps. ERCOT declares EEA Level 1 when PRC falls below 2,500 MW and EEA Level 2 when PRC falls below 2,000 MW, in
 - sc-winter-cold-snap · Key facts #1 · 2021 :: February 2021, across the ERCOT, SPP and MISO South event area: 75% of outages, derates and failures to start were from freezing (44.2%) or 
 - sc-winter-cold-snap · Key facts #2 · 2021 :: February 2021: 20,000 MW of manual firm load shed ordered by 7:00 p.m. on February 15. 
-- sc-winter-cold-snap · Key facts #4 · 2026, $52.4 :: FFSS obligation period: November 15 to March 15; budget up to $54 million per period; 3,743.4 MW procured for 2026-27 at a projected $52.4 m
+- sc-winter-cold-snap · Key facts #4 · $52.4 :: FFSS obligation period: November 15 to March 15; budget up to $54 million per period; 3,743.4 MW procured for 2026-27 at a projected $52.4 m
 - sc-winter-cold-snap · Key facts #6 · 2027 :: January 2027 MORA: highest EEA risk at HE 8:00 a.m., with a 3.20% probability of an EEA. 
 - sc-winter-cold-snap · Key facts #7 · 2026 :: January 2026 (Fern month): ERCOT-wide average day-ahead price $95.47/MWh against real-time $57.43/MWh, per the IMM's monthly table. 
-- sc-winter-cold-snap · Timeline #1 · 2021 :: February 15-18, 2021 (Uri): 20,000 MW of firm load shed ordered by 7:00 p.m. on February 15 and held for nearly three days. 
+- sc-winter-cold-snap · Timeline #1 · 2021 :: February 15, 2021 (Uri): 20,000 MW of firm load shed ordered by 7:00 p.m. on February 15 and held for nearly three days. 
 - sc-winter-cold-snap · Timeline #2 · 2022 :: December 2022 (Elliott): internal load forecasts too low for December 23-24. 
 - sc-winter-cold-snap · Timeline #4 · 2026 :: January 23-27, 2026 (Fern): no EEA, no systemwide outages. 
 - sc-winter-cold-snap · Common confusion #1 · 2021 :: (Guidance) The risk is not just high demand. In February 2021 the main cause of outages across the ERCOT, SPP and MISO South event area was 
 - sc-winter-cold-snap · Questions #2 · 2027 :: The gas side and the outage side: whether gas restrictions are likely, how much FFSS capacity is available, and what ERCOT notices say.  The
-- sc-winter-cold-snap · Questions #8 · 2026 :: In 2021 gas supply issues caused 27.3% of all outages, derates and failures to start in the event area, and regional gas production fell by 
 - sc-winter-cold-snap · Questions #12 · 2027 :: The MORA uses reserve thresholds of 2,500 and 1,500 MW as proxies for the PRC levels that would trigger an EEA and controlled outages on the
 - sc-winter-cold-snap · Scenarios #3 · 2021 :: Gas supply is the first risk: in 2021 gas production, storage and distribution failed to deliver full fuel to gas plants, and gas supply iss
 - sc-winter-cold-snap · Scenarios #4 · 2021 :: Unit freezing and fuel together caused 75% of 2021 outages, derates and failures to start across the ERCOT, SPP and MISO South event area. 
-- sc-winter-cold-snap · Scenarios #5 · 2026 :: Check readiness: winter preparation was due December 1, and FFSS is procured for the November 15 to March 15 period; 3,743.4 MW is procured 
 - sc-winter-cold-snap · Scenarios #8 · 2027 :: Watch the morning hours: the January 2027 MORA puts the highest EEA risk at HE 8:00 a.m. 
 - sc-winter-cold-snap · Scenarios #11 · 2026 :: Price: in January 2026 day-ahead averaged $95.47/MWh against $57.43/MWh in real time, which ERCOT attributes to weather uncertainty. 
 - sc-winter-cold-snap · Link to winter-storm-uri · 2021 :: related Winter Storm Uri (Feb 2021): February 2021 is the reference case, when 75% of unit outages, derates and failures to start across the
@@ -935,6 +942,7 @@ Generated 2026-11-21 over 153 topics.
 - sced · Timeline #1 · 2020 :: December 8, 2020: the ERCOT Board approved NPRR1010, which updates the Adjustment Period and Real-Time Operations sections to address RTC; i
 - sced · Timeline #3 · 2026 :: After go-live the System-Wide Offer Cap in ERCOT's summer 2026 review is $2000/MWh, down from $5000/MWh. 
 - sced · Link to offer-cap · 2026 :: related Offer Caps (HCAP / LCAP / SWCAP): The System-Wide Offer Cap was lowered to $2000/MWh from $5000/MWh after RTC go-live, per ERCOT's s
+- securitization · How it works #6 · 27.2 :: **Opt-out.** Entities that qualified to opt out under PURA 39.653(d) do not pay it.  The statute's one-time opt-out process was for municipa
 - securitization · Timeline #2 · 2022 :: 13 October 2021: Debt Obligation Orders issued (per the IMM's 2022 report). 
 - securitization · Link to winter-storm-uri · 2021 :: related Winter Storm Uri (Feb 2021): Both securitization balances relate to costs from Winter Storm Uri. 
 - securitization · Link to retailer-defaults-2021 · 2021 :: related Griddy & Brazos: 2021 Defaults: The statutory default balance includes amounts owed to the independent organization by competitive w
@@ -982,7 +990,7 @@ Generated 2026-11-21 over 153 topics.
 - state-of-market-report · Definition #1 · 25.365 :: The State of the Market report is the annual report the Independent Market Monitor (IMM) submits to the PUCT assessing how the ERCOT wholesa
 - state-of-market-report · How it works #1 · 25.365 :: **Legal basis and independence.** The IMM is a market monitor that ERCOT contracts with, selected by the commission, to detect and prevent m
 - state-of-market-report · How it works #4 · 2025 :: **Recommendations in the 2025 report.** New in 2025: 2025-1, Redesign and Improve the Firm Fuel Supply Service.  Outstanding from prior year
-- state-of-market-report · How it works #7 · 2025 :: Retired in 2025: 2023-3, 2023-4, 2022-3, 2022-4 and 2021-1. 
+- state-of-market-report · How it works #7 · 2025, 2024 :: Listed under "Recommendations Being Retired" in the 2025 table: 2023-3, 2023-4, 2022-3, 2022-4 and 2021-1 (2022-3 and 2022-4 already appeare
 - state-of-market-report · How it works #8 · 2025 :: **What each one says (the IMM's reasoning, as stated in the 2025 report).** The IMM numbers each recommendation by the year it was first int
 - state-of-market-report · How it works #9 · 2025 :: 2025-1 FFSS: ERCOT implemented the FFSS in 2022 in response to fuel supply disruptions during Winter Storm Uri, and it provides a seasonal p
 - state-of-market-report · How it works #10 · 2024 :: 2024-1a: until December 2025 shortage pricing came from the ORDC; RTC replaced it with ASDCs that set penalty prices for shortages of each a
@@ -996,7 +1004,6 @@ Generated 2026-11-21 over 153 topics.
 - state-of-market-report · How it works #19 · 2019 :: 2019-2: ERCOT nests multiple operating reserve variations under one ancillary service, sets volume limits for each sub-product and clears al
 - state-of-market-report · How it works #20 · 2015 :: 2015-1: the IMM supports allocating transmission costs on an annual load ratio share basis. 
 - state-of-market-report · How it works #21 · 2022, 2021 :: **Why recommendations leave the list.** 2023-3 (ECRS deployment): the IMM says the excess cost of ECRS deployment practices fell to $720 mil
-- state-of-market-report · ERCOT context #2 · 2026 :: Prices: natural gas rose 61% but the all-in price of electricity rose by less than 14%;  the IMM's August 2026 TAC deck gives 13.8% and says
 - state-of-market-report · ERCOT context #4 · 2025 :: Ancillary services: RTC went live in December 2025;  the IMM says ERCOT's procurement practices raise AS requirements to more than double th
 - state-of-market-report · Timeline #6 · 2025 :: 2025 report: one new recommendation (2025-1, FFSS); 2020-3 and 2024-2 appear under revised titles (2024-2 was previously worded for ECRS and
 - state-of-market-report · Key facts #1 · 25.365 :: Legal basis: PUCT rule 25.365(k)(2) requires the IMM's annual state-of-the-market report. 
@@ -1017,10 +1024,10 @@ Generated 2026-11-21 over 153 topics.
 - summer-2023 · Key facts #3 · 2023 :: September 8, 2023 peak of 84,182 MW was about 16% above the previous September record of 72,370 MW (2021); September 6 peaked at 82,705 MW i
 - summer-2023 · Key facts #6 · 2023 :: Lowest operating reserves: 3,685 MW on September 7 and 4,612 MW on September 8, 2023 (ERCOT). 
 - summer-2023 · Key facts #7 · 2023 :: 11 conservation appeal days in summer 2023. 
-- summer-2023 · Timeline #3 · 2023 :: August 10, 2023: peak demand of 85.7 GW (IMM; ERCOT's Board deck also says 85.7 GW), or 85,464 MW in ERCOT's EEA report. 
 - summer-2023 · Timeline #6 · 2023 :: September 6, 2023, 9:30 a.m.: Watch issued for HE 19-20 for a projected reserve capacity shortage with no market solution available. 
 - summer-2023 · Timeline #18 · 2023 :: September 7, 2023, 3:42 p.m.: ERCOT requests FPA 202(c) relief from DOE for 5-9 p.m. on September 7 and 8; 5:56 p.m. DOE grants Order No. 20
 - summer-2023 · Questions #6 · 2023 :: The IMM says the sharp increase in 10-minute reserve procurements, primarily of dispatchable resources, led to shortage pricing as high as $
+- summer-2023 · Scenarios #2 · 2023 :: On September 6, 2023 the South Texas export line was overloaded after the solar ramp-down, with low wind in the North, Central and West regi
 - summer-2023 · Link to evening-ramp · 2023 :: example-of Evening Ramp / Duck Curve: ERCOT says the solar down ramp made late evening tighter than the demand peak in summer 2023. 
 - summer-2023 · Link to ers · 2023 :: related ERS (Emergency Response Service): ERCOT deployed 1,023 MW of ERS at 7:14 p.m. on September 6, 2023. 
 - summer-2023 · Link to energy-storage-resource · 2023 :: related Energy Storage Resource (ESR): ERCOT says ESRs provided a significant portion of ancillary services in summer 2023, but ESRs north o
@@ -1109,7 +1116,6 @@ Generated 2026-11-21 over 153 topics.
 - uplift · Formula #5 · 26.2 :: Securitization Default Charge (np-26 26.2), the companion mechanism for the Default Balance: ERCOT invoices QSEs and CRR Account Holders for
 - uplift · ERCOT context #2 · 2025, $668 :: Table A4 of the IMM's 2025 report lists annual aggregate charges and payments in $ millions, including Revenue Neutrality Uplift of $154, AS
 - uplift · Timeline #2 · 2021 :: 2021 RENA: nearly all RENA uplift occurred in congested hours. 
-- uplift · Timeline #3 · $0.77 :: 2022: uplift about $368 million, $0.77 per MWh.  RENA is $38 million in one IMM passage and $43 million in another (see Open items). 
 - uplift · Key facts #3 · 6.6 :: RENA is allocated to QSEs by LRS under np-06 6.6.10. 
 - uri-repricing · Definition #1 · 2023 :: The Uri pricing controversy is the dispute over the PUCT's February 15 and 16, 2021 orders in Project 51617, which directed ERCOT to account
 - uri-repricing · How it works #2 · 2021 :: What the PUCT said: on February 15, 2021, the PUCT stated that energy prices were clearing below the $9,000 offer cap, at times as low as ab
@@ -1161,11 +1167,11 @@ Generated 2026-11-21 over 153 topics.
 - wind-generation · ERCOT context #3 · 2027 :: Wind is also the main source of renewable forecast uncertainty. The IMM says wind dominates total IRR forecast error variance because of its
 - wind-generation · Timeline #2 · 2021 :: 2022: installed wind more than 37 GW; new output record 27,044 MW on May 29, 2022 per the IMM's 2021-2022 text. 
 - wind-generation · Key facts #4 · 2025 :: 2025 captured price: wind about $19 per MWh versus solar about $21 per MWh. 
-- wind-generation · Key facts #6 · 2021 :: Winter 2021: generating unit outages in the week of February 7 were primarily caused by wind turbine blade freezing and natural gas fuel sup
+- wind-generation · Key facts #6 · 2021 :: Winter 2021: FERC/NERC say that in the week of February 7 ERCOT and SPP experienced increasing generating unit outages, primarily caused by 
 - wind-generation · Questions #8 · 2027 :: ERCOT's January 2027 MORA says variability in wind generation is the greatest risk factor for declaring an EEA in January, with very low BES
 - wind-generation · Questions #12 · 2023 :: ERCOT's 2023 review says low wind output was a primary factor on the conservation appeal days, and on September 6, 2023 reserves were very t
 - wind-generation · Link to evening-ramp · 2023 :: related Evening Ramp / Duck Curve: ERCOT's 2023 review says wind generation ramping up in the evenings was key to serving demand on most day
-- wind-generation · Link to weatherization · 2021 :: related Weatherization Standards: FERC/NERC attribute the rising generating unit outages in the week of February 7, 2021 primarily to wind t
+- wind-generation · Link to weatherization · 2021 :: related Weatherization Standards: FERC/NERC say ERCOT and SPP experienced increasing generating unit outages in the week of February 7, 2021
 - wind-generation · Link to summer-2023 · 2023 :: related Summer 2023 Tight Conditions: ERCOT's summer 2023 review says low wind output was a primary factor on the conservation appeal days, 
 - wind-generation · Link to winter-storm-jan-2026 · 2026 :: related January 2026 Winter Storm: At the Winter Storm Fern peak of 75,922 MW, there was 6,777 MW of wind output. 
 - wind-solar-forecasts · How it works #2 · 4.2 :: **Inputs.** WGRPP forecasts are produced from information provided by WGR owners, including availability, meteorological information and SCA
@@ -1227,6 +1233,7 @@ Generated 2026-11-21 over 153 topics.
 - ancillary-services · e32 · ercot-nprr1282-puct-report: revision-request reports contain party comments and proposals as well as adopted text
 - ancillary-services · e33 · ercot-nprr1282-puct-report: revision-request reports contain party comments and proposals as well as adopted text
 - ancillary-services · e34 · ercot-nprr1282-puct-report: revision-request reports contain party comments and proposals as well as adopted text
+- ancillary-services · e53 · ercot-nprr1282-puct-report: revision-request reports contain party comments and proposals as well as adopted text
 - asdc · e36 · ercot-nprr1269-puct-report: revision-request reports contain party comments and proposals as well as adopted text
 - asdc · e37 · ercot-nprr1269-puct-report: revision-request reports contain party comments and proposals as well as adopted text
 - asdc · e38 · ercot-nprr1269-puct-report: revision-request reports contain party comments and proposals as well as adopted text
@@ -1302,6 +1309,9 @@ Generated 2026-11-21 over 153 topics.
 - emergency-pricing-program · e39 · puct-59550-ercot-comments: revision-request reports contain party comments and proposals as well as adopted text
 - emergency-pricing-program · e40 · puct-59550-ercot-comments: revision-request reports contain party comments and proposals as well as adopted text
 - emergency-pricing-program · e41 · puct-59550-ercot-comments: revision-request reports contain party comments and proposals as well as adopted text
+- emergency-pricing-program · e42 · puct-59550-ercot-comments: revision-request reports contain party comments and proposals as well as adopted text
+- emergency-pricing-program · e43 · puct-59550-ercot-comments: revision-request reports contain party comments and proposals as well as adopted text
+- emergency-pricing-program · e44 · puct-59550-ercot-comments: revision-request reports contain party comments and proposals as well as adopted text
 - energy-only-market · e43 · puct-pcm-staff-rec: revision-request reports contain party comments and proposals as well as adopted text
 - energy-only-market · e44 · puct-pcm-staff-rec: revision-request reports contain party comments and proposals as well as adopted text
 - energy-only-market · e45 · puct-pcm-staff-rec: revision-request reports contain party comments and proposals as well as adopted text
@@ -1339,6 +1349,7 @@ Generated 2026-11-21 over 153 topics.
 - imm · e26 · puct-pcm-staff-rec: revision-request reports contain party comments and proposals as well as adopted text
 - imm · e27 · imm-nprr1309-comments-2026-02: revision-request reports contain party comments and proposals as well as adopted text
 - imm · e28 · imm-nprr1309-comments-2026-02: revision-request reports contain party comments and proposals as well as adopted text
+- imm · e35 · imm-nprr1309-comments-2026-02: revision-request reports contain party comments and proposals as well as adopted text
 - large-load-interconnection · e7 · ercot-pgrr145-puct-report: revision-request reports contain party comments and proposals as well as adopted text
 - large-load-interconnection · e21 · ercot-pgrr145-puct-report: revision-request reports contain party comments and proposals as well as adopted text
 - large-load-interconnection · e53 · ercot-nprr1325-puct-report: revision-request reports contain party comments and proposals as well as adopted text
@@ -1367,6 +1378,7 @@ Generated 2026-11-21 over 153 topics.
 - non-spin · e23 · ercot-nprr1282-puct-report: revision-request reports contain party comments and proposals as well as adopted text
 - non-spin · e24 · imm-nprr1309-comments-2026-02: revision-request reports contain party comments and proposals as well as adopted text
 - non-spin · e41 · imm-nprr1309-comments-2026-04: revision-request reports contain party comments and proposals as well as adopted text
+- non-spin · e42 · imm-nprr1309-comments-2026-04: revision-request reports contain party comments and proposals as well as adopted text
 - offer-cap · e31 · ercot-nprr1008-board-report: revision-request reports contain party comments and proposals as well as adopted text
 - offer-cap · e32 · ercot-nprr1008-board-report: revision-request reports contain party comments and proposals as well as adopted text
 - offer-cap · e33 · ercot-nprr1008-board-report: revision-request reports contain party comments and proposals as well as adopted text
@@ -1579,6 +1591,7 @@ Generated 2026-11-21 over 153 topics.
 - spp · e22 · imm-som-2025 page 29
 - state-of-market-report · e15 · imm-som-2025 page 21
 - state-of-market-report · e17 · imm-som-2025 page 22
+- state-of-market-report · e63 · imm-som-2025 page 21
 - state-of-market-report · e44 · imm-som-2024 page 25
 - uplift · e31 · imm-som-2025 page 169
 - virtual-bids · e38 · imm-som-2025 page 163
@@ -1593,11 +1606,14 @@ Generated 2026-11-21 over 153 topics.
 
 ## pending-box
 
+- ancillary-services · e55 · np-03 line 8133: | [NPRR1309: Replace paragraph (ii) above with the following upon system implementation:] |
 - asdc · e46 · np-04 line 2508: | [NPRR1309: Replace paragraph (9) above with the following upon system implementation:] |
 - battery-revenue-stack · e26 · np-08 line 841: | [NPRR1309: Replace paragraph (2) above with the following upon system implementation:] |
 - battery-revenue-stack · e27 · np-08 line 774: | [NPRR1309: Insert Section 8.1.1.2.1.8 below upon system implementation:] |
 - battery-revenue-stack · e28 · np-08 line 762: | [NPRR1309: Insert Section 8.1.1.2.1.8 below upon system implementation:] |
 - clr · e18 · np-06 line 2190: | [NPRR1188: Replace paragraph (10) above with the following upon system implementation:] |
+- credit-tpe · e18 · np-16 line 1312: | | [NPRR1188: Replace the variable "MCE" above with the following upon system implementation:] | | | |
+- credit-tpe · e71 · np-16 line 2271: | [NPRR1023: Insert Section 16.11.8 below upon system implementation and renumber accordingly:] |
 - crr · e22 · np-07 line 392: | [NPRR1288: Replace paragraph (1) above with the following upon system implementation:] |
 - drrs · e33 · np-04 line 2508: | [NPRR1309: Replace paragraph (9) above with the following upon system implementation:] |
 - drrs · e35 · np-05 line 286: | [NPRR1309: Replace paragraph (2) above with the following upon system implementation:] |
@@ -1609,6 +1625,7 @@ Generated 2026-11-21 over 153 topics.
 - load-ratio-share · e13 · np-06 line 4430: | [NPRR1030: Insert paragraphs (2)-(4) below upon system implementation:] |
 - load-ratio-share · e14 · np-06 line 4428: | [NPRR1030: Insert paragraphs (2)-(4) below upon system implementation:] |
 - load-ratio-share · e15 · np-06 line 4576: | [NPRR1030 : Insert Section 6.6.2.6 below upon system implementation:] |
+- load-zone · e48 · np-06 line 3904: | | | | [NPRR1188: Replace the description above with the following upon system implementation:] | |
 - market-power-mitigation · e40 · np-04 line 1699: | [NPRR826: Replace Section 4.4.9.4.3 above with the following upon system implementation:] |
 - market-power-mitigation · e43 · np-04 line 1501: | [NPRR1325: Replace Section 4.4.9.4 above with the following upon system implementation of PGRR145:] |
 - merit-order · e42 · np-04 line 1501: | [NPRR1325: Replace Section 4.4.9.4 above with the following upon system implementation of PGRR145:] |
@@ -1634,6 +1651,9 @@ Generated 2026-11-21 over 153 topics.
 - sc-battery-strategy · e33 · np-08 line 841: | [NPRR1309: Replace paragraph (2) above with the following upon system implementation:] |
 - sc-nprr-opinion · e33 · np-04 line 2508: | [NPRR1309: Replace paragraph (9) above with the following upon system implementation:] |
 - sc-nprr-opinion · e44 · np-03 line 8133: | [NPRR1309: Replace paragraph (ii) above with the following upon system implementation:] |
+- securitization · e66 · np-26 line 170: | | | | [NPRR1188: Replace the definition above with the following upon system implementation:] | |
+- securitization · e67 · np-26 line 178: | | | | [NPRR1188: Replace the definition above with the following upon system implementation:] | |
+- securitization · e68 · np-26 line 190: | | | | [NPRR1188: Replace the definition above with the following upon system implementation:] | |
 - shadow-price · e34 · np-22p line 378: | [OBDRR020 and NPRR1246: Replace Section 4.1 above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:] |
 - shift-factor · e7 · np-03 line 8384: | [NPRR1182: Replace paragraph (c) above with the following upon system implementation:] |
 - sixty-day-disclosure · e23 · np-03 line 1894: | [NPRR1188: Insert items (m) and (n) below upon system implementation and renumber accordingly:] |

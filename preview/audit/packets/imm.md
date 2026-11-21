@@ -242,6 +242,20 @@ BEFORE: … 4: CSC Average Physical Limits vs. Actual Flows during Constrained I
 QUOTE: This report reviews and evaluates the outcomes of the ERCOT wholesale electricity markets in 2010, and is submitted to the Public Utility Commission of Texas ("PUCT") and the Electric Reliability Council of Texas ("ERCOT") pursuant to the requirement in Section 39.1515(h) of the Public Utility Regulatory Act.
 AFTER:  It includes assessments of the incentives provided by the current market rules and procedures, and analyses of the conduct of market participants. This report also assesses the effectiveness of the scarcity pricing mechanism pursuant to the provisions of PUCT Substantive Rule 25.505(g). The market …
 
+### e35 · `imm-nprr1309-comments-2026-02` · tier 2 · IMM comments on NPRR1309 (2026-02-03, a party comment)
+locator: IMM comments on NPRR1309 (February 3, 2026), introduction, outline of the comments · text copy line 33
+
+BEFORE: …hich was the previous DRRS proposal sponsored by ERCOT. We commend ERCOT for addressing our major concerns with the NPRR1235 proposal and are pleased to offer our qualified support for NPRR1309. In these comments, we will outline (1) how this proposal addresses our prior concerns with NPRR1235, (2) 
+QUOTE: that we are in favor of keeping DRRS a reserve product and not an explicit tool for resource adequacy
+AFTER: , (3) that procurement of DRRS should be tied to reliability criteria and that its demand curve should be designed to achieve these reliability criteria effectively, (4) that we are seeking clarification on whether ERCOT intends to offset procurement quantities of Non-Spinning Reserve (Non-Spin) thr…
+
+### e36 · `puct-25-365` · tier 1 · PUCT Substantive Rule 16 TAC §25.365, Independent Market Monitor
+locator: 16 TAC §25.365(e)(2), Authority of the IMM · text copy line 145
+
+BEFORE: …dentified; and Performing any additional duties required by the commission within the scope of the Public Utility Regulatory Act §39.1515. (e) Authority of the IMM. (1) The IMM has the authority to conduct monitoring, analysis, reporting, and related activities but has no enforcement authority. (2) 
+QUOTE: The IMM has the authority to question a market participant about activities that may violate commission rules or ERCOT protocols or may be potential market manipulations.
+AFTER:  The IMM may inform a market participant that its activities may be in violation of commission rules or ERCOT protocols or operating guides, subject to the restrictions established by subsection (j)(2) of this section. (3) The IMM has the authority to require submission of any information and data i…
+
 ## Statements to check (new or changed since the last audit)
 
 - **How it works #2** (cites e3, e5, e16, e22, e23): The PUCT rule sets two objectives: detect and prevent manipulation and market power abuse, and evaluate the market's operations, current rules and proposed rule changes, with recommendations to improve efficiency. [e3] To do this, the IMM can require ERCOT and market participants to submit any information it considers necessary, and they must respond completely, accurately and on time. [e5] ERCOT must give the IMM's staff full access to its main operations center and its operations, settlement and reliability records. [e16] The Protocols put the PUCT, assisted by the IMM, in charge of market oversight, with ERCOT doing the data collection; source-system data must be replicated near real time for remote query by PUCT staff and the IMM. [e22][e23]
@@ -257,7 +271,7 @@ AFTER:  It includes assessments of the incentives provided by the current market
 - **ERCOT context #9** (cites e33): ERCOT's own non-binding guiding principles for the nodal market list addressing IMM, PUCT or Board recommendations as a goal a revision request should strive for. [e33]
 - **ERCOT context #10** (cites e11, e12): On competition, the IMM's 2025 report found the share of top-quartile net load hours with a pivotal supplier had fallen from over 90% in 2022 to 35% in 2025. It credited milder weather and a large influx of storage held by smaller participants. [e11] Even so, it again recommended system-wide market power mitigation, warning that load growth could make the market structurally uncompetitive at high load within a few years. [e12]
 - **Timeline #1** (cites e19) FLAG number-not-in-quote: 39.1515: - September 1, 2005: PURA §39.1515 (wholesale electric market monitor) took effect, added by S.B. 408. [e19]
-- **Timeline #2** (cites e34): - 2010: the IMM's State of the Market report was submitted under PURA §39.1515(h). [e34]
+- **Timeline #2** (cites e34): - 2010 (report year): the IMM's 2010 State of the Market report, covering 2010 market outcomes, was submitted to the PUCT and ERCOT under PURA §39.1515(h). [e34]
 - **Timeline #3** (cites e32): - March 1, 2021: IMM letter recommending repricing of Uri-period day-ahead ancillary service prices. [e32]
 - **Timeline #4** (cites e26) FLAG number-not-in-quote: 2024: - December 2024: IMM assessment of the PCM summarized by PUCT staff. [e26]
 - **Timeline #5** (cites e27, e29) FLAG number-not-in-quote: 2026: - February 2026: IMM comments on NPRR1309 and report to the Board's Reliability and Markets Committee. [e27][e29]
@@ -270,7 +284,7 @@ AFTER:  It includes assessments of the incentives provided by the current market
 - **Questions #8** (cites e30, e28) FLAG number-not-in-quote: 2026: Because it sees over-procurement as suppressing prices. It told the Board in February 2026 that programs pricing services outside the market suppress the market's ability to signal shortage and attract investment, and its NPRR1309 comments object to anything that adds to excessive reserve procurement. [e30][e28]
 - **Questions #10** (cites e13): ERCOT must give the PUCT a menu of market design changes with a primary recommendation and their expected costs, and the IMM must file an independent review of those proposals and costs. [e13]
 - **Questions #12** (cites e20, e27, e29, e31): In its daily, monthly and quarterly price and congestion reports, and in its comments on revision requests and presentations to the ERCOT Board and TAC. [e20][e27][e29][e31]
-- **Scenarios #5** (cites e5, e4): - The IMM can question the participant and require data, but it cannot penalize. [e5][e4]
+- **Scenarios #5** (cites e36, e5, e4): - The IMM can question the participant and require data, but it cannot penalize. [e36][e5][e4]
 - **Scenarios #6** (cites e8, e15): - It must report potential manipulation in writing to the commission, which holds enforcement authority. [e8][e15]
 - **Link to puct** (cites e15): related PUCT (Public Utility Commission of Texas): The IMM is the commission's wholesale market monitor and works under PUCT supervision, but enforcement stays with the PUCT. [e15]
 - **Link to ercot** (cites e6, e7, e16): related ERCOT: ERCOT contracts for and funds the IMM, but the IMM is an office independent from ERCOT and not supervised by it, and ERCOT may not substantially modify its contract without a majority of commissioners. [e6][e7][e16]
@@ -278,7 +292,7 @@ AFTER:  It includes assessments of the incentives provided by the current market
 - **Link to market-power-mitigation** (cites e3, e12) FLAG number-not-in-quote: 2025: related Market Power Mitigation (Competitiveness Tests, Mitigated Offer Caps): The IMM monitors for market power abuse and in its 2025 report again recommended system-wide mitigation. [e3][e12]
 - **Link to energy-only-market** (cites e14, e30): related Energy-Only Market Design: The IMM argues that programs pricing services outside the market suppress the shortage pricing an energy-only market needs. [e14][e30]
 - **Link to nprr** (cites e3, e27) FLAG number-not-in-quote: 2026: affects NPRR (Nodal Protocol Revision Request): The IMM files comments on revision requests, such as its February 2026 qualified support for NPRR1309. [e3][e27]
-- **Link to drrs** (cites e27, e28): related DRRS (Dispatchable Reliability Reserve Service): The IMM wants DRRS kept as a reserve product, not a resource adequacy tool, and opposes it if it adds to excessive reserve procurement. [e27][e28]
+- **Link to drrs** (cites e35, e27, e28): related DRRS (Dispatchable Reliability Reserve Service): The IMM wants DRRS kept as a reserve product, not a resource adequacy tool, and opposes it if it adds to excessive reserve procurement. [e35][e27][e28]
 - **Link to pcm** (cites e24, e25, e26): related PCM (Performance Credit Mechanism): PURA gives the market monitor evaluation and investigation duties in any capacity-credit program, and the IMM estimated the PCM's net cost at about $1 billion a year in the short term. [e24][e25][e26]
 - **Link to resource-adequacy** (cites e13): related Resource Adequacy: Under the reliability standard rule, if ERCOT's assessment shows a reviewed system fails the standard, the IMM must independently review ERCOT's proposed market design changes and their expected costs. [e13]
 - **Link to uri-repricing** (cites e32): related Uri $9,000 Pricing Controversy: On March 1, 2021 the IMM recommended repricing February 15-20 day-ahead ancillary service prices to cap them at the $9,000 SWCAP. [e32]
@@ -286,5 +300,5 @@ AFTER:  It includes assessments of the incentives provided by the current market
 ## Uncited guidance text (check for new facts, numbers, dates, names)
 
 - (Say it like this) (Guidance) The IMM, Potomac Economics, is the PUCT's independent market watchdog. It can demand information from ERCOT and participants, but it cannot penalize anyone: it reports to the commission, which enforces. Its State of the Market report is the best single read on how the market performed and where the monitor thinks the design is broken.
-- (Say it like this) (Guidance) When you quote the IMM, say it is the IMM's view. Its positions (against over-procured reserves, out-of-market programs and the PCM; for system-wide mitigation) are recommendations, and ERCOT and the PUCT often take a different line.
+- (Say it like this) (Guidance) When you quote the IMM, say it is the IMM's view. Its positions (against over-procured reserves and out-of-market programs; for system-wide mitigation) are recommendations, not rules, and ERCOT and the PUCT decide whether to follow them.
 

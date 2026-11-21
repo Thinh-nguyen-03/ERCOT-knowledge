@@ -1,14 +1,14 @@
 {
  "counts": {
-  "number-not-in-quote": 1201,
-  "proposal-or-filing-source": 274,
-  "ocr": 91,
-  "pending-box": 53,
+  "number-not-in-quote": 1207,
+  "proposal-or-filing-source": 280,
+  "ocr": 92,
+  "pending-box": 60,
   "tier-3": 182
  },
  "evidenceByTier": {
-  "1": 3576,
-  "2": 2566,
+  "1": 3655,
+  "2": 2607,
   "3": 182
  },
  "ocrPages": {
@@ -122,6 +122,18 @@
    "kind": "ocr",
    "where": "e38",
    "detail": "imm-som-2025 page 62"
+  },
+  {
+   "topic": "ancillary-services",
+   "kind": "proposal-or-filing-source",
+   "where": "e53",
+   "detail": "ercot-nprr1282-puct-report: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "ancillary-services",
+   "kind": "pending-box",
+   "where": "e55",
+   "detail": "np-03 line 8133: | [NPRR1309: Replace paragraph (ii) above with the following upon system implementation:] |"
   },
   {
    "topic": "ancillary-services",
@@ -905,15 +917,39 @@
   },
   {
    "topic": "credit-tpe",
-   "kind": "number-not-in-quote",
-   "where": "Common confusion #1",
-   "detail": "16.11 :: TPE is the sum of TPEA and TPES ; Section 16.11.1 states the requirement as Financial Security at or above TPE, and Section 16.11.5 spells o"
+   "kind": "pending-box",
+   "where": "e18",
+   "detail": "np-16 line 1312: | | [NPRR1188: Replace the variable \"MCE\" above with the following upon system implementation:] | | | |"
+  },
+  {
+   "topic": "credit-tpe",
+   "kind": "pending-box",
+   "where": "e71",
+   "detail": "np-16 line 2271: | [NPRR1023: Insert Section 16.11.8 below upon system implementation and renumber accordingly:] |"
   },
   {
    "topic": "credit-tpe",
    "kind": "number-not-in-quote",
-   "where": "Link to retailer-defaults-2021",
-   "detail": "2021 :: related Griddy & Brazos: 2021 Defaults: Counter-Party creditworthiness standards apply to every QSE and CRR Account Holder. "
+   "where": "How it works #5",
+   "detail": "16.11 :: A pending change (NPRR1023, to take effect upon system implementation) would add a Section 16.11.8 under which ERCOT may at its sole discret"
+  },
+  {
+   "topic": "credit-tpe",
+   "kind": "number-not-in-quote",
+   "where": "Example #1",
+   "detail": "$15, $5, 0.10, 1.10, $4.4, $0, :: Suppose a Counter-Party has TPEA of $4 million, TPES of $10 million, no CRR bilateral trades or locked auction limit, and posts $15 million "
+  },
+  {
+   "topic": "credit-tpe",
+   "kind": "number-not-in-quote",
+   "where": "Timeline #1",
+   "detail": "2021 :: 2021: Winter Storm Uri short payments exceed $3 billion (IMM). "
+  },
+  {
+   "topic": "credit-tpe",
+   "kind": "number-not-in-quote",
+   "where": "Common confusion #1",
+   "detail": "16.11 :: TPE is the sum of TPEA and TPES ; Section 16.11.1 states the requirement as Financial Security at or above TPE, and Section 16.11.5 spells o"
   },
   {
    "topic": "crez",
@@ -1739,6 +1775,24 @@
   },
   {
    "topic": "emergency-pricing-program",
+   "kind": "proposal-or-filing-source",
+   "where": "e42",
+   "detail": "puct-59550-ercot-comments: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "emergency-pricing-program",
+   "kind": "proposal-or-filing-source",
+   "where": "e43",
+   "detail": "puct-59550-ercot-comments: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "emergency-pricing-program",
+   "kind": "proposal-or-filing-source",
+   "where": "e44",
+   "detail": "puct-59550-ercot-comments: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "emergency-pricing-program",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #1",
    "detail": "2021 :: The program comes from SB 3 (2021), which told the commission to establish an emergency pricing program by rule and to have it take effect w"
@@ -1746,26 +1800,14 @@
   {
    "topic": "emergency-pricing-program",
    "kind": "number-not-in-quote",
-   "where": "ERCOT context #5",
-   "detail": "2026 :: Party filing (not a rule or a finding): in comments filed September 17, 2026 in PUCT Project 59550 (the first quinquennial review of the sys"
-  },
-  {
-   "topic": "emergency-pricing-program",
-   "kind": "number-not-in-quote",
    "where": "Timeline #1",
-   "detail": "25.509, 2026 :: December 2023: the PUCT adopts the EPP rule (16 TAC 25.509(c), Project 54585), per the Staff question and ERCOT comments in the 2026 filing."
+   "detail": "2026 :: December 2023: the PUCT adopts the EPP rule (16 TAC 25.509(c), Project 54585), per ERCOT's comments and the Staff question quoted in the 202"
   },
   {
    "topic": "emergency-pricing-program",
    "kind": "number-not-in-quote",
    "where": "Timeline #3",
    "detail": "2026 :: December 5, 2025: ERCOT implements Phase 1 of NPRR1216, OBDRR051 and VCMRR039 (per ERCOT's 2026 filing). "
-  },
-  {
-   "topic": "emergency-pricing-program",
-   "kind": "number-not-in-quote",
-   "where": "Timeline #5",
-   "detail": "2026 :: September 17, 2026: ERCOT files comments in Project 59550. "
   },
   {
    "topic": "emergency-pricing-program",
@@ -1802,6 +1844,12 @@
    "kind": "ocr",
    "where": "e46",
    "detail": "imm-som-2025 page 142"
+  },
+  {
+   "topic": "energy-offer-curve",
+   "kind": "number-not-in-quote",
+   "where": "How it works #9",
+   "detail": "2026 :: Energy Offer Curves may be subject to mitigation in Real-Time operations using a MOC; for Generation Resources ERCOT builds an incremental M"
   },
   {
    "topic": "energy-only-market",
@@ -2066,6 +2114,12 @@
    "kind": "number-not-in-quote",
    "where": "Timeline #5",
    "detail": "2025 :: December 2025 version of Attachment Q: offer cap of $80/MW/hr. "
+  },
+  {
+   "topic": "ers",
+   "kind": "number-not-in-quote",
+   "where": "Questions #10",
+   "detail": "2026 :: The IMM says crypto mines that migrated from CLR registration are no longer price-responsive in SCED, and that paying them to curtail essent"
   },
   {
    "topic": "esi-id",
@@ -3139,7 +3193,7 @@
    "topic": "heat-rate",
    "kind": "number-not-in-quote",
    "where": "Formula #3",
-   "detail": "4.4, 9.4 :: Mitigated Offer Cap (Protocols 4.4.9.4.1): MOC = the greater of GIHR × max(FIP, WAFP) and IHR × FPRC + OM.  For a resource with verifiable c"
+   "detail": "4.4, 9.4, 2026 :: Mitigated Offer Cap (Protocols 4.4.9.4.1): MOC = the greater of GIHR × max(FIP, WAFP) and IHR × FPRC + OM.  For a resource with verifiable c"
   },
   {
    "topic": "heat-rate",
@@ -3162,6 +3216,12 @@
   {
    "topic": "heat-rate",
    "kind": "number-not-in-quote",
+   "where": "ERCOT context #6",
+   "detail": "2013 :: In a 2013 article, EIA's daily price table used a benchmark heat rate of 7,000 Btu/kWh for the spark spread, which it described as a fairly "
+  },
+  {
+   "topic": "heat-rate",
+   "kind": "number-not-in-quote",
    "where": "Key facts #3",
    "detail": "2023, 2024 :: IMM net revenue assumptions (2023 and 2024 reports): 7 MMBtu/MWh combined cycle, 10.5 MMBtu/MWh gas turbine, $4/MWh variable O&M. "
   },
@@ -3180,8 +3240,20 @@
   {
    "topic": "heat-rate",
    "kind": "number-not-in-quote",
+   "where": "Questions #14",
+   "detail": "2013 :: EIA's 2013 introduction to spark spreads used a 7,000 Btu/kWh benchmark to represent a fairly new, efficient combined cycle; it is a market-"
+  },
+  {
+   "topic": "heat-rate",
+   "kind": "number-not-in-quote",
    "where": "Link to offer-cap",
    "detail": "25.509 :: used-in Offer Caps (HCAP / LCAP / SWCAP): PUCT rule 25.509 sets a daily peaking operating cost of 10 times the natural gas price index, and "
+  },
+  {
+   "topic": "heat-rate",
+   "kind": "number-not-in-quote",
+   "where": "Link to spark-spread",
+   "detail": "2013 :: prerequisite-of Spark Spread: EIA's spark spread is the power price minus the gas price times a heat rate; EIA's 2013 article used a 7,000 B"
   },
   {
    "topic": "hsl-lsl",
@@ -3205,6 +3277,12 @@
    "topic": "imm",
    "kind": "proposal-or-filing-source",
    "where": "e28",
+   "detail": "imm-nprr1309-comments-2026-02: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "imm",
+   "kind": "proposal-or-filing-source",
+   "where": "e35",
    "detail": "imm-nprr1309-comments-2026-02: revision-request reports contain party comments and proposals as well as adopted text"
   },
   {
@@ -3355,7 +3433,7 @@
    "topic": "large-flexible-load",
    "kind": "number-not-in-quote",
    "where": "Key facts #7",
-   "detail": "2022, 2024 :: LFLs reduce consumption by as much as 75% when system lambda exceeds $1,000 per MWh (IMM, 2022-2024 data). "
+   "detail": "2024 :: LFLs reduce consumption by as much as 75% when system lambda exceeds $1,000 per MWh (IMM, 2024 report). "
   },
   {
    "topic": "large-flexible-load",
@@ -3379,7 +3457,7 @@
    "topic": "large-flexible-load",
    "kind": "number-not-in-quote",
    "where": "Link to clr",
-   "detail": "2025 :: related CLR (Controllable Load Resource): Many crypto-mining LFLs have registered as CLRs, though many deregistered in 2025; a Large Load ca"
+   "detail": "2025 :: related CLR (Controllable Load Resource): The IMM says a substantial percentage of LFL capacity has been registered as Load Resources, and t"
   },
   {
    "topic": "large-load-growth",
@@ -3893,9 +3971,15 @@
   },
   {
    "topic": "load-zone",
+   "kind": "pending-box",
+   "where": "e48",
+   "detail": "np-06 line 3904: | | | | [NPRR1188: Replace the description above with the following upon system implementation:] | |"
+  },
+  {
+   "topic": "load-zone",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #2",
-   "detail": "2021, 2025 :: Zone price levels. The IMM's Table 1 gives load-weighted average annual real-time prices by zone, in $ per MWh, for 2021 to 2025 in order. H"
+   "detail": "2021 :: Zone price levels. The IMM's Table 1 gives load-weighted average annual real-time prices by zone, in $ per MWh, for 2021 to 2025 in order. H"
   },
   {
    "topic": "load-zone",
@@ -4453,7 +4537,7 @@
    "topic": "negative-prices",
    "kind": "number-not-in-quote",
    "where": "Link to hb-west",
-   "detail": "345 kV, $251 :: related HB_WEST (West Hub): The IMM's negative-price findings are about the West zone, and ERCOT also settles a West 345 kV Hub price with t"
+   "detail": "345 kV :: related HB_WEST (West Hub): The IMM's negative-price findings are about the West zone, and ERCOT also settles a West 345 kV Hub price with t"
   },
   {
    "topic": "negative-prices",
@@ -4584,20 +4668,20 @@
   {
    "topic": "net-load",
    "kind": "number-not-in-quote",
-   "where": "Common confusion #1",
-   "detail": "452 MW :: (Guidance) Peak load and peak net load are different hours with different reserve margins; the CDR reports both.  Also, the Protocol definit"
-  },
-  {
-   "topic": "net-load",
-   "kind": "number-not-in-quote",
    "where": "Link to energy-storage-resource",
    "detail": "2026 :: related Energy Storage Resource (ESR): ERCOT says ESRs helped serve record net loads in summer 2026, with evening state-of-charge exhaustion"
   },
   {
    "topic": "net-load",
    "kind": "number-not-in-quote",
+   "where": "Link to ancillary-services",
+   "detail": "2026 :: related Ancillary Services (AS): The IMM says the Regulation procurement target is set according to the 95th percentile of net load forecast"
+  },
+  {
+   "topic": "net-load",
+   "kind": "number-not-in-quote",
    "where": "Link to resource-adequacy",
-   "detail": "39.159 :: related Resource Adequacy: SB 3 (new PURA §39.159(b)(5)) refers to preventing prolonged rotating outages due to net load variability in high"
+   "detail": "39.159 :: related Resource Adequacy: SB 3 (new PURA §39.159(b)(5)) has the commission ensure ERCOT sizes the services procured under subdivision (3) t"
   },
   {
    "topic": "net-load",
@@ -4734,6 +4818,12 @@
   {
    "topic": "nodal-protocols",
    "kind": "number-not-in-quote",
+   "where": "Timeline #4",
+   "detail": "2010 :: 1 July 2010 (TAC approval date of a pre-go-live document): the Guiding Principles of the Nodal Market says an NPRR should strive to improve "
+  },
+  {
+   "topic": "nodal-protocols",
+   "kind": "number-not-in-quote",
    "where": "Key facts #8",
    "detail": "1.8 :: Approved-but-not-yet-implemented provisions must sit in boxes (Section 1.8). "
   },
@@ -4829,6 +4919,12 @@
   },
   {
    "topic": "non-spin",
+   "kind": "proposal-or-filing-source",
+   "where": "e42",
+   "detail": "imm-nprr1309-comments-2026-04: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "non-spin",
    "kind": "number-not-in-quote",
    "where": "Formula #1",
    "detail": "2026, 10 MW :: Non-Spin quantity in the AS Plan comes from a probabilistic model. ERCOT's AS Methodology effective 1 January 2026 sets the combined ECRS an"
@@ -4874,6 +4970,12 @@
    "kind": "number-not-in-quote",
    "where": "How it works #16",
    "detail": "6.18, 2024 :: A submitter may withdraw before PRS recommends approval; after that, withdrawal needs TAC approval (if TAC has not yet recommended), then Bo"
+  },
+  {
+   "topic": "nprr",
+   "kind": "number-not-in-quote",
+   "where": "ERCOT context #2",
+   "detail": "2010 :: ERCOT's Guiding Principles of the Nodal Market (TAC approved 2010-07-01) is a non-binding document that entities may use when developing an "
   },
   {
    "topic": "nprr",
@@ -5569,13 +5671,13 @@
    "topic": "permian-transmission",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #2",
-   "detail": "345 kV, 765 kV :: ERCOT has warned of possible local load shed in Far West Texas on low-wind nights, especially during transmission and thermal outages.  The "
+   "detail": "345 kV, 765 kV :: ERCOT has warned of possible local load shed in Far West Texas on low-wind nights, especially during transmission and thermal outages.  ERCO"
   },
   {
    "topic": "permian-transmission",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #3",
-   "detail": "2025, 345 kV, 765 kV :: The costs are large and contested. In January 2025 ERCOT put the Permian Basin Reliability Plan projects at $12.95 billion under the 345 kV "
+   "detail": "2025, 345 kV, 765 kV :: Cost estimates are large and differ by scope and source. In January 2025 ERCOT put the Permian Basin Reliability Plan projects at $12.95 bil"
   },
   {
    "topic": "permian-transmission",
@@ -5664,12 +5766,6 @@
   {
    "topic": "permian-transmission",
    "kind": "number-not-in-quote",
-   "where": "Say it like this #1",
-   "detail": "2026 :: (Guidance) The Permian is import constrained, and the IMM ties West zone prices and congestion in 2025 to that constraint, so the PUCT appro"
-  },
-  {
-   "topic": "permian-transmission",
-   "kind": "number-not-in-quote",
    "where": "Common confusion #1",
    "detail": "765 kV :: (Guidance) The Permian Basin Reliability Plan and the statewide 765 kV STEP are different things. The PBRP is the Permian plan required by H"
   },
@@ -5683,7 +5779,7 @@
    "topic": "permian-transmission",
    "kind": "number-not-in-quote",
    "where": "Questions #2",
-   "detail": "765 kV, 345 kV :: ERCOT says its studies showed a NERC-based need for 765 kV additions beginning in 2030, and that the 345 kV-only plan relied heavily on rebu"
+   "detail": "765 kV, 345 kV :: ERCOT says its studies showed a NERC-based need for 765 kV additions beginning in 2030, and that the 345 kV-only plan relied heavily on upgr"
   },
   {
    "topic": "permian-transmission",
@@ -5983,7 +6079,7 @@
    "topic": "ptp-obligation",
    "kind": "number-not-in-quote",
    "where": "How it works #1",
-   "detail": "4.4, 6.1 :: A QSE buys PTP Obligations in the DAM by submitting bids.  A bid must come from a QSE and, per Section 4.4.6.1, names the source and sink Se"
+   "detail": "4.4, 6.1 :: A QSE buys PTP Obligations in the DAM by submitting bids.  A bid must come from a QSE  and, per Section 4.4.6.1, names the source and sink S"
   },
   {
    "topic": "ptp-obligation",
@@ -6038,6 +6134,12 @@
    "kind": "number-not-in-quote",
    "where": "Example #1",
    "detail": "10 MW, $4, $40,, $7, $70,, $30, $2, $20 :: Suppose a QSE buys 10 MW for one hour from A to B and the DAM clears the spread at $4. By the IMM's description the cost is $4 times 10 MWh,"
+  },
+  {
+   "topic": "ptp-obligation",
+   "kind": "number-not-in-quote",
+   "where": "Questions #8",
+   "detail": "7.9, 2.1 :: Section 7.9.2.1(3) says ERCOT pays or charges the owner of each PTP Obligation based on the real-time sink-minus-source Settlement Point Pri"
   },
   {
    "topic": "puct",
@@ -6541,7 +6643,7 @@
    "topic": "retail-choice",
    "kind": "number-not-in-quote",
    "where": "Questions #8",
-   "detail": "150 kW :: The TDSP lists ESI IDs with at least 150 kWh in a cycle and no REP of record each month, REPs have a window to claim them, and the TDSP may "
+   "detail": "150 kW :: The TDSP lists ESI IDs with at least 150 kWh in a cycle and no REP of record each month, a REP may claim them, and the TDSP may disconnect u"
   },
   {
    "topic": "retail-hedging",
@@ -7848,6 +7950,12 @@
   {
    "topic": "sc-hot-august-evening",
    "kind": "number-not-in-quote",
+   "where": "Questions #10",
+   "detail": "2026 :: In its September 2026 comments in PUCT Project 59550 (a party filing), ERCOT says allowing higher energy bids in the DAM lets participants h"
+  },
+  {
+   "topic": "sc-hot-august-evening",
+   "kind": "number-not-in-quote",
    "where": "Link to non-spin",
    "detail": "2026 :: related Non-Spinning Reserve: Most Non-Spin shortfalls in June occurred in the late evening, per ERCOT's summer 2026 review. "
   },
@@ -8227,7 +8335,7 @@
    "topic": "sc-rep-heat-wave-hedge",
    "kind": "number-not-in-quote",
    "where": "Key facts #5",
-   "detail": "2026 :: ERCOT (September 2026): at the $2,000 real-time cap, a four-day scarcity event accrues roughly $192,000 of exposure per exposed MW. "
+   "detail": "2026 :: ERCOT's illustration (Project 59550 comments, September 2026): at the $2,000 real-time cap, an illustrative four-day scarcity event accrues "
   },
   {
    "topic": "sc-rep-heat-wave-hedge",
@@ -8340,6 +8448,12 @@
   {
    "topic": "sc-west-negative-north-spike",
    "kind": "number-not-in-quote",
+   "where": "Scenarios #7",
+   "detail": "2025 :: A GTC may be the binding limit rather than one thermal line, since GTCs are used for stability limits between areas with a lot of renewables"
+  },
+  {
+   "topic": "sc-west-negative-north-spike",
+   "kind": "number-not-in-quote",
    "where": "Scenarios #15",
    "detail": "2025 :: The price signal is visible in net revenue: the IMM estimates a combustion turbine could earn up to $177 per kW-year in the West zone in 202"
   },
@@ -8359,7 +8473,7 @@
    "topic": "sc-winter-cold-snap",
    "kind": "number-not-in-quote",
    "where": "How it works #4",
-   "detail": "2021 :: Step 4, know the emergency steps. ERCOT declares EEA Level 1 when PRC falls below 2,500 MW, EEA Level 2 when PRC falls below 2,000 MW, and E"
+   "detail": "2021 :: Step 4, know the emergency steps. ERCOT declares EEA Level 1 when PRC falls below 2,500 MW and EEA Level 2 when PRC falls below 2,000 MW, in"
   },
   {
    "topic": "sc-winter-cold-snap",
@@ -8377,7 +8491,7 @@
    "topic": "sc-winter-cold-snap",
    "kind": "number-not-in-quote",
    "where": "Key facts #4",
-   "detail": "2026, $52.4 :: FFSS obligation period: November 15 to March 15; budget up to $54 million per period; 3,743.4 MW procured for 2026-27 at a projected $52.4 m"
+   "detail": "$52.4 :: FFSS obligation period: November 15 to March 15; budget up to $54 million per period; 3,743.4 MW procured for 2026-27 at a projected $52.4 m"
   },
   {
    "topic": "sc-winter-cold-snap",
@@ -8395,7 +8509,7 @@
    "topic": "sc-winter-cold-snap",
    "kind": "number-not-in-quote",
    "where": "Timeline #1",
-   "detail": "2021 :: February 15-18, 2021 (Uri): 20,000 MW of firm load shed ordered by 7:00 p.m. on February 15 and held for nearly three days. "
+   "detail": "2021 :: February 15, 2021 (Uri): 20,000 MW of firm load shed ordered by 7:00 p.m. on February 15 and held for nearly three days. "
   },
   {
    "topic": "sc-winter-cold-snap",
@@ -8424,12 +8538,6 @@
   {
    "topic": "sc-winter-cold-snap",
    "kind": "number-not-in-quote",
-   "where": "Questions #8",
-   "detail": "2026 :: In 2021 gas supply issues caused 27.3% of all outages, derates and failures to start in the event area, and regional gas production fell by "
-  },
-  {
-   "topic": "sc-winter-cold-snap",
-   "kind": "number-not-in-quote",
    "where": "Questions #12",
    "detail": "2027 :: The MORA uses reserve thresholds of 2,500 and 1,500 MW as proxies for the PRC levels that would trigger an EEA and controlled outages on the"
   },
@@ -8444,12 +8552,6 @@
    "kind": "number-not-in-quote",
    "where": "Scenarios #4",
    "detail": "2021 :: Unit freezing and fuel together caused 75% of 2021 outages, derates and failures to start across the ERCOT, SPP and MISO South event area. "
-  },
-  {
-   "topic": "sc-winter-cold-snap",
-   "kind": "number-not-in-quote",
-   "where": "Scenarios #5",
-   "detail": "2026 :: Check readiness: winter preparation was due December 1, and FFSS is procured for the November 15 to March 15 period; 3,743.4 MW is procured "
   },
   {
    "topic": "sc-winter-cold-snap",
@@ -8516,6 +8618,30 @@
    "kind": "number-not-in-quote",
    "where": "Link to offer-cap",
    "detail": "2026 :: related Offer Caps (HCAP / LCAP / SWCAP): The System-Wide Offer Cap was lowered to $2000/MWh from $5000/MWh after RTC go-live, per ERCOT's s"
+  },
+  {
+   "topic": "securitization",
+   "kind": "pending-box",
+   "where": "e66",
+   "detail": "np-26 line 170: | | | | [NPRR1188: Replace the definition above with the following upon system implementation:] | |"
+  },
+  {
+   "topic": "securitization",
+   "kind": "pending-box",
+   "where": "e67",
+   "detail": "np-26 line 178: | | | | [NPRR1188: Replace the definition above with the following upon system implementation:] | |"
+  },
+  {
+   "topic": "securitization",
+   "kind": "pending-box",
+   "where": "e68",
+   "detail": "np-26 line 190: | | | | [NPRR1188: Replace the definition above with the following upon system implementation:] | |"
+  },
+  {
+   "topic": "securitization",
+   "kind": "number-not-in-quote",
+   "where": "How it works #6",
+   "detail": "27.2 :: **Opt-out.** Entities that qualified to opt out under PURA 39.653(d) do not pay it.  The statute's one-time opt-out process was for municipa"
   },
   {
    "topic": "securitization",
@@ -9012,6 +9138,12 @@
   {
    "topic": "state-of-market-report",
    "kind": "ocr",
+   "where": "e63",
+   "detail": "imm-som-2025 page 21"
+  },
+  {
+   "topic": "state-of-market-report",
+   "kind": "ocr",
    "where": "e44",
    "detail": "imm-som-2024 page 25"
   },
@@ -9037,7 +9169,7 @@
    "topic": "state-of-market-report",
    "kind": "number-not-in-quote",
    "where": "How it works #7",
-   "detail": "2025 :: Retired in 2025: 2023-3, 2023-4, 2022-3, 2022-4 and 2021-1. "
+   "detail": "2025, 2024 :: Listed under \"Recommendations Being Retired\" in the 2025 table: 2023-3, 2023-4, 2022-3, 2022-4 and 2021-1 (2022-3 and 2022-4 already appeare"
   },
   {
    "topic": "state-of-market-report",
@@ -9116,12 +9248,6 @@
    "kind": "number-not-in-quote",
    "where": "How it works #21",
    "detail": "2022, 2021 :: **Why recommendations leave the list.** 2023-3 (ECRS deployment): the IMM says the excess cost of ECRS deployment practices fell to $720 mil"
-  },
-  {
-   "topic": "state-of-market-report",
-   "kind": "number-not-in-quote",
-   "where": "ERCOT context #2",
-   "detail": "2026 :: Prices: natural gas rose 61% but the all-in price of electricity rose by less than 14%;  the IMM's August 2026 TAC deck gives 13.8% and says"
   },
   {
    "topic": "state-of-market-report",
@@ -9246,12 +9372,6 @@
   {
    "topic": "summer-2023",
    "kind": "number-not-in-quote",
-   "where": "Timeline #3",
-   "detail": "2023 :: August 10, 2023: peak demand of 85.7 GW (IMM; ERCOT's Board deck also says 85.7 GW), or 85,464 MW in ERCOT's EEA report. "
-  },
-  {
-   "topic": "summer-2023",
-   "kind": "number-not-in-quote",
    "where": "Timeline #6",
    "detail": "2023 :: September 6, 2023, 9:30 a.m.: Watch issued for HE 19-20 for a projected reserve capacity shortage with no market solution available. "
   },
@@ -9266,6 +9386,12 @@
    "kind": "number-not-in-quote",
    "where": "Questions #6",
    "detail": "2023 :: The IMM says the sharp increase in 10-minute reserve procurements, primarily of dispatchable resources, led to shortage pricing as high as $"
+  },
+  {
+   "topic": "summer-2023",
+   "kind": "number-not-in-quote",
+   "where": "Scenarios #2",
+   "detail": "2023 :: On September 6, 2023 the South Texas export line was overloaded after the solar ramp-down, with low wind in the North, Central and West regi"
   },
   {
    "topic": "summer-2023",
@@ -10014,12 +10140,6 @@
   {
    "topic": "uplift",
    "kind": "number-not-in-quote",
-   "where": "Timeline #3",
-   "detail": "$0.77 :: 2022: uplift about $368 million, $0.77 per MWh.  RENA is $38 million in one IMM passage and $43 million in another (see Open items). "
-  },
-  {
-   "topic": "uplift",
-   "kind": "number-not-in-quote",
    "where": "Key facts #3",
    "detail": "6.6 :: RENA is allocated to QSEs by LRS under np-06 6.6.10. "
   },
@@ -10489,7 +10609,7 @@
    "topic": "wind-generation",
    "kind": "number-not-in-quote",
    "where": "Key facts #6",
-   "detail": "2021 :: Winter 2021: generating unit outages in the week of February 7 were primarily caused by wind turbine blade freezing and natural gas fuel sup"
+   "detail": "2021 :: Winter 2021: FERC/NERC say that in the week of February 7 ERCOT and SPP experienced increasing generating unit outages, primarily caused by "
   },
   {
    "topic": "wind-generation",
@@ -10513,7 +10633,7 @@
    "topic": "wind-generation",
    "kind": "number-not-in-quote",
    "where": "Link to weatherization",
-   "detail": "2021 :: related Weatherization Standards: FERC/NERC attribute the rising generating unit outages in the week of February 7, 2021 primarily to wind t"
+   "detail": "2021 :: related Weatherization Standards: FERC/NERC say ERCOT and SPP experienced increasing generating unit outages in the week of February 7, 2021"
   },
   {
    "topic": "wind-generation",
