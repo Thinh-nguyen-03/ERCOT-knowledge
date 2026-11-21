@@ -305,6 +305,14 @@ evidence:
     source: ercot-fern-outage-review
     locator: "Slide, Dispatchable Generation: common causes during Winter Storm Fern"
     quote: "Total Number of Outages 76 Total MWh Lost ~156,000 MWh"
+  - id: e68
+    source: np-03
+    locator: "Section 3.1.6.11, Outage Returning Early, paragraph (1)(a)"
+    quote: "A Resource that completes a Planned Outage early and wants to resume operation shall notify ERCOT of the early return prior to resuming service by making appropriate entries in the COP or Outage Scheduler if applicable as much in advance as practicable, but not later than at least two hours prior to beginning startup. Within two hours of receiving such request, ERCOT shall either: (a) Approve the request unless, as a result of complying with the request, ERCOT cannot maintain system reliability or security with the Resource injection. In such a case, ERCOT shall issue a Verbal Dispatch Instruction (VDI) to the Resource’s QSE to stay Off-Line; or"
+  - id: e69
+    source: np-03
+    locator: "Section 3.1.6.9, paragraph (1)"
+    quote: "If ERCOT believes it cannot meet applicable reliability standards and has exercised all other reasonable options, and any actions taken pursuant to Section 3.1.4.6, Outage Coordination of Potential Transmission Emergency Conditions, have not resolved the situation, then ERCOT shall conduct a preliminary Outage Adjustment Evaluation (OAE) and issue an Advance Action Notice (AAN) pursuant to Section 6.5.9.3.1.1, Advance Action Notice."
 ---
 
 ## Definition
@@ -323,9 +331,9 @@ The RPOL. ERCOT calculates a maximum capacity of Resource Planned Outages for ea
 
 Forced outages and derates. After a Resource Forced Outage the QSE or Resource Entity must change the telemetered status to Off-Line within 15 minutes, update the COP within 60 minutes, and update the Outage Scheduler if necessary. [e39] A Resource Forced Outage in Real-Time must be entered into the Outage Scheduler within 60 minutes of its start. [e40] Forced derates have reporting thresholds: a derate over ten MW and 5% of the Seasonal net maximum sustainable rating that lasts longer than 30 minutes must go into the Outage Scheduler within 60 minutes, except that a derate caused by ambient temperature or humidity has eight hours; a change to a reported derate of the same size is entered as a new derate. [e8][e21][e52] The HSL telemetry must be updated within 15 minutes for such a derate, or the QSE may instead use the ONHOLD process. [e18][e41] ONHOLD may be set within 15 minutes of an event on an On-Line Resource and the status must be updated within 60 consecutive minutes of ONHOLD. [e42][e43] The IMM describes derated capacity as the difference between registered maximum capacity and actual capability. [e9]
 
-Opportunity outages and early returns. An Opportunity Outage is a special category of Planned Outage that may be approved when a Resource has been forced Off-Line and already has an approved Planned Outage in the next two days. [e24][e23] A Resource that completes a Planned Outage early must give notice at least two hours before startup. (Section 3.1.6.11 allows ERCOT to direct it to stay Off-Line if reliability requires; that rule is not quoted here.)
+Opportunity outages and early returns. An Opportunity Outage is a special category of Planned Outage that may be approved when a Resource has been forced Off-Line and already has an approved Planned Outage in the next two days. [e24][e23] A Resource that completes a Planned Outage early must notify ERCOT at least two hours before beginning startup, and ERCOT approves the return unless it cannot maintain reliability or security with the Resource's injection, in which case it issues a Verbal Dispatch Instruction to stay Off-Line. [e68]
 
-When ERCOT may move planned outages. If ERCOT forecasts that it cannot meet reliability standards after other options, it can issue an Outage Schedule Adjustment, which delays or cancels and reschedules an already approved Planned Outage. [e48] ERCOT issues an Advance Action Notice at least 24 hours before any OSA, and may not consider nuclear-powered Generation Resources for an OSA. [e46][e47]
+When ERCOT may move planned outages. If ERCOT believes it cannot meet reliability standards after exercising other reasonable options, it conducts a preliminary Outage Adjustment Evaluation and issues an Advance Action Notice [e69]; it can then issue an Outage Schedule Adjustment, which delays or cancels and reschedules an already approved Planned Outage. [e48] ERCOT issues an Advance Action Notice at least 24 hours before any OSA, and may not consider nuclear-powered Generation Resources for an OSA. [e46][e47]
 
 Public data. Three days after each Operating Day ERCOT posts a Resource Forced Outage report listing each Forced Outage, Maintenance Outage or Forced Derate that occurred in or extended into the day, with at least the Resource name, unit code, fuel type and outage type. [e44][e45]
 
@@ -382,7 +390,7 @@ Forced outages and derates were higher than in 2024, especially in summer, and m
 
 ### Why does ERCOT limit planned outages, and why does it make exceptions?
 
-The RPOL caps aggregate Planned Outage MW so that enough capacity stays available. [e25][e29] It makes exceptions: nuclear outage plans must be approved, industrial generation plans must be approved unless transmission security is impaired, and ERCOT may exceed the RPOL in its sole discretion in listed cases such as unavailable fuel supply. [e31][e32][e33] The saved text does not state the reason for the nuclear exception.
+The RPOL is the aggregate maximum MW of Resource Planned Outages that ERCOT will approve for any time period within a day, and ERCOT rejects a Planned Outage plan that would exceed it. [e25][e29] The saved text does not state the purpose beyond that. There are exceptions: nuclear outage plans must be approved, industrial generation plans must be approved unless transmission security is impaired, and ERCOT may exceed the RPOL in its sole discretion in listed cases such as unavailable fuel supply. [e31][e32][e33] The saved text does not state the reason for the nuclear exception.
 
 ### What if a unit is forced offline a day before its planned outage?
 
@@ -403,4 +411,3 @@ Yes, through an Outage Schedule Adjustment, but only after an Advance Action Not
 - The sources use "thermal" to cover gas, coal, nuclear and biomass; no single definition of "thermal outage" was found.
 - The IMM's outage-type classification changed between reports (2021 assumed all scheduled outages were planned; 2023 onward uses the seven-day rule for scheduler records), so outage splits across years are not strictly comparable.
 - The scope of the Winter Storm Fern slide (which Resources, which dates, how selected for review) is not in the extracted text.
-- Section 3.1.6.11 early-return rule (ERCOT may direct a Resource to stay Off-Line through a Verbal Dispatch Instruction) was only summarized, not quoted.
