@@ -215,6 +215,46 @@ evidence:
     locator: "Section 8.1.1.2.1.5, paragraph (2)"
     quote: "Except under extenuating circumstances, as reasonably determined by ERCOT, all qualification testing for the next year of BSS must be completed by June 1^(st) of each year."
 
+  - id: e47
+    source: np-08
+    locator: "Section 8.1.1.2.1.5, paragraph (9), second test"
+    quote: "The QSE representing the Black Start Resource may schedule a second Black Start Resource Availability Test, subject to ERCOT approval, to be completed within ten Business Days of the date of the failed Black Start Resource Availability Test unless a later date is agreed to by ERCOT."
+  - id: e48
+    source: np-08
+    locator: "Section 8.1.1.2.1.5, paragraph (10)"
+    quote: "If the Black Start Resource successfully passes the second Black Start Resource Availability Test, the QSE representing the Black Start Resource shall resume receipt of the Hourly Standby Fee beginning on the date of the successful Black Start Resource Availability Test."
+  - id: e49
+    source: np-08
+    locator: "Section 8.1.1.2.1.5, paragraph (11), claw-back"
+    quote: "In addition, ERCOT shall claw-back all Hourly Standby Fee payments made to the QSE representing the Black Start Resource since its last successful Black Start Resource Availability Test or its last successful start and operation under normal system conditions, whichever is later."
+  - id: e50
+    source: np-22d
+    locator: "Section 22, Attachment D, Section 9(A)(1)(a), definition of Available"
+    quote: "“Available” means, with respect to a given hour, that Participant has declared, in its Availability Plan, that the Black Start Resource is able to start without a connection to the ERCOT Transmission Grid."
+  - id: e51
+    source: np-22d
+    locator: "Section 22, Attachment D, Section 9(A)(1)(b)(iii), when a Resource is not Available"
+    quote: "The Black Start Resource has failed a Black Start Resource Availability Test, as described in the ERCOT Protocols or Operating Guides and has not passed a subsequent Black Start Resource Availability Test;"
+  - id: e52
+    source: np-06
+    locator: "Section 6.6.8.1, paragraph (3), hourly payment"
+    quote: "BSSAMT _(q, r) = (-1) * BSSPR _(q, r) * BSSARF _(q, r)"
+  - id: e53
+    source: np-06
+    locator: "Section 6.6.8.1, paragraph (3), BSSHREAF"
+    quote: "If (BSSEH _(q, r) < 4380) BSSHREAF _(q, r) = 1 Otherwise BSSHREAF _(q, r) = ([] BSSAFLAG _(q,r,hr)) / 4380"
+  - id: e54
+    source: np-06
+    locator: "Section 6.6.8.1, paragraph (3), variable table, BSSEH"
+    quote: "The number of the elapsed hours of BSS Resource r represented by QSE q since the beginning of the BSS Agreement, for the hour."
+  - id: e55
+    source: np-06
+    locator: "Section 6.6.8.1, paragraph (3), variable table, 4380"
+    quote: "The number of hours in a six-month period."
+  - id: e56
+    source: np-06
+    locator: "Section 6.6.8.1, paragraph (3), BSSARF at or above 0.85"
+    quote: "If (BSSHREAF _(q, r) ≥ 0.85) BSSARF _(q, r) = 1"
 ---
 
 ## Definition
@@ -231,16 +271,17 @@ Contracting details (Section 3.14.2): bids must be evaluated on criteria attache
 
 Testing and qualification (Section 8.1.1.2.1.5): To qualify, a Resource must pass the Basic Starting, Line-Energizing, Load-Carrying and Next Start Resource tests (among other requirements). [e25] Each Black Start Resource must pass a Basic Starting Test once each calendar year, a Line-Energizing Test once every three years and the Next Start Resource Test once every four calendar years; Load-Carrying qualification is valid for four calendar years. [e26][e27][e29][e28] The BSS Back-up Fuel Switching Test is conducted in odd-numbered years. [e30] Qualification also requires an attestation of back-up fuel supporting at least 72 hours at maximum output, except to the extent ERCOT has waived it. [e43] Except under extenuating circumstances, qualification testing for the next year of BSS must be completed by June 1 of each year. [e46]
 
-Availability tests: each qualified Black Start Resource performs a Black Start Resource Availability Test quarterly unless it has successfully started and operated at LSL or higher for at least four consecutive Settlement Intervals during the quarter. [e31] ERCOT gives two hours' notice and the QSE shows the Resource as ONTEST in its COP and telemetry for the duration of the test. [e32] A failed start means zero availability in the Availability Plan and no Hourly Standby Fee from the date of the failed test; [e33] failing a second test within the quarter means immediate disqualification and no further compensation. [e34]
+Availability tests: each qualified Black Start Resource performs a Black Start Resource Availability Test quarterly unless it has successfully started and operated at LSL or higher for at least four consecutive Settlement Intervals during the quarter. [e31] ERCOT gives two hours' notice and the QSE shows the Resource as ONTEST in its COP and telemetry for the duration of the test. [e32] A failed start means zero availability in the Availability Plan and no Hourly Standby Fee from the date of the failed test; [e33] the QSE may schedule a second test, subject to ERCOT approval, within ten Business Days of the failed one unless ERCOT agrees to a later date, [e47] and if it passes, the Hourly Standby Fee resumes from the date of the successful test. [e48] Failing a second test within the quarter means immediate disqualification and no further compensation, [e34] and ERCOT claws back the Hourly Standby Fee payments made since the last successful availability test or last successful start and operation under normal system conditions, whichever is later. [e49]
 
 ## Formula
 
-Hourly Standby Fee (np-06 Section 6.6.8.1 and the Standard Form Black Start Agreement, Section 9): the fee for an hour is the Hourly Standby Price times a reduction factor that depends on the Black Start Service Hourly Rolling Equivalent Availability Factor (BSSHREAF). [e35][e36]
+Hourly Standby Fee (np-06 Section 6.6.8.1 and the Standard Form Black Start Agreement, Section 9): the protocol hourly payment is BSSAMT = (-1) * BSSPR * BSSARF, [e52] that is, the standby price times a reduction factor that depends on the Black Start Service Hourly Rolling Equivalent Availability Factor (BSSHREAF); the (-1) is a sign convention the saved text does not explain. [e35][e36]
 
-- BSSHREAF for an hour is the number of hours, including the given hour and the preceding 4,379, in which the Resource was Available, divided by 4,380 (the "six-month rolling" window); before 4,379 hours have elapsed since the Start Date, missing hours ("Assumed Hours") are deemed Available unless the Resource has failed to perform in response to a blackout event or a Dispatch Instruction to come On-Line. [e37]
+- Standard Form Black Start Agreement definition: BSSHREAF for an hour is the number of hours, including the given hour and the preceding 4,379, in which the Resource was Available, divided by 4,380 (the protocol describes 4380 as the number of hours in a six-month period); [e55] before 4,379 hours have elapsed since the Start Date, missing hours ("Assumed Hours") are deemed Available unless the Resource has failed to perform in response to a blackout event or a Dispatch Instruction to come On-Line. [e37]
+- Protocol wording of the same factor: if the elapsed hours of the Black Start Agreement (BSSEH) are fewer than 4380, BSSHREAF = 1; otherwise it is the sum of the hourly availability flags (1 available, 0 unavailable) over the given hour and the previous 4379 hours, divided by 4380. [e53][e54] The protocol sets BSSARF = 1 when BSSHREAF is at least 0.85. [e56] The protocol's first-4380-hours rule (BSSHREAF = 1) is not worded the same as the Agreement's Assumed Hours rule above, and the saved text does not reconcile them.
 - If BSSHREAF is 85% or more, the fee is the full Hourly Standby Price; if it is below 85% but above 35%, the fee is the price times [100% - (85% - BSSHREAF) x 2]; if it is 35% or less, the fee is zero. [e36] The protocol form is BSSARF = Max (0, 1 - (0.85 - BSSHREAF) x 2) when BSSHREAF is below 0.85. [e35]
 - The BSS Availability Reduction Factor uses the availability of the original and any substituted Black Start Resource over the rolling 4380-hour period. [e22]
-- "Available" for an hour means the Participant declared in its Availability Plan that the Resource can start without a connection to the ERCOT Transmission Grid, with listed exceptions (for example a failed availability test not yet re-passed). [e36]
+- "Available" for an hour means the Participant declared in its Availability Plan that the Resource is able to start without a connection to the ERCOT Transmission Grid, [e50] with listed exceptions in the Agreement (for example, a failed availability test not yet followed by a passed one). [e51]
 
 ## ERCOT context
 
@@ -257,7 +298,7 @@ Operating Guides context: the Operating Guides list restoration priorities, incl
 - ERCOT may schedule unannounced Black Start testing. [e11]
 - The Standard Form Black Start Agreement full term is three years. [e38]
 - The Hourly Standby Fee falls to zero at 35% or lower rolling availability and is reduced linearly between 85% and 35%. [e36]
-- A decertified Resource gets zero Hourly Standby Fee for the rest of the Full Term and must refund certain amounts. [e39]
+- Under the Standard Form Agreement, if a Black Start Resource does not remain certified or is in default as described in Section 10(A)(2)(e), the Hourly Standby Fee is reduced to zero for the rest of the Full Term and the Participant must refund certain amounts as described in the Protocols. [e39]
 
 ## Say it like this
 
@@ -283,11 +324,11 @@ Bids are due on or before February 15 of each three-year period, and contracts a
 
 ### Why is the standby fee tied to a rolling availability factor?
 
-The fee is adjusted for reliability: full price at 85% rolling availability or better, scaled down below 85%, and zero at 35% or below, measured over 4,380 hours. [e36][e37] This gives the provider an incentive to keep the Resource ready to start without the grid.
+The fee is adjusted for reliability: full price at 85% rolling availability or better, scaled down below 85%, and zero at 35% or below, measured over 4,380 hours. [e36][e37]
 
 ### What happens if a Black Start Resource fails its quarterly availability test?
 
-It must show zero availability and loses the Hourly Standby Fee from the date of the failed test; a second failure within the quarter disqualifies it and ends compensation. [e33][e34]
+It must show zero availability and loses the Hourly Standby Fee from the date of the failed test. It may schedule a second test, subject to ERCOT approval; passing it resumes the fee from the date of the successful test, [e47][e48] while a second failure within the quarter disqualifies the Resource, ends compensation and triggers a claw-back of standby fees. [e33][e34][e49]
 
 ### What if the QSE cannot reach ERCOT when the grid is down?
 
