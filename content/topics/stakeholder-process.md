@@ -17,10 +17,10 @@ links:
     note: Revisions to the Protocols are reviewed by PRS, TAC and the Board and need PUCT approval. [e3][e4][e5][e6]
   - to: ercot
     type: related
-    note: The ERCOT Board, selected through a statutory committee, sits at the top of the stakeholder path. [e8][e13]
+    note: The ERCOT Board's members are selected by a statutory board selection committee. [e8][e13]
   - to: puct
     type: related
-    note: Nothing the stakeholder process recommends takes effect without PUCT approval. [e6][e7]
+    note: All Revision Requests require PUCT approval before implementation, and under PURA protocols may not take effect before PUCT approval. [e6][e40]
   - to: imm
     type: related
     note: The IMM may attend PRS meetings and may appeal committee actions. [e1][e9]
@@ -29,10 +29,10 @@ links:
     note: The Legislature wrote into PURA that ERCOT's governing body must run a formal process for revising protocols, and that revised protocols may not take effect until the PUCT approves a market impact statement. [e7][e40]
   - to: nerc
     type: related
-    note: The NERC Regional Entity may submit revision requests, attend PRS meetings and appeal PRS, TAC and Board actions. [e1][e9][e42]
+    note: The NERC Regional Entity may submit revision requests, PRS meetings are open to it, and it may appeal PRS, TAC and Board actions. [e55][e1][e9][e48][e42]
   - to: tx-set
     type: contrasts-with
-    note: TX SET changes go through a TAC subcommittee's own change control process, not the NPRR path. [e3]
+    note: Protocol Section 19.4 has the appropriate TAC subcommittee make TX SET modifications under its own Texas SET Change Control process. [e65]
   - to: sixty-day-disclosure
     type: related
     note: Rule 25.506 requires ERCOT to use a stakeholder process, in consultation with PUCT staff, to develop and implement its disclosure rules. [e50]
@@ -150,7 +150,7 @@ evidence:
   - id: e26
     source: ercot-tac-procedures
     locator: "TAC Procedures, Section IV.F, Voting"
-    quote: "As provided in the ERCOT Bylaws, an act of TAC requires affirmative votes of: (i) two-thirds of the Eligible Voting Representatives of TAC; and (ii) at least 50% of the total Seated Representatives."
+    quote: "In matters determined by the Chair to require a vote of TAC, or when any TAC Representative requests a vote on an issue, each TAC Representative shall have one vote. As provided in the ERCOT Bylaws, an act of TAC requires affirmative votes of: (i) two-thirds of the Eligible Voting Representatives of TAC; and (ii) at least 50% of the total Seated Representatives."
   - id: e27
     source: ercot-bylaws
     locator: "Bylaws (eff. December 20, 2022), Section 5.1(a)(1), TAC Representatives"
@@ -295,6 +295,14 @@ evidence:
     source: np-21
     locator: "Section 21.4.1(3), Review and Posting of Nodal Protocol Revision Requests"
     quote: "ERCOT shall evaluate the NPRR for completeness and shall notify the submitter, within five Business Days of receipt, if the NPRR is incomplete, including the reasons for such status."
+  - id: e65
+    source: np-19
+    locator: "Section 19.4(1), Texas Standard Electronic Transaction Change Control Process"
+    quote: "The appropriate Technical Advisory Committee (TAC) subcommittee shall make modifications and additions to the Texas Standard Electronic Transactions (TX SETs) in accordance with this Section."
+  - id: e66
+    source: ercot-tac-procedures
+    locator: "TAC Procedures, Section V.G.2, Protocol Revision Subcommittee"
+    quote: "2. Protocol Revision Subcommittee (PRS) The PRS is mandated by the ERCOT Protocols."
   - id: e64
     source: ercot-tac-procedures
     locator: "TAC Procedures, Section II.C, Membership"
@@ -313,7 +321,7 @@ The stakeholder process is the committee path that ERCOT Protocol changes follow
 
 Who may start it. Any Market Participant, any ERCOT Member, PUCT Staff, the Reliability Monitor, the NERC Regional Entity, the IMM and ERCOT may submit a revision request, among others. [e55] Those parties, and others, must use this process before asking the PUCT or another Governmental Authority to make ERCOT change the Protocols, except for good cause shown. [e63]
 
-PRS. ERCOT checks a submitted NPRR for completeness and notifies the submitter within five Business Days if it is incomplete. [e62] Once complete, ERCOT posts it and distributes it to PRS within three Business Days. [e61] Comments must arrive within 14 days of posting to receive consideration, and PRS considers the request at its next regularly scheduled meeting after the 14-day comment period. [e43] PRS reviews and recommends action on revision requests. [e12] It may recommend approval as submitted or modified, reject, table, or refer. [e57] If a motion to recommend approval fails, the request is deemed rejected unless PRS votes at the same meeting to approve, table or refer. [e44] PRS meetings are open to ERCOT, ERCOT Members, Market Participants, the Reliability Monitor, the NERC Regional Entity, the IMM and PUCT Staff. [e1] PRS can send a request to working groups or TAC subcommittees for expertise, but PRS keeps ultimate responsibility for processing it. [e3] The PRS Procedures (December 1, 2011 version) add that PRS also recommends a priority and rank for requests that need an ERCOT project. [e14]
+PRS. ERCOT checks a submitted NPRR for completeness and notifies the submitter within five Business Days if it is incomplete. [e62] Once complete, ERCOT posts it and distributes it to PRS within three Business Days. [e61] Comments must arrive within 14 days of posting to receive consideration, and PRS considers the request at its next regularly scheduled meeting after the 14-day comment period. [e43] PRS reviews and recommends action on revision requests. [e12] It may recommend approval as submitted or modified, reject, table, or refer. [e57] If a motion to recommend approval fails, the request is deemed rejected unless PRS votes at the same meeting to approve, table or refer. [e44] PRS meetings are open to ERCOT, ERCOT Members, Market Participants, the Reliability Monitor, the NERC Regional Entity, the IMM and PUCT Staff. [e1] PRS can send a request to working groups or TAC subcommittees for expertise, but PRS keeps ultimate responsibility for processing it. [e3] The PRS Procedures (December 1, 2011 version) describe PRS as reporting to the TAC and responsible for reviewing and recommending action on NPRRs and System Change Requests. [e14]
 
 Impact Analysis. If PRS recommends approval, ERCOT prepares an Impact Analysis based on the language in the PRS Report. [e45]
 
@@ -329,15 +337,15 @@ Urgent and Board Priority. A submitter may ask for an urgent timeline only if it
 
 ## ERCOT context
 
-The subcommittees. The TAC Procedures (approved October 22, 2025) set four standing TAC subcommittees: the Retail Market Subcommittee (RMS), the Reliability and Operations Subcommittee (ROS), the Wholesale Market Subcommittee (WMS) and PRS. [e21] WMS and ROS are also in the Protocols' acronym list. [e10][e11]
+The subcommittees. The TAC Procedures (approved October 22, 2025) set four standing TAC subcommittees: the Retail Market Subcommittee (RMS), the Reliability and Operations Subcommittee (ROS), the Wholesale Market Subcommittee (WMS); the same TAC Procedures list the Protocol Revision Subcommittee (PRS) as item 2 under the standing subcommittees. [e21][e66] WMS and ROS are also in the Protocols' acronym list. [e10][e11]
 - WMS (procedures approved December 4, 2023) reports to TAC and evaluates and reviews issues related to wholesale market operation, making recommendations to TAC. [e15] It monitors PUCT rulings on wholesale markets and ensures PUCT requirements are reflected in the Market Guides and Protocols, [e17] and reviews NPRRs for effects on the wholesale market. [e16]
 - ROS (procedures approved July 25, 2023) reports to TAC and reviews ERCOT system studies and operations related to system security, Operating Guides application and emergency operations. [e18] Its primary functions are developing, reviewing and maintaining the Operating Guides, Planning Guides and other planning criteria and reviewing ERCOT reports on reliable operation. [e19] It reviews Protocol revisions for their impact on reliability and operations. [e20]
 
-Voting at the subcommittees. At PRS each Segment has one Segment Vote and each Voting Entity receives an equal fraction of it; the Consumer Segment's vote is divided among three subsegments. [e24] PRS has two Standing Representatives from each Segment. [e23] A subcommittee motion passes with a majority of the aggregate fractional Segment Votes and a minimum total of three (text from the PRS section of the TAC Procedures). [e25] For RMS, ROS and WMS, each Segment has a Segment Vote of 1.0 except Consumer at 1.5. [e22]
+Voting at the subcommittees. At PRS each Segment has one Segment Vote and each Voting Entity receives an equal fraction of it; the Consumer Segment's vote is divided among three subsegments. [e24] PRS has two Standing Representatives from each Segment. [e23] A subcommittee motion passes when a majority of the aggregate fractional Segment Votes (unless two-thirds is required for the motion under the Procedures' Appendix A) are affirmative and a minimum total of three (text from the PRS section of the TAC Procedures). [e25] For RMS, ROS and WMS, each Segment has a Segment Vote of 1.0 except Consumer at 1.5. [e22]
 
-TAC. TAC is made up of Representatives from each Market Segment: Independent Retail Providers (and Aggregators), Independent Generators, Independent Power Marketers, Municipals, Cooperatives, Investor Owned Utilities and Consumers. [e2][e64] Under the Bylaws, four Members are elected from each of the six non-Consumer Segments. [e27] The Consumer seats are two Industrial, one Small Commercial, one Large Commercial, one Residential, plus the Public Counsel's designee as an ex officio voting member. [e28] An act of TAC requires affirmative votes of two-thirds of the Eligible Voting Representatives and at least 50% of the total Seated Representatives. [e26] The Segments are Cooperative, Independent Generator, Independent Power Marketer, Independent REP, Investor-Owned Utility, Municipal and Consumer (with Commercial, Industrial and Residential subsegments). [e29] A Small Commercial Consumer has peak demand of 1,000 kW or less and a Large Commercial Consumer more than 1,000 kW. [e30] An aggregator that fits no other classification participates as an Independent REP. [e31] Members have no voting rights in ERCOT governance other than Corporate Members' right to elect TAC Representatives. [e36]
+TAC. TAC is made up of Representatives from each Market Segment: Independent Retail Providers (and Aggregators), Independent Generators, Independent Power Marketers, Municipals, Cooperatives, Investor Owned Utilities and Consumers. [e64] Under the Bylaws, TAC comprises Representatives of four Members elected from each of the six Segments other than the Consumer Segment. [e27] The Consumer seats are two Industrial, one Small Commercial, one Large Commercial, one Residential, plus the Public Counsel's designee as an ex officio voting member. [e28] An act of TAC requires affirmative votes of two-thirds of the Eligible Voting Representatives and at least 50% of the total Seated Representatives. [e26] The Segments are Cooperative, Independent Generator, Independent Power Marketer, Independent REP, Investor-Owned Utility, Municipal and Consumer (with Commercial, Industrial and Residential subsegments). [e29] A Small Commercial Consumer has peak demand of 1,000 kW or less and a Large Commercial Consumer more than 1,000 kW. [e30] An aggregator that fits no other classification participates as an Independent REP. [e31] Members have no voting rights in ERCOT governance other than Corporate Members' right to elect TAC Representatives. [e36]
 
-The Board. Per the Bylaws (effective December 20, 2022), the Board has eleven Directors: the PUCT Chair as ex officio non-voting, the Public Counsel as ex officio voting, the CEO as ex officio non-voting and eight voting Selected Directors. [e32] Selected Directors serve staggered three-year terms for up to three consecutive terms. [e33] An act of the Board needs at least two-thirds of the affirmative votes of the Eligible Voting Directors. [e35] Directors may not vote or hold themselves out as members of TAC or its subcommittees, with an exception for the Public Counsel and OPUC representatives. [e34]
+The Board. Per the Bylaws (effective December 20, 2022), the Board has eleven Directors: the PUCT Chair as ex officio non-voting, the Public Counsel as ex officio voting, the CEO as ex officio non-voting and eight voting Selected Directors. [e32] Selected Directors serve staggered three-year terms for up to three consecutive terms. [e33] An act of the Board needs at least two-thirds of the affirmative votes of the Eligible Voting Directors. [e35] Directors may not vote or hold themselves out as members of TAC or its subcommittees, with an exception for the Public Counsel and OPUC representatives. [e34] (The Bylaws and PURA differ on Board composition; see Open items.)
 
 How Board members are selected. The ERCOT board selection committee is made up of one member appointed by each of the governor, lieutenant governor and speaker, [e8] and it selects the members who serve on the governing body and designates its chair and vice chair. [e13] It must retain an outside consulting firm to help select them. [e39] PURA says the governing body is composed of two PUCT members as ex officio nonvoting members (the presiding officer and one designated to serve a one-year term), the "counsellor" as an ex officio voting member representing residential and small commercial consumer interests, the CEO as ex officio nonvoting, and eight members selected by the committee with executive-level experience in listed fields such as finance, business, engineering, trading, risk management, law or electric market design. [e37] A person does not qualify if they have a fiduciary duty or assets in the ERCOT electricity market. [e38]
 
@@ -349,7 +357,7 @@ How Board members are selected. The ERCOT board selection committee is made up o
 - TAC can recommend, reject, table, remand to PRS, or refer to another subcommittee. [e4]
 - An act of TAC needs two-thirds of Eligible Voting Representatives and at least 50% of Seated Representatives. [e26]
 - PUCT approval is required for every revision request before implementation. [e6]
-- Appeals: PRS to TAC within seven days; TAC to the Board; Board to the PUCT within 35 days. [e47][e48][e42]
+- Appeals: PRS to TAC within seven days; TAC to the Board; Board to the PUCT or other Governmental Authority within the deadline it sets and no later than 35 days. [e47][e48][e42]
 - PURA conditions ERCOT's certification on a formal protocol-adoption process. [e7]
 
 ## Say it like this
@@ -358,7 +366,7 @@ How Board members are selected. The ERCOT board selection committee is made up o
 
 ## Common confusion
 
-(Guidance) A TAC vote is not the end of the line. TAC only recommends, and the Board and then the PUCT must act before a change is implemented. [e5][e6] Also, WMS and ROS are not on the standard NPRR route as decision points; PRS is the subcommittee that reviews NPRRs, but WMS and ROS review NPRRs and revisions for wholesale-market and reliability effects, and PRS may refer a request to existing TAC subcommittees. [e3][e16][e20] Finally, the PRS gives each Segment one equal vote, while at RMS, ROS and WMS the Consumer Segment weighs 1.5 versus 1.0. [e24][e22]
+(Guidance) A TAC vote is not the end of the line. TAC only recommends, and the Board and then the PUCT must act before a change is implemented. [e5][e6] Also, the Section 21 path runs through PRS, TAC, the Board and the PUCT; PRS is the subcommittee that reviews NPRRs, while WMS and ROS review Protocol revisions for wholesale-market and reliability effects, and PRS may refer a request to existing TAC subcommittees. [e3][e16][e20] Finally, the PRS gives each Segment one equal vote, while at RMS, ROS and WMS the Consumer Segment weighs 1.5 versus 1.0. [e24][e22]
 
 ## Questions
 
@@ -376,11 +384,11 @@ The PUCT. All revision requests require PUCT approval before implementation. [e6
 
 ### Why do changes need a Board vote and a PUCT vote when TAC already represents the market?
 
-TAC only recommends; the Board reviews the TAC Report and Impact Analysis, [e5] and PURA subjects protocols to PUCT oversight and approval and requires approval of a market impact statement. [e40][e41] The Board is a different body from TAC: its Directors may not be TAC members. [e34]
+TAC only recommends; the Board reviews the TAC Report and Impact Analysis, [e5] and PURA subjects protocols to PUCT oversight and approval and requires approval of a market impact statement. [e40][e41] The Board is a different body from TAC: with an exception for the Public Counsel and OPUC representatives, its Directors may not vote or serve as TAC or TAC subcommittee members. [e34]
 
 ### What if PRS rejects your NPRR?
 
-You can appeal directly to TAC within seven days (the appeal suspends consideration until TAC decides), then to the Board if TAC rejects, tables, remands or refers it, and finally to the PUCT within 35 days of the Board action. [e9][e47][e48][e42]
+You can appeal directly to TAC within seven days (the appeal suspends consideration until TAC decides), then to the Board if TAC rejects, tables, remands or refers it, and finally to the PUCT (or other Governmental Authority) within its deadline and no later than 35 days after the Board action. [e9][e47][e48][e42]
 
 ### What if you need a fix urgently, for example a settlement formula discrepancy?
 
