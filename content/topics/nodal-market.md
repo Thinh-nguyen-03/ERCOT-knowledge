@@ -190,6 +190,14 @@ evidence:
     source: imm-som-2010
     locator: "2010 State of the Market Report, Executive Summary, expected benefits of the nodal market"
     quote: "Figure 43 demonstrates the improved utilization of the West to North interface observed during market trials; an increase from 64 percent to 83 percent."
+  - id: e37
+    source: np-04
+    locator: "Section 4.1(3), Day-Ahead Operations, Introduction"
+    quote: "DAM energy settlements use DAM Settlement Point Prices that are calculated for Resource Nodes, Load Zones, and Hubs for a one-hour Settlement Interval using the Locational Marginal Prices (LMPs) from DAM. In contrast, the Real-Time energy settlements use Real-Time Settlement Point Prices that are calculated for Resource Nodes, Load Zones, and Hubs for a 15-minute Settlement Interval."
+  - id: e38
+    source: ercot-ordc-report-2024
+    locator: "2024 Biennial ERCOT Report on the ORDC, footnote 9"
+    quote: "The Nodal Market began on December 1, 2010."
 ---
 
 ## Definition
@@ -200,7 +208,7 @@ The nodal market is ERCOT's wholesale design in which resources are priced at no
 
 PUCT rule 25.501 sets the design. ERCOT must price energy, ancillary services and congestion using economic principles such as the shadow price of a constraint, marginal cost pricing, and maximizing the sum of consumer and producer surplus, except as otherwise directed by the commission. [e3] Resources are settled at their nodal LMP, and load at its zonal price. A resource-to-load scheduled transaction pays congestion equal to the difference between the resource's nodal LMP and the load zone price. [e2]
 
-Prices settle at Settlement Points, and each Settlement Point is a Resource Node, a Load Zone or a Hub. [e5] Hubs are averages of nodal prices that ERCOT publishes for each settlement interval. [e10] LMPs are calculated at individual generation and load nodes, but load pays the load-weighted average price of its zone. That smooths volatility and makes hedging easier, but it averages some congestion costs across customers. [e6] The rule tells ERCOT to keep zones stable and to give market participants advance notice of zonal boundary changes so they have time to adjust. [e29]
+Prices settle at Settlement Points, and each Settlement Point is a Resource Node, a Load Zone or a Hub. [e5] Hubs are averages of nodal prices that ERCOT publishes for each settlement interval. [e10] Day-ahead Settlement Point Prices are calculated for a one-hour Settlement Interval from DAM LMPs, while real-time Settlement Point Prices use a 15-minute Settlement Interval. [e37] LMPs are calculated at individual generation and load nodes, but load pays the load-weighted average price of its zone. That smooths volatility and makes hedging easier, but it averages some congestion costs across customers. [e6] The rule tells ERCOT to keep zones stable and to give market participants advance notice of zonal boundary changes so they have time to adjust. [e29]
 
 The market runs in layers. Real-time prices come from SCED, which sets base points and ancillary service awards from offers, bids and ancillary service demand curves. [e11][e4] The rules also require a voluntary day-ahead energy market [e8], and CRRs, which ERCOT auctions in a simultaneous combinatorial auction instead of offering physical transmission rights, except for any preassigned CRRs the commission approves. [e9] CRRs are tradable and carry no "use-it-or-lose-it" or "schedule-it-or-lose-it" restrictions. [e31] For ancillary capacity services procured day-ahead or in the operating day, the rule requires simultaneous optimization, with each service priced at its shadow price. [e30] The IMM describes these as three markets: real-time, plus the day-ahead and CRR forward markets. The real-time market is the most consequential, because it coordinates power flows and sets expectations for the forward markets. [e12]
 
@@ -222,7 +230,7 @@ Who governs it. FERC's 2024 Energy Primer says FERC regulates all RTOs/ISOs exce
 - 2003: ERCOT establishes the four current load zones (North, West, South, Houston), per the IMM. [e7]
 - October 2010: TAC votes to certify the Full Nodal systems for a December 1, 2010 go-live (October 19, 2010 Board update). [e18]
 - November 30, 2010: planned first nodal DAM, for Operating Day December 1. [e19]
-- December 1, 2010: ERCOT implements the nodal market; 2010 had eleven months of zonal operation and one month of nodal. [e20][e21]
+- December 1, 2010: ERCOT implements the nodal market; 2010 had eleven months of zonal operation and one month of nodal (IMM; ERCOT's 2024 ORDC report gives the same date). [e20][e21][e38]
 - 2011: first full calendar year of nodal operation, per the IMM. [e20]
 - November 2024: the PUCT approves NPRR 1188 (nodal pricing for CLRs). [e15]
 - December 5, 2025: RTC goes live. [e34]
