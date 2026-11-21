@@ -35,7 +35,7 @@ links:
     note: The ORDC's loss-of-load probability came from the gap between hour-ahead forecast reserves and real-time reserves, which ERCOT attributes to net load forecast error and other factors. [e21][e22]
   - to: ecrs
     type: related
-    note: ERCOT's 2024 report says ECRS, launched June 10, 2023, shifted reserves on-line and helped reduce the frequency and size of ORDC adders. [e34]
+    note: ERCOT's 2024 report says ECRS, introduced June 10, 2023, is mostly provided by On-Line Resources and gave QSEs an incentive to keep Resources On-Line, increasing On-Line reserves; that shift from Off-Line to On-Line reserves, with higher overall reserves, helped reduce the frequency and size of ORDC adders. [e43][e34]
 evidence:
   - id: e1
     source: imm-som-2025
@@ -201,6 +201,14 @@ evidence:
     source: ercot-ordc-report-2024
     locator: "2024 Biennial ERCOT Report on the ORDC, Section 1.2 (PBMCL and MCL)"
     quote: "Note that while the MCL described above in Section 1.1 matches the reserve level at which ERCOT will begin instructing firm load shed, ERCOT's MCL was initially set to 2,000 MW to address concerns related to long-term resource adequacy and to ensure that prices were sufficiently strong when the ERCOT system went into declared emergency conditions but not yet requesting firm load shed."
+  - id: e42
+    source: ercot-ordc-methodology-2016
+    locator: "ORDC Methodology OBD (2016), Attachment A, Section 2.3, Determination of Price Adders, equations (symbols partly garbled in the text copy)"
+    quote: "RTORPA  PS  v * 0.5 *  S RS   PNS RTOFFPA  PNS  v * (1  0.5) *  NS RSNS  where v  max( 0, VOLL  SystemLambda) RS  RTOLCAP RSNS  RTOLCAP  RTOFFCAP"
+  - id: e43
+    source: ercot-ordc-report-2024
+    locator: "2024 Biennial ERCOT Report on the ORDC, Executive Summary, key results (ECRS)"
+    quote: "The ERCOT Contingency Reserve Service (ECRS) was introduced on June 10,2023. ECRS is a service which is predominantly provided by On-Line Resources.3 Having an ECRS Supply Responsibility provides a strong incentive to a Qualified Scheduling Entity (QSE) to have Resources On-Line. This incentive further contributed to increased levels of self-commitment based on expected future prices and the risk of not running on peak summer days. This behavior impacted the composition of On-Line and Off-Line reserves with an increase in the quantity of On-Line reserves.4"
 ---
 
 ## Definition
@@ -209,7 +217,7 @@ The ORDC was ERCOT's pre-RTC way of pricing reserve scarcity. It linked the leve
 
 ## How it works
 
-This section describes the design before December 5, 2025. Day-ahead procurement covered the full AS Plan, and the real-time market could not use those reserves unless they were manually released to dispatch. The ORDC then set shortage pricing outside the dispatch model, based on how many operating reserves were available, as the IMM's 2024 report summarized it. [e5] ERCOT described this as reflecting scarcity "through a process that is outside of the optimization". [e4]
+This section describes the design before December 5, 2025. Day-ahead procurement covered the full AS Plan, and the real-time market could not use those reserves unless they were manually released to dispatch. The ORDC then set shortage pricing outside the dispatch model, based on how many operating reserves were available, as the IMM's 2024 report summarized it. [e2][e5] ERCOT described this as reflecting scarcity "through a process that is outside of the optimization". [e4]
 
 Two adders. From summer 2014 ERCOT computed separate adders in the five-minute real-time market: the Real-Time On-Line Reserve Price Adder (RTORPA), tied to on-line capacity (RTOLCAP, reserves available within 30 minutes), and the Real-Time Off-Line Reserve Price Adder (RTOFFPA), tied to off-line capacity (RTOFFCAP, reserves needing 30 minutes to an hour). [e18] Both were computed from VOLL, which was set equal to the system-wide offer cap, and from PBMCL, the probability of reserves falling below the minimum contingency level (MCL). [e19]
 
@@ -219,13 +227,13 @@ Price ceiling. The adder was built on VOLL minus System Lambda, so that the fina
 
 ## Formula
 
-Pre-RTC adder (2016 methodology OBD, as described in prose): for each SCED run the ORDC is PBMCL multiplied by (VOLL − System Lambda). [e20] Here v = VOLL − System Lambda is "the net value of Load curtailment". [e24] RTORPA adds to the off-line term an extra term for the first 30 minutes, computed with Mu × 0.5 and Sigma × 0.707. [e23] Parameters in the 2016 methodology: VOLL $9,000/MWh and minimum contingency level X of 2,000 MW. [e31]
+Pre-RTC adder (2016 methodology OBD, as described in prose): for each SCED run the ORDC is PBMCL multiplied by (VOLL − System Lambda). [e20] Here v is "the net value of Load curtailment", which the prose calculates as VOLL minus the SCED System Lambda. [e24] The OBD's equations (some symbols garbled in the saved text copy; the garbled characters read as =, −, + and π) are: RTORPA = PS = v × 0.5 × πS(RS) + PNS; RTOFFPA = PNS = v × (1 − 0.5) × πNS(RSNS); with v = max(0, VOLL − System Lambda), so v is floored at zero; RS = RTOLCAP; RSNS = RTOLCAP + RTOFFCAP. [e42] So each half-hour term carries a 0.5 weight, and RTORPA includes the whole off-line adder. RTORPA adds to the off-line term an extra term for the first 30 minutes, computed with Mu × 0.5 and Sigma × 0.707. [e23] Parameters in the 2016 methodology: VOLL $9,000/MWh and minimum contingency level X of 2,000 MW. [e31]
 
 Post-RTC reconstruction (np-04 §4.4.12): the current protocols compute "historical reserve pricing outcomes" for the AORDC regression with the expression below, where RTOLCAP and RTOFFCAP are the real-time on-line and off-line reserve capacities for SCED intervals from June 1, 2014 through August 31, 2025, and μ and σ are the mean and standard deviation of the shifted LOLP distribution published for Summer 2026. [e14][e15][e17]
 
 `(0.5*(1 − pnorm(RTOLCAP − 3000, 0.5*μ, 0.707*σ)) + 0.5*(1 − pnorm(RTOLCAP + RTOFFCAP − 3000, μ, σ))) * (VOLL − min(System Lambda, 250))` [e15]
 
-The 3,000 is the MCL in MW since 2022, and the 0.5 and 0.707 scaling matches the on-line term described in ERCOT's 2024 report. [e27][e23] One difference from the 2016 text: the reconstruction subtracts min(System Lambda, 250) rather than System Lambda. [e15][e24]
+The knowledge base reads the 3,000 as the MCL in MW since 2022 (the Protocol text does not label it), and the 0.5 and 0.707 scaling matches the on-line term described in ERCOT's 2024 report. [e27][e23] One difference from the 2016 text: the reconstruction subtracts min(System Lambda, 250), whereas the 2016 equation uses max(0, VOLL − System Lambda). [e15][e42]
 
 ## ERCOT context
 
@@ -243,9 +251,9 @@ Rules still on the books. §25.509 says that if the cap drops to LCAP, ERCOT kee
 - June 2014: ORDC implemented, with on-line and off-line adders in the five-minute RTM. [e26][e18]
 - 2016 methodology: VOLL $9,000/MWh, MCL 2,000 MW. [e31]
 - March 2019 and March 2020: Mu shifted up by 0.25 Sigma each time. [e26]
-- After Winter Storm Uri (2021): VOLL falls to the $2,000 LCAP. [e27]
+- After Winter Storm Uri: VOLL falls to the $2,000 LCAP. [e27]
 - January 1, 2022: VOLL and HCAP set at $5,000/MWh; MCL raised to 3,000 MW. [e27]
-- October 31, 2022: ERCOT's first biennial ORDC report. [e35]
+- October 31, 2022: ERCOT's 2022 biennial ORDC report. [e35]
 - November 1, 2023: multi-step RTORPA floor ($20 and $10/MWh) takes effect. [e28][e29]
 - December 5, 2025: RTC go-live; the ORDC adder is replaced by ASDCs. [e2][e9]
 - August 20, 2026: the Commission agrees ASDCs no longer have to replicate ORDC outcomes (per ERCOT's filing). [e37]
@@ -266,7 +274,7 @@ Rules still on the books. §25.509 says that if the cap drops to LCAP, ERCOT kee
 
 ## Common confusion
 
-(Guidance) The ORDC and the RDPA were two separate adders. The ORDC priced scarce reserves, and the RDPA corrected for out-of-market reliability actions. RTC removed the ORDC but kept the RDPA in a new form. [e9] Also, "the ORDC is gone" does not mean its values are gone: the AORDC is a fixed curve formulated from the ORDC's pricing outcomes before RTC [e11], and it is disaggregated into the ASDCs for Reg-Up, RRS, ECRS and Non-Spin. [e16] The MCL is not simply the load-shed point: ERCOT says that although the MCL concept matches the reserve level where firm load shed begins, it set the MCL at 2,000 MW to address long-term resource adequacy and keep prices strong in declared emergencies before load shed. [e41][e27]
+(Guidance) The ORDC and the RDPA were two separate adders. The ORDC priced scarce reserves, and the RDPA corrected for out-of-market reliability actions. RTC removed the ORDC but kept the RDPA in a new form. [e9] Also, "the ORDC is gone" does not mean its values are gone: the AORDC is a fixed curve formulated from the ORDC's pricing outcomes before RTC [e11], and it is disaggregated into the ASDCs for Reg-Up, RRS, ECRS and Non-Spin. [e16] The MCL is not simply the load-shed point: ERCOT says that although the MCL concept matches the reserve level where firm load shed begins, it initially set the MCL at 2,000 MW to address long-term resource adequacy and keep prices strong in declared emergencies before load shed. [e41][e27]
 
 ## Questions
 
