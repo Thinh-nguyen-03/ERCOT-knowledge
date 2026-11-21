@@ -212,6 +212,10 @@ evidence:
     source: ref-ferc-energy-primer
     locator: "FERC Energy Primer (2024), Electricity Markets chapter, RTO/ISO section"
     quote: "FERC regulates all RTOs/ISOs except ERCOT."
+  - id: e44
+    source: puct-59550-ercot-comments
+    locator: "PUCT Project No. 59550, ERCOT comments, response to Question 2, p. 5 (NPRR1216, OBDRR051, VCMRR039)"
+    quote: "The Commission approved these Revision Requests on September 26,2024 and ERCOT implemented Phase 1 of these Revision Requests on December 5,2025."
 ---
 
 ## Definition
@@ -236,7 +240,7 @@ Design rules. Rule 25.501 says ERCOT's protocols must be developed with microeco
 
 Parameters analysts model. Rule 25.509 states a high system-wide offer cap (HCAP) of $5,000 per MWh and a low cap (LCAP) of $2,000 per MWh for energy. [e11] The Protocol parameter table, however, lists the day-ahead cap at $5,000 and the real-time cap at $2,000 per MWh, and ERCOT's September 2026 review says the SWCAP fell to $2,000 from $5,000 after RTC go-live on 12/5/2025. [e15][e16] The rule text in the saved sources has not been updated to show a separate real-time value (see the offer-cap topic). The 2026 offer-cap review (Project 59550) is the first five-year review required by §25.509(d), according to ERCOT's filing. [e41] Rule 25.508 sets the ERCOT reliability standard, which includes a frequency criterion of 0.1 loss of load expectation. [e12] In July 2024 the PUCT approved a planning CONE of $140 per kW-year, while keeping the legacy $105 per kW-year value for the peaker net margin threshold. [e14]
 
-What its decisions look like. Examples from the saved orders:
+What its decisions look like. The saved orders and minutes give these examples. [e37][e33][e39][e34][e35]
 - February 16, 2021 (Winter Storm Uri): the commission found good cause to suspend the LCAP and ordered ERCOT to use the HCAP; on March 3, 2021 it ended the suspension and ordered ERCOT to resume the LCAP. [e37][e38]
 - October 7, 2024: it approved the Permian Basin Reliability Plan but reserved the voltage decision until no later than May 1, 2025 [e32]; its second order approved the three 765-kV import paths in Table 7.5 of the plan. [e33]
 - December 19, 2024 open meeting: it adopted Staff's final recommendation on the Performance Credit Mechanism (the minutes are a summary, not a transcript). [e39][e40]
@@ -269,7 +273,7 @@ What its decisions look like. Examples from the saved orders:
 
 (Guidance) The PUCT is ERCOT's regulator. It certifies ERCOT, approves its budget and every protocol change, and sets key market parameters such as the offer caps and the reliability standard. When the market design changes in a big way, the final decision usually sits with the commission, with the IMM advising and ERCOT implementing.
 
-(Guidance) It is five governor-appointed commissioners, and since 2023 it has to give ERCOT formal written direction rather than steer it from the dais, except in a genuine emergency.
+(Guidance) It is five governor-appointed commissioners, and since 2023 it has to give ERCOT formal written direction rather than steer it from the dais, except in a genuine emergency. [e19][e6][e29]
 
 ## Common confusion
 
@@ -310,7 +314,7 @@ In July 2024 it approved $140 per kW-year for planning, and it kept the legacy $
 ### The ERCOT board approves an NPRR that changes scarcity pricing. A trader asks when it becomes binding.
 
 - Not on board approval. New or revised protocols cannot take effect until the PUCT approves a market impact statement, and the PUCT can approve, reject or remand the change. [e5]
-- So the PUCT's approval is the step to watch, after which the change still has to be implemented. For example, the PUCT approved NPRR1216 (the EPP's Protocol implementation) in September 2024, but ERCOT reports Phase 1 went in only on December 5, 2025 (see offer-cap).
+- So the PUCT's approval is the step to watch, after which the change still has to be implemented. For example, the PUCT approved NPRR1216 (the EPP's Protocol implementation) in September 2024, but ERCOT reports Phase 1 went in only on December 5, 2025 (see offer-cap). [e44]
 
 ## Open items
 
