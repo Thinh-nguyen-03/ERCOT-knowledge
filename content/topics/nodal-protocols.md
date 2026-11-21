@@ -169,6 +169,10 @@ evidence:
     source: np-01
     locator: "Section 1.2(9), Functions of ERCOT"
     quote: "Notwithstanding any other provision in these Protocols, ERCOT shall take any action, and shall direct any Market Participant to take any action, that ERCOT deems necessary to ensure that any Entity in the ERCOT Region that is not a “public utility” as defined in the Federal Power Act (FPA), including ERCOT, does not become such a public utility."
+  - id: e34
+    source: np-01
+    locator: "Section 1: Overview, cover page"
+    quote: "ERCOT Nodal Protocols Section 1: Overview November 6, 2026"
 ---
 
 ## Definition
@@ -185,7 +189,7 @@ The Protocols implement ERCOT's functions as the PUCT-certified Independent Orga
 
 Together with the Protocols they make up the scheduling, operating, planning, reliability and Settlement rules that bind Market Participants under PURA section 39.151. [e6]
 
-When texts conflict, the order is: Sections 1 through 21 and 24 through 27 prevail over conflicting attachments and Other Binding Documents; an Agreement prevails over the Protocols to the extent of a conflict; and an Agreement provision that deviates from the Protocols is effective only upon ERCOT Board approval on a showing of good cause. [e15] The Protocols are not intended to govern direct relationships among Market Participants except as they expressly provide. [e19]
+When texts conflict, the order is: Sections 1 through 21 and 24 through 27 prevail over conflicting attachments and Other Binding Documents; an Agreement prevails over the Protocols to the extent of a conflict [e5]; and an Agreement provision that deviates from the Protocols is effective only upon ERCOT Board approval on a showing of good cause. [e15] The Protocols are not intended to govern direct relationships among Market Participants except as they expressly provide. [e19]
 
 ### Reading the text
 
@@ -207,7 +211,7 @@ The published Protocol text carries boxes for revisions to apply "upon system im
 
 - 19 October 2010: an ERCOT Board presentation shows the integrated nodal timeline with a planned go-live of December 1, 2010. This is a pre-go-live plan, not a record that go-live occurred on that date. [e30]
 - The Protocols define the Texas Nodal Market Implementation Date as the date ERCOT starts operation of the Texas Nodal Market in compliance with PUCT rules and orders; ERCOT posts it on its website. [e29]
-- Ongoing: the text is amended through NPRRs approved by the PUCT, and the Protocols file saved here is dated November 6, 2026 on its cover. [e10]
+- Ongoing: the text is amended through NPRRs approved by the PUCT, and the Section 1 file saved here is dated November 6, 2026 on its cover. [e10][e34]
 - The Nodal market guiding principles document says an NPRR should strive to improve price signals, dispatch efficiencies and transparency, among other principles, and is non-binding. [e31][e32]
 
 ## Key facts

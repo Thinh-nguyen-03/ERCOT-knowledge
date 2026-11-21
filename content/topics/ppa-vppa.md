@@ -18,7 +18,7 @@ links:
     note: Every hedge of this kind multiplies an hourly price difference by a volume, so the timing of output against prices drives the result. [e22]
   - to: volumetric-risk
     type: related
-    note: Hedges differ in the volume used: as-generated (metered output) in a VPPA, a modelled proxy, or a fixed volume set in advance. [e21][e23]
+    note: "Hedges differ in the volume used: metered output in an as-generated VPPA, or a scheduled notional quantity in some VPPAs. [e21][e23]"
   - to: retail-hedging
     type: used-in
     note: The IMM says many ERCOT LSEs manage price exposure through owning generation, bilateral PPAs, futures or day-ahead purchases. [e37]
@@ -30,7 +30,7 @@ links:
     note: Buyers seek floors because an uncapped obligation to pay the difference at negative prices can mean large settlement payments to the project. [e28][e29]
   - to: tolling-agreement
     type: contrasts-with
-    note: The ERCOT Protocols use the single defined phrase "Power Purchase or Tolling Agreement (PPA)". [e33]
+    note: The ERCOT Protocols use the one phrase "Power Purchase or Tolling Agreement (PPA)" for both kinds of contract. [e33]
   - to: winter-storm-uri
     type: related
     note: UT Austin says wind hedges could trigger payments when wholesale prices exceeded contract prices or output fell below contracted quantities during Uri. [e40]
@@ -221,6 +221,10 @@ evidence:
     source: ref-yale-vppa
     locator: "Section on physical PPAs"
     quote: "In contrast to a Virtual PPA, electricity under a PPPA is physically transferred from renewable energy developers to buyers through an intermediary utility company, which receives a management (or “sleeving”) fee from the buyer for maintenance and execution."
+  - id: e46
+    source: ref-rmi-ppa-risk
+    locator: "Volume Risk, Further Detail (p. 22)"
+    quote: "Since the value of a VPPA to a city in any given period is the product of the energy generated and the difference between the market and VPPA prices, any variability in the former causes uncertainty to the project’s value."
 ---
 
 ## Definition
@@ -235,7 +239,7 @@ A power purchase agreement (PPA) is a contract between a power producer and a pu
 
 **Settlement.** EPA, Norton Rose Fulbright and Yale say virtual PPAs typically settle monthly (Yale: monthly or quarterly). [e9][e12][e11] Norton Rose Fulbright's 2022 article says most hedges are calculated hour by hour: the hourly price difference times a volume for that hour. [e22] These fit together as an hourly calculation paid out each period, though no single source says so in one place.
 
-**Volume.** In an as-generated contract (Norton Rose Fulbright's term for a VPPA) the hourly difference is multiplied by the metered output. [e21] A separate Norton Rose Fulbright article says VPPA payments are often based on a scheduled notional quantity rather than actual output. [e23] Which volume applies is a contract term; see Volumetric Risk.
+**Volume.** In an as-generated contract (Norton Rose Fulbright's term for a VPPA) the hourly difference is multiplied by the metered output; RMI likewise describes a VPPA's value in a period as the energy generated times the difference between the market and VPPA prices. [e21][e46] A separate Norton Rose Fulbright article says VPPA payments are often based on a scheduled notional quantity rather than actual output. [e23] Which volume applies is a contract term; see Volumetric Risk.
 
 **Why parties sign.** For the developer, the fixed price gives predictable revenue and a floor under its price, which EPA and Norton Rose Fulbright both call key to project financing. [e24][e25] For the buyer, the contract is a hedge only if the project's market price moves with the price the buyer pays for its own power. [e18][e44]
 
@@ -263,7 +267,7 @@ The IMM says 35% of real-time generation capacity was offered at or below $0 in 
 - Settlement is typically monthly. [e9][e12]
 - Physical PPAs generally require the buyer and project to be in the same market; virtual PPAs do not. [e14][e16]
 - Contract terms differ by source: physical PPAs 10-20 years (EPA), traditional utility PPAs 20-35 years (POWER), most VPPAs 10-15 years (Norton Rose Fulbright). [e13][e26][e27]
-- The ERCOT Protocols define "Power Purchase or Tolling Agreement (PPA)" as one term. [e33][e34]
+- The ERCOT Protocols use "Power Purchase or Tolling Agreement (PPA)" as one term. [e33][e34]
 
 ## Formula
 
