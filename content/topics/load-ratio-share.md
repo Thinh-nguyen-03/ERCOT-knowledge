@@ -195,13 +195,13 @@ Each QSE has its own LRS for each 15-minute Settlement Interval. [e3] An Entity'
 
 **Zonal LRS.** Costs allocated on a zonal LRS must use the "Cost-Allocation Load Zones", the four Load Zones in effect during the 2003 ERCOT market unless changed under Section 3.4.2, and any NOIE Load Zone counts as located entirely within the 2003 CMZ of its largest Load in 2003. [e26]
 
-## What is allocated by LRS (catalogue from the Protocols)
+**What is allocated by LRS.** The Protocol sections below allocate on LRS. [e4][e5]
 
 - Ancillary Service quantities: assigned to QSEs from LSE LRSs, including DC Tie export shares, aggregated by hour. [e4]
 - RUC make-whole shortfalls (uplift), RUC clawback payments and RUC decommitment charges. [e5][e24][e25]
 - UFE categories, by adjusted LRS. [e6]
 - Securitization Uplift Charge, by a daily non-opted-out LSE LRS. [e7][e9]
-- CRR auction revenue (zonal or ERCOT-wide) and CRR Balancing Account surplus. [e8][e16]
+- CRR auction revenue (zonal or ERCOT-wide) and CRR Balancing Account surplus; a CRRBA resettlement invoice reuses the MLRS of the most recently posted balancing account invoices. [e8][e16][e29]
 - Block Load Transfer charges (monthly LRS). [e17]
 - High Dispatch Limit override energy payment charge. [e19]
 - Real-Time Constraint Management Plan cost recovery charge. [e20]
