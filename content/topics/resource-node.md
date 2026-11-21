@@ -23,7 +23,7 @@ links:
     note: A Load Zone price is based on state-estimated Load and the time-weighted average LMPs at buses in the zone, while a Resource Node is the point where a Resource's price is calculated. [e1][e5]
   - to: trading-hub
     type: contrasts-with
-    note: Hub information comes from aggregating nodes and calculating an average price; a Resource Node is where a Generation Resource or ESR price is calculated. [e7][e1]
+    note: Under PUCT rule 25.501(g), hub information comes from aggregating nodes and calculating an average price; a Resource Node is where a Generation Resource or ESR price is calculated. [e7][e1]
   - to: basis-risk
     type: related
     note: A generator paid at its node but hedged at a hub carries the node-to-hub price difference.
@@ -32,7 +32,7 @@ links:
     note: A PTP Obligation that sinks at a Resource Node can have its positive payment reduced by oversold network elements. [e17]
   - to: ptp-obligation
     type: related
-    note: PTP bids can be submitted and settled at a Generation Resource Node, subject to the PUN exception. [e11]
+    note: PTP bids can be submitted and settled at a Generation Resource Node, subject to the PUN exception. [e32]
   - to: energy-storage-resource
     type: related
     note: An ESR can be mapped to only one Resource Node, and its charging consumption is withdrawn at the Resource Connectivity Node. [e12][e9]
@@ -144,6 +144,34 @@ evidence:
     source: np-22r
     locator: "Title page and Introduction (document dated April 1, 2026), pending box OBDRR046"
     quote: "This procedure is the guiding attachment for ERCOT and Market Participants with a Generation Resource, Energy Storage Resource (ESR), or Controllable Load Resource (CLR) that is not an Aggregate Load Resource (ALR), to identify Resource Nodes and manage the lifecycle of the Resource Node."
+  - id: e27
+    source: np-22r
+    locator: "Procedure to Incorporate a Resource Node into the Network Operations Model, item 1"
+    quote: "a Resource Entity must submit Resource Registration information that includes a detailed electrical one-line drawing of the generation facility."
+  - id: e28
+    source: np-22r
+    locator: "Procedure to Incorporate a Resource Node into the Network Operations Model, item 3"
+    quote: "The Network Modeling Group will provide documentation back to the Resource Entity clearly indicating the Resource Node parameters."
+  - id: e29
+    source: np-22r
+    locator: "Procedure to Incorporate a Resource Node into the Network Operations Model, item 8"
+    quote: "The normal timeline for this procedure shall not exceed 20 Business Days after the submission date of validated Resource Registration information that includes a detailed electrical one-line drawing."
+  - id: e30
+    source: np-22r
+    locator: "Appendix A, 3.1 Resource Node Definition, item g"
+    quote: "Multiple Generation Resources and ESRs can be mapped to the same Resource Node, i.e. offers from different Generation Resources and ESRs can be settled at the same Settlement Point."
+  - id: e31
+    source: np-22r
+    locator: "Appendix A, 3.2 Resource Node Location, item a.i (exception)"
+    quote: "Exception: There is an exception to this rule for placing Generation Resource Nodes and CCU Resource Nodes that are mapped to Generation Resources or ESRs within a PUN."
+  - id: e32
+    source: np-22r
+    locator: "Appendix A, 3.1 Resource Node Definition, item c (PTP bids)"
+    quote: "as well as Point-to-Point (PTP) bids, can be submitted and settled at a Generation Resource Node, unless that Generation Resource Node is within a PUN site where constrainable Transmission Element(s) exist between the Generation Resource Node and ERCOT-Polled Settlement (EPS) Meter, in which case only Three-Part Supply Offers, Energy Bid/Offer Curves, and Ancillary Service Offers can be submitted and settled."
+  - id: e33
+    source: np-06
+    locator: "Section 6.6.1.1, paragraph (2) variable table, RTLMP for Combined Cycle Train units"
+    quote: "The Real-Time LMP at the Resource Node of a generation unit designated in a Combined Cycle Train registration for the SCED interval y."
 ---
 
 ## Definition
@@ -156,15 +184,15 @@ In the day-ahead, the price at a Resource Node for an hour is simply the LMP at 
 
 ## ERCOT context
 
-The Resource Node is the generator's side of the market: it is a Settlement Point alongside the Load Zone and Hub, and it is the point where a Generation Resource or ESR price is calculated, whereas a Hub aggregates nodes into an average price. [e1][e2][e7] Because the Load Zone price is based on state-estimated Load and time-weighted average LMPs across buses in the zone, a generator paid at its node and a load paid at its zone can see different prices in the same interval. [e4][e5]
+The Resource Node is the generator's side of the market: it is a Settlement Point alongside the Load Zone and Hub, and it is the point where a Generation Resource or ESR price is calculated, whereas under PUCT rule 25.501(g), ERCOT provides trading hub information by aggregating nodes and calculating an average price. [e1][e2][e7] Because the Load Zone price is based on state-estimated Load and time-weighted average LMPs across buses in the zone, a generator paid at its node and a load paid at its zone can see different prices in the same interval. [e4][e5]
 
 ### Placement and lifecycle (Attachment R)
 
-Section 22, Attachment R sets the procedure. The Resource Entity submits registration information with a one-line drawing, ERCOT's Network Modeling Group proposes the parameters, and the Resource Entity has five Business Days to accept or reject them. [e8] If there is no agreement within 20 Business Days, no Resource Node parameters are entered in the Network Operations Model, which may affect CRR Network Models and CRR activities for that Resource, and an agreement is required before implementation. [e10] Once effective, the Resource Node name cannot be changed. [e24]
+Section 22, Attachment R sets the procedure. The Resource Entity submits registration information with a one-line drawing, ERCOT's Network Modeling Group proposes the parameters, and the Resource Entity has five Business Days to accept or reject them. [e27][e28][e8] If there is no agreement within 20 Business Days, no Resource Node parameters are entered in the Network Operations Model, which may affect CRR Network Models and CRR activities for that Resource, and an agreement is required before implementation. [e10] Once effective, the Resource Node name cannot be changed. [e24]
 
-A Generation Resource, or an ESR, can be mapped to only one Resource Node, so its offers settle at one price. [e12] Several Resources can share a node. [e11] The location is set by the First Fork Rule: the first Electrical Bus with alternate paths from the Resource Connectivity Node, where parallel paths do not count. [e13] Other rules favour a bus less often de-energized and a bus with no constrainable element between the node and the plant. [e14][e15] If the rules conflict they are applied in priority order, with ERCOT discretion, provided the Resource Entity cannot control its Resource Node price. [e16] Resource Nodes are not placed at DC Ties, which are Load Zones. [e22] After a later ownership change the node does not move. [e23]
+A Generation Resource, or an ESR, can be mapped to only one Resource Node, so its offers settle at one price. [e12] Several Resources can share a node. [e30] The location is set by the First Fork Rule: the first Electrical Bus with alternate paths from the Resource Connectivity Node, where parallel paths do not count; Attachment R lists an exception for Resources within a PUN. [e13][e31] Other rules favour a bus less often de-energized and a bus with no constrainable element between the node and the plant. [e14][e15] If the rules conflict they are applied in priority order, with ERCOT discretion, provided the Resource Entity cannot control its Resource Node price. [e16] Resource Nodes are not placed at DC Ties, which are Load Zones. [e22] After a later ownership change the node does not move. [e23]
 
-Combined cycle plants: each CCP train has a logical Resource Node to which all of its configurations map. [e19] In real time that node's price is the weighted average of unit node LMPs, weighted by telemetered output when On-Line and by High Reasonability Limit when the train is Off-Line. [e20] A Private Use Network Resource Node is optional and sits where the EPS Meter is effectively located when no other node does. [e21]
+Combined cycle plants: each CCP train has a logical Resource Node to which all of its configurations map. [e19] In real time that node's price is the weighted average of the Resource Node LMPs of its units, weighted by telemetered output when On-Line and by High Reasonability Limit when the train is Off-Line. [e33][e20] A Private Use Network Resource Node is optional and sits where the EPS Meter is effectively located when no other node does. [e21]
 
 Retirement: a Resource Node cannot be retired until outstanding CRRs on it have settled, unless a model error was made in creating it, and TSPs cannot submit a NOMCR to delete one. [e18]
 
@@ -176,7 +204,7 @@ Pending: the Attachment R text dated April 1, 2026 carries an OBDRR046 box that,
 - Resource Nodes apply to Generation Resources and Energy Storage Resources. [e1]
 - The day-ahead Resource Node price is the DAM LMP at that node. [e3]
 - The real-time Resource Node price includes the Reliability Deployment Price Adder for Energy. [e4]
-- The Resource Entity has five Business Days to accept or reject proposed node parameters; the normal procedure is capped at 20 Business Days (Attachment R, dated April 1, 2026). [e8][e10]
+- The Resource Entity has five Business Days to accept or reject proposed node parameters; the normal timeline shall not exceed 20 Business Days after submission of validated registration information (Attachment R, dated April 1, 2026). [e8][e29]
 - A Generation Resource or ESR maps to exactly one Resource Node. [e12]
 - A PTP Obligation that sinks at a Resource Node and has a positive value can be paid less when network elements were oversold in earlier CRR Auctions. [e17]
 
@@ -186,7 +214,7 @@ The resource node is the pricing point where a generator or battery is paid. Its
 
 ## Common confusion
 
-- Resource Node versus Hub: a Hub aggregates nodes into an average price; a Resource Node is where a Generation Resource's or ESR's price is calculated. [e1][e7]
+- Resource Node versus Hub: under PUCT rule 25.501(g) hub information aggregates nodes into an average price; a Resource Node is where a Generation Resource's or ESR's price is calculated. [e1][e7]
 - Resource Node versus Load Zone: the zone price is based on state-estimated Load and time-weighted average LMPs across the zone's buses, not a single node. [e5]
 
 ## Questions
@@ -197,7 +225,7 @@ The DASPP at its Resource Node, which is the LMP at that node for the hour from 
 
 ### Why does ERCOT use a First Fork Rule to place the node?
 
-The rule puts the node at the first bus with alternate paths from the plant, and the other placement rules aim for no congestion between the node and the plant's connection point. [e13][e15] Attachment R also says ERCOT uses discretion only where the location does not let the Resource Entity control its node price. [e16] (Reading: the design keeps the node price from reflecting congestion the plant itself creates.)
+The rule puts the node at the first bus with alternate paths from the plant, and the other placement rules aim for no congestion between the node and the plant's connection point. [e13][e15] Attachment R also says ERCOT uses discretion in choosing the location, assuming the location does not allow the Resource Entity to control its Resource Node price. [e16]
 
 ### What if ERCOT and a Resource Entity cannot agree on node parameters?
 

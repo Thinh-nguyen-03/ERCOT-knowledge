@@ -198,6 +198,22 @@ evidence:
     locator: "Section 6.5.7.5, paragraph (1)(p), PRC4"
     quote: >-
       PRC₄ = (Min(Max((Actual Net Telemetered Consumption – LPC), 0.0), ECRS and RRS Ancillary Service Resource award * 1.5) from all Load Resources controlled by high-set under-frequency relays with an ECRS and/or RRS Ancillary Service Resource award)_(i)
+  - id: e35
+    source: np-06
+    locator: "Section 6.5.7.5, paragraph (1)(p), variable table (RDF)"
+    quote: "The currently approved Reserve Discount Factor"
+  - id: e36
+    source: np-06
+    locator: "Section 6.5.7.5, paragraph (1)(p), variable table (LRDF_1)"
+    quote: "The currently approved Load Resource Reserve Discount Factor for CLRs awarded an Ancillary Service Resource award"
+  - id: e37
+    source: np-06
+    locator: "Section 6.5.7.5, paragraph (1)(p), variable table (FRCHL)"
+    quote: "Telemetered High limit of the FRC for the Resource"
+  - id: e38
+    source: np-06
+    locator: "Section 6.5.7.5, paragraph (1)(p), variable table (FRCO)"
+    quote: "Telemetered output of FRC portion of the Resource"
 ---
 
 ## Definition
@@ -212,7 +228,7 @@ ERCOT displays the rolling ERCOT-wide PRC on its website and updates it every te
 
 ## Formula
 
-The Protocols give the PRC formula in Section 6.5.7.5, paragraph (1)(p). The text below describes each component from the variable list and the quoted formulas; in these formulas RDF is the currently approved Reserve Discount Factor, RDF_W the one for wind, LRDF_1 and LRDF_2 the Load Resource factors for CLRs with and without an ancillary service award, FRCHL the telemetered high limit of the frequency responsive capacity (FRC), and FRCO its telemetered output. FRC is the telemetered portion of a Generation Resource's or ESR's output that represents capacity capable of providing Primary Frequency Response. [e2][e14][e28]
+The Protocols give the PRC formula in Section 6.5.7.5, paragraph (1)(p). The text below describes each component from the variable list and the quoted formulas; in these formulas RDF is the currently approved Reserve Discount Factor, RDF_W the one for wind, LRDF_1 and LRDF_2 the Load Resource factors for CLRs with and without an ancillary service award, FRCHL the telemetered high limit of the frequency responsive capacity (FRC), and FRCO its telemetered output. FRC is the telemetered portion of a Generation Resource's or ESR's output that represents capacity capable of providing Primary Frequency Response. [e2][e14][e28][e35][e36][e37][e38]
 
 - PRC1 is on-line generation: for each included resource, the discounted FRC high limit minus the output of the FRC portion, floored at zero and capped at 20% of the discounted FRC high limit. The included resources exclude WGRs, nuclear units, units with output at or below 95% of telemetered LSL, and units with a telemetered status of ONTEST, ONHOLD, STARTUP or SHUTDOWN. [e14]
 - PRC2 is on-line wind: the discounted HSL minus actual net output, floored at zero and capped at 20% of the discounted HSL, counting only WGRs that are Primary Frequency Response-capable. [e15]
@@ -228,11 +244,11 @@ PRC is the measure the Protocols use to decide when conditions are an emergency:
 
 The full ladder is: Watch below 3,000 MW (when a Watch is issued for PRC below 3,000 MW, QSEs suspend ongoing ERCOT-required Resource performance testing); Level 1 below 2,500 MW, with steps taken to keep PRC above 2,000 MW; Level 2 below 2,000 MW and not projected to recover within 30 minutes; and Level 3 when PRC cannot be maintained above 1,500 MW. [e20][e9][e19][e21][e22] Frequency can trigger levels too: Level 2 may be declared at clock-minute average frequency below 59.91 Hz for 15 consecutive minutes, and Level 3 at the same frequency for 20 minutes or at steady-state frequency below 59.8 Hz. [e21][e22]
 
-When the emergency passes, ERCOT restores SCED's normal post-contingency limits only after PRC is back to at least 3,000 MW or the Emergency Condition has ended, whichever is later, and ERCOT judges the chance of re-entering Level 2 or 3 to be low. [e23]
+During EEA Level 2 or 3, for constraints for which ERCOT used the 15-Minute Rating in SCED, ERCOT restores control of post-contingency flow to within the Emergency Rating only after PRC is back to at least 3,000 MW or the Emergency Condition has ended, whichever is later, and ERCOT has determined the chance of re-entering Level 2 or 3 is low. [e23]
 
 The same numbers shape planning. ERCOT's AS Methodology effective 1 January 2026 sizes ECRS and Non-Spin so that there is a 1 in 10-year probability of reserves dropping below the sum of procured Reg-Up and RRS or the Watch threshold (PRC = 3,000 MW), whichever is higher. [e24] For 2027 ERCOT staff proposed moving the target reserve level from avoiding a Watch (3,000 MW) toward avoiding EEA1 (2,500 MW), as presented to the Board in September 2026. [e25] The ASDC disaggregation defines a Minimum Contingency Level of 3,000 MW. [e26] The MORA uses CAFOR thresholds of 2,500 and 1,500 MW as proxies for the PRC thresholds, because PRC is a real-time measure that is hard to forecast months ahead. [e27]
 
-The IMM, in an August 2026 presentation to TAC, summarised arguments ERCOT has made against PRC as a reliability metric, and itself notes that PRC includes capacity from out-of-market reliability actions. [e33][e32]
+The IMM, in an August 2026 presentation to TAC, describes PRC as measuring the instantaneous volume of reserves available to the grid in the event of a contingency, and lists arguments ERCOT has made for why PRC is not a sufficient measure of reliability, one of which is that PRC includes capacity from out-of-market reliability actions. [e33][e32] These are ERCOT's arguments as summarised by the IMM, not the IMM's own finding.
 
 ## Key facts
 

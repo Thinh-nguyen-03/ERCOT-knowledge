@@ -35,7 +35,7 @@ links:
     note: The Supreme Court of Texas held the orders were authorized by PURA Section 39.151 and that deciding when competition must yield is the Commission's job. [e60][e61]
   - to: rtc-b
     type: related
-    note: The 2021 AS failure-to-provide fix had been left to the RTC era when NPRR947 was withdrawn in 2020. [e52]
+    note: In its March 2021 AS order the PUCT noted that the withdrawal request for NPRR947 said existing processes for charging QSEs for failed AS supply responsibility could remain in place until implementation of real-time co-optimization. [e52]
 evidence:
   - id: e1
     source: puct-51617-order-1

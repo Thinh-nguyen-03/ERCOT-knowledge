@@ -216,6 +216,10 @@ evidence:
     source: np-22k
     locator: "Section 22 Attachment K, Declaration of Natural Gas Pipeline Coordination (effective February 1, 2026), item (3)"
     quote: "If a natural gas pipeline operator responded to the Resource Entity's documented effort to coordinate and disclose activities or conditions materially increasing the risk of Generation Resource unavailability in the summer Peak Load Season, please disclose the following information:"
+  - id: e46
+    source: np-03
+    locator: "Section 3.21(1), Submission of Declarations of Natural Gas Pipeline Coordination"
+    quote: "each Resource Entity representing one or more Generation Resources subject to P.U.C. SUBST. R. 25.55 that uses natural gas as its primary fuel shall submit to ERCOT the declaration in Section 22, Attachment K, Declaration of Natural Gas Pipeline Coordination, stating that the Resource Entity or its Qualified Scheduling Entity (QSE) made a documented effort to communicate with the operator of each natural gas pipeline directly connected to its Generation Resource to coordinate regarding potential impacts to the Generation Resource’s availability during the summer Peak Load Season of that year."
 ---
 
 ## Definition

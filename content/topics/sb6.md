@@ -26,10 +26,10 @@ links:
     note: The December 2025 CDR calls SB 6 the most impactful resource adequacy development since May 2025. [e19]
   - to: load-shed
     type: related
-    note: SB 6 requires new transmission-voltage loads to be curtailable during firm load shed, and backup-generation deployments count as firm load shed in reliability price adjustments. [e8][e28]
+    note: SB 6 requires new transmission-voltage loads to be curtailable during firm load shed, and backup-generation deployments count as firm load shed in reliability price adjustments. [e8][e29]
   - to: prc
     type: related
-    note: ERCOT must include LLDMS and §37.0561(e) deployments when calculating price adjustments for reliability deployments. [e28][e31]
+    note: ERCOT must include LLDMS and §37.0561(e) deployments when calculating price adjustments for reliability deployments. [e29][e31]
   - to: reliability-standard
     type: affects
     note: ERCOT excludes load curtailable under PURA 37.0561(e) and 39.169 from the winter peak it gives TOs for the magnitude criterion. [e42]
@@ -155,7 +155,7 @@ evidence:
     quote: "The independent organization shall include a deployment under this section as firm load shed when calculating any price adjustments for reliability deployments."
   - id: e30
     source: sb6-89r
-    locator: "SB 6 Section 4, PURA §39.169(d)-(e)"
+    locator: "SB 6 Section 4, PURA §39.169(d)"
     quote: "The independent organization must complete the study and submit the results to the commission with any associated recommendations not later than the 120th day after the independent organization receives all required information regarding the arrangement. Not later than the 60th day after the date the commission receives the study results from the independent organization, the commission shall approve, deny, or impose reasonable conditions on the proposed net metering arrangement as necessary to maintain system reliability, including transmission security and resource adequacy impacts."
   - id: e31
     source: sb6-89r
@@ -261,6 +261,10 @@ evidence:
     source: ercot-ltlf-good-cause-2026-11
     locator: "ERCOT Motion for Good Cause Exception Regarding 2027 Magnitude (November 6, 2026), footnote 2"
     quote: "These Large Load MW were excluded based on the understanding that any such load would already be curtailed prior to engagement of TOs' load shed rotation programs, which would be engaged only during a Level 3 Energy Emergency Alert (EEA3)."
+  - id: e57
+    source: sb6-89r
+    locator: "SB 6 Section 4, PURA §39.169(b)"
+    quote: "(b) This section does not apply to a generation resource: (1) the registration for which included a co-located large load customer at the time of energization, regardless of whether the load was energized at a later date; or (2) a majority interest of which is owned indirectly or directly as of January 1, 2025, by a parent company of the customer that participates in the new net metering arrangement."
 ---
 
 ## Definition
@@ -275,7 +279,7 @@ SB 6 is the 2025 Texas law (89th Legislature) on the planning, interconnection, 
 
 **Curtailment in firm load shed (§39.170(a)).** Each utility serving a transmission-voltage customer must have a protocol, with any needed equipment, that lets the load be curtailed during firm load shed. This applies only to loads interconnected after December 31, 2025, and not to critical load industrial customers or designated critical natural gas facilities. [e8]
 
-**Co-location with existing generation (§39.169).** Before netting a new large load against a generator that was registered as stand-alone on September 1, 2025, the generation owner must notify ERCOT. [e7] ERCOT then has 120 days, after receiving all required information, to study the arrangement; the PUCT has 60 days after that to approve, deny or condition it. [e30] If the PUCT misses that deadline, the arrangement is considered approved. [e33] Any conditions must require a generator that supplied dispatchable capacity before the deal to keep supplying at least that much, at ERCOT's direction, ahead of an anticipated emergency. [e32]
+**Co-location with existing generation (§39.169).** Before netting a new large load against a generator that was registered as stand-alone on September 1, 2025, the generation owner must notify ERCOT. [e7] The section does not apply to a generator whose registration already included a co-located large load at energization, or one majority-owned as of January 1, 2025 by a parent company of the load customer. [e57] ERCOT then has 120 days, after receiving all required information, to study the arrangement; the PUCT has 60 days after that to approve, deny or condition it. [e30] If the PUCT misses that deadline, the arrangement is considered approved. [e33] Any conditions must require a generator that supplied dispatchable capacity before the deal to keep supplying at least that much, at ERCOT's direction, ahead of an anticipated emergency. [e32]
 
 **A new demand-reduction service (§39.170(b)-(c)).** ERCOT must develop a reliability service that competitively procures demand reductions from loads of 75 MW or more, for use in an anticipated emergency. [e9] The rules must give at least 24 hours' notice, keep the load curtailed for the EEA or until it can be safely recalled, and bar loads that curtail in response to wholesale prices or that are in another reliability or ancillary service; deployments count in reliability price adjustments. [e31]
 
@@ -283,7 +287,7 @@ SB 6 is the 2025 Texas law (89th Legislature) on the planning, interconnection, 
 
 ## ERCOT context
 
-The December 2025 CDR calls SB 6 the most impactful resource adequacy development since the May 2025 CDR. [e19] ERCOT told the Senate in July 2026 that it and the PUCT are carrying out the directive that large loads added at existing generators must not stop ERCOT from using those generators in emergencies. [e18] ERCOT added that the arrangement applies only where the generation resource existed before September 1, 2025. [e51] ERCOT is also building a Large Load Curtailment Manager, a control-room system whose first phase handles SB 6 net-metered facilities. [e22] SB 6 curtailment is already showing up in planning: for the reliability standard's magnitude value, ERCOT has given TOs a winter peak that excludes load curtailable under §§37.0561(e) and 39.169, on the understanding that such load would be curtailed before rotating outages, which begin only in EEA3. [e42][e56]
+The December 2025 CDR calls SB 6 the most impactful resource adequacy development since the May 2025 CDR. [e19] ERCOT told the Senate in July 2026 that it and the PUCT are carrying out the directive that large loads added at existing generators must not stop ERCOT from using those generators in emergencies. [e18] ERCOT added that the arrangement applies only where the generation resource existed before September 1, 2025. [e51] ERCOT is also building a Large Load Curtailment Manager, a control-room system whose first phase handles SB 6 net-metered facilities. [e22] SB 6 curtailment is already showing up in planning: for the reliability standard's magnitude value, ERCOT has previously given TOs a winter peak that excludes load curtailable under §§37.0561(e) and 39.169, on the understanding that such load would be curtailed before rotating outages, which begin only in EEA3. [e42][e56]
 
 Implementation status differs by piece in the saved sources; the IMM's 2025 report expected the LLDMS rulemaking to finish sometime in 2026. [e20]
 - Decided: §25.370 large load forecasting, adopted and effective March 1, 2026. It bars large loads from ERCOT's planning and resource adequacy forecasts without an executed §25.194 interconnection agreement. [e16][e40]
