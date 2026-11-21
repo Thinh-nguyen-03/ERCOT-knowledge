@@ -327,6 +327,38 @@ evidence:
     source: np-16
     locator: "Section 16.11.7 (pending NPRR1023 box, Section 16.11.8 insert; not yet in effect)"
     quote: "ERCOT may at its sole discretion initiate conversion of letters of credit, or surety bonds held as Financial Security to cash collateral."
+  - id: e73
+    source: np-16
+    locator: "Section 16.11.4.1, paragraph (2), variable table, EAL(q)"
+    quote: "Estimated Aggregate Liability for all QSEs that represents Load or generation—EAL for all QSEs represented by the Counter-Party if at least one QSE represented by the Counter-Party represents either Load or generation."
+  - id: e74
+    source: np-16
+    locator: "Section 16.11.4.1, paragraph (2), variable table, EAL(t)"
+    quote: "Estimated Aggregate Liability for all QSEs —EAL for all QSEs represented by the Counter-Party if none of the QSEs represented by the Counter-Party represent either Load or generation."
+  - id: e75
+    source: np-16
+    locator: "Section 16.11.4.1, paragraph (2), variable table, EAL(a)"
+    quote: "Estimated Aggregate Liability for all CRR Account Holders—EAL for all CRR Account Holders represented by the Counter-Party."
+  - id: e76
+    source: np-16
+    locator: "Section 16.11.4.1, paragraph (2), variable table, TOA"
+    quote: "Trade-Only Activity—Counter-Party that does not represent either a Load or a generation QSE. Set to “0” if Counter-Party represents a QSE that has an association with a Load Serving Entity (LSE) or a Resource Entity, or if Counter-Party does not represent any QSE; otherwise set to 1."
+  - id: e77
+    source: np-16
+    locator: "Section 16.11.4.5, paragraph (1), variable table, FCE"
+    quote: "Future Credit Exposure for all CRRs held by all CRR Account Holders represented by the Counter-Party."
+  - id: e78
+    source: np-04
+    locator: "Section 4.4.10, paragraph (6)(d)(i), PTP Obligation bids"
+    quote: "(d) For PTP Obligation Bids: (i) That have a bid price greater than zero, the sum of the quantity of the bid multiplied by the bid price, plus the u^(th) percentile of the hourly positive price difference between the source Real-Time Settlement Point Price minus the sink Real-Time Settlement Point Price over the previous 30 days multiplied by the quantity of the bid."
+  - id: e79
+    source: np-16
+    locator: "Section 16.11.4.5, paragraph (2), FCEOBL equation"
+    quote: "FCEOBL _(a) = ∑_(m) [(∑_(h) ∑_(j, k) NAOBLMW _(m, h, (j, k))) * (-Min(0, PWA _(ci100, m), PWACP _(m)))]"
+  - id: e80
+    source: imm-som-2023
+    locator: "page 73 (OCR), Day-Ahead Market Performance, collateral requirements, 2022 increase"
+    quote: "This continued the year-over-year increasing trend that was observed in 2022, during which the market experienced a 26.7% increase relative to 2021."
 ---
 
 ## Definition
@@ -345,7 +377,7 @@ ERCOT requires each Counter-Party, meaning an Entity that is a QSE and/or a CRR 
 
 A pending change (NPRR1023, to take effect upon system implementation) would add a Section 16.11.8 under which ERCOT may at its sole discretion initiate conversion of letters of credit or surety bonds held as Financial Security to cash collateral. [e71]
 
-**After termination.** ERCOT retains Financial Security for potential future obligations of a terminated Market Participant, set at the larger of its TPE or $5,000. [e54] On termination all sums owed to ERCOT are accelerated and ERCOT may draw on Financial Security to offset them. [e55]
+**After termination.** ERCOT retains Financial Security for potential future obligations of a terminated Market Participant, set at the larger of its TPE or $5,000 (NPRR1023 has a pending replacement paragraph that keeps that amount but adds an exception for another paragraph). [e54] On termination all sums owed to ERCOT are accelerated and ERCOT may draw on Financial Security to offset them. [e55]
 
 ## Formula
 
@@ -353,34 +385,34 @@ A pending change (NPRR1023, to take effect upon system implementation) would add
 
 `TPEA = Max [0, MCE, Max [0, ((1-TOA) * EAL_q + TOA * EAL_t + EAL_a)]] + PUL` and `TPES = Max [0, FCE_a] + IA` [e15]
 
-- EAL is Estimated Aggregate Liability, with separate terms for QSEs that represent Load or generation (q), QSEs that represent neither (t, trade-only) and CRR Account Holders (a); TOA is the Trade-Only Activity switch. [e15]
+- EAL is Estimated Aggregate Liability, with separate terms for QSEs where at least one represents Load or generation (q), QSEs where none represents Load or generation (t) and CRR Account Holders (a). [e73][e74][e75] TOA is the Trade-Only Activity switch, set to 0 if the Counter-Party represents a QSE associated with an LSE or Resource Entity (or no QSE) and otherwise 1. [e76]
 - PUL is potential uplift: amounts expected to be uplifted within a year, plus the lesser of 25% of amounts expected beyond a year or five years' worth of uplift charges. [e16]
-- MCE is the Minimum Current Exposure floor, with an initial value IMCE = TOA * (DASWCAP * nm * cif%); the parameter table lists nm = 50 and cif = 9%. [e18][e17]
-- FCE is Future Credit Exposure for CRRs, and IA is the Independent Amount. [e3]
+- MCE enters the TPEA formula as a floor; the saved text defines it with a longer equation not reproduced here, one of whose terms is the Initial Minimum Current Exposure, IMCE = TOA * (DASWCAP * nm * cif%). The parameter table lists nm = 50 and cif = 9%. [e15][e18][e17] (NPRR1188 has a pending replacement for the MCE variable; see Open items.)
+- FCE is Future Credit Exposure for all CRRs held by the CRR Account Holders the Counter-Party represents, and IA is the Independent Amount. [e77][e3]
 
-**EAL for a QSE with Load or generation.** The Protocols' equation takes the Initial Estimated Liability for the first 40 days of market activity, otherwise the larger of the highest Real-Time Liability Extrapolated over a look-back (scaled by RFAF) and Real-Time Liability Forward, plus DFAF times the Day-Ahead Liability Extrapolated, plus the larger of the Real-Time Liability Completed and Not Settled and the highest Unbilled Real-Time Amount, plus Outstanding Unpaid Transactions and Incremental Load Exposure. [e20] RTLE is the multiplier M1 times the net amount due to or from ERCOT over the 14 most recent Operating Days with RTM Initial Statements, divided by 14; DALE is the same idea over seven DAM statement days. [e21][e22]
+**EAL for a QSE with Load or generation.** The Protocols' equation is the larger of (i) the Initial Estimated Liability, a term that applies only during the first 40-day period beginning when the Counter-Party commences activity in ERCOT markets, and (ii) the sum of: the larger of the highest RFAF times Real-Time Liability Extrapolated over a look-back and Real-Time Liability Forward; DFAF times the Day-Ahead Liability Extrapolated; the larger of the Real-Time Liability Completed and Not Settled and the highest Unbilled Real-Time Amount over a look-back; Outstanding Unpaid Transactions; and Incremental Load Exposure. [e20] RTLE is the multiplier M1 times the net amount due to or from ERCOT over the 14 most recent Operating Days with RTM Initial Statements, divided by 14; DALE is the same idea over seven DAM statement days. [e21][e22]
 
 **Initial Estimated Liability.** For a Counter-Party whose QSEs represent only Load, IEL = DEL * Max[0.2, RTEFL] * RTAEP * (M1 + M2), where RTAEP is the previous seven days' average Real-Time price at ERCOT 345 (Hub Average 345 kV). [e23][e24]
 
 **Forward adjustment.** ERCOT uses electricity futures prices to adjust TPEA: RFAF = PRFAP/HRSAP and DFAF = PDFAP/HDSAP, ratios of projected forward average prices to historic settled average prices. [e27][e28]
 
-**FCE.** FCE = FCEOBL + FCEOPT, the future credit exposure of the CRR Account Holders' PTP Obligations and PTP Options. [e25] The PTP Obligation component uses the portfolio weighted adder, the 100th percentile of a volume-weighted rolling DAM settled price over a product-specific period. [e26]
+**FCE.** FCE = FCEOBL + FCEOPT, the future credit exposure of the PTP Obligations and PTP Options held by the CRR Account Holders. [e25] The PTP Obligation component, FCEOBL, is calculated using the portfolio weighted adder (PWA), the 100th percentile of a volume-weighted rolling DAM settled price over a product-specific period. [e79][e26]
 
 **Available credit limits.** ACLC (CRR auction) = max(0, secured Financial Security - (1+ACLIRF)*TPES - net positive exposure of approved CRR bilateral trades - max(0, (1+ACLIRF)*TPEA)). [e29] ACLD (DAM) = max(0, Remainder Collateral - ACLIRF*TPES - (1+ACLIRF)*TPEA). [e30] The parameter table shows ACLIRF at 10%. [e31]
 
 ## Example
 
-Suppose a Counter-Party has TPEA of $4 million, TPES of $10 million, no CRR bilateral trades or locked auction limit, and posts $15 million of Financial Security. Remainder Collateral is $15 million - $10 million = $5 million, which exceeds TPEA of $4 million, so it meets both requirements under paragraph (2). Its ACLD would be max(0, $5 million - 0.10 x $10 million - 1.10 x $4 million) = max(0, $5 million - $1 million - $4.4 million) = $0, so it could not bid further in the DAM even though it is compliant. [e5][e12][e30][e31]
+Suppose a Counter-Party has TPEA of $4 million, TPES of $10 million, no CRR bilateral trades or locked auction limit, and posts $15 million of Financial Security. Remainder Collateral is $15 million - $10 million = $5 million, which exceeds TPEA of $4 million, so it meets both requirements under paragraph (2). Its ACLD would be max(0, $5 million - 0.10 x $10 million - 1.10 x $4 million) = max(0, $5 million - $1 million - $4.4 million) = $0, so its DAM credit limit would be $0 (the limit is ACLD, so bids with positive credit exposure could not be accepted) even though it is compliant. [e5][e12][e30][e31]
 
 ## ERCOT context
 
 Credit is tied directly to market access. Suspension of rights can include a CRR Account Holder's ability to bid on future CRRs or a QSE's ability to bid in the DAM. [e11] The DAM check works through the ACLD: ERCOT imposes a credit limit of the ACLD on each Counter-Party participating in the DAM, accepts bids and offers in the order submitted while exposure stays within that limit, rejects bids that exceed it, and sends a new limit daily. [e32][e36][e38][e33] A bid priced at or below zero gets a zero bid exposure price. [e39] ERCOT must re-examine DAM credit parameters immediately if a Counter-Party exceeds 90% of its ACL available to DAM. [e40] The FAQ notes that e-Factors affecting DAM bid exposure are calculated and set every two weeks. [e69] ERCOT posts the credit monitoring reports twice each Business Day. [e70]
 
-For CRRs, a Counter-Party's auction credit limit is the lesser of its ACLC-based limit and any self-imposed limit, and the auction system cannot award bids beyond it; PTP Option offers carry zero credit exposure in the pre-auction screening. [e34][e35][e37]
+For CRRs, the CRR Auction system prevents a CRR Account Holder from being awarded bids and offers beyond the lesser of its self-imposed credit limit and the limit prescribed in Section 16.11.4.6.1, under which the ACL locked for the CRR auction is the lower of the requested limit, ACLC at the close of the bid window, and the pre-auction screening exposure; PTP Option offers carry zero credit exposure in the pre-auction screening. [e34][e35][e37]
 
 The same Financial Security also backs other obligations: ERCOT may draw on it to pay short-paid Securitization Default Charge or Uplift Charge invoices if the escrow deposits are not enough, but Securitization Uplift Charge escrow cannot be used for short-pays of Securitization Default Charges. [e9][e56] Securitization Default Charge escrow is separately held at or above the Securitization Default Charge Credit Exposure. [e57]
 
-**What the IMM reports.** The IMM says collateral surged after Winter Storm Uri: short payments exceeded $3 billion, with several retail electric providers exiting the market and one electric cooperative seeking bankruptcy protection. [e60] Average daily collateral in 2022 was nearly 27% higher than 2020, and in 2023 about $7.7 billion, nearly 20% higher than 2022. [e65][e64] In 2024 the average fell 11% to about $6.85 billion, which the IMM largely attributes to NPRR 1112. [e59] In 2025 total collateral held was $6.86 billion, nearly unchanged from 2024, and TPE was almost the same; over 2024 and 2025 TPES has been the larger component, in years of low energy prices and high CRR participation. [e63][e62]
+**What the IMM reports.** The IMM says that ERCOT short payments (amounts owed but not paid) during Winter Storm Uri exceeded $3 billion, with several retail electric providers exiting the market and one electric cooperative seeking bankruptcy protection. [e60] The IMM's 2022 report says average daily collateral in 2022 was nearly 27% higher than 2020, while its 2023 report puts the 2022 increase at 26.7% relative to 2021 (the saved texts differ on the base year); the 2023 average was about $7.7 billion, nearly 20% higher than 2022. [e65][e80][e64] In 2024 the average fell 11% to about $6.85 billion, which the IMM largely attributes to NPRR 1112. [e59] In 2025 total collateral held was $6.86 billion, nearly unchanged from 2024, and TPE was almost the same; over 2024 and 2025 TPES has been the larger component, in years of low energy prices and high CRR participation. [e63][e62]
 
 ## Key facts
 
@@ -427,7 +459,7 @@ It is the ACLD: Remainder Collateral minus ACLIRF times TPES minus (1 + ACLIRF) 
 
 ### Why did collateral requirements rise after Winter Storm Uri, and why did they fall in 2024?
 
-The IMM ties the 2021 surge to the storm's price extremes and defaults, with short payments over $3 billion, and says 2022 and 2023 averages kept rising; in 2024 the average fell about 11%, which the IMM largely attributes to NPRR 1112, which stopped unsecured credit limits and guarantees counting as collateral. [e60][e65][e64][e59]
+The IMM reports short payments over $3 billion during the 2021 storm, and says average daily collateral rose in 2022 and again in 2023 (about 20% higher than 2022); in 2024 the average fell about 11%, which the IMM largely attributes to NPRR 1112, which stopped unsecured credit limits and guarantees counting as collateral. [e60][e65][e80][e64][e59]
 
 ### What if a QSE's late payments keep recurring?
 
