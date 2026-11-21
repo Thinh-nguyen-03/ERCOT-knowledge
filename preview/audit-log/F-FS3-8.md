@@ -1,0 +1,38 @@
+# Audit log F-FS3-8 (gtc, pcrr, ruc-make-whole)
+
+gtc | quotes: 36 | context-problems: 3 | statements: 31 | wrong: 2 | flags: 0 real, 11 false-alarm | guidance-problems: 1
+
+- A4 (Context #2, "Congestion by year"): text said the IMM reported "approximately 22% more GTC congestion in the real-time market than the prior year". The 2024 IMM context says this is 22% more GTC congestion in the real-time market than in the day-ahead market (the sentence follows "overall congestion was approximately 3% higher in the real-time market than in the day-ahead market"). Reworded to "than in the day-ahead market for 2024". WRONG.
+- A4 (How it works #1, Common confusion #1, Say it like this): "GTC limit is set ahead of the day, from studies" was stated flatly from the 2024 IMM (e29), but the 2023 IMM (e24) says certain GTC limits (East Texas, North to Houston, Rio Grande Valley Import, Panhandle) are determined in real time with VSAT/TSAT. Attributed e29 to the 2024 report, added the e24 counterpoint, removed "from studies". Common confusion was WRONG; guidance line fixed (guidance-problems 1).
+- A1 (How it works #3 / e15): statement says ERCOT posts "an explanation of why it did not post the previous day", but the quote e15 stopped before that sentence. Extended the quote to include "ERCOT shall include an explanation regarding why it did not post the GTC or modification on the previous day."
+- B (How it works #2): the inverter-data / "all GTC limits calculated in real time ... less congestion and curtailment" sentence was cited to e25, whose quote is the "Apart from the North to Houston..." sentence. Added e37 with the correct passage and re-cited.
+- B (ERCOT context #4): "NPRR 1230 ... created a process to increase the base-case shadow price cap" is not what e31 says (it says implemented to increase the shadow price cap on base-case constraints in response to IMM recommendation 2023-1). Reworded, attributed to the IMM.
+- Questions #8: added "In its 2023 report" to the IMM attribution (e25 is a 2023-report statement).
+- Not changed, noted: Table A4 row values as OCR'd do not sum to the printed 2022 total (the 14 listed rows add to about 6,609 hours against 6,355.9); the text only states the printed total and two rows, so left as quoted and labelled OCR. Flags: all 11 are years, "$5,251"-style repeats or section numbers ("3.10, 7.6", "765 kV") in locators or sentences, false alarms.
+
+pcrr | quotes: 53 | context-problems: 3 | statements: 31 | wrong: 3 | flags: 0 real, 1 false-alarm | guidance-problems: 1
+
+- A1 (How it works #4 / e22): "A Mothballed Generation Resource also keeps eligibility" omitted the next paragraph (7.4.1.2(2)(a)): the NOIE has no exclusive right to retain allocated PCRRs while the Resource is Mothballed. Added that sentence with new quote e57. WRONG (misleading by omission).
+- A4 (How it works #8 / e32): "The price a NOIE pays for an allocated PCRR is based on the CRR First Offering clearing price" is true only for the initial allocation; PCRRs added before Monthly Auctions are priced from the Monthly Auction (7.4.2.2(1)(d)). Narrowed to "PCRR allocated in the initial nomination process". WRONG.
+- A1 (How it works #2 / e19): DC Tie is eligible for contracts "that meet the requirements of paragraphs (b)(i)-(ii) and (iv)-(v)", not all contract tests (excludes (iii)). Reworded to the paragraph list.
+- B (Link to sc-crr-valuation, e31/e1): "so they come before the auction capacity is set" is not in either quote. Removed that clause. WRONG (unsupported inference).
+- B (Formula #1, PTP Option): definitions of PCRROPTF, OPTPR, PCRROPT appeared only in the variable table beside the quote e44. Added quotes e54-e56 and cited them; added PCRROPTF to the statement. Formula terms and the Obligation branch (positive: factor x price x MW; otherwise price x MW) checked term by term against 7.5.6.3 and are correct.
+- B (Common confusion #1): "unrelated to retail electric providers" overstated; reworded to NOIEs being the only eligible Entities.
+- C (Say it like this): "non-coal, non-nuclear" is not the Protocol wording (non-solid-fuel, non-combined-cycle), "small percentage" ignores 100% of a negative Obligation price, and the 2,300 MW capacity-option requirement was omitted. Rewritten using the Protocol wording; no new numbers.
+- Flag: Questions #14 "5%, 20%" is a false alarm (the sentence says the sources do not explain the percentages).
+- Noted, not changed: Open item already records the handbook (18 months ahead) vs Protocol (nomination year three years after) timing mismatch; statement cites the handbook only for window lengths and labels them "typical".
+
+ruc-make-whole | quotes: 55 | context-problems: 4 | statements: 16 | wrong: 3 | flags: 0 real, 2 false-alarm | guidance-problems: 2
+
+- A4 (ERCOT context #4 / e44): "The QSE or Resource Entity must purchase and nominate fuel to start and operate at LSL, unless ..." stated a general duty. 9.14.7(2)-(3) make it a condition of the Settlement dispute and only where the QSE or Resource Entity has an executed, enforceable pipeline transportation contract. Rewrote and added quote e60. WRONG.
+- A4 (How it works #6 / e34): the cap sentence was stated as fact, but the 5.7.4.1 formula as printed is Max[(share x total), (2 x shortfall x total / capacity)]/4, which reads as a floor, not a cap (the prose says cap; the topic's Open items already say unresolved). Added a pointer to Open items in the statement. WRONG (presented as settled).
+- A1 (How it works #3 / e29): quote ended at "limited to the lesser of:", yet the statement gives the two limits (normal startup expenses incurred before the event; the Startup Offer). Extended the quote with (a) and (b), and added that the Resource must be startup-eligible under 5.6.2 without criterion (2)(d). Also noted breaker tests are two of several criteria that must all be met.
+- A2 (ERCOT context #5 / e45): Verifiable Cost Manual edition saved is effective 2026-12-01, after the topic date. Statement now says so.
+- B (Formula #1): "The leading (-1) is the Protocols' sign convention for a payment to the QSE" is not in the source. Removed. WRONG (unsupported).
+- B (Formula #3): definitions of RUCMWAMTTOT, RUCCSAMTTOT and RUCCBAMTTOT were only in the variable table next to the quote. Added quotes e56-e58 and cited them (the make-whole total includes RMR Units).
+- B (ERCOT context #3 and Timeline): NPRR 1172 "filed by consumer stakeholder representatives in April 2023" was not in e52/e10; added quote e59 and attributed the filing and approval statements to the IMM.
+- B (rmr link): "make-whole, clawback, capacity-short and uplift amounts all include RMR Units" was not supported for uplift by e34/e22. Narrowed to capacity-short, the make-whole total it uses, and clawback.
+- Outside the packet list (existing text, edited because it contradicted the sources): Question "Why were make-whole payments so much higher in 2025" said the IMM "ties the increase" to more RUC and fewer opt-outs; the IMM says "partially explained". Fixed with new quote e61. Scenario bullet said NPRR 1172 "calls for" a 100% clawback; now attributed to the IMM 2024 report with a pointer to the conflicting 2025 description in Open items.
+- C (Example): invented dollar figures were not labelled as the knowledge base's own illustration; labelled. C (Say it like this): "spread across load" reworded to all QSEs by load ratio share.
+- Flags: ERCOT context #1 (9%, 8%, 34%, 24%, 23% appear in the cited table quotes as bare numbers) and #3 (2023, 2025 are years of the report/filing) are false alarms.
+- Noted, not changed: opt-out sentence in 5.5.2(21) reads "not a RMR Unit or has not received an OSA"; the topic reads it as "and" (neither). Ambiguous in the source; left as is.
