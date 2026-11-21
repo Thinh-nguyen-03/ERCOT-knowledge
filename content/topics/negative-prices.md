@@ -248,7 +248,7 @@ The Mitigated Offer Floor for wind is -$100/MWh and for PV -$50/MWh, and Step 2 
 
 ### What if the production tax credit ends for new wind and solar?
 
-Public Law 119-21 ends the 45Y credit for wind and solar facilities placed in service after December 31, 2027 (with its own construction-start rule), so the incentive the IMM cites for negative offers would not be available to those later facilities. [e24][e25][e8]
+Public Law 119-21 provides that the 45Y credit does not apply to wind and solar facilities placed in service after December 31, 2027, and says its amendments apply only to facilities whose construction begins more than 12 months after enactment, so the 45Y credit would not be available to facilities covered by that termination; the saved sources do not say how many existing resources that affects. The IMM cites federal production tax credits as the incentive behind negative offers. [e24][e25][e8]
 
 ### Why is the Hub price less negative than a West node?
 

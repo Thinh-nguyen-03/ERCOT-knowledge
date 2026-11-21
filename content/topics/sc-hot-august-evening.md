@@ -180,6 +180,10 @@ evidence:
     source: ercot-summer-2026-review
     locator: "Slide 5, Net Load with Energy Storage Resource (ESR) Contribution"
     quote: "12 of the top 20 Hourly Net Load Hours have been from 2026. The Peak Net Load typically occurs in HE 20:00 – 21:00 and occur most often during the Summer."
+  - id: e37
+    source: ercot-summer-2026-review
+    locator: "Slide 10, ESR SOC, Solar, and Wind Generation on Lowest SOC% Days, Key Takeaway"
+    quote: "Compared to last year SOC% was lower on raw percentage, however, since ESR MWh capacity is higher, this lower SOC% is not necessarily lower SOC MWh."
   - id: e36
     source: ercot-summer-2026-review
     locator: "Slide 16, Key Takeaway on AS prices"
@@ -192,9 +196,9 @@ This scenario is about why ERCOT real-time prices jump in the early evening as s
 
 ## How it works
 
-Start with net load, not load. The tightest hours have moved from the 4 to 5 p.m. load peak to the 7 to 9 p.m. net load peak, which is demand minus renewable output, because solar is ramping down then. [e2] In 2025 solar ran at only a 1.7% capacity factor in the net peak interval, while wind ran at 29.3%. [e3] ERCOT's summer 2026 review says 12 of the top 20 hourly net load hours on record came in 2026, the peak net load typically falls in HE 20-21, and the net load hour shifted from HE 21 to HE 22 in June and July. [e35][e4]
+Start with net load, not load. The tightest hours have moved from the 4 to 5 p.m. load peak to the 7 to 9 p.m. net load peak, which is demand minus renewable output, because solar is ramping down then. [e2] In 2025 solar ran at only a 1.7% capacity factor in the net peak interval, while wind ran at 29.3%. [e3] ERCOT's summer 2026 review says 12 of the top 20 hourly net load hours were from 2026 (the slide does not state the period ranked), the peak net load typically falls in HE 20-21, and the net load hour shifted from HE 21 to HE 22 in June and July. [e35][e4]
 
-Next, ask who serves the ramp. During the solar ramp-down SCED often dispatches quick-start gas plants or storage with high-priced offer curves, and the IMM calls the resulting spikes "frequent and predictable". [e5] ESRs are especially likely to set the price in the evening down-ramp. [e7] Storage is limited by what it has stored: in summer 2026 ERCOT reported that ESR state of charge running out in the evenings was a pattern all summer. [e8] SOC was usually highest between hours 12 and 20 and very low in some hours from late evening to sunrise, and on the lowest days of 2026 average SOC was 50% lower than on the lowest days of 2025. [e17][e28]
+Next, ask who serves the ramp. During the solar ramp-down SCED often dispatches quick-start gas plants or storage with high-priced offer curves, and the IMM calls the resulting spikes "frequent and predictable". [e5] ESRs are especially likely to set the price in the evening down-ramp. [e7] Storage is limited by what it has stored: in summer 2026 ERCOT reported that ESR state of charge running out in the evenings was a pattern all summer. [e8] SOC was usually highest between hours 12 and 20 and very low in some hours from late evening to sunrise, and on the lowest recorded days of 2026 (data through August 15) the SOC percentage averaged 50% lower than on the lowest days of 2025, although ERCOT notes that with more ESR MWh capacity a lower SOC% is not necessarily lower stored MWh. [e17][e28][e37]
 
 Then bring in reserves. Under RTC, the ORDC is no longer used; individual ASDCs set scarcity pricing and the value of reserves. [e9] These sloped curves define the penalty price when the market is short of reserves, in both day-ahead and real time. [e11] Because energy and reserves are co-optimized, the IMM says the energy price natively includes any shortage value the ASDCs produce. [e25] ERCOT's RTC example shows AS cost entering the LMP: a $30/MWh unit yields a $40/MWh LMP once $10/MWh of additional AS cost is added. [e10] In practice the IMM told TAC in August 2026 that shortage pricing via the ASDCs had been minimal since RTC began. [e26]
 
@@ -202,7 +206,7 @@ Finally, know the ceilings, which are not the same thing. The real-time offer ca
 
 ## Formula
 
-Highest System Lambda under RTC (np-22 Attachment P, December 5, 2025 version): Power Balance Penalty = effective VOLL + effective RTSWCAP + $4,052.01/MWh. [e23] With VOLL set to the DAM HCAP ($5,000/MWh) and RTSWCAP at $2,000/MWh, that is $5,000 + $2,000 + $4,052.01 = $11,052.01/MWh (arithmetic from the cited parameters; no saved source states the total). [e19][e20][e23]
+Highest System Lambda under RTC (np-22 Attachment P, December 5, 2025 version): Power Balance Penalty = effective VOLL + effective RTSWCAP + $4,052.01/MWh. [e23] Knowledge-base arithmetic, not a source figure: if the "effective VOLL" in Attachment P equals the VOLL that np-04 sets for the ASDCs (the DAM HCAP, $5,000/MWh) and the effective RTSWCAP is $2,000/MWh, the sum is $5,000 + $2,000 + $4,052.01 = $11,052.01/MWh. No saved source states the total or confirms that the two VOLL terms are the same value. [e19][e20][e23]
 
 Nodal price: LMP_EB = λ − Σ SF_EB × SP_line, where λ is System Lambda (the shadow price of power balance), SF_EB is the bus's shift factor on each line and SP_line is the line's shadow price. [e24]
 
@@ -224,10 +228,10 @@ Nodal price: LMP_EB = λ − Σ SF_EB × SP_line, where λ is System Lambda (the
 - Net load, not gross load, sets tightness. Load peaks around 4 to 5 p.m., but the tightest hours are 7 to 9 p.m. because solar is ramping down; in summer 2026 the net load hour moved to HE 22 in June and July. [e2][e4]
 - Solar is almost gone at the net peak (1.7% capacity factor in 2025) and wind only partly fills the gap (29.3%). [e3]
 - The units that cover the ramp are quick-start gas and batteries, often with high offer prices, so spikes are predictable. [e5][e7]
-- Batteries have limited energy. In summer 2026 their state of charge running out in the evenings was a pattern all summer, and the lowest-SOC days were 50% lower than in 2025. [e8][e17][e28]
+- Batteries have limited energy. In summer 2026 their state of charge running out in the evenings was a pattern all summer, and on the lowest-SOC days the SOC percentage was on average 50% lower than in 2025, which ERCOT says is not necessarily lower stored MWh because ESR capacity grew. [e8][e17][e28][e37]
 - Under RTC, scarcity pricing comes from the ASDCs, not the ORDC. The ASDCs define the penalty price when the market goes short of reserves, and the energy price carries that shortage value through co-optimization. [e9][e11][e25]
 - Watch which reserves are short. In summer 2026 Reg-Up, Reg-Down and RRS had no shortages, Non-Spin and ECRS met the plan in nearly all intervals, and most June Non-Spin shortfalls came in the late evening, with 40% of intervals in HE 22-23 affected. [e13]
-- Know the ceilings. Offers are capped at $2,000/MWh in real time, and ERCOT notes more ESR capacity was offered within $100/MWh of that lower cap in summer 2026; but the energy component of LMPs can go above $2,000 through the ASDCs, and System Lambda is capped by the Power Balance Penalty. [e20][e18][e22][e23]
+- Know the ceilings. Offers are capped at $2,000/MWh in real time, and ERCOT notes that a slightly higher proportion of ESR capacity was offered within $100/MWh of the cap in summer 2026 than in the two previous summers, largely because of the lower cap (based on 20:00 SCED snapshots); but the energy component of LMPs can go above $2,000 through the ASDCs, and System Lambda is capped by the Power Balance Penalty. [e20][e18][e22][e23]
 - Watch for emergency steps. If PRC falls below 2,500 MW and is not expected to recover within 30 minutes, ERCOT declares EEA Level 1, and QSEs must make their ESRs stop charging, with listed exceptions. [e30][e31]
 - (Reasoning) Then give a view: a spike is likely if the net load ramp is steep, batteries reach the net peak with little stored energy, and Non-Spin or ECRS look short. It is less likely if wind picks up in the evening.
 - Suppose (illustrative): gas is at $3/MMBtu. The IMM's spike threshold of 18 times the fuel price would be $54/MWh, so a jump from $40 to $200 easily counts as a spike. [e6]
@@ -257,9 +261,9 @@ Under RTC, scarcity pricing and the value of reserves are set by individual ASDC
 
 The offer cap limits offers, not prices. Under co-optimization the energy component of LMPs can exceed $2,000 because of the ASDCs, whose top prices are built on a VOLL equal to the DAM HCAP of $5,000/MWh. [e22][e19][e20] The Power Balance Penalty (VOLL plus RTSWCAP plus $4,052.01/MWh) sets the maximum System Lambda, and congestion can add to or subtract from that at a node. [e23][e24]
 
-### Why did ERCOT keep the day-ahead cap higher than the real-time cap?
+### Why is the day-ahead cap higher than the real-time cap?
 
-ERCOT says allowing higher energy bids in the DAM lets participants hedge more effectively when they expect real-time scarcity, because real-time LMPs can exceed $2,000. [e22] (Guidance) So a buyer worried about a hot evening can lock in day-ahead at prices above the real-time offer cap.
+In its September 2026 comments in PUCT Project 59550 (a party filing), ERCOT says allowing higher energy bids in the DAM lets participants hedge more effectively when they expect real-time scarcity, because real-time LMPs can exceed $2,000. [e22] (Guidance) So a buyer worried about a hot evening can lock in day-ahead at prices above the real-time offer cap.
 
 ### What role did demand response play at the July 2026 peak?
 

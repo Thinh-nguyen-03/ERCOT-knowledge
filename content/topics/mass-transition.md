@@ -210,6 +210,14 @@ evidence:
     source: rmg-07
     locator: "Section 7.11.1.1.1(3), Mass Transition Initiation"
     quote: "If a Mass Transition is initiated on a Business Day prior to a weekend or ERCOT holiday, the initial Mass Transition project coordination call will be scheduled for that Business Day."
+  - id: e37
+    source: np-15
+    locator: "Section 15.1.3.1(1)"
+    quote: "If an actual meter read cannot be obtained by the date requested in the 814_03 transaction, then the meter read may be estimated by the TDSP."
+  - id: e38
+    source: puct-25-43
+    locator: "16 TAC 25.43(l)(1), Mass transition of customers to POLR providers"
+    quote: "ERCOT must use the VREP list to assign ESI IDs to the VREPs in a non-discriminatory manner, before assigning customers to the LSPs."
 ---
 
 ## Definition
@@ -230,7 +238,7 @@ Customer data. Every CR must give ERCOT current customer billing contact informa
 
 ## ERCOT context
 
-Triggers. ERCOT initiates a mass transition of an LSE's ESI IDs when an Emergency QSE that is an LSE fails, within the allotted time, to designate a QSE or fulfill QSE registration and qualification requirements [e10][e6], and also, where a breaching Market Participant is also an LSE, on revocation of some or all of its rights or termination of its agreements, on notice to the Market Participant and the PUCT and without the need for a PUCT order. [e11][e7] The PUCT's POLR rule separately lists events requiring ERCOT to initiate a mass transition of all of a REP's customers, among them termination of the REP's LSE or QSE Agreement with ERCOT and a commission order recognizing the REP is in default under the TDU Tariff for Retail Delivery Service. [e14] ERCOT may also adjust the credit exposure of Counter-Parties for QSEs that are POLRs to reflect the load they would take on. [e8]
+Triggers. ERCOT initiates a mass transition of an LSE's ESI IDs when an Emergency QSE that is an LSE fails, within the allotted time, to designate a QSE or fulfill QSE registration and qualification requirements [e10][e6], and also, where a breaching Market Participant is also an LSE, on revocation of some or all of its rights or termination of its agreements, on notice to the Market Participant and the PUCT and without the need for a PUCT order. [e11][e7] The PUCT's POLR rule separately lists events requiring ERCOT to initiate a mass transition of all of a REP's customers, among them termination of the REP's LSE or QSE Agreement with ERCOT and a commission order recognizing the REP is in default under the TDU Tariff for Retail Delivery Service. [e14] Where a Mass Transition is necessitated by the default of a Counter-Party representing a QSE associated with an LSE, ERCOT may also adjust the TPE of Counter-Parties representing QSEs that are qualified as POLRs to reflect the estimated Incremental Load Exposure (ILE) from the Mass Transition. [e8]
 
 Who receives the ESI IDs. The PUCT rule has ERCOT transfer customers first to VREPs, up to the number of ESI IDs each VREP has offered to serve for each class in the POLR area. [e30] The polr topic covers how remaining ESI IDs go to LSPs. For opt-in MOUs and ECs without an affiliated POLR that have not delegated POLR designation to the PUCT, the Retail Market Guide requires the MOU or EC to give ERCOT its own POLR allocation methodology no later than 30 days before its Customer Choice opt-in date. [e32]
 
@@ -250,7 +258,7 @@ Real case: Griddy. ERCOT's market notice says it revoked all rights of Griddy En
 - Calendar Day 0 is the day ERCOT sends the 814_03; the Mass Transition Date is Day 0 plus two days. [e12]
 - ERCOT monitors transitioned ESI IDs for up to 60 days from the Mass Transition Date. [e5]
 - Where a breaching Market Participant is also an LSE, ERCOT can initiate one without a PUCT order on revocation of its rights or termination of its agreements. [e11][e7]
-- Customers go first to VREPs, then to LSPs. [e30]
+- Customers go first to VREPs, then to LSPs. [e30][e38]
 - Griddy 2021: about 10,127 ESI IDs in the ERCOT notice, 9,926 customers in the PUCT order. [e22][e23]
 
 ## Say it like this
@@ -273,7 +281,7 @@ A Provider of Last Resort or a designated CR. [e1] Under the PUCT rule, VREPs ar
 
 ### Why is the meter read set two days after ERCOT starts?
 
-The Protocols fix it: the 814_03 requests a meter read two days after initiation, and that date becomes the transition date at which responsibility passes. [e3][e12] The TDSP may estimate the read if an actual read cannot be obtained by that date. [e34]
+The Protocols fix it: the 814_03 requests a meter read two days after initiation, and the Retail Market Guide says POLRs are responsible for the ESI IDs no earlier than the resulting Mass Transition Date. [e3][e12] The Protocols let the TDSP estimate the read if an actual read cannot be obtained by the requested date. [e37]
 
 ### What if a customer had already asked to switch to another REP before the transition?
 

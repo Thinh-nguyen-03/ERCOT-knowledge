@@ -29,7 +29,7 @@ links:
     note: PURA directs the PUCT to write the registration rules and criteria. [e1][e3]
   - to: clr
     type: related
-    note: Many crypto-mining LFLs have registered as CLRs, though many deregistered in 2025; a Large Load can also be registered as a Provisional CLR. [e15][e38][e37]
+    note: The IMM says a substantial percentage of LFL capacity has been registered as Load Resources, and that in 2025 many cryptocurrency mining facilities deregistered as CLRs; the Protocols define a Provisional CLR as a CLR that must keep its registration until exit or de-registration criteria are met. [e38][e34][e37]
   - to: four-cp
     type: related
     note: The IMM says LFLs use 4CP response and, in its view, are well positioned to game the 4CP method. [e14][e21]
@@ -186,6 +186,10 @@ evidence:
     source: imm-som-2024
     locator: "Executive summary, load growth (IMM 2024)"
     quote: "existing cryptocurrency mining enterprises may convert to conventional data center operations if cryptocurrency prices decline or electricity prices rise. This shift would reduce the system’s demand-side flexibility and increase the need for generation to maintain reliability."
+  - id: e34
+    source: imm-som-2025
+    locator: "Controllable Load Resources, page 29"
+    quote: "The primary explanation is that many cryptocurrency mining facilities deregistered as CLRs."
 ---
 
 ## Definition
@@ -202,13 +206,13 @@ How LFLs behave. The IMM's 2024 report describes LFLs as typically tens to hundr
 
 ## ERCOT context
 
-The IMM's 2025 report says aggregate crypto-currency mining demand was about 4,600 MW in 2025, and that by the end of 2025 such operations accounted for more than half of all ERS capacity. [e7][e8] Its 2024 report counted LFL capacity of more than 2,000 MW by spring 2023 and over 3,600 MW of non-coincident demand (more than 3,200 MW simultaneous) by the end of 2024. [e16] As of end-2024, the IMM reports approximately 30% of LFLs co-located with generation, more than half of capacity in the West load zone, and a substantial but varying percentage registered as Load Resources. [e17][e18][e38] The IMM's 2024 data show LFLs reducing consumption by as much as 75% when system lambda exceeds $1,000 per MWh. [e19] The IMM says that for 2024 ERCOT estimated about 2,500 MW of load reduction during 4CP intervals, roughly 1,000 MW less than in 2023. [e20]
+The IMM's 2025 report says aggregate crypto-currency mining demand was about 4,600 MW in 2025, and that by the end of 2025 such operations accounted for more than half of all ERS capacity. [e7][e8] Its 2024 report counted LFL capacity of more than 2,000 MW by spring 2023 and over 3,600 MW of non-coincident demand (more than 3,200 MW simultaneous) by the end of 2024. [e16] As of end-2024, the IMM reports approximately 30% of LFLs co-located with generation, more than half of capacity in the West load zone, and a substantial but varying percentage registered as Load Resources. [e17][e18][e38] The IMM's 2024 report says its data indicate LFLs reduce consumption by as much as 75% when system lambda exceeds $1,000 per MWh. [e19] The IMM says that for 2024 ERCOT estimated about 2,500 MW of load reduction during 4CP intervals, roughly 1,000 MW less than in 2023. [e20]
 
-Registered or not. The IMM's 2023 report called unregistered flexible loads, often behind the meter and price-responsive outside SCED, a significant concern and recommended incentives for them to register. [e26] In 2025 the IMM reports that although maximum crypto load grew by more than 900 MW from 2024 to 2025, many mines deregistered as CLRs and moved to ERS. [e30][e5] The IMM calls the ERS migration problematic, since ex-CLRs are no longer price-responsive in SCED and, in its view, ERS pays mines to do what they would do anyway; it recommends changing ERS eligibility or performance criteria. [e23][e24] The IMM also says price-based curtailment outside SCED is not captured by economic dispatch, so ERCOT has needed additional reserves, and it recommends encouraging flexible loads to register as CLRs. [e22] Crypto's share of ERS was almost 56% when ERCOT began reporting in summer 2025. [e25]
+Registered or not. The IMM's 2023 report called unregistered flexible loads, often behind the meter and price-responsive outside SCED, a significant concern and recommended incentives for them to register. [e26] In 2025 the IMM reports that although maximum crypto load grew by more than 900 MW from 2024 to 2025, many mines deregistered as CLRs [e34] and moved to ERS. [e30][e23] The IMM calls the ERS migration problematic, since ex-CLRs are no longer price-responsive in SCED and, in its view, ERS pays mines to do what they would do anyway; it recommends changing ERS eligibility or performance criteria. [e23][e24] The IMM also says price-based curtailment outside SCED is not captured by economic dispatch, so ERCOT has needed additional reserves, and it recommends encouraging flexible loads to register as CLRs. [e22] Crypto's share of ERS was almost 56% when ERCOT began reporting in summer 2025. [e25]
 
 On 4CP, the IMM's 2024 report says the growth of LFLs, most located in West Texas, worsens the misalignment of the 4CP transmission cost method, and that these customers are well positioned to game it by curtailing when they anticipate a coincident peak. [e21] That is the IMM's characterization.
 
-Forecasting. ERCOT's long-term load forecast treats large flexible loads as one of its major components: five in the IMM's 2025 description (base economic, LFLs, EV, rooftop PV, large loads), and six in the IMM's 2024 description (adding contracted large industrial loads and officer letter loads). [e6][e27] The IMM's 2025 report says that since 16 TAC §25.370 large loads are included in the forecast based on development milestones, replacing the earlier method that included loads with a signed interconnection agreement or an officer letter. [e28] ERCOT's December 2025 CDR includes a Large Flexible Loads forecast among the components of Total Load. [e29]
+Forecasting. ERCOT's long-term load forecast treats large flexible loads as one of its major components: five in the IMM's 2025 description (base economic, LFLs, EV, rooftop PV, large loads), and six in the IMM's 2024 description (base economic, LFLs, EV, rooftop PV, contracted large industrial loads and officer letter loads, with no separate large loads component). [e6][e27] The IMM's 2025 report says that since 16 TAC §25.370 large loads are included in the forecast based on development milestones, replacing the earlier method that included loads with a signed interconnection agreement or an officer letter. [e28] ERCOT's December 2025 CDR includes a Large Flexible Loads forecast among the components of Total Load. [e29]
 
 ## Key facts
 
@@ -218,7 +222,7 @@ Forecasting. ERCOT's long-term load forecast treats large flexible loads as one 
 - A Large Computational Load is a Large Load that is at least 50% computational power-electronic load. [e5]
 - 2025: crypto-currency mining demand about 4,600 MW (IMM). [e7]
 - End of 2024: over 3,600 MW non-coincident and more than 3,200 MW simultaneous LFL demand (IMM). [e16]
-- LFLs reduce consumption by as much as 75% when system lambda exceeds $1,000 per MWh (IMM, 2022-2024 data). [e19]
+- LFLs reduce consumption by as much as 75% when system lambda exceeds $1,000 per MWh (IMM, 2024 report). [e19]
 
 ## Say it like this
 

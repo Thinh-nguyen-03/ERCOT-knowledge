@@ -29,7 +29,7 @@ links:
     note: The IMM files comments on revision requests, such as its February 2026 qualified support for NPRR1309. [e3][e27]
   - to: drrs
     type: related
-    note: The IMM wants DRRS kept as a reserve product, not a resource adequacy tool, and opposes it if it adds to excessive reserve procurement. [e27][e28]
+    note: The IMM wants DRRS kept as a reserve product, not a resource adequacy tool, and opposes it if it adds to excessive reserve procurement. [e35][e27][e28]
   - to: pcm
     type: related
     note: PURA gives the market monitor evaluation and investigation duties in any capacity-credit program, and the IMM estimated the PCM's net cost at about $1 billion a year in the short term. [e24][e25][e26]
@@ -176,6 +176,14 @@ evidence:
     source: imm-som-2010
     locator: "2010 State of the Market Report, Executive Summary, Introduction"
     quote: "This report reviews and evaluates the outcomes of the ERCOT wholesale electricity markets in 2010, and is submitted to the Public Utility Commission of Texas (\"PUCT\") and the Electric Reliability Council of Texas (\"ERCOT\") pursuant to the requirement in Section 39.1515(h) of the Public Utility Regulatory Act."
+  - id: e35
+    source: imm-nprr1309-comments-2026-02
+    locator: "IMM comments on NPRR1309 (February 3, 2026), introduction, outline of the comments"
+    quote: "that we are in favor of keeping DRRS a reserve product and not an explicit tool for resource adequacy"
+  - id: e36
+    source: puct-25-365
+    locator: "16 TAC §25.365(e)(2), Authority of the IMM"
+    quote: "The IMM has the authority to question a market participant about activities that may violate commission rules or ERCOT protocols or may be potential market manipulations."
 ---
 
 ## Definition
@@ -213,7 +221,7 @@ On competition, the IMM's 2025 report found the share of top-quartile net load h
 ## Timeline
 
 - September 1, 2005: PURA §39.1515 (wholesale electric market monitor) took effect, added by S.B. 408. [e19]
-- 2010: the IMM's State of the Market report was submitted under PURA §39.1515(h). [e34]
+- 2010 (report year): the IMM's 2010 State of the Market report, covering 2010 market outcomes, was submitted to the PUCT and ERCOT under PURA §39.1515(h). [e34]
 - March 1, 2021: IMM letter recommending repricing of Uri-period day-ahead ancillary service prices. [e32]
 - December 2024: IMM assessment of the PCM summarized by PUCT staff. [e26]
 - February 2026: IMM comments on NPRR1309 and report to the Board's Reliability and Markets Committee. [e27][e29]
@@ -233,7 +241,7 @@ On competition, the IMM's 2025 report found the share of top-quartile net load h
 
 (Guidance) The IMM, Potomac Economics, is the PUCT's independent market watchdog. It can demand information from ERCOT and participants, but it cannot penalize anyone: it reports to the commission, which enforces. Its State of the Market report is the best single read on how the market performed and where the monitor thinks the design is broken.
 
-(Guidance) When you quote the IMM, say it is the IMM's view. Its positions (against over-procured reserves, out-of-market programs and the PCM; for system-wide mitigation) are recommendations, and ERCOT and the PUCT often take a different line.
+(Guidance) When you quote the IMM, say it is the IMM's view. Its positions (against over-procured reserves and out-of-market programs; for system-wide mitigation) are recommendations, not rules, and ERCOT and the PUCT decide whether to follow them.
 
 ## Common confusion
 
@@ -276,7 +284,7 @@ In its daily, monthly and quarterly price and congestion reports, and in its com
 
 ### A trader spots a suspicious pattern of offers by a competitor. Who acts?
 
-- The IMM can question the participant and require data, but it cannot penalize. [e5][e4]
+- The IMM can question the participant and require data, but it cannot penalize. [e36][e5][e4]
 - It must report potential manipulation in writing to the commission, which holds enforcement authority. [e8][e15]
 
 ## Open items

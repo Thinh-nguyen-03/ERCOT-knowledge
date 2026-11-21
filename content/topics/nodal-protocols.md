@@ -212,7 +212,7 @@ The published Protocol text carries boxes for revisions to apply "upon system im
 - 19 October 2010: an ERCOT Board presentation shows the integrated nodal timeline with a planned go-live of December 1, 2010. This is a pre-go-live plan, not a record that go-live occurred on that date. [e30]
 - The Protocols define the Texas Nodal Market Implementation Date as the date ERCOT starts operation of the Texas Nodal Market in compliance with PUCT rules and orders; ERCOT posts it on its website. [e29]
 - Ongoing: the text is amended through NPRRs approved by the PUCT, and the Section 1 file saved here is dated November 6, 2026 on its cover. [e10][e34]
-- The Nodal market guiding principles document says an NPRR should strive to improve price signals, dispatch efficiencies and transparency, among other principles, and is non-binding. [e31][e32]
+- 1 July 2010 (TAC approval date of a pre-go-live document): the Guiding Principles of the Nodal Market says an NPRR should strive to improve price signals, dispatch efficiencies and transparency, among other principles, and is non-binding. [e31][e32]
 
 ## Key facts
 
@@ -231,7 +231,7 @@ The Protocols are the rulebook ERCOT runs the market by, covering everything fro
 
 ## Common confusion
 
-The Protocols are not the same as the PUCT's substantive rules or PURA, though the Protocols are subject to PUCT approval and rest on PURA. [e7][e6] Also, a pending NPRR in a box is not yet the rule: read the text outside the box. [e14][e26] And the Protocols are not the only binding text: Other Binding Documents also bind Market Participants, but the Protocol sections prevail where they conflict. [e6][e15]
+The Protocols are not the same as the PUCT's substantive rules or PURA, though the Protocols are subject to PUCT approval and rest on PURA. [e7][e6] Also, a pending NPRR in a box is not yet the rule: read the text outside the box. [e14][e26] And the Protocols are not the only binding text: Other Binding Documents also bind Market Participants, but Sections 1 through 21 and 24 through 27 of the Protocols prevail over them where they conflict (with exceptions the Protocols set out, and an Agreement prevails over the Protocols). [e6][e15]
 
 ## Questions
 
