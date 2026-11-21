@@ -14,7 +14,7 @@ links:
     note: DAM energy settlements use a one-hour Settlement Interval, while real time settles on 15-minute intervals. [e19][e7]
   - to: sced
     type: composed-of
-    note: SCED produces the Base Points, Ancillary Service awards, LMPs and MCPCs that the RTM runs on about every five minutes. [e5][e6]
+    note: SCED produces the Base Points, Ancillary Service awards, LMPs and MCPCs that the RTM runs on about every five minutes. [e5]
   - to: spp
     type: determines
     note: Real-Time Settlement Point Prices are built from SCED LMPs plus the reliability deployment adder, with a floor of -$251/MWh. [e8][e9]
@@ -26,7 +26,7 @@ links:
     note: Real-time co-optimization was implemented in December 2025 and means energy and ancillary services are procured together in real time. [e11][e17]
   - to: base-point
     type: related
-    note: Base Points are the SCED output that tells each Resource where to operate. [e4]
+    note: The SCED process produces Base Points (and Ancillary Service awards) for Resources. [e4]
   - to: ordc
     type: related
     note: The IMM measured the real-time price effect of ORDC shortage pricing at $0.02/MWh in 2025. [e13]
@@ -186,6 +186,10 @@ evidence:
     source: ercot-nprr1010-board-report
     locator: "NPRR1010 Board report, Effective Date"
     quote: "Upon system implementation of the Real-Time Co-Optimization (RTC) Project"
+  - id: e36
+    source: np-06
+    locator: "Section 6.6.3.1, paragraph (1)(a) (current text; NPRR1188 would replace it upon system implementation)"
+    quote: "(a) The energy produced by all its Generation Resources, consumed as WSL, or consumed as Non-WSL ESR Charging Load at the Settlement Point; plus"
 ---
 
 ## Definition
@@ -206,7 +210,7 @@ Adjustment Period activities begin at 1800 in the Day-Ahead and end one full hou
 
 ### Imbalance settlement at a Resource Node
 
-Energy Imbalance Service at a Resource Node is priced at the RTSPP on the QSE's net position: its Resource output and certain charging consumption, plus Self-Schedules sinking there, DAM Energy Bids cleared and Energy Trades bought, minus Self-Schedules sourcing there, DAM energy offers cleared and Energy Trades sold. [e16][e24] DAM Energy Bids and offers cleared at the Settlement Point therefore enter the real-time imbalance calculation at that same Settlement Point. [e24]
+Energy Imbalance Service at a Resource Node is priced at the RTSPP on the QSE's net position: its Resource output and certain charging consumption, plus Self-Schedules sinking there, DAM Energy Bids cleared and Energy Trades bought, minus Self-Schedules sourcing there, DAM energy offers cleared and Energy Trades sold. [e16][e36][e24] DAM Energy Bids and offers cleared at the Settlement Point therefore enter the real-time imbalance calculation at that same Settlement Point. [e24]
 
 ### Reliability deployments in the adder
 
@@ -214,7 +218,7 @@ The Real-Time Reliability Deployment Price Adder for Energy considers RUC-commit
 
 ### Price errors and corrections
 
-ERCOT monitors real-time prices and notifies Market Participants when they are under investigation. [e25] Prices are final at 1600 on the second Business Day after the Operating Day. [e10] Prices are corrected only when accurate prices can be determined, the impact is significant, and one of the listed conditions is met. [e34] If ERCOT determines prices qualify for correction and will seek Board review, it must notify Market Participants no later than 30 days after the Operating Day, or the Board cannot review them. [e27] ERCOT shall seek Board review if the change would shift any single Counter-Party's RTM Settlement Statements by more than 2% and $20,000, or more than 20% and $2,000. [e26]
+ERCOT monitors real-time prices and notifies Market Participants when they are under investigation. [e25] Prices are final at 1600 on the second Business Day after the Operating Day. [e10] ERCOT shall correct prices for an Operating Day when accurate prices can be determined, the impact is significant, and one of the listed conditions is met. [e34] If ERCOT determines prices qualify for correction and will seek Board review, it must notify Market Participants no later than 30 days after the Operating Day, or the Board cannot review them. [e27] ERCOT shall seek Board review if the change would shift any single Counter-Party's RTM Settlement Statements by more than 2% and $20,000, or more than 20% and $2,000. [e26]
 
 ## ERCOT context
 

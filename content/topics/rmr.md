@@ -68,7 +68,7 @@ evidence:
   - id: e5
     source: np-03
     locator: "Section 3.14.1, paragraph (1)(e)"
-    quote: "ERCOT may execute RMR Agreements for no less than one month and no more than one year, with one exception. ERCOT may execute an RMR Agreement for a term longer than 12 months if the Resource Entity must make a significant capital expenditure to meet environmental regulations or to ensure availability to continue operating the RMR Unit so as to make an RMR Agreement in excess of 12 months appropriate, in ERCOT’s opinion."
+    quote: "ERCOT may execute RMR Agreements for no less than one month and no more than one year, with one exception. ERCOT may execute an RMR Agreement for a term longer than 12 months if the Resource Entity must make a significant capital expenditure to meet environmental regulations or to ensure availability to continue operating the RMR Unit so as to make an RMR Agreement in excess of 12 months appropriate, in ERCOT’s opinion. The term of a multi-year RMR Agreement must take into account the appropriate RMR exit strategy discussed in Section 3.14.1.4, Exit Strategy from an RMR Agreement. In the event ERCOT chooses to contract for an RMR Unit for longer than one year, ERCOT shall annually re-evaluate the need for the RMR Unit under the criteria set forth in paragraph (b) above."
   - id: e6
     source: np-03
     locator: "Section 3.14.1, paragraph (1)(g)"
@@ -176,7 +176,7 @@ evidence:
   - id: e32
     source: np-03
     locator: "Section 3.14.1.17, Incentive Factor, paragraph (1)"
-    quote: "Subject to the reductions described in paragraphs (2) and (3) below, the Incentive Factor for RMR Agreements is equal to 10% of the actual Eligible Costs, excluding fuel costs and reservation and transportation costs associated with firm fuel supplies as described in paragraph (1)(a)(vi) of Section 3.14.1.10, Eligible Costs."
+    quote: "Subject to the reductions described in paragraphs (2) and (3) below, the Incentive Factor for RMR Agreements is equal to 10% of the actual Eligible Costs, excluding fuel costs and reservation and transportation costs associated with firm fuel supplies as described in paragraph (1)(a)(vi) of Section 3.14.1.10, Eligible Costs. The Incentive Factor for RMR Agreements is not applied to capital expenditures as described in Section 3.14.1, Reliability Must Run, or to capital expenditures reclassified as an expense in accordance with paragraph (3)(d) of Section 3.14.1.19, Charge for Contributed Capital Expenditures."
   - id: e33
     source: np-03
     locator: "Section 3.14.1.17, paragraph (2)"
@@ -228,7 +228,7 @@ evidence:
   - id: e45
     source: puct-25-502
     locator: "16 TAC 25.502(e), RMR resources (copy effective 12/5/19)"
-    quote: "ERCOT must issue a final determination of the need for RMR service within 60 calendar days of ERCOT’s receipt of the notice."
+    quote: "Except for the occurrence of a forced outage, a generation entity must submit to ERCOT in writing a notice of suspension of operation no later than 150 calendar days prior to the suspension date. If a generation resource is to be mothballed on a seasonal basis in accordance with ERCOT protocols, the generation entity must submit in writing a notice of suspension of operation no later than 90 calendar days prior to the suspension date. ERCOT must issue a final determination of the need for RMR service within 60 calendar days of ERCOT’s receipt of the notice."
   - id: e46
     source: puct-25-502
     locator: "16 TAC 25.502(e)(1)(H)"
@@ -341,7 +341,7 @@ A Reliability Must-Run (RMR) Unit is a Generation Resource operated under an agr
 
 **Terms.** RMR is voluntary for the owner: a Resource Entity cannot be compelled to sign, and one with an uneconomic unit can petition for RMR status. [e6] ERCOT must contract for the entire capacity of each RMR Unit. [e18] Agreements run from one month to one year, with longer terms allowed when a significant capital expenditure is needed. [e5] While under RMR the unit may not participate in the bilateral energy market, self-provide energy (other than plant auxiliary load) or provide Ancillary Service to any entity. [e7] No later than 90 days after an RMR agreement is executed, ERCOT must report a list of feasible alternatives that may later be more cost-effective than continued renewal. [e27]
 
-**Money.** Eligible Costs are those the owner would incur to provide RMR Service, excluding fuel costs or other costs it would have incurred anyway had it been mothballed or shut down; depreciation, return on equity and debt costs are among the examples that are not eligible. [e28][e29] The initial Standby Cost for each month is the monthly approved budget divided by the hours in the month, and it is recalculated if the remaining-term costs change by more than 10% from the most recently approved budget. [e30][e31] The incentive factor is 10% of actual Eligible Costs, excluding fuel and firm fuel reservation and transportation costs, and it is reduced linearly for failed capacity tests (2% per 1% of reduced capacity) and for availability below target (2% per 1% of availability shortfall). [e32][e33][e60] Energy payment on the Initial Settlement and settlements before true-up and before actual cost data is submitted uses the estimated input/output curve and startup fuel in the RMR Agreement, actual energy produced and the FIP; other settlements use actual fuel costs. [e37] If the resource later participates in the energy or ancillary service markets, it must refund contributed capital under the Protocols' schedule (100% of remaining book value plus 10% of accelerated tax depreciation, less salvage previously repaid), and the PUCT rule says ERCOT may require less than the full amount to reflect depreciation. [e49][e48] The total RMR cost for all RMR Units is allocated to QSEs representing Load based on load ratio share. [e36]
+**Money.** Eligible Costs are those the owner would incur to provide RMR Service, excluding fuel costs or other costs it would have incurred anyway had it been mothballed or shut down; depreciation, return on equity and debt costs are among the examples that are not eligible. [e28][e29] The initial Standby Cost for each month is the monthly approved budget divided by the hours in the month, and it is recalculated if the remaining-term costs change by more than 10% from the most recently approved budget. [e30][e31] The incentive factor is 10% of actual Eligible Costs, excluding fuel and firm fuel reservation and transportation costs, and it is not applied to capital expenditures; it is reduced linearly for failed capacity tests (2% per 1% of reduced capacity) and for availability below target (2% per 1% of availability shortfall). [e32][e33][e60] Energy payment on the Initial Settlement and settlements before true-up and before actual cost data is submitted uses the estimated input/output curve and startup fuel in the RMR Agreement, actual energy produced and the FIP; other settlements use actual fuel costs. [e37] If the resource later participates in the energy or ancillary service markets, it must refund contributed capital under the Protocols' schedule (100% of remaining book value plus 10% of accelerated tax depreciation, less salvage previously repaid), and the PUCT rule says ERCOT may require less than the full amount to reflect depreciation. [e49][e48] The total RMR cost for all RMR Units is allocated to QSEs representing Load based on load ratio share. [e36]
 
 **Operations.** ERCOT may manually commit an RMR Unit through DRUC or HRUC to resolve a transmission constraint, and may submit Energy Offer Curves at the effective VOLL on its behalf, unless ERCOT declares a Market Suspension, in which case no Energy Offer Curves are submitted. [e39][e38] ERCOT sets the unit's mitigated offer cap at the highest value expected to allow SCED to dispatch it. [e40] A pending change (NPRR826, to take effect upon system implementation) would instead use a single price ($/MWh) as the MOC curve for the full operating range of the Resource. [e41]
 
@@ -354,7 +354,7 @@ Hourly standby price in $ per hour, used for resettlements after actual cost dat
 `RMRSBPR = (RMRMNFNCC * (1 + RMRIF * RMRCRF * RMRARF) + RMRMNFCC) / MH` [e35]
 
 - RMRMNFNCC is the actual non-capital and non-fuel Eligible Cost for the month; RMRMNFCC is the actual non-fuel and capital Eligible Cost for the month, and it also includes firm fuel reservation and transportation costs. [e65][e66][e67]
-- RMRIF is the incentive factor of the unit under its agreement (10% of actual Eligible Costs excluding fuel and firm fuel reservation and transportation costs, before reductions); the formula scales it by RMRCRF and RMRARF. [e69][e32][e33]
+- RMRIF is the incentive factor of the unit under its agreement (10% of actual Eligible Costs excluding fuel and firm fuel reservation and transportation costs, not applied to capital expenditures, before reductions); the formula scales it by RMRCRF and RMRARF. [e69][e32][e33]
 - RMRCRF and RMRARF are the capacity and availability reduction factors; the incentive factor falls 2% for each 1% of reduced capacity in a Capacity Test, and 2% for each 1% of availability below the Target Availability. [e33][e60]
 - Availability is measured as available MW per hour per the final COP over contracted MW per hour for the previous 4380 hours. [e34]
 - MH is the total number of hours of the month when the unit is under an RMR Agreement. [e68]
@@ -381,7 +381,7 @@ In a February 2026 Board system operations update on Winter Storm Fern (January 
 - A unit under RMR may not trade bilaterally, self-provide energy or provide Ancillary Service. [e7]
 - RMR and MRA agreements require ERCOT Board approval. [e8]
 - Notice: 150 days before suspension (90 for seasonal mothball); ERCOT's reliability analysis within 60 days. [e19][e23]
-- Incentive factor: 10% of actual eligible non-fuel costs, reduced 2% per 1% shortfall. [e32][e33]
+- Incentive factor: 10% of actual Eligible Costs excluding fuel (and not applied to capital expenditures), reduced 2% per 1% shortfall. [e32][e33]
 - RMR uplift was $68 million of $668 million total uplift in 2025. [e10]
 - RMR costs are allocated to LSEs (QSEs representing Load by load ratio share in settlement). [e12][e36]
 
@@ -391,7 +391,7 @@ RMR is ERCOT paying a plant that wants to retire to stay available because the l
 
 ## Common confusion
 
-RMR is not capacity market revenue and not a routine commitment tool: it applies only where market solutions do not exist, and the owner cannot be forced into it. [e1][e6] An MRA is the alternative to an RMR unit, not the same contract. [e2] The 10% incentive factor applies to non-fuel eligible costs, not to the whole payment. [e32] And the IMM separates RMR and MRA, which respond to a resource suspending operations, from contracts for capacity (C4C), which use the RFP process without an NSO. [e57]
+RMR is not capacity market revenue and not a routine commitment tool: it applies only where market solutions do not exist, and the owner cannot be forced into it. [e1][e6] An MRA is the alternative to an RMR unit, not the same contract. [e2] The 10% incentive factor applies to eligible costs excluding fuel and is not applied to capital expenditures, so it is not a mark-up on the whole payment. [e32] And the IMM separates RMR and MRA, which respond to a resource suspending operations, from contracts for capacity (C4C), which use the RFP process without an NSO. [e57]
 
 ## Questions
 

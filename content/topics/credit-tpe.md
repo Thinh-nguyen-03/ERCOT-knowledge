@@ -359,6 +359,26 @@ evidence:
     source: imm-som-2023
     locator: "page 73 (OCR), Day-Ahead Market Performance, collateral requirements, 2022 increase"
     quote: "This continued the year-over-year increasing trend that was observed in 2022, during which the market experienced a 26.7% increase relative to 2021."
+  - id: e81
+    source: np-16
+    locator: "Section 16.11.6.2.1, First Late Payment in Any Rolling 12-Month Period, paragraph (1)"
+    quote: "For the first Late Payment in any rolling 12-month period, ERCOT shall take Level I Enforcement action, as described in Section 16.11.6.2.5, Level I Enforcement."
+  - id: e82
+    source: np-16
+    locator: "Section 16.11.6.2.2, Second Late Payment in Any Rolling 12-Month Period, paragraph (1)"
+    quote: "For the second Late Payment in any rolling 12-month period, ERCOT shall take Level II Enforcement action, as described in Section 16.11.6.2.6, Level II Enforcement."
+  - id: e83
+    source: np-16
+    locator: "Section 16.11.6.2.3, Third Late Payment in Any Rolling 12-Month Period, paragraph (1)"
+    quote: "For the third Late Payment in any rolling 12-month period, ERCOT shall take Level III Enforcement action, as described in Section 16.11.6.2.7, Level III Enforcement."
+  - id: e84
+    source: ercot-credit-faqs
+    locator: "ERCOT Market Credit FAQs, introductory note"
+    quote: "Where the below FAQs and the Protocols conflict, the Protocols control."
+  - id: e85
+    source: np-16
+    locator: "Section 16.11.8, Acceleration, paragraph (1), second sentence"
+    quote: "At that time, ERCOT may immediately draw upon the Market Participant’s Financial Security and shall use those funds to offset or recoup all amounts due to ERCOT."
 ---
 
 ## Definition
@@ -367,17 +387,17 @@ ERCOT requires each Counter-Party, meaning an Entity that is a QSE and/or a CRR 
 
 ## How it works
 
-**What counts as collateral.** Financial Security can be an unconditional, irrevocable letter of credit naming ERCOT as beneficiary, a surety bond, or cash collateral. [e8][e66] Letters of credit must come from banks rated at least A- (S&P and Fitch) or A3 (Moody's), and each issuer is subject to an overall limit of $750 million. [e13][e14] The IMM says ERCOT eliminated Unsecured Credit Limits and guarantee amounts through NPRR 1112 on October 1, 2023, so obligations must be covered by secured instruments. [e58][e59]
+**What counts as collateral.** Financial Security can be an unconditional, irrevocable letter of credit naming ERCOT as beneficiary, a surety bond, or cash collateral. [e8][e66] Letters of credit must come from banks rated at least A- by S&P and Fitch and A3 by Moody's (none may be rated below A-/A3 by any agency), and each issuer is subject to an overall limit of $750 million. [e13][e14] The IMM says ERCOT eliminated Unsecured Credit Limits and guarantee amounts through NPRR 1112 on October 1, 2023, so obligations must be covered by secured instruments. [e58][e59]
 
 **The requirement.** ERCOT monitors and calculates each Counter-Party's TPEA and TPES daily. [e4] A Counter-Party must hold Financial Security at least equal to TPES plus the net positive exposure of approved CRR bilateral trades plus any credit limit locked for a CRR auction, and Remainder Collateral at least equal to TPEA. [e5] Remainder Collateral is Financial Security minus TPES, minus net positive exposure of approved CRR bilateral trades, minus the ACL locked for the CRR auction. [e12] ERCOT may also set a different TPEA or TPES if it judges the calculated value does not match the Counter-Party's financial risk. [e10]
 
 **Warning, suspension and cure.** When TPEA or TPES reaches 90% of its requirement, ERCOT uses reasonable efforts to send a warning. [e6] ERCOT may suspend a Counter-Party when TPES equals or exceeds 100% of its Financial Security, or TPEA equals or exceeds 100% of its Remainder Collateral. [e41] The cure deadline is set in Bank Business Days: for a notice delivered before 1500, until 1500 on the second Bank Business Day. [e42] Until the Counter-Party increases its Financial Security, ERCOT need not pay it, and may reject its bids and offers in CRR auctions and the DAM. [e43][e44] ERCOT may also notify each LSE and Resource represented by the QSE that it may have to designate a new QSE. [e45] A suspension can include a CRR Account Holder's ability to bid on future CRRs or a QSE's ability to bid in the DAM. [e11]
 
-**Late payments and enforcement.** A failure to pay when due, including a Financial Security obligation, is a Late Payment and constitutes a Payment Breach. [e46] In the Protocols, enforcement escalates with each late payment in a rolling 12 months: Level I requires Financial Security at or above 110% of TPE within two Bank Business Days, Level II requires 115% in cash or a letter of credit, and Level III requires 120% with the excess over TPE in cash and remains in effect at least 90 days. [e47][e48][e49][e50] The fourth late payment leads to revocation of rights and termination of agreements. [e51] ERCOT's FAQ summarizes this as 110%, 115% and 120% of TPE on the first, second and third late payments, with the third covered only by cash, and notes the Protocols control if they differ. [e67] On a Payment Breach ERCOT may immediately draw on, hold or distribute the Market Participant's Financial Security. [e52] It may also repossess CRRs held by a Market Participant with a Payment Breach (this paragraph is shown with a pending NPRR1023 replacement). [e53]
+**Late payments and enforcement.** A failure to pay when due, including a Financial Security obligation, is a Late Payment and constitutes a Payment Breach. [e46] In the Protocols, enforcement escalates with each late payment in a rolling 12 months: Level I requires Financial Security at or above 110% of TPE within two Bank Business Days, Level II requires 115% in cash or a letter of credit, and Level III requires 120% with the excess over TPE in cash and remains in effect at least 90 days. [e81][e82][e83][e47][e48][e49][e50] The fourth late payment leads to revocation of rights and termination of agreements. [e51] ERCOT's FAQ summarizes this as 110%, 115% and 120% of TPE on the first, second and third late payments, with the third covered only by cash, and notes the Protocols control if they differ. [e67][e84] On a Payment Breach ERCOT may immediately draw on, hold or distribute the Market Participant's Financial Security. [e52] It may also repossess CRRs held by a Market Participant with a Payment Breach (this paragraph is shown with a pending NPRR1023 replacement). [e53]
 
 A pending change (NPRR1023, to take effect upon system implementation) would add a Section 16.11.8 under which ERCOT may at its sole discretion initiate conversion of letters of credit or surety bonds held as Financial Security to cash collateral. [e71]
 
-**After termination.** ERCOT retains Financial Security for potential future obligations of a terminated Market Participant, set at the larger of its TPE or $5,000 (NPRR1023 has a pending replacement paragraph that keeps that amount but adds an exception for another paragraph). [e54] On termination all sums owed to ERCOT are accelerated and ERCOT may draw on Financial Security to offset them. [e55]
+**After termination.** ERCOT retains Financial Security for potential future obligations of a terminated Market Participant, set at the larger of its TPE or $5,000 (NPRR1023 has a pending replacement paragraph that keeps that amount but adds an exception for another paragraph). [e54] On termination all sums owed to ERCOT are accelerated and ERCOT may draw on Financial Security to offset them. [e55][e85]
 
 ## Formula
 
@@ -392,7 +412,7 @@ A pending change (NPRR1023, to take effect upon system implementation) would add
 
 **EAL for a QSE with Load or generation.** The Protocols' equation is the larger of (i) the Initial Estimated Liability, a term that applies only during the first 40-day period beginning when the Counter-Party commences activity in ERCOT markets, and (ii) the sum of: the larger of the highest RFAF times Real-Time Liability Extrapolated over a look-back and Real-Time Liability Forward; DFAF times the Day-Ahead Liability Extrapolated; the larger of the Real-Time Liability Completed and Not Settled and the highest Unbilled Real-Time Amount over a look-back; Outstanding Unpaid Transactions; and Incremental Load Exposure. [e20] RTLE is the multiplier M1 times the net amount due to or from ERCOT over the 14 most recent Operating Days with RTM Initial Statements, divided by 14; DALE is the same idea over seven DAM statement days. [e21][e22]
 
-**Initial Estimated Liability.** For a Counter-Party whose QSEs represent only Load, IEL = DEL * Max[0.2, RTEFL] * RTAEP * (M1 + M2), where RTAEP is the previous seven days' average Real-Time price at ERCOT 345 (Hub Average 345 kV). [e23][e24]
+**Initial Estimated Liability.** For a Counter-Party that has all its QSEs representing only LSEs, IEL = DEL * Max[0.2, RTEFL] * RTAEP * (M1 + M2), where RTAEP is the previous seven days' average Real-Time price at ERCOT 345 (Hub Average 345 kV). [e23][e24]
 
 **Forward adjustment.** ERCOT uses electricity futures prices to adjust TPEA: RFAF = PRFAP/HRSAP and DFAF = PDFAP/HDSAP, ratios of projected forward average prices to historic settled average prices. [e27][e28]
 
@@ -402,7 +422,7 @@ A pending change (NPRR1023, to take effect upon system implementation) would add
 
 ## Example
 
-Suppose a Counter-Party has TPEA of $4 million, TPES of $10 million, no CRR bilateral trades or locked auction limit, and posts $15 million of Financial Security. Remainder Collateral is $15 million - $10 million = $5 million, which exceeds TPEA of $4 million, so it meets both requirements under paragraph (2). Its ACLD would be max(0, $5 million - 0.10 x $10 million - 1.10 x $4 million) = max(0, $5 million - $1 million - $4.4 million) = $0, so its DAM credit limit would be $0 (the limit is ACLD, so bids with positive credit exposure could not be accepted) even though it is compliant. [e5][e12][e30][e31]
+(The knowledge base's own illustrative arithmetic, not a source figure.) Suppose a Counter-Party has TPEA of $4 million, TPES of $10 million, no CRR bilateral trades or locked auction limit, and posts $15 million of Financial Security. Remainder Collateral is $15 million - $10 million = $5 million, which exceeds TPEA of $4 million, so it meets both requirements under paragraph (2). Its ACLD would be max(0, $5 million - 0.10 x $10 million - 1.10 x $4 million) = max(0, $5 million - $1 million - $4.4 million) = $0, so its DAM credit limit would be $0 (the limit is ACLD, so bids with positive credit exposure could not be accepted) even though it is compliant. [e5][e12][e30][e31]
 
 ## ERCOT context
 
