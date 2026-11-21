@@ -220,6 +220,14 @@ evidence:
     source: ercot-credit-faqs
     locator: "ERCOT Credit FAQs, consequences of paying an invoice or collateral request late"
     quote: "The TPE will be increased by 110% for the first instance of late payment over a rolling 12-month period; and 115% and 120% for the second and third instances, respectively."
+  - id: e46
+    source: np-16
+    locator: "Section 16.11.4.3.3, Forward Adjustment Factors, paragraph (1)(f)"
+    quote: "(f) Real-Time Forward Adjustment Factor (RFAF): RFAF = PRFAP/HRSAP"
+  - id: e47
+    source: np-16
+    locator: "Section 16.11.4.3.3, variable table, w"
+    quote: "One of the three consecutive forward weeks beginning with the current Operating Day."
 ---
 
 ## Definition
@@ -244,7 +252,7 @@ TPEA, the main collateral number for a REP's QSE, is the larger of zero, the Min
 
 Within EAL, the real-time piece is RTLE: M1 times the average daily net amount due to or from ERCOT over the 14 most recent Operating Days with RTM Initial Statements. [e27] M1 is a number of days of forward risk: the time to terminate a defaulting Counter-Party (M1a) plus, for a Counter-Party with a QSE serving an LSE, the time for a Mass Transition (M1b). [e28] EAL takes the maximum of RTLE (scaled by the forward adjustment factor) over a look-back period, which is 40 days from May 16 through September 15. [e29][e30]
 
-The forward adjustment factor scales TPEA with electricity futures prices: RFAF is the projected real-time forward average price, built from futures for the next three weeks, divided by the historic real-time settled average price. [e31][e32]
+The forward adjustment factor scales TPEA with electricity futures prices: RFAF is the projected real-time forward average price, built from futures for the next three weeks, divided by the historic real-time settled average price. [e31][e32][e46][e47]
 
 ## Key facts
 

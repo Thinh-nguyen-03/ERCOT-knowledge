@@ -114,6 +114,190 @@ evidence:
     source: np-03
     locator: "Section 3.1.4.7, Reporting of Forced Derates, paragraph (3)"
     quote: "Notwithstanding paragraphs (1) and (2) above, for any Forced Derate or change to a Forced Derate that meets the reporting criteria specified in paragraph (1) or (2) above and that is caused by ambient temperature or humidity, the Resource Entity or its designee must enter the Forced Derate into the Outage Scheduler as soon as practicable but no longer than eight hours after the beginning of the Force Derate or change."
+  - id: e22
+    source: np-02
+    locator: "Section 2.1, definition of Maintenance Outage"
+    quote: "Maintenance Outages are classified as follows: (1) Level 1 Maintenance Outage – Equipment that must be removed from service within 24 hours to prevent a potential Forced Outage; (2) Level II Maintenance Outage – Equipment that must be removed from service within seven days to prevent a potential Forced Outage; and (3) Level III Maintenance Outage – Equipment that must be removed from service within 30 days to prevent a potential Forced Outage."
+  - id: e23
+    source: np-02
+    locator: "Section 2.1, definition of Opportunity Outage"
+    quote: "An Outage that may be accepted by ERCOT when a specific Resource is Off-Line due to an Outage."
+  - id: e24
+    source: np-03
+    locator: "Section 3.1.6.10, Opportunity Outage, paragraph (1)"
+    quote: "Opportunity Outages for Resources are a special category of Planned Outages that may be approved by ERCOT when a specific Resource has been forced Off-Line due to a Forced Outage and the Resource has been previously approved for a Planned Outage during the next two days."
+  - id: e25
+    source: np-02
+    locator: "Section 2.1, definition of Resource Planned Outage Limit (RPOL)"
+    quote: "The aggregate maximum MW of Resource Planned Outages that will be approved by ERCOT for any time period within a given day, calculated pursuant to Section 3.1.6.13, Resource Planned Outage Limit (RPOL)."
+  - id: e26
+    source: np-03
+    locator: "Section 3.1.6, Outages of Resources Other than Reliability Resources, paragraph (1)"
+    quote: "Resource Entities should submit a request for a Resource Planned Outage as far in advance of the planned start of the Outage as is practicable but no more than 60 months in advance."
+  - id: e27
+    source: np-03
+    locator: "Section 3.1.6, paragraph (3)(a)"
+    quote: "If a Resource Entity plans to start a Planned or Maintenance Outage within 45 days, and the Resource Entity has not previously submitted a Resource Outage plan for the Outage, then the Resource Entity must immediately notify ERCOT and include in its notice whether the Outage is a Maintenance (Level I, II, or III) Outage or Planned Outage."
+  - id: e28
+    source: np-03
+    locator: "Section 3.1.6, paragraph (3)(a)-(b)"
+    quote: "(a) ERCOT shall accept Levels I, II, and III Maintenance Outage plans, and ERCOT shall coordinate the Outages within the time frames specified in these Protocols."
+  - id: e29
+    source: np-03
+    locator: "Section 3.1.6, paragraph (3)(b)"
+    quote: "(b) ERCOT shall approve Planned Outage plans, except that: (i) ERCOT shall reject an Outage plan if the proposed Outage would cause the aggregate MW of Resource Outages to exceed the RPOL at any point during the duration of the proposed Outage; and (ii) ERCOT shall reject an Outage plan if it will impair ERCOT’s ability to meet applicable reliability standards, taking into consideration all previously approved and accepted Outages, and other solutions cannot be exercised."
+  - id: e30
+    source: np-03
+    locator: "Section 3.1.6, paragraph (4)"
+    quote: "The Resource Entity shall not begin a Planned Outage unless it has received approval of its proposed Outage plan."
+  - id: e31
+    source: np-03
+    locator: "Section 3.1.6, paragraph (6)"
+    quote: "Notwithstanding any other provision of this Section, ERCOT shall approve a requested Outage plan for a nuclear Generation Resource."
+  - id: e32
+    source: np-03
+    locator: "Section 3.1.6, paragraph (7)"
+    quote: "Notwithstanding any other provision in this Section, ERCOT shall approve an Outage plan for a Generation Resource that is part of an industrial generation facility if the plan states that the Generation Resource is part of an industrial generation facility, as described in subsection (l) of the Public Utility Regulatory Act (PURA), TEX. UTIL. CODE ANN. § 39.151 (Vernon 1998 & Supp. 2007), and that the Outage is necessitated by the operational needs of an industrial Load normally served by the Generation Resource, except that ERCOT is not required to approve the Outage plan if ERCOT determines the Outage will impair ERCOT’s ability to ensure transmission security."
+  - id: e33
+    source: np-03
+    locator: "Section 3.1.6, paragraph (8)(a)"
+    quote: "Notwithstanding any other provision in this Section, ERCOT may, in its sole discretion, approve a requested Outage plan that would cause the aggregate MW of Resource Outages to exceed the RPOL at any point during the duration of the proposed Resource Outage and ERCOT determines that any of the following apply: (a) The Resource cannot operate due to unavailable fuel supply such as gas pipeline outages;"
+  - id: e34
+    source: np-03
+    locator: "Section 3.1.6.6, Timelines for Response by ERCOT for Resource Planned Outages, paragraph (1) table"
+    quote: "Three days Seven days ERCOT shall approve or reject by 1800 hours, two days before the start of the proposed Outage Between four and eight days Seven days ERCOT shall approve or reject by 1800 hours, three days prior to the start of the proposed Outage Between nine and 15 days 15 days ERCOT shall approve or reject four days before the start of the requested Outage Between 16 and 45 days 180 days ERCOT shall approve or reject within five Business Days after submission"
+  - id: e35
+    source: np-03
+    locator: "Section 3.1.6.6, paragraphs (2)-(3)"
+    quote: "Furthermore, in its sole discretion, ERCOT may approve Planned Outage durations that exceed the maximum durations prescribed in the table above. (3) The maximum duration of Planned Outages does not apply for Resource Outages under an NSO pursuant to Section 3.14.1.1, Notification of Suspension of Operations."
+  - id: e36
+    source: np-03
+    locator: "Section 3.1.6.13, Resource Planned Outage Limit (RPOL), paragraph (1)"
+    quote: "ERCOT shall calculate a maximum capacity of Resource Planned Outages, excluding Outages of nuclear-powered generation facilities and Outages of QFs that are subject to the exemption in paragraph (7) of Section 3.1.6, Outages of Resources Other than Reliability Resources, that should be allowed on each day of the next 60 months."
+  - id: e37
+    source: np-03
+    locator: "Section 3.1.6.13, paragraph (1)(c)-(d)"
+    quote: "(c) ERCOT shall post the RPOL and aggregate MW of approved Resource Planned Outages at least twice per day on the ERCOT website for each day of the next 60 months. (d) ERCOT shall post the RPOL and aggregate MW of approved Resource Planned Outages hourly on the ERCOT website for each hour of the next seven days."
+  - id: e38
+    source: np-03
+    locator: "Section 3.1.6.13, paragraph (2)"
+    quote: "ERCOT may adjust the RPOL if, at any point in time, the actual aggregate Forced Outages and Maintenance Outages exceed the amount that is used in the determination of RPOL."
+  - id: e39
+    source: np-03
+    locator: "Section 3.1.4.4, Management of Forced Outages or Maintenance Outages, paragraph (1)(a)"
+    quote: "(a) For Resource Outages: (i) Changing the telemetered Resource Status to the appropriate Off-Line status as soon as practicable but no longer than 15 minutes after the Forced Outage occurs; (ii) Updating the COP as soon as practicable but no longer than 60 minutes after the Forced Outage occurs; and (iii) Updating the Outage Scheduler, if necessary."
+  - id: e40
+    source: np-03
+    locator: "Section 3.1.4.5, paragraph (3)"
+    quote: "Any Resource Forced Outage that occurs in Real-Time must be entered into the Outage Scheduler as soon as practicable but no longer than 60 minutes after the beginning of the Forced Outage."
+  - id: e41
+    source: np-03
+    locator: "Section 3.1.4.7, Reporting of Forced Derates, paragraph (4), last sentence"
+    quote: "Alternatively for a Forced Derate, a QSE may use the ONHOLD process described in paragraph (2) of Section 6.5.5.1, Changes in Resource Status."
+  - id: e42
+    source: np-06
+    locator: "Section 6.5.5.1, Changes in Resource Status, paragraph (2)"
+    quote: "When an On-Line Resource is experiencing an event that may affect its availability and/or capability and that requires further actions to stabilize the Resource and/or determine the impact of the event, the QSE may change the Resource Status to ONHOLD within 15 minutes of experiencing an event."
+  - id: e43
+    source: np-06
+    locator: "Section 6.5.5.1, paragraph (2)"
+    quote: "After the QSE has determined the impact of the event, the QSE shall change the Resource Status to its updated status as soon as practicable but no longer than 60 consecutive minutes of being in the ONHOLD status."
+  - id: e44
+    source: np-03
+    locator: "Section 3.1.4.8, Resource Forced Outage Report, paragraph (1)"
+    quote: "Three days after each Operating Day, ERCOT shall post to the ERCOT website a report that identifies each Forced Outage, Maintenance Outage, or Forced Derate of a Generation Resource or ESR that occurs during, or that extends into, that Operating Day."
+  - id: e45
+    source: np-03
+    locator: "Section 3.1.4.8, paragraph (1)(a)-(d)"
+    quote: "At a minimum, the report shall contain: (a) The Resource name; (b) The Resource unit code; (c) The Resource’s fuel type; (d) The type of Outage or derate;"
+  - id: e46
+    source: np-03
+    locator: "Section 3.1.6.9, Withdrawal of Approval and Rescheduling of Approved Planned Outages of Resource Facilities, paragraph (1)(b)"
+    quote: "ERCOT shall issue the AAN a minimum of 24 hours prior to issuing any OSA."
+  - id: e47
+    source: np-03
+    locator: "Section 3.1.6.9, paragraph (3)(b)"
+    quote: "ERCOT may not consider nuclear-powered Generation Resources for an OSA."
+  - id: e48
+    source: np-02
+    locator: "Section 2.1, definition of Outage Schedule Adjustment (OSA)"
+    quote: "An adjustment to delay or to cancel and reschedule a Resource’s Planned Outage that has already been accepted or approved by ERCOT. The OSA is issued by ERCOT to the Qualified Scheduling Entity (QSE) representing the Resource."
+  - id: e49
+    source: np-03
+    locator: "Section 3.1.7.1, Timelines for Response by ERCOT on Reliability Resource Outages, paragraph (2)"
+    quote: "ERCOT shall approve requests for Outages, other than Forced Outages or Level I Maintenance Outages, of Reliability Resources unless, in ERCOT’s determination, the requested Outage would cause ERCOT to violate applicable reliability standards or exceed the RPOL."
+  - id: e50
+    source: np-03
+    locator: "Section 3.1.4.3, Reporting for Planned Outages, Maintenance Outages, and Rescheduled Outages of Resource and Transmission Facilities, paragraph (3)"
+    quote: "A Firm Fuel Supply Service Resource (FFSSR) shall not schedule or request a Planned Outage that would occur during the period of December 1 through March 1."
+  - id: e51
+    source: np-02
+    locator: "Section 2.1, definition of Startup Loading Failure"
+    quote: "A type of Forced Outage that results when a Generation Resource is unable to operate at Low Sustained Limit (LSL) at the time scheduled in the Current Operating Plan (COP) which occurs while the unit is ramping up to its scheduled MW output."
+  - id: e52
+    source: np-03
+    locator: "Section 3.1.4.7, paragraph (2)"
+    quote: "If a Forced Derate that has already been reported changes by an amount greater than ten MW and 5% of the Generation Resource’s or ESR’s Seasonal net maximum sustainable rating, and the change lasts longer than 30 minutes, the Resource Entity or its designee must enter the change as a new Forced Derate into the Outage Scheduler as soon as practicable but no longer than 60 minutes after the beginning of the change."
+  - id: e53
+    source: imm-som-2025
+    locator: "page 111 (OCR), F. Thermal Generation Outages and Deratings"
+    quote: "However, thermal generators tend to schedule more outages in the spring and fall, when demand and prices are typically lower."
+  - id: e54
+    source: imm-som-2024
+    locator: "page 108 (OCR), B. Thermal Generation Outages and Deratings"
+    quote: "NPRR 1084, Improvements to Reporting of Resource Outages, Derates, and Startup Loading Failures, was implemented at the end of 2022 to improve outage reporting practices."
+  - id: e55
+    source: imm-som-2024
+    locator: "page 108 (OCR), B. Thermal Generation Outages and Deratings"
+    quote: "However, Figure 53 indicates that a large share of outages and derates in 2024 were still not reported in the outage scheduler."
+  - id: e56
+    source: imm-som-2024
+    locator: "page 108 (OCR), B. Thermal Generation Outages and Deratings"
+    quote: "Forced outages remained relatively stable across the year."
+  - id: e57
+    source: imm-som-2023
+    locator: "page 100 (OCR), B. Thermal Generation Outages and Deratings, Figure 42 discussion"
+    quote: "Unreported outages fluctuated remarkably and peaked at almost 17 GW in the shoulder seasons but fell to very low levels in the summer and winter months."
+  - id: e58
+    source: imm-som-2023
+    locator: "page 100 (OCR), B. Thermal Generation Outages and Deratings, Figure 42 discussion"
+    quote: "Average unreported deratings rose in the summer, peaking at 6 GW, which may reflect the fact that high ambient temperatures reduce the maximum output of thermal resources."
+  - id: e59
+    source: imm-som-2023
+    locator: "page 99 (OCR), footnote 77 to B. Thermal Generation Outages and Deratings"
+    quote: "“Unreported outages or deratings” are resources with ‘OUT’ status codes or deratings below the summer capacity levels that are not reported in the outage scheduler."
+  - id: e60
+    source: ercot-summer-2026-review
+    locator: "Slide 6, 2025/2026 Summer Thermal Forced Outage Comparison, Key Takeaway"
+    quote: "Key Takeaway: Summer 2026 has generally had lower forced outages than summer 2025."
+  - id: e61
+    source: ercot-summer-2026-review
+    locator: "Slide 6, chart note"
+    quote: "*2026 data period is 6/1 – 8/15"
+  - id: e62
+    source: ercot-mora-2027-01
+    locator: "Summary table, Expected Thermal Outages (deterministic scenario, HE 8:00 a.m.)"
+    quote: "Expected Thermal Outages 8,105 Planned 417 Unplanned 7,688"
+  - id: e63
+    source: ercot-mora-2027-01
+    locator: "Executive summary, January outlook"
+    quote: "Regarding historical January unplanned thermal outage trends, January 2026 was significantly higher than for January 2025 and moderately higher than for January 2024."
+  - id: e64
+    source: ercot-mora-2027-01
+    locator: "Methodology, Typical Unplanned Thermal Outages based on Normal Weather"
+    quote: "Typical Unplanned Thermal Outages based on Normal Weather - A range of daily unplanned outage amounts based on assessment month history for the past three years. For the winter months, outages during major winter storms are excluded from the probability distributions."
+  - id: e65
+    source: ercot-mora-2027-01
+    locator: "Methodology, Extreme-Weather-Related Thermal Outages"
+    quote: "Extreme-Weather-Related Thermal Outages - For the winter months, the probability distribution reflects a range of daily unplanned weather-related outage amounts scaled from zero MW to the maximum amount observed during Winter Storm Uri."
+  - id: e66
+    source: ercot-fern-outage-review
+    locator: "Slide, Dispatchable Generation: common causes during Winter Storm Fern (October 2026 presentation)"
+    quote: "Control-path, combustion systems, air inlets, and coal-path issues drove the largest dispatchable impacts."
+  - id: e67
+    source: ercot-fern-outage-review
+    locator: "Slide, Dispatchable Generation: common causes during Winter Storm Fern"
+    quote: "Total Number of Outages 76 Total MWh Lost ~156,000 MWh"
 ---
 
 ## Definition
