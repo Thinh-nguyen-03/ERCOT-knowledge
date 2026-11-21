@@ -6,7 +6,8 @@ kind: concept
 domain: fundamentals
 level: 2
 lenses: [analyst, trading, portfolio]
-as_of: 2026-11-18
+as_of: 2026-11-21
+depth: deep
 links:
   - to: resource-adequacy
     type: related
@@ -16,7 +17,7 @@ links:
     note: See that topic for unit economics; this topic covers outage definitions, scheduling and reporting.
   - to: hsl-lsl
     type: related
-    note: A QSE must update the telemetered High Sustained Limit within 15 minutes of a Forced Derate above ten MW and 5% of rating lasting over 30 minutes. [e18]
+    note: A QSE must update the telemetered High Sustained Limit within 15 minutes of a Forced Derate above ten MW and 5% of rating lasting over 30 minutes; the Protocols also allow the ONHOLD process as an alternative. [e18][e41]
   - to: cop
     type: related
     note: A QSE must update the COP within 60 minutes of a Forced Derate above 20 MW with expected duration over 120 minutes. [e19]
@@ -29,6 +30,12 @@ links:
   - to: winter-storm-uri
     type: related
     note: FERC-NERC attributes 75 percent of the outages, derates and failures to start across the whole event area (ERCOT, SPP and MISO South) to freezing or fuel issues. [e14]
+  - to: ffss
+    type: related
+    note: A Firm Fuel Supply Service Resource may not schedule or request a Planned Outage during December 1 through March 1. [e50]
+  - to: rmr
+    type: related
+    note: Reliability Resources (RMR and Black Start) have their own outage approval rules, including approval unless ERCOT determines a violation of reliability standards or the RPOL. [e49]
 evidence:
   - id: e1
     source: np-02
@@ -302,27 +309,54 @@ evidence:
 
 ## Definition
 
-Under the Protocols, a Forced Outage of a Generation Resource or ESR is an outage that requires immediate removal of all or part of its capacity from service, whether controlled or uncontrolled. [e1] A Planned Outage is scheduled in advance with ERCOT, other than a Maintenance Outage or Opportunity Outage, and a Maintenance Outage is work that could be postponed briefly but is required to prevent a potential Forced Outage. [e2][e3] A Forced Derate is the unavailability of a portion of a Resource's capacity relative to its Seasonal net max sustainable rating. [e4]
+Under the Protocols, a Forced Outage of a Generation Resource or ESR is an outage that requires immediate removal of all or part of its capacity from service, whether controlled or uncontrolled. [e1] A Planned Outage is scheduled in advance with ERCOT, other than a Maintenance Outage or Opportunity Outage, and a Maintenance Outage is work that could be postponed briefly but is required to prevent a potential Forced Outage. [e2][e3] A Forced Derate is the unavailability of a portion of a Resource's capacity relative to its Seasonal net max sustainable rating. [e4] A Startup Loading Failure is a type of Forced Outage in which a Generation Resource cannot operate at LSL at the time scheduled in the COP while ramping up. [e51]
 
 ## How it works
 
-Resource Entities give ERCOT a Planned and Maintenance Outage plan for at least the next 12 months, updated monthly. [e5] ERCOT approves or rejects outage plans submitted more than 45 days ahead, and approves a plan if it would not push aggregate MW of Resource outages above the Resource Planned Outage Limit (RPOL) at any point. [e6][e7]
+Planning and approval. Resource Entities give ERCOT a Planned and Maintenance Outage plan for at least the next 12 months, updated monthly, and should request a Planned Outage no more than 60 months in advance. [e5][e26] ERCOT approves or rejects outage plans submitted more than 45 days ahead, and approves a plan if it would not push aggregate MW of Resource outages above the Resource Planned Outage Limit (RPOL) at any point. [e6][e7] A Resource Entity may not begin a Planned Outage without approval. [e30] For plans filed inside 45 days, the Resource Entity must say immediately whether the outage is Maintenance (Level I, II or III) or Planned; ERCOT accepts the Maintenance plans and coordinates them within the Protocol time frames, but approves Planned plans only if the RPOL and reliability standards allow. [e27][e28][e29] ERCOT's response time depends on lead time: for example, requests between 16 and 45 days ahead (maximum duration 180 days) are answered within five Business Days. [e34] ERCOT may approve longer Planned Outage durations in its sole discretion, and the maximum duration does not apply to Outages under an NSO. [e35]
 
-Forced derates have reporting thresholds: a derate over ten MW and 5% of the Seasonal net maximum sustainable rating that lasts longer than 30 minutes must go into the Outage Scheduler within 60 minutes, except that a derate caused by ambient temperature or humidity has eight hours. [e8][e21] The IMM describes derated capacity as the difference between registered maximum capacity and actual capability. [e9]
+Maintenance levels. The definitions classify Maintenance Outages by how soon equipment must come out of service to prevent a Forced Outage: Level I within 24 hours, Level II within seven days, Level III within 30 days. [e22] (A timeline table of "Immediate", "two days" and "three days" in np-03 Section 3.1.5.12 applies to Transmission Facility outage requests, not Resources.)
+
+Exceptions to RPOL approval. ERCOT must approve a requested outage plan for a nuclear Generation Resource, and must approve an industrial generation facility's plan when the outage is necessitated by the needs of the industrial Load it serves, unless ERCOT determines the outage will impair transmission security. [e31][e32] ERCOT may, in its sole discretion, approve a plan that would exceed the RPOL if, among other listed cases, the Resource cannot operate because fuel supply is unavailable, such as gas pipeline outages. [e33]
+
+The RPOL. ERCOT calculates a maximum capacity of Resource Planned Outages for each day of the next 60 months, excluding nuclear outages and exempt QF outages. [e36] It posts the RPOL and aggregate approved Planned Outage MW at least twice a day for the next 60 months and hourly for the next seven days. [e37] ERCOT may adjust the RPOL if actual aggregate Forced and Maintenance Outages exceed the amount used in setting it. [e38]
+
+Forced outages and derates. After a Resource Forced Outage the QSE or Resource Entity must change the telemetered status to Off-Line within 15 minutes, update the COP within 60 minutes, and update the Outage Scheduler if necessary. [e39] A Resource Forced Outage in Real-Time must be entered into the Outage Scheduler within 60 minutes of its start. [e40] Forced derates have reporting thresholds: a derate over ten MW and 5% of the Seasonal net maximum sustainable rating that lasts longer than 30 minutes must go into the Outage Scheduler within 60 minutes, except that a derate caused by ambient temperature or humidity has eight hours; a change to a reported derate of the same size is entered as a new derate. [e8][e21][e52] The HSL telemetry must be updated within 15 minutes for such a derate, or the QSE may instead use the ONHOLD process. [e18][e41] ONHOLD may be set within 15 minutes of an event on an On-Line Resource and the status must be updated within 60 consecutive minutes of ONHOLD. [e42][e43] The IMM describes derated capacity as the difference between registered maximum capacity and actual capability. [e9]
+
+Opportunity outages and early returns. An Opportunity Outage is a special category of Planned Outage that may be approved when a Resource has been forced Off-Line and already has an approved Planned Outage in the next two days. [e24][e23] A Resource that completes a Planned Outage early must give notice at least two hours before startup. (Section 3.1.6.11 allows ERCOT to direct it to stay Off-Line if reliability requires; that rule is not quoted here.)
+
+When ERCOT may move planned outages. If ERCOT forecasts that it cannot meet reliability standards after other options, it can issue an Outage Schedule Adjustment, which delays or cancels and reschedules an already approved Planned Outage. [e48] ERCOT issues an Advance Action Notice at least 24 hours before any OSA, and may not consider nuclear-powered Generation Resources for an OSA. [e46][e47]
+
+Public data. Three days after each Operating Day ERCOT posts a Resource Forced Outage report listing each Forced Outage, Maintenance Outage or Forced Derate that occurred in or extended into the day, with at least the Resource name, unit code, fuel type and outage type. [e44][e45]
 
 ## ERCOT context
 
-The IMM says thermal outages and deratings are especially important because they can affect reliability when other resources are limited. [e20] It reports that planned and unapproved outages were lowest in summer and highest in spring and fall, while the most noteworthy change from 2024 to 2025 was a higher rate of forced outages and derates, particularly in summer. [e10] The IMM also says planned outages are only part of the total, many outages are forced, and many go unreported, which makes system planning harder. [e11]
+The IMM says thermal outages and deratings are especially important because they can affect reliability when other resources are limited. [e20] It says thermal generators tend to schedule more outages in the spring and fall when demand and prices are lower. [e53] It reports that planned and unapproved outages were lowest in summer and highest in spring and fall, while the most noteworthy change from 2024 to 2025 was a higher rate of forced outages and derates, particularly in summer. [e10] The IMM also says planned outages are only part of the total, many outages are forced, and many go unreported, which makes system planning harder. [e11]
 
-ERCOT's reviews show the same: summer thermal forced outages as a share of installed capacity have been higher in 2025-2026 than in 2019-2020, and in summer 2023 forced thermal outages stayed in a 4-8 GW range except on low net load days when generators did repairs. [e13][e15] ERCOT's January 2027 MORA assumes 8,105 MW of total thermal outages (planned plus unplanned) in normal grid conditions for its deterministic scenario. [e16] In the February 2021 event, FERC-NERC found that across the whole event area (ERCOT, SPP and MISO South, not ERCOT alone) freezing and fuel issues caused 75% of outages, derates and failures to start. [e14]
+Unreported outages. In its 2023 report the IMM found unreported outages peaked at almost 17 GW in the shoulder seasons and fell to very low levels in summer and winter, and average unreported deratings peaked at 6 GW in summer, which it said may reflect high ambient temperatures. [e57][e58] The IMM defined unreported outages or deratings as resources with OUT status codes or deratings below summer capacity levels that are not reported in the outage scheduler. [e59] NPRR 1084 was implemented at the end of 2022 to improve outage reporting, but the IMM's 2024 report said a large share of outages and derates were still not reported in the outage scheduler. [e54][e55] For 2024 it described forced outages as relatively stable across the year. [e56]
+
+ERCOT's reviews show: summer thermal forced outages as a share of installed capacity have been higher in 2025-2026 than in 2019-2020, and ERCOT's September 2026 review says summer 2026 (data period June 1 to August 15) generally had lower forced outages than summer 2025. [e13][e60][e61] In summer 2023 forced thermal outages stayed in a 4-8 GW range except on low net load days when generators did repairs. [e15] ERCOT's January 2027 MORA assumes 8,105 MW of total thermal outages in its deterministic scenario, of which 417 MW is planned and 7,688 MW unplanned. [e16][e62] The MORA says January 2026 unplanned thermal outages were significantly higher than January 2025 and moderately higher than January 2024. [e63] Its probabilistic model builds typical unplanned outages from the past three years (excluding major winter storms) and, separately, extreme-weather outages scaled from zero to the maximum observed in Winter Storm Uri. [e64][e65]
+
+In the February 2021 event, FERC-NERC found that across the whole event area (ERCOT, SPP and MISO South, not ERCOT alone) freezing and fuel issues caused 75% of outages, derates and failures to start. [e14] For Winter Storm Fern (January 2026), ERCOT's October 2026 weatherization briefing reports 76 outages of dispatchable generation and about 156,000 MWh lost, and says control-path, combustion systems, air inlets and coal-path issues drove the largest impacts. [e67][e66] The slide's scope (which Resources and which period) is not stated in the extracted text.
 
 ## Key facts
 
 - Forced derate reporting: more than ten MW and 5% of rating, lasting over 30 minutes, entered within 60 minutes (eight hours if caused by ambient temperature or humidity). [e8][e21]
+- Resource Forced Outage: telemetry Off-Line within 15 minutes, COP within 60 minutes. [e39]
+- Maintenance Outage levels: I within 24 hours, II within seven days, III within 30 days. [e22]
 - Outage plans cover at least 12 months and ERCOT decides on requests made more than 45 days ahead. [e5][e6]
-- Outage approval is limited by the Resource Planned Outage Limit (RPOL). [e7]
+- Outage approval is limited by the RPOL, with exceptions for nuclear and industrial generation and ERCOT's discretion for cases such as unavailable fuel supply. [e7][e31][e32][e33]
 - 2025 saw more forced outages and derates in summer than 2024, per the IMM. [e10]
 - Summer 2023 forced thermal outages stayed within 4-8 GW except on low net load days. [e15]
+- January 2027 MORA deterministic scenario: 8,105 MW thermal outages (417 MW planned, 7,688 MW unplanned). [e62]
+
+## Timeline
+
+- End of 2022: NPRR 1084 implemented to improve reporting of Resource outages, derates and Startup Loading Failures (per the IMM). [e54]
+- 2023: IMM finds unreported outages up to almost 17 GW in shoulder seasons. [e57]
+- 2024: forced outages relatively stable across the year; a large share of outages and derates still unreported. [e56][e55]
+- 2025: higher forced outages and derates in summer than 2024. [e10]
+- Summer 2026: generally lower forced outages than summer 2025 (June 1 to August 15). [e60][e61]
 
 ## Say it like this
 
@@ -330,13 +364,13 @@ ERCOT's reviews show the same: summer thermal forced outages as a share of insta
 
 ## Common confusion
 
-(Guidance) Do not assume an outage means the whole unit: the Forced Outage definition covers all or a portion of a Resource's capacity [e1], and a Forced Derate is the unavailability of a portion of capacity against its Seasonal net max sustainable rating. [e4] Also, the Protocol categories differ from how the IMM classifies outages in its charts: for scheduler records under 30 days, the IMM treats one submitted more than seven days ahead as planned and one submitted less than seven days ahead as forced. [e1][e17]
+(Guidance) Do not assume an outage means the whole unit: the Forced Outage definition covers all or a portion of a Resource's capacity [e1], and a Forced Derate is the unavailability of a portion of capacity against its Seasonal net max sustainable rating. [e4] Also, the Protocol categories differ from how the IMM classifies outages in its charts: for scheduler records under 30 days, the IMM treats one submitted more than seven days ahead as planned and one submitted less than seven days ahead as forced. [e1][e17] Do not apply the transmission outage timeline (Immediate / two days / three days) to Resource maintenance levels. [e22]
 
 ## Questions
 
 ### What is the difference between a Planned and a Maintenance Outage?
 
-Planned Outages are scheduled in advance with ERCOT; a Maintenance Outage is work that could be briefly postponed but is required to prevent a potential Forced Outage. [e2][e3]
+Planned Outages are scheduled in advance with ERCOT; a Maintenance Outage is work that could be briefly postponed but is required to prevent a potential Forced Outage, and is classed Level I, II or III by how soon the equipment must come out. [e2][e3][e22]
 
 ### When must a forced derate be reported?
 
@@ -346,8 +380,27 @@ If it exceeds ten MW and 5% of the Seasonal net maximum sustainable rating and l
 
 Forced outages and derates were higher than in 2024, especially in summer, and many outages remain unreported. [e10][e11]
 
+### Why does ERCOT limit planned outages, and why does it make exceptions?
+
+The RPOL caps aggregate Planned Outage MW so that enough capacity stays available. [e25][e29] It makes exceptions: nuclear outage plans must be approved, industrial generation plans must be approved unless transmission security is impaired, and ERCOT may exceed the RPOL in its sole discretion in listed cases such as unavailable fuel supply. [e31][e32][e33] The saved text does not state the reason for the nuclear exception.
+
+### What if a unit is forced offline a day before its planned outage?
+
+An Opportunity Outage may be approved: when a Resource is forced Off-Line and has an approved Planned Outage within the next two days, it may stay Off-Line and start the approved outage earlier. [e24]
+
+### Why do unreported outages matter to the market?
+
+The IMM says they make it harder for ERCOT to plan and operate the system reliably and says stronger reporting requirements would improve coordination and transparency. [e11] In 2023 it found they peaked at almost 17 GW in shoulder seasons. [e57]
+
+### Can ERCOT cancel an approved planned outage?
+
+Yes, through an Outage Schedule Adjustment, but only after an Advance Action Notice at least 24 hours earlier, and nuclear Resources cannot be considered. [e48][e46][e47]
+
 ## Open items
 
-- Deeper pass: Level I/II/III maintenance outage timelines, outage coordination for Reliability Resources, ONHOLD process, and the Resource Forced Outage report (np-03 3.1.4.8).
-- Deeper pass: forced outage MW by fuel type and by season; none was cleanly quotable from chart-derived text.
+- Resource Forced Outage report fields beyond the first four (np-03 3.1.4.8 (e)-(i)) were not quoted; the report content shown is partial.
+- Forced outage MW by fuel type and by season: no saved source gives a clean fuel-by-season table in the extracted text; the IMM charts are images. The Fern briefing gives counts and MWh by cause, not by fuel type for thermal.
 - The sources use "thermal" to cover gas, coal, nuclear and biomass; no single definition of "thermal outage" was found.
+- The IMM's outage-type classification changed between reports (2021 assumed all scheduled outages were planned; 2023 onward uses the seven-day rule for scheduler records), so outage splits across years are not strictly comparable.
+- The scope of the Winter Storm Fern slide (which Resources, which dates, how selected for review) is not in the extracted text.
+- Section 3.1.6.11 early-return rule (ERCOT may direct a Resource to stay Off-Line through a Verbal Dispatch Instruction) was only summarized, not quoted.
