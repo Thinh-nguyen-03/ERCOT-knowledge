@@ -47,7 +47,7 @@ evidence:
     quote: "The PPA, the long-term contract between a power generator selling electrical power to an electricity purchaser or offtaker, has been and remains the mainstay of competitive power markets and forms the lynchpin for the financing of power generation projects."
   - id: e2
     source: ref-epex-wind-hedging
-    locator: "General Introduction and Problem Definition (p. 5)"
+    locator: "General Introduction and Problem Definition"
     quote: "A Power Purchase Agreement (PPA) is a legal contract between a power producer and a power purchaser. The agreement typically outlines the terms of the sale of power, including pricing, delivery, and payment."
   - id: e3
     source: ref-ornl-ppa

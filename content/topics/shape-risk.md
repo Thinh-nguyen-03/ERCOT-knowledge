@@ -48,11 +48,11 @@ evidence:
     quote: "Shape risk refers to the variable amount of power generated at different times (and at different prices). Companies with electricity usage spread out throughout the day and night (like a data center company) that are looking for a PPA to serve as a hedge against variable retail electricity prices might be concerned about the shape of the power generation under the PPA not matching the shape of their own electricity consumption."
   - id: e3
     source: ref-wbcsd-multitech-ppa
-    locator: "Key PPA risks related to variable generation patterns (p. 3)"
+    locator: "Key PPA risks related to variable generation patterns"
     quote: "Shape or profile risk – This captures the fact that hour-to-hour generation will be variable depending on wind speed or solar irradiation, even if the overall volume over a sufficient period of time equals the estimated volume. Against this generation profile, the demand profile of a corporate buyer is likely to be flatter, with a pronounced variation between business and non-business days."
   - id: e4
     source: ref-epex-wind-hedging
-    locator: "General Introduction and Problem Definition (p. 5)"
+    locator: "General Introduction and Problem Definition"
     quote: "Wind and Solar power plants produce energy according to the weather at particular times and locations, not according to demand. Renewable energy generation companies are therefore exposed to what is known as the Shape Risk. This risk results from the time disconnect between supply and demand and the impact of the generation on the shape of the day-ahead price curve."
   - id: e5
     source: ref-rmi-ppa-risk
@@ -72,7 +72,7 @@ evidence:
     quote: "For a PPPA, shape risk requires the buyer to purchase or sell energy to manage over- or underproduction, while also impacting the deal’s opportunity cost."
   - id: e9
     source: ref-wbcsd-multitech-ppa
-    locator: "Physical PPA, as-produced sleeved structure (p. 6)"
+    locator: "Physical PPA, as-produced sleeved structure"
     quote: "For shape risk, if the sun did not shine or the wind did not blow, then the corporate buyer would need to procure the near-term reduction in volumes to meet its demand requirements."
   - id: e10
     source: ref-ferc-energy-primer
@@ -84,7 +84,7 @@ evidence:
     quote: "To provide such a “load-following” product, the PPA provider will likely need to generate from multiple renewable resources (a blend of solar, wind, hydro, and/or geothermal), as well as incorporate a storage solution."
   - id: e12
     source: ref-wbcsd-multitech-ppa
-    locator: "Introduction (p. 2)"
+    locator: "Introduction"
     quote: "Particularly, corporate buyers have shown increasing interest in firm or shaped PPA offerings in recent years (that is, rather than be exposed to a project’s variable generation profile, the corporate buyer can rely on a firm profile over a given time period – whether physically or via a financial hedging product)."
   - id: e13
     source: imm-som-2025
@@ -112,15 +112,15 @@ evidence:
     quote: "Average of SPPs for all hours ending 0700-2200 CPT"
   - id: e19
     source: ref-epex-wind-hedging
-    locator: "Quality Factor Index (p. 16)"
+    locator: "Quality Factor Index"
     quote: "The third and final index is the Quality Factor (QF) Index which is a measure of the Achieved Price divided by the Baseload Price."
   - id: e20
     source: ref-epex-wind-hedging
-    locator: "General Introduction and Problem Definition (p. 6)"
+    locator: "General Introduction and Problem Definition"
     quote: "This concentration effect, which results from the high correlation between energy production at different solar plants, will increasingly impact the achieved clearing prices especially during the hours between 10:00 and 16:00 thereby modifying the shape of the price curve."
   - id: e21
     source: ref-wbcsd-multitech-ppa
-    locator: "Shape risk (p. 12)"
+    locator: "Shape risk"
     quote: "The corporate buyer seeking to minimize shape risk tailors the contracted amount of renewable generation to its demand profile in an effort to reduce the number of hours in which it needs to purchase / sell additional power as well as to reduce the volume that it needs to purchase / sell."
   - id: e22
     source: imm-som-2025

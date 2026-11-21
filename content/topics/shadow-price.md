@@ -202,6 +202,10 @@ evidence:
     source: imm-som-2025
     locator: "page 84 (OCR), Chapter V.D.1, Violated Constraints"
     quote: "The 2025 shadow price caps were: e $5,251 per MW for base-case (non-contingency) constraints or voltage violations, e $4,500 per MW for 345 kV constraints, e $3,500 per MW for 138 kV constraints, and e $2,800 per MW for 69 kV thermal violations. e ERCOT treats GTCs as base-case stability constraints (for voltage or transient conditions) with a shadow price cap of $5,251 per MW."
+  - id: e39
+    source: imm-som-2025
+    locator: "page 86 (OCR), Chapter V.D.1, after Figure 38"
+    quote: "As in previous years, a large majority of constraint violations in 2025 were less than or equal to 5% above the constraint limit. These relatively small violations are priced at the same shadow price cap as more severe violations. This raises concerns because a single shadow price cap does not scale the cost of violating a constraint with the severity of the violation. Hence, it may be advisable to reconsider implementing transmission demand curves, which would recognize that the reliability risk of a post-contingency overload increases as the violation amount increases. Small violations should have lower shadow prices than large violations."
 ---
 
 ## Definition
@@ -235,6 +239,8 @@ The Attachment P LMP at an Electrical Bus is System Lambda minus the sum, over c
 Worked illustration (Suppose, not a quote): with a $2,000/MW shadow price on one constraint and no other constraints, a bus with shift factor -0.5 gets a congestion component of +$1,000/MWh under the formula above. [e16]
 
 ## ERCOT context
+
+The IMM says most 2025 violations were 5% or less above the limit yet are priced at the same cap as severe ones, and suggests reconsidering transmission demand curves so small violations get lower shadow prices; this is the IMM's recommendation, not a rule. [e39]
 
 The IMM reports that ERCOT implemented NPRR 1230 at the end of 2024 to raise the cap on base-case constraints, which lets SCED choose more expensive dispatch to avoid violations. [e5]
 
