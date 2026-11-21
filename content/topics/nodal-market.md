@@ -243,7 +243,7 @@ Who governs it. FERC's 2024 Energy Primer says FERC regulates all RTOs/ISOs exce
 
 (Guidance) In ERCOT every generator is paid the price at its own node, and that price includes the cost of transmission congestion, while load pays an average price across its load zone. That gives generators sharp location signals and gives retail load a smoother, easier-to-hedge price, at the cost of averaging some congestion inside each zone.
 
-(Guidance) ERCOT went nodal on December 1, 2010. Before that, congestion inside a zone was socialised to all loads, which the IMM said left generators with no reason to care where they were on the grid.
+(Guidance) ERCOT went nodal on December 1, 2010. Before that, congestion inside a zone was socialised to all loads, which the IMM said left generators with no reason to care where they were on the grid. [e20][e24]
 
 ## Common confusion
 

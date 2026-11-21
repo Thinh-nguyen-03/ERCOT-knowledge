@@ -6,7 +6,8 @@ kind: metric
 domain: congestion
 level: 2
 lenses: [analyst, congestion, trading]
-as_of: 2026-11-18
+as_of: 2026-11-21
+depth: deep
 links:
   - to: shadow-price
     type: related
@@ -26,6 +27,21 @@ links:
   - to: gtc
     type: related
     note: The SCED competitiveness test for constraints uses a 2% minimum shift factor threshold. [e5]
+  - to: lmp
+    type: determines
+    note: At an Electrical Bus, LMP is System Lambda minus the sum over constraints of shift factor times shadow price. [e8]
+  - to: system-lambda
+    type: related
+    note: System Lambda is the shadow price of the power balance constraint and the first term of the bus LMP formula. [e8]
+  - to: crr
+    type: used-in
+    note: CRR Settlement uses Day-Ahead Weighted Average Shift Factors at source and sink in the deration of PTP Obligations. [e13]
+  - to: market-power-mitigation
+    type: used-in
+    note: SCED Step 2 mitigation applies only to a Resource whose Shift Factor on the import side of a non-competitive constraint exceeds SFP4 (2%). [e11]
+  - to: sced
+    type: used-in
+    note: SCED applies a Shift Factor cutoff (default 0.0001 per the shadow-price-cap methodology) when modeling line flows. [e10]
 evidence:
   - id: e1
     source: np-02
@@ -55,6 +71,55 @@ evidence:
     source: np-03
     locator: "Section 3.19.4, pending NPRR1182 replacement box for paragraph (2)(c)"
     quote: "(c) There are Shift Factors corresponding to Electrical Buses with Available Capacity for a Resource that can help resolve the constraint by increasing power injection or reducing power withdrawal that have an absolute value greater than or equal to SFP3; and"
+  - id: e8
+    source: np-22p-2025-12
+    locator: "Section 3.1, Congestion LMP Component"
+    quote: "Where: LMP_(EB) is LMP at Electrical Bus EB λ is System Lambda (Shadow Price of power balance) SF_(EB)^(line) is Shift Factor for Electrical Bus EB for transmission line SP ^(line) is Shadow Price for transmission line."
+  - id: e9
+    source: np-22p-2025-12
+    locator: "Section 3.1, Congestion LMP Component"
+    quote: "Note that the Shadow Prices for congested transmission lines are positive, otherwise they are equal zero. The Shift Factors for Electrical Buses on one side of transmission line are negative and for Electrical Buses on the other side of transmission line are positive."
+  - id: e10
+    source: np-22p-2025-12
+    locator: "Section 3.3, Shift Factor Cutoff"
+    quote: "The Shift Factor cutoff can reduce volume of Shift Factor data and filter out numerical errors in calculating Shift Factors. Currently the default value of Shift Factor cut off is 0.0001) and is implemented at the Energy Management System (EMS) to reduce the amount of data transferred to MMS. Any threshold above that level will cause a distortion of congestion management process."
+  - id: e11
+    source: np-03
+    locator: "Section 3.19.4, paragraph (7)(a)-(c)"
+    quote: "(a) A constraint has been determined to be a Non-Competitive Constraint by either the SCED CCT or the IMM;"
+  - id: e12
+    source: np-03
+    locator: "Section 3.19.1, threshold table (SFP4)"
+    quote: "SFP4        Minimum Shift Factor threshold below which a Resource will not have mitigation applied in SCED Step 2                                                        2%"
+  - id: e13
+    source: np-07
+    locator: "Section 7.9.3 (CRR settlement variables), DAWASF definition"
+    quote: "DAWASF _(j, c)          none            Day-Ahead Weighted Average Shift Factor at source per constraint—The Day-Ahead Shift Factor for the source Settlement Point and the directional network element for constraint c, in the hour."
+  - id: e14
+    source: np-04
+    locator: "Section 4.6.1.2, Day-Ahead Settlement Point Prices for Load Zones, variable definitions"
+    quote: "DALZSF _(c)      none    Day-Ahead Shift factor of the Load Zone The DAM aggregated Shift Factor of a Load Zone for the constraint c for the hour."
+  - id: e15
+    source: np-04
+    locator: "Section 4.6.1.2, variable definitions"
+    quote: "DASF _(pb, ,c)   none    Day-Ahead Shift factor of the power flow busThe DAM Shift Factor of a power flow bus pb that is a component of the Load Zone for the constraint c for the hour."
+  - id: e16
+    source: np-04
+    locator: "Section 4.6.1.2, variable definitions"
+    quote: "DADF _(pb, c)    none    Day-Ahead Distribution factor per power flow bus for a constraintThe Load distribution factor for power flow bus pb in the Load Zone for the constraint c for the hour."
+  - id: e17
+    source: np-04
+    locator: "Section 4.5, paragraph (7) (current text)"
+    quote: "(7) As soon as practicable, but no later than 1330, ERCOT shall make available the Day-Ahead Shift Factors for binding constraints in the DAM and post to the Market Information System (MIS) Secure Area."
+  - id: e18
+    source: np-22p-2025-12
+    locator: "Section 3.1, Congestion LMP Component"
+    quote: "Generating units with small Shift Factors (i.e. below Shift Factor threshold) will not be as effective in resolving constraints as will generation units with higher shift factors on the constraint. If there are no efficient generating units then the Shadow Price must be increased to get enough contribution from inefficient units. Therefore, high Shadow Prices indicate inefficient congestion management."
+  - id: e19
+    source: np-22p-2025-12
+    locator: "Section 3.3, Shift Factor Cutoff"
+    quote: "The Shift Factor cutoff will cause mismatch between optimized line power flow and actual line power flow that will happen when dispatch Base Points are deployed. This mismatch can degrade the efficiency of congestion management."
+
 ---
 
 ## Definition
