@@ -41,7 +41,7 @@ links:
     note: The IMM says many wind and solar resources receive federal production tax credits and so are incentivized to produce even when prices are negative. [e7]
   - to: gtc
     type: related
-    note: The IMM says ERCOT had 26 active GTCs in 2025, compared to 18 in 2021, and that renewable siting concentrates congestion. [e31]
+    note: The IMM says ERCOT had 26 active GTCs in 2025, compared to 18 in 2021. [e31]
 evidence:
   - id: e1
     source: np-02
@@ -185,9 +185,9 @@ Solar is an Intermittent Renewable Resource: in the Protocols, a Generation Reso
 
 The IMM says solar production peaks in the middle of the day. [e8] Its capacity factor is high at daily peak load (over 48% in 2025) but near zero at the evening net peak (1.7% in 2025). [e4] Its overall capacity factor was 23.8% in 2025, below wind's 31.6%. [e5] The IMM's Table 2 lists, for solar, overall, daily-peak-load and daily-net-peak capacity factors of 22.6%, 40.4% and 10.1% for 2023, 22.2%, 42.5% and 3.9% for 2024, and 23.8%, 48.4% and 1.7% for 2025 (the second set of three columns in the table, which matches the 2025 text). [e16][e4] The IMM defines the capacity factor as the ratio of a resource's energy output to its maximum capability. [e33]
 
-Because solar output is concentrated at midday, midday is also when curtailment is most likely, since simultaneous production peaks. [e3] Roughly 6% of solar generation was curtailed in 2025, which the IMM calls relatively low, partly because solar projects can be sited closer to load and are less prone to congestion than wind. [e2] Developers also expand into regions with lower renewable potential but less congestion, which the IMM says is helped by falling solar capital costs, even if annual output per project is lower. [e18]
+The IMM says solar resources are more likely to be curtailed at midday, when simultaneous production peaks. [e3] Roughly 6% of solar generation was curtailed in 2025, which the IMM calls relatively low, partly because solar projects can be sited closer to load and are less prone to congestion than wind. [e2] The IMM says renewable developers also expand into regions with lower renewable potential but less congestion, a strategy it calls particularly applicable when capital cost declines, as it has for solar, even if annual output is lower. [e18]
 
-ERCOT's CDR treats solar capacity through an Effective Load Carrying Capability (ELCC), which is not a direct measure of generation output but an indicator of the expected reliability benefit of the capacity. [e27] The ELCC capacity is the ELCC percentage multiplied by the resource type's aggregate installed capacity in MW, and ELCCs are estimated by year, season and daily risk period (afternoon and evening in non-winter months). [e25][e26] For solar, the CDR says ELCC falls as solar is added: the risk of reliability issues is pushed into the evening hours when solar drops, and solar ELCCs decrease sharply for the evening risk period but also for the afternoon. [e24]
+ERCOT's CDR treats solar capacity through an Effective Load Carrying Capability (ELCC), which is not a direct measure of generation output but an indicator of the expected reliability benefit of the capacity. [e27] The ELCC capacity is the ELCC percentage multiplied by the resource type's aggregate installed capacity in MW, and ELCCs are estimated by year, season and daily risk period (afternoon and evening for non-winter months; morning, afternoon and evening for winter months). [e25][e26] For solar, the CDR says ELCC falls as solar is added: the risk of reliability issues is pushed into the evening hours when solar drops, and solar ELCCs decrease sharply for the evening risk period but also for the afternoon. [e24]
 
 ## ERCOT context
 
@@ -235,7 +235,7 @@ The IMM says many receive federal production tax credits, so they are incentiviz
 
 ### Where is solar curtailed most?
 
-At midday, when simultaneous production peaks. [e3]
+The IMM says solar resources are more likely to be curtailed at midday, when simultaneous production peaks. [e3]
 
 ### Why does solar's ELCC fall as more solar is added?
 
@@ -247,7 +247,7 @@ The IMM says solar's 2025 captured price ($21 per MWh) was nearly at parity with
 
 ### What if the 2025 net-peak capacity factor of 1.7% fell further?
 
-(Guidance) Solar would contribute essentially nothing to the net peak, so evening adequacy would rest on wind, storage and thermal; the IMM notes ESRs' evening role and that wind's net-peak capacity factor was 29.3% in 2025. [e4][e16]
+(Guidance) Solar would contribute essentially nothing to the net peak, so evening adequacy would have to come from other resources; for reference, wind's capacity factor in the net-peak interval was 29.3% in 2025 [e4][e16], and ERCOT's summer 2026 review describes ESRs charging in the day to discharge over the evening solar ramp. [e9]
 
 ## Open items
 

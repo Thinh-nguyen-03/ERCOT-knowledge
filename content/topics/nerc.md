@@ -162,7 +162,7 @@ NERC is the North American Electric Reliability Corporation, certified by FERC a
 
 ## How it works
 
-NERC writes the mandatory standards and the Regional Entities administer and enforce them regionally under NERC's delegated authority. [e1][e2] A 2024 FERC staff primer says the standards, once FERC approves them, must be met by the applicable industry participants designated in each standard, so the grid is planned and operated to meet them. [e11]
+NERC is responsible for establishing the mandatory Reliability Standards, and Regional Entities have delegated authority from NERC to propose and enforce them. [e1][e2] A January 2024 FERC staff primer says the standards, once FERC approves them, must be met by the applicable industry participants designated in each standard, so the grid is planned and operated to meet them. [e11]
 
 In ERCOT, ERCOT itself carries reliability functions; per the 2021 FERC-NERC report it serves as a Balancing Authority and Planning Coordinator and shares Transmission Operator duties with transmission utilities in its footprint. [e4] The Operating Guides tie ERCOT's duties to NERC Reliability Standards [e14], and require ERCOT and TSPs to operate the transmission grid in compliance with Good Utility Practice, NERC Reliability Standards, the Protocols and the Operating Guides. [e13] The Protocols say the technical reliability criteria are established by the Planning Guide, Operating Guides and NERC Reliability Standards, and that ERCOT and TSPs shall strongly endeavor to meet them and initiate solutions to ensure continual compliance. [e15]
 
@@ -181,7 +181,7 @@ Texas RE staff also worked alongside ERCOT on winter readiness. ERCOT and Texas 
 
 Participants report to NERC through ERCOT's procedures: in a system incident or disturbance as described by NERC and DOE, QSEs and TSPs provide required reports to ERCOT, DOE and/or NERC. [e25] ERCOT's operating reserve requirements are more restrictive than NERC Reliability Standards, per the Operating Guides. [e26]
 
-In the stakeholder process, the NERC Regional Entity may submit an NPRR, attend PRS meetings and appeal PRS actions to TAC. [e7][e17][e18] The 2024 FERC primer says FERC regulates all RTOs/ISOs except ERCOT, which is why NERC standards and the PUCT, rather than FERC market rules, are the main federal and state reliability anchors here. [e12]
+In the stakeholder process, the NERC Regional Entity may submit an NPRR, attend PRS meetings and appeal PRS actions to TAC. [e7][e17][e18] The 2024 FERC primer says FERC regulates all RTOs/ISOs except ERCOT. [e12]
 
 ## Timeline
 
@@ -193,7 +193,7 @@ In the stakeholder process, the NERC Regional Entity may submit an NPRR, attend 
 
 - NERC is the FERC-certified ERO and develops mandatory Reliability Standards. [e1]
 - Texas RE is one of the Regional Entities with delegated authority to propose and enforce standards. [e2][e3]
-- ERCOT is a Balancing Authority and Planning Coordinator and shares Transmission Operator duties. [e4]
+- The 2021 FERC-NERC report says ERCOT serves as a Balancing Authority and Planning Authority/Planning Coordinator and shares Transmission Operator duties. [e4]
 - The NERC Regional Entity may submit an NPRR. [e7]
 - The report says FERC approved NERC Reliability Standard revisions in August 2021, adding a cold weather preparedness plan requirement for generating units, effective April 1, 2023. [e8]
 - The ERCOT Region has its own Regional Reliability Standard on Primary Frequency Response, BAL-001-TRE-2 (per the 2021 report). [e16]
@@ -226,7 +226,7 @@ The Operating Guides require each TO to submit its plan to ERCOT by February 15 
 
 ### Does ERCOT write reliability standards?
 
-NERC writes the mandatory standards, and Regional Entities may propose them. [e1][e2] ERCOT has its own operating requirements that the Guides say are more restrictive than NERC's for operating reserves. [e26]
+NERC is responsible for establishing the mandatory standards, and Regional Entities have delegated authority to propose and enforce them. [e1][e2] ERCOT has its own operating requirements that the Guides say are more restrictive than NERC's for operating reserves. [e26]
 
 ## Open items
 

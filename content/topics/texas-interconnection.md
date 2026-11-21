@@ -147,7 +147,7 @@ evidence:
   - id: e27
     source: imm-som-2022
     locator: "2022 State of the Market Report, B. Imports to ERCOT"
-    quote: "The figure shows that ERCOT remained a net importer in 2022, and by an even wider margin than in 2021. This trend began in 2018 because of tightening supply in ERCOT and the resulting higher prices in 2018 and 2019."
+    quote: "The figure shows that ERCOT remained a net importer in 2022, and by an even wider margin than in 2021. This trend began in 2018 because of tightening supply in ERCOT and the resulting higher prices in 2018 and 2019. The amount of tie activity in general in 2022 was higher than the activity in 2021 because of the higher prices resulting from high summer demand, as well as the ORDC shift implemented on January 1, 2022."
   - id: e28
     source: imm-som-2023
     locator: "2023 State of the Market Report, Imports to ERCOT (after Figure 17)"
@@ -159,7 +159,7 @@ evidence:
   - id: e30
     source: nog-02
     locator: "Nodal Operating Guide Section 2.6.3(1), Frequency Ride-Through Requirements for DC Ties"
-    quote: "The following Direct Current Ties (DC Ties) are subject to the frequency ride-through requirements specified in this Section: (a) Any DC Tie with an initial energization date after January 1, 2021."
+    quote: "The following Direct Current Ties (DC Ties) are subject to the frequency ride-through requirements specified in this Section: (a) Any DC Tie with an initial energization date after January 1, 2021. (b) Any DC Tie that is modified by increasing the physical capacity of the DC Tie by 20 MW or more or by changing the power converter associated with the DC Tie, unless the replacement is in-kind."
   - id: e31
     source: np-04
     locator: "Section 4.4.4(13), DC Tie Schedules"
@@ -168,6 +168,14 @@ evidence:
     source: imm-som-2020
     locator: "2020 State of the Market Report, C. Imports to ERCOT"
     quote: "The figure shows that ERCOT remained a net importer in 2020. This trend began in 2018 due to tightening supply in ERCOT and the resulting higher prices in 2018 and 2019."
+  - id: e33
+    source: np-06
+    locator: "Section 6.6.3.4(1), variable table (RTDCIMPAMT, RTSPP, RTDCIMP)"
+    quote: "RTDCIMP _(q, p) | MW | Real-Time DC Import per QSE per Settlement Point—The aggregated DC Tie Schedule submitted by QSE q as an importer into the ERCOT System through DC Tie p, for the 15-minute Settlement Interval."
+  - id: e34
+    source: np-06
+    locator: "Section 6.6.3.4(1), variable table, RTDCIMPAMT"
+    quote: "Real-Time DC Import Amount per QSE per Settlement Point—The payment to QSE q for DC Tie import through DC Tie p, for the 15-minute Settlement Interval."
 ---
 
 
@@ -183,11 +191,11 @@ Power can flow either way across the ties. Exports add to ERCOT demand and impor
 
 Exports are the first to go in a pinch. DC Tie Load is counted as Load in reliability studies and settled as Adjusted Metered Load, but it is curtailed before other ERCOT Load and during EEA events. [e21] ERCOT may also curtail a schedule when the neighboring system operator asks because of an emergency in its own area. [e31] On the import side, using DC Tie import capacity not already in use is one of the prescribed EEA Level 1 steps. [e25]
 
-Isolation shapes reliability. With no synchronous neighbors, all frequency response must come from resources inside ERCOT. Because the system is smaller than the other interconnections, losing a unit causes a steeper frequency drop, so ERCOT needs more robust frequency response. [e7] DC ties energized after January 1, 2021 must meet the Operating Guide's frequency ride-through requirements. [e30]
+Isolation shapes reliability. With no synchronous neighbors, all frequency response must come from resources inside ERCOT. Because the system is smaller than the other interconnections, losing a unit causes a steeper frequency drop, so ERCOT needs more robust frequency response. [e7] DC ties energized after January 1, 2021, and ties modified by adding 20 MW or more of capacity or by a non-in-kind converter change, must meet the Operating Guide's frequency ride-through requirements. [e30]
 
 ## Formula
 
-The Real-Time payment for DC tie imports is priced at the Real-Time Settlement Point Price at the DC Tie Settlement Point: RTDCIMPAMT(q, p) = (-1) × RTSPP(p) × (RTDCIMP(q, p) × ¼), for each 15-minute Settlement Interval. [e24] In words: the imported MW for the interval, times one quarter to turn MW into MWh, times the real-time price at that tie, with a negative sign because it is a payment to the QSE. [e24]
+The Real-Time payment for DC tie imports is priced at the Real-Time Settlement Point Price at the DC Tie Settlement Point: RTDCIMPAMT(q, p) = (-1) × RTSPP(p) × (RTDCIMP(q, p) × ¼), for each 15-minute Settlement Interval. [e24] In words: the QSE's aggregated DC Tie Schedule as an importer (in MW) for the interval, times one quarter to turn 15 minutes of MW into MWh, times the real-time price at that tie, times (-1). [e24][e33] The Protocols define RTDCIMPAMT as the payment to the QSE for the DC Tie import; the (-1) reflects the settlement sign convention for payments, which this section does not itself explain. [e34]
 
 ## ERCOT context
 
@@ -195,12 +203,12 @@ Isolation also shapes regulation. The FERC-NERC staff report states that ERCOT's
 
 The ERCOT footprint is not all of Texas. It covers about 75 percent of the state's land area, excluding the El Paso area, part of the northern panhandle, and part of east Texas north and east of Houston to the Louisiana border. [e14]
 
-Net DC tie flows are small and change direction. The IMM reported ERCOT a net importer every year from 2018 through 2023, a trend it ties to tight supply and higher prices in 2018 and 2019. [e32][e27][e28] ERCOT was a net exporter in 2024 for the first time since 2018. [e11] In 2025 it returned to net importer, exporting to Mexico and importing from SPP, with average net inflow of only about 36 MW. [e10] During Winter Storm Uri, ERCOT imported what it could, but with 1,220 MW of tie capability it could not import the many thousands of MW that MISO and SPP brought in. [e13]
+Net DC tie flows are small and change direction. The IMM's 2020, 2022 and 2023 reports describe ERCOT as a net importer (2022 by a wider margin than 2021), in a trend they say began in 2018 because of tight supply and higher prices in 2018 and 2019. [e32][e27][e28] The IMM's 2024 report calls 2024 ERCOT's first net-export year "since 2018", so the IMM reports are not consistent about 2018 itself. [e11] In 2025 it returned to net importer, exporting to Mexico and importing from SPP, with average net inflow of only about 36 MW. [e10] During Winter Storm Uri, ERCOT imported what it could, but with 1,220 MW of tie capability it could not import the many thousands of MW that MISO and SPP brought in. [e13]
 
 ## Key facts
 
 - Four asynchronous DC ties: North and East (to SPP), and Laredo VFT and Railroad (to Mexico). [e3][e4]
-- About 1,220 MW of total tie capability: 820 MW to SPP and 400 MW to Mexico (2021 onward); the IMM's 2020 report described three Mexico ties totalling 430 MW. [e5][e6][e26]
+- About 1,220 MW of total tie capability: 820 MW to SPP and 400 MW to Mexico (FERC-NERC 2021 report and IMM 2025 report); the IMM's 2020 report described three Mexico ties totalling 430 MW. [e5][e6][e26]
 - Importer = Resource, exporter = Load at the DC Tie Settlement Point; exporters pay allocated losses, UFE and fees. [e18][e19]
 - DC Tie Load is curtailed before other ERCOT Load and during EEAs. [e21]
 - Market Participants may not make DC tie exports reasonably expected to be uneconomic, excluding CARD and CRRBA allocations (a pending NPRR1030 box would delete this paragraph). [e22]
@@ -212,16 +220,16 @@ Net DC tie flows are small and change direction. The IMM reported ERCOT a net im
 ## Timeline
 
 - 1941: ERCOT and SPP formed to pool resources for the war effort (FERC primer). [e17]
-- 2018: ERCOT became a net importer over its ties, a trend that continued through 2023. [e32][e28]
+- 2018: the start, per the IMM's 2020-2023 reports, of a net-import trend over the ties that continued through 2023 (the IMM's 2024 report instead implies 2018 was a net-export year). [e32][e28][e11]
 - January 1, 2021: DC ties energized after this date fall under the Operating Guide's frequency ride-through requirements. [e30]
 - February 2021: Winter Storm Uri; ERCOT's tie import limit was 1,220 MW against nearly 13,000 MW imported by MISO and SPP. [e13]
-- 2022: net imports widened, with more tie activity after high summer prices. [e27]
+- 2022: net imports widened; the IMM attributes higher tie activity to high-summer-demand prices and the January 1, 2022 ORDC shift. [e27]
 - 2024: ERCOT a net exporter for the first time since 2018. [e11]
 - 2025: back to net importer, about 36 MW average net inflow. [e10]
 
 ## Say it like this
 
-(Guidance) ERCOT is its own grid. It is tied to the rest of North America only through about 1,220 MW of DC ties, so in a crisis it has to rely almost entirely on resources inside Texas. [e5] Separately, FERC says it regulates every RTO/ISO except ERCOT, because power exchanges stay within the state; the system is under PUCT jurisdiction. [e16][e8][e1]
+(Guidance) ERCOT is its own grid. It is tied to the rest of North America only through about 1,220 MW of DC ties, so in a crisis it has to rely almost entirely on resources inside Texas. [e5] Separately, FERC's primer says FERC regulates every RTO/ISO except ERCOT, and the FERC-NERC staff report explains that power exchanges there stay within the state; the system is under PUCT jurisdiction. [e16][e8][e1]
 
 ## Common confusion
 
@@ -260,6 +268,7 @@ The FERC-NERC report says flows are scheduled as day-ahead energy transactions, 
 ## Open items
 
 - The saved sources name the Mexican counterparty differently: FERC-NERC says CENACE, the grid operator [e4]; the IMM and the current Protocol text say CFE (Comisión Federal de Electricidad). [e6][e23] Not reconciled; the two may play different roles.
+- The IMM's 2024 report calls 2024 the first net-export year "since 2018" [e11], while its 2020-2023 reports say the net-import trend began in 2018 [e32][e28]. Which applies to 2018 itself is not resolved in the saved sources.
 - The IMM's 2020 report lists three Mexico ties totalling 430 MW [e26]; later reports and FERC-NERC say two ties and 400 MW. Which tie changed is not explained in the sources.
 - No saved source covers the legal history of ERCOT's non-FERC status (for example, the specific Federal Power Act provisions or court and FERC orders).
 - No saved source gives the individual MW rating of each named DC tie, only the SPP and Mexico totals.
