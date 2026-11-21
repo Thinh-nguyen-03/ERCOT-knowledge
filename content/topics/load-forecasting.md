@@ -6,7 +6,8 @@ kind: concept
 domain: fundamentals
 level: 2
 lenses: [analyst, trading, portfolio]
-as_of: 2026-11-18
+as_of: 2026-11-21
+depth: deep
 links:
   - to: weather-load
     type: related
@@ -29,6 +30,21 @@ links:
   - to: sc-load-forecast-miss
     type: related
     note: A forecast-miss scenario exercises the over-forecast bias the IMM reports. [e6]
+  - to: uplift
+    type: related
+    note: The IMM ties RENA uplift to differences between the Load distribution factors used in the DAM and actual real-time load distribution, and says NPRR 1004 (daily LDF from load forecast models) should reduce it. [e47][e48]
+  - to: non-spin
+    type: used-in
+    note: ERCOT's 2026 AS methodology builds ECRS and Non-Spin requirements from historic 30-minute-ahead and 6-hour-ahead net load forecast errors. [e43]
+  - to: ecrs
+    type: used-in
+    note: The IMM reports that ECRS minimums were initially computed using the 85th to 95th percentile of 30-minute-ahead intra-hour net load forecast error. [e46]
+  - to: cdr-report
+    type: related
+    note: The IMM compares load forecasts published in the CDR and the LTLF in its chronology of forecast changes since December 2023. [e38]
+  - to: sb6
+    type: related
+    note: PUCT rule 16 TAC §25.370 governs when large loads may be included in ERCOT load forecasts for transmission planning and resource adequacy. [e29]
 evidence:
   - id: e1
     source: np-03
@@ -214,6 +230,22 @@ evidence:
     source: imm-som-2023
     locator: "page 78 (OCR), ECRS requirements"
     quote: "ERCOT initially computed minimum requirements for ECRS as the sum of the capacity needed to recover frequency following a large unit trip and the 85th to 95th percentile of 30-minute ahead intra-hour net load forecast error."
+  - id: e47
+    source: imm-som-2024
+    locator: "page 96 (OCR), RENA evaluation"
+    quote: "Differences between the load distribution factor (LDF) used in the DAM and the actual real-time load distribution (LDF contribution);"
+  - id: e48
+    source: imm-som-2024
+    locator: "page 96 (OCR), RENA evaluation"
+    quote: "NPRR 1004, Load Distribution Factor Process Update, approved on August 11, 2020, is still pending implementation, but should reduce this uplift."
+  - id: e49
+    source: imm-som-2024
+    locator: "page 96 (OCR), RENA evaluation"
+    quote: "This change will introduce load forecast models to calculate daily LDF rather than the current seasonal LDF based on historical patterns."
+  - id: e50
+    source: imm-som-2024
+    locator: "page 130 (OCR), H. Load Forecast, chronology"
+    quote: "June 2021. The Texas Legislature passed SB 1281, which took effect in September 2021. SB 1281 introduced Section 37.056(c-1) of the Utilities Code, which required load forecasts to consider (1) historical load, (2) forecasted load, and (3) additional load seeking interconnection."
 ---
 
 ## Definition
@@ -222,21 +254,47 @@ Under the Protocols, ERCOT produces and uses Load forecasts to serve operations 
 
 ## How it works
 
-The Seven-Day Load Forecast predicts hourly Loads for the next 168 hours from current weather forecast parameters in each Weather Zone, because Day-Ahead operations require an accurate forecast of the Loads for which capacity must be secured. [e4] ERCOT reviews the result and may modify it with judgment before it is used in the Ancillary Service Capacity Monitor, DRUC, HRUC and resource adequacy reporting. [e5] The 36-Month Load Forecast gives daily minimum and maximum Load and is used in outage coordination and resource adequacy reporting. [e3]
+Short-term operations. The Seven-Day Load Forecast predicts hourly Loads for the next 168 hours from current weather forecast parameters in each Weather Zone, because Day-Ahead operations require an accurate forecast of the Loads for which capacity must be secured. [e4] Its inputs are hourly forecasted weather parameters for the weather stations in the Weather Zones, updated at least once per hour, and training information from historic hourly integrated Weather Zone Loads. [e18] It must also have a self-training mode that lets ERCOT review historic Load data and retrain the algorithm. [e13] ERCOT reviews the result and may modify it with judgment before it is used in the Ancillary Service Capacity Monitor, DRUC, HRUC and resource adequacy reporting. [e5]
 
-For the long term, ERCOT prepares at least annually a forecast of hourly Loads for a minimum of ten years using an econometric forecast with weather conditions and demographic data. [e12] The 2025 forecast document describes econometric models of hourly load as a function of premises by customer class, weather variables and calendar variables, and a normal-weather summer peak formed by averaging the summer peaks from seventeen weather scenarios, which are built from actual weather for 2008 through 2024. [e8][e11][e15]
+Where it is used. The RUC process lists the ERCOT system-wide hourly Load forecast, allocated over Load buses, among its factors. [e26] ERCOT initiates HRUC at least one hour before the Operating Hour to fine-tune commitments using updated Load forecasts and outage information. [e25] In Real-Time operations ERCOT posts updated system-wide Mid-Term Load Forecasts for all forecast models available to Operations, with an indicator of which forecast was in use. [e28] The State Estimator applies a Bus Load Forecast to the transmission buses, flagged with a low measurement confidence factor. [e27]
+
+Study Areas. ERCOT develops Study Areas for Load forecasting and study purposes and provides the data to the market. [e23] It also posts an hourly Seven-Day Study Area Load Forecast, based on weather parameters in each Study Area, which does not change the Weather Zone or Forecast Zone values. [e24]
+
+Longer term. The 36-Month Load Forecast gives daily minimum and maximum Load and is used in outage coordination and resource adequacy reporting. [e3] ERCOT prepares at least annually a forecast of hourly Loads for a minimum of ten years using an econometric forecast with weather conditions and demographic data. [e12] The 2025 forecast document describes econometric models of hourly load as a function of premises by customer class, weather variables and calendar variables, and a normal-weather summer peak formed by averaging the summer peaks from seventeen weather scenarios, which are built from actual weather for 2008 through 2024. [e8][e11][e15] That document designates the forecast using 2008 historical factors as the ERCOT 50th percentile forecast. [e36]
+
+Pending changes (not the rule in force; they appear as pending boxes in the Protocols). NPRR975 (np-03 3.12.1) would have ERCOT use a variety of Load forecast models and select, for each of the next 168 hours, the model that best fits expected conditions. [e19] The same box would require a posted explanation when the selected forecast used at DRUC for the peak Demand hour of any of the next seven days differs from the average of the forecast models by more than the greater of 2000 MW or 4%. [e20] NPRR1004 and NPRR1240 (np-03 3.12) would have ERCOT post Load distribution factors daily, derived from the Mid-Term Load Forecast. [e21] The current np-04 4.5.1(5) text says the non-Private Use Network Load distribution factors are based on historical State Estimator hourly distribution using a proxy day methodology representing anticipated weather conditions. [e22]
 
 ## ERCOT context
 
-Forecast accuracy affects commitment. The IMM says an over-forecast of net demand can lead to sub-optimal commitment, and an under-forecast can leave real-time shortfalls that are often addressed through RUC. [e10] The IMM reports that the average net load forecast error (measured eight hours ahead of real-time) fell to about 452 MW in 2025 from more than 1,000 MW in 2023 and 2024, but forecasts still systematically over-forecast load and under-forecast renewable output. [e6][e17] The IMM calls the LTLF ERCOT's primary tool for projecting load growth over ten years. [e9]
+Forecast accuracy affects commitment. The IMM defines net demand as demand minus expected IRR generation and says an over-forecast of net demand can lead to sub-optimal commitment, and an under-forecast can leave real-time shortfalls that are often addressed through RUC. [e10] The IMM reports that the average net load forecast error (measured eight hours ahead of real-time) fell to about 452 MW in 2025 from more than 1,000 MW in 2023 and 2024, and that accuracy for net load and IRR generation has improved meaningfully since the second half of 2022. [e6][e17][e41] Forecasts still systematically over-forecast load and under-forecast IRR generation, with IRR under-forecast by only 89 MW on average in 2025, while forecast variance has grown with installed solar. [e6][e40]
+
+Forecast error feeds ancillary service sizing. ERCOT's 2026 methodology accounts for risk using historic 30-minute-ahead and 6-hour-ahead net load forecast errors and forced outages over the previous four years, and ERCOT may procure up to an additional 1,000 MW of Non-Spin for hours it identifies as having high forecast variability. [e43][e44] The IMM's earlier reports say ECRS minimums were first computed using the 85th to 95th percentile of 30-minute-ahead intra-hour net load forecast error [e46], and that NSRS used the ten-hour-ahead forecast error from January through May 2023 and the six-hour-ahead error afterward. [e45]
+
+Operator posture. The IMM's 2021 report says that after the June 2021 conservation appeal ERCOT adopted a more conservative operating posture, including adjusting its selection of forecast to rely more frequently on the highest load forecast and the lowest wind and solar forecasts. [e42]
+
+Long-term and large loads. The IMM says ERCOT's peak demand grew from 74.7 GW in 2019 to 85.6 GW in 2024 (2.76% a year), while recent forecasts diverged sharply: its chronology notes a July 2024 LTLF including officer letter loads that projected 148 GW in 2030, against 86.5 GW and 82.8 GW in the December 2023 and May 2024 CDRs. [e39][e38] PUCT rule 16 TAC §25.370, effective 3/1/2026, says ERCOT must not include a large load customer's forecasted demand in a load forecast used for identifying transmission planning needs or performing resource adequacy assessments unless the customer executed an interconnection agreement and provided the required disclosures and financial commitments. [e29] The rule is limited to those transmission planning and resource adequacy forecasts; it does not address the Seven-Day Load Forecast. [e29][e32] ERCOT may adjust DSP-provided load data only with the DSP's agreement for error corrections or withdrawals, or with PUCT approval supported by actual historical realization rates or other objective, credible, independent information. [e30] It must also file an annual assessment comparing past forecasts to actual outcomes, identifying error sources and recommending improvements. [e31]
+
+In its preliminary LTLF for 2026-2032 ERCOT projected approximately 278,003 MW of total demand by 2029 and 367,790 MW by 2032, against an all-time peak of 85,508 MW. [e33] ERCOT then said it expected summer 2026 peak load of approximately 90,500 to 98,000 MW against about 112,000 MW in the preliminary LTLF, and proposed two ways to adjust the LTLF: a historical realization rate or the forecast from the Large Load Batch Zero process. [e34][e35]
 
 ## Key facts
 
-- Seven-Day Load Forecast: hourly, 168 hours, by Weather Zone and Forecast Zone, posted hourly. [e2][e4]
+- Seven-Day Load Forecast: hourly, 168 hours, by Weather Zone and Forecast Zone, posted hourly; weather inputs updated at least hourly. [e2][e4][e18]
 - 36-Month Load Forecast: monthly, daily min and max Load. [e3]
 - Intra-Hour Load Forecast: rolling two hours in five-minute increments, ERCOT-wide. [e7]
-- 2025 average net load forecast error about 452 MW, measured eight hours ahead of real-time; forecasts continue to over-forecast load (IMM). [e6][e17]
+- ERCOT may modify the Seven-Day result with judgment before use in DRUC, HRUC and the AS Capacity Monitor. [e5]
+- 2025 average net load forecast error about 452 MW, measured eight hours ahead of real-time (IMM). [e6][e17]
 - Long-term forecasts use seventeen weather-year scenarios (2008-2024) in the 2025 document. [e11][e15]
+- 2025 LTLF (April 2025): summer peak 85,759 MW for 2025 and 94,650 MW for 2026 (Appendix A). [e37]
+- Preliminary 2026 LTLF: 367,790 MW by 2032 versus an 85,508 MW record. [e33]
+
+## Timeline
+
+- June 2021: SB 1281 (effective September 2021) added Utilities Code Section 37.056(c-1), requiring load forecasts to consider historical load, forecasted load and additional load seeking interconnection (IMM chronology). [e50]
+- July 2021 onward: the IMM says ERCOT relied more frequently on the highest load forecast and lowest wind and solar forecasts. [e42]
+- July 2024: revised 2024 LTLF includes officer letter loads (148 GW in 2030). [e38]
+- April 2025: LTLF with 2025 summer peak 85,759 MW. [e37]
+- March 1, 2026: 16 TAC §25.370 effective. [e29]
+- 2026: preliminary LTLF 367,790 MW by 2032 and ERCOT's proposed adjustment options. [e33][e35]
 
 ## Say it like this
 
@@ -244,13 +302,13 @@ Forecast accuracy affects commitment. The IMM says an over-forecast of net deman
 
 ## Common confusion
 
-(Guidance) Net Load is Load minus wind and PV generation [e16], and the IMM ties commitment risk to the net demand forecast rather than load alone. [e10] Also keep the short-term operational forecast separate from the long-term (LTLF) forecast used for planning. [e12]
+(Guidance) Net Load is Load minus wind and PV generation [e16], and the IMM ties commitment risk to the net demand forecast rather than load alone. [e10] Also keep the short-term operational forecast separate from the long-term (LTLF) forecast used for planning, and from the large-load forecasting criteria, which apply to planning and resource adequacy forecasts. [e12][e29] Do not compare the 452 MW figure (eight hours ahead, net load, 2025) with a five-minute or 30-minute-ahead error without checking the horizon. [e17]
 
 ## Questions
 
 ### What are the inputs to the Seven-Day Load Forecast?
 
-Current weather forecast parameters in each Weather Zone; the Protocols also say it must have a self-training mode on historic Load data. [e4][e13]
+Hourly forecasted weather parameters for stations in the Weather Zones (updated at least hourly) and training information from historic hourly integrated Weather Zone Loads; it must also have a self-training mode. [e18][e13]
 
 ### Why does forecast bias matter for the market?
 
@@ -260,8 +318,35 @@ Over-forecasting net demand can lead to sub-optimal commitment, while under-fore
 
 Per the IMM, the average net load forecast error (eight hours ahead of real-time) fell to about 452 MW from more than 1,000 MW in 2023 and 2024. [e6][e17]
 
+### Why does ERCOT review and sometimes modify the Seven-Day forecast?
+
+The Protocol says ERCOT reviews the suggested forecast and uses its judgment, if necessary, to modify it before use in the AS Capacity Monitor, DRUC, HRUC and resource adequacy reporting. [e5] The saved sources do not give ERCOT's reasons.
+
+### What if the large-load forecast is too high?
+
+The IMM says an over-forecast of net demand can lead to sub-optimal commitment, though that discussion concerns net demand forecasts in operations. [e10] For planning forecasts, ERCOT proposed in 2026 to adjust the preliminary LTLF, saying that supply chain constraints bring into question the likelihood of the realization timeline for the provided load values. [e35][e34]
+
+### Why do Load distribution factors matter to prices?
+
+The IMM lists differences between the LDF used in the DAM and the actual real-time load distribution as one source of RENA uplift. [e47] It says NPRR 1004, still pending implementation in its 2024 report, should reduce this uplift by using load forecast models to calculate a daily LDF instead of the current seasonal LDF. [e48][e49]
+
+### How does forecast error enter ancillary service requirements?
+
+ERCOT's 2026 methodology uses historic 30-minute-ahead and 6-hour-ahead net load forecast errors in its risk accounting for ECRS and Non-Spin, with an adjustment for expected growth in solar forecast error. [e43]
+
+## Scenarios
+
+### Hot-day load comes in well below the Seven-Day Forecast. What does the market do?
+
+- The IMM says an over-forecast of net demand can lead to sub-optimal commitment decisions that reduce market efficiency. [e10]
+- The Seven-Day forecast feeds DRUC and HRUC, so a high forecast can lead to commitments the load did not need. [e5][e25]
+- (Guidance) Check which MTLF model ERCOT was using, since ERCOT posts that indicator. [e28]
+
 ## Open items
 
-- Deeper pass: how ERCOT's Seven-Day Load Forecast selects among models (the model-selection and 2000 MW or 4% outlier-explanation rule sits in pending NPRR975 box language, not cited here).
-- Deeper pass: Load distribution factors and Mid-Term Load Forecast (pending NPRR1004/1240 language), Study Area forecasts, forecast error metrics by horizon.
-- Deeper pass: large-load adjustments to the forecast (ercot-ltlf-2026-adjust-proposal, SB 6 inputs); see long-term-load-forecast.
+- How ERCOT selects among models in the Seven-Day Load Forecast is described only in NPRR975 pending-box language (cited above as pending); the model-selection practice actually in force was not found.
+- Mid-Term Load Forecast and Load distribution factor details come from pending NPRR1004/NPRR1240 language; the saved np-04 current text describes a proxy-day method.
+- Whether the PUCT approved either of ERCOT's 2026 adjustment options for the LTLF was not found in the saved sources.
+- Forecast error by horizon beyond the IMM's eight-hours-ahead net load measure (2022-2025) and the 30-minute and 6-hour measures named in the AS methodology was not found; no source quantifies day-ahead load forecast error (MAPE).
+- The IMM (2024 report) describes the current LDF as seasonal and based on historical patterns, while np-04 4.5.1(5) describes a proxy-day method from State Estimator hourly distribution; the sources were not reconciled.
+- The IMM 2024 Table 9 (forecast comparison) is garbled in the OCR copy and was not quoted.

@@ -6,7 +6,8 @@ kind: scenario
 domain: cases
 level: 2
 lenses: [analyst, trading, portfolio]
-as_of: 2026-11-18
+as_of: 2026-11-21
+depth: deep
 links:
   - to: rtc-b
     type: used-in
@@ -35,6 +36,15 @@ links:
   - to: ruc
     type: related
     note: RUC uses the SOC that QSEs report in their COPs, and ESRs are not seen as OFF and so are not available to be RUCed. [e19][e21]
+  - to: non-spin
+    type: related
+    note: Non-Spin capability must be sustainable for four consecutive hours today; a pending NPRR1309 box would cut that to two hours. [e32][e33]
+  - to: drrs
+    type: related
+    note: ERCOT said the Non-Spin duration should be revisited when DRRS is implemented. [e35]
+  - to: ecrs
+    type: related
+    note: NPRR1282 cut the ECRS duration from two hours to one, based on historical deployments and 30-minute net load forecast error. [e34]
 evidence:
   - id: e1
     source: ercot-rtcb-battery
@@ -136,7 +146,88 @@ evidence:
     source: puct-25-509
     locator: "16 TAC §25.509(b)(6)(B)"
     quote: "The high system-wide offer cap (HCAP) will be $5,000 per MWh for energy offers and $5,000 per MW per hour for ancillary service offers."
+  - id: e26
+    source: np-05
+    locator: "Section 5.7.4.1.1(7)(b)(vi)(C), Capacity Shortfall Ratio Share (QSE Ancillary Service shortfall calculation)"
+    quote: "(C) For ESRs, consider: (1) Duration requirements for each Ancillary Service type and the submitted COP values for Hour Beginning Planned State of Charge (HBSOC), Minimum SOC (MinSOC) and Maximum SOC (MaxSOC); (2) Ancillary Service deployment factors, duration requirements for different Ancillary Service types or sub-types, and the difference between the submitted COP HBSOC for the hour under consideration and the next hour; and (3) The charge or discharge MW required to satisfy the above constraints."
+  - id: e27
+    source: ercot-rtcb-battery
+    locator: "Slide 11, High Level Scope of \"+B\", item 3"
+    quote: "NPRR 1236: RTC+B Modifications to RUC Capacity Short Calculations (Approved November 2024)"
+  - id: e28
+    source: ercot-nprr1309-puct-report
+    locator: "NPRR1309 PUCT report, list of revision requests unboxed with RTC+B"
+    quote: "NPRR1236, RTC+B Modifications to RUC Capacity Short Calculations (unboxed 12/5/25)"
+  - id: e29
+    source: np-05
+    locator: "Section 5.5.2(8), Reliability Unit Commitment (RUC) Process"
+    quote: "The RUC constraints in the RUC engine shall use 60 minutes as the duration for energy and Ancillary Services, excluding Responsive Reserve (RRS) provided using Fast Frequency Response (FFR), for which duration shall be 15 minutes. These same duration requirements will be used to enforce a constraint on each ESR’s dispatch for energy and Ancillary Services using Ancillary Service deployment factors for a given hour such that the calculated SOC at the end of that hour is equal to the next hour’s COP value of HBSOC."
+  - id: e30
+    source: np-05
+    locator: "Section 5.7.2(3), RUC Clawback Charge"
+    quote: "ESRs are not subject to RUC Clawback Charges."
+  - id: e31
+    source: np-04
+    locator: "Section 4.6.2.3(7), Day-Ahead Make-Whole Settlements"
+    quote: "An Energy Storage Resource (ESR) is not eligible for Day-Ahead Make-Whole Payment."
+  - id: e32
+    source: np-08
+    locator: "Section 8.1.1.3.3(2), Non-Spinning Reserve Capacity Monitoring Criteria"
+    quote: "For the Non-Spin capability provided for a Resource to ERCOT by the Resource’s QSE, the amount of Non-Spin reflected in that capability must be limited to the amount of Non-Spin that can be sustained by the Resource for at least four consecutive hours."
+  - id: e33
+    source: np-08
+    locator: "Section 8.1.1.3.3, pending box [NPRR1309: Replace paragraph (2) above with the following upon system implementation]"
+    quote: "For the Non-Spin capability provided for a Resource to ERCOT by the Resource’s QSE, the amount of Non-Spin reflected in that capability must be limited to the amount of Non-Spin that can be sustained by the Resource for at least two consecutive hours."
+  - id: e34
+    source: ercot-nprr1282-puct-report
+    locator: "NPRR1282 PUCT report, Justification of Reason for Revision, ECRS bullet"
+    quote: "Based on the length of historical ECRS risk-relevant deployments, sustained under-forecast error in 30-minute ahead net load, and the need for a margin to account for increases in forecast errors that can be expected with growth in solar Resources, changing from a two-hour duration requirement to a one-hour duration requirement for ECRS is sufficient."
+  - id: e35
+    source: ercot-nprr1282-puct-report
+    locator: "NPRR1282 PUCT report, Justification of Reason for Revision, Non-Spin bullet"
+    quote: "Additionally, the duration requirement for Non-Spin should be revisited upon implementation of Dispatchable Reliability Reserve Service (DRRS)."
+  - id: e36
+    source: ercot-nprr1309-puct-report
+    locator: "NPRR1309 PUCT report, Explanation of Opposing TAC Votes, Independent Generator/Vistra"
+    quote: "The reduction in Non-Spin duration from 4 hours to 2 hours was (1) not required to implement DRRS; (2) would be better evaluated during the 2029 Ancillary Services methodology review to align with DRRS go-live;"
+  - id: e37
+    source: imm-board-2026-02
+    locator: "IMM report to ERCOT Board R&M Committee, February 9-10, 2026, slide 2, Non-Spinning Reserve Pricing in RTC"
+    quote: "The RTM clears surplus NSRS yet is producing a shortage price. • Is frequently clearing at price > other reserves."
+  - id: e38
+    source: ercot-summer-2026-review
+    locator: "Slide 16, Day-Ahead and real-time Ancillary Service prices are lower"
+    quote: "Key Takeaway: Day-ahead ancillary service prices have been trending lower in summer 2026 compared to 2024 and 2025, except for Non-Spin. Across summer 2026, Real-time Ancillary Service prices have decreased month over month."
+  - id: e39
+    source: ercot-summer-2026-review
+    locator: "Slide 11, State of Charge Operating Patterns Across Summer (2026 data June 1 - August 15)"
+    quote: "Key Takeaway: SOC levels were generally highest between Hours 12 and 20. There were several hours during the late evening through sunrise where SOC was very low. The percent of hours with SOC under 20% and 10% were 15% and 0.74% respectively."
+  - id: e40
+    source: ercot-summer-2026-review
+    locator: "Slide 21 note"
+    quote: "SWCAP is reduced to $2000/MWh from $5000/MWh after RTC go-live on 12/5/2025."
+  - id: e41
+    source: imm-som-2025
+    locator: "Chapter II.E.3, ESR Revenue Trends"
+    quote: "Net energy revenue rose by 57% after accounting for charging costs. However, ancillary services revenue fell by more than 37% because the additional ESR capacity increased ancillary services supply and reduced prices."
+  - id: e42
+    source: imm-som-2025
+    locator: "Chapter II.E.4, ESR Aggregate Offers"
+    quote: "In 2025, 55% of energy offers were priced between $0-100 per MWh, compared to 46% in 2024 and 25% in 2023. As more ESRs enter the market, they must offer more competitively to maximize revenue from energy sales."
+  - id: e43
+    source: imm-som-2025
+    locator: "Chapter II, key insights on ESRs"
+    quote: "Total energy storage capacity exceeded 17 GW, and average duration increased from 1.67 hours to 1.83 hours. The increase in average duration corresponds to ESR market participation shifting from AS to energy arbitrage."
+  - id: e44
+    source: np-06
+    locator: "Section 6.4.9.1.1(1), Ancillary Service Awards"
+    quote: "Ancillary Service awards will be based on Resource capability (qualification, operating limits, Ancillary Service limits, ramp rates, State of Charge (SOC), SOC limits, etc.) and Ancillary Service Demand Curves (ASDCs) regardless of the quantity of Ancillary Service under deployment."
+  - id: e45
+    source: imm-som-tac-2026-07
+    locator: "IMM 2025 SOM presentation to TAC (July 2026), slide 11, Trends related to RUC"
+    quote: "One legitimate and growing challenge for ERCOT in using RUC appropriately is the (in)accuracy of the forecast for battery State of Charge"
 ---
+
 
 ## Definition
 
@@ -144,35 +235,60 @@ This scenario is about how a battery owner chooses between energy and ancillary 
 
 ## How it works
 
-The physical side moved into SCED. SCED now does SOC accounting and will not breach an ESR's telemetered minimum and maximum SOC. [e1] Awards are limited by qualification, telemetry, SOC, ramp rates and AS duration requirements, and one SCED run can award several AS types plus energy to the same ESR. Before RTC+B, the QSE had to hold back enough SOC itself. [e12] The real-time duration requirements listed in the IMM's 2025 report are 5 minutes for energy, 30 minutes for RegUp and RRS, 1 hour for ECRS and 4 hours for NSRS. [e3] The ECRS requirement fell from two hours to one under NPRR 1282. [e18]
+The physical side moved into SCED. SCED now does SOC accounting and will not breach an ESR's telemetered minimum and maximum SOC. [e1] Awards are limited by qualification, telemetry, SOC, ramp rates and AS duration requirements, and one SCED run can award several AS types plus energy to the same ESR. Before RTC+B, the QSE had to hold back enough SOC itself. [e12] The Protocols say AS awards rest on Resource capability, including SOC and SOC limits, and on the ASDCs. [e44] The real-time duration requirements listed in the IMM's 2025 report are 5 minutes for energy, 30 minutes for RegUp and RRS, 1 hour for ECRS and 4 hours for NSRS. [e3] The ECRS requirement fell from two hours to one under NPRR 1282 [e18]; ERCOT justified it by the length of historical ECRS deployments and 30-minute-ahead net load forecast error. [e34] Non-Spin capability must still be sustainable for four consecutive hours. [e32]
 
-The financial side is still yours. The DAM does not consider SOC when it clears energy and AS, so a QSE can oversell an ESR day-ahead. [e2] Day-ahead energy and AS awards are financial positions, and imbalances settle at real-time prices. [e5] Because RTC lets AS providers sell straight into real time, the IMM expected ESR AS offer prices in the DAM to increase to reflect higher risk and lower benefit. [e4]
+The financial side is still yours. The DAM does not consider SOC when it clears energy and AS, so a QSE can oversell an ESR day-ahead. [e2] Day-ahead energy and AS awards are financial positions, and imbalances settle at real-time prices. [e5] Because RTC lets AS providers sell straight into real time, the IMM expected ESR AS offer prices in the DAM to increase to reflect higher risk and lower benefit. [e4] There is no day-ahead safety net: an ESR is not eligible for Day-Ahead Make-Whole Payment. [e31]
 
 Offers still have to manage time. SCED optimizes one five-minute interval at a time, so ESR owners must offer strategically to save SOC for higher-value intervals. [e9] Each ESR submits a single bid/offer curve that must be monotonically nondecreasing from maximum charging MW to maximum discharging MW. [e14] Performance is checked more tightly: Set Point Deviation tolerances for ESRs are 3% or 3 MW. [e13]
+
+RUC treats batteries differently. ESRs are not seen as OFF, so they are not available to be RUCed. [e21] RUC uses a 60-minute duration for energy and AS (15 minutes for FFR) and constrains each ESR so that its calculated end-of-hour SOC equals the next hour's COP HBSOC. [e29] Under NPRR 1236 (approved November 2024, in force with RTC+B on 12/5/25), the QSE AS shortfall calculation for RUC capacity-short charges considers each ESR's duration requirements, COP HBSOC, MinSOC and MaxSOC, the change in HBSOC to the next hour, and the charge or discharge MW those imply. [e27][e28][e26] ESRs are not subject to RUC Clawback Charges. [e30]
 
 ## Key facts
 
 - RTC+B first Operating Day: 12/5/2025. [e15]
 - Real-time duration requirements (as listed in the IMM's 2025 report): energy 5 minutes, RegUp 30 minutes, RRS 30 minutes, ECRS 1 hour, NSRS 4 hours. [e3]
-- ESR revenue per unit of capacity fell 37% in 2025 as AS revenue fell by the same amount. [e6]
+- Pending: NPRR1309 would cut the Non-Spin sustain requirement to two consecutive hours upon system implementation. [e33]
+- ESR revenue per unit of capacity fell 37% in 2025 as AS revenue fell by the same amount; net energy revenue rose 57%. [e6][e41]
 - In 2025 ESRs provided 94% of RegUp, 86% of Reg-Down, 51% of RRS, 42% of ECRS and 24% of NSRS. [e16]
-- 18% of ESR offers were at the SWCAP in 2025, down from 32% in 2024, partly to protect SOC. [e10]
-- The Real-Time SWCAP is $2,000/MWh after RTC+B (per ERCOT; the PUCT rule text still states a $5,000 HCAP), and ERCOT reports that the share of ESR capacity offered within $100/MWh of the cap was slightly higher in summer 2026 than in the previous two summers. [e11][e25]
+- Average ESR duration rose from 1.67 to 1.83 hours in 2025. [e43]
+- 18% of ESR offers were at the SWCAP in 2025, down from 32% in 2024, partly to protect SOC; 55% were priced at $0-100/MWh. [e10][e42]
+- The Real-Time SWCAP fell from $5,000 to $2,000/MWh at RTC go-live (the DAM HCAP in the PUCT rule remains $5,000). [e40][e25]
+- Summer 2026: SOC was highest between Hours 12 and 20; SOC was below 20% in 15% of hours and below 10% in 0.74%. [e39]
 
 ## Scenarios
 
 ### You run a 100 MW / 200 MWh battery in ERCOT. How do you bid it now that RTC+B is live?
 
-- Start with where the money is. AS prices fell across all products in 2025, partly because of ESR growth, and ESR revenue has shifted toward energy arbitrage. [e8][e7]
+- Start with where the money is. AS prices fell across all products in 2025, partly because of ESR growth, and ESR revenue has shifted toward energy arbitrage: net energy revenue rose 57% while AS revenue fell more than 37%. [e8][e7][e41]
 - Charge when solar pushes midday prices low or negative; discharge into the evening ramp. [e20]
-- Plan for the evening net peak. In summer 2026 ESR SOC exhaustion in the evenings was a pattern throughout the summer, so SOC is scarce in the late evening. [e17]
+- Plan for the evening net peak. In summer 2026 ESR SOC exhaustion in the evenings was a pattern, with SOC highest in Hours 12-20 and very low in some hours from late evening to sunrise. [e17][e39]
 - Let SCED handle feasibility in real time: it will only award energy and AS that your SOC can sustain for each product's duration. [e1][e12]
-- Match products to duration. At 100 MW, a 1-hour ECRS duration needs about 100 MWh, while a 4-hour NSRS duration would need about 400 MWh, more than the 200 MWh battery holds. [e3]
-- Be careful day-ahead. The DAM ignores SOC, so selling more than you can deliver leaves you buying back at real-time prices. [e2][e5]
+- Match products to duration. Suppose (illustrative): at 100 MW, a 1-hour ECRS duration needs about 100 MWh, while a 4-hour Non-Spin duration would need about 400 MWh, more than the 200 MWh battery holds, so the most Non-Spin it could back is about 50 MW. [e3][e32]
+- Be careful day-ahead. The DAM ignores SOC, so selling more than you can deliver leaves you buying back at real-time prices, and an ESR gets no Day-Ahead Make-Whole. [e2][e5][e31]
 - Consider skipping DAM AS sales. RTC lets AS providers sell AS directly into real time, and the IMM expected ESR day-ahead AS offer prices to increase to reflect the higher risk and lower benefit of selling AS there. [e4]
-- Shape the offer curve. SCED optimizes only one five-minute interval at a time, so price discharge high enough to keep energy for the peak; remember the Real-Time SWCAP is now $2,000/MWh. [e9][e11]
-- Keep the COP SOC accurate. RUC uses it to limit what each ESR can do, and the IMM reports aggregate COP SOC overestimated by about 874 MWh on average, which has been suggested as one factor in the jump in RUC commitments from 2024 to 2025. [e19][e23]
+- Shape the offer curve. SCED optimizes only one five-minute interval at a time, so price discharge high enough to keep energy for the peak; remember the Real-Time SWCAP is now $2,000/MWh. [e9][e40]
+- (Reasoning) Competition is tightening the arbitrage spread, so a curve priced well below the cap in most intervals and high only for the last slice of SOC fits the shift the IMM describes. The IMM reports 55% of ESR energy offers at $0-100/MWh in 2025. [e42]
+- Keep the COP SOC accurate. RUC uses it to limit what each ESR can do, and the IMM reports aggregate COP SOC overestimated by about 874 MWh on average, which has been suggested as one factor in the jump in RUC commitments from 2024 to 2025. [e19][e23] The same HBSOC values feed the RUC capacity-short calculation that can charge your QSE. [e26]
 - Suppose (illustrative): you charge 200 MWh at $5/MWh and, using the 85% round-trip efficiency the IMM cites from NREL, discharge about 170 MWh at $120/MWh. [e22] The spread earns about $20,400 minus $1,000 of charging cost, roughly $19,400 for the day, compared with whatever AS would have paid for the same capacity.
+
+### Harder follow-ups
+
+#### The IMM says real-time Non-Spin is clearing at shortage prices even when the system is long. Should your battery chase it?
+
+- The IMM told the Board in February 2026 that the RTM clears surplus NSRS yet produces a shortage price, and that it frequently clears above other reserves. [e37] ERCOT's summer 2026 review found day-ahead AS prices trending lower except for Non-Spin. [e38]
+- But Non-Spin capability must be sustainable for four consecutive hours. [e32] Suppose (illustrative): a 200 MWh battery could back at most about 50 MW of Non-Spin, leaving 50 MW of power for energy or other products.
+- (Reasoning) The answer depends on the spread between the Non-Spin price and the evening energy value forgone; the IMM recommended changing the ASDC, so this premium may not last. [e37]
+
+#### What changes for you if NPRR1309's two-hour Non-Spin duration takes effect?
+
+- The pending box would let a Resource count Non-Spin it can sustain for two consecutive hours. [e33] Suppose (illustrative): the same 200 MWh battery could then back about 100 MW.
+- Timing is not settled: ERCOT had said Non-Spin duration should be revisited when DRRS is implemented [e35], and Vistra, opposing at TAC, argued the change would be better evaluated in the 2029 AS methodology review aligned with DRRS go-live. [e36]
+
+#### Your QSE gets a RUC capacity-short charge on a day the battery never ran short. Why?
+
+- The shortfall calculation uses the COP values you submitted (HBSOC, MinSOC, MaxSOC and the change in HBSOC to the next hour) and AS duration requirements, not what SCED later did. [e26]
+- RUC itself enforces a 60-minute duration and requires end-of-hour SOC to match the next hour's COP HBSOC. [e29] The IMM calls SOC forecast inaccuracy a legitimate and growing challenge for RUC. [e45]
+- (Reasoning) A COP SOC that is too low for a later hour can make the portfolio look short of AS coverage; fix the COP before the snapshot.
 
 ## Questions
 
@@ -186,24 +302,29 @@ To protect SOC for later intervals and AS obligations. The IMM ties SWCAP-priced
 
 ### Can ERCOT RUC a battery?
 
-No. ESRs are not seen as off, so they are not available to be RUCed. [e21] RUC instead uses the hour-beginning SOC the QSE reports in its COP to limit what each ESR can do. [e19]
+No. ESRs are not seen as off, so they are not available to be RUCed. [e21] RUC instead uses the hour-beginning SOC the QSE reports in its COP to limit what each ESR can do [e19], and ESRs are not subject to RUC Clawback Charges. [e30]
 
 ### Will AS still pay for storage?
 
-Revenue per unit of capacity fell 37% in 2025 as AS revenue fell, and ESRs are moving toward arbitrage. [e6][e7]
+Revenue per unit of capacity fell 37% in 2025 as AS revenue fell, and ESRs are moving toward arbitrage. [e6][e7] Average duration rose to 1.83 hours, which the IMM ties to that shift. [e43]
+
+### Why did ECRS drop to a one-hour duration, and why does it matter for batteries?
+
+ERCOT based the one-hour duration on historical ECRS deployments, 30-minute-ahead net load forecast error and a margin for solar growth. [e34] Suppose (illustrative): a 2-hour battery can now back its full MW of ECRS instead of half.
 
 ## Say it like this
 
-(Guidance) After RTC+B, ERCOT's dispatch makes sure a battery's awards fit its state of charge, so my job is the economics: decide day by day how much energy to save for the evening peak and how much capacity to sell as reserves. I avoid overselling in the day-ahead market, because it ignores state of charge and I would have to buy back any shortfall at real-time prices.
+(Guidance) After RTC+B, ERCOT's dispatch makes sure a battery's awards fit its state of charge, so my job is the economics: decide day by day how much energy to save for the evening peak and how much capacity to sell as reserves. I avoid overselling in the day-ahead market, because it ignores state of charge and I would have to buy back any shortfall at real-time prices, and I keep my COP state of charge honest because RUC charges are computed from it.
 
 ## Common confusion
 
-(Guidance) RTC+B does not make SOC management disappear. SCED stops infeasible awards in each interval, but it does not plan across intervals, so saving energy for later is still the owner's job. [e1][e9] Also, the DAM still ignores SOC. [e2]
+(Guidance) RTC+B does not make SOC management disappear. SCED stops infeasible awards in each interval, but it does not plan across intervals, so saving energy for later is still the owner's job. [e1][e9] The DAM still ignores SOC. [e2] "Not RUCed" does not mean "untouched by RUC": the COP SOC still enters RUC constraints and the capacity-short calculation. [e29][e26] And the two-hour Non-Spin duration is a pending box, not the current rule. [e33]
 
 ## Open items
 
 - The sources do not give a full post-RTC (2026) ESR revenue split between energy and AS; the 37% decline and shift to arbitrage are 2025 figures.
 - The 85% round-trip efficiency is an NREL figure quoted by the IMM, not an ERCOT fleet measurement.
-- Deeper pass: the RUC capacity-short calculation for ESRs under RTC+B (NPRR 1236) is not covered here.
-- Deeper pass: NPRR 1309 would cut the NSRS duration to two hours when DRRS is implemented; timing is not settled in the sources.
+- NPRR1309's implementation date (and so the two-hour Non-Spin duration) is not set in the saved sources; Vistra's comment points to a 2029 review aligned with DRRS go-live, but that is a party's view.
+- The RUC capacity-short formula variables for ESR charge/discharge MW (MWSNAP, MWADJ) are described in prose only; the full equation table was not quoted.
 - No source describes a recommended split of a battery between DAM and real-time AS sales.
+- How much the Non-Spin real-time premium the IMM flagged (February 2026) has been worth per MW is not quantified in the sources.

@@ -6,7 +6,8 @@ kind: entity
 domain: structure
 level: 1
 lenses: [analyst, trading, portfolio, retail]
-as_of: 2026-11-18
+as_of: 2026-11-21
+depth: deep
 links:
   - to: ercot
     type: regulates
@@ -29,6 +30,15 @@ links:
   - to: nodal-protocols
     type: regulates
     note: New or revised protocols cannot take effect until the PUCT approves a market impact statement for them. [e5]
+  - to: permian-transmission
+    type: example-of
+    note: The PUCT approved three 765-kV import paths for the Permian Basin Reliability Plan in a 2025 second order. [e33]
+  - to: large-load-interconnection
+    type: regulates
+    note: In August 2026 the PUCT granted ERCOT good cause exceptions to pause Batch Zero classification of Large Loads for a verification and audit. [e35]
+  - to: winter-storm-uri
+    type: related
+    note: On February 16, 2021 the PUCT suspended the low system-wide offer cap and reinstated it on March 3, 2021. [e37][e38]
 evidence:
   - id: e1
     source: pura-39
@@ -102,6 +112,106 @@ evidence:
     source: np-04
     locator: "Section 4.4.11, note under the parameter table"
     quote: "PNM threshold $/MW-year 315,000 * The current value for the parameters referenced in this table above will be recommended by TAC and approved by the ERCOT Board."
+  - id: e19
+    source: pura-12
+    locator: "PURA §12.051, Appointment; Term"
+    quote: "The commission is composed of five commissioners appointed by the governor with the advice and consent of the senate.(b)  An appointment to the commission shall be made without regard to the race, color, disability, sex, religion, age, or national origin of the appointee.(c)  Commissioners serve staggered, six-year terms."
+  - id: e20
+    source: pura-12
+    locator: "PURA §12.052, Presiding Officer"
+    quote: "The governor shall designate a commissioner as the presiding officer.(b)  The presiding officer serves in that capacity at the pleasure of the governor."
+  - id: e21
+    source: pura-12
+    locator: "PURA §12.053(a)-(a-1), Membership Qualifications"
+    quote: "To be eligible for appointment, a commissioner must:(1)  be a qualified voter;(2)  be a citizen of the United States;(3)  be a resident of this state;(4)  be a competent and experienced administrator; and(5)  have at least five years of experience:(A)  in the administration of business or government; or(B)  as a practicing attorney, certified public accountant, or professional engineer.(a-1)  At least two commissioners must be well informed and qualified in the field of public utilities and utility regulation."
+  - id: e22
+    source: pura-12
+    locator: "PURA §12.053(b)(1)(A)-(B)"
+    quote: "A person is not eligible for appointment as a commissioner if the person:(1)  at any time during the one year preceding appointment:(A)  personally served as an officer, director, owner, employee, partner, or legal representative of a public utility regulated by the commission or of an affiliate or direct competitor of a public utility regulated by the commission;(B)  owned or controlled, directly or indirectly, more than a 10 percent interest in a public utility regulated by the commission or in an affiliate or direct competitor of a public utility regulated by the commission;"
+  - id: e23
+    source: pura-12
+    locator: "PURA §12.005, Application of Sunset Act (current text)"
+    quote: "The Public Utility Commission of Texas is subject to Chapter 325, Government Code (Texas Sunset Act).  Unless continued in existence as provided by that chapter or by Chapter 39, the commission is abolished September 1, 2029."
+  - id: e24
+    source: pura-14
+    locator: "PURA §14.001-14.002"
+    quote: "The commission has the general power to regulate and supervise the business of each public utility within its jurisdiction and to do anything specifically designated or implied by this title that is necessary and convenient to the exercise of that power and jurisdiction."
+  - id: e25
+    source: pura-15
+    locator: "PURA §15.023(a)-(b), Administrative Penalty"
+    quote: "The commission may impose an administrative penalty against a person regulated under this title who violates this title or a rule or order adopted under this title.(b)  The penalty for a violation may be in an amount not to exceed $25,000.  Each day a violation continues or occurs is a separate violation for purposes of imposing a penalty."
+  - id: e26
+    source: pura-15
+    locator: "PURA §15.023(b-1)"
+    quote: "Notwithstanding Subsection (b), the penalty for a violation of a voluntary mitigation plan entered into under Subsection (f) or of a provision of Section 35.0021 or 38.075 may be in an amount not to exceed $1,000,000 for a violation."
+  - id: e27
+    source: pura-15
+    locator: "PURA §15.001, Right to Judicial Review"
+    quote: "Any party to a proceeding before the commission is entitled to judicial review under the substantial evidence rule."
+  - id: e28
+    source: hb1500-88r
+    locator: "HB 1500 (2023), SECTION 17, new PURA §39.1514(a-1) (clean .alt.txt copy)"
+    quote: "The commission must use a contested case or rulemaking process to direct an independent organization certified under Section 39.151 to take an official action that will create a new cost or fee, increase an existing cost or fee, or impose significant operational obligations on an entity."
+  - id: e29
+    source: hb1500-88r
+    locator: "HB 1500 (2023), SECTION 17, new PURA §39.1514(c) (clean .alt.txt copy)"
+    quote: "Notwithstanding another provision of this section, the commission may use a verbal directive to direct an independent organization to take an official action in an urgent or emergency situation that poses an imminent threat to public health, public safety, or the reliability of the power grid.  If the commission uses a verbal directive, the commission shall provide written documentation of the directive to the independent organization not later than 72 hours after the urgent or emergency situation ends."
+  - id: e30
+    source: pura-39
+    locator: "PURA §39.151(g-1), ERCOT governing body"
+    quote: "The governing body must be composed of:(1)  two members of the commission as ex officio nonvoting members:(A)  one of whom must be the presiding officer of the commission; and(B)  one of whom must be designated by the presiding officer of the commission to serve a one-year term on the governing body;"
+  - id: e31
+    source: hb1500-88r
+    locator: "HB 1500 (2023), SECTION 15, amending PURA §39.151(g-1) (clean .alt.txt copy; struck text in [~~ ~~])"
+    quote: "(1)  two members [~~the chairman~~] of the commission as [~~an~~] ex officio nonvoting members:"
+  - id: e32
+    source: puct-permian-order-2
+    locator: "PUCT Project No. 55718, Second Order Approving the Reliability Plan for the Permian Basin Region (2025), p. 1"
+    quote: "On October 7,2024, the Commission issued the Order Approving the Reliability Plan for the Permian Basin Region, but reserved a decision on which voltage level should be approved for the transmission import paths until no later than May 1, 2025."
+  - id: e33
+    source: puct-permian-order-2
+    locator: "PUCT Project No. 55718, Second Order, p. 1"
+    quote: "The Commission approves the three 765-kilovolt (kV) import paths identified in Table 7.5 ofthe Permian Basin Reliability Plan."
+  - id: e34
+    source: puct-59772-order
+    locator: "PUCT Project No. 59772, Order Granting Adjustment Request (2026), p. 2"
+    quote: "In accordance with 16 TAC § 25.370(e)(2)(B) the Commission approves ERCOTs request to adjust the LTLF using the Option B methodology."
+  - id: e35
+    source: puct-59142-good-cause-order
+    locator: "PUCT Project No. 59142, Order Granting Good Cause Exceptions (filed 2026-08-20), p. 2"
+    quote: "Good cause exists to allow ERCOT to complete the verification and audit and report the results to the Commission before continuing the Batch Zero interconnection process."
+  - id: e36
+    source: puct-59142-good-cause-order
+    locator: "PUCT Project No. 59142, Order Granting Good Cause Exceptions, p. 1"
+    quote: "On August 3, 2026, Governor Greg Abbott issued a letter directing the Public Utility Commission of Texas (Commission) and Electric Reliability Council of Texas, Inc. (ERCOT) to conduct \"a comprehensive verification and audit of all data centers advancing through ERCOT's interconnection process.\""
+  - id: e37
+    source: puct-51812-lcap-order
+    locator: "PUCT Project No. 51812, Order Reinstating Low System-Wide Offer Cap (March 3, 2021), p. 1"
+    quote: "On February 16, 2021, in response to significant market anomalies, the Commission found good cause to suspend, and issued an order suspending, the use of the low system-wide offer cap (LCAP) until after the Commission's next regularly scheduled open meeting."
+  - id: e38
+    source: puct-51812-lcap-order
+    locator: "PUCT Project No. 51812, Order Reinstating Low System-Wide Offer Cap, p. 2"
+    quote: "Accordingly, the Commission terminates the suspension of the use of the LCAP and orders ERCOT to resume application of the LCAP when administering the scarcity pricing mechanism as provided by Commission rule. Signed at Austin, Texas the 3rd day of March 2021."
+  - id: e39
+    source: puct-minutes-2024-12-19
+    locator: "PUCT Open Meeting Minutes, December 19, 2024, Item 17"
+    quote: "Project No. 55000 – Performance Credit Mechanism (PCM). (Discussion and possible action) Werner Roth and Chris Brown Action: Adopted Staff’s final recommendation on PCM."
+  - id: e40
+    source: puct-minutes-2024-12-19
+    locator: "PUCT Open Meeting Minutes, December 19, 2024, header"
+    quote: "These minutes serve as a summary of the meeting but not as a transcription."
+  - id: e41
+    source: puct-59550-ercot-comments
+    locator: "PUCT Project No. 59550, ERCOT comments (filed 2026-09-17), p. 1"
+    quote: "Pursuant to 16 Texas Administrative Code (TAC) § 25.509(d), the Commission is required to \"review each of the system-wide offer cap programs to determine whether to update aspects of each program.\" This proceeding initiates the first such review and subsequent reviews are to be performed quinquennially (i.e., every five years) hereafter."
+  - id: e42
+    source: puct-25-501
+    locator: "16 TAC §25.501(a), General"
+    quote: "The protocols and other rules and requirements of the Electric Reliability Council of Texas (ERCOT) that implement this section shall be developed with consideration of microeconomic principles and shall promote economic efficiency in the production and consumption of electricity; support wholesale and retail competition; support the reliability of electric service; and reflect the physical realities of the ERCOT electric system."
+  - id: e43
+    source: ref-ferc-energy-primer
+    locator: "FERC Energy Primer (2024), Electricity Markets chapter, RTO/ISO section"
+    quote: "FERC regulates all RTOs/ISOs except ERCOT."
 ---
 
 ## Definition

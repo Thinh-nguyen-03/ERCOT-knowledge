@@ -6,7 +6,8 @@ kind: product
 domain: congestion
 level: 2
 lenses: [analyst, congestion, portfolio, retail]
-as_of: 2026-11-18
+as_of: 2026-11-21
+depth: deep
 links:
   - to: crr
     type: is-a
@@ -26,6 +27,18 @@ links:
   - to: four-cp
     type: related
     note: Where a portfolio supply contract does not describe the NOIE entitlement by resource, the PCRR allocation uses a 2003 4-CP ratio share. [e4]
+  - to: ptp-obligation
+    type: related
+    note: PTP Obligation PCRRs are priced at 5%, 7.5% or 10% of a positive auction clearing price, depending on Resource type, and at 100% of a negative one. [e41]
+  - to: sc-crr-valuation
+    type: related
+    note: PCRR allocations are tested for feasibility against 100% of the month's expected network topology, so they come before the auction capacity is set. [e31][e1]
+  - to: rmr
+    type: related
+    note: A NOIE keeps PCRR eligibility for a Mothballed Generation Resource whether or not ERCOT determines it is necessary for RMR Service. [e22]
+  - to: retail-choice
+    type: related
+    note: A NOIE is no longer eligible for PCRRs after it opts into competition, with an exception for STEC. [e26]
 evidence:
   - id: e1
     source: np-07
@@ -59,11 +72,11 @@ evidence:
     source: np-07
     locator: "Section 7.4.2.2, paragraph (1)(a)"
     quote: "A PCRR nomination is a request for one-month strips of a NOIE-specified CRR type for amounts and blocks specified by the NOIE for each month of the PCRR Nomination Year as described in paragraph (c) below."
-  - id: e10
+  - id: e9
     source: np-07
     locator: "Section 7.4.2.1, paragraph (1)"
     quote: "If a Generation Resource is repowered by the addition of new equipment, the PCRR MW amount is limited to the original specific turbine/generator set(s) from the pre-September 1, 1999 Generation Resource. New or upgraded components that increase the capacity of pre-September 1, 1999 Generation Resources are not eligible for increased PCRR MW amounts."
-  - id: e9
+  - id: e10
     source: np-02
     locator: "Section 2.1, definition of PCRR Nomination Year"
     quote: "The calendar year that is three years after the year containing a PCRR nomination process."
@@ -137,7 +150,7 @@ evidence:
     quote: "Once a disqualifying event occurs under Section 7.4.1.3.1, PCRR Disqualifying Events, the PCRRs associated with the pre-September 1, 1999 Generation Resource shall be voided by ERCOT from the date of the disqualifying event. Further, the NOIE will no longer be eligible for allocation of future PCRRs associated with the pre-September 1, 1999 Generation Resource."
   - id: e28
     source: np-07
-    locator: "Section 7.4.1.3.2, paragraph (2)(a)-(b)"
+    locator: "Section 7.4.1.3.2, paragraph (2)(a)"
     quote: "(a) If the NOIE maintains PCRR-related CRRs in its CRR Account, then the CRRs associated with the PCRR allocation shall either: (i) Be voided by ERCOT at the time of the disqualifying event and ERCOT shall refund the NOIE the discounted purchase price of the CRR as soon as practicable; or (ii) Be retained by the NOIE and the NOIE pays ERCOT the price differential between the discounted CRR price and the full CRR Auction price in which the CRR was acquired."
   - id: e29
     source: np-07
@@ -225,7 +238,7 @@ evidence:
     quote: "The total PCRR discount increased from $76 million in 2021 to $84 million in 2022."
   - id: e50
     source: imm-som-2023
-    locator: "page 4 (OCR) approx., CRR Auction Revenues (2023 report)"
+    locator: "page 91 (OCR), CRR Auction Revenues (2023 report)"
     quote: "We also show the amount of the discount provided to the PCRR recipients: the PCRR discount (“PCRR Intrazone Saved” and “PCRR Cross Zone Saved”’) is the difference between the auction value and the value charged to the purchaser."
   - id: e51
     source: imm-som-2023
@@ -235,6 +248,10 @@ evidence:
     source: imm-som-2025
     locator: "Transmission Congestion and CRRs, introduction to CRRs (2025 report)"
     quote: "In addition to auctioned CRRs, ERCOT allocates a subset known as Pre-Assigned Congestion Revenue Rights, or PCRRs, to Non-Opt-In Entities (NOIEs) based on generation ownership or contractual arrangements that predate retail competition."
+  - id: e53
+    source: np-07
+    locator: "Section 7.5.6.3, paragraph (1), PCRR PTP Obligation charge formula"
+    quote: "If OBLPR _((j, k), a) >0 PCRROBLAMT _(crrh, (j, k), a, tech) = PCRROBLF _(tech) * OBLPR _((j, k), a) * PCRROBL _(crrh, (j, k), a, tech) Otherwise PCRROBLAMT _(crrh, (j, k), a, tech) = OBLPR _((j, k),) _(a) * PCRROBL _(crrh, (j, k), a, tech)"
 ---
 
 ## Definition
@@ -243,29 +260,47 @@ A PCRR is a CRR that ERCOT allocates, rather than auctions, to a Non-Opt-In Enti
 
 ## How it works
 
-A NOIE is an electric cooperative or municipally owned utility that does not offer Customer Choice. [e3] A PCRR nomination is a request for one-month strips of a NOIE-chosen CRR type, in amounts and blocks the NOIE specifies for each month of the PCRR Nomination Year, which is the third calendar year after the nomination process. [e8][e9]
+**Who and what qualifies.** A NOIE is an electric cooperative or municipally owned utility that does not offer Customer Choice. [e3] A NOIE may designate an agent to manage its PCRRs, but ERCOT's relationship is with the NOIE, and ERCOT relies exclusively on documentation provided or confirmed by the NOIE to determine continued eligibility. [e13] ERCOT publishes a list of eligible NOIEs including each one's ownership or contractual capacity from pre-September 1, 1999 Resources. [e14] An existing Generation Resource that interconnected on or after June 1, 2021 under paragraph (3) of Section 1.6.5 cannot qualify as a pre-September 1, 1999 Resource for PCRR purposes. [e12]
 
-Amounts are capped by the Seasonal net max sustainable rating of the eligible resources and never above the 2010 registration-data rating. [e6] Where a portfolio supply contract does not split entitlements by resource, allocations follow the NOIE's 2003 4-CP ratio share. [e4] A NOIE serving several Load Zones nominates per zone, by contract rights or in proportion to peak Load served. [e5]
+For an owned Resource, the NOIE must have owned it before September 1, 1999 with uninterrupted ownership, the Resource must have stayed in service except for Maintenance, Forced, Opportunity or Planned Outages (including a Mothballed Resource operating under a Seasonal Operation Period), and the NOIE must use it to meet service obligations in its territory at least equal to the nominated PCRR amount. [e15] For a contract, the term must exceed five years (evergreen clauses count only if in place before September 1, 1999), and the NOIE must be entitled to capacity from specific Resources: contracts not backed by specific Resources are not eligible. [e16][e17] For a portfolio supply contract that does not describe each NOIE's entitlement by Resource, each NOIE is allocated by its 2003 4-CP ratio share, calculated as its 4-CP divided by the total 4-CP of all NOIEs supplied by the portfolio in 2003, multiplied by the 2010 registration-data net max sustainable rating of each eligible Resource. [e4][e18] The DC Tie is treated as a PCRR-eligible Resource for the contracts of Tex-La Electric Cooperative of Texas, Inc. with supply resources outside ERCOT that meet the contract tests. [e19]
+
+**Limits on the amount.** Amounts are capped by the Seasonal net max sustainable rating of eligible Resources and never above the 2010 registration-data rating. [e6] A repowered unit is limited to the original turbine/generator sets. [e9] Nominations are based on forecasted peak Demand, subject to the Resource capacity limit. [e30] A NOIE serving several Load Zones nominates per zone, by contract rights or in proportion to peak Load served. [e5]
+
+**Outages and mothballing.** A NOIE keeps eligibility for a Resource out of service more than 12 consecutive months under a Forced Outage if it demonstrates the Outage continues to be necessary and does not require the Resource Entity to cease or suspend operation. [e20] In a Nomination Year in which such a Resource is expected to return, it is eligible only for months it is expected to be in service for the entire month. [e21] A Mothballed Generation Resource also keeps eligibility, whether or not ERCOT determines it is necessary for RMR Service. [e22]
+
+**Disqualification.** PCRRs for a Resource are lost if it is retired and decommissioned, or if the NOIE sells it, including by selling its energy or capacity by contract; a transfer to an Affiliate or to a generation and transmission cooperative for the NOIE's benefit is not disqualifying if all other requirements remain. [e24][e23] Any change after September 1, 1999 in the Resources designated to back a long-term contract disqualifies it. [e25] A NOIE is no longer eligible after it opts into competition, except South Texas Electric Cooperative, which may be eligible for up to three years after entering competition. [e26] When a disqualifying event occurs, the PCRRs for the Resource are voided from the date of the event and future allocations end. [e27] If it occurs during the term of allocated PCRRs and the NOIE still holds the CRRs, they are either voided with a refund of the discounted purchase price, or retained with the NOIE paying the price differential to the full auction price; refund-option PCRRs (allocated at no charge) are voided with no financial exchange. [e28][e29]
+
+**Nomination and allocation.** A PCRR nomination is a request for one-month strips of a NOIE-specified CRR type for each month of the PCRR Nomination Year, the third calendar year after the nomination process. [e8][e10] The NOIE must specify PTP Option, PTP Obligation or a combination before allocation, and may not change it afterwards. [e42] Nominations are due at least 30 Business Days before the first Long-Term Auction Sequence of the year, ERCOT allocates at least 25 Business Days before it, and there is no PCRR nomination for a second sequence in the year. [e33] ERCOT tests nominations with the SFT using 100% of each month's expected network topology; if infeasible, it proportionately reduces requests by their Impact Ratio on violated constraints. [e31] Before each Monthly Auction, ERCOT re-evaluates any reduced nominations for the month and allocates more, if feasible, up to the original amount. [e34] PCRRs cannot be bilaterally traded through ERCOT systems before completion of the auction used to determine their value. [e43]
+
+**Refund versus capacity option.** For eligible non-solid-fuel and non-combined-cycle Resources the NOIE must choose before allocation either the refund option or the capacity option, for every month of the allocation year, not a combination. [e35] A NOIE or group with 2003 peak Load above 2,300 MW must use the capacity option for those Resources. [e36] Under the refund option the NOIE refunds congestion revenues received above those flowing to it for its Output Schedule of the Resource at the PCRR source, and such PCRRs are not transferable. [e37][e38] Under the capacity option the NOIE may nominate up to 100% of the lesser of net unit capacity or contractual amount at a capacity factor no greater than 40% over each calendar year. [e39]
+
+**Price.** The price a NOIE pays for an allocated PCRR is based on the corresponding CRR clearing price in the CRR First Offering. [e32] After the allocation process and subsequent auction, PCRRs (other than refund-option PCRRs for Resources other than solid-fuel and combined-cycle Resources, which are at no charge) are priced as a percentage of the auction clearing price: PTP Options at 10% (nuclear, coal, lignite, combined-cycle), 15% (gas steam) or 20% (hydro, wind, simple cycle and others). [e40][e11] PTP Obligations are at 5%, 7.5% or 10% for the same classes if the clearing price is positive and 100% if it is negative. [e41]
+
+## Formula
+
+For PCRR PTP Obligations the charge per source-sink pair for the TOU period is: if the auction clearing price OBLPR is positive, PCRROBLAMT = PCRROBLF x OBLPR x PCRROBL; otherwise PCRROBLAMT = OBLPR x PCRROBL. [e53] PCRROBLF is the pricing factor for pre-allocated PTP Obligations by Resource technology, set in Section 7.4.2.2(1)(g)(ii) (the 5%, 7.5% and 10% figures above). [e45][e41] For PTP Options the charge is PCRROPTAMT = PCRROPTF x OPTPR x PCRROPT, where OPTPR is the auction clearing price of the PTP Option and PCRROPT is the allocated MW. [e44] The Protocols say ERCOT charges each CRR Account Holder for pre-assigned PTP Obligations allocated before each auction. [e46]
 
 ## ERCOT context
 
-The IMM says PCRR holders pay only a fraction of the auction value of comparable CRRs, reflecting legacy transmission access rights. [e7] The auction route to CRRs is covered in the crr-auction topic.
+The IMM says ERCOT allocates PCRRs to NOIEs based on generation ownership or contractual arrangements that predate retail competition, and that holders pay only a fraction of the auction value of comparable CRRs. [e52][e7] The IMM measures the discount as the difference between the auction value and the value charged to the purchaser. [e50] It reported a total PCRR discount of $76 million in 2021 and $84 million in 2022, and said it decreased slightly to $76 million in 2023. [e49][e51] ERCOT's CRR handbook says ERCOT works with NOIEs at least annually to confirm and validate eligibility, and describes a typical annual cycle in which the nomination window opens 10 days after the review period and lasts 5 days. [e47][e48]
 
 ## Key facts
 
 - Only NOIEs can receive PCRRs. [e2]
 - Basis: pre-September 1, 1999 ownership or long-term contract (over five years) for specific Generation Resources. [e1]
 - Allocation is capped by the 2010 registration-data net max sustainable rating. [e6]
-- Nomination Year is three years after the nomination process. [e9]
-- The IMM says holders pay a fraction of comparable auction value. [e7]
+- Nomination Year is three years after the nomination process. [e10]
+- Option PCRR prices: 10%, 15% or 20% of the auction clearing price by Resource type; Obligation: 5%, 7.5% or 10% when positive, 100% when negative. [e40][e41]
+- Refund option: no charge for non-solid-fuel, non-combined-cycle Resources, with a refund of congestion revenue above the Output Schedule value; capacity option: capacity factor no greater than 40% a year. [e11][e37][e39]
+- IMM: PCRR discount $84 million in 2022 and $76 million in 2023. [e49][e51]
 
 ## Say it like this
 
-PCRRs are legacy congestion hedges given to co-ops and municipal utilities for plants and contracts that predate the market. The IMM says holders pay only a fraction of the auction value, and under the Protocols some refund-option PCRRs carry no charge.
+PCRRs are legacy congestion hedges given to co-ops and municipal utilities for plants and contracts that predate the market. They are priced at a small percentage of the auction clearing price, and the NOIE chooses between a refund option and a capacity option for most non-coal, non-nuclear, non-combined-cycle units.
 
 ## Common confusion
 
-PCRRs are allocated rather than bought in the auction, but whether they are free depends on the option: the IMM says holders pay a fraction of comparable auction value [e7], while the Protocols say refund-option PCRRs for Resources other than solid-fuel and combined-cycle Resources are provided at no charge. [e11] They are also unrelated to retail electric providers: only NOIEs qualify. [e2][e3]
+PCRRs are allocated rather than bought in the auction, but whether they are free depends on the option: the IMM says holders pay a fraction of comparable auction value [e7], while the Protocols say refund-option PCRRs for Resources other than solid-fuel and combined-cycle Resources are provided at no charge. [e11] They are also unrelated to retail electric providers: only NOIEs qualify. [e2][e3] The 4-CP ratio is a 2003 share used to split a portfolio contract, not a current 4CP charge. [e4][e18]
 
 ## Questions
 
@@ -275,9 +310,39 @@ NOIEs with pre-September 1, 1999 generation ownership or qualifying long-term co
 
 ### Can a new plant earn PCRRs?
 
-Not on new capacity: eligibility rests on pre-September 1, 1999 ownership or contracts, [e1] and new or upgraded components that increase the capacity of those resources are not eligible for increased PCRR MW amounts. [e10]
+Not on new capacity: eligibility rests on pre-September 1, 1999 ownership or contracts, [e1] and new or upgraded components that increase the capacity of those resources are not eligible for increased PCRR MW amounts. [e9] A Resource that interconnected on or after June 1, 2021 under paragraph (3) of Section 1.6.5 cannot qualify. [e12]
+
+### Why might a NOIE's PCRR nomination be cut, and can it come back?
+
+If the SFT finds the nomination infeasible, ERCOT reduces it in proportion to each PCRR's Impact Ratio on the violated constraints; before each Monthly Auction ERCOT re-evaluates and allocates more, if feasible, up to the original nomination. [e31][e34]
+
+### What is the difference between the refund and capacity options?
+
+Refund option: the NOIE refunds congestion revenue above the value flowing to it for its Output Schedule at the PCRR source and the PCRRs are non-transferable; capacity option: up to 100% of capacity at a capacity factor no greater than 40% over each calendar year. [e37][e38][e39] A NOIE with 2003 peak Load above 2,300 MW must use the capacity option for those Resources. [e36]
+
+### What if a NOIE sells a PCRR-backing plant to a third party?
+
+It is a disqualifying event: PCRRs for that Resource are voided from that date and future allocations end, unless the transfer is to an Affiliate or a generation and transmission cooperative for the NOIE's benefit and everything else stays in place. [e23][e27] If the NOIE still holds the CRRs it either has them voided with a refund of the discounted price or keeps them and pays the price differential to the full auction price. [e28]
+
+### What if a NOIE opts into retail competition?
+
+It loses eligibility, except STEC, which may stay eligible for up to three years after entering competition. [e26]
+
+### Why do PCRR holders pay only a fraction of auction value?
+
+The IMM says it reflects their legacy transmission access rights. [e7] The sources do not explain how the specific percentages (5% to 20%) were derived.
+
+## Scenarios
+
+### A co-op's gas steam unit is on a 14-month Forced Outage. Does it keep its PCRRs?
+
+- It can keep eligibility if the outage extends beyond 12 months and the co-op demonstrates to ERCOT's satisfaction that the Outage continues to be necessary and does not require the Resource Entity to cease or suspend operation. [e20]
+- For the Nomination Year in which it is expected to return, it is eligible only for months in which the unit is expected to be in service for the entire month. [e21]
 
 ## Open items
 
-- Deeper pass: disqualifying events and their effects (7.4.1.3), outage-related eligibility (7.4.1.2), and the SFT-based proportional reduction of infeasible nominations (7.4.2.2).
-- Deeper pass: the PCRR charge formula (7.5.6.3), including the PCRROBLF factor; the "fraction" level is not quantified in sources read.
+- Handbook timing: the CRR handbook places PCRR eligibility forms in July approximately 18 months ahead of the PCRR Nomination Year; this was not reconciled against the np-02 definition of the PCRR Nomination Year (three years after the year of the nomination process) and the nomination timing in 7.4.2.2(1)(c) ahead of the first Long-Term Auction Sequence.
+- The saved sources do not give the rationale for the 40% capacity factor, the 2,300 MW threshold or the pricing percentages, only the rules themselves.
+- IMM discount for 2024 and 2025 ("PCRR Saved") was not found in the saved text; the 2021 figure comes from the 2022 report.
+- PCRR revenue treatment in auction revenue distribution (7.5.7) is covered in the crr-auction topic.
+- Whether NPRR1288 (IMM: approved November 2025, removing multi-month blocks) changes PCRR nomination wording is not in the saved sources; the PCRR text above is the np-07 snapshot.
