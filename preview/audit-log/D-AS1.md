@@ -1,7 +1,7 @@
 # Audit batch D-AS1 (deeper-pass sample audit), 2026-11-21
 
 Topics: securitization, load-zone, cdr-report, negative-prices. Audited only the new or changed evidence and statements listed in each packet.
-Totals: quotes 171, context-problems 3, statements 137, wrong 4, flags 1 real / 21 false-alarm, guidance-problems 0.
+Totals: quotes 171, context-problems 3, statements 137, wrong 4, flags 1 real / 24 false-alarm, guidance-problems 0.
 Formula check: cdr-report `## Formula` checked term by term against np-03 3.2.6.1, 3.2.6.3 and 3.2.6.4 variable tables (PRM, FIRMPKLD and TOTCAP equations all match; one description was wrong, see below). Year-by-year figures checked against the saved copies: load-zone Table 1 against sources/text/imm-som-2025.ocr.txt lines 1114-1118 (all 25 figures and the 2021-2025 column order match), cdr-report battery MW row and TSP-reported load table (sums re-added, match), the 95,419 to 88,639 firm-load walk (re-added, matches), and the reserve-margin block values (consistent with the quoted 2026 and 2028 figures). After edits, `node pipeline/verify.ts` shows no ERROR or warn lines for these four topics.
 
 securitization | quotes: 65 | context-problems: 1 | statements: 38 | wrong: 0 | flags: 0 real, 3 false-alarm | guidance-problems: 0

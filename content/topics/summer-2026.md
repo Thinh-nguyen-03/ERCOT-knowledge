@@ -256,17 +256,33 @@ evidence:
     source: imm-som-tac-2026-07
     locator: "Title slide"
     quote: "Overview of 2025 State of the Market Report for ERCOT Presented to: ERCOT TAC Jeff McDonald, Ph.D. Director, ERCOT IMM Vice President, Potomac Economics August 13, 2026"
+  - id: e55
+    source: ercot-summer-2026-review
+    locator: "Slide 10, ESR SOC, Solar, and Wind Generation on Lowest SOC% Days, Key Takeaway"
+    quote: "Key Takeaway: ESRs were charging during high solar generation and discharging during the solar ramp down."
+  - id: e56
+    source: imm-monthly-2026-09
+    locator: "ERCOT-wide Cumulative Peaker Net Margin table, Cost of New Entry row (13 values of $105,000 followed by 13 values of $106,000)"
+    quote: "$105,000 $105,000 $106,000 $106,000"
+  - id: e57
+    source: imm-monthly-2026-09
+    locator: "ERCOT-wide Average Energy Prices DA vs RT chart heading"
+    quote: "ERCOT-wide Average Energy Prices DA vs RT (avg. DA & RT SPPs weighted by Real Time Settlement Loads)"
+  - id: e58
+    source: ercot-summer-2026-review
+    locator: "Slide 9, Three Lowest State of Charge (SOC)% Days 2025 vs 2026, chart note"
+    quote: "*2026 data period is 6/1 – 8/15"
 ---
 
 ## Definition
 
-Summer 2026 was the summer in which ERCOT set a new all-time demand record of 91,134 MW on July 22, 2026, while daytime hours stayed uneventful because solar growth outpaced large load additions. [e3][e1] ERCOT's Board review (September 14-15, 2026) says energy and ancillary service costs were close to or slightly below summers 2024 and 2025. [e1][e18]
+Summer 2026 was the summer in which ERCOT set a new all-time demand record of 91,134 MW on July 22, 2026, while, ERCOT says, solar growth outpacing large load additions helped make the daytime hours uneventful. [e3][e1] ERCOT's Board review (September 14-15, 2026) says energy and ancillary service costs were close to or slightly below summers 2024 and 2025. [e1][e18]
 
 ## How it works
 
-The weather was hot: June-July 2026 ranked 11th hottest of 132 years on mean temperature, driven especially by minimum temperatures, which ranked 3rd warmest all-time. [e2][e21] On July 22, crypto mining loads cut up to about 3,299 MW and 4CP response about 492 MW; ERCOT estimates the peak load would have been 94,861 MW if there was no reduction. [e3] August set its own monthly record of 90,817 MW at hour ending 18 on August 24, 2026, and September set a monthly record of 86,647 MW on September 12, 2026 (both preliminary values in ERCOT's monthly overviews). [e32][e37]
+The weather was hot: June-July 2026 ranked 11th hottest of 132 years on mean temperature, driven especially by minimum temperatures, which ranked 3rd warmest all-time. [e2][e21] On July 22, crypto mining loads cut up to about 3,299 MW and 4CP response about 492 MW; ERCOT estimates the peak load would have been 94,861 MW if there was no reduction. [e3] August's peak demand was 90,817 MW at hour ending 18 on August 24, 2026 (7,110 MW above the August 2025 peak), and September set a monthly record of 86,647 MW on September 12, 2026 (both preliminary values in ERCOT's monthly overviews). [e32][e37]
 
-Risk moved later into the evening. ERCOT says the net load hour shifted from HE 21 to HE 22 in June and July, and that batteries helped serve record net loads but ran their state of charge down in the evenings as a regular pattern. [e5][e1] Twelve of the top 20 hourly net load hours have been from 2026. [e22] On the three lowest-SOC days of 2026, SOC percentages averaged 50% lower than on the lowest days of 2025; ERCOT adds that because ESR MWh capacity is higher, the lower SOC percentage is not necessarily lower SOC in MWh. [e6][e20] Across June 1 to August 15, SOC was generally highest between hours 12 and 20, and SOC was under 20% in 15% of hours and under 10% in 0.74% of hours. [e24]
+Risk moved later into the evening. ERCOT says the net load hour shifted from HE 21 to HE 22 in June and July, and that batteries helped serve record net loads but ran their state of charge down in the evenings as a regular pattern. [e5][e1] Twelve of the top 20 hourly net load hours have been from 2026. [e22] On the three lowest-SOC days of 2026 (data period June 1 to August 15), SOC percentages averaged 50% lower than on the lowest days of 2025; ERCOT adds that because ESR MWh capacity is higher, the lower SOC percentage is not necessarily lower SOC in MWh. [e6][e58][e20] Across the summer (the slide states no data period), SOC was generally highest between hours 12 and 20, and SOC was under 20% in 15% of hours and under 10% in 0.74% of hours. [e24]
 
 Ancillary services were nearly always covered. There were no shortages of Reg-Up, Reg-Down or RRS, and Non-Spin and ECRS met plan in nearly all intervals; most Non-Spin shortfalls came in June during late-evening peak AS Plan requirements, with 40% of intervals in HE 22-23 affected. [e11][e25] ERCOT procures more Non-Spin than the AS Plan calls for in times of abundance when it is cost-effective: Non-Spin above plan grew from 25 GWh/day in June to roughly 48 GWh/day in July and August, offsetting a fall in the plan from 86 to 66 GWh/day. [e26] Batteries dominated ancillary service awards, especially regulation, in both the DAM and the real-time market. [e31]
 
@@ -290,21 +306,21 @@ RUC by full month comes from ERCOT's monthly overviews: 422.4 effective resource
 - Real-time congestion rent 10% below summer 2025 (August through August 15 in each year). [e10][e19]
 - ERCOT-wide average prices, IMM monthly table, DA then RT ($/MWh): June 2026 30.36 / 31.31; July 33.50 / 31.14; August 36.07 / 38.77; September 42.17 / 43.25. [e42]
 - ERCOT's own DA-RT spread (weighted by real-time load): DA above RT by $2.58/MWh in July; RT above DA by $2.48/MWh in August. [e39][e40][e41]
-- Peaker net margin: $43,111 on 8/15/26 versus $46,472 on 8/15/25 (ERCOT Summer review); IMM cumulative 2026 PNM $50,725.88 through August and $60,166.25 through September, against a Cost of New Entry line of $105,000. [e15][e43][e44]
+- Peaker net margin: $43,111 on 8/15/26 versus $46,472 on 8/15/25 (ERCOT Summer review); IMM cumulative 2026 PNM $50,725.88 through August and $60,166.25 through September; the IMM table's Cost of New Entry row steps from $105,000 to $106,000 partway along (13 values each), and by column order the $106,000 values appear to be the 2026 columns. [e15][e43][e44][e56]
 - Large loads: of 9,456 MW with Approval to Energize, ERCOT observed a non-simultaneous peak consumption of 4,316 MW in August 2026. [e49]
 - August 2026 generation: 54,418 GWh, up 10.1% year over year. [e50]
 
 ## Timeline
 
 - December 5, 2025: RTC go-live; the real-time SWCAP goes to $2,000/MWh from $5,000/MWh per ERCOT, and real-time AS procurement and pricing begin. [e12][e30]
-- June 1 - August 15, 2026: data period for most charts in ERCOT's Summer 2026 review. [e19][e24]
+- June 1 - August 15, 2026: data period for most charts in ERCOT's Summer 2026 review. [e58][e19]
 - June-July 2026: 11th hottest June-July in 132 years. [e2]
 - July 9, 2026, 16:50: ERCOT issues a Watch because HRUC did not complete for HE18 due to timeline deviation. [e38]
 - July 22, 2026: all-time demand record of 91,134 MW. [e3][e4]
 - August 13, 2026: the IMM presents its 2025 State of the Market overview to TAC, including its RUC and reserves views. [e54][e46]
 - August 17, 2026: ERCOT's July monthly operational overview reports the record as unofficial. [e4]
 - August 19, 2026, 10:00: ERCOT issues an OCN for an extreme hot weather event for August 20-25 in the North Central and South Central regions. [e33]
-- August 24, 2026: August monthly record of 90,817 MW at HE 18. [e32]
+- August 24, 2026: August peak demand of 90,817 MW at HE 18. [e32]
 - September 12, 2026: September monthly record of 86,647 MW. [e37]
 - September 14-15, 2026: Board of Directors meeting date on the Summer 2026 Operational and Market Review deck. [e18][e1]
 - September 16, 2026: ERCOT's August monthly overview (782.1 RUC effective resource-hours in August). [e52][e35]
@@ -315,19 +331,19 @@ RUC by full month comes from ERCOT's monthly overviews: 422.4 effective resource
 
 (Guidance) Summer 2026 set a new peak above 91 GW, but solar and storage kept the daytime quiet and prices, ancillary costs and peaker margins came in lower than the past two summers. [e3][e1][e7] The pressure point is now late evening, around HE 22, when batteries are running low, and RUC activity went up, largely to address capacity needs and ensure sufficient ancillary service quantities. [e5][e1][e9][e14]
 
-(Guidance) If asked about scarcity pricing after RTC+B: say there is no separate ORDC adder any more, scarcity is priced through the ASDCs inside co-optimized prices, and the IMM says that shortage pricing has been minimal since December 2025. [e51][e48]
+(Guidance) If asked about scarcity pricing after RTC+B: say there is no separate ORDC adder any more, scarcity is priced through the ASDCs inside co-optimized prices, and the IMM told TAC in August 2026 that shortage pricing via the ASDCs had been minimal since December 2025. [e51][e48][e54]
 
 ## Common confusion
 
 (Guidance) A record peak does not mean a scarcity summer: ERCOT reports lower real-time prices and peaker net margin than in 2024 and 2025 even with a new demand record. [e7][e3] The 94,861 MW figure is ERCOT's estimate of peak load if there was no demand reduction, not the recorded peak. [e3] On offer caps: ERCOT's slide says the SWCAP was reduced to $2,000/MWh from $5,000/MWh after RTC go-live, the Protocol table lists a $5,000 day-ahead and $2,000 real-time cap, and PUCT rule 25.509 still states a $5,000 HCAP; see the offer-cap topic. [e12][e16][e17]
 
-(Guidance) The 1,313 RUC figure (Summer review) and the monthly RUC figures are on different periods: the review counts June through August 15, while the August overview's 782.1 covers the full month. [e9][e19][e35] Peaker net margin figures also differ by date and publisher: ERCOT's $43,111 is as of August 15, while the IMM's cumulative figures run through the end of August and September. [e15][e43] ERCOT's and the IMM's DA-RT gaps are not computed the same way: ERCOT weights by real-time load. [e41][e42]
+(Guidance) The 1,313 RUC figure (Summer review) and the monthly RUC figures are on different periods: the review counts June through August 15, while the August overview's 782.1 covers the full month. [e9][e19][e35] Peaker net margin figures also differ by date and publisher: ERCOT's $43,111 is as of August 15, while the IMM's cumulative figures run through the end of August and September. [e15][e43] ERCOT's and the IMM's DA-RT figures come from different publications: ERCOT says its averages are weighted by Real-Time Market Load, and the IMM's ERCOT-wide DA vs RT chart heading says its prices are weighted by Real Time Settlement Loads; the saved sources do not explain any remaining difference. [e41][e57][e42]
 
 ## Questions
 
 ### Why were prices low in a record-demand summer?
 
-ERCOT says higher supply, especially in daylight hours, kept real-time prices below 2024 and 2025, which also lowered peaker net margin. [e7] Solar growth outpaced large load additions. [e1] More solar and storage capacity also lets batteries charge on cheap daytime energy and discharge into the evening ramp. [e24][e31]
+ERCOT says higher supply, especially in daylight hours, kept real-time prices below 2024 and 2025, which also lowered peaker net margin. [e7] Solar growth outpaced large load additions. [e1] ERCOT also observed ESRs charging during high solar generation and discharging during the solar ramp down. [e55]
 
 ### Where is the reliability risk now?
 
@@ -339,7 +355,7 @@ ERCOT says RUC activity in summer 2026 was largely attributed to addressing capa
 
 ### What if a battery offers near the cap at 20:00?
 
-ERCOT reports that a slightly higher share of ESR capacity was offered within $100/MWh of the cap in summer 2026 at the 20:00 SCED snapshot, largely because the real-time cap fell to $2,000/MWh with RTC+B. [e27][e28] With a lower cap, the same offer behavior lands closer to the cap, so the share near the cap can rise without batteries changing strategy; the sources do not break this down further.
+ERCOT reports that a slightly higher share of ESR capacity was offered within $100/MWh of the cap in summer 2026 at the 20:00 SCED snapshot, largely because the real-time cap fell to $2,000/MWh with RTC+B. [e27][e28] (Knowledge base's reasoning, not from a source: with a lower cap, the same offer behavior lands closer to the cap, so the share near the cap can rise without batteries changing strategy.) The sources do not break this down further.
 
 ### Why does the IMM criticise ERCOT's reserve posture after a quiet summer?
 
