@@ -62,3 +62,22 @@ Boundaries: edit only your assigned topic files and your own log. Do not commit.
 
 Report back in under 200 words: totals from your log, the 3-6 most serious problems (most serious first), and
 anything you could not resolve.
+
+## Addendum: auditing the deeper pass (applies when your batch name starts with F-)
+
+- The topics were expanded in a "deeper pass" and the new material has not been checked. Your packets list ONLY
+  the evidence and statements that are new or changed since the last audit. Audit all of that, and nothing else.
+- A sample audit of this material found about 7% of statements wrong (6% in single-source topics, 10% in
+  multi-source topics). Expect to find problems; "nothing wrong" in a large topic deserves a second look.
+- Check every `## Formula` section term by term against the source: a wrong sign, a missing term or branch, a
+  renamed or mislabelled variable, or a dropped condition counts as wrong. Three of the formula sections sampled
+  had a real error.
+- Check year-by-year figures and table values against the text or OCR copy they cite, including the period each
+  covers (several sources stop mid-year or mid-season).
+- Anything the writer worked out (a total, a ceiling, a percentage) must be labelled as the knowledge base's own
+  arithmetic with its assumptions, or removed. It is not a source's figure.
+- Common errors found in the sample: a quote that stops before an exception; a pending box, proposal or
+  not-yet-effective edition stated as current; an opinion (IMM, a party) stated as fact or attributed to the wrong
+  body; a rule for one class stated for all; "(Reasoning)" or "Suppose" bullets that introduce facts; a passage's
+  referent misread (for example which "projects" or "hubs" a sentence means).
+- Write your log to preview/audit-log/<batch>.md in the format above. Do not run pipeline/audit.ts.
