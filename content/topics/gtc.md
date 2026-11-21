@@ -93,7 +93,7 @@ evidence:
   - id: e15
     source: np-03
     locator: "Section 3.10.7.6, paragraph (6)"
-    quote: "If an unexpected change to ERCOT System conditions requires the creation of a new GTC or the modification of an existing GTC to manage ERCOT System reliability, and the GTC has not been posted pursuant to paragraph (3) above, ERCOT shall issue an Operating Condition Notice (OCN) and post on the MIS Secure Area the new or modified GTC and its associated GTL(s), including the detailed information described in paragraphs (3) and (5) above."
+    quote: "If an unexpected change to ERCOT System conditions requires the creation of a new GTC or the modification of an existing GTC to manage ERCOT System reliability, and the GTC has not been posted pursuant to paragraph (3) above, ERCOT shall issue an Operating Condition Notice (OCN) and post on the MIS Secure Area the new or modified GTC and its associated GTL(s), including the detailed information described in paragraphs (3) and (5) above. ERCOT shall include an explanation regarding why it did not post the GTC or modification on the previous day."
   - id: e16
     source: ercot-planning-guide-05
     locator: "Planning Guide Section 5.3.5, ERCOT Quarterly Stability Assessment, paragraph (1)"
@@ -178,6 +178,10 @@ evidence:
     source: imm-som-2024
     locator: "page 88 (OCR), Transmission Congestion and CRRs, Real-Time Congestion (2024 report)"
     quote: "There was also approximately 22% more congestion associated with GTCs in the real- time market, likely a result of forecast error for generation from renewables."
+  - id: e37
+    source: imm-som-2023
+    locator: "page 87 (OCR), Real-time congestion (2023 report)"
+    quote: "ERCOT has been working on getting better data for the full range of inverter technologies, which will allow all GTC limits to be calculated in real time rather than using more conservative offline studies. This should result in less congestion and generation curtailment."
 ---
 
 ## Definition
@@ -186,9 +190,9 @@ A Generic Transmission Constraint is a transmission constraint made up of one or
 
 ## How it works
 
-**What a GTC may do.** ERCOT may create or modify GTCs only to create flow constraints between areas in applications that cannot recognize non-thermal limits such as stability or bus voltage limits. These GTCs are used in SCED, and ERCOT may not use a GTC to replace a constraint that SCED can already model directly. [e3] The IMM describes them as managing stability across regions rather than enforcing thermal limits on specific paths. [e5] The IMM also says GTC limits are set before the operating day, whereas other constraints are activated through the Real-Time Contingency Analysis process that runs continuously. [e29]
+**What a GTC may do.** ERCOT may create or modify GTCs only to create flow constraints between areas in applications that cannot recognize non-thermal limits such as stability or bus voltage limits. These GTCs are used in SCED, and ERCOT may not use a GTC to replace a constraint that SCED can already model directly. [e3] The IMM describes them as managing stability across regions rather than enforcing thermal limits on specific paths. [e5] In its 2024 report the IMM says GTC limits are set before the operating day, whereas other constraints are activated through the Real-Time Contingency Analysis process that runs on an ongoing basis; its 2023 report says certain GTC limits are instead determined in real time (see below). [e29]
 
-**How the limit is set.** In the quarterly stability assessment, if ERCOT finds a GTC is necessary for a new Generation Resource, ESR or SOTSG because of localized stability issues from its output, the GTL is set to the lowest non-zero limit for all system conditions outside those in which the limit is zero. [e10] The Planning Guide requires ERCOT to run that stability assessment every three months, covering planned large generators and Large Loads subject to the Batch Zero requirements. [e16] The IMM says certain GTC limits (East Texas, North to Houston, Rio Grande Valley Import and Panhandle in its 2023 report) are determined in real time using the Voltage Stability Assessment Tool or the Transient Stability Assessment Tool, giving a more accurate limit than offline studies. [e24] It says ERCOT has been working to get better inverter data so all GTC limits can be calculated in real time, which it expects to mean less congestion and curtailment. [e25]
+**How the limit is set.** In the quarterly stability assessment, if ERCOT finds a GTC is necessary for a new Generation Resource, ESR or SOTSG because of localized stability issues from its output, the GTL is set to the lowest non-zero limit for all system conditions outside those in which the limit is zero. [e10] The Planning Guide requires ERCOT to run that stability assessment every three months, covering planned large generators and Large Loads subject to the Batch Zero requirements. [e16] The IMM says certain GTC limits (East Texas, North to Houston, Rio Grande Valley Import and Panhandle in its 2023 report) are determined in real time using the Voltage Stability Assessment Tool or the Transient Stability Assessment Tool, giving a more accurate limit than offline studies. [e24] It says ERCOT has been working to get better inverter data so all GTC limits can be calculated in real time, which it expects to mean less congestion and curtailment. [e37]
 
 **Posting and comment.** Except for unexpected changes, ERCOT posts a description of each new or modified GTC on the MIS Secure Area no later than the day before it becomes effective in any ERCOT application. [e11] Market Participants may review and comment; ERCOT posts comments within seven days of receipt and may modify a GTC in response. [e13] Some information is redacted or omitted to protect the confidentiality of certain stability-related GTCs. [e12] Anticipated GTLs are posted no later than one day before the Operating Day. [e14] If an unexpected change in conditions requires a new or modified GTC that was not posted ahead, ERCOT issues an Operating Condition Notice and posts the GTC, its GTLs and an explanation of why it did not post the previous day. [e15]
 
@@ -198,11 +202,11 @@ A Generic Transmission Constraint is a transmission constraint made up of one or
 
 The IMM links GTCs to renewable-heavy regions far from load, and describes the stability issues created by distance between renewable generation and load as managed through GTCs. [e5][e32] It counted 26 active GTCs in 2025 against 18 in 2021. [e9]
 
-**Congestion by year (IMM).** The IMM reported congestion on GTCs growing from $190 million in real-time congestion in 2020 to $400 million in 2021, and to $640 million in 2022. [e21][e35] It said GTC binding intervals in 2022 were nearly identical to 2021 and represented 23% of real-time congestion rent. [e22] In 2023 roughly 11% of real-time congestion was associated with GTCs. [e23] In 2024 roughly 12% of day-ahead congestion value was attributable to GTCs [e6], and the IMM reported approximately 22% more GTC congestion in the real-time market than the prior year, likely a result of forecast error for renewable generation. [e36] For 2025 the IMM said day-ahead congestion rose 26% and costs increased for GTCs, without a GTC-only figure in the text read. [e30] The IMM's 2023 Table A4 (OCR) lists total GTC binding hours of 6,355.9 in 2022 and 5,791.0 in 2023, including Panhandle at 783.0 and 670.8 hours and North Edinburg - Lobo at 1,830.4 and 1,948.3. [e28][e26][e27]
+**Congestion by year (IMM).** The IMM reported congestion on GTCs growing from $190 million in real-time congestion in 2020 to $400 million in 2021, and to $640 million in 2022. [e21][e35] It said GTC binding intervals in 2022 were nearly identical to 2021 and represented 23% of real-time congestion rent. [e22] In 2023 roughly 11% of real-time congestion was associated with GTCs. [e23] In 2024 roughly 12% of day-ahead congestion value was attributable to GTCs [e6], and the IMM reported approximately 22% more GTC congestion in the real-time market than in the day-ahead market for 2024, likely a result of forecast error for renewable generation. [e36] For 2025 the IMM said day-ahead congestion rose 26% and costs increased for GTCs, without a GTC-only figure in the text read. [e30] The IMM's 2023 Table A4 (OCR) lists total GTC binding hours of 6,355.9 in 2022 and 5,791.0 in 2023, including Panhandle at 783.0 and 670.8 hours and North Edinburg - Lobo at 1,830.4 and 1,948.3. [e28][e26][e27]
 
 **Where.** In its 2023 report the IMM said that, apart from the North to Houston, Rio Grande Valley Import and East Texas constraints, all GTCs resulted from issues identified in the generation interconnection process. [e25] ERCOT's December 2025 constraints report ranks the West Texas Export Interface fourth among the top 10 constraints for October 2024 to September 2025 at $127 million of congestion rent on real-time data. [e33]
 
-**Pricing.** GTCs are treated as base-case stability constraints with a shadow price cap; the IMM reports $5,251 per MW in 2025 and that the base-case cap was cut from $9,251 to $5,251 per MW effective April 1, 2022. [e7][e19] ERCOT's methodology says the generic shadow price caps are used in SCED unless ERCOT determines a constraint is irresolvable by SCED. [e18] NPRR 1230, implemented at the end of 2024 per the IMM, created a process to increase the base-case shadow price cap. [e31]
+**Pricing.** GTCs are treated as base-case stability constraints with a shadow price cap; the IMM reports $5,251 per MW in 2025 and that the base-case cap was cut from $9,251 to $5,251 per MW effective April 1, 2022. [e7][e19] ERCOT's methodology says the generic shadow price caps are used in SCED unless ERCOT determines a constraint is irresolvable by SCED. [e18] The IMM says NPRR 1230 was implemented at the end of 2024 to increase the shadow price cap on base-case constraints, in response to IMM recommendation 2023-1. [e31]
 
 **Interaction with other rules.** Before approving an Extended Action Plan for economic reasons, ERCOT must verify that it does not negatively impact any GTC, decrease a GTL or create new instability situations. [e17]
 
@@ -229,11 +233,11 @@ The IMM links GTCs to renewable-heavy regions far from load, and describes the s
 
 ## Say it like this
 
-A GTC is a modeled stand-in for a stability or voltage limit that ERCOT's normal analysis cannot see, applied as a flow limit between areas and set from stability studies before the operating day. The IMM ties them to areas with significant renewable generation far from load.
+A GTC is a modeled stand-in for a stability or voltage limit that ERCOT's normal analysis cannot see, applied as a flow limit between areas (the IMM says limits are set before the operating day, though some are determined in real time with stability tools). The IMM ties them to areas with significant renewable generation far from load.
 
 ## Common confusion
 
-GTCs are not thermal line ratings; they are applied as flow limits between areas to manage stability. [e1][e5] The GTL is the number, while the GTC is the constraint. [e2] A GTC is also not the same as a constraint SCED picks up through real-time contingency analysis: its limit is set ahead of the day, from studies. [e29]
+GTCs are not thermal line ratings; they are applied as flow limits between areas to manage stability. [e1][e5] The GTL is the number, while the GTC is the constraint. [e2] A GTC is also not the same as a constraint SCED picks up through real-time contingency analysis: the IMM's 2024 report says GTC limits are set prior to the operating day, although its 2023 report says certain GTC limits are determined in real time with VSAT or TSAT. [e29][e24]
 
 ## Questions
 
@@ -251,7 +255,7 @@ Post it to the MIS Secure Area no later than the day before it takes effect (an 
 
 ### Why can a new generator trigger a GTC?
 
-If the quarterly stability assessment finds that localized stability issues from the new Resource's output make a GTC necessary, the GTL is set to the lowest non-zero limit for all conditions outside those in which the limit is zero. [e10] The IMM says apart from three named constraints all GTCs resulted from issues identified in the generation interconnection process. [e25]
+If the quarterly stability assessment finds that localized stability issues from the new Resource's output make a GTC necessary, the GTL is set to the lowest non-zero limit for all conditions outside those in which the limit is zero. [e10] In its 2023 report the IMM says apart from three named constraints all GTCs resulted from issues identified in the generation interconnection process. [e25]
 
 ### What if a stability issue appears suddenly and no GTC is posted?
 

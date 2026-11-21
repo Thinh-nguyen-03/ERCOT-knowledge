@@ -35,7 +35,7 @@ links:
     note: A resource with an ERS obligation may propose to serve as an alternative to an RMR resource, and if selected its ERS obligation is modified or terminated. [e45]
   - to: clr
     type: contrasts-with
-    note: The IMM says crypto mines that migrated from CLR registration into ERS are no longer price-responsive in SCED, and recommends changes that would push them back to CLR registration. [e41]
+    note: The IMM says crypto mines that migrated from CLR registration into ERS are no longer price-responsive in SCED, and recommends changes that would push them back to CLR registration. [e42]
   - to: winter-storm-uri
     type: example-of
     note: In Winter Storm Uri in February 2021 the majority of the ERS fleet was deployed and exhausted within 12 hours of deployment. [e43]
@@ -276,6 +276,14 @@ evidence:
     source: np-22q
     locator: "Attachment Q, G. ERS Capacity Provided Through ERS Self-Provision"
     quote: "For any ERS self-provision, ERCOT will reduce the Time Period expenditure limit for any offers to self-provide part or all of a QSE’s ERS Obligation by the clearing price for ERS."
+  - id: e61
+    source: np-22q
+    locator: "Attachment Q, D. ERS Expenditure Limit, formula"
+    quote: "{Expenditure\ Limit}_{TP} = {ERS\ Funds\ Determined\ for\ Allocation}_{Program\ Year} \times"
+  - id: e62
+    source: np-22q
+    locator: "Attachment Q, D. ERS Expenditure Limit, allocation factor formula"
+    quote: "\left\lbrack \begin{array}{r} Risk \\ Weighting \\ Factor \end{array}_{TP} \times {\#\ hrs}_{TP} \times OfferCap \right\rbrack \div \left\lfloor \sum_{TP}^{}{\begin{array}{r} Risk \\ Weighting \\ Factor \end{array}_{TP} \times {\#\ hrs}_{TP} \times OfferCap} \right\rfloor"
   - id: e59
     source: np-03
     locator: "Section 3.14.3.3, paragraph (1)"
@@ -292,21 +300,21 @@ ERS is a special emergency service that ERCOT procures and deploys to help preve
 
 **What is bought.** ERCOT issues requests for proposals for four standard contract terms (December through March, April and May, June through September, October and November) and buys from four service types: weather-sensitive or non-weather-sensitive, each as ERS-10 or ERS-30. [e4][e5] A QSE may offer one resource into any or all four service types, but ERCOT awards only one service type per ERS Resource. [e20] The December 2026 RFP, for example, covers December 1, 2026 through March 31, 2027, and asks for a single hourly capacity price in $ per MW per hour for each Time Period, with Time Periods evaluated separately and not linked. [e54][e55] The ERS-10 or ERS-30 number is the response time: ten minutes or 30 minutes from the ERCOT Dispatch Instruction, held for the entire Sustained Response Period. [e26] The ramp periods are likewise ten minutes for ERS-10 and 30 minutes for ERS-30. [e38]
 
-**Exclusivity.** A QSE must affirm that no offered capacity from any site has been or will be committed to any other product, service or program in the same hours, and the list expressly includes Ancillary Services, SCED and TDSP standard offer programs. [e24] The same rule appears from the other direction: contracted ERS capacity may not be used for Ancillary Services during a contracted ERS Time Period, without limiting passive (voluntary) Load response if the resource still meets its performance and availability requirements. [e27]
+**Exclusivity.** A QSE must affirm that no offered capacity from any site has been or will be committed to any other product, service or program in the same hours, and the list expressly includes Ancillary Services, SCED and TDSP standard offer programs. There is one stated exception: a QSE may offer a site for ERS while it has an offer pending for the same site to serve as an MRA, but if the site is selected as an MRA it may not serve as ERS during any ERS Time Period in the ERS Contract Term in which it is obligated as an MRA. [e24] The same rule appears from the other direction: contracted ERS capacity may not be used for Ancillary Services during a contracted ERS Time Period, without limiting passive (voluntary) Load response if the resource still meets its performance and availability requirements. [e27]
 
 **Procurement mechanics (Attachment Q).** ERCOT builds a capacity demand curve for each ERS Time Period, procures all ERS products together within the limits of that curve, and maximizes MW procured subject to the Time Period's expenditure limit. [e30] The ERS offer cap in the December 5, 2025 version of Attachment Q is $80/MW/hr for every Time Period in the program year, and offers above it are rejected automatically. [e31] The $75 million is allocated across the program year, which runs from the December through March term to the October through November term. [e32] ERCOT assigns each Time Period a high, moderate or low risk designation and a risk-weighting factor from 1 to 100. [e33] The capacity inflection point is where capacity can only be procured below the offer cap while respecting the expenditure limit. [e34] The highest accepted offer for a Time Period sets one clearing price for every ERS service type in that Time Period, and if offers at the same price would exceed the limit they are considered in random order. [e48][e49] Funds not used by the end of a program year are not carried forward. [e50]
 
-**Contract periods and obligations.** Resources are obligated for 24 hours of cumulative deployment time in each Contract Period of the December through March term and 12 hours in each Contract Period of every other term. [e21] When a service type's obligations are exhausted, that Contract Period ends at the end of the Operating Day of exhaustion. [e22] ERCOT may then renew the obligations of resources that opted in during the offer process, and that election is irrevocable once committed, except that a QSE may revoke it by the end of the second Business Day of a renewal Contract Period (paragraph (iv)). [e23][e15] Deployment is also limited by the PUCT rule to the contracted hours, up to a maximum of 24 cumulative hours in an ERS contract period. [e57]
+**Contract periods and obligations.** Resources are obligated for 24 hours of cumulative deployment time in each Contract Period of the December through March term and 12 hours in each Contract Period of every other term. [e21] When a service type's obligations are exhausted, that Contract Period ends at the end of the Operating Day of exhaustion, or, if resources in that service type are still deployed at the end of that day, at the end of the Operating Day on which they are recalled. [e22] ERCOT may then renew the obligations of resources that opted in during the offer process, and that election is irrevocable once committed, except that a QSE may revoke it by the end of the second Business Day of a renewal Contract Period (paragraph (iv)). [e23] Renewals are paid for within the extra $25 million the PUCT rule allows when ERS has been exhausted. [e15] Deployment is also limited by the PUCT rule to the contracted hours, up to a maximum of 24 cumulative hours in an ERS contract period. [e57]
 
 **Deployment.** When PRC falls below 3,000 MW and is not projected to recover above 3,000 MW within 30 minutes following the deployment of Non-Spin, ERCOT may deploy available contracted ERS-10 and ERS-30 via an XML message. [e6] A pending change (NPRR1238, to take effect upon system implementation) would change the 30-minute test to run from the deployment of Non-Spin and all VECL. [e16] After release, a deployed resource must be able to return to a condition capable of meeting its performance requirements within ten hours. [e28] The IMM's 2022 report says the PRC-based deployment trigger came from a PUCT direction in October 2021, enacted in the Protocols as NPRR1106. [e44]
 
 **Self-provision.** A QSE may self-provide all or part of its ERS obligation on a schedule ERCOT publishes, and ERCOT reduces the Time Period expenditure limit by the clearing price for those self-provision offers. [e29][e60]
 
-**Payment, charges and performance.** The PUCT rule has ERCOT pay each QSE as-bid, by market clearing price or another mechanism, adjusted for availability and event performance. [e36] Deployment itself brings no additional ERS payment beyond whatever the QSE earns through Real-Time energy imbalance or other Settlement. [e25] The charge is allocated by load ratio share, where a QSE's share for a Time Period is its total Load divided by total ERCOT Load in that Time Period. [e35] Performance is measured from 15-minute interval data: the event performance factor is the time-weighted average of interval performance factors over the Sustained Response Period. [e39] A QSE whose portfolio availability and event performance factors both equal or exceed 0.95 is deemed to have met its requirements for the Contract Period and is not subject to suspension. [e37] ERCOT must send each QSE an event performance report within 45 days after the end of a term in which a deployment occurred. [e40] ERCOT must report on ERS effectiveness to the PUCT each year by April 15. [e56]
+**Payment, charges and performance.** The PUCT rule has ERCOT pay each QSE as-bid, by market clearing price or another mechanism, adjusted for availability and event performance. [e36] Deployment itself brings no additional ERS payment beyond whatever the QSE earns through Real-Time energy imbalance or other Settlement. [e25] The charge is allocated by load ratio share, where a QSE's share for a Time Period is its total Load divided by total ERCOT Load in that Time Period. [e35] Performance is measured from 15-minute interval data: each ERS Resource's event performance factor is the time-weighted average of interval performance factors over the Sustained Response Period. [e39] For QSEs representing Non-Weather-Sensitive ERS Resources, a QSE whose portfolio availability and event performance factors both equal or exceed 0.95 is deemed to have met its requirements for the Contract Period and is not subject to suspension. [e37] ERCOT must send each QSE an event performance report within 45 days after the end of a term in which a deployment occurred. [e40] ERCOT must report on ERS effectiveness to the PUCT each year by April 15. [e56]
 
 ## Formula
 
-The Protocols give two simple formulas in Attachment Q, both in words below. The expenditure limit for a Time Period is the funds determined for allocation in the program year multiplied by that Time Period's allocation factor, which is its risk-weighting factor times its number of hours times the offer cap, divided by the sum of the same product over all Time Periods. [e32][e33] The capacity inflection point for each Time Period is then its expenditure limit divided by the number of hours in the Time Period times the offer cap: [e47]
+The Protocols give two simple formulas in Attachment Q, both in words below. The expenditure limit for a Time Period is the funds determined for allocation in the program year multiplied by that Time Period's allocation factor, which is its risk-weighting factor times its number of hours times the offer cap, divided by the sum of the same product over all Time Periods. [e61][e62] The capacity inflection point for each Time Period is then its expenditure limit divided by the number of hours in the Time Period times the offer cap: [e47]
 
 `CapInflectionPoint_(TP) = ExpenditureLimit_(TP) ÷ [# hrs_(TP)×OfferCap]` [e47]
 
@@ -314,9 +322,9 @@ Read it as: the MW that could be bought for every hour of the Time Period at the
 
 ## ERCOT context
 
-The IMM describes ERS as an auction in which industrial and commercial consumers offer to be curtailed. For the 2024 program year ERCOT procured an average of 1,147 MW per hour at an average clearing price of $7.36 per MWh. [e9] For the 2025 program year (December 2024 through November 2025) the average was 1,666 MW per hour, up 45%, at $4.36 per MWh, down 41%, and the IMM says this likely reflects the influx of cryptocurrency mining facilities. [e41] By the end of 2025, cryptocurrency mining operations accounted for more than half of all ERS capacity. [e10]
+The IMM describes ERS as a centralized auction in which industrial and commercial consumers submit offers to provide ERS. For the 2024 program year ERCOT procured an average of 1,147 MW per hour at an average clearing price of $7.36 per MWh. [e9] For the 2025 program year (December 2024 through November 2025) the average was 1,666 MW per hour, up 45%, at $4.36 per MWh, down 41%, and the IMM says this likely reflects the influx of cryptocurrency mining facilities. [e41] By the end of 2025, cryptocurrency mining operations accounted for more than half of all ERS capacity. [e10]
 
-The IMM gives two reasons that is a problem: crypto mines that were registered as CLRs have migrated to ERS and are no longer price-responsive in SCED, and paying a price-sensitive load to curtail pays it to do what it would already do. The IMM recommends changing ERS eligibility or performance criteria to shift crypto mines out and encourage CLR registration. [e42] An ERCOT Board item dated April 13, 2026 (a resource adequacy and demand response discussion that includes a consultant study) raises a related concern: it says ERCOT has identified instances where extremely price-responsive ERS Resources self-deploy in response to high prices, which could undermine the product and drive ERS prices to inefficiently low levels. [e53]
+The IMM gives two reasons that is a problem: crypto mines that were registered as CLRs have migrated to ERS and are no longer price-responsive in SCED, and paying a price-sensitive load to curtail pays it to do what it would already do. The IMM recommends changing ERS eligibility or performance criteria to shift crypto mines out and encourage CLR registration. [e42] The Charles River Associates assessment included in an ERCOT Board item dated April 13, 2026 (a resource adequacy and demand response discussion) raises a related concern: it says ERCOT has identified instances where extremely price-responsive ERS Resources self-deploy in response to high prices, which could undermine the product and drive ERS prices to inefficiently low levels. [e53]
 
 ERS deployments: the IMM counts nine events since inception, the most recent in September 2023. [e9] That year ERS was deployed on August 17 and September 6 when PRC fell below 3,000 MW. [e51] There were no ERS deployments in 2024. [e12] The IMM's 2025 report says ERCOT has not deployed ERS system wide since September 6, 2023, a deployment it attributes to transmission-related contingencies rather than insufficient capacity. [e52] In Winter Storm Uri the majority of the ERS fleet was deployed and exhausted within 12 hours. [e43]
 
@@ -348,7 +356,7 @@ The IMM lists ERS among out-of-market products and argues that such programs com
 
 ## Common confusion
 
-ERS is not a normal ancillary service, and the protocols say so. [e2] The "10" and "30" are response times, not MW or hours. [e26] ERS capacity is exclusive: the contracted capacity cannot also be committed to other products or programs in the same hours. [e24] And a deployment does not pay extra: deployment brings no additional ERS payment. [e25]
+ERS is not a normal ancillary service, and the protocols say so. [e2] The "10" and "30" are response times, not MW or hours. [e26] ERS capacity is exclusive: the contracted capacity cannot also be committed to other products or programs in the same hours (with a narrow exception for a pending MRA offer). [e24] And a deployment does not pay extra: deployment brings no additional ERS payment. [e25]
 
 ## Questions
 
@@ -370,15 +378,15 @@ The IMM argues programs like ERS compensate entities outside the energy and anci
 
 ### Why is crypto mining participation in ERS a concern?
 
-The IMM says crypto mines that migrated from CLR registration are no longer price-responsive in SCED, and that paying them to curtail essentially pays them to do what they would already do. [e42] The April 2026 ERCOT Board item separately flags self-deployment by price-responsive ERS Resources as a risk to the product and to ERS prices. [e53]
+The IMM says crypto mines that migrated from CLR registration are no longer price-responsive in SCED, and that paying them to curtail essentially pays them to do what they would already do. [e42] The Charles River Associates assessment in the April 2026 ERCOT Board item separately states that ERCOT has identified self-deployment by price-responsive ERS Resources, which it says could undermine the product and ERS prices. [e53]
 
 ### What happens when ERS obligations are used up in a contract period?
 
-The Contract Period for that service type ends at the end of the Operating Day of exhaustion, and ERCOT can renew obligations for resources that opted in, within the extra $25 million the PUCT rule allows for renewals when ERS has been exhausted. [e22][e23][e15]
+The Contract Period for that service type ends at the end of the Operating Day of exhaustion (or of the recall day, if resources are still deployed then), and ERCOT can renew obligations for resources that opted in, within the extra $25 million the PUCT rule allows for renewals when ERS has been exhausted. [e22][e23][e15]
 
 ### What if an ERS portfolio misses its performance factor?
 
-If portfolio availability and event performance factors are both at least 0.95 the QSE is not subject to suspension. [e37] Otherwise ERCOT may reduce payments or suspend the QSE under Section 8.1.3.3, and the PUCT rule requires ERCOT to set criteria for payment reductions and suspension. [e37][e58]
+For a QSE representing Non-Weather-Sensitive ERS Resources, if portfolio availability and event performance factors are both at least 0.95 the QSE is not subject to suspension. [e37] The PUCT rule requires ERCOT to set criteria for payment reductions and suspension. [e37][e58]
 
 ## Scenarios
 
@@ -387,7 +395,7 @@ If portfolio availability and event performance factors are both at least 0.95 t
 - ERCOT may deploy contracted ERS-10 and ERS-30 by XML message. [e6]
 - Each resource contracted for the deployed service type in a Time Period covering the first interval of the Sustained Response Period must deploy. [e59]
 - ERS-10 resources must perform within ten minutes and ERS-30 within 30 minutes, and hold for the whole Sustained Response Period. [e26]
-- The QSE earns its ERS capacity payment but no extra deployment payment. [e25]
+- Deployment itself brings no additional ERS payment beyond what the QSE may be eligible for through Real-Time energy imbalance or other Settlement. [e25]
 
 ## Open items
 

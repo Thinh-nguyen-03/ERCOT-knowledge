@@ -181,8 +181,8 @@ evidence:
     quote: "ONHOLD – Resource is On-Line but temporarily unavailable for Dispatch by SCED or Ancillary Service awards. This Resource Status is only to be used for Real-Time telemetry purposes."
   - id: e36
     source: np-03
-    locator: "Section 3.9.1, paragraph (5)(c) to (g)"
-    quote: "(c) The HSL;"
+    locator: "Section 3.9.1, paragraph (5)(e) to (g)"
+    quote: "(e) The High Emergency Limit (HEL); (f) The Low Emergency Limit (LEL); (g) Ancillary Service capability in MW for each product and sub-type; and"
 
 ---
 
@@ -194,7 +194,7 @@ The Current Operating Plan (COP) is a QSE's plan reflecting anticipated operatin
 
 Every QSE that represents a Resource must submit a COP. [e2] ERCOT uses the information to calculate operating limits and Ancillary Service capabilities for each Resource for the RUC processes. [e3] QSEs report changes by exception for all hours after the Operating Period through the rest of the Operating Day, [e4] and must submit a revised COP no later than 60 minutes after an event that changes Resource availability. [e8] The 60-minute duty has one exception: a QSE is excused from timely updates only while compliance would create an undue threat to safety, undue risk of bodily harm or undue damage to equipment. [e14] When a COP changes Resource Status, the QSE must update the Energy Offer Curve or Output Schedule for each On-Line Resource. [e5]
 
-What the COP must contain (Section 3.9.1): the COP must show each Resource's ability to provide each Ancillary Service by product and sub-type, [e11] along with the Resource name, expected Resource Status, HSL, LSL, High and Low Emergency Limits and Ancillary Service capability in MW for each product and sub-type under paragraph (5) of Section 3.9.1 (see the Key facts below for the status codes). [e36] For an ESR, the QSE must also keep the Hour Beginning Planned State of Charge (HBSOC) for any two consecutive hours feasible given the ESR's maximum rate of charge or discharge, [e12] and the COP values for an hour must follow three rules: MinSOC at or above the nameplate minimum, MaxSOC at or below the nameplate maximum, and HBSOC between MinSOC and MaxSOC. [e17]
+What the COP must contain (Section 3.9.1): the COP must show each Resource's ability to provide each Ancillary Service by product and sub-type, [e11] and the list of required items in paragraph (5) includes the High Emergency Limit, the Low Emergency Limit and Ancillary Service capability in MW for each product and sub-type (see the Key facts below for the status codes). [e36] For an ESR, the QSE must also keep the Hour Beginning Planned State of Charge (HBSOC) for any two consecutive hours feasible given the ESR's maximum rate of charge or discharge, [e12] and the COP values for an hour must follow three rules: MinSOC at or above the nameplate minimum, MaxSOC at or below the nameplate maximum, and HBSOC between MinSOC and MaxSOC. [e17]
 
 Resource-class specifics: for a Qualifying Facility, the LSL must represent the minimum energy available for economic dispatch based on the minimum stable steam delivery to the thermal host plus a justifiable reliability margin. [e30] For the first 168 hours of the COP, ERCOT updates wind and solar HSL values with the most recent short-term forecasts; a QSE may override but must submit an HSL no higher than the most recent ERCOT forecast for that Resource. [e25][e26] For Combined Cycle Resources the items are required for each operating configuration, and only one Combined Cycle Generation Resource in a Train may be assigned an On-Line status in each hour. [e23] If a COP shows several as On-Line during a RUC study period, ERCOT treats the one with the largest HSL as On-Line and the rest as Off-Line until the QSE corrects the COP. [e24]
 

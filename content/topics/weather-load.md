@@ -44,7 +44,7 @@ links:
     note: ERCOT ranked June-July 2026 the 11th hottest of 132 years and reported a 91,134 MW record on July 22, 2026. [e5][e6]
   - to: resource-adequacy
     type: related
-    note: The CDR's firm peak load estimate is built from a forecast taking weather conditions into account. [e21]
+    note: The Protocols' ten-year hourly Load forecast, which precedes the CDR firm peak Load equation, takes weather conditions into account. [e21]
 evidence:
   - id: e1
     source: imm-som-2023
@@ -182,6 +182,10 @@ evidence:
     source: ercot-ltlf-2025
     locator: "Weather Zone Normal Weather Winter Peak Demand Forecast"
     quote: "The maximum forecasted hourly value occurring during the winter season (defined as December through March) was determined for each year."
+  - id: e35
+    source: ercot-ltlf-2025
+    locator: "Weather zones description"
+    quote: "To reflect the unique weather and load characteristics of each zone, separate load forecasting models were developed for each of the weather zones."
 ---
 
 ## Definition
@@ -190,17 +194,17 @@ In the IMM's State of the Market reports, weather's effect on electricity use is
 
 ## How it works
 
-In ERCOT's long-term forecasting, the base load forecast uses econometric models of hourly load with weather variables such as temperature values alongside premises and calendar variables. [e15] The models are built per weather zone: ERCOT has eight weather zones, each a geographic region with similar climatological characteristics and two or three weather stations. [e17] The 2025 report's hourly demand model lists temperature, temperature squared and temperature cubed, each with various lagged values, among its candidate weather variables. [e18]
+In ERCOT's long-term forecasting, the base load forecast uses econometric models of hourly load with weather variables such as temperature values alongside premises and calendar variables. [e15] The models are built per weather zone: ERCOT has eight weather zones, each a geographic region with similar climatological characteristics and two or three weather stations, and separate load forecasting models were developed for each. [e17][e35] The 2025 report's hourly demand model lists temperature, temperature squared and temperature cubed, each with various lagged values, among its candidate weather variables. [e18]
 
-To turn weather into a forecast, ERCOT applies actual weather data from each historical year (2008 through 2024 in the 2025 report) one at a time to each weather zone's model. [e9] For the normal-weather hourly forecast, the monthly hourly values across scenarios are ordered from highest to lowest and averaged by rank, which ERCOT calls the Rank-and-Average methodology. [e19] The normal-weather summer peak uses the maximum forecast hourly value in the summer season, defined as June through September, and the winter peak uses December through March. [e20][e34] The operational Seven-Day Load Forecast is driven by current weather forecast parameters for each Weather Zone. [e7] In the Protocols, the annual ten-year forecast of hourly Loads behind the CDR's firm peak estimates takes weather conditions into account among its econometric inputs. [e21]
+To turn weather into a forecast, ERCOT applies actual weather data from each historical year (2008 through 2024 in the 2025 report) one at a time to each weather zone's model. [e9] For the normal-weather hourly forecast, the monthly hourly values across scenarios are ordered from highest to lowest and averaged by rank, which ERCOT calls the Rank-and-Average methodology. [e19] The normal-weather summer peak uses the maximum forecast hourly value in the summer season, defined as June through September, and the winter peak uses December through March. [e20][e34] The operational Seven-Day Load Forecast is driven by current weather forecast parameters for each Weather Zone. [e7] In the Protocols, ERCOT must prepare, at least annually, a forecast of total hourly Loads for a minimum of ten future years using an econometric forecast that takes weather conditions into account among its inputs; the same section goes on to define the CDR's firm peak Load estimates. [e21]
 
 Weather moves peak demand year to year while the underlying trend keeps growing. In 2024 average demand rose about 3.5% but peak demand fell 0.3% because of less extreme summer heat. [e3] In 2025 average load rose 6.1% while peak load fell 1.8%, and the IMM says continued population and economic growth explain the overall load growth. [e4][e24]
 
 ## ERCOT context
 
-In 2022, 2023 and 2026, hotter summers coincided with record peaks. The IMM reported cooling degree days up 12%, 24% and 26% in Houston, Dallas and Austin in summer 2022 versus 2021, and up 8.5% on average in summer 2023, with numerous record load levels culminating on August 10, 2023 at 85.7 GW. [e16][e2] The IMM says summer 2023 averaged 85.3 °F, one half of a degree higher than 2022, which contributed to the increase in peak demand. [e22] ERCOT's review attributes the 2023 peak increase to both economic growth and hotter temperatures. [e11] ERCOT's summer 2026 review ranked June-July 2026 as the 11th hottest of 132 years, especially driven by minimum temperatures (3rd warmest all-time), and reported a new record of 91,134 MW on July 22, 2026. [e5][e28][e6]
+In 2023 and 2026, hotter summers coincided with record peaks. The IMM reported cooling degree days up 12%, 24% and 26% in Houston, Dallas and Austin in summer 2022 versus 2021, and up 8.5% on average in summer 2023, with numerous record load levels culminating on August 10, 2023 at 85.7 GW. [e16][e2] (The IMM's 2023 Demand and Supply section words the 2023 increase as cooling degree days "up for all of Texas by as much as 8.5%"; see Open items.) The IMM says summer 2023 averaged 85.3 °F, one half of a degree higher than 2022, which contributed to the increase in peak demand. [e22] ERCOT's review attributes the 2023 peak increase to both economic growth and hotter temperatures. [e11] ERCOT's summer 2026 review ranked June-July 2026 as the 11th hottest of 132 years, especially driven by minimum temperatures (3rd warmest all-time), and reported a new record of 91,134 MW on July 22, 2026. [e5][e28][e6]
 
-Weather also shows up in prices and in transmission. The IMM said average prices were higher and the impact of price spikes more significant in 2023 primarily due to more frequent extreme temperatures and the artificial scarcity caused by ECRS implementation, and that fewer days of extreme temperatures in summer 2024, with more solar and storage online, lowered ancillary service prices. [e32][e31] In its summer 2023 review ERCOT said higher temperatures, higher demand and insufficient resources in North and West led to a high-risk transmission limitation in Central Texas. [e30]
+Weather also shows up in prices and in transmission. The IMM said average prices were higher and the impact of price spikes more significant in 2023 primarily due to more frequent extreme temperatures and the artificial scarcity caused by ECRS implementation, and that fewer days of extreme temperatures in summer 2024, with more solar and storage online, lowered ancillary service prices. [e32][e31] On a Central Texas congestion slide in its summer 2023 review, ERCOT said higher temperatures, higher demand and insufficient resources in North and West led to a high-risk transmission limitation in Central Texas. [e30]
 
 Weather-adjusted growth is different from raw growth. ERCOT's 2023 review says that on a weather-adjusted basis the peak and energy growth of residential and commercial load was offset by rooftop solar growth, appliance and HVAC efficiency, and load management programs. [e29]
 
@@ -259,11 +263,12 @@ ERCOT's 2023 review says residential and commercial peak and energy growth on a 
 
 - Hot weather raises gross load, and cooling degree days track demand for air conditioning. [e1]
 - The IMM says the tightest conditions have shifted to 7 to 9 p.m., so check net load rather than only the peak load hour. [e14]
-- In summer 2023, high temperatures and demand with insufficient resources in North and West led to a high-risk transmission limitation. [e30]
+- ERCOT's summer 2023 review, on its Central Texas congestion slide, said higher temperatures and demand with insufficient resources in North and West led to a high-risk transmission limitation. [e30]
 
 ## Open items
 
 - Deeper pass: no saved source gives CDD or HDD values for 2024 or 2025, or a MW-per-degree load sensitivity (the LTLF lists temperature variables but no coefficients).
+- The IMM's 2023 report words the 2023 cooling-degree-day rise as "up 8.5% on average" in the Executive Summary but "up for all of Texas by as much as 8.5%" in the Demand and Supply section; the two are not reconciled in the saved text.
 - The "heating degree day" term appears in the IMM reports only as part of the 65 °F definition; no winter-specific degree-day numbers were found.
 - The ERCOT Fact Sheet (October 2026) text layout is ambiguous but appears to show a record peak of 91,155 MW for July 22, 2026, versus 91,134 MW in the Summer 2026 review; only the review is cited. Needs reconciling.
 - Deeper pass: the Winter Storm Kingston peak value and date were not quoted from the saved sources; winter record is cited from the IMM (January 16, 2024).

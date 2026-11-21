@@ -17,7 +17,7 @@ links:
     note: SCED dispatches against offer curves and produces LMPs, Base Points and Ancillary Service awards. [e5][e6]
   - to: natural-gas-price
     type: affects
-    note: The IMM defines the middle of the stack as capacity priced up to 10 times the daily natural gas price. [e3]
+    note: The IMM reports the share of capacity priced between zero and 10 times the daily natural gas price. [e3]
   - to: heat-rate
     type: related
     note: See that topic for how a heat rate is applied to a fuel price.
@@ -58,7 +58,7 @@ evidence:
     quote: "35% of real-time generation capacity was offered at less than or equal to $0 in 2025 compared to 32% in 2024. These offers are primarily associated with wind and solar resources that are incentivized to produce even when prices are negative because many receive federal production tax credits."
   - id: e5
     source: np-06
-    locator: "Section 6.5.7, Real-Time Sequence, paragraph (1)"
+    locator: "Section 6.5.7, Real-Time Sequence Methodology, introductory paragraph"
     quote: "The Real-Time Sequence describes the key system components and inputs that are required to support the SCED process, which produces the Locational Marginal Prices (LMPs), Base Points, Real-Time Market Clearing Prices for Capacity (MCPCs), and Ancillary Service awards while meeting transmission system constraints."
   - id: e6
     source: imm-som-2023
@@ -216,7 +216,7 @@ evidence:
 
 ## Definition
 
-In general terms, a supply stack (merit order) ranks generating units by marginal cost of production, cheapest first. FERC's staff primer describes dispatch that way and calls the market supply curve "the supply stack", illustrated for NYISO rather than ERCOT. [e12] ERCOT's own documents do not use the term "merit order"; the closest ERCOT concept is the IMM's aggregated offer stack, assembled by averaging the amount of capacity offered at selected price levels and shown for all hours of the year, the peak load hour and the peak net load hour. [e1] This topic uses the offer stack as ERCOT's version of the merit order: capacity ranked by offer price, not by cost.
+In general terms, a supply stack (merit order) ranks generating units by marginal cost of production, cheapest first. FERC's staff primer describes dispatch that way and calls the market supply curve "the supply stack", illustrated for NYISO rather than ERCOT. [e12] The Nodal Protocols and the IMM State of the Market reports saved here do not use the term "merit order" for the supply stack (see Open items); the closest ERCOT concept is the IMM's aggregated offer stack, assembled by averaging the amount of capacity offered at selected price levels and shown for all hours of the year, the peak load hour and the peak net load hour. [e1] This topic uses the offer stack as ERCOT's version of the merit order: capacity ranked by offer price, not by cost.
 
 ## How it works
 
@@ -296,7 +296,7 @@ An ESR's single curve covers charging and discharging, with negative MW being ch
 
 ## Open items
 
-- The term "merit order" does not appear in any saved source. "Supply stack" appears in FERC's 2024 Energy Primer as a general description (with a NYISO illustration), and "offer stack" and "aggregated offer curve" appear in the IMM State of the Market reports.
+- The exact phrase "merit order" appears in only one saved source, a commercial tolling slide deck (ref-fields-tolling-slides), and the PUCT rule 25.502 and older IMM reports use "out-of-merit-order" / "out-of-merit" dispatch for a different concept; it does not appear in the Protocols or recent IMM reports saved here. "Supply stack" appears in FERC's 2024 Energy Primer as a general description (with a NYISO illustration), and "offer stack" and "aggregated offer curve" appear in the IMM State of the Market reports.
 - The IMM text says the roughly 15% was "offered above this level" and then refers to a $75 level that corresponds to the NSRS energy offer floor; the antecedent of "this level" (10 times FIP, or $75) is unclear in the extracted text, so it is not interpreted beyond the quoted share.
 - The dollar levels of the offer stack by quantity (IMM Figure 7 and its predecessors) are charts; the values are not in the text.
 - No saved source gives the frequency with which each fuel or resource type sets the real-time price; the IMM statements above are qualitative.

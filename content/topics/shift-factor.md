@@ -38,7 +38,7 @@ links:
     note: CRR Settlement uses Day-Ahead Weighted Average Shift Factors at source and sink in the deration of PTP Obligations. [e13]
   - to: market-power-mitigation
     type: used-in
-    note: SCED Step 2 mitigation applies only to a Resource whose Shift Factor on the import side of a non-competitive constraint exceeds SFP4 (2%). [e11]
+    note: SCED Step 2 mitigation applies only to a Resource whose Shift Factor on the import side of a non-competitive constraint exceeds SFP4 (2%). [e11][e12][e29]
   - to: sced
     type: used-in
     note: SCED applies a Shift Factor cutoff (default 0.0001 per the shadow-price-cap methodology) when modeling line flows. [e10]
@@ -144,6 +144,22 @@ evidence:
     source: np-04
     locator: "Section 4.6.1.2, Day-Ahead Settlement Point Prices for Load Zones, paragraph (1)"
     quote: "DASPP = DASL - $\\begin{array}{r} \\Sigma \\\\ c \\end{array}$(DALZSF _(c) * DASP _(c))"
+  - id: e26
+    source: np-07
+    locator: "Section 7.9.1.1, price used to calculate the derated amount"
+    quote: "OBLDRPR _((j, k)) = [](Max (0, DAWASF _(j, c) – DAWASF _(k, c)) * DASP _(c) * DRF_(c))"
+  - id: e27
+    source: np-22p-2025-12
+    locator: "Section 3.3, Shift Factor Cutoff, note"
+    quote: "Note: This Shift Factor cutoff is not related to above Shift Factor efficiency threshold used for determination of maximal Shadow Price."
+  - id: e28
+    source: np-22p-2025-12
+    locator: "Section 3.3, Shift Factor Cutoff"
+    quote: "Since the effect of the Shift Factors below the cut off on the overload are ignored in the optimization"
+  - id: e29
+    source: np-03
+    locator: "Section 3.19.4, paragraph (7)(c)"
+    quote: "(c) The Resource has a Shift Factor on the import side of the constraint with an absolute value greater than SFP4;"
 ---
 
 ## Definition
@@ -164,15 +180,15 @@ The LMP at Electrical Bus EB is System Lambda minus the sum, over transmission l
 
 For a Day-Ahead Load Zone, the DASPP is the Day-Ahead System Lambda minus the sum over constraints of the Load Zone's aggregated shift factor times the constraint's DAM shadow price; the zone's aggregated shift factor is the sum over its power flow buses of the Load distribution factor times the bus shift factor. [e14][e15][e16][e24][e25]
 
-In CRR settlement, the deration price for a PTP Obligation uses the larger of zero and the difference between the Day-Ahead Weighted Average Shift Factors at the source and at the sink, multiplied by the constraint shadow price and the deration factor. [e13][e20]
+In CRR settlement, the deration price for a PTP Obligation is given by a formula (the summation operator is not legible in the saved text, where it shows as "[]") whose terms are the larger of zero and the source Day-Ahead Weighted Average Shift Factor minus the sink one, multiplied by the constraint's Day-Ahead shadow price and the deration factor. [e26][e13][e20]
 
 ## ERCOT context
 
 Shift factors also enter the competitiveness screen for constraints. A constraint can only be classed as competitive in the SCED test if, among other conditions, buses with available Resource capacity have negative shift factors whose absolute value is at least the SFP3 threshold, which is set at 2%. [e5][e6] Those are the current text's terms; a pending revision (NPRR1182) would rewrite it to cover shift factors that can help resolve the constraint by raising injection or cutting withdrawal. [e7]
 
-The same threshold idea limits mitigation. Mitigation in SCED Step 2 is applied only when the constraint is non-competitive (by the SCED test or the IMM), the Resource's DME is a pivotal player or holds enough import-side ECI Effective Capacity, and the Resource's shift factor on the import side exceeds SFP4 in absolute value. [e11][e21] SFP4 is 2%, the "minimum Shift Factor threshold below which a Resource will not have mitigation applied". [e12]
+The same threshold idea limits mitigation. Mitigation in SCED Step 2 is applied only when the constraint is non-competitive (by the SCED test or the IMM), the Resource's DME is a pivotal player or holds enough import-side ECI Effective Capacity, and the Resource's shift factor on the import side exceeds SFP4 in absolute value. [e11][e21][e29] (Pending NPRR1182 would also exclude Controllable Load Resources from this paragraph; that is not yet in force.) SFP4 is 2%, the "minimum Shift Factor threshold below which a Resource will not have mitigation applied". [e12]
 
-Shift factors also tell you why shadow prices get large. The shadow-price-cap methodology says units with small shift factors are less effective at resolving a constraint, so if no efficient units exist the shadow price must rise to draw enough output from inefficient ones, and high shadow prices therefore indicate inefficient congestion management. [e18] It also describes a separate shift factor cutoff: shift factors below the cutoff are ignored in the optimization, the default is 0.0001, it is applied in the EMS to cut data volume and filter numerical error, and it creates a mismatch between optimized and actual line flows that can degrade congestion management. [e10][e19]
+Shift factors also tell you why shadow prices get large. The shadow-price-cap methodology says units with small shift factors are less effective at resolving a constraint, so if no efficient units exist the shadow price must rise to draw enough output from inefficient ones, and high shadow prices therefore indicate inefficient congestion management. [e18] It also describes a separate shift factor cutoff: the effect of shift factors below the cutoff is ignored in the optimization [e28], the default is 0.0001, it is applied in the EMS to cut data volume and filter numerical error [e10], and it creates a mismatch between optimized and actual line flows that can degrade congestion management. [e19]
 
 ## Key facts
 
@@ -190,7 +206,7 @@ Shift factors also tell you why shadow prices get large. The shadow-price-cap me
 
 ## Common confusion
 
-A shift factor is not a price and not a limit; it is a sensitivity measured to a fixed reference bus. [e1] It also is not the same as a Load distribution factor, which supplies weights for aggregating bus-level values into a zone. [e2][e16] The EMS shift factor cutoff (0.0001 default) is a different thing from the SFP3 and SFP4 competitiveness and mitigation thresholds (2%); the methodology itself says its cutoff is unrelated to its efficiency threshold. [e10][e5][e12]
+A shift factor is not a price and not a limit; it is a sensitivity measured to a fixed reference bus. [e1] It also is not the same as a Load distribution factor, which supplies weights for aggregating bus-level values into a zone. [e2][e16] The EMS shift factor cutoff (0.0001 default) is a different thing from the SFP3 and SFP4 competitiveness and mitigation thresholds (2%); the methodology itself says its cutoff is not related to its shadow-price efficiency threshold. [e27][e10][e5][e12]
 
 ## Questions
 
@@ -208,11 +224,11 @@ Shadow prices on congested lines are positive, but shift factors are negative on
 
 ### Why does ERCOT ignore Resources with small shift factors in mitigation?
 
-Mitigation in SCED Step 2 requires a Resource shift factor on the import side above SFP4, which is 2%; below that the Resource is not mitigated. Small shift factors also mean a Resource is not very effective at resolving the constraint. [e11][e12][e18]
+Mitigation in SCED Step 2 requires a Resource shift factor on the import side above SFP4, which is 2%; below that the Resource is not mitigated. [e29][e12] Small shift factors also mean a Resource is not very effective at resolving the constraint. [e18]
 
 ### What if no Resource has a large enough shift factor to relieve a constraint?
 
-The methodology says the shadow price must then rise to get enough contribution from inefficient units, which is why it sets caps on shadow prices. [e18]
+The methodology says the shadow price must then be increased to get enough contribution from inefficient units. [e18]
 
 ### Where do analysts find shift factors?
 

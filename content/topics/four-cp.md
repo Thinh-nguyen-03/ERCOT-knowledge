@@ -155,7 +155,7 @@ evidence:
   - id: e29
     source: puct-58484-draft-report
     locator: "Project 58484 Staff draft report, history of wholesale transmission pricing (pp. 2-3)"
-    quote: "amended PURA § 35.004 to require the Commission to price ERCOT wholesale transmission rates based entirely on the postage stamp methodology."
+    quote: "In 1999, among many of the other retail related provisions, SB 78 amended PURA § 35.004 to require the Commission to price ERCOT wholesale transmission rates based entirely on the postage stamp methodology."
   - id: e30
     source: puct-58484-draft-report
     locator: "Project 58484 Staff draft report, history of wholesale transmission pricing (p. 3)"
@@ -224,6 +224,26 @@ evidence:
     source: puct-58000-pfp
     locator: "Project 58000 Proposal for Publication, proposed new 25.252(c)(2), Contribution in aid of construction"
     quote: "A large load customer must pay contribution in aid of construction for transmission interconnection costs and distribution interconnection costs."
+  - id: e47
+    source: puct-58000-pfp
+    locator: "Project 58000 Proposal for Publication, proposed 25.192, DSP 12CP load adjustment for large loads"
+    quote: "ERCOT must perform adjustments to each DSP 12CP load value by adding to each measured DSP 12CP load, for each large load customer of that DSP, the difference between that customer’s large load minimum billing demand, as described in §25.193 of this title (relating to Distribution Service Provider Transmission Cost Recovery Factor (TCRF)), and that customer’s measured 12CP load,"
+  - id: e48
+    source: puct-58484-draft-report
+    locator: "Project 58484 Staff draft report, load, net load and price analysis (p. 6, Figure 6)"
+    quote: "The top panel of Figure 6 presents average hourly energy prices compared to both average hourly load and average hourly net load for years 2023-2024."
+  - id: e49
+    source: puct-58484-draft-report
+    locator: "Project 58484 Staff draft report, history of wholesale transmission pricing (p. 2)"
+    quote: "Combining the impact fee with the access fee resulted in an annual facilities charge, which was divided by the twelve months and billed to each utility per 4CP MW monthly."
+  - id: e50
+    source: imm-som-2025
+    locator: "Chapter V.F.2, Correlation with Peak Demand (p. 69)"
+    quote: "Figure 44 shows the correlation between congestion costs in ERCOT and peak demand over the last five years."
+  - id: e51
+    source: imm-som-2025
+    locator: "Chapter V.F.2, Figure 44 title"
+    quote: "Figure 44: Correlation between Congestion Cost and Load 2021-2025"
 ---
 ## Definition
 
@@ -231,7 +251,7 @@ evidence:
 
 ## How it works
 
-Each summer month has one coincident peak. The Protocols define it as the highest monthly Settlement Interval 15-minute MW peak for the whole ERCOT Transmission Grid, and the ERCOT average 4CP is the average of the June to September peaks. [e20] ERCOT calculates each DSP's 4CP and the ERCOT average 4CP from Settlement data and posts these billing determinants by December 1 each year. [e19] Each DSP's average demand in those four intervals then sets its monthly transmission charge, excluding wholesale storage load. [e1] Distribution providers pass changes in the wholesale transmission costs billed by TSPs through to their customers with a Transmission Cost Recovery Factor (TCRF), updated on March 1 and September 1. [e4]
+Each summer month has one coincident peak. The Protocols define it as the highest monthly Settlement Interval 15-minute MW peak for the whole ERCOT Transmission Grid, and the ERCOT average 4CP is the average of the June to September peaks. [e20] ERCOT calculates each DSP's 4CP and the ERCOT average 4CP from Settlement data and posts these billing determinants by December 1 each year. [e19] Each DSP's previous-year average demand in those four intervals then sets its monthly transmission charge; the wholesale storage load exclusion is written into the ERCOT coincident peak demand used to compute the TSP's rate. [e1] Distribution providers pass changes in the wholesale transmission costs billed by TSPs through to their customers with a Transmission Cost Recovery Factor (TCRF), updated on March 1 and September 1. [e4]
 
 By reducing demand during these intervals, entities can lower their share of transmission charges ("4CP response"). [e3] The IMM puts transmission charges at $8 to $9 per MWh in inflation-adjusted terms since 2021 (its 2024 report gave about $10 per MWh for 2024). [e3][e46] ERCOT estimated about 2,500 MW of 4CP load reduction in 2024 (roughly 1,000 MW less than in 2023) and about 1,500 MW in the August 2025 4CP interval, per the IMM. [e42][e5] On 7/22/2026, the all-time demand record day, ERCOT estimated a maximum 4CP reduction of about 492 MW, and a separately reported maximum reduction from cryptomining loads of about 3,299 MW. [e6]
 
@@ -239,17 +259,17 @@ By reducing demand during these intervals, entities can lower their share of tra
 
 Current rule (16 TAC 25.192, in effect): TSP annual rate = commission-approved transmission cost of service ÷ ERCOT average 4CP demand (June to September, excluding wholesale storage load); monthly DSP charge = TSP monthly rate × the DSP's previous-year average 4CP demand. [e1] Each coincident peak is a 15-minute Settlement Interval. [e20]
 
-Proposed rule (Project 58000, not adopted): replace the four summer peaks with 12CP, the system monthly peak 30-minute interval in each of the 12 months from October 1 to September 30. [e12][e14] A DSP's 12CP load would include transmission-voltage load and block load transfers but exclude export flows and wholesale storage load. [e33] For large loads, the DSP's 12CP value would be raised to each customer's minimum billing demand (below). [e34]
+Proposed rule (Project 58000, not adopted): replace the four summer peaks with 12CP, the system monthly peak 30-minute interval in each of the 12 months from October 1 to September 30. [e12][e14] A DSP's 12CP load would include transmission-voltage load and block load transfers but exclude export flows and wholesale storage load. [e33] For each large load customer, ERCOT would add to the DSP's measured 12CP load the difference between that customer's large load minimum billing demand (below) and its measured 12CP load. [e47][e34]
 
 ## ERCOT context
 
-4CP dates from the mid-1990s. The IMM says the method was approved in 1996. [e43] PUCT Staff's history describes the first ERCOT-wide rate as 70% "access fee" on a postage stamp basis and 30% "impact fee" on a megawatt-mile basis. [e28] SB 7 (1999) then required pricing based entirely on the postage stamp method, and the rate became the old access-fee formula applied to 100% of TCOS. [e29][e30]
+4CP dates from the mid-1990s. The IMM says the method was approved in 1996. [e43] PUCT Staff's history describes the first ERCOT-wide rate as 70% "access fee" on a postage stamp basis and 30% "impact fee" on a megawatt-mile basis, combined into an annual facilities charge billed to each utility per 4CP MW monthly. [e28][e49] SB 7 (1999; the draft's text reads "SB 78") then required pricing based entirely on the postage stamp method, and the rate became the old access-fee formula applied to 100% of TCOS. [e29][e30]
 
-4CP is under active revision. SB 6 (June 2025) ordered the PUCT to evaluate whether 4CP still assigns transmission costs appropriately, including alternatives such as multiple seasonal peaks or different interval lengths, and to amend its rules by December 31, 2026. [e9][e7][e22][e8] Staff opened Project 58484 on August 1, 2025. [e23] Its March 2026 draft report (comments due April 13, 2026) recommended a coincident peak method with more CPs and a longer measurement interval, and a minimum demand charge for large loads based on contracted peak demand for 10 to 15 years. [e10][e24][e25] Staff's draft credits 4CP with stable rates (4CP values moving less than 3% a year on average) but says 15-minute intervals give too sharp a signal. [e27][e26] Its analysis of 2023-2024 data finds system load peaking around HE 18 while net load and real-time prices peak around HE 20. [e31]
+4CP is under active revision. SB 6 (June 2025) ordered the PUCT to evaluate whether 4CP still assigns transmission costs appropriately, including alternatives such as multiple seasonal peaks or different interval lengths, and to amend its rules by December 31, 2026. [e9][e7][e22][e8] Staff opened Project 58484 on August 1, 2025. [e23] Its March 2026 draft report (comments due April 13, 2026) recommended a coincident peak method with more CPs and a longer measurement interval, and a minimum demand charge for large loads based on contracted peak demand for 10 to 15 years. [e10][e24][e25] Staff's draft credits 4CP with stable rates (4CP values moving less than 3% a year on average) but says 15-minute intervals give too sharp a signal. [e27][e26] Its analysis of 2023-2024 data finds system load peaking around HE 18 while net load and real-time prices peak around HE 20. [e48][e31]
 
-The proposal for publication in Project 58000 was prepared for the PUCT's July 9, 2026 open meeting, with comments due August 11, 2026. [e11][e38] Beyond 12CP, it would require block load transfers to pay transmission costs, make interconnection fees and forfeited financial security under 25.194 offset TSP revenue requirements, and require non-opt-in DSPs to give ERCOT settlement-quality meter data for each large load. [e32][e37] Large loads would be billed on a minimum billing demand: the greatest of contracted peak demand, the highest non-coincident peak in the past year, or 12CP demand. [e34][e35] Billing would start when service is available, whether or not the customer has energized, for at least 20 years. [e36] New 25.252 would require large loads to pay contribution in aid of construction and to sign interconnection agreements of at least 20 years. [e45][e39] The PUCT also asked whether large computational loads should get separate rate treatment; that is a question for comment, not a proposal. [e40] PURA already requires large loads to contribute to the cost of interconnecting them. [e21] If the rule is adopted, each TSP must file a tariff compliance update within 30 days. [e41]
+The proposal for publication in Project 58000 was prepared for the PUCT's July 9, 2026 open meeting, with comments due August 11, 2026. [e11][e38] Beyond 12CP, it would require block load transfers to pay transmission costs, make interconnection fees and forfeited financial security under 25.194 offset TSP revenue requirements, and require non-opt-in DSPs to give ERCOT settlement-quality meter data for each large load. [e32][e37] A REP serving a large load would be charged for that customer on a minimum billing demand: the greatest of contracted peak demand, the highest non-coincident peak in the past year, or 12CP demand. [e34][e35] Billing would start when service is available, whether or not the customer has energized, for at least 20 years. [e36] New 25.252 would require large loads to pay contribution in aid of construction and to sign interconnection agreements of at least 20 years. [e45][e39] The PUCT also asked whether large computational loads should get separate rate treatment; that is a question for comment, not a proposal. [e40] PURA already requires large loads to contribute to the cost of interconnecting them. [e21] If the rule is adopted, each TSP must file a tariff compliance update within 30 days. [e41]
 
-The IMM argues 4CP response suppresses prices and weakens scarcity pricing when the peak intervals no longer match system scarcity. [e15] It also says the correlation between congestion costs and peak demand over 2021-2025 is too weak to justify allocating on peak. [e44] It recommends annual load ratio share allocation, or a hybrid with floating coincident peaks of one hour. [e13]
+The IMM argues 4CP response suppresses prices and weakens scarcity pricing when the peak intervals no longer match system scarcity. [e15] It also says the correlation between congestion costs and peak demand over the last five years (Figure 44, 2021-2025) is too weak to justify allocating on peak. [e50][e51][e44] It recommends annual load ratio share allocation, or a hybrid that would allocate a portion of T-COS on a predetermined number of floating coincident peaks lasting one hour. [e13]
 
 ## Key facts
 
@@ -263,7 +283,7 @@ The IMM argues 4CP response suppresses prices and weakens scarcity pricing when 
 
 ## Timeline
 
-- 1996: 4CP method approved (per the IMM), initially as part of a 70% access fee / 30% impact fee rate. [e43][e28]
+- 1996: 4CP method approved (per the IMM), initially as part of a 70% access fee / 30% impact fee rate billed per 4CP MW. [e43][e28][e49]
 - 1999: SB 7 requires postage stamp pricing for all ERCOT wholesale transmission; 100% of TCOS goes through the access-fee formula. [e29][e30]
 - 2025-06: The 89th Legislature passes SB 6, whose Section 6 orders the 4CP review. [e9][e7]
 - 2025-08-01: Staff opens Project 58484. [e23]
@@ -305,7 +325,7 @@ Under the proposal (not adopted), its minimum billing demand would be the greate
 
 ### Why do prices and 4CP intervals no longer line up?
 
-Staff's analysis of 2023-2024 data finds system load peaks around HE 18 while net load and real-time prices peak around HE 20. [e31] So load cut at the gross peak may not be load cut when scarcity is highest. [e15]
+Staff's analysis of 2023-2024 data finds system load peaks around HE 18 while net load and real-time prices peak around HE 20. [e48][e31] So load cut at the gross peak may not be load cut when scarcity is highest. [e15]
 
 ## Scenarios
 
