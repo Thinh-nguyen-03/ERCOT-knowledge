@@ -208,6 +208,8 @@ The IMM's ERCOT data show when a heat rate call pays the holder most. Shortage p
 - Two-way credit exposure; each side may post collateral, and the hedge provider typically requires significant collateral from the project. [e15][e16]
 - The upside from wide spreads goes to the hedge provider. [e9][e10]
 - ICE ERCOT Panhandle heat rate off-peak: 50 MW per hour; settles at heat rate times NYMEX last-day settlement. [e31][e18]
+- Documentation: hedges use an ISDA master agreement, a schedule and a confirmation; the FpML example is a confirmation supplementing an ISDA Master Agreement. [e27][e26]
+- Premium timing differs between sources: the law firms describe a fixed periodic premium to the project, while the FpML example confirmation shows one total premium of USD 342,000 on a single payment date. [e2][e29][e28]
 
 ## Example
 

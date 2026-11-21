@@ -257,3 +257,4 @@ The IMM says solar's 2025 captured price ($21 per MWh) was nearly at parity with
 - The IMM's "6% of total generation was curtailed" sentence reads like a solar-only figure; see Common confusion.
 - The IMM calls solar's roughly 6% curtailment in 2025 relatively low and attributes it to siting closer to load, yet its wind curtailment figure for 2025 is 4.7%; the sources do not reconcile this.
 - The 2021 and 2022 IMM reports say "an additional" 8% and 9% of solar production was curtailed, and 2023 to 2025 reports say a percentage "of that production"; whether the bases are identical is not stated. The 2022 net-peak cell of Table 2 is garbled in OCR and is not used.
+- The IMM restated capacity factors between reports: the 2025 report's Table 2 shows solar net-peak 10.1% for 2023 and 3.9% for 2024, while the 2024 report's table showed 11.7% for 2023 (2024 value 3.9% in both); figures here follow the 2025 report.
