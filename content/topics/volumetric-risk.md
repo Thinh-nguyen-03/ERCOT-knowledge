@@ -150,10 +150,6 @@ evidence:
     source: ut-uri-timeline
     locator: "Executive Summary, Findings"
     quote: "The price of electricity spiked to $9,000 per MWh and stayed there by orders of the PUCT, which suspended some market price setting rules during the electricity blackouts."
-  - id: e30
-    source: ref-nrf-hedges-since-uri
-    locator: "Section on what happened after Uri"
-    quote: "Solar irradiance and wind speeds were well below historical averages in most locations, and at many locations were below what was supposed to be the P99 number."
   - id: e31
     source: ref-wbcsd-multitech-ppa
     locator: "Physical PPA, as-produced sleeved structure"
