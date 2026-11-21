@@ -279,11 +279,11 @@ evidence:
   - id: e61
     source: np-22q
     locator: "Attachment Q, D. ERS Expenditure Limit, formula"
-    quote: "{Expenditure\ Limit}_{TP} = {ERS\ Funds\ Determined\ for\ Allocation}_{Program\ Year} \times"
+    quote: '{Expenditure\ Limit}_{TP} = {ERS\ Funds\ Determined\ for\ Allocation}_{Program\ Year} \times'
   - id: e62
     source: np-22q
     locator: "Attachment Q, D. ERS Expenditure Limit, allocation factor formula"
-    quote: "\left\lbrack \begin{array}{r} Risk \\ Weighting \\ Factor \end{array}_{TP} \times {\#\ hrs}_{TP} \times OfferCap \right\rbrack \div \left\lfloor \sum_{TP}^{}{\begin{array}{r} Risk \\ Weighting \\ Factor \end{array}_{TP} \times {\#\ hrs}_{TP} \times OfferCap} \right\rfloor"
+    quote: '\left\lbrack \begin{array}{r} Risk \\ Weighting \\ Factor \end{array}_{TP} \times {\#\ hrs}_{TP} \times OfferCap \right\rbrack \div \left\lfloor \sum_{TP}^{}{\begin{array}{r} Risk \\ Weighting \\ Factor \end{array}_{TP} \times {\#\ hrs}_{TP} \times OfferCap} \right\rfloor'
   - id: e59
     source: np-03
     locator: "Section 3.14.3.3, paragraph (1)"
@@ -386,7 +386,7 @@ The Contract Period for that service type ends at the end of the Operating Day o
 
 ### What if an ERS portfolio misses its performance factor?
 
-For a QSE representing Non-Weather-Sensitive ERS Resources, if portfolio availability and event performance factors are both at least 0.95 the QSE is not subject to suspension. [e37] The PUCT rule requires ERCOT to set criteria for payment reductions and suspension. [e37][e58]
+For a QSE representing Non-Weather-Sensitive ERS Resources, if portfolio availability and event performance factors are both at least 0.95 the QSE is not subject to suspension. [e37] The PUCT rule requires ERCOT to set criteria for payment reductions and suspension. [e58]
 
 ## Scenarios
 

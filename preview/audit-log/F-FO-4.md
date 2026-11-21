@@ -1,0 +1,30 @@
+# Audit log: batch F-FO-4
+
+tax-credits-recs | quotes: 49 | context-problems: 1 | statements: 51 | wrong: 1 | flags: 3 real, 7 false-alarm | guidance-problems: 0
+- B (wrong): "A credit may also not be transferred to a specified foreign entity." e23 (new 6418(g)(5)) covers only the eligible credits in clauses (iii), (iv), (vi), (vii), (viii), (xi) of 6418(f)(1)(A), and the saved text does not say which credits those clauses name. Narrowed in How it works and Questions #2 to "credits listed in certain clauses of 6418(f)(1)(A)".
+- A5: e49 locator said "Section 14.3.2, paragraph (6)"; the quote sits in Section 14.1(3). Locator corrected.
+- B: "HB 1500 (effective September 1, 2023) repealed PURA 39.904" and Timeline #3: the cited quotes gave only 39.9113's effective date. Added e50 (HB 1500 SECTION 56, "This Act takes effect September 1, 2023.") and cited it.
+- B: Questions #10 said storage construction "beginning after 2025" is subject to the test and thresholds are "15 points above" facilities. "After 2025" was not in the cited quotes (the 48E(c)(3) storage text is split by a page break), and 15 points was the writer's subtraction. Changed to "beginning in 2026 or later" (e18), labelled the 15 points as the knowledge base's arithmetic, and added the e16 citation.
+- B: Questions #12 said RECs are credited "based on verified MWh"; e37 says nothing about verification. Changed to "distributed quarterly, one per MWh generated" (e7, e37).
+- B: Questions #8 (Chinese-made modules) assumed Chinese-made means a prohibited foreign entity. Added that this depends on the 7701(a)(51) definition, which is not quoted.
+- B: The puct link read as if rule 25.173 appointed ERCOT; e36 says the PUCT did, in 2000. Reworded.
+- B: The merit-order link compared 2022 "below zero" with 2025 "at or below $0" without saying so. The basis is now stated.
+- Flags: Timeline #9 "2027" (real: cited e1), Timeline #11 "2030" (real: changed to "2026 onward ... after December 31, 2029"), Questions #10 "2025" (real: see above). False alarms: 39.9113 (x4) and 25.173 are section numbers; "2027" in ERCOT context #4 refers back to the cutoff without asserting it; "2023" is the year in the bill's name.
+
+texas-energy-fund | quotes: 73 | context-problems: 1 | statements: 59 | wrong: 2 | flags: 2 real, 7 false-alarm | guidance-problems: 0
+- B/Formula (wrong): The PRF >= PRF90 branch said the payment is [1 - 10(1 - ARF)^2] x delta and also that "there is no discount ... with ARF between 0.9 and one". The rule's formula would still reduce the payment in that band (0.9 x delta at ARF 0.9), while 25.511(h)(1)(A) says no discount applies. The topic presented both as if they agreed. Split them, cited each, and noted that the saved rule does not reconcile the two (the example is the knowledge base's arithmetic).
+- B (wrong): SB 2268 municipal-security change "applying to loan applications still pending on its effective date" read as limited to pending applications. e66 extends (b-1) to applications that were submitted before the effective date and are still pending. Reworded. "(and gives co-ops a similar route)" was not in any cited quote, so added e76 (34.0104(b-1)(2)) and cited it there, in Timeline #7 and in Questions #14.
+- A5: e70 locator named "34.0104(m) and 34.0105(j)"; the quote is only 34.0104(m). Corrected.
+- B: The weatherization link cited e36 (application timing) for the weather-preparedness narrative. Added e75 (25.511(d)(1)(N)) and re-cited.
+- B: Escrow posted "before the first disbursement" was not in e44. Added e74 (25.510(i)(1)) and used its wording.
+- B: Questions #2: "grants for existing facilities" outside ERCOT and backup packages "at critical facilities" were not in the cited quotes. Added e77 and e78 (FAQ) and widened the wording to include T&D infrastructure.
+- Flags: Example #1 (real: the $525,000 and $720,000 results were not in any quote; added e79 and e80 from the rule's example; 0.25, 0.75, 0.2 and 0.6 are arithmetic stated openly). Questions #10 "146 MW" (real: cited e61). False alarms: "2026" is the retrieval date of pura-34 (meta confirms 2026-11-19); "100 MW" appears in the quotes as "100 megawatts" (x2); "25.511" is a rule number; "146 MW" in ERCOT context #3 is in e61 ("146-megawatt"); "2025" (x2) is the CDR edition in the source title.
+
+winter-storm-jan-2026 | quotes: 59 | context-problems: 0 | statements: 47 | wrong: 2 | flags: 3 real, 5 false-alarm | guidance-problems: 0
+- B (wrong): Questions #12 tied the 72% E_PASP congestion RUC to "the San Antonio to Houston transmission emergency". No saved source links E_PASP to that emergency. Split into two separate facts and added that the link is not stated.
+- B (wrong): Scenarios #5 "Collateral calls follow: January Max TPE was more than double December's." The source has no collateral-call statement, and "more than double" was the writer's comparison. Now states the two table values and labels the comparison as the knowledge base's.
+- B: How it works #1 listed more reserves, earlier commitment, RTC+B and backup fuel among the preparations, but only the weatherization and TCEQ/DOE quotes were cited. Added e60 to e63 from the post-event report.
+- B: "Local distribution outages": the source says "localized outages" managed by local utilities. Reworded.
+- B: Common confusion #2 said the review counts administrative, planned and testing outages; that category was outside the cited quote. Added e65.
+- B: Timeline #2 "RTC go-live December 5, 2025" lacked a go-live quote. Cited e55 ("a year before RTC go-live, December 5, 2024").
+- Flags: ERCOT context #4 and Key facts #9 "2026" (real: "October 2026" comes from e22, now cited); Timeline #10 "2026" (real: February 17 was only in the context; added e64). False alarms: Key facts #6 "2026" (the year is in the table's row structure and locator); Timeline #7 "2026" (the quote says 01/26/26); "8.6 GW" is subtraction stated openly (84,500 - 75,922); "2022" is the link target's name; "2026" in the credit-tpe link is in the quote as "31-Jan2026".

@@ -29,13 +29,13 @@ links:
     note: See the retailer-defaults-2021 topic for the 2021 retailer failures; in Griddy's February 2021 mass transition the PUCT found ERCOT transitioned 9,926 customers to POLRs. [e38]
   - to: noe
     type: related
-    note: A municipally owned utility or electric cooperative that opts into customer choice designates its own POLR (or delegates to the PUCT). [e31][e32]
+    note: On its initiation of customer choice, a municipally owned utility may designate itself or other entities as POLR, and an electric cooperative shall designate itself or another entity; a cooperative that has adopted customer choice may select to delegate that authority to the PUCT. [e31][e32][e33]
   - to: tx-set
     type: related
     note: The 814_14 Drop Enrollment Request goes from ERCOT to the POLR or designated CR in a mass transition. [e39]
   - to: qse
     type: related
-    note: ERCOT may adjust the credit exposure of Counter-Parties for QSEs that are POLRs to reflect load taken on in a mass transition. [e34]
+    note: In a Mass Transition necessitated by the default of a Counter-Party, ERCOT may adjust the TPE of Counter-Parties representing QSEs that are qualified as POLRs to reflect their estimated Incremental Load Exposure. [e34]
 evidence:
   - id: e1
     source: pura-39
@@ -243,7 +243,7 @@ Selection cycle (even-numbered years). The PUCT determines the eligibility of ce
 
 VREPs. A REP may request to be a VREP from June 1 through July 31 of each even-numbered year, unless the executive director sets otherwise. [e21] The filing must show the REP can absorb a mass transition without technical or financial distress, [e22] and state which classes it will serve in each POLR area and how many ESI IDs it will take in each transition event. [e23]
 
-LSPs. For each customer class in each POLR area the PUCT designates up to 15 LSPs, the eligible REPs with the greatest retail MWh market share, and staff designates them by October 15 of each even-numbered year. Being a VREP does not affect eligibility to be an LSP. [e24] An LSP may ask the PUCT to designate an affiliate to provide POLR service on its behalf, with a filing at least 30 days before the affiliate begins. [e28] The LSP remains responsible and liable for the affiliate's POLR service. [e29] An LSP can ask the PUCT to be relieved of further transfers if it shows it cannot maintain its financial integrity. [e27]
+LSPs. For each customer class in each POLR area the PUCT designates up to 15 LSPs, the eligible REPs with the greatest retail MWh market share, and staff designates them by October 15 of each even-numbered year. Being a VREP does not affect eligibility to be an LSP. [e24] An LSP may ask the PUCT to designate an affiliate to provide POLR service on its behalf, with a filing at least 30 days before the affiliate begins. [e28] The LSP remains responsible and liable for the affiliate's POLR service. [e29] On an LSP's request and a showing that it will be unable to maintain its financial integrity if more customers are transferred to it, the PUCT may relieve it of additional transfers. [e27]
 
 Who gets which customers in a mass transition. ERCOT transfers customers first to VREPs, up to the number each volunteered, using the VREP list in a non-discriminatory manner, and never more than a VREP said it would serve. [e42] If ESI IDs exceed what VREPs are designated to serve, ERCOT assigns the rest to LSPs by their share of retail MWh on a random basis within a class and POLR area; a VREP that is also an LSP and volunteers at least 1% of its market share is exempt from the LSP allocation up to 1% of the class and POLR area. [e30] The Retail Market Guide lists "assign ESI IDs to the POLR(s) as directed by ALA and the POLR rule" among ERCOT's pre-launch responsibilities. [e45]
 
@@ -253,9 +253,9 @@ Moving off the POLR rate. An LSP must move transitioned residential and small no
 
 ## ERCOT context
 
-The Protocols define a mass transition as the transition of ESI IDs from one competitive retailer to a POLR or designated CR (or between TDSPs), in a quantity or timeframe identified by Applicable Legal Authority. [e5] The PUCT designates POLR providers and sets requirements for POLR service. [e1][e3] ERCOT may adjust the credit exposure of Counter-Parties for QSEs that are POLRs to reflect the load they would take on in a mass transition. [e34] For the first-hand 2021 case, the PUCT found ERCOT transitioned 9,926 Griddy customers to POLRs between February 26 and March 2, 2021. [e38] Failure to serve as a POLR if required by the PUCT under 25.43 is listed among significant violations that can support revocation of a REP certificate. [e43]
+The Protocols define a mass transition as the transition of ESI IDs from one competitive retailer to a POLR or designated CR (or between TDSPs), in a quantity or timeframe identified by Applicable Legal Authority. [e5] The PUCT designates POLR providers and sets requirements for POLR service. [e1][e3] In a Mass Transition necessitated by the default of a Counter-Party representing a QSE associated with an LSE, ERCOT may adjust the TPE of Counter-Parties representing QSEs that are qualified as POLRs to reflect the estimated Incremental Load Exposure resulting from the Mass Transition. [e34] For the first-hand 2021 case, the PUCT found ERCOT transitioned 9,926 Griddy customers to POLRs between February 26 and March 2, 2021. [e38] Failure to serve as a POLR if required by the PUCT under 25.43 is listed among significant violations that can support revocation of a REP certificate. [e43]
 
-Cooperatives and municipal utilities. The PUCT's 25.43 selection rules do not apply when a co-op or muni designates its own POLR provider for its territory, [e10] and a cooperative may delegate its authority to select POLR providers to the PUCT under subsection (r). [e33] PURA says a municipally owned utility on initiating customer choice may designate itself or others as POLR [e31] and an electric cooperative shall designate itself or another entity. [e32] The Retail Market Guide requires an opt-in MOU or EC without an affiliated POLR that has not delegated to the PUCT to give ERCOT its POLR allocation methodology; see the mass-transition topic. [e47]
+Cooperatives and municipal utilities. The PUCT's 25.43 selection rules do not apply when a co-op or muni designates its own POLR provider for its territory, [e10] and a cooperative that has adopted customer choice may select to delegate to the PUCT its authority to select POLR providers under subsection (r). [e33] PURA says a municipally owned utility on its initiation of customer choice may designate itself or others as POLR [e31] and an electric cooperative, on its initiation of customer choice, shall designate itself or another entity. [e32] The Retail Market Guide requires an opt-in MOU or EC without an affiliated POLR that has not delegated to the PUCT to give ERCOT its POLR allocation methodology; see the mass-transition topic. [e47]
 
 ## Timeline
 
@@ -295,7 +295,7 @@ The rule requires an LSP to move transitioned residential and small non-resident
 
 ### What if a REP that is a POLR cannot take more customers?
 
-An LSP can ask the PUCT to be relieved of further transfers by showing it cannot maintain its financial integrity. [e27]
+An LSP can ask, and if it shows it will be unable to maintain its financial integrity if more customers are transferred to it, the PUCT may relieve it of additional transfers. [e27]
 
 ### Which REPs can be an LSP?
 

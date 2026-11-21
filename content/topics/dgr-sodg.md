@@ -35,7 +35,7 @@ links:
     note: A DGR can participate in SCED as a Generation Resource, while the settlement-only categories cannot. [e1][e3]
   - to: ancillary-services
     type: related
-    note: A DGR or DESR on a circuit that will be disconnected in specified load-shed events is disqualified from offering Ancillary Service. [e21]
+    note: Under current text, a DGR or DESR on a circuit that will be disconnected in specified load-shed events is disqualified from offering Ancillary Service. [e21]
   - to: puct
     type: related
     note: The PUCT's rule on interconnection of on-site distributed generation limits the capacity interconnected at the point of common coupling under that section to ten MW. [e27]
@@ -159,6 +159,18 @@ evidence:
     source: puct-25-211
     locator: "16 TAC Section 25.211(b), Purpose"
     quote: "Sales of power by on-site distributed generation and natural gas distributed generation in the intrastate wholesale market are subject to §§25.191-25.203 of this title (relating to Open-Access Comparable Transmission Service for Electrical Utilities in the Electric Reliability Council of Texas)."
+  - id: e29
+    source: np-06
+    locator: "Section 6.6.3.8(3), equation for RTESOGPR (current text)"
+    quote: "RTESOGPR _(b) = Max [-$251, []((SDWF _(y) * RTLMP _(b, y)) + RTRDP)]"
+  - id: e30
+    source: np-06
+    locator: "Section 6.6.3.8(3), variable RTLMP"
+    quote: "The Real-Time LMP at Electrical Bus b, for the SCED interval y."
+  - id: e31
+    source: np-02
+    locator: "Section 2.1, pending NPRR995 note after SOG definition"
+    quote: "[NPRR995: Delete the above definition “Settlement Only Generator (SOG)” upon system implementation.]"
 ---
 
 ## Definition
@@ -177,15 +189,15 @@ Operations and planning: a DSP planned outage on a distribution facility that af
 
 SODG settlement, Section 6.6.3.8 (current text). The payment or charge to each QSE for SODG energy is based on a nodal energy price, RTESOGPR, with exceptions. [e6] For an SODG the price is the time-weighted price at the Electrical Bus associated with the mapped Load in the Network Operations Model, and an SODG site is represented as a single unit in settlement. [e4][e9]
 
-The site's net metered energy, MEBSOGNET, is the net sum for all Settlement Meters at the site; a positive value is injection to ERCOT. [e14] If it equals zero in a 15-minute Settlement Interval, the Load is included in the Real-Time AML per QSE and in the Real-Time energy imbalance payment or charge at a Load Zone. [e15] Otherwise the amount is computed from the metered energy at each bus and the Real-Time price at that bus, defined as the Real-Time price at the Electrical Bus for the site's Settlement Meter. [e16]
+The site's net metered energy, MEBSOGNET, is the net sum for all Settlement Meters at the site; a positive value is injection to ERCOT. [e14] If it equals zero in a 15-minute Settlement Interval, the Load is included in the Real-Time AML per QSE and in the Real-Time energy imbalance payment or charge at a Load Zone. [e15] Otherwise the payment or charge is based on RTESOGPR, defined as the Real-Time price at the Electrical Bus for the site's Settlement Meter. [e16]
 
-The variable list shows that the price is built from SCED intervals: the Real-Time LMP at the bus for each SCED interval, weighted by SDWF (the weight for the portion of the SCED interval within the Settlement Interval), together with a Real-Time Reliability Deployment Price for Energy. [e17][e18] The equation itself is not reproduced here; read it from Protocol Section 6.6.3.8(3).
+The variable list shows that the price is built from SCED intervals: the Real-Time LMP at the bus for each SCED interval, weighted by SDWF (the weight for the portion of the SCED interval within the Settlement Interval), together with a Real-Time Reliability Deployment Price for Energy. [e17][e18][e30] The equation also wraps that sum in a floor, RTESOGPR = Max [-$251, ...], so the price cannot fall below -$251 per MWh. [e29] The full equation is not reproduced here; read it from Protocol Section 6.6.3.8(3).
 
 Opt-out and nodal pricing. A Resource Entity may opt out of nodal pricing and keep Load Zone Settlement for an SODG if, by January 1, 2019, the unit was operational or subject to a PPA or TDSP interconnection agreement or had an executed developer agreement, and it filed Form N by December 31, 2019. [e10] Units relying on those agreements must also have achieved Initial Synchronization for full capacity before June 1, 2020, and the election is valid through the earlier of December 31, 2029 or revocation; on January 1, 2030 all SODGs and SOTGs are subject to nodal pricing. [e11] While opted out, ERCOT settles the output at the Load Zone Settlement Point Price as long as the unit is not physically modified, except for routine maintenance or repairs. [e12] An election of nodal pricing is irrevocable. [e13]
 
 ## ERCOT context
 
-The SODG definition is marked for deletion under NPRR995 upon system implementation, so that definition is expected to change; this is pending, not yet in effect. [e7] The settlement paragraph 6.6.3.8 and the DGR conversion text in 3.8.6(2) are likewise shown in the saved Protocols with pending NPRR995 and NPRR1171 replacements, so the details above are current text only.
+The SODG definition is marked for deletion under NPRR995 upon system implementation, so that definition is expected to change; this is pending, not yet in effect. [e7] The Settlement Only Generator (SOG) definition carries the same NPRR995 deletion note. [e31] The settlement paragraph 6.6.3.8, the DGR and DESR interconnection condition in 3.8.6(1) (NPRR1171 and NPRR1213) and the conversion text in 3.8.6(2) (NPRR995 and NPRR1171) are likewise shown in the saved Protocols with pending replacements, so the details above are current text only.
 
 ## Key facts
 
@@ -194,7 +206,7 @@ The SODG definition is marked for deletion under NPRR995 upon system implementat
 - Settlement Only Generators (SOG) are settled for exported energy only, with no energy offers, SCED, RUC or ancillary services. [e3]
 - SODG energy is paid at the nodal price at the bus mapped to the associated load, subject to listed exceptions (for example an opt-out). [e4][e6]
 - The SODG/SOTG opt-out from nodal pricing ends no later than December 31, 2029; from January 1, 2030 all SODGs and SOTGs are subject to nodal pricing. [e11]
-- A DGR or DESR whose circuit will be disconnected in specified load-shed events is immediately disqualified from offering Ancillary Service. [e21]
+- Under the current text of 3.8.6(1)(a), a DGR or DESR whose circuit will be disconnected in specified load-shed events is immediately disqualified from offering Ancillary Service; NPRR1171 and NPRR1213 are pending replacements for paragraph (1). [e21]
 
 ## Say it like this
 
@@ -224,7 +236,7 @@ The opt-out settlement at Load Zone price applies only so long as the unit is no
 
 ### What happens to a DGR's Ancillary Service eligibility if its circuit becomes subject to load shed?
 
-It is immediately disqualified from offering any Ancillary Service once the DSP's determination is notified and the Resource Entity informs ERCOT. [e21]
+Under the current text of 3.8.6(1)(a), it is immediately disqualified from offering any Ancillary Service once the DSP's determination is notified and the Resource Entity informs ERCOT (paragraph (1) has pending replacements). [e21]
 
 ### Why does the Planning Guide tell TSPs not to net DGRs and SODGs in load data?
 

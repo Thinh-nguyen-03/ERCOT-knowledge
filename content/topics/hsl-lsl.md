@@ -23,7 +23,7 @@ links:
     note: For an ESR a negative HSL is the minimum temporary charging capability and a negative LSL is the maximum sustained charging capability. [e3][e4]
   - to: market-power-mitigation
     type: used-in
-    note: For the SCED CCT, the telemetered HSL is used for Resources with specified telemetered statuses, and zero for all others. [e10]
+    note: For Generation Resources (including IRRs, in separate paragraphs), the SCED CCT uses the telemetered HSL for Resources with specified telemetered statuses, and zero for all others. [e10]
   - to: ruc
     type: related
     note: The IMM removes the aggregate HSL of RUC-committed resources to test how much RUC lowered scarcity. [e12]
@@ -32,13 +32,13 @@ links:
     note: The COP carries the HSL and LSL for each Resource and each hour, and for IRRs ERCOT updates the COP HSL from forecasts. [e17][e18]
   - to: hasl-lasl
     type: contrasts-with
-    note: HASL and LASL were pre-RTC calculated limits that no longer exist; HDL and LDL are the current calculated limits. [e9]
+    note: The superseded pre-RTC HASL definition pointed to Section 6.5.7.2, which now contains the HDL and LDL calculations. [e34][e9]
   - to: base-point
     type: related
-    note: SCED Base Points are issued within the HDL and LDL calculated from telemetered output and limits. [e9]
+    note: The HDL and LDL, calculated from telemetered output and limits, are inputs to SCED and help ensure its deployments respect each Resource's physical limitations. [e8]
   - to: rtc-b
     type: related
-    note: ERCOT says the HASL concept no longer exists with RTC+B, so HDL and LDL are the calculated limits now. [e9]
+    note: In the NPRR1290 report ERCOT said the concept of a HASL no longer exists with RTC+B and proposed striking the related language; the Section 6.5.7.2 formulas calculate HDL and LDL. [e41][e9]
   - to: wind-solar-forecasts
     type: related
     note: For IRRs the HSL is tied to net output capability and, for Ancillary Service-qualified IRRs, to the five-minute intra-hour forecast in the HDL formula. [e14][e15]
@@ -105,7 +105,7 @@ evidence:
     quote: "For IRRs qualified to provide an Ancillary Service and telemetering a non-zero capability to provide that Ancillary Service, and all IRRs within an IRR Group where any IRR within the IRR Group is qualified to provide an Ancillary Service and telemetering a non-zero capability to provide that Ancillary Service, HSLTELEM shall be the five-minute intra-hour forecast for the Resource. For all other Resources, HSLTELEM shall be the Resource’s HSL provided to ERCOT via telemetry, in accordance with Section 6.5.5.2."
   - id: e16
     source: np-06
-    locator: "Section 6.5.5.2, paragraph (8)"
+    locator: "Section 6.5.5.1, Changes in Resource Status, paragraph (8)"
     quote: "For each Intermittent Renewable Resource (IRR) synchronized to the ERCOT System and not capable of providing real power due to a lack of fuel, the Resource Entity and QSE shall send ERCOT, via telemetry, a Real-Time On-Line status and HSL and LSL of 0."
   - id: e17
     source: np-03
@@ -121,7 +121,7 @@ evidence:
     quote: "For Load Resources other than CLRs, the HSL should equal the expected power consumption;"
   - id: e20
     source: np-06
-    locator: "Section 6.5.5.2, paragraph (12)(d)"
+    locator: "Section 6.5.5.2, paragraph (12)(d), power augmentation methods for Combined Cycle Generation Resources"
     quote: "For Qualifying Facilities (QFs), an LSL that represents the minimum energy available for Dispatch by SCED, in MW, from the Combined Cycle Generation Resource based on the minimum stable steam delivery to the thermal host plus a justifiable reliability margin that accounts for changes in ambient conditions."
   - id: e21
     source: np-06
@@ -180,6 +180,35 @@ evidence:
     locator: "Section 2.1 (edition effective 2024-11-01, superseded), definition of High Ancillary Service Limit (HASL)"
     quote: "A dynamically calculated MW upper limit on a Resource to reserve the part of the Resource’s capacity committed for Ancillary Service, calculated as described in Section 6.5.7.2, Resource Limit Calculator."
 
+  - id: e35
+    source: np-06
+    locator: "Section 6.5.7.2, Resource Limit Calculator, paragraph (1)"
+    quote: "ERCOT shall calculate the HDL and LDL within four seconds after a change of the Resource-specific attributes provided as part of the QSE’s SCADA telemetry under Section 6.5.5.2, Operational Data Requirements."
+  - id: e36
+    source: np-06
+    locator: "Section 6.5.7.2, paragraph (2), variable table"
+    quote: "POWERTELEM Gross or net real power provided via telemetry. NORMRAMPDN 5-minute blended Normal Ramp Rate down, as telemetered by the QSE. NORMRAMPUP 5-minute blended Normal Ramp Rate up, as telemetered by the QSE."
+  - id: e37
+    source: np-06
+    locator: "Section 6.5.7.2, paragraph (2)(a), HDL for SCED-dispatchable Generation Resources"
+    quote: "If the telemetered Resource Status is SHUTDOWN, then HDL = POWERTELEM – (NORMRAMPDN * 5)"
+  - id: e38
+    source: np-06
+    locator: "Section 6.5.7.2, paragraph (3)(a), LDL for SCED-dispatchable Generation Resources"
+    quote: "If the telemetered Resource Status is STARTUP, then LDL = POWERTELEM + (NORMRAMPUP * 5)"
+  - id: e39
+    source: np-06
+    locator: "Section 6.5.7.2, paragraph (3), variable table"
+    quote: "LSLTELEM Low Sustained Limit (LSL) provided via telemetry."
+  - id: e40
+    source: np-06
+    locator: "Section 6.5.7.2, paragraph (5)(b), LDL for ESRs"
+    quote: "If the telemetered Resource Status is ONTEST, then LDL = Max (Min (POWERTELEM, HSLTELEM), LSLTELEM)"
+  - id: e41
+    source: ercot-nprr1290-prs-report
+    locator: "NPRR1290 PRS report, summary of changes, item 6 (Section 6.5.5.2, HASL language)"
+    quote: "As the concept of a HASL no longer exists with RTC+B, ERCOT is proposing that the applicable language be struck with RTC+B implementation."
+
 ---
 
 ## Definition
@@ -200,11 +229,11 @@ The HSL is set by the QSE, and the protocols set duties to keep it current. A QS
 
 The HSL is also an input to the market power test: for the SCED CCT, the telemetered HSL is used for Resources with the specified telemetered status, and zero for all other Resources. [e10] The IMM uses HSL as well, removing the aggregate HSL of RUC-committed resources to show that, even without RUC, PRC below 3,000 MW would have occurred only 1.2 hours in 2025. [e12]
 
-The superseded pre-RTC definition of HASL said it was calculated in Section 6.5.7.2, the section that now computes HDL and LDL (see the hasl-lasl topic). [e34]
+The superseded pre-RTC definition of HASL said it was calculated in Section 6.5.7.2, the section that now computes HDL and LDL (see the hasl-lasl topic). [e34][e9]
 
 - IRRs: the QSE sets the HSL equal to the current net output capability, considering availability, weather and whether output is affected by a SCED Dispatch Instruction. [e14] For the first 168 hours of the COP, ERCOT updates wind and solar HSL values from its short-term forecasts, and the QSE may override only to a value no higher than the most recent ERCOT forecast. [e17][e18] An IRR that is synchronized but cannot produce real power for lack of fuel telemeters On-Line status with HSL and LSL of 0. [e16]
 - Combined Cycle Resources: telemeter the HSL of the current operating configuration, and update it when providing ECRS to match performance limitations. [e21]
-- Qualifying Facilities: the LSL represents the minimum energy available for Dispatch by SCED, based on minimum stable steam delivery to the thermal host plus a justifiable reliability margin. [e20]
+- Combined Cycle Generation Resources that are Qualifying Facilities: among the power augmentation methods and configuration items a QSE provides to ERCOT is an LSL that represents the minimum energy available for Dispatch by SCED, based on minimum stable steam delivery to the thermal host plus a justifiable reliability margin. [e20]
 - Quick Start Generation Resources: in the RUC study period a QSGR with COP status OFFQS is considered On-Line with LSL at zero MW; OFFQS is limited to qualified QSGRs. [e24][e23]
 - ONEMR Resources: the QSE may set HSL and LSL equal so SCED does not send Base Points that would move the unit. [e22]
 - Load Resources other than CLRs: the COP HSL should equal expected power consumption. [e19]
@@ -231,13 +260,13 @@ HSL is not the same as the High Dispatch Limit. The HSL is what the QSE reports 
 
 ## Formula
 
-The current Resource Limit Calculator (np-06 Section 6.5.7.2) turns telemetered output, ramp rate and the telemetered limits into dispatch limits within four seconds of a change. [e9] The variables are POWERTELEM (gross or net real power from telemetry), NORMRAMPUP and NORMRAMPDN (5-minute blended Normal Ramp Rates up and down as telemetered by the QSE), HSLTELEM and LSLTELEM (the HSL and LSL from telemetry). [e9][e31]
+The current Resource Limit Calculator (np-06 Section 6.5.7.2) turns telemetered output, ramp rate and the telemetered limits into dispatch limits; ERCOT must calculate the HDL and LDL within four seconds after a change in the telemetered Resource-specific attributes. [e35] The variables for Generation Resources are POWERTELEM (gross or net real power from telemetry), NORMRAMPUP and NORMRAMPDN (5-minute blended Normal Ramp Rates up and down as telemetered by the QSE), [e36] HSLTELEM (normally the HSL from telemetry, see below) [e15] and LSLTELEM (the LSL from telemetry). [e39] The Load Resource and ESR variable tables word some of these differently (for example, the Load Resource Normal Ramp Rates are not described as 5-minute blended).
 
-- SCED-dispatchable Generation Resource, High Dispatch Limit: HDL = Min (POWERTELEM + (NORMRAMPUP * 5), HSLTELEM) for the On-Line status codes other than SHUTDOWN. [e9]
-- SCED-dispatchable Generation Resource, Low Dispatch Limit: LDL = Max (POWERTELEM - (NORMRAMPDN * 5), LSLTELEM) for the status codes other than STARTUP. [e31]
-- SCED-dispatchable Load Resource: HDL = Min (POWERTELEM + (NORMRAMPDN * 5), HSLTELEM). [e30]
-- ESR: LDL = Max (POWERTELEM - (NORMRAMPDN * 5), LSLTELEM) for the ESR status codes other than OUT, EMR, EMRSWGR, ONHOLD or ONTEST; in ONHOLD, LDL = 0. [e29][e28]
-- For IRRs qualified for an Ancillary Service with a non-zero telemetered capability, HSLTELEM is the five-minute intra-hour forecast, not the QSE's telemetered HSL. [e15]
+- SCED-dispatchable Generation Resource, High Dispatch Limit: in SHUTDOWN, HDL = POWERTELEM – (NORMRAMPDN * 5); [e37] for the status codes specified in Section 3.9.1 paragraph (5)(b)(i) other than SHUTDOWN, HDL = Min (POWERTELEM + (NORMRAMPUP * 5), HSLTELEM). [e9]
+- SCED-dispatchable Generation Resource, Low Dispatch Limit: in STARTUP, LDL = POWERTELEM + (NORMRAMPUP * 5); [e38] for the status codes specified in Section 3.9.1 paragraph (5)(b)(i) other than STARTUP, LDL = Max (POWERTELEM - (NORMRAMPDN * 5), LSLTELEM). [e31]
+- SCED-dispatchable Load Resource: HDL = Min (POWERTELEM + (NORMRAMPDN * 5), HSLTELEM), with NORMRAMPDN as written in the Load Resource paragraph. [e30]
+- ESR: LDL = Max (POWERTELEM - (NORMRAMPDN * 5), LSLTELEM) for the ESR status codes other than OUT, EMR, EMRSWGR, ONHOLD or ONTEST; in ONHOLD, LDL = 0; [e28] in ONTEST, LDL = Max (Min (POWERTELEM, HSLTELEM), LSLTELEM). [e40][e29]
+- For IRRs qualified for an Ancillary Service with a non-zero telemetered capability (and all IRRs in an IRR Group where any IRR is so qualified), HSLTELEM is the five-minute intra-hour forecast for the Resource; for all other Resources it is the HSL provided via telemetry. [e15]
 
 ## Questions
 
@@ -268,5 +297,6 @@ The HSL must be greater than or equal to the LSL and the sum of the Resource-spe
 ## Open items
 
 - Resolved 2026-11-21: the HDL/LDL formulas are covered in the Formula section; the HASL/LASL terms are now covered in the hasl-lasl topic (the superseded pre-RTC definition says HASL was calculated in Section 6.5.7.2). [e34]
+- Not reproduced here: the ESR High Dispatch Limit and the Load Resource Low Dispatch Limit formulas.
 - Still open: how RTC+B changed the telemetry requirements. The NPRR1290 report says ERCOT proposed retaining the existing Non-Frequency Responsive Capacity telemetry, but this pass did not read the complete RTC+B telemetry list.
 - Still open: HSL and LSL for Combined Cycle Trains in RUC and DAM beyond the COP rules (see the cop topic).

@@ -23,22 +23,22 @@ links:
     note: The peak contract settles against the real-time price published by ERCOT for the North 345KV Hub. [e3]
   - to: dart-spread
     type: related
-    note: ICE futures settle against real-time prices rather than day-ahead prices, so they bear on how forwards compare with real-time outcomes. [e3]
+    note: ICE futures settle against the real-time hub price, not a day-ahead price. [e3]
   - to: retail-hedging
     type: related
     note: The IMM lists participating in futures markets among the ways LSEs manage price exposure. [e20]
   - to: forward-curve
     type: related
-    note: Monthly exchange contracts out to 50 consecutive periods are the kind of listed price points a forward curve is built from. [e5]
+    note: ICE lists these monthly futures out to up to 50 consecutive monthly contract periods. [e5]
   - to: heat-rate
     type: related
     note: The ICE Panhandle heat rate contract settles on an agreed heat rate times the NYMEX last-day settlement price. [e14]
   - to: implied-heat-rate
     type: related
-    note: Heat rate contracts price power as a multiple of the gas price, the same ratio the IMM tracks as implied heat rate. [e14]
+    note: The ICE heat rate contract settles on an agreed heat rate multiplied by the NYMEX last-day settlement price. [e14]
   - to: crr
     type: contrasts-with
-    note: The ICE peak hours match the CRR 5x16 block hours, but ICE futures are exchange contracts and CRRs are auctioned by ERCOT. [e10][e13][e17]
+    note: The ICE peak hours match the CRR 5x16 block hours, but ICE futures are exchange contracts and CRRs are auctioned by ERCOT. [e10][e11][e17]
   - to: dam
     type: contrasts-with
     note: The IMM names the day-ahead and CRR markets as ERCOT's two forward markets; the ICE contracts are not among them. [e19]
@@ -178,7 +178,7 @@ ICE Futures U.S. lists monthly cash-settled futures on ERCOT power, including th
 
 ## How it works
 
-**Contract terms (saved specifications dated 18 November 2026).** The contract settles in cash against the "ELECTRICITY-ERCOT-NORTH 345KV HUB-REAL TIME" price published by ERCOT. [e3] The size is 1 MW, the price is quoted in US dollars per MWh with a one-cent price quotation convention (the specification says minimum price fluctuation may vary by trade type), and up to 50 consecutive monthly contract periods can be listed. [e4][e3][e8][e5] Trading ends on the last business day of the contract period, and the final payment date is the sixth clearing organization business day after that. [e6][e7] The final settlement is the average of the Reference Price A prices. [e12]
+**Contract terms (saved specifications dated 18 November 2026).** The contract settles in cash against the "ELECTRICITY-ERCOT-NORTH 345KV HUB-REAL TIME" price published by ERCOT. [e3] The size is 1 MW, the price is quoted in US dollars per MWh with a one-cent price quotation convention (the specification says minimum price fluctuation may vary by trade type), and up to 50 consecutive monthly contract periods can be listed. [e4][e3][e8][e5] The specifications are headed "ICE Futures U.S. November 18, 2026". [e9] Trading ends on the last business day of the contract period, and the final payment date is the sixth clearing organization business day after that. [e6][e7] The final settlement is the average of the Reference Price A prices. [e12]
 
 **Peak versus off-peak.** The peak contract (symbol ERN) prices each Monday through Friday, excluding NERC holidays, and the daily price is the average of the settlement point prices for hours ending 0700-2200 CPT. [e4][e10][e11] The off-peak contract (symbol NEB) uses, for each weekday excluding NERC holidays, the average of the SPPs for hours ending 0100-0600 and 2300-2400 CPT, and for each Saturday, Sunday and NERC holiday the average for all hours ending 0100-2400 CPT. [e27][e13] The Protocols' definition of On-Peak Hours (hours ending 0700 to 2200 CPT, Monday through Friday excluding NERC holidays) and the CRR auction's 5x16 block use the same hours. [e30][e17]
 
@@ -186,13 +186,13 @@ ICE Futures U.S. lists monthly cash-settled futures on ERCOT power, including th
 
 **A second type: OTC heat rate contract.** ICE also publishes an OTC (not futures) specification for an ERCOT Panhandle Heat Rate 345kV Hub Off-Peak contract. [e15] Its final settlement is the heat rate agreed at the time of the transaction multiplied by the NYMEX last-day settlement price for the delivery month, and payment is due on the 20th of the month after the delivery period unless a master agreement says otherwise. [e14][e16] Daily settlement of that contract is determined by NGX from price data across spot, forward and derivative markets. [e18]
 
-**What an exchange is, in general (FERC staff primer, tier 2, not ERCOT-specific).** FERC's staff primer says many financially settled energy contracts traded on electronic brokerage platforms are, after Dodd-Frank, cleared cash-settled energy futures contracts. [e21] It says futures markets generally are more liquid than forward markets because futures are traded on centralized exchanges. [e23] It describes margin as collateral posted as a percentage of the current market value of a contract, which lets participants trade without paying cash for the full value. [e24] It also describes OTC markets as bilateral, where tailoring a contract to the counterparties' needs is a chief benefit. [e25]
+**What an exchange is, in general (FERC staff primer, tier 2, not ERCOT-specific).** FERC's staff primer says many financially settled energy contracts traded on electronic brokerage platforms are, after Dodd-Frank, cleared cash-settled energy futures contracts. [e21] It says futures markets generally are more liquid than forward markets, with futures traded on centralized exchanges. [e23] It describes margin as collateral posted as a percentage of the current market value of a contract, which lets participants trade without paying cash for the full value. [e24] It also says the ability to tailor a contract to the exact needs of the counterparties is one of the chief benefits of OTC markets. [e25]
 
 ## ERCOT context
 
 The saved ICE specifications show the ERCOT North 345KV Hub real-time price is the underlying for the exchange-traded power future, which settles in cash on a monthly average of the published prices. [e1][e3] ERCOT itself runs the day-ahead and CRR forward markets (the IMM's description); the ICE contracts sit outside them, and ERCOT's own training describes the DAM as a centralized forward market facilitated by ERCOT and bilateral trades as a decentralized forward market of QSE-to-QSE transactions. [e19][e28][e26]
 
-The UT Austin report on Winter Storm Uri lists ICE as a "nonERCOT market" through which generation may be sold, alongside PPAs, other bilateral contracts and ERCOT day-ahead awards. [e31] Real-time prices are the reference point for all of these. The IMM says only a small share of power is settled in real time, but real-time prices shape price expectations in the day-ahead and bilateral forward markets. [e29] The ICE contracts reference the real-time hub price directly. [e3]
+The UT Austin report on Winter Storm Uri lists ICE as a "nonERCOT market" through which generation may be sold, alongside PPAs, other bilateral contracts and ERCOT day-ahead awards. [e31] The IMM says only a small share of power is settled in real time, but real-time prices shape price expectations in the day-ahead and bilateral forward markets. [e29] The ICE contracts reference the real-time hub price directly. [e3]
 
 For market participants, the IMM lists participating in futures markets among the ways LSEs manage price exposure, alongside owning generation, bilateral PPAs and day-ahead purchases. [e20]
 
@@ -210,7 +210,7 @@ FERC's primer says Nodal Exchange offers locational (nodal) futures contracts to
 
 ## Say it like this
 
-(Guidance) ICE lists monthly cash-settled ERCOT North power futures, peak and off-peak, that settle against ERCOT's real-time hub prices. They give market participants a standardized way to lock in a monthly price without a bilateral contract. ICE also has an OTC heat rate contract that prices power as a multiple of the gas settlement price.
+(Guidance) ICE lists monthly cash-settled ERCOT North power futures, peak and off-peak, that settle against ERCOT's real-time hub prices. ICE also has an OTC heat rate contract that prices power as a multiple of the gas settlement price.
 
 ## Common confusion
 
@@ -232,7 +232,7 @@ Weekdays excluding NERC holidays: hours ending 0100-0600 and 2300-2400 CPT; Satu
 
 ### Why might a retailer use an exchange future rather than a bilateral forward?
 
-FERC's primer says futures markets generally are more liquid than forward markets because the contracts are standardized and traded on centralized exchanges, while OTC contracts allow tailoring to the counterparties' needs. [e23][e25] The cost of the exchange route is margin: collateral posted as a percentage of the contract's current market value. [e24]
+FERC's primer says futures markets generally are more liquid than forward markets, with futures traded on centralized exchanges, while the ability to tailor a contract to the counterparties' needs is a chief benefit of OTC markets. [e23][e25] The cost of the exchange route is margin: collateral posted as a percentage of the contract's current market value. [e24]
 
 ### What if a hedger holds a peak future but is exposed to day-ahead prices?
 
