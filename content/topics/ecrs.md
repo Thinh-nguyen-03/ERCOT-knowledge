@@ -29,7 +29,7 @@ links:
     note: ESRs provide a large share of ECRS. [e11]
   - to: asdc
     type: related
-    note: The ECRS demand curve has a Max Demand Price of VOLL + 50 in the Section 4.4.12 table, and its quantity is capped as a share of the Minimum Contingency Level. [e25][e26]
+    note: The ECRS demand curve has a Max Demand Price of VOLL + 50 in the Section 4.4.12 table, and the ECRS capacity included in the Minimum Contingency Level is governed by a maximum percentage and a minimum MW parameter. [e25][e26][e45]
   - to: ordc
     type: related
     note: ECRS and Non-Spin share the remaining AORDC segments alternately under the current Section 4.4.12 disaggregation. [e28]
@@ -111,7 +111,7 @@ evidence:
   - id: e18
     source: np-08
     locator: "Section 8.1.1.2.1.7, paragraph (3)"
-    quote: "The amount of ECRS provided by individual Generation Resources and Load Resources is limited to ten times its telemetered emergency ramp rate. Each Resource providing ECRS must be capable of ramping the Resource’s Ancillary Service award for ECRS within ten minutes of the notice to deploy ECRS, and must be able to maintain the awarded level of deployment for at least one hour."
+    quote: "The amount of ECRS provided by individual Generation Resources and Load Resources is limited to ten times its telemetered emergency ramp rate. Each Resource providing ECRS must be capable of ramping the Resource’s Ancillary Service award for ECRS within ten minutes of the notice to deploy ECRS, and must be able to maintain the awarded level of deployment for at least one hour. The amount of ECRS on a Generation Resource may be further limited by requirements of the Operating Guides."
   - id: e19
     source: np-08
     locator: "Section 8.1.1.2.1.7, paragraph (4)"
@@ -216,44 +216,68 @@ evidence:
     source: imm-som-2024
     locator: "Ancillary Services, ECRS deployment (NPRR 1224)"
     quote: "NPRR 1224 would have established formal deployment criteria based on real-time market conditions, deploying in 500 MW increments when power balance violations exceeded 40 MW for 10 consecutive minutes. Additionally, the capacity released to SCED would be subject to a $750 per MWh energy offer floor, for which there is no reasonable basis. Hence, we found this proposal to be flawed and it was ultimately rejected by the Commission in July 2024."
+  - id: e45
+    source: np-04
+    locator: "Section 4.4.12, paragraph (7)(a), variable table, ECRSPCTMAX and ECRSMWMIN"
+    quote: "ECRSPCTMAX % Maximum ECRS percentage included in the MCL ECRSMWMIN MW Minimum ECRS capacity included in the MCL"
+  - id: e46
+    source: np-04
+    locator: "Section 4.4.12, pending box after paragraph (7)(b) [NPRR1309]"
+    quote: "[NPRR1309: Replace paragraph (b) above with the following upon system implementation:]"
+  - id: e47
+    source: imm-som-2024
+    locator: "Ancillary Services, ECRS deployment (NPRR 1224), following paragraph"
+    quote: "However, ERCOT still implemented the deployment process proposed by NPRR 1224, but without the $750 per MWh energy offer floor."
+  - id: e48
+    source: imm-som-2024
+    locator: "Ancillary Services, ECRS deployment (NPRR 1224)"
+    quote: "In March 2024, ERCOT proposed NPRR 1224 to address concerns with ECRS deployment."
+  - id: e49
+    source: imm-som-2025
+    locator: "Appendix, section B, after Table A2"
+    quote: "Excluding RegDown, elevated dayahead market prices on December 5, 2025, and during Winter Storm Fern on January 21-27, 2026, account for 57-75% of the average day-ahead market premium for energy and up-reserve products."
+  - id: e50
+    source: imm-som-2025
+    locator: "Chapter III.C.2, ECRS Provision from NCLRs (page 65 (OCR))"
+    quote: "If this price premium persists, more NCLRs may shift from RRS to ECRS."
 
 ---
 
 ## Definition
 
-ERCOT Contingency Reserve Service (ECRS) is an ancillary service providing operating reserves intended to restore RRS within ten minutes after a deviation that significantly depletes it, to provide energy or continued load interruption to avoid or during an EEA, to provide backup regulation, and to be sustained for two consecutive hours. [e1] (The "two consecutive hours" wording is the Section 2 definition as saved; see Duration below and Open items.)
+ERCOT Contingency Reserve Service (ECRS) is an ancillary service providing operating reserves intended to restore RRS within ten minutes after a deviation that significantly depletes it, to provide energy or continued load interruption to avoid or during an EEA, and to provide backup regulation. [e1] Its duration requirement is one hour since Real-Time Co-Optimization (see ERCOT context). [e14][e15][e16]
 
 ## How it works
 
 ECRS capacity can come from unloaded on-line generation, Quick Start Generation Resources, load resources with or without high-set under-frequency relays, and controllable load resources, generation resources operating in synchronous condenser fast-response mode, and ESRs. [e3] Load resources other than CLRs may supply no more than 50% of the total ECRS requirement, and ERCOT posts a monthly minimum capacity required from resources providing ECRS. [e4] ECRS provides resource capacity, or interruptible load, available for deployment on ten minutes' notice. [e2] ECRS may be deployed manually or by a four-second signal to provide energy. [e30]
 
-**Qualification.** A Resource must pass a qualification test when On-Line, covering at least telemetry and market submissions; the On-Line qualification is limited to what can be ramped or unloaded within ten minutes, and Off-Line ECRS can only be provided by qualified QSGRs. [e17] A Resource's ECRS is limited to ten times its telemetered emergency ramp rate; it must ramp its award within ten minutes of the notice to deploy and maintain the awarded level for at least one hour. [e18] In the Ancillary Service limits section the same ten-times-Emergency-Ramp-Rate cap applies to On-Line Generation Resources and ESRs, and a QSGR's ECRS is limited to its proven ten-minute capability. [e29] A Load Resource must be loaded and able to unload the awarded amount within ten minutes and either respond immediately to frequency or be interrupted by under-frequency relays. [e19] A Resource in status ONSC with an ECRS award counts as providing capability to the extent it is not using that capacity for energy or other Ancillary Services. [e20]
+**Qualification.** A Resource must pass a qualification test when On-Line, covering at least telemetry and market submissions; the On-Line qualification is limited to what can be ramped or unloaded within ten minutes, and Off-Line ECRS can only be provided by qualified QSGRs. [e17] The ECRS provided by an individual Generation Resource or Load Resource is limited to ten times its telemetered emergency ramp rate; each Resource providing ECRS must ramp its award within ten minutes of the notice to deploy and maintain the awarded level for at least one hour, and for a Generation Resource the Operating Guides may limit the amount further. [e18] In the Ancillary Service limits section the same ten-times-Emergency-Ramp-Rate cap applies to On-Line Generation Resources and ESRs, and a QSGR's ECRS is limited to its proven ten-minute capability. [e29] A Load Resource must be loaded and able to unload the awarded amount within ten minutes and either respond immediately to frequency or be interrupted by under-frequency relays. [e19] A Resource in status ONSC with an ECRS award counts as providing capability to the extent it is not using that capacity for energy or other Ancillary Services. [e20]
 
 **Deployment and recall.** ERCOT deploys ECRS by Dispatch Instruction over ICCP to resources with status ONSC, or by message to load resources. [e5] The protocol lists four purposes: restore frequency to 60 Hz within ten minutes, provide energy to avoid or during an EEA, back up Reg-Up, and provide energy when capacity is insufficient for net load ramps. [e6] After a manual deployment to Load Resources (excluding CLRs) or Resources telemetering ONSC, the QSE's obligation to deliver ECRS remains until ERCOT issues a recall instruction. [e23] For Generation Resources, ESRs and CLRs, Base Points include ECRS energy plus any other SCED energy, and the Resource must be able to be fully dispatched to its ECRS award within ten minutes at its telemetered ramp rate. [e24] ERCOT then uses SCED and Non-Spin as soon as practicable to recover the ECRS reserves it used. [e7]
 
-**Performance.** For manual deployments, failing any performance requirement is reported to the Reliability Monitor as non-compliance; a Resource in ONSC must maintain its response until recalled. [e21] Ten minutes after the deployment instruction a QSE's Load Resource portfolio response must be at least 95% of the requested MW and not more than 150% of the lesser of its non-CLR ECRS awards or the requested deployment. [e22]
+**Performance.** For manual deployments, failing any performance requirement is reported to the Reliability Monitor as non-compliance; a Resource in ONSC must maintain its response until recalled. [e21] Ten minutes after the deployment instruction the sum of a QSE's non-Controllable Load Resource response must be at least 95% of the requested MW and not more than 150% of the lesser of its non-CLR ECRS awards or the requested deployment. [e22]
 
 **How much ERCOT buys.** The 2026 methodology says the frequency-recovery capacity for ECRS is the capacity needed after a supply-side trip, covers 70% of historic system inertia conditions for each hour and includes an adjustment for the Reg-Up requirement. [e32] The combined ECRS and Non-Spin requirement comes from a Monte Carlo optimization that takes risk and credits 60% of historically available capacity at night (HE23-HE5) and 25% in day hours (HE6-HE22); [e33] ERCOT's description of the capacity is "capable of being ramped to a specified output level within 10 minutes." [e31] ERCOT's 2027 proposal (Board item, September 14-15, 2026; outcome not in the saved sources) would raise the daytime credit to 50% for online and offline generation and 60% for ESRs with four-hour sustainable duration, and lower the convergence threshold from Watch (3,000 MW) to EEA1 (2,500 MW). [e34][e35]
 
-**Pricing in the ASDC.** In Protocol Section 4.4.12 the ECRS Max Demand Price is VOLL + 50, [e25] the fixed parameters include an ECRS maximum percentage of 30 and a minimum of 40 MW in the Minimum Contingency Level calculation, [e26] and the MCL is 3,000 MW, defined as the minimum reserves ERCOT considers necessary to avoid a system-wide failure. [e27] Beyond the MCL, the remaining 1 MW segments of the AORDC are assigned alternately to ECRS and Non-Spin until both requirements are met (current text; NPRR1309 would replace this upon implementation). [e28]
+**Pricing in the ASDC.** In Protocol Section 4.4.12 the ECRS Max Demand Price is VOLL + 50, [e25] the fixed parameters include ECRSPCTMAX of 30 (percent) and ECRSMWMIN of 40 MW, defined as the maximum ECRS percentage and the minimum ECRS capacity included in the Minimum Contingency Level (MCL), [e26][e45] and the MCL is 3,000 MW, defined as the minimum reserves ERCOT considers necessary to avoid a system-wide failure. [e27] Beyond the MCL, the remaining 1 MW segments of the AORDC are assigned alternately to ECRS and Non-Spin until both requirements are met (current text; a pending NPRR1309 box would replace paragraph (b) upon system implementation). [e28][e46]
 
 ## ERCOT context
 
 The IMM calls ECRS the latest addition to ERCOT's ancillary services, implemented in June 2023, and describes its purpose as restoring frequency within 10 minutes and recovering deployed regulation, as well as covering intra-hour net load forecast uncertainty. [e8][e9] In 2025 ECRS procurement volume fell by over 19% because the "adjustment for risk coverage" during sunset hours was removed, and ESRs supplied 42% of ECRS. [e10][e11]
 
-Deployment history: the IMM's 2023 analysis estimated that ECRS deployment practices produced approximately $12 billion in excess real-time costs, [e36] which it says fell to $720 million in 2024 and $90 million in 2025, mainly because new solar and storage supply made the practices less impactful; ERCOT kept a policy of releasing ECRS only after ten consecutive minutes of at least 40 MW of under-generation. [e37] ERCOT's March 2024 NPRR 1224 would have set deployment criteria (500 MW increments when power balance violations exceeded 40 MW for 10 consecutive minutes) with a $750 per MWh energy offer floor on released capacity; the IMM said the floor had no reasonable basis, and the Commission rejected the proposal in July 2024, though ERCOT implemented the deployment process without the floor. [e44] With RTC in December 2025 operators no longer manually deploy ECRS; SCED trades energy and AS using ASDC reserve shortage prices. [e38]
+Deployment history: the IMM's 2023 analysis estimated that ECRS deployment practices produced approximately $12 billion in excess real-time costs, [e36] which it says fell to $720 million in 2024 and $90 million in 2025, mainly because new solar and storage supply made the practices less impactful; ERCOT kept a policy of releasing ECRS only after ten consecutive minutes of at least 40 MW of under-generation. [e37] ERCOT proposed NPRR 1224 in March 2024; it would have set deployment criteria (500 MW increments when power balance violations exceeded 40 MW for 10 consecutive minutes) with a $750 per MWh energy offer floor on released capacity; the IMM said the floor had no reasonable basis, and the IMM reports the Commission rejected the proposal in July 2024 and that ERCOT nonetheless implemented the deployment process without the floor. [e48][e44][e47] The IMM says that with RTC in December 2025 operators no longer manually deploy ECRS and SCED trades energy against AS using ASDC reserve shortage prices. [e38]
 
-Prices: ECRS annual average DAM prices were $73.18 (2023), $9.56 (2024) and $2.65 (2025) per MWh in the IMM's 2025 report (OCR copy). [e39] The IMM says ECRS cleared at no premium to RRS in 2025, unlike 2023 and 2024, but initial RTC results show ECRS consistently clearing above RRS, driven partly by duration differences. [e40] In the IMM's Table A2, covering the first RTC months (the OCR header reads "December 5, 2026, through February 2026", apparently a typo), the day-ahead ECRS average was $3.67 against $0.71 in real time, a 420% premium (energy: $50.21 against $37.03, 36%). [e42]
+Prices: ECRS annual average DAM prices were $73.18 (2023), $9.56 (2024) and $2.65 (2025) per MWh in the IMM's 2025 report (OCR copy). [e39] The IMM says ECRS cleared at no premium to RRS in 2025, unlike 2023 and 2024, but initial RTC results show ECRS consistently clearing above RRS, driven partly by duration differences. [e40] In the IMM's Table A2, covering the first RTC months (the OCR header reads "December 5, 2026, through February 2026", apparently a typo; the IMM names Winter Storm Fern as one of two events behind a disproportionate share of the early day-ahead premium [e49]), the day-ahead ECRS average was $3.67 against $0.71 in real time, a 420% premium (energy: $50.21 against $37.03, 36%). [e42]
 
-The duration requirement changed with RTC. NPRR1282 updated the ECRS duration requirement to one hour, effective upon system implementation of Real-Time Co-Optimization. [e15][e16] The IMM reports the same: two hours until RTC was implemented, one hour since. [e12] The IMM continues to recommend one hour for both ECRS and NSRS (Recommendation 2024-2). [e41] The current Protocols' capacity monitoring criteria limit a Resource's ECRS capability to what it can sustain for at least one hour. [e14] The general description of ECRS in Section 3 of the Protocols still reads "two consecutive hours". [e1]
+The duration requirement changed with RTC. NPRR1282 updated the ECRS duration requirement to one hour, effective upon system implementation of Real-Time Co-Optimization. [e15][e16] The IMM reports the same: two hours until RTC was implemented, one hour since. [e12] The IMM continues to recommend one hour for both ECRS and NSRS (Recommendation 2024-2). [e41] The current Protocols' capacity monitoring criteria limit a Resource's ECRS capability to what it can sustain for at least one hour. [e14] The Section 2 definition of ECRS still carries the older wording that ECRS is sustained at a specified level "for two consecutive hours", the figure the IMM gives as the pre-RTC requirement; the one-hour requirement above is the one stated in the monitoring criteria and NPRR1282. [e1][e12]
 
 The IMM argues ERCOT's 2026 methodology sets targets too high: setting the one-in-ten standard against Watch (3,000 MW) rather than firm load shed (1,500 MW) increases the AS Plan target by approximately 43%, in the IMM's estimate. [e43]
 
 ## Key facts
 
-- A Resource's ECRS capability is limited to what it can sustain for at least one hour. [e14] NPRR1282 set the one-hour requirement, effective with RTC. [e15][e16] The general description in Section 3 of the Protocols still says two consecutive hours. [e1]
+- A Resource's ECRS capability is limited to what it can sustain for at least one hour. [e14] NPRR1282 set the one-hour requirement, effective with RTC. [e15][e16]
 - ECRS is deployable on ten minutes' notice and must ramp within ten minutes. [e2][e18]
-- ECRS is capped at ten times the Resource's emergency ramp rate. [e18]
+- An individual Generation or Load Resource's ECRS is limited to ten times its telemetered emergency ramp rate. [e18]
 - Load resources other than CLRs may provide up to 50% of the total ECRS requirement. [e4]
 - ECRS was implemented in June 2023. [e9]
 - ECRS annual average DAM price: $73.18 (2023), $9.56 (2024), $2.65 (2025). [e39]
@@ -262,7 +286,7 @@ The IMM argues ERCOT's 2026 methodology sets targets too high: setting the one-i
 
 ## Say it like this
 
-ECRS is the contingency reserve that backs up RRS and regulation: it restores frequency within ten minutes and supplies energy before or during an emergency. It can come from generators, quick-start units and load, and ESRs supply a large share. Since RTC, SCED decides when it is used rather than an operator. [e1][e3][e6][e11][e38]
+(Guidance) ECRS is the contingency reserve that backs up RRS and regulation: it restores frequency within ten minutes and supplies energy before or during an emergency. It can come from generators, quick-start units and load, and ESRs supplied 42% of it in 2025. Since RTC, the IMM says operators no longer manually deploy it. [e1][e3][e6][e11][e38]
 
 ## Common confusion
 
@@ -276,7 +300,7 @@ To restore RRS within ten minutes after a significant depletion, to provide ener
 
 ### What is the duration requirement?
 
-One hour since RTC went live. NPRR1282 updated the requirement to one hour, effective upon system implementation of RTC, and the Protocols' capacity monitoring criteria use one hour. [e15][e16][e14] It was two hours before, and the general description of ECRS in Section 3 still says two consecutive hours. [e12][e1]
+One hour since RTC went live. NPRR1282 updated the requirement to one hour, effective upon system implementation of RTC, and the Protocols' capacity monitoring criteria use one hour. [e15][e16][e14] It was two hours before RTC. [e12]
 
 ### Who provides ECRS?
 
@@ -292,7 +316,7 @@ For manual deployments, failure to meet any performance requirement is reported 
 
 ### Why does the ECRS price premium over RRS matter to load resources?
 
-The IMM says NCLRs can supply no more than 50% of the ECRS Plan, and that if ECRS keeps clearing above RRS under RTC, more NCLRs may shift from RRS to ECRS. [e40][e4]
+The Protocols limit Load Resources other than CLRs to 50% of the total ECRS requirement. [e4] The IMM says ECRS has consistently cleared above RRS in initial RTC results and that if this price premium persists, more NCLRs may shift from RRS to ECRS. [e40][e50]
 
 ### How is ECRS priced in the ASDC?
 
@@ -300,9 +324,8 @@ The ECRS Max Demand Price is VOLL + 50 until the Minimum Contingency Level (3,00
 
 ## Open items
 
-- Resolved 2026-11-21: ECRS qualification (np-08 8.1.1.2.1.7), deployment performance (8.1.1.4.4) and the ASDC pricing (np-04 4.4.12) are now covered. NPRR1282 (PUCT report) and Protocols Section 8.1.1.3.4 give one hour since RTC. Section 3's and Section 2's general description still says "two consecutive hours"; the saved sources do not say whether that wording is meant to remain.
+- Resolved 2026-11-21: ECRS qualification (np-08 8.1.1.2.1.7), deployment performance (8.1.1.4.4) and the ASDC pricing (np-04 4.4.12) are now covered. NPRR1282 (PUCT report) and Protocols Section 8.1.1.3.4 give one hour since RTC.
 - The saved Section 3.17.4 describes ECRS as deployed manually or by a four-second signal; the IMM says operators no longer manually deploy ECRS under RTC. How the Protocol text in Section 6.5.7.6.2.4 is applied under RTC is not stated in the saved sources.
 - The net load ramp risk adjustment: the 2026 methodology's ECRS and Non-Spin procedure speaks of net load ramp risk for Non-Spin; no separate ECRS ramp-risk quantity was found.
 - The 2027 AS methodology is a Board item (September 14-15, 2026); approval by the Board and the PUCT is not in the saved sources.
 - The ECRS price in the IMM 2024 report ($9.62 for 2024, $76.77 for 2023) differs from the 2025 report's figures ($9.56, $73.18); the sources do not explain the difference.
-- Meaning of the ASDC parameters "ECRSPCTMAX 30" and "ECRSMWMIN 40" is inferred from their variable names (maximum percentage and minimum MW of ECRS included in the MCL); the variable table was not quoted for those two.

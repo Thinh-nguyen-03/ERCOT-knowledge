@@ -38,7 +38,7 @@ links:
     note: The UT report says retailers' losses depended on how well their price risk was hedged. [e3]
   - to: settlement-statements
     type: related
-    note: Under Protocol 9.19, when a short-pay cannot be covered, ERCOT reduces payments to all invoice recipients owed money and then uplifts the shortfall. [e22]
+    note: Under Protocol 9.19, when a short-pay cannot be covered, ERCOT reduces payments pro rata to all invoice recipients owed money and then, if funds remain unavailable, uplifts the shortfall. [e66][e22]
 evidence:
   - id: e1
     source: ut-uri-timeline
@@ -263,7 +263,7 @@ evidence:
   - id: e56
     source: puct-25-43
     locator: "16 TAC 25.43, Mass transition of customers to POLR providers, paragraph (2)"
-    quote: "If the number of ESI IDs exceeds the amount the VREPs are designated to serve, ERCOT must assign remaining ESI IDs to LSPs in a non-discriminatory fashion, in accordance with their percentage of market share based upon retail sales in megawatt-hours, on a random basis within a class and POLR area"
+    quote: "If the number of ESI IDs exceeds the amount the VREPs are designated to serve, ERCOT must assign remaining ESI IDs to LSPs in a non-discriminatory fashion, in accordance with their percentage of market share based upon retail sales in megawatt-hours, on a random basis within a class and POLR area, except that a VREP that is also an LSP that volunteers to serve at least 1% of its market share for a class of customers in a POLR area must be exempt from the LSP allocation up to 1% of the class and POLR area."
   - id: e57
     source: puct-25-43
     locator: "16 TAC 25.43(m)(2)(A), LSP rate for residential customers"
@@ -300,6 +300,14 @@ evidence:
     source: puct-25-107
     locator: "16 TAC 25.107, application affidavit on persons tied to a mass transition"
     quote: "exercised direct or indirect control over a REP that experienced a mass transition of the REP’s customers under §25.43 of this title (relating to Provider of Last Resort (POLR)) at any time within the six months prior to the mass transition;"
+  - id: e66
+    source: np-09
+    locator: "Section 9.19(1)(d), Partial Payments by Invoice Recipients (Protocols dated August 1, 2026)"
+    quote: "If, after taking the actions set forth in paragraphs (a), (b) and (c) above, ERCOT still does not have sufficient funds to pay all amounts that it owes to Settlement Invoice Recipients in full, ERCOT shall deduct any applicable administrative fees as specified in Section 9.16, ERCOT System Administration and User Fees, payments for Reliability Must-Run (RMR) Services, and the Congestion Revenue Right (CRR) Balancing Account (CRRBA) from the amount received or collected and then reduce payments to all Settlement Invoice Recipients owed monies from ERCOT."
+  - id: e67
+    source: puct-25-107
+    locator: "16 TAC 25.107(f)(1)(B), Access to capital, letter of credit option (version effective 11/4/2026)"
+    quote: "A REP may maintain an irrevocable stand-by letter of credit with a face value as determined in clause (i) of this subparagraph, based on the number of electronic service identifiers (ESI IDs) the REP serves"
 ---
 
 ## Definition
@@ -308,13 +316,13 @@ The 2021 defaults are the payments that market participants failed to make to ER
 
 ## How it works
 
-Short-pay rules. Under Protocol Section 9.19 (current text), if ERCOT still lacks funds after collection attempts, collateral draws and offsets, and the short-payer is not on a payment plan, it uplifts the short-paid amount through Default Uplift Invoices. [e22] It collects the month's short-pay, less expected payment-plan amounts, from QSEs and CRR Account Holders and passes the money to those it short-paid; each Counter-Party's share is based on its MWh activity in the month before the default. [e18][e19] Uplift may not charge more than $2,500,000 per set of Default Uplift Invoices, sets must be at least 30 days apart, and the first may come no earlier than 90 days after the short-pay. [e20][e21] The UT report describes the same $2.5 million per 30 days limit and says that under the standard process it would have taken 96 years to collect the outstanding amount. [e23][e1]
+Short-pay rules. Under Protocol Section 9.19 (current text), if ERCOT still lacks funds after collection attempts, collateral draws and offsets, it deducts administrative fees, RMR payments and the CRR Balancing Account and then reduces payments pro rata to everyone it owes; if funds remain unavailable and the short-payer is not complying with a payment plan, it uplifts the short-paid amount through Default Uplift Invoices. [e66][e22] It collects the month's short-pay, less expected payment-plan amounts, from QSEs and CRR Account Holders and passes the money to those it short-paid; each Counter-Party's share is based on its MWh activity in the month before the default. [e18][e19] Uplift may not charge more than $2,500,000 per set of Default Uplift Invoices, sets must be at least 30 days apart, and the first may come no earlier than 90 days after the short-pay. [e20][e21] The UT report describes the same $2.5 million per 30 days limit and reports that ERCOT said it would take 96 years to collect the amount outstanding (as of April 14, 2021) under its standard Default Uplift Invoice process. [e23][e1]
 
-In 2021, ERCOT received less than it invoiced and reduced payments owed to CRR holders. [e2] For retailers, the UT report says the damage depended on how well their price risk was hedged and how outages changed their obligations. [e3] Griddy, Entrust and Power of Texas filed for bankruptcy, their certificates were revoked, and their customers were moved through mass transition; JP Energy Resources and Rhythm acquired the customer bases of several other exiting retailers. [e3][e47] By February 24, 2021, the rate options advertised on Power to Choose had dropped by half, and the UT report calls the number of retailer exits unprecedented. [e48]
+In 2021, ERCOT received less than it invoiced and reduced payments owed to CRR holders. [e2] For retailers, the UT report says the damage depended on how well their price risk was hedged and how outages changed their obligations. [e3] Griddy, Entrust and Power of Texas filed for bankruptcy, their certificates were revoked, and their customers were moved through mass transition; per UT, JP Energy Resources acquired the customer bases of GridPlus/MQE, GB Power, Volt, Energy Monger and Iluminar, and Rhythm acquired those of Entrust and Power of Texas. [e3][e47] By February 24, 2021, the rate options advertised on Power to Choose had dropped by half, and the UT report calls the number of retailer exits unprecedented. [e48]
 
 Griddy step by step. On February 26, 2021 ERCOT revoked Griddy's rights under the Protocols for a payment breach; Protocol 16.11.6.1.6(3)(b) requires a mass transition on revocation, and ERCOT began moving about 10,127 ESI IDs to POLRs that day (the PUCT later found 9,926 customers were transitioned). [e12][e41][e13][e14] On March 5, 2021 the Commission drew on Griddy's $500,000 and $10,000 letters of credit. [e43] Griddy, which sold on pay-as-you-go billing debiting customers' advance balances daily by consumption, refunded those balances before filing for bankruptcy on March 15, 2021. [e42][e44][e15] ERCOT's amended claim was $29,913,799.84, and the PUCT found Griddy violated PURA by not following ERCOT's collateral-call and invoice-payment rules, and revoked its REP certificate. [e16][e46][e45][e17] More broadly, the IMM says high collateral requirements likely kept some participants out of the day-ahead market in February and into March 2021. [e5]
 
-Mass transition mechanics (current rules). ERCOT first assigns ESI IDs to volunteer REPs (VREPs) up to what each offered, then the rest to large service providers (LSPs) by MWh market share, randomly within class and POLR area. [e55][e56] The POLR takes responsibility from the Mass Transition Date, two days after ERCOT sends the enrollment transactions, and a participant whose customers were dropped must re-register with a new DUNS number. [e61][e62]
+Mass transition mechanics (current rules). ERCOT first assigns ESI IDs to volunteer REPs (VREPs) up to what each offered, then the rest to large service providers (LSPs) by MWh market share, randomly within class and POLR area (a VREP that is also an LSP and volunteers at least 1% of its market share is exempt from the LSP allocation up to 1%). [e55][e56] POLRs are responsible for the ESI IDs no earlier than the Mass Transition Date, two days after ERCOT sends the enrollment transactions, and a participant whose customers were dropped must re-register with a new DUNS number. [e61][e62]
 
 ## Formula
 
@@ -323,15 +331,15 @@ Securitization default charge share per Counter-Party (Protocol 26.2): SDCRSCP =
 - SDCMMA: the maximum MWh activity of the Counter-Party's Market Participants across the DAM, RTM and CRR Auction in the reference month; SDCMMATOT is the sum across Counter-Parties. [e37][e40]
 - Unrecovered short-pays of default charges are added into ERCOT's next evaluation of TSDCMA. [e39]
 
-LSP (POLR) residential rate (16 TAC 25.43(m)(2)(A), version effective 11/23/2022): LSP rate ($/kWh) = (non-bypassable charges + LSP customer charge + LSP energy charge) / kWh used. [e59] The customer charge is $0.09/kWh; the energy charge is the prior calendar month's average real-time settlement point price for the load zone × kWh × 120%, capped at 160% of the prior month's energy charge. [e57][e58] A VREP instead serves transitioned customers on a market-based month-to-month product. [e60]
+LSP (POLR) residential rate (16 TAC 25.43(m)(2)(A), version effective 11/23/2022): LSP rate ($/kWh) = (non-bypassable charges + LSP customer charge + LSP energy charge) / kWh used. [e59] The customer charge is $0.09/kWh; the energy charge, beginning on the 10th of each month, is the preceding calendar month's average real-time settlement point price for the applicable load zone × kWh × 120%, capped at 160% of the prior month's energy charge. [e57][e58] A VREP instead serves transitioned customers on a market-based month-to-month product. [e60]
 
 ## ERCOT context
 
 Brazos accounted for $1.86 billion of the roughly $2.99 billion in short payments the UT report cites; the IMM's 2022 report says about $1.9 billion. [e1][e7] Brazos sought to cut more than $1.1 billion from ERCOT's claim, the part tied to the PUCT's February 15 and 16, 2021 pricing orders; trial began February 22, 2022 and was suspended March 3, 2022 for mediation. [e8][e34] The settlement reimbursed ERCOT $599,709,609.22 for CRR funds used to cover Brazos's short pay and gave impacted participants at least two options: an earlier discounted payment in exchange for a release, or full payment over 30 years. [e9][e33] The ERCOT Board approved Brazos's amended plan on October 28, 2022, subject to bankruptcy court approval, and the Commission supported ERCOT's authority to settle on November 9, 2022. [e10][e35]
 
-Securitization. HB 4492 Subchapter M defines a default balance of up to $800 million: amounts competitive wholesale participants owed from the period of emergency that would otherwise be uplifted, CRR auction receipts used to reduce short-pays, and implementation costs. [e6][e25] Default charges may run up to 30 years, must be refunded if a defaulter later pays amounts that were financed, and are allocated pro rata as uplift was under the protocols in effect on March 1, 2021, to all wholesale participants including defaulters still trading and new entrants. [e26][e27] Subchapter N separately financed an uplift balance of up to $2.1 billion of RDPA and above-cap ancillary service costs uplifted to LSEs. [e28] ERCOT applied in July 2021, the Debt Obligation Orders issued October 13, 2021, the Subchapter M financing closed in November 2021, NPRR1103 was approved December 16, 2021, collection of monthly default charges on QSEs and CRR Account Holders began in January 2022, and the Subchapter N financing closed June 15, 2022 with a daily charge on QSEs of non-opted-out LSEs. [e29][e11][e31][e30][e32] Protocol Section 26 now lets ERCOT assess the charges over up to 30 years. [e36]
+Securitization. HB 4492 Subchapter M defines a default balance of up to $800 million: amounts competitive wholesale participants owed from the period of emergency that would otherwise be uplifted, CRR auction receipts used to reduce short-pays, and implementation costs. [e6][e25] Default charges may run up to 30 years, must be refunded if a defaulter later pays amounts that were financed, and are allocated pro rata as uplift was under the protocols in effect on March 1, 2021, to all wholesale participants including defaulters still trading and new entrants. [e26][e27] Subchapter N separately defines an uplift balance of up to $2.1 billion of RDPA and above-cap ancillary service costs uplifted to LSEs on a load ratio share basis, excluding amounts securitized under Chapter 41, Subchapter D. [e28] ERCOT applied in July 2021, the Debt Obligation Orders issued October 13, 2021, the Subchapter M financing closed in November 2021, NPRR1103 was approved December 16, 2021, collection of monthly default charges on QSEs and CRR Account Holders began in January 2022, and the Subchapter N financing closed June 15, 2022 with a daily charge on QSEs of non-opted-out LSEs. [e29][e11][e31][e30][e32] Protocol Section 26 now lets ERCOT assess the charges over up to 30 years. [e36]
 
-Retail products after 2021. HB 16 added PURA 39.110, effective September 1, 2021, barring REPs, brokers and aggregators from offering wholesale indexed products (direct pass-through of real-time settlement point prices) to residential and small commercial customers; larger customers need a signed risk acknowledgment. [e49][e50][e51] PUCT rule 25.475 bans wholesale indexed products for those customers from September 1, 2021 and indexed products from February 1, 2022, leaving fixed rate and variable price products. [e52][e54][e53] The current REP certification rule lets the Commission draw on a REP's financial instruments when its customers are mass transitioned, sets letters of credit of $750,000 (under 50,000 ESI IDs) or $1,500,000, and requires applicants to disclose people who controlled a REP within six months before its mass transition. [e63][e64][e65]
+Retail products after 2021. HB 16 added PURA 39.110, effective September 1, 2021, barring REPs, brokers and aggregators from offering wholesale indexed products (direct pass-through of real-time settlement point prices) to residential and small commercial customers; larger customers need a signed risk acknowledgment. [e49][e50][e51] PUCT rule 25.475 bans wholesale indexed products for those customers from September 1, 2021 and indexed products from February 1, 2022, leaving fixed rate and variable price products. [e52][e54][e53] The current REP certification rule lets the Commission draw on a REP's financial instruments when its customers are mass transitioned, lets a REP meet its capital requirement with a stand-by letter of credit sized at $750,000 (under 50,000 ESI IDs) or $1,500,000 (50,000 or more), and requires applicants to disclose people who controlled a REP within six months before its mass transition. [e63][e67][e64][e65]
 
 ## Key facts
 
@@ -365,7 +373,7 @@ Retail products after 2021. HB 16 added PURA 39.110, effective September 1, 2021
 
 ## Say it like this
 
-(Guidance) After Uri, about $3 billion owed to ERCOT went unpaid, most of it from Brazos Electric, plus retailers like Griddy, Entrust and Power of Texas that went bankrupt and had their customers mass transitioned. [e1][e3][e4] Because normal uplift is capped at $2.5 million per invoice set at least 30 days apart, the state financed the hole through HB 4492 and banned wholesale pass-through plans for households. [e20][e6][e49]
+(Guidance) After Uri, about $3 billion owed to ERCOT went unpaid, most of it from Brazos Electric, plus retailers like Griddy, Entrust and Power of Texas that went bankrupt and had their customers mass transitioned. [e1][e3][e4] Normal uplift is capped at $2.5 million per invoice set at least 30 days apart; HB 4492 let ERCOT finance a default balance of up to $800 million, and HB 16 (PURA 39.110) banned wholesale pass-through plans for residential and small commercial customers. [e20][e6][e49][e51]
 
 ## Common confusion
 
@@ -377,7 +385,7 @@ Retail products after 2021. HB 16 added PURA 39.110, effective September 1, 2021
 
 ### Why did ERCOT not just uplift the short payments to everyone?
 
-The Protocols cap each set of Default Uplift Invoices at $2.5 million at least 30 days apart; the UT report says that would have taken 96 years. [e20][e1] By simple arithmetic, $2.9 billion at $2.5 million per cycle is about 1,160 cycles. HB 4492 instead let ERCOT finance a default balance of up to $800 million. [e6][e11]
+The Protocols cap each set of Default Uplift Invoices at $2.5 million at least 30 days apart; the UT report says ERCOT estimated that collecting the amount outstanding this way would take 96 years. [e20][e1] By the knowledge base's own arithmetic (not a source figure), $2.9 billion at $2.5 million per cycle is about 1,160 cycles. HB 4492 instead let ERCOT finance a default balance of up to $800 million. [e6][e11]
 
 ### How did the Brazos bankruptcy connect to the pricing orders?
 
@@ -395,9 +403,9 @@ No: PURA 39.110 bars wholesale indexed products for residential and small commer
 
 HB 4492 requires default charges on all wholesale participants, including those in default still trading and new entrants, and if a defaulter later pays financed amounts, the charges are adjusted to refund that. [e27][e26]
 
-### Why do mass-transitioned customers often pay more?
+### What can a POLR provider charge mass-transitioned residential customers?
 
-An LSP may charge up to a formula rate with a $0.09/kWh customer charge and an energy charge at 120% of the prior month's average real-time price, capped at 160% of the prior month's energy charge. [e57][e58]
+For residential customers, an LSP may charge up to a formula rate with a $0.09/kWh customer charge and an energy charge at 120% of the prior month's average real-time price, capped at 160% of the prior month's energy charge. [e57][e58]
 
 ## Open items
 

@@ -213,7 +213,7 @@ Net DC tie flows are small and change direction. The IMM's 2020, 2022 and 2023 r
 - DC Tie Load is curtailed before other ERCOT Load and during EEAs. [e21]
 - Market Participants may not make DC tie exports reasonably expected to be uneconomic, excluding CARD and CRRBA allocations (a pending NPRR1030 box would delete this paragraph). [e22]
 - The 2021 FERC-NERC report says ERCOT does not classify DC tie flows as firm capacity. [e12]
-- Net flow: net importer 2018-2023, net exporter in 2024, net importer in 2025 with about 36 MW average net inflow. [e32][e28][e11][e10]
+- Net flow: net importer through 2023 in a trend the IMM dates from 2018 (its 2024 report is inconsistent on 2018), net exporter in 2024, net importer in 2025 with about 36 MW average net inflow. [e32][e28][e11][e10]
 - During Uri, MISO and SPP together imported nearly 13,000 MW, while ERCOT was limited to its 1,220 MW of ties. [e13]
 - ERCOT covers about 75 percent of Texas land area. [e14]
 
@@ -251,7 +251,7 @@ All frequency response has to come from inside ERCOT. Because the system is smal
 
 ### Is ERCOT a net importer or exporter over its ties?
 
-It changes from year to year: a net importer from 2018 through 2023, a net exporter in 2024 and a net importer in 2025, with average net inflow of only about 36 MW in 2025. [e32][e28][e11][e10]
+It changes from year to year: per the IMM, a net importer in a trend it dates from 2018 through 2023 (its 2024 report implies 2018 itself was a net-export year), a net exporter in 2024 and a net importer in 2025, with average net inflow of only about 36 MW in 2025. [e32][e28][e11][e10]
 
 ### How is a DC tie export settled, and what happens to it in an emergency?
 

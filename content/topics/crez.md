@@ -136,7 +136,7 @@ Financial commitment for a CREZ is sufficient to grant CCNs for its transmission
 
 The IMM's 2011 report said that the physical limit of its most active constraint, the West to North interface, would over the long term increase as CREZ transmission projects were completed. [e15] The same report said low West-zone prices were generally caused by high wind output in the West that frequently results in severe congestion on transmission interfaces from the West zone to the other zones. [e16]
 
-By 2020 the IMM was reporting the Panhandle GTC constraint as the second most costly constraint of the year, at $140 million of congestion, mostly caused by planned outages including ETT maintenance outages; almost 4.6 GW of generation, about 90% wind, was in the Panhandle by the end of 2020. [e17] The IMM said that activating the Panhandle GTC and nearby Lewisville and Eagle Mountain constraints dispatched wind down and increased generation in the North. [e18] In 2022 the IMM said the Panhandle GTC ($129 million in 2021) fell to seventh because of the resolution of CREZ maintenance outages completed in 2022, while the West Texas Export GTC ($304 million) was the most costly constraint. [e19]
+By 2020 the IMM was reporting the Panhandle GTC constraint as the second most costly constraint of the year, at $140 million of congestion, mostly caused by planned outages including ETT maintenance outages; almost 4.6 GW of generation, about 90% wind, was in the Panhandle by the end of 2020. [e17] The IMM said that activating the constraints in the Panhandle GTC, the Lewisville area, the Lynx to Tombstone 138 kV line and the Eagle Mountain to Morris Dido 138 kV line dispatched wind down and increased generation in the North. [e18] In 2022 the IMM said the Panhandle GTC ($129 million in 2021) fell to seventh because of the resolution of CREZ maintenance outages completed in 2022, while the West Texas Export GTC ($304 million) was the most costly constraint. [e19]
 
 By the end of 2020, approximately 25,000 MW of wind and 4,000 MW of solar photovoltaic capacity were installed in ERCOT, surpassing the RPS. [e2] The rule anticipates that too much generation in a zone could cause congestion that SCED alone cannot resolve; in that case the commission may consider limiting interconnection or setting dispatch priorities in the CREZ. [e11]
 
@@ -164,7 +164,7 @@ By the end of 2020, approximately 25,000 MW of wind and 4,000 MW of solar photov
 
 ## Common confusion
 
-CREZ is a transmission-planning policy, not a market product like a CRR; the saved sources do not describe CREZ as a settlement or pricing mechanism. [e1][e3] Building the lines did not remove congestion: the IMM kept reporting Panhandle and West export constraints (and in 2022 attributed some of it to outages on the CREZ facilities). [e17][e19] The rule itself contemplates congestion from excess development. [e11]
+CREZ is a transmission-planning policy, not a market product like a CRR; the saved sources do not describe CREZ as a settlement or pricing mechanism. [e1][e3] Congestion continued after the CREZ build: the IMM kept reporting Panhandle and West export constraints (and in 2022 linked the earlier Panhandle GTC cost to CREZ maintenance outages). [e17][e19] The rule itself contemplates congestion from excess development. [e11]
 
 ## Questions
 
