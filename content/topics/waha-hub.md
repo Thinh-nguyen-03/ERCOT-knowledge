@@ -59,6 +59,86 @@ evidence:
     source: eia-gas-hubs
     locator: "Introduction to pricing hubs"
     quote: "Changes in prices at natural gas hubs tend to be reflected in movements in prices at nearby power market hubs or zones."
+  - id: e9
+    source: eia-waha-2024
+    locator: "In-brief analysis, February 3, 2025, third paragraph"
+    quote: "Spot natural gas prices at the Henry Hub in Erath, Louisiana, which serves as the U.S. benchmark, averaged $2.22/MMBtu in 2024, the lowest average annual price in inflation-adjusted dollars ever reported."
+  - id: e10
+    source: eia-gas-2025
+    locator: "In-brief analysis, January 9, 2026, first paragraph"
+    quote: "In 2025, the wholesale U.S. natural gas spot price at the national benchmark Henry Hub in Louisiana averaged $3.52 per million British thermal units (MMBtu), based on data from LSEG Data."
+  - id: e11
+    source: ref-ferc-energy-primer
+    locator: "Chapter 1, Natural Gas, pipeline constraints (2024 Energy Primer)"
+    quote: "Conversely, since 2018, natural gas production has outpaced pipeline capacity in the Permian Basin, the second largest shale gas-producing region in the U.S., due to associated natural gas production rising with increasing crude oil production."
+  - id: e12
+    source: ref-ferc-energy-primer
+    locator: "Chapter 1, Natural Gas, pipeline constraints"
+    quote: "The lack of available infrastructure to transport the abundant natural gas to high-demand regions has frequently contributed to prices at the local Waha Hub falling below prices at the Henry Hub."
+  - id: e13
+    source: ref-ferc-energy-primer
+    locator: "Chapter 1, Natural Gas, pipeline constraints"
+    quote: "The additional pipeline capacity in 2021 increased the amount of natural gas flowing out of the basin into nearby consuming regions and narrowed the price difference between the Waha Hub and the Henry Hub."
+  - id: e14
+    source: ref-ferc-energy-primer
+    locator: "Chapter 1, Natural Gas, pipeline constraints"
+    quote: "Kinder Morgan Energy Partners’ Permian Highway Pipeline and WhiteWater’s Whistler Pipeline, and one interstate pipeline project, Summit Midstream Partners’ Double E Pipeline came online in 2021."
+  - id: e15
+    source: imm-som-2021
+    locator: "page 204 (OCR), Appendix, A. Locational Variations in Net Revenues in the West Zone, footnote 115"
+    quote: "Effective December 12, 2019, the Katy Hub replaced Houston Ship Channel as the reference for the Fuel Index Price (FIP) for natural gas in ERCOT’s systems. See NPRR952, Use of Katy Hub for the Fuel Index Price. ERCOT has the flexibility to select an appropriate natural gas price index for the purposes of calculating the Peaker Net Margin (PNM) threshold and the Low System-Wide Offer CAP (LCAP)."
+  - id: e16
+    source: imm-som-2021
+    locator: "page 117 (OCR), Resource Adequacy, net revenue of new resources"
+    quote: "In 2021, we saw the continuing trend of the separation in natural gas prices between the Waha and Katy locations lessen versus the last couple of years."
+  - id: e17
+    source: imm-som-2021
+    locator: "page 117 (OCR), Resource Adequacy, net revenue of new resources"
+    quote: "This analysis shows that the new resources would produce net revenue ranging from $770 to $850 per KW-year at the Waha location, compared to net revenues of $700 to $800 per KW-year at Katy, based on 2021 revenues."
+  - id: e18
+    source: imm-som-2022
+    locator: "page 109 (OCR), Resource Adequacy, net revenue of new resources"
+    quote: "In 2022, we saw that the separation in natural gas prices return between the Waha and Katy locations, after being less of a factor in 2021."
+  - id: e19
+    source: imm-som-2022
+    locator: "page 110 (OCR), Resource Adequacy, net revenue of new resources"
+    quote: "This analysis shows that the new resources would produce net revenue ranging from $150 to $200 per KW-year at the Waha location, compared to net revenues of $130 to $180 per KW-year at Katy, based on 2022 revenues."
+  - id: e20
+    source: imm-som-2023
+    locator: "page 110 (OCR), Resource Adequacy, net revenue of new resources"
+    quote: "This analysis shows that the new resources would produce net revenue roughly 10% higher at the Waha location than at Katy based on 2023 revenues."
+  - id: e21
+    source: imm-som-2023
+    locator: "page 203 (OCR), Appendix, A. Locational Variations in Net Revenues in the West Zone"
+    quote: "Waha prices in 2023 dipped below $0 multiple times and were once again more volatile than Katy."
+  - id: e22
+    source: imm-som-2021
+    locator: "page 204 (OCR), Appendix, A. Locational Variations in Net Revenues in the West Zone"
+    quote: "In 2021, the rise in natural gas prices in February, across all indices, was unprecedented during the freezing conditions of Winter Storm Uri."
+  - id: e23
+    source: np-02
+    locator: "Section 2.1, definition of Fuel Index Price (FIP)"
+    quote: "ERCOT shall issue a Market Notice disclosing the name of the ERCOT-selected source for the average daily index prices used to calculate FIP."
+  - id: e24
+    source: np-04
+    locator: "Section 4.4.9.4.1, Mitigated Offer Cap, paragraph (1) formula"
+    quote: "MOC _(q, r, h) = Max [GIHR _(q, r) * Max(FIP, WAFP _(q, r, h)), (IHR _(q, r) * FPRC _(q, r) + OM _(q, r))]"
+  - id: e25
+    source: np-04
+    locator: "Section 4.4.9.4.1, variable definitions (WAFP)"
+    quote: "Weighted Average Fuel Price—The volume-weighted average intraday, same-day and spot fuel price, the projected incremental fuel consistent with a fuel supply contract(s), or a combination of these two prices, submitted to ERCOT during the Adjustment Period for a specific Resource and specific hour within the Operating Day"
+  - id: e26
+    source: np-04
+    locator: "Section 4.4.9.4.1, variable definitions (FA)"
+    quote: "Fuel Adder—The fuel adder is the average cost above the index price Resource r has paid to obtain fuel."
+  - id: e27
+    source: np-04
+    locator: "Section 4.4.9.4.1, paragraph (1), FPRC formula"
+    quote: "FPRC _(q, r) = Max(WAFP _(q, r, h), FIP + FA _(q, r)) * RTPERFIP _(q, r) / 100 + FOP * RTPERFOP _(q, r) / 100"
+  - id: e28
+    source: np-04
+    locator: "Section 4.4.9.3.1, Energy Offer Curve Criteria, paragraph (1)(g)"
+    quote: "Percentage of FIP and percentage of FOP for generation above LSL subject to the sum of the percentages not exceeding 100%; and"
 ---
 
 ## Definition
