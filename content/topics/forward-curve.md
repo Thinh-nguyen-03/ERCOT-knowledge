@@ -62,6 +62,18 @@ evidence:
     source: ref-ferc-energy-primer
     locator: "FERC Energy Primer (2024), Chapter 5, Contract Types, Physical Futures Contract"
     quote: "A futures contract is a standardized forward contract that is traded on an exchange, such as CME’s NYMEX"
+  - id: e38
+    source: ref-montel-optimisation
+    locator: "Montel blog (vendor), 'How to optimise generation portfolios across spot and forward power markets', Overview of timeframes"
+    quote: "Day-ahead is more flexible, featuring oversight the day before the energy is delivered, which is more volatile than the forward market but less volatile than intraday, allowing trading minutes before delivery takes place."
+  - id: e36
+    source: imm-som-2025
+    locator: "Chapter II, Day-Ahead Market Performance, B. Day-Ahead Energy Market Pricing (paragraph before Figure 30)"
+    quote: "The average difference between day-ahead and real-time spot prices shows whether persistent, predictable differences exist that participants should arbitrage over time."
+  - id: e37
+    source: ref-ferc-energy-primer
+    locator: "FERC Energy Primer (2024), Chapter 5, Physical Futures Contract (sentence continued across the page break to e35)"
+    quote: "Because futures are interchangeable with one another"
   - id: e35
     source: ref-ferc-energy-primer
     locator: "FERC Energy Primer (2024), Chapter 5, Physical Futures Contract, continued on p. 123"
@@ -69,7 +81,7 @@ evidence:
   - id: e7
     source: ref-ferc-energy-primer
     locator: "FERC Energy Primer (2024), Chapter 5, Examples of Contracts, Electricity Forward Contract"
-    quote: "In the electric industry, the Edison Electric Institute (EEI) Master Power Purchase and Sale Agreement is a commonly used contract that can be employed for forward sales of power. Transacting parties may make a bilateral sale by agreeing to transaction-specific values for price, quantity, delivery location, and period of delivery, among other details pertinent to the negotiated transaction."
+    quote: "In the electric industry, the Edison Electric Institute (EEI) Master Power Purchase and Sale Agreement is a commonly used contract that can be employed for forward sales of power. Transacting parties may make a bilateral sale by agreeing to transaction-specific values for price, quantity, delivery location, and period of delivery, among other details pertinent to the negotiated transaction. The terms of the transaction are documented on a transaction-specific confirmation."
   - id: e8
     source: ref-sfu-tolling-thesis
     locator: "Simon Fraser University MBA project, Chapter 5, discussion of price processes (forward price curves)"
@@ -188,19 +200,19 @@ A forward curve is the set of prices at which a commodity can be bought or sold 
 
 Standardized forwards, futures and swaps trade for each month, years into the future, and the curve is read from their prices. [e1] A forward contract is an agreement to receive or deliver a commodity at a specified future time; it can be settled physically, or financially (a swap), in which case the parties exchange the gain or loss in cash. [e4][e5] Futures are standardized forwards traded on an exchange and are generally more liquid than forwards. [e6][e35] For bilateral power forwards, the EEI Master Power Purchase and Sale Agreement is commonly used, with price, quantity, location and delivery period set in a confirmation. [e7]
 
-The curve moves every trading day. A new curve is formed each day, and distant months roll closer to the spot market as time passes. [e8] Positions are marked to market: revalued each day at current prices, comparing the market price of undelivered volumes with the trade price. [e28][e29][e33]
+Forward prices are updated every trading day: the SFU thesis says a new forward curve is created each day that power and gas trade, with distant months moving closer to the spot market over time, and FERC says daily settlement prices are used to revalue positions to current market prices. [e8][e33] Positions are marked to market: revalued each day at current prices, comparing the market price of undelivered volumes with the trade price. [e28][e29][e33]
 
 Liquidity is concentrated at the front. FERC notes that NYMEX gas futures trade more than eight years out but only the first few years trade actively; the SFU thesis says more volume trades in near months and weeks, giving better price discovery there; the Fields slides note that 5-7 year tolls lie well outside the window in which individual months trade. [e1][e11][e12]
 
-The sources say forward prices reflect what the market expects spot prices to be. The New Zealand regulator calls them the consensus view of future prices, reflecting expected demand and generation costs; the SFU thesis says forward prices are based on predicted spot prices adjusted for risk tolerance and net expense. [e13][e3][e2] Expected seasonal conditions show up in the shape: in the Fields example, the forward curve is higher in summer and to a lesser extent winter because higher expected loads push clearing prices up the supply stack, and the New Zealand regulator lists seasonal climate expectations as a driver. [e14][e30]
+The sources say forward prices reflect what the market expects spot prices to be. The New Zealand regulator calls them the consensus view of future prices, reflecting expected demand and generation costs; the SFU thesis says forward prices are based on predicted spot prices adjusted for risk tolerance and net expense. [e13][e3][e2] Two other sources name expected conditions in the delivery period as a driver: the Fields slides attribute the seasonality of a PJM forward curve (higher in summer and, to a lesser extent, winter) to expected higher loads pushing clearing prices up the supply stack, and the New Zealand regulator lists seasonal climate expectations (El Niño or La Niña) as a factor. [e14][e30]
 
-Sources disagree on where the curve is most volatile. The SFU thesis says volatility is highest in the real-time, next-day and balance-of-week portions and falls for distant months, and the New Zealand regulator says short-dated prices are potentially more volatile than long-dated ones; a vendor blog (Montel) instead links higher volatility to the lower liquidity of the forward market. [e9][e10][e31]
+Two sources agree that the near end of the curve is the more volatile: the SFU thesis says volatility is extremely high in the real-time, next-day and balance-of-week portions and falls for distant months, and the New Zealand regulator says hydro storage makes short-dated prices potentially more volatile than long-dated ones (a hydro-specific reason). [e9][e10] A vendor blog on European markets (Montel) links volatility to the lower liquidity of the forward market, but the same blog also says day-ahead is more volatile than the forward market, so it does not establish a disagreement. [e31][e38]
 
-Power curves are quoted by delivery bucket as well as by month. Fixed-price power swaps settle on the monthly average spot price for a prescribed bucket, and the ICE ERCOT North peak future settles on the monthly average of peak hourly prices. [e15][e16] Power swaps also trade in heat-rate terms, paired with an offsetting gas volume over the same period, which gives a forward heat-rate curve. [e27][e24]
+Power curves are quoted by delivery bucket as well as by month. Fixed-price power swaps settle on the monthly average spot price for a prescribed bucket, and the ICE ERCOT North peak future settles on the monthly average of peak hourly prices. [e15][e16] Power also trades in heat-rate terms: the Fields slides say power swaps often trade as heat rates, a power trade paired with an offsetting gas volume over the same period, and ICE lists an ERCOT heat-rate contract whose final settlement is the traded heat rate times the NYMEX last-day gas settlement price. [e27][e24]
 
 ## ERCOT context
 
-ERCOT's own training calls the Day-Ahead Market a centralized forward market, conducted daily and facilitated by ERCOT, and bilateral trades a decentralized forward market of QSE-to-QSE transactions that transfer settlement responsibility. [e21][e22] Longer-dated ERCOT curves come from exchanges and bilateral markets: ICE lists the ERCOT North 345KV real-time peak future for up to 50 consecutive monthly contract periods, and an ERCOT Panhandle heat-rate contract for up to 72 monthly periods. [e17][e34]
+ERCOT's own training calls the Day-Ahead Market a centralized forward market, conducted daily and facilitated by ERCOT, and bilateral trades a decentralized forward market of QSE-to-QSE transactions that transfer settlement responsibility. [e21][e22] The IMM also refers to bilateral forward markets in ERCOT, and on exchanges ICE lists the ERCOT North 345KV real-time peak future for up to 50 consecutive monthly contract periods, and an ERCOT Panhandle heat-rate contract for up to 72 monthly periods. [e19][e17][e34]
 
 The ICE ERCOT North peak contract covers Monday through Friday, excluding NERC holidays, for hours ending 0700-2200 CPT, and settles on the monthly average of ERCOT-published real-time prices at that hub. [e18][e16]
 
@@ -212,7 +224,7 @@ The IMM says only a small share of ERCOT power is settled in real time, but real
 - ICE ERCOT North 345KV real-time peak future: up to 50 consecutive monthly contract periods. [e17]
 - ICE ERCOT Panhandle heat rate off-peak contract: up to 72 consecutive monthly contract periods; final settlement is the traded heat rate times the NYMEX last-day settlement price. [e34][e24]
 - ICE ERCOT North peak hours: hours ending 0700-2200 CPT, Monday-Friday excluding NERC holidays. [e18]
-- Futures are generally more liquid than forwards because they are interchangeable and exchange-traded. [e35]
+- Futures are generally more liquid than forwards because they are interchangeable and exchange-traded. [e37][e35]
 
 ## Example
 
@@ -220,7 +232,7 @@ Suppose (illustrative, made-up numbers) North Hub peak forwards are $45 for May,
 
 ## Say it like this
 
-(Guidance) "The forward curve is today's price for each future delivery month: the market's tradable view, not a forecast you can ignore. In ERCOT the liquid part is North Hub peak and off-peak months; past a few years you are mostly looking at marks, not trades."
+(Guidance) "The forward curve is today's price for each future delivery month: the market's tradable view, not a forecast you can ignore. Liquidity is at the front; far-dated months trade thinly, so ask whether a price is a trade or a mark."
 
 ## Common confusion
 
@@ -236,19 +248,19 @@ Suppose (illustrative, made-up numbers) North Hub peak forwards are $45 for May,
 
 ### Why is the front of the curve more reliable than the back?
 
-More volume trades in the near months, giving better price discovery, while only the first few years of even the deepest gas contract trade actively. [e11][e1] Far-dated prices are therefore often marks rather than trades. [e12]
+More volume trades in the near months, giving better price discovery, while only the first few years of even the deepest gas contract trade actively. [e11][e1] The Fields slides add that 5-7 year tolls lie well outside the window in which individual contract months trade. [e12]
 
 ### What drives the ERCOT forward curve?
 
-The IMM says real-time prices shape expectations in the day-ahead and bilateral forward markets. [e19] More generally, forward prices reflect expectations of demand and generation costs. [e13] Expected summer and winter loads push forward prices up the stack in those months. [e14]
+The IMM says real-time prices shape expectations in the day-ahead and bilateral forward markets. [e19] More generally, forward prices reflect expectations of demand and generation costs. [e13] In the Fields slides' PJM example, expected higher summer and winter loads push forward prices up the stack in those months; no saved source describes the seasonal shape of the ERCOT curve. [e14]
 
 ### What if the forward price turns out far from the realized spot price?
 
-A hedge at the forward price still delivers the price that was fixed; the position's mark changes daily until delivery. [e23][e28] The IMM treats persistent day-ahead to real-time gaps as something participants should arbitrage. [e20]
+A hedge at the forward price still delivers the price that was fixed; the position's mark changes daily until delivery. [e23][e28] The IMM says persistent, predictable day-ahead to real-time differences are something participants should arbitrage over time. [e36]
 
 ### How do you build a forward spark spread or heat rate?
 
-Use the power and gas forward prices for the same delivery period; power swaps are often traded directly in heat-rate terms, and ICE lists an ERCOT heat-rate contract. [e27][e24]
+Use the power and gas forward prices for the same delivery period; the Fields slides say power swaps often trade directly in heat-rate terms, and ICE lists an ERCOT heat-rate contract. [e27][e24]
 
 ### Why might a 7-year toll be hard to hedge off the curve?
 
@@ -267,4 +279,6 @@ Most tolls run 5-7 years, which the Fields slides say is well outside the window
 - Single-source, not cross-checked: the New Zealand regulator found its near-term forward curve an unbiased estimator of spot prices with a persistent bias further out (New Zealand ASX data only).
 - Single-source, not cross-checked: SFU defines contango and backwardation as upward and downward forward curves, driven partly by convenience yield, expectations and the risk-free rate.
 - Disagreement: the Fields slides give a 50MW standard OTC contract size for ERCOT; the ICE ERCOT North future is 1 MW. Both may be true for different products; not resolved.
+- Single-source, not cross-checked (Fields, PJM example only): a power forward curve peaks in summer and, to a lesser extent, winter because of expected loads.
+- Montel (vendor, European markets) is internally inconsistent on whether forward or day-ahead prices are more volatile; not used as a counter-position.
 - No saved source publishes an ERCOT forward curve or gives the liquid tenor of ERCOT power forwards.

@@ -6,7 +6,8 @@ kind: rule
 domain: fundamentals
 level: 2
 lenses: [analyst, portfolio, structuring, retail]
-as_of: 2026-11-18
+as_of: 2026-11-21
+depth: deep
 links:
   - to: negative-prices
     type: causes
@@ -19,13 +20,25 @@ links:
     note: The same 2027 placed-in-service cutoff applies to solar facilities, which the law lists as an applicable facility alongside wind. [e1][e14][e2]
   - to: energy-storage-resource
     type: contrasts-with
-    note: The 48E wind and solar termination does not apply to energy storage placed in service at those facilities. [e3]
+    note: The 48E wind and solar termination does not apply to energy storage placed in service at those facilities, but storage faces its own, higher foreign-content thresholds. [e3][e18]
   - to: ppa-vppa
     type: related
     note: A REC can trade separately from energy, so renewable attributes can be bought apart from the power. [e7]
   - to: ercot
     type: operates
     note: ERCOT administers the REC Trading Program, and PURA 39.9113 has the ERCOT-region independent organization keep an accreditation and banking system. [e6][e8]
+  - to: puct
+    type: regulates
+    note: PUCT rule 25.173 sets the REC program terms and appointed ERCOT as program administrator, reaffirmed on November 30, 2023. [e28][e36]
+  - to: texas-legislature
+    type: regulates
+    note: HB 1500 (2023) repealed the PURA 39.904 renewable goal and required a solar-only program that ended September 1, 2025. [e9][e25][e26]
+  - to: resource-mix
+    type: affects
+    note: As of October 31, 2026 ERCOT was tracking 151,798 MW of solar, 49,781 MW of wind and 160,102 MW of battery interconnection requests. [e48]
+  - to: merit-order
+    type: affects
+    note: The IMM reports that the share of capacity offered at or below zero, mostly tax-credit-supported wind and solar, rose from roughly a quarter in 2022 to 35% in 2025. [e45][e10]
 evidence:
   - id: e1
     source: fed-pl-119-21
@@ -83,6 +96,146 @@ evidence:
     source: fed-pl-119-21
     locator: "Public Law 119-21, Sec. 70512(a), amending 26 USC 45Y(d), applicable facility, clause (ii)"
     quote: "``(ii) uses solar energy to produce electricity (within the meaning of such term as used in section 45(d)(4), as determined without regard to any requirement under such section with respect to the date on which construction of property begins)."
+  - id: e15
+    source: fed-pl-119-21
+    locator: "Public Law 119-21, Sec. 70512(l)(1)-(2), Effective Dates"
+    quote: "(2) Material assistance from prohibited foreign entities.-- The amendments made by subsection (b)(1) shall apply to facilities for which construction begins after December 31, 2025."
+  - id: e16
+    source: fed-pl-119-21
+    locator: "Public Law 119-21, Sec. 70512(c), new 26 USC 7701(a)(52)(A)"
+    quote: "In general.--The term `material assistance from a prohibited foreign entity' means-- ``(i) with respect to any qualified facility or energy storage technology, a material assistance cost ratio which is less than the threshold percentage applicable under subparagraph (B), or"
+  - id: e17
+    source: fed-pl-119-21
+    locator: "Public Law 119-21, Sec. 70512(c), new 26 USC 7701(a)(52)(B)(i), threshold percentage for qualified facilities"
+    quote: "``(i) in the case of a qualified facility the construction of which begins-- ``(I) during calendar year 2026, 40 percent, ``(II) during calendar year 2027, 45 percent, ``(III) during calendar year 2028, 50 percent, ``(IV) during calendar year 2029, 55 percent, and ``(V) after December 31, 2029, 60 percent, and"
+  - id: e18
+    source: fed-pl-119-21
+    locator: "Public Law 119-21, Sec. 70512(c), new 26 USC 7701(a)(52)(B)(ii), threshold percentage for energy storage technology"
+    quote: "``(ii) in the case of energy storage technology the construction of which begins-- ``(I) during calendar year 2026, 55 percent, ``(II) during calendar year 2027, 60 percent, ``(III) during calendar year 2028, 65 percent, ``(IV) during calendar year 2029, 70 percent, and ``(V) after December 31, 2029, 75 percent."
+  - id: e19
+    source: fed-pl-119-21
+    locator: "Public Law 119-21, Sec. 70512(c), new 26 USC 7701(a)(52)(D)(i), material assistance cost ratio, numerator first term"
+    quote: "the term `material assistance cost ratio' means the amount (expressed as a percentage) equal to the quotient of-- ``(I) an amount equal to-- ``(aa) the total direct costs to the taxpayer attributable to all manufactured products (including components) which are incorporated into the qualified facility or energy storage technology upon completion of construction, minus"
+  - id: e20
+    source: fed-pl-119-21
+    locator: "Public Law 119-21, Sec. 70512(c), new 26 USC 7701(a)(52)(D)(i)(I)(bb) and (II)"
+    quote: "``(bb) the total direct costs to the taxpayer attributable to all manufactured products (including components) which are-- ``(AA) incorporated into the qualified facility or energy storage technology upon completion of construction, and ``(BB) mined, produced, or manufactured by a prohibited foreign entity, divided by ``(II) the amount described in subclause (I)(aa)."
+  - id: e21
+    source: fed-pl-119-21
+    locator: "Public Law 119-21, Sec. 70512(b)(2), new 26 USC 45Y(g)(13)(A)"
+    quote: "``(A) In general.--No credit shall be determined under subsection (a) for any taxable year if the taxpayer is-- ``(i) a specified foreign entity (as defined in section 7701(a)(51)(B)), or ``(ii) a foreign-influenced entity (as defined in section 7701(a)(51)(D), without regard to clause (i)(II) thereof)."
+  - id: e22
+    source: fed-pl-119-21
+    locator: "Public Law 119-21, Sec. 70512(d), new 26 USC 45Y(h)"
+    quote: "``(h) Denial of Credit for Wind and Solar Leasing Arrangements.--No credit shall be determined under this section with respect to any production of electricity during the taxable year with respect to property described in paragraph (1) or (4) of section 25D(d) (as applied by substituting `lessee' for `taxpayer') if the taxpayer rents or leases such property to a third party during such taxable year.''."
+  - id: e23
+    source: fed-pl-119-21
+    locator: "Public Law 119-21, Sec. 70512(h), new 26 USC 6418(g)(5)"
+    quote: "With respect to any eligible credit described in clause (iii), (iv), (vi), (vii), (viii), or (xi) of subsection (f)(1)(A), an eligible taxpayer may not elect to transfer any portion of such credit to a taxpayer that is a specified foreign entity (as defined in section 7701(a)(51)(B))."
+  - id: e24
+    source: fed-pl-119-21
+    locator: "Public Law 119-21, Sec. 70513(b), new 26 USC 48E(b)(6)"
+    quote: "The terms `qualified facility' and `qualified interconnection property' shall not include any facility or property the construction, reconstruction, or erection of which begins after December 31, 2025, if the construction, reconstruction, or erection of such facility or property includes any material assistance from a prohibited foreign entity (as defined in section 7701(a)(52))."
+  - id: e25
+    source: hb1500-88r
+    locator: "HB 1500 (2023), SECTION 53(a)-(b) (clean copy, .alt.txt)"
+    quote: "the statutes described in that subsection must be applied as if Section 39.904 were applicable only to renewable energy technologies that exclusively rely on an energy source that is naturally regenerated over a short time and derived directly from the sun."
+  - id: e26
+    source: hb1500-88r
+    locator: "HB 1500 (2023), SECTION 53(c) and SECTION 56 (clean copy, .alt.txt)"
+    quote: "(c) This section expires September 1, 2025, and the Public Utility Commission of Texas shall phase out the program required by Subsection (a) of this section so that it terminates on that date."
+  - id: e27
+    source: pura-39
+    locator: "PURA Sec. 39.9113, history note"
+    quote: "Added by Acts 2023, 88th Leg., R.S., Ch. 410 (H.B. 1500), Sec. 37, eff. September 1, 2023."
+  - id: e28
+    source: puct-25-173
+    locator: "16 TAC 25.173(a), Purpose (version effective 1/01/24)"
+    quote: "Establish a solar renewable portfolio standard pursuant to Section 53 of House Bill 1500, enacted by the 88th Texas Legislature, Regular Session, to be phased out by September 1, 2025; and (2) Direct the independent organization certified under PURA §39.151 for the ERCOT region to continue to administer a renewable energy credit (REC) trading program on a voluntary basis."
+  - id: e29
+    source: puct-25-173
+    locator: "16 TAC 25.173(e)(3)(A), Compliance premiums"
+    quote: "For eligible solar technologies as set forth in paragraph (2)(A)(ii) of this subsection, one compliance premium will be created and awarded in conjunction with each solar REC generated January 1, 2008 through December 31, 2024. Compliance premiums will not be created or awarded after December 31, 2024."
+  - id: e30
+    source: puct-25-173
+    locator: "16 TAC 25.173(e)(3)(D), Compliance premiums"
+    quote: "A compliance premium may not be used by any retail entity toward the RPS requirement after the settlement period for 2024 compliance period."
+  - id: e31
+    source: puct-25-173
+    locator: "16 TAC 25.173(e)(4)(H), Production, transfer, and expiration of RECs and solar RECs"
+    quote: "Each REC or solar REC that is not used in the compliance period in which it was created may be banked and is valid for the next two compliance periods. For purposes of this subparagraph, calendar year 2023 counts as a single compliance period."
+  - id: e32
+    source: puct-25-173
+    locator: "16 TAC 25.173(f)(1), Solar renewable portfolio standard (solar RPS)"
+    quote: "Solar RECs generated by renewable energy resources in the calendar year 2025 may be used by any retail entity toward the solar RPS requirement for the compliance period beginning January 1, 2025, or on a voluntary basis in the subsequent years."
+  - id: e33
+    source: puct-25-173
+    locator: "16 TAC 25.173(f)(1)(A), solar RPS allocation"
+    quote: "Each retail entity is responsible for retiring sufficient solar RECs as set forth in paragraph (2) of this subsection and subsection (e)(4) of this section for the 2024 and 2025 compliance periods."
+  - id: e34
+    source: puct-25-173
+    locator: "16 TAC 25.173(f)(2), Allocation of solar RPS requirement to retail entities"
+    quote: "The solar RPS terminates September 1, 2025, but is subject to the settlement period following that termination date."
+  - id: e35
+    source: puct-25-173
+    locator: "16 TAC 25.173(c)(1), Definitions, Compliance period"
+    quote: "Compliance period -- A calendar year beginning January 1 and ending December 31 in which renewable energy credits are generated."
+  - id: e36
+    source: np-14
+    locator: "Section 14.1, Overview, paragraph (1)"
+    quote: "On May 9, 2000, the Public Utility Commission of Texas (PUCT) appointed ERCOT as Program Administrator of the Renewable Energy Credits (REC) Trading Program described in subsection (h) of P.U.C. SUBST. R. 25.173, Renewable Energy Credit Program. On November 30, 2023, the PUCT reaffirmed ERCOT as Program Administrator of the REC Trading Program described in subsection (a)(2) of P.U.C. SUBST. R. 25.173."
+  - id: e37
+    source: np-14
+    locator: "Section 14.6, Awarding of Renewable Energy Credits, paragraph (1)"
+    quote: "The number of RECs issued to a specific REC generator will be equal to the number of MWh generated by the certified generator during the quarter. Quarterly production shall be rounded to the nearest whole MWh, with fractions of 0.5 MWh or greater rounded up."
+  - id: e38
+    source: np-14
+    locator: "Section 14.6.1(1), Adjustments to Renewable Energy Credit Award Calculations"
+    quote: "Adjustments (reductions) to REC awards are made for renewable facilities that use more than 2% fossil fuel, and for REC aggregators that use estimation techniques to report generation."
+  - id: e39
+    source: np-14
+    locator: "Section 14.6.1(1)(a)(i), Co-Fired Generator Adjustments"
+    quote: "For REC generators using a renewable energy technology that requires the use of fossil fuel that is greater than 2%, and less than or equal to 25%, of the total annual fuel input on a British Thermal Unit (BTU) or equivalent basis, RECs can only be earned on the renewable portion of the production."
+  - id: e40
+    source: np-14
+    locator: "Section 14.6.1(1)(b), REC Aggregator Adjustments"
+    quote: "REC aggregators using approved estimation techniques to report renewable energy production shall be awarded one REC for every 1.25 MWh generated."
+  - id: e41
+    source: np-14
+    locator: "Section 14.14(1)-(2), Third-Party Energy Attribute Certificate (EAC) Program"
+    quote: "(1) Separate from the voluntary Renewable Energy Credit (REC) program, ERCOT will provide data to support a voluntary Energy Attribute Certificate (EAC) program. (2) A single, qualified third-party administrator will operate and maintain this voluntary EAC program."
+  - id: e42
+    source: np-14
+    locator: "Section 14.14(2)(b)-(d), EAC program functions"
+    quote: "(b) Maintaining a secure registry and trading platform that allows tracking attributes including facility name, hour, location, production per Watt-hour (Wh) and fuel type; (c) Providing a methodology to account for storage charging and losses; (d) Providing a methodology to ensure RECs created by ERCOT are not duplicative with EACs created by the third-party administrator;"
+  - id: e43
+    source: np-14
+    locator: "Section 14.2(1)(r), Duties of ERCOT"
+    quote: "(r) Provide 15-minute generation data to the third-party administrator for facilities that are registered in the EAC program; and"
+  - id: e44
+    source: np-14
+    locator: "Section 14.14(3)"
+    quote: "ERCOT will provide a list of qualified third-party administrators to manage the EAC program to the ERCOT Technical Advisory Committee (TAC). The preferred third-party administrator will be recommended by TAC and approved by the ERCOT Board."
+  - id: e45
+    source: imm-som-2022
+    locator: "Chapter on real-time market outcomes, aggregate offer stack discussion (2022 report)"
+    quote: "Roughly one quarter of the capacity in 2022 was offered below zero from wind, solar, and other resources. These resources have the incentive to produce when prices are negative because many of them receive production tax credits."
+  - id: e46
+    source: imm-som-2023
+    locator: "Chapter on real-time market outcomes, aggregate offer stack bullets (2023 report)"
+    quote: "30% of the capacity in 2023 was offered below zero from wind, solar, and other resources. These resources have the incentive to produce when prices are negative because most of them receive production tax credits."
+  - id: e47
+    source: imm-som-2024
+    locator: "Chapter on real-time market outcomes, aggregate offer stack bullets (2024 report)"
+    quote: "32% of real-time generation capacity was offered at less than or equal to $0, primarily from wind and solar resources. These resources have the incentive to produce even when prices are negative because many of them receive federal production tax credits."
+  - id: e48
+    source: ercot-monthly-ops-2026-10
+    locator: "Slide 6, Planning Summary (October 2026 overview)"
+    quote: "ERCOT is tracking 1,847 active generation interconnection requests totaling 461,414 MW as of October 31, 2026. This includes 151,798 MW of solar, 49,781 MW of wind, 160,102 MW of battery, and 95,032 MW of gas projects;"
+  - id: e49
+    source: np-14
+    locator: "Section 14.3.2, paragraph (6), context: Section 14.1(3)"
+    quote: "Entities participating in the REC Trading Program must register with and execute the appropriate agreements with ERCOT."
 ---
 
 ## Definition
@@ -91,51 +244,109 @@ This topic covers two separate things. The federal clean electricity credits are
 
 ## How it works
 
-Federal credits: for wind and solar "applicable facilities", 45Y does not apply to a facility placed in service after December 31, 2027, and 48E does not apply to qualified property placed in service after that date. [e1][e14][e2] These terminations apply only to facilities whose construction begins more than 12 months after the law's enactment. [e4][e12] The 48E termination does not apply to energy storage technology placed in service at a wind or solar facility. [e3] Separately, facilities whose construction begins after December 31, 2025 lose 45Y eligibility if construction includes material assistance from a prohibited foreign entity. [e5]
+Federal credits: for wind and solar "applicable facilities", 45Y does not apply to a facility placed in service after December 31, 2027, and 48E does not apply to qualified property placed in service after that date. [e1][e14][e2] These terminations apply only to facilities whose construction begins more than 12 months after the law's enactment. [e4][e12] The 48E termination does not apply to energy storage technology placed in service at a wind or solar facility. [e3]
 
-RECs: PURA 39.9113 has the independent organization certified for the ERCOT region keep an accreditation and banking system that awards and tracks voluntary RECs. [e6] ERCOT distributes RECs to REC generators quarterly, they may trade separately from energy, and each has a useful life of three compliance periods. [e7][e11]
+Foreign-entity rules sit on top of the cutoff. A facility whose construction begins after December 31, 2025 is not a 45Y "qualified facility" if its construction includes material assistance from a prohibited foreign entity, and 48E has the same test for qualified facilities and interconnection property. [e5][e15][e24] No 45Y credit is determined for a taxable year in which the taxpayer itself is a specified foreign entity or a foreign-influenced entity. [e21] A credit may also not be transferred to a specified foreign entity. [e23] Separately, 45Y is denied for production from wind or solar property described in section 25D(d) that the taxpayer rents or leases to a third party in that year. [e22]
+
+RECs: PURA 39.9113 has the independent organization certified for the ERCOT region keep an accreditation and banking system that awards and tracks voluntary RECs. [e6] Participants register with and sign agreements with ERCOT. [e49] ERCOT awards RECs quarterly, one per MWh generated by the certified generator in the quarter, rounded to the nearest whole MWh. [e7][e37] RECs can be banked for two compliance periods after the one in which they were created, giving a useful life of three compliance periods; a compliance period is a calendar year. [e11][e31][e35]
+
+Award adjustments: ERCOT reduces awards for facilities using more than 2% fossil fuel and for aggregators that estimate generation. [e38] A co-fired unit using more than 2% and up to 25% fossil fuel input earns RECs only on the renewable portion, and an aggregator using approved estimation gets one REC per 1.25 MWh generated. [e39][e40]
+
+## Formula
+
+Material assistance cost ratio (MACR), new 26 USC 7701(a)(52)(D)(i): MACR = (A - B) / A, as a percentage. [e19][e20]
+- A: the taxpayer's total direct costs for all manufactured products (including components) incorporated into the facility or storage technology on completion of construction. [e19]
+- B: the part of those direct costs for products that are both incorporated and mined, produced or manufactured by a prohibited foreign entity. [e20]
+
+A facility or storage technology has "material assistance from a prohibited foreign entity" when its MACR is less than the threshold percentage for the year construction begins. [e16] Thresholds for a qualified facility: 40% (construction begins in 2026), 45% (2027), 50% (2028), 55% (2029), 60% (after December 31, 2029). [e17] For energy storage technology: 55%, 60%, 65%, 70% and 75% for the same years. [e18]
 
 ## ERCOT context
 
-The credits affect ERCOT prices through offer behavior. The IMM says 35% of real-time generation capacity was offered at or below $0 in 2025 (32% in 2024), mostly from wind and solar resources that keep producing at negative prices because many receive federal production tax credits. [e10]
+The credits affect ERCOT prices through offer behavior. The IMM says 35% of real-time generation capacity was offered at or below $0 in 2025 (32% in 2024), mostly from wind and solar resources that keep producing at negative prices because many receive federal production tax credits. [e10][e47] Its earlier reports describe roughly one quarter of capacity offered below zero in 2022 and 30% in 2023, from wind, solar and other resources, again tying the behavior to production tax credits. [e45][e46] Note the basis changes: 2022-2023 counted capacity offered below zero, 2024-2025 counted capacity at or below $0. [e45][e47]
 
-The Texas REC market is now voluntary. HB 1500 repealed PURA 39.904, which held the state's goal for renewable generating capacity. [e9][e13] The REC Trading Program, effective July 1, 2001, became a voluntary market on September 1, 2025, and PURA 39.9113 has the ERCOT-region independent organization track voluntary RECs. [e8][e6]
+The Texas REC market is now voluntary. HB 1500 (effective September 1, 2023) repealed PURA 39.904, which held the state's goal for renewable generating capacity, and added 39.9113. [e9][e13][e27] HB 1500 Section 53 required the PUCT to keep applying 39.904 only for solar, then phase that program out so it ended September 1, 2025. [e25][e26] PUCT rule 25.173 accordingly set a solar RPS to be phased out by September 1, 2025, with retail entities retiring solar RECs for the 2024 and 2025 compliance periods, and directed ERCOT to continue a voluntary REC program. [e28][e33][e34] Compliance premiums were created only for solar RECs generated through December 31, 2024 and could not be used after the settlement period for the 2024 compliance period. [e29][e30]
+
+Hourly certificates: separate from the REC program, the Protocols have ERCOT provide data to a voluntary Energy Attribute Certificate (EAC) program run by one third-party administrator, with tracking by hour and location, a storage charging-and-losses methodology, and a check that RECs and EACs are not duplicative. [e41][e42] ERCOT provides 15-minute generation data for registered facilities, and TAC recommends and the ERCOT Board approves the administrator. [e43][e44]
+
+Build-out: as of October 31, 2026, ERCOT was tracking 461,414 MW of active generation interconnection requests, including 151,798 MW of solar, 49,781 MW of wind and 160,102 MW of battery. [e48] The saved sources do not say how many of these projects depend on the 2027 cutoff or the construction-start window.
 
 ## Key facts
 
 - 45Y and 48E: no credit for wind or solar placed in service after December 31, 2027 (Public Law 119-21), subject to the construction-start rule in the next bullet. [e1][e14][e2]
-- The termination covers facilities that begin construction more than 12 months after enactment (enacted July 4, 2025). [e4][e12]
+- The termination covers facilities that begin construction more than 12 months after enactment (enacted July 4, 2025); both 70512 and 70513 use the same effective-date wording. [e4][e12]
 - Storage placed at a wind or solar facility is excepted from the 48E termination. [e3]
-- Texas REC program became voluntary on September 1, 2025. [e8]
-- 2025: 35% of real-time capacity offered at or below $0, mainly tax-credit-supported wind and solar. [e10]
+- Foreign-entity material assistance test: applies to construction beginning after December 31, 2025; MACR thresholds start at 40% (facilities) and 55% (storage) for 2026 starts. [e15][e17][e18]
+- Texas solar RPS ended September 1, 2025; the REC program became voluntary the same day. [e34][e8]
+- Last compliance premiums: solar RECs generated through December 31, 2024. [e29]
+- REC award: one per MWh per quarter; aggregators using estimation get one per 1.25 MWh. [e37][e40]
+- Offers at or below $0: roughly a quarter (2022, below zero), 30% (2023, below zero), 32% (2024), 35% (2025), per the IMM. [e45][e46][e47][e10]
+
+## Timeline
+
+- May 9, 2000: PUCT appoints ERCOT as REC program administrator. [e36]
+- July 1, 2001: REC Trading Program becomes effective. [e8]
+- September 1, 2023: HB 1500 takes effect; PURA 39.904 repealed and 39.9113 added. [e9][e27]
+- November 30, 2023: PUCT reaffirms ERCOT as program administrator. [e36]
+- December 31, 2024: last date of solar REC generation that earns a compliance premium. [e29]
+- July 4, 2025: Public Law 119-21 enacted. [e12]
+- September 1, 2025: solar RPS terminates (subject to its settlement period); REC program becomes voluntary. [e34][e8]
+- After December 31, 2025: construction starts become subject to the foreign-entity material assistance test. [e15][e24]
+- 12 months after July 4, 2025: construction beginning after that date brings a wind or solar facility under the 2027 placed-in-service cutoff. [e4][e12]
+- December 31, 2027: placed-in-service cutoff for wind and solar under 45Y and 48E. [e1][e2]
+- 2026-2030: MACR thresholds rise each construction-start year, to 60% (facilities) and 75% (storage) after 2029. [e17][e18]
 
 ## Say it like this
 
 (Guidance) The 2025 federal law ends the 45Y and 48E clean electricity credits for wind and solar placed in service after 2027, but projects that started construction within a year of July 2025 are outside that cutoff, and storage at those sites is excepted from the 48E cutoff. In Texas the REC market is now voluntary and run by ERCOT, so RECs back voluntary renewable claims rather than a state mandate. [e1][e4][e3][e8]
 
+(Guidance) For a developer the two tests to check are timing (construction start and placed-in-service date) and supply chain (the foreign-content cost ratio against that year's threshold). [e4][e16][e17]
+
 ## Common confusion
 
-(Guidance) A tax credit and a REC are different: the credit is a federal tax benefit tied to production or investment, while a REC is a Texas certificate for one MWh of renewable attributes that trades apart from the energy. [e1][e7] The 2027 date is a placed-in-service cutoff, but it only bites for projects that begin construction after the 12-month window. [e4] The storage exception is in 48E (the investment credit) as amended. [e3]
+(Guidance) A tax credit and a REC are different: the credit is a federal tax benefit tied to production or investment, while a REC is a Texas certificate for one MWh of renewable attributes that trades apart from the energy. [e1][e7] The 2027 date is a placed-in-service cutoff, but it only bites for projects that begin construction after the 12-month window. [e4] The storage exception is in 48E (the investment credit) as amended; it does not exempt storage from the foreign-entity test, which has higher thresholds for storage. [e3][e18]
+
+(Guidance) A REC and an EAC are different instruments: the REC is ERCOT's quarterly per-MWh certificate; the EAC program is a separate voluntary program run by a third-party administrator with hourly tracking. [e37][e41][e42] The MACR is a share of non-foreign-entity content, so a higher ratio is better; failing means falling below the threshold. [e16][e19][e20]
 
 ## Questions
 
 ### What did Public Law 119-21 change for wind and solar?
 
-It ended 45Y and 48E for wind and solar facilities placed in service after December 31, 2027, for facilities whose construction begins more than 12 months after enactment. [e1][e14][e2][e4] It also added a prohibited-foreign-entity material assistance test for facilities beginning construction after 2025. [e5]
+It ended 45Y and 48E for wind and solar facilities placed in service after December 31, 2027, for facilities whose construction begins more than 12 months after enactment. [e1][e14][e2][e4] It also added a prohibited-foreign-entity material assistance test for facilities beginning construction after 2025, a bar on credits for specified foreign entity taxpayers, and a bar on transferring credits to them. [e5][e15][e21][e23]
 
 ### Why do tax credits show up in ERCOT negative prices?
 
-Production-based credits make wind and solar willing to run when prices are below zero. The IMM ties most of the 35% of real-time capacity offered at or below $0 in 2025 to such resources. [e10]
+Production-based credits make wind and solar willing to run when prices are below zero. The IMM ties most of the 35% of real-time capacity offered at or below $0 in 2025 to such resources, and the share has risen since 2022. [e10][e45][e46][e47]
 
 ### Is there still a Texas renewable mandate behind RECs?
 
-The saved sources show the renewable capacity goal in PURA 39.904 was repealed by HB 1500, and the REC program became voluntary on September 1, 2025. [e9][e13][e8]
+No: the renewable capacity goal in PURA 39.904 was repealed by HB 1500, a solar-only RPS ran through the 2024 and 2025 compliance periods and terminated September 1, 2025, and the REC program became voluntary on that date. [e9][e13][e33][e34][e8]
+
+### What if a solar project begins construction in 2026 with Chinese-made modules?
+
+It must meet the 2026 MACR threshold of 40%: the share of its manufactured-product direct costs not from a prohibited foreign entity must be at least 40%, or it is not a qualified facility. [e17][e16][e19][e20][e5] If construction also begins more than 12 months after July 4, 2025, it must be placed in service by December 31, 2027 to claim 45Y or 48E. [e4][e1][e2]
+
+### Why might a battery developer care about the storage thresholds even though storage is exempt from the 2027 cutoff?
+
+The 48E exception covers only the wind and solar termination; storage construction beginning after 2025 is still subject to the material assistance test, with thresholds 15 points above those for facilities (55% in 2026 rising to 75% after 2029). [e3][e18][e17]
+
+### How does a REC get created and retired in ERCOT?
+
+ERCOT credits RECs after each quarter based on verified MWh, one per MWh. [e37] Transfers between parties are effective on confirmation by the receiving entity, and ERCOT retires RECs at an owner's request or on expiration after three compliance periods. [e11][e31]
+
+## Scenarios
+
+### A data center buyer wants hourly-matched clean energy claims in ERCOT. Is a REC enough?
+
+- A REC is issued quarterly per MWh and does not carry an hour. [e37]
+- The Protocols provide for a separate voluntary EAC program with hourly tracking and a storage methodology, run by a third-party administrator with ERCOT supplying 15-minute data. [e41][e42][e43]
+- The program includes a methodology to keep RECs and EACs from being double counted. [e42]
 
 ## Open items
 
-- The pre-2025 production tax credit (section 45) and investment credit (section 48), their dollar values and the credit amounts under 45Y/48E were not quoted; no saved source states a $/MWh credit value.
-- The 12-month construction-start window, the IRS beginning-of-construction rules, and any later Treasury guidance were not traced in detail. Deeper pass: Public Law 119-21 Sec. 70512-70513 effective-date and FEOC provisions.
-- No saved source quantifies how much ERCOT wind, solar or storage capacity is affected by the 2027 cutoff.
-- PUCT rule 16 TAC 25.173 (REC program) is not among the saved sources; only np-14 and PURA 39.9113 were used.
-- Deeper pass: np-14 Third-Party Energy Attribute Certificate program (Section 14.14), compliance premiums and REC aggregator adjustments.
-- No REC price data is in the saved sources.
+- The pre-2025 production tax credit (section 45) and investment credit (section 48), their dollar values and the credit amounts under 45Y/48E were not quoted; no saved source states a $/MWh credit value (ref-lbnl-hybrids-2026 mentions a net value of $35/MWh for investment tax credits in its own modelling, not checked for this topic).
+- The IRS beginning-of-construction rules and any Treasury guidance after July 2025 are not in the saved sources.
+- Public Law 119-21 amends 45Y(d)(3) so that "applicable year" means calendar year 2032; the base 45Y phase-out text it modifies is not saved, so its effect on non-wind, non-solar technologies is not explained here.
+- 70513(g)(2)-(3) give June 16, 2025 effective dates for 48E domestic content and the elimination of the energy credit for certain property; the underlying subsections were not traced.
+- No saved source quantifies how much ERCOT wind, solar or storage capacity is affected by the 2027 cutoff or the foreign-entity test; ERCOT's CDR (December 2025) does not discuss tax credits.
+- No REC or EAC price data is in the saved sources, and no saved source names the EAC third-party administrator or its approval date.
+- The text quoted from 25.173 is the version marked effective 1/01/24; any later amendment after the solar RPS ended is not saved.

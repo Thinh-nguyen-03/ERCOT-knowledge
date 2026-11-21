@@ -51,14 +51,6 @@ evidence:
     source: ref-montel-optimisation
     locator: "Montel (data vendor) blog, 'How to optimise generation portfolios across spot and forward power markets' (November 18, 2025), introduction"
     quote: "Power producers and portfolio managers can capture value across different time horizons, including spot, intraday, and forward, by balancing physical generation, market positions, and risk appetite."
-  - id: e5
-    source: ref-gevernova-optimization
-    locator: "GE Vernova (software vendor) blog, 'Asset and Fleet Optimization: Key to Success for Power Generators', The First Step"
-    quote: "Commitment optimization must manage the risk associated with both increasing capacity and market uncertainty to position the asset, site, and fleet most economically and reliably."
-  - id: e6
-    source: ref-gevernova-optimization
-    locator: "GE Vernova (software vendor) blog, The First Step (dispatch optimization)"
-    quote: "Once we move from commitment optimization to real-time dispatch optimization, we must be able to adjust fleet-to-asset operations quickly based on available capacity and market dynamics."
   - id: e7
     source: ref-lbnl-hybrids-2026
     locator: "LBNL Year 1 Briefing (2026), empirical versus optimized dispatch (sample of 49 projects, 2024)"
@@ -123,10 +115,22 @@ evidence:
     source: imm-som-2025
     locator: "Appendix: Real-Time Co-Optimization"
     quote: "With the implementation of RTC, the real-time market dispatch now co-optimizes energy and ancillary services."
-  - id: e23
-    source: ref-gevernova-optimization
-    locator: "GE Vernova (software vendor) blog, The First Step (closing paragraph)"
-    quote: "As solar and wind generators transition from being price-takers in real-time markets to committing in day-ahead markets – where opportunity is greater, but risk is higher – commitment optimization is even more paramount."
+  - id: e26
+    source: ref-lbnl-hybrids-2026
+    locator: "LBNL Year 1 Briefing (2026), empirical versus optimized dispatch (text before e7)"
+    quote: "On a national average basis in 2024, projects in this subsample increased wholesale market value from $25/MWh for standalone PV to $39/MWh for combined PV+S output."
+  - id: e27
+    source: ref-lbnl-hybrids-2026
+    locator: "LBNL Year 1 Briefing (2026), empirical versus optimized dispatch, sample note"
+    quote: "Sample: 49 projects totaling 4.2 GW PV , 1.6 GW Bat/5.3GWh"
+  - id: e28
+    source: ref-lbnl-hybrids-2026
+    locator: "LBNL Year 1 Briefing (2026), barriers to increasing PV+S market value, first bullet"
+    quote: "Under-participation in wholesale markets, including still-lucrative ancillary services in less mature markets."
+  - id: e29
+    source: ref-lbnl-pv-battery
+    locator: "LBNL, Influence of business models on PV-battery dispatch decisions (briefing), Conclusion, study scope"
+    quote: "Our study is only a snapshot of 11 PV-battery hybrids in 2020"
   - id: e24
     source: ref-nrf-energy-hedges
     locator: "Norton Rose Fulbright (Chadbourne), 'Energy Hedges: What To Look For' (2015), Heat Rate Call Options"
@@ -139,19 +143,19 @@ evidence:
 
 ## Definition
 
-Asset optimization is deciding when and how a generating or storage asset is committed, dispatched and offered into the markets it can sell into, so as to maximize its market value net of costs and within its physical limits. [e1][e2][e3][e5][e6]
+No saved source defines "asset optimization"; the saved official sources describe the task rather than define the term. LBNL models an asset owner who is a price-taker seeking to maximize market value, optimizing battery operation and solar curtailment to maximize energy and ancillary service revenue less costs at an hourly resolution. [e1][e2] The IMM says ERCOT storage owners must optimize their charging and discharging cycles to maximize revenues, offering strategically to manage state of charge because the market software optimizes only one five-minute interval at a time. [e3]
 
 ## How it works
 
-The national-lab version is a model: LBNL optimizes a solar-plus-storage plant from the view of a price-taking owner seeking to maximize market value, choosing battery operation and solar curtailment to maximize energy and ancillary service revenue less costs, hour by hour, while accounting for battery degradation. [e1][e2] Vendors describe the same job in two stages: commitment optimization, which positions the asset economically ahead of time, and real-time dispatch optimization, which adjusts operations to available capacity and market conditions. [e5][e6][e23]
+The national-lab version is a model: LBNL optimizes a solar-plus-storage plant from the view of a price-taking owner seeking to maximize market value, choosing battery operation and solar curtailment to maximize energy and ancillary service revenue less costs, hour by hour, while accounting for battery degradation. [e1][e2]
 
-The value is captured across time horizons. A data vendor (Montel) says producers capture value across spot, intraday and forward horizons by balancing physical generation, market positions and risk appetite; LBNL's model optimizes across energy and ancillary service products. [e4][e2] An owned asset can also back trading positions: Montel says a plant owner can top up a forward position from its own output, and the Oil & Gas Journal says a toll serves the tolling party as a physical asset hedge for trading positions. [e18][e19]
+Value is sought in more than one market. A data vendor blog focused on European markets (Montel) says producers capture value across spot, intraday and forward horizons by balancing physical generation, market positions and risk appetite; LBNL's model optimizes across energy and ancillary service products. [e4][e2] An owned asset can also back trading positions: Montel says a plant owner can top up a forward position from its own output, and the Oil & Gas Journal says a toll serves the tolling party as a physical asset hedge for trading positions. [e18][e19]
 
 Flexibility is what an optimizer has to work with. Montel says shorter start-up times let an asset respond to imbalances and price spikes, and the IMM says batteries, unlike thermal units, are always online and can change charging and discharging almost instantly. [e20][e21]
 
 The dispatch decision stays with the owner even when the asset is hedged. In a heat rate call option hedge, the hedge provider decides only for hedge calculation purposes, while the owner decides whether to actually run the plant, and the payout is notional rather than tied to the plant's actual operations. [e24][e25]
 
-Real operation falls short of the optimum. In LBNL's 2024 sample of 49 hybrid projects, empirical value reached only 62% of the $63/MWh optimized value. [e7] LBNL names fixed delivery obligations under tolls and PPAs, rule-based charging and discharging, and imperfect price forecasting among the barriers, and a second LBNL study found that only a minority of PV-battery projects dispatch for wholesale revenue as merchant plants. [e8][e10]
+Real operation falls short of the optimum. In LBNL's 2024 sample of 49 hybrid projects (national), empirical value reached only 62% of the $63/MWh optimized value. [e26][e7][e27] LBNL names fixed delivery obligations under tolls and PPAs, rule-based charging and discharging, and imperfect price forecasting among the barriers, and a second LBNL study, a snapshot of 11 PV-battery hybrids in 2020, found that only a minority optimized battery dispatch for wholesale revenue as merchant plants. [e8][e10][e29]
 
 ## ERCOT context
 
@@ -163,7 +167,7 @@ The IMM reports how ERCOT storage optimization has shifted: ESRs moved from anci
 
 ## Key facts
 
-- LBNL 2024 sample (49 projects, national): empirical PV-plus-storage value was 62% of the $63/MWh optimized value. [e7]
+- LBNL 2024 sample (49 projects, national): empirical PV-plus-storage value was 62% of the $63/MWh optimized value. [e26][e7][e27]
 - ERCOT real-time dispatch co-optimizes energy and ancillary services since December 5, 2025 (RTC). [e11][e22]
 - SCED optimizes one five-minute interval at a time; ESR owners manage state of charge through their offers. [e3]
 - The IMM has recommended a Multi-Interval Real-Time Market since its 2022 report (Recommendation 2022-1). [e17]
@@ -179,7 +183,7 @@ Suppose (illustrative, made-up numbers) a 100 MW, 2-hour battery expects evening
 
 ## Common confusion
 
-(Guidance) Asset optimization is general industry usage; it is not defined in the ERCOT Protocols, PUCT rules or IMM reports saved here. No saved source gives a plain one-line definition; the definition above is the common ground of an LBNL model description, the IMM's ESR discussion and two vendor blogs (Montel and GE Vernova).
+(Guidance) Asset optimization is general industry usage; it is not defined in the ERCOT Protocols, PUCT rules or IMM reports saved here, and no saved source of any kind defines it. In this file the term is used as working shorthand for the owner-side task the Definition describes: choosing how an asset is operated and offered to get the most market value from it. That usage is the writer's, not a source's.
 
 (Guidance) Asset optimization versus ERCOT co-optimization: co-optimization is the market model trading off energy and reserves across all Resources; asset optimization is one owner choosing its offers. [e11][e3]
 
@@ -193,7 +197,7 @@ Because SCED optimizes one five-minute interval at a time and does not plan acro
 
 ### Why does real dispatch fall short of the optimized value?
 
-LBNL points to fixed delivery obligations under tolls and PPAs, rule-based operation, imperfect forecasting and under-participation in ancillary services; in ERCOT the biggest shortfall came from lower AS value. [e8][e9]
+LBNL points to fixed delivery obligations under tolls and PPAs, rule-based operation, imperfect forecasting and under-participation in wholesale markets, including ancillary services in less mature markets; in ERCOT the biggest shortfall came from lower AS value. [e8][e28][e9]
 
 ### What if ancillary service prices fall as more batteries enter?
 
@@ -213,7 +217,8 @@ A hedge such as a heat rate call does not decide dispatch: the owner still decid
 
 ## Open items
 
-- No saved source gives an independent plain-words definition of "asset optimization"; the Definition is built from model descriptions (LBNL), an IMM discussion of ESRs and two vendor blogs (Montel, GE Vernova). Owner review suggested.
+- No saved source defines "asset optimization". The Definition is therefore an attributed description (LBNL model; IMM on ESRs), not a definition; the earlier one-line definition was a writer's construction and was removed in audit I1.
+- Single-source, not cross-checked (GE Vernova, software vendor): optimization in two stages, commitment optimization that positions the asset ahead of time and real-time dispatch optimization that adjusts operations to available capacity and market conditions (GE Vernova blog, "Asset and Fleet Optimization: Key to Success for Power Generators"; quotes removed with the statement).
 - Vendor sources (Montel, GE Vernova) used sparingly; their claims on AI/ML forecasting and fleet software were left out.
-- Single-source, not cross-checked (Montel): forward markets are more volatile because of lower liquidity; this conflicts with the SFU thesis and the New Zealand regulator (see forward-curve).
+- Single-source, not cross-checked (Montel, European markets): forward markets are more volatile because of lower liquidity; the same blog also says day-ahead is more volatile than the forward market (see forward-curve).
 - No saved source describes third-party "optimizer" or asset-management agreements in ERCOT (fees, revenue sharing).

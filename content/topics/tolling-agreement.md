@@ -147,6 +147,14 @@ evidence:
     source: ref-ogj-tolling
     locator: "Oil & Gas Journal (2000), paragraph on volatility value"
     quote: "At the same time, merchant plants can be used to extract the \"volatility value\", or upside, potentially present in volatile gas and power markets, said Feldman."
+  - id: e31
+    source: np-09
+    locator: "Section 9.14.7, Disputes for RUC Make-Whole Payment for Fuel Costs, paragraph (1)"
+    quote: "Power Purchase or Tolling Agreement (PPA) filed as documentation of proof of fuel costs will not be accepted unless the PPA was signed prior to July 16, 2008, and is not between Affiliates, subsidiaries, or partners."
+  - id: e32
+    source: ref-sfu-tolling-thesis
+    locator: "Simon Fraser University MBA project, Chapter 5, option valuation (inputs to a spread option)"
+    quote: "the strike price of the option (or in the case of a tolling agreement, the cost of making the exchange in terms of operating and maintenance or other charges)"
   - id: e29
     source: ref-sfu-tolling-thesis
     locator: "Simon Fraser University MBA project, section 5.5 Spark Spread"
@@ -165,7 +173,7 @@ A tolling agreement is a contract in which one party (the toller) supplies the f
 
 The toller takes the market risk and the owner takes the plant risk. The SFU thesis says a toll typically assigns completion and performance risk to the developer or contractor and operating and gas and power price risk to the marketer. [e4] The Oil & Gas Journal article says plant sponsors give up the ability to make money on the spark spread and become responsible for the plant's performance, including its heat rate and availability. [e5]
 
-The owner is paid mainly in fixed amounts. The sources describe capacity payments made whether or not the plant runs, plus operating and maintenance payments and a start payment; the SFU thesis calls the monthly capacity charges "option premium costs", and the Fields slides describe monthly capacity payments rather than an upfront premium. [e5][e6][e7][e8] TotalEnergies describes the owner's position as stable revenue from fixed fees without exposure to gas or power price swings. [e18][e2]
+The owner is paid mainly in fixed amounts. The Oil & Gas Journal article describes capacity payments made whether or not the plant runs, plus operating and maintenance payments and a start payment; the SFU thesis calls the monthly capacity charges "option premium costs", and the Fields slides describe monthly capacity payments rather than an upfront premium. [e5][e6][e7][e8] TotalEnergies describes the owner's position as stable revenue from fixed fees without exposure to gas or power price swings. [e18][e2]
 
 The toller gets a dispatch option and a physical position. It can choose day to day, even hour to hour, whether to run the plant and sell its power; the Fields slides describe daily day-ahead exercise into standard power buckets with monthly settlement. [e11][e8] The Oil & Gas Journal says the toll serves the tolling party as a physical asset hedge for its trading positions, and TotalEnergies says the toller uses plants without investing in building or maintaining them. [e19][e26]
 
@@ -179,7 +187,7 @@ The same structure is used for batteries. TotalEnergies says tolling can apply t
 
 ## Formula
 
-Toll value per delivery day d (Fields Institute form): payoff = max(power price - heat rate x gas price - VOM, 0), summed over the days and buckets of each month and multiplied by the contracted quantity. [e13][e8] The SFU thesis gives the same structure as a strip of spread options on power and gas at the plant's heat rate, with the operating cost as the strike. [e12][e7]
+Toll value per delivery day d (Fields Institute form): payoff = max(power price - heat rate x gas price - VOM, 0), summed over the days and buckets of each month and multiplied by the contracted quantity. [e13][e8] The SFU thesis gives the same structure as a strip of spread options on power and gas at the plant's heat rate, with the operating and maintenance or other charges as the strike. [e12][e32]
 
 - Power price: forward or spot price for a delivery bucket such as 5x16, usually at a liquid hub (Fields); the market price of power in the same period (SFU). [e13][e29]
 - Heat rate: the conversion rate between gas and power. [e13][e29]
@@ -188,17 +196,17 @@ Toll value per delivery day d (Fields Institute form): payoff = max(power price 
 
 ## ERCOT context
 
-The ERCOT Protocols use the phrase "Power Purchase or Tolling Agreement (PPA)" as one defined term, without defining a toll separately. [e20][e21] Two current uses: under Section 5.6.1, QSEs that submit Power Purchase or Tolling Agreements cannot let Resource Entities file verifiable costs for RUC; under Section 6.6.3.8, an SODG or SOTG subject to such an agreement by January 1, 2019 could qualify to opt out of nodal pricing and keep Load Zone settlement. [e20][e21]
+The ERCOT Protocols use the phrase "Power Purchase or Tolling Agreement (PPA)" as one capitalized phrase with a single acronym; Section 2 (Definitions and Acronyms) has no entry defining it or a toll separately. [e20][e21] Uses include: under Section 5.6.1, QSEs that submit Power Purchase or Tolling Agreements cannot let Resource Entities file verifiable costs for RUC; under Section 6.6.3.8, an SODG or SOTG subject to such an agreement by January 1, 2019 could qualify to opt out of nodal pricing and keep Load Zone settlement; and under Section 9.14.7, a PPA filed as proof of fuel costs in a RUC make-whole fuel dispute is accepted only if signed before July 16, 2008 and not between Affiliates, subsidiaries or partners. [e20][e21][e31]
 
-For solar-plus-storage, LBNL lists fixed delivery obligations under tolls and PPAs among the reasons empirical dispatch falls short of market-value-optimized dispatch, and notes its value analysis excludes revenue from tolling agreements that may underwrite projects. [e22][e23]
+In a national study of solar-plus-storage (not ERCOT-specific), LBNL lists dispatch tied to fixed delivery obligations under tolls and PPAs among the barriers that limit market value, and notes its value analysis excludes revenue from tolling agreements that may underwrite projects. [e22][e23]
 
 ## Key facts
 
-- Tenor: the Fields slides say most (gas) tolls trade for 5-7 years; the SFU thesis describes a long-term (20+ year) offtake agreement for a new plant. The sources differ. [e14][e10]
+- Tenor: the Fields slides say most (gas) tolls trade for 5-7 years; the SFU thesis describes a long-term (20+ year) offtake agreement for a proposed or new plant. They describe different contexts (traded tolls versus new-build offtake), so the figures are not directly in conflict. [e14][e10][e4]
 - Owner payments: capacity payments whether or not the plant runs, plus O&M and start payments (Oil & Gas Journal); monthly capacity charges (SFU, Fields). [e5][e6][e7][e8]
 - Exercise and settlement: daily day-ahead exercise, monthly settlement (Fields); hour-to-hour dispatch choice (SFU). [e8][e11]
-- Battery tolls: the offtaker takes dispatch rights and market revenues for a fixed price. [e16][e17][e3]
-- ERCOT Protocols: "Power Purchase or Tolling Agreement (PPA)" appears in Sections 5.6.1 and 6.6.3.8. [e20][e21]
+- Battery tolls: the offtaker takes the market revenues for a fixed payment to the owner. [e16][e17][e3]
+- ERCOT Protocols: "Power Purchase or Tolling Agreement (PPA)" appears in Sections 5.6.1, 6.6.3.8 and 9.14.7, among others. [e20][e21][e31]
 
 ## Example
 
@@ -214,7 +222,7 @@ Suppose (illustrative, made-up numbers) a toller pays $8/kW-month in capacity ch
 
 (Guidance) Toll versus PPA: in a toll the buyer supplies the fuel and takes the dispatch decision and price risk; the owner keeps plant performance risk. [e1][e4]
 
-(Guidance) Toll versus heat rate call option: both pay power minus heat rate times gas, but a toll usually involves the toller supplying fuel and taking the physical output, while an HRCO is financial. [e1][e12]
+(Guidance) Toll versus heat rate call option: the payoff of both is power minus heat rate times gas. The Oil & Gas Journal and TotalEnergies describe tolls in which the toller supplies the fuel and takes the electricity, while the Fields slides call a toll a derivative rendition of a power generator, so check whether a given toll is physical or financial. [e1][e2][e25]
 
 ## Questions
 
@@ -236,7 +244,7 @@ More volatility raises the chance of positive spark spreads, which raises the op
 
 ### What does a battery toll give the offtaker?
 
-Dispatch rights and the energy and ancillary service revenues, in exchange for a fixed payment to the battery owner. [e16][e17]
+The market revenues, in exchange for a fixed payment to the battery owner. The Aurora presentation to ESIG (a single source) specifies asset dispatch rights and energy and ancillary service revenues. [e16][e17]
 
 ## Scenarios
 
@@ -244,12 +252,13 @@ Dispatch rights and the energy and ancillary service revenues, in exchange for a
 
 - It gives up energy and ancillary service revenues to the offtaker for a fixed payment, removing market price exposure. [e17][e15]
 - It keeps responsibility for the asset's performance, as plant owners do under tolls generally. [e4][e5]
-- LBNL warns that fixed delivery obligations under tolls can pull dispatch away from market-value optimization. [e22]
+- LBNL's national study lists dispatch tied to fixed delivery obligations under tolls among the barriers to market value. [e22]
 
 ## Open items
 
 - ERCOT-specific, tier 3 only (ESIG/Aurora): battery value in ERCOT is concentrated in very few months, which drives demand for tolls; battery tolls are present in ERCOT, MISO and CAISO with typical tenors of 5-7 years. Needs a tier 1-2 source.
+- Single-source, not cross-checked (ESIG/Aurora): in a battery toll the offtaker receives asset dispatch rights and energy and ancillary service revenues (TotalEnergies says only that tolling can apply to batteries).
 - Single-source, not cross-checked (ESIG/Aurora): a 100% toll leaves the battery owner no economic link to market outcomes; mitigations include partial tolls and "virtual" (percentage-of-perfect) tolls.
 - Single-source, not cross-checked (SFU): simple tolls (owner keeps operating risk, premium paid) versus complex tolls (purchaser takes owner-like risks); blended VOM and FOM of $US 2-4/MWh.
-- Sources disagree on tenor (Fields 5-7 years versus SFU 20+ years for new-build offtake); not resolved.
+- Tenor: Fields (5-7 years, traded gas tolls) and SFU (20+ years, new-build offtake) describe different contexts; no saved source gives a typical tenor for ERCOT gas tolls.
 - No saved tier 1-2 source describes the size or terms of ERCOT gas or storage tolls.

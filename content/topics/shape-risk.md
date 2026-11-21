@@ -15,7 +15,7 @@ links:
     note: Shape risk is about when the energy comes, volume risk about how much in total; WBCSD says shape risk exists even if the overall volume matches the estimate. [e3][e7]
   - to: ppa-vppa
     type: affects
-    note: For a VPPA, shape risk combined with price risk makes the buyer's settlement revenue uncertain. [e5][e6]
+    note: RMI says that for a VPPA the intersection of uncertain generation with uncertain prices makes the revenue uncertain. [e5][e6]
   - to: solar-generation
     type: related
     note: The IMM says the solar capacity factor in the daily peak net load interval fell to 1.7% in 2025, against 29.3% for wind. [e16]
@@ -30,7 +30,7 @@ links:
     note: ERCOT CRRs are auctioned in time-of-use blocks with the same MW in every hour of the block, a flat shape unlike variable renewable output. [e17]
   - to: energy-storage-resource
     type: related
-    note: POWER Magazine and WBCSD describe storage and multi-technology portfolios as ways to offer firmer or load-following profiles. [e11][e12]
+    note: POWER Magazine says a load-following PPA product will likely need storage alongside several renewable resources. [e11]
   - to: wind-generation
     type: related
     note: The IMM says solar's captured price premium over wind has nearly disappeared, $21 versus $19 per MWh. [e14]
@@ -113,7 +113,7 @@ evidence:
   - id: e19
     source: ref-epex-wind-hedging
     locator: "Quality Factor Index"
-    quote: "The third and final index is the Quality Factor (QF) Index which is a measure of the Achieved Price divided by the Baseload Price."
+    quote: "The third and final index is the Quality Factor (QF) Index which is a measure of the Achieved Price divided by the Baseload Price. It is sometimes described as the Capture Rate"
   - id: e20
     source: ref-epex-wind-hedging
     locator: "General Introduction and Problem Definition"
@@ -138,6 +138,10 @@ evidence:
     source: ref-rmi-ppa-risk
     locator: "Volume Risk, Further Detail (p. 22)"
     quote: "Since the value of a VPPA to a city in any given period is the product of the energy generated and the difference between the market and VPPA prices, any variability in the former causes uncertainty to the project’s value."
+  - id: e26
+    source: ref-wbcsd-multitech-ppa
+    locator: "Introduction"
+    quote: "In this paper we explore whether combined technology solutions can offer a firmer generation profile in comparison to a single technology and hence reduce exposure to risks, now or perhaps in the future."
 ---
 
 ## Definition
@@ -148,15 +152,15 @@ Shape risk is the risk that comes from when a variable resource produces, hour b
 
 The sources agree that wind and solar output follows the weather, not demand, so its hourly profile rarely matches a buyer's load: WBCSD says a corporate buyer's demand profile is likely to be flatter, and Yale gives a data center using power day and night as an example. [e3][e2][e4]
 
-Prices vary through the day as well. In a virtual PPA the settlement each hour is the price difference times the volume in that hour, so the value depends on how output lines up with prices. [e24][e25] RMI says the intersection of uncertain generation with uncertain prices makes VPPA revenue uncertain, and that because generation and consumption rarely coincide, changing prices through the day can leave VPPA revenues short of offsetting the buyer's energy costs. [e5][e6]
+Prices vary through the day as well. RMI describes a VPPA's value in a period as the energy generated times the difference between market and contract price, and Norton Rose Fulbright says most hedges make that calculation hour by hour, so the value depends on how output lines up with prices. [e24][e25] RMI says the intersection of uncertain generation with uncertain prices makes VPPA revenue uncertain, and that because generation and consumption rarely coincide, changing prices through the day can leave VPPA revenues short of offsetting the buyer's energy costs. [e5][e6]
 
 In a physical, as-produced PPA, shape risk shows up as balancing: when output falls short in an hour the buyer has to buy the difference, and when output exceeds need it has to sell. [e8][e9]
 
 The sources separate shape from volume. RMI says that timing can be weather-driven too, but volume risk is about the total amount; WBCSD says shape risk exists even if the total over a long enough period equals the estimate. [e7][e3]
 
-EPEX SPOT, a European power exchange, adds a price-side effect: because solar plants produce at the same times, their combined output depresses prices in the midday hours and changes the shape of the price curve itself. [e20][e4] The IMM reports the same direction in ERCOT for captured prices (see ERCOT context). [e14]
+EPEX SPOT, a European power exchange, adds a price-side effect: because solar plants produce at the same times, their combined output increasingly affects clearing prices, especially between 10:00 and 16:00, and changes the shape of the price curve itself. [e20][e4] The IMM reports the same direction in ERCOT for captured prices (see ERCOT context). [e14]
 
-Mitigation in the sources: the buyer can size the contracted generation to its demand profile to reduce the hours and volumes it must buy or sell [e21]; buyers have shown interest in firm or shaped PPAs, physical or financial, that give a firm profile instead of the project's variable one [e12]; and POWER Magazine says a load-following product that matches generation to load hour by hour will likely need several resource types plus storage. [e23][e11]
+Mitigation in the sources: WBCSD says a buyer can size the contracted generation to its demand profile to reduce the hours and volumes it must buy or sell [e21]; WBCSD and POWER Magazine both report buyer interest in firm, shaped or hour-by-hour matched PPAs instead of the project's variable profile [e12][e23]; WBCSD explores multi-technology PPAs as a way to a firmer profile [e26]; and POWER Magazine says a load-following product that matches generation to load hour by hour will likely need several resource types plus storage. [e23][e11]
 
 ## ERCOT context
 
@@ -164,13 +168,13 @@ The ERCOT data the IMM reports show why shape matters here. In 2025 most real-ti
 
 The IMM defines the captured energy price as the weighted-average price paid to generators for the energy they produce. It says captured prices fall as installed renewable capacity rises, and that in 2025 solar's captured price ($21/MWh) was nearly at parity with wind's ($19/MWh) after years of a solar premium, a trend it expects to continue as solar shifts peak net demand into the evening. [e13][e14] It also says congestion lowers nodal prices in high-renewable regions. [e22]
 
-ERCOT's standard products are flat blocks. CRRs are auctioned in time-of-use blocks with the same MW in each hour: 5x16 and 2x16 blocks for hours ending 0700-2200 and 7x8 blocks for the remaining hours. [e17] The ICE ERCOT North peak futures contract uses the average of Settlement Point Prices for hours ending 0700-2200. [e18] A flat block hedges a constant MW, whereas a wind or solar profile varies within the block. [e17][e3]
+ERCOT CRRs and the ICE ERCOT peak futures are defined over blocks of hours. CRRs are auctioned in time-of-use blocks with the same MW in each hour: 5x16 and 2x16 blocks for hours ending 0700-2200 and 7x8 blocks for the remaining hours. [e17] The ICE ERCOT North peak futures contract uses the average of Settlement Point Prices for hours ending 0700-2200. [e18] A flat block hedges a constant MW, whereas a wind or solar profile varies within the block. [e17][e3]
 
 ## Key facts
 
 - Shape risk is about timing of output within a period; volume risk is about the total. [e3][e7]
-- A buyer's demand profile is usually flatter than wind or solar output. [e3][e2]
-- In a VPPA, generation and consumption rarely coincide, so the hedge may not fully offset energy costs. [e6][e2]
+- WBCSD says a corporate buyer's demand profile is likely to be flatter than wind or solar output; Yale gives a data center using power day and night as an example. [e3][e2]
+- A mismatch between the generation shape and the buyer's consumption can weaken a PPA as a hedge; RMI says generation and consumption rarely coincide. [e6][e2]
 - In 2025, most ERCOT price spikes were between 7 and 9 p.m. as solar ramped down. [e15]
 - ERCOT solar capacity factor at the daily net peak interval: 1.7% in 2025; wind 29.3%. [e16]
 - ERCOT 2025 captured prices: solar $21/MWh, wind $19/MWh. [e14]
@@ -178,7 +182,7 @@ ERCOT's standard products are flat blocks. CRRs are auctioned in time-of-use blo
 
 ## Formula
 
-The sources share a measure of shape cost on the price side: the price a generator actually captures, weighted by its own output, compared with the average price. The IMM defines the captured price as the output-weighted average price paid to generators [e13]; EPEX SPOT's Quality Factor (or capture rate) divides the achieved price by the baseload price. [e19]
+Two price-side measures in the sources compare what a generator's output earns with the average price. The IMM defines the captured price as the output-weighted average price paid to generators [e13]; EPEX SPOT's Quality Factor (also called the capture rate) divides the achieved price by the baseload price. [e19] Neither source calls these a measure of shape risk as such.
 
 Captured price = Σ(price_h × output_h) ÷ Σ output_h, and capture rate = captured price ÷ average (baseload) price, where h runs over the hours of the period. This writes out the two definitions above; neither source prints the summation. [e13][e19]
 
@@ -194,9 +198,9 @@ Suppose (illustrative, made-up numbers) a solar project produces 10 MWh in a mid
 
 (Guidance) Shape risk is general industry usage and is not defined in the ERCOT Protocols, PUCT rules or IMM reports saved here.
 
-The sources measure the mismatch against different things. WBCSD and Yale compare the generation profile with the buyer's demand profile [e3][e2]; RMI stresses the timing of generation against market prices [e1][e5]; EPEX SPOT includes the generation's own effect on the price curve. [e4] They agree that timing, not total volume, is the core. [e3][e7]
+The sources measure the mismatch against different things. WBCSD and Yale compare the generation profile with the buyer's demand profile [e3][e2]; RMI looks at the timing of generation against both market prices and the city's consumption [e1][e5][e6]; EPEX SPOT includes the generation's own effect on the price curve. [e4] They agree that timing, not total volume, is the core. [e3][e7]
 
-Shape risk is not volume risk. A project can hit its annual MWh exactly and still produce at the wrong hours. [e3]
+Shape risk is not volume risk. A project can hit its annual MWh exactly and still produce at the wrong hours. [e3][e7]
 
 Shape risk is not basis risk. Basis is about location; shape is about time. Both can hit the same contract.
 
@@ -216,7 +220,7 @@ Compare its captured price (output-weighted average price) with the average pric
 
 ### Why can a flat block not fully hedge a wind or solar project?
 
-A flat block, like an ERCOT CRR TOU block, has the same MW in every hour, while renewable output varies hour to hour. [e17][e3] In some hours the project is short of the block and must buy; in others it is long and must sell. [e8][e9]
+A flat block, like an ERCOT CRR TOU block, has the same MW in every hour, while renewable output varies hour to hour. [e17][e3] So the holder must buy or sell the difference hour by hour, as RMI and WBCSD describe for a buyer balancing an as-produced PPA against its load. [e8][e9]
 
 ### What can a buyer do about shape risk?
 
@@ -224,7 +228,7 @@ Size the contracted generation to its demand profile, buy a firm or shaped produ
 
 ### What if many solar plants in one market all produce at once?
 
-EPEX SPOT says their correlated output depresses prices in the hours they produce and reshapes the price curve; the IMM reports falling captured prices as ERCOT renewable capacity grows. [e20][e14]
+EPEX SPOT says their correlated output increasingly affects clearing prices in the hours they produce and reshapes the price curve; the IMM reports falling captured prices as ERCOT renewable capacity grows. [e20][e14]
 
 ## Scenarios
 

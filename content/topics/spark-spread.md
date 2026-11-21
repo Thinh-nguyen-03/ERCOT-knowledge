@@ -21,7 +21,7 @@ links:
     note: The spark spread subtracts the cost of the natural gas needed to produce the electricity from the power price. [e1]
   - to: heat-rate-call-option
     type: related
-    note: A heat rate call option protects a gas project against tightening spark spreads in exchange for giving up the upside from widening spreads. [e18]
+    note: A heat rate call option protects a gas project against tightening spark spreads in exchange for giving up the upside from widening spreads. [e18][e29]
   - to: tolling-agreement
     type: related
     note: The spark spread is a fundamental consideration when assessing tolling contracts. [e2]
@@ -42,7 +42,7 @@ evidence:
   - id: e2
     source: ref-sfu-tolling-thesis
     locator: "Simon Fraser University MBA project (Powerex tolling), Chapter 2, section on generation fuel and efficiency, before 2.4.1.1 Steam Units"
-    quote: "The profitability of running a fuelled power plant is measured by the spark spread. This is the difference between the demand price of electricity and the cost of the fuel to produce it and may or may not include fixed and/or variable operating and maintenance costs, depending upon the context."
+    quote: "The profitability of running a fuelled power plant is measured by the spark spread. This is the difference between the demand price of electricity and the cost of the fuel to produce it and may or may not include fixed and/or variable operating and maintenance costs, depending upon the context. Spark spread is a fundamental consideration when assessing tolling contract offerings."
   - id: e3
     source: ref-eia-spark-spread-2013
     locator: "EIA Today in Energy (2013), 'Spark spread calculation'"
@@ -143,6 +143,10 @@ evidence:
     source: ref-eia-spark-2025
     locator: "EIA Today in Energy (December 8, 2025), data note under the chart"
     quote: "The heat rate used for the dark spread was 10,500 British thermal units per kilowatthour (Btu/kWh), while the heat rate for the spark spread was 7,000 Btu/kWh."
+  - id: e29
+    source: ref-nrf-energy-hedges
+    locator: "Norton Rose Fulbright (2015), Contrasts"
+    quote: "Both products provide downside protection for project revenue. With a revenue put, the project has all the upside — the assumed excess revenue from physical sales — if market prices turn in the project’s favor. With a heat rate call option, the upside goes to the hedge provider."
   - id: e28
     source: ref-eia-spark-spread-2013
     locator: "EIA Today in Energy (2013), third paragraph"
@@ -180,9 +184,9 @@ Spark spread ($/MWh) = power price ($/MWh) - [natural gas price ($/MMBtu) x heat
 
 ERCOT's own reference gas price, the Fuel Index Price (FIP), is the daily midpoint or average gas price at Katy Hub in $/MMBtu, so a spark spread built on ERCOT's own gas index uses Katy, not Henry Hub. [e25]
 
-The IMM does not publish a spark spread in the reports saved here; it publishes the implied heat rate, which is the zero-spark-spread view of the same two prices. [e14][e13] For 2025 the IMM reported that the average implied heat rate was almost 28% lower than in 2024 and now in line with the marginal heat rate of ERCOT gas plants. [e23] Read with the definition above, an average implied heat rate equal to a plant's heat rate is the point where that plant's average spark spread is zero. [e13][e14]
+The IMM does not publish a spark spread in the reports saved here; it publishes the implied heat rate, which is the zero-spark-spread view of the same two prices. [e14][e13] For 2025 the IMM reported that the average implied heat rate was almost 28% lower than in 2024 and now in line with the marginal heat rate of ERCOT gas plants. [e23] Read with the definition above, a plant whose heat rate equals the implied heat rate would roughly break even on fuel at those prices; this is reasoning from the definitions, not an IMM statement, and an annual average implied heat rate says nothing about the spread in individual hours. [e13][e14]
 
-In ERCOT, zero-cost wind and solar create hundreds of hours at or below $0 per MWh, where a gas plant's spark spread is negative, while shortage pricing creates hundreds of hours above gas plants' marginal cost, where spreads are wide. [e24]
+In ERCOT, zero-cost wind and solar create hundreds of hours at or below $0 per MWh, where a gas plant's spark spread is negative, while shortage pricing creates hundreds of hours above gas plants' marginal cost, where their spreads are positive. [e24]
 
 ERCOT metrics also differ on variable O&M. ERCOT's peaker net margin uses a protocol-specified 10.0 MMBtu per MWh heat rate and excludes variable O&M and outage rates, while the IMM's 2024 net revenue analysis assumed 7 MMBtu per MWh for a combined cycle, 10.5 for a gas turbine, and $4 per MWh of variable O&M. [e21][e22]
 
@@ -229,7 +233,7 @@ The implied heat rate is the heat rate at which the spark spread is zero, comput
 
 ### What if ERCOT has many hours of negative prices?
 
-In those hours the spark spread of every gas plant is negative, because the power price is below any fuel cost. The IMM says these hours lower the implied heat rate, while shortage-priced hours raise it. [e24] So the spread is earned in fewer, higher-priced hours.
+In those hours the spark spread of every gas plant is negative, because the power price is below any fuel cost. The IMM says these hours lower the implied heat rate, while shortage-priced hours raise it. [e24] So, reasoning from the IMM statement, a gas plant's positive spreads are concentrated in the higher-priced hours.
 
 ### Why are spark spreads more volatile than fuel prices alone?
 

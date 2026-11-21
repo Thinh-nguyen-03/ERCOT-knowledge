@@ -33,7 +33,7 @@ links:
     note: Basis risk is a major risk in virtual PPAs, which are typically settled at a trading hub while the generator is paid at its node. [e2][e7]
   - to: energy-storage-resource
     type: related
-    note: Two publishers say pairing a renewable project with storage can change its underlying basis risk by shifting sales to less congested hours. [e15][e16]
+    note: Two publishers say pairing a renewable project with storage can reduce its basis risk by shifting sales to less congested hours. [e15][e16]
   - to: hb-west
     type: related
     note: The IMM says the West Zone is the largest contributor to intrazonal congestion costs, export constrained in the Panhandle and import constrained in the Permian Basin. [e24]
@@ -168,7 +168,7 @@ evidence:
   - id: e32
     source: ref-nrf-vppa-risks
     locator: "Section on curtailment"
-    quote: "When hub prices are higher than node prices, a project could be incentivized to curtail, or scale back, its electricity output in order to avoid loss or seek out contractual mechanisms in the VPPA to mitigate basis risk."
+    quote: "When hub prices are higher than node prices, a project could be incentivized to curtail, or scale back, its electricity output in order to avoid loss or seek out contractual mechanisms in the VPPA to mitigate basis risk. If a project curtails, then the corporate offtaker will receive fewer renewable energy credits or RECs."
   - id: e33
     source: imm-som-2025
     locator: "Executive Summary, Transmission Congestion"
@@ -181,21 +181,37 @@ evidence:
     source: ref-nrf-vppa-financing
     locator: "Section on basis or locational risk"
     quote: "Corporate offtakers and lenders tend to prefer to index the floating price component of the hedge settlement price at liquid, high-volume regional hubs. While this may ease the burden of analyzing historical and projected pricing trends, it also creates the risk that the revenue counted for purposes of calculating settlement payments does not correspond to reality."
+  - id: e36
+    source: ref-yale-ppa-risk
+    locator: "Section on basis risk"
+    quote: "However, the off-taker can end up paying more under the VPPA if, for example, nodal prices fall relative to the retail price."
+  - id: e37
+    source: ref-rmi-ppa-risk
+    locator: "Basis Risk, Further Detail (p. 14)"
+    quote: "Moreover, the effectiveness of this hedge can be eroded if the relationship between prices at different locations in the market changes over time."
+  - id: e38
+    source: ref-powermag-ppa
+    locator: "Virtual PPAs section"
+    quote: "Differences in prices between the trading hub and individual nodes creates a “mismatch” that presents additional credit risk of the generation seller."
+  - id: e39
+    source: np-07
+    locator: "Section 7.9.1.1, Payments and Charges for PTP Obligations Settled in DAM, paragraph (2)"
+    quote: "For PTP Obligations that have a positive value and sink at a Resource Node, the PTP Obligation payment may be reduced due to directional network elements that are oversold in previous Congestion Revenue Right (CRR) Auctions."
 ---
 
 ## Definition
 
-Basis risk is the risk that the price at one location moves differently from the price at the location a contract or hedge is tied to. In power contracts the sources describe it as the mismatch between the price a generator actually earns at its node and the price at the hub (or other point) where its contract settles [e1][e2][e8], or, from the buyer's side, between the generator's node and the price the buyer pays at its own load zone. [e4][e5] In natural gas the same word, basis, names the price differential between Henry Hub and another hub. [e6]
+Basis risk is the risk that the price at one location moves differently from the price at the location a contract or hedge is tied to. In power contracts the sources describe it as the mismatch between the price a generator actually earns at its node and the price at the hub where its contract settles [e1][e2][e8], or, from the buyer's side, between the generator's node and the price the buyer pays for its own power: its load zone price in RMI's guide, its retail price in Yale's. [e3][e4][e5] In natural gas the same word, basis, names the price differential between Henry Hub and another hub. [e6]
 
 ## How it works
 
-A generator sells its physical output at its node and is paid the nodal price, while a hub-settled contract pays or charges it against the hub price, so the two cash flows do not always line up. [e1][e2][e7] To make the contract work, the project in effect buys at the hub the same volume it sells at the node; when the hub price is above the node price, the project loses the difference. [e9][e10]
+A generator sells its physical output at its node and is paid the nodal price, while a hub-settled contract pays or charges it against the hub price, so the two cash flows do not always line up. [e1][e2][e7] Two publishers say the project bears this node-to-hub mismatch. [e9][e13][e38] Two say the side carrying the risk loses when the node price falls relative to the price on the other side: the project when the hub is above its node (Norton Rose Fulbright), the buyer when the node falls relative to its retail price (Yale). [e9][e10][e36]
 
-Hubs are aggregations of nodes. Two publishers say that because a hub covers a wider area, its price is less volatile than a single node's, which is why hub settlement is preferred. [e13][e14][e35] Settling at the hub does not remove basis risk; it moves the node-to-hub part of it onto the project, which then asks for a higher contract price. [e13][e16]
+Hubs are aggregations of nodes. Two publishers say that because a hub covers a wider area, its price is less volatile than a single node's, so hub settlement is seen as less risky for the buyer. [e13][e14] Settling at the hub puts the node-to-hub risk on the project. [e9][e13]
 
-Congestion is the usual driver. When many projects with similar output sit close together, heavy wind or sun congests the lines out of the area and drives the node price down relative to the hub. [e11][e12] The FERC primer describes the gas version the same way: basis normally reflects transport cost and can widen sharply when pipelines between two points are congested. [e6]
+Both publishers that explain the cause point to congestion: heavy wind or sun where many renewable projects sit close together congests the transmission lines and drives the node price down. [e11][e12] The FERC primer describes the gas version the same way: basis normally reflects transport cost and can widen sharply when pipelines between two points are congested. [e6]
 
-Basis risk is the same structure seen from two sides. For the project in a hub-settled deal it is node versus hub. [e7][e9] For a buyer using a virtual PPA as a hedge it is the correlation between the project's price and the buyer's own price; when the two stop moving together the hedge erodes. [e3][e5]
+Basis risk is the same structure seen from two sides. For the project in a hub-settled deal it is node versus hub. [e2][e7][e9] For a buyer using a virtual PPA as a hedge it is the correlation between the project's price and the buyer's own price; when the two stop moving together the hedge erodes. [e3][e5]
 
 ## ERCOT context
 
@@ -203,7 +219,7 @@ ERCOT has three kinds of Settlement Point: a Resource Node, a Load Zone, or a Hu
 
 The IMM explains locational price differences in ERCOT as the result of transmission congestion. [e22] It says congestion lowers nodal prices in regions with high renewable capacity [e23], and that the West Zone is the largest contributor to intrazonal congestion costs: export constrained in the Panhandle, import constrained in the Permian Basin. [e24]
 
-ERCOT's own instruments for price differences between two Settlement Points are CRRs and PTP Obligations. A CRR has a source Settlement Point and a different sink Settlement Point (Flowgate Rights excepted) and is purely financial. [e25][e27] A PTP Obligation settled in the DAM pays or charges the Day-Ahead price difference between sink and source; one bought in the DAM is settled on the Real-Time difference. [e26][e28] ERCOT's training material presents a CRR as a hedge that locks in the cost of congestion at the CRR's purchase price, and the FERC primer describes the equivalent FTRs elsewhere as protection against congestion-driven day-ahead price increases. [e29][e31] The IMM says the financial right to congestion rent accrues to CRR holders. [e33]
+ERCOT's own instruments for price differences between two Settlement Points are CRRs and PTP Obligations. A CRR has a source Settlement Point and a different sink Settlement Point (Flowgate Rights excepted) and is purely financial. [e25][e27] A PTP Obligation settled in the DAM pays or charges the Day-Ahead price difference between sink and source (a positive-value one that sinks at a Resource Node may be paid less if network elements were oversold in earlier CRR Auctions); one bought in the DAM is settled on the Real-Time difference. [e26][e39][e28] ERCOT's training material presents a CRR as a hedge that locks in the cost of congestion at the CRR's purchase price, and the FERC primer describes the equivalent FTRs elsewhere as protection against congestion-driven day-ahead price increases. [e29][e31] The IMM says the financial right to congestion rent accrues to CRR holders. [e33]
 
 Gas basis matters to ERCOT generators too: the IMM says Permian production and limited export capability have historically kept Waha gas prices low, giving gas units in that area much higher net revenues. [e30]
 
@@ -211,8 +227,8 @@ Gas basis matters to ERCOT generators too: the IMM says Permian production and l
 
 - Basis risk is also called locational (basis) risk or node-to-hub basis risk. [e2][e8][e13]
 - Virtual PPAs are typically or frequently settled at a hub while the generator is paid at its node. [e2][e14]
-- Under hub settlement the project carries the node-to-hub basis risk and loses when the hub price is above its node price. [e9][e10][e13]
-- Hub settlement shifts node-to-hub basis risk to the project; it does not change the underlying risk. [e9][e13][e16]
+- Under hub settlement the project carries the node-to-hub basis risk. [e9][e13][e38]
+- Whoever carries the risk loses when the node price falls relative to the other price: the project against the hub (Norton Rose Fulbright), the buyer against its retail price (Yale). [e9][e10][e36]
 - ERCOT Settlement Points are Resource Nodes, Load Zones and Hubs. [e19]
 - ERCOT generators settle at nodal LMPs; loads at the load-weighted load zone price. [e20]
 - A DAM PTP Obligation settles on the sink-minus-source price difference. [e26][e28]
@@ -220,8 +236,6 @@ Gas basis matters to ERCOT generators too: the IMM says Permian production and l
 ## Formula
 
 Basis as a price is the difference between the prices at two locations. The sources state it as hub price minus nodal price for a hub-settled power contract [e1][e2], and as the difference between the Henry Hub price and another hub's price in gas. [e6]
-
-For a generator with a hub-settled contract, the hourly basis exposure is the volume it must buy at the hub times (hub price minus node price): it pays when the hub is above the node. [e9][e10][e13]
 
 ## Example
 
@@ -245,7 +259,7 @@ Gas basis and power basis are different spreads. Gas basis is a hub-to-hub diffe
 
 ### Why do buyers and lenders prefer to settle a virtual PPA at a hub?
 
-Hubs aggregate many nodes, so hub prices are less volatile than a single node's and hub settlement is seen as lower risk. [e13][e14] Norton Rose Fulbright adds that corporate offtakers and lenders like liquid, high-volume hubs because they ease the analysis of price trends. [e35] The cost is that the node-to-hub basis risk falls on the project. [e13]
+Hubs aggregate many nodes, so hub prices are less volatile than a single node's and hub settlement is seen as lower risk. [e13][e14] Norton Rose Fulbright adds that corporate offtakers and lenders prefer liquid, high-volume hubs, and that this may ease the analysis of price trends. [e35] The cost is that the node-to-hub basis risk falls on the project. [e9][e13]
 
 ### Why is basis risk especially relevant for West Texas renewables?
 
@@ -253,11 +267,11 @@ Clustered wind or solar congests the export lines in high-output hours and drive
 
 ### What can a project do about basis risk?
 
-The sources list pricing adjustments or caps in the contract, ancillary basis hedges with third parties, tracking accounts, economic curtailment, and reserves and holdbacks. [e17][e18] Two publishers add that storage can shift sales to less congested hours and so change the underlying risk. [e15][e16] When the hub is above the node, a project may also curtail to avoid selling at a loss, which costs the buyer RECs. [e32]
+Norton Rose Fulbright lists pricing adjustments or caps in the contract and ancillary basis hedges with third parties; POWER Magazine lists tracking accounts, economic curtailment, reserves and holdbacks, and non-speculative hedges. [e17][e18] Two publishers add that storage can reduce basis risk by shifting sales to less congested hours. [e15][e16] Norton Rose Fulbright notes that when the hub is above the node a project may curtail to avoid the loss, which leaves the buyer with fewer RECs. [e32]
 
 ### What if a hub-settled project is offline when the hub price spikes?
 
-Under an as-produced VPPA it generally owes nothing for hours it does not produce, because the volume is the project's output. [e34] The basis loss arises when it does produce and the hub rises more than its node, since it must cover the difference. [e10]
+Norton Rose Fulbright says that under an as-produced VPPA it generally owes nothing for hours it does not produce, and that the loss arises when it does produce and the hub spikes more than its node, since it must cover the difference. [e34][e10]
 
 ### How could an ERCOT generator use CRRs or PTP Obligations against node-to-hub basis?
 
@@ -265,21 +279,23 @@ A CRR or PTP Obligation runs from a source Settlement Point to a different sink 
 
 ### Why does the buyer care about basis if it never takes the power?
 
-A virtual PPA hedges the buyer only if the project's price and the price the buyer pays move together. If the project's node falls while the buyer's own price rises, the buyer pays more under the contract and the hedge erodes. [e3][e5]
+A virtual PPA hedges the buyer only if the project's price and the price the buyer pays move together. Yale says the buyer can end up paying more if nodal prices fall relative to its retail price, and RMI that the hedge erodes if the relationship between prices at different locations changes. [e36][e37]
 
 ## Scenarios
 
 ### A Panhandle wind farm has a hub-settled VPPA. A week of heavy wind congests the export lines. What happens?
 
 - Node prices in the area fall with congestion. [e11][e23]
-- The project still settles at the hub, so it effectively buys at the hub what it sells at its node and loses the hub-minus-node spread on every MWh. [e9]
+- The project still settles at the hub, so it carries the node-to-hub gap and, Norton Rose Fulbright says, loses when hub prices are above its node price. [e9][e38]
 - It may curtail to stop the loss, which reduces the buyer's RECs, or rely on contract tools such as tracking accounts, caps or a basis hedge. [e32][e17][e18]
-- A CRR or PTP Obligation from its node to the hub would have paid on that spread, at DAM or real-time prices depending on the instrument. [e26][e28]
+- A CRR or PTP Obligation from its node to the hub would be paid the sink-minus-source difference, at DAM or Real-Time prices depending on the instrument, having cost its purchase price. [e26][e28][e29]
 
 ## Open items
 
 - Single-source, not cross-checked (Norton Rose Fulbright, 2020): in August 2019 the ERCOT North hub spiked to $9,000/MWh while node prices were about $1,000/MWh, implying a $2.4 million one-hour loss for a 300 MW hub-settled project. ERCOT facts need a tier 1-2 source; none found.
 - Single-source, not cross-checked (RMI): the City of Houston agreed to pay the basis between its load zone and a West Texas project's node in a 50 MW PPA signed in 2017.
+- Single-source, not cross-checked (Norton Rose Fulbright): hub settlement requires the project to buy at the hub the same volume it sells at the node, so on that volume it loses the hub-minus-node difference.
+- Single-source, not cross-checked (Yale): hub settlement or price floors shift the node-to-hub risk to the project without changing the project's underlying basis risk, and the project then seeks a higher PPA price.
 - No saved source says how well a node-to-hub CRR or PTP Obligation offsets a hub-settled VPPA in practice (DAM versus real-time settlement, MW shape, auction cost).
 - No IMM figure on average node-to-hub spreads for renewable nodes was found; the IMM reports congestion and captured prices, not basis by project.
 - Norton Rose Fulbright says hub settlement "is perceived" to carry less risk, and Yale that hubs "may not be perfectly correlated" with the buyer's price: no source quantifies hub-to-load-zone basis in ERCOT.
