@@ -98,7 +98,7 @@ evidence:
   - id: e14
     source: puct-25-55
     locator: "16 TAC 25.55(b)(2), definition of Generation entity"
-    quote: "Generation entity -- An ERCOT-registered resource entity acting on behalf of an ERCOT-registered generation resource or energy storage resource."
+    quote: "Generation entity -- An ERCOT-registered resource entity acting on behalf of an ERCOTregistered generation resource or energy storage resource."
   - id: e15
     source: puct-25-55
     locator: "16 TAC 25.55(a)(1)"
@@ -193,8 +193,8 @@ evidence:
     quote: "If necessary to come into compliance, a generation entity must update its winter weather emergency preparation measures no later than one year after ERCOT files a historical weather study report under subsection (i) of this section."
   - id: e38
     source: puct-25-55
-    locator: "16 TAC 25.55(f)(1)(A), TSP winter measures"
-    quote: "Confirmation that the sulfur hexafluoride gas in breakers and metering and other electrical equipment is at the correct pressure and temperature to operate safely during winter weather emergencies, and perform annual maintenance that tests sulfur hexafluoride breaker heaters and supporting circuitry to assure that they are functional; and"
+    locator: "16 TAC 25.55(f)(1)(A)(i), TSP winter measures"
+    quote: "Confirmation of the operability of all systems and subsystems containing all cold weather critical components;"
   - id: e39
     source: np-03
     locator: "Section 3.21, Submission of Declarations of Natural Gas Pipeline Coordination, paragraph (1)"
@@ -261,7 +261,7 @@ Weatherization standards are the PUCT's weather emergency preparedness rule, 16 
 
 **After a failure.** If a resource has a repeated or major weather-related forced interruption of service, ERCOT notifies the entity and staff, and the entity must contract a qualified professional engineer to assess its preparation measures, plans, procedures and operations. [e7] A major interruption is a failure to start for 12 or more continuous hours, or loss of 50% or more of the seasonal net maximum sustainable rating for 12 or more continuous hours, in a weather emergency; a repeated one is three or more qualifying occurrences from separate weather emergencies within three years. [e17][e18] The engineer must be independent of the entity and its affiliates, perform a root cause analysis and corrective action plan, and the entity must submit the assessment to the PUCT and ERCOT within 15 calendar days of receiving it. [e34][e33]
 
-**Transmission providers.** TSPs have parallel duties, including confirming sulfur hexafluoride breaker gas pressure and heaters, and ERCOT must select at least ten percent of substations or switchyards for inspection every three years. [e38][e35]
+**Transmission providers.** TSPs have parallel duties, including confirming the operability of all systems and subsystems containing cold weather critical components, and ERCOT must select at least ten percent of substations or switchyards for inspection every three years. [e38][e35]
 
 ## ERCOT context
 
