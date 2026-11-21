@@ -41,7 +41,7 @@ links:
     note: Real-time Energy Imbalance Service at a Resource Node is calculated at that Resource Node Settlement Point. [e16][e24]
   - to: cop
     type: related
-    note: A QSE must update the COP within 60 minutes after a Forced Outage, [e23]
+    note: A QSE must update the COP within 60 minutes after a Forced Outage. [e23]
   - to: asdc
     type: related
     note: Real-time Ancillary Service awards depend on Resource capability and ASDCs. [e22]

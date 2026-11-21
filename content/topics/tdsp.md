@@ -262,7 +262,7 @@ evidence:
   - id: e55
     source: puct-25-193
     locator: "16 TAC §25.193(c), TCRF Formula, ADJ definition"
-    quote: "ADJ = adjustment to Rate Class TCRF; EXPp = transmission expenses not included in base rates for period p;"
+    quote: "ADJ = adjustment to Rate Class TCRF; EXPp = transmission expenses not included in base rates for period p; REVp = TCRF revenue for period p;"
   - id: e56
     source: puct-25-193
     locator: "16 TAC §25.193(c), TCRF Formula, BD definition"
