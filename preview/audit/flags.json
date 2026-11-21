@@ -1,14 +1,14 @@
 {
  "counts": {
-  "number-not-in-quote": 1207,
-  "proposal-or-filing-source": 280,
-  "ocr": 92,
-  "pending-box": 60,
+  "number-not-in-quote": 1203,
+  "proposal-or-filing-source": 302,
+  "ocr": 95,
+  "pending-box": 82,
   "tier-3": 182
  },
  "evidenceByTier": {
-  "1": 3655,
-  "2": 2607,
+  "1": 3859,
+  "2": 2685,
   "3": 182
  },
  "ocrPages": {
@@ -251,15 +251,15 @@
   },
   {
    "topic": "asdc",
-   "kind": "number-not-in-quote",
-   "where": "How it works #3",
-   "detail": "$250 :: The protocols define a Minimum Contingency Level (MCL) of 3,000 MW.  For quantities up to the MCL, the maximum demand prices are Reg-Up at V"
+   "kind": "proposal-or-filing-source",
+   "where": "e60",
+   "detail": "puct-59550-ercot-comments: revision-request reports contain party comments and proposals as well as adopted text"
   },
   {
    "topic": "asdc",
    "kind": "number-not-in-quote",
-   "where": "Formula #1",
-   "detail": "10,000 MW :: Step 1, historical pricing. For every SCED interval in the data window where on-line plus off-line reserves (RTOLCAP + RTOFFCAP) were under "
+   "where": "How it works #3",
+   "detail": "$250 :: The protocols define a Minimum Contingency Level (MCL) of 3,000 MW.  For quantities up to the MCL, the maximum demand prices are Reg-Up at V"
   },
   {
    "topic": "asdc",
@@ -270,14 +270,8 @@
   {
    "topic": "asdc",
    "kind": "number-not-in-quote",
-   "where": "ERCOT context #2",
-   "detail": "2026 :: Shortages have been rare. Over December 5, 2025 through February 2026, the IMM counts about 25.9 hours of NSRS shortage (average 702.2 MW, a"
-  },
-  {
-   "topic": "asdc",
-   "kind": "number-not-in-quote",
    "where": "Timeline #1",
-   "detail": "2020, 4.4 :: December 8, 2020: ERCOT Board approves NPRR1008 (RTC Day-Ahead Operations), whose Section 4.4.12 text set up the AORDC.  That 2020 text buil"
+   "detail": "2020, 4.4 :: December 8, 2020: ERCOT Board approves NPRR1008 (RTC Day-Ahead Operations), whose Section 4.4.12 text set up the AORDC.  That 2020 text spec"
   },
   {
    "topic": "asdc",
@@ -332,12 +326,6 @@
    "kind": "number-not-in-quote",
    "where": "Questions #8",
    "detail": "2026 :: It wants to drop the requirement that the ASDCs add up to the AORDC and build each ASDC from the reliability value of its own product.  As a"
-  },
-  {
-   "topic": "asdc",
-   "kind": "number-not-in-quote",
-   "where": "Questions #10",
-   "detail": "2026 :: Under RTC there is no explicit shortage adder; the energy price natively includes any shortage value produced by the ASDCs through co-optimi"
   },
   {
    "topic": "asdc",
@@ -589,7 +577,7 @@
    "topic": "battery-revenue-stack",
    "kind": "number-not-in-quote",
    "where": "Formula #7",
-   "detail": "2023 :: In words: the longer the duration requirement, the fewer MW of that service each MWh of state of charge can support, which is why the IMM in"
+   "detail": "2023 :: In words: the longer the duration requirement, the fewer MW of that service each MWh of state of charge can support, which is why the IMM's "
   },
   {
    "topic": "battery-revenue-stack",
@@ -632,6 +620,12 @@
    "kind": "number-not-in-quote",
    "where": "Timeline #1",
    "detail": "2025 :: December 2020: NPRR1014 (ESR single model) approved; February 2024: NPRR1204 (state of charge under RTC) approved (per ERCOT's July 2025 ove"
+  },
+  {
+   "topic": "battery-revenue-stack",
+   "kind": "number-not-in-quote",
+   "where": "Timeline #2",
+   "detail": "2024 :: 2023: ECRS introduced; the IMM's 2023 report (published 2024) recommends a one-hour ECRS duration and later describes the 2023 ECRS revenue "
   },
   {
    "topic": "battery-revenue-stack",
@@ -706,6 +700,12 @@
    "detail": "$211 :: Top real-time constraint by congestion rent, Oct 2024 to Sep 2025: Koch Tap - Vealmoor 138kV, $211M. "
   },
   {
+   "topic": "binding-constraint",
+   "kind": "number-not-in-quote",
+   "where": "Link to market-power-mitigation",
+   "detail": "3.19 :: related Market Power Mitigation (Competitiveness Tests, Mitigated Offer Caps): Each binding constraint is designated Competitive or Non-Comp"
+  },
+  {
    "topic": "black-start",
    "kind": "number-not-in-quote",
    "where": "How it works #3",
@@ -721,7 +721,7 @@
    "topic": "black-start",
    "kind": "number-not-in-quote",
    "where": "Formula #1",
-   "detail": "6.6, 8.1 :: Hourly Standby Fee (np-06 Section 6.6.8.1 and the Standard Form Black Start Agreement, Section 9): the fee for an hour is the Hourly Standby"
+   "detail": "6.6, 8.1 :: Hourly Standby Fee (np-06 Section 6.6.8.1 and the Standard Form Black Start Agreement, Section 9): the protocol hourly payment is BSSAMT = ("
   },
   {
    "topic": "black-start",
@@ -863,9 +863,9 @@
   },
   {
    "topic": "congestion",
-   "kind": "number-not-in-quote",
-   "where": "How it works #3",
-   "detail": "$2,185 :: Congestion rent is the difference between what consumers pay and what generators receive, based on locational price differences. It accrues "
+   "kind": "ocr",
+   "where": "e30",
+   "detail": "imm-som-2025 page 90"
   },
   {
    "topic": "congestion",
@@ -913,7 +913,13 @@
    "topic": "cop",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #4",
-   "detail": "3.9, 8.1 :: Accuracy monitoring: ERCOT monitors COP accuracy under Section 8 (Section 3.9, paragraph (3) points there).  Under Section 8.1.2, ERCOT post"
+   "detail": "8.1 :: Accuracy monitoring: ERCOT monitors the accuracy of each QSE's COP as outlined in Section 8, Performance Monitoring.  Under Section 8.1.2, C"
+  },
+  {
+   "topic": "cop",
+   "kind": "number-not-in-quote",
+   "where": "Questions #14",
+   "detail": "8.1 :: ERCOT monitors it under Section 8 ; one measure in Section 8.1.2 is the monthly count of hours when a RUC-committed Resource failed to be On"
   },
   {
    "topic": "credit-tpe",
@@ -929,6 +935,12 @@
   },
   {
    "topic": "credit-tpe",
+   "kind": "pending-box",
+   "where": "e76",
+   "detail": "np-16 line 1314: | | [NPRR1188: Replace the variable \"MCE\" above with the following upon system implementation:] | | | |"
+  },
+  {
+   "topic": "credit-tpe",
    "kind": "number-not-in-quote",
    "where": "How it works #5",
    "detail": "16.11 :: A pending change (NPRR1023, to take effect upon system implementation) would add a Section 16.11.8 under which ERCOT may at its sole discret"
@@ -937,7 +949,7 @@
    "topic": "credit-tpe",
    "kind": "number-not-in-quote",
    "where": "Example #1",
-   "detail": "$15, $5, 0.10, 1.10, $4.4, $0, :: Suppose a Counter-Party has TPEA of $4 million, TPES of $10 million, no CRR bilateral trades or locked auction limit, and posts $15 million "
+   "detail": "$15, $5, 0.10, 1.10, $4.4, $0,, $0 :: Suppose a Counter-Party has TPEA of $4 million, TPES of $10 million, no CRR bilateral trades or locked auction limit, and posts $15 million "
   },
   {
    "topic": "credit-tpe",
@@ -950,6 +962,12 @@
    "kind": "number-not-in-quote",
    "where": "Common confusion #1",
    "detail": "16.11 :: TPE is the sum of TPEA and TPES ; Section 16.11.1 states the requirement as Financial Security at or above TPE, and Section 16.11.5 spells o"
+  },
+  {
+   "topic": "credit-tpe",
+   "kind": "number-not-in-quote",
+   "where": "Link to ptp-obligation",
+   "detail": "4.4 :: related PTP Obligation: ERCOT calculates DAM credit exposure for PTP Obligation bids (Section 4.4.10(6)(d)), and DAM bids and offers are acc"
   },
   {
    "topic": "crez",
@@ -1028,6 +1046,18 @@
    "kind": "ocr",
    "where": "e60",
    "detail": "imm-som-2025 page 90"
+  },
+  {
+   "topic": "crr",
+   "kind": "pending-box",
+   "where": "e62",
+   "detail": "np-07 line 1178: | [NPRR1030: Replace paragraph (3) above with the following upon system implementation:] |"
+  },
+  {
+   "topic": "crr",
+   "kind": "pending-box",
+   "where": "e63",
+   "detail": "np-07 line 2599: | [NPRR1030: Replace paragraph (1) above with the following upon system implementation:] |"
   },
   {
    "topic": "crr",
@@ -1153,7 +1183,7 @@
    "topic": "dart-spread",
    "kind": "number-not-in-quote",
    "where": "Common confusion #3",
-   "detail": "698% :: A percentage premium on a low-priced AS product can look huge (Responsive 698%) while the dollar gap is a few dollars per MW. "
+   "detail": "698% :: A percentage premium on a low-priced AS product can look huge (Responsive 698%) while the gap in Table A2 is $3.30 versus $0.41 per MWh. "
   },
   {
    "topic": "dart-spread",
@@ -1194,6 +1224,12 @@
   {
    "topic": "dgr-sodg",
    "kind": "number-not-in-quote",
+   "where": "Key facts #6",
+   "detail": "3.8 :: Under the current text of 3.8.6(1)(a), a DGR or DESR whose circuit will be disconnected in specified load-shed events is immediately disqual"
+  },
+  {
+   "topic": "dgr-sodg",
+   "kind": "number-not-in-quote",
    "where": "Say it like this #1",
    "detail": "1 MW :: (Guidance) A DGR is distribution-connected generation that participates in the market as a Generation Resource; an SODG sits on the distribu"
   },
@@ -1202,6 +1238,12 @@
    "kind": "number-not-in-quote",
    "where": "Common confusion #1",
    "detail": "10 MW :: (Guidance) The names look alike but the market roles differ: a DGR is a Generation Resource, while the settlement-only (SOG) category cannot"
+  },
+  {
+   "topic": "dgr-sodg",
+   "kind": "number-not-in-quote",
+   "where": "Questions #10",
+   "detail": "3.8 :: Under the current text of 3.8.6(1)(a), it is immediately disqualified from offering any Ancillary Service once the DSP's determination is no"
   },
   {
    "topic": "dgr-sodg",
@@ -1505,6 +1547,48 @@
   },
   {
    "topic": "drrs",
+   "kind": "proposal-or-filing-source",
+   "where": "e58",
+   "detail": "ercot-nprr1309-puct-report: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "drrs",
+   "kind": "proposal-or-filing-source",
+   "where": "e59",
+   "detail": "ercot-nprr1309-puct-report: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "drrs",
+   "kind": "proposal-or-filing-source",
+   "where": "e60",
+   "detail": "ercot-nprr1309-puct-report: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "drrs",
+   "kind": "proposal-or-filing-source",
+   "where": "e61",
+   "detail": "ercot-nprr1309-puct-report: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "drrs",
+   "kind": "proposal-or-filing-source",
+   "where": "e62",
+   "detail": "ercot-nprr1309-comments-2026-05: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "drrs",
+   "kind": "proposal-or-filing-source",
+   "where": "e63",
+   "detail": "imm-nprr1309-comments-2026-02: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "drrs",
+   "kind": "proposal-or-filing-source",
+   "where": "e64",
+   "detail": "ercot-drrs-workshop-3: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "drrs",
    "kind": "number-not-in-quote",
    "where": "Definition #1",
    "detail": "2026 :: DRRS is a new Ancillary Service, set up under NPRR1309 (approved by the PUCT on July 9, 2026 but not yet implemented), that provides operati"
@@ -1513,7 +1597,7 @@
    "topic": "drrs",
    "kind": "number-not-in-quote",
    "where": "Formula #1",
-   "detail": "$15, $5 :: Pricing. In the approved text, DRRS gets its own ASDC as the fifth product cut from the AORDC, with a minimum price of $0.01/MWh (against EC"
+   "detail": "$5 :: Pricing. In the approved text, DRRS gets its own ASDC as the fifth product cut from the AORDC , with a minimum price of $0.01/MWh (against E"
   },
   {
    "topic": "drrs",
@@ -1602,6 +1686,12 @@
   {
    "topic": "drrs",
    "kind": "number-not-in-quote",
+   "where": "Scenarios #5",
+   "detail": "2026 :: The DRRS ASDC floor is $10 per MW per hour over the DRRS plan, but the IMM said in April 2026 that DRRS procurement volumes were still unkno"
+  },
+  {
+   "topic": "drrs",
+   "kind": "number-not-in-quote",
    "where": "Link to energy-storage-resource",
    "detail": "2026 :: related Energy Storage Resource (ESR): NPRR1309 limits DRRS to Generation Resources; storage participation was carried into NPRR1340 in June"
   },
@@ -1637,6 +1727,12 @@
   },
   {
    "topic": "ecrs",
+   "kind": "pending-box",
+   "where": "e46",
+   "detail": "np-04 line 2460: | [NPRR1309: Replace paragraph (b) above with the following upon system implementation:] |"
+  },
+  {
+   "topic": "ecrs",
    "kind": "number-not-in-quote",
    "where": "How it works #5",
    "detail": "2026, 2027 :: **How much ERCOT buys.** The 2026 methodology says the frequency-recovery capacity for ECRS is the capacity needed after a supply-side trip,"
@@ -1645,13 +1741,13 @@
    "topic": "ecrs",
    "kind": "number-not-in-quote",
    "where": "How it works #6",
-   "detail": "4.4, 40 MW :: **Pricing in the ASDC.** In Protocol Section 4.4.12 the ECRS Max Demand Price is VOLL + 50,  the fixed parameters include an ECRS maximum pe"
+   "detail": "4.4, 40 MW :: **Pricing in the ASDC.** In Protocol Section 4.4.12 the ECRS Max Demand Price is VOLL + 50,  the fixed parameters include ECRSPCTMAX of 30 ("
   },
   {
    "topic": "ecrs",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #3",
-   "detail": "2026, 420%, 36% :: Prices: ECRS annual average DAM prices were $73.18 (2023), $9.56 (2024) and $2.65 (2025) per MWh in the IMM's 2025 report (OCR copy).  The I"
+   "detail": "420%, 36% :: Prices: ECRS annual average DAM prices were $73.18 (2023), $9.56 (2024) and $2.65 (2025) per MWh in the IMM's 2025 report (OCR copy).  The I"
   },
   {
    "topic": "ecrs",
@@ -1675,7 +1771,7 @@
    "topic": "ecrs",
    "kind": "number-not-in-quote",
    "where": "Link to asdc",
-   "detail": "4.4 :: related ASDC (Ancillary Service Demand Curves): The ECRS demand curve has a Max Demand Price of VOLL + 50 in the Section 4.4.12 table, and i"
+   "detail": "4.4 :: related ASDC (Ancillary Service Demand Curves): The ECRS demand curve has a Max Demand Price of VOLL + 50 in the Section 4.4.12 table, and t"
   },
   {
    "topic": "ecrs",
@@ -1699,7 +1795,13 @@
    "topic": "eea",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #3",
-   "detail": "2027, 2026 :: ERCOT's 2027 AS methodology proposal (a Board item, September 14-15, 2026, requiring PUCT approval whose outcome is not in the saved sources"
+   "detail": "2027, 2026 :: ERCOT's 2027 AS methodology proposal (a Board item, September 14-15, 2026; its outcome is not in the saved sources) would change the ECRS/No"
+  },
+  {
+   "topic": "eea",
+   "kind": "number-not-in-quote",
+   "where": "Link to prc",
+   "detail": "2023 :: measures PRC (Physical Responsive Capability): PRC, the total frequency-responsive Resource capability On-Line in Real-Time (as ERCOT's 2023"
   },
   {
    "topic": "eea",
@@ -1938,12 +2040,6 @@
   {
    "topic": "energy-only-market",
    "kind": "number-not-in-quote",
-   "where": "Common confusion #2",
-   "detail": "$315 :: (Guidance) There are two CONE numbers. The $140 per kW-year planning CONE is what the IMM compares net revenue with; the $105 legacy CONE st"
-  },
-  {
-   "topic": "energy-only-market",
-   "kind": "number-not-in-quote",
    "where": "Questions #6",
    "detail": "2010 :: Because its investment revenue depends on the market actually going short. To reach a strict standard through prices alone, VOLL has to be e"
   },
@@ -1973,6 +2069,12 @@
   },
   {
    "topic": "energy-storage-resource",
+   "kind": "pending-box",
+   "where": "e48",
+   "detail": "np-06 line 2777: | | | | [NPRR1244: Replace the description above with the following upon system implementation:] | |"
+  },
+  {
+   "topic": "energy-storage-resource",
    "kind": "number-not-in-quote",
    "where": "How it works #2",
    "detail": "2025 :: State of charge (SOC) is the stored energy in MWh that can be injected at the POI or POCC.  The QSE must telemeter maximum SOC, minimum SOC,"
@@ -1986,6 +2088,12 @@
   {
    "topic": "energy-storage-resource",
    "kind": "number-not-in-quote",
+   "where": "How it works #5",
+   "detail": "6.6, 5.5, 2025 :: **Set Point Deviation.** ERCOT charges a QSE for over-performance when an ESR's telemetered generation or consumption exceeds a tolerance of"
+  },
+  {
+   "topic": "energy-storage-resource",
+   "kind": "number-not-in-quote",
    "where": "Timeline #3",
    "detail": "2025 :: NPRR1029 (DC-coupled resources, approved December 2020) was described in July 2025 as not part of the RTC+B project. "
   },
@@ -1994,6 +2102,12 @@
    "kind": "number-not-in-quote",
    "where": "Key facts #3",
    "detail": "2025 :: On average in 2025 ESRs provided 94% of Reg-Up and 86% of Reg-Down, per the IMM. "
+  },
+  {
+   "topic": "energy-storage-resource",
+   "kind": "number-not-in-quote",
+   "where": "Questions #10",
+   "detail": "2025 :: ERCOT's July 2025 overview says the Set Point Deviation calculation implemented with RTC+B is less tolerant than the current Base Point Devi"
   },
   {
    "topic": "ercot",
@@ -2155,7 +2269,7 @@
    "topic": "evening-ramp",
    "kind": "number-not-in-quote",
    "where": "How it works #1",
-   "detail": "2023 :: Net load is demand minus renewable generation, so when solar ramps down in the evening and wind has only begun to ramp up, the rest of the f"
+   "detail": "2023 :: Net load is total demand minus renewable generation; the IMM says the tightest system conditions have moved to the later evening hours (7 to"
   },
   {
    "topic": "evening-ramp",
@@ -2203,7 +2317,7 @@
    "topic": "evening-ramp",
    "kind": "number-not-in-quote",
    "where": "Questions #12",
-   "detail": "2025 :: The IMM says it would pre-position slow-ramping resources earlier and reduce reliance on expensive ESRs and quick-start units, because the r"
+   "detail": "2025 :: The IMM says a multi-interval real-time market would pre-position slow-ramping resources earlier and reduce reliance on expensive ESRs and q"
   },
   {
    "topic": "evening-ramp",
@@ -2233,13 +2347,7 @@
    "topic": "evening-ramp",
    "kind": "number-not-in-quote",
    "where": "Link to wind-solar-forecasts",
-   "detail": "2024 :: related Wind & Solar Forecasts (STWPF, STPPF): The IMM's 2024 report says renewable forecast errors affect thermal unit commitment and are e"
-  },
-  {
-   "topic": "exchanges-ice-nodal",
-   "kind": "number-not-in-quote",
-   "where": "How it works #1",
-   "detail": "2026 :: **Contract terms (saved specifications dated 18 November 2026).** The contract settles in cash against the \"ELECTRICITY-ERCOT-NORTH 345KV HU"
+   "detail": "2024 :: related Wind & Solar Forecasts (STWPF, STPPF): The IMM's 2024 report says forecast errors for intermittent renewables directly impact therma"
   },
   {
    "topic": "ferc",
@@ -2322,12 +2430,6 @@
   {
    "topic": "ffss",
    "kind": "number-not-in-quote",
-   "where": "How it works #2",
-   "detail": "2026 :: **Three categories.** The PUCT rule, shown in the saved copy as effective 2/25/2026, defines three ways to qualify. On-site FFSS needs demon"
-  },
-  {
-   "topic": "ffss",
-   "kind": "number-not-in-quote",
    "where": "Formula #1",
    "detail": "6.6, 14.2 :: Hourly standby fee for a primary resource (np-06 Section 6.6.14.2, paragraph (5)): "
   },
@@ -2358,24 +2460,6 @@
   {
    "topic": "ffss",
    "kind": "number-not-in-quote",
-   "where": "Timeline #4",
-   "detail": "2024 :: NPRR1118 (effective 08/01/2024 per the PUCT staff memo's appendix): decreased the number of obligation periods awarded in one procurement fr"
-  },
-  {
-   "topic": "ffss",
-   "kind": "number-not-in-quote",
-   "where": "Timeline #5",
-   "detail": "2025 :: NPRR1141 (approved 05/15/2025, effective 06/01/2025 per the PUCT staff memo): standby fee clawbacks during a winter weather Watch use a line"
-  },
-  {
-   "topic": "ffss",
-   "kind": "number-not-in-quote",
-   "where": "Timeline #6",
-   "detail": "25.520 :: February 2026: PUCT rulemaking for 16 TAC 25.520 (per the IMM; saved rule copy shows effective 2/25/2026). "
-  },
-  {
-   "topic": "ffss",
-   "kind": "number-not-in-quote",
    "where": "Questions #14",
    "detail": "2026, 2027, 2025, $52.4, $52.1 :: The budget cap is fixed, so the MW procured depends on the offers: the 2026-2027 summary shows 3743.4 MW procured against 4250.4 MW for 2025"
   },
@@ -2396,12 +2480,6 @@
    "kind": "number-not-in-quote",
    "where": "Link to weatherization",
    "detail": "39.159 :: related Weatherization Standards: SB 3 directs the PUC to ensure that winter resource capability qualifications for a service described by P"
-  },
-  {
-   "topic": "ffss",
-   "kind": "number-not-in-quote",
-   "where": "Link to puct",
-   "detail": "25.520, 2026 :: related PUCT (Public Utility Commission of Texas): The PUCT rule for FFSS, 16 TAC 25.520, is shown in the saved copy as effective 2/25/2026."
   },
   {
    "topic": "forward-curve",
@@ -2663,6 +2741,24 @@
   },
   {
    "topic": "four-cp",
+   "kind": "proposal-or-filing-source",
+   "where": "e47",
+   "detail": "puct-58000-pfp: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "four-cp",
+   "kind": "proposal-or-filing-source",
+   "where": "e48",
+   "detail": "puct-58484-draft-report: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "four-cp",
+   "kind": "proposal-or-filing-source",
+   "where": "e49",
+   "detail": "puct-58484-draft-report: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "four-cp",
    "kind": "number-not-in-quote",
    "where": "Formula #1",
    "detail": "25.192 :: Current rule (16 TAC 25.192, in effect): TSP annual rate = commission-approved transmission cost of service ÷ ERCOT average 4CP demand (June"
@@ -2670,38 +2766,8 @@
   {
    "topic": "four-cp",
    "kind": "number-not-in-quote",
-   "where": "ERCOT context #1",
-   "detail": "1999 :: 4CP dates from the mid-1990s. The IMM says the method was approved in 1996.  PUCT Staff's history describes the first ERCOT-wide rate as 70%"
-  },
-  {
-   "topic": "four-cp",
-   "kind": "number-not-in-quote",
-   "where": "ERCOT context #2",
-   "detail": "2023, 2024 :: 4CP is under active revision. SB 6 (June 2025) ordered the PUCT to evaluate whether 4CP still assigns transmission costs appropriately, incl"
-  },
-  {
-   "topic": "four-cp",
-   "kind": "number-not-in-quote",
-   "where": "ERCOT context #4",
-   "detail": "2021, 2025 :: The IMM argues 4CP response suppresses prices and weakens scarcity pricing when the peak intervals no longer match system scarcity.  It also"
-  },
-  {
-   "topic": "four-cp",
-   "kind": "number-not-in-quote",
    "where": "Key facts #6",
    "detail": "2026 :: Staff draft (March 2026): more CPs, longer intervals, large-load minimum demand for 10 to 15 years. "
-  },
-  {
-   "topic": "four-cp",
-   "kind": "number-not-in-quote",
-   "where": "Timeline #2",
-   "detail": "1999 :: 1999: SB 7 requires postage stamp pricing for all ERCOT wholesale transmission; 100% of TCOS goes through the access-fee formula. "
-  },
-  {
-   "topic": "four-cp",
-   "kind": "number-not-in-quote",
-   "where": "Questions #12",
-   "detail": "2023, 2024 :: Staff's analysis of 2023-2024 data finds system load peaks around HE 18 while net load and real-time prices peak around HE 20.  So load cut "
   },
   {
    "topic": "four-cp",
@@ -2754,6 +2820,12 @@
   {
    "topic": "gtc",
    "kind": "number-not-in-quote",
+   "where": "How it works #1",
+   "detail": "2024, 2023 :: **What a GTC may do.** ERCOT may create or modify GTCs only to create flow constraints between areas in applications that cannot recognize n"
+  },
+  {
+   "topic": "gtc",
+   "kind": "number-not-in-quote",
    "where": "How it works #2",
    "detail": "2023 :: **How the limit is set.** In the quarterly stability assessment, if ERCOT finds a GTC is necessary for a new Generation Resource, ESR or SOT"
   },
@@ -2790,8 +2862,20 @@
   {
    "topic": "gtc",
    "kind": "number-not-in-quote",
+   "where": "Common confusion #1",
+   "detail": "2024, 2023 :: GTCs are not thermal line ratings; they are applied as flow limits between areas to manage stability.  The GTL is the number, while the GTC "
+  },
+  {
+   "topic": "gtc",
+   "kind": "number-not-in-quote",
    "where": "Questions #4",
    "detail": "2023 :: It varies by year. The IMM reported real-time GTC congestion of $400 million in 2021 and $640 million in 2022, roughly 11% of real-time cong"
+  },
+  {
+   "topic": "gtc",
+   "kind": "number-not-in-quote",
+   "where": "Questions #8",
+   "detail": "2023 :: If the quarterly stability assessment finds that localized stability issues from the new Resource's output make a GTC necessary, the GTL is "
   },
   {
    "topic": "gtc",
@@ -2845,7 +2929,7 @@
    "topic": "hasl-lasl",
    "kind": "number-not-in-quote",
    "where": "How it works #2",
-   "detail": "7.2, 3.18 :: What replaced them: the same Section 6.5.7.2, Resource Limit Calculator, in the current np-06 text calculates the HDL and LDL within four se"
+   "detail": "7.2 :: What the current rules compute instead (the saved sources do not say HDL and LDL \"replaced\" HASL and LASL): the same Section 6.5.7.2, Resour"
   },
   {
    "topic": "hasl-lasl",
@@ -2858,6 +2942,12 @@
    "kind": "number-not-in-quote",
    "where": "Key facts #5",
    "detail": "7.2 :: Current np-06 Section 6.5.7.2 computes HDL and LDL, not HASL and LASL. "
+  },
+  {
+   "topic": "hasl-lasl",
+   "kind": "number-not-in-quote",
+   "where": "Link to energy-storage-resource",
+   "detail": "6.5, 7.2 :: related Energy Storage Resource (ESR): In the current Section 6.5.7.2 the HDL formulas have a separate ESR paragraph; for an ESR in ONHOLD, "
   },
   {
    "topic": "hb-north",
@@ -2873,6 +2963,24 @@
   },
   {
    "topic": "hb-north",
+   "kind": "ocr",
+   "where": "e30",
+   "detail": "imm-som-2025 page 29"
+  },
+  {
+   "topic": "hb-north",
+   "kind": "pending-box",
+   "where": "e35",
+   "detail": "np-03 line 2662: | [NPRR1057: Replace paragraph (4) above with the following upon system implementation:] |"
+  },
+  {
+   "topic": "hb-north",
+   "kind": "pending-box",
+   "where": "e36",
+   "detail": "np-03 line 3810: | [NPRR941: Replace paragraph (1) above upon system implementation:] |"
+  },
+  {
+   "topic": "hb-north",
    "kind": "number-not-in-quote",
    "where": "How it works #1",
    "detail": "345 kV :: The Hub Bus list. The Protocol table for the North 345 kV Hub starts with buses ANASW, CN345, WLSH, FMRVL and LPCCS and ends at number 75, W"
@@ -2881,7 +2989,7 @@
    "topic": "hb-north",
    "kind": "number-not-in-quote",
    "where": "How it works #4",
-   "detail": "345 kV :: Fallbacks. If no Hub Bus has an energized component, the Protocol sets the North hub price equal to the ERCOT Bus Average 345 kV Hub price, "
+   "detail": "345 kV :: Fallbacks. If no Hub Bus has an energized component (in the base case for the day-ahead formula), the Protocol sets the North hub price equa"
   },
   {
    "topic": "hb-north",
@@ -2893,7 +3001,7 @@
    "topic": "hb-north",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #3",
-   "detail": "2021, 2022, 2023, 2024 :: Price levels: the saved IMM tables give Load Zone prices, not Hub prices. The IMM's Table 1 shows North zone annual average real-time prices"
+   "detail": "2022, 2023, 2024 :: Price levels: the saved IMM tables give Load Zone prices, not Hub prices. The IMM's Table 1 shows North zone annual average real-time prices"
   },
   {
    "topic": "hb-north",
@@ -2945,6 +3053,18 @@
   },
   {
    "topic": "hb-west",
+   "kind": "pending-box",
+   "where": "e35",
+   "detail": "np-03 line 2662: | [NPRR1057: Replace paragraph (4) above with the following upon system implementation:] |"
+  },
+  {
+   "topic": "hb-west",
+   "kind": "ocr",
+   "where": "e37",
+   "detail": "imm-som-2025 page 29"
+  },
+  {
+   "topic": "hb-west",
    "kind": "number-not-in-quote",
    "where": "How it works #1",
    "detail": "345 kV :: The Hub Bus list. The Protocol table for the West 345 kV Hub starts with MULBERRY, BOMSW, OECCS and BITTCR and ends at number 17, TWINBU, so"
@@ -2965,7 +3085,7 @@
    "topic": "hb-west",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #3",
-   "detail": "2021, 2025, 2022, 2023, 2024 :: Zone price levels (load-weighted real-time prices by Load Zone, IMM Table 1, $ per MWh for 2021 to 2025): West $111.56, $66.62, $67.56, $35."
+   "detail": "2023, 2024 :: Zone price levels (load-weighted real-time prices by Load Zone, IMM Table 1, $ per MWh for 2021 to 2025): West $111.56, $66.62, $67.56, $35."
   },
   {
    "topic": "hb-west",
@@ -3257,9 +3377,21 @@
   },
   {
    "topic": "hsl-lsl",
+   "kind": "proposal-or-filing-source",
+   "where": "e41",
+   "detail": "ercot-nprr1290-prs-report: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "hsl-lsl",
    "kind": "number-not-in-quote",
    "where": "Formula #1",
-   "detail": "6.5, 7.2 :: The current Resource Limit Calculator (np-06 Section 6.5.7.2) turns telemetered output, ramp rate and the telemetered limits into dispatch l"
+   "detail": "7.2 :: The current Resource Limit Calculator (np-06 Section 6.5.7.2) turns telemetered output, ramp rate and the telemetered limits into dispatch l"
+  },
+  {
+   "topic": "hsl-lsl",
+   "kind": "number-not-in-quote",
+   "where": "Link to rtc-b",
+   "detail": "6.5, 7.2 :: related RTC+B (Real-Time Co-optimization + Batteries): In the NPRR1290 report ERCOT said the concept of a HASL no longer exists with RTC+B a"
   },
   {
    "topic": "imm",
@@ -3384,14 +3516,14 @@
   {
    "topic": "implied-heat-rate",
    "kind": "number-not-in-quote",
-   "where": "Link to natural-gas-price",
-   "detail": "2024 :: prerequisite-of Natural Gas Prices (Henry Hub): The IMM's implied heat rate divides the electricity price by a fuel price; the 2024 report u"
+   "where": "Questions #10",
+   "detail": "2022 :: In its 2022 report the IMM gives two reasons: higher-marginal-cost resources are dispatched as load approaches peak, and ORDC adders occur m"
   },
   {
    "topic": "implied-heat-rate",
    "kind": "number-not-in-quote",
-   "where": "Link to evening-ramp",
-   "detail": "2025 :: related Evening Ramp / Duck Curve: The IMM's price-spike threshold is an implied heat rate of 18, and most 2025 spikes fell in the evening n"
+   "where": "Link to natural-gas-price",
+   "detail": "2024 :: prerequisite-of Natural Gas Prices (Henry Hub): The IMM's implied heat rate divides the electricity price by a fuel price; the 2024 report u"
   },
   {
    "topic": "large-flexible-load",
@@ -3463,7 +3595,7 @@
    "topic": "large-load-growth",
    "kind": "number-not-in-quote",
    "where": "How it works #2",
-   "detail": "25.370 :: Forecasting now has a gate. Since 16 TAC 25.370 took effect on March 1, 2026, ERCOT may not put a large load's forecast demand into planning"
+   "detail": "25.370 :: Forecasting now has a gate, phased in. Under 16 TAC 25.370 (effective March 1, 2026), ERCOT may not put a large load's forecast demand into "
   },
   {
    "topic": "large-load-growth",
@@ -3504,18 +3636,6 @@
   {
    "topic": "large-load-growth",
    "kind": "number-not-in-quote",
-   "where": "Key facts #4",
-   "detail": "2026 :: September 3, 2026 conditional Batch Zero classification: 66.4 GW base (204 projects), 127.9 GW studied (158 projects), 302.2 GW excluded (37"
-  },
-  {
-   "topic": "large-load-growth",
-   "kind": "number-not-in-quote",
-   "where": "Key facts #7",
-   "detail": "2026 :: Forecast gate: signed 25.194 interconnection agreement required (rule effective March 1, 2026). "
-  },
-  {
-   "topic": "large-load-growth",
-   "kind": "number-not-in-quote",
    "where": "Timeline #3",
    "detail": "2025 :: December 2025: the queue is about 239 GW. "
   },
@@ -3529,7 +3649,7 @@
    "topic": "large-load-growth",
    "kind": "number-not-in-quote",
    "where": "Timeline #6",
-   "detail": "2026, 25.370 :: March 1, 2026: 25.370 forecasting criteria take effect. "
+   "detail": "25.370 :: March 1, 2026: 25.370 forecasting rule takes effect; its interconnection-agreement criteria apply once new planning cases are built (2027 pe"
   },
   {
    "topic": "large-load-growth",
@@ -3571,7 +3691,7 @@
    "topic": "large-load-growth",
    "kind": "number-not-in-quote",
    "where": "Say it like this #1",
-   "detail": "200 GW :: (Guidance) ERCOT's large load queue is several times its record peak, and it is mostly data centers.  History says only part of the requeste"
+   "detail": "194 GW :: (Guidance) ERCOT's large load queue is several times its record peak, and it is mostly data centers.  History says only part of the requeste"
   },
   {
    "topic": "large-load-growth",
@@ -3594,6 +3714,12 @@
   {
    "topic": "large-load-growth",
    "kind": "number-not-in-quote",
+   "where": "Questions #8",
+   "detail": "25.370 :: The rule forbids it: under 25.370 a large load enters planning and resource adequacy forecasts only with a signed 25.194 interconnection agr"
+  },
+  {
+   "topic": "large-load-growth",
+   "kind": "number-not-in-quote",
    "where": "Questions #10",
    "detail": "2026 :: ERCOT said in September 2026 that queued generation would not cover the Batch Zero study load in some conditions, such as no solar.  The IMM"
   },
@@ -3607,7 +3733,7 @@
    "topic": "large-load-growth",
    "kind": "number-not-in-quote",
    "where": "Link to load-forecasting",
-   "detail": "2026 :: affects Load Forecasting: Since March 1, 2026, a large load enters ERCOT's planning forecasts only after it signs a 25.194 interconnection a"
+   "detail": "25.370 :: affects Load Forecasting: Under 16 TAC 25.370 (effective March 1, 2026), a large load is to enter ERCOT's planning forecasts only after it s"
   },
   {
    "topic": "large-load-interconnection",
@@ -3656,6 +3782,18 @@
    "kind": "proposal-or-filing-source",
    "where": "e58",
    "detail": "ercot-pgrr145-puct-report: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "large-load-interconnection",
+   "kind": "proposal-or-filing-source",
+   "where": "e67",
+   "detail": "puct-58000-pfp: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "large-load-interconnection",
+   "kind": "number-not-in-quote",
+   "where": "How it works #3",
+   "detail": "1.1, $0 :: Base load is defined by seven eligibility paths, each to be met on or before July 10, 2026; a base load is modeled without further evaluatio"
   },
   {
    "topic": "large-load-interconnection",
@@ -3708,6 +3846,12 @@
   {
    "topic": "large-load-interconnection",
    "kind": "number-not-in-quote",
+   "where": "Timeline #14",
+   "detail": "2026 :: April 9, 2027: Batch Zero study report date in PGRR145; in September 2026 ERCOT said it was still determining the impact to the study timeli"
+  },
+  {
+   "topic": "large-load-interconnection",
+   "kind": "number-not-in-quote",
    "where": "Timeline #15",
    "detail": "2026 :: Summer 2027 (planned as of June 2026): Batch 1 applications open. "
   },
@@ -3751,7 +3895,7 @@
    "topic": "lmp",
    "kind": "number-not-in-quote",
    "where": "Formula #2",
-   "detail": "2025 :: Caps on the Shadow Prices set the limit of the formula when constraints cannot be resolved.  ERCOT establishes a maximum Shadow Price for ea"
+   "detail": "2025 :: The maximum Shadow Prices for the transmission network constraints and the power balance constraint directly determine the real-time LMPs in"
   },
   {
    "topic": "lmp",
@@ -3791,6 +3935,12 @@
   },
   {
    "topic": "load-forecasting",
+   "kind": "proposal-or-filing-source",
+   "where": "e51",
+   "detail": "ercot-ltlf-2026-adjust-proposal: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "load-forecasting",
    "kind": "number-not-in-quote",
    "where": "How it works #5",
    "detail": "3.12 :: Pending changes (not the rule in force; they appear as pending boxes in the Protocols). NPRR975 (np-03 3.12.1) would have ERCOT use a variet"
@@ -3811,13 +3961,13 @@
    "topic": "load-forecasting",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #4",
-   "detail": "25.370, 2026 :: Long-term and large loads. The IMM says ERCOT's peak demand grew from 74.7 GW in 2019 to 85.6 GW in 2024 (2.76% a year), while recent foreca"
+   "detail": "25.370 :: Long-term and large loads. The IMM says ERCOT's peak demand grew from 74.7 GW in 2019 to 85.6 GW in 2024 (2.76% a year), while recent foreca"
   },
   {
    "topic": "load-forecasting",
    "kind": "number-not-in-quote",
    "where": "Key facts #8",
-   "detail": "2026 :: Preliminary 2026 LTLF: 367,790 MW by 2032 versus an 85,508 MW record. "
+   "detail": "2026 :: Preliminary 2026 LTLF: 367,790 MW by 2032 versus an 85,508 MW record; the vast majority is Large Loads identified in TDSP submissions. "
   },
   {
    "topic": "load-forecasting",
@@ -3829,7 +3979,7 @@
    "topic": "load-forecasting",
    "kind": "number-not-in-quote",
    "where": "Timeline #5",
-   "detail": "2026, 25.370 :: March 1, 2026: 16 TAC §25.370 effective. "
+   "detail": "25.370 :: March 1, 2026: 16 TAC §25.370 effective; its subsection (c) criteria apply to planning cases ERCOT constructs after that (phased in). "
   },
   {
    "topic": "load-forecasting",
@@ -3842,6 +3992,12 @@
    "kind": "number-not-in-quote",
    "where": "Common confusion #1",
    "detail": "452 MW, 2025 :: (Guidance) Net Load is Load minus wind and PV generation , and the IMM ties commitment risk to the net demand forecast rather than load alon"
+  },
+  {
+   "topic": "load-forecasting",
+   "kind": "number-not-in-quote",
+   "where": "Questions #10",
+   "detail": "2026 :: The IMM says an over-forecast of net demand can lead to sub-optimal commitment, though that discussion concerns net demand forecasts in oper"
   },
   {
    "topic": "load-forecasting",
@@ -3905,6 +4061,42 @@
   },
   {
    "topic": "load-ratio-share",
+   "kind": "pending-box",
+   "where": "e35",
+   "detail": "np-06 line 4545: | [NPRR1030: Insert Section 6.6.2.5 below upon system implementation:] |"
+  },
+  {
+   "topic": "load-ratio-share",
+   "kind": "pending-box",
+   "where": "e36",
+   "detail": "np-06 line 4603: | [NPRR1030: Insert Section 6.6.2.7 below upon system implementation:] |"
+  },
+  {
+   "topic": "load-ratio-share",
+   "kind": "pending-box",
+   "where": "e37",
+   "detail": "np-06 line 4632: | [NPRR1030: Insert Section 6.6.2.8 below upon system implementation:] |"
+  },
+  {
+   "topic": "load-ratio-share",
+   "kind": "pending-box",
+   "where": "e39",
+   "detail": "np-07 line 1169: | [NPRR1030: Replace paragraph (2) above with the following upon system implementation:] |"
+  },
+  {
+   "topic": "load-ratio-share",
+   "kind": "pending-box",
+   "where": "e40",
+   "detail": "np-07 line 2599: | [NPRR1030: Replace paragraph (1) above with the following upon system implementation:] |"
+  },
+  {
+   "topic": "load-ratio-share",
+   "kind": "pending-box",
+   "where": "e41",
+   "detail": "np-06 line 5549: | [NPRR1030: Replace paragraph (c) above with the following upon system implementation:] |"
+  },
+  {
+   "topic": "load-ratio-share",
    "kind": "number-not-in-quote",
    "where": "How it works #2",
    "detail": "6.6, 2.2, 2.4 :: **Variants in force.** The Protocols define the 15-minute LRS in Section 6.6.2.2 and an hourly LRS in Section 6.6.2.4.  The 15-minute LRS fo"
@@ -3913,7 +4105,7 @@
    "topic": "load-ratio-share",
    "kind": "number-not-in-quote",
    "where": "How it works #4",
-   "detail": "6.6, 2.2, 2.5, 2.8 :: **Pending (NPRR1030).** Paragraphs (2)-(4) of Section 6.6.2.2, and Sections 6.6.2.5 to 6.6.2.8, are inserts that apply only upon system impl"
+   "detail": "2.2, 7.5, 7.9, 3.5 :: **Pending (NPRR1030).** Paragraphs (2)-(4) of Section 6.6.2.2, and Sections 6.6.2.5 to 6.6.2.8, are inserts that apply only upon system impl"
   },
   {
    "topic": "load-shed",
@@ -3925,7 +4117,7 @@
    "topic": "load-shed",
    "kind": "number-not-in-quote",
    "where": "Questions #10",
-   "detail": "2021 :: The Operating Guides require TOs to minimize that overlap, and FERC and NERC found in 2021 that using UFLS circuits for manual shed made the"
+   "detail": "2021 :: The Operating Guides require TOs to minimize that overlap, and the FERC and NERC report on the 2021 event says using UFLS circuits for manua"
   },
   {
    "topic": "load-shed",
@@ -4081,7 +4273,7 @@
    "topic": "long-term-load-forecast",
    "kind": "number-not-in-quote",
    "where": "How it works #2",
-   "detail": "75 MW :: For the 2026 cycle the PUCT's rule 16 TAC §25.370 (effective March 1, 2026, Project 58480) changed the inputs.  A \"large load customer\" is o"
+   "detail": "75 MW :: The PUCT's rule 16 TAC §25.370 (effective March 1, 2026, Project 58480) changed the inputs, with interim compliance-plan criteria for the 20"
   },
   {
    "topic": "long-term-load-forecast",
@@ -4099,7 +4291,7 @@
    "topic": "long-term-load-forecast",
    "kind": "number-not-in-quote",
    "where": "Key facts #2",
-   "detail": "2025 :: 2025 haircuts on large loads: 180-day delay, data centers to 49.8%, officer letters to 55.4%. "
+   "detail": "2025 :: 2025 haircuts on large loads: 180-day delay, non-crypto data centers to 49.8%, officer letters to 55.4%. "
   },
   {
    "topic": "long-term-load-forecast",
@@ -4165,7 +4357,7 @@
    "topic": "long-term-load-forecast",
    "kind": "number-not-in-quote",
    "where": "Questions #10",
-   "detail": "2025, 25.370 :: Under the 2025 method it could enter the forecast as an Officer Letter load, at 55.4% after a 180-day delay.  Under §25.370 it cannot enter "
+   "detail": "2025 :: Under the 2025 method it could enter the forecast as an Officer Letter load, after a 180-day delay, reduced to 49.8% (if a non-crypto data c"
   },
   {
    "topic": "long-term-load-forecast",
@@ -4212,20 +4404,32 @@
   {
    "topic": "lse",
    "kind": "number-not-in-quote",
-   "where": "Scenarios #2",
-   "detail": "6.1 :: The REP, as an LSE, must designate a new QSE or qualify as an Emergency QSE within the Section 16.2.6.1 deadlines, or be designated a Virtua"
-  },
-  {
-   "topic": "lse",
-   "kind": "number-not-in-quote",
    "where": "Link to tdsp",
    "detail": "16.3 :: contrasts-with TDSP (Transmission & Distribution Service Provider): TSPs and DSPs register with ERCOT as a TSP or DSP, which is separate fro"
+  },
+  {
+   "topic": "market-information-system",
+   "kind": "pending-box",
+   "where": "e37",
+   "detail": "np-11 line 820: | [NPRR1239: Replace paragraphs (1)-(3) above with the following upon system implementation:] |"
+  },
+  {
+   "topic": "market-information-system",
+   "kind": "pending-box",
+   "where": "e38",
+   "detail": "np-11 line 822: | [NPRR1239: Replace paragraphs (1)-(3) above with the following upon system implementation:] |"
   },
   {
    "topic": "market-information-system",
    "kind": "number-not-in-quote",
    "where": "How it works #3",
    "detail": "12.3 :: Design requirements (Protocols 12.3, current text): ERCOT must give all Market Participants access to the MIS on a nondiscriminatory basis, "
+  },
+  {
+   "topic": "market-information-system",
+   "kind": "number-not-in-quote",
+   "where": "ERCOT context #1",
+   "detail": "11.5, 1.2 :: Examples from the Protocols: Securitization Default Charge invoices are posted to the MIS Certified Area, and, in the current text of Sectio"
   },
   {
    "topic": "market-information-system",
@@ -4255,7 +4459,13 @@
    "topic": "market-information-system",
    "kind": "number-not-in-quote",
    "where": "Questions #12",
-   "detail": "25.506 :: PUCT rule 25.506 says in no event will ERCOT disclose competitively sensitive consumption data, and entity-specific offer information is del"
+   "detail": "25.506 :: PUCT rule 25.506 says in no event will ERCOT disclose competitively sensitive consumption data, and entity-specific information is posted 60"
+  },
+  {
+   "topic": "market-information-system",
+   "kind": "number-not-in-quote",
+   "where": "Link to ufe",
+   "detail": "11.5, 1.2 :: related UFE (Unaccounted-For Energy): Under the current text of Section 11.5.1.2, ERCOT posts TSP and DSP load with loss and UFE allocations"
   },
   {
    "topic": "market-information-system",
@@ -4274,6 +4484,12 @@
    "kind": "pending-box",
    "where": "e43",
    "detail": "np-04 line 1501: | [NPRR1325: Replace Section 4.4.9.4 above with the following upon system implementation of PGRR145:] |"
+  },
+  {
+   "topic": "market-power-mitigation",
+   "kind": "pending-box",
+   "where": "e62",
+   "detail": "np-04 line 1605: | [NPRR1279: Replace paragraph (f) above with the following on April 1, 2027:] |"
   },
   {
    "topic": "market-power-mitigation",
@@ -4382,12 +4598,6 @@
    "kind": "number-not-in-quote",
    "where": "Link to offer-cap",
    "detail": "2024 :: related Offer Caps (HCAP / LCAP / SWCAP): In the 2024 IMM report's description of the then-current design, proxy offers for incomplete curve"
-  },
-  {
-   "topic": "mora-report",
-   "kind": "number-not-in-quote",
-   "where": "Formula #2",
-   "detail": "2,500, 1,500 MW :: The MORA says why it uses proxies: PRC is a real-time capability measure for Resources that can respond quickly, and ERCOT believes the 2,50"
   },
   {
    "topic": "mora-report",
@@ -4555,7 +4765,7 @@
    "topic": "nerc",
    "kind": "number-not-in-quote",
    "where": "How it works #1",
-   "detail": "2024 :: NERC writes the mandatory standards and the Regional Entities administer and enforce them regionally under NERC's delegated authority.  A 20"
+   "detail": "2024 :: NERC is responsible for establishing the mandatory Reliability Standards, and Regional Entities have delegated authority from NERC to propos"
   },
   {
    "topic": "nerc",
@@ -4580,6 +4790,12 @@
    "kind": "number-not-in-quote",
    "where": "Timeline #1",
    "detail": "2021 :: April 1, 2014: BAL-001-TRE implemented, with compliance enforcement of unit measurements from April 2015 (per the 2021 report). "
+  },
+  {
+   "topic": "nerc",
+   "kind": "number-not-in-quote",
+   "where": "Key facts #3",
+   "detail": "2021 :: The 2021 FERC-NERC report says ERCOT serves as a Balancing Authority and Planning Authority/Planning Coordinator and shares Transmission Ope"
   },
   {
    "topic": "nerc",
@@ -4771,7 +4987,7 @@
    "topic": "nodal-market",
    "kind": "number-not-in-quote",
    "where": "Common confusion #2",
-   "detail": "2011 :: (Guidance) Today's four load zones are not leftovers of the zonal market's pricing: the zones date from 2003, but under nodal they are avera"
+   "detail": "2011 :: (Guidance) Today's four load zones (North, West, South, Houston) date from 2003, inside the zonal era, and the zonal market in 2010 had four"
   },
   {
    "topic": "nodal-market",
@@ -5093,15 +5309,15 @@
   },
   {
    "topic": "offer-cap",
-   "kind": "number-not-in-quote",
-   "where": "Definition #1",
-   "detail": "25.509 :: The system-wide offer cap is the upper limit on the price of energy and ancillary service offers.  PUCT rule 25.509 states a high cap (HCAP)"
+   "kind": "proposal-or-filing-source",
+   "where": "e56",
+   "detail": "puct-59550-ercot-comments: revision-request reports contain party comments and proposals as well as adopted text"
   },
   {
    "topic": "offer-cap",
    "kind": "number-not-in-quote",
-   "where": "How it works #4",
-   "detail": "2026 :: When the cap is at the LCAP, ERCOT must reimburse resource entities for actual marginal costs above the larger of the LCAP or their real-tim"
+   "where": "Definition #1",
+   "detail": "25.509 :: The system-wide offer cap is the upper limit on the price of energy and ancillary service offers.  PUCT rule 25.509 states a high cap (HCAP)"
   },
   {
    "topic": "offer-cap",
@@ -5160,14 +5376,26 @@
   {
    "topic": "offer-cap",
    "kind": "number-not-in-quote",
+   "where": "Timeline #10",
+   "detail": "2026 :: September 26, 2024: the PUCT approves NPRR1216 and related revision requests implementing the EPP (per ERCOT's 2026 filing). "
+  },
+  {
+   "topic": "offer-cap",
+   "kind": "number-not-in-quote",
    "where": "Timeline #11",
    "detail": "2025 :: February 1, 2025 edition of the Protocols (pre-RTC): the table in force lists a single $5,000 HCAP, and the $2,000 RTSWCAP row sits in a pen"
   },
   {
    "topic": "offer-cap",
    "kind": "number-not-in-quote",
+   "where": "Timeline #12",
+   "detail": "2026 :: December 5, 2025: RTC+B go-live; the real-time cap becomes $2,000 while the day-ahead cap stays $5,000; EPP Phase 1 is implemented (per ERCO"
+  },
+  {
+   "topic": "offer-cap",
+   "kind": "number-not-in-quote",
    "where": "Key facts #9",
-   "detail": "2026 :: ERCOT's Table 1 (September 2026): per MW of real-time-exposed load in a 96-hour event, $480,000 at a $5,000 cap and $864,000 at the pre-Uri "
+   "detail": "2026 :: ERCOT's Table 1 (September 2026): per MW of real-time-exposed load in an example 96-hour scarcity event, $480,000 at a $5,000 cap and $864,0"
   },
   {
    "topic": "offer-cap",
@@ -5263,13 +5491,13 @@
    "topic": "ordc",
    "kind": "number-not-in-quote",
    "where": "How it works #1",
-   "detail": "2025, 2024 :: This section describes the design before December 5, 2025. Day-ahead procurement covered the full AS Plan, and the real-time market could no"
+   "detail": "2024 :: This section describes the design before December 5, 2025. Day-ahead procurement covered the full AS Plan, and the real-time market could no"
   },
   {
    "topic": "ordc",
    "kind": "number-not-in-quote",
    "where": "Formula #1",
-   "detail": "2016, 0.5, $9,000 :: Pre-RTC adder (2016 methodology OBD, as described in prose): for each SCED run the ORDC is PBMCL multiplied by (VOLL − System Lambda).  Here"
+   "detail": "2016, $9,000 :: Pre-RTC adder (2016 methodology OBD, as described in prose): for each SCED run the ORDC is PBMCL multiplied by (VOLL − System Lambda).  Here"
   },
   {
    "topic": "ordc",
@@ -5281,19 +5509,13 @@
    "topic": "ordc",
    "kind": "number-not-in-quote",
    "where": "Formula #4",
-   "detail": "2024, 2016 :: The 3,000 is the MCL in MW since 2022, and the 0.5 and 0.707 scaling matches the on-line term described in ERCOT's 2024 report.  One differe"
+   "detail": "2024, 2016 :: The knowledge base reads the 3,000 as the MCL in MW since 2022 (the Protocol text does not label it), and the 0.5 and 0.707 scaling matches "
   },
   {
    "topic": "ordc",
    "kind": "number-not-in-quote",
    "where": "Timeline #3",
    "detail": "2016, $9,000 :: 2016 methodology: VOLL $9,000/MWh, MCL 2,000 MW. "
-  },
-  {
-   "topic": "ordc",
-   "kind": "number-not-in-quote",
-   "where": "Timeline #5",
-   "detail": "2021 :: After Winter Storm Uri (2021): VOLL falls to the $2,000 LCAP. "
   },
   {
    "topic": "ordc",
@@ -5311,7 +5533,7 @@
    "topic": "ordc",
    "kind": "number-not-in-quote",
    "where": "Link to ecrs",
-   "detail": "2024, 2023 :: related ECRS (ERCOT Contingency Reserve Service): ERCOT's 2024 report says ECRS, launched June 10, 2023, shifted reserves on-line and helped"
+   "detail": "2024 :: related ECRS (ERCOT Contingency Reserve Service): ERCOT's 2024 report says ECRS, introduced June 10, 2023, is mostly provided by On-Line Res"
   },
   {
    "topic": "pcm",
@@ -5477,6 +5699,18 @@
   },
   {
    "topic": "pcm",
+   "kind": "proposal-or-filing-source",
+   "where": "e48",
+   "detail": "puct-pcm-staff-rec: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "pcm",
+   "kind": "proposal-or-filing-source",
+   "where": "e49",
+   "detail": "puct-pcm-staff-rec: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "pcm",
    "kind": "number-not-in-quote",
    "where": "Definition #1",
    "detail": "2024 :: The Performance Credit Mechanism (PCM) is a reliability program, proposed but never implemented, in which LSEs would have to buy \"performanc"
@@ -5497,13 +5731,7 @@
    "topic": "pcm",
    "kind": "number-not-in-quote",
    "where": "Formula #2",
-   "detail": "2% :: Non-performance settlement under the chosen design, as E3 described it: penalty = 2% x forward clearing price x quantity not delivered, plus"
-  },
-  {
-   "topic": "pcm",
-   "kind": "number-not-in-quote",
-   "where": "ERCOT context #7",
-   "detail": "0.67, 0.52 :: E3: under a cost-of-retention sensitivity ($75/kW-year instead of $140), the energy-only LOLE fell to 0.67 days per year and the PCM to 0.52"
+   "detail": "2% :: Non-performance settlement under the chosen design, as E3 described it: penalty at 2% of the forward market price, plus buy-back of the full"
   },
   {
    "topic": "pcm",
@@ -5593,7 +5821,7 @@
    "topic": "peaker-net-margin",
    "kind": "number-not-in-quote",
    "where": "Timeline #2",
-   "detail": "2021 :: March 3, 2021: the IMM says the Commission suspended use of the LCAP to avoid outcomes contrary to the rule's purpose. "
+   "detail": "2021 :: March 3, 2021: the IMM says the Commission suspended use of the LCAP to avoid outcomes contrary to the rule's purpose; the IMM adds that the"
   },
   {
    "topic": "peaker-net-margin",
@@ -5999,6 +6227,30 @@
   },
   {
    "topic": "prc",
+   "kind": "pending-box",
+   "where": "e35",
+   "detail": "np-06 line 2794: | | [NPRR1029: Insert the variable \"PRC9\" below upon system implementation:] | | | |"
+  },
+  {
+   "topic": "prc",
+   "kind": "pending-box",
+   "where": "e36",
+   "detail": "np-06 line 2798: | | [NPRR1029: Insert the variable \"PRC9\" below upon system implementation:] | | | |"
+  },
+  {
+   "topic": "prc",
+   "kind": "pending-box",
+   "where": "e37",
+   "detail": "np-06 line 2802: | | [NPRR1029: Insert the variable \"PRC9\" below upon system implementation:] | | | |"
+  },
+  {
+   "topic": "prc",
+   "kind": "pending-box",
+   "where": "e38",
+   "detail": "np-06 line 2804: | | [NPRR1029: Insert the variable \"PRC9\" below upon system implementation:] | | | |"
+  },
+  {
+   "topic": "prc",
    "kind": "number-not-in-quote",
    "where": "Formula #1",
    "detail": "6.5, 7.5 :: The Protocols give the PRC formula in Section 6.5.7.5, paragraph (1)(p). The text below describes each component from the variable list and "
@@ -6031,7 +6283,7 @@
    "topic": "prc",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #5",
-   "detail": "2026 :: The IMM, in an August 2026 presentation to TAC, summarised arguments ERCOT has made against PRC as a reliability metric, and itself notes th"
+   "detail": "2026 :: The IMM, in an August 2026 presentation to TAC, describes PRC as measuring the instantaneous volume of reserves available to the grid in the"
   },
   {
    "topic": "prc",
@@ -6192,12 +6444,6 @@
   {
    "topic": "puct",
    "kind": "number-not-in-quote",
-   "where": "Timeline #6",
-   "detail": "2026 :: August 2026: good cause exceptions pausing Batch Zero classification. "
-  },
-  {
-   "topic": "puct",
-   "kind": "number-not-in-quote",
    "where": "Timeline #7",
    "detail": "2026 :: September 2026: first five-year review of the offer-cap programs under way (Project 59550). "
   },
@@ -6218,12 +6464,6 @@
    "kind": "number-not-in-quote",
    "where": "Questions #6",
    "detail": "25.509 :: Both have a hand. PUCT rule 25.509 states a high cap of $5,000 per MWh and a low cap of $2,000 per MWh for energy offers.  The current value"
-  },
-  {
-   "topic": "puct",
-   "kind": "number-not-in-quote",
-   "where": "Questions #10",
-   "detail": "2026 :: In February 2021 it found good cause to suspend the LCAP because of significant market anomalies, then reinstated it two weeks later.  In Au"
   },
   {
    "topic": "puct",
@@ -6250,12 +6490,6 @@
    "detail": "765 kV, 2025 :: example-of Permian Basin Load & 765 kV Plan: The PUCT approved three 765-kV import paths for the Permian Basin Reliability Plan in a 2025 se"
   },
   {
-   "topic": "puct",
-   "kind": "number-not-in-quote",
-   "where": "Link to large-load-interconnection",
-   "detail": "2026 :: regulates Large Load Interconnection & Batch Zero: In August 2026 the PUCT granted ERCOT good cause exceptions to pause Batch Zero classific"
-  },
-  {
    "topic": "regulation",
    "kind": "proposal-or-filing-source",
    "where": "e30",
@@ -6277,13 +6511,13 @@
    "topic": "regulation",
    "kind": "number-not-in-quote",
    "where": "How it works #4",
-   "detail": "2025 :: The maximum Reg-Up or Reg-Down a Resource is qualified for is limited to what it can sustain for at least 30 minutes, and the same 30-minute"
+   "detail": "2025 :: The maximum Reg-Up or Reg-Down a Resource is qualified to provide is limited to what it can sustain for at least 30 minutes, and the same 30"
   },
   {
    "topic": "regulation",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #1",
-   "detail": "2025 :: Regulation is the product batteries dominate: in 2025 ESRs on average provided 94% of Reg-Up and 86% of Reg-Down.  Regulation volumes in the"
+   "detail": "2025, 2024 :: Regulation is the product batteries dominate: in 2025 ESRs on average provided 94% of Reg-Up and 86% of Reg-Down.  The IMM reports that Reg-"
   },
   {
    "topic": "regulation",
@@ -6295,13 +6529,13 @@
    "topic": "regulation",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #4",
-   "detail": "2021, 2025 :: On prices and cost, the IMM reports annual average DAM clearing prices for Reg-Down of $116.16, $9.64, $15.19, $3.90 and $1.79 per MWh for 2"
+   "detail": "2021, 2025, 2026 :: On prices and cost, the IMM's Figure 25 inset table reports annual average prices for Reg-Down of $116.16, $9.64, $15.19, $3.90 and $1.79 pe"
   },
   {
    "topic": "regulation",
    "kind": "number-not-in-quote",
    "where": "Key facts #7",
-   "detail": "2025 :: 2025: ESRs provided 94% of Reg-Up and 86% of Reg-Down on average; Reg-Down averaged $1.79/MWh in the day-ahead market (OCR). "
+   "detail": "2025 :: 2025: ESRs provided 94% of Reg-Up and 86% of Reg-Down on average; Reg-Down's 2025 annual average price was $1.79/MWh per the IMM's Figure 25"
   },
   {
    "topic": "regulation",
@@ -6329,6 +6563,18 @@
   },
   {
    "topic": "reliability-standard",
+   "kind": "proposal-or-filing-source",
+   "where": "e44",
+   "detail": "ercot-ltlf-2026-adjust-proposal: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "reliability-standard",
+   "kind": "proposal-or-filing-source",
+   "where": "e45",
+   "detail": "ercot-ltlf-2026-adjust-proposal: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "reliability-standard",
    "kind": "number-not-in-quote",
    "where": "Definition #1",
    "detail": "25.508 :: The ERCOT reliability standard is set in PUCT rule 16 TAC 25.508. The ERCOT bulk power system meets it if an ERCOT probability-based model s"
@@ -6337,7 +6583,7 @@
    "topic": "reliability-standard",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #1",
-   "detail": "25.508, 2025 :: The IMM says SB 3, passed after Winter Storm Uri, directed the PUCT to develop a formal reliability standard, which is the basis of the stan"
+   "detail": "2025 :: The IMM says SB 3, passed after Winter Storm Uri, directed the PUCT to develop a formal reliability standard, and that the PUCT rule setting"
   },
   {
    "topic": "reliability-standard",
@@ -6402,12 +6648,6 @@
   {
    "topic": "resource-adequacy",
    "kind": "number-not-in-quote",
-   "where": "How it works #3",
-   "detail": "2026 :: The market signal comes from scarcity prices. Since RTC, sloped Ancillary Service Demand Curves define shortage pricing in the day-ahead and"
-  },
-  {
-   "topic": "resource-adequacy",
-   "kind": "number-not-in-quote",
    "where": "ERCOT context #2",
    "detail": "2026 :: Revenues were weak in 2024 and 2025. The IMM estimates 2025 net revenues of $52.59/kW-year for a CT and $82.96/kW-year for a CC, below the $"
   },
@@ -6433,7 +6673,7 @@
    "topic": "resource-adequacy",
    "kind": "number-not-in-quote",
    "where": "Key facts #7",
-   "detail": "2024, 0.1 :: PCM: PUCT staff (December 13, 2024 memo) cited ERCOT's Long-Term Reliability Assessment showing a forecast 2026 LOLE of 0.51 days per year, "
+   "detail": "2024 :: PCM: PUCT staff (December 13, 2024 memo) cited ERCOT's Long-Term Reliability Assessment showing a forecast 2026 LOLE of 0.51 days per year, "
   },
   {
    "topic": "resource-adequacy",
@@ -6445,13 +6685,7 @@
    "topic": "resource-adequacy",
    "kind": "number-not-in-quote",
    "where": "Timeline #6",
-   "detail": "2023, 39.1594 :: September 1, 2023: PURA §39.1594 (HB 1500) set the conditions, including the $1 billion net cost limit, for any reserve-credit program. "
-  },
-  {
-   "topic": "resource-adequacy",
-   "kind": "number-not-in-quote",
-   "where": "Timeline #7",
-   "detail": "2023 :: 2023: CT net revenues of $224-257/kW-year, well above CONE (IMM).  Summer 2024 planning reserve margin estimated at 29.4%. "
+   "detail": "39.1594 :: September 1, 2023: PURA §39.1594 (HB 1500) set the conditions, including the $1 billion net cost limit, for any reserve-credit program. "
   },
   {
    "topic": "resource-adequacy",
@@ -6463,7 +6697,7 @@
    "topic": "resource-adequacy",
    "kind": "number-not-in-quote",
    "where": "Say it like this #1",
-   "detail": "2024, 2026 :: (Guidance) ERCOT now has a formal reliability target of one loss-of-load event in ten years and must check every three years whether the mar"
+   "detail": "2024 :: (Guidance) ERCOT now has a formal reliability target of one loss-of-load event in ten years and must check at least every three years whethe"
   },
   {
    "topic": "resource-adequacy",
@@ -6487,7 +6721,7 @@
    "topic": "resource-adequacy",
    "kind": "number-not-in-quote",
    "where": "Scenarios #3",
-   "detail": "39.1594, 2024 :: A capacity-credit program already faced a statutory screen: under PURA §39.1594 net cost must stay within $1 billion a year, and the PCM was"
+   "detail": "39.1594, 2024 :: A capacity-credit program already faced a statutory screen: under PURA §39.1594 net cost must stay within $1 billion a year (adjustable for "
   },
   {
    "topic": "resource-adequacy",
@@ -6594,6 +6828,12 @@
   {
    "topic": "resource-node",
    "kind": "number-not-in-quote",
+   "where": "ERCOT context #1",
+   "detail": "25.501 :: The Resource Node is the generator's side of the market: it is a Settlement Point alongside the Load Zone and Hub, and it is the point where"
+  },
+  {
+   "topic": "resource-node",
+   "kind": "number-not-in-quote",
    "where": "ERCOT context #7",
    "detail": "2026 :: Pending: the Attachment R text dated April 1, 2026 carries an OBDRR046 box that, upon system implementation of NPRR1188, extends the procedu"
   },
@@ -6601,7 +6841,19 @@
    "topic": "resource-node",
    "kind": "number-not-in-quote",
    "where": "Key facts #5",
-   "detail": "2026 :: The Resource Entity has five Business Days to accept or reject proposed node parameters; the normal procedure is capped at 20 Business Days "
+   "detail": "2026 :: The Resource Entity has five Business Days to accept or reject proposed node parameters; the normal timeline shall not exceed 20 Business Da"
+  },
+  {
+   "topic": "resource-node",
+   "kind": "number-not-in-quote",
+   "where": "Common confusion #1",
+   "detail": "25.501 :: Resource Node versus Hub: under PUCT rule 25.501(g) hub information aggregates nodes into an average price; a Resource Node is where a Gener"
+  },
+  {
+   "topic": "resource-node",
+   "kind": "number-not-in-quote",
+   "where": "Link to trading-hub",
+   "detail": "25.501 :: contrasts-with Trading Hubs: Under PUCT rule 25.501(g), hub information comes from aggregating nodes and calculating an average price; a Res"
   },
   {
    "topic": "resource-types",
@@ -6625,7 +6877,7 @@
    "topic": "resource-types",
    "kind": "number-not-in-quote",
    "where": "How it works #12",
-   "detail": "2026 :: **Resource Nodes.** For a new Generation Resource or ESR, the Resource Entity has five Business Days to accept or reject the Resource Node p"
+   "detail": "2026 :: **Resource Nodes.** Under the procedure for Generation Resources and ESRs, the Resource Entity has five Business Days to accept or reject th"
   },
   {
    "topic": "resource-types",
@@ -6649,13 +6901,19 @@
    "topic": "retail-hedging",
    "kind": "number-not-in-quote",
    "where": "How it works #7",
-   "detail": "25.475, 2022 :: **Retail products decide what price risk the REP carries (PUCT rule 16 TAC §25.475, version effective 6 January 2022).** A fixed rate produc"
+   "detail": "25.475, 2022 :: **Retail products decide what price risk the REP carries (PUCT rule 16 TAC §25.475 on REP requirements for residential and small commercial "
   },
   {
    "topic": "retail-hedging",
    "kind": "number-not-in-quote",
    "where": "How it works #8",
    "detail": "39.110 :: **Wholesale indexed products are restricted.** A REP, aggregator or broker is prohibited from offering a wholesale indexed product to a resi"
+  },
+  {
+   "topic": "retail-hedging",
+   "kind": "number-not-in-quote",
+   "where": "How it works #9",
+   "detail": "2024 :: **Credit for hedging in the DAM.** In ERCOT's LSE training (February 2024), the day-ahead credit requirement for an energy bid is volume tim"
   },
   {
    "topic": "retail-hedging",
@@ -6763,7 +7021,7 @@
    "topic": "retailer-defaults-2021",
    "kind": "number-not-in-quote",
    "where": "Questions #2",
-   "detail": "$2.5, 1,160 :: The Protocols cap each set of Default Uplift Invoices at $2.5 million at least 30 days apart; the UT report says that would have taken 96 ye"
+   "detail": "$2.5, 1,160 :: The Protocols cap each set of Default Uplift Invoices at $2.5 million at least 30 days apart; the UT report says ERCOT estimated that collec"
   },
   {
    "topic": "retailer-defaults-2021",
@@ -6823,19 +7081,7 @@
    "topic": "rmr",
    "kind": "number-not-in-quote",
    "where": "Formula #1",
-   "detail": "6.6, 6.1 :: Monthly standby price in later settlements, in $ per hour (np-06 Section 6.6.6.1): "
-  },
-  {
-   "topic": "rmr",
-   "kind": "number-not-in-quote",
-   "where": "ERCOT context #2",
-   "detail": "2024 :: The IMM reports that in March 2024 ERCOT received NSOs for three CPS Energy Braunig gas units, and that ERCOT's reliability analysis found r"
-  },
-  {
-   "topic": "rmr",
-   "kind": "number-not-in-quote",
-   "where": "Timeline #1",
-   "detail": "2024 :: March 2024: NSOs received for three Braunig units. "
+   "detail": "6.6, 6.1 :: Hourly standby price in $ per hour, used for resettlements after actual cost data is submitted (np-06 Section 6.6.6.1; the Initial Settlemen"
   },
   {
    "topic": "rmr",
@@ -6902,6 +7148,18 @@
    "kind": "ocr",
    "where": "e32",
    "detail": "imm-som-2025 page 59"
+  },
+  {
+   "topic": "rrs",
+   "kind": "proposal-or-filing-source",
+   "where": "e33",
+   "detail": "ercot-nprr1282-puct-report: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "rrs",
+   "kind": "number-not-in-quote",
+   "where": "How it works #2",
+   "detail": "60% :: **How much is bought.** The Protocols require ERCOT to determine, at least annually, the methodology for the quantity of each ancillary serv"
   },
   {
    "topic": "rrs",
@@ -7091,6 +7349,12 @@
   },
   {
    "topic": "rtm",
+   "kind": "proposal-or-filing-source",
+   "where": "e35",
+   "detail": "ercot-nprr1010-board-report: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "rtm",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #1",
    "detail": "2025 :: The IMM calls the real-time market the most consequential of the markets because it coordinates real-time power flows and sets expectations "
@@ -7105,7 +7369,7 @@
    "topic": "rtm",
    "kind": "number-not-in-quote",
    "where": "Timeline #1",
-   "detail": "2020 :: December 8, 2020: the Board approved NPRR1010 (Adjustment Period and Real-Time Operations changes for RTC), effective on RTC implementation."
+   "detail": "2020 :: December 8, 2020: the Board approved NPRR1010 (Adjustment Period and Real-Time Operations changes for RTC), effective upon system implementa"
   },
   {
    "topic": "rtm",
@@ -7165,13 +7429,13 @@
    "topic": "ruc-make-whole",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #3",
-   "detail": "2023, 2025 :: **The 2024 rule change.** Before 2024, RUC-committed resources with valid day-ahead offers were subject to only a 50% clawback of revenues a"
+   "detail": "2025 :: **The 2024 rule change.** Before 2024, RUC-committed resources with valid day-ahead offers were subject to only a 50% clawback of revenues a"
   },
   {
    "topic": "ruc-make-whole",
    "kind": "number-not-in-quote",
-   "where": "Timeline #2",
-   "detail": "2023 :: April 2023: NPRR 1172 filed to clawback 100% of revenue above cost for economic RUC resources with day-ahead offers. "
+   "where": "ERCOT context #5",
+   "detail": "2026 :: **Event-specific costs.** The Verifiable Cost Manual (the saved edition is effective 2026-12-01) describes Event Specific Verifiable Costs a"
   },
   {
    "topic": "ruc-make-whole",
@@ -7189,7 +7453,13 @@
    "topic": "ruc-make-whole",
    "kind": "number-not-in-quote",
    "where": "Example #1",
-   "detail": "$20,000, $5,000,, $8,000, $13,000,, $7,000, $30,000,, $35,000,, $15,000 :: Suppose a unit is RUC-committed for 4 hours with a RUC Guarantee of $20,000. If RUC Minimum-Energy Revenue is $5,000, revenue less cost abov"
+   "detail": "$20,000, $5,000,, $8,000, $13,000,, $7,000, $30,000,, $35,000,, $15,000 :: Illustration with figures chosen by this knowledge base (not from a source; the arithmetic only applies the two formulas below). Suppose a u"
+  },
+  {
+   "topic": "ruc-make-whole",
+   "kind": "number-not-in-quote",
+   "where": "Scenarios #3",
+   "detail": "2025 :: Per the IMM's 2024 report, the NPRR 1172 proposal called for a 100% clawback of revenue above cost for such economic resources, where before"
   },
   {
    "topic": "ruc",
@@ -7232,12 +7502,6 @@
    "kind": "number-not-in-quote",
    "where": "Timeline #2",
    "detail": "8% :: 2024: NPRR 1172 imposed a full rather than partial claw-back on opt-outs, and opt-outs fell to 8% (IMM). "
-  },
-  {
-   "topic": "ruc",
-   "kind": "number-not-in-quote",
-   "where": "Timeline #5",
-   "detail": "2025 :: December 2025: RTC went live; the IMM says ERCOT operations signalled it would use RUC to add reserves when AS is not fully procured. "
   },
   {
    "topic": "ruc",
@@ -7465,7 +7729,7 @@
    "topic": "sb6",
    "kind": "number-not-in-quote",
    "where": "Link to large-load-interconnection",
-   "detail": "25.194, $100,000 :: determines Large Load Interconnection & Batch Zero: SB 6 required the PUCT to set standards for interconnecting large load customers in ERCO"
+   "detail": "25.194 :: determines Large Load Interconnection & Batch Zero: SB 6 required the PUCT to set standards for interconnecting large load customers in ERCO"
   },
   {
    "topic": "sb6",
@@ -7554,6 +7818,12 @@
   {
    "topic": "sc-battery-strategy",
    "kind": "number-not-in-quote",
+   "where": "Key facts #8",
+   "detail": "25.509 :: The Real-Time SWCAP fell from $5,000 to $2,000/MWh at RTC go-live (PUCT rule 25.509 still states a $5,000 HCAP). "
+  },
+  {
+   "topic": "sc-battery-strategy",
+   "kind": "number-not-in-quote",
    "where": "Scenarios #6",
    "detail": "100 MW, 400 MW, 200 MW, 50 MW :: Match products to duration. Suppose (illustrative): at 100 MW, a 1-hour ECRS duration needs about 100 MWh, while a 4-hour Non-Spin duration "
   },
@@ -7596,6 +7866,18 @@
   {
    "topic": "sc-ccgt-in-the-money",
    "kind": "number-not-in-quote",
+   "where": "How it works #1",
+   "detail": "2024 :: Fuel is the main cost. Fuel is the largest part of marginal cost for most generators, and gas is ERCOT's most-used fuel.  The heat rate is t"
+  },
+  {
+   "topic": "sc-ccgt-in-the-money",
+   "kind": "number-not-in-quote",
+   "where": "Key facts #1",
+   "detail": "2024 :: IMM net revenue assumptions (2024 report): 7 MMBtu/MWh for a combined cycle, 10.5 for a gas turbine, $4/MWh variable O&M, 10% outage rate, n"
+  },
+  {
+   "topic": "sc-ccgt-in-the-money",
+   "kind": "number-not-in-quote",
    "where": "Key facts #3",
    "detail": "2021, 2025 :: Labels in the IMM's natural gas price figure for 2021-2025: $7.30, $5.84, $2.22, $1.90, $3.06 (unit not stated in the quote). "
   },
@@ -7621,7 +7903,7 @@
    "topic": "sc-ccgt-in-the-money",
    "kind": "number-not-in-quote",
    "where": "Scenarios #7",
-   "detail": "400 MW, 1,600 MW, $4 :: Price the start. Suppose (illustrative): the generic startup cap's O&M part is $6,810 per start for a CC with a CT of 90 MW or more ; spread"
+   "detail": "400 MW, 1,600 MW, $4 :: Price the start. Suppose (illustrative): the generic startup cap's O&M part is $6,810 for a CC with a CT of 90 MW or more, applied for each "
   },
   {
    "topic": "sc-ccgt-in-the-money",
@@ -7632,8 +7914,20 @@
   {
    "topic": "sc-ccgt-in-the-money",
    "kind": "number-not-in-quote",
+   "where": "Scenarios #21",
+   "detail": "2025, 2024 :: Its 2025 calculation assumes the unit sells whenever profitable , and in its 2024 report the IMM said the same kind of analysis left out sta"
+  },
+  {
+   "topic": "sc-ccgt-in-the-money",
+   "kind": "number-not-in-quote",
    "where": "Scenarios #24",
    "detail": "$6.00, 7.0 :: Suppose (illustrative): at $6.00/MMBtu a 7.0 heat rate means $42/MWh of fuel plus $4 of O&M, above the IMM's 2025 average real-time price of"
+  },
+  {
+   "topic": "sc-crr-valuation",
+   "kind": "pending-box",
+   "where": "e41",
+   "detail": "np-07 line 394: | [NPRR1288: Replace paragraph (1) above with the following upon system implementation:] |"
   },
   {
    "topic": "sc-crr-valuation",
@@ -8249,27 +8543,15 @@
   },
   {
    "topic": "sc-nprr-opinion",
+   "kind": "proposal-or-filing-source",
+   "where": "e53",
+   "detail": "imm-nprr1309-comments-2026-04: revision-request reports contain party comments and proposals as well as adopted text"
+  },
+  {
+   "topic": "sc-nprr-opinion",
    "kind": "number-not-in-quote",
    "where": "How it works #2",
    "detail": "2026 :: Step 2, pick a live debate with a public record. ERCOT called NPRR1309 the third iteration of the DRRS design, and the statute sets minimum "
-  },
-  {
-   "topic": "sc-nprr-opinion",
-   "kind": "number-not-in-quote",
-   "where": "How it works #4",
-   "detail": "2026 :: Step 4, give the positions as recorded. In its February 2026 comments the IMM recommended a one-hour Non-Spin duration upon implementation o"
-  },
-  {
-   "topic": "sc-nprr-opinion",
-   "kind": "number-not-in-quote",
-   "where": "How it works #5",
-   "detail": "2025, 2026 :: Step 5, bring evidence for your side. The IMM says NSRS was priced at a premium in 2025 because of oversized procurement and the four-hour d"
-  },
-  {
-   "topic": "sc-nprr-opinion",
-   "kind": "number-not-in-quote",
-   "where": "Key facts #7",
-   "detail": "2025, 2026 :: IMM, December 5, 2025 to February 2026: NSRS cleared four times ECRS and eight times RRS on average, in line with their duration ratio. "
   },
   {
    "topic": "sc-nprr-opinion",
@@ -8280,20 +8562,8 @@
   {
    "topic": "sc-nprr-opinion",
    "kind": "number-not-in-quote",
-   "where": "Timeline #4",
-   "detail": "2026 :: April 9, 2026: joint ERCOT/IMM comments, which per the IMM set Non-Spin at two hours and tie the DRRS curve to the AORDC. "
-  },
-  {
-   "topic": "sc-nprr-opinion",
-   "kind": "number-not-in-quote",
    "where": "Questions #4",
    "detail": "2026, 2025 :: The IMM supported keeping DRRS a reserve product rather than a resource adequacy tool, tied to reliability criteria, and in its February 202"
-  },
-  {
-   "topic": "sc-nprr-opinion",
-   "kind": "number-not-in-quote",
-   "where": "Questions #10",
-   "detail": "2025, 2026 :: For storage, the duration sets how much energy must be held per MW of award: the IMM's example is 40 MWh for a 10 MW NSRS award.  The IMM re"
   },
   {
    "topic": "sc-nprr-opinion",
@@ -8605,13 +8875,13 @@
    "topic": "sced",
    "kind": "number-not-in-quote",
    "where": "Timeline #1",
-   "detail": "2020 :: December 8, 2020: the ERCOT Board approved NPRR1010, which updates the Adjustment Period and Real-Time Operations sections to address RTC; i"
+   "detail": "2020 :: December 8, 2020: the ERCOT Board approved NPRR1010, which updates the Adjustment Period and Real-Time Operations sections to address change"
   },
   {
    "topic": "sced",
    "kind": "number-not-in-quote",
    "where": "Timeline #3",
-   "detail": "2026 :: After go-live the System-Wide Offer Cap in ERCOT's summer 2026 review is $2000/MWh, down from $5000/MWh. "
+   "detail": "2026 :: ERCOT's summer 2026 review notes that SWCAP is reduced to $2000/MWh from $5000/MWh after RTC go-live on 12/5/2025. "
   },
   {
    "topic": "sced",
@@ -8665,7 +8935,7 @@
    "topic": "settlement-point",
    "kind": "number-not-in-quote",
    "where": "How it works #6",
-   "detail": "6.6 :: Hubs: a Hub is made of one or more Electrical Buses and can be created only by amending Section 3.5.2.  The Hub LMP is the arithmetic averag"
+   "detail": "6.6 :: Hubs: a Hub is made of one or more Electrical Buses, and Hubs settled through ERCOT may only be created by an amendment to Section 3.5.2.  T"
   },
   {
    "topic": "settlement-statements",
@@ -8689,13 +8959,13 @@
    "topic": "shadow-price",
    "kind": "number-not-in-quote",
    "where": "How it works #9",
-   "detail": "2025 :: **Power balance cap.** For the power balance constraint, the shadow price is System Lambda and the cap is the Power Balance Penalty.  In the"
+   "detail": "2025 :: **Power balance cap.** For the power balance constraint, the shadow price is System Lambda (which Attachment P labels the shadow price of po"
   },
   {
    "topic": "shadow-price",
    "kind": "number-not-in-quote",
    "where": "Formula #2",
-   "detail": "$2,000, 0.5, $1,000 :: Worked illustration (Suppose, not a quote): with a $2,000/MW shadow price on one constraint and no other constraints, a bus with shift facto"
+   "detail": "$2,000, 0.5, $1,000 :: Worked illustration (the knowledge base's own arithmetic on an assumed example, not a quote): with a $2,000/MW shadow price on one constrain"
   },
   {
    "topic": "shadow-price",
@@ -8714,12 +8984,6 @@
    "kind": "number-not-in-quote",
    "where": "Key facts #3",
    "detail": "2025 :: Generic caps (Dec. 5, 2025): $5,251/MW base case or voltage; $4,500, $3,500, $2,800 by voltage class for N-1. "
-  },
-  {
-   "topic": "shadow-price",
-   "kind": "number-not-in-quote",
-   "where": "Questions #8",
-   "detail": "50%, $50,000 :: Because congestion components add to System Lambda: with a -50% shift factor and a $100,000/MW cap, one constraint alone would give a $50,00"
   },
   {
    "topic": "shadow-price",
@@ -8866,12 +9130,6 @@
    "detail": "10%, 0.10 :: By the definition, a unit injection at that bus, taken from the fixed reference bus, changes the flow on that element by 10% of the injectio"
   },
   {
-   "topic": "shift-factor",
-   "kind": "number-not-in-quote",
-   "where": "Link to market-power-mitigation",
-   "detail": "2% :: used-in Market Power Mitigation (Competitiveness Tests, Mitigated Offer Caps): SCED Step 2 mitigation applies only to a Resource whose Shift"
-  },
-  {
    "topic": "sixty-day-disclosure",
    "kind": "pending-box",
    "where": "e23",
@@ -8893,7 +9151,7 @@
    "topic": "sixty-day-disclosure",
    "kind": "number-not-in-quote",
    "where": "Definition #1",
-   "detail": "25.506, 3.2 :: The 60-day disclosures are the entity-specific market data ERCOT posts publicly 60 calendar days after the day the information is accumulate"
+   "detail": "25.506, 3.2 :: The 60-day disclosures are the entity-specific market data ERCOT posts 60 calendar days after the day the information is accumulated, under "
   },
   {
    "topic": "sixty-day-disclosure",
@@ -8912,6 +9170,12 @@
    "kind": "number-not-in-quote",
    "where": "How it works #5",
    "detail": "6.5, 7.1 :: Other 60-day items elsewhere in the Protocols: the hourly State Estimator data (posted to the MIS Secure Area under Section 6.5.7.1.13(4)), "
+  },
+  {
+   "topic": "sixty-day-disclosure",
+   "kind": "number-not-in-quote",
+   "where": "ERCOT context #4",
+   "detail": "3.2 :: Resource identity postings. Section 3.2.5(11) has ERCOT post on its website, for each Operating Day, each Resource's name, the Resource Enti"
   },
   {
    "topic": "sixty-day-disclosure",
@@ -9079,7 +9343,7 @@
    "topic": "spp",
    "kind": "number-not-in-quote",
    "where": "Timeline #2",
-   "detail": "2026 :: After RTC go-live, the System-Wide Offer Cap was reduced to $2000/MWh from $5000/MWh (ERCOT summer 2026 review). "
+   "detail": "2026 :: ERCOT's summer 2026 review notes that SWCAP is reduced to $2000/MWh from $5000/MWh after RTC go-live on 12/5/2025. "
   },
   {
    "topic": "spp",
@@ -9116,6 +9380,12 @@
    "kind": "number-not-in-quote",
    "where": "ERCOT context #6",
    "detail": "2022 :: The Board. Per the Bylaws (effective December 20, 2022), the Board has eleven Directors: the PUCT Chair as ex officio non-voting, the Public"
+  },
+  {
+   "topic": "stakeholder-process",
+   "kind": "number-not-in-quote",
+   "where": "Link to tx-set",
+   "detail": "19.4 :: contrasts-with TX SET (Texas Standard Electronic Transactions): Protocol Section 19.4 has the appropriate TAC subcommittee make TX SET modif"
   },
   {
    "topic": "stakeholder-process",
@@ -9493,7 +9763,7 @@
    "topic": "system-lambda",
    "kind": "number-not-in-quote",
    "where": "Timeline #4",
-   "detail": "2025 :: In 2025 ERCOT noted RTSWCAP at $2,000/MWh under RTC+B. "
+   "detail": "2025 :: In the NPRR1290 PRS report (2025-08-13), the revision description says that under RTC+B the Real-Time System-Wide Offer Cap (RTSWCAP) is at "
   },
   {
    "topic": "system-lambda",
@@ -9552,20 +9822,8 @@
   {
    "topic": "tax-credits-recs",
    "kind": "number-not-in-quote",
-   "where": "Timeline #9",
-   "detail": "2027 :: 12 months after July 4, 2025: construction beginning after that date brings a wind or solar facility under the 2027 placed-in-service cutoff"
-  },
-  {
-   "topic": "tax-credits-recs",
-   "kind": "number-not-in-quote",
-   "where": "Timeline #11",
-   "detail": "2030 :: 2026-2030: MACR thresholds rise each construction-start year, to 60% (facilities) and 75% (storage) after 2029. "
-  },
-  {
-   "topic": "tax-credits-recs",
-   "kind": "number-not-in-quote",
    "where": "Questions #10",
-   "detail": "2025 :: The 48E exception covers only the wind and solar termination; storage construction beginning after 2025 is still subject to the material ass"
+   "detail": "15 percent :: The 48E exception covers only the wind and solar termination; storage construction beginning in 2026 or later is still subject to the materi"
   },
   {
    "topic": "tax-credits-recs",
@@ -9595,7 +9853,13 @@
    "topic": "tdsp",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #10",
-   "detail": "2026 :: Examples of TDSPs: ERCOT's 2026 report lists TDSP load management programs for AEP Texas, CenterPoint, Oncor and TNMP. "
+   "detail": "2026, 2025 :: Examples of TDSPs: a table in ERCOT's April 2026 Board material (sourced to its 2025 Demand Response Report) lists TDSP load management prog"
+  },
+  {
+   "topic": "tdsp",
+   "kind": "number-not-in-quote",
+   "where": "Scenarios #2",
+   "detail": "37.0561 :: PURA Sec. 37.0561(f) requires the PUCT's large load interconnection standards to set a flat study fee of at least $100,000 payable to the in"
   },
   {
    "topic": "tdsp",
@@ -9631,7 +9895,7 @@
    "topic": "texas-energy-fund",
    "kind": "number-not-in-quote",
    "where": "Example #1",
-   "detail": "0.25, 0.75, $525,000, 0.2, 0.6, $720,000 :: The rule's own example: a $12,000,000 award for a 100 MW resource interconnected March 1, 2026, so δ = $1,200,000.  Test period 1: PRF 92, A"
+   "detail": "0.25, 0.75, 0.2, 0.6 :: The rule's own example: a $12,000,000 award for a 100 MW resource interconnected March 1, 2026, so δ = $1,200,000.  Test period 1: PRF 92, A"
   },
   {
    "topic": "texas-energy-fund",
@@ -9679,7 +9943,7 @@
    "topic": "texas-interconnection",
    "kind": "number-not-in-quote",
    "where": "Key facts #2",
-   "detail": "2021, 2020 :: About 1,220 MW of total tie capability: 820 MW to SPP and 400 MW to Mexico (2021 onward); the IMM's 2020 report described three Mexico ties "
+   "detail": "2021, 2025, 2020 :: About 1,220 MW of total tie capability: 820 MW to SPP and 400 MW to Mexico (FERC-NERC 2021 report and IMM 2025 report); the IMM's 2020 repor"
   },
   {
    "topic": "texas-interconnection",
@@ -9732,12 +9996,6 @@
   {
    "topic": "texas-legislature",
    "kind": "number-not-in-quote",
-   "where": "ERCOT context #7",
-   "detail": "100 MW :: SB 2627 (the Powering Texas Forward Act) added PURA Chapter 34. The Texas energy fund is a special fund in the state treasury administered b"
-  },
-  {
-   "topic": "texas-legislature",
-   "kind": "number-not-in-quote",
    "where": "ERCOT context #14",
    "detail": "39.170 :: Demand management: Sec. 39.170 requires a curtailment protocol for transmission-voltage customers interconnected after December 31, 2025 (ex"
   },
@@ -9781,7 +10039,7 @@
    "topic": "texas-legislature",
    "kind": "number-not-in-quote",
    "where": "Link to texas-energy-fund",
-   "detail": "2023 :: related Texas Energy Fund: SB 2627 (2023) created the Texas energy fund in PURA Chapter 34, and SB 2268 (2025) amended it. "
+   "detail": "2023 :: related Texas Energy Fund: SB 2627 (2023) added Texas energy fund provisions to PURA Chapter 34, and SB 2268 (2025) amended it. "
   },
   {
    "topic": "texas-legislature",
@@ -9842,6 +10100,12 @@
    "kind": "number-not-in-quote",
    "where": "Timeline #2",
    "detail": "2023 :: 2023: IMM finds unreported outages up to almost 17 GW in shoulder seasons. "
+  },
+  {
+   "topic": "thermal-outages",
+   "kind": "number-not-in-quote",
+   "where": "Common confusion #1",
+   "detail": "3.1, 5.12 :: (Guidance) Do not assume an outage means the whole unit: the Forced Outage definition covers all or a portion of a Resource's capacity , and"
   },
   {
    "topic": "thermal-outages",
@@ -10056,6 +10320,12 @@
   {
    "topic": "tx-set",
    "kind": "number-not-in-quote",
+   "where": "How it works #2",
+   "detail": "19.3, 15.1, 1.3 :: Two routes. Some transactions flow through ERCOT; others are point to point. Point-to-point communications flow directly between CRs and TDS"
+  },
+  {
+   "topic": "tx-set",
+   "kind": "number-not-in-quote",
    "where": "ERCOT context #1",
    "detail": "19.7 :: TDSPs provide advanced meter interval data to ERCOT in an ERCOT-specified file format, submitted via NAESB at least monthly under Protocol S"
   },
@@ -10081,7 +10351,7 @@
    "topic": "ufe",
    "kind": "number-not-in-quote",
    "where": "Formula #1",
-   "detail": "6.3 :: Allocation to categories (Section 11.4.6.3): each category's UFE is total UFE for the interval and zone multiplied by that category's weight"
+   "detail": "6.3, 6.2 :: Allocation to categories (Section 11.4.6.3): each category's UFE is total UFE for the interval and zone multiplied by that category's weight"
   },
   {
    "topic": "ufe",
@@ -10177,13 +10447,13 @@
    "topic": "uri-repricing",
    "kind": "number-not-in-quote",
    "where": "Formula #1",
-   "detail": "2021 :: The IMM's March 11, 2021 estimate of how much its recommendations would change ERCOT settlements, after netting day-ahead positions and offs"
+   "detail": "2021, 3.2, 0.9 :: The IMM's March 11, 2021 estimate of how much its recommendations would change ERCOT settlements, after netting day-ahead positions and offs"
   },
   {
    "topic": "uri-repricing",
    "kind": "number-not-in-quote",
    "where": "ERCOT context #3",
-   "detail": "25.509, 2026 :: Rule changes followed. ERCOT's July 2021 Roadmap listed both fixes: account for firm load shed in scarcity pricing, and limit AS prices to t"
+   "detail": "25.509, 2026 :: Rule changes followed. ERCOT's Roadmap to Improving Grid Reliability (dated July 13, 2021; saved as its October 15, 2021 update) lists both "
   },
   {
    "topic": "uri-repricing",
@@ -10236,12 +10506,6 @@
   {
    "topic": "uri-repricing",
    "kind": "number-not-in-quote",
-   "where": "Timeline #11",
-   "detail": "2021 :: July 13, 2021: ERCOT Roadmap lists both pricing fixes. "
-  },
-  {
-   "topic": "uri-repricing",
-   "kind": "number-not-in-quote",
    "where": "Timeline #13",
    "detail": "2023 :: March 17, 2023: Third Court of Appeals reverses the orders and remands in Luminant v. PUCT. "
   },
@@ -10249,13 +10513,13 @@
    "topic": "uri-repricing",
    "kind": "number-not-in-quote",
    "where": "Say it like this #1",
-   "detail": "$9,000, 2023 :: (Guidance) During Uri the PUCT ordered ERCOT to price shed load at the $9,000 cap, on the logic that load shed is maximum scarcity.  The IMM"
+   "detail": "2023 :: (Guidance) During Uri the PUCT ordered ERCOT to price shed load at the $9,000 cap, on the logic that load shed is maximum scarcity.  The IMM"
   },
   {
    "topic": "uri-repricing",
    "kind": "number-not-in-quote",
    "where": "Link to rtc-b",
-   "detail": "2021, 2020 :: related RTC+B (Real-Time Co-optimization + Batteries): The 2021 AS failure-to-provide fix had been left to the RTC era when NPRR947 was with"
+   "detail": "2021 :: related RTC+B (Real-Time Co-optimization + Batteries): In its March 2021 AS order the PUCT noted that the withdrawal request for NPRR947 sai"
   },
   {
    "topic": "virtual-bids",
@@ -10266,8 +10530,14 @@
   {
    "topic": "virtual-bids",
    "kind": "number-not-in-quote",
+   "where": "How it works #5",
+   "detail": "4.4 :: Bid exposure: a DAM Energy Bid priced at or below zero has a bid exposure price of zero.  For a bid priced above zero, the exposure price is"
+  },
+  {
+   "topic": "virtual-bids",
+   "kind": "number-not-in-quote",
    "where": "ERCOT context #2",
-   "detail": "2026, 36%, 420% :: Since December 6, 2025, the DAM has also allowed virtual Ancillary Service positions, which are strictly financial positions not associated "
+   "detail": "36%, 420% :: Since December 6, 2025, the DAM has also allowed virtual Ancillary Service positions, which are strictly financial positions not associated "
   },
   {
    "topic": "volumetric-risk",
@@ -10489,7 +10759,7 @@
    "topic": "weather-load",
    "kind": "number-not-in-quote",
    "where": "Scenarios #4",
-   "detail": "2023 :: In summer 2023, high temperatures and demand with insufficient resources in North and West led to a high-risk transmission limitation. "
+   "detail": "2023 :: ERCOT's summer 2023 review, on its Central Texas congestion slide, said higher temperatures and demand with insufficient resources in North "
   },
   {
    "topic": "weather-load",
@@ -10538,12 +10808,6 @@
    "kind": "number-not-in-quote",
    "where": "Timeline #3",
    "detail": "2021 :: October 2021: ERCOT roadmap proposes CEO-signed attestation letters and summer spot checks. "
-  },
-  {
-   "topic": "weatherization",
-   "kind": "number-not-in-quote",
-   "where": "Timeline #4",
-   "detail": "2022, 25.55 :: Rule copy effective 10/20/2022: current 25.55 text; design-level requirements apply beginning in 2023. "
   },
   {
    "topic": "weatherization",
@@ -10698,12 +10962,6 @@
   {
    "topic": "wind-solar-forecasts",
    "kind": "number-not-in-quote",
-   "where": "Formula #2",
-   "detail": "2026 :: How forecast error enters reserve sizing (ERCOT's methodology effective 1 January 2026, Board-recommended 23 September 2025): "
-  },
-  {
-   "topic": "wind-solar-forecasts",
-   "kind": "number-not-in-quote",
    "where": "Key facts #6",
    "detail": "2026 :: Reg-Up base requirement: 95th percentile of positive net load forecast error, same month of the previous two years (2026 methodology). "
   },
@@ -10718,6 +10976,12 @@
    "kind": "number-not-in-quote",
    "where": "Common confusion #1",
    "detail": "452 MW :: (Guidance) STWPF/STPPF are forecasts of what a Resource could produce given available units and weather; they are not a QSE's schedule. A QS"
+  },
+  {
+   "topic": "wind-solar-forecasts",
+   "kind": "number-not-in-quote",
+   "where": "Scenarios #2",
+   "detail": "2024 :: The updated STPPF feeds each RUC process.  The IMM's 2024 report says over-forecasting renewable generation can lead to reliability issues i"
   },
   {
    "topic": "wind-solar-forecasts",
@@ -10824,26 +11088,20 @@
   {
    "topic": "winter-storm-elliott",
    "kind": "number-not-in-quote",
-   "where": "Link to winter-storm-uri",
-   "detail": "2021 :: contrasts-with Winter Storm Uri (Feb 2021): ERCOT says Elliott was the coldest event in 15 years after Uri but had far fewer cold-weather ge"
+   "where": "Questions #6",
+   "detail": "2023 :: It said reserve levels and prices did not show a need for FFSS on three of the four deployment days and asked ERCOT to set clear deployment "
   },
   {
-   "topic": "winter-storm-jan-2026",
+   "topic": "winter-storm-elliott",
    "kind": "number-not-in-quote",
-   "where": "ERCOT context #4",
-   "detail": "2026 :: Lessons. ERCOT's October 2026 forced outage review counts 107 wind and solar outages losing about 610,000 MWh, mostly from icing; 76 dispatc"
+   "where": "Link to winter-storm-uri",
+   "detail": "2021 :: contrasts-with Winter Storm Uri (Feb 2021): ERCOT says Elliott was the coldest event in 15 years after Uri but did not see Uri's level of ge"
   },
   {
    "topic": "winter-storm-jan-2026",
    "kind": "number-not-in-quote",
    "where": "Key facts #6",
    "detail": "2026 :: January 2026 ERCOT-wide average prices (IMM): DA $95.47/MWh, RT $57.43/MWh. "
-  },
-  {
-   "topic": "winter-storm-jan-2026",
-   "kind": "number-not-in-quote",
-   "where": "Key facts #9",
-   "detail": "2026 :: Outage review (October 2026): 107 wind/solar, 76 dispatchable, 25 storage and 83 transmission outages. "
   },
   {
    "topic": "winter-storm-jan-2026",
@@ -10856,12 +11114,6 @@
    "kind": "number-not-in-quote",
    "where": "Timeline #7",
    "detail": "2026 :: January 26, 2026: January hourly peak of 75,572 MW. "
-  },
-  {
-   "topic": "winter-storm-jan-2026",
-   "kind": "number-not-in-quote",
-   "where": "Timeline #10",
-   "detail": "2026 :: February 17, 2026: ERCOT January monthly operational overview. "
   },
   {
    "topic": "winter-storm-jan-2026",
@@ -10886,6 +11138,12 @@
    "kind": "ocr",
    "where": "e46",
    "detail": "imm-som-2021 page 17"
+  },
+  {
+   "topic": "winter-storm-uri",
+   "kind": "number-not-in-quote",
+   "where": "ERCOT context #1",
+   "detail": "2025 :: Prices: the UT report says the price of electricity went to $9,000 per MWh and stayed there by PUCT order, with some market price-setting ru"
   },
   {
    "topic": "winter-storm-uri",
@@ -10969,7 +11227,7 @@
    "topic": "winter-storm-uri",
    "kind": "number-not-in-quote",
    "where": "Common confusion #1",
-   "detail": "25.509 :: (Guidance) \"Wind froze, so it was a renewables failure\" is too simple: wind was 27 percent of the units with outages, but the federal report"
+   "detail": "25.509 :: (Guidance) \"Wind froze, so it was a renewables failure\" is too simple: across the whole FERC-NERC event area (ERCOT, SPP and MISO South), wi"
   },
   {
    "topic": "winter-storm-uri",

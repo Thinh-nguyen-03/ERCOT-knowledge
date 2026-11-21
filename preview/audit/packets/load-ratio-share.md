@@ -228,12 +228,75 @@ BEFORE: …other factors that reduce transmission capability between the CRR auc
 QUOTE: Despite being approved in 2020, the project to implement NPRR 1030 has not been initiated yet.
 AFTER:  https://www.ercot.com/files/docs/2022/01/27/Revision_Requests_2026_04_14.xlsx 2025 State of the Market Report | 67 / / Transmission Congestion and CRRs based on the decrease in day-ahead transfer capability. If revenue remains insufficient after this adjustment, ERCOT allocates the remaining shortf…
 
+### e33 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.6.2.1, ERCOT Total Adjusted Metered Load for a 15-Minute Settlement Interval, paragraph (1) · text copy line 4389 · heading above: 6.6.2.1 ERCOT Total Adjusted Metered Load for a 15-Minute Settlement Interval
+
+BEFORE: …-------------------------------------------------------------------------------------------- 6.6.2 Load Ratio Share 6.6.2.1 ERCOT Total Adjusted Metered Load for a 15-Minute Settlement Interval (1) ERCOT total Adjusted Metered Load (AML) for a 15-minute Settlement Interval is calculated as follows: 
+QUOTE: RTAMLTOT = [](max(0,[]RTAML _(q, p)))
+AFTER:  The above variables are defined as follows: ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------…
+
+### e34 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.6.2.4, variable table (i) · text copy line 4519 · heading above: 6.6.2.3 ERCOT Total Adjusted Metered Load for an Operating Hour
+
+BEFORE: …he Electrical Buses that are included in Settlement Point p, represented by QSE q, for the 15-minute Settlement Interval. q none A QSE. The summation is over all of the QSEs with metered readings in that interval. p none A Settlement Point. The summation is over all of the Settlement Points. i none 
+QUOTE: A 15-minute Settlement Interval in the Operating Hour. The summation is over all of the Settlement Intervals of the Operating Hour.
+AFTER:  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 6.6.2.4 QSE Load Ratio Share for an Operating Hour (1) Each QSE's LR…
+
+### e35 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.6.2.5, pending box [NPRR1030] · text copy line 4545 · heading above: 6.6.2.4 QSE Load Ratio Share for an Operating Hour
+FLAG pending-box: | [NPRR1030: Insert Section 6.6.2.5 below upon system implementation:] |
+BEFORE: …-------------------------------------------------------- +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ | 
+QUOTE: [NPRR1030: Insert Section 6.6.2.5 below upon system implementation:]
+AFTER:  | | | | 6.6.2.5 ERCOT Total Adjusted Metered Load for a Month | | | | (1) ERCOT total AML for a calendar month is calculated as follows: | | | | MRTAMLTOT = [](max(0, [][]RTAML _(q, p,i))) | | | | The above variables are defined as follows: | | | | --------------------------------------------------…
+
+### e36 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.6.2.7, pending box [NPRR1030] · text copy line 4603 · heading above: 6.6.2.4 QSE Load Ratio Share for an Operating Hour
+FLAG pending-box: | [NPRR1030: Insert Section 6.6.2.7 below upon system implementation:] |
+BEFORE: …-------------------------------------------------------+ +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ | 
+QUOTE: [NPRR1030: Insert Section 6.6.2.7 below upon system implementation:]
+AFTER:  | | | | 6.6.2.7 ERCOT Adjusted Metered Load by Congestion Management Zone for a Month | | | | (1) ERCOT total AML per CMZ for a calendar month is calculated as follows: | | | | MRTAMLLZTOT _(z) = [] (max(0, [][]RTAML _(q, p,i))) | | | | The above variables are defined as follows: | | | | ----------…
+
+### e37 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.6.2.8, pending box [NPRR1030] · text copy line 4632 · heading above: 6.6.2.4 QSE Load Ratio Share for an Operating Hour
+FLAG pending-box: | [NPRR1030: Insert Section 6.6.2.8 below upon system implementation:] |
+BEFORE: …---------------------------------------------------------------------------------------------------------+ +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ | 
+QUOTE: [NPRR1030: Insert Section 6.6.2.8 below upon system implementation:]
+AFTER:  | | | | 6.6.2.8 QSE DC Tie Export Load Ratio Share by Congestion Management Zone for a Month | | | | (1) Each QSE's DC Tie Export DCMLRSZ by CMZ for a calendar month is calculated as follows: | | | | DCMLRSZ _(q, z) = max(0, [][]RTAMLDC _(q, p, i) ) / MRTAMLLZTOT_(z) | | | | The above variables are…
+
+### e38 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: page 88 (OCR), Chapter V.E.2 · text copy line 5653
+
+BEFORE: …is methodology has drawn greater scrutiny because it can create adverse economic incentives for loads to increase consumption during periods of high demand, when high energy prices should incentivize loads to decrease consumption. To date, only DC tie operators have clearly exhibited such behavior. 
+QUOTE: To remove these adverse incentives, ERCOT approved NPRR 1030 in August 2020
+AFTER: , which allocates CARD payments for DC ties based on their monthly load 66 | 2025 State of the Market Report / / Transmission Congestion and CRRs ratio shares.42 This methodology sharply reduces the incentive for DC ties to increase consumption to increase their CARD revenue. 3. CRR Profitability Fi…
+
+### e39 · `np-07` · tier 1 · ERCOT Nodal Protocols, Section 7: Congestion Revenue Rights (effective 2025-12-05)
+locator: Section 7.5.7, pending box [NPRR1030] replacing paragraph (2) · text copy line 1169 · heading above: 7.5.7 Method for Distributing CRR Auction Revenues
+FLAG pending-box: | [NPRR1030: Replace paragraph (2) above with the following upon system implementation:] |
+BEFORE: …--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ | 
+QUOTE: [NPRR1030: Replace paragraph (2) above with the following upon system implementation:]
+AFTER:  | | | | (2) ERCOT shall credit the net CRR Auction revenue (including PCRR revenue) produced from CRRs cleared in each CRR Auction that source from a Settlement Point located within a 2003 ERCOT CMZ and sink at a Settlement Point located within the same 2003 ERCOT CMZ to Qualified Scheduling Entiti…
+
+### e40 · `np-07` · tier 1 · ERCOT Nodal Protocols, Section 7: Congestion Revenue Rights (effective 2025-12-05)
+locator: Section 7.9.3.5, pending box [NPRR1030] replacing paragraph (1) · text copy line 2599 · heading above: 7.9.3.5 CRR Balancing Account Closure
+FLAG pending-box: | [NPRR1030: Replace paragraph (1) above with the following upon system implementation:] |
+BEFORE: …--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ | 
+QUOTE: [NPRR1030: Replace paragraph (1) above with the following upon system implementation:]
+AFTER:  | | | | (1) After the calculation of refunds described in Section 7.9.3.4, Monthly Refunds to Short-Paid CRR Owners, any CRR Balancing Account and CRR Auction PTP Option Award Charge Total in excess of the refunds described in Section 7.9.3.4 will first be used to fund the CRR Balancing Account Fun…
+
+### e41 · `np-06` · tier 1 · ERCOT Nodal Protocols, Section 6: Adjustment Period and Real-Time Operations (effective 2026-11-06)
+locator: Section 6.6.3.5, pending box [NPRR1030] replacing paragraph (c) · text copy line 5549 · heading above: 6.6.3.5 Real-Time Payment for a Block Load Transfer Point
+FLAG pending-box: | [NPRR1030: Replace paragraph (c) above with the following upon system implementation:] |
+BEFORE: …------------------------------------------------------------------------------------------------------------------- +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ | 
+QUOTE: [NPRR1030: Replace paragraph (c) above with the following upon system implementation:]
+AFTER:  | | | | (c) ERCOT shall calculate each QSE's monthly BLT charge as follows: | | | | LAMBLTAMT _(q) = (-1) * (MBLTDC _(q) + MBLTNDC _(q)) | | | | Where: | | | | MBLTNDC _(q) = MLRS _(q) * (MBLTAMTTOT - []MBLTDC _(q)) | | | | MBLTDC _(q) = DCMLRS _(q) * MBLTAMTTOT | | | | MBLTAMTTOT = [] MBLTAMTQSETO…
+
 ## Statements to check (new or changed since the last audit)
 
 - **How it works #1** (cites e3, e1, e4, e5, e6, e8): Each QSE has its own LRS for each 15-minute Settlement Interval. [e3] An Entity's LRS is its AML over total ERCOT AML. [e1] ERCOT uses LRS as the allocation key for costs and credits that are spread across load. [e4][e5][e6][e8]
-- **How it works #2** (cites e3, e12, e10, e11) FLAG number-not-in-quote: 6.6, 2.2, 2.4: **Variants in force.** The Protocols define the 15-minute LRS in Section 6.6.2.2 and an hourly LRS in Section 6.6.2.4. [e3][e12] The 15-minute LRS for a QSE is its AML summed over Settlement Points, floored at zero, divided by ERCOT total AML for the interval; the total is the sum across QSEs and Settlement Points (floored at zero), meaning negative AML does not reduce the total or a QSE's share. [e10][e11] The hourly LRS is the same calculation summed over the four 15-minute intervals of the Operating Hour. [e12]
+- **How it works #2** (cites e3, e12, e10, e11, e33, e34) FLAG number-not-in-quote: 6.6, 2.2, 2.4: **Variants in force.** The Protocols define the 15-minute LRS in Section 6.6.2.2 and an hourly LRS in Section 6.6.2.4. [e3][e12] The 15-minute LRS for a QSE is its AML summed over Settlement Points, floored at zero, divided by ERCOT total AML for the interval. [e10][e11] The ERCOT total is the sum over QSEs of each QSE's AML summed over Settlement Points, floored at zero. [e33] The hourly LRS (HLRS) has the same form, with the numerator summed over Settlement Points and over the 15-minute Settlement Intervals of the Operating Hour (floored at zero) and divided by the ERCOT total AML for the Operating Hour. [e12][e34]
 - **How it works #3** (cites e16, e17, e18, e28): **Monthly LRS is a peak-interval share.** In the CRR Balancing Account, the monthly LRS is the 15-minute LRS calculated for the peak-Load Settlement Interval during the month. [e16] The Block Load Transfer charge likewise uses a Monthly Load Ratio Share defined as the LRS for the peak-Load 15-minute Settlement Interval in the month. [e17][e18] This differs from the monthly LRS in one capital-contribution clawback provision, which defines it as the QSE's total Real-Time AML for the month divided by the total ERCOT Real-Time AML for the same month. [e28]
-- **How it works #4** (cites e14, e13, e15, e32) FLAG number-not-in-quote: 6.6, 2.2, 2.5, 2.8: **Pending (NPRR1030).** Paragraphs (2)-(4) of Section 6.6.2.2, and Sections 6.6.2.5 to 6.6.2.8, are inserts that apply only upon system implementation of NPRR1030, including a monthly LRS excluding DC Tie exports and a DC Tie export monthly LRS. [e14][e13][e15] The IMM says the project to implement NPRR 1030, approved in 2020, has not been initiated. [e32] These are not in force.
+- **How it works #4** (cites e14, e13, e15, e35, e36, e37, e39, e40, e41, e32) FLAG number-not-in-quote: 2.2, 7.5, 7.9, 3.5: **Pending (NPRR1030).** Paragraphs (2)-(4) of Section 6.6.2.2, and Sections 6.6.2.5 to 6.6.2.8, are inserts that apply only upon system implementation of NPRR1030, including a monthly LRS excluding DC Tie exports and a DC Tie export monthly LRS. [e14][e13][e15][e35][e36][e37] The same NPRR1030 would also replace Section 7.5.7 paragraph (2), Section 7.9.3.5 paragraph (1) and Section 6.6.3.5 paragraph (c) upon system implementation, so the monthly peak-interval wording quoted above for those provisions is the text now in the Protocols, not the pending text. [e39][e40][e41] The IMM says the project to implement NPRR 1030, approved in 2020, has not been initiated. [e32] These pending inserts are not in force.
 - **How it works #5** (cites e26): **Zonal LRS.** Costs allocated on a zonal LRS must use the "Cost-Allocation Load Zones", the four Load Zones in effect during the 2003 ERCOT market unless changed under Section 3.4.2, and any NOIE Load Zone counts as located entirely within the 2003 CMZ of its largest Load in 2003. [e26]
 - **How it works #6** (cites e4, e5): **What is allocated by LRS.** The Protocol sections below allocate on LRS. [e4][e5]
 - **How it works #7** (cites e4): - Ancillary Service quantities: assigned to QSEs from LSE LRSs, including DC Tie export shares, aggregated by hour. [e4]
@@ -248,14 +311,14 @@ AFTER:  https://www.ercot.com/files/docs/2022/01/27/Revision_Requests_2026_04_14
 - **How it works #16** (cites e22, e23): - RMR service charge and RMR miscellaneous expense invoices. [e22][e23]
 - **How it works #17** (cites e27): - ERS: QSEs self-providing ERS submit a proxy LRS estimating their final settlement LRS. [e27]
 - **ERCOT context #1** (cites e8, e30): Some allocations are ERCOT-wide and some are zonal. CRR auction revenue for paths wholly within one 2003 congestion management zone is credited on a zonal LRS basis, and all other CRR auction revenue goes on an ERCOT-wide LRS basis. [e8] The IMM calls this the CARD process, allocating cross-zone CRR revenue ERCOT-wide and same-zone revenue zonally, in each case by load ratio share during the month's coincident peak interval. [e30]
-- **ERCOT context #2** (cites e31, e14): The IMM says the method has drawn scrutiny as CARD payments have grown, because it can create incentives for loads to increase consumption during high demand when prices should encourage them to cut it, and that to date only DC tie operators have clearly exhibited such behavior. [e31] That concern is the stated reason for NPRR1030, which would allocate DC Tie shares on monthly load. [e14][e31]
+- **ERCOT context #2** (cites e31, e38, e15): The IMM says the method has drawn scrutiny as CARD payments have grown, because it can create incentives for loads to increase consumption during high demand when prices should encourage them to cut it, and that to date only DC tie operators have clearly exhibited such behavior. [e31] The IMM says ERCOT approved NPRR 1030 in August 2020 to remove these adverse incentives; NPRR1030's pending text adds a DC Tie export monthly LRS. [e38][e15]
 - **Key facts #6** (cites e16, e18): - In CRR and BLT settlement, "monthly LRS" means the LRS in the peak-Load 15-minute interval of the month. [e16][e18]
 - **Key facts #7** (cites e14, e32): - DC Tie-specific LRS variants (NPRR1030) are pending, not implemented. [e14][e32]
 - **Say it like this #1** (cites e16): (Guidance) LRS is your share of ERCOT's metered load in an interval. Whenever ERCOT has a cost or credit to spread over load, such as uplift or auction revenue, your LRS decides your slice. For the monthly allocations, it is your share at the monthly peak interval. [e16]
 - **Common confusion #1** (cites e1, e2, e8, e16, e28): LRS is a share of adjusted metered load in an interval, not of capacity. [e1][e2] Zonal and ERCOT-wide LRS are both used, depending on the charge. [e8] "Monthly" LRS can mean the peak-interval LRS or a whole-month share depending on the provision, so read the section. [e16][e28]
-- **Questions #6** (cites e16, e31): When a monthly allocation is keyed to the load at the month's peak interval, a participant that raises consumption then gets a bigger share. The IMM says this incentive is real for DC tie operators, which is why NPRR1030 was proposed. [e16][e31]
+- **Questions #6** (cites e16, e31, e38): When a monthly allocation is keyed to the load at the month's peak interval, a participant that raises consumption then gets a bigger share. The IMM says this can create adverse incentives, that only DC tie operators have clearly exhibited such behavior, and that ERCOT approved NPRR 1030 to remove these incentives. [e16][e31][e38]
 - **Questions #8** (cites e11): In the formula the sum is floored at zero (max(0,...)), so a QSE's share cannot be negative. [e11]
-- **Questions #10** (cites e26): Zonal LRS costs must use the four "Cost-Allocation Load Zones" from the 2003 market, so zonal sharing does not move when current Load Zones change. [e26]
+- **Questions #10** (cites e26): Zonal LRS costs must use the "Cost-Allocation Load Zones", the four Load Zones in effect during the 2003 ERCOT market unless changed under Section 3.4.2, Load Zone Modifications. [e26]
 - **Questions #12** (cites e27): QSEs self-providing ERS offer a proxy LRS between zero and one as their estimate of the final LRS used in ERS Settlement. [e27]
 - **Link to ufe** (cites e6): related UFE (Unaccounted-For Energy): UFE is allocated using an adjusted Load Ratio Share. [e6]
 - **Link to lse** (cites e4): related LSE (Load Serving Entity): AS obligations are assigned to QSEs from the LSE-level Load Ratio Shares. [e4]
@@ -266,6 +329,6 @@ AFTER:  https://www.ercot.com/files/docs/2022/01/27/Revision_Requests_2026_04_14
 - **Link to ruc-make-whole** (cites e24, e25): related RUC Make-Whole & Clawback: RUC make-whole uplift, clawback payments and decommitment charges are all allocated on LRS. [e24][e25]
 - **Link to rmr** (cites e22): related RMR (Reliability Must-Run) & Must-Run Alternatives: The total RMR service cost is allocated to QSEs representing Loads on LRS. [e22]
 - **Link to ers** (cites e27): related ERS (Emergency Response Service): A QSE self-providing ERS submits a proxy LRS representing its estimate of its final LRS used in ERS Settlement. [e27]
-- **Link to four-cp** (cites e16, e18): contrasts-with 4CP Transmission Charges: Monthly LRS for CRR and BLT allocations uses the peak-Load 15-minute interval of the month, a coincident-peak style share; see the 4CP topic for transmission cost allocation. [e16][e18]
-- **Link to load-zone** (cites e26): related Load Zone: Zonal LRS allocations use the four 2003-era Cost-Allocation Load Zones, not today's Load Zones. [e26]
+- **Link to four-cp** (cites e16, e18, e30): contrasts-with 4CP Transmission Charges: Monthly LRS for CRR and BLT allocations uses the peak-Load 15-minute interval of the month, a coincident-peak style share (the IMM also describes it as based on each month's coincident peak interval); see the 4CP topic for transmission cost allocation. [e16][e18][e30]
+- **Link to load-zone** (cites e26): related Load Zone: Zonal LRS allocations use the Cost-Allocation Load Zones, the four Load Zones in effect during the 2003 ERCOT market unless changed under Section 3.4.2. [e26]
 

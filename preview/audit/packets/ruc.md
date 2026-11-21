@@ -382,6 +382,27 @@ BEFORE: …s for which this RUC Capacity Credit is calculated. -----------------
 QUOTE: If the revenues from the charges under Section 5.7.4.1, RUC Capacity-Short Charge, are not enough to cover all RUC Make-Whole Payments, including amounts for RMR Units, for a 15-minute Settlement Interval, then the difference will be uplifted to all QSEs on a Load Ratio Share basis, as a RUC Make-Whole Uplift Charge, calculated as follows:
 AFTER:  LARUCAMT_(q,i) = (-1) * ( RUCMWAMTTOT_(h) / 4 + RUCCSAMTTOT_(i)) * LRS_(q,i) Where: RUCMWAMTTOT_(h) = []RUCMWAMTRUCTOT_(ruc,h) RUCCSAMTTOT_(i) = [][]RUCCSAMT_(ruc,i,q) The above variables are defined as follows: ---------------------------------------------------------------------------------------…
 
+### e62 · `ercot-summer-2026-review` · tier 2 · Summer 2026 Operational and Market Review (September 2026)
+locator: Summer 2026 review, RUC slide, footnote · text copy line 1090
+
+BEFORE: …o QSEs for AS procured in DAM and do not account for self-arrangement or bilateral trades (20242026). Beginning December 5, 2025, AS quantities are also procured and priced in RTM through the SCED co-optimization. RT AS cost values are market costs and do not represent the actual settlement result. 
+QUOTE: * August data for each year goes through 8/15.
+AFTER:  17 Most Ancillary Services were fully procured, with rare shortfalls in ECRS and Non-Spin Ancillary Service Shortage Incidence (as a percentage of Plan) Daily Average Ancillary Service Procurement (incl. Non-Spin above Plan) 100 90 80 70 60 50 40 30 20 10 0 Jun-26 Jul-26 Aug-26 Reg-Up Reg-Down RRS …
+
+### e63 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: page 30 (OCR), Chapter I.D, 1. ORDC · text copy line 1725
+
+BEFORE: …hed increases. The ORDC magnitude is scaled to the Value of Lost Load (VOLL). Shortage pricing is efficient when the product of VOLL and the probability of load shed is built into energy and reserve prices during 2025 State of the Market Report | 7 / / Review of Real-Time Market Outcomes shortages. 
+QUOTE: In ERCOT's market design before RTC went live on December 5, 2025, ERCOT did this by adding an ORDC price adder to energy and reserve prices when reserves were low.
+AFTER:  In 2025, the ORDC was active for only 57 hours,4 just over one-third of the previous year's total and less than 8% of the annual average for 2021-2024, as shown in Figure 5. This decline continues a multi-year trend that reflects the significant increase in installed generation capacity in ERCOT, p…
+
+### e64 · `imm-som-2025` · tier 2 · 2025 State of the Market Report for the ERCOT Electricity Markets (published 2026)
+locator: page 102 (OCR), Market Operations chapter, 5. RUC Settlement · text copy line 6509
+
+BEFORE: …5. RUC Settlement In 2024, the rate of RUC-committed resources that opted out of RUC settlement dropped significantly below its long-term trend, largely because of the implementation of NPRR 1172. This rule imposed a full rather than partial claw-back for resources that opted out of RUC settlement. 
+QUOTE: The most likely explanation for the even lower level of opt-outs in 2025 is that market prices were not expected to be high enough to warrant opting out.
+AFTER:  This is reflected in the large increase in make-whole payments from 2024 to 2025 and the relatively low total for clawback charges despite the large volume of energy settled through RUC. Table 9: RUC Settlement 2021-2025 CaCE CaCC CaCc CaCG CaCe !"#$!B#C'(CF*+C +.1O$314R ,-##.-/-M# 9W-;B-M4<C=>? =@…
+
 ## Statements to check (new or changed since the last audit)
 
 - **How it works #3** (cites e5, e25, e6, e26): A RUC-committed Resource whose revenues fall short of its costs receives a RUC Make-Whole Payment for that Operating Day, whether it came from DRUC or HRUC, but not an ESR. [e5] A QSE can instead opt out of RUC Settlement unless the Resource is an RMR Unit or has received an OSA, and the Operating Hours for which it does so are RUC Buy-Back Hours. [e25][e6] An opt-out forfeits RUC Settlement for that block of hours and requires the Resource to be available to SCED for all of them. [e26]
@@ -396,8 +417,8 @@ AFTER:  LARUCAMT_(q,i) = (-1) * ( RUCMWAMTTOT_(h) / 4 + RUCCSAMTTOT_(i)) * LRS_(
 - **Timeline #2** (cites e41, e40) FLAG number-not-in-quote: 8%: - 2024: NPRR 1172 imposed a full rather than partial claw-back on opt-outs, and opt-outs fell to 8% (IMM). [e41][e40]
 - **Timeline #3** (cites e14): - Summer 2024: ESR SOC added to the RUC engine under NPRR 1186. [e14]
 - **Timeline #4** (cites e50): - November 2024: NPRR 1236 (RTC+B changes to RUC capacity-short calculations) approved. [e50]
-- **Timeline #5** (cites e51) FLAG number-not-in-quote: 2025: - December 2025: RTC went live; the IMM says ERCOT operations signalled it would use RUC to add reserves when AS is not fully procured. [e51]
-- **Timeline #6** (cites e44, e45, e46): - Summer 2026: 1,313 effective RUC Resource-hours, 17% attributed to congestion (100% in summer 2025), driven by Ancillary Service needs. [e44][e45][e46]
+- **Timeline #5** (cites e63, e51): - December 5, 2025: RTC went live (IMM); the IMM says ERCOT operations signalled it would use RUC to add reserves when AS is not fully procured. [e63][e51]
+- **Timeline #6** (cites e44, e45, e46, e62): - Summer 2026: 1,313 effective RUC Resource-hours, 17% nominally attributed to congestion (100% in summer 2025), which ERCOT says was largely to address capacity needs, particularly Ancillary Service quantities; the slide's August data goes through 8/15. [e44][e45][e46][e62]
 - **Timeline #7** (cites e48) FLAG number-not-in-quote: 2026: - October 2026: 165.6 effective RUC Resource-hours, 99.4% for capacity. [e48]
 - **Key facts #6** (cites e38): - IMM Table 7 (2021-2025 resource-hours): 3,863; 7,910; 2,501; 1,861; 5,129. [e38]
 - **Key facts #7** (cites e39) FLAG number-not-in-quote: 9%, 18%, 8%, 34%, 77%: - Reported reason, congestion share: 9% (2021), 18%, 8%, 34%, 77% (2025). [e39]
@@ -405,7 +426,7 @@ AFTER:  LARUCAMT_(q,i) = (-1) * ( RUCMWAMTTOT_(h) / 4 + RUCCSAMTTOT_(i)) * LRS_(
 - **Key facts #9** (cites e47) FLAG number-not-in-quote: 2026: - "Effective" Resource-hours exclude startup, shutdown, off-line and other periods when the unit was not dispatchable by SCED, so ERCOT's 2026 counts are not the same measure as the IMM's resource-hours. [e47]
 - **Questions #6** (cites e25, e6, e12): Usually: it can opt out, making the hours RUC Buy-Back Hours, unless the Resource is an RMR Unit or got an OSA. [e25][e6] The IMM notes that in 2025 fewer resources opted out, which is part of why make-whole payments rose. [e12]
 - **Questions #8** (cites e39, e45, e46, e51) FLAG number-not-in-quote: 77%, 34%: In 2025 the IMM reports 77% of commitments were reported as congestion, up from 34% in 2024. [e39] In summer 2026 ERCOT reports 17% congestion and attributes the activity mostly to capacity, particularly Ancillary Service quantities. [e45][e46] The IMM's account of the link is that operations indicated it would use RUC to add reserves when the market does not procure the full AS Plan. [e51]
-- **Questions #10** (cites e60, e40): Opting out means self-committing the unit and accepting full exposure to market outcomes, with no make-whole and no clawback. [e60] The IMM says the most likely explanation for the 2025 drop to 3% opt-outs is that market prices were not expected to be high enough to warrant it. [e40]
+- **Questions #10** (cites e60, e64, e40): The IMM describes opting out as self-committing the unit and accepting full exposure to market outcomes, forgoing both the make-whole payment and any clawback. [e60] The IMM says the most likely explanation for the lower opt-outs in 2025 (3%, per its Table 9) is that market prices were not expected to be high enough to warrant opting out. [e64][e40]
 - **Questions #12** (cites e56): If the QSE gave at least seven days' notice of the limitation, it is excused from the part it could not meet. [e56]
 - **Scenarios #2** (cites e5, e32, e34, e43): Suppose a unit is committed by HRUC for congestion and does not opt out. It is paid make-whole if revenues are below its guarantee, or pays clawback if above. [e5][e32] Capacity-short QSEs are charged first and the rest is uplifted by load ratio share. [e34] The adder may not raise prices much if the effect is local. [e43]
 - **Link to dam** (cites e15, e3): related Day-Ahead Market (DAM): The DRUC runs after the DAM closes and uses Three-Part Supply Offers that were considered in the DAM but not awarded. [e15][e3]
