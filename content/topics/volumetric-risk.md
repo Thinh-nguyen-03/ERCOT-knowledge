@@ -15,7 +15,7 @@ links:
     note: RMI and WBCSD separate volume risk (the total amount over a longer period) from shape risk (the timing of output). [e3][e8]
   - to: ppa-vppa
     type: affects
-    note: A VPPA's value in a period is the energy generated times the difference between market and VPPA prices, so output variability makes it uncertain. [e6]
+    note: RMI says a VPPA's value in a period is the energy generated times the difference between market and VPPA prices, so output variability makes it uncertain. [e6]
   - to: basis-risk
     type: related
     note: Norton Rose Fulbright says a fixed-volume hedge can fail on volume and on hub-versus-node price at the same time, and extra output cushions basis losses. [e4][e13]
@@ -178,6 +178,10 @@ evidence:
     source: ref-rmi-ppa-risk
     locator: "Retailer-Firmed Power, risk effects"
     quote: "By managing the day-to-day fluctuations in generation, the REP would absorb much of the volume risk."
+  - id: e37
+    source: ref-rmi-ppa-risk
+    locator: "Operational Risk, What It Is"
+    quote: "This is the risk associated with a renewable generator’s performance being compromised due to inadequate or failed processes, people, equipment, or systems, or from external events."
 ---
 
 ## Definition
@@ -186,11 +190,11 @@ Volumetric (volume) risk is the risk that the quantity actually produced or deli
 
 ## How it works
 
-Output varies with the weather: RMI, Yale and WBCSD all point to periods of low wind or sun, or a poor summer, as the cause. [e2][e3][e7] RMI defines volume risk as weather-driven to keep it separate from operational risk such as outages, and both RMI and WBCSD separate it from shape risk, which is about timing within the period. [e8][e3]
+Output varies with the weather: RMI, Yale and WBCSD all tie volume risk to weather (Yale to a prolonged lack of wind or sunshine, WBCSD to a windier year or a poor summer). [e2][e3][e7] RMI defines volume risk as weather-driven to keep it separate from operational risk, which it defines as performance compromised by failed processes, people, equipment or systems, or external events [e8][e37]; both RMI and WBCSD separate it from shape risk, which is about timing within the period. [e8][e3]
 
 How much volume risk a party carries depends on which volume the contract uses. Norton Rose Fulbright says renewable hedges share the same price math and differ in the volume multiplied by the hourly price difference, for example metered output (as-generated) or a fixed number set in advance. [e9][e10] RMI draws the same line between a VPPA, valued on the energy generated, and a fixed-volume price swap, in which a set amount must be provided. [e6][e15] Both say the fixed volume carries more volume risk than as-generated output. [e12][e15]
 
-Under an as-generated contract the buyer carries the volume risk: a VPPA's value in a period is the energy generated times the price difference, so lower output means lower value, up or down. [e6][e18] Under a fixed volume the party committed to the volume carries it. If the project produces less than the fixed amount it must buy the shortfall; if it produces more, the surplus is a cushion. [e14][e13] RMI says the same of a fixed-volume price swap entered by a buyer: if the project underproduces, the buyer must "financially backfill" the missing volume. [e15]
+Under an as-produced contract the buyer carries the volume risk: RMI says a VPPA's value in a period is the energy generated times the price difference, so output variability exposes the buyer to upside and downside, and WBCSD says the buyer in an as-produced physical PPA must hedge residual demand around the asset's likely output. [e6][e31] Norton Rose Fulbright adds that the sponsor takes no operating risk under an as-generated contract because payments follow actual output. [e18] Under a fixed volume the party committed to the volume carries it and must buy any shortfall: Norton Rose Fulbright says so of a project's fixed-volume hedge, RMI of a buyer's fixed-volume price swap, where the buyer must "financially backfill" the missing volume. [e14][e15] Norton Rose Fulbright adds that surplus output is a cushion. [e13]
 
 For a physical PPA, volume variation means the buyer must buy or sell more balancing energy; WBCSD says the buyer forms a view of the asset's likely output on a probability basis when deciding how to hedge residual demand. [e7][e31]
 
@@ -198,7 +202,7 @@ Mitigation in the sources is mostly a transfer: WBCSD says a seller can commit t
 
 ## ERCOT context
 
-Winter Storm Uri is the ERCOT case. Prices were held at $9,000/MWh by PUCT order. [e29] FERC and NERC staff found that wind was 27 percent of the 1,045 generating units in the event area with outages, derates or failures to start. [e21] UT Austin says wind owners' financial hedges could trigger payments to counterparties when wholesale prices exceeded contract prices or wind generation fell below contracted quantities, and that generators that failed to perform may have had to buy replacement energy at up to $9,000/MWh to meet their obligations. [e19][e20] The IMM says the extreme outcomes fell especially on those exposed to day-ahead or real-time prices through insufficient contract coverage, or on generators unable to operate to hedge their exposure. [e28]
+Winter Storm Uri is the ERCOT case. Prices were held at $9,000/MWh by PUCT order. [e29] FERC and NERC staff found that wind was 27 percent of the 1,045 generating units in their event area (Texas and the South Central United States, not ERCOT alone) with outages, derates or failures to start. [e21] UT Austin says wind owners' financial hedges could trigger payments to counterparties when wholesale prices exceeded contract prices or wind generation fell below contracted quantities, and that generators that failed to perform may have had to buy replacement energy at $9,000/MWh or more to meet their obligations. [e19][e20] The IMM says the extreme outcomes fell especially on those exposed to day-ahead or real-time prices through insufficient contract coverage, or on generators unable to operate to hedge their exposure. [e28]
 
 On the load side, the ERCOT settlement rules show where an unhedged quantity goes. A QSE's Real-Time Energy Imbalance at a Load Zone is calculated at the Real-Time Settlement Point Price on its DAM purchases and Energy Trades, net of sales, and its Adjusted Metered Load (AML). [e23][e25][e34][e24] So load the QSE did not buy forward settles at the real-time price. [e23][e24]
 
@@ -211,16 +215,16 @@ UT Austin says retailers' Uri losses depended both on how far their price risk w
 - A fixed-volume hedge carries more volume risk for the committed party than an as-generated one. [e12][e15][e18]
 - A party short on a fixed-volume hedge must buy the missing volume. [e14][e15]
 - During Uri, ERCOT prices were held at $9,000/MWh. [e29]
-- Wind was 27% of generating units with outages, derates or failures to start in the February 2021 event area. [e21]
+- Wind was 27% of generating units with outages, derates or failures to start in the February 2021 FERC-NERC event area (Texas and the South Central United States). [e21]
 - In ERCOT, Load Zone imbalance settles at the Real-Time SPP including the QSE's Adjusted Metered Load. [e23][e24]
 
 ## Formula
 
-The hedge settlement in each hour is the price difference times a volume; the volume is what differs between contract types. [e9][e6] For a fixed-volume hedge, the volume exposure in an hour is the contracted volume minus actual output: positive means the party must buy the shortfall, negative means it has surplus. [e14][e13][e15]
+The hedge settlement is the price difference times a volume, hour by hour in Norton Rose Fulbright's account and per period in RMI's; the volume is what differs between contract types. [e9][e6] For a fixed-volume hedge, the volume exposure in an hour is the contracted volume minus actual output: positive means the party must buy the shortfall, negative means it has surplus. [e14][e13][e15]
 
 ## Example
 
-Suppose (illustrative, made-up numbers) a wind project has a fixed-volume hedge of 80 MW at a $35/MWh fixed price, settled hourly against the hub. In an hour when the hub price is $9,000 and the project produces only 10 MW, it receives 80 × $35 = $2,800 but must deliver 80 MWh. Its own 10 MWh cover part of that; the other 70 MWh it must buy at the hub: 70 × $9,000 = $630,000 for that hour. Under an as-generated contract with the same price, it would owe only on the 10 MWh it produced.
+Suppose (illustrative, made-up numbers) a wind project has a fixed-volume hedge of 80 MW at a $35/MWh fixed price, settled hourly against the hub. In an hour when the hub price is at a Uri-level $9,000 and the project produces only 10 MW, it receives 80 × $35 = $2,800 but must deliver 80 MWh. Its own 10 MWh cover part of that; the other 70 MWh it must buy at the hub: 70 × $9,000 = $630,000 for that hour. Under an as-generated contract with the same price, it would owe only on the 10 MWh it produced.
 
 ## Say it like this
 
@@ -230,7 +234,7 @@ Suppose (illustrative, made-up numbers) a wind project has a fixed-volume hedge 
 
 (Guidance) Volumetric risk is general industry usage and is not defined in the ERCOT Protocols, PUCT rules or IMM reports saved here.
 
-The sources frame it differently. RMI, Yale and WBCSD describe it as uncertainty in a project's total output over a period [e1][e2][e3]; Norton Rose Fulbright describes it hour by hour as the mismatch between a fixed-volume hedge's delivery requirement and actual output [e4]; the SFU thesis (from a risk-officers' list) describes it as the risk of not delivering the full contractual volume. [e5] RMI excludes outages, calling them operational risk; the Norton Rose Fulbright hour-by-hour usage counts any shortfall, whatever the cause. [e8][e4]
+The sources frame it differently. RMI, Yale and WBCSD describe it as uncertainty in a project's total output over a period [e1][e2][e3]; Norton Rose Fulbright describes it hour by hour as the mismatch between a fixed-volume hedge's delivery requirement and actual output [e4]; the SFU thesis (from a risk-officers' list) describes it as the risk of not delivering the full contractual volume. [e5] RMI keeps equipment and other performance failures out, calling them operational risk; the Norton Rose Fulbright hour-by-hour usage looks only at the mismatch against the hedge volume and does not separate causes. [e8][e37][e4]
 
 Volume risk is not shape risk. Shape is about when the energy comes; volume is about how much in total. [e3][e8]
 
@@ -244,11 +248,11 @@ It required the project to deliver a set volume regardless of output. When outpu
 
 ### Who carries volume risk in an as-generated VPPA?
 
-The buyer: the settlement uses metered output, so the generator takes no operating risk on volume and the buyer's hedge value moves with output. [e18][e6] Norton Rose Fulbright's data center example shows the downside: the plant shut down, the buyer paid $9,000/MWh for its power and received nothing from the VPPA. [e33][e29]
+The buyer: Norton Rose Fulbright says the settlement uses actual output, so the generator takes no operating risk, and RMI that the buyer's VPPA value moves with the energy generated. [e18][e6] Norton Rose Fulbright's data center example shows the downside: the plant shut down, the buyer paid $9,000/MWh for its power and received nothing from the VPPA. [e33][e29]
 
 ### How is volume risk different from operational risk?
 
-RMI defines volume risk as weather-driven variation in total output and treats outages and curtailment as operational risk; other sources simply count any shortfall against the contracted amount. [e8][e4]
+RMI defines volume risk as weather-driven variation in total output and treats performance failures of processes, people, equipment or systems as operational risk; Norton Rose Fulbright's hedge usage looks only at the mismatch against the contracted amount. [e8][e37][e4]
 
 ### How does a load-serving entity face volumetric risk in ERCOT?
 
@@ -256,7 +260,7 @@ Any load it has not bought forward settles at the Real-Time price, because ERCOT
 
 ### What if a project overproduces against a fixed-volume hedge?
 
-The surplus is sold at the market and, during a price spike, cushions basis losses and can even make a profit. [e13] The surplus itself is unhedged (see Open items).
+Norton Rose Fulbright says the surplus cushions basis losses during a price spike and can even make a profit. [e13] RMI notes that price risk remains on generation above a fixed volume (single-source; see Open items).
 
 ### Can portfolio design reduce volume risk?
 
@@ -266,9 +270,9 @@ The sources mostly describe moving it rather than removing it: a seller can comm
 
 ### A wind project in ERCOT signed a fixed-volume swap set at its historical average. A week of cold, still weather arrives with prices at the cap. What happens?
 
-- Output falls well below the committed volume, as UT Austin says happened to wind generation against contracted quantities in Uri; Norton Rose Fulbright adds that wind speeds were often below P99. [e19][e30]
-- The project must buy the shortfall at real-time prices to meet the swap. [e14][e20]
-- At $9,000/MWh this can exhaust its liquidity; Norton Rose Fulbright says fixed-volume purchases typically settle daily and the hub-price payments can cause liquidity issues. [e29][e35]
+- Output falls below the committed volume; UT Austin says wind generation below contracted quantities could trigger payments to hedge counterparties in Uri. [e19]
+- The project must buy the shortfall at market prices to meet its obligation. [e14][e15][e20]
+- At prices like Uri's $9,000/MWh this can strain its liquidity; Norton Rose Fulbright says fixed-volume purchases typically settle daily and the hub-price payments can cause liquidity issues. [e29][e35]
 - An as-generated contract would have left the volume risk with the buyer instead. [e18][e12]
 
 ## Open items

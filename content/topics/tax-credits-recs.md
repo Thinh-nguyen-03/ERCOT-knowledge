@@ -264,7 +264,7 @@ A facility or storage technology has "material assistance from a prohibited fore
 
 The credits affect ERCOT prices through offer behavior. The IMM says 35% of real-time generation capacity was offered at or below $0 in 2025 (32% in 2024), mostly from wind and solar resources that keep producing at negative prices because many receive federal production tax credits. [e10][e47] Its earlier reports describe roughly one quarter of capacity offered below zero in 2022 and 30% in 2023, from wind, solar and other resources, again tying the behavior to production tax credits. [e45][e46] Note the basis changes: 2022-2023 counted capacity offered below zero, 2024-2025 counted capacity at or below $0. [e45][e47]
 
-The Texas REC market is now voluntary. HB 1500 (effective September 1, 2023) repealed PURA 39.904, which held the state's goal for renewable generating capacity, and added 39.9113. [e9][e13][e27] HB 1500 Section 53 required the PUCT to keep applying 39.904 only for solar, then phase that program out so it ended September 1, 2025. [e25][e26] PUCT rule 25.173 accordingly set a solar RPS to be phased out by September 1, 2025, with retail entities retiring solar RECs for the 2024 and 2025 compliance periods, and directed ERCOT to continue a voluntary REC program. [e28][e33][e34] Compliance premiums were created only for solar RECs generated through December 31, 2024 and could not be used after the settlement period for the 2024 compliance period. [e29][e30]
+The Texas REC market is now voluntary. HB 1500 (effective September 1, 2023) repealed PURA 39.904, which held the state's goal for renewable generating capacity, and added 39.9113. [e9][e13][e27] HB 1500 Section 53 required the PUCT to keep applying 39.904 only for solar, then phase that program out so it ended September 1, 2025. [e25][e26] PUCT rule 25.173 accordingly set a solar RPS to be phased out by September 1, 2025, with retail entities retiring solar RECs for the 2024 and 2025 compliance periods, and directed ERCOT to continue a voluntary REC program. [e28][e33][e34] Solar RECs generated in 2025 could count toward the 2025 solar RPS or be used on a voluntary basis in later years. [e32] Compliance premiums were created only for solar RECs generated through December 31, 2024 and could not be used after the settlement period for the 2024 compliance period. [e29][e30]
 
 Hourly certificates: separate from the REC program, the Protocols have ERCOT provide data to a voluntary Energy Attribute Certificate (EAC) program run by one third-party administrator, with tracking by hour and location, a storage charging-and-losses methodology, and a check that RECs and EACs are not duplicative. [e41][e42] ERCOT provides 15-minute generation data for registered facilities, and TAC recommends and the ERCOT Board approves the administrator. [e43][e44]
 
@@ -331,7 +331,7 @@ The 48E exception covers only the wind and solar termination; storage constructi
 
 ### How does a REC get created and retired in ERCOT?
 
-ERCOT credits RECs after each quarter based on verified MWh, one per MWh. [e37] Transfers between parties are effective on confirmation by the receiving entity, and ERCOT retires RECs at an owner's request or on expiration after three compliance periods. [e11][e31]
+ERCOT credits RECs after each quarter based on verified MWh, one per MWh. [e37] A REC can be banked for the next two compliance periods and has a useful life of three compliance periods. [e31][e11]
 
 ## Scenarios
 
