@@ -115,7 +115,7 @@ evidence:
   - id: e16
     source: np-22p-2025-12
     locator: "Section 22, Attachment P (December 5, 2025 edition), Section 4.1"
-    quote: "The objective function for SCED is the sum of four components: (1) the cost of dispatching generation; (2) the cost of procuring Ancillary Services; (3) the penalty for violating Power Balance constraint; and (4) the penalty for violating network transmission constraints."
+    quote: "The objective function for SCED is the sum of four components: (1) the cost of dispatching generation; (2) the cost of procuring Ancillary Services; (3) the penalty for violating Power Balance constraint; and (4) the penalty for violating network transmission constraints. SCED economically dispatches Generation Resources and Energy Storage Resources (ESRs) and procures Ancillary Services by minimizing this objective function within the Resource physical limits and transmission limits. Since the Power Balance penalty is the maximum cost for meeting the Power Balance, SCED will re-dispatch generation to meet the Power Balance if the cost of re-dispatching the generation is less than cost of violating the Power Balance. When the cost of re-dispatching the Generation Resources and ESRs becomes higher than the cost of violating the Power Balance constraint, SCED ceases the re-dispatch of the Generation Resources and ESRs and the objective function is minimized with the Power Balance penalty determined by MW amount of the Power Balance constraint violation."
   - id: e17
     source: np-22p-2025-12
     locator: "Section 22, Attachment P (December 5, 2025 edition), Section 4.1"
@@ -149,6 +149,10 @@ evidence:
     source: np-22p
     locator: "Section 22, Attachment P (April 1, 2025 edition), pending replacement of Section 4.1"
     quote: "In the ERCOT design, SCED implements the under-generation Power Balance Penalty Price as a single value equal to the effective Value of Lost Load (VOLL) plus the effective Real-Time System-Wide Offer Cap (RTSWCAP) plus $0.01/MWh."
+  - id: e25
+    source: np-22p
+    locator: "Section 22, Attachment P (April 1, 2025 edition), Section 4.3, under-generation curve cap"
+    quote: "The SCED under-generation Power Balance Penalty curve will be capped at LCAP plus $1 per MWh whenever the SWCAP is set to the LCAP."
 ---
 
 ## Definition
@@ -171,10 +175,10 @@ The maximum System Lambda is set by the power balance penalty: the Power Balance
 
 ## Timeline
 
-- Pre-RTC (Attachment P, April 1, 2025 edition): SCED implemented the Power Balance Penalty as a step function with up to 10 (violation MW; penalty $/MW) pairs that determined the maximum System Lambda for a given amount of violation. [e18] The under-generation curve in Section 4.3 of that edition ran from 250 $/MWh for violations of 5 MW or less, through 300, 400, 500, 1,000, 2,250 and 4,500 $/MWh at higher violation bands, to HCAP plus 1 above 100 MW. [e19]
+- Pre-RTC (Attachment P, April 1, 2025 edition): SCED implemented the Power Balance Penalty as a step function with up to 10 (violation MW; penalty $/MW) pairs that determined the maximum System Lambda for a given amount of violation. [e18] The under-generation curve in Section 4.3 of that edition ran from 250 $/MWh for violations of 5 MW or less, through 300, 400, 500, 1,000, 2,250 and 4,500 $/MWh at higher violation bands, to HCAP plus 1 above 100 MW. [e19] That edition also said the under-generation curve would be capped at LCAP plus $1 per MWh whenever the SWCAP is set to the LCAP. [e25]
 - April 1, 2025 edition also carried a pending box: OBDRR020 and NPRR1246 would replace Section 4.1 upon system implementation of RTC. [e20] The pending text in that edition set the under-generation penalty at VOLL plus RTSWCAP plus $0.01/MWh. [e24] (The December 5, 2025 edition, below, shows a different adder.)
 - December 5, 2025 edition (current in the saved sources): the under-generation Power Balance Penalty Price is a single value equal to the effective VOLL plus the effective RTSWCAP plus $4,052.01/MWh, which determines the maximum System Lambda; the over-generation penalty price is -$250/MWh. [e17]
-- In 2025 ERCOT noted RTSWCAP at $2,000/MWh under RTC+B. [e23]
+- In the NPRR1290 PRS report (2025-08-13), the revision description says that under RTC+B the Real-Time System-Wide Offer Cap (RTSWCAP) is at $2,000/MWh. [e23]
 
 ## ERCOT context
 
@@ -182,7 +186,7 @@ System Lambda shows up in several price rules, not only as an LMP component. The
 
 It is also a fallback price: when ERCOT must assign an LMP to a de-energized Electrical Bus, the last rule in the order is to use System Lambda, after a predetermined LMP, same-station same-voltage averages and same-station averages. [e7] And the Emergency Pricing Program test adds the RTM System Lambda to the reliability deployment adder and compares the sum to the HCAP for DAM, with activation when it is at or above the HCAP for a total of 12 hours within a rolling 24-hour period. [e8]
 
-Practice: the IMM uses system lambda as a benchmark in two ways. It counts ESR base points awarded at an LMP above system lambda as a sign that injections there help manage congestion, [e9] and it measured the excess cost of ECRS deployment practice as system lambda multiplied by load. [e22] For demand behavior, the IMM reported in its 2024 State of the Market Report that large flexible loads reduce their consumption by as much as 75% when system lambda exceeds $1,000 per MWh. [e21]
+Practice: the IMM uses system lambda as a benchmark in two ways. It counts ESR base points awarded at an LMP above system lambda as a sign that injections there help manage congestion, [e9] and it measured the excess cost of ECRS deployment practice as the difference between actual and simulated results, expressed as system lambda multiplied by load. [e22] For demand behavior, the IMM reported in its 2024 State of the Market Report that large flexible loads reduce their consumption by as much as 75% when system lambda exceeds $1,000 per MWh. [e21]
 
 ## Key facts
 

@@ -29,19 +29,19 @@ links:
     note: The IMM says short payments during Winter Storm Uri exceeded $3 billion, and after Uri ERCOT eliminated unsecured credit limits through NPRR 1112. [e60][e58]
   - to: crr-auction
     type: related
-    note: A Counter-Party's CRR auction credit limit is the lesser of its ACLC-based limit and any self-imposed limit, and the auction cannot award bids beyond it. [e37][e38]
+    note: The CRR Auction system prevents a CRR Account Holder from being awarded bids and offers beyond the lesser of its self-imposed credit limit and the limit prescribed in Section 16.11.4.6.1. [e35][e34]
   - to: ptp-obligation
     type: related
-    note: DAM PTP obligation bids count toward the DAM credit exposure checked against the ACLD. [e36]
+    note: ERCOT calculates DAM credit exposure for PTP Obligation bids (Section 4.4.10(6)(d)), and DAM bids and offers are accepted only while exposure stays within the Counter-Party's DAM credit limit. [e78][e36]
   - to: uplift
     type: related
-    note: PUL, potential uplift, is part of TPEA for Counter-Parties that represent Entities to which a short payment will be uplifted. [e18][e21]
+    note: PUL, potential uplift, is added in TPEA, to the extent and proportion that the Counter-Party represents Entities to which an uplift of a short payment will be made. [e15][e16]
   - to: load-ratio-share
     type: related
-    note: Uncollected defaults reach other participants through uplift allocation, which the IMM tied to unsecured credit limits in the 2021 event. [e58]
+    note: The IMM says that after the 2021 storm, payment defaults by Counter-Parties with Unsecured Credit Limits increased the potential default uplift amounts to other Market Participants. [e58]
   - to: mass-transition
     type: related
-    note: A Counter-Party's EAL can include an Incremental Load Exposure adjustment for POLR-qualified QSEs when another Counter-Party defaults and a Mass Transition occurs. [e19]
+    note: After a Mass Transition caused by the default of a Counter-Party representing a QSE associated with an LSE, ERCOT may adjust the TPE of Counter-Parties representing POLR-qualified QSEs to reflect the estimated Incremental Load Exposure. [e19]
 evidence:
   - id: e1
     source: np-02
