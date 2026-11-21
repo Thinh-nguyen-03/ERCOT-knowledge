@@ -6,7 +6,8 @@ kind: concept
 domain: congestion
 level: 2
 lenses: [analyst, retail, trading, portfolio]
-as_of: 2026-11-18
+as_of: 2026-11-21
+depth: deep
 links:
   - to: dam
     type: settles
@@ -29,6 +30,21 @@ links:
   - to: qse
     type: related
     note: DAM and RTM Statements are posted to the MIS Certified Area. [e10]
+  - to: ruc-make-whole
+    type: related
+    note: See the RUC make-whole topic for the RUC-specific settlement and dispute routes.
+  - to: securitization
+    type: related
+    note: See the securitization topic for the separate Default Charge and Uplift Charge invoices.
+  - to: crr-auction
+    type: related
+    note: CRR Auction, CARD and CRRBA invoices are disputable items alongside statements and the Default Uplift Invoice. [e52]
+  - to: load-profiling
+    type: related
+    note: The True-Up Statement timing depends on usage data from ESI IDs with a BUSIDRRQ Load Profile Type code reaching the IDR Meter Data Threshold. [e6]
+  - to: esi-id
+    type: related
+    note: The IDR Meter Data Threshold counts ESI IDs with a BUSIDRRQ Load Profile Type code. [e6]
 evidence:
   - id: e1
     source: np-02
@@ -250,21 +266,45 @@ evidence:
 
 ## Definition
 
-A Settlement Statement is the statement ERCOT issues showing a breakdown of administrative, miscellaneous and market charges for the applicable market services. [e1] There are separate statements for the Day-Ahead Market and the Real-Time Market, and their settlement and billing timelines are separate. [e2]
+A Settlement Statement is the statement ERCOT issues showing a breakdown of administrative, miscellaneous and market charges for the applicable market services. [e1] There are separate statements for the Day-Ahead Market and the Real-Time Market, and their settlement and billing timelines are separate. [e2] The Commercial Operations Market Guide adds that the RTM, the DAM and the CRR Auction are settled separately, each with its own statements or invoices on a different timeline. [e48]
 
 ## How it works
 
-ERCOT posts a Settlement Calendar on its website showing, for each Operating Day, when each scheduled DAM and RTM statement will be issued. [e14] Statements are posted to the MIS Certified Area. [e10]
+**Calendar and access.** ERCOT posts a Settlement Calendar on its website showing, for each Operating Day, when each scheduled DAM and RTM statement will be issued. [e14] Statements are posted to the MIS Certified Area, and the recipient is responsible for accessing them. [e10] A DAM Statement is deemed available on its calendar date unless the recipient notifies ERCOT otherwise. [e21] If a DAM is not successfully executed for an Operating Day, no DAM Statement is generated for it. [e49]
 
-The DAM gets a DAM Statement on the second Business Day after the Operating Day. [e3] The RTM gets a series of statements for each Operating Day: an Initial Statement on the fifth day after the Operating Day (next Business Day if that is not one, or the first Business Day after Real-Time prices are final if the fifth day falls on or before that date), a Final Statement on the 55th day (first Business Day after if that is not one), and a True-Up Statement 180 days after the Operating Day if the IDR Meter Data Threshold is met. [e4][e5][e6] If the threshold is not met the True-Up comes when the data is available, and one is issued no later than 365 days after the Operating Day. [e7]
+**DAM statements.** The DAM gets a DAM Statement on the second Business Day after the Operating Day, and a DAM Resettlement Statement corrects it. [e3][e15] DAM statements break fees down by Charge Type into one-hour Settlement Intervals. [e16]
 
-Resettlement statements correct earlier ones. A resettlement for non-price errors is triggered when the error exceeds 4% of the RTM Statement amount and $400 (2% and $200 for the DAM), and is found and noticed within a year of the Operating Day. [e8][e9]
+**RTM statements.** The RTM gets a series of statements for each Operating Day: an Initial Statement on the fifth day after the Operating Day (next Business Day if that is not one, or the first Business Day after Real-Time prices are final if the fifth day falls on or before that date), a Final Statement on the 55th day (first Business Day after if that is not one), and a True-Up Statement 180 days after the Operating Day if the IDR Meter Data Threshold is met. [e4][e5][e6] If the threshold is not met the True-Up comes when the data is available, and one is issued no later than 365 days after the Operating Day. [e7] If the True-Up date is not a Business Day it is issued by the end of the next Business Day. [e29] If the threshold is not met by the 180th day (or the next Business Day), ERCOT sends a Market Notice about the delay. [e30] RTM statements break fees down by Charge Type into 15-minute or one-hour intervals, and ERCOT may use estimated, disputed or calculated meter data to issue them. [e17][e22] Each later statement reflects differences against the previous statement for the Operating Day. [e23]
 
-ERCOT then issues Settlement Invoices on a net basis on the same Business Day the statements are posted. [e10] Amounts owed to ERCOT are due at 1700 on the second Bank Business Day after the invoice date. [e11] A negative amount on a statement or invoice is a payment from ERCOT to the recipient; a positive amount is owed to ERCOT. [e12]
+**Resettlement triggers (DAM).** ERCOT issues DAM Resettlement Statements if the Board finds DAM prices significantly affected by a software or other error, for resolved disputes and non-price error corrections, and the Board may direct a resettlement of any Operating Day at any time. [e18] A resettlement for non-price errors is triggered when the error exceeds 2% of the DAM Statement amount and $200 and is found and noticed within a year. [e9] A resettlement is also required if an error will prevent ERCOT from achieving revenue neutrality. [e19] Smaller errors are swept up within 150 days of each Operating Day if cumulative impact exceeds 1% of DAM Statement amounts and $5,000. [e20]
+
+**Resettlement triggers (RTM).** A resettlement for non-price errors is triggered when the error exceeds 4% of the RTM Statement amount and $400, and is found and noticed within a year of the Operating Day. [e8] A resettlement after the True-Up must meet the same IDR Meter Data Threshold and is subject to the same dispute-filing limits, though the Board may direct a resettlement at any time. [e24] ERCOT may not issue an RTM Resettlement less than 20 days before a scheduled Final or True-Up Statement. [e27] If resettlement is not practicable due to system limitations, ERCOT makes the adjustments through a separate invoice outside the normal Settlement Invoices. [e28]
+
+**Invoices and payment.** ERCOT issues Settlement Invoices on a net basis on the same Business Day the statements are posted, grouped by DAM, DAM Resettlement, RTM Initial, RTM Final, RTM Resettlement and RTM True-Up and sorted by Operating Day. [e10][e33] Amounts owed to ERCOT are due at 1700 on the second Bank Business Day after the invoice date. [e11] ERCOT pays amounts owed to a recipient by 1700 on the next Bank Business Day after the payments are due, subject to availability of funds and ERCOT's right to withhold payments for reasons in the Protocols or by law. [e34] A negative amount on a statement or invoice is a payment from ERCOT to the recipient; a positive amount is owed to ERCOT. [e12] Recipients pay any net debit whether or not there is a dispute. [e32]
+
+**Short-pays.** If ERCOT still lacks funds after collection efforts, draws on Financial Security and offsets, it deducts certain fees, RMR payments and the CRRBA and reduces payments to all owed recipients pro rata for revenue neutrality. [e46] If funds remain unavailable and the short-payer is not on a payment plan, ERCOT uplifts the short-paid amounts through the Default Uplift process. [e47] The Guide says the Default Uplift process allocates DAM and/or RTM losses to QSEs and CRR Account Holders. [e50] ERCOT may use a Miscellaneous Invoice when it cannot reasonably invoice through another Protocol-defined invoice. [e51]
+
+**Disputes.** A recipient may dispute items or calculations in the most recently issued statement for an Operating Day; the dispute applies to the Operating Day, not the statement. [e35] A dispute must state the disputing entity, contacts, Operating Day or invoice date, Charge Type, period, amount, type and reasons, or ERCOT rejects it. [e40] If ERCOT needs more data it must ask within seven Business Days, and the filer must respond within five Business Days (or an agreed date no later than eight Business Days before the True-Up posting), or ERCOT denies the dispute. [e41] An invoice recipient may dispute invoice elements not resulting from a statement within ten Business Days of posting. [e36] Statements bind the recipient once the dispute deadline has passed unless ERCOT issues a later resettlement. [e39][e37]
+
+For RTM, disputes submitted within 15 Business Days of the Initial Statement are resolved on the Final Statement if possible and otherwise on a Resettlement; later disputes go to the next available Resettlement or True-Up, and disputes submitted at least 20 Business Days before the scheduled True-Up are included on it. [e25][e26] ERCOT rejects disputes during the 20 Business Days before the scheduled True-Up. [e38] After the True-Up, only incremental changes between the True-Up or later resettlement and the previous statement can be disputed and recovered, and late disputes are rejected. [e37] A recipient is deemed to have validated a True-Up Statement unless it files within ten Business Days. [e31] Complete DAM disputes received within ten Business Days of the DAM Statement go into a DAM Resettlement. [e42]
+
+Resolutions: a denied dispute can go to ADR, and ERCOT closes it if ADR is not begun within 45 days of the denial notice. [e44][e43] A "Granted with Exceptions" outcome is deemed accepted if not timely rejected. [e45] Disputes can be filed through the MIS web portal or API. [e53] ERCOT's dispute extract gives QSEs and CRR Account Holders their open disputes and those closed or withdrawn in the last 120 days. [e54]
 
 ## ERCOT context
 
-The RTM True-Up is tied to ERCOT receiving and validating usage data from a threshold share of ESI IDs, so its timing can move. [e6][e7] A recipient is deemed to have validated a DAM Statement unless it raises a dispute or exception within ten Business Days of issue. [e13]
+The RTM True-Up is tied to ERCOT receiving and validating usage data from a threshold share of ESI IDs, so its timing can move. [e6][e7] A recipient is deemed to have validated a DAM Statement unless it raises a dispute or exception within ten Business Days of issue. [e13] The Guide's list of disputable items runs from the DAM Statement through RTM Initial, Final, True-Up and later resettlement statements to the Default Uplift, CRR Auction, CARD and CRRBA invoices. [e52]
+
+## Timeline
+
+For an RTM Operating Day D, the Protocols count the Initial, Final and True-Up Statements in days after D and the dispute windows in Business Days: [e4][e5][e6]
+
+- D+5: Initial Statement. [e4]
+- Within 15 Business Days after Initial: disputes get resolved on the Final if possible. [e25]
+- D+55: Final Statement. [e5]
+- 20 Business Days before the True-Up: disputes rejected; disputes filed at least 20 Business Days before are included on the True-Up. [e38][e26]
+- D+180: True-Up if the IDR Meter Data Threshold is met (otherwise when the data is available). [e6][e7]
+- D+365: a True-Up must have been issued. [e7]
+- Within one year of D: non-price errors must be found and noticed to trigger a resettlement. [e8]
 
 ## Key facts
 
@@ -275,14 +315,15 @@ The RTM True-Up is tied to ERCOT receiving and validating usage data from a thre
 - RTM resettlement threshold: 4% and $400; DAM: 2% and $200. [e8][e9]
 - Payment is due 1700 on the second Bank Business Day after the invoice date. [e11]
 - Dispute window to avoid being deemed to have validated a DAM statement: ten Business Days. [e13]
+- RTM disputes are rejected in the 20 Business Days before the scheduled True-Up. [e38]
 
 ## Say it like this
 
-A trade day is settled in stages: the DAM statement lands two Business Days later, the real-time initial statement about five days later, a final at day 55 and a true-up around day 180. Each stage can move your numbers, so we treat the early statements as provisional.
+A trade day is settled in stages: the DAM statement lands two Business Days later, the real-time initial statement about five days later, a final at day 55 and a true-up around day 180. Each stage can move your numbers, so we treat the early statements as provisional, and the dispute clocks run on Business Days.
 
 ## Common confusion
 
-"Final" does not mean last. The RTM Final Statement is issued on the 55th day, but a True-Up Statement follows at 180 days or later. [e5][e6] Also, a negative statement amount means ERCOT pays you, not the other way round. [e12]
+"Final" does not mean last. The RTM Final Statement is issued on the 55th day, but a True-Up Statement follows at 180 days or later. [e5][e6] Also, a negative statement amount means ERCOT pays you, not the other way round. [e12] And a dispute is about the Operating Day, not a single statement version, so filing against an old statement means ERCOT looks at the latest one. [e35]
 
 ## Questions
 
@@ -296,11 +337,37 @@ The IDR Meter Data Threshold: usage data validated for at least 99% of ESI IDs w
 
 ### What if I disagree with a statement?
 
-Raise a dispute under Section 9.14; a DAM statement is deemed validated if you raise no dispute or exception within ten Business Days. [e13] The detailed dispute rules are in Section 9.14.
+Raise a dispute under Section 9.14; a DAM statement is deemed validated if you raise no dispute or exception within ten Business Days. [e13] RTM disputes filed within 15 Business Days of the Initial Statement aim for the Final Statement. [e25] The detailed dispute rules are in Section 9.14.
+
+### Why might ERCOT reject my RTM dispute?
+
+Disputes for an Operating Day are rejected during the 20 Business Days before its scheduled True-Up, and late-filed disputes are rejected generally. [e38][e37] The saved text gives the rule but not the reason.
+
+### What if I only find an error eight months after the Operating Day?
+
+A non-price-error resettlement requires the error to exceed the 4% and $400 RTM thresholds (2% and $200 for the DAM) and be found and noticed within one year of the Operating Day. [e8][e9] After the True-Up, a resettlement must also meet the IDR Meter Data Threshold and the same dispute limits. [e24]
+
+### What if a counterparty short-pays an invoice?
+
+ERCOT collects, draws on Financial Security and offsets, then reduces payments to all owed recipients pro rata and, if funds remain unavailable and the short-payer is not on a payment plan, uplifts the shortfall through the Default Uplift process. [e46][e47]
+
+### Why do I owe the invoice amount even while my dispute is open?
+
+The Protocols require each invoice recipient to pay any net debit on the due date whether or not there is a dispute, and to receive any net credit likewise. [e32]
+
+## Scenarios
+
+### A QSE sees a $50,000 error on an Operating Day found 120 days later. What happens?
+
+- Under RTM rules a Resettlement is triggered if the error is over 4% of its RTM Statement amount and over $400, and was discovered and noticed within a year; otherwise the QSE can dispute. [e8][e35]
+- If the QSE disputes after the Initial Statement but within 15 Business Days it would be handled on the Final; at 120 days the dispute goes to the next available Resettlement or the True-Up. [e25][e26]
+- ERCOT may not issue the RTM Resettlement fewer than 20 days before the scheduled True-Up. [e27]
 
 ## Open items
 
+- Resolved 2026-11-21: Section 9.14 dispute process, 9.19 short-pay handling, DAM and RTM resettlement triggers, invoice grouping and payment timing are now cited; the COPMG dispute and invoice descriptions are cited.
 - Charge type lists (Sections 9.2.3 and 9.5.3) were not summarized.
-- RTM Statement dispute windows and the 20-Business-Day blackout before the True-Up (Section 9.14.2) were not cited here except the DAM validation window.
-- Invoices for CRR auction, CARD and balancing account (Sections 9.8-9.13) are only referenced, not described.
-- Payment details for ERCOT paying recipients (Section 9.7.2) and partial payment handling were not summarized.
+- Default Uplift Invoice formulas (Section 9.19.1), partial payment payment-plan details beyond paragraphs (d)-(e), and the 5% hold of Financial Security were not summarized.
+- Invoices for CRR auction, CARD and balancing account (Sections 9.8-9.13): the COPMG table gives timing (for example CRR Auction Invoice posted the first Business Day after the auction) but table cells could not be quoted cleanly, so they are referenced, not described.
+- RTM price-error resettlement mechanics (Section 6.3 price correction) are not covered; only non-price-error thresholds are cited.
+- Alternative Dispute Resolution procedure (Section 20) is not saved or summarized.
