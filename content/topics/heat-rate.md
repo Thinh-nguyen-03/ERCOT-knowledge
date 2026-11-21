@@ -29,10 +29,10 @@ links:
     note: The PNM proxy combustion turbine assumes a 10 MMBtu per MWh heat rate and no other variable operating or startup costs. [e36][e5]
   - to: spark-spread
     type: prerequisite-of
-    note: EIA's spark spread is the power price minus the gas price times a heat rate, with a 7,000 Btu/kWh benchmark. [e34]
+    note: EIA's spark spread is the power price minus the gas price times a heat rate; EIA's 2013 article used a 7,000 Btu/kWh benchmark. [e34]
   - to: ruc-make-whole
     type: used-in
-    note: ERCOT's proxy heat rate (day-ahead hub price over the fuel index) is used to estimate real-time payments removed from the RUC guarantee. [e27]
+    note: ERCOT's proxy heat rate (day-ahead hub price over an average fuel price index) is used to estimate real-time payments that are removed from the RUC guarantee. [e27][e28]
   - to: merit-order
     type: determines
     note: The IMM says the 0 to 10 times FIP price band covers the incremental fuel price of most of the ERCOT fleet. [e10]
@@ -151,7 +151,7 @@ evidence:
   - id: e28
     source: ercot-vcm
     locator: "Verifiable Cost Manual (version effective December 1, 2026), Appendix 6, use of the PHR"
-    quote: "The PHR is used to estimate the payments received in Real Time by Resources ramping from breaker close to LSL (see Section 14, Appendices, Appendix 5, Specification of Relevant Equations, for additional details)."
+    quote: "The PHR is used to estimate the payments received in Real Time by Resources ramping from breaker close to LSL (see Section 14, Appendices, Appendix 5, Specification of Relevant Equations, for additional details). These estimated payments are removed from the RUC Guarantee indirectly by subtracting the product of the PHR and average generation (from breaker close to LSL) from the Resource’s approved fuel rate, which is used to establish the RUC Guarantee."
   - id: e29
     source: np-04
     locator: "Section 4.4.9.4.1(1), FPRC formula and Fuel Adder definition"
@@ -202,17 +202,17 @@ Fuel costs are the largest component of marginal production cost for most genera
 
 ## Formula
 
-Efficiency (EIA): efficiency (%) = 3,412 Btu per kWh divided by the heat rate in Btu/kWh. A 10,500 Btu/kWh heat rate is 33% efficient and a 7,500 Btu/kWh heat rate is 45%. [e31] (1 MMBtu/MWh equals 1,000 Btu/kWh, so 10.5 MMBtu/MWh is the same as 10,500 Btu/kWh.)
+Efficiency (EIA): efficiency (%) = 3,412 Btu per kWh divided by the heat rate in Btu/kWh. A 10,500 Btu/kWh heat rate is 33% efficient and a 7,500 Btu/kWh heat rate is 45%. [e31] (Knowledge base's own unit conversion, not from the source: 1 MMBtu/MWh equals 1,000 Btu/kWh, so 10.5 MMBtu/MWh is the same as 10,500 Btu/kWh.)
 
 I/O curve (Verifiable Cost Manual, version effective December 1, 2026): fuel input y (MMBtu/hr) = A + Bx + Cx² + Dx³, where x is output in MW and A-D are fitted coefficients. [e20] The incremental heat rate is IHR = dy/dx = B + 2Cx + 3Dx²; it must be non-decreasing, in MMBtu/MWh, with 2 to 10 MW/IHR points. [e21] The average heat rate is AHR = y/x = (A + Bx + Cx² + Dx³)/x. [e22]
 
-Mitigated Offer Cap (Protocols 4.4.9.4.1): MOC = the greater of GIHR × max(FIP, WAFP) and IHR × FPRC + OM. [e3] For a resource with verifiable costs that has submitted an energy offer curve, the fuel price FPRC = max(WAFP, FIP + fuel adder) × gas share + fuel oil price × oil share. [e29] The fuel adder is the average cost above the index the resource has paid for fuel, with a default of $0.50/MMBtu until an actual adder is approved; OM is the verifiable variable O&M above LSL, including an emissions adjustment. [e32][e26][e33]
+Mitigated Offer Cap (Protocols 4.4.9.4.1): MOC = the greater of GIHR × max(FIP, WAFP) and IHR × FPRC + OM. [e3] For a resource with verifiable costs that has submitted an energy offer curve, the fuel price FPRC = max(WAFP, FIP + fuel adder) × gas share + fuel oil price × oil share. [e29] The fuel adder is the average cost above the index the resource has paid for fuel, with a default of $0.50/MMBtu unless the filing entity submits an actual fuel adder for ERCOT verification and approval (Verifiable Cost Manual, version effective December 1, 2026); OM is the verifiable variable O&M above LSL, including an emissions adjustment. [e32][e26][e33]
 
-FFSS cap: fuel price ($17 per MMBtu) times heat rate (15 MMBtu per MWh) times the 48-hour obligation gives the $12,240 per MW cap for 2024-2025. [e11]
+FFSS cap: the IMM says the $12,240 per MW offer cap for the 2024-2025 contract period was based on a $17 per MMBtu Fuel Oil Index price, a 15 MMBtu per MWh heat rate and a 48-hour obligation period. [e11] (Knowledge base's own arithmetic, not stated by the source: $17 × 15 × 48 = $12,240.)
 
 Spark spread (EIA): power price minus gas price times heat rate. [e34]
 
-Proxy heat rate (Verifiable Cost Manual Appendix 6): the monthly value is the average ERCOT day-ahead hub price divided by the average Fuel Index Price for the same period, and the PHR is the 12-month rolling average of those monthly values. [e27] It is used to estimate real-time payments to resources ramping from breaker close to LSL, which are removed from the RUC guarantee. [e28]
+Proxy heat rate (Verifiable Cost Manual Appendix 6): the monthly value PHRM (MMBtu/MWh) is the average ERCOT Day-Ahead hub price (DASPP at ERCOT345BUS, averaged "based on values for one standard deviation from the Arithmetic Mean") divided by the Average Fuel Price Index (AVGFIP, $/MMBtu) for the same period, and the PHR is the 12-month rolling average of the PHRM values. [e27] It is used to estimate real-time payments to resources ramping from breaker close to LSL; those payments are removed from the RUC guarantee indirectly, by subtracting the PHR times average generation (breaker close to LSL) from the resource's approved fuel rate. [e28]
 
 ## ERCOT context
 
@@ -222,7 +222,7 @@ Heat rates appear as fixed parameters in several rules and analyses. [e4][e6][e9
 - The IMM's own net revenue analysis (2023 and 2024 reports) assumes 7 MMBtu per MWh for a combined-cycle unit and 10.5 MMBtu per MWh for a gas turbine, $4 per MWh variable O&M, and (2023 report) a 10% total outage rate. [e6][e35]
 - For its price spike analysis in the 2024 report, the IMM defines a price spike as a 15-minute interval with a load-weighted average energy price above 18 MMBtu per MWh times the FIP, a level that typically exceeds the marginal cost of virtually all online generators. [e9]
 - The 2024-2025 FFSS offer cap used a 15 MMBtu per MWh heat rate with a $17 per MMBtu fuel oil price and a 48-hour obligation. [e11]
-- EIA's benchmark spark spread uses 7,000 Btu/kWh, which it describes as a fairly new, efficient combined cycle; it notes that those marketing a unit's output use its tested heat rate instead. [e34]
+- In a 2013 article, EIA's daily price table used a benchmark heat rate of 7,000 Btu/kWh for the spark spread, which it described as a fairly new, efficient combined cycle; it notes that those marketing a unit's output use its tested heat rate instead. [e34]
 
 Some practical details of ERCOT's verifiable cost process: submitting IHR curves for real-time mitigation is optional except for RMR resources [e24]; parameters are submitted by season, but if they vary ERCOT uses the summer values for all seasons [e25]; and a resource whose heat rate curves come to overstate fuel use must notify ERCOT and resubmit. [e23]
 
@@ -243,7 +243,7 @@ The market-wide counterpart is the implied heat rate, the power price divided by
 
 (Illustrative) Suppose gas is $3.00/MMBtu. A combined cycle at the IMM's assumed 7 MMBtu/MWh has a fuel cost of 7 × 3.00 = $21/MWh; a gas turbine at 10.5 MMBtu/MWh has 10.5 × 3.00 = $31.50/MWh. Add the IMM's assumed $4/MWh variable O&M and you get $25 and $35.50. If real-time power is $30/MWh, the combined cycle covers its marginal cost and the gas turbine does not. The IMM's price spike threshold at that gas price would be 18 × 3.00 = $54/MWh.
 
-(Illustrative) Suppose a unit's I/O curve is y = 200 + 7x + 0.01x² (MMBtu/hr, x in MW, D = 0). At 100 MW, fuel input is 200 + 700 + 100 = 1,000 MMBtu/hr, so the average heat rate is 10.0 MMBtu/MWh, while the incremental heat rate is 7 + 0.02 × 100 = 9.0 MMBtu/MWh. The fixed term A raises the average above the incremental rate at low output; offer curves and the MOC use the incremental rate.
+(Illustrative) Suppose a unit's I/O curve is y = 200 + 7x + 0.01x² (MMBtu/hr, x in MW, D = 0). At 100 MW, fuel input is 200 + 700 + 100 = 1,000 MMBtu/hr, so the average heat rate is 10.0 MMBtu/MWh, while the incremental heat rate is 7 + 0.02 × 100 = 9.0 MMBtu/MWh. The fixed term A raises the average above the incremental rate at low output; the MOC's verifiable term uses the incremental rate.
 
 ## Say it like this
 
@@ -285,7 +285,7 @@ The MOC uses the higher of the FIP and the unit's weighted average fuel price (W
 
 ### Why do analysts quote spark spreads at 7,000 Btu/kWh?
 
-EIA's benchmark uses 7,000 Btu/kWh to represent a fairly new, efficient combined cycle; it is a market-wide indicator, while a unit's owner uses its tested heat rate. [e34]
+EIA's 2013 introduction to spark spreads used a 7,000 Btu/kWh benchmark to represent a fairly new, efficient combined cycle; it is a market-wide indicator, while a unit's owner uses its tested heat rate. [e34]
 
 ## Scenarios
 
@@ -296,7 +296,7 @@ EIA's benchmark uses 7,000 Btu/kWh to represent a fairly new, efficient combined
 
 ### A unit's heat rate degrades after a major outage. What does the owner have to do?
 
-- If previously submitted heat rate curves now understate fuel use, the owner must notify ERCOT and submit updated data. [e23] The rule covers curves that overstate fuel use or understate efficiency; the saved text does not spell out the reverse case, so check with ERCOT.
+- The saved rule requires the filing entity to notify ERCOT and submit updated heat rate data when the generator's physical characteristics have changed so that previously submitted curves overstate fuel consumption or understate efficiency. [e23] A degraded unit is the reverse case (curves that now understate fuel use), which the saved text does not spell out, so check with ERCOT.
 
 ## Open items
 

@@ -200,6 +200,10 @@ evidence:
     source: ercot-constraints-needs-2025
     locator: "Recent Constraints, Top 10 constraints, Oct. 2024 to Sep. 2025 (slide 4)"
     quote: "1 Koch Tap - Vealmoor 138kV $211M Top 10 constraints on the ERCOT System"
+  - id: e42
+    source: imm-som-2025
+    locator: "2025 State of the Market Report, Resource Adequacy, 2. Net Revenue by Location (Figure 55)"
+    quote: "Because natural gas prices can vary widely by location, the figure shows revenues for natural gas units in the Houston zone (reflecting Katy hub prices) and the West zone (reflecting Waha hub prices)."
   - id: "e41"
     source: "np-22p-2025-12"
     locator: "Attachment P (Dec. 5, 2025 version), Section 2, Background Discussion"
@@ -216,7 +220,7 @@ Congestion starts with a physical limit. When flow on a line or transformer reac
 
 Every LMP has the same energy part. System Lambda is the cost of one more MWh at the reference bus and is the energy component of the LMP at every Settlement Point. [e3] A shift factor measures the flow on a transmission element from a unit injection at a bus. [e4] The shadow price of the constraint is the marginal cost of routing energy around it. [e12] Attachment P puts these together: a bus LMP is System Lambda minus the sum over congested lines of the bus's shift factor times the line's shadow price, and that congestion component can be positive or negative depending on the sign of the shift factors. [e19][e21] Shadow prices on congested lines are positive, and buses on one side of a line have negative shift factors while buses on the other side have positive ones. [e20]
 
-The West is a split zone. The Panhandle has a lot of wind and solar but cannot export all of it, while the Permian Basin has fast-growing demand and cannot import enough. [e5] That is why the West zone had both the most negative-price intervals and the most price spikes of any load zone in 2025. [e6] Generic Transmission Constraints, which limit flows between areas for stability and voltage reasons, matter most in renewable-heavy areas far from load; ERCOT treats them as base-case stability constraints with a $5,251 per MW shadow price cap. [e10][e11][e23] Among ERCOT's top constraints by real-time congestion rent from October 2024 to September 2025, the West Texas Export Interface ranked fourth at $127 million, behind Koch Tap - Vealmoor 138kV ($211 million), Hargrove - Twin Buttes 138kV and Odessa EHV Switch Yarbrough Sub 138kV. [e40][e24]
+The West is a split zone. The Panhandle has a lot of wind and solar but cannot export all of it, while the Permian Basin has fast-growing demand and cannot import enough. [e5] The IMM says this duality explains why the West zone had both the most negative-price intervals and the most price spikes of any load zone in 2025. [e6] Generic Transmission Constraints, which limit flows between areas for stability and voltage reasons, matter most in renewable-heavy areas far from load; the IMM says ERCOT treats them as base-case stability constraints with a $5,251 per MW shadow price cap (listed among the 2025 caps). [e10][e11][e23] Among ERCOT's top constraints by real-time congestion rent from October 2024 to September 2025, the West Texas Export Interface ranked fourth at $127 million, behind Koch Tap - Vealmoor 138kV ($211 million), Hargrove - Twin Buttes 138kV and Odessa EHV Switch Yarbrough Sub 138kV. [e40][e24]
 
 Prices go negative because many renewables are paid to produce even when prices are below zero. In 2025, 35% of real-time capacity was offered at or below $0, mainly wind and solar, many of which receive federal production tax credits. [e7] For 2024 the IMM said the West's below-zero prices came largely from wind and solar output that could not be delivered because of congestion within the zone and on export paths. [e29] Real-time Settlement Point Prices have an administrative floor of -$251/MWh. [e8]
 
@@ -237,7 +241,7 @@ Hubs average the split. The West 345 kV Hub price in real time is the simple ave
 - Day-ahead congestion rose 26% in 2025, driven by the North zone (with heavy RUC use for congestion) and the West zone; congestion costs within the West rose 27% from 2024 to 2025. [e13][e30]
 - About 4.7% of wind generation was curtailed in 2025. [e28]
 - 2025 shadow price cap for GTCs (treated as base-case stability constraints): $5,251 per MW. [e23]
-- Violated constraint hours fell to 64 constraint-hours in 2025, the lowest ever, partly because of NPRR1230. [e37]
+- Violated constraint hours fell to 64 constraint-hours in 2025, the lowest ever; the IMM says NPRR 1230 can partially explain the decline. [e37]
 - Real-time congestion rent in summer 2026 was 10% lower than in summer 2025, partly because of RTC. [e17]
 - Real-time Settlement Point Prices cannot go below -$251/MWh. [e8]
 - The PUCT approved three 765-kV Permian import paths on April 24, 2025; ERCOT's planned improvements list shows the Permian Basin 765-kV Import Paths for 2031. [e33][e34]
@@ -251,7 +255,7 @@ Hubs average the split. The West 345 kV Hub price in real time is the simple ave
 - Evening timing: at the net load peak solar has ramped down while wind is beginning to ramp up. [e18] (Reasoning) That could put more Panhandle output against an export limit.
 - Prices go below zero because a large share of renewable capacity offers at or below $0, many of those units being backed by production tax credits. The floor is -$251/MWh. [e7][e8]
 - When congestion blocks lower-cost generators from serving load, the market shifts generation to higher-cost units. [e1] The IMM named the North zone, where ERCOT used significant RUC commitments to manage congestion, as a main driver of higher day-ahead congestion in 2025. [e13]
-- A GTC may be the binding limit rather than one thermal line, since GTCs are used for stability limits between areas with a lot of renewables; its shadow price is capped at $5,251 per MW. [e10][e11][e23]
+- A GTC may be the binding limit rather than one thermal line, since GTCs are used for stability limits between areas with a lot of renewables; the IMM gives its 2025 shadow price cap as $5,251 per MW. [e10][e11][e23]
 - Why HB_WEST can be negative too: it is a simple average of its Hub Bus prices, so it falls when enough of its buses sit on the export side; the Panhandle hub is a separate hub. [e25][e26]
 - (Reasoning) Check the posted binding constraints and shadow prices first, then confirm which side of the constraint each node sits on before calling a direction for the spread.
 - Batteries behind the constraint can help: when added load relieves congestion, ESRs often charge at prices below $0. [e14]
@@ -262,8 +266,8 @@ Hubs average the split. The West 345 kV Hub price in real time is the simple ave
 - The constraint flips to the import side: ERCOT has flagged a risk of local load shed in Far West Texas during low wind conditions at night, especially with transmission and thermal outages. [e35]
 - ERCOT says the main time of concern is high-load, low-wind nights, when Far West depends on limited local thermal generation and the limited import capability of existing transmission. [e36]
 - The price signal is visible in net revenue: the IMM estimates a combustion turbine could earn up to $177 per kW-year in the West zone in 2025 against about $59 in Houston, driven by the import-constrained Permian Basin. [e31]
-- (Reasoning) A West position that profits from Panhandle negative prices can lose on the same day if the binding constraint moves to the Permian import side; the hub averages both.
-- What should narrow it: the PUCT approved three 765-kV Permian import paths in April 2025, listed by ERCOT for 2031, and the IMM expects the price gap between the hubs to narrow as projects conclude. [e33][e34][e32]
+- (Reasoning) A West position that profits from Panhandle negative prices can lose on the same day if the binding constraint moves to the Permian import side; the West load zone, which includes both the Panhandle and the Permian Basin, averages them. [e5][e15]
+- What should narrow it: the PUCT approved three 765-kV Permian import paths in April 2025, listed by ERCOT for 2031, and the IMM, discussing net revenue at Waha-priced West against Katy-priced Houston, says the 2025 gap between the two hubs widened because of the Permian import constraint and expects it to narrow as work on "these projects" (not named in the passage) concludes. [e33][e34][e32][e42]
 
 ## Questions
 
@@ -297,7 +301,7 @@ The congestion component is minus shift factor times shadow price, and buses on 
 
 ### Will the West spread narrow?
 
-The IMM expects the West-Houston hub gap to narrow as transmission work in the Permian concludes, and the three 765-kV import paths approved in April 2025 are listed by ERCOT for 2031. [e32][e33][e34] (Reasoning) The Panhandle export side is a separate problem from the Permian import paths.
+The IMM says the 2025 gap between the two hubs in its West (Waha) and Houston (Katy) net revenue comparison widened because of the Permian import constraint, and expects it to narrow as work on "these projects" concludes; the passage does not name the projects. Separately, the three 765-kV import paths approved in April 2025 are listed by ERCOT for 2031. [e32][e42][e33][e34] (Reasoning) The Panhandle export side is a separate problem from the Permian import paths.
 
 ## Say it like this
 

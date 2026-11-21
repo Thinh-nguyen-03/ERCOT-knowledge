@@ -17,7 +17,7 @@ links:
     note: The IMM says congestion costs within the West zone rose 27% from 2024 to 2025, with the zone import constrained in the Permian Basin. [e46]
   - to: waha-hub
     type: related
-    note: The IMM says the Permian import constraint widened the 2025 net revenue gap between gas units at Waha-priced West and Katy-priced Houston, and expects it to narrow as projects conclude. [e48]
+    note: In its net revenue discussion of gas units at Waha-priced West and Katy-priced Houston, the IMM says the gap between the two hubs widened in 2025 because the Permian import constraint raised congestion costs, and expects it to narrow as work on "these projects" (not named in the passage) concludes. [e48][e64]
   - to: large-load-interconnection
     type: related
     note: ERCOT says all supporting TSP studies (more than 600) behind the Batch process would be invalidated if any STEP 765 kV additions were delayed or denied. [e13][e15]
@@ -200,6 +200,18 @@ evidence:
     source: pura-39
     locator: "PURA Sec. 39.166, history note"
     quote: "Added by Acts 2023, 88th Leg., R.S., Ch. 892 (H.B. 5066), Sec. 3, eff. June 13, 2023."
+  - id: e62
+    source: ercot-permian-geren-response
+    locator: "ERCOT letter to Rep. Geren (Aug. 12, 2026), response 3"
+    quote: "The plan that used 345-kV as the exclusive voltage relied heavily on upgrades or rebuilds and would require a large number of outages on existing equipment."
+  - id: e63
+    source: ercot-permian-geren-response
+    locator: "ERCOT letter to Rep. Geren (Aug. 12, 2026), response 3, after the page break"
+    quote: "These factors further complicate construction for TSPs, making the exclusive 345-kV option less feasible."
+  - id: e64
+    source: imm-som-2025
+    locator: "2025 State of the Market Report, Resource Adequacy, 2. Net Revenue by Location (Figure 55)"
+    quote: "Because natural gas prices can vary widely by location, the figure shows revenues for natural gas units in the Houston zone (reflecting Katy hub prices) and the West zone (reflecting Waha hub prices)."
   - id: e39
     source: ercot-permian-geren-response
     locator: "ERCOT letter to Rep. Geren (Aug. 12, 2026), response 6"
@@ -300,11 +312,11 @@ The plan used Permian load levels of 23,659 MW in 2030 and 26,400 MW in 2038, co
 
 ## ERCOT context
 
-For a market analyst, the Permian is an import-constrained pocket, and the IMM's 2025 numbers show it. The West zone had the highest average energy price in 2025, $41.59/MWh excluding adders against an ERCOT average of $36.94/MWh, which the IMM attributes to Permian import constraints and Panhandle export constraints. [e45] Congestion costs within the West rose 27% from 2024 to 2025. [e46] A gas CT could earn up to $177/kW-year in net revenue in the West zone against roughly $59/kW-year in Houston in 2025, a gap the IMM attributes to the import-constrained Permian. [e47] The IMM expects the Waha-Katy net revenue gap to narrow again as work on these projects concludes. [e48] Comparing today's West zone with its proposed new load zones, the IMM says a FarWest zone, which roughly matches the Permian Basin, would price higher because it stays import constrained until more transmission is built. [e21][e10]
+For a market analyst, the Permian is an import-constrained pocket, and the IMM's 2025 numbers show it. The West zone had the highest average energy price in 2025, $41.59/MWh excluding adders against an ERCOT average of $36.94/MWh, which the IMM attributes to Permian import constraints and Panhandle export constraints. [e45] Congestion costs within the West rose 27% from 2024 to 2025. [e46] A gas CT could earn up to $177/kW-year in net revenue in the West zone against roughly $59/kW-year in Houston in 2025, a gap the IMM attributes to the import-constrained Permian. [e47] In the same net revenue discussion (gas units at Waha-priced West and Katy-priced Houston), the IMM says the gap between the two hubs widened in 2025 because the Permian import constraint raised congestion costs, and expects it to narrow again as work on "these projects" concludes; the passage does not name the projects. [e48][e64] Comparing today's West zone with its proposed new load zones, the IMM says a FarWest zone, which roughly matches the Permian Basin, would price higher because it stays import constrained until more transmission is built. [e21][e10]
 
-ERCOT has warned of possible local load shed in Far West Texas on low-wind nights, especially during transmission and thermal outages. [e11] The worst case, per ERCOT, is high-load, low-wind nights when the region depends on limited local thermal generation and limited import capability. [e41] Since 2014, about $23 billion of projects have been approved in the Permian Basin. [e16] As of December 2025 ERCOT counted about 630 circuit miles of 345 kV built, about 1,585 circuit miles of 345 kV approved, and about 1,329 miles of 765 kV approved for new build there. [e42] ERCOT's December 2025 top-10 planned improvements list shows the Permian Basin 765 kV import paths beside the year 2031. [e43] Across ERCOT, the October 2025 project tracking data showed $30.21 billion of transmission projects expected in service between 2026 and the end of 2031. [e44]
+ERCOT has warned of possible local load shed in Far West Texas on low-wind nights, especially during transmission and thermal outages. [e11] ERCOT says the primary time of concern is high-load, low-wind nights when the region depends on limited local thermal generation and limited import capability. [e41] ERCOT's December 2025 constraints report says about $23 billion of projects have been approved in the Permian Basin since 2014. [e16] As of December 2025 ERCOT counted about 630 circuit miles of 345 kV built, about 1,585 circuit miles of 345 kV approved, and about 1,329 miles of 765 kV approved for new build there. [e42] ERCOT's December 2025 top-10 planned improvements list shows the Permian Basin 765 kV import paths beside the year 2031. [e43] Across ERCOT, the October 2025 project tracking data showed $30.21 billion of transmission projects expected in service between 2026 and the end of 2031. [e44]
 
-The costs are large and contested. In January 2025 ERCOT put the Permian Basin Reliability Plan projects at $12.95 billion under the 345 kV plan and $13.77 billion under the 765 kV STEP, and the full STEP including Permian projects at about $32.99 billion. [e33][e8] ERCOT estimated STEP at about $2.24 billion more than the 345 kV plan, narrowing to about $1.35 billion after counting $890 million of extra outage-related construction cost for the 345 kV plan. [e35][e34] ERCOT says West Texas lines can no longer be released for long, continuous outages, which makes an all-345 kV rebuild harder. [e36] The IMM puts the Permian plan at more than $13 billion and argues that the customers the plan is meant to support are well positioned to game the 4CP methodology by curtailing demand when they expect a coincident peak. [e9]
+Cost estimates are large and differ by scope and source. In January 2025 ERCOT put the Permian Basin Reliability Plan projects at $12.95 billion under the 345 kV plan and $13.77 billion under the 765 kV STEP, and the full STEP including Permian projects at about $32.99 billion. [e33][e8] ERCOT estimated STEP at about $2.24 billion more than the 345 kV plan, narrowing to about $1.35 billion after counting $890 million of extra outage-related construction cost for the 345 kV plan. [e35][e34] ERCOT says the exclusive-345 kV plan relied heavily on upgrades or rebuilds needing many outages, that the system, particularly in West Texas, can no longer be given long, continuous outages, and that these factors make the exclusive 345 kV option less feasible. [e62][e36][e63] The IMM puts the Permian plan at more than $13 billion and argues that the customers the plan is meant to support are well positioned to game the 4CP methodology by curtailing demand when they expect a coincident peak. [e9]
 
 In August 2026 Rep. Geren asked ERCOT about 765 kV applications pending before the PUCT. [e15] ERCOT answered that a denial would require a new reliability study and different solutions, and a delay would require operational mitigation plans that make regional load shed more likely. [e38][e60] It said more than 600 supporting TSP studies behind the Batch process, and 58 completed RPG project reviews, would be invalidated if the 765 kV additions were delayed or denied. [e13][e39]
 
@@ -338,7 +350,7 @@ In August 2026 Rep. Geren asked ERCOT about 765 kV applications pending before t
 
 ## Say it like this
 
-(Guidance) The Permian is import constrained, and the IMM ties West zone prices and congestion in 2025 to that constraint, so the PUCT approved a local upgrade plan and three 765 kV import paths, a new voltage class for ERCOT. Approval of the plan is not a CCN: each line still has to win its own certificate case, and in August 2026 ERCOT said delaying or denying those applications would make regional load shed more likely and invalidate the TSP studies behind Batch Zero. [e45][e46][e6][e26][e38][e13]
+(Guidance) The Permian is import constrained, and the IMM ties West zone prices and congestion in 2025 to that constraint, and the PUCT has approved a local upgrade plan and three 765 kV import paths, a new voltage class for ERCOT. Approval of the plan is not a CCN: each line still has to win its own certificate case. In August 2026 ERCOT said a delay of those applications would require mitigation plans that make regional load shed more likely, a denial would require a new reliability study, and either would invalidate the TSP studies behind the Batch process. [e45][e46][e6][e26][e38][e60][e13]
 
 ## Common confusion
 
@@ -350,11 +362,11 @@ In August 2026 Rep. Geren asked ERCOT about 765 kV applications pending before t
 
 ### Why 765 kV rather than more 345 kV?
 
-ERCOT says its studies showed a NERC-based need for 765 kV additions beginning in 2030, and that the 345 kV-only plan relied heavily on rebuilds needing outages that West Texas lines can no longer take for long periods. [e12][e36] On cost, ERCOT put STEP about $2.24 billion above the 345 kV plan, or about $1.35 billion after the 345 kV plan's extra outage-related construction cost. [e35][e34] The PUCT approved the three 765 kV import paths, and its prior authorization to prepare CCN applications for the 345 kV paths expired on the date of that order. [e18]
+ERCOT says its studies showed a NERC-based need for 765 kV additions beginning in 2030, and that the 345 kV-only plan relied heavily on upgrades or rebuilds needing many outages, which the system, particularly in West Texas, can no longer take as long, continuous outages. [e12][e62][e36] On cost, ERCOT put STEP about $2.24 billion above the 345 kV plan, or about $1.35 billion after the 345 kV plan's extra outage-related construction cost. [e35][e34] The PUCT approved the three 765 kV import paths, and its prior authorization to prepare CCN applications for the 345 kV paths expired on the date of that order. [e18]
 
 ### What does the Permian constraint mean for prices?
 
-The IMM says the West zone had the highest average energy price in 2025 and that a CT there could earn up to $177/kW-year against $59 in Houston, both driven by the import-constrained Permian. [e45][e47] It says that if today's West load zone were split under its proposed configuration, a FarWest zone (roughly the Permian) would price higher until more transmission is built. [e21][e10]
+The IMM says the West zone had the highest average energy price in 2025, reflecting import constraints in the Permian Basin and export constraints in the Panhandle, and that a gas CT there could earn up to $177/kW-year against roughly $59 in Houston, a gap it says is driven by the import-constrained Permian. [e45][e47] It says that if today's West load zone were split under its proposed configuration, a FarWest zone (roughly the Permian) would price higher until more transmission is built. [e21][e10]
 
 ### What happens if the 765 kV lines are delayed?
 
@@ -376,7 +388,7 @@ No. The order requires each TSP to establish in its CCN proceeding that the cert
 
 ### A trader asks whether to expect West zone congestion to fade.
 
-- The IMM says the West's 2025 price premium and congestion reflect the Permian import constraint, and it expects the Waha-Katy gap to narrow as the projects conclude. [e45][e46][e48]
+- The IMM says the West's 2025 price premium and intrazonal congestion reflect both Permian import constraints and Panhandle export constraints, and it expects the Waha-Katy hub gap in its net revenue figure to narrow as work on "these projects" (not named in the passage) concludes. [e45][e46][e48][e64]
 - ERCOT's December 2025 list shows the Permian 765 kV import paths beside 2031, and in August 2026 the applications were described as pending. [e43][e15]
 - Until then, ERCOT has flagged local load shed risk on high-load, low-wind nights in Far West Texas. [e41]
 

@@ -32,7 +32,7 @@ links:
     note: Aggregated profiled load determines each QSE and LSE responsibility by Settlement Interval and Settlement Point. [e6]
   - to: market-information-system
     type: related
-    note: ERCOT posts forecast and backcast Load Profiles to its website by 1000 CPT each Business Day. [e27]
+    note: ERCOT posts forecast Load Profiles to its website by 1000 CPT each Business Day, and backcast Load Profiles by 1000 CPT of the second Business Day after the backcast day. [e27]
 evidence:
   - id: e1
     source: np-02
@@ -194,6 +194,10 @@ evidence:
     source: np-11
     locator: "Section 11.4.3(1), Interval Consumption Data Estimation"
     quote: "ERCOT will estimate all ESI IDs with Interval Data Recorders (IDRs) for which consumption data has not been received for the Operating Day. The method for estimating interval data for ESI IDs with IDR Meters is a “Weather Response Informed Proxy Day” technique."
+  - id: e47
+    source: np-11
+    locator: "Section 11.4.4.2(3), PV and wind excess generation with 15-minute interval data"
+    quote: "The excess generation adjustments for ESI IDs, which have UDG made up of PV or wind generation behind the meter and that have an Advanced Metering System (AMS) integrated meter or Municipally Owned Utility (MOU) / Electric Cooperative (EC) Non-BUSIDRRQ IDR that measures the excess energy flow into the ERCOT System in 15-minute intervals, shall be determined using the actual 15-minute interval data, if available."
   - id: e12
     source: lpg-11
     locator: "Load Profiling Guide Section 11(2), Validation of Load Profile ID"
@@ -210,13 +214,13 @@ The retail market requires 15-minute settlement intervals. Load profiling is a c
 
 For non-interval metered loads, profiles come from statistical "adjusted static" models built from load research samples and tied to weather descriptors such as temperature and humidity. [e3] Where a premise has an unregistered distributed generator (PV or wind), the profile is a hybrid: at least part adjusted static, with engineering estimates and/or generation models possibly integrated. [e24] Non-metered loads such as streetlights use engineering estimates. [e9] Default profiles for IDRs are used only when no historic customer-specific interval data is available, and are built with the adjusted static method. [e25]
 
-Each day ERCOT posts forecast profiles for the next three days and backcast profiles by 1000 CPT, for each Load Profile Type and Weather Zone: forecasts by 1000 CPT each Business Day, backcasts by 1000 CPT of the second Business Day after the backcast day. [e27] In extenuating circumstances such as prolonged widespread outages, ERCOT may use discretion to adjust non-IDR backcasted profiles, but must send a Market Notice within three Business Days and report to the next TAC subcommittee meeting. [e30] Changes to methodology or profiles require at least 150 days' Notice to Market Participants. [e28]
+ERCOT posts forecast profiles for the next three days and backcast profiles for each Load Profile Type and Weather Zone: forecasts by 1000 CPT each Business Day, backcasts by 1000 CPT of the second Business Day after the backcast day. [e27] In extenuating circumstances such as prolonged widespread outages, ERCOT may use discretion to adjust non-IDR backcasted profiles, but must send a Market Notice within three Business Days and report to the next TAC subcommittee meeting. [e30] Changes to methodology or profiles require at least 150 days' Notice to Market Participants. [e28]
 
 ## Formula
 
 Profiled non-interval data. For non-interval data, profile application takes an ESI ID's aggregated usage for a period, usually a month, divides it by the profile class's usage for the same period, and scales the day's load profile by the result. [e8] In the Protocol's equation, PND is profiled non-interval data, CP is the class profile and LP is the daily load profile interval data set. For an active ESI ID with no meter read within 12 months of the Operating Day, no usage scaling is applied: the estimate is its assigned profile unscaled. [e31]
 
-Excess generation adjustments for behind-the-meter distributed generation (non-IDR ESI IDs with a separate register measuring excess flow into ERCOT). The Adjusted Metered Load of an eligible ESI ID with PV is reduced for excess generation, and only ESI IDs assigned a PV profile segment qualify. [e38] The reduction applies to the 16 fifteen-minute intervals from 1100 to 1500 CPT. [e40] It is kWh_gen divided by read_days times 16, where kWh_gen is the measured kWh flowing into the Distribution System (out-flow from the premise) and read_days is the days in the meter read period. [e39][e42] For wind, intervals from 0800 to 2000 CPT (48 intervals) are reduced using 65% of kWh_gen, and the remaining 48 intervals using 35% of kWh_gen, each spread over read_days times 48 (plus a daylight saving adjustment in the second). [e41] For other DG, all intervals in the read period are reduced by kWh_gen divided by the number of 15-minute intervals in the read period. [e43] Where an AMS integrated meter (or MOU/EC non-BUSIDRRQ IDR for PV and wind) measures excess flow in 15-minute intervals, the actual interval data is used if available. [e44]
+Excess generation adjustments for behind-the-meter distributed generation (non-IDR ESI IDs with a separate register measuring excess flow into ERCOT). The Adjusted Metered Load of an eligible ESI ID with PV is reduced for excess generation, and only ESI IDs assigned a PV profile segment qualify. [e38] The reduction applies to the 16 fifteen-minute intervals from 1100 to 1500 CPT. [e40] It is kWh_gen divided by read_days times 16, where kWh_gen is the measured kWh flowing into the Distribution System (out-flow from the premise) and read_days is the days in the meter read period. [e39][e42] For wind, intervals from 0800 to 2000 CPT (48 intervals) are reduced using 65% of kWh_gen, and the remaining 48 intervals using 35% of kWh_gen, each spread over read_days times 48 (plus a daylight saving adjustment in the second). [e41] For other DG, all intervals in the read period are reduced by kWh_gen divided by the number of 15-minute intervals in the read period. [e43] For PV or wind, where an AMS integrated meter (or an MOU/EC non-BUSIDRRQ IDR) measures excess flow in 15-minute intervals, the actual interval data is used if available. [e47] The same applies to other DG with an AMS integrated meter. [e44]
 
 Losses. Distribution losses are not allocated to transmission-connected or transmission-settled loads or to negative-load intervals. [e45]
 
@@ -228,7 +232,7 @@ A Load Profile ID has five components: Load Profile Type, Weather Zone, Meter Da
 
 Validation. ERCOT validates the Load Profile Type and Weather Zone at initial opt-in assignment, when segment definitions change, once per year for the Business process, and at least once every three years for the Residential process. [e12] In the business timeline, ERCOT determines the profile type for each active and de-energized ESI ID from the Profile Decision Tree and delivers the lists to TDSPs by March 30. [e13] TDSPs submit the TX SET updates effective on the most current meter read date on or after April 15. [e14] The residential process runs every three years. [e16]
 
-IDR ESI IDs with missing data are estimated, not profiled. ERCOT uses a "Weather Response Informed Proxy Day" technique. [e46] The non-weather-sensitive proxy day method applies to IDRs with profile type BUSLRG or BUSLRGDG; the weather-sensitive method applies to IDRs whose profile type is not BUSIDRRQ, BUSLRG or BUSLRGDG. [e33] For weather-sensitive IDRs, eligible proxy days are matching weekday/weekend days within five degrees of the target day's maximum temperature over the previous 365 days, with the maximum temperature occurring within two hours of the target day's peak hour. [e34] The final ranking weights a temperature magnitude test 70% and a shape test 30%, and the top three ranked days are selected. [e35] For non-weather-sensitive IDRs, ERCOT uses the most recent matching day of the week (holidays treated as Sundays) within the most recent 12 months. [e36] ERCOT produces a daily report of the proxy day selection list for both methods. [e37]
+IDR ESI IDs with missing data are estimated mainly by proxy days rather than by scaling a class profile. ERCOT uses a "Weather Response Informed Proxy Day" technique. [e46] The non-weather-sensitive proxy day method applies to IDRs with profile type BUSLRG or BUSLRGDG; the weather-sensitive method applies to IDRs whose profile type is not BUSIDRRQ, BUSLRG or BUSLRGDG. [e33] For weather-sensitive IDRs, eligible proxy days are matching weekday/weekend days within five degrees of the target day's maximum temperature over the previous 365 days, with the maximum temperature occurring within two hours of the target day's peak hour. [e34] The final ranking weights a temperature magnitude test 70% and a shape test 30%, and the top three ranked days are selected. [e35] For non-weather-sensitive IDRs, ERCOT uses the most recent matching day of the week (holidays treated as Sundays) within the most recent 12 months. [e36] ERCOT produces a daily report of the proxy day selection list for both methods. [e37]
 
 ## Key facts
 
@@ -246,7 +250,7 @@ IDR ESI IDs with missing data are estimated, not profiled. ERCOT uses a "Weather
 
 ## Common confusion
 
-(Guidance) A profile is not that customer's own interval data: it is a class shape scaled to the ESI ID's usage. [e8] Load Profiling is implemented for cases where ERCOT does not receive 15-minute Settlement Interval consumption data. [e2] Also, an IDR with missing data is not profiled by scaling a class shape; it is estimated from proxy days. [e46] The Load Profile ID is also more than a shape: it has five components, of which ERCOT validates the first two (type and Weather Zone). [e11][e12]
+(Guidance) A profile is not that customer's own interval data: it is a class shape scaled to the ESI ID's usage. [e8] Load Profiling is implemented for cases where ERCOT does not receive 15-minute Settlement Interval consumption data. [e2] Also, an IDR with missing data is estimated with a proxy-day technique rather than by scaling a class shape. [e46] The Load Profile ID is also more than a shape: it has five components, of which ERCOT validates the first two (type and Weather Zone). [e11][e12]
 
 ## Questions
 
@@ -260,11 +264,11 @@ Aggregated usage for a period is divided by the profile class's usage over the s
 
 ### Why does a wrong Load Profile ID matter, and how is it fixed?
 
-The profile drives estimated interval load in settlement; the TDSP submits assignment changes and a CR may dispute an assignment. [e4][e10] A dispute found in the CR's favor is made retroactive to the last meter read without an error, but not further back than what would affect True-Up Settlement. [e20]
+The profile is applied to aggregated non-interval consumption data to create interval consumption data; the TDSP submits assignment changes and a CR may dispute an assignment. [e8][e4][e10] A dispute found in the CR's favor is made retroactive to the last meter read without an error, but not further back than what would affect True-Up Settlement. [e20]
 
 ### What if a behind-the-meter solar ESI ID has no interval meter?
 
-For non-IDR ESI IDs with a separate register measuring excess flow into ERCOT and a PV profile segment, AML is reduced by the measured outflow spread over the 1100-1500 CPT intervals; if an AMS integrated meter measures excess flow in 15-minute intervals, actual interval data is used if available. [e38][e39][e40][e44]
+For non-IDR ESI IDs with a separate register measuring excess flow into ERCOT and a PV profile segment, AML is reduced by the measured outflow spread over the 1100-1500 CPT intervals; if an AMS integrated meter measures excess flow in 15-minute intervals, actual interval data is used if available. [e38][e39][e40][e47]
 
 ### Why does ERCOT weight temperature magnitude more than shape when choosing proxy days?
 

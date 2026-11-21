@@ -221,6 +221,26 @@ evidence:
     source: imm-som-2025
     locator: "Analysis of Competitive Performance, D. Voluntary Mitigation Plans (page 142 OCR)"
     quote: "However, House Bill 1500, passed during the 88\" Legislative Session and effective September 1, 2023, modified the statutory requirements for VMPs. Adherence to a VMP no longer constitutes an absolute defense against allegations of market power abuse with respect to the behaviors addressed by the VMP; instead, it must be considered in determining whether a violation occurred and, if so, the penalty to assess."
+  - id: e47
+    source: np-04
+    locator: "Section 4.4.9.4.1, variable FIP"
+    quote: "Fuel Index Price—The natural gas index price as defined in Section 2.1, Definitions."
+  - id: e48
+    source: np-04
+    locator: "Section 4.4.9.4.1, FPRC where a curve was submitted"
+    quote: "If a QSE has submitted an Energy Offer Curve on behalf of a Generation Resource and the Generation Resource has approved verifiable costs, then FPRC _(q, r) = Max(WAFP _(q, r, h), FIP + FA _(q, r)) * RTPERFIP _(q, r) / 100 + FOP * RTPERFOP _(q, r) / 100"
+  - id: e49
+    source: np-04
+    locator: "Section 4.4.9.4.1, FPRC where no curve was submitted"
+    quote: "If a QSE has not submitted an Energy Offer Curve on behalf of a Generation Resource and the Generation Resource has approved verifiable costs, then FPRC _(q, r) = Max(WAFP _(q, r, h), FIP + FA _(q, r)) * GASPEROL _(q, r) / 100 + FOP * OILPEROL _(q, r) / 100 + (SFP + FA _(q, r)) * SFPEROL _(q, r) / 100"
+  - id: e50
+    source: np-04
+    locator: "Section 4.4.9.4.1, variable OM"
+    quote: "Variable Operations and Maintenance Cost above LSL—The O&M cost for Resource r to operate above LSL, including an adjustment for emissions costs, as approved in the verifiable cost process."
+  - id: e51
+    source: np-04
+    locator: "Section 4.4.9.4.1, variable FPRC"
+    quote: "Fuel Price Calculated per Resource—The calculated index price for fuel for the Resource based on the Resources fuel mix."
 ---
 
 ## Definition
@@ -245,11 +265,11 @@ SCED evaluates the curves, along with other offers and bids, to set dispatch by 
 
 ### Mitigated Offer Cap (MOC)
 
-Energy Offer Curves may be subject to mitigation in Real-Time operations using a MOC; for Generation Resources ERCOT builds an incremental MOC curve. [e19] The formula and its variables are under Formula below. The generic incremental heat rate is 10.5 for Resources with a Commercial Operations Date on or before January 1, 2004, and 14.5 for later ones. [e20] Filing Entities may submit two types of resource-specific Verifiable Cost data for the MOC, Verifiable O&M data and Verifiable Incremental Heat Rate data; the MOC formula uses the approved verifiable incremental heat rate curve and the variable O&M cost above LSL. [e40][e21][e22] In the Verifiable Cost Manual, submitting data for Mitigated Offer Caps is optional, except for Resources under an RMR contract, which must submit an Incremental Heat Rate Curve. [e41] ERCOT's manual describes Verifiable Costs as a proxy for the costs a Resource incurs while operating. [e39]
+Energy Offer Curves may be subject to mitigation in Real-Time operations using a MOC; for Generation Resources ERCOT builds an incremental MOC curve. [e19] The formula and its variables are under Formula below. The generic incremental heat rate is 10.5 for Resources with a Commercial Operations Date on or before January 1, 2004, and 14.5 for later ones. [e20] Filing Entities may submit two types of resource-specific Verifiable Cost data for the MOC, Verifiable O&M data and Verifiable Incremental Heat Rate data; the MOC formula uses the approved verifiable incremental heat rate curve and the variable O&M cost above LSL. [e40][e21][e50] In the Verifiable Cost Manual (the edition saved here takes effect December 1, 2026), submitting data for Mitigated Offer Caps is optional, except for Resources under an RMR contract, which must submit an Incremental Heat Rate Curve. [e41] The same manual edition describes Verifiable Costs as a proxy for the costs a Resource incurs while operating. [e39]
 
 The MOC for ESRs is set at the RTSWCAP, notwithstanding the formula, and the Protocol text records a deadline of December 31, 2023 for a report to TAC on whether to continue that approach. [e25]
 
-Exceptional Fuel Cost: a QSE may submit a volume-weighted average fuel price during the Adjustment Period for use in the MOC, but it must exceed FIP for the day plus a $1/MMBtu threshold parameter plus the applicable fuel adder, and the actual-purchase component must account for at least 10% of the fuel the Resource burned that hour. [e26][e27] The Protocols show a pending NPRR1279 replacement of the weighted-average-fuel-price definition and paragraph (f), dated April 1, 2027; it is not described here as in force. [e24]
+Exceptional Fuel Cost: a QSE may submit a volume-weighted average fuel price during the Adjustment Period for use in the MOC, but it must exceed FIP for the day plus a $1/MMBtu threshold parameter plus the applicable fuel adder, and the actual-purchase component must account for at least 10% of the fuel the Resource burned that hour. [e26][e27] The Protocols show a pending NPRR1279 replacement of the weighted-average-fuel-price definition, dated April 1, 2027; it is not described here as in force. [e24]
 
 ### Mitigated Offer Floor
 
@@ -273,7 +293,7 @@ House Bill 1500 (88th Legislature, effective September 1, 2023) changed Voluntar
 
 ## Formula
 
-MOC(q, r, h) = Max[ GIHR * Max(FIP, WAFP), (IHR * FPRC + OM) ], per Resource per hour. In words: GIHR is the generic incremental heat rate; FIP is the natural gas fuel index price; WAFP is the weighted average fuel price a QSE may submit for the hour (volume-weighted intraday, same-day and spot fuel price, or projected incremental fuel consistent with a contract); IHR is the Resource's approved verifiable incremental heat rate curve; FPRC is the fuel price calculated from the Resource's fuel mix (using Max(WAFP, FIP + fuel adder) weighted by the gas percentage plus FOP weighted by the oil percentage); and OM is variable O&M above LSL including emissions, as approved. [e19][e20][e21][e22][e23]
+MOC(q, r, h) = Max[ GIHR * Max(FIP, WAFP), (IHR * FPRC + OM) ], per Resource per hour. In words: GIHR is the generic incremental heat rate; FIP is the natural gas index price; [e47] WAFP is the weighted average fuel price a QSE may submit for the hour (volume-weighted intraday, same-day and spot fuel price, or projected incremental fuel consistent with a contract); IHR is the Resource's approved verifiable incremental heat rate curve; FPRC is the fuel price calculated from the Resource's fuel mix; and OM is variable O&M above LSL including an adjustment for emissions costs, as approved. [e51][e50] Where a QSE has submitted an Energy Offer Curve for a Resource with approved verifiable costs, FPRC = Max(WAFP, FIP + FA) * RTPERFIP/100 + FOP * RTPERFOP/100, using the percentages of gas and oil submitted with the curve; where it has not, FPRC = Max(WAFP, FIP + FA) * GASPEROL/100 + FOP * OILPEROL/100 + (SFP + FA) * SFPEROL/100, using the percentages approved in the verifiable cost process (FA is the fuel adder). [e48][e49][e22] [e19][e20][e21][e22][e23]
 
 ## Key facts
 

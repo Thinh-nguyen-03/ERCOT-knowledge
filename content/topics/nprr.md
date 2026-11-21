@@ -20,7 +20,7 @@ links:
     note: Every NPRR needs PUCT approval before ERCOT implements it. [e6]
   - to: ercot
     type: related
-    note: ERCOT checks submissions for completeness, posts them and implements approved changes. [e3][e7]
+    note: ERCOT checks submissions for completeness and implements approved changes. [e3][e7]
   - to: imm
     type: related
     note: The IMM is one of the entities that may submit an NPRR. [e2]
@@ -254,7 +254,7 @@ An Administrative NPRR consists of non-substantive corrections such as typos and
 
 ### Withdrawal and appeals
 
-A submitter may withdraw before PRS recommends approval; after that, withdrawal needs TAC approval (if TAC has not yet recommended), then Board approval (if the Board has not yet recommended), and once the Board recommends approval a request cannot be withdrawn. [e21] An appeal of a PRS action to reject, table or refer goes to TAC and must be filed within seven days; ERCOT rejects later appeals. [e28] A TAC action to reject, table, remand or refer can be appealed to the ERCOT Board. [e44] Under the Board Policies (eff. 6.18.2024), written notice of a TAC Appeal on a non-urgent matter is due within ten Business Days of the TAC action. [e40] An expedited TAC-subcommittee appeal process (48 hours) applies to Urgent items. [e37] A Board decision can be appealed to the PUCT or other Governmental Authority no later than 35 days after the Board appealable event, or within any shorter deadline they prescribe. [e29]
+A submitter may withdraw before PRS recommends approval; after that, withdrawal needs TAC approval (if TAC has not yet recommended), then Board approval (if the Board has not yet recommended), and once the Board recommends approval a request cannot be withdrawn. [e21] An appeal of a PRS action to reject, table or refer goes to TAC and must be filed within seven days; ERCOT rejects later appeals. [e28] A TAC action to reject, table, remand or refer can be appealed to the ERCOT Board. [e44] Under the Board Policies (eff. 6.18.2024), written notice of a TAC Appeal on a non-urgent matter is due within ten Business Days of the TAC action. [e40] An expedited process (appeal within 48 hours after the subcommittee meeting) may be used for appeals of TAC subcommittee votes on items designated Urgent, or any other subcommittee vote the TAC Chair or Vice-Chair designates as urgent. [e37] A Board decision can be appealed to the PUCT or other Governmental Authority no later than 35 days after the Board appealable event, or within any shorter deadline they prescribe. [e29]
 
 ### Prioritization of the build
 
@@ -264,7 +264,7 @@ For a request that needs an ERCOT project, PRS recommends a project priority, TA
 
 Not every change is an NPRR: a request to change ERCOT's computer systems without changing the Protocols is a System Change Request (SCR). [e9] "Next regularly scheduled meeting" means the next meeting for which required notice can be timely given. [e16] The revision process for ERCOT market guides is governed by the individual guides and assigned subcommittees. [e43]
 
-ERCOT publishes non-binding guiding principles for the Nodal Market that entities may use when developing an NPRR. [e32]
+ERCOT's Guiding Principles of the Nodal Market (TAC approved 2010-07-01) is a non-binding document that entities may use when developing an NPRR. [e32]
 
 ## Timeline
 
@@ -287,7 +287,7 @@ Standard path, in the order the Protocols give it: submission and completeness c
 
 ## Common confusion
 
-(Guidance) An NPRR changes the Protocols; an SCR changes ERCOT's systems without changing the Protocols. [e1][e9] Board approval is not the end: PUCT approval is still required. [e6] "Urgent" is not a label the committees give freely; it requires a showing of a reliability, market-operations or settlement-formula problem. [e5] An approved NPRR may also not be live yet: ERCOT implements it on the first of the month after PUCT approval unless the PUCT Report says otherwise, and the Protocols show approved-but-unimplemented text in boxes. [e7]
+(Guidance) An NPRR changes the Protocols; an SCR changes ERCOT's systems without changing the Protocols. [e1][e9] Board approval is not the end: PUCT approval is still required. [e6] "Urgent" is not a label the committees give freely; it requires a showing of a reliability, market-operations or settlement-formula problem. [e5] An approved NPRR may also not be live yet: ERCOT implements it on the first of the month after PUCT approval unless the PUCT Report says otherwise. [e7]
 
 ## Questions
 
@@ -329,7 +329,7 @@ PRS meetings give each Market Segment equal voting power, so no one segment domi
 
 - Ask for Urgent status, which requires a reasonable showing that the existing Protocol is causing or could imminently cause a discrepancy between a settlement formula and the Protocols. [e5]
 - PRS considers Urgent status at its next regular meeting or a special one. [e41]
-- It still goes through an Impact Analysis, a Board vote, and PUCT approval. [e6][e27]
+- It still goes through an Impact Analysis, a Board vote, and PUCT approval. [e45][e27][e6]
 
 ## Open items
 

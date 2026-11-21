@@ -283,7 +283,7 @@ On RENA, the IMM says real-time congestion shortfalls are charged to LSEs throug
 
 - 2021: uplift about $2.1 billion ($5.34 per MWh), against $359 million in 2020; the IMM says the largest driver was ancillary service imbalance settlement. [e35]
 - 2021 RENA: nearly all RENA uplift occurred in congested hours. [e43]
-- 2022: uplift about $368 million, $0.77 per MWh. [e36][e44] RENA is $38 million in one IMM passage and $43 million in another (see Open items). [e44][e45]
+- 2022: uplift about $368 million, $0.77 per MWh. [e36][e37][e44] RENA is $38 million in one IMM passage and $43 million in another (see Open items). [e44][e45]
 - 2023: uplift almost $400 million, $0.90 per MWh, up 16.5%; RENA $109 million. [e37][e46]
 - 2024: uplift about $573 million, $1.24 per MWh; RENA $160 million. [e10][e38]
 - 2025: uplift $668 million, $1.38 per MWh; Table A4 shows Revenue Neutrality Uplift of $154 million. [e8][e31]

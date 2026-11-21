@@ -259,6 +259,22 @@ evidence:
     source: ercot-eea2-2023-report
     locator: "Section III, Chronology, Wednesday September 6 (p. 7)"
     quote: "8:17 p.m.: All Load Resources recalled."
+  - id: e55
+    source: ercot-summer-2023-review
+    locator: "Slide 9, Peak Load, Peak Net Load, Wind, Solar"
+    quote: "8/10/2023 hit an alltime peak demand record of 85.7 GW."
+  - id: e56
+    source: imm-som-2023
+    locator: "Executive Summary, Recommendation 2023-2, proxy offer curve for IRRs"
+    quote: "Therefore, we recommend that ERCOT enter a proxy offer curve that is more closely aligned with IRRs’ production costs."
+  - id: e57
+    source: imm-som-2023
+    locator: "Section I, Demand and Supply, Reliability Programs (p. 35)"
+    quote: "The deployment of ERS may occur prior to the declaration of an EEA when Physical Responsive Capability (PRC) falls below 3,000 MW and is not expected to rise above that threshold within 30 minutes."
+  - id: e58
+    source: ercot-summer-2023-review
+    locator: "Slide 2, Overview"
+    quote: "Note: Unless noted, data for September is through the 15th"
 ---
 
 ## Definition
@@ -279,12 +295,12 @@ Prices: the IMM counts more than 55 hours above $1,000 in 2023, and more than fo
 
 Despite the records, the IMM says 2023 had fewer true shortages than 2022, largely because of about 7.6 GW of new wind and solar, 1.9 GW of storage and almost 1 GW of new gas. [e12] RUC fell to 534 effective resource-hours in summer 2023 from 2,573 in summer 2022, which ERCOT attributes to greater self-commitment under high demand and prices. [e13][e47]
 
-The IMM's reading of September 6 is a pricing problem. It says the marginal cost of the manual curtailments was much higher than the shadow price caps, so the real-time market did not curtail the resources, and it puts the curtailment at 1,500 MW including 1,300 MW of wind. [e17][e9] The 2023 cap for 345 kV constraints was $4,500 per MW. [e48] The IMM adds that the -$250 per MWh proxy offer curve for renewables without an offer makes curtailing them look more expensive to the dispatch model than the shadow price cap, which it says is how the constraint went into violation on September 6. [e45] It reran the period with a $15,000 per MWh cap (manual curtailments not lifted) and reports that SCED found a dispatch that avoided the constraint violation and reduced the power balance violation. [e42][e44] In March 2024 ERCOT proposed a similar measure for the South Texas Export GTCs (IMM). [e43]
+The IMM's reading of September 6 is a pricing problem. It says the marginal cost of the manual curtailments was much higher than the shadow price caps, so the real-time market did not curtail the resources, and it puts the curtailment at 1,500 MW including 1,300 MW of wind. [e17][e9] The 2023 cap for 345 kV constraints was $4,500 per MW. [e48] The IMM adds that the -$250 per MWh proxy offer curve for renewables without an offer makes curtailing them appear very expensive to the dispatch model, typically more expensive than the shadow price cap, which it says is how the constraint went into violation on September 6. [e45] It reran the period with a $15,000 per MWh cap (in its words, "without the manual curtailments lifted") and reports that SCED found a dispatch that avoided the constraint violation and reduced the power balance violation. [e42][e44] In March 2024 ERCOT proposed a similar measure for the South Texas Export GTCs (IMM). [e43]
 
 ## Key facts
 
 - 49 new demand records in summer 2023; peak 85.7 GW on August 10, 2023 (IMM). [e1] ERCOT's EEA report gives the August 10 peak as 85,464 MW, about 6.6% above the 2022 summer peak of 80,148 MW. [e19]
-- ERCOT's Board deck counts 49 days in summer 2023 with a peak above 80 GW. [e49]
+- ERCOT's Board deck counts 49 days in summer 2023 with a peak above 80 GW; the deck's September data runs only through September 15. [e49][e58]
 - September 8, 2023 peak of 84,182 MW was about 16% above the previous September record of 72,370 MW (2021); September 6 peaked at 82,705 MW in HE 18. [e19]
 - September 6, 2023: frequency low of 59.77 Hz; EEA2 declared at 7:25 p.m.; normal operations at 8:37 p.m. [e5][e6]
 - September 6 wind in HE 20: 7,153 MW forecast, 5,492 MW actual (ERCOT). [e51][e52]
@@ -298,7 +314,7 @@ The IMM's reading of September 6 is a pricing problem. It says the marginal cost
 
 - June 10, 2023: ECRS goes live. [e14]
 - June 27, 2023: first new all-time peak of the summer, 80.8 GW (ERCOT). [e50]
-- August 10, 2023: peak demand of 85.7 GW (IMM; ERCOT's Board deck also says 85.7 GW), or 85,464 MW in ERCOT's EEA report. [e1][e19]
+- August 10, 2023: peak demand of 85.7 GW (IMM; ERCOT's Board deck also says 85.7 GW), or 85,464 MW in ERCOT's EEA report. [e1][e55][e19]
 - August 17, 2023: one of the two main days at the $5,000 cap; ERS deployed. [e11][e39]
 - August 31, 2023: ERCOT Board approves the CPS Energy-San Antonio South Reliability RPG Project, pending PUCT approval as of the September 13, 2023 report. [e24]
 - September 6, 2023, 9:30 a.m.: Watch issued for HE 19-20 for a projected reserve capacity shortage with no market solution available. [e27]
@@ -320,7 +336,7 @@ The IMM's reading of September 6 is a pricing problem. It says the marginal cost
 
 ## Say it like this
 
-(Guidance) Summer 2023 broke demand records again and again, but ERCOT says late evening was tighter than the demand peak because of the solar down ramp. [e2] On September 6 a South Texas export limit forced ERCOT to curtail about 1,590 MW of South generation just as solar fell off, frequency dropped to 59.77 Hz and ERCOT declared EEA2, deployed Load Resources, and was back to normal about 70 minutes later with no firm load shed. [e22][e5][e6] The IMM's lesson is about pricing: the shadow price cap was too low for SCED to solve the constraint itself, and ECRS sequestration produced shortage prices when reserves were not truly short. [e17][e10]
+(Guidance) Summer 2023 broke demand records again and again, but ERCOT says late evening was tighter than the demand peak because of the solar down ramp. [e2] On September 6 a South Texas export limit forced ERCOT to curtail about 1,590 MW of South generation just as solar fell off, frequency dropped to 59.77 Hz and ERCOT declared EEA2, deployed Load Resources, and returned to normal operations at 8:37 p.m. with no firm load shed. [e22][e5][e6] The IMM's lesson is about pricing: the shadow price cap was too low for SCED to solve the constraint itself, and ECRS sequestration produced shortage prices when reserves were not truly short. [e17][e10]
 
 ## Common confusion
 
@@ -334,7 +350,7 @@ ERCOT says late evening was tighter than the demand peak because of the solar do
 
 ### What does the IMM think should change after September 6?
 
-It says the established maximum shadow price caps for thermal constraints are in certain cases too low, so the real-time market may not dispatch enough local resources and manual actions follow, and that operators should have the authority to raise the caps as needed. [e15][e16] It also recommends replacing the -$250 per MWh proxy offer curve for renewables without an offer with one closer to production cost. [e45]
+It says the established maximum shadow price caps for thermal constraints are in certain cases too low, so the real-time market may not dispatch enough local resources and manual actions follow, and that operators should have the authority to raise the caps as needed. [e15][e16] It also says the -$250 per MWh proxy offer curve for renewables (IRRs) without an energy offer makes them hard for the dispatch model to curtail, and recommends a proxy offer curve more closely aligned with IRRs' production costs. [e45][e56]
 
 ### Why were prices high in summer 2023 even when reserves were not short?
 
@@ -342,7 +358,7 @@ The IMM says the sharp increase in 10-minute reserve procurements, primarily of 
 
 ### What if the shadow price cap on the South Texas constraint had been $15,000 instead?
 
-The IMM reran the September 6 period with a $15,000 per MWh cap (keeping the manual curtailments in place) and reports that SCED found a dispatch that avoided the constraint violation and reduced the power balance violation, and that a higher shadow price would send stronger locational signals. [e42][e44] This is the IMM's simulation, not an outcome that happened.
+The IMM reran the September 6 period with a $15,000 per MWh cap (in its words, "without the manual curtailments lifted") and reports that SCED found a dispatch that avoided the constraint violation and reduced the power balance violation, and that a higher shadow price would send stronger locational signals. [e42][e44] This is the IMM's simulation, not an outcome that happened.
 
 ### Why did frequency fall when PRC looked adequate?
 
@@ -356,10 +372,10 @@ ERS (1,023 MW), distribution voltage reduction, Load Resources (1,593 MW), TCEQ 
 
 ### You trade South Texas and North Hub on a hot September evening with weak North and West wind. What do you watch, based on September 6, 2023?
 
-- The South-to-Central constraint binds when solar falls in the evening while North and Central demand stays high and wind is moderate. [e22]
-- ERCOT may manually curtail South generation if SCED cannot solve the constraint within the shadow price cap, which the IMM says pushes prices up system-wide. [e15][e17]
-- Watch PRC against 3,000 MW: below it ERCOT can deploy ERS and issue an Advisory. [e39][e30]
-- Storage north of the constraint may not help much at its offer prices, per ERCOT's Board review. [e26]
+- On September 6, 2023 the South Texas export line was overloaded after the solar ramp-down, with low wind in the North, Central and West regions and high wind in the South. [e22]
+- ERCOT may manually curtail South generation if SCED cannot solve the constraint within the shadow price cap, which the IMM says can result in higher prices system-wide. [e15][e17]
+- Watch PRC against 3,000 MW: ERS may be deployed before an EEA when PRC falls below 3,000 MW and is not expected to recover within 30 minutes, and on September 6 ERCOT issued an Advisory at that level. [e57][e30]
+- ERCOT's Board review notes that ESRs north of the constraint generally had high offer prices. [e26]
 
 ## Open items
 
@@ -371,4 +387,6 @@ ERS (1,023 MW), distribution voltage reduction, Load Resources (1,593 MW), TCEQ 
 - The numbers in the IMM's $15,000 simulation (Figures A31-A32) are charts only; the OCR copy does not give quotable values. Whether ERCOT later filed the NPRR the IMM expected for IRO shadow price caps is not in the saved 2023 sources.
 - The outcome of ERCOT's investigation of incorrect frequency response or reporting by Resources on September 6 is not in the saved sources.
 - PUCT approval of the CPS Energy-San Antonio South project and its in-service date are not in the saved sources.
+- RUC scope: the Board deck gives 534 effective Resource-hours for "summer 2023"; its RUC chart shows June to August and the deck's September data runs only to September 15, so the exact period is not stated in the quote.
+- The IMM's $15,000 simulation is described as run "without the manual curtailments lifted"; the wording is ambiguous about whether the manual curtailments were kept or removed in the rerun.
 - Real-time price peaks and hub average prices for summer 2023 are only in charts in the saved Board deck; no quotable figures.

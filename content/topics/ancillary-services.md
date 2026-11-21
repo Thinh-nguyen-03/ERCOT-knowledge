@@ -240,6 +240,34 @@ evidence:
     locator: "Responsive Reserve (RRS) Requirement Details"
     quote: "The minimum level of RRS procured from Resources providing RRS using Primary Frequency Response shall be determined for each month by ERCOT through the use of studies and shall not be less than 1,377 MWs."
 
+  - id: e50
+    source: np-03
+    locator: "Section 3.16, paragraph (2)"
+    quote: "ERCOT shall, at least annually, determine with supporting data, the methodology for determining the quantity requirements for each Ancillary Service needed for reliability, including:"
+  - id: e51
+    source: np-03
+    locator: "Section 3.16, paragraph (3)"
+    quote: "The ERCOT Board shall review and recommend approval of ERCOT’s methodology for determining the minimum Ancillary Service requirements"
+  - id: e52
+    source: ercot-as-methodology-2026
+    locator: "ECRS and Non-Spin Requirement Details, Procedure"
+    quote: "there is a 1 in 10-year probability of operational reserves dropping below the sum of procured Reg Up and RRS or Watch threshold ( Physical Responsive Capability (PRC) = 3,000 MW), whichever is higher"
+  - id: e53
+    source: ercot-nprr1282-puct-report
+    locator: "Justification of Reason for Revision and Market Impacts"
+    quote: "However, this duration recommendation may need to be revisited if there are concerns with frequency event recovery and violations of North American Electric Reliability Corporation (NERC) Standard BAL-002"
+  - id: e54
+    source: imm-som-2025
+    locator: "Chapter III, Ancillary Services, page 63 (OCR)"
+    quote: "This outcome is inconsistent with expectations for a well-functioning market"
+  - id: e55
+    source: np-03
+    locator: "Section 3.17.3, paragraph (1)(a)(ii), pending NPRR1309 replacement"
+    quote: "(ii) Running at a specified output level for at least two consecutive hours;"
+  - id: e56
+    source: np-03
+    locator: "Section 3.17.3, paragraph (1)(b)"
+    quote: "CLRs qualified for Dispatch by Security-Constrained Economic Dispatch (SCED) and capable of:"
 ---
 
 ## Definition
@@ -250,18 +278,18 @@ Ancillary services are the services necessary to support the transmission of ene
 
 Each day ERCOT analyzes expected load for the Operating Day and develops an Ancillary Service Plan listing the MW of each service needed in each hour. The quantities can vary by hour with system conditions, and ERCOT must post the plan by 0600 of the Day-Ahead. [e6] The plan is then split among QSEs: ERCOT assigns each QSE a share by service and by hour, based on its load ratio share, and that share is its Ancillary Service Obligation. [e7]
 
-The services differ mainly by speed and duration. Reg-Up responds to ERCOT signals within five seconds to changes from scheduled system frequency. [e2] RRS is automatically self-deployed to restore or maintain frequency after a significant deviation. [e3] ECRS is described in the saved Protocol text (Section 3.17.4) as capacity sustained for two consecutive hours, used when RRS is depleted, as backup regulation, and to supply energy to avoid or during an EEA; [e4] the saved Operating-day performance text (np-08 Section 8.1.1.2.1.7) instead requires ECRS Resources to maintain the awarded level for at least one hour (see Duration, below). [e44] Non-Spin is provided by Generation Resources, On-Line or Off-Line, that can be synchronized and ramped to a specified output within 30 minutes and run at that output for at least four consecutive hours. [e28][e5]
+The services differ mainly by speed and duration. Reg-Up responds to ERCOT signals within five seconds to changes from scheduled system frequency. [e2] RRS is automatically self-deployed to restore or maintain frequency after a significant deviation. [e3] ECRS is described in the saved Protocol text (Section 3.17.4) as capacity sustained for two consecutive hours, used when RRS is depleted, as backup regulation, and to supply energy to avoid or during an EEA; [e4] the saved Operating-day performance text (np-08 Section 8.1.1.2.1.7) instead requires ECRS Resources to maintain the awarded level for at least one hour (see Duration, below). [e44] Non-Spin is provided by Off-Line Generation Resources (or Load Resources that can be interrupted) that can be synchronized and ramped to a specified output within 30 minutes and operate at it for at least four consecutive hours. [e5] Section 3.17.3(1)(a) lists On-Line or Off-Line Generation Resources on those terms, [e28] and the same list also covers CLRs and other Resource types. [e56]
 
 Price formation uses an ancillary service demand curve for each service. Reg-Down has a constant demand curve equal to VOLL over the full range of the plan, while the curves for Reg-Up, RRS, ECRS and Non-Spin come from an aggregate ORDC that is split into individual curves. [e9] The IMM says that aggregate curve (the AORDC) is a fixed curve formulated from empirical pricing outcomes of the ORDC before RTC, defined to 10,000 MW; when the sum of the four up-reserve products in the AS Plan is below 10,000 MW, the excess volume is currently assigned to the NSRS demand curve, so the real-time market procures excess NSRS. [e41][e42]
 
 A Resource's awards are limited by its capability: its HSL must be at least its LSL and the sum of its Resource-specific awards for RRS, ECRS, Reg-Up, Reg-Down and Non-Spin. [e29]
 
-**How ERCOT sets the quantities.** Protocol Section 3.16 requires ERCOT to determine, at least annually, the methodology for each service's quantity; the Board reviews it, and any recommendation requires PUCT approval before implementation. [e26] The 2026 methodology was recommended by the Board on 09/23/2025, approved by the PUC on 11/06/2025 and effective 01/01/2026; requirements are determined annually and posted to the MIS by December 20 for the upcoming year. [e16][e17]
+**How ERCOT sets the quantities.** Protocol Section 3.16 requires ERCOT to determine, at least annually, the methodology for each service's quantity, [e50] the ERCOT Board reviews and recommends approval of it, [e51] and any such recommendation requires PUCT approval before implementation. [e26] The 2026 methodology was recommended by the Board on 09/23/2025, approved by the PUC on 11/06/2025 and effective 01/01/2026; requirements are determined annually and posted to the MIS by December 20 for the upcoming year. [e16][e17]
 - Regulation: sized to cover the 95th percentile of deployed regulation or net load variability, with a possible adjustment for historic CPS1 performance. [e18] The base Reg-Up for an hour is the 95th percentile of the positive net load (load minus wind minus solar) forecast error for the same month of the previous two years. [e19]
 - RRS: amounts are published by month in six blocks of four-hour intervals, based on expected diurnal load, solar and wind patterns, covering 70% of historic system inertia conditions for each block. [e20] The minimum RRS from Resources providing Primary Frequency Response is set monthly by ERCOT and may not be less than 1,377 MW in the 2026 methodology, [e49] above the 1,150 MW floor in the Protocol text. [e25]
 - ECRS and Non-Spin: a probabilistic model takes the risk (30-minute-ahead and six-hour-ahead historic net load forecast errors and rolling six-hour-ahead forced outages of conventional Resources over the previous four years) [e22] and, as credits, 60% of historically available capacity at night (HE23-HE5) and 25% in day hours (HE6-HE22), and runs a Monte Carlo optimization to compute a combined ECRS and NSRS requirement per month and hour. [e21] ERCOT may also procure up to an additional 1,000 MW of Non-Spin for hours it identifies as at risk of high forecast variability. [e23] The minimum Non-Spin procured from SCED-dispatchable Resources in any hour may not be less than the lower of the Most Severe Single Contingency and that hour's Non-Spin requirement. [e24]
 
-**Duration.** NPRR1282 changed duration requirements in preparation for RTC+B: ECRS from two hours to one hour, [e30] Regulation and RRS from 15 to 30 minutes, [e32] with Non-Spin staying at not less than four hours. [e31] The PUCT approved it on 7/31/25 and it takes effect upon system implementation of RTC (PR447). [e34][e33] The IMM's Table A1 shows the RTM duration requirements: energy 5 minutes, Reg-Up 30 minutes, RRS 30 minutes, ECRS 1 hour, NSRS 4 hours. [e35]
+**Duration.** NPRR1282 changed duration requirements for Real-Time Co-optimization (RTC): ECRS from two hours to one hour, [e30] Regulation and RRS from 15 to 30 minutes, [e32] with Non-Spin staying at not less than four hours. [e31] The PUCT approved it on 7/31/25 and it takes effect upon system implementation of RTC (PR447). [e34][e33] The IMM's Table A1 shows the RTM duration requirements: energy 5 minutes, Reg-Up 30 minutes, RRS 30 minutes, ECRS 1 hour, NSRS 4 hours. [e35]
 
 **Who can provide what.** Load Resources excluding CLRs can provide no more than 50% of the total ERCOT ECRS requirement. [e27] ECRS from a Resource is limited to ten times its telemetered emergency ramp rate and it must ramp within ten minutes and maintain the awarded level for at least one hour. [e44]
 
@@ -292,7 +320,7 @@ Ancillary services are the reserve products ERCOT procures to support reliable o
 
 ## Common confusion
 
-Ancillary services are capacity products, not energy: awards reserve headroom rather than delivering MWh, though ECRS can supply energy to avoid or during an EEA [e4] and RRS is deployed through real power increases or decreases by Resources. [e3] Before December 2025 a day-ahead AS award was a physical obligation, and now it is a financial position. [e11] "AS Obligation" is also not the same as an award: the obligation is a QSE's allocated share of ERCOT's need. [e7] The AS Plan (what ERCOT needs) is not the methodology (how the annual quantities are derived): the methodology is approved annually and posted by December 20, while the Plan is posted daily. [e17][e6]
+Ancillary services are capacity products, not energy: awards reserve headroom rather than delivering MWh, though ECRS can supply energy to avoid or during an EEA [e4] and RRS is deployed through real power increases or decreases by Resources. [e3] Before December 2025 a day-ahead AS award was a physical obligation, and now it is a financial position. [e11] "AS Obligation" is also not the same as an award: the obligation is a QSE's allocated share of ERCOT's need. [e7] The AS Plan (what ERCOT needs) is not the methodology (how the annual quantities are derived): the methodology is determined and approved annually, [e50][e51] the quantities it produces are posted by December 20, [e17] while the Plan is posted for each Operating Day. [e6]
 
 ## Questions
 
@@ -314,15 +342,15 @@ The IMM reports AS costs of $3.74 per MWh of load in 2023, $0.98 in 2024 and $0.
 
 ### How does ERCOT decide how much ECRS and Non-Spin to buy?
 
-A Monte Carlo model nets historic headroom credits against net-load forecast and outage risk and solves for a 1-in-10-year probability that reserves drop below the higher of Reg-Up plus RRS or the Watch threshold of 3,000 MW in the 2026 methodology. [e21] ERCOT's 2027 proposal lowers that threshold to EEA1 at 2,500 MW. [e48]
+A Monte Carlo model nets historic headroom credits against net-load forecast and outage risk and solves for a 1-in-10-year probability that reserves drop below the higher of Reg-Up plus RRS or the Watch threshold of 3,000 MW in the 2026 methodology. [e21][e52] ERCOT's 2027 proposal lowers that threshold to EEA1 at 2,500 MW. [e48]
 
 ### Why was the ECRS duration cut from two hours to one?
 
-ERCOT's analysis said the length of historical ECRS risk-relevant deployments, sustained under-forecast error in 30-minute-ahead net load and a margin for solar forecast growth made one hour sufficient, with the caveat that it may need revisiting if there are frequency-recovery or BAL-002 concerns. [e30]
+ERCOT's analysis said the length of historical ECRS risk-relevant deployments, sustained under-forecast error in 30-minute-ahead net load and a margin for solar forecast growth made one hour sufficient, with the caveat that it may need revisiting if there are frequency-recovery or BAL-002 concerns. [e30][e53]
 
 ### Why was NSRS the most expensive AS in 2025, and what if an AS shortage occurs?
 
-The IMM calls the 2025 outcome inconsistent with a well-functioning market, and ties excess NSRS procurement to the way excess aggregate-curve volume is assigned to the NSRS demand curve. [e39][e42] Shortages since RTC are infrequent, and NSRS has the lowest penalty price. [e43]
+The IMM calls the 2025 outcome inconsistent with expectations for a well-functioning market, [e54] and ties excess NSRS procurement to the way excess aggregate-curve volume is assigned to the NSRS demand curve. [e39][e42] Shortages since RTC are infrequent, and NSRS has the lowest penalty price. [e43]
 
 ## Scenarios
 
@@ -335,6 +363,7 @@ The IMM calls the 2025 outcome inconsistent with a well-functioning market, and 
 
 ## Open items
 
+- Pending NPRR1309 text would change the Non-Spin duration in Section 3.17.3(1)(a)(ii) from four to two consecutive hours upon system implementation; the four-hour text above is the text in effect in the saved Protocols. [e55]
 - The Dispatchable Reliability Reserve Service (DRRS) appears in pending NPRR1309 text only and is not covered here.
 - Conflict in the saved Protocols on ECRS duration: np-03 Section 3.17.4 says two consecutive hours, while np-08 Section 8.1.1.2.1.7 and Section 8.1.1.3.4 say one hour, and NPRR1282 (effective upon RTC implementation) changes ECRS to one hour. The saved np-03 text appears not to carry the NPRR1282 change; confirm against the current Protocols.
 - The minimum Primary Frequency Response RRS quantity appears as 1,150 MW in np-03 Section 3.16(2)(c) and as 1,377 MW in the 2026 and 2027 AS methodology documents (the 2026 methodology says "shall not be less than 1,377 MWs"); the saved sources do not explain how the two relate.

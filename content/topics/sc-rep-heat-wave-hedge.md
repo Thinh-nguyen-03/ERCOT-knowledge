@@ -228,6 +228,10 @@ evidence:
     source: np-16
     locator: "Section 16.11.4.3.3, variable table, w"
     quote: "One of the three consecutive forward weeks beginning with the current Operating Day."
+  - id: e48
+    source: np-16
+    locator: "Section 16.11.4.3(1), Determination of Counter-Party Estimated Aggregate Liability, EAL formula for a Counter-Party whose QSEs represent Load or generation"
+    quote: "Max [ Max (RFAF * RTLE) during the previous lrqrtle days, RTLF] + DFAF * DALE"
 ---
 
 ## Definition
@@ -248,9 +252,9 @@ Step 5, check credit. The QSE's Counter-Party must keep Financial Security at or
 
 ## Formula
 
-TPEA, the main collateral number for a REP's QSE, is the larger of zero, the Minimum Current Exposure (MCE), and the Estimated Aggregate Liability (EAL) terms, plus Potential Uplift (PUL). [e26]
+TPEA is the larger of zero, the Minimum Current Exposure (MCE), and the Estimated Aggregate Liability (EAL) terms, plus Potential Uplift (PUL). [e26]
 
-Within EAL, the real-time piece is RTLE: M1 times the average daily net amount due to or from ERCOT over the 14 most recent Operating Days with RTM Initial Statements. [e27] M1 is a number of days of forward risk: the time to terminate a defaulting Counter-Party (M1a) plus, for a Counter-Party with a QSE serving an LSE, the time for a Mass Transition (M1b). [e28] EAL takes the maximum of RTLE (scaled by the forward adjustment factor) over a look-back period, which is 40 days from May 16 through September 15. [e29][e30]
+Within EAL, the real-time piece is RTLE: M1 times the average daily net amount due to or from ERCOT over the 14 most recent Operating Days with RTM Initial Statements. [e27] M1 is a number of days of forward risk: the time to terminate a defaulting Counter-Party (M1a) plus, for a Counter-Party with a QSE serving an LSE, the time for a Mass Transition (M1b). [e28] For a Counter-Party whose QSEs represent Load or generation, EAL's real-time term is the larger of RTLF and the maximum of RFAF times RTLE over the look-back period, and EAL then adds a day-ahead term (DFAF times DALE) and other terms. [e48][e29] The look-back is 40 days from May 16 through September 15. [e30]
 
 The forward adjustment factor scales TPEA with electricity futures prices: RFAF is the projected real-time forward average price, built from futures for the next three weeks, divided by the historic real-time settled average price. [e31][e32][e46][e47]
 
@@ -260,7 +264,7 @@ The forward adjustment factor scales TPEA with electricity futures prices: RFAF 
 - The day-ahead market cleared 62% of real-time load in 2025. [e6]
 - The 2025 average day-ahead premium was $1.17 per MWh; the average absolute DA/RT difference was $12 per MWh. [e8]
 - Offer caps: $5,000/MWh day-ahead and $2,000/MWh real-time in the Protocol table and per ERCOT since RTC go-live on 12/5/2025; PUCT rule 25.509 still states a $5,000 HCAP. [e23][e24][e9]
-- ERCOT (September 2026): at the $2,000 real-time cap, a four-day scarcity event accrues roughly $192,000 of exposure per exposed MW. [e36]
+- ERCOT's illustration (Project 59550 comments, September 2026): at the $2,000 real-time cap, an illustrative four-day scarcity event accrues roughly $192,000 of exposure per exposed MW. [e36]
 - All-time demand record: 91,134 MW on July 22, 2026, HE19. [e11]
 - Summer 2026 real-time prices were lower than in 2024 and 2025 because of higher supply, especially in daylight hours. [e38]
 - RTLE look-back for TPE: 40 days from May 16 through September 15. [e30]

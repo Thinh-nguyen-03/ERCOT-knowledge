@@ -186,6 +186,18 @@ evidence:
     source: imm-som-2025
     locator: "page 156 (OCR), IX.C, Recommendation 2023-3"
     quote: "After 2023, the impact of ERCOT’s ECRS deployment practices decreased substantially, falling to $720 million in 2024 and $90 million in 2025."
+  - id: e62
+    source: imm-som-2025
+    locator: "page 156 (OCR), IX.C, Recommendation 2023-3"
+    quote: "RTC’s implementation in December 2025 largely resolved this issue."
+  - id: e63
+    source: imm-som-2025
+    locator: "page 21 (OCR), Executive Summary, recommendations table (2025), Recommendation 2024-1"
+    quote: "Improve the Procurement and Pricing of Ancillary Services by: (a) Defining ASDCs 2024-1 based on the Marginal Reliability Value of Each Product, and (b) Adopting a Stochastic Risk Methodology for the AS Plan"
+  - id: e64
+    source: imm-som-2025
+    locator: "page 147 (OCR), IX.B, Recommendation 2024-1a"
+    quote: "Forcing the ASDCs to conform to a predetermined AORDC causes scarcity prices to reflect an outdated administrative construct instead of the actual severity and type of reserve shortages."
   - id: e34
     source: imm-som-2025
     locator: "page 156 (OCR), IX.C, Recommendation 2022-3"
@@ -314,9 +326,9 @@ The State of the Market report is the annual report the Independent Market Monit
 
 **Recommendations in the 2025 report.** New in 2025: 2025-1, Redesign and Improve the Firm Fuel Supply Service. [e15][e5] Outstanding from prior years, with the titles in the 2025 table:
 
-- 2024-1 (a) define ASDCs by marginal reliability value and (b) adopt a stochastic risk methodology for the AS Plan; 2024-2, set the NSRS duration requirement to one hour; 2024-3, implement a process to mitigate market power at system and zonal levels; 2024-4, establish real-time offer requirements, penalties and proxy pricing; 2022-1, implement a multi-interval real-time market; 2021-2, implement an uncertainty product; 2020-3, reconfigure load zones to reflect prevailing congestion patterns; 2020-4, implement a point-to-point obligation bid fee. [e15]
+- 2024-1 (a) define ASDCs by marginal reliability value and (b) adopt a stochastic risk methodology for the AS Plan [e63]; 2024-2, set the NSRS duration requirement to one hour; 2024-3, implement a process to mitigate market power at system and zonal levels; 2024-4, establish real-time offer requirements, penalties and proxy pricing; 2022-1, implement a multi-interval real-time market; 2021-2, implement an uncertainty product; 2020-3, reconfigure load zones to reflect prevailing congestion patterns; 2020-4, implement a point-to-point obligation bid fee. [e15]
 - 2019-2, price ancillary services based on the shadow price of procuring each service; 2015-1, transition away from the 4CP method of allocating transmission costs. [e16]
-- Retired in 2025: 2023-3, 2023-4, 2022-3, 2022-4 and 2021-1. [e17]
+- Listed under "Recommendations Being Retired" in the 2025 table: 2023-3, 2023-4, 2022-3, 2022-4 and 2021-1 (2022-3 and 2022-4 already appeared in the 2024 retired list). [e17][e44]
 
 **What each one says (the IMM's reasoning, as stated in the 2025 report).** The IMM numbers each recommendation by the year it was first introduced. [e5]
 
@@ -333,13 +345,13 @@ The State of the Market report is the annual report the Independent Market Monit
 - 2019-2: ERCOT nests multiple operating reserve variations under one ancillary service, sets volume limits for each sub-product and clears all at the same price. [e31]
 - 2015-1: the IMM supports allocating transmission costs on an annual load ratio share basis. [e32]
 
-**Why recommendations leave the list.** 2023-3 (ECRS deployment): the IMM says the excess cost of ECRS deployment practices fell to $720 million in 2024 and $90 million in 2025, and that RTC largely resolved the issue. [e33] 2022-3 was addressed by NPRR 1198, approved July 2024 and scheduled for implementation by February 2027, and stays listed until then. [e34] 2022-4 was addressed by NPRR 1006, approved in June 2020 but not yet implemented, with ERCOT Projects earmarking October 2027. [e35] 2021-1 was retired because the PUC removed the small fish rule from 25.504(c) through Project 58379. [e36]
+**Why recommendations leave the list.** 2023-3 (ECRS deployment): the IMM says the excess cost of ECRS deployment practices fell to $720 million in 2024 and $90 million in 2025, and that RTC's implementation in December 2025 largely resolved the issue. [e33][e62] 2022-3 was addressed by NPRR 1198, approved July 2024 and scheduled for implementation by February 2027, and stays listed until then. [e34] 2022-4 was addressed by NPRR 1006, approved in June 2020 but not yet implemented, with ERCOT Projects earmarking October 2027. [e35] 2021-1 was retired because the PUC removed the small fish rule from 25.504(c) through Project 58379. [e36]
 
 ## ERCOT context
 
 **2025 results (calendar year 2025 unless noted).** Average electricity demand was about 6.1% higher than in 2024, up approximately 3,205 MW. [e6] Crypto-currency mining demand was about 4,600 MW, and by the end of 2025 it accounted for more than half of ERS capacity. [e7][e8] ESR installed capacity exceeded 17,000 MW and 31,500 MWh, up almost 80% from the end of 2024. [e48]
 
-- Prices: natural gas rose 61% but the all-in price of electricity rose by less than 14%; [e45] the IMM's August 2026 TAC deck gives 13.8% and says the implied heat rate fell 28% year over year. [e56][e55] ORDC shortage pricing added only $0.02 per MWh. [e46]
+- Prices: natural gas rose 61% but the all-in price of electricity rose by less than 14%; [e45] the IMM's August 2026 TAC deck gives 13.8% and says the implied heat rate fell 28% year over year. [e56][e55][e61] ORDC shortage pricing added only $0.02 per MWh. [e46]
 - Reserves: average Physical Responsive Capability was over 11,000 MW, per the TAC deck. [e54]
 - Ancillary services: RTC went live in December 2025; [e47] the IMM says ERCOT's procurement practices raise AS requirements to more than double the quantities needed for a reasonable reliability standard. [e52]
 - Congestion: day-ahead and real-time congestion costs rose 26% and 32%, reversing a three-year decline. [e49]
@@ -389,7 +401,7 @@ By the year first introduced, then the order in that report; for example the 202
 
 ### Why does the IMM want to remove the link between the ASDCs and the AORDC?
 
-The IMM says ASDCs forced to match the aggregate ORDC shape yield scarcity prices that reflect an administrative construct rather than the type and severity of reserve shortages; it recommends building each ASDC to reflect the reliability value of its product. [e21] Context: RTC replaced the ORDC with ASDCs in December 2025. [e20]
+The IMM says ASDCs forced to match the aggregate ORDC shape yield scarcity prices that reflect an outdated administrative construct instead of the actual severity and type of reserve shortages; it recommends building each ASDC to reflect the reliability value of its product. [e64][e21] Context: RTC replaced the ORDC with ASDCs in December 2025. [e20]
 
 ### Why does the IMM want the NSRS duration cut to one hour?
 

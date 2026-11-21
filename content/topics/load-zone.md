@@ -35,7 +35,7 @@ links:
     note: Load Zones are also used for Congestion Revenue Right Settlement, as a zone of power flow buses. [e1]
   - to: ptp-obligation
     type: related
-    note: A Load Zone can be the source or sink of a PTP, with Load distribution factors spreading the quantity across the zone's buses. [e27]
+    note: In the Day-Ahead, Load distribution factors allocate offers, bids, and the source and sink of CRRs at a Load Zone across the zone's buses (the saved Protocol text in effect names CRRs, not PTP Obligations). [e27]
   - to: shift-factor
     type: related
     note: The day-ahead Load Zone price uses Load-weighted aggregated Shift Factors. [e2]
@@ -47,7 +47,7 @@ links:
     note: The IMM's West Zone findings concern the Load Zone, not the West Hub. [e12]
   - to: negative-prices
     type: related
-    note: The IMM says the West zone had the most negative-price intervals in 2025. [e12]
+    note: The IMM says the West zone had the most negative-price intervals in 2025. [e46]
 evidence:
   - id: e1
     source: np-02
@@ -124,7 +124,7 @@ evidence:
   - id: e19
     source: np-03
     locator: "Section 3.4.2, paragraph (3)"
-    quote: "A NOIE that was included in the establishment of an automatic pre-assigned NOIE Load Zone under paragraph (1)(c) of Section 3.4.3 may elect to be assigned to an appropriate Competitive Load Zone after giving notice of termination of its power supply arrangement if a request to be assigned to a Competitive Load Zone was given to ERCOT at least 90 days prior to the start of the Pre-Assigned Congestion Revenue Right (PCRR) nomination window for the effective year of the Load Zone change."
+    quote: "A NOIE that was included in the establishment of an automatic pre-assigned NOIE Load Zone under paragraph (1)(c) of Section 3.4.3 may elect to be assigned to an appropriate Competitive Load Zone after giving notice of termination of its power supply arrangement if a request to be assigned to a Competitive Load Zone was given to ERCOT at least 90 days prior to the start of the Pre-Assigned Congestion Revenue Right (PCRR) nomination window for the effective year of the Load Zone change. The move to a Competitive Load Zone requires ERCOT Board approval and shall be effective no sooner than the first day of the PCRR Nomination Year."
   - id: e20
     source: np-03
     locator: "Section 3.4.3, paragraph (1)(d) and (f)"
@@ -225,6 +225,22 @@ evidence:
     source: imm-som-2024
     locator: "page 97 (OCR), Chapter IV, Load Zone Configuration (2024 report)"
     quote: "That is why the IMM recommended in the 2020 SOM that ERCOT update the configuration of load zones and introduce new load zones to recognize key transmission constraints and minimize intra-zonal congestion."
+  - id: e45
+    source: imm-som-2025
+    locator: "Chapter I.C, Zonal Energy Prices"
+    quote: "Continuing the trend from 2024, the West zone had the highest average price in 2025, followed by the South zone."
+  - id: e46
+    source: imm-som-2025
+    locator: "Chapter I.C, Zonal Energy Prices"
+    quote: "This duality explains why the West zone experienced the highest number of intervals with negative prices and the greatest frequency of price spikes of any load zone."
+  - id: e47
+    source: imm-som-2025
+    locator: "Chapter V.G.3, Methodology for Defining Load Zones, discussion of Table 6"
+    quote: "This data indicates that this reconfiguration would significantly reduce intrazonal congestion compared to the current load zone map."
+  - id: e48
+    source: np-06
+    locator: "Section 6.6.1.4, Load Zone LMPs, variable table, SEL, pending NPRR1188 replacement description"
+    quote: "excluding CLR Load that is not an ALR, WSL and Non-WSL ESR Charging Load for Electrical Bus b in the Load Zone, for the SCED interval y."
 
 ---
 
@@ -234,7 +250,7 @@ A Load Zone is a group of power flow buses (in the DAM and CRR Auction) or Elect
 
 ## How it works
 
-Real-time price. In real time, the Load Zone Settlement Point Price is the Load-weighted average of the LMPs at all Electrical Buses assigned to the zone, with the weights taken from State Estimator Load at each bus. [e3][e24] The weight is each bus's State Estimator Load; the Protocol defines that Load as including a calculated net Load at each Private Use Network and adjustments for distribution generation and storage injections and withdrawals settled at a Resource Node, excluding wholesale storage and non-wholesale-storage ESR charging Load (a pending change, NPRR1188, would also exclude certain Controllable Load Resource Load). [e28] For a DC Tie Load Zone the zone LMP is simply the LMP at its one bus. [e25]
+Real-time price. In real time, the Load Zone Settlement Point Price is the Load-weighted average of the LMPs at all Electrical Buses assigned to the zone, with the weights taken from State Estimator Load at each bus. [e3][e24] The weight is each bus's State Estimator Load; the Protocol defines that Load as including a calculated net Load at each Private Use Network and adjustments for distribution generation and storage injections and withdrawals settled at a Resource Node, excluding wholesale storage and non-wholesale-storage ESR charging Load (a pending change, NPRR1188, would also exclude CLR Load that is not an ALR). [e28][e48] For a DC Tie Load Zone the zone LMP is simply the LMP at its one bus. [e25]
 
 Energy-weighted price. Where a 15-minute quantity is represented as one value but varies within the interval, Settlement uses an energy-weighted Real-Time Settlement Point Price rather than the simple time-weighted one. [e26]
 
@@ -242,7 +258,7 @@ Day-ahead price. In the day-ahead, ERCOT calculates the zone price using Load-we
 
 Zone types. The Protocols refer to Competitive Load Zones, NOIE Load Zones, and DC Tie Load Zones. [e4] The Competitive Load Zones are the four zones in effect during the 2003 ERCOT market, unless changed, less any buses assigned to a NOIE or DC Tie Load Zone. [e4] A DC Tie Load Zone holds only the one Electrical Bus connecting the DC Tie. [e9] The four NOIE Load Zones approved before nodal implementation are Austin Energy, City Public Service, Rayburn Country Electric Cooperative and LCRA. [e6] A NOIE may participate in only one NOIE Load Zone, with all its Loads inside that zone. [e20] Four years after a NOIE offers retail choice its Load must be merged into the appropriate Competitive Load Zone(s). [e21]
 
-Changes are slow. Competitive and NOIE Load Zones can be added, deleted or changed only with ERCOT Board approval, and approved changes take effect 48 months after the end of the month of approval, with listed exceptions; DC Tie Load Zones are not subject to these requirements. [e5] Adding Load that is new to the ERCOT System to an existing Load Zone is not a change to the zone. [e18] A NOIE in a pre-assigned NOIE Load Zone may elect to move to a Competitive Load Zone if it asks at least 90 days before the PCRR nomination window for the effective year. [e19]
+Changes are slow. Competitive and NOIE Load Zones can be added, deleted or changed only with ERCOT Board approval, and approved changes take effect 48 months after the end of the month of approval, with listed exceptions; DC Tie Load Zones are not subject to these requirements. [e5] Adding Load that is new to the ERCOT System to an existing Load Zone is not a change to the zone. [e18] A NOIE in a pre-assigned NOIE Load Zone may elect to move to a Competitive Load Zone after giving notice of termination of its power supply arrangement and asking at least 90 days before the PCRR nomination window for the effective year, and the move requires ERCOT Board approval. [e19]
 
 New buses. New Electrical Buses are assigned to a Load Zone and Cost Allocation Zone with changes effective immediately. [e22] A bus serving a NOIE in a NOIE zone goes to that zone, and a bus connected only to buses in one Competitive Load Zone goes to that zone. [e23] Any other new bus is assigned to the Competitive Load Zone whose zonal price best matches a simulated annual-peak-hour LMP at that bus. [e13]
 
@@ -250,17 +266,17 @@ New buses. New Electrical Buses are assigned to a Load Zone and Cost Allocation 
 
 The IMM names the four current load zones as West, North, South and Houston, established in 2003. [e7] Loads settle at the zone price, a load-weighted average of nodal prices, while generators settle at their own nodal prices. [e10]
 
-Zone price levels. The IMM's Table 1 gives load-weighted average annual real-time prices by zone, in $ per MWh, for 2021 to 2025 in order. Houston: $136.69, $82.47, $72.88, $30.24, $34.95. [e29] North: $221.52, $77.30, $78.01, $30.42, $35.34. [e30] South: $200.35, $74.39, $71.12, $34.66, $37.59. [e31] West: $111.56, $66.62, $67.56, $35.88, $41.59. [e32] ERCOT: $179.24, $76.41, $73.28, $32.41, $36.94. [e33] These prices exclude imports and exports through DC ties. [e34] The IMM notes the West zone had the highest average price in 2025, followed by South. [e12]
+Zone price levels. The IMM's Table 1 gives load-weighted average annual real-time prices by zone, in $ per MWh, for 2021 to 2025 in order. Houston: $136.69, $82.47, $72.88, $30.24, $34.95. [e29] North: $221.52, $77.30, $78.01, $30.42, $35.34. [e30] South: $200.35, $74.39, $71.12, $34.66, $37.59. [e31] West: $111.56, $66.62, $67.56, $35.88, $41.59. [e32] ERCOT: $179.24, $76.41, $73.28, $32.41, $36.94. [e33] These prices exclude imports and exports through DC ties. [e34] The IMM notes the West zone had the highest average price in 2025, followed by South. [e45]
 
 Why the zones are criticised. The IMM says congestion within load zones continues to outpace congestion between load zones. [e7] In 2025 roughly 9% of congestion costs were interzonal, down from 11% in 2024, and congestion within the West increased by 27% between 2024 and 2025. [e35][e36] When a zone has substantial internal congestion, its cost is averaged across loads and no longer tied to specific transmission limits. [e11] The IMM notes that the West zone includes both the export-constrained Panhandle and the import-constrained Permian Basin, which face the same zonal price despite very different cost and congestion profiles. [e12][e43] It says industrial load in West Texas has grown from oil-and-gas electrification and data centers. [e42] It continues to recommend (Recommendation 2020-3, first made in its 2020 report) that ERCOT revise the load zone configuration. [e15][e44]
 
-The IMM's proposal. The IMM evaluated a 7-load-zone configuration using January 2022 to December 2025 data, with zones named Coast, North, South, SouthCentral, SouthWest, FarWest and Panhandle in its Table 6, and says it would significantly reduce intrazonal congestion. [e38][e39] (That is an IMM analysis, not an ERCOT or Board action.) Timing: any change must take effect at least four years after approval because of the CRR auction design. [e40][e37] To date, in the IMM's 2025 report, ERCOT has not indicated that it intends to revisit the current zone structure. [e41]
+The IMM's proposal. The IMM evaluated a 7-load-zone configuration using January 2022 to December 2025 data, with zones named Coast, North, South, SouthCentral, SouthWest, FarWest and Panhandle in its Table 6, and says it would significantly reduce intrazonal congestion. [e38][e39][e47] (That is an IMM analysis, not an ERCOT or Board action.) Timing: any change must take effect at least four years after approval because of the CRR auction design. [e40][e37] To date, in the IMM's 2025 report, ERCOT has not indicated that it intends to revisit the current zone structure. [e41]
 
 ## Timeline
 
 - 2003: the four zones in effect in the 2003 ERCOT market become the Competitive Load Zones (and the Cost-Allocation Load Zones) unless changed under Section 3.4.2. [e4][e14]
 - 2020: the IMM first recommends reconfiguring the load zones (Recommendation 2020-3, referencing its 2020 State of the Market report). [e44]
-- 2024 and 2025 reports: the IMM repeats the recommendation; the 2025 report adds the 7-zone analysis and says ERCOT has not indicated it will revisit the structure. [e38][e41]
+- 2024 and 2025 reports: the IMM repeats the recommendation; the 2025 report adds the 7-zone analysis and says ERCOT has not indicated it will revisit the structure. [e38][e41][e44][e15]
 
 ## Key facts
 

@@ -26,7 +26,7 @@ links:
     note: The offer cap limits prices on the high side, while the offer floor of -$250 per MWh limits offers on the low side. [e1]
   - to: hb-west
     type: related
-    note: The IMM's negative-price findings are about the West zone, and ERCOT also settles a West 345 kV Hub price with the same -$251 floor in its formula. [e20][e18]
+    note: The IMM's negative-price findings are about the West zone, and ERCOT also settles a West 345 kV Hub price with the same -$251 floor in its formula. [e20][e18][e26]
   - to: load-zone
     type: related
     note: The West load zone combines the curtailed Panhandle and the import-constrained Permian Basin. [e20][e7]

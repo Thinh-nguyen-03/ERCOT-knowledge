@@ -50,7 +50,7 @@ evidence:
     quote: "ERCOT shall pay or charge the QSE of each PTP Obligation acquired in the DAM the difference in Real-Time Settlement Point Prices between the sink Settlement Point and the source Settlement Point."
   - id: e6
     source: np-04
-    locator: "Section 4.4.9.6.1, DAM Energy Bid Criteria, paragraph (3)"
+    locator: "Section 4.4.9.5.1, DAM Energy-Only Offer Curve Criteria, paragraph (4)"
     quote: "DAM Energy-Only Offers, DAM Energy Bids, and/or PTP Obligation bids shall not be submitted in combination to create the net effect of a single PTP Obligation containing a source Settlement Point and a sink Settlement Point that are Electrically Similar Settlement Points for the QSE or for any combination of QSEs within the same Counter-Party."
   - id: e7
     source: imm-som-2025
@@ -86,7 +86,7 @@ evidence:
     quote: "If the PTP Obligation bid is for more than one PTP Obligation (which is one MW for one hour), the block bid must: (a) Include the same number of PTP Obligations in each hour of the block; (b) Be for PTP Obligations that have the same source and sink Settlement Points; and (c) Be for contiguous hours."
   - id: e15
     source: np-04
-    locator: "Section 4.4.6.1, paragraphs (3) and (9)"
+    locator: "Section 4.4.6.1, paragraph (3)"
     quote: "A PTP Obligation bid shall not contain a source Settlement Point and a sink Settlement Point that are Electrically Similar Settlement Points."
   - id: e16
     source: np-02
@@ -220,6 +220,38 @@ evidence:
     source: np-04
     locator: "Section 4.5.1, paragraph (5) (DAM Clearing Process; text in effect refers to CRRs)"
     quote: "ERCOT shall determine the appropriate Load distribution factors to allocate offers, bids, and source and sink of CRRs at a Load Zone across the energized power flow buses that are modeled with Load in that Load Zone."
+  - id: e49
+    source: np-04
+    locator: "Section 4.4.6.1, PTP Obligation Bid Criteria, paragraph (1)"
+    quote: "A PTP Obligation bid must be submitted by a QSE and must include the following:"
+  - id: e50
+    source: np-04
+    locator: "Section 4.4.6.1, paragraph (1)(d)"
+    quote: "The first hour and the last hour for which the PTP Obligation or block of PTP Obligations is being bid;"
+  - id: e51
+    source: np-04
+    locator: "Section 4.4.6.1, paragraph (1)(e)"
+    quote: "The quantity of PTP Obligations in MW for which the Not-to-Exceed Price is effective; and"
+  - id: e52
+    source: np-04
+    locator: "Section 4.4.6.1, paragraph (1)(f)"
+    quote: "A dollars per MW per hour for the Not-to-Exceed Price."
+  - id: e53
+    source: np-04
+    locator: "Section 4.6.3, variable table, RTOBL"
+    quote: "The total MW of QSE q’s PTP Obligation bids cleared in the DAM and settled in Real-Time for the source j and the sink k, for the hour."
+  - id: e54
+    source: np-04
+    locator: "Section 4.6.3, paragraph (2)"
+    quote: "The net total charge or payment to the QSE for the hour of all its cleared PTP Obligation bids is calculated as follows:"
+  - id: e55
+    source: np-07
+    locator: "Section 7.9.2.1, variable table, i"
+    quote: "A 15-minute Settlement Interval in the Operating Hour."
+  - id: e56
+    source: np-04
+    locator: "Section 4.4.10, paragraph (6)(d)(iii)(A)"
+    quote: "The QSE must submit the PTP Obligation bid at the same source and sink pair for the same hour, for the same operating date"
 ---
 
 ## Definition
@@ -228,7 +260,7 @@ A Point-to-Point (PTP) Obligation is a type of CRR that entitles the holder to b
 
 ## How it works
 
-A QSE buys PTP Obligations in the DAM by submitting bids. [e2][e3] A bid must come from a QSE and, per Section 4.4.6.1, names the source and sink Settlement Points, the first and last hour, the MW quantity and the Not-to-Exceed Price in dollars per MW per hour. A block bid for more than one PTP Obligation (one MW for one hour) must have the same MW in each hour, the same source and sink, and contiguous hours. [e14] The minimum amount for each PTP Obligation bid is one MW. [e17]
+A QSE buys PTP Obligations in the DAM by submitting bids. [e2][e3] A bid must come from a QSE [e49] and, per Section 4.4.6.1, names the source and sink Settlement Points [e2], the first and last hour [e50], the MW quantity [e51] and the Not-to-Exceed Price in dollars per MW per hour [e52]. A block bid for more than one PTP Obligation (one MW for one hour) must have the same MW in each hour, the same source and sink, and contiguous hours. [e14] The minimum amount for each PTP Obligation bid is one MW. [e17]
 
 Clearing: ERCOT does not award a PTP Obligation bid where the DAM clearing price for the PTP Obligation is greater than the bid price plus $0.01/MW per hour. [e23] Block bids are all-or-nothing, so a block can clear at a price inconsistent with its bid price because quantity blocks cannot set the Settlement Point Price. [e24] A load zone can be a source or sink; ERCOT spreads Load Zone source and sink quantities across the energized power flow buses modeled with Load in that zone using Load distribution factors (the text in effect speaks of CRRs generally). [e48]
 
@@ -238,9 +270,9 @@ The IMM's plain statement of the economics: the purchase cost is the day-ahead p
 
 ## Formula
 
-Day-ahead leg (Protocol Section 4.6.3): the DAM amount for a QSE, source j and sink k for the hour is DAOBLPR times RTOBL, with DAOBLPR being the DAM Settlement Point Price at the sink minus the DAM Settlement Point Price at the source. [e30][e4] RTOBL is the total MW of the QSE's PTP Obligation bids cleared in the DAM and settled in real time for that pair and hour, and the net hourly total for a QSE is the sum over all its source and sink pairs. [e30]
+Day-ahead leg (Protocol Section 4.6.3): the DAM amount for a QSE, source j and sink k for the hour is DAOBLPR times RTOBL, with DAOBLPR being the DAM Settlement Point Price at the sink minus the DAM Settlement Point Price at the source. [e30][e4] RTOBL is the total MW of the QSE's PTP Obligation bids cleared in the DAM and settled in real time for that pair and hour [e53], and Section 4.6.3(2) gives the net total charge or payment to the QSE for the hour of all its cleared PTP Obligation bids [e54].
 
-Real-time leg (Protocol Section 7.9.2.1): RTOBLAMT = (-1) * RTOBLPR * RTOBL, where RTOBLPR is the Real-Time Obligation Price for the hour. [e31][e33] RTOBLPR is built from the sink minus source Real-Time Settlement Point Prices of the 15-minute Settlement Intervals i in the hour, divided by 4 (that is, the average of the four 15-minute spreads). [e32]
+Real-time leg (Protocol Section 7.9.2.1): RTOBLAMT = (-1) * RTOBLPR * RTOBL, where RTOBLPR is the Real-Time Obligation Price for the hour. [e31][e33] RTOBLPR is built from the sink minus source Real-Time Settlement Point Prices of the 15-minute Settlement Intervals i in the Operating Hour [e55], divided by 4 (that is, the average of the four 15-minute spreads). [e32]
 
 ## ERCOT context
 
@@ -252,11 +284,11 @@ The IMM recommends a small fee on PTP bids (Recommendation 2020-4) to discourage
 
 Who uses PTPs: the IMM's 2023 report says a PTP lets a participant buy the network flow between two locations, and combined with a self-committed generator it lets the participant serve load while avoiding real-time exposure. [e46] A CRR owner can use its CRR proceeds from the DAM to buy a PTP between the same two points to carry its hedge into real time. [e47]
 
-**PTP Obligations with Links to an Option (NOIEs).** A PTP Obligation with Links to an Option is reflective of a NOIE's PTP Option if the source and sink pairs of the obligation and the option are the same and the obligation MW do not exceed the option MW; no payment is made for such obligations acquired in the DAM. [e12] They are settled as if they were a PTP Option. [e13] In real time ERCOT pays the QSE only the positive difference between sink and source Real-Time Settlement Point Prices for them. [e13] The minimum amount for each is one-tenth of one MW. [e17] The hourly MW designated to settle as a PTP Option may not exceed the lesser of 110% of the NOIE's peak Load forecast for the Operating Day or 125% of its hourly Load forecast (current text; NPRR918 replacement wording is shown as pending). [e18]
+**PTP Obligations with Links to an Option (NOIEs).** A PTP Obligation with Links to an Option is reflective of a NOIE's PTP Option if the source and sink pairs of the obligation and the option are the same and the obligation MW do not exceed the option MW; no payment is made for such obligations acquired in the DAM. [e12] They are designated to be settled in Real-Time as a PTP Option. [e18] In real time ERCOT pays the QSE only the positive difference between sink and source Real-Time Settlement Point Prices for them. [e13] The minimum amount for each is one-tenth of one MW. [e17] The hourly MW designated to settle as a PTP Option may not exceed the lesser of 110% of the NOIE's peak Load forecast for the Operating Day or 125% of its hourly Load forecast (current text; NPRR918 replacement wording is shown as pending). [e18]
 
 Award eligibility: such a bid is ineligible for an Operating Hour if it sources at a Resource Node where a Generation Resource or ESR has a COP Resource Status of OUT, or OFF without the valid offers listed in the Protocol. [e21] For an upcoming year, the NOIE must have given ERCOT by October 1 of the prior year an attestation that the Resource is owned or controlled by the NOIE or has a contractual commitment with it. [e22]
 
-**Bid validation and credit.** A validated bid meets the Section 4.4.6.1 criteria except paragraphs (3), (4), (5) and (6), and bids that fail paragraph (3), the ban on electrically similar source and sink points, will not be awarded. [e19][e15] Electrically Similar Settlement Points are mapped to the same electrical location or connected by a transmission element with reactance under 0.0005 per unit. [e16] ERCOT notifies the QSE of invalid bids and the QSE may correct and resubmit within the market timeline. [e20]
+**Bid validation and credit.** A validated bid meets the Section 4.4.6.1 criteria except paragraphs (3), (4), (5) and (6) (current text; an NPRR918 replacement is shown as pending), and bids that fail paragraph (3), the ban on electrically similar source and sink points, will not be awarded. [e19][e15] Electrically Similar Settlement Points are mapped to the same electrical location or connected by a transmission element with reactance under 0.0005 per unit. [e16] ERCOT notifies the QSE of invalid bids and the QSE may correct and resubmit within the market timeline. [e20]
 
 DAM credit: ERCOT rejects individual bids whose credit exposure exceeds the Counter-Party's DAM credit limit. [e28] For a PTP Obligation bid with a price above zero, exposure is quantity times bid price plus the u-th percentile of the hourly positive source-minus-sink real-time price difference over the previous 30 days times quantity; for a bid price at or below zero, only the percentile term applies. [e25][e26] Expiring CRRs can reduce exposure, 0.1 MW of expiring CRR for 0.1 MW of PTP bid. [e27]
 
@@ -280,7 +312,7 @@ A PTP Obligation is a day-ahead position between two points: you pay the day-ahe
 
 ## Common confusion
 
-A PTP Obligation can lose money: it can produce a charge as well as a payment, whereas a PTP Option does not allow negative revenue. [e1][e35][e36] Do not confuse it with a virtual: a PTP is a two-location spread, while energy-only offers and energy bids are separate DAM instruments that may not be combined to create the net effect of one PTP between electrically similar Settlement Points. [e2][e6] A PTP Obligation with Links to an Option is modeled as an obligation but settles like an option. [e12][e13] A PTP Obligation bought in the DAM is not the same as a CRR bought in an auction, though a CRR owner can use CRR proceeds to buy a PTP on the same path. [e47]
+A PTP Obligation can lose money: it can produce a charge as well as a payment, whereas a PTP Option does not allow negative revenue. [e1][e35][e36] Do not confuse it with a virtual: a PTP is a two-location spread, while energy-only offers and energy bids are separate DAM instruments that may not be combined to create the net effect of one PTP between electrically similar Settlement Points. [e2][e6] A PTP Obligation with Links to an Option is modeled as an obligation but settles like an option. [e12][e13] The Protocol definition treats a PTP Obligation as a type of CRR [e1]; the IMM adds that a CRR owner can use its CRR proceeds from the DAM to buy a PTP obligation between the same two points to transfer its hedge to real time. [e47]
 
 ## Questions
 
@@ -298,7 +330,7 @@ The IMM says higher bid volumes make day-ahead clearing prices reflect real-time
 
 ### What if ERCOT cannot run the DAM?
 
-PTP Obligation owners are paid or charged based on the real-time sink-minus-source price difference, so the day-ahead leg drops out. [e34]
+Section 7.9.2.1(3) says ERCOT pays or charges the owner of each PTP Obligation based on the real-time sink-minus-source Settlement Point Price difference. [e34]
 
 ### What is the difference between a PTP Obligation and a PTP Option?
 
@@ -310,14 +342,14 @@ It is not awarded if the clearing price exceeds its bid price plus $0.01/MW per 
 
 ### How do credit limits affect PTP bidding?
 
-Each PTP bid adds credit exposure that must fit within the Counter-Party's DAM credit limit, otherwise ERCOT rejects it. The exposure rises with bid price and with the 30-day historical positive source-minus-sink real-time spread, and expiring CRRs on the same path reduce it. [e25][e26][e27][e28]
+Each PTP bid adds credit exposure that must fit within the Counter-Party's DAM credit limit, otherwise ERCOT rejects it. The exposure rises with bid price and with the 30-day historical positive source-minus-sink real-time spread, and expiring CRRs at the same source and sink pair and hour reduce it. [e25][e26][e27][e56][e28]
 
 ## Scenarios
 
 ### A load-serving QSE with a CRR from a Resource Node to a Load Zone wants the hedge to cover real time
 
 - The IMM says a CRR owner can use its CRR proceeds from the DAM to buy a PTP between the same two points, carrying the hedge into real time. [e47]
-- The bid can be offset against expiring CRRs for credit, up to the CRR quantity on the same source and sink and hour. [e27]
+- The bid can be offset against expiring CRRs for credit, at the same source and sink pair and hour. [e27][e56]
 
 ### A NOIE wants a PTP Obligation to settle like its PTP Option
 

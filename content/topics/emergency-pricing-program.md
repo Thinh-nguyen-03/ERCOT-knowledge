@@ -201,7 +201,18 @@ evidence:
     source: puct-59550-ercot-comments
     locator: "ERCOT comments (filed 2026-09-17), Part I.D (a party filing)"
     quote: "For that reason, ERCOT recommends that those EPP requirements be maintained as is and reconsidered during the next quinquennial review under 16 TAC § 25.509(d)."
-
+  - id: e42
+    source: puct-59550-ercot-comments
+    locator: "ERCOT comments (filed 2026-09-17), Part I.D, Question 2 (a party filing)"
+    quote: "In December 2023 in Project No. 54585, the Commission adopted regulations governing the EPP in 16 TAC § 25.509(c), which became effective immediately."
+  - id: e43
+    source: puct-59550-ercot-comments
+    locator: "ERCOT comments (filed 2026-09-17), opening paragraph (a party filing)"
+    quote: "The deadline to file comments is September 17,2026, therefore these comments are timely filed."
+  - id: e44
+    source: puct-59550-ercot-comments
+    locator: "ERCOT comments (filed 2026-09-17), opening section (a party filing)"
+    quote: "This proceeding initiates the first such review and subsequent reviews are to be performed quinquennially (i.e., every five years) hereafter."
 ---
 
 ## Definition
@@ -228,15 +239,15 @@ Cap values: the np-04 parameter table lists ECAP $2,000/MWh, HCAP for the day-ah
 
 The PUCT will review each system-wide offer cap program starting January 1, 2026, and every five years after; PURA also requires a review at least once every five years. [e11][e24]
 
-Party filing (not a rule or a finding): in comments filed September 17, 2026 in PUCT Project 59550 (the first quinquennial review of the system-wide offer cap programs), ERCOT described the EPP as a circuit breaker so that prices do not remain at the HCAP for an extended period, [e37] and said that, because the trigger is set by statute in PURA 39.160(b), changing the trigger would require new legislation. [e40] ERCOT recommended maintaining the other EPP requirements as is and reconsidering them in the next quinquennial review. [e41] The filing quotes the Commission Staff question as saying that since its adoption in December 2023 ERCOT has never activated the EPP. [e39]
+Party filing (not a rule or a finding): in comments filed September 17, 2026 [e43] in PUCT Project 59550 (the first quinquennial review of the system-wide offer cap programs [e44]), ERCOT described the EPP as a circuit breaker so that prices do not remain at the HCAP for an extended period, [e37] and said that, because the trigger is set by statute in PURA 39.160(b), changing the trigger would require new legislation. [e40] ERCOT recommended maintaining the other EPP requirements as is and reconsidering them in the next quinquennial review. [e41] The filing quotes the Commission Staff question as saying that since its adoption in December 2023 ERCOT has never activated the EPP. [e39]
 
 ## Timeline
 
-- December 2023: the PUCT adopts the EPP rule (16 TAC 25.509(c), Project 54585), per the Staff question and ERCOT comments in the 2026 filing. [e39]
+- December 2023: the PUCT adopts the EPP rule (16 TAC 25.509(c), Project 54585), per ERCOT's comments and the Staff question quoted in the 2026 filing. [e42][e39]
 - September 26, 2024: approval of NPRR1216 and related revision requests. [e38]
 - December 5, 2025: ERCOT implements Phase 1 of NPRR1216, OBDRR051 and VCMRR039 (per ERCOT's 2026 filing). [e38]
 - January 1, 2026: the commission's five-year review of system-wide offer cap programs begins. [e11]
-- September 17, 2026: ERCOT files comments in Project 59550. [e37]
+- September 17, 2026: ERCOT files comments in Project 59550. [e37][e43]
 
 ## Key facts
 

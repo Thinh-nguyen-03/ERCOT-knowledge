@@ -275,7 +275,7 @@ Step 2, check what preparation the rules require. Generators must complete winte
 
 Step 3, watch ERCOT's notices. OCNs can be issued for weather concerns such as anticipated freezing temperatures and ice storms, and with an OCN ERCOT may require QSEs to report Resources' fuel capabilities for a period of up to seven days. [e11][e30] ERCOT issues an Advisory when weather requires more lead time than the normal DAM allows, and may then raise Ancillary Service requirements above the day-ahead quantities. [e31][e32] When ERCOT issues an OCN, Advisory, Watch or Emergency Notice for forecast cold, QSEs must update COPs, telemetry and outage reports for weather, fuel supply and fuel switching limits. [e10] A winter weather Watch also starts FFSS deployment preparation, and a QSE must get ERCOT's approval before deploying FFSS. [e9][e51]
 
-Step 4, know the emergency steps. ERCOT declares EEA Level 1 when PRC falls below 2,500 MW, EEA Level 2 when PRC falls below 2,000 MW, and EEA Level 3 when PRC cannot be maintained above 1,500 MW; Levels 2 and 3 also have frequency triggers. [e12][e28][e29] ERCOT says it has about 2,500 MW of additional capacity available when it enters emergency conditions. [e50] In February 2021 ERCOT had ordered 20,000 MW of manual firm load shed by 7:00 p.m. on February 15 and held it for nearly three days. [e3]
+Step 4, know the emergency steps. ERCOT declares EEA Level 1 when PRC falls below 2,500 MW and EEA Level 2 when PRC falls below 2,000 MW, in each case when PRC is not projected to recover above that level within 30 minutes without the actions prescribed for that level, and EEA Level 3 when PRC cannot be maintained above 1,500 MW; Levels 2 and 3 also have frequency triggers. [e12][e28][e29] ERCOT says it has about 2,500 MW of additional capacity available when it enters emergency conditions. [e50] In February 2021 ERCOT had ordered 20,000 MW of manual firm load shed by 7:00 p.m. on February 15 and held it for nearly three days. [e3]
 
 Step 5, use the recent storms as calibration. During Winter Storm Fern (January 23-27, 2026) ERCOT issued a public Weather Watch on January 21, an Advisory and Watch for extreme cold and possible frozen precipitation from January 24 through noon January 27, issued no EEA and had no systemwide outages. [e26][e13][e15][e41][e14] Gas restrictions still appeared in North Texas, many generators reported pipelines issuing Operational Flow Orders, FFSS kept 340 MW of gas-restricted units running, and about 13.5 GW of wind nameplate was unavailable due to icing. [e18][e35][e19][e23] ERCOT's Fern outage review puts wind and solar losses at about 610,000 MWh across 107 outages, mostly icing, against about 156,000 MWh for dispatchable generation. [e33][e34]
 
@@ -286,14 +286,14 @@ Step 6, treat demand as uncertain both ways. The Fern load forecast peak was 84,
 - February 2021, across the ERCOT, SPP and MISO South event area: 75% of outages, derates and failures to start were from freezing (44.2%) or fuel (31.4%) issues; gas supply issues alone caused 27.3%. [e1][e27][e44]
 - February 2021: 20,000 MW of manual firm load shed ordered by 7:00 p.m. on February 15. [e3]
 - Winter preparation deadline: December 1 each year; winter preparedness declaration due November 1 to December 1. [e5][e46]
-- FFSS obligation period: November 15 to March 15; budget up to $54 million per period; 3,743.4 MW procured for 2026-27 at a projected $52.4 million. [e6][e8][e48]
-- EEA triggers on PRC: Level 1 below 2,500 MW, Level 2 below 2,000 MW, Level 3 when it cannot be kept above 1,500 MW. [e12][e28][e29]
+- FFSS obligation period: November 15 to March 15; budget up to $54 million per period; 3,743.4 MW procured for 2026-27 at a projected $52.4 million. [e6][e8][e48][e54]
+- EEA triggers on PRC: Level 1 below 2,500 MW and Level 2 below 2,000 MW (each when not projected to recover within 30 minutes), Level 3 when it cannot be kept above 1,500 MW. [e12][e28][e29]
 - January 2027 MORA: highest EEA risk at HE 8:00 a.m., with a 3.20% probability of an EEA. [e20]
 - January 2026 (Fern month): ERCOT-wide average day-ahead price $95.47/MWh against real-time $57.43/MWh, per the IMM's monthly table. [e39]
 
 ## Timeline
 
-- February 15-18, 2021 (Uri): 20,000 MW of firm load shed ordered by 7:00 p.m. on February 15 and held for nearly three days. [e3]
+- February 15, 2021 (Uri): 20,000 MW of firm load shed ordered by 7:00 p.m. on February 15 and held for nearly three days. [e3]
 - December 2022 (Elliott): internal load forecasts too low for December 23-24. [e25]
 - January 21, 2026: public Weather Watch ahead of Fern; January 24-27 Advisory and Watch for extreme cold. [e15][e41]
 - January 23-27, 2026 (Fern): no EEA, no systemwide outages. [e13][e14]
@@ -309,7 +309,7 @@ Step 6, treat demand as uncertain both ways. The Fern load forecast peak was 84,
 
 (Guidance) The risk is not just high demand. In February 2021 the main cause of outages across the ERCOT, SPP and MISO South event area was freezing and fuel problems on the supply side. [e1][e27] Another mistake is treating the load forecast as fixed: the Fern forecast overestimated peak consumption on January 26-27 and Elliott's internal forecasts were too low on December 23-24. [e17][e25]
 
-(Guidance) The ERCOT public "Weather Watch" and the Protocol Watch are different communications in the record: for Fern the public Weather Watch came on January 21, while ERCOT's monthly report lists the Advisory and Watch for extreme cold from January 24. [e15][e41] Check the actual notice text.
+(Guidance) Do not assume a public "Weather Watch" is the same notice as a Protocol Watch: for Fern the post-event report says ERCOT issued a public Weather Watch on January 21, while ERCOT's monthly report lists an Advisory and Watch for extreme cold covering January 24 through noon on January 27. [e15][e41] The saved sources do not say whether these were the same notice; check the actual notice text.
 
 (Guidance) A Watch does not mean an emergency; the Operating Guides say a Watch does not place ERCOT in an Emergency Condition, and firm load shed in 100 MW blocks is an EEA Level 3 step. [e56][e57]
 
@@ -329,19 +329,19 @@ Fern passed with no conservation call, no EEA and no systemwide outages, though 
 
 ### Why is gas the weak link in a cold snap, and what is in place for it?
 
-In 2021 gas supply issues caused 27.3% of all outages, derates and failures to start in the event area, and regional gas production fell by an estimated 21 Bcf/d at the low point. [e44][e45] FFSS pays some units to hold reserved fuel, mostly fuel oil for 2026-27, and critical natural gas facilities must be treated as critical loads in load shed planning. [e7][e55][e42]
+In 2021 gas supply issues caused 27.3% of all outages, derates and failures to start in the event area, and regional gas production fell by an estimated 21 Bcf/d at the low point. [e44][e45] FFSS pays some units to hold reserved fuel, mostly fuel oil for 2026-27, and critical natural gas facilities must be treated as critical loads in load shed planning. [e7][e55][e54][e42]
 
 ### What if the cold is milder than forecast?
 
-Fern is the example: ERCOT's forecast overestimated peak consumption on January 26-27, and January 2026 day-ahead prices averaged $95.47/MWh against $57.43/MWh in real time. [e17][e39] ERCOT attributes the day-ahead premium in January to uncertainty around the winter weather, and the IMM says elevated day-ahead prices on December 5, 2025 and during Fern account for 57-75% of the average day-ahead premium for energy and up-reserve products, excluding RegDown. [e38][e52] (Reasoning) A long day-ahead position bought for the storm can lose money even when the grid is tight, if real-time comes in calmer.
+Fern is the example: ERCOT's forecast overestimated peak consumption on January 26-27, and January 2026 day-ahead prices averaged $95.47/MWh against $57.43/MWh in real time. [e17][e39] ERCOT attributes the day-ahead premium in January to uncertainty around the winter weather, and the IMM says elevated day-ahead prices on December 5, 2025 and during Fern account for 57-75% of the average day-ahead premium for energy and up-reserve products in the early days of RTC, excluding RegDown. [e38][e52] (Reasoning) A long day-ahead position bought for the storm can lose money even when the grid is tight, if real-time comes in calmer.
 
 ### How do you read the MORA EEA probability?
 
 The MORA uses reserve thresholds of 2,500 and 1,500 MW as proxies for the PRC levels that would trigger an EEA and controlled outages on the forecast peak day. [e49] The January 2027 MORA gives a 3.20% probability of an EEA in its riskiest hour, HE 8:00 a.m. [e20]
 
-### What does a cold snap do to RUC and uplift?
+### What does a cold snap do to RUC?
 
-The IMM reports that from December 5, 2025 through February 2026, 42% of all RUC commitments occurred during Winter Storm Fern. [e40] (Reasoning) RUC make-whole costs flow to loads by Load Ratio Share, so a storm shows up in uplift as well as in energy prices.
+The IMM reports that from December 5, 2025 through February 2026, 42% of all RUC commitments occurred during Winter Storm Fern, which it dates January 21 to 27. [e40]
 
 ## Scenarios
 
@@ -350,7 +350,7 @@ The IMM reports that from December 5, 2025 through February 2026, 42% of all RUC
 - (Reasoning) Frame it as supply risk first, demand second, and price third.
 - Gas supply is the first risk: in 2021 gas production, storage and distribution failed to deliver full fuel to gas plants, and gas supply issues caused 27.3% of all outages, derates and failures to start in the event area. [e2][e44]
 - Unit freezing and fuel together caused 75% of 2021 outages, derates and failures to start across the ERCOT, SPP and MISO South event area. [e1][e27]
-- Check readiness: winter preparation was due December 1, and FFSS is procured for the November 15 to March 15 period; 3,743.4 MW is procured for 2026-27. [e5][e6][e48]
+- Check readiness: winter preparation was due December 1, and FFSS is procured for the November 15 to March 15 period; 3,743.4 MW is procured for 2026-27. [e5][e6][e48][e54]
 - Watch ERCOT's notices (OCN, Advisory, Watch and Emergency Notice); a winter weather Watch triggers FFSS preparation, cold-weather notices require COP updates for fuel limits, and an Advisory can raise Ancillary Service requirements. [e9][e10][e32]
 - Watch reserves against the EEA triggers: 2,500 MW of PRC for Level 1, 2,000 MW for Level 2 and 1,500 MW for Level 3. [e12][e28][e29]
 - Watch the morning hours: the January 2027 MORA puts the highest EEA risk at HE 8:00 a.m. [e20]

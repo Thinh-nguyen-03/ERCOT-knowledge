@@ -29,13 +29,13 @@ links:
     note: An individual ASDC is determined for Non-Spin by disaggregating the AORDC; see that topic. [e14]
   - to: regulation
     type: contrasts-with
-    note: Regulation must be deliverable in five minutes and is sustained for 30 minutes, while Non-Spin ramps in 30 minutes and is sustained for four hours. [e16][e1]
+    note: Regulation must be deliverable within five minutes, while Non-Spin ramps in 30 minutes and is sustained for four hours. [e16][e1]
   - to: drrs
     type: related
-    note: NPRR1309 creates DRRS and, given DRRS has at least a four-hour duration, cuts the Non-Spin duration requirement from four hours to two. [e20]
+    note: NPRR1309 (PUCT-approved, pending system implementation) addresses DRRS and, given DRRS has at least a four-hour duration, would reduce the Non-Spin duration requirement from four hours to two. [e20]
   - to: prc
     type: related
-    note: The AS Methodology sizes ECRS and Non-Spin against a 1-in-10-year chance of reserves falling below the 3,000 MW Watch threshold. [e26]
+    note: The AS Methodology sizes ECRS and Non-Spin against a 1-in-10-year chance of reserves falling below the sum of procured Reg-Up and RRS or the 3,000 MW Watch threshold, whichever is higher. [e26]
   - to: rtc-b
     type: related
     note: After NPRR1282 took effect, RTC-SCED explicitly enforces the four-hour duration for NSRS, according to the IMM. [e25]
@@ -135,7 +135,7 @@ evidence:
     source: ercot-nprr1309-puct-report
     locator: "Opposing TAC votes, Cooperative/LCRA"
     quote: >-
-      LCRA voted ‘No’ on the TAC motion as the modification of the Non-Spin duration to two-hours is premature without more analysis.
+      LCRA voted ‘No’ on the TAC motion as the modification of the Non-Spin duration to two-hours is premature without more analysis. This decision should not be made until performing a holistic reliability analysis under the annual Ancillary Services Methodology study prior to the implementation of NPRR1309. Given that the statutory requirement for DRRS states that participating capacity should have a duration of “at least four hours”, it is quite possible that a holistic review would suggest that a duration longer than four hours is necessary to support ERCOT’s reliability needs. In that scenario, it is also possible that Non-Spin may need to retain its current four-hour duration. Furthermore, with Non-Spin moving towards a two-hour duration, it is likely that more batteries will receive a greater share of Non-Spin awards.
   - id: e23
     source: ercot-nprr1282-puct-report
     locator: "Justification of Reason for Revision, Non-Spin bullet (NPRR1282)"
@@ -231,6 +231,11 @@ evidence:
     locator: "IMM comments of 24 April 2026, Summary"
     quote: >-
       The IMM no longer supports Nodal Protocol Revision Request (NPRR) 1309 as recommended by PRS. We recommend that the two-hour duration requirement for Energy Storage Resources (ESRs) participating in Non-Spinning Reserve (Non-Spin) be reinstated at the TAC meeting, as amended by these comments, and approved to be forwarded to the Board of Directors.
+  - id: e42
+    source: imm-nprr1309-comments-2026-04
+    locator: "IMM comments of 24 April 2026, Comments (ERCOT's stated plan)"
+    quote: >-
+      In related public discussions, ERCOT has noted multiple times that they would reduce the ESR duration requirement for Non-Spin to two hours when the Dispatchable Reliability Reserve Service (DRRS) product was implemented since DRRS would cover out-hours 3 - 6. This, in our view, was a critical part of NPRR1309.
 ---
 
 ## Definition
@@ -253,11 +258,11 @@ Non-Spin quantity in the AS Plan comes from a probabilistic model. ERCOT's AS Me
 
 The IMM describes Non-Spin as covering intra-hour net load forecast uncertainty that would otherwise cause under-commitment or inefficient dispatch. [e7] ERCOT's staff presentation for the 2027 methodology describes it as reserved capacity responding within 30 minutes to cover multi-hour capacity shortfalls the hourly commitment did not anticipate. [e28]
 
-In 2025 NSRS was the highest-priced AS product throughout the year, which pushed controllable loads toward it, and in May the procurement target was increased by 1,000 MW for hours ending 19-22 on May 20, pushing the NSRS price to average $320 per MWh over those hours. [e9][e8] The IMM's annual day-ahead NSRS price table reads $81.56, $23.24, $15.53, $7.13 and $3.65 per MWh for 2021 through 2025, and 2025 NSRS charges were $81 million (OCR). [e29][e30] The IMM attributes the premium to oversized NSRS volume and the four-hour duration requirement. [e31] ESRs supplied 24% of NSRS in 2025. [e10]
+In 2025 NSRS was the highest-priced AS product throughout the year, which pushed controllable loads toward it, and in May the procurement target was increased by 1,000 MW for hours ending 19-22 on May 20, pushing the NSRS price to average $320 per MWh over those hours. [e9][e8] The IMM's inset table of annual average prices reads $81.56, $23.24, $15.53, $7.13 and $3.65 per MWh for 2021 through 2025, and 2025 NSRS charges were $81 million (OCR). [e29][e30] The IMM attributes the premium to oversized NSRS volume and the four-hour duration requirement. [e31] ESRs supplied 24% of NSRS in 2025. [e10]
 
 Duration is the live issue. In its NPRR1282 analysis, ERCOT concluded Non-Spin duration should remain at least four hours, based on risk-relevant deployments and sustained under-forecast error in six-hour-ahead net load. [e23] The IMM says that after NPRR1282 took effect RTC-SCED explicitly enforces the four-hour duration for NSRS, and that this inflated NSRS prices; in Recommendation 2024-2 it proposes one hour, noting an ESR must hold four times its NSRS obligation (a 10 MW award needs 40 MWh). [e25][e32] The IMM also reports that, from 5 December 2025 through February 2026, NSRS cleared four times higher than ECRS and eight times higher than RRS on average, consistent with their duration ratios. [e33]
 
-NPRR1309 (DRRS) addresses it: it reduces the Non-Spin duration requirements from four hours to two on the stated basis that DRRS has at least a four-hour duration. [e20] The IMM, in February 2026 comments, recommended relaxing Non-Spin to one hour when DRRS is implemented, and in April 2026 comments said it no longer supported the PRS version of NPRR1309, asking that the two-hour requirement for ESRs in Non-Spin be reinstated at TAC. [e24][e41] LCRA voted no at TAC, calling the two-hour change premature without more analysis. [e22] The PUCT approved NPRR1309 on 9 July 2026, with an effective date upon system implementation. [e21] The Protocol text for the two-hour requirement is therefore still pending text and four hours remains the rule in force. [e13]
+NPRR1309 (DRRS) addresses it: it reduces the Non-Spin duration requirements from four hours to two on the stated basis that DRRS has at least a four-hour duration. [e20] The IMM, in February 2026 comments, recommended relaxing Non-Spin to one hour when DRRS is implemented, and in April 2026 comments said it no longer supported the PRS version of NPRR1309, asking that the two-hour requirement for ESRs in Non-Spin be reinstated at TAC. [e24][e41] LCRA voted no at TAC, calling the two-hour change premature without more analysis. [e22] The PUCT approved NPRR1309 on 9 July 2026, with the Protocol change applying upon system implementation. [e21][e13] The Protocol text for the two-hour requirement is therefore still pending text and four hours remains the rule in force. [e13]
 
 On supply, ERCOT's summer 2026 review says Non-Spin procurement above the plan grew from 25 GWh/day in June to roughly 48 GWh/day in July and August, and that day-ahead AS prices trended lower than 2024 and 2025 except for Non-Spin. [e34][e35]
 
@@ -269,7 +274,7 @@ On supply, ERCOT's summer 2026 review says Non-Spin procurement above the plan g
 - 2025: NSRS was the highest-priced AS product; ESRs provided 24%. [e9][e10]
 - Non-controllable load resources cannot hold an active UFR and also provide NSRS, so they choose NSRS or RRS. [e12]
 - NPRR1309, approved by the PUCT on 9 July 2026, would cut the duration to two hours on implementation. [e20][e21]
-- Under the Board-approved methodology process, the Protocols list any minimum capacity required from SCED-dispatchable Resources for Non-Spin; a cap on Non-Spin from DGRs and DESRs on load-shed circuits appears only in pending text (NPRR1128, NPRR1171, NPRR1213). [e39][e38]
+- The Protocols have the ERCOT Board review and recommend approval of ERCOT's methodology for determining any minimum capacity required from SCED-dispatchable Resources to provide Non-Spin; a cap on Non-Spin from DGRs and DESRs on load-shed circuits appears only in pending text (NPRR1128, NPRR1171, NPRR1213). [e39][e38]
 
 ## Say it like this
 
@@ -291,11 +296,11 @@ The IMM says NSRS was the highest-priced AS product throughout 2025 and that the
 
 ### Why does a four-hour duration raise the price?
 
-The IMM argues an ESR must hold four times its NSRS obligation, so selling reserves costs it four times the opportunity cost of one hour; a 10 MW award needs 40 MWh. This is the IMM's view, not a Protocol statement. [e32]
+The IMM argues an ESR must hold four times its NSRS obligation, for example a 10 MW award needs 40 MWh. This is the IMM's view, not a Protocol statement. [e32]
 
 ### Why did ERCOT tie the duration cut to DRRS?
 
-ERCOT's NPRR1309 text says that because DRRS has at least a four-hour duration, Non-Spin duration is reduced to two hours. [e20] The IMM says ERCOT stated it would reduce the ESR duration to two hours when DRRS was implemented, and wanted one hour. [e24][e41]
+ERCOT's NPRR1309 text says that because DRRS has at least a four-hour duration, Non-Spin duration is reduced to two hours. [e20] The IMM says ERCOT has noted multiple times that it would reduce the ESR duration requirement for Non-Spin to two hours when DRRS was implemented, since DRRS would cover out-hours 3 - 6; the IMM itself recommended one hour. [e42][e24]
 
 ### What if the duration were cut and ESRs took more Non-Spin?
 

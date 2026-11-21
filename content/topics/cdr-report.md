@@ -17,7 +17,7 @@ links:
     note: The MORA evaluates resource adequacy for one upcoming month and models emergency risk, while the CDR looks years ahead with a deterministic view. [e11][e2][e6]
   - to: nodal-protocols
     type: related
-    note: Protocol Section 3.2.6 requires the CDR twice a year and gives the Planning Reserve Margin, firm load and total capacity equations. [e1][e13][e15]
+    note: Protocol Section 3.2.6 requires the CDR twice a year and gives the Planning Reserve Margin, firm load and total capacity equations. [e1][e13][e15][e17][e33]
   - to: puct
     type: related
     note: PUCT rule 25.505 requires an annual resource adequacy report covering at least five years. [e3]
@@ -32,10 +32,10 @@ links:
     note: Two of the three alternative scenarios vary how much Texas Energy Fund project capacity is counted and when. [e21]
   - to: energy-storage-resource
     type: related
-    note: Battery storage capacity enters the CDR through an ELCC that depends on duration, and batteries are the largest planned dispatchable addition. [e18][e23]
+    note: Battery storage capacity enters the CDR through an ELCC that depends on duration, and batteries are the largest planned dispatchable addition. [e34][e24]
   - to: reliability-standard
     type: related
-    note: The Protocols base the CDR's ELCC study on the PUCT Reliability Standard. [e16]
+    note: The Protocols base the CDR's ELCC study on the PUCT Reliability Standard. [e35]
   - to: large-flexible-load
     type: related
     note: The CDR treats crypto mining as price-responsive and 85% curtailable in its SB 6 scenarios. [e20]
@@ -177,6 +177,14 @@ evidence:
     locator: "Section 3.2.6.4(2), Total Capacity Estimates, equation"
     quote: >-
       TOTCAP _(h,) _(s, i) = INSTTHERMCAP _(s, i)+ PUNCAP _(p,) _(s, i) + WINDCAP _(p,) _(s, i, wr) + HYDROCAP _(p,) _(s, i) + SOLARCAP _(p,) _(s,) _(i, sr) + ESRCAP _(p, s, i) + RMRCAP _(s,) _(i) + DCTIECAP _(s) + PLANDCTIECAP _(s) + SWITCHCAP _(s, i) + MOTHCAP _(s, i) + PLANTHERMCAP _(s, i) + PLANWINDCAP _(p,) _(s, i, wr) + PLANSOLARCAP _(p,) _(s, i, sr) + PLANESRCAP _(p, s, i) – LTOUTAGE _(s, i) – UNSWITCH _(s, i) – RETCAPNSO _(s, i) – RETCAPUNC _(s, i)
+  - id: e34
+    source: ercot-cdr-2025-12
+    locator: "CDR Report Background tab, ELCC Background, Key Attributes of ELCCs, battery energy storage"
+    quote: "BESS ELCCs are impacted by system duration; the longer the duration, the higher the ELCC"
+  - id: e35
+    source: np-03
+    locator: "Section 3.2.6.2(2), Effective Load Carrying Capability (ELCC) Studies"
+    quote: "The ELCC study shall be based on the Reliability Standard established by the Public Utility Commission of Texas (PUCT)."
 ---
 
 ## Definition
@@ -195,7 +203,7 @@ Section 3.2.6.1 has ERCOT calculate a Planning Reserve Margin for each season of
 
 Firm peak load starts from the firm load forecast (TOTPKLD) and subtracts the Load Resources providing RRS, ECRS and Non-Spin, Emergency Response Service, Distribution Voltage Reduction and Controllable Load Resources not already counted. [e17] In the December 2025 CDR's Seasonal Summary, the summer 2026 peak Load hour starts at 95,419 MW of seasonal load under normal weather and reaches 88,639 MW of firm peak load after the adjustments shown (rooftop PV, the Load Resource and ERS lines, TDSP load management and distribution voltage reduction). [e19]
 
-Total capacity is built from installed thermal capacity, Private Use Network capacity, wind, solar and storage multiplied by their ELCCs, hydro, RMR, DC Tie, switchable and mothballed capacity and planned capacity, less long-term outages and pending or unconfirmed retirements. [e33] A planned thermal unit counts only if it has the air permit, a federal greenhouse gas permit if required, water supply, a signed interconnection agreement (or equivalent public financially binding agreement), the TSP's written notice that notice to proceed has been given, and sufficient financial security. [e18] The same definition excludes capacity whose project status is "Cancelled" or "Inactive" and a previously mothballed or retired Resource without an owner that intends to operate it. [e18]
+Total capacity is built from installed thermal capacity, Private Use Network capacity, wind, solar and storage multiplied by their ELCCs, hydro, RMR, DC Tie, switchable and mothballed capacity and planned capacity, less forced-outage capacity reported in Notifications of Suspension of Operations, unavailable switchable capacity, and capacity pending retirement or in unconfirmed planned retirements. [e33] A planned thermal unit counts only if it has the air permit, a federal greenhouse gas permit if required, water supply, a signed interconnection agreement (or equivalent public financially binding agreement), the TSP's written notice that notice to proceed has been given, and sufficient financial security. [e18] The same definition excludes capacity whose project status is "Cancelled" or "Inactive" and a previously mothballed or retired Resource without an owner that intends to operate it. [e18]
 
 ELCC (Effective Load Carrying Capability) is how wind, solar and storage are counted. The Protocols require an ELCC study every three years or as necessary, with a draft reviewed by the WMS working group and the final posted on the ERCOT website. [e16] The CDR explains that a resource type's ELCC is the perfect capacity that can replace it at the same reliability level divided by the capacity removed, and is always below 100%. [e28] ELCCs decline as more of a resource type is added. [e29] For spring and fall the CDR uses winter-evening and summer-afternoon ELCCs as proxies. [e30]
 
