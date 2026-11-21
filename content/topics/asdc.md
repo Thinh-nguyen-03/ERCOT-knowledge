@@ -301,11 +301,11 @@ Shortages have been rare. Over December 5, 2025 through February 2026, the IMM c
 
 According to the IMM, ERCOT added the $15/MWh floor on AS shortages through NPRR 1269, and ERCOT argues it reduces the likelihood of real-time AS shortages that would prompt RUC commitments. [e14][e20] The IMM calls the resulting reserve policy excessively conservative and says it suppresses price signals. [e19] It recommends dropping the rule that the ASDCs must add up to the AORDC and instead building each curve from the reliability value of its own product. [e15] It also argues the VOLL behind the ASDCs is well below what a 1-in-10 standard implies and recommends $35,000 to $40,000 per MWh for the lower segments that price shallow shortages. [e51]
 
-ERCOT's own position moved in 2026. ERCOT staff told the Board in September 2026 that some RUCs could be avoided through stronger ASDCs that encourage self-commitment. [e54] In its September 17, 2026 comments in the offer-cap review (Project 59550), ERCOT says the ASDCs were designed to replicate ORDC pricing outcomes under a prior Commission directive, and that on August 20, 2026 the Commission agreed with Staff that the ASDC design no longer has to follow that directive. [e44][e45] The IMM reports that ERCOT lists "ASDC Review" as its top RTC issue for 2026. [e55]
+ERCOT's 2026 statements point toward a redesign. ERCOT staff told the Board in September 2026 that some RUCs could be avoided through stronger ASDCs that encourage self-commitment. [e54] In its September 17, 2026 comments in the offer-cap review (Project 59550), ERCOT says the ASDCs were designed to replicate ORDC pricing outcomes under a prior Commission directive, and that on August 20, 2026 the Commission agreed with Staff that the ASDC design no longer has to follow that directive. [e44][e45] The IMM reports that ERCOT lists "ASDC Review" as its top RTC issue for 2026. [e55]
 
 ## Timeline
 
-- December 8, 2020: ERCOT Board approves NPRR1008, which created Section 4.4.12. [e41] That 2020 text built the AORDC from data for June 1, 2014 through December 31, 2023. [e40]
+- December 8, 2020: ERCOT Board approves NPRR1008 (RTC Day-Ahead Operations), whose Section 4.4.12 text set up the AORDC. [e41][e40] That 2020 text built the AORDC from data for June 1, 2014 through December 31, 2023. [e40]
 - April 8, 2025: ERCOT Board recommends NPRR1269 (one opposing vote). [e39] During review, TCPA proposed carrying the $15 floor from RUC into the DAM and RTM, and Joint Consumers proposed $0 instead, for monitoring through 2026. [e37][e38]
 - May 15, 2025: PUCT approves NPRR1269. [e36]
 - December 5, 2025: ASDCs go live with RTC+B (per ERCOT's 2026 comments). [e44]
