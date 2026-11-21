@@ -93,23 +93,23 @@ evidence:
     quote: "SFP4        Minimum Shift Factor threshold below which a Resource will not have mitigation applied in SCED Step 2                                                        2%"
   - id: e13
     source: np-07
-    locator: "Section 7.9.3 (CRR settlement variables), DAWASF definition"
+    locator: "Section 7.9.1.1, Payments and Charges for PTP Obligations Settled in DAM, variable definitions"
     quote: "DAWASF _(j, c)          none            Day-Ahead Weighted Average Shift Factor at source per constraint—The Day-Ahead Shift Factor for the source Settlement Point and the directional network element for constraint c, in the hour."
   - id: e14
     source: np-04
     locator: "Section 4.6.1.2, Day-Ahead Settlement Point Prices for Load Zones, variable definitions"
-    quote: "DALZSF _(c)      none    Day-Ahead Shift factor of the Load Zone The DAM aggregated Shift Factor of a Load Zone for the constraint c for the hour."
+    quote: "The DAM aggregated Shift Factor of a Load Zone for the constraint c for the hour."
   - id: e15
     source: np-04
     locator: "Section 4.6.1.2, variable definitions"
-    quote: "DASF _(pb, ,c)   none    Day-Ahead Shift factor of the power flow busThe DAM Shift Factor of a power flow bus pb that is a component of the Load Zone for the constraint c for the hour."
+    quote: "The DAM Shift Factor of a power flow bus pb that is a component of the Load Zone for the constraint c for the hour."
   - id: e16
     source: np-04
     locator: "Section 4.6.1.2, variable definitions"
-    quote: "DADF _(pb, c)    none    Day-Ahead Distribution factor per power flow bus for a constraintThe Load distribution factor for power flow bus pb in the Load Zone for the constraint c for the hour."
+    quote: "The Load distribution factor for power flow bus pb in the Load Zone for the constraint c for the hour."
   - id: e17
     source: np-04
-    locator: "Section 4.5, paragraph (7) (current text)"
+    locator: "Section 4.5.2, Communicating DAM Results, paragraph (7) (current text)"
     quote: "(7) As soon as practicable, but no later than 1330, ERCOT shall make available the Day-Ahead Shift Factors for binding constraints in the DAM and post to the Market Information System (MIS) Secure Area."
   - id: e18
     source: np-22p-2025-12
@@ -120,6 +120,30 @@ evidence:
     locator: "Section 3.3, Shift Factor Cutoff"
     quote: "The Shift Factor cutoff will cause mismatch between optimized line power flow and actual line power flow that will happen when dispatch Base Points are deployed. This mismatch can degrade the efficiency of congestion management."
 
+  - id: e20
+    source: np-07
+    locator: "Section 7.9.1.1, Payments and Charges for PTP Obligations Settled in DAM, variable definitions"
+    quote: "DRF _(c)                none            Deration Factor per constraint—The deration factor of the constraint c for the hour, equal to the MW amount by which the constraint is oversold divided by the total MW amount of the positive impacts on the constraint of all CRRs existing prior to DAM execution."
+  - id: e21
+    source: np-03
+    locator: "Section 3.19.4, paragraph (7)(b)"
+    quote: "(b) The DME for the Resource is either identified as a pivotal player for the constraint as described in paragraph (4) above or has a percentage of ECI Effective Capacity on the import side for the constraint greater than DMEECP; and"
+  - id: e22
+    source: np-22p-2025-12
+    locator: "Section 3.1, Congestion LMP Component"
+    quote: "$LMP_{EB} = \\lambda - \\sum_{line}^{}{SF_{EB}^{line} \\cdot SP_{\\ }^{line}}$"
+  - id: e23
+    source: np-22p-2025-12
+    locator: "Section 3.1, Congestion LMP Component"
+    quote: "The congestion component of LMP represents a price incentive to generation units connected at that Electrical Bus to increase or decrease power output to manage network congestion."
+  - id: e24
+    source: np-04
+    locator: "Section 4.6.1.2, Day-Ahead Settlement Point Prices for Load Zones, paragraph (1)"
+    quote: "DALZSF _(c) = $\\begin{array}{r} \\Sigma \\\\ pb \\end{array}$ (DADF _(pb, c) * DASF _(pb, c))"
+  - id: e25
+    source: np-04
+    locator: "Section 4.6.1.2, Day-Ahead Settlement Point Prices for Load Zones, paragraph (1)"
+    quote: "DASPP = DASL - $\\begin{array}{r} \\Sigma \\\\ c \\end{array}$(DALZSF _(c) * DASP _(c))"
 ---
 
 ## Definition
@@ -128,28 +152,45 @@ A shift factor measures the flow on a particular Transmission Element caused by 
 
 ## How it works
 
-Shift factors apply to each constraint at the bus level. Load Zone prices for DAM and CRR Settlement purposes are built from those bus-level values: ERCOT calculates a Load Zone Settlement Point Price from the Load-weighted aggregated shift factors of the zone's power flow buses for each constraint, with the Load distribution factors supplying the weights. [e2] The North 345 kV Hub Price likewise uses the aggregated shift factors of the Hub Buses for each hour of the DAM. [e4]
+Shift factors apply to each constraint at the bus level. In the LMP calculation they are the weights on the constraint shadow prices: the LMP at an Electrical Bus is System Lambda minus, for each constraint, the bus's shift factor multiplied by that constraint's shadow price. [e8] Shadow prices on congested lines are positive and otherwise zero, and buses on one side of a line have negative shift factors while buses on the other side have positive ones. [e9] The sign of the shift factor therefore decides whether congestion on a line lowers or raises the price at a bus. (The formula is in the Formula section.)
 
-ERCOT posts the inputs. Every hour it posts the binding transmission constraints with the contingency and overloaded element pairs behind them, and the shift factors by Resource Node, Hub, Load Zone and DC Tie. [e3]
+Zone and hub prices are built from the bus-level values. In the Day-Ahead Market, ERCOT computes a Load Zone's aggregated shift factor for a constraint from the shift factors of the zone's power flow buses [e15], weighted by Load distribution factors [e16], and the Load Zone's shift factor is used in the Settlement Point Price. [e14] For DAM and CRR Settlement purposes the Load-weighting must be determined using the Load distribution factors. [e2] The North 345 kV Hub Price likewise uses the aggregated shift factors of the Hub Buses for each hour of the DAM. [e4]
+
+ERCOT posts the inputs. Every hour it posts the binding transmission constraints with the contingency and overloaded element pairs behind them, and the shift factors by Resource Node, Hub, Load Zone and DC Tie. [e3] For the DAM, ERCOT makes the Day-Ahead Shift Factors for binding constraints available as soon as practicable, but no later than 1330; the current text posts them to the MIS Secure Area. [e17]
+
+## Formula
+
+The LMP at Electrical Bus EB is System Lambda minus the sum, over transmission lines, of the bus's shift factor for the line times the line's shadow price. The methodology writes it as LMP = lambda minus the sum of SF times SP [e22]; in the words of its variable list: LMP is the LMP at Electrical Bus EB, lambda is System Lambda (the shadow price of power balance), SF is the shift factor for the bus and line, and SP is the shadow price for the line. [e8] The shift-factor-weighted term is the congestion component of the bus LMP; the methodology says it is a price incentive to generation at that bus to increase or decrease output to manage congestion. [e22][e23]
+
+For a Day-Ahead Load Zone, the DASPP is the Day-Ahead System Lambda minus the sum over constraints of the Load Zone's aggregated shift factor times the constraint's DAM shadow price; the zone's aggregated shift factor is the sum over its power flow buses of the Load distribution factor times the bus shift factor. [e14][e15][e16][e24][e25]
+
+In CRR settlement, the deration price for a PTP Obligation uses the larger of zero and the difference between the Day-Ahead Weighted Average Shift Factors at the source and at the sink, multiplied by the constraint shadow price and the deration factor. [e13][e20]
 
 ## ERCOT context
 
 Shift factors also enter the competitiveness screen for constraints. A constraint can only be classed as competitive in the SCED test if, among other conditions, buses with available Resource capacity have negative shift factors whose absolute value is at least the SFP3 threshold, which is set at 2%. [e5][e6] Those are the current text's terms; a pending revision (NPRR1182) would rewrite it to cover shift factors that can help resolve the constraint by raising injection or cutting withdrawal. [e7]
 
+The same threshold idea limits mitigation. Mitigation in SCED Step 2 is applied only when the constraint is non-competitive (by the SCED test or the IMM), the Resource's DME is a pivotal player or holds enough import-side ECI Effective Capacity, and the Resource's shift factor on the import side exceeds SFP4 in absolute value. [e11][e21] SFP4 is 2%, the "minimum Shift Factor threshold below which a Resource will not have mitigation applied". [e12]
+
+Shift factors also tell you why shadow prices get large. The shadow-price-cap methodology says units with small shift factors are less effective at resolving a constraint, so if no efficient units exist the shadow price must rise to draw enough output from inefficient ones, and high shadow prices therefore indicate inefficient congestion management. [e18] It also describes a separate shift factor cutoff: shift factors below the cutoff are ignored in the optimization, the default is 0.0001, it is applied in the EMS to cut data volume and filter numerical error, and it creates a mismatch between optimized and actual line flows that can degrade congestion management. [e10][e19]
+
 ## Key facts
 
 - A shift factor is defined per Transmission Element, from a bus to a fixed reference bus. [e1]
+- Bus LMP = System Lambda minus the sum of (shift factor x shadow price) over constraints. [e8]
 - For DAM and CRR Settlement purposes, Load Zone prices use Load-weighted aggregated shift factors for each constraint. [e2]
 - ERCOT posts shift factors hourly by Resource Node, Hub, Load Zone and DC Tie. [e3]
-- The minimum shift factor threshold for the SCED competitiveness test is 2%. [e5]
+- Day-Ahead Shift Factors for binding constraints are due no later than 1330 (current text: MIS Secure Area). [e17]
+- SFP3 (competitive-constraint eligibility) and SFP4 (mitigation applicability) are both 2%. [e5][e12]
+- The EMS shift factor cutoff default is 0.0001, per the December 5, 2025 version of the shadow-price-cap methodology (Attachment P). [e10]
 
 ## Say it like this
 
-A shift factor tells you how many MW of a given line's flow one more MW at a bus would cause. It is the sensitivity that links a binding constraint to the price at each location.
+(Guidance) A shift factor tells you how many MW of a given line's flow one more MW at a bus would cause. Multiply it by the constraint's shadow price and you get the congestion piece of the LMP at that bus, which is why the same binding line can push one side of the system up and the other side down.
 
 ## Common confusion
 
-A shift factor is not a price and not a limit; it is a sensitivity measured to a fixed reference bus. [e1] It also is not the same as a Load distribution factor, which supplies weights for aggregating bus-level values into a zone. [e2]
+A shift factor is not a price and not a limit; it is a sensitivity measured to a fixed reference bus. [e1] It also is not the same as a Load distribution factor, which supplies weights for aggregating bus-level values into a zone. [e2][e16] The EMS shift factor cutoff (0.0001 default) is a different thing from the SFP3 and SFP4 competitiveness and mitigation thresholds (2%); the methodology itself says its cutoff is unrelated to its efficiency threshold. [e10][e5][e12]
 
 ## Questions
 
@@ -159,15 +200,27 @@ By the definition, a unit injection at that bus, taken from the fixed reference 
 
 ### How does ERCOT get a Load Zone price from shift factors?
 
-It aggregates the shift factors of the zone's energized power flow buses for each constraint, weighting by Load distribution factors. [e2]
+It aggregates the shift factors of the zone's power flow buses for each constraint, weighting by Load distribution factors, and uses the result with the shadow prices in the zone price formula. [e2][e14][e15][e16]
+
+### Why can one binding constraint raise prices on one side and lower them on the other?
+
+Shadow prices on congested lines are positive, but shift factors are negative on one side of the line and positive on the other. Since bus LMP subtracts shift factor times shadow price from System Lambda, a negative shift factor adds to the price and a positive one subtracts. [e8][e9]
+
+### Why does ERCOT ignore Resources with small shift factors in mitigation?
+
+Mitigation in SCED Step 2 requires a Resource shift factor on the import side above SFP4, which is 2%; below that the Resource is not mitigated. Small shift factors also mean a Resource is not very effective at resolving the constraint. [e11][e12][e18]
+
+### What if no Resource has a large enough shift factor to relieve a constraint?
+
+The methodology says the shadow price must then rise to get enough contribution from inefficient units, which is why it sets caps on shadow prices. [e18]
 
 ### Where do analysts find shift factors?
 
-ERCOT posts them hourly, by Resource Node, Hub, Load Zone and DC Tie, on the MIS Secure Area. [e3]
+ERCOT posts them hourly, by Resource Node, Hub, Load Zone and DC Tie, on the MIS Secure Area; Day-Ahead values follow the DAM by 1330. [e3][e17]
 
 ## Open items
 
 - Only the North 345 kV Hub's shift-factor pricing was quoted; other hubs were not read.
-- Deeper pass: the full LMP decomposition (energy, congestion, loss) and how shift factors times shadow prices make up the congestion component; np-06 6.5.7.3 and np-04 DAM clearing were not read for this.
-- Deeper pass: sign convention for import-side versus export-side shift factors in the competitiveness tests.
-- Hourly posting is on the MIS Secure Area per np-06; whether any public posting exists was not confirmed (a table row in np-06 shows a pending move to the ERCOT website).
+- Sign convention for import-side versus export-side in the competitiveness tests: the current text pairs "negative Shift Factors" with buses that have Available Capacity on the import side, but no saved source states in one sentence which side of the reference bus is "import". Not resolved.
+- The first-pass question on public posting is partly answered: np-04 4.5.2(7) and np-06 show a pending (NPRR1239) change from the MIS Secure Area to the ERCOT website; whether it has been implemented was not confirmed.
+- The methodology (np-22p-2025-12) leaves its own efficiency-threshold and maximum-congestion-component defaults as placeholders ("x%", "$y/MWh") in Section 3.4; the PUCT-approved cap values are not cited here.

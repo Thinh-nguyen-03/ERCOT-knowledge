@@ -6,7 +6,8 @@ kind: scenario
 domain: cases
 level: 2
 lenses: [retail, analyst, portfolio]
-as_of: 2026-11-18
+as_of: 2026-11-21
+depth: deep
 links:
   - to: uplift
     type: example-of
@@ -32,6 +33,12 @@ links:
   - to: securitization
     type: related
     note: The Securitization Uplift Charge is a separate charge to a QSE representing an obligated LSE, used to pay the Securitization Uplift Balance and financing expenses. [e20]
+  - to: congestion
+    type: causes
+    note: Congestion drove about 77% of 2025 RUC commitments, and the IMM says almost all 2021 RENA uplift occurred in hours with transmission congestion. [e11][e47]
+  - to: crr
+    type: related
+    note: The IMM's 2025 annual table shows CRR Auction Distribution as a credit of $1,810 million to load, alongside the uplift lines. [e32]
 evidence:
   - id: e1
     source: imm-som-2024
@@ -121,6 +128,110 @@ evidence:
     source: imm-som-2025
     locator: "Appendix, Table A4: ERCOT 2025 Year at a Glance, page 169 (OCR), header"
     quote: "Annual Total ($ Millions)"
+  - id: e23
+    source: np-05
+    locator: "Section 5.7.4.1, RUC Capacity-Short Charge, paragraph (1)"
+    quote: "The dollar amount charged to each QSE, due to capacity shortfalls for a particular RUC, for a 15-minute Settlement Interval, is the QSE’s shortfall ratio share multiplied by the total RUC Make-Whole Payments, including amounts for RMR Units, to all QSEs for that RUC, subject to a cap."
+  - id: e24
+    source: np-05
+    locator: "Section 5.7.4.1, RUC Capacity-Short Charge, paragraph (1), cap"
+    quote: "The cap on the charge to each QSE is two multiplied by the total RUC Make-Whole Payments, including amounts for RMR Units, for all QSEs multiplied by that QSE’s capacity shortfall for that RUC process divided by the total capacity of all RUC-committed Resources during that Settlement Interval for the RUC process."
+  - id: e25
+    source: np-06
+    locator: "Section 6.6.2.2, QSE Load Ratio Share for a 15-Minute Settlement Interval, paragraph (1)"
+    quote: "LRS _(q) = (max(0,[]RTAML _(q, p))) / RTAMLTOT The above variables are defined as follows:"
+  - id: e26
+    source: np-06
+    locator: "Section 6.6.6.5, RMR Service Charge, paragraph (1)"
+    quote: "(1) The total RMR cost for all RMR Units is allocated to the QSEs representing Loads based on LRS."
+  - id: e27
+    source: np-06
+    locator: "Section 6.6.10, Real-Time Revenue Neutrality Allocation, paragraph (1)"
+    quote: "ERCOT must be revenue-neutral in each Settlement Interval. Each QSE receives an allocated share, on a LRS basis, of the net amount of:"
+  - id: e28
+    source: np-06
+    locator: "Section 6.7.3, Real-Time Ancillary Service Revenue Neutrality Allocation, paragraph (1)"
+    quote: "The total cost for Real-Time Ancillary Service payments and charges is allocated to the QSEs representing Load based on Load Ratio Share (LRS)."
+  - id: e29
+    source: np-09
+    locator: "Section 9.19.1, Default Uplift Invoices, paragraph (1)"
+    quote: "ERCOT shall collect the total short-pay amount for all Settlement Invoices for a month, less the total payments expected from a payment plan, from Qualified Scheduling Entities (QSEs) and CRR Account Holders."
+  - id: e30
+    source: np-09
+    locator: "Section 9.19.1, paragraph (2) formula"
+    quote: "DURSCP_(cp =) TSPA * MMARS_(cp) Where: MMARS _(cp) = MMA _(cp) / MMATOT"
+  - id: e31
+    source: imm-som-2025
+    locator: "page 169 (OCR), Table A4: ERCOT 2025 Year at a Glance (Annual), $ millions"
+    quote: "Revenue Neutrality Uplift $154 AS Imbalance Uplift $27 ERCOT Fee $308 ERO Passthrough Fee $30 Firm Fuel $46"
+  - id: e32
+    source: imm-som-2025
+    locator: "page 169 (OCR), Table A4: ERCOT 2025 Year at a Glance (Annual), $ millions"
+    quote: "CRR Auction Distribution ($1,810) Balancing Account Surplus ($293)"
+  - id: e33
+    source: imm-som-2024
+    locator: "page 96 (OCR), RENA evaluation"
+    quote: "RENA uplift grew to total $160 million in 2024, up from $109 million in 2023."
+  - id: e34
+    source: imm-som-2024
+    locator: "page 96 (OCR), RENA evaluation"
+    quote: "Figure 46 shows that the largest positive contributor to RENA uplift in 2024 was the LDF Contribution totaling $75 million. Uplift associated with differences in the transmission models between the day-ahead and real-time markets was also one of the largest factors, accounting for $55 million in RENA uplift."
+  - id: e35
+    source: imm-som-2024
+    locator: "page 96 (OCR), RENA evaluation"
+    quote: "NPRR 1004, Load Distribution Factor Process Update, approved on August 11, 2020, is still pending implementation, but should reduce this uplift."
+  - id: e36
+    source: imm-som-2021
+    locator: "page 41 (OCR), Review of Real-Time Market Outcomes, all-in price"
+    quote: "Uplift costs accounted for $5.34 per MWh of the all-in electricity price in 2021, up from $0.94 per MWh in 2020. The total amount of uplifted costs in 2021 was approximately $2.1 billion, vastly higher than the $359 million in 2020. The largest driver of this massive uplift value is the ancillary service imbalance settlement."
+  - id: e37
+    source: ercot-summer-2026-review
+    locator: "Summer 2026 review, RUC slide"
+    quote: "There were 1,313 total Reliability Unit Commitment (RUC) effective Resource-hours in summer 2026. This was higher than the 872 effective Resource-hours in the summer of 2025 and the 148 effective Resource-hours in the summer of 2024."
+  - id: e38
+    source: ercot-summer-2026-review
+    locator: "Summer 2026 review, RUC slide, key takeaway"
+    quote: "RUC activity in summer 2026 was substantially higher than the previous two summers and was largely attributed to addressing capacity needs, particularly to ensure sufficient Ancillary Service quantities."
+  - id: e39
+    source: ercot-monthly-ops-2026-10
+    locator: "ERCOT monthly operations report, October 2026, RUC slide"
+    quote: "There were 165.6 RUC total effective Resource-hours in October. 164.7 hours (99.4%) were committed to address capacity concerns and 0.9 (0.6%) were committed to alleviate congestion."
+  - id: e40
+    source: imm-som-2025
+    locator: "page 101 (OCR), Market Operations chapter"
+    quote: "Suppliers may opt out of both the make-whole payment and any associated clawback, effectively self-committing the unit and accepting full exposure to market outcomes."
+  - id: e41
+    source: imm-som-2025
+    locator: "page 102 (OCR), Market Operations chapter, 5. RUC Settlement"
+    quote: "In 2024, the rate of RUC-committed resources that opted out of RUC settlement dropped significantly below its long-term trend, largely because of the implementation of NPRR 1172. This rule imposed a full rather than partial claw-back for resources that opted out of RUC settlement."
+  - id: e42
+    source: np-09
+    locator: "Section 9.5.8, RTM True-Up Statement, paragraph (2)"
+    quote: "ERCOT shall issue RTM True-Up Statements 180 days following the Operating Day, if ERCOT has received and validated usage data from at least 99% of the total number of Electric Service Identifiers (ESI IDs) with a BUSIDRRQ Load Profile Type code"
+  - id: e43
+    source: ercot-nprr1309-puct-report
+    locator: "NPRR1309 PUCT Report, cover table, Revision Description, item 9"
+    quote: "9. DRRS deployments will not qualify for RUC Make-Whole Payments or RUC Clawback Charges. For RUC blocks that are contiguous with a DRRS deployment, only minimum energy costs for the RUC hours will be included in the RUC Guarantee;"
+  - id: e44
+    source: np-27
+    locator: "Section 27.3, Securitization Uplift Charge, paragraph (4)"
+    quote: "An LSE may not pass through the Securitization Uplift Charge to any transmission-voltage Customer that is a Securitization Uplift Charge Opt-Out Entity."
+  - id: e45
+    source: imm-som-2025
+    locator: "page 102 (OCR), Market Operations chapter, Table 9 (columns: opt-out frequency %, claw-back $ millions, make-whole $ millions)"
+    quote: "2021 39 $3.09 $5.38 2022 24 $22.69 $70.13 2023 23 $3.45 $3.69 2024 8 $7.14 $3.35 2025 3 $4.53 $21.84"
+  - id: e46
+    source: np-09
+    locator: "Section 9.19.1, Default Uplift Invoices, paragraph (2)"
+    quote: "Each Counter-Party’s share of the uplift is calculated using the best available Settlement data for each Operating Day in the month prior to the month in which the default occurred (the “reference month”), and is calculated as follows:"
+  - id: e47
+    source: imm-som-2021
+    locator: "page 47 (OCR), Evaluation of the Revenue Neutrality Allocation Uplift"
+    quote: "Almost all the RENA uplift occurred in market hours when there was transmission congestion."
+  - id: e48
+    source: np-05
+    locator: "Section 5.7.6, RUC Decommitment Charge, paragraph (1)"
+    quote: "(1) ERCOT shall charge each QSE a RUC Decommitment Charge, on an LRS basis, all revenues paid as a result of RUC Decommitment Payments, including amounts for RMR Units."
 ---
 
 ## Definition

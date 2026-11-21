@@ -71,9 +71,7 @@ evidence:
   - id: e8
     source: puct-25-174
     locator: "16 TAC 25.174(e)(4), Certificates of convenience and necessity"
-    quote: "For each new CREZ the commission's order specifies the geographic extent, the major transmission improvements (new and upgraded lines by voltage level and a general description of where new lines interconnect), and an estimate of the maximum generating capacity the transmission is expected to accommodate. [e6][e12] Each selected TSP had to file all required CREZ CCN applications not later than three years after the final order designating a CREZ, unless the commission granted an extension for good cause. [e13]
-
-Financial commitment for a CREZ is sufficient under PURA §39.904(g)(3) to grant CCNs for transmission facilities for the CREZ if the sum of the renewable generating capacity under any combination of paragraph (3)(A), (B), (C), and (D) of this subsection is at least 50% of the designated generating capacity for the CREZ."
+    quote: "Financial commitment for a CREZ is sufficient under PURA §39.904(g)(3) to grant CCNs for transmission facilities for the CREZ if the sum of the renewable generating capacity under any combination of paragraph (3)(A), (B), (C), and (D) of this subsection is at least 50% of the designated generating capacity for the CREZ."
   - id: e9
     source: puct-25-174
     locator: "16 TAC 25.174(e)(4)"
@@ -129,6 +127,8 @@ Competitive Renewable Energy Zones (CREZ) were zones for which, according to a U
 The mechanism began legislatively: SB 408 designated the framework and authorized the PUCT to direct ERCOT to plan the transmission. [e3] It came alongside an increase in the renewable portfolio standard (RPS) to 5,880 MW of renewable capacity. [e1]
 
 Under the PUCT rule, zones are designated through contested-case proceedings that commission staff initiate. [e4] ERCOT had to give the commission a study of statewide wind production potential and the transmission constraints most likely to limit deliverability. [e5] The commission issues a final order within six months of the proceeding's start, unless it finds good cause to extend, and each order specifies the geographic extent of the CREZ. [e6] The commission selects the entity or entities responsible for constructing the transmission improvements and establishes a completion schedule. [e7]
+
+For each new CREZ the commission's order specifies the geographic extent, the major transmission improvements (new and upgraded lines by voltage level and a general description of where new lines interconnect), and an estimate of the maximum generating capacity the transmission is expected to accommodate. [e6][e12] Each selected TSP had to file all required CREZ CCN applications not later than three years after the final order designating a CREZ, unless the commission granted an extension for good cause. [e13]
 
 Financial commitment for a CREZ is sufficient to grant CCNs for its transmission facilities if the sum of renewable generating capacity under any combination of the rule's paragraph (3)(A) to (D) categories is at least 50% of the zone's designated capacity. [e8] The rule fixes 50% at 1,595.5 MW for Panhandle A and 1,196.5 MW for Panhandle B. [e9] For the McCamey, Central and Central West CREZs approved in Docket Number 33672, the rule treats installed generation, generation under construction and planned projects with signed interconnection agreements as satisfying the financial commitment test. [e14] A renewable generator that elects to post collateral under paragraph (3)(D) must post $15,350 per MW of planned project capacity, or $10,000 per MW where the capacity is supported by leasing agreements of at least 20 years. [e10]
 

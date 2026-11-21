@@ -6,7 +6,8 @@ kind: metric
 domain: pricing
 level: 2
 lenses: [analyst, trading, congestion]
-as_of: 2026-11-18
+as_of: 2026-11-21
+depth: deep
 links:
   - to: lmp
     type: part-of
@@ -26,6 +27,21 @@ links:
   - to: congestion
     type: related
     note: For ESRs acting as generators, the IMM counts base points awarded at an LMP above the system lambda as a sign that injections at that location help manage congestion. [e9]
+  - to: shift-factor
+    type: used-in
+    note: Electrical Bus LMP is System Lambda minus the sum over lines of Shift Factor times line Shadow Price. [e12]
+  - to: rtc-b
+    type: related
+    note: The power balance penalty methodology was replaced upon RTC implementation; the December 2025 edition states the current single-value penalty. [e17][e20]
+  - to: emergency-pricing-program
+    type: used-in
+    note: RTM System Lambda plus the reliability deployment adder is the activation test input. [e8]
+  - to: large-flexible-load
+    type: related
+    note: The IMM reports large flexible loads reducing consumption as system lambda rises above $1,000 per MWh. [e21]
+  - to: binding-constraint
+    type: related
+    note: Congestion enters LMP through positive Shadow Prices on congested transmission lines, separately from System Lambda. [e12][e14]
 evidence:
   - id: e1
     source: np-02
@@ -80,6 +96,59 @@ evidence:
     locator: "Executive Summary, footnote on the reliability adder"
     quote: >-
       The reliability adder uses the dispatch software to simulate the system lambda without RUCs, deployed load capacity, or certain other reliability actions. The adder is the difference in system lambda output by SCED with and without any reliability actions.
+  - id: e12
+    source: np-22p-2025-12
+    locator: "Section 22, Attachment P (December 5, 2025 edition), Section 3.1, Congestion LMP Component"
+    quote: "LMP_(EB) is LMP at Electrical Bus EB λ is System Lambda (Shadow Price of power balance) SF_(EB)^(line) is Shift Factor for Electrical Bus EB for transmission line SP ^(line) is Shadow Price for transmission line."
+  - id: e13
+    source: np-22p-2025-12
+    locator: "Section 22, Attachment P (December 5, 2025 edition), Section 3.1"
+    quote: "The congestion component of LMP represents a price incentive to generation units connected at that Electrical Bus to increase or decrease power output to manage network congestion."
+  - id: e14
+    source: np-22p-2025-12
+    locator: "Section 22, Attachment P (December 5, 2025 edition), Section 3.1"
+    quote: "Note that the Shadow Prices for congested transmission lines are positive, otherwise they are equal zero."
+  - id: e15
+    source: np-22p-2025-12
+    locator: "Section 22, Attachment P (December 5, 2025 edition), Section 4.1, The Power Balance Penalty"
+    quote: "The Power Balance Penalty sets the maximum limit for this Shadow Price, i.e. Power Balance Penalty is the maximum cost paid for one addition/less MW of generation to meet the ERCOT system load constraint."
+  - id: e16
+    source: np-22p-2025-12
+    locator: "Section 22, Attachment P (December 5, 2025 edition), Section 4.1"
+    quote: "The objective function for SCED is the sum of four components: (1) the cost of dispatching generation; (2) the cost of procuring Ancillary Services; (3) the penalty for violating Power Balance constraint; and (4) the penalty for violating network transmission constraints."
+  - id: e17
+    source: np-22p-2025-12
+    locator: "Section 22, Attachment P (December 5, 2025 edition), Section 4.1"
+    quote: "In the ERCOT design, SCED implements the under-generation Power Balance Penalty Price as a single value equal to the effective Value of Lost Load (VOLL) plus the effective Real-Time System-Wide Offer Cap (RTSWCAP) plus $4,052.01/MWh. This value determines the maximum System Lambda for a given amount of the Power Balance Constraint violation within the optimization. The SCED over-generation Power Balance Penalty Price is -$250/MWh."
+  - id: e18
+    source: np-22p
+    locator: "Section 22, Attachment P (April 1, 2025 edition), Section 4.1 (pre-RTC text)"
+    quote: "In the ERCOT design, SCED implements the Power Balance Penalty by a step function with up to 10 (Violation MW; Penalty $/MW) pairs. This curve determines the maximum System Lambda for a given amount of the Power Balance Constraint violation."
+  - id: e19
+    source: np-22p
+    locator: "Section 22, Attachment P (April 1, 2025 edition), Section 4.3, The ERCOT Power Balance Penalty Curve (pre-RTC)"
+    quote: "≤ 5 250 5 < to ≤ 10 300 10 < to ≤ 20 400 20 < to ≤ 30 500 30 < to ≤ 40 1,000 40 < to ≤ 50 2,250 50 < to ≤ 100 4,500 > 100 HCAP plus 1"
+  - id: e20
+    source: np-22p
+    locator: "Section 22, Attachment P (April 1, 2025 edition), pending box above Section 4.1 replacement"
+    quote: "[OBDRR020 and NPRR1246: Replace Section 4.1 above with the following upon system implementation of the Real-Time Co-Optimization (RTC) project:]"
+  - id: e21
+    source: imm-som-2024
+    locator: "Demand and Supply in ERCOT, Large Flexible Load self-curtailment (Figure 28, 2022-2024 data)"
+    quote: "The data indicate that LFLs reduce their consumption by as much as 75% when system lambda exceeds $1,000 per MWh."
+  - id: e22
+    source: imm-som-2025
+    locator: "Section on ECRS deployment practice, excess cost of ECRS deployment (Figure 8)"
+    quote: "We calculated excess cost as the difference between the original and simulated results, measured as system lambda multiplied by load."
+  - id: e23
+    source: ercot-nprr1290-prs-report
+    locator: "NPRR1290 PRS Report (2025-08-13), Revision Description, item 3"
+    quote: "Under RTC+B, with the Real-Time System-Wide Offer Cap (RTSWCAP) at $2,000/MWh, a QSE will not be able to comply with this requirement."
+
+  - id: e24
+    source: np-22p
+    locator: "Section 22, Attachment P (April 1, 2025 edition), pending replacement of Section 4.1"
+    quote: "In the ERCOT design, SCED implements the under-generation Power Balance Penalty Price as a single value equal to the effective Value of Lost Load (VOLL) plus the effective Real-Time System-Wide Offer Cap (RTSWCAP) plus $0.01/MWh."
 ---
 
 ## Definition
@@ -94,27 +163,44 @@ In real time, the System Lambda from SCED Step 2 is capped at the effective Valu
 
 In the day-ahead, the Settlement Point Price formulas for Load Zones carry a system-wide term (the day-ahead counterpart of System Lambda), defined as the DAM Shadow Price for the system power balance constraint for the hour. [e6]
 
+## Formula
+
+Attachment P gives the Electrical Bus LMP as System Lambda minus a sum over transmission lines: LMP at bus EB = λ − Σ over lines of (Shift Factor of bus EB for the line × Shadow Price of the line), where λ is System Lambda (the Shadow Price of power balance), SF is the Shift Factor for the bus and line, and SP is the Shadow Price for the transmission line. [e12] The Shadow Prices for congested transmission lines are positive, otherwise zero. [e14] The congestion component of LMP represents a price incentive to generation units at that bus to increase or decrease output to manage network congestion. [e13] Put plainly: with no binding network constraint, every bus LMP equals System Lambda; with constraints, bus LMPs differ from System Lambda by the congestion component. [e12][e14]
+
+The maximum System Lambda is set by the power balance penalty: the Power Balance Penalty sets the maximum limit for this Shadow Price, that is the maximum cost paid for one additional or one fewer MW of generation to meet the system load constraint. [e15] The SCED objective function is the sum of the cost of dispatching generation, the cost of procuring Ancillary Services, the penalty for violating the power balance constraint and the penalty for violating network transmission constraints. [e16]
+
+## Timeline
+
+- Pre-RTC (Attachment P, April 1, 2025 edition): SCED implemented the Power Balance Penalty as a step function with up to 10 (violation MW; penalty $/MW) pairs that determined the maximum System Lambda for a given amount of violation. [e18] The under-generation curve in Section 4.3 of that edition ran from 250 $/MWh for violations of 5 MW or less, through 300, 400, 500, 1,000, 2,250 and 4,500 $/MWh at higher violation bands, to HCAP plus 1 above 100 MW. [e19]
+- April 1, 2025 edition also carried a pending box: OBDRR020 and NPRR1246 would replace Section 4.1 upon system implementation of RTC. [e20] The pending text in that edition set the under-generation penalty at VOLL plus RTSWCAP plus $0.01/MWh. [e24] (The December 5, 2025 edition, below, shows a different adder.)
+- December 5, 2025 edition (current in the saved sources): the under-generation Power Balance Penalty Price is a single value equal to the effective VOLL plus the effective RTSWCAP plus $4,052.01/MWh, which determines the maximum System Lambda; the over-generation penalty price is -$250/MWh. [e17]
+- In 2025 ERCOT noted RTSWCAP at $2,000/MWh under RTC+B. [e23]
+
 ## ERCOT context
 
 System Lambda shows up in several price rules, not only as an LMP component. The Real-Time Reliability Deployment Price Adder for Energy is the positive difference between the System Lambda from the SCED run in item (n) of Section 6.5.7.3.1 and the Step 2 System Lambda, with an exception when ERCOT is directing firm Load shed during EEA Level 3. [e5] The IMM describes the same adder as the difference in system lambda output by SCED with and without any reliability actions. [e10]
 
 It is also a fallback price: when ERCOT must assign an LMP to a de-energized Electrical Bus, the last rule in the order is to use System Lambda, after a predetermined LMP, same-station same-voltage averages and same-station averages. [e7] And the Emergency Pricing Program test adds the RTM System Lambda to the reliability deployment adder and compares the sum to the HCAP for DAM, with activation when it is at or above the HCAP for a total of 12 hours within a rolling 24-hour period. [e8]
 
+Practice: the IMM uses system lambda as a benchmark in two ways. It counts ESR base points awarded at an LMP above system lambda as a sign that injections there help manage congestion, [e9] and it measured the excess cost of ECRS deployment practice as system lambda multiplied by load. [e22] For demand behavior, the IMM reported in its 2024 State of the Market Report that large flexible loads reduce their consumption by as much as 75% when system lambda exceeds $1,000 per MWh. [e21]
+
 ## Key facts
 
 - System Lambda is the Shadow Price for the power balance constraint and the energy component of LMP at each Settlement Point. [e1]
+- Bus LMP = System Lambda minus the sum of Shift Factor times line Shadow Price over transmission lines. [e12]
 - Real-time System Lambda and MCPCs from SCED Step 2 are capped at the effective VOLL; ERCOT posts capped and uncapped values. [e3]
+- The December 5, 2025 Attachment P sets the under-generation Power Balance Penalty Price at effective VOLL plus effective RTSWCAP plus $4,052.01/MWh and the over-generation price at -$250/MWh. [e17]
 - The Real-Time Reliability Deployment Price Adder for Energy is built from the difference between two System Lambda values. [e5]
 - Day-ahead Load Zone Settlement Point Price formulas use a system-wide term defined as the DAM Shadow Price for the system power balance constraint for the hour. [e6]
 - The Emergency Pricing Program activation test uses the sum of the RTM System Lambda and the reliability deployment adder. [e8]
 
 ## Say it like this
 
-(Guidance) System Lambda is the marginal cost of one more MWh of energy at the reference bus, and it is the energy component of the LMP at each Settlement Point.
+(Guidance) System Lambda is the marginal cost of one more MWh of energy at the reference bus, and it is the energy component of the LMP at each Settlement Point. Congestion moves individual bus prices away from it, and scarcity pricing is limited by the power balance penalty that caps it.
 
 ## Common confusion
 
-(Guidance) System Lambda is not the Settlement Point Price: it is one component of LMP, and Settlement Point Prices are calculated from LMP data. [e1][e11] Also, in the real-time reliability adder the same term appears twice, once from the item (n) SCED run and once from Step 2, so the adder is a difference, not a level. [e5]
+(Guidance) System Lambda is not the Settlement Point Price: it is one component of LMP, and Settlement Point Prices are calculated from LMP data. [e1][e11] Also, in the real-time reliability adder the same term appears twice, once from the item (n) SCED run and once from Step 2, so the adder is a difference, not a level. [e5] And the cap on System Lambda from the power balance penalty is a different thing from the VOLL cap applied to Step 2 System Lambda. [e3][e17]
 
 ## Questions
 
@@ -128,11 +214,23 @@ It is the input to the Real-Time Reliability Deployment Price Adder for Energy, 
 
 ### Is real-time System Lambda capped?
 
-Yes. System Lambda from SCED Step 2 is capped at the effective VOLL. [e3] Separately, SCED's cost to resolve one MW on the power balance constraint is limited to a maximum Shadow Price for that constraint. [e4]
+Yes. System Lambda from SCED Step 2 is capped at the effective VOLL. [e3] Separately, SCED's cost to resolve one MW on the power balance constraint is limited to a maximum Shadow Price for that constraint. [e4] In the December 2025 Attachment P, that limit is the effective VOLL plus the effective RTSWCAP plus $4,052.01/MWh for under-generation. [e17]
+
+### Why does the power balance penalty matter for prices?
+
+The Power Balance Penalty is the maximum cost paid for one more or one fewer MW of generation to meet the system load constraint, so it sets the maximum limit of System Lambda. [e15] When re-dispatching costs more than violating the constraint, SCED stops re-dispatching and the objective is minimized with the penalty. [e16]
+
+### What if there were no binding transmission constraints?
+
+Every Shadow Price on congested lines would be zero, so by the Attachment P formula the congestion component is zero and each bus LMP equals System Lambda. [e12][e14]
+
+### How did the power balance penalty change with RTC?
+
+Before RTC the penalty was a step function of up to 10 pairs, rising with the MW of violation. [e18][e19] The December 2025 edition replaces it with a single value built from VOLL, RTSWCAP and an adder. [e17]
 
 ## Open items
 
-- No saved protocol sentence writes LMP as System Lambda plus a congestion component; the definition only says System Lambda is the "energy component" of LMP, and this topic does not state the full decomposition.
-- Deeper pass: the value of the maximum Shadow Price for the power balance constraint (Section 22, Attachment P) was not read.
-- Deeper pass: the exact SCED Step 2 System Lambda calculation and how it relates to the posted real-time LMPs.
-- Deeper pass: IMM statistics on System Lambda levels by year; none were quoted here.
+- No saved protocol sentence writes LMP as System Lambda plus a congestion component in prose; Attachment P Section 3.1 gives the formula LMP = λ minus the sum of Shift Factor times line Shadow Price, which is the decomposition used above. [e12]
+- Resolved 2026-11-21: the maximum System Lambda mechanism (power balance penalty, Section 22 Attachment P) is now described. The numeric effective VOLL value was not read, so the dollar value of the maximum System Lambda is not computed here.
+- The April 1, 2025 edition of Attachment P shows a pending $0.01/MWh adder while the December 5, 2025 edition shows $4,052.01/MWh; the sources do not explain the change.
+- Still open: IMM statistics on System Lambda levels by year; only the 2024 LFL price-response observation was quoted.

@@ -85,10 +85,6 @@ evidence:
     source: puct-25-130
     locator: "16 TAC Section 25.130(g)(2), waivers"
     quote: "A waiver from any of the requirements of paragraph (1) of this subsection may be granted by the commission if it would be uneconomic or technically infeasible to implement or there is an adequate substitute for that particular requirement. The electric utility must meet its burden of proof in its waiver request."
-  - id: e13
-    source: puct-25-130
-    locator: "16 TAC Section 25.130(h)(2), Discretionary Meter Services (effective 5/11/20 per the saved copy)"
-    quote: "The REP must pay the reasonable differential cost for the enhanced advanced meters or features and system changes required by the electric utility to offer those meters or features."
   - id: e14
     source: np-10
     locator: "Section 10.3.3.3(1)(a)(i)-(ii), Submission of Settlement Quality Meter Data to ERCOT"
@@ -146,27 +142,37 @@ The Advanced Metering System is a system of advanced meters plus the hardware, s
 
 ## How it works
 
-TDSPs provide 15-minute interval data from provisioned Advanced Meters to ERCOT in an ERCOT-specified file format via NAESB, at least monthly. [e3] That interval data is submitted as Settlement Quality Meter Data and is what is used for settlement. [e4] Upon certified request, ERCOT makes the data available to a Market Participant through the MIS Certified Area. [e5]
+The PUCT rule says an AMS must provide or support minimum features, including automated or remote meter reading, two-way communications between the meter and the utility, remote disconnection and reconnection for meters rated at or below 200 amps, and time-stamped meter data. [e9] A utility can seek a waiver from the commission if a feature would be uneconomic or technically infeasible or there is an adequate substitute; the utility carries the burden of proof. [e12]
 
-Advanced meters sit alongside Interval Data Recorders, devices able to record energy in each Settlement Interval. [e2] IDRs are required for premises with peak demand above 700 kW (700 kVA in CenterPoint's territory) or service at transmission voltage above 60 kV. [e8] Where ERCOT does not receive 15-minute data, load profiles estimate it instead. [e6]
+On the customer and retailer side, the rule requires access to usage data for the customer, the REP of record and entities the customer authorizes, with 15-minute or shorter AMS data transmitted to the utility's (or a group of utilities') web portal on a day-after basis. [e10] The web portal is the site through which secure, read-only AMS usage data is made available to those parties. [e11] These are retail-facing portal requirements; the settlement path to ERCOT is separate.
+
+For settlement, TDSPs provide 15-minute interval data from provisioned Advanced Meters to ERCOT in an ERCOT-specified file format via NAESB, at least monthly. [e3] That interval data is submitted as Settlement Quality Meter Data and is what is used for settlement. [e4] The monthly non-interval total consumption and demand for these ESI IDs still go to ERCOT and LSEs by TX SET to effect registration transactions, but those totals are not used for settlement. [e14] Interval size is set by meter type: 15 minutes for ESI IDs served by IDRs, and monthly or an ERCOT-approved read cycle for non-IDRs. [e15] Upon certified request, ERCOT makes the advanced meter data available to a Market Participant through the MIS Certified Area. [e5] A Market Participant can also request specific meter consumption data through the MIS Certified Area; ERCOT validates the request and, if appropriate, forwards the data. [e22]
+
+Advanced meters sit alongside Interval Data Recorders, devices able to record energy in each Settlement Interval. [e2] IDRs are required for premises with peak demand above 700 kW (700 kVA in CenterPoint's territory) or service at transmission voltage above 60 kV. [e8] Non-metered loads such as street lighting are not required to install IDRs and are settled with Load Profiles. [e21] Where ERCOT does not receive 15-minute data, load profiles estimate it instead. [e6]
 
 ## ERCOT context
 
 By statute, all meter data produced by advanced meters and meter information networks belongs to the customer, including data used to calculate charges and historical load data. [e7]
 
+Moving an IDR premise to an AMS profile type is a TDSP decision or a customer request the TDSP approves. The TDSP uses a provisioned Advanced Meter or similarly functional meter, assigns a Load Profile other than one with a BUSIDRRQ Profile Type Code, and submits interval-only Settlement Quality Meter Data. [e16] If the ESI ID moves to an AMS Profile Type other than BUSLRG or BUSLRGDG, the TDSP submits a MarkeTrak issue to notify ERCOT and sends a TX SET transaction telling the Competitive Retailer of the profile change. [e17]
+
+When actual data is missing, ERCOT's Data Aggregation System estimates missing interval and non-interval consumption for settlement. [e18] IDR ESI IDs are estimated with a "Weather Response Informed Proxy Day" technique. [e20] For behind-the-meter PV or wind, an AMS-integrated meter (or an MOU/EC non-BUSIDRRQ IDR) that measures excess flow into ERCOT in 15-minute intervals means the excess-generation adjustment uses the actual interval data, if available. [e19]
+
 ## Key facts
 
 - Advanced meter data reaches ERCOT as 15-minute intervals at least monthly, via an ERCOT-specified file. [e3]
-- It is used for settlement as Settlement Quality Meter Data. [e4]
+- It is used for settlement as Settlement Quality Meter Data; the monthly non-interval totals for these ESI IDs are not used for settlement. [e4][e14]
+- IDR mandatory installation: peak demand above 700 kW (700 kVA in CenterPoint) or transmission-voltage service above 60 kV. [e8]
+- The PUCT rule's minimum AMS features include remote disconnect/reconnect for meters rated at or below 200 amps, and day-after 15-minute data to the web portal. [e9][e10]
 - Customers own their meter data under PURA. [e7]
 
 ## Say it like this
 
-(Guidance) Smart meters give ERCOT actual 15-minute usage by premise, so settlement uses real intervals instead of estimated profile shapes. The data belongs to the customer.
+(Guidance) Smart meters give ERCOT actual 15-minute usage by premise, so settlement uses real intervals instead of estimated profile shapes. The data belongs to the customer, and the customer, their REP and anyone they authorize can get it from the utility's web portal.
 
 ## Common confusion
 
-(Guidance) An advanced meter and an IDR are not the same thing in the Protocols: an IDR is any device recording each Settlement Interval, and certain larger premises are required to have one. [e2][e8]
+(Guidance) An advanced meter and an IDR are not the same thing in the Protocols: an IDR is any device recording each Settlement Interval, and certain larger premises are required to have one. [e2][e8] Also keep two data paths apart: the TDSP web portal under the PUCT rule serves customers, REPs and authorized entities, while Settlement Quality Meter Data goes to ERCOT. [e10][e11][e4]
 
 ## Questions
 
@@ -178,8 +184,21 @@ Settlement is in 15-minute intervals, and interval data from advanced meters is 
 
 The customer, under PURA 39.107. [e7]
 
+### What happens to a large commercial premise's profile when the TDSP moves it from an IDR to an advanced meter?
+
+At the TDSP's discretion, or on the customer's request with TDSP approval, the TDSP assigns a Load Profile that does not carry the BUSIDRRQ type code and submits interval-only data used for settlement. It notifies the CR by TX SET, and notifies ERCOT by MarkeTrak unless the new profile type is BUSLRG or BUSLRGDG. [e16][e17]
+
+### Why are the monthly total consumption values still sent to ERCOT if they are not used for settlement?
+
+They are provided to ERCOT and LSEs through TX SETs to effectuate the registration transactions in Section 15, Customer Registration, while settlement uses the interval data. [e14]
+
+### What if a day of interval data does not arrive?
+
+ERCOT's Data Aggregation System estimates missing interval and non-interval data for settlement; IDR ESI IDs are estimated with a weather-response proxy day method. [e18][e20]
+
 ## Open items
 
-- Deeper pass: the percentage of ESI IDs with AMS meters and the Smart Meter Texas portal were not in the sources read.
-- Deeper pass: IDR thresholds (18.6.1), IDR-to-AMS profile transition (18.7), and validation/estimation of interval data in Section 11.
-- Deeper pass: PUCT Substantive Rule 25.130 is not among the saved sources.
+- The percentage of ESI IDs with AMS meters and the Smart Meter Texas portal are not named in any saved source.
+- The saved copy of 16 TAC 25.130 shows "effective date 5/11/20"; whether later amendments exist is not checked.
+- Retail Market Guide Section 7.15 and Appendix G (the ERCOT-specified interval file format) are referenced by the Protocols but are not saved sources.
+- Resolved 2026-11-21: IDR thresholds (np-18 18.6.1), IDR-to-AMS transition (18.7) and estimation of missing data (np-11 11.4) are now covered; PUCT 25.130 is now saved.

@@ -6,7 +6,8 @@ kind: rule
 domain: pricing
 level: 1
 lenses: [analyst, trading, portfolio, structuring]
-as_of: 2026-11-18
+as_of: 2026-11-21
+depth: deep
 links:
   - to: puct
     type: regulates
@@ -32,6 +33,18 @@ links:
   - to: imm
     type: related
     note: The IMM State of the Market reports track the peaker net margin each year. [e9]
+  - to: emergency-pricing-program
+    type: related
+    note: The EPP sets the cap to the ECAP after 12 hours at the HCAP in a rolling 24 hours; ERCOT says it has never been activated as of September 2026. [e7][e40]
+  - to: rtc-b
+    type: related
+    note: The separate $2,000 real-time cap was written into NPRR1008, an RTC revision request the ERCOT Board approved on December 8, 2020, and took effect at RTC go-live. [e31][e32][e18]
+  - to: credit-tpe
+    type: affects
+    note: ERCOT's September 2026 filing says the real-time cap is the ceiling on credit exposure ERCOT cannot prevent through ordinary credit administration. [e35]
+  - to: ferc
+    type: contrasts-with
+    note: FERC's 2024 Energy Primer describes a $1,000 supply-offer cap in the FERC-regulated RTOs/ISOs, and says FERC regulates all RTOs/ISOs except ERCOT. [e45][e46]
 evidence:
   - id: e1
     source: puct-25-509
@@ -141,6 +154,118 @@ evidence:
     source: np-04-2025-02
     locator: "Superseded edition effective 2025-02-01, pending box after Section 4.4.11, parameter table row"
     quote: "HCAP – RTM (RTSWCAP) $/MWh 2,000"
+  - id: e28
+    source: puct-51812-lcap-order
+    locator: "PUCT Project No. 51812, Order Reinstating Low System-Wide Offer Cap (March 3, 2021), p. 1"
+    quote: "On February 16, 2021, in response to significant market anomalies, the Commission found good cause to suspend, and issued an order suspending, the use of the low system-wide offer cap (LCAP) until after the Commission's next regularly scheduled open meeting. The Commission ordered ERCOT to use the high system-wide offer cap (HCAP) until the LCAP is reinstated."
+  - id: e29
+    source: imm-som-2021
+    locator: "2021 State of the Market Report, Executive Summary, Real-time Energy Pricing Outcomes"
+    quote: "In February 2021, the LCAP was defined as the greater of either $2,000 per MWh or 50 times the natural gas price (also known as the fuel index price or FIP). Natural gas index prices reached values over $400 per MMBtu during the load shed event, compared to around $3 per MMBtu on average during previous years. As a result, the LCAP (50 times FIP, or up to $20,000) exceeded the HCAP of $9,000."
+  - id: e30
+    source: imm-som-2021
+    locator: "2021 State of the Market Report, Executive Summary, footnote 17"
+    quote: "See Review of the ERCOT Scarcity Pricing Mechanism, Project No. 51871, (Jun. 24, 2021), when the Commission directed the elimination of the provision that tied the value of the LCAP to the natural gas price index and replaced it with a provision that ensures resource entities are able to recover their actual marginal costs when the LCAP is in effect; and Review of 25.505, Project No. 52631, (Dec. 2, 2021), which set the high system-wide offer cap at $5,000 per MWh effective January 1, 2022."
+  - id: e31
+    source: ercot-nprr1008-board-report
+    locator: "NPRR1008 Board Report, Board Decision row"
+    quote: "On 12/8/20, the ERCOT Board approved NPRR1008 as recommended by TAC in the 11/18/20 TAC Report."
+  - id: e32
+    source: ercot-nprr1008-board-report
+    locator: "NPRR1008 Board Report, proposed Section 4.4.11 parameter table"
+    quote: "HCAP – DAM (DASWCAP) $/MWh 9,000 HCAP – RTM (RTSWCAP) $/MWh 2,000 PNM threshold $/MW-year 315,000"
+  - id: e33
+    source: ercot-nprr1008-board-report
+    locator: "NPRR1008 Board Report, Effective Date row"
+    quote: "Upon system implementation of the Real-Time Co-Optimization (RTC) Project"
+  - id: e34
+    source: puct-59550-ercot-comments
+    locator: "PUCT Project No. 59550, ERCOT comments (filed 2026-09-17), response to Question 1(b), p. 2"
+    quote: "ERCOT recommends that the current approach, in which the SWCAP in RTM is set at $2,000 and the SWCAP in DAM is set at the effective VOLL, be maintained. The use of different offer caps for DAM and RTM was a deliberate design decision reflected in design principles for RTC+B"
+  - id: e35
+    source: puct-59550-ercot-comments
+    locator: "PUCT Project No. 59550, ERCOT comments, response to Question 1(b), pp. 2-3"
+    quote: "In the RTM, the energy component of Locational Marginal Prices (LMPs) can exceed $2,000 due to the Ancillary Service Demand Curves (ASDCs). Allowing QSEs to submit higher energy bids into the DAM allows Market Participants to more effectively hedge when they expect scarcity conditions in Real-Time."
+  - id: e36
+    source: puct-59550-ercot-comments
+    locator: "PUCT Project No. 59550, ERCOT comments, response to Question 1(b), p. 3"
+    quote: "The SWCAP in the RTM accordingly acts as the ceiling on the exposure that ERCOT cannot prevent through ordinary credit administration and that, in a default, would be uplifted to the market."
+  - id: e37
+    source: puct-59550-ercot-comments
+    locator: "PUCT Project No. 59550, ERCOT comments, response to Question 4, p. 9"
+    quote: "These make clear that at the current $2,000 SWCAP in the RTM, a four-day event accrues roughly $192,000 of exposure per exposed megawatt, converging the RTM SWCAP upward to the $5,000 DAM SWCAP level, which would raise that to approximately $480,000, a 150% increase, before any change in Market Participant behavior."
+  - id: e38
+    source: puct-59550-ercot-comments
+    locator: "PUCT Project No. 59550, ERCOT comments, Table 1 (example 96-hour scarcity event), p. 3"
+    quote: "$5,000 (= current DAM SWCAP) $480,000 +150% $9,000 (pre-WS Uri SWCAP) $864,000 +350%"
+  - id: e39
+    source: puct-59550-ercot-comments
+    locator: "PUCT Project No. 59550, ERCOT comments, Question 1(b) as posed by Commission Staff, p. 2"
+    quote: "With the implementation of RTC+B, there is a difference between the day ahead (DAM) and real-time (RTM) system offer caps for both energy and AS."
+  - id: e40
+    source: puct-59550-ercot-comments
+    locator: "PUCT Project No. 59550, ERCOT comments, response to Question 2, p. 5"
+    quote: "The conditions required by PURA § 39.160 and 16 TAC § 25.509(d) to trigger activation of the EPP have not occurred since the adoption of the program"
+  - id: e41
+    source: puct-59550-ercot-comments
+    locator: "PUCT Project No. 59550, ERCOT comments, response to Question 2, p. 5"
+    quote: "The Commission approved these Revision Requests on September 26,2024 and ERCOT implemented Phase 1 of these Revision Requests on December 5,2025. Phase 2 is in the queue for future implementation."
+  - id: e42
+    source: puct-59550-ercot-comments
+    locator: "PUCT Project No. 59550, ERCOT comments, response to Question 2, p. 6"
+    quote: "Because that trigger is established by statute in PURA §39.160(b), changing the EPP trigger to activate more or less frequently under different conditions would require new legislation."
+  - id: e43
+    source: puct-59550-ercot-comments
+    locator: "PUCT Project No. 59550, ERCOT comments, response to Question 1(c), p. 4"
+    quote: "Because the PNM-related CONE value of $105 per kW-year is now dated at more than a decade old and because the same factors that led to the increase in the planning CONE also affect the PNM, ERCOT recommends that the Commission should reevaluate the value of CONE used to calculate the PNM threshold."
+  - id: e44
+    source: puct-59550-ercot-comments
+    locator: "PUCT Project No. 59550, ERCOT comments, response to Question 1(a), p. 1"
+    quote: "ERCOT does not have a position at this time whether the LCAP and HCAP should be changed but supports the performance of a holistic evaluation of whether those offer caps should be updated."
+  - id: e45
+    source: ref-ferc-energy-primer
+    locator: "FERC Energy Primer (2024), Electricity Markets chapter, Offer Caps"
+    quote: "Offer Caps Each RTO/ISO caps a resource’s supply offer at $1,000. If a resource's costs exceed $1,000, they may request authority to offer at a higher price that reflects their verified costs. Offers up to $2,000 may be used by the RTO/ISO to set the locational marginal price."
+  - id: e46
+    source: ref-ferc-energy-primer
+    locator: "FERC Energy Primer (2024), Electricity Markets chapter, RTO/ISO section"
+    quote: "FERC regulates all RTOs/ISOs except ERCOT."
+  - id: e47
+    source: np-04
+    locator: "Section 4.4.11.1(3)(a)-(c), Scarcity Pricing Mechanism"
+    quote: "(a) On the Operating Day that the PNM exceeds the PNM threshold, the HCAP will remain in effect for the balance of the day and for the Operating Day thereafter (Days 1 and 2). (b) On the Operating Day after the PNM exceeds the PNM threshold (Day 2) prior to the execution of DAM, ERCOT shall send a Market Notice that the DASWCAP and the VOLL used to determine the ASDCs for DAM and RTM will both be changed to LCAP, effective for the following Operating Day (Day 3)."
+  - id: e48
+    source: np-04
+    locator: "Section 4.4.11(1)(a)(i)(A)-(B), EPP duration"
+    quote: "(A) 24 hours after the initial setting of these values to ECAP; or (B) 24 hours after ERCOT exits Energy Emergency Alert (EEA) conditions, if ERCOT entered into or remained in EEA while the EPP was active. If ERCOT reenters EEA conditions within 24 hours, then the ECAP Effective Period will continue for 24 hours after the latest exit from EEA conditions."
+  - id: e49
+    source: imm-som-2011
+    locator: "2011 State of the Market Report, Resource Adequacy discussion of summer 2011 RMR units"
+    quote: "In order for this capacity to have the least amount of impact on market based price formation, the energy provided from these units was offered for dispatch at the system wide offer cap of $3,000 per MWh."
+  - id: e50
+    source: imm-som-2020
+    locator: "2020 State of the Market Report, Appendix, discussion of Figure A6 (p. A-12)"
+    quote: "The higher prices in 2019 illustrate the effects of the changes to the shortage pricing mechanism over the past decade, most importantly the increase of the System Wide Offer Cap to $9,000/MWh, the implementation of the Operating Reserve Demand Curve and subsequent changes to its parameters, and the implementation of the Reliability Deployment Adder."
+  - id: e51
+    source: imm-som-2023
+    locator: "2023 State of the Market Report, Appendix: Introduction, EPP rule (p. A-11)"
+    quote: "Ultimately, the rule the PUCT adopted (1) sets the EPP cap equal to $2,000 per MWh for energy and ancillary services, which is the value of the low system-wide offer cap;"
+  - id: e52
+    source: puct-25-509
+    locator: "16 TAC §25.509, page footer"
+    quote: "effective 12/20/23 (P 54585)"
+  - id: e53
+    source: puct-59550-ercot-comments
+    locator: "PUCT Project No. 59550, ERCOT comments, response to Question 1(a), p. 2"
+    quote: "The current values were implemented in 2021 and based on the significant changes to both the ERCOT market, such as the implementation ofthe Emergency Pricing Program (EPP), Real-Time Co-optimization Plus Batteries (RTC+B), and new Ancillary Services and reliability services, and to the grid, with the changes to the Resource portfolio mix and shifting peak demand times, an update may be merited depending on the results of the holistic evaluation."
+  - id: e54
+    source: puct-25-509
+    locator: "16 TAC §25.509(b)(4)"
+    quote: "Beginning January 1 of each calendar year, the peaker net margin will be calculated as: ∑((RTEP – POC) * (number of minutes in a settlement interval / 60 minutes per hour)) for each settlement interval when RTEP – POC >0."
+  - id: e55
+    source: puct-25-509
+    locator: "16 TAC §25.509(b)(2)"
+    quote: "For each day, the peaking operating cost (POC) will be 10 times the natural gas price index value determined by ERCOT."
 ---
 
 ## Definition
@@ -151,23 +276,43 @@ The system-wide offer cap is the upper limit on the price of energy and ancillar
 
 Under the PUCT rule, the cap starts each calendar year at the HCAP and stays there until the peaker net margin for that year exceeds a threshold of three times the cost of new entry of new generation plants. [e3] If the threshold is crossed, the cap drops to the LCAP for the rest of that calendar year, and energy prices (excluding congestion) cannot exceed the LCAP plus $1. [e4] The rule text also says ERCOT keeps applying the operating reserve demand curve and the reliability deployment price adder for the rest of that year [e4]; since RTC went live the ORDC adder has been replaced by ancillary service demand curves, while the reliability deployment price adder remains. [e22]
 
-In the protocols the peaker net margin is calculated in dollars per MW on a cumulative basis over all past intervals in the year, summing (RTEP - POC) times 0.25 for each Settlement Interval where that difference is positive. [e21] The Peaking Operating Cost (POC) is ten times the effective daily FIP, and the real-time energy price (RTEP) used in the test is the ERCOT Hub Average 345 kV Hub price. [e5] The protocols set the PNM threshold at three times the cost of new entry of new generation plants. [e6] The current Protocols write the switch for the day-ahead cap: when the PNM exceeds the threshold, the DASWCAP and the VOLL used for the DAM and RTM ancillary service demand curves are both changed to the LCAP for the rest of the calendar year. [e24]
+In the protocols the peaker net margin is calculated in dollars per MW on a cumulative basis over all past intervals in the year (see Formula). [e21] The protocols set the PNM threshold at three times the cost of new entry of new generation plants. [e6] When the PNM exceeds the threshold, the DASWCAP and the VOLL used for the DAM and RTM ancillary service demand curves are both changed to the LCAP for the rest of the calendar year. [e24] The switch is not immediate: the HCAP stays in effect for the rest of the day the threshold is crossed and the next Operating Day (Days 1 and 2); on Day 2, before the DAM runs, ERCOT sends a Market Notice that the LCAP takes effect on Day 3. [e47]
 
-A second, separate mechanism is the Emergency Pricing Program: the PUCT rule says it must be activated if the system-wide energy price has been at the HCAP for 12 hours within a rolling 24-hour period. [e7] The Protocols state the test as the sum of the RTM System Lambda and the Real-Time Reliability Deployment Price Adder for Energy being at or above the HCAP for DAM for 12 hours within a rolling 24 hours, after which the DASWCAP and the VOLL used for the ancillary service demand curves are set to the ECAP. [e23] Under the PUCT rule, while the program is active the cap is set to the ECAP, which equals the LCAP value. [e8]
+A second, separate mechanism is the Emergency Pricing Program: the PUCT rule says it must be activated if the system-wide energy price has been at the HCAP for 12 hours within a rolling 24-hour period. [e7] The Protocols state the test as the sum of the RTM System Lambda and the Real-Time Reliability Deployment Price Adder for Energy being at or above the HCAP for DAM for 12 hours within a rolling 24 hours, after which the DASWCAP and the VOLL used for the ancillary service demand curves are set to the ECAP. [e23] Under the PUCT rule, while the program is active the cap is set to the ECAP, which equals the LCAP value. [e8] The ECAP period lasts until the later of 24 hours after the switch to ECAP or 24 hours after ERCOT exits EEA conditions if it was in EEA while the EPP was active, extended again if ERCOT re-enters EEA within 24 hours. [e48]
 
-When the cap is at the LCAP, ERCOT must reimburse resource entities for actual marginal costs above the larger of the LCAP or their real-time energy price. [e11] In the protocols, an energy offer curve must fall between -$250 per MWh and the day-ahead or real-time cap, depending on when it was submitted; an energy offer curve received after 1430 in the Day-Ahead cannot exceed the RTSWCAP. [e10] Resource-specific ancillary service offers follow the same split: those received before 1000 in the Day-Ahead are capped at the DASWCAP and those received after 1430 at the RTSWCAP. [e20]
+When the cap is at the LCAP, ERCOT must reimburse resource entities for actual marginal costs above the larger of the LCAP or their real-time energy price. [e11] In the protocols, an energy offer curve must fall between -$250 per MWh and the day-ahead or real-time cap, depending on when it was submitted; an energy offer curve received after 1430 in the Day-Ahead cannot exceed the RTSWCAP. [e10] Resource-specific ancillary service offers follow the same split: those received before 1000 in the Day-Ahead are capped at the DASWCAP and those received after 1430 at the RTSWCAP. [e20] PUCT Staff's 2026 review questions describe the day-ahead/real-time difference as applying to both energy and AS. [e39]
 
 The Protocols say both caps are determined under PUCT rules, and they set the VOLL used for the DAM and RTM ancillary service demand curves to the HCAP for DAM. [e15] The "current values" in the Section 4.4.11 table (ECAP, DASWCAP, RTSWCAP, LCAP and the PNM threshold of $315,000 per MW-year) are recommended by TAC and approved by the ERCOT Board. [e16][e17]
 
+## Formula
+
+Peaker net margin (np-04 §4.4.11.1(1)(d)): PNM = ∑((RTEP – POC) × 0.25) for each Settlement Interval where (RTEP – POC) > 0, accumulated in dollars per MW over all past intervals in the current year. [e21] RTEP is the real-time energy price, measured as the ERCOT Hub Average 345 kV Hub price; POC is the Peaking Operating Cost, ten times the effective daily FIP (fuel index price), in dollars per MWh; 0.25 converts a 15-minute interval to hours. [e5] The cap switches when PNM exceeds the threshold of three times CONE, listed as $315,000 per MW-year. [e6][e16] The PUCT rule writes the same sum with "number of minutes in a settlement interval / 60 minutes per hour" in place of 0.25 and a POC of 10 times the natural gas price index. [e54][e55]
+
 ## ERCOT context
 
-The IMM reports that the peaker net margin has crossed the threshold only once, on February 16, 2021, during Winter Storm Uri. [e9] In 2025 the peaker net margin reached almost $79 per kW, about 21% lower than in 2024, well short of the $315 per kW-year trigger. [e14][e9] The trigger still uses the legacy cost of new entry of $105 per kW-year, even though the PUCT approved a $140 per kW-year CONE in 2024. [e13]
+The IMM reports that the peaker net margin has crossed the threshold only once, on February 16, 2021, during Winter Storm Uri. [e9] In 2025 the peaker net margin reached almost $79 per kW, about 21% lower than in 2024, well short of the $315 per kW-year trigger. [e14][e9] The trigger still uses the legacy cost of new entry of $105 per kW-year, even though the PUCT approved a $140 per kW-year CONE in 2024. [e13] In its September 2026 filing ERCOT recommended that the Commission re-evaluate the PNM CONE, calling the $105 value more than a decade old. [e43]
 
-The PUCT reviews each system-wide offer cap program starting January 1, 2026, and every five years after that. [e12]
+Why the real-time cap is $2,000. The separate real-time value was written into NPRR1008, one of the RTC revision requests, whose Section 4.4.11 table listed DASWCAP at $9,000 and RTSWCAP at $2,000; the ERCOT Board approved it on December 8, 2020, effective upon implementation of the RTC project. [e31][e32][e33] ERCOT's summer 2026 review says the SWCAP was reduced to $2,000/MWh from $5,000/MWh after RTC go-live on 12/5/2025. [e18][e19] In its September 2026 comments in the PUCT's offer-cap review (Project 59550), ERCOT called the different caps "a deliberate design decision" in the RTC+B design principles and asked that they be kept. [e34] ERCOT's stated reasons: real-time LMPs' energy component can exceed $2,000 because of the ASDCs, while a higher DAM cap lets participants hedge expected real-time scarcity; and the real-time cap is the ceiling on exposure that ERCOT cannot control through ordinary credit administration and that would be uplifted in a default. [e35][e36] ERCOT estimated that a 96-hour scarcity event costs about $192,000 per MW of real-time-exposed load at the $2,000 cap and about $480,000 at $5,000. [e37] The PUCT rule text in the saved sources still states a single HCAP of $5,000 per MWh. [e2] ERCOT also said the current cap values were implemented in 2021 and that, given the EPP, RTC+B, new ancillary services and the changing resource mix, an update may be merited depending on the evaluation. [e53]
 
-Since real-time co-optimization went live, the day-ahead and real-time caps differ. ERCOT's September 2026 summer review says the SWCAP was reduced to $2,000/MWh from $5,000/MWh after RTC go-live on 12/5/2025, and calls this the lower Real-Time System Wide Offer Cap introduced as part of RTC+B. [e18][e19] The PUCT rule text in the saved sources still states a single HCAP of $5,000 per MWh, and the IMM's 2025 report describes the PNM switch as moving the SWCAP from $5,000 to $2,000; neither mentions a separate real-time value. [e2][e9]
+The 2026 five-year review. The PUCT reviews each system-wide offer cap program starting January 1, 2026, and every five years after that. [e12] In that review ERCOT took no position on whether the LCAP and HCAP should change, but supported a holistic evaluation. [e44] ERCOT said the Emergency Pricing Program's trigger conditions have not occurred since the program was adopted [e40], and that because the trigger is set in PURA §39.160(b), changing it would require new legislation. [e42] The PUCT approved NPRR1216 and its companion revision requests (the EPP's Protocol implementation) on September 26, 2024, and ERCOT implemented Phase 1 on December 5, 2025, with Phase 2 still queued. [e41]
 
-The superseded edition of Protocols Section 4 effective February 1, 2025 (before RTC go-live) listed a single HCAP of $5,000/MWh in the Section 4.4.11 table then in force. [e25] That edition already carried a pending box, labelled NPRR1008 and NPRR1216 and to take effect on system implementation of NPRR1216 or of the RTC project, whose table listed the real-time HCAP (RTSWCAP) at $2,000/MWh. [e26][e27]
+Outside ERCOT. FERC's 2024 Energy Primer says each FERC-regulated RTO/ISO caps supply offers at $1,000, with cost-verified offers up to $2,000 allowed to set LMP, and that FERC regulates all RTOs/ISOs except ERCOT. [e45][e46]
+
+## Timeline
+
+- 2011: the system-wide offer cap was $3,000 per MWh (IMM 2011 report, on RMR units offered at the cap that summer). [e49]
+- Before 2021: the cap was raised to $9,000/MWh; the IMM's 2020 report names this as a main change of the past decade but the saved text gives no date. [e50]
+- December 8, 2020: ERCOT Board approves NPRR1008 (RTC), whose table lists DASWCAP $9,000 and RTSWCAP $2,000, effective on RTC implementation. [e31][e32][e33]
+- February 2021: LCAP is the greater of $2,000 or 50 times FIP; gas above $400/MMBtu pushes it above the $9,000 HCAP. [e29]
+- February 16, 2021: the PNM threshold is crossed; the same day the PUCT suspends the LCAP and orders ERCOT to use the HCAP. [e9][e28]
+- March 3, 2021: the PUCT reinstates the LCAP (Project 51812). [e28]
+- June 24, 2021: Project 51871 removes the gas-index link to the LCAP and adds actual-marginal-cost recovery when the LCAP is in effect (IMM). [e30]
+- December 2, 2021: Project 52631 sets the HCAP at $5,000 per MWh effective January 1, 2022 (IMM). [e30]
+- December 2023: the PUCT adopts the EPP, with the ECAP equal to the $2,000 LCAP; rule 25.509 as saved is effective 12/20/23 (Project 54585). [e51][e52]
+- September 26, 2024: the PUCT approves NPRR1216 and related revision requests implementing the EPP. [e41]
+- February 1, 2025 edition of the Protocols (pre-RTC): the table in force lists a single $5,000 HCAP, and the $2,000 RTSWCAP row sits in a pending NPRR1008/NPRR1216 box. [e25][e26][e27]
+- December 5, 2025: RTC+B go-live; the real-time cap becomes $2,000 while the day-ahead cap stays $5,000; EPP Phase 1 is implemented. [e18][e16][e41]
+- September 17, 2026: ERCOT files comments in Project 59550, the first five-year review, supporting the split caps. [e34][e12]
 
 ## Key facts
 
@@ -179,14 +324,17 @@ The superseded edition of Protocols Section 4 effective February 1, 2025 (before
 - The Emergency Pricing Program starts after 12 hours at the HCAP in a rolling 24 hours (PUCT rule), and sets the cap to the ECAP, equal to the LCAP value. [e7][e8]
 - The calendar-year reset: the cap returns to the HCAP at the start of each calendar year. [e3]
 - The threshold has been exceeded once, on February 16, 2021. [e9]
+- ERCOT's Table 1 (September 2026): per MW of real-time-exposed load in a 96-hour event, $480,000 at a $5,000 cap and $864,000 at the pre-Uri $9,000 cap. [e38]
 
 ## Say it like this
 
-ERCOT's high offer cap is $5,000 per MWh in the PUCT rule and for day-ahead offers, but since real-time co-optimization went live in December 2025 the real-time cap is $2,000. [e2][e16][e18] The cap falls to the $2,000 low cap for the rest of the year only if a notional peaking plant earns more than a set net margin in that year. [e4] That has happened once, in Winter Storm Uri. [e9] The PUCT rule says the reserve demand curve keeps applying when the cap drops, but the ORDC adder itself was replaced by ancillary service demand curves at RTC go-live. [e4][e22]
+(Guidance) ERCOT's high offer cap is $5,000 per MWh in the PUCT rule and for day-ahead offers, but since real-time co-optimization went live in December 2025 the real-time cap is $2,000. [e2][e16][e18] The cap falls to the $2,000 low cap for the rest of the year only if a notional peaking plant earns more than a set net margin in that year. [e4] That has happened once, in Winter Storm Uri. [e9]
+
+(Guidance) The split was designed in: ERCOT says real-time prices can still go above $2,000 through the reserve demand curves, and the lower real-time cap limits the exposure no credit rule can stop. [e35][e36]
 
 ## Common confusion
 
-The HCAP, the LCAP and the ECAP are all "the system-wide offer cap" at different times, not three separate caps in force at once. A different point: the day-ahead and real-time caps are separate parameters, and the Protocols currently list them at $5,000 and $2,000 at the same time, so "the cap is $5,000" is true day-ahead but not in real time. [e16] The peaker net margin test is on an annual calendar-year basis, whereas the Emergency Pricing Program looks at a rolling 24-hour window. [e3][e7] The Emergency Pricing Program is also not the same trigger as the peaker net margin: the first reacts to 12 hours of prices at the cap, the second to cumulative annual margin. [e3][e7]
+(Guidance) The HCAP, the LCAP and the ECAP are all "the system-wide offer cap" at different times, not three separate caps in force at once. A different point: the day-ahead and real-time caps are separate parameters, and the Protocols currently list them at $5,000 and $2,000 at the same time, so "the cap is $5,000" is true day-ahead but not in real time. [e16] A $2,000 real-time offer cap is also not a $2,000 price cap: ERCOT says the energy component of real-time LMPs can exceed $2,000 because of the ASDCs. [e35] The peaker net margin test is on an annual calendar-year basis, whereas the Emergency Pricing Program looks at a rolling 24-hour window. [e3][e7]
 
 ## Questions
 
@@ -198,23 +346,37 @@ PUCT rule 25.509 states an HCAP of $5,000 per MWh and an LCAP of $2,000 per MWh,
 
 It depends on the market and the source. The Protocol parameter table lists the day-ahead HCAP (DASWCAP) at $5,000/MWh and the real-time HCAP (RTSWCAP) at $2,000/MWh, and ERCOT's summer 2026 review says the cap was reduced to $2,000 after RTC go-live on 12/5/2025. [e16][e18] The PUCT rule text in the saved sources still states an HCAP of $5,000. [e2]
 
+### Why is the real-time cap lower than the day-ahead cap?
+
+It was built into the RTC design: NPRR1008, approved by the ERCOT Board in December 2020, already listed a $2,000 RTSWCAP. [e31][e32] ERCOT argued in September 2026 that the DAM cap lets participants hedge expected scarcity, since real-time LMPs can exceed $2,000 through the ASDCs, and that the real-time cap bounds exposure that would be uplifted in a default. [e35][e36]
+
+### What if the real-time cap were raised back to $5,000?
+
+ERCOT's illustration: a four-day (96-hour) event would accrue about $480,000 per MW of real-time-exposed load instead of about $192,000, a 150% increase, before any change in behaviour. [e37] ERCOT said any cap change should come with a credit-exposure study. [e36]
+
 ### How is the peaker net margin built?
 
 It sums, across settlement intervals, the amount by which the real-time energy price exceeds the Peaking Operating Cost. The protocol prices POC at ten times the effective daily fuel index price and measures the real-time price with the ERCOT Hub Average 345 kV Hub price. [e5][e21]
 
 ### Has the cap ever dropped to the LCAP?
 
-According to the IMM, the threshold has been exceeded only once, on February 16, 2021, during Winter Storm Uri. [e9] In 2025 the peaker net margin reached almost $79 per kW, far below the trigger. [e14][e9]
+The threshold has been exceeded only once, on February 16, 2021, during Winter Storm Uri, according to the IMM. [e9] But the PUCT suspended the LCAP that same day, because the LCAP was then tied to gas prices and would have exceeded the $9,000 HCAP, and reinstated it on March 3, 2021. [e28][e29] In 2025 the peaker net margin reached almost $79 per kW, far below the trigger. [e14][e9]
 
 ### What happens to scarcity pricing when the cap drops to the LCAP?
 
 Energy prices excluding congestion cannot exceed the LCAP plus $1. [e4] The PUCT rule says the operating reserve demand curve and reliability deployment price adder stay in force, but since RTC the ORDC adder has been replaced by ancillary service demand curves while the reliability deployment price adder remains. [e4][e22] ERCOT must reimburse resource entities for actual marginal costs above the larger of the LCAP or their real-time energy price. [e11]
 
+## Scenarios
+
+### Mid-year, the PNM crosses the threshold on a Tuesday. When do offers face the LCAP?
+
+- Tuesday (Day 1) and Wednesday (Day 2) stay at the HCAP; on Wednesday before the DAM, ERCOT sends a Market Notice. [e47]
+- From Thursday (Day 3) through December 31 the DAM and RTM use the LCAP, with ASDCs built on the updated VOLL; January 1 resets to the HCAP. [e47][e3]
+
 ## Open items
 
-- PUCT rule versus Protocols: 16 TAC 25.509 (as saved) sets one HCAP of $5,000 for energy and ancillary service offers, while the np-04 Section 4.4.11 table lists RTSWCAP at $2,000 and ERCOT's summer 2026 review says the real-time SWCAP fell to $2,000 at RTC go-live (12/5/2025). The IMM 2025 report also describes a single $5,000 SWCAP. The superseded February 2025 edition shows the $2,000 RTSWCAP row already sat in a pending box labelled NPRR1008 and NPRR1216 [e26][e27], but no saved source says which decision set the $2,000 value (a PUCT rule amendment or order, one of those NPRRs, or a TAC/Board parameter change), so the difference is unreconciled.
-- Whether the $2,000 RTSWCAP also applies to real-time ancillary service offers, and how it interacts with the EPP trigger (which compares real-time prices to the HCAP for DAM), was not traced. The Protocols (np-04 Section 4.4.11 paragraph (1)(a)(i)) test the EPP against the HCAP for DAM, while the PUCT rule says HCAP; [e23] is the Protocol wording.
-- The IMM says the $315 per kW-year trigger is three times a legacy CONE of $105 per kW-year; the protocol text says "three times the cost of new entry" and the protocol table lists $315,000 per MW-year, which matches. [e16]
-- No source in the saved set describes the history of why the HCAP was set at $5,000, or the change from the earlier cap, so none is stated.
-- The Day 1 / Day 2 / Day 3 timing of the switch to the LCAP (Section 4.4.11.1(3)) and the 24-hour duration of the Emergency Pricing Program were read but not used as quotes.
-- The Emergency Pricing Program has never been confirmed as activated in the saved sources; no activation history is given.
+- Resolved 2026-11-21: the $2,000 RTSWCAP came from NPRR1008 (ERCOT Board approval 12/8/2020, effective on RTC implementation) and took effect at RTC go-live on 12/5/2025. [e31][e32][e18] Still open: no saved source shows the PUCT's approval of NPRR1008 or an amendment of 25.509 to state a separate real-time value; the rule text as saved still says one HCAP of $5,000.
+- ERCOT's 2026 filing says "the current values were implemented in 2021" [e53]; the IMM 2021 report dates the $5,000 HCAP to a December 2, 2021 decision effective January 1, 2022. [e30] The difference is likely decision date versus effective date, but neither source says so.
+- The date and decision that raised the cap from $3,000 (2011) to $9,000 are not in the saved text. [e49][e50]
+- How the EPP trigger (HCAP for DAM, $5,000) can be reached when real-time offers are capped at $2,000 is not explained in any saved source; ERCOT only says the trigger has not been met. [e23][e40]
+- No saved source says what NPRR1216 Phase 2 contains or when it is scheduled.
