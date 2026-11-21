@@ -316,7 +316,7 @@ Read it as: the MW that could be bought for every hour of the Time Period at the
 
 The IMM describes ERS as an auction in which industrial and commercial consumers offer to be curtailed. For the 2024 program year ERCOT procured an average of 1,147 MW per hour at an average clearing price of $7.36 per MWh. [e9] For the 2025 program year (December 2024 through November 2025) the average was 1,666 MW per hour, up 45%, at $4.36 per MWh, down 41%, and the IMM says this likely reflects the influx of cryptocurrency mining facilities. [e41] By the end of 2025, cryptocurrency mining operations accounted for more than half of all ERS capacity. [e10]
 
-The IMM gives two reasons that is a problem: crypto mines that were registered as CLRs have migrated to ERS and are no longer price-responsive in SCED, and paying a price-sensitive load to curtail pays it to do what it would already do. The IMM recommends changing ERS eligibility or performance criteria to shift crypto mines out and encourage CLR registration. [e42] ERCOT staff raised a related concern in April 2026: extremely price-responsive ERS Resources self-deploy in response to high prices, which could undermine the product and drive ERS prices to inefficiently low levels. [e53]
+The IMM gives two reasons that is a problem: crypto mines that were registered as CLRs have migrated to ERS and are no longer price-responsive in SCED, and paying a price-sensitive load to curtail pays it to do what it would already do. The IMM recommends changing ERS eligibility or performance criteria to shift crypto mines out and encourage CLR registration. [e42] An ERCOT Board item dated April 13, 2026 (a resource adequacy and demand response discussion that includes a consultant study) raises a related concern: it says ERCOT has identified instances where extremely price-responsive ERS Resources self-deploy in response to high prices, which could undermine the product and drive ERS prices to inefficiently low levels. [e53]
 
 ERS deployments: the IMM counts nine events since inception, the most recent in September 2023. [e9] That year ERS was deployed on August 17 and September 6 when PRC fell below 3,000 MW. [e51] There were no ERS deployments in 2024. [e12] The IMM's 2025 report says ERCOT has not deployed ERS system wide since September 6, 2023, a deployment it attributes to transmission-related contingencies rather than insufficient capacity. [e52] In Winter Storm Uri the majority of the ERS fleet was deployed and exhausted within 12 hours. [e43]
 
@@ -370,7 +370,7 @@ The IMM argues programs like ERS compensate entities outside the energy and anci
 
 ### Why is crypto mining participation in ERS a concern?
 
-The IMM says crypto mines that migrated from CLR registration are no longer price-responsive in SCED, and that paying them to curtail essentially pays them to do what they would already do. [e42] ERCOT staff separately flagged self-deployment by price-responsive ERS Resources as a risk to the product and to ERS prices. [e53]
+The IMM says crypto mines that migrated from CLR registration are no longer price-responsive in SCED, and that paying them to curtail essentially pays them to do what they would already do. [e42] The April 2026 ERCOT Board item separately flags self-deployment by price-responsive ERS Resources as a risk to the product and to ERS prices. [e53]
 
 ### What happens when ERS obligations are used up in a contract period?
 
