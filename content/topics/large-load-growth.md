@@ -32,7 +32,7 @@ links:
     note: ERCOT estimated the maximum 4CP reduction at about 492 MW on the 22 July 2026 record day. [e11]
   - to: load-forecasting
     type: affects
-    note: Since March 1, 2026, a large load enters ERCOT's planning forecasts only after it signs a 25.194 interconnection agreement with the required disclosures and financial commitments. [e22]
+    note: Under 16 TAC 25.370 (effective March 1, 2026), a large load is to enter ERCOT's planning forecasts only after it signs a 25.194 interconnection agreement with the required disclosures and financial commitments; the 2026 forecast used alternative gating criteria until new planning cases are built in 2027. [e22][e39]
   - to: reliability-standard
     type: affects
     note: ERCOT asked to delay the 2027 reliability-standard magnitude filing because Batch Zero load values, and so the load forecast, were not final. [e31]
@@ -181,6 +181,18 @@ evidence:
     source: ercot-large-load-update-2026-04
     locator: "ERCOT Large Load Update to Senate Business & Commerce (April 1, 2026), slide 9, Related PUCT Activities"
     quote: "After 2026, only Large Loads that have executed an interconnection agreement that satisfies the requirements in PUC Project 58481 will be included in the Large Load forecast."
+  - id: e37
+    source: puct-25-370
+    locator: "16 TAC 25.370, Effective date subsection (final page)"
+    quote: "ERCOT must use load data submitted for the 2026 RTP in its transmission planning studies or resource adequacy assessments, including Regional Planning Group project submissions until ERCOT constructs new planning cases with the load data submitted by DSPs using the criteria in subsection (c) of this section."
+  - id: e38
+    source: ercot-batch-zero-update-2026-09
+    locator: "Batch Zero Update to the Board (September 14-15, 2026), slide 4"
+    quote: "ERCOT provided provisional Batch Zero Large Load project classification (base, studied, excluded) to the Interconnecting TSPs on September 3, 2026."
+  - id: e39
+    source: ercot-large-load-update-2026-04
+    locator: "ERCOT Large Load Update to Senate Business & Commerce (April 1, 2026), slide 9, Related PUCT Activities"
+    quote: "Establishes alternative gating criteria for Large Loads to be included in the 2026 Large Load Forecast, which is used in planning assessments until new cases are constructed in 2027 using new rule criteria."
 ---
 ## Definition
 
@@ -190,15 +202,15 @@ Large load growth is the wave of new Large Loads connecting to ERCOT. A Large Lo
 
 Requested MW are not the same as consumed MW. For data centers that came online in 2022 through 2024, average peak consumption per site was 49.8% of the MW they had requested. [e9] EIA (October 2024) said large flexible loads had historically consumed about 65% of their approved capacity. [e24] Crypto mining load was about 4,600 MW of demand in 2025. [e12] On the record peak day, 22 July 2026, the maximum reduction from cryptomining loads was about 3,299 MW and ERCOT estimated the maximum 4CP reduction at about 492 MW. [e11]
 
-Forecasting now has a gate. Since 16 TAC 25.370 took effect on March 1, 2026, ERCOT may not put a large load's forecast demand into planning or resource adequacy forecasts unless the customer has signed a 25.194 interconnection agreement with the required disclosures and financial commitments. [e22] ERCOT told the Senate in April 2026 that after 2026 only Large Loads with such interconnection agreements will be included in the Large Load forecast. [e36] Any other ERCOT haircut to DSP-submitted data needs PUCT approval, supported by historical realization rates or other objective, credible, independent information. [e23]
+Forecasting now has a gate, phased in. Under 16 TAC 25.370 (effective March 1, 2026), ERCOT may not put a large load's forecast demand into planning or resource adequacy forecasts unless the customer has signed a 25.194 interconnection agreement with the required disclosures and financial commitments. [e22] The rule's effective-date clause keeps ERCOT on the load data submitted for the 2026 RTP until it builds new planning cases using those criteria. [e37] ERCOT told the Senate in April 2026 that the 2026 Large Load Forecast uses alternative gating criteria until new cases are constructed in 2027, and that after 2026 only Large Loads with such interconnection agreements will be included in the Large Load forecast. [e39][e36] Any other ERCOT haircut to DSP-submitted data needs PUCT approval, supported by historical realization rates or other objective, credible, independent information. [e23]
 
-The growth also brings operating risks that ERCOT is addressing one rule at a time. Ride-through requirements for Large Computational Loads (NOGRR 282/NPRR 1308) were approved by the PUCT in July and took effect August 1, per ERCOT's September 2026 update. [e17] A further limit of 10 MW per 5 seconds on Large Load power swings is only a draft NOGRR, which ERCOT planned to submit in September or October 2026, so it is proposed and not in effect. [e13][e33] PGRR 144 (model quality requirements for Large Loads) was endorsed by TAC in August 2026 and went to the Board in September. [e32]
+The growth also brings operating risks that ERCOT is addressing one rule at a time. Ride-through requirements for Large Computational Loads (NOGRR 282/NPRR 1308) were approved by the PUCT in July and took effect August 1, per ERCOT's September 2026 update. [e17] A further limit of 10 MW per 5 seconds on Large Load power swings is only a draft NOGRR, which ERCOT planned to submit in September or October 2026, so it is proposed and not in effect. [e13][e33] PGRR 144 (model quality requirements for Large Loads) was endorsed by TAC in August 2026 and was up for Board consideration in September. [e32]
 
 ## ERCOT context
 
 The queue figure changes with every update, so always quote it with its date. It was about 239 GW in December 2025 [e4], and the same 239,000 MW, across about 400 requests, in February 2026. [e5] It was about 410 GW as of March 26, 2026 [e6], more than 438,000 MW as of mid-2026 per a June 18 explainer [e7], and about 474 GW as of June 2026 per ERCOT's July 29 Senate deck. [e8] Data centers made up about 87% to 90% of the queue. [e6][e8]
 
-Batch Zero is shrinking the number that counts. ERCOT's preliminary screen (data as of July 28, 2026) found about 205 GW eligible for Batch Zero based on existing studies. [e25] Its September 3 conditional classification put 204 projects (66.4 GW) in base load and 158 projects (127.9 GW) in studied load, and excluded 302.2 GW across 373 projects. [e26][e27] After Governor Abbott's August 3, 2026 directive for a comprehensive verification and audit of data centers, ERCOT paused approvals to energize data centers and crypto facilities of 75 MW or more. [e29][e28] In its data center RFI (preliminary, November 5, 2026), 433 of 465 loads responded, covering about 177 GW, of which Large Loads were about 166 GW. [e30][e35] As of November 6, 2026, ERCOT said it had no final load forecast because Batch Zero load values were not final. [e31]
+Batch Zero is shrinking the number that counts. ERCOT's preliminary screen (data as of July 28, 2026) found about 205 GW eligible for Batch Zero based on existing studies. [e25] Its conditional classification, sent to TSPs on September 3, 2026, put 204 projects (66.4 GW) in base load and 158 projects (127.9 GW) in studied load, and excluded 302.2 GW across 373 projects. [e38][e26][e27] After Governor Abbott's August 3, 2026 directive for a comprehensive verification and audit of data centers, ERCOT paused approvals to energize data centers and crypto facilities of 75 MW or more. [e29][e28] In its data center RFI (preliminary, November 5, 2026), 433 of 465 loads responded, covering about 177 GW, of which Large Loads were about 166 GW. [e30][e35] As of November 6, 2026, ERCOT said it had no final load forecast because Batch Zero load values were not final. [e31]
 
 Forecasts are far below the queue but still large. The IMM cites projected 2030 load of 138 GW to 148 GW (base and adjusted), with a high scenario up to 209 GW. [e19] It also reports a preliminary forecast of 367,790 MW peak by 2032, more than four times the 85,508 MW record it cites. [e20] The IMM's view (a recommendation, not a rule) is that a resource adequacy constraint should be applied to load interconnection so ERCOT does not approve physically infeasible load. [e21]
 
@@ -209,10 +221,10 @@ Actual operations in 2025-2026 looked much calmer than the queue. The IMM found 
 - December 2025: about 239 GW seeking interconnection, with more than three times as many Large Load requests as in 2024. [e4]
 - March 26, 2026: about 410 GW, about 87% data centers. [e6]
 - June 2026: about 474 GW, about 90% data centers. [e8]
-- September 3, 2026 conditional Batch Zero classification: 66.4 GW base (204 projects), 127.9 GW studied (158 projects), 302.2 GW excluded (373 projects). [e26][e27]
+- September 3, 2026 conditional Batch Zero classification: 66.4 GW base (204 projects), 127.9 GW studied (158 projects), 302.2 GW excluded (373 projects). [e38][e26][e27]
 - 2022-2024 data centers: peak use averaged 49.8% of requested MW. [e9]
 - 22 July 2026 peak: up to about 3,299 MW of crypto reduction and an estimated maximum 4CP reduction of about 492 MW. [e11]
-- Forecast gate: signed 25.194 interconnection agreement required (rule effective March 1, 2026). [e22]
+- Forecast gate: signed 25.194 interconnection agreement required (rule effective March 1, 2026; the 2026 forecast used alternative gating criteria until new cases in 2027). [e22][e39]
 
 ## Timeline
 
@@ -221,7 +233,7 @@ Actual operations in 2025-2026 looked much calmer than the queue. The IMM found 
 - December 2025: the queue is about 239 GW. [e4]
 - February 2026: about 400 requests totalling 239,000 MW. [e5]
 - February 23, 2026: ERCOT flags a Far West Texas local load shed risk. [e16]
-- March 1, 2026: 25.370 forecasting criteria take effect. [e22]
+- March 1, 2026: 25.370 forecasting rule takes effect; its interconnection-agreement criteria apply once new planning cases are built (2027 per ERCOT). [e22][e37][e39]
 - March 26, 2026: the queue is about 410 GW. [e6]
 - Mid-2026 (June 18 explainer): more than 438,000 MW. [e7]
 - June 2026 (July 29 Senate deck): about 474 GW. [e8]
@@ -233,7 +245,7 @@ Actual operations in 2025-2026 looked much calmer than the queue. The IMM found 
 
 ## Say it like this
 
-(Guidance) ERCOT's large load queue is several times its record peak, and it is mostly data centers. [e5][e8] History says only part of the requested MW actually shows up and runs, and since March 2026 the rule lets only loads with signed interconnection agreements count in planning forecasts. [e9][e22] Batch Zero has already cut the study set to under 200 GW of base and studied load, and the real questions are how much of that gets built and whether generation and transmission can keep up. [e26][e18]
+(Guidance) ERCOT's large load queue is several times its record peak, and it is mostly data centers. [e5][e8] History says only part of the requested MW actually shows up and runs, and the March 2026 rule will let only loads with signed interconnection agreements count in planning forecasts once new planning cases are built. [e9][e22][e39] Batch Zero has already cut the study set to about 194 GW of base and studied load (66.4 GW plus 127.9 GW, this knowledge base's own sum of ERCOT's conditional figures), and the real questions are how much of that gets built and whether generation and transmission can keep up. [e26][e18]
 
 ## Common confusion
 
@@ -255,7 +267,7 @@ On 22 July 2026 the maximum reduction from cryptomining loads was about 3,299 MW
 
 ### Why doesn't ERCOT just forecast the whole queue?
 
-The rule forbids it: a large load enters planning and resource adequacy forecasts only with a signed 25.194 interconnection agreement and the required financial commitments. [e22] History also argues against it, with data centers using about half their requested MW at peak. [e9]
+The rule forbids it: under 25.370 a large load enters planning and resource adequacy forecasts only with a signed 25.194 interconnection agreement and the required financial commitments, although the 2026 forecast used alternative gating criteria until new cases are built in 2027. [e22][e39] History also argues against it, with data centers using about half their requested MW at peak. [e9]
 
 ### What if Batch Zero's studied load all shows up by 2032?
 

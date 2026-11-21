@@ -14,7 +14,7 @@ links:
     note: The shadow price is the marginal cost of redirecting flow around a binding constraint. [e5]
   - to: shift-factor
     type: related
-    note: ERCOT posts shift factors with the binding constraints each hour. [e2]
+    note: ERCOT posts the binding constraints and, in the same hourly MIS Secure Area posting, Shift Factors by Resource Node, Hub, Load Zone and DC Tie. [e2][e30]
   - to: gtc
     type: related
     note: A GTC is a constraint used to manage stability, voltage and other limits that cannot be modeled directly in ERCOT's powerflow applications. [e9]
@@ -26,7 +26,7 @@ links:
     note: Constraints identified by NSA are activated in SCED, and each binding constraint's competitive designation is posted per SCED execution. [e1][e6]
   - to: market-power-mitigation
     type: related
-    note: Each binding constraint is designated Competitive or Non-Competitive; how that feeds mitigation was not sourced here. [e6]
+    note: Each binding constraint is designated Competitive or Non-Competitive; a Non-Competitive determination is one condition for mitigation in SCED Step 2 (Protocol 3.19.4(7)(a)). [e6][e33]
   - to: system-lambda
     type: related
     note: The shadow price caps for network and power balance constraints are set under Section 22, Attachment P. [e15]
@@ -35,10 +35,10 @@ links:
     note: Committing additional Generation Resources through RUC is one of the steps ERCOT may take if SCED does not resolve a security violation. [e14]
   - to: crr
     type: related
-    note: Congestion rent from binding constraints funds CRRs; the IMM says the financial right to congestion rent accrues to CRR holders. [e29]
+    note: The IMM says congestion rent is based on locational price differences and that the financial right to it accrues to CRR holders. [e29]
   - to: energy-storage-resource
     type: related
-    note: The IMM says ESRs can resolve congestion by charging or discharging and may explain the fall in violated constraints. [e24]
+    note: The IMM says ESRs are particularly well suited to help resolve congestion because they can act as both supply and demand, and that growing ESR participation may partly explain the fall in violated constraints. [e32][e24]
 evidence:
   - id: e1
     source: np-06
@@ -156,6 +156,22 @@ evidence:
     source: imm-som-2025
     locator: "Executive overview, congestion rent"
     quote: "Congestion rent, which equals the difference between what consumers pay and generators receive, is based on locational price differences. The financial right to this congestion rent accrues to holders of CRRs."
+  - id: e30
+    source: np-06
+    locator: "Section 6.5.7.1.13, hourly MIS Secure Area postings, paragraph (3)(c)"
+    quote: "(c) Shift Factors, including Private Use Network Settlement Points, by Resource Node, Hub, Load Zone, and DC Tie."
+  - id: e31
+    source: imm-som-2025
+    locator: "Transmission Congestion and CRRs, Violated Constraints"
+    quote: "When the marginal cost of procuring relief through market dispatch exceeds the reliability cost of violating the constraint, the shadow price caps will: a) prevent the market from incurring additional dispatch costs; and b) set the shadow price for the constraint, which determines congestion prices at locations that affect the violated constraint."
+  - id: e32
+    source: imm-som-2025
+    locator: "page 85 (OCR), Congestion Management by ESRs"
+    quote: "ESRs are particularly well suited to help resolve congestion because they can act as both supply and demand."
+  - id: e33
+    source: np-03
+    locator: "Section 3.19.4, paragraph (7)(a)"
+    quote: "(a) A constraint has been determined to be a Non-Competitive Constraint by either the SCED CCT or the IMM;"
 ---
 
 ## Definition
@@ -170,9 +186,9 @@ evidence:
 
 **If SCED cannot solve it.** ERCOT may confirm RAPs are modeled, instruct Resources to follow Base Points, deploy Resource-Specific Non-Spin, commit more Generation through RUC, remove conflicting non-cascading constraints, override HDLs and LDLs, instruct TSPs to use reactive devices, and, if everything else has failed, authorize expedited use of a Temporary Outage Action Plan or Mitigation Plan. [e14] Constraint Management Plans include RAPs, AMPs, PCAPs, EAPs, TOAPs and Mitigation Plans. [e20] A Remedial Action Scheme detects predetermined abnormal conditions and takes corrective action automatically; one proposed on or after June 24, 2020 may not be approved unless ERCOT first determines it is necessary to avoid an actual or anticipated violation that market tools cannot resolve. [e21]
 
-**Binding versus violated, and the cap.** A constraint is violated when market dispatch flows exceed its transmission limit; the shadow price is the marginal cost of redirecting flow around the binding constraint. [e5] ERCOT sets a maximum Shadow Price for each network constraint under Section 22, Attachment P, so the cost SCED calculates to resolve an additional MW of congestion on it is limited to that maximum. [e15]
+**Binding versus violated, and the cap.** The IMM says a constraint is violated when market dispatch flows exceed its transmission limit, and the shadow price is the marginal cost of redirecting flow around the binding constraint. [e5] ERCOT sets a maximum Shadow Price for each network constraint under Section 22, Attachment P, so the cost SCED calculates to resolve an additional MW of congestion on it is limited to that maximum. [e15]
 
-**Competitive or non-competitive.** Before each SCED execution the SCED Constraint Competitiveness Test is run on every active constraint; it requires, among other conditions, an Element Competitiveness Index below the import-side threshold and that the constraint could be resolved by eliminating a Resource's capacity, otherwise that Entity is marked pivotal. [e17] The SCED ECI threshold (ECIT2) is 2300. [e19] The IMM may designate any constraint as competitive or non-competitive, and its designation overrides the SCED test for the effective dates. [e18] Each binding constraint's designation is posted hourly. [e6] A non-competitive constraint is one not found competitive under the Section 3.19 tests. [e3]
+**Competitive or non-competitive.** Before each SCED execution the SCED Constraint Competitiveness Test is run on every active constraint; it requires, among other conditions, an Element Competitiveness Index below the import-side threshold (ECIT2) and that the constraint can be resolved by eliminating all of a DME's Managed Available Capacity on the import side (except nuclear and minimum-energy coal and lignite capacity); if it cannot be resolved, the DME is marked as the pivotal player. [e17] The SCED ECI threshold (ECIT2) is 2300. [e19] The IMM may designate any constraint as competitive or non-competitive, and its designation overrides the SCED test for the effective dates. [e18] Each binding constraint's designation is posted hourly. [e6] A non-competitive constraint is one not found competitive under the Section 3.19 tests. [e3]
 
 **Reporting.** ERCOT must report monthly security violations of 125% or more of the Emergency Rating for a single SCED interval, or above 100% for 30 minutes or more, with occurrences and congestion cost per constraint on a rolling 12-month basis. [e16]
 
@@ -224,11 +240,11 @@ ERCOT can use manual tools including RUC commitment, Non-Spin deployment, HDL/LD
 
 ### Why would a constraint be non-competitive, and what follows?
 
-If it fails the SCED test (for example ECI at or above the 2300 threshold, or a pivotal Entity), it is Non-Competitive, and non-competitive status is one condition for applying mitigation in SCED Step 2. [e17][e19]
+If it fails the SCED test (for example ECI at or above the 2300 threshold, or a pivotal Entity), it is Non-Competitive, and a Non-Competitive determination by the SCED CCT or the IMM is one of the conditions for applying mitigation to a Resource in SCED Step 2 (the other conditions concern pivotal-player status or ECI share and Shift Factors). [e17][e19][e33]
 
 ### What if a constraint's shadow price would exceed the cap?
 
-SCED's cost to resolve an additional MW is limited to the maximum Shadow Price, so the constraint may be violated rather than resolved at any price. [e15][e5]
+SCED's cost to resolve an additional MW is limited to the maximum Shadow Price, and per the IMM, when the marginal cost of relief exceeds the reliability cost of violating the constraint, the shadow price cap prevents additional dispatch costs and sets the constraint's shadow price, so the constraint may be violated rather than resolved at any price. [e15][e31]
 
 ## Open items
 

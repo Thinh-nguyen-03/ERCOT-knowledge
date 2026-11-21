@@ -20,16 +20,16 @@ links:
     note: A QSE may not combine energy-only offers, energy bids and PTP Obligation bids to create the net effect of a PTP between electrically similar points. [e4]
   - to: three-part-supply-offer
     type: contrasts-with
-    note: A Three-Part Supply Offer is Resource-specific, while a DAM Energy-Only Offer Curve is not. [e1]
+    note: A Three-Part Supply Offer is made for a Generation Resource, while a DAM Energy-Only Offer Curve is not Resource-specific. [e47][e1]
   - to: settlement-point
     type: related
     note: Each offer and bid is at a specific Settlement Point, and the payment or charge for cleared quantities is calculated from that point's Day-Ahead Settlement Point Price. [e1][e2][e16][e17]
   - to: qse
     type: related
-    note: Only a QSE can submit these offers and bids. [e15][e5]
+    note: A QSE submits these offers and bids. [e15][e5]
   - to: ruc
     type: related
-    note: Virtual offers have no Resource and no Startup Offer, so they are separate from the three-part offers RUC uses for commitments. [e1]
+    note: A DAM Energy-Only Offer Curve is not Resource-specific, whereas a Three-Part Supply Offer is made for a Generation Resource and includes a Startup Offer. [e1][e47]
   - to: ancillary-services
     type: related
     note: Since December 6, 2025 the DAM has also allowed virtual AS positions, which are strictly financial positions. [e11]
@@ -41,7 +41,7 @@ links:
     note: A QSE's DAM bids and offers must fit within the Counter-Party's credit limit for DAM participation. [e23]
   - to: trading-hub
     type: related
-    note: Hubs are one of the Settlement Point types at which DAM bids and offers settle in Real-Time as imbalance. [e9]
+    note: The Real-Time Energy Imbalance calculation at a Hub includes DAM Energy Bids and energy offers cleared at the Hub Settlement Point. [e9]
 evidence:
   - id: e1
     source: np-02
@@ -199,6 +199,38 @@ evidence:
     source: imm-som-2025
     locator: "Appendix, section B, after Table A2 (OCR)"
     quote: "Virtual offers for AS were not introduced to the day-ahead market until December 6, so physical-resource offers drove the elevated prices."
+  - id: e40
+    source: np-06
+    locator: "Section 6.6.3.3, paragraph (2), Hub imbalance formula"
+    quote: "RTEIAMT _(q, p) = (-1) * RTSPP _(p) * {(SSSK _(q, p) * ¼) + (DAEP _(q, p) * ¼) + (RTQQEP _(q, p) * ¼) – (SSSR _(q, p) * ¼) – (DAES _(q, p) * ¼) – (RTQQES _(q, p) * ¼)}"
+  - id: e41
+    source: np-02
+    locator: "Section 2.2, acronym DASWCAP"
+    quote: "DASWCAP Day-Ahead System-Wide Offer Cap"
+  - id: e42
+    source: np-04
+    locator: "Section 4.4.10, paragraph (6)(a)"
+    quote: "For a DAM Energy Bid or for each MW portion of the bid portion of an Energy Bid/Offer Curve, the credit exposure shall be calculated as the quantity of the bid multiplied by a bid exposure price that is calculated as follows:"
+  - id: e43
+    source: np-04
+    locator: "Section 4.4.10, paragraph (6)(b)(iii)"
+    quote: "ERCOT may, in its sole discretion, use a percentile other than the dp^(th) percentile of the hourly difference between Real-Time Settlement Point Price and DASPP (where any negative differences are set to zero) over the previous 30 days in determining credit exposure per this paragraph (6)(b) in evaluating DAM Energy-Only Offers."
+  - id: e44
+    source: imm-som-2025
+    locator: "Appendix, section B, after Table A2"
+    quote: "Excluding RegDown, elevated dayahead market prices on December 5, 2025, and during Winter Storm Fern on January 21-27, 2026, account for 57-75% of the average day-ahead market premium for energy and up-reserve products."
+  - id: e45
+    source: imm-som-2025
+    locator: "Appendix, section B, Convergence between DAM and RT"
+    quote: "Ultimately, including virtual AS positions in the day-ahead market clearing should lead to greater convergence between day-ahead and real-time prices for AS."
+  - id: e46
+    source: np-04
+    locator: "Section 4.4.10, paragraph (10)(a), default parameter values"
+    quote: "d percentile 85 ep1 percentile 95 a percentile 50 b percentile 45 dp percentile 90 ep2 percentile 0 e2 value 0 e3 value 1"
+  - id: e47
+    source: np-02
+    locator: "Section 2.1, definition of Three-Part Supply Offer"
+    quote: "An offer made by a QSE for a Generation Resource that it represents containing three components: a Startup Offer, a Minimum-Energy Offer, and an Energy Offer Curve."
 
 ---
 
@@ -208,21 +240,21 @@ The IMM describes an energy-only, or virtual, bid or offer as a location-specifi
 
 ## How it works
 
-Both instruments can be made only in the DAM, and a QSE must submit them by 1000 for the effective DAM. [e1][e15][e5] Unlike a Three-Part Supply Offer, a DAM Energy-Only Offer Curve is not tied to a Resource. [e1] An offer curve must fall between -$250.00 per MWh and the DAM system-wide offer cap, with a minimum of one MW. [e3][e13] An offer curve is monotonically non-decreasing in price and quantity with at most ten price/quantity pairs and no more than two consecutive pairs at the same price or quantity. [e19] A bid curve is monotonically non-increasing in price and increasing in quantity, with the same limits on pairs, and a DAM Energy Bid has a one MW minimum. [e20][e21] If ERCOT rejects an offer as invalid it notifies the QSE through the Messaging System and the QSE may resubmit within the market timeline, except where the offer breaks the rule against combining virtuals into a synthetic PTP. [e22]
+Both instruments can be made only in the DAM, and a QSE must submit them by 1000 for the effective DAM. [e1][e14][e15][e5] A Three-Part Supply Offer is made for a Generation Resource, whereas DAM Energy-Only Offer Curves are not Resource-specific. [e47][e1] An offer curve must fall between -$250.00 per MWh and the DASWCAP (the Day-Ahead System-Wide Offer Cap), with a minimum of one MW. [e3][e41][e13] An offer curve is monotonically non-decreasing in price and quantity with at most ten price/quantity pairs and no more than two consecutive pairs at the same price or quantity. [e19] A bid curve is monotonically non-increasing in price and increasing in quantity, with the same limits on pairs, and a DAM Energy Bid has a one MW minimum. [e20][e21] If an offer is rejected or considered invalid for any reason, ERCOT notifies the QSE through the Messaging System and the QSE may then resubmit within the market timeline; the one exception to the notice duty is paragraph (4) of Section 4.4.9.5.1, the rule against combining virtuals into a synthetic PTP. [e22][e4]
 
-A cleared offer is paid, and a cleared bid is charged, based on the Day-Ahead Settlement Point Price at its Settlement Point. [e6][e8][e16][e17] The position does not stay in the DAM: the cleared quantities enter the QSE's Real-Time Energy Imbalance calculation at the Real-Time Settlement Point Price. At a Hub the amounts are DAM Energy Bids cleared (added) and energy offers cleared (subtracted), alongside self-schedules and energy trades. [e9] The Resource Node calculation lists the same DAM cleared bids and offers, [e32] and the Load Zone calculation is built the same way (the Load Zone text is quoted only by its header here). [e33] The cleared quantity is therefore paid or charged at the Day-Ahead Settlement Point Price in the DAM and again, in the imbalance calculation, at the Real-Time Settlement Point Price. [e16][e17][e9]
+A cleared offer is paid, and a cleared bid is charged, based on the Day-Ahead Settlement Point Price at its Settlement Point. [e6][e8][e16][e17] The position does not stay in the DAM: the cleared quantities enter the QSE's Real-Time Energy Imbalance calculation at the Real-Time Settlement Point Price. At a Hub the amounts are DAM Energy Bids cleared (added) and energy offers cleared (subtracted), alongside self-schedules and energy trades. [e9] The Resource Node calculation lists the same DAM cleared bids and offers, [e32] and the Load Zone calculation also uses the Real-Time Settlement Point Price for a list of amounts (only the header of that list is quoted here). [e33] In the formulas, a cleared DAM Energy Bid quantity (DAEP) enters the Day-Ahead charge as DASPP * DAEP and the Hub Real-Time imbalance amount inside a term multiplied by (-1) * RTSPP, so the two amounts carry opposite signs. [e17][e40]
 
 There is a guard against disguising a congestion position: energy-only offers, energy bids and PTP Obligation bids may not be combined to create the net effect of one PTP Obligation between electrically similar Settlement Points. [e4]
 
 **Credit for DAM bids and offers.** A QSE's ability to bid and offer in the DAM is subject to its credit exposure being within the credit limit for DAM participation set for the whole Counter-Party, taking into account the other QSEs' accepted bids and offers. [e23] Bids and offers of all of a Counter-Party's QSEs are accepted in the order submitted so long as accepted exposure does not exceed that limit. [e24] ERCOT rejects an individual bid or offer whose exposure exceeds the limit and notifies the QSE through the MIS Certified Area. [e25]
 
-Bid exposure: a DAM Energy Bid priced at or below zero has a bid exposure price of zero. [e26] For a bid priced above zero, the exposure price is the greater of zero or the sum of (A) the lesser of the d-th percentile of the Day-Ahead Settlement Point Price for the hour over the previous 30 days and the bid price, and (B) a factor e1 times the amount by which the bid price exceeds (A). [e27][e28] Exposure is the quantity of the bid times that bid exposure price. [e27] Offer exposure: for a DAM Energy-Only Offer priced above the a-th percentile of the hourly DASPP over the previous 30 days, exposure is increased by the offer quantity times the dp-th percentile of the positive hourly difference between Real-Time and Day-Ahead Settlement Point Prices over the previous 30 days times e3. [e29] The exposure adjustment values e1, e2 and e3 are each between zero and one, rounded to the nearest hundredth, and set by ERCOT by Counter-Party. [e30] The percentile parameters a, d and dp are not given as numbers in the saved text. During the morning each Business Day, from no later than 0800 to 0945, ERCOT posts each active Counter-Party's remaining Available Credit Limit for that day's DAM approximately every 15 minutes. [e31]
+Bid exposure: a DAM Energy Bid priced at or below zero has a bid exposure price of zero. [e26] For a bid priced above zero, the exposure price is the greater of zero or the sum of (A) the lesser of the d-th percentile of the Day-Ahead Settlement Point Price for the hour over the previous 30 days and the bid price, and (B) a factor e1 times the amount by which the bid price exceeds (A). [e27][e28] Exposure is the quantity of the bid times that bid exposure price. [e42] Offer exposure: for a DAM Energy-Only Offer priced above the a-th percentile of the hourly DASPP over the previous 30 days, exposure is increased by the offer quantity times the dp-th percentile of the positive hourly difference between Real-Time and Day-Ahead Settlement Point Prices over the previous 30 days times e3. [e29] ERCOT may in its sole discretion use a percentile other than the dp-th in evaluating DAM Energy-Only Offers. [e43] The exposure adjustment values e1, e2 and e3 are each between zero and one, rounded to the nearest hundredth, and set by ERCOT by Counter-Party. [e30] The saved Section 4.4.10(10)(a) table gives default values (labelled current, and updated by Board approval) of 85 for d, 95 for ep1, 50 for a, 45 for b, 90 for dp, 0 for e2 and 1 for e3. [e46] During the morning each Business Day, from no later than 0800 to 0945, ERCOT posts each active Counter-Party's remaining Available Credit Limit for that day's DAM approximately every 15 minutes. [e31]
 
 ## ERCOT context
 
 Day-ahead energy purchased through generator-specific offers and virtual energy offers equaled 59% of real-time load in 2023 (as the IMM's 2023 report states, remaining at the 2022 volume), 61% in 2024 and 62% in 2025, which the IMM calls in line with recent years. [e35][e34][e10] The IMM says market participants can arbitrage predictable differences between day-ahead and real-time prices, resulting in price convergence. [e12]
 
-Since December 6, 2025, the DAM has also allowed virtual Ancillary Service positions, which are strictly financial positions not associated with any physical resources. [e11] The IMM describes these as financial hedges on the real-time price for reserves. [e36] With the implementation of RTC, the IMM says day-ahead AS awards no longer create a physical obligation to provide reserves in real time but function as financial positions, like energy awards. [e37] In the IMM's Table A2 (labelled "December 5, 2026, through February 2026" in the OCR, which appears to be a typo for 2025), the day-ahead average price was $50.21 per MWh for energy against $37.03 in real time, a 36% DART premium; for ECRS the day-ahead average was $3.67 against $0.71 in real time, a 420% premium. [e38] The IMM says virtual offers for AS were not introduced until December 6, so physical-resource offers drove the elevated prices on RTC go-live day. [e39]
+Since December 6, 2025, the DAM has also allowed virtual Ancillary Service positions, which are strictly financial positions not associated with any physical resources. [e11] The IMM describes these as financial hedges on the real-time price for reserves. [e36] With the implementation of RTC, the IMM says day-ahead AS awards no longer create a physical obligation to provide reserves in real time but function as financial positions, like energy awards. [e37] In the IMM's Table A2 (labelled "December 5, 2026, through February 2026" in the OCR, which appears to be a typo for 2025; the IMM names Winter Storm Fern, 21-27 January 2026, as one of two events behind a disproportionate share of the early premium [e44]), the day-ahead average price was $50.21 per MWh for energy against $37.03 in real time, a 36% DART premium; for ECRS the day-ahead average was $3.67 against $0.71 in real time, a 420% premium. [e38] The IMM says virtual offers for AS were not introduced until December 6, so physical-resource offers drove the elevated prices; the preceding sentence names December 5, 2025 and Winter Storm Fern as the elevated-price events. [e39][e44]
 
 ## Key facts
 
@@ -236,7 +268,7 @@ Since December 6, 2025, the DAM has also allowed virtual Ancillary Service posit
 
 ## Say it like this
 
-A virtual is the IMM's term for an energy-only bid or offer at a Settlement Point, which is not tied to a Resource. The cleared quantity settles at the day-ahead price and then enters the real-time imbalance calculation at the real-time price, so the position earns or loses the difference between the two. The IMM links arbitrage of day-ahead versus real-time differences to price convergence. [e12]
+(Guidance) A virtual is the IMM's term for an energy-only bid or offer at a Settlement Point, which is not tied to a Resource. The cleared quantity settles at the day-ahead price and also enters the real-time imbalance calculation at the real-time price. [e16][e40] The IMM links arbitrage of day-ahead versus real-time differences to price convergence. [e12]
 
 ## Common confusion
 
@@ -246,7 +278,7 @@ Virtuals are not PTP Obligations. A virtual is a single-location energy position
 
 ### What is the difference between a DAM Energy-Only Offer and a Three-Part Supply Offer?
 
-An Energy-Only Offer is a willingness to sell at a Settlement Point and is not Resource-specific. [e1] A Three-Part Supply Offer is tied to a Resource (see the Three-Part Supply Offer topic). In the DAM, payment goes to either kind of cleared sale. [e6]
+An Energy-Only Offer is a willingness to sell at a Settlement Point and is not Resource-specific. [e1] A Three-Part Supply Offer is made for a Generation Resource. [e47] In the DAM, payment goes to either kind of cleared sale. [e6]
 
 ### How does a virtual position close out?
 
@@ -258,7 +290,7 @@ Because market participants can arbitrage predictable day-ahead and real-time di
 
 ### Why do virtual AS positions exist under RTC?
 
-Under RTC day-ahead AS awards are financial positions like energy awards, and the IMM expects virtual AS positions in day-ahead clearing to lead to greater convergence between day-ahead and real-time AS prices. [e37][e11]
+Under RTC day-ahead AS awards are financial positions like energy awards, and the IMM says including virtual AS positions in day-ahead clearing should lead to greater convergence between day-ahead and real-time prices for AS. [e37][e45]
 
 ### What happens if a QSE's virtual bids exceed its Counter-Party's DAM credit limit?
 
@@ -273,7 +305,7 @@ The Protocols prohibit combining energy-only offers, energy bids and PTP Obligat
 - The protocols saved here never use the word "virtual"; the term comes from the IMM report. [e7]
 - The saved sources do not say whether every DAM Energy Bid is a virtual: the protocol definition of a DAM Energy Bid does not mention who may submit it or why.
 - The Load Zone imbalance quantity list (np-06 Section 6.6.3.2) was cited only by its header; the Resource Node and Hub lists are quoted.
-- The credit percentile parameters (a, d, dp) and the default values for e1 to e3 (paragraph (10)) were not read into this entry.
+- The favorable-treatment parameter values in Section 4.4.10(10)(b) and the effect of the b, ep2, y, z, u, t and bd parameters are not covered here.
 - IMM profitability of virtuals and volume by Settlement Point: the saved IMM text gives only the share of real-time load; no table of virtual volumes or profits was found.
 - Virtual AS rules under RTC: np-04 Section 4.4.7 as saved does not use the word "virtual" and describes Ancillary Service Only Offers (priced at $0 or more per MW up to the DASWCAP, minimum 0.1 MW); how these relate to the IMM's virtual AS positions is not stated in the saved text.
 - Table A2 period: the OCR header reads "December 5, 2026, through February 2026"; the text beside it refers to December 5, 2025 and January 2026, so the year looks like an OCR or typographical error.

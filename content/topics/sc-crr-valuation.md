@@ -29,7 +29,7 @@ links:
     note: 2025 day-ahead congestion rose 26%, driven by the North and West zones. [e13]
   - to: gtc
     type: affects
-    note: The number of active GTCs was 26 in 2025, up from 18 in 2021, and GTCs carry the $5,251 per MW base-case cap. [e16][e33]
+    note: The number of active GTCs was 26 in 2025, up from 18 in 2021, and in 2025 GTCs carried the $5,251 per MW base-case cap. [e16][e33]
   - to: basis-risk
     type: related
     note: PTP Obligations settled in the DAM pay on the Day-Ahead price difference, while real-time congestion was about 7% higher than day-ahead in 2025. [e2][e12]
@@ -192,6 +192,10 @@ evidence:
     source: imm-som-2025
     locator: "page 87 (OCR), Chapter V.E.1, CRR Auction Timeline"
     quote: "NPRR 1288, approved in November 2025, eliminated this block purchase option by removing multi-month blocks to reduce auction optimization time. As a result, participants now purchase CRRs only for individual months, even in long-term auctions that cover multiple future months."
+  - id: e41
+    source: np-07
+    locator: "Section 7.5.1(1), pending box [NPRR1288: Replace paragraph (1) above with the following upon system implementation]"
+    quote: "in one-month strips and allows for the reconfiguration of all CRR blocks that were previously awarded for the months covered by that CRR Auction."
   - id: e39
     source: np-07
     locator: "Section 7.5.1, paragraph (2)(b)"
@@ -210,9 +214,9 @@ This scenario is about putting a price on a CRR, a financial right to day-ahead 
 
 Know what you are paid. A PTP obligation bought in the CRR auction pays or charges the difference in Day-Ahead Settlement Point Prices between sink and source. [e2] An option can only pay; an obligation can pay or charge. [e3] So the expected value is the expected day-ahead sink-minus-source spread over the hours of the CRR, compared with the auction price. The Protocols treat a PTP Obligation acquired in the DAM differently: it is paid or charged on the Real-Time price difference. [e35] If ERCOT cannot run the DAM at all, PTP Obligations are settled on Real-Time price differences. [e36]
 
-Know what you buy. CRRs are auctioned in Time Of Use blocks with the same MW in every hour of the block: 5x16 (hours ending 0700-2200 on weekdays), 2x16 (the same hours on weekends and NERC holidays) and 7x8 (hours ending 0100-0600 and 2300-2400 every day). [e22] Since NPRR 1288 (approved November 2025), the IMM says participants buy CRRs only for individual months, even in long-term auctions. [e38] ERCOT's 2020 training shows how a 7x24 bid in the monthly auction is tested against the three block prices weighted by their hours: (224x$2 + 128x$3 + 320x$8) / 672 = $5.048, so a $6 bid is awarded. [e23]
+Know what you buy. CRRs are auctioned in Time Of Use blocks with the same MW in every hour of the block: 5x16 (hours ending 0700-2200 on weekdays), 2x16 (the same hours on weekends and NERC holidays) and 7x8 (hours ending 0100-0600 and 2300-2400 every day). [e22] Since NPRR 1288 (approved November 2025), the IMM says participants buy CRRs only for individual months, even in long-term auctions. [e38] The saved Protocols edition (effective 2025-12-05) still carries the one-month-strip wording as a pending NPRR1288 box. [e41] ERCOT's 2020 training shows how a 7x24 bid in the monthly auction is tested against the three block prices weighted by their hours: (224x$2 + 128x$3 + 320x$8) / 672 = $5.048, so a $6 bid is awarded. [e23]
 
-Spreads come from binding constraints. The IMM measures day-ahead congestion value as flow on each constraint times its shadow price. [e14] In 2025 day-ahead congestion rose 26%, led by the North zone (where ERCOT used heavy RUC to manage congestion) and the West zone (where transmission has lagged renewables and Permian load). [e13] The West is export constrained in the Panhandle and import constrained in the Permian Basin, and congestion within the West rose 27% from 2024 to 2025. [e34] Active GTCs rose to 26 in 2025 from 18 in 2021, and ERCOT treats them as base-case stability constraints with a $5,251 per MW shadow price cap. [e16][e33]
+Spreads come from binding constraints. The IMM measures day-ahead congestion value as flow on each constraint times its shadow price. [e14] In 2025 day-ahead congestion rose 26%, led by the North zone (where ERCOT used heavy RUC to manage congestion) and the West zone (where transmission has lagged renewables and Permian load). [e13] The West is export constrained in the Panhandle and import constrained in the Permian Basin, and congestion within the West rose 27% from 2024 to 2025. [e34] Active GTCs rose to 26 in 2025 from 18 in 2021, and in 2025 ERCOT treated them as base-case stability constraints with a $5,251 per MW shadow price cap. [e16][e33]
 
 The auction price works the same way. ERCOT's CRR handbook says a CRR's clearing price equals its shadow price in the auction: for a PTP Obligation, the sum of binding constraint shadow prices times their shift factors; for a PTP Option, the same sum using only non-negative shift factors. [e20] The CRR Network Model uses the peak Load conditions of the month being modeled and must include outages expected to significantly affect transfer capability. [e39][e7] The Simultaneous Feasibility Test confirms the grid can support all awarded CRRs under normal conditions. [e6]
 
@@ -231,7 +235,7 @@ Clearing price of a CRR (ERCOT handbook): the sum over binding auction constrain
 ## Key facts
 
 - Auction-bought PTP obligations settle on the day-ahead sink-minus-source price difference; DAM-bought ones settle on the real-time difference. [e2][e35]
-- TOU blocks: 5x16, 2x16 and 7x8; since NPRR 1288 (approved November 2025) CRRs are sold as single months. [e22][e38]
+- TOU blocks: 5x16, 2x16 and 7x8; the IMM says that since NPRR 1288 (approved November 2025) CRRs are sold as single months (the saved Protocols edition still shows this as a pending box). [e22][e38][e41]
 - Auction capacity: 90% monthly; 70% down to 10% across the six long-term windows. [e19][e5]
 - CRR profitability rose 21% in 2025 after a 1.5% net loss in 2024. [e10]
 - Real-time congestion was about 7% higher than day-ahead congestion in 2025. [e12]
@@ -247,7 +251,7 @@ Clearing price of a CRR (ERCOT handbook): the sum over binding auction constrain
 - Define the payoff. Each hour pays HB_NORTH minus the source node in the DAM, and it can be a charge if the spread reverses. [e2][e3]
 - Decide the blocks. You bid 5x16, 2x16 and 7x8 separately, each with the same MW in every hour of the block. [e22]
 - Find the constraints between the two points. The IMM calculates day-ahead congestion values as the product of power flows over each constraint and the constraint's shadow price. [e14] The auction prices the path the same way, as the sum of binding constraint shadow prices times shift factors. [e20]
-- Look at history and trend. Day-ahead congestion rose 26% in 2025, with the West zone a main driver; the Panhandle is export constrained, and congestion within the West rose 27% in 2025. [e13][e34] Active GTCs grew from 18 in 2021 to 26 in 2025, and they carry the $5,251 per MW cap. [e16][e33]
+- Look at history and trend. Day-ahead congestion rose 26% in 2025, with the West zone a main driver; the Panhandle is export constrained, and congestion within the West rose 27% in 2025. [e13][e34] Active GTCs grew from 18 in 2021 to 26 in 2025, and in 2025 they carried the $5,251 per MW cap. [e16][e33]
 - Check outages. The CRR model uses peak Load conditions and includes outages expected to affect transfer capability, but unforeseen outages between the auction and the DAM can reduce transmission capability and leave CRRs short-funded. [e39][e7][e8]
 - Check sink deration. This path sinks at a hub, but obligations that sink at a Resource Node can be cut for oversold elements. [e15]
 - (Reasoning) Build hour-by-hour scenarios and value each block separately, since the spread may differ by hour; for Panhandle-to-North, the hours with high wind are where the export constraint is most likely to bind.
@@ -260,7 +264,7 @@ Clearing price of a CRR (ERCOT handbook): the sum over binding auction constrain
 - The option never charges you if the spread reverses, so its value is only the positive part of the hourly spread. [e3]
 - Its clearing price counts only non-negative shift factors, so it is priced differently from the obligation on the same path. [e20]
 - Less capacity is on offer: only 70% to 10% of capacity depending on the window, because the IMM says long-dated congestion is harder to forecast. [e5][e37]
-- You buy a single month, not a multi-month strip, under NPRR 1288. [e38]
+- According to the IMM, you buy a single month, not a multi-month strip, under NPRR 1288. [e38] The saved Protocols edition still shows the one-month-strip rule as a pending box, so confirm implementation before relying on it. [e41]
 - (Reasoning) The option costs more than the obligation for the same expected spread because it removes the downside; pay for it when the spread can flip, for example when wind is low and the West import side binds instead.
 
 ## Questions
@@ -313,3 +317,4 @@ The auction credit requirement adds up obligation-bid, option-bid and obligation
 - No source gives typical auction prices or realized values for specific Panhandle or West-North paths; the IMM's September 2026 monthly report lists top PTP pairs by auction value only in a chart whose values did not extract.
 - The full AOBLCR term (how the adder and EACP combine in the Min() term) is in a formula line that was not quoted; only the ACR total and variable definitions are cited.
 - How much capacity PCRR allocations take from a given path in a given month is not published in the saved sources.
+- NPRR1288 (one-month strips only): the IMM 2025 report says participants now buy single months, but the saved np-07 edition (effective 2025-12-05) shows it as a pending box; the implementation date is not in the saved sources.

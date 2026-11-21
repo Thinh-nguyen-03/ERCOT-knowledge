@@ -44,7 +44,7 @@ links:
     note: FERC's 2024 Energy Primer says FERC regulates all RTOs/ISOs except ERCOT; ERCOT's design rule is PUCT rule 25.501. [e32][e1]
   - to: nodal-protocols
     type: related
-    note: ERCOT's guiding principles for proposals that change the Nodal Market start with improving price signals and dispatch efficiency. [e33]
+    note: The non-binding Guiding Principles of the Nodal Market, for proposals that change the Nodal Market, start with improving price signals and dispatch efficiencies. [e33][e40]
 evidence:
   - id: e1
     source: puct-25-501
@@ -198,6 +198,14 @@ evidence:
     source: ercot-ordc-report-2024
     locator: "2024 Biennial ERCOT Report on the ORDC, footnote 9"
     quote: "The Nodal Market began on December 1, 2010."
+  - id: e39
+    source: imm-som-2010
+    locator: "2010 State of the Market Report, Transmission and Congestion, A. Electricity Flows between Zones"
+    quote: "In 2010 there were four commercial pricing zones in ERCOT: (a) the North Zone, (b) the West Zone, (c) the South Zone, and (d) the Houston Zone."
+  - id: e40
+    source: ercot-nodal-guiding-principles
+    locator: "Guiding Principles of the Nodal Market, Guiding Principles list"
+    quote: "An NPRR or market change proposal should strive to further the following guiding principles of the Nodal Market: - Improve price signals - Improve dispatch efficiencies"
 ---
 
 ## Definition
@@ -206,7 +214,7 @@ The nodal market is ERCOT's wholesale design in which resources are priced at no
 
 ## How it works
 
-PUCT rule 25.501 sets the design. ERCOT must price energy, ancillary services and congestion using economic principles such as the shadow price of a constraint, marginal cost pricing, and maximizing the sum of consumer and producer surplus, except as otherwise directed by the commission. [e3] Resources are settled at their nodal LMP, and load at its zonal price. A resource-to-load scheduled transaction pays congestion equal to the difference between the resource's nodal LMP and the load zone price. [e2]
+PUCT rule 25.501 sets the design. ERCOT must price energy, ancillary services and congestion using economic principles such as the shadow price of a constraint, marginal cost pricing, and maximizing the sum of consumer and producer surplus, except as otherwise directed by the commission. [e3] Under the rule's congestion-pricing paragraph, resource imbalances are settled at their nodal LMP and load imbalances at the zonal price, and a resource-to-load scheduled transaction pays congestion equal to the difference between the resource's nodal LMP and the load zone price. [e2]
 
 Prices settle at Settlement Points, and each Settlement Point is a Resource Node, a Load Zone or a Hub. [e5] Hubs are averages of nodal prices that ERCOT publishes for each settlement interval. [e10] Day-ahead Settlement Point Prices are calculated for a one-hour Settlement Interval from DAM LMPs, while real-time Settlement Point Prices use a 15-minute Settlement Interval. [e37] LMPs are calculated at individual generation and load nodes, but load pays the load-weighted average price of its zone. That smooths volatility and makes hedging easier, but it averages some congestion costs across customers. [e6] The rule tells ERCOT to keep zones stable and to give market participants advance notice of zonal boundary changes so they have time to adjust. [e29]
 
@@ -216,13 +224,13 @@ The market runs in layers. Real-time prices come from SCED, which sets base poin
 
 What nodal replaced. Under the zonal design (in place from 2001 to the end of November 2010, per the IMM), constraints were handled in two ways: constraints between zones were managed through the balancing energy market, which raised output in one zone and lowered it in another, and all other ("local") constraints were managed by redispatching individual generators. [e20][e22] The zonal dispatch software (SPD) modelled four zone-based locations and five interfaces called Commercially Significant Constraints (CSCs), simplified representations of groups of transmission elements. [e23]
 
-Why it changed, in the IMM's account. The IMM wrote in 2011 that because every generator in a zone was assumed to have the same effect on a zonal constraint, zonal congestion management caused significant operational inefficiency and uncertainty; local constraints were managed by paying generators to move off their schedules, and because those payments were collected from all loads, generators had no incentive to consider the state of the transmission system when scheduling. [e24] In the zonal market only congestion on the CSCs could be hedged, and all other congestion costs were uplifted to all loads. [e26] The IMM listed the nodal improvements as unit-specific offers and shift factors, simultaneous resolution of all transmission congestion, dispatch on actual output instead of schedules, and 5-minute instead of 15-minute dispatch. [e25] It also called a centralized day-ahead market one of the fundamental improvements of the nodal design [e27], and said shortage pricing under nodal let energy prices rise automatically to the system-wide offer cap during operating reserve shortages, which the zonal market did not do reliably. [e28] During market trials, it reported, use of the West to North interface rose from 64 percent to 83 percent. [e36]
+Why it changed, in the IMM's account. The IMM wrote in 2011 that because every generator in a zone was assumed to have the same effect on a zonal constraint, zonal congestion management caused significant operational inefficiency and uncertainty; local constraints were managed by paying generators to move off their schedules, and because those payments were collected from all loads, generators had no incentive to consider the state of the transmission system when scheduling. [e24] In the zonal market only congestion on the CSCs could be hedged, and all other congestion costs were uplifted to all loads. [e26] The IMM listed the nodal improvements as unit-specific offers and shift factors, simultaneous resolution of all transmission congestion, dispatch on actual output instead of schedules, and 5-minute instead of 15-minute dispatch. [e25] It also called a centralized day-ahead market one of the fundamental improvements of the nodal design [e27], and said that shortage pricing mechanisms more reliable and efficient than those in the zonal market let energy prices rise automatically up to the system-wide offer cap during operating reserve shortages. [e28] During market trials, it reported, use of the West to North interface rose from 64 percent to 83 percent. [e36]
 
 Zonal settlement for load trades signal accuracy for smoother prices, and the quality of the signal depends on the zones. [e6] The IMM says ERCOT set the four current load zones in 2003: North, West, South and Houston. [e7] The Protocols also define a Non-Opt-In Entity (NOIE) Load Zone as a type of Load Zone. [e17] The IMM argues that LMP signals are only as accurate as the match between load zones and persistent transmission constraints. [e6]
 
 The zonal layer has real costs. The IMM's 2025 report says controllable load resources are dispatched and settled at zonal prices, which hurts CLRs at low-cost nodes, such as in the Panhandle, where the zonal price is often above their actual cost of service. [e14] NPRR 1188, approved by the PUCT in November 2024, will introduce nodal pricing for CLRs [e15]; the IMM reports that its implementation is not complete and that ERCOT project management schedules it for January 2027. [e35] In the November 2026 Protocols an NPRR1188 definition (Energy Bid Curve) is still marked for insertion "upon system implementation". [e16] On the operations side, the IMM reported that in 2025 the rate of transmission constraints violated because they were too expensive to resolve fell to its lowest level since the nodal market was implemented. [e13]
 
-Who governs it. FERC's 2024 Energy Primer says FERC regulates all RTOs/ISOs except ERCOT [e32]; ERCOT's nodal design is set by PUCT rule 25.501. [e1] ERCOT keeps a non-binding set of guiding principles of the Nodal Market for entities drafting NPRRs or other market change proposals. [e33]
+Who governs it. FERC's 2024 Energy Primer says FERC regulates all RTOs/ISOs except ERCOT [e32]; ERCOT's nodal design is set by PUCT rule 25.501. [e1] A non-binding Guiding Principles of the Nodal Market document gives general principles that entities may use when drafting NPRRs or other market change proposals. [e33]
 
 ## Timeline
 
@@ -251,13 +259,13 @@ Who governs it. FERC's 2024 Energy Primer says FERC regulates all RTOs/ISOs exce
 
 (Guidance) In ERCOT every generator is paid the price at its own node, and that price includes the cost of transmission congestion, while load pays an average price across its load zone. That gives generators sharp location signals and gives retail load a smoother, easier-to-hedge price, at the cost of averaging some congestion inside each zone.
 
-(Guidance) ERCOT went nodal on December 1, 2010. Before that, congestion inside a zone was socialised to all loads, which the IMM said left generators with no reason to care where they were on the grid. [e20][e24]
+(Guidance) ERCOT went nodal on December 1, 2010. Before that, the cost of managing local congestion was collected from all loads, which the IMM said left generators with no incentive to consider the state of the transmission system when scheduling their output. [e20][e24]
 
 ## Common confusion
 
 (Guidance) "Nodal" does not mean everyone settles at a node. Resources do, but load settles at the load zone price. [e2][e6] Hubs are not physical locations. They are averages of nodal prices. [e10] And CRRs are financial instruments, not rights to physically use transmission. [e9]
 
-(Guidance) Today's four load zones are not leftovers of the zonal market's pricing: the zones date from 2003, but under nodal they are averages of nodal prices used to settle load, whereas in the zonal market they were the dispatch and pricing locations themselves. [e7][e22][e23] Also, IMM reports sometimes count nodal from 2011 because that was the first full year; the go-live was December 1, 2010. [e20]
+(Guidance) Today's four load zones (North, West, South, Houston) date from 2003, inside the zonal era, and the zonal market in 2010 had four commercial pricing zones with the same names; what changed is their role. Under nodal they are averages of nodal prices used to settle load, whereas in the zonal market the zones were the dispatch locations themselves. [e7][e39][e22][e23] Also, the IMM's 2011 report was its first to cover an entire year of nodal operation; the go-live was December 1, 2010. [e20]
 
 ## Questions
 

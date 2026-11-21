@@ -38,7 +38,7 @@ links:
     note: ERCOT pays each QSE for Ancillary Service Capacity procured in the DAM and each QSE pays for its share. [e35]
   - to: ruc-make-whole
     type: related
-    note: RUC make-whole costs are first allocated to capacity-short QSEs. [e9]
+    note: The IMM reports that RUC make-whole costs are first allocated to capacity-short QSEs. [e9]
   - to: retailer-defaults-2021
     type: related
     note: See the case topic for retailer default events.
@@ -223,7 +223,7 @@ A QSE is a Market Participant that ERCOT has qualified to communicate with ERCOT
 
 **Data Agent-Only QSEs.** An entity may register as a Data Agent-Only QSE if, among other conditions, it is not also a CRR Account Holder, does not participate in the DAM, RTM or ERS market, and has no decision-making authority over the Resources for which it provides agency services. [e18]
 
-**When a QSE leaves or fails.** The following paragraphs cover termination and suspension. [e7]
+**When a QSE leaves or fails.** A "Virtual QSE" is an LSE or Resource Entity that has not qualified and been designated as an Emergency QSE, but has been designated by ERCOT to temporarily perform the responsibilities of a QSE. [e7]
 
 **QSE-initiated termination.** If a QSE intends to stop representing a Resource Entity that owns or controls a Resource in the Network Operations Model, it must give ERCOT and the Resource written notice at least 45 days before the Termination Date; for an LSE, or a Resource Entity without such a Resource, the notice is at least 12 Business Days. Neither applies where the entity serves as its own QSE. [e21] The terminating QSE stops representing the entity at 2400 on the Termination Date and remains responsible for settlement obligations it incurred before then, but is released earlier if the entity affiliates with a new QSE or qualifies as an Emergency QSE before that date. [e22] By noon on the fourth Business Day after the termination notice date the LSE or Resource Entity must designate a new QSE or satisfy QSE creditworthiness requirements and operate as an Emergency QSE. [e23]
 
@@ -275,7 +275,7 @@ It is the risk of financial default posed to ERCOT or its Market Participants by
 
 ### Why does a terminating QSE stay on the hook after it gives notice?
 
-Because the termination takes effect at 2400 on the Termination Date, and the QSE remains responsible for settlement obligations it incurred before then and must keep participating in Real-Time Operations through that date. [e22] The notice period is long for a Resource that is in the Network Operations Model (45 days) and shorter for an LSE (12 Business Days). [e21]
+The termination takes effect at 2400 on the Termination Date, and the QSE remains responsible for settlement obligations it incurred before then and must keep participating in Real-Time Operations through that date. [e22] The notice period is long for a Resource that is in the Network Operations Model (45 days) and shorter for an LSE (12 Business Days). [e21]
 
 ### What if an LSE's QSE leaves and the LSE does nothing?
 
@@ -290,7 +290,7 @@ No. Each Subordinate QSE is treated as an individual QSE except for liability, f
 ### A REP's QSE is terminated for default. What happens to the REP's customers?
 
 - ERCOT notifies the affected LSEs of the suspension or termination and its effective date. [e37]
-- The REP (an LSE) is a Virtual QSE for up to two Bank Business Days, and must designate a new QSE or satisfy creditworthiness and operate as an Emergency QSE. [e8]
+- The REP (an LSE) is a Virtual QSE for up to two Bank Business Days, and must designate a new QSE or satisfy creditworthiness and operate as an Emergency QSE; the Emergency QSE option does not apply where the REP is the same Entity as the terminated or suspended QSE. [e8]
 - If it becomes an Emergency QSE, it may only represent itself and only submit buyer-side trades and DAM Energy Bids to serve its Customers' Load. [e25]
 - Within seven Business Days of Emergency QSE designation it must name a QSE or become fully qualified; if not, ERCOT initiates a Mass Transition of its ESI IDs. [e26][e38]
 

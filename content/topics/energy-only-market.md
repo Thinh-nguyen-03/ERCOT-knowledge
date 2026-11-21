@@ -228,7 +228,7 @@ evidence:
 
 ## Definition
 
-An energy-only market relies mainly on expected shortage revenue in the energy and ancillary service markets to attract investment in new generation, with no separate capacity payment. [e1] ERCOT uses this design. It does not have a capacity market. [e2] FERC regulates all RTOs/ISOs except ERCOT, and FERC staff note that most RTOs/ISOs run a capacity market that lets LSEs meet their reserve obligation. [e19][e20]
+An energy-only market relies mainly on expected shortage revenue in the energy and ancillary service markets to attract investment in new generation. [e1] ERCOT uses this design. It does not have a capacity market. [e2] FERC regulates all RTOs/ISOs except ERCOT, and FERC staff note that most RTOs/ISOs run a capacity market that lets LSEs meet their reserve obligation. [e19][e20]
 
 ## How it works
 
@@ -240,7 +240,7 @@ In ERCOT, before RTC went live in December 2025, that shortage pricing came from
 
 The design has a built-in tension. To produce investment revenue, the market has to go short on capacity, so energy-only markets can struggle to meet a 1-in-10 reliability standard. [e1] The IMM says meeting such a standard through shortage prices alone needs a very high value of lost load (VOLL), and that this is why most RTOs have adopted capacity constructs. [e10] In FERC staff's description, capacity markets are meant to give more certainty for investment in new capacity while letting all resources recover fixed costs over time. [e20]
 
-There is also a brake on excess scarcity rent. The system-wide offer cap starts each year at the high cap (HCAP) and stays there until peaker net margin (PNM) passes three times CONE. [e8] If it does, the cap is set to the low cap (LCAP) for the rest of the calendar year; ERCOT keeps applying the ORDC and reliability deployment price adder, but energy prices, excluding congestion, may not exceed the LCAP plus $1. [e38] The IMM puts the threshold at $315 per kW-year and describes the cut as $5,000 to $2,000 per MWh. [e7] That description does not mention the RTC split: the Protocol parameter table now lists the day-ahead cap at $5,000 and the real-time cap at $2,000 per MWh, and ERCOT says the SWCAP was reduced to $2,000 from $5,000 after RTC go-live on 12/5/2025. [e17][e18] A second brake comes from statute: the emergency pricing program must take effect if the HCAP has been in effect for 12 hours in a 24-hour period. [e41]
+There is also a brake on excess scarcity rent. The system-wide offer cap starts each year at the high cap (HCAP) and stays there until peaker net margin (PNM) passes three times CONE. [e8] If it does, the cap is set to the low cap (LCAP) for the rest of the calendar year, and energy prices, excluding congestion, may not exceed the LCAP plus $1. [e38] The rule text still says ERCOT will continue to apply the operating reserve demand curve and the reliability deployment price adder in that event, although the ORDC adder was discontinued in December 2025 with RTC. [e38][e15] The IMM puts the threshold at $315 per kW-year and describes the cut as $5,000 to $2,000 per MWh. [e7] That description does not mention the RTC split: the Protocol parameter table now lists the day-ahead cap at $5,000 and the real-time cap at $2,000 per MWh, and ERCOT says the SWCAP was reduced to $2,000 from $5,000 after RTC go-live on 12/5/2025. [e17][e18] A second brake comes from statute: the emergency pricing program must take effect if the HCAP has been in effect for 12 hours in a 24-hour period. [e41]
 
 ## Formula
 
@@ -298,13 +298,13 @@ The Legislature has limited any move toward capacity credits: PURA caps the net 
 
 (Guidance) ERCOT does not pay for capacity. Generators earn their fixed costs back mostly in a few tight hours when shortage pricing kicks in, so investment depends on expected scarcity, not a guaranteed payment. That makes revenue lumpy: one soft year does not mean the design has failed, but it does fuel the debate over whether price signals alone can deliver the reliability standard.
 
-(Guidance) If asked where the debate stands: the IMM defends shortage pricing and blames over-procured reserves and out-of-market programs for weak signals; ERCOT and its consultants stress near-term scarcity from load growth; the PUCT sits between them with a 0.1 LOLE standard and a $1 billion statutory cap on any capacity-credit program. [e36][e47][e42][e14]
+(Guidance) If asked where the debate stands: the IMM defends shortage pricing and blames over-procured reserves and out-of-market programs for weak signals; a CRA report to the ERCOT Board stresses near-term scarcity from load growth; the PUCT sits between them with a 0.1 LOLE standard, and PURA caps any capacity-credit program at $1 billion a year. [e36][e47][e42][e14]
 
 ## Common confusion
 
 (Guidance) "Energy-only" does not mean only energy is sold. Ancillary service revenue is part of the investment signal. [e3] It also does not mean prices are uncapped: the offer cap and the PNM mechanism limit scarcity rent. [e7][e8] And low net revenue in a given year is not by itself proof of market failure. [e6]
 
-(Guidance) There are two CONE numbers. The $140 per kW-year planning CONE is what the IMM compares net revenue with; the $105 legacy CONE still sets the $315 PNM threshold. [e30][e5]
+(Guidance) There are two CONE numbers. The $140 per kW-year planning CONE is what the IMM compares net revenue with; the $105 legacy CONE still sets the $315 PNM threshold. [e30][e5][e7]
 
 ## Questions
 
