@@ -171,7 +171,7 @@ evidence:
   - id: e33
     source: np-04
     locator: "Section 4.4.12, pending box [NPRR1309: Replace paragraph (9) above ... upon system implementation]"
-    quote: "The DRRS ASDC will have a floor price of $10 per MW per hour, applied in the DAM and RTM, for the portion of the DRRS ASDC that corresponds to the Ancillary Service Plan for DRRS."
+    quote: "(10) All ASDCs, with the exception of DRRS, will have a floor price, based on ERCOT’s assessment of the need for a floor price on the ASDC for RUC, such that no values on the curve for any Ancillary Service fall below $15 per MW per hour for the portion of the ASDC that corresponds to the Ancillary Service Plan. The DRRS ASDC will have a floor price of $10 per MW per hour, applied in the DAM and RTM, for the portion of the DRRS ASDC that corresponds to the Ancillary Service Plan for DRRS."
   - id: e34
     source: ercot-nprr1309-puct-report
     locator: "NPRR1309 PUCT Report, approved language for Section 4.4.12(7)(b), minimum prices table"
@@ -268,6 +268,34 @@ evidence:
     source: ercot-nprr1309-puct-report
     locator: "NPRR1309 PUCT Report, Summary of PRS Discussion (4/15/26)"
     quote: "Participants proposed additional desktop edits to the 4/9/26 Joint Commenters comments to maintain the current four-hour duration for Non-Spin and to clarify language related to ramping expectations for Resources providing DRRS."
+  - id: e58
+    source: ercot-nprr1309-puct-report
+    locator: "NPRR1309 PUCT Report, approved language for Section 4.4.12(7)(b)(v)"
+    quote: "(v) Fifth, extract evenly spaced 1 MW AORDC segments extending from MCL to the minimum DRRS price. These segments form the nonlinear portion of the DRRS ASDC; and"
+  - id: e59
+    source: ercot-nprr1309-puct-report
+    locator: "NPRR1309 PUCT Report, approved language for new Section 4.6.4.1.6(1), payment formula and PCDRR definition"
+    quote: "PCDRRAMT _(q) = (-1) * MCPCDRR _(DAM) * PCDRR _(q)"
+  - id: e60
+    source: ercot-nprr1309-puct-report
+    locator: "NPRR1309 PUCT Report, approved language for new Section 4.6.4.1.6, variable table (PCDRR)"
+    quote: "Procured Capacity for Dispatchable Reliability Reserve Service per QSE in DAM—The total DRRS capacity quantity awarded to QSE q in the DAM for all the Resources represented by this QSE for the hour."
+  - id: e61
+    source: ercot-nprr1309-puct-report
+    locator: "NPRR1309 PUCT Report, approved language for new Section 4.6.4.1.6(2), Ancillary Service Only Offers"
+    quote: "(2) ERCOT shall pay each QSE whose Ancillary Service Only Offers to provide DRRS to ERCOT were cleared in the DAM, for each hour as follows: DAPCDRROAMT _(q) = (-1) * MCPCDRR _(DAM) * DADRROAWD _(q)"
+  - id: e62
+    source: ercot-nprr1309-comments-2026-05
+    locator: "ERCOT comments on NPRR1309, Board item 15.1.2.3, slide 6, duration requirements"
+    quote: "April TAC voted to approve reducing Non-Spin duration to 2 hours"
+  - id: e63
+    source: imm-nprr1309-comments-2026-02
+    locator: "IMM comments on NPRR1309 (February 3, 2026), introduction"
+    quote: "We commend ERCOT for addressing our major concerns with the NPRR1235 proposal and are pleased to offer our qualified support for NPRR1309."
+  - id: e64
+    source: ercot-drrs-workshop-3
+    locator: "TAC DRRS Workshop 3 (March 9, 2026), slide 2, agenda"
+    quote: "New IMM/ERCOT proposal for DRRS demand curve under NPRR 1309"
 ---
 ## Definition
 
@@ -285,9 +313,9 @@ NPRR1309 also changes Non-Spin: its revision description says that, given DRRS h
 
 ## Formula
 
-Pricing. In the approved text, DRRS gets its own ASDC as the fifth product cut from the AORDC, with a minimum price of $0.01/MWh (against ECRS $15 and Non-Spin $5 in the same table). [e34] The DRRS ASDC has a floor of $10 per MW per hour, applied in the DAM and RTM, over the part that matches the DRRS AS Plan; the other ASDCs keep the $15 floor. [e33] RUC does not get a DRRS ASDC. [e35] The real-time DRRS MCPC is the time-weighted average, over the SCED intervals in the 15-minute Settlement Interval, of the DRRS MCPC plus the Reliability Deployment Price Adder for DRRS. [e29]
+Pricing. In the approved text, DRRS gets its own ASDC as the fifth product cut from the AORDC [e58], with a minimum price of $0.01/MWh (against ECRS $15 and Non-Spin $5 in the same table). [e34] The DRRS ASDC has a floor of $10 per MW per hour, applied in the DAM and RTM, over the part that matches the DRRS AS Plan; the other ASDCs keep the $15 floor. [e33] RUC does not get a DRRS ASDC. [e35] The real-time DRRS MCPC is the time-weighted average, over the SCED intervals in the 15-minute Settlement Interval, of the DRRS MCPC plus the Reliability Deployment Price Adder for DRRS. [e29]
 
-Settlement. In the DAM, each QSE whose DRRS offers cleared is paid the DAM DRRS MCPC times its awarded MW, hour by hour. [e28] DRRS capacity counts in the QSE's RUC Capacity Short charge. [e21] DRRS deployments do not qualify for RUC Make-Whole Payments or RUC Clawback Charges, and for RUC blocks contiguous with a DRRS deployment only minimum-energy costs go into the RUC Guarantee. [e22]
+Settlement. In the DAM, each QSE whose Resource-specific DRRS offers cleared is paid, for each hour, PCDRRAMT = (−1) × MCPCDRR(DAM) × PCDRR, where PCDRR is the total DRRS capacity awarded to the QSE in the DAM for all its Resources for the hour. [e28][e59][e60] DRRS-only (Ancillary Service Only) awards are paid the same DAM MCPC times the DRRS-only award. [e61] DRRS capacity counts in the QSE's RUC Capacity Short charge. [e21] DRRS deployments do not qualify for RUC Make-Whole Payments or RUC Clawback Charges, and for RUC blocks contiguous with a DRRS deployment only minimum-energy costs go into the RUC Guarantee. [e22]
 
 ## ERCOT context
 
@@ -297,7 +325,7 @@ DRRS took three tries. NPRR1203 (2023) proposed it as a subtype of Non-Spin to m
 
 The demand curve changed during review. As filed, it was a linear curve sloping down from $150/MW/h; ERCOT's workshop example used an illustrative 1,500 MW requirement. [e36][e56] The IMM criticized that curve in February 2026 (it fell linearly to a $10 floor, and ERCOT had not reported the empirical basis for its endpoints or shape). [e48] ERCOT and the IMM then filed joint comments on April 9, 2026; their proposal replaced the linear curve with one derived from the AORDC and set minimum prices for each ASDC. [e46][e37] ERCOT proposed the $10 floor to reflect DRRS's lower reliability value relative to Non-Spin's $15 floor; TCPA had proposed removing the exemption from the $15 floor. [e38][e55]
 
-Non-Spin duration was the fight. LCRA called the two-hour Non-Spin change premature without more analysis, and Vistra said it was not required for DRRS and should wait for the 2029 AS methodology review. [e31][e32] The IMM wanted one hour (February 2026), co-proposed two hours with ERCOT, and on April 24, 2026 withdrew support for the PRS version, which had been desktop-edited to keep four hours. [e49][e46][e57][e47] TAC then restored two hours and recommended approval with five opposing votes. [e9][e16] ERCOT says it will do a holistic analysis of AS quantities and durations before DRRS goes live. [e44]
+Non-Spin duration was the fight. LCRA called the two-hour Non-Spin change premature without more analysis, and Vistra said it was not required for DRRS and should wait for the 2029 AS methodology review. [e31][e32] The IMM wanted one hour (February 2026), co-proposed two hours with ERCOT, and on April 24, 2026 withdrew support for the PRS version, which had been desktop-edited to keep four hours. [e49][e46][e57][e47] TAC then voted to reduce Non-Spin to two hours and recommended approval with five opposing votes. [e62][e9][e16] ERCOT says it will do a holistic analysis of AS quantities and durations before DRRS goes live. [e44]
 
 The IMM's position is a party view: it wants DRRS kept a reserve product, not a resource-adequacy tool, and warns that DRRS procurement volumes are still unknown. [e45][e50] In its 2025 report it said that, if implemented correctly, DRRS under NPRR1309 should reduce reliance on costly out-of-market actions. [e14] ERCOT's NPRR1310 "Release Factor", which needs explicit PUCT direction, would let part of a larger DRRS quantity overlap other awards to support resource adequacy. [e40]
 
@@ -319,12 +347,12 @@ The IMM's position is a party view: it wants DRRS kept a reserve product, not a 
 - 2025-11-06: PUCT designates DRRS a key priority in ERCOT's budget approval. [e53]
 - 2025-11-20: ERCOT withdraws NPRR1235 and files NPRR1309 (On-Line and Off-Line, co-optimized). [e7]
 - 2025-12-08: ERCOT Board designates NPRR1309 a Board Priority Revision Request (Urgent). [e8]
-- 2026-02-03: IMM gives qualified support, criticizes the linear demand curve, asks for a one-hour Non-Spin. [e48][e49]
-- 2026-03-09: TAC DRRS Workshop 3 presents the linear curve and a new joint IMM/ERCOT curve proposal. [e36]
+- 2026-02-03: IMM gives qualified support, criticizes the linear demand curve, asks for a one-hour Non-Spin. [e63][e48][e49]
+- 2026-03-09: TAC DRRS Workshop 3 presents the linear curve and a new joint IMM/ERCOT curve proposal. [e36][e64]
 - 2026-03-26: PUCT guidance (Open Meeting) to keep the four-hour DRRS duration for now and handle ESR participation in a separate NPRR, as reported by ERCOT. [e43][e41]
 - 2026-04-09: joint ERCOT/IMM comments (AORDC-based DRRS curve, two-hour Non-Spin). [e46][e37]
 - 2026-04-15: PRS recommends approval with desktop edits keeping four-hour Non-Spin; 2026-04-24 the IMM withdraws support. [e57][e47]
-- 2026-04-29: TAC recommends approval with the two-hour Non-Spin (five "no" votes). [e9]
+- 2026-04-29: TAC recommends approval with the two-hour Non-Spin (five "no" votes). [e9][e62]
 - 2026-06-02: ERCOT Board votes unanimously to recommend approval; ERCOT states implementation in 2028. [e10][e39]
 - 2026-06-10: ERCOT files NPRR1340 and NOGRR288 for storage participation in DRRS (pending). [e13]
 - 2026-07-09: PUCT approves NPRR1309. [e11]
@@ -358,7 +386,7 @@ ERCOT says the $10 floor reflects DRRS's lower relative reliability value in rea
 
 ### Why was cutting Non-Spin to two hours contested?
 
-The IMM and ERCOT argued that four-hour needs now carried as Non-Spin would be covered by DRRS. [e49][e46] LCRA called the change premature without more analysis, and Vistra said it was not required for DRRS and should wait for the 2029 AS methodology review. [e31][e32] TAC adopted two hours. [e9][e16]
+The IMM and ERCOT argued that four-hour needs now carried as Non-Spin would be covered by DRRS. [e49][e46] LCRA called the change premature without more analysis, and Vistra said it was not required for DRRS and should wait for the 2029 AS methodology review. [e31][e32] TAC adopted two hours. [e62][e9][e16]
 
 ### What if RUC commits a unit that holds a DRRS award?
 
@@ -374,8 +402,8 @@ The IMM says DRRS volumes are still unknown and could add to what it sees as alr
 
 - The unit must reach its award within two hours and run at least four consecutive hours, and the DRRS MW cannot also back other energy or AS commitments. [e4][e26]
 - Off-Line it would sit in the "DRRS" status and be called through RUC, at 100% of its DRRS capability. [e23][e24]
-- Revenue is the DAM or RTM DRRS MCPC; deployments carry no RUC make-whole. [e28][e22]
-- The DRRS ASDC floor is $10 per MW per hour over the DRRS plan, but the plan size is not yet set. [e33][e50]
+- DRRS is paid in both the DAM and the RTM; the DAM payment is the DAM DRRS MCPC times the awarded MW; deployments carry no RUC make-whole. [e19][e28][e59][e22]
+- The DRRS ASDC floor is $10 per MW per hour over the DRRS plan, but the IMM said in April 2026 that DRRS procurement volumes were still unknown. [e33][e50]
 
 ## Open items
 

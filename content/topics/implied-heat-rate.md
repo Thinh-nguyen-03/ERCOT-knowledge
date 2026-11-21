@@ -38,7 +38,7 @@ links:
     note: The IMM ties the rise of the implied heat rate with load to resources with higher marginal costs being dispatched as load approaches peak. [e15]
   - to: evening-ramp
     type: related
-    note: The IMM's price-spike threshold is an implied heat rate of 18, and most 2025 spikes fell in the evening net load peak. [e8]
+    note: The IMM's price-spike threshold is an implied heat rate of 18, and most 2025 spikes fell in the evening net load peak. [e8][e23]
 evidence:
   - id: e1
     source: imm-som-2025
@@ -128,6 +128,10 @@ evidence:
     source: imm-som-2025
     locator: "Chapter I, section 2, Implied Heat Rates (page 26 (OCR))"
     quote: "Figure 2 shows the implied marginal heat rates for each month of 2025 and annually for 2021-2025."
+  - id: e23
+    source: imm-som-2025
+    locator: "Chapter I, section 4, Price Spike Impacts, text after Figure 4"
+    quote: "As in 2024, most price spikes in 2025 occurred during the peak net load hours between 7 and 9 p.m., when solar production across the state ramped down for the day."
 ---
 
 ## Definition
@@ -136,7 +140,7 @@ The implied heat rate, as the IMM calculates it, is the power price divided by t
 
 ## Formula
 
-Implied heat rate = real-time power price ($ per MWh) divided by the fuel price ($ per MMBtu), which gives a result in MMBtu per MWh. [e2][e1] The IMM's reports do not print the formula as an equation; the division is described in prose, and the unit follows from dividing $/MWh by $/MMBtu. For comparison, EIA writes the spark spread as power price minus natural gas price times heat rate, so the implied heat rate is the heat rate at which that spread is zero. [e20] A physical heat rate converts to efficiency by dividing 3,412 Btu (the Btu content of a kWh) by the heat rate. [e19]
+Implied heat rate = real-time power price ($ per MWh) divided by the fuel price ($ per MMBtu), which gives a result in MMBtu per MWh. [e2][e1] The IMM's reports do not print the formula as an equation; the division is described in prose, and the unit follows from dividing $/MWh by $/MMBtu. For comparison, EIA writes the spark spread as power price minus natural gas price times heat rate, so, by the knowledge base's own arithmetic from that equation, the implied heat rate is the heat rate at which that spread is zero. [e20] A physical heat rate converts to efficiency by dividing 3,412 Btu (the Btu content of a kWh) by the heat rate. [e19]
 
 ## How it works
 
@@ -195,7 +199,7 @@ Because real-time prices are driven largely by gas prices, dividing out the fuel
 
 ### Why does the implied heat rate rise with load?
 
-The IMM gives two reasons: higher-marginal-cost resources are dispatched as load approaches peak, and ORDC adders occur more often as load rises. [e15]
+In its 2022 report the IMM gives two reasons: higher-marginal-cost resources are dispatched as load approaches peak, and ORDC adders occur more often as load rises. [e15]
 
 ### What if gas prices jump 61% but power prices rise less?
 
