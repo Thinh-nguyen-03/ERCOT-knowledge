@@ -216,47 +216,74 @@ evidence:
 
 ## Definition
 
-The PUCT is the state commission that certifies ERCOT as the independent organization for the ERCOT power region. It is also the regulator to which ERCOT is directly responsible and accountable. [e1][e2]
+The PUCT is the state commission that certifies ERCOT as the independent organization for the ERCOT power region. It is also the regulator to which ERCOT is directly responsible and accountable. [e1][e2] It has five commissioners appointed by the governor with the advice and consent of the senate. [e19]
 
 ## How it works
 
-PURA gives the PUCT the job of adopting and enforcing rules on the reliability of the regional network and on accounting for electricity production and delivery. It may delegate those responsibilities to an independent organization, and that organization (ERCOT) is accountable to the commission. [e2]
+Who sits on it. The commission has five commissioners appointed by the governor with senate consent, serving staggered six-year terms. [e19] The governor designates one commissioner as presiding officer, who serves in that role at the governor's pleasure. [e20] Each commissioner must be a qualified voter, a U.S. citizen and a Texas resident, a competent and experienced administrator, and have at least five years of experience in business or government administration or as a practicing attorney, CPA or professional engineer; at least two must be well informed in public utilities and utility regulation. [e21] A person is ineligible if, in the year before appointment, they worked for or represented a PUCT-regulated utility, its affiliate or a direct competitor, or owned more than 10% of one. [e22]
 
-The commission has complete authority to oversee and investigate ERCOT's finances, budget and operations. If ERCOT does not perform its duties, the commission can act against it, up to decertification or an administrative penalty. [e3] ERCOT must submit its entire proposed annual budget, and the commission may approve, disapprove or modify any item. [e4]
+General powers. The commission has the general power to regulate and supervise the business of each public utility in its jurisdiction and to do what the statute designates or implies as necessary to that power. [e24] PURA gives it the job of adopting and enforcing rules on the reliability of the regional network and on accounting for electricity production and delivery. It may delegate those responsibilities to an independent organization, and that organization (ERCOT) is accountable to the commission. [e2]
 
-The PUCT also controls ERCOT's rulebook. New or revised protocols cannot take effect until the commission approves a market impact statement for them, and the commission may approve, reject or remand protocols the ERCOT board adopts. [e5] When the PUCT directs ERCOT to take an official action, it cannot use a verbal directive. It must act through a contested case, a rulemaking, or a memorandum or written order adopted by majority vote. [e6]
+Over ERCOT. The commission has complete authority to oversee and investigate ERCOT's finances, budget and operations. If ERCOT does not perform its duties, the commission can act against it, up to decertification or an administrative penalty. [e3] ERCOT must submit its entire proposed annual budget, and the commission may approve, disapprove or modify any item. [e4] Two commissioners sit on ERCOT's board as ex officio nonvoting members: the presiding officer and one commissioner designated by the presiding officer for a one-year term. [e30]
 
-On market conduct, PURA directs the commission to monitor market power. When it finds abuse, it must require mitigation, using tools that include ordering new transmission, seeking penalties, ordering disgorgement of excess revenue, or acting against a certificate or registration. [e8] The Independent Market Monitor works under the commission's supervision, but the commission keeps all enforcement authority. [e9] The Protocols state that the PUCT, assisted by the IMM, has ultimate responsibility for market oversight in ERCOT. [e10]
+The rulebook. New or revised protocols cannot take effect until the commission approves a market impact statement for them, and the commission may approve, reject or remand protocols the ERCOT board adopts. [e5] When the PUCT directs ERCOT to take an official action, it normally cannot use a verbal directive. It must act through a contested case, a rulemaking, or a memorandum or written order adopted by majority vote. [e6] A directive that creates or increases a cost or fee, or imposes significant operational obligations, must go through a contested case or rulemaking. [e28] The exception: in an urgent or emergency situation that poses an imminent threat to public health, public safety or grid reliability, the commission may give a verbal directive, but must document it in writing to ERCOT within 72 hours after the situation ends. [e29]
+
+Market conduct and enforcement. PURA directs the commission to monitor market power. When it finds abuse, it must require mitigation, using tools that include ordering new transmission, seeking penalties, ordering disgorgement of excess revenue, or acting against a certificate or registration. [e8] The commission may impose an administrative penalty of up to $25,000 per violation, each day counting as a separate violation [e25], or up to $1,000,000 per violation of a voluntary mitigation plan or of Sections 35.0021 or 38.075. [e26] The Independent Market Monitor works under the commission's supervision, but the commission keeps all enforcement authority. [e9] The Protocols state that the PUCT, assisted by the IMM, has ultimate responsibility for market oversight in ERCOT. [e10] A party to a PUCT proceeding is entitled to judicial review under the substantial evidence rule. [e27]
 
 ## ERCOT context
 
-Several of the parameters that analysts model come from PUCT rules, not from ERCOT. Rule 25.509 states a high system-wide offer cap (HCAP) of $5,000 per MWh and a low cap (LCAP) of $2,000 per MWh for energy. [e11] The Protocol parameter table, however, lists the day-ahead cap at $5,000 and the real-time cap at $2,000 per MWh, and ERCOT's September 2026 review says the SWCAP fell to $2,000 from $5,000 after RTC go-live on 12/5/2025. [e15][e16] The rule text in the saved sources has not been updated to show a separate real-time value (see the offer-cap topic). Rule 25.508 sets the ERCOT reliability standard, which includes a frequency criterion of 0.1 loss of load expectation. [e12] In July 2024 the PUCT approved a planning CONE of $140 per kW-year, while keeping the legacy $105 per kW-year value for the peaker net margin threshold. [e14]
+Design rules. Rule 25.501 says ERCOT's protocols must be developed with microeconomic principles in mind, promote economic efficiency, support wholesale and retail competition and reliability, and reflect the physical realities of the ERCOT system. [e42] FERC's 2024 Energy Primer says FERC regulates all RTOs/ISOs except ERCOT. [e43]
 
-The 2023 Sunset bill, HB 1500, changed the PUCT's own footing. It changed the date in the Sunset provision to September 1, 2029, replacing 2023. [e13][e17] It also added PURA §39.1514, which limits how the commission can direct ERCOT. [e7][e6]
+Parameters analysts model. Rule 25.509 states a high system-wide offer cap (HCAP) of $5,000 per MWh and a low cap (LCAP) of $2,000 per MWh for energy. [e11] The Protocol parameter table, however, lists the day-ahead cap at $5,000 and the real-time cap at $2,000 per MWh, and ERCOT's September 2026 review says the SWCAP fell to $2,000 from $5,000 after RTC go-live on 12/5/2025. [e15][e16] The rule text in the saved sources has not been updated to show a separate real-time value (see the offer-cap topic). The 2026 offer-cap review (Project 59550) is the first five-year review required by §25.509(d), according to ERCOT's filing. [e41] Rule 25.508 sets the ERCOT reliability standard, which includes a frequency criterion of 0.1 loss of load expectation. [e12] In July 2024 the PUCT approved a planning CONE of $140 per kW-year, while keeping the legacy $105 per kW-year value for the peaker net margin threshold. [e14]
+
+What its decisions look like. Examples from the saved orders:
+- February 16, 2021 (Winter Storm Uri): the commission found good cause to suspend the LCAP and ordered ERCOT to use the HCAP; on March 3, 2021 it ended the suspension and ordered ERCOT to resume the LCAP. [e37][e38]
+- October 7, 2024: it approved the Permian Basin Reliability Plan but reserved the voltage decision until no later than May 1, 2025 [e32]; its second order approved the three 765-kV import paths in Table 7.5 of the plan. [e33]
+- December 19, 2024 open meeting: it adopted Staff's final recommendation on the Performance Credit Mechanism (the minutes are a summary, not a transcript). [e39][e40]
+- 2026: it approved ERCOT's request to adjust the 2026 long-term load forecast using the "Option B" methodology under 16 TAC §25.370(e)(2)(B). [e34]
+- August 2026: after a gubernatorial letter of August 3, 2026 directing a verification and audit of data centers in ERCOT's interconnection process [e36], it granted ERCOT good cause exceptions, finding good cause to complete the audit before continuing the Batch Zero process. [e35]
+
+## Timeline
+
+- 2021: the PUCT suspends (February 16) and reinstates (March 3) the LCAP during and after Winter Storm Uri. [e37][e38]
+- 2023: HB 1500 (the Sunset bill) moves the Sunset date to September 1, 2029, adds §39.1514 on directives to ERCOT, and changes the PUCT's seat on ERCOT's board from "the chairman" to two commissioners. [e13][e7][e31]
+- July 2024: the PUCT approves a $140/kW-year planning CONE. [e14]
+- October 7, 2024: first Permian Basin Reliability Plan order. [e32]
+- December 19, 2024: PUCT adopts Staff's final PCM recommendation. [e39]
+- August 2026: good cause exceptions pausing Batch Zero classification. [e35]
+- September 2026: first five-year review of the offer-cap programs under way (Project 59550). [e41]
+- September 1, 2029: the commission is abolished unless continued under the Sunset Act or Chapter 39. [e23]
 
 ## Key facts
 
+- Five commissioners, appointed by the governor with senate consent, staggered six-year terms; the governor names the presiding officer. [e19][e20]
 - The PUCT certifies the independent organization and can decertify it or penalize it. [e1][e3]
 - The PUCT reviews ERCOT's budget annually or biennially and can modify any item. [e4]
 - Protocol changes need PUCT approval of a market impact statement before they take effect. [e5]
-- Since HB 1500 (2023), PUCT directives to ERCOT to take an official action must come through a contested case, a rulemaking, or a written order or memo adopted by majority vote. [e6][e7]
+- Directives to ERCOT for an official action: contested case, rulemaking, or written order/memo by majority vote; verbal only in an imminent-threat emergency, documented within 72 hours. [e6][e29]
+- Administrative penalties: up to $25,000 per violation per day; up to $1,000,000 for some violations, including of a voluntary mitigation plan. [e25][e26]
 - Offer caps: rule 25.509 states HCAP $5,000/MWh and LCAP $2,000/MWh for energy. [e11] The Protocol table lists $5,000 day-ahead and $2,000 real-time, and the SWCAP was reduced to $2,000 after RTC go-live on 12/5/2025. [e15][e16]
-- Reliability standard frequency criterion: no more than one loss of load event per ten years on average (0.1 LOLE). [e12]
-- Sunset: HB 1500 sets September 1, 2029 (previously 2023) as the date in the Sunset provision on which the commission is abolished unless it is continued in existence. [e13][e17]
+- Sunset: the commission is abolished September 1, 2029 unless continued in existence. [e23]
 
 ## Say it like this
 
 (Guidance) The PUCT is ERCOT's regulator. It certifies ERCOT, approves its budget and every protocol change, and sets key market parameters such as the offer caps and the reliability standard. When the market design changes in a big way, the final decision usually sits with the commission, with the IMM advising and ERCOT implementing.
 
+(Guidance) It is five governor-appointed commissioners, and since 2023 it has to give ERCOT formal written direction rather than steer it from the dais, except in a genuine emergency.
+
 ## Common confusion
 
-(Guidance) The PUCT is not FERC. In ERCOT, the PUCT, assisted by the IMM, holds ultimate responsibility for market oversight. [e10] The IMM has no enforcement authority; enforcement stays with the commission. [e9] Also, ERCOT protocol changes approved by the ERCOT board are not final until the PUCT approves them. [e5]
+(Guidance) The PUCT is not FERC: FERC's own primer says it regulates all RTOs/ISOs except ERCOT, and in ERCOT the PUCT, assisted by the IMM, holds ultimate responsibility for market oversight. [e43][e10] The IMM has no enforcement authority; enforcement stays with the commission. [e9] Also, ERCOT protocol changes approved by the ERCOT board are not final until the PUCT approves them. [e5] Commissioners on the ERCOT board do not vote there. [e30]
 
 ## Questions
 
 ### Can the PUCT simply tell ERCOT what to do in a meeting?
 
-Not by a verbal directive. Under §39.1514, added by HB 1500, an official-action directive must come through a contested case, a rulemaking, or a memorandum or written order adopted by majority vote. [e6][e7]
+Not normally. Under §39.1514, added by HB 1500, an official-action directive must come through a contested case, a rulemaking, or a memorandum or written order adopted by majority vote, and one that adds costs or significant obligations needs a contested case or rulemaking. [e6][e7][e28] Only in an urgent or emergency situation with an imminent threat to health, safety or grid reliability can it use a verbal directive, documented in writing within 72 hours after the situation ends. [e29]
+
+### How is the commission made up?
+
+Five commissioners appointed by the governor with senate consent, on staggered six-year terms, with a presiding officer the governor designates. [e19][e20] At least two must be well informed in utility regulation, and recent ties to a regulated utility or its competitor disqualify a candidate. [e21][e22]
 
 ### Who sets the offer cap, ERCOT or the PUCT?
 
@@ -264,7 +291,15 @@ Both have a hand. PUCT rule 25.509 states a high cap of $5,000 per MWh and a low
 
 ### What can the PUCT do if it finds market power abuse?
 
-It must require reasonable mitigation. Its tools include ordering new transmission or distribution facilities, injunctions or civil penalties, administrative penalties, disgorgement of excess revenue, and suspending, revoking or amending a certificate or registration. [e8]
+It must require reasonable mitigation. Its tools include ordering new transmission or distribution facilities, injunctions or civil penalties, administrative penalties, disgorgement of excess revenue, and suspending, revoking or amending a certificate or registration. [e8] Administrative penalties can reach $25,000 per violation per day, or $1,000,000 for a violation of a voluntary mitigation plan. [e25][e26]
+
+### Why does the PUCT sometimes override its own rules in a crisis?
+
+In February 2021 it found good cause to suspend the LCAP because of significant market anomalies, then reinstated it two weeks later. [e37][e38] In August 2026 it granted good cause exceptions so ERCOT could pause Batch Zero classification for a data-center audit. [e35] Both show the commission using good-cause findings to depart from a rule's normal operation.
+
+### What if ERCOT stopped performing its duties?
+
+The commission can take appropriate action, including decertifying ERCOT or assessing an administrative penalty against it. [e3]
 
 ### Which CONE does the PUCT use, and for what?
 
@@ -275,11 +310,12 @@ In July 2024 it approved $140 per kW-year for planning, and it kept the legacy $
 ### The ERCOT board approves an NPRR that changes scarcity pricing. A trader asks when it becomes binding.
 
 - Not on board approval. New or revised protocols cannot take effect until the PUCT approves a market impact statement, and the PUCT can approve, reject or remand the change. [e5]
-- So the PUCT's approval is the step to watch, after which the change still has to be implemented.
+- So the PUCT's approval is the step to watch, after which the change still has to be implemented. For example, the PUCT approved NPRR1216 (the EPP's Protocol implementation) in September 2024, but ERCOT reports Phase 1 went in only on December 5, 2025 (see offer-cap).
 
 ## Open items
 
-- The saved HB 1500 text is cut off before the words that say whether the commission is continued, so the Sunset date is stated only as the date in the provision. Offer caps: rule 25.509 (single $5,000 HCAP) and the Protocol table (DAM $5,000, RTM $2,000) differ; the rule text in the saved sources has not been updated.
-- No saved source gives the number of PUCT commissioners, how they are appointed or their terms. PURA Chapter 12 is not among the sources.
-- No saved source describes the PUCT's retail-market rules in this topic's scope (see the rep and retail-choice topics).
+- Resolved 2026-11-21: the current PURA §12.005 reads "Unless continued in existence as provided by that chapter or by Chapter 39, the commission is abolished September 1, 2029." [e23] Resolved: number, appointment and terms of commissioners (PURA §12.051). [e19]
+- Offer caps: rule 25.509 (single $5,000 HCAP) and the Protocol table (DAM $5,000, RTM $2,000) differ; the rule text in the saved sources has not been updated.
+- No saved source lists the current commissioners with their appointment dates; the 2026 load-forecast order is signed by five commissioners but the OCR names are partly garbled.
+- No saved source states the PUCT's annual budget or staff size, or gives the full list of PUCT substantive rules that bind ERCOT.
 - PURA §39.001(d) tells regulators to prefer competitive over regulatory methods. It was not used here; it may belong in a competition-policy topic.

@@ -130,7 +130,7 @@ evidence:
     quote: "On a monthly basis, ERCOT will recalculate each Resource’s emission costs for SO2 and NOx utilizing the emission prices taken from the indices described in paragraph (1)(e) above. The new emission costs will replace the emission costs in the previously approved Operations & Maintenance (O&M) Verifiable Costs totals."
   - id: e23
     source: ercot-vcm
-    locator: "Verifiable Cost Manual, Incremental Heat Rate and Variable O&M submission, item (a) Variable O&M"
+    locator: "Verifiable Cost Manual, Section 5.1 Submitting Data for Mitigated Offers, item (a) Variable O&M"
     quote: "Variable O&M: For purposes of calculating Mitigated Offer Caps, Variable O&M costs are limited to the incremental O&M costs a Resource incurs while operating above LSL. Variable O&M costs will only be verified if both the type of cost and its method of calculation are permissible under Section 9, Operating and Maintenance Cost Guidelines, of this document. Submitted data is to be in terms of dollars per Megawatt-hour ($/MWh) and must be a single average value for the entire range (LSL to HSL) of the IHR Curve submitted. Emission costs may be included as an additional component of the Variable O&M cost."
   - id: e24
     source: np-04
@@ -170,7 +170,7 @@ evidence:
     quote: "To express the efficiency of a generator or power plant as a percentage, divide the equivalent Btu content of a kWh of electricity (3,412 Btu) by the heat rate."
   - id: e33
     source: ercot-vcm
-    locator: "Verifiable Cost Manual, Section 2 general rules, paragraph (1)"
+    locator: "Verifiable Cost Manual, Section 2.1(1), Generally Applicable Rules"
     quote: "The use of Verifiable Costs, rather than generic amounts capped according to Resource Category, is optional for a Qualified Scheduling Entity (QSE) that does not receive Reliability Unit Commitment (RUC) instructions for a Resource."
 ---
 

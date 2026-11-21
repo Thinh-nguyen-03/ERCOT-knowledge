@@ -204,6 +204,14 @@ evidence:
     source: imm-som-2021
     locator: "page 52 (OCR), E. Aggregated Offer Curves"
     quote: "This figure shows that in both periods, as in previous years, the largest amount of capacity is not dispatchable because it is below generators’ Low Sustainable Limit (LSL) and is a price-taking portion of the offer stack."
+  - id: e42
+    source: np-04
+    locator: "Section 4.4.9.4, pending-change box"
+    quote: "[NPRR1325: Replace Section 4.4.9.4 above with the following upon system implementation of PGRR145:]"
+  - id: e43
+    source: imm-som-2025
+    locator: "page 13 (OCR), Executive Summary"
+    quote: "In 2025, the price of natural gas increased by 61%, but the all-in price of electricity increased by less than 14%."
 ---
 
 ## Definition
@@ -222,7 +230,7 @@ Mitigation bounds the stack. In Real-Time, offers may be mitigated in SCED using
 
 ## Formula
 
-The Mitigated Offer Cap for a Generation Resource at each point of its curve is the larger of two terms: the generic incremental heat rate times the greater of FIP and the weighted average fuel price, or the verifiable incremental heat rate times a calculated fuel price plus variable O&M. [e25] The generic incremental heat rate is set to 10.5 MMBtu/MWh for Resources with a Commercial Operations Date on or before January 1, 2004 and 14.5 for later Resources. [e26] This is the current text; a pending revision (NPRR1325, with PGRR145) would replace Section 4.4.9.4 with a version that adds Adjusted Bid Caps, and is not the rule in force.
+The Mitigated Offer Cap for a Generation Resource at each point of its curve is the larger of two terms: the generic incremental heat rate times the greater of FIP and the weighted average fuel price, or the verifiable incremental heat rate times a calculated fuel price plus variable O&M. [e25] The generic incremental heat rate is set to 10.5 MMBtu/MWh for Resources with a Commercial Operations Date on or before January 1, 2004 and 14.5 for later Resources. [e26] This is the current text; a pending box (NPRR1325, upon system implementation of PGRR145) would replace Section 4.4.9.4, and is not the rule in force. [e42]
 
 ## ERCOT context
 
@@ -234,7 +242,7 @@ Offer curve rules also shape the stack. The 2024 IMM report notes that under the
 
 ## Timeline
 
-Share of real-time generation capacity not dispatchable because it is below LSL, as stated by the IMM in each year's report:
+Share of real-time generation capacity not dispatchable because it is below LSL, as stated by the IMM in each year's report: [e30][e31][e32][e2]
 
 - 2022: 42% of available capacity. [e30]
 - 2023: 40%. [e31]
@@ -280,7 +288,7 @@ An Energy Offer Curve must be within -$250 per MWh and the applicable system-wid
 
 ### What if gas prices rise but the stack does not move?
 
-The IMM says electricity prices should correlate with gas prices because fuel is most of marginal cost and gas units are generally on the margin. [e34] In 2025, it says, gas rose 61% but the all-in price rose less than 14%, because expensive gas peakers were needed less often. [e38] (The 61% and 14% figures are in the same IMM passage; they are not quoted separately here.)
+The IMM says electricity prices should correlate with gas prices because fuel is most of marginal cost and gas units are generally on the margin. [e34] In 2025, it says, gas rose 61% but the all-in price rose less than 14%, and it says expensive gas peakers being needed less often was one reason. [e43][e38]
 
 ### How do ESR offers differ from generator offers?
 
