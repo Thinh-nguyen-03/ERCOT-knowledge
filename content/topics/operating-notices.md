@@ -227,7 +227,7 @@ ERCOT escalates in steps: an OCN is a heads-up, an Advisory says more reserves o
 
 ## Common confusion
 
-An Emergency Notice is not an EEA level. The EEA is the orderly procedure for maximizing resources and, only if necessary, curtailing load. [e17] ERCOT uses PRC and frequency to pick both the Emergency Notice and the EEA level. [e9] A Watch is also not an EEA; it is the third of the three pre-emergency communications. [e15] And an OCN, Advisory or Watch does not itself place ERCOT in an Emergency Condition; the Operating Guides say so for an OCN, Advisory and Watch. [e28]
+An Emergency Notice is not an EEA level. The EEA is the orderly procedure for maximizing resources and, only if necessary, curtailing load. [e17] ERCOT uses PRC and frequency to pick both the Emergency Notice and the EEA level. [e9] A Watch is also not an EEA; it is the third of the three pre-emergency communications. [e15] And an OCN, Advisory or Watch does not itself place ERCOT in an Emergency Condition; the Operating Guides say so for an OCN. [e28]
 
 ## Questions
 

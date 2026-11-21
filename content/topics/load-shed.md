@@ -206,6 +206,16 @@ evidence:
     locator: "Section 2.6.1, paragraph (3)"
     quote: >-
       A TO may not meet the Load relief requirements of the supplemental anti-stall UFLS stages by utilizing Load that the TO needs to meet the 59.3 Hz standard UFLS stages.
+  - id: e38
+    source: nog-04
+    locator: "Section 4.5.3, Implementation, paragraph (7)(a)-(b)"
+    quote: >-
+      (a) Load interrupted manually by SCADA will be shed without delay upon receipt of a Load shed instruction and in a time period not to exceed 30 minutes after receipt of the Load shed instruction for each Entity’s portion of every Load shed instruction. SCADA-controlled Load shed is preferred to be utilized by the TO and/or TDSP(s) before non-SCADA-controlled Load shed when executing a Load shed instruction; (b) If sufficient amounts of SCADA-controlled Load are not available to fulfill an Entity’s manual Load shed instruction, the TO and/or TDSP(s) shall complete, if applicable, the remaining manual Load shed through non-SCADA-controlled Load shed methods without delay upon receipt of a Load shed instruction and in a time period not to exceed one hour after receipt of the Load shed instruction.
+  - id: e39
+    source: nog-04
+    locator: "Section 4.5.3, Implementation, paragraph (8)"
+    quote: >-
+      (8) Each TSP, or its designated agent, will provide ERCOT a status report of Load shed progress within 30 minutes of the time of ERCOT’s instruction or upon ERCOT’s request.
 ---
 
 ## Definition
@@ -218,7 +228,7 @@ Load shed is a last resort used to bring operating reserves back to a safe level
 
 Who sheds how much: ERCOT gives each utility a megawatt reduction amount based on its share of historic peak demand; each utility decides how to meet it and manages the outage locally, and ERCOT has no oversight of those plans. [e3] The Operating Guides set the Level 3 obligation percentages by calculating each TO's load as a percentage of the ERCOT system summer and winter peak 15-minute Demand interval. [e21] The Protocols say the percentages are based on the previous year's TSP peak loads and are reviewed and modified annually. [e35] ERCOT uses the summer table for a hot weather load shed event and the winter table for a cold weather one, deciding in its sole discretion which applies. [e22]
 
-Transmission owners and TDSPs may manually shed load connected to under-frequency or under-voltage relays under an ERCOT Level 3 directive so long as the TO has determined system conditions warrant it and each affected TO keeps complying with its UFLS and load shed obligations. [e4] If all load identified for manual shed has been shed, they may also shed load armed for the 58.5 Hz, 58.7 Hz and anti-stall UFLS stages, even if that takes UFLS load below the TO's 25% relief obligation. [e20] ERCOT can also instruct TSPs or DSPs to drop load when an Emergency Condition comes from a transmission problem, and must post an operations message within one day with the event's date, times, MW and location. [e5][e6]
+Under the Operating Guides, load shed by SCADA must be executed without delay and within 30 minutes of the instruction, and any remainder by non-SCADA methods within one hour; each TSP reports load shed progress to ERCOT within 30 minutes of the instruction or on request. [e38][e39] Transmission owners and TDSPs may manually shed load connected to under-frequency or under-voltage relays under an ERCOT Level 3 directive so long as the TO has determined system conditions warrant it and each affected TO keeps complying with its UFLS and load shed obligations. [e4] If all load identified for manual shed has been shed, they may also shed load armed for the 58.5 Hz, 58.7 Hz and anti-stall UFLS stages, even if that takes UFLS load below the TO's 25% relief obligation. [e20] ERCOT can also instruct TSPs or DSPs to drop load when an Emergency Condition comes from a transmission problem, and must post an operations message within one day with the event's date, times, MW and location. [e5][e6]
 
 ## Formula
 
@@ -243,6 +253,7 @@ Scarcity pricing: the IMM says the ORDC reflects the relationship between operat
 - ERCOT must post within one day an operations message on any load curtailment due to a transmission problem. [e6]
 - Peak controlled outage in February 2021: 20,000 MW, the largest of four events listed by ERCOT. [e11][e7]
 - At least 25 percent of ERCOT load is reserved for automatic load shedding. [e10][e17]
+- SCADA-controlled load shed must be completed within 30 minutes of the instruction, non-SCADA within one hour. [e38]
 - Standard UFLS stages run from 59.3 Hz (5% of TO load) to 58.5 Hz (25%). [e18]
 
 ## Say it like this
