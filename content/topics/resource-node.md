@@ -201,7 +201,7 @@ Pending: the Attachment R text dated April 1, 2026 carries an OBDRR046 box that,
 ## Key facts
 
 - A Resource Node can be an Electrical Bus or a virtual point used to model a Combined-Cycle Configuration. [e1]
-- Resource Nodes apply to Generation Resources and Energy Storage Resources. [e1]
+- Resource Nodes apply to Generation Resources and Energy Storage Resources. [e1][e11]
 - The day-ahead Resource Node price is the DAM LMP at that node. [e3]
 - The real-time Resource Node price includes the Reliability Deployment Price Adder for Energy. [e4]
 - The Resource Entity has five Business Days to accept or reject proposed node parameters; the normal timeline shall not exceed 20 Business Days after submission of validated registration information (Attachment R, dated April 1, 2026). [e8][e29]

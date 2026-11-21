@@ -225,7 +225,7 @@ RTC changed the AS side. Under RTC, day-ahead AS awards are financial positions 
 - Check reserves policy. In 2023 the IMM traced summer divergence to real-time spikes from excessive ECRS procurement, which are hard to predict day-ahead. [e21]
 - Check congestion. In 2023 day-ahead under-priced real-time congestion, especially in August. [e9]
 - Check storage. Batteries that sell day-ahead but run low on charge must buy back the position at the real-time price, and in summer 2026 ERCOT saw evening SOC exhaustion all summer. [e12][e34]
-- Check the season's backdrop. ERCOT says summer 2026 real-time prices were lower than in 2024 and 2025 because of higher supply, particularly in daylight hours. [e33] (Reasoning) So a real-time premium that summer would point to the evening rather than the day. [e33]
+- Check the season's backdrop. ERCOT says summer 2026 real-time prices were lower than in 2024 and 2025 because of higher supply, particularly in daylight hours. [e33] (Reasoning) So a real-time premium that summer would point to the evening rather than the day.
 - If the pattern is predictable, arbitrage should close it; virtual bids and offers are location-specific transactions submitted as a hedge or for speculation. [e5][e11]
 - Size the trade for the tail: the IMM says the low 2025 spread reflected fewer price spikes, so spikes matter for the spread. [e6]
 - Suppose (illustrative): you buy 25 MW at North Hub day-ahead for HE 20 at $60/MWh and real time settles at $140/MWh. The virtual earns 25 × $80 = $2,000 for that hour; if real time had settled at $40, it would lose $500.

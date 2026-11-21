@@ -32,13 +32,13 @@ links:
     note: A TSP's transmission rate is its cost of service divided by the average of ERCOT coincident peak demand for June to September (4CP), and each DSP is charged on its 4CP demand. [e15]
   - to: large-load-interconnection
     type: related
-    note: SB 6 standards set a flat study fee of at least $100,000 payable to the interconnecting utility for large load screening studies. [e42]
+    note: PURA requires the PUCT's SB 6 large load standards to set a flat study fee of at least $100,000 payable to the interconnecting utility for initial transmission screening studies. [e42]
   - to: mass-transition
     type: related
     note: A Mass Transition includes moving ESI IDs from one TDSP to another. [e13]
   - to: load-shed
     type: related
-    note: PURA requires TDUs providing transmission service in ERCOT to submit critical load designations and a load shedding plan. [e44]
+    note: PURA directs the PUCT to require TDUs (and cooperatives and municipally owned utilities) providing transmission service in ERCOT to submit critical load designations and a load shedding plan. [e44]
   - to: sb6
     type: related
     note: SB 6 directs the PUCT to evaluate the 4CP method used to charge transmission costs to distribution providers. [e51]
@@ -251,6 +251,22 @@ evidence:
     source: sb6-89r
     locator: "SB 6 (2025), Section 6(c) (.alt.txt)"
     quote: "(c) The Public Utility Commission of Texas shall begin the evaluation required under Subsection (a) of this section not later than the 90th day after the effective date of this Act. After completion of the evaluation project and not later than December 31, 2026, the commission shall amend commission rules to ensure that wholesale transmission charges appropriately assign costs for transmission investment."
+  - id: e53
+    source: puct-25-192
+    locator: "16 TAC §25.192(c), Transmission cost of service"
+    quote: "Transmission cost of service. The transmission cost of service for each TSP shall be based on the expenses in Federal Energy Regulatory Commission (FERC) expense accounts 560-573 (or accounts with similar contents or amounts functionalized to the transmission function) plus the depreciation, federal income tax, and other associated taxes, and the commission-allowed rate of return based on FERC plant accounts 350-359 (or accounts with similar contents or amounts functionalized to the transmission function), less accumulated depreciation and accumulated deferred federal income taxes, as applicable."
+  - id: e54
+    source: puct-25-193
+    locator: "16 TAC §25.193(c), TCRF Formula, equation as saved (garbled layout)"
+    quote: "{[∑ ( NWTRi * NLi ) − ∑ ( BWTRi * NLi )] * 1 / 2 * ALLOC} + ADJ BD"
+  - id: e55
+    source: puct-25-193
+    locator: "16 TAC §25.193(c), TCRF Formula, ADJ definition"
+    quote: "ADJ = adjustment to Rate Class TCRF; EXPp = transmission expenses not included in base rates for period p;"
+  - id: e56
+    source: puct-25-193
+    locator: "16 TAC §25.193(c), TCRF Formula, BD definition"
+    quote: "BD is each class’s billing determinant (kilowatt-hour (kWh), or kilowatt (kW), or kilovolt-ampere (kVa)) for the previous March 1 through August 31 period for the March 1 TCRF update, and for the previous September 1 through February 28 period for the September 1 TCRF update."
 ---
 
 ## Definition
@@ -267,7 +283,7 @@ Under PURA, a transmission and distribution utility must provide transmission or
 
 ### The TSP: transmission service and rates
 
-Each TSP must file a tariff for transmission service establishing its rates and terms and apply it on a non-discriminatory basis. The tariff applies to all DSPs and to any entity scheduling the export of power from ERCOT, but not to an entity engaging in wholesale storage as described in §25.501(m). [e14] A TSP's transmission cost of service is based on FERC expense accounts 560-573 and plant accounts 350-359 (or similar accounts functionalized to transmission), and the rule deems certain facilities to be transmission facilities, including lines, substations and reactive devices operated at 60 kilovolts or above except generator step-up transformers and a protective device at the generator interconnection. [e16]
+Each TSP must file a tariff for transmission service establishing its rates and terms and apply it on a non-discriminatory basis. The tariff applies to all DSPs and to any entity scheduling the export of power from ERCOT, but not to an entity engaging in wholesale storage as described in §25.501(m). [e14] A TSP's transmission cost of service is based on FERC expense accounts 560-573 and plant accounts 350-359 (or accounts with similar contents or amounts functionalized to transmission), plus depreciation, taxes and the commission-allowed return, less accumulated depreciation and deferred taxes. [e53] The rule deems certain facilities to be transmission facilities, including lines, substations and reactive devices operated at 60 kilovolts or above except step-up transformers and a protective device at the generating-station interconnection. [e16]
 
 Responsibilities in the transmission service terms rule: the TSP must plan, construct, operate and maintain its system in accordance with good utility practice. [e23] A transmission service customer owning electrical facilities in ERCOT must execute an interconnection agreement with the TSP it is physically interconnected to. [e24] If new facilities are needed, the TSPs must construct or acquire them unless ERCOT identifies a less costly, operationally sound and equally effective alternative. [e25] A TSP may require a reasonable deposit or other security for the costs of planning, licensing and constructing new facilities. [e26] PURA says that when a utility provides wholesale transmission within ERCOT at a third party's request, the PUCT must ensure the utility recovers its reasonable costs from that third party so other customers do not bear them. [e36]
 
@@ -287,25 +303,25 @@ Since January 1, 2002 a TDU may not sell electricity or otherwise participate in
 
 ### Separation from affiliates (code of conduct)
 
-PUCT rule 25.272 sets safeguards on interaction between utilities and their affiliates to avoid market-power abuses and cross-subsidization between regulated and unregulated activities. [e27] A utility must be a separate, independent entity from any competitive affiliate, and may not share employees, facilities or other resources with competitive affiliates unless it proves to the PUCT beforehand that the sharing will not compromise the public interest, subject to the exceptions in the rule's other paragraphs. [e28] The rule lists services that may not be shared, such as engineering, transmission and distribution system operations and marketing, unless the services are provided exclusively to affiliated regulated utilities and only for regulated utility services. [e29] Confidential information includes information relating to the interconnection of customers to a utility's transmission or distribution systems and information about the utility's system, operations or plans for expansion. [e30] The saved version of §25.272 is marked effective 6/26/14. [e27]
+PUCT rule 25.272 sets safeguards on interaction between utilities and their affiliates to avoid market-power abuses and cross-subsidization between regulated and unregulated activities. [e27] A utility must be a separate, independent entity from any competitive affiliate, and may not share employees, facilities or other resources with competitive affiliates unless it proves to the PUCT beforehand that the sharing will not compromise the public interest, subject to the exceptions in the rule's other paragraphs. [e28] The rule's examples of services that may not be shared include engineering, purchasing of electric transmission facilities and service, transmission and distribution system operations, and marketing, unless the services are provided exclusively to affiliated regulated utilities and only for regulated utility services. [e29] Confidential information includes information relating to the interconnection of customers to a utility's transmission or distribution systems and information about the utility's system, operations or plans for expansion. [e30] The saved version of §25.272 is marked effective 6/26/14. [e27]
 
 ### Roles in the ERCOT Protocols and other rules
 
 A Transmission Operator is a TDSP designated by itself or another TDSP to communicate with ERCOT and take action to preserve reliability of a particular portion of the ERCOT System. [e11] For planning, ERCOT's Substantiated Load is load submitted by a TDSP that is backed by an executed interconnection or other agreement, a credible third-party forecast, or a letter from a TDSP officer attesting to the load. [e12] A Mass Transition covers moving ESI IDs between CRs or from one TDSP to another in a quantity or timeframe identified by Applicable Legal Authority. [e13]
 
-PUCT rule 25.130 on advanced metering applies to all electric utilities including TDUs, with REP-related requirements applying only in customer-choice areas, and deployment is voluntary unless the PUCT orders otherwise. [e31][e33] The rule's web portal gives the customer, the REP of record and authorized entities secure, read-only access to AMS usage data. [e32] PUCT rule 25.211 on on-site distributed generation interconnection applies to an electric utility for all purposes except to the extent preempted by federal law, and the only part of it that applies to electric cooperatives is subsection (o). [e34]
+PUCT rule 25.130 on advanced metering applies to all electric utilities including TDUs, with REP-related requirements applying only in customer-choice areas, and deployment is voluntary unless the PUCT orders otherwise, although deployment for which a surcharge is sought must be consistent with the rule. [e31][e33] The rule's web portal gives the customer, the REP of record and authorized entities secure, read-only access to AMS usage data. [e32] PUCT rule 25.211 on on-site distributed generation interconnection applies to an electric utility for all purposes except to the extent preempted by federal law, and the only part of it that applies to electric cooperatives is subsection (o). [e34]
 
-Reliability and resiliency duties under PURA: the PUCT must implement service quality and reliability standards for delivery by electric utilities and TDUs, including SAIFI and SAIDI. [e43] In ERCOT, TDUs providing transmission service must submit to the PUCT and ERCOT their designated critical load customers or circuits and a plan for participating in involuntary load shedding. [e44] An electric utility may file a resiliency plan with measures such as hardening, undergrounding, vegetation management and wildfire mitigation, and the PUCT must decide within 180 days of filing and may approve only if in the public interest. [e45][e46] A utility that owns transmission or distribution in a wildfire risk area must file a wildfire mitigation plan. [e47]
+Reliability and resiliency duties under PURA: the PUCT must implement service quality and reliability standards for delivery by electric utilities and TDUs, including SAIFI and SAIDI. [e43] PURA directs the PUCT by rule to require TDUs providing transmission service in ERCOT (along with electric cooperatives and municipally owned utilities) to submit to the PUCT and ERCOT their designated critical load customers or circuits and a plan for participating in involuntary load shedding. [e44] An electric utility may file a resiliency plan with measures such as hardening, undergrounding, vegetation management and wildfire mitigation, and the PUCT must decide within 180 days of filing and may approve only if in the public interest. [e45][e46] A utility that owns transmission or distribution in a wildfire risk area must file a wildfire mitigation plan. [e47]
 
-A TDSP also needs a certificate of convenience and necessity: an electric utility may not provide service to the public under a franchise or permit unless it first obtains a certificate. [e41]
+PURA Chapter 37 provides that an electric utility may not provide service to the public under a franchise or permit unless it first obtains a certificate of convenience and necessity from the PUCT; whether each TDSP type is an "electric utility" for this purpose is not shown in the saved text. [e41]
 
-Examples of TDSPs: ERCOT's 2026 report lists TDSP load management programs for AEP Texas, CenterPoint, Oncor and TNMP. [e50]
+Examples of TDSPs: a table in ERCOT's April 2026 Board material (sourced to its 2025 Demand Response Report) lists TDSP load management programs for AEP Texas, CenterPoint, Oncor and TNMP. [e50]
 
 ## Formula
 
 Transmission service charge to a DSP: a TSP's annual transmission rate is its commission-approved transmission cost of service divided by the average of ERCOT coincident peak demand for June, July, August and September (4CP), excluding coincident peak demand attributable to wholesale storage load, converted to a monthly rate; each DSP's monthly charge is the TSP's monthly rate times the DSP's previous year's average 4CP demand coincident with the ERCOT 4CP. [e15] The rate stays in effect until the PUCT approves a new one. [e15] ERCOT files each DSP's current-year average 4CP demand with the PUCT no later than December 1, and it is used to bill transmission service for the next year. [e17]
 
-TCRF: the TCRF for each class is computed with a formula (the equation itself is garbled in the saved text, so it is described from its variable list). Its terms are NWTRi, the new wholesale transmission rate of a TSP approved since the DSP's last rate case; BWTRi, the base wholesale transmission rate used to develop the DSP's retail transmission charges in its last rate case; NLi, the DSP's 4CP load component used to develop NWTRi; an adjustment ADJ for under- or over-recovery; and ALLOC, the class allocator approved in the DSP's last rate case. [e20][e21]
+TCRF: the TCRF for each class is computed with a formula. As the saved text reads, the expression is {[sum over i of (NWTRi x NLi) minus sum over i of (BWTRi x NLi)] x 1/2 x ALLOC} + ADJ, with BD on the line below it; the layout is garbled, so whether BD divides the whole expression is not stated here. [e54] NWTRi is the new wholesale transmission rate of a TSP approved since the DSP's last rate case; BWTRi is the base wholesale transmission rate used to develop the DSP's retail transmission charges in its last rate case; NLi is the DSP's 4CP load component used to develop NWTRi. [e20] ALLOC is the class allocator approved in the DSP's last rate case, unless the PUCT orders otherwise. [e21] ADJ is the adjustment to the Rate Class TCRF, built from transmission expenses not included in base rates (EXPp) and TCRF revenue (REVp) by period. [e55] BD is each class's billing determinant (kWh, kW or kVA) for the previous March 1 through August 31 period for the March 1 update and the previous September 1 through February 28 period for the September 1 update. [e56]
 
 ## Key facts
 
@@ -337,13 +353,13 @@ A TSP owns or operates Transmission Facilities and provides Transmission Service
 
 ### How does a DSP get billed for transmission, and why does it matter to a retailer?
 
-The TSP's monthly rate times the DSP's previous year's average 4CP demand. [e15] The DSP passes cost changes to customers through its TCRF, so a retailer serving those customers sees the pass-through in the delivery charges. [e19][e18]
+The TSP's monthly rate times the DSP's previous year's average 4CP demand. [e15] The DSP passes cost changes to customers through its TCRF, and the section covers distribution service to REPs and other customers of the distribution system. [e19][e18]
 
 ### Why does the code of conduct exist?
 
 To avoid potential market-power abuses and cross-subsidization between regulated and unregulated activities, which is why a utility must be separate from competitive affiliates and sharing of employees, facilities or resources is restricted. [e27][e28]
 
-### What if a TDSP wants to build transmission for a generator that asks for service?
+### What if a transmission service request needs new facilities?
 
 The TSP must construct or acquire the needed facilities unless ERCOT identifies a less costly, operationally sound and equally effective alternative, and it may require a deposit or security. [e25][e26]
 
@@ -359,7 +375,7 @@ TDSPs submit load for planning; ERCOT treats it as Substantiated Load only if ba
 
 ### A large load customer asks the TDSP to interconnect.
 
-- Under SB 6 standards the customer pays a flat study fee of at least $100,000 to the interconnecting utility for the initial transmission screening study. [e42]
+- PURA Sec. 37.0561(f) requires the PUCT's large load interconnection standards to set a flat study fee of at least $100,000 payable to the interconnecting utility for initial transmission screening studies for large loads subject to subsection (c); the saved sources do not show the adopted standards. [e42]
 - If the customer is a transmission service customer owning electrical facilities in ERCOT, it must execute an interconnection agreement with the TSP. [e24]
 - The TSP may require a deposit or other security for new facilities. [e26]
 
@@ -369,4 +385,4 @@ TDSPs submit load for planning; ERCOT treats it as Substantiated Load only if ba
 - Names and number of TDSPs in ERCOT: only a table of TDSP load management programs names AEP Texas, CenterPoint, Oncor and TNMP; no saved source gives the full TDSP list or their service areas.
 - TDSP duties in retail transactions (switching, meter data, outage handling) are not covered by the saved PUCT retail rules or Protocols text beyond metering; TX SET and the retail market guides are not saved.
 - The §25.192 cost-of-service text and the 4CP billing paragraph have garbled subsection lettering in the saved copy; paragraphs are cited by heading.
-- The TCRF equation is not legible in the saved text; only the variable definitions are quoted.
+- The TCRF equation layout is garbled in the saved text (where BD sits relative to the rest is not legible); the variable definitions are quoted. The saved §25.193 text carries an effective date of 10/25/10; later amendments were not checked.

@@ -38,10 +38,10 @@ links:
     note: RUC-committed Resources are counted in the Real-Time Reliability Deployment Price Adder, except those whose QSE opted out of RUC Settlement. [e30]
   - to: settlement-point
     type: related
-    note: Real-time energy imbalance is calculated separately at each Resource Node, Load Zone and Hub Settlement Point. [e16][e24]
+    note: Real-time Energy Imbalance Service at a Resource Node is calculated at that Resource Node Settlement Point. [e16][e24]
   - to: cop
     type: related
-    note: A QSE must update the COP within 60 minutes after a Forced Outage, and SCED uses telemetered status rather than the COP. [e23]
+    note: A QSE must update the COP within 60 minutes after a Forced Outage, [e23]
   - to: asdc
     type: related
     note: Real-time Ancillary Service awards depend on Resource capability and ASDCs. [e22]
@@ -156,7 +156,7 @@ evidence:
     quote: "it shall notify Market Participants and describe the need for such correction as soon as practicable but no later than 30 days after the Operating Day. Failure to notify Market Participants within this timeline precludes the ERCOT Board from reviewing such prices."
   - id: e28
     source: imm-som-2025
-    locator: "page 29 (OCR), Chapter I.C, Table 1"
+    locator: "page 29 (OCR), Section C, Zonal Energy Prices, Table 1"
     quote: "ERCOT $179.24 $76.41 $73.28 $32.41 $36.94"
   - id: e29
     source: ercot-summer-2026-review
@@ -178,6 +178,14 @@ evidence:
     source: ercot-nprr1010-board-report
     locator: "NPRR1010 Board report, Board Decision"
     quote: "On 12/8/20, the ERCOT Board approved NPRR1010 as recommended by TAC in the 11/18/20 TAC Report."
+  - id: e34
+    source: np-06
+    locator: "Section 6.3, paragraph (4), price correction conditions"
+    quote: "ERCOT shall correct prices for an Operating Day when accurate prices can be determined, the impact of the price correction is determined to be significant, and one of the following conditions has been met:"
+  - id: e35
+    source: ercot-nprr1010-board-report
+    locator: "NPRR1010 Board report, Effective Date"
+    quote: "Upon system implementation of the Real-Time Co-Optimization (RTC) Project"
 ---
 
 ## Definition
@@ -198,7 +206,7 @@ Adjustment Period activities begin at 1800 in the Day-Ahead and end one full hou
 
 ### Imbalance settlement at a Resource Node
 
-Energy Imbalance Service at a Resource Node is priced at the RTSPP on the QSE's net position: its Resource output and certain charging consumption, plus Self-Schedules sinking there, DAM Energy Bids cleared and Energy Trades bought, minus Self-Schedules sourcing there, DAM energy offers cleared and Energy Trades sold. [e16][e24] This is why a day-ahead position is settled against real time at the same Settlement Point. [e24]
+Energy Imbalance Service at a Resource Node is priced at the RTSPP on the QSE's net position: its Resource output and certain charging consumption, plus Self-Schedules sinking there, DAM Energy Bids cleared and Energy Trades bought, minus Self-Schedules sourcing there, DAM energy offers cleared and Energy Trades sold. [e16][e24] DAM Energy Bids and offers cleared at the Settlement Point therefore enter the real-time imbalance calculation at that same Settlement Point. [e24]
 
 ### Reliability deployments in the adder
 
@@ -206,19 +214,19 @@ The Real-Time Reliability Deployment Price Adder for Energy considers RUC-commit
 
 ### Price errors and corrections
 
-ERCOT monitors real-time prices and notifies Market Participants when they are under investigation. [e25] Prices are final at 1600 on the second Business Day after the Operating Day, but ERCOT can still seek Board review if it notifies the market within 30 days of the Operating Day. [e10][e27] It seeks review if a Counter-Party's RTM Settlement Statement changes by more than 2% and $20,000, or more than 20% and $2,000. [e26]
+ERCOT monitors real-time prices and notifies Market Participants when they are under investigation. [e25] Prices are final at 1600 on the second Business Day after the Operating Day. [e10] Prices are corrected only when accurate prices can be determined, the impact is significant, and one of the listed conditions is met. [e34] If ERCOT determines prices qualify for correction and will seek Board review, it must notify Market Participants no later than 30 days after the Operating Day, or the Board cannot review them. [e27] ERCOT shall seek Board review if the change would shift any single Counter-Party's RTM Settlement Statements by more than 2% and $20,000, or more than 20% and $2,000. [e26]
 
 ## ERCOT context
 
 The IMM calls the real-time market the most consequential of the markets because it coordinates real-time power flows and sets expectations for the forward markets. [e12] The IMM calls the implementation of RTC in December the most noteworthy development for ancillary services in its 2025 report, and with RTC the real-time market simultaneously procures energy and ancillary services. [e17][e11] The ORDC price adder was replaced by a set of Ancillary Service Demand Curves under RTC. [e18]
 
-The IMM's load-weighted annual average real-time energy price for ERCOT was $36.94/MWh in 2025, against $32.41 in 2024 and $73.28 in 2023. [e28] ERCOT's summer 2026 review says real-time prices were lower in summer 2026 than in 2024 and 2025 because of higher supply, particularly in daylight hours, and that real-time congestion rent was 10% lower than in summer 2025. [e29][e31] After RTC go-live the System-Wide Offer Cap in that review is $2000/MWh, down from $5000/MWh. [e32]
+The IMM's load-weighted annual average real-time energy price for ERCOT was $36.94/MWh in 2025, against $32.41 in 2024 and $73.28 in 2023. [e28] ERCOT's summer 2026 review says real-time prices were lower in summer 2026 than in 2024 and 2025 because of higher supply, particularly in daylight hours, and that real-time congestion rent was 10% lower than in summer 2025. [e29][e31] A footnote in that review, on real-time ESR offers, says SWCAP is reduced to $2000/MWh from $5000/MWh after RTC go-live on 12/5/2025; it does not address the day-ahead cap (see the offer-cap topic). [e32]
 
 2025 outcomes per the IMM: price spikes were 40% less frequent than in 2024, and most occurred between 7 and 9 p.m. as solar ramped down. [e15][e14] ORDC shortage pricing added only $0.02/MWh to real-time energy prices, the lowest since the ORDC began in 2014; the ORDC adder has since been replaced under RTC. [e13][e18]
 
 ## Timeline
 
-- December 8, 2020: the Board approved NPRR1010 (Adjustment Period and Real-Time Operations changes for RTC), effective on RTC implementation. [e33]
+- December 8, 2020: the Board approved NPRR1010 (Adjustment Period and Real-Time Operations changes for RTC), effective upon system implementation of the RTC Project. [e33][e35]
 - December 2025: RTC implemented, so the real-time market procures energy and ancillary services together. [e17][e11]
 
 ## Key facts
@@ -229,7 +237,7 @@ The IMM's load-weighted annual average real-time energy price for ERCOT was $36.
 - Real-time prices are final at 1600 on the second Business Day after the Operating Day. [e10]
 - The Adjustment Period runs from 1800 in the Day-Ahead to the start of the hour before the Operating Hour. [e3]
 - 2025: price spikes were 40% less frequent than in 2024. [e15]
-- Board review of a price correction requires ERCOT to notify the market within 30 days of the Operating Day and a Counter-Party impact above 2% and $20,000, or 20% and $2,000. [e27][e26]
+- ERCOT must notify the market no later than 30 days after the Operating Day for the Board to review prices, and shall seek Board review if the impact on a Counter-Party exceeds 2% and $20,000, or 20% and $2,000. [e27][e26]
 - IMM 2025 average real-time energy price for ERCOT: $36.94/MWh. [e28]
 
 ## Say it like this
@@ -252,11 +260,11 @@ It lets QSEs adjust trades, Self-Schedules and Resource commitments as more accu
 
 ### Why can a price still change after the interval?
 
-Prices are final at 1600 on the second Business Day after the Operating Day, but ERCOT can seek Board review if it notifies the market within 30 days and the impact on a Counter-Party passes the thresholds. [e10][e27][e26]
+Prices are final at 1600 on the second Business Day after the Operating Day, but a price that qualifies for correction can go to the Board if ERCOT notifies the market within 30 days; ERCOT shall seek Board review if the impact on a Counter-Party passes the thresholds (2% and $20,000, or 20% and $2,000). [e10][e34][e27][e26]
 
 ### What if a QSE's Resource trips offline in real time?
 
-The QSE must update the COP within 60 minutes after the Forced Outage. [e23] Its energy imbalance at the Resource Node is then settled at the RTSPP on the difference between its remaining output and its DAM and trade positions. [e24]
+The QSE must update the COP within 60 minutes after the Forced Outage. [e23] Separately, its Energy Imbalance Service at the Resource Node is priced at the RTSPP on its net position, where its Resource output is netted against its Self-Schedules, DAM and Energy Trade positions at that Settlement Point. [e24]
 
 ### What changed in real time in December 2025?
 

@@ -54,7 +54,7 @@ links:
   note: CRR product prices sum constraint shadow prices times shift factors; PTP Options include only non-negative ones. [e45]
 - to: binding-constraint
   type: related
-  note: Oversold flows on a binding facility cause shortfalls that reduce payments to CRRs sinking at affected generators. [e56]
+  note: Oversold flows on a facility cause shortfalls that reduce payments to CRRs sinking at generator locations affecting that facility. [e61]
 - to: uplift
   type: related
   note: The balancing account surplus is returned to load, and shortfalls are charged to CRR owners. [e37][e38]
@@ -300,6 +300,18 @@ evidence:
     source: imm-som-2025
     locator: "page 90 (OCR), Day-ahead congestion rent table"
     quote: "2021 2022 2023 2024 2025 $700 $ Millions © Day-Ahead Congestion Rent $1,402 $2,365 $2,069 $1,923 $2,477"
+  - id: e61
+    source: imm-som-2025
+    locator: "page 89-90 (OCR), CRR Shortfall Settlement"
+    quote: "When oversold flows cause a shortfall on a specific transmission facility, ERCOT reduces payments to CRRs that sink at generator locations affecting that facility."
+  - id: e62
+    source: np-07
+    locator: "Section 7.6, pending box [NPRR1030] replacing paragraph (3)"
+    quote: "[NPRR1030: Replace paragraph (3) above with the following upon system implementation:]"
+  - id: e63
+    source: np-07
+    locator: "Section 7.9.3.5, pending box [NPRR1030] replacing paragraph (1)"
+    quote: "[NPRR1030: Replace paragraph (1) above with the following upon system implementation:]"
 ---
 
 ## Definition
@@ -314,21 +326,21 @@ A Congestion Revenue Right is a financial instrument that entitles its holder to
 
 **Auction schedule and capacity.** The Monthly Auction is held once a month and sells one-month terms for the following month; twice a year a Long-Term Auction Sequence sells six successive auctions of six-month terms. [e8][e9][e18] ERCOT only offers a fraction of network capacity: the CRR Auction Capacity is 90% for the Monthly Auction and 70%, 55%, 40%, 30%, 20% or 10% for the first through sixth six-month windows of a sequence. [e24] The IMM explains the rationale: congestion forecasts get less certain over longer horizons, raising the risk that payments exceed day-ahead congestion rent, so ERCOT sells a smaller share early and more later. [e47][e48] The auction model is the CRR Network Model, based on but not the same as the Network Operations Model, using peak Load conditions of the months modeled. [e25][e26]
 
-**Clearing and credit.** The auction is a single-round, simultaneous auction. [e29] The auction system will not award bids and offers beyond the lesser of the account holder's self-imposed limit and the credit limit prescribed in Section 16.11.4.6.1. [e30] The ACL locked for a CRR Auction is the lower of the requested limit, the Counter-Party's available credit limit at the close of the bid window, and the pre-auction screening exposure. [e31] ERCOT's credit FAQ defines excess collateral as total Financial Security less TPEA, TPES and CRR Locked ACL, and says only collateral received by 3 pm CT on CRR lock days is reflected in the portal for the auction. [e32][e33] A PTP Option Award Charge applies when a PTP Option bid clears below the Minimum PTP Option Bid Price. [e34]
+**Clearing and credit.** The auction is a single-round, simultaneous auction. [e29] The auction system will not award bids and offers beyond the lesser of the account holder's self-imposed limit and the credit limit prescribed in Section 16.11.4.6.1. [e30] The ACL locked for a CRR Auction is the lower of the requested limit, the Counter-Party's available credit limit for the CRR Auction (ACLC) at the close of the CRR bid submission window, and the pre-auction screening exposure. [e31] ERCOT's credit FAQ defines excess collateral as total Financial Security less TPEA, TPES and CRR Locked ACL, and says only collateral received by 3 pm CT on CRR lock days is reflected in the portal for the auction. [e32][e33] A PTP Option Award Charge applies when a PTP Option bid clears below the Minimum PTP Option Bid Price. [e34]
 
 **Pricing.** The ERCOT CRR handbook (version 4.3, June 27, 2022) says a CRR may be used as a financial hedge, which locks in the price of congestion at the CRR's purchase price, or as an investment. [e44] It also says a CRR clearing price equals the shadow price of that CRR product: for Obligations the sum of binding-constraint shadow prices times shift factors, and for Options only the non-negative shift factors. [e45]
 
-**DAM settlement.** In the DAM, a PTP Obligation owner is paid or charged the Day-Ahead Settlement Point Price difference between sink and source, and a PTP Option owner is paid that difference if it is positive. [e11][e12] Those payments can be reduced when the CRR sinks at a Resource Node and the transmission elements were oversold in earlier CRR Auctions. [e19][e20]
+**DAM settlement.** In the DAM, a PTP Obligation owner is paid or charged the Day-Ahead Settlement Point Price difference between sink and source, and a PTP Option owner is paid that difference if it is positive. [e11][e12] A PTP Obligation payment (for an Obligation with a positive value) or a PTP Option payment can be reduced when the CRR sinks at a Resource Node and directional network elements or Transmission Elements were oversold in earlier CRR Auctions. [e19][e20]
 
 **Real-time settlement.** ERCOT pays or charges the QSE of each PTP Obligation acquired in the DAM the real-time Settlement Point Price difference between sink and source, and if ERCOT cannot execute the DAM it pays or charges PTP Obligation owners on the real-time difference. [e42][e43]
 
-**Funding: the balancing account.** If DAM congestion rent is at least the net amount due to CRR Owners, ERCOT pays them and puts any excess into the CRR Balancing Account; if rent is short, ERCOT short-pays owners pro rata and tracks the amount. [e35] Hourly, a credit is the greater of zero and DAM congestion rent plus the CRR payment and charge totals (as defined in 7.9.3.2). [e39] Shortfall charges fall on CRR Owners' CRRs with positive settlement prices, calculated as the negated minimum of zero and that same sum. [e38][e40] Monthly refunds may be paid to owners with shortfall charges. [e41] Excess first repays short-paid owners; the rest goes to fund the rolling CRR Balancing Account Fund up to a cap of $10 million, and any surplus above the cap is paid to QSEs representing LSEs on monthly Load Ratio Share, the 15-minute LRS for the peak-Load Settlement Interval. [e36][e37] The monthly refund formula and NPRR1030 changes (ratio shares and DC Tie treatment) are in pending boxes in Sections 7.6 and 7.9.3.5 and are not described as the rule in force. [e36][e37]
+**Funding: the balancing account.** If DAM congestion rent is at least the net amount due to CRR Owners, ERCOT pays them and puts any excess into the CRR Balancing Account; if rent is short, ERCOT short-pays owners pro rata and tracks the amount. [e35] Hourly, a credit is the greater of zero and DAM congestion rent plus the CRR payment and charge totals (as defined in 7.9.3.2). [e39] Shortfall charges fall on CRR Owners' CRRs with positive settlement prices, calculated as the negated minimum of zero and that same sum. [e38][e40] Monthly refunds may be paid to owners with shortfall charges. [e41] Excess first repays short-paid owners; the rest goes to fund the rolling CRR Balancing Account Fund up to a cap of $10 million, and any surplus above the cap is paid to QSEs representing LSEs on monthly Load Ratio Share, the 15-minute LRS for the peak-Load Settlement Interval. [e36][e37] NPRR1030 pending boxes would replace Section 7.6 paragraph (3) and Section 7.9.3.5 paragraph (1) upon system implementation; the text above is the text now in the Protocols, and the pending replacements are not described as the rule in force. [e62][e63]
 
 **Auction revenue distribution.** Net auction revenue from CRRs sourcing and sinking in the same 2003 congestion management zone is credited to QSEs in that zone by zonal Load Ratio Share, and all other net auction revenue is allocated by ERCOT-wide Load Ratio Share. [e10] The IMM calls this the CARD process and says only DC tie operators have clearly exhibited the incentive to raise consumption at the peak; it notes the project to implement NPRR 1030, approved in 2020, has not been initiated. [e51][e52][e53]
 
 ## Formula
 
-DAM settlement for a CRR (ERCOT handbook, v4.3): hourly revenue to the holder of an Obligation is the MWh amount times the sink LMP minus the source LMP; for an Option the same, but zero if that difference is negative. [e46] The hourly balancing-account credit is the greater of zero and the sum of Day-Ahead Congestion Rent and the CRR payment and charge totals, where those totals are the sums of the Obligation, Obligation-with-refund and Option payments and of the Obligation charges. [e39] The shortfall total is the negated minimum of zero and that same sum, and each owner is charged its share of it. [e40]
+DAM settlement for a CRR (ERCOT handbook, v4.3): hourly revenue to the holder of an Obligation is the MWh amount times the sink LMP minus the source LMP; for an Option the same, but zero if that difference is negative. [e46] The hourly balancing-account credit is the greater of zero and the sum of Day-Ahead Congestion Rent and the CRR payment and charge totals, where the payment total is the sum of the Obligation, Obligation-with-refund, Option and Option-with-refund payment totals and the charge total is the sum of the Obligation and Obligation-with-refund charge totals. [e39] The shortfall total is the negated minimum of zero and that same sum, and each owner's charge is that total times the owner's factor (CRRCRRSDA). [e40]
 
 ## ERCOT context
 
@@ -336,7 +348,7 @@ ERCOT sells CRRs in a monthly auction and in a long-term auction sequence held t
 
 The IMM's 2025 numbers: auction revenues rose 6% (versus 14-32% annual growth in 2021-2024), intrazonal CRRs drove the increase and cross-zone CRR revenue fell to its lowest since 2021, with total auction revenue shown as $1,810 million in its table. [e13][e49][e50] CRR profitability rose 21% after a 1.5% net loss in 2024. [e14][e54] Surplus payments to load were $293 million with the balancing account fully funding CRRs every month. [e15] Day-ahead congestion rent in the IMM's table is $2,477 million for 2025. [e60]
 
-On funding, the IMM says ERCOT pays less than target only when day-ahead congestion rent is insufficient, usually when flows modeled in the auction exceed those in the DAM after unforeseen outages; oversold facilities reduce payments to CRRs sinking at affected generators, and any remaining shortfall is prorated across positively valued CRRs. [e55][e56] The last CRR short payment occurred in November 2020 per the IMM. [e56] In 2025 mandatory derations still cut payments by $33 million and the funding percentage to about 99%, and the IMM argues derating when revenue is sufficient adds unnecessary risk for buyers. [e57]
+On funding, the IMM says ERCOT pays less than target only when day-ahead congestion rent is insufficient, usually when flows modeled in the auction exceed those in the DAM after unforeseen outages; oversold flows on a facility reduce payments to CRRs sinking at affected generators, and any remaining shortfall is prorated across positively valued CRRs. [e55][e61][e56] The last CRR short payment occurred in November 2020 per the IMM. [e56] In 2025 mandatory derations still cut payments by $33 million and the funding percentage to about 99%, and the IMM argues derating when revenue is sufficient adds unnecessary risk for buyers. [e57]
 
 CRRs also matter for credit: the IMM says TPES, based on CRR positional risk, was the larger component of TPE in 2024 and 2025. [e58][e59]
 
@@ -375,15 +387,15 @@ It is credited to QSEs on a Load Ratio Share basis: zonal for CRRs that source a
 
 ### Why does ERCOT sell only a fraction of capacity in long-term auctions?
 
-The IMM says congestion becomes harder to forecast the further ahead it is, which raises the risk that payments exceed DAM congestion rent, so ERCOT sells 70% in the first six-month window of a sequence and larger shares later, up to 90% in the monthly auction. [e47][e48][e24]
+The IMM says congestion becomes harder to forecast the further ahead it is, which raises the risk that payments exceed DAM congestion rent, and says ERCOT sells a portion of capacity in long-term auctions and raises the percentage in successive auctions until the final monthly auction. The Protocol percentages are 70% for the first six-month window of a sequence, falling to 10% for the sixth, and 90% for the Monthly Auction. [e47][e48][e24]
 
 ### What if DAM congestion rent is less than what CRR owners are owed?
 
-ERCOT short-pays owners pro rata (after reducing payments for oversold facilities) and tracks the short-pay; later surplus first repays short-paid owners, then fills a $10 million fund. [e35][e36][e37][e56]
+ERCOT short-pays owners pro rata (the IMM says payments to CRRs sinking at generators on oversold facilities are reduced first) and tracks the short-pay; later surplus first repays short-paid owners, then fills a $10 million fund. [e35][e36][e37][e61][e56]
 
 ### Why does a PTP Obligation carry more risk than an Option?
 
-It can produce a charge when the sink price is below the source price, while an Option cannot go negative. [e46][e5]
+An Obligation owner is paid or charged the sink-minus-source difference, so it can produce a charge when that difference is negative, while an Option cannot go negative. [e11][e46][e5]
 
 ### Who loses if a CRR is derated?
 
@@ -395,7 +407,7 @@ CRR owners: the IMM says 2025 deratings reduced payments by $33 million even tho
 
 - In the DAM the Option owner is paid the sink-minus-source Day-Ahead price difference only if positive. [e12]
 - The Option was bought at the auction clearing price, which the handbook ties to constraint shadow prices times shift factors. [e45]
-- If the CRR sinks at a Resource Node on an oversold element, the payment may be reduced. [e19][e20]
+- If the CRR sinks at a Resource Node on an oversold element, the payment (for an Obligation, when it has a positive value) may be reduced. [e19][e20]
 
 ## Open items
 

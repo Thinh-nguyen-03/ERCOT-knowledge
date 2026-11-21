@@ -114,7 +114,7 @@ evidence:
     quote: "The annual cost of congestion in the day-ahead and real-time markets increased by 26% and 32%, respectively in 2025, reversing the previous 3-year trend of declining annual congestion costs. The main driver of this increase were: e The increase in natural gas prices, the fuel for the resources most frequently used to manage congestion in ERCOT; e Higher congestion in the North zone, where ERCOT used a significant amount of RUC commitments to manage congestion; e Higher congestion in the West Zone, where transmission projects have not kept pace with the large increase in renewables in the Panhandle and growing demand in the Permian Basin."
   - id: e16
     source: imm-som-2025
-    locator: "page 90 (OCR), Figure 42, CRR funding table"
+    locator: "page 90 (OCR), Figure 43, CRR solvency table"
     quote: "2021 2022 2023 2024 2025 $700 $ Millions © Day-Ahead Congestion Rent $1,402 $2,365 $2,069 $1,923 $2,477"
   - id: e17
     source: imm-som-2025
@@ -170,7 +170,7 @@ evidence:
     quote: "In 2025, the total day-ahead surplus was approximately $293 million, up 22.4% from 2024. Congestion rent from the day-ahead market was sufficient to fully fund CRRs in every month of the year. As a result, the balancing account remained at its $10 million cap, and ERCOT returned all surplus congestion rent above that threshold to LSEs."
   - id: e30
     source: imm-som-2025
-    locator: "page 92 (OCR), Figure 43 table, CRR Payments row"
+    locator: "page 90 (OCR), Figure 43 table, CRR Payments row"
     quote: "CRR Payments $1,289 $2,067 $1,809 $1,684 $2,185"
   - id: e31
     source: imm-som-2025
@@ -184,11 +184,11 @@ Transmission congestion arises when network power flows are restricted by limits
 
 ## How it works
 
-Congestion shows up in prices: differences in the cost of delivering electricity to different locations are reflected in different energy prices at each node. [e2] The IMM adds that in ERCOT LMPs are calculated at individual generation and load nodes but load is settled at the load-weighted average price of its load zone, so some congestion costs are averaged across customers. [e25] A constraint's marginal economic cost is reflected in its shadow price, which is defined as the rate at which system costs would fall or rise with a slight change in the amount of the commodity made available. [e4][e6] The IMM calculates day-ahead congestion values as power flow over each constraint times that constraint's shadow price. [e6] How much a given injection loads a constraint is its shift factor: the flow on a transmission element from a unit injection at a bus to a fixed reference bus. [e5]
+Congestion shows up in prices: differences in the cost of delivering electricity to different locations are reflected in different energy prices at each node. [e2] The IMM adds that in ERCOT LMPs are calculated at individual generation and load nodes but load is settled at the load-weighted average price of its load zone, so some congestion costs are averaged across customers. [e25] A constraint's marginal economic cost is reflected in its shadow price, which is defined as the rate at which system costs would fall or rise with a slight change in the amount of the commodity made available. [e4][e6] The IMM describes day-ahead congestion values as being calculated as power flow over each constraint times that constraint's shadow price. [e6] How much a given injection loads a constraint is its shift factor: the flow on a transmission element from a unit injection at a bus to a fixed reference bus. [e5]
 
 SCED caps the price of congestion: the cost it calculates to resolve an additional MW on a network constraint is limited to that constraint's maximum shadow price. [e7] For 2025 the IMM lists caps of $5,251 per MW for base-case or voltage constraints, $4,500 for 345 kV, $3,500 for 138 kV and $2,800 for 69 kV thermal violations, with GTCs treated as base-case stability constraints at the $5,251 cap. [e22] Some constraints are generic transmission constraints (GTCs), which group transmission elements to limit flow between geographic areas to manage stability, voltage and other limits that cannot be modeled directly. [e8]
 
-Congestion rent is the difference between what consumers pay and what generators receive, based on locational price differences. It accrues to CRR holders. [e3] A CRR entitles its owner to be charged or paid congestion rent that arises when the grid is congested in the DAM or in real time. [e14] In 2025 the IMM reports day-ahead congestion rent of $2,477 million against CRR payments of $2,185 million, and a day-ahead surplus of about $293 million. [e16][e29]
+Congestion rent is the difference between what consumers pay and what generators receive, based on locational price differences. It accrues to CRR holders. [e3] A CRR entitles its owner to be charged or paid congestion rent that arises when the grid is congested in the DAM or in real time. [e14] In 2025 the IMM reports day-ahead congestion rent of $2,477 million against CRR payments of $2,185 million, and a day-ahead surplus of about $293 million. [e16][e30][e29]
 
 ## ERCOT context
 
@@ -196,7 +196,7 @@ Congestion rent is the difference between what consumers pay and what generators
 
 **Where.** Only about 9% of 2025 congestion costs were interzonal, down from 11% in 2024, and the West Zone is the largest contributor to intrazonal cost; congestion within the West rose 27% from 2024 to 2025. [e13][e17] GTC congestion cost rose about 10% from 2023 to 2024 but stayed well below 2022. [e21] ERCOT's December 2025 report lists the top constraints by real-time congestion rent for Oct 2024 to Sep 2025, headed by Koch Tap - Vealmoor 138kV at $211M, and states the figure shows where economic projects may be beneficial rather than whether one would pass planning criteria. [e26][e27] ERCOT also publishes top projected constraints for 2027 and 2030 base cases from the 2025 RTP economic analysis. [e28]
 
-**Management.** Violated-constraint hours fell to 64 in 2025, partly because NPRR 1230 lets SCED use more expensive dispatch to avoid violations. [e11] RUC was used heavily for congestion: 5,129 resource-hours of RUC instructions in 2025, about 77% for congestion. [e23] The IMM says ESRs can charge at negative prices to resolve congestion where adding load helps, or discharge where adding supply helps. [e24]
+**Management.** Violated-constraint hours fell to 64 in 2025, and the IMM says NPRR 1230, which allows SCED to produce more expensive dispatch solutions to avoid violating constraints, can partially explain the decline. [e11] RUC was used heavily for congestion: 5,129 resource-hours of RUC instructions in 2025, about 77% for congestion. [e23] The IMM says ESRs are particularly well suited to help resolve congestion because they can act as both supply and demand, and can often charge at prices below $0 when added load at a location resolves congestion. [e24]
 
 ## Key facts
 
@@ -240,11 +240,11 @@ Load is settled at its zone's load-weighted average price, so congestion inside 
 
 ### What if natural gas prices fall sharply?
 
-The IMM linked the 2023 decline in congestion cost largely to lower gas prices and the 2025 rise partly to higher gas prices, so a gas price drop would be expected to lower the dollar cost of a given pattern of congestion. This is the IMM's attribution, not a modeled forecast. [e20][e15]
+The IMM linked the 2023 decline in congestion cost largely to lower gas prices and the 2025 rise partly to higher gas prices, so gas prices were one driver of the dollar cost of congestion in those years. This is the IMM's attribution of past changes, not a modeled forecast. [e20][e15]
 
 ### Why can a constraint be violated even though SCED has a shadow price?
 
-Because SCED's cost to resolve an additional MW is limited to the constraint's maximum shadow price; if relief costs more than that, the constraint is left violated. [e7][e22]
+Because SCED's cost to resolve an additional MW is limited to the constraint's maximum shadow price; per the IMM, when the marginal cost of relief exceeds the reliability cost of violating the constraint, the shadow price caps prevent additional dispatch costs and set the constraint's shadow price, so the constraint can be left violated. [e7][e31]
 
 ## Scenarios
 
