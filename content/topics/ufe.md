@@ -29,10 +29,10 @@ links:
     note: Adjusted Metered Load is retail usage adjusted for UFE; QSE-level settlement of it was not sourced here. [e8]
   - to: energy-storage-resource
     type: related
-    note: Non-WSL ESR charging Load is calculated adjusted for UFE in the Real-Time settlement metered energy at the bus. [e27]
+    note: A pending revision (NPRR1188, not yet in force) would define Real-Time settlement metered energy at the bus for ESR Load as the calculated Non-WSL ESR charging Load adjusted for UFE. [e27]
   - to: clr
     type: related
-    note: Calculated CLR Load is likewise adjusted for UFE in the Real-Time settlement metered energy at the bus. [e28]
+    note: A pending revision (NPRR1188, not yet in force) would add a variable for calculated CLR Load adjusted for UFE in the Real-Time settlement metered energy at the bus. [e28]
 evidence:
   - id: e1
     source: np-02
@@ -162,7 +162,7 @@ Step two, within each category, allocates the category's UFE to the LSEs by each
 
 ## Formula
 
-Allocation to categories (Section 11.4.6.3): each category's UFE is total UFE for the interval and zone multiplied by that category's weighted share, for example for the profile category UFE_PR = UFE x (f_PR x L_PR) / L_UFE. [e13] Here f is the adjustment percentage for the category (the weights above) [e16], L is the category's aggregate loss-adjusted Load, and L_UFE, the adjusted total UFE allocation reference Load, is the sum of f x L across the four categories. [e14][e15] A category with weight 0.0 therefore gets no UFE, and a category with weight 1.00 is charged in proportion to its full Load. [e4]
+Allocation to categories (Section 11.4.6.3): each category's UFE is total UFE for the interval and zone multiplied by that category's weighted share, for example for the profile category UFE_PR = UFE x (f_PR x L_PR) / L_UFE. [e13] Here f is the adjustment percentage for the category [e16] (the Protocol text does not say in so many words that f is the weighting factor of Section 11.4.6.2; this entry reads them as the same, which is an inference), L is the category's aggregate loss-adjusted Load, and L_UFE, the adjusted total UFE allocation reference Load, is the sum of f x L across the four categories. [e14][e15] On that reading, a category with weight 0.0 gets no UFE, and a category with weight 1.00 is charged in proportion to its full Load. [e4]
 
 Allocation to LSEs (Section 11.4.6.4): the LSE's share of the category's UFE is the category UFE multiplied by Max(0, the LSE's loss-adjusted Load in the category) divided by the category's aggregate Load. [e17] The Max(0, ...) means an LSE with negative Load in a category is treated as zero in the numerator; the allocation is to positive Loads. [e17][e3]
 
