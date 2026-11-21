@@ -29,10 +29,10 @@ links:
     note: TDSPs provide advanced meter interval data to ERCOT in an ERCOT-specified file format via NAESB. [e7]
   - to: nprr
     type: contrasts-with
-    note: TX SET changes go through a separate Texas SET Change Control process run by a TAC subcommittee, not through an NPRR. [e6][e24]
+    note: Section 19.4 has the appropriate TAC subcommittee make TX SET modifications through the Texas SET Change Control process; the saved text does not describe it as an NPRR. [e6][e24]
   - to: stakeholder-process
     type: related
-    note: A Market Participant may dispute a TAC subcommittee decision on a Texas SET Change Control to TAC. [e25]
+    note: A Market Participant may register a dispute of a TAC subcommittee decision on a Texas SET Change Control within seven days; disputes go to TAC. [e25][e26]
   - to: market-information-system
     type: related
     note: ERCOT provides market synchronization reports for TX SET transactions on the Market Information System Certified Area. [e28]
@@ -206,6 +206,10 @@ evidence:
     source: rmg-07
     locator: "Section 7.2(2), Market Synchronization"
     quote: "In order to maintain synchronization with the Transmission and/or Distribution Service Providers (TDSPs) and Competitive Retailers (CRs), ERCOT provides the following reports on the Market Information System (MIS) Certified Area:"
+  - id: e42
+    source: np-15
+    locator: "Section 15.1.1.4(2), Response from TDSP to Registration Notification Request, cancel pending"
+    quote: "If the TDSP’s 814_04 transaction is not received within three Retail Business Days of receipt of the 814_03 transaction from ERCOT and is still not received by the earlier of the requested date on the switch or within 20 Retail Business Days after the original submission of the 814_03 transaction from ERCOT, ERCOT shall change the status of the switch to “cancel pending.”"
   - id: e39
     source: np-19
     locator: "Section 19.2(1)(c)-(d), Methodology"
@@ -220,17 +224,17 @@ TX SETs are the electronic data transactions, implementation guides and external
 
 ## How it works
 
-TX SET covers transactions among TDSPs, Competitive Retailers and ERCOT. [e10] The responsible TAC subcommittee develops EDI transactions using ANSI ASC X12 standards, XML transactions as needed, and other spreadsheets, templates and CSV files as needed. [e2][e39]
+Protocol Section 19 covers transactions among TDSPs, Competitive Retailers and ERCOT. [e10] The responsible TAC subcommittee develops EDI transactions using ANSI ASC X12 standards, XML transactions as needed, and other spreadsheets, templates and CSV files as needed. [e2][e39]
 
-Two routes. Some transactions flow through ERCOT; others are point to point. Point-to-point communications flow directly between CRs and TDSPs and do not flow through ERCOT. [e13] Examples: a CR sends a 650_01 Service Order Request to the TDSP, [e9] and the TDSP sends the 810_02 invoice for wires charges, which may be paired with an 867_03 to trigger the customer billing process. [e33] Examples that run through ERCOT: a new CR sends ERCOT an 814_01 Switch Request to begin a switch enrollment, and an 814_16 Move In Request to begin a move in [e3][e4]; ERCOT passes these to the TDSP as an 814_03 Enrollment Notification Request [e37]; and the TDSP reports monthly usage to ERCOT with an 867_03. [e5]
+Two routes. Some transactions flow through ERCOT; others are point to point. Point-to-point communications flow directly between CRs and TDSPs and do not flow through ERCOT. [e13] Examples: a CR sends a 650_01 Service Order Request to the TDSP, [e9] and the TDSP sends the 810_02 invoice for wires charges, which may be paired with an 867_03 to trigger the customer billing process. [e33] Examples that run through ERCOT: a new CR sends ERCOT an 814_01 Switch Request to begin a switch enrollment, and an 814_16 Move In Request to begin a move in [e3][e4]; ERCOT passes these to the TDSP as an 814_03 Enrollment Notification Request (Section 19.3.1 words this as passing information from those requests "where a Continuous Service Agreement (CSA) exists"; Section 15.1.1.3 has ERCOT send the 814_03 on receipt of any valid Switch Request) [e37][e17]; and the TDSP reports monthly usage to ERCOT with an 867_03. [e5]
 
-The switch sequence (Protocol Section 15). ERCOT sets the First Available Switch Date (FASD) as the day it receives the 814_01, unless received on a Sunday or an ERCOT holiday. [e16] ERCOT sends the 814_03 to the TDSP within one Retail Business Hour of a valid Switch Request. [e17] The TDSP answers with an 814_04 within two Retail Business Days; if it does not, ERCOT creates an internal tracking exception and holds the switch in "in review" status until the 814_04 arrives. [e18] Within one Retail Business Day of the 814_04, ERCOT sends the new CR an 814_05 with the scheduled meter read date, and the TDSP must effectuate the switch within two Retail Business Days of that date. [e19] The switch is effectuated on the actual meter read date in the 867_04 or final 867_03, which must equal the scheduled meter read date, [e20] and becomes effective at 0000 (midnight) on that date. [e21]
+The switch sequence (Protocol Section 15). ERCOT sets the First Available Switch Date (FASD) as the day it receives the 814_01, unless received on a Sunday or an ERCOT holiday. [e16] ERCOT sends the 814_03 to the TDSP within one Retail Business Hour of a valid Switch Request. [e17] The TDSP answers with an 814_04 within two Retail Business Days; if it does not, ERCOT creates an internal tracking exception and holds the switch in "in review" status until the TDSP's 814_04 is received. If the 814_04 is still missing after three Retail Business Days and by the earlier of the switch's requested date or 20 Retail Business Days after the original 814_03, ERCOT changes the switch status to "cancel pending". [e42] Within one Retail Business Day of the 814_04, ERCOT sends the new CR an 814_05 with the scheduled meter read date, and the TDSP must effectuate the switch within two Retail Business Days of that date. [e19] The switch is effectuated on the actual meter read date in the 867_04 or final 867_03, which must equal the scheduled meter read date, [e20] and becomes effective at 0000 (midnight) on that date. [e21]
 
 Move-ins. A standard Move-In Request is effectuated on the date requested in the 814_16, provided the TDSP received the 814_03 by 1700 at least two Retail Business Days before the requested date. [e22] Where a permit is required, ERCOT allows the TDSP 20 Retail Business Days to send the 814_04 after the 814_28 permit-pending notice. [e23]
 
 Validation and priority. ERCOT rejects an initiating 814_01, 814_16 or 814_24 for date reasonableness if the requested date is more than 90 days in the future or 270 days in the past. [e14] ERCOT processes same-day 814_16 and 814_24, 814_01 and ESI ID Maintenance (Create) transactions within one Retail Business Hour (Level 1) and standard 814_16 and 814_24 within two Retail Business Hours (Level 2). [e15]
 
-Counting days. The Retail Market Guide counts days from Day 0, the day of transaction receipt. [e31] Its Appendix D1 Transaction Timing Matrix is an abbreviated version of Protocol Section 15 for identifying the flow and timing of transactions. [e32]
+Counting days. The Retail Market Guide's Appendix D1 timing matrix counts days from Day 0, the day of transaction receipt. [e31] Its Appendix D1 Transaction Timing Matrix is an abbreviated version of Protocol Section 15 for identifying the flow and timing of transactions. [e32]
 
 Change control. The appropriate TAC subcommittee reviews and approves Texas SET Change Controls and Implementation Guides and classifies a change as urgent. [e24] TX SETs are expanded and modified on an ongoing basis. [e6] A change may be classified urgent to accommodate an approved regulatory requirement and/or necessary corrective action to retail market processes. [e27] ERCOT publishes approved change controls within seven Retail Business Days of subcommittee approval. [e38] A Market Participant may dispute a subcommittee decision to ERCOT within seven days of it, and a dispute to TAC suspends further decisions on that change control until TAC decides it. [e25][e26]
 
@@ -262,7 +266,7 @@ Switch holds are an example of a point-to-point use: to add a bill-payment switc
 
 ## Common confusion
 
-(Guidance) TX SET is the set of transactions, implementation guides and standards for retail processes, not a database. [e1] Not every TX SET passes through ERCOT: the 650 service orders are point to point between the CR and TDSP. [e9][e13] And a change to a transaction is not an NPRR; it goes through Texas SET Change Control. [e6][e24]
+(Guidance) TX SET is the set of transactions, implementation guides and standards for retail processes, not a database. [e1] Not every TX SET passes through ERCOT: the 650 service orders are point to point between the CR and TDSP. [e9][e13] And changes to TX SETs are made by the appropriate TAC subcommittee through Texas SET Change Control under Section 19.4. [e6][e24]
 
 ## Questions
 
@@ -280,11 +284,11 @@ The Protocols have ERCOT reject an initiating 814_01, 814_16 or 814_24 whose req
 
 ### What happens if the TDSP does not answer the 814_03 on time?
 
-ERCOT creates an internal tracking exception and the switch stays in "in review" status until the 814_04 arrives. [e18]
+ERCOT creates an internal tracking exception and the switch is held in "in review" status until the TDSP's 814_04 is received; if it is still missing after three Retail Business Days and by the earlier of the requested date or 20 Retail Business Days after the original 814_03, the status changes to "cancel pending". [e18][e42]
 
-### Why do the 650 service orders not show up in ERCOT's data?
+### Do the 650 service orders flow through ERCOT?
 
-They are point-to-point transactions between the CR and TDSP and do not flow through ERCOT. [e13][e9] Issues with them can still be raised through MarkeTrak Day-to-Day. [e30]
+They are point-to-point transactions between the CR and TDSP and do not flow through ERCOT. [e13][e9] The saved sources do not say whether issues with them are handled in MarkeTrak; MarkeTrak is described as the primary tool for resolving retail market transaction issues and requesting manual service order cancellations. [e30]
 
 ## Scenarios
 
@@ -295,12 +299,11 @@ They are point-to-point transactions between the CR and TDSP and do not flow thr
 - The TDSP returns an 814_04 with the scheduled meter read date within two Retail Business Days. [e18]
 - ERCOT sends the new CR an 814_05 within one Retail Business Day of that. [e19]
 - The switch completes on the effectuating meter read (867_04 or final 867_03) and is effective at 0000 on that date. [e20][e21]
-- The CR currently serving the premise is notified of the drop with an 814_06 Loss Notification [e40], and may see the pending switch in the daily Potential Load Loss Report. [e28]
+- The CR currently serving the premise is notified of the drop with an 814_06 Loss Notification [e40], and may be told of potential Customer loss in the daily Potential Load Loss Report, which the Retail Market Guide bases on ERCOT's receipt of the TDSP's accepted response to a Switch or Move-In Request. [e28]
 
 ## Open items
 
 - The saved sources do not say whether the advanced meter interval data file is a TX SET transaction (Section 19.7 describes it as an ERCOT-specified file format via NAESB, and the Retail Market Guide calls it an interval data file); the guides' text is not saved.
 - The Texas SET Implementation Guides themselves, and the Retail Market Guide Appendix D1 timing matrix, are not saved or not legible, so field-level content and per-transaction timings beyond Protocol Section 15 are not sourced.
 - Protocol Section 19.7 says interval data is provided "at least" monthly while the Retail Market Guide 7.15.2 says daily; the saved sources do not state which governs in practice.
-- Section 15.1.1.4(2) sets a "cancel pending" path when the TDSP's 814_04 is late; the exact conditions (three and 20 Retail Business Days) were not quoted here.
 - Resolved 2026-11-21: the full transaction list (Section 19.3.1, 49 entries), urgent change requests (19.4.5) and Retail Market Guide references are now saved and cited above only in part; not every transaction is described.

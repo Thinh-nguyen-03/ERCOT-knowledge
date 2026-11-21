@@ -190,7 +190,7 @@ evidence:
   - id: e36
     source: ercot-as-methodology-2026
     locator: "Introduction (document status)"
-    quote: "ERCOT Board Recommended approval on 09/23/2025"
+    quote: "ERCOT Board Recommended approval on 09/23/2025 PUC Approved on 11/06/2025 Effective Date of 01/01/2026"
 ---
 
 ## Definition
@@ -199,7 +199,7 @@ The Short-Term Wind Power Forecast (STWPF) and Short-Term PhotoVoltaic Power For
 
 ## How it works
 
-**The chain, step by step.** Each hour ERCOT produces and updates a Total ERCOT Wind Power Forecast (TEWPF), a probability distribution of hourly wind production potential for each of the next 168 hours. [e17] ERCOT picks the 50% probability of exceedance case from that distribution, meaning the level actual total WGR production is expected to exceed 50% of the time, and allocates it to each WGR so that the individual STWPF values sum to the TEWPF value. [e5] The result is a rolling 168-hour hourly STWPF for each wind Resource. [e11] PV works the same way: a TEPPF distribution, a 50% probability of exceedance case, allocated across PVGRs to give the STPPF. [e21] The 80% exceedance Production Potential (WGRPP, PVGRPP) is a separate, lower, allocation from the same total forecast. [e3][e4]
+**The chain, step by step.** Each hour ERCOT produces and updates a Total ERCOT Wind Power Forecast (TEWPF), a probability distribution of hourly wind production potential for each of the next 168 hours. [e17] ERCOT picks the 50% probability of exceedance case from that distribution, meaning the level actual total WGR production is expected to exceed 50% of the time, and allocates it to each WGR so that the individual STWPF values sum to the TEWPF value. [e5] The result is a rolling 168-hour hourly STWPF for each wind Resource. [e11] PV works the same way: a TEPPF distribution, a 50% probability of exceedance case, allocated across PVGRs to give the STPPF. [e21] The 80% exceedance Production Potential (WGRPP, PVGRPP) is a separate allocation, made from the 80% probability of exceedance case of the total forecast rather than the 50% case. [e3][e4]
 
 **Inputs.** WGRPP forecasts are produced from information provided by WGR owners, including availability, meteorological information and SCADA. [e19] Under the current Section 4.2.2 text, each Generation Entity that owns a WGR must install and telemeter to ERCOT the site-specific meteorological information ERCOT determines is necessary, and ERCOT sets procedures for the accuracy of that telemetry. [e18]
 
@@ -283,8 +283,8 @@ It cannot raise its COP HSL above the latest STWPF amount; overrides may only be
 
 ### A cloudy afternoon: the solar forecast was too high at the RUC run
 
-- The updated STPPF feeds each RUC process, so an over-forecast of solar means less thermal commitment than needed. [e21]
-- The IMM says an under-forecast of net demand can lead to insufficient thermal commitments and real-time shortfalls often addressed through RUC; an over-forecast of IRR output has the same direction of effect on net demand. [e30]
+- The updated STPPF feeds each RUC process. [e21] The IMM's 2024 report says over-forecasting renewable generation can lead to reliability issues if thermal units are not committed in time to compensate. [e31]
+- The IMM says an under-forecast of net demand can lead to insufficient thermal commitments and real-time shortfalls often addressed through RUC. [e30] Net demand is demand minus expected IRR generation [e8], so by the knowledge base's own arithmetic an over-forecast of IRR output, with demand unchanged, understates net demand.
 - In RUC settlement, the IRR's capacity counted toward its QSE's position is the lesser of its COP HSL and its production potential at RUC execution. [e23]
 
 ## Open items

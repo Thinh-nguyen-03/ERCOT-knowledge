@@ -29,16 +29,16 @@ links:
     note: A block covers only the hours defined for it, so hours outside the block are not covered by it. [e1]
   - to: ptp-obligation
     type: related
-    note: The Protocols evaluate a PTP Obligation hourly, which is why a CRR block must carry the same MW in each hour. [e19][e1]
+    note: The Protocols evaluate a PTP Obligation hourly, and the Protocols require a CRR block to have the same MW amount in each hour. [e19][e1]
   - to: settlement-point
     type: related
-    note: A CRR block is bid between a source Settlement Point and a sink Settlement Point. [e20]
+    note: A CRR block is bid between a source Settlement Point and a sink Settlement Point. [e35]
   - to: heat-rate-call-option
     type: related
     note: ICE also lists an ERCOT heat rate contract with an off-peak schedule that mirrors the off-peak hours above. [e26]
   - to: forward-curve
     type: related
-    note: Monthly peak and off-peak futures are the exchange instruments that price ERCOT North block hours forward. [e3][e4][e23]
+    note: ICE lists monthly peak and off-peak futures that settle on ERCOT North peak and off-peak hours. [e3][e4][e23]
   - to: qse
     type: related
     note: ERCOT's training material describes bilateral trades as QSE-to-QSE transactions that transfer settlement responsibility. [e31]
@@ -171,6 +171,14 @@ evidence:
     source: ref-ercot-forward-markets-101
     locator: "Forward Markets 101 (2026), Bilateral Trades slide"
     quote: "Decentralized Forward Market • QSE-to-QSE transactions • Transfers settlement responsibility"
+  - id: e34
+    source: ice-ercot-north-offpeak
+    locator: "ICE Futures U.S., ERCOT North 345KV Real-Time Off-Peak Fixed Price Future, Contract Specifications"
+    quote: "Cash settlement Contract Size 1 MW"
+  - id: e35
+    source: np-07
+    locator: "Section 7.5.2.3, CRR Auction Bid Criteria, paragraph (1)(c)"
+    quote: "The source Settlement Point and the sink Settlement Point for the block of CRRs being bid;"
 ---
 
 ## Definition
@@ -179,11 +187,11 @@ In the ERCOT CRR auction, a block is a time-of-use (TOU) block having the same M
 
 ## How it works
 
-The notation is days times hours: 5x16 is five weekdays of 16 hours, 2x16 is the weekend and holiday days of the same 16 hours, and 7x8 is the eight overnight hours on all seven days. The Protocols define the hour ranges directly. [e1] ERCOT's Forward Markets 101 training shows the same blocks as off-peak 0100-0600, peak weekday 0700-2200, peak weekend 0700-2200 and off-peak 2300-0000. [e30] Every CRR auction bid or PCRR nomination must name one of these TOU blocks. [e2] Because a PTP Obligation is evaluated hourly, the block's single MW amount applies to every hour in it. [e19][e1]
+Reading the Protocol hour ranges, the notation is days times hours: 5x16 is five weekdays of 16 hours, 2x16 is the weekend and holiday days of the same 16 hours, and 7x8 is the eight overnight hours on all seven days. The Protocols define the hour ranges directly. [e1] ERCOT's Forward Markets 101 training shows the same blocks as off-peak 0100-0600, peak weekday 0700-2200, peak weekend 0700-2200 and off-peak 2300-0000. [e30] Every CRR auction bid or PCRR nomination must specify a TOU block (the Monthly Auction's single block bid, below, is a linked bid across all three). [e2][e6] A PTP Obligation is evaluated hourly [e19], and the Protocols require the MW amount to be the same for each hour within a block. [e1]
 
 A 7x24 (around-the-clock) position is not a fourth auctioned block. In the CRR Monthly Auction only, one bid can cover all hours of the month as a linked offer across the three blocks. [e6] The bid criteria allow a 7x24 block in a CRR Monthly Auction but not in a CRR Auction held as part of a CRR Long-Term Auction Sequence (ERCOT's training slide carries the same rule), and the offer criteria say a 7x24 offer may not be designated. [e20][e17][e21] ERCOT's (2020 edition) training treats a 7x24 block bid as a single bid across all three TOU blocks and shows a worked example: with February's 672 hours split into 224 off-peak, 128 peak weekend and 320 peak weekday hours, and TOU clearing prices of $2, $3 and $8, the hour-weighted average is $5.048, so a $6 bid is awarded. [e12][e13][e14][e15][e16]
 
-ICE uses the same split for its ERCOT North monthly futures. The peak future settles on the average of the peak hourly prices, with the specified price being the average of settlement point prices for hours ending 0700-2200 CPT. [e3][e5] The off-peak future averages hours ending 0100-0600 and 2300-2400 on weekdays and all hours on Saturdays, Sundays and NERC holidays. [e4]
+ICE uses the same split for its ERCOT North monthly futures. The peak future is a monthly cash-settled contract based on the average of daily prices, each calculated by averaging the peak hourly prices, with the specified price being the average of SPPs for hours ending 0700-2200 CPT. [e3][e5] The off-peak future averages hours ending 0100-0600 and 2300-2400 on weekdays and all hours on Saturdays, Sundays and NERC holidays. [e4]
 
 ## ERCOT context
 
@@ -195,7 +203,7 @@ Heat rate contracts use block hours too. ICE's ERCOT Panhandle Heat Rate 345kV H
 
 Beyond ERCOT's own definitions, FERC's primer says electricity contracts may specify peak or off-peak delivery, with the hours defined by the contract and reflecting NAESB contract definitions. [e28] In ERCOT's training, bilateral trades are described as a decentralized forward market of QSE-to-QSE transactions that transfer settlement responsibility. [e31] FERC's primer, writing about financial transmission rights in other RTOs, says FTRs can be bought as 16-hour on-peak blocks, 8-hour off-peak blocks or around-the-clock, and that only PJM offers all three. [e29]
 
-Settlement of an awarded block is simple multiplication. ERCOT's training example prices a 20 MW Peak WD (5x16) PTP Option at $5/MW for 320 hours in February: $100 per hour, or $32,000 for the entire TOU block. [e18][e33]
+The auction charge for an awarded block is simple multiplication. ERCOT's training example prices a 20 MW Peak WD (5x16) PTP Option at $5/MW for 320 hours in February: $100 per hour, or $32,000 for the entire TOU block (the training slide's heading is CRR Auction Settlement charges and payments; the charge is price times CRRs times TOU hours). [e18][e33]
 
 ## Key facts
 
@@ -203,7 +211,7 @@ Settlement of an awarded block is simple multiplication. ERCOT's training exampl
 - CRR bids and PCRR nominations must specify a TOU block. [e2]
 - 7x24 exists only as a linked bid in the CRR Monthly Auction, not in Long-Term Auction Sequences. [e6][e20]
 - Protocol "On-Peak Hours": hours ending 0700 to 2200 CPT, Monday through Friday, excluding NERC holidays. [e11]
-- ICE's ERCOT North peak and off-peak futures are monthly and cash settled, referencing the ERCOT North 345KV Hub real-time price; contract size 1 MW. [e8][e3][e9][e10][e22]
+- ICE's ERCOT North peak and off-peak futures are monthly and cash settled, referencing the ERCOT North 345KV Hub real-time price; contract size 1 MW. [e8][e3][e9][e10][e22][e34]
 - The peak average uses hours ending 0700-2200 CPT. [e5]
 - ICE's ERCOT Panhandle heat rate contract (off-peak) is sized at 50 MW per hour. [e27]
 
@@ -213,7 +221,7 @@ Settlement of an awarded block is simple multiplication. ERCOT's training exampl
 
 ## Common confusion
 
-Off-peak is not one block in the CRR rules: it is the 2x16 weekend and holiday block plus the 7x8 overnight block, while ICE's off-peak future bundles those hours into one contract price. [e1][e4] Also 7x24 is not an auctioned block on its own; it is only a linked monthly bid. [e6] Finally, 5x16 and "peak" are the same weekday hours but 5x16 excludes the weekend 16-hour block, which is why ICE's peak contract is a weekday product. [e1][e7]
+Off-peak is not one block in the CRR rules: it is the 2x16 weekend and holiday block plus the 7x8 overnight block, while ICE's off-peak future bundles those hours into one contract price. [e1][e4] Also 7x24 is not an auctioned block on its own; it is only a linked monthly bid. [e6] Finally, 5x16 and "peak" are the same weekday hours but 5x16 excludes the weekend 16-hour block; ICE's peak contract prices only Monday through Friday excluding NERC holidays. [e1][e7]
 
 ## Questions
 
@@ -223,7 +231,7 @@ Hours ending 0700-2200, Monday through Friday, excluding NERC holidays. [e1]
 
 ### What does the ICE ERCOT North peak future settle against?
 
-The average of the daily peak-hour prices published by ERCOT for the ERCOT North 345KV Hub real-time price, using hours ending 0700-2200 CPT. [e8][e3][e5]
+A monthly average of daily prices, each calculated by averaging the peak hourly prices published by ERCOT for the ERCOT North 345KV Hub real-time price, using hours ending 0700-2200 CPT. [e8][e3][e5]
 
 ### How is a 7x24 position bought in a CRR auction?
 
@@ -246,7 +254,7 @@ The Protocols say a 7x24 block may be included in a CRR Monthly Auction but not 
 ### You bid 20 MW of a PTP Option in the 5x16 block for February at $5/MW and win it
 
 - The 5x16 block is hours ending 0700-2200 on weekdays, so the block covers 320 hours in the training example's February. [e1][e18]
-- Payment is $5 times 20 MW per hour, or $100 per hour, and $32,000 for the block (ERCOT training example). [e18][e33]
+- The auction charge is $5 times 20 MW per hour, or $100 per hour, and $32,000 for the block (ERCOT training example). [e18][e33]
 
 ## Open items
 
@@ -255,4 +263,4 @@ The Protocols say a 7x24 block may be included in a CRR Monthly Auction but not 
 - The ERCOT Forward Markets 101 slide shows the overnight off-peak block as "2300 - 0000", while Protocol Section 7.3 says hours ending 2300-2400; the sources use different notations for the same hours.
 - The ERCOT CRR training material is a 2020 edition; its worked examples were not checked against later Protocol revisions (Protocol text on 7x24 bids was checked).
 - Deeper pass: bilateral block contract terms (such as ISDA, EEI or NAESB contract specifics beyond the FERC primer's one-sentence reference) are not in the saved sources.
-- NPRR1288 appears in the saved Section 7.5.2 text as a pending replacement of bid and offer paragraphs (d); the replacement is not cited here and its effect on block rules is not stated beyond what the pending box shows.
+- NPRR1288 appears in the saved Section 7.5.2 text as a pending replacement (upon system implementation) of bid and offer paragraphs (d). In the saved text the replacement changes "month or strip of consecutive months" to "month" and keeps the 7x24 wording unchanged; the quotes cited here are the rule currently in force.
