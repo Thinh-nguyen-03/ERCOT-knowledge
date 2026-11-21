@@ -26,7 +26,7 @@ links:
     note: Market Participants access the MIS with authenticated credentials. [e1]
   - to: ufe
     type: related
-    note: ERCOT posts TSP and DSP load with loss and UFE allocations to the MIS Secure Area. [e8]
+    note: Under the current text of Section 11.5.1.2, ERCOT posts TSP and DSP load with loss and UFE allocations to the MIS Secure Area; a pending NPRR1239 replacement would move that posting to the ERCOT website. [e8][e37][e38]
   - to: puct
     type: related
     note: PUCT rule 25.506 sets the public posting timelines (two days aggregated, 60 days entity-specific) for resource and load information. [e19][e20]
@@ -181,6 +181,14 @@ evidence:
     source: copmg-08
     locator: "Commercial Operations Market Guide Section 8.1.5(d), Content of Communication"
     quote: "When and where the Invoice will be posted. Ad hoc Invoices are normally posted on the Market Information System (MIS) Certified Area."
+  - id: e37
+    source: np-11
+    locator: "Section 11.5.1.2, pending NPRR1239 box after paragraph (3)"
+    quote: "[NPRR1239: Replace paragraphs (1)-(3) above with the following upon system implementation:]"
+  - id: e38
+    source: np-11
+    locator: "Section 11.5.1.2, text of the pending NPRR1239 replacement, paragraph (1)"
+    quote: "ERCOT shall post on the ERCOT website the following information, consistent with the requirements in Section 1.3, Confidentiality:"
 ---
 
 ## Definition
@@ -201,9 +209,9 @@ Disputes. Settlement disputes can be filed through the MIS web portal, which aut
 
 ## ERCOT context
 
-Examples from the Protocols: Securitization Default Charge invoices are posted to the MIS Certified Area, and TSP and DSP load with loss and UFE allocations goes to the MIS Secure Area. [e7][e8] Public data is different: items the Protocols require on the ERCOT website must be available on a non-discriminatory basis. [e6]
+Examples from the Protocols: Securitization Default Charge invoices are posted to the MIS Certified Area, and, in the current text of Section 11.5.1.2, TSP and DSP load with loss and UFE allocations goes to the MIS Secure Area. [e7][e8] A pending NPRR1239 box would replace those paragraphs upon system implementation [e37] with text under which ERCOT posts that information on the ERCOT website. [e38] Public data is different: items the Protocols require on the ERCOT website must be available on a non-discriminatory basis. [e6]
 
-Public posting timelines come from the PUCT's rule 25.506, which says ERCOT must post the information it requires at a publicly accessible location on its website, never disclosing competitively sensitive consumption data, and make the information available to all market participants. [e18] The saved copy shows an effective date of 05/28/25. Aggregated information, starting with the quantities and prices of offers for energy and each type of ancillary capacity service in the form of supply curves, is posted two calendar days after the day. [e19] Entity-specific information is posted 60 calendar days after the day, except where otherwise prescribed. [e20] Exceptions to the 60 days: the highest-priced offer selected or dispatched in each interval ERCOT-wide is posted with the offering entity's name three calendar days after the day, [e21] and, when clearing prices exceed 50 times a gas price index, the offer pairs at or above that level are posted seven calendar days after the day. [e22] State Estimator data (transmission flows, voltages and tap positions for each hour) is among the 60-day items, but ERCOT must release relevant data earlier if, in its sole discretion, that is necessary to explain unexpected market operations or system events. [e23] Forced outages and derates are posted in resource-specific form not later than the third business day after the outage or derate ends. [e24]
+Public posting timelines come from the PUCT's rule 25.506, which says ERCOT must post the information it requires at a publicly accessible location on its website, never disclosing competitively sensitive consumption data, and make the information available to all market participants. [e18] The saved copy shows an effective date of 05/28/25. Aggregated information, starting with the quantities and prices of offers for energy and each type of ancillary capacity service in the form of supply curves, is posted two calendar days after the day. [e19] Entity-specific information is posted 60 calendar days after the day, except where otherwise prescribed. [e20] Exceptions to the 60 days: the highest-priced offer selected or dispatched in each interval ERCOT-wide is posted with the offering entity's name three calendar days after the day, [e21] and, when clearing prices exceed 50 times a gas price index, the offer pairs at or above that level are posted seven calendar days after the day. [e22] State Estimator data (transmission flows, voltages and tap positions for each hour) is among the 60-day items, but ERCOT must release relevant data earlier if, in its sole discretion, that is necessary to explain unexpected market operations or system events. [e23] Forced outages and derates (of generation resources and energy storage resources) are posted in resource-specific form not later than the third business day after the outage or derate ends. [e24]
 
 The Protocols' own SCED posting rule (Section 3.2.5) has ERCOT post on its website, two days after the Operating Day, information derived from each SCED execution, and not post it if it would reveal an individual Market Participant's Protected Information. [e35]
 
@@ -251,7 +259,7 @@ Through the MIS with the QSE Extracts role, or through the API using the EMIL re
 
 ### Why is competitively sensitive data kept out of the public postings?
 
-PUCT rule 25.506 says in no event will ERCOT disclose competitively sensitive consumption data, and entity-specific offer information is delayed by 60 days except where prescribed otherwise. [e18][e20]
+PUCT rule 25.506 says in no event will ERCOT disclose competitively sensitive consumption data, and entity-specific information is posted 60 calendar days after the day except where inapplicable or otherwise prescribed. [e18][e20]
 
 ## Open items
 

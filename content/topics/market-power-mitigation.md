@@ -38,10 +38,10 @@ links:
     note: The MOC for ESRs is set at the RTSWCAP rather than from the heat-rate formula. [e34]
   - to: hsl-lsl
     type: used-in
-    note: For the SCED CCT, Available Capacity is the telemetered HSL for Resources in specified statuses. [e19]
+    note: For the SCED CCT, the Available Capacity of a Generation Resource is the telemetered HSL when its telemetered Resource Status is one of the specified statuses, and zero otherwise. [e19]
   - to: system-lambda
     type: related
-    note: The RMR MOC under pending NPRR826 is built from system lambda of SCED Step 1 plus an adder. [e40]
+    note: The RMR MOC under pending NPRR826 is, where its conditions are met, system lambda from SCED Step 1 plus a value calculated under that paragraph. [e40]
 evidence:
   - id: e1
     source: puct-25-502
@@ -65,7 +65,7 @@ evidence:
     quote: "The SCED process uses a two-step methodology that applies mitigation to offers for energy prospectively to resolve Non-Competitive Constraints for the current Operating Hour."
   - id: e6
     source: np-06
-    locator: "Section 6.5.7.3, paragraph (1)(b)(i), second step"
+    locator: "Section 6.5.7.3, paragraph (14)(b)(i), second step"
     quote: "each Energy Offer Curve subject to mitigation under the criteria described in Section 3.19.4, Security-Constrained Economic Dispatch Constraint Competitiveness Test, must be capped at the greater of the Reference LMP (from Step 1) at the Resource Node plus a variable not to exceed 0.01 multiplied by the value of the Resource’s Mitigated Offer Cap (MOC) curve at the LSL or the appropriate MOC;"
   - id: e7
     source: np-04
@@ -146,7 +146,7 @@ evidence:
   - id: e26
     source: np-03
     locator: "Section 3.19.4, paragraph (4)"
-    quote: "A constraint that is determined to be a Non-Competitive Constraint by the SCED CCT within an Operating Hour will not be re-evaluated for its competitiveness status for the remainder of that Operating Hour."
+    quote: "A constraint that is determined to be a Non-Competitive Constraint by the SCED CCT within an Operating Hour will not be re-evaluated for its competitiveness status for the remainder of that Operating Hour. However, the SCED CCT will reevaluate the percentage of the ECI Effective Capacity on the import side for each DME and whether the DME is a pivotal player for the constraint."
   - id: e27
     source: np-03
     locator: "Section 3.19.4, paragraph (5)"
@@ -238,7 +238,7 @@ evidence:
   - id: e49
     source: imm-som-2025
     locator: "Analysis of Competitive Performance, section 2, Evaluation of Potential Economic Withholding"
-    quote: "In 2025, over 80% of hours exhibited an output gap, indicating a potential attempt to exercise market power through economic withholding."
+    quote: "In 2025, over 80% of hours exhibited an output gap, indicating a potential attempt to exercise market power through economic withholding. At higher load levels, an extremely small percentage of generating capacity exhibited an output gap for a large percentage of the time. An even smaller percentage of generating capacity exhibited an output gap at lower load levels. The quantities withheld implied by the output gap were relatively low, even in the upper quartile of net load hours. These results show that potential economic withholding in the real-time energy market was low overall, but not trivial, in 2025."
   - id: e50
     source: imm-som-2025
     locator: "Analysis of Competitive Performance, section A, Structural Market Power"
@@ -256,6 +256,43 @@ evidence:
     locator: "Analysis of Competitive Performance, section 2, Evaluation of Potential Economic Withholding"
     quote: "The mitigated offer cap serves as a proxy for the resource’s marginal production cost of energy."
 
+  - id: e54
+    source: np-04
+    locator: "Section 4.4.9.4.1, variable table, FIP"
+    quote: "Fuel Index Price—The natural gas index price as defined in Section 2.1, Definitions."
+  - id: e55
+    source: np-04
+    locator: "Section 4.4.9.4.1, variable table, WAFP (current definition)"
+    quote: "Weighted Average Fuel Price—The volume-weighted average intraday, same-day and spot fuel price, the projected incremental fuel consistent with a fuel supply contract(s), or a combination of these two prices, submitted to ERCOT during the Adjustment Period for a specific Resource and specific hour within the Operating Day, as described in paragraph (1)(e) below."
+  - id: e56
+    source: np-04
+    locator: "Section 4.4.9.4.1, paragraph (1), FPRC where a QSE has submitted an Energy Offer Curve"
+    quote: "If a QSE has submitted an Energy Offer Curve on behalf of a Generation Resource and the Generation Resource has approved verifiable costs, then FPRC _(q, r) = Max(WAFP _(q, r, h), FIP + FA _(q, r)) * RTPERFIP _(q, r) / 100 + FOP * RTPERFOP _(q, r) / 100"
+  - id: e57
+    source: np-04
+    locator: "Section 4.4.9.4.1, paragraph (1), FPRC where a QSE has not submitted an Energy Offer Curve"
+    quote: "If a QSE has not submitted an Energy Offer Curve on behalf of a Generation Resource and the Generation Resource has approved verifiable costs, then FPRC _(q, r) = Max(WAFP _(q, r, h), FIP + FA _(q, r)) * GASPEROL _(q, r) / 100 + FOP * OILPEROL _(q, r) / 100 + (SFP + FA _(q, r)) * SFPEROL _(q, r) / 100"
+  - id: e58
+    source: np-04
+    locator: "Section 4.4.9.4.1, paragraph (1)(a)"
+    quote: "For a Resource contracted by ERCOT under paragraph (4) of Section 6.5.1.1, ERCOT Control Area Authority, ERCOT shall increase the O&M cost such that every point on the MOC curve is greater than the effective Value of Lost Load (VOLL) in $/MWh."
+  - id: e59
+    source: np-04
+    locator: "Section 4.4.9.4.1, paragraph (1)(d)"
+    quote: "For Quick Start Generation Resources (QSGRs) the MOC shall be adjusted in accordance with Verifiable Cost Manual Appendix 7, Calculation of the Variable O&M Value and Incremental Heat Rate used in Real Time Mitigation for Quick Start Generation Resources (QSGRs)."
+  - id: e60
+    source: np-04
+    locator: "Section 4.4.9.4.1, paragraph (1)(e)"
+    quote: "For hydro Generation Resources, the MOC shall be adjusted in accordance with Verifiable Cost Manual, Appendix 10, Setting the variables used in Mitigated Offer Cap for Hydro Generating Resources."
+  - id: e61
+    source: np-04
+    locator: "Section 4.4.9.4.1, paragraph (1)(f)(i), threshold parameter"
+    quote: "The threshold parameter value in this paragraph shall be recommended by the Wholesale Market Subcommittee (WMS) and approved by the TAC."
+  - id: e62
+    source: np-04
+    locator: "Section 4.4.9.4.1, pending NPRR1279 replacement of paragraph (1)(f)"
+    quote: "[NPRR1279: Replace paragraph (f) above with the following on April 1, 2027:]"
+
 ---
 
 ## Definition
@@ -264,9 +301,9 @@ Market power mitigation in ERCOT is the set of rules that cap a supplier's offer
 
 ## How it works
 
-Mitigation has two parts: a test of whether a constraint is competitive, and a cap on offers when it is not. The Constraint Competitiveness Test (CCT) checks each constraint by evaluating each Market Participant's ability to exercise market power by physical or economic withholding. [e3] The index it uses, the ECI on the import side, is the sum of the squares of the percentages of ECI Effective Capacity for each DME on the import side. [e13] Each Entity's ECI Effective Capacity is the sum, over its Managed Capacity with a large enough negative Shift Factor, of Available Capacity times the square of the Shift Factor to the constraint. [e22] For the SCED CCT, Available Capacity is the telemetered HSL for Resources with the listed telemetered statuses and zero for all other Resources. [e19]
+Mitigation has two parts: a test of whether a constraint is competitive, and a cap on offers when it is not. The Constraint Competitiveness Test (CCT) checks each constraint by evaluating each Market Participant's ability to exercise market power by physical or economic withholding. [e3] The index it uses, the ECI on the import side, is the sum of the squares of the percentages of ECI Effective Capacity for each DME on the import side. [e13] Each Entity's ECI Effective Capacity is the sum, over its Managed Capacity with a large enough negative Shift Factor, of Available Capacity times the square of the Shift Factor to the constraint. [e22] For the SCED CCT, the Available Capacity of a Generation Resource (IRRs are covered in a separate paragraph) is the telemetered HSL if its telemetered Resource Status is one of the listed statuses, and zero otherwise; other Resource types have their own definitions. [e19]
 
-Two versions of the test run. The Long-Term CCT is executed once a year and projects Competitive Constraints for the month with the highest forecasted Demand in the following year. [e25] The SCED CCT is run before each SCED execution on all active constraints, [e15] and it classes a constraint as competitive only if it meets all of the listed conditions, including an ECI below ECIT2 on the import side and that the constraint can be resolved even when all Available Capacity of a Resource on the import side is eliminated (otherwise the DME is marked as the pivotal player). [e4] Once the SCED CCT finds a constraint non-competitive within an Operating Hour it is not re-evaluated for the rest of that hour. [e26] The IMM may designate any constraint competitive or non-competitive, [e9] and such a designation overrides the SCED CCT result for the dates it is effective. [e27] ERCOT posts each hour whether each binding constraint was competitive or non-competitive for each SCED execution in the previous Operating Hour. [e28]
+Two versions of the test run. The Long-Term CCT is executed once a year and projects Competitive Constraints for the month with the highest forecasted Demand in the following year. [e25] The SCED CCT is run before each SCED execution, [e15] and it classes a constraint as competitive only if it meets all of the listed conditions, including an ECI below ECIT2 on the import side and that the constraint can be resolved by eliminating all Available Capacity for a Resource on the import side, except nuclear capacity and minimum-energy amounts of coal and lignite capacity, that is Managed Capacity for a DME (if it cannot be resolved, the DME is marked as the pivotal player). [e4] Once the SCED CCT finds a constraint non-competitive within an Operating Hour its competitiveness status is not re-evaluated for the rest of that hour, although the SCED CCT still re-evaluates each DME's percentage of ECI Effective Capacity and whether the DME is a pivotal player. [e26] The IMM may designate any constraint competitive or non-competitive, [e9] and such a designation overrides the SCED CCT result for the dates it is effective. [e27] ERCOT posts each hour whether each binding constraint was competitive or non-competitive for each SCED execution in the previous Operating Hour. [e28]
 
 A Resource's offer is mitigated in SCED Step 2 when the constraint is non-competitive (by the SCED CCT or the IMM), the Resource's DME is a pivotal player or holds more than a set share of the effective capacity, and the Resource has a large enough Shift Factor on the constraint. [e10]
 
@@ -278,10 +315,10 @@ Mitigated Offer Cap (np-04 Section 4.4.9.4.1), for each point of the incremental
 
 - GIHR is the generic incremental heat rate: 10.5 for Resources with a Commercial Operations Date on or before January 1, 2004, and 14.5 for Resources with a later Commercial Operations Date. [e32]
 - IHR is the verifiable incremental heat rate curve approved in the verifiable cost process. [e33]
-- FIP is the natural gas index price and WAFP the Weighted Average Fuel Price submitted during the Adjustment Period (see Exceptional Fuel Cost below); FPRC is the calculated fuel price for the Resource based on its fuel mix, which includes the fuel adder FA, the average cost above the index price the Resource has paid to obtain fuel. [e31][e35]
+- FIP is the natural gas index price; [e54] WAFP is the Weighted Average Fuel Price submitted to ERCOT during the Adjustment Period for a specific Resource and hour (see Exceptional Fuel Cost below). [e55] FPRC is the calculated fuel price for the Resource based on its fuel mix. [e31] For a Resource with approved verifiable costs whose QSE has submitted an Energy Offer Curve: FPRC = Max(WAFP, FIP + FA) * RTPERFIP / 100 + FOP * RTPERFOP / 100, where RTPERFIP and RTPERFOP are the gas and fuel oil percentages submitted with the offer curve and FOP is the fuel oil index price; [e56] if no Energy Offer Curve was submitted, FPRC = Max(WAFP, FIP + FA) * GASPEROL / 100 + FOP * OILPEROL / 100 + (SFP + FA) * SFPEROL / 100, using the percentages approved in the verifiable cost process. [e57] FA, the fuel adder, is the average cost above the index price the Resource has paid to obtain fuel. [e35] The saved np-04 text does not give the FPRC formula for a Resource without approved verifiable costs.
 - OM is the variable O&M cost above LSL, including an adjustment for emissions costs, as approved in the verifiable cost process. [e36]
 - The solid fuel index price used for solid fuel is $1.50. [e37]
-- Exceptions: the MOC for ESRs is set at the RTSWCAP. [e34]
+- Exceptions: the MOC for ESRs is set at the RTSWCAP; [e34] for a Resource contracted by ERCOT under paragraph (4) of Section 6.5.1.1, ERCOT increases the O&M cost so every point on the MOC curve is greater than the effective VOLL; [e58] the MOC for QSGRs is adjusted under Verifiable Cost Manual Appendix 7; [e59] and the MOC for hydro Generation Resources is adjusted under Verifiable Cost Manual Appendix 10. [e60]
 
 Mitigated Offer Floor (Section 4.4.9.4.2): Nuclear and Hydro -$250/MWh, Coal and Lignite -$20/MWh, Combined Cycle -$20/MWh, Gas/Oil Steam and Combustion Turbine -$20/MWh, Qualifying Facility -$50/MWh, Wind -$100/MWh, PhotoVoltaic -$50/MWh, ESR -$250/MWh, Other -$50/MWh. [e38]
 
@@ -291,13 +328,13 @@ CCT thresholds (Section 3.19.1): ECIT1 (Long-Term CCT ECI maximum) 2000 and ECIT
 
 The IMM says ERCOT's real-time mitigation targets resources that may have local market power because they are required to manage a transmission constraint, and that it applies whether the unit is self-committed or receives a RUC instruction. [e17] A RUC-committed unit resolving a non-competitive constraint is often dispatched with offers capped at mitigated levels. [e8]
 
-Exceptional Fuel Cost: during the Adjustment Period a QSE may submit a volume-weighted average fuel price for use in its Resource's MOC, but for all Resources it must exceed FIP for the Operating Day plus a $1/MMBtu threshold parameter plus the applicable fuel adder, [e41] and the submitted accuracy must be attested by a duly authorized officer or agent of the QSE. [e42]
+Exceptional Fuel Cost: during the Adjustment Period a QSE may submit a volume-weighted average fuel price for use in its Resource's MOC, but one of the conditions is that for all Resources the weighted average fuel price must exceed FIP for the Operating Day plus a threshold parameter (stated as $1/MMBtu, a value the WMS recommends and TAC approves, so it can be updated) plus the applicable fuel adder, [e41][e61] and the submitted accuracy must be attested by a duly authorized officer or agent of the QSE. [e42]
 
-RMR Resources: under the current text ERCOT sets the MOC curve for an RMR Unit at the highest value expected to allow SCED to dispatch it, in consideration of the Shadow Price caps of the constraints it may resolve. [e39] The np-04 text also carries an NPRR826 replacement, pending system implementation, under which the RMR MOC for Step 2 would be system lambda from SCED Step 1 plus a value derived from constraint Shadow Prices. [e40] A further NPRR1325 replacement of Section 4.4.9.4, adding Adjusted Bid Caps, is pending upon system implementation of PGRR145. [e43]
+RMR Resources: under the current text ERCOT sets the MOC curve for an RMR Unit at the highest value expected to allow SCED to dispatch it, in consideration of the Shadow Price caps of the constraints it may resolve. [e39] The np-04 text also carries an NPRR826 replacement, pending system implementation, under which the RMR MOC for Step 2, where the value from paragraph (b) of that replacement is greater than zero for every constraint analyzed, would be the sum of system lambda from SCED Step 1 in the interval and the value from paragraph (d) of that replacement. [e40] A further NPRR1325 replacement of Section 4.4.9.4, adding Adjusted Bid Caps, is pending upon system implementation of PGRR145. [e43] The same np-04 text also shows an NPRR1279 replacement of the Exceptional Fuel Cost paragraph, dated April 1, 2027; this topic describes the paragraph as currently in force. [e62]
 
 Structure: the IMM reported pivotal suppliers in 10.3% of all hours in 2025, compared with 23.1% in 2024, 36.1% in 2023 and 42.5% in 2022. [e50] The IMM also says it modified the pivotal supplier methodology before publishing the 2025 report, which made the identification more stringent and lowered the frequency. [e51] The share of top-quartile net load hours with a pivotal supplier fell from over 90% in 2022 to 35% in 2025. [e11] The PUCT elected to remove the "small fish" rule beginning June 1, 2026 (Project P-58379). [e52]
 
-Behavior: the IMM measures potential economic withholding with an output gap, the energy not produced by online resources although producing would be economic by a substantial margin at the real-time energy price, and uses the mitigated offer cap as a proxy for marginal production cost. [e48][e53] In 2025 over 80% of hours exhibited an output gap, which the IMM calls a potential attempt to exercise market power, though it describes the quantities as low overall. [e49]
+Behavior: the IMM measures potential economic withholding with an output gap, the energy not produced by online resources although producing would be economic by a substantial margin at the real-time energy price, and uses the mitigated offer cap as a proxy for marginal production cost. [e48][e53] In 2025 over 80% of hours exhibited an output gap, which the IMM calls a potential attempt to exercise market power, though it describes potential economic withholding in the real-time energy market as low overall, but not trivial. [e49]
 
 Legal standard (16 TAC 25.504): a generation entity with market power that prices its services substantially above its marginal cost may be found to be withholding production; offering prices not substantially above marginal cost does not constitute withholding. [e44] A generation entity may file a voluntary mitigation plan; adherence must be considered in deciding whether it violated PURA 39.157 or 25.503(g)(7) and in setting any penalty. [e45] The IMM says that since House Bill 1500 (effective September 1, 2023) adherence is no longer an absolute defense. [e46] The IMM reports that only Luminant had an effective VMP after Calpine eliminated its plan in 2025, and that Luminant's was amended in late 2025 and early 2026 for the real-time co-optimization framework. [e47]
 
@@ -342,17 +379,17 @@ Step 1 prices with only Competitive Constraints to produce Reference LMPs; Step 
 
 ### What if a generator's real fuel cost is far above the gas index?
 
-It may submit an Exceptional Fuel Cost during the Adjustment Period if its weighted average fuel price exceeds FIP plus $1/MMBtu plus the fuel adder, and an officer or agent must attest to its accuracy. [e41][e42]
+It may submit an Exceptional Fuel Cost during the Adjustment Period, but to qualify the submission must meet several conditions, one of which is that its weighted average fuel price exceeds FIP plus the threshold parameter (stated as $1/MMBtu) plus the fuel adder; an officer or agent must also attest to its accuracy. [e41][e42][e61]
 
 ### Why would a Resource with a tiny Shift Factor not be mitigated?
 
-Mitigation is not applied to a Resource below the SFP4 threshold (2%), so only Resources that can meaningfully help resolve the constraint are capped. [e21][e10]
+Mitigation is not applied to a Resource whose Shift Factor on the import side of the constraint does not exceed SFP4 (2%) in absolute value. [e21][e10]
 
 ## Scenarios
 
 ### A constraint is declared non-competitive at 14:10. What happens to the 14:40 SCED run?
 
-- The SCED CCT will not re-evaluate that constraint's competitiveness status for the rest of the Operating Hour. [e26]
+- The SCED CCT will not re-evaluate that constraint's competitiveness status for the rest of the Operating Hour, although it re-evaluates each DME's percentage of ECI Effective Capacity and pivotal-player status. [e26]
 - Resources whose DME is pivotal or above the 10% share, and whose Shift Factor passes the 2% threshold, face the MOC cap in Step 2. [e10][e23][e21]
 
 ## Open items
