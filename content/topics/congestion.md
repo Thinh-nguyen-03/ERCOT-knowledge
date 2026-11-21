@@ -168,6 +168,14 @@ evidence:
     source: imm-som-2025
     locator: "page 92 (OCR) / Figure 45: balancing account"
     quote: "In 2025, the total day-ahead surplus was approximately $293 million, up 22.4% from 2024. Congestion rent from the day-ahead market was sufficient to fully fund CRRs in every month of the year. As a result, the balancing account remained at its $10 million cap, and ERCOT returned all surplus congestion rent above that threshold to LSEs."
+  - id: e30
+    source: imm-som-2025
+    locator: "page 92 (OCR), Figure 43 table, CRR Payments row"
+    quote: "CRR Payments $1,289 $2,067 $1,809 $1,684 $2,185"
+  - id: e31
+    source: imm-som-2025
+    locator: "Transmission Congestion and CRRs, Violated Constraints"
+    quote: "When the marginal cost of procuring relief through market dispatch exceeds the reliability cost of violating the constraint, the shadow price caps will: a) prevent the market from incurring additional dispatch costs; and b) set the shadow price for the constraint, which determines congestion prices at locations that affect the violated constraint."
 ---
 
 ## Definition

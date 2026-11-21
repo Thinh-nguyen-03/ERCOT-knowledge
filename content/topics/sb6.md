@@ -11,7 +11,7 @@ depth: deep
 links:
   - to: large-load-interconnection
     type: determines
-    note: SB 6 required the PUCT to set standards for interconnecting large load customers in ERCOT; the resulting §25.194 sets a $100,000 study fee and $50,000/MW intermediate security. [e2][e35]
+    note: SB 6 required the PUCT to set standards for interconnecting large load customers in ERCOT; the resulting §25.194 sets a $100,000 study fee and $50,000/MW intermediate security. [e2][e36][e35]
   - to: long-term-load-forecast
     type: affects
     note: SB 6 told the PUCT to set criteria for including forecasted large load in ERCOT planning models; §25.370 (effective March 1, 2026) requires an executed §25.194 interconnection agreement. [e6][e40]

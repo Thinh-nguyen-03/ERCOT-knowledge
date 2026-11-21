@@ -287,6 +287,18 @@ evidence:
     source: np-05
     locator: "Section 5.7.4.2, paragraph (1)"
     quote: "If the revenues from the charges under Section 5.7.4.1, RUC Capacity-Short Charge, are not enough to cover all RUC Make-Whole Payments, including amounts for RMR Units, for a 15-minute Settlement Interval, then the difference will be uplifted to all QSEs on a Load Ratio Share basis, as a RUC Make-Whole Uplift Charge, calculated as follows:"
+  - id: e62
+    source: ercot-summer-2026-review
+    locator: "Summer 2026 review, RUC slide, footnote"
+    quote: "* August data for each year goes through 8/15."
+  - id: e63
+    source: imm-som-2025
+    locator: "page 30 (OCR), Chapter I.D, 1. ORDC"
+    quote: "In ERCOT's market design before RTC went live on December 5, 2025, ERCOT did this by adding an ORDC price adder to energy and reserve prices when reserves were low."
+  - id: e64
+    source: imm-som-2025
+    locator: "page 102 (OCR), Market Operations chapter, 5. RUC Settlement"
+    quote: "The most likely explanation for the even lower level of opt-outs in 2025 is that market prices were not expected to be high enough to warrant opting out."
 ---
 
 ## Definition
@@ -335,8 +347,8 @@ The IMM's August 2026 presentation to TAC calls the inaccuracy of the battery st
 - 2024: NPRR 1172 imposed a full rather than partial claw-back on opt-outs, and opt-outs fell to 8% (IMM). [e41][e40]
 - Summer 2024: ESR SOC added to the RUC engine under NPRR 1186. [e14]
 - November 2024: NPRR 1236 (RTC+B changes to RUC capacity-short calculations) approved. [e50]
-- December 2025: RTC went live; the IMM says ERCOT operations signalled it would use RUC to add reserves when AS is not fully procured. [e51]
-- Summer 2026: 1,313 effective RUC Resource-hours, 17% attributed to congestion (100% in summer 2025), driven by Ancillary Service needs. [e44][e45][e46]
+- December 5, 2025: RTC went live (IMM); the IMM says ERCOT operations signalled it would use RUC to add reserves when AS is not fully procured. [e63][e51]
+- Summer 2026: 1,313 effective RUC Resource-hours, 17% nominally attributed to congestion (100% in summer 2025), which ERCOT says was largely to address capacity needs, particularly Ancillary Service quantities; the slide's August data goes through 8/15. [e44][e45][e46][e62]
 - October 2026: 165.6 effective RUC Resource-hours, 99.4% for capacity. [e48]
 
 ## Key facts
@@ -379,7 +391,7 @@ In 2025 the IMM reports 77% of commitments were reported as congestion, up from 
 
 ### Why might a QSE opt out of RUC settlement?
 
-Opting out means self-committing the unit and accepting full exposure to market outcomes, with no make-whole and no clawback. [e60] The IMM says the most likely explanation for the 2025 drop to 3% opt-outs is that market prices were not expected to be high enough to warrant it. [e40]
+The IMM describes opting out as self-committing the unit and accepting full exposure to market outcomes, forgoing both the make-whole payment and any clawback. [e60] The IMM says the most likely explanation for the lower opt-outs in 2025 (3%, per its Table 9) is that market prices were not expected to be high enough to warrant opting out. [e64][e40]
 
 ### What if a Resource cannot start in time for a RUC instruction?
 

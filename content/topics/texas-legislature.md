@@ -29,7 +29,7 @@ links:
     note: Statute requires protocols to take effect only after PUCT approval. [e4]
   - to: texas-energy-fund
     type: related
-    note: SB 2627 (2023) created the Texas energy fund in PURA Chapter 34, and SB 2268 (2025) amended it. [e33][e37]
+    note: SB 2627 (2023) added Texas energy fund provisions to PURA Chapter 34, and SB 2268 (2025) amended it. [e33][e37]
   - to: drrs
     type: related
     note: HB 1500 added the requirement for a dispatchable reliability reserve ancillary service program. [e17]
@@ -44,7 +44,7 @@ links:
     note: SB 6 orders the PUCT to evaluate the four coincident peak method used to charge transmission costs to distribution providers. [e47][e48]
   - to: load-shed
     type: related
-    note: PURA Sec. 38.076, added by SB 3, requires a system to allocate load shedding among cooperatives, municipally owned utilities and TDUs. [e27]
+    note: PURA Sec. 38.076, added by SB 3, requires a system to allocate load shedding among cooperatives, municipally owned utilities and TDUs. [e27][e28]
 evidence:
   - id: e1
     source: pura-39
@@ -272,7 +272,7 @@ The Texas Legislature enacts the statutes that govern the ERCOT market, includin
 
 Legislation sets the structure around ERCOT. PURA creates the ERCOT board selection committee, with one appointee each from the governor, the lieutenant governor and the speaker of the house. [e3] It requires that new or revised protocols not take effect until the PUCT approves a market impact statement. [e4] HB 1500 (2023) amended PURA so that an independent organization certified by the PUCT is directly responsible and accountable to the PUCT, and the PUCT may take appropriate action against one that does not perform adequately or comply. [e21]
 
-The PUCT itself is a creature of statute: five commissioners appointed by the governor with Senate advice and consent, serving staggered six-year terms. [e13] PURA gives it the general power to regulate and supervise public utilities in its jurisdiction. [e15] It is subject to the Texas Sunset Act: under PURA Sec. 12.005 as amended by HB 1500, unless continued in existence as provided by Chapter 325 or Chapter 39, the commission is abolished September 1, 2029. [e12][e5]
+The PUCT itself is a creature of statute: five commissioners appointed by the governor with Senate advice and consent, serving staggered six-year terms. [e13] It is subject to the Texas Sunset Act: under PURA Sec. 12.005 as amended by HB 1500, unless continued in existence as provided by Chapter 325 or Chapter 39, the commission is abolished September 1, 2029. [e12][e5]
 
 The PUCT may impose an administrative penalty of up to $25,000 per violation of PURA, a rule or an order, with each day a separate violation, and up to $1,000,000 per violation for a violation of a voluntary mitigation plan or of Sec. 35.0021 or 38.075. [e14]
 
@@ -296,7 +296,7 @@ HB 4492 authorized debt financing for Winter Storm Uri balances. The "default ba
 
 HB 1500 took effect September 1, 2023. [e22] It added PURA §39.1514 on PUCT directives to ERCOT. [e10][e15] It added Sec. 39.159(d), requiring an ancillary services program to procure dispatchable reliability reserve services day-ahead and real-time, with resource criteria including capability to run at least four hours at the high sustained limit, being online and dispatchable no more than two hours after being called, and dispatchable flexibility for inter-hour challenges. [e17][e18] The PUCT was to require implementation not later than December 1, 2024. [e19] The Act also directed a PUCT and ERCOT study, to be reported to the legislature not later than December 1, 2025, on whether an alternative to the single market clearing price would reduce costs to residential and small commercial customers or their load-serving entities. [e20]
 
-SB 2627 (the Powering Texas Forward Act) added PURA Chapter 34. The Texas energy fund is a special fund in the state treasury administered by the PUCT. [e33] Loans may finance upgrades to existing dispatchable generation or construction of dispatchable generation of at least 100 MW; an electric energy storage facility is not eligible. [e34] A construction loan may not exceed 60 percent of estimated facility cost and must be senior debt secured by the facility. [e35] The Act takes effect on the date the related constitutional amendment takes effect, and has no effect if voters did not approve it. [e36] An earlier 2023 law, SB 1929, led to large flexible load registration, covering virtual currency mining facilities of more than 75 megawatts with interruptible load. [e8][e11]
+SB 2627 added Subchapter A of PURA Chapter 34 (the enrolled bill's wording). The Texas energy fund is a special fund in the state treasury administered by the PUCT. [e33] Loans may finance upgrades to existing dispatchable generation that result in a net increase of at least 100 megawatts of capacity for each facility, or construction of dispatchable generation with a capacity of at least 100 megawatts; an electric energy storage facility is not eligible. [e34] A construction loan may not exceed 60 percent of estimated facility cost and must be senior debt secured by the facility. [e35] The Act takes effect on the date the related constitutional amendment takes effect, and has no effect if voters did not approve it. [e36] An earlier 2023 law, SB 1929, led to large flexible load registration, covering virtual currency mining facilities of more than 75 megawatts with interruptible load. [e8][e11]
 
 ### 89th Legislature (2025): SB 6 and SB 2268
 
@@ -304,8 +304,8 @@ SB 6 passed the Senate March 19, 2025 (31 to 0) and the House May 27, 2025 (103 
 
 - Cost recovery: the PUCT by rule must ensure a large load customer subject to the Sec. 37.0561 standards contributes to the recovery of the interconnecting utility's interconnection costs. [e38] That Sec. 35.004(c-1) applies only to interconnection agreements entered into on or after the effective date. [e49]
 - Interconnection standards: the PUCT by rule sets standards for interconnecting large loads in ERCOT; they apply to new or expanded interconnections above a demand threshold the PUCT sets, which the PUCT shall set at 75 megawatts unless it determines a lower threshold is necessary. [e39] The standards must set a flat study fee of at least $100,000, with any unused portion credited toward later obligations at the same site. [e40] They must include uniform financial commitment requirements for needed transmission infrastructure, which may include security per megawatt, a contribution in aid of construction, advance payment for significant equipment or services, or another form the PUCT accepts. [e41]
-- Backup generation: large loads must disclose on-site backup generation, and after ERCOT deploys all available market services except frequency responsive services it may direct the utility to require the customer to deploy backup generation or curtail load, counted as firm load shed for price adjustments, without authorizing an emissions violation or barring participation in the Sec. 39.170(b) service. [e42]
-- Co-location: a generator, municipally owned utility or cooperative must notify ERCOT before a net metering arrangement between a generation resource registered as stand-alone as of September 1, 2025 and a new large load. [e43] ERCOT has 120 days to study and the PUCT 60 days after to approve, deny or condition; if it does not act in time the arrangement is considered approved. [e44]
+- Backup generation: after ERCOT deploys all available market services except frequency responsive services it may direct the utility to require the customer to deploy backup generation or curtail load, counted as firm load shed for price adjustments, without authorizing an emissions violation or barring participation in the Sec. 39.170(b) service. [e42]
+- Co-location: a generator, municipally owned utility or cooperative must notify ERCOT before a net metering arrangement between a generation resource registered as stand-alone as of September 1, 2025 and a new large load. [e43] ERCOT has until the 120th day after it receives all required information to complete the study, and the PUCT until the 60th day after it receives the results to approve, deny or condition; if it does not act in time the arrangement is considered approved. [e44]
 - Demand management: Sec. 39.170 requires a curtailment protocol for transmission-voltage customers interconnected after December 31, 2025 (excluding critical load industrial customers and critical natural gas facilities), and a reliability service to competitively procure demand reductions from large loads of at least 75 megawatts. [e45][e7] The service rules must set usable periods, give at least 24 hours' notice, require loads to stay curtailed for the EEA event or until safely recalled, and bar participation by loads that curtail in response to wholesale price or participate in another reliability or ancillary service. [e46]
 - Transmission cost allocation: the PUCT must evaluate whether the four coincident peak methodology ensures all loads contribute to cost recovery and whether alternatives such as multiple seasonal peaks or peak energy intervals would better assign costs. [e47] It must begin the evaluation not later than the 90th day after the effective date and, not later than December 31, 2026, amend its rules to ensure wholesale transmission charges appropriately assign costs for transmission investment. [e48]
 
@@ -359,7 +359,7 @@ Sec. 39.160 says the program takes effect if the high system-wide offer cap has 
 ### A data center wants to co-locate behind the meter with an operating stand-alone generator.
 
 - It falls under SB 6 Sec. 39.169 if the generator was registered as stand-alone as of September 1, 2025: the notice goes to ERCOT before implementation. [e43]
-- ERCOT studies system impacts within 120 days; the PUCT approves, denies or imposes conditions within 60 days of receiving the study, otherwise the arrangement is considered approved. [e44]
+- ERCOT studies system impacts within 120 days of receiving all required information; the PUCT approves, denies or imposes conditions within 60 days of receiving the study, otherwise the arrangement is considered approved. [e44]
 
 ## Open items
 

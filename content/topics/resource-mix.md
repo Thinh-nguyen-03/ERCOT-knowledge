@@ -268,7 +268,7 @@ Wind supplied almost 25% of generation in 2022 [e36], but output grew only 2.9% 
 
 ### Why did gas's generation share fall in 2021 and again in 2024-2025?
 
-In 2021 the IMM ties the drop from 46% to under 42% to sharply higher gas prices. [e19] In 2024-2025 solar's share rose from 7.2% to 13.9% while gas fell to 41.1%. [e3][e2] (Reasoning) The first was a fuel-price effect, the second a displacement effect from midday solar.
+In 2021 the IMM ties the drop from 46% to under 42% to sharply higher gas prices. [e19] From 2023 to 2025 solar's share rose from 7.2% (2023, as the IMM's 2024 report states it) to 13.9%, while gas fell from 44.3% in 2024 to 41.1% in 2025. [e3][e2] (Reasoning) The IMM ties the 2021 drop to fuel prices; the passages quoted here do not give a cause for the 2025 drop, which coincided with solar's rise.
 
 ### Has ERCOT lost dispatchable capacity?
 

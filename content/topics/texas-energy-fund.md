@@ -38,7 +38,7 @@ links:
     note: ERCOT resource lists tag TEF projects by name, for example "(TEF)" after Cedar Bayou 5 and NRG THW GT 345. [e69]
   - to: weatherization
     type: related
-    note: A completion bonus grant application must include a narrative on preparations for compliance with the PUCT weather emergency preparedness rule. [e36]
+    note: A completion bonus grant application must include a narrative on preparations for compliance with the PUCT weather emergency preparedness rule. [e75]
 evidence:
   - id: e1
     source: pura-34
@@ -318,7 +318,7 @@ evidence:
     quote: "BASRANCH (TEF) CEDAR BAYOU 5 (TEF) CEDARVALE GAS COYOTE SPRINGS AGR1 ENCHANTED ROCK NEWPP NRG THW GT 345 (TEF) PIN PEAKING ENERGY CENTER 1 (TEF) PIN PEAKING ENERGY CENTER 2 (TEF)"
   - id: e70
     source: pura-34
-    locator: "Utilities Code Sec. 34.0104(m) and Sec. 34.0105(j)"
+    locator: "Utilities Code Sec. 34.0104(m)"
     quote: "(m) This section expires September 1, 2050."
   - id: e71
     source: pura-34
@@ -332,6 +332,34 @@ evidence:
     source: pura-34
     locator: "Utilities Code Sec. 34.0109(a)(2)"
     quote: "(2) three members of the house of representatives appointed by the speaker of the house of representatives, including:"
+  - id: e74
+    source: puct-25-510
+    locator: "16 TAC 25.510(i)(1), Deposits"
+    quote: "The borrower must deposit the required funds or provide the standby letter of credit before the initial loan amount is disbursed."
+  - id: e75
+    source: puct-25-511
+    locator: "16 TAC 25.511(d)(1)(N), Eligibility application contents"
+    quote: "a narrative explanation of the applicant’s preparations for compliance with §25.55 of this title (relating to Weather Emergency Preparedness)."
+  - id: e76
+    source: pura-34
+    locator: "Utilities Code Sec. 34.0104(b-1)(2)"
+    quote: "a construction loan provided to an electric cooperative may be secured by a senior lien on substantially all electric system assets of the electric cooperative, including the facility for which the loan is provided, payable on a parity basis with other debt of the loan applicant secured by a senior lien."
+  - id: e77
+    source: puct-tef-faq
+    locator: "Outside ERCOT Grant Program"
+    quote: "The Outside ERCOT Grant Program (OEGP) provides funding to existing transmission and distribution infrastructure and existing electric generating facilities in Texas outside of the ERCOT power region."
+  - id: e78
+    source: puct-tef-faq
+    locator: "Texas Backup Power Package Program"
+    quote: "The Texas Backup Power Package (TBPP) Program will provide grants and loans to qualifying entities to design, procure, install, and operate backup power packages at critical facilities that support community health, safety, and well-being."
+  - id: e79
+    source: puct-25-511
+    locator: "16 TAC 25.511(h)(2), Example, Test Period 1 result"
+    quote: ")] ($1,200,000) = $525,000 4 4 98 − 90 Test Period 2 -- The generation resource achieved a PRF of 85 and an ARF of 1.0."
+  - id: e80
+    source: puct-25-511
+    locator: "16 TAC 25.511(h)(2), Example, Test Period 3 result"
+    quote: "[1 − 10(1 − 0.80)2 ]($1,200,000) = $720,000"
 ---
 
 ## Definition
@@ -342,7 +370,7 @@ The Texas Energy Fund is a special fund in the state treasury, outside general r
 
 Loans. Under Chapter 34 (current text, retrieved 2026-11-19), loans can finance upgrades to existing dispatchable facilities that add at least 100 MW, or construction of dispatchable facilities of at least 100 MW. [e2] A loan has a 20-year term, ratable payments starting on the third anniversary of the estimated commercial operation date, and a three percent interest rate; a construction loan may cover up to 60 percent of the estimated cost. [e4][e5] Energy storage facilities are not eligible, an electric utility other than a river authority may not borrow, and no loan or grant may go to a facility used primarily to serve an industrial load or private use network, or to a gas transmission pipeline. [e3][e49][e47] The PUCT rule allows a facility serving an industrial load or PUN only if that share is under 50 percent of new nameplate capacity and more than 100 MW serves the ERCOT market. [e48]
 
-Loan terms in the PUCT rule (16 TAC 25.510, amendment effective 10/02/24): the TEF administrator verifies that the borrower can fund the balance of no less than 40 percent of construction and commissioning costs, and the borrower posts three percent of estimated project cost in escrow with the Comptroller or as a standby letter of credit before the first disbursement. [e43][e44] For new construction, the deposit is returned if the facility interconnects before the fourth anniversary of initial disbursement; escrow the commission may not release goes to the fund. [e45][e46] Each funded resource must keep a 12-month performance availability factor (PAF) of at least 85 percent and a planned outage factor of no more than 15 percent, checked monthly, for the whole 20-year term. [e41][e42] If more than four loan applications are pending when a loan is awarded, that loan may not exceed 25 percent of the fund balance. [e47]
+Loan terms in the PUCT rule (16 TAC 25.510, amendment effective 10/02/24): the TEF administrator verifies that the borrower can fund the balance of no less than 40 percent of construction and commissioning costs, and the borrower posts three percent of estimated project cost in escrow with the Comptroller or as a standby letter of credit before the initial loan amount is disbursed. [e43][e44][e74] For new construction, the deposit is returned if the facility interconnects before the fourth anniversary of initial disbursement; escrow the commission may not release goes to the fund. [e45][e46] Each funded resource must keep a 12-month performance availability factor (PAF) of at least 85 percent and a planned outage factor of no more than 15 percent, checked monthly, for the whole 20-year term. [e41][e42] If more than four loan applications are pending when a loan is awarded, that loan may not exceed 25 percent of the fund balance. [e47]
 
 Completion bonus grants are paid on construction of dispatchable generation in the ERCOT region, based on megawatts provided, for facilities of at least 100 MW that were not in the CDR planning model before June 1, 2023. [e6][e40] The statutory cap is $120,000 per MW for facilities interconnected before June 1, 2026, and $80,000 per MW for those interconnected on or after June 1, 2026 and before June 1, 2029, unless the commission extends deadlines for extenuating circumstances; no grant goes to a facility interconnected on or after June 1, 2029 on the same condition. [e7][e39] The grant is paid in equal annual payments over 10 years starting on the first anniversary of commercial operations, each subject to withholding or discount for performance; the rule authorizes a payment for each of the ten successive test periods after interconnection in which the resource meets the performance standard. [e38][e37] Under the PUCT rule, an application may be filed from January 1, 2025 and no later than 180 days after the facility's interconnection date. [e36]
 
@@ -355,18 +383,18 @@ Annual completion bonus grant payment per generation resource, 16 TAC 25.511(h) 
 - PRF50 and PRF90: the median and optimal performance standards from the reference group. [e31][e28]
 - If PRF ≤ PRF50: payment is zero (withheld). [e30]
 - If PRF50 < PRF < PRF90: payment = [1 - 10(1 - ARF)²] × [1/4 + 3/4 × (PRF - PRF50)/(PRF90 - PRF50)] × δ. [e33][e31]
-- If PRF ≥ PRF90: payment = [1 - 10(1 - ARF)²] × δ, which is the full δ when ARF is 1; there is no discount at or above PRF90 with ARF between 0.9 and one. [e29][e34]
+- If PRF ≥ PRF90: payment = [1 - 10(1 - ARF)²] × δ, which is the full δ when ARF is 1. [e34][e31] The rule text separately says no discount applies at or above PRF90 with an ARF between 0.9 and one. [e29] Read literally, the formula would still reduce the payment for an ARF between 0.9 and 1 (for example to 0.9 × δ at ARF 0.9; the knowledge base's arithmetic); the saved rule does not reconcile the two, so treat the 0.9-1 band as an open point.
 - A result at or below zero means the payment is withheld. [e30]
 
 ## Example
 
-The rule's own example: a $12,000,000 award for a 100 MW resource interconnected March 1, 2026, so δ = $1,200,000. [e32][e31] Test period 1: PRF 92, ARF 1.0, PRF50 90, PRF90 98; (92 - 90)/(98 - 90) = 0.25, so payment = (0.25 + 0.75 × 0.25) × $1,200,000 = $525,000. [e33] Test period 3: PRF 96 equals PRF90, but ARF is 0.80, so payment = [1 - 10 × 0.2²] × $1,200,000 = 0.6 × $1,200,000 = $720,000. [e34]
+The rule's own example: a $12,000,000 award for a 100 MW resource interconnected March 1, 2026, so δ = $1,200,000. [e32][e31] Test period 1: PRF 92, ARF 1.0, PRF50 90, PRF90 98; (92 - 90)/(98 - 90) = 0.25, so payment = (0.25 + 0.75 × 0.25) × $1,200,000 = $525,000. [e33][e79] Test period 3: PRF 96 equals PRF90, but ARF is 0.80, so payment = [1 - 10 × 0.2²] × $1,200,000 = 0.6 × $1,200,000 = $720,000. [e34][e80]
 
 ## ERCOT context
 
 The statute limits the fund: not more than $1 billion for grants under Section 34.0103, not more than $7.2 billion for loans and grants under Sections 34.0104 and 34.0105, and not more than $1.8 billion for grants or loans under Subchapter B. [e8] Each funded facility must participate in the ERCOT wholesale market. [e10] SB 2627 required the PUCT to start accepting loan applications by June 1, 2024 and to approve or deny each and disburse initial loan funds by December 31, 2025. [e9] The PUCT's FAQ says the loan application window ran June 1 to July 27, 2024, and the completion bonus grant program has accepted applications since January 1, 2025 and still does. [e56][e57]
 
-The 89th Legislature passed SB 2268 to adjust certain financing requirements, programmatic caps and deadlines. [e17] Its main changes, effective June 12, 2025: SB 2627 as enacted said outstanding loans and completion bonus grants, considered together, could not support more than 10,000 MW; the current text applies a 10,000 MW ceiling to outstanding loans and a separate 10,000 MW ceiling to completion bonus grants. [e12][e18][e19][e21] The commission may now disburse initial loan funds after December 31, 2025 if it determines that market factors necessitate an extension, deciding requests case by case. [e20] SB 2268 also lets a municipally owned utility's construction loan take the form of a public security payable on parity with its other senior-lien debt (and gives co-ops a similar route), applying to loan applications still pending on its effective date. [e67][e66]
+The 89th Legislature passed SB 2268 to adjust certain financing requirements, programmatic caps and deadlines. [e17] Its main changes, effective June 12, 2025: SB 2627 as enacted said outstanding loans and completion bonus grants, considered together, could not support more than 10,000 MW; the current text applies a 10,000 MW ceiling to outstanding loans and a separate 10,000 MW ceiling to completion bonus grants. [e12][e18][e19][e21] The commission may now disburse initial loan funds after December 31, 2025 if it determines that market factors necessitate an extension, deciding requests case by case. [e20] SB 2268 also lets a municipally owned utility's construction loan take the form of a public security payable on parity with its other senior-lien debt and lets an electric cooperative's construction loan be secured by a senior lien on substantially all its electric system assets; the municipal provision also applies to loan applications submitted before, and still pending on, its effective date. [e67][e76][e66]
 
 A grant in practice: on June 23, 2026 the PUCT signed its fifth completion bonus grant agreement, with Tejas Power Generation (a Shell Energy North America subsidiary) for a 146 MW gas-fired combustion turbine expansion at Friendswood Energy Center, which connected to the Houston Load Zone on May 21, 2026. [e61][e65][e62] The maximum award is $17.52 million, paid up to $1.75 million a year over 10 years, with the first test period June 1, 2026 to May 31, 2027. [e63][e64] That maximum equals 146 MW at the $120,000/MW cap for facilities interconnected before June 1, 2026 (146 × $120,000 = $17.52 million). [e7][e62][e63]
 
@@ -393,7 +421,7 @@ Oversight: a six-member Texas Energy Fund Advisory Committee, three senators app
 - June 1 - July 27, 2024: loan program application window. [e56][e9]
 - January 1, 2025: completion bonus grant applications open. [e57][e36]
 - February 13, 2025: PUCT adopts 16 TAC 25.512 (Outside ERCOT grants); applications open May 28, 2025. [e58]
-- June 12, 2025: SB 2268 changes take effect (separate 10,000 MW ceilings, later loan disbursement, MOU and co-op security). [e21][e18][e19][e20]
+- June 12, 2025: SB 2268 changes take effect (separate 10,000 MW ceilings, later loan disbursement, MOU and co-op security). [e21][e18][e19][e20][e67][e76]
 - December 31, 2025: SB 2627's deadline for loan decisions and initial disbursement; disbursement after it is now allowed case by case. [e9][e20]
 - May 7, 2026: PUCT adopts 16 TAC 25.513 (backup power packages); applications to open in 2027. [e59]
 - May 21, 2026: Friendswood expansion connects; June 23, 2026: fifth completion bonus grant agreement signed. [e62][e61]
@@ -416,7 +444,7 @@ Oversight: a six-member Texas Energy Fund Advisory Committee, three senators app
 
 ### What does the Texas Energy Fund finance in ERCOT?
 
-Low-interest loans for new or upgraded dispatchable generation of at least 100 MW, and completion bonus grants for dispatchable generation built in the ERCOT region. [e2][e6] Outside ERCOT it funds grants for existing facilities, and Subchapter B funds backup power packages at critical facilities. [e55][e53]
+Low-interest loans for new or upgraded dispatchable generation of at least 100 MW, and completion bonus grants for dispatchable generation built in the ERCOT region. [e2][e6] Outside ERCOT it funds existing transmission and distribution infrastructure and existing generating facilities, and the backup power package program will fund packages at critical facilities. [e55][e77][e53][e78]
 
 ### What are the loan terms?
 
@@ -432,7 +460,7 @@ The statute tells the commission to set standards for the 100 hours with the lea
 
 ### What if a plant interconnects on June 2, 2026 instead of May 21?
 
-Its cap falls from $120,000 to $80,000 per MW unless the commission finds extenuating circumstances; for a 146 MW unit that would be $11.68 million instead of $17.52 million by simple arithmetic. [e7][e63]
+Its cap falls from $120,000 to $80,000 per MW unless the commission finds extenuating circumstances; for a 146 MW unit that would be $11.68 million instead of $17.52 million by simple arithmetic. [e7][e61][e63]
 
 ### How does ERCOT use TEF in its reliability reports?
 
@@ -440,7 +468,7 @@ The December 2025 CDR varies the amount and timing of TEF project capacity in tw
 
 ### What changed with SB 2268?
 
-Separate 10,000 MW ceilings for loans and for grants, permission to disburse initial loan funds after December 31, 2025 case by case, and alternative security for MOU and co-op construction loans. [e18][e19][e20][e67]
+Separate 10,000 MW ceilings for loans and for grants, permission to disburse initial loan funds after December 31, 2025 case by case, and alternative security for MOU and co-op construction loans. [e18][e19][e20][e67][e76]
 
 ## Open items
 

@@ -203,7 +203,7 @@ evidence:
   - id: e41
     source: imm-som-2025
     locator: "page 161 (OCR), Appendix I, Figure A5 discussion (5 December 2025 to February 2026)"
-    quote: "Figure A5 shows that NSRS clears four times higher than ECRS and eight times higher than RRS on average, consistent with the ratio of their duration requirements shown in Table A1."
+    quote: "Figure A5: Distribution of NSRS MCPC Relative to Other Up-Reserves December 5, 2025, through February 2026 Figure A5 shows that NSRS clears four times higher than ECRS and eight times higher than RRS on average, consistent with the ratio of their duration requirements shown in Table A1."
   - id: e42
     source: ercot-nprr1309-puct-report
     locator: "NPRR1309 PUCT Report, cover table, Revision Description, item 6"
@@ -248,6 +248,10 @@ evidence:
     source: puct-58000-pfp
     locator: "Project 58000 Proposal for Publication, request for comments (p. 5)"
     quote: "Comments must be filed by August 11, 2026."
+  - id: e53
+    source: imm-nprr1309-comments-2026-04
+    locator: "IMM comments on NPRR1309 (April 24, 2026), Comments, second set of comments"
+    quote: "That engagement resulted in our second set of comments, which were filed jointly with ERCOT on April 9, 2026."
 ---
 
 ## Definition
@@ -262,7 +266,7 @@ Step 2, pick a live debate with a public record. ERCOT called NPRR1309 the third
 
 Step 3, know the history behind the number. When NPRR1282 was approved, its justification said Non-Spin duration should remain at not less than four hours, based on historical risk-relevant deployments and sustained under-forecast error in six hour-ahead net load. [e38] The IMM says that after NPRR1282 took effect, RTC-SCED explicitly enforced the four-hour NSRS duration, which in its view is a structural design flaw that inflated NSRS prices. [e39]
 
-Step 4, give the positions as recorded. In its February 2026 comments the IMM recommended a one-hour Non-Spin duration upon implementation of DRRS. [e13] The IMM then worked with ERCOT on joint comments filed April 9, 2026; the IMM says they reduced Non-Spin duration to two hours, which it called a compromise given the two-hour start time for DRRS, though it would prefer one hour. [e35] At PRS on 4/15/26 participants proposed desktop edits to maintain the current four-hour Non-Spin duration, and the IMM says ERCOT gave no reliability justification for two hours at PRS, so it withdrew its support for the PRS version. [e22][e36] The IMM and ERCOT then each proposed redlines to lower the Non-Spin duration to two hours again, and on 4/29/26 TAC voted to recommend approval with five opposing votes from LCRA, Brazos, STEC, Vistra and Constellation. [e23][e25][e10] LCRA called the two-hour change premature without more analysis, and Vistra argued it was not required for DRRS, should wait for the 2029 AS methodology review, and could degrade durable reserves and increase RUC of thermal units. [e11][e12] The Board recommended approval unanimously on 6/2/26 and the PUCT approved on 7/9/26. [e14][e15]
+Step 4, give the positions as recorded. In its February 2026 comments the IMM recommended a one-hour Non-Spin duration upon implementation of DRRS. [e13] The IMM then worked with ERCOT on joint comments filed April 9, 2026; the IMM says they reduced Non-Spin duration to two hours, which it called a compromise given the two-hour start time for DRRS, though it would prefer one hour. [e53][e35] At PRS on 4/15/26 participants proposed desktop edits to maintain the current four-hour Non-Spin duration, and the IMM says ERCOT gave no reliability justification for two hours at PRS, so it withdrew its support for the PRS version. [e22][e36] The IMM and ERCOT then each proposed redlines to lower the Non-Spin duration to two hours again, and on 4/29/26 TAC voted to recommend approval with five opposing votes from LCRA, Brazos, STEC, Vistra and Constellation. [e23][e25][e10] LCRA called the two-hour change premature without more analysis, and Vistra argued it was not required for DRRS, should wait for the 2029 AS methodology review, and could degrade durable reserves and increase RUC of thermal units. [e11][e12] The Board recommended approval unanimously on 6/2/26 and the PUCT approved on 7/9/26. [e14][e15]
 
 Step 5, bring evidence for your side. The IMM says NSRS was priced at a premium in 2025 because of oversized procurement and the four-hour duration, under which a storage resource must carry four hours of energy for its NSRS award; its Recommendation 2024-2 asks for one hour. [e17] Its example: a 10 MW NSRS award requires 40 MWh of stored capacity. [e40] For December 5, 2025 to February 2026 the IMM reports that NSRS cleared on average four times higher than ECRS and eight times higher than RRS, consistent with the ratio of their duration requirements. [e41] It also says ERCOT's proposed AS Methodology procures 140% more than the 1-in-10 load shed standard requires. [e18]
 
@@ -283,7 +287,7 @@ Step 6, know the second front: the demand curve. The original DRRS demand curve 
 - NPRR1282: its justification held that Non-Spin duration should remain at not less than four hours. [e38]
 - 12/8/25: the Board designates NPRR1309 a Board Priority Revision Request. [e45]
 - February 3, 2026: IMM comments recommend reducing Non-Spin to one hour upon implementation of DRRS. [e13]
-- April 9, 2026: joint ERCOT/IMM comments, which per the IMM set Non-Spin at two hours and tie the DRRS curve to the AORDC. [e35][e31]
+- April 9, 2026: joint ERCOT/IMM comments, which per the IMM set Non-Spin at two hours and tie the DRRS curve to the AORDC. [e53][e35][e31]
 - 4/15/26: PRS participants desktop-edit to keep four hours; the IMM withdraws support for the PRS version. [e22][e36]
 - 4/29/26 TAC, 6/2/26 Board, 7/9/26 PUCT approval of the two-hour version. [e10][e14][e15]
 
@@ -313,7 +317,7 @@ The IMM supported keeping DRRS a reserve product rather than a resource adequacy
 
 ### Why two hours rather than one, or four?
 
-The IMM's argument is that once DRRS carries the statutory four-hour duration, Non-Spin only needs to last until DRRS can be deployed, which is a maximum two-hour cold start for offline DRRS. [e34] DRRS resources must be able to reach their award within two hours. [e6] The four-hour case was made in NPRR1282, which cited historical Non-Spin deployments and sustained six hour-ahead net load under-forecast error. [e38]
+The IMM's argument is that once DRRS carries the statutory four-hour duration, Non-Spin only needs to last until DRRS can be deployed, which is a maximum two-hour cold start for offline DRRS. [e34] The statute requires participating DRRS Resources to be On-Line and dispatchable not more than two hours after being called on for deployment. [e6] The four-hour case was made in NPRR1282, which cited historical Non-Spin deployments and sustained six hour-ahead net load under-forecast error. [e38]
 
 ### What if DRRS procurement volumes turn out large?
 
