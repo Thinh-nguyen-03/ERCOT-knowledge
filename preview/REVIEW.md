@@ -1,6 +1,6 @@
 # Review list
 
-Generated 2026-11-21. 153 topics, 6444/6444 quotes found word for word in the saved sources.
+Generated 2026-11-21. 153 topics, 6734/6734 quotes found word for word in the saved sources.
 
 ## Failed checks
 
@@ -68,6 +68,7 @@ None.
 ### Texas Interconnection & DC Ties
 
 - The saved sources name the Mexican counterparty differently: FERC-NERC says CENACE, the grid operator [e4]; the IMM and the current Protocol text say CFE (Comisión Federal de Electricidad). [e6][e23] Not reconciled; the two may play different roles.
+- The IMM's 2024 report calls 2024 the first net-export year "since 2018" [e11], while its 2020-2023 reports say the net-import trend began in 2018 [e32][e28]. Which applies to 2018 itself is not resolved in the saved sources.
 - The IMM's 2020 report lists three Mexico ties totalling 430 MW [e26]; later reports and FERC-NERC say two ties and 400 MW. Which tie changed is not explained in the sources.
 - No saved source covers the legal history of ERCOT's non-FERC status (for example, the specific Federal Power Act provisions or court and FERC orders).
 - No saved source gives the individual MW rating of each named DC tie, only the SPP and Mexico totals.
@@ -100,7 +101,7 @@ None.
 - Names and number of TDSPs in ERCOT: only a table of TDSP load management programs names AEP Texas, CenterPoint, Oncor and TNMP; no saved source gives the full TDSP list or their service areas.
 - TDSP duties in retail transactions (switching, meter data, outage handling) are not covered by the saved PUCT retail rules or Protocols text beyond metering; TX SET and the retail market guides are not saved.
 - The §25.192 cost-of-service text and the 4CP billing paragraph have garbled subsection lettering in the saved copy; paragraphs are cited by heading.
-- The TCRF equation is not legible in the saved text; only the variable definitions are quoted.
+- The TCRF equation layout is garbled in the saved text (where BD sits relative to the rest is not legible); the variable definitions are quoted. The saved §25.193 text carries an effective date of 10/25/10; later amendments were not checked.
 
 ### NOIE (Non-Opt-In Entity: Munis & Co-ops)
 
@@ -237,7 +238,6 @@ None.
 - The saved sources do not say whether the advanced meter interval data file is a TX SET transaction (Section 19.7 describes it as an ERCOT-specified file format via NAESB, and the Retail Market Guide calls it an interval data file); the guides' text is not saved.
 - The Texas SET Implementation Guides themselves, and the Retail Market Guide Appendix D1 timing matrix, are not saved or not legible, so field-level content and per-transaction timings beyond Protocol Section 15 are not sourced.
 - Protocol Section 19.7 says interval data is provided "at least" monthly while the Retail Market Guide 7.15.2 says daily; the saved sources do not state which governs in practice.
-- Section 15.1.1.4(2) sets a "cancel pending" path when the TDSP's 814_04 is late; the exact conditions (three and 20 Retail Business Days) were not quoted here.
 - Resolved 2026-11-21: the full transaction list (Section 19.3.1, 49 entries), urgent change requests (19.4.5) and Retail Market Guide references are now saved and cited above only in part; not every transaction is described.
 
 ### Resource Types (Generation, Load, ESR, SOG)
@@ -407,6 +407,7 @@ None.
 ### HSL / LSL
 
 - Resolved 2026-11-21: the HDL/LDL formulas are covered in the Formula section; the HASL/LASL terms are now covered in the hasl-lasl topic (the superseded pre-RTC definition says HASL was calculated in Section 6.5.7.2). [e34]
+- Not reproduced here: the ESR High Dispatch Limit and the Load Resource Low Dispatch Limit formulas.
 - Still open: how RTC+B changed the telemetry requirements. The NPRR1290 report says ERCOT proposed retaining the existing Non-Frequency Responsive Capacity telemetry, but this pass did not read the complete RTC+B telemetry list.
 - Still open: HSL and LSL for Combined Cycle Trains in RUC and DAM beyond the COP rules (see the cop topic).
 
@@ -431,7 +432,7 @@ None.
 - The protocols saved here never use the word "virtual"; the term comes from the IMM report. [e7]
 - The saved sources do not say whether every DAM Energy Bid is a virtual: the protocol definition of a DAM Energy Bid does not mention who may submit it or why.
 - The Load Zone imbalance quantity list (np-06 Section 6.6.3.2) was cited only by its header; the Resource Node and Hub lists are quoted.
-- The credit percentile parameters (a, d, dp) and the default values for e1 to e3 (paragraph (10)) were not read into this entry.
+- The favorable-treatment parameter values in Section 4.4.10(10)(b) and the effect of the b, ep2, y, z, u, t and bd parameters are not covered here.
 - IMM profitability of virtuals and volume by Settlement Point: the saved IMM text gives only the share of real-time load; no table of virtual volumes or profits was found.
 - Virtual AS rules under RTC: np-04 Section 4.4.7 as saved does not use the word "virtual" and describes Ancillary Service Only Offers (priced at $0 or more per MW up to the DASWCAP, minimum 0.1 MW); how these relate to the IMM's virtual AS positions is not stated in the saved text.
 - Table A2 period: the OCR header reads "December 5, 2026, through February 2026"; the text beside it refers to December 5, 2025 and January 2026, so the year looks like an OCR or typographical error.
@@ -500,12 +501,11 @@ None.
 
 ### ECRS (ERCOT Contingency Reserve Service)
 
-- Resolved 2026-11-21: ECRS qualification (np-08 8.1.1.2.1.7), deployment performance (8.1.1.4.4) and the ASDC pricing (np-04 4.4.12) are now covered. NPRR1282 (PUCT report) and Protocols Section 8.1.1.3.4 give one hour since RTC. Section 3's and Section 2's general description still says "two consecutive hours"; the saved sources do not say whether that wording is meant to remain.
+- Resolved 2026-11-21: ECRS qualification (np-08 8.1.1.2.1.7), deployment performance (8.1.1.4.4) and the ASDC pricing (np-04 4.4.12) are now covered. NPRR1282 (PUCT report) and Protocols Section 8.1.1.3.4 give one hour since RTC.
 - The saved Section 3.17.4 describes ECRS as deployed manually or by a four-second signal; the IMM says operators no longer manually deploy ECRS under RTC. How the Protocol text in Section 6.5.7.6.2.4 is applied under RTC is not stated in the saved sources.
 - The net load ramp risk adjustment: the 2026 methodology's ECRS and Non-Spin procedure speaks of net load ramp risk for Non-Spin; no separate ECRS ramp-risk quantity was found.
 - The 2027 AS methodology is a Board item (September 14-15, 2026); approval by the Board and the PUCT is not in the saved sources.
 - The ECRS price in the IMM 2024 report ($9.62 for 2024, $76.77 for 2023) differs from the 2025 report's figures ($9.56, $73.18); the sources do not explain the difference.
-- Meaning of the ASDC parameters "ECRSPCTMAX 30" and "ECRSMWMIN 40" is inferred from their variable names (maximum percentage and minimum MW of ECRS included in the MCL); the variable table was not quoted for those two.
 
 ### Non-Spinning Reserve
 
@@ -846,6 +846,7 @@ None.
 ### Weather-Driven Load (CDD / HDD)
 
 - Deeper pass: no saved source gives CDD or HDD values for 2024 or 2025, or a MW-per-degree load sensitivity (the LTLF lists temperature variables but no coefficients).
+- The IMM's 2023 report words the 2023 cooling-degree-day rise as "up 8.5% on average" in the Executive Summary but "up for all of Texas by as much as 8.5%" in the Demand and Supply section; the two are not reconciled in the saved text.
 - The "heating degree day" term appears in the IMM reports only as part of the 65 °F definition; no winter-specific degree-day numbers were found.
 - The ERCOT Fact Sheet (October 2026) text layout is ambiguous but appears to show a record peak of 91,155 MW for July 22, 2026, versus 91,134 MW in the Summer 2026 review; only the review is cited. Needs reconciling.
 - Deeper pass: the Winter Storm Kingston peak value and date were not quoted from the saved sources; winter record is cited from the IMM (January 16, 2024).
@@ -935,7 +936,7 @@ None.
 
 ### Merit Order / Supply Stack
 
-- The term "merit order" does not appear in any saved source. "Supply stack" appears in FERC's 2024 Energy Primer as a general description (with a NYISO illustration), and "offer stack" and "aggregated offer curve" appear in the IMM State of the Market reports.
+- The exact phrase "merit order" appears in only one saved source, a commercial tolling slide deck (ref-fields-tolling-slides), and the PUCT rule 25.502 and older IMM reports use "out-of-merit-order" / "out-of-merit" dispatch for a different concept; it does not appear in the Protocols or recent IMM reports saved here. "Supply stack" appears in FERC's 2024 Energy Primer as a general description (with a NYISO illustration), and "offer stack" and "aggregated offer curve" appear in the IMM State of the Market reports.
 - The IMM text says the roughly 15% was "offered above this level" and then refers to a $75 level that corresponds to the NSRS energy offer floor; the antecedent of "this level" (10 times FIP, or $75) is unclear in the extracted text, so it is not interpreted beyond the quoted share.
 - The dollar levels of the offer stack by quantity (IMM Figure 7 and its predecessors) are charts; the values are not in the text.
 - No saved source gives the frequency with which each fuel or resource type sets the real-time price; the IMM statements above are qualitative.
@@ -1027,7 +1028,7 @@ None.
 - The ERCOT Forward Markets 101 slide shows the overnight off-peak block as "2300 - 0000", while Protocol Section 7.3 says hours ending 2300-2400; the sources use different notations for the same hours.
 - The ERCOT CRR training material is a 2020 edition; its worked examples were not checked against later Protocol revisions (Protocol text on 7x24 bids was checked).
 - Deeper pass: bilateral block contract terms (such as ISDA, EEI or NAESB contract specifics beyond the FERC primer's one-sentence reference) are not in the saved sources.
-- NPRR1288 appears in the saved Section 7.5.2 text as a pending replacement of bid and offer paragraphs (d); the replacement is not cited here and its effect on block rules is not stated beyond what the pending box shows.
+- NPRR1288 appears in the saved Section 7.5.2 text as a pending replacement (upon system implementation) of bid and offer paragraphs (d). In the saved text the replacement changes "month or strip of consecutive months" to "month" and keeps the 7x24 wording unchanged; the quotes cited here are the rule currently in force.
 
 ### Forward Curve
 
@@ -1217,6 +1218,7 @@ None.
 - The startup cap's fuel component (startup fuel in MMBtu) for a CC is not quoted here; only the O&M part ($6,810) is.
 - The sources do not give a 2026 average gas price or 2026 implied heat rate (the IMM monthly report's charts did not extract as text).
 - VCM Equations 4 and 5 (startup and LSL emission costs) are referenced but their text was not quoted.
+- The Verifiable Cost Manual snapshot (e20-e23, e33) is the edition effective 2026-12-01; its wording has not been compared with the edition in force before that date.
 
 ### Scenario: Valuing a CRR Path
 
@@ -1226,6 +1228,7 @@ None.
 - No source gives typical auction prices or realized values for specific Panhandle or West-North paths; the IMM's September 2026 monthly report lists top PTP pairs by auction value only in a chart whose values did not extract.
 - The full AOBLCR term (how the adder and EACP combine in the Min() term) is in a formula line that was not quoted; only the ACR total and variable definitions are cited.
 - How much capacity PCRR allocations take from a given path in a given month is not published in the saved sources.
+- NPRR1288 (one-month strips only): the IMM 2025 report says participants now buy single months, but the saved np-07 edition (effective 2025-12-05) shows it as a pending box; the implementation date is not in the saved sources.
 
 ### Scenario: Bidding a Battery After RTC+B
 

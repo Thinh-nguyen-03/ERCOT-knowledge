@@ -12,8 +12,8 @@ Generated 2026-11-21 over 153 topics.
 
 ## Evidence quotes by source tier
 
-- tier 1: 3859
-- tier 2: 2685
+- tier 1: 3866
+- tier 2: 2686
 - tier 3: 182
 
 ## number-not-in-quote
@@ -95,7 +95,7 @@ Generated 2026-11-21 over 153 topics.
 - cop · ERCOT context #4 · 8.1 :: Accuracy monitoring: ERCOT monitors the accuracy of each QSE's COP as outlined in Section 8, Performance Monitoring.  Under Section 8.1.2, C
 - cop · Questions #14 · 8.1 :: ERCOT monitors it under Section 8 ; one measure in Section 8.1.2 is the monthly count of hours when a RUC-committed Resource failed to be On
 - credit-tpe · How it works #5 · 16.11 :: A pending change (NPRR1023, to take effect upon system implementation) would add a Section 16.11.8 under which ERCOT may at its sole discret
-- credit-tpe · Example #1 · $15, $5, 0.10, 1.10, $4.4, $0,, $0 :: Suppose a Counter-Party has TPEA of $4 million, TPES of $10 million, no CRR bilateral trades or locked auction limit, and posts $15 million 
+- credit-tpe · Example #1 · $15, $5, 0.10, 1.10, $4.4, $0,, $0 :: (The knowledge base's own illustrative arithmetic, not a source figure.) Suppose a Counter-Party has TPEA of $4 million, TPES of $10 million
 - credit-tpe · Timeline #1 · 2021 :: 2021: Winter Storm Uri short payments exceed $3 billion (IMM). 
 - credit-tpe · Common confusion #1 · 16.11 :: TPE is the sum of TPEA and TPES ; Section 16.11.1 states the requirement as Financial Security at or above TPE, and Section 16.11.5 spells o
 - credit-tpe · Link to ptp-obligation · 4.4 :: related PTP Obligation: ERCOT calculates DAM credit exposure for PTP Obligation bids (Section 4.4.10(6)(d)), and DAM bids and offers are acc

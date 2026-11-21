@@ -6,10 +6,10 @@ every change), `audit/SUMMARY.md` (mechanical flags), `REVIEW.md` (every open it
 ## State of the knowledge base
 
 - 153 topics, all written and all taken through the deeper pass. None is missing.
-- 6,726 source quotes, each found word for word in a saved document (checked by program, 0 failures).
+- 6,734 source quotes, each found word for word in a saved document (checked by program, 0 failures).
   Before the deeper pass there were 2,095.
 - 294 source documents saved.
-- Quotes by source tier: 3,859 from rules, statutes, orders and court opinions; 2,685 from official reports;
+- Quotes by source tier: 3,866 from rules, statutes, orders and court opinions; 2,686 from official reports;
   182 from industry reference material (almost all in the nine industry-reference topics, see below).
 
 ## What the audit of the deeper pass did and found
@@ -28,7 +28,7 @@ term, and fixed what was wrong. Logged counts, before the fixes:
 | All | | 153 | | 5,615 | 598 (10.7%) |
 
 - All 598 wrong statements were fixed, mostly by narrowing the sentence to what the quote says or by adding the
-  missing quote. 282 quotes were added during the audit for statements that were true but not covered by the
+  missing quote. 290 quotes were added during the audit and residual check for statements that were true but not covered by the
   quote they cited.
 - "Wrong" means a reader would have been misled: it includes mild cases (a claim cited to the wrong paragraph)
   as well as serious ones (a reversed rule). Auditors differ in how strictly they count, which is part of why the
@@ -36,7 +36,20 @@ term, and fixed what was wrong. Logged counts, before the fixes:
 - Of about 1,030 mechanical number flags, 65 were real and the rest false alarms (years, section numbers).
 - Statement counts in the single-source logs are partly approximate (taken from packet bullet counts).
 
-RESIDUAL_CHECK_PLACEHOLDER
+### Residual check: how much is still wrong after the audit
+
+Eight single-source topics that had already been audited and fixed (the group with the highest error counts)
+were audited a second time by a stronger model (Opus): regulation, RMR, stakeholder process, black start, RTM,
+virtual bids, credit/TPE and ERS.
+
+- 293 statements checked, 8 still wrong (2.7%). Five of the eight topics had nothing wrong.
+- Two of the 8 were introduced by the first auditor's own rewrite; the rest had been missed.
+- What was left: the RMR incentive factor without its capital-expenditure exclusion; ERS renewal spending
+  described as "within" the extra $25 million; letter-of-credit bank ratings given as "or" where the rule needs
+  both; price corrections described as "only when" the listed conditions are met.
+
+What this means: after the audit, roughly 1 statement in 35 to 40 in the deeper-pass text is still wrong on
+this small sample. It is a sample of 8 topics, so treat the figure as an indication, not a measurement.
 
 ### The most common kinds of error
 
