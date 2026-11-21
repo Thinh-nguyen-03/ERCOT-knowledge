@@ -143,7 +143,7 @@ evidence:
   - id: e26
     source: np-04
     locator: "Section 4.4.9.2.1(4), Startup Offer and Minimum-Energy Offer Criteria"
-    quote: "The Resource’s Startup Offer must not be greater than 200% of the Resource Category Generic Startup Cost for that type of Resource listed in Section 4.4.9.2.3, Startup Offer and Minimum-Energy Offer Generic Caps, unless ERCOT has approved verifiable Resource-specific startup costs for that Resource"
+    quote: "The Resource’s Startup Offer must not be greater than 200% of the Resource Category Generic Startup Cost for that type of Resource listed in Section 4.4.9.2.3, Startup Offer and Minimum-Energy Offer Generic Caps, unless ERCOT has approved verifiable Resource-specific startup costs for that Resource, under Section 4.4.9.2.4, Verifiable Startup Offer and Minimum-Energy Offer Caps, in which case the Resource’s Startup Offer must not be greater than 200% of those approved verifiable Resource-specific Startup Costs."
   - id: e27
     source: np-04
     locator: "Section 4.6.2.3(4), Day-Ahead Make-Whole Settlements"
@@ -181,7 +181,7 @@ This scenario asks whether a gas combined-cycle unit earns more from selling pow
 
 ## How it works
 
-Fuel is the main cost. Fuel is the largest part of marginal cost for most generators, and gas is ERCOT's most-used fuel. [e8] The heat rate is the energy a plant uses to make one kWh, stated in Btu per net kWh. [e1] Efficiency in percent is 3,412 Btu divided by the heat rate. [e32] EIA's benchmark is 7,000 Btu/kWh, which it describes as a fairly new and efficient combined cycle, while those marketing a unit use its tested heat rate. [e30] In its net revenue work the IMM has assumed 7 MMBtu/MWh for a combined cycle, 10.5 MMBtu/MWh for a gas turbine and $4/MWh of variable O&M. [e2] It also assumed a 10% total outage rate and left out start-up and minimum-energy costs and ramping limits. [e28]
+Fuel is the main cost. Fuel is the largest part of marginal cost for most generators, and gas is ERCOT's most-used fuel. [e8] The heat rate is the energy a plant uses to make one kWh, stated in Btu per net kWh. [e1] Efficiency in percent is 3,412 Btu divided by the heat rate. [e32] EIA's benchmark is 7,000 Btu/kWh, which it describes as a fairly new and efficient combined cycle, while those marketing a unit use its tested heat rate. [e30] In its 2024 report's net revenue work the IMM assumed 7 MMBtu/MWh for a combined cycle, 10.5 MMBtu/MWh for a gas turbine and $4/MWh of variable O&M. [e2] It also assumed a 10% total outage rate and left out start-up and minimum-energy costs and ramping limits. [e28]
 
 ERCOT itself builds a cost reference the same way. The mitigated offer cap takes the larger of a generic incremental heat rate times the higher of the fuel index and a resource fuel price, or the unit's verifiable incremental heat rate times its calculated fuel price plus O&M. [e9][e17][e18][e19] That O&M term covers variable costs above LSL and includes an emissions cost adjustment. [e10] The Fuel Index Price is the daily Katy Hub gas price. [e4] Verifiable costs are optional for a QSE unless it receives RUC instructions for the Resource; otherwise generic caps by Resource Category apply. [e33]
 
@@ -189,7 +189,7 @@ Emissions enter as a documented O&M add-on. Under the Verifiable Cost Manual, va
 
 Then compare with the market. The implied heat rate divides the power price by the fuel price. If it is above the unit's own heat rate, the unit covers its fuel cost. [e3] Zero-cost renewables pull the implied heat rate down for hundreds of hours a year, and shortage pricing pushes it up for hundreds of hours. [e15]
 
-Hourly margin is not the whole answer. Thermal units that do not clear a three-part offer day-ahead risk not recovering start-up and minimum generation costs. [e11] A unit DAM-committed on a cleared Three-Part Supply Offer is guaranteed DAM payment at least equal to its capped startup, minimum-energy and energy costs. [e27] The generic startup cap for a combined cycle with a combustion turbine of 90 MW or more is built from $6,810 of O&M per start [e24], its generic minimum-energy cap uses 8 MMBtu/MWh times the fuel price [e25], and a startup offer may not exceed 200% of the generic cost unless ERCOT has approved verifiable unit-specific costs. [e26] Co-optimization schedules energy and reserves together and makes trade-offs between them; before December 5, 2025 ERCOT had it only in the day-ahead market. [e14]
+Hourly margin is not the whole answer. Thermal units that do not clear a three-part offer day-ahead risk not recovering start-up and minimum generation costs. [e11] A unit DAM-committed on a cleared Three-Part Supply Offer is guaranteed DAM payment at least equal to its capped startup, minimum-energy and energy costs. [e27] The generic startup cap for a combined cycle with a combustion turbine of 90 MW or more is built from $6,810 of O&M, applied for each combustion turbine in the Resource [e24], its generic minimum-energy cap uses 8 MMBtu/MWh times the fuel price [e25], and a startup offer may not exceed 200% of the generic cost, or 200% of verifiable unit-specific startup costs where ERCOT has approved them. [e26] Co-optimization schedules energy and reserves together and makes trade-offs between them; before December 5, 2025 ERCOT had it only in the day-ahead market. [e14]
 
 ## Formula
 
@@ -200,13 +200,13 @@ Hourly margin is not the whole answer. Thermal units that do not clear a three-p
 
 ## Key facts
 
-- IMM net revenue assumptions: 7 MMBtu/MWh for a combined cycle, 10.5 for a gas turbine, $4/MWh variable O&M, 10% outage rate, no start-up or min-energy costs. [e2][e28]
+- IMM net revenue assumptions (2024 report): 7 MMBtu/MWh for a combined cycle, 10.5 for a gas turbine, $4/MWh variable O&M, 10% outage rate, no start-up or min-energy costs. [e2][e28]
 - EIA's benchmark heat rate: 7,000 Btu/kWh for a fairly new and efficient combined cycle. [e30]
 - Labels in the IMM's natural gas price figure for 2021-2025: $7.30, $5.84, $2.22, $1.90, $3.06 (unit not stated in the quote). [e5]
 - 2025 ERCOT average real-time energy price, excluding adders: $36.94/MWh. [e6]
 - The 2025 implied heat rate was almost 28% below 2024 and in line with the marginal heat rate of ERCOT gas plants. [e7]
 - IMM estimate of 2025 net revenue: $82.96/kW-year for a combined cycle and $52.59/kW-year for a combustion turbine, below the $140/kW-year planning CONE. [e13][e16]
-- Generic startup cap O&M for a combined cycle with a CT of at least 90 MW: $6,810; startup offers capped at 200% of generic unless verifiable costs are approved. [e24][e26]
+- Generic startup cap O&M for a combined cycle with a CT of at least 90 MW: $6,810; startup offers capped at 200% of generic, or 200% of approved verifiable costs. [e24][e26]
 
 ## Scenarios
 
@@ -217,11 +217,11 @@ Hourly margin is not the whole answer. Thermal units that do not clear a three-p
 - Suppose (illustrative): at $30/MWh off-peak the margin is about $5/MWh; at $55/MWh in the evening it is about $30/MWh. That is EIA's spark spread less O&M. [e29]
 - Cross-check with the implied heat rate: $30 ÷ $3.00 = 10 and $55 ÷ $3.00 is about 18, both above 7.0, so the unit covers fuel in both blocks (illustrative). [e3]
 - (Reasoning) The thin off-peak margin can disappear once start-up and minimum generation costs are counted, so ask whether the unit must run through the night to be online for the evening peak.
-- Price the start. Suppose (illustrative): the generic startup cap's O&M part is $6,810 per start for a CC with a CT of 90 MW or more [e24]; spread over a 4-hour evening run at 400 MW (1,600 MWh) that is about $4/MWh, before start fuel.
+- Price the start. Suppose (illustrative): the generic startup cap's O&M part is $6,810 for a CC with a CT of 90 MW or more, applied for each combustion turbine [e24]; for one combustion turbine, spread over a 4-hour evening run at 400 MW (1,600 MWh) that is about $4/MWh, before start fuel.
 - Price the minimum run. Suppose (illustrative): the generic minimum-energy cap of 8 MMBtu/MWh at $3.00 is $24/MWh at LSL [e25], so overnight hours at $30 earn about $6/MWh at LSL before O&M, a thin but positive cushion in this example.
 - Thermal units that do not clear a three-part offer day-ahead take that start-up and min-gen risk themselves; a cleared and DAM-committed offer is made whole to its capped costs. [e11][e27]
 - Wind and solar have produced hundreds of hours at or below $0, which lowers the implied heat rate; shortage pricing produces hundreds of hours above gas marginal cost, which raises it. [e15]
-- Location matters: low gas prices at Waha have meant much higher net revenues for gas resources in the Permian area. [e12]
+- Location matters: historically, low gas prices at Waha have meant much higher net revenues for gas resources in the Permian area. [e12]
 - Co-optimization schedules energy and reserves together and makes trade-offs among them, so (Guidance) compare the energy margin with the reserve alternative before deciding how to offer. [e14]
 
 ### Harder follow-ups
@@ -236,7 +236,7 @@ Hourly margin is not the whole answer. Thermal units that do not clear a three-p
 #### The CCGT clears every evening at a positive spread. Why might the IMM still say it does not earn enough?
 
 - The IMM's 2025 CC net revenue was $82.96/kW-year against a $140/kW-year planning CONE. [e13][e16]
-- Its calculation already assumes the unit sells whenever profitable and ignores start-up, minimum-energy and ramp limits, so real units would earn less, not more. [e13][e28]
+- Its 2025 calculation assumes the unit sells whenever profitable [e13], and in its 2024 report the IMM said the same kind of analysis left out start-up and minimum-energy costs and ramping restrictions that can prevent generators from profiting during brief price spikes. [e28] (Reasoning) So real units would likely earn less, not more.
 - (Reasoning) Positive hourly spreads cover variable costs; the fixed-cost gap is what CONE measures.
 
 #### What if gas doubles but power prices stay at $36.94/MWh?

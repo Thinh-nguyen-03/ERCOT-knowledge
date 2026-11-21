@@ -272,6 +272,18 @@ evidence:
     source: imm-som-2025
     locator: "Appendix, D. AS Shortages (p. A-7)"
     quote: "This outcome is a consequence of Commission policy that the individual ASDCs for the up-reserve products,94 when aggregated together into one demand curve, should conform to the Aggregate Operating Reserve Demand Curve (AORDC)."
+  - id: e61
+    source: imm-som-2025
+    locator: "Appendix, D. AS Shortages (p. A-7)"
+    quote: "This excess volume is currently assigned to the ASDC for NSRS, which causes the real-time market to procure excess NSRS as illustrated in Figure A4."
+  - id: e62
+    source: imm-som-2025
+    locator: "Appendix, E. NSRS relative Pricing (p. A-8)"
+    quote: "Two factors related to the implementation of RTC have reinforced this trend: 1) the extension of the ASDC for NSRS with the excess volume from the AORDC, and 2) the 4-hour duration constraint for NSRS."
+  - id: e63
+    source: imm-som-2025
+    locator: "Appendix, E. NSRS relative Pricing (p. A-8)"
+    quote: "The duration constraint, on the other hand, limits the supply of ESR capacity that can provide NSRS and increases the opportunity cost for ESRs to provide NSRS compared to other AS products with lower duration requirements."
 ---
 
 ## Definition
@@ -290,7 +302,7 @@ For batteries, the Protocols in force have SCED account for each ESR's SOC and S
 
 ## Formula
 
-Real-time AS imbalance quantity for a QSE (np-06 Section 6.7.2.1): RT AS awarded - DAM AS awards - DAM Self-Arranged AS + AS Trades bought - AS Trades sold, settled at Real-Time AS prices. [e19] In words, a day-ahead AS sale is a financial position; if the unit is not awarded the same quantity in real time, the QSE buys back the difference at the real-time MCPC. [e5][e19]
+Real-time AS imbalance quantity for a QSE (np-06 Section 6.7.2.1): RT AS awarded - DAM AS awards - DAM Self-Arranged AS + AS Trades bought - AS Trades sold, settled at Real-Time AS prices. [e19] In words, a day-ahead AS sale is a financial position; if the QSE's real-time award differs from its day-ahead position, the difference settles at the Real-Time AS price: a shortfall is in effect bought back, and a larger real-time award is paid. [e5][e19]
 
 ASDCs (np-04 Section 4.4.12, current text): Reg-Down's ASDC is a constant equal to VOLL across its AS Plan. Reg-Up, RRS, ECRS and Non-Spin get their curves by building one Aggregate ORDC (AORDC) and disaggregating it by product. [e20] The AORDC is fitted to historical reserve pricing from June 1, 2014 through August 31, 2025. [e21] The IMM says Commission policy requires the up-reserve ASDCs, summed, to conform to the AORDC. [e57] (Pending NPRR1309 boxes in the same section would add DRRS; they are not in force.) [e20]
 
@@ -300,11 +312,11 @@ RTC+B went live with 12/5/2025 as the first Operating Day, after the software mi
 
 The IMM's review of RTC outcomes from December 5, 2025 through February 2026 found RTC "operating largely as expected", with gains in AS awards moving between resources within the hour, the market's ability to go short on AS, and fewer RUC commitments. It also flagged problems with how the ASDCs are built and with AS duration constraints, especially for Non-Spin (NSRS). [e10] More than 10% of total AS awards commonly shift across resources within a single SCED interval at sunrise and sunset. [e35] AS shortages were infrequent: NSRS was short for 25.9 hours (average 702.2 MW, average MCPC $22.50/MWh), ECRS for 4.0 hours and RRS for 1.6 hours, with no Reg-Up or Reg-Down shortages. [e36]
 
-The IMM's main complaint is Non-Spin. Because the up-reserve ASDCs must sum to the AORDC, excess volume is put on the NSRS curve, and ERCOT procured nearly 1,400 MW of NSRS above plan on average. [e57][e32] NSRS cleared about four times ECRS and eight times RRS, in line with the duration ratios. [e33] The IMM recommends reformulating the ASDCs on each product's marginal reliability value (Recommendation 2024-1) and cutting NSRS duration to one hour (Recommendation 2024-2). [e34][e55] In February 2026 it told the Board that the real-time market clears surplus NSRS yet produces a shortage price. [e41] By August 2026 it said shortage pricing via the ASDCs had been minimal since go-live. [e42] These are IMM recommendations, not adopted rules.
+The IMM's main complaint is Non-Spin. Because the up-reserve ASDCs must sum to the AORDC, excess volume is put on the NSRS curve, and ERCOT procured nearly 1,400 MW of NSRS above plan on average (December 5, 2025 through February 2026). [e57][e61][e32] NSRS cleared about four times ECRS and eight times RRS, in line with the duration ratios. [e33] The IMM recommends reformulating the ASDCs on each product's marginal reliability value (Recommendation 2024-1) and cutting NSRS duration to one hour (Recommendation 2024-2). [e34][e55] In February 2026 it told the Board that the real-time market clears surplus NSRS yet produces a shortage price. [e41] By August 2026 it said shortage pricing via the ASDCs had been minimal since go-live. [e42] These are IMM recommendations, not adopted rules.
 
 Day-ahead AS prices ran well above real time early on: for December 5, 2025 through February 2026 the IMM reports average day-ahead/real-time prices of $3.30/$0.41 for RRS and $3.94/$1.10 for NSRS, and $50.21/$37.03 for energy. [e37] It attributes 57-75% of the premium for energy and up-reserves to December 5 and Winter Storm Fern (January 21-27, 2026), noting virtual AS offers only started December 6. [e38][e11]
 
-RUC changed by period. RUC commitments fell 80% against the year-earlier period, though 42% of the post-go-live winter commitments came during Winter Storm Fern. [e13][e39] Summer 2026 then had 1,313 effective RUC Resource-hours, against 872 in summer 2025 and 148 in summer 2024, mostly to secure AS quantities. [e45][e14] In October 2026, 99.4% of 165.6 RUC hours were for capacity. [e47] ERCOT's summer review credits RTC with lowering AS costs and congestion, and reports real-time congestion rent 10% below summer 2025. [e43][e44] In summer 2026 there were no Reg-Up, Reg-Down or RRS shortages, and ERCOT procured Non-Spin above plan (about 48 GWh/day in July and August) when cost-effective. [e46][e48]
+RUC changed by period. RUC commitments fell 80% against the year-earlier period, though 42% of the post-go-live winter commitments came during Winter Storm Fern. [e13][e39] Summer 2026 then had 1,313 effective RUC Resource-hours, against 872 in summer 2025 and 148 in summer 2024 (June through August 15 of each year), mostly to secure AS quantities. [e45][e14] In October 2026, 99.4% of 165.6 RUC hours were for capacity. [e47] ERCOT's summer review says RTC helped lower AS costs and congestion, and reports real-time congestion rent 10% below summer 2025, primarily due to sufficient dispatchable capacity and generation, with RTC playing a role. [e43][e44] In summer 2026 there were no Reg-Up, Reg-Down or RRS shortages, and ERCOT procured Non-Spin above plan (about 48 GWh/day in July and August) when cost-effective. [e46][e48]
 
 ## Key facts
 
@@ -312,7 +324,7 @@ RUC changed by period. RUC commitments fell 80% against the year-earlier period,
 - Real-time dispatch runs about every five minutes and clears energy and AS together. [e2]
 - Durations in RTM (per the IMM): energy 5 min, Reg-Up and RRS 30 min, ECRS 1 hour, NSRS 4 hours; the 30-minute and 1-hour values came from NPRR1282, approved by the PUCT on 7/31/25. [e31][e28][e29][e30]
 - Virtual AS offers started in the DAM on December 6, 2025. [e11]
-- ERCOT noted that the SWCAP was reduced from $5,000/MWh to $2,000/MWh after RTC go-live on 12/5/2025. [e12][e15]
+- ERCOT noted that the Real-Time SWCAP was reduced from $5,000/MWh to $2,000/MWh after RTC go-live on 12/5/2025. [e12][e15]
 - RUC: down 80% in the first winter against a year earlier; 1,313 effective Resource-hours in summer 2026 (through 8/15). [e13][e45]
 - NSRS: nearly 1,400 MW procured above plan on average, December 2025 to February 2026 (IMM). [e32]
 - LMP, System Lambda and Real-Time MCPCs from SCED Step 2 are capped at the effective VOLL. [e52][e56]
@@ -357,7 +369,7 @@ It is a financial position. The imbalance is RT award minus DAM award minus self
 
 ### Why does Non-Spin price so high under RTC?
 
-The IMM gives two reasons: the NSRS demand curve is extended with the AORDC's excess volume, and the 4-hour duration limits ESR supply and raises their opportunity cost. [e32][e33] Its fixes are to reformulate the ASDCs and cut NSRS duration to one hour. [e34][e55]
+The IMM gives two reasons: the NSRS demand curve is extended with the AORDC's excess volume, and the 4-hour duration limits ESR supply and raises their opportunity cost. [e62][e63][e32][e33] Its fixes are to reformulate the ASDCs and cut NSRS duration to one hour. [e34][e55]
 
 ### How has RTC affected RUC?
 

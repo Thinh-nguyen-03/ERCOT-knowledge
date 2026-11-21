@@ -182,6 +182,10 @@ evidence:
     source: np-04
     locator: "Section 4.6.1.2, paragraph (1), formula (Load Zones other than DC Tie)"
     quote: "DASPP = DASL - $\\begin{array}{r} \\Sigma \\\\ c \\end{array}$(DALZSF _(c) * DASP _(c))"
+  - id: e34
+    source: np-06
+    locator: "Section 6.3, paragraph (7)(a)"
+    quote: "However, after Real-Time LMPs, Real-Time Settlement Point Prices, Real-Time prices for energy metered, Real-Time Reliability Deployment Price Adders for Energy, Real-Time MCPCs, and Real-Time Reliability Deployment Price Adders for Ancillary Service are final, if ERCOT determines that prices qualify for a price correction pursuant to paragraph (4) above and that ERCOT will seek ERCOT Board review of such prices, it shall notify Market Participants and describe the need for such correction as soon as practicable but no later than 30 days after the Operating Day."
 ---
 
 ## Definition
@@ -212,7 +216,7 @@ For outcomes, the IMM reports that in 2025 the West zone had the highest average
 
 ### Real-time price corrections and finality
 
-ERCOT corrects prices for an Operating Day only when accurate prices can be determined, the impact is significant and a listed condition (invalid solution, invalid prices, inconsistent Base Points or awards, or a SCED failure) is met. [e27] Before 1600 on the second Business Day after the Operating Day, a change is significant if, among other tests, any Resource Node price or MCPC changes by more than $0.05/MWh, any Load Zone or Hub price changes by more than $0.02/MWh, or more than 50 prices change. [e24] After that time prices are final, subject to Board review. [e26]
+ERCOT corrects prices for an Operating Day only when accurate prices can be determined, the impact is significant and a listed condition (invalid solution, invalid prices, inconsistent Base Points or awards, or a SCED failure) is met. [e27] Before 1600 on the second Business Day after the Operating Day, a change is significant if, among other tests, any Resource Node price or MCPC changes by more than $0.05/MWh, any Load Zone or Hub price changes by more than $0.02/MWh, or more than 50 prices change. [e24] After that time prices are final, but ERCOT may seek Board review of a price correction. [e26][e34]
 
 ### RTC and the adder
 
@@ -220,8 +224,8 @@ The Reliability Deployment Price Adder counts RUC-committed Resources (except th
 
 ## Timeline
 
-- December 5, 2025: RTC went live, ending the ORDC price adder design (IMM). [e18]
-- After RTC go-live, the System-Wide Offer Cap was reduced to $2000/MWh from $5000/MWh (ERCOT summer 2026 review). [e28]
+- December 5, 2025: RTC went live, ending the ORDC price adder design (IMM). [e18][e31]
+- ERCOT's summer 2026 review notes that SWCAP is reduced to $2000/MWh from $5000/MWh after RTC go-live on 12/5/2025. [e28]
 
 ## Key facts
 
@@ -232,7 +236,7 @@ The Reliability Deployment Price Adder counts RUC-committed Resources (except th
 - In 2025 the West zone had the highest average zonal price, then South (IMM). [e12]
 - Annual average real-time energy prices (IMM, load-weighted, excluding DC tie imports and exports): ERCOT $36.94/MWh in 2025, $32.41 in 2024, $73.28 in 2023; West $41.59 in 2025. [e22]
 - 2025: the ORDC added under $0.02/MWh to the average real-time energy price, and the RDPA added $0.41/MWh. [e19][e21]
-- Real-time prices are final at 1600 on the second Business Day after the Operating Day. [e26]
+- Real-time prices are final at 1600 on the second Business Day after the Operating Day, though ERCOT may still seek ERCOT Board review of a price correction, notifying Market Participants no later than 30 days after the Operating Day. [e26][e34]
 
 ## Say it like this
 
@@ -264,7 +268,7 @@ It was active 71% more hours than in 2024, driven by more RUC commitments, but a
 
 ### What if a real-time SPP is wrong?
 
-ERCOT corrects it only if accurate prices can be determined, the impact is significant and a listed condition is met; prices are final at 1600 on the second Business Day after the Operating Day, subject to Board review. [e27][e26]
+ERCOT corrects it only if accurate prices can be determined, the impact is significant and a listed condition is met; prices are final at 1600 on the second Business Day after the Operating Day, with ERCOT able to seek Board review of a correction. [e27][e26][e34]
 
 ### Which price settles a PTP Obligation?
 
