@@ -1,0 +1,18 @@
+{
+ "stats": {
+  "topics": 153,
+  "evidence": 3687,
+  "quotes_verified": 3687,
+  "cited_blocks": 2336,
+  "links": 1250,
+  "open_items": 697,
+  "cross_checked": 169
+ },
+ "issues": [
+  {
+   "topic": "volumetric-risk",
+   "level": "warn",
+   "msg": "e11 is never cited"
+  }
+ ]
+}
