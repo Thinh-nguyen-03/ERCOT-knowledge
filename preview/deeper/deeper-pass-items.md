@@ -1,0 +1,220 @@
+# Deeper-pass items by topic
+
+- [ams-meters] Deeper pass: the percentage of ESI IDs with AMS meters and the Smart Meter Texas portal were not in the sources read.
+- [ams-meters] Deeper pass: IDR thresholds (18.6.1), IDR-to-AMS profile transition (18.7), and validation/estimation of interval data in Section 11.
+- [ams-meters] Deeper pass: PUCT Substantive Rule 25.130 is not among the saved sources.
+- [base-point] Deeper pass: Updated Desired Set Points for ESRs (np-06 6.5.7.4.1) and Emergency Base Points.
+- [base-point] Deeper pass: how generators' deviation from Base Points is measured (np-08 Base Point performance).
+- [battery-revenue-stack] Deeper pass: summer 2026 ESR AS shares in DAM and RTM (slide 22 charts), state-of-charge patterns and the share of hours below 20% SOC.
+- [battery-revenue-stack] Deeper pass: E3's PCM finding that battery margins would rise 29% under the PCM; tolling and hedge structures for batteries are not in the saved sources.
+- [battery-revenue-stack] Deeper pass: whether ESRs can provide DRRS (NPRR1310, NPRR1340 pending).
+- [binding-constraint] Deeper pass: ranking of the most frequently binding or most costly constraints in 2024 and 2025; IMM figures are garbled in the text copies and no OCR copy is saved.
+- [binding-constraint] Deeper pass: the constraint-activation and NSA process in np-06 6.5.7.1.
+- [black-start] Deeper pass: qualification and testing in Section 8.1.1.2.1.5, back-up fuel waiver rules, alternate resource substitution and the Standard Form Black Start Agreement details.
+- [block-products] Deeper pass: bilateral block contract terms (such as ISDA or EEI contract specifics) are not in the saved sources.
+- [cdr-report] Deeper pass: the four scenarios (including TEF capacity and SB 6 curtailment assumptions), exact margin values for 2027-2030, and the ELCC methodology.
+- [cdr-report] Deeper pass: Protocol Sections 3.2.6.1-3.2.6.3 on how Planning Reserve Margin and firm peak load are calculated.
+- [clr] Deeper pass: CLR qualification and telemetry requirements, Aggregate Load Resource and Provisional CLR rules, and CLR set point deviation charge formulas.
+- [clr] Deeper pass: the patent dispute that the IMM says was resolved in April 2025 and its effect on registration.
+- [cop] Deeper pass: COP criteria and Resource Status codes (np-03 Section 3.9.1) and COP validation (3.9.2).
+- [cop] Deeper pass: COP accuracy monitoring in Section 8 and links to RUC and outage scheduling.
+- [credit-tpe] Deeper pass: the Estimated Aggregate Liability, Initial Estimated Liability, Future Credit Exposure and Available Credit Limit formulas (Section 16.11.4.2 onward) were not summarized.
+- [credit-tpe] Deeper pass: unsecured credit limits by rating, letter of credit issuer limits and the enforcement levels (Level I 110% of TPE, etc.) were not quoted.
+- [credit-tpe] Deeper pass: no saved source gives aggregate collateral held by ERCOT; the IMM reports do not discuss credit.
+- [crez] Deeper pass: how CREZ transmission shapes today's West-to-load congestion patterns is not sourced.
+- [crr-auction] Pending NPRR1288 would change strips to one-month strips and was not treated as current. Deeper pass: the box text in 7.5.1(1) and (4)(b)(i).
+- [crr-auction] Deeper pass: bid and offer criteria (7.5.2), the credit limit formula (7.5.5.3), clearing method, and auction settlement formulas (7.5.6).
+- [crr-auction] Deeper pass: the CRR Balancing Account and shortfall charges (7.6, 7.9.3); the IMM CRR funding section (2025) was not read in detail.
+- [dart-spread] Deeper pass: DART by location (Hub vs Resource Node vs Load Zone) and by hour; the saved IMM figures are not legible in text form and were not quoted in this pass.
+- [dart-spread] Deeper pass: drivers of persistent premiums (day-ahead participation by physical resources, risk premia), and the Table A2 AS premium numbers.
+- [dart-spread] Deeper pass: the two events behind the early-RTC AS premium (December 5, 2025 and Winter Storm Fern) are described in the IMM appendix and could be linked to a case topic.
+- [dgr-sodg] Deeper pass: the SODG opt-out of nodal pricing and the ESS exception (6.6.3.8 paragraphs (1)(a), (1)(b), (5)); Load Zone price retention.
+- [dgr-sodg] Deeper pass: SODG telemetry exemption (10 MWh) is in a table row that could be pending; not cited.
+- [dgr-sodg] Deeper pass: DGR operational treatment (state estimator load adjustments, outage rules) and Distribution Energy Storage Resource parallel.
+- [drrs] The DRRS quantity (how ERCOT sizes the requirement each season) and the DRRS demand curve in the approved text were not quoted. Deeper pass: NPRR1309 Sections 3.16, 4.4.12 (DRRS ASDC, $10 floor, $0.01 minimum price) and the joint IMM/ERCOT demand curve proposal from TAC Workshop 3 (March 2026).
+- [drrs] Deeper pass: DRRS settlement (payments and charges, RUC make-whole exclusion, RUC Capacity Short treatment) and the new "DRRS" Resource Status in the pending np-03 boxes.
+- [drrs] Deeper pass: the October 17, 2023 legislative letter urging a stand-alone DRRS, quoted in the Board memo across a page break.
+- [ecrs] Deeper pass: ECRS qualification (Section 8.1.1.2.1.7), deployment performance (8.1.1.4.4), ECRS prices and the net load ramp risk adjustment in the AS Methodology.
+- [ecrs] Deeper pass: how ECRS demand is priced in the ASDC and what a recall looks like in practice.
+- [emergency-pricing-program] Deeper pass: the final report content (due within 90 calendar days), market notice requirements and fuel-cost attestations in 25.509(c)(4) to (6).
+- [energy-offer-curve] Deeper pass: offer cost caps (np-04 Section 4.4.9.3.3), mitigated offers and the offer floor rules.
+- [energy-offer-curve] Deeper pass: proxy Energy Offer Curves ERCOT builds for IRRs and RUC-committed Resources (np-06 6.5.7.3).
+- [energy-offer-curve] Deeper pass: IMM economic-withholding analysis.
+- [energy-storage-resource] Deeper pass: ESR registration and qualification for AS (RRS % limit), Set Point Deviation tolerances (3% or 3 MW), Settlement Only ESS, DC-coupled resources and wholesale storage load treatment.
+- [energy-storage-resource] Deeper pass: ESR duration and ELCC treatment in resource adequacy (Section 3 ELCC variables) and the CDR.
+- [energy-storage-resource] Deeper pass: the IMM's 2025 discussion of ESR energy offers, price-setting and congestion relief; battery-revenue-stack is a separate topic.
+- [ers] Deeper pass: ERS offer, qualification and performance rules (baselines, payment reductions, self-provision) in Sections 3.14.3.2 to 3.14.3.4 and 8.1.3 of the protocols were not read in detail.
+- [ers] Deeper pass: pending NPRR1238 would change the deployment paragraph in the protocol; it is not described here.
+- [ers] Deeper pass: the ERS clearing-price methodology (Attachment Q) and the annual ERS report to the PUCT (due April 15 under 25.507(g)) were not sourced for results.
+- [esi-id] Deeper pass: aggregation rules for metered and unmetered points (15.4.1.1 and 15.4.1.2) and ESI ID inactive/reinstatement rules.
+- [evening-ramp] Deeper pass: no source quantifies the ramp in GW per hour; MW-per-hour net load ramp statistics were not found in quotable text.
+- [evening-ramp] Deeper pass: morning ramp (6 to 8 a.m.) price spikes were 7.5% of 2025 spikes per the IMM; winter bimodal net load is covered in net-load.
+- [exchanges-ice-nodal] Deeper pass: ICE ERCOT day-ahead, hub-zone and other contracts (only the North real-time peak and off-peak specs are saved), and the clearing organization.
+- [exchanges-ice-nodal] Deeper pass: volumes, open interest and liquidity are not in the saved sources.
+- [ferc] Deeper pass: the extent of FERC's authority over ERCOT's reliability functions and any limits; the saved sources are a 2021 staff report, not a statute or order. The report does not say that FERC enforces NERC standards on ERCOT specifically.
+- [ffss] Deeper pass: the FFSS categories (on-site, resource-controlled, contractual off-site), the qualification and testing rules in Section 8.1.1.2.1.6 and the settlement formulas in Section 6.6.14 were not read in detail.
+- [four-cp] Deeper pass: the Project 58000 large-load minimum billing demand, block load transfer and interconnection-fee offset provisions, and new 25.252.
+- [four-cp] Deeper pass: the draft report's history (1996 access fee/impact fee, SB 7 postage stamp) and its analysis of net load versus 4CP intervals.
+- [gtc] Deeper pass: posting and comment requirements for new or modified GTCs (np-03 3.10.7.6 paragraphs (3)-(6)), and the list and locations of active GTCs.
+- [gtc] Deeper pass: GTL setting rules (the lowest non-zero limit for localized stability issues, paragraph (2)) and the quarterly stability assessment in the Planning Guide, which is not saved.
+- [hasl-lasl] No saved source explains in one place how the pre-RTC HASL/LASL calculation was replaced inside SCED. Deeper pass: the NPRR1010-1014 reports.
+- [hb-north] Deeper pass: the Hub Bus list (25+ buses in a table in np-03 Section 3.5.2.1) was not quoted.
+- [hb-north] Deeper pass: North hub price levels and spreads versus West by year; saved IMM tables are garbled, so none cited.
+- [hb-west] Deeper pass: Hub Bus list (17 buses in the np-03 table) and which are Panhandle versus Permian; not quoted.
+- [hb-west] Deeper pass: how the Waha price relates to West prices (IMM 2025 mentions Waha hub prices reflected in the West zone).
+- [hsl-lsl] Deeper pass: how LSL is set for Quick Start Generation Resources (OFFQS), Qualifying Facilities and Intermittent Renewable Resources (np-03 Sections 3.9 and 6.5.5), and the HSL/LSL rules for Combined Cycle Trains.
+- [hsl-lsl] Deeper pass: the ESR LDL/HDL formulas in np-06 Section 6.5.7.2 and how RTC+B changed telemetry.
+- [implied-heat-rate] Deeper pass: the monthly and annual values in the figures (2021-2025) were not read from the OCR tables.
+- [implied-heat-rate] Deeper pass: how traders use implied heat rate in forward pricing or heat-rate call options is not in the saved sources.
+- [large-flexible-load] Deeper pass: PUCT rule text implementing §39.361 (not saved); how ERCOT registers and treats LFLs and Controllable Load Resources in Protocols (np-16 PCLR registration).
+- [large-flexible-load] Deeper pass: SB 6 interconnection standards and curtailment rules for large loads.
+- [large-load-growth] Deeper pass: breakdown of the queue by TSP, by in-service year and by load type (charts in ercot-large-load-update-2026-04 are not readable as text); the oscillation NOGRR once it is filed; PGRR144 model quality requirements (TAC endorsed August 2026).
+- [large-load-interconnection] Deeper pass: the seven base-load eligibility paths (Planning Guide 9.2.1.1), the reclassification dispute window, the SLLIA terms, refund and forfeiture rules in §25.194, and WLPUN withdrawal limits.
+- [large-load-interconnection] Deeper pass: the NPRR1325 Protocol changes (PCLR registration in Section 16.5.5, adjusted bid caps, SCED changes).
+- [load-forecasting] Deeper pass: how ERCOT's Seven-Day Load Forecast selects among models (the model-selection and 2000 MW or 4% outlier-explanation rule sits in pending NPRR975 box language, not cited here).
+- [load-forecasting] Deeper pass: Load distribution factors and Mid-Term Load Forecast (pending NPRR1004/1240 language), Study Area forecasts, forecast error metrics by horizon.
+- [load-forecasting] Deeper pass: large-load adjustments to the forecast (ercot-ltlf-2026-adjust-proposal, SB 6 inputs); see long-term-load-forecast.
+- [load-profiling] Deeper pass: Load Profile ID assignment and validation cycles (18.4), profile types and the Load Profiling Guide (not a saved source).
+- [load-profiling] Deeper pass: estimation for IDR ESI IDs in Section 11.4.3 (weather response informed proxy day).
+- [load-profiling] Deeper pass: UDG and excess generation adjustments for rooftop solar.
+- [load-ratio-share] Deeper pass: the hourly, monthly (peak-interval) and DC Tie export LRS variants in Section 6.6.2 were not summarized.
+- [load-ratio-share] Deeper pass: which settlement charges are allocated by LRS was not catalogued beyond the examples quoted.
+- [load-shed] Deeper pass: the Operating Guide load shed tables, the Load Shed Obligation (Section 4.5.3.4), critical load definitions and the exemption of critical loads, and the PUCT rules on rotating outages.
+- [load-shed] Deeper pass: restoration of load after shed and the settlement treatment (e.g., prices during shed) are not covered here.
+- [load-shed] Deeper pass: how ORDC and VOLL reflect the probability of load shed in scarcity pricing.
+- [long-term-load-forecast] Deeper pass: the 2026 RTP Compliance Plan criteria (January 22, 2026) and the 2025 forecast revision under Project 55999 (June 2025).
+- [market-information-system] Deeper pass: the full list of posting requirements ERCOT maintains (Section 12.2(4)) was not reviewed, and Section 12.3 administrative and design requirements were not summarized.
+- [market-information-system] Deeper pass: the public ERCOT website data portals (names, data products) are not in the saved sources.
+- [market-power-mitigation] Deeper pass: the MOC formula inputs (generic and verifiable heat rates, fuel adders, O&M), Mitigated Offer Floor table, MOC for RMR Resources (np-04 Section 4.4.9.4.3, with pending NPRR826), and pending NPRR1325 / PGRR145 changes.
+- [market-power-mitigation] Deeper pass: PUCT 25.504 withholding standard and Voluntary Mitigation Plans (the IMM reports only Luminant's was in effect at the end of 2025), and the IMM's output gap analysis.
+- [mass-transition] Deeper pass: the Retail Market Guide Section 7 process and timelines (appendices) are not a saved source.
+- [mass-transition] Deeper pass: move-in and move-out dates falling after a mass transition drop date (np-15 15.1.6.5 and 15.1.6.8).
+- [mass-transition] Deeper pass: PURA 39.106 provider of last resort designation, covered by the polr topic.
+- [merit-order] Deeper pass: the dollar levels of the offer stack by quantity (Figure 7 is a chart; values are not in the text), how ESR bids and offers enter the stack, and the effect of mitigated offer caps.
+- [merit-order] Deeper pass: a source on marginal-unit frequency by fuel (what sets price how often) was not found in the saved text.
+- [mora-report] Deeper pass: the January 2027 deterministic scenario results (reserve margin 44.9% at HE 8:00, load forecast and outage assumptions) and the full list of risk variables.
+- [mora-report] Deeper pass: how the MORA's CAFOR relates to the Protocol PRC definition and EEA triggers.
+- [negative-prices] Deeper pass: the effect of curtailment and Resource Node versus Hub price, the 2024 IMM negative-price discussion (Texas Panhandle), PTC economics (tax-credits-recs topic), and the role of RTC+B in price formation at negative prices.
+- [nerc] Deeper pass: the delegation agreement between NERC and Texas RE and how enforcement against Texas entities works in practice; the saved sources only give the generic Regional Entity definition.
+- [nerc] Deeper pass: specific NERC standards that bind ERCOT participants (the report cites PRC-024-2 and cold weather revisions only).
+- [non-spin] Deeper pass: Non-Spin qualification (Section 8.1.1.2.1.3), the minimum capacity from SCED-dispatchable resources, the distribution-connected DGR/DESR limits, and the NSRS clearing price history by year.
+- [non-spin] Deeper pass: the IMM's recommendation to move to a one-hour duration for ECRS and NSRS (Recommendation 2024-2).
+- [nprr] Deeper pass: Impact Analysis, ERCOT-sponsored NPRR steps and the standard timeline from PRS to Board.
+- [nprr] Deeper pass: the appeal paths for TAC and Board actions (Sections 21.4.12.2 and 21.4.12.3).
+- [nprr] Deeper pass: how project prioritization (Section 21.7) affects when an approved NPRR is built.
+- [operating-notices] Deeper pass: the remaining Watch reasons (items (c)-(e)), the Emergency Notice actions in paragraphs (4)-(6), and the Operating Guide detail on notices and weather preparations.
+- [operating-notices] Deeper pass: how often each notice has been issued (history) and how market participants react; not in the saved sources checked.
+- [pcm] Deeper pass: the 37 PCM design parameters (E3 strawman, February 2024), the PC demand curve, the 2% non-performance penalty and the trailing net-revenue offset.
+- [pcm] Deeper pass: E3's finding that DRRS under NPRR1235 would add less than 100 MW of gas CT capacity, and the battery (+29%) and wind (-1.2%) margin effects.
+- [pcrr] Deeper pass: disqualifying events and their effects (7.4.1.3), outage-related eligibility (7.4.1.2), and the SFT-based proportional reduction of infeasible nominations (7.4.2.2).
+- [pcrr] Deeper pass: the PCRR charge formula (7.5.6.3), including the PCRROBLF factor; the "fraction" level is not quantified in sources read.
+- [peaker-net-margin] Deeper pass: the protocol parameter table lists the PNM threshold of 315,000 $/MW-year but also an RTSWCAP "current value" different from the PUCT rule; not reconciled here (see the offer-cap topic).
+- [peaker-net-margin] Deeper pass: PNM history by year (Figure 57 in the IMM reports) was not quoted; OCR copies of the IMM reports were not available.
+- [peaker-net-margin] Deeper pass: the net revenue analysis of new-entry units by technology in the IMM chapters.
+- [permian-transmission] Deeper pass: the list of import paths and endpoints (Table 7.5), TSP assignments (Project 51752/57152), the 2025 RTP Euclid-Hillje addition, and congestion data for the Far West.
+- [polr] Deeper pass: the VREP and LSP selection and eligibility timeline (even-numbered years, July filing) and affiliate designation.
+- [polr] Deeper pass: the np-16 mass transition mechanics and the 2021 events are not covered here.
+- [prc] Deeper pass: each PRC component's formula, including the 20% caps, the reserve discount factors' current values, and the ESR 45-minute state of charge limit in PRC8.
+- [ptp-obligation] Deeper pass: PTP Obligations with Links to an Option for NOIEs (np-02, np-04 Sections 4.4.6.1 and 4.4.6.3), bid criteria and validation, per-counterparty bid caps, and DAM credit requirements for PTP bids (np-04 Section 4.4.10).
+- [ptp-obligation] Deeper pass: the PTP-bid-fee NPRR status (CMWG options) and IMM profitability numbers in the OCR tables, which are not saved.
+- [regulation] Deeper pass: regulation qualification and testing (Section 8.1.1.2.1.1), the performance metrics for regulation deployment (Section 8.1.1.4.1) and regulation clearing prices.
+- [regulation] Deeper pass: how RTC changes regulation pricing (AS co-optimized in SCED) and the DAM award as a financial position.
+- [reliability-standard] Deeper pass: the staff recommendation step (25.508(c)(3)(C)(iii)), comment periods and the modeling-assumptions filing process were read but not quoted.
+- [reliability-standard] Deeper pass: how the standard relates to the CDR and MORA reporting (the IMM discusses them in the same chapter).
+- [resource-entity] Deeper pass: the Resource Registration data and Planning Guide 6.8.2 process, SGIA review and commissioning steps.
+- [resource-entity] Deeper pass: the QSE representation and termination rules for Resource Entities in 16.2.
+- [resource-node] Deeper pass: Section 22 Attachment R (procedure for identifying Resource Nodes) not read.
+- [resource-node] Deeper pass: how Resource Node prices relate to hub prices historically (node-to-hub basis); no saved source gives a clean number.
+- [resource-types] Deeper pass: DC-Coupled Resource and the ESR categories (DESR, TESR) with thresholds; Transmission Generation Resource definitions.
+- [resource-types] Deeper pass: pending NPRR995 SOESS/SODESS/SOTESS definitions once implemented.
+- [resource-types] Deeper pass: registration thresholds (10 MW, 1 MW) and the self-generator carve-outs; Aggregate Load Resource and its change under NPRR1188.
+- [retail-choice] Deeper pass: opt-in procedures for NOIEs, the PUCT rules on opt-in (Subchapter on customer choice) and which entities have opted in.
+- [retail-choice] Deeper pass: customer protection rules (PURA 39.101) and REP disclosure rules.
+- [retail-hedging] Deeper pass: no saved source describes retail supply contracts (fixed-price, index, load-following), shape or volumetric risk, or REP hedging policies; a retailer risk-management reference or REP filings would be needed.
+- [retailer-defaults-2021] Deeper pass: np-26 (Securitization Default Charges) mechanics, the IMM 2022 description of the two short-pay payment options for impacted participants, and the uplift-cap rule ($2.5 million per 30 days per the UT report) against the protocols.
+- [rmr] Deeper pass: eligible costs, budgeting, standby cost, incentive factor, capital contribution refunds and exit strategy in Sections 3.14.1.4 to 3.14.1.21; the IMM's description of the incentive factor was not quoted.
+- [rmr] Deeper pass: the Must-Run Alternative service section (3.14.4) sits inside a pending NPRR box in the saved protocol text, so it is not quoted; MRA detail comes only from the definition.
+- [rmr] Deeper pass: the PUCT's 25.502 treatment of RMR, referenced by the IMM, was not read.
+- [rrs] Deeper pass: the Reserve Discount Factors, the DAM RRS offer and self-schedule behavior, the "aggregation" of the three RRS capabilities into one product (IMM Chapter III.D), and RRS price history.
+- [rrs] Deeper pass: the pending NPRR1128 changes to FFR procurement (text in Section 3.16 boxes) and RRS qualification in Section 8.1.1.2.1.2.
+- [ruc-make-whole] Deeper pass: the RUC Guarantee, minimum-energy revenue and revenue-less-cost formulas (5.7.1.1-5.7.1.4), cost eligibility (5.6), and treatment of RMR Units.
+- [ruc-make-whole] Deeper pass: capacity-short ratio share and cap math (5.7.4.1.1) and RUC capacity credit (5.7.4.1.2).
+- [ruc] Deeper pass: the RUC timeline (np-05 Section 5.2), Weekly RUC (WRUC), RUC cost eligibility and verifiable costs (5.6), RUC clawback (5.7.2), capacity-short charge (5.7.4.1).
+- [ruc] Deeper pass: pending NPRR1309 language adds DRRS Resource Status to the RUC process; this is not yet in effect.
+- [ruc] Deeper pass: how RUC interacts with RTC+B (NPRR1236 on RUC capacity-short calculations is listed in the RTC+B deck).
+- [sb6] The SB 6 bill text states no fixed start date for the §37.0561(e) backup-generation provision. Deeper pass: ERCOT's EEA threshold and Protocol changes that implement it.
+- [sb6] Deeper pass: §25.205 approval conditions and the hold-harmless process; LLDMS proposal details (obligation periods, payment, deployment); the final 4CP rule.
+- [sc-battery-strategy] Deeper pass: the RUC capacity-short calculation for ESRs under RTC+B (NPRR 1236) is not covered here.
+- [sc-battery-strategy] Deeper pass: NPRR 1309 would cut the NSRS duration to two hours when DRRS is implemented; timing is not settled in the sources.
+- [sc-ccgt-in-the-money] Deeper pass: emissions costs and how they enter the verifiable O&M term.
+- [sc-crr-valuation] Deeper pass: CRR credit requirements (how much collateral a given path needs) are in Section 16 and credit documents not used here.
+- [sc-crr-valuation] Deeper pass: PCRR and NOIE allocation effects on available capacity.
+- [sc-dam-premium-flip] Deeper pass: the IMM's 2021 text says tight conditions "increased the risk premium associated with day-ahead hedges" even though real time averaged higher that year; how to reconcile the two is not explained.
+- [sc-dam-premium-flip] Deeper pass: hub-specific DART figures (North vs. other hubs) are in figures that did not extract as text.
+- [sc-data-center-ppa] Deeper pass: retail tariff terms for large loads under proposed §25.252 and minimum billing demand under §25.193.
+- [sc-hot-august-evening] Deeper pass: how the $2,000/MWh real-time SWCAP and the ASDC maximum prices (which use VOLL set to the DAM HCAP) combine to set the highest possible real-time LMP under RTC.
+- [sc-load-forecast-miss] Deeper pass: the 2027 AS Methodology (ercot-as-methodology-2027) links ECRS and NSRS quantities to 30-minute and six-hour-ahead net load forecast errors, but the saved copy is redlined and was not quoted.
+- [sc-nprr-opinion] Deeper pass: the joint IMM/ERCOT DRRS demand curve proposal from the March 2026 TAC workshop is referenced but its parameters were not sourced.
+- [sc-nprr-opinion] Deeper pass: the IMM's load zone reconfiguration analysis (Recommendation 2020-3) and any ERCOT response.
+- [sc-rep-heat-wave-hedge] Deeper pass: the exact TPE formulas (table rows in np-16 Section 16.11.4.3) and how a heat wave changes TPE in practice.
+- [sc-uplift-surprise] Deeper pass: the difference between the IMM's "uplift" definition and the ERCOT settlement charge types on an actual statement.
+- [sc-west-negative-north-spike] Deeper pass: the exact LMP formula (System Lambda minus shift-factor-weighted shadow prices) is in protocol formula tables that did not quote cleanly; only the definitions are cited here.
+- [sc-west-negative-north-spike] Deeper pass: Permian 765 kV and other transmission projects that the IMM expects to narrow West congestion.
+- [sc-winter-cold-snap] Deeper pass: the Fern outage review (ercot-fern-outage-review) gives MWh lost by cause per asset class; chart-derived numbers were not used.
+- [sc-winter-cold-snap] Deeper pass: gas-electric coordination (pipeline OFOs, critical gas facility designation) is mentioned in sources but not covered here.
+- [securitization] Deeper pass: HB 4492's interest-rate formula (index plus 2.5 percent) and 30-year term limit, and the legislative history, were not summarized.
+- [securitization] Deeper pass: the Default Charge formula (largest-of-measures Counter-Party share, Section 26.2) and the Uplift Charge opt-out and reallocation mechanics (Sections 27.2, 27.4) were not summarized.
+- [securitization] Deeper pass: current charge rates and remaining balances are not in the saved sources.
+- [settlement-point] Deeper pass: the day-ahead and real-time formulas at each kind of point are summarized in the spp topic; the full formulas were not quoted here.
+- [settlement-point] Deeper pass: which Settlement Point each charge type (energy, ancillary, imbalance) uses in Section 9 settlement.
+- [shadow-price] Deeper pass: Section 22 Attachment P (methodology for maximum shadow prices) is not in the saved sources; only the IMM's 2025 cap levels and the np-06 references were used. The IMM lists caps for 345 kV, 138 kV and 69 kV constraints that were not quoted here.
+- [shift-factor] Deeper pass: the full LMP decomposition (energy, congestion, loss) and how shift factors times shadow prices make up the congestion component; np-06 6.5.7.3 and np-04 DAM clearing were not read for this.
+- [shift-factor] Deeper pass: sign convention for import-side versus export-side shift factors in the competitiveness tests.
+- [sixty-day-disclosure] Deeper pass: the full item lists under Section 3.2.5(4) and (12) (offer curves, Three-Part Supply Offers, DAM bids, awards) were only partly read, and the pending NPRR1188 replacement text in that section was not described.
+- [sixty-day-disclosure] Deeper pass: the exact names, file formats and web locations of the published reports are not in the saved sources.
+- [solar-generation] Deeper pass: installed solar MW by year (the fact sheet reports 41,926 MW in October 2026 and is already used in resource-mix), solar by region, and distributed or rooftop solar treatment.
+- [solar-generation] Deeper pass: solar ELCC percentages from the CDR (the table text did not extract into clean numbers).
+- [stakeholder-process] Deeper pass: TAC and Board membership, Market Segment definitions and voting rules (these sit in TAC Procedures and the ERCOT Bylaws, which are not saved sources).
+- [stakeholder-process] Deeper pass: what WMS and ROS actually do in practice; the saved sources give only their names.
+- [stakeholder-process] Deeper pass: how the Board selection committee and Board composition work beyond the committee makeup (PURA §39.151 eligibility rules).
+- [state-of-market-report] Deeper pass: the full recommendation list with titles (2024-2, 2024-3, 2024-4, 2022-1, 2021-2, 2020-3, 2020-4, 2019-2, 2015-1, retired items) and what each means; use the OCR copy for tables.
+- [state-of-market-report] Deeper pass: 2025 price, congestion, ancillary service and resource adequacy results by chapter.
+- [summer-2023] Deeper pass: IMM simulation of a $15,000 shadow price cap for September 6 (Appendix V.B.6), Load Resource (NCLR) deployments of 1,593 MW, DOE 202(c) order for September 7-8, and the CPS Energy San Antonio South project.
+- [summer-2026] Deeper pass: ESR offer behavior near the SWCAP, Non-Spin procurement above plan (25 to 48 GWh/day), and an IMM review of summer 2026 (not yet saved).
+- [system-lambda] Deeper pass: the value of the maximum Shadow Price for the power balance constraint (Section 22, Attachment P) was not read.
+- [system-lambda] Deeper pass: the exact SCED Step 2 System Lambda calculation and how it relates to the posted real-time LMPs.
+- [system-lambda] Deeper pass: IMM statistics on System Lambda levels by year; none were quoted here.
+- [tax-credits-recs] The 12-month construction-start window, the IRS beginning-of-construction rules, and any later Treasury guidance were not traced in detail. Deeper pass: Public Law 119-21 Sec. 70512-70513 effective-date and FEOC provisions.
+- [tax-credits-recs] Deeper pass: np-14 Third-Party Energy Attribute Certificate program (Section 14.14), compliance premiums and REC aggregator adjustments.
+- [texas-energy-fund] Deeper pass: individual project awards, loan amounts, who received them and current status; none are in the saved sources except the project names tagged "(TEF)" in the MORA data.
+- [texas-energy-fund] Deeper pass: the Texas Energy Fund Advisory Committee (Sec. 34.0109), the constitutional amendment (Section 49-q, Article III) and the Texas Power Promise backup power packages (Subchapter B).
+- [texas-legislature] Deeper pass: SB 6 other sections (interconnection standards, forecasting, net metering), SB 2627 (Texas Energy Fund), SB 3 (2021 weather-emergency law) and HB 4492. The bill files are PDF-derived with interleaved line numbers, so clean quotes need the codified PURA text.
+- [thermal-outages] Deeper pass: Level I/II/III maintenance outage timelines, outage coordination for Reliability Resources, ONHOLD process, and the Resource Forced Outage report (np-03 3.1.4.8).
+- [thermal-outages] Deeper pass: forced outage MW by fuel type and by season; none was cleanly quotable from chart-derived text.
+- [three-part-supply-offer] Deeper pass: offer criteria and cost caps (np-04 Sections 4.4.9.2.1 to 4.4.9.2.3) and verifiable cost rules.
+- [three-part-supply-offer] Deeper pass: treatment of Combined Cycle configurations and self-commitment in the DAM.
+- [three-part-supply-offer] Deeper pass: IMM discussion of offer floors for RUC and NSRS capacity.
+- [tx-set] Deeper pass: the full transaction list (Section 19.3.1 defines dozens), urgent change requests (19.4.5) and the Texas SET Implementation Guides (not a saved source).
+- [tx-set] Deeper pass: the Retail Market Guide, which is referenced but not saved.
+- [ufe] Deeper pass: the allocation formulas in Sections 11.4.6.3 and 11.4.6.4 (including the Max(0, ...) treatment) were not summarized.
+- [ufe] Deeper pass: no saved source gives UFE volumes or dollar cost by year; the IMM reports do not discuss UFE. The annual UFE analysis report itself is not in the saved sources.
+- [ufe] Deeper pass: how UFE is settled in dollars (which settlement charge types carry it) was not checked.
+- [uplift] Deeper pass: allocation formulas for default uplift (np-09 9.19.1), the Securitization Uplift Charge (np-09 Section 27) and RENA.
+- [uplift] Deeper pass: IMM 2024 Figure 46 RENA components (LDF contribution, CRR uplift) are garbled in the text copy and no OCR copy is saved.
+- [uplift] Deeper pass: the full breakdown of the $668 million by item (2025).
+- [uri-repricing] Deeper pass: the IMM's breakdown of the $5.1 billion ($3.2 billion energy imbalance, about $1 billion AS imbalance, about $900 million AS price cap) in imm-uri-letter-3; ERCOT's own response to the IMM letters (not saved).
+- [virtual-bids] Deeper pass: the real-time energy imbalance treatment at Resource Nodes and Load Zones (np-06 Sections 6.6.3.1 and 6.6.3.2), and how DAM-cleared energy-only offers at a Resource Node are settled.
+- [virtual-bids] Deeper pass: credit requirements for DAM bids and offers (np-04 Section 4.4.10), and any caps on volumes.
+- [virtual-bids] Deeper pass: IMM figures on virtual volume and profitability, and 2024 comparisons; the saved IMM text only gives the 62% total. Table numbers need the OCR copies, which are not saved.
+- [virtual-bids] Deeper pass: virtual AS rules under RTC (np-04 Section 4.4.7).
+- [waha-hub] Deeper pass: no saved source gives Waha price levels or Katy-Waha basis in $/MMBtu for 2025 or 2026.
+- [waha-hub] Deeper pass: the link between Waha prices and West-zone or HB West power prices is not quantified in the saved sources.
+- [weather-load] Deeper pass: no source gives CDD/HDD values for 2024 or 2025, or a MW-per-degree load sensitivity.
+- [weather-load] Deeper pass: weather zones list and temperature-to-load mapping (ercot-ltlf-2025 model details); winter peak records and cold-weather load.
+- [weatherization] Deeper pass: the specific winter and summer measures (insulation, freeze protection, wind-chill and temperature design levels based on ERCOT's historical weather study), the notarized attestation, and the TSP-side requirements in 25.55(f) were not quoted in detail.
+- [wind-generation] Deeper pass: installed wind capacity in MW by year and by region (Panhandle, Coastal, West); the ERCOT Fact Sheet text layout did not allow a clean quote of the installed wind figure.
+- [wind-generation] Deeper pass: wind generation records and penetration records (fact sheet layout ambiguous), and wind ELCC values (CDR numbers not clearly extractable).
+- [wind-solar-forecasts] Deeper pass: the Total ERCOT Wind/PV Power Forecast (TEWPF/TEPPF) methodology, forecast model selection and vendor details were not found beyond what is cited.
+- [wind-solar-forecasts] Deeper pass: DC-Coupled Resource treatment is in pending NPRR language (NPRR1029) and was not used here.
+- [winter-storm-elliott] Deeper pass: ERCOT's RFI results by fuel type, offline Non-Spin deployment (max 3,222 MW on December 23), TCEQ and DOE 202(c) requests, and NERC/FERC review of Elliott (not saved).
+- [winter-storm-jan-2026] Deeper pass: DOE 202(c) orders (including the separate order for data center backup generation), Braunig Unit 3 RMR and Life Cycle unit commitments, ESR state-of-charge performance, transmission outage causes (83 outages, 2,810 outage hours in the outage review).

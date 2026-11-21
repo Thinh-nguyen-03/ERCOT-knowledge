@@ -1,0 +1,99 @@
+# Open items that name a missing document or fact
+
+- [ams-meters] Deeper pass: the percentage of ESI IDs with AMS meters and the Smart Meter Texas portal were not in the sources read.
+- [ams-meters] Deeper pass: PUCT Substantive Rule 25.130 is not among the saved sources.
+- [asdc] The outcome of ERCOT's "ASDC Review" (named by the IMM as ERCOT's top 2026 RTC issue) is not in the saved sources.
+- [battery-revenue-stack] Revenue split by individual AS product (Reg, RRS, ECRS, Non-Spin) for ESRs was not found.
+- [battery-revenue-stack] Deeper pass: E3's PCM finding that battery margins would rise 29% under the PCM; tolling and hedge structures for batteries are not in the saved sources.
+- [black-start] Black Start costs, number of resources and locations were not found in the saved sources.
+- [block-products] Deeper pass: bilateral block contract terms (such as ISDA or EEI contract specifics) are not in the saved sources.
+- [congestion] No saved source gave a clean list of the most frequently binding constraints for 2025 or 2024, so none are named.
+- [credit-tpe] Deeper pass: no saved source gives aggregate collateral held by ERCOT; the IMM reports do not discuss credit.
+- [crez] The saved rule is the version effective 7/5/16; the zone names beyond Panhandle A and B, zone locations, the total transmission cost and the completion date were not found in the sources. The IMM reports do not mention CREZ.
+- [emergency-pricing-program] Outcome of the PUCT's 2026 review of the offer cap programs was not found.
+- [energy-only-market] No saved source gives the current VOLL or ORDC parameters. See the ordc topic.
+- [energy-only-market] No saved source explains the historical reasons ERCOT chose an energy-only design.
+- [ercot] No saved source gives ERCOT's founding date or how it evolved before the 1999 restructuring. The fact sheet says only that the Legislature restructured the market in 1999 and assigned ERCOT four responsibilities.
+- [ercot] No saved source describes ERCOT's membership segments or what membership involves.
+- [ers] The 2025 program-year ERS MW and price were not found in the saved sources; only the 2024 program year is given.
+- [evening-ramp] Deeper pass: no source quantifies the ramp in GW per hour; MW-per-hour net load ramp statistics were not found in quotable text.
+- [exchanges-ice-nodal] Nodal Exchange: no saved source describes it. Needed: a Nodal Exchange contract specification or rulebook for ERCOT products.
+- [exchanges-ice-nodal] Deeper pass: volumes, open interest and liquidity are not in the saved sources.
+- [ffss] The IMM 2025 notes a PUCT rulemaking on FFSS and expansion to natural gas units; the rule text was not in the saved sources.
+- [ffss] The 2025-2026 procurement results were not found.
+- [four-cp] Whether the PUCT has adopted the Project 58000 rule (and its effective date and transition) is not in the saved sources; comments were due August 11, 2026.
+- [gtc] Deeper pass: GTL setting rules (the lowest non-zero limit for localized stability issues, paragraph (2)) and the quarterly stability assessment in the Planning Guide, which is not saved.
+- [hasl-lasl] No saved source explains in one place how the pre-RTC HASL/LASL calculation was replaced inside SCED. Deeper pass: the NPRR1010-1014 reports.
+- [hb-north] Resolved 2026-11-19: the name HB_NORTH is sourced from ERCOT's real-time display. No saved source states in so many words that HB_NORTH is the Protocols' "North 345 kV Hub (North 345)".
+- [hb-west] Resolved in part 2026-11-19: the name HB_WEST is sourced from ERCOT's real-time display. No saved source states in so many words that HB_WEST is the Protocols' "West 345 kV Hub (West 345)"; hub price levels and spreads to North are still unsourced.
+- [imm] No saved source says when Potomac Economics was first selected as the ERCOT IMM, or the length of its contract.
+- [implied-heat-rate] Deeper pass: how traders use implied heat rate in forward pricing or heat-rate call options is not in the saved sources.
+- [large-flexible-load] Deeper pass: PUCT rule text implementing §39.361 (not saved); how ERCOT registers and treats LFLs and Controllable Load Resources in Protocols (np-16 PCLR registration).
+- [large-load-growth] No saved source gives actual energized large-load MW (as opposed to requested MW) for 2026.
+- [large-load-interconnection] The date the Batch Zero pause ends and the audit results: not in the saved sources (latest is ERCOT's filing of November 4, 2026, which gives a December 10, 2026 report date). ERCOT's September 2026 Board update says the effect on the study timeline is still to be determined.
+- [load-zone] Status of any pending or approved load zone reconfiguration: not found in the saved sources beyond the IMM recommendation.
+- [long-term-load-forecast] The final adjusted 2026 LTLF values are not in the saved sources. ERCOT expected them by the end of 2026 (August statement) [e19], and on November 6, 2026 said it did not yet have a final load forecast because Batch Zero load values were still being finalized [e26]. No saved source gives a date for the final forecast.
+- [long-term-load-forecast] The text of 16 TAC §25.370 is not saved; its rules are described here from IMM and ERCOT summaries.
+- [market-information-system] Deeper pass: the public ERCOT website data portals (names, data products) are not in the saved sources.
+- [merit-order] Deeper pass: a source on marginal-unit frequency by fuel (what sets price how often) was not found in the saved text.
+- [mora-report] The legal basis for the MORA (whether a PUCT rule or Protocol requires it) was not found in the saved sources.
+- [natural-gas-price] The topic is named for Henry Hub, but no saved source gives Henry Hub price levels; the only Henry Hub reference found is the FFSS price index source in np-03.
+- [negative-prices] Annual counts of negative-price intervals and hours by zone and hub are in IMM tables and figures that are garbled in the saved text; the OCR copies are not saved.
+- [nodal-market] Nodal go-live date: the only saved source is a pre-launch plan (October 19, 2010 Board update) giving a planned go-live of December 1, 2010 [e18][e19]. No saved source confirms after the fact that the launch happened on that date; np-02 defines a "Texas Nodal Market Implementation Date" without stating it, and the IMM 2024 report says "since the nodal market began in 2011", which may refer to the first full year of data.
+- [nodal-market] No saved source describes the zonal market that came before nodal, or why ERCOT switched.
+- [noe] How many NOIEs exist in ERCOT and their share of load was not found in the sources reviewed.
+- [nprr] No saved source gives how many NPRRs are filed a year or typical durations.
+- [offer-cap] PUCT rule versus Protocols: 16 TAC 25.509 (as saved) sets one HCAP of $5,000 for energy and ancillary service offers, while the np-04 Section 4.4.11 table lists RTSWCAP at $2,000 and ERCOT's summer 2026 review says the real-time SWCAP fell to $2,000 at RTC go-live (12/5/2025). The IMM 2025 report also describes a single $5,000 SWCAP. The superseded February 2025 edition shows the $2,000 RTSWCAP row already sat in a pending box labelled NPRR1008 and NPRR1216 [e26][e27], but no saved source says which decision set the $2,000 value (a PUCT rule amendment or order, one of those NPRRs, or a TAC/Board parameter change), so the difference is unreconciled.
+- [operating-notices] Deeper pass: how often each notice has been issued (history) and how market participants react; not in the saved sources checked.
+- [ordc] The ERCOT 2024 Biennial ORDC report is cited by the IMM but is not saved as a source.
+- [permian-transmission] The status of individual 765 kV CCN applications (filed, approved, denied) is not in the saved sources beyond "pending" in August 2026.
+- [permian-transmission] Cost estimates differ by scope and date: IMM "more than $13 billion" (PBRP) versus ERCOT "$32.99 billion" (STEP with PBRP, January 2025). No saved source gives an updated PBRP-only estimate.
+- [ptp-obligation] Deeper pass: the PTP-bid-fee NPRR status (CMWG options) and IMM profitability numbers in the OCR tables, which are not saved.
+- [puct] No saved source gives the number of PUCT commissioners, how they are appointed or their terms. PURA Chapter 12 is not among the sources.
+- [puct] No saved source describes the PUCT's retail-market rules in this topic's scope (see the rep and retail-choice topics).
+- [qse] The exact number of QSEs registered in ERCOT was not found in the sources reviewed.
+- [reliability-standard] The outcome of the 2026 assessment (filed August 2026 per the IMM schedule) was not found in the saved sources; the IMM report predates it.
+- [reliability-standard] The load-shed rotation maximum that ERCOT files each December 1 was not found.
+- [resource-adequacy] The results of the 2026 Reliability Standard Assessment (due August 2026) and the IMM's September 2026 review are not in the saved sources.
+- [resource-node] Deeper pass: how Resource Node prices relate to hub prices historically (node-to-hub basis); no saved source gives a clean number.
+- [resource-node] Naming convention for node names (for example the _RN suffix) not found in saved sources.
+- [retail-hedging] Deeper pass: no saved source describes retail supply contracts (fixed-price, index, load-following), shape or volumetric risk, or REP hedging policies; a retailer risk-management reference or REP filings would be needed.
+- [retail-hedging] No saved source defines "retail hedging" as a term; the Definition paraphrases the IMM description of how LSEs manage price exposure.
+- [retail-hedging] Whether PUCT REP financial or credit rules (puct-25-107, np-16) impose any hedging requirement was searched for and not found.
+- [retailer-defaults-2021] The UT report says the three retailers' certificates "were revoked" as of July 2021; for Griddy the PUCT order revoking the REP certificate is from 2022, so the UT wording probably refers to ERCOT's revocation of market participant rights. Entrust and Power of Texas dates are not in the saved sources.
+- [retailer-defaults-2021] Final bankruptcy court approval of the Brazos plan and the Rayburn Country Electric Cooperative outcome are not in the saved sources.
+- [rtc-b] No saved source gives a full-year (2026) quantified estimate of RTC's savings. The only savings figures are from the IMM's 2018 study of 2017 data, cited in ERCOT's education deck.
+- [sb6] Not saved: the text of §25.370 (large load forecasting criteria). Its details here come from ERCOT and IMM summaries.
+- [sc-data-center-ppa] No saved source describes PPA or VPPA contract structures (settlement point, shape, basis, credit terms); the VPPA part of the answer is reasoning only.
+- [sc-data-center-ppa] Whether the PUCT has adopted the 12CP proposal in Project 58000 was not found in the saved sources; only the proposal for publication is saved.
+- [sc-load-forecast-miss] No saved source quantifies how many MW of RUC a given forecast error causes; the link is described qualitatively.
+- [sc-nprr-opinion] No saved source gives the DRRS go-live date; only the 20 to 30 month implementation estimate.
+- [sc-nprr-opinion] Whether the PUCT adopted the 12CP proposal in Project 58000 is not in the saved sources.
+- [sc-rep-heat-wave-hedge] No saved source describes retail product structures (fixed-price, index, pass-through) or how retail contracts shift volume risk to customers.
+- [sc-uplift-surprise] No saved source gives a full per-category 2025 uplift breakdown that adds to $668 million; only RMR, FFSS, RUC and the Revenue Neutrality line were cited.
+- [sc-winter-cold-snap] No saved source gives a full list of the post-2021 changes with dates in one place; the scenario cites each rule separately.
+- [securitization] Deeper pass: current charge rates and remaining balances are not in the saved sources.
+- [shadow-price] Deeper pass: Section 22 Attachment P (methodology for maximum shadow prices) is not in the saved sources; only the IMM's 2025 cap levels and the np-06 references were used. The IMM lists caps for 345 kV, 138 kV and 69 kV constraints that were not quoted here.
+- [sixty-day-disclosure] Deeper pass: the exact names, file formats and web locations of the published reports are not in the saved sources.
+- [stakeholder-process] Deeper pass: TAC and Board membership, Market Segment definitions and voting rules (these sit in TAC Procedures and the ERCOT Bylaws, which are not saved sources).
+- [state-of-market-report] No saved source gives a date by which the annual report must be filed.
+- [tax-credits-recs] The pre-2025 production tax credit (section 45) and investment credit (section 48), their dollar values and the credit amounts under 45Y/48E were not quoted; no saved source states a $/MWh credit value.
+- [tax-credits-recs] No saved source quantifies how much ERCOT wind, solar or storage capacity is affected by the 2027 cutoff.
+- [tax-credits-recs] PUCT rule 16 TAC 25.173 (REC program) is not among the saved sources; only np-14 and PURA 39.9113 were used.
+- [texas-energy-fund] The fund balance and appropriation size were not found.
+- [texas-energy-fund] Whether the commission has actually extended any loan disbursement past December 31, 2025, or extended the completion bonus interconnection deadlines, is not in the saved sources.
+- [texas-interconnection] No saved source covers the legal history of ERCOT's non-FERC status (for example, the specific Federal Power Act provisions or court and FERC orders).
+- [texas-interconnection] No saved source gives the individual MW rating of each named DC tie, only the SPP and Mexico totals.
+- [texas-legislature] No saved source covers the legislative calendar (session frequency, interim hearings).
+- [texas-legislature] SB 1929 is cited only through the PURA history note on §39.361; the bill itself is not saved.
+- [tx-set] Deeper pass: the Retail Market Guide, which is referenced but not saved.
+- [ufe] Deeper pass: no saved source gives UFE volumes or dollar cost by year; the IMM reports do not discuss UFE. The annual UFE analysis report itself is not in the saved sources.
+- [uri-repricing] Outcome of the IMM's repricing requests: no saved source states in so many words whether the PUCT corrected the February 18-19 real-time prices or capped day-ahead ancillary service prices. The saved March 12, 2021 order (puct-51812-as-order-2) acts only on the IMM's failure-to-provide recommendation. Source needed: the PUCT's March 2021 open meeting decisions in Project 51812.
+- [uri-repricing] After the Supreme Court decision: the opinion says Luminant's administrative challenges to its invoices were abated until the litigation concluded; what happened to them afterwards is not in the saved sources.
+- [uri-repricing] Deeper pass: the IMM's breakdown of the $5.1 billion ($3.2 billion energy imbalance, about $1 billion AS imbalance, about $900 million AS price cap) in imm-uri-letter-3; ERCOT's own response to the IMM letters (not saved).
+- [virtual-bids] Deeper pass: IMM figures on virtual volume and profitability, and 2024 comparisons; the saved IMM text only gives the 62% total. Table numbers need the OCR copies, which are not saved.
+- [waha-hub] Deeper pass: no saved source gives Waha price levels or Katy-Waha basis in $/MMBtu for 2025 or 2026.
+- [weatherization] Compliance results (how many resources failed or were penalized) were not found in the saved sources.
+- [wind-solar-forecasts] Deeper pass: the Total ERCOT Wind/PV Power Forecast (TEWPF/TEPPF) methodology, forecast model selection and vendor details were not found beyond what is cited.
+- [winter-storm-elliott] Deeper pass: ERCOT's RFI results by fuel type, offline Non-Spin deployment (max 3,222 MW on December 23), TCEQ and DOE 202(c) requests, and NERC/FERC review of Elliott (not saved).
+- [winter-storm-jan-2026] Real-time and day-ahead price levels during Fern (hub prices, peak SCED prices) are not in the saved sources. Source needed: ERCOT market review of Fern or IMM 2026 SOM.

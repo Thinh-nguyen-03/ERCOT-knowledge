@@ -18,6 +18,12 @@ function extract(kind: string, raw: string): string {
   if (kind === "docx") return execFileSync("pandoc", ["-f", "docx", "-t", "plain", "--wrap=none", "--track-changes=accept", raw], big);
   if (kind === "html") return execFileSync("pandoc", ["-f", "html", "-t", "plain", "--wrap=none", raw], big);
   if (kind === "txt") return readFileSync(raw, "utf8");
+  if (kind === "doc") { // old Word format: convert to docx with LibreOffice, then read as docx
+    const dir = p("sources/raw/_convert"); mkdirSync(dir, { recursive: true });
+    execFileSync("soffice", ["--headless", "--convert-to", "docx", "--outdir", dir, raw], { stdio: "ignore", timeout: 180000 });
+    const out = p("sources/raw/_convert", raw.split("/").pop()!.replace(/\.doc$/, ".docx"));
+    return execFileSync("pandoc", ["-f", "docx", "-t", "plain", "--wrap=none", "--track-changes=accept", out], big);
+  }
   throw new Error("unknown kind " + kind);
 }
 

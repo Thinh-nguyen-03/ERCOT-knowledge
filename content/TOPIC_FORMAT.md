@@ -70,6 +70,10 @@ Answer in 2-5 sentences. Cite evidence for facts. [e1]
 - `level`: 1 must know, 2 expected with 1-2 years, 3 deep.
 - `lenses`: any of `analyst`, `trading`, `portfolio`, `congestion`, `retail`, `structuring`.
 - `as_of`: date the topic was last checked against sources.
+- `depth`: `general` (default) or `deep` once a deeper pass has been done.
+- `basis`: omit normally. `industry-reference` marks a general commercial concept written from industry
+  reference sources; every factual statement then needs quotes from two independent publishers, or one
+  tier 1-2 source (see CLAUDE.md, Source tiers).
 - `links`: `to` must be an id in the topic list. `type` is one of
   `is-a, part-of, composed-of, determines, affects, causes, hedges, settles, replaced, regulates, operates,
   example-of, contrasts-with, used-in, measures, prerequisite-of, related`.

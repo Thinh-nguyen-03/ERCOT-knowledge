@@ -18,7 +18,7 @@ export function verifyAll(): { issues: Issue[]; stats: Record<string, number> } 
   const roster = new Map(list.nodes.map((n) => [n.id, n]));
   const sources = new Map(loadSources().map((s) => [s.id, s]));
   const topics = loadTopics();
-  const stats = { topics: topics.length, evidence: 0, quotes_verified: 0, cited_blocks: 0, links: 0, open_items: 0 };
+  const stats = { topics: topics.length, evidence: 0, quotes_verified: 0, cited_blocks: 0, links: 0, open_items: 0, cross_checked: 0 };
   const seen = new Set<string>();
 
   for (const t of topics) {
@@ -37,6 +37,8 @@ export function verifyAll(): { issues: Issue[]; stats: Record<string, number> } 
 
     // evidence: every quote must be found, word for word, in the snapshot it names
     const ev = new Map<string, { used: number }>();
+    const evSource = new Map<string, string>((t.meta.evidence ?? []).map((e) => [e.id, e.source]));
+    const industry = (t.meta as any).basis === "industry-reference";
     for (const e of t.meta.evidence ?? []) {
       stats.evidence++;
       if (!/^e\d+$/.test(e.id ?? "")) { err(`evidence id "${e.id}" should look like e1`); continue; }
@@ -62,7 +64,16 @@ export function verifyAll(): { issues: Issue[]; stats: Record<string, number> } 
         const ms = markers(b);
         for (const m of ms) { if (ev.has(m)) ev.get(m)!.used++; else err(`${s.heading}: cites ${m}, which is not in evidence`); }
         if (/^#{3,}\s/.test(b)) continue;
-        if (FACTUAL.has(s.heading)) { if (ms.length) stats.cited_blocks++; else err(`${s.heading}: uncited statement: "${b.slice(0, 80)}..."`); }
+        if (FACTUAL.has(s.heading)) {
+          if (ms.length) stats.cited_blocks++; else err(`${s.heading}: uncited statement: "${b.slice(0, 80)}..."`);
+          // industry-reference topics: a statement resting only on tier 3 material needs two independent publishers
+          if (industry && ms.length) {
+            const src = [...new Set(ms.map((m) => evSource.get(m)).filter(Boolean))].map((id) => sources.get(id!)!).filter(Boolean);
+            const official = src.some((x) => x.tier <= 2), pubs = new Set(src.map((x) => x.publisher));
+            if (!official && pubs.size < 2) err(`${s.heading}: industry-reference statement rests on one publisher (${[...pubs].join(", ") || "none"}); cross-check needs two: "${b.slice(0, 70)}..."`);
+            if (pubs.size >= 2 || official) stats.cross_checked++;
+          }
+        }
         else if (!ms.length && /\$\s?\d|\d{4}|\d+(\.\d+)?\s?(MW|GW|MWh|%|percent)/.test(b) && !/^(\(Guidance\)\s*)?Suppose|illustrat/i.test(b) && s.heading !== "Example")
           warn(`${s.heading}: has a number or date but no citation: "${b.slice(0, 80)}..."`);
       }

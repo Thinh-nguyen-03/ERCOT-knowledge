@@ -31,7 +31,9 @@ Phase 1 (current) builds the knowledge base from real sources. The app comes aft
 - `sources/text/<id>.txt`: extracted text of each snapshot (committed; what quotes are checked against).
 - `sources/meta/<id>.json`: url, retrieval date, sha256 of the raw file.
 - `sources/raw/`: raw downloads (not committed).
-- `pipeline/`: `fetch.ts` (download + extract), `verify.ts` (quote and citation checks), `render.ts` (reading view).
+- `pipeline/`: `fetch.ts` (download + extract), `ocr.sh` (image-read copies), `verify.ts` (quote and citation checks),
+  `audit.ts` (mechanical audit and context packets), `render.ts` (reading view).
+- `content/WRITER_BRIEF.md`, `DEEPER_BRIEF.md`, `INDUSTRY_BRIEF.md`, `REVIEW_BRIEF.md`, `AUDIT_BRIEF.md`: instructions for sub-agents.
 - `preview/`: generated reading view and review list.
 
 ## Commands
@@ -46,7 +48,12 @@ node pipeline/render.ts                  # write preview/index.html and preview/
 
 1. Rules: ERCOT Nodal Protocols, PUCT rules (16 TAC 25), Texas statutes.
 2. Official reports: IMM State of the Market, ERCOT reports and Board material, EIA, FERC/NERC.
-3. Commentary: leads only, never the sole support for a fact.
+3. Commentary and industry reference: leads only for ERCOT facts, never the sole support for one.
+   Exception approved by the owner (2026-11-21): general commercial concepts that no official ERCOT, PUCT or
+   IMM document defines (spark spread, PPA, tolling, basis risk and similar) may be written from industry
+   reference sources. Those topics carry `basis: industry-reference` in their frontmatter, every factual
+   statement must be supported by quotes from at least two independent publishers (or one tier 1-2 source),
+   and `verify.ts` enforces it. Anything said about ERCOT itself in those topics still needs a tier 1-2 quote.
 
 ## Decided stack for the later app (not started)
 
