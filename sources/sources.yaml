@@ -1121,3 +1121,845 @@ sources:
     kind: pdf
     edition: "2026-10-19"
     url: "https://www.potomaceconomics.com/wp-content/uploads/2026/10/2026-09_Nodal_Monthly_Report.pdf"
+  - id: np-22d
+    title: "ERCOT Nodal Protocols, Section 22 Attachment D: Standard Form Black Start Agreement"
+    publisher: "ERCOT"
+    tier: 1
+    kind: doc
+    edition: "effective 2023-03-01"
+    url: "https://www.ercot.com/files/docs/2022/02/01/22D-030123_Nodal.doc"
+  - id: np-22f
+    title: "ERCOT Nodal Protocols, Section 22 Attachment F: Firm Fuel Supply Service Agreement"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2026-11-06"
+    url: "https://www.ercot.com/files/docs/2020/02/12/22F-110626_Nodal.docx"
+  - id: np-22g
+    title: "ERCOT Nodal Protocols, Section 22 Attachment G: Standard Form Emergency Response Service Agreement"
+    publisher: "ERCOT"
+    tier: 1
+    kind: doc
+    edition: "effective 2013-06-01"
+    url: "https://www.ercot.com/files/docs/2019/06/04/22G-060113_Nodal.doc"
+  - id: np-22k
+    title: "ERCOT Nodal Protocols, Section 22 Attachment K: Declaration of Natural Gas Pipeline Coordination"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2026-02-01"
+    url: "https://www.ercot.com/files/docs/2023/01/26/22K-020126_Nodal.docx"
+  - id: np-22n
+    title: "ERCOT Nodal Protocols, Section 22 Attachment N: Standard Form Must-Run Alternative Agreement"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2025-12-05"
+    url: "https://www.ercot.com/files/docs/2019/07/01/22N-120525_Nodal.docx"
+  - id: np-22o
+    title: "ERCOT Nodal Protocols, Section 22 Attachment O: Requirements for Aggregate Load Resource Participation"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2024-03-01"
+    url: "https://www.ercot.com/files/docs/2023/01/26/22O-030124_Nodal.docx"
+  - id: np-22p-2025-12
+    title: "ERCOT Nodal Protocols, Section 22 Attachment P: Methodology for Setting Maximum Shadow Prices for Network and Power Balance Constraints (current edition)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2025-12-05"
+    url: "https://www.ercot.com/files/docs/2024/04/30/22P-120525_Nodal.docx"
+  - id: np-22q
+    title: "ERCOT Nodal Protocols, Section 22 Attachment Q: Emergency Response Service Procurement Methodology"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2025-12-05"
+    url: "https://www.ercot.com/files/docs/2025/08/01/22Q-120525_Nodal.docx"
+  - id: np-22r
+    title: "ERCOT Nodal Protocols, Section 22 Attachment R: Procedure for Identifying Resource Nodes"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2026-04-01"
+    url: "https://www.ercot.com/files/docs/2026/04/01/22R-040126_Nodal.docx"
+  - id: np-22s
+    title: "ERCOT Nodal Protocols, Section 22 Attachment S: Demand Response Data Definitions and Technical Specifications"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2026-02-01"
+    url: "https://www.ercot.com/files/docs/2026/01/31/22S-020126_Nodal.docx"
+  - id: np-22t
+    title: "ERCOT Nodal Protocols, Section 22 Attachment T: REP and TDSP Smart Device Demand Response Reporting Requirements"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2025-12-01"
+    url: "https://www.ercot.com/files/docs/2025/11/30/22T-120125_Nodal.docx"
+  - id: nog-02
+    title: "ERCOT Nodal Operating Guides, Section 2: System Operations and Control Requirements"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "current 2026"
+    url: "https://www.ercot.com/files/docs/2022/11/01/02-110126.docx"
+  - id: nog-03
+    title: "ERCOT Nodal Operating Guides, Section 3: ERCOT and Market Participant Responsibilities"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "current 2026"
+    url: "https://www.ercot.com/files/docs/2022/03/01/03-120525.docx"
+  - id: nog-04
+    title: "ERCOT Nodal Operating Guides, Section 4: Emergency Operation"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "current 2026"
+    url: "https://www.ercot.com/files/docs/2022/05/27/04-120525.docx"
+  - id: nog-11
+    title: "ERCOT Nodal Operating Guides, Section 11: Constraint Management Plans and Remedial Action Schemes"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "current 2026"
+    url: "https://www.ercot.com/files/docs/2020/10/01/11-102926.docx"
+  - id: rmg-07
+    title: "ERCOT Retail Market Guide, Section 7: Market Processes"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "current 2026"
+    url: "https://www.ercot.com/files/docs/2025/12/01/07-080126.docx"
+  - id: rmg-08
+    title: "ERCOT Retail Market Guide, Section 8: Municipally Owned Utilities and Electric Cooperatives"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "current 2026"
+    url: "https://www.ercot.com/files/docs/2025/12/01/08-120125.docx"
+  - id: rmg-09j7
+    title: "ERCOT Retail Market Guide, Appendix J7: Mass Transition Allocation Methodology"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "current 2026"
+    url: "https://www.ercot.com/files/docs/2024/11/30/09J7-120124.docx"
+  - id: rmg-09f2
+    title: "ERCOT Retail Market Guide, Appendix F2: Timeline for Initiation of a Mass Transition"
+    publisher: "ERCOT"
+    tier: 1
+    kind: doc
+    edition: "current 2026"
+    url: "https://www.ercot.com/files/docs/2019/05/01/09F2-050119.doc"
+  - id: lpg-06
+    title: "ERCOT Load Profiling Guide, Section 6: Load Profiling Methodology"
+    publisher: "ERCOT"
+    tier: 1
+    kind: doc
+    url: "https://www.ercot.com/files/docs/2016/10/31/06-110116.doc"
+  - id: lpg-09
+    title: "ERCOT Load Profiling Guide, Section 9: Load Profile IDs"
+    publisher: "ERCOT"
+    tier: 1
+    kind: doc
+    url: "https://www.ercot.com/files/docs/2018/06/01/09-060118.doc"
+  - id: lpg-11
+    title: "ERCOT Load Profiling Guide, Section 11: Validation of Load Profile ID"
+    publisher: "ERCOT"
+    tier: 1
+    kind: doc
+    url: "https://www.ercot.com/files/docs/2023/10/31/11-110123.doc"
+  - id: pg-03
+    title: "ERCOT Planning Guide, Section 3: Regional Planning"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "current 2026"
+    url: "https://www.ercot.com/files/docs/2025/12/01/03-102926.docx"
+  - id: pg-04
+    title: "ERCOT Planning Guide, Section 4: Transmission Planning Criteria"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "current 2026"
+    url: "https://www.ercot.com/files/docs/2022/06/01/04-102926.docx"
+  - id: pg-06
+    title: "ERCOT Planning Guide, Section 6: Data/Modeling"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "current 2026"
+    url: "https://www.ercot.com/files/docs/2025/12/01/06-080126.docx"
+  - id: ercot-vcm
+    title: "ERCOT Verifiable Cost Manual"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2026-12-01"
+    url: "https://www.ercot.com/files/docs/2026/11/18/ERCOT-Verifiable-Cost-Manual-120126.docx"
+  - id: copmg-08
+    title: "ERCOT Commercial Operations Market Guide, Section 8: ERCOT Settlement and Invoice Process"
+    publisher: "ERCOT"
+    tier: 1
+    kind: doc
+    edition: "effective 2026-08-01"
+    url: "https://www.ercot.com/files/docs/2026/07/31/COPMG_08-080126.doc"
+  - id: copmg-11
+    title: "ERCOT Commercial Operations Market Guide, Section 11: Disputes and Data Extract Variances"
+    publisher: "ERCOT"
+    tier: 1
+    kind: doc
+    edition: "effective 2026-08-01"
+    url: "https://www.ercot.com/files/docs/2026/07/31/COPMG_11-080126.doc"
+  - id: ercot-obd-list
+    title: "ERCOT Other Binding Documents List"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2026-04-01"
+    url: "https://www.ercot.com/files/docs/2026/04/10/Other-Binding-Document-List-TAC-Approved-eff-040126.docx"
+  - id: ercot-crr-handbook
+    title: "CRR Market User Interface Handbook v4.3"
+    publisher: "ERCOT"
+    tier: 2
+    kind: docx
+    url: "https://www.ercot.com/files/docs/2019/05/07/CRR_Market_User_Interface_Handbook_v4.3.docx"
+  - id: ercot-credit-faqs
+    title: "ERCOT Credit FAQs"
+    publisher: "ERCOT"
+    tier: 2
+    kind: docx
+    edition: "2025-12"
+    url: "https://www.ercot.com/files/docs/2025/12/03/Credit-FAQs.docx"
+  - id: ercot-bylaws
+    title: "Amended and Restated Bylaws of ERCOT"
+    publisher: "ERCOT"
+    tier: 1
+    kind: pdf
+    edition: "effective 2022-12-20"
+    url: "https://www.ercot.com/files/docs/2021/10/12/Amended_and_Restated_Bylaws_of_ERCOT_eff_12202022.pdf"
+  - id: ercot-board-policies
+    title: "ERCOT Board Policies and Procedures"
+    publisher: "ERCOT"
+    tier: 1
+    kind: pdf
+    edition: "effective 2024-06-18"
+    url: "https://www.ercot.com/files/docs/2019/04/16/Board-Policies-and-Procedures-eff-6-18-2024.pdf"
+  - id: ercot-tac-procedures
+    title: "Technical Advisory Committee Procedures"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "approved 2025-10-22"
+    url: "https://www.ercot.com/files/docs/2025/10/23/TAC-Procedures-Approved-10222025.docx"
+  - id: ercot-prs-procedures
+    title: "Protocol Revision Subcommittee Procedures"
+    publisher: "ERCOT"
+    tier: 1
+    kind: doc
+    edition: "TAC approved 2011-12-01"
+    url: "https://www.ercot.com/files/docs/2013/12/09/PRS_Procedures_TAC_Approved_20111201.doc"
+  - id: ercot-wms-procedures
+    title: "Wholesale Market Subcommittee Procedures"
+    publisher: "ERCOT"
+    tier: 1
+    kind: doc
+    edition: "2023-12-04"
+    url: "https://www.ercot.com/files/docs/2023/12/07/wms_procedures_tac_approved_20231204.doc"
+  - id: ercot-ros-procedures
+    title: "Reliability and Operations Subcommittee Procedures"
+    publisher: "ERCOT"
+    tier: 1
+    kind: doc
+    edition: "2023-07-25"
+    url: "https://www.ercot.com/files/docs/2023/07/27/13_ROS_Procedures_TAC_Approved_20230725.doc"
+  - id: ercot-nodal-guiding-principles
+    title: "Guiding Principles of the Nodal Market"
+    publisher: "ERCOT"
+    tier: 2
+    kind: doc
+    edition: "TAC approved 2010-07-01"
+    url: "https://www.ercot.com/files/docs/2013/12/09/guiding_principles_of_the_nodal_market_tac_approved_07012010.doc"
+  - id: puct-25-130
+    title: "PUCT Substantive Rule 16 TAC §25.130, Advanced Metering"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.130/25.130.pdf"
+  - id: puct-25-173
+    title: "PUCT Substantive Rule 16 TAC §25.173, Renewable Energy Credit Program"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.173/25.173.pdf"
+  - id: puct-25-370
+    title: "PUCT Substantive Rule 16 TAC §25.370, ERCOT Large Load Forecasting Criteria"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.370/25.370.pdf"
+  - id: puct-25-471
+    title: "PUCT Substantive Rule 16 TAC §25.471, General Provisions of Customer Protection Rules"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.471/25.471.pdf"
+  - id: puct-25-474
+    title: "PUCT Substantive Rule 16 TAC §25.474, Selection of Retail Electric Provider"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.474/25.474.pdf"
+  - id: puct-25-475
+    title: "PUCT Substantive Rule 16 TAC §25.475, General Retail Electric Provider Requirements and Information Disclosures to Residential and Small Commercial Customers"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.475/25.475.pdf"
+  - id: puct-25-478
+    title: "PUCT Substantive Rule 16 TAC §25.478, Credit Requirements and Deposits"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.478/25.478.pdf"
+  - id: puct-25-479
+    title: "PUCT Substantive Rule 16 TAC §25.479, Issuance and Format of Bills"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.479/25.479.pdf"
+  - id: puct-25-480
+    title: "PUCT Substantive Rule 16 TAC §25.480, Bill Payment and Adjustments"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.480/25.480.pdf"
+  - id: puct-25-483
+    title: "PUCT Substantive Rule 16 TAC §25.483, Disconnection of Service"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.483/25.483.pdf"
+  - id: puct-25-498
+    title: "PUCT Substantive Rule 16 TAC §25.498, Prepaid Service"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.498/25.498.pdf"
+  - id: puct-25-272
+    title: "PUCT Substantive Rule 16 TAC §25.272, Code of Conduct for Electric Utilities and Their Affiliates"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.272/25.272.pdf"
+  - id: puct-25-211
+    title: "PUCT Substantive Rule 16 TAC §25.211, Interconnection of On-Site Distributed Generation"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.211/25.211.pdf"
+  - id: puct-25-212
+    title: "PUCT Substantive Rule 16 TAC §25.212, Technical Requirements for Interconnection and Parallel Operation of On-Site Distributed Generation"
+    publisher: "PUCT"
+    tier: 1
+    kind: pdf
+    url: "https://ftp.puc.texas.gov/public/puct-info/agency/rulesnlaws/subrules/electric/25.212/25.212.pdf"
+  - id: pura-11
+    title: "Texas Utilities Code Chapter 11, General Provisions"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    url: "https://tcss.legis.texas.gov/resources/UT/htm/UT.11.htm"
+  - id: pura-12
+    title: "Texas Utilities Code Chapter 12, Organization of Commission"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    url: "https://tcss.legis.texas.gov/resources/UT/htm/UT.12.htm"
+  - id: pura-14
+    title: "Texas Utilities Code Chapter 14, Jurisdiction and Powers of Commission"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    url: "https://tcss.legis.texas.gov/resources/UT/htm/UT.14.htm"
+  - id: pura-15
+    title: "Texas Utilities Code Chapter 15, Judicial Review, Enforcement, and Penalties"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    url: "https://tcss.legis.texas.gov/resources/UT/htm/UT.15.htm"
+  - id: pura-17
+    title: "Texas Utilities Code Chapter 17, Customer Protection"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    url: "https://tcss.legis.texas.gov/resources/UT/htm/UT.17.htm"
+  - id: pura-31
+    title: "Texas Utilities Code Chapter 31, General Provisions (Electric Utilities)"
+    publisher: "Texas Legislature"
+    tier: 1
+    kind: html
+    url: "https://tcss.legis.texas.gov/resources/UT/htm/UT.31.htm"
+  - id: ercot-nprr1008-board-report
+    title: "NPRR1008 Board Report (Real-Time Co-optimization, Section 4 Day-Ahead Operations)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "Board approved 2020-12-08"
+    url: "https://www.ercot.com/files/docs/2020/12/09/1008NPRR-11_Board_Report_120820.docx"
+  - id: ercot-nprr1010-board-report
+    title: "NPRR1010 Board Report (Real-Time Co-optimization, Section 6 Adjustment Period and Real-Time Operations)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "Board approved 2020-12-08"
+    url: "https://www.ercot.com/files/docs/2020/12/09/1010NPRR-12_Board_Report_120820.docx"
+  - id: ercot-nprr1013-board-report
+    title: "NPRR1013 Board Report (Real-Time Co-optimization, Sections 1, 2, 16 and 25)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "Board approved 2020-12-08"
+    url: "https://www.ercot.com/files/docs/2020/12/10/1013NPRR-10_Board_Report_120820.docx"
+  - id: ercot-nprr1014-board-report
+    title: "NPRR1014 Board Report (Energy Storage Resource Single Model)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "Board approved 2020-12-08"
+    url: "https://www.ercot.com/files/docs/2020/12/09/1014NPRR-18_Board_Report_120820.docx"
+  - id: ercot-nprr1269-puct-report
+    title: "NPRR1269 PUCT Report (RTC+B three parameters policy issues)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "PUCT approved 2025-05-15"
+    url: "https://www.ercot.com/files/docs/2025/05/19/1269NPRR-18-PUCT-Report-051525.docx"
+  - id: ercot-nprr1270-puct-report
+    title: "NPRR1270 PUCT Report (additional revisions required for implementation of RTC)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "PUCT approved 2025-05-15"
+    url: "https://www.ercot.com/files/docs/2025/05/19/1270NPRR-10-PUCT-Report-051525.docx"
+  - id: ercot-nprr1216-puct-report
+    title: "NPRR1216 PUCT Report (implementation of Emergency Pricing Program)"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "PUCT approved 2024-09-26"
+    url: "https://www.ercot.com/files/docs/2024/09/30/1216NPRR-20%20PUCT%20Report%20092624.docx"
+  - id: puct-59550-ercot-comments
+    title: "ERCOT comments, PUCT Project 59550 (quinquennial review of system-wide offer cap programs)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "filed 2026-09-17, a party filing"
+    url: "https://interchange.puc.texas.gov/Documents/59550_7_1684210.PDF"
+  - id: ercot-ordc-report-2024
+    title: "2024 Biennial ERCOT Report on the Operating Reserve Demand Curve"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2024-10-31"
+    url: "https://interchange.puc.texas.gov/Documents/55999_75_1439000.PDF"
+  - id: ercot-ordc-report-2022
+    title: "2022 Biennial ERCOT Report on the Operating Reserve Demand Curve"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2022-10-31"
+    url: "https://www.ercot.com/files/docs/2022/10/31/2022%20Biennial%20ERCOT%20Report%20on%20the%20ORDC%20-%20Final_corr.pdf"
+  - id: ercot-ffss-summary-2026
+    title: "Firm Fuel Supply Service Procurement Summary, November 15, 2026 to March 15, 2027"
+    publisher: "ERCOT"
+    tier: 2
+    kind: docx
+    edition: "2026-10-12"
+    url: "https://www.ercot.com/files/docs/2026/10/12/FFSS-Procurement-Summary-Nov152026Mar1520267_Updated.docx"
+  - id: ercot-ffss-summary-2025
+    title: "Firm Fuel Supply Service Procurement Summary, November 15, 2025 to March 15, 2026"
+    publisher: "ERCOT"
+    tier: 2
+    kind: docx
+    edition: "2025-09-18"
+    url: "https://www.ercot.com/files/docs/2025/09/18/FFSS-Procurement-Summary-Nov152025Mar152026_updated.docx"
+  - id: puct-ffss-memo-2025
+    title: "PUCT Staff memo on FFSS parameters for 2025-2026"
+    publisher: "PUCT"
+    tier: 2
+    kind: pdf
+    edition: "2025-07-03"
+    url: "https://www.ercot.com/files/docs/2025/07/31/56000_10-PUC-Staff-Memo-FFSS-Parameters-2025-2026-2025.07.03-.pdf"
+  - id: ercot-ers-rfp-2026-12
+    title: "Emergency Response Service Request for Proposal, December 2026 to March 2027"
+    publisher: "ERCOT"
+    tier: 2
+    kind: docx
+    edition: "2026-10-02"
+    url: "https://www.ercot.com/files/docs/2026/10/02/Request-for-Proposal-ERS_DecMar27.docx"
+  - id: ercot-monthly-ops-2026-10
+    title: "ERCOT Monthly Operational Overview, 2026-10"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-10"
+    url: "https://www.ercot.com/files/docs/2026/11/17/ERCOT-Monthly-Operational-Overview-October-2026.pdf"
+  - id: ercot-monthly-ops-2026-09
+    title: "ERCOT Monthly Operational Overview, 2026-09"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-09"
+    url: "https://www.ercot.com/files/docs/2026/10/16/ERCOT-Monthly-Operational-Overview-September.pdf"
+  - id: ercot-monthly-ops-2026-08
+    title: "ERCOT Monthly Operational Overview, 2026-08"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-08"
+    url: "https://www.ercot.com/files/docs/2026/09/16/ERCOT-Monthly-Operational-Overview-August-2026.pdf"
+  - id: ercot-monthly-ops-2026-01
+    title: "ERCOT Monthly Operational Overview, 2026-01"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-01"
+    url: "https://www.ercot.com/files/docs/2026/02/18/ERCOT-Monthly-Operational-Overview-January-2026.pdf"
+  - id: ercot-roadmap-2021-10
+    title: "Roadmap to Improving Grid Reliability, October 15, 2021 update"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2021-10-15"
+    url: "https://www.ercot.com/files/docs/2021/10/18/ERCOT_Roadmap_October_15_2021_Update.pdf"
+  - id: ercot-rtp-2025-final
+    title: "2025 Regional Transmission Plan final update (RPG slides)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-01-16"
+    url: "https://www.ercot.com/files/docs/2026/01/16/2025_RTP_Final_Update_January_2026_RPG.pdf"
+  - id: ercot-resource-adequacy-dr-2026-04
+    title: "Strategic Discussion on Resource Adequacy and the Role of Demand Response (Board item 11.1)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-04-13"
+    url: "https://www.ercot.com/files/docs/2026/04/13/11.1-Strategic-Discussion-on-Resource-Adequacy-and-the-Role-of-Demand-Response.pdf"
+  - id: imm-som-tac-2026-07
+    title: "IMM State of the Market presentation to TAC"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: pdf
+    edition: "2026-08-06"
+    url: "https://www.ercot.com/files/docs/2026/08/06/2026-07-SoM-for-TAC-JDMc.pdf"
+  - id: imm-board-2026-02
+    title: "IMM Report to the Board (item 10.1)"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: pdf
+    edition: "2026-02-02"
+    url: "https://www.ercot.com/files/docs/2026/02/02/10.1-Independent-Market-Monitor-IMM-Report.pdf"
+  - id: imm-som-2020
+    title: "2020 State of the Market Report for the ERCOT Electricity Markets"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: pdf
+    edition: "published 2021"
+    url: "https://www.potomaceconomics.com/wp-content/uploads/2021/06/2020-ERCOT-State-of-the-Market-Report.pdf"
+  - id: imm-som-2011
+    title: "2011 State of the Market Report for the ERCOT Wholesale Electricity Markets"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: pdf
+    edition: "published 2012"
+    url: "https://ftp.puc.texas.gov/public/puct-info/industry/electric/reports/ERCOT_annual_reports/2011annualreport.pdf"
+  - id: imm-som-2010
+    title: "2010 State of the Market Report for the ERCOT Wholesale Electricity Markets"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: pdf
+    edition: "published 2011"
+    url: "https://ftp.puc.texas.gov/public/puct-info/industry/electric/reports/ERCOT_annual_reports/2010annualreport.pdf"
+  - id: imm-nprr1309-comments-2026-02
+    title: "IMM comments on NPRR1309"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: docx
+    edition: "2026-02-03, a party comment"
+    url: "https://www.ercot.com/files/docs/2026/02/03/1309NPRR-12-IMM-Comments-020326.docx"
+  - id: imm-nprr1309-comments-2026-04
+    title: "IMM comments on NPRR1309"
+    publisher: "Potomac Economics (ERCOT IMM)"
+    tier: 2
+    kind: docx
+    edition: "2026-04-24, a party comment"
+    url: "https://www.ercot.com/files/docs/2026/04/24/1309NPRR-27-IMM-Comments-042426.docx"
+  - id: ercot-nprr1309-comments-2026-05
+    title: "ERCOT comments on NPRR1309 (Board item 15.1.2.3)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026-05"
+    url: "https://www.ercot.com/files/docs/2026/05/24/15.1.2.3-ERCOT-Comments-on-NPRR1309.pdf"
+  - id: ref-ferc-energy-primer
+    title: "Energy Primer: A Handbook of Energy Market Basics"
+    publisher: "FERC"
+    tier: 2
+    kind: pdf
+    edition: "January 2024"
+    url: "https://www.ferc.gov/sites/default/files/2024-01/24_Energy-Markets-Primer_0117_DIGITAL_0.pdf"
+  - id: ref-eia-spark-spread-2013
+    title: "An introduction to spark spreads (Today in Energy)"
+    publisher: "U.S. Energy Information Administration"
+    tier: 2
+    kind: html
+    edition: "2013"
+    url: "https://www.eia.gov/todayinenergy/detail.php?id=9911"
+  - id: ref-eia-spark-dark-2017
+    title: "Spark and dark spreads indicate profitability of natural gas, coal power plants (Today in Energy)"
+    publisher: "U.S. Energy Information Administration"
+    tier: 2
+    kind: html
+    edition: "2017"
+    url: "https://www.eia.gov/todayinenergy/detail.php?id=33312"
+  - id: ref-eia-spark-2025
+    title: "Today in Energy article on spark and dark spreads (December 2025)"
+    publisher: "U.S. Energy Information Administration"
+    tier: 2
+    kind: html
+    edition: "December 2025"
+    url: "https://www.eia.gov/todayinenergy/detail.php?id=66785"
+  - id: ref-epa-financial-ppa
+    title: "Financial PPA (Green Power Markets)"
+    publisher: "U.S. Environmental Protection Agency"
+    tier: 2
+    kind: html
+    edition: "snapshot 2025-01-19"
+    url: "https://19january2025snapshot.epa.gov/green-power-markets/financial-ppa/index.html"
+  - id: ref-epa-vppa-webinar
+    title: "Introduction to Virtual Power Purchase Agreements (Green Power Partnership webinar)"
+    publisher: "U.S. Environmental Protection Agency"
+    tier: 2
+    kind: pdf
+    edition: "2016-09-28"
+    url: "https://www.epa.gov/sites/production/files/2016-09/documents/webinar_kent_20160928.pdf"
+  - id: ref-epa-green-power-glossary
+    title: "Guide to Purchasing Green Power, Chapter 11 glossary"
+    publisher: "U.S. Environmental Protection Agency"
+    tier: 2
+    kind: pdf
+    edition: "2018"
+    url: "https://19january2021snapshot.epa.gov/sites/static/files/2018-08/documents/guide-purchasing-green-power-11.pdf"
+  - id: ref-ornl-ppa
+    title: "Power Purchase Agreements overview (DOE Better Buildings)"
+    publisher: "Oak Ridge National Laboratory"
+    tier: 2
+    kind: pdf
+    url: "https://info.ornl.gov/sites/publications/Files/Pub211116.pdf"
+  - id: ref-lbnl-hybrids-2026
+    title: "Identifying Barriers to Solar and Storage Hybrids, Year 1 Briefing"
+    publisher: "Lawrence Berkeley National Laboratory"
+    tier: 2
+    kind: pdf
+    edition: "May 2026"
+    url: "https://emp.lbl.gov/sites/default/files/2026-05/LBNL%202026-%20Identifying%20Barriers%20to%20Solar%20and%20Storage%20Hybrids%20Year%201%20Briefing_0.pdf"
+  - id: ref-lbnl-pv-battery
+    title: "Influence of business models on PV-battery dispatch decisions and market value (briefing)"
+    publisher: "Lawrence Berkeley National Laboratory"
+    tier: 2
+    kind: pdf
+    url: "https://eta-publications.lbl.gov/sites/default/files/influence_of_business_models_on_pv-battery_dispatch_decisions_and_market_value_-_briefing.pdf"
+  - id: ref-ercot-forward-markets-101
+    title: "Forward Markets 101 (ERCOT training)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2026"
+    url: "https://www.ercot.com/files/docs/2026/01/14/2026_07-Forward-Markets-101.pdf"
+  - id: ref-ercot-crr-training
+    title: "Congestion Revenue Rights (ERCOT training)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "2020"
+    url: "https://www.ercot.com/files/docs/2020/04/27/2020_05_CRR.pdf"
+  - id: ref-ercot-lse-201
+    title: "LSE 201 (ERCOT training)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "February 2024"
+    url: "https://www.ercot.com/files/docs/2024/02/28/2024_02-lse-201.pdf"
+  - id: ref-ercot-wholesale-101
+    title: "Wholesale Markets 101 (ERCOT training)"
+    publisher: "ERCOT"
+    tier: 2
+    kind: pdf
+    edition: "July 2023"
+    url: "https://www.ercot.com/files/docs/2023/07/07/2023_07-wholesale-101.pdf"
+  - id: ref-ice-ercot-heat-rate
+    title: "ICE ERCOT Panhandle Heat Rate 345kV Hub Off-Peak contract specification"
+    publisher: "ICE Futures U.S."
+    tier: 2
+    kind: pdf
+    url: "https://www.ice.com/api/productguide/spec/72321779/pdf"
+  - id: ref-nzea-forward-curve
+    title: "Accuracy of the forward price curve (Eye on electricity)"
+    publisher: "New Zealand Electricity Authority"
+    tier: 3
+    kind: html
+    url: "https://www.ea.govt.nz/news/eye-on-electricity/accuracy-of-the-forward-price-curve"
+  - id: ref-nzea-forward-market
+    title: "The forward electricity market explained (Eye on electricity)"
+    publisher: "New Zealand Electricity Authority"
+    tier: 3
+    kind: html
+    url: "https://www.ea.govt.nz/news/eye-on-electricity/the-forward-electricity-market-explained"
+  - id: ref-rmi-ppa-risk
+    title: "A Local Government's Guide to Off-Site Renewable PPA Risk Mitigation"
+    publisher: "RMI"
+    tier: 3
+    kind: pdf
+    edition: "2020"
+    url: "https://rmi.org/app/uploads/dlm_uploads/2021/03/rmi_off_site_ppa_risk_mitigation.pdf"
+  - id: ref-nrf-ercot-price-spikes
+    title: "ERCOT price spikes (Project Finance NewsWire)"
+    publisher: "Norton Rose Fulbright"
+    tier: 3
+    kind: html
+    edition: "October 2019"
+    url: "https://www.projectfinance.law/publications/2019/october/ercot-price-spikes"
+  - id: ref-nrf-vppa-risks
+    title: "Corporate VPPAs: Risks and sensitivities"
+    publisher: "Norton Rose Fulbright"
+    tier: 3
+    kind: html
+    edition: "June 2020"
+    url: "https://www.projectfinance.law/publications/2020/june/corporate-vppas-risks-and-sensitivities"
+  - id: ref-nrf-vppa-financing
+    title: "Financing projects with virtual PPAs"
+    publisher: "Norton Rose Fulbright"
+    tier: 3
+    kind: html
+    edition: "October 2017"
+    url: "https://www.projectfinance.law/publications/2017/october/financing-projects-with-virtual-ppas"
+  - id: ref-nrf-hedges-since-uri
+    title: "How hedges have changed since Uri"
+    publisher: "Norton Rose Fulbright"
+    tier: 3
+    kind: html
+    edition: "June 2022"
+    url: "https://www.projectfinance.law/publications/2022/june/how-hedges-have-changed-since-uri"
+  - id: ref-nrf-energy-hedges
+    title: "Energy Hedges: What To Look For"
+    publisher: "Norton Rose Fulbright"
+    tier: 3
+    kind: html
+    url: "https://www.nortonrosefulbright.com/en/knowledge/publications/a9f5d025/energy-hedges-what-to-look-for"
+  - id: ref-yale-ppa-risk
+    title: "Navigating risk: corporate PPA guide"
+    publisher: "Yale Clean Energy Forum"
+    tier: 3
+    kind: html
+    edition: "2020-04-24"
+    url: "https://cleanenergyforum.yale.edu/2020/04/24/navigating-risk-corporate-ppa-guide"
+  - id: ref-yale-vppa
+    title: "Virtual or Physical, the PPA Is Prime"
+    publisher: "Yale Clean Energy Forum"
+    tier: 3
+    kind: html
+    edition: "2020-04-16"
+    url: "https://cleanenergyforum.yale.edu/2020/04/16/virtual-or-physical-the-ppa-is-prime"
+  - id: ref-powermag-ppa
+    title: "The Power Purchase Agreement in Transition"
+    publisher: "POWER Magazine"
+    tier: 3
+    kind: html
+    url: "https://www.powermag.com/the-power-purchase-agreement-in-transition/"
+  - id: ref-wbcsd-multitech-ppa
+    title: "How multi-technology PPA structures could help companies reduce risk"
+    publisher: "WBCSD"
+    tier: 3
+    kind: pdf
+    url: "https://archive.wbcsd.org/contentwbc/download/6594/111360/1"
+  - id: ref-epex-wind-hedging
+    title: "Possible Hedging Strategies for Wind Power Generation"
+    publisher: "EPEX SPOT"
+    tier: 3
+    kind: pdf
+    url: "https://www.epexspot.com/sites/default/files/download_center_files/Possible%20Hedging%20Strategies%20for%20Wind%20Power%20Generation.pdf"
+  - id: ref-pillsbury-gas-hedges
+    title: "Financial hedges for US gas-fired power generation facilities"
+    publisher: "Pillsbury Winthrop Shaw Pittman"
+    tier: 3
+    kind: pdf
+    url: "https://www.pillsburylaw.com/images/content/1/1/112018.pdf"
+  - id: ref-fpml-heat-rate-option
+    title: "Daily Heat Rate Option confirmation example (FpML 5.6)"
+    publisher: "FpML / ISDA"
+    tier: 3
+    kind: pdf
+    url: "https://fpml.org/spec/fpml-5-6-3-tr-1/html/confirmation/confirmations/com-ex35-call-option-gas-power-heat-rate-daily.pdf"
+  - id: ref-sfu-tolling-thesis
+    title: "Tolling valuation and strategies for Powerex Corp. (MBA project)"
+    publisher: "Simon Fraser University"
+    tier: 3
+    kind: pdf
+    url: "https://summit.sfu.ca/_flysystem/fedora/sfu_migrate/7677/b36599566.pdf"
+  - id: ref-fields-tolling-slides
+    title: "Tolling Deals (lecture slides, Fields Institute)"
+    publisher: "Fields Institute, University of Toronto"
+    tier: 3
+    kind: pdf
+    edition: "2013-14"
+    url: "https://av.fields.utoronto.ca/programs/scientific/13-14/envirofinance/swindle2.pdf"
+  - id: ref-ogj-tolling
+    title: "Merchant plant tolling contracts divide risk"
+    publisher: "Oil & Gas Journal"
+    tier: 3
+    kind: html
+    url: "https://www.ogj.com/pipelines-transportation/article/17252294/merchant-plant-tolling-contracts-divide-risk"
+  - id: ref-totalenergies-tolling
+    title: "What is tolling?"
+    publisher: "TotalEnergies"
+    tier: 3
+    kind: html
+    url: "https://totalenergies.com/news/news/what-tolling"
+  - id: ref-esig-storage-contracts
+    title: "Contract designs for storage in low-carbon markets"
+    publisher: "Energy Systems Integration Group"
+    tier: 3
+    kind: pdf
+    url: "https://www.esig.energy/attachment/serve/session-4b-contract-designs-for-storage-in-low-carbon-markets-farhad-billimoria-2"
+  - id: ref-c2es-ppa
+    title: "How cities benefit from PPAs"
+    publisher: "Center for Climate and Energy Solutions"
+    tier: 3
+    kind: pdf
+    edition: "2018"
+    url: "https://www.c2es.org/wp-content/uploads/2018/09/how-cities-benefit-from-ppas.pdf"
+  - id: ref-montel-optimisation
+    title: "How to optimise generation portfolios across spot and forward power markets"
+    publisher: "Montel"
+    tier: 3
+    kind: html
+    url: "https://montel.energy/resources/blog/how-to-optimise-generation-portfolios-across-spot-and-forward-power-markets"
+  - id: ref-gevernova-optimization
+    title: "Asset and Fleet Optimization: Key to Success for Power Generators"
+    publisher: "GE Vernova"
+    tier: 3
+    kind: html
+    url: "https://gevernova.com/software/blog/asset-fleet-optimization-for-power-generators"
+  - id: ercot-as-methodology-2026
+    title: "ERCOT Methodologies for Determining Minimum Ancillary Service Requirements, 2026"
+    publisher: "ERCOT"
+    tier: 1
+    kind: docx
+    edition: "effective 2026-01-01"
+    url: "https://www.ercot.com/files/docs/2022/06/07/2026_Methodology_for_Determining_Minimum_AS_Reqs.zip"
+    note: "The url is a zip archive; the text was extracted by hand from the docx inside it. fetch.ts cannot refresh this one."

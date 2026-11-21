@@ -1,0 +1,833 @@
+ERCOT Nodal Protocols
+
+Section 22
+
+Attachment S: Demand Response Data Definitions and Technical Specifications
+
+February 1, 2026
+
+1. INTRODUCTION
+Paragraph (2) of Section 3.10.7.2.1, Reporting of Demand Response, requires ERCOT to work with Market Participants to produce an annual report summarizing aggregate Customer counts and MWs enrolled in Demand response in the ERCOT Region. This attachment provides specific definitions and technical requirements necessary to conduct the annual ERCOT Demand response data collection process. ERCOT will also annually review reporting processes and look for other methods of obtaining Demand response data, including surveys with similar confidence levels performed by ERCOT staff or educational institutions.
+
+2. REP SPECIFIC INSTRUCTIONS
+
+  a. ESI ID Submission to ERCOT
+
+  Retail Electric Providers (REPs) that are classified by ERCOT as having a reporting requirement and that have Electric Service Identifiers (ESI IDs) participating in Demand/price response programs are required to identify each of the ESI IDs for which they are the REP of record on the ERCOT-defined Snapshot Date of September 1 of the survey year and determine which of those ESI IDs were participating in one or more programs that are consistent with the categories described in the ‘Appendix A Category Definitions’ which follows.
+
+  The REP shall compile a Comma Separated Value (.csv) file that follows one of the formats described in the ‘Data Exchange Instructions’ section which follows. The REP shall submit the files to ERCOT via North American Energy Standards Board (NAESB) Electronic Delivery Mechanism (EDM) or using the ERCOT-designated secure file sharing application as described in the ‘Data Exchange Instructions’ section below.
+
+  b. ERCOT Validation and Response Files
+
+  ERCOT will validate the .csv files and send response files back to the REP in two Business Days or less, with the results of the validation as described in the ‘Data Exchange Instructions’ section which follows. For REPs that submit files via NAESB, the response files will be sent via NAESB. For REPs that submit files using the ERCOT-designated secure file sharing application, the response files will be sent back to the REP with that application.
+
+  REPs shall investigate any errors reported by ERCOT, make necessary corrections and resubmit the complete file with corrections to ERCOT. The required level of accuracy is for 95% of the reporting REP’s ESI IDs submitted to have no errors. REPs shall continue to correct and resubmit files until notified by ERCOT that the REP has achieved the required accuracy level. REPs shall complete this process on or before October 31 of the survey year. ERCOT will notify the Authorized Representative for each REP when they have achieved the required level of accuracy.
+
+  c. ERCOT Provided ESI ID Extract File
+
+  To facilitate the error correction process described above, ERCOT shall provide a ‘DRData_ESIID_List’ file to each REP identified as having a reporting requirement. This information will be extracted from ERCOT systems listing all ESI IDs owned by the REP on September 1 of the survey year. Details of this file are provided in the ‘Data Exchange Instructions’ section below. The ERCOT-provided file will also list the REP of record date for that period of ownership, the Profile Group (“RES” or “BUS”) and the Meter Data Type. The file will be specific to each Data Universal Numbering System (DUNS) and will be provided to REPs using the ERCOT-designated secure file sharing application on or before September 11 of the survey year as described in the ‘Data Exchange Instructions’ section below. Due to file size limitations applicable to the ERCOT-designated secure file sharing application ERCOT will partition files accordingly. ERCOT will also honor size restrictions for REPs; REPs with file size restrictions must inform ERCOT as to the maximum file size.
+
+  d. REP Event File Submission
+
+  In conjunction with the ‘Participation Requirements’ section above, REPs identified as having a reporting requirement and that have programs that entail specific deployment events shall complete and submit event surveys for those programs. The program categories for which deployment event details are applicable are as follows: 4CP Advise-Control; CPP – Critical Peak Pricing; PR – Peak Rebate; OLC – Other Direct Load Control; and OTH – Other Voluntary Demand Response Product.
+
+  Details of the DRDataREPEvents file are provided in the ‘Data Exchange Instructions’ section below. Event surveys shall be submitted to ERCOT between October 1 and October 31 of the survey year and should report on all events from October 1 of the prior year through September 30 of the survey year. Note: ERCOT’s analysis is limited to events during the summer months, but it is important to flag events at other times so they are not used in calculating baselines. If a REP has participation in one of the above listed categories and has not deployed that program, the event survey still must be submitted stating this.
+
+  e. REP Reporting Considerations
+
+  i. If an ESI ID is participating in more than one program or is participating in a program with a definition that spans multiple categories, the REP must list the ESI ID once for each category.
+
+  ii. If an ESI ID is participating in a program and fails to reduce Load or opts-out of any or all deployments, the ESI ID still should be included in the file submitted to ERCOT. If a program has not been deployed for the reporting period, or is deployed for only some of the participants, all ESI IDs that could have been deployed should be included in the file.
+
+  iii. If an ESI ID is enrolled as a Load Resource or is participating in Emergency Response Service (ERS) and is only deployed by ERCOT instruction, the ESI ID should not be reported as participating in one of the REP’s programs.
+
+  iv. If an ESI ID is enrolled by a REP in a Transmission and/or Distribution Service Provider (TDSP) sponsored Standard Offer Load Management program and is only deployed by the TDSP, the ESI ID should not be reported as participating in one of the REP’s programs.
+
+  v. ESI IDs that participate in an ERCOT or TDSP program and also participate in a REP Demand/price response program should be reported as participating in the applicable REP program. For such ESI IDs, deployment event reporting should be limited to deployments initiated by the REP and unrelated to ERCOT/TDSP deployments.
+
+  vi. The ‘Direct Load Control Indicator’ field documented in the ‘REP Files Sent to ERCOT’ section should be submitted with a value of either ‘Y’ or ‘N’ for an ESI ID in conjunction with one of the program categories. A value of ‘Y’ should be used to indicate that the REP, or a 3rd party on behalf of the REP, has the ability to exercise direct control of electrical equipment behind the Customer’s meter to effectuate the Demand/price response.
+
+  1. For example, if the Customer is participating in the REP’s Peak Rebate program, and is paid the rebate based on the amount of Load reduction associated with direct control by or on behalf of the REP, the ‘Direct Load Control Indicator’ should be set to ‘Y’.
+
+  2. If the REP, or third party, can directly initiate a deployment, and the Customer has the ability to opt-out of a deployment, the ‘Direct Load Control Indicator’ should be set to ‘Y’.
+
+  3. If, on the other hand, the Demand/price response is under the Customer’s control, the ‘Direct Load Control Indicator’ should be set to ‘N’.
+
+3. NOIE SPECIFIC INSTRUCTIONS
+
+a.  Demand Response Survey Submission to ERCOT
+
+  Non-Opt-In Entities (NOIEs) that are classified by ERCOT as having a reporting requirement and that have Customers participating in Demand/price response programs are required to complete and submit NOIE Demand Response Participation and Event Surveys to ERCOT between October 1 and October 31 of the survey year and, if applicable, should report on all events from October 1 of the prior year through September 30 of the survey year. Note: ERCOT’s analysis is limited to events during the summer months, but it is important to flag events at other times so they are not used in calculating baselines. Details of the DRDataCollectionNOIEParticipation and DRDataCollectionNOIEEvent files are provided in the ‘Data Exchange Instructions’ section below.
+
+  The participation survey should be completed by indicating the number of residential and non-residential Customers participating in each of the programs as of September 1 of the survey year. The event survey should be completed for each deployment event by providing details on specific deployment events.
+
+b.  NOIE Reporting Considerations
+
+  i. If a Customer is participating in more than one program or is participating in a program with a definition that spans multiple categories, the NOIE should include that Customer in the counts for all such programs.
+
+  ii. If a Customer is participating in a program and fails to reduce Load or opts-out of any or all deployments, the Customer still should be included in the counts for that program.
+
+  iii. If a program has not been deployed for the reporting period, or is deployed for only some of the participants, all Customers that could have been deployed should be included in the counts for that program.
+
+  iv. If a Customer is enrolled as a Load Resource or is participating in Emergency Response Service (ERS) and is only deployed by ERCOT instruction, the Customer should not be counted as participating in one of the NOIE’s programs.
+
+  v. Customers that participate as a Load Resource or in ERS and also participate in a NOIE Demand/price response program should be counted as participating in the applicable NOIE program. For such participation, deployment event reporting should be limited to deployments initiated by the NOIE.
+
+  vi. NOIEs that administer Conservation Voltage programs may not have accurate counts of Customers that are affected for specific activation events. In such cases, NOIEs should provide estimated counts of Customers, and advise ERCOT via email that estimated counts are being provided.
+
+4. DATA EXCHANGE INSTRUCTIONS
+
+  a. File Exchange Methods
+
+  i. NAESB: This method has been used previously by Retail Electric Providers (REPs) and continues to be available to them. This method provides for secure file exchange both inbound to and outbound from ERCOT. For REPs that opt to use this method, the North American Energy Standards Board (NAESB) file exchange will be used in both directions. The file naming conventions and file formats are described below.
+
+  ii. ERCOT-designated secure file sharing application: This method should be used by Non-Opt-In Entities (NOIEs) to submit their Demand Response Surveys securely to ERCOT. The method should be used by REPs to submit their REP event survey files and may also be used by REPs to securely send and receive Electric Service Identifier (ESI ID) participation files to and from ERCOT as an alternative to using NAESB. To establish this sharing capability ERCOT will send a sample file to the email addresses of the contact names provided by each NOIE and requesting REP. The recipient will receive an automated email with a link to register to use the application and to have access to download the file. Recipients will then be able to securely send files to and receive files from ERCOT.
+
+  b. File Name and Format Conventions
+
+  i. NOIE Files Sent to ERCOT
+
+  NOIEs must send DRDataCollectionNOIEParticipation and DRDataCollectionNOIEEvent files to ERCOT via the ERCOT-designated secure file sharing application and are required to follow the file format and content specifications shown in the tables below. Note: data elements should be separated with pipes (‘|’) as the delimiter.
+
+  1. NOIE Participation File: This file is used by NOIEs to report counts of Customers in the various categories of Demand response.
+
+a.  File Naming Convention: DRDataCollectionNOIEParticipation files are required to follow the naming convention shown below:
+
+  | DUNS | Report Name | Date/Time
+
+  0000000000000DRDataCollectionNOIEParticipation20201023152515.csv
+
++----------------+--------------------------------------------------------------+----------------------+
+| Data Element   | Comments                                                     | Format               |
++================+==============================================================+======================+
+| DUNS           | NOIE Data Universal Numbering Systems (DUNS) Number (DUNS #) | Numeric (9 or 13)    |
++----------------+--------------------------------------------------------------+----------------------+
+| Report Name    | ‘DRDataCollectionNOIEParticipation’                          | Alphanumeric (33)    |
++----------------+--------------------------------------------------------------+----------------------+
+| Date/Time      | File transmission date/time stamp                            | Datetime format =    |
+|                |                                                              |                      |
+|                |                                                              | ccyymmddhhmmss       |
++----------------+--------------------------------------------------------------+----------------------+
+| .csv           | Value of .csv mandatory in file name                         |                      |
++----------------+--------------------------------------------------------------+----------------------+
+
+  b. NOIE Participation File Specifications
+
++------------------------------------------+--------------------------------------------------------------------------------------+----------------------+
+| Data Element                             | Comments                                                                             | Format               |
++==========================================+======================================================================================+======================+
+| Category Code                            | Category of Demand response product in which the ESI ID is participating.            | Alpha numeric (4)    |
+|                                          |                                                                                      |                      |
+|                                          | (The acceptable codes shown below)                                                   |                      |
++------------------------------------------+--------------------------------------------------------------------------------------+----------------------+
+| Residential Customers                    | The total number of Residential Customers participating as of the snapshot date.     | Numeric (8)          |
++------------------------------------------+--------------------------------------------------------------------------------------+----------------------+
+| Non-Residential Customers                | The total number of Non-Residential Customers participating as of the snapshot date. | Numeric (8)          |
++------------------------------------------+--------------------------------------------------------------------------------------+----------------------+
+| Residential Customers Other Programs     | The total number of Residential Customers participating on a different program.      | Numeric (8)          |
++------------------------------------------+--------------------------------------------------------------------------------------+----------------------+
+| Non-Residential Customers Other Programs | The total number of Residential Customers participating on a different program.      | Numeric (8)          |
++------------------------------------------+--------------------------------------------------------------------------------------+----------------------+
+
+Category Code Descriptions
+(Detailed category descriptions are provided in Appendix A, Category Descriptions)
+
+  -----------------------------------------------------------------------
+  Category Code       Category Description
+  ------------------- ---------------------------------------------------
+  4CPI                4-Coincident Peak – Incentive
+
+  4CPA                4-Coincident Peak – Advise-Control
+
+  CPP                 Critical Peak Pricing
+
+  CVR                 Conservation Voltage Reduction
+
+  IRT                 Indexed Real-Time
+
+  IDA                 Indexed Day-Ahead
+
+  IOT                 Indexed Other
+
+  OLC                 Other Direct Load Control
+
+  OTH                 Other Voluntary Demand Response Product
+
+  PR                  Peak Rebate
+
+  TOU                 Time of Use
+  -----------------------------------------------------------------------
+
+  c. Example DRDataCollectionNOIEParticipation file
+
+  4CPI|500|100|50|60|
+
+  4CPA|900|0|500|0|
+
+  OLC|2000|0|2000|0|
+
+  2. NOIE Event File: This file is used by NOIEs to report counts of Customers participating in deployment events for the various categories of Demand response.
+
+a.  File Naming Convention: DRDataCollectionNOIEEvent files are required to follow the naming convention shown below:
+
+  | DUNS | Report Name | Date
+
+  0000000000000DRDataCollectionNOIEEvent20201023152515.csv
+
++----------------+--------------------------------------+----------------------+
+| Data Element   | Comments                             | Format               |
++================+======================================+======================+
+| DUNS           | NOIE DUNS #                          | Numeric (9 or 13)    |
++----------------+--------------------------------------+----------------------+
+| Report Name    | ‘DRDataCollectionNOIEEvent’          | Alphanumeric (33)    |
++----------------+--------------------------------------+----------------------+
+| Date/Time      | File transmission date/time stamp    | Datetime format =    |
+|                |                                      |                      |
+|                |                                      | ccyymmddhhmmss       |
++----------------+--------------------------------------+----------------------+
+| .csv           | Value of .csv mandatory in file name |                      |
++----------------+--------------------------------------+----------------------+
+
+  b. NOIE Event File Specifications
+
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+----------------------+
+| Data Element                  | Comments                                                                                                                              | Format               |
++===============================+=======================================================================================================================================+======================+
+| Category Code                 | Category of Demand response product in which the Customers are participating.                                                         | Alpha numeric (3)    |
+|                               |                                                                                                                                       |                      |
+|                               | (The acceptable codes shown below)                                                                                                    |                      |
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+----------------------+
+| Deployment Date               | The date the program was actually deployed. If advance notice was provided on a prior date, report actual date of deployment.         | Date format =        |
+|                               |                                                                                                                                       |                      |
+|                               |                                                                                                                                       | ccyymmdd             |
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+----------------------+
+| Deployment Begin Time         | The time the curtailment was to begin. If advance notice was provided at a prior date/time, report time the curtailment was to begin. | Time format =        |
+|                               |                                                                                                                                       |                      |
+|                               |                                                                                                                                       | hhmm                 |
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+----------------------+
+| Deployment End                | The time the curtailment was to end.                                                                                                  | Time format =        |
+|                               |                                                                                                                                       |                      |
+| Time                          |                                                                                                                                       | hhmm                 |
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+----------------------+
+| Residential Customers         | The total number of residential ESI IDs deployed even if cycling was used.                                                            | Numeric (8)          |
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+----------------------+
+| Non-Residential Customers IDs | The total number of non-residential ESI IDs deployed even if cycling was used.                                                        | Numeric (8)          |
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+----------------------+
+
+Category Code Descriptions
+(Detailed category descriptions are provided in Appendix A, Category Descriptions)
+
+  -----------------------------------------------------------------------
+  Category Code       Category Description
+  ------------------- ---------------------------------------------------
+  4CPI                4-Coincident Peak – Incentive
+
+  4CPA                4-Coincident Peak – Advise-Control
+
+  CPP                 Critical Peak Pricing
+
+  CVR                 Conservation Voltage Reduction
+
+  OLC                 Other Direct Load Control
+
+  OTH                 Other Voluntary Demand Response Product
+
+  PR                  Peak Rebate
+  -----------------------------------------------------------------------
+
+  c. Example DRDataCollectionNOIEEvent file
+
+  4CPI|20250701|1500|1800|500|100|
+
+  4CPA|20250701|1500|1800|500|100|
+
+  PR|20250701|1500|1600|500|100|
+
+  OLC|20250701|1500|1600|1000|0|
+
+  ii. REP Files Sent to ERCOT
+
+  1. REP Event Survey: This file is used by REPs to report the details of any deployment events associated with the REP’s Demand response programs. Deployment events between the snapshot date of the prior survey and the snapshot date of the current year survey must be reported. If no deployment events occurred, the REP must send a blank file to ERCOT. REPs must send files to ERCOT via the ERCOT-designated secure file sharing application using the file template provided below.
+
+  a. File Naming Convention: DRDataREPEvents files are required to follow the naming convention shown below:
+
+  | DUNS | Report Name | Date
+
+  0000000000000DRDataREPEvents20201023152515.csv
+
++-----------------+--------------------------------------+----------------------+
+| Data Element    | Comments                             | Format               |
++=================+======================================+======================+
+| DUNS            | Competitive Retailer (CR) DUNS #     | Numeric (9 or 13)    |
++-----------------+--------------------------------------+----------------------+
+| Report Name     | ‘DRDataREPEvents’                    | Alphanumeric (15)    |
++-----------------+--------------------------------------+----------------------+
+| Date/Time       | File transmission date/time stamp    | Datetime format =    |
+|                 |                                      |                      |
+|                 |                                      | ccyymmddhhmmss       |
++-----------------+--------------------------------------+----------------------+
+| .csv            | Value of .csv mandatory in file name |                      |
++-----------------+--------------------------------------+----------------------+
+
+  b. ERCOT-Designated Secure File Share: REPs must send DRDataREPEvents files to ERCOT via the ERCOT-designated secure file sharing application and are required to follow the file format and content specifications shown in the table below. Note: data elements should be separated with pipes (‘|’) as the delimiter.
+
+  c. DRDataREPEvents File Specifications
+
++----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------------+
+| Column Heading                   | Comments                                                                                                                              | Format             |
++==================================+=======================================================================================================================================+====================+
+| Category Code                    | Category of Demand response product in which the ESI ID is participating.                                                             | Alpha numeric (3)  |
+|                                  |                                                                                                                                       |                    |
+|                                  | (The acceptable codes shown below)                                                                                                    |                    |
++----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------------+
+| Deployment Date                  | The date the program was actually deployed. If advance notice was provided on a prior date, report actual date of deployment.         | Date format =      |
+|                                  |                                                                                                                                       |                    |
+|                                  |                                                                                                                                       | ccyymmdd           |
++----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------------+
+| Deployment Begin Time            | The time the curtailment was to begin. If advance notice was provided at a prior date/time, report time the curtailment was to begin. | Time format =      |
+|                                  |                                                                                                                                       |                    |
+|                                  |                                                                                                                                       | hhmm               |
++----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------------+
+| Deployment End                   | The time the curtailment was to end.                                                                                                  | Time format =      |
+|                                  |                                                                                                                                       |                    |
+| Time                             |                                                                                                                                       | hhmm               |
++----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------------+
+| Residential ESI IDs              | The total number of residential ESI IDs deployed even if cycling was used.                                                            | Numeric (8)        |
++----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------------+
+| Non-Residential ESI IDs          | The total number of non-residential ESI IDs deployed even if cycling was used.                                                        | Numeric (8)        |
++----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------------+
+| Cycling Strategy (if applicable) | If cycling was used, provide a brief description of the strategy. Otherwise specify NA (not applicable)                               | Alphanumeric (100) |
++----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------------+
+| Comments                         | Any clarifying comments about the program. Otherwise specify NA (not applicable)                                                      | Alphanumeric (100) |
++----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------------+
+
+Category Code Descriptions
+(Detailed category descriptions are provided in Appendix A, Category Descriptions)
+
+  -----------------------------------------------------------------------
+  Category Code       Category Description
+  ------------------- ---------------------------------------------------
+  4CP                 4-Coincident Peak – Advise-Control
+
+  CPP                 Critical Peak Pricing
+
+  PR                  Peak Rebate
+
+  OLC                 Other Direct Load Control
+
+  OTH                 Other Voluntary Demand Response Product
+  -----------------------------------------------------------------------
+
+  d. Example DRDataREPEvents file
+
+  PR|20250701|1500|1600|500|100|NA|NA|
+
+  OLC|20250701|1500|1600|1000|0|NA|NA|
+
+  4CP|20250701|1500|1600|0|20|NA|NA|
+
+  2. DRDataCollection: REPs should use files with this report name to send information to ERCOT regarding ESI ID participation in the various categories of price and Demand response. The format of the file is determined by whether the REP sends the file via NAESB or via the ERCOT-designated secure file sharing application.
+
+  a. File Naming Convention: DRDataCollection files (both the ERCOT-designated secure file sharing application and NAESB) are required to follow the naming convention shown below:
+
+  | DUNS | Report Name | Date/Time | Counter
+
+  0000000000000DRDataCollection20201023113001999.csv
+
++-----------------+---------------------------------------------------------------+----------------------+
+| Data Element    | Comments                                                      | Format               |
++=================+===============================================================+======================+
+| DUNS            | CR DUNS #                                                     | Numeric (9 or 13)    |
++-----------------+---------------------------------------------------------------+----------------------+
+| Report Name     | ‘DRDataCollection’                                            | Alphanumeric (16)    |
++-----------------+---------------------------------------------------------------+----------------------+
+| Date/Time       | File transmission date/time stamp                             | Datetime format =    |
+|                 |                                                               |                      |
+|                 |                                                               | ccyymmddhhmmss       |
++-----------------+---------------------------------------------------------------+----------------------+
+| counter         | Counter (optional - may be used by REP for internal tracking) | Numeric (3)          |
++-----------------+---------------------------------------------------------------+----------------------+
+| .csv            | Value of .csv mandatory in file name                          |                      |
++-----------------+---------------------------------------------------------------+----------------------+
+
+  b. ERCOT-Designated Secure File Share: REPs that chose to send files to ERCOT via the ERCOT-designated secure file sharing application are required to follow the file format and content specifications shown in the table below. Note: data elements should be separated with pipes (‘|’) as the delimiter.
+
+  ERCOT-Designated Secure File ShareDRDataCollection File Specifications
+
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------+----------------------+
+| Data Element                  | Comments                                                                                                                | Format               |
++===============================+=========================================================================================================================+======================+
+| ESI ID Number                 | The ESI ID is the basic identifier assigned to each Service Delivery Point.                                             | Alpha numeric (36)   |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------+----------------------+
+| Category Code                 | Category of Demand response product in which the ESI ID is participating.                                               | Alpha numeric (3)    |
+|                               |                                                                                                                         |                      |
+|                               | (The acceptable codes shown below)                                                                                      |                      |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------+----------------------+
+| Direct Load Control Indicator | Y or N – If the Demand response can be initiated by Load Serving Entity (LSE) or 3^(rd) party (other than the Customer) | Alpha numeric (3)    |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------+----------------------+
+| Start Date                    | The date the ESI ID commenced participation in this category                                                            | Numeric (8) yyyymmdd |
++-------------------------------+-------------------------------------------------------------------------------------------------------------------------+----------------------+
+
+  c. Example ERCOT-Designated Secure File Share DRDataCollection file
+
+  1001001001001|PR|Y|20120701|
+
+  1001001001023|PR|Y|20120715|
+
+  1001001001045|TOU|Y|20130201|
+
+  1001001001045|PR|Y|20130201|
+
+  d. NAESB: REPs that chose to send files to ERCOT via NAESB are required to follow the file format and content specifications as shown in the tables below. Note: data elements should be separated with pipes (‘|’) as the delimiter. Three record types are applicable to DRDataCollection files sent via NAESB: header record; detail record; and summary record.
+
+  At a minimum the filename must contain *.csv* after decryption otherwise the file will be rejected by ERCOT. Files will be sent with a NAESB input-format of “FF”. Any file extension other than .csv, such as .xml or .x12 will fail at ERCOT.
+
+  i. Header Record – One must be present and must be the first record in the file.
+
++-----------------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------+--------------------+
+| Data Element    | Mandatory / Optional | Comments                                                                                                                                     | Format             |
++=================+======================+==============================================================================================================================================+====================+
+| Record          | Mandatory            | Hard Code “HDR”                                                                                                                              | Alpha numeric (3)  |
+|                 |                      |                                                                                                                                              |                    |
+| Type            |                      |                                                                                                                                              |                    |
++-----------------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------+--------------------+
+| Report Name     | Mandatory            | Hard Code “DRDataCollection”                                                                                                                 | Alpha numeric (16) |
++-----------------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------+--------------------+
+| Report ID       | Mandatory            | The unique report number designated by the sender to be used in the DRDataCollectionERCOTResponse and DRDataCollectionERCOTValidation files. | Alpha numeric      |
++-----------------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------+--------------------+
+| REP DUNS Number | Mandatory            | REP of record DUNS #. Associated with the ESI IDs sent in the file.                                                                          | Numeric            |
+|                 |                      |                                                                                                                                              |                    |
+|                 |                      |                                                                                                                                              | (9 or 13)          |
++-----------------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------+--------------------+
+
+  ii. Detail Record - The DET record contains the ESI ID level Demand response information.
+
++-------------------------------+----------------------+---------------------------------------------------------------------------------------------------+----------------------+
+| Data Element                  | Mandatory / Optional | Comments                                                                                          | Format               |
++===============================+======================+===================================================================================================+======================+
+| Record Type                   | Mandatory            | Hard Code “DET”                                                                                   | Alpha numeric (3)    |
++-------------------------------+----------------------+---------------------------------------------------------------------------------------------------+----------------------+
+| Record Number                 | Mandatory            | The unique sequential record number starting with “1”                                             | Numeric (8)          |
++-------------------------------+----------------------+---------------------------------------------------------------------------------------------------+----------------------+
+| REP DUNS Number               | Mandatory            | REP of record DUNS # associated with the ESI IDs sent in the file.                                | Numeric              |
+|                               |                      |                                                                                                   |                      |
+|                               |                      |                                                                                                   | (9 or 13)            |
++-------------------------------+----------------------+---------------------------------------------------------------------------------------------------+----------------------+
+| ESI ID Number                 | Mandatory            | The ESI ID is the basic identifier assigned to each Service Delivery Point.                       | Alpha numeric (36)   |
++-------------------------------+----------------------+---------------------------------------------------------------------------------------------------+----------------------+
+| Category Code                 | Mandatory            | Category of Demand response product in which the ESI ID is participating.                         | Alpha numeric (3)    |
+|                               |                      |                                                                                                   |                      |
+|                               |                      | (The acceptable codes shown below)                                                                |                      |
++-------------------------------+----------------------+---------------------------------------------------------------------------------------------------+----------------------+
+| Direct Load Control Indicator | Mandatory            | Y or N – If the Demand response can be initiated by LSE or 3^(rd) party (other than the Customer) | Alpha numeric (1)    |
++-------------------------------+----------------------+---------------------------------------------------------------------------------------------------+----------------------+
+| Start Date                    | Mandatory            | The date the ESI ID commenced service in this category                                            | Numeric (8) yyyymmdd |
++-------------------------------+----------------------+---------------------------------------------------------------------------------------------------+----------------------+
+
+  iii. Summary Record – This record shows the number of DET records in the file.
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Data Element                  Mandatory / Optional   Comments                                                                                                                  Format
+  ----------------------------- ---------------------- ------------------------------------------------------------------------------------------------------------------------- -------------------
+  Record Type                   Mandatory              Hard Code “SUM”                                                                                                           Alpha numeric (3)
+
+  Total Number of DET Records   Mandatory              Total number of DET records, should be equal to the Record Counter in the last DET record. Use zero if no records sent.   Numeric (8)
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Category Code Descriptions
+(Detailed category descriptions are provided in Appendix A, Category Descriptions)
+
+  -----------------------------------------------------------------------
+  Category Code       Category Description
+  ------------------- ---------------------------------------------------
+  4CP                 4-Coincident Peak – Advise-Control
+
+  IRT                 Indexed to Real-Time Prices
+
+  IDA                 Indexed to Day-Ahead Prices
+
+  IOT                 Indexed to Other Market Price
+
+  CPP                 Critical Peak Pricing
+
+  PR                  Peak Rebate
+
+  TOU                 Time of Use – All Periods with Charge
+
+  FDH                 Free Days and/or Time Periods
+
+  OLC                 Other Direct Load Control
+
+  OTH                 Other Voluntary Demand Response Product
+  -----------------------------------------------------------------------
+
+  e. Example NAESB DRDataCollection file
+
+  HDR|DRDataCollection|200608300001|123456789
+
+  DET|1|123456789|1001001001001|PR|Y|20120701|
+
+  DET|2|123456789|1001001001023|PR|Y|20120715|
+
+  DET|3|123456789|1001001001045|TOU|Y|20130201|
+
+  DET|4|123456789|1001001001045|PR|Y|20130201|
+
+  SUM|4|
+
+  iii. Files Sent from ERCOT to REPs
+
+1.  DRData_ESIID_List File:
+
+  This file shall be provided prior to September 11 of the survey year to all REPs with a reporting requirement to assist with their capability to pre-validate the files they submit to ERCOT. The file includes all ESI IDs in ERCOT’s Settlement system active and owned by REP on the Snapshot Date; the file excludes ESI IDs with either an NMLIGHT or NMFLAT profile code. The file contains additional information that may be used by the REP to pre-validate a DRDataCollection file before submitting it to ERCOT.
+
+  ERCOT will distribute the file using the ERCOT-designated secure file sharing application. The file will be distributed to the requester’s email address and other email addresses copied on the requesting email. For REPs with a large number of ESI IDs this will be posted as a .zip file and/or partitioned into smaller files. REPs with file size limitations should inform ERCOT about those limitations.
+
+  ------------------- ------------------------------------------------------------------------------------------------------------------------------- ----------------------
+  Data Element        Comments                                                                                                                        Format
+
+  ESI ID Number       The ESI ID is the basic identifier assigned to each Service Delivery Point.                                                     Alpha numeric (36)
+
+  REP_Start           Date the REP first took ownership of the ESI ID for the period of ownership including the Snapshot Date.                        Numeric (8) yyyymmdd
+
+  NIDR_Start          Start date (on or after REP_Start) for the most recent period when a “Non-Interval Data Recorder” (NIDR) meter was in use.      Numeric (8) yyyymmdd
+
+  IDR_Start           Start date (on or after REP_Start) for the most recent period when an Interval Data Recorder (IDR) meter was in use.            Numeric (8) yyyymmdd
+
+  RES_PROF_Start      Start date (on or after REP_Start) for the most recent period when a Residential Profile Code was assigned.                     Numeric (8) yyyymmdd
+
+  BUS_PROF_Start      Start date (on or after REP_Start) for the most recent period when a Non-Residential Profile Code was assigned.                 Numeric (8) yyyymmdd
+
+  4CP_Start           Start date (on or after REP_Start) for the most recent period when a Customer was subject to 4-Coincident Peak (4CP) billing.   Numeric (8) yyyymmdd
+  ------------------- ------------------------------------------------------------------------------------------------------------------------------- ----------------------
+
+  a. The following validation checks should be considered by a REP prior to sending a DRDATACollection file to ERCOT:
+
+  i. An ESI ID submitted as participating on a program should be on the list.
+
+  ii. The program start date in the DRDATACollection file for an ESI ID should not precede the REP_START date for that ESI ID.
+
+  iii. For programs requiring the use of interval data (Indexed – Real Time; Indexed – Day Ahead; Critical Peak Pricing; Peak Rebate) the program start date should not precede the IDR_START and the IDR_START should not precede the NIDR_START.
+
+  iv. ESI IDs submitted as participating on a 4CP program should have:
+
+  1. A non-blank BUS_PROF_START;
+
+  2. The BUS_PROF_START should not precede the RES_PROF_START; and
+
+  3. The program start date should not precede BUS_PROF_START.
+
+  b. Example DRData_ESIID_List File:
+
+ESIID|REP_START|NIDR_START|IDT_START|RES_PROF_START|BUS_PROF_START
+
+1001001001001|19JAN2019|---------|19JAN2019|19JAN2019|---------
+
+1001001001023|09APR2010|09APR2010|05NOV2010|09APR2010|---------
+
+  2. DRDataCollectionERCOTResponse<counter> File:
+
+  This file is the initial response from ERCOT back to a REP upon receipt of a ‘DRDataCollection’ file from that REP. The file contains information as to the status of the data submitted including any file format or mandatory data element errors. If the submitted file name has a counter appended by the REP, the response file will use the same counter. The file formats and field descriptions are as described below.
+
+  a. Header Record – One must be present and must be the first record in the file.
+
++--------------------+----------------------+--------------------------------------------------------------------------------------------------------+--------------------+
+| Data Element       | Mandatory / Optional | Comments                                                                                               | Format             |
++====================+======================+========================================================================================================+====================+
+| Record Type        | Mandatory            | Hard Code “HDR”                                                                                        | Alpha numeric      |
+|                    |                      |                                                                                                        |                    |
+|                    |                      |                                                                                                        | (3)                |
++--------------------+----------------------+--------------------------------------------------------------------------------------------------------+--------------------+
+| Report Name        | Mandatory            | Hard Code “DRDataCollectionERCOTResponse”                                                              | Alpha numeric (29) |
++--------------------+----------------------+--------------------------------------------------------------------------------------------------------+--------------------+
+| Original Report ID | Mandatory            | Report ID as sent in the                                                                               | Alpha numeric      |
+|                    |                      |                                                                                                        |                    |
+|                    |                      | DRDataCollection file.                                                                                 |                    |
++--------------------+----------------------+--------------------------------------------------------------------------------------------------------+--------------------+
+| REP DUNS Number    | Mandatory            | REP of record DUNS # receiving this response report information based on the original file submission. | Numeric            |
+|                    |                      |                                                                                                        |                    |
+|                    |                      |                                                                                                        | (9 or 13)          |
++--------------------+----------------------+--------------------------------------------------------------------------------------------------------+--------------------+
+
+  b. ER1 Record – Used to designate a record with an invalid value or format, with a reference to the record number in the submitted file that contained the error.
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Data Element             Mandatory / Optional   Comments                                                                                                                Format
+  ------------------------ ---------------------- ----------------------------------------------------------------------------------------------------------------------- --------------------
+  Record Type              Mandatory              Hard Code “ER1”                                                                                                         Alpha numeric (3)
+
+  Record Number            Mandatory              The unique sequential record number starting with “1”                                                                   Numeric (8)
+
+  ESI ID Number            Mandatory              The ESI ID is the basic identifier assigned to each Service Delivery Point.                                             Alpha numeric (36)
+
+  Original Record Type     Mandatory              The type of record in error. Valid values are DET, HDR, and SUM.                                                        Alpha numeric (3)
+
+  Original Record Number   Conditional            Original DET Record Number sent from DRDataCollection file that is in error. Required if Original Record Type is DET.   Numeric (8)
+
+  Field Name               Mandatory              Field name in record that is in error.                                                                                  Alpha numeric (80)
+
+  Error Description        Mandatory              Description of error.                                                                                                   Alpha numeric (80)
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  c. ER2 Record – Used to designate a record with a missing mandatory field, with a reference to the record number in the submitted file that contained the error.
+
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+| Data Element           | Mandatory / Optional | Comments                                                                     | Format             |
++========================+======================+==============================================================================+====================+
+| Record Type            | Mandatory            | Hard Code “ER2”                                                              | Alpha numeric (3)  |
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+| Record Number          | Mandatory            | The unique sequential record number starting with “1”                        | Numeric (8)        |
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+| ESI ID Number          | Mandatory            | The ESI ID is the basic identifier assigned to each Service Delivery Point.  | Alpha numeric (36) |
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+| Original Record Type   | Mandatory            | The type of record in error. Valid values are DET, HDR, and SUM.             | Alpha numeric (3)  |
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+| Original Record Number | Conditional          | Original DET Record Number sent from DRDataCollection file that is in error. | Numeric (8)        |
+|                        |                      |                                                                              |                    |
+|                        |                      | Required if Original Record Type is DET.                                     |                    |
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+| Field Name             | Mandatory            | Field name of record that is in error.                                       | Alpha numeric (80) |
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+| Error Description      | Mandatory            | Description of error.                                                        | Alpha numeric (80) |
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+
+  d. Sum Record – Provides the sum of all records received in the original file, the number of records processed, and the number of DET records in error.
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Data Element                            Mandatory / Optional   Comments                                                                              Format
+  --------------------------------------- ---------------------- ------------------------------------------------------------------------------------- -------------------
+  Record Type                             Mandatory              Hard code “SUM”                                                                       Alpha numeric (3)
+
+  Total Number of DET Records             Mandatory              Total number of DET records in the original DRDataCollection file.                    Numeric (8)
+
+  Total Number of processed DET Records   Mandatory              Total number of DET records processed without error from the DRDataCollection file.   Numeric (8)
+
+  Total Number of Error Records           Conditional            Total number of DET records in error.                                                 Numeric (8)
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  e. Example DRDataCollection_ERCOTResponse File:
+
+  HDR|DRDataCollectionERCOTResponse|200608300001|123456789
+
+  ER2|1|1001001001001|DET|1|StartDate|InvalidValue
+
+  SUM|5|4|1|
+
+  3. DRDataCollectionERCOTValidation<counter> File:
+
+  This file is an additional response from ERCOT back to a REP upon receipt of a ‘DRDataCollection’ file for which the DRDataCollectionERCOTResponse file reported no errors. The file contains information as to the status of any business validation errors. If the submitted file name had a counter appended by the REP, the validation file will use the same counter. The file formats and field descriptions are as described below.
+
+  a. Header Record – One must be present and must be the first record in the file.
+
++--------------------+----------------------+--------------------------------------------------------------------------------------------------------+--------------------+
+| Data Element       | Mandatory / Optional | Comments                                                                                               | Format             |
++====================+======================+========================================================================================================+====================+
+| Record Type        | Mandatory            | Hard Code “HDR”                                                                                        | Alpha numeric (3)  |
++--------------------+----------------------+--------------------------------------------------------------------------------------------------------+--------------------+
+| Report Name        | Mandatory            | Hard Code “DRDataCollectionERCOTValidation”                                                            | Alpha numeric (31) |
++--------------------+----------------------+--------------------------------------------------------------------------------------------------------+--------------------+
+| Original Report ID | Mandatory            | Report ID as sent in the                                                                               | Alpha numeric      |
+|                    |                      |                                                                                                        |                    |
+|                    |                      | DRDataCollection file.                                                                                 |                    |
++--------------------+----------------------+--------------------------------------------------------------------------------------------------------+--------------------+
+| REP DUNS Number    | Mandatory            | REP of record DUNS # receiving this response report information based on the original file submission. | Numeric (9 or 13)  |
++--------------------+----------------------+--------------------------------------------------------------------------------------------------------+--------------------+
+
+  b. ER3 Record – Used to designate a record that failed data validation with a reference to the original record in error.
+
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+| Data Element           | Mandatory / Optional | Comments                                                                     | Format             |
++========================+======================+==============================================================================+====================+
+| Record Type            | Mandatory            | Hard Code “ER3”                                                              | Alpha numeric (3)  |
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+| Record Number          | Mandatory            | The unique sequential record number starting with “1”                        | Numeric (8)        |
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+| ESI ID Number          | Mandatory            | The ESI ID is the basic identifier assigned to each Service Delivery Point.  | Alpha numeric (36) |
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+| Original Record Type   | Mandatory            | The type of record in error. Valid values are DET, HDR, and SUM.             | Alpha numeric (3)  |
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+| Original Record Number | Conditional          | Original DET Record Number sent from DRDataCollection file that is in error. | Numeric (8)        |
+|                        |                      |                                                                              |                    |
+|                        |                      | Required if Original Record Type is DET.                                     |                    |
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+| Field Name             | Mandatory            | Field name of record that is in error.                                       | Alpha numeric (80) |
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+| Error Description      | Mandatory            | Description of error.                                                        | Alpha numeric (80) |
++------------------------+----------------------+------------------------------------------------------------------------------+--------------------+
+
+  c. Sum Record – Used to provide the sum of all records received in the original file, the number of records processed, and the number of DET records in error.
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Data Element                            Mandatory / Optional   Comments                                                                              Format
+  --------------------------------------- ---------------------- ------------------------------------------------------------------------------------- -------------------
+  Record Type                             Mandatory              Hard code “SUM”                                                                       Alpha numeric (3)
+
+  Total Number of DET Records             Mandatory              Total number of DET records in the original DRDataCollection file.                    Numeric (8)
+
+  Total Number of processed DET Records   Mandatory              Total number of DET records processed without error from the DRDataCollection file.   Numeric (8)
+
+  Total Number of Error Records           Conditional            Total number of DET records in error.                                                 Numeric (8)
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  d. Error Descriptions (ERCOT to REP -- the ER3 Record) and Common Fixes
+
++----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Error Description                                                                            | Long Description                                                                                                                                                                                                   | Common Fixes                                                                                                                                                                                                                                                                         |
++----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Invalid-ESI ID                                                                               | ESI ID is not in ERCOT settlement system or as of Snapshot Date has an Inactive or De-energized Status                                                                                                             | Check that all significant digits of ESI ID were reported and none inadvertently set to zero with copying/pasting processes.                                                                                                                                                         |
+|                                                                                              |                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                      |
+|                                                                                              |                                                                                                                                                                                                                    | Check that ESI ID is a valid ESI ID and is currently active.                                                                                                                                                                                                                         |
+|                                                                                              |                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                      |
+|                                                                                              |                                                                                                                                                                                                                    | If ESI ID is not valid or not active, remove row.                                                                                                                                                                                                                                    |
++----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Not-ROR                                                                                      | Reporting REP is not the REP of record as of Snapshot Date                                                                                                                                                         | Check if the submitting REP was the REP of record for ESI ID on the Snapshot Date.                                                                                                                                                                                                   |
+|                                                                                              |                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                      |
+|                                                                                              |                                                                                                                                                                                                                    | If not the REP of record, remove row.                                                                                                                                                                                                                                                |
++----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Start-Date-After-Snap-Shot                                                                   | Start date for ESI ID is after the specified Snapshot Date                                                                                                                                                         | Check start date of program.                                                                                                                                                                                                                                                         |
+|                                                                                              |                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                      |
+|                                                                                              |                                                                                                                                                                                                                    | If ESI ID started on the program after the Snapshot Date, remove record from file. Otherwise, correct the start date of the program for the ESI ID.                                                                                                                                  |
++----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| If any of the above errors apply to a row, no further validations are performed for the row. |                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                      |
++----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Start-Date-Before-ROR                                                                        | ERCOT settlement system indicates the reporting REP was not the REP of record during the reported program start month                                                                                              | Check the date submitted for when the ESI ID started participating on the program.                                                                                                                                                                                                   |
+|                                                                                              |                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                      |
+|                                                                                              |                                                                                                                                                                                                                    | Change the date to one that is on or after the REP of record month for the ESI ID. For example, REP reports start date as 12/1 but ERCOT records indicate the REP of record date to be 12/20. This row will be accepted by ERCOT since the reported start date is in the same month. |
++----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Invalid-Start-Date                                                                           | A REP other than the submitting REP was the REP of record for more than 30 days between the program Start Date and the Snapshot Date                                                                               | Check if submitting REP was the REP of record for ESI ID for all days from the reported program start date to Snapshot Date.                                                                                                                                                         |
+|                                                                                              |                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                      |
+|                                                                                              |                                                                                                                                                                                                                    | Change the program start date to one that is on or after the REP of record date for the period of ESI ID ownership which includes the Snapshot Date.                                                                                                                                 |
+|                                                                                              |                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                      |
+|                                                                                              |                                                                                                                                                                                                                    | Note: the 30 day allowance is intended to account for and disregard any inadvertent gains.                                                                                                                                                                                           |
++----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4CP-Wrong-LP                                                                                 | ERCOT settlement system indicates the Profile Type for ESI ID not BUS for one or more days between the program Start Date and the Snapshot Date, or that the ESI ID has not had a peak Demand of 700 kW or greater | Check ESI ID Profile Type, must be BUS for all days from the Start Date to the Snapshot Date.                                                                                                                                                                                        |
+|                                                                                              |                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                      |
+|                                                                                              |                                                                                                                                                                                                                    | Change the programs Start Date to one for which the profile code is BUS for all days up to and including the Snapshot Date.                                                                                                                                                          |
+|                                                                                              |                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                      |
+|                                                                                              |                                                                                                                                                                                                                    | If the Profile Type is not BUS on the Snapshot Date, delete the row.                                                                                                                                                                                                                 |
+|                                                                                              |                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                      |
+|                                                                                              |                                                                                                                                                                                                                    | Note: if profile is BUS, ERCOT checks peak kW for the ESI ID. If less than 700 kW, the error is issued.                                                                                                                                                                              |
++----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Invalid-LP                                                                                   | Profile Type for ESI ID is NMLIGHT or NMFLAT                                                                                                                                                                       | Check ESI ID Profile Type, must be RES, BUS or BUSIDRRQ for all days from the Start Date to the Snapshot Date.                                                                                                                                                                       |
+|                                                                                              |                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                      |
+|                                                                                              |                                                                                                                                                                                                                    | If the Profile Type is NMLIGHT or NMFLAT on the Snapshot Date, delete the row.                                                                                                                                                                                                       |
++----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Invalid-Meter                                                                                | Category Code is IRT, IDA, IOR, CPP, or PR for ESI ID with Meter Type NIDR                                                                                                                                         | Check ESI ID Profile Meter Type, must be IDR all days from the Start Date plus five days to the Snapshot Date.                                                                                                                                                                       |
+|                                                                                              |                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                      |
+|                                                                                              |                                                                                                                                                                                                                    | If the Profile Meter Type on the Snapshot Date is NIDR, delete the row.                                                                                                                                                                                                              |
++----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Duplicate-Row                                                                                | Input record is identical to a previous record except for sequence number                                                                                                                                          | Remove duplicate row.                                                                                                                                                                                                                                                                |
++----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Matching-Consecutive-Category/DLC-Codes                                                      | Input record is identical to the previous chronological record, based on start date, except for sequence number and start date                                                                                     | Remove matching row (with incorrect program start date).                                                                                                                                                                                                                             |
++----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+  e. Example 1 – REP file to ERCOT with no errors
+
+  ERCOT Response File - From ERCOT to REP
+
+  HDR|DRDataCollectionERCOTResponse|200608300001|123456789
+
+  SUM|4|0|
+
+  ERCOT Validation File - From ERCOT to REP
+
+  HDR|DRDataCollectionERCOTValidation|200608300001|123456789
+
+  SUM|4|0|
+
+  Example 2 – REP file to ERCOT with format error and a duplicate row
+
+  File 1 - From REP to ERCOT
+
+  HDR|DRDataCollection|200608300001|123456789
+
+  DET|1|123456789|1001001001001|PR|Y|0701|
+
+  DET|2|123456789|1001001001023|PR|Y|20120715|
+
+  DET|3|123456789|1001001001023|PR|Y|20120715|
+
+  DET|4|123456789|1001001001045|TOU|Y|20130201|
+
+  DET|5|123456789|1001001001045|BI|Y|20130201|
+
+  SUM|5|
+
+  File 2 - From ERCOT to REP
+
+  HDR|DRDataCollectionERCOTResponse|200608300001|123456789
+
+  ER2|1|1001001001001|DET|1|StartDate|InvalidValue
+
+  SUM|5|4|1|
+
+  File 3 - From ERCOT to REP
+
+  HDR|DRDataCollectionERCOTValidation|200608300001|123456789
+
+  ER3|1|1001001001001|DET|3|Duplicate-Row|Duplicate-Row
+
+  SUM|5|4|1|
+
+  Example 3 – REP file to ERCOT with data validation errors
+
+  File 1 - From REP to ERCOT
+
+  HDR|DRDataCollection|200608300001|123456789
+
+  DET|1|123456789|1001001001234|PR|Y|20120715|
+
+  DET|2|123456789|1001001005678|PR|Y|20120715|
+
+  DET|3|123456789|1001001004321|TOU|Y|20130201|
+
+  DET|4|123456789|1001001008765|BI|Y|20130201|
+
+  SUM|4|
+
+  File 2 - From ERCOT to REP
+
+  HDR|DRDataCollectionERCOTResponse|200608300001|123456789
+
+  SUM|4|0|
+
+  File 3 - From ERCOT to REP
+
+  HDR|DRDataCollectionERCOTValidation|200608300001|123456789
+
+  ER3|2|1001001004321|DET|3|ESIID|Not-ROR
+
+  SUM|5|4|1|
+
+APPENDIX A – Category Definitions
+
+4-Coincident Peak (4CP) Advise-Control – The Retail Electric Provider (REP) or Non-Opt-In Entity (NOIE) advises Customers to curtail or directly controls Customer Load on expected 4CP days. In the case of NOIEs, a rate incentive may also be provided to the Customer to reduce load; in such cases the Customer should be reported only in this category, and not reported in the 4CP Incentive category.
+
+4-Coincident Peak (4CP) Incentive – Applicable only to NOIEs. Rate incentives provided to Customers to encourage or cause them to reduce Load during actual or potential 4CP intervals during summer months (June through September). Reducing Load during such intervals lowers transmission charges. Customer determines when to curtail Load without advice or control from a NOIE.
+
+Conservation Voltage Reduction (CVR) – Applicable only to NOIEs. The NOIE Transmission and/or Distribution Service Provider (TDSP) reduces voltage at selected substations to reduce Load when conservation is needed.
+
+Critical Peak Pricing (CPP) – Customer prices that rise for limited duration periods of time identified by the REP/NOIE. These periods usually correlate to high prices occurring in the Day-Ahead or anticipated to occur in the Real-Time wholesale market. Critical peak events usually occur a limited number of times per year and typically are communicated a day in advance.
+
+Free Days and/or Time Periods (FDH) – Customer is not charged for consumption on specified days of week, holidays, and/or time periods of the day. For example: free nights and weekends. Alternatively, Customer is allowed to designate days during a billing period for which consumption is not charged.
+
+Indexed Day-Ahead (IDA) – May or may not include fixed pricing for a defined volume of usage, but does include pricing for some or all usage, indexed to the Day-Ahead Settlement Point Prices for the premise Load Zone. Charges are based on Customer's actual interval data.
+
+Indexed Other (IOT) – May or may not include fixed pricing for a defined volume of usage, but does include pricing for some or all usage, indexed to a market price for the premise Load Zone, other than the Real-Time or Day-Ahead Settlement Point Prices e.g., Ancillary Services Pricing. Charges are based on Customer's actual interval data.
+
+Indexed Real-Time (IRT) – May or may not include fixed pricing for a defined volume of usage, but does include pricing for some or all usage, indexed to the Real-Time Settlement Point Prices. Charges are based on Customer's actual interval data.
+
+Other Direct Load Control (OLC) – Agreements that allow the REP/NOIE or a third party to control the Customer’s Load remotely for economic or grid reliability purposes. This category applies to Direct Load Control (DLC) not associated with the Customer’s energy price, and with different deployment criteria than described elsewhere. (Avoid double counting if DLC data was reported in other categories.) Customer incentive is predefined and does not vary based upon the response.
+
+-   OLC Example - OLC (always has DLC) REP identifies a day on which high prices have, or are about to, materialize. The REP sends a signal to the Customer’s web-enabled thermostat to increase its set point by 3 degrees. The REP agrees to pay the Customer $10 / month for each summer month, and the Customer agrees to allow the thermostat to be set higher 10 times during the summer for periods up to 2 hours long. If the Customer overrides the REP thermostat setting during a month, the Customer’s payment is reduced by $3.
+
+Other Voluntary Demand Response Program (OTH) – Any retail program not covered in the other categories that includes a Demand response incentive or signal. General conservation messages to all or a majority of a REP’s or a NOIE’s Customers are not applicable.
+Peak Rebates (PR) – A retail offering in which the Customer is eligible for a financial incentive paid for Load reductions taken during periods of time identified by the Load Serving Entity (LSE) and communicated to the Customer during the prior day or the event day or both. LSE has defined a method to identify whether a Customer has responded and to quantify the response amount. Payment (rebate) to Customer is based upon the magnitude of the Customer’s response.
+
+Peak Rebate examples:
+
+-   No DLC: The REP sends an email one day prior if high prices are forecasted, and sends a reminder text/tweet the morning of the following day. The REP identifies responding Customers using a recent similar weather day as a baseline to estimate what the Customer’s Load would have been. If the Customer’s actual Load during the predicted intervals was lower than the baseline, the REP agrees to pay the Customer $X / kWh of reduction.
+
+-   DLC: REP sends email one day prior if high prices are forecasted, and sends a reminder text/tweet the morning of the following day. When high prices materialize, the REP sends a signal to the Customer’s web-enabled thermostat to increase its set point by 3 degrees. The REP establishes a baseline for the Customer to estimate what the Customer’s Load would have been. If the Customer’s actual Load during the predicted intervals was lower than the baseline, the REP agrees to pay the Customer $X / kWh of reduction.
+
+Time of Use (TOU) – Prices that vary across defined blocks of hours, with predefined prices and schedules. (As used here, does not apply to seasonal adjustments.)

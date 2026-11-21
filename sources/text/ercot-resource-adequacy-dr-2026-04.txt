@@ -1,0 +1,4016 @@
+PUBLIC
+
+Purpose
+Discuss strategic challenges, issues, and approaches to
+addressing resource adequacy, focusing on the potential
+benefits of Demand Response to address short and midterm supply limitations.
+
+Item 11.1: Strategic
+Discussion on Resource
+Adequacy and the Role of
+Demand Response
+Keith Collins
+Vice President, Commercial Operations
+
+For information only
+No action is requested; for discussion only.
+
+Key Takeaways
+• ERCOT system faces potential demand and supply
+imbalances as load grows.
+
+Board of Directors Meeting
+
+• Supply chain challenges limit resource options in
+the short-run.
+
+April 20-21, 2026
+
+• Consider value of promoting demand response as
+a near-term solution to emerging resource
+adequacy challenges.
+
+Item 11.1
+
+PUBLIC
+
+Strategic Challenges to ERCOT System
+
+Even at the low end, loads are forecast to grow at significant
+rates in coming years
+
+Supply chains limit short and mid-term options to meet growing
+demand
+
+Combined, these challenges highlight the need for a range of
+solutions to ensure grid reliability and resource adequacy
+2
+
+Item 11.1
+
+PUBLIC
+
+ERCOT Strategic Approach – Long-Term Solutions
+
+Promote effective and efficient long-term solutions
+• Incentivize a balanced resource portfolio (e.g.
+NPRR 1310 – Dispatchable Reliability Reserves
+Service Plus (DRRS+))
+• Enable growth of both supply and load
+throughout Texas (765kV expansion)
+3
+
+Item 11.1
+
+PUBLIC
+
+ERCOT Strategic Approach – Short-Term Solutions
+
+Promote demand response solutions to help bridge gap to
+long-term solutions
+• Enhance existing programs (ERS, ADER)
+• Support development of large load response program
+Senate Bill 6 (SB6) and promote controllable load
+resources (CLRs)
+• Reach untapped residential demand response potential
+as identified in Texas A&M Study (NPRR 1296)
+4
+
+Item 11.1
+
+PUBLIC
+
+Strategic Demand Response Questions
+
+Can demand response help address near-term resource
+adequacy concerns?
+Are current demand response incentives aligned with
+system needs?
+Can residential demand response be efficiently tapped
+to help address reliability?
+Can existing demand response programs be improved
+to enhance efficiencies and expand potential?
+
+5
+
+Item 11.1
+
+PUBLIC
+
+Why is demand response a good fit for ERCOT system?
+
+Speed of deployment
+Fills a specific resource gap
+
+• Can be developed in months versus years
+• Supply chain limitations creating resource availability gap
+
+Cost effectiveness
+
+• Comparable/lower cost than other markets depending on product
+
+Untapped potential
+
+• Texas A&M study identified gigawatts of untapped demand response
+
+Enabled by emerging
+technologies
+
+• Smart thermostats and home batteries enabling consumer participation
+
+Key Takeaway: Several factors make demand response a viable and timely fit for ERCOT.
+6
+
+Item 11.1
+
+PUBLIC
+
+Examination of Short-Term Demand Response Solutions
+
+Given the potential of demand response, ERCOT reached out to Charles
+River Associates to provide a high-level overview and examination of current
+and proposed programs within the ERCOT system, and to provide a
+comparison with other regions.
+
+7
+
+Item 11.1
+
+PUBLIC
+
+Key Challenges identified in Charles River Associates report
+
+ERCOT system faces scarcity as demand is expected to outpace new generation.
+The 4CP transmission cost allocation method drives most demand response in ERCOT but does not
+correspond to the system's highest net-load peaks.
+Retail demand response programs exist in the ERCOT region but are not integrated with wholesale markets
+or operations.
+Emergency Response Service (ERS) inclusion of highly price-sensitive resources (primarily crypto miners)
+is driving ERS clearing prices to potentially inefficiently low levels.
+The Aggregate Distributed Energy Resource (ADER) pilot has broadened opportunities for distributionconnected DER aggregations to engage in ERCOT markets; however, technical and participation
+challenges are likely to slow wider implementation.
+
+8
+
+Item 11.1
+
+PUBLIC
+
+Key Takeaways from Charles River Associates report
+
+Demand response offers a near-term solution to resource adequacy challenges.
+Improved alignment of retail demand response could enhance reliability in nearer
+timeframes, especially given current needs.
+ERCOT's proposed residential demand response (RDR) program fills a critical gap by
+systematically targeting net-load peaks across all seasons, addressing the absence of retail
+demand response programs focused on year-round system needs.
+ERCOT's proposed RDR compensation rate (up to $105,000/MW-year initially) is roughly
+comparable to retail demand response rates in CAISO, though the RDR is not a
+guaranteed-payment capacity product.
+Protocol reforms may be needed for ERS to address self-deployment.
+9
+
+Item 11.1
+
+PUBLIC
+
+ERCOT Conclusions
+Demand response could be a critical reliability bridge solution because load
+growth is forecast to outpace generation development.
+• Demand response can be deployed faster than new most generation and is the most immediate tool
+available.
+Current demand response is misaligned.
+• The 4CP methodology drives large reductions during summer peak hours but not during net-load
+peaks — the intervals when the system is actually most stressed, including evenings and nonsummer months. Additionally, these load reductions can not address needs in non-summer months.
+Existing programs such as ERS and ADER can be enhanced to improve
+efficiencies and effectiveness.
+• Address inefficient ERS pricing caused by highly price sensitive resource participation.
+• Enhance ADER pricing to better target congestion and codify program in Protocols.
+Targeting and promoting residential demand response fills a gap in existing
+demand response programs.
+• Charles River Associates supports the targeting of residential demand response.
+• Charles River Associates noted that incentive premiums are warranted to overcome barriers to retail
+demand response participation in wholesale markets. Thus, continuing to incentivize retail demand
+response in the same way will likely not lead to meaningful growth in participation.
+
+10
+
+Item 11.1
+
+PUBLIC
+
+Next Steps
+
+ERCOT will
+identify any nearterm implications
+to current or
+proposed
+programs
+
+ERCOT will work
+with the PUC and
+seek further
+guidance as
+appropriate
+
+ERCOT will work
+with stakeholders
+to enhance and
+promote demand
+response
+solutions,
+including
+residential
+demand response
+
+ERCOT will
+evaluate both
+residential
+demand response
+and DRRS+ as
+part of the
+Reliability
+Standard
+Assessment
+Study process
+
+Key Takeaway: ERCOT intends to enhance and promote demand response programs with regulators and
+stakeholders.
+11
+
+Prepared for:
+ERCOT
+8000 Metropolis Drive (Building E), Suite 100
+Austin, Texas 78744
+
+Assessment of load
+participation and demand
+response in ERCOT
+
+Prepared by:
+Emma Nicholson, Chris Russo, and Nirmal Bhatt
+Charles River Associates
+200 Clarendon Street
+Boston, Massachusetts 02116
+
+Date: April 2026
+
+April 2026
+
+Charles River Associates
+
+Disclaimer
+The conclusions set forth herein are based on independent research and publicly available
+material. The views expressed herein are the views and opinions of the authors and do not
+reflect or represent the views of Charles River Associates or any of the organizations with
+which the authors are affiliated. Any opinion expressed herein shall not amount to any form of
+guarantee that the authors or Charles River Associates has determined or predicted future
+events or circumstances and no such reliance may be inferred or implied. The authors and
+Charles River Associates accept no duty of care or liability of any kind whatsoever to any
+party, and no responsibility for damages, if any, suffered by any party as a result of decisions
+made, or not made, or actions taken, or not taken, based on this paper. Detailed information
+about Charles River Associates, a trademark of CRA International, Inc., is available at
+www.crai.com.
+Copyright 2026 Charles River Associates
+
+Page i
+
+April 2026
+
+Charles River Associates
+
+Table of contents
+1.
+
+Introduction .................................................................................................................................. 1
+
+2.
+
+Current opportunities for load participation and DR in the ERCOT footprint ....................... 2
+2.1.
+
+2.2.
+
+ERCOT-Administered DR programs ................................................................................. 2
+2.1.1.
+
+Load resource participation in ERCOT Ancillary Services markets .................. 2
+
+2.1.2.
+
+Emergency Response Service (ERS) ............................................................... 5
+
+2.1.3.
+
+ADER ............................................................................................................... 10
+
+DR programs not administered by ERCOT .................................................................... 12
+2.2.1.
+
+4CP self-curtailments ....................................................................................... 13
+
+2.2.2.
+
+REP and NOIE DR programs .......................................................................... 13
+
+2.2.3.
+
+TDSP Load Management Programs ............................................................... 16
+
+2.2.4.
+
+Self-directed price-responsive demand ........................................................... 17
+
+3.
+
+Collective impacts of DR programs on ERCOT markets ....................................................... 17
+
+4.
+
+ERCOT DR programs looking forward .................................................................................... 25
+
+5.
+
+6.
+
+4.1.
+
+SB6 large load curtailment service ................................................................................. 25
+
+4.2.
+
+ERCOT RDR proposal .................................................................................................... 26
+
+Load participation in other U.S. RTOs/ISOs ........................................................................... 28
+5.1.
+
+Lessons Learned from FERC-jurisdictional RTOs/ISOs ................................................. 30
+
+5.2.
+
+Challenges integrating retail DR programs with RTO/ISO markets ............................... 32
+
+CRA assessments and recommendations .............................................................................. 33
+6.1.
+
+ERS ................................................................................................................................. 33
+
+6.2.
+
+ADER .............................................................................................................................. 34
+
+6.3.
+
+RDR proposal ................................................................................................................. 36
+
+Page ii
+
+April 2026
+
+Charles River Associates
+
+1.
+
+Introduction
+
+Load resources and demand response (DR) resources play an important role in reliably and
+affordably serving electricity demand in wholesale markets across the U.S. DR resources are
+particularly valuable today because they can be implemented much faster than generation
+resources, which take years to site, permit, construct, and interconnect to the transmission
+system. Some DR resources can also be implemented more cost-effectively than other
+resource types. Additionally, emerging customer-side technologies, such as smart
+thermostats, electric vehicles, and behind-the-meter battery storage, are expanding the
+potential for retail DR. New large loads also present opportunities for additional load flexibility
+and DR capability. Despite its value, DR participation in U.S. wholesale electricity markets is
+fairly low relative to its potential.1
+DR is especially valuable in ERCOT for two reasons. First, DR can be implemented quickly to
+help meet near-term energy needs and projected energy scarcity risks. Second, the evidence
+suggests there is an opportunity to expand retail DR participation in ERCOT to help meet
+future system needs, which will increase with projected load growth. ERCOT’s residential DR
+proposal could expand DR participation in ERCOT and incent DR reductions during net peak
+load periods, which can have elevated scarcity risks.
+ERCOT asked CRA to assess the current opportunities for load participation in ERCOT
+markets and how they interact with each other and other DR programs in the ERCOT
+footprint that ERCOT does not administer. ERCOT also asked CRA to identify options to
+expand DR participation in ERCOT and to assess the incentives its proposed Residential DR
+(RDR) program would offer and how it could interact with other ERCOT market products and
+retail DR programs.
+CRA’s key findings are as follows:
+•
+
+ERCOT is facing near-term energy scarcity risks because projected load growth is
+outpacing the industry’s ability to site, permit, build, and interconnect the new
+generation required to reliably serve the new loads. Given this need, ERCOT is
+appropriately considering near-term options, such as DR, to fill the gap.
+
+•
+
+ERCOT provides several opportunities for load participation in ERCOT markets. Load
+Resources, including Aggregated Distributed Energy Resources (ADERs), can
+participate in energy and ancillary services markets or provide Emergency Response
+Service (ERS), provided they meet the applicable requirements.
+
+•
+
+The four coincident peak (4CP) transmission cost allocation methodology, which is
+not designed to meet ERCOT’s operational needs, currently provides the strongest
+incentive for load reductions in ERCOT, whether through formal retail DR programs
+or self-directed curtailments. 4CP cost allocation drives load reductions during
+anticipated coincident peak hours in summer, but these periods do not always align
+with the ERCOT system’s periods of greatest need, such as net load peak periods
+throughout the year.
+
+•
+
+Several retail DR programs exist in the ERCOT footprint that ERCOT does not
+administer. These DR programs are not directly integrated into the ERCOT market or
+operations, which is common across U.S. wholesale markets. Better aligning retail
+
+1 Energy Systems Integration Group, Gaps, Barriers, and Solutions to Demand Response Participation in Wholesale Markets,
+January 2025, at xiii.
+
+Page 1
+
+April 2026
+
+Charles River Associates
+DR programs with ERCOT’s wholesale market and operational needs could increase
+reliability in ERCOT.
+•
+
+ERCOT’s proposed RDR program presents an opportunity to expand retail DR
+participation in ERCOT and by offering an incentive payment for DR reductions when
+they are needed most – during net load peaks. Retail DR programs in the ERCOT
+footprint and the incentives provided by 4CP cost allocation do not currently meet this
+need.
+
+•
+
+ERCOT’s currently proposed compensation under the RDR program, which is not
+guaranteed, is roughly comparable with compensation available to retail loads in
+other wholesale electricity markets.
+
+•
+
+ERCOT has identified instances where extremely price-responsive ERS Resources
+self-deploy in response to high prices. If not addressed, this behavior could
+undermine the utility of the ERS product to the ERCOT system and drive ERS prices
+to inefficiently low levels.
+
+•
+
+ERCOT’s ADER pilot creates a pathway for aggregations of distribution-connected
+distributed energy resources to participate directly in ERCOT markets. Similar
+reforms are being adopted in other markets, though participation levels are low
+nationwide given the nascency of the programs, most of which are not fully
+implemented, the technical participation requirements involved, and other factors.
+
+Section 2 provides information about DR programs and opportunities for loads to participate
+in the ERCOT footprint. Section 3 explains how load participation and DR programs impact
+the ERCOT system. Section 4 explains ERCOT’s RDR proposal and the large load
+curtailment program required by Senate Bill 6 (SB6). Section 5 summarizes load side and DR
+participation in other wholesale electricity markets. Section 6 provides CRA’s assessments
+and recommendations.
+
+2.
+
+Current opportunities for load participation and DR in
+the ERCOT footprint
+
+This section of the report provides background information on the current opportunities for
+load-side resources to participate directly in the ERCOT market or to provide DR through a
+retail DR program that is not administered by ERCOT. Subsection 2.1 describes ERCOTadministered programs: Emergency Response Service (ERS), load participation in ERCOT
+ancillary services markets, and the Aggregated Distributed Energy Resources (ADER) pilot.
+Section 2.2 describes DR programs and incentives that ERCOT does not administer: selfcurtailment during 4 Coincident Peak (CP) intervals; Retail Electric Provider (REP) and Non
+Opt-In Entity (NOIE) administered DR programs, Transmission and Distribution Service
+Provider (TDSP) Load Management Programs, and self-directed price responsive load.
+
+2.1.
+
+ERCOT-Administered DR programs
+
+Load-side resources currently have three opportunities to participate directly in ERCOT
+through markets that ERCOT administers: load participation in ERCOT ancillary services
+markets, ERS, and the ADER pilot. These participation pathways are described further below.
+
+2.1.1. Load resource participation in ERCOT Ancillary Services markets
+Load Resources can participate directly in ERCOT markets and currently offer three ancillary
+service products: Responsive Reserve Service (RRS); Non-Spinning Reserve (Non-Spin);
+and ERCOT Contingency Reserve Service (ECRS). Although they are qualified to do so,
+
+Page 2
+
+April 2026
+
+Charles River Associates
+
+Load Resources do not currently provide regulation (i.e., Reg-Up or Reg-Down products).
+Load Resources can participate in ERCOT as either Controllable Load Resources (CLRs) or
+Non-Controllable Load Resources (NCLRs).2
+Product specifications
+The product specifications for ancillary service products are available in ERCOT’s Nodal
+Protocols. Load Resources providing ancillary services must meet technical requirements
+that are comparable - but not identical to - generation resources. Such technical requirements
+include, but are not limited to, the ability to respond to dispatch instructions and telemetry
+requirements.
+Generally, RRS resources are deployed to quickly maintain system frequency and must
+respond immediately to a deployment instruction and fully respond within ten minutes.
+CLRs use fast-acting control systems to respond to primary frequency deviations, similar
+to the governors on a conventional thermal plant. Load Resources capable of reducing their
+demand by a specified amount within 30 minutes and that are capable of running (or being
+interrupted) at a specified output level for at least four consecutive hours can qualify to
+provide Non-Spin. Load Resources that can respond within 10 minutes of deployment and
+sustain their response for at least two hours can qualify to provide ECRS.
+Load Resources currently compete with generation resources to provide RRS, Non-Spin, and
+ECRS. ERCOT procures, settles, and clears these ancillary services and others through the
+day-ahead and real-time market clearing processes.3 ERCOT limits the proportion of RRS
+capacity provided by NCLRs to 60% for reliability reasons.
+Participation, prices, and deployments
+Table 1 presents load resource participation by type – NCLR and CLR – in ERCOT’s ancillary
+service markets in 2025. Most Load Resources used the NCLR participation model to offer
+ancillary services, although a small number of Load Resources with sizeable capacity in
+aggregate participated as CLRs.
+
+2 NCLRs first became eligible to participate in the Non-Spin market in November 2022 after the implementation of NPRRs 1093
+and 1101.See e.g., NPRR 1092: Load Resource Participation in Non-Spinning Reserve.
+3 During the time period studied, ERCOT did not procure ancillary services in the real-time market.
+
+Page 3
+
+April 2026
+
+Charles River Associates
+
+Table 1: Load Resources qualified for ancillary services in 2025
+NCLR
+
+CLR
+
+Total Load Resources
+
+Qualified
+Capacity
+(MW)
+
+Num. of
+resources
+
+Qualified
+Capacity (MW)
+
+Num. of
+resources
+
+Qualified
+Capacity
+(MW)
+
+Num. of
+resources
+
+RRS
+
+7,568
+
+340
+
+252
+
+6
+
+7,820
+
+346
+
+Non-Spin
+
+724
+
+25
+
+252
+
+6
+
+976
+
+31
+
+ECRS
+
+3,831
+
+168
+
+282
+
+6
+
+4,113
+
+174
+
+Reg-Up
+
+N/A
+
+N/A
+
+29
+
+2
+
+29
+
+2
+
+Reg-Down
+
+N/A
+
+N/A
+
+29
+
+2
+
+29
+
+2
+
+ERCOT, 2025 Annual Report on Demand Response in the ERCOT Region, February 2025, Table 2.
+
+Table 2 presents the average hourly ancillary services provided by NCLRs and CLRs in 2025;
+the majority of ancillary services were provided by NCLRs. In 2025, Load Resources showed
+a strong interest in providing RRS and were cleared for Non-Spin and ECRS in smaller
+amounts. While RRS and Non-Spin are deployed at times, public reports indicate that ECRS
+is rarely deployed. In 2025, there were no Energy Emergency Alert (EEA) events that
+resulted in the deployment of NCLRs providing ECRS or RRS. 4
+Table 2: ERCOT average cleared hourly ancillary service capability in MW
+by CLRs and NCLRs, 2025
+Month
+
+RRS
+
+Non-Spin
+
+ECRS
+
+Jan 2025
+
+1,221
+
+71
+
+160
+
+Feb 2025
+
+1,338
+
+50
+
+136
+
+Mar 2025
+
+1,505
+
+72
+
+133
+
+Apr 2025
+
+1,463
+
+90
+
+137
+
+May 2025
+
+1,179
+
+99
+
+219
+
+Jun 2025
+
+998
+
+64
+
+207
+
+Jul 2025
+
+959
+
+59
+
+238
+
+Aug 2025
+
+781
+
+23
+
+248
+
+Sep 2025
+
+839
+
+37
+
+249
+
+Oct 2025
+
+1,130
+
+118
+
+271
+
+Nov 2025
+
+1,357
+
+65
+
+265
+
+Dec 2025*
+
+1,035
+
+17
+
+162
+
+Source: ERCOT, Monthly Demand Response from Load Resources, ERS
+and Ancillary Services. link. Notes: DR resources did not provide Reg-Up
+or Reg-Down in 2025, RTC+B implemented in December 2025.
+
+4 ERCOT, 2025 DR Report, at 8.
+
+Page 4
+
+April 2026
+
+Charles River Associates
+
+The average cleared quantities of RRS, Non-Spin, and ECRS cleared by month in the
+ERCOT system in 2025 are provided in the Appendix (Table 16). On average, Load
+Resources provided just over 40% of the RRS ERCOT procured in each hour, and about
+15% of the average hourly ECRS procured. Load Resources provided only 2% of the average
+Non-Spin procured per hour in 2025. Table 3 summarizes average monthly prices for RRS,
+Non-Spin, and ECRS.
+Table 3: Average monthly ancillary service prices,
+January 2025 - December 2025, $/MW
+Year
+
+RRS
+
+Non-Spin
+
+ECRS
+
+Jan 2025
+
+$1.79
+
+$1.80
+
+$1.72
+
+Feb 2025
+
+$2.99
+
+$3.01
+
+$3.11
+
+Mar 2025
+
+$2.54
+
+$2.79
+
+$2.38
+
+Apr 2025
+
+$2.69
+
+$3.21
+
+$2.61
+
+May 2025
+
+$5.63
+
+$9.98
+
+$5.60
+
+Jun 2025
+
+$2.90
+
+$3.12
+
+$2.40
+
+Jul 2025
+
+$2.40
+
+$1.62
+
+$2.12
+
+Aug 2025
+
+$2.79
+
+$1.32
+
+$2.66
+
+Sep 2025
+
+$1.54
+
+$1.14
+
+$1.40
+
+Oct 2025
+
+$2.17
+
+$2.31
+
+$1.94
+
+Nov 2025
+
+$2.83
+
+$3.27
+
+$2.45
+
+Dec 2025
+
+$2.34
+
+$4.98
+
+$2.18
+
+Source: Potomac Economics, ERCOT Wholesale Electricity Market Monthly
+Report, January 10, 2026, p. 35, link. Note: RTC+B implemented December 5,
+2025.
+
+ERCOT implemented the Real-Time Co-optimization Plus Batteries (RTC+B) reforms on
+December 5, 2025 and the Commission approved new Minimum Monthly Ancillary Service
+Requirements for ERCOT in 2026, both of which will change the dynamics of energy and
+ancillary services markets going forward.5
+
+2.1.2. Emergency Response Service (ERS)
+In March 2007, PUCT adopted 16 TAC §25.507 and directed ERCOT to implement an
+emergency demand response service.6 Over time, the regulations in §25.507 were revised
+and the product was renamed Emergency Response Service (ERS). The most recent reforms
+to §25.507 occurred in August 2022 when PUCT increased the annual ERS budget to $75
+million and permitted ERCOT to exceed this amount by up to $25 million to renew ERS
+contract terms, if needed.7
+
+5 ERCOT Notice M-A121925-01 2026 Minimum Monthly Ancillary Service Requirements, December 19, 2025, link.
+6 Public Utility Commission of Texas, Order Adopting New §25.507 as Approved at the March 20, 2007 Open Meeting. The name
+of the product was initially Emergency Interruptible Load Service.
+7 Public Utility Commission of Texas, Order Adopting New 16 TAC as Approved at the August 4, 2022, Open Meeting.
+
+Page 5
+
+April 2026
+
+Charles River Associates
+
+Product specifications
+The ERS product enables Load Resources to support electric reliability during emergencies
+by either reducing their electric load or relying on on-site back-up generation if deployed by
+ERCOT. Per ERCOT’s Nodal Protocols, “ERCOT shall procure and deploy ERS with the goal
+of promoting reliability prior to and during energy emergencies.”8 This language is consistent
+with ERS regulations specified in §25.507, which describe ERS as “a special emergency
+response service to be deployed by ERCOT to help prevent or alleviate an actual or
+anticipated Energy Emergency Alert”.9 ERCOT purchases ERS through four Standard
+Contract Terms (SCT), with different cumulative deployment obligations, which are
+summarized in Table 4 below.
+
+Table 4: Non-Weather Sensitive ERS Standard Contract Terms and Obligations
+Standard Contract Term
+
+Cumulative deployment obligation
+during contract term, in hours
+
+December – March
+
+24
+
+April – May
+
+12
+
+June – September
+
+12
+
+October – November
+
+12
+
+Source: ERCOT Nodal Protocols, December 5, 2025, §3.14.3.1.
+Notes: ERCOT procures ERS for eight Time Periods within each
+SCT.
+
+For each SCT, ERCOT procures ERS within eight distinct Time Periods.10 There are four
+types of ERS resources: Non-Weather-Sensitive ERS with a ten-minute response time (ERS10); Non-Weather-Sensitive ERS with a 30-minute response time (ERS-30), WeatherSensitive ERS with a ten-minute response time (WS-ERS-10); and Weather-Sensitive ERS
+with a 30-minute response time (WS-ERS-30). ERCOT procures ERS-10 and ERS-30 in all
+SCTs but only procures Weather-Sensitive ERS in Time Periods that correlate with extreme
+weather.
+ERS resources must meet their cumulative deployment obligations and when deployed by
+ERCOT, an ERS Resource must remain deployed until recalled by ERCOT. A Non-Weather
+Sensitive ERS Resource is obligated to provide ERS up to its maximum obligation in hours
+(see Table 4) during the SCT and Time Period for which it clears. Obligations can roll over to
+any subsequent ERS Contract Period the ERS Resource has with a remaining obligation.11
+ERCOT may choose to renew an ERS Resource’s obligation once the resource’s obligation is
+exhausted, subject to the consent of the ERS Resource and budget availability.
+
+8 ERCOT Nodal Protocols, December 5, 2025, §3.14.3.1(1).
+9 16 TAC §25.507(b).
+10 Time periods (TPs) are as follows: TP1 HE 6-9, Monday through Friday except ERCOT Holidays; TP2: HE 10-13, Monday
+thru Friday except ERCOT Holidays; TP3: HE 14-16, Monday-Friday except ERCOT Holidays; TP4: HE 17-19, Monday
+thru Friday except ERCOT Holidays; TP5: HE 20-22, Monday thru Friday except ERCOT Holidays; TP6 HE 6-9,
+Weekends and ERCOT Holidays; TP7 HE 16-21, Weekend and ERCOT Holidays; and TP8 All other hours.
+11 ERCOT Nodal Protocols, December 5, 2025, §3.14.3.1(17)(c).
+
+Page 6
+
+April 2026
+
+Charles River Associates
+
+Participation requirements
+Two resource types can offer to provide ERS in ERCOT: 1) a single load or aggregation of
+loads; and 2) a dispatchable generator that is not registered with ERCOT as a Generation
+Resource, or an aggregation of such generators. An ERS Resource must be represented by
+a Qualified Scheduling Entity (QSE) and have a fifteen-minute interval meter. Weathersensitive ERS must consist exclusively of residential sites while ERS Load must consist
+exclusively of non-residential sites.12
+When deployed by ERCOT, ERS Loads must reduce their demand (or inject generation if
+applicable) relative to a baseline level established by ERCOT’s DR Baseline
+Methodologies.13 Demand reduction is achieved through either the default “Drop-by” method
+(e.g., reduce demand by 2 MW upon deployment), or an alternative Maximum Base Load
+(MBL) “Drop-to” alternative (e.g., ERS Resource drops to its MBL upon deployment). The
+minimum sized offer for a WS ERS Load is 0.5 MW and the minimum size for ERS-10 and
+ERS-30 ERS resources is 0.1 MW. Non-Weather Sensitive ERS Resources may be
+aggregated to reach this requirement. A Load Resource may not offer to provide ERS if it
+participates in another DR program, including one administered by a TDSP.
+Procurement method and settlement
+ERCOT’s procurement methodology for ERS, contained in Section 22 Attachment Q of the
+Protocols, specifies ERCOT’s demand curve for ERS, which is downward sloping and has an
+$80/MW-per-hour price cap. ERCOT procures ERS resources through a uniform clearing
+price auction for each SCT and Time Period. ERCOT procures ERS through a request for
+proposal (RFP) process that establishes a single clearing price ($/MW) for all ERS product
+types and for each SCT and Time Period (i.e., 4 SCTs x 8 Time Periods = 32 procurements
+per program year). ERCOT maximizes the ERS quantity (in MW) procured subject to the
+expenditure limit for the applicable SCT and Time Period. ERCOT can spend a maximum of
+$75 million in a 12-month period starting in December and allocates this budget across the
+four SCTs and Time Periods in proportion to ERCOT’s assessment of the allocation of the
+risk of falling below the 3,000 MW Physical Responsive Capability (PRC) threshold.14
+ERCOT may exceed the $75 million cap by up to $25 million for ERS contract renewals, if
+needed.
+Participation, prices, and deployments
+Table 5 and Table 6 summarize the ERS clearing prices and quantities, respectively, for ERS
+between the October 2024 - November 2024 and the December 2025 - March 2026 SCTs.
+ERS clearing prices have decreased and cleared quantities have increased in recent years.
+ERCOT reported on these trends in the 2025 DR Report.15
+
+12 ERCOT Nodal Protocols, December 5, 2025, §3.14.3.1(5).
+13 ERCOT, Demand Response Baseline Methodologies, link.
+14 ERCOT 2024 Demand Response Report, at 8. See also, ERCOT Nodal Protocols Section 22, Attachment Q: Emergency
+Response Service Procurement Methodology , September 1, 2025, §D, “ERCOT will assign a high (H), moderate (M),
+or low (L) risk designation to each ERS Time Period and will assign a risk-weighting factor (a value from 1 to 100 with
+1 being the lowest risk value and 100 being the highest risk value) for each risk designation. ERCOT’s risk assessment
+will consider a number of factors, including, but not limited to, forecasted operating reserves, forecasted Load,
+Resource outage information, and the obligated cumulative deployment time for an ERS Contract Period as specified
+for the ERS Standard Contract Term in paragraph (18)(b) of Section 3.14.3.1, Emergency Response Service
+Procurement.”
+15 ERCOT 2025 DR Report, at 11-12, and Graph 4.
+
+Page 7
+
+April 2026
+
+Charles River Associates
+
+Table 5: ERS clearing prices ($/MW), October 2024 – March 2026
+TP1
+
+TP2
+
+TP3
+
+TP4
+
+TP5
+
+TP6
+
+TP7
+
+TP8
+
+Weekdays
+HE 6-9
+
+Weekdays
+HE 10-13
+
+Weekdays
+HE 14-16
+
+Weekdays
+HE 17-19
+
+Weekdays
+HE 20-22
+
+Weekend+
+Holiday
+HE 6-9
+
+Weekend+
+Holiday
+HE 16-21
+
+All other
+times
+
+Oct 24 - Nov 24
+
+$5.20
+
+$0.35
+
+$0.35
+
+$5.92
+
+$5.20
+
+$4.03
+
+$4.36
+
+$0.37
+
+Dec 24 - Mar 25
+
+$26.87
+
+$4.67
+
+$4.67
+
+$17.46
+
+$17.70
+
+$8.20
+
+$0.32
+
+$2.60
+
+Apr 25 - May 25
+
+$2.68
+
+$0.17
+
+$0.17
+
+$1.67
+
+$2.70
+
+$0.20
+
+$0.25
+
+$0.18
+
+Jun 25 - Sep 25
+
+$1.73
+
+$1.72
+
+$10.36
+
+$18.69
+
+$18.08
+
+$0.19
+
+$13.68
+
+$0.18
+
+Oct 25 - Nov 25
+
+$1.13
+
+$0.10
+
+$0.10
+
+$1.28
+
+$1.28
+
+$0.87
+
+$0.87
+
+$0.10
+
+Dec 25 - Mar 26
+
+$11.92
+
+$2.14
+
+$2.05
+
+$7.75
+
+$7.75
+
+$3.57
+
+$0.12
+
+$1.05
+
+This table summarizes prices for Non-Weather Sensitive ERS-10 and ERS-30 and Weather Sensitive ERS-10 and ERS-30. Source:
+ERCOT.
+
+Table 6: Cleared ERS capability in MW, October 2024 – March 2026
+TP1
+
+TP2
+
+TP3
+
+TP4
+
+TP5
+
+TP6
+
+TP7
+
+TP8
+
+Standard Contract
+Term
+
+Weekdays
+HE 6-9
+
+Weekdays
+HE10-13
+
+Weekdays
+HE 14-16
+
+Weekdays
+HE 17-19
+
+Weekdays
+HE 20-22
+
+Weekend+
+Holiday
+HE 6-9
+
+Weekend+
+Holiday
+HE 16-21
+
+All other
+times
+
+Oct 24 - Nov 24
+
+1,251
+
+1,375
+
+1,357
+
+1,281
+
+1,253
+
+1,202
+
+1,162
+
+2,333
+
+Dec 24 - Mar 25
+
+1,450
+
+1,502
+
+1,502
+
+1,446
+
+1,431
+
+1,354
+
+1,119
+
+1,349
+
+Apr 25 - May 25
+
+1,777
+
+1,779
+
+1,775
+
+1,789
+
+1,696
+
+1,605
+
+1,568
+
+1,741
+
+Jun 25 - Sep 25
+
+2,215
+
+2,228
+
+2,089
+
+1,792
+
+2,004
+
+1,876
+
+1,960
+
+2,080
+
+Oct 25 - Nov 25
+
+2,609
+
+2,519
+
+2,755
+
+2,650
+
+2,478
+
+2,529
+
+2,505
+
+2,530
+
+Dec 25 - Mar 26
+
+2,668
+
+2,843
+
+2,885
+
+2,745
+
+2,595
+
+2,580
+
+2,323
+
+2,558
+
+This table summarizes cleared capability for ERS-10 and ERS-30, and Weather-Sensitive ERS-10 and ERS-30. Source: ERCOT.
+
+ERCOT only procures small amounts of Weather-Sensitive ERS-30. For example, during the
+December 2025 - March 2026 SCT in Time Period 1, ERCOT procured 5.3 MW of WeatherSensitive ERS-30, or 0.2% of the total quantity procured for this interval. ERCOT also
+procured 83.7 MW of Weather-Sensitive ERS in the June 2025 - September 2025 SCT during
+evening and late-night hours (Time Periods 4, 5, and 7), which amounted to about 4% of ERS
+procured at these times. In interviews with CRA, ERCOT staff indicated that incorporating
+Weather-Sensitive ERS Resources in the ERS program is burdensome to administer.
+ERCOT’s ERS procurement is budget-driven and ERCOT procures as much ERS capacity as
+the $75 million annual budget will allow in each SCT and Time Period, with purchases
+weighted by the relative risks in each SCT and Time Period. This means that all else equal,
+lower ERS offer prices result in increased procurement quantities. The highest risk SCTs are
+in winter, particularly in the Time Periods with hours ending (HE) 6-9, 17-19, and 20-22, and
+summer (June-September) in the time periods that cover HE 14 through HE 22. Given this
+increased risk, ERCOT has a higher budget and willingness to pay for ERS during these
+periods, which is why these periods tend to have the highest clearing prices. ERS offer prices
+can also be higher during these periods to reflect the increased likelihood of deployment,
+which also contributes to higher clearing prices in these SCTs and Time Periods.
+
+Page 8
+
+April 2026
+
+Charles River Associates
+
+ERCOT does not deploy ERS often, which is not surprising given that ERS is only deployed
+in emergencies or prior to anticipated emergencies.16 As shown in Table 7, ERCOT has only
+deployed ERS Resources six times since 2011, with multiple instructions per deployment.
+Weather-Sensitive ERS has only been deployed twice.
+
+Table 7: ERS deployments, February 2011- February 2026
+Year
+
+Number of deployments
+
+ERS
+Product Types
+
+Deployment Month(s)
+
+2011
+2014
+2019
+2021
+2022
+2023
+
+2
+2
+4
+6
+2
+2
+
+ERS-10
+ERS-10 & ERS-30
+ERS-10 & ERS-30
+ERS-10, ERS-30, & WS
+ERS-10, ERS-30, & WS
+ERS-10 & ERS-30
+
+Feb. and Aug.
+Jan.
+Aug.
+Feb.
+Jul.
+Aug. and Sep.
+
+Source: ERCOT ERS Event History, Sep 12, 2023. WS: Weather-Sensitive.
+
+The last ERS deployments were in August and September 2023. ERCOT also relied on ERS
+during Winter Storm Uri, with a total of six ERS instructions on February 15, 2021. Summer
+deployments tend to be shorter than winter deployments.17
+To align ERS deployments with ERCOT’s energy-only market construct, ERCOT adds a
+Real-Time On-Line Reliability Deployment Price Adder to energy prices when it deploys
+ERS.18 ERCOT determines this adder in the Security Constrained Economic Dispatch
+(SCED) run to approximate the price impact ERS deployments. This adder addresses price
+formation concerns during ERS deployments because ERS deployments could depress
+prices and send price signals that are inconsistent with real-time system needs.
+Current issues
+The quantity of ERS supply offered to ERCOT has increased significantly in recent years, and
+this new capacity is being offered at lower prices. Together, these trends have lowered ERS
+clearing prices (see Table 5 and Table 6). ERCOT’s 2025 DR report notes the recent ERS
+price declines and explains that the types of resources that participate in the ERS program
+have shifted over time. Crypto mining loads have grown as a share of ERS Resources. In the
+December 2025 - March 2026 SCT solicitation, crypto mining loads made up 64% of the ERS
+Resources procured.19 ERCOT staff presented an analysis at the January 2026 Wholesale
+Market Subcommittee that showed 60% of ERS resources self-deployed prior to ERCOT’s
+instruction on September 6, 2023, the last time ERS was deployed. 20 As discussed further in
+section 6.1, self-deployment could raise reliability concerns and inefficiently depress ERS
+prices.
+
+16 ERCOT, ERS Event History, link.
+17 Id. The longest ERS deployment in summer was 4 hours, while winter deployments were approximately 100 hours on average
+during Storm Uri and ranged from one to 28 hours during other winter events.
+18 The Time On-Line Reliability Deployment Price Adder is also used to address other reliability deployments, such as resources
+committed through the Reliability Unit Commitment process.
+19 ERCOT, Agenda Item #4: ERS/Crypto Mining Load, WMS Meeting, January 7, 2026, at 2.
+20 ERCOT, Agenda Item #4: ERS/Crypto Mining Load, WMS Meeting, January 7, 2026, at 5.
+
+Page 9
+
+April 2026
+
+Charles River Associates
+
+2.1.3. ADER
+In October 2022, the ERCOT Board of Directors, at the direction of the Commission in Project
+No. 53911, launched a pilot project to explore whether ADERs can “support reliability,
+enhance the wholesale market, incentivize investment, potentially reduce transmission and
+distribution investments, and support better load management during emergencies.” 21
+ERCOT’s ADER pilot program is comparable in many ways to the Federal Energy Regulatory
+Commission’s (FERC) Order No. 2222, which sought to encourage ADER participation in
+FERC-jurisdictional wholesale markets.22 The ADER pilot has proceeded in phases and is
+currently in Phase 3; which ERCOT expects to run through at least June 2026 (a minimum of
+one year).
+Product specifications
+ADERs participating in the Phase 3 program compete with other ERCOT resources to
+provide energy, Non-Spin, and ECRS; all of which are procured in the day-ahead and realtime markets.
+Participation requirements
+An ADER is defined as any combination of distribution-connected generation, energy storage,
+or a controllable load. An ADER consists of multiple premises or devices with the ability, in
+aggregate, to respond to ERCOT dispatch instructions. An ADER aggregation must have the
+capability to provide at least 100 kW of response (demand response capability plus injection
+capability) and each Premises can provide at most 1 MW of response (demand response
+capability plus injection capability).23 ADERs participate in the ERCOT energy and ancillary
+services market through existing ALR and NCLR participation models, with certain exceptions
+specified in the ADER Phase 3 Pilot Governing Document. 24
+Under both the ALR and NCLR participation models, the ADER may contain premises that
+inject energy into the distribution system and may provide a net injection on an aggregated
+basis; ERCOT will consider net injections as Demand Response under the Protocols and
+other ERCOT rules.25 The ADER must be registered and associated with a QSE. Known
+limitations relevant to the distribution service provider, such as Premise injection limitations,
+must be reflected in the registration. Identified limitations on the distribution system will not
+explicitly be enforced by ERCOT’s systems when awarding or dispatching the ADER. Further,
+the telemetry validation procedures and metrics in the ADER pilot differ from other resources
+that offer ancillary services in ERCOT.
+ADERs participating as ALRs or NCLRs must comply with ALR metering and telemetry
+requirements. A QSE representing an ADER must send resource-level real-time telemetry to
+ERCOT every two seconds and comply with applicable ERCOT protocols. 26 Premises in an
+
+21 ADER Pilot Project Governing Document Phase 3.1, Approved June 23, 2025, Updated October 24, 2025, at 3.
+22 Participation of Distributed Energy Res. Aggregations in Mkts. Operated by Reg’l Transmission Orgs. & Indep. Sys. Operators,
+Order No. 2222, 172 FERC ¶ 61,247 (2020), 172 FERC ¶ 61,247 at P 204.
+23 ADER participants must submit a Details of the Aggregation (DOTA) form, among other things, to be qualified. The DOTA
+requires information about ERS and TDU commercial & residential load management programs.
+24 ADER Phase 3.2 Pilot Governing Document, at 21.
+25 For settlement purposes, ADER injections are treated as negative load in the Phase 3 pilot. For real-time telemetry, a static
+MW offset is applied to make it appear to ERCOT systems that these are always net load on the system.
+26 ADER Pilot Project Governing Document Phase 3.2, Approved June 23, 2025, Updated February 27, 2026, at 15, link. (ADER
+Phase 3.2 Pilot Governing Document).
+
+Page 10
+
+April 2026
+
+Charles River Associates
+
+ADER are required to have 15-minute interval meter data; electric service identifier (ESI ID)
+data in a competitive choice area, and revenue-quality meter data in a NOIE service
+territory.27 The QSE must provide ERCOT allocation factors that represent the fraction of the
+ERCOT-issued instruction to the ADER that is being provided by each metered Premise in
+the aggregation, which can be static in Phase 3 and does not need to be provided in realtime.28 Regardless of participation model, an ADER is not permitted to present statistical
+sampling for performance evaluation.
+ALR Participation model
+An ADER using the ALR participation model is modeled as a Load Resource belonging to an
+aggregation of premises, but all the sites must be located in a single Load Zone and have the
+same Load Serving Entity (LSE) and Distribution Service Provider (DSP). ADERs
+participating as ALRs are subject to ALR participation rules with certain exceptions. The
+telemetry validation procedures and metrics for ADERs differ from those for ALRs. However,
+like all ALRs, ADERs participating as an ALR must qualify to participate in SCED.
+NCLR Participation model
+ADERs participating as an NCLR may be an aggregation of load-only sites. ADER baseline
+determinations involve meter readings prior to deployment and similar readings during the
+sustained response period for performance measurement. The NCLR ADER participation
+model allows aggregations that cannot incrementally follow SCED basepoints to provide
+ECRS and Non-Spin, but not RRS. Aggregated NCLRs can use third-party QSE aggregation
+and premises above 100 kW are not required to have the same LSE. 29
+Procurement and settlement
+In Phase 3 of the ADER pilot, systemwide participation limits were increased to 500 MW for
+energy dispatch, and 100 MW for ECRS and Non-Spin. However, a single QSE may not
+register ADERs with capability above 90% of the systemwide limits for each product.
+Qualified ADERs may offer Non-Spin or ECRS and are cleared and settled in accordance
+with the ERCOT Protocols regarding ALR energy settlement, and the Load Zone price will be
+used for settlement of energy. Premises in the ADER that inject into the distribution system
+are treated as negative load for purposes of settlement.
+Historical participation, prices, and deployments
+ADERs are currently qualified to provide Non-Spin and ECRS to ERCOT. As of February
+2026, a total of 13 ADERs are registered to participate in the pilot, but only seven ADER
+resources are qualified to participate. The seven qualified ADER resources have a total
+qualified capacity of 107.7 MW that is qualified to provide ECRS or Non-Spin.
+Table 8: ADER participation and qualification, February 2026
+Qualified Resources
+
+ECRS
+qualified capacity
+
+Non-Spin
+qualified capacity
+
+Total
+qualified capacity
+
+7
+
+49.7 MW
+
+35.4 MW
+
+107.7 MW
+
+Source: ERCOT, February 2026.
+
+27 ADER Phase 3.2 Pilot Governing Document, at 15.
+28 ADER Phase 3.2 Pilot Governing Document, at 21.
+29 ADER Phase 3.2 Pilot Governing Document, at 6.
+
+Page 11
+
+April 2026
+
+Charles River Associates
+
+ERCOT does not post information about the quantity of ECRS and Non-Spin capacity that
+ADER resources have cleared in ancillary services markets, but it does publish the number of
+intervals each ADER resource was cleared to provide each ancillary service, along with other
+information.30
+Table 9 shows the percent of real-time intervals where at least one ADER resource was
+cleared to provide either Non-Spin or ECRS. Resources in the ADER pilot have provided
+ancillary services in at least half of the intervals in the twelve-month period ending October
+2025.
+Table 9: Percent of real-time intervals with cleared ADER resources,
+November 2024 – October 2025
+Non-Spin
+
+ECRS
+
+Nov 2024
+
+63%
+
+0%
+
+Dec 2024
+
+63%
+
+0%
+
+Jan 2025
+
+56%
+
+2%
+
+Feb 2025
+
+52%
+
+0%
+
+Mar 2025
+
+50%
+
+18%
+
+Apr 2025
+
+55%
+
+49%
+
+May 2025
+
+67%
+
+58%
+
+Jun 2025
+
+73%
+
+58%
+
+Jul 2025
+
+69%
+
+56%
+
+Aug 2025
+
+12%
+
+13%
+
+Sep 2025
+
+25%
+
+58%
+
+Oct 2025
+
+66%
+
+56%
+
+Source: ERCOT, ADER Monthly Reports.
+
+Current issues
+Expanding the ADER program may require additional design modifications because ADER is
+currently procured at the system level, without regard to local constraints or congestion
+impacts. The ADER Governing Document identified this as a Phase 3 issue to study and
+directed ERCOT to evaluate how dispatching and settling ADERs at the zonal level—rather
+than at the nodal level—affects congestion management.31 ERCOT plans to remain in Phase
+3 of the ADER pilot this year and will, among other things, continue to assess ADER resource
+performance, monitor participation limits, consider zonal and nodal dispatch and settlement
+models, review the ADER registration processes, and make targeted improvements.32
+
+2.2.
+
+DR programs not administered by ERCOT
+
+Several types of DR programs and incentives exist in the ERCOT footprint that ERCOT does
+not administer. These DR programs are instead the result of individual customer financial
+incentives or retail DR programs and rate incentives administered by REPs, NOIEs, and
+TDSPs. This section begins with a summary of DR deployments and self-curtailments driven
+
+30 ERCOT posts this information about the ADER pilot here.
+31 ADER Phase 3.2 Pilot Governing Document, at 4, 22.
+32 ERCOT, ADER Transition from Pilot to Protocols, April 1, 2026, link.
+
+Page 12
+
+April 2026
+
+Charles River Associates
+
+by incentives to avoid transmission charges under the 4CP transmission cost allocation
+methodology. These actions to reduce transmission charges in the subsequent year drive the
+majority of DR program deployments and self-curtailments in ERCOT.
+
+2.2.1. 4CP self-curtailments
+ERCOT’s 4CP intervals are defined as the highest four 15-minute gross load intervals in each
+of the four summer months of June, July, August, and September. A customer taking service
+at 700 kV or higher and individual NOIE transmission charges in a given year depend on their
+contribution to the 4CPs in the prior year. The 2025 rate to recover the ERCOT system’s
+annual transmission revenue requirement was $68.55/kW-year, creating a significant
+incentive for loads and NOIEs facing these 4CP charges to estimate when 4CP intervals will
+occur and curtail loads during those intervals. Pursuant to requirements in SB6, the
+Commission is evaluating whether the wholesale 4CP cost allocation rules are reasonable
+(Project No. 58484). Any changes the Commission orders to transmission cost allocation as a
+result of that proceeding will have a significant impact on load behavior and incentives in
+ERCOT.
+Incentives to self-curtail
+ERCOT loads that take service at 700 kV and above and individual NOIEs have a strong
+incentive to reduce loads during 4CP intervals because their transmission charges in the
+following year depend directly on their consumption during 4CP intervals. For example,
+according to NRG Energy, Inc., load reductions during 4CP intervals can yield savings as
+high as $10,000 to $21,000/MW per interval, depending on the customer’s DSP.33 Given the
+significant potential transmission cost savings involved, large customers do not need a formal
+DR program to incent self-curtailments during 4CP intervals.
+By contrast, residential customers and small commercial loads do not have strong individual
+financial incentives to reduce consumption during 4CP intervals because REPs and NOIEs
+generally collect transmission charges from these customer classes on a per-kWh basis.
+However, NOIEs themselves have incentives to lower future transmission charges and as a
+result, many NOIEs design DR programs to reduce residential and small commercial loads
+during 4CP intervals. In the competitive areas, transmission costs are allocated at the TDSP
+level, and REPs pass transmission costs through directly to residential and small commercial
+customers. However, some REPs in competitive areas offer 4CP advisory services and other
+programs to loads subject to 4CP cost billing to help them manage transmission costs.34
+Although the 4CP transmission cost allocation methodology has the greatest impact on DR
+program deployments and self-curtailments in ERCOT, these load reductions do not
+necessarily align with ERCOT’s system needs or market signals. For example, 4CP intervals
+do not coincide with intervals when load reductions would provide the most relief to the
+ERCOT system, such as during system net peaks or tight conditions in non-summer months.
+
+2.2.2. REP and NOIE DR programs
+As noted above, REPs and NOIEs administer their own DR programs independent of
+ERCOT. ERCOT does not play a role in these DR programs and does not procure, deploy, or
+directly compensate loads that participate in these programs. These DR programs include
+Indexed Real-Time, Indexed Day-Ahead, Critical Peak Pricing, Peak Rebates, Time of Use
+pricing, Free Days and/or Hours programs, other direct load control, and other voluntary DR
+
+33 NRG Energy, Inc., Comments in response to Public Utility Commission of Texas Staff’s August 5, 2025 Questions, Project
+No. 54884, at 9.
+34 See e.g., Reliant 4CP advisory service offerings, link.
+
+Page 13
+
+April 2026
+
+Charles River Associates
+
+products.35 The REP and NOIE retail DR available to residential and commercial customers
+vary by administrator and a variety of program types and incentive structures are offered in
+the ERCOT footprint.
+Residential DR programs
+REP and NOIE residential DR programs available in ERCOT tend to have the same general
+structure, but the individual rates and incentives vary by program. Many REP and NOIE DR
+programs provide a thermostat rebate to lower infrastructure costs and incent the installation
+of smart thermostats. These are one-time rebates that can be applied to eligible thermostats
+selected by the program administrator. REPs and NOIEs have partnerships with different
+smart thermostat manufacturers and provide customers with lists of eligible thermostats to
+choose from for installation. While some administrators do not offer thermostat rebates,
+others provide a thermostat rebate or a smart thermostat free of charge.36, 37, 38
+Once a smart thermostat has been installed, customers may also receive an incentive to join
+the administrator’s voluntary DR program with another potential one-time rebate for
+enrollment. While some administrators may not provide a rebate, others may provide rebates
+up to $85.37,39,40 This range is based on review of a small sample of REP and NOIE
+programs and does not reflect every DR program available in ERCOT.
+Finally, program administrators can also provide a recurring payment to customers to
+encourage continued participation in the DR program. Administrators have varying methods
+to provide monetary benefits to customers enrolled in the program. Some REPs, for example,
+do not provide an explicit payment, but create savings for customers by reducing their
+electricity use during peak periods.39 On the other hand, certain REPs provide an annual
+payment (e.g., $30) for continued enrollment, whereas other administrators provide more
+consistent monthly payments of up to $15.40,41 Some REPs provide an energy discount of
+$0.60/kWh for every kWh of demand reduced compared to baseline demand. 42 Finally, some
+REPs provide enrolled customers with a half cent per kilowatt hour ($0.005/kWh) discount on
+their electricity rate instead of a one-time or recurring payment.36
+Despite the varied structure of the programs, all administrators aim to incentivize adoption
+and continued participation. Table 10 summarizes the incentives of some of the programs
+discussed above. Some programs limit thermostat adjustments to a maximum of 4°F and aim
+to cap load reduction events at 25 times per year.41 Customers are also able to opt-out of a
+DR deployment by simply adjusting their thermostat. By contrast, some DR administrators do
+not limit the number of DR events they can call annually and only allow program participants
+to override three events.38 The large variation in program rules and ability of customers to
+override DR reductions can be a source of uncertainty about how much residential DR is
+available to deploy during an event.
+
+35 ERCOT 2024 DR Report, at 13-14.
+36 E.g., Amigo Energy Stat Rewards Program link.
+37 TXU’s Connected Conservation Program link.
+38 Rhythm Energy’s Peak Payback Demand Response Program link.
+39 Intelligent Octopus, link.
+40 CPS Energy’s WiFi Thermostat Rewards, link.
+41 Austin Energy Power Partner Thermostats. link.
+42 Reliant Energy’s Degrees of Difference Rewards Program link.
+
+Page 14
+
+April 2026
+
+Charles River Associates
+
+Table 10: Summary of select Residential REP and NOIE Smart Thermostat Programs
+Program Information
+Administrator
+
+Program Name
+
+Seasonality
+
+Austin
+Energy
+
+Power Partners
+
+CPS Energy
+
+Octopus
+Energy
+
+NRG
+(Reliant)
+
+Incentive Structure
+Thermostat
+Rebate
+
+Enrollment
+Bonus
+
+Recurring
+Incentive
+
+Primarily
+Summer, can
+call all-year
+
+$50
+
+$75
+
+$30/year
+
+Wi-Fi
+Thermostat
+Rewards
+
+Primarily
+Summer, some
+Winter
+
+-
+
+$85
+
+$30/year
+
+Intelligent
+Octopus
+
+All-year
+
+-
+
+-
+
+Bill savings
+during event
+
+Degrees of
+Difference
+
+All-year
+
+-
+
+$50 (Smart
+Thermostat)
+
+$0.60/kWh
+discount for
+energy reduced
+compared to
+baseline (Manual
+thermostat),
+Bill credits
+(Smart
+thermostat)
+
+Amigo
+Energy
+
+Stat Rewards
+
+All-year
+
+-
+
+$50
+
+$0.005/kWh
+discount
+
+Rhythm
+Energy
+
+Peak Payback
+
+All-year
+
+Full Coverage
+
+-
+
+Up to $15/month
+
+Vistra (TXU)
+
+Connected
+Conservation
+
+All-year
+
+-
+
+$50, up to $150
+if additional
+products bought
+
+Bill savings
+during event
+
+Commercial DR Programs
+In addition to residential DR programs, REPs and NOIEs also offer DR programs to retail
+commercial customers in the ERCOT footprint. Similar to residential DR programs, the
+commercial DR programs do not follow a single program or incentive structure, but many
+share the same general structure. Unlike residential DR programs, many REP and NOIE
+commercial DR program administrators do not provide upfront incentives to install additional
+equipment beyond smart meters, nor do they offer upfront incentives to enroll in the program.
+However, upon enrollment in the commercial DR program, some administrators install
+advanced meters at no cost to the customer to closely monitor energy usage and encourage
+program participation.43
+Commercial DR programs may lack the direct incentives included in residential DR programs
+because many commercial DR programs do not require participants to possess advanced
+devices (e.g., controllable thermostats) that allow the program administrator to directly control
+the commercial customer’s electricity usage. DR programs that require a smart meter may
+
+43 Austin Energy. Commercial Demand Response, link.
+
+Page 15
+
+April 2026
+
+Charles River Associates
+
+also allow commercial customers to manually adjust their electricity consumption during a DR
+deployment event.44 Some incentive structures are based on a peak kW reduction, whereas
+others are based on a kWh reduction.43,44 Incentives can range from $50-80/kW of peak
+reduced and administrators may also provide energy-based incentives, such as a payment of
+$0.6 per kWh reduced compared to baseline demand. 43,44 Some program administrators also
+provide additional incentives if additional equipment is installed and allowed to be used for
+automatic DR.43 The incentive for reducing DR can be as high as $10-15/kW higher for
+commercial customers that have installed advanced meters and allow the administrator to
+automatically reduce energy consumption.43 Some commercial DR programs even provide a
+$210-$215/kW increase in incentive for the first year to increase adoption of advanced
+metering.43
+Most commercial DR programs are active in the summer between June and September, and
+administrators can provide advanced notice as late as 10 minutes prior to the event through
+email, text, or phone to notify customers of a DR curtailment.43,44 In addition to providing
+program time periods, some commercial DR programs give customers the number of times
+they will be curtailed in a certain time period. Other commercial DR programs may call on
+customers throughout the year.44 Although DR program incentives and rate structures vary
+across administrators, they all aim to reduce commercial consumption during peak events.
+Most events rely on voluntary participation during the peak event, and customers have the
+ability to avoid large load reductions. The voluntary nature of event participation and the
+different program designs create uncertainty about how much commercial DR capability will
+be available during a given event.
+
+2.2.3. TDSP Load Management Programs
+Table 11 shows the summer and winter TDSP load management programs in 2025, which
+totaled approximately 290 MW in summer and 120 MW in winter. Under the existing
+Memorandum of Understanding that ERCOT has with the TDSPs, ERCOT can request the
+deployment of TDSP summer and winter load management programs prior to or during an
+EEA 2 or EEA 3 event. ERCOT did not deploy TDSP load management programs in 2025.
+Table 11: Summer and Winter TDSP Load Management programs
+
+Operational
+Hours
+
+Estimated
+Demand
+Savings (MW)
+
+Capacity*
+MW
+
+TDSP
+
+Program Duration
+
+AEP Texas**
+
+June 1-September 30
+
+1-7pm*
+
+20.7-40.3
+
+35
+
+CenterPoint
+
+June 1-November 30
+
+24/7
+
+138
+
+137
+
+Oncor
+
+June 1-November 30
+
+24/7
+
+101.9
+
+106
+
+TNMP
+
+June 1-September 30
+
+1-7pm*
+
+8.5
+
+9
+
+AEP Texas
+
+December 1-February 28
+
+24/7
+
+16.2
+
+11
+
+CenterPoint
+
+December 1-February 28
+
+24/7
+
+50
+
+26
+
+Oncor
+
+December 1-May 31
+
+24/7
+
+53.5
+
+77
+
+TNMP
+
+December 1-May 31
+
+24/7
+
+7.4
+
+7
+
+Source: ERCOT, 2025 Demand Response Report, Table 7. *Excludes weekends and federal holidays. *Includes ERCOT holidays. **AEP Texas Summer TDSP
+programs are shown as a range because some load management programs are only available in August and September while others are available in all of the
+months shown.
+*Capacity figures shown are for Summer 2025 and Winter 2025.
+
+44 Reliant Energy. Business Degrees of Difference, link.
+
+Page 16
+
+April 2026
+
+Charles River Associates
+
+2.2.4. Self-directed price-responsive demand
+Many ERCOT loads respond to price signals outside of anticipated 4CP intervals and without
+being part of a formal DR program. Instead, they vary their load independently based on their
+own economics and the prevailing locational marginal price (LMP). For example, ERCOT
+provided information in a January 2026 Wholesale Market Subcommittee meeting showing
+that crypto mining loads are extremely price sensitive. As shown in Figure 1, crypto mining
+loads that also provide ERS in the West zone, are highly price sensitive, and rapidly reduce
+load (blue line) when prices spike (red line). These price responses appear to be almost
+instantaneous.
+
+Figure 1: Crypto mining price sensitivity in West Zone, June - September 2025
+June 2025
+
+July 2025
+
+August 2025
+
+September 2025
+
+Source: ERCOT, Agenda Item #4: ERS/Crypto Mining Load, WMS Meeting, January 7, 2026, at 6-9.
+
+ERCOT also found that the price sensitivity of these crypto mining loads increased as LMPs
+increased. Specifically, ERCOT found that crypto mining loads are less price sensitive at
+prices at or below LMPs of approximately $50/MWh. However, their price sensitivity
+increased with prices and a clear inverse relationship was apparent at LMPs above
+$88/MWh.45
+
+3.
+
+Collective impacts of DR programs on ERCOT markets
+
+Taken as a whole, the majority of the DR programs in ERCOT are targeted at load reductions
+during 4CP intervals. In 2024, these load reductions reached almost 5,000 MW through
+programs largely targeted at likely 4CP intervals. As noted above, 4CP intervals may not
+
+45 ERCOT, Agenda Item #4: ERS/Crypto Mining Load, WMS Meeting, January 7, 2026, at 23, link .
+
+Page 17
+
+April 2026
+
+Charles River Associates
+
+align with the ERCOT highest-risk periods when energy shortages can arise, such as during
+net peak periods.
+In 2025, 4.5% of REP and NOIE customers participated in DR and 4CP load reduction
+program; with REP and NOIE participation rates of 8.7% and 2.1%, respectively. 46 DR also
+occurs outside of 4CP intervals, but such reductions are less frequent. ERCOT reported that
+most DR participants in indexed pricing programs, which are not permitted for residential and
+small commercial customers, tend to respond to price signals above $200/MWh. LMPs do not
+exceed $200/MWh in ERCOT often. For example, LMPs in the Central load zone exceed
+$200/MWh in 0.5% of 15-minute intervals in 2025 (178 intervals total). However, these
+intervals also tend to be the intervals where DR and generation resources could offer the
+most value. Load reductions also occur outside of formal DR programs because certain
+loads are extremely price-sensitive and often self-curtail when LMPs exceed approximately
+$70/MWh.47 ERCOT referred to such loads in the 2025 DR Report as “super responders”. 48
+Figure 2 summarizes the qualified Load Resources that ERCOT could deploy, or request
+deployment of in the case of TDSP programs, in 2025. It includes response times and
+whether the load response is provided through an ancillary service product, ERS, or a TDSP
+program. The figures in each box represent the average cleared ERS capability in 2025,
+TDSP capability, and the CLR, NCLR, and ADER capacity qualified to offer ancillary services
+in ERCOT.
+Figure 2: Qualified Load Response and DR in ERCOT by product type and response time, 2025
+
+Regarding TDSP load management programs, ERCOT has only made one request to deploy
+these programs to date. ERCOT made this request on September 6, 2023 during an EEA 2
+
+46 ERCOT 2025 DR Report, Table 9.
+47 ERCOT 2025 DR Report, at 18.
+48 ERCOT 2025 DR Report, at 18.
+
+Page 18
+
+April 2026
+
+Charles River Associates
+
+event.49 ERCOT can only request that TDSPs deploy their load management DR capability,
+and ERCOT operators do not have information about the amount of DR capability (in MW)
+that is deployed in response to a deployment request. 50
+It is also informative to examine time periods with the greatest load reductions due to DR
+programs. DR program administrators do not deploy load reductions on a routine basis
+throughout the year. Most DR deployments in ERCOT tend to occur in the summer months
+during intervals where 4CP intervals are likely to occur. For example, ERCOT reported that
+during the summer of 2023, one or more REPs deployed their responsive device DR
+programs on only 33 unique days.51
+ERCOT’s 2024 DR report contained a survey and analysis of the hours in Summer 2024 with
+at least 2,500 MW of load reduction in HE 17 (i.e., the hour ending at 5pm), where 4CP
+intervals are common (referred to herein as “high load days”). ERCOT’s survey, summarized
+in Figure 3, included 24 days and shows load reductions from REP- and NOIE-administered
+4CP DR programs and load reduction from other DR programs. Load reductions in the
+Summer of 2024 reached as high as 4,949 MW. ERCOT’s analysis clearly demonstrates that
+the majority of load reduction in ERCOT is driven by 4CP cost allocation. Much lower
+amounts of load reduction from “Other” DR programs (shown in green). 52
+
+49 ERCOT issued an EEA 2 alert on September 6, 2023. ERCOT News Release, Sep 6, 2023, ERCOT Has Initiated Energy
+Emergency Alert Level 2 (EEA 2), Conservation is Critical link. See also ERCOT Response to Commission Staff’s First
+Request for Information to ERCOT, Questions RF1-1 through RF1-8, Project No. 56517, April 3, 2025, at 10 (response
+to Staff RFI 1-5).
+50 See also ERCOT Response to Commission Staff’s First Request for Information to ERCOT, Questions RF1-1 through RF18, Project No. 56577, April 3, 2025, at 10 (response to Staff RFI 1-5) and 12 (response to Staff RFI 1-6).
+51 ERCOT Comments, Public Utility Commission of Texas, Project No. 56966, at 5, September 27, 2024.
+52 ERCOT DR Report, February 2025, Table 16. “Other” is defined as the sum of load response associated with indexed dayahead and real-time prices, NOIE price response, peak rebate, other direct load control, and ERS minus any capacity
+that participated in multiple programs (referred to as Overlap)
+
+Page 19
+
+April 2026
+
+Charles River Associates
+
+Figure 3: Summer 2024 demand reduction in HE 17 by program type
+
+6,000
+
+4CP Competitive
+
+4CP NOIE
+
+Other
+
+5,000
+
+MW Reduction
+
+4,000
+3,000
+2,000
+1,000
+
+20-Sep-24
+
+18-Sep-24
+
+19-Sep-24
+
+13-Sep-24
+
+16-Sep-24
+
+21-Aug-24
+
+22-Aug-24
+
+19-Aug-24
+
+20-Aug-24
+
+15-Aug-24
+
+16-Aug-24
+
+7-Aug-24
+
+8-Aug-24
+
+2-Aug-24
+
+6-Aug-24
+
+1-Jul-24
+
+2-Jul-24
+
+28-Jun-24
+
+26-Jun-24
+
+27-Jun-24
+
+24-Jun-24
+
+25-Jun-24
+
+7-Jun-24
+
+14-Jun-24
+
+0
+
+Source: ERCOT 2024 DR Report, Table 16. Note “Other category” is the sum of non-4CP programs minus customers participating in multiple programs,
+referred to as “Overlap” in the survey. Graph only includes days with at least 2,500 MW load reduction.
+
+Load reductions from REP-administered DR programs averaged 2,436 MW in 2024 during
+the 24 high load days in HE 17 and ranged from 1,992 MW to 2,902 MW. Load reductions
+from NOIE-administered 4CP DR programs averaged 1,019 MW and ranged from 430 MW to
+2,142 MW. Overall, load reduction from DR programs in the competitive areas accounted for
+71% of the total load reduction on these summer days, on average, and load reductions in
+NOIE areas accounted for the balance. These ratios roughly align with the 2025 4CP Load
+Ratio Shares shown in Table 12 below.
+These 2025 4CP values will form the basis for 2026 transmission cost allocation. Competitive
+areas will be allocated for 70% of transmission charges via the 4CP method, and NOIEs will
+be allocated the balance (30%). This table gives an indication of how ERCOT’s transmission
+charges will be allocated to the competitive areas and NOIEs with a Load Ratio Share above
+3% in 2026.
+
+Page 20
+
+April 2026
+
+Charles River Associates
+
+Table 12: 2025 4CP Values in ERCOT, MW
+June
+6/19/2025
+17:00
+
+July
+7/30/2025
+17:00
+
+August
+8/18/2025
+17:00
+
+September
+9/04/2025
+17:30
+
+Average 4CP
+Load
+
+Load Ratio
+Share (%)
+
+AEP Texas
+
+5,014
+
+5,285
+
+5,559
+
+5,340
+
+5,300
+
+6.6%
+
+Oncor
+
+27,203
+
+29,484
+
+29,873
+
+28,148
+
+28,677
+
+35.5%
+
+CenterPoint
+
+19,857
+
+20,154
+
+20,747
+
+19,962
+
+20,180
+
+25.0%
+
+TNMP
+
+2,392
+
+2,616
+
+2,349
+
+2,333
+
+2,423
+
+3.0%
+
+Competitive subtotal
+
+54,467
+
+57,539
+
+58,529
+
+55,783
+
+56,580
+
+70.0%
+
+CPS Energy
+
+4,846
+
+4,885
+
+5,362
+
+5,151
+
+5,061
+
+6.3%
+
+City of Austin
+NOIEs < 3% of Avg.
+4CP
+NOIE subtotal
+
+2,644
+
+2,678
+
+2,892
+
+2,757
+
+2,743
+
+3.4%
+
+15,529
+
+16,806
+
+17,186
+
+16,385
+
+16,477
+
+20.4%
+
+23,019
+
+24,369
+
+25,439
+
+24,293
+
+24,280
+
+30.0%
+
+ERCOT Total
+
+77,486
+
+81,908
+
+83,968
+
+80,076
+
+80,860
+
+100.0%
+
+Source: ERCOT.
+
+An important aspect of the incentives created by 4CP cost allocation is that load curtailments
+– whether through formal DR programs or through self-curtailment – are much greater in
+anticipated 4CP hours than in other hours. Summer coincident peak hours typically occur in
+the afternoon, with the 4CP hour often occurring in hour ending 17 (i.e., HE 5pm). The net
+load peak, defined as load minus the output of wind and solar resources, typically occurs at
+different times of the same day. For example, ERCOT also estimated DR load reductions on
+the same Summer 2024 high load days during the net peak hour, which predominantly
+occurred in HE 20 and 21. A comparison of load reductions during the peak hour and net
+peak hour on the sample of Summer 2024 days is shown in Figure 4 below. Load reductions
+during the net peak load hour tended to be much lower than during the peak hour.
+
+Page 21
+
+April 2026
+
+Charles River Associates
+
+Figure 4: DR load reduction on Summer 2024 high load reduction days,
+difference between HE 17 and daily net peak hour
+
+Source: Derived from data provided in the ERCOT 2024 DR Report.
+
+Specifically, the average load reduction on the 24 high load days in was 3,509 MW during the
+HE 17, a likely 4CP hour, and 2,178 MW higher than the average DR load reduction during
+the net peak load hour on the same day (1,331 MW).
+An analysis ERCOT performed on a small sample REP-administered DR programs in 2023
+showed the same dynamic – significantly higher load reductions during anticipated or likely
+4CP intervals than during daily net load peaks. ERCOT analyzed the load reductions of
+approximately 30,000 residential customers enrolled in REP-administered residential DR
+programs in 2023.53 ERCOT indicated that the REP-administered DR deployments were
+attributable to responsive devices, such as thermostats.
+ERCOT selected the four summer days in June, July, August, and September 2023 with the
+highest net peak loads in each month.54 On these days, ERCOT calculated baselines for the
+residential customers and estimated their aggregate load reductions during deployment.
+ERCOT found that the average premise-level load reduction during the net peak load hour on
+these days ranged from -0.48 kW to 1.25 kW.55 Figure 5 plots load reductions from these
+residential customers (green line) relative to their estimated baseline loads (blue line) on one
+of the selected days; June 20, 2023. The residential load reductions during the net peak hour
+on June 20, 2023, which occurred in HE 20, was 17.08 MW, a reduction of 3.45% relative to
+the baseline estimate from these customers (500.06 MW). The highest load reduction on
+
+53 ERCOT comments, Public Utility Commission of Texas Project No. 56966, at 1-2. ERCOT relied on information from its annual
+DR survey to perform this analysis.
+54 The dates ERCOT selected in 2023 were June 20, July 31, August 25, and September 6. These dates differed from the dates
+when the 4CP occurred in these months.
+55 ERCOT explained that these estimates were typically due to responsive devices, such as thermostats. The observed load
+increases, were due to REP deployments ending (e.g., thermostats reverting to prior settings), near the beginning of
+the peak hour.
+
+Page 22
+
+April 2026
+
+Charles River Associates
+
+June 20, 2023 occurred in HE 17, an hour when a 4CP interval is likely to occur. The average
+load reduction in HE 17 was 124.64 MW, a reduction of 25% relative to the baseline.
+
+Figure 5: Estimated residential load reductions from REP-administered
+DR programs, June 20, 2023
+600
+
+$5,000
+
+500
+
+Average load
+reduction during
+net peak hour (HE
+20):
+17.08 MW
+
+$4,000
+
+$3,000
+
+MW
+
+300
+
+$2,000
+
+LMP ($/MWh)
+
+400
+
+200
+$1,000
+
+100
+
+0
+
+$0
+
+Hour End
+
+LMP
+
+net peak baseline
+
+Average load
+reduction during
+HE 17:
+124.64 MW
+
+actual net peak
+
+reduction
+
+Source: Attachment to ERCOT comments, PUCT Project No. 56966
+
+Similar trends occurred on the other three days ERCOT analyzed, and although the
+information was not a complete sample of all 2023 retail DR programs, the data are
+consistent with the trend observed in ERCOT’s 2024 DR survey. ERCOT explained to the
+Commission that current REP-administered DR programs, “[do] not necessarily guarantee
+that deployment will occur during the highest net peak load hour or for the entirety of those
+hours.”56 ERCOT further explained that many DR programs may not require curtailment, or
+may allow customers to cease curtailment after a specified time, and that there was an
+imperfect correlation between high LMPs and net peak loads for the full hour of peak net
+load. Finally, ERCOT noted that REPs could misestimate high-priced intervals, or have hedge
+positions that could reduce a REP's incentives to curtail its customers in a given high-priced
+interval.
+As such, the current REP- and NOIE-administered DR programs in ERCOT do not appear to
+be targeting the system’s greatest needs for load reductions, which often occur during net
+peak periods. The retail DR programs that ERCOT does not administer are not in conflict with
+each other and do not appear to be causing operational challenges or impairing the
+functioning of the ERCOT market, but there is an opportunity to increase the benefit of retail
+DR by better aligning them with ERCOT’s system needs. As discussed further below,
+ERCOT’s DR participation rates are fairly low and would likely increase if additional financial
+incentives are provided to retail DR program participants.
+ERCOT provided CRA with summary information of DR deployments from REP-administered
+DR programs classified as “other direct load control programs” where at least 1,000 ESIIDs
+were recorded as being deployed in the summer months of June, July, August, and
+September 2025. These deployments occurred across the competitive areas in ERCOT
+
+56 ERCOT comments, Public Utility Commission of Texas Project No. 56966, September 27, 2024, at 3.
+
+Page 23
+
+April 2026
+
+Charles River Associates
+
+footprint. CRA analyzed the intervals where DR deployment was 5% or more below ERCOT’s
+calculated DR baseline for the associated ESIIDs, which amounted to 247 15-minute intervals
+on 22 individual days. The average load reductions by hour are shown in Figure 6 below.
+Figure 6: Summer 2025 sample of residential REP DR program reductions
+from Other Direct Load Control programs
+
+The average residential load reduction from the load control programs on these days was 6.3
+MW, but the maximum deployment was 50.8 MW. The average percentage reduction relative
+to ERCOT’s estimated demand baseline for the ESIIDs was 17%, and the maximum percent
+reduction was 57%. These REP-administered retail DR deployments, which do not represent
+all DR deployments and were not associated with 4CP DR programs, tended to occur just
+before and during net peak hours (HE 20 and 21). Twenty percent of the intervals (50 out of
+the sample of 247 intervals) occurred during the net peak hour, and these reductions were
+also the highest in terms of MW. The average and maximum load reduction amounts from
+these direct load control DR programs do not represent load reductions from all DR programs
+and as a result, are much lower than typically occur in ERCOT during likely 4CP intervals.
+ERCOT has not released its analysis of 2025 load reductions from all DR programs, including
+those focused on 4CP intervals, as of the publication date of this assessment.
+The amount of load reductions (in MW) associated with these DR programs was positively
+correlated with prices, with higher DR reductions occurring at higher prices, but the
+relationship was not linear. For example, there were several instances of high prices and
+relatively low DR reductions, as shown in Figure 7 below. This shows that DR reductions are
+not purely price driven, which indicates that REPs likely consider several factors when
+deploying DR, and may have financial positions that can make the REP less sensitive to
+prevailing real-time prices. Another factor may be that some DR reductions are achieved
+through a customer-sited PV installation or a combination of customer-sited PV and storage,
+which can limit when DR capability is available for deployment.
+
+Page 24
+
+April 2026
+
+Charles River Associates
+
+Figure 7: 2025 Sample load reductions and indicative Real-Time LMP
+400
+
+Real-Time LMP ($/MWh)
+
+350
+300
+250
+200
+150
+100
+50
+0
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+MW Reduction
+
+Additionally, energy consumption increased relative to the baseline after the deployment,
+most likely to restore temperatures to pre-deployment levels. However, the REP DR
+deployments resulted in net energy savings overall relative to ERCOT’s estimated baselines.
+
+4.
+
+ERCOT DR programs looking forward
+
+Pursuant to SB6, enacted by the 89th Texas Legislature, ERCOT is required to add a new
+DR product available to loads at or above 75 MW. 57 ERCOT also proposed a DR product that
+would provide incentive payments for load reductions from residential customers during net
+peak periods (NPRR 1296).58 SB6 and ERCOT’s RDR proposal are discussed in turn below.
+
+4.1.
+
+SB6 large load curtailment service
+
+SB6 directs the Commission to require ERCOT to “develop a reliability service to
+competitively procure demand reductions from large load customers with a demand of at
+least 75 MW to be deployed in the event of an anticipated emergency condition.”59
+SB6 further requires that the service: 1) specify the periods when the service may be used to
+assist with maintaining reliability during extreme weather events; 2) ensure that ERCOT
+provides at least a 24-hour notice to large load customers and requires each large load to
+remain curtailed for the duration of the energy emergency alert event or until the load can be
+recalled safely; and; 3) prohibit participation by any large load customer that curtails in
+response to the wholesale price of electricity, as determined by ERCOT, or that otherwise
+participates in a different reliability or ancillary service.60 Finally, SB6 requires ERCOT to
+
+57 TX Senate Bill 6, 89th Texas Legislature, §39.170, link.
+58 NPRR 1296, Residential Demand Response Program, link.
+59 SB6, §A39.170(a).
+60 SB6, §A39.170(b).
+
+Page 25
+
+April 2026
+
+Charles River Associates
+
+include a deployment adder and calculate price adjustments when it deploys the service.61
+The Commission is currently considering how to design this reliability service in Project No.
+58482.
+
+4.2.
+
+ERCOT RDR proposal
+
+In December 2024, the Commission established an average residential load reduction goal
+for ERCOT that focused on reducing residential electric consumption during “ERCOT peak
+demand periods” pursuant to legislation enacted by the 88th Texas Legislature. 62 The
+Commission created a residential DR program to help achieve the goal through responsive
+devices, referred to herein as the §25.186 program because the PUCT regulations that
+govern the program are contained in 16 TAC §25.186. REPs are eligible to receive funding to
+administer the §25.186 program through TDSP energy efficiency incentive programs
+established under 16 TAC §25.181.63 As part of the §25.186 program, REPs must submit
+quarterly reports to ERCOT to help the Commission monitor §25.186 program
+performance.64 As discussed further below, ERCOT has proposed to use this reporting as a
+vehicle to incent and expand residential load reductions in ERCOT, in both competitive and
+NOIE areas.
+In 2025, ERCOT proposed an RDR program under NPRR 129665 that would leverage QSE
+reporting to ERCOT that would occur through the §25.186 program.66 ERCOT is currently
+refining the RDR proposal and incorporating stakeholder feedback. PUCT regulations prohibit
+residential customers that participate in the §25.186 program from participating in the ERS
+program or TDSP load management programs.67
+Details of ERCOT’s proposed Residential DR program
+ERCOT is proposing a program that would make incentive payments to QSEs (that represent
+a NOIE or REP DR program administrators) to compensate NOIEs and REPs for residential
+load reductions achieved through controllable devices, such as thermostats. ERCOT’s
+proposed RDR program would use the reporting established under PUCT’s §25.186 program
+to monitor performance and calculate incentive payments for residential load reductions.
+ERCOT would not issue deployment instructions under the proposal. Instead, ERCOT would
+provide incentive payments after-the-fact. As discussed further below, the incentive payments
+would not be guaranteed. According to ERCOT, the proposed RDR program will “expand the
+utilization of smart devices at households to provide DR to assist in meeting the peak system
+Net Load throughout the year.”68
+
+61 SB6, §A39.170(c).
+62 Public Utility Commission of Texas, Order Adopting New 16 TAC §25.186, Project No. 56966, December 12, 2024, link
+63 16 TAC, §25.186(f).
+64 Public Utility Commission of Texas, Order Adopting New 16 TAC §25.186, Project No. 56966, December 12, 2024, at 43. See
+also ERCOT, Instructions for Quarterly Residential Demand Response Data Submission by Transmission and
+Distribution Service Providers, link.
+65 NPRR 1296, Residential Demand Response Program, link.
+66 16 Texas Administrative Code (TAC), §25.186(c), link.
+67 16 TAC, §25.186(c)(2)(D).
+68 ERCOT, NPRR 1296, at 1.
+
+Page 26
+
+April 2026
+
+Charles River Associates
+
+Performance assessment and price adder
+Under the RDR proposal, ERCOT would review meter data provided by QSEs, on behalf of
+REPs/NOIEs, and calculate the highest hourly load reductions for each season during the
+applicable number of top net peak hours in each season, as noted in the “Assessment hours”
+column in Table 13. For example, for the summer season, ERCOT would calculate a
+REP/NOIE participant’s highest six load reductions during the eight highest net load hours in
+summer. ERCOT would then compensate NOIE/REP’s QSE at the seasonal RDR
+compensation rate, discussed further below.
+
+Table 13: Proposed RDR seasons, assessment hours, and participation caps
+Season
+
+Assessment hours
+
+Cap (MWh)
+
+Summer (Jun – Sep)
+
+highest 6 load reduction hours of
+the highest 8 net load hours
+
+1,500
+
+Fall (Oct – Nov)
+
+highest 3 load reduction hours of
+the highest 5 net load hours
+
+3,000
+
+Winter (Dec – Feb)
+
+highest 6 load reduction hours of
+the highest 8 net load hours
+
+1,500
+
+Spring (Mar – May)
+
+highest 3 load reduction hours of
+the highest 5 net load hours
+
+3,000
+
+Source: NPRR 1296, Residential Demand Response Program, Aug. 26, 2025,
+§3.26.4(1).
+
+Some stakeholders expressed concerns that the RDR proposal would suppress prices during
+net peak hours because the incentive payments would be paid outside of the real-time
+market. Based on this feedback, ERCOT proposed to include a Reliability Deployment Price
+Adder (RDPA) to address price formation concerns. The proposed RDPA would be triggered
+in hours when net load exceeds a pre-defined threshold. ERCOT reasoned that this adder
+would effectively capture the expected hours of RDR participation while also providing a
+reasonable degree of stability to the market. ERCOT is considering thresholds that would
+trigger the RDPA and recently proposed seasonal triggers based on seasonal net load peaks
+in the prior two years.69
+Participation requirements
+ERCOT’s proposed RDR program would be open to QSEs that represent both REPs and
+NOIEs. Participating QSEs would submit interval data for all days in the Assessment Period
+and for other Unique Meter IDs selected by ERCOT from the initial population files that NOIE
+LSEs would be required to submit. The RDR program would require a minimum of 2,000
+participants per NOIE or REP. Participating NOIE LSEs would also be required to assign
+Unique Meter Identifiers (UMIs), analogous to ESIIDs, to premises. Individual entities
+participating in a TDSP’s Standard Offer Load Management Program implemented under 16
+TAC §§25.181-183, ERS, or the ADER program would not be eligible to participate in the
+RDR program. ERCOT expects to apply the Matching Sites methodology to calculate
+baseline levels for RDR program participants, but may consider using the Statistical
+Regression baseline method if deemed necessary.
+
+69 ERCOT, NPRR1296: Residential Demand Response (RDR) Program – Reliability Deployment Price Adder (RDPA) Analysis,
+Wholesale Market Subcommittee (WMS) March 4, 2026, link.
+
+Page 27
+
+April 2026
+
+Charles River Associates
+
+Proposed RDR incentive rate and program caps
+ERCOT proposed an initial RDR compensation rate based on the lower of $140,000/MWyear, and the historical 3-year rolling average of the Peaker Net Margin divided by the
+number of events per year, which is 18 as currently proposed. 70 The initial rate has since
+been adjusted to $105,000/MW-year. If the RDR response (in MWh) exceeds the seasonal
+caps (see Table 13), then the RDR compensation rate would be commensurately reduced so
+as not to exceed the compensation caps (e.g. if 500 MW cap was exceeded by 10% in a
+season, the compensation would be reduced by 10%). ERCOT also considered and sought
+feedback on the proposed 500 MW seasonal participation cap for the RDR proposal.71 See
+the Appendix for additional details about the current RDR proposal, which as noted above is
+currently under development.
+
+5.
+
+Load participation in other U.S. RTOs/ISOs
+
+Although differences exist across markets, Load Resource and DR participation rates in
+ERCOT are comparable to participation in other U.S. wholesale electricity markets – the
+California ISO (CAISO), ISO New England (ISO-NE), Midcontinent Independent System
+Operator (MISO), New York Independent System Operator (NYISO), PJM Interconnection
+(PJM) and the Southwest Power Pool (SPP). This assessment collectively refers to these
+wholesale markets as FERC-jurisdictional RTOs/ISOs. As in ERCOT, load resources can
+participate in energy and ancillary services markets in FERC-jurisdictional RTOs/ISOs. Load
+resources can also participate in capacity markets, if they exist. 72
+Load and DR resources in FERC-jurisdictional RTOs/ISOs earn the majority of their market
+revenues from capacity markets. For example, in PJM in 2024, capacity market revenue
+accounted for 76.4% of all revenue received by load resources, 7.25% came from
+participating in energy markets (economic DR), 9.1% of revenues came from regulation, and
+7.2% came from synchronized reserves.73 Additionally, in CAISO, the $/kW-year rates
+available to load resources for capacity are at least ten times those available for providing
+ancillary services.74 Given the difference in profitability, load resources tend to make up a
+small share of ancillary service markets in FERC-jurisdictional RTOs/ISOs, with rates
+comparable to those observed in ERCOT. Load resources rarely participate in FERC-
+
+70 The Peaker Net Margin as the cumulative difference between real-time energy prices and peaker’s operating costs across
+settlement intervals, calculated starting from a value of zero on January 1 of each calendar year. ERCOT reasoned
+that the initial incentive rate would provide a predictable financial incentive to participants calibrated to market
+conditions. ERCOT, Residential Demand Response Workshop I, May 2, 2025, at 14, link.
+71 ERCOT, Residential Demand Response Workshop II, June 16, 2025 at 22, link.
+72 FERC-jurisdictional RTOs/ISOs are subject to FERC Order No. 745, which generally requires that DR resources must be
+eligible to offer into RTO/ISO product markets provided they meet the applicable technical and operational
+requirements and pass a net benefits test.
+73 Monitoring Analytics, 2024 State of the Market Report for PJM, March 13, 2025, at 345. Capacity resources that provide
+Emergency DR earn revenue from the capacity and emergency energy revenues.
+74 For example, net energy market revenues of Utility Proxy Demand Resources in 2024 were $1.59/kW-year while available
+capacity revenues were $96/kW-year in the RA program (85th percentile price) and $206.42/kW-year in the Demand
+Response Auction Mechanism. See CAISO Department of Market Monitoring, Demand response issues and
+performance 2024, February 20, 2025, Table 3.2.
+
+Page 28
+
+April 2026
+
+Charles River Associates
+
+jurisdictional RTO/ISO markets as energy resources.75 Table 14 summarizes the DR capacity
+that participated in RTO/ISO-administered capacity markets in 2024.76
+
+Table 14: DR Participation in RTO/ISO capacity markets, 2024
+
+MISO*
+
+NYISO
+
+ISONE
+PJM
+
+DR type
+Load Modifying Resource (LMR)
+LMR-BTMG
+LMR-DR
+Total Special Case Resources
+Special Case Resources – Capacity
+Emergency DR (SCR)
+Total Demand Capacity Resources
+Active Demand Capacity Resources
+Passive Demand Resources
+Demand Response Capacity Resource
+
+Capability
+(MW)
+12,978
+4,143
+8,109
+1,435
+1,433
+2
+3,674
+431
+3,243
+8,065
+
+Source: Potomac Economics, MISO 2024 State of the Market Report,
+Table 17, and Monitoring Analytics, PJM 2024 State of the Market Report,
+Table 6-8 (PJM figure reported in UCAP MW).
+
+CAISO does not administer a capacity market, but the California Public Utilities Commission
+(CPUC) administers a capacity construct called the Resource Adequacy (RA) Program. The
+RA Program is integrated into CAISO’s day-ahead and real-time energy markets. In the
+summer of 2024, DR capacity (1,414 MW) accounted for about 2.6% of CAISO’s total system
+RA capacity. The majority (about 1,150 MW) of the DR capacity used to meet RA Program
+requirements comes from retail DR programs administered by investor-owned utilities (IOUs)
+that are jurisdictional to the CPUC. An IOU’s RA capacity is subtracted from its RA
+obligations.77 Just over half of this DR capacity (54%) is from Reliability Demand Response
+Resources, which are primarily deployed in emergency conditions after CAISO issues a
+system warning. Third-party DR programs provide the remainder (approximately 20%) of DR
+capacity sold in the RA Program.
+Table 15, which was prepared by FERC, shows the share of DR capability as a percent of
+peak demand in 2024. The figures include DR resources that do and do not participate in
+capacity markets, and DR capability ranges from a low of 1.7% in ISO-NE to a high of 10.6%
+in MISO. FERC relied on ERCOT’s 2024 DR Report to estimate that DR resources in ERCOT
+constituted 4.8% of ERCOT’s 2024 peak demand.
+
+75 Exceptions exist, such as in PJM, but this program involves a load resource offering a strike price into the Day-Ahead market
+that tends to be high. PJM can also deploy these resources in emergencies.
+76 SPP does not administer a capacity market but penalizes LSE that that fail to meet their seasonal (summer and winter)
+capacity requirement.
+77 Capacity from IOU DR is scheduled into CAISO markets but not subject to CAISO’s adequacy availability incentive mechanism
+(RAAIM), which rewards or penalizes RA resources based on their availability.
+
+Page 29
+
+April 2026
+
+Charles River Associates
+
+Table 15: RTO/ISO DR as a percent of peak, 2024
+RTO/ISO
+CAISO
+ERCOT
+ISO-NE
+MISO
+NYISO
+PJM
+SPP
+
+DR Resources (MW)
+4,373
+4,099
+431
+12,954
+1,921
+8,526
+968
+
+Percent of peak
+demand
+9.0%
+4.8%
+1.7%
+10.6%
+6.10%
+5.7%
+1.8%
+
+Source: FERC, 2025 Assessment of Demand Response and
+Advanced Metering, December 2025, Table 3-3.
+
+FERC-jurisdictional RTOs/ISOs also currently permit or plan to permit distribution-connected
+DER aggregations to offer energy, ancillary services, and capacity, where applicable,
+pursuant to requirements specified in FERC Order No. 2222. FERC Order No. 2222 is
+comparable to ERCOT’s ADER pilot in many respects, although most FERC-jurisdictional
+RTOs/ISOs have not fully implemented the requirements. No FERC-jurisdictional RTO/ISO
+offers a DR product that is only available to residential customers. Instead, with limited
+exceptions, DR is procured and compensated through market products that all qualifying
+resource types can participate in (i.e., energy, ancillary services, and capacity).
+Switching the focus to DR participation in energy markets, in FERC-jurisdictional RTOs/ISOs,
+DR resources that participate in the energy market are eligible to be compensated at LMP.
+This compensation is required by FERC Order No. 745.78 Several stakeholders opposed
+compensating at LMP and argued that DR resources were an “unexercised call option on
+spot market energy”, which has a value equal to the LMP minus the “strike price,” which
+many argued was the retail rate.79 Based on this rationale, many argued that DR resources
+should be compensated at the LMP minus the generation component of the retail rate (often
+referred to as “LMP minus G”). Commenters also argued that failing to account for the
+savings retail customers realize from load reductions – which enables those customers to
+avoid the retail rate - would overcompensate certain DR resources. FERC’s Order 745 was
+upheld by the Supreme Court and governs how DR energy resources are compensated in
+FERC-jurisdictional RTO/ISO energy markets.80
+
+5.1.
+
+Lessons Learned from FERC-jurisdictional RTOs/ISOs
+
+Although DR resources have successfully competed in FERC-jurisdictional RTO/ISO markets
+and provided system benefits, RTOs/ISOs have encountered issues that may prove
+informative to ERCOT as it considers designing new DR products. MISO’s recent experience
+related to dual participation, DR baseline calculations, and ensuring and verifying DR
+performance may be instructive to the Commission, ERCOT, and stakeholders as they
+consider addressing pre-deployment issues with ERS, and the SB6 large load curtailment
+service, and the RDR proposal.
+For example, MISO filed three sets of market rule changes with FERC, which FERC
+approved in July 2025, to address manipulation associated with payment for nonexistent or
+overstated curtailments; inaccurate or inflated baselines on which DR curtailments are based;
+
+78 Demand Response Compensation in Organized Wholesale Energy Markets, Order No. 745, 134 FERC ¶ 61,187 (2011).
+79 Id., at 24. DR resources must also provide a net benefits test.
+80 FERC v. Electric Power Supply Association (2016).
+
+Page 30
+
+April 2026
+
+Charles River Associates
+
+and the fraudulent registration of DR resources.81 ERCOT’s Independent Market Monitor
+(IMM) Potomac Economics, which is also the IMM for MISO, was instrumental in identifying
+this behavior and helping MISO revise market rules to prevent similar behavior in the future.
+Manipulative behavior by DR resources in MISO resulted in two settlements with FERC’s
+Office of Enforcement.82 Potomac Economics said these FERC settlements “illustrate the
+inherent problems of allowing demand to participate as supply in the market.”83
+The first set of market rule changes clarified in the MISO tariff that DR resources must take
+actions (i.e., curtail load or increase behind-the-meter generation) after receiving instructions
+from MISO. These tariff changes also clarified that failing to respond to MISO instructions
+would violate the MISO tariff.84 MISO explained to FERC that the second set of market rule
+changes were needed to determine accurate and verifiable baselines for MISO DR
+resources. The changes required certain DR resource types to attest in writing that a load
+reduction was made in direct response to MISO’s instructions, and to ensure that the market
+participant understands it must respond to MISO’s instructions to fulfill its obligations. The
+changes also required DR resources to submit meter data to MISO before final settlement
+charges and credits were billed.85 The third set of market rule changes required market
+participants offering LMRs in MISO to attest they have the legal title and ability to deploy the
+LMR.86 MISO explained that collectively, the three sets of market rule changes will provide
+MISO with the information it needs to verify DR performance and to adjust payments to DR
+resources for failure to respond to MISO instructions.
+MISO’s experience here could be instructive to ERCOT as it seeks to address issues
+discussed further below related to the self-deployment of ERS resources prior to emergency
+events. They also speak to the importance of establishing clear expectations of load side
+resources in the ERCOT tariff. Finally, MISO’s reforms demonstrate the need to verify DR
+performance ex post for settlement purposes, adjusting payments if necessary. Such reforms
+also increase incentives for load resources to perform when called upon.
+MISO also experienced challenges from load resources simultaneously providing two types of
+market products, often called dual participation. MISO proposed and received FERC approval
+for changes that prohibited certain load resources from participating in MISO markets as both
+an Emergency DR resource and as an LMR. MISO explained the changes were necessary
+because permitting such dual participation could enable certain DR resources to earn market
+revenues for potential DR deployments that MISO would never make in practice. 87
+
+81 Midcontinent Independent System Operator, Inc., 192 FERC ¶ 61,060 (2025), at P 7.
+82 Big River Steel LLC & Entergy Ark. LLC, 184 FERC ¶ 61,111 (2023) and Linde Inc. and N. Ind. Pub. Serv. Co. LLC, 186
+FERC ¶ 61,009 (2024).
+83 Potomac Economics, 2024 State of the Market Report for MISO Electricity Markets, June 2025, at 100.
+84 Midcontinent Independent System Operator, Inc., 192 FERC ¶ 61,060 (2025), at P 8.
+85 Id., at P 9. The new rules required DRRs without behind the meter generation to provide hourly meter data for all hours of
+every day by the 53rd calendar day from the Operating Day of the deployment or be treated as having not performed.
+DRRs with behind the meter generation were required to provide hourly meter data for all event and non-event hours
+for the previous five days after each Operating Day it received a deployment instruction. Load Modifying Resources
+were required to report hourly meter data for all hours in the 15 days prior to the event date, on the event day, and15
+days after the event date within 53 Calendar Days from the event date.
+86 Id. at P 18.
+87 Midcontinent Independent System Operator, Inc., 192 FERC ¶ 61,059 (2025) at P 10.
+
+Page 31
+
+April 2026
+
+Charles River Associates
+
+Dual participation does not appear to be an issue in ERCOT as ERCOT’s market rules
+generally prohibit dual participation in DR and load resource participation programs. However
+dual participation may not be problematic if the programs serve different needs and are
+unlikely to be deployed at the same time. Notably, MISO’s dual participation reforms only
+address instances when dual participation was infeasible. Dual participation rules that are too
+stringent can needlessly limit DR participation. For example, ERCOT recently explained in
+comments to the Commission that, “In ERCOT' s opinion, overlapping participation in REP
+Free-Days/Hours or Time-of-Use programs and ERS or TDU load management programs
+does not have an impact on the reliability benefits of either ERS or the TDU load
+management programs.”88 However, ERCOT also noted that other types of dual participation
+could impact reliability, such as dual participation in other REP DR programs and the ERS
+program or a TDSP load management program. As discussed further below, ERCOT’s
+current market rules for Load Resources appear to address dual participation in instances
+where it could be problematic.
+RTOs/ISOs have also had challenges calculating the reliability value of DR resources that
+provide capacity in RTO/ISO capacity markets.89 This calculation can be challenging for all
+resource types because a variety of assumptions must be made to accredit capacity
+resources of all types. RTOs/ISOs with capacity markets have recently refined capacity
+accreditation techniques and now use resource adequacy models, along with other
+assumptions, to accredit capacity resources. These complex capacity accreditation
+techniques attempt to more accurately estimate the individual contribution each capacity
+resource makes to meeting the RTO/ISO resource adequacy requirement. 90 Given their
+complexity, resource accreditation can change from year-to-year given changes in the
+resource fleet, the periods when the system experiences its highest resource adequacy risks,
+and other factors. ERCOT does not have a capacity market so capacity accreditation is not
+needed, but DR accreditation techniques could be helpful for other purposes. For example,
+ERCOT currently uses capacity Effective Load Carrying Capacity accreditation techniques for
+inverter-based resources in its Capacity, Demand and Reserves Report (CDR Report) and
+could also consider ELCC or another accreditation approach for ERS resources or large
+loads that provide curtailments under the SB6 curtailment service.
+
+5.2.
+
+Challenges integrating retail DR programs with RTO/ISO markets
+
+DR capability from retail DR programs is offered into wholesale markets, but this is most
+effective when the retail DR programs are aligned with wholesale market products and
+operations, which is rarely the case in FERC-jurisdictional markets. For example, NYISO’s
+IMM Potomac Economics observed that load reductions from utility DR programs is not
+considered in NYISO’s day-ahead forecasts, which has led to unnecessary reliability
+commitments and out-of-market actions on high load days. The NYISO IMM further observed
+that, “to enhance market efficiency, it would be beneficial for NYISO to collaborate with
+[transmission owners] to evaluate the feasibility and appropriateness of including utility
+demand response deployments in its market scheduling and pricing processes.”91
+
+88 PUCT Project No. 56517, ERCOT Response to Commission Staff’s First Request for Information to ERCOT, Questions RF117, April 3, 2025.
+89 See e.g., Energy Systems Integration Group, Gaps, Barriers, and Solutions to Demand Response Participation in Wholesale
+Markets, January 2025, at 26-27. (ESIG DR Report, 2025).
+90 Examples of these methods include Marginal Reliability Impact accreditation, currently used in NYISO and planned in ISO-E;
+the Effective Load Carrying Capability used in PJM, and the Direct Loss of Load method accepted for future use in
+MISO.
+91 Potomac Economics, 2024 NYISO State of the Market Report, at 25.
+
+Page 32
+
+April 2026
+
+Charles River Associates
+
+Additionally, in a 2025 report Energy Systems Integration Group (ESIG) noted the
+misalignment between retail and wholesale electric rates as a barrier to DR participation in
+wholesale electricity markets.92 ERCOT’s proposed RDR would attempt to better align retail
+DR programs with ERCOT’s system needs and real-time price signals.
+CAISO is a notable exception to this trend because several retail DR programs in the CAISO
+footprint are specifically designed to align with CAISO market rules and the CPUC’s RA
+program, which is integrated into the CAISO market. This direct alignment is intentional and
+the result of California state policies and initiatives, CPUC regulations, and DR program
+development and refinement over time.93 For example, California IOUs Pacific Gas & Electric
+Company (PG&E) and Southern California Edison (SCE) offer retail DR programs that are
+designed to work within CAISO’s wholesale market and the RA program for wholesale
+capacity. For example, PG&E and SCE both offer residential customers a Capacity Bidding
+Program (CBP), where retail DR aggregators can receive capacity payments in certain
+months (May - October). These DR compensation rates are guaranteed, change monthly,
+and average $12.71/kW-month ($152,520/MW-year) in PG&E and $13.00/kW-month in SCE
+($156,000 per MW-year).94,95 PG&E also administers the Automated Response Technology
+(ART) program for residential customers that uses controllable devices, such as smart
+thermostats, to achieve load reductions during peak periods.96 Unlike the CBP, ART is
+offered year-round, with current monthly rates that range from a low of $1.57/kW-month in
+March to a high of $28.83/kW-month in September. The average annual rate under the ART
+is $10/kW-month, which is equivalent to $120,000/MW-year. Although these rates are not
+directly comparable to the service provided under the RDR proposal, these rates reflect the
+retail DR rate incentives available to retail customers in CAISO. They are also roughly in line
+with the initial RDR incentive rate given the fact the RDR incentives are not guaranteed and
+would involve more deployments than a CAISO retail DR capacity resource.
+
+6.
+
+CRA assessments and recommendations
+
+Below, CRA presents its assessments of ERS, the ADER pilot, and ERCOT’s RDR proposal.
+
+6.1.
+
+ERS
+
+The trends of ERS self-deployment and declining prices ERCOT identified raise several
+concerns. First, ERS self-deployment could give ERCOT operators a false sense of security
+that ERS Resources are available for deployment when they are not. Such situations could
+present reliability challenges during emergency events. Second, an ERS Resource portfolio
+comprised of highly price-responsive loads, such as crypto miners, is likely to continue to
+drive down ERS clearing prices, which could undermine the utility and purpose of the ERS
+product. ERS prices could be driven to inefficiently low levels and drive out less priceresponsive ERS Resources that are still needed to address emergency conditions,
+particularly as ERCOT load grows. Finally, if these trends continue, paying highly price-
+
+92 ESIG DR Report, 2025, at 39-40.
+93 See e.g., CPUC, Guiding Principles for Demand Response in California, Energy Division Staff Proposal, September 8, 2025,
+link.
+94 PG&E Capacity Bidding Program Tariff Schedule, link.
+95 SCE Capacity Bidding Program Tariff Schedule, Election Option 3 prices shown which has the highest trigger price and lowest
+$/kW-month rate, link.
+96 PG&E Automated Response Technology Program, link.
+
+Page 33
+
+April 2026
+
+Charles River Associates
+
+responsive ERS resources for load reductions that they would have done for free is not a
+good use of customer funds.
+Addressing self-deployment may require ERCOT Protocol reforms. For example, ERCOT
+could consider reforms similar, though not identical, to the MISO DR reforms discussed
+above to clarify ERS performance obligations after deployment. Claw-back provisions for
+non-performance could also be evaluated as a way to strengthen ERS performance
+incentives. However, any ERS reforms would need to balance the economic benefits
+associated with price-responsive loads in ERCOT against the operational objectives of the
+ERS product.
+ERCOT’s expenditure-based procurement approach for ERS resources fully expends
+ERCOT’s pre-specified ERS budget to procure ERS Resources across SCTs and Time
+Periods based on relative risks rather than procuring specific MW quantities needed to meet
+a prespecified reliability target or goal. Notwithstanding issues related to self-deployment,
+ERCOT’s expenditure-based procurement framework is reasonable under current conditions,
+given the system’s growing need for energy. However, an ERS procurement approach based
+on MW quantities, rather than spending a set dollar amount (where expenditures could still be
+capped), would make it easier to align future ERS procurements with new DR products, such
+as the curtailment service required by SB6.
+As noted in section 2.1.2 above, Weather-Sensitive ERS participation in ERS is quite low, at
+most 4%, and only occurs in certain seasons (summer and winter SCTs). ERCOT indicated
+that the Weather-Sensitive ERS program is burdensome to administer. Given these burdens
+and the low participation rates, eliminating the Weather-Sensitive ERS program could reduce
+burdens for ERCOT with little apparent downside because these residential customers can
+instead participate in the retail DR programs currently available in ERCOT, or potentially a
+future RDR program.
+Finally, ERS is procured on a systemwide basis without consideration of transmission
+constraints. This raises the risk of procuring ERS capability that is unable to meet system
+needs due to not being deliverable. ERCOT indicated to CRA that interzonal constraints have
+not impacted ERS deliverability to date. ERCOT also noted that incorporating geographic
+location (e.g., zonal procurement) into ERS procurements could affect some ERS Resources
+that are aggregated across zones. Nonetheless, stakeholders could evaluate the potential
+benefits of establishing a Far West Texas ERS sub-zone as conditions have shifted with
+expected transmission limitations in the coming months.
+
+6.2.
+
+ADER
+
+The ADER pilot has succeeded in expanding the opportunities for distribution-connected
+resources to participate in ERCOT markets and increase supply in ERCOT. CRA advises
+ERCOT to consider expanding the types of ancillary services ADERs are eligible to offer,
+provided they are technically capable and their participation would not create reliability
+issues. However, technical challenges remain across RTOs/ISOs related to reliably
+integrating ADERs and enabling them to participate in wholesale electricity markets.97 Given
+these complexities, only two of the six FERC-jurisdictional RTOs/ISOs will be fully compliant
+
+97 See e.g., Energy Systems Integration Group, Distributed Energy Resources Task Force, January 2022, DER Integration
+into Wholesale Markets and Operations. January 2022. See also, Berkeley Lab, , State Regulatory Opportunities to
+Advance Distributed Energy Resource Aggregations in Wholesale Markets, January 2025, link.
+
+Page 34
+
+April 2026
+
+Charles River Associates
+
+by the end of 2026; CAISO is already compliant and ISO-NE should be in compliance by late
+2026.98
+The current participation rates of ADER in other RTOs/ISOs are quite low given the nascency
+of the technology, the time required to design, test, and implement RTO/ISO software
+changes, and the operational and communication protocols needed on the distribution and
+transmission systems to reliably integrate ADERs into wholesale markets. Program
+participation will likely increase over time as FERC Order No. 2222 reforms are implemented
+and DER aggregators and RTOs/ISOs gain experience. However, as noted above, selling
+capacity tends to be the most profitable for DR resources in FERC-jurisdictional ISOs/RTOs,
+so it is not clear whether DER aggregations will participate in energy and ancillary services
+markets at scale. If ADER participation reaches ERCOT’s current program caps (i.e., 500
+MW for energy dispatch, and 100 MW for ECRS and Non-Spin), ADER participation levels
+would far exceed those in other RTOs/ISOs.
+Certain stakeholders may question the value of devoting additional ERCOT resources to
+expand the ADER pilot because other resource types may be more efficient at providing
+energy and ancillary services than ADERs. There is still value in pursuing reforms that allow
+new and non-traditional resources, such as ADERs, to compete to provide services in
+ERCOT because it could increase competition, foster innovation, and reduce prices.
+However, given the technical challenges involved, ERCOT will have to balance such efforts
+with other priorities, many of which are mandated by statute.
+As the ADER program expands, ERCOT may experience challenges by procuring and
+clearing ADERs at the zonal level rather than a more granular level that recognizes local
+transmission constraints. FERC Order 2222 requires RTOs/ISOs to establish locational
+requirements for DERs to participate in aggregations that are as geographically broad as
+technically feasible.99 This technical challenge is often referred to as multi-nodal aggregation
+and FERC-jurisdictional RTOs/ISOs have developed approaches to address them. For
+example, SPP enabled multi-nodal aggregation by examining historical congestion and
+constraints to determine whether the DER sites within a given aggregation were located at
+different but “electrically similar” nodes that could be included in the same DER aggregation
+without threatening reliability or undermining LMP price formation.
+SPP deems two nodes to be electrically similar – and thus nodes that can safely
+accommodate a multi-nodal DER aggregation – if the difference in shift factors two nodes
+have on a list of historically binding constraints is less than 1%. 100 SPP’s analysis found that
+many of the electrically similar nodes were at the same substations and had the same kV
+voltage level. Other RTOs/ISOs used a similar approach and analyzed historical congestion
+patterns to identify groups of nodes that could safely host a multi-nodal DER aggregation.
+ERCOT could consider using similar methods as it studies the impacts ADERs have on
+congestion management.
+
+98 Charles River Associates, Grid Under Pressure: Flexibility-centered large load policies overlook recent lessons, February
+2026, link. ADERs can currently participate in some FERC-jurisdictional RTOs/ISOs through participation models
+developed independently of FERC Order No. 2222.
+99 Participation of Distributed Energy Res. Aggregations in Mkts. Operated by Reg’l Transmission Orgs. & Indep. Sys. Operators,
+Order No. 2222, 172 FERC ¶ 61,247 (2020), 172 FERC ¶ 61,247 at P 204.
+100 Southwest Power Pool, Inc., 192 FERC ¶ 61,231 (2025), at P 72-78. SPP calculated the shift factors by analyzing ten years
+of historical real-time prices and congestion data and identifying transmission constraints that were loaded at 95% or
+more. SPP then compared all nodes’ shift factors for those transmission constraints in that interval. Next SPP
+compared each node’s shift factor relative to the constraint in that interval. Nodes with shift factors within 1% of each
+other were considered to be electrically similar.
+
+Page 35
+
+April 2026
+
+6.3.
+
+Charles River Associates
+
+RDR proposal
+
+CRA agrees with ERCOT that increased residential DR participation would provide benefits to
+the ERCOT system and encourages ERCOT to work with the Commission and other
+stakeholders to explore ways to increase DR participation in ERCOT, such as residential DR,
+given the system’s near-term projected load growth and energy shortage risks. DR resources
+of all types offer unique value at this time because they can be implemented much faster than
+utility-scale generation resources.
+Public reports indicate ERCOT’s need for additional electric generation (or equivalently, load
+reductions) in the near-term in net peak periods – the time periods the RDR proposal would
+target. For example, ERCOT’s December 2025 CDR Report indicates that ERCOT’s summer
+net peak load will grow by 55% over the next four years (through 2030), from a projected
+81,411 MW in 2026 to 126,198 MW in 2030. The CDR Report also projects negative reserve
+margins during peak and net peak periods in both summer and winter by as soon as 2028. 101
+Additionally, the North American Electric Reliability Corporation’s 2025 Long-Term Reliability
+Assessment for ERCOT projects elevated risks of expected unserved energy in ERCOT in
+the early morning and late evening hours, which are outside of ERCOT’s typical peak
+demand periods when the greatest load reductions tend to occur.102 DR programs targeted to
+reduce loads in higher risk net peak periods could enhance reliability in ERCOT in the near
+term.
+Based on CRA’s review, the RDR proposal would not overlap with the products ERCOT
+currently procures from load resources. The RDR proposal is designed to meet system needs
+during net peak hours throughout the year. Current DR programs, whether administered by
+ERCOT or by others, do not meet this need. As discussed above, retail DR programs and
+self-curtailments currently focus load reductions during likely 4CP periods in the summer
+months. Commission staff made a similar observation in a March 2026 report on the 4CP
+cost allocation methodology.103
+There is no indication that the RDR program as proposed would interfere or overlap with the
+ancillary services markets that CLRs, NCLRs, and ADERs participate in. As discussed further
+below and in the Appendix, some ADER resources may choose to participate in a future RDR
+program if they are eligible to participate. The RDR proposal would meet different system
+needs than the emergency capacity shortages the ERS program is designed to address.
+Instead, the RDR proposal would be deployed more frequently in non-emergency conditions
+and during net peak periods. Similar to ERS, the load curtailment service required by SB6
+would only be deployed in emergencies and would thus meet different system needs to the
+proposed RDR program. Importantly, the 2025 CDR Report indicates that ERCOT’s projected
+reserve margin shortages already account for large load curtailments associated with SB6,
+which also indicates no overlap.104 Finally, by design, the Dispatchable Reliability Reserve
+Service will meet ERCOT system needs during net peak periods, but not before the new
+dispatchable resources this future product is designed to incent reach commercial operation,
+which will take years.
+Expanding the level of residential DR in the ERCOT above current levels would require
+increasing financial incentives for residential load reductions. As a general matter, a premium
+
+101 ERCOT, Report on the Capacity, Demand and Reserves (CDR) in the ERCOT Region, 2026-2030 December 19, 2025, at
+4.
+102 NERC, 2025 Long-Term Reliability Assessment, January 2026, at 130, link.
+103 PUCT, Draft Evaluation of Transmission Cost Recovery, Project No. 58484, March 16, 2026, at 6-8, link.
+104 ERCOT, Report on the Capacity, Demand and Reserves (CDR) in the ERCOT Region, 2026-2030 December 19, 2025, at
+4. The projects account for SB6 on a preliminary basis given the large load curtailment service is not yet finalized.
+
+Page 36
+
+April 2026
+
+Charles River Associates
+
+is warranted to increase retail DR participation in ERCOT given the insufficient financial
+incentives from DR programs currently available in the ERCOT footprint. The Energy
+Systems Integration Group noted weak financial incentives as a key barrier to expanding DR
+participation in wholesale electricity markets, particularly from retail customers given the
+misalignment between wholesale and retail rates.105 For example, the prohibition against
+charging residential and small commercial customers rates indexed to real-time LMPs is
+designed to protect customers but contributes to the misalignment between wholesale and
+retail rates. Additionally, the cost of the equipment required to participate in retail DR
+programs can be several hundred dollars per installation including labor, another factor that
+weakens financial incentives.106
+As such, incentive payments to overcome these barriers are warranted to increase DR
+participation and help meet ERCOT’s acute and near-term operational needs. ERCOT’s
+proposed RDR incentive rate is likely to increase residential DR participation given the
+financial incentives it would offer.107 The proposed RDR program is also likely to expand DR
+participation in the ERCOT footprint because it would have a low administrative burden for
+program administrators as it would use reporting that REPs are already subject to under the
+§25.186 program. Some REPs also supported the RDR proposal because it would not
+require an affirmative obligation to curtail loads, which reduces REP program implementation
+risks from retail customer switching.
+Based on the currently proposed 500 MW participation cap and $105,000/MW-year maximum
+compensation rate, the RDR program could have an initial cost of up to $52.5 million per
+year, (i.e., 500 MW x $105,000/MW-year), about two-thirds the annual cost of the ERS
+program. The actual cost would likely be lower given the rate will also be based on the lower
+of $105,000/MW-year and the rolling average of the Peaker Net Margin.
+The currently proposed maximum $105,000/MW-year initial incentive rate, if paid, would also
+pay customers at a rate that could significantly exceed prevailing LMPs during net peak
+intervals, the compensation paid to ERCOT generation resources that also meet system
+needs in the same interval. However, as noted above, retail customers typically require a
+premium to provide DR capability given the misalignment between retail and wholesale rates.
+The $105,000/MW-year rate is unlikely to be achieved in practice, and the average rate paid
+for residential load reductions on a per-MW basis will likely be much lower. ERCOT’s
+proposed initial RDR rate is roughly comparable to rates paid to retail DR capacity resources
+in CAISO. Although these rates aren’t directly comparable because the programs differ.
+However, the CAISO retail DR rate is also guaranteed, and deployments are capped and
+expected to be infrequent. By contrast, RDR resources can expect to be deployed multiple
+times per season at rates that are not guaranteed. The RDR program could change
+incentives for other ERCOT load resources. Appendix IV presents an analysis that shows that
+the program as currently proposed is likely to attract customers away from the ADER
+program, provided ADER pilot participants are eligible to participate in the RDR.
+CRA agrees with ERCOT and others that there is untapped DR potential from residential
+customers in ERCOT. For example, the Energy Information Administration (EIA) collects
+survey information from utilities about their DR customers by customer class and the load
+reductions they achieve. According to that survey, six percent of residential customers in
+ERCOT participated in a DR program in 2024, and Texas ranks 24th among the 49 states with
+
+105 ESIG DR Report, 2025, at 39.
+106 ESIG DR Report, 2025, xii.
+107 See e.g., The Brattle Group, An Assessment of ERCOT’s Proposed Residential Demand Response Program, January 2026,
+link.
+
+Page 37
+
+April 2026
+
+Charles River Associates
+
+utility survey respondents (see Appendix III). Other researchers, such as The Brattle
+Group,108 and Texas A&M109 also estimate that ERCOT has untapped DR potential.
+As noted in section 5.1 above, it is essential to establish accurate baselines for DR resources
+to avoid undue payments to DR program administrators and prevent gaming. ERCOT staff
+explained to CRA that it could be challenging to establish baselines for residential customers
+that do not have an easily predictable load profile, such as customers with batteries that are
+operated by third parties. Finally, expanding the eligibility of the RDR program to include
+small commercial customers could also expand retail DR participation in ERCOT. Although
+the §25.186 program reporting ERCOT intends to use is only applicable to residential
+customers in competitive areas, ERCOT could consider extending participation to small
+commercial customers in both competitive and NOIE areas in future years if the RDR
+program is implemented.
+
+108 The Brattle Group, An Assessment of ERCOT’s Proposed Residential Demand Response Program, January 2026, link.
+109 Texas A&M University, Demand Response and Energy Efficiency in ERCOT, October 2024, PUCT Project Nos. 38578 and
+55999.
+
+Page 38
+
+Appendix
+April 2026
+
+Charles River Associates
+
+Appendix
+I. ERCOT’s RDR Proposal, as of March 2026
+Certain formulas from ERCOT’s current proposal for the Residential Demand Response
+Program are included below for reference. Note, the initial incentive rate has been updated to
+reflect the planning Cost of New Entry (CONE) estimate, based on guidance from ERCOT.
+Residential Demand Response Rate
+(1)
+
+The Residential Demand Response Rate for the year shall be calculated as follows:
+RDRR a = Min (IRDRR, HRAPNM a) / N
+
+(2)
+
+The Residential Demand Response Rate for the Season shall be capped by the program limits as described in Section 3.26.4, Residential Demand Response Program
+Cap. The Seasonal Residential Demand Response rate shall be calculated as follows:
+CRDRR s = [(SRCAP s) / Max (SRCAP s, RDRTOT s)] * RDRR a
+Where:
+RDRTOT s = ∑𝑞 RESDR 𝑞,𝑠
+
+The above variables are defined as follows:
+Variable
+Unit
+Description
+RDRR a
+$/MWh
+Residential Demand Response Rate – The Residential
+Demand Response Rate, before any adjustments made
+for program limits, for the year a.
+CRDRR s
+$/MWh
+Capped Residential Demand Response Rate – The Residential Demand Response Rate, adjusted for program
+limits, for the Season s.
+HRAPNM a
+$/ MW- Historical Rolling Average or Peaker Net Margin – The
+Year
+historical 3-year rolling average of Peaker Net Margin
+(PNM) for the previous 3 calendar years ending December 31 of the year before the current program year start
+date of the Residential Demand Response Program
+Year.
+RDRTOT s
+MWh
+Residential Demand Response Total – The total ERCOTwide Demand response for Season s.
+RESDR q, s
+MWh
+Residential Demand Response Quantity per QSE per
+Season – The MWh Demand response for QSE q for
+Season s.
+N
+None
+Number of events per year – The total of the largest load
+reduction hours for the year for the RDR Program as defined in Section 3.26.3, Assessment Periods.
+SRCAP s
+MWh
+Seasonal Response Cap – The MWh cap for RDR for
+Season s as defined in Section 3.26.4, Residential Demand Response Program Cap.
+IRDRR
+$/MWInitial Residential Demand Response Rate – The ResiYear
+dential Demand Response Rate, before comparison to
+
+Page 39
+
+Appendix
+April 2026
+
+Charles River Associates
+
+Q
+A
+
+None
+None
+
+S
+
+None
+
+the historical 3-year rolling average of Peaker Net Margin.
+Value is to $105,000 $/MW-Year
+A QSE.
+The year of the RDR Program, as described in paragraph
+(1) of Section 3.26.5, Residential Demand Response Program Commencement.
+The Season in the Residential Demand Response Program.
+
+Residential Demand Response Payments
+(1)
+
+ERCOT shall pay the QSEs participating in the Residential Demand Response (RDR)
+Program as follows:
+RDRPAMT q, s = (-1) * CRDRR s * RESDR q, s
+
+Where:
+RESDR q, s = ∑ RESDRLSE l, q, s
+
+The above variables are defined as follows:
+Variable
+RDRPAMT q, s
+
+Unit
+$
+
+Description
+Residential Demand Response Payment per QSE per Season –
+The Residential Demand Response payment to QSE q for the Season s.
+
+CRDRR s
+
+$/MWh
+
+RESDR q, s
+
+MWh
+
+RESDRLSE l, q, s
+
+MWh
+
+Q
+S
+L
+
+None
+None
+None
+
+Capped Residential Demand Response Rate per Season – The
+Residential Demand Response Rate, adjusted for program limits,
+for the Season s.
+Residential Demand Response Quantity per QSE per Season–
+The MWh demand Response for QSE q for Season s.
+Residential Demand Response Quantity per QSE per LSE per
+Season – The MWh Demand Response for QSE q, for LSE l and
+Season s.
+A QSE.
+The Season in the Residential Demand Response Program.
+An LSE.
+
+ERCOT will calculate the MWh load reduction for each interval of each of the hours specified
+in Section 3.26.3 as follows:
+RESDRDEP l, s, i = RDRPBASETOT l, s, i - RDRPACTTOT l, s, i
+
+Page 40
+
+Appendix
+April 2026
+
+Charles River Associates
+
+II. Average ancillary services requirements in 2025
+Table 16 provides the average hourly ancillary service requirement, by month, in 2025.
+Table 16: Average hourly ancillary service requirements, 2025
+RRS
+(MW)
+
+Non-Spin Reserve
+(MW)
+
+ECRS
+(MW)
+
+Jan 2025
+
+2,892
+
+3,163
+
+1,216
+
+Feb 2025
+
+3,073
+
+2,944
+
+1,240
+
+Mar 2025
+
+3,065
+
+2,814
+
+1,411
+
+Apr 2025
+
+3,045
+
+2,734
+
+1,422
+
+May 2025
+
+2,635
+
+3,933
+
+1,874
+
+Jun 2025
+
+2,440
+
+3,027
+
+1,582
+
+Jul 2025
+
+2,396
+
+2,968
+
+1,619
+
+Aug 2025
+
+2,300
+
+2,394
+
+1,575
+
+Sep 2025
+
+2,389
+
+2,167
+
+1,506
+
+Oct 2025
+
+2,766
+
+2,559
+
+1,213
+
+Nov 2025
+
+2,986
+
+2,661
+
+1,265
+
+Dec 2025
+
+2,916
+
+3,236
+
+1,060
+
+Year
+
+Source: Potomac Economics, ERCOT Wholesale Electricity Market Monthly Report for December 2025,
+January 10, 2026, p. 33, link. Note RTC+B was implemented in December 2025.
+
+Page 41
+
+Appendix
+April 2026
+
+Charles River Associates
+
+III. EIA survey of 2024 DR participation rates by State
+Figure 8: Residential customer DR participation rate by state (% of residential customers)
+60%
+
+Residential Customer DR Participation Rate
+
+50%
+
+40%
+
+30%
+
+20%
+Texas ranks
+24th at 6.0%
+
+10%
+
+DE
+MN
+MD
+WA
+MI
+NC
+ND
+FL
+IA
+OR
+UT
+CO
+DC
+KY
+SD
+IL
+IN
+NM
+NE
+VT
+HI
+NV
+SC
+TX
+OK
+GA
+AZ
+KS
+CA
+MO
+VA
+OH
+NY
+WI
+MA
+CT
+ID
+AR
+AL
+NH
+MS
+PA
+AK
+MT
+LA
+NJ
+WV
+ME
+TN
+
+0%
+
+Source: EIA 860 Data, 2024. Information based on survey responses of utilities in the ERCOT footprint and does not include all utilities.
+
+Figure 9: Total customer DR participation rate by State (% of residential customers)
+60%
+
+Total Customer DR Participation Rate
+
+50%
+
+40%
+
+30%
+
+20%
+Texas ranks
+26th at 5.4%
+10%
+
+DE
+MN
+MD
+WA
+MI
+NC
+ND
+FL
+OR
+IA
+UT
+NM
+CO
+NE
+DC
+IL
+IN
+KY
+SD
+VT
+HI
+OK
+NV
+GA
+SC
+TX
+AZ
+KS
+CA
+MO
+VA
+AR
+OH
+NY
+WI
+ID
+MA
+CT
+AL
+NH
+MS
+PA
+AK
+LA
+MT
+NJ
+WV
+ME
+TN
+
+0%
+
+Source: 860 Data, 2024. Information based on survey responses of utilities in the ERCOT footprint and does not include all utilities.
+
+Page 42
+
+Appendix
+April 2026
+
+Charles River Associates
+
+IV. Analysis of revenues available under proposed RDR program
+Market participants are typically profit maximizing and seek the most profitable use of their
+assets. This behavior must be considered when designing and compensating resources,
+whether the product is procured within or outside of ERCOT’s day-ahead and real-time
+markets. Table 18 below presents a rough estimate of the annual revenues available to
+qualifying load resources under the ERS, the ancillary service market (example of an ADER
+or a load resource providing RRS), and the RDR program as currently proposed. These
+programs and markets are not directly comparable, but it is informative to compare
+alternatives available to the RDR. The RDR program is only available to residential
+customers with controllable devices, but aggregations of residential sites can participate in
+the ADER pilot or as a Weather-sensitive load in the ERS program. Further, the IMM and
+others have expressed concerns that the RDR program could attract loads away from the
+ADER pilot. More recently, the IMM expressed concerns that the proposed RDR incentives
+are too low to attract participation.
+Focusing on Table 18, the estimated revenues from load participation in the ERS program
+are based on the most recent 12 months available (April 2025 - March 2026) and reflect the
+number of hours and clearing prices for each SCT and Time Period. The analysis also
+includes ERS prices and revenues from SCTs to better reflect historical ERS prices, prior to
+the recent declines. A qualifying Non-Weather sensitive ERS Resource with 1 MW of
+reduction capability110 could earn up to $29,209 per MW-year based on the April 2025 –
+March 2026 prices if it cleared in all hours, and approximately $26,288/MW-year if
+participated in 90% of the hours in a given year, which is less than the maximum potential
+revenue available from the proposed RDR program. However, as proposed, RDR revenues
+are likely to be lower. If ERS prices from the December 2022 - November 2023 period are
+used, ERS revenues almost double, to $58,925/MW-year, making ERS revenues more
+comparable, and likely higher than the expected revenues under the proposed RDR
+program.111
+The revenue estimate from participating in the ancillary services market is based on 2025
+average prices for RRS and Non-Spin. ADERs are not currently eligible to provide RRS but
+RRS is included because it is the ancillary service product load resources participated in most
+in 2025. If an ADER resource were ever permitted to offer RRS, it could earn an estimated
+$21,425/MW-year, on average, if it were cleared to provide RRS in 70% of the hours of the
+year, and commensurately lower amounts if it cleared in a lower proportion of hours (i.e., 50%
+or 30%). These rates are roughly commensurate with the proportion of intervals ADER
+resources in the Phase 3 pilot are cleared to provide ancillary services (see Table 9).
+Alternatively, an ADER resource could provide Non-Spin, which it is currently eligible to do,
+and earn between $4,704 and $14,112 per-MW-year depending on the percent of hours it
+clears the ancillary services market.
+
+110 This estimate is for comparison purposes only. It is unclear whether a residential customer with a controllable device could
+participate in the ERS program year-round.
+111 Weather-Sensitive ERS Resources are typically not procured outside of the summer and winter SCTs, potentially because
+they are not available (e.g., associated with AC and space heating loads). As such, a Weather-Sensitive ERS Resource
+would make less than a year-round ERS program participant and would thus also earn more revenues under the RDR
+program.
+
+Page 43
+
+Appendix
+April 2026
+
+Charles River Associates
+
+Table 17: Estimated annual revenues for ADER, ERS, and RDR based on 2025 prices
+ERS 2025 revenues, Apr. 2025 - Mar. 2026 prices
+ERS hourly-weighted average price $MW per hr.
+
+$3.33
+
+Assume 24x7 participation $/MW-yr
+
+$29,209
+
+Assume participation in 90% of hours
+
+$26,288
+
+ERS 2025 revenues, Dec. 2022 - Nov. 2023 prices
+ERS hourly-weighted average price $MW per hr.
+
+$6.73
+
+Assume 24x7 participation $/MW-yr
+
+$58,925
+
+Assume participation in 90% of hours
+
+$53,033
+
+Ancillary Services
+
+Non-Spin
+
+RRS
+
+2025 monthly avg. price, $/MW per hr.
+
+$1.79
+
+$2.72
+
+Clear in 70% of hours, $/MW-yr
+
+$10,976
+
+$16,664
+
+Clear in 50% of hours, $/MW-yr
+
+$7,840
+
+$11,903
+
+Clear in 30% of hours, $/MW-yr
+
+$4,704
+
+$7,142
+
+*ADER resources are not currently eligible to provide RRS
+
+RDR proposal
+Initial annual compensation - $/MW-yr
+Actual revenues will vary based on RDR rate
+and participant performance
+
+$105,000 (maximum possible)
+Unknown
+
+The currently proposed maximum and initial RDR incentive payment for residential load
+reductions during the Assessment periods is $105,000/MW-year, but the actual
+compensation, and thus effective incentive payments, will depend on how many of the target
+hours the REP/NOIE participant achieves load reductions in, the total of reductions (in MW) in
+each season. The proposed RDR incentive rate would also fall if the Net Peaker Margin fell
+below $105,000/MW-year.
+In practice, the realized revenue from any RDR program would be uncertain, potentially with
+many load reductions being uncompensated, because ERCOT would only compensate RDR
+participants for load reductions in certain net peak hours in each season. At the currently
+proposed initial RDR rate, the RDR program appears more attractive than the ADER from a
+revenue perspective, but the RDR revenues would have to be discounted given the
+uncertainty involved, as payments are not guaranteed. The ancillary services revenues
+available under the ADER are more sustained and less uncertain than the RDR. However,
+providing ancillary services, including through the ADER pilot, requires more expensive
+equipment (e.g., telemetry), requires market expertise and sophistication to prepare bids, and
+involves more administrative burdens (e.g., registering with ERCOT, etc.) than the RDR.
+Based on the rough approximations in Table 17, an ADER resource would prefer to
+participate in the RDR program if it expected to capture only 16% (i.e., $16,664/$105,000) of
+the maximum potential revenues available from the proposed RDR program. If the ADER can
+only provide Non-Spin, an ADER resource would prefer to participate in the RDR program if it
+expects to earn just 9% of the maximum potential revenues available from the RDR. These
+estimates are arguably conservative because they do not consider the costs and
+administrative burdens of ADER participation (e.g., telemetry and the duty to respond to
+
+Page 44
+
+Appendix
+April 2026
+
+Charles River Associates
+
+deployment instructions). Although each ADER will make different calculations based on their
+unique circumstances, at the currently proposed maximum incentive rate, the RDR program
+may draw participants away from the ADER program and towards the RDR program,
+provided they are eligible to participate. Such a switch is not necessarily a bad outcome if the
+load reductions during net peak periods under the RDR program provide more value to the
+system than the ancillary services provided by ADERs. ERCOT is in the best position to
+make that assessment.
+
+Page 45
+
+

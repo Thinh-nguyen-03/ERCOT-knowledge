@@ -1,0 +1,1373 @@
+Forward Markets 101
+
+2026_07 Forward Markets 101
+
+Welcome!
+
+Greetings
+and
+Introductions
+
+2
+
+Housekeeping
+
+Attendance
+Questions
+Presentation materials
+Recording for internal purposes
+
+3
+
+Legal
+
+PROTOCOL DISCLAIMER
+This presentation provides a general overview of the Texas Nodal Market and is not
+intended to be a substitute for the ERCOT Protocols, as amended from time to
+time. If any conflict exists between this presentation and the ERCOT Protocols, the
+ERCOT Protocols shall control in all respects.
+
+For more information, please visit:
+http://www.ercot.com/mktrules/nprotocols/
+
+4
+
+Course Format
+
+Scenarios
+
+Concept
+
+Examples
+
+Discussions
+
+5
+
+Course Topics
+
+Topics in this course include:
+
+1
+
+Introduction
+
+2
+
+Forward Markets
+
+3
+
+System Capacity
+
+4
+
+Congestion Instruments
+
+5
+
+Summary and Conclusion
+
+6
+
+Introduction
+
+ERCOT Market Operations
+
+In general, . . .
+Operating Day
+
+Day-Ahead
+
+Day-Ahead
+Day-Ahead
+Market
+
+10:00
+
+13:30
+
+Operating Operating
+Hour
+Operating
+Adjustment Period Operating Day
+Hour
+Ahead
+Hour
+Hour
+
+18:00
+
+00:00
+
+8
+
+The Central Role of QSEs
+
+9
+
+Mini-Market Results from Real-Time 101
+
+$/MWh
+
+Energy Offer
+
+Resource
+Node 1
+
+40
+35
+
+120
+
+$40/MWh
+
+30
+MW
+
+150
+
+50
+30
+
+300 350
+
+400
+
+Resource
+Node 2
+
+700 800
+550
+
+345kV
+Hub
+
+Energy Offer
+
+$40/MWh
+Load
+Zone
+
+20
+10
+0
+
+MW
+
+Resource
+Node 3
+
+$40/MWh
+
+$40/MWh
+
+$/MWh
+
+$/MWh
+
+Energy Offer
+
+MW
+
+200
+
+1100 MW
+Load
+
+$40/MWh
+10
+
+Forward Markets
+
+Hedging and Price Certainty
+
+Hedging is transacting at
+a known price now …
+
+… to protect from having to transact
+at an unknown price later.
+
+12
+
+Discussion: Hedging for High Prices
+
+13
+
+RT101 Scenario: Clearing with Scarcity
+
+$/MWh
+
+Energy Offer
+
+40
+35
+
+120
+
+$85/MWh
+
+30
+MW
+
+150
+
+50
+30
+
+300 350
+
+400
+
+Resource
+Node 2
+
+700 800
+550 750
+
+345kV
+Hub
+
+Energy Offer
+
+$85/MWh
+Load
+Zone
+
+20
+10
+0
+
+MW
+
+Resource
+Node 3
+
+$85/MWh
+
+$85/MWh
+
+$/MWh
+
+$/MWh
+
+Resource
+Node 1
+
+Energy Offer
+
+MW
+
+200
+
+1100 MW
+Load
+
+$85/MWh
+14
+
+Forward Energy Markets in ERCOT
+
+Day-Ahead Market
+DAM
+
+Bilateral Trades
+
+$
+MW
+Bilateral Trade
+15
+
+Day-Ahead Market
+
+Centralized Forward Market
+• Conducted daily
+• Facilitated by ERCOT
+
+DAM
+
+16
+
+Day-Ahead Market
+
+Timing
+Day-Ahead
+
+Hour
+
+10:00
+
+Operating
+
+Operating
+Day Hour
+Ahead
+
+DAM
+
+13:30
+
+00:00
+
+17
+
+Day-Ahead Market
+
+Transactions
+
+Bids
+Hourly Awards
+Offers
+Hourly Prices
+Network
+Model
+
+DAM
+
+18
+
+Energy Offers
+
+Three-Part Supply Offer
+Startup Offer
+
+Minimum Energy Offer
+
+Energy Offer Curve
+$/MWh
+
+$/Start
+$/MWh
+
+MW
+
+Financial obligation in Real-Time
+19
+
+Energy Offers
+
+Day-Ahead Market Energy-Only Offer
+• Proposal to sell energy in DAM
+$ / MWh
+
+• Offered at any Settlement Point
+
+Energy-Only Offer
+
+MW
+
+Financial obligation in Real-Time
+20
+
+Energy Bids
+
+Day-Ahead Market Energy Bid
+• Proposal to buy energy in DAM
+$ / MWh
+
+• Submitted at any Settlement Point
+
+Energy Bid
+
+MW
+
+Financial credit in Real-Time
+21
+
+Scenario: How’s it Settled?
+
+QSE awarded Energy Offer in DAM
+
+60 MW
+Awarded
+Energy
+Offer
+
+50 MW
+Energy
+Provided
+
+Paid 60 MW at the
+DAM Energy Price
+Charged 10 MW at the
+Real-Time Energy Price
+
+DAM
+Transaction
+
+Real-Time
+Settlement
+22
+
+Scenario: How’s it Settled?
+
+QSE awarded Energy Offer in DAM
+
+60 MW
+Awarded
+Energy
+Offer
+
+DAM
+Transaction
+
+70 MW
+Energy
+Provided
+
+Paid 60 MW at the
+DAM Energy Price
+Paid 10 MW at the
+Real-Time Energy Price
+
+Real-Time
+Settlement
+23
+
+Scenario: How’s it Settled?
+
+QSE awarded Energy Bid in DAM
+
+60 MW
+Awarded
+Energy
+Bid
+
+50 MW
+Energy
+Consumed
+
+Charged 60 MW at the
+DAM Energy Price
+Paid 10 MW at the
+Real-Time Energy Price
+
+DAM
+Transaction
+
+Real-Time
+Settlement
+24
+
+Scenario: How’s it Settled?
+
+QSE awarded Energy Bid in DAM
+
+60 MW
+Awarded
+Energy
+Bid
+
+DAM
+Transaction
+
+70 MW
+Energy
+Consumed
+
+Charged 60 MW at the
+DAM Energy Price
+Charged 10 MW at the
+Real-Time Energy Price
+
+Real-Time
+Settlement
+25
+
+Ancillary Services transacted in DAM
+
+Bids
+Awards
+Offers
+Prices
+Network
+Model
+
+DAM
+Types of Offers:
+• Three-Part Supply Offer
+• DAM Energy-Only Offer
+• Ancillary Service (AS) Offers
+26
+
+Ancillary Service Offers
+
+Resource-Specific AS Offers for Each Service
+Type of Service
+
+Offer
+
+Regulation Up
+
+MW
+
+$ / MW
+
+Regulation Down
+
+MW
+
+$ / MW
+
+Responsive Reserve
+
+MW
+
+$ / MW
+
+Contingency Reserve
+
+MW
+
+$ / MW
+
+Non-Spinning Reserve
+
+MW
+
+$ / MW
+
+Multiple offers from single Resource:
+• Multiple Ancillary Services
+• May be combined with Energy Offers
+27
+
+Ancillary Service Only Offers
+
+Financial AS Offers for Each Service
+Type of Service
+
+Offer
+
+Regulation Up
+
+MW
+
+$ / MW
+
+Regulation Down
+
+MW
+
+$ / MW
+
+Responsive Reserve
+
+MW
+
+$ / MW
+
+Contingency Reserve
+
+MW
+
+$ / MW
+
+Non-Spinning Reserve
+
+MW
+
+$ / MW
+
+Financial AS Transactions:
+• Paid DAM AS Prices
+• Charged Real-Time AS Prices
+28
+
+Economics and Day-Ahead Market Operations
+
+Energy and Ancillary Services are co-optimized
+$/MWh
+
+Solution
+Bids
+
+Optimized
+Value
+
+Offers
+(Energy and AS)
+MW
+29
+
+Forward Energy Markets in ERCOT
+
+Day-Ahead Market
+DAM
+
+Bilateral Trades
+
+$
+MW
+Bilateral Trade
+30
+
+Bilateral Trades
+
+Decentralized Forward Market
+• QSE-to-QSE transactions
+• Transfers settlement responsibility
+
+$
+MW
+Bilateral Trade
+
+31
+
+Bilateral Trades
+
+Buyer and Seller QSE must confirm Trades
+
+One QSE reports
+
+Other QSE confirms
+
+$
+MW
+Bilateral Trade
+
+32
+
+System Capacity
+
+System Capacity
+
+Real-Time Co-Optimization requires sufficient capacity
+
+AS
+Reserves
+
+Requirements:
+Available
+Resources
+
+• Serve Load
+Energy
+Dispatch
+
+• Award Ancillary Services
+• Manage Congestion
+
+System
+Capacity
+
+System
+Needs
+
+34
+
+Expected System Capacity
+
+Current Operating Plan (COP)
+Anticipated Resource operating conditions
+• Resource Status
+• Resource Limits
+
+• Ancillary Service Capabilities
+
+Resource QSEs must maintain a
+COP for each hour of the next 7 days
+
+35
+
+Discussion: What if not enough generators plan to run?
+ON
+
+OFF
+
+ON
+
+345kV
+Hub
+
+Load
+Zone
+
+OFF
+36
+
+Reliability Unit Commitment (RUC)
+
+Ensures Capacity for:
+
+• Load Forecast
+• Ancillary Services
+• Congestion Management
+37
+
+Reliability Unit Commitment (RUC)
+
+Costs
+
+Current
+Operating Plans
+
+Resource
+Commitments
+
+Forecasted
+Conditions
+
+Nothing
+
+Network
+Model
+
+RUC
+
+38
+
+Reliability Unit Commitment (RUC)
+
+Timing
+Operating Day
+
+Day-Ahead
+
+DAM
+
+10:00
+
+DRUC
+
+13:30
+
+Adjustment Period
+
+18:00
+
+Hour
+HRUC
+Ahead
+
+Operating
+Hour
+
+00:00
+
+DRUC = Day-Ahead Reliability Unit Commitment
+HRUC = Hourly Reliability Unit Commitment
+39
+
+Congestion Instuments
+
+Discussion: Hedging for Congestion
+
+41
+
+RT101 Scenario: Clearing with Transmission Constraints
+
+$/MWh
+
+Energy Offer
+
+Resource
+Node 1
+
+40
+35
+
+120
+
+$35/MWh
+
+30
+MW
+
+150
+
+50
+30
+
+300 350
+
+400
+
+Resource
+Node 2
+100 MW
+$15/MWh
+Limit
+
+345kV
+Hub
+
+Energy Offer
+
+$35/MWh
+
+$/MWh
+
+$/MWh
+
+Energy Offer
+
+0
+
+100
+
+MW
+
+200
+
+700 800
+
+Resource
+Node 3
+
+$50/MWh
+
+Load
+Zone
+
+20
+15
+10
+
+MW
+
+1100 MW
+Load
+
+$50/MWh
+42
+
+Discussion: Real-Time Congestion Costs
+
+100 MW
+Trade
+Purchase
+
+DAM Prices:
+RT Prices:
+
+100 MW
+Load
+
+345kV
+Hub
+
+Load
+Zone
+
+$38
+
+$42
+
+$35
+
+345kV
+Hub
+
+$50
+
+Settlement
+
+Payment at Hub
+
+Charge at Load Zone
+
+Net Amount
+
+RT
+
+− $3500
+
+$5000
+
+$1500
+
+Load
+Zone
+
+43
+
+Example: Hedging Real-Time Congestion Costs
+
+Introducing DAM Point-to-Point Obligations
+
+Source
+
+PTP
+
+Sink
+
+100 MW
+
+DAM Prices:
+
+$38
+
+$42
+
+RT Prices:
+
+$35
+
+$50
+
+Settlement
+
+Sink minus Source Price
+
+PTP Obligation Amount
+
+DAM
+
+$42 ̶ $38 = $4
+
+$400
+
+RT
+
+$50 ̶ $35 = $15
+
+̶ $1500
+44
+
+Example: Hedging Real-Time Congestion Costs
+
+100 MW
+Trade
+Purchase
+
+100 MW
+Load
+
+345kV
+Hub
+
+Load
+Zone
+
+PTP
+100 MW
+
+DAM Prices:
+RT Prices:
+
+$38
+$35
+
+$42
+345kV
+Hub
+
+$50
+
+Settlement Type
+DAM
+RT
+
+Amount
+
+PTP Obligation
+
+$400
+
+Energy
+
+$1500
+Zone
+
+PTP Obligation
+
+− $1500
+
+Total
+
+Load
+
+$400
+
+45
+
+Another DAM Transaction
+
+Bids
+Awards
+Offers
+Prices
+Network
+Model
+
+DAM
+Types of Bids:
+
+• Energy Bid
+• PTP Obligation Bid
+46
+
+Day-Ahead Market Point-to-Point Obligation Bid
+
+Submitted between any two Settlement Points
+Source
+
+Sink
+
+Bid
+
+345kV Hub
+
+Load Zone
+
+MW
+
+$ / MW
+
+Resource Node 1
+
+Load Zone
+
+MW
+
+$ / MW
+
+Resource Node 2
+
+Resource Node 3
+
+MW
+
+$ / MW
+
+Resource Node 1
+
+345kV Hub
+
+MW
+
+$ / MW
+
+Payment or charge in Real-Time!
+47
+
+Scenario: Hedging Real-Time Congestion Costs
+
+Optimize QSE’s Revenues using DAM PTP Obligations
+
+Resource Node 2
+
+345kV Hub
+
+Load Zone
+
+DAM SPP
+
+$36/MWh
+
+$38/MWh
+
+$42/MWh
+
+Average RT SPP
+
+$15/MWh
+
+$35/MWh
+
+$50/MWh
+
+Resource
+Node 2
+
+345kV
+Hub
+
+100 MW Trade sale at Hub
+100 MW Output at Resource Node 2
+
+Load
+Zone
+
+48
+
+Day-Ahead Market Point-to-Point Obligations
+
+Point-to-Point
+Obligations
+
+Hourly Financial instruments
+
+• Purchased at DAM price spread
+• Settled at Real-Time price spread
+Source
+
+Sink
+
+49
+
+Hedging Congestion Costs Longer Term
+
+Congestion
+Revenue Rights
+
+Monthly Financial instruments
+
+• Purchased at Auction Price
+• Settled at DAM price spread
+Source
+
+Sink
+
+50
+
+Hedging Congestion Costs Longer Term
+
+Congestion
+Revenue Rights
+
+Two types of instruments
+Point-to-Point Obligation
+Payment or Charge in DAM
+Point-to-Point Option
+
+Source
+
+Sink
+
+Payment only in DAM
+
+51
+
+Example: Congestion Revenue Rights
+
+Point-to-Point Obligations
+
+Resource
+Node 3
+$42/MWh
+
+DAM Prices:
+
+$38/MWh
+
+345kV
+Hub
+
+Load
+Zone
+
+$42/MWh
+
+Settlement
+
+Sink minus Source Price
+
+CRR Amount
+
+CRR1
+
+$42 ̶ $38 = $4/MWh
+
+̶ $400 (Payment)
+
+CRR2
+
+$38 ̶ $42 = ̶ $4/MWh
+
+$400 (Charge)
+52
+
+Example: Congestion Revenue Rights
+
+Point-to-Point Options
+
+Resource
+Node 3
+$42/MWh
+
+DAM Prices:
+
+$38/MWh
+
+345kV
+Hub
+
+Load
+Zone
+
+$42/MWh
+
+Settlement
+
+Sink minus Source Price
+
+CRR Amount
+
+CRR1
+
+$42 ̶ $38 = $4/MWh
+
+̶ $400 (Payment)
+
+CRR2
+
+$0/MWh
+
+$0
+53
+
+Introducing the CRR Account Holder
+
+54
+
+Acquiring Congestion Revenue Rights
+
+CRR Auction Transactions
+
+Bids
+Awards
+Offers
+Prices
+Network
+Model
+
+CRR
+Auction
+
+55
+
+Congestion Revenue Rights
+
+CRRs are auctioned by:
+• Time-of-Use Blocks
+• One-month strips
+
+Mon
+
+Tues
+
+Wed
+
+Thurs
+
+Fri
+
+Sat
+
+Sun
+
+Off-Peak (0100 – 0600)
+Peak Weekday (0700 – 2200)
+
+Peak Weekend
+(0700 – 2200)
+
+Off-Peak (2300 – 0000)
+
+56
+
+Discussion: Congestion Hedging – The Big Picture
+Congestion
+Revenue Rights
+Source
+
+CRR Auction
+
+Sink
+
+Day-Ahead Market
+
+Real-Time
+
+Point-to-Point
+Obligations
+Source
+
+Sink
+
+57
+
+Point-to-Point Obligations – The bigger picture
+
+PTP Obligation (CRR)
+
+DAM PTP Obligation
+
+How acquired:
+
+Auction / Allocation
+
+DAM
+
+Who Purchases:
+
+CRR Account Holder
+
+QSE
+
+Tradable:
+
+Yes
+
+No
+
+How Purchased:
+
+TOU Blocks
+
+Hourly
+
+Initial Investment:
+Target Payout:
+
+Auction clearing price
+
+Day-Ahead SPPs
+(Sink – Source)*
+
+Day-Ahead SPPs
+
+Real-Time SPPs
+
+(Sink – Source)
+
+(Sink – Source)
+* Other DAM charges may apply
+58
+
+Summary and Conclusion
+
+Wholesale Market Summary
+
+60
+
+Market Information System Data Access
+
+Available to
+the General
+Public
+
+Available to
+all Market
+Participants
+
+Available to
+specific Market
+Participant
+
+61
+
+Additional Resources
+
+ERCOT Training Information
+http://www.ercot.com/services/training/
+Course Recommendations
+https://www.ercot.com/services/training/recommendations
+Market Education Contact
+Training@ercot.com
+ERCOT Client Services Contact
+Clientservices@ercot.com
+ERCOT Mailing Lists
+http://lists.ercot.com/
+62
+
+Got Feedback?
+
+Scan this QR code to take the course survey!
+https://www.surveymonkey.com/r/ERCOTILT
+
+63
+
+

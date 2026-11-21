@@ -1,0 +1,133 @@
+[Norton Rose Fulbright]
+
+Project Finance NewsWire
+
+[]
+
+Subscribe
+
+[]
+
+Search
+
+Go
+
+[]
+
+More results
+
+[]
+
+Menu
+
+-   Home
+
+-   NewsWire Archive
+
+-   Currents Podcast
+
+-   Uptime Now
+
+-   Tax Equity News
+
+-   Project Finance News Blog
+
+-   Meet Our US and Latin American Team
+
+[]
+
+Close
+
+ERCOT price spikes
+
+October 7, 2019 | By Robert Eberhardt and Christine Brozynski in New York
+
+The price to buy wholesale power in ERCOT — the grid that serves Texas — spiked to $9,000 a megawatt hour at certain intervals over the course of a few days in August 2019.
+
+While at first glance a high price might appear to be a boon for independent power companies selling power in the area, many of them instead faced challenges as a result of the price spikes, particularly those with offtake agreements that are “virtual” power purchase agreements — called VPPAs — or fixed-volume hedges.
+
+Below is a summary of how projects with such arrangements are affected economically by price spikes like those in August.
+
+VPPA
+
+For projects using a VPPA as an offtake, the effect of the price spikes depends on how the VPPA was structured.
+
+Typically a VPPA is a contract for differences with a “strike price” per megawatt hours. A contract for differences looks like a power contract in form, but electricity is not physically delivered. Instead, the power producer agrees to pay the offtaker the current market price for electricity, and the offtaker pays a fixed price back. The two payments are netted so that only a net payment is made in one direction.
+
+To the extent the current market price of power under a VPPA exceeds the fixed “strike price” the offtaker has agreed to pay, then the independent power company must pay the excess to the offtaker for each megawatt hour of power produced by the project. To the extent the current market price of power produced by the project is lower than the fixed strike price, then for each megawatt hour of power, the offtaker must pay the difference to the independent power company, thereby providing a floor price the project will receive for its electricity.
+
+VPPAs differ in how they calculate the floating market price.
+
+Some VPPAs settle at a node on the power grid. Because projects sell the physical output in fact at the node for the nodal price, the merchant revenues earned by any project with such a VPPA will generally align with the floating price under the VPPA. If all goes well, then there should not be a gap between the merchant revenues and the floating amount under the VPPA. The independent power company should have enough revenue to cover its obligations under the VPPA.
+
+Other VPPAs settle at the hub, which is a price point compiled by ERCOT that is representative of the liquid trading price in that area. The floating price under such VPPAs is tied to the hub price, while the merchant revenues earned from the project from selling its actual output at a grid node are tied to the nodal price. As a result, merchant revenue received by the independent power producer from the actual sale of its power will not always line up perfectly with the floating amount it must pay under the VPPA. The difference between the hub price and the nodal price is called “basis risk.”
+
+If the hub price spikes, but the nodal price spikes to a lesser degree, then the independent power company will have to come out of pocket for that difference to satisfy its obligations under the VPPA. Given that VPPAs are typically settled on a monthly or quarterly basis, the hours in which the price spiked could be mitigated by other hours during the month or quarter in which the price was lower, so the price spike will not necessarily cause an immediate liquidity concern for the project.
+
+VPPAs are usually structured as “as-produced” contracts rather than fixed-volume contracts. As a result, if a project company fails to produce power during the price spike period, then the project company generally will not owe anything under the VPPA during that period.
+
+Physical fixed-volume hedges
+
+Projects with fixed-volume hedges also may encounter difficulties during a price spike.
+
+Most of the fixed-volume hedges in ERCOT are physical, meaning the independent power company that has sold its actual electricity to the grid for a nodal price then buys back a fixed volume of power at the hub and immediately resells that hub power to the hedge counterparty.
+
+If, during the price spike, the project happens to produce an amount of power equal to the delivery requirement under the hedge for that hour, and if the spike in the nodal price happens to be equal to the spike in the hub price, then the project should not have difficulty covering its purchase obligations under the hedge. The independent power company will not profit from the price spike, but it will not be harmed either.
+
+However, there may be a mismatch in at least one of two respects. First, there may be a mismatch between the volume required to be delivered for that hour under the fixed-volume hedge and the volume of power produced by the project. This is called volume risk. Second, there may be a mismatch between the price at the hub and the price at the node. This is called basis risk.
+
+In the case of volume risk, if the project produces more output than it is required to deliver under the fixed-volume hedge, then that will provide a cushion to help mitigate basis risk and may even allow the project to profit from the price spike.
+
+However, if the project produces less output than it is required to deliver under the fixed-volume hedge, then the independent power producer must come out of pocket to purchase the electricity it must deliver under the fixed-volume hedge to the extent that merchant revenues are not enough to cover the cost.
+
+Because the purchase must be made for that hour and purchases typically are settled on a daily basis (unlike VPPAs where the settlement is monthly or quarterly), the project company will be forced to pay the $9,000 hub price per megawatt hour to satisfy its obligations under the fixed-volume hedge without adequate merchant revenues to fund the payment, which could cause liquidity issues. The worst-case scenario is if the project is not producing, in which case the project would have to find money to pay the entire amount under the fixed-volume hedge for that hour with no merchant revenues.
+
+Credit support
+
+A separate consideration is the amount of credit support the independent power company has had to provide to the scheduling entity that handles sales of electricity from the project into ERCOT. Each project bidding into ERCOT is required under the ERCOT protocols to engage a “qualified scheduling entity” or “QSE.” The QSE interacts directly with ERCOT and manages the process of bidding into ERCOT on behalf of the independent power company.
+
+Under the ERCOT protocols, the QSE, rather than the independent power company, is required to post credit support to ERCOT.
+
+These credit support requirements can vary over time based on anticipated settlement obligations to ERCOT. The QSE then enters into separate arrangements with the independent power company for credit support to be provided by the project to the QSE. This credit support is negotiated between the QSE and the project, so it does not necessarily match the credit support the QSE has had to provide to ERCOT.
+
+To the extent that the credit support amount provided by the project to the QSE is linked to the QSE’s corresponding variable collateral posting requirements to ERCOT, then the project will be doubly exposed during periods of price spike: once in terms of credit support required to be posted to the QSE, and again in terms of actual settlement payments under the hedge.
+
+One potential mitigant for price spikes for projects with fixed-volume hedges is a tracking account. Many fixed-volume hedges have a tracking account that operates as a loan from the counterparty under the fixed-volume hedge to the independent power company for the amount of any mismatch between the amount the independent power producer had to pay to purchase the power it needs to deliver under the hedge for a given month and the merchant revenue earned by the independent power producer during that month from sales of the project electricity to the grid. An actual loan in the amount of that mismatch is made by the hedge counterparty to the project each month, but only up to an aggregate cap. The loan is repaid when the fixed amount the independent power company receives under the hedge is more than the merchant revenues during a given month.
+
+The purpose is to offer some cushion to the project company to help with basis risk and volume mismatch. If the price spike is significant enough, then the loans made by the hedge provider might reach the aggregate cap, in which case the tracking account will not be available for further use unless it is repaid in whole or in part by the independent power producer.[webding-gold-Apr-16-2025-04-01-20-5906-PM]
+
+Share this
+
+Share on LinkedIn [] Share on Twitter [] Share on Bluesky [] Share on Facebook []
+
+NewsWire Editor
+
+Keith Martin
+Partner, United States
+Washington, DC
+Email
+T: +1 202 974 5674
+
+[] Download PDF of the NewsWire
+
+Stay Connected
+
+Subscribe by Email
+
+[] [] [] [] []
+
+[Norton Rose Fulbright]
+
+Project Finance News
+
+For developments affecting project finance and the energy sector.
+
+Norton Rose Fulbright LLP © 2026. All Rights Reserved.
+
+-   Legal notices
+-   Privacy notice
+-   Cookies policy
+-   Do Not Sell or Share My Personal Information
+-   Limit the Use of My Sensitive Personal Information
+
+[] [] [] [] []

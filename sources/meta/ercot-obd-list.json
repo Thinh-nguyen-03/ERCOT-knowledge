@@ -1,0 +1,12 @@
+{
+ "id": "ercot-obd-list",
+ "title": "ERCOT Other Binding Documents List",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "effective 2026-04-01",
+ "url": "https://www.ercot.com/files/docs/2026/04/10/Other-Binding-Document-List-TAC-Approved-eff-040126.docx",
+ "retrieved": "2026-11-21",
+ "raw_bytes": 18576,
+ "raw_sha256": "fb7707ee277114fe3ba319e0a7f9f13525bd7d1e7c0dbb6d6ad846fa8ad5f25e",
+ "text_chars": 6338
+}

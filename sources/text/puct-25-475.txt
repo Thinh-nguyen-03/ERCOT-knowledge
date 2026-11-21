@@ -1,0 +1,1154 @@
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+§25.475. General Retail Electric Provider Requirements and Information Disclosures to Residential and
+Small Commercial Customers.
+(a)
+
+Applicability. The requirements of this section apply to retail electric providers (REPs) in connection with
+the provision of service and marketing to residential and small commercial customers. When specifically
+stated, the requirements of this section apply to brokers, aggregators, and transmission and distribution
+utilities (TDUs). The requirements for an additional notice to residential customers of contract expiration is
+effective for contracts entered into on or after September 1, 2021. REPs must comply with the requirements
+set forth in §25.475(e)(2)(B)(ii), (e)(2)(C)(iii), (v), (vi), (vii), (h)(4), (h)(6)(C), and the requirements set forth
+under §25.475(e)(1) for contracts entered into with small commercial customers by April 1, 2022. Contracts
+entered into prior to the effective date of these provisions must comply with the provisions of this section in
+effect at the time the contracts were executed.
+
+(b)
+
+Definitions. The definitions set forth in §25.5 (relating to Definitions) and §25.471(d) (relating to General
+Provisions of Customer Protection Rules) of this title apply to this section. In addition, the following words
+and terms, when used in this section have the following meanings, unless the context indicates otherwise.
+(1)
+Contract -- The terms of service document, the Electricity Facts Label (EFL), Your Rights as a
+Customer document (YRAC), and the documentation of enrollment pursuant to §25.474 of this title
+(relating to Selection of Retail Electric Provider), and, if applicable, Prepaid Disclosure Statement
+(PDS).
+(2)
+Contract documents -- The terms of service, EFL, YRAC, and, if applicable, PDS.
+(3)
+Contract expiration -- The time when the initial term contract is completed. A new contract is
+initiated when the customer begins receiving service pursuant to the new EFL.
+(4)
+Contract term -- The time period the contract is in effect.
+(5)
+Fixed rate product -- A retail electric product with a term of at least three months for which the
+price (including all recurring charges and ancillary service charges) for each billing period of the
+contract term is the same throughout the contract term, except that the price may vary from the
+disclosed amount solely to reflect actual changes in TDU charges, changes to the Electric
+Reliability Council of Texas (ERCOT) or Texas Regional Entity, Inc. administrative fees charged
+to loads or changes resulting from federal, state or local laws that impose new or modified fees or
+costs on a REP that are beyond the REP’s control. The price may not vary from the disclosed
+amount to reflect changes in ancillary service charges unless the commission expressly designates
+a specific type of ancillary service product as incurring charges beyond the REP’s control for a
+customer’s existing contract.
+(6)
+Indexed product -- A retail electric product for which the price, including recurring charges, can
+vary according to a pre-defined pricing formula that is based on publicly available indices or
+information and is disclosed to the customer, and to reflect actual changes in TDU charges, changes
+to the ERCOT or Texas Regional Entity administrative fees charged to loads or changes resulting
+from federal, state or local laws or regulatory actions that impose new or modified fees or costs on a
+REP that are beyond the REPs control. An indexed product may be for a term of three months or
+more, or may be a month-to-month contract.
+(7)
+Month-to-month contract -- A contract with a term of 31 days or less. A month-to-month contract
+may not contain a termination fee or penalty.
+(8)
+Price -- The cost for a retail electric product that includes all recurring charges, including the cost
+of ancillary services, excluding state and local sales taxes, and reimbursement for the state
+miscellaneous gross receipts tax.
+(9)
+Recurring charge -- A charge for a retail electric product that is expected to appear on a customer’s
+bill in every billing period or appear in three or more billing periods in a twelve month period. A
+charge is not considered recurring if it will be billed by the TDU and passed on to the customer and
+will either not be applied to all customers of that class within the TDU territory, or cannot be known
+until the customer enrolls or requests a specific service.
+§25.475--1
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+(10)
+(11)
+
+(12)
+
+(c)
+
+Term contract -- A contract with a term in excess of 31 days.
+Variable price product -- A retail product for which price may vary according to a method
+determined by the REP, including a product for which the price, can increase no more than a defined
+percentage as indexed to the customer’s previous billing month’s price. For residential customers,
+a variable price product can be only a month-to-month contract.
+Wholesale Indexed Product -- A retail electric product in which the price a customer pays for
+electricity includes a direct pass-through of real-time settlement point prices determined by the
+independent organization certified under the Public Utility Regulatory Act (PURA) §39.151 for the
+ERCOT power region.
+
+General Retail Electric Provider requirements.
+(1)
+General Disclosure Requirements.
+(A)
+All written, electronic, and oral communications, including advertising, websites, direct
+marketing materials, billing statements, terms of service, EFLs, YRACs, and, if
+applicable, PDSs distributed by a REP or aggregator must be clear and not misleading,
+fraudulent, unfair, deceptive, or anti-competitive. Prohibited communications include, but
+are not limited to:
+(i)
+Using the term or terms “fixed” to market a product that does not meet the
+definition of a fixed rate product.
+(ii)
+Suggesting, implying, or otherwise leading someone to believe that a REP or
+aggregator has been providing retail electric service prior to the time the REP or
+aggregator was certified or registered by the commission.
+(iii)
+Suggesting, implying or otherwise leading someone to believe that receiving
+retail electric service from a REP will provide a customer with better quality of
+service from the TDU.
+(iv)
+Falsely suggesting, implying or otherwise leading someone to believe that a
+person is a representative of a TDU or any REP or aggregator.
+(v)
+Falsely suggesting, implying or otherwise leading someone to believe that a contract
+has benefits for a period of time longer than the initial contract term.
+(B)
+Written and electronic communications must not refer to laws, including commission rules
+without providing a link or website address where the text of those rules are available. All
+printed advertisements, electronic advertising over the Internet, and websites, must include
+the REP’s certified name or commission authorized business name, or the aggregator’s
+registered name, and the number of the certification or registration.
+(C)
+The terms of service, EFL, YRAC , and, if applicable, PDS must be provided to each
+customer upon enrollment. Each document must be provided to the customer whenever a
+change is made to the specific document and upon a customer’s request, at any time free
+of charge.
+(D)
+A REP must retain a copy of each version of the terms of service, EFL, YRAC, and, if
+applicable, PDS during the time the plan is in effect for a customer and for four years after
+the contract ceases to be in effect for any customer. REPs must provide such documents
+at the request of the commission or its staff.
+(2)
+General contracting requirements.
+(A)
+Each terms of service, EFL, and YRAC must be complete, be written in language that is
+clear, plain and easily understood, and be printed in paragraphs of no more than 250 words
+in a font no smaller than 10 point. References to laws including commission rules in these
+documents must include a link or website address to the full text of the applicable law or
+rule.
+(B)
+Each contract document must be available to the commission to post on its customer
+education website if the REP chooses to post offers to the website.
+
+§25.475--2
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+(C)
+
+(3)
+
+(4)
+
+A contract is limited to service to a customer at a location specified in the contract. If the
+customer moves from the location, the customer is under no obligation to continue the
+contract at another location. The REP may require a customer to provide evidence that it
+is moving to another location. There must be no early termination fee assessed to the
+customer as a result of the customer’s relocation if the customer provides a forwarding
+address and, if required, reasonable evidence that the customer no longer occupies the
+location specified in the contract.
+(D)
+A terms of service and EFL must disclose the type of product being described, using one
+of the following terms: fixed rate product or a variable price product.
+(E)
+A REP must not use a credit score, a credit history, or utility payment data as the basis for
+determining the price for electric service for a product with a contract term of 12 months
+or less for an existing residential customer or in response to an applicant’s request to
+become a residential customer.
+(F)
+In any dispute between a customer and a REP concerning the terms of a contract, any
+vagueness, obscurity, or ambiguity in the contract will be construed in favor of the
+customer.
+(G)
+For a variable price product, the REP must disclose on the REP’s website and through a tollfree number the current price and, for residential customers, one year price history, or history
+for the life of the product, if it has been offered less than one year. A REP must not rename
+a product in order to avoid disclosure of price history. The EFL of a variable price product
+must include a notice of how the current price and, if applicable, historical price information
+may be obtained by a customer.
+(H)
+A REP must comply with its contracts.
+Specific contract requirements.
+(A)
+The contract term must be conspicuously disclosed.
+(B)
+The start and end dates of the contract must be available to the customer upon request. If the
+REP cannot determine the start date, the REP may estimate the start date. After the start date
+is known, the REP must specify the end date of the contract by:
+(i)
+specifying a calendar date; or
+(ii)
+reference to the first meter read on or after a specific calendar date.
+(C)
+If a REP specifies a calendar date as the end date, the REP may bill the term contract price
+through the first meter read on or after the end date of the contract.
+(D)
+Each contract for service must include the terms of the default renewal product that the
+customer will be automatically enrolled in if the customer does not select another retail
+electric product before the expiration of the contract term after the customer has received
+all required expiration notices.
+(E)
+If a REP does not provide proper notice of the expiration of a fixed rate contract and the
+customer does not select another REP before expiration of the contract term, the REP must
+continue to serve the customer under the pricing terms of the fixed rate product until the
+REP provides notice in accordance with applicable requirements of subsection I(2)(A)(i)
+or (ii) or the customer selects another retail electric product.
+(F)
+A REP, aggregator, or broker is prohibited from offering:
+(i)
+an indexed product to a residential or small commercial customer on or after
+February 1, 2022; or
+(ii)
+a wholesale indexed product to a residential or small commercial customer on or
+after September 1, 2021.
+Website requirements.
+(A)
+Each REP that offers residential retail electric products for enrollment on its website must
+prominently display the EFL for any products offered without a person having to enter
+any personal information other than zip code and information that allows determination
+
+§25.475--3
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+
+(B)
+
+of the type of offer the consumer wishes to review. Person-specific information must not
+be required.
+The EFL for each product must be printable in no more than a two-page format. The EFL,
+terms of service, YRAC, and, if applicable, PDS for any products offered for enrollment
+on the website must be available for viewing or downloading.
+
+(d)
+
+Changes in contract and price and notice of changes. A REP may make changes to the terms and
+conditions of a contract or to the price of a product as provided for in this section. Changes in term (length)
+of a contract require the customer to enter into a new contract and may not be made by providing the notice
+described in paragraph (3) of this subsection.
+(1)
+Contract changes other than price.
+(A)
+A REP may not change the price (other than as allowed by paragraph (2) of this
+subsection) or contract term of a term contract for a retail electric product, during its term;
+but may change any other provision of the contract, with notice under paragraph (3) of
+this subsection.
+(B)
+A REP may not change the terms and conditions of a variable price month-to-month
+product unless it provides notice under paragraph (3) of this subsection.
+(2)
+Price changes.
+(A)
+A REP may only change the price of a fixed rate product or a variable product consistent
+with the definitions in this section and according to the product’s EFL. Such price changes
+do not require notice under paragraph (3) of this subsection.
+(B)
+For a fixed rate product, each bill must either show the price changes on one or more
+separate line items, or must include a conspicuous notice stating that the amount billed
+may include price changes allowed by law or regulatory actions.
+(C)
+Each residential bill for a variable price product must include a statement informing the
+customer how to obtain information about the price that will apply on the next bill.
+(3)
+Notice of changes to terms and conditions. A REP must provide written notice to its customers at
+least 14 days in advance of the date that the change in the contract will be applied to the customer’s
+bill or take effect. Notice is not required for a change that benefits the customer.
+(4)
+Contents of the notice to change terms and conditions. The notice must:
+(A)
+be provided in or with the customer’s bill or in a separate document;
+(B)
+include the following statement, “Important notice regarding changes to your contract”
+clearly and conspicuously in the notice;
+(C)
+identify the change and the specific contract provisions that address the change;
+(D)
+clearly specify what actions the customer needs to take if the customer does not accept
+the proposed changes to the contract;
+(E)
+state in bold lettering that if the new terms are not acceptable to the customer, the customer
+may terminate the contract and no termination penalty may apply for 14 days from the date
+that the notice is sent to the customer but may apply if action is taken after the 14 days
+have expired. No such statement is required if the customer would not be subject to a
+termination penalty under any circumstances; and
+(F)
+state in bold lettering that establishing service with another REP may take up to seven
+business days.
+
+(e)
+
+Contract expiration and renewal offers.
+(1)
+Notice Timeline for Expiration of a Fixed Rate Product.
+(A)
+For fixed rate products, the REP must provide the customer with at least three written notices
+of the date the fixed rate product will expire. The notices must be provided during the last
+third of the fixed rate contract period and in intervals that allow for, as practicable, even
+distribution of the notices throughout the last third of the fixed rate contract period. For
+
+§25.475--4
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+
+(2)
+
+contracts with a period of 12 months or longer, the first notice may be provided up to three
+months prior to the contract end date. For fixed rate contracts for a period:
+(i)
+Of more than four months, the final notice must be provided at least 30 days before
+the date the fixed rate contact will expire.
+(ii)
+Of four or fewer months, the final notice must be provided at least 15 days before
+the date the fixed rate contract will expire.
+(iii)
+For a small commercial customer, the final notice must be provided at least 14 days
+before the fixed rate contract will expire.
+(B)
+The notices must be provided to the customer by mail at the customer’s billing address, unless
+the customer has opted to receive communications electronically from the REP.
+(C)
+If a REP does not provide the required notice of the expiration of a customer’s fixed rate
+contract and the customer does not select another retail electric product before expiration of
+the fixed rate contract term, the REP must continue serving the customer under the terms of
+the fixed rate contract until the REP provides notice in accordance with applicable
+requirements of subsection (e)(1)(A)(i) or (ii), or until the customer selects another retail
+electric product.
+Contract Expiration.
+(A)
+If a customer takes no action in response to the final notice of contract expiration for the
+continued receipt of retail electric service upon the contract’s expiration, the REP must
+serve the customer pursuant to a default renewal product that is a month-to-month product
+that the customer may cancel at any time without a fee. The month-to-month product price
+may vary between billing cycles based on clear terms designed to be easily understood by
+the average customer.
+(B)
+Written notice of contract expiration must be provided in or with the customer’s bill, or in
+a separate document.
+(i)
+If notice is provided with a residential customer’s bill, the notice must be printed
+on a separate page. A statement must be included in a manner readily visible on
+the outside of the envelope sent to a residential customer’s billing address by mail
+and in the subject line on the e-mail (if the REP sends the notice by e-mail) that
+states, “Contract Expiration Notice. See Enclosed.”
+(ii)
+If the notice is provided in or with a small commercial customer’s bill, the REP
+must include a statement in a manner readily visible on the outside of the billing
+envelope or in the subject line of an electronic bill that states, “Contract Expiration
+Notice” or “Contract Expiration Notice. See Enclosed.”; or
+(iii)
+For residential and small commercial customers, if notice is provided in a separate
+document, a statement must be included in a manner readily visible on the outside
+of the envelope and in the subject line of the e-mail (if customer has agreed to
+receive official documents by e-mail) that states, “Contract Expiration Notice. See
+Enclosed.”
+(C)
+A written notice of contract expiration (whether with the bill or in a separate envelope)
+must set out the following:
+(i)
+The date, in boldfaced and underlined text, as provided for in subsection
+(c)(3)(B) of this section that the existing contract will expire.
+(ii)
+If the REP provided a calendar date as the end date for the contract, a statement
+in bold lettering no smaller than 12 point font that no termination penalty must
+apply to residential and small commercial customers 14 days prior to the date
+stated as the expiration date in the notice. In addition, a description of any fees
+or charges associated with the early termination of a residential customer’s fixed
+rate product that would apply before 14 days prior to the date stated as the
+
+§25.475--5
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+
+(3)
+
+expiration date in the notice must be provided. No such statements are required
+if the original contract did not contain a termination fee.
+(iii)
+If the REP defined the contract end date by reference to the first meter read on
+or after a specific calendar date, a statement in bold lettering no smaller than 12
+point font that no termination penalty applies to residential customers for 14 days
+prior to the date provided as the “on or after” date included in connection with
+the first meter read language referenced in the notice, or that no termination
+penalty applies to small commercial customers for 14 days prior to the contract
+end date. No such statement is required if the original contract did not contain a
+termination fee.
+(iv)
+A description of any renewal offers the REP chooses to make available to the
+customer and the location of the terms of service and EFL for each of those
+products and a description of actions the customer needs to take to continue to
+receive service from the REP under the terms of any of the described renewal offers
+and the deadline by which actions must be taken.
+(v)
+The final notice provided pursuant to subsection (e)(2) must include a copy of
+the EFL for the default renewal product if the customer takes no action or if the
+EFL is not included with the contract expiration notice, the REP must provide
+the EFL to the customer at least 14 days before the expiration of the contract
+using the same delivery method as was used for the notice. The contract
+expiration notice must specify how and when the EFL will be made available to
+the customer.
+(vi)
+The final notice provided pursuant to subsection (e)(2) must include a statement
+that if the customer takes no action, service to the customer will continue
+pursuant to the EFL for the default renewal product that must be included as part
+of the notice of contract expiration. The terms of service for the default renewal
+product must be included as part of the notice, unless the terms of service
+applicable to the customer’s existing service also applies to the default renewal
+product.
+(vii)
+The final notice provided pursuant to subsection (e)(2) must include a statement
+that the default service is month-to month and may be cancelled at any time with
+no fee.
+Affirmative consent. A customer that is currently receiving service from a REP may be re-enrolled
+with the REP for service with the same product under which the customer is currently receiving
+service, or a different product, by conducting an enrollment pursuant to §25.474 of this title or by
+obtaining the customer’s consent in a recording, electronic document, or written letter of
+authorization consistent with the requirements of this subsection. Affirmative consent is not required
+when a REP serves the customer under a default renewal product pursuant to paragraph (1) of this
+subsection. Each recording, electronic document, or written consent form must:
+(A)
+Indicate the customer’s name, billing address, service address (for small commercial
+customers, the ESI ID may be used rather than the service address);
+(B)
+Indicate the identification number of the terms of service and EFL under which the
+customer will be served;
+(C)
+Indicate if the customer has received, or when the customer will receive copies of the
+terms of service, EFL, YRAC, and, if applicable, PDS;
+(D)
+Indicate the price(s) which the customer is agreeing to pay;
+(E)
+Indicate the date or estimated date of the re-enrollment, the contract term, and the
+estimated start and end dates of contract term;
+(F)
+Affirmatively inquire whether the customer has decided to enroll for service with the
+product, and contain the customer’s affirmative response; and
+
+§25.475--6
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+(G)
+
+(f)
+
+Be entirely in plain, easily understood language, in the language that the customer has
+chosen for communications.
+
+Terms of service document. The following information must be conspicuously contained in the terms of
+service:
+(1)
+Identity and contact information. The REP’s certified name and business name (dba) (if
+applicable), mailing address, e-mail and Internet address (if applicable), certification number, and
+a toll-free telephone number (with hours of operation and time-zone reference).
+(2)
+Pricing and payment arrangements.
+(A)
+Description of the amount of any routine non-recurring charges resulting from a move-in
+or switch that may be charged to the customer, including but not limited to an out-of-cycle
+meter read, and connection or reconnection fees;
+(B)
+For small commercial customers, a description of the demand charge and how it will be
+applied, if applicable;
+(C)
+An itemization, including name and cost, of any non-recurring charges for services that
+may be imposed on the customer for the retail electric product, including an application
+fee, charges for default in payment or late payment, and returned checks charges;
+(D)
+A description of any collection fees or costs that may be assessed to the customer by the
+REP and that cannot be quantified in the terms of service; and
+(E)
+A description of payment arrangements and bill payment assistance programs offered by
+the REP.
+(3)
+Deposits. If the REP requires deposits from its customers:
+(A)
+a description of the conditions that will trigger a request for a deposit;
+(B)
+the maximum amount of the deposit or the manner in which the deposit amount will be
+determined;
+(C)
+a statement that interest will be paid on the deposit at the rate approved by the commission,
+and the conditions under which the customer may obtain a refund of a deposit;
+(D)
+an explanation of the conditions under which a customer may establish satisfactory credit
+pursuant to §25.478 of this title (relating to Credit Requirements and Deposits); and
+(E)
+if applicable, the customer’s right to post a letter of guarantee in lieu of a deposit pursuant
+to §25.478(i) of this title.
+(4)
+Rescission, Termination and Disconnection.
+(A)
+In a conspicuous and separate paragraph or box:
+(i)
+A description of the right of a customer, for switch requests, to rescind service
+without fee or penalty of any kind within three federal business days after
+receiving the terms of service, pursuant to §25.474 of this title; and
+(ii)
+Detailed instructions for rescinding service, including the telephone number and,
+if available, facsimile number or e-mail address that the customer may use to
+rescind service.
+(B)
+A statement as to how service can be terminated and any penalties that may apply;
+(C)
+A statement of the customer’s ability to terminate service without penalty if the customer
+moves to another premises and provides evidence that it is moving, if required, and a
+forwarding address; and
+(D)
+If the REP has disconnection authority, pursuant to §25.483 of this title (relating to
+Disconnection of Service), a statement that the REP may order disconnection of the
+customer for non-payment.
+(5)
+Antidiscrimination. A statement informing the customer that the REP cannot deny service or
+require a prepayment or deposit for service based on a customer’s race, creed, color, national origin,
+ancestry, sex, marital status, lawful source of income, level of income, disability, familial status,
+location of a customer in a economically distressed geographic area, or qualification for low income
+
+§25.475--7
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+
+(6)
+
+(7)
+
+(8)
+(9)
+
+(g)
+
+or energy efficiency services. For residential customers, a statement informing the customer that the
+REP cannot use a credit score, a credit history, or utility payment data as the basis for determining
+the price for electric service for a product with a contract term of 12 months or less.
+Other terms. Any other material terms and conditions, including exclusions, reservations,
+limitations of liability, or special equipment requirements, that are a part of the contract for the retail
+electric product.
+Contract expiration notice. For a term contract, the terms of service must contain a statement
+informing the customer that a contract expiration notice will be sent at least 14 days prior to the end
+of the initial contract term. The terms of service must also state that if the customer fails to take
+action to ensure the continued receipt of retail electric service upon the contract’s expiration, the
+customer will continue to be served by the REP automatically pursuant to a default renewal product,
+which must be a month-to-month product.
+A statement describing the conditions under which the contract can change and the notice that will
+be provided if there is a change.
+Version number. A REP must assign an identification number to each version of its terms of
+service, and must publish the number on the terms of service document.
+
+Electricity Facts Label. The EFL must be unique for each product offered and must include the
+information required in this subsection. Nothing in this subsection precludes a REP from charging a price
+that is less than its EFL would otherwise provide.
+(1)
+Identity and contact information. The REP’s certified name and business name (dba) (if
+applicable), mailing address, e-mail and Internet address (if applicable), certification number, and a
+toll-free telephone number (with hours of operation and time-zone reference).
+(2)
+Pricing disclosures. Pricing information must be disclosed by a REP in an EFL. The EFL must
+state specifically whether the product is a fixed rate or variable price product.
+(A)
+For a fixed rate product, the EFL must provide the total average price for electric service
+reflecting all recurring charges, excluding state and local sales taxes, and reimbursement
+for the state miscellaneous gross receipts tax, to the customer.
+(B)
+For a variable price product, the EFL must provide the total average price for electric
+service for the first billing cycle reflecting all recurring charges, including any TDU
+charges that may be passed through and excluding state and local sales taxes, and
+reimbursement for the state miscellaneous gross receipts tax, to the customer. Actual
+changes in TDU charges, changes to the ERCOT or Texas Regional Entity administrative
+fees charge to loads or changes resulting from federal, state or local laws or regulatory
+actions that impose new or modified fees or costs on a REP that were not implemented
+prior to the issuance of the EFL and were not included in the average price calculation may
+be directly passed through to customers beginning with the customer’s first billing cycle.
+(C)
+The total average price for electric service must be expressed in cents per kilowatt hour,
+rounded to the nearest one-tenth of one cent for the following usage levels:
+(i)
+For residential customers, 500, 1,000 and 2,000 kilowatt hours per month; and
+(ii)
+For small commercial customers, 1,500, 2,500, and 3,500 kilowatt hours per
+month. If demand charges apply assume a 30 percent load factor.
+(D)
+If a REP combines the charges for retail electric service with charges for any other
+product, the REP must:
+(i)
+If the electric product is sold separately from the other products, disclose the total
+price for electric service separately from other products; and
+(ii)
+If the REP does not permit a customer to purchase the electric product without
+purchasing the other products or services, state the total charges for all products
+and services as the price of the total electric service. If the product has a one-time
+cost up front, for the purposes of the average price calculation, the cost of the
+
+§25.475--8
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+
+(3)
+
+(4)
+(5)
+(6)
+
+product may be figured in over a 12-month period with 1/12 of the cost being
+attributed to a single month.
+(E)
+The following must be included on the EFL for specific product types:
+(i)
+For a variable price product that increases no more than a defined percentage as
+indexed to the customer’s previous billing month’s price, a notice in bold type no
+smaller than 12 point font: “Except for price changes allowed by law or regulatory
+action, this price is the price that will be applied during your first billing cycle;
+this price may increase by no more than {insert percentage} percent from monthto-month.” For residential customers, the following additional statement is
+required: “Please review the historical price of this product available at {insert
+specific website address and toll-free telephone number}.” In the disclosure chart,
+the box describing whether the price can change during the contract period must
+include the following statement: “The price applied in the first billing cycle may
+be different from the price in this EFL if there are changes in TDSP charges;
+changes to the Electric Reliability Council of Texas or Texas Regional Entity, Inc.
+administrative fees charged to loads; or changes resulting from federal, state or
+local laws or regulatory actions that impose new or modified fees or costs that are
+outside our control.”
+(ii)
+For all other variable price products, a notice in bold type no smaller than 12 point
+font: “Except for price changes allowed by law or regulatory action, this price is the
+price that will be applied during your first billing cycle; this price may change in
+subsequent months at the sole discretion of {insert REP name}. In the disclosure
+chart, the box describing whether the price can change during the contract period
+must include the following statement: “The price applied in the first billing cycle
+may be different from the price in this EFL if there are changes in TDSP charges;
+changes to the Electric Reliability Council of Texas or Texas Regional Entity
+administrative fees charged to loads; or changes resulting from federal, state or local
+laws or regulatory actions that impose new or modified fees or costs that are outside
+our control.” For residential customers, the following additional statement is
+required: “Please review the historical price of this product available at {insert
+specific website address and toll-free telephone number}.”
+Fee Disclosures.
+(A)
+If customer may be subject to a special charge for underground service or any similar charge
+that applies only in a part of the TDU service area, the EFL must include a statement in the
+electricity price section that some customers will be subject to a special charge that is not
+included in the total average price for electric service and must disclose how the customer
+can determine the price and applicability of the special charge.
+(B)
+A listing of all fees assessed by the REP that may be charged to the customer and whether
+the fee is included in the recurring charges.
+Term Disclosure. EFL must include disclosure of the length of term, minimum service term, if any,
+and early termination penalties, if any.
+Renewable Energy Disclosures. The EFL must include the percentage of renewable energy of the
+electricity product and the percentage of renewable energy of the statewide average generation mix.
+Format of Electricity Facts Label. REPs must use the following format for the EFL with the
+pricing chart and disclosure chart shown. The additional language is for illustrative purposes. It does
+not include all reporting requirements as outlined above. Such subsections should be referred to for
+determination of the required reporting items on the EFL. Each EFL must be printed in type no
+smaller than ten points in size, unless a different size is specified in this section, and must be
+formatted as shown in this paragraph:
+
+§25.475--9
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+Electricity Facts Label (EFL)
+{Name of REP}, {Name of Product}, {Service area (if applicable)}, {Date}
+
+Average Monthly
+Use
+
+Electricity
+price
+
+500kWh
+
+1,000kWh
+
+2,000kWh
+
+For Non-POLR usage:
+Average price
+per kWh
+
+{x.x}¢
+
+{x.x}¢
+
+{x.x}¢
+
+For POLR usage:
+Maximum price per
+kWh
+
+{x.x}¢
+
+{x.x}¢
+
+{x.x}¢
+
+{If applicable} On-peak {season or time}:{xxx}
+{If applicable} Average on-peak price per kilowatt-hour: {x.x}¢
+{If applicable} Average off-peak price per kilowatt-hour: {x.x}¢
+{If applicable} Potential surcharges corresponding to the given electric
+service.
+{If variable that does not change within a defined percentage} Except for
+price changes allowed by law or regulatory action, this price is the price that will
+be applied during your first billing cycle; this price may change in subsequent
+months at the sole discretion of {insert REP name}.{If residential} Please review the
+historical price of this product available at {insert website address and toll-free
+number}.
+{If variable that changes within a defined percentage}Except for price changes allowed
+by law or regulatory action, this price is the price that will be applied during your
+first billing cycle; this price may increase by no more than {insert percentage}
+percent from month-to-month. {If residential} Please review the historical price of
+this product available at {insert website address and toll-free number}.
+
+Other Key
+Terms and
+Questions
+
+See Terms of Service statement for a full listing of fees, deposit policy, and other terms.
+
+Type of Product
+
+(fixed rate or variable rate)
+
+§25.475--10
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+Contract Term
+
+(number of months)
+
+Do I have a termination fee or any
+fees associated with terminating
+service?
+
+(yes/no) (if yes, how much)
+
+Can my price change during contract
+period?
+
+(yes/no)
+
+If my price can change, how will it
+change, and by how much?
+
+(formula/description of the way the price will
+vary and how much it can change)
+In addition, if the REP chooses to pass
+through regulatory changes the
+following must be required:
+“The price applied in the first billing cycle may be
+different from the price in this EFL if there are
+changes in TDSP charges; changes to the Electric
+Reliability Council of Texas or Texas Regional
+Entity administrative fees charged to loads; or
+changes resulting from federal, state or local laws
+or regulatory actions that impose new or modified
+fees or costs that are outside our control.”
+
+What other fees may I be charged?
+
+(List or give direct location in terms of service.)
+
+Is this a pre-pay or pay in advance
+product?
+
+(yes/no)
+
+Does the REP purchase
+excess distributed renewable
+generation?
+
+(yes/no)
+
+Renewable Content
+
+(This product is x% renewable.)
+
+Disclosure
+Chart
+
+§25.475--11
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+What is the statewide average for
+renewable content is?
+
+(% of statewide average for renewable content)
+
+Contact info, certification number, version number, etc.
+Additional information may be added below.
+
+Type used in this format:
+Title: 12 point
+Headings: 12 point boldface
+Body: 10 point
+(7)
+Version number. A REP must assign an identification number to each version of its EFL, and
+must publish the number on the EFL.
+(h)
+
+Your Rights as a Customer disclosure. The information set out in this section must be included in a REP’s
+“Your Rights as a Customer” document in plain language, to summarize the standard customer protections
+provided by this subchapter or additional protections provided by the REP.
+(1)
+A YRAC document must be consistent with the terms of service for the retail product.
+(2)
+The YRAC document must inform the customer of the REP’s complaint resolution policy
+pursuant to §25.485 of this title (relating to Customer Access and Complaint Handling) and payment
+arrangements and deferred payment policies pursuant to §25.480 of this title (relating to Bill
+Payment and Adjustments).
+(3)
+The YRAC document must inform the customer of the REP’s procedures for reporting outages and
+the steps necessary to have service restored or reconnected after an involuntary suspension or
+disconnection.
+(4)
+The YRAC must provide information the REP has received from the TDU pursuant to PURA
+§17.003(e) regarding the TDU’s procedures for implementing involuntary load shedding initiated
+by the independent organization certified under PURA §39.151 for the ERCOT power region, and,
+if applicable, where any additional details regarding those procedures or relevant updates may be
+located. The REP may fulfill this requirement by providing a website address with the required
+information. Each TDU must develop such information and resources by September 1, 2021 and
+make the website address where such information can be viewed available to REPs. A REP may
+provide this information at a website address other than the website addresses made available by the
+TDUs. A TDU or other entity providing a website address is required to update this information
+within 30 days of any material change in the information.
+(5)
+The YRAC document must inform the customer of the customer’s right to have the meter tested
+pursuant to §25.124 of this title (relating to Meter Testing), or in accordance with the tariffs of a
+transmission and distribution utility, a municipally owned utility, or an electric cooperative, as
+applicable, and the REP’s ability in all cases to make that request on behalf of the customer by a
+standard electronic market transaction, and the customer’s right to be instructed on how to read the
+meter, if applicable.
+(6)
+The YRAC document must inform the customer of the availability of:
+(A)
+Financial and energy assistance programs for residential customers;
+(B)
+Any special services such as readers or notices in Braille or TTY;
+(C)
+Special policies or programs available to residential customers designated as chronic
+condition or critical care under §25.497 of this title and the procedure for a customer to
+apply to be considered for such designations; and
+
+§25.475--12
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+(D)
+
+(7)
+
+(8)
+
+(i)
+
+Any available discounts that may be offered by the REP for qualified low-income
+residential customers. A REP may comply with this requirement by providing the customer
+with instructions for how to inquire about such discounts.
+The YRAC document must inform the customer of the following customer rights and protections:
+(A)
+Unauthorized switch protections applicable under §25.495 of this title (relating to
+Unauthorized Change of Retail Electric Provider);
+(B)
+The customer’s right to dispute unauthorized charges on the customer’s bill as set forth in
+§25.481 of this title (relating to Unauthorized Charges);
+(C)
+Protections relating to disconnection of service pursuant to §25.483 of this title;
+(D)
+Non-English language requirements pursuant to §25.473 of this title (relating to NonEnglish Language Requirements);
+(E)
+Availability of a Do Not Call List pursuant to §25.484 of this title (relating to Electric
+No-Call List) and §26.37 of this title (relating to Texas No-Call List); and
+(F)
+Privacy rights regarding customer proprietary information as provided by §25.472 of this
+title (relating to Privacy of Customer Information).
+Identity and contact information. The REP’s certified name and business name (dba), certification
+number, mailing address, e-mail and Internet address (if applicable), and a toll-free telephone
+number (with hours of operation and time-zone reference) at which the customer may obtain
+information concerning the product.
+
+Advertising claims. If a REP or aggregator advertises or markets the specific benefits of a particular electric
+product, the REP or aggregator must provide the name of the electric product offered in the advertising or
+marketing materials to the commission or its staff, upon request. All advertisements and marketing materials
+distributed by or on behalf of a REP or aggregator must comply with this section. REPs and aggregators are
+responsible for representations to customers and prospective customers by employees or other agents of the
+REP concerning retail electric service that are made through advertising, marketing or other means.
+(1)
+Print advertisements. Print advertisements and marketing materials, including direct mail
+solicitations that make any claims regarding price, savings, or environmental quality for an
+electricity product of the REP compared to a product offered by another REP must include the EFL
+of the REP making the claim. In lieu of including an EFL, the following statement must be provided:
+“You can obtain important standardized information that will allow you to compare this product
+with other offers. Contact (name, telephone number, and Internet address (if available) of the REP).”
+If the REPs phone number or website address is included on the advertisement, such phone number
+or website address is not required in the disclaimer statement. Upon request, a REP must provide to
+the commission the contract documents relating to a product being advertised and any information
+used to develop or substantiate comparisons made in the advertisement.
+(2)
+Television, radio, and internet advertisements. A REP must include the following statement in any
+television, Internet, or radio advertisement that makes a specific claim about price, savings, or
+environmental quality for an electricity product of the REP compared to a product offered by another
+REP: “You can obtain important standardized information that will allow you to compare this product
+with other offers. Contact (name, telephone number and website (if available) of the REP).” If the
+REPs phone number or website address is included on the advertisement, such phone number or
+website address is not required in the disclaimer statement. This statement is not required for general
+statements regarding savings or environmental quality, but must be provided if a specific price is
+included in the advertisement, or if a specific statement about savings or environmental quality
+compared to another REP is made. Upon request, a REP must provide to the commission the contract
+documents relating to a product being advertised and any information used to develop or substantiate
+comparisons made in the advertisement.
+
+§25.475--13
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+(3)
+
+(4)
+
+Outdoor advertisements. A REP must include, in a font size and format that is legible to the
+intended audience, its certified name or commission authorized business name, certification number,
+telephone number and Internet address (if available).
+Renewable energy claims. A REP must authenticate its sales of renewable energy in accordance
+with §25.476 of this title (relating to Renewable and Green Energy Verification). If a REP relies on
+supply contracts to authenticate its sales of renewable energy, it must file a report with the
+commission, not later than March 15 of each year demonstrating its compliance with this paragraph
+and §25.476 of this title.
+
+§25.475--14
+
+effective date 01/06/2022
+(P 51830)
+
+

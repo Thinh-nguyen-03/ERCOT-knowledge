@@ -1,0 +1,189 @@
+Daily Heat Rate Option Confirmation
+Date:
+To:
+From:
+
+April 10, 2012
+Company A
+Company B
+
+Re:
+
+Heat Rate Option Transaction – Cash Settled
+
+Supplements ISDA Master Agreement dated July 5, 2007. The definitions and provisions contained in
+2005 ISDA Commodity Definitions are incorporated into this Confirmation.
+Transaction Reference Number:
+Trade Date:
+
+April 10, 2012
+
+Option Buyer:
+Opton Seller:
+
+Company A
+Company B
+
+Option Type:
+
+Call
+
+Option Term:
+
+From and including 01 July, 2012 to and including 30
+September, 2012
+
+Commodity:
+
+Electricity
+
+Notional Quantity Per Settlement Period: 25.00 MW multiplied by the number of calendar days in the
+relevant Calculation Period
+Total Premium:
+
+USD 342,000.00
+
+Premium Payment Dates:
+
+05 April, 2012, subject to adjustment in accordance with
+the Following Business Day Convention
+
+Procedure for Exercise
+Exercise Date(s):
+
+Each Applicable Day during the Option Term
+
+Automatic Exercise:
+
+Applicable
+
+Page 1 of 3
+
+Cash Settlement Terms
+Cash Settlement:
+
+Applicable
+
+Settlement Date(s):
+
+In respect of each calendar month the Option Seller shall pay
+the Net Cash Settlement Amount to the Option Buyer on the
+tenth (10th) Business Day following the end of the calendar
+month that includes the relevant Calculation Period(s)
+
+Calculation Periods:
+
+Each individual Applicable Day during the Option Term
+
+Settlement Period(s)
+Applicable Days:
+
+In respect of each Calculation Period each Monday to
+Saturday inclusive excluding North America Electric Reliability
+Council (“NERC”) holidays
+
+Duration:
+
+Hourly
+
+Start Time:
+
+The hour ending 07:00 hours Pacific Prevailing Time
+
+End Time;
+
+The hour ending 22:00 hours Pacific Prevailing Time
+
+Cash Settlement Amount Details
+Cash Settlement Amount:
+
+In respect of each Calculation Period the sum of the Cash
+Settlement Amounts for each Settlement Period in such
+Calculation Period, where the Cash Settlement Amount for
+each Settlement Period is calculated as follows:
+Notional Quantity x Strike Price Differential
+(each in respect of the relevant Settlement Period)
+The Cash Settlement Amounts for all the Calculation Periods
+during any calendar month, if any, shall be aggregated into a
+single net amount (the “Net Cash Settlement Amount”)
+
+Floating Price
+Power
+Price:
+
+“ELECTRICITY-CAISO-SP 15 EZ GEN HUB-DAY AHEAD”
+means that the price for a Pricing Date will be that day’s
+Specified Price per MWh of electricity for delivery on the
+Delivery Date, which Specified Price will be the average of the
+hourly prices, stated in U.S. Dollars, published by the CAISO
+at http://oasis.caiso.com under the heading “Prices Report:
+Location Marginal Prices (LMP) Market: DAM Node:
+TH_SP15_GEN_APND” or any successor headings, that
+reports prices effective on that Priceing Date
+
+Specified Price:
+
+Locational Marginal Pricing (“LMP”) (as defined on the Price
+Source)
+Page 2 of 3
+
+Price Source:
+
+The California ISO Open Access Same0time Information
+System (or any official successor thereto) website at address
+http://oasis.caiso.com
+
+Pricing Dates:
+
+In respect of each Calculation Period, the Commodity
+Business Day on which the Price Source publishes the
+relevant Commodity Reference Price(s) for the relevant
+Settletment Periods during such Calculation Period
+
+Strike Price
+
+HR x Gas Index
+
+Heat Rate (“HR”)
+
+11.00
+
+Gas Index
+Commodity Reference Price: NATURAL GAS – SOCAL GAS – GAS DAILY
+Specified Price:
+
+The “Midpoint” price
+
+Delivery Date(s):
+
+The “Flow date(s)” (as defined in the Price Source),
+corresponding to the relevant Price Date
+
+Price Source:
+
+In respect of each Calculation Period, the Commodity
+Business Day on which the Price Source publishes the
+relevant Commodity Reference Price(s) for the relevant
+Settlement Periods during each Calculation Period. Where a
+Pricing Date is not a Commodity Business Day, the
+Commodity Reference Price in respect of the next
+immediately following Commodity business Day, irrespective
+of whether or not such Commodity Business Day falls within
+the Calculation Period
+
+Account Details
+Payments to;
+Account for payments:
+
+Company B Inc.
+xxxxxx
+
+Payments to:
+Accounts for payments:
+
+Company A Inc.
+xxxxxx
+
+Page 3 of 3
+
+

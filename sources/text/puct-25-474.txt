@@ -1,0 +1,1096 @@
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter R.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC SERVICE.
+
+§25.474. Selection of Retail Electric Provider.
+(a)
+
+Applicability. This section applies to retail electric providers (REPs) and aggregators seeking to enroll
+applicants or customers for retail electric service. In addition, where specifically stated, this section
+applies to transmission and distribution utilities (TDUs) and the registration agent.
+
+(b)
+
+Purpose. The provisions of this section establish procedures for enrollment of applicants or customers
+by a REP and ensure that all applicants and customers in this state are protected from an unauthorized
+switch from the applicant’s or customer’s REP of choice or an unauthorized move-in. A contested
+switch in providers shall be presumed to be unauthorized unless the REP provides proof, in accordance
+with the requirements of this section, of the applicant’s or customer’s authorization and verification.
+
+(c)
+
+Initial REP selection process.
+(1)
+In conjunction with the commission’s customer education campaign, the commission may
+issue to customers for whom customer choice will be available an explanation of the REP
+selection process. The customer education information issued by the commission may include,
+but is not limited to:
+(A)
+an explanation of retail electric competition;
+(B)
+a list of all REPs certified to provide electric service to the customer;
+(C)
+a form that allows the customer to contact or select one or more of the listed REPs
+from which the customer desires to receive information or to be contacted; and
+(D)
+information on how a customer may designate whether the customer would like to be
+placed on the statewide Do Not Call List and indicate the fee for such placement.
+(2)
+Any affiliated REP assigned to serve a customer that is entitled to receive the price-to-beat
+rate, pursuant to the Public Utility Regulatory Act (PURA) §39.202(a), shall issue to a
+customer, either as a bill insert or through a separate mailing, no later than 30 days after the
+commencement of customer choice:
+(A)
+A terms of service document that includes an explanation of the price-to-beat rate;
+(B)
+Your Rights as a Customer disclosure; and
+(C)
+An Electricity Facts Label for the price to beat, which may, at the discretion of the
+REP, be in a separate document or contained in the terms of service document.
+(3)
+An electric utility whose successor affiliated REP will continue to serve customers not eligible
+for the price-to-beat rate, pursuant to PURA §39.102(b), shall issue to the customer a terms of
+service document on a date prescribed by the commission. Such a document shall contain an
+explanation of the price the customer will be charged by the affiliated REP.
+
+(d)
+
+Enrollment via the Internet. For enrollments of applicants via the Internet, a REP or aggregator shall
+obtain authorization and verification of the move-in or switch request from the applicant in accordance
+with this subsection.
+(1)
+The website (or websites) shall clearly and conspicuously identify the legal name of the
+aggregator and its registration number to provide aggregation services or REP and its
+certification number to sell retail electric service, its address, and telephone number.
+(2)
+The website shall include a means of transfer of information, such as electronic enrollment,
+renewal, and cancellation information between the applicant or customer and the REP or
+aggregator that is an encrypted transaction using Secure Socket Layer or similar encryption
+standard to ensure the privacy of customer information.
+(3)
+The website shall include an explanation that a move-in or a switch can only be made by the
+electric service applicant or the applicant’s authorized agent.
+(4)
+The entire enrollment process shall be in plain, easily understood language. The entire
+enrollment shall be the same language. Nothing in this section is meant to prohibit REPs or
+aggregators from utilizing multiple enrollment procedures or websites to conduct enrollments
+in multiple languages.
+
+§25.474--1
+
+effective date 3/08/17
+(P 45625)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter R.
+(5)
+
+(6)
+(7)
+
+(8)
+
+(9)
+(10)
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC SERVICE.
+Required authorization disclosures. Prior to requesting confirmation of the move-in or
+switch request, a REP or aggregator shall clearly and conspicuously disclose the following
+information:
+(A)
+the name of the new REP;
+(B)
+the name of the specific electric service package or plan for which the applicant’s
+assent is attained;
+(C)
+the ability of an applicant to select to receive information in English, Spanish, or the
+language used in the marketing of service to the applicant. The REP or aggregator
+shall provide a means of documenting a customer’s language preference;
+(D)
+the price of the product or plan, including the total price stated in cents per kilowatthour, for electric service;
+(E)
+term or length of the term of service;
+(F)
+the presence or absence of early termination fees or penalties, and applicable
+amounts;
+(G)
+any requirement to pay a deposit and the estimated amount of that deposit, or the
+method in which the deposit will be calculated. An affiliated REP or provider of last
+resort (POLR) shall also notify the applicant of the right to post a letter of guarantee
+in lieu of a deposit in accordance with §25.478(i) of this title (relating to Credit
+Requirements and Deposits);
+(H)
+any fees to the applicant for switching to the REP pursuant to subsection (n) of this
+section;
+(I)
+in the case of a switch request, the applicant’s right, pursuant to subsection (j) of this
+section, to review and rescind the terms of service within three federal business days,
+after receiving the terms of service, without penalty;
+(J)
+a statement that the applicant will receive a copy of the terms of service document via
+email or, upon request, via regular US mail, that will explain all the terms of the
+agreement and how to exercise the right of rescission, if applicable; and
+(K)
+if the customer is being enrolled for prepaid service as defined by §25.498(b)(7) of
+this title (relating to Prepaid Service), that the customer will not receive a bill and
+may request a summary of usage and payment.
+The applicant shall be required to check a box affirming that the applicant has read and
+understands the disclosures and terms of service required by paragraph (5) of this subsection.
+The REP or aggregator shall provide access to the complete terms of service document that is
+being agreed to by the applicant on the website such that the applicant may review the terms
+of service prior to enrollment. A prompt shall also be provided for the applicant to print or
+save the terms of service document to which the applicant assents, and shall inform the
+application of the option to request that a written copy of the terms of service document be
+sent by regular U.S. mail by contacting the REP.
+The REP or aggregator shall also provide a toll-free telephone number, Internet website
+address, and e-mail address for contacting the REP or aggregator throughout the duration of
+the applicant’s or customer’s agreement. The REP or aggregator shall also provide the
+appropriate toll-free telephone number that the customer can use to report service outages.
+Applicant authorizations shall adhere to any state and federal guidelines governing the use of
+electronic signatures.
+Verification of authorization for Internet enrollment. Prior to final verification by the
+applicant of enrollment with the REP or aggregator, the REP or aggregator shall:
+(A)
+obtain or confirm the applicant’s email address, billing name, billing address, service
+address, and name of any authorized representative;
+(B)
+obtain or confirm the applicant’s electric service identifier (ESI-ID), if available;
+(C)
+affirmatively inquire whether the applicant has decided to establish new service or
+change from the current REP to the new REP;
+
+§25.474--2
+
+effective date 3/08/17
+(P 45625)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter R.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC SERVICE.
+(D)
+
+(11)
+
+(e)
+
+affirmatively inquire whether the applicant designates the new REP to perform the
+necessary tasks to complete a switch or move in for the applicant’s service with the
+new REP; and
+(E)
+obtain or confirm one of the following account access verification data: last four digits
+of the social security number, mother’s maiden name, city or town of birth, month
+and day of birth, driver’s license or government issued identification number. For
+non-residential applicants, the REP may obtain the applicant’s federal tax
+identification number.
+After enrollment, the REP or aggregator shall send a confirmation, by email, of the applicant’s
+request to select the REP. The confirmation email shall include:
+(A)
+in the case of a switch, a clear and conspicuous notice of the applicant’s right,
+pursuant to subsection (j) of this section, to review and rescind the terms of service
+within three federal business days, after receiving the terms of service without penalty
+and offer the applicant the option of exercising this right by toll-free number, email,
+Internet website, facsimile transmission or regular mail. This notice shall be
+accessible to the applicant without need to open an attachment or link to any other
+document; and
+(B)
+the terms of service and Your Rights as a Customer documents. These may be
+documents attached to the confirmation email, or the REP or aggregator may include
+a link to an Internet webpage containing the documents.
+
+Written enrollment. For enrollments of customers via a written letter of authorization (LOA), a REP
+or aggregator shall obtain authorization and verification of the switch or move-in request from the
+applicant in accordance with this subsection.
+(1)
+All LOAs for move-in or switch orders shall be in plain, easily understood language. The
+entire enrollment shall be in the same language.
+(2)
+The LOA shall be a separate or easily separable document containing the requirements
+prescribed by this subsection for the sole purpose of authorizing the REP to initiate a switch
+request. The LOA is not valid unless it is signed and dated by the customer requesting the
+move-in or switch.
+(3)
+The LOA may contain a description of inducements associated with enrolling with the REP;
+however, the actual inducement itself shall not be either included on or as part of the LOA, or
+constitute the LOA by itself.
+(4)
+The LOA shall be legible and shall contain clear and unambiguous language.
+(5)
+Required authorization disclosures. The LOA shall disclose the following information:
+(A)
+the name of the new REP;
+(B)
+the name of the specific electric service package or plan for which the applicant’s
+assent is attained;
+(C)
+the ability of an applicant to select to receive information in English, Spanish, or the
+language used in the marketing of service to the applicant. The REP shall provide a
+means of documenting an applicant’s language preference;
+(D)
+the price of the product or plan, including the total price stated in cents per kilowatthour, for electric service;
+(E)
+term or length of the term of service;
+(F)
+the presence or absence of early termination fees or penalties, and applicable
+amounts;
+(G)
+any requirement to pay a deposit and the estimated amount of that deposit, or the
+method in which the deposit will be calculated. An affiliated REP or POLR shall also
+notify the applicant of the right to post a letter of guarantee in lieu of a deposit in
+accordance with §25.478(i) of this title;
+(H)
+any fees to the applicant for switching to the REP pursuant to subsection (n) of this
+section;
+
+§25.474--3
+
+effective date 3/08/17
+(P 45625)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter R.
+
+(J)
+
+(K)
+
+(7)
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC SERVICE.
+(I)
+
+(6)
+
+RULES
+
+in the case of a switch, the applicant’s right, pursuant to subsection (j) of this section,
+to review and rescind the terms of service within three federal business days, after
+receiving the terms of service, without penalty;
+a statement that the applicant will receive a written copy of the terms of service
+document that will explain all the terms of the agreement and how to exercise the
+right of rescission, if applicable; and
+if the customer is being enrolled for prepaid service as defined by §25.498(b)(7) of
+this title, that the customer will not receive a bill and may request a summary of usage
+and payment.
+
+Verification of authorization of written enrollment. A REP or aggregator shall, as part of
+the LOA:
+(A)
+obtain or confirm the applicant’s billing name, billing address, and service address;
+(B)
+obtain or confirm the applicant’s ESI-ID, if available;
+(C)
+affirmatively inquire whether the applicant has decided to establish new service or
+change from their current REP to the new REP;
+(D)
+affirmatively inquire whether the applicant designates the new REP to perform the
+necessary tasks to complete a switch or move in for the applicant’s service with the
+new REP; and
+(E)
+obtain one of the following account access verification data: last four digits of the
+social security number, mother’s maiden name, city or town of birth, month and day
+of birth, driver’s license or government issued identification number. For nonresidential applicants, the REP may obtain the applicant’s federal tax identification
+number.
+The following LOA form meets the requirements of this subsection if modified as appropriate
+for the requirements of paragraph (5)(G) of this subsection. Other versions may be used, but
+shall contain all the information and disclosures required by this subsection.
+
+§25.474--4
+
+effective date 3/08/17
+(P 45625)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter R.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC SERVICE.
+
+LETTER OF AUTHORIZATION
+REP name and license number:___________________________________
+Applicant billing name: ________________________________________
+Applicant billing address: ______________________________________
+Applicant service address: ______________________________________
+City, state, zip code: ___________________________________________
+ESI ID, if available: __________________________________________
+If applicable, name of individual legally authorized to act for customer and relationship to applicant:
+____________________________________________________________
+Telephone number of individual authorized to act for applicant: ____________________
+____By initialing here, I acknowledge that I have read and understand the terms of service for the product for
+which I am enrolling.
+____By initialing here, I acknowledge that I understand that the price I am agreeing to is ____cents per kWh,
+the term of service that I am agreeing to is ___________________, that I will be required to pay a deposit in the
+amount of $_______in order to enroll, that I prefer to receive information from my REP in English/Spanish
+(circle one), and that there is a penalty for early cancellation of ________as specified by the terms of service.
+____By initialing here and signing below, I am authorizing (name of new REP) to become my new retail electric
+provider and to act as my agent to perform the necessary tasks to establish my electric service account with
+(name of new REP). This authorization to establish or switch my provider of electric service extends to the
+following locations (list each service address):
+____________________________________________________________
+____________________________________________________________
+I have read and understand this Letter of Authorization and the terms of service that describe the service
+I will be receiving. I am at least eighteen years of age and legally authorized to select or change retail
+electric providers for the service address(s) listed above.
+Signed: ______________________________ Date:_________________
+You have the right to review and, in the case of a switch request, rescind the terms of service within three
+federal business days, after receiving the terms of service, without penalty. You will receive a written copy
+of the terms of service document that will explain all the terms of the agreement and how to exercise the
+right of rescission before your electric service is switched to the REP.
+(8)
+
+(9)
+
+Before obtaining a signature from a customer, a REP shall:
+(A)
+provide to the applicant a reasonable opportunity to read the terms of service,
+Electricity Facts Label, Prepaid Disclosure Statement (PDS), if applicable, and any
+written materials accompanying the terms of service document; and
+(B)
+answer any questions posed by any applicant about information contained in the
+documents.
+Upon obtaining the applicant’s signature, a REP or aggregator shall immediately provide the
+applicant a legible copy of the signed LOA, and shall distribute or mail the terms of service
+document, Electricity Facts Label, PDS, if applicable, and Your Rights as a Customer
+disclosure. If a written solicitation by a REP contains the terms of service document, any tearoff portion that is submitted by the applicant to the REP to obtain electric service shall allow
+the applicant to retain the terms of service document.
+§25.474--5
+
+effective date 3/08/17
+(P 45625)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter R.
+(10)
+
+(f)
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC SERVICE.
+The applicant’s signature on the LOA shall constitute an authorization of the move-in or switch
+request if the LOA complies with the provisions of this section and the terms of service comply
+with the requirements of §25.475(d) of this title (relating to General Retail Electric Provider
+Requirements and Information Disclosures to Residential and Small Commercial Customers).
+
+Enrollment via door-to-door sales. A REP or aggregator that engages in door-to-door marketing at
+an applicant’s or customer’s residence shall comply with the following requirements:
+(1)
+Solicitation requirements. A REP or aggregator that engages in door-to-door marketing at
+an applicant’s residence shall comply with the following requirements:
+(A)
+The REP or aggregator shall provide the disclosures required by this section and the
+three-day right of rescission required by the Federal Trade Commission’s Trade
+Regulation Rule Concerning Cooling Off Period for Sales Made at Homes or at
+Certain Other Locations (16 C.F.R. Part 429).
+(B)
+The individual who represents the REP or aggregator shall wear a clear and
+conspicuous identification of the REP or aggregator on the front of the individual’s
+outer clothing or on an identification badge worn by the individual. In addition, the
+individual shall wear an identification badge that includes the individual’s name and
+photograph, the REP or aggregator’s certification or registration number, and a tollfree telephone number maintained by the REP or aggregator that the applicant may
+call to verify the door-to-door representative’s identity during specified business
+hours. The company name displayed shall conform to the name on the REP’s
+certification or aggregator’s registration obtained from the commission and the name
+that appears on all of the REP’s or aggregator’s contracts and terms of service
+documents in possession of the individual.
+(C)
+The REP or aggregator shall affirmatively state that it is not a representative of the
+applicant’s transmission and distribution utility or any other REP or aggregator. The
+REP’s or aggregator’s clothing and sales presentation shall be designed to avoid the
+impression by a reasonable person that the individual represents the applicant’s
+transmission and distribution utility or any other REP or aggregator.
+(D)
+The REP or aggregator shall not represent that an applicant or customer is required
+to switch service in order to continue to receive power.
+(E)
+Door-to-door representatives shall adhere to all local city/subdivision guidelines
+concerning door-to-door solicitation.
+(2)
+Use of a portable electronic device (PED) in door-to-door sales. A REP or aggregator may
+use a PED to conduct door-to-door sales at an applicant’s or customer’s residence. For the
+purpose of this section, a PED is defined as a nonstationary light-weight, electrically-powered
+device that is capable of communications, data storage and processing, and accessing, directly
+or indirectly, the REP or aggregator network. Examples of PEDs include, but are not limited
+to: laptop computers, tablets, tablet computers, personal digital assistants, and smart phones.
+(A)
+The REP or aggregator is responsible for ensuring that the PED complies with the
+requirements of this section.
+(B)
+The PED shall be owned, rented, or leased by the REP, aggregator, or third-party
+vendor retained by the REP or aggregator. The PED shall not be owned by an
+individual employee of the REP, aggregator, or vendor that has been retained by the
+REP or aggregator.
+(C)
+The entire enrollment process shall be in plain, easily understood language, and be
+consistent with the requirements of §25.473 of this title (relating to Non-English
+Language Requirements.) The entire solicitation and enrollment process shall be
+conducted in the same language. The REP or aggregator shall provide a means of
+documenting the applicant’s language preference.
+(D)
+All information disclosed to the applicant or customer on the PED must be easily
+readable and clearly disclosed.
+(E)
+The PED shall:
+§25.474--6
+
+effective date 3/08/17
+(P 45625)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter R.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC SERVICE.
+(i)
+(ii)
+
+(F)
+
+(G)
+(3)
+
+(4)
+
+be secure from unauthorized access;
+have the means to protect any applicant and customer data should the device
+be lost or stolen, such as for example, remote data wipe capabilities; and
+(iii)
+have enabled mobile locating and tracking capabilities that allows the REP
+or aggregator to track the time and location of each customer enrollment,
+subject to the availability of industry standard communications signals such
+as cellular or Wi-Fi at the specific time of enrollment.
+Any applicant or customer specific information entered into the PED shall be
+transferred within one business day to the REP or aggregator’s systems using Secure
+Socket Layer or similar encryption standard to ensure privacy of applicant or
+customer information. Once the transfer of data has been verified, any such applicant
+or customer specific information retained on the PED shall be removed.
+The REP or aggregator is responsible for the protection of all applicant or customer
+information.
+
+Required authorization disclosures. Prior to requesting verification of the applicant’s
+authorization to enroll, a REP or aggregator shall comply with all of the authorization
+disclosure requirements in either subsections (e)(5) or (h)(1) - (4) of this section.
+(A)
+A REP or aggregator may provide the disclosures required by subsection (e)(5) of
+this section using a PED; however, if an applicant expresses an inability to read or
+understand the disclosure information on the PED, the REP or aggregator shall either
+provide the required disclosures pursuant to subsection (e)(5) of this section in paper
+format, provide the disclosures pursuant to subsection (h)(1) – (4) of this section, or
+advise the applicant that they will not be able to complete enrollment.
+(B)
+If a REP or aggregator provides the disclosures using a PED, the REP or aggregator
+shall:
+(i)
+provide the applicant a reasonable opportunity to read the terms of service,
+Electricity Facts Label (EFL), Prepaid Disclosure statements (PDS), if
+applicable, and any written or electronic materials disclosed;
+(ii)
+accurately and truthfully answer any questions posed by the applicant about
+information contained in the documents;
+(iii)
+advise the applicant that if the applicant is under contract with another REP,
+termination fees for that contract may apply; and
+(iv)
+obtain an electronic signature from the applicant that adheres to Texas and
+federal guidelines or, alternatively, require unassisted direct entry of a
+uniquely identifiable input by the applicant affirming that the applicant has
+read and understands the disclosures, terms of service, EFL, PDS, if
+applicable, and all written or electronic materials disclosed prior to
+verification of authorization.
+Verification of authorization for door-to-door enrollment. A REP, or an independent third
+party retained by the REP, shall telephonically obtain and record all required verification
+information from the applicant to verify the applicant’s decision to enroll with the REP in
+accordance with this paragraph, unless verification is obtained using a PED as specified in
+paragraph (5) of this subsection. If verification is obtained using a PED as specified in
+paragraph (5) of this subsection, the REP or aggregator has the option, with applicant consent,
+to complete the verification of authorization requirement utilizing the process defined in
+paragraph (5) of this subsection.
+(A)
+Electronically record on audiotape, a wave sound file, or other recording device the
+entirety of an applicant’s verification. The verification call shall comply with the
+requirements in subsection (h)(5) of this section.
+(B)
+Inform the applicant that the verification of authorization call is being recorded.
+(C)
+Verification shall be conducted in the same language as that used in the sales
+transaction and authorization.
+§25.474--7
+
+effective date 3/08/17
+(P 45625)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter R.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC SERVICE.
+(D)
+
+(5)
+
+Automated systems shall provide the applicant with the option of exiting the system
+and nullifying the enrollment at any time during the call.
+(E)
+A REP or its sales representative initiating a three-way call or a call through an
+automated verification system shall not participate in the verification process.
+(F)
+The REP shall not submit a move-in or switch request until it has obtained a recorded
+telephonic verification of the enrollment.
+Verification of authorization for door-to-door enrollments using a PED.
+(A)
+The REP or aggregator shall obtain affirmation from the applicant that the applicant
+is authorized to perform the enrollment and consents to the enrollment being verified
+using a PED. If the applicant does not consent to the enrollment being verified using
+a PED or expresses an inability to read or understand the verification of authorization
+information on the PED at any time, the representative shall verify authorization of
+enrollment pursuant to paragraph (4) of this subsection or advise the applicant that
+they will not be able to complete enrollment.
+(B)
+If the applicant consents to verification being conducted using a PED, the REP or
+aggregator shall:
+(i)
+obtain or confirm the applicant’s email address or other agreed upon means
+of communication, billing name, billing address, service address, and name
+of any authorized representative;
+(ii)
+obtain or confirm the applicant’s electric service identifier (ESI-ID), if
+available;
+(iii)
+obtain or confirm at least one of the following account access verification
+data for the applicant: last four digits of the social security number, mother’s
+maiden name, city or town of birth, month and day of birth, driver’s license
+number or government issued identification number. For non-residential
+applicants, the REP may obtain the applicant’s federal tax identification
+number; and
+(iv)
+obtain applicant’s electronic signature that adheres to Texas and federal
+guidelines or, alternatively, require unassisted direct entry of a uniquely
+identifiable input by the applicant matching the input obtained pursuant to
+paragraph (3) of this subsection affirming that the customer or applicant is
+authorized to select or change REPs for the service address and authorizes
+the new REP to perform necessary tasks to complete a switch or move-in for
+the customer’s or applicant’s service with the new REP.
+(C)
+The REP shall not submit a move-in or switch request until it has obtained the
+applicant’s verification of the enrollment.
+(D)
+After enrollment, the REP or aggregator shall send a confirmation by first class mail,
+email, or other agreed upon means of communication to the applicant of the
+applicant’s request to select the REP. The REP or aggregator may assume that any
+delivery of the confirmation deposited first class within the United States Postal
+service will be received within three federal business days. The confirmation shall
+include:
+(i)
+a clear and conspicuous notice in the body of the confirmation of the
+customer’s three-day right of rescission required by the Federal Trade
+Commission’s Trade Regulation Rule Concerning Cooling Off Period for
+Sales Made at Homes or Certain Other Locations (16 C.F.R. Part 429). The
+notice shall state that the customer may exercise their right to rescission
+within three federal business days after receiving the terms of service
+without penalty and offer the customer the option of exercising this right by
+toll-free number, email, Internet website, facsimile transmission, or regular
+mail. If conveyed electronically, the notice shall be accessible to the
+
+§25.474--8
+
+effective date 3/08/17
+(P 45625)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter R.
+
+(6)
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC SERVICE.
+applicant without need to open an attachment or link to any other document;
+and
+(ii)
+the terms of service document, EFL, PDS, if applicable, and Your Rights as
+a Customer disclosure, or links thereto.
+Nothing in this subsection is intended to limit the use of PEDs in the context of other forms of
+enrollment to the extent those enrollments otherwise comply with the applicable rule
+requirements.
+
+(g)
+
+Personal solicitations other than door-to-door marketing. A REP or aggregator that engages in
+personal solicitation at a location other than a customer’s residence (such as malls, fairs, or places of
+business) shall comply with all requirements for written enrollments and LOA requirements detailed in
+subsection (e) of this section. In addition, the REP or aggregator shall comply with the following
+additional requirements:
+(1)
+For transactions occurring at a place other than the REP or aggregator’s place of business, the
+REP or aggregator shall provide the three-day right of rescission required by the Federal Trade
+Commission’s Trade Regulation Rule Concerning Cooling-Off Period for Sales Made at
+Homes or at Certain Other Locations (16 C.F.R. Part 429).
+(2)
+For solicitations of residential customers, the individual who represents the REP or aggregator
+shall wear a clear and conspicuous identification of the REP or aggregator on the front of the
+individual’s outer clothing or on an identification badge worn by the individual. The company
+name displayed shall conform to the name on the REP’s certification or aggregator’s
+registration obtained from the commission and the name that appears on all of the REP’s or
+aggregator’s contracts and terms of service documents in possession of the individual.
+(3)
+The individual who represents the REP or aggregator shall not state or imply that it is a
+representative of the customer’s transmission and distribution utility or any other REP or
+aggregator. The REP’s or aggregator’s clothing and sales presentation shall be designed to
+avoid the impression by a reasonable person that the individual represents the applicant’s
+transmission and distribution utility or any other REP or aggregator.
+(4)
+The REP or aggregator shall not represent that an applicant is required to switch service in
+order to continue to receive power.
+
+(h)
+
+Telephonic enrollment. For enrollments of applicants via telephone solicitation, a REP or aggregator
+shall obtain authorization and verification of the move-in or switch request from the applicant in
+accordance with this subsection.
+(1)
+A REP or aggregator shall electronically record on audio tape, a wave sound file, or other
+recording device the entirety of an applicant’s authorization and verification. Automated
+systems shall provide the customers with either the option of speaking to a live person at any
+time during the call, or the option to exit the call and cancel the enrollment.
+(2)
+The REP or aggregator shall inform the customer that the authorization and verification
+portions of the call are being recorded.
+(3)
+Authorizations and verifications shall be conducted in the same language as that used in the
+sales transaction.
+(4)
+Required authorization disclosures. Prior to requesting verification of the move-in or switch
+request, a REP or aggregator shall clearly and conspicuously disclose the following
+information:
+(A)
+the name of the new REP;
+(B)
+the name of the specific electric service package or plan for which the applicant’s
+assent is attained;
+(C)
+the price of the product or plan, including the total price stated in cents per kilowatthour, for electric service;
+(D)
+term or length of the term of service;
+(E)
+the presence or absence of early termination fees or penalties, and applicable
+amounts;
+§25.474--9
+
+effective date 3/08/17
+(P 45625)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter R.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC SERVICE.
+(F)
+
+(5)
+
+any requirement to pay a deposit and the estimated amount of that deposit, or the
+method in which the deposit will be calculated or the method in which the deposit
+will be calculated. An affiliated REP or POLR shall also notify the applicant of the
+right to post a letter of guarantee in lieu of a deposit in accordance with §25.478(i) of
+this title;
+(G)
+any fees to the applicant for switching to the REP pursuant to subsection (n) of this
+section;
+(H)
+in the case of a switch, the applicant’s right, pursuant to subsection (j) of this section,
+to review and rescind the terms of service within three federal business days, after
+receiving the terms of service, without penalty;
+(I)
+a statement that the applicant will receive a written copy of the terms of service
+document that will explain all the terms of the agreement and how to exercise the
+right of rescission, if applicable; and
+(J)
+if the customer is being enrolled for prepaid service as defined by §25.498(b)(7) of
+this title, that the customer will not receive a bill and may request a summary of usage
+and payment.
+Verification of authorization of telephonic enrollment.
+(A)
+A REP or aggregator shall electronically record on audio tape, a wave sound file, or
+other recording device the entirety of an applicant’s verification of the authorization.
+The REP or aggregator shall inform the applicant that the verification call is being
+recorded.
+(B)
+Prior to final confirmation by the applicant that they wish to enroll with the REP, the
+REP shall, at a minimum:
+(i)
+obtain or confirm the applicant’s billing name, billing address, and service
+address;
+(ii)
+obtain or confirm the applicant’s ESI-ID, if available;
+(iii)
+for a move-in request, ask the applicant, “do you agree to become a customer
+with (REP) and allow (REP) to complete the tasks required to start your
+electric service?” and the applicant must answer affirmatively; or
+(iv)
+for a switch request, ask the applicant, “do you agree to become a (REP)
+customer and allow us to complete the tasks required to switch your electric
+service from your current REP to (REP)?” and the applicant must answer
+affirmatively;
+(v)
+ask the applicant, “do you want to receive information in English, Spanish
+(or the language used in the marketing of service to the applicant)?” The
+REP shall provide a means of documenting the applicant’s language
+preference; and
+(vi)
+obtain or confirm one of the following account access verification data: last
+four digits of the social security number, mother’s maiden name, city or
+town of birth, or month and day of birth, driver’s license or government
+issued identification number. For non-residential applicants, a REP may
+obtain the applicant’s federal tax identification number.
+(C)
+In the event the applicant does not consent to or does not provide any of the
+information listed in subparagraph (B) of this paragraph, the enrollment shall be
+deemed invalid and the REP shall not submit a switch or move-in request for the
+applicant’s service.
+(D)
+If a REP has solicited service for prepaid service, an actual pre-payment by a
+customer may be substituted for a telephonic verification, provided that the prepayment is not taken at the time of the solicitation by the sales representative that has
+obtained the authorization from the customer, and the REP has obtained a written
+LOA from the customer and can produce documentation of the pre-payment. The
+
+§25.474--10
+
+effective date 3/08/17
+(P 45625)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter R.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC SERVICE.
+REP shall not submit a move-in or switch request until it has received the prepayment
+from the customer.
+
+(i)
+
+Record retention.
+(1)
+A REP or aggregator shall maintain non-public records of each applicant’s authorization and
+verification of enrollment for 24 months from the date of the REP’s initial enrollment of the
+applicant and shall provide such records to the applicant, customer, or commission staff, upon
+request.
+(2)
+A REP or an aggregator shall submit copies of its sales script, terms of service document, and
+any other materials used to obtain a customer’s authorization or verification to the commission
+staff upon request. In the event commission staff request documents under this subsection, the
+requested records must be delivered to the commission staff within 15 days of the written
+request, unless otherwise agreed to by commission staff.
+(3)
+In the event an applicant or customer disputes an enrollment or switch, the REP shall provide
+to the applicant or customer proof of the applicant’s or customer’s authorization within five
+business days of the request.
+
+(j)
+
+Right of rescission. A REP shall promptly provide the applicant with the terms of service document
+after the applicant has authorized the REP to provide service to the applicant and the authorization has
+been verified. For switch requests, the REP shall offer the applicant a right to rescind the terms of
+service without penalty or fee of any kind for a period of three federal business days after the applicant's
+receipt of the terms of service document. The provider may assume that any delivery of the terms of
+service document deposited first class with the United States Postal Service will be received by the
+applicant within three federal business days. Any REP receiving an untimely notice of rescission from
+the applicant shall inform the applicant that the applicant has a right to select another REP and may do
+so by contacting that REP. The REP shall also inform the applicant that the applicant will be responsible
+for charges from the REP for service provided until the applicant switches to another REP. The right
+of rescission is not applicable to an applicant requesting a move-in.
+
+(k)
+
+Submission of an applicant’s switch or move-in request to the registration agent. A REP shall
+submit a move-in or switch request to the registration agent so that the move-in or switch will be
+processed on the approximate scheduled date agreed to by the applicant and as allowed by the tariff of
+the TDU, municipally owned utility, or electric cooperative. A REP shall submit an applicant’s switch
+request to the registration agent as a standard switch. In the alternative, the REP shall submit an
+applicant’s switch request as a self-selected switch if the applicant requests a specific date for a switch,
+consistent with the applicable transmission and distribution tariff. A REP may submit an applicant’s
+switch request to the registration agent prior to the expiration of the rescission period prescribed by
+subsection (j) of this section, provided that if the customer makes a timely request to cancel service the
+REP shall take action to ensure that the switch is canceled or the customer is promptly returned to its
+chosen REP without inconvenience or additional cost to the customer. The applicant shall be informed
+of the approximate scheduled date that the applicant will begin receiving electric service from the REP,
+and of any delays in meeting that date, if known by the REP.
+
+(l)
+
+Duty of the registration agent.
+(1)
+When the registration agent receives a move-in or switch request from a REP, the registration
+agent shall process that request in accordance with this section and its protocols, to the extent
+that the protocols are consistent with this section. The registration agent shall send a switch
+notification notice to the applicant that shall:
+(A)
+be worded in English and Spanish consistent with §25.473(d) of this title (relating to
+Non-English Language Requirements);
+(B)
+identify the REP that initiated the switch request; and
+(C)
+provide the names and telephone numbers for the gaining and losing REP.
+(2)
+The registration agent shall direct the TDU to implement any switch, move-in, or transfer to
+the REP or the POLR in accordance with this section and its protocols.
+§25.474--11
+
+effective date 3/08/17
+(P 45625)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter R.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC SERVICE.
+
+(m)
+
+Exemptions for certain transfers. The provisions of this section relating to authorization and right of
+rescission are not applicable when the applicant’s or customer’s electric service is:
+(1)
+transferred to the POLR pursuant to §25.43 of this title (relating to Provider of Last Resort
+(POLR)) when the customer’s REP of record defaults or otherwise ceases to provide service.
+Nothing in this subsection implies that the customer is accepting a contract with the POLR for
+a specific term;
+(2)
+transferred to the competitive affiliate of the POLR pursuant to §25.43(o) of this title;
+(3)
+transferred to another REP in accordance with section §25.493 of this title (relating to
+Acquisition and Transfer of Customers from One Retail Electric Provider to Another); or
+(4) transferred from one premise to another premise without a change in REP and without a material
+change in the terms of service.
+
+(n)
+
+Fees. A REP, other than a municipally owned utility or an electric cooperative, shall not charge a fee
+to an applicant to switch to, select, or enroll with the REP unless an applicant without a Provisioned
+Advanced Meter requests an out-of-cycle meter read for the purpose of a self-selected switch. The
+registration agent shall not charge a fee to the end-use customer for the switch or enrollment process
+performed by the registration agent. The TDU shall not charge a fee for a review or adjustment
+described in subsection (p)(2) of this section. To the extent that the TDU assesses a REP a properly
+tariffed charge for connection of service, out-of-cycle meter read for self-selected switch requests,
+service order cancellations, or changes associated with the switching of service or the establishment of
+new service, any such fee may be passed on to the applicant or customer by the REP. A TDU shall not
+assess to a REP or an applicant any costs associated with a switch cancellation, including inadvertent
+gain fees, that results from the applicant’s exercise of the three-day right of rescission. The TDU shall
+include such costs in the cost recovery mechanism described in subsection (o) of this section.
+
+(o)
+
+TDU cost recovery. The TDU may recover the reasonable costs associated with performing meter
+reads for purposes of a standard switch through one of the following two options at the TDU’s
+discretion:
+(1)
+TDU costs associated with performing standard meter reads for the purpose of switches, to the
+extent not reflected in base rates, shall be considered costs incurred in deploying advanced
+metering functionality and are to be considered in setting a surcharge established under PURA
+§39.107 (h) and §25.130 of this title (relating to Advanced Metering). The costs shall be
+included in the annual reports filed pursuant to §25.130(k)(5) of this title as actual costs spent
+to date in the deployment of Advanced Metering Systems (AMS) and shall be considered in
+setting, reconciling and or updating the AMS surcharge pursuant to §25.130(k) of this title; or,
+(2)
+a TDU shall create a regulatory asset for the expenses associated with performing standard
+meter reads for the purpose of switches pursuant to this subsection. Upon review of
+reasonableness and necessity, a reasonable level of amortization of such a regulatory asset,
+including carrying charges, shall be included as a recoverable cost in the TDU’s rates in its
+next rate case or such other rate recovery proceeding as deemed necessary.
+
+(p)
+
+Meter reads for the purpose of a standard switch.
+(1)
+Beginning December 1, 2009, a TDU shall perform actual, as opposed to estimated, meter
+reads for at least 80% of meter reads for the purpose of a standard switch in any given month,
+and at least 95% of meter reads for the purpose of a standard switch in any calendar year,
+exclusive of remote meter reads using advanced meters. Until December 1, 2009, a TDU may
+perform estimated meter reads for standard switch requests only for residential customers,
+exclusive of customers with meters that have remote read capability. A TDU shall use best
+efforts to perform as many actual reads as possible for standard switches.
+(2)
+Notwithstanding §25.214 of this title (relating to Terms and Conditions of Retail Delivery
+Service Provided by Investor Owned Transmission and Distribution Utilities), an estimated
+meter read for the purpose of a standard switch is not subject to adjustment, except as provided
+in subparagraph (A) or (B) of this paragraph. A customer is obligated to pay a bill based upon
+§25.474--12
+
+effective date 3/08/17
+(P 45625)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+Subchapter R.
+
+(3)
+
+(q)
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC SERVICE.
+an estimated meter read for the purpose of a switch, including any adjustment made pursuant
+to subparagraph (A) or (B) of this paragraph.
+(A)
+The TDU shall adjust the estimated meter read if the losing REP’s billed usage is
+greater than the total kilowatt-hours used by the customer in the TDU monthly meter
+read cycle during which the estimate was made.
+(B)
+Only upon the receipt of a customer dispute of the estimated usage to either the
+gaining or losing REP, either REP may request the TDU to review the estimate. In
+reviewing the estimate, the TDU shall promptly calculate the average actual kWh
+usage per day for the time period from the actual meter reading occurring prior to the
+estimated reading to the actual meter reading occurring after the estimated reading.
+The TDU shall determine whether the usage per day for the estimated period prior to
+the switch is at least 25% greater than, or 25% less than, the average actual kWh usage
+per day. If so, the TDU shall promptly adjust the estimated meter read. The TDU
+may adjust an estimate that does not meet this 25% threshold, on a non-discriminatory
+basis.
+(C)
+The TDU shall apply a reasonable methodology in making adjustments pursuant to
+subparagraphs (A) and (B) of this paragraph and shall make the methodology
+available to REPs. Consistent with any meter read adjustments, the TDU shall adjust
+its invoices to the affected REP or REPs.
+A TDU shall file performance reports with the commission as part of the information filed
+under §25.88 of this title (relating to Retail Market Performance Measure Reporting). These
+reports shall show by month the number and percentages of actual and estimated meter reads
+for the purpose of switches, and whether that month’s performance was in compliance with
+paragraph (1) of this subsection.
+
+Scheduled switch date. Once a TDU notifies the REPs of a scheduled switch date, the TDU shall
+perform an actual or estimated read of the customer’s meter for that date.
+
+§25.474--13
+
+effective date 3/08/17
+(P 45625)
+
+

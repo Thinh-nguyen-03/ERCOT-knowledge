@@ -1,0 +1,27 @@
+ERCOT Retail Market Guide
+
+Section 9: Appendices
+
+Appendix F2: Timeline for Initiation of a Mass Transition
+
+May 1, 2019
+
+Appendix F2
+
+Timeline for Initiation of a Mass Transition
+
+Reference: Section 7.11.1.1.1, Mass Transition Initiation
+
+CR = Competitive Retailer
+
+TDSP = Transmission and/or Distribution Service Provider
+
+POLR = Provider of Last Resort
+
+ESI ID = Electric Service Identifier
+
+When feasible, ERCOT shall adhere to the timelines outlined below. However, ERCOT reserves the right to initiate the Mass Transition process as directed by Applicable Legal Authority (ALA) or ERCOT Legal. All efforts shall be made by ERCOT to provide the greatest possible lead time for the notification, ESI ID lists, initial project coordination call and transaction processing.
+
+Refer to Protocol Section 19, Texas Standard Electronic Transaction, for complete transaction names.
+
+Refer to Section 11, Solution to Stacking, for processes and guidelines for Market Participants and ERCOT to handle multiple non-sequential Texas SETs on a single ESI ID.

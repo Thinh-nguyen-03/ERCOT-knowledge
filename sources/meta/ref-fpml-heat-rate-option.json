@@ -1,0 +1,12 @@
+{
+ "id": "ref-fpml-heat-rate-option",
+ "title": "Daily Heat Rate Option confirmation example (FpML 5.6)",
+ "publisher": "FpML / ISDA",
+ "tier": 3,
+ "edition": null,
+ "url": "https://fpml.org/spec/fpml-5-6-3-tr-1/html/confirmation/confirmations/com-ex35-call-option-gas-power-heat-rate-daily.pdf",
+ "retrieved": "2026-11-21",
+ "raw_bytes": 200736,
+ "raw_sha256": "065d5d76ac885b7072a1cc6bafffea7d9b5075d63aeeca08065839786d4137b7",
+ "text_chars": 4144
+}

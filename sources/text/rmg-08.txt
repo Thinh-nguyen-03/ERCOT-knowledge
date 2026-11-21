@@ -1,0 +1,1320 @@
+ERCOT Retail Market Guide
+
+Section 8: Municipally Owned Utilities and Electric Cooperatives
+
+December 1, 2025
+
+8 Municipally Owned Utilities and Electric Cooperatives 8-1
+
+8.1 Municipally Owned Utility and/or Electric Cooperative Transmission and/or Distribution Service Provider Market…………………………………………………………………………………………………8-1
+
+8.2 Municipally Owned Utilities and Electric Cooperatives Tariff Requirements ……..8-3
+
+8.3 Municipally Owned Utilities and Electric Cooperatives Disconnect and Reconnect for Non-Payment Process…………………………………………………………………………………………………………...8-3
+
+8.3.1 Assumptions and Market Processes 8-4
+
+8.3.1.1 Service Order Dispatching 8-4
+
+8.3.1.2 Safety-Nets 8-4
+
+8.3.2 Process Overview 8-5
+
+8.3.2.1 Disconnect for Non-Payment Process Overview 8-5
+
+8.3.2.2 Disconnect for Non-Payment Process Overview When Disconnect for Non-Payment was Initiated by Municipally Owned Utility or Electric Cooperative 8-6
+
+8.3.2.3 Reconnect for Non-Payment Process Overview 8-6
+
+8.3.2.4 Reconnect for Non-Payment Process Overview When Disconnect for Non-Payment was Initiated by Municipally Owned Utility or Electric Cooperative 8-6
+
+8.3.3 Transaction Processing 8-7
+
+8.3.3.1 Timelines for Transaction Delivery 8-7
+
+8.3.3.2 Transaction Validations 8-8
+
+8.3.3.3 Competing Orders 8-9
+
+8.3.3.4 Reconnect for Non-Pay and Disconnect for Non-Pay Processing Order 8-10
+
+8.3.3.5 Disconnection at Premium Disconnect Location 8-11
+
+8.3.3.6 Completed Unexecutable and Rejected Orders 8-11
+
+8.3.3.7 Same Day/Priority or Weekend Non Holiday Reconnect or Disconnect for Non-Payment 8-11
+
+8.3.3.8 Service Order cancellations 8-12
+
+8.3.3.9 Response Transactions 8-12
+
+8.3.4 Field Service Activities 8-13
+
+8.3.4.1 Disconnection Service Orders 8-13
+
+8.3.4.2 Reconnection Service Orders 8-14
+
+8.3.4.3 Requirements for Reconnecting Service 8-15
+
+8.3.4.4 Customer Receipting Issue 8-15
+
+8.3.4.5 Premise Access Issues 8-15
+
+8.3.4.6 Door Hanger Policies 8-16
+
+8.3.4.7 Meter Seal Policies for Disconnection 8-16
+
+8.3.5 Exceptions 8-17
+
+8.3.5.1 Emergency Reconnects 8-17
+
+8.3.5.2 Critical Load/Critical Care 8-17
+
+8.3.5.3 Field Service Exceptions 8-18
+
+8.3.5.4 Weather Moratoriums 8-19
+
+8.3.5.5 Force Majeure Event 8-22
+
+8.3.5.6 Master Metered Premises 8-22
+
+8.3.5.7 Unmetered Service 8-23
+
+8.3.5.8 Multiple Metered Service (not Master Metered) 8-23
+
+8.3.5.9 Meter Tampering Issues 8-23
+
+8.3.5.10 Customer Threatens Municipally Owned Utility or Electric Cooperative Field Service Representative 8-24
+
+8.3.6 Municipally Owned Utility or Electric Cooperative Charges for Reconnect and Disconnect Services 8-25
+
+8.3.6.1 Discretionary Charges 8-25
+
+8.3.6.2 Other Charges 8-26
+
+8.3.7 Emergency System Outage 8-27
+
+8.4 Market Processes Specific to LP&L 8-27
+
+  8.4.1 Safety-Nets 8-27
+
+  8.4.1.1 Purpose 8-27
+
+8.4.1.2 Safety-Net Submission Processes 8-28
+
+8.4.1.3 Move-In/Reconnect Spreadsheet Format 8-28
+
+8.4.1.4 LP&L Safety-Net Response 8-30
+
+8.4.1.5 Transactional Reconciliation 8-31
+
+8.4.2 Standard Historical Usage Request 8-31
+
+8.4.2.1 Overview of the Letter of Authorization for the Request of Historical Usage Information Form 8-31
+
+8.4.3 Other Market Processes 8-32
+
+Municipally Owned Utilities and Electric Cooperatives
+
+8.1 Municipally Owned Utility and/or Electric Cooperative Transmission and/or Distribution Service Provider Market
+
+(1) In the ERCOT Region, there are Transmission and/or Distribution Service Providers (TDSPs) which are categorized as Municipally Owned Utilities (MOUs) and/or Electric Cooperatives (ECs). General information and processing elections for the MOU/ECs can be found in Table 1, MOU/EC General Information and Retail Processing Specifications.
+
+(2) Differences between the MOU/EC TDSP market and the Investor Owned Utility (IOU) TDSP market are identified in their respective tariffs.
+
+(3) For current tariff information, refer to P.U.C. SUBST. R. 25.215, Terms and Conditions of Access by a Competitive Retailer to the Delivery System of a Municipally Owned Utility or Electric Cooperative that has Implemented Customer Choice, for Nueces Electric Cooperative (NEC)/EC or P.U.C. SUBST. R. 25.219, Terms and Conditions of Access by a Competitive Retailer to the Delivery System of a Municipally Owned Utility or Electric Cooperative that Implements Customer Choice after May 1, 2023, for Lubbock Power & Light (LP&L)/MOU and P.U.C. SUBST. R. 25.214(d), Figure: 16, on the Public Utility Commission of Texas (PUCT) website or the TDSP.
+
+(4) Notable differences between the IOU TDSP market and the MOU/EC TDSP market include, but are not limited to the following:
+
+  (a) Billing may be consolidated billing or separate billing (based on Customer Choice) in an MOU/EC TDSP territory versus consolidated billing only by the Competitive Retailer (CR) in an IOU TDSP territory. The MOU/EC TDSP could choose to delegate the consolidated billing to the CR or contract with a third party;
+
+  (b) Differences in who the Customer calls to report an outage or make a service request;
+
+  (c) In an IOU TDSP territory, the PUCT Customer protection rules apply. However, in an MOU/EC territory, the specific MOU/EC utility service rules apply, which in many cases are different from the PUCT Customer protection rules such as the due date of the bill;
+
+  (d) Continuous Service Agreement (CSA) transactions may be processed differently at ERCOT depending on the Retail Processing Specifications of the MOU/EC as indicated in Table 1 below; and
+
+  (e) Allocation of Electric Service Identifiers (ESI IDs) during a Mass Transition may follow different processes based on the Retail Processing Specifications of the MOU/EC as noted in Section 7.11.2, Acquisition and Transfer of Customers from one Retail Electric Provider to Another.
+
+Table 1. MOU/EC General Information and Retail Processing Specifications
+
++-----------------------------------------------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------+
+| MOU/EC                                                    | NEC                                                                                  | LP&L                                                   |
++===========================================================+======================================================================================+========================================================+
+| General Call Center                                       | 361-387-2581                                                                         | 1-866-949-5862 (Retail Electric Providers (REPs) Only) |
+|                                                           |                                                                                      |                                                        |
+|                                                           |                                                                                      | 1-806-775-2509 (Customers)                             |
++-----------------------------------------------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------+
+| Website                                                   | www.nueceselectric.org                                                               | www.lpandl.com                                         |
++-----------------------------------------------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------+
+| Continuous Service Agreement (814_18/814_19)              | Protocol Section(s)                                                                  | Protocol Section(s)                                    |
+|                                                           |                                                                                      |                                                        |
+|                                                           | 15.1.10, Continuous Service Agreement Competitive Retailer Processing in Municipally | 15.1.9, Continuous Service Agreement CR Processing     |
+|                                                           |                                                                                      |                                                        |
+|                                                           | Owned Utility/Electric Cooperative Service Territory                                 | 19.3.1                                                 |
+|                                                           |                                                                                      |                                                        |
+|                                                           | 19.3.1, Defined Texas Standard Electronic Transactions                               | -   Paragraphs (26)(a)-(c)                             |
+|                                                           |                                                                                      |                                                        |
+|                                                           | -   Paragraphs (26)(d)-(e)                                                           | -   Paragraphs (27)(a)-(b)                             |
+|                                                           |                                                                                      |                                                        |
+|                                                           | -   Paragraph (27)(d)                                                                |                                                        |
++-----------------------------------------------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------+
+| Planned or Unplanned Outage Notification (650_04)         | Protocol Section(s)                                                                  | Protocol Section(s)                                    |
+|                                                           |                                                                                      |                                                        |
+|                                                           | 19.3.1                                                                               | 19.3.1                                                 |
+|                                                           |                                                                                      |                                                        |
+|                                                           | -   Paragraph (3)(b)                                                                 | -   Paragraph (3)(a)                                   |
++-----------------------------------------------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------+
+| TDSP Invoice (810_03/810_02)                              | 810_03                                                                               | 810_02                                                 |
+|                                                           |                                                                                      |                                                        |
+|                                                           | Protocol Section(s)                                                                  | Protocol Section(s)                                    |
+|                                                           |                                                                                      |                                                        |
+|                                                           | 19.3.1                                                                               | 19.3.1                                                 |
+|                                                           |                                                                                      |                                                        |
+|                                                           | -   Paragraph (6)                                                                    | -   Paragraph (5)                                      |
++-----------------------------------------------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------+
+| Maintain Customer Information Request (814_PC/814_PD)     | Protocol Section(s)                                                                  | Protocol Section(s)                                    |
+|                                                           |                                                                                      |                                                        |
+|                                                           | 19.3.1                                                                               | 19.3.1                                                 |
+|                                                           |                                                                                      |                                                        |
+|                                                           | -   Paragraph (7)(c)                                                                 | -   Paragraphs (7)(a)-(b)                              |
+|                                                           |                                                                                      |                                                        |
+|                                                           | -   Paragraph (8)                                                                    | -   Paragraph (8)                                      |
++-----------------------------------------------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------+
+| Remittance Advice (820_03/820_02)                         | 820_03                                                                               | 820_02                                                 |
+|                                                           |                                                                                      |                                                        |
+|                                                           | Protocol Section(s)                                                                  | Protocol Section(s)                                    |
+|                                                           |                                                                                      |                                                        |
+|                                                           | 19.3.1                                                                               | 19.3.1                                                 |
+|                                                           |                                                                                      |                                                        |
+|                                                           | -   Paragraph (39)                                                                   | -   Paragraph (38)                                     |
++-----------------------------------------------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------+
+| Invoice or Usage Reject Notification (824)                | Protocol Section(s)                                                                  | Protocol Section(s)                                    |
+|                                                           |                                                                                      |                                                        |
+|                                                           | 19.3.1                                                                               | 19.3.1                                                 |
+|                                                           |                                                                                      |                                                        |
+|                                                           | -   Paragraph (40)(d)                                                                | -   Paragraph (40)(a)                                  |
++-----------------------------------------------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------+
+| Texas Standard Electronic Transaction (TX SET) Guides     |                                                                                      |                                                        |
++-----------------------------------------------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------+
+| Membership ID Segment                                     | Required                                                                             | Not Used                                               |
++-----------------------------------------------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------+
+| Dual or Consolidated Billing Process                      | Required - CR to obtain member’s preference                                          | Not Used                                               |
++-----------------------------------------------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------+
+| Responsible for Maintaining Customer Billing Name/Address | Required                                                                             | No                                                     |
++-----------------------------------------------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------+
+
+8.2 Municipally Owned Utilities and Electric Cooperatives Tariff Requirements 
+
+(1) P.U.C. SUBST. R. 25, Appendix V, Tariff for Competitive Retailer Access of a Municipally Owned Utility or Electric Cooperative, governs the terms and conditions of the Access Tariff of a Municipally Owned Utility (MOU) or Electric Cooperative (EC).
+
+(2) Each MOU and EC is required to register with ERCOT and sign the applicable agreements that apply to the functions it performs in the ERCOT Region, regardless of whether it plans to be a Non-Opt-In Entity (NOIE) or a Retail Electric Provider (REP). Each MOU and EC with an affiliate registered as a Competitive Retailer (CR) in the ERCOT Region must notify ERCOT six months prior to opting into retail competition and the affiliate must register with ERCOT as a REP.
+
+8.3 Municipally Owned Utilities and Electric Cooperatives Disconnect and Reconnect for Non-Payment Process 
+
+(1) The Disconnect for Non-Pay (DNP) and Reconnect for Non-Pay (RNP) process for Municipally Owned Utilities (MOUs) and Electric Cooperatives (ECs) provides Market Participants with market approved guidelines to support disconnect and reconnect transactions and business processes as allowed or prescribed by the MOU/EC Customer protection rules.
+
+(2) The purpose of the DNP and RNP process is to provide Market Participants with a document that defines market processing for DNP and RNP requests and for managing emergency and contingency procedures in support of DNP and RNP activities.
+
+(3) Prior to issuing the 650_01, Service Order Request, for DNP or RNP, certified Competitive Retailers (CRs) shall have successfully completed market certification testing and have received disconnection authority from the Public Utility Commission of Texas (PUCT).
+
+(4) Transactions will be completed according to the Texas Standard Electronic Transaction (TX SET) guidelines.
+
+8.3.1 Assumptions and Market Processes
+
+8.3.1.1 Service Order Dispatching
+
+(1) In order to efficiently manage all types of service requests, field service orders are dispatched in accordance to their respective priority by geographic area.
+
+(2) Below are the field execution priorities associated with MOUs or ECs:
+
+  (a) Priority One:
+
+  (i) Priority and routine move ins;
+
+  (ii) Priority and routine reconnects;
+
+  (iii) Out-of-cycle reads for switches; and
+
+  (iv) Move outs.
+
+  (b) Priority Two:
+
+  (i) Move outs;
+
+  (ii) DNPs;
+
+  (iii) Investigation orders;
+
+  (iv) Re-reads; and
+
+  (v) Maintenance requests.
+
+8.3.1.2 Safety-Nets 
+
+(1) DNP requests received prior to safety-nets will be completed as will the subsequent safety-net requests.
+
+(2) If a safety-net move in has been received and completed for a new CR of Record, but the supporting Electronic Data Interchange (EDI) transaction has not been received, any subsequent DNP or Move-Out Requests received by the MOU/EC will be completed.
+
+(3) Upon notification from the CR of an inadvertent DNP or move out that has been completed by the MOU/EC, the MOU/EC will restore service following the procedures outlined in Section 8.3.5.1, Emergency Reconnects.
+
+(4) Any MOU/EC charges associated with re-energizing the Customer’s Premise will be billed to the CR initiating the safety-net move in. Charges associated with re-energizing a Customer’s Premise while completing an emergency RNP as a result of an inadvertent DNP or move out will be billed to CR of Record. The CR of Record may use the dispute process to remedy resulting billing issues.
+
+8.3.2 Process Overview
+
+8.3.2.1 Disconnect for Non-Payment Process Overview
+
+(1) The CR credit cycle reveals the Electric Service Identifier (ESI ID) population subject to DNP.
+
+(2) The CR performs internal validations prior to issuing DNP requests.
+
+(3) The CR submits the 650_01, Service Order Request, for DNP no later than one day prior to the requested completion date.
+
+(4) MOU/EC receives the 650_01 transaction and performs validations.
+
+  (a) For orders that do not pass validations, a 650_02, Service Order Response, reject response with the appropriate code and reason sent to the CR.
+
+  (b) If the transaction does not pass American National Standards Institute (ANSI) validation, the 997, Functional Acknowledgement, reject is sent.
+
+(5) Upon successfully validating the 650_01 transaction, the MOU/EC creates an internal service order which is then routed and scheduled geographically to the appropriate Field Service Representative (FSR).
+
+  (a) For orders that cannot be completed, the 650_02 transaction, Completed Unexecutable, with the appropriate code and reason sent to the CR.
+
+  (b) For orders that cannot be completed on the requested date due to time constraints in the field, the MOU/EC will pend the order and schedule on the next available Field Operational Day.
+
+(6) MOU/EC completes the order and responds to CR with a 650_02 transaction within one Retail Business Day of completion.
+
+8.3.2.2 Disconnect for Non-Payment Process Overview When Disconnect for Non-Payment was Initiated by Municipally Owned Utility or Electric Cooperative 
+
+(1) The MOU/EC credit cycle reveals ESI ID population subject to DNP.
+
+(2) The MOU/EC submits 650_04, Planned or Unplanned Outage Notification, for DNP within one Retail Business Day of completion in the field.
+
+8.3.2.3 Reconnect for Non-Payment Process Overview
+
+(1) The CR confirms Customer’s satisfactory correction of reasons for DNP.
+
+(2) The CR performs internal validations prior to issuing RNP request.
+
+(3) The CR submits the 650_01, Service Order Request, for RNP according to timelines outlined in the MOU/EC Customer protection rules.
+
+(4) The MOU/EC receives the 650_01 transaction and performs validations.
+
+  (a) For orders that do not pass validations, the 650_02, Service Order Response, reject response with the appropriate code and reason sent to the CR.
+
+  (b) If the transaction does not pass ANSI validation, the 997, Functional Acknowledgement, reject is sent.
+
+(5) Upon successfully validating the 650_01 transaction, the MOU or EC creates an internal service order that is then geographically routed and scheduled to the appropriate FSR to be completed according to the timelines outlined in the MOU/EC Customer protection rules.
+
+  (a) For orders that cannot be completed, the 650_02 transaction, Completed Unexecutable with the appropriate code and reason sent to the CR.
+
+(6) The MOU/EC completes the order and responds to the CR with a 650_02 transaction within one Retail Business Day of completion.
+
+8.3.2.4 Reconnect for Non-Payment Process Overview When Disconnect for Non-Payment was Initiated by Municipally Owned Utility or Electric Cooperative
+
+(1) The MOU/EC confirms Customer’s satisfactory correction of reasons for DNP.
+
+(2) The MOU/EC releases RNP, which is either scheduled to be executed by their Advanced Metering System (AMS) or routed and scheduled geographically to the appropriate FSR according to the timelines outlined in the MOU/EC Customer protection rules.
+
+(3) The MOU/EC submits a 650_04, Planned or Unplanned Outage Notification, for RNP within one Retail Business Day of completion in the field.
+
+8.3.3 Transaction Processing
+
+8.3.3.1 Timelines for Transaction Delivery
+
+(1) Timelines for receipt of DNP and RNP 650_01, Service Order Requests:
+
+  (a) For DNP requests to be scheduled on the requested date, transactions must be received by MOU/EC according to the timelines listed in Table 2, Timelines for Receipt of DNP 650_01 Service Order Requests, below. Any valid TX SET approved EDI 650_01 transaction DNP requests received according to the timelines below will be accepted and scheduled for the requested date.
+
+Table 2. Timelines for Receipt of DNP 650_01 Service Order Requests
+
++----------------------+-----------------------------------+--------------------------------+
+|                      | Nueces Electric Cooperative (NEC) | Lubbock Power & Light (LP&L)   |
++======================+===================================+================================+
+| At Meter Future Date | 1700 on date preceding            | 2359 on date preceding         |
+|                      |                                   |                                |
+| (Standard Meter)     |                                   |                                |
++----------------------+-----------------------------------+--------------------------------+
+| At Meter Future Date | 1200 on date preceding            | 1700 - two Business Days prior |
+|                      |                                   |                                |
+| (Non-Standard Meter) |                                   |                                |
++----------------------+-----------------------------------+--------------------------------+
+| At Meter Same Day    | 0900 on same day                  | 1500 on requested date         |
+|                      |                                   |                                |
+| (Standard Meter)     |                                   |                                |
++----------------------+-----------------------------------+--------------------------------+
+| At Meter Same Day    | 1200 on date preceding            | N/A                            |
+|                      |                                   |                                |
+| (Non-Standard Meter) |                                   |                                |
++----------------------+-----------------------------------+--------------------------------+
+| Premium Location     | 1200 on date preceding            | 1700 - two Business Days prior |
++----------------------+-----------------------------------+--------------------------------+
+
+  (b) For RNP requests to be scheduled on the requested date, transactions must be received by MOU/EC according to the timelines listed in Table 3, Timelines for Receipt of RNP 650_01 Service Order Requests, below. Any valid TX SET-approved EDI 650_01 transaction RNP requests received according to the timelines below will be accepted and scheduled for the requested date.
+
+  Table 3. Timelines for Receipt of RNP 650_01 Service Order Requests
+
++-----------------------------+-----------------------------------------------------+------------------------+
+|                             | NEC                                                 | LP&L                   |
++=============================+=====================================================+========================+
+| At Meter                    | Only if NEC’s past due balance is also paid in full | On date requested      |
+|                             |                                                     |                        |
+| (Standard Meter)            |                                                     |                        |
++-----------------------------+-----------------------------------------------------+------------------------+
+| At Meter Standard Reconnect | Only if NEC’s past due balance is also paid in full | 1400 on requested date |
+|                             |                                                     |                        |
+| (Non-Standard Meter)        |                                                     |                        |
++-----------------------------+-----------------------------------------------------+------------------------+
+| At Meter Same-Day Reconnect | Only if NEC’s past due balance is also paid in full | 1700 on requested date |
+|                             |                                                     |                        |
+| (Non-Standard Meter)        |                                                     |                        |
++-----------------------------+-----------------------------------------------------+------------------------+
+| Premium Location            | Only if NEC’s past due balance is also paid in full | 1400 on requested date |
+|                             |                                                     |                        |
+| Standard Reconnect          |                                                     |                        |
++-----------------------------+-----------------------------------------------------+------------------------+
+| Premium Location            | Only if NEC’s past due balance is also paid in full | 1700 on requested date |
+|                             |                                                     |                        |
+| Priority Reconnect          |                                                     |                        |
++-----------------------------+-----------------------------------------------------+------------------------+
+
+8.3.3.2 Transaction Validations
+
+(1) CRs shall perform the following validations prior to initiating the 650_01, Service Order Request, for DNP:
+
+(a) Verify that they are still the CR of Record;
+
+(b) Verify that a Pending DNP request or Move-Out Request does not exist to prevent the 650_01 transaction from being rejected; and
+
+(c) Verify the critical care status of residential Customers prior to issuing initial DNP request.
+
+(2) The MOU/EC may perform the following validations upon receipt of 650_01 transaction for a DNP or RNP request:
+
+(a) Verify that the CR is certified for DNP transaction processing;
+
+(b) Verify that the CR submitting the DNP request is the CR of Record;
+
+(c) Perform ANSI validations on the 650_01 transaction;
+
+(d) Perform TX SET validations on the 650_01 transaction;
+
+(e) Review meter indicators for ESI ID for critical Load, critical care, and master metered Premise;
+
+(f) Verify if a DNP request is a duplicate;
+
+(g) Verify if a RNP request is a duplicate;
+
+(h) Verify if a move in or switch has been scheduled on the requested date;
+
+(i) Verify if a move out has been received from the requesting CR;
+
+(j) Verify if the requesting CR is available for RNP the following day if requested date for DNP is Friday;
+
+(k) Identify if RNP request is a same day reconnect; and
+
+(l) Verify if a weather moratorium is in effect.
+
+(3) The MOU/ECs shall perform the validations listed below prior to issuing a service order to the FSR for a DNP request. If the MOU/EC initiated the DNP, the 650_04, Planned or Unplanned Outage Notification, shall be forwarded to the CR after the completion of the DNP request.
+
+(a) Verify that a move in for a new Customer does not exist; and
+
+(b) Verify that a critical care status does not exist.
+
+8.3.3.3 Competing Orders
+
+(1) The MOU/EC will Complete Unexecutable a DNP request when the requested date is greater than or equal to the scheduled date of a Pending switch or move in. When a DNP request is received with a requested date that is prior to the scheduled date of a switch or move in, the DNP requests will be scheduled. DNP requests carried over to the next Retail Business Day may not be worked due to competing order and will be Complete Unexecutable. See Table 4, Competing Orders – Move In, below.
+
+  (a) Move in - In order to re-energize a Premise that has been disconnected, the new CR of Record’s move in will energize the Customer’s Premise and will be subject to applicable fees per MOU/EC tariffs. A move in submitted on a Premise that has been de-energized for non-payment may still require a permit for completion in certain MOU’s/EC’s service territories.
+
+Table 4. Competing Orders - Move In
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  MOU/EC       650_01 DNP Requested Date One Day Prior to Move in or Switch   650_01 DNP Requested Date Greater Than or Equal to Move in or Switch   Fee
+  ------------ -------------------------------------------------------------- ---------------------------------------------------------------------- ---------------
+  NEC          Will work 650_01                                               Reject 650_01                                                          Reconnect fee
+
+  LP&L         Will work 650_01                                               Reject 650_01                                                          Reconnect fee
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  (b) Self-selected switch - If the new CR of Record has submitted a self-selected switch, the MOU/EC will re-energize the Premise and bill applicable charges to the new CR of Record. See Table 5, Competing Orders – Self-selected Switch, below.
+
+  (i) If an MOU/EC initiated the 650_04, Planned or Unplanned Outage Notification, the Premise will not be reconnected until the MOU/EC confirms Customer’s satisfactory correction of reasons for DNP request. Self-selected switch requests for a Premise that has been disconnected for non-payment by the MOU/EC will be rejected to the CR with an 814_04, Enrollment Notification Response, with the A13 reject code and a reason description of “Disconnected for Non-Pay.”
+
+Table 5. Competing Orders - Self-selected Switch
+
+  ------------------------------------------------------------------------
+  MOU/EC              MOU/EC Action           MOU/EC Fee
+  ------------------- ----------------------- ----------------------------
+  NEC                 Re-energize Premise     Reconnect charge
+
+  LP&L                Re-energize Premise     Reconnect charge
+  ------------------------------------------------------------------------
+
+  (c) Standard switch - If the new CR of Record has submitted a standard switch at a Premise that has been previously de-energized, the MOU/EC will perform the actions identified in Table 6, Competing Orders – Standard Switch, below.
+
+  (i) If an MOU/EC initiated the 650_04 transaction, the Premise will not be reconnected until the MOU/EC confirms Customer’s satisfactory correction of reasons for DNP request. Standard switch requests for a Premise that has been disconnected for non-payment by the MOU/EC will be rejected to the CR with an 814_04 transaction, with the A13 reject code and a reason description of “Disconnected for Non-Pay.”
+
+Table 6. Competing Orders - Standard Switch
+
+  -------------------------------------------------------------------------
+  MOU/EC       MOU/EC Action          Energize              Fee
+  ------------ ---------------------- --------------------- ---------------
+  NEC          Perform meter read     Yes                   Reconnect fee
+
+  LP&L         Perform meter read     Yes                   Reconnect fee
+  -------------------------------------------------------------------------
+
+8.3.3.4 Reconnect for Non-Pay and Disconnect for Non-Pay Processing Order
+
+(1) If an RNP request is received before a DNP request, the MOU/EC will reject the RNP request using the timelines below with reason code “RWD.” See Table 7, Transaction Processing Order, below. Any DNP requests received after an associated RNP request has been rejected will be worked by the MOU/EC. If an inadvertent DNP occurs, then emergency RNP provisions will be followed.
+
+Table 7. Transaction Processing Order
+
+  ---------------------------------------------------------------------------------------------
+  MOU/EC         MOU/EC Action                                     Code
+  -------------- ------------------------------------------------- ----------------------------
+  NEC            Reject 650_01, Service Order Request, reconnect   RWD
+
+  LP&L           Hold for two hours, then reject 650_01 RNP        RWD
+  ---------------------------------------------------------------------------------------------
+
+8.3.3.5 Disconnection at Premium Disconnect Location
+
+(1) When necessary, service orders without a premium disconnect location indicator (i.e. pole, substation) that cannot be completed by the FSR at the meter may be referred within one Retail Business Day to a specialized field group that will disconnect service at the pole or transformer. Service orders with premium disconnect location indicator will be immediately referred to specialized field personnel.
+
+(2) When service is disconnected at premium disconnect location, the MOU/EC will notify the CR on the 650_02, Service Order Response, with a code of “O” for “Disconnected Other than at Meter.” For any DNP request performed, the appropriate MOU/EC tariff charges will be applied. When service cannot be disconnected at a premium disconnect location, the MOU/EC will respond with a 650_02 transaction Complete Unexecutable and the CR will need to contact the MOU/EC for special consideration.
+
+8.3.3.6 Completed Unexecutable and Rejected Orders
+
+(1) The MOU/EC will issue the 650_02, Service Order Response, within one Retail Business Day for the rejected 650_01, Service Order Request, or service orders that cannot be completed in the field.
+
+(2) No charges will be applied to service orders that are rejected.
+
+(3) No charges will be applied to service orders that are Completed Unexecutable prior to dispatch.
+
+8.3.3.7 Same Day/Priority or Weekend Non Holiday Reconnect or Disconnect for Non-Payment
+
+(1) When issuing a 650_01, Service Order Request, for RNP requests, CRs may request priority service where available. The TX SET codes indicated in Table 8, MOU/EC Priority Codes, should be used to indicate priority status on RNP requests.
+
+(2) Any service order received by an MOU/EC with a priority code other than those listed below in Table 8 will be processed as a standard service order.
+
+(3) If a CR issues a same day RNP requests after issuing a standard RNP request and the standard RNP request has not been completed, the same day request will trump the routine RNP request provided that a follow up call is placed to the MOU/EC dispatch.
+
+Table 8. MOU/EC Priority Codes
+
+  -----------------------------------------------------------------------------------------------------------------------------
+  MOU/EC      Same Day Reconnect   Outside Normal Business Hours   Holiday          Prepay for ESI ID’s Provisioned AMS Meter
+  ----------- -------------------- ------------------------------- ---------------- -------------------------------------------
+  NEC         N/A                  02                              02               N/A
+
+  LP&L        02                   03                              04               05
+  -----------------------------------------------------------------------------------------------------------------------------
+
+8.3.3.8 Service Order cancellations
+
+(1) In order to cancel a DNP request that has not been completed, a CR must send a 650_01, Service Order Request, RNP request referencing the BGN02 of the DNP request to the MOU/EC. No charges will apply if the RNP request is received prior to dispatching the DNP request.
+
+(2) In order to cancel a RNP request because the CR may have sent the RNP request in error or for the wrong ESI ID, a CR must send a 650_01 transaction “C” Cancel, referencing the BGN02 of the initiating 650_01 transaction requesting reconnection.
+
+(3) Service requests that are dispatched and then cancelled by the CR prior to completion will be Completed Unexecutable and be subject to a cancellation charge by the MOU/EC. Refer to the MOU/EC tariff for applicable charges.
+
+8.3.3.9 Response Transactions
+
+(1) The 650_02, Service Order Response, will be issued by the MOU/EC for every 650_01, Service Order Request, within one Retail Business Day upon the following:
+
+  (a) Rejection of service order after performing initial transaction validations;
+
+  (b) Completion of the requested field service activity;
+
+  (c) Determination by FSR of unexecutable status; and
+
+  (d) Cancellations of a requested RNP request.
+
+(2) The MOU/EC will populate the field completion date and time in the 650_02 transaction for successfully completed service order requests.
+
+(3) Due to the exceptional conditions outlined in Section 8.3.5, Exceptions, CRs will need to follow up with the MOU/EC if the 650_02 transaction for a DNP request is not received within three to five Retail Business Days following the requested disconnect date. Inquiries should be submitted via e-mail as indicated in Table 9, MOU/EC Contact for 650_02s not Received.
+
+Table 9. MOU/EC Contact for 650_02s not Received
+
+  -----------------------------------------------------------------------
+  MOU/EC              E-mail Address
+  ------------------- ---------------------------------------------------
+  NEC                 necediops@nueceselectric.org
+
+  LP&L                MarketOps@mylubbock.us
+  -----------------------------------------------------------------------
+
+8.3.4 Field Service Activities
+
+8.3.4.1 Disconnection Service Orders
+
+(1) Table 10, Field Service Hours for DNP Requests, below outlines the availability of FSRs for performing DNP requests.
+
+(2) Disconnect orders requesting dates beyond the next Field Operational Day will be scheduled and performed by the MOU/EC according to availability of FSRs on the requested date.
+
+(3) The MOU/EC will not disconnect a Customer’s electric service for non-payment on a day preceding a weekend or holiday or after-hours unless:
+
+  (a) LP&L disconnects on a day preceding a weekend if the CR has personnel available to take payments, make payment arrangements with the Customer, and request reconnection of service as noted on the 650_01, Service Order Request, Texas SET transaction; otherwise
+
+(b) LP&L will not disconnect for non-payment on a day preceding a holiday,
+including Fridays prior to a Monday holiday.
+
+Table 10. Field Service Hours for DNP Requests
+
+  ----------------------------------------------------------------------------------------
+  MOU/EC     DNP Start Time   Standard     Same Day        Weekend         Holiday
+  ---------- ---------------- ------------ --------------- --------------- ---------------
+  NEC        0800             1600         Not available   Not available   Not available
+
+  LP&L       0700             1700         1700            Not available   Not available
+  ----------------------------------------------------------------------------------------
+
+8.3.4.1.1 Disconnection Order Overflow
+
+If a DNP request cannot be completed on the requested day and the next available Field Operational Day immediately precedes a weekend or holiday, the MOU/EC will pend the order and reschedule the DNP request on the next available Field Operational Day.
+
+8.3.4.2 Reconnection Service Orders
+
+(1) Table 11, CR Timelines for Submitting RNP Requests, and Table 12, Field Service Hours for RNP Requests, below, outline the availability of FSR for performing RNP requests:
+
+  (a) Standard RNP request - per the MOU/EC Customer protection rules, any RNP request, including those for a premium disconnect location (i.e. pole, substation), issued by a CR must be completed by the MOU/EC no later than the next Field Operational Day.
+
+Table 11. CR Timelines for Submitting RNP Requests
+
+  ----------------------------------------------------------------------------------------------------------
+  Payments Made on a Retail Business Day:     RNP Request Must be Sent by:
+  ------------------------------------------- --------------------------------------------------------------
+  Between 0800 and 1200                       1400 that Retail Business Day
+
+  Between 1200 and 1700                       1900 that Retail Business Day
+
+  Between 1700 and 1900                       2100 that Retail Business Day
+
+  Between 1900 and 0800                       1400 the next Retail Business Day
+
+  Payments made on a weekend day or holiday   1400 the first Retail Business Day after the payment is made
+  ----------------------------------------------------------------------------------------------------------
+
+  (b) For emergency RNP requests, refer to Section 8.3.5.1, Emergency Reconnects, for the 24 hours per day, seven days per week emergency reconnection process and appropriate contacts.
+
+  (c) The MOU/EC offers after-hours RNP for an additional charge. The RNP request should be used when submitting a RNP request to be worked outside normal Business Hours. For a CR to initiate an after-hours RNP request, a 650_01, Service Order Request, should be sent, as well as contacting the MOU/EC’s 24 hours per day, seven days per week support center according to Table 12, Field Service Hours for RNP Requests, below. See Section 8.3.5.1 for contact information.
+
+(d) Currently, the CR's contact with the MOU/EC support center is the only trigger that will initiate the after-hours RNP request. The MOU/EC also requires any RNP request to be supported by a phone call as well on RNP requests submitted after 1400 for NEC and 1500 for LP&L.
+
+Table 12. Field Service Hours for RNP Requests
+
++-----------+---------------------+----------------------------------------------------------------------------------------------------+------------------------+
+| MOU/EC    | Standard and Friday | Priority, Weekend, Holiday and After-Hours                                                         | Emergency              |
++===========+=====================+====================================================================================================+========================+
+| NEC       | 1630                | 24 hours per day, seven days per week Priority Code Required and a phone call with CR pass code    | See Section 8.3.5.1.   |
+|           |                     |                                                                                                    |                        |
+|           |                     |                                                                                                    | Priority Code Required |
++-----------+---------------------+----------------------------------------------------------------------------------------------------+------------------------+
+| LP&L      | 1700                | 24 hours per day, seven days per week Priority Code Required and an email to Colu-USO@mylubbock.us | See Section 8.3.5.1.   |
+|           |                     |                                                                                                    |                        |
+|           |                     |                                                                                                    | Priority Code Required |
++-----------+---------------------+----------------------------------------------------------------------------------------------------+------------------------+
+
+8.3.4.3 Requirements for Reconnecting Service
+
+(1) Safe access to the meter or premium disconnect location is required to restore service. Evidence of tampering or damage to the meter equipment may result in delayed or Completed Unexecutable orders when reconnecting service.
+
+(2) The MOU/EC will require inside or outside breakers to be off when performing an RNP request. CRs are advised to inform Customers whose service has been disconnected for non-pay to take appropriate safety measures such as placing all breakers in the “OFF” position and to disconnect any extension cords from a neighboring facility.
+
+8.3.4.4 Customer Receipting Issue
+
+(1) The MOU/EC’s FSR will wait according to Table 13, Receipting Issue Process, below for the Customer to contact the CR in regards to payment for the Customer to call the CR and have the CR advise the MOU/EC’s office if receipt is valid and to cancel the DNP request. Cancellation and trip fees will apply.
+
+Table 13. Receipting Issue Process
+
+  ------------------------------------------------------------------------------
+  MOU/EC                  Wait Period                 Fee for DNP
+  ----------------------- --------------------------- --------------------------
+  NEC                     Wait 15 Mins and Validate   Cancellation & Trip Fees
+
+  LP&L                    None                        Disconnect Fee
+  ------------------------------------------------------------------------------
+
+8.3.4.5 Premise Access Issues
+
+(1) The MOU/EC will make every reasonable attempt to gain access to the Customer’s Premise to complete the service order. These measures may include notifying law enforcement agencies to request assistance or referring the service order to specialized field personnel for DNP at a premium disconnect location. Based upon determinations made in the field at the time the FSR is attempting to DNP or RNP, these measures are applied by the MOU/EC on a case by case basis. The CR may also be requested to assist and participate with this request, as a means to successfully completing the service order.
+
+(2) If access is denied, no additional denial of access fees are applied to a DNP or RNP request. These types of orders will be Completed Unexecutable and the MOU/EC will charge the CR a disconnect or reconnect charge based on initiating service order request. The CR will be charged a routine dispatch fee for every time the FSR attempts to complete the service order that was initiated by the CR.
+
+8.3.4.6 Door Hanger Policies
+
+(1) MOU/ECs will offer door hangers as indicated in Table 14, Door Hanger Use by MOU/EC, below.
+
+Table 14. Door Hanger Use by MOU/EC
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  MOU/EC                  Door Hanger Use
+  ----------------------- ----------------------------------------------------------------------------------------------------
+  NEC                     Does not provide door hangers.
+
+  LP&L                    Yes, door hangers used for No Retail Electric Provider (REP) of Record, Access Issues & Tampering.
+  ----------------------------------------------------------------------------------------------------------------------------
+
+8.3.4.7 Meter Seal Policies for Disconnection
+
+(1) MOU/ECs will tag meters as indicated in Table 15, Meter Seal Use by MOU/EC, below.
+
+Table 15. Meter Seal Use by MOU/EC
+
++-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| MOU/EC                | Meter Seal Use                                                                                                                             |
++=======================+============================================================================================================================================+
+| NEC                   | No meter seal used. Meters will be removed in unsafe conditions or if tampering occurs.                                                    |
++-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| LP&L                  | Meter seals will be used if FSR responds to perform work at the meter. Meters will be removed in unsafe conditions or if tampering occurs. |
+|                       |                                                                                                                                            |
+|                       | Red – DNP and Tampering                                                                                                                    |
+|                       | Yellow – Move out                                                                                                                          |
++-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+
+8.3.5 Exceptions
+
+8.3.5.1 Emergency Reconnects
+
+(1) There may be times when a Customer has been disconnected for non-payment in error. For completed DNP request that result in a life threatening situation, PUCT request or are completed inadvertently, CRs will need to contact the MOU/EC to arrange for an emergency RNP and identify the reason for the emergency RNP request. Life threatening situations should be immediately reported to the MOU/EC 24 hours per day, seven days per week support center in order to expedite the RNP request.
+
+(2) After initiating an emergency RNP request with the MOU/EC’s 24 hours per day, seven days per week support center, CRs should submit a follow up e-mail, attaching the completed Section 9, Appendices, Appendix C2, Emergency Reconnect Request Data Requirements, spreadsheet to the MOU/EC’s e-mail address indicated in Table 16, Contact Information for Emergency RNP Requests, below.
+
+Table 16. Contact Information for Emergency RNP Requests
+
++--------+---------------------------------------------------------------------------------------------+----------------------------------------------+-----------------------------------------------------+
+| MOU/EC | Contact Information for Emergency RNP Requests                                              | E-mail Address                               | Require 650_01, Service Order Request, to Reconnect |
++========+=============================================================================================+==============================================+=====================================================+
+| NEC    | 361-387-2581 – 24 hours per day, seven days per week support center, CR pass code required. | dnp@nueceselectric.org                       | Yes, RC001                                          |
++--------+---------------------------------------------------------------------------------------------+----------------------------------------------+-----------------------------------------------------+
+| LP&L   | During Business Hours                                                                       | During Business Hours MarketOps@mylubbock.us | Yes, RC001                                          |
+|        |                                                                                             |                                              |                                                     |
+|        | 866-949-5862                                                                                | After Business Hours Colu-USO@mylubbock.us   |                                                     |
+|        |                                                                                             |                                              |                                                     |
+|        | After Business Hours                                                                        |                                              |                                                     |
+|        |                                                                                             |                                              |                                                     |
+|        | 806-775-2509 – Dispatch Office                                                              |                                              |                                                     |
++--------+---------------------------------------------------------------------------------------------+----------------------------------------------+-----------------------------------------------------+
+
+8.3.5.2 Critical Load/Critical Care
+
+(1) In the interest of public safety, DNP requests for non-residential Customers that have been identified by the MOU/EC as critical or critical Load will be either rejected with an A13 code with remarks that will reflect life support/critical care or Completed Unexecutable by the MOU/EC with the appropriate TX SET reason code.
+
+(2) In the event that a life threatening situation is discovered or the FSR determines that the Premise qualifies as a critical Load although currently not indicated as such, the DNP request will be Completed Unexecutable with the appropriate TX SET reason code. There will be no charges billed to the CR for service orders Completed Unexecutable.
+
+(3) Upon discovery of red lights or equipment associated with supporting air traffic control or other associated Federal Aviation Administration (FAA) activities, FSR will Complete Unexecutable the DNP request. In the MOU/EC territory, CRs requesting DNP for FAA related Premises must contact the MOU/EC to arrange for disconnection. To complete DNP request for critical care Premise, CRs will need to contact the MOU/EC according to Table 17, Contacts to Complete DNP for FAA Critical Care Premise, below.
+
+  Table 17. Contacts to Complete DNP for FAA Critical Care Premise
+
++----------+-----------------------------------------------------------+
+| NEC      | Contact the CR Relations Manager                          |
++==========+===========================================================+
+| LP&L     | Email LPLCustomerCare@mylubbock.us                        |
+|          |                                                           |
+|          | Use email subject:                                        |
+|          |                                                           |
+|          | Market – DNP Critical Designation                         |
++----------+-----------------------------------------------------------+
+
+(4) DNP requests received by the MOU/EC for residential Customers that the MOU/EC has identified as chronic or critical care will be handled according to Table 18, Contacts to Complete DNP for Residential Chronic Condition/Critical Care Premise, below.
+
+  Table 18. Contacts to Complete DNP for Residential Chronic Condition/Critical Care Premise
+
++----------+---------------------------------------------+---------------------------------------------+
+|          | Critical Care                               | Chronic Condition                           |
++==========+=============================================+=============================================+
+| NEC      | Completed Unexecutable with the             | Completed Unexecutable with the             |
+|          |                                             |                                             |
+|          | appropriate TX SET reason code              | appropriate TX SET reason code              |
++----------+---------------------------------------------+---------------------------------------------+
+| LP&L     | Five Business Days prior to CR sending DNP: | Five Business Days prior to CR sending DNP: |
+|          |                                             |                                             |
+|          | Email:                                      | Email:                                      |
+|          |                                             |                                             |
+|          | LPLCustomerCare@mylubbock.us                | LPLCustomerCare@mylubbock.us                |
+|          |                                             |                                             |
+|          | Use email subject:                          | Use email subject:                          |
+|          |                                             |                                             |
+|          | DNP Critical Designation                    | DNP Critical Designation                    |
++----------+---------------------------------------------+---------------------------------------------+
+
+8.3.5.3 Field Service Exceptions
+
+(1) In the event that a life threatening or hazardous situation is discovered or the FSR determines that the Premise qualifies as either a critical Load or critical care although currently not indicated as such, the DNP request will be Completed Unexecutable with the appropriate TX SET reason code.
+
+(2) MOU/EC will process these types of field exceptions as follows:
+
+  (a) MOU/EC shall not suspend or disconnect a retail Customer when such disconnection will cause a dangerous or life-threatening condition on that retail Customer’s Premise, without prior notice of reasonable length such that retail Customer can ameliorate the condition. The retail Customer is responsible for notifying its designated CR if DNP to its facility will result in such a condition.
+
+  (b) Per NEC Customer Protection Rule:
+
+  If, in the normal performance of its duties, NEC obtains information that a member scheduled for disconnection may qualify for delay of disconnection pursuant to this subsection, and NEC reasonably believes that the information may be unknown to the CR, NEC shall delay the disconnection and promptly communicate the information to the CR. NEC shall disconnect such customer if it subsequently receives a confirmation of the disconnect notice from the CR. Nothing herein should be interpreted as requiring NEC to assess or to inquire as to the member’s status before performing a disconnection, or to provide prior notice of the disconnection, when not otherwise required. NEC will also provide documentation to member to register and/or renew critical care status.
+
+  (c) LP&L shall not suspend or disconnect a retail Customer when such disconnection
+  will cause a dangerous or life-threatening condition on that retail Customer’s
+  Premise, without prior notice of reasonable length such that retail Customer can
+  ameliorate the condition. The retail Customer is responsible for notifying its
+  designated CR if DNP to its facility will result in such a condition. For additional
+  rules and processes please refer to the Customer Protection Rules.
+
+8.3.5.4 Weather Moratoriums
+
+(1) All Market Participants should monitor the National Weather Service’s IDSS Forecast Points page for the conditions in Table 19, Extreme Weather Emergency Due to Cold, and Table 20, Extreme Weather Emergency Due to Heat, below that would establish a weather moratorium. A weather moratorium may be invoked in a service territory at any time during the day when one of the following conditions exists in a county as outlined in the MOU/EC Customer protection rule.
+
+Table 19. Extreme Weather Emergency Due to Cold
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  The previous day's highest temperature did not exceed 32°F and the predicted temperature for the next 24 hours is at or below 32°F. (Both conditions must be met before disconnection activity is suspended in a service territory).   Saturday   Sunday   Monday          Tuesday         Wednesday    Thursday     Friday
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------- -------- --------------- --------------- ------------ ------------ ---------------
+  Example I                                                                                                                                                                                                                              28°F       28°F     32°F            34°F            34°F         32°F         32°F
+
+                                                                                                                                                                                                                                                             No Disconnect   Disconnect      Disconnect   Disconnect   No Disconnect
+
+  Example II                                                                                                                                                                                                                             28°F       28°F     32°F            32°F            34°F         32°F         45°F
+
+                                                                                                                                                                                                                                                             No Disconnect   No Disconnect   Disconnect   Disconnect   Disconnect
+
+  Example III                                                                                                                                                                                                                            28°F       28°F     32°F            30°F            34°F         32°F         25°F
+
+                                                                                                                                                                                                                                                             No Disconnect   No Disconnect   Disconnect   Disconnect   No Disconnect
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Table 20. Extreme Weather Emergency Due to Heat
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  The National Weather Service issues a heat advisory for that day or on any one of the preceding two calendar days.   Saturday                  Sunday                    Monday                    Tuesday            Wednesday                 Thursday           Friday
+  -------------------------------------------------------------------------------------------------------------------- ------------------------- ------------------------- ------------------------- ------------------ ------------------------- ------------------ -------------------------
+  Example I                                                                                                            Heat Advisory in Effect   Heat Advisory in Effect   Heat Advisory in Effect   No Heat Advisory   No Heat Advisory          No Heat Advisory   Heat Advisory in Effect
+
+                                                                                                                                                                           No Disconnect             No Disconnect      No Disconnect             Disconnect         No Disconnect
+
+  Example II                                                                                                           Heat Advisory in Effect   No Heat Advisory          No Heat Advisory          No Heat Advisory   Heat Advisory in Effect   No Heat Advisory   No Heat Advisory
+
+                                                                                                                                                                           No Disconnect             Disconnect         No Disconnect             No Disconnect      No Disconnect
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+(2) Disconnection Activity During Extreme Weather
+
+  (a) In the event that one of the above conditions exists in an MOU/EC’s service territory, the PUCT and CRs will be notified via e-mail or Listserv that a weather moratorium has been invoked and that DNP activity has been suspended as indicated in Table 21, MOU/EC Disconnection Activity During Weather Moratorium.
+
+  (b) CRs will need to provide their company contact to their CR relations manager at each MOU/EC in order to receive the weather moratorium notifications.
+
+  (c) For the duration of the weather moratorium, CRs shall not issue DNP request for affected areas. DNP requests issued for Premises in counties or service territories that are experiencing a weather moratorium will be processed as indicated in Table 16 below.
+
+  (d) DNP requests that are Pending completion by the MOU/EC at the time a weather moratorium is established will be processed as indicated in Table 21 below.
+
+  (e) DNP requests that are Completed Unexecutable by the MOU/EC during a weather moratorium should be resubmitted by the CR at the time the weather moratorium is lifted.
+
+  (f) In the event of a PUCT mandated weather moratorium for an extended length of time, seven days or more, the CR will cancel all Pending DNP requests with the 650_01, Service Order Request, reconnect requests until the PUCT has declared that the weather moratorium has been lifted. This would prevent any outstanding and/or Pending DNP requests from being completed after the weather moratorium is lifted where Customers may have made payments during that time period, also the MOU/EC would now be working with and scheduling more up to date DNP transactions.
+
+(3) Reconnection Activity During Extreme Weather
+
+  (a) All types of RNP request will be processed by the MOU/EC during a weather moratorium.
+
+  (b) RNP requests received for Pending DNP requests will be processed in order to cancel the DNP request. RNP requests received for DNP completed prior to an extreme weather event are processed and dispatched according to applicable timeframes during a weather moratorium.
+
+Table 21. MOU/EC Disconnection Activity During Weather Moratorium
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  MOU/EC        MOU/EC E-Mail Notification - Disconnection Activity Suspended Due to Weather Moratorium   MOU/EC Processing of New DNP Requests Issued During Weather Moratorium   MOU/EC Processing of Pending DNP Requests During Weather Moratorium
+  ------------- ----------------------------------------------------------------------------------------- ------------------------------------------------------------------------ ---------------------------------------------------------------------
+  NEC           By service territory.                                                                     Completed Unexecutable                                                   Completed Unexecutable
+
+  LP&L          By county                                                                                 Rejected                                                                 Completed Unexecutable
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8.3.5.5 Force Majeure Event
+
+(1) During a Force Majeure Event, the MOU/EC will process service requests as indicated in Table 22, MOU/EC Activity During Force Majeure Event.
+
+(2) Once a Force Majeure Event has concluded and the MOU/EC has re-established routine operations, CRs should submit any service requests for ESI IDs that still qualify for DNP or RNP.
+
+(3) The MOU/EC will notify the market of the establishment and conclusion of a Force Majeure Event via their CR relations or account management teams.
+
+Table 22. MOU/EC Activity During Force Majeure Event
+
+  -------------------------------------------------------------------------------------------------------------------------------------------
+  MOU/EC        MOU/EC Processing of RNP Requests During Force Majeure Event   MOU/EC Processing of DNP Requests During Force Majeure Event
+  ------------- -------------------------------------------------------------- --------------------------------------------------------------
+  NEC           Completed Unexecutable                                         Completed Unexecutable
+
+  LP&L          Completed Unexecutable                                         Completed Unexecutable
+  -------------------------------------------------------------------------------------------------------------------------------------------
+
+8.3.5.6 Master Metered Premises
+
+(1) Prior to issuing a DNP request for a master metered Premise, the CR or the MOU/EC initiating the DNP request must fulfill the tenant notification requirements outlined in the MOU/EC Customer protection rule.
+
+(2) DNP requests received for a master metered Premise will be Completed Unexecutable by the MOU/EC. The requesting CR will need to contact the MOU/EC to coordinate the DNP request of the master metered Premise as indicated in Table 23, DNP/RNP Request for Mastered Metered Premises and Unmetered Services, below mail to:
+
+Table 23. DNP/RNP Request for Mastered Metered Premises and Unmetered Services
+
+  -----------------------------------------------------------------------
+  MOU/EC            MOU/EC Contact to Coordinate DNP Request
+  ----------------- -----------------------------------------------------
+  NEC               dnp@nueceselectric.org
+
+  LP&L              MarketOps@mylubbock.us
+  -----------------------------------------------------------------------
+
+8.3.5.7 Unmetered Service
+
+(1) An unmetered service that is not a critical load Premise or that does not present a hazardous condition if disconnected will be subject to the same processing as metered services for DNP and RNP requests.
+
+(2) For all other unmetered services, DNP requests will be Completed Unexecutable upon receipt or following field investigation. The requesting CR will need to contact the MOU/EC to coordinate the DNP request as indicated in Table 23, DNP/RNP Request for Mastered Metered Premises and Unmetered Services, above.
+
+8.3.5.8 Multiple Metered Service (not Master Metered)
+
+(1) For MOU/ECs that have multiple meters associated with an ESI ID, any 650_01, Service Order Request, whether for DNP or RNP, will be executed for all meters associated with that Premise. CRs will need to submit the 650_01 transactions for multiple meters as indicated in Table 24, Multiple Metered Service, below.
+
+Table 24. Multiple Metered Service
+
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  MOU/EC     650_01 Submittal by CR for Multiple Meters                                    MOU/EC Discretionary Charges Billed
+  ---------- ----------------------------------------------------------------------------- -----------------------------------------------------------------------------
+  NEC        N/A, no multiple metered Premises in service territory as of 10/1/2023.       N/A, no multiple metered Premises in service territory as of 10/1/2023.
+
+  LP&L       N/A, no multiple metered Premises in the service territory as of 10/1/2023.   N/A, no multiple metered Premises in the service territory as of 10/1/2023.
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8.3.5.9 Meter Tampering Issues
+
+(1) An FSR may discover tampering at the meter while performing a DNP requests. If the FSR determines that the degree of tampering does not present a hazardous condition, the DNP will be completed. If the meter tampering has created an unsafe condition, the DNP request may be referred to specialized field personnel to attempt to complete the DNP request at a premium disconnect location as described in Section 8.3.3.5, Disconnection at Premium Disconnect Location. If the DNP request cannot be completed as a result of the tampering incident, the DNP request will be Completed Unexecutable and the MOU/EC may notify the CR of the hazardous condition and, if applicable, meter removal by issuing a 650_04, Planned or Unplanned Outage Notification.
+
+(2) An FSR may discover tampering at the meter while performing an RNP request or when reenergizing a DNP Premise while performing a switch or move in. The MOU/EC’s FSR will contact the MOU/EC’s offices and advise the supervisor of the detected tampering. At the discretion of the supervisor, the MOU/EC will not RNP service and will likely notify local law enforcement of the possible tampering. Only after all facts and any applicable monies owed by the Customer as a result of the tampering have been paid to the MOU/EC (e.g. deposits, reconnect, tampering fees, etc.) will the service be reenergized regardless of the initiating party. If the meter tampering has created an unsafe condition, the 650_01, Service Order Request, reconnect request will be Completed Unexecutable and the MOU/EC may notify the CR of the hazardous condition and, if applicable, meter removal by issuing either a 650_02, Service Order Response, or the 650_04 transaction.
+
+(3) Refer to the MOU/EC tariffs for specific charges regarding meter tampering.
+
+(4) If the CR is notified of potential meter tampering at a Premise, the CR may notify the MOU/EC via a 650_01 transaction utilizing the MM006 reason code for tampering suspected if they are currently the CR of Record and are an Option 1 CR. Any CR may report suspected tampering at any time by contacting the MOU/EC general call center phone number.
+
+8.3.5.10 Customer Threatens Municipally Owned Utility or Electric Cooperative Field Service Representative
+
+(1) If threatened by the Customer, the FSR will not disconnect service. However, the FSR may refer the DNP request to another group specialized in disconnecting service at the pole, transformer (overhead and pad mounted), or weather head. Similar to resolving access issues, the MOU/EC will exhaust all means available, which may include communicating with the CR to request their assistance and participation, as a means to successfully complete the DNP request. The CR will be charged a routine dispatch fee for every time the FSR attempts to complete the DNP request initiated by the CR.
+
+8.3.6 Municipally Owned Utility or Electric Cooperative Charges for Reconnect and Disconnect Services
+
+8.3.6.1 Discretionary Charges
+
+(1) MOU/EC will use SAC04 codes for discretionary charges resulting for DNP or RNP requests as outlined in Table 25, SAC04 Codes-Discretionary Charges, below:
+
+Table 25. SAC04 Codes-Discretionary Charges
+
+  -----------------------------------------------------------------------------------------------
+  Charge Description                                              NEC             LP&L
+  --------------------------------------------------------------- --------------- ---------------
+  Disconnection                                                                   
+
+  Routine Disconnect at Meter                                     N/A             SER024
+
+  Routine Disconnect at Pole                                      N/A             SER026
+
+                                                                                  
+
+  Priority Disconnect at Meter                                    N/A             N/A
+
+  Priority Disconnect at Pole                                     N/A             N/A
+
+  Priority Disconnect at Subsurface Box                           N/A             N/A
+
+                                                                                  
+
+  Reconnection                                                                    
+
+  Routine Reconnect at Meter                                      SER030          SER028
+
+  Routine Reconnect at Meter Special Route                        SER031          N/A
+
+  Routine Reconnect at Pole                                       SER030          SER034
+
+  Routine Reconnect at Subsurface Box                             SER030          N/A
+
+  Routine Reconnect at CT Meter                                   SER034          N/A
+
+                                                                                  
+
+  Priority Reconnect at Meter                                     SER029          SER029
+
+  Priority Reconnect at Pole                                      SER035          SER035
+
+  Priority Reconnect at Subsurface Box                            SER035          N/A
+
+  Priority Reconnect at CT Meter                                  SER035          N/A
+
+                                                                                  
+
+  Weekend Reconnect at Meter                                      SER032          SER032
+
+  Weekend Reconnect at Pole                                       SER035          SER035
+
+  Weekend Reconnect at Subsurface Box                             SER035          N/A
+
+  Weekend Reconnect at CT Meter                                   SER035          N/A
+
+                                                                                  
+
+  Holiday Reconnect at Meter                                      SER032          SER033
+
+  Holiday Reconnect at Pole                                       SER035          SER036
+
+  Holiday Reconnect at Subsurface Box                             SER035          N/A
+
+  Holiday Reconnect at CT Meter                                   SER035          N/A
+
+  After-hours Reconnect at Meter                                  SER032          SER029
+
+  After-hours Reconnect at Pole                                   SER035          SER035
+
+  After-hours Reconnect at Subsurface Box                         SER035          N/A
+
+  After-hours Reconnect at CT Meter                               SER035          N/A
+
+                                                                                  
+
+  Denial of Access to Meter                                                       
+
+  For Disconnection Orders                                        SER133          SER133
+
+  For Reconnections Orders                                        SER133          SER133
+
+                                                                                  
+
+  Order Cancellation Fees                                                         
+
+  Disconnect Administration Fee                                   N/A             N/A
+
+  Dispatched Order Fee                                            N/A             N/A
+
+  Routine Dispatch                                                SER132          SER132
+
+                                                                                  
+
+  Tampering Charges                                                               
+
+  Broken Meter Seal Fee                                           SER130          SER130
+
+  Meter Tampering Fee                                             SER072          SER072
+
+                                                                                  
+
+  Connection Fees                                                                 
+
+  Connect Fee/Connection Charge at Meter/Account Activation Fee   SER019          SER019
+  -----------------------------------------------------------------------------------------------
+
+8.3.6.2 Other Charges
+
+(1) Non-usage based charges will continue to be assessed by the Municipal or Cooperative and may be billed to the CR of Record until service at the disconnected Premise has been terminated upon completion of a Move-Out Request.
+
+  (a) Customer Charge: NEC: bills Customer directly for these charges
+
+  (b) Customer Metering Charge: NEC: not applicable
+
+  (c) LP&L – Delivery Service Availability Charge: LP&L: $30.00 per meter per month
+
+(2) In order to avoid ongoing liability, a CR must submit a Move-Out Request to terminate service no earlier than five days after receipt of a 650_04, Planned or Unplanned Outage Notification, or 650_02, Service Order Response, indicating successful completion of the DNP request. CRs receiving reliable information indicating a Premise is vacant may submit move out earlier. Upon completion of the move out order the MOU/EC will discontinue billing the CR for non-usage based charges as outlined above. A CR’s financial liability for a disconnected Premise is removed upon the completion of a move out. Until a move out is effectuated, the REP will remain the REP of record and will re-energize the Customer’s Premise upon remedy of the reason for DNP request if necessary. Whether prior to or after the completion of the Move-Out Request, the CR will re-establish service to the extent required under the MOU/EC Customer protection rules.
+
+8.3.7 Emergency System Outage
+
+(1) In the event of a system outage during Business Hours and a CR cannot submit EDI transactions, the CR should contact their CR relations manager at the MOU/EC to arrange for a workaround in order to submit RNP requests. For system outages that occur outside Business Hours, CRs should contact the MOU/EC as indicated in Table 26, Emergency System Outage After-hours Contact, below.
+
+Table 26. Emergency System Outage After-hours Contact
+
+  -----------------------------------------------------------------------
+  MOU/EC            Emergency System Outage After-hours Contact
+  ----------------- -----------------------------------------------------
+  NEC               361-387-2581, CR relations manager
+
+  LP&L              806-775-2509, Dispatch Office
+  -----------------------------------------------------------------------
+
+8.4 Market Processes Specific to LP&L
+
+8.4.1 Safety-Nets
+
+(1) This Section explains the steps that Market Participants must follow when processing safety-net move in requests in Lubbock Power & Light’s (LP&L’s) service territory. This document is not intended to supersede or contradict P.U.C. SUBST. R. 25.487, Obligations Related to Move-In Transactions.
+
+8.4.1.1 Purpose
+
+(1) The Competitive Retailer (CR) establishes its responsibilities to serve a Customer at a Premise, which is identified by the Electric Service Identifier (ESI ID), beginning with the service start date that LP&L completes the move-in per the CR’s move-in transaction or safety-net request, whichever date is earliest.
+
+(2) The safety-net process is a manual work-around process used by Market Participants in the Texas retail market in the event that 814_16, Move-In Request, transactions are systematically delayed due to system degradation or complete system malfunction.
+
+(3) The safety-net process may also be used during extended transaction processing outages, as described in Section 7.10, Emergency Operating Procedures for Extended Unplanned System Outages. However, under no circumstances should this safety-net process be used to bypass approved rules, Protocols, Guides and/or market-approved processes.
+
+8.4.1.2 Safety-Net Submission Processes
+
+(1) If LP&L provides an internet-based portal or a “Secure File Transfer Protocol” (SFTP) site for safety-net requests, the CR may submit a safety-net move in or reconnect spreadsheet requesting a move-in service start date or reconnection date of the current date by the following means:
+
+  (a) LP&L’s specific internet-based or SFTP site submission process; and if the CR submits the safety-net spreadsheet via the SFTP site, then
+
+  (b) The CR must send an email to MarketOps@mylubbock.us notifying LP&L that they have submitted a safety-net spreadsheet in the SFTP site. The CR should not attach the safety-net spreadsheet to the email. The email “Subject Line” should be formatted as follows to match the safety-net spreadsheet file name:
+
+  [CR Name]_Safety Net_[Date<YYYYMMDD>_Time<HHMM>]_[Priority Type].xls
+
+(2) If the CR utilizes the safety-net move in spreadsheet process, request(s) shall be submitted:
+
+(a) Requesting a move-in service start date using the current Business Day;
+
+(b) With standard and priority move-ins as separate spreadsheets;
+
+(c) One time per day notification transmitted no later than 4:00 PM Central
+Prevailing Time (CPT); and
+
+(d) Adhering to the format and content found in the following sections.
+
+(3) Priority safety-net move in spreadsheets that are completed on the same-day or next-day by LP&L may be charged priority move-in discretionary charges by LP&L according to LP&L’s tariff, regardless of the priority code that is reflected in the corresponding 814_16, Move-In Request, transaction submitted by the CR for the same ESI ID and service start date.
+
+8.4.1.3 Move-In/Reconnect Spreadsheet Format
+
+(1) The CR will attach the spreadsheet with the safety-net acceptable data content in the format as indicated below in Table 23, Safety-Net Spreadsheet Content, to LP&L’s internet-based portal or SFTP site.
+
+(2) CRs must use the following naming convention for the safety-net spreadsheet file name: [CR Name]_Safety Net_[Date<YYYYMMDD>_Time<HHMM>]_[Priority Type].xls File names cannot be duplicated.
+
+Examples: CR Name_Safety Net_20230123_1425_Standard MVI.xls
+
+CR Name_Safety Net_20230417_1615_Priority MVI.xls
+
+CR Name_Safety Net_20231105_0820_Emergency Reconnect.xls
+
+Table 23. Safety-Net Spreadsheet Content
+
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+| Column | Field Name                                       | Note                             | Data Attributes |                  |
++========+==================================================+==================================+=================+==================+
+|        |                                                  |                                  | Type            | Length           |
+|        |                                                  |                                  |                 |                  |
+|        |                                                  |                                  |                 | (Min. / Max.)    |
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+| (1)    | ESI ID                                           | (required)                       | AN              | 1 Min. / 80 Max. |
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+| (2)    | Customer Name                                    | (required)                       | AN              | 1 Min. / 60 Max. |
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+| (3)    | Customer Phone                                   | (required if available)          | AN              | 1 Min. / 80 Max. |
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+| (4)    | MVI Street Address                               | (required)                       | AN              | 1 Min. / 55 Max. |
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+| (5)    | MVI Apartment Number                             | (if applicable)                  | AN              | 1 Min. / 55 Max. |
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+| (6)    | MVI ZIP                                          | (required)                       | ID              | 3 Min. / 15 Max. |
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+| (7)    | MVI City                                         | (required)                       | AN              | 2 Min. / 30 Max. |
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+| (8)    | CR Data Universal Numbering System (DUNS) Number | (required)                       | AN              | 2 Min. / 80 Max. |
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+| (9)    | CR Name                                          | (prefer D/B/A to corporate name) | AN              | 1 Min. / 60 Max. |
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+| (10)   | MVI Request Date                                 | (required)                       | DT              | 8 Min. / 8 Max.  |
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+| (11)   | Critical Care Flag                               | (optional)                       | AN              | 1 Min. / 30 Max. |
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+| (12)   | BGN02                                            | (required)                       | AN              | 1 Min. / 30 Max. |
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+| (13)   | Notes/Directions                                 | (optional)                       | AN              | 1 Min. / 80 Max. |
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+| (14)   | CR Reason for Using Spreadsheet                  | (optional – free form)           | AN              | 1 Min. / 80 Max. |
++--------+--------------------------------------------------+----------------------------------+-----------------+------------------+
+
+(2) Row 1 of the spreadsheet is reserved for a title but is optional and at the discretion of the CR. The “Field Name” header row shall begin on row 2 as shown below in the Example for Safety-Net Spreadsheet Format.
+
+Example for Safety-Net Spreadsheet Format
+
+[image001]
+
+8.4.1.4 LP&L Safety-Net Response
+
+(1) Once the safety-net spreadsheet and email is received by LP&L, LP&L shall evaluate all of the ESI IDs included in the safety-net list to make a determination to schedule, complete unexecutable, or reject the Move-In Request. LP&L shall respond via email within one Business Day of receipt of the request.
+
+  (a) LP&L may reject or complete unexecutable the safety-net Move-In Request for the following applicable ESI ID(s) scenarios:
+
+  (i) If the “MVI Request Date” value(s) within the safety-net spreadsheet are other than the current date;
+
+  (ii) If construction service is required;
+
+  (iii) If an 814_16, Move-In Request, transaction has already been submitted by the CR for the specific ESI ID and has been accepted and scheduled by LP&L; or
+
+  (iv) If LP&L deems the ESI ID invalid or not in their service territory.
+
+  (b) LP&L shall notify the CR by attaching the spreadsheet in the market-approved spreadsheet format (see Table 24, TDSP Move-In Safety-Net Response Content) by email, MarkeTrak, or by means of an internet-based response if LP&L provides an internet-based portal, of all safety-net Move-In Requests that could not be completed as indicated below in Table 25, TDSP Return Codes.
+
+Table 24. TDSP Move-In Safety-Net Response Content
+
+  ------------------------------------------------------------------------
+  Column   Field Name
+  -------- ---------------------------------------------------------------
+           
+
+  (1)      ESI ID
+
+  (2)      MVI Street Address
+
+  (3)      MVI Apartment Number
+
+  (4)      MVI ZIP
+
+  (5)      MVI City
+
+  (6)      CR Name (D/B/A preferred)
+
+  (7)      MVI Request Date
+
+  (8)      BGN02 (optional)
+
+  (9)      TDSP Return Code
+
+  (10)     Complete Unexecutable or Reject Description (optional)
+  ------------------------------------------------------------------------
+
+Table 25. TDSP Return Codes
+
+  ---------------------------------------------------------------------------------------
+  Return Code      Description                     Data Attributes   
+  ---------------- ------------------------------- ----------------- --------------------
+                                                   Type              Length Min. / Max.
+
+  A76              ESI ID Invalid or Not Found     AN                1 Min. / 30 Max.
+
+  API              Required Information Missing    AN                1 Min. / 30 Max.
+
+  PT               Permit Required                 ID                1 Min. / 2 Max.
+
+  09               Complete Unexecutable           AN                1 Min. / 2 Max.
+
+  SHF              Switch Hold Indicator           AN                1 Min. / 3 Max.
+  ---------------------------------------------------------------------------------------
+
+8.4.1.5 Transactional Reconciliation
+
+(1) Per P.U.C. SUBST. R. 25.487, Obligations Related to Move-In Transactions, the CR shall ensure that the 814_16, Move-In Request, is submitted to ERCOT on or before the fifth Business Day after submitting the Move-In Request through the safety-net process.
+
+(2) The CR shall submit an 814_16 to ERCOT and note the BGN02 on the safety-net spreadsheet that is sent to LP&L. All resubmitted 814_16 transactions must use the same requested date as submitted with the original safety-net spreadsheet. The CR may submit a MarkeTrak issue after not receiving a response from ERCOT on their 814_16 transaction within 48 hours.
+
+8.4.2 Standard Historical Usage Request
+
+(1) With the Customer’s authorization, CRs may request the Customer’s historical data when they are not the Retail Electric Provider (REP) of record. This data includes the most recent 12 months of usage and is provided by the Transmission and/or Distribution Service Provider (TDSP) to the requesting CR. In order to provide the data to the CR, the TDSP must have written authorization (includes electronic authorization) from the Customer to allow the TDSP to provide the proprietary information. The TDSP will provide the requested data electronically in a Microsoft Excel© format within three Business Days of receipt of a valid Letter of Authorization for the Request of Historical Usage Information Form.
+
+8.4.2.1 Overview of the Letter of Authorization for the Request of Historical Usage Information Form
+
+(1) To obtain historical usage for an ESI ID, the requestor must submit the Letter of Authorization for the Request of Historical Usage Information Form to LP&L (see Section 9, Appendices, Appendix B1, Letter of Authorization for the Request of Historical Usage Information Form (English), and Appendix B2, Formulario Carta De Autorización Para Solicitar Información De Consumo Histórico (Letter of Authorization for the Request of Historical Usage Information Form – Spanish)). The Customer may allow the use of the same Letter of Authorization for the Request of Historical Usage Information Form by designating a specific expiration date on the form or designating the form as unlimited. The Customer must provide an expiration date or designate the form as unlimited.
+
+(2) If the request is for a Premise with an Interval Data Recorder (IDR) Meter, the requesting CR shall indicate whether summary billing, interval data, or both summary billing and interval level data is required by checking the appropriate boxes. LP&L shall provide all data requested by the CR and authorized by the Customer, if available and shall use Section 9, Appendix B4, Transmission and/or Distribution Service Provider Response to Request for Historical Usage.
+
+(3) When requesting historical usage from multiple TDSPs on the same Letter of Authorization for the Request of Historical Usage Information Form, the requestor must complete Section 9, Appendix B3, Requesting Historical Usage from Multiple Transmission and/or Distribution Service Providers, and attach it to the Letter of Authorization for the Request of Historical Usage Information Form. If forms are submitted via email, the requestor shall place the Customer’s name first when naming attachments, e.g., CustomerABC.xls, CustomerABC.pdf, CustomerABC-AEP.xls. LP&L will reject submitted ESI IDs that are not located within LP&L’s territory.
+
+8.4.3 Other Market Processes
+
+LP&L will comply with the sections listed in Table 26, LP&L - Other Market Processes, below including each section’s associated subsections unless specifically excluded, where they apply to a TDSP.
+
+Table 26. LP&L - Other Market Processes
+
++-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Market Process                                                                                                  | Sections                                                                                                                                                                                                                                                            |
++=================================================================================================================+=====================================================================================================================================================================================================================================================================+
+| Market Synchronization                                                                                          | 7.2, Market Synchronization                                                                                                                                                                                                                                         |
++-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Inadvertent Gain/Loss Process                                                                                   | 7.3, Inadvertent Gain/Loss Process                                                                                                                                                                                                                                  |
++-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Transaction Timing Matrix                                                                                       | 7.7, Transaction Timing Matrix                                                                                                                                                                                                                                      |
++-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Formal Invoice Dispute Process for Competitive Retailers and Transmission and/or Distribution Service Providers | 7.8, Formal Invoice Dispute Process for Competitive Retailers and Transmission and/or Distribution Service Providers                                                                                                                                                |
+|                                                                                                                 |                                                                                                                                                                                                                                                                     |
+|                                                                                                                 | -   For current LP&L tariff information, refer to P.U.C. SUBST. R. 25.219, Terms and Conditions of Access by a Competitive Retailer to the Delivery System of a Municipally Owned Utility or Electric Cooperative that Implements Customer Choice after May 1, 2023 |
++-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| No Retail Electric Provider of Record or Left in Hot                                                            | 7.9, No Retail Electric Provider of Record or Left in Hot                                                                                                                                                                                                           |
++-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Emergency Operating Procedures for Extended Unplanned System Outages                                            | 7.10, Emergency Operating Procedures for Extended Unplanned System Outages                                                                                                                                                                                          |
+|                                                                                                                 |                                                                                                                                                                                                                                                                     |
+|                                                                                                                 | -   LP&L will utilize the SFTP site where emails apply to Section 7.10                                                                                                                                                                                              |
+|                                                                                                                 |                                                                                                                                                                                                                                                                     |
+|                                                                                                                 | -   LP&L will follow the safety-net process as prescribed in Section 8.4.1, Safety-Nets                                                                                                                                                                             |
++-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Transition Process                                                                                              | 7.11, Transition Process                                                                                                                                                                                                                                            |
++-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Estimated Meter Readings                                                                                        | 7.12, Estimated Meter Readings                                                                                                                                                                                                                                      |
+|                                                                                                                 |                                                                                                                                                                                                                                                                     |
+|                                                                                                                 | -   LP&L will utilize MarketOps@mylubbock.us for email correspondence referenced in Table 27, TDSP REP Relations E-mail Addresses, in Section 7.12.2, Estimations Due to Safety and/or Meter Removal                                                                |
++-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Out-flow Energy from Distributed Generation Facilities                                                          | 7.14, Out-flow Energy from Customers’ Distributed Generation Facilities                                                                                                                                                                                             |
++-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Advanced Meter Interval Data File Format and Submission                                                         | 7.15, Advanced Meter Interval Data File Format and Submission                                                                                                                                                                                                       |
+|                                                                                                                 |                                                                                                                                                                                                                                                                     |
+|                                                                                                                 | -   Excluding Section 7.15.3, Posting Data to Transmission and/or Distribution Service Provider File Transfer Protocol Site                                                                                                                                         |
+|                                                                                                                 |                                                                                                                                                                                                                                                                     |
+|                                                                                                                 | -   Excluding paragraph (2) of Section 7.15.4, Availability of Interval Data for Provisioned Advanced Metering Systems                                                                                                                                              |
++-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Transmission and/or Distribution Service Provider Switch Hold Notification for Meter Tampering                  | 7.16.3, Transmission and/or Distribution Service Provider Switch Hold Notification for                                                                                                                                                                              |
+|                                                                                                                 |                                                                                                                                                                                                                                                                     |
+|                                                                                                                 | Meter Tampering                                                                                                                                                                                                                                                     |
++-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Switch Hold Process for Meter Tampering                                                                         | 7.16.4, Switch Hold Process for Meter Tampering                                                                                                                                                                                                                     |
++-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Business Processes and Communications for Switch Holds Related to Deferred Payment Plans                        | 7.17, Business Processes and Communications for Switch Holds Related to Deferred                                                                                                                                                                                    |
+|                                                                                                                 |                                                                                                                                                                                                                                                                     |
+|                                                                                                                 | Payment Plans                                                                                                                                                                                                                                                       |
++-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Business Process for When a Customer Elects to Receive Non-Standard Metering Services                           | 7.18, Business Process for When a Customer Elects to Receive Non-Standard Metering Services                                                                                                                                                                         |
++-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [RMGRR172: Replace Section 8.4.3 above with the following upon system implementation                                                                                                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                                                                                                                                                                                                           |
+| of PR409-01, TX SET 5_0 and System Change Request (SCR) 817, Related to NPRR1095,                                                                                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                                                                           |
+| MarkeTrak Validation Revisions Aligning with Texas SET V5.0:]                                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                                                                                                                           |
+| 8.4.3 Other Market Processes                                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                                                                                                                                                                                                                                                                                                                           |
+| LP&L will comply with the sections listed in Table 26, LP&L - Other Market Processes, below including each section’s associated subsections unless specifically excluded, where they apply to a TDSP.                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                                                                                                           |
+| Table 26. LP&L - Other Market Processes                                                                                                                                                                                                                                                                                                                                                   |
+|                                                                                                                                                                                                                                                                                                                                                                                           |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | Market Process                                                                                                  | Sections                                                                                                                                                                                                                                                            | |
+| +=================================================================================================================+=====================================================================================================================================================================================================================================================================+ |
+| | Market Synchronization                                                                                          | 7.2, Market Synchronization                                                                                                                                                                                                                                         | |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | Inadvertent Gain/Loss Process                                                                                   | 7.3, Inadvertent Gain/Loss Process                                                                                                                                                                                                                                  | |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | Transaction Timing Matrix                                                                                       | 7.7, Transaction Timing Matrix                                                                                                                                                                                                                                      | |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | Formal Invoice Dispute Process for Competitive Retailers and Transmission and/or Distribution Service Providers | 7.8, Formal Invoice Dispute Process for Competitive Retailers and Transmission and/or Distribution Service Providers                                                                                                                                                | |
+| |                                                                                                                 |                                                                                                                                                                                                                                                                     | |
+| |                                                                                                                 | -   For current LP&L tariff information, refer to P.U.C. SUBST. R. 25.219, Terms and Conditions of Access by a Competitive Retailer to the Delivery System of a Municipally Owned Utility or Electric Cooperative that Implements Customer Choice after May 1, 2023 | |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | No Retail Electric Provider of Record or Left in Hot                                                            | 7.9, No Retail Electric Provider of Record or Left in Hot                                                                                                                                                                                                           | |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | Emergency Operating Procedures for Extended Unplanned System Outages                                            | 7.10, Emergency Operating Procedures for Extended Unplanned System Outages                                                                                                                                                                                          | |
+| |                                                                                                                 |                                                                                                                                                                                                                                                                     | |
+| |                                                                                                                 | -   LP&L will utilize the SFTP site where emails apply to Section 7.10                                                                                                                                                                                              | |
+| |                                                                                                                 |                                                                                                                                                                                                                                                                     | |
+| |                                                                                                                 | -   LP&L will follow the safety-net process as prescribed in Section 8.4.1, Safety-Nets                                                                                                                                                                             | |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | Transition Process                                                                                              | 7.11, Transition Process                                                                                                                                                                                                                                            | |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | Estimated Meter Readings                                                                                        | 7.12, Estimated Meter Readings                                                                                                                                                                                                                                      | |
+| |                                                                                                                 |                                                                                                                                                                                                                                                                     | |
+| |                                                                                                                 | -   LP&L will utilize MarketOps@mylubbock.us for email correspondence referenced in Table 27, TDSP REP Relations E-mail Addresses, in Section 7.12.2, Estimations Due to Safety and/or Meter Removal                                                                | |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | Out-flow Energy from Distributed Generation Facilities                                                          | 7.14, Out-flow Energy from Customers’ Distributed Generation Facilities                                                                                                                                                                                             | |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | Advanced Meter Interval Data File Format and Submission                                                         | 7.15, Advanced Meter Interval Data File Format and Submission                                                                                                                                                                                                       | |
+| |                                                                                                                 |                                                                                                                                                                                                                                                                     | |
+| |                                                                                                                 | -   Excluding Section 7.15.3, Posting Data to Transmission and/or Distribution Service Provider File Transfer Protocol Site                                                                                                                                         | |
+| |                                                                                                                 |                                                                                                                                                                                                                                                                     | |
+| |                                                                                                                 | -   Excluding paragraph (2) of Section 7.15.4, Availability of Interval Data for Provisioned Advanced Metering Systems                                                                                                                                              | |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | Transmission and/or Distribution Service Provider Switch Hold Notification for Meter Tampering                  | 7.16.3, Transmission and/or Distribution Service Provider Switch Hold Notification for                                                                                                                                                                              | |
+| |                                                                                                                 |                                                                                                                                                                                                                                                                     | |
+| |                                                                                                                 | Meter Tampering                                                                                                                                                                                                                                                     | |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | Switch Hold Process for Meter Tampering                                                                         | 7.16.4, Switch Hold Process for Meter Tampering                                                                                                                                                                                                                     | |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | Business Processes and Communications for Switch Holds Related to Deferred Payment Plans                        | 7.17, Business Processes and Communications for Switch Holds Related to Deferred                                                                                                                                                                                    | |
+| |                                                                                                                 |                                                                                                                                                                                                                                                                     | |
+| |                                                                                                                 | Payment Plans                                                                                                                                                                                                                                                       | |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | Business Process for When a Customer Elects to Receive Non-Standard Metering Services                           | 7.18, Business Process for When a Customer Elects to Receive Non-Standard Metering Services                                                                                                                                                                         | |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | Business Processes Related to Continuous Service Agreements                                                     | 7.19, Business Processes Related to Continuous Service Agreements                                                                                                                                                                                                   | |
+| +-----------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
++===========================================================================================================================================================================================================================================================================================================================================================================================+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

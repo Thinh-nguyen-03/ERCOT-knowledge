@@ -1,0 +1,310 @@
+Electric Reliability Council of Texas
+
+Technical Advisory Committee
+
+Procedures
+
+TAC Approved: October 22, 2025
+
+These Technical Advisory Committee (TAC) Procedures are based upon incorporated provisions of the ERCOT Bylaws. Upon amendment of the ERCOT Bylaws, these Procedures should be reviewed to ensure consistency with any Bylaws revisions.
+
+I. FUNCTIONS OF TAC
+
+A. Duties
+
+The TAC shall make recommendations to the Board as it deems appropriate or as required by the Board and perform any other duties as directed by the Board. TAC shall have the authority to create subcommittees, task forces and work groups, as it deems necessary and appropriate to conduct the business of TAC. TAC shall review and coordinate the activities and reports of its subcommittees.
+
+B. Studies
+
+The TAC shall itself, through its subcommittees, or through ERCOT staff, make and utilize such studies or plans as it deems appropriate to accomplish the purposes of ERCOT, the duties of its subcommittees and the policies of the Board. Results of such studies and plans shall be reported to the Board as required by the Board.
+
+C. Prioritization of Projects Proposed by the Market
+
+The TAC shall be responsible for setting the priority of projects approved through the NPRR, SCR and guide revision processes. TAC may delegate the responsibility for recommending the priority of market projects to one of its subcommittees.
+
+II. MEMBERSHIP
+
+A. Qualifications and Appointment
+
+TAC Representatives, as defined in the ERCOT Bylaws Section 5.1, TAC Representatives, shall be elected or appointed according to the provisions of the ERCOT Bylaws and procedures established by the ERCOT Board. An Entity and its affiliates that are Members of ERCOT shall have no more than one representative on TAC.
+
+TAC Representatives shall meet the following qualifications:
+
+-   At least five years of combined electric industry experience in one or more of the below areas:
+
+    -   Regulatory
+
+    -   Markets (e.g., Wholesale, Retail, and/or Energy management/procurement)
+
+    -   Operations (Transmission, QSE, or Generation)
+
+    -   Finance
+
+-   Authorized by their sponsor or employer to make decisions
+
+OPUC and TAC Residential Consumer Representatives are exempt from the qualifications above.
+
+B. Term of Representatives
+
+TAC Representatives shall be selected annually in December of each year for service in the following calendar year.
+
+C. Membership
+
+The TAC shall be comprised of Representatives of Members from each Market Segment as defined in the ERCOT Bylaws: Independent Retail Providers (and Aggregators), Independent Generators, Independent Power Marketers, Municipals, Cooperatives, Investor Owned Utilities, and Consumers. The Corporate Members of each Segment are responsible for electing or appointing their Representatives to TAC. In addition, the ERCOT Chief Operating Officer (COO) or the ERCOT CEO’s designee shall be an ex-officio, non-voting member of TAC. If a Member elects to engage a consultant to represent them at TAC and/or TAC subcommittees, such consultant shall disclose the Entity or Entities it is representing at each meeting.
+
+D. Vacancies
+
+  Vacancies shall be filled in the manner prescribed by the ERCOT Bylaws.
+
+III. CHAIR AND VICE-CHAIR
+
+  A. Qualifications and Appointment
+
+As provided in the ERCOT Bylaws, the Chair and Vice-Chair shall be elected by TAC and confirmed by the ERCOT Board.
+
+B. Duties
+
+The Chair shall be responsible for setting the agenda and presiding over all TAC meetings. The Chair shall also report to the Board on behalf of TAC. The Vice-Chair shall act as Chair at TAC meetings in absence of the Chair.
+
+C.  Election Process
+
+  ERCOT staff will open the floor for nominations for the Chair. Once nominations have been closed, TAC Representatives will cast votes on the nominations for Chair. If there is more than one nomination, ballots will be used for casting votes. Each TAC Representative will be allowed one vote. The candidate receiving a simple majority (51%) of TAC Representatives voting will be elected. If no simple majority is reached, ERCOT staff will identify the two candidates receiving the most votes and conduct another vote. Votes will be conducted until either a simple majority of the TAC is reached or an acclamation of TAC. Following election of the Chair, the Chair election process will be utilized for selecting the Vice-Chair.
+
+IV. MEETINGS
+
+A. Quorum and Action
+
+As provided in the ERCOT Bylaws: Fifty-one percent (51%) of eligible, Seated Representatives of TAC shall constitute a quorum required for the transaction of business; and abstentions do not affect calculation of a quorum. Each voting member represented on TAC may designate, in writing, an Alternate Representative who may attend meetings, vote on the member’s behalf and be counted toward establishing a quorum. Each voting member represented on TAC may designate in writing a proxy who may attend meetings and vote on the member’s behalf, but shall not be counted toward establishing a quorum. If the TAC Representative wishes to designate an Alternate Representative or proxy, a notification of the designation of such Alternate Representative or proxy must be sent to ERCOT and shall be valid for the time period designated by the TAC Representative. TAC Representatives may participate in a meeting in-person or remotely (See Item H. Remote Participation, below).
+
+B. Meeting Schedule
+
+The TAC and its subcommittees shall meet as often as necessary to perform their duties and functions.
+
+C. Participatory Voting:
+
+As provided in the ERCOT Bylaws, each Segment may choose to utilize "Participatory Voting" as follows:
+
+  If a Segment chooses to engage in Participatory Voting, each TAC Representative elected to serve and present at the meeting shall be required to vote the decision of the majority of Corporate Members of their Segment in attendance at a TAC meeting. A Corporate Member may delegate an employee or agent other than the Member representative to vote on its behalf for purposes of Participatory Voting. If a Corporate Member of a Segment using Participatory Voting is unable or does not wish to attend a TAC meeting, such Member may deliver a written proxy, at any time prior to the start of the meeting to a Participatory Voting delegate of any Member of the same Segment. A Corporate Member delegate in attendance at a TAC meeting may give written proxy to a Participatory Voting delegate of any Member of the same Segment during such meeting. If the consumer Segment chooses to utilize "Participatory Voting", each consumer type (retail, commercial and industrial) with representative(s) present shall each have equal voting strength in determining how the TAC Representatives of the Segment shall vote.
+
+D. Notification
+
+  As provided in the ERCOT Bylaws, all meetings of the TAC shall be called by the Chair and all such meeting notices shall be sent in writing (including e-mail or fax) to each member at least one week prior to the meeting. All agenda items requiring a vote of TAC must be noticed for a vote with supporting documentation published at least one week prior to the meeting. Material that becomes available less than one week prior to the meeting may be considered if a majority of the TAC agrees to consider the additional material. An emergency meeting of the TAC may be held with less than one week notice if a majority of the members of TAC consent to the meeting. Any ERCOT Member may request notification of TAC meetings.
+
+E. Conduct of Meetings
+
+The Chair shall preside at all meetings and is responsible for preparation of agendas for such meetings. In the absence of the Chair, the Vice-Chair or another TAC Representative shall preside at the meeting. The Chair, or the presiding Member, shall be guided by Appendix A, ERCOT Meeting Rules of Order, in the conduct of the meetings. ERCOT staff shall be responsible for recording minutes of TAC meetings and distributing such minutes and other communications to all members of TAC and any other parties who express an interest in receiving such information. TAC meetings and TAC subcommittee meetings may be attended by any interested observers; provided, however, persons may be excluded from portions of TAC meetings and TAC subcommittee meetings where third party confidential information is presented or discussed (e.g., confidential vendor or bid information and generation unit information). Participants shall disclose the Entity or Entities they are representing at each TAC and/or TAC subcommittee meeting.
+
+F. Voting
+
+In matters determined by the Chair to require a vote of TAC, or when any TAC Representative requests a vote on an issue, each TAC Representative shall have one vote. As provided in the ERCOT Bylaws, an act of TAC requires affirmative votes of: (i) two-thirds of the Eligible Voting Representatives of TAC; and (ii) at least 50% of the total Seated Representatives. For purposes of voting on TAC, TAC representatives shall not have their votes included in the total number of votes from which the requisite percentage of affirmative votes is required for action if: (i) they are not present and have not designated a proxy, or (ii) they abstain from voting.
+
+G. Opposing Votes on Revision Requests
+
+TAC Representatives should provide explanations for their opposing votes on Revision Requests. These explanations will be included in the TAC Reports, which are submitted to the ERCOT Board. ERCOT Staff will specify the timeframe for submitting these explanations following the relevant TAC vote. If no explanation is provided, this will also be noted in the TAC Reports.
+
+H. Electronic Mail Voting
+
+  In matters determined by the Chair to require a vote of TAC which are urgent or
+
+  otherwise require action prior to the next meeting, a vote via electronic mail (e-mail vote) may be utilized. A request for an e-mail vote can only be initiated by the Chair or Vice Chair. An e-mail vote is permitted provided a notification is distributed to the TAC distribution list that includes a detailed description of the issue or proposition and accompanied by supporting documentation. For e-mail votes, a quorum of Standing Representatives must participate in the vote. Participation requires casting a vote or abstaining. Votes shall be submitted to ERCOT for tallying by the close of two Business Days after notification of the vote. Votes are tallied in the same manner as a regular meeting. The final tally shall be distributed to the TAC distribution list and posted on the ERCOT website.
+
+  I. Remote Participation
+
+  TAC Representatives may participate in a meeting, vote, and be counted towards quorum via telephone or other similar communications equipment, or another suitable electronic communications system, including videoconferencing technology or the Internet, or any combination, if the telephone or other equipment or system permits each person participating in the meeting to communicate with all other persons in the meeting. Remote participation in a meeting shall constitute presence in person at such meeting, except where a person participates in the meeting for the express purpose of objecting to the transaction of any business on the ground that the meeting is not lawfully called or convened.  Validation of votes taken via such electronic communications system will be required. 
+
+V. SUBCOMMITTEES
+
+  A. Duties
+
+  Subcommittees shall make recommendations to TAC as they deem appropriate or as required by TAC and shall perform any other duties as directed by TAC.
+
+  B. Alternate Representatives and Proxies
+
+  Each Standing Representative of a subcommittee may designate in writing an Alternate Representative who may attend meetings, vote on the Standing Representative’s behalf and be counted toward establishing a quorum. Each Standing Representative of a subcommittee (except for the Protocol Revision Subcommittee (PRS)) may designate, in writing, a proxy who may attend meetings and vote on the member’s behalf, but shall not be counted toward establishing a quorum. If the Standing Representative wishes to designate an Alternate Representative or proxy, a notification of the designation of such Alternate Representative or proxy must be sent to ERCOT and shall be valid for the time period designated by the Standing Representative. Alternate Representatives, if not employed by the voting member thereby represented, must be confirmed in writing by such member (signed by a duly authorized representative of the member).
+
+  C. Chair and Vice Chair
+
+  Unless otherwise directed by TAC, the Standing Representatives of each subcommittee shall elect a Chair and Vice-Chair from the subcommittee’s standing membership for a term of one year on a calendar year basis. The Chair and Vice-Chair shall be confirmed by TAC. Each Chair shall be responsible for setting the agenda and presiding over respective subcommittee meetings. The Chair shall also report on subcommittee activities and present recommendations to TAC. The Vice-Chair shall act as Chair at subcommittee meetings in the absence of the Chair.
+
+  D. Meetings and Notification
+
+  The subcommittee Chair is responsible for calling meetings as often as necessary for the subcommittee to perform its duties and functions. Meeting notices shall be sent to each Standing Representative, the subcommittee distribution list, and posted on the ERCOT website at least one week prior to the meeting, unless an emergency condition requires a shorter notice.
+
+  In addition, subcommittee meetings are attended by ERCOT Staff person(s) who coordinate ERCOT support of the meeting, including meeting arrangements, meeting minutes, and ERCOT Staff participation in the meeting.
+
+E.  Appeal Procedures
+
+  Any Entity that demonstrates it is affected by a TAC subcommittee decision (including but not limited to those listed in Protocol Section 21, Revision Request Process) may appeal the TAC subcommittee vote to TAC utilizing the following process:
+
+1.  Any appeal (including requested relief) must be submitted to ERCOT (RevisionRequest@ercot.com) within seven days after the date of the TAC subcommittee vote.
+
+2.  Appeals shall be heard at the next regularly scheduled TAC meeting that is at least seven days after the date of the requested appeal.
+
+3.  The appropriate TAC subcommittee Chair or Vice-Chair shall designate a TAC subcommittee advocate to defend the TAC subcommittee vote prior to the TAC meeting.
+
+4.  ERCOT shall notify the TAC and the relevant TAC subcommittee of the appeal and the TAC subcommittee advocate.
+
+5.  The appealing party and the TAC subcommittee advocate shall provide a position statement to ERCOT prior to the TAC meeting. Any other interested Entity may also provide a position statement to ERCOT prior to the TAC meeting. Position statements should be submitted to ERCOT by no later than 1700 Central Prevailing Time on the day prior to the TAC meeting.
+
+6.  ERCOT will distribute all position statements to the TAC.
+
+7.  The TAC Chair or Vice-Chair will allocate a designated amount of time on the agenda for consideration of the appeal allowing for the appealing party, TAC subcommittee advocate, and any Entities providing position statements to address the TAC on the TAC subcommittee vote.
+
+8.  An appeal of a TAC subcommittee vote does not require a motion by the TAC. TAC shall vote on the appealing party’s requested relief after consideration of the appeal. If the TAC vote fails to grant the appealing party’s requested relief, the appeal shall be deemed rejected by TAC unless at the same meeting TAC later votes to recommend approval of, defer, remand or refer the issue. The rejected appeal as well as any other TAC votes shall be subject to appeal pursuant to ERCOT Board Policies and Procedures, Section VIII. Appeal Procedures.
+
+9.  The TAC Chair or Vice-Chair may override any deadline in this Section for good cause shown.
+
+  An expedited process may be utilized for appeals of (a) TAC subcommittee votes related to decisions on items designated as Urgent; or (b) any other TAC subcommittee vote that the TAC Chair or Vice-Chair designates as urgent. Such appeals must be submitted to ERCOT (RevisionRequest@ercot.com) within 48 hours after the end of the relevant TAC subcommittee meeting and shall be heard at the next regularly scheduled TAC meeting.
+
+F.  Sub Group/Working Group/Task Force
+
+  1. Comments or Revision Requests. Working groups and task forces must obtain approval from the governing TAC subcommittee (or TAC if the working group or task force reports directly to TAC) prior to submitting to ERCOT for official posting of new Revision Requests or comments on Revision Requests when the governing TAC subcommittee (or TAC if the working group or task force reports directly to TAC) is not the next approval authority of such new Revision Requests or comments. Sub groups shall have their own voting structure as detailed in their charter, and can submit comments or revision requests without approval from the governing TAC subcommittee (or TAC if the sub group reports directly to TAC).
+
+  2. Chair and Vice Chair. Participants at sub group, working group, and task force meetings will offer nominations for Chair and Vice Chair which will be subject to approval by TAC or the governing TAC subcommittee.
+
+  G. Standing TAC Subcommittees
+
+  There shall be four standing TAC subcommittees with representatives as follows:
+
+1. Retail Market Subcommittee (RMS); Reliability and Operations Subcommittee (ROS); and Wholesale Market Subcommittee (WMS)
+
+  Membership: Membership shall consist of one to four Standing Representatives from each Segment elected or appointed by the voting members of the respective Segment, with the exception of the Consumer Segment. The Consumer Segment shall consist of three subsegments (Residential, Commercial, and Industrial). The number of Standing Representatives for each Segment shall be determined by the TAC members representing that Segment. Standing Representatives, if not employed by the voting member thereby represented, must be confirmed in writing by such member (signed by a duly authorized representative of the member). These will be the voting members of the subcommittee. ERCOT shall appoint appropriate staff member(s) to attend and participate in the subcommittee meetings. A Member entity and its affiliates that are also ERCOT Members shall have no more than one representative per TAC subcommittee as it pertains to Section V. G. 1.
+
+  Quorum: At least one Standing Representative from each of four Segments and a majority of the Standing Representatives must be present at a meeting to constitute a quorum. Standing Representatives may participate in a meeting in-person or remotely (See Remote Participation below).
+
+  Votes: Each Segment shall have a Segment Vote of 1.0 except the Consumer Segment, which shall have a Segment Vote of 1.5. Segment Votes shall be equally divided into Fractional Segment Votes among the Standing Representatives, designated Alternate Representatives and proxies of each Segment that cast a vote. The Consumer Segment Vote shall be equally divided into a Fractional Segment Vote of 0.5 for each of the three subsegments. The Fractional Segment Vote for each subsegment of the Consumer Segment is allocated to the Standing Representatives, designated Alternate Representatives, and proxies of the subsegment casting a vote. For the Consumer Segment, if no Standing Representative from a subsegment is present at a meeting, the Consumer Segment vote is allocated equally to the subsegment(s) that cast a vote. If a representative from a subsegment abstains from a vote, the fraction of the Consumer Segment Vote allocated to such representative is not included in the vote tally.
+
+  Voting: Only Standing Representatives, their designated Alternate Representative, or proxy may vote. A motion of the subcommittee passes when a majority (unless a two-thirds vote is required for the motion as prescribed in Appendix A, ERCOT Meeting Rules of Order) of the aggregate of the Fractional Segment Votes are (i) affirmative, and (ii) a minimum total of three. The results of all votes taken will be reported to TAC, whether or not the vote passed.
+
+  Abstentions: In the event that a voting member, their designated Alternate Representative, or proxy, is not present during a roll call vote, or abstains from voting, that member’s fractional vote will be reallocated equally among the remaining voting members of that Segment; except for the Consumer Segment.
+
+  Remote Participation: Standing Representatives may participate in a meeting, vote, and be counted towards quorum via telephone or other similar communications equipment, or another suitable electronic communications system, including videoconferencing technology or the Internet, or any combination, if the telephone or other equipment or system permits each person participating in the meeting to communicate with all other persons in the meeting. Remote participation in a meeting shall constitute presence in person at such meeting, except where a person participates in the meeting for the express purpose of objecting to the transaction of any business on the ground that the meeting is not lawfully called or convened. Validation of votes taken via such electronic communications system will be required.
+
+  E-Mail Voting: An e-mail vote is permitted provided a notification is distributed to the subcommittee distribution list that includes a detailed description of the issue or proposition. A request for an e-mail vote can only be initiated by the Chair or Vice Chair. A quorum of Standing Representatives must participate in the e-mail vote. Participation requires casting a vote, or abstaining. Votes shall be submitted to ERCOT for tallying by the close of two Business Days after notification of the vote. Votes are tallied in the same manner as a regular meeting. The final tally shall be distributed to the subcommittee distribution list and posted on the ERCOT website.
+
+2. Protocol Revision Subcommittee (PRS)
+
+  The PRS is mandated by the ERCOT Protocols.
+
+  Membership: Membership shall consist of two Standing Representatives from each Segment. Each Standing Representative may designate in writing an Alternate Representative who may attend meetings, vote on the Standing Representative’s behalf and be counted toward establishing a quorum. However, Standing Representatives at PRS may not assign proxy
+
+  Quorum: In order to take action, a quorum must be present. A quorum is defined as at least one Standing Representative in each of at least four Segments. Standing Representatives may participate in a meeting in-person or remotely (See Remote Participation below).
+
+  Votes: At all meetings, each Segment shall have one Segment Vote. The representative of each Voting Entity, present at the meeting and participating in the vote, shall receive an equal fraction of its Segment’s Vote, except for the Consumer Segment which shall be divided into three subsegments (Residential, Commercial, and Industrial) that receive one third of the Consumer Segment Vote. Within each Consumer Segment subsegment, the representative of each Voting Entity casting a vote shall receive an equal fraction of its subsegment’s vote. For the Consumer Segment, if no representative from a subsegment casts a vote, such subsegment’s fractional vote is allocated equally to the subsegment(s) that cast(s) a vote. For purposes of counting votes in the Consumer Segment, an abstention shall not be considered as a cast vote.
+
+  Voting Entities: Entities entitled to vote (Voting Entities) are ERCOT Corporate Members, ERCOT Associate Members, and ERCOT Adjunct Members. Voting Entities must align themselves each calendar year with a Segment for which they qualify or, for Adjunct Members, a Segment to which they are similar. Voting Entities that align themselves with a Segment must be aligned with that same Segment for all TAC subcommittees, and remain aligned with that Segment for the entire calendar year. For each Subcommittee that is part of Section V. G. 2., a Member entity and its affiliates that are also ERCOT Members must designate one Segment in which to participate and vote for the Subcommittee term regardless of the Segment for which the entity or its affiliate qualifies. Once the designation is made an entity and its affiliates may not vote in another Segment for one calendar year in that Subcommittee; provided, however, that if due to changed circumstances Members subject to such designation become no longer affiliated, the Members no longer affiliated shall each, upon notifying ERCOT, thereafter be eligible to participate and vote in the Subcommittee in a Segment for which it is eligible. If multiple affiliates attend a meeting, the Corporate Member shall designate the Voting Entity.
+
+  If Alternate Representatives are not employed by the voting member thereby represented, they must be confirmed in writing by such member (signed by a duly authorized representative of the member). Voting Entities may participate in a meeting in-person or remotely (See Remote Participation below).
+
+  Voting: Only one representative of each Voting Entity present at the meeting may vote. Voting Entities may be represented by a direct employee, or may file a letter of agency designating an individual not directly employed by the Voting Entity to vote on its behalf. Agents holding letters of agency for more than one Voting Entity may vote on behalf of only one Voting Entity at any particular meeting.
+
+  A motion of the subcommittee passes when a majority (unless a two-thirds vote is required for the motion as prescribed in Appendix A, ERCOT Meeting Rules of Order) of the aggregate of the fractional Segment Votes are (i) affirmative, and (ii) a minimum total of three. The results of all votes taken will be reported to TAC, whether or not the vote passed.
+
+  Abstentions: In the event that a representative of a Voting Entity abstains from a vote, the Segment Vote is allocated among the members casting a vote. Abstentions within the Consumer Segment shall be addressed as described above.
+
+  Remote Participation: Standing Representatives and Voting Entities may participate in a meeting, vote, and be counted towards quorum (as defined by the Quorum requirements above) via telephone or other similar communications equipment, or another suitable electronic communications system, including videoconferencing technology or the Internet, or any combination, if the telephone or other equipment or system permits each person participating in the meeting to communicate with all other persons in the meeting. Remote participation in a meeting shall constitute presence in person at such meeting, except where a person participates in the meeting for the express purpose of objecting to the transaction of any business on the ground that the meeting is not lawfully called or convened. Validation of votes taken via such electronic communications system will be required.
+
+  E-Mail Voting: An e-mail vote is permitted provided a notification is distributed to the subcommittee distribution list that includes a detailed description of the issue or proposition. E-mail votes for PRS are primarily conducted for administrative purposes. A request for an e-mail vote can only be initiated by the Chair or Vice Chair. For e-mail votes, each Standing Representative shall have one vote and a quorum of Standing Representatives must participate in the vote. Participation requires casting a vote or abstaining. The affirmative votes of eight Standing Representatives shall be the act of the subcommittee by e-mail vote. Votes shall be submitted to ERCOT for tallying by the close of two Business Days after notification of the vote. A PRS e-mail vote on a request for Urgent Status shall be submitted to ERCOT for tallying within 48 hours. The final tally shall be distributed to the subcommittee distribution list and posted on the ERCOT website.
+
+VI. Voting at Remote Meetings for TAC and TAC Subcommittees Under Extenuating Circumstances Declaration
+
+  Under extenuating circumstances (an emergency or public necessity, including but not limited to an imminent threat to public health or safety, or a reasonably unforeseen situation) and after consulting with the TAC Chair and Vice Chair, the ERCOT General Counsel may declare that remote voting is permitted for TAC and TAC Subcommittee duties and functions. A notice will be sent to all ERCOT Members and a Market Notice will be sent to all Market Participants when such a declaration begins and when the return to normal meeting procedures resumes.  Any such meeting must use conference telephone or other similar communications equipment, or another suitable electronic communications system, including videoconferencing technology or the Internet, or any combination, if the telephone or other equipment or system permits each person participating in the meeting to communicate with all other persons in the meeting. Participation in a meeting shall constitute presence in person at such meeting, except where a person participates in the meeting for the express purpose of objecting to the transaction of any business on the ground that the meeting is not lawfully called or convened.   In such meetings, TAC and TAC Subcommittees may vote via such electronic communications system.  If necessary as determined by the Chair and Vice Chair, validation of the votes taken via such electronic communications system will be conducted after the meeting. 
+
+VII. AMENDMENT
+
+These Procedures may be amended upon motion by any member of TAC and approval
+
+of that motion by vote of TAC, provided such amendment may not be in conflict with the ERCOT Bylaws, Board Procedures, or Board resolutions. The ERCOT Board may, upon its own motion, amend these Procedures upon reasonable notice to the TAC membership.
+
+Appendix A, ERCOT Meeting Rules of Order
+
+Introduction:
+
+These rules of order provide parliamentary procedure at all TAC and TAC Subcommittee meetings and are intended to ensure order and fairness in the decision making process. The minimum quorum to convene a meeting shall be as described in the TAC Procedures for each respective stakeholder group. Robert’s Rules of Order shall guide stakeholder meetings in all areas not addressed by the ERCOT Protocols, ERCOT Bylaws, TAC Procedures, subcommittee charters, or these rules. Any conflicts between these rules and Robert’s Rules of Order shall be determined in favor of these rules.
+
+Main Motions
+
+Main motions are used to present new business, such as action to be taken on Revision Requests, concepts, and methodologies.
+
+Main Motion Examples:
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  YOU WANT TO:                                                                                                                   YOU SAY:                               2ND?   DEBATE?   AMEND?
+  ------------------------------------------------------------------------------------------------------------------------------ -------------------------------------- ------ --------- -----------
+  Endorse “X” methodology                                                                                                        I move to endorse “X” methodology      Yes    Yes       Yes
+
+  Take action as defined in Protocol Section 21 on an NPRR (e.g., recommend approval, reject, defer decision, refer or remand)   I move to recommend approval of NPRR   Yes    Yes       Yes
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Secondary Motions
+
+Secondary motions address procedural issues and assist with the order and management of the meeting. They are applicable to pending main motions and discussion items equally.
+
+Secondary Motion Examples:
+
+  ---------------------------------------------------------------------------------------------------------------------
+  YOU WANT TO:                         YOU SAY:                                              2ND?   DEBATE?   AMEND?
+  ------------------------------------ ----------------------------------------------------- ------ --------- ---------
+  Close the meeting                    I move to adjourn                                     Yes    No        No
+
+  Take break                           I move to recess for                                  Yes    No        Yes
+
+  Lay aside temporarily                I move to table/defer                                 Yes    Yes       Yes
+
+  Return to a previously tabled item   I move to remove from the table the item regarding*   Yes    Yes       Yes
+
+  Stop debate and vote                 I call the question*                                  Yes    No        No
+
+  Limit or extend debate               I move that debate be limited/extended to*            Yes    No        No
+
+  Refer to another stakeholder group   I move to refer the motion/discussion to              Yes    Yes       Yes
+
+  Modify the wording of a motion       Will you accept a friendly amendment to               No     No        No
+
+  Modify the wording of a motion       I move to amend the motion to                         Yes    Yes       Yes
+
+  Withdraw motion                      I withdraw my motion                                  No     No        No
+
+  Reconsider a previous motion         I move to reconsider                                  Yes    Yes       Yes
+
+  Ask a question on the rules          Question on the rules/point of order                  No     No        No
+
+  Suspend the rules of Notice          I move to waive notice for*                           Yes    Yes       No
+  ---------------------------------------------------------------------------------------------------------------------
+
+* Requires a two thirds vote in favor for approval.
+
+Motion Descriptions:
+
+Table:
+This motion postpones a discussion item indefinitely or for a specified time. If a time is specified the group may return to the discussion item prior to the expiration of the specified time with the adoption of a motion to take from the table. If no time to return to the item was specified the chair may direct the return to the item at their discretion.
+
+Call the question:
+
+This motion closes debate and is applicable only to the immediately pending motion. Once adopted, no further debate is allowed and a vote on the pending question must immediately be conducted. If a motion to call the question is adopted while an amendment is pending, then a vote is taken immediately on the amendment. Once the vote on the amendment is complete, then debate on the main motion may continue. To be applicable to a main motion, a motion to call the question must be adopted while the main motion is immediately pending. This motion requires a two thirds vote in favor for approval.
+
+Limit/Extend debate:
+
+The motion to limit debate requires that all debate regarding a particular pending motion be completed before the expiration of a specified amount of time. The allotted time for discussion may be extended through a motion to extend debate. The chair must immediately conduct a vote on the pending motion at the expiration of time. This motion requires a two thirds vote in favor for approval.
+
+Refer:
+The Chair may, without objection by any voting member, direct any discussion item to any sub group, working group or task force of the subcommittee, or request review by any other TAC Subcommittee. If adopted, this motion requires the Chair to take this action per the direction of the motion.
+
+Friendly Amendment:
+
+This is a request to revise the language of a pending motion and is directed at the mover and second of a pending motion. If accepted by the mover and the second, the pending motion is amended without the need for action by the group. If the friendly amendment is opposed by either the pending motion mover or the second, then the pending motion remains in its original form. If the friendly amendment is accepted by the mover, but opposed by the main motion second, and the second is withdrawn, the Chair may solicit an alternate second. If an alternate second is provided, the pending motion is amended without the need for action by the group. This motion has the same class and rank order as the more formal motion to amend. A pending motion may also be amended through the formal amendment process (see “Amend” below).
+
+Amend:
+If adopted, this motion revises the language of the pending motion regardless of opposition by the pending motion mover or second. This motion itself requires a second and is adopted by a vote of the group per TAC Procedures.
+
+Waive Notice:
+
+The usual course of business for TAC and TAC Subcommittees is to post and distribute a meeting agenda indicating items upon which respective groups will be voting at least one week in advance. Adoption of a motion to waive notice authorizes a vote upon items with insufficient notice. This motion requires a two thirds vote in favor for approval.
+
+Withdraw:
+
+This is a unilateral action by the mover or the second of a pending motion. If the mover withdraws, the pending motion is terminated. If the second withdraws, then the motion remains as a properly laid motion without a second for which any other member may second. A withdrawal by either the mover or the second ceases to be available once the Chair has begun the vote on the motion or while a motion to call the question is pending.
+
+Reconsider:
+
+This motion renews consideration of a particular item or motion previously considered during the current meeting. The mover of a motion to reconsider must be a member that voted on the prevailing side of the motion to be reconsidered, and must clearly identify the motion or action to be reconsidered. Once a motion to reconsider has been adopted by the committee, any member may move to void, amend or, reinstate the motion or decision that is reconsidered. If a motion to reconsider has been adopted regarding a particular item, but no further action is then taken, the previous motion or decision remains in effect as if the motion to reconsider had not been adopted. For the purposes of this paragraph, a meeting held over multiple days shall be considered as a single meeting if it is held by the same stakeholder group and the days of the meeting are contiguous.

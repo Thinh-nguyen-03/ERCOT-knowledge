@@ -1,0 +1,524 @@
+Overview of 2025 State of the
+Market Report for ERCOT
+Presented to:
+ERCOT TAC
+Jeff McDonald, Ph.D.
+Director, ERCOT IMM
+Vice President, Potomac Economics
+August 13, 2026
+© 2025 Potomac Economics
+
+1
+
+Highlights of the 2025 State of the Market Report
+• Summary of market pricing trends
+- All-in price of electricity
+- Implied heat rate
+- Shortage pricing
+
+• Summary of operating reserve trends
+• Conservative operations
+- Reliability Unit Commitment (RUC)
+- Ancillary Service Methodology
+
+© 2025 Potomac Economics
+
+2
+
+Summary of market pricing trends
+• All-in price of electricity increased by only 13.8% despite 61% increase
+in the price of natural gas (YoY)
+• The implied heat rate (price of electricity divided by the price of gas)
+decreased by 28% (YoY)
+• Shortage pricing from the Operating Reserve Demand Curve (ORDC)
+was $0.02/MWh on average for the year, the lowest since the ORDC
+was implemented
+• Since the implementation of Real-Time Co-Optimization in December
+2025, shortage pricing via the Ancillary Service Demand Curves
+(ASDCs) has been minimal
+
+© 2025 Potomac Economics
+
+3
+
+The all-in price of electricity was up slightly in 2025,
+mostly due to the price of natural gas
+Energy w/o Adders
+
+Electricity Cost ($ per MWh)
+
+$180
+
+ORDC Adder
+Reliability Adder
+
+$160
+
+Ancillary Services
+
+$140
+
+Uplift
+Natural Gas Price
+
+$120
+
+$10
+
+$9
+$8
+
+$7
+$6
+
+$100
+
+$5
+
+$80
+
+$4
+
+$60
+
+$3
+
+$40
+
+$2
+
+$20
+
+$1
+
+$0
+
+$0
+21 22 23 24 25
+Annual
+
+© 2025 Potomac Economics
+
+Natural Gas Price ($ per MMBtu)
+
+$200
+
+J F M A M J J A S O N D J F M A M J J A S O N D
+2024
+
+2025
+4
+
+The implied heat rate was down in 2025, indicating
+less reliance on more expensive resources
+Implied Marginal Heat Rate (MMBtu/MWh)
+
+35
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+Natural Gas Price ($ per MMBtu)
+
+30
+
+$7.30
+
+$5.84
+
+$2.22
+
+$1.90
+
+$3.06
+
+M
+
+M
+
+J
+
+S
+
+25
+20
+15
+10
+5
+0
+
+J
+
+F
+
+A
+
+J
+
+2025
+© 2025 Potomac Economics
+
+A
+
+O
+
+N
+
+D
+
+21
+
+22
+
+23
+
+24
+
+25
+
+Annual
+5
+
+Shortage pricing was the lowest annual average
+since the ORDC was implemented
+ORDC Active Hours
+
+Avg ORDC Active Hours
+
+ORDC Adder Active Hours
+
+25
+
+Avg ORDC All Hours
+
+20
+
+2021
+2022
+2023
+2024
+2025
+
+Active
+Hours
+612
+1,458
+773
+161
+57
+
+Avg Active Hours Avg All Hours
+$ per MWh
+$ per MWh
+$91.75
+$7.46
+$36.90
+$6.94
+$12.12
+$1.27
+$11.07
+$0.25
+$2.26
+$0.02
+
+$18
+
+$15
+
+$12
+
+15
+
+$9
+
+10
+
+$6
+
+5
+
+$3
+
+0
+
+$0
+Jan
+
+© 2025 Potomac Economics
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Jun
+
+Jul
+
+Aug
+
+Sep
+
+Oct
+
+Nov
+
+Average ORDC Adder ($ per MWh)
+
+30
+
+Dec
+6
+
+Summary of operating reserve trends
+• Average PRC grew by nearly 2 GW per year from 2016 to 2022
+• From 2016 to 2022:
+- Average PRC was approximately 5,000 MW.
+- PRC was below 6,500 MW for most of the year and was below 3,000 MW
+for 30-160 hours per year.
+
+• In 2025:
+- Average PRC was over 11,000 MW
+- PRC was only below 6,500 MW for 106 hours and hasn’t been below 3,000
+MW since 2023
+
+• Most of this increase in PRC can be attributed to installations of solar
+and energy storage resources
+• Despite this surplus of supply, ERCOT’s has adopted more
+conservative policies for maintaining excessive levels of operating
+reserves
+© 2025 Potomac Economics
+
+7
+
+The pricing outcomes are a result of the supply
+surplus currently in the ERCOT market
+12
+
+PRC Average
+
+PRC Minimum
+
+Hours of PRC <= 6.5 GW
+
+Hours of PRC <= 3 GW
+
+10
+
+10
+
+8
+
+8
+
+6
+
+6
+
+4
+
+4
+
+2
+
+2
+
+0
+
+2016
+
+© 2025 Potomac Economics
+
+2017
+
+2018
+
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+Hours (1000s)
+
+Physical Responsive Capability (GW)
+
+12
+
+0
+8
+
+ERCOT has argued that PRC is an inappropriate metric
+for assessing reliability
+• PRC measures the instantaneous volume of reserves available to the
+grid in the event of a contingency. Some arguments ERCOT has made
+for why it isn’t a sufficient measure of reliability:
+- Increased Reliability Risks due to Renewables and Batteries
+Renewables are intermittent, and batteries are duration-limited, and so
+additional reserves are needed to ensure the reliability of the grid. That
+said, if these risks were substantial under prevailing conditions, they would
+manifest through shortage conditions. Instead, the frequency of shortage
+conditions has dropped precipitously in recent years.
+- PRC includes capacity from out-of-market reliability actions
+After adjusting for the supply and demand impacts of Reliability Unit
+Commitments and Emergency Reserve Service resources, the adjusted
+frequency of shortage conditions still indicated that the system had a
+surplus of capacity in 2025
+
+© 2025 Potomac Economics
+
+9
+
+Despite the supply surplus, ERCOT continues to
+operate the grid conservatively
+• Since Winter Storm Uri, ERCOT has established a “conservative
+operations” policy to maintain a high level of reserves on the grid at all
+times
+• These reserves are brought online either through out-of-market
+reliability actions like Reliability Unit Commitment (RUC) or through
+inflated procurement targets for ancillary services (AS)
+- RUC is a process for instructing resources to commit out-of-market to
+manage congestion or system-wide capacity shortages
+- The Ancillary Service Methodology is used to determine the volumes of
+operating reserves the ERCOT wholesale markets will seek to procure
+
+• Excess operating reserves tend to suppress clearing prices for energy,
+running counter to long-term concerns about resource adequacy
+
+© 2025 Potomac Economics
+
+10
+
+Trends related to Reliability Unit Commitment
+• From 2017 through 2020
+- Resource-hours committed through RUC per year ranged from 202 to 613
+- The average startup time for resources committed through RUC was
+approximately three hours
+
+• Since 2021
+- Annual RUC commitments have consistently totaled thousands of
+resource-hours
+- The average startup time for resources committed through RUC increased
+to almost seven hours
+
+• In 2025, RUC was used extensively to manage congestion rather than
+system-wide scarcity
+• One legitimate and growing challenge for ERCOT in using RUC
+appropriately is the (in)accuracy of the forecast for battery State of
+Charge
+© 2025 Potomac Economics
+
+11
+
+RUC Instructions Have Been Issued Further in
+Advance on Average Since Winter Storm Uri
+
+© 2025 Potomac Economics
+
+12
+
+Forecast error for battery State of Charge is a growing
+challenge for using RUC appropriately
+
+© 2025 Potomac Economics
+
+13
+
+The AS Methodology has been inflated to procure more
+reserves in-market
+• In response to ERCOT’s increased use of RUC, stakeholders pushed
+for more reserves to be procured in-market
+• Parameters that influence AS Procurement targets
+- Net load forecast error time-horizon
+- Operating to a “Watch” vs firm load shed
+- Discounting ESR capacity in reserve calculations
+- Discounting online headroom from capacity not providing AS
+
+© 2025 Potomac Economics
+
+14
+
+Operating reserve procurement targets have increased
+considerably since 2020
+9,000
+
+10-Minute Reserves
+
+Reserve Requirements (MW)
+
+8,000
+
+30-Minute Reserves
+
+7,000
+6,000
+5,000
+
+4,000
+3,000
+2,000
+1,000
+0
+2020
+
+2021
+
+2022
+
+2023
+ERCOT
+
+© 2025 Potomac Economics
+
+2024
+
+2025
+
+2024
+
+2024
+
+2024
+
+MISO NYISO ISONE
+
+2024
+
+2024
+
+SPP CAISO
+
+15
+
+AS Methodology sets procurement well beyond providing
+incremental value in reducing probability of load shed
+
+© 2025 Potomac Economics
+
+16
+
+Questions?
+
+© 2025 Potomac Economics
+
+17
+
+

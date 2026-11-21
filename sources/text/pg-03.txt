@@ -1,0 +1,361 @@
++-----------------------------------------------------------------------+
+| ERCOT Planning Guide                                                  |
+|                                                                       |
+| Section 3: Regional Planning                                          |
+|                                                                       |
+| October 29, 2026                                                      |
++=======================================================================+
+|                                                                       |
++-----------------------------------------------------------------------+
+|                                                                       |
++-----------------------------------------------------------------------+
+|                                                                       |
++-----------------------------------------------------------------------+
+|                                                                       |
++-----------------------------------------------------------------------+
+
+3 Regional planning 3-1
+
+3.1 Communications 3-1
+
+3.1.1 Overview of Major Transmission Planning Activities 3-1
+
+3.1.1.1 Long-Term System Assessment 3-1
+
+3.1.1.2 Regional Transmission Plan 3-2
+
+3.1.1.3 Regional Planning Group Project Reviews 3-2
+
+3.1.1.4 Generation Interconnection Process 3-3
+
+3.1.1.5 Geomagnetic Disturbance (GMD) Vulnerability Assessment 3-3
+
+3.1.1.6 Grid Reliability and Resiliency Assessment (GRRA) 3-3
+
+3.1.2 Regional Planning Group Project Submission 3-5
+
+3.1.2.1 All Projects 3-5
+
+3.1.3 Project Evaluation 3-6
+
+3.1.3.1 Definitions of Reliability-Driven and Economic-Driven Projects 3-7
+
+3.1.3.2 Reliability-Driven Project Evaluation 3-8
+
+3.1.4 Regional Transmission Plan Development Process 3-8
+
+3.1.4.1 Development of Regional Transmission Plan 3-8
+
+3.1.4.1.1 Regional Transmission Plan Cases 3-9
+
+3.1.4.2 Use of Regional Transmission Plan 3-10
+
+3.1.5 Regional Planning Group Comment Process 3-10
+
+3.1.6 Notify PUCT of Recommended Transmission Projects 3-12
+
+3.1.7 Steady State Transmission Planning Load Forecast 3-12
+
+3.1.8 Planning Geomagnetic Disturbance (GMD) Activities 3-12
+
+3.1.9 Transmission Interconnection Study 3-14
+
+3 Regional planning
+
+3.1 Communications
+
+3.1.1 Overview of Major Transmission Planning Activities
+
+(1) The process of planning a reliable and efficient transmission system for the ERCOT Region is composed of several types of activities and studies.
+
+(2) The effective date for the Year 6 case is the 2014 Steady State Working Group (SSWG) Data Set B base case release date. Consideration of the Year 6 case in the Regional Transmission Plan is required starting in 2014.
+
+3.1.1.1 Long-Term System Assessment
+
+(1) The Long-Term System Assessment (LTSA) is performed by ERCOT in coordination with the Regional Planning Group (RPG) on a biennial basis (in even-numbered years) and reviewed annually. The study uses scenario analysis techniques to assess the potential needs of the ERCOT System up to 20 years into the future. The role of the LTSA is not to recommend the construction of specific system upgrades, due to the high degree of uncertainty associated with the amount and location of loads and Resources in this timeframe. Instead, the role of the LTSA is to evaluate the system upgrades that are indicated under each of a wide variety of scenarios in order to identify upgrades that are robust across a range of scenarios or might be more economic than the upgrades that would be determined considering only needs of Years 1 to 6 in the Regional Transmission Plan development.
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [PGRR116: Insert paragraph (2) below upon system implementation of NPRR1240:]                                                                                  |
+|                                                                                                                                                                |
+| (2) ERCOT shall post the LTSA as follows:                                                                                                                      |
+|                                                                                                                                                                |
+|   (a) Versions that include ERCOT Critical Energy Infrastructure Information (ECEII) shall be posted on the Market Information System (MIS) Secure Area;       |
+|                                                                                                                                                                |
+|   (b) Versions that include both ECEII and Protected Information shall be posted on the MIS Certified Area for Transmission Service Providers (TSPs) only; and |
+|                                                                                                                                                                |
+|   (c) Versions redacted of ECEII and Protected Information shall be posted on the ERCOT website.                                                               |
++================================================================================================================================================================+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+3.1.1.2 Regional Transmission Plan
+
+(1) The Regional Transmission Plan is developed annually by ERCOT, in coordination with the RPG and Transmission Service Providers (TSPs). The Regional Transmission Plan addresses regional and ERCOT-wide reliability and economic transmission needs and the planned improvements to meet those needs for the upcoming six years starting with the SSWG base cases. These planned improvements include projects previously approved by the ERCOT Board, projects previously reviewed by the RPG, new projects that will be refined at the appropriate time by TSPs in order to complete RPG review, and the local projects currently planned by TSPs. Combined, these projects represent ERCOT’s plan which addresses the reliability and efficiency of the ERCOT System in order to meet North American Electric Reliability Corporation (NERC) Reliability Standards, the Protocols, Nodal Operating Guides and this Planning Guide. Projects that are included in the Regional Transmission Plan are not considered to have been endorsed by ERCOT until they have undergone the appropriate level of RPG Project Review as outlined in Protocol Section 3.11.4, Regional Planning Group Project Review Process, if required. The process used by ERCOT to develop the Regional Transmission Plan is outlined in Section 3.1.4, Regional Transmission Plan Development Process.
+
+(2) ERCOT shall post the Regional Transmission Plan by December 31 of each year as follows:
+
+  (a) Versions that include ERCOT Critical Energy Infrastructure Information (ECEII) shall be posted on the Market Information System (MIS) Secure Area;
+
+  (b) Versions that include both ECEII and Protected Information shall be posted on the MIS Certified Area for TSPs only; and
+
+  (c) Versions redacted of ECEII and Protected Information shall be posted on the ERCOT website.
+
+(3) ERCOT shall include in the Regional Transmission Plan report a list of Transmission Facilities that are loaded above 95% of their applicable Ratings for the following conditions:
+
+  (a) Normal system conditions; or
+
+  (b) Following the contingency loss of a single generating unit, transmission circuit, transformer, or common tower outage.
+
+3.1.1.3 Regional Planning Group Project Reviews
+
+(1) Except for minor transmission projects that have only localized impacts and projects that are directly associated with the interconnection of new Generation Resources and Energy Storage Resources (ESRs), all transmission projects in the ERCOT Region undergo a formal review by the RPG in accordance with Protocol Section 3.11.4, Regional Planning Group Project Review Process. In addition, ERCOT performs an independent analysis of the need for major transmission projects that are submitted for RPG Project Review. The affirmative result of this review is formal endorsement of the project by ERCOT. This ERCOT project endorsement is intended to support, to the extent applicable, a finding by the Public Utility Commission of Texas (PUCT) that a project is necessary for the service, accommodation, convenience, or safety of the public within the meaning of Public Utility Regulatory Act, TEX. UTIL. CODE ANN. § 37.056 (Vernon 1998 and Supp. 2007) and P.U.C. SUBST. R. 25.101, Certification Criteria.
+
+3.1.1.4 Generation Interconnection Process
+
+(1) This process facilitates the interconnection of new generation units in the ERCOT Region by assessing the transmission upgrades necessary for new generating units to operate reliably. The process to study interconnecting new generation or modifying an existing generation interconnection to the ERCOT Transmission Grid is covered in Section 5, Generator Interconnection or Modification. The generation interconnection study process primarily covers the direct connection of generation Facilities to the ERCOT Transmission Grid and directly-related projects. Additional upgrades to the ERCOT Transmission Grid that might be cost-effective as a result of new or modified generation may be initiated by any stakeholder through the RPG Project Review procedure described in Protocol Section 3.11.4, Regional Planning Group Project Review Process, at the appropriate time, subject to the confidentiality provisions in Section 5.
+
+3.1.1.5 Geomagnetic Disturbance (GMD) Vulnerability Assessment
+
+(1) The purpose of Geomagnetic Disturbance (GMD) vulnerability assessments is to provide a coordinated assessment and corrective action plan(s) for the ERCOT System to meet ERCOT and NERC GMD reliability performance criteria for GMD events. The most recent Geomagnetically-Induced Current (GIC) system models developed and maintained by ERCOT in collaboration with the TSPs and Resource Entities as described in Section 6.11, Process for Developing Geomagnetically-Induced Current (GIC) System Models, shall be used as the basis for the ERCOT benchmark and supplemental GMD vulnerability assessments. Projects that are included in the corrective action plan(s) are not considered to have been endorsed by ERCOT until they have undergone the appropriate level of RPG Project Review as outlined in Protocol Section 3.11.4, Regional Planning Group Project Review Process, if required. The process used by ERCOT to develop the GMD benchmark and supplemental vulnerability assessments is outlined in Section 3.1.8, Planning Geomagnetic Disturbance (GMD) Activities.
+
+3.1.1.6 Grid Reliability and Resiliency Assessment (GRRA)
+
+(1) ERCOT shall perform the Grid Reliability and Resiliency Assessment (GRRA) in coordination with the RPG on a biennial basis in even-numbered years to assess the reliability and resiliency of the ERCOT System in extreme weather scenarios. The study shall:
+
+  (a) Consider the impact of different levels of thermal and renewable generation availability;
+
+  (b) Identify areas of the ERCOT Region that face significant grid reliability and resiliency issues, taking into account the impact of potential Outages caused by regional extreme weather scenarios on Customers; and
+
+  (c) Identify transmission upgrades that are expected to increase the reliability or resiliency of the ERCOT System in extreme weather scenarios based on the criteria established in Section 4.1.2, Resiliency Criteria.
+
+(2) Extreme weather scenarios shall be selected for one or more study cases. The study cases prepared will be adjusted to have sufficient power supply to meet the demand. The study cases shall be based on the current Regional Transmission Plan study cases, utilizing coincident load values, and may include scenarios that vary one or more of the following modeling assumptions:
+
+  (a) Different patterns of generation;
+
+  (b) Extreme peak load;
+
+  (c) Multiple Transmission Element Outages; and/or
+
+  (d) Multiple Generation Resource Outages.
+
+(3) Under the extreme weather study scenarios described in paragraph (2) above, the post-contingency performance of the ERCOT System shall be evaluated for the following contingency events:
+
+  (a) Categories P0, P1, and P2.1 as defined in NERC Reliability Standard TPL-001, System Performance Under Normal Conditions; and
+
+  (b) Common tower outages as defined in Section 4.1.1.1, Planning Assumptions.
+
++-------------------------------------------------------------------------------------------------------------------------------+
+| [PGRR129: Insert paragraph (4) below upon system implementation:]                                                             |
+|                                                                                                                               |
+| (4) ERCOT shall post the GRRA as follows:                                                                                     |
+|                                                                                                                               |
+|   (a) Versions that include ECEII shall be posted on the MIS Secure Area;                                                     |
+|                                                                                                                               |
+|   (b) Versions that include both ECEII and Protected Information shall be posted on the MIS Certified Area for TSPs only; and |
+|                                                                                                                               |
+|   (c) Versions redacted of ECEII and Protected Information shall be posted on the ERCOT website.                              |
++===============================================================================================================================+
++-------------------------------------------------------------------------------------------------------------------------------+
+
+3.1.2 Regional Planning Group Project Submission
+
+(1) Transmission projects that are proposed for RPG Review, pursuant to Protocol Section 3.11.4.1, Project Submission, shall be submitted according to the provisions outlined in Section 3.1.2.1, All Projects.
+
+3.1.2.1 All Projects
+
+(1) The submittal of each transmission project (60 kV and above) for RPG Project Review, except for the Transmission Facility improvements submitted based on Section 9.5, Batch Zero Study Refinement and Delivery of Transmission Plan, should include the following elements:
+
+  (a) The proposed project description including expected cost, feasible alternative(s) considered, transmission topology and Transmission Facility modeling parameter data, and all study cases used to generate results supporting the need for the project in electronic format (powerflow data should be in PTI Power System Simulator for Engineering (PSS/E) RAWD format). Also, the submission should include accurate maps and one-line diagrams showing locations of the proposed project and feasible alternatives;
+
+  (b) Identification of the SSWG, Dynamics Working Group (DWG), or Regional Transmission Plan powerflow cases used as a basis for the study and any associated changes that describe and allow accurate modeling of the proposed project;
+
+  (c) Description and data for all changes made to the SSWG base cases or Regional Transmission Plan cases used to identify the need for the project, such as Resource unavailability and area peak load forecast;
+
+  (d) A description of the reliability and/or economic problem that is being solved;
+
+  (e) Information that supports any load values that differ from the load forecast used in the base cases identified in item (b) above, including any relevant historical load information or evidence demonstrating that a submitted load value is Substantiated Load;
+
+  (f) A description of the Subsynchronous Resonance (SSR) impact of the proposed project to the generation Facilities in the system pursuant to Protocol Section 3.22.1, Subsynchronous Resonance Vulnerability Assessment, and potential SSR Countermeasure plan for any identified SSR vulnerability, if applicable;
+
+  (g) Desired/needed in-service date for the project, and feasible in-service date, if different;
+
+  (h) The phone number and email address of the single point of contact who can respond to ERCOT and RPG participant questions or requests for additional information necessary for stakeholder review; and
+
+  (i) Analysis of rejected alternatives, including cost estimates, and other factors considered in the comparison of alternatives with the proposed project.
+
+(2) Both transmission and distribution solutions to performance deficiencies may be considered where applicable.
+
+(3) If there is any other information, not included above, that the submitting party believes is relevant to consideration of the need for any submitted project, the submitting party should include that information in the project submission.
+
+3.1.3 Project Evaluation
+
+(1) ERCOT and the RPG shall evaluate proposed transmission projects using a variety of tools and techniques as needed to ensure that the system is able to meet applicable reliability criteria in a cost-effective manner. For most proposed projects, except for the Transmission Facility improvements submitted based on Section 9.5, Batch Zero Study Refinement and Delivery of Transmission Plan, several alternatives will be identified to meet the reliability criteria or other performance improvement objectives that the proposed project is designed to meet. The project alternative with the expected lowest cost over the life of the project is generally recommended, subject to consideration of the expected long-term system needs in the area, including, as applicable, any evidence of Substantiated Load, and subject to consideration of the relative operational impacts of the alternatives.
+
+(2) In some cases, one alternative may be to dispatch the system in such a way that all reliability requirements are met, even without the proposed transmission project or any transmission alternative, resulting in a less efficient dispatch than what would be required to meet the reliability requirements if the proposed project was in place. Consideration of the merits of this alternative relative to the proposed transmission project is more complex. To facilitate the discussion and consideration of these alternatives, ERCOT has adopted certain definitions and practices, described in paragraph (4) of Protocol Section 3.11.2, Planning Criteria, and Sections 3.1.3.1, Definitions of Reliability-Driven and Economic-Driven Projects, and 3.1.3.2, Reliability-Driven Project Evaluation, below.
+
+(3) In conducting an independent review of any project, ERCOT may, in its discretion, make adjustments to the planning case to ensure that the case reaches a solution. When conducting an independent review of any project classified as Tier 1 pursuant to Protocol Section 3.11.4, Regional Planning Group Project Review Process, ERCOT must provide reasonable advance notice to the RPG of any proposed adjustments and an opportunity for stakeholder comment on them.
+
+(4) As part of its independent review of any project classified as Tier 1 pursuant to Protocol Section 3.11.4, except for the Transmission Facility improvements submitted based on Section 9.5 ERCOT shall:
+
+  (a) Perform a generation sensitivity analysis. The generation sensitivity analysis will evaluate the effect that proposed Generation Resources and/or ESRs in or near the study area will have on a recommended transmission project. Generation Resources and ESRs that have signed Standard Generation Interconnection Agreements (SGIAs) but were not included in the study cases because they did not meet all of the requirements for inclusion in the cases pursuant to Section 6.9, Addition of Proposed Generation to the Planning Models, will be included in the sensitivity analysis. ERCOT shall not consider the results of the generation sensitivity analysis in determining project need during its independent review of the project; and
+
+  (b) Evaluate impacts related to the load scaling used in the study on any constraints resulting in project recommendations. The results of this evaluation shall be included in the final recommendations in the independent review.
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [PGRR127: Replace paragraph (4)(b) above with the following upon system implementation:]                                                                                                                                                                                                                            |
+|                                                                                                                                                                                                                                                                                                                     |
+|   (b) Evaluate impacts related to large generators in or near the study area that are included in the study cases but are not in the interconnection queue by removing those generators from the analysis. The results of this evaluation shall be included in the final recommendations in the independent review. |
++=====================================================================================================================================================================================================================================================================================================================+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(5) ERCOT’s independent review shall incorporate and consider historical load and any Substantiated Load.
+
+3.1.3.1 Definitions of Reliability-Driven and Economic-Driven Projects
+
+(1) Proposed transmission projects are categorized for evaluation purposes into two types:
+
+  (a) Reliability-driven projects; and
+
+  (b) Economic-driven projects.
+
+(2) The differentiation between these two types of projects is based on whether a simultaneously-feasible, security-constrained generating unit commitment and dispatch is expected to be available for all hours of the planning horizon that can resolve the system reliability issue that the proposed project is intended to resolve. If it is not possible to simulate a dispatch of the Generation Resources and ESRs such that all reliability criteria are met without the project, and the addition of the project allows the reliability criteria to be met, then the project is classified as a reliability-driven project. If it is possible to simulate a dispatch of the Generation Resources and ESRs in such a way that all reliability criteria are met without the project, but the project may allow the reliability criteria to be met at a lower total cost, then the project is classified as an economic-driven project. When performing a simulation of the generating unit commitment and dispatch, only contingencies and limits that would be considered in the operations horizon shall be simulated.
+
+3.1.3.2 Reliability-Driven Project Evaluation
+
+(1) For reliability-driven projects, the comparison of project costs generally includes only the relative capital costs of the alternatives. In the case of Tier 1 and 2 projects, any differences in expected ERCOT System production costs between the alternatives may be included in the consideration of the relative costs of the alternatives, due to larger potential impacts on losses and congestion of these projects.
+
+3.1.4 Regional Transmission Plan Development Process
+
+(1) As prescribed by Section 3.1.1.2, Regional Transmission Plan, the purpose of the Regional Transmission Plan is to provide a coordinated plan for the ERCOT System. This Section describes the process used by ERCOT to develop the Regional Transmission Plan. While unanticipated changes in Load and generation may require additional projects to be needed that were not included in the current Regional Transmission Plan, or require additional evaluation of projects included in the current Regional Transmission Plan when they are submitted for RPG Project Review, the Regional Transmission Plan provides a reasonable and supportable basis for analyses of the planned ERCOT Transmission Grid.
+
+3.1.4.1 Development of Regional Transmission Plan
+
+(1) The planning process begins with computer modeling studies of the generation and Transmission Facilities and substation Loads under normal conditions in the ERCOT System. Contingency conditions along with changes in Load and generation that might be expected to occur in operation of the ERCOT Transmission Grid are also modeled. To maintain adequate service and minimize interruptions during Outages, model simulations are used to identify adverse results based upon the planning criteria and to examine the effectiveness of various problem-solving alternatives.
+
+(2) The effectiveness of each alternative will be evaluated under a variety of possible operating environments because Loads and operating conditions cannot be predicted with certainty. As a result, repeated simulations under different conditions are often required. In addition, options considered for future installation may affect other alternatives so that several different combinations must be evaluated, thereby multiplying the number of simulations required.
+
+(3) Once feasible alternatives have been identified, the process is continued with a comparison of those alternatives. To determine the most favorable, the short-range and long-range benefits of each alternative must be considered including operating flexibility and compatibility with future plans.
+
+3.1.4.1.1 Regional Transmission Plan Cases
+
+(1) The starting base cases for the Regional Transmission Plan development are created by removing all Tier 1, 2, and 3 projects that have not received RPG acceptance or, if applicable, ERCOT endorsement from the most recent SSWG base cases.
+
+(2) ERCOT shall set all non-seasonal Mothballed Generation Resources and Mothballed ESRs to out of service in the Regional Transmission Plan reliability base cases. ERCOT shall add proposed Generation Resources and ESRs that have met the criteria for inclusion in Section 6.9, Addition of Proposed Generation to the Planning Models, to the Regional Transmission Plan base cases.
+
+(3) ERCOT shall update the Regional Transmission Plan reliability and economic base cases to reflect any updates to the amount of Switchable Generation Resource (SWGR) capacity available to the ERCOT Region.
+
+(4) ERCOT may, in its discretion, set a Generation Resource or ESR to out of service in the Regional Transmission Plan base cases prior to receiving a Notification of Suspension of Operations (NSO) if the Resource Entity notifies ERCOT of its intent to retire/mothball the Resource and/or makes a public statement of its intent to retire/mothball the Resource. ERCOT must provide reasonable advance notice to the RPG of any proposed Resource retirements/mothballs and allow an opportunity for stakeholder comments.
+
+  (a) ERCOT will post and maintain the current list of Generation Resources and ESRs that will be set to out of service pursuant to paragraph (4) above on the ERCOT website.
+
+(5) In its Regional Transmission Plan studies, ERCOT shall first consider transmission needs without Remedial Action Scheme (RAS) or Constraint Management Plan (CMP) actions. After evaluating these needs, ERCOT may model a RAS or CMP in the Regional Transmission Plan cases only if ERCOT’s initial studies did not identify a transmission project to exit the RAS or CMP, or if a transmission project to exit the RAS or CMP is not expected to be in service by the season and year the case represents.
+
+(6) ERCOT may, in its discretion, make other adjustments to any Regional Transmission Plan base case to ensure that the case reaches a solution. ERCOT must provide reasonable advance notice to the RPG of any proposed adjustments and an opportunity for stakeholder comment on them.
+
+(7) ERCOT shall apply a reliability margin on applicable Interconnection Reliability Operating Limits (IROLs) and/or stability-related system operating limits, consistent with the ERCOT operating procedures when such limits are modeled in the Regional Transmission Plan reliability and economic cases. ERCOT shall use the current operating limit with reliability margin applied or best available information in determining the appropriate modeled limit for the future year being evaluated.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [PGRR127: Insert paragraph (8) below upon system implementation:]                                                                                                                                                       |
+|                                                                                                                                                                                                                         |
+| (8) ERCOT must provide reasonable advance notice to the RPG of additional generation proposed to be added to the base cases in accordance with paragraph (5) of Section 6.9 and an opportunity for stakeholder comment. |
++=========================================================================================================================================================================================================================+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+3.1.4.2 Use of Regional Transmission Plan
+
+(1) If a project submitted for RPG review is included in the Regional Transmission Plan, and no changes are identified which would affect the need for the proposed project through the comment period described in Section 3.1.5, Regional Planning Group Comment Process, then the Regional Transmission Plan may serve as the ERCOT Independent Review of the proposed project.
+
+(2) Tier 1, 2, and 3 projects that are included in the Regional Transmission Plan should be submitted for RPG Project Review at an appropriate lead time. Generally, this lead time should be sufficient to allow the review to be completed before the TSP reaches the decision point at which it must initiate the engineering and procurement in order to meet the required in-service date, but not farther in advance than is necessary. In general, these lead times will be three to four months for Tier 3 projects and six to seven months for Tier 1 and 2 projects.
+
+(3) Tier 1, 2, and 3 projects that are included in the Regional Transmission Plan but do not reach this decision point before the development of the next year’s Regional Transmission Plan begins will be removed from the case used to develop the Regional Transmission Plan and will be re-evaluated as a part of the development of this subsequent Regional Transmission Plan.
+
+3.1.5 Regional Planning Group Comment Process
+
+(1) Any stakeholder may initiate an RPG project review in accordance with Protocol Section 3.11.4.1, Project Submission. All project submissions should be sent electronically to rpg_submittal@ercot.com. The RPG project review consists of the following steps:
+
+  (a) ERCOT will provide electronic copies of RPG project review submittals by email to the RPG within five Business Days of receipt and solicit comments or questions from the RPG;
+
+  (b) ERCOT will assign a unique project identification number (RPG project number) to the RPG project review submittals according to the following convention:
+
+  yrRPGxxx
+
+  where: yr is the calendar year the RPG project is submitted
+
+  RPG indicates RPG project
+
+  xxx is a sequence number beginning with 001 (reset for each year)
+
+  (c) All concerns/questions or objections about the submitted project by any stakeholder or ERCOT should be submitted by email to the RPG within 15 Business Days after ERCOT’s transmittal to the RPG;
+
+  (d) Each Entity providing comments should provide a “single” complete comment about each project by the end of the 15-Business Day comment period rather than sending multiple comments at various times or from various individuals;
+
+  (e) Any questions related to data deficiency should be submitted to ERCOT and the submitting party immediately;
+
+  (f) If concerns or objections about a project are received during the 15-Business Day comment period, the project will be put into “study mode.” During study mode, the submitting party shall respond to any concerns or objections and provide additional information, if necessary, by email to the RPG until all concerns are resolved or until ERCOT assesses that a reasonable effort has been made to resolve all concerns or objections. A submitting party may make modifications to a Tier 3 project to address concerns or objections without having to resubmit the project so long as the modifications do not result in the project being classified as a Tier 1 or 2 project. Study mode shall end no later than 20 Business Days following the end of the comment period, unless ERCOT finds good cause to extend study mode;
+
+  (g) The submitting party should answer all questions and respond to all concerns in a timely manner;
+
+  (h) Comments should be based on Good Utility Practice and sound engineering judgment. Suggestions should be able to be implemented by the TSP constructing and operating the project; and
+
+  (i) ERCOT will post all project submissions, the comments received, and other information and databases associated with submitted transmission projects on the MIS Secure Area.
+
+  (j) Comments received after the 15-Business Day comment period may be considered by ERCOT or the submitting party, but a response is not required.
+
+3.1.6 Notify PUCT of Recommended Transmission Projects
+
+(1) ERCOT will notify the PUCT of the disposition of all Tier 1 or 2 projects and of the designated TSPs for those projects. ERCOT will then support ERCOT-endorsed projects in future Certificate of Convenience and Necessity (CCN) proceedings required for those projects through the use of filed supporting documents and testimony if necessary.
+
+3.1.7 Steady State Transmission Planning Load Forecast
+
+(1) ERCOT shall use the following process for determining the load level to be used in the starting base cases for the Regional Transmission Plan and in the steady-state evaluation of a Tier 1 or Tier 2 project pursuant to Protocol Section 3.11.4, Regional Planning Group Project Review Process:
+
+  (a) ERCOT will compare the ERCOT 90/10 load forecast with the summed SSWG bus-level load forecast for each Weather Zone.
+
+  (b) If the ERCOT 90/10 load forecast is higher, ERCOT will use this forecast for the Weather Zone.
+
+  (c) If the SSWG load forecast for a Weather Zone is higher than or equal to the ERCOT 90/10 load forecast, ERCOT will use the ERCOT 90/10 load forecast plus any additional historical load and Substantiated Load submitted by the Transmission and/or Distribution Service Providers (TDSPs) for the Weather Zone.
+
+3.1.8 Planning Geomagnetic Disturbance (GMD) Activities
+
+(1) As required by the applicable NERC Reliability Standard, ERCOT shall employ the GIC system models described in Section 6.11, Process for Developing Geomagnetically-Induced Current (GIC) System Models, to perform simulations to identify maximum effective GIC flow in the high side wye-grounded transformers for the worst case geoelectric field orientation for each transformer for the benchmark and supplemental GMD events. ERCOT shall post on the MIS Secure Area the preliminary maximum effective GIC flows and preliminary GIC time series results to the TSPs and Resource Entities for comment before finalizing the results. Upon consideration of the comments, ERCOT shall make the final maximum effective GIC flows in the high side wye-grounded transformers and the final GIC time series available to TSPs and Resource Entities by posting this data on the ERCOT MIS Secure Area.
+
+(2) Each TSP and Resource Entity that owns a high side wye-grounded transformer(s) with the high side terminal operated at 200 kV or higher within the ERCOT planning area shall perform the benchmark and supplemental transformer thermal impact assessment(s) as required in the applicable NERC Reliability Standard and shall provide to ERCOT any suggested actions to mitigate the impact of GICs on those transformers with the high side terminal operated at 200 kV or higher within 18 months of the date of ERCOT notification to TSPs and Resource Entities that the final GIC flow results are posted on the MIS Secure Area.
+
+(3) ERCOT and the TSPs shall develop for approval by the Technical Advisory Committee (TAC), criteria for acceptable steady-state voltage performance during the benchmark and supplemental GMD events.
+
+(4) ERCOT in collaboration with the TSPs and Resource Entities shall perform the ERCOT benchmark and supplemental GMD vulnerability assessments as required in the applicable NERC Reliability Standard; and may set a Generation Resource or ESR to out of service prior to receiving an NSO if the Resource Entity notifies ERCOT of its intent to retire/mothball the Resource and/or makes a public statement of its intent to retire/mothball the Resource. ERCOT shall post on the ERCOT website the preliminary results of the GMD vulnerability assessments to the TSPs and Resource Entities for comment before finalizing the results. Upon request, ERCOT shall make available to the TSPs the GIC system models and other model information used for the GMD vulnerability assessments, including suggested actions described in paragraph (2) above.
+
+  (a) ERCOT will post and maintain the current list of Generation Resources and ESRs that will be set to out of service pursuant to paragraph (4) above on the ERCOT website.
+
+(5) ERCOT shall finalize the ERCOT benchmark and supplemental GMD vulnerability assessments, including any associated corrective action plans, post them as follows, and notify TSPs and Resource Entities of the posting:
+
+  (a) Versions that include ECEII shall be posted on the MIS Secure Area;
+
+  (b) Versions that include both ECEII and Protected Information shall be posted on the MIS Certified Area for TSPs only; and
+
+  (c) Versions redacted of ECEII and Protected Information shall be posted on the ERCOT website.
+
+(6) For each GMD vulnerability assessment that does not satisfy applicable performance requirements, each impacted TSP and Resource Entity, in collaboration with ERCOT, shall develop and document corrective action plan(s) for their facilities, and develop a timetable, subject to revision, for implementing the corrective action plan(s). For any corrective action plan proposing upgrades to the transmission system that are subject to Protocol Section 3.11.4, Regional Planning Group Project Review Process, review shall be conducted in accordance with the process described therein. For any corrective action plan that is not subject to the review process described in Protocol Section 3.11.4, ERCOT shall review the corrective action plan to ensure that it satisfies applicable performance requirements. Any corrective action plan that proposes operational actions shall be reviewed pursuant to Nodal Operating Guide Section 11, Constraint Management Plans and Remedial Action Schemes.
+
+  (a) If a situation beyond the control of the TSP or Resource Entity prevents implementation of a corrective action plan within the timetable for implementation required in the applicable NERC Reliability Standard, the TSP or Resource Entity shall submit a revised corrective action plan, updated timetable, and documentation supporting the request for extension of time, as required in the applicable NERC Reliability Standard, to ERCOT within 30 days of the revision of the corrective action plan.
+
+  (b) After receipt of all information required in the applicable NERC Reliability Standard, ERCOT shall submit the request for extension of time to the NERC Regional Entity, as required in the applicable NERC Reliability Standard, on behalf of the TSP or Resource Entity.
+
+(7) ERCOT shall post the GMD vulnerability assessment reports and corrective action plan(s) on the ERCOT MIS Secure Area within 90 calendar days of development or revision.
+
+(8) ERCOT in collaboration with TSPs and Resource Entities shall implement a process for obtaining GIC monitor data and geomagnetic field data from TSPs, Resource Entities, or other available sources as required in the applicable NERC Reliability Standard.
+
+3.1.9 Transmission Interconnection Study
+
+(1) ERCOT shall perform an annual transmission interconnection study to analyze the reliability impact of any transmission projects 100 kV or above that are expected to be in-service before the completion of the next Regional Transmission Plan and were not included in the current Regional Transmission Plan, an RPG project submission, or a Generation Interconnection or Change Request (GINR) study pursuant to Section 5, Generator Interconnection or Modification.
+
+  (a) ERCOT shall identify a list of transmission projects 100 kV or above that need to be included in the annual transmission interconnection study and shall send the list to the TSPs that own the projects.
+
+  (b) Within 20 Business Days of receipt of the list, each TSP that owns an identified transmission project shall send to ERCOT a PSS/E or PowerWorld formatted incremental change file to model the project in the current Regional Transmission Plan study cases.
+
+  (c) ERCOT shall post a study report detailing its findings on the MIS Secure Area within 20 Business Days of completion.
+
+(2) After each Transmission Project and Information Tracking (TPIT) update ERCOT shall identify a list of transmission projects 100 kV or above that are expected to be in-service before the completion of the next annual transmission interconnection study and were not included in the previous transmission interconnection study, Regional Transmission Plan, an RPG project submission, or a GINR study pursuant to Section 5. ERCOT shall send the list to the TSPs that own the projects.
+
+  (a) Within 20 Business Days of receipt of the list, each TSP that owns an identified transmission project shall send to ERCOT a study report detailing the reliability impact analysis it conducted for the project. At a minimum the report shall identify the study base case(s), contingencies, and results.
+
+  (b) ERCOT shall review the TSP reports and provide comments to the TSP within 20 Business Days of receipt.

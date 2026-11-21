@@ -1,0 +1,257 @@
+PUBLIC
+
+Purpose
+Present the Board with the details of three NPRRs
+supporting Dispatchable Reliability Reserve Service
+(DRRS) and the next steps on each; outline areas of
+stakeholder discussion on NPRR1309.
+ERCOT is seeking approval of NPRR1309 and
+NOGRR283, as recommended by TAC on April 29, 2026.
+
+Item 15.1.2.3: ERCOT
+Comments on NPRR1309
+Keith Collins
+Vice President, Commercial Operations
+Board of Directors Meeting
+June 1-2, 2026
+
+Voting Item
+Current voting item: NPRR1309
+NPRR 1310 and NPRR 13XX are for discussion purposes.
+Key Takeaways
+• Stakeholder consultation on NPRR1309 has
+concluded
+• The core functionality of DRRS is in NPRR1309
+and is complemented by two NPRRs which provide
+further optionality
+• Stakeholder feedback focused on DRRS shortage
+pricing (demand curves and floor prices) and
+duration for both DRRS and Non-Spinning Reserve
+Service (Non-Spin)
+
+PUBLIC
+
+NPRR 1309 describes the core functionality for DRRS, complemented
+by two related NPRRs that provide further optionality
+NPRR 1309 – Core Functionality
+
+NPRR 1310 – Resource
+Adequacy
+
+NPRR 13XX – Energy Storage
+Resource (ESR) Participation
+
+• Satisfies all the statutory
+requirements in PURA
+§39.159(d).
+• Market mechanism to manage
+market uncertainty while
+mitigating the need for Reliability
+Unit Commitment (RUC).
+• Describes core functionality of
+DRRS and does not include the
+Release Factor or ESR
+participation.
+• Complemented by NOGRR283
+(duration requirements)
+
+• Adds optional feature which
+needs explicit Public Utility
+Commission of Texas (PUCT)
+direction to be activated.
+• Release Factor: Allows ERCOT
+to define a proportion of DRRS
+capacity able to overlap with
+energy/other Ancillary Service
+awards when larger quantities of
+DRRS are procured to directly
+support resource adequacy
+and incentivize new dispatchable
+capacity.
+
+• At the 3/26/2026 Open Meeting,
+PUCT provided guidance to
+consider ESR participation in a
+separate NPRR.
+• New Revision Request under
+development to allow ESR
+participation in DRRS.
+• Participation limited to 4+ hour
+ESRs.
+• If approved in 2026, can be
+implemented along with NPRR
+1309 in 2028.
+
+Status: Ready for Board vote
+
+Status: Tabled – will be evaluated as
+part of the 2026 Reliability
+Assessment (Q4 2026 or Q1 2027)
+
+Status: Introduced in Q2 2026
+
+NPRR1309 Stakeholder Engagement Timeline
+NPRR1309
+Filed – November
+
+Stakeholder
+Workshops
+– January to
+March
+
+PRS – April
+15
+
+Board
+Update –
+April 21
+
+TAC – April
+29
+
+Today - Vote
+on
+NPRR1309
+
+2
+
+PUBLIC
+
+Three Key Areas of Stakeholder Feedback
+
+1. Demand curve design for Ancillary Service shortage conditions
+2. Shortage floor pricing
+3. Duration requirements for DRRS and Non-Spin
+
+3
+
+PUBLIC
+
+1. Demand curve design for Ancillary Service shortage conditions
+
+Ancillary Service Demand Curve for
+DRRS
+
+ERCOT / IMM joint
+proposal
+
+• The Joint ERCOT/IMM proposal replaced
+the original linear demand curve for
+DRRS with one derived from the existing
+Aggregate Operating Reserve Demand
+Curve (AORDC).
+• Also defines minimum prices for each
+product’s Ancillary Services Demand
+Curve (ASDC).
+• These features taken together keep each
+product's relative (reliability) value intact
+when reserves are tight.
+
+4
+
+PUBLIC
+
+2. Shortage floor pricing
+
+ERCOT Proposal
+
+Shortage floor price for DRRS
+• When competitive offers are sufficient,
+they set the price – neither the ASDC
+shape nor the shortage floor price comes
+into play.
+• The shortage floor price applies when
+offered quantities are insufficient to meet
+the Ancillary Services plan.
+
+Add $10/MWh shortage floor
+price to DRRS
+• NPRR1309 proposes a $10/MWh
+floor to reflect the relative
+reliability value of DRRS in realtime, particularly when compared
+to Non-Spinning Reserve Service
+(Non-Spin) which has a
+$15/MWh floor
+April TAC voted to approve a shortage floor
+price of $10/MWh
+
+5
+
+PUBLIC
+
+3. Duration requirements for DRRS and Non-Spin
+
+Duration requirements for
+DRRS and Non-Spinning
+Reserve Service (Non-Spin)
+ERCOT intends to conduct a
+holistic analysis to
+determine procurement
+quantities and duration
+requirements for each
+Ancillary Service.
+This may be performed as
+part of the annual Ancillary
+Services Methodology
+analysis, or as a separate
+analysis, prior to the
+implementation of DRRS.
+
+ERCOT / IMM joint
+proposal
+
+Statutory and PUCT
+guidance
+
+Non-Spin duration
+= 2 hours
+
+DRRS duration = 4
+hours
+
+• ERCOT/IMM jointly
+propose a 2-hour
+duration for Non-Spin, a
+reduction from 4 hours
+today.
+• Introducing DRRS will
+cover 4-hour needs that
+are currently carried as
+Non-Spin.
+
+• March 2026 PUCT
+guidance confirms 4hour DRRS duration to
+be maintained for now
+• Could be revisited in the
+future if reliability
+analysis shows need for
+a longer duration.
+
+April TAC voted to approve
+reducing Non-Spin duration to 2
+hours
+
+6
+
+PUBLIC
+
+Summary
+Statutory Requirement
+• DRRS is required by Section 39.159(d) of the Public Utility Regulatory Act (PURA).
+Significant Design Evolution
+• Three iterations since 2023 to develop the design of DRRS. The current multiple NPRR structure
+reflects stakeholder and PUCT feedback, while balancing risks to the timeline for core
+functionality implementation.
+June 2026 Board Vote on NPRR 1309
+• NPRR 1309 / NOGRR 283 are before the Board for approval today. Implementation in 2028.
+Future Optionality for Resource Adequacy
+• NPRR 1310’s Release Factor enables DRRS to serve as a resource adequacy tool without
+significant market design changes – a key feature given the rapid load growth in Texas.
+• The 2026 reliability assessment (results targeted for fall 2026) will determine whether further
+market design changes are needed – DRRS is on the list of options.
+Future Optionality for ESR Participation
+• Will be further described in NPRR 13XX. If approved by the end of 2026, ESR participation can
+be implemented at the same time as NPRR 1309 for 4-hour batteries.
+7
+
+

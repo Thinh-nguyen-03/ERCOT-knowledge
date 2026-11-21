@@ -1,0 +1,57 @@
+Other Binding Document List: TAC Approved - effective 4/1/26
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Other Binding Document                                                                                          Does OBD Contain its own change control process?   Change Control Notes
+  --------------------------------------------------------------------------------------------------------------- -------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------
+  Block Load Transfer Registration                                                                                Yes                                                Internally approved.
+
+  Commercial Operations Market Guide                                                                              Yes                                                Section 4 of the COPMG.
+
+  ERS Technical Requirements & Scope of Work                                                                      Yes                                                Change Control Process within Section 1, Document Description and Change Control Process.
+
+  EPS Site Certification Form                                                                                     Yes                                                SMOG Section 3.4 denotes revision process.
+
+  ERCOT Polled Settlement MDAS Configuration Form                                                                 Yes                                                SMOG Section 3.4 denotes revision process.
+
+  ERO Fee Guide                                                                                                   Yes                                                TAC approved.
+
+  Load Profiling Guide                                                                                            Yes                                                Section 2 of LPG.
+
+  Load Resource Asset Registration Form (LRARF)                                                                   Yes                                                Internally approved.
+
+  Methodologies for Determining Ancillary Service Requirements                                                    Yes                                                PUCT approved.
+
+  Methodology for Implementing Operating Reserve Demand Curve (ORDC) to Calculate Real-Time Reserve Price Adder   Yes                                                Protocol Section 6.5.7.3, Security Constrained Economic Dispatch.
+
+  Nodal Non-Spinning Reserve Service Deployment Procedures                                                        Yes                                                TAC approved. Approval process as prescribed in Protocol Section 6.5.7.6.2.3, Non-Spinning Reserve Service Deployment.
+
+  Operating Guides                                                                                                Yes                                                Section 1 of Operating Guide.
+
+  Operating Procedures                                                                                            Yes                                                Operating Procedures Maintenance and Development.
+
+  Planning Guide                                                                                                  Yes                                                Section 2 of Planning Guide.
+
+  Requirements for Aggregate Load Resource Participation in the ERCOT Markets                                     Yes                                                TAC approved.
+
+  Resource Asset Registration Form (RARF)                                                                         Yes                                                Internally approved.
+
+  Resource Registration Glossary                                                                                  Yes                                                Section 1 of the Resource Registration Glossary
+
+  Retail Market Guide                                                                                             Yes                                                Section 3 of the RMG.
+
+  Settlement Metering Operating Guide                                                                             Yes                                                Section 10 of the SMOG.
+
+  TDSP EPS Meter Test Report                                                                                      Yes                                                SMOG Section 3.4 denotes revision process.
+
+  TDSP Read Generation Registration Form                                                                          Yes                                                Internally approved.
+
+  Texas Data Transport Guides                                                                                     Yes                                                RMS approves and updates TAC.
+
+  Texas Market Test Plan Guide                                                                                    Yes                                                RMS approves and updates TAC.
+
+  Texas SET Implementation Guides                                                                                 Yes                                                RMS approves and updates TAC.
+
+  Transmission Element Naming Convention                                                                          Yes                                                TAC approved.
+
+  Verifiable Cost Manual                                                                                          Yes                                                Section 13 of Verifiable Cost Manual
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

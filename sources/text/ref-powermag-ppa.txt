@@ -1,0 +1,502 @@
+-   Energy & Engineering Group:
+-    []
+-    []
+-    []
+-    []
+-    []
+
+-   []
+-   
+-    []
+-   Topics
+    -   Carbon Capture
+    -   Coal
+    -   Cybersecurity
+    -   Data Centers
+    -   Distributed Energy
+    -   Energy Storage
+    -   Environmental
+    -   Gas
+    -   Geothermal
+    -   Hydro
+    -   Hydrogen
+    -   Legal & Regulatory
+    -   Nuclear
+    -   O&M
+    -   Safety
+    -   Smart Grid
+    -   Solar
+    -   Technology
+    -   T&D
+    -   Waste to Energy
+    -   Water
+    -   Wind
+    -   Workforce
+-   Events
+    -   Experience POWER
+    -   Data Center POWER eXchange
+    -   Industry Events
+    -   POWER Awards
+    -   Webinars
+-   Resources
+    -   POWER Plant ID
+    -   Why POWER?
+    -   Videos
+    -   Podcasts
+    -   Newsletters
+    -   White Papers
+    -   BrandConnect
+    -   Interactive Features
+    -   Press Releases
+    -   Blog
+    -   Store
+    -   Jobs
+-   Issues
+    -   POWER Magazine
+    -   POWER News
+    -   RENEWABLE POWER Direct
+    -   NUCLEAR POWER Direct
+    -   T&D POWER Direct
+    -   GAS POWER Direct
+    -   DATA CENTER POWER Direct
+    -   FINANCIAL POWER Direct
+    -   Archive
+
+[Power Magazine]
+
+-   POWER Plant ID
+-   Advertise
+-   Subscribe
+    -   Subscribe
+    -   E-Letter Signup
+-   Log In
+
+[Power Magazine]
+
+-   
+
+[] Search
+
+Topics
+
+-   Carbon Capture
+-   Coal
+-   Cybersecurity
+-   Data Centers
+-   Distributed Energy
+-   Energy Storage
+-   Environmental
+-   Gas
+-   Geothermal
+-   Hydro
+-   Hydrogen
+-   Legal & Regulatory
+-   Nuclear
+-   O&M
+-   Safety
+-   Smart Grid
+-   Solar
+-   Technology
+-   T&D
+-   Waste to Energy
+-   Water
+-   Wind
+-   Workforce
+
+Events & Awards
+
+-   Experience POWER
+-   Data Center POWER eXchange
+-   Industry Events
+-   POWER Awards
+-   Webinars
+
+Resources
+
+-   POWER Plant ID
+-   Why POWER?
+-   Videos
+-   Podcasts
+-   Newsletters
+-   White Papers
+-   BrandConnect
+-   Interactive Features
+-   Press Releases
+-   Blog
+-   Store
+-   Jobs
+
+Issues
+
+-   POWER Magazine
+-   POWER News
+-   RENEWABLE POWER Direct
+-   NUCLEAR POWER Direct
+-   T&D POWER Direct
+-   GAS POWER Direct
+-   DATA CENTER POWER Direct
+-   FINANCIAL POWER Direct
+-   Archive
+
+About Us
+
+-   Advertise
+-   Membership
+-   About Us
+-   Privacy Policy, Terms & Conditions
+-   Diversity, Equity, Inclusion & Belonging
+-   Cookie Settings
+-   Accessibility
+
+------------------------------------------------------------------------
+
+-   
+-   
+-   
+
+Sign In
+
+Email or Username
+
+Password
+
+Forgot Password?
+
+Please contact our Customer Service Team if you are unable to log in at clientservices@accessintel.com or 1-888-707-5814.
+
+Home Legal & Regulatory The Power Purchase Agreement in Transition
+
+Legal & Regulatory
+
+The Power Purchase Agreement in Transition
+
+[POWER] POWER
+
+Monday, January 4, 2021
+
+SHARE:
+
+The power purchase agreement, commonly called a PPA, is a fundamental element to the development, construction, and financing of power generation projects. Like many things in the power industry, the PPA is going through a radical transformation.
+
+The energy industry is in transition with dramatic changes throughout the electrical power industry. The structure and content of the power purchase agreement (PPA) has evolved in tandem with such energy transition.
+
+The PPA, the long-term contract between a power generator selling electrical power to an electricity purchaser or offtaker, has been and remains the mainstay of competitive power markets and forms the lynchpin for the financing of power generation projects. In a relatively short period of time, independent power producers (IPPs), who had previously relied heavily, if not exclusively, upon the traditional busbar PPA, have seen their offtake options evolve and expand with the availability of financially settled hedge products, the dramatic growth in virtual PPAs, and the next generation of renewable PPAs involving more complex procurement strategies, such as Google’s Carbon Free Energy (CFE) Program.
+
+Traditional PPAs
+
+The traditional PPA involves the purchase, sale, and delivery of physical power by an IPP to a utility offtaker at the busbar, that is, the high side of the transformer adjacent to the power generation plant. The buyer under a traditional PPA is often a vertically integrated utility, which then sells the power to retail customers in its service area, which is closed to competition.
+
+Traditional PPAs are typically for terms of 20 years to 35 years, during which time the offtaker buys physical energy and may also purchase environmental attributes, as well as capacity and ancillary services associated with the energy. In the case of sales from renewable energy generation, ownership of the environmental attributes, chief of which are renewable energy certificates (RECs), is specified. The PPA is the principal agreement that defines the revenue of a generating project (Table 1), and as such plays a key role in the project financing of independently owned electricity generating assets.
+
++--------------------------------------------------------------------------------------------------------------------------+
+| []                                                                                                                       |
++--------------------------------------------------------------------------------------------------------------------------+
+| Table 1. Advantages and challenges associated with traditional power purchase agreements (PPAs). Source: Baker Botts LLP |
+|                                                                                                                          |
+| ------------------------------------------------------------------------                                                 |
+|                                                                                                                          |
+| In This Issue                                                                                                            |
+|                                                                                                                          |
+| January 1, 2021 Full issue                                                                                               |
+|                                                                                                                          |
+| Renewables                                                                                                               |
+|                                                                                                                          |
+| The More Things Change, the More They Stay the Same: Renewable Energy Growth Continues                                   |
+|                                                                                                                          |
+| News                                                                                                                     |
+|                                                                                                                          |
+| Eight International Power Sector Trends to Watch in 2021 and Beyond                                                      |
+|                                                                                                                          |
+| News                                                                                                                     |
+|                                                                                                                          |
+| A Reactive Solution to Renewables’ Growth on the Grid                                                                    |
+|                                                                                                                          |
+| News                                                                                                                     |
+|                                                                                                                          |
+| How the Energy Transition Is Affecting the EPC Business                                                                  |
+|                                                                                                                          |
+| Nuclear                                                                                                                  |
+|                                                                                                                          |
+| Governments Look to Expand Nuclear Power Through SMRs                                                                    |
+|                                                                                                                          |
+| See more stories                                                                                                         |
+|                                                                                                                          |
+| -   O&M                                                                                                                  |
+|     Welding Method 7 Approved, Fitness for Service Project Launched                                                      |
+|                                                                                                                          |
+| -   Research and Development                                                                                             |
+|     Forging Materials with the ‘Right Stuff’ for Tomorrow’s Energy Systems                                               |
+|                                                                                                                          |
+| -   Water                                                                                                                |
+|     The Steam Cycle Mechanical Relationship to Chemistry and Its Influence on Heat Rate and Reliability                  |
+|                                                                                                                          |
+| -   O&M                                                                                                                  |
+|     Experience POWER: Event Expands and Evolves with New Name                                                            |
+|                                                                                                                          |
+| -   Workforce                                                                                                            |
+|     Principles-Based Operations: A Military-Proven Method Part II                                                        |
+|                                                                                                                          |
+| ------------------------------------------------------------------------                                                 |
++--------------------------------------------------------------------------------------------------------------------------+
+
+Virtual PPAs
+
+Virtual PPAs (VPPAs) are financial agreements between a generator and an offtaker without the physical delivery of energy. The VPPA functions like a contract for difference with an agreed strike price. If the agreed strike price is higher than the market price for the settlement period, the generator pays the offtaker the difference. If the market price is lower than the strike price, the offtaker will pay the difference to the generator. In this way, the offtaker is effectively guaranteeing to the generator a return at the strike price for the capacity nominally sold under the PPA.
+
+Corporates with VPPAs have the advantage of claiming that the generation of clean energy would not have been possible “but for” their investment. This advantage of “additionality” is progressively forming part of corporate sustainability goals.
+
+When corporates enter into VPPAs, they can negotiate to receive the RECs associated with the energy delivered under the PPA. Through the RECs, corporates provide stakeholders with unequivocal evidence of their commitment to renewable energy (see sidebar).
+
+A major risk (Table 2) associated with VPPAs is “basis risk.” Basis risk (also known as “locational basis risk” or “node-to-hub basis risk”) results from the fact that VPPAs are typically settled at a major trading hub remote from the generation project, while the generator/seller receives payment for wholesale market prices at a nodal delivery point. Differences in prices between the trading hub and individual nodes creates a “mismatch” that presents additional credit risk of the generation seller. Basis risk can be mitigated through a variety of techniques including tracking accounts, economic curtailment, reserves and holdbacks, and various non-speculative hedging arrangements.
+
++----------------------------------------------------------------------------------------------------------------+
+| []                                                                                                             |
++----------------------------------------------------------------------------------------------------------------+
+| Table 2. Benefits and risks associated with virtual power purchase agreements (VPPAs). Source: Baker Botts LLP |
++----------------------------------------------------------------------------------------------------------------+
+
+The Next Phase: Blended, Bundled, and Carbon-Free
+
+Historically, corporate renewable commitments have been measured along two matrices: “additionality” (discussed above) and an annualized percentage of load. With respect to the annualized percentage, for instance, a corporate offtaker with a goal of “50% renewable energy” would calculate its annual energy consumption and execute a PPA for a project that is expected to deliver a certain number of MWhs over the course of a year equal to 50% of that annual energy consumption. Because renewables are intermittent and business operations do not align with when the sun is shining or the wind is blowing, even a 100% renewable energy commitment on an annualized basis necessarily means that the corporate customer is taking conventional power from the grid to fuel its operations.
+
+Increasingly, however, sophisticated corporate customers are looking for PPA providers who can solve this problem and match renewable generation with load, hour for hour. The goal is to fully supply physically delivered energy and environmental attributes equal to the exact demand in each hour, 24 hours a day, 365 days a year.
+
+To provide such a “load-following” product, the PPA provider will likely need to generate from multiple renewable resources (a blend of solar, wind, hydro, and/or geothermal), as well as incorporate a storage solution. In addition to requiring a portfolio of assets under management (or contract), the PPA provider will need to employ a level of sophistication with respect to the scheduling and delivery of power through the grid operator.
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Virtual Power Purchase Agreements in the European Union                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| The European Union’s (EU’s) virtual power purchase agreement (VPPA) market started in 2014. It has grown to a cumulative capacity of more than 8 GW of offsite projects, 1.3 GW of commercial, and 2.1 GW of industrial onsite VPPAs. In 2019, more than 2.5 GW of offsite VPPAs were entered into.                                                                                                                                                                                                                                                                |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| The demand for renewables is expected to accelerate in Europe. The EU Renewable Energy Directive (2009/28/EC) recognizes the role guarantees of origin (GOs) have in tracking energy produced from renewable sources. The EU also updated Renewable Energy Directive (2018/2001/EU), sometimes referred to as REDII, requiring suppliers and consumers to use GOs to document and report renewable energy claims. REDII has a binding EU-wide 32% (proposed to increase to 55%) renewable energy target for 2030 and framework for self-consumption through VPPAs. |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+In addition to innovation with respect to load following, as more utilities and cooperatives turn to PPAs to fulfill statutory and corporate mandates for clean energy, the developer community is feeling greater pressure to offer PPA products that are responsive to the needs of retail utility providers. For instance, many utilities and coops have peaking seasons and seek a PPA that guarantees firm delivery of renewable energy during peak hours in peak seasons. To meet such a demand, the PPA provider may overbuild a project (installing more megawatts of capacity), commit more than one project to a PPA, or incorporate storage in order to supply the firm requirements of the PPA. In overbuild and portfolio approaches, many developers find the need to execute ancillary hedges with other counterparties for the offtake of excess power, if any, on an as-generated basis. This type of PPA product offering, like the load-following offering also requires a high degree of sophistication by the PPA provider.
+
+Finally, corporate customers have been taking a greater interest in the underlying projects that supply their PPAs. A key trend to follow is that of social impact or community investment renewable procurement. For instance, in 2020 Microsoft and Sol Systems announced a partnership for the development of projects working with local leaders and small businesses in communities disproportionately impacted by climate change. As corporates look for ways to achieve increasingly aggressive environmental, social, and governance (ESG) mandates, environmental and social initiatives are expected to merge. ■
+
+—Peter del Vecchio is of counsel, James Douglass is a partner, and Leslie Hodge and Inaya Homoud are associates—all with Baker Botts LLP.
+
+Tagged in:
+
+-   IPPs
+-   virtual PPAs
+-   ESG
+-   social
+-   governance
+-   RECs
+-   offsite PPA
+-   VPPAs
+-   Environmental
+-   PPA
+
+Webinars
+
+-   [Creating Value from Data: Maximizing Plant Performance Through Real-Time Analytics]
+
+    July 9, 2025
+    Creating Value from Data: Maximizing Plant Performance Through Real-Time Analytics
+
+    Modern process industries are experiencing fluctuating market conditions and tight operational margins, leading chemical engineers to rely on real-time data to boost efficiency and reduce costs. Yet, many organizations are at different stages in their digital transformation journey. Some are just starting, while others are looking to optimize existing solutions. This webinar explores practical ways […]
+
+    REGISTER
+    Sponsored by dataPARC
+
+-   June 16, 2025
+    Smart MRO: Using Technology and Assessment to Enhance Power Plant Performance
+
+    REGISTER
+    Sponsored by RENTECH
+
+-   May 20, 2025
+    How One Electric Utility Is Using AI and Extreme Weather Modeling to Make Critical Grid Decisions
+
+    REGISTER
+    Sponsored by technosylva
+
+Videos
+
+This video is provided by YouTube (Google). To watch it, please accept marketing cookies. Your IP address and browser information will be shared with Google.
+
+Manage cookie preferences
+
+Sonal Patel on Data Center POWER eXchange 2026
+
+[]
+
+archives + podcasts + webinars + e-letters + video + exclusive content + events + much more!
+
+For over 142 years, POWER has been the unwavering pillar of the power and energy industry, offering unparalleled insights on the latest trends, best practices, and news through our robust channels: print, digital media, and in-person events.
+
+Subscribe Now
+
+Trending
+
+-   [Stock_U.SNightLigts_NASA:GSFC]
+
+    Legal & Regulatory
+    Five Grid Operators Respond to FERC With Distinct Plans for Large-Load Integration
+
+-   [Solar and Energy Storage AI generated]
+
+    Energy Storage
+    U.S. Exceeds 200 GWh of Installed Energy Storage Capacity
+
+-   [Figure 2 - NX Horizon tracker - Nextpower]
+
+    Renewables
+    Solar’s Growth Continues Despite Sometimes Dark Skies
+
+-   [John E. Amos coal plant Appalachian Power]
+
+    Power
+    Appalachian Power Investing Nearly $25 Billion For Gas and Coal Power Plants
+
+-   [Figure 1 - geothermal-bog-image]
+
+    Geothermal
+    DOE’s ARPA-E Announces Up to $30 Million to Advance Geothermal Projects in SUPERHOT Program
+
+-   [Figure 1 - SPR_Glass Cullet]
+
+    Solar
+    True Recycling: The Key to Solar Circularity
+
+-   [Jack County Power Plant natural gas]
+
+    Gas
+    LS Power Buying Nearly 5 GW of Gas-Fired Generation From NRG in $4-Billion Deal
+
+-   [Fig1-Siemens-Energy-T3000]
+
+    Instrumentation & Controls
+    Trusted Control Is the Foundation for AI in Power Generation
+
+-   [Nemadji-Trail-Energy-Facility-rendering]
+
+    Gas
+    Groups Cancel $1-Billion Gas-Fired Power Plant Project in Wisconsin
+
+Recommended
+
+[]
+
+Solar
+
+VPPA Deal Signed for Illinois Solar Project
+
+[]
+
+Finance
+
+Types of Power Purchase Agreements and Why Each PPA Might Be Used
+
+------------------------------------------------------------------------
+
+[]
+
+News
+
+Can Corporate America Ensure a Clean Energy Future?
+
+[]
+
+Business
+
+Procuring Power: Experts Discuss Contract Complexities
+
+------------------------------------------------------------------------
+
+[]
+
+Legal & Regulatory
+
+Understanding—and Planning—for Regulatory Challenges to Offshore Wind
+
+[]
+
+Commentary
+
+A Low-Risk Way for Oil and Gas Firms to Get in on the Energy Transition
+
+------------------------------------------------------------------------
+
+From the Magazine
+
+[Figure 2 - NX Horizon tracker - Nextpower]
+
+Renewables
+
+Solar’s Growth Continues Despite Sometimes Dark Skies
+
+------------------------------------------------------------------------
+
+[Fig1-boat-cruising-through-a-wind-farm-at-sea-under-a-c-2026-09-24-15-05-20-utc]
+
+Renewables
+
+By Land, By Sea, Wind Operators See Growth Opportunities
+
+------------------------------------------------------------------------
+
+[Fig6-silhouette-of-bulldozer-tractors-near-power-lines]
+
+T&D
+
+The Fastest New Capacity Is the Grid You Already Have
+
+Read the Full issue
+
+[Power Magazine]
+
+News & Technology for the Global Energy Industry
+
+POWER is at the forefront of the global power market, providing in-depth news and insight on the end-to-end electricity system and the ongoing energy transition. We strive to be the “go-to” resource for power professionals, offering a wealth of information on innovative business practices, sound safety measures, useful productivity enhancements, and much more.
+
+-   
+-   
+-   
+
+------------------------------------------------------------------------
+
+This video is provided by YouTube (Google). To watch it, please accept marketing cookies. Your IP address and browser information will be shared with Google.
+
+Manage cookie preferences
+
+Upcoming
+
+Experience POWER
+
+Sept. 7-10, 2027
+Omni Shoreham
+Washington, D.C.
+
+Learn More
+
+------------------------------------------------------------------------
+
+About Power
+
+-   Advertise
+-   Membership
+-   About Us
+-   Privacy Policy, Terms & Conditions
+-   Diversity, Equity, Inclusion & Belonging
+-   Cookie Settings
+-   Accessibility
+
+------------------------------------------------------------------------
+
+Subscribe
+
+[Power Magazine]
+
+Membership
+
+Trends, best practices, and news through: print, digital media, and in-person events. Subscribe
+
+Newsletters
+
+Exclusive E-letters to POWER up your knowledge. Sign up
+
+© 2026 Access Intelligence, LLC - All Rights Reserved

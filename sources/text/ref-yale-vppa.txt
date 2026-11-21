@@ -1,0 +1,307 @@
+Skip to main content
+
+[]
+
+Menu
+
+Topics
+
+Search
+
+Main Menu
+
+-   About
+-   Events
+-   All Stories
+-   States of Clean Energy Innovation
+    -   Alabama
+    -   Alaska
+    -   Arizona
+    -   Arkansas
+    -   California
+    -   Colorado
+    -   Connecticut
+    -   Delaware
+    -   District of Columbia
+    -   Florida
+    -   Georgia
+    -   Hawaii
+    -   Idaho
+    -   Illinois
+    -   Indiana
+    -   Iowa
+    -   Kansas
+    -   Kentucky
+    -   Louisiana
+    -   Maine
+    -   Maryland
+    -   Massachusetts
+    -   Michigan
+    -   Minnesota
+    -   Mississippi
+    -   Missouri
+    -   Montana
+    -   Nebraska
+    -   Nevada
+    -   New Hampshire
+    -   New Jersey
+    -   New Mexico
+    -   New York
+    -   North Carolina
+    -   North Dakota
+    -   Ohio
+    -   Oklahoma
+    -   Oregon
+    -   Pennsylvania
+    -   Puerto Rico
+    -   Rhode Island
+    -   South Carolina
+    -   South Dakota
+    -   Tennessee
+    -   Texas
+    -   Utah
+    -   Vermont
+    -   Virginia
+    -   Washington
+    -   West Virginia
+    -   Wisconsin
+    -   Wyoming
+-   All Collections
+    -   Meet The Forum Team
+    -   Financing and Deploying Clean Energy Policy Memos
+    -   Published Student Projects
+    -   Partner Resources
+    -   Decoding The Nexus of Climate, Data, and Energy
+    -   Explaining the Energy Evolution
+    -   Renewable Energy and Tax Equity, Explained
+    -   Community Solar's Complex Situation and Compelling Solution
+    -   The ABCs of PPAs
+    -   Pollinator-Friendly Solar
+    -   CBEYond the Moment - Climate-Smart Investment for the Challenges Ahead
+    -   Searching for a New Deal on Climate?
+    -   Building Blocks of Community Microgrids
+    -   Electricity Evolution
+-   Glossary
+-   Submit a Story Idea
+-   Contact
+
+Topics Menu
+
+-   Regions
+    -   Africa
+    -   Asia
+    -   Australia
+    -   Europe
+    -   North America
+    -   South America
+-   Finance
+    -   Blended instruments
+    -   Bonds
+    -   Credit rating
+    -   Emerging Markets
+    -   Green Banking
+    -   Insurance
+    -   Mergers & Aquisitions
+    -   PACE
+    -   Private equity
+    -   Project Finance
+    -   Public equity
+    -   Public finance
+    -   Tariffs
+    -   Tax equity
+    -   VC/PE
+-   Metrics
+    -   Case Study
+    -   Certificate Program
+    -   Conference
+    -   Data
+    -   Disclosures/ESG
+    -   Sales and marketing
+-   Energy Resources
+    -   Battery/Storage
+    -   Biofuels/Biomass
+    -   Community solar
+    -   Geothermal
+    -   Heat pumps
+    -   Hybrid projects
+    -   Hydro
+    -   Hydrogen
+    -   Nuclear/SMR
+    -   Ocean/Ocean thermal/tidal/wave
+    -   Offshore wind
+    -   Onshore wind
+    -   Solar
+-   Sectors
+    -   Commercial
+    -   Cooperatives
+    -   Corporate
+    -   Industrial
+    -   MUSH
+    -   National/state-owned
+    -   NGO/Nonprofit
+    -   Residential
+    -   Utility
+-   Policy
+    -   Carbon pricing
+    -   Deregulation
+    -   Market incentives
+    -   On-Bill Repayment
+    -   Procurement
+    -   Trade/Geopolitics
+    -   Wholesale market rules
+-   Supporting Structure
+    -   AI/Data Centers
+    -   Behavior
+    -   Carbon Capture and Storage (CCS)
+    -   Circular Economy
+    -   Critical Minerals
+    -   Decarbonization
+    -   Distributed Energy Resources
+    -   Emissions
+    -   Electrification
+    -   Emissions
+    -   Energy Access
+    -   Energy Efficiency
+    -   Fossil retirements
+    -   Housing/Buildings
+    -   Infrastructure
+    -   Innovation/Entrepreneurship
+    -   Land Use/Planning
+    -   Micro/mini grids
+    -   Supply Chain
+    -   Transmission/Distribution
+    -   Transportation
+
+Search
+
+Virtual or Physical, the PPA Is Prime
+
+In Brief
+
+Today’s energy landscape has increasingly tilted toward renewables, with 2019 seeing 19.5 gigawatts of corporate renewable procurement transactions in the United States, a 40% increase from 2018.
+
+Of this amount, the vast majority (3.2 gigawatts) stems from physical and virtual power purchase agreement contracts, as corporations seek to manage volatile energy costs and reduce their environmental footprints.
+
+This guide elucidates the nuts-and-bolts of power purchase agreements, their benefits, and key factors to consider regarding their integration into company strategy.
+
+Many corporate leaders have committed to greening their operations in the past few years, with some promising to go carbon-neutral in the next few decades. The power purchase agreement, or PPA, has emerged as a method for honoring these commitments in all sorts of contexts - including the economic disarray that will follow the Covid-19 tragedy.
+
+A virtual power purchase agreement (VPPA) is a financial contract between a corporate buyer and the developer of a prospective renewable energy project with two aims. The project can both enable corporations to meet their sustainability goals and facilitate decarbonization across the electric grid. Under a VPPA, buyers guarantee a fixed price for each unit of electricity produced by the developer (typically expressed in dollars per megawatt-hour) over a specified period of time in exchange for renewable energy certificates. Companies are not responsible for the generation of renewable energy, nor do they physically receive any electricity from developers. Instead, the developer produces and sells units of electricity at prevailing market prices to local power grids, with corporate buyers continuing to meet their energy demands through their current energy suppliers. 
+With this arrangement, a VPPA buyer will “not invest any of its own capital to facilitate the [renewable] energy project” with respect to “construction but also operations and maintenance,” says Dave Anderson, executive vice president of Ameresco, a Massachusetts-based energy efficiency and renewable energy developer. Instead, the contract will give a developer a guaranteed, long-term source of financing for a renewable energy project, while also reducing the cost volatility buyers face in procuring energy for daily operations. 
+For instance, should the floating market price that developers receive for the sale of their energy on the wholesale electricity market fall below the fixed price delineated in the VPPA, the buyer pays the difference to the developer through monthly or quarterly financial settlements. On the other hand, if the developer sells energy at a price above that in the initial contract, the developer pays the difference to the buyer. 
+In effect, VPPAs enable corporations to catalyze the flow of clean electricity to the grid without themselves needing to generate any units of renewable energy. The alternative flavor of PPA is physical. It requires a corporate buyer to take delivery of power. 
+
+What is a Physical Power Purchase Agreement?
+
+A Physical Power Purchase Agreement (PPPA) is a contract between a corporate buyer, an energy supplier, and renewable electricity generators that facilitates the physical delivery of power from generators to buyers. In a PPPA, a company agrees to a long-term purchase of power from a given renewable energy supplier who constructs, owns, and maintains the project. This contract establishes a fixed price per unit of electricity, and an additional contract is fashioned between the buyer and a licensed utility to set the terms of the physical delivery of power through the grid to buyer consumption sites. In contrast to a Virtual PPA, electricity under a PPPA is physically transferred from renewable energy developers to buyers through an intermediary utility company, which receives a management (or “sleeving”) fee from the buyer for maintenance and execution. 
+
+What are the Benefits of Power Purchase Agreements?
+
+Reduction of Scope 2 Emissions
+When companies enter into PPAs, they can log the consequent reduction of their greenhouse gas emissions from electricity use, which count as "Scope 2" emissions for climate-negotiation terms. Though PPAs, depending on their structure, may not always entail any physical transfer of energy from developers to buyers, they enable companies to guarantee long-term financing for renewable electricity projects.
+
+In facilitating the generation of clean electricity, buyers of VPPAs receive renewable energy certificates (RECs),  doled out per megawatt-hour (MWh) of electricity delivered to the grid. These substantiate claims of corporate environmental responsibility. Moreover, companies engaged in PPAs can “make the claim that they are actually helping renewables [projects] get built,” says Erin Decker, a director in cleantech client management at Schneider Electric. This concept, known as “additionality,” is another key benefit that companies reap from PPAs.
+
+Convenience
+With PPAs, third-party developers handle the entirety of the renewable energy project’s maintenance, installation, and ownership. In the case of a VPPA, the absence of any physical transmissions of energy between participating parties means that buyers and renewable energy projects do not need to be located in the same, or even proximal electricity markets. In this sense, PPAs allow companies to secure large volumes of clean electricity through flexible and personalized contracts that require little more than a financial transaction: as buyers’ existing energy sources remain unchanged (with a VPPA), companies that consume physical electricity throughout geographically dispersed facilities can nonetheless claim credit for greening most or all of its energy load with a single contract tied to a single renewable energy project. 
+
+Cost Hedging
+PPAs empower buyers to hedge against potentially volatile energy prices. In the event that the market price of energy rises above the contractually delineated fixed price, buyers receive compensatory payments from developers through regular financial settlements. In the event that the market price of energy falls below the contractually obligated amount, buyers disburse the surplus funds (from a relatively lower utility bill) to developers. As Anderson adds, PPAs “[create] a long-term hedge against future energy prices. Typically these power purchase agreements are 20 years of length.” In this sense, PPAs insulate buyers against wholesale power market price fluctuations, helping them secure low-cost power and long-term price security. With the Covid-19 pandemic introducing a high degree of volatility into energy markets, this element of cost stability may prove particularly attractive to entities seeking a more stable energy rate.
+
+VPPAs vs. PPPAs: Key Factors to Consider
+
+Location
+“You cannot do a physical deal if you’re not in a place where you have the right to buy power on the retail level,” says Decker. In other words, physical PPAs are limited to markets with “retail electricity choice” – that is, those that are competitive, deregulated, and allow buyers to purchase electricity from suppliers other than their traditional utilities. Moreover, with PPPAs, developers and buyers must be located in the same electricity market – i.e. projects must be located near the corporations’ facilities – to allow for the physical transfer of power to buyers’ facilities. On the other hand, VPPAs, which do not require developers and buyers to be located in the same wholesale electricity markets, are viable options both for companies with highly centralized sites and those with more numerous yet smaller energy consumption demands. If a buyer’s electricity load is “relatively localized . . . a physical PPA might make sense, but if it’s a multinational company that has facilities all over the place, a virtual PPA would make much more sense,” Anderson explains.
+
+Accounting
+The Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 requires those trading in derivative markets – pertaining to financial instruments impacted by the value of an exogenous entity – to meet rigorous recordkeeping and reporting requirements. As VPPAs are intimately affected by power markets , they are considered to be derivative agreements, and companies engaged in such contracts must therefore record on a quarterly basis power market prices and the corresponding settlements attached to the initial contract. However, “if you are actually taking physical delivery of the power and using it for your own operations,” as is the case with a physical PPA, then the contract is not considered to be a derivative and is therefore “not subject to this accounting treatment,” says Decker.
+
+Fees 
+In a virtual PPA, companies are not themselves receiving developers’ generated electricity, but in a physical PPA, energy is physically delivered from the renewable energy project to the buyer’s energy consumption sites – a process that buyers can either elect to oversee themselves (should they possess the proper certifications from the Federal Energy Regulatory Commission) or delegate to a licensed power marketer. In the latter case, the intermediary power marketer charges the buyer a fee for their services, meaning that “there is an added cost to the company,” says Anderson.
+
+Credit
+In order for developers to receive the external financing necessary to construct their energy projects, “they need a credit-worthy off-taker who is agreeing to pay them a fixed price for power over time,” says Decker. Thus, to facilitate the transactions in both virtual and physical PPAs, companies should ensure that they maintain a healthy credit score. Nonetheless, companies with subpar credit can still enter into a PPA but would need to provide some form of collateral – typically a line of credit.
+
+Risks
+Though physical and virtual PPAs present companies with many opportunities to achieve cost stability and energy efficiency, both entail certain key risks – the topic of the second article in this series.
+
+ 
+
+Thu, Apr 16 2020
+
+Andy Xie
+
+Topics
+
+Policy
+
+-   Procurement
+
+Sectors
+
+-   Utility
+
+Finance
+
+-   Project Finance
+
+Related Articles
+
+Inside the Hunterston Close: How a 400 MW Battery Got Financed Without a Single Buyer
+
+October 27, 2026
+
+The Bottleneck Stalling Clean Power
+
+September 23, 2026
+
+Two Revenues from One Well: How Co-Production Is Rewriting Geothermal’s Risk
+
+August 19, 2026
+
+Follow the Money: How a Solar-Plus-Storage Project Actually Gets Financed
+
+August 10, 2026
+
+From Fuel Risk to Financing Risk: How Oil Shocks Are Reshaping Energy Capital
+
+August 10, 2026
+
+Sign up for our Monthly Newsletter to keep up to date on our latest stories
+
+Main Menu
+
+-   About
+-   Events
+-   All Stories
+-   States of Clean Energy Innovation
+-   All Collections
+-   Glossary
+-   Submit a Story Idea
+-   Contact
+
+Topics Menu
+
+-   Regions
+-   Finance
+-   Metrics
+-   Energy Resources
+-   Sectors
+-   Policy
+-   Supporting Structure
+
+Footer Menu
+
+-   About
+-   Geting Started
+-   Search
+-   Contact Us
+-   Submit a Story Idea
+
+Social Menu
+
+-   
+-   
+-   
+
+© Copyright 2026. All rights reserved.

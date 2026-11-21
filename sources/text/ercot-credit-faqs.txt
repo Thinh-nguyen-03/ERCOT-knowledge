@@ -1,0 +1,161 @@
+[Logo AI-generated content may be incorrect.]
+
+Market Credit
+
+The following FAQs are provided for informational purposes only. ERCOT Market Participants are bound by the ERCOT Protocols and should consult the ERCOT Protocols for all requirements and obligations. Where the below FAQs and the Protocols conflict, the Protocols control.
+
+Frequently Asked Questions (FAQs)
+
+-   What types of financial security/collateral are acceptable and what is the process of posting collateral?
+
+-   Does cash collateral earn interest and how is it invested?
+
+-   What is the process for returning excess cash collateral?
+
+-   What are the acceptable methods of paying settlement invoices?
+
+-   What is the process of automatic payment of invoices from cash collateral?
+
+-   What kind of Credit reports for my Counter-Party are available to access?
+
+-   How can I receive credit notifications?
+
+-   What are the consequences of paying an invoice or collateral request late?
+
+-   What are the timelines for sending collateral for DAM auctions and/or unlocking/release of collateral/credit for CRR auctions?
+
+What types of financial security/collateral are acceptable and what is the process of posting collateral?
+
+Three types of financial security/collateral are acceptable: Cash, Letters of Credit and Surety Bonds. For Cash Collateral, funds have to be remitted via Fed wire to ERCOT’s bank account. Funds received during the day until 5:00 PM CT will be credited to a Counter-Party’s collateral account on the same day. ERCOT’s bank account information/wiring instructions are available upon request via email to ercotcredit@ercot.com.
+
+For Letters of Credit and Surety Bonds, an ERCOT Board-approved standard form must be used and no changes to the form and/or language will be accepted. An executed Letter of Credit and/or Surety Bond must be sent via email to ercotcredit@ercot.com in electronic or pdf format. Physical copies of the Letters of Credit and/or Surety Bonds are not required. Upon receipt, ERCOT Credit staff will review the Letter of Credit and/or Surety Bond to determine if acceptable prior to crediting the Counter-Party’s collateral account. ERCOT Credit staff will notify the Counter-Party should the Letter of Credit and/or Surety Bond is/are not acceptable or if there are any deviations from the standard form that need to be corrected.
+
+Note that the bank issuing the Letter of Credit and/or the surety issuing the Surety Bond must have a minimum credit rating of A- with Standard & Poor’s and Fitch, and A3 with Moody’s. There are also concentration limits for issuing banks and sureties.
+
+For more information on Letters of Credit and Surety Bonds, please refer to Section 16.11.3 Alternative Means of Satisfying ERCOT Creditworthiness Requirements of the ERCOT Protocols (https://www.ercot.com/files/docs/2024/07/01/16-080125_Nodal.docx).
+
+Does cash collateral earn interest and how is it invested?
+
+All cash collateral posted with ERCOT are aggregated and invested in money market mutual funds that invest in U.S. treasury securities and/or repurchase agreements backed by U.S. treasury securities in accordance with ERCOT’s Investment Corporate Standard. All interest earned on these funds are allocated to all Counter-Parties posting cash collateral based on each Counter-Party’s average daily balances. Interest is calculated on a monthly basis and credited to each Counter-Party’s cash collateral account on or before the 15^(th) Bank Business Day of each calendar month. A Monthly Collateral and Interest Report is also posted on the ERCOT MIS twice a month. The first version is posted on every 1^(st) day of the month reflecting all cash collateral transactions for the previous month. The second version is posted after cash collateral interest is credited reflecting the details of the interest calculation. An Annual Collateral and Interest Report is also posted in the ERCOT MIS in January of each year summarizing all the cash collateral transactions and interest for the year.
+
+What is the process for returning excess cash collateral?
+
+A Counter-Party can request for a return of excess cash collateral at any time by sending an email request to ercotcredit@ercot.com stating the name and Duns number of the Counter-Party and the amount to be returned. The request has to be made by any of the following contact roles: Authorized Representative, Back-Up Authorized Representative, Credit Contact and Back-up Credit Contact. Amounts not exceeding the excess of the Counter-Party’s total financial security/collateral and the calculated Total Potential Exposure (TPE) * can be returned. For securitization cash escrow returns, amounts not exceeding the Securitization Default Charge Credit Exposure (SDCCE) for Subchapter M and Securitization Uplift Charge Credit Exposure (LASUCCE) for Subchapter N can be returned. Email requests received no later than 11:00 AM CT will be processed and funds will normally be returned in the afternoon on the same day. Funds not returned on the same day will be returned the following business day provided these do not exceed the excess amount of financial security/collateral described above. The funds will be returned to the bank account that had previously been registered with ERCOT under the Counter-Party’s main QSE. If a Counter-Party prefers to have the funds returned to a different back account, a Notice of Change of Banking Information (see link below)
+
+would need to be filled out and submitted to ERCOT’s Market Participant Registration. Note that the new bank account will have to be vetted and may take several days before it can be confirmed.
+
+Notice of Change of Banking Information
+
+https://www.ercot.com/files/docs/2020/06/10/23P-061020_Nodal.docx
+
+-   Excess collateral is defined as the total Financial Security (Cash, Letters of Credit and Surety Bond) less the sum of 1) TPEA, 2) TPES and 3) CRR Locked ACL.
+
+What are the acceptable methods of paying settlement invoices?
+
+Payments for settlement invoices and all other market invoices must be made via federal wire transfers as these are considered immediately available or good funds. The only other alternative is the automatic payment of invoices from cash collateral.
+
+What is the process of automatic payment of invoices from cash collateral?
+
+A Counter-Party that opts to automatically process invoices from market cash collateral must send an email to ercotcredit@ercot.com from its Authorized Representative or Back-Up Authorized Representative instructing ERCOT to automatically process invoices from market cash collateral and indicate whether to:
+
+1)  deduct payment for invoices due to ERCOT from its posted market cash collateral, and/or
+
+2)  credit invoices due to the Counter-Party to its posted market cash collateral under the following conditions:
+
+-   ALL invoices (including Securitization Default Charge invoices/Securitization Subchapter M invoices) and Securitization Uplift Charge Invoices (Securitization Subchapter N invoices) due from and/or due to the Counter-Party are processed from/to market cash collateral, i.e. the Counter-Party cannot select particular invoices to be processed. Wide Area Network (WAN) and Electric Reliability Organization (ERO) invoices cannot be included in this automatic payment process. Also, payments for escrow requests cannot be included.
+
+-   There is sufficient excess market cash collateral to cover the sum of ALL invoices due on any given day. Excess cash is the amount of market cash collateral in excess of the remaining Total Potential Exposure that is not covered by other forms of collateral (letters of credit or surety bonds) for any particular day. If the amount of excess market cash collateral is not sufficient to cover all invoices due to ERCOT, no invoices will be processed. In which case, the Counter-Party has to send the payments via federal wire transfer no later than the due date and time.
+
+Payments for invoices due from ERCOT and due to the Counter-Party will only be processed from/to market cash collateral on the morning of the due date/payment date.
+
+All invoice transactions from collateral are reflected daily in the Available Credit Limit (ACL) Summary Report to enable Counter-Parties to track all payments.
+
+What kind of Credit reports for my Counter-Party are available to access?
+
+There are seven Credit reports that are published twice daily (one in the morning and another in the evening). These reports can be accessed in the ERCOT MIS (by authenticating with a Counter-Party digital certificate (for more details on obtaining digital certificates, please refer to this link: https://www.ercot.com/services/mdt/webservices or contact your Counter-Party’s assigned client service manager for assistance. The reports include the following:
+
+a)  Available Credit Limit (ACL) Summary Report (Report ID:11173);
+
+b)  Total Potential Exposure (TPE) Summary Report (Report ID: 11174);
+
+c)  Minimum Current Exposure (MCE) Summary Report (Report ID: 13092) ;
+
+d)  Estimate Aggregate Liability (EAL) Summary Report (Report ID: 13003);
+
+e)  Estimated Aggregate Liability (EAL) Detail Report (Report ID: 11179);
+
+f)  Future Credit Exposure for CRR PTP Obligations (FCEOBL) Summary Report (Report ID: 13106); and
+
+g)  Future Credit Exposure for CRR PTP Options (FCEOPT) Summary Report (Report ID: 13107)
+
+The following two other reports on cash collateral and interest are also published in the ERCOT MIS:
+
+a)  Monthly Collateral and Interest Report (Report ID: 24685): published on every 1^(st) calendar day of the month and a second version on or before the 15^(th) bank business day of the month reflecting interest earnings
+
+b)  Annual Collateral and Interest Report (Report ID: 24686): on or before the 15^(th) bank business day following the end of the year
+
+The following two other reports for information on default uplift allocation and securitization default charge allocation are also published in the ERCOT MIS:
+
+a)  Default Uplift Supporting Data Report (Report ID: 19306): published three times a month reflecting data based on initials, finals and true ups
+
+b)  Securitization Default Charge Supporting Data Report (Report ID: 24165): published twice a month reflecting data based on initials and finals
+
+How can I receive credit notifications?
+
+Credit and other credit-related notifications are only sent via email to the email address assigned to each of the following contact roles that have been registered with ERCOT:
+
+Authorized Representative
+
+Back-Up Authorized Representative
+
+Credit Contact
+
+Back-Up Credit Contact
+
+Credit notifications as listed below are system-generated and/or system-based Counter-Party specific emails to affected or impacted Counter-Parties. Some of these notifications are merely informative while some may require an action from the Counter-Party. The following are the Credit notifications sent:
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Notification                                                      Action Required?    Action Required/Purpose
+  ----------------------------------------------------------------- ------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Request to post additional collateral and securitization escrow   Yes                 Post required amount of collateral and escrow by due date and time; Counter-Parties are required to maintain collateral at or above its calculated TPE and/or escrow at or above the required escrow requirement at all times
+
+  Invoice payment due reminder                                      Yes                 Send payment to ERCOT for invoice/s due by the due time (5 PM CT); this applies only to invoices due on the same day the notice was sent; notices are generally sent in the morning and if the invoice remains unpaid, another notice is sent in the afternoon
+
+  Financial statement and Risk Certification due reminder           Yes                 Submit required financial statements and risk certification by due date; all Counter-Parties are required to submit their own or their ultimate parent’s full-year audited financial statements and quarterly unaudited financial statements; Counter-Parties are also required to submit a notarized risk certification annually
+
+  Late payment notification                                         Yes/None            A Counter-Party that paid a collateral and/or escrow request and/or invoice after the due date or time will be deemed late. Enforcement for instances of late payment are applied as indicated in the notification in accordance with Section 16.11.6 Payment Breach and Late Payments by Market Participants. If a Counter-Party is required to post additional collateral, a collateral request will subsequently be sent.
+
+  TPE 90% of collateral notification                                None/Optional       This is only meant to inform the Counter-Party that its Total Potential Exposure (TPE) is at or above 90% of posted collateral. The Counter-Party may consider posting additional collateral accordingly.
+
+  Letter of credit concentration limit notification                 None/Case-to-Case   If the receiving Counter-Party has a Letter of Credit from an issuing bank that has breached its limit, a new LC may not be issued until the bank falls below its limit. Amendments to increase the amount for LCs that have already been issued are allowed (see 16.11.3 Alternative Means of Satisfying ERCOT Creditworthiness Requirements for more details).
+
+  Bi-monthly e-Factor updates                                       None                e-Factors for each Counter-Party are calculated and set every two weeks. e-Factors affect the calculated exposure of a Counter-Party’s bids and offers in the Day Ahead market and consequently the amount of Available Credit Limit a Counter-Party should have for its bids and offers to be accepted.
+
+  Receipt of cash collateral and escrow                             None                This confirms the receipt of cash collateral and/or cash escrow wired by the Counter-Party and the recording of such to the Counter-Party’s collateral account.
+
+  Returns of cash collateral and escrow                             None                This confirms the return of cash collateral and/or escrow requested by the Counter-Party to its bank account and the recording of such to the Counter-Party’s collateral account.
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Credit may also send one-time or specific email notifications to Counter-Parties from time to time as necessary or as required by the Protocols. These email notifications are also sent to the Counter-Party’s four contact roles.
+
+In order to change any of the contacts for the above four contact roles, the Counter-Party has to file a Notice of Change of Information (NCI) to ERCOT Market Participant Registration. Group email addresses can be assigned to each of these contact roles instead of personal email addresses. This would enable more individuals to receive the notifications.
+
+Section 23 Form E: Notice of Change of Information
+
+https://www.ercot.com/files/docs/2022/02/01/23E-050124_Nodal.docx
+
+Notice of Change of Information - MIS Instruction
+
+https://www.ercot.com/files/docs/2022/04/22/submitting_nci_instructions.docx
+
+What are the consequences of paying an invoice or collateral request late?
+
+Payments for invoices, collateral and escrow requests that are received beyond the due date and time will be deemed late and subject to enforcement levels in accordance with Section 16.11.6 Payment Breach and Late Payments by Market Participants. The TPE will be increased by 110% for the first instance of late payment over a rolling 12-month period; and 115% and 120% for the second and third instances, respectively. Also for the third instance, the TPE can only be covered by cash collateral. If payment is not received on the following day, a breach notice will be sent and the Counter-Party will be given one business day to cure the breach. If payment is not received on the due date of the breach notice, the Counter-Party will be terminated.
+
+What are the timelines for sending collateral for DAM auctions and/or unlocking/release of collateral/credit for CRR auctions?
+
+For DAM auctions. The Available Credit Limit (ACL) calculated on any given day and reflected in the evening version of the ACL Summary Report will be used for the DAM auction the following day (and not the ACL reflected in the morning report on the day of the DAM auction). Therefore, collateral received in the morning prior to the close of any DAM auction at 10 am CT will only be credited to the ACL that will be available for the following day.
+
+For CRR auctions. Collateral needed for CRR auctions can be sent at any time. However, collateral received and credited to a Counter-Party’s collateral account on any day will only be reflected in the CRR portal the following day except on days where allocated collateral for an auction is locked (“CRR lock days”). On CRR lock days, collateral/Available Credit Limits as reflected in the CRR portal will be updated throughout the day. However, it is important to note that only collateral received by ERCOT no later than 3 pm CT will be reflected in the CRR portal and made available for the auction.
+
+On days where allocated collateral/credit for an auction that has closed is unlocked/released (“CRR unlock days”), a second/updated ACL Summary Report will be published in the morning reflecting the release of the locked collateral/credit. Counter-Parties can request the return of unlocked collateral based on the updated ACL Summary Report (see FAQ on process of requesting collateral return).

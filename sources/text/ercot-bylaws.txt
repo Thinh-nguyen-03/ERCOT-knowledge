@@ -1,0 +1,1546 @@
+AMENDED AND RESTATED BYLAWS
+OF
+ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.
+(A Texas Non-Stock, Non-Profit Corporation)
+Approved on December 20, 2022
+
+ERCOT Public
+
+ARTICLE 1
+OFFICES
+Section 1.1 Principal Office. The principal office of Electric Reliability Council of Texas,
+Inc., a Texas non-stock, non-profit corporation (“ERCOT”), shall be located at such place
+in Texas as the ERCOT Board of Directors (the “Board”) may determine. Additional offices
+may be established and maintained at such place or places as the Board may from time
+to time designate.
+Section 1.2 Registered Office and Registered Agent. ERCOT will maintain a registered
+office and a registered agent in Texas. The Board may change the registered office and
+the registered agent as permitted by the Texas Business Organizations Code, including
+Chapter 22 thereof (Nonprofit Corporations).
+ARTICLE 2
+DEFINITIONS
+For purposes of these Bylaws, the following definitions apply:
+1.
+
+Affiliate. “Affiliate” shall mean, with respect to any person, any other person who,
+directly or indirectly, through one or more intermediaries: (i) controls, is controlled
+by, or is under common control with such person, as set forth in Subsection (B)
+below; or (ii) exercises substantial influence over such person, is substantially
+influenced by such person, or is under common substantial influence with such
+person, as set forth in Subsection (C) below. Membership in ERCOT shall not
+create an affiliation with ERCOT.
+(A)
+
+Construction
+As used in this definition:
+(x) “party” shall mean any individual, corporation, limited liability company,
+partnership, firm, joint venture, association, joint stock company, trust,
+unincorporated organization, or other entity;
+(y) “person” shall mean any party, but shall exclude electric cooperatives
+and all of the entities listed in Section 11.0042(a)(1)-(4) of the Public Utility
+Regulatory Act (“PURA”), as well as the entities listed in PURA §
+11.0042(a)(5) if the conditions in PURA §11.0042(a)(5)(A) and (B) are
+satisfied; and
+(z) “controls”, “controlled by”, or “under common control with” shall mean
+the possession by a person, directly or indirectly, through one or more
+intermediaries, of the power to direct or cause the direction of the
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+2
+
+management and/or policies and procedures of another person, whether
+through voting securities, contract or otherwise.
+(B)
+
+Affiliation Through Control
+Ownership by a person of equity securities (whether publicly traded or not)
+of another person shall result in a presumption of no control for purposes of
+this definition if:
+1.
+
+the holder owns (in its name or via intermediaries) less than twenty
+percent (20%) of the outstanding securities of the person; or
+
+2.
+
+the holder owns (in its name or via intermediaries) twenty percent
+(20%) or more of the outstanding securities of the person, and:
+a.
+
+the securities are held as an investment;
+
+b.
+
+the holder does not have representation on the person’s
+board of directors (or equivalent governing body) or vice
+versa; and
+
+c.
+
+the holder does not in fact exercise influence over day to
+day management decisions.
+
+An ownership interest of twenty percent (20%) or more without all of the
+conditions set forth in Subsection (B)(2)(a) through (c) above shall create a
+presumption of control that may be challenged pursuant to Subsection (D)
+below.
+For purposes of determining whether two otherwise unrelated persons are
+affiliated based on a holder’s ownership of equity securities of both persons,
+the holder’s ownership interest shall not result in common control for
+purposes of this definition if such holder’s ownership meets the foregoing
+conditions for either person.
+(C)
+
+Affiliation Through Substantial Influence
+A person who is not controlling, controlled by or under common control with
+another person as described in Subsection (B) above, may nonetheless be
+determined by the Board, pursuant to Subsection (D) below, to be an
+Affiliate of another person, if allegations brought before the Board are
+substantiated that such person, directly or indirectly, through one or more
+intermediaries, exercises substantial influence over such person, is
+substantially influenced by such person, or is under common substantial
+influence with such person. Such a determination may be made by the
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+3
+
+Board only after notice and an opportunity for hearing at an ERCOT Board
+meeting as set forth in Subsection (D).
+(D)
+
+(E)
+
+Procedure for Board Determinations Regarding Affiliation
+1.
+
+Any party may challenge the presumption of control pursuant to
+Subsection (B) above, or allege substantial influence pursuant to
+Subsection (C) above, to the Board pursuant to the procedure set
+forth in this Subsection (D).
+
+2.
+
+The challenging party shall submit written notice of the challenge to
+ERCOT’s General Counsel. Such written notice shall identify any
+persons that are the subject of the challenge and shall include a
+detailed summary of the facts supporting the challenge. ERCOT’s
+General Counsel will provide a recommendation to the Board on the
+challenge.
+
+3.
+
+The Board will hear such matter at the next regularly-scheduled
+Board meeting that is at least ten (10) business days after the date
+the written notice of challenge is received by ERCOT’s General
+Counsel. Notice of the Board’s consideration of the challenge shall
+be given pursuant to Section 4.6(b) of these Bylaws.
+
+4.
+
+The Board shall have discretion to determine whether the persons
+who are the subject of the challenge are Affiliates of one another for
+purposes of these Bylaws by reference to the factors set forth in this
+definition and other persuasive evidence. The challenging party
+shall bear the burden of proof.
+
+Changes in Affiliates
+Members shall notify ERCOT of any change in Affiliates in accordance with
+Section 3.3(c) of these Bylaws.
+
+2.
+
+Consumers. Any entity meeting the definition for Residential Consumers,
+Commercial Consumers or Industrial Consumers as set forth in this Article.
+
+3.
+
+Commercial Consumers. A commercial consumer in the ERCOT Region: (a)
+Small Commercial Consumer – A commercial consumer having a peak demand
+of 1,000 kilowatts or less (or an organization representing such consumers); (b)
+Large Commercial Consumer – A commercial consumer having a peak demand
+of greater than 1,000 kilowatts. An entity applying for ERCOT membership as
+either a Small Commercial Consumer or a Large Commercial Consumer is
+ineligible if that entity has interests in the electric industry in any other capacity
+than as an end-use consumer or represents the interests of another entity that has
+interests in the electric industry in any other capacity than as an end-use
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+4
+
+consumer, such as but not limited to, aggregators, power marketers, retail electric
+providers, transmission or distribution companies, cooperatives, municipals, or
+generators and the interest is of such an extent or nature that its decisions might
+be affected or determined by it.
+4.
+
+Cooperative. An entity operating in the ERCOT Region that is:
+a.
+
+a corporation organized under Chapter 161 of the Texas Utilities Code or a
+predecessor statute to Chapter 161 and operating under that chapter;
+
+b.
+
+a corporation organized as an electric cooperative in a state other than
+Texas that has obtained a certificate of authority to conduct affairs in the
+State of Texas;
+
+c.
+
+a cooperative association organized under Chapter 251 of the Texas
+Business Organizations Code or a predecessor to that statute and operating
+under that statute; or
+
+d.
+
+a River Authority as defined in Tex. Water Code §30.003.
+
+5.
+
+Director. A member of the Board of ERCOT.
+
+6.
+
+Eligible Voting Director. A Seated Director of the Board of ERCOT, other than
+the non-voting ex officio Directors who are the Chairman of the Public Utility
+Commission of Texas (“PUCT”) and the ERCOT Chief Executive Officer (“CEO”),
+pursuant to these Bylaws, who votes at a meeting properly noticed and held
+pursuant to these Bylaws.
+
+7.
+
+Eligible Voting Representative. A Seated Representative, pursuant to these
+Bylaws, who votes in person or by proxy at a meeting properly noticed and held
+pursuant to these Bylaws.
+
+8.
+
+Entity. An Entity includes an organization and all of its Affiliates.
+
+9.
+
+ERCOT Protocols. The document adopted by ERCOT and approved by the
+PUCT, as amended from time to time that contains the scheduling, operating,
+planning, reliability, and settlement policies, rules, guidelines, procedures,
+standards, and criteria of ERCOT.
+
+10.
+
+ERCOT Region. The geographic area and associated transmission and
+distribution facilities that are not synchronously interconnected with electric utilities
+operating outside the jurisdiction of the PUCT.
+
+11.
+
+Independent Generator. Any entity that is not a T&D Entity or Affiliate of a T&D
+Entity and that (i) owns or controls generation capable of operating at least 10
+megawatts in the ERCOT Region, or (ii) is preparing to operate and control
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+5
+
+generation of at least 10 megawatts, in the ERCOT Region, and has approval of
+the appropriate governmental authority, has any necessary real property rights,
+has given the connecting transmission provider written authorization to proceed
+with construction and has provided security to the connecting transmission
+provider.
+12.
+
+Independent Power Marketer. Any entity that is not a T&D Entity or Affiliate of a
+T&D Entity and is registered at the PUCT as a Power Marketer to serve in the
+ERCOT Region.
+
+13.
+
+Independent REP. Any entity that is certified by the PUCT to serve in the ERCOT
+Region as a Retail Electric Provider (“REP”) under PURA §39.352 and that is not
+an Affiliate of a T&D Entity. For the purposes of Segment classification, an
+aggregator, if such Member does not fit in any other classification, shall participate
+as an Independent REP.
+
+14.
+
+Industrial Consumers. An industrial consumer is a consumer with at least one
+meter with average monthly demand greater than 1 megawatt consumed within
+the ERCOT Region engaged in an industrial process.
+
+15.
+
+Investor-Owned Utility (“IOU”).
+a.
+
+An investor-held, for-profit “electric utility” as defined in PURA §31.002(6)
+that (a) operates within the ERCOT Region, (b) owns 345 KV
+interconnected transmission facilities in the ERCOT Region, (c) owns more
+than 500 pole miles of transmission facilities in the ERCOT Region, or (d)
+is an Affiliate of an entity described in (a), (b) or (c); or
+
+b.
+
+A public utility holding company of any such electric utility.
+
+16.
+
+Market Participant. For purposes of these Bylaws, a Market Participant is (i) any
+entity that engages in any activity that is in whole or in part the subject of the
+ERCOT Protocols and has, or should have, a contract regarding such activities
+with ERCOT or (ii) any entity that qualifies for ERCOT membership.
+
+17.
+
+Market Segment. For purposes of these Bylaws, any of the segments (all of which
+are defined within this Article 2 of these Bylaws) as follows:
+a. Cooperative;
+b. Independent Generator;
+c. Independent Power Marketer;
+d. Independent REP;
+e. IOU;
+f. Municipal; or
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+6
+
+g. Consumer (including: (1) Commercial Consumer comprised of Small
+Commercial Consumer and Large Commercial Consumer, (2) Industrial
+Consumer, or (3) Residential Consumer).
+18.
+
+Member. A member of ERCOT, the Texas non-stock, non-profit corporation, which
+has been approved by ERCOT to meet the applicable membership qualifications
+described in Sections 3.1 and 3.2 of these Bylaws, or the member’s appointed
+representative, as the context so requires.
+
+19.
+
+Municipal. An entity operating in the ERCOT Region that owns or controls
+transmission or distribution facilities, owns or controls dispatchable generating
+facilities, or provides retail electric service and is either:
+a.
+
+a municipal owned utility as defined in PURA §11.003 or
+
+b.
+
+a River Authority as defined in Tex. Water Code §30.003.
+
+20.
+
+Officer. An individual elected, appointed, or designated as an officer of an entity
+by the entity's governing authority or under the entity's governing documents.
+
+21.
+
+PUCT. The Public Utility Commission of Texas, which is the Texas state agency
+that has responsibility and oversight of the activities conducted by ERCOT.
+
+22.
+
+Residential Consumers. The appointed Board Director representing residential
+consumer interests, an organization or agency representing the interests of
+residential consumers in the ERCOT Region, or the Residential Consumer
+Technical Advisory Committee (“TAC”) Representative. An entity applying for
+ERCOT membership as a Residential Consumer is ineligible if that entity has
+interests in the electric industry in any other capacity than as an end-use consumer
+or represents the interests of another entity that has interests in the electric
+industry in any other capacity than as an end-use consumer, such as but not limited
+to, aggregators, power marketers, retail electric providers, transmission or
+distribution companies, cooperatives, municipals, or generators.
+
+23.
+
+Seated Director. A Director who is currently serving, either ex officio or having
+been selected in accordance with PURA §39.151, regardless of attendance at
+meetings. A vacant position shall not be considered a “Seated Director.”
+
+24.
+
+Seated Representative. A TAC Representative (as defined in Section 5.1 of these
+Bylaws) or a member of a subcommittee of TAC, or the TAC Representative’s
+designated alternate representatives when serving in the TAC Representative’s
+stead (if applicable), who is currently serving, having been selected in accordance
+with these Bylaws, regardless of attendance at meetings. A vacant position shall
+not be considered a “Seated Representative.”
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+7
+
+25.
+
+Secretary. The Officer of ERCOT holding the position of “secretary” as defined in
+Section 22.231(a) of the Texas Business Organizations Code.
+
+26.
+
+Segment. For purposes of these Bylaws, a “Segment” refers to a Market Segment
+as defined in this Article 2 of these Bylaws.
+
+27.
+
+Selected Director. A Director who is selected in accordance with PURA §39.1513.
+
+28.
+
+Transmission and Distribution (“T&D”) Entity. Any entity that is an IOU,
+Cooperative or Municipal that owns or controls transmission and/or distribution
+facilities including at least 200 pole miles of such facilities in the ERCOT Region
+or any entity that is a “retail electric utility,” as defined in PURA §37.001, operating
+in the ERCOT Region.
+ARTICLE 3
+MEMBERS
+
+Section 3.1 Membership.
+(a)
+
+Members must qualify in one of the following Segments as defined in Article 2:
+(1)
+
+Cooperative;
+
+(2)
+
+Independent Generator;
+
+(3)
+
+Independent Power Marketer;
+
+(4)
+
+Independent REP;
+
+(5)
+
+Investor-Owned Utility;
+
+(6)
+
+Municipal; or
+
+(7)
+
+Consumer in one of three subsegments: (i) Commercial (which is further
+divided into Large and Small Commercial Consumer); (ii) Industrial; and (iii)
+Residential.
+
+(b)
+
+Except for the Consumer Segment, Members must have an actual financial
+interest in the retail or wholesale electric market in the ERCOT Region and be able
+to do business in one of these markets. A Member must maintain its registration
+or certification by the PUCT to the extent it is required to do so by statute or PUCT
+rule.
+
+(c)
+
+The Board may adopt and amend Member application procedures.
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+8
+
+Section 3.2 Membership Types and Voting Rights.
+(a)
+
+(b)
+
+ERCOT Members may be Corporate Members, Associate Members, or Adjunct
+Members as hereinafter described:
+(1)
+
+Corporate Members – shall have the rights and obligations as described in
+these Bylaws including the rights to be elected or appointed to TAC or any
+subcommittee of TAC and to select TAC Representatives by Segment or
+subsegment as set forth in Section 5.1.
+
+(2)
+
+Associate Members – shall have the rights and obligations as described in
+these Bylaws including the right to be elected or appointed to TAC or any
+subcommittee of TAC. Associate Members shall have no right to select TAC
+Representatives.
+
+(3)
+
+Adjunct Members – may be approved for Adjunct Membership by the Board
+if such entity does not meet the definitions and requirements to join as a
+Corporate or Associate Member. Adjunct Members shall have no right to
+select TAC Representatives nor any right to be elected or appointed to TAC
+or any subcommittee of TAC. Adjunct Members shall be bound by the same
+obligations as other Members of ERCOT.
+
+Except for Corporate Members’ right to elect TAC Representatives by Segment or
+subsegment as set forth in Section 5.1, ERCOT Members shall have no voting
+rights, including voting rights related to fundamental actions (as defined in Section
+22.164 of the Texas Business Organizations Code) or voting rights related to any
+other governance matters of ERCOT. To the extent practicable, Corporate
+Members shall be provided a minimum of twenty-one (21) days’ advance notice
+and the opportunity to comment on any such proposed fundamental action prior to
+Board action.
+
+Section 3.3 Obligations of All Members.
+(a)
+
+Each Member must comply with any applicable planning and operating criteria,
+procedures and guides adopted by or under the direction of the Board to maintain
+electric system reliability, coordinate planning, promote comparable access to the
+transmission system by all users and to further the exempt purposes of ERCOT.
+
+(b)
+
+Consistent with applicable laws and regulations, Members must share information
+at ERCOT’s request as necessary for the furtherance of the exempt purposes or
+activities of ERCOT and consistent with PUCT rules relating to confidentiality.
+
+(c)
+
+Each Member shall fully disclose any Affiliates in its annual Membership
+application submitted pursuant to procedures adopted under Section 3.1(c). If a
+Member’s Affiliates change prior to submission of the next year’s Membership
+application, the Member shall notify ERCOT of any change in writing by letter to
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+9
+
+the General Counsel or by the online link found on ERCOT’s website on the
+Membership page. When there is a change to Affiliates previously submitted to
+ERCOT, the notice must be submitted upon the earliest of: (i) promptly after the
+Member’s designated representative has obtained actual knowledge; (ii) promptly
+after any Member’s representative who serves on an ERCOT committee with
+Membership representation (such as TAC or a TAC subcommittee) has obtained
+actual knowledge; or (iii) within ninety (90) days of a change to the Member’s
+Affiliates. A Member’s designated representative and TAC and TAC subcommittee
+representatives are responsible for taking steps to remain informed about the
+Member’s Affiliates and for conducting a reasonable inquiry if they have reason to
+believe that there may have been a change in Affiliates.
+Section 3.4 Annual Member Dues. Each Member annually shall pay dues to ERCOT (the
+“Annual Member Dues”). Each Member shall pay its Annual Member Dues within thirty
+(30) days after receipt of ERCOT’s annual statement of such dues. Failure to do so shall
+constitute such Member as being in arrears. Except as provided below, Annual Member
+Dues for Corporate Members shall be $2,000. Annual Member Dues for Associate
+Members shall be $500. Annual Member Dues for Adjunct Members shall be $500. The
+Annual Member Dues for Residential and Commercial Consumer Members shall be $100
+for Corporate Membership and $50 for Associate Membership. Office of Public Utility
+Counsel (“OPUC”) and the appointed Residential Consumer TAC Representative(s) shall
+be eligible to be Corporate Members without the payment of Annual Member Dues. Any
+Member may request that the Member’s Annual Member Dues be waived by the Board
+for good cause shown.
+Section 3.5 Representation. Each Member shall appoint a representative to receive
+notices from ERCOT and shall give to the Secretary or their designee in writing (signed
+by a duly authorized representative of the Member) the name of the person thus
+appointed.
+Section 3.6 TAC Participation.
+(a)
+
+No Entity shall simultaneously hold more than one Corporate Membership. Any
+Entity may also simultaneously have a maximum of one seat on TAC.
+
+(b)
+
+Except for Adjunct Members, Members must qualify for Membership in a Segment.
+Entities may join ERCOT in any Segment in which they qualify for Membership
+provided that an Entity may join as a Corporate Member in only one Segment. In
+the event that an Entity qualifies for more than one Segment, such Entity may join
+such other Segments as an Associate Member upon payment of the Associate
+Annual Member Dues for each Segment in which such Entity desires to participate
+as an Associate Member. Once an Entity has applied to be and has been approved
+by ERCOT to meet the minimum qualifications as a Corporate Member of a
+Segment, in regard to the election of TAC Representatives and service on TAC or
+any TAC subcommittee, the Entity must continue to vote in that Segment for a
+minimum of one (1) year. If, at any point during the membership year, an Entity no
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+10
+
+longer meets the qualifications for the Segment for which it was originally approved
+by ERCOT, the Entity may not vote in that Segment; however, that Entity may then
+immediately elect to become a Corporate Member in any Segment for which it
+does qualify. Except as otherwise provided in these Bylaws, an Associate Member
+may be selected by the Corporate Members of a Segment in which the Associate
+Member participates to serve as a voting member of TAC or any subcommittee of
+TAC.
+(c)
+
+Subject to any specific provisions in these Bylaws or the Amended and Restated
+Certificate of Formation of ERCOT (the “Certificate of Formation”), each Corporate
+Member in good standing is entitled to one vote on the election of TAC
+Representatives by Segment or subsegment as set forth in Section 5.1. A
+Corporate Member in good standing is one that is not in arrears for payment of its
+Annual Member Dues for a Corporate Membership or payment of any other fees
+owed to ERCOT unless in good faith disputed, is not in breach of any contract with
+ERCOT, and is not suspended or expelled as a Corporate Member as of the record
+date of the meeting. Corporate Members that are not in good standing are not
+entitled to vote on the election of TAC Representatives by Segment or subsegment
+unless and until they have regained good standing.
+
+Section 3.7 Meetings of the Corporate Members.
+(a)
+
+Corporate Members shall meet at least annually on a date to be established by the
+Board (“Annual Meeting”).
+
+(b)
+
+Special meetings of the Corporate Members may be called by the Board.
+
+(c)
+
+Written or printed notice of any meeting of the Corporate Members shall be
+delivered to each Member at least three (3) weeks prior to the date of the meeting.
+Notice to Members of such meetings shall be by mail, facsimile, or email. Notice
+shall include an agenda explaining the purpose of the meeting.
+
+(d)
+
+The record date for determining Corporate Members entitled to notice shall be on
+the Friday which is at least thirty (30) days but not more than thirty-six (36) days
+prior to the meeting date.
+
+Section 3.8 Sanction, Suspension, Expulsion, or Termination of Members. No Member,
+either a Member organization or a Member representative, may be sanctioned, expelled
+or suspended, and no Membership or Memberships in ERCOT may be terminated or
+suspended except pursuant to the following procedure, which is intended to be fair and
+reasonable and carried out in good faith, absent a Board resolution providing an
+alternative procedure:
+(a)
+
+Written notice. An intent to terminate, expel or suspend a Member shall be
+preceded by twenty (20) days’ written notice of the date when a hearing will be
+held to determine whether the Member shall be expelled, suspended, terminated
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+11
+
+or sanctioned. Such notice shall set forth the reasons therefore. Said notice must
+be given by first class or certified mail sent to the last address of the Member to be
+expelled, suspended, terminated or sanctioned, as shown in ERCOT’s records.
+(b)
+
+Hearing. An opportunity shall be provided for the Member to be heard, orally and
+in writing. The Member shall be entitled to have counsel present at and to
+participate in the hearing at their or its own expense, and to present and crossexamine any witnesses. The hearing shall be conducted at the next meeting of the
+Board for which there is time to give proper notice.
+
+(c)
+
+Liability. A Member who has been sanctioned, expelled, terminated or suspended
+shall be liable to ERCOT for fees as a result of obligations incurred or commitments
+made prior to sanction, expulsion, termination or suspension.
+
+(d)
+
+Challenges. Any proceeding challenging an expulsion, suspension, sanction or
+termination, including a proceeding in which defective notice is alleged, must be
+commenced within one (1) year after the effective date of the expulsion,
+suspension, sanction or termination. Any such proceeding before the Board will be
+subject to the hearing requirements described in paragraph (b) of this Section.
+
+Section 3.9 Resignation. Any other provision of these Bylaws notwithstanding, any
+Member may withdraw from participation in the activities of ERCOT at any time upon
+written notice to the Secretary, whereupon it shall cease to be a Member, shall cease to
+be entitled or obligated to participate in the activities of TAC or any subcommittee of TAC
+and shall have no further obligations as a Member; provided, however, that if such notice
+is given more than thirty (30) days after such Member’s receipt of its statement of Annual
+Member Dues for a fiscal year, the Member shall be obligated to pay its Annual Member
+Dues for the full fiscal year within which such termination is effective.
+Section 3.10 Reinstatement. A former Member may submit a written request for
+reinstatement of Membership. The Board may choose to reinstate Membership on any
+reasonable terms that the Board deems appropriate.
+Section 3.11 Property Ownership and Control. Subject to applicable laws, rules,
+regulations, agreements, and ERCOT Protocols, each Member shall retain sole control
+of its own facilities and the use thereof, and nothing in these Bylaws shall require a
+Member to construct or dedicate facilities for the benefit of any other electric system or
+allow its facilities to be used by any other Member, or to construct or provide any facilities
+for its own use, and nothing herein shall be deemed to impair the ability or right of any
+Member to take such actions or to fail to act, as it deems necessary or desirable, with
+respect to the management, extension, construction maintenance and operation of its
+own facilities, present and future. A Member has no interest in specific property of ERCOT
+and waives the right to require a partition of any ERCOT property.
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+12
+
+ARTICLE 4
+BOARD OF DIRECTORS
+Section 4.1 Powers. The affairs of ERCOT shall be managed by the Board.
+Section 4.2 The Board. The Board shall be composed of a total of eleven (11) Directors
+as follows:
+(a)
+
+The Chair of the PUCT as an ex officio non-voting Director;
+
+(b)
+
+The Public Counsel of OPUC as an ex officio voting Director representing
+Residential Consumers and Small Commercial Consumers;
+
+(c)
+
+The CEO as an ex officio non-voting Director; and
+
+(d)
+
+Eight (8) voting Directors selected as Selected Directors.
+
+Section 4.3 Selection, Tenure, and Requirements of Directors.
+(a)
+
+Selection of Selected Directors. Selected Directors shall be selected in accordance
+with PURA §§39.151 and 39.1513.
+
+(b)
+
+Terms. The term for all Selected Directors shall be three (3) year terms, which shall
+be staggered to the extent possible, unless changed by Amendment to these
+Bylaws. A Selected Director may serve for up to three (3) consecutive terms. In
+order to serve on the Board during their terms, all Directors shall continuously
+remain in good standing and meet their respective minimum requirements and
+qualifications of their Director positions.
+
+(c)
+
+Director Voting Weights. All voting Directors shall have a single vote each.
+
+(d)
+
+Alternates. Ex officio Directors may designate an alternate representative who may
+attend meetings and vote (if applicable) in the absence of such Director.
+
+(e)
+
+Requirements of Directors.
+(1)
+
+Each Director shall be a resident of Texas.
+
+(2)
+
+No legislator may serve as a Director.
+
+(3)
+
+No Director shall have a fiduciary duty or assets in the ERCOT Region.
+
+(4)
+
+No more than two Directors may be employed by an institution of higher
+education, as defined by Section 61.003, Education Code, in a professorial
+role.
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+13
+
+(f)
+
+Prohibitions on Certain Stakeholder Memberships and Representation. With the
+exception of the Public Counsel and representatives of OPUC, no Director shall
+vote or otherwise become or hold themselves out as a member, representative or
+alternate of TAC; any of TAC’s subcommittees, task forces or working groups; or
+any other group the decisions of which may ultimately be appealed to the Board.
+For a period of one (1) year from the last date of service as a Selected Director,
+the former Selected Director shall not represent a Market Participant before the
+Board, TAC, any of TAC’s subcommittees, task forces or working groups.
+
+Section 4.4 Chair and Vice Chair. The Board Chair and a Vice Chair shall be designated
+in accordance with PURA §39.1513.
+Section 4.5 Vacancies and Removal.
+(a)
+
+A vacancy of a Director position will occur if: (1) the respective Director resigns
+their Director position from the Board; or (2) the Director is removed from the Board
+in accordance with the provisions of Section 4.5(b).
+
+(b)
+
+A Director may be removed: (1) with cause upon a change in circumstances that
+causes a Director to become ineligible to serve under the provisions of PURA
+§39.151; or (2) with cause by the Board upon at least seventy-five percent (75%)
+affirmative votes of the eligible, remaining voting Directors. Removal shall occur if
+a Director is: (A) found by the Board to have committed a prohibited act as
+identified in Section 9.3 of these Bylaws pursuant to and after completion of a
+hearing process as described in Section 9.3 of these Bylaws, and (B) the Board
+recommends removal of the Director from the Board. Any Board action to remove
+a Director from the Board shall be subject to review by the PUCT.
+
+(c)
+
+A vacancy may be filled only by the persons authorized to select or appoint such
+Director.
+
+(d)
+
+The Board Chair, or the Board Vice Chair in the case the Board Chair position is
+vacant, shall notify the ERCOT board selection committee established pursuant to
+PURA §39.1513 (i) when a vacancy of a Selected Director position occurs or (ii)
+six (6) months in advance of the end of the term of any Selected Director, and shall
+provide information to the committee as required by the committee.
+
+(e)
+
+Any Director so chosen shall serve in their Director position until the earlier of the
+expiration of their term, resignation, ineligibility, inability to serve or removal.
+
+Section 4.6 Meetings.
+(a)
+
+The Board shall meet at least quarterly, with at least one meeting occurring in
+conjunction with the Annual Meeting of the Members. Additional meetings of the
+Board shall be held at such time and at such place or (for meetings held in
+accordance with Section 4.7(e)) via such means as may from time to time be
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+14
+
+determined by the Board. Special meetings of the Board may be called by the
+Chair or Vice Chair of the Board, or the CEO or their designee. Special meetings
+of any subcommittee having at least one Director may be called by the Chair or
+Vice Chair of the subcommittee, or the CEO or their designee.
+(b)
+
+Notice stating the purpose, business to be transacted, place or (for meetings held
+in accordance with Section 4.7(e)) access information, date and hour of any
+meeting of the Board or any Board subcommittee where at least one Board
+Director is present shall be given to each Director and made available
+electronically to the public on the Internet not less than one (1) week before the
+date of the meeting; provided, however, the Board or any subcommittee having at
+least one Director may meet on urgent matters on such shorter notice, not less
+than one (1) hour, as the person or persons calling such meeting reasonably may
+deem necessary or appropriate for urgent matters. For purposes of these Bylaws,
+an urgent matter is an emergency or public necessity (including but not limited to
+an imminent threat to public health and safety or to the ERCOT market or system),
+or a reasonably unforeseen situation. A matter shall be considered an urgent
+matter if it would be difficult or impossible for a quorum of Directors or
+subcommittee members to physically convene in one location and failure to
+consider the matter without delay may result in operational (including but not
+limited to those activities and functions affecting the ERCOT market or system),
+regulatory, legal, organizational or governance risk.
+
+(c)
+
+The Board and its subcommittees having at least one Director may meet to
+consider urgent matters in accordance with Section 4.7(e). The Board must ratify
+any action taken on notice of less than one (1) week or at a meeting held in
+accordance with Section 4.7(e) at its next regularly scheduled meeting.
+
+(d)
+
+The Board shall promulgate procedures allowing public access to meetings of the
+Board and Board subcommittees and allowing for members of the public to provide
+comment on the matters under discussion at public portions of meetings of the
+Board and subcommittees.
+
+(e)
+
+Consistent with PURA §39.1511, meetings of the Board or Board subcommittees
+shall be open to the public provided that the Board or Board subcommittee on
+which at least one Board Director sits may, at its discretion, exclude any persons
+who are not Directors from any meeting or portion of any meeting held in Executive
+Session, including for purposes of voting on Executive Session meeting minutes.
+An Executive Session shall be held at the discretion of the Board or Board
+subcommittee for sensitive matters including, but not limited to, confidential
+personnel information, contracts, lawsuits, deliberation of purchase of real
+property, competitively sensitive information, deployment or implementation of
+security devices or other information related to the security of ERCOT’s regional
+electrical network and discussion of any matters on which the Board receives legal
+advice from its attorney(s) in which the Texas Disciplinary Rules of Professional
+Conduct impose on the attorney(s) a duty to preserve confidentiality, including but
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+15
+
+not limited to anticipated or pending litigation, administrative agency contested
+cases, and other regulatory matters.
+(f)
+
+The Secretary or their designee shall keep minutes of every Board meeting.
+
+Section 4.7 Quorum; Action by Directors; Abstentions; and Meetings and Participation by
+Telephone.
+(a)
+
+Except as may be otherwise specifically provided by law, the Certificate of
+Formation or these Bylaws, at all meetings of the Board, fifty percent (50%) of the
+Eligible Voting Directors shall constitute a quorum for the transaction of business;
+and abstentions do not affect calculation of a quorum. For any meeting of the Board
+or any subcommittee of the Board, the Public Counsel Director’s designated
+alternate representative, when attending in place of the Public Counsel Director,
+shall be counted towards a quorum.
+
+(b)
+
+Provided a quorum is present at a meeting, the act of at least two-thirds of the
+affirmative votes of the Eligible Voting Directors shall be the act of the Board,
+unless the act of a greater number is otherwise required by law, the Certificate of
+Formation, or these Bylaws. If a quorum shall not be present at any meeting of the
+Board, the Directors present may adjourn the meeting.
+
+(c)
+
+For purposes of voting on the Board, Directors who abstain from voting shall not
+have their votes included in the total number of votes from which the requisite
+percentage of affirmative votes is required for action.
+
+(d)
+
+Directors (for urgent matters in accordance with Section 4.6) may participate in
+and hold a meeting by means of a conference telephone or other similar
+communications equipment, or another suitable electronic communications
+system, including videoconferencing technology or the Internet, or any
+combination, if the telephone or other equipment or system permits each person
+participating in the meeting to communicate with all other persons participating in
+the meeting. Participation in a meeting pursuant to this paragraph (d) shall
+constitute presence in person at such meeting, including for purposes of
+establishing a quorum, except where a person participates in the meeting for the
+express purpose of objecting to the transaction of any business on the ground that
+the meeting is not lawfully called or convened.
+
+(e)
+
+For non-urgent matters, at any meeting of the Board, provided that a quorum is
+present in person, Directors that are not present in person may participate in and
+vote at such meeting by means of a conference telephone or other similar
+communications equipment, or another suitable electronic communications
+system, including videoconferencing technology or the Internet, or any
+combination, if the telephone or other equipment or system permits each person
+participating in the meeting to communicate with all other persons participating in
+the meeting. Participation in a meeting pursuant to this paragraph (e) shall
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+16
+
+constitute presence in person at such meeting, except for purposes of establishing
+a quorum, and except where such Director participates in the meeting for the
+express purpose of objecting to the transaction of any business on the ground that
+the meeting is not lawfully called or convened.
+Section 4.8 Subcommittees. The Board shall confirm the Representatives of TAC and
+may appoint subcommittees as it deems necessary and appropriate to conduct the
+business of ERCOT. The designation of subcommittees and the delegation thereto of
+authority shall not operate to relieve the Board or any individual Director of any
+responsibility imposed upon it or them by law.
+Section 4.9 Other Appointments. If requested by the North American Electric Reliability
+Corporation (“NERC”), the Board shall elect, from among its members, persons to serve
+on the NERC Member Representatives Committee or its successor. The selection of the
+representatives shall require an act of the Board as set forth in Section 4.7. If more than
+one representative is requested, such representatives shall be from different Segments.
+Section 4.10 Duties. It shall be the duty of the Board to initiate any specific action required,
+in its opinion, to fulfill the exempt purposes of ERCOT as stated in the Certificate of
+Formation, within the limitations of the Certificate of Formation, applicable law, and these
+Bylaws. Such action may be taken by the Board, by such subcommittee(s) as may be
+formed by the Board, the CEO as directed by the Board or by individuals appointed by
+the Board provided that the following actions of the Board may not be delegated: (a)
+approval of the Budget (as defined in Section 10.3); (b) approval of the employment and
+terms for the CEO, as well as termination of CEO’s employment; (c) ratification of other
+Officers of ERCOT; (d) annual selection of a qualified independent public accounting firm
+(“Auditor”) to audit the financial statements of ERCOT; (e) approval of the initiation of any
+non-routine filing to a regulatory agency that requests regulatory action; and (f) initiation
+of any lawsuit. The Board shall adopt policies regarding the delegation of the following
+actions: (a) the acquisition of real property; (b) the sale of ERCOT assets; (c) the
+execution of contracts; (d) large purchases; and (e) borrowing money or establishing a
+line of credit in the name of ERCOT.
+ARTICLE 5
+TECHNICAL ADVISORY COMMITTEE
+Section 5.1 TAC Representatives.
+(a)
+
+For the purposes of this Section, membership in the TAC shall be divided in
+accordance with the definitions of the Segments described in Section 3.1. TAC
+shall be comprised of the following (“Representatives”):
+(1)
+
+Representatives of four Members elected from each of the six Segments
+(other than as described for the Consumer Segment) listed in Section 3.1.
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+17
+
+(2)
+
+(b)
+
+For the Consumer Segment, Corporate Members of each subsegment shall
+elect its Representatives. Subject to paragraph (j) below, for any
+subsegment in which there are no Corporate Members, the Board shall
+appoint such Representatives. For the Residential, Commercial and
+Industrial subsegments, the TAC Representative seats are as follows:
+(i)
+
+Two Representatives of Industrial Consumers;
+
+(ii)
+
+One Representative of Small Commercial Consumers;
+
+(iii)
+
+One Representative of Large Commercial Consumers;
+
+(iv)
+
+One Representative of Residential Consumers; and
+
+(v)
+
+The Public Counsel’s designee as an ex officio voting member.
+
+TAC shall adopt policies regarding the qualifications for TAC Representatives,
+except for the Residential Consumer TAC Representative and representatives of
+OPUC, which at a minimum shall require five (5) years of electric industry
+experience.
+(1)
+
+Such policies shall set forth the acceptable areas of industry experience that
+satisfy this requirement.
+
+(2)
+
+Such policies shall require that for each TAC Representative, the
+represented Corporate Member must certify that the TAC Representative is
+authorized to make decisions on behalf of the relevant Segment or
+subsegment and meets the minimum qualifications for TAC
+Representatives.
+
+(3)
+
+At least annually, TAC shall confirm to the Board that each TAC
+Representative subject to this paragraph (b) meets the minimum
+qualifications for TAC Representatives.
+
+(c)
+
+Each TAC Representative shall be entitled to one vote on matters submitted to
+TAC.
+
+(d)
+
+Fifty-one percent (51%) of the eligible, Seated Representatives of TAC shall
+constitute a quorum for the transaction of business; and abstentions do not affect
+calculation of a quorum. Affirmative votes of: (i) two-thirds of the Eligible Voting
+Representatives of TAC; and (ii) at least fifty percent (50%) of the total Seated
+Representatives shall be the act of TAC. For purposes of voting on TAC, TAC
+Representatives shall not have their votes included in the total number of votes
+from which the requisite percentage of affirmative votes is required for action if: (i)
+they are not present and have not designated a proxy, or (ii) they abstain from
+voting.
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+18
+
+(e)
+
+Written proxies may be used for meetings of TAC or any subcommittees of TAC in
+accordance with any relevant provisions in these Bylaws and the Texas Business
+Organizations Code, including Chapter 22 thereof. For any meeting of TAC or any
+subcommittee of TAC, where permitted by these Bylaws, attending in place of a
+member shall be counted towards a quorum, while proxies shall not be counted
+towards a quorum.
+
+(f)
+
+Unless otherwise provided by law, any action required or permitted to be taken at
+any meeting of TAC Representatives or any subcommittee of TAC may be taken
+without a meeting, if a consent in writing, setting forth the action to be taken, is
+signed by a sufficient number of TAC Representatives or subcommittee members
+as would be necessary to take that action at a meeting at which all of the TAC
+Representatives and subcommittee members were present and voted. TAC
+Representatives or subcommittee members may participate in and hold a meeting
+by means of a conference telephone or other similar communications equipment,
+or
+another
+suitable
+electronic
+communications
+system,
+including
+videoconferencing technology or the Internet, or any combination, if the telephone
+or other equipment or system permits each person participating in the meeting to
+communicate with all other persons participating in the meeting, and participation
+in a meeting pursuant to this Section shall constitute presence in person at such
+meeting, except where a person participates in the meeting for the express
+purpose of objecting to the transaction of any business on the ground that the
+meeting is not lawfully called or convened. Where action is taken by TAC without
+a meeting, notice of the proposed action shall be provided to the TAC
+Representatives in accordance with Section 5.3.
+
+(g)
+
+Each Segment may choose to participate in “Participatory Voting” as described
+herein. If a Segment chooses to engage in Participatory Voting, each TAC
+Representative elected by that Segment shall be required to present the decision
+of the Corporate Members of that Segment. A Corporate Member may delegate
+an employee or agent other than the Member representative described in Section
+3.5 to vote on its behalf for purposes of Participatory Voting. If a Corporate Member
+of a Segment using Participatory Voting is unable or does not wish to attend a TAC
+meeting that Member may deliver a written proxy, at any time prior to the start of
+the meeting at which it will be voted, to a Participatory Voting delegate of any
+Member of the same Segment. A Corporate Member delegate in attendance at a
+TAC meeting may give a written proxy to a Participatory Voting delegate of any
+Member of the same Segment during such meeting.
+
+(h)
+
+All TAC Representatives shall be appointed or elected annually by the Corporate
+Members of their respective Segments. The term for all TAC Representatives shall
+be one (1) year. Any TAC Representative may be reappointed or reelected for
+consecutive terms, without limitation. A vacancy shall be filled by the same means
+used to elect or appoint the previous TAC Representative. No Entity shall
+participate in more than one Segment of TAC. The Representatives of TAC shall
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+19
+
+elect from amongst themselves a Chair and Vice Chair subject to confirmation by
+the Board. The Chair and Vice Chair shall provide full disclosure pursuant to
+Section 9.2 (Potential Conflicts of Interest) of these Bylaws during the confirmation
+process, and any person speaking on behalf of TAC before the Board shall provide
+full disclosure pursuant to Section 9.2 (Potential Conflicts of Interest) of these
+Bylaws before speaking on behalf of TAC.
+(i)
+
+Each person (other than the Residential Consumer TAC Representative) serving
+on TAC or any subcommittee thereof must be an employee or agent of a Corporate
+or Associate Member. Unless otherwise provided in these Bylaws, if an employee
+or agent of a Member is elected or appointed to serve on TAC or any subcommittee
+thereof, such person is only eligible to serve in such capacity so long as they are
+an employee or agent of the same Member as they were at the time of such
+election or appointment.
+
+(j)
+
+In the event that a Small Commercial Consumer Representative cannot be
+identified to serve on TAC, that seat may be filled by any other Commercial
+Consumer representative appointed by the Public Counsel provided that such
+representative represents at least one consumer in the ERCOT Region. Any
+Representative of the Consumer Segment appointed to TAC by the Public Counsel
+pursuant to this paragraph or the Board pursuant to paragraph (a)(2) above, if not
+otherwise a Member of ERCOT, shall be allowed to vote on TAC without the
+payment of the Annual Member Service Fees. An appointed Commercial
+Consumer TAC Representative is eligible to serve in such capacity so long as they
+are an employee or representative of the same company as they were at the time
+of such appointment.
+
+(k)
+
+The Board may amend TAC procedures without an affirmative vote of TAC
+Representatives.
+
+Section 5.2 Subcommittees; Functions of TAC. TAC shall have the authority to create
+subcommittees, task forces and study groups (“subcommittees”). TAC shall determine
+the eligibility requirements, quorum requirements and voting structure for each
+subcommittee. TAC shall (a) through its subcommittees make such studies and plans as
+it deems appropriate to accomplish the purposes of ERCOT, the duties of its
+subcommittees and the policies of the Board, (b) report the results of such studies and
+plans to the Board as required by the Board, (c) review and coordinate the activities and
+reports of its subcommittees, (d) make such recommendations to the Board as it deems
+appropriate or as required by the Board, (e) perform such other duties as directed by the
+Board and (f) make recommendations regarding ERCOT expenditures and projects. In
+accordance with ERCOT procedures and applicable law and regulations, certain
+guidelines, criteria and other actions approved by TAC may be effective upon approval
+by TAC; provided however, that such actions are reported to the Board for review and
+nothing herein shall affect the ability of the Board to independently consider such
+guidelines, criteria and actions, and to take such action with respect thereto as the Board
+deems appropriate, including revocation and remand with instructions.
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+20
+
+Section 5.3 Meetings. TAC and its subcommittees shall meet as often as necessary to
+perform their duties and functions. All meetings of TAC and its subcommittees shall be
+called by their respective chairmen and all such meeting notices shall be sent in writing
+to each member at least one (1) week prior to the meeting, unless an emergency condition
+should suggest otherwise (such emergency to be by mutual consent of a majority of the
+Seated Representatives of TAC or subcommittee). Any Member may request notification
+of any such meetings and may have an employee or a TAC-approved representative for
+that Member attend as an observer. Each Representative of TAC may designate in writing
+an alternate representative who may attend meetings in the absence of the
+Representative and vote on the Representative’s behalf.
+Section 5.4 Other Appointments. TAC shall elect representatives to the various NERC
+committees and associated subcommittees, task forces, and working groups whose
+members are appointed by the NERC Regions. The selection of TAC representatives to
+NERC shall require an act of TAC as set forth in Section 5.1(c). If more than one
+representative is requested, TAC should consider selecting representatives from different
+Segments.
+ARTICLE 6
+Intentionally Omitted.
+ARTICLE 7
+CHIEF EXECUTIVE OFFICER
+Section 7.1 CEO Hiring and Duties. The Board shall hire a CEO who, under the Board’s
+supervision and direction shall carry on the general affairs of ERCOT. The CEO shall be
+a member of the staff of ERCOT and shall be an ex officio non-voting Director. It shall be
+the CEO’s duty to approve the expenditure of the monies appropriated by the Board in
+accordance with the Budget approved by the Board. The CEO shall make an annual
+report and periodic reports to the Board concerning the activities of ERCOT. The CEO
+shall serve as President of ERCOT. The CEO shall comply with all orders of the Board.
+All agents and employees of ERCOT shall report, and be responsible, to the CEO. The
+CEO shall perform such other duties as may be determined from time to time by the
+Board.
+Section 7.2 Notice of CEO Vacancy. The Board Chair or the Board Chair’s designee shall
+notify the PUCT Commissioners when a vacancy occurs for the CEO.
+Section 7.3 CEO Selection. The Board Chair or the Board Chair’s designee shall provide
+information to the PUCT Commissioners regarding selection of the CEO requested by
+any of the PUCT Commissioners as required by the PUCT.
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+21
+
+Section 7.4 CEO Compensation. The compensation of the CEO shall be approved by the
+Board.
+ARTICLE 8
+OFFICERS
+Section 8.1 General. The Officers of ERCOT shall consist of a President, one or more
+Vice Presidents, a Secretary, and such Officers and assistant Officers as the Board may
+create. The CEO shall serve as President of ERCOT. Any two (2) or more offices may be
+held by the same person, except the offices of President and Secretary. A subcommittee
+duly designated may perform the functions of any officer and the functions of two or more
+officers may be performed by a single subcommittee.
+Section 8.2 Tenure. The CEO of ERCOT shall be elected and the other Officers of
+ERCOT shall be ratified by the Board at such time and in such manner and for such a
+term not exceeding one (1) year, as shall be determined from time to time by the Board.
+Any Officer may be re-elected or re-ratified for consecutive terms, without limitation. All
+Officers of ERCOT shall hold office until their successors are chosen and qualified or until
+their earlier resignation or removal. Any Officer elected or appointed may be removed by
+the persons authorized to elect or appoint such Officer whenever in their judgment the
+best interests of ERCOT will be served thereby.
+ARTICLE 9
+TRANSACTIONS OF CORPORATION
+Section 9.1 Deposits and Checks. All of ERCOT’s funds will be deposited to the credit of
+ERCOT in banks, trust companies, or other depositories that the Board approves.
+Section 9.2 Potential Conflicts of Interest.
+(a)
+
+Each Director, TAC Representative and subcommittee member shall have an
+affirmative duty to disclose to the Board, TAC or subcommittee (as the case may
+be) any actual or potential conflicts of interest of the Director, TAC Representative
+or subcommittee member or their employer where, and to the extent that, such
+conflicts or potential conflicts directly or indirectly affect any matter that comes
+before the Board, TAC or subcommittee, as the case may be. A Director with a
+direct interest in a matter, personally or via their employer, or by having a
+substantial financial interest in a person with a direct interest in a matter, shall
+recuse themselves from deliberations and actions on the matter in which the
+conflict arises and shall abstain on any vote on the matter and not otherwise
+participate in a decision on the matter. A direct interest is a specific interest of a
+person or entity in a particular matter. Any disclosure of a direct interest by a
+Director shall be noted in the minutes of the Board meeting at which the direct
+interest is disclosed. Mere attendance at the meeting, if the Director, TAC
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+22
+
+Representative or subcommittee member recuses themselves from the
+deliberation and action on the matter in which the conflict arises, shall not
+constitute participation.
+(b)
+
+ERCOT may not make any loan to a Director or Officer of ERCOT. A Member,
+Director, TAC Representative, Officer, or subcommittee member of ERCOT may
+lend money to and otherwise transact business with ERCOT except as otherwise
+provided by these Bylaws, the Certificate of Formation, and applicable law. Such
+a person transacting business with ERCOT has the same rights and obligations
+relating to those matters as other persons transacting business with ERCOT.
+ERCOT may not borrow money from, or otherwise transact business with, a
+Member, Director, TAC Representative, Officer, or subcommittee member of
+ERCOT unless the transaction is described fully in a legally binding instrument and
+is in ERCOT’s best interests. ERCOT may not borrow money from, or otherwise
+transact business with, a Member, Director, Officer, TAC Representative or
+subcommittee member of ERCOT without full disclosure of all relevant facts and
+without the Board’s approval, not including the vote of any person having a
+personal interest in the transaction.
+
+Section 9.3 Prohibited Acts. As long as ERCOT exists, no Member, Director, Officer, or
+subcommittee member of ERCOT may:
+(a)
+
+Do any act in violation of the Certificate of Formation or these Bylaws;
+
+(b)
+
+Do any act in violation of a binding obligation of ERCOT except with the Board’s
+prior approval;
+
+(c)
+
+Do any act with the intention of harming ERCOT or any of its operations;
+
+(d)
+
+Receive an improper personal benefit from the operation of ERCOT;
+
+(e)
+
+Use ERCOT’s assets, directly or indirectly, for any purpose other than in
+furtherance of ERCOT’s exempt purposes;
+
+(f)
+
+Wrongfully transfer or dispose of ERCOT property, including intangible property
+such as good will;
+
+(g)
+
+Use ERCOT’s name (or any substantially similar name) or any trademark or trade
+name adopted by ERCOT, except on behalf of ERCOT in the ordinary course of
+its business or as a reference to the ERCOT region;
+
+(h)
+
+Disclose any of ERCOT’s or Members’ business practices, trade secrets, or any
+other confidential or proprietary information not generally known to the business
+community to any person not authorized to receive it;
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+23
+
+(i)
+
+Take any action, without written notice to Members and reasonable time for
+Members to respond, that would cause another ERCOT Member that is not a
+“public utility” under the Federal Power Act or ERCOT itself to become a “public
+utility” under the Federal Energy Regulatory Commission (“FERC”) rules or
+become subject to any plenary jurisdiction of FERC; or
+
+(j)
+
+With regard to the Directors, do any act in violation of an ERCOT rule [as that term
+is defined in PUCT Substantive Rule Section 25.361(a)], PUCT rule, or applicable
+statute.
+
+Violations of these prohibited acts may lead to sanction, suspension, expulsion or
+termination after a hearing conducted using the same procedure as described in Article
+3 of these Bylaws.
+ARTICLE 10
+EXPENSES, BOOKS AND RECORDS
+Section 10.1 Member Representatives’ Expenses and Compensation of Certain Directors
+and TAC Representatives.
+(a)
+
+Except as described below, ERCOT shall not bear the personal and travel
+expenses of each person who serves as a representative of a Member or as a
+Director, TAC Representative or subcommittee member. Except as provided
+below, no such person shall receive any salary or other compensation from
+ERCOT.
+
+(b)
+
+The Board shall have the authority to fix the compensation of its Selected Directors
+who may be paid a fixed sum plus reimbursement of travel expenses for
+attendance at each meeting of the Board, or a stated compensation as a member
+thereof, or any combination of the foregoing. Selected Directors, who are members
+of standing or special committees, may be allowed like compensation and
+reimbursement of travel expenses for attending committee meetings. Directors
+may be reimbursed for all reasonable Board-related expenses.
+
+(c)
+
+The Board shall fix the compensation for the appointed Residential Consumer TAC
+Representative for attendance at each meeting of the Board, TAC, or any standing
+or special committee of such on an annual basis. Any Residential Consumer TAC
+Representative shall not be an agent of ERCOT for any purpose and shall not be
+considered to be serving at ERCOT’s request, even though compensated by
+ERCOT.
+
+Section 10.2 ERCOT Expenses. The expenses of ERCOT shall include, but not be limited
+to, administrative expenses, operational costs and debt service.
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+24
+
+Section 10.3 Budget. A budget (the “Budget”) for ERCOT for the ensuing one or more
+fiscal years shall be adopted by the Board. In connection with the Board’s approval, the
+Budget, including cost of liability insurance, for ERCOT shall be compiled by the CEO or
+their designee and submitted to the Board. To be effective, the Budget must be approved
+by an act of the Board as set forth in Section 4.7. The representatives of each Member
+shall be promptly notified of the Budget following adoption of the Budget by the Board.
+Section 10.4 Loans and Guarantees. Neither participation in the activities of ERCOT nor
+any provision of these Bylaws or of the Certificate of Formation shall be deemed to
+constitute a pledge or loan of the credit of any Member for the benefit of ERCOT or a
+guarantee by any Member of any obligation of ERCOT.
+Section 10.5 Access to Books and Records. All Members of ERCOT will have access to
+the books and records of the organization, including financial statements and budgets;
+however, the Board shall establish procedures by which a Member, upon written demand
+stating the purpose of the demand may examine and copy the books and records of
+ERCOT. If necessary to protect the confidential information of ERCOT, a Member
+requesting examination of ERCOT’s books and records may be required to sign a
+confidentiality and non-disclosure agreement before viewing such information. The
+procedures shall include policies that provide reasonable protection against the
+unnecessary disclosure of information related to individual employees, including their
+compensation.
+Section 10.6 Audit. At least annually, an audit of the financial statements of ERCOT shall
+be performed by the Auditor approved by the Board. The Auditor’s opinion and the audited
+financial statements will be made available to all Members as described in Section 10.5.
+Section 10.7 Fiscal Year. The fiscal year of ERCOT shall be from January 1 through the
+following December 31, or as otherwise fixed by resolution of the Board.
+ARTICLE 11
+INDEMNIFICATION
+Section 11.1 Indemnification. EACH PERSON WHO AT ANY TIME SHALL SERVE, OR
+SHALL HAVE SERVED, AS A DIRECTOR, OFFICER, EMPLOYEE OR AGENT OF
+ERCOT, OR ANY PERSON WHO, WHILE A DIRECTOR, OFFICER, EMPLOYEE OR
+AGENT OF ERCOT, IS OR WAS SERVING AT ITS REQUEST AS A DIRECTOR,
+OFFICER, PARTNER, VENTURER, PROPRIETOR, TRUSTEE, EMPLOYEE, AGENT
+OR SIMILAR FUNCTIONARY OF ANOTHER FOREIGN OR DOMESTIC
+CORPORATION, PARTNERSHIP, JOINT VENTURE, SOLE PROPRIETORSHIP,
+TRUST, EMPLOYEE BENEFIT PLAN OR OTHER ENTERPRISE, SHALL BE ENTITLED
+TO INDEMNIFICATION AS, AND TO THE FULLEST EXTENT, PERMITTED BY
+CHAPTER 8 OF THE TEXAS BUSINESS ORGANIZATIONS CODE OR ANY
+SUCCESSOR STATUTORY PROVISION, AS FROM TIME TO TIME AMENDED, SUCH
+ARTICLE OR SUCCESSOR PROVISION, AS SO AMENDED, BEING INCORPORATED
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+25
+
+IN FULL IN THESE BYLAWS BY REFERENCE. THE FOREGOING RIGHT OF
+INDEMNIFICATION SHALL NOT BE DEEMED EXCLUSIVE OF ANY OTHER RIGHTS
+TO WHICH THOSE TO BE INDEMNIFIED MAY BE ENTITLED AS A MATTER OF LAW
+OR UNDER ANY AGREEMENT, VOTE OF DISINTERESTED DIRECTORS, OR OTHER
+ARRANGEMENT.
+ARTICLE 12
+NOTICES
+Section 12.1 Form. Unless otherwise provided in these Bylaws, any notice required by
+these Bylaws to be given to a Member, Director, committee or subcommittee member,
+TAC Representative, member of a subcommittee of TAC, or Officer of ERCOT must be
+given by at least two of the following methods: mail, facsimile, email, or website posting.
+If mailed, a notice is deemed delivered when deposited in the mail addressed to the
+person at their address as it appears on the corporate records, with postage prepaid. A
+person may change their address in the corporate records by giving written notice of the
+change to the Secretary.
+Section 12.2 Signed Waiver of Notice. Whenever any notice is required by law or under
+ERCOT’s Certificate of Formation or these Bylaws, a written waiver signed by the person
+entitled to receive such notice is considered the equivalent to giving the required notice.
+A waiver of notice is effective whether signed before or after the time stated in the notice
+that was to be given.
+Section 12.3 Waiver of Notice by Attendance at a Meeting. Attendance at a meeting shall
+constitute a waiver of notice of such meeting, except where attendance is for the express
+purpose of objecting to the transaction of any business on the ground that the meeting is
+not lawfully called or convened.
+Section 12.4 Objection. If any person, who is a voting member of a group holding a
+meeting, reasonably objects to the transaction of business regarding a specific issue, or
+issues, at a meeting on the grounds that the meeting is not properly called or convened
+or that the issue, or issues, was improperly noticed, the issue or issues in question may
+not be addressed at that meeting. The chair of such meeting shall determine if such
+objection is reasonable.
+ARTICLE 13
+AMENDMENTS
+Section 13.1 Amendments to these Bylaws.
+(a)
+
+Subject to the provision that no amendment to these Bylaws may limit the rights of
+a Member to resign from Membership and subject to approval by the PUCT, these
+Bylaws may only be amended, altered, or repealed by the Board pursuant to
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+26
+
+Section 4.7(b), provided that the Bylaws may only be amended to eliminate TAC
+at the direction of the PUCT.
+(1)
+
+The Secretary may propose amendments to the Bylaws.
+
+(2)
+
+Any Seated Director or Corporate Member may propose amendments to
+the Bylaws by submitting a proposal of the amendment, including any
+necessary supporting documents, to the Secretary.
+
+(3)
+
+The Secretary, upon proposing an amendment to the Bylaws or upon
+receipt of a Seated Director’s or Corporate Member’s proposal to amend
+the Bylaws, shall notify the Board Chair.
+
+(b)
+
+Corporate Members shall be provided a minimum of twenty-one (21) days’
+advance notice and the opportunity to comment on any proposed Bylaws
+amendment prior to Board action on the proposed amendment.
+
+(c)
+
+The Secretary shall place any proposal to amend the Bylaws on the agenda for a
+Board meeting in the time and manner prescribed by the Board, subject to the
+notice and comment requirements contained in paragraph (a) above.
+
+Section 13.2 Amendments to the Certificate of Formation. In accordance with the
+procedures set forth in the Texas Business Organizations Code, including Sections
+22.107 and 22.164(b)(3), an affirmative vote of the majority of Eligible Voting Directors
+shall be required to amend the Certificate of Formation. To the extent practicable,
+Corporate Members shall be provided a minimum of twenty-one (21) days’ advance
+notice and the opportunity to comment on any proposed amendment to the Certificate of
+Formation prior to Board action on the proposed amendment.
+ARTICLE 14
+MISCELLANEOUS PROVISIONS
+Section 14.1 Legal Authorities Governing Construction of Bylaws. These Bylaws shall be
+construed under Texas law. All references in these Bylaws to statutes, regulations, or
+other sources of legal authority will refer to the authorities cited, or their successors, as
+they may be amended from time to time.
+Section 14.2 Legal Construction. Any question as to the application or interpretation of
+any provision of these Bylaws shall be resolved by the Board. To the greatest extent
+possible, these Bylaws shall be construed to conform to all legal requirements and all
+requirements for obtaining and maintaining all tax exemptions that may be available to
+nonprofit corporations. If any Bylaw provision is held invalid, illegal, or unenforceable in
+any respect, the invalidity, illegality, or unenforceability will not affect any other provision,
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+27
+
+and these Bylaws will be construed as if they had not included the invalid, illegal, or
+unenforceable provision.
+Section 14.3 Headings. The headings used in these Bylaws are for convenience and may
+not be considered in construing these Bylaws.
+Section 14.4 Number. All singular words include the plural, and all plural words include
+the singular.
+Section 14.5 Parties Bound. These Bylaws will bind and inure to the benefit of the
+Members, Directors, TAC Representatives, Officers, subcommittee members,
+employees, and agents of ERCOT and their respective administrators, legal
+representatives, successors, and assigns except as these Bylaws otherwise provide.
+
+Amended and Restated Bylaws (eff. December 20, 2022)
+ERCOT Public
+
+28
+
+

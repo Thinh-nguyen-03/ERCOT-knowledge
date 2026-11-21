@@ -1,0 +1,171 @@
+ERCOT Load Profiling Guide
+
+Section 11: Validation of Load Profile ID
+
+November 1, 2023
+
+11 VALIDATION OF LOAD PROFILE ID 11-1
+
+11.1 Initial Assignment of Load Profile IDs for Opt-In Entities 11-1
+
+11.1.1 Validation of Initial Opt-In Entity Assignments 11-2
+
+11.2 Annual Validation of Load Profile Type 11-3
+
+11.2.1 Annual Validation of Load Profile Type Assignment for RES and BUS Load Factor Electric Service Identifiers 11-3
+
+11.3 Additional Validations 11-5
+
+11.3.1 Validation of BUSOGFLT Profile Type 11-6
+
+11.3.2 Validation of NMFLAT and NMLIGHT Profile Types 11-6
+
+11.3.3 Validation of Profile Segments for Distributed Generation 11-6
+
+11.3.4 Comparison of Profile Type to Premise Type 11-6
+
+11.3.5 Validation of Service Address Zone Improvement Plan Code 11-6
+
+11.3.6 Validation of Weather Zone Code 11-6
+
+11.3.7 Comparison of Meter Data Type Code to Profile Type Code 11-7
+
+11.3.8 Comparison of Weather Sensitivity Code to Meter Data Type Code 11-7
+
+11 VALIDATION OF LOAD PROFILE ID
+
+(1) A Load Profile ID is comprised of five components:
+
+  (a) Load Profile Type;
+
+  (b) Weather Zone;
+
+  (c) Meter Data Type;
+
+  (d) Weather sensitivity; and
+
+  (e) Time Of Use Schedule (TOUS).
+
+(2) ERCOT shall validate the first two components, the Load Profile Type and Weather Zone, at the following times:
+
+  (a) As part of the initial assignment of Load Profile IDs for Opt-In Entities;
+
+  (b) When Load Profile Segment definitions change;
+
+  (c) One time per year during the Business Annual Validation process; and
+
+  (d) At least one time every three years during the Residential Annual Validation process.
+
+(3) At the start of the validation process, the Transmission and/or Distribution Service Provider (TDSP) shall be asked by ERCOT to confirm contact information for the primary and backup TDSP contact persons. ERCOT shall provide the TDSP contact information on an ERCOT contact person.
+
+(4) Electronic mail is the primary means of communication among ERCOT, the Retail Market Subcommittee (RMS), and Market Participants regarding the validation process detailed in this section. Other methods of communication shall be accommodated if all affected parties mutually agree to alternative methods.
+
+(5) The appropriate Technical Advisory Committee (TAC) subcommittee shall review this process on an annual basis.
+
+11.1 Initial Assignment of Load Profile IDs for Opt-In Entities
+
+(1) When a Non-Opt-In Entity (NOIE) chooses to participate in the retail market, it thereby becomes an Opt-In Entity and the initial assignment of Load Profile IDs to Electric Service Identifiers (ESI IDs) shall be subject to all requirements detailed in this Section 11.1, Initial Assignment of Load Profile IDs for Opt-In Entities.
+
+(2) Once the Opt-In Entity has given notice to ERCOT of its intent to participate in the retail market, the Opt-In Entity shall submit all assigned ESI IDs, their Load Profile Group, and their historical usage to ERCOT. Additionally, the Profile Type shall be submitted for all ESI IDs assigned to the non-metered group.
+
+  (a) The Opt-In Entity shall provide to ERCOT, in a comma-delimited format at least 60 days prior to the effective start date, the ESI ID’s monthly usage and Demand values for a period of time established in coordination with ERCOT.
+
+  (b) Load Profile ID assignments shall be based on the criteria defined in Appendix D, Profile Decision Tree.
+
+  (i) ERCOT will calculate the Load Profile Segment using the historical usage provided by the Opt-In Entity.
+
+  (ii) ERCOT shall provide the Opt-In Entity a file containing all of the ESI IDs and their Load Profile Type.
+
+  (iii) The Opt-In Entity shall use the provided information to assign the Load Profile ID via the appropriate Texas Standard Electronic Transaction (TX SET) and shall coordinate with ERCOT to schedule submittal of the transaction(s).
+
+11.1.1 Validation of Initial Opt-In Entity Assignments 
+
+(1) The Opt-In Entity shall notify ERCOT via email when the transactions to create the Opt-In ESI IDs have been submitted and accepted in the ERCOT System. After receiving notification, ERCOT shall perform three additional reviews to ensure all ESI IDs are set up in accordance with the appropriate Profile Decision Tree:
+
+  (a) ERCOT will compare each ESI ID and Load Profile ID assignment in the ERCOT database with the previously approved initial Load Profile Type;
+
+  (b) ERCOT will validate that Weather Zone assignment is consistent with the appropriate Profile Decision Tree; and
+
+  (c) ERCOT shall validate Load Profile Group assignment for Residential and Business ESI IDs by using the Premise Type field in ERCOT’s registration database. The Residential Load Profile Group must match the Residential Premise Type in the registration database. The Business Load Profile Group must match either the Small Non-Residential or Large Non-Residential Premise Type in the registration database.
+
+(2) Any discrepancies will be reported to the Opt-In Entity via email. The Opt-In Entity shall submit corrections to ERCOT via appropriate TX SET transaction(s) or provide details as to why the data elements have changed.
+
+(3) The initial Load Profile ID assignment validation is complete after all discrepancies are resolved.
+
+11.2 Annual Validation of Load Profile Type
+
+(1) Transmission and/or Distribution Service Providers (TDSPs) and ERCOT shall work together to complete the Annual Validation process. When a date is listed in this Section 11.2, Annual Validation of Load Profile Type, and a year is not specified, the date shall apply to the current year in which the Annual Validation is performed.
+
+11.2.1 Annual Validation of Load Profile Type Assignment for RES and BUS Load Factor Electric Service Identifiers
+
+(1) For the purposes of Annual Validation, ERCOT is responsible for determining the Load Profile Type assignment for all Residential and Business Load factor Electric Service Identifiers (ESI IDs).
+
+(2) The following timeline shall be adhered to, unless otherwise approved by an appropriate Technical Advisory Committee (TAC) subcommittee. ERCOT shall utilize the historical usage and Demand data in its systems to derive usage time period values for each active and de-energized ESI ID for the time period specified in Appendix D, Profile Decision Tree.
+
+  (a) Business Load Profile Group Timeline
+
+  (i) ERCOT shall determine the Load Profile Type for the Load Profile ID for each active and de-energized ESI ID based on the current Profile Decision Tree in Appendix D. ERCOT shall provide the TDSPs with a list of Business Load factor ESI IDs containing the current Load Profile Type and the recommended Load Profile Type for those ESI IDs where ERCOT recommends a change in Load Profile Type assignment. An electronic copy of each list shall be delivered to each TDSP no later than March 30.
+
+  (ii) For each ESI ID contained in the lists, the TDSPs shall review the recommended Load Profile Segment assignment and determine whether the recommended change is consistent with the TDSP tariffs, the applicable Retail Electric Provider (REP) billing requirements, and whether the ESI ID is active or de-energized. The TDSP shall then send finalized lists of ESI IDs back to ERCOT no later than April 10. The finalized lists shall indicate all revisions determined to be necessary by the TDSP.
+
+  (iii) ERCOT shall send notification to Competitive Retailers (CRs) and the Retail Market Subcommittee (RMS) by April 15 announcing these lists are available to the CR of record. Upon request, ERCOT shall make available to the current CR of record the list of those ESI IDs that are expected to have a Load Profile ID change as a result of Annual Validation.
+
+  (iv) The TDSPs shall coordinate with ERCOT to submit the necessary Texas Standard Electronic Transaction (TX SET) transactions to update Load Profile ID assignments to be effective on the most current meter read date on or after April 15.
+
+  (v) TDSPs are responsible for verifying that TX SET transactions related to Annual Validation have been successfully accepted into ERCOT’s systems by monitoring the appropriate response transactions. The TDSPs and ERCOT shall work together to have TX SET transactions successfully completed by September 30.
+
+  (vi) Within the first two Business Days of the TDSP successfully submitting all of its necessary transactions, ERCOT shall compare the finalized lists of recommended changes with the current Load Profile ID in the ERCOT system. ERCOT and the TDSPs shall work closely and expeditiously to resolve any discrepancies. The TDSP and ERCOT shall be in contact until at least 99.0% of the finalized list of changes is resolved to their mutual satisfaction.
+
+  (vii) ERCOT and the TDSPs shall provide regular updates on the progress of Annual Validation as needed, or at a minimum during the regularly scheduled RMS meetings.
+
+  (b) Residential Load Profile Group Timeline
+
+  (i) Every three years, ERCOT shall determine the Load Profile Type for the Load Profile ID for each active and de-energized Residential ESI ID based on the current Profile Decision Tree in Appendix D. ERCOT shall provide the TDSPs with a list of Residential ESI IDs containing the current Load Profile Type and the recommended Load Profile Type for those ESI IDs where ERCOT recommends a change in Load Profile Type assignment. An electronic copy of each list shall be delivered to each TDSP no later than March 30.
+
+  (ii) For each ESI ID contained in the lists, the TDSPs shall review the recommended Load Profile Segment assignment and determine whether the recommended change is consistent with the TDSP tariffs, the applicable REP billing requirements, and whether the ESI ID is active or de-energized. The TDSP shall then send finalized lists of ESI IDs back to ERCOT no later than April 10. The finalized lists shall indicate all revisions determined to be necessary by the TDSP.
+
+  (iii) ERCOT shall send notification to CRs and the RMS by April 15 announcing these lists are available to the CR of record. Upon request, ERCOT shall make available to the current CR of record the list of those ESI IDs that are expected to have a Load Profile ID change as a result of Annual Validation.
+
+  (iv) The TDSPs shall coordinate with ERCOT to submit the necessary TX SET transactions to update Load Profile ID assignments to be effective on the most current meter read date on or after April 15.
+
+  (v) TDSPs are responsible for verifying that TX SET transactions related to Annual Validation have been successfully accepted into ERCOT’s systems by monitoring the appropriate response transactions. The TDSPs and ERCOT shall work together to have TX SET transactions successfully completed by September 30.
+
+  (vi) Within the first two Business Days of the TDSP successfully submitting all of its necessary transactions, ERCOT shall compare the finalized lists of recommended changes with the current Load Profile ID in the ERCOT system. ERCOT and the TDSPs shall work closely and expeditiously to resolve any discrepancies. The TDSP and ERCOT shall be in contact until at least 99.0% of the finalized list of changes is resolved to their mutual satisfaction.
+
+  (vii) ERCOT and the TDSPs shall provide regular updates on the progress of Annual Validation as needed, or at a minimum during the regularly scheduled RMS meeting.
+
+11.3 Additional Validations 
+
+(1) Every year, during the Annual Validation process, ERCOT shall perform additional validations to identify potentially incorrect Load Profile ID or Premise Type assignments. If ERCOT and the Transmission and/or Distribution Service Provider (TDSP) confirm a Load Profile ID or Premise Type change is necessary, the TDSP shall update the Load Profile ID in the ERCOT system using the appropriate Texas Standard Electronic Transaction (TX SET) transaction.
+
+11.3.1 Validation of BUSOGFLT Profile Type
+
+(1) ERCOT shall verify that only eligible Electric Service Identifiers (ESI IDs) are assigned the Business Oil and Gas Flat (BUSOGFLT) Profile Type. Should an ESI ID be found to have been assigned the BUSOGFLT Profile Type erroneously, ERCOT shall work with the TDSP to have the Profile Type assignment corrected, and ERCOT shall notify the Competitive Retailer (CR) of record.
+
+11.3.2 Validation of NMFLAT and NMLIGHT Profile Types 
+
+(1) ERCOT shall review all ESI IDs and their usage which are classified with either a Non-Metered Flat (NMFLAT) or Non-Metered Light (NMLIGHT) Profile Type and calculate the Average Daily Use (ADU) for each ESI ID. ESI IDs with excessive fluctuation over the 12-month period being reviewed shall be reported to the TDSP.
+
+11.3.3 Validation of Profile Segments for Distributed Generation
+
+(1) ERCOT shall verify that only eligible ESI IDs are assigned Load Profile Segments for Distributed Generation (DG). For ESI IDs found to have been assigned a profile segment for DG erroneously, ERCOT shall work with the TDSP to have the profile segment assignment corrected.
+
+11.3.4 Comparison of Profile Type to Premise Type
+
+(1) ERCOT shall review and identify all ESI IDs with conflicting Profile and Premise Type combinations. Any discrepancies shall be reported to the TDSP.
+
+11.3.5 Validation of Service Address Zone Improvement Plan Code
+
+(1) ERCOT shall validate that the service address Zone Improvement Plan (ZIP) code for each ESI ID is located within the ERCOT region, and shall perform consistency checks for Congestion Zone, TDSP service area, and substation. ERCOT shall provide lists to the TDSP of any ESI IDs which have been identified as having a suspect ZIP code or substation assignment.
+
+11.3.6 Validation of Weather Zone Code 
+
+(1) ERCOT shall compare the current ESI ID Weather Zone component of the Load Profile ID to the Weather Zone assignment based on the current Profile Decision Tree in Appendix D, Profile Decision Tree, utilizing the service address ZIP code in ERCOT’s system. Any discrepancies shall be reported to the TDSP.
+
+11.3.7 Comparison of Meter Data Type Code to Profile Type Code 
+
+(1) ERCOT shall compare the Meter Data Type code component of the Profile ID to the Load Profile Group code for all ESI IDs. Any discrepancies shall be reported to the TDSP.
+
+11.3.8 Comparison of Weather Sensitivity Code to Meter Data Type Code
+
+(1) ERCOT shall verify that all ESI IDs with a Meter Data Type of Non-Interval Data Recorder (NIDR) are assigned a weather sensitivity code of Non-Weather Sensitive (NWS).

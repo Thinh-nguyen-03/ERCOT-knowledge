@@ -1,0 +1,446 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter F. METERING.
+§25.130. Advanced Metering.
+(a)
+
+Purpose. This section addresses the deployment, operation, and cost recovery for advanced metering
+systems.
+
+(b)
+
+Applicability. This section is applicable to all electric utilities, including transmission and distribution
+utilities. Any requirement applicable to an electric utility in this section that relates to retail electric
+providers (REPs) or REPs of record is applicable only to electric utilities operating in areas open to
+customer choice.
+
+(c)
+
+Definitions. As used in this section, the following terms have the following meanings, unless the context
+indicates otherwise:
+(1)
+Advanced meter -- Any new or appropriately retrofitted meter that functions as part of an
+advanced metering system and that has the minimum system features specified in this section,
+except to the extent the electric utility has obtained a waiver of a minimum feature from the
+commission.
+(2)
+Advanced Metering System (AMS) -- A system, including advanced meters and the associated
+hardware, software, and communications systems, including meter information networks, that
+collects time-differentiated energy usage and performs the functions and has the features specified
+in this section.
+(3)
+Deployment Plan -- An electric utility’s plan for deploying advanced meters in accordance with
+this section and either filed with the commission as part of the Notice of Deployment or approved
+by the commission following a Request for Approval of Deployment.
+(4)
+Enhanced advanced meter -- A meter that contains features and functions in addition to the AMS
+features in the deployment plan approved by the commission.
+(5)
+Web portal --The website made available on the internet in compliance with this section by an
+electric utility or a group of electric utilities through which secure, read-only access to AMS usage
+data is made available to the customer, the customer’s REP of record, and entities authorized by
+the customer.
+
+(d)
+
+Deployment and use of advanced meters.
+(1)
+Deployment and use of an AMS by an electric utility is voluntary unless otherwise ordered by the
+commission. However, deployment and use of an AMS for which an electric utility seeks a
+surcharge for cost recovery must be consistent with this section, except to the extent that the
+electric utility has obtained a waiver from the commission.
+(2)
+Six months prior to initiating deployment of an AMS or as soon as practicable after the effective
+date of this section, whichever is later, an electric utility that intends to deploy an AMS must file a
+statement of AMS functionality, and either a notice of deployment or a request for approval of
+deployment. An electric utility may request a surcharge under subsection (k) of this section in
+combination with a notice of deployment or a request for approval of deployment, or separately.
+A proceeding that includes a request to establish or amend a surcharge will be a ratemaking
+proceeding and a proceeding involving only a request for approval of deployment will not be a
+ratemaking proceeding.
+(3)
+The statement of AMS functionality must:
+(A)
+state whether the AMS meets the requirements specified in subsection (g) of this section
+and what additional features, if any, it will have;
+(B)
+describe any variances between technologies and meter functions within the electric
+utility’s service territory; and
+(C)
+state whether the electric utility intends to seek a waiver of any provision of this section
+in its request for surcharge.
+(4)
+A deployment plan must contain the following information:
+(A)
+Type of meter technology;
+(B)
+Type and description of communications equipment in the AMS;
+(C)
+Systems that will be developed during the deployment period;
+§25.130--1
+
+effective date 5/11/20
+(P 48525)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter F. METERING.
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+
+(D)
+A timeline for the web portal development or integration into an existing web portal;
+(E)
+A deployment schedule by specific area (geographic information); and
+(F)
+A schedule for deployment of web portal functionalities.
+An electric utility must file with the deployment plan, testimony and other supporting information,
+including estimated costs for all AMS components, estimated net operating cost savings expected
+in connection with implementing the deployment plan, and the contracts for equipment and
+services associated with the deployment plan, that prove the reasonableness of the plan.
+Competitively sensitive information contained in the deployment plan and the monthly progress
+reports required under paragraph (9) of this subsection may be filed confidentially. An electric
+utility’s deployment plan must be maintained and made available for review on the electric
+utility’s website. Competitively sensitive information contained in the deployment plan must be
+maintained and made available at the electric utility’s offices in Austin. Any REP that wishes to
+review competitively sensitive information contained in the electric utility’s deployment plan
+available at its Austin office may do so during normal business hours upon reasonable advanced
+notice to the electric utility and after executing a non-disclosure agreement with the electric utility.
+If the request for approval of a deployment plan contains the information described in paragraph
+(4) of this subsection and the AMS features described in subsection (g)(1) of this section, then the
+commission will approve or disapprove the deployment plan within 150 days, but this deadline
+may be extended by the commission for good cause.
+An electric utility’s treatment of AMS, including technology, functionalities, services,
+deployment, operations, maintenance, and cost recovery must not be unreasonably discriminatory,
+prejudicial, preferential, or anticompetitive.
+Each electric utility must provide progress reports on a monthly basis following the filing of its
+deployment plan with the commission until deployment is complete. Upon filing of such reports,
+an electric utility operating in an area open to customer choice must notify all REPs of the filing
+through standard market notice procedures. A monthly progress report must be filed within 15
+days of the end of the month to which it applies, and must include the following information:
+(A)
+the number of advanced meters installed, listed by electric service identifier for meters in
+the Electric Reliability Council of Texas (ERCOT) region. Additional deployment
+information if available must also be provided, such as county, city, zip code, feeder
+numbers, and any other easily discernable geographic identification available to the
+electric utility about the meters that have been deployed;
+(B)
+significant delays or deviation from the deployment plan and the reasons for the delay or
+deviation;
+(C)
+a description of significant problems the electric utility has experienced with an AMS,
+with an explanation of how the problems are being addressed;
+(D)
+the number of advanced meters that have been replaced as a result of problems with the
+AMS; and
+(E)
+the status of deployment of features identified in the deployment plan and any changes in
+deployment of these features.
+If an electric utility has received approval of its deployment plan from the commission, the electric
+utility must obtain commission approval before making any changes to its AMS that would affect
+the ability of a customer, the customer’s REP of record, or entities authorized by the customer to
+utilize any of the AMS features identified in the electric utility’s deployment plan by filing a
+request for amendment to its deployment plan. In addition, an electric utility may request
+commission approval for other changes in its approved deployment plan. The commission will act
+upon the request for an amendment to the deployment plan within 45 days of submission of the
+request, unless good cause exists for additional time. If an electric utility filed a notice of
+deployment, the electric utility must file an amendment to its notice of deployment at least 45 days
+before making any changes to its AMS that would affect the ability of a customer, the customer’s
+REP of record, or entities authorized by the customer to utilize any of the AMS features identified
+in the electric utility’s notice of deployment. This paragraph does not in any way preclude the
+electric utility from conducting its normal operations and maintenance with respect to the electric
+utility’s transmission and distribution system and metering systems.
+
+§25.130--2
+
+effective date 5/11/20
+(P 48525)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter F. METERING.
+(11)
+
+(12)
+
+(13)
+
+During and following deployment, any outage related to normal operations and maintenance that
+affects a REP’s ability to obtain information from the system must be communicated to the REP
+through the outage and restoration notice process according to Applicable Legal Authorities, as
+defined in §25.214(d)(1) of this title (relating to Tariff for Retail Delivery Service). Notification
+of any planned or unplanned outage that affects access to customer usage data must be posted on
+the electric utility’s web portal home page.
+An electric utility subject to §25.343 of this title (relating to Competitive Energy Services) must
+not provide any advanced metering equipment or service that is deemed a competitive energy
+service under that section. Any functionality of the AMS that is a required feature under this
+section or that is included in an approved deployment plan or otherwise approved by the
+commission does not constitute a competitive energy service under §25.343 of this title.
+An electric utility’s deployment and provision of AMS services and features, including but not
+limited to the features required in subsection (g) of this section, are subject to the limitation of
+liability provisions found in the electric utility’s tariff.
+
+(e)
+
+Technology requirements. Except for pilot programs, an electric utility must not deploy AMS technology
+that has not been successfully installed previously with at least 500 advanced meters in North America,
+Australia, Japan, or Western Europe.
+
+(f)
+
+Pilot programs. An electric utility may deploy AMS with up to 10,000 meters that do not meet the
+requirements of subsection (g) of this section in a pilot program, to gather additional information on
+metering technologies, pricing, and management techniques, for studies, evaluations, and other reasons. A
+pilot program may be used to satisfy the requirement in subsection (e) of this section. An electric utility is
+not required to obtain commission approval for a pilot program. Notice of the pilot program and
+opportunity to participate must be sent by the electric utility to all REPs and all entities authorized by a
+customer to have read-only access to the customer’s advanced meter data.
+
+(g)
+
+AMS features.
+(1)
+An AMS must provide or support the following minimum system features:
+(A)
+automated or remote meter reading;
+(B)
+two-way communications between the meter and the electric utility;
+(C)
+remote disconnection and reconnection capability for meters rated at or below 200 amps.
+(D)
+time-stamped meter data;
+(E)
+access to customer usage data by the customer, the customer’s REP of record, and entities
+authorized by the customer provided that 15-minute interval or shorter data from the
+electric utility’s AMS must be transmitted to the electric utility’s or a group of electric
+utilities’ web portal on a day-after basis;
+(F)
+capability to provide on-demand reads of a customer’s advanced meter through the
+graphical user interface of an electric utility’s or a group of electric utilities’ web portal
+when requested by a customer, the customer’s REP of record, or entities authorized by
+the customer subject to network traffic such as interval data collection, market orders if
+applicable, and planned and unplanned outages;
+(G)
+for an electric utility that provides access through an application programming interface,
+the capability to provide on-demand reads of a customer’s advanced meter data, subject
+to network traffic such as interval data collection, market orders if applicable, and
+planned and unplanned outages;
+(H)
+on-board meter storage of meter data that complies with nationally recognized nonproprietary standards such as in American National Standards Institute (ANSI) C12.19
+tables or International Electrotechnical Commission (IEC) DLMS-COSEM standards;
+(I)
+open standards and protocols that comply with nationally recognized non-proprietary
+standards such as ANSI C12.22, including future revisions;
+(J)
+for an electric utility in the ERCOT region, the capability to communicate with devices
+inside the premises, including, but not limited to, usage monitoring devices, load control
+devices, and prepayment systems through a home area network (HAN), based on open
+
+§25.130--3
+
+effective date 5/11/20
+(P 48525)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter F. METERING.
+
+(2)
+
+(3)
+
+(4)
+
+standards and protocols that comply with nationally recognized non-proprietary standards
+such as ZigBee, Home-Plug, or the equivalent through the electric utility’s AMS. This
+requirement applies only to a HAN device paired to a meter and in use at the time that the
+version of the web portal approved in Docket Number 47472 was implemented and
+terminates when the HAN device is disconnected at the request of the customer or a
+move-out transaction occurs for the customer’s premises; and
+(K)
+the ability to upgrade these features as the need arises.
+A waiver from any of the requirements of paragraph (1) of this subsection may be granted by the
+commission if it would be uneconomic or technically infeasible to implement or there is an
+adequate substitute for that particular requirement. The electric utility must meet its burden of
+proof in its waiver request.
+In areas where there is not a commission-approved independent regional transmission
+organization, standards referred to in this section for time tolerance and data transfer and security
+may be approved by a regional transmission organization approved by the Federal Energy
+Regulatory Commission or, if there is no approved regional transmission organization, by the
+commission.
+Once an electric utility has deployed its advanced meters, it may add or enhance features provided
+by AMS, as technology evolves. The electric utility must notify the commission and REPs of any
+such additions or enhancements at least three months in advance of deployment, with a description
+of the features, the deployment and notification plan, and the cost of such additions or
+enhancements, and must follow the monthly progress report process described in subsection (d)(9)
+of this section until the enhancement process is complete.
+
+(h)
+
+Discretionary Meter Services. An electric utility that operates in an area that offers customer choice must
+offer, as discretionary services in its tariff, installation of enhanced advanced meters and advanced meter
+features.
+(1)
+A REP may request the electric utility to provide enhanced advanced meters, additional metering
+technology, or advanced meter features not specifically offered in the electric utility’s tariff, that
+are technically feasible, generally available in the market, and compatible with the electric utility’s
+AMS.
+(2)
+The REP must pay the reasonable differential cost for the enhanced advanced meters or features
+and system changes required by the electric utility to offer those meters or features.
+(3)
+Upon request by a REP, an electric utility must expeditiously provide a report to the REP that
+includes an evaluation of the cost and a schedule for providing the enhanced advanced meters or
+advanced meter features of interest to the REP. The REP must pay a reasonable discretionary
+services fee for this report. This discretionary services fee must be included in the electric utility’s
+tariff.
+(4)
+If an electric utility deploys enhanced advanced meters or advanced meter features not addressed in
+its tariff at the request of the REP, the electric utility must expeditiously apply to amend its tariff to
+specifically include the enhanced advanced meters or meter features that it agreed to deploy.
+Additional REPs may request the tariffed enhanced advanced meters or advanced meter features
+under the process described in this paragraph of this subsection.
+
+(i)
+
+Tariff. All discretionary AMS features offered by the electric utility must be described in the electric
+utility’s tariff.
+
+(j)
+
+Access to meter data.
+(1)
+A customer may authorize its meter data to be available to an entity other than its REP. An
+electric utility must provide a customer, the customer’s REP of record, and other entities
+authorized by the customer read-only access to the customer’s advanced meter data, including
+meter data used to calculate charges for service, historical load data, and any other proprietary
+customer information. The access must be convenient and secure, and the data must be made
+available no later than the day after it was created.
+(2)
+The requirement to provide access to the data begins when the electric utility has installed 2,000
+advanced meters for residential and non-residential customers. If an electric utility has already
+§25.130--4
+
+effective date 5/11/20
+(P 48525)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter F. METERING.
+
+(3)
+
+(4)
+
+(k)
+
+installed 2,000 advanced meters by the effective date of this section, the electric utility must
+provide access to the data in the timeframe approved by the commission in either the deployment
+plan or request for surcharge proceeding. If only a notice of deployment has been filed, access to
+the data must begin no later than six months from the filing of the notice of deployment with the
+commission.
+An electric utility’s or group of electric utilities’ web portal must use appropriate and reasonable
+standards and methods to provide secure access for the customer, the customer’s REP of record,
+and entities authorized by the customer to the meter data. The electric utility must have an
+independent security audit conducted within one year of providing that access to meter data. The
+electric utility must promptly report the audit results to the commission.
+The independent organization, regional transmission organization, or regional reliability entity
+must have access to information that is required for wholesale settlement, load profiling, load
+research, and reliability purposes.
+
+Cost recovery for deployment of AMS.
+(1)
+Recovery Method. The commission will establish a nonbypassable surcharge for an electric
+utility to recover reasonable and necessary costs incurred in deploying AMS to residential
+customers and nonresidential customers other than those required by the independent system
+operator to have an interval data recorder meter. The surcharge must not be established until after
+a detailed deployment plan is filed under subsection (d) of this section. In addition, the surcharge
+must not ultimately recover more than the AMS costs that are spent, reasonable and necessary, and
+fully allocated, but may include estimated costs that will be reconciled pursuant to paragraph (6)
+of this subsection. As indicated by the definition of AMS in subsection (c)(2) of this section, the
+costs for facilities that do not perform the functions and have the features specified in this section
+must not be included in the surcharge provided for by this subsection unless an electric utility has
+received a waiver under subsection (g)(2) of this section. The costs of providing AMS services
+include those costs of AMS installed as part of a pilot program under this section. Costs of
+providing AMS for a particular customer class must be surcharged only to customers in that
+customer class.
+(2)
+Carrying Costs. The annualized carrying-cost rate to be applied to the unamortized balance of the
+AMS capital costs must be the electric utility’s authorized weighted-average cost of capital
+(WACC). If the commission has not approved a WACC for the electric utility within the last four
+years, the commission may set a new WACC to apply to the unamortized balance of the AMS
+capital costs. In each subsequent rate proceeding in which the commission resets the electric
+utility’s WACC, the carrying-charge rate that is applied to the unamortized balance of the utility’s
+AMS costs must be correspondingly adjusted to reflect the new authorized WACC.
+(3)
+Surcharge Proceeding. In the request for surcharge proceeding, the commission will set the
+surcharge based on a levelized amount, and an amortization period based on the useful life of the
+AMS. The commission may set the surcharge to reflect a deployment of advanced meters that is
+up to one-third of the electric utility’s total meters over each calendar year, regardless of the rate
+of actual AMS deployment. The actual or expected net operating cost savings from AMS
+deployment, to the extent that the operating costs are not reflected in base rates, may be considered
+in setting the surcharge. If an electric utility that requests a surcharge does not have an approved
+deployment plan, the commission in the surcharge proceeding may reconcile the costs that the
+electric utility already spent on AMS in accordance with paragraph (6) of this subsection and may
+approve a deployment plan.
+(4)
+General Base Rate Proceeding while Surcharge is in Effect. If the commission conducts a
+general base rate proceeding while a surcharge under this section is in effect, then the commission
+will include the reasonable and necessary costs of installed AMS equipment in the base rates and
+decrease the surcharge accordingly, and permit reasonable recovery of any non-AMS metering
+equipment that has not yet been fully depreciated but has been replaced by the equipment installed
+under an approved deployment plan.
+(5)
+Annual Reports. An electric utility must file annual reports with the commission updating the
+cost information used in setting the surcharge. The annual reports must include the actual costs
+
+§25.130--5
+
+effective date 5/11/20
+(P 48525)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter F. METERING.
+
+(6)
+
+(7)
+
+spent to date in the deployment of AMS and the actual net operating cost savings from AMS
+deployment and how those numbers compare to the projections used to set the surcharge. During
+the annual report process, an electric utility may apply to update its surcharge, and the commission
+may set a schedule for such applications. For a levelized surcharge, the commission may alter the
+length of the surcharge collection period based on review of information concerning changes in
+deployment costs or operating costs savings in the annual report or changes in WACC. An annual
+report filed with the commission will not be a ratemaking proceeding, but an application by the
+electric utility to update the surcharge must be a ratemaking proceeding.
+Reconciliation Proceeding. All costs recovered through the surcharge must be reviewed in a
+reconciliation proceeding on a schedule to be determined by the commission. Notwithstanding the
+preceding sentence, the electric utility may request multiple reconciliation proceedings, but no
+more frequently than once every three years. There is a presumption that costs spent in
+accordance with a deployment plan or amended deployment plan approved by the commission are
+reasonable and necessary. Any costs recovered through the surcharge that are found in a
+reconciliation proceeding not to have been spent or properly allocated, or not to be reasonable and
+necessary, must be refunded to electric utility’s customers. In addition, the commission will make
+a final determination of the net operating cost savings from AMS deployment used to reduce the
+amount of costs that ultimately can be recovered through the surcharge. Accrual of interest on any
+refunded or surcharged amounts resulting from the reconciliation must be at the electric utility’s
+WACC and must begin at the time the under or over recovery occurred.
+Cross-subsidization and fees. The electric utility must account for its costs in a manner that
+ensures there is no inappropriate cost allocation, cost recovery, or cost assignment that would
+cause cross-subsidization between utility activities and non-utility activities. The electric utility
+shall not charge a disconnection or reconnection fee that was approved by the commission prior to
+the effective date of this rule, for a disconnection or reconnection that is effectuated using the
+remote disconnection or connection capability of an advanced meter.
+
+§25.130--6
+
+effective date 5/11/20
+(P 48525)
+
+

@@ -1,0 +1,696 @@
+How multi-technology PPA structures could help companies reduce risk
+
+1
+
+How multi-technology PPA structures could help
+companies reduce risk
+Table of contents
+Introduction ....................................................................................................................................................... 3
+Key PPA risks related to variable generation patterns ......................................................................................... 4
+Risk impact on PPAs ................................................................................................................................................. 5
+How can MT PPA structures mitigate those risks? ............................................................................................... 9
+Analysis ............................................................................................................................................................ 11
+Balancing risk.......................................................................................................................................................... 11
+Shape risk ............................................................................................................................................................... 13
+Volume risk............................................................................................................................................................. 14
+Other risks specific to MT PPAs ......................................................................................................................... 16
+Conclusions ...................................................................................................................................................... 17
+About WBCSD’s REscale project ........................................................................................................................ 18
+About the World Business Council for Sustainable Development (WBCSD) ........................................................ 18
+Disclaimer ........................................................................................................................................................ 19
+Acknowledgements .......................................................................................................................................... 19
+
+How multi-technology PPA structures could help companies reduce risk
+
+2
+
+Introduction
+This paper builds on previous WBCSD reports on corporate power purchase agreements (PPAs):
+Corporate Renewable Power Purchase Agreements: Scaling up globally (October 2016) and Innovation in
+Power Purchase Agreement Structures (March 2018). These reports cover the opportunities corporate
+PPAs offer, the obstacles that corporate buyers and developers face as they plan and negotiate PPAs, as
+well as innovations in corporate PPAs as the market grows and evolves. This paper adds an additional
+focus to the previous publications and discusses a particular type of PPA – a multi-technology PPA – and
+the manner in which developers and corporate buyers may increasingly be using it. We hope this will
+support continuing innovation in the way companies purchase renewable power for their operations.
+As outlined in the first report – Corporate Renewable Power Purchase Agreements: Scaling up globally –
+PPAs usually focus on a company purchasing electricity (whether actually or notionally) from an off-site
+renewable electricity project via a PPA (a corporate renewable PPA). This paper focuses on what we
+term multi-technology PPAs (MT PPA). By that, we mean a PPA that covers multiple projects using
+different technologies (such as wind, solar, biomass, geothermal or hydro).
+A variety of technology combinations are possible for corporate renewable MT PPAs. In order to
+maintain focus, we have limited this paper to the technologies with a variable generation profile: wind
+and solar PV. It is equally possible to consider a combination of these technologies with storage
+technologies (e.g. on-site battery storage or hydro assets). For this paper, we have also maintained the
+focus on off-site PPA structures and have not included on-site behind the meter solutions (such as onsite solar PV).
+There is relatively limited public evidence of MT PPAs to date. The risk discussion in this paper draws
+from actual transactions that the co-authors have worked on in markets such as the United States.
+Although MT PPAs are not yet common, WBCSD is interested in the potential use of MT PPAs to solve
+identified market needs. Particularly, corporate buyers have shown increasing interest in firm or shaped
+PPA offerings in recent years (that is, rather than be exposed to a project’s variable generation profile,
+the corporate buyer can rely on a firm profile over a given time period – whether physically or via a
+financial hedging product). In this paper we explore whether combined technology solutions can offer a
+firmer generation profile in comparison to a single technology and hence reduce exposure to risks, now
+or perhaps in the future. This may make them a viable alternative to other existing risk mitigation tools.
+The focus of this paper is how MT PPAs may impact particular risks related to variable renewable
+generation within PPAs. As such, we first provide background on those risks and how corporate PPAs are
+addressing them. We then analyze how MT PPAs may impact those risks. Finally, we highlight how MT
+PPAs influence other relevant legal aspects.
+
+How multi-technology PPA structures could help companies reduce risk
+
+3
+
+Key PPA risks related to variable generation patterns
+For background on corporate PPAs, common features and risks, please refer to the previous WBCSD
+reports mentioned above. In this section, we focus on key risks related to variable generation patterns
+that are relevant to assessing whether a MT PPA approach offers benefits to either the sell side or buy
+side. Adopting the terminology from our previous reports, those are balancing risk, shape/profile risk
+and volume risk.
+Balancing risk – This concerns the risk of exposure to power system costs that arise when an asset’s
+forecasted generation is different from its actual generation. The rules relating to the potential liability
+of an asset’s exposure to power system costs differ markedly between markets. For example, the level
+to which power system operators pass system-balancing costs through to a party that is responsible for
+grid feed-in or off-take differs between jurisdictions – with some operators imposing strong price
+signals. Similarly, whether a system operator uses a single price or different prices for imbalance fees or
+compensation – depending on whether a party has gone over or under its nominated position – is
+equally a policy decision that impacts risk exposures.
+The more an asset contributes to the power system’s imbalance, the higher the imbalance cost. And the
+more the generation profile of an asset correlates with the market-wide generation profile of its
+technology, the more the asset’s imbalance correlates with the overall power system imbalance,
+resulting in higher imbalance costs. In short: asset generation profile and location matter when
+quantifying an asset’s imbalance risk.
+Shape or profile risk – This captures the fact that hour-to-hour generation will be variable depending on
+wind speed or solar irradiation, even if the overall volume over a sufficient period of time equals the
+estimated volume. Against this generation profile, the demand profile of a corporate buyer is likely to be
+flatter, with a pronounced variation between business and non-business days.
+Volume risk – This risk captures the variable generation of an asset over a period of time (usually a
+longer period than when discussing shape or profile risk). This variability derives from variations across
+that longer time period, such as higher than expected wind over one year or lower solar irradiation
+levels due to a poor summer.
+Many corporate buyers receive green certificates alongside the purchase of electricity to prove its
+renewable nature. In addition to the risks explained above stemming from the variable electricity
+generation of wind and solar technologies, corporate buyers also manage the lack or excess of green
+certificates that results from the variable renewable electricity generation. This particular risk is not
+further explored in this paper.
+
+How multi-technology PPA structures could help companies reduce risk
+
+4
+
+Risk impact on PPAs
+Corporate buyers are increasingly interested in understanding the range of mitigation tools available to address these risks. We outline
+some of these below, along with a discussion of how a key stakeholder – lenders to the project – view them.
+Risk
+
+Mitigation
+tool
+
+Balancing Outsourcing
+risk 1
+of risk to a
+third party
+
+Summary
+
+Costs
+
+Bankability of
+project
+
+Depending on the market and how the PPA is set up, the
+imbalance risk for a physical PPA can sit with either the seller
+or the corporate buyer. It is common to pay an appropriate
+third party (such as a utility or wholesale market trader) to
+manage the risk. For example, in some markets the buyer’s
+agent for delivery of electricity can be the balancing
+responsible party for the asset and also manage the
+imbalance risk.
+
+Fees are payable to the third party
+managing the risk.
+
+Considered a
+bankable structure.
+
+Costs might also depend on the
+asset’s generation profile and
+location and the quality of the
+information shared by the asset
+owner with the third party.
+
+Low risk for project.
+
+Where the seller manages the risk,
+the overall cost under the PPA will
+account for a risk premium.
+
+Considered a
+bankable structure.
+
+Structure has been
+used.
+
+A third party can include the asset within a much larger asset
+group and thereby reduce likely exposure to imbalance costs.
+Balancing Sell-side
+Alternatively, a large enough developer may have access to
+management balancing tools within its wider group and hence offer to
+risk
+of risk
+manage this risk (i.e. not outsource to a third party). The
+developer would most likely arrange for electricity deliveries
+to be nominated to the corporate buyer or its agent.
+
+Low risk for project.
+Structure has been
+used.
+
+Balancing risk is directly relevant to a physical PPA structure. In case of a virtual PPA, the cost of managing imbalance risk is equally relevant as the seller
+will account for such costs when negotiating the price it needs to obtain under a PPA.
+
+1
+
+How multi-technology PPA structures could help companies reduce risk
+
+5
+
+Shape
+and/or
+volume
+risk
+
+Buy-side
+management
+of risk:
+Physical PPA
+
+For ‘as-produced’, physically sleeved PPAs, the corporate
+buyer is responsible for the impact the variability of the
+electricity production may have on its overall demand
+position.
+For shape risk, if the sun did not shine or the wind did not
+blow, then the corporate buyer would need to procure the
+near-term reduction in volumes to meet its demand
+requirements.
+Similarly for volume risk, the corporate buyer will take a view
+on the asset’s likely generation on a probability basis when
+determining how to hedge any residual demand volumes
+required over a longer time period.
+Usually, the corporate buyer uses its utility supplier as a
+sleeving agent to manage the variable volumes from the PPA
+as part of the wider management of the corporate buyer’s
+electricity demand.
+
+How multi-technology PPA structures could help companies reduce risk
+
+Fees are payable by the corporate
+buyer to the sleeving agent. The
+scope and cost are dependent on
+commercial arrangements between
+the corporate buyer and the sleeving
+agent but can include management
+fees and, potentially, top-up fees
+when it is necessary to purchase
+replacement volumes on the market.
+
+Considered a
+bankable structure.
+Low risk for project.
+Structure has been
+used.
+
+The corporate buyer will likely
+experience and pass on a higher cost
+to accept this risk (in comparison to a
+large electricity trader directly
+contracted by the seller).
+Also, the cost will depend on the
+share of renewables in the market. In
+a renewable-dominated market,
+prices tend to be higher at moments
+with less renewable production.
+Thus, for the hours where the PPA
+does not cover the buyer’s demand,
+the market price might be higher
+than average prices, leading to a
+higher cost when purchasing
+additional power.
+
+6
+
+Shape
+and/or
+volume
+risk
+
+Buy-side
+Above can also be relevant for an ‘as-produced’ virtual PPA.
+management The corporate buyer does not receive physical delivery of
+of risk: Virtual power. However, it has financially locked in a price for the
+PPA
+variable renewable generation. The corporate buyer will need
+to manage the financial impact of the contracted variable
+generation in the PPA when it buys additional power for its
+overall electricity requirements. For example, an electricity
+supplier to the corporate buyer could provide this by
+accounting for the value of the electricity the buyer has
+already ‘hedged’ under its corporate PPA when determining
+how to manage the buyer’s overall position.
+
+Fees are payable for management of
+the corporate buyers’ overall
+electricity demand price exposure.
+
+Shape
+and/or
+volume
+risk
+
+Sell-side
+management
+of risk:
+Physical PPA
+
+Costs depend on the level to which
+the seller outsources the risks. For a
+physical PPA with a delivery agent
+that manages the risks, fees for this
+risk management would be payable
+on a per MWh basis.
+
+The seller commits to provide a firm shape or volume over a
+given time period (such as, a determined volume per hour and
+hence also per year or a minimum and/or maximum
+generation guarantee).
+For a physical PPA, this could involve the seller contracting an
+agent that can nominate and deliver the agreed firm volume
+notwithstanding the variable generation of the asset.
+Alternatively, a seller could seek to absorb the risk itself or
+within its wider group by setting firm deliveries at a
+conservative level. For volume risk in particular, a seller may
+consider the risk of under-delivery over a longer time period
+financially manageable.
+The delivery of renewable energy certificates (over a longer
+time period) matching the firm volumes proves the overall
+renewable nature of the electricity.
+
+How multi-technology PPA structures could help companies reduce risk
+
+Considered a
+bankable structure.
+Low risk for project.
+Structure has been
+used.
+
+Where the seller manages the risk
+itself, the overall cost of the PPA will
+account for the risk premium.
+
+More dependent on
+deal-specific and
+market-specific
+factors. Likely
+acceptable to lenders
+if seller outsources
+risk to a creditworthy
+delivery agent and if
+alternative delivery
+agents offering
+similar services are
+available.
+The approach of the
+seller absorbing the
+risks and not wholly
+outsourcing them will
+require more
+consideration by
+lenders.
+
+7
+
+Shape
+and/or
+volume
+risk
+
+Sell-side
+Similar issues are relevant for a virtual PPA where the seller
+management commits to a firm volume that is used for financial settlement
+of risk: Virtual under the PPA.
+PPA
+The seller can either (i) outsource this risk by entering in a
+parallel financial hedge with a third party (such as a trader) to
+manage the commitment of financially settling against a firm
+volume; or (ii) seek to absorb the risk by setting firm deliveries
+at a conservative level where the risks of under-production
+versus the firm financial settlement volume are financially
+manageable.
+
+How multi-technology PPA structures could help companies reduce risk
+
+Costs depend on the level to which
+the seller outsources risk.
+
+As above.
+
+Where the seller manages the risk
+itself, the overall cost of the PPA will
+account for the risk premium.
+
+8
+
+How can MT PPA structures mitigate those risks?
+This section discusses how MT PPAs may impact the risks mentioned above. The approach taken under a
+MT PPA may equally impact other risks also assigned under a PPA. We discuss these later in this paper
+(see Other risks specific to MT PPAs).
+The table below lists each of the risks discussed in the previous section and considers how MT PPAs may
+impact them.
+Risk
+
+PPA with multiple technologies
+
+Balancing
+risk
+
+If different technologies connected to the grid in the same balancing zone can be
+managed as a single group for balancing purposes and the assets’ forecast errors are not
+strongly correlated, then the resulting multiple-project effect could reduce the exposure
+to imbalance costs. This could impact the commercial terms of a PPA: if the effect
+reduces exposure to imbalance costs, then it may also reduce the fees for managing that
+risk via a third party or the developer itself (which in turn could influence the pricing
+under the PPA). A considerable effect is expected with bigger portfolios of different
+projects.
+
+Shape
+Solar and wind generation tend not to be correlated. Hence the amount of time both
+wind and solar assets produce insufficient power for the corporate buyer to cover their
+and/or
+volume risk demand tends to be less than that of single technology type assets. Similarly, a
+combination of wind and solar can reduce the exposure to years of extreme generation
+(both on high and low sides) and hence volume risk. As a result, market exposure is
+expected to reduce compared to a single technology PPA. The extent of this benefit
+depends heavily on the correlation between the production profiles of the assets, the
+relative size of the different assets and the specific power system dynamics.
+In principle, this effect also holds for a PPA combining multiple renewable assets of the
+same technology, as long as their physical characteristics lead to different generation
+profiles (e.g. a wind farm in the North of a market area combined with a wind farm in the
+South).
+Where the corporate buyer is accepting and managing shape and/or volume risk, then a
+MT PPA may influence the corporate buyer’s approach to that risk and the cost it
+assumes it will incur to manage it. For example, the MT PPA could be on an ‘as-produced’
+basis, but the net impact of the variable generation of the multiple projects is such that
+the corporate buyer considers the cost of managing the overall variable generation to be
+less expensive compared to an ‘as-produced’ single technology PPA. This insight will
+influence price discussions with the sleeving agent (if used).
+Where the seller is accepting and managing shape and/or volume risk, a MT PPA may
+enable the seller to more easily offer some form of a firm or shaped commitment under
+the MT PPA, as the risk and cost of managing this (either directly or via a trading party
+supporting the seller) is manageable.
+
+How multi-technology PPA structures could help companies reduce risk
+
+9
+
+The explanations above show that MT PPAs may offer a form of alternative mitigation to some of the
+risks relevant to a corporate PPA. However, whether that is accurate or relevant depends significantly
+on the actual effect of different technology combinations on balancing, shape and volume risk. The key
+influencing factors are:
+• Individual asset generation profile and geographical location, i.e. its correlation with the marketwide generation profile of its technology type;
+• The correlation of generation profiles and forecast errors within the MT PPA;
+• The correlation of combined generation profiles (i.e. wind and solar) with the demand profile of the
+corporate buyer;
+• How ‘sharp’ imbalance costs are (that is, how potentially expensive exposure to imbalance risk is);
+• How ‘sharp’ shape and volume costs are (that is, how potentially expensive it is to be exposed to
+intra-day and seasonal swings in power market prices).
+It is thus necessary to quantify the actual effect on balancing, shape and volume risk for each individual
+asset and MT PPA. With the availability of historic weather data for specific sites, a dedicated power
+market model can estimate cost effects into the future. As market rules, market shares of different
+generation technologies and power prices change over time, these estimates can guide decision-making,
+but are uncertain.
+
+How multi-technology PPA structures could help companies reduce risk
+
+10
+
+Analysis
+This section analyses the manner in which wind and solar technologies can impact the risks above when
+considering their generation profiles as part of a MT PPA. The extent to which they can do so is crucial to
+the value that a MT PPA may offer compared to a single technology PPA. In practice, local circumstances
+will always highly influence these impacts.
+
+Balancing risk
+An asset’s imbalance costs are dependent on market rules, imbalance prices as well as on the deviation
+of the actual generation from the forecasted one. For renewable assets, the reasonable but limited
+accuracy of renewable generation forecasts largely causes this deviation. Yet, the asset’s characteristics
+also play an important role: one individual site may see more (local) weather fluctuations than another
+site. As such, some renewable assets may follow an imbalance pattern that is typical for most renewable
+assets in the market and other renewable assets may show less typical behavior.
+In a MT PPA the total imbalance cost of all assets is a combination of the individual asset’s imbalances.
+Figure 1 explains this further: When combining assets that have highly correlated generation profiles
+and forecast errors (e.g. two identical turbines standing close to one another), the imbalance cost equals
+the sum of the individual imbalance costs. If generation profiles and forecast errors are not correlated
+(such as a wind asset and a solar asset), the imbalance cost is closer to the average of the two individual
+imbalance costs.
+
+How multi-technology PPA structures could help companies reduce risk
+
+11
+
+Figure 1: The balancing risk of uncorrelated assets (e.g. solar PV and wind) vs the balancing risk of two
+correlated assets (e.g. two wind turbines in the same location) (indicative example)
+
+As discussed in the previous section, sellers or corporate buyers can outsource balancing risk to a third
+party that absorbs and manages the risk for a fee. It is arguable that an approach across several solar
+and wind assets could form the basis of a more nuanced understanding of the likely imbalance exposure
+over time. This could, in turn, support a more focused discussion with the seller or corporate buyer
+asking the third party to reduce the fees for the risk management. As such, exposure to imbalance costs
+(or the fees to manage that risk) can impact price discussions between a seller and a corporate buyer.
+
+How multi-technology PPA structures could help companies reduce risk
+
+12
+
+Shape risk
+Shape risk captures the fact that the hour-to-hour generation will be variable depending on wind speed
+or solar irradiation, whereas the demand profile of a corporate buyer is likely to have a different shape
+(for example, a relatively stable demand profile over business hours). Figure 2 shows the residual
+demand curve of an industrial corporate buyer with a MT PPA using both solar and wind technologies.
+Figure 2: Residual industrial demand derived from a typical industrial demand with a solar PV and wind
+MT PPA (indicative example)
+
+The corporate buyer seeking to minimize shape risk tailors the contracted amount of renewable
+generation to its demand profile in an effort to reduce the number of hours in which it needs to
+purchase / sell additional power as well as to reduce the volume that it needs to purchase / sell. Figure 3
+shows the duration curve of three residual demand profiles: solar only, wind only and solar and wind
+combined. The pink line (solar and wind combined) is generally closest to the X-axis, meaning that the
+corporate buyer needs to buy / sell less additional power with a MT PPA. Note that this analysis is based
+on stochastically derived average profiles; in reality, wind and solar production profiles are location
+specific and residual demand curves can deviate significantly from the example shown here.
+
+How multi-technology PPA structures could help companies reduce risk
+
+13
+
+Figure 3: Duration curves of residual demand with a solar PV PPA, a wind PPA, and a solar PV & wind MT
+PPA (indicative example)
+
+Volume risk
+As discussed above, a relevant question is whether a MT PPA can (over time) hedge the volume risk of
+solar and wind technologies due to their weather dependency.
+Figure 4 shows that wind speed and solar irradiation tend to not be correlated. If they were correlated,
+the graph below would show a clear pattern (e.g. a linear correlation as the shape of a linear line). As a
+result, a combination between both wind and solar by itself reduces the exposure to years of extreme
+generation (both on high and low sides) and hence volume risk. It is worth highlighting that this impact
+arises over time, meaning several years. As such, a combination of wind and solar projects may reduce
+volume risk over longer terms.
+
+How multi-technology PPA structures could help companies reduce risk
+
+14
+
+Figure 4: Daily measured wind speed and solar irradiation from 2000-2018 in De Bilt, central Netherlands
+(Source: KNMI)
+
+Note: Wind speeds below 4 m/s have been removed as only low generation will occur below this speed.
+It is necessary to consider the impact of this high-level finding compared to the risk appetite of a
+corporate buyer and the existing risk mitigation tools available. For example, although a corporate buyer
+considering an ‘as-produced’ PPA with solar and wind projects may have a lower volume exposure on
+average, the buyer would need a sophisticated understanding of the risks involved. That may not be the
+case. In practice, a corporate buyer would usually seek to have the volume and shape risk managed by
+its usual electricity supplier or would seek to have the seller manage those risks. In that scenario, the
+value of this volume risk analysis lies in whether a more sophisticated analysis of volume risks associated
+with a MT PPA could form the basis of negotiating lower fees for the management of the risk.
+
+How multi-technology PPA structures could help companies reduce risk
+
+15
+
+Other risks specific to MT PPAs
+The table below highlights legal aspects that different types of MT PPAs discussed above could
+influence. Our experience and the discussions in this paper inform the table.
+PPA element
+
+PPA with multiple technologies
+
+Price
+
+To the extent that the impacts on imbalance, volume and shape risk discussed
+above exist, then there is potentially an impact on the price under a MT PPA. In
+essence, the extent to which a multi-technology approach reduces the costs
+incurred by either party to manage these risks may create the potential for a
+different price point.
+
+Performance
+
+Technologies such as wind and solar are mature. As such, performance
+requirements under a MT PPA (such as mechanical availability warranties) are
+likely to be substantively similar to what would have been available under a single
+technology PPA.
+However, one area to explore is the development of a portfolio availability
+warranty, with consequences for the seller only where the total average
+availability of the portfolio breaches agreed levels. Whether that will be
+appropriate will depend on the purpose of bringing together multiple
+technologies under one PPA. As explained above, the geographical diversity of
+projects in a MT PPA may provide suitable risk mitigation. If, for example, the
+generation of a wind project in the North of a market area is crucial to risk
+mitigation, then the mechanical availability of that asset may be more important
+than other assets in the MT PPA. In this instance, using a simple average
+availability measure across all assets in the MT PPA would not be appropriate.
+
+Project-specific
+issues
+
+Building on the above, a key MT PPA structure question is how to deal with issues
+related to individual projects. For example, should the loss of key permits or
+licenses for an individual project potentially lead (if not cured) to the entire MT
+PPA being in default or just that portion of the PPA? Some MT PPAs do treat
+multiple projects as a single asset. However, others can provide for partial
+termination or extended cure regimes (under which it is possible to replace a
+project).
+
+Change in law
+
+While there may be different issues for different technologies arising from
+changes in law, the usual approach to managing changes in law still applies.
+However, when the change in law only relates to a specific technology or project,
+the choice of the PPA structure will influence how the change in law affects the
+MT PPA overall. For example, if it is not possible to resolve the impact of a change
+in the law for a particular technology and project, should that lead to the
+potential termination of that aspect of the MT PPA or of the entire MT PPA?
+
+Sellers and corporate buyers investigating a MT PPA would also want to explore the impacts of different
+asset maintenance schedules, different curtailment requirements (if the assets are located in different
+grid zones) and different applicable network losses.
+
+How multi-technology PPA structures could help companies reduce risk
+
+16
+
+Conclusions
+Combining multiple technologies with variable generation profiles can reduce imbalance, shape and
+volume risk. The extent to which multiple technologies can do so is highly dependent on specific factors,
+such as:
+• Individual asset generation profile and geographical location, i.e. its correlation with the marketwide generation profile of its technology type;
+• The correlation of generation profiles and forecast errors within MT PPAs;
+• The correlation of combined generation profiles (i.e. wind and solar) with the demand profile of the
+corporate buyer;
+• How ‘sharp’ imbalance costs are (that is, how potentially expensive exposure to imbalance risk is);
+• How ‘sharp’ shape and volume costs are (that is, how potentially expensive it is to be exposed to
+intra-day and seasonal swings in power market prices).
+Assuming that it is possible to identify multiple projects and technologies that can make an impact on
+one or more of these risks, the key question remains whether that is sufficient to alter existing
+approaches to managing these risks. Existing risk management tools have the advantage of being
+relatively simple. That is, in most cases, one party takes on the risk for a fee (or a risk premium reflected
+in the price under the PPA). For a corporate buyer not focused on the intricacies of managing the
+underlying risks, this may be the easiest solution as long as the overall cost of the PPA remains
+acceptable.
+However, in a world where government financial support for renewables is decreasing, the pressure on
+sellers to find mutually acceptable prices for new projects is increasing. Any tool that can reduce price
+pressures in such discussions will be useful – including MT PPAs with variable technologies such as wind
+and solar as well as controllable renewable generation such as hydro or biomass. In conclusion, the most
+likely near-term value of a MT PPA is where well-structured, multiple projects reduce risks and thereby
+underpin discussions on reduced fees or risk premiums for managing such risks.
+Exploring the potential value of MT PPAs requires greater engagement by the parties involved with the
+nature of the underlying risks and the probabilistic assessment of their impacts. For example, where a
+corporate buyer is negotiating with its electricity supply utility on the costs of managing shape and
+volume risk, assessing the value of a MT PPA approach in such discussions will require the corporate
+buyer to have access to strong modeling capabilities, ideally using market modeling with numerous
+historical weather years (wind speeds, solar irradiation), which forecast future years based on
+historically seen weather patterns. The corporate buyer will want to understand historical weather data
+and expected generation for each asset, the tools used for forecasting generation and their expected
+accuracy, the applicable balancing market rules and expected prices as well as expected spot market
+prices. This understanding and analysis will be necessary to challenge the assumptions underpinning
+proposed risk management fees.
+Finally, it is necessary to assess the bankability of MT PPA structures on a case by case basis. For
+example, where a seller uses inherent risk mitigation under a MT PPA to underpin absorbing more shape
+or volume risk, lenders will want to focus on the seller’s assessment and management of that risk. It will
+likely be acceptable to have the seller outsource risk management to a creditworthy third party (or for
+the seller to have access to sufficient depth of risk management tools internally). However, where the
+project absorbs the risk itself, it will be necessary to model the downside financial risks and, if material,
+manage them.
+
+How multi-technology PPA structures could help companies reduce risk
+
+17
+
+About WBCSD’s REscale project
+REscale brings together leading companies representing the full renewable energy value chain to
+accelerate deployment of renewables and the transition to a low-carbon electricity system. REscale
+members share the ambition to scale up renewable deployment beyond average growth.
+This paper builds on previous WBCSD reports on corporate power purchase agreements: Corporate
+Renewable Power Purchase Agreements: Scaling up globally (October 2016) and Innovation in Power
+Purchase Agreement Structures (March 2018). These reports cover the opportunities corporate PPAs
+offer, the obstacles that corporate buyers and developers face as they plan and negotiate PPAs, as well
+as innovations in corporate PPAs as the market grows and evolves. The platform undertaking this work
+is called the Corporate Renewable PPA Forum.
+To find out more about REscale, the Corporate Renewable PPA Forum and previous reports, visit our
+webpage or contact:
+Lucy Hunt
+Associate, Renewable Energy
+hunt@wbcsd.org
+
+About the World Business Council for Sustainable
+Development (WBCSD)
+WBCSD is a global, CEO-led organization of over 200 leading businesses working together to accelerate
+the transition to a sustainable world. We help make our member companies more successful and
+sustainable by focusing on the maximum positive impact for shareholders, the environment and
+societies.
+Our member companies come from all business sectors and all major economies, representing a
+combined revenue of more than USD $8.5 trillion and 19 million employees. Our global network of
+almost 70 national business councils gives our members unparalleled reach across the globe. WBCSD is
+uniquely positioned to work with member companies along and across value chains to deliver impactful
+business solutions to the most challenging sustainability issues.
+Together, we are the leading voice of business for sustainability: united by our vision of a world where
+more than 9 billion people are all living well and within the boundaries of our planet, by 2050.
+www.wbcsd.org
+Follow us on Twitter and LinkedIn
+
+How multi-technology PPA structures could help companies reduce risk
+
+18
+
+Disclaimer
+This publication is released in the name of the World Business Council for Sustainable Development
+(WBCSD). This document is the result of a collaborative effort between WBCSD, Norton Rose Fulbright
+LLP, DNV GL and representatives from companies participating in the Corporate Renewable PPA Forum.
+A range of WBCSD members reviewed the material, thereby ensuring that the document broadly
+represents the majority view of the Corporate Renewable PPA Forum. It does not mean, however, that
+every company within the forum agrees with every word.
+
+Acknowledgements
+This report was drafted by WBCSD, Norton Rose Fulbright LLP and DNV GL. The report has been
+prepared for general informational purposes only and is not intended to be relied upon as accounting,
+tax, legal or other professional advice. We thank the following co-authors:
+• Andrew Hedges, Norton Rose Fulbright LLP; and
+• Martijn Duvoort, DNV GL.
+
+How multi-technology PPA structures could help companies reduce risk
+
+19
+
+How multi-technology PPA structures could help companies reduce risk
+
+20
+
+

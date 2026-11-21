@@ -1,0 +1,347 @@
+Introduction to
+Virtual Power Purchase Agreements
+
+Agenda
+ Overview of Green Power
+ What are Power Purchase Agreements
+ Virtual PPAs
+ Case Study - Iron Mountain
+ Question and Answer Session
+ Guest Speaker – Kevin Hagen
+Director Corporate Responsibility
+Iron Mountain
+
+Webinar Objectives
+ Provide an overview of how power purchase agreements –
+and specifically virtual power purchase agreements work
+ Provide a case study from a prominent Green Power Partner
+on their experience with VPPAs
+
+Green Power Partnership Overview
+
+
+Summary
+
+
+
+
+The U.S. EPA’s Green Power Partnership is a free, voluntary
+program that encourages organizations to use green power as a way
+to reduce the environmental impacts associated with conventional
+electricity use.
+
+Objectives
+
+
+
+
+
+Reduce U.S. greenhouse gas emissions
+Expand the voluntary green power market
+Standardize green power procurement as part of best practice
+environmental management
+Provide recognition platform for organizations using green power in
+the hope that others follow their lead
+
+ +1,400 Partners are purchasing >35 B kWh annually
+4
+
+EPA’s +1,400 Partners
+
+5
+
+What is Green Power
+Biogas
+
+Biomass
+
+
+
+Subset of renewable energy - representative of
+resources and technologies that offer the highest
+environmental benefit
+
+
+
+Electricity generated from natural resources that
+replenish themselves over short periods of time,
+including the sun, wind, moving water, organic
+plant and waste material (biomass), and the
+Earth’s heat (geothermal)
+
+
+
+Must be from “new” facilities placed into service
+within last 15 years or those that have been
+repowered
+
+
+
+Must be of the “voluntary” market
+ Incremental to or Above-and-beyond
+compliance market requirements (e.g.,
+cannot be used for regulatory requirements)
+
+Wind
+
+Solar
+
+Low-Impact Small
+Hydro
+
+Geothermal
+
+6
+
+Green Power – Product Options
+
+
+Renewable Energy Certificates (RECs)
+
+
+
+
+
+
+
+
+Green Power Electricity Products
+
+
+
+
+
+Green power offered by utility suppliers that is generated from renewable sources
+Is a “bundled” product that includes both the RECs and underlying electrons
+
+Power Purchase Agreement (PPA) for Renewables
+
+
+
+
+
+
+The environmental “attributes” of electricity generated from renewable resources
+(1 REC = 1 MWh)
+Attributes are based on the generation technology type and age, geographic
+location, and time of generation
+Does not include the underlying electrons – “unbundled”
+
+Usually a long-term contract to procure RECs and underlying electrons from a
+specific project
+Can be on- or off-site
+
+Owned On-site Generation
+
+
+
+Install a renewable system on-site (e.g. solar panels, wind turbine)
+Produces both electricity and RECs from the on-site source
+
+Corporate Renewable Energy Deals
+
+Credit: Rocky Mountain Institute.
+
+Partners’ Green Power Use By Product Type
+35
+
+30
+
+Green Power (Billion kWh)
+
+Off-site PPA
+25
+
+On-site
+Marketing
+
+20
+
+Pricing
+REC
+
+15
+
+10
+
+5
+
+0
+
+2009
+
+2010
+
+2011
+
+2012
+
+2013*
+
+2014
+
+2015
+
+What are Power Purchase Agreements
+
+
+A type of contract that allows consumers, typically large commercial entities, to
+form an agreement with a specific energy generating unit.
+
+
+
+These types of contracts, typically secure a long term stream of revenue for an
+energy project by providing the energy off-taker a steady cost of electricity.
+
+Wind & Solar PPA Prices
+Wind & Solar Levelized PPA Prices By Contract Year (2015
+$/MWh)
+$225
+$200
+$175
+$150
+$125
+$100
+$75
+$50
+$25
+$0
+2006
+
+2007
+
+2008
+
+2009
+
+2010
+
+2011
+
+Wind
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+Solar
+
+Credit: LBNL, “Utility Scale Solar 2015” and “2015 Wind Technologies Market Report”
+
+Why are Institutions Turning to PPAs?
+Economics – cost savings and price hedge
+ Potential to reduce carbon footprint (with REC
+ownership)
+ Naming rights/branding opportunities with
+renewable energy facility
+ Offer tangible, clear association with specific
+renewable energy facility
+ Direct impact on new renewable energy supply (for
+PPAs with yet-to-be-built projects)
+
+
+Typical Characteristics of PPA Offtakers
+Large electricity user with dense load center (college
+campus or tech data center)
+ Financial stability/credit-worthiness
+ Focus on longer timeframes
+ Willing to be “first mover”
+ Looking to reduce carbon footprint
+ Desire to directly create new renewable supply
+
+
+Types of PPAs
+Physical
+PPA
+ Power is “physically” delivered to
+
+buyer.
+
+ Renewable energy project and
+
+Virtual/Synthetic/Structured
+PPA
+ Financially-settled arrangement between
+
+renewable energy project and buyer, with
+buyer owning RECs.
+
+buyer must be located in same grid
+region.
+
+ Renewable energy project and buyer do
+
+ Limited to states that permit direct
+
+ Appealing to organizations in states that
+
+retail access.
+
+not need to be in same grid region.
+do not permit direct retail access.
+
+ Appealing to buyers that have multiple
+
+load centers.
+
+Physical PPA
+
+Virtual PPA
+
+16
+
+Virtual PPA
+
+17
+
+Virtual PPA
+
+18
+
+Virtual PPA
+
+19
+
+Virtual PPA
+
+20
+
+Virtual PPA: Impact on Net Electricity Costs
+
+21
+
+Virtual PPA: Impact on Net Electricity Costs
+
+22
+
+Virtual PPA: Impact on Net Electricity Costs
+
+23
+
+Virtual PPA: Impact on Net Electricity Costs
+
+24
+
+Challenges and Risks of VPPAs
+ Lack of in-house skills to negotiate VPPA
+ Power price risk
+ Effectiveness of hedge is contingent on correlation between
+power markets
+ Counterparty credit risk
+ Regulatory risk
+ More difficult story to tell to stakeholders
+
+Q&A Session
+ An overview of Green Power Partnership is available on EPA’s
+Web site www.epa.gov/greenpower
+ More Questions?
+ Christopher Kent, 202-343-9046,
+kent.christopher@epa.gov
+
+

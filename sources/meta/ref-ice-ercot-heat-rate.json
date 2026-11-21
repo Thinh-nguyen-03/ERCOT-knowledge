@@ -1,0 +1,12 @@
+{
+ "id": "ref-ice-ercot-heat-rate",
+ "title": "ICE ERCOT Panhandle Heat Rate 345kV Hub Off-Peak contract specification",
+ "publisher": "ICE Futures U.S.",
+ "tier": 2,
+ "edition": null,
+ "url": "https://www.ice.com/api/productguide/spec/72321779/pdf",
+ "retrieved": "2026-11-21",
+ "raw_bytes": 9583,
+ "raw_sha256": "5201e3269ee258fb4d8551f53efe974554904e601d19696310e1891a70e412d9",
+ "text_chars": 1330
+}

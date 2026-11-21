@@ -1,0 +1,488 @@
+ERCOT Nodal Operating Guides
+
+Section 11: Constraint Management Plans and
+
+Remedial Action Schemes
+
+October 29, 2026
+
+11 CONSTRAINT MANAGEMENT PLANS AND REMEDIAL ACTION SCHEMES 11-1
+
+11.1 Introduction 11-1
+
+11.2 Remedial Action Schemes 11-2
+
+11.2.1 Reporting of RAS Operations 11-8
+
+11.3 Automatic Mitigation Plans 11-9
+
+11.4 Remedial Action Plan 11-10
+
+11.4.1 Remedial Action Plan Process 11-11
+
+11.5 Mitigation Plan 11-12
+
+11.6 Pre-Contingency Action Plans 11-13
+
+11.6.1 Pre-Contingency Action Plan Process 11-14
+
+11.7 Temporary Outage Action Plan 11-14
+
+11 CONSTRAINT MANAGEMENT PLANS AND REMEDIAL ACTION SCHEMES
+
+11.1 Introduction
+
+(1) Constraint Management Plans (CMPs) are developed in accordance to the guidelines set forth in the sections below, and are defined in Protocol Section 2.1, Definitions. CMPs include, but are not limited to the following:
+
+  (a) Remedial Action Plans (RAPs) which are modeled in Network Security Analysis (NSA) where practicable;
+
+  (b) Automatic Mitigation Plans (AMPs) which are modeled in NSA where practicable;
+
+  (c) Pre-Contingency Action Plans (PCAPs);
+
+  (d) Extended Action Plans (EAPs);
+
+  (e) Temporary Outage Action Plans (TOAPs); and
+
+  (f) Mitigation Plans.
+
+(2) When developing CMPs, ERCOT shall first attempt to utilize the 15-Minute Rating of the impacted Transmission Facilities, where available, to develop RAPs such that the ERCOT Transmission Grid is utilized to the fullest extent.
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR215: Insert paragraph (3) below upon system implementation and renumber accordingly:]                                                                                                                                                                                                                                                                                                                  |
+|                                                                                                                                                                                                                                                                                                                                                                                                              |
+| (3) Remedial Action Schemes (RASs) and/or AMPs may also be implemented in order to allow Generation Resources described in paragraph (3) of Planning Guide Section 4.1.1.7, Minimum Deliverability Criteria, to meet the minimum deliverability criteria in Planning Guide Section 4.1.1.7, or Transmission Facilities that would otherwise be subject to restrictions to operate without such restrictions. |
++==============================================================================================================================================================================================================================================================================================================================================================================================================+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(3) EAPs may be proposed by any Market Participant or developed by ERCOT and can be utilized for reliability or economic reasons. EAPs proposed for reliability reasons may have thermal constraints that do not have a Security-Constrained Economic Dispatch (SCED) solution. EAPs proposed for economic reasons may have thermal constraints that are resolvable by SCED but result in high congestion costs. If an EAP is proposed primarily for economic reasons, the avoidable congestion must have resulted in:
+
+  (a) Over $2 million of congestion cost in a given month within the past 36 months; or
+
+  (b) $5 million of congestion cost over any three months within the past 36 month.
+
+(4) ERCOT shall provide notification to the market of any approved, amended, or removed CMP or Remedial Action Scheme (RAS). ERCOT shall provide notification to the market of any RAP, AMP, or RAS that cannot be modeled in the Network Operations Model. ERCOT shall post to the Market Information System (MIS) Secure Area all CMPs and RASs and any unmodeled CMPs or RASs.
+
+(5) ERCOT is not required to provide notification to the market of any proposed TOAPs.
+
+(6) All submittals related to CMPs or RASs must be emailed to ras_cmp@ercot.com.
+
+11.2 Remedial Action Schemes
+
+(1) Remedial Action Schemes (RASs) are designed to detect abnormal predetermined ERCOT System conditions and automatically take corrective actions to maintain a secure system. Any RAS proposed on or after June 24, 2020 may not be approved or implemented unless ERCOT has first determined that the RAS is necessary to avoid an actual or anticipated violation of transmission security criteria, as defined in Section 2.2.2, Security Criteria, that cannot be resolved through ERCOT market tools.
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR215: Replace paragraph (1) above with the following upon system implementation:]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| (1) Remedial Action Schemes (RASs) are designed to detect abnormal predetermined ERCOT System conditions and automatically take corrective actions to maintain a secure system. Any RAS proposed on or after June 24, 2020 may not be approved or implemented unless ERCOT has first determined that the RAS is necessary to avoid an actual or anticipated violation of transmission security criteria, as defined in Section 2.2.2, Security Criteria, that cannot be resolved through ERCOT market tools, or unless the RAS would allow a Generation Resource of the type described in paragraph (3) of Planning Guide Section 4.1.1.7, Minimum Deliverability Criteria, to operate at a level that comports with the minimum deliverability criteria in Planning Guide Section 4.1.1.7. |
++=============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(2) The following do not individually constitute a RAS:
+
+  (a) Protection systems installed for the purpose of detecting faults on Transmission Elements and isolating the faulted Transmission Elements;
+
+  (b) Schemes for automatic Under-Frequency Load Shedding (UFLS) and automatic Under-Voltage Load Shedding (UVLS) comprised of only distributed relays;
+
+  (c) Out-of-step tripping and power swing blocking;
+
+  (d) Automatic reclosing schemes;
+
+  (e) Schemes applied on a Transmission Element for non-fault condition, such as, but not limited to, generator loss-of-field, transformer top-oil temperature, overvoltage or overload to protect the Transmission Element against damage by removing it from service;
+
+  (f) Controllers that switch or regulate one or more of the following: series or shunt reactive devices, flexible alternating current transmission system (FACTS) devices, phase-shifting transformers, variable-frequency transformers, or tap-changing transformers; and that are located at and monitor quantities solely at the same station as the Transmission Element being switched or regulated;
+
+  (g) FACTS controllers that remotely switch static shunt reactive devices located at other stations to regulate the output of a single FACTS device;
+
+  (h) Schemes or controllers that remotely switch shunt reactors and shunt capacitors for voltage regulation that would otherwise be manually switched;
+
+  (i) Schemes that automatically de-energize a line for a non-faults operation when one end of the line is open;
+
+  (j) Schemes that provide anti-islanding protection (e.g., protect Load from effects of being isolated with generation that may not be capable of maintaining acceptable frequency and voltage);
+
+  (k) Automatic sequences that proceed when manually initiated solely by a System Operator;
+
+  (l) Modulation of high voltage, direct current (HVDC) or FACTS via supplementary controls, such as angle damping or frequency damping applied to damp local or inter-area oscillation;
+
+  (m) Sub-synchronous resonance protection schemes that directly detect sub-synchronous quantities (e.g., currents or torsional oscillations); or
+
+  (n) Generation controls such as, but not limited to, Automatic Generation Control (AGC), generation excitation (e.g., Automatic Voltage Regulator (AVR) and Power System Stabilizers (PSSs)), fast valving, and speed governing.
+
+(3) In addition to the requirements in the Protocols and applicable North American Electric Reliability Corporation (NERC) Reliability Standards, RASs shall also meet the following requirements:
+
+  (a) A RAS may be proposed by a Transmission Service Provider (TSP) or Resource Entity, and be approved by ERCOT and the TSP(s) and/or Resource Entity(ies) included in the RAS prior to implementation;
+
+  (b) The design, implementation, and testing of the RAS shall be coordinated within the RAS Entity;
+
+  (c) The RAS shall be automatically armed when appropriate;
+
+  (d) The RAS shall not operate unnecessarily;
+
+  (e) A RAS designated as a Limited Impact RAS shall be reviewed according to the process described in paragraph (4)(e) below and subject to ERCOT approval;
+
+  (f) For a RAS not designated by ERCOT as a Limited Impact RAS, the possible inadvertent operation of the RAS, resulting from any single RAS component malfunction satisfies all of the following as determined by the review process in paragraph (4)(e) below and subject to ERCOT approval:
+
+  (i) The ERCOT System shall remain stable;
+
+  (ii) Cascading shall not occur;
+
+  (iii) Applicable Facility Ratings shall not be exceeded;
+
+  (iv) ERCOT System voltages shall be within post-contingency voltage limits and post-contingency voltage deviation limits;
+
+  (v) Transient voltage responses shall be within acceptable limits.
+
+  (g) To avoid unnecessary RAS operation, the RAS Entity may provide a Real-Time status indication to the owner of any Generation Resource or Energy Storage Resource (ESR) controlled by the RAS to show when the flow on one or more of the RAS monitored Facilities exceeds 90% of the flow necessary to arm the RAS. The cost necessary to provide such status indication shall be the responsibility of the RAS Entity;
+
+  (h) The status indication of any automatic or manual arming/activation or operation of the RAS shall be provided as Supervisory Control and Data Acquisition (SCADA) alarm inputs to the owner(s) of any Facility controlled by the RAS;
+
+  (i) When a RAS is removed from service, the RAS Entity or a Designated Agent shall immediately notify ERCOT;
+
+  (j) When a RAS is returned to service, the RAS Entity or its Designated Agent shall immediately notify ERCOT. ERCOT shall modify its reliability constraints to recognize the availability of the RAS;
+
+  (k) The RAS Entity shall telemeter the status indication of the following items by SCADA to ERCOT for incorporation into ERCOT systems:
+
+  (i) Any automatic or manual arming/activation or operation of the RAS;
+
+  (ii) The in-service/out-of-service status of the RAS; and
+
+  (iii) Any additional related telemetry that already exists pertinent to the monitoring of the RAS (e.g. status indication of communications links between associated RAS equipment and the owner’s control center, arming limits of associated RAS equipment); and
+
+  (l) The TSP may receive telemetry for a Resource Entity owned RAS through ERCOT or through the RAS Entity, at the option of the TSP. The RAS Entity, at its own cost, must provide telemetry for Resource Entity owned RASs to the TSP upon request.
+
+(4) The RAS Entity shall submit to ERCOT documentation of an existing, modified, proposed, or retiring RAS for review and compilation into an ERCOT RAS database using the form in Section 8, Attachment K, Remedial Action Scheme (RAS) Template. The documentation shall detail the design, operation, modeling, functional testing, and coordination of the RAS with other RASs, Automatic Mitigation Plans (AMPs), protection and control systems. The exit strategy described in the RAS submission shall identify the ERCOT endorsed transmission project or near-term mitigation that will address the constraint.
+
+  (a) ERCOT shall conduct a review of each proposed new or modified RAS and each proposed retirement of a RAS. Within five Business Days of receipt, ERCOT shall post the proposal to the Market Information System (MIS) Secure Area and shall issue a Market Notice describing the proposal and inviting submission of Market Participant comments. Within 30 Business Days of receiving the proposal, ERCOT shall complete an evaluation of the proposal in accordance with paragraph (4)(e) below and shall issue a Market Notice approving or rejecting the proposal. ERCOT shall coordinate any additional time needed for the evaluation with the RAS Entity. Additionally, ERCOT shall conduct a review of each existing RAS at least once every three years or as required by changes in system conditions.
+
+  (b) The review of a proposed RAS shall be completed before the RAS is placed in service. The timing of placing the RAS into service must be coordinated with and approved by ERCOT. The implementation schedule must be confirmed through submission of a Network Operations Model Change Request (NOMCR) to ERCOT.
+
+  (c) Existing RASs that have already undergone at least one review shall remain in service during any subsequent review. Modifications to existing RASs may be implemented upon approval by ERCOT.
+
+  (d) The schedule for placing a RAS into service must be coordinated among ERCOT and the RAS Entity, and shall provide sufficient time to perform any necessary functional testing prior to its being placed in service.
+
+  (e) For any proposed, modified, or existing RAS, ERCOT’s review of the RAS shall:
+
+  (i) Validate that RAS is needed to mitigate the system condition(s) or contingency(ies) for which it was designed, and that the RAS actions, designed timing, and arming conditions mitigate those system condition(s) or contingency(ies);
+
+  (ii) Identify any conflicts with the Protocols, NERC Reliability Standards, and this Operating Guide;
+
+  (iii) Validate that transient voltage responses are within acceptable limits as established by ERCOT;
+
+  (iv) Evaluate and document the consequences of misoperation, incorrect operation, unintended operation, or failure of a RAS. Additionally, validate that the RAS is designed to meet the requirements in paragraphs (3)(e) and (3)(f) above;
+
+  (v) Validate that the proposed RAS facilitates periodic testing and maintenance;
+
+  (vi) Determine whether or not the RAS is a Limited Impact RAS;
+
+  (vii) Validate that the proposed RAS avoids adverse interactions with other RASs, AMPs, protection and control systems, and applicable emergency procedures;
+
+  (viii) Evaluate the effects of future bulk electric system modifications on the design and operation of the RAS where applicable;
+
+  (ix) Validate the implementation of RAS logic appropriately correlates desired actions (outputs) with events and conditions (inputs);
+
+  (x) Validate the mechanism of procedure by which the RAS is armed is clearly described, and is appropriate for reliable arming and operation of the RAS for the conditions and events for which it is designated to operate; and
+
+  (xi) Evaluate future transmission project(s) that will eliminate the need for the RAS.
+
+  (f) Upon completion of ERCOT’s RAS review, ERCOT shall provide all results and underlying studies to the RAS Entity and each impacted TSP.
+
+  (g) If deficiencies are identified for a new, functionally modified, or retiring RAS by ERCOT or other parties’ comments, the RAS Entity shall either submit an amended RAS proposal or withdraw the RAS proposal. The amended RAS proposal shall undergo the review process specified in paragraph (4)(e) above using the 30 Business Day RAS review timeline in paragraph (4)(a) above until the identified deficiencies have been resolved to the satisfaction of ERCOT.
+
+  (h) For any proposed retirement of a RAS, ERCOT shall evaluate whether the proposed retirement will cause any reliability concern, including whether the proposed retirement will adversely impact the dispatch of a Generation Resource or ESR subject to the minimum deliverability criteria set forth in Planning Guide Section 4.1.1.7, Minimum Deliverability Criteria. After considering any comments submitted, if ERCOT does not identify any reliability concern, ERCOT shall issue a Market Notice indicating its approval of the proposed retirement of the RAS. If ERCOT does identify a reliability concern or an adverse impact to the dispatch of a Generation Resource or ESR subject to the minimum deliverability criteria set forth in Planning Guide Section 4.1.1.7, ERCOT shall issue a Market Notice denying the retirement.
+
+  (i) As part of the ERCOT review, ERCOT may notify the Steady State Working Group (SSWG), the Dynamics Working Group (DWG), and the System Protection Working Group (SPWG) of the RAS proposal, and each working group or any member of each working group may provide any comments, questions, or issues to ERCOT. ERCOT may work with the owner(s) of Facilities affected by the RAS as necessary to address all issues.
+
+  (j) ERCOT shall develop a method to include the RAS where practicable in Security-Constrained Economic Dispatch (SCED), Outage coordination, and Reliability Unit Commitment (RUC).
+
+  (k) ERCOT’s review shall provide an opportunity for and include consideration of comments submitted by Market Participants affected by the RAS.
+
+  (l) ERCOT shall update the RAS database at least once every 12 calendar months.
+
+(5) ERCOT shall provide the results of the RAS evaluation including any identified deficiencies to the RAS Entity and impacted TSPs. If ERCOT’s RAS evaluation identifies a deficiency within six calendar months, the RAS Entity shall develop and submit a corrective action plan, subject to ERCOT approval, to correct the deficiencies. For each plan developed, the RAS Entity shall implement the approved plan, update the plan if actions or timetables change, and notify ERCOT via email at ras_cmp@ercot.com if plan actions or timetables change and when the plan is completed.
+
+(6) If ERCOT determines that a RAS is no longer needed, either as part of an ERCOT-initiated review or as a consequence of ERCOT’s determination that a transmission project has addressed the condition(s) or contingency(ies) the RAS was designed to address, ERCOT shall issue a Market Notice proposing to retire the RAS and inviting comments from Market Participants on the proposed retirement. After considering all comments, if ERCOT confirms that the RAS is not needed, then ERCOT shall retire the RAS on a date specified in a separate Market Notice.
+
+(7) The RAS Entity shall perform a functional test of each of its RAS to verify the overall RAS performance and the proper operation of non-protection system components at least once every six calendar years for a RAS not designated as a Limited Impact RAS, and once every 12 calendar years for a RAS designated as a Limited Impact RAS. For any identified deficiencies, the RAS Entity shall develop and submit a corrective action plan within six calendar months, and subject to ERCOT approval, to correct the deficiencies. For each plan developed, the RAS Entity shall implement the approved plan, update the plan if actions or timetables change, and notify ERCOT via email at ras_cmp@ercot.com if plan actions or timetables change and when the plan is completed.
+
+11.2.1 Reporting of RAS Operations
+
+(1) RAS Entity shall notify ERCOT of all RAS operations. Documentation of RAS failures or misoperations shall be provided to ERCOT using the Relay Misoperation Report form as an email to ras_cmp@ercot.com. Within 120 calendar days, the RAS Entity shall conduct an analysis of all RAS operations, misoperations, and failures. If deficiencies are identified, the RAS Entity shall develop and submit a corrective action plan within six calendar months, and subject to ERCOT approval, correct the deficiencies. For each plan developed, the RAS Entity shall implement the approved plan, update the plan if actions or timetables change, and notify ERCOT via email at ras_cmp@ercot.com if plan actions or timetables change and when the plan is completed. Analysis of RAS operational performance shall include, but is not limited to:
+
+  (a) Determination of whether system events or conditions appropriately armed or triggered the RAS;
+
+  (b) Determination of whether the RAS responded as designed;
+
+  (c) Determination of whether the RAS was effective in mitigating the performance issues it was designed to address; and
+
+  (d) Determination of whether the RAS operation resulted in any unintended or adverse system response.
+
+(2) ERCOT shall report all RAS operations and misoperations to the Reliability Monitor for review. RAS arming or activation that ramps generation back is not considered an operation or misoperation with respect to reporting requirements to the Reliability Monitor and the NERC Regional Entity. A misoperation of a RAS with respect to reporting requirements to the Reliability Monitor and the NERC Regional Entity occurs when one of the items specified in paragraph (4) of Section 6.2.3, Performance Analysis Requirements for ERCOT System Facilities, occur. RAS Entities will provide a monthly report to ERCOT by the 15th of each month describing each instance a RAS armed/activated and reset during the previous month. The report will include the date and time of arming/activation and reset. ERCOT shall consolidate the monthly reports and forward to the Reliability Monitor and NERC Regional Entity on a quarterly basis.
+
+(3) If a RAS which removes generation from service operates more than two times within a six month period and the operations are not a direct result of an ERCOT System disturbance or a contingency operation, ERCOT may require the Resource Entity(ies) representing the Generation Resource or ESR to decrease the available capability on the affected Resource(s). The amount of available capacity to be decreased shall be determined by ERCOT. The decreased available capacity on the Resource(s) shall remain until the Resource Entity(ies) provides documentation that demonstrates the Resource(s) can properly control output in a pre-contingency or normal ERCOT System condition.
+
+11.3 Automatic Mitigation Plans
+
+(1) Automatic Mitigation Plans (AMPs) are defined in Protocol Section 2.1, Definitions, and may be relied upon to detect predetermined abnormal system conditions and automatically take pre-coordinated corrective actions to maintain a secure system.
+
+(2) AMPs must:
+
+  (a) Be proposed by a Transmission Service Provider (TSP) or Resource Entity, and be approved by ERCOT and the TSP(s) and/or Resource Entity(ies) included in the AMP prior to implementation;
+
+  (b) Be designed and implemented in coordination with the owners and operators of Facilities included in the AMP and approved by ERCOT;
+
+  (c) Be automatically armed when appropriate;
+
+  (d) Not operate unnecessarily;
+
+  (e) Comply with all applicable requirements in the Protocols and applicable North American Electric Reliability Corporation (NERC) Reliability Standards; and
+
+  (f) Not include generation re-Dispatch or Load shed.
+
+(3) AMP Owner(s) or a Designated Agent shall:
+
+  (a) Immediately notify ERCOT, when an AMP is removed from service and when an AMP is returned to service. ERCOT shall modify its reliability constraints to recognize the availability of the AMP;
+
+  (b) Telemeter the status indication of the following items by Supervisory Control and Data Acquisition (SCADA) to ERCOT for incorporation into ERCOT systems:
+
+  (i) Any automatic or manual arming/activation or operation of the AMP;
+
+  (ii) In-service/out-of-service status of the AMP; and
+
+  (iii) Any additional related telemetry that already exists pertinent to the monitoring of the AMP (e.g. status indication of communications links between associated AMP equipment and the owner’s control center, arming limits of associated AMP equipment).
+
+  (c) Provide the status indication of any automatic or manual arming/activation or operation of the AMP as SCADA alarm inputs to the owner(s) of any Facility controlled by the AMP; and
+
+  (d) Submit documentation when proposing or modifying and/or deactivating/terminating an AMP that detail its design, operation and coordination of the AMP with other Remedial Action Schemes (RASs), AMPs, protection and control systems.
+
+(5) ERCOT shall conduct a review of each proposed AMP, each proposed modification and proposed indefinite deactivation and/or termination of an existing AMP. Additionally, ERCOT shall conduct a review of each existing AMP annually or as required by changes in system conditions to ensure its continued effectiveness.
+
+11.4 Remedial Action Plan
+
+(1) Remedial Action Plans (RAPs) are defined in Protocol Section 2.1, Definitions, and may be relied upon in allowing additional use of the transmission system in Security-Constrained Economic Dispatch (SCED). Normally, it is desirable that a Transmission Service Provider (TSP) constructs Transmission Facilities adequate to eliminate the need for any RAP; however, in some circumstances, such construction may be unachievable in the available time frame.
+
+(2) RAPs must:
+
+  (a) Be coordinated by ERCOT with all Transmission Operators (TOs) and Resource Entities included in the RAP, and approved by ERCOT;
+
+  (b) Be limited to the time required to construct replacement Transmission Facilities; however, the RAP will remain in effect if ERCOT has determined the replacement Transmission Facilities to be impractical;
+
+  (c) Comply with all applicable requirements in the Protocols and applicable North American Electric Reliability Corporation (NERC) Reliability Standards;
+
+  (d) Clearly define and document TOs and Resource Entities included in the RAP actions;
+
+  (e) Must be able to resolve the issue for which it was designed over the range of conditions that might reasonably be experienced;
+
+  (f) Be executed by the TOs and/or Resource Entities;
+
+  (g) Have a 15-minute Rating greater than the Normal and Emergency Ratings for the Transmission Facilities it intends to resolve;
+
+  (h) Be defined in the Network Operations Model and considered in the SCED and Reliability Unit Commitment (RUC) processes. RAPs that cannot be modeled using ERCOT’s existing infrastructure shall be rejected unless the Technical Advisory Committee (TAC) approves a plan to work around the infrastructure problem; and
+
+  (i) Not include generation re-Dispatch or Load shed.
+
+(3) An approved RAP may be executed immediately after a contingency by the TOs and Resource Entities included in the RAP without instruction by ERCOT or shall be executed upon direction by ERCOT.
+
+(4) ERCOT shall conduct a review of each existing RAP annually or as required by changes in system conditions to ensure its continued effectiveness. Each review shall proceed according to a process and timetable documented in ERCOT Procedures.
+
+(5) ERCOT may approve the expiration of a RAP after consultation with the TOs and Resource Entities included in the RAP. ERCOT shall modify its reliability constraints to recognize the unavailability of the RAP.
+
+11.4.1 Remedial Action Plan Process
+
+(1) RAPs may be proposed by any Market Participant or may be developed by ERCOT. For RAPs submitted by Market Participants not registered as a TSP:
+
+  (a) ERCOT shall post RAPs submitted by a Market Participant not registered as a TSP on the Market Information System (MIS) Secure Area as soon as practicable, but no later than five Business Days of receipt.
+
+  (b) ERCOT shall provide a five Business Day comment period from the date when the proposed RAP under review is posted by ERCOT unless notice of a shorter comment period is provided.
+
+  (c) ERCOT shall consider all comments received within the five Business Day comment period on the proposed RAP, along with its own evaluation and those of the Transmission Facility owners, and either approve, modify or reject that proposed RAP.
+
+  (d) When a proposed RAP is approved, modified, or rejected, ERCOT shall post an explanation for the approval or rejection, or a description of the modification. If the RAP is approved the posting shall include the start date of the RAP.
+
+11.5 Mitigation Plan
+
+(1) Mitigation Plans are defined in Protocol Section 2.1, Definitions, and shall not be used to manage constraints in Security-Constrained Economic Dispatch (SCED). Normally, it is desirable that a Transmission Service Provider (TSP) constructs Transmission Facilities adequate to eliminate the need for a Mitigation Plan; however, in some circumstances, such construction may be unachievable in the available time frame.
+
+(2) A Mitigation Plan may be proposed by any TSP, and be approved by ERCOT and the included Transmission Operator (TO) prior to implementation. Mitigation Plans must:
+
+  (a) Be coordinated with the TOs included in the Mitigation Plan;
+
+  (b) Limited in use to the time required to construct replacement Transmission Facilities; however, the Mitigation Plan will remain in effect if ERCOT has determined the replacement Transmission Facilities to be impractical;
+
+  (c) Comply with all requirements of the Protocols and applicable North American Electric Reliability Corporation (NERC) Reliability Standards;
+
+  (d) Clearly define and document TO actions;
+
+  (e) Be executed by TOs;
+
+  (f) Be able to be implemented in a timeframe that will not result in loss of the overloaded Transmission Facility;
+
+  (g) Identify the most limiting protective relay setting beyond the 15-Minute Rating when developing the Mitigation Plan in advance or as soon as practicable when developing the Mitigation Plan in Real-Time;
+
+  (h) Not subject ERCOT to unacceptable risk of widespread cascading Outages; and
+
+  (i) Not include generation re-Dispatch.
+
+(3) An approved Mitigation Plan may be executed immediately, post-contingency, by the TO without instruction by ERCOT or shall be executed upon direction by ERCOT.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR281: Replace paragraph (3) above with the following upon system implementation of NPRR1307:]                                                                                  |
+|                                                                                                                                                                                     |
+| (3) An approved Mitigation Plan:                                                                                                                                                    |
+|                                                                                                                                                                                     |
+| (a) Shall be executed upon direction by ERCOT; or                                                                                                                                   |
+|                                                                                                                                                                                     |
+| (b) May be executed by the TO without instruction by ERCOT if necessary to address a reliability risk and notice of the execution must be provided to ERCOT as soon as practicable. |
++=====================================================================================================================================================================================+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(4) Restoration of any Load shed by executing the Mitigation Plan shall be coordinated with ERCOT.
+
+11.6 Pre-Contingency Action Plans
+
+(1) Pre-Contingency Action Plans (PCAPs) are defined in Protocol Section 2.1, Definitions, and are implemented in anticipation of a contingency. Normally, it is desirable that a Transmission Service Provider (TSP) construct Transmission Facilities adequate to eliminate the need for any PCAP; however, in some circumstances, such construction may be unachievable in the available time frame.
+
+(2) A PCAP may be proposed by any Market Participant, and be approved by ERCOT and the Transmission Operator (TO) included in the PCAP prior to implementation. PCAPs must:
+
+  (a) Be coordinated with the TOs included in the PCAP;
+
+  (b) Be limited in use to the time required to construct replacement Transmission Facilities and until such Facilities are placed in-service, or the PCAP is no longer needed; however, the PCAP will remain in effect if ERCOT has determined the replacement Transmission Facilities to be impractical;
+
+  (c) Comply with all requirements of the Protocols and applicable North American Electric Reliability Corporation (NERC) Reliability Standards;
+
+  (d) Clearly define and document TO actions;
+
+  (e) Be executed by TOs; and
+
+  (f) Not include generation re-Dispatch or Load shed.
+
+(3) An approved PCAP may be executed immediately prior to a contingency by the TO without instruction by ERCOT, or shall be executed upon direction by ERCOT.
+
+(4) All proposed, approved, amended, and removed PCAPs shall be managed in accordance with paragraph (4) of Section 11.1, Introduction.
+
+(5) ERCOT may limit the quantity of PCAPs that are used.
+
+11.6.1 Pre-Contingency Action Plan Process
+
+(1) PCAPs may be proposed by any Market Participant or may be developed by ERCOT. For PCAPs submitted by Market Participants not registered as a TSP:
+
+  (a) ERCOT shall post PCAPs submitted by a Market Participant not registered as a TSP on the Market Information System (MIS) Secure Area as soon as practicable, but no later than five Business Days of receipt.
+
+  (b) ERCOT shall provide a five Business Day comment period from the date when the proposed PCAP under review is posted by ERCOT unless notice of a shorter comment period is provided.
+
+  (c) ERCOT shall consider all comments received within the five Business Day comment period on the proposed PCAP, along with its own evaluation and those of the Transmission Facility owners, and either approve, modify or reject that proposed PCAP.
+
+  (d) If a proposed PCAP is modified or rejected, ERCOT shall post an explanation for the rejection or a description of the modification
+
+11.7 Temporary Outage Action Plan
+
+(1) Temporary Outage Action Plans (TOAPs) are defined in Protocol Section 2.1, Definitions, and shall not be used to manage constraints in Security-Constrained Economic Dispatch (SCED).
+
+(2) A TOAP may be proposed by any Market Participant and be approved by ERCOT and the Transmission Operator (TO) included in the TOAP prior to implementation. TOAPs must:
+
+  (a) Be coordinated with the TOs included in the TOAP;
+
+  (b) Limit use to the duration of a specific Transmission Facility or Resource Outage;
+
+  (c) Comply with all requirements of the Protocols and applicable North American Electric Reliability Corporation (NERC) Reliability Standards;
+
+  (d) Clearly define and document TO actions;
+
+  (e) Be executed by TOs;
+
+  (f) Be implemented in a timeframe that will not result in loss of the overloaded Transmission Facility;
+
+  (g) Identify the most limiting protective relay setting beyond the 15-Minute Rating when developing the TOAP in advance or as soon as practicable when developing the TOAP in Real-Time; and
+
+  (h) Not subject ERCOT to unacceptable risk of widespread cascading Outages; and
+
+  (i) Not include generation re-Dispatch.
+
+(3) An approved TOAP may be executed immediately, post-contingency, by the TO without instruction by ERCOT or shall be executed upon direction by ERCOT.
+
+(4) ERCOT may limit the quantity of TOAPs that are used.
+
+(5) Restoration of any Load shed by executing the TOAP shall be coordinated with ERCOT.
+
+11.8 Extended Action Plans (EAPs)
+
+(1) Extended Action Plans (EAPs) must be approved prior to implementation by ERCOT, the Transmission Operators (TOs) that operate the affected equipment, and Resource Entities that are directly impacted operationally. Impacts resulting from price and Dispatch changes due to market clearing processes shall not constitute a direct operational impact under this section. EAPs must:
+
+(a) Be accepted by the Resource Entities and TOs that are directly impacted operationally by the EAP;
+
+(b) Be restored to normal configuration when either:
+
+  (i) A transmission project intended to address the congestion is placed in-service, if such a project has been made public and it was identified by either the TO during the initial EAP review, or by a Transmission Service Provider (TSP) during the EAP comment period; or
+
+  (ii) A period of temporary congestion is expected to end, if such temporary congestion and its estimated end date were identified during the initial EAP review. For chronic congestion which does not have an identified transmission project solution or expected end, an end date for the EAP must be proposed as if it is temporary congestion.
+
+(c) Comply with all requirements of the Protocols and applicable North American Electric Reliability Corporation (NERC) Reliability Standards;
+
+(d) Clearly define and document TO actions;
+
+(e) Be executed by TOs; and
+
+(f) Not include generation re-Dispatch or Load shed.
+
+(2) Prior to approving an EAP proposal for economic reasons on the ERCOT Transmission Grid, ERCOT must verify that the EAP:
+
+(a) Meets all of the criteria in paragraph (1) above;
+
+(b) Does not result in radial Load;
+
+(c) Does not negatively impact current or scheduled Transmission Facility Outages;
+
+(d) Does not create new binding thermal constraints or voltage violations, or increase flow on any existing binding constraint by more than 2% for 69 kV and 1% for 115 kV and above;
+
+(e) Does not negatively impact any Generic Transmission Constraints (GTCs), decrease Generic Transmission Limits (GTLs), or create new instability situations;
+
+(f) Provides more than $1 million savings to total production cost or total congestion cost with the EAP action in place compared to generation re-Dispatch alone. This can be established either by using annual production cost model simulation or other methods acceptable to ERCOT;
+
+(g) Limits the action to changing the normal status of circuit breakers at up to three substations;
+
+(h) If applicable, is limited to a post-contingency generation trip of no more than ERCOT frequency bias;
+
+(i) Does not impact the ability of a Resource to meet its minimum deliverability criteria described in Planning Guide Section 4.1.1.7, Minimum Deliverability Criteria; and
+
+(j) Has not been previously rejected by ERCOT for disqualification under criteria in paragraphs (b) through (i) above, unless there have been major changes to the system configuration or EAP proposal.
+
+(3) An approved EAP may be executed by the TO in coordination with ERCOT, on the effective date of the EAP.
+
+(4) All proposed, approved, amended, and removed EAPs shall be managed in accordance with paragraph (4) of Section 11.1, Introduction.
+
+(5) ERCOT may limit the quantity of EAPs that are used.
+
+(6) ERCOT may reject proposals that fail to practicably assess impact to operations and reliability.
+
+(7) The implementation of an approved EAP may be temporarily suspended by the TO or by ERCOT for reliability reasons, or for the duration of a Transmission Facility Outage if the EAP interferes with a TO’s ability to take the outage. The existence of an EAP shall not, in and of itself, prevent a requested Transmission Facility Outage from being approved by ERCOT.
+
+(8) ERCOT shall conduct a review of each existing EAP annually or as required by changes in system conditions to ensure its continued effectiveness. Each review shall proceed according to a process and timetable documented in ERCOT procedures.
+
+11.8.1 Extended Action Plan (EAP) Process
+
+(1) EAPs proposed by a Transmission and/or Distribution Service Provider (TDSP) primarily for reliability reasons have an expedited review and are not subject to the process outlined in this section. EAPs proposed primarily for economic reasons need to follow the process outlined below in addition to the requirements in Section 11.8, Extended Action Plans (EAPs):
+
+  (a) The EAP must be submitted to ERCOT for initial review. ERCOT must provide the submission of qualified EAPs to impacted TOs and Resource Entities directly impacted operationally. Impacts resulting from price and Dispatch changes due to market clearing processes shall not constitute a direct operational impact under this paragraph.
+
+  (i) Impacted TOs, and Resource Entities directly impacted operationally, will provide either a concurrence with or an objection to the proposed EAP to ERCOT in writing within 30 days of receipt, and may request additional time if necessary while making reasonable efforts to consider proposed EAPs as soon as possible;
+
+  (ii) Impacted TOs may limit the quantity of EAPs they have under evaluation, on the basis of undue or excessive work load, and will include this as the reason for objection to an EAP, if applicable; and
+
+  (iii) An objection by either an impacted TO or a Resource Entity directly impacted operationally, will result in an initial rejection of the proposed EAP by ERCOT.
+
+  (b) EAPs submitted by a Market Participant will be posted on the Market Information System (MIS) Secure Area by ERCOT within five Business Days of receipt of a complete submission.
+
+  (c) ERCOT will provide a 30 day comment period from the date the proposed EAP is posted to the MIS Secure Area by ERCOT, unless notice of a shorter comment period is provided by ERCOT.
+
+  (d) ERCOT shall consider all comments received within the 30 day comment period on the proposed EAP, along with its own evaluation and those of the Transmission Facility owners, and either approve, modify, or reject the proposed EAP within 15 days, unless extended by ERCOT.
+
+  (e) When a proposed EAP is approved, modified or rejected, ERCOT shall post an explanation for the approval or rejection, or a description of the modification within five Business Days of its determination. If the EAP is approved, the posting shall include the start date and end date or associated Transmission Facility change that will determine the end date of the EAP.
+
+(2) The implementation and management of EAPs will be facilitated through the Network Operations Model Change Request (NOMCR) and Outage scheduling processes as follows:
+
+  (a) A NOMCR will be submitted by the applicable TO or Resource Entity to implement an approved EAP in the Network Operations Model. This NOMCR will be submitted prior to the EAP’s start date and during the appropriate NOMCR production model load schedule. The EAP start date should align with the NOMCR production model load date, and if these two dates differ, Transmission Facility Outages will be submitted by the applicable TO or Resource Entity to manage interim configuration changes until the submitted NOMCR implements the EAP in the Network Operations Model.
+
+  (b) If a TO or ERCOT identifies that an approved EAP will create a conflict with a current or scheduled Transmission Facility Outage or other system conditions, the applicable TO or Resource Entity will reverse the EAP configuration by submitting the necessary Transmission Facility Outage(s) and/or by utilizing the NOMCR process to address the timeframe for which the conflict is expected to exist. ERCOT shall also post any such EAP changes to the MIS Secure Area.
+
+  (c) NOMCR will be submitted by the applicable TO or Resource Entity to reverse an EAP prior to the scheduled EAP end date and during the appropriate NOMCR production model load schedule. Transmission Facility Outages may also be used to manage interim configuration changes before the NOMCR takes effect, if necessary.
+
+(3) A Market Participant or ERCOT may propose that an existing EAP be suspended, modified, or extended. ERCOT will process any proposed EAP modifications or extensions as described by paragraphs (1)(a) through (e) above.

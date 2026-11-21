@@ -1,0 +1,516 @@
+Roadmap to Improving
+Grid Reliability
+
+October 15, 2021 Update
+
+Roadmap to Improving Grid Reliability
+
+July 13, 2021
+Dear Governor Abbott, Texas Legislators and Public Utility Commission of Texas Commissioners:
+On behalf of the Electric Reliability Council of Texas (ERCOT), I present this “Roadmap to Improving
+Grid Reliability,” which details a variety of improvements to enhance the reliability and adequacy of
+the power grid.
+In creating this Roadmap, recent legislation, such as Senate Bill 2 and Senate Bill 3, have provided
+us direction. We are working with the Public Utility Commission to implement Governor Abbott’s
+directives1 to ensure the continued reliability of the Texas electric grid. We also gathered ideas
+from many Texans including customers, city leaders, state leaders, current and former regulators,
+environmental advocates and market participants to help us identify important improvements.
+The employees of ERCOT are committed to using this as a foundation – adding and adjusting as
+necessary to keep up with regulatory requirements and the needs of a fast-changing electric grid.
+Our promise to you and the people of Texas:
+• Cooperate and communicate thoughtfully and purposefully through multiple channels.
+• Ensure reliability and restore trust and confidence in ERCOT.
+• Evaluate technical processes within ERCOT and then innovate through dialog.
+On behalf of all the employees at ERCOT, we want you to know we are putting more emphasis on
+listening and engaging with you, ERCOT customers and market partners. We will successfully
+implement this Roadmap and do our part to ensure that we continue to provide reliable electric
+service for all Texans.
+Sincerely,
+
+Brad Jones
+Interim President & Chief Executive Officer
+ERCOT
+
+1 Letter from Governor Abbott to Public Utility of Texas Commissioners, July 6, 2021.
+https://gov.texas.gov/uploads/files/press/SCAN_20210706130409.pdf
+Letter from Brad Jones to Governor Abbott, July 8, 2021
+http://www.ercot.com/content/wcm/lists/219694/Gov_Abbott_LTR_070821Final.pdf
+
+1
+
+October 15, 2021 Update
+
+Roadmap to Improving Grid Reliability
+
+Limited
+Progress
+
+Progress
+
+Complete
+
+Action
+
+1
+
+Work with the Public Utility Commission of Texas (PUC) to implement new laws
+passed in the 87th Legislative Session. These laws reform the governance of
+ERCOT and reorganize how the power grid is managed.
+
+2
+
+Complete the analysis of generation outages in February. This will inform future
+discussions with the PUC and lawmakers. A preliminary analysis is available at
+www.ercot.com/content/wcm/lists/226521/ERCOT_Winter_Storm_Generator_
+Outages_By_Cause_Updated_Report_4.27.21.pdf
+
+3
+
+Propose a new market rule requiring generators to report all forced outages and
+automatically release outage information if there is a grid event. This will allow
+ERCOT to more quickly communicate about grid conditions.
+
+4
+
+Propose a new market rule for generators to provide operational updates more
+frequently. This will improve situational awareness for grid operators.
+
+5
+
+Require all market participants who own or operate generation resources and/or
+transmission/distribution power lines to submit a letter signed by their CEO twice
+a year attesting that their companies have completed their weatherization
+preparations to protect the electric grid for the summer and winter respectively.
+
+6
+
+Adopt a more aggressive approach to operating the grid. This will impact outage
+approval, commitment of resources, conservation alerts and the communication of
+system risks as well as wholesale prices. ERCOT will work with the PUC to account for
+reliability impacts and make necessary adjustments to ensure proper price formation.
+
+7
+
+Revise market processes to continuously run planning assessments needed to
+bring resources back online in anticipation of tight grid conditions. This will allow
+grid operators to better coordinate generation outages.
+
+8
+
+2
+
+On Track
+
+Perform 30+ on-site power plant spot-checks to ensure they are following their
+weatherization plan in preparation for the hot Texas summer. We previously only
+performed these types of checks in advance of the winter season. ERCOT does
+not own or operate any power plants.
+
+October 15, 2021 Update
+
+Roadmap to Improving Grid Reliability
+
+Limited
+Progress
+
+Progress
+
+9
+
+10
+11
+
+On Track
+
+Complete
+
+Action
+
+Improve the assessment and communication of extreme low-probability,
+high-impact weather scenarios, including temperatures, durations, precipitation,
+humidity, and wind. Propose updated methodologies for the Seasonal Assessment
+of Resource Adequacy (SARA) for the ERCOT Region and other resource
+adequacy studies. This will improve public awareness about the potential high
+impacts of low-probability severe situations.
+Assign a senior staff member to staff the State Operations Center as needed. This
+will improve the working relationship with state agencies during major events.
+Review energy delivery procedures for controlled outages in the event an energy
+emergency occurs. This will improve coordination and emergency response.
+
+12
+
+Improve government agency alignment through responsiveness to the PUC and
+a partnership with the Texas Division of Emergency Management, Railroad
+Commission of Texas Energy Reliability Council, and others, including exchange
+of ideas, improved communications, and training.
+
+13
+
+Create a Texas Municipal Officers ERCOT Advisory Board that will increase
+dialogue and create communications channels with counties, cities and other
+political subdivisions such as water districts, for the benefit of Texas residents.
+
+14
+
+Revise market protocols so that firm load shed (when utilities reduce power on the
+electric system) is accounted for in market scarcity pricing signals. This will align
+pricing with operational conditions.
+
+15
+
+Revise market protocols to limit ancillary services prices to the System-Wide
+Offer Cap. This makes the ERCOT market more predictable and stable for market
+participants, creating a better market for customers.
+
+16
+
+3
+
+Improve and expand toolsets to manage short-supply situations. This includes
+facilitating additional voluntary load reductions and procuring additional ancillary
+or reliability services from resources with unique capabilities to operate during
+extreme weather conditions.
+
+October 15, 2021 Update
+
+Roadmap to Improving Grid Reliability
+
+Limited
+Progress
+
+Progress
+
+On Track
+
+Complete
+
+Action
+
+17
+
+Establish a new Vice President of Corporate Strategy and PUC Relations role.
+This will ensure a strong working relationship with the PUC as we vigorously
+participate in their processes to improve ERCOT.
+
+18
+
+Initiate a process, both at ERCOT and the PUC, to address the Lower Rio Grande
+Valley transmission limitations, up to and including the construction of new
+transmission capacity. This will provide increased market access for resources in
+the Valley, improving reliability for customers during both normal conditions and
+high-risk winter events.
+
+19
+
+Eliminate barriers to distributed generation, energy storage, and demand response/
+flexibility to allow more resources to participate in the ERCOT market while also
+maintaining adequate reliability.
+
+20
+
+Expand the Transmission Process to include items such as transmission over longer
+distances with low inertia, a technical term to describe complex transmission challenges.
+
+21
+
+Add short-term solar forecasts into existing models as solar power expands in Texas.
+This will improve reliability and help lower costs.
+
+22
+
+Launch an initiative to identify when ERCOT forecasts have high variability and
+consider whether additional reserves need to be procured during that period.
+This will help limit operational risks.
+
+23
+
+24
+
+4
+
+Integrate the majority of Lubbock Power & Light customers into the Texas grid –
+the largest single transfer of customers in ERCOT’s history. The new substations
+and transmission lines enabling this change also increase the available
+transmission capacity for generation resources in the Panhandle region.
+Test large industrial customers who are paid to reduce their power during an
+emergency. These resources help preserve system reliability and it is important
+to test them to ensure performance.
+
+October 15, 2021 Update
+
+Roadmap to Improving Grid Reliability
+
+Limited
+Progress
+
+Progress
+
+On Track
+
+Complete
+
+Action
+
+25
+
+Create new financial trend dashboards to more effectively monitor and report on
+items including collateral total potential exposure and excess collateral.
+
+26
+
+Perform unannounced testing to validate maximum sustained energy production
+from generators. This verifies information that generation owners have provided.
+
+27
+
+Review reliability of current and projected resource mix and evaluate market
+changes to incentivize sufficient dispatchable resources.
+
+28
+
+Biannually test end-to-end grid and market communications to verify energy
+emergency communications status flows from the control room to the public. This
+helps ensure the public will immediately know if an energy emergency occurs.
+
+29
+
+Host virtual pre-summer communications meeting with PUC and market
+participants and distribute summer 2021 communications manual. This will help
+market participant communicators prepare for the hot summer months. Repeat
+process in advance of winter.
+
+30
+
+Develop a long-term remote work policy focused on flexibility and employee choice
+for jobs that are not required to be onsite.
+
+31
+
+Continue active participation in Real Time Operations Subcommittee (NERC)
+meeting with other grid operators. This helps ensure best practices are used.
+
+32
+
+Conduct a study of credit best practices to reduce the risk of future under
+collateralization while avoiding uneconomic barriers to entry.
+
+33
+
+Educate public and news media about energy emergencies and operational notices.
+Review and update existing communication practices around “conservation alerts’
+to minimize false alarms and public fatigue. This will help ensure familiarity with
+grid operations.
+
+5
+
+October 15, 2021 Update
+
+Roadmap to Improving Grid Reliability
+
+Limited
+Progress
+
+Progress
+
+On Track
+
+Complete
+
+Action
+
+34
+
+Identify preferred channels of communication for each of ERCOT’s audiences
+including government, market participants, and customers – including Spanish
+language communications. Re-write external communications materials to eliminate
+industry jargon. This will make ERCOT communications easier to understand and
+reach a broader audience.
+
+35
+
+Initiate a Listening & Education Tour to hear the perspectives of various
+communities and provide information about how the grid operates.
+
+36
+
+Ensure the Technical Advisory Committee is comprised of senior-level members
+from each member organization to promote timely decision-making.
+Update: After proposal by ERCOT, the Technical Advisory Committee of market
+		
+participants has cancelled further discussion on this item “until the new
+		
+ERCOT Board and/or the PUCT initiate discussions on it.”
+Source: Email from Technical Advisory Committee leadership to members and
+		
+market participants, August 16, 2021.
+
+37
+
+Promote and endorse PUC actions to begin work on Black Start Plan improvements.
+While all the work of this plan is designed to prevent the need for a Black Start
+process, it is incumbent on responsible grid managers to invest appropriately to
+minimize the length of the process if it is ever needed. This will protect Texans and
+the Texas economy in the case of the one-in-a-million event.
+
+38
+
+Review and improve the employee retention plan.
+
+39
+
+Establish a procedure for DOE exemption requests, similar to the Texas
+Commission on Environmental Quality to avoid delay/uncertainty.
+
+40
+
+Meet with market participants to understand their objectives and priorities; develop
+an understanding of their pain points and areas for improvement from ERCOT that
+they believe will help alleviate those challenges.
+
+41
+
+Conduct technology platform reviews and best practices, both inside and outside
+the grid operations industry. ERCOT is refreshing technology and platforms for the
+majority of services for 2022-2027. This will improve reliability and operations.
+
+6
+
+October 15, 2021 Update
+
+Roadmap to Improving Grid Reliability
+
+Limited
+Progress
+
+Progress
+
+42
+
+On Track
+
+Complete
+
+Action
+
+Conduct regular review of cyber security plans and defenses to ensure continued
+electric reliability.
+Evaluate ERCOT, Inc. finances and priorities.
+
+43
+
+– Address financial ratings agencies’ concerns.
+
+44
+
+Identify and implement new processes to keep market participant communicators
+informed during a grid event. This will ensure timely and accurate information.
+
+45
+
+Work with Transmission and Distribution Service Providers and customers to
+expand AMS meter implementation to improve timeliness of accurate meter data
+for settlements, credit calculations, and load management.
+
+46
+
+Evaluate embedding Transmission and Distribution representatives at ERCOT if
+multi-day emergencies occur.
+
+47
+
+Review weatherization and emergency operation plans for generation resources.
+Provide information, technical expertise and analysis to the PUC in support of
+rulemaking and implementation.
+
+48
+
+Conduct a study to understand key future business drivers such as the integration
+of battery storage and distributed generation resources.
+
+49
+
+Conduct a comprehensive review of ERCOT communications practices and
+policies, as well as an in-depth review of crisis communications performance
+during February 2021 event.
+
+50
+
+Conduct a study to gauge the impact of varying levels of wind and solar penetration,
+including the impact of energy storage and dispatchable energy, as well as revenue
+adequacy for each of these levels.
+
+7
+
+– Secure Board / PUC approval of 2022-2023 biennial budget.
+
+October 15, 2021 Update
+
+Roadmap to Improving Grid Reliability
+
+Limited
+Progress
+
+Progress
+
+On Track
+
+Complete
+
+Action
+
+51
+
+Evaluate the adequacy of ancillary services products and quantities to be procured.
+This helps ensure reliability.
+
+52
+
+Assess and develop a plan to improve the accuracy of generation reporting to
+ERCOT. Determine whether resource adequacy trips resulted from low frequency
+require changes to market operations. Review load resource programs and
+evaluate effectiveness.
+
+53
+
+Improve system planning, including localized and regional significant growth
+patterns. This will improve the range of conditions considered in planning studies.
+
+54
+
+Improve load forecasts in emergency conditions and evaluate accuracy of past
+predictions. This will help improve reliability.
+
+55
+
+Deploy new website dashboards and processes to streamline media responses
+to improve ERCOT communications to the public.
+
+56
+
+Evaluate market incentives to improve fuel security.
+
+57
+
+Consider on-site fuel supply including contracts with remote secured supplies.
+
+58
+
+Evaluate requiring inverter-based resources – such as wind and solar generators –
+to provide additional reliability attributes such as grid-forming capability to protect
+Texans in the most dangerous grid conditions.
+
+59
+
+Assess the potential costs and benefits of increased transmission both internal and
+external to ERCOT and increase coordination with other power regions.
+
+60
+
+Fill the vacant executive leadership position in Corporate Communications.
+This will help improve ERCOT communications.
+
+8
+
+October 15, 2021 Update
+
+

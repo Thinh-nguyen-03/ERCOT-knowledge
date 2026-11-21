@@ -1,0 +1,173 @@
++----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                        |                                                                                                                                                                                                                               |
++========================================+===============================================================================================================================================================================================================================+
+|                                        | [http://ep.ercot.com/CorpComm/Logos/No%20Tagline/6x3%20Full%20Color_NoTagline.png]                                                                                                                                            |
++----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Emergency Response Service             |                                                                                                                                                                                                                               |
+|                                        |                                                                                                                                                                                                                               |
+| Request for Proposal                   |                                                                                                                                                                                                                               |
++----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                        |                                                                                                                                                                                                                               |
++----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Abstract                               | Request for Proposals (RFP) for Non-Weather-Sensitive ERS-30, Weather-Sensitive ERS-30, Non-Weather-Sensitive ERS-10 and Weather-Sensitive ERS-10 for the Standard Contract Term of December 1, 2026, through March 31, 2027. |
++----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Document Reference                     | PUC Substantive Rules, ERCOT Nodal Protocols, Operating Guides, NERC Policies 1 through 9                                                                                                                                     |
++----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Date of RFP Issue                      | October 2, 2026                                                                                                                                                                                                               |
++----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ERS Resource Identification Submission | October 5, 2026 – October 30, 2026                                                                                                                                                                                            |
++----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Offer Submission Due Date              | November 9, 2026                                                                                                                                                                                                              |
++----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Reason for Issue                       | Provide details for submitting offers                                                                                                                                                                                         |
++----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| RFP Contact                            | Anthony Pataray, ERCOT, 808-384-2058 ERS@ercot.com                                                                                                                                                                            |
++----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+1. BACKGROUND
+
+1.1. Applicable Documents
+
+-   16 Tex. Admin. Code § 25.507, available at https://www.puc.texas.gov/agency/rulesnlaws/subrules/electric/25.507/25.507ei.aspx
+
+-   ERCOT Nodal Protocols §§ 2, 3, 6, 8, 9, & 16, available at https://www.ercot.com/mktrules/nprotocols/current
+
+-   Section 22 Attachment Q: ERS Procurement Methodology available at https://www.ercot.com/mktrules/nprotocols/current
+
+The following are available at: https://www.ercot.com/services/programs/load/eils
+
+-   ERS Request for Proposal
+
+-   ERS Technical Requirements & Scope of Work
+
+-   ERS Submission Form
+
+-   Procurement Schedule
+
+1.2. Services
+
+Electric Reliability Council of Texas, Inc. (ERCOT) will periodically procure ERS Resources to provide Emergency Response Service (ERS). Appendix A, attached hereto, provides the key parameters relevant to each ERS Time Period that will be used in the procurement process. Providers of this service must meet all applicable requirements specified in the documents identified above.
+
+2. PROPOSAL GUIDELINES
+
+2.1. Purpose
+
+The purpose of this RFP is to obtain qualification information and to solicit offers for entities to provide Emergency Response Service.
+
+2.2. Term of Service
+
+This RFP seeks participants for Non-Weather-Sensitive ERS-30, Weather-Sensitive ERS-30, Non-Weather-Sensitive ERS-10 and Weather-Sensitive ERS-10 for the Standard Contract Term (SCT) beginning at Hour Ending 01:00 on December 1, 2026, through Hour Ending 24:00 on March 31, 2027.
+
+Offers may be submitted to provide Emergency Response Service for one or more of the following Time Periods in this Standard Contract Term:
+
+  ------------------------------------------------------------------------------------------------------------------------------
+  Time Period      Time Period Hours
+  ---------------- -------------------------------------------------------------------------------------------------------------
+  Time Period 1*   Hours Ending 0600 - 0900 (5:00:00 a.m. to 9:00:00 a.m.) Monday through Friday except ERCOT Holidays. (332)
+
+  Time Period 2    Hours Ending 1000 - 1300 (9:00:00 a.m. to 1:00:00 p.m.) Monday through Friday except ERCOT Holidays. (332)
+
+  Time Period 3    Hours Ending 1400 - 1600 (1:00:00 p.m. to 4:00:00 p.m.) Monday through Friday except ERCOT Holidays. (249)
+
+  Time Period 4*   Hours Ending 1700 - 1900 (4:00:00 p.m. to 7:00:00 p.m.) Monday through Friday except ERCOT Holidays. (249)
+
+  Time Period 5*   Hours Ending 2000 - 2200 (7:00:00 p.m. to 10:00:00 p.m.) Monday through Friday except ERCOT Holidays. (249)
+
+  Time Period 6    Hours Ending 0600 - 0900 (5:00:00 a.m. to 9:00:00 a.m.) Weekends and ERCOT Holidays. (152)
+
+  Time Period 7    Hours Ending 1600 - 2100 (3:00:00 p.m. to 9:00:00 p.m.) Weekends and ERCOT Holidays. (228)
+
+  Time Period 8    All other hours (1112)
+  ------------------------------------------------------------------------------------------------------------------------------
+
+^(The ERCOT Holidays in this SCT are December 24 & 25 (Christmas), January 1(New Year’s Day), & January 18 (MLK Day))
+
+^(*WS Time Periods – TP1, TP4 and TP5)
+
+2.3.1 General
+
+ERCOT will accept offers to provide Emergency Response Service only from Qualified Scheduling Entities (QSEs) on behalf of entities that own or control potential ERS Resources. An offering QSE may sub-contract or partner provided the partnership will result in seamless execution of the various services required. ERCOT will contract with a single party QSE representing each ERS Resource (individual or aggregated). The responsible QSE and ERS Resource controlling entity must arrange and manage any sub-contracts to ensure compliance with all ERS requirements.
+
+A QSE may initiate the ERS Resource Identification (ERID) process by submitting a completed ERS Submission Form to ERCOT by the date published on the cover page of this RFP.
+
+Prior to submitting any offer to provide ERS, a QSE must execute a Standard Form ERS Supplement to Market Participant Agreement with ERCOT.
+
+2.3.2 Conflict of Interest
+
+All offering QSEs shall make full disclosure in writing at the time of the proposal of any of the following existing business relationships with ERCOT personnel:
+
+-   If any ERCOT personnel or family member of any such ERCOT personnel have any ownership interest in the QSE or any potential ERS Resource represented by the QSE; or
+
+-   Any directorships or other governance relationship of any ERCOT personnel or family members of any such ERCOT personnel.
+
+By submission of a proposal, the QSE certifies (and in the case of a joint proposal, each party certifies) that:
+
+-   No relationship between the QSE and ERCOT that interferes with fair competition or that creates a conflict of interest exists or will exist during the Standard Contract Term; and
+
+-   The proposal has been developed independently without consultation, communication or agreement with any employee, director, or consultant of ERCOT who has worked on the development of this RFP, or any person serving as an evaluator of the proposals submitted in response to this RFP, other than in the form of consultation related to program administration.
+
+If a QSE fails to disclose an interest, ERCOT reserves the right to terminate or cancel any contract.
+
+2.3.3 Offer Profile
+
+ERCOT requires QSEs to submit information on their ERS Resources in two stages: ERID and Offer Submission during each SCT.
+
+-   ERID information must be submitted to ERCOT using the ERS Submission Form. This information will be evaluated by ERCOT to determine the prospective ERS Resource’s baseline qualification and to provide interruptible capacity information to the QSE based on ERCOT’s evaluation of the prospective ERS Resource’s meter data.
+
+-   Offers to provide ERS must also be submitted to ERCOT using the ERS Submission Form. Each ERS Submission Form must be completed in its entirety and must include all required information as described in Nodal Protocols Section 3.14.3.1 and on the ERS Submission Form.
+
+-   A PDF file containing a scanned version of the “Identification” page of the ERS Submission form, signed by the QSE Authorized Representative in the appropriate space, must accompany each ERS ERID and Offer Submission.
+
+2.3.4 Program and Testing Requirements
+
+By offering into ERS, the QSE agrees to adhere to all ERCOT’s ERS procedures in effect during the Standard Contract Term, including testing requirements. ERCOT does not reimburse for the cost of ERS testing.
+
+2.3.5 Offer and Pricing Information
+
+Provide a single Hourly Capacity Price offer ($ per MW per Hour) for each Time Period within the Standard Contract Term. You may submit separate price offers for different Time Periods. Offers may not be “linked;” ERCOT will evaluate offers for each Time Period separately.
+
+2.4. Rights Reserved
+
+-   ERCOT is not bound to accept any offer for ERS and may reject all or part of any or all proposals.
+
+-   ERCOT may obtain ERS from more than one offering QSE.
+
+-   ERCOT reserves the right to modify timelines presented in this document to the extent allowed.
+
+-   Documents provided by an offering QSE and specifically identified as “Protected Information” pursuant to the ERCOT Nodal Protocols will be held in confidence and not released outside of ERCOT (unless required by law, Public Utility Commission of Texas rule, or Protocol) without prior authorization of the QSE except for material specifically considered not protected under the ERCOT Nodal Protocols (see Section 1.3).
+
+-   Information and documents submitted by a QSE become ERCOT property and will not be returned.
+
+-   All offers will remain open for acceptance by ERCOT until ERCOT announces the final awards for the upcoming ERS Standard Contract Term. An offer is binding upon the offering QSE and ERS Resource once ERCOT accepts it.
+
+-   The offering QSE will bear any costs incurred in preparing the proposal.
+
+-   No oral or written statements made by ERCOT personnel or consultants shall be considered addenda to this RFP. No liability is assumed for errors or omissions in this RFP, or any information, correspondence, notices, or other documentation related to this RFP.
+
+2.5. Submission Information
+
+2.5.1 Submission Instructions: ERS Resource Identification
+
+QSEs shall submit all requested ERID information to ERCOT on the ERS Submission Form on the dates specified on the cover page of this RFP. The form shall be submitted electronically to ERCOT via email to ERS@ercot.com. A PDF file containing a scanned version of the “Identification” page of the ERS Submission form, signed by the QSE Authorized Representative in the appropriate space, must accompany every ERS ERID submission.
+
+2.5.2 Submission Instructions: ERS Offers and Self-Provision Offers
+
+QSEs shall submit completed ERS Offers to ERCOT, using the ERS Submission Form by the date published on the cover page of this RFP. The form shall be submitted electronically to ERCOT via email to ERS@ercot.com. A PDF file containing a scanned version of the “Identification” page of the ERS Submission Form, signed by the QSE Authorized Representative in the appropriate space, must accompany every ERS Offer submission.
+
+2.5.3 Acknowledgement of Receipt
+
+ERCOT will send an e-mail acknowledgement to each offering QSE to confirm that ERCOT received its offer(s). QSEs should contact ERCOT by email at ERS@ercot.com if no acknowledgment has been received.
+
+2.5.4 Inquiries and Inquiry Responses
+
+Communications concerning this RFP must be made via email to ERS@ercot.com. Questions should reference the document, page, section, and paragraph to which the question refers.
+
+Appendix A
+
+Expenditure Limit Allocation and Capacity Inflection Points per ERS Time Period
+
+ERCOT will procure Non-Weather-Sensitive ERS-30, Weather-Sensitive ERS-30, Non-Weather-Sensitive ERS-10 and Weather-Sensitive ERS-10 using the Emergency Response Service Procurement Methodology noted in the Applicable Documents section of this RFP. This methodology requires certain parameters of the ERS capacity demand curve relevant to each ERS Time Period to be specified in this document. The key parameters pertaining to each ERS Time Period are: (1) ERS Offer Cap, (2) Capacity Inflection Point, and (3) Expenditure Limit. The values of these parameters are shown in the table below.
+
+Low (1-29), Medium (30-79), and High (80-100).
+
+[]

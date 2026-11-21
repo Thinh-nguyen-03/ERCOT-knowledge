@@ -1,0 +1,359 @@
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+§25.479. Issuance and Format of Bills.
+(a)
+
+Application. This section applies to a retail electric provider (REP) that is responsible for issuing electric
+service bills to retail customers, unless the REP is issuing a consolidated bill (both energy services and
+transmission and distribution services) on behalf of an electric cooperative or municipally owned utility.
+This section does not apply to a municipally owned utility or electric cooperative issuing bills to its customers
+in its own service territory.
+
+(b)
+
+Frequency and delivery of bills.
+(1)
+A REP must issue a bill monthly to each customer unless service is provided for a period of less
+than one month. A REP may issue a bill less frequently than monthly if both the customer and the
+REP agree to such an arrangement.
+(2)
+A bill must be issued no later than 30 days after the REP receives the usage data and any related
+invoices for non-bypassable charges, unless validation of the usage data and invoice received from
+a transmission and distribution utility by the REP or other efforts to determine the accuracy of
+usage data or invoices delay billing by a REP past 30 days. The number of days to issue a bill must
+be extended beyond 30 days to the extent necessary to support agreements between REPs and
+customers for less frequent billing, as provided in paragraph (1) of this subsection or for
+consolidated billing.
+(3)
+A REP must issue bills to residential customers in writing and delivered via the United States
+Postal Service. REPs may provide bills to a customer electronically in lieu of written mailings if
+both the customer and the REP agree to such an arrangement. An affiliated REP or a provider of
+last resort must not require a customer to agree to such an arrangement as a condition of receiving
+electric service.
+(4)
+A REP must not charge a customer a fee for issuing a standard bill, which is a bill delivered via
+U.S. mail that complies with the requirements of this section. The customer may be charged a fee
+or given a discount for non-standard billing in accordance with the terms of service document.
+
+(c)
+
+Bill content.
+(1)
+Each customer’s bill must include the following information:
+(A)
+The certified name and address of the REP and the number of the license issued to the
+REP by the commission;
+(B)
+A toll-free telephone number, in bold-face type, which the customer can call during
+specified hours for inquiries and to make complaints to the REP about the bill;
+(C)
+A toll-free telephone number that the customer may call 24 hours a day, seven days a
+week, to report power outages and concerns about the safety of the electric power system;
+(D)
+The service address, electric service identifier (ESI), and account number of the customer;
+(E)
+The service period for which the bill is rendered;
+(F)
+The date on which the bill was issued;
+(G)
+The payment due date of the bill and, if different, the date by which payment from the
+customer must be received by the REP to avoid a late charge or other collection action;
+(H)
+The current charges for electric service as disclosed in the customer’s terms of service
+document, including applicable taxes and fees labeled “current charges.” If the customer
+is on a level or average payment plan, the level or average payment due must be clearly
+shown in addition to the current charges;
+(I)
+A calculation of the average unit price for electric service for the current billing period,
+labeled, “The average price you paid for electric service this month.” The calculation of
+the average price for electric service must reflect the total of all fixed and variable recurring
+charges, but not include state and local sales taxes, reimbursement for the state
+miscellaneous gross receipts tax, and any nonrecurring charges or credits, divided by the
+kilowatt-hour consumption, and must be expressed as a cents per kilowatt-hour amount
+rounded to the nearest one-tenth of one cent.
+§25.479--1
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+(J)
+
+(2)
+
+The identification and itemization of charges other than for electric service as disclosed in
+the customer’s terms of service document;
+(K)
+The itemization and amount of any non-recurring charge, including late fees, returned
+check fees, restoration of service fees, or other fees disclosed in the REP’s terms of service
+document provided to the customer;
+(L)
+The balances from the preceding bill, payments made by the customer since the preceding
+bill, and the amount the customer is required to pay by the due date, labeled “amount due;”
+(M)
+A notice that the customer has the opportunity to voluntarily donate money to the bill
+payment assistance program, pursuant to §25.480(g)(2) of this title ( relating to Bill
+Payment and Adjustments);
+(N)
+If available to the REP on a standard electronic transaction, if the bill is based on kilowatthour (kWh) usage, the following information:
+(i)
+the meter reading at the beginning of the period for which the customer is being
+billed, labeled “previous meter read,” and the meter reading at the end of the
+period for which the customer is being billed, labeled “current meter read,” and
+the dates of such readings;
+(ii)
+the kind and number of units measured, including kWh, actual kilowatts (kW), or
+kilovolt ampere (kVa);
+(iii)
+if applicable, billed kW or kVa;
+(iv)
+whether the bill was issued based on estimated usage; and
+(v)
+any conversions from meter reading units to billing units, or any other calculations
+to determine billing units from recording or other devices, or any other factors
+used in determining the bill, unless the customer is provided conversion charts;
+(O)
+Any amount owed under a written guarantee agreement, provided the guarantor was
+previously notified in writing by the REP of an obligation on a guarantee as required by
+§25.478 of this title (relating to Credit Requirements and Deposits);
+(P)
+A conspicuous notice of any services or products being provided to the customer that have
+been added since the previous bill;
+(Q)
+Notification of any changes in the customer’s prices or charges due to the operation of a
+variable rate feature previously disclosed by the REP in the customer’s terms of service
+document;
+(R)
+The notice required by §25.481(d) of this title (relating to Unauthorized Charges); and
+(S)
+For residential customers, on the first page of the bill in at least 12-point font the phrase,
+“for more information about residential electric service please visit
+www.powertochoose.com.”
+If a REP separately identifies a charge defined by one of the terms in this paragraph on the
+customer’s bill, then the term in this paragraph must be used to identify that charge, and such term and
+its definition must be easily located on the REP’s website and available to a customer free of charge
+upon request. Nothing in this paragraph precludes a REP from aggregating transmission and
+distribution utility (TDU) or REP charges. For any TDU charge(s) listed in this paragraph, the amount
+billed by the REP must not exceed the amount of the TDU tariff charge(s). The label for any TDU
+charge(s) may also identify the TDU that issued the charge(s). A REP may use a different term than a
+defined term by adding or deleting a suffix, by adding the word “total” to a defined term, where
+appropriate, changing the use of lowercase or capital letters or punctuation, or using the acceptable
+abbreviation specified in this paragraph for a defined term. If an abbreviation other than the
+acceptable abbreviation is used for the term, then the term must also be identified on the customer’s
+bill.
+(A)
+Advanced metering charge -- A charge assessed to recover a TDU’s charges for Advanced
+Metering Systems, to the extent that they are not recovered in a TDU’s standard metering
+charge. Acceptable abbreviation: Advanced Meter.
+
+§25.479--2
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+(B)
+
+(3)
+
+(4)
+(5)
+(6)
+
+(7)
+
+Competition Transition Charge -- A charge assessed to recover a TDU’s charges for
+nonsecuritized costs associated with the transition to competition. Acceptable abbreviation:
+Competition Transition.
+(C)
+Energy Efficiency Cost Recovery Factor -- A charge assessed to recover a TDU’s costs for
+energy efficiency programs, to the extent that the TDU charge is a separate charge
+exclusively for that purpose that is approved by the Public Utility Commission. Acceptable
+abbreviation: Energy Efficiency.
+(D)
+Late Payment Penalty -- A charge assessed for late payment in accordance with Public
+Utility Commission rules.
+(E)
+Meter Charge -- A charge assessed to recover a TDU’s charges for metering a customer’s
+consumption, to the extent that the TDU charge is a separate charge exclusively for that
+purpose that is approved by the Public Utility Commission.
+(F)
+Miscellaneous Gross Receipts Tax Reimbursement -- A fee assessed to recover he
+miscellaneous gross receipts tax imposed on retail electric providers operating in an
+incorporated city or town having a population of more than 1,000. Acceptable abbreviation:
+Gross Receipts Reimb.
+(G)
+Nuclear Decommissioning Fee -- A charge assessed to recover a TDU’s charges for
+decommissioning of nuclear generating sites. Acceptable abbreviation: Nuclear
+Decommission.
+(H)
+PUC Assessment -- A fee assessed to recover the statutory fee for administering the Public
+Utility Regulatory Act.
+(I)
+Sales tax -- Sales tax collected by authorized taxing authorities, such as the state, cities and
+special purpose districts.
+(J)
+TDU Delivery Charges -- The total amounts assessed by a TDU for the delivery of
+electricity to a customer over poles and wires and other TDU facilities not including
+discretionary charges.
+(K)
+Transmission Distribution Surcharges -- One or more TDU surcharge(s) on a customer’s
+bill in any combination. Surcharges include charges billed as tariff riders by the TDU.
+Acceptable abbreviation: TDU Surcharges.
+(L)
+Transition Charge -- A charge assessed to recover a TDU’s charges for securitized costs
+associated with the transition to competition.
+If the REP includes any of the following terms in its bills, the term must be applied in a manner
+consistent with the definitions, and such term and its definition must be easily located on the REP’s
+website and available to a customer free of charge upon request:
+(A)
+Base Charge -- A charge assessed during each billing cycle without regard to the
+customer’s demand or energy consumption.
+(B)
+Demand Charge -- A charge based on the rate at which electric energy is delivered to or by
+a system at a given instant, or averaged over a designated period, during the billing cycle.
+(C)
+Energy Charge -- A charge based on the electric energy (kWh) consumed.
+A REP must provide an itemization of charges, including non-bypassable charges, to the customer
+upon the customer’s request and, to the extent that the charges are consistent with the terms set out in
+paragraph (2), of this subsection, the terms must be used in the itemization.
+A customer’s electric bill must not contain charges for electric service from a service provider other
+than the customer’s designated REP.
+A REP must include on each residential and small commercial billing statement, in boldfaced and
+underlined type, the date, as provided for in §25.475(c)(3)(B) of this title (relating to General Retail
+Electric Provider Requirements and Information Disclosure to Residential and Small Commercial
+Customers) that a fixed rate product will expire.
+To the extent that a REP uses the concepts identified in this paragraph in a customer’s bill, it must
+use the term set out in this paragraph, and the definitions in this paragraph must be easily located on
+the REP’s website. A REP may not use a different term for a concept that is defined in this
+paragraph.
+§25.479--3
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+(A)
+(B)
+
+(8)
+
+kW -- Kilowatt, the standard unit for measuring electricity demand, equal to 1,000 watts;
+kWh -- Kilowatt-hour, the standard unit for measuring electricity energy consumption,
+equal to 1,000 watt-hours; and
+Notice of contract expiration may be provided in a bill in accordance with §25.475 of this title.
+
+(d)
+
+Public service notices. A REP must, as required by the commission after reasonable notice, provide brief
+public service notices to its customers. The REP must provide these public service notices to its customers on
+its billing statements, as a separate document issued with its bill, by electronic communication, or by other
+acceptable mass communication methods, as approved by the commission. Additionally, in April and October
+of each year, or as otherwise directed by the commission, the REP must provide information to each customer
+along with the customer’s bill about:
+(1)
+The electric utility’s procedures for implementing involuntary load shedding initiated by the
+independent organization certified for the ERCOT power region under PURA §39.151;
+(2)
+The types of customers who may be considered critical care residential customers, critical load
+industrial customers, or critical load according to commission rules adopted under PURA §38.076;
+(3)
+The procedure for a customer to apply to be considered a critical care customer, a critical load
+industrial customer, or critical load according to commission rules adopted under PURA §38.076;
+and
+(4)
+Reducing electricity use at times when involuntary load shedding events may be implemented.
+
+(e)
+
+Estimated bills. If a REP is unable to issue a bill based on actual meter reading due to the failure of the TDU,
+the registration agent, municipally owned utility or electric cooperative to obtain or transmit a meter reading
+or an invoice for non-bypassable charges to the REP on a timely basis, the REP may issue a bill based on the
+customer’s estimated usage and inform the customer of the reason for the issuance of the estimated bill.
+
+(f)
+
+Non-recurring charges. A REP may pass through to its customers all applicable non-recurring charges billed
+to the REP by a TDU, municipally owned utility, or electric cooperative as a result of establishing, switching,
+disconnecting, reconnecting, or maintaining service to an applicant or customer. In the event of a meter test,
+the TDU, municipally owned utility, electric cooperative, and REP must comply with the requirements of
+§25.124 of this title (relating to Meter Testing) or with the requirements of the tariffs of a TDU, municipally
+owned utility, or electric cooperative, as applicable. The TDU, municipally owned utility, or electric
+cooperative must maintain a record of all meter tests performed at the request of a REP or a REP’s customers.
+
+(g)
+
+Record retention. A REP must maintain monthly billing and payment records for each account for at least
+24 months after the date the bill is mailed. The billing records must contain sufficient data to reconstruct a
+customer’s billing for a given period. A copy of a customer’s billing records may be obtained by that customer
+on request, and may be obtained once per 12-month period, at no charge.
+
+(h)
+
+Transfer of delinquent balances or credits. If the customer has an outstanding balance or credit owed to the
+customer’s current REP that is due from a previous account in the same customer class, then the customer’s
+current REP may transfer that balance to the customer’s current account. The delinquent balance and specific
+account or address must be identified as such on the bill. There must be no balance transfers between REPs,
+other than transfer of a deposit, as specified in §25.478(j)(2) of this title.
+
+§25.479--4
+
+effective date 01/06/2022
+(P 51830)
+
+

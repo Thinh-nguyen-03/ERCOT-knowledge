@@ -1,0 +1,203 @@
+[Norton Rose Fulbright]
+
+Project Finance NewsWire
+
+[]
+
+Subscribe
+
+[]
+
+Search
+
+Go
+
+[]
+
+More results
+
+[]
+
+Menu
+
+-   Home
+
+-   NewsWire Archive
+
+-   Currents Podcast
+
+-   Uptime Now
+
+-   Tax Equity News
+
+-   Project Finance News Blog
+
+-   Meet Our US and Latin American Team
+
+[]
+
+Close
+
+Energy Hedges: What To Look For
+
+November 12, 2015
+
+By Rob Eberhardt and Monika Szymanski
+
+Chadbourne runs internal training sessions for its project finance lawyers. The following is an edited transcript from a session on energy hedges taught by Rob Eberhardt and Monika Szymanski in the Chadbourne New York office in late October.
+
+MR. EBERHARDT: Our focus today is on energy hedges for natural gas-fired power plants. I will give a brief overview of recent trends in the market for natural gas-fired power plants. Energy hedges address a problem with such projects. I will describe this problem. Two types of energy hedges are common in recent deals: a heat rate call option and a revenue put. I will describe each of them and differences between them.
+
+Monika Szymanski will talk about the issues that get negotiated in the ISDA documentation once one gets into the legal documents to implement a hedge.
+
+Context
+
+Hydraulic fracturing and directional drilling have led to an abundant supply of natural gas in North America. Prices of gas have fallen. This has led to heavier use of gas as a fuel for generating electricity. At the same time, the US government is moving to more stringent regulation of emissions from coal-fired power plants, causing many older coal-fired power plants to be permanently shut down. Even though electricity demand is flat, because gas is cheap and because the existing fleet is turning over, developers see opportunities to build new natural gas-fired power plants.
+
+In the last two to three years, there have been at least 14 project financings of new merchant natural gas-fired power plants in the United States. The bulk of them are in the PJM market, which covers the mid-Atlantic states and parts of the Midwest. There also have been a few deals done in Texas, and one project has been financed in New York. Each of these projects has had an energy hedge as a critical element of the financing.
+
+The projects have been financed in both the bank market and the term loan B market. They range in size, but the typical project cost is $800 million to $1 billion. There can be 12 to 15 banks in the lender syndicate. There may be both senior and mezzanine debt. There are multiple equity investors in some projects. These are big, complicated projects.
+
+They have been done with both revenue puts and heat rate call options. However, there appears to be a preference in the bank market for revenue puts. Panda has done several projects in the term loan B market with heat rate call options, but as far as we are aware, there has only been one bank deal with a heat rate call option.
+
+Energy hedges are not the only driver for the financing, but they are a very important part. To understand why, one must go back in time.
+
+Early in the life of the independent power industry, independent generators financed power plants based on long-term offtake contracts with utilities. Utilities paid the avoided cost that the utility would have to incur to generate the same electricity itself. Long-term offtake contracts remain the lynchpin of most project financings in the power sector.
+
+However, by the late 1990s, after certain electricity markets were deregulated, a large number of combined-cycle gas-fired power plants were built on a merchant basis, without long-term offtake contracts. The market fundamentals ultimately deteriorated because too many people were chasing the same opportunities. Then natural gas prices went up.
+
+Plants could still make money by operating, but they were not nearly as valuable. A large number of projects that were under development were cancelled. Developers lost money. Developers had to shed operating projects at steep discounts. Some bankers who had financed the projects lost their jobs. We then went through a decade in which the market soured on combined-cycle gas-fired power projects. There were a few deals done, but not many.
+
+A generator that buys gas and turns it into electricity makes money if the spread between the gas and electricity prices is favorable and the cost associated with that process is low enough. If the cost of gas goes up or if the wholesale price for electricity goes down relative to one another, then the viability of the business can be affected significantly. It is not so much how much the gas costs or what price will be paid for the electricity in absolute terms. The key is the spread between the two and how efficiently you can convert gas into electricity.
+
+The wholesale price for electricity can vary wildly. Gas prices also are volatile. Energy hedges guard the spread between gas and electric prices. In doing so, they protect a project against a deterioration in market conditions like what occurred previously.
+
+Revenue Puts
+
+The way to think about revenue puts is they are a type of insurance. The project (the insured) pays an upfront premium to the hedge provider (the insurer), and if gas and electric prices move in the wrong direction, then the hedge provider will make a payment to help the project make up the loss in revenue.
+
+The put is downside protection in exchange for an upfront payment. The project typically makes the payment at closing on the financing for the project, at the start of construction. The upfront payment is large. It can be in the range of $30 to $50 million for a five-year revenue put.
+
+The put sets an assumed revenue floor for the project. If market conditions have changed so that the actual revenue in any year after the project starts operating is below the floor, then the hedge provider makes a payment that year to get the project to the floor. If market conditions are such that actual revenue in a year is above the floor, then no payment is made that year.
+
+The risk that assumed revenue, based on market prices for electricity and gas, for any year will dip below the floor is borne by the hedge provider. The hedge provider is compensated upfront for taking that risk. The hedge provider of a revenue put takes a view on where the market is headed, but it also does offsetting trades to try to protect itself.
+
+The project keeps the upside to the extent market prices turn in the project’s favor. That is a key difference between a revenue put and a heat rate call option. In the latter case, the hedge provider keeps the upside.
+
+The term of the hedge starts to run once the project is in service. They typically do not have terms longer than five years.
+
+Payments under a revenue put are calculated on an annual basis. In cases where a project needs cash more frequently, the hedge may have interim quarterly settlements. If the project has been overpaid by the end of the year, then it has to give money back. The dollars back are usually small. Money runs primarily to the project.
+
+The hedge protects against deterioration in market conditions — changes in gas or electricity prices — but not operational inefficiencies or technical problems or outside events that prevent operation of the project.
+
+The hedge confirmation refers to something called the “net revenue amount.” The net revenue amount is calculated and compared against the floor to determine whether the hedge provider is required to make a payment.
+
+In a revenue put, at the end of the each quarter or year, depending on the settlement period, the net revenue amount is calculated based on assumptions about what the maximum revenue a hypothetical plant would have earned given actual gas and electricity prices. You make  assumptions about the plant size. You make an assumption about its heat rate, i.e. how efficiently it operates. You make an assumption about how much it costs to start the plant. You make assumptions about how much it costs to run the plant, apart from fuel costs, and you assume how frequently the plant has to be restarted. For example, you might assume a maximum of 300 restarts in a year and that, once the plant has started, it must run for at least five hours.
+
+The only revenue figures in the calculation are gas and electricity prices. These are set based on published market prices. How much would the project collect by selling electricity, and how much would it have to spend to run the plant in that hour? You do that calculation for each hour for the entire quarter or year. You sum up all the revenue in each hour and compare that to the floor amount that was set at closing. If the number for the settlement period is below the floor, then the hedge provider pays. If the number is above the floor, then no payment is made.
+
+Heat Rate Call Options
+
+Let’s talk next about heat rate call options and focus on how they differ from revenue puts.
+
+First, in a heat rate call option, you do not make a big upfront payment at financial closing. Second, there are payments potentially in both directions. If market conditions deteriorate, then the hedge provider makes a payment to the project. If market conditions improve, then the project makes a payment to the hedge provider.
+
+Heat rate call options typically have a fixed revenue amount called the “option premium.” This fixed amount is compared to the “cash settlement amount” to determine which party makes payments for the relevant settlement period.
+
+The calculation of the cash settlement amount in a heat rate call option ultimately looks similar to the calculations that are made under a revenue put. Similar assumptions are made as in a revenue put to isolate the gas and electricity price risk.
+
+However, while the calculations for a revenue put are done based on an optimal “exercise schedule” — an hour-by-hour schedule of whether or not the plant is assumed to run for purposes of the hedge — for a heat rate call option, the exercise schedule is set based on elections made by the hedge provider each day in advance. Each day on a day-ahead basis, the hedge provider — not the project owner — decides whether to consider the plant in operation solely for purposes of the hedge. The decision whether actually to run the plant is made by the project owner, but for purposes of determining whether a hedge payment will made, it is the option of the hedge provider to “call the hypothetical plant” from one hour to the next.
+
+If the hedge provider decides not to call the hypothetical plant, then there is no revenue for that hour for purposes of calculating the cash settlement amount. If the hedge provider decides to call the hypothetical plant for hedge calculation purposes, then the revenue for that hour may be positive or negative, depending on actual market prices and assumptions about the plant’s heat rate and operating costs.
+
+The ultimate settlement amount will equal the option premium and will be paid to the project if the hedge provider elects not to call the hypothetical plant in any hour during the relevant settlement period. Doing so is in the hedge provider’s interest if the spread between gas and electricity prices has deteriorated, because, the way the math works, the settlement amount payable to the project can actually exceed the option premium if the hedge provider calls the hypothetical plant during periods of unfavorable market prices.
+
+When thinking about the potential payment amounts made to or from the project during a settlement period, the more favorable the spread between gas and electricity prices, the less the project receives under the hedge. At a certain point, market conditions are sufficiently favorable that the project must make payments under the hedge.
+
+From the option premium (the maximum expected settlement amount payable to the project), the payment to the project reduces, and the net direction of payment ultimately switches from the project to the hedge provider as the cash settlement amount increases. The cash settlement amount increases for every hour in which the hedge provider has elected to run the hypothetical plant when there is a favorable spread between gas and electricity prices.
+
+For a financially-settled heat rate call option, as the amount paid under the hedge to the project decreases, and as the direction of payment ultimately switches from the project to the hedge provider, the assumption is that revenue associated with physical electricity sales will increase. The combination of hedge payments to or from the project and electricity revenue received by the project results, in theory, in a steady project revenue stream based on a fixed spread between gas and electricity prices.
+
+Heat rate call options settle on a monthly basis, and there is a payment by the hedge provider to the project or vice versa.
+
+Contrasts
+
+Backing up to see the big picture, the hedge provider is usually not taking physical delivery of any electricity. Most hedges are financial instruments. That said, we have seen a few heat rate call options involve physical delivery.
+
+Both products provide downside protection for project revenue. With a revenue put, the project has all the upside — the assumed excess revenue from physical sales — if market prices turn in the project’s favor. With a heat rate call option, the upside goes to the hedge provider.
+
+With a revenue put, there is little likelihood that the project will have to make significant payments to the hedge provider apart from the large upfront payment. With a heat rate call option, there may be ongoing payments to the hedge provider.
+
+The hedge protects the project from market deterioration at hubs rather than the bus bar for the project or the actual delivery point for the gas the project is purchasing. The hedge provider wants to use hubs because gas and electricity are traded at the hubs. Hedge providers are comfortable taking a bet only at big, established trading hubs. The fact that pricing may differ at the hubs from where the gas and electricity actually change hands is called “basis risk” and is borne by the project. People spend a lot of time looking at historical data and projections in an effort to understand how likely actual prices are to match up the prices at the hubs.
+
+ Everything about the plant, other than gas and electricity prices, is the project’s risk. If you have an assumed heat rate in the hedge and you are not operating efficiently enough to make it, then that is the project’s problem. If the plant is down for whatever reason, then that is the project’s problem. The hypothetical plant on which the hedge is based is considered to be running for hedge purposes from one hour to the next if it makes sense to run. If the property tax rate goes up, then that is the project’s problem. The project will have less money to pay the hedge provider, and the project is not making as much money as it expected, but the hedge offers no protection. If water or any other variable charge is more expensive than expected, then that is the project’s problem. The amount of each of these costs is assumed in the hedge.
+
+Power plants in PJM are paid for capacity as well as energy or electricity. That is a separate revenue stream. There no protection for capacity payments under the hedge. Ancillary services, like frequency regulation to help balance the grid, are another, smaller revenue stream that also is not protected under the hedge.
+
+The hedge provider does not look for much in the way of collateral from the project with a revenue put because there is no need to make significant ongoing payments to the hedge provider. Lenders like the simplicity. With a heat rate call option, there are significant ongoing payments to be made by the project to the hedge provider, and those payments are typically made as an operating expense ahead of debt service. The hedge provider will require significant collateral to secure payment. During construction, there is usually a large letter of credit. Sometimes, the hedge provider gets first or second liens. There are inter-creditor issues to work out between the hedge provider and the term lenders. The complexity of the heat rate call option is one reason we do not see many of them in the bank market.
+
+Documentation
+
+MS. SZYMANSKI:  Let’s discuss how hedges are documented.  There are three main documents: an ISDA master agreement, which is a pre-printed form that comes in a 1992 and a 2002 version and that has the common terms that apply to all hedges, a schedule that has modifications that the parties have agreed to make to the terms of the master agreement and a confirmation that has the economic terms of the transaction that are specific to the deal.
+
+There are also standard ISDA definitions for transactions such as the 2006 ISDA definitions and the 2005 commodity derivatives definitions.  For physically-settled power transactions, there is an ISDA North American power annex with additional definitions and provisions. 
+
+In addition, either or both parties to the hedge may have to post collateral, so there may be a credit support annex.  There are several versions in use, but what we see most frequently is the 1994 New York law version. 
+
+The master agreement is where you have the set of standard representations, covenants and events of default that apply across the market. 
+
+There are some differences between the two forms of master agreement, such as the calculation of the termination amount if the hedge is terminated early. There are shorter cure periods for defaults in the 2002 form, which banks usually favor. 
+
+However, you cannot go into the master agreement and start revising provisions.  If you want different or additional representations or covenants, or to negotiate other changes, you must do so in the schedule. 
+
+Focusing on the schedule, there tend to be negotiations around the events of default.  For example, how long should a party have to cure a payment default?  In the 2002 form of master agreement, the standard cure period after a failure to pay is one day.  In the 1992 version, the standard is a three-day cure period.  The parties might agree on two days and that gets put into the schedule.
+
+The standard termination events are illegality, force majeure event, tax event, tax event upon merger, and credit event upon merger. However, you can negotiate additional termination events between the parties or remove or change certain standard events of default.  For instance, we have seen the standard cross-default provision changed to cross acceleration, and we have seen certain events, such as a merger without assumption of the hedge, removed as events of default. 
+
+For energy hedges where there is collateral, additional termination events may include  impairment of the collateral, a condemnation event or a casualty event with respect to the project or failure to reach financial closing by a certain date.
+
+Other negotiated provisions are unique to energy hedge transactions.  Covenants may be expanded because, in addition to the standard covenants under the master agreement, you may want specific project limitations, such as limitations on liens, debt, mergers, dispositions and maintenance of insurance.  They may be the same ones as those negotiated in the credit agreement. You negotiate each of these individually.
+
+We also see changes to the condition precedents in the master agreement.  For example, the master agreement includes a provision that says, in order for you to make payments to the other party, the other party cannot be in default. In most swaps, this is good because payments are going back and forth between the parties, and parties keep the provision as is.  However, with a revenue put, because the project company is making the payment upfront and has no on-going payment obligations, it should not matter if the company is in default . It would not make sense for the bank counterparty to be able to stop payments to the project company, so this gets negotiated. 
+
+Another commonly negotiated item is a provision where the bank counterparty can suspend payments if there are certain trigger events, such as the termination of the credit agreement or a casualty event that affects the project.
+
+Shifting focus to the credit support annex, this is a separate collateral document in addition to the usual security arrangements under the financing documents.  The credit support annex provides that you have a security interest in the posted collateral and what you would need to post depending on what the exposure is throughout the life of the trade.  So what is important here, and what differs from interest rate hedges where you do not usually have the bank counterparty posting any collateral, is the bank counterparty may need to provide collateral.  
+
+The credit support annex is the preprinted form — like the master agreement — with a specific paragraph where you designate certain elections and provisions, including the types of collateral that you expect, whether it is cash, a letter of credit or other types of credit support.  The credit support amount is the amount that a party needs to provide on a given day based on the exposure of the secured party.  The annex provides the parameters for calculating the amount.[webding-gold-Apr-16-2025-04-01-20-5906-PM]
+
+Share this
+
+Share on LinkedIn [] Share on Twitter [] Share on Bluesky [] Share on Facebook []
+
+NewsWire Editor
+
+Keith Martin
+Partner, United States
+Washington, DC
+Email
+T: +1 202 974 5674
+
+[] Download PDF of the NewsWire
+
+Stay Connected
+
+Subscribe by Email
+
+[] [] [] [] []
+
+[Norton Rose Fulbright]
+
+Project Finance News
+
+For developments affecting project finance and the energy sector.
+
+Norton Rose Fulbright LLP © 2026. All Rights Reserved.
+
+-   Legal notices
+-   Privacy notice
+-   Cookies policy
+-   Do Not Sell or Share My Personal Information
+-   Limit the Use of My Sensitive Personal Information
+
+[] [] [] [] []

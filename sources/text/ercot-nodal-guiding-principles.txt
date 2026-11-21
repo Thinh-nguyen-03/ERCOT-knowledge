@@ -1,0 +1,29 @@
+Guiding Principles of the Nodal Market
+
+Purpose
+
+This non-binding document provides general principles of the future Nodal Market design that may be used by entities to help develop their proposed Nodal Protocol Revision Request (NPRR) or market change proposal.
+
+Guiding Principles
+
+An NPRR or market change proposal should strive to further the following guiding principles of the Nodal Market:
+
+-   Improve price signals
+
+-   Improve dispatch efficiencies
+
+-   Improve transparency into market operations
+
+-   Improve or enhance key components of the Nodal Market
+
+-   Improve reliability
+
+-   Improve the Retail or Wholesale Markets
+
+-   Appropriately assign Compliance/Responsibilities
+
+-   Directly address new legislation, Public Utility Commission of Texas (PUCT) rules or North American Electric Reliability Corporation (NERC) standards.
+
+-   Address recommendations of the Independent Market Monitor (IMM), PUCT or ERCOT Board
+
+-   Clarify Protocols

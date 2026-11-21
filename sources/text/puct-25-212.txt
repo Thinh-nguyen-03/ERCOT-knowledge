@@ -1,0 +1,267 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS
+Subchapter I.
+
+Transmission and Distribution.
+
+DIVISION 2.
+
+TRANSMISSION AND DISTRIBUTION APPLICABLE TO ALL
+ELECTRIC UTILITIES.
+
+§25.212.
+
+Technical Requirements for Interconnection and Parallel Operation of On-Site Distributed
+Generation.
+
+(a)
+
+Purpose. The purpose of this section is to describe the requirements and procedures for safe and
+effective connection and operation of distributed generation.
+(1) A customer may operate 60 Hertz (Hz), three-phase or single-phase generating equipment,
+whether qualifying facility (QF) or non-QF, in parallel with the utility system pursuant to an
+interconnection agreement, provided that the equipment meets or exceeds the requirements of
+this section.
+(2) This section describes typical interconnection requirements. Certain specific interconnection
+locations and conditions may require the installation and use of more sophisticated protective
+devices and operating schemes, especially when the facility is exporting power to the utility
+system.
+(3) If the utility concludes that an application for parallel operation describes facilities that may
+require additional devices and operating schemes, the utility shall make those additional
+requirements known to the customer at the time the interconnection studies are completed.
+(4) Where the application of the technical requirements set forth in this section appears
+inappropriate for a specific facility, the customer and utility may agree to different requirements,
+or a party may petition the commission for a good cause exception, after making every
+reasonable effort to resolve all issues between the parties.
+
+(b)
+
+General interconnection and protection requirements.
+(1) The customer's generation and interconnection installation must meet all applicable national,
+state, and local construction and safety codes.
+(2) The customer's generator shall be equipped with protective hardware and software designed to
+prevent the generator from being connected to a de-energized circuit owned by the utility.
+(3) The customer's generator shall be equipped with the necessary protective hardware and software
+designed to prevent connection or parallel operation of the generating equipment with the utility
+system unless the utility system service voltage and frequency is of normal magnitude.
+(4) Pre-certified equipment may be installed on a company's utility systems in accordance with an
+approved interconnection control and protection scheme without further review of their design
+by the utility. When the customer is exporting to the utility system using pre-certified equipment,
+the protective settings and operations shall be those specified by the utility.
+(5) The customer will be responsible for protecting its generating equipment in such a manner that
+utility system outages, short circuits or other disturbances including zero sequence currents and
+ferroresonant over-voltages do not damage the customer's generating equipment. The customer's
+protective equipment shall also prevent unnecessary tripping of the utility system breakers that
+would affect the utility system's capability of providing reliable service to other customers.
+(6) For facilities greater than two megawatts (MW), the utility may require that a communication
+channel be provided by the customer to provide communication between the utility and the
+customer's facility. The channel may be a leased telephone circuit, power line carrier, pilot wire
+circuit, microwave, or other mutually agreed upon medium.
+(7) Circuit breakers or other interrupting devices at the point of common coupling must be capable
+of interrupting maximum available fault current. Facilities larger than two MW and exporting to
+the utility system shall have a redundant circuit breaker unless a listed device suitable for the
+rated application is used.
+
+§25.212--1
+
+12/21/99
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS
+Subchapter I.
+
+Transmission and Distribution.
+
+DIVISION 2.
+
+TRANSMISSION AND DISTRIBUTION APPLICABLE TO ALL
+ELECTRIC UTILITIES.
+
+§25.212(b) continued
+(8)
+
+The customer will furnish and install a manual disconnect device that has a visual break that is
+appropriate to the voltage level (a disconnect switch, a draw-out breaker, or fuse block), and is
+accessible to the utility personnel, and capable of being locked in the open position. The
+customer shall follow the utility's switching, clearance, tagging, and locking procedures, which
+the utility shall provide for the customer.
+
+(c)
+
+Prevention of interference. To eliminate undesirable interference caused by operation of the
+customer's generating equipment, the customer's generator shall meet the following criteria:
+(1) Voltage. The customer will operate its generating equipment in such a manner that the voltage
+levels on the utility system are in the same range as if the generating equipment were not
+connected to the utility's system. The customer shall provide an automatic method of
+disconnecting the generating equipment from the utility system if a sustained voltage deviation in
+excess of +5.0 % or –10% from nominal voltage persists for more than 30 seconds, or a
+deviation in excess of +10% or –30% from nominal voltage persists for more than ten cycles.
+The customer may reconnect when the utility system voltage and frequency return to normal
+range and the system is stabilized.
+(2) Flicker. The customer's equipment shall not cause excessive voltage flicker on the utility
+system. This flicker shall not exceed 3.0% voltage dip, in accordance with Institute of Electrical
+and Electronics Engineers (IEEE) 519 as measured at the point of common coupling.
+(3) Frequency. The operating frequency of the customer's generating equipment shall not deviate
+more than +0.5 Hertz (Hz) or –0.7 Hz from a 60 Hz base. The customer shall automatically
+disconnect the generating equipment from the utility system within 15 cycles if this frequency
+tolerance cannot be maintained. The customer may reconnect when the utility system voltage and
+frequency return to normal range and the system is stabilized.
+(4) Harmonics. In accordance with IEEE 519 the total harmonic distortion (THD) voltage shall not
+exceed 5.0% of the fundamental 60 Hz frequency nor 3.0% of the fundamental frequency for any
+individual harmonic when measured at the point of common coupling with the utility system.
+(5) Fault and line clearing. The customer shall automatically disconnect from the utility system
+within ten cycles if the voltage on one or more phases falls below -30% of nominal voltage on
+the utility system serving the customer premises. This disconnect timing also ensures that the
+generator is disconnected from the utility system prior to automatic re-close of breakers. The
+customer may reconnect when the utility system voltage and frequency return to normal range
+and the system is stabilized. To enhance reliability and safety and with the utility's approval, the
+customer may employ a modified relay scheme with delayed tripping or blocking using
+communications equipment between customer and company.
+
+(d)
+
+Control, protection and safety equipment requirements specific to single phase generators of 50
+kilowatts (kW) or less connected to the utility's system. Exporting to the utility system may require
+additional operational or protection devices and will require coordination of operations with the host
+utility. The necessary control, protection, and safety equipment specific to single-phase generators of
+50 kW or less connected to secondary or primary systems include an interconnect disconnect device, a
+generator disconnect device, an over-voltage trip, an under-voltage trip, an over/under frequency trip,
+and a synchronizing check for synchronous and other types of generators with stand-alone capability.
+
+§25.212--2
+
+12/21/99
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS
+Subchapter I.
+
+Transmission and Distribution.
+
+DIVISION 2.
+
+TRANSMISSION AND DISTRIBUTION APPLICABLE TO ALL
+ELECTRIC UTILITIES.
+
+(e)
+
+Control, protection and safety equipment requirements specific to three-phase synchronous
+generators, induction generators, and inverter systems. This subsection specifies the control,
+protection, and safety equipment requirements specific to three phase synchronous generators,
+induction generators, and inverter systems. Exporting to the utility system may require additional
+operational or protection devices and will require coordination of operations with the utility.
+(1) Three phase synchronous generators. The customer's generator circuit breakers shall be threephase devices with electronic or electromechanical control. The customer is solely responsible
+for properly synchronizing its generator with the utility. The excitation system response ratio
+shall not be less than 0.5. The generator's excitation system(s) shall conform, as near as
+reasonably achievable, to the field voltage versus time criteria specified in American National
+Standards Institute Standard C50.13-1989 in order to permit adequate field forcing during
+transient conditions. For generating systems greater than two MW the customer shall maintain
+the automatic voltage regulator (AVR) of each generating unit in service and operable at all
+times. If the AVR is removed from service for maintenance or repair, the utility's dispatching
+office shall be notified.
+(2) Three-phase induction generators and inverter systems. Induction generation may be
+connected and brought up to synchronous speed (as an induction motor) if it can be
+demonstrated that the initial voltage drop measured on the utility system side at the point of
+common coupling is within the visible flicker stated in subsection (c)(2) of this section.
+Otherwise, the customer may be required to install hardware or employ other techniques to bring
+voltage fluctuations to acceptable levels.
+Line-commutated inverters do not require
+synchronizing equipment. Self-commutated inverters whether of the utility-interactive type or
+stand-alone type shall be used in parallel with the utility system only with synchronizing
+equipment. Direct-current generation shall not be operated in parallel with the utility system.
+(3) Protective function requirements. The protective function requirements for three phase
+facilities of different size and technology are listed below.
+(A) Facilities rated ten kilowatts (kW) or less must have an interconnect disconnect device, a
+generator disconnect device, an over-voltage trip, an under-voltage trip, an over/under
+frequency trip, and a manual or automatic synchronizing check (for facilities with stand
+alone capability).
+(B) Facilities rated in excess of ten kW but not more than 500 kW must have an interconnect
+disconnect device, a generator disconnect device, an over-voltage trip, an under-voltage
+trip, an over/under frequency trip, a manual or automatic synchronizing check (for
+facilities with stand alone capability), either a ground over-voltage trip or a ground overcurrent trip depending on the grounding system if required by the company, and reverse
+power sensing if the facility is not exporting (unless the generator is less than the
+minimum load of the customer).
+(C) Facilities rated more than 500 kW but not more than 2,000 kW must have an interconnect
+disconnect device, a generator disconnect device, an over-voltage trip, an under-voltage
+trip, an over/under frequency trip, either a ground over-voltage trip or a ground overcurrent trip depending on the grounding system if required by the company, an automatic
+synchronizing check (for facilities with stand alone capability) and reverse power sensing
+if the facility is not exporting (unless the facility is less than the minimum load of the
+customer). If the facility is exporting power, the power direction protective function may
+be used to block or delay the under frequency trip with the agreement of the utility.
+
+§25.212--3
+
+12/21/99
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS
+Subchapter I.
+
+Transmission and Distribution.
+
+DIVISION 2.
+
+TRANSMISSION AND DISTRIBUTION APPLICABLE TO ALL
+ELECTRIC UTILITIES.
+§25.212(e)(3) continued
+(D) Facilities rated more than 2,000 kW but not more than 10,000 kW must have an
+interconnect disconnect device, a generator disconnect device, an over-voltage trip, an
+under-voltage trip, an over/under frequency trip, either a ground over-voltage trip or a
+ground over-current trip depending on the grounding system if required by the company,
+an automatic synchronizing check and AVR for facilities with stand alone capability, and
+reverse power sensing if the facility is not exporting (unless the facility is less than the
+minimum load of the customer). If the facility is exporting power, the power direction
+protective function may be used to block or delay the under frequency trip with the
+agreement of the utility. A telemetry/transfer trip may also be required by the company as
+part of a transfer tripping or blocking protective scheme.
+
+(f)
+
+Facilities not identified. In the event that standards for a specific unit or facility are not set out in this
+section, the company and customer may interconnect a facility using mutually agreed upon technical
+standards.
+
+(g)
+
+Requirements specific to a facility paralleling for sixty cycles or less (closed transition
+switching). The protective devices required for facilities ten MW or less which parallel with the
+utility system for 60 cycles or less are an interconnect disconnect device, a generator disconnect
+device, an automatic synchronizing check for generators with stand alone capability, an over-voltage
+trip, an under-voltage trip, an over/under frequency trip, and either a ground over-voltage trip or a
+ground over-current trip depending on the grounding system, if required by the utility.
+
+(h)
+
+Inspection and start-up testing. The customer shall provide the utility with notice at least two weeks
+before the initial energizing and start-up testing of the customer's generating equipment and the utility
+may witness the testing of any equipment and protective systems associated with the interconnection.
+The customer shall revise and re-submit the application with information reflecting any proposed
+modification that may affect the safe and reliable operation of the utility system.
+
+(i)
+
+Site testing and commissioning. Testing of protection systems shall include procedures to
+functionally test all protective elements of the system up to and including tripping of the generator and
+interconnection point. Testing will verify all protective set points and relay/breaker trip timing. The
+utility may witness the testing of installed switchgear, protection systems, and generator. The
+customer is responsible for routine maintenance of the generator and control and protective
+equipment. The customer will maintain records of such maintenance activities, which the utility may
+review at reasonable times. For generation systems greater than 500 kW, a log of generator operations
+shall be kept. At a minimum, the log shall include the date, generator time on, and generator time off,
+and megawatt and megavar output. The utility may review such logs at reasonable times.
+
+(j)
+
+Metering. Consistent with Chapter 25, Subchapter F of this title (relating to Metering), the utility
+may supply, own, and maintain all necessary meters and associated equipment to record energy
+purchases by the customer and energy exports to the utility system. The customer shall supply at no
+cost to the utility a suitable location on its premises for the installation of the utility's meters and other
+equipment. If metering at the generator is required in such applications, metering that is part of the
+generator control package will be considered sufficient if it meets all the measurements criteria that
+would be required by a separate stand alone meter.
+
+§25.212--4
+
+12/21/99
+
+

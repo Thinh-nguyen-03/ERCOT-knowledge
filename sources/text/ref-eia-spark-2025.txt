@@ -1,0 +1,314 @@
+-   
+-   
+
+[U.S. Energy Information Administration logo]
+
+Skip to sub-navigation
+
+U.S. Energy Information Administration - EIA - Independent Statistics and Analysis
+
+Menu
+
+-   Statistics
+
+-   Analysis
+
+-   Tools
+
+-   Education
+
+-   News
+
+-   
+
+Search
+
+Today in Energy
+
+Skip to page content
+
+-   Recent articles
+-   Browse by tag
+    -   liquid fuels
+    -   natural gas
+    -   electricity
+    -   oil/petroleum
+    -   production/supply
+    -   crude oil
+    -   consumption/demand
+    -   generation
+    -   prices
+    -   map
+    -   states
+    -   exports/imports
+    -   international
+    -   coal
+    -   renewables
+    -   weather
+    -   forecasts/projections
+    -   gasoline
+    -   capacity
+    -   steo (short-term energy outlook)
+-   Prices
+-   Archive
+-   About
+
+Glossary FAQS
+
+In-brief analysis
+
+December 8, 2025
+
+Spark and dark spreads indicate improved profitability of natural gas, coal power plants
+
+[daily PJM western hub spark spread and dark spread]
+
+Data source: U.S. Energy Information Administration, based on data from S&P Global Market Intelligence
+Data note: The specifics of the calculation methodology are detailed in a previous article with minor adjustments to heat rates used. The heat rate used for the dark spread was 10,500 British thermal units per kilowatthour (Btu/kWh), while the heat rate for the spark spread was 7,000 Btu/kWh.
+
+------------------------------------------------------------------------
+
+Higher average daily wholesale electricity prices between January and November 2025 may be improving the operational competitiveness of some natural gas- and coal-fired generators in the PJM Interconnection compared with the same period in 2024. PJM is the largest wholesale electricity market in the United States. The spark and dark spreads, common metrics for estimating the profitability of natural gas- and coal-fired electric generators, have both increased over the past two years.
+
+Since 2023, the dark spread for coal, the difference between the fuel costs for coal-fired generators and the wholesale electricity price, has increased. In 2023, the January through November dark spread averaged negative $14 per megawatthour (MWh), indicating the fuel cost was more than the wholesale price of electricity. The spread increased to nearly $21/MWh in 2025. In 2025, the dark spread increased nearly 250% in the first 11 months of the year compared with the same period during 2024, even though the average price of coal increased 5% over the same period.
+
+The spark spread for natural gas, a similar measure of revenue relative to fuel costs for natural gas-fired generators, increased from a January through November average of $21/MWh in 2023 to $28/MWh in 2025.
+
+Since 2023, the dark spread for coal has increased faster than the spark spread for natural gas. The narrowing of the two spreads indicates that the economics of coal plants have improved relative to that of natural gas plants since 2023. Between January and November 2025, the dark spread averaged $21/MWh, and the spark spread averaged $28/MWh.
+
+Principal contributor: Augustine Kwon
+
+Tags: generation, coal, electricity, natural gas, power plants
+
+More recent articles ›
+
+-   About EIA
+-   Open Data
+-   Legacy
+-   Contact Us
+
+U.S. Energy Information Administration
+
+1000 Independence Ave., SW
+
+Washington, DC 20585
+
+Policies
+
+Privacy/Security
+
+Copyright & Reuse
+
+Accessibility
+
+Information Quality
+
+Freedom of Information Act (FOIA)
+
+Related Sites
+
+usa.gov
+
+U.S. Department of Energy
+
+Stay Connected
+
+Facebook
+
+X
+
+Youtube
+
+LinkedIn
+
+Email Updates
+
+RSS Feeds
+
+[]
+
+Statistics
+
+Analysis
+
+Tools
+
+Education
+
+News
+
+Petroleum & Other Liquids
+
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+
+Natural Gas
+
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+
+Electricity
+
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+
+Coal
+
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+
+Nuclear & Uranium
+
+Uranium fuel, nuclear reactors, generation, spent fuel.
+
+Renewable & Alternative Fuels
+
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+
+EIA Survey Forms
+
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+
+Total Energy
+
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+
+-   Monthly Energy Review
+
+Consumption & Efficiency
+
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+
+-   Residential Energy Consumption Survey (RECS)
+-   Commercial Buildings Energy Consumption Survey (CBECS)
+-   Manufacturing Energy Consumption Survey (MECS)
+
+U.S. States
+
+State energy information, including overviews, rankings, data, and analyses.
+
+International
+
+International energy information, including overviews, rankings, data, and analyses.
+
+Environment
+
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+
+-   U.S. Energy-Related Carbon Dioxide Emissions
+-   Energy-Related Carbon Dioxide Emissions at the State Level
+
+Analysis and Projections
+
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+
+-   Short-Term Energy Outlook
+-   Annual Energy Outlook
+
+Special Reports
+
+Special market analysis and/or data requests.
+
+-   EIA-112 Residential Utility Disconnections
+-   SHIP Act
+-   Energy & Financial Markets: What Drives Crude Oil Prices?
+
+International
+
+International energy analyses.
+
+-   Regional Analysis Briefs
+-   Country Analysis Briefs
+-   World Oil Transit Chokepoints
+-   OPEC Revenue
+-   Global Energy Security Data
+
+Data Tools, Apps, & Maps
+
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+
+Open Data
+
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+
+EIA Beta
+
+Come test out some of the products still in development and let us know what you think!
+
+Open Source Code
+
+EIA's open source code, available on GitHub.
+
+All Reports & Products
+
+Email Updates
+
+Sign up for email subscriptions to receive messages about specific EIA products
+
+RSS Feeds
+
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+
+Follow us. . .
+
+A-Z Index
+
+A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | XYZ
+
+Energy Explained
+
+-   What is Energy?
+-   Units & Calculators
+-   U.S. Energy Facts
+-   Use of Energy
+-   Energy & Environment
+-   Petroleum
+-   Hydrocarbon Gas Liquids
+-   Natural Gas
+
+-   Coal
+-   Nuclear
+-   Electricity
+-   Hydrogen
+-   Hydropower
+-   Biofuels
+-   Biomass
+-   Wind
+-   Geothermal
+-   Solar
+
+For Teachers
+
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+
+Glossary
+
+FAQs
+
+-   Coal
+-   Conversion & Equivalents
+-   Oil/Petroleum
+-   Diesel
+-   Electricity
+-   Environment
+
+-   Gasoline
+-   General Energy
+-   Natural Gas
+-   Nuclear
+-   Prices
+-   Renewables
+
+[]
+
+What's New?
+
+-   Quarterly Domestic Uranium Production Report
+-   Nov 20, 2026
+-   Global Energy Security Data
+-   Nov 16, 2026
+-   Wholesale Electricity Market Data
+-   Nov 12, 2026
+
+Press Room
+
+-   Press Releases
+-   Congressional Testimony
+-   Presentations
+-   Events

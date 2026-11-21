@@ -1,0 +1,12 @@
+{
+ "id": "ercot-nprr1014-board-report",
+ "title": "NPRR1014 Board Report (Energy Storage Resource Single Model)",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "Board approved 2020-12-08",
+ "url": "https://www.ercot.com/files/docs/2020/12/09/1014NPRR-18_Board_Report_120820.docx",
+ "retrieved": "2026-11-21",
+ "raw_bytes": 1299978,
+ "raw_sha256": "3d2a2e7db21d5bbe436cbe500525a07d2fedcdd0b6b3c44eceb74cc7bf6496d8",
+ "text_chars": 1603467
+}

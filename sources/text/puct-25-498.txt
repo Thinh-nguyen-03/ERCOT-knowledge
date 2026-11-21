@@ -1,0 +1,858 @@
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+§25.498. Prepaid Service.
+(a)
+
+Applicability. This section applies to retail electric providers (REPs) that offer a payment option in which
+a customer pays for retail service prior to the delivery of service and to transmission and distribution utilities
+(TDUs) that have installed advanced meters and related systems. A REP may not offer prepaid service to
+residential or small commercial customers unless it complies with this section. The following provisions do
+not apply to prepaid service, unless otherwise expressly stated:
+(1)
+§25.479 of this title (relating to Issuance and Format of Bills);
+(2)
+§25.480(b), (e)(3), (h), (i), (j), and (k) of this title (relating to Bill Payment and Adjustments); and
+(3)
+§25.483 of this title (relating to Disconnection of Service), except for §25.483(b)(2)(A) and (B), (d),
+and (e)(1)-(6) of this title.
+
+(b)
+
+Definitions. The following terms, when used in this section, have the following meanings unless the context
+indicates otherwise.
+(1)
+Connection balance -- A current balance, not to exceed $75 for a residential customer, required to
+establish prepaid service or reconnect prepaid service following disconnection.
+(2)
+Current balance -- An account balance calculated consistent with subsection (c)(6) of this section.
+(3)
+Customer prepayment device or system (CPDS) -- A device or system that includes metering and
+communications capabilities that meet the requirements of this section, including a device or system
+that accesses customer consumption information from a TDU’s advanced metering system (AMS).
+The CPDS may be owned by the REP, and installed by the TDU consistent with subsection (c)(2)(4) of this section.
+(4)
+Disconnection balance -- An account balance, not to exceed $10 for a residential customer, below
+which the REP may initiate disconnection of the customer’s service.
+(5)
+Landlord -- A landlord or property manager or other agent of a landlord.
+(6)
+Postpaid service -- A payment option offered by a REP for which the customer normally makes a
+payment for electric service after the service has been rendered.
+(7)
+Prepaid service -- A payment option offered by a REP for which the customer normally makes a
+payment for electric service before service is rendered.
+(8)
+Prepaid disclosure statement (PDS) -- A document described by subsection (e) of this section.
+(9)
+Summary of usage and payment (SUP) -- A document described by subsection (h) of this section.
+
+(c)
+
+Requirements for prepaid service.
+(1)
+A REP must file with the commission a notice of its intent to provide prepaid service prior to offering
+such service. The notice of intent must include a description of the type of CPDS the REP will use,
+and the initial Electricity Facts Label (EFL), terms of service, and PDS for the service. Except as
+provided in subsection (m) of this section, a REP-controlled CPDS or TDU settlement provisioned
+meter is required for any prepaid service.
+(2)
+A CPDS that relies on metering equipment other than the TDU meter must conform to the
+requirements and standards of §25.121(e) of this title (relating to Meter Requirements), §25.122 of
+this title (relating to Meter Records), and section 4.7.3 of the tariff for retail electric delivery service,
+which is prescribed by §25.214 of this title (relating to Terms and Conditions of Retail Delivery
+Service Provided by Investor Owned Transmission and Distribution Utilities).
+(3)
+A TDU may, consistent with its tariff, install CPDS equipment, including meter adapters and collars
+on or near the TDU’s meters. Such installation does not constitute competitive energy services as
+this term is defined in §25.341(3) of this title (relating to Definitions).
+(4)
+A CPDS must not cause harmful interference with the operation of a TDU’s meter or equipment, or
+the performance of any of the TDU’s services. If a CPDS interferes with the TDU’s meter or
+equipment, or TDU’s services, the CPDS must be promptly corrected or removed. A CPDS that
+relies on communications channels other than those established by the TDU must protect customer
+information in accordance with §25.472 of this title (relating to Privacy of Customer Information).
+§25.498--1
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+(5)
+
+(6)
+
+(7)
+
+A REP may choose the means by which it communicates required information to a customer,
+including an in-home device at the customer’s premises, United States Postal Service, email,
+telephone, mobile phone, or other electronic communications. The means by which the REP will
+communicate required information to a customer must be described in the terms of service and the
+PDS.
+(A)
+A REP must communicate time-sensitive notifications required by paragraph (7)(B), (D),
+and (E) of this subsection by telephone, mobile phone, or electronic means.
+(B)
+A REP must, as required by the commission after reasonable notice, provide brief public
+service notices to its customers. The REP must provide these public service notices to its
+customers by electronic communication, or by other acceptable mass communication
+methods, as approved by the commission.
+A REP must calculate the customer’s current balance by crediting the account for payments received
+and reducing the account balance by known charges and fees that have been incurred, including
+charges based on estimated usage as allowed in paragraph (11)(E) of this subsection.
+(A)
+The REP may also reduce the account balance by:
+(i)
+estimated applicable taxes; and
+(ii)
+estimated TDU charges that have been incurred in serving the customer and that,
+pursuant to the terms of service, will be passed through to the customer.
+(B)
+If the customer’s balance reflects estimated charges and taxes authorized by subparagraph
+(A) of this paragraph, the REP must promptly reconcile the estimated charges and taxes
+with actual charges and taxes, and credit or debit the balance accordingly within 72 hours
+after actual consumption data or a statement of charges from the TDU is available.
+(C)
+A REP may reverse a payment for which there are insufficient funds available or that is
+otherwise rejected by a bank, credit card company, or other payor.
+(D)
+If usage sent by the TDU is estimated or the REP estimates consumption according to
+paragraph (11)(E) of this subsection, the REP must promptly reconcile the estimated
+consumption and associated charges with the actual consumption and associated charges
+within 72 hours after actual consumption data is available to the REP.
+A REP must:
+(A)
+on the request of the customer, provide the customer’s current balance calculated pursuant
+to paragraph (6) of this subsection, including the date and time the current balance was
+calculated and the estimated time or days of paid electricity remaining; and
+(B)
+make the current balance available to the customer either:
+(i)
+continuously, via the internet, phone, or an in-home device; or
+(ii)
+within two hours of the REP’s receipt of a customer’s balance request, by the
+means specified in the Terms of Service for making such a request.
+(C)
+communicate to the customer the current price for electric service calculated as required
+by §25.475(g)(2)(A)-(E) of this title (relating to General Retail Electric Provider
+Requirements and Information Disclosures to Residential and Small Commercial
+Customers);
+(D)
+provide a warning to the customer at least one day and not more than seven days before
+the customer’s current balance is estimated by the REP to drop to the disconnection
+balance;
+(E)
+provide a confirmation code when the customer makes a payment by credit card, debit card,
+or electronic check. A REP is not required to provide a confirmation code or receipt for
+payment sent by mail or electronic bill payment system. The REP must provide a receipt
+showing the amount paid for payment in person. At the customer’s request, the REP must
+confirm all payments by providing to the customer the last four digits of the customer’s
+account number or Electric Service Identifier (ESI ID), payment amount, and the date the
+payment was received;
+§25.498--2
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+(F)
+
+(8)
+(9)
+
+(10)
+(11)
+
+(12)
+
+(13)
+
+ensure that a CPDS controlled by the REP does not impair a customer’s ability to choose
+a different REP or any electric service plans offered by the REP that do not require
+prepayment. When the REP receives notice that a customer has chosen a new REP, the
+REP must take any steps necessary to facilitate the switch on a schedule that is consistent
+with the effective date stated on the Electric Reliability Council of Texas (ERCOT)
+enrollment transaction and ERCOT’s rules for processing such transactions; and
+(G)
+refund to the customer or an energy assistance agency, as applicable, any unexpended
+balance from the account within ten business days after the REP receives the final bill and
+final meter read from the TDU.
+(i)
+In the case of unexpended funds provided by an energy assistance agency, the
+REP must refund the funds to the energy assistance agency and identify the
+applicable customer and the customer’s address associated with each refund.
+(ii)
+In the case of unexpended funds provided by the customer that are less than five
+dollars, the REP must communicate the unexpended balance to the customer and
+state that the customer may contact the REP to request a refund of the balance.
+Once the REP has received the request for refund from the customer, the REP
+must refund the balance within ten business days.
+Nothing in this subsection limits a customer from obtaining a SUP.
+The communications provided under paragraph (7)(A)-(D) of this subsection and any confirmation
+of payment as described in paragraph (7)(E) of this subsection, except a receipt provided when the
+payment is made in person at a third-party payment location, must be provided in English or
+Spanish, at the customer’s election.
+A REP must cooperate with energy assistance agencies to facilitate the provision of energy
+assistance payments to requesting customers.
+A REP must not:
+(A)
+tie the duration of an electric service contract to the duration of a tenant’s lease;
+(B)
+require, or enter into an agreement with a landlord requiring, that a tenant select the REP
+as a condition of a lease;
+(C)
+require a connection balance in excess of $75 for a residential customer;
+(D)
+require security deposits for electric service; or
+(E)
+base charges on estimated usage, other than usage estimated by the TDU or estimated by
+the REP in a reasonable manner for a time period in which the TDU has not provided actual
+or estimated usage data on a web portal within the time prescribed by §25.130(g) of this
+title (relating to Advanced Metering) and in which the TDU-provided portal does not
+provide the REP the ability to obtain on-demand usage data.
+A REP providing service must not charge a customer any fee for:
+(A)
+transitioning from a prepaid service to a postpaid service, but notwithstanding
+§25.478(c)(3) of this title (relating to Credit Requirements and Deposits), a REP may
+require the customer to pay a deposit for postpaid service consistent with §25.478(b) or
+(c)(1) and (2) of this title and may:
+(i)
+require the deposit to be paid within ten days after issuance of a written
+disconnection notice that requests a deposit; or
+(ii)
+bill the deposit to the customer.
+(B)
+the removal of equipment; or
+(C)
+the switching of a customer to another REP, or otherwise cancelling or discontinuing taking
+prepaid service for reasons other than nonpayment, but may charge and collect early
+termination fees pursuant to §25.475 of this title.
+If a customer owes a debt to the REP for electric service, the REP may reduce the customer’s account
+balance by the amount of the debt. Before reducing the account balance, the REP must notify the
+customer of the amount of the debt and that the customer’s account balance will be reduced by the
+amount of the debt no sooner than 10 days after the notice required by this paragraph is issued.
+§25.498--3
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+(14)
+(15)
+
+In addition to the connection balance, a REP may require payment of applicable TDU fees, if any,
+prior to establishing electric service or reconnecting electric service.
+A REP that provides prepaid service to a residential customer must not charge an amount for electric
+service that is higher than the price charged by the POLR in the applicable TDU service territory.
+The price for prepaid service to a residential customer calculated as required by §25.475(g)(2)(A)(E) of this title must be equal to or lower than the maximum POLR rate for the residential customer
+class at the 500 kilowatt-hour (kWh), 1,000 kWh, and 2,000 kWh usage levels as shown on the
+POLR EFL posted on the commission’s website for the applicable TDU service territory. When an
+updated POLR EFL is posted on the commission’s website, the REP, at the REP’s option, may
+continue to reference the prior POLR EFL to ensure compliance with this paragraph for prepaid
+service prices charged during the first 30 days, beginning the date that the updated POLR EFL is
+posted. For a fixed rate product, the REP must show that the prepaid service prices calculated under
+§25.475(g)(2)(A), (D)-(E) of this title are equal to or lower than the test described in this paragraph
+at the time the REP makes the offer and provided that the customer accepts the offer within 30 days.
+
+(d)
+
+Customer acknowledgement. As part of the enrollment process, a REP must obtain the applicant’s or
+customer’s acknowledgement of the following statement: “The continuation of electric service depends on
+your prepaying for service on a timely basis and if your balance falls below {insert dollar amount of
+disconnection balance}, your service may be disconnected with little notice. Some electric assistance
+agencies may not provide assistance to customers that use prepaid service.” The REP must obtain this
+acknowledgement using any of the authorization methods specified in §25.474 of this title (relating to
+Selection of Retail Electric Provider).
+
+(e)
+
+Prepaid disclosure statement (PDS). A REP must provide a PDS contemporaneously with the delivery of
+the contract documents to a customer pursuant to §25.474 of this title and as required by subsection (f) of
+this section. A REP must also provide a PDS contemporaneously with any advertisement or other marketing
+materials not addressed in subsection (f) of this section that include a specific price or cost for prepaid service.
+The commission may adopt a form for a PDS. The PDS must be a separate document and must be at a
+minimum written in 12-point font, and must:
+(1)
+provide the following statement: “The continuation of electric service depends on you prepaying
+for service on a timely basis and if your current balance falls below the disconnection balance, your
+service may be disconnected with little notice.”;
+(2)
+inform the customer of the following:
+(A)
+the connection balance that is required to initiate or reconnect electric service;
+(B)
+the acceptable forms of payment, the hours that payment can be made, instructions on how
+to make payments, any requirement to verify payment and any fees associated with making
+a payment;
+(C)
+when service may be disconnected and the disconnection balance;
+(D)
+that prepaid service is not available to critical care or chronic condition residential
+customers as these terms are defined in §25.497 of this title (relating to Critical Load
+Industrial Customers, Critical Load Public Safety Customers, Critical Care Residential
+Customers and Chronic Condition Residential Customers);
+(E)
+the means by which the REP will communicate required information;
+(F)
+the availability of deferred payment plans and, if a REP reserves the right to apply a switchhold while the customer is subject to a deferred payment plan, that a switch-hold may apply
+until the customer satisfies the terms of the deferred payment plan, and that a switch-hold
+means the customer will not be able to buy electricity from other companies while the
+switch-hold is in place;
+(G)
+the availability of energy bill payment assistance, including the disclosure that some
+electric assistance agencies may not provide assistance to customers that use prepaid
+service and the statement “If you qualify for low-income status or low-income assistance,
+§25.498--4
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+
+(3)
+
+have received energy assistance in the past, or you think you will be in need of energy
+assistance in the future, you should contact the billing assistance program to confirm that
+you can qualify for energy assistance if you need it.”; and
+(H)
+an itemization of any non-recurring REP fees and charges that the customer may be
+charged.
+be prominently displayed in the property management office of any multi-tenant commercial or
+residential building at which the landlord is acting as an agent of the REP.
+
+(f)
+
+Marketing of prepaid services.
+(1)
+This paragraph applies to advertisements conveyed through print, television, radio, outdoor
+advertising, prerecorded telephonic messages, bill inserts, bill messages, and electronic media other
+than Internet websites. If the advertisement includes a specific price or cost, the advertisement must
+include in a manner that is clear and conspicuous to the intended audience:
+(A)
+any non-recurring fees, and the total amount of those fees, that will be deducted from the
+connection balance to establish service;
+(B)
+the following statement, if applicable: “Utility fees may also apply and may increase the
+total amount that you pay.”;
+(C)
+the maximum fee per payment transaction that may be imposed by the REP; and
+(D)
+the following statement: “You can obtain important standardized information that will
+allow you to compare this product with other offers. Contact (name, telephone number,
+and Internet address (if available) of the REP).” If the REP’s phone number or website
+address is already included on the advertisement, the REP need not repeat the phone
+number or website as part of this required statement. The REP must provide the PDS and
+EFL to a person who requests standardized information for the product.
+(2)
+This paragraph applies to all advertisements and marketing that include a specific price or cost
+conveyed through Internet websites, direct mail, mass e-mails, and any other media not addressed
+by paragraphs (1), (3), and (4) of this subsection. In addition to meeting the requirements of
+§25.474(d)(7) of this title, a REP must include the PDS and EFL on Internet websites and in direct
+mail, mass e-mails, and any other media not addressed by paragraphs (1), (3), and (4) of this
+subsection. For electronic communications, the PDS and EFL may be provided through a hyperlink.
+(3)
+This paragraph applies to outbound telephonic solicitations initiated by the REP. A REP must
+disclose the following:
+(A)
+information required by paragraph (1)(A)-(C) of this subsection;
+(B)
+when service may be disconnected, the disconnection balance, and any non-TDU
+disconnection fees;
+(C)
+the means by which the REP will communicate required information; and
+(D)
+the following statement: “You have the right to review standardized documents before you
+sign up for this product.” The REP must provide the PDS and EFL to a person who requests
+standardized information for the product.
+(4)
+This paragraph applies to solicitations in person. In addition to meeting the requirements of
+§25.474(e)(8) of this title, before obtaining a signature from an applicant or customer who is being
+enrolled in prepaid service, a REP must provide the applicant or customer a reasonable opportunity
+to read the PDS.
+
+(g)
+
+Landlord as customer of record. A REP offering prepaid service to multiple tenants at a location may
+designate the landlord as the customer of record for the purpose of transactions with ERCOT and the TDU.
+(1)
+For each ESI ID for which the REP chooses to designate the landlord as the customer of record, the
+REP must provide to the TDU the name, service and mailing addresses, and ESI ID, and keep that
+information updated as required in the TDU’s Tariff for Retail Delivery Service.
+(2)
+The REP must treat each end-use consumer as a customer for purposes of this subchapter, including
+§25.471 of this title (relating to General Provisions of Customer Protection Rules). Nothing in this
+§25.498--5
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+subsection affects a REP’s responsibility to provide customer billing contact information to ERCOT
+in the format required by ERCOT.
+(h)
+
+Summary of usage and payment (SUP).
+(1)
+A REP must provide a SUP to each customer upon the customer’s request within three business
+days of receipt of the request. The SUP must be delivered by an electronic means of
+communications that provides a downloadable and printable record of the SUP or, if the customer
+requests, by the United States Postal Service. If a customer requests a paper copy of the SUP, a
+REP may charge a fee for the SUP, which must be specified in the terms of service and PDS provided
+to the customer. For purposes of the SUP, a billing cycle must conform to a calendar month.
+(2)
+A SUP must include the following information:
+(A)
+the certified name and address of the REP and the number of the license issued to the REP
+by the commission;
+(B)
+a toll-free telephone number, in bold-face type, that the customer can call during specified
+hours for questions and complaints to the REP about the SUP;
+(C)
+the name, meter number, account number, ESI ID of the customer, and the service address
+of the customer;
+(D)
+the dates and amounts of payments made during the period covered by the summary;
+(E)
+a statement of the customer’s consumption and charges by calendar month during the
+period covered by the summary;
+(F)
+an itemization of non-recurring charges, including returned check fees and reconnection
+fees; and
+(G)
+the average price for electric service for each calendar month included in the SUP. The
+average price for electric service must reflect the total of all fixed and variable recurring
+charges, but not including state and local sales taxes, reimbursement for the state
+miscellaneous gross receipts tax, and any nonrecurring charges or credits, divided by the
+kilowatt-hour consumption, and must be expressed as a cents per kilowatt-hour amount
+rounded to the nearest one-tenth of one cent.
+(3)
+If a REP separately identifies a charge defined by one of the terms in this paragraph on the
+customer’s SUP, then the term in this paragraph must be used to identify the charge, and such term
+and its definition must be easily located on the REP’s website and available to a customer free of
+charge upon request. Nothing in the paragraph precludes a REP from aggregating TDU or REP
+charges. For any TDU charge(s) listed in this paragraph, the amount billed by the REP must not
+exceed the amount of the TDU charge(s). The label for any TDU charge(s) may also identify the
+TDU that issued the charge(s). A REP may use a different term than a defined term by adding or
+deleting a suffix, adding the word “total” to a defined term, where appropriate, changing the use of
+lower-case or capital letters or punctuation, or using the acceptable abbreviation specified in this
+paragraph for a defined term. If an abbreviation other than the acceptable abbreviation is used for
+the term, then the term must also be identified on the customer’s SUP.
+(A)
+Advanced metering charge -- A charge assessed to recover a TDU’s charges for Advanced
+Metering Systems, to the extent that they are not recovered in a TDU’s standard metering
+charge. Acceptable abbreviation: Advanced Meter.
+(B)
+Competition Transition Charge -- A charge assessed to recover a TDU’s charges for
+nonsecuritized costs associated with the transition to competition.
+Acceptable
+abbreviation: Competition Transition.
+(C)
+Energy Efficiency Cost Recovery Factor -- A charge assessed to recover a TDU’s costs for
+energy efficiency programs, to the extent that the TDU charge is a separate charge
+exclusively for that purpose that is approved by the Public Utility Commission. Acceptable
+abbreviation: Energy Efficiency.
+(D)
+Late Payment Penalty -- A charge assessed for late payment in accordance with Public
+Utility Commission rules.
+§25.498--6
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+(E)
+
+(4)
+
+(5)
+(6)
+
+(i)
+
+Meter Charge -- A charge assessed to recover a TDU’s charges for metering a customer’s
+consumption, to the extent that the TDU charge is a separate charge exclusively for that
+purpose that is approved by the Public Utility Commission.
+(F)
+Miscellaneous Gross Receipts Tax Reimbursement -- A fee assessed to recover the
+miscellaneous gross receipts tax imposed on retail electric providers operating in an
+incorporated city or town having a population of more than 1,000. Acceptable
+abbreviation: Gross Receipts Reimb.
+(G)
+Nuclear Decommissioning Fee -- A charge assessed to recover a TDU’s charges for
+decommissioning of nuclear generating sites. Acceptable abbreviation: Nuclear
+Decommission.
+(H)
+PUC Assessment -- A fee assessed to recover the statutory fee for administering the Public
+Utility Regulatory Act.
+(I)
+Sales tax -- Sales tax collected by authorized taxing authorities, such as the state, cities and
+special purpose districts.
+(J)
+TDU Delivery Charges -- The total amounts assessed by a TDU for the delivery of
+electricity to a customer over poles and wires and other TDU facilities not including
+discretionary charges.
+(K)
+Transmission Distribution Surcharges -- One or more TDU surcharge(s) on a customer’s
+bill in any combination. Surcharges include charges billed as tariff riders by the TDU.
+Acceptable abbreviation: TDU Surcharges.
+(L)
+Transition Charge -- A charge assessed to recover a TDU’s charges for securitized costs
+associated with the transition to competition.
+If the REP includes any of the following terms in its SUP, the term must be applied in a manner
+consistent with the definitions, and such term and its definition must be easily located on the REP’s
+website and available to a customer free of charge upon request:
+(A)
+Base Charge -- A charge assessed during each billing cycle of service without regard to the
+customer’s demand or energy consumption.
+(B)
+Demand Charge -- A charge based on the rate at which electric energy is delivered to or by
+a system at a given instant, or averaged over a designated period during the billing cycle.
+(C)
+Energy Charge -- A charge based on the electric energy (kWh) consumed.
+Unless a shorter time period is specifically requested by the customer, information provided must
+be for the most recent 12 months, or the longest period available if the customer has taken prepaid
+service from the REP for less than 12 months.
+In accordance with §25.472(b)(1)(D) of this title, a REP must provide a SUP to an energy assistance
+agency within one business day of receipt of the agency’s request, and must not charge the agency
+for the SUP.
+
+Deferred payment plans. A deferred payment plan for a customer taking prepaid service is an agreement
+between the REP and a customer that requires a customer to pay a negative current balance over time. A
+deferred payment plan may be established in person, by telephone, or online, but all deferred payment plans
+must be confirmed in writing by the REP to the customer.
+(1)
+The REP must place a residential customer on a deferred payment plan, at the customer’s request:
+(A)
+when the customer’s current balance reflects a negative balance of $50 or more during an
+extreme weather emergency, as defined in §25.483(j)(1) of this title, if the customer makes
+the request within one business day after the weather emergency has ended; or
+(B)
+during a state of disaster declared by the governor pursuant to Texas Government Code
+§418.014 if the customer is in an area covered by the declaration and the commission
+directs that deferred payment plans be offered.
+(2)
+The REP must offer a deferred payment plan to a residential customer who has been underbilled by
+$50 or more for reasons other than theft of service.
+(3)
+The REP may offer a deferred payment plan to a customer who has expressed an inability to pay.
+§25.498--7
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+(4)
+(5)
+(6)
+
+(7)
+
+(8)
+(9)
+
+(10)
+(11)
+
+The deferred payment plan must include both the negative current balance and the connection
+balance.
+The customer has the right to satisfy the deferred payment plan before the prescribed time.
+The REP may require that:
+(A)
+no more than 50% of each transaction amount be applied towards the deferred payment
+plan; or
+(B)
+an initial payment of no greater than 50% of the amount due be made, with the remainder
+of the deferred amount paid in installments. The REP must inform the customer of the
+right to pay the remaining deferred balance by reducing the deferred balance by five equal
+monthly installments. However, the customer can agree to fewer or more frequent
+installments. The installments to repay the deferred balance must be applied to the
+customer’s account on a specified day of each month.
+The REP may initiate disconnection of service if the customer does not meet the terms of a deferred
+payment plan or if the customer’s current balance falls below the disconnection balance, excluding
+the remaining deferred amount. However, the REP must not initiate disconnection of service unless
+it has provided the customer at least one day’s notice that the customer has not met the terms of the
+plan or, pursuant to subsection (c)(7)(D) of this section, a timely notice that the customer’s current
+balance was estimated to fall below the disconnection balance, excluding the remaining deferred
+amount.
+The REP may apply a switch-hold while the customer is on a deferred payment plan.
+A copy of the deferred payment plan must be provided to the customer.
+(A)
+The plan must include a statement, in clear and conspicuous type, that states, “If you have
+any questions regarding the terms of this agreement, or if the agreement was made by
+telephone and you believe this does not reflect your understanding of that agreement,
+contact (insert name and contact number of REP).”
+(B)
+If a switch-hold will apply, the plan must include a statement, in a clear and conspicuous
+type, that states “By entering into this agreement, you understand that {company name}
+will put a switch-hold on your account. A switch-hold means that you will not be able to
+buy electricity from other companies until you pay this past due amount. The switch-hold
+will be removed after your final payment on this past due amount is processed. While a
+switch-hold applies, if you are disconnected for not paying, you will need to pay {us or
+company name}, to get your electricity turned back on.”
+(C)
+If the customer and the REP’s representative or agent meet in person, the representative
+must read to the customer the statement in subparagraph (A) of this paragraph and, if
+applicable, the statement in subparagraph (B) of this paragraph.
+(D)
+The plan may include a one-time penalty in accordance with §25.480(c) of this title, but
+must not include a finance charge.
+(E)
+The plan must include the terms for payment of deferred amounts, consistent with
+paragraph (6) of this subsection.
+(F)
+The plan must state the total amount to be paid under the plan.
+(G)
+The plan must state that a customer’s electric service may be disconnected if the customer
+does not fulfill the terms of the deferred payment plan, or if the customer’s current balance
+falls below the disconnection balance, excluding the remaining deferred amount.
+The REP must not charge the customer a fee for placing the customer on a deferred payment plan.
+The REP, through a standard market process, must submit a request to remove the switch-hold,
+pursuant to §25.480(m)(2) of this title if the customer pays the deferred balance owed to the REP.
+On the day the REP submits the request to remove the switch-hold, the REP must notify the customer
+that the customer has satisfied the deferred payment plan and that the switch-hold is being removed.
+
+§25.498--8
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+(j)
+
+Disconnection of service. As provided by subsection (a)(4) of this section, §25.483 (b)(2)(A) and (B), (d),
+(e)(1)-(6), and the definition of extreme weather in §25.483(j)(1) of this title apply to prepaid service. In
+addition to those provisions, this subsection applies to disconnection of a customer receiving prepaid service.
+(1)
+Prohibition on disconnection. A REP must not initiate disconnection for a customer’s failure to
+maintain a current balance above the disconnection balance on a weekend day or during any period
+during which the mechanisms used for payments specified in the customer’s PDS are unavailable;
+or during an extreme weather emergency, as this term is defined in §25.483 of this title, in the county
+in which the service is provided.
+(2)
+Initiation of disconnection. A REP may initiate disconnection of service when the current balance
+falls below the disconnection balance, but only if the REP provided the customer a timely warning
+pursuant to subsection (c)(7)(D) of this section; or when a customer fails to comply with a deferred
+payment plan, but only if the REP provided the customer a timely warning pursuant to subsection
+(i)(7) of this section. A REP may initiate disconnection if the customer’s current balance falls below
+the disconnection balance due to reversal of a payment found to have insufficient funds available or
+is otherwise rejected by a bank, credit card company, or other payor.
+(3)
+Pledge from electric assistance agencies. If a REP receives a pledge, letter of intent, purchase
+order, or other commitment from an energy assistance agency to make a payment for a customer,
+the REP must immediately credit the customer’s current balance with the amount of the pledge.
+(A)
+The REP must not initiate disconnection of service if the pledge from the energy assistance
+agency (or energy assistance agencies) establishes a current balance above the customer’s
+disconnection balance or, if the customer has been disconnected, must request reconnection
+of service if the pledge from the energy assistance agency establishes a current balance for
+the customer that is at or above the customer’s connection balance required for
+reconnection.
+(B)
+The REP may initiate disconnection of service if payment from the energy assistance
+agency is not received within 45 days of the REP’s receipt of the commitment or if the
+payment is not sufficient to satisfy the customer’s disconnection balance in the case of a
+currently energized customer, or the customer’s connection balance if the customer has
+been disconnected for falling below the disconnection balance.
+(4)
+Reconnection of service. Within one hour of a customer establishing a connection balance or any
+otherwise satisfactory correction of the reasons for disconnection, the REP must request that the
+TDU reconnect service or, if the REP disconnected service using its CPDS, reconnect service. The
+REP’s payment mechanism may include a requirement that the customer verify the payment using
+a card, code, or other similar method in order to establish a connection balance or current balance
+above the disconnection balance when payment is made to a third-party processor acting as an agent
+of the REP.
+
+(k)
+
+Service to Critical Care Residential Customers and Chronic Condition Residential Customers. A REP
+must not knowingly provide prepaid service to a customer who is a critical care residential customer or
+chronic condition residential customer as those terms are defined in §25.497 of this title. In addition, a REP
+must not enroll an applicant who states that the applicant is a critical care residential customer or chronic
+condition residential customer.
+(1)
+If the REP is notified by the TDU that a customer receiving prepaid service is designated as a critical
+care residential customer or chronic condition residential customer, the REP must diligently work
+with the customer to promptly transition the customer to postpaid service or another REP in a
+manner that avoids a service disruption. The REP must not charge the customer a fee for the
+transition, including an early termination or disconnection fee.
+(2)
+If the customer is unresponsive, the REP must transfer the customer to a competitively offered,
+month-to-month postpaid product at a rate no higher than the rate calculated pursuant to
+§25.43(l)(2)(A) of this title. The REP must provide the customer notice that the customer has been
+§25.498--9
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+transferred to a new product and must provide the customer the new product’s Terms of Service and
+EFL.
+(l)
+
+Compliance period. No later than October 1, 2011, prepaid service offered by a REP pursuant to a new
+contract to a customer being served using a “settlement provisioned meter,” as that term is defined in Chapter
+1 of the TDU’s tariff for retail delivery service, or using a REP-controlled collar or meter must comply with
+this section. Before October 1, 2011, prepaid service offered by a REP to a customer served using a
+settlement provisioned meter or REP-controlled collar or meter must comply with this section as it currently
+exists or as it existed in 2010, except as provided in subsection (m) of this section.
+
+(m)
+
+Transition of Financial Prepaid Service Customers. A REP may continue to provide a financial prepaid
+service (i.e., one that does not use a settlement provisioned meter or REP-controlled collar or meter) only to
+its customer that was receiving financial prepaid service at a particular location on October 1, 2011. A
+customer who is served by a financial prepaid service must be transitioned to a service that complies with the
+other subsections of this section by the later of October 1, 2011 or sixty days after the customer begins to be
+served using either a settlement provisioned meter or a REP-controlled collar or meter. The customer must
+be notified by the REP that the customer’s current prepaid service will no longer be offered as of a date
+specified by the REP by the later of either October 1, 2011 or sixty days after the customer begins to be
+served using either a settlement provisioned meter or REP-controlled collar or meter, as applicable. The REP
+must provide the notification no sooner than 60 days and not less than 30 days prior to the termination of the
+customer’s current prepaid service. The customer must be notified that the customer will be moved to a new
+prepaid service, and the REP must transmit an EFL and PDS to the customer with the notification, if the
+customer does not choose another service or REP.
+
+§25.498--10
+
+effective date 01/06/2022
+(P 51830)
+
+

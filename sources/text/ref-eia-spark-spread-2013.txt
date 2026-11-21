@@ -1,0 +1,321 @@
+-   
+-   
+
+[U.S. Energy Information Administration logo]
+
+Skip to sub-navigation
+
+U.S. Energy Information Administration - EIA - Independent Statistics and Analysis
+
+Menu
+
+-   Statistics
+
+-   Analysis
+
+-   Tools
+
+-   Education
+
+-   News
+
+-   
+
+Search
+
+Today in Energy
+
+Skip to page content
+
+-   Recent articles
+-   Browse by tag
+    -   liquid fuels
+    -   natural gas
+    -   electricity
+    -   oil/petroleum
+    -   production/supply
+    -   crude oil
+    -   consumption/demand
+    -   generation
+    -   prices
+    -   map
+    -   states
+    -   exports/imports
+    -   international
+    -   coal
+    -   renewables
+    -   weather
+    -   forecasts/projections
+    -   gasoline
+    -   capacity
+    -   steo (short-term energy outlook)
+-   Prices
+-   Archive
+-   About
+
+Glossary FAQS
+
+February 8, 2013
+
+An introduction to spark spreads
+
+[Graph of select spark spreads, as explained in the article text]
+
+Source: U.S. Energy Information Administration, based on SNL Energy.
+
+------------------------------------------------------------------------
+
+The spark spread is a common metric for estimating the profitability of natural gas-fired electric generators. The spark spread is the difference between the price received by a generator for electricity produced and the cost of the natural gas needed to produce that electricity. It is typically calculated using daily spot prices for natural gas and power at various regional trading points.
+
+The chart above shows spark spreads during 2012, calculated for four locations around the United States. Spark spreads tend to be fairly volatile, more so than crack spreads in petroleum markets, largely because of the volatility of wholesale electric power prices, which vary widely with changes in demand for electricity and the available electric supply. Power prices formed in Regional Transmission Organizations (New York City and Chicago in the chart above) tend to be spikier than those formed in markets featuring bilateral trading between market participants (Pacific Northwest and Southeast).
+
+There is also variation in average spark spread levels across regions: New York City tends to have relatively high average spark spreads, while in the Pacific Northwest, a low average spark spread reflects low average power prices (because of an abundance of low-cost hydropower, particularly in the late spring and early summer). Note that spark spreads are not reported if they have negative values.
+
+Spark spread calculation. Spark spreads are calculated using the following equation:
+Spark spread ($/MWh) = power price ($/MWh) – [natural gas price ($/mmBtu) * heat rate (mmBtu/MWh)]
+A key component of the spark spread equation is the heat rate, or measure of efficiency, of a generating unit. Those marketing the output of a unit will use the unit's tested heat rate to assess its profitability. Market participants and observers rely on a generic benchmark to assess overall market conditions. EIA's new daily price table shows the spark spread using a benchmark heat rate of 7,000 Btu/kilowatthour (kWh), which represents a fairly new and efficient natural gas combined-cycle generator. One kWh has a heat content of 3,412 Btu. A generator that uses 7,000 Btu to produce one kWh has a conversion efficiency slightly below 50% (see chart below). Less efficient units have higher heat rates, and therefore require more natural gas to produce a kWh of electricity. A combined-cycle unit, which combines a combustion turbine with a steam turbine, is more efficient than a steam turbine alone.
+
+[Graph of efficiency versus heat rate, as explained in the article text]
+
+Source: U.S. Energy Information Administration.
+
+------------------------------------------------------------------------
+
+The most efficient natural gas combined-cycle power plants have heat rates somewhat below 7,000 Btu/kWh; the spark spread for such units would be larger than the value shown here. Conversely, as a generating unit's efficiency decreases, the spark spread also decreases—thus, older, less-efficient plants have smaller spark spreads than those achieved with a heat rate of 7,000 Btu/kWh because they require more fuel per unit of output. Generators burning other fuels have similar metrics; for example, dark spreads (electricity price minus the cost of coal) are calculated for coal-fired generators, and quark spreads (electricity price minus the cost of enriched uranium fuel) for nuclear generators.
+
+A limitation of the spark spread calculation is that it does not take into consideration other costs associated with the generation of electricity, such as pipeline costs or fuel-related finance charges, and other variable costs (like operations and maintenance costs), taxes, or fixed expenses. In that sense, a spark spread is an indicator of market conditions, but it is not necessarily an exact measure of profitability for any one specific generator.
+
+Tags: electricity, natural gas, prices
+
+More recent articles ›
+
+-   About EIA
+-   Open Data
+-   Legacy
+-   Contact Us
+
+U.S. Energy Information Administration
+
+1000 Independence Ave., SW
+
+Washington, DC 20585
+
+Policies
+
+Privacy/Security
+
+Copyright & Reuse
+
+Accessibility
+
+Information Quality
+
+Freedom of Information Act (FOIA)
+
+Related Sites
+
+usa.gov
+
+U.S. Department of Energy
+
+Stay Connected
+
+Facebook
+
+X
+
+Youtube
+
+LinkedIn
+
+Email Updates
+
+RSS Feeds
+
+[]
+
+Statistics
+
+Analysis
+
+Tools
+
+Education
+
+News
+
+Petroleum & Other Liquids
+
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+
+Natural Gas
+
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+
+Electricity
+
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+
+Coal
+
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+
+Nuclear & Uranium
+
+Uranium fuel, nuclear reactors, generation, spent fuel.
+
+Renewable & Alternative Fuels
+
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+
+EIA Survey Forms
+
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+
+Total Energy
+
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+
+-   Monthly Energy Review
+
+Consumption & Efficiency
+
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+
+-   Residential Energy Consumption Survey (RECS)
+-   Commercial Buildings Energy Consumption Survey (CBECS)
+-   Manufacturing Energy Consumption Survey (MECS)
+
+U.S. States
+
+State energy information, including overviews, rankings, data, and analyses.
+
+International
+
+International energy information, including overviews, rankings, data, and analyses.
+
+Environment
+
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+
+-   U.S. Energy-Related Carbon Dioxide Emissions
+-   Energy-Related Carbon Dioxide Emissions at the State Level
+
+Analysis and Projections
+
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+
+-   Short-Term Energy Outlook
+-   Annual Energy Outlook
+
+Special Reports
+
+Special market analysis and/or data requests.
+
+-   EIA-112 Residential Utility Disconnections
+-   SHIP Act
+-   Energy & Financial Markets: What Drives Crude Oil Prices?
+
+International
+
+International energy analyses.
+
+-   Regional Analysis Briefs
+-   Country Analysis Briefs
+-   World Oil Transit Chokepoints
+-   OPEC Revenue
+-   Global Energy Security Data
+
+Data Tools, Apps, & Maps
+
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+
+Open Data
+
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+
+EIA Beta
+
+Come test out some of the products still in development and let us know what you think!
+
+Open Source Code
+
+EIA's open source code, available on GitHub.
+
+All Reports & Products
+
+Email Updates
+
+Sign up for email subscriptions to receive messages about specific EIA products
+
+RSS Feeds
+
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+
+Follow us. . .
+
+A-Z Index
+
+A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | XYZ
+
+Energy Explained
+
+-   What is Energy?
+-   Units & Calculators
+-   U.S. Energy Facts
+-   Use of Energy
+-   Energy & Environment
+-   Petroleum
+-   Hydrocarbon Gas Liquids
+-   Natural Gas
+
+-   Coal
+-   Nuclear
+-   Electricity
+-   Hydrogen
+-   Hydropower
+-   Biofuels
+-   Biomass
+-   Wind
+-   Geothermal
+-   Solar
+
+For Teachers
+
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+
+Glossary
+
+FAQs
+
+-   Coal
+-   Conversion & Equivalents
+-   Oil/Petroleum
+-   Diesel
+-   Electricity
+-   Environment
+
+-   Gasoline
+-   General Energy
+-   Natural Gas
+-   Nuclear
+-   Prices
+-   Renewables
+
+[]
+
+What's New?
+
+-   Quarterly Domestic Uranium Production Report
+-   Nov 20, 2026
+-   Global Energy Security Data
+-   Nov 16, 2026
+-   Wholesale Electricity Market Data
+-   Nov 12, 2026
+
+Press Room
+
+-   Press Releases
+-   Congressional Testimony
+-   Presentations
+-   Events

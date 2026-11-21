@@ -1,0 +1,12 @@
+{
+ "id": "ercot-vcm",
+ "title": "ERCOT Verifiable Cost Manual",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "effective 2026-12-01",
+ "url": "https://www.ercot.com/files/docs/2026/11/18/ERCOT-Verifiable-Cost-Manual-120126.docx",
+ "retrieved": "2026-11-21",
+ "raw_bytes": 273044,
+ "raw_sha256": "ad27b65d1f8068a43cdb9daa62f6fcea89ae6734b24fc58a647cc941fc2ed449",
+ "text_chars": 223588
+}

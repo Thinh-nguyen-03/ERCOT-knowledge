@@ -1,0 +1,308 @@
+Skip to main content
+
+[GE Vernova]
+
+-   Explore GE Vernova
+-   Trials & Demos
+
+Electrification Software
+
+[search]
+
+Electrification Software
+
+Software & Services []
+
+Flagship Software & Services
+
+Asset Performance Management
+
+Meridium | SmartSignal | Platform
+
+[]
+
+GridOS for Distribution
+
+GNM | DERMS | ADMS | VI | Field
+
+[]
+
+GridOS for Transmission
+
+AEMS | DDLR | WAMS | VI
+
+[]
+
+GridOS Orchestration Software
+
+Platform | Applications
+
+[]
+
+HMI/SCADA
+
+CIMPLICITY | iFIX
+
+[]
+
+MES - Manufacturing Execution Systems
+
+Plant Applications | Cloud MES | Cloud OEE
+
+[]
+
+Predictive Analytics
+
+SmartSignal
+
+[]
+
+Proficy Industrial Software
+
+Proven software for your industrial operations
+
+[]
+
+-   APM Health []
+-   Emission Management Software []
+-   GridOS Visual Intelligence []
+-   GridOS ADMS []
+-   GridOS Data Fabric []
+-   GridOS DERMS []
+-   Proficy CSense []
+-   Proficy Operations Hub []
+-   Proficy Scheduler/ROB-EX []
+-   Proficy Historian []
+
+[] All Software & Services Browse our complete library of products []
+
+[]
+
+Software Innovation Learn more about our innovative approach []
+
+Industries []
+
+Industries
+
+-   Aerospace & Defense []
+-   Automotive []
+-   Chemical []
+-   Electric Utilities []
+-   Food & Beverage/Consumer Products []
+-   Life Sciences & Pharmaceutical []
+
+-   Manufacturing & Digital Plant []
+-   Mining & Metals []
+-   Oil & Gas []
+-   Power Generation []
+-   Water & Wastewater []
+
+[]
+
+Customer Stories Learn how our customers are improving their outcomes with our software []
+
+Blogs
+
+Partners []
+
+Partners
+
+Industrial Partners
+
+Partner Finder for Proficy and other industrial software
+
+[]
+
+GridOS Partners
+
+Electric Grid Partners
+
+[]
+
+APM Partners
+
+Asset Performance Management Partner Ecosystem
+
+[]
+
+Support []
+
+Support
+
+GridOS Basecamp Customer Portal
+
+One portal for licenses, support, and documentation
+
+[]
+
+Technical Support
+
+Maximize the value of your software investment
+
+[]
+
+Education Services
+
+Product training, industry education, and more
+
+[]
+
+Product Documentation
+
+Put your industrial data to work
+
+[]
+
+Resources
+
+Find webinars, whitepapers, datasheets and more
+
+[]
+
+Contact Us
+
+[search]
+
+1.  Home
+2.  Blogs
+3.  Asset and Fleet Optimization: Key To Success For Power Generators
+
+Asset and Fleet Optimization: Key to Success for Power Generators
+
+Author Sticky
+
+Jacqueline Vinyard
+
+Director, Product Marketing
+
+GE Vernova’s Software Business
+
+A professionally trained journalist, Jackie has a degree in journalism and has spent 15+ years’ experience as a researcher and launching innovative technology. She lives in Boulder, CO with her husband, three children and two dogs. Her latest passion is launching software at GE Vernova to accelerate the energy transition and to decarbonize the world.
+
+Nov 28, 2025 Last Updated
+
+7 minutes
+
+Share
+
+-   
+-   
+-   
+-   
+
+It's a tough task: accelerate the energy transition without pushing risk out of bounds.
+
+Key Takeaway
+
+Intelligent fleet and power asset optimization are essential for power generators to meet the demands of the future.
+
+Prefer to listen?
+
+Stream our audio version
+
+00:00/00:00
+
+Current Situation
+
+Power generation companies are at the center of mounting demands from governments, the private sector, and consumers to transition from reliance on fossil fuels towards a decarbonized world. Utilities and power generators are rapidly seeking greater levels of decarbonization and energy flexibility by investing in solar, wind, storage, hybrid and decentralized energy systems. The diversity of fleet assets is growing, too – renewables, storage and hybrids are creating a dramatic shift in status quo.
+Yet, even as the cost of renewable energy comes down, utilities and independent power producers (IPPs) are under intensifying economic pressure to improve their balance sheet, increase revenue, and drive cost-out. They’re being charged with managing operations to maintain reliability and improve profitability, while responding to dynamic, variable, and uncertain market conditions through the transition.
+
+Key Challenges
+
+Power generators face multiple interrelated challenges as they strive for the ambitious goal of net-zero carbon emissions including responding to shifting market forces, labor forces, and next- generation technology.
+
+1.  Addressing the unprecedented level of dynamic complexity association with the energy transition.
+    Power generation and operations has always been a complex and asset-intensive industry, but the energy transition creates a new, more intricate balancing act between:
+    • Growing use and diversity of variable/ renewable generation resources.
+    • Decarbonization of dispatchable thermal generation resources.
+    • Increase in decentralized and “behind the meter” generation.
+    • Pressure to lower generation costs, but without impact to reliability.
+    • Increase in extreme weather events impacting demand and challenging grid stability.
+2.  Reorganizing operations and human resources to streamline and make better decisions, faster.
+    Utilities and power generators are taking steps to organize and execute for the future now, including consolidating and organizing their teams and functions centrally. Many companies were evaluating such changes prior to early 2020, but the COVID pandemic and resulting strain on the workforce sped up the acceptance of less-human intensive and more remote operations, such as:
+    • Centralizing and co-locating operations, monitoring and diagnostics, and commercial teams.
+    • Enabling plant operations remotely to minimize staff at sites.
+    • Investing in AI/ML and analytics to improve operational decisions.
+    • Reskilling and redeploying resources across asset types (e.g., thermal, renewable, etc.).
+3.  Leveraging a greater level of data availability, transparency, and integration.
+    Utilities and power generators are not new to digital transformation – many have invested heavily in solutions to improve asset reliability and performance. But the complexity brought by the energy transition – and the speed at which we must adjust to that complexity – is extraordinary. Meeting ambitious decarbonization goals requires an even greater level of data availability, transparency, and integration across functions, processes, and systems.
+
+The Digital Solution
+
+Leaders in the energy sector are exploring how digital technology can create intelligent and autonomous fleet operations to optimize daily generation, manage risk, improve margins and operate from anywhere.
+Integrate control room, commercial ops, commitment and dispatch optimization, with a focus on:
+
+-   Asset to fleet optimization
+-   Specialized analytics to handle market and operational uncertainty
+-   Technology to handle complexity and speed while enabling secure, autonomous operations edge-to-cloud and cloud-to-edge
+
+The First Step
+
+Intelligent fleet operations start at the asset level, with a focus on advanced analytics for predicting week-ahead, day-ahead capacity and its cost. This seemingly straightforward task is complicated by weather forecast inaccuracies and new generation availability dynamics, so traditional methods for forecasting capacities and operating costs are insufficient.
+In place of static curves and cost profiles, advanced AI/ML analytics are integrated with asset operational and availability data. This power generation asset management software more effectively predict capacity, its cost and uncertainty, and efficiently alert all users – from the site- level to central operations – to changes in predictions and uncertainty in real time. Similarly, market predictions down to the site level prevent inefficient resource allocation and ensure an optimal commitment at the fleet level.
+Commitment optimization must manage the risk associated with both increasing capacity and market uncertainty to position the asset, site, and fleet most economically and reliably. As solar and wind generators transition from being price-takers in real-time markets to committing in day-ahead markets – where opportunity is greater, but risk is higher – commitment optimization is even more paramount.
+Once we move from commitment optimization to real-time dispatch optimization, we must be able to adjust fleet-to-asset operations quickly based on available capacity and market dynamics. To enable greater flexibility during the energy transition, investments in dispatchable generation are needed.
+For example, during times of high demand or uncertainty due to variable energy resources such as wind and solar, gas-powered plants must manage the need for reserve capacity or emergency response on the system with a focus on minimizing maintenance and reducing energy imbalance costs. On the other hand, gas plants competing in an open or wholesale energy market need to capture revenue when energy prices are high, while avoiding penalties from missed targets and minimizing the impact of any operational changes on outage intervals.
+In both scenarios, power generation asset optimization software that safely and reliably extends capacity and optimizes energy production at times of highest demand can result in significant returns for the generator. And, by securely connecting IT to OT, edge-to-cloud and cloud-to-edge, the system can increasingly operate on its own, in real time, with supervisory oversight from a centralized team of cross-functional experts to maximize profitability in a deregulated market or minimize cost to meet demand in a regulated market.
+
+Conclusion
+
+As utilities and power generators strive toward net-zero carbon emissions, they can drive business growth by expanding intelligent and autonomous operations. Through centralized operations, specialized analytics to handle market and operational uncertainty, and software and user experiences that offer greater data availability, transparency, integration, and security, make faster decisions that balance risk with the great opportunity presented by the energy transition.
+
+Author Section
+
+Author
+
+Jacqueline Vinyard
+
+Director, Product Marketing
+
+GE Vernova’s Software Business
+
+A professionally trained journalist, Jackie has a degree in journalism and has spent 15+ years’ experience as a researcher and launching innovative technology. She lives in Boulder, CO with her husband, three children and two dogs. Her latest passion is launching software at GE Vernova to accelerate the energy transition and to decarbonize the world.
+
+[vblox]
+
+Electrification Software
+
+Electrification Software transforms how our customers solve their toughest challenges by putting industrial data to work.
+
+-   [linked-in]
+-   [twitter]
+-   [facebook]
+-   [instagram]
+-   [youtube]
+
+Contact Us
+
+-   About Us
+-   Software & Services
+-   Blogs
+-   Cybersecurity
+-   Technical Support
+-   Product Documentation
+
+-   Careers
+-   Customer Stories
+-   Resources
+-   Innovation
+-   Education Services
+-   News
+
+Digital Twin Technology
+
+Accelerate your digital transformation and energy transition with digital twin technology.
+
+Learn More
+
+-   Accessibility
+-   Cookies
+-   Privacy
+-   Terms
+-   Security
+-   UK and AUS Modern Slavery Act
+-   Canadian Modern Slavery Act
+-   Transparency in Coverage Rules
+
+© 2026 GE Vernova and/or its affiliates. All rights reserved.
+GE and the GE Monogram are trademarks of General Electric Company used under trademark license.

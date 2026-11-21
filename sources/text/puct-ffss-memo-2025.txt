@@ -1,0 +1,230 @@
+PUBL~ 4
+
+~* TEX>~
+Filing Receipt
+Filed Date - 2025-07-03 10:50:23 AM
+
+Control Number - 56000
+Item Number - 10
+
+Public Utility Commission of Texas
+Memorandum
+TO:
+
+Chairman Thomas J. Gleeson
+Commissioner Kathleen Jackson
+Commissioner Courtney K. Hjaltman
+
+FROM:
+
+Tyler Nicholson, Market Analysis
+Chris Brown, PhD, Market Analysis
+
+DATE:
+
+July 3,2025
+
+RE:
+
+July 10, 2025, Open Meeting - Item No. 33
+ProjecVNo. 56000 - Firm Fuel Supply Service
+
+OVERVIEW
+
+In this memo, Commission Staff provides its recommendations for Firm Fuel Supply Service
+(FFSS) program parameters for the 2025-2026 contract period. For reference, the below table
+provides a summary ofthe 2023-2024 and 2024-2025 FFSS contract periods.
+
+Total Number of Generation Resources Offered
+Number of QSEs Offering
+Total Number of Generation Resources Procured
+Number of Fuel Oil Resources Procured
+Number of Natural Gas Resources Procured
+Total MWs procured
+Lowest Offered Price ($/MW)
+Highest Offered Price ($/MW)
+Clearing Price ($/MW)
+Standby Cost
+Claw Back
+Refuel Cost Before Netting Against Revenues 1
+Net Refueling Cost Uplifted to the Market
+Final Total Cost Uplifted to Load
+FOP Index ($/MMBtu)2
+Heat Rate (MMBtu/MWh)
+Obligation Period (Hours)
+Offer Cap ($/MW)
+Total Budget
+
+23-24
+32
+5
+32
+31
+1
+3319.9
+$5,000
+$9,000
+$9,000
+$29,619,237
+($976,818)
+$9,941,571
+$781,342
+$29,423,761
+12
+15
+48
+$9,000
+$54,000,000
+
+24-25
+33
+5
+33
+32
+1
+4194.8
+$3,008
+$12,240
+$12,240
+$49,689,034
+($7,268,155)
+$0
+$0
+$42,420,879
+17
+15
+48
+$12,240
+$54,000,000
+
+1 NOt an input for Final Total Cost Uplifted to Load.
+2 Fuel oil price is based on the U. S. Gulf Coast Ultra-Low Sulfur No 2 Diesel Spot Price, published by EIA.
+
+Project No. 56000
+
+Staffs FFSS Recommendations
+
+Page 2 of 4
+
+STAFF RECOMMENDATIONS
+
+In consultation with the Independent Market Monitor (IMM) and Electric Reliability Council
+of Texas (ERCOT), Staff recommends the following for the upcoming contract period:
+Appropriate Procurement Ouantitv: No MW limit
+
+In the absence of a well-defined target procurement level and a demand curve, Staff
+recommends maintaining a cost budget and a fuel oil-based price cap and allowing
+ERCOT to procure within these limits.
+Budget: $54M cost cap for stand-by payments
+
+Staff recommends keeping the overall budget the same as the first three contract
+periods. Using a cost cap like the Emergency Response Service program also
+provides cost certainty to load serving entities.
+Offer Cap: $12,240/MW (based on FOP of $17/MMBtu and Heat Rate of 15)
+
+Staff recommends maintaining an offer cap based on current fuel oil price and heat
+rate of 15. An offer cap helps mitigate possible market power abuse that could result
+in very high prices and gives ERCOT flexibility to procure more MW.
+Obligation Period: 48 hours per deployment
+
+Staff recommends keeping the 48 hour-obligation per deployment for the next
+contract period.
+Clearing Price Mechanism: Single clearing price
+ERCOT should continue to use a single clearing price and remove offers which are
+outliers. IMM should also review all offers to assess the competitiveness of the
+
+program.
+FUTURE RULEMAKING
+
+As discussed during the Commission' s April 24th, 2025 open meeting, Staff will initiate a
+rulemaking to codify the parameters ofthis program as soon as practicable, subject to
+Commission priorities. This will allow Staff to gather feedback from stakeholders, ERCOT
+staff, and the IMM on several important issues and develop rule language for this program
+ahead of future contract periods. The expected timeline for this initiative will allow the
+Commission to consider Phase 3 options ahead of the 2026-2027 winter season.
+
+Project No. 56000
+
+Staffs FFSS Recommendations
+
+Page 3 of 4
+
+Appendix: Protocol changes since the inception of the program
+
+Below, Staff provides a high-level summary of the Nodal Protocol changes to the FFSS
+program and notes, for each, whether they have been implemented or are in progress.
+Nodal Protocol Revision Request ( NPRR) 1154 : Include Alternate Resource in the
+Availability Plan for the Firm Fuel Supply Service (Approved 01/26/2023; effective
+10/06/2023)
+Clarifies language to allow for the Availability Plan of a qualified alternate Resource to be
+considered in the event the FFSSR is unavailable. Additionally, adding the Firm Fuel Supply
+Service Award Amount billing determinant will provide QSEs information necessary to
+
+validate the results.
+N-PRR 1167: Improvements to Firm Fuel Supply Based on Lessons Learned Otpproved
+
+06/29/2023; effective 07/01/2023)
+Improves several processes related to FFSS, including testing, qualification, procurement,
+communication during and following deployment, and reporting by ERCOT. These changes
+reflect aspects of the service that were previously captured solely in the RFP, provide clarity
+regarding existing Protocol provisions, and address areas for improvement that have been
+identified by stakeholders or ERCOT since the introduction of FFSS.
+
+NP-RR 1169: Expansion of Generation Resources Qualified to Provide Firm Fuel Supply
+Service in Phase 2 of the Service (Approved 06/29/2023; effective 07/01/2023)
+Expands the potential pool of FFSS capable resources by adding additional avenues through
+which a resource may qualify for FFSS. These include possessing good title sufficient natural
+
+gas in an offsite storage facility; having a firm gas storage agreement for the offered generation
+resource; having entered into a firm transportation agreement on an FFSS qualifying pipeline;
+and satisfying a number of ongoing compliance obligations.
+
+N-PRR 1118: Continued One-Winter Procurements for Firm Fuel Supply Service (FFSS)
+(Approved 07/25/2024; effective 08/01/2024)
+Decreases the number of FFSS obligation periods awarded in an FFSS procurement from two
+
+to one.
+N-PRR 1131: FFSS Program Communication Improvements and Additional Clarifications
+(Approved 09/26/2024; effective 11/15/2024)
+Modifies the procedure for the fuel restocking process and the method by which a QSE notifies
+ERCOT of an approved alternate Generation Resource replacing a Firm Fuel Supply Resource
+(FFSSR) during the FFSS obligation period. It increases the deadline for the ERCOT-required
+FFSS deployment report to TAC from 30 days to 45 days. It also includes some updated
+
+language for when a resource is considered available for settlement purposes and the
+decertification process.
+
+Project No. 56000
+
+Staffs FFSS Recommendations
+
+Page 4 of 4
+
+N-PRR 1141: Firm Fuel Supply Service (FFSS) Availability and Hourly Standby Fee
+(Approved 05/15/2025; effective 06/01/2025)
+Provides equity and clarity surrounding the hourly standby fee claw backs for FFSS during a
+Watch for winter weather using a linear curve approach.
+NPRR 1251 : Updated FFSS Fuel Replacement Costs Recovery Process (Approved
+
+03/13/2025; effective 04/01/2025)
+Implements several improvements to the FFSS fuel cost recovery process. It clarifies that QSEs
+can restock fuel using either existing inventories or new purchases. When restocking from
+existing inventories, the replacement cost may be based on new purchases made within 30 days
+of ERCOT's approval or the Fuel Oil Index Price (FOP) on the approval day, with an added
+$0.05/gallon for transportation. These changes aim to streamline and accelerate the fuel
+
+restocking process.
+NP-RR 1115: Expansion of Qualifying Pipeline Definition for Firm Fuel Supply Service in
+Phase 3 (Tabled at Wholesale Market Subcommittee (WMS))
+Replaces the definition for FFSS Qualifying Pipeline with the definition recommended by the
+Technical Advisory Committee (TAC) in NPRR1169, Expansion of Generation Resources
+Qualified to Provide Firm Fuel Supply Service in Phase 2 ofthe Service.
+
+N-PRR 1181: Improvements to Alternate FFSS Resource Designation (Protocol Revision
+Subcommittee (PRS) endorsed 06/11/2025, at Technical Advisory Committee (TAC))
+
+Strengthens the relationship between the Settlement of FFSS and operations by clarifying the
+FFSS Hourly Rolling Equivalent Availability Factor language to ensure the accurate
+calculation ofthe Firm Fuel Supply Service Standby Fee.
+
+

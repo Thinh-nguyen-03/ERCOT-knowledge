@@ -1,0 +1,73 @@
+  ------------------------- -------- ----------------------------------------------------- -----------------------------------------------------------------------------
+  NPRR Number               1309     NPRR Title                                            Board Priority - Dispatchable Reliability Reserve Service Ancillary Service
+
+                                                                                           
+
+  Date                               February 3, 2026                                      
+
+                                                                                           
+
+  Submitter’s Information                                                                  
+
+  Name                               Andrew Reimers                                        
+
+  E-mail Address                     areimers@potomaceconomics.com                         
+
+  Company                            Potomac Economics, Independent Market Monitor (IMM)   
+
+  Phone Number                       409-656-4403                                          
+
+  Cell Number                                                                              
+
+  Market Segment                     Not applicable                                        
+  ------------------------- -------- ----------------------------------------------------- -----------------------------------------------------------------------------
+
+  -----------------------------------------------------------------------
+  Comments
+  -----------------------------------------------------------------------
+
+  -----------------------------------------------------------------------
+
+The IMM appreciates the opportunity to comment on Nodal Protocol Revision Request (NPRR) 1309, which introduces the Dispatchable Reliability Reserves Service (DRRS) as a new Ancillary Service. This NPRR defines the characteristics of DRRS including how it is procured in the Day-Ahead and Real-Time Markets, how it is deployed through Reliability Unit Commitment (RUC), and the eligibility requirements for Resources to provide DRRS. NPRR1309 is the successor to NPRR1235, Dispatchable Reliability Reserve Service as a Stand-Alone Ancillary Service, which was the previous DRRS proposal sponsored by ERCOT. We commend ERCOT for addressing our major concerns with the NPRR1235 proposal and are pleased to offer our qualified support for NPRR1309.
+
+In these comments, we will outline (1) how this proposal addresses our prior concerns with NPRR1235, (2) that we are in favor of keeping DRRS a reserve product and not an explicit tool for resource adequacy, (3) that procurement of DRRS should be tied to reliability criteria and that its demand curve should be designed to achieve these reliability criteria effectively, (4) that we are seeking clarification on whether ERCOT intends to offset procurement quantities of Non-Spinning Reserve (Non-Spin) through the introduction of DRRS, or whether DRRS is procured in addition to current levels of Non-Spin procurement, and (5) that the duration requirement for Non-Spin should be reduced to one hour upon implementation of DRRS.
+
+1.  Prior DRRS Concerns
+
+In our comments on NPRR1235 from November 20, 2024, we outlined the following features that are necessary for DRRS to function effectively:
+
+1.  DRRS should be procured and co-optimized in both Day-Ahead and Real-Time so that Real-Time shortages of DRRS-eligible capacity can be factored into price formation, thus contributing to resource adequacy.
+
+2.  Both On-Line and Off-Line units should be eligible for DRRS awards in both Day-Ahead and Real-Time. Excluding either could result in inefficient commitment decisions and price formation.
+
+3.  DRRS should be designed strictly as an operating reserve and not with an explicit resource adequacy/revenue sufficiency target in mind. As such, the DRRS procurement methodology and demand curve should be designed solely according to the marginal reliability value of DRRS capacity.
+
+We acknowledge that the statutory requirements for the design of DRRS, particularly the mandate that DRRS should offset RUC deployments, limit ERCOT’s options for satisfying our first two concerns but are pleased to see that NPRR1309 effectively addresses them given the constraints. Our third concern remains regarding DRRS exclusively as a reserve product rather than a tool for resource adequacy. We expand on that concern in our comments on NPRR1310, Dispatchable Reliability Reserve Service Plus Energy Storage Resource Participation and Release Factor.
+
+2.  The DRRS Demand Curve Should Reflect its Reliability Value
+
+The effectiveness of DRRS as an operating reserve product depends on whether it is procured according to objective reliability criteria such as the probability of Load shed and how effectively its demand curve characterizes that reliability value. The currently proposed demand curve decreases linearly from $150/MWh to a $10/MWh floor corresponding to the DRRS plan determined by the procurement methodology. While we commend ERCOT for designing a demand curve that scales with its corresponding Ancillary Service procurement target, ERCOT has not reported the empirical basis for either of the curve’s endpoints or for its linear shape. A curve that accurately reflected the marginal reliability value of DRRS should have an exponentially decreasing rather than linear shape.
+
+The linear shape could also result in inefficient market outcomes because it would price shortages for much of the DRRS plan above the right tail of the Aggregate Operating Reserve Demand Curve (AORDC), thereby promoting shortages of other higher-value reserve products instead of DRRS. We would like to see a more rigorous proposal for both the procurement methodology and the demand curve formulation before we can offer more support for this NPRR.
+
+3.  Clarify Whether DRRS will Offset or is Procured in Addition to Non-Spin
+
+ERCOT has sent mixed signals regarding how the implementation of DRRS will impact the overall level of Ancillary Services procured in the ERCOT markets. On one hand, ERCOT has expressed a willingness to reconsider the procurement methodology for Non-Spin after the implementation of DRRS, thus reducing the extent to which Non-Spin is over-procured as we argued during the development of the Ancillary Service Methodology for 2026. On the other hand, in the Aurora study on DRRS, they assumed that the volume of DRRS would be equivalent to and additive to the volume of Non-Spin already procured by ERCOT. Presumably, ERCOT signed off on the latter as part of the design for the Aurora study. We do not support NPRR1309 if it is only going to further exacerbate ERCOT’s excessive procurement of operating reserves and the resulting interference with effective price formation.
+
+4.  Reduce Non-Spin Duration Requirement to One Hour
+
+ERCOT has maintained that a 4-hour duration reserve product has been critical to maintaining reliability for a few events over the past few years, and until now, Non-Spin has served this function. Given that DRRS is specifically designed to manage uncertainty with a statutory 4-hour duration requirement, it will serve this function moving forward, thus replacing Non-Spin. As a result, we recommend that the implementation of DRRS should at the same time relax the duration requirement for Non-Spin from 4 hours to 1 hour.
+
+  -----------------------------------------------------------------------
+  Revised Cover Page Language
+
+  -----------------------------------------------------------------------
+
+None.
+
+  -----------------------------------------------------------------------
+  Revised Proposed Protocol Language
+
+  -----------------------------------------------------------------------
+
+None.

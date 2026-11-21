@@ -1,0 +1,313 @@
+Skip to main content
+
+[]
+
+Menu
+
+Topics
+
+Search
+
+Main Menu
+
+-   About
+-   Events
+-   All Stories
+-   States of Clean Energy Innovation
+    -   Alabama
+    -   Alaska
+    -   Arizona
+    -   Arkansas
+    -   California
+    -   Colorado
+    -   Connecticut
+    -   Delaware
+    -   District of Columbia
+    -   Florida
+    -   Georgia
+    -   Hawaii
+    -   Idaho
+    -   Illinois
+    -   Indiana
+    -   Iowa
+    -   Kansas
+    -   Kentucky
+    -   Louisiana
+    -   Maine
+    -   Maryland
+    -   Massachusetts
+    -   Michigan
+    -   Minnesota
+    -   Mississippi
+    -   Missouri
+    -   Montana
+    -   Nebraska
+    -   Nevada
+    -   New Hampshire
+    -   New Jersey
+    -   New Mexico
+    -   New York
+    -   North Carolina
+    -   North Dakota
+    -   Ohio
+    -   Oklahoma
+    -   Oregon
+    -   Pennsylvania
+    -   Puerto Rico
+    -   Rhode Island
+    -   South Carolina
+    -   South Dakota
+    -   Tennessee
+    -   Texas
+    -   Utah
+    -   Vermont
+    -   Virginia
+    -   Washington
+    -   West Virginia
+    -   Wisconsin
+    -   Wyoming
+-   All Collections
+    -   Meet The Forum Team
+    -   Financing and Deploying Clean Energy Policy Memos
+    -   Published Student Projects
+    -   Partner Resources
+    -   Decoding The Nexus of Climate, Data, and Energy
+    -   Explaining the Energy Evolution
+    -   Renewable Energy and Tax Equity, Explained
+    -   Community Solar's Complex Situation and Compelling Solution
+    -   The ABCs of PPAs
+    -   Pollinator-Friendly Solar
+    -   CBEYond the Moment - Climate-Smart Investment for the Challenges Ahead
+    -   Searching for a New Deal on Climate?
+    -   Building Blocks of Community Microgrids
+    -   Electricity Evolution
+-   Glossary
+-   Submit a Story Idea
+-   Contact
+
+Topics Menu
+
+-   Regions
+    -   Africa
+    -   Asia
+    -   Australia
+    -   Europe
+    -   North America
+    -   South America
+-   Finance
+    -   Blended instruments
+    -   Bonds
+    -   Credit rating
+    -   Emerging Markets
+    -   Green Banking
+    -   Insurance
+    -   Mergers & Aquisitions
+    -   PACE
+    -   Private equity
+    -   Project Finance
+    -   Public equity
+    -   Public finance
+    -   Tariffs
+    -   Tax equity
+    -   VC/PE
+-   Metrics
+    -   Case Study
+    -   Certificate Program
+    -   Conference
+    -   Data
+    -   Disclosures/ESG
+    -   Sales and marketing
+-   Energy Resources
+    -   Battery/Storage
+    -   Biofuels/Biomass
+    -   Community solar
+    -   Geothermal
+    -   Heat pumps
+    -   Hybrid projects
+    -   Hydro
+    -   Hydrogen
+    -   Nuclear/SMR
+    -   Ocean/Ocean thermal/tidal/wave
+    -   Offshore wind
+    -   Onshore wind
+    -   Solar
+-   Sectors
+    -   Commercial
+    -   Cooperatives
+    -   Corporate
+    -   Industrial
+    -   MUSH
+    -   National/state-owned
+    -   NGO/Nonprofit
+    -   Residential
+    -   Utility
+-   Policy
+    -   Carbon pricing
+    -   Deregulation
+    -   Market incentives
+    -   On-Bill Repayment
+    -   Procurement
+    -   Trade/Geopolitics
+    -   Wholesale market rules
+-   Supporting Structure
+    -   AI/Data Centers
+    -   Behavior
+    -   Carbon Capture and Storage (CCS)
+    -   Circular Economy
+    -   Critical Minerals
+    -   Decarbonization
+    -   Distributed Energy Resources
+    -   Emissions
+    -   Electrification
+    -   Emissions
+    -   Energy Access
+    -   Energy Efficiency
+    -   Fossil retirements
+    -   Housing/Buildings
+    -   Infrastructure
+    -   Innovation/Entrepreneurship
+    -   Land Use/Planning
+    -   Micro/mini grids
+    -   Supply Chain
+    -   Transmission/Distribution
+    -   Transportation
+
+Search
+
+Navigating Risk: A Corporate PPA Guide
+
+In Brief
+
+THIS IS PART OF OUR THREE-PART SERIES on the mechanics, potential scale and trends of power-purchase agreement (PPA) contracts.
+
+RISK EXISTS EVERYWHERE, AND HERE we address the growing concern that some newer corporate off-takers are underappreciating certain risks inherent to PPAs, including pricing risk and basis risk.
+
+HOW TO HEDGE RISK? WE DISCUSS methods by which PPAs can mitigate these risks, noting that there is no one-size-fits-all solution.
+ 
+
+The COVID-19 outbreak has shaken the renewable energy industry, imperiling up to 5 gigawatts of utility-scale solar projects in the United States that could miss key project deadlines due to construction delays, according to projections from Wood Mackenzie.  
+
+The pandemic has thrown into stark relief the risks facing corporations that have entered into long-term renewable power purchase agreements (PPAs).  Across the United States, renewable energy developers, like Developer Invenergy, the developer of a 300 megawatt project in Wisconsin, sent out notices of “force majeure,” citing supply chain disruptions and “stay at home” orders. PPA contracts typically have force majeure clauses, as this brief from a law firm explains, allowing parties to cease meeting contractual obligations during unforeseen events outside of reasonable control. 
+
+Force majeure risk, and other risks inherent to renewable corporate PPAs, are falling on companies with varying degrees of experience in energy markets. 
+
+While many of the largest global corporate renewable PPAs to date have been signed by large tech companies, there has been a growing range of companies looking to procure renewable energy as part of their sustainability goals. In the past year alone, renewable PPAs have been signed by entities ranging from the Sydney Opera House and a Polish beer brewer to Vassar College and a Chilean fishing company.  The fishing outfit made news with its deal in March, even as the Covid-19 crisis was freezing most of the world's business. With an increasingly diverse set of organizations seeking to enter into PPAs, some see a need for greater understanding of the risks inherent to energy markets. 
+
+In an interview with CEFF, Rachit Kansal, a Senior Associate at Rocky Mountain Institute, an environmental non-profit, explained, “the early adopters, the large companies that moved into this market have become sophisticated in understanding their risk and understanding their own constraints and appetites. However, the market has been broadening significantly, with a lot of a new corporates making commitments to renewables, with many having never completed a PPA transaction before.”
+
+Understanding Risk
+As covered in the first article, there are many reasons for a corporation, city, or non-profit to enter into a renewable electricity PPA. First, the contract allows the buying party to take credit for its use of additional renewable energy. To spell out how this works on carbon budgets, see the World Resources Institute's guidelines for communicating the GHG impact of renewable PPAs. Second, by entering into a long-term power purchasing contract, entities can take an “offsetting position” with respect to variable future electricity prices. For example, a data center in New York with a virtual PPA with a wind farm in Texas would be relatively shielded from electricity price swings in New York. However, as will be discussed below, a PPA should not be perceived as a guaranteed contract for lower electricity prices nor as a guaranteed hedge against rising electricity rates. 
+
+Kansal cautioned that corporations that are considering entering into their first PPA need to take a thoughtful approach to risk management. “One thing to keep in mind is that the corporate buyer market is very new, it’s really only taken off in the past four to five years, and there is a certain amount of information asymmetry between the project developers, who have a deep understanding of energy markets, and the newer potential corporate off-takers.” Kansal added that different approaches to risk management under PPAs will make sense for different off-takers, depending on the characteristics of the organization and their energy usage.
+
+Below, we introduce two key categories of risk, and conclude with several resources available for a more comprehensive view of risk mitigation strategies available to corporate off-takers. 
+
+Pricing Risk
+Pricing risk refers to volatility in wholesale market prices. In a typical virtual power purchase agreements (covered in our first article), the off-taker continues to pay the local utility for purchased electricity, while making fixed payments to the project company, and in return, collects the revenue generated from the project company’s wholesale of its renewable power to the grid (plus any RECs, etc). If, over the duration of the PPA contract, the cumulative revenue from wholesale power is higher than the cumulative PPA payments, the off-taker is considered to be “in the money” and is profiting from the agreement. However, swings in wholesale electricity prices can similarly make a PPA “out of the money” for the off-taker.
+
+Some PPA contracts include a price floor and ceiling to control pricing risk. With a price floor, the project company guarantees a minimum payment to the off-taker from the wholesale of electricity. An increasing number of corporates have sought protection from negative wholesale revenues with a $0 price floor for their PPAs. However, the use of price floors shift down-side price risk to the project company. As a result, project companies have been seeking higher PPA prices to compensate for their increased risk, according to 2019 survey data from LevelTen, a company that provides a marketplace for PPA buyers and sellers. 
+
+When wading into the energy procurement market, potential off-takers soliciting project bids will sort through models from competing project companies, forecasting what future wholesale electricity prices might look like. Given uncertainties around the speed and depth of power market changes (i.e. the extent to which renewables adoption will drive down wholesale market prices), potential off-takers should consider how a wide range of scenarios of wholesale market prices will impact their finances. 
+
+Basis Risk
+Related to pricing risk, a growing concern in the world of virtual PPAs is “basis risk,” which refers to the level of correlation between market prices facing the renewable energy project and the off-taker.
+
+The VPPA will successfully act as a hedge if market prices facing the project company (the “nodal price”) and the off-taker (the “retail price) are correlated and move together, as the revenue from the nodal wholesale power generation under the VPPA shields the off-taker from exposure to moving retail electricity prices. However, the off-taker can end up paying more under the VPPA if, for example, nodal prices fall relative to the retail price. This uncorrelated price movement is known as “basis risk.”
+
+The potential impact of basis risk under VPPAs in the renewable energy industry may only become more severe as renewable power projects of a single type are increasingly built out in areas with high wind or solar resources. Spikes of renewable electricity generation on a particularly windy or sunny day can lead to grid congestion, driving the nodal price of electricity down. This is of particular concern in areas like Southeastern California, or northwestern Texas, where high concentrations of solar or wind have regularly driven prices below zero. 
+
+VPPA off-taker have several paths available to them to mitigate basis risk. First, off-takers can ask that PPA payments be settled at market hubs instead of at the project nodes. Hubs are regional aggregations of hundreds or thousands of nodes, and are thus less volatile, though they still may not be perfectly correlated with the retail price facing the off-taker. Settling at the hub has increasingly become the norm for large corporate off-taking agreements. However, by introducing price floors or by settling at the hub, the node-to-hub basis risk will fall on the project company, who will then seek to be compensated with a higher PPA price. (Off-takers can also use a price floor and ceiling as another means to reduce basis risk, as it will also limit overall price variation.)
+
+It is important to note that both of these strategies do not change the underlying basis risk of the project, but rather shift some of the risk onto the project company. One way to actually change the underlying basis risk of the project would be to pair solar or wind with storage. A project with storage could shift the sale of wholesale electricity to times of the day with lower congestion, thereby reducing the project’s exposure to volatile nodal prices. 
+
+Depending on the characteristics of the project and the corporate off-taker’s energy needs, different risk mitigation strategies will be less or more appropriate. For example, an electricity-intensive manufacturing company concerned about variable electricity prices might be more inclined to pursue a PPA with a price floor and collar. Akamai Technologies, a cloud services company, reportedly secured a price floor with their 7 MW wind project in Texas. (The RMI scenarios report considers this.) However, for smaller companies with more limited energy footprints and reduced needs for price hedging, the benefits of reduced basis risk might not be worth the difficulties of negotiating a price floor and collar.
+
+More Resources on PPA Risk Mitigation
+Other risks facing entities entering into power purchasing agreements include:
+
+Shape Risk: Shape risk refers to the variable amount of power generated at different times (and at different prices). Companies with electricity usage spread out throughout the day and night (like a data center company) that are looking for a PPA to serve as a hedge against variable retail electricity prices might be concerned about the shape of the power generation under the PPA not matching the shape of their own electricity consumption.
+
+Volume Risk:  Volume risk refers to the uncertain output of electricity generated by a variable renewable energy project. Volume risk could be of particular concern to a carbon-intensive off-taking company seeking RECs to meet regulatory requirements, as prolonged lack of wind or sunshine, for example, could lead to a renewable energy project producing less than its contracted amount.
+
+Operational Risk: Operational risk includes a range of risks impacting the performance of the power generating project, including curtailment, equipment malfunctions, and non-availability (i.e. forced downtime). 
+
+There are several resources available for a more comprehensive dive into PPA risks and risk management strategies, including those we've linked in this article. The concluding piece in this series explores innovations in PPAs' shape and size for the bumpy era we've entered. 
+
+Fri, Apr 24 2020
+
+Noah Lerner
+
+Topics
+
+Policy
+
+-   Procurement
+
+Sectors
+
+-   Utility
+
+Finance
+
+-   Project Finance
+
+Related Articles
+
+Inside the Hunterston Close: How a 400 MW Battery Got Financed Without a Single Buyer
+
+October 27, 2026
+
+The Bottleneck Stalling Clean Power
+
+September 23, 2026
+
+Two Revenues from One Well: How Co-Production Is Rewriting Geothermal’s Risk
+
+August 19, 2026
+
+Follow the Money: How a Solar-Plus-Storage Project Actually Gets Financed
+
+August 10, 2026
+
+From Fuel Risk to Financing Risk: How Oil Shocks Are Reshaping Energy Capital
+
+August 10, 2026
+
+Sign up for our Monthly Newsletter to keep up to date on our latest stories
+
+Main Menu
+
+-   About
+-   Events
+-   All Stories
+-   States of Clean Energy Innovation
+-   All Collections
+-   Glossary
+-   Submit a Story Idea
+-   Contact
+
+Topics Menu
+
+-   Regions
+-   Finance
+-   Metrics
+-   Energy Resources
+-   Sectors
+-   Policy
+-   Supporting Structure
+
+Footer Menu
+
+-   About
+-   Geting Started
+-   Search
+-   Contact Us
+-   Submit a Story Idea
+
+Social Menu
+
+-   
+-   
+-   
+
+© Copyright 2026. All rights reserved.

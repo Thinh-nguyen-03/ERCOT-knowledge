@@ -1,0 +1,33 @@
+ERCOT Load Profiling Guide
+
+Section 6: Load Profiling Methodology
+
+November 1, 2016
+
+6 LOAD PROFILING METHODOLOGY 6-1
+
+ LOAD PROFILING METHODOLOGY
+
+(1) Any changes to the Load Profiling Methodology shall be submitted as a Load Profiling Guide Revision Request (LPGRR) as described in Section 2.4, Load Profiling Guide Revision Procedure. There shall be no retroactive application of any approved modifications to Load Profiling Methodology.
+
+6.1 Current Methodologies
+
+(1) The following methodologies are used to establish Load Profiles:
+
+  ------------------------------------------------------- --------------------------------------------------
+  Type of Load                                            Load Profiling Methodology
+
+  Non-Price-Responsive                                    
+
+  Non-interval metered                                    Adjusted Static Models
+
+  Non-interval metered with Distributed Generation (DG)   Adjusted Static Models and Engineering Estimates
+
+  Non-metered                                             Engineering Estimates
+
+  Interval Data Recorder (IDR) (Estimation)               Proxy day
+
+  Price-Responsive                                        
+
+  Other price-responsive                                  To be determined
+  ------------------------------------------------------- --------------------------------------------------

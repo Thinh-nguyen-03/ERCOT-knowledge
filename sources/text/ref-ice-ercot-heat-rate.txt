@@ -1,0 +1,59 @@
+ICE OTC
+November 21, 2026
+
+ERCOT Panhandle Heat Rate 345kV Hub Off-Peak
+
+Contract Specifications
+
+Contract Symbol
+
+B09
+
+Contract Size
+
+50 MW per hour
+
+Currency
+
+US $ and cents per MWH
+
+Minimum Price Fluctuation
+
+0.001 per MMBTU/MWh
+
+Listing Cycle
+
+Up to 72 consecutive monthly Contract Periods
+
+Schedule
+
+All off-peak hours for the applicable strip length referenced by the market for
+hours ending 0100-0600, 2300 and 2400 on business days and for hours
+ending 0100-2400 on weekends and NERC holidays in the central (""CPT"")
+prevailing time zone.
+
+Last Trading Day
+
+The second to last business day of the month prior to the delivery month.
+
+Daily Settlement
+
+Daily settlement will be determined by NGX using price data from a number
+of sources including, spot, forward and derivative markets for both physical
+and financial products
+
+Final Settlement
+
+Final settlement will be determined by multiplying the actual heat rate
+entered into at the time of the transaction by the NYMEX Last Day
+Settlement Price for the relevant delivery month.
+
+Payment Dates
+
+Payment due on the 20th of the month following the Delivery Period by wire
+transfer of Federal Funds, unless otherwise stated by a master agreement
+between the Buyer and Seller.
+
+ICE Help Desk: Atlanta + 1 770 738 2101, London + 44 (0)20 7488 5100 or ICEHelpdesk@ice.com
+
+

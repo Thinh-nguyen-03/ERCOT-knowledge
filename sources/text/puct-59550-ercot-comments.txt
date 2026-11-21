@@ -1,0 +1,587 @@
+PUBL~ 4
+
+~* TEX>~
+Filing Receipt
+Filed Date - 2026-09-17 02:06:06 PM
+
+Control Number - 59550
+Item Number - 7
+
+PROJECT NO. 59550
+
+QUINQUENNIAL
+REVIEW OF
+SYSTEM-WIDE OFFER CAP
+PROGRAMS UNDER 16 TAC
+
+§ 25.509(d)
+
+§§
+
+PUBLIC UTILITY COMMISSION
+
+O
+
+OF TEXAS
+
+§
+
+ERCOT COMMENTS IN RESPONSE TO COMMISSION STAFF QUESTIONS
+Electric Reliability Council of Texas, Inc. (ERCOT) files these comments in response to
+
+the Public Utility Commission of Texas (Commission) Staff' s Questions for Comment filed on
+August 20,2026. The deadline to file comments is September 17,2026, therefore these comments
+are timely filed. An executive summary is included as the last page to this filing.
+I.
+
+COMMENTS TO QUESTIONS
+
+Pursuant to 16 Texas Administrative Code (TAC) § 25.509(d), the Commission is required
+
+to "review each of the system-wide offer cap programs to determine whether to update aspects of
+each program." This proceeding initiates the first such review and subsequent reviews are to be
+
+performed quinquennially (i.e., every five years) hereafter.
+ERCOT agrees that it is appropriate to evaluate such programs on this cadence given the
+continuing changes in the ERCOT Region in order to ensure that the values and formula settings
+
+of these programs are set at the appropriate levels to achieve their intended purposes. ERCOT
+
+here provides initial responses to Commission Staff' s Questions and looks forward to continuing
+to engage with stakeholders and the Commission as this review proceeds.
+A. Ouestion 1(a): Scarcity Pricing Mechanism (SPM). The current Low System-Wide
+Offer Cap (LCAP) is $2,000 per MWh for energy offers and $2,000 per MW per hour
+for ancillary service (AS) offers. The current High System-Wide Offer Cap (HCAP)
+is $5,000 per MWh for energy offers and $5,000 per MW per hour for ancillary
+service offers. Do either of these values need to be updated? Why?
+ERCOT does not have a position at this time whether the LCAP and HCAP should be
+
+changed but supports the performance of a holistic evaluation of whether those offer caps should
+be updated. If the results ofthe Triennial Reliability Assessment indicate that reliability standard
+
+of 16 TAC § 25.508 for the ERCOT Region is not being met, ERCOT intends to provide
+recommendations in Project No. 58777 for market design changes and would evaluate the HCAP
+
+1 of 11
+
+and LCAP as part of its due diligence for such market design recommendations. 1 The current
+
+values were implemented in 2021 and based on the significant changes to both the ERCOT market,
+such as the implementation ofthe Emergency Pricing Program (EPP), Real-Time Co-optimization
+
+Plus Batteries (RTC+B), and new Ancillary Services and reliability services, and to the grid, with
+the changes to the Resource portfolio mix and shifting peak demand times, an update may be
+
+merited depending on the results of the holistic evaluation.
+ERCOT recommends that any changes that are contemplated for the HCAP in either the
+Day-Ahead Market (DAM) or the Real-Time Market (RTM) should be considered jointly with the
+
+Value of Lost Load (VOLL) used for scarcity pricing. Currently, the effective VOLL used for
+
+scarcity pricing is set equal to the System-Wide Offer Cap (SWCAP).
+If a rulemaking is initiated to amend 16 TAC § 25.509, ERCOT would recommend that
+
+the sentence in subsection (b)(6)(D) referring to the Operating Reserve Demand Curve (ORDC)
+be amended to remove that reference. With the launch of RTC+B on December 5,2025, the
+
+ORDC is no longer used in the ERCOT market. Accordingly, that reference is appropriate for
+
+deletion:
+"(D)
+
+If the peaker net margin exceeds the threshold established in subparagraph
+
+(C) of this paragraph during a calendar year, the system-wide offer cap will
+be set to the LCAP for the remainder of that calendar year. In this event,
+ERCOT will continue to apply the operating reserve demand curve and the
+
+reliability deployment price adder for the remainder of that calendar year.
+Energy prices, exclusive of congestion prices, will not exceed the LCAP
+
+plus $1 for the remainder ofthat calendar year."
+B. Ouestion 1(b): With the implementation of RTC+B, there is a difference between the
+day ahead (DAM) and real-time (RTM) system offer caps for both energy and AS.
+The DAM offer cap is $5,000 per MWh per hour, and the RTM offer cap is
+$2,000/MWh. Should this difference continue? Why?
+
+ERCOT recommends that the current approach, in which the SWCAP in RTM is set at
+$2,000 and the SWCAP in DAM is set at the effective VOLL, be maintained. The use of different
+offer caps for DAM and RTM was a deliberate design decision reflected in design principles for
+
+RTC+B.2 Given the voluntary nature of DAM (willing buyer and willing seller) and the lack of
+
+1 See generally, Triennial Reliability Assessmentfor the ERCOT Region under § 25 . 508, Project No . 58777 .
+2 See RTC+B Key Principle (KP) 1.2 - System-Wide Offer Cap and Power Balance Penalty Price, described
+in the ERCOT presentation RefPesher on Real-Time Co-optimization Key Principles at slide 11 (Sept. 8, 2023),
+available on the ERCOT website at: https://www.ercot.com/files/docs/2023/09/01/2_refresher-on-real-time-co-
+
+optimization-key-principles-rtcbtf-090823_v2.pptx.
+
+2ofll
+
+a power balance penalty curve in market clearing, there was a concern that if a QSE expected
+scarcity conditions in Real-Time they could not reflect this in DAM bids and offers. In the RTM,
+the energy component of Locational Marginal Prices (LMPs) can exceed $2,000 due to the
+
+Ancillary Service Demand Curves (ASDCs). Allowing QSEs to submit higher energy bids into
+the DAM allows Market Participants to more effectively hedge when they expect scarcity
+conditions in Real-Time.
+Beyond the ability to hedge and indicate anticipated high-pricing days in the RTM, the
+
+DAM and RTM differential also has a fundamental role as the single most important control on
+uncollateralizeable credit exposure in the market. The reason lies in where credit constraints can
+
+and cannot bind. A Market Participant can be shut out of the DAM when it exhausts its available
+credit limit, so Day-Ahead exposure is inherently credit-constrained. Real-Time exposure is not:
+
+an LSE remains exposed to Real-Time settlement regardless of price and cannot be "locked out"
+
+of serving its load. The SWCAP in the RTM accordingly acts as the ceiling on the exposure that
+
+ERCOT cannot prevent through ordinary credit administration and that, in a default, would be
+uplifted to the market. Keeping the SWCAP for RTM at $2,000 with a DAM SWCAP of VOLL
+
+concentrates the higher price ceiling in the market segment where credit limits can bind and holds
+down the ceiling in the segment where they cannot. Converging the two caps upward would raise
+the uncollateralizable Real-Time exposure by up to 150% (see Table 1, which relates to a stress-
+
+testing framework currently being developed by ERCOT that is further described in response to
+
+Question 4 below) and undo a core post-Winter Storm (WS) Uri protection. Therefore, this is
+another reason that ERCOT recommends that a difference between the DAM and RTM SWCAPs
+
+be maintained.
+Table 1: Sensitivity of exposure to the Real-Time SWCAP (using example 96-hour scarcity event)
+RTM SWCAP ($/MWh)
+
+Exposure per MW of RTM-
+
+Change vs. current RTM SWCAP
+
+exposed load (96-hour event)
+$2,000 (current)
+
+$192,000
+
+-
+
+$3,500
+
+$336,000
+
++75%
+
+$5,000 (= current DAM SWCAP)
+
+$480,000
+
++150%
+
+$9,000 (pre-WS Uri SWCAP)
+
+$864,000
+
++350%
+
+3 ofll
+
+C. Ouestion 1(c): Should any of the scarcity pricing mechanism features listed below be
+modified? Why? i. Peaker net margin calculation; ii. LCAP trigger threshold; and iii.
+Reimbursement for operating losses when the LCAP is in effect.
+At this time, ERCOT does not have a position on whether modifications should be
+
+considered to the Peaker Net Margin (PNM) calculation, LCAP trigger threshold, or
+reimbursement for operating losses when LCAP is in effect. ERCOT intends to consider these as
+part of its due diligence prior to recommending market design changes, if any, in the Triennial
+
+Reliability Assessment process.
+In regard to the credit risk impact of the PNM calculation and the LCAP trigger threshold,
+
+note that both function as levers on the duration input to market credit exposure. A trigger design
+that causes the LCAP to engage sooner, or a PNM construction that shortens the interval of highest
+
+prices, reduces the duration term and therefore reduces market stress for credit exposure; the
+converse would increase it. ERCOT recommends that if a change to either is considered that any
+
+such change be evaluated for its effect on scarcity duration in addition to its effect on pricing.
+Cost of New Entry (CONE) is a key component of the PNM calculation. Note that the
+CONE for planning purposes is currently distinct from the CONE for PNM calculation purposes.
+A CONE value of $105 per kilowatt year (kW-year) is used to calculate PNM.3 Following a study
+performed by The Brattle Group (Brattle) in 2024, CONE for planning purposes was set to $140
+
+per kilowatt year (kW-year).4 Brattle is currently concluding a CONE study to update that value
+for planning purposes in association with the Triennial Reliability Assessment. 5 Because the
+
+PNM-related CONE value of $105 per kW-year is now dated at more than a decade old and
+because the same factors that led to the increase in the planning CONE also affect the PNM,
+
+ERCOT recommends that the Commission should reevaluate the value of CONE used to calculate
+the PNM threshold. Because gas-fired Generation Resources currently represent approximately
+
+37.5% of installed capacity in the ERCOT Region and are likely to remain at approximately this
+
+level for at least the medium term, the Commission may wish to consider whether generation
+3 See ERCOT Protocols § 4.4.11(1)(f) (the establishment of the PNM threshold at $315,000 per megawatt
+year implies a CONE of $105,000 per megawatt year, i.e., $105 per kilowatt year).
+
+4 See generally, Reliability Standardfor the ERCOTMarket,ProjectNo. 58584,-Brattle CONE Study Report
+and Model (July 18, 2024). The Commission established the CONE value of $140 per kW-year for planning purposes
+at the July 25,2024 Open Meeting discussion of Project No. 58584.
+
+5 See Triennial Reliability Assessment for the ERCOT Region under § 25. 508, Project No . 58777 , ERCOT ' s
+Final Recommendation of Modeling Assumptions and CONE Study for the 2026 Reliability Assessment at 4-5 (Mar.
+23,2026) (detailing the 2026 CONE study).
+
+4ofll
+
+technologies other than an aeroderivative combustion turbine should also be reflected in CONE
+for PNM purposes. This could be accomplished via a blended technology study approach to
+
+incorporate both gas and non-gas generation development values into a single CONE value. If the
+Commission chooses to do so, ERCOT stands ready to support by studying the impacts of such
+
+changes.
+In regard to reimbursement for operating losses while the LCAP is in effect, ERCOT
+supports retaining a mechanism that avoids penalizing units that run at a loss when the LCAP is in
+
+effect, as removal ofthis framework could discourage availability precisely when scarcity is most
+
+acute.
+D. Ouestion 2: Emergency Pricing Program (EPP). (a) Since its adoption in December
+2023, ERCOT has never activated the EPP. Should any of the EPP features listed
+below be modified? Why? i. The activation trigger for EPP; ii. The Emergency Offer
+Cap; iii. The duration of the EPP; iv. The market notice specifications; v. The
+reimbursement for costs that exceed the ECAP; and vi. The reporting requirements
+after the EPP has been activated.
+The EPP is a relatively new program which was required to be established following WS
+
+Uri by Public Utility Regulatory Act6 (PURA) § 39.160.7 It is a circuit breaker mechanism to
+
+ensure that wholesale electric prices do not remain at the HCAP for an extended period of time
+during the circumstances specified by the program. In December 2023 in Project No. 54585, the
+
+Commission adopted regulations governing the EPP in 16 TAC § 25.509(c), which became
+effective immediately. 8
+
+ERCOT subsequently sponsored Nodal Protocols Revision Request
+
+(NPRR) 1216, Other Binding Document Revision Request (OBDRR) 051, and Verifiable Cost
+Manual Revision Request (VCMRR) 039 in the ERCOT stakeholder committee process to
+incorporate the EPP into ERCOT's rules and systems. 9 The Commission approved these Revision
+
+Requests on September 26,2024 and ERCOT implemented Phase 1 of these Revision Requests
+on December 5,2025. Phase 2 is in the queue for future implementation.
+
+The conditions required by PURA § 39.160 and 16 TAC § 25.509(d) to trigger activation
+of the EPP have not occurred since the adoption of the program and therefore the EPP has yet to
+6 Public Utility Regulatory Act, TEx. Um. CoDE §§ 11.001-66.066 (PURA)
+
+7 PURA § 39.160 was established by Senate Bill 3 § 18 (87th Leg., R. S., 2021).
+8 Emergency Pricing Program, Project No. 54585, Order Adopting Amendments to 16 TAC §25.509 (Dec.
+
+1,2023).
+9 ERCOT posted these Revision Requests on January 23,2024.
+
+5 ofll
+
+be used in the ERCOT market. Because that trigger is established by statute in PURA §39.160(b),
+changing the EPP trigger to activate more or less frequently under different conditions would
+
+require new legislation. ERCOT does not have a position at this time regarding whether such a
+change may be merited. From a credit risk perspective, a trigger that is easier to meet would result
+in an increased number of EPP-priced hours and accordingly would decrease market credit
+
+exposure, while a trigger that is harder to meet would increase market credit exposure.
+In regard to any of the other potential changes considered by Question Nos. 2(a)(ii)-(vi), it
+may be premature to change any of those EPP requirements at this juncture given that use of the
+
+EPP has not yet occurred. For that reason, ERCOT recommends that those EPP requirements be
+
+maintained as is and reconsidered during the next quinquennial review under 16 TAC § 25.509(d).
+If changes are considered to the value of the Emergency Offer Cap (ECAP), note that from
+a credit perspective raising the ECAP increases the price parameter of market exposure
+proportionally, as indicated in Table 1 above. For that reason, if the ECAP were to be increased,
+
+the Commission may wish to consider a recalibration of collateral requirements in parallel.
+If changes to the duration ofthe EPP were to be considered, note that lengthening the EPP's
+
+effectiveness window would increase the duration parameter of a market credit exposure
+calculation under ERCOT's pending stress-testing framework, as shown in Table 2 below (further
+
+described in response to Question 4 below). Accordingly, the duration should be no longer than
+
+necessary to preserve the desired incentives.
+Table 2: Sensitivity of exposure to the duration of scarcity (at the current ECAP).
+Exposure per MW of EPP-exposed load (at
+$2,000/MWh)
+
+Duration of sustained scarcity
+
+2 days (48 hours)
+
+$96,000
+
+4 days (96 hours)
+
+$192,000
+
+6 days (144 hours)
+
+$288,000
+
+7 days (168 hours - WS Uri-scale)
+
+$336,000
+
+6ofll
+
+E. Ouestion 3: How should the Ancillary Service Demand Curves (ASDC) be modified
+to better rellect scarcity and improve economic efficiency?
+The ASDCs were implemented as part of the launch of RTC+B beginning December 5,
+
+2025.10 In accordance with a prior Commission directive, the ASDCs in RTC+B were designed
+to replicate the pricing outcomes of the ORDC.11 At the August 20,2026 Open Meeting during
+
+discussion
+
+of Project No.
+
+34677, the Commission
+
+agreed with Commission
+
+Staff' s
+
+recommendation that the underlying design of ASDCs is no longer required to adhere to the prior
+directive. 12 Accordingly, ERCOT understands that alterations to the ASDCs may be considered.
+ERCOT's forthcoming biennial report on the ORDC performed pursuant to 16 TAC
+
+§ 25.505(e) will also analyze the efficacy, utilization, related costs, and contribution ofthe ASDCs
+so far to grid reliability in the ERCOT Region. ERCOT's report will likely support the need to
+
+review and alter the ASDCs' design. ERCOT looks forward to working with stakeholders, the
+
+Independent Market Monitor (IMM), and Commission Staff to evaluate potential changes to the
+
+ASDCs.
+
+F. Ouestion 4: What credit risk concerns should the Commission consider if either the
+SPM or the EPP were to be adjusted, and how should existing credit obligations be
+
+recalibrated in response?
+As explained in the responses above, the SWCAP programs are not only price-formation
+
+and reliability instruments but are also the primary inputs that determine market-wide credit
+
+exposure and accordingly the collateral that the market must carry to absorb a severe system
+scarcity event. Raising the SWCAP or ECAP, or constricting the EPP's trigger or duration, would
+inherently and proportionally increase market-wide financial stress exposure. This is not a matter
+
+of forecast or judgment; it follows mechanically from how scarcity-priced exposure accrues and
+from how ERCOT's stress-testing framework (currently under development and described further
+below) measures it. For that reason, any change to price or offer caps or the duration of such
+
+10 ERCOT Protocols § 2.1 defines Ancillary Service Demand Curve as: "A curve that reflects the value of
+each Ancillary Service product by price/quantity pairs for each hour of the Operating Day."
+
+11 See Review of Real-Time Co-optimization in the ERCOT Market, Project No. 48540, Memorandum of
+Chair Walker at 2 (June 26, 2019).
+
+12 See Reports of the Independent Market Monitor for the ERCOT Region, Project No . 34677 , Commission
+Staff Memorandum (Aug. 21, 2026) (memorializing the Commission's discussion at the August 20, 2026 Open
+Meeting).
+
+7ofll
+
+programs should include a companion credit-exposure impact study and consideration of
+concurrent recalibration of existing credit obligations.
+ERCOT is working with an outside consultant to develop a stress-testing framework whose
+purpose is to identify, measure, and mitigate potential default risk before it materializes. ERCOT
+
+has discussed at the Technical Advisory Committee's Credit Finance Subgroup (CFSG) that
+
+development of this stress-testing framework is underway and plans to present the framework to
+stakeholders upon completion. After advancing the framework through CFSG, ERCOT plans to
+incorporate the process into the ERCOT Protocols in an NPRR. The framework measures each
+Market Participant' s potential exposure in a severe scarcity event and compares it against that
+Participant' s available liquidity and capital.
+
+The measurement is centered on the concept that
+
+financial exposure at default is a function of volume, price, and duration . 1_n this proceeding ,
+the Commission is reviewing two ofthose parameters: price and duration. In the framework, price
+is bounded by the applicable offer cap: HCAP, LCAP, or ECAP. The framework treats duration
+
+as the number of hours that scarcity pricing persists, which is shaped by the trigger design of the
+SPM and by the effectiveness window of the EPP when activated. The framework' s price and
+duration assumptions are taken from the EPP-pricing scenario and applied across Market
+Participants.
+
+The third framework parameter, volume, is the Market Participant-specific
+
+characteristic ofthe amount of load exposed to the RTM.
+Because exposure scales linearly with both price and duration, any increase in a cap or in
+the EPP's duration window flows through to exposure with no offsetting mechanism. The
+
+framework then measures resilience with an exposure coverage ratio:
+Exposure Coverage Ratio = Available Liquidity + Potential Exposure.
+Available liquidity is effectively fixed in the days surrounding a system stress event.
+Raising the cap or extending the EPP duration therefore increases the denominator (i.e., potential
+exposure) while the numerator (i.e., available liquidity) holds constant. Every affected Market
+Participant' s coverage ratio falls, more Market Participants cross below the framework' s high-risk
+
+threshold, and the aggregate stress exposure that the ERCOT market must be prepared to absorb
+rises. The mitigation required-collateral or potentially credit insurance-is itself a function of
+exposure at default, so it rises in lockstep. This is the sense in which a change to the caps or the
+EPP duration increases financial stress exposure inherently and proportionally, as previously
+
+stated.
+
+8ofll
+
+Tables 1 and 2 illustrate this linkage using an illustrative scarcity window offour days (i.e.,
+
+96 hours), which is in line with the approximately 104-hour emergency period experienced during
+WS Uri. The amounts are per megawatt of Real-Time-exposed load and are provided to show
+proportionality, not to forecast any particular Market Participant' s exposure. These make clear
+
+that at the current $2,000 SWCAP in the RTM, a four-day event accrues roughly $192,000 of
+exposure per exposed megawatt, converging the RTM SWCAP upward to the $5,000 DAM
+
+SWCAP level, which would raise that to approximately $480,000, a 150% increase, before any
+change in Market Participant behavior. Extending the EPP duration window produces the same
+
+proportional effect through the duration term. Neither lever is offset elsewhere in the market
+
+design, which is why the credit impact is inherent rather than contingent.
+ERCOT recommends that the Commission incorporate the stress-testing framework and
+credit-related ERCOT Protocols, including Protocols § 16.11 and the Total Potential Exposure
+
+(TPE) calculation, as a companion consideration of any SWCAP program change contemplated in
+the quinquennial review.
+
+This will ensure that price-formation and credit-risk decisions are
+
+considered together rather than in separate proceedings.
+
+The outputs of the stress-testing
+
+framework-including an annual, publicly available stress-testing results report-would provide
+the Commission and ERCOT market stakeholders a recurring, quantified view of how the offer
+cap and EPP settings translate into credit exposure over time.
+
+G. Ouestion 5: Are there any other topics the Commission should consider as part of this
+evaluation?
+ERCOT does not have any other topics to raise as part of this evaluation at this time.
+II.
+
+CONCLUSION
+
+ERCOT appreciates the Commission' s consideration of these comments and would be
+
+pleased to provide any additional information that the Commission may request.
+
+9ofll
+
+Dated: September 17, 2026
+
+Respectfully submitted,
+
+/s/ Matthew Arth
+Chad V. Seely
+SVP Regulatory Policy, General Counsel, and
+Chief Compliance Officer
+Texas Bar No. 24037466
+(512) 225-7035 (Phone)
+chad.seely@ercot.com
+Brandon Gleason
+Vice President, Legal and Compliance
+Texas Bar No. 24038679
+(512) 275-7442 (Phone)
+brandon.gleason@ercot.com
+Matthew A. Anh
+Managing Assistant General Counsel
+Texas Bar No. 24090806
+(512) 275-7435 (Phone)
+
+matthew. anh@ercot.com
+
+ERCOT
+8000 Metropolis Drive, Bldg. E, Suite 100
+Austin, Texas 78744
+(512) 225-7079 (Fax)
+
+ATTORNEYS FOR ELECTRIC RELIABILITY
+COUNCIL OF TEXAS, INC.
+
+10ofll
+
+PROJECT NO. 59550
+
+QUINQUENNIAL
+REVIEW OF
+SYSTEM-WIDE OFFER CAP
+PROGRAMS UNDER 16 TAC
+
+§ 25.509(d)
+
+§§
+§
+
+PUBLIC UTILITY COMMISSION
+OF TEXAS
+
+ERCOT COMMENTS IN RESPONSE TO COMMISSION STAFF QUESTIONS
+•
+
+ERCOT supports the need to reevaluate the System-Wide Offer Cap (SWCAP) programs,
+including the Scarcity Pricing Mechanism (SPM) and Emergency Pricing Program (EPP),
+
+on a five-year cadence.
+•
+
+Question 1(a): ERCOT supports the need to perform a holistic evaluation of the SPM,
+
+including the values of the Low System-Wide Offer Cap (LCAP) and High System-Wide
+Offer Cap (HCAP). ERCOT anticipates considering this as part of its due diligence in the
+Triennial Reliability Assessment.
+
+o
+
+ERCOT also recommends that the reference to the Operating Reserve Demand
+
+Curve (ORDC) in 16 Tex. Admin. Code § 25.509(b)(6)(D) be struck as obsolete.
+
+•
+
+Question 1(b): ERCOT strongly recommends that a higher SWCAP be maintained for the
+Day-Ahead Market (DAM) than the SWCAP ofthe Real-Time Market (RTM).
+
+•
+
+Question 1(c): ERCOT recommends that the Cost ofNew Entry (CONE) used to calculate
+
+the Peaker Net Margin (PNM) threshold should be reevaluated.
+•
+
+Question 2: Because the EPP has not yet been activated, ERCOT recommends that the
+current EPP program parameters be maintained until the next quinquennial review.
+
+•
+
+Question 3: ERCOT understands that the Ancillary Service Demand Curves (ASDCs) are
+no longer required to replicate the pricing outcomes of the ORDC and looks forward to
+
+working with the Commission and stakeholders to evaluate potential changes.
+•
+
+Question 4: Changes to the SPM or EPP inherently and proportionally impact financial
+
+stress exposure in the ERCOT market. ERCOT is developing a financial stress-testing
+
+framework and recommends that, once developed, such framework be incorporated into
+the consideration process for future changes to SWCAP programs.
+
+11 ofll
+
+

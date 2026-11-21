@@ -1,0 +1,447 @@
+[]
+
+Why Montel
+
+[]
+
+Why Montel?
+
+Europe's leading source of energy  market intelligence.
+
+See what sets us apart 
+
+[]
+
+About us
+
+Independent and trusted, with 30+ years of market experience.
+
+Discover our story
+
+[]
+
+Contact us
+
+Energy intelligence, combined with a human touch.
+
+Speak to our experts
+
+Solutions
+
+Market insights
+
+What’s happening in the market
+
+News
+
+Live news, newsletters & podcast
+
+Market data and prices
+
+Power, gas, LNG & commodity prices
+
+Market fundamentals
+
+Price drivers & market context
+
+Carbon & environmental
+
+Carbon prices, emissions and renewables
+
+Forecasting & analytics
+
+What's likely to happen next
+
+Live & intraday
+
+Balancing, ancillary services, weather
+
+Short-term
+
+Demand, generation & market forecasts
+
+Medium-term
+
+Fuels, hydrology & market fundamentals
+
+Long-term
+
+Scenario modelling to 2060
+
+Historical data
+
+30+ years of prices & fundamentals
+
+Decision support
+
+How to move ahead
+
+Asset valuation
+
+Portfolio valuation & asset analytics
+
+BESS & PPAs
+
+Battery revenues & PPA pricing
+
+Market exposure
+
+Price risk & scenario modelling
+
+Powered by:
+
+Montel Market
+
+EnAppSys
+
+Energy Quantified
+
+Syspower
+
+Montel Gas
+
+Montel Value
+
+Insights
+
+Insights
+
+Learn from Montel’s market experts
+
+Commentary
+
+Expert insight on what moved the market
+
+Energy blog
+
+Analysis and explainers
+
+Reports, ebooks and whitepapers
+
+Analysis, guides and energy research
+
+Case studies
+
+How energy companies work with Montel
+
+Podcasts
+
+Listen to Montel analysts and guests
+
+Webinar recordings
+
+Past expert briefings on demand
+
+[]
+
+EEG 2027: what will change for solar and wind projects?
+
+Germany's updated renewable energy act introduces significant reforms for project financing and grid access.
+
+[]
+
+Josephine Steppat
+
+Analyst at Montel
+
+Events
+
+Events
+
+Meet, learn and connect with experts
+
+Conferences
+
+In-person events across Europe
+
+Webinars
+
+Live expert briefings on energy markets
+
+Courses
+
+Energy market training led by experts
+
+[]
+
+10 March 2027
+
+Danish Energy Day 2027
+
+We are delighted to invite you to join us in Aarhus on 10 March for the Danish Energy Day 2027.
+
+Centralværkstedet, Aarhus
+
+Login
+
+Montel Markets
+
+EnAppSys
+
+Energy Quantified
+
+Syspower
+
+Sign up for free trial
+
+Blog
+
+How to optimise generation portfolios across spot and forward power markets
+
+0%
+
+The writer
+
+[]
+
+Abi Grogan
+
+Freelance Writer
+
+Topics
+
+Risk Management
+
+Power market
+
+Energy Prices
+
+Share
+
+[Facebook] [LinkedIn]
+
+[]
+
+Track key market spreads to optimise your energy trading strategy
+
+Explore Montel Analytics
+
+How to optimise generation portfolios across spot and forward power markets
+
+Power producers and portfolio managers can capture value across different time horizons, including spot, intraday, and forward, by balancing physical generation, market positions, and risk appetite. The relationship between risk and flexibility is a nuanced, but important one for the renewable energy market. This is why it&#039;s key that market participants can understand and shape the relationship between physical output, forward hedges, and real-time optimisation.
+
+November 18, 2025
+
+[]
+
+Jump to section
+
+Knowing when and why energy is generated in advance of a trade can help traders create more profitable deals. In an energy market as unpredictable as renewable energy, flexibility and forecasting can underpin profitability, which is why having access to generation data is key. Skilled traders can effectively translate generation data and market signals into actionable trading and hedging strategies, thereby reducing risk and potentially increasing profits.
+
+It's crucial that portfolio managers, trading desk leads, market analysts and optimisation engineers can identify and balance energy portfolios across different spot and forward markets. This blog outlines the tools and analytics needed, as well as best practices, to effectively manage generation portfolios.
+
+Understanding spot and forward market dynamics
+
+Different energy markets feature varying timeframes, ranging from years to real-time, which allow market participants to make decisions that can reduce risk or enhance stability.
+
+Overview of timeframes
+
+Forward markets feature timeframes that span months or years, making them most suitable for large volumes of traded energy. Day-ahead is more flexible, featuring oversight the day before the energy is delivered, which is more volatile than the forward market but less volatile than intraday, allowing trading minutes before delivery takes place. Balancing markets occur to settle final balances and ensure the grid's stability.
+
+How liquidity, volatility, and depth differ
+
+Volatility in the energy market tends to be directly related to lower liquidity, which is a common characteristic of the forward market, with price swings a frequent occurrence. The spot market, on the other hand, is more reactive, characterised by higher market depth and liquidity, which results in lower levels of volatility.
+
+UK vs. DACH vs. Nordic market structures
+
+The UK market is no longer part of a larger European day-ahead market structure due to Brexit and has its own UK forward market, which includes UK PX. It features a hybrid system that participates in both continuous and auction-led trading. The DACH market, however, is part of the wider European network, with very short gate closure times (as close as 5 minutes), allowing successful automated delivery. The Nordic market relies on different bidding zones to ease congestion, with Nord Pool being the dominant exchange. Hydro-energy significantly influences the volatility of pricing, and the forwards market accounts for a large share of the Nordic market.
+
+The role of asset-backed trading strategies
+
+Market participants who own assets can use this as a benefit in trading strategies, particularly when the market is at its most volatile.
+
+What defines "asset-backed" vs. speculative trading
+
+Asset-backed trading differs from speculative trading in that asset-backed trading is directly related to a physical asset, such as a power plant. In contrast, speculative trading chases market volatility for short-term payoffs but does not own an actual asset.
+
+Aligning physical availability with forward book exposures
+
+The benefit of asset-backed strategies compared to financial-only traders is that the physical assets can act as an insurance policy, which pays off in forward trading. If a forward transaction falls short of the expected performance, a plant owner can top up using their own plant's output.
+
+Margins and opportunity cost across horizons
+
+The focus of asset-backed trading relies on the market's volatility at a given time. Using the above method of making a physical asset available during volatile periods when the market doesn't deliver as expected, short-term margins can be achieved. Medium-term horizons involve committing a certain amount of output from an asset to longer-term contracts, such as PPAs. The downside of this is that the asset owners can't leverage margins when prices surge, as they are locked into a specific price.
+
+Hedging generation in volatile markets
+
+Forwards and options can be used to stabilise cash flows: forwards can lock in a price at a certain level for a specified period, while options can give contract holders the option to buy entry at a certain price in the future if they choose to. Gas tends to benchmark against wholesale prices, which are often influenced by volatility resulting from geopolitical changes and supply chain issues. Consequently, there is a close correlation between wholesale prices and input fuels, such as gas and carbon.
+
+To try and mitigate the risks associated with the wholesale energy market, some traders employ techniques such as rolling hedges, which layer hedges over a specific time period to reduce short-term effects, 'smoothing out' spikes.
+
+How flexibility drives portfolio value
+
+Flexibility is key to a profitable energy portfolio, with the availability of an asset during the most profitable times being crucial to a portfolio's success. This could be bolstered by facts such as battery storage, to make energy available during low-production periods. The value of startup time is also relevant: for example, shorter startup times allow an asset to respond to and adjust to imbalances and price spikes. This time can be won back through more efficient batteries compared to gas-fired power plants. This also applies to ramping, which refers to the time it takes to adjust energy output in response to demand. And availability. Flexible PPAs can also help mitigate the financial impact of fixed-rate power for energy producers, which don't allow them to capitalise on power price surges when they occur, as the energy is being sold at a fixed price.
+
+Tools and data for continuous optimisation
+
+Data will underpin the continued optimisation of renewable energy sources (RES) in the future, with historical, real-time, and meteorological data all leveraged to inform forecasting models, such as dispatch modelling or stochastic optimisation, which help smooth out machine learning-led issues. Continuous optimisation will enable power plant operators to help balance supply and demand, as well as assist traders in making informed decisions on how and when to participate in specific energy markets. Integrating live asset data with market analytics will help address market volatility, plugging gaps in energy shortfalls by either backfilling with energy from physical assets or by influencing the way financial trades are completed. Profitable portfolio management will likely follow trends that synchronise physical capability with market opportunities, all in real-time.
+
+Related articles
+
+Go to Blog
+
+[What are small modular reactors? A beginner’s guide to SMRs]
+
+Risk Management
+
+Power market
+
+Energy Prices
+
+August 27, 2026
+
+What are small modular reactors? A beginner’s guide to SMRs
+
+8
+
+ min read
+
+Read more
+
+[What is CBAM? The Carbon Border Adjustment Mechanism explained]
+
+Market Data
+
+Risk Management
+
+Carbon
+
+August 27, 2026
+
+What is CBAM? The Carbon Border Adjustment Mechanism explained
+
+8
+
+ min read
+
+Read more
+
+[What are capacity markets? How countries pay to keep the lights on]
+
+Market Data
+
+Risk Management
+
+Power market
+
+August 27, 2026
+
+What are capacity markets? How countries pay to keep the lights on
+
+8
+
+ min read
+
+Read more
+
+Get the latest product news and expert analysis from Montel.
+
+Email Address
+
+Thank you! Your submission has been received!
+
+Oops! Something went wrong while submitting the form.
+
+Newsletter
+
+Market insight from our analysts and the latest product news, in your inbox
+
+Sign up
+
+Market Insights
+
+News
+
+Market data & prices
+
+Market fundamentals
+
+Carbon & environmental
+
+Forecasting & Analytics
+
+Live & intraday
+
+Short-term
+
+Medium-term
+
+Long-term
+
+Historical
+
+Decision Support
+
+Asset valuation
+
+BESS & PPAs
+
+Market exposure
+
+Events
+
+Conferences
+
+Courses
+
+Webinars
+
+Platforms
+
+Montel Markets
+
+Montel EnAppSys
+
+Montel Energy Quantified
+
+Montel Syspower
+
+Montel Gas
+
+Montel Value
+
+Insights
+
+Commentary
+
+Reports
+
+Blog
+
+E-books
+
+Case studies
+
+Knowledge base
+
+Whitepapers
+
+Webinar recordings
+
+About
+
+Get in touch
+
+About us
+
+Careers
+
+Contact us
+
+Editorial complaints
+
+Legal Notice
+
+Privacy Policy
+
+[][][][]
+
+Learn more about Montel products or sign-up for a free trial
+
+Get in touch
+
+Error 403 (Forbidden)!!1
+
+403. That’s an error.
+
+Your client does not have permission to get URL /ns.html?id=GTM-NHBCWCF3 from this server. That’s all we know.

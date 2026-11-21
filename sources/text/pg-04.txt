@@ -1,0 +1,225 @@
++-----------------------------------------------------------------------+
+| ERCOT Planning Guide                                                  |
+|                                                                       |
+| Section 4: Transmission Planning Criteria                             |
+|                                                                       |
+| October 29, 2026                                                      |
++=======================================================================+
++-----------------------------------------------------------------------+
+
+4 tRANSMISSION pLANNING CRITERIA 1
+
+4.1 Introduction 1
+
+4.1.1 Reliability Criteria 2
+
+4.1.1.1 Planning Assumptions 2
+
+4.1.1.2 Reliability Performance Criteria 3
+
+4.1.1.3 Voltage Stability Margin 6
+
+4.1.1.4 Steady State Voltage Response Criteria 6
+
+4.1.1.5 Transient Voltage Response Criteria 7
+
+4.1.1.6 Damping Criteria 7
+
+4.1.1.7 Minimum Deliverability Criteria 7
+
+4.1.1.8 Maintenance Outage Reliability Criteria 8
+
+4.1.2 Resiliency Criteria 9
+
+4 tRANSMISSION pLANNING CRITERIA
+
+4.1 Introduction
+
+(1) ERCOT employs reliability, economic, and resiliency criteria in evaluating the need for transmission system improvements. The economic criteria are included in Protocol Section 3.11.2, Planning Criteria. This Planning Guide provides the reliability and resiliency criteria.
+
+(2) The ERCOT System consists of those generation and Transmission Facilities (60 kV and higher voltages) that are controlled by individual Market Participants and that function as part of an integrated and coordinated system.
+
+(3) To maintain reliable operation of the ERCOT System, it is necessary that all stakeholders observe and subscribe to certain minimum planning criteria. The criteria set forth in this Section 4.1 constitute the aforementioned minimum planning criteria. Tests outlined herein shall be performed to determine conformance to these minimum criteria; however, ERCOT recognizes that events more severe than those outlined in these criteria could cause grid separation and other tests may also be performed.
+
+(4) The complexity and uncertainty inherent in the planning and operation of the ERCOT System make exhaustive studies impracticable; therefore, to gain maximum benefit from the limited number of tests performed, the selection of the specific tests and the frequency of their performance will be made solely upon the basis of the expected value of the reliability information obtainable from the test.
+
+(5) ERCOT shall perform steady-state, short circuit, and dynamic analyses appropriate to ensure the reliability of the ERCOT System and identify appropriate solutions.
+
+(6) Each Transmission Service Provider (TSP) will perform steady-state, short circuit, and dynamic analyses appropriate to ensure the reliability of its portion of the ERCOT System and implement appropriate solutions to meet the reliability performance criteria in this Section 4.1.
+
+(7) The base cases created by the Steady-State Working Group (SSWG) and System Protection Working Group (SPWG) are available for use by Market Participants.
+
+(8) If a TSP has its own planning criteria in addition to those defined in this Planning Guide, the TSP shall provide documentation of those criteria to ERCOT. ERCOT shall post the documentation on the Market Information System (MIS) Secure Area. The TSP shall notify ERCOT of any changes to their planning criteria and provide revised documentation within 30 days of such change.
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [PGRR116: Replace paragraph (8) above with the following upon system implementation of NPRR1240:]                                                                                                                                                                                                                                                              |
+|                                                                                                                                                                                                                                                                                                                                                                |
+| (8) If a TSP has its own planning criteria in addition to those defined in this Planning Guide, the TSP shall provide documentation of those criteria to ERCOT. ERCOT shall post the documentation on the ERCOT website. The TSP shall notify ERCOT of any changes to their planning criteria and provide revised documentation within 30 days of such change. |
++================================================================================================================================================================================================================================================================================================================================================================+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+4.1.1 Reliability Criteria
+
+4.1.1.1 Planning Assumptions
+
+(1) A contingency loss of an element includes the loss of an element with or without a single line-to-ground or three-phase fault.
+
+(2) A common tower outage is the contingency loss of a double-circuit transmission line consisting of two circuits sharing a tower for 0.5 miles or greater.
+
+(3) Unavailability of a single generating unit includes an entire Combined Cycle Train, if no part of the train can operate with one of the units Off-Line as provided in the Resource Registration data.
+
+(4) The contingency loss of a single generating unit shall include the loss of an entire Combined Cycle Train, if that is the expected consequence.
+
+(5) The following assumptions may be applied to planning studies:
+
+  (a) Reasonable variations of load forecast, including forecasted load growth based on Substantiated Load;
+
+  (b) Reasonable variations of generation commitment and dispatch applicable to transmission planning analyses on a case-by-case basis may include, but are not limited to, the following methods:
+
+  (i) Production cost model simulation, security constrained optimal power flow, or similar modeling tools that analyze the ERCOT System using hourly generation dispatch assumptions;
+
+  (ii) Modeling of high levels of intermittent generation conditions; or
+
+  (iii) Modeling of low levels of or no intermittent generation conditions.
+
+(6) Assumed Direct Current Tie (DC Tie) imports and exports will be curtailed as necessary to meet reliability criteria in planning studies.
+
+(7) Each Large Load included in a planning study shall be set to a level of Demand consistent with the current Load Commissioning Plan (LCP), if applicable.
+
+(8) Manual System Adjustments shall not increase the amount of consequential load loss following a common tower outage, or the contingency loss of a single generating unit, transmission circuit, transformer, shunt device, flexible alternating current transmission system (FACTS) device, or DC Tie Resource or DC Tie Load, with or without a single line-to-ground fault.
+
+4.1.1.2 Reliability Performance Criteria
+
+(1) The following reliability performance criteria (summarized in Table 1: ERCOT-specific Reliability Performance Criteria, below) shall be applicable to planning analyses in the ERCOT Region:
+
+  (a) With all Facilities in their normal state, following a common tower outage with or without a single line-to-ground fault, all Facilities shall be within their applicable Ratings, the ERCOT System shall remain stable with no cascading or uncontrolled Islanding, and there shall be no non-consequential Load loss;
+
+  (b) With all Facilities in their normal state, following an outage of a DC Tie Resource or DC Tie Load with or without a single line-to-ground fault, all Facilities shall be within their applicable Ratings, the ERCOT System shall remain stable with no cascading or uncontrolled Islanding, and there shall be no non-consequential Load loss;
+
+  (c) With all Facilities in their normal state, following an outage of a Large Load with or without a three-phase fault, all Facilities shall be within their applicable Ratings, the ERCOT System shall remain stable with no cascading or uncontrolled Islanding, and there shall be no non-consequential Load loss;
+
+  (d) With any single generating unit unavailable, followed by Manual System Adjustments, followed by a common tower outage, the opening of a line section without a fault, or outage of a DC Tie Resource or DC Tie Load with or without a single line-to-ground fault, all Facilities shall be within their applicable Ratings, the ERCOT System shall remain stable with no cascading or uncontrolled Islanding, and there shall be no non-consequential Load loss;
+
+  (e) With any single transformer, with the high voltage winding operated at 300 kV or above and low voltage winding operated at 100 kV or above unavailable, followed by Manual System Adjustments, followed by a common tower outage, the opening of a line section without a fault, or the contingency loss of a single generating unit, transmission circuit, transformer, shunt device, FACTS device, or DC Tie Resource or DC Tie Load with or without a single line-to-ground fault, all Facilities shall be within their applicable Ratings, the ERCOT System shall remain stable with no cascading or uncontrolled Islanding, and there shall be no non-consequential Load loss. An operational solution may be planned on a permanent basis to resolve a performance deficiency under this condition; and
+
+  (f) With any single DC Tie Resource or DC Tie Load unavailable, followed by Manual System Adjustments, followed by a common tower outage, the opening of a line section without a fault, or the contingency loss of a single generating unit, transmission circuit, transformer, shunt device, FACTS device, or DC Tie Resource or DC Tie Load, with or without a single line-to-ground fault, all Facilities shall be within their applicable Ratings, the ERCOT System shall remain stable with no cascading or uncontrolled Islanding, and there shall be no non-consequential Load loss. An operational solution may be planned on a permanent basis to resolve a performance deficiency under this condition.
+
++-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------+
+| Initial Condition |                                                                                                                                                                                      | Event                                                                                                         | Facilities within Applicable Ratings and System Stable with No Cascading or Uncontrolled Outages | Non-consequential Load Loss Allowed |
++===================+======================================================================================================================================================================================+===============================================================================================================+==================================================================================================+=====================================+
+| 1                 | Normal System                                                                                                                                                                        | Common tower outage, DC Tie Resource outage, DC Tie Load outage, or the outage of a Large Load                | Yes                                                                                              | No                                  |
++-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------+
+| 2                 | Unavailability of a generating unit, followed by Manual System Adjustments                                                                                                           | Common tower outage, DC Tie Resource outage, DC Tie Load outage, or opening of a line section without a fault | Yes                                                                                              | No                                  |
++-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------+
+| 3                 | Unavailability of a transformer with the high voltage winding operated at 300 kV or above and low voltage winding operated at 100 kV or above, followed by Manual System Adjustments | Common tower outage; opening of a line section without a fault; or                                            | Yes                                                                                              | No                                  |
+|                   |                                                                                                                                                                                      |                                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      | Contingency loss of one of the following:                                                                     |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      |                                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      | 1. Generating unit;                                                                                           |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      |                                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      | 2. Transmission circuit;                                                                                      |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      |                                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      | 3. Transformer;                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      |                                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      | 4. Shunt device;                                                                                              |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      |                                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      | 5. FACTS device; or                                                                                           |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      |                                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      | 6. DC Tie Resource or DC Tie Load                                                                             |                                                                                                  |                                     |
++-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------+
+| 4                 | Unavailability of a DC Tie Resource or DC Tie Load, followed by Manual System Adjustments                                                                                            | Common tower outage; opening of a line section without a fault; or                                            | Yes                                                                                              | No                                  |
+|                   |                                                                                                                                                                                      |                                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      | Contingency loss of one of the following:                                                                     |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      |                                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      | 1. Generating unit;                                                                                           |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      |                                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      | 2. Transmission circuit;                                                                                      |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      |                                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      | 3. Transformer;                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      |                                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      | 4. Shunt device;                                                                                              |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      |                                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      | 5. FACTS device; or                                                                                           |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      |                                                                                                               |                                                                                                  |                                     |
+|                   |                                                                                                                                                                                      | 6. DC Tie Resource or DC Tie Load                                                                             |                                                                                                  |                                     |
++-------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------+
+
+Table 1: ERCOT-specific Reliability Performance Criteria
+
+(2) ERCOT and the TSPs shall endeavor to resolve any performance deficiencies as appropriate. If a Transmission Facility improvement is required to meet the criteria in this Section 4.1.1.2, but the improvement cannot be implemented in time to resolve the performance deficiency, an interim solution may be used to resolve the deficiency until the improvement has been implemented.
+
+  (a) A Remedial Action Scheme (RAS) or Constraint Management Plan (CMP) shall not be planned to resolve a planning criteria performance deficiency unless it is expected that system conditions will change such that the RAS or CMP will no longer be needed within the next five years.
+
+4.1.1.3 Voltage Stability Margin 
+
+(1) In conducting its planning analyses, ERCOT and each TSP shall ensure that the voltage stability margin is sufficient to maintain post-transient voltage stability under the following study conditions for each ERCOT or TSP-defined area:
+
+  (a) A 5% increase in Load above expected peak supplied from resources external to the ERCOT or TSP-defined areas and operating conditions in categories P0 and P1 of the North American Electric Reliability Corporation (NERC) Reliability Standard addressing Transmission System Planning Performance Requirements; and
+
+  (b) A 2.5% increase in Load above expected peak supplied from resources external to the ERCOT or TSP-defined areas and operating conditions in categories P2 through P7 of the NERC Reliability Standard addressing Transmission System Planning Performance Requirements.
+
+4.1.1.4 Steady State Voltage Response Criteria 
+
+(1) In conducting its planning analyses, ERCOT and each TSP shall ensure that all transmission level buses above 100 kV meet the following steady state voltage response and post-contingency voltage deviation criteria:
+
+  (a) 0.95 per unit to 1.05 per unit in the pre-contingency state following the occurrence of any operating condition in category P0 of the NERC Reliability Standard addressing Transmission System Planning Performance Requirements;
+
+  (b) 0.90 per unit to 1.05 per unit in the post-contingency state following the occurrence of any operating condition in categories P1 through P7 of the NERC Reliability Standard addressing Transmission System Planning Performance Requirements; and
+
+  (c) Following the occurrence of any operating condition in categories P1 through P7 of the NERC Reliability Standard further analysis to assess voltage stability is required in the event of a post-contingency steady-state voltage deviation that exceeds 8% at any load-serving bus above 100 kV, exclusive of buses on a radial system that serve only Resource Entities and/or Load. After further analysis, ERCOT and the TSPs shall endeavor to resolve any voltage instability.
+
+(2) If a TSP has communicated to ERCOT that a Facility has unique characteristics and may operate outside of the above ranges and deviation (e.g. Facilities located near a series capacitor) or that the Facility needs to be operated in a more restrictive range (e.g. a nuclear plant, UVLS relay settings) or its system is designed to operate with different voltage limits or voltage deviation then the TSP’s specified limits will be considered acceptable.
+
+4.1.1.5 Transient Voltage Response Criteria 
+
+(1) In conducting its planning analyses, ERCOT and each TSP shall ensure that all transmission level buses above 100 kV meet the following transient voltage response criteria:
+
+  (a) For any operating condition in category P1 of the NERC Reliability Standard addressing Transmission System Planning Performance Requirements, voltage shall recover to 0.90 p.u. within five seconds after clearing the fault; and
+
+  (b) For any operating condition in categories P2 through P7 of the NERC Reliability Standard addressing Transmission System Planning Performance Requirements, voltage shall recover to 0.90 p.u. within ten seconds after clearing the fault.
+
+4.1.1.6 Damping Criteria 
+
+(1) In conducting its planning analyses, ERCOT and each TSP shall ensure that, for any operating condition in categories P1 through P7 of the NERC Reliability Standard addressing Transmission System Planning Performance Requirements, ERCOT and each TSP shall ensure that power oscillation within the range of 0.2 Hz to 2 Hz decays with a minimum 3% damping ratio.
+
+4.1.1.7 Minimum Deliverability Criteria
+
+(1) In conducting its planning analyses, ERCOT and each TSP shall ensure that an ERCOT-defined minimum percentage of capacity of each Resource described in paragraph (3) below can be delivered to serve peak system Load while meeting the following reliability criteria:
+
+  (a) Category P0, P1, P2-1, P3, and P7 planning events from the NERC Reliability Standard addressing Transmission System Planning Performance Requirements; and
+
+  (b) The ERCOT-specific reliability performance criteria included in Section 4.1.1.2, Reliability Performance Criteria.
+
+(2) The minimum percentage of capacity referenced in paragraph (1) above shall be applied to each Resource’s applicable Seasonal Net Max Sustainable Rating submitted through the Resource Registration process.
+
+(3) The minimum deliverability condition described in paragraph (1) applies to the following Resources:
+
+  (a) Any Generation Resource utilizing combined cycle, steam turbine, combustion turbine, hydro, or reciprocating engine technology; or
+
+  (b) Any Energy Storage Resource (ESR) meeting an ERCOT-defined minimum duration threshold.
+
+(4) Resources other than those described in paragraph (3) above may be redispatched as necessary to meet the requirements of this Section.
+
+(5) ERCOT-proposed revisions to the minimum percentage of capacity or minimum duration threshold for ESRs used to implement the requirements of this Section will be recommended by the Technical Advisory Committee (TAC) and approved by the ERCOT Board.
+
+  (a) ERCOT will post the current values approved by the ERCOT Board pursuant to paragraph (5) above on the ERCOT website.
+
+4.1.1.8 Maintenance Outage Reliability Criteria
+
+(1) In an off-peak system condition selected in accordance with paragraph (3) below, with any transmission element included in paragraph (2) below unavailable, followed by Manual System Adjustments, followed by a common tower outage or the contingency loss of a transmission circuit, transformer, shunt device, or FACTS device, with or without a single line-to-ground fault, all Facilities shall be within their applicable Ratings, the ERCOT System shall remain stable with no cascading or uncontrolled Islanding, and there shall be no non-consequential Load loss. An operational solution may be planned on a permanent basis to resolve a performance deficiency under this condition.
+
+(2) The unavailability of the following transmission elements shall be considered for the requirements of this Section:
+
+  (a) Any double-circuit transmission line consisting of two circuits sharing a tower of 0.5 miles or greater where both circuits must be removed from service for a maintenance outage; or
+
+  (b) Any transmission circuit, transformer, shunt device, or FACTS device.
+
+(3) At least one off-peak system condition occurring outside of the Peak Load Season shall be selected for assessment.
+
+4.1.2 Resiliency Criteria
+
+(1) As part of the resiliency analysis described in Section 3.1.1.6, Grid Reliability and Resiliency Assessment (GRRA), ERCOT shall identify those transmission upgrades that are necessary to:
+
+  (a) Prevent cascading, instability, or uncontrolled islanding; and/or
+
+(b) Reduce the impact of outages on customers.

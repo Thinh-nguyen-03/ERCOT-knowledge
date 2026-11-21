@@ -1,0 +1,179 @@
+ERCOT Nodal Protocols
+
+Section 22
+
+Attachment O: Requirements for
+Aggregate Load Resource Participation
+in the ERCOT Markets
+
+March 1, 2024
+
+ 1 Background and Introduction
+
+Qualification as a Load Resource is a prerequisite for the provision of Demand response in the Ancillary Services markets and Real-Time Energy Market.
+
+This attachment sets forth the detailed requirements for Aggregations of Loads (more than one single Load site) to qualify as Aggregate Load Resources (ALRs) and maintain such qualification, thus becoming eligible to provide Ancillary Services. The attachment is limited to ALR qualification for participation in Security-Constrained Economic Dispatch (SCED) and the provision of Non-Spinning Reserve (Non-Spin).
+
+For purposes of this attachment, the following terminology applies:
+
+-   A “Device” refers to an appliance, implement, or instrument under control or otherwise being used to provide Demand response. A Device is always located behind a Premise-level meter.
+
+-   A “Resource” or “Aggregation” refers to an ALR, as defined in Section 2, Definitions and Acronyms.
+
+-   All references to ALR in this attachment refer to an ALR that is also a Controllable Load Resource.[1]
+
+2 Telemetry and Metering Requirements
+
+A QSE Telemetry
+
+A Qualified Scheduling Entity (QSE) representing a Load Resource is required to send Resource-level Real-Time telemetry to ERCOT every two seconds per Section 6.5.5.2, Operational Data Requirements; Nodal Operating Guide, Section 7, Telemetry and Communication, and the ERCOT Nodal ICCP Communication Handbook available on the ERCOT website. Telemetered data points are specific to the service being provided and are listed in detail in Section 6.5.5.2.
+
+The relevant telemetry signals shall represent one of the following:
+
+-   The sum of the Load of all Premises in the ALR, or
+
+-   The sum of the Load of the Devices under control.
+
+B Premise-Level Interval Metering
+
+Premises in an ALR are required to have 15-minute interval meter data, whether Electric Service Identifier (ESI ID) data from the competitive choice areas of ERCOT or revenue-quality meter data within a Non Opt-In Entity (NOIE) territory.[2] ERCOT will use this Premise-level interval meter data both as the foundation of the telemetry validation process and for event performance measurement and verification.
+
+Interval meter data must be time-stamped within appropriate standards in correlation with ERCOT 15-minute Settlement clock intervals, and shall be provided to ERCOT for metered sites within the ALR through one of the following methods:
+
+-   For ALRs in competitive choice areas of ERCOT, investor-owned Transmission and/or Distribution Service Providers (TDSPs) submit ESI ID-level Interval Data Recorder (IDR) or Advanced Metering Infrastructure (AMI) data via the Texas Standard Electronic Transaction (TX SET) process (for IDR metering) or via the approved file format defined in Retail Market Guide, Section 9, Appendix G, ERCOT Specified File Format for Submission of Interval Data for Advanced Metering Systems, (for AMI metering); or
+
+-   For ALRs in a NOIE service area, the NOIE shall submit IDR, AMI, or equivalent Premise-level meter data, associated with a non-Settlement ESI ID or a designated unique meter identifier. Such meters shall be maintained and read by the NOIE meter-reading entity. The data shall be submitted to ERCOT either via TX SET or in a format and transport method defined by ERCOT no later than 35 days after each corresponding Operating Day.
+
+NOIE Premise-level unique meter identifiers must use ESI ID-style nomenclature, in which the NOIE TDSP Department of Energy (DOE) code comprises the first digits of the identifier. The unique meter identifier must remain constant in perpetuity at the Premise.
+
+A NOIE meter-reading entity shall validate Premise-level interval meter data; however, any gaps in the data should not be edited or estimated.  ERCOT will not use data with gaps, or data flagged by the NOIE or ERCOT as invalid.
+
+Ongoing telemetry validation and performance measurement and verification are dependent upon a NOIE making timely and accurate Premise-level meter data submissions. Failure to meet the data submission requirements may result in suspension of the ALR’s qualification to participate in SCED and provide Non-Spin. An ALR that has been suspended for this reason may be reinstated only upon successful restoration of accurate and timely meter data submissions.
+
+NOIEs shall archive Premise-level data sufficient to meet these requirements.
+
+C Statistical Sampling
+
+If interval metering is not present or accessible for all sites in an ALR, ERCOT, at its discretion, may design a statistical sample consisting of a sufficient number of 15-minute interval-metered Premises to be consistent with industry best practices.[3] ERCOT shall determine the sample size and composition for any statistical sample.
+
+If statistical sampling is employed, the meter-reading entity shall provide at least 270 days of historical Premise-level 15-minute interval data for each Premise in the statistical sample. If 270 days of historical interval data are not available, the meter-reading entity shall provide as much historical data as is available. ERCOT may disqualify an ALR if it determines that the available historical data for a statistical sample is insufficient to create accurate baseline modeling.
+
+To assist in sampling accuracy, the meter-reading entity shall provide at the time of enrollment, for each Premise in the ALR, at least 12 months of historical monthly billing kWh data, and shall provide monthly billing kWh data for each Premise on an ongoing basis. In addition, ERCOT may require the QSE or meter-reading entity to provide attributes, if available, for each Premise, potentially including but not limited to:
+
+-   Identification of Transmission Substation and Load point (irrespective of the Load point associated with the ALR in the Network Model);
+
+-   House type (e.g., single-family, multi-family, manufactured); and
+
+-   Devices subject to control (e.g., AC, heat pump, electric resistance heat, water heater, pool pump).
+
+Submitting Premise attributes may enable ERCOT to create a smaller statistical sample size.
+
+ERCOT will refresh the makeup of a statistical sample periodically based on population changes. In addition, ERCOT may adjust the size of a statistical sample periodically to reflect the percent of valid data being provided. When new Premises are added to a statistical sample, the meter-reading entity shall provide historical data for the new Premises consistent with the enrollment requirements cited in the preceding paragraph.
+
+As a condition for allowing statistical sampling, ERCOT and the meter-reading entity shall establish a mutually agreeable goal of providing universal interval data at a date in the future.
+
+3 Telemetry Validation
+
+The objective of ALR telemetry validation is to create an acceptable standard that provides ERCOT operations with assurance that the telemetered values from the QSE provide an accurate representation of the physical Load characteristics of the ALR. This section describes the processes ERCOT will use to conduct qualification testing and validation for QSE telemetry, with the goal of insuring that an ALR’s telemetered data points provide a representation of ALR performance that meets reasonableness criteria consistent with good utility practice.
+
+ERCOT shall validate telemetry data by comparing aggregated Premise-level 15 minute interval data to the ALR-level QSE telemetry signal, using the procedures described here.
+
+  Premise-Level Telemetry
+
+  In a case in which the ALR telemetry values represent the sum of the Load of the ALR member Premises, ERCOT will aggregate (or, in the case of a statistical sample, extrapolate) the Premise-level 15-minute interval meter data to the ALR level and will compare this data to the QSE telemetry values for Net Real Power Consumption, averaged over each 15-minute Settlement interval. ERCOT will conduct this telemetry validation periodically with each test encompassing all 15-minute Settlement intervals during the calendar month being evaluated. The telemetry must validate to the following criteria: for each month being evaluated, 90% of the 15-minute aggregated Net Real Power Consumption values must be within 10% of the resource-level interval meter data.
+
+  Device-Level Telemetry
+
+  In a case in which the ALR telemetry values represent the sum of the Load of the Devices under control, ERCOT will compare aggregated (or extrapolated) Premise-level data to the ALR QSE telemetry values.
+
+  As the initial step in validating Device-level ALR telemetry, ERCOT shall compare the telemetered values for Net Real Power Consumption, averaged over each 15-minute interval, to the aggregated (or extrapolated) Premise-level interval-metered Load. The Premise-level metered Load must exceed the Device-level telemetered NPC values for at least 99 percent of all Settlement intervals in the calendar month being evaluated; otherwise, the telemetry will be considered invalid.
+
+  As the second step in validating Device-level ALR telemetry, ERCOT shall evaluate changes in the magnitude of telemetered Device-level Load in response to SCED Base Point Instructions or QSE-initiated self-deployment. Such changes in telemetered NPC should be reflected as corresponding changes in the aggregated (or extrapolated) Premise-level interval meter data, as estimated using an applicable ERCOT baseline methodology.[4]^(.) ERCOT will conduct this telemetry validation periodically with each test encompassing all 15-minute Settlement intervals during the calendar month being evaluated. The following intervals will be subject to telemetry validation:
+
+-   Any intervals in which the ALR was instructed by SCED to reduce its consumption to a level below its Scheduled Power Consumption by a MW value greater than 10% of the difference between its Scheduled Power Consumption and its Low Power Consumption;
+
+-   Any intervals in which the ALR was instructed by SCED to increase its consumption to a level greater than 110% of its current Net Real Power Consumption; and
+
+-   Any intervals in which the QSE initiated an out-of-market deployment of the ALR and reported the deployment details to ERCOT, unless the QSE has notified ERCOT of a telemetry failure.
+
+  The telemetry must validate to the following criteria: for each month being evaluated, in at least 90% of the intervals subject to telemetry validation, the changes to the telemetered Net Real Power Consumption values, averaged over 15-minute intervals, must be within 10% of the corresponding changes to the aggregated (or extrapolated) Premise-level interval meter data. ERCOT will conduct this validation for any ALRs that have a cumulative rolling six-month total of at least 50 intervals subject to validation. For any six-month period in which an ALR has fewer than 50 intervals subject to validation, the ALR shall be exempt from the suspension provisions detailed below.
+
+ERCOT will conduct a telemetry validation test as part of any ALR’s qualification test to provide Non-Spin as follows: for the duration of the specified period of the qualification test, 80% of the 15-minute aggregated Scheduled Power Consumption plus Two (SPC+2) values must be within 10% of the telemetered Net Real Power Consumption values for the corresponding interval.
+
+In addition, ERCOT will perform periodic telemetry validation as follows: on a monthly basis, 80% of the 15-minute aggregated SPC+2 values must be within 10% of the Scheduled Power Consumption values for the corresponding interval.
+
+For a Non-Spin deployment event, ERCOT may compare the telemetered Scheduled Power Consumption and SPC+2 values for each interval of the event to the ERCOT baseline for the interval. If the difference between the ERCOT baseline and both the Scheduled Power Consumption and SPC+2 values is less than or equal to 10%, the telemetry will be deemed valid for that event.
+
+Failure to meet telemetry validation criteria may result in suspension of the ALR’s qualification to participate in SCED and/or provide Non-Spin. An ALR that has been suspended for telemetry validation failure may be reinstated only upon successfully completing a new telemetry validation test as prescribed herein.
+
+No later than April 1 of each year, ERCOT shall submit a report to TAC containing the results of telemetry validation testing for the prior calendar year. The report shall contain, at a minimum:
+
+-   The total number of qualified ALRs in the ERCOT Region;
+
+-   The number of telemetry validation tests conducted; and
+
+-   The number of telemetry validation test failures.
+
+4 Management of Changes to ALR Populations 
+
+Changing ALR parameters will be managed by the Resource Entity and the QSE using a market interface[5] dedicated to ALR population maintenance.
+
+-   ALR parameters will be established in the Network Model by the ALR’s Resource Entity using the approved Resource Registration process. ALRs that are subject to dynamically changing populations should set their Resource Registration data parameters at levels that will accommodate several months of potential growth so as to reduce the need for frequent Resource Registration updates.
+
+-   The QSE may add or subtract Premises from an ALR at any time. The QSE shall update appropriate telemetry values when a change is made to the population,
+
+-   QSEs shall report to ERCOT its ALR population changes on a monthly basis via the market interface.
+
+    -   The updates shall include start and stop dates for new Premises in the ALR and/or Premises that have left the ALR. If a Premise is vacated, the Stop Date should reflect that date; and if a new customer later moves into that Premise and joins the ALR, a new start date should be used.
+
+    -   In the competitive choice areas, QSEs will manage the ALR population by ESI ID, which ERCOT will then cross-reference to its internal systems. In the NOIE territories, QSEs shall provide unique meter identifiers consistent with the requirements detailed elsewhere in this attachment.
+
+5 Network Modeling 
+
+Opening the ERCOT markets to participation by aggregations of distribution-connected small commercial and residential Loads will require development of alternative Network Modeling provisions. This section of the requirements attachment sets forth the criteria for the initial rollout of those provisions.
+
+The location of a Load Resource in the Network Model is identified in the Resource Asset Code. During the initial phase of ALR participation in the ERCOT markets, membership in an ALR shall be limited to metered Load sites within the same ERCOT Load Zone. Consistent with current practice for distribution-level single-site Load Resources, the TDSP in collaboration with the Resource Entity and ERCOT will assign each ALR to a single Load point in the ERCOT Common Information Model (CIM).  The total Demand response capability of all ALRs assigned to any single Load point shall be capped at 100% of the rating of the Load point. The rating of a Load point is defined as the value estimated by the ERCOT State Estimator for that Load point at the time of the ERCOT historic coincident peak Demand.
+
+In the long-term, ALR participation in the markets may require an ALR to associate with multiple Loads in the ERCOT CIM while preserving the ability of the ERCOT Independent System Operator (ISO) to dispatch Resources for congestion management based on their location. ERCOT will engage with stakeholders during the phase 1 of ALR participation to identify workable options for this phase 2 approach. Because phase 2 will require changes to market rules and potentially Substantive Rules, and is certain to require significant ERCOT system upgrades, ERCOT hereby establishes a set of caps on initial ALR participation. These caps are implemented in order to avoid system degradation (which could occur if large numbers of ALRs begin are participating) and potential challenges to effective congestion management and grid reliability (due to dispersion of participating Loads with insufficient locational specificity). The caps shall be lifted upon development and implementation of phase 2 of the ALR network modeling approach.
+
+-   System-wide ALR participation shall be capped at 250 ALRs.
+
+-   The combined Demand response capability of all ALRs within any single ERCOT Load Zone shall be capped at 5% of the Load Zone’s highest historic summer peak Demand.
+
+If ERCOT or a TDSP determines that any of the caps described in this section are insufficient to prevent an operational challenge, ERCOT commits to working with stakeholders to determine appropriate changes and seek expedited approval of an amended version of this attachment.
+
+6 Measurement & Verification 
+
+As part of the qualification process for an ALR to provide Non-Spin, ERCOT will assign the ALR to its appropriate performance evaluation methodology based on an analysis of the ALR’s historical meter data. This process will be similar to the baseline assignment process used by ERCOT in the administration of ERS. In order to qualify to provide Non-Spin, an ALR must be deemed by ERCOT to be eligible for measurement and verification via either the Meter Before/Meter After or Baseline performance evaluation methodologies per Sections 8.1.1.2.1.3, Non-Spinning Reserve Qualification, and 8.1.1.4.3, Non-Spinning Reserve Service Energy Deployment Criteria.
+
+Performance evaluation methodology assignments will depend on the following factors:
+
+-   The predictability of the Load as determined through analysis of historical meter data.
+
+-   The amount of historical interval meter data available.
+
+-   The ability of ERCOT to distinguish between historic event days and non-event days. The QSE shall provide ERCOT with a history of QSE-initiated ALR deployments that are not in response to SCED deployment instructions, including start and stop dates and times for each such QSE-initiated deployment.
+
+-   Whether the ALR’s membership is dynamic (subject to migration in either direction) or static.
+
+    -   If the ALR membership is dynamic, the following provisions are in effect:
+
+        -   Any ALR consisting entirely of residential sites will be considered eligible for assignment to a Baseline methodology and will retain that designation so long as any sites added to the ALR are residential.
+
+        -   An ALR consisting of commercial and industrial sites and also subject to migration will be subject to baseline review by ERCOT any time a site is added. This review provision may be waived by ERCOT if ERCOT, in consultation with the QSE, determines that the added sites meet a uniformity test consistent with the existing sites in the ALR. To avoid ongoing baseline reviews, the ALR should be composed of Loads with similar Load shapes and, depending on the size of the Aggregation, Load magnitude. Uniformity (a.k.a. homogeneity) enables scalable growth, statistical sampling consistent with industry standard Load research practices, and acceptable migration management. ERCOT may revoke an ALR’s Non-Spin qualification if ERCOT determines that the composition of the ALR fails to meet a uniformity standard consistent with good utility practice.
+
+-   If the ALR membership is static (not subject to migration), the ALR will retain the performance evaluation methodology assigned at the time of registration and qualification. ERCOT may annually review a static ALR’s Load characteristics to ensure the performance evaluation methodology assignment continues to apply.
+
+ERCOT shall deny Non-Spin qualification for an ALR if it fails to qualify using either the Meter Before/Meter After, or Baseline methodologies. For the latter, ERCOT may evaluate the ALR against any of the four baseline types described in document entitled “Emergency Response Service Default Baseline Methodologies,” available on the ERCOT website.
+
+As described in Section 8.1.1.4.3, the data used for primary measurement and verification of Load Resource performance in a Non-Spin event are the telemetry values for net real power consumption (net power flow), scheduled power consumption, and scheduled power consumption plus two. As a secondary validation step, ERCOT may use interval meter data from the ALR to verify an ALR’s performance in a Non-Spin deployment event. If the interval meter data evaluation indicates that the ALR met its performance obligations in the Non-Spin event, the ALR will be considered in compliance for that event irrespective of the telemetry values. If the interval meter data evaluation indicates that the ALR failed to meet its performance obligations in the Non-Spin event, the ALR will be deemed to have failed to meet its responsibility for that event irrespective of the telemetry values. ERCOT may revoke the ALR’s qualification to provide Non-Spin if the ALR demonstrates a continuing pattern of failure to perform.
+
+[1] Load Resource provision of Non-Spin may be provided only by Controllable Load Resources qualified for SCED.
+
+[2] NOIE Advanced Meter data submission must meet formatting requirements in place for Emergency Response Service (ERS). See document entitled “Interval Data File Format Descriptions” available on the ERCOT website.
+
+[3] Further explanation of industry best practice can be found in Load Profiling Guide.
+
+[4] See “Default Baseline Methodologies” document available on the ERCOT website.
+
+[5] PR 117-01, Requirements for Data Submission to Support Aggregate Load Resource Participation in the ERCOT Markets.

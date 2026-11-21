@@ -1,0 +1,75 @@
+ERCOT Nodal Protocols
+
+Section 22
+
+Attachment G: Standard Form Emergency Response Service Agreement
+
+June 1, 2013
+
+Standard Form Emergency Response Service (ERS)
+
+Supplement to Market Participant Agreement
+
+Between
+
+Insert Participant
+
+and
+
+Electric Reliability Council of Texas, Inc.
+
+This Supplement to Market Participant Agreement (“Supplement”), effective as of Start Date (“Start Date”), is entered into by and between Insert Participant, a Qualified Scheduling Entity in the ERCOT Region (“QSE” or “Participant”) and Electric Reliability Council of Texas, Inc., a Texas non-profit corporation (“ERCOT”).[1]
+
+Recitals
+
+WHEREAS:
+
+  A. The Public Utility Commission of Texas (“PUCT”) instituted its Substantive Rule 25.507, “Electric Reliability Council of Texas (ERCOT) Emergency Response Service” (“ERS Rule”) providing for ERCOT’s administration of a special emergency service known as Emergency Response Service (“ERS”); and
+
+  B. Participant is a QSE in the ERCOT Region and has executed a Standard Form Market Participant Agreement (“Market Participant Agreement”) with ERCOT; and
+
+  C. Participant is the QSE representing an entity or entities controlling ERS Resource(s) that will be obligated to provide ERS within a competitive service territory or a Non-Opt In Entity (“NOIE”) service territory after obtaining written authorization from the NOIE; and
+
+  D. Participant and ERCOT wish to supplement the Market Participant Agreement between Participant and ERCOT to provide for Participant to represent ERS Resources wishing to participate in the ERS; and
+
+  E. The Parties enter into this Supplement in order to establish the terms and conditions by which ERCOT and Participant will discharge their respective duties and responsibilities with respect to ERS.
+
+Agreements
+
+NOW, THEREFORE, in consideration of the mutual covenants and promises contained herein, ERCOT and Participant (the “Parties”) hereby agree as follows:
+
+  A. All terms and conditions of the Market Participant Agreement between Participant and ERCOT remain in full force and effect.
+
+  B. In addition to its obligations under the Market Participant Agreement with ERCOT, Participant will submit offers for ERS on behalf of the entities determined by Participant to be qualified to provide ERS for a particular Contract Period as described in a Request for Proposal issued by ERCOT.
+
+  C. Participant and ERCOT will abide by and comply with the ERS Rule as well as all ERCOT Protocols and Technical Requirements concerning ERS.
+
+  D. Participant and ERCOT agree that each award of ERS will be confirmed by a terms and conditions sheet (“Award Notification”) provided by ERCOT to Participant.
+
+  E. Either Party may terminate this Supplement by providing 30 days notice to the other Party; provided, however, no termination of this Supplement will be effective before the end of an ERS Contract Period for which ERCOT has already issued an Award Notification to Participant.
+
+  F. This Supplement may be executed in two or more counterparts, each of which is deemed an original but all constitute one and the same instrument.
+
+SIGNED, ACCEPTED, AND AGREED TO by each undersigned signatory who, by signature hereto, represents and warrants that s/he has full power and authority to execute this Supplement.
+
+Electric Reliability Council of Texas, Inc.:
+
+By: ____________________________________________________
+
+Printed Name: ___________________________________________
+
+Title: ___________________________________________________
+
+Date: ___________________________________________________
+
+Participant:
+
+By: _____________________________________________________
+
+Printed Name:      
+
+Title:      
+
+Date:      
+
+[1] ^(?) Unless otherwise indicated, capitalized terms in this Agreement have the meanings ascribed to them in the ERCOT Protocols.

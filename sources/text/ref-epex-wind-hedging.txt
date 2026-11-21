@@ -1,0 +1,1556 @@
+Renewable Power
+Generation
+Financial Risks
+Hedging Strategies using
+Renewable Power Quanto
+Indices published by EPEX
+SPOT and Speedwell
+Climate
+
+Page | 1
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Renewable Power Generation Financial Risks
+Hedging Strategies
+In this whitepaper, we propose to review how a renewable energy asset manager or a PPA
+portfolio manager may hedge financial risks using the Renewable Power Quanto Indices
+published by EPEX SPOT and Speedwell Climate.
+
+This whitepaper follows a previous introductory article in
+which renewable power generations risks (Shape and
+Cannibalisation) are presented in greater detail and which
+introduce the Renewable Power Quanto EPEX
+SPOT/Speedwell Climate indices.
+Please feel free to contact us to access this whitepaper.
+
+The reader already familiar with the Renewable Power Quanto EPEX SPOT / Speedwell Climate Indices
+may safely jump to the section: Hedging Strategy using the Achieved Revenue Swap.
+
+Page | 2
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Acknowledgements
+
+I would like to express my thanks to Arnault Martin from EPEX SPOT, whose invaluable insights and
+guidance greatly contributed to the development of this article. His deep understanding of the subject
+matter and expertise in renewable energy finance provided the foundation for exploring the
+intricacies of hedging strategies for Wind and Solar Power financial risks.
+I would also like to extend my appreciation to Stephen Doherty, who generously shared his
+perspectives and offered valuable suggestions.
+This article would not have been possible without the collective efforts, guidance, and support of these
+individuals and our respective organizations. I am sincerely grateful for their contributions, and I
+hereby acknowledge their significant impact on the completion of this work.
+
+Page | 3
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Contents
+General Introduction and Problem Definition ........................................................................................ 5
+Tradeable Indices – Background ............................................................................................................. 8
+Renewable Power Quanto Indices – Definition .................................................................................... 10
+Achieved Revenue Index ................................................................................................................... 10
+Hedging Strategy using Achieved Revenue Swap ......................................................................... 11
+Achieved Price Index ......................................................................................................................... 14
+Hedging Strategy using Achieved Price Put Option ...................................................................... 15
+Quality Factor Index .......................................................................................................................... 17
+Hedging Strategy, Addressing Price Cannibalisation using a Quality Factor Put Option .............. 18
+Possible Hedging Strategies using the Quality Factor Index – A step by step use case........................ 20
+Scenario 1: WITH Price risk, NO Volume Risk, and NO QF Risk - Using only Power Futures ........ 21
+Scenario 2: WITH Price risk, NO Volume Risk, and WITH QF Risk Using Only Power Futures ...... 22
+Scenario 3: WITH Price risk, NO Volume Risk, and WITH QF Risk using Power Futures and QF
+Contracts ....................................................................................................................................... 23
+Scenario 4: WITH Price risk, WITH Volume Risk, and WITH QF Risk - Using Power Futures and QF
+Contracts ....................................................................................................................................... 25
+Scenario 5: WITH Price risk, WITH Volume Risk, and WITH QF Risk - Using Power Futures, QF
+Contracts and Wind Power Volume Swap .................................................................................... 26
+Conclusion ............................................................................................................................................. 29
+Hedging Strategies Cheat Sheet............................................................................................................ 32
+Reference Index Availability – Standard Countries/Regions ................................................................ 33
+Renewable Power Quanto EPEX SPOT/Speedwell Climate Indices – Combined Price/Volume Risk 33
+Speedwell Climate Wind Power Indices – Volume Risk .................................................................... 33
+Data Sources for Renewable Power Quanto Indices ............................................................................ 35
+Trading the Renewable Power Quanto Indices on the OTC Market ..................................................... 36
+Example: Taking a Quality Factor Hedge to the OTC Market ........................................................... 36
+Speedwell Climate LinkedIn Mini Articles ............................................................................................. 38
+Disclaimer.............................................................................................................................................. 41
+About Speedwell Climate ...................................................................................................................... 42
+
+Page | 4
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+General Introduction and Problem Definition
+A Power Purchase Agreement (PPA) is a legal contract between a power producer and a power
+purchaser. The agreement typically outlines the terms of the sale of power, including pricing, delivery,
+and payment. PPAs are commonly used in the renewable energy industry to facilitate the
+development and financing of renewable energy projects, such as wind and solar farms.
+When entering into a “Pay-as-Produced” Power Purchase Agreement (PPA), an offtaker, such as a
+utility company or large consumer, may need to manage certain risks associated with the variable
+nature of the power generation and pricing. Wind and Solar power plants produce energy according
+to the weather at particular times and locations, not according to demand. Renewable energy
+generation companies are therefore exposed to what is known as the Shape Risk. This risk results
+from the time disconnect between supply and demand and the impact of the generation on the shape
+of the day-ahead price curve. In addition, with no fuel to burn when producing power, renewable
+energy companies can offer low auction prices. This competition can drive prices down and lead to a
+cannibalisation of revenues.
+Renewable energy producers may hope to generate revenues according to an estimated day-ahead
+hourly price curve per MWh (see the blue curve below – derived by modelling price in the absence of
+wind power). However, in practice their own output is intermittent and modifies the revenue curve
+per MWh (price per MWh * 1 if there is production and 0 otherwise). This is illustrated on the graph
+below:
+
+The Shape Risk for solar is perhaps more predictable than for wind but it is also more concentrated.
+To understand this let us assume for simplicity that all solar plants of a region produce energy as per
+this curve:
+Page | 5
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Then, as more and more solar plants are commissioned, the cumulative curves become:
+
+This concentration effect, which results from the high correlation between energy production at
+different solar plants, will increasingly impact the achieved clearing prices especially during the hours
+between 10:00 and 16:00 thereby modifying the shape of the price curve. The solar Shape Risk is
+illustrated on the graph below:
+
+Page | 6
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+We now go on to introduce the indices that have been created to address the renewable risks
+described above and how they may be used.
+
+Page | 7
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Tradeable Indices – Background
+The three variants of the Renewable Power EPEX SPOT/Speedwell Climate Quanto indices are
+Achieved Revenue, Achieved Price and Quality Factor. All three are derived by combining wind/solar
+production (“volume”) and physical spot price over a period of time (day, month, season, etc.). By
+combining both volume risk and price risks in different ways, these three indices can then be used to
+implement risk management strategies that increase revenue stability. This may help optimise
+financing and development of assets in the renewables market.
+All variants are currently designed to be used for financial risk-transfer in the OTC market. This means
+that a historical dataset of each index is available allowing the user to make an informed assessment
+of trends and therefore inform the opinion of fair-value for a particular structure (eg swap, put, etc.)
+that can then be based on it. It also means that up-to-date data is available to enable the user who
+has open transactions to monitor valuations and then to settle the transaction within 5 working days.
+…more about the Volume Risk Part
+The power production part is derived using the Speedwell Wind/Solar Benchmarks which address pure
+volume risk. The Speedwell Wind/Solar Benchmarks have been used in the OTC market for wind and
+solar volume risk-transfer for over 5 years. These are based on modelled theoretical output rather
+than metered data. They are derived using physical modelling combining documented renewable
+capacity frozen on a specific date and gridded wind data from the ERA51 dataset. These indices are
+regularly updated to reflect the changes in asset base with previous “vintages” being maintained in
+parallel as long as is necessary to allow any existing risk-transfer contracts based on them to expire.
+The advantage of using modelled data for production is that it is possible to derive a synthetic history
+using the frozen asset base back in time (usually to 1979), that problems relating to errors or changes
+in reported metered data are avoided and that the “moving target” problem of using actual
+production is avoided. In the following text all reference to Volume (e.g. “V(h)”) should be understood
+to mean modelled production.
+
+The underlying Speedwell volume indices for wind/solar power are available for a number of standard
+countries and regions worldwide (see later section). The Renewable Power Quanto EPEX
+SPOT/Speedwell Climate indices are currently for a number of European countries and generation
+regions. Note that it is also possible to produce all variants for specific assets relevant to a particular
+generator or portfolio manager. In the examples below, wind indices are discussed. However, the
+examples are relevant to both wind and solar production.
+
+…more about the Price Risk Part
+The prices used are derived from the EPEX SPOT Day-Ahead Power Market. This is a physical market
+which allows market participants to buy and sell power for delivery the following day. Day-ahead
+
+1
+
+The ERA5 data set is an historical gridded data set based on “reanalysis data” provided by the European
+Centre for Medium-Range Weather Forecasts (ECMWF)
+
+Page | 8
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+power prices, also known as spot prices, are the market-clearing prices determined through the
+auction process on the EPEX SPOT Day-Ahead Power Market.
+
+Note on the Hedging Strategy Examples to follow
+The implementation of hedges based on the Renewable Power Quanto Indices currently requires the
+execution of bilateral transactions in the over-the-counter market. One of the features of this market
+is that, generally, transaction payoffs are capped. This practice owes its origin to the early days of the
+climate risk transfer market where companies hedging temperature, rainfall (etc.) risks would
+generally transact with insurance counterparties or with specialist funds for whom a theoretically
+open-ended liability would attract excessive risk premium. In the examples below and for reasons of
+simplicity, this is ignored.
+
+Page | 9
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Renewable Power Quanto Indices – Definition
+The three variants of the Renewable Power EPEX SPOT/Speedwell Climate Quanto indices are defined
+below and hedging examples are shown for each.
+
+Achieved Revenue Index
+The first Renewable Power Quanto index is the Achieved Revenue Index, which is:
+
+An Achieved Revenue swap is a financial contract designed to mitigate revenue risks associated with
+wind power generation as represented by this index. It can be used to provide protection to wind farm
+operators or investors against fluctuations in power prices and/or wind resource availability, thereby
+offering a more predictable revenue stream.
+
+In a wind power Achieved Revenue swap, two parties typically enter into an agreement that forms an
+over-the-counter (OTC) risk-transfer contract generally documented under ISDA2 documentation: the
+2
+
+International Swap and Derivatives Association
+
+Page | 10
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+wind farm operator (or generator) and a counterparty (often a financial institution or an insurance
+company or an energy company with opposite risk profile). The contract is structured based on the
+Achieved Revenues index, which serves as a proxy for the wind farm’s expected revenue.
+The key elements of an Achieved Revenue swap include:
+1. The chosen Achieved Revenue Index: The contract defines the Achieved Revenue index that
+serves as a proxy for the wind farm’s actual revenue. This could be a standard index if the
+relationship between the asset base and the standard index is sufficiently close, or a usertailored index based on a specific asset base.
+2. The financial institution agrees to make payments to the wind farm operator based on the
+predetermined revenue index if the farm modelled revenue is below a certain strike value.
+These payments are intended to compensate the operator for any shortfall in actual revenue
+compared to the expected revenue defined by the index.
+3. Conversely, if the wind farm’s actual revenue exceeds the expected revenue, the wind farm
+operator is required to make variable payments to the counterparty. These payments act as a
+form of deductible or excess sharing mechanism, aligning the interests of both parties.
+4. Contract Term: The contract typically has a predetermined term during which the revenue
+swap is in effect. This term is agreed upon by both parties and can vary based on the specific
+needs and circumstances of the wind farm project.
+Typically, the fixed and variable payments are merged into a contract for difference (swap) as
+illustrated below:
+
+Hedging Strategy using Achieved Revenue Swap
+
+Page | 11
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+The trading strategy would be:
+1. OPERATION 1 – Sell the actual wind portfolio generation on the day-ahead market with
+physical delivery every day.
+2. OPERATION 2 – Sell an Achieved Revenues swap with the following characteristics:
+• Risk Period: January
+• Number of Contracts: 1
+• Strike = Expected Revenues
+
+Page | 12
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+The following table shows the detail for one day:
+
+Hour
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+Average
+
+Expected
+Expected Expected Volume Realised
+Realised
+Volume
+Price
+* Expected Price
+Volume
+Price
+8,500
+50
+425,000
+8,244
+47
+10,489
+50
+524,450
+10,526
+49
+8,361
+50
+418,050
+7,928
+47
+5,695
+50
+284,750
+5,689
+49
+6,888
+50
+344,400
+7,178
+45
+8,759
+50
+437,950
+8,769
+54
+6,259
+60
+375,540
+6,196
+60
+5,997
+75
+449,775
+6,223
+75
+9,363
+85
+795,855
+9,540
+88
+5,956
+85
+506,260
+5,863
+84
+9,130
+83
+757,790
+9,328
+78
+11,495
+75
+862,125
+11,689
+80
+8,673
+70
+607,110
+8,648
+75
+5,670
+72
+408,240
+5,480
+69
+9,340
+72
+672,480
+9,143
+67
+10,913
+75
+818,475
+11,379
+75
+10,479
+80
+838,320
+10,293
+82
+10,738
+90
+966,420
+10,646
+92
+10,817
+100
+1,081,700
+11,080
+96
+10,866
+110
+1,195,260
+11,022
+113
+6,198
+100
+619,800
+5,864
+104
+5,651
+80
+452,080
+6,063
+79
+10,874
+70
+761,180
+11,320
+73
+8,673
+50
+433,650
+8,806
+49
+8,574
+
+72
+
+Sum
+
+626,528
+
+8,622
+
+15,036,660
+Swap Strike
+Swap Payoff
+Realised Revenues
+Swap Payoff + Realised
+Revenues
+
+72
+
+Realised
+Volume *
+Realised
+Price
+387,468
+515,774
+372,616
+278,761
+323,010
+473,526
+371,760
+466,725
+839,520
+492,492
+727,584
+935,120
+648,600
+378,120
+612,581
+853,425
+844,026
+979,432
+1,063,680
+1,245,486
+609,856
+478,977
+826,360
+431,494
+631,516
+15,156,393
+
+15,036,660
+-119,733
+15,156,393
+matches the Expected Revenues!
+15,036,660 …the revenues were locked in.
+
+By selling a wind power Achieved Revenue swap, wind farm operators can reduce their exposure to
+revenue uncertainties caused by fluctuations in power prices and wind resource availability. This type
+of risk management tool can provide greater financial stability, help attract investment, and facilitate
+the financing of wind energy projects.
+Page | 13
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+This index can easily be accommodated to cover other scenarios. For example, the seller of a Pay-asProduced PPA may fix the price in the formula and sell an OTC swap based on the following index to
+hedge its revenues:
+𝑁
+
+1
+𝑅𝑒𝑣𝑒𝑛𝑢𝑒𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑑 =
+∑ 𝑉(ℎ) × 𝑃𝑓𝑖𝑥𝑒𝑑
+𝐶𝑜𝑛𝑠𝑡𝑎𝑛𝑡
+ℎ=1
+
+Where 𝑃𝑓𝑖𝑥𝑒𝑑 is the fixed price of power agreed in the PPA and the Constant is simply a factor to hedge
+the desired fraction of the risk.
+On its side, a Pay-as-Produced PPA offtaker who resells the power to the market is exposed to this
+risk:
+𝑁
+
+1
+𝑅𝑒𝑣𝑒𝑛𝑢𝑒𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑑 =
+∑ 𝑉(ℎ) × (𝑃(ℎ) − 𝑃𝑓𝑖𝑥𝑒𝑑 )
+𝐶𝑜𝑛𝑠𝑡𝑎𝑛𝑡
+ℎ=1
+
+Which reads as: the sum of the hourly volume multiplied by the difference between price the offtaker
+sells the power in the market at and the price it is buying it from the producer.
+
+Achieved Price Index
+The second index is the Achieved Price Index which is a measure of the actual price received on a
+weighted basis per MWh:
+
+This index may be used to assess the comparative economic performance or value generation of a
+number of different wind power projects in a portfolio or for hedging purposes.
+The wind power Achieved Price refers to the average price at which a wind power generator sells its
+power output in the market. It represents the revenue earned per unit of power produced by the wind
+farm. This Achieved Price can vary depending on various factors, including power market prices,
+contractual agreements, subsidies, and grid integration costs.
+A trader may sell a swap, as discussed above, or buy put options on an Achieved Price index to
+guarantee a minimum achieved price. The example below illustrates the benefit of buying a put
+option:
+
+Page | 14
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Hedging Strategy using Achieved Price Put Option
+
+The trading strategy would be:
+1. OPERATION 1 – Sell the actual wind portfolio generation on the day-ahead market with
+physical delivery every day.
+2. OPERATION 2 – Buy Achieved Price Put options with the following characteristics:
+• Risk Period: January
+• Number of Contracts: Expected Volume
+• Strike = a percentage of the Expected Price
+
+The following Table shows the detail for one day:
+
+Hour
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+Realised
+Expected Expected Expected Volume
+Realised Realised
+Volume *
+Volume
+Price
+* Expected Price
+Volume Price
+Realised Price
+8,500
+50
+425,000
+8,883
+40
+355,320
+10,489
+50
+524,450
+10,867
+40
+434,680
+8,361
+50
+418,050
+8,527
+40
+341,080
+5,695
+50
+284,750
+5,629
+40
+225,160
+6,888
+50
+344,400
+7,030
+40
+281,200
+8,759
+50
+437,950
+8,723
+40
+348,920
+6,259
+60
+375,540
+5,909
+50
+295,450
+5,997
+75
+449,775
+6,425
+65
+417,625
+9,363
+85
+795,855
+9,016
+75
+676,200
+Page | 15
+
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+Average
+Sum
+
+5,956
+9,130
+11,495
+8,673
+5,670
+9,340
+10,913
+10,479
+10,738
+10,817
+10,866
+6,198
+5,651
+10,874
+8,673
+
+85
+83
+75
+70
+72
+72
+75
+80
+90
+100
+110
+100
+80
+70
+50
+
+506,260
+757,790
+862,125
+607,110
+408,240
+672,480
+818,475
+838,320
+966,420
+1,081,700
+1,195,260
+619,800
+452,080
+761,180
+433,650
+
+5,494
+9,045
+11,963
+8,758
+6,085
+8,952
+10,707
+10,069
+10,454
+10,743
+10,566
+6,559
+5,194
+11,163
+8,397
+
+75
+73
+65
+60
+62
+62
+65
+70
+80
+90
+100
+90
+70
+60
+40
+
+412,050
+660,285
+777,595
+525,480
+377,270
+555,024
+695,955
+704,830
+836,320
+966,870
+1,056,600
+590,310
+363,580
+669,780
+335,880
+
+8,574
+
+72.17
+
+626,528
+
+8,548
+
+62.17
+
+537,644
+
+15,036,660
+
+205,158
+
+205,784
+Expected Achieved Price per
+MWh
+Number of Put Options
+Put Strike
+Sum Put Payoffs
+Realised Revenues
+Total Put Payoff + Realised
+Revenues
+
+12,903,464
+
+73.07
+205,784
+65
+583,0553
+12,903,464
+The put options served their purpose
+13,486,519 and hedged the revenues
+
+Conclusion: The Achieved Price put option has protected some of the losses as intended. It is, however,
+not as “perfect” a hedging strategy as selling a swap on the Achieved Revenues index.
+
+3
+
+Ie (65-62.17)*205,784
+
+Page | 16
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Quality Factor Index
+The third and final index is the Quality Factor (QF) Index which is a measure of the Achieved Price
+divided by the Baseload Price. It is sometimes described as the Capture Rate:
+
+This index is, by definition, a measure of price cannibalisation. Renewable power price cannibalisation
+refers to a phenomenon that occurs when the increasing deployment of renewable energy sources,
+particularly intermittent sources like wind and solar, leads to a decline in power prices that can
+negatively impact the revenue and profitability of existing renewable energy projects.
+The key concept behind renewable power price cannibalisation is the interaction between supply and
+demand dynamics in the power market. As more renewable energy projects are added to the grid,
+their intermittent generation patterns can result in periods of high renewable energy supply, leading
+to an excess of power generation compared to demand. During these periods, renewable energy
+sources may bid their power output into the market at very low or even negative prices in order to
+ensure dispatch, gain from guarantee of origin certificates4, and avoid curtailment.
+In simple terms, the higher the QF value the better the situation is for a renewable energy generator
+or offtaker selling its power to the market.
+In most countries and regions, we see the QF value in a long-term downward trend as shown on this
+graph representing the monthly QF values for Solar Power Generation in the Netherlands:
+
+4
+
+A Guarantee of Origin (GO) is a tradable commodity that represents a claim to the environmental benefits
+associated with renewable power generation. GOs are traded electronically in the voluntary market for
+renewable energy certificates and are not tied to the physical delivery of electricity.
+A GO indicates the generation of one megawatt hour (MWh) of electricity from an eligible source of renewable
+power. Each GO denotes the underlying generation source, location of generation, and year of generation (a.k.a.
+“vintage”). The trading market in Europe includes GOs from wind, hydropower, solar PV, geothermal and
+biomass sources for now.
+
+Page | 17
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Let us consider a scenario where a trader manages a wind generation portfolio with the following
+characteristics:
+•
+•
+•
+
+For the first quarter of the year, the expected generation is 300,000 MWh.
+The Expected QF Value over the quarter is 0.9
+Based on listed futures contracts, the anticipated average EPEX SPOT baseload price for the
+quarter is EUR 60 per MWh.
+
+Hedging Strategy, Addressing Price Cannibalisation using a Quality Factor Put Option
+The trader sells the power to the market on a daily basis and is concerned that the Quality Factor may
+degrade below a “pain threshold” of 0.85. To hedge this risk, the trader buys QF Put options where
+the payout is linked to the Baseload Price*:
+•
+•
+
+Number of Put options: 300,000 * Expected Baseload Price
+Strike: 0.85
+
+Page | 18
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+For simplicity, let us assume that there is no volume and no baseload price risk, but that the Quality
+Factor degraded and settled at 0.8.
+Then, instead of achieving a revenue equal to:
+Expected Generation * Expected QF * Price per MWh = 300,000 * 0.9 * 60 = EUR 16,200,000
+The trader’s realised revenues are notably lower:
+Realised Generation * Realised QF * Realised Baseload Price5
+= 300,000 * 0.8 * 60 = EUR 14,400,000
+The trader however gains from the purchased Put options:
+= Number of Put options * (Strike – Realised QF) * Expected Baseload Price
+= 300,000 * (0.85 – 0.8) * 60
+= EUR 900,000
+Hence, the total hedged revenues that combine the daily sell of the power to the market and the
+purchase of the Put options are: EUR 14,400,000 + EUR 900,000 = EUR 15,300,000
+
+Conclusion: the trader has hedged its position against a low realised Quality
+Factor. A similar strategy based on selling a QF swap can be envisaged.
+
+5
+
+In this example as we have stated there is no baseload price risk, Realised and Expected Baseload price are
+the same
+
+Page | 19
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Possible Hedging Strategies using the Quality Factor Index – A step by
+step use case
+The previously illustrated strategies work well and are easy to set up. However, in this section,
+alternative strategies are explored to better understand the various risks and see how to mix and
+combine hedges to achieve different level of protections. In particular, we will see how a renewable
+energy company may further build its hedging strategy around its existing baseload power future price
+position.
+Let us consider a scenario where a trader manages a wind generation portfolio with the following
+characteristics:
+•
+•
+•
+
+The wind portfolio has an installed capacity of 1000 MW.
+The long-term average load factor for the month of January is 25%.
+The expected generation for January is calculated as
+January Expected Generation = 1000 MW * 0.25 * 24 * 31
+= 186,000 MWh
+
+•
+
+•
+•
+
+The wind farms are located in Germany and are geographically well-distributed. It is
+assumed that there is no difference in the Quality Factor (QF), Achieved Price (AP), or
+Achieved Revenue (AR) between the portfolio and the German market (i.e. perfect
+correlation).
+January Expected QF Value = 0.9
+Based on listed futures EEX contracts, the anticipated average EPEX SPOT baseload price for
+January is EUR 38.888 per MWh.
+
+At the start of the month, without any hedge in place, the Expected Revenue is:
+𝑁
+
+=∑𝑖=𝑖 𝑉(ℎ) × 𝑃(ℎ)
+𝑁 𝑉(ℎ)×𝑃(ℎ)
+̅×𝑃̅
+𝑉
+
+̅ × 𝑃̅ × ∑𝑖=𝑖
+=𝑉
+̅×𝑷
+̅ × 𝑸𝑭
+=𝑽
+Which reads as:
+
+= Expected Generation * Expected Baseload Price * Expected QF
+= 186,000 * 38.888 * 0.9
+= EUR 6,509,851
+During the month of January, the trader may simply sell all the wind generation forecasts on EPEX
+SPOT day-ahead German auctions. This crude strategy relies on good fortune when it comes to the
+timing and the volume of the generated power and the matching day-ahead prices for each hour.
+Hence, the trader may prefer to reduce the volatility of its earnings and secure its revenues.
+
+Page | 20
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Scenario 1: WITH Price risk, NO Volume Risk, and NO QF Risk - Using only Power Futures
+Let us review the case where the trader hedges their position using only EEX Power Futures.
+To do so, the trader enters into the following two strategies:
+1. OPERATION 1 - Sell the actual wind portfolio generation on the German day-ahead market
+with physical delivery every day.
+2. OPERATION 2 - Sell "German Power Futures" with the following characteristics:
+• Risk Period: January
+• Traded Volume: Expected Generation x QF
+= 186,000 * 0.9
+= 167,400 MWh6
+• Expected Price = Contract price = EUR 38.888 per MWh
+Please note that the expected Achieved Price at which the expected generation is sold is:
+Expected Achieved Price = Expected Baseload Price * QF = 38.888 * 0.9 = EUR 35 per MWh
+In this first scenario, we assume there is price risk, but there is neither Volume nor QF risk.
+•
+•
+•
+
+The realised EPEX SPOT DAM average baseload price (Realised Price) is EUR 40 per MWh
+There is no QF Risk, so Settlement QF Value = Expected QF Value = 0.9
+There is no Volume risk, so Realised wind power generation = Expected generation =
+186,000 MWh
+
+The total revenues are calculated as the sum of:
+
+Revenues from the sales on the EPEX SPOT day-ahead market
+•Realised QF * Realised Generation * Realised price
+•= 0.9 * 186,000 * 40
+•= EUR 6,696,000
+
+Revenues from the Financial Power Future
+•Traded Volume * (Expected EPEX SPOT DAM average baseload price - Realised price)
+•= 167,400 MWh * (38.888 - 40)
+•= EUR -186,149
+
+Total Revenue = 6,696,000 – 186,149 = EUR 6,509,851
+
+The total revenues amount to EUR 6,509,851, which matches the expected
+Revenue. Thus, the price risk has been effectively managed with this strategy
+when there is neither volume nor QF risk.
+
+6
+
+167,400 MWh for the month of January is equivalent to 167400/31/24 = 225 1MW January Future Contracts
+
+Page | 21
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Scenario 2: WITH Price risk, NO Volume Risk, and WITH QF Risk Using Only Power Futures
+In this second scenario, we assume there are both price and QF risks but that there is still no volume
+risk. The hedging strategy is the same as Scenario 1
+•
+•
+•
+
+The realised EPEX SPOT Day Ahead Market average baseload price is EUR 40 per MWh
+The realised QF settles at: 0.75
+There is no Volume risk => Realised wind power generation = Expected generation = 186,000
+MWh
+
+The total revenues are calculated as the sum of:
+
+Revenues from the sales on the EPEX SPOT day-ahead market
+•Realised QF * Realised Generation * Realised Price
+•= 0.75 * 186,000 * 40
+•= EUR 5,580,000
+
+Revenues from the Financial Power Future
+•Traded Volume * (Expected EPEX SPOT DAM average baseload price - Realised Price)
+•= 167,400 MWh * (38.888 - 40)
+•= EUR -186,149
+
+Total Revenue = 5,580,000 – 186,149 = EUR 5,393,851
+
+The total revenues amount to EUR 5,393,851, which is less than the expected
+revenue and corresponds to only EUR 29 per MWh. This example shows that a
+combination of EEX baseload financial futures and selling on the day-ahead
+market can hedge the price risk but not the QF risk.
+
+Page | 22
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Scenario 3: WITH Price risk, NO Volume Risk, and WITH QF Risk using Power Futures and QF
+Contracts
+In this third scenario we assume, as per scenario 2, that there are both price and QF risks but that
+there is still no volume risk.
+Using a risk-transfer contract that uses QF as the underlying asset, the trader performs the following
+three operations:
+
+As before
+
+1. OPERATION 1 - Sell the actual wind portfolio generation on the German day-ahead market
+with physical delivery every day.
+2. OPERATION 2 - Sell "German Power Futures" with the following characteristics:
+• Risk Period: January
+• Traded Volume: Expected Generation x Expected QF
+= 186,000 * 0.9
+= 167,400 MWh
+• Contract price: EUR 38.888 per MWh
+Please note that the Expected Achieved Price at which the expected generation is sold is:
+Achieved Price = Baseload Price * QF = 38.888 * 0.9 = EUR 35 per MWh
+3. OPERATION 3 - Sell an OTC German QF swap with the following characteristics:
+• Risk Period: January
+• Number of QF units: Expected generation of the portfolio
+= 186,000
+• Expected QF = QF Strike = 0.9
+• Payoff Formula = Expected Generation * (QF Strike – Realised QF) * Realised Baseload
+Price
+
+Page | 23
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+•
+•
+•
+
+The realised EPEX SPOT DAM average baseload price is EUR 40 per MWh
+The realised QF settles at: 0.75
+There is no Volume risk => Realised wind power generation = Expected generation = 186,000
+MWh
+
+The total revenues are calculated as the sum of:
+
+Revenues from the sales on the EPEX SPOT day-ahead market
+•Realised QF * Realised Generation * Realised Price
+•= 0.75 * 186,000 * 40
+•= EUR 5,580,000
+
+Revenues from the Financial Power Future
+•Traded Volume * (Expected EPEX SPOT DAM average baseload price - Realised Price)
+•= 167,400 MWh * (38.888 - 40)
+•= EUR -186,149
+
+Revenues from the QF OTC Swap
+•Number of QF Contracts * (QF Strike - Realised QF) * Realised Price
+•= 186,000 MWh * (0.9 - 0.75) * 40
+•= EUR 1,116,000
+
+Total Revenue = 5,580,000 – 186,149 + 1,116,000 = EUR 6,509,851
+
+The total revenues amount to EUR 6,509,851, which matches the expected
+revenue, despite the realised QF being different from the expected QF. By
+combining these three operations, and assuming there is no volume risk, the
+trader can lock in a revenue equal to the number of German Power futures
+multiplied by the DE Power Financial Future price (167,400 * 38.888 = EUR
+6,510,000, equivalent to EUR 35 per MWh).
+
+Page | 24
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Scenario 4: WITH Price risk, WITH Volume Risk, and WITH QF Risk - Using Power Futures and
+QF Contracts
+In this fourth scenario, there is price, volume and QF risk. The hedging strategy is the same as Scenario
+3
+•
+•
+•
+
+The realised EPEX SPOT DAM average baseload price is EUR 40 per MWh
+The realised QF settles at: 0.75
+The Realised wind power generation = 170,000 MWh
+
+The total revenues are calculated as the sum of:
+
+Revenues from the sales on the EPEX SPOT day-ahead market
+•Realised QF * Realised Generation * Realised price
+•= 0.75 * 170,000 * 40
+•= EUR 5,100,000
+
+Revenues from the Financial Power Future
+•Traded Volume * (Expected EPEX SPOT DAM average baseload price - Realised price)
+•= 167,400 MWh * (38.888 - 40)
+•= EUR -186,149
+
+Revenues from the QF OTC Swap
+•Number of QF Contracts * (QF Strike - Realised QF) * Realised Price
+•= 186,000 MWh * (0.9 - 0.75) * 40
+•= EUR 1,116,000
+
+Total Revenue = 5,100,000 – 186,149 + 1,116,000 = EUR 6,029,851
+
+The total revenues amount to EUR 6,029,851
+This is less than the expected EUR 6.5Mln due to the volume risk.
+
+Page | 25
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Scenario 5: WITH Price risk, WITH Volume Risk, and WITH QF Risk - Using Power Futures, QF
+Contracts and Wind Power Volume Swap
+In this fifth scenario we replay the situation of Scenario 4 but with a different hedging strategy.
+This time, the trader performs the following four operations:
+1. OPERATION 1 - Sell the actual wind portfolio generation on the German day-ahead market
+with physical delivery every day.
+
+As before
+
+2. OPERATION 2 - Sell "German Financial Power Futures" with the following characteristics:
+• Risk Period: January
+• Traded Volume: Expected Generation x QF = 186,000 * 0.9 = 167,400 MWh
+• Contract price: EUR 38.888 per MWh
+Please note that the Achieved Price at which the expected generation is sold is:
+Achieved Price = Baseload Price * QF = 38.888 * 0.9 = EUR 35 per MWh
+3. OPERATION 3 - Sell an OTC "German QF Swap" with the following characteristics:
+• Risk Period: January
+• Number of QF units: expected generation of the portfolio = 186,000 contracts
+• QF Strike: 0.9
+• Payoff Function= Expected Generation * (QF Strike – Realised QF) * Realised Baseload
+Price
+4. OPERATION 4 - Sell a Germany Speedwell Climate Wind Power Volume OTC Swap with the
+following characteristics:
+• Risk Period: January
+• The Settlement Index value is defined as the ratio between the Speedwell index
+calculated over the period and the expected generation (186,000MWh)
+• Strike: 1
+• Payoff Formula: (Strike – Realised Settlement Index Value) * Realised Baseload Price *
+Expected generation * Realised QF
+
+Page | 26
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+•
+•
+•
+•
+
+The realised EPEX SPOT DAM average baseload price is EUR 40 per MWh
+The realised QF settles at: 0.75
+The Realised wind power generation index value = 170,000 MWh
+Assuming a perfect correlation between the portfolio and the Speedwell German Volume
+Index this means the Swap settlement index value = 170,000/186,000 = 0.9140
+
+The total revenues are calculated as the sum of:
+
+Revenues from the sales on the EPEX SPOT day-ahead market
+•Realised QF * Realised Generation * Realised price
+•= 0.75 * 170,000 * 40
+•= EUR 5,100,000
+
+Revenues from the Financial Power Future
+•Traded Volume * (Expected EPEX SPOT DAM average baseload price - Realised price)
+•= 167,400 MWh * (38.888 - 40)
+•= EUR -186,149
+
+Revenues from the QF OTC Swap
+•Number of QF Contracts * (QF Strike - Realised QF) * Realised Price
+•= 186,000 MWh * (0.9 - 0.75) * 40
+•= EUR 1,116,000
+
+Revenues from the Wind Power Volume Swap
+•(Strike - Index) * Realised Baseload Price * Expected generation * Realised QF
+•=(1-0.9140) * 40 * 186,000 * 0.75
+•=EUR 479,880
+
+Total Revenue = 5,100,000 – 186,149 + 1,116,000 + 479,880 = EUR 6,509,731
+
+The total revenues amount to EUR 6,509,731.
+This strategy achieves a perfect hedge!
+
+Page | 27
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Please note that if the Speedwell Wind Power Volume OTC Swap payoff formula had been based on
+the expected rather than the realised QF value, this would have led to:
+
+Revenues from the sales on the EPEX SPOT day-ahead market
+•Realised QF * Realised Generation * Realised price
+•= 0.75 * 170,000 * 40
+•= EUR 5,100,000
+
+Revenues from the Financial Power Future
+•Traded Volume * (Expected EPEX SPOT DAM average baseload price - Realised price)
+•= 167,400 MWh * (38.888 - 40)
+•= EUR -186,149
+
+Revenues from the DE QF Financial Future
+•Number of QF Contracts * (QF Strike - Realised QF) * Realised Price
+•= 186,000 MWh * 38.888 * (0.9 - 0.75) * 40
+•= EUR 1,116,000
+
+Revenues from the Wind Power Volume Swap
+•(Strike - Index) * Realised Baseload Price * Expected generation * Expected QF
+•=(1-0.9140) * 38.888 * 186,000 * 0.9
+•=EUR 559,847
+
+Total Revenue now= 5,100,000 – 186,149 + 1,116,000 + 559,847 = EUR 6,589,698
+The hedge is then imperfect. However, given the QF value is fixed before the trade happens, it might
+be easier to find a counterparty for it.
+
+Page | 28
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Conclusion
+Managing a portfolio of Power Purchase Agreements (PPAs) presents several challenges, including
+volume risk, Quality Factor risk, baseload price risk, and more. These risks need to be carefully
+addressed to ensure effective portfolio management.
+Volume risk refers to the uncertainty surrounding the actual output of the power generation facilities
+covered by the PPAs. The Quality Factor risk relates to the ability to sell the contracted energy at
+favourable prices in the market. Market conditions, demand-supply dynamics, and competition can
+influence the Quality Factor, which may deviate from the expected value.
+Baseload price risk pertains to the exposure to fluctuations in the prices of baseload power, which
+serves as the foundation of energy markets. Variations in fuel costs, regulatory changes, and shifts in
+market dynamics can impact the price of baseload power. Effective risk management strategies, such
+as diversification and hedging mechanisms, can assist in mitigating this risk.
+Managing these risks requires a comprehensive and adaptive approach, including ongoing monitoring,
+rigorous analysis, and proactive adjustments to the portfolio. By actively addressing these challenges,
+stakeholders can enhance their ability to optimise PPA portfolio performance and navigate the
+complexities of the energy market successfully.
+
+Using the Speedwell Wind Power indices to hedge volume risk, EEX Power Futures
+for price risk and the Renewable Power Quanto EPEX SPOT/Speedwell Climate
+indices, it is possible to setup many different strategies to reduce the volatility of
+earnings.
+
+Page | 29
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Based on the risk appetite of the renewable energy company, it is possible to develop hedging
+strategies that encompass or address volume, price and QF risk with the following indices:
+Strategy
+
+Volume
+Risk
+
+Price
+Risk
+
+QF Risk
+
+Speedwell Wind Power Volume Swap
+(OTC)
+Achieved Revenue Swap (OTC)
+
+Achieved Price Put Option (OTC)
+
+EPEX/Speedwell QF Swap (OTC)
+
+EEX Power Futures (Listed)
+
+EEX Power Future (Listed)
++ EPEX/Speedwell QF Swap (OTC)
+
+EEX Power Future (Listed)
++ EPEX/Speedwell QF Swap (OTC)
++ Speedwell Wind Power Volume Swap
+(OTC)
+
+Market participants are increasingly aware of power price cannibalisation (long-term decline in Quality
+Factor) as well as the impact of shorter-range volatility in the QF. The availability of tradeable indices
+for hedging purposes, whether to mitigate Volume, Shape or Cannibalisation Risk associated with their
+own assets or portfolios of PPAs allows participants to manage these risks in the OTC market.
+Hedging pure volume risks is easily done using a Speedwell Wind Power OTC Swap. This works well for
+sellers of Pay-as-Produced PPAs as an example. For more complex situations with volume and price
+risks, hedging using an Achieved Revenue OTC Swap is probably the simplest strategy to consider.
+Hedging using an Achieved Price OTC Put/Swap or QF OTC Swap offer good hedges for specific risk
+such as: price and cannibalisation risks.
+The second set of strategies we have discussed is built around existing positions on the EEX power
+futures as Renewable Power companies may already have. Starting from this position, we have shown
+how to extend hedging using the Speedwell Wind Power Generation Volume indices and the
+EPEXSPOT/Speedwell Quality Factor index. The hedges can be partial or complete as may be desired.
+
+Page | 30
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+In conclusion, this new set of indices offer notable advantages and flexibilities as they can be adapted
+to cover multiple risks and use cases. We hope that these examples have provided useful insights. If
+you have any further inquiries or require additional information, please do not hesitate to contact us.
+We welcome the opportunity to assist you in any way we can.
+
+Dr Michael Moreno
+Co-CEO Speedwell Climate
+michael.moreno@speedwellclimate.com
+
+Page | 31
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Hedging Strategies Cheat Sheet
+This cheat sheet summarizes what strategies may be used when hedging revenues in the market:
+
+Page | 32
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Reference Index Availability – Standard Countries/Regions
+New indices are constantly being produced according to demand. If an index is not shown below,
+please contact us.
+
+Renewable Power Quanto EPEX SPOT/Speedwell Climate Indices – Combined
+Price/Volume Risk
+Launched in partnership with EPEX SPOT, Achieved Revenue, Achieved Price and Quality Factor index
+histories and feeds designed for OTC risk-transfer are available for wind generation for the following
+countries/regions:
+Belgium, Finland, France, Germany, Great Britain, Netherlands, Norway BZ1-4, Sweden BZ1-4, Norway
+Likewise, for solar power generation the following countries are available:
+Belgium, Germany, Great Britain, Netherlands
+Historical data may be purchased either from Speedwell Climate or from the EPEX SPOT online shop.
+Historical data provides a synthetic history going back from 4 to 9 years depending on country but
+excludes the most recent period of between 3 and 6 months.
+Up-to-date data for final pricing of risk-transfer contracts are available from Speedwell Settlement
+Services. Real-time feeds for valuation and settlement of risk-transfer contracts are also available from
+Speedwell Settlement Services. The charges for settlement feeds are dependent on transaction size
+and term.
+https://www.speedwellsettlementservices.com/
+
+Speedwell Climate Wind Power Indices – Volume Risk
+Speedwell Wind Power Indices for OTC risk-transfer of volume risk are available for the following
+countries/regions:
+Europe: Belgium, Denmark, Finland, France, Great Britain (ie UK exc NI), Germany Onshore, Germany
+Offshore, Germany Total, Ireland, Italy North, Italy South, Italy Total, Netherlands, Norway, Portugal
+Continental, Spain, Sweden, Turkey, UK BM Offshore, UK BM Onshore, UK Embedded, UK Residual
+Wind Farms, UK Total.
+USA: CAISO, MISO, ERCOT Coastal, ERCOT North, ERCOT Panhandle, ERCOT South, ERCOT West,
+ERCOT Total
+Australia: NEM, NSW, QLD, SA, Victoria, WA, WEM.
+
+Page | 33
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Speedwell Climate Solar Power Indices – Volume Risk
+Speedwell Solar Power Indices for risk-transfer of volume risk are available for the following
+countries/regions:
+Europe: Belgium, Germany, Netherlands, Spain, Great Britain
+Australia: Australia Victoria
+
+Client-Specific Indices
+We are also able to provide custom reference indices to match specific clients’ assets on request.
+Please contact Speedwell Climate.
+https://www.speedwellclimate.com/
+
+Page | 34
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Data Sources for Renewable Power Quanto Indices
+All three types of Renewable Power Quanto Indices combine physical power price and modelled
+power generation. The sources are as follows:
+
+Power Price Data
+Power price data are provided by EPEX SPOT: https://www.epexspot.com/
+The European Power Exchange EPEX SPOT SE and its affiliates operate physical short-term power
+markets in 13 countries: in Central Western Europe, the United Kingdom, Switzerland, the Nordics and
+in Poland. Furthermore, EPEX SPOT newly offers local flexibility markets solution and Guarantees of
+Origin auctions, to foster the integration of renewable energy sources and to enhance the engagement
+of consumers and producers in the power market.
+As part of EEX Group, a group of companies serving international commodity markets, EPEX SPOT is
+committed to the creation of a pan-European power market. Over 300 members trade power on EPEX
+SPOT. 49% of its equity is held by HGRT, a holding of transmission system operators.
+For more information, please visit www.epexspot.com.
+
+Solar and Wind Power Volume Data
+Solar and Wind Power modelled production data are products provided by Speedwell Climate:
+https://www.speedwellclimate.com/
+
+Page | 35
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Trading the Renewable Power Quanto Indices on the OTC Market
+Most energy market participants are familiar with exchange-traded instruments which are usually
+cleared through a central counterparty. This document has referenced the EEX power futures in this
+context. Currently, however, there is no exchange-based platform for price discovery or execution for
+the Renewable Power Quanto Indices discussed in this paper. This means that “price discovery” and
+execution do not happen on the exchange but are arranged by negotiation bilaterally on the over-thecounter (OTC) market.
+
+Example: Taking a Quality Factor Hedge to the OTC Market
+In this example we look at the typical workflow necessary to implement a Quality Factor hedge. We
+consider an asset holder with a portfolio of wind farms in the UK. The process can be deconstructed
+into these stages:
+1 Determine Reference Index to use
+If the wind farm assets correlate sufficiently well with a given country QF Index, then this index should
+be used as other market participants are likely to have some familiarity and possibly existing open
+positions possibly leading to more favourable pricing. The alternative is to request a client-specific
+index based on the specific wind assets in the portfolio (this could include partially owned assets). To
+make this determination the hedger would request the Speedwell Wind Power Volume Index for the
+chosen country to perform a correlation study. If a client-specific basket is required, please contact
+Speedwell Climate.
+2 Determine the Risk Period required
+Standard periods for all three index types are monthly, quarterly and winter/summer seasons.
+Multiple seasonal periods can be used to construct multi-year transactions as required.
+3 Request the hourly historical data for the required index (Eg Great Britain 2022 Quality Factor)
+This data set may be used for initial structuring and pricing.
+4 Determine the desired transaction type
+Informed by an analysis of the trend and volatility in the QF variable and the financial risks to be
+protected, a typical asset holder might be interested in selling a QF swap (to protect against a declining
+QF) or buying a put. In the case of the former, the swap would generally be transacted as a zeropremium swap with a strike at an assessment of “fair value” that suits both seller and buyer. In the
+case of the latter, the asset holder’s “pain threshold” would determine the level of the strike at which
+the put option starts to pay out. Clearly, the purchase of a put option implicates the payment of a
+premium. The choice of swap vs put is a strategic decision.
+5 Determine the number of “QF Units”, or Transaction Size.
+This will be all or (usually) part of the expected energy output of the windfarm over the Risk Period.
+
+Page | 36
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+6 Determine the Payoff Function
+With Quality Factor it is likely that the ideal hedge involves the multiplication of the settled QF value
+by the corresponding baseload outturn price for the transaction period as discussed in the examples
+above:
+Payoff Function = Expected Generation (MWh) * (QF Strike – Realised QF) * Realised Baseload Price
+It might, however, be expedient to implement an imperfect hedge by assuming a fixed power price.
+This may attract more competitive pricing by virtue of relative simplicity:
+Payoff Function = Expected Generation (MWh) * (QF Strike – Realised QF) * Assumed Fixed Baseload
+Price
+7 Set Financial Caps
+In the above examples, caps have not been considered for simplicity. However, in parametric risk
+transfer contracts, payouts are usually capped to help limit the size of required credit risk lines. Caps
+are usually represented as a maximum currency value (e.g. EUR) and will normally apply symmetrically
+in the case of swaps. The cap should be placed at a level consistent with an estimate of the “worst
+case” outturn. Historical data may inform this decision.
+
+8 Identify possible counterparties with whom to trade
+We expect a number of brokers to start supporting markets in these indices for the standard periods.
+Please contact Speedwell Climate for any required introductions. We may also be able to directly
+introduce companies who we are aware have traded or are interested in trading these indices. Again,
+please contact Speedwell Climate for introductions. For the removal of doubt, Speedwell Climate has
+no direct or indirect financial interest in making such introductions.
+9 Confirm Licence Fee cost for Settlement Feeds
+Having identified a suitable counterparty (which clearly encompasses issues of transaction price and
+availability of credit lines and agreeing ISDA documents), contact Speedwell Settlement Service (SSS)
+to confirm the licence fee for the necessary real-time data feeds for the required index (eg Quality
+Factor; Great Britain 2022; Winter 23-24). The licence fee is dependent on the length of the Risk Period
+and transaction size.
+10 Agree the Term Sheet.
+The Term Sheet summarises all of the moving parts of the transaction. This includes details of
+settlement period. Note that the data feeds run with a delay meaning that the final settlement is
+usually made at period end + 5 days. The settlement details defined on the Term Sheet need to reflect
+the details of the feed provided by SSS. A specification of this is provided when a contract is entered
+into with SSS for the licence for the feeds.
+11 Execute transaction and requests data feeds from SSS
+12 Monitor transaction over Term and then determine final payoff at business D+5
+Note that the Settlement Data feeds take two forms:
+Page | 37
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Initial Settlement Data: Initial settlement data is produced with a one-day lag. Given the delay in ERA5
+publishing data Speedwell uses the ECMWF forecast data to generate an estimated ERA5 dataset. This
+initial ERA5 dataset is then processed through the index model to produce initial index values. While
+serving as a proxy for the final index values, the initial values are subject to potential changes upon
+the release of the actual ERA5 dataset.
+Final Settlement Data
+Final settlement data is produced with the publication of the ERA5 reanalysis dataset, which has a
+five-day lag. These final values are considered definitive and will not be modified thereafter.
+
+Speedwell Climate LinkedIn Mini Articles
+The following LinkedIn mini articles may be useful (most recent articles are at the top):
+
+Speedwell 2022b vs Germany ENTSOE onshore metered data
+An analysis of performance of the Speedwell index which is based on modelled generation data using
+the asset base frozen as of 2022 versus actual production data
+https://www.linkedin.com/posts/michaelmoreno_speedwell-wind-power-index-for-germanyactivity-7076461696914989056-FY7t
+
+Solar Power Generation Modelling – the US NY ISO Case
+https://www.linkedin.com/posts/michaelmoreno_solar-solarenergy-solarpower-activity7069240269262450688-BxpL
+
+Solar Power Generation in Germany – Average Daily Quality Factor
+https://www.linkedin.com/posts/michaelmoreno_solar-powergeneration-capturerate-activity7051815464364044288-eQ_g
+
+Germany Solar Power Generation Hedging Power Price Cannibalisation
+https://www.linkedin.com/posts/michaelmoreno_solar-solarpower-renewables-activity7051457396962947072-CL3g
+
+Are Hybrid Wind and Solar Farms the Future?
+https://www.linkedin.com/posts/michaelmoreno_renewableenergy-powertrading-wind-activity7049293841505366016-woAW
+Page | 38
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Buy a PPA and get a Cannibalisation Index for Free!
+https://www.linkedin.com/posts/michaelmoreno_ppa-renewableenergy-weatherderivative-activity7046732307444961281-s0X7
+
+Wind of Change
+https://www.linkedin.com/posts/michaelmoreno_climaterisk-weatherderivative-energytransitionactivity-7043847042766417920-d5Ke
+
+Renewable Power Indices offer Dynamic Hedging vs Static Hedging
+https://www.linkedin.com/posts/michaelmoreno_ppa-renewableenergy-qualityfactor-activity7042049294207451137-zrwA
+
+How can Renewable Energy Companies Lock in their Achieved Price
+https://www.linkedin.com/posts/michaelmoreno_renewableenergy-climaterisk-achievedpriceactivity-7041680211301531648-xQJ4
+
+Solar Power Generation Cannibalisation - The case of the Netherlands
+https://www.linkedin.com/posts/michaelmoreno_solar-powergeneration-renewableenergy-activity7040940530385481728-w_42
+
+Creating Indices for Managing Wind Power Generation Risks
+https://www.linkedin.com/posts/michaelmoreno_powergeneration-activity7036623788423151616-_Tee
+
+Renewable Power Generation – Shape Risk
+https://www.linkedin.com/posts/michaelmoreno_in-this-mini-article-i-will-present-a-key-activity7034849479857987584-95Bt
+
+Measuring and Trading Wind Power Generation Cannibalisation
+https://www.linkedin.com/posts/michaelmoreno_wind-power-cannibalisation-is-probably-oneactivity-7034454503747657728-oh8C
+Page | 39
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Wind Power Generation Indices that can be Traded
+https://www.linkedin.com/posts/michaelmoreno_in-this-mini-article-i-will-discuss-wind-activity7034117713694191616-8hyK
+
+Wind Power Generation Correlation in Europe
+https://www.linkedin.com/posts/michaelmoreno_wind-power-generation-has-a-concentrationactivity-7033400514474082304-VaOb
+
+Page | 40
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+Disclaimer
+This document may contain general information about commercial and legal matters. The information
+is not advice and should not be treated as such. The information is provided “as is” without any
+representations or warranties, express or implied. Speedwell Climate makes no representations or
+warranties in relation to the information provided in this document. You must not rely on the
+information as an alternative to legal advice from your attorney or other professional legal services
+provider. If you have any specific questions about any legal matter, you should consult your attorney
+or other professional legal services provider. Nothing in this legal disclaimer will limit any of our
+liabilities in any way that is not permitted under applicable law or exclude any of our liabilities that
+may not be excluded under applicable law.
+Copyright: © Speedwell Climate Ltd.
+This publication is the copyright of Speedwell Climate Ltd. No portion of this document may be
+photocopied, reproduced, scanned into an electronic system, forwarded, transmitted or distributed
+in any way without the prior consent of Speedwell Climate.
+
+Page | 41
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+About Speedwell Climate
+Founded in 1999 Speedwell Climate Ltd and its group companies provide the data and software
+necessary to structure, price, transact and clear index-based environmental risk-transfer contracts
+including those based on renewable energy, temperature, rainfall and other environmental variables.
+
+Our key products and services include:
+•
+
+Environmental Data Services: historical data products for pricing risk-transfer contracts
+
+•
+
+Modelled Wind and Solar Production Indices: indices for hedging wind and solar energy
+production
+
+•
+
+Speedwell Environmental System: an enterprise software system for structuring, pricing,
+back-office processing, and portfolio management of environmental risk-transfer contracts
+
+•
+
+Settlement Services: providing the data required to settle environmental risk-transfer
+contracts
+
+•
+
+The weatherXchange® Platform - a web delivered structuring platform that helps companies
+access index-based climate risk protection.
+
+UK office
+
+US office
+
+Mardall House, 9-11 Vaughan Road
+
+418 King Street; Suite 201
+
+Harpenden, AL5 4HU, United Kingdom
+
+Charleston, SC 29401
+
++44 (0) 1582 465 551
+
++1 (843) 737-4843
+
+info@SpeedwellClimate.com
+
+Page | 42
+RENEWABLE POWER GENERATION FINANCIAL RISKS – HEDGING STRATEGIES
+
+

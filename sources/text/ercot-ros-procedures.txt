@@ -1,0 +1,64 @@
+Electric Reliability Council of Texas
+
+RELIABILITY AND OPERATIONS SUBCOMMITTEE
+
+PROCEDURES
+
+TAC Approved
+
+July 25, 2023
+
+  ----------------------- ----------------------- -----------------------
+                                                  
+
+  ----------------------- ----------------------- -----------------------
+
+ERCOT
+
+Reliability and Operations Subcommittee
+
+Subcommittee Structure
+
+The structure of the subcommittee is included in Section V. of the Technical Advisory Committee (TAC) Procedures.
+
+Scope
+
+The Reliability and Operations Subcommittee (ROS), reporting to the TAC, evaluates and reviews ERCOT system studies and is responsible to review operations of ERCOT in relation to system security, Operating Guides application, and emergency operations. The ROS will be responsible for monitoring Public Utility Commission (PUCT) rulings as they would apply to Market Participants responsible for reliability and ensure that PUCT requirements are reflected in the Operating Guides and Protocols. The ROS performs such other duties as it deems appropriate and makes recommendations to TAC. It is the TAC's expectation that the subcommittee chairs will coordinate with each other, particularly on issues being addressed in one subcommittee that may have an impact on or require input from another subcommittee.
+
+The primary functions of ROS are the development, review and maintenance of Operating Guides, Planning Guides, and other planning criteria and the review of ERCOT reports and operations related to the reliable operation of the ERCOT System. The ROS will perform ERCOT Protocol required review of Ancillary Service provision and commercially significant constraints. The ROS will periodically review ERCOT reports and procedures relating to planning assessment, Partial Blackout or Blackout restoration procedures, coordination of protective relay settings, operational communication facilities, operating reserve obligations, emergency operations, abnormal system conditions, transmission interconnections to generation, coordination of Outage schedules and other activities as they apply to reliability and operations. The ROS will review ERCOT Protocol revisions as they may impact ERCOT System reliability and operations.
+
+The subcommittee will report to the TAC on a regular basis or as otherwise directed by the TAC. The Subcommittee chair will normally attend TAC meetings.
+
+Standing and Ad Hoc Working Groups
+
+In order to discharge its responsibility, the subcommittee may form standing working groups and temporary or ad hoc task forces with representation on each working group being appointed or approved by the subcommittee. The subcommittee chair, with subcommittee approval, will appoint the chair for each working group to the shorter of a one-year term on a calendar year basis or until the working group is no longer required. The subcommittee will direct these working groups and make assignments as necessary.
+
+Black Start
+
+Dynamics
+
+Inverter-Based Resource
+
+Network Data Support
+
+Operations Training
+
+Operations
+
+Performance, Disturbance, and Compliance
+
+Planning
+
+Steady State
+
+System Protection
+
+Voltage Profile
+
+The Subcommittee may form other standing working groups and temporary or ad hoc task forces on an as needed basis.
+
+All subcommittee working groups are responsible to report planned activities/projects and results to the subcommittee for review and to submit any budget requirements to the subcommittee to be forwarded to TAC for approval. All working group actions are subject to subcommittee review.
+
+Working Group/Task Force Comments or Revision Requests
+
+ROS Working Groups and Task Forces shall submit Revision Requests and comments per paragraph (F) of Section V, Working Group/Task Force Comments or Revision Request, of the TAC Procedures.

@@ -1,0 +1,205 @@
+[Norton Rose Fulbright]
+
+Project Finance NewsWire
+
+[]
+
+Subscribe
+
+[]
+
+Search
+
+Go
+
+[]
+
+More results
+
+[]
+
+Menu
+
+-   Home
+
+-   NewsWire Archive
+
+-   Currents Podcast
+
+-   Uptime Now
+
+-   Tax Equity News
+
+-   Project Finance News Blog
+
+-   Meet Our US and Latin American Team
+
+[]
+
+Close
+
+How hedges have changed since Uri
+
+June 23, 2022
+
+Lee Taylor, with REsurety in Boston
+
+The hedge market is offering the same menu of options a year and a half after a sudden cold snap in Texas left some power projects facing huge losses.
+
+However, more attention is being paid to how to cap exposure in extreme scenarios.
+
+Winter Storm Uri was an extreme cold event in late February 2021, centered in Texas but also affecting neighboring states, that was a one-in-10-year or one-in-50-year event, depending on which meteorologist you ask. It was not off the charts, but it involved an extreme level of sustained cold. There were deaths and significant property damage in Texas.
+
+The storm led to a spike in electricity demand, especially for heating, and a shortfall in supply.
+
+The shortfall in supply was driven by a number of factors, but the main driver was power plants froze physically and transmission infrastructure was shut down. These factors affected all types of power plants. The most pronounced effect was on gas-fired generation, but renewables, and wind in particular, were affected as well.
+
+There was a pronounced financial impact in ERCOT because of the mechanism within ERCOT to reward generation during spikes in demand. There are administrative adders to the spot electricity price that force the price of power to go to a cap, incentivizing supply when demand spikes. At the time, the cap was $9,000 a megawatt hour. The result was that a spot market in which the price for electricity is often in the $20 to $40 range per MWh, was suddenly pricing power at $9,000 a MWh for three days.
+
+It was an excruciatingly painful three days for anyone who was a net buyer of electricity and an exceedingly beneficial three days for anyone who was a net seller of electricity in ERCOT.
+
+It is common for Texas power projects to be financed on a hedged merchant basis. The electricity is sold into the spot market in ERCOT and the revenues are then swapped or otherwise hedged for a fixed payment stream. The hedge is a way of reducing the volatility of electricity revenue so that the project can be financed.
+
+Market participants have been working through the effects on hedging contracts ever since the three-day storm. The storm continues to affect current and planned future hedges.
+
+Three Hedge Types
+
+There were basically three flavors of hedging before the storm, but they all had one thing in common: every hedge distills to a contract for differences in prices.
+
+Most hedges are settled on an hourly basis. Most compare the spot market price for electricity that hour to an agreed-upon fixed price. One price is subtracted from the other, and the difference is multiplied by a volume of power for that hour.
+
+That part of the math is generally identical across all three hedging structures. What differs is the volume used to multiply the price difference each hour.
+
+The three flavors of hedge were as-generated contracts, proxy generation contracts and fixed volume contracts.
+
+In an as-generated contract, also called a VPPA or virtual power purchase agreement, the price difference in an hour is multiplied by whatever power was actually generated in that hour. It uses the metered generation.
+
+In a proxy generation contract, the price difference is multiplied by the amount of power the project could or should have produced in that hour given the fuel resource observed. For example, in the case of a solar project, solar irradiance is applied to a PVsyst model to convert solar irradiance into implied power. In the case of a wind project, per-turbine measured wind speeds and air density are translated into the amount of power that the project should have produced.
+
+In a fixed volume contract, the output number is a fixed number that is set in advance. For example, if at noon on January 3, the average project of the same size and type would be expected to generate 20 megawatts of power and the sponsor decides to hedge 16 MW, then it would commit in advance to hedging 16 MW, regardless of how much power could have been or was produced by the project at that time.
+
+A sponsor would choose one of the three hedge types based on what was available in the market and at what price. Before Uri, a sponsor might have called us to work with an insurer to write a proxy generation contract. It might have called any number of banks to source a fixed volume contract. It might have worked directly or through a broker to find a corporation willing to enter into a VPPA.
+
+Different Risks
+
+Each type of hedge comes with different risks and is priced differently.
+
+There are different credit terms and term lengths. Terms vary from five to 15 years. Some hedges are bundled with renewable energy credits, and some are not.
+
+The sponsor does not take operating risk with as generated, because payments are tied to actual output.
+
+With a proxy generation contract, if the wind is blowing or the sun is shining and the project is not generating, the owner will owe the hedge counterparty the value of the power that could have been produced.
+
+The highest risk during Uri would have been a fixed volume contract, because even if conditions were such that no electricity could be produced, the project owner still owes the hedge counterparty the value of the historical average output to which it committed.
+
+Thus, the risk hierarchy is as generated at the low end, fixed volume at the high end and proxy generation in the middle.
+
+Turning to what happened after Uri, not surprisingly, any fixed volume contracts that were settling in Texas during the storm had a very bad week. Solar irradiance and wind speeds were well below historical averages in most locations, and at many locations were below what was supposed to be the P99 number.
+
+As a result, there were a lot of projects, even ones that were operating flawlessly during the storm, that came up short. They ended up having to buy power at $9,000 a MWh because they were short the electricity that they had already sold under the contract due to inadequate wind speeds and solar irradiance. That type of contract was very painful for every project we are aware of that had one.
+
+The proxy revenue contracts were the second most painful contract.
+
+Wind projects with proxy generation contracts ran the gamut of outcomes. There were projects that produced at or above their proxy generation during that period because they maintained target availability during the storm. There were also projects that were shut down through the entire event and produced little to no electricity during the storm. For any project that was on the zero end of the spectrum, a proxy revenue contract was again very painful.
+
+From the perspective of a power plant owner, the as-generated contracts were by far the most attractive. If the plant was down for whatever reason — no wind, no sun, no interconnection, the transmission line was down, or the plant shut down for plant safety reasons — there was really no penalty because the contract payments were tied to the electricity actually metered.
+
+That is from the perspective of the power plant owner.
+
+Things looked different to electricity purchasers. For example, take a data center with a large need for electricity. It has a virtual power purchase agreement with a solar project or wind farm to hedge its cost of electricity. If that plant was shut down during the storm, that energy purchaser ended up paying $9,000 a MWh for the electricity it needed, and it received $0 from the VPPA hedge it holds with a renewable plant.
+
+Post-Uri
+
+One thing that got less press after the storm than it should have was the impact of some as-generated contracts on grid resiliency.
+
+The then-CEO of ERCOT said that it should not have to force people to winterize because that is what electricity market design is supposed to do. The idea is that the administrative adders that push the price as high as $9,000 a MWh during periods of high demand and short supply are a strong incentive to be able to generate during such periods.
+
+However, generators who already committed the full output from their projects under long-term contracts get none of that $9,000 a MWh. The price spike provides no incentive for the large swathe of the market that has contracted its power via as-generated PPAs.
+
+Projects with as-generated PPAs have little to no incentive to winterize or to put any of their plant infrastructure at risk to operate through extreme conditions when demand is highest.
+
+Around the time of the storm, probably 20% to 25% of the hedges on renewable energy projects in Texas were fixed volume hedges.
+
+Something like 10% were proxy-based hedges.
+
+That means that a third of projects had hedges that left them with significant adverse effects.
+
+In the immediate aftermath of the storm, investment committees were not interested in signing new hedges.
+
+Since then, the freeze has lifted, but with some conditions.
+
+The main condition is no one is willing to hold or finance a project with an uncapped liability.
+
+Thus, anyone planning to enter into a fixed volume contract must do something to ensure that if there is another week of spot market electricity prices at $9,000 a MWh, the project will remain solvent.
+
+There are a number of ways a power plant owner might do this. People are looking at ways to unwind the hedge, layer in call options or physically hedge with storage, but the key is to be able to cut off the tail of extreme losses in the event of another Uri-like event.
+
+To some extent, this just shifts the downside risk to the person who is buying the electricity or who is the financial counterparty on the hedge. Anyone approaching a hedge counterparty with a request to enter into a fixed volume swap with a settlement limit is likely to be told no. On the other hand, if the request is to enter into a hedge at electricity price $X and then work with the counterparty to dynamically manage the hedge going forward so the hedge buyer reduces or eliminates its risk of getting caught short in any hour, the answer is likely to be yes. Another way for a generator to manage risk is to enter into other contracts like call options around other projects in the generator’s portfolio.
+
+There are still new fixed volume hedges being written after the storm, but they are a very small minority of the market. Dynamically managing a hedge month to month to make sure the generator is never caught short is a very different proposition, and not everybody is eager to sign up for that as a sponsor or as a third-party source of capital.
+
+As for proxy contracts, weather-linked or insurance-linked groups who offered that product before the storm have responded to market angst by inserting a cap. Instead of using proxy generation as the primary settlement index, the market has shifted to settling on metered generation, and using proxy generation as a damages calculator in the event of project non-performance.
+
+If it is windy and sunny at the project location, the spot electricity price is high and the project is not operating, damages will be calculated for that period, but those damages are subject to a quarterly, annual or aggregate limit. The limit scales with the size of the project and is a negotiated term.
+
+It is basically an as-generated swap with the damages calculated based on the proxy revenue rather than actual generation. In a sense, the result is just a hybrid of what was available in the market before Uri.
+
+Impact on VPPAs
+
+Corporations that signed VPPAs before the storm did not talk publicly about it, but some were not terribly excited about how their projects performed during the storm. On the other hand, there were some buyers of electricity whose projects operated flawlessly, and their PPAs proved very valuable to the electricity purchasers.
+
+The corporate PPA market has responded with an interest in tightening definitions around availability and performance — including by pushing for proxy generation as a damages calculator in its procurement conditions with developers. However, today there are more VPPA buyers in the market than there are sellers. In this sellers’ market, clean energy buyers are generally term takers rather than term setters, and we continue to see projects push for traditional as-generated contracts.
+
+(For other assessments of the effects of Uri on the hedge market, see “Financing Merchant Projects After Texas” in the April 2021 NewsWire and “Diagnosing Weather-Driven Financial Risk in Hedges” in the June 2021 NewsWire.)
+
+Why Texas?
+
+The hedge market is not limited to Texas. The same types of hedges can be found in SPP, MISO and PJM, but the majority have been done in Texas for two reasons. One is Texas has punched above its weight in the number of wind farms that have been built there. The other reason is that the tradeable forward curve in Texas has been close to or in some cases even exceeded the VPPA market price.
+
+In large parts of PJM, for example, projects have historically required an electricity price that is above what the financial markets are offering. Corporate clean energy and utility buyers have basically agreed to pay a premium to the spot market price for electricity in order to get more renewable energy projects built.
+
+In Texas, generators have had more of a competitive menu of options. Depending on where the corporate appetite is relative to the gas curve in any given week, month or quarter, a corporate PPA may be more attractive or a financial hedge may look better. In PJM, if there is no corporate and utility offtake available, projects have pursued financial hedges, but typically at a lower price.
+
+Summing up, the menu of hedge options is the same as it was before Uri, but there have been changes to avoid repeating some of the financial outcomes from Uri in the future. Proxy generation is still used, but as the damages calculator as opposed to the full settlement index, and you have a choice where you want to set the materiality threshold and the limit on those damages. These types of things affect the price for the hedge.
+
+The other subject that is getting a lot of attention today in negotiations is the importance of a committed commercial operation date for the power project. Generators are facing lots of uncertainty about when projects can be delivered. They may have a target date of X, but then push for 18+ months of flexibility on that COD date. From a buyer’s perspective, locking in a fixed price with that much uncertainty in start date is a real challenge.[webding-gold-Apr-16-2025-04-01-20-5906-PM] 
+
+Share this
+
+Share on LinkedIn [] Share on Twitter [] Share on Bluesky [] Share on Facebook []
+
+Learn More
+
+-   hedges
+
+NewsWire Editor
+
+Keith Martin
+Partner, United States
+Washington, DC
+Email
+T: +1 202 974 5674
+
+[] Download PDF of the NewsWire
+
+Stay Connected
+
+Subscribe by Email
+
+[] [] [] [] []
+
+[Norton Rose Fulbright]
+
+Project Finance News
+
+For developments affecting project finance and the energy sector.
+
+Norton Rose Fulbright LLP © 2026. All Rights Reserved.
+
+-   Legal notices
+-   Privacy notice
+-   Cookies policy
+-   Do Not Sell or Share My Personal Information
+-   Limit the Use of My Sensitive Personal Information
+
+[] [] [] [] []

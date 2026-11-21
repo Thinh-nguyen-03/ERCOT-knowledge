@@ -1,0 +1,868 @@
+ELECTRICITY
+MARKETS
+& POLICY
+ELECTRICITY
+MARKETS
+& POLICY
+
+Influence of Business Models on PV-Battery Dispatch
+Decisions and Market Value
+Joachim Seel, Cody Warner, Andrew Mills
+October 2021
+Lawrence Berkeley National Laboratory
+
+This material is based upon work supported by the U.S. Department of Energy’s Office of Energy Efficiency and Renewable Energy
+(EERE) under the Solar Energy Technologies Office Award Number 34170 and Lawrence Berkeley National Laboratory Contract No.
+DE-AC02-05CH11231.
+E NERGY T ECHNOLOGIES A REA
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+ELECTRICITY
+MARKETS
+& POLICY
+ELECTRICITY
+MARKETS
+& POLICY
+
+Disclaimer
+This document was prepared as an account of work sponsored by the United States Government. While this document is believed to contain correct information, neither
+the United States Government nor any agency thereof, nor The Regents of the University of California, nor any of their employees, makes any warranty, express or
+implied, or assumes any legal responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents
+that its use would not infringe privately owned rights. Reference herein to any specific commercial product, process, or service by its trade name, trademark,
+manufacturer, or otherwise, does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency
+thereof, or The Regents of the University of California. The views and opinions of authors expressed herein do not necessarily state or reflect those of the United States
+Government or any agency thereof, or The Regents of the University of California.
+Ernest Orlando Lawrence Berkeley National Laboratory is an equal opportunity employer.
+
+Copyright Notice
+This manuscript has been authored by an author at Lawrence Berkeley National Laboratory under Contract No. DE-AC02-05CH11231 with the U.S. Department of
+Energy. The U.S. Government retains, and the publisher, by accepting the article for publication, acknowledges, that the U.S. Government retains a non-exclusive, paidup, irrevocable, worldwide license to publish or reproduce the published form of this manuscript, or allow others to do so, for U.S. Government purposes
+
+Acknowledgements
+For their support of this project, the authors thank Ruchi Singh, Daniel Sodano, and Michele Boyd of the U.S. Department of Energy Solar Energy Technologies Office.
+We are grateful to the 20 developers of PV-battery hybrid projects who agreed to be interviewed about their business models. We especially thank the owners of the 11
+projects that comprise our sample who shared hourly dispatch information with us and without whom this research project would not have been possible – for
+confidentiality reasons we will abstain from naming them here. We further thank our Berkeley Lab collaborators who gave feedback to our study, in particular James
+Hyungkwan Kim who provided assistance with the baseline dispatch optimization tool. Finally we appreciate the review of this work by Will Lauwers, Michael DeSocio,
+Julian Kuhlmann, Jan Porvaznik, Will Gorman, Ryan Wiser, and Ken Schuyler. Of course, any omissions or errors that remain are solely the responsibility of the authors.
+
+E NERGY T ECHNOLOGIES A REA
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+2
+
+Briefing Content
+Background and Introduction
+
+Methods and Data
+
+Asset Owner Business Models & Empirical Dispatch Characteristics
+
+PV-Battery Market Value
+
+Influence of Business Models on PV-Battery Hybrid Value
+E NERGY T ECHNOLOGIES A REA
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+3
+
+Berkeley Lab’s Solar-to-Grid report focuses on grid value of
+stand-alone solar systems
+Characteristics
+of Deployed
+Solar
+
+Hourly Solar
+Generation
+Profiles
+
+Contribution to
+Reliability
+
+UPV
+
+Capacity Credit
+
+DPV
+
+EIA Form 860 by
+Plant (>1 MW)
+
+Solar Generation at
+Individual Plants
+
+Distributed PV
+(DPV)
+
+Market Value
+
+Residential and NonResidential
+
+Total Market Value ($/MWh)
+
+Utility-Scale (UPV)
+Capacity
+and
+Energy
+Value
+
+Regulation Prices
+
+EIA Form 861
+by State (<1 MW)
+
+Bulk System
+Impacts
+https://emp.lbl.gov/renewable-grid-insights
+E NERGY T ECHNOLOGIES A REA
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+4
+
+Solar’s effects are greatest in CAISO, but deployment accelerates
+elsewhere too
+Generation
+
+
+
+CAISO represents
+nearly half the
+solar capacity of all
+ISOs, but ISO-NE
+and ERCOT have
+rapidly expanding
+solar market
+
+
+
+Utility-scale solar
+(>1MW) accounts
+for the majority of
+installed solar
+capacity among all
+ISOs (even up to
+85% in ERCOT)
+
+
+
+Curtailment
+amounts to 3% of
+solar generation in
+CAISO and 6% in
+ERCOT
+
+Select Utilities
+
+ISOs
+
+Capacity
+
+E NERGY T ECHNOLOGIES A REA
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+5
+
+Wholesale market value of large-scale solar, by project in 2020
+
+
+Value estimates of 3400+ largescale solar projects (>1MW)
+
+
+
+Bubble size indicates capacity
+of project, bubble color
+indicates the combined energy
+and capacity value, and BA
+background shading indicates
+total solar penetration (across
+distributed and large-scale
+sectors)
+
+
+
+E NERGY T ECHNOLOGIES A REA
+
+Solar’s value varies between
+and within regions (for
+example, western ERCOT has
+lower solar values than eastern
+ERCOT, while ISO-NE shows
+little variation)
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+6
+
+Solar value has declined, but falling costs have kept pace, more or less
+maintaining solar’s competitiveness
+
+
+The regional solar value is the generation-weighted
+average value of all distributed and utility-scale solar
+generation in a given balancing authority
+
+
+
+The energy value makes up the bulk of total market
+value, but capacity value is significant in eastern
+markets in particular and accounts for much of the
+variation between BAs
+
+
+
+Fluctuations across years mostly reflect fluctuations in
+wholesale power prices (ERCOT 2019), but also
+increasing solar penetration (CAISO)
+
+
+
+Note:
+• Berkeley Lab’s PPA prices are the generation-weighted average levelized PPA prices
+in real $ by execution date
+• Level 10 PPA prices represent only the 25th percentile of all offers by offer date
+
+E NERGY T ECHNOLOGIES A REA
+
+
+
+Solar’s PPA price have declined over time (falling Capex
+and Opex, increasing performance and longer design
+life)
+PPA prices have increased in some markets in 2020
+due to supply bottlenecks brought by the Covid
+pandemic, interconnection delays, and permitting
+challenges
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+7
+
+Hybrid plant capacity is increasing, but assessment of market value using
+empirical data remains scarce
+
+
+Hybrid power plants are being deployed in part
+to alleviate solar value decline
+
+
+
+34% of all solar capacity in interconnection
+queues at the end of 2020 are proposed as
+hybrids
+
+
+
+Studies often assume storage is dispatched in
+response to real-time energy market prices
+
+
+
+But PV-battery business models are diverse
+and can target many different revenue sources
+
+Sources: https://emp.lbl.gov/utility-scale-solar
+https://emp.lbl.gov/publications/queued-characteristics-power-plants
+
+We use empirical data to understand how hybrid
+plant owners dispatch their batteries
+E NERGY T ECHNOLOGIES A REA
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+8
+
+ELECTRICITY
+MARKETS
+& POLICY
+ELECTRICITY
+MARKETS
+& POLICY
+
+Methods and Data
+
+E NERGY T ECHNOLOGIES A REA
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+9
+
+Definition of market value and storage premium
+Energy Value
+V𝐸𝑛𝑒𝑟𝑔𝑦 =
+
+σ 𝐷𝑒𝑙𝑖𝑣𝑒𝑟𝑒𝑑 𝐸𝑛𝑒𝑟𝑔𝑦ℎ ∗ 𝑊ℎ𝑜𝑙𝑒𝑠𝑎𝑙𝑒 𝑅𝑇 𝐸𝑛𝑒𝑟𝑔𝑦 𝑃𝑟𝑖𝑐𝑒ℎ
+σ 𝑃𝑉 𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑖𝑜𝑛ℎ
+
+
+
+Project-level reported hourly generation
+
+
+
+Real-time energy price from nearest pricing node
+
+Capacity Value
+V𝐶𝑎𝑝𝑎𝑐𝑖𝑡𝑦 =
+
+σ 𝐶𝑎𝑝𝑎𝑐𝑖𝑡𝑦 𝐶𝑟𝑒𝑑𝑖𝑡𝑇 ∗ 𝑁𝑎𝑚𝑒𝑝𝑙𝑎𝑡𝑒 ∗ 𝐶𝑎𝑝𝑎𝑐𝑖𝑡𝑦 𝑃𝑟𝑖𝑐𝑒𝑇
+σ 𝑃𝑉 𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑖𝑜𝑛 𝑇
+
+
+
+Capacity credit either based on plant-level profile or design
+parameters; varies by month, season, or year
+
+
+
+Capacity prices from respective ISO region; prices vary by month,
+season, or year
+
+
+
+Denominated here in $/MWh to compare with energy value
+
+Ancillary Services (AS) Value
+σ 𝐴𝑆 𝐶𝑎𝑝𝑎𝑐𝑖𝑡𝑦 𝐴𝑤𝑎𝑟𝑑 ℎ ∗ 𝑊ℎ𝑜𝑙𝑒𝑠𝑎𝑙𝑒 𝐴𝑆 𝑃𝑟𝑖𝑐𝑒ℎ
+V𝐴𝑆 =
+σ 𝑃𝑉 𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑖𝑜𝑛ℎ
+
+
+
+
+Plant-level reported hourly AS award by service type
+Day-ahead/ Real-time hourly AS price
+Focusing on capacity payments and disregarding mileage payments
+E NERGY T ECHNOLOGIES A REA
+
+We use market value as an imperfect proxy for marginal grid value
+It is not the same as private realized value and excludes for example
+the following value streams:
+
+
+
+
+No FiT payments, sREC value, (transmission) demand charge offsets, or
+externalities included in market value.
+Excluding wholesale price effects.
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+10
+
+The baseline model : Optimizing battery dispatch for energy value
+
+
+
+
+In addition to calculating the storage value premium
+of PV-battery hybrids using empirical metering data,
+we develop a common “baseline” storage premium
+The “baseline” model uses the empirical PV
+generation profile but dispatches the paired battery
+storage to maximize profit based on energy arbitrage
+
+
+
+The baseline profile is subsequently used to evaluate
+energy and capacity value (we exclude potential AS
+value)
+
+
+
+The baseline model controls for location and
+technical design characteristics, allowing us to isolate
+the value effect of different dispatch strategies
+(energy-market optimized with perfect foresight vs. a
+project’s business model)
+E NERGY T ECHNOLOGIES A REA
+
+Assumptions:
+ Perfect generation and price foresight
+ Using empirical solar generation profile
+ AC-coupling between PV and storage
+ No charging from grid – only from PV generation
+ Degradation rate $5/MWh
+ Storage efficiency 94%, inverter efficiency 96%
+ POI limit for PV+S at maximum observed export
+ Onsite solar energy consumption disregarded
+during optimization (included in final valuation)
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+11
+
+Sample of PV-Battery Hybrids: Hourly metering data from 11 projects
+
+
+46 PV-battery hybrid plants (>1MWAC) operated for all of
+2020 in organized wholesale markets
+
+
+
+We conducted 20 interviews with operators and received
+metering data from 12 plants (dropped 1 plant due to data
+quality)
+
+
+
+The technical characteristics of the 11 plants are
+comparable to the full sample, but analytical results may
+not be representative
+Mean PV-Battery Hybrid Characteristics
+Inverterloading ratio
+
+Battery-PV
+capacity
+ratio
+
+Storage
+duration
+(hours)
+
+Study sample
+(n=11)
+
+1.31
+
+0.56
+
+2.68
+
+Full sample
+(n=46)
+
+1.29
+
+
+
+0.78
+
+2.30
+
+E NERGY T ECHNOLOGIES A REA
+
+Our sample includes 1 plant in CAISO, 3 plants in
+ERCOT, and 7 plants in ISO-NE
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+12
+
+ELECTRICITY
+MARKETS
+& POLICY
+ELECTRICITY
+MARKETS
+& POLICY
+
+Asset Owner Business Models
+&
+Empirical Dispatch Characteristics
+
+E NERGY T ECHNOLOGIES A REA
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+13
+
+PV-battery hybrid business models influence dispatch decisions
+• Dispatch signals:
+Competitively-set
+market prices
+
+• Benefits: Energy,
+capacity, and/or AS
+revenue
+• Ownership:
+Independent power
+producers
+
+Merchant
+
+• Dispatch signals:
+Regulated peakload pricing
+schedules
+• Benefits: Lower
+transmission and
+capacity costs; can
+be supplemented
+by AS revenue
+
+• Dispatch signals:
+Incentive program
+rules
+• Benefits: Feed-in
+tariff, renewable
+energy credits
+(RECs), tax credits,
+grants
+
+• Ownership: Loadserving entities
+
+• Ownership:
+Typically
+independent power
+producers
+
+Peak-load
+reducer
+
+Incentive
+participant
+
+E NERGY T ECHNOLOGIES A REA
+
+• Dispatch signals:
+Regulated utility
+tariffs; private
+operating costs
+• Benefits: Lower
+operating costs;
+resiliency benefits
+• Ownership: Military
+bases,
+manufacturers, oil &
+gas, penitentiaries
+
+Large enduser
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+14
+
+Empirical data shows battery dispatch varies by timing, # of cycles, and
+amount charged from PV
+ITC eligibility of study sample
+
+
+
+Timing and frequency of storage dispatch
+
+Projects not claiming the ITC use more grid
+electricity to charge the batteries
+
+E NERGY T ECHNOLOGIES A REA
+
+ERCOT plants discharge in the afternoon, ISONE
+plants target evening peak hours
+ Operational strategies determine how often
+batteries are cycled
+
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+15
+
+ELECTRICITY
+MARKETS
+& POLICY
+ELECTRICITY
+MARKETS
+& POLICY
+
+PV-Battery Market Value
+
+E NERGY T ECHNOLOGIES A REA
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+16
+
+Adding battery storage can raise capacity credit, but market rules matter
+
+
+ISONE assesses credits in multiple ways:
+Profile-based: median output of the hybrid plant
+during a daily 4h peak window in the summer and
+a 2h window in the winter
+ Design-based: maximum sustained battery
+discharge over 2h + PV profile-based credit
+
+
+
+
+Hatched portion
+indicates additional
+increase from “designbased” methodology in
+ISONE
+
+CAISO:
+Maximum sustained battery discharge over 4h +
+ PV credit based on effective load-carrying
+capability
+
+
+
+
+ERCOT monitors resource adequacy as
+average production during the top 20 load
+hours in each season
+
+E NERGY T ECHNOLOGIES A REA
+
+Empirical dispatch-based PV+S credits often very similar to
+solar standalone capacity credit
+ Credits can increase by 20-80% in the summer in ISONE and
+even 90% in the winter when assessed via design-based
+methodology
+
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+17
+
+Empirical PV-battery storage premiums range from $1/MWh to $45/MWh
+Empirical energy value
+premium from adding storage
+does not exceed $2/MWh
+ Key driver of empirical storage
+premium outside of ERCOT is
+capacity value
+
+
+ CAISO-1 doubles its capacity
+
+value to $13/MWh by adding
+storage
+ In ISONE, the profile-based
+approach yields an increase up to
+$7/MWh but the design-based
+method yields an increase up to
+$54/MWh
+
+
+E NERGY T ECHNOLOGIES A REA
+
+Ancillary services provide up
+to $14/MWh in value
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+18
+
+Empirical storage premiums differ from modeled “baseline” storage
+premiums
+
+
+Empirical dispatch differs from
+modeled baseline (energy
+arbitrage) and so does the
+storage premium
+
+
+
+Projects with AS revenue can
+outperform baseline ( )
+
+
+
+Some projects do not fully realize
+their potential market value as
+operators:
+ Lack perfect foresight of real-time
+
+energy prices
+ Confront teething issues in first year
+of commercial operation
+ Follow other dispatch signals due to
+their business model
+E NERGY T ECHNOLOGIES A REA
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+19
+
+ELECTRICITY
+MARKETS
+& POLICY
+ELECTRICITY
+MARKETS
+& POLICY
+
+The Influence of Business Models
+on PV-Battery Market Value
+
+E NERGY T ECHNOLOGIES A REA
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+20
+
+Empirical dispatch differs from modeled “baseline” due to stronger
+alternative price signals
+
+
+
+ISONE-5 and ISONE-7 are in
+moderate proximity to each other
+and share similar plant
+characteristics  modeled baseline
+dispatch is similar
+
+
+
+Empirical dispatch reveals different
+operating strategies:
+ ISONE-7 is an incentive participant and
+
+dispatches to comply with program rules
+ ISONE-5 is a peak-load reducer and
+
+targets dispatches to offset peak demand
+charges
+
+Incentive participant
+
+E NERGY T ECHNOLOGIES A REA
+
+Peak-load reducer
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+21
+
+PV-battery hybrids earn higher storage premiums or higher total revenue
+via alternative business models than the merchant model
+
+
+ISONE-5 earns as peak-load
+reducer a ~$85/MWh storage
+premium, driven by additional
+avoided transmission charges
+ Perfect foresight can even yield
+
+premium >$100/MWh
+ Exceed merchant premium of
+~$30/MWh
+
+
+ISONE-7 earns as MA SMART and
+Clean Peak Standard incentive
+participant a ~$35/MWh storage
+premium
+ This is similar to the storage
+
+premium of the merchant model
+ But total revenue is much greater at
+~$150/MWh
+
+E NERGY T ECHNOLOGIES A REA
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+22
+
+Conclusion
+
+
+PV-battery hybrid projects dominate the interconnection queues, but little empirical data has been
+available so far
+
+
+
+Only a minority of projects optimize battery dispatch for wholesale market revenue as merchant plants,
+majority follow other business models
+
+
+
+Associated operational signals deviate from wholesale market signals but can yield higher private
+revenue
+
+
+
+Regulators tasked with tariff design and policy makers designing incentive programs should ensure
+these are aligned with grid needs
+
+
+
+Our study is only a snapshot of 11 PV-battery hybrids in 2020: Storage premiums will evolve (greater
+deployment, associated market maturity, changing price dynamics), but consideration of operator
+dispatch decisions will only become more important
+E NERGY T ECHNOLOGIES A REA
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+23
+
+ELECTRICITY
+MARKETS
+& POLICY
+ELECTRICITY
+MARKETS
+& POLICY
+Contacts
+Joachim Seel: jseel@lbl.gov, 510-486-5087
+Cody Warner: codywarner@lbl.gov, 510-486-6705
+Andrew D. Mills: ADMills@lbl.gov , 510-486-4059
+
+For more information
+Visit this project’s page for a pre-print journal article and a briefing deck:
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+Visit the Solar-to-Grid project on trends in System Impacts, Reliability and Market Value of Stand-alone
+Solar in the United States to download a technical report, a briefing deck, and underlying data:
+https://emp.lbl.gov/renewable-grid-insights
+
+Download publications from the Electricity Markets & Policy: https://emp.lbl.gov/publications
+Sign up for our email list: https://emp.lbl.gov/mailing-list
+Follow the Electricity Markets & Policy on Twitter: @BerkeleyLabEMP
+
+E NERGY T ECHNOLOGIES A REA
+
+| E NERGY A NALYSIS AND E NVIRONMENTAL I MPACTS D IVISION | E LECTRICITY M ARKETS & P OLICY
+
+https://emp.lbl.gov/publications/influence-business-models-pv-battery
+
+24
+
+

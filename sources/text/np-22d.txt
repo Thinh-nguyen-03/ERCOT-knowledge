@@ -1,0 +1,389 @@
+ERCOT Nodal Protocols
+
+Section 22
+
+Attachment D: Standard Form Black Start Agreement
+
+March 1, 2023
+
+Standard Form Black Start Agreement
+
+Between
+
+Insert Participant
+
+and
+
+Electric Reliability Council of Texas, Inc.
+
+This Black Start Agreement (“Agreement”), effective as of _________ of _____________, ___________ (“Effective Date”), is entered into by and between Insert Participant, a [Insert State of Registration and Entity type] (“Participant”) and Electric Reliability Council of Texas, Inc., a Texas non-profit corporation (“ERCOT”).
+
+Recitals
+
+WHEREAS:
+
+A. Participant is a Resource Entity as defined in the ERCOT Protocols, and Participant intends to provide Black Start Service (BSS);
+
+B. ERCOT is the Independent Organization certified under the Public Utility Regulatory Act, TEX. UTIL. CODE ANN. § 39.151 (Vernon 1998 & Supp. 2007) (PURA) for the ERCOT Region; and
+
+C. The Parties enter into this Agreement in order to establish the terms and conditions by which ERCOT and Participant will discharge their respective duties and responsibilities under the ERCOT Protocols.
+
+Agreements
+
+NOW, THEREFORE, in consideration of the mutual covenants and promises contained herein, ERCOT and Participant (the “Parties”) hereby agree as follows:
+
+Section 1. Resource-Specific Terms.
+
+A. Start Date: ____________________.
+
+B. Black Start Resource.
+
+  (1) Description of Black Start Resource [including location, number of generators, metering scheme, etc.]:
+
+  ________________________________________________________________________________________________________________, as described in more detail on Exhibit 1.
+
+  (2) Nameplate Capacity in MW: _____
+
+  (3) Delivery Point: ____________________________
+
+  (4) Revenue Meter Location (use Resource IDs): __________________________
+
+C. Price:
+
+  Hourly Standby Price: $________ per hour
+
+D. Notice. All notices required to be given under this Agreement shall be in writing, and shall be deemed delivered three days after being deposited in the U.S. mail, first class postage prepaid, registered (or certified) mail, return receipt requested, addressed to the other Party at the address specified in this Agreement or shall be deemed delivered on the day of receipt if sent in another manner requiring a signed receipt, such as courier delivery or Federal Express delivery. Either Party may change its address for such notices by delivering to the other Party a written notice referring specifically to this Agreement. Notices required under the ERCOT Protocols shall be in accordance with the applicable Section of the ERCOT Protocols.
+
+  If to ERCOT:
+
+  Electric Reliability Council of Texas, Inc.
+
+8000 Metropolis Drive (Building E), Suite 100
+
+Austin, Texas 78744
+
+Tel No. (512) 225-7000
+
+  If to Participant:
+
+[Insert Participant Name]
+
+[Insert Contact Person/Dept.]
+
+[Insert Street Address]
+
+[Insert City, State Zip]
+
+[Insert Telephone]
+
+[Insert Facsimile]
+
+Section 2. Definitions.
+
+A. Unless herein defined, all definitions and acronyms found in the ERCOT Protocols shall be incorporated by reference into this Agreement.
+
+B. “ERCOT Protocols” shall mean the document adopted by ERCOT, including any attachments or exhibits referenced in that document, as amended from time to time, that contains the scheduling, operating, planning, reliability, and Settlement (including Customer registration) policies, rules, guidelines, procedures, standards, and criteria of ERCOT. For the purposes of determining responsibilities and rights at a given time, the ERCOT Protocols, as amended in accordance with the change procedure(s) described in the ERCOT Protocols, in effect at the time of the performance or non-performance of an action, shall govern with respect to that action.
+
+Section 3. Term and Termination.
+
+A. Term.
+
+  (1) This Agreement is effective beginning on the Effective Date.
+
+  (2) The full term (“Full Term”) of this Agreement begins on the Start Date and continues for a period of three years.
+
+B. Termination by Participant. Participant may, at its option, terminate this Agreement immediately upon the failure of ERCOT to continue to be certified by the Public Utility Commission of Texas (PUCT) as the Independent Organization under PURA §39.151 without the immediate certification of another Independent Organization under PURA §39.151.
+
+C. Effect of Termination and Survival of Terms. If this Agreement is terminated by a Party pursuant to the terms hereof, the rights and obligations of the Parties hereunder shall terminate, except that the rights and obligations of the Parties that have accrued under this Agreement prior to the date of termination shall survive.
+
+Section 4. Representations, Warranties, and Covenants.
+
+A. Participant represents, warrants, and covenants that:
+
+  (1) Participant is duly organized, validly existing, and in good standing under the laws of the jurisdiction under which it is organized, and is authorized to do business in Texas;
+
+  (2) Participant has full power and authority to enter into this Agreement and perform all of Participant’s obligations, representations, warranties, and covenants under this Agreement;
+
+  (3) Participant’s past, present, and future agreements or Participant’s organizational charter or bylaws, if any, or any provision of any indenture, mortgage, lien, lease, agreement, order, judgment, or decree to which Participant is a party or by which its assets or properties are bound do not materially affect performance of Participant’s obligations under this Agreement;
+
+  (4) The execution, delivery, and performance of this Agreement by Participant have been duly authorized by all requisite action of its governing body;
+
+  (5) Except as set out in an exhibit (if any) to this Agreement, ERCOT has not, within the 24 months preceding the Effective Date, terminated for Default any Prior Agreement with Participant, any company of which Participant is a successor in interest, or any Affiliate of Participant;
+
+  (6) If any Defaults are disclosed on any such exhibit mentioned in subsection 4(A)(5), either (a) ERCOT has been paid, before execution of this Agreement, all sums due to it in relation to such Prior Agreement, or (b) ERCOT, in its reasonable judgment, has determined that this Agreement is necessary for system reliability, and Participant has made alternate arrangements satisfactory to ERCOT for the resolution of the Default under the Prior Agreement;
+
+  (7) Participant has obtained, or will obtain prior to beginning performance under this Agreement, all licenses, registrations, certifications, permits, and other authorizations and has taken, or will take prior to beginning performance under this Agreement, all actions required by applicable laws or governmental regulations except licenses, registrations, certifications, permits or other authorizations that do not materially affect performance under this Agreement;
+
+  (8) Participant is not in violation of any laws, ordinances, or governmental rules, regulations, or order of any Governmental Authority or arbitration board materially affecting performance of this Agreement and to which it is subject;
+
+  (9) Participant is not Bankrupt, does not contemplate becoming Bankrupt nor, to its knowledge, will become Bankrupt;
+
+  (10) Participant acknowledges that it has received and is familiar with the ERCOT Protocols; and
+
+  (11) Participant acknowledges and affirms that the foregoing representations, warranties, and covenants are continuing in nature throughout the term of this Agreement. For purposes of this Section, “materially affecting performance” means resulting in a materially adverse effect on Participant’s performance of its obligations under this Agreement.
+
+B. ERCOT represents, warrants, and covenants that:
+
+  (1) ERCOT is the Independent Organization certified under PURA §39.151 for the ERCOT Region;
+
+  (2) ERCOT is duly organized, validly existing, and in good standing under the laws of Texas, and is authorized to do business in Texas;
+
+  (3) ERCOT has full power and authority to enter into this Agreement and perform all of ERCOT’s obligations, representations, warranties and covenants under this Agreement;
+
+  (4) ERCOT’s past, present and future agreements or ERCOT’s organizational charter or bylaws, if any, or any provision of any indenture, mortgage, lien, lease, agreement, order, judgment, or decree to which ERCOT is a party or by which its assets or properties are bound do not materially affect performance of ERCOT’s obligations under this Agreement;
+
+  (5) The execution, delivery, and performance of this Agreement by ERCOT have been duly authorized by all requisite action of its governing body;
+
+  (6) ERCOT has obtained, or will obtain prior to beginning performance under this Agreement, all licenses, registrations, certifications, permits and other authorizations and has taken, or will take prior to beginning performance under this Agreement, all actions required by applicable laws or governmental regulations except licenses, registrations, certifications, permits or other authorizations that do not materially affect performance under this Agreement;
+
+  (7) ERCOT is not in violation of any laws, ordinances, or governmental rules, regulations or order of any Governmental Authority or arbitration board materially affecting performance of this Agreement and to which it is subject;
+
+  (8) ERCOT is not Bankrupt, does not contemplate becoming Bankrupt nor, to its knowledge, will become Bankrupt; and
+
+  (9) ERCOT acknowledges and affirms that the foregoing representations, warranties, and covenants are continuing in nature throughout the term of this Agreement. For purposes of this Section, “materially affecting performance” means resulting in a materially adverse effect on ERCOT’s performance of its obligations under this Agreement.
+
+Section 5. Participant Obligations.
+
+A. Participant shall comply with, and be bound by, all ERCOT Protocols, ERCOT Operating Guides, and the North American Electric Reliability Corporation (NERC) Reliability Standards as they pertain to operation of a Black Start Resource by a Resource Entity.
+
+B. Participant shall not take any action, without first providing written notice to ERCOT and reasonable time for ERCOT and Market Participants to respond, that would cause a Market Participant within the ERCOT Region that is not a “public utility” under the Federal Power Act, 16 U.S.C. § 824(e)(2005), or ERCOT itself to become a “public utility” under the Federal Power Act or become subject to the plenary jurisdiction of the Federal Energy Regulatory Commission (FERC).
+
+Section 6. ERCOT Obligations.
+
+A. ERCOT shall comply with, and be bound by, all ERCOT Protocols.
+
+B. ERCOT shall not take any action, without first providing written notice to Participant and reasonable time for Participant and other Market Participants to respond, that would cause Participant if Participant is not a “public utility” under the Federal Power Act, or ERCOT itself to become a “public utility” under the Federal Power Act or become subject to the plenary jurisdiction of the FERC. If ERCOT receives any notice similar to that described in Section 5(B) from any Market Participant, ERCOT shall provide notice of same to Participant.
+
+Section 7. Black Start Decertification.
+
+If a Black Start Resource does not remain certified, or if it is in default as described in Section 10(A)(2)(e) during the term of this Agreement, then the Hourly Standby Fee is reduced to zero for the remainder of the Full Term, and Participant will be required to refund to ERCOT certain amounts paid by ERCOT under this Agreement during the Full Term as described in the ERCOT Protocols.
+
+Section 8. Operation.
+
+A. Black Start Resource Maintenance. Before the start of the contract year, Participant shall furnish ERCOT with its proposed schedule for Planned Outages for inspection, repair, maintenance, and overhaul of the Black Start Resource for the contract year. Participant will promptly advise ERCOT of any later changes to the schedule. The specific times for Planned Outages of the Black Start Resource must be approved by ERCOT. Such approval may be withheld if necessary to assure reliability of the ERCOT System. ERCOT shall, if requested by Participant, endeavor to accommodate changes to the schedule to the extent that reliability of the ERCOT System is not materially affected by those changes. In all cases, ERCOT must find a time for Participant to perform maintenance in a reasonable timeframe as defined by Good Utility Practice.
+
+B. Planning Data.
+
+  Participant shall timely report to ERCOT those items and conditions necessary for ERCOT’s internal planning and compliance with ERCOT’s guidelines in effect from time to time. The information supplied must include, without limitation, the following:
+
+  (1) Availability Plan for each hour of the next Operating Day submitted by 0600 of the preceding day; and
+
+  (2) Revised Availability Plan reflecting changes in hourly availability of Black Start Capacity status as indicated in a revised Availability Plan as soon as reasonably practical, but in no event later than 60 minutes after the event that caused the change.
+
+C. Testing.
+
+Participant shall perform quarterly Black Start Resource Availability Tests as described in these Protocols.
+
+D. Delivery.
+
+  (1) ERCOT will make every effort to notify the Participant, through its Qualified Scheduling Entity (QSE) or Transmission Service Provider (TSP), when the Black Start Resource must black start. It is, however the responsibility of the Participant to initiate the start-up process of Black Start Resources in preparation for system restoration.
+
+  (2) If the ERCOT Transmission Grid at the Black Start Resource becomes deenergized and if Participant cannot communicate with either ERCOT or the Transmission Service Provider (TSP) and/or Distribution Service Provider (DSP) serving the Black Start Resource, then Participant shall follow the procedures specified for the Black Start Resource under ERCOT’s Black Start plan in the Operating Guides, but Participant shall not commence delivering electric energy into the ERCOT System without specific instructions to do so from either ERCOT or the TSP and/or DSP serving the Black Start Resource.
+
+Section 9. Payment.
+
+A. Hourly Standby Fee Payments. ERCOT shall pay Participant the Hourly Standby Fee as described below, except as specified otherwise in Section 7 above.
+
+  (1) Availability
+
+  (a) “Available” means, with respect to a given hour, that Participant has declared, in its Availability Plan, that the Black Start Resource is able to start without a connection to the ERCOT Transmission Grid.
+
+  (b) The Black Start Resource is not Available if:
+
+(i) The Black Start Resource utilizes a power pool outside of ERCOT to start and the transmission path(s) between the Resource and the other power pool is not available due to an outage; or
+
+(ii) The Black Start Resource utilizes a power pool outside of ERCOT to start but fails to maintain a firm standby supply contract for that power pool; or
+
+(iii) The Black Start Resource has failed a Black Start Resource Availability Test, as described in the ERCOT Protocols or Operating Guides and has not passed a subsequent Black Start Resource Availability Test; or
+
+(iv) The Black Start Resource has failed to start when required under this Agreement, and has not passed a subsequent Black Start Resource Availability Test; or
+
+  (v) The Black Start Resource failed to perform when issued a Dispatch Instruction to come On-Line any time other than for BSS and has not passed a subsequent Black Start Resource Availability Test.
+
+  (c) ERCOT shall use the Black Start Resource’s Availability Plan as the source of Black Start Resource availability information.
+
+  (2) “Black Start Service Hourly Rolling Equivalent Availability Factor (BSSHREAF)” means, with respect to a given hour, the quotient (expressed as a percentage) of (a) the number of hours, including the given hour and the immediately preceding 4,379 hours, in which the Black Start Resource was Available, divided by (b) 4,380; provided that, to the extent that 4,379 hours have not elapsed since the Start Date (the difference between 4,379 and the hours that have elapsed being referred to herein as the “Assumed Hours”), the Black Start Resource shall be deemed, for purposes of this calculation, to be Available for the Assumed Hour unless the Black Start Resource has failed to perform in response to a blackout event or when a Dispatch Instruction to come On-Line has been issued. Participant’s failure to perform shall be subject to possible claw-back of its Hourly Standby Fee and reduced payment during the Assumed Hours period. A Force Majeure Event is treated the same as any other cause for unavailability for the purposes of calculating BSSHREAF.
+
+  (3) “Hourly Standby Fee” means, with respect to a given hour, the result determined from the following table:
+
+  ------------------------------------------------------------------- ------------------------------------------------------
+  Black Start Service Hourly Rolling Availability Factor (BSSHREAF)   Hourly Standby Fee
+
+  If BSSHREAF is more than or equal to 85%                            Hourly Standby Price ($)
+
+  If BSSHREAF is less than 85% but more than 35%                      Hourly Standby Price * [100%-(85%-BSSHREAF) * 2] ($)
+
+  If BSSHREAF is equal to or less than 35%                            Zero
+  ------------------------------------------------------------------- ------------------------------------------------------
+
+Section 10. Default.
+
+A. Event of Default.
+
+  (1) Failure by Participant to (i) pay when due, any payment or Financial Security obligation owed to ERCOT or its designee, if applicable, under any agreement with ERCOT (“Payment Breach”), or (ii) designate/maintain an association with a QSE (if required by the ERCOT Protocols) (“QSE Affiliation Breach”), shall constitute a material breach and event of default ("Default") unless cured within one (1) Business Day after ERCOT delivers written notice of the breach to Participant. Provided further that if such a material breach, regardless of whether such breach is cured within the allotted time after notice of the material breach, occurs more than three times within a rolling 12-month period, the fourth such breach shall constitute a Default.
+
+  (2) A material breach other than a Payment Breach or a QSE Affiliation Breach includes any material failure by Participant to comply with the ERCOT Protocols. A material breach under this subsection shall constitute an event of Default by Participant unless cured within fourteen (14) Business Days after delivery by ERCOT of written notice of the material breach to Participant.
+
+  Participant must begin work or other efforts within three (3) Business Days to cure such material breach after delivery of the breach notice by ERCOT, and must prosecute such work or other efforts with reasonable diligence until the breach is cured. Provided further that if a material breach, regardless of whether such breach is cured within the allotted time after notice of the material breach, occurs more than three (3) times within a 12-month period, the fourth such breach shall constitute a Default.
+
+  A material breach under this subsection shall not result in a Default if the breach cannot reasonably be cured within fourteen (14) Business Days, and Participant:
+
+  (a) Promptly provides ERCOT with written notice of the reasons why the breach cannot reasonably be cured within fourteen (14) Business Days;
+
+  (b) Begins to work or other efforts to cure the breach within three (3) Business Days after ERCOT’s delivery of the notice to Participant; and
+
+  (c) Prosecutes the curative work or efforts with reasonable diligence until the curative work or efforts are completed.
+
+(3) The occurrence and continuation of any of the following events shall constitute an automatic Default by Participant:
+
+  (a) Participant becomes Bankrupt, except for the filing of a petition in involuntary bankruptcy, or similar involuntary proceeding, that is dismissed within 90 days thereafter;
+
+  (b) The Black Start Resource’s operation is abandoned without an intent to return it to operation during the Full Term;
+
+  (c) At any time, the Black Start Service Hourly Rolling Equivalent Availability Factor (BSSHREAF) is equal to or less than 50%; or
+
+  (d) An Available Black Start Resource fails to perform successfully as required during a Partial Blackout or Blackout.
+
+  (4) Except as otherwise excused herein, a material breach of this Agreement by ERCOT, including any material failure by ERCOT to comply with the ERCOT Protocols, other than a Payment Breach, shall constitute a Default by ERCOT unless cured within fourteen (14) Business Days after delivery by Participant of written notice of the material breach to ERCOT. ERCOT must begin work or other efforts within three (3) Business Days to cure such material breach after delivery by Participant of written notice of such material breach by ERCOT and must prosecute such work or other efforts with reasonable diligence until the breach is cured. Provided further that if a material breach, regardless of whether such breach is cured within the allotted time after notice of the material breach, occurs more than three (3) times within a 12-month period, the fourth such breach shall constitute a Default.
+
+  (5) If, due to a Force Majeure Event, a Party is in breach with respect to any obligation hereunder, such breach shall not result in a Default by that Party.
+
+  (6) Notwithstanding anything to the contrary, if Participant uses a Switchable Generation Resource (SWGR) as the Black Start Resource, the requirements or instructions of another Control Area Operator shall not constitute a Force Majeure Event or otherwise excuse the Participant from providing BSS or performing its obligations under this Agreement.
+
+B. Remedies for Default.
+
+  (1) ERCOT’s Remedies for Default. In the event of a Default by Participant, ERCOT may pursue any remedies ERCOT has under this Agreement, at law, or in equity, subject to the provisions of Section 12, Dispute Resolution, of this Agreement. In the event of a Default by Participant, if the ERCOT Protocols do not specify a remedy for a particular Default, ERCOT may, at its option, upon written notice to Participant, immediately terminate this Agreement, with termination to be effective upon the date of delivery of notice. In the event of Participant’s bankruptcy, Participant waives any right to challenge ERCOT’s right to set-off amounts ERCOT owes to Participant by the amount of any sums owed by Participant to ERCOT, including any amounts owed pursuant to the operation of the Protocols.
+
+  (2) Participant’s Remedies for Default.
+
+  (a) Unless otherwise specified in this Agreement or in the ERCOT Protocols, and subject to the provisions of Section 12, Dispute Resolution, of this Agreement, in the event of a Default by ERCOT, Participant’s remedies shall be limited to:
+
+(i) Immediate termination of this Agreement upon written notice to ERCOT;
+
+(ii) Monetary recovery in accordance with the Settlement procedures set forth in the ERCOT Protocols; and
+
+(iii) Specific performance.
+
+  (b) However, in the event of a material breach by ERCOT of any of its representations, warranties or covenants, Participant’s sole remedy shall be immediate termination of this Agreement upon written notice to ERCOT.
+
+  (3) A Default or breach of this Agreement by a Party shall not relieve either Party of the obligation to comply with the ERCOT Protocols.
+
+C. Force Majeure.
+
+  (1) If, due to a Force Majeure Event, either Party is in breach of this Agreement with respect to any obligation hereunder, such Party shall take reasonable steps, consistent with Good Utility Practice, to remedy such breach. If either Party is unable to fulfill any obligation by reason of a Force Majeure Event, it shall give notice and the full particulars of the obligations affected by such Force Majeure Event to the other Party in writing or by telephone (if followed by written notice) as soon as reasonably practicable, but not later than fourteen (14) calendar days, after such Party becomes aware of the event. A failure to give timely notice of the Force Majeure event shall constitute a waiver of the claim of Force Majeure Event. The Party experiencing the Force Majeure Event shall also provide notice, as soon as reasonably practicable, when the Force Majeure Event ends.
+
+  (2) Notwithstanding the foregoing, a Force Majeure Event does not relieve a Party affected by a Force Majeure Event of its obligation to make payments or of any consequences of non-performance pursuant to the ERCOT Protocols or under this Agreement, except that the excuse from Default provided by subsection 10(A)(5) above is still effective.
+
+D. Duty to Mitigate. Except as expressly provided otherwise herein, each Party shall use commercially reasonable efforts to mitigate any damages it may incur as a result of the other Party’s performance or non-performance of this Agreement.
+
+Section 11. Limitation of Damages and Liability and Indemnification.
+
+A. EXCEPT AS EXPRESSLY LIMITED IN THIS AGREEMENT OR THE ERCOT PROTOCOLS, ERCOT OR PARTICIPANT MAY SEEK FROM THE OTHER, THROUGH APPLICABLE DISPUTE RESOLUTION PROCEDURES SET FORTH IN THE ERCOT PROTOCOLS, ANY MONETARY DAMAGES OR OTHER REMEDY OTHERWISE ALLOWABLE UNDER TEXAS LAW, AS DAMAGES FOR DEFAULT OR BREACH OF THE OBLIGATIONS UNDER THIS AGREEMENT; PROVIDED, HOWEVER, THAT NEITHER PARTY IS LIABLE TO THE OTHER FOR ANY SPECIAL, INDIRECT, PUNITIVE OR CONSEQUENTIAL DAMAGES OR INJURY THAT MAY OCCUR, IN WHOLE OR IN PART, AS A RESULT OF A DEFAULT UNDER THIS AGREEMENT, A TORT, OR ANY OTHER CAUSE, WHETHER OR NOT A PARTY HAD KNOWLEDGE OF THE CIRCUMSTANCES THAT RESULTED IN THE SPECIAL, INDIRECT, PUNITIVE OR CONSEQUENTIAL DAMAGES OR INJURY, OR COULD HAVE FORESEEN THAT SUCH DAMAGES OR INJURY WOULD OCCUR.
+
+B. With respect to any dispute regarding a Default or breach by ERCOT of its obligations under this Agreement, ERCOT expressly waives any Limitation of Liability to which it may be entitled under the Charitable Immunity and Liability Act of 1987, Tex. Civ. Prac. & Rem. Code §84.006, or successor statute.
+
+C. The Parties have expressly agreed that, other than subsections A and B of this Section, this Agreement shall not include any other limitations of liability or indemnification provisions, and that such issues shall be governed solely by applicable law, in a manner consistent with Section 13(A), Choice of Law and Venue, of this Agreement, regardless of any contrary provisions that may be included in or subsequently added to the ERCOT Protocols (outside of this Agreement).
+
+Section 12. Dispute Resolution.
+
+A. In the event of a dispute, including a dispute regarding a Default, under this Agreement, Parties to this Agreement shall first attempt resolution of the dispute using the applicable dispute resolution procedures set forth in the ERCOT Protocols.
+
+B. In the event of a dispute, including a dispute regarding a Default, under this Agreement, each Party shall bear its own costs and fees, including, but not limited to attorneys’ fees, court costs, and its share of any mediation or arbitration fees.
+
+Section 13. Miscellaneous.
+
+A. Choice of Law and Venue. Notwithstanding anything to the contrary in this Agreement, this Agreement shall be deemed entered into and performable solely in Texas and, with the exception of matters governed exclusively by federal law, shall be governed by and construed and interpreted in accordance with the laws of the State of Texas that apply to contracts executed in and performed entirely within the State of Texas, without reference to any rules of conflict of laws. Neither Party waives primary jurisdiction as a defense; provided that any court suits regarding this Agreement shall be brought in a state or federal court located within Travis County, Texas, and the Parties hereby waive any defense of forum non-conveniens, except defenses under Tex. Civ. Prac. & Rem. Code §15.002(b).
+
+B. Assignment.
+
+  (1) Notwithstanding anything herein to the contrary, a Party shall not assign or otherwise transfer all or any of its rights or obligations under this Agreement without the prior written consent of the other Party, which shall not be unreasonably withheld or delayed, except that a Party may assign or transfer its rights and obligations under this Agreement without the prior written consent of the other Party (if neither the assigning Party or the assignee is then in Default of any Agreement with ERCOT):
+
+  (a) Where any such assignment or transfer is to an Affiliate of the Party; or
+
+  (b) Where any such assignment or transfer is to a successor to or transferee of the direct or indirect ownership or operation of all or part of the Party, or its facilities; or
+
+  (c) For collateral security purposes to aid in providing financing for itself, provided that the assigning Party will require any secured party, trustee or mortgagee to notify the other Party of any such assignment. Any financing arrangement entered into by either Party pursuant to this Section will provide that prior to or upon the exercise of the secured party’s, trustee’s or mortgagee’s assignment rights pursuant to said arrangement, the secured creditor, the trustee or mortgagee will notify the other Party of the date and particulars of any such exercise of assignment right(s). If requested by the Party making any such collateral assignment to a Financing Person, the other Party shall execute and deliver a consent to such assignment containing customary provisions, including representations as to corporate authorization, enforceability of this Agreement and absence of known Defaults, notice of material breach pursuant to Section 10(A), notice of Default, and an opportunity for the Financing Person to cure a material breach pursuant to Section 10(A) prior to it becoming a Default.
+
+  (2) An assigning Party shall provide prompt written notice of the assignment to the other Party. Any attempted assignment that violates this Section is void and ineffective. Any assignment under this Agreement shall not relieve either Party of its obligations under this Agreement, nor shall either Party’s obligations be enlarged, in whole or in part, by reason thereof.
+
+C. No Third Party Beneficiary. Except with respect to the rights of the Financing Persons in subsection 13(B)(1)(c), (a) nothing in this Agreement nor any action taken hereunder shall be construed to create any duty, liability or standard of care to any third party, (b) no third party shall have any rights or interest, direct or indirect, in this Agreement or the services to be provided hereunder, and (c) this Agreement is intended solely for the benefit of the Parties, and the Parties expressly disclaim any intent to create any rights in any third party as a third party beneficiary to this Agreement or the services to be provided hereunder. Nothing in this Agreement shall create a contractual relationship between one Party and the customers of the other Party, nor shall it create a duty of any kind to such customers.
+
+D. No Waiver. Parties shall not be required to give notice to enforce strict adherence to all provisions of this Agreement. No breach or provision of this Agreement shall be deemed waived, modified or excused by a Party unless such waiver, modification or excuse is in writing and signed by an authorized officer of such Party. The failure by or delay of either Party in enforcing or exercising any of its rights under this Agreement shall (a) not be deemed a waiver, modification or excuse of such right or of any breach of the same or different provision of this Agreement, and (b) not prevent a subsequent enforcement or exercise of such right. Each Party shall be entitled to enforce the other Party’s covenants and promises contained herein, notwithstanding the existence of any claim or cause of action against the enforcing Party under this Agreement or otherwise.
+
+E. Headings. Titles and headings of paragraphs and sections within this Agreement are provided merely for convenience and shall not be used or relied upon in construing this Agreement or the Parties’ intentions with respect thereto.
+
+F. Severability. In the event that any of the provisions, or portions or applications thereof, of this Agreement is finally held to be unenforceable or invalid by any court of competent jurisdiction, that determination shall not affect the enforceability or validity of the remaining portions of this Agreement, and this Agreement shall continue in full force and effect as if it had been executed without the invalid provision; provided, however, if either Party determines, in its sole discretion, that there is a material change in this Agreement by reason thereof, the Parties shall promptly enter into negotiations to replace the unenforceable or invalid provision with a valid and enforceable provision. If the Parties are not able to reach an agreement as the result of such negotiations within fourteen (14) days, either Party shall have the right to terminate this Agreement on three (3) days written notice.
+
+G. Entire Agreement. Any exhibits attached to this Agreement are incorporated into this Agreement by reference and made a part of this Agreement as if repeated verbatim in this Agreement. This Agreement represents the Parties’ final and mutual understanding with respect to its subject matter. It replaces and supersedes any prior agreements or understandings, whether written or oral. No representations, inducements, promises, or agreements, oral or otherwise, have been relied upon or made by any Party, or anyone on behalf of a Party, that are not fully expressed in this Agreement. An agreement, statement, or promise not contained in this Agreement is not valid or binding.
+
+H. Amendment. The standard form of this Agreement may only be modified through the procedure for modifying ERCOT Protocols described in the ERCOT Protocols. Any changes to the terms of the standard form of this Agreement shall not take effect until a new Agreement is executed between the Parties.
+
+I. ERCOT’s Right to Audit Participant. Participant shall keep detailed records for a period of three years of all activities under this Agreement giving rise to any information, statement, charge, payment or computation delivered to ERCOT under the ERCOT Protocols. Such records shall be retained and shall be available for audit or examination by ERCOT as hereinafter provided. ERCOT has the right during Business Hours and upon reasonable written notice and for reasonable cause to examine the records of Participant as necessary to verify the accuracy of any such information, statement, charge, payment or computation made under this Agreement. If any such examination reveals any inaccuracy in any such information, statement, charge, payment or computation, the necessary adjustments in such information, statement, charge, payment, computation, or procedures used in supporting its ongoing accuracy will be promptly made.
+
+J. Participant’s Right to Audit ERCOT. Participant’s right to data and audit of ERCOT shall be as described in the ERCOT Protocols and shall not exceed the rights described in the ERCOT Protocols.
+
+K. Further Assurances. Each Party agrees that during the term of this Agreement it will take such actions, provide such documents, do such things and provide such further assurances as may reasonably be requested by the other Party to permit performance of this Agreement.
+
+L. Conflicts. This Agreement is subject to applicable federal, state, and local laws, ordinances, rules, regulations, orders of any Governmental Authority and tariffs. Nothing in this Agreement may be construed as a waiver of any right to question or contest any federal, state and local law, ordinance, rule, regulation, order of any Governmental Authority, or tariff. In the event of a conflict between this Agreement and an applicable federal, state, and local law, ordinance, rule, regulation, order of any Governmental Authority or tariff, the applicable federal, state, and local law, ordinance, rule, regulation, order of any Governmental Authority or tariff shall prevail, provided that Participant shall give notice to ERCOT of any such conflict affecting Participant. In the event of a conflict between the ERCOT Protocols and this Agreement, the provisions expressly set forth in this Agreement shall control.
+
+M. No Partnership. This Agreement may not be interpreted or construed to create an association, joint venture, or partnership between the Parties or to impose any partnership obligation or liability upon either Party. Neither Party has any right, power, or authority to enter any agreement or undertaking for, or act on behalf of, or to act as or be an agent or representative of, or to otherwise bind, the other Party.
+
+N. Construction. In this Agreement, the following rules of construction apply, unless expressly provided otherwise or unless the context clearly requires otherwise:
+
+  (1) The singular includes the plural, and the plural includes the singular.
+
+  (2) The present tense includes the future tense, and the future tense includes the present tense.
+
+  (3) Words importing any gender include the other gender.
+
+  (4) The word “shall” denotes a duty.
+
+  (5) The word “must” denotes a condition precedent or subsequent.
+
+  (6) The word “may” denotes a privilege or discretionary power.
+
+  (7) The phrase “may not” denotes a prohibition.
+
+  (8) References to statutes, tariffs, regulations, or ERCOT Protocols include all provisions consolidating, amending, or replacing the statutes, tariffs, regulations, or ERCOT Protocols referred to.
+
+  (9) References to “writing” include printing, typing, lithography, and other means of reproducing words in a tangible visible form.
+
+  (10) The words “including,” “includes,” and “include” are deemed to be followed by the words “without limitation.”
+
+  (11) Any reference to a day, week, month or year is to a calendar day, week, month or year unless otherwise indicated.
+
+  (12) References to articles, Sections (or subdivisions of Sections), exhibits, annexes or schedules are to this Agreement, unless expressly stated otherwise.
+
+  (13) Unless expressly stated otherwise, references to agreements, ERCOT Protocols and other contractual instruments include all subsequent amendments and other modifications to the instruments, but only to the extent the amendments and other modifications are not prohibited by this Agreement.
+
+  (14) References to persons or Entities include their respective successors and permitted assigns and, for governmental Entities, Entities succeeding to their respective functions and capacities.
+
+  (15) References to time are to Central Prevailing Time (CPT).
+
+O. Multiple Counterparts. This Agreement may be executed in two or more counterparts, each of which is deemed an original but all constitute one and the same instrument.
+
+SIGNED, ACCEPTED, AND AGREED TO by each undersigned signatory who, by signature hereto, represents and warrants that he or she has full power and authority to execute this Agreement.
+
+Electric Reliability Council of Texas, Inc.:
+
+By: ______________________________
+
+Name: ____________________________
+
+Title: _____________________________
+
+Date: _____________________________
+
+Participant:
+
+By: ______________________________
+
+Name:      
+
+Title:      
+
+Date:      
+
+Market Participant Name:      
+
+Market Participant DUNS:      

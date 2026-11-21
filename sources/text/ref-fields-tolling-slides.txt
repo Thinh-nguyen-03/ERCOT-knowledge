@@ -1,0 +1,2774 @@
+Part II: Tolling Deals
+Glen Swindle
+
+August 7, 2013
+
+c Glen Swindle: All rights reserved
+
+1 / 73
+
+Introduction
+Basics of Tolling Deals
+Power Market Mechanics
+Valuing Tolls—A Monthly Example
+Hedging Frictions—Block Size
+Daily Tolls
+Hedging Frictions—Strips, Vega and Spurious Risks
+The Vol-Lookup Heuristic
+Modeling Alternatives
+Conclusion
+2 / 73
+
+Basics of Tolling Deals
+Deal Structure
+Tolling deal is a derivative rendition of a power generator.
+- Typically the fuel is natural gas.
+The Basic Structure:
+Ẽ
+
+"
+X
+
+#
+d(0, t) max (FP (t, t) − H∗ FG (t, t) − V , 0)
+
+t
+
+where:
+- t denotes delivery day (this is discrete time).
+- FP denotes the forward (or spot) price of power for a particular delivery
+bucket (e.g. 5x16) and FG denotes the price of natural gas; both are
+typically at liquid pricing hubs.
+- H∗ is the heatrate (conversion rate between gas and power).
+
+- V is VOM (variable operation and maintenance).
+
+3 / 73
+
+Basics of Tolling Deals
+Deal Structure
+The primary purpose of a toll is to annuitize the value of either a
+soon to be purchased asset or a soon to be built asset in order to
+facilitate borrowing.
+The typical structure is:
+- Daily day-ahead manual exercise into a standard power buckets.
+- Monthly ”capacity payments” (as opposed to upfront premium).
+- Monthly settlement.
+so that the valuation is really:
+2
+V = Ẽ 4
+
+3
+X
+m
+
+d(0, Tm )Qm
+
+X
+
+max (FP (d, d) − H∗ FG (d, d) − V , 0)5
+
+d∈B(m)
+
+- B(m) denotes the days in month m with delivery in the relevant power
+bucket B.
+4 / 73
+
+Power Market Mechanics
+Linear Instruments
+Fixed price swaps settle on the monthly average realized spot price
+for a prescribed bucket.
+Eastern US:
+- Peak bucket is 5x16 (M-F 7AM to 11PM).
+- Offpeak (the ”offpeak wrap”) is the complement.
+- Often circumstances require trading (or at least viewing) the offpeak wrap
+as 2x16 and 7x8. These are highly illiquid swaps.
+
+- Standard contract size: 50MW.
+Western US:
+- Peak bucket is 6x16 (M-Sat 7AM to 11PM).
+- Offpeak (the ”offpeak wrap”) is the complement.
+- Standard contract size: 25MW.
+Texas (ERCOT):
+- Peak bucket is 5x16 (M-F 6AM to 10PM).
+- Offpeak (the ”offpeak wrap”) is the complement.
+- Standard contract size: 50MW.
+5 / 73
+
+Power Market Mechanics
+Linear Instruments: Heatrates
+The term ”heatrate” refers to a ratio of power price to a natural gas
+price.
+- The ratio can pertain to market prices, either spot or forward (”market
+heatrates”).
+
+- It can also refer (as we’ll see shortly) to engineering specs of a generator.
+Power swaps often trade as heat-rates:
+- A power buy/sell is associated with a sell/buy of a specified volume of
+natural gas, both over the same delivery period.
+)
+- The trade will be quoted in heatrate units: FFGP (t,T
+, where P and G
+(t,T )
+
+denote power and gas respectively.
+
+6 / 73
+
+Power Market Mechanics
+Linear Instruments: Heatrates
+The following figure shows PJM forward prices and PJM/Henry
+Hub forward heatrates.
+- The seasonality in both arises from (well-founded) expectations that loads
+will be higher in summer and to a lesser extent winter months.
+
+- This forces expected clearing prices higher up the stack into more
+expensive units.
+PJM Forward Curve: 11−Jan−2010
+80
+75
+70
+65
+60
+55
+50
+
+Jan11
+
+Jan12
+
+Jan13
+
+Jan14
+
+PJM/Henry Hub Forward Heatrate Curve: 11−Jan−2010
+13
+12
+11
+10
+9
+8
+7
+
+Jan11
+
+Jan12
+
+Jan13
+
+Jan14
+
+7 / 73
+
+Power Market Mechanics
+Options
+Annual Swaptions
+- Same structure as natural gas in mechanics/valuation.
+Monthly options:
+- Same structure as natural gas.
+- Standard expiry: ’-2b’
+Daily Fixed Strike
+- Financially settling and usually manually exercised day-ahead (’-1b’)
+- Example: Cash settled value of an auto-exercised call:
+X
+
+max [F (d, d) − K , 0]
+
+d∈m
+
+- Example: Cash settled value of standard exercise:
+X
+
+1{Ed } [F (d, d) − K ]
+
+d∈m
+
+where Ed denotes exercise events.
+
+- Dominant vol exposure: daily (spot).
+8 / 73
+
+Power Market Mechanics
+Options
+Monthly Options:
+- Exercises at time (Te ) before the beginning of the delivery month into
+either:
+
+- A physical forward with delivery during the contract month at a
+price that is the strike K ;
+
+- Cash settlement based on the value Fm (Te ) − K .
+
+- For example, the value of a call (in either case) is:
+d(0, T )Ẽ (max [Fm (Te ) − K , 0]).
+
+Daily Options:
+- A set of daily options usually exercising one business day before delivery.
+- These are usually financial settling on the spread between spot price
+and the strike: F (t, t) − K where t indexes the delivery day.
+`P
+´
+- For example, the value of a call is: d(0, T )Ẽ
+t∈m max [F (t, t) − K , 0] .
+- The notation t ∈ m denotes the active delivery days in the option during
+month m. For peak (5x16) power options the sum would span the
+(roughly 20-22) business days in the particular month.
+9 / 73
+
+Valuing Tolls—A Monthly Example
+
+Working Problem
+Consider a tolling deal with monthly exercise with the following
+terms:
+Pricing date: 11Jan2010
+Underlyings are PJM Western Hub 5x16 and Henry Hub natural gas.
+Heatrate H∗ = 11.0
+Delivery monthly Jul10
+Exercise is standard penultimate settlement of NYMEX NG contract.
+Note: for simplicity we will assume that PJM monthly options also
+expire ’-4b’).
+Notional: 400 MW
+
+10 / 73
+
+Valuing Tolls—A Monthly Example
+Relevant Data
+Remark on Notional:
+- The number of NERC business days in the Jul10 is 21.
+- So the total notional of this toll is 21 · 16 · 400 = 134, 400 MWh.
+The relevant forward prices are:
+- X0 ≡ FP (0, T ) = 69.650
+- Y0 ≡ H∗ FG (0, T ) = 11.0 · 5.603 = 61.633
+The discount factor is 0.999 .
+Note: The market heatrate is: H = 69.650
+5.603 = 12.431.
+- This is higher than the deal heatrate H∗ = 11.0
+- The option is in-the-money.
+
+Vol Backwardation:
+We do not have a vol backwardation issue as the respective legs are expiring (by
+assumption) at their vanilla expiry.
+11 / 73
+
+Valuing Tolls—A Monthly Example
+Skew: What vols do we pick?
+There is ambiguity as the vol skews for each underlying are defined
+in terms of fixed strike options.
+We have floating strikes in the sense that the ”other” leg is itself a
+commodity price.
+A common approach is to use the underlying price of the opposing
+leg to define moneyness.
+For an option on F1 − F2 − K view:
+F (0,T2 )+K
+.
+F (0,T1 )
+F (0,T1 )−K
+F2 in reference to F1 − K : π2 ≡ F (0,T ) .
+2
+
+- F1 in reference to F2 + K : π1 ≡
+-
+
+For this problem:
+- πX ≡
+
+H∗ FG (0,T )
+F (0,T )
+and πY ≡ H PF (0,T ) .
+FP (0,T )
+∗ G
+
+- In our working problem πX = 0.885 and πY = 1.130.
+
+The results of this vol lookup are: σX = 0.393 and σY = 0.445.
+12 / 73
+
+Valuing Tolls—A Monthly Example
+Skew: What vols do we pick?
+Monthly Vol Skews: Jul10
+0.48
+PJM
+HH
+0.46
+
+Monthly Vol
+
+0.44
+
+0.42
+
+"Gas" option out of the money
+"Power" option in the money
+
+0.4
+
+0.38
+
+0.36
+0.4
+
+0.6
+
+0.8
+
+1
+
+1.2
+
+1.4
+
+1.6
+
+1.8
+
+Price Ratio (π)
+
+13 / 73
+
+Valuing Tolls—A Monthly Example
+
+Correlation
+What correlation should we use?
+- Monthly tolling deals are uncommon and there is no broker market from
+which to calibrate this parameter.
+- The following figure shows the returns correlation by contract month
+estimated over a 1Y trailing window using several time-scales (lags) for
+returns:
+h
+i
+F (d,T )
+.
+- Specifically returns on lag L are defined as log F (d−L,T
+)
+- The purpose of considering returns for L > 1 is to both view returns
+on time scales on which actual hedging activity may occur as well
+as to smooth out possible anomalies in historical marks.
+
+14 / 73
+
+Valuing Tolls—A Monthly Example
+Correlation
+Forward Returns by Contract Month for PJM Versus HH
+1
+
+0.9
+
+Returns Correlation
+
+0.8
+
+0.7
+
+0.6
+
+Lag: 1
+Lag: 5
+Lag: 10
+Lag: 15
+
+0.5
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+0
+2007
+
+2008
+
+2009
+
+2010
+
+2011
+
+Contract Month
+
+15 / 73
+
+Valuing Tolls—A Monthly Example
+Correlation
+The results for the this working problem are shown in the figure
+below for a range of correlations.
+Value in $/MWh vs Term Correlation
+13
+
+PV
+Intrinsic PV
+
+12
+
+$/MWh
+
+11
+
+10
+
+9
+
+8
+
+0.5
+
+0.55
+
+0.6
+
+0.65
+
+0.7
+
+0.75
+
+0.8
+
+0.85
+
+0.9
+
+0.95
+
+1
+
+Term Corr
+
+16 / 73
+
+Valuing Tolls—A Monthly Example
+Delta and Gamma
+Deltas—recall:
+
+∂V
+= N(d1 )
+∂X
+
+∂V
+= −N(d2 )
+∂Y
+
+Converting to our forward tolling setting yields:
+∂V
+= d(τ )QN(d1 )
+∂F
+
+∂V
+= −d(τ )QH∗ N(d2 )
+∂G
+
+Gamma—similarly:
+N 0 (d1 )
+Γ = d(τ )Q
+σ̂
+
+1
+F (0,T )
+1
+− G (0,T
+)
+
+1
+− G (0,T
+)
+
+!
+
+F (0,T )
+G 2 (0,T )
+
+Γ is positive-definite because:
+ᾱt Γᾱ = d(τ )Q
+
+»
+–2
+N 0 (d1 )
+F (0, T )
+α1 −
+α2
+σ̂F (0, T )
+G (0, T )
+
+.
+
+When ∆-hedged, all directions point up.
+17 / 73
+
+Valuing Tolls—A Monthly Example
+Delta and Gamma
+It is useful to diagonalize the matrix to see where the convexity is:
+- The eigenvalues are:
+λ1
+
+=
+
+0
+
+λ2
+
+=
+
+d(τ )Q
+
+N 0 (d1 )
+σ̂
+
+»
+
+1
+F (0, T )
++
+F (0, T )
+G (0, T )2
+
+–
+
+- The eigenvector corresponding to λ1 = 0 is:
+"
+#
+~v1 =
+
+F (0,T )
+G (0,T )
+
+1
+
+- There is no convexity when market heat rate H(t, T ) is constant.
+- The second eigenvector is:
+#
+"
+1
+~v2 =
+F (0,T )
+− G (0,T )
+
+(1)
+
+(2)
+
+- Convexity is maximal for price changes in which ∆G = −H∆F .
+- This direction is not particularly relevant to empirical natural gas and
+power dynamics.
+- In this direction, a $1 increase in forward power prices is associated with a
+roughly $12 drop in natural gas prices; hardly an expected event.
+18 / 73
+
+Valuing Tolls—A Monthly Example
+Vega
+The valuation above is identical to a call option on X struck at Y0
+with the modification that the term volatility is given by the
+modified form:
+ˆ
+˜
+σ̂ 2 = T σX2 + σY2 − 2ρσX σY
+
+As with a call option, ∂V
+∂ σ̂ is positive:
+∂V
+∂d1
+∂d2
+= XN 0 (d1 )
+− YN 0 (d2 )
+= XN 0 (d1 )
+∂ σ̂
+∂ σ̂
+∂ σ̂
+.
+
+The chain rule clearly yields:
+∂V
+∂V ∂ σ̂
+=
+∂σX
+∂ σ̂ ∂σX
+
+This means that:
+»
+sign
+
+∂V
+∂σX
+
+–
+
+»
+= sign
+
+∂ σ̂
+∂σX
+
+–
+= sign [σX − ρσY ]
+19 / 73
+
+Valuing Tolls—A Monthly Example
+Vega
+By symmetry:
+»
+sign
+
+∂V
+∂σY
+
+–
+= sign [σY − ρσX ]
+
+The implication is that hvega with
+i respect to one of the underlyings
+will be negative if: min σσYX , σσYX < ρ.
+As we know from our working example, this situation is not
+uncommon as σX and σY are often of comparable magnitude and ρ
+is often very close to unity.
+The intuition is simple: if the correlation of the two assets is high
+and if σX > σY then any increase in σY ”chews into” the volatility
+of the spread σ̂.
+
+20 / 73
+
+Valuing Tolls—A Monthly Example
+
+Vega
+By implicit differentiation:
+1
+
+T 2 (σX − ρσY )
+∂ σ̂
+= `
+´1
+∂σX
+2
+σ + σ 2 − 2ρσ σ 2
+X
+
+X
+
+Y
+
+Y
+
+∂ σ̂
+with a symmetric result for ∂σ
+.
+Y
+
+Therefore:
+
+1
+
+∂V
+T 2 (σX − ρσY )
+= XN 0 (d1 ) `
+´1
+∂σX
+σ 2 + σ 2 − 2ρσ σ 2
+X
+
+Y
+
+X
+
+Y
+
+1
+2
+
+which scales as T .
+
+21 / 73
+
+Valuing Tolls—A Monthly Example
+Vega
+In our working problem the correlation threshold for negative vega is
+σX
+σY = 0.882.
+We expect X-vega to be negative.
+The following plot shows both vegas as a function of correlation.
+Vega versus Term Corr
+6
+
+X−Vega
+Y−Vega
+5
+
+4
+
+Vega
+
+3
+
+2
+
+1
+
+0
+
+−1
+
+−2
+0.5
+
+0.55
+
+0.6
+
+0.65
+
+0.7
+
+0.75
+
+0.8
+
+0.85
+
+0.9
+
+0.95
+
+1
+
+Term Corr
+
+22 / 73
+
+Hedging Frictions
+Block-Size Impact on Hedging
+This has implications for hedging.
+- The fact that you can only trade 50MW limits your ability to capture the
+modeled extrinsic value.
+
+- This limitation is an issue in all markets, but particularly so for power and
+natural gas.
+
+- The following plot shows the change in delta (converted to MW) as a
+function of a change in heatrate on the trade date.
+Change in Delta Versus Change in Heatrate
+200
+
+Change in Power Delta (MW)
+
+150
+
+100
+
+50
+
+0
+
+−50
+
+−100
+
+−150
+
+−200
+−2
+
+−1.5
+
+−1
+
+−0.5
+
+0
+
+0.5
+
+1
+
+1.5
+
+2
+
+Change in Heatrate
+
+23 / 73
+
+Hedging Frictions
+Block-Size Impact on Hedging
+How much do heatrates actually move?
+- The following plot shows heatrate history for the Jul10 contract as well as
+the distribution of 5 day heatrate changes.
+
+- The conclusion is that delta hedging a 400 MW toll is not going to be a
+very fruitful enterprise.
+
+PJM/HH Historical Heatrate: Jul10
+14
+
+Heatrate
+
+13.5
+13
+12.5
+12
+11.5
+11
+Jul08
+
+Oct08
+
+Jan09
+
+Apr09
+
+Jul09
+
+Oct09
+
+Jan10
+
+Apr10
+
+PJM/HH Historical 5 Day Change in Heatrate: Jul10
+
+Frequency
+
+100
+80
+60
+40
+20
+0
+−1.5
+
+−1
+
+−0.5
+
+0
+
+0.5
+
+Heatrate Change
+
+1
+
+1.5
+
+24 / 73
+
+Daily Tolls
+Working Problem
+Most tolls trade for tenors of 5-7 years.
+- This is well outside the liquidity window at which individual contract
+months trade.
+
+- The impact on hedge performance can be non-trivial—but has yet to
+estimated rigorously.
+
+In what follows we will switch to the following toll:
+- Pricing date: 11Jan2010
+- Underlyings are PJM Western Hub 5x16 and Henry Hub natural gas.
+- Heatrate: 8.0
+- Delivery period: 01Jan11 to 31Dec11
+- Standard exercise: ’-1b’.
+- Notional: 400 .
+Note: A 2-factor Gaussian exponential framework was used for each
+with correlations specified to be roughly consistent with implied
+correlations.
+25 / 73
+
+Daily Tolls
+Multi-Factor Approach
+In the absence of quoted markets for heatrate options, one might
+consider using estimated correlations as a benchmark.
+In the two-factor framework:
+
+2 Z t
+dFk (t, T ) X
+(k)
+(k)
+−βj (T −t)
+dBj (s)
+=
+σj (T )e
+Fk (t, T )
+0
+j=1
+
+where
+- k = 1 corresponds to power.
+- k = 2 corresponds to natural gas.
+Factor correlations:
+h
+
+i
+
+h
+
+i
+
+- corr dB1(1) , dB1(2) = ρlong .
+- corr dB2(1) , dB2(2) = ρshort (t).
+26 / 73
+
+Daily Tolls
+
+Multi-Factor Approach
+The terms ”monthly vol” (σ̄M ) and ”daily vol” (σ̄D ) will always
+refer to implied vols pertaining to the fixed strike options.
+Market dichotomy:
+- Power: Monthly and daily fixed strike options are the vanilla options.
+- Natural Gas: Monthly and the forward starter are the vanilla options.
+
+Calibration of the model above for each commodity involves setting
+(k)
+(k)
+(k)
+{σj (T )}2j=1 to be consistent with σ̄M and σ̄D by contract month.
+
+27 / 73
+
+Daily Tolls
+Spot Volatility
+Recall the caricature of spot (daily) prices processes with returns for
+the daily spot prices i.i.d. normal:
+1
+
+F (t, t) = Fm (Tm )e ζZt − 2 ζ
+
+2
+
+where
+- Fm denotes the contract month containing day t
+- Zt is standard normal.
+- ζ is the spot volatility.
+
+28 / 73
+
+Daily Tolls
+Valuation
+In this modeling framework each of the two underlying commodities
+is log-normally distributed:
+- Valuation eventually leads to Margrabe/quadrature.
+- The term correlation can be explicitly calculated analytically directly from
+the two-factor diffusions.
+
+In the caricature model:
+- Each underlying has a log-normal distribution with volatilities σ̄D,k which
+satisfies:
+2
+2
+σ̄D,k
+TD = σ̄M,k
+TM + ζk2
+
+- The term-correlation is given by:
+ρterm (TD ) =
+
+σ̄M,1 σ̄M,2 TM ρL + ζ1 ζ2 ρS
+σ̄D,1 σ̄D,2 TD
+
+29 / 73
+
+Daily Tolls
+Valuation
+Note the seasonality:
+- Higher correlation in winter months due to gas price spikes being the
+driver of power prices.
+
+- Weather drives summer price dynamics, independently of fuel prices.
+Spot Correlations by Delivery Month for PJM Versus HH
+
+Correlation
+
+1
+
+0.5
+
+0
+
+−0.5
+
+−1
+
+2004
+
+2005
+
+2006
+
+2007
+
+2008
+
+2009
+
+2010
+
+2011
+
+2012
+
+Contract
+
+Spot Correlations Fourier Fit for PJM Versus HH
+
+Correlation
+
+0.4
+0.3
+0.2
+0.1
+0
+−0.1
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+Month
+
+30 / 73
+
+Daily Tolls
+Valuation
+Using ρS from statistical estimate yields the following term
+structure of correlation.
+Trading activity suggests implied values of ρS that are much higher
+than these.
+Why?
+Implied Term Correlations on 11Jan2010
+0.9
+
+0.85
+
+0.8
+
+0.75
+
+0.7
+
+0.65
+
+0.6
+
+0.55
+
+Term Correlations at Short Tenor Dominated by lower Spot Correlation
+0.5
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+31 / 73
+
+Hedging Frictions
+Impact of Strips
+The following figure shows deltas by month as well as the total cal
+strip delta, both in absolute terms as as a percentage difference for
+our toll.
+Note the nontrivial variation from the cal strip quantity.
+
+4
+
+MWh
+
+15
+
+x 10
+
+Power Deltas By Month with ρS = .90
+Cal Strip Hedge
+
+10
+
+5
+
+0
+
+Jan11 Feb11 Mar11 Apr11 May11 Jun11
+
+Jul11
+
+Aug11 Sep11 Oct11 Nov11 Dec11
+
+Percent Delta Error from Cal Strip Hedge
+40
+
+%
+
+20
+
+0
+
+−20
+
+−40
+
+Jan11 Feb11 Mar11 Apr11 May11 Jun11
+
+Jul11
+
+Aug11 Sep11 Oct11 Nov11 Dec11
+
+32 / 73
+
+Hedging Frictions
+Impact of Strips
+The problem is exacerbated at higher heatrates, which ”pushes” the
+delta into fewer months making the cal strip instrument an even
+more blunt instrument.
+The following figure shows the same results for an H∗ = 10 heatrate.
+4
+
+12
+
+x 10
+
+Power Deltas By Month for Heatrate 10
+
+MWh
+
+10
+8
+
+Cal Strip Hedge
+
+6
+4
+2
+0
+
+Jan11 Feb11 Mar11 Apr11 May11 Jun11
+
+Jul11
+
+Aug11 Sep11 Oct11 Nov11 Dec11
+
+Percent Delta Error from Cal Strip Hedge
+20
+0
+
+%
+
+−20
+−40
+−60
+−80
+
+Jan11 Feb11 Mar11 Apr11 May11 Jun11
+
+Jul11
+
+Aug11 Sep11 Oct11 Nov11 Dec11
+
+33 / 73
+
+Hedging Frictions
+Mismatch in Greek Behavior
+Hedging gamma and vega exposure for tolls is nontrivial:
+- Since vanilla options have a single expiration convention, with expiry near
+delivery, you have to choose between vega and gamma hedging.
+
+- Typically you choose to control gamma at shorter tenors and vega and
+longer tenors.
+
+The behavior of vega arising from tolling structures is different than
+that of the vanilla products.
+- The following figures show vega for a sample 8HR toll with tenor 1Y.
+- The underlying prices were $50/MWh and $5/MMBtu.
+- The vols were .50 for each leg and correlation was set at .90.
+
+34 / 73
+
+Hedging Frictions
+Mismatch in Greek Behavior
+Tolling Vegas
+0.4
+Power
+NG
+
+Vega
+
+0.3
+
+0.2
+
+0.1
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+7
+
+8
+
+9
+
+NG Prices ($/MMBtu)
+
+Vanilla Call Vegas
+15
+
+Vega
+
+Power
+NG
+10
+
+5
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+NG Prices ($/MMBtu)
+
+- The top figure shows the power and gas vegas for the toll across a range of gas
+prices assuming that the power price remains at the market heatrate (10).
+
+- The lower figure shows the same for ATM vanilla calls.
+- Note the meaningfully different behavior both in slope and in magnitude.
+- Costly rebalancings of vega hedges would be required to maintain neutrality.
+35 / 73
+
+Hedging Frictions
+Spurious Risks
+Use of this approach results in exposures to volatility and
+correlations that can large and unmanagable.
+Are these induced by the choice of model?
+Rephrased:
+- Under this modeling paradigm are changes in volatilities and correlations
+(if liquidity permitted observation and calibration) off-setting?
+- Value is very dependent on the spot volatility which is driven by the
+spread between σ̄D and σ̄M . Is this real?
+- The absence implied correlation data of a quality analogous to implied
+vols renders this unanswerable.
+
+The hedging program that follows is highly questionable.
+
+36 / 73
+
+Hedging Frictions
+Spurious Risks
+Vega exposure is not confined to σ̄D for the two commodities.
+The resulting vegas with respect to σ̄M and σ̄D for each of the
+commodities is largely driven by the implicit correlation effect.
+∂V
+∂V
+∂V
+∂ρ
+=
+|ρ +
+|σ̄D
+∂ σ̄D
+∂ σ̄D
+∂ρ
+∂ σ̄D
+The term correlation effect for vega hedging results in substantial
+positions:
+- Long/short or (short/long) positions in monthly/daily vega depending on
+relative values of the various component volatilities.
+
+37 / 73
+
+Hedging Frictions
+Spurious Risks
+Note that the spread vol that enters Margrabe is:
+ 2
+
+
+
+2
+σ̂ 2 = σ̄M,1
++ σ̄M,2
+− 2ρL σ̄M,1 σ̄M,2 TM + ζ12 + ζ22 − 2ρS ζ1 ζ2
+from which we see that:
+∂ σ̂
+∂ζ1
+1
+σ̂
+= [σ̄M,1 − ρL σ̄M,2 ] TM +
+[ζ1 − ζ2 ρS ]
+2 ∂ σ̄M,1
+∂ σ̄M,1
+The sign of the first term on the RHS is exactly like the monthly
+vega terms in the previous monthly example.
+∂ζ1
+1
+We know that ∂∂ζ
+σ̄M,1 < 0 and ∂ σ̄D,1 > 0 and similarly for all other
+permutations of vols and commodity leg.
+
+38 / 73
+
+Hedging Frictions
+Spurious Risks
+The figure below shows initial vega exposures in our example.
+- Implied vol hedging strategy involves substantial volume in monthly and
+daily options in both commodities.
+
+- Moreover, these hedges would also have to be unwound t ↑ T .
+Power Vegas By Month
+
+ATM Straddle (MW)
+
+300
+Daily
+Monthly
+
+200
+100
+0
+−100
+−200
+−300
+
+Jan11 Feb11 Mar11 Apr11 May11 Jun11
+
+Jul11
+
+Aug11 Sep11 Oct11 Nov11 Dec11
+
+Gas Vegas By Month
+
+ATM Straddle (Lots)
+
+150
+Daily
+Monthly
+
+100
+50
+0
+−50
+−100
+
+Jan11 Feb11 Mar11 Apr11 May11 Jun11
+
+Jul11
+
+Aug11 Sep11 Oct11 Nov11 Dec11
+
+39 / 73
+
+Vol-Lookup Approximation
+Simple Experiment
+How much error is sustained in the vol-lookup approximation.
+The following analysis considers a reasonable setup:
+- A spread option with tenor of 41 of a year.
+- Power and gas forwards of $100 and $10 respectively
+- Heatrates H∗ are varied on the interval [8, 12].
+The procedure:
+- N=100,000 standard i.i.d normal deviates Z̄n where each Z̄n ∈ <2
+- Poisson jumps with arrival rate 8/year and size 2 were added to Zn,1 .
+- The {Z̄n }Nn=1 were normalized to unit standard deviation and transformed
+to yield X̄n with correlation .90.
+
+- These were normalized to have a standard deviation corresponding to
+implied vols of .50 and .60 respectively.
+
+40 / 73
+
+Vol-Lookup Approximation
+Simple Experiment
+The following plot shows the skew for the two legs.
+Vol Skew from Jump Diffusion
+0.66
+
+Leg1
+Leg2
+
+0.64
+
+Implied Volatility
+
+0.62
+
+0.6
+
+0.58
+
+0.56
+
+0.54
+
+0.52
+
+0.5
+
+0.48
+−0.25
+
+−0.2
+
+−0.15
+
+−0.1
+
+−0.05
+
+0
+
+0.05
+
+0.1
+
+0.15
+
+0.2
+
+Log Price ratio (κ)
+
+41 / 73
+
+Vol-Lookup Approximation
+Simple Experiment
+The qq-plot of the returns is shown below.
+QQ Returns Plot for 1st Leg (Jump Diffusion)
+3.5
+
+3
+
+2.5
+
+2
+
+1.5
+
+1
+
+0.5
+
+0
+
+−0.5
+
+−1
+
+−1.5
+−5
+
+−4
+
+−3
+
+−2
+
+−1
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+42 / 73
+
+Vol-Lookup Approximation
+
+Simple Experiment
+The following plot shows the results comparing exact (simulation)
+valuation to the vol-lookup methods as a function of the deal
+heatrate.
+- The Monte-Carlo error is typically well under $0.10.
+- The vol-lookup approximation is roughly 2% higher at low strikes.
+- The third plot shows the ratios of extrinsic values which is more ominous,
+with low heatrates seeing ratios above 1.5.
+
+43 / 73
+
+Vol-Lookup Approximation
+$/Unit Volume
+
+Simple Experiment
+Effect of Vol−Lookup Methodology
+3
+
+Exact
+Vol−Lookup
+
+2
+1
+0
+
+8
+
+8.5
+
+9
+
+9.5
+
+10
+
+10.5
+
+11
+
+11.5
+
+12
+
+Heatrate
+
+Percent Premium of Approximate Valuation
+4
+
+%
+
+2
+0
+−2
+
+8
+
+8.5
+
+9
+
+9.5
+
+10
+
+10.5
+
+11
+
+11.5
+
+12
+
+Heatrate
+
+Ratio of Extrinsic Values (Approximate/Exact)
+
+EV Ratio
+
+1.5
+
+1
+
+0.5
+
+8
+
+8.5
+
+9
+
+9.5
+
+10
+
+10.5
+
+11
+
+11.5
+
+12
+
+Heatrate
+
+44 / 73
+
+Vol-Lookup Approximation
+Simple Experiment
+Vol Perspective:
+- Converting this difference in extrinsic value into a σG equivalent move by
+dividing the difference by the G -vega yields the following.
+- The errors can be meaningfully outside of the volatility bid-offer.
+- This has been a subject of some investigation (see C. Alexander and A
+Venkatramanan 2011).
+- However, a rigorous and efficient methods for bounding this error remain
+undeveloped.
+Error in Terms of σG Equivalent Move
+0.035
+
+0.03
+
+0.025
+
+∆ σG
+
+0.02
+
+0.015
+
+0.01
+
+0.005
+
+0
+
+−0.005
+
+8
+
+8.5
+
+9
+
+9.5
+
+10
+
+Heatrate
+
+10.5
+
+11
+
+11.5
+
+12
+
+45 / 73
+
+Modeling Alternatives
+
+Movitations
+The substantial difficulties in hedging heat rate options calls into
+question the entire modeling framework—arguably even the
+relevance of risk-neutral pricing methodologies.
+It is typical to proceed with methodologies similar to those discussed
+above, simply cranking the correlation up to levels which either:
+- Are consistent with what trading activity is observed.
+- Result in realized payoffs that dominate theta bleed.
+
+Is this a reasonable thing to do?
+
+46 / 73
+
+Modeling Alternatives
+Heatrate Distributions
+Rolling calendar strip heatrates versus natural gas prices.
+Note the systematic decrease in heatrates as NG prices increase.
+- Bidding behavior of NG power generation:
+pbid = H∗ G (t, t) + K
+which would suggest:
+H(t, T ) = H∗ + K /G (t, T )
+- Switching: G (t, T ) ↑ means cheaper sources of generation on the margin.
+- It also explains why monthly power vols are lower than for natural gas.
+Calendar Strip Heatrates Versus Hub Prices
+12
+
+11.5
+
+PJM/HH
+
+11
+
+10.5
+
+10
+
+9.5
+
+9
+
+8.5
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+HH ($/MMBtu)
+
+11
+
+12
+
+13
+
+14
+
+47 / 73
+
+Modeling Alternatives
+Heatrate Distributions
+What are the implications of the two-factor modeling heatrate distributions?
+For any fixed time t let:
+1
+
+σ̃F
+
+=
+
+σF t 2
+
+σ̃G
+
+=
+
+σG t 2
+
+1
+
+where σF and σG are volatilities of the two underlying forward prices.
+We know that:
+H(t, T ) ≡
+
+F (t, T )
+F (0, T ) σ̃F ZF − 1 σ̃2 −σ̃G ZG + 1 σ̃2
+2 F
+2 G
+=
+e
+G (t, T )
+G (0, T )
+
+where:
+- The normal deviates corresponding to the two underlyings at time t are
+ZF and ZG respectively.
+- The correlation between the two deviates is ρ.
+- For time-varying local volatility these are the implied volatilities for [0, t].
+48 / 73
+
+Modeling Alternatives
+Heatrate Distributions
+Writing: ZF = ρZG +
+H(t, T ) =
+
+p
+1 − ρ2 W where W is independent of Z we have:
+
+»
+–
+F (0, T ) σ̃F √1−ρ2 W − 1 (1−ρ2 )σ̃2 h (ρσ̃F −σ̃G )ZG − 1 (ρ2 σ̃2 −σ̃2 ) i
+F
+F
+G
+2
+2
+e
+e
+G (0, T )
+
+The heatrate H(t, T ) is not in general a martingale since the third term has an
+expected value:
+h
+i
+2 2
+2
+1
+Ẽ e (ρσ̃F −σ̃G )ZG − 2 (ρ σ̃F −σ̃G )
+
+2
+
+1
+
+2
+
+2
+
+2
+
+=
+
+e 2 [(ρσ̃F −σ̃G ) −(ρ σ̃F −σ̃G )]
+
+=
+
+e σ̃G (σ̃G −ρσ̃F )
+
+Using the fact that:
+1
+
+2
+
+G (t, T ) = G (0, T )e σ̃G ZG − 2 σ̃G
+we have:
+ZG =
+
+»
+–
+1
+G (t, T )
+1
+log
++ σ̃G
+σ̃G
+G (0, T )
+2
+
+49 / 73
+
+Modeling Alternatives
+Heatrate Distributions
+Putting this all together we have:
+H(t, T )
+
+=
+
+»
+–
+F (0, T ) σ̃F √1−ρ2 W − 1 (1−ρ2 )σ̃2
+F
+2
+e
+G (0, T )
+“
+h
+i
+”
+»
+–
+G (t,T )
+2
+(ρσ̃ −σ̃ ) 1 log G (0,T ) + 12 σ̃G − 21 (ρ2 σ̃F2 −σ̃G
+)
+e F G σ̃G
+»
+–
+»
+– σ̃F
+1 ρσ̃ (σ̃ −ρσ̃ )
+G (t, T ) ρ σ̃G −1
+F (0, T ) σ̃F √1−ρ2 W − 1 (1−ρ2 )σ̃2
+F
+G
+F
+F
+2
+2
+e
+e
+G (0, T )
+G (0, T )
+“
+
+=
+
+”
+
+This establishes that under the Margrabe paradigm H(t, T ) is related to
+G (t, T ) functionally as:
+”
+“ σ̃
+ρ σ̃ F −1
+
+H(t, T ) = cXG (t, T )
+
+G
+
+where c is a constant p
+and X is a unit mean log-normal random variable and
+”returns” variance σ̃F 1 − ρ2 .
+
+50 / 73
+
+Modeling Alternatives
+Heatrate Distributions
+σ̃F
+For H(t, T ) to be a decreasing function of G (t, T ) requires that: ρ σ̃
+< 1.
+G
+
+Issues:
+- In many months σF > σG .
+- Increasing ρ to near unity causes a breakdown in ”known” behavior.
+Note the potential problems with the H∗ = 10 toll.
+Price Ratios By Month
+
+Price ratio (π)
+
+1.3
+PJM
+HH
+
+1.2
+1.1
+1
+0.9
+0.8
+Jan11
+
+Feb11 Mar11
+
+Apr11
+
+May11
+
+Jun11
+
+Jul11
+
+Aug11
+
+Sep11
+
+Oct11
+
+Nov11
+
+Dec11
+
+Term Volatility By Month
+
+Term (daily) vol
+
+0.44
+PJM
+HH
+
+0.42
+0.4
+0.38
+0.36
+0.34
+0.32
+Jan11
+
+Feb11 Mar11
+
+Apr11
+
+May11
+
+Jun11
+
+Jul11
+
+Aug11
+
+Sep11
+
+Oct11
+
+Nov11
+
+Dec11
+
+51 / 73
+
+Modeling Alternatives
+Heatrate Distributions
+Key Points:
+- Simply cranking the term correlation up does not result in realistic
+distributions in many cases.
+- The liquidity in daily options for power is highly concentrated
+near-the-money.
+- For natural gas, liquidity in daily options is very limited in both strike and
+tenor.
+- Using ”marked” vols is often little more than feeding ”Curious George
+Draws a Vol Surface” into a multi-factor model.
+
+Some practitioners and researchers have gravitated to alternatives.
+
+52 / 73
+
+Modeling Alternatives
+Econometric Models
+The goal is to generate a physical measure of all related prices and
+then either:
+- Construct hedges and calculate value directly.
+- Transform the distribution to be consistent with market tradables.
+
+Consider at regression form:
+»
+log
+
+p(d)
+pNG (d)
+
+–
+= α + γpNG (d) +
+
+K
+X
+
+θ(d)k + d
+
+k=1
+
+where:
+- The modified temperature is: θ(t) =
+
+e λ(t)
+1+e λ(t)
+
+with λ(t) ≡
+
+τ (t)−τref
+.
+w
+
+- Here τref and w selected to be characteristic mean and width of
+temperatures realized over the entire data set.
+- The fact that θ ∈ [0, 1] results in regular behavior beyond the range of
+historical data.
+53 / 73
+
+Modeling Alternatives
+Econometric Models
+The result is shown below.
+Coupled with:
+- Temperature simulations (more on this later).
+- Simulations for pNG
+
+yields a joint distribution for: ~π ≡ [τ, pNG , p].
+Spot Heatrate Versus Temperature
+35
+Actual
+Fit
+30
+
+Spot Heat Rate
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+o
+
+Philadelphia Average Daily Temperature ( F)
+
+54 / 73
+
+Modeling Alternatives
+Econometric Models
+Expected values of simulated prices need not equal forward prices.
+- The simulations are physical measure.
+- The difference is an estimate of a risk premium.
+PJM Price Curves
+80
+Market
+Simulated
+
+$/MWh
+
+75
+70
+65
+60
+55
+50
+
+Jan11 Feb11 Mar11 Apr11 May11 Jun11
+
+Jul11
+
+Aug11 Sep11 Oct11 Nov11 Dec11
+
+PJM Heatrate Curves
+13
+Market
+Simulated
+
+Heatrate
+
+12
+11
+10
+9
+8
+
+Jan11 Feb11 Mar11 Apr11 May11 Jun11
+
+Jul11
+
+Aug11 Sep11 Oct11 Nov11 Dec11
+
+55 / 73
+
+Modeling Alternatives
+Econometric Models
+Valuation process:
+~
+- Generate simulations for ζ(d)
+≡ [τ, pNG , p](d).
+- Compute the simulated payoffs of:
+- The asset or trade in question: ΠA .
+- The set of potential hedges: X̄
+- Compute an optimal static (initial) hedge—for example:
+h
+i
+~h∗ ≡ argmin var Π + ~h† X
+~
+~
+h
+
+~ usually has a non-trivial
+- The resulting hedge portfolio: Π∗ ≡ Π + ~h∗† X
+probability distribution.
+- The mid-price of the structure Π is (arguably) the sum of the expected
+residual and the market prices of the hedges ~pX .
+E (Π∗ ) + ~h∗† ~pX
+- Bid/offer can be constructed from the probability distribution (e.g.
+percentiles or standard deviations from the mean).
+56 / 73
+
+Modeling Alternatives
+
+Econometric Models
+Valuation process:
+- If the structure payoff Π is spanned by the hedges then the resulting value
+is the usual mark-to-market.
+- Example: Suppose Π is just the payoff of a power swap Π = Np(d).
+- The optimal hedge is h∗ = [0, 0, −N] (“sell N of the power swap”).
+- The resulting variance of Π∗ is zero (this is a perfect hedge).
+- If the forward power price is F then the value of Π is N · F .
+- This approach yields the proper mark-to-market value if Π can be
+constructed from available hedging instruments.
+
+57 / 73
+
+Modeling Alternatives
+Econometric Models
+Valuation process:
+- Returning to our working problem, the following figure shows results using
+forwards and forwards+ATM options as hedges by month.
+Toll Value by Month (HR=8)
+30
+
+ρ =.90
+S
+
+25
+
+Simulated (Unhedged))
+Simulated (Forward Hedges)
+Simulated (Forward & Options Hedges)
+
+$/MWh
+
+20
+
+15
+
+10
+
+5
+
+0
+
+Jan11 Feb11 Mar11 Apr11 May11 Jun11
+
+Jul11
+
+Aug11 Sep11 Oct11 Nov11 Dec11
+
+58 / 73
+
+Modeling Alternatives
+Econometric Models
+Valuation process:
+- The following figure shows the risk reduction in the various scenarios.
+- The effect of options hedges on the residual risk was minimial.
+- Fixed strike options are not particularly useful at hedging tolls.
+
+P&L Risk: Standard Deviation
+12
+Unhedged
+Forward Hedged
+Forwards & Options Hedges
+
+10
+8
+6
+4
+2
+0
+
+Jan11 Feb11 Mar11 Apr11 May11 Jun11
+
+Jul11
+
+Aug11 Sep11 Oct11 Nov11 Dec11
+
+P&L Risk: Standard Deviation / Expected Value
+1.5
+
+1
+
+Unhedged
+Forward Hedged
+Forwards & Options Hedges
+
+0.5
+
+0
+
+Jan11 Feb11 Mar11 Apr11 May11 Jun11
+
+Jul11
+
+Aug11 Sep11 Oct11 Nov11 Dec11
+
+59 / 73
+
+Modeling Alternatives
+Econometric Models
+Valuation process:
+- The unit heatrate H∗ is relevant—the higher the heatrate the less
+”swap-like” the toll.
+- The results can differ meaningfully from “standard” methods.
+
+Heat rate
+
+Financial
+
+Simulated
+Unhedged
+
+Simulated
+Forwards
+
+Simulated
+Forwards & Options
+
+H∗ = 8
+H∗ = 10
+
+10.37
+4.06
+
+11.28
+4.16
+
+10.01
+3.24
+
+9.27
+2.43
+
+60 / 73
+
+Modeling Alternatives
+Econometric Models
+Strengths:
+- Construction of (arguably) realistic price processes and effective static
+hedges.
+- The use of static hedges underestimates the value in theory, but given
+hedge frictions discussed previously this is more of a ”feature” than a
+”bug.”
+- The residual post-hedging risk can be quantified and used to construct
+bids and offers.
+
+Weaknesses:
+- Dynamic hedging reflected only implicitly if options structures are
+included in the hedge basket.
+- Vulnerable to systemic changes / nonstationarity; e.g. coal switching,
+regulatory changes).
+
+Structural (stack) models are an alternative.
+61 / 73
+
+Modeling Alternatives
+Stack Models: Motivations
+Consider the following comparison of historical natural gas versus
+coal prices.
+- The structural drop in NG prices has put the traditionally more expensive
+combined cycle generators near parity with coal plants.
+- The traditional segregation of the two types of units, which are very
+different in attributes, is no longer a given.
+Natural Gas Versus Coal Prices
+14
+NG
+Central App
+12
+
+$/MMBtu
+
+10
+
+8
+
+6
+
+4
+
+2
+
+0
+2006
+
+2007
+
+2008
+
+2009
+
+2010
+
+2011
+
+2012
+
+2013
+
+62 / 73
+
+Modeling Alternatives
+Stack Models: Motivations
+The change in the ”merit order” of the two sub-stacks for two price
+regimes is shown below.
+- The competition between the flexible natural gas units and the baseload
+coal units is likely to have a meaningful effect on heatrate behavior and
+correlation structure.
+- How can/should this be modeled?
+PJM Coal and NG Stacks (NG Price $3/MMBtu)
+60
+Coal
+Natural Gas
+
+$/MWh
+
+50
+40
+30
+20
+10
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Capacity (MW)
+
+6
+4
+
+x 10
+
+PJM Coal and NG Stacks (NG Price $7/MMBtu)
+150
+
+$/MWh
+
+Coal
+Natural Gas
+100
+
+50
+
+0
+
+0
+
+1
+
+2
+
+3
+
+Capacity (MW)
+
+4
+
+5
+
+6
+4
+
+x 10
+
+63 / 73
+
+Modeling Alternatives
+Stack Models
+The Stack: Marginal cost of generation versus total capacity:
+- Capacities [C1 , . . . , CN ] sorted
+P in increasing cost ($/MWh) [p1 , . . . , pN ],
+the stack is a plot of pn vs 1≤k≤n Ck .
+ˆ
+˜
+- The result is pMC ≈ Φ C |F̄t .
+- pMC is the marginal cost utilizing total capacity C .
+- We have explicitly identified fuel dependence.
+PJM System Stack (2011)
+1000
+Hydro
+Nuclear
+Coal
+Natural Gas
+Petroleum
+Other
+
+900
+
+800
+
+700
+
+$/MWh
+
+600
+
+500
+
+400
+
+300
+
+200
+
+100
+
+0
+
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+MW
+
+12
+
+14
+
+16
+
+18
+4
+
+x 10
+
+64 / 73
+
+Modeling Alternatives
+Stack Models
+The Basic Modeling Tenant:
+Given a load (demand) Lt at time t and a version of the stack Φt at time
+t the spot price is:
+ˆ
+˜
+pt = Φt Lt (1 + δt )|F̄t + t
+- δ are random variables reflecting uncertain availability (outages).
+-  are random variables reflecting randomness in bidding.
+- Φt is time dependent and is probably not Φ (full availability).
+Issues:
+- Calibration without over parameterizing the problem.
+- The power system is a grid with high-dimensional optimization
+setting locational prices; stack models are ”stylized representations”
+of such intending to capture the ”essence” of spot price phenomena.
+Perceived advantages:
+- The distribution of pt depends upon fuel prices in a sensible way.
+- Changes to the stack (new builds or retirements) are sensibly
+extrapolated into changes in the the distribution of pt .
+65 / 73
+
+Modeling Alternatives
+Stack Models
+Create and maintain a detailed database of the ”region” in question.
+Calibration:
+- Assume parametric forms for δ and .
+- Generate the historical stack on a daily basis using prevailing fuel prices.
+- Assume a functional form for the seasonal availability of generation; e.g;
+Ciactual (t) = Ci Ψ(t)
+where
+Ψ(t) =
+
+K
+X
+
+[γk sin(2πkt) + δk cos(2πkt)]
+
+k=1
+
+- Assumes all generation types sustain the same seasonal availability.
+- The form is then:
+ˆ
+˜
+Φt C |F̄t = Φ
+
+»
+
+C
+|F̄t
+Ψt
+
+–
+
+- Set the free parameters via MLE.
+66 / 73
+
+Modeling Alternatives
+Stack Models
+You now have a model under ”physical” measure for spot price
+dynamics:
+»
+–
+pt = Φ
+
+Lt (1 + δt )
+|F̄t + t
+Ψt
+
+Why incorporate Ψ(t)?
+- The following figure shows available U.S. nuclear capacity.
+- Maintenance follows lower seasonal demand in ”shoulder” months.
+Daily Nuclear Capacity
+
+4
+
+10
+
+x 10
+
+9.5
+
+9
+
+MW
+
+8.5
+
+8
+
+7.5
+
+7
+
+6.5
+2001
+
+2002
+
+2003
+
+2004
+
+2005
+
+2006
+
+2007
+
+2008
+
+2009
+
+2010
+
+2011
+
+2012
+
+67 / 73
+
+Modeling Alternatives
+
+Stack Models
+Two approaches: (as with econometric models)
+- Risk neutral: Create a risk-neutral measure by adjusting parameters
+and/or the distribution of Lt to hit market forwards and options prices.
+- Pricing is via Monte Carlo and is believed (by some anyway) to
+yield realistic distributions.
+- This does not resolve the issue of limited ability to hedge (recall
+peaking options).
+- Physical: Use the physical measure to construct minimum-variance hedges
+using instruments that trade now (t = 0).
+
+68 / 73
+
+Modeling Alternatives
+Stack Models
+Simplified Stack Models:
+- The approach above requires extensive data—arguably too much detail.
+- An alternative: Each type of generation is its own ”sub-stack” which can
+be represented analytically.
+- Stack Arithmetic:
+- Suppose that we group each generation by input fuel and represent
+the ”sub-stacks” by Φj (C |Fj ). Then:
+» –
+X
+p
+Φ−1 [p] =
+Φ−1
+j
+Fj
+j
+- To see this note that Φ−1 [p] is the total capacity with cost ≤ p.
+- The above simply totals all generation with cost ≤ p.
+- Judicious choices of functional forms for Φj (notably exponential) can
+yield analytical tractability and enhanced numerical efficiency.1
+1
+
+See, for example, Carmona, Coulon and Schwarz: ”A Structural Model for Electricity Prices.”
+69 / 73
+
+Modeling Alternatives
+Stack Models
+Summary of Stack Model Implementation:
+- Build a stack:
+- Unit by unit from a database.
+h i
+P
+p
+- Via parametric forms invoking: Φ−1 [p] = j Φ−1
+j
+F
+j
+
+- Generate simulations:
+- Temperature τd .
+- Hourly loads L̄d conditional on τd .
+- Simulations for the input fuel prices F̄ (t, T ).
+- The resulting spot price distribution is obtained from:
+»
+–
+L̄d (1 + δd )
+p̄d = Φ
+|F̄ (d, d) + ¯d
+Ψt
+- This yields a join distribution of [τ, L, F̄ , p̄].
+- Calibration:
+- Physical measure: Deploy the above historically adjusting free
+parameters to hit realized spot prices.
+- Risk neutral: Adjust free parameters to “hit” market data.
+- Simulation: The joint distribution is used to to price and hedge.
+70 / 73
+
+Modeling Alternatives
+Stack Models
+State-of-Affairs:
+- Building stack models from actual generation databases in a given
+region/ISO/zone yields models that:
+- Are difficult to calibrate.
+- Ignore the network nature of actual power systems.2
+- “Caricature” stack models have substantial advantages:
+- The relative tractability renders calibration potentially viable.
+- Arguably remains a “work in progress.”
+
+2
+
+The computational requirements for models that attempts to capture the entire system currently preclude
+
+calibration to historical weather, load and price data or forward market data.
+71 / 73
+
+Conclusions
+Multi-factor models applied to daily tolls in the risk-neutral setting
+have issues:
+- Spurious risk due to spot correlation effects.
+- Hedging programs that are difficult to affect.
+- Dependence on volatilities and correlations that are often not traded.
+
+This has spawned development alternatives:
+- Econometric models:
+- Calibrated to historical price behavior
+- Ostensibly more realistic price distributions.
+- Valuation can yield estimates of hedging slippage.
+- Difficult to embed anticipated systemic changes.
+- Structural models:
+- Intended to accommodate anticipated systemic changes.
+- Challenging to implement—still a work in progress.
+72 / 73
+
+On Deck
+Variable Quantity Swaps
+Natural Gas Storage
+
+73 / 73
+
+

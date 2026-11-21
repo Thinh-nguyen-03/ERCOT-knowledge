@@ -1,0 +1,160 @@
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+§25.471. General Provisions of Customer Protection Rules.
+(a)
+
+Application. This subchapter applies to aggregators and retail electric providers (REPs). In addition, where
+specifically stated, these rules apply to transmission and distribution utilities (TDUs), the registration agent,
+brokers and power generation companies. These rules specify when certain provisions are applicable only to
+some, but not all, of these providers.
+(1)
+Affiliated REP customer protection rules, to the extent the rules differ from those applicable to all
+REPs or those that apply to the provider of last resort (POLR), do not apply to the affiliated REP
+when serving customers outside the geographic area served by its affiliated transmission and
+distribution utility. The affiliated REP customer protection rules apply until the price-to-beat
+obligation ends in the affiliated REPs’ affiliated TDU service territory.
+(2)
+Requirements applicable to a POLR apply to a REP only in its provision of service as a POLR.
+(3)
+The rules in this subchapter are minimum, mandatory requirements that must be offered to or
+complied with for all customers unless otherwise specified. Except for the provisions of §25.495
+of this title (relating to Unauthorized Change of Retail Electric Provider), §25.481 of this title
+(relating to Unauthorized Charges), §25.485(a)-(b) of this title (relating to Customer Access and
+Complaint Handling), and §25.499 (relating to Acknowledgement of Risk Requirements for
+Certain Commercial Contracts), a customer other than a residential or small commercial class
+customer, or a non-residential customer whose load is part of an aggregation in excess of 50
+kilowatts, may agree to terms of service that reflect either a higher or lower level of customer
+protections than would otherwise apply under these rules. Any agreements containing materially
+different protections from those specified in these rules must be reduced to writing and provided
+to the customer. Additionally, copies of such agreements must be provided to the commission upon
+request.
+(4)
+The rules of this subchapter control over any inconsistent provisions, terms, or conditions of a
+REP’s terms of service or other documents describing service offerings for customers in Texas.
+(5)
+For purposes of this subchapter, a municipally owned utility or electric cooperative is subject to
+the same provisions as a REP where the municipally owned utility or electric cooperative sells
+retail electricity service outside its certificated service area.
+
+(b)
+
+Purpose. The purposes of this subchapter are to:
+(1)
+provide minimum standards for customer protection. An aggregator or REP may adopt higher
+standards for customer protection, provided that the prohibition on discrimination set forth in
+subsection (c) of this section is not violated;
+(2)
+provide customer protections and disclosures established by other state and federal laws and
+rules including but not limited to the Fair Credit Reporting Act (15 U.S.C. §1681, et seq.) and
+the Truth in Lending Act (15 U.S.C. §1601, et seq.). Such protections are applicable where
+appropriate, whether or not it is explicitly stated in these rules;
+(3)
+provide customers with sufficient information to make informed decisions about electric service
+in a competitive market; and
+(4)
+prohibit fraudulent, unfair, misleading, deceptive, or anticompetitive acts and practices by
+aggregators, REPs, and brokers in the marketing, solicitation and sale of electric service, in the
+administration of any terms of service for electric service and in providing advice or procurement
+services to, or acting on behalf of, a retail electric customer regarding the selection of a retail
+electric provider, or a product or service offered by a retail electric provider.
+
+(c)
+
+Prohibition against discrimination. This subchapter prohibits REPs from unduly refusing to provide
+electric service or otherwise unduly discriminating in the marketing and provision of electric service to any
+customer because of race, creed, color, national origin, ancestry, sex, marital status, lawful source of income,
+level of income, disability, familial status, location of customer in an economically distressed geographic
+area, or qualification for low-income or energy efficiency services.
+
+§25.471--1
+
+effective date 01/06/2022
+(P 51830)
+
+CHAPTER 25. SUBSTANTIVE
+PROVIDERS.
+
+RULES
+
+APPLICABLE
+
+TO
+
+ELECTRIC
+
+SERVICE
+
+Subchapter R. CUSTOMER PROTECTION RULES FOR RETAIL ELECTRIC
+SERVICE.
+(d)
+
+Definitions. For the purposes of this subchapter the following words and terms have the following meaning,
+unless the context indicates otherwise:
+(1)
+Applicant -- A person who applies for electric service via a move-in or switch with a REP that
+is not currently the person's REP of record or applies for aggregation services with an aggregator
+from whom the person is not currently receiving aggregation services.
+(2)
+Burned Veteran -- A customer who is a military veteran who a medical doctor certifies has a
+significantly decreased ability to regulate body temperature because of severe burns received in
+combat.
+(3)
+Competitive energy services -- As defined in §25.341 of this title (relating to Definitions).
+(4)
+Customer -- A person who is currently receiving retail electric service from a REP in the
+person's own name or the name of the person's spouse, or the name of an authorized
+representative of a partnership, corporation, or other legal entity, including a person who is
+changing premises but is not changing their REP.
+(5)
+Electric service -- Combination of the transmission and distribution service provided by a
+transmission and distribution utility, municipally owned utility, or electric cooperative, metering
+service provided by a TDU or a competitive metering provider, and the generation service
+provided to an end-use customer by a REP. This term does not include optional competitive
+energy services, as defined in §25.341 of this title, that are not required for the customer to obtain
+service from a REP.
+(6)
+Energy service -- As defined in §25.223 of this title (relating to Unbundling of Energy Service).
+(7)
+Enrollment -- The process of obtaining authorization and verification for a request for service
+that is a move-in or switch in accordance with this subchapter.
+(8)
+In writing -- Written words memorialized on paper or sent electronically.
+(9)
+Move-in -- A request for service to a new premise where a customer of record is initially
+established or to an existing premise where the customer of record changes.
+(10)
+Retail electric provider (REP) -- Any entity as defined in §25.5 of this title (relating to
+Definitions). For purposes of this rule, a municipally owned utility or an electric cooperative is
+only considered a REP where it sells retail electric power and energy outside its certified service
+territory. An agent of the REP may perform all or part of the REP's responsibilities pursuant to
+this subchapter. For purposes of this subchapter, the REP will be responsible for the actions of
+the agent.
+(11)
+Small commercial customer -- A non-residential customer that has a peak demand of less than
+50 kilowatts during any 12-month period, unless the customer's load is part of an aggregation
+program whose peak demand is in excess of 50 kilowatts during the same 12- month period.
+(12)
+Switch -- The process by which a person changes REPs without changing premises.
+(13)
+Termination of service -- The cancellation or expiration of a service agreement or contract by
+a REP or customer.
+
+§25.471--2
+
+effective date 01/06/2022
+(P 51830)
+
+

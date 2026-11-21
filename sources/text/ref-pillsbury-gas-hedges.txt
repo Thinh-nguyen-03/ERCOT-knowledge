@@ -1,0 +1,212 @@
+White Paper
+Projects
+Energy
+Structured Products and Derivatives
+
+June 05, 2017
+
+Financial Hedges for United States Gas‐Fired
+Power Generation Facilities
+By Daniel N. Budofsky, Michael T. Reese, Michael S. Hindus and Olivia Matsushita
+
+Over the past few years, many merchant gas‐fired power generation plants
+operating in the regional transmission organization, PJM Interconnection and
+in the New York Independent Service Operator (NYISO) areas have been
+successfully project financed by international and Japanese financial
+institutions. At the same time, the market has also seen the recent bankruptcy
+filing of a merchant gas‐fired power plant in the ERCOT market in Texas.
+Common to each of these project‐financed power generation plants was the
+employment of financial hedging instruments designed to ensure a stable
+revenue stream to help cover debt service obligations over the first several
+years of plant operations. In this article, we review the history of the use of
+financial hedges by merchant power projects, and examine the main types of
+financial hedges currently being used in the United States power market and
+whether or not they can support the bankability of merchant power projects
+operating in markets such as the PJM Interconnection.
+Historical Development of Financial Hedges for Merchant Power Projects
+Beginning in 1978 with the Public Utility Regulatory Policies Act (PURPA) and continuing with the Energy
+Policy Acts of 1992 and 2005, federal legislation and orders by the Federal Energy Regulatory
+Commission in the United States radically changed the electric power generation sector. What had
+essentially been a regulated monopoly for vertically integrated utilities within specific regions was replaced
+with a competitive market in generation, open access to transmission, the creation of independent system
+operators and regional transmission organizations, and wholesale markets for electric power.
+
+Pillsbury Winthrop Shaw Pittman LLP pillsburylaw.com
+
+| 1
+
+White Paper
+
+Projects
+
+The means of financing power projects has evolved with changes in the structure of power generation
+markets in the United States. Prior to the late 1970’s, new generation facilities were financed on the
+balance sheets of vertically integrated utilities, which recovered their costs through a pass-through
+arrangement to consumers (consumer charges were required to be approved by the local public utilities
+commission). PURPA required utilities to purchase energy and capacity from certain non-utility owned
+power producers (IPPs). Many of these IPPs were smaller entities with little or no balance sheets and
+therefore financing generally depended on long-term (i.e., 15-30 year) power purchase agreements (PPAs)
+with the utilities. In effect, through the PPA, the projects were financed on the utilities’ credit, but while the
+project debt was non-recourse to the utilities, the PPAs allocated full offtake responsibility to the utilities.
+This became the primary method of financing non-utility generation.
+In the 21st Century, in many key markets in the United States, long-term PPAs for gas-fired electric
+generation became disfavored, even though there was a need for additional capacity and energy. Lenders
+nonetheless required assurances from new IPP project developers that revenues would be available to
+service debt repayment obligations. Initially, a variety of mechanisms were used, including increased levels
+of project equity and subordination of fuel payments. Other risk management practices developed,
+including financial hedge transactions such as energy swaps, contracts for differences, heat rate call
+options and power revenue puts.
+
+Revenue Puts
+The most prevalent form of financial hedge in the last several years has been the revenue put option (also
+frequently called a “revenue put”). This is a form of downside protection for the power plant. It is analogous
+to a project purchasing insurance against the risk of net revenues falling below a specified threshold due to
+changes in the price of power and/or fuel. Thus, revenue put providers are typically sophisticated financial
+institutions, usually swap dealers, with the expertise to transfer this risk by trading in the futures and spot
+energy markets. As many banks have exited the commodity markets over the past several years, due to
+factors such as increased regulatory capital charges, the number of revenue put providers recently has
+been reduced to a few known players. There have been examples, however, of non-swap dealers acting
+as put providers. One such case is the Panda Temple I project, described in more detail below, where a
+pension fund acted as the put provider. It is unclear whether the pension fund, which was also an equity
+investor in the project, had entered into a back-to-back arrangement with another financial institution to
+hedge its potential liabilities.
+The revenue put is a purely notional cash-settled contract in which the power project makes an up-front
+premium payment to a revenue put provider in exchange for settlement payments to the power project
+reflecting any shortfall of (i) a notional gross energy margin over (ii) a fixed net revenue amount. The
+notional gross energy margin is calculated as the excess of power revenues over gas costs that would be
+realized by a hypothetical power plant operating at an assumed capacity and heat rate and on an assumed
+schedule of starts and restarts during the year. The revenues and costs are calculated on the basis of
+published power and gas indices observed during the term of the revenue put. The fixed net revenue
+amount, on the other hand, is typically sized to ensure that the power plant will be able to meet its fixed
+costs and debt service obligations, taking into account any other sources of revenue, such as capacity
+payments. Thus, broadly speaking, if the spark spread tightens relative to the assumed level on which the
+fixed net revenue amount is based, the revenue put provider will make a settlement payment to help the
+project make up lost revenue.
+Revenue puts present an interesting credit profile for a power generation project. Typically, settlement
+payments are calculated and made annually. Since the power generator pays the revenue put premium
+upfront, and the revenue put only provides downside protection in the form of payments from the revenue
+
+Pillsbury Winthrop Shaw Pittman LLP pillsburylaw.com
+
+| 2
+
+White Paper
+
+Projects
+
+put provider, the power generator generally should not have ongoing payment obligations to the revenue
+put provider. With such one-way credit exposure, it is the revenue put provider and not the power
+generator that must provide collateral.
+Under typical documentation, the amount of this collateral to be put forward by the revenue put provider is
+typically the mid-market replacement value of the transaction less a negotiated threshold amount. Without
+liquid markets in revenue put transactions, the replacement value is often set by the revenue put provider
+on the basis of its internal models. Perhaps not surprisingly, the put premium is typically significantly higher
+than the revenue put provider’s proposed replacement value, which means the amount of collateral the
+revenue put provider has to provide can be comparatively small. This dynamic of asymmetrical information
+suggests there is value in negotiating a precise valuation methodology upfront. Because the collateral put
+forward by the revenue put provider remains the property of the revenue put provider, some revenue put
+providers have successfully negotiated that the collateral shall not form part of the lenders’ security
+package.
+Another implication of the generally one-way credit exposure is that a power generator will seek to
+eliminate any credit-related events of default (including bankruptcy events) pertaining to the power project
+that otherwise would permit the revenue put provider to terminate the put. Notably, in the Panda Temple I
+project, the revenue put provider has continued to make payments to the power project even after the
+recent bankruptcy filing by the power generator.
+In practice, revenue puts do have some two-way credit exposure. This is because to meet the project’s
+need for cash flow during the course of the year to make debt service payments, revenue puts typically
+provide for interim (e.g., quarterly) estimated settlement payments. In recent transactions, these intra-year
+payments are structured as “advances” by the revenue put provider that are subject to a true-up at yearend when the amount of the final annual settlement payment is known. As a result, the revenue put
+provider may be exposed to the credit of the power generator for the amount advanced each quarter. In
+recent transactions, revenue put providers have been able to obtain a first priority lien to secure the
+repayment of any such “advances”, on a pari passu basis with the lenders to the power generation project,
+but subject to a cap equal to the maximum amount payable by the revenue put provider annually.
+Achieving the best terms for a revenue put involves seeking competitive bids from potential revenue put
+providers, a process that usually involves concurrent negotiations with several providers with respect to
+economic terms, as well as related documentation including, for example, ISDA documents, intercreditor
+agreements, guarantees and consents.
+
+Heat Rate Call Options
+Another financial hedge is the heat rate call option (HRCO). Like a revenue put, the payout on the HRCO
+is purely notional and is not tied to the actual operations or results of the power generation facility. Under a
+HRCO, the project receives fixed periodic cash payments from the HRCO counterparty and, in exchange,
+pays to the HRCO counterparty the excess of a market power price over a market gas price multiplied by
+an assumed heat rate and by an assumed quantity of power. The effect of the HRCO is similar to a
+revenue put in that the project is protected against tightening spark spreads. However, this protection is
+effectively paid for in an HRCO by the project giving up the potential upside that it would otherwise realize
+from widening spark spreads, rather than the upfront premium payment found in the revenue put.
+
+Pillsbury Winthrop Shaw Pittman LLP pillsburylaw.com
+
+| 3
+
+White Paper
+
+Projects
+
+The mechanics of the typical HRCO achieve this by giving the financial counterparty a daily financial
+option, calculated with respect to each hour in the following day that, upon exercise, requires the payment
+of a cash settlement amount equal to the product of (a)(i) a variable price power index at a predetermined
+location minus (ii) an amount equal to a variable natural gas index multiplied by the specified heat rate
+conversion factors of the project and (b) a base notional quantity of power. The counterparty may choose
+to exercise the option for some, but not all, of the hours in the day, and the cash settlement amount also
+accounts for assumed fixed and variable costs of starting up and shutting down the plant during a day. If
+the net amount of the related option premium owed by the financial counterparty is greater than the
+aggregate cash settlement amount, the project receives a payment and realizes a gain. If the net amount
+is negative, the project must make a payment and realizes a loss.
+Thus, because either party may owe a settlement payment, the HRCO is subject to two-way credit
+exposure, and each party may need to post collateral in favor of the other, depending on the mark-tomarket of the contract.
+
+Contracts for Differences
+Other types of hedges, such as a contract for differences, may be financially settled only, but are linked to
+the actual performance of the power generation facility and thus may reduce basis risk. For example, in a
+contract for differences, the project would sell energy in the energy markets and would receive payments
+from the hedge provider amounting to the positive difference between the project’s revenue requirements
+per unit of energy as specified in the contract and its actual sales receipts. If the project’s receipts, on the
+other hand, were to exceed its revenue requirements, it would pay the difference to the hedge provider.
+
+Bankability of Merchant Power Projects and the Limitations of Financial Hedging Instruments
+The recent bankruptcy of the Panda Temple I project in Texas illustrates some of the limitations of financial
+hedging of merchant power projects. The Temple I Project was a 758MW natural gas-fired combined cycle
+power project operating in ERCOT in Texas, and was originally financed through a six-year $75 million
+term loan A and a $255 million term loan B. At the time, the financing by institutional investors of a capital
+intensive construction project through a term loan was seen as a breakthrough for the U.S. project finance
+market, and the trend toward the use of term loan B and private financings has continued since then. The
+project was unable to obtain a suitable long-term PPA, but based on a belief that ERCOT lacked adequate
+baseload capacity (and that old coal-fired generators were close to retirement), the project developer saw
+the potential for future high power prices and spark spreads. The project therefore sought to rely on market
+energy revenues to service its debt repayments and to hedge volatility in revenues through 4-year revenue
+put options entered into with the 3M Employee Retirement Income Plan, an equity investor in the project,
+on 600MW of generation capacity. By providing a floor on the project’s gross margins, it was expected that
+the project could meet its debt service obligations even if spark spreads were to narrow or plant efficiency
+were to decrease. Unfortunately, such favorable market conditions did not materialize, and on April 17,
+2017, the Temple I Project filed for bankruptcy protection after breaching its debt service reserve covenant
+in December 2016 and failing to make its March 2017 debt service repayment.
+The inability of the project to generate enough cash to meet its debt service repayments highlights some of
+the shortcomings of the revenue put. For example, had the revenue put strike price been higher, it would
+have offered more protection to the project. Reportedly, a sister project, the Sherman Project, with a
+similar revenue put had a $45 million strike price compared with Temple I’s $41 million strike price.
+Nonetheless, the revenue put has continued to perform, with an early payment from the revenue put
+provider recently coming into the bankrupt’s estate, indicating that, at least, the revenue put was structured
+so that the insolvency of the project did not trigger a termination of the revenue put instrument.
+
+Pillsbury Winthrop Shaw Pittman LLP pillsburylaw.com
+
+| 4
+
+White Paper
+
+Projects
+
+Nonetheless, financings of gas-fired power generation facilities consisting of loans with terms equal to the
+construction period plus 4-5 years, supported by financial hedges, have generally been viewed as
+bankable in the PJM Interconnection. For example, it has been reported that a natural gas-fired power
+generation project in Lordstown, Ohio, was financed by a lending syndicate of eight banks in April 2016,
+supported by a five-year revenue put. Because it is often contemplated that the loans may be refinanced
+prior to their final maturity date, it is not uncommon for the financial hedges to mature on the anticipated
+refinancing date of the loans.
+
+Pillsbury Winthrop Shaw Pittman LLP pillsburylaw.com
+
+| 5
+
+

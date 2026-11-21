@@ -1,0 +1,321 @@
+-   
+-   
+
+[U.S. Energy Information Administration logo]
+
+Skip to sub-navigation
+
+U.S. Energy Information Administration - EIA - Independent Statistics and Analysis
+
+Menu
+
+-   Statistics
+
+-   Analysis
+
+-   Tools
+
+-   Education
+
+-   News
+
+-   
+
+Search
+
+Today in Energy
+
+Skip to page content
+
+-   Recent articles
+-   Browse by tag
+    -   liquid fuels
+    -   natural gas
+    -   electricity
+    -   oil/petroleum
+    -   production/supply
+    -   crude oil
+    -   consumption/demand
+    -   generation
+    -   prices
+    -   map
+    -   states
+    -   exports/imports
+    -   international
+    -   coal
+    -   renewables
+    -   weather
+    -   forecasts/projections
+    -   gasoline
+    -   capacity
+    -   steo (short-term energy outlook)
+-   Prices
+-   Archive
+-   About
+
+Glossary FAQS
+
+October 13, 2017
+
+Spark and dark spreads indicate profitability of natural gas, coal power plants
+
+[graph of daily PJM Western Hub wholesale electricity price and delivered fuel costs, as explained in the article text]
+
+Source: U.S. Energy Information Administration, based on price data from SNL Energy
+
+------------------------------------------------------------------------
+
+Relative profits for some natural gas- and coal-fired generators in several Midwestern and Mid-Atlantic states may have decreased since 2016 because of higher natural gas and coal prices and lower wholesale electricity prices. A common measure of profitability for power plants within a region is the difference between their input fuel costs, such as the cost of coal or natural gas, and their wholesale power price.
+
+For electric power generation fueled by natural gas, this difference is called the spark spread; for coal, the difference is called the dark spread. Spark spreads and dark spreads in the first part of 2017 were lower than the 2016 averages in the PJM Western hub, which covers electricity generation in parts of several Midwestern and Mid-Atlantic states.
+
+Changes in spark spreads and dark spreads for a given electricity power market indicate the general operational competitiveness of coal-fired or natural gas-fired electric generators in meeting the market’s electricity demand. These spreads are calculated by comparing the day-ahead, wholesale power market price with the delivered input price of the fuel, and are adjusted for the energy content of the fuel and the relative conversion efficiency of power plants. These values can then be compared with wholesale power prices, which, in this example, are the average day-ahead prices at the PJM Western hub.
+
+Delivered coal prices vary among coal supply regions based on the quality of coal, the transportation costs of shipping the coal, and other contract terms. Natural gas prices vary regionally and are calculated using spot market prices, which can be volatile on a day-to-day basis.
+
+Coal and natural gas have different energy contents, and the power plants using these fuels have different heat rates, or energy conversion efficiencies. For this reason, spark and dark spreads are location-specific and reflect the characteristics of the fuels and the technical specifications of power plants in a given market.
+
+For example, natural gas consumed in the electric power sector in the PJM region has an estimated heat content of 1,033 British thermal units (Btu) per cubic foot of natural gas. So far in 2017, the average price for natural gas in this area has averaged $2.54/million Btu, based on prices at the Texas Eastern Transmission Market Zone 3 (Tetco M3) trading hub, which generally reflects natural gas prices in Pennsylvania, New Jersey, and New York. Spot prices within PJM vary widely because of pipeline constraints transporting natural gas from production areas in the Appalachian region to different markets.
+
+Natural gas combined-cycle plants in the PJM region are generally expected to produce one kilowatthour of electricity for every 7,300 Btu of natural gas. In the PJM region, combined-cycle plants are more commonly operated in direct competition with coal-fired generators. At the national level, average heat rates for all natural gas-fired generators have decreased over time (i.e., become more efficient) as more efficient natural gas power plants such as combined-cycle units have been installed and as older and less efficient units have been retired or converted to more efficient units.
+
+Coal consumed in the PJM region has an estimated heat content of 22.5 million Btu/short ton, representing the consumption-weighted average heat content of various coal types. Coal prices in the region have averaged about $55/short ton so far this year. Adding in an assumed coal transportation cost of $17/short ton, the estimated delivered coal costs translate to about $3.20/million Btu, or about 34% higher than delivered natural gas costs. PJM-region coal plants are, on average, less efficient than natural gas combined-cycle units, requiring about 10,500 Btu of coal to produce one kilowatthour of electricity.
+
+Although PJM-region spark and dark spreads appear to indicate that natural gas-fired units have been more profitable than coal-fired units recently, many factors affect these calculations, including the selection of representative fuel prices, generator heat rates, fuel delivery costs, and time of year considered.
+
+Principal contributor: Augustine Kwon
+
+Tags: coal, electricity, generating capacity, generation, natural gas, prices, RTO (regional transmission organization)
+
+More recent articles ›
+
+-   About EIA
+-   Open Data
+-   Legacy
+-   Contact Us
+
+U.S. Energy Information Administration
+
+1000 Independence Ave., SW
+
+Washington, DC 20585
+
+Policies
+
+Privacy/Security
+
+Copyright & Reuse
+
+Accessibility
+
+Information Quality
+
+Freedom of Information Act (FOIA)
+
+Related Sites
+
+usa.gov
+
+U.S. Department of Energy
+
+Stay Connected
+
+Facebook
+
+X
+
+Youtube
+
+LinkedIn
+
+Email Updates
+
+RSS Feeds
+
+[]
+
+Statistics
+
+Analysis
+
+Tools
+
+Education
+
+News
+
+Petroleum & Other Liquids
+
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+
+Natural Gas
+
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+
+Electricity
+
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+
+Coal
+
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+
+Nuclear & Uranium
+
+Uranium fuel, nuclear reactors, generation, spent fuel.
+
+Renewable & Alternative Fuels
+
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+
+EIA Survey Forms
+
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+
+Total Energy
+
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+
+-   Monthly Energy Review
+
+Consumption & Efficiency
+
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+
+-   Residential Energy Consumption Survey (RECS)
+-   Commercial Buildings Energy Consumption Survey (CBECS)
+-   Manufacturing Energy Consumption Survey (MECS)
+
+U.S. States
+
+State energy information, including overviews, rankings, data, and analyses.
+
+International
+
+International energy information, including overviews, rankings, data, and analyses.
+
+Environment
+
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+
+-   U.S. Energy-Related Carbon Dioxide Emissions
+-   Energy-Related Carbon Dioxide Emissions at the State Level
+
+Analysis and Projections
+
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+
+-   Short-Term Energy Outlook
+-   Annual Energy Outlook
+
+Special Reports
+
+Special market analysis and/or data requests.
+
+-   EIA-112 Residential Utility Disconnections
+-   SHIP Act
+-   Energy & Financial Markets: What Drives Crude Oil Prices?
+
+International
+
+International energy analyses.
+
+-   Regional Analysis Briefs
+-   Country Analysis Briefs
+-   World Oil Transit Chokepoints
+-   OPEC Revenue
+-   Global Energy Security Data
+
+Data Tools, Apps, & Maps
+
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+
+Open Data
+
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+
+EIA Beta
+
+Come test out some of the products still in development and let us know what you think!
+
+Open Source Code
+
+EIA's open source code, available on GitHub.
+
+All Reports & Products
+
+Email Updates
+
+Sign up for email subscriptions to receive messages about specific EIA products
+
+RSS Feeds
+
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+
+Follow us. . .
+
+A-Z Index
+
+A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | XYZ
+
+Energy Explained
+
+-   What is Energy?
+-   Units & Calculators
+-   U.S. Energy Facts
+-   Use of Energy
+-   Energy & Environment
+-   Petroleum
+-   Hydrocarbon Gas Liquids
+-   Natural Gas
+
+-   Coal
+-   Nuclear
+-   Electricity
+-   Hydrogen
+-   Hydropower
+-   Biofuels
+-   Biomass
+-   Wind
+-   Geothermal
+-   Solar
+
+For Teachers
+
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+
+Glossary
+
+FAQs
+
+-   Coal
+-   Conversion & Equivalents
+-   Oil/Petroleum
+-   Diesel
+-   Electricity
+-   Environment
+
+-   Gasoline
+-   General Energy
+-   Natural Gas
+-   Nuclear
+-   Prices
+-   Renewables
+
+[]
+
+What's New?
+
+-   Quarterly Domestic Uranium Production Report
+-   Nov 20, 2026
+-   Global Energy Security Data
+-   Nov 16, 2026
+-   Wholesale Electricity Market Data
+-   Nov 12, 2026
+
+Press Room
+
+-   Press Releases
+-   Congressional Testimony
+-   Presentations
+-   Events

@@ -1,0 +1,182 @@
+[Norton Rose Fulbright]
+
+Project Finance NewsWire
+
+[]
+
+Subscribe
+
+[]
+
+Search
+
+Go
+
+[]
+
+More results
+
+[]
+
+Menu
+
+-   Home
+
+-   NewsWire Archive
+
+-   Currents Podcast
+
+-   Uptime Now
+
+-   Tax Equity News
+
+-   Project Finance News Blog
+
+-   Meet Our US and Latin American Team
+
+[]
+
+Close
+
+Corporate VPPAs: Risks and sensitivities
+
+June 16, 2020 | By Benjamin Grayson
+
+Eighty-two percent of power purchase agreements signed with US corporate offtakers in 2019 were “virtual” PPAs that do not involve physical delivery of electricity.
+
+Price spikes in ERCOT during the summer months, the COVID-19 pandemic and economic downturns have exposed how critical certain contract provisions are in these types of contracts.
+
+The contract provisions primarily affected are the ones dealing with risks and sensitivities around price, electricity basis risk, credit and construction delay.
+
+Negotiations are sometimes challenging because of information asymmetries between experienced developers and corporate buyers that may have never entered into a power purchase agreement before.
+
+In 2019, 13,600 megawatts of corporate power purchase agreements were signed in the United States, more than all global activity in 2018, according to Bloomberg New Energy Finance. Traditional busbar utility PPAs covering the output of an entire project are being signed less frequently.       
+
+As a more diverse cast of corporate offtakers participates in energy markets, there is a need for buyers and sellers to come to the negotiating table with an understanding of each other’s risk appetites and constraints.         
+
+VPPAs
+
+At its core, a virtual power purchase agreement, or VPPA, is a purely financial contract that exchanges a fixed-price cash flow for a variable cash flow and often renewable energy credits.
+
+An independent power project sells its electricity into an organized spot market, like ERCOT, the name for the power grid in Texas.
+
+The project owner enters into a VPPA with a corporate offtaker. It pays the corporate offtaker the floating revenues it receives from the electricity sales in exchange for fixed payments back from the corporate offtaker.
+
+The VPPA typically settles monthly. If the project’s revenues from selling power to the grid are greater than the corporate offtaker’s fixed-price payments, the VPPA is considered profitable or “in the money” by the project owner. In some cases, the VPPA will be a “contract for differences” where the project company and corporate offtaker split the wholesale revenues to the extent they exceed the fixed price payments. In contract-for-differences VPPAs, the fixed price will be lower than in a VPPA where this upside share feature is not used.
+
+For a developer or sponsor, entering into a VPPA helps to put a floor under the electricity price for a project, which is a key step toward project financing. For a corporate buyer, entering into a VPPA means supporting sustainability goals while providing a hedge against market price volatility for the electricity it buys from its local utility. The contract is not affected by the buyer’s actual electricity usage or the geographic location of its actual offtake.
+
+Basis risk
+
+Electricity basis risk is the risk that the project owner takes by using the electricity prices at a “hub” for settling a VPPA while selling electricity from the project into the spot market at “node” prices. VPPAs are frequently hub-settled. Hubs are aggregations of nodes. Because hubs cover a broader geographical range than a single node, hub prices are less volatile than node prices and so settling VPPAs at hub prices is perceived to carry less risk. Basis risk is the risk that there will be a difference in electricity prices at the two locations.
+
+Take an example: if a lot of wind projects with similar generation profiles are built close together in northwest Texas, there are likely to be congestion issues along the transmission lines during periods of heavy wind, driving node prices down. Tying the floating VPPA price to a broader geographical range with different levels of demand and generation will help smooth out volatility and ideally keep floating prices up relative to the node where the project sells its physical power.
+
+However, settling at the hub introduces risk to the project. Hub settlement requires the project to purchase the same volume of energy at the hub as it sells at the node in order to manage settlements. If hub prices are greater than the node price, then the project suffers losses.
+
+When raising capital for a project financing, a sponsor will need to walk the lenders and tax equity investors through the locational analysis and forward curve projections for the project to get them comfortable with the basis risk the project wears.
+
+When hub prices are higher than node prices, a project could be incentivized to curtail, or scale back, its electricity output in order to avoid loss or seek out contractual mechanisms in the VPPA to mitigate basis risk. If a project curtails, then the corporate offtaker will receive fewer renewable energy credits or RECs. The project owner earns less revenue, but this is the tradeoff for not having to operate at a loss.
+
+Curtailment could be critical to maintaining steady project economics. In August 2019, the ERCOT North hub saw prices spike up to $9,000 per megawatt hour of electricity, while node prices were only $1,000 per megawatt hour.
+
+A 300-megawatt project using a hub-settled VPPA would have experienced a $2.4 million loss in a single hour.
+
+Parties to a VPPA negotiate over how often and under what circumstances the seller can curtail energy. Developers and sponsors are also beginning to negotiate for other creative contractual tools to manage basis risk.
+
+Related to curtailment is the availability guarantee. Often in VPPAs, the project owner promises that the project will remain on line and available to supply power for a minimum amount of time during each contract year, expressed as a percentage. If the availability guarantee is not met, then the project must pay the corporate offtaker some amount of liquidated damages.
+
+A VPPA will often carve out certain periods of time that are considered “excused” for purposes of calculating the availability percentage. These excused periods of time are excluded from the availability calculation. Parties to a VPPA negotiate whether periods of curtailment should be treated as “excused.” The parties will also negotiate whether to cap the amount of time or volume of electricity that a project can curtail.
+
+Battery storage can help mitigate basis risk. If a project can store electricity during times of high congestion and shift its electricity sales to times of lower congestion (i.e., times of higher node prices), the likelihood that the node price will be less than the hub price can be reduced.
+
+Buyer sensitivities
+
+During periods of low demand, it is possible for wholesale power prices to dip into negative values.
+
+Similar to how project owners are concerned about basis risk, corporate offtakers are concerned about settling a VPPA at negative floating prices. When such a settlement occurs, the corporate offtaker ends up paying the full fixed price with no offset; the floating price is treated as zero. As a way to protect against negative prices, a VPPA can feature floating price floors. For solar projects, the price floor is typically set at $0 and for wind projects where tax equity is contemplated, a negative amount equal to the value of the production tax credits. (Production tax credits were $25 a megawatt hour in 2019. The 2020 amount has not been announced yet.)
+
+Since VPPAs are typically signed ahead of or in the middle of construction and construction is where most project risk lies, corporate offtakers will want to make sure that enough protections are in place in case of delays.
+
+Over the VPPA term, the project owner will post security in the form of a parent guarantee, letter of credit, surety bond or cash. The corporate offtaker and project owner negotiate how much security is required, whether the amount of security required to be posted can decrease over time, and whether security needs to be replenished after it is drawn upon. Project owners prefer that the amount of security required decreases once the construction period is over and the project is in commercial operation. VPPAs typically set a guaranteed commercial operation date and if that milestone is not met on time, then the project pays delay damages on a dollar-per-megawatt basis for each day of delay. Because the project is not generating revenue at this time, the corporate offtaker will look to draw on the security as protection against delay risk.
+
+If a project is using a letter of credit or surety bond, the project owner should see whether its relationship banks have forms and share those forms with corporate offtakers to level set expectations. The drawing conditions in those forms should align with the terms of the VPPA.
+
+There are significant information asymmetries between project developers and corporate offtakers in terms of how development and construction work, an understanding of energy markets and similar issues. This is especially the case if a company is entering into a VPPA for the first time. While many companies hire outside consultants with institutional knowledge, the corporate offtaker will want to collect as much information as possible. Corporate buyers and project developers negotiate over the extent to which the developer provides progress reports, construction milestone updates, notices and similar information, their frequency and their form. It is important for developers to coordinate with their asset management teams to make sure what they are promising to provide is feasible and is something that is monitored.
+
+Corporate buyers are also sensitive to assignment provisions. Many corporate offtakers try to specify competitors in their sector and exclude developers from assigning the VPPA to them.
+
+Developer sensitivities
+
+Developers are sensitive to assignment and change-of- control provisions.
+
+VPPAs will typically state that no assignment or transfer is allowed without the other party’s consent, except for an enumerated list of certain types of assignments. Because lenders will probably be needed to finance the project, developers want to make sure their corporate offtakers are comfortable if the developer makes a collateral assignment of the VPPA to secure the financing. It can be helpful to negotiate a form of consent to collateral assignment and attach it to the VPPA as an exhibit. Negotiating the form of consent at the VPPA stage can help avoid problems for sponsors later when they are trying to sign financing commitments.
+
+The same logic follows for agreeing to forms of estoppel certificates for tax equity providers. Since VPPAs represent project revenues, financing parties will critically review consents and estoppel certificates. Creating a foundation for what these documents look like early can reduce heartburn later, especially since companies may not be familiar with signing these types of documents.
+
+Developers often negotiate for an ability to assign the VPPAs to affiliates or other types of permitted transferees. The “permitted transferee” definition is typically used to allow the developer to assign the VPPA to other sponsors. The definition often has two elements — an experience requirement (years operating projects of a similar type and the number of megawatts operated) and a net worth requirement.
+
+As is the case for corporate buyers, credit support is also a sensitivity for developers.
+
+The legal entity used to represent the corporate buyer could be a less well capitalized subsidiary of a corporate parent. Developers scrutinize the credit of the VPPA counterparty. The project owner is usually obligated to post security for the life of the VPPA. In contrast, the corporate offtaker may only be required to post credit support if its credit falls below some creditworthiness threshold. The parties negotiate the threshold that triggers an obligation on the part of the corporate buyer to post credit support and the terms around when such support is no longer necessary after it has been posted.
+
+More scrutiny may be placed on corporate buyers’ credit support in light of unforeseen economic difficulties caused by the COVID-19 pandemic that have affected corporate credit across the country.
+
+Developers try to limit the amount of influence a corporate offtaker has over upstream activity.
+
+Similar to assignments, a VPPA will typically say that, with respect to a project, a “change of control” is not permitted without the corporate buyer’s consent. Developers should evaluate their ownership structures and try to negotiate for certain carve outs to the definition, allowing them to take certain actions that are reasonably foreseeable without the corporate buyer’s consent. For example, these carve-outs may include transfers of interests of the project company in connection with a tax equity financing or a transfer of interests of a direct or indirect owner of the project company.
+
+As the COVID-19 pandemic has played out across the energy project value chain, there has been increased scrutiny of force majeure provisions in VPPAs.
+
+Just like in a traditional PPA, the project will be granted relief from termination if a force majeure event lasts up to a certain amount of time and granted relief from paying delay damages if the reason for delay is due to force majeure. The COVID-19 pandemic has caused supply-chain issues, permitting and construction delays, issues in obtaining financing, as well as other problems. Because pandemics like COVID-19 have effects that are less visible and obvious than a storm or hurricane, for example, developers should try to bake broad force majeure definitions and favorable relief provisions into their contracts. At the very least, developers should make sure pandemics are included in the non-exhaustive list of events that are treated as force majeure if the other elements of the definition are met.
+
+Another risk developers try to manage is imbalance-charge risk. This is the risk associated with settling VPPAs in the real-time market versus the day-ahead market. Physical power is sold in real-time markets. However, VPPAs may settle at day-ahead market prices by scheduling sales on an hourly basis in advance. Corporate buyers generally perceive day-ahead prices to be higher and prefer their predictability. Developers want to avoid managing the mismatch between real-time prices and day-ahead prices and will try to have the VPPA settle at real-time prices.
+
+For large projects, it may not be feasible to contract the entire output to one corporate offtaker. Instead, there might be multiple VPPAs. In such cases, it is important for developers to try to achieve consistent terms across the VPPAs. There will be reporting requirements that last over the life of each contract and the project owner’s asset management team will want to make sure those are relatively similar so that the team is not overburdened and can easily reproduce reports. Often, the first VPPA signed will act as a foundation for the next slate of VPPAs signed for the same project. [webding-gold-Apr-16-2025-04-01-20-5906-PM]
+
+Share this
+
+Share on LinkedIn [] Share on Twitter [] Share on Bluesky [] Share on Facebook []
+
+Learn More
+
+-   PPA
+-   challenges
+-   Norton Rose Fulbright
+-   VPPA
+-   VPPA risk
+-   virtual power purchase agreement
+-   sensitivities
+-   Ben Grayson
+
+NewsWire Editor
+
+Keith Martin
+Partner, United States
+Washington, DC
+Email
+T: +1 202 974 5674
+
+[] Download PDF of the NewsWire
+
+Stay Connected
+
+Subscribe by Email
+
+[] [] [] [] []
+
+[Norton Rose Fulbright]
+
+Project Finance News
+
+For developments affecting project finance and the energy sector.
+
+Norton Rose Fulbright LLP © 2026. All Rights Reserved.
+
+-   Legal notices
+-   Privacy notice
+-   Cookies policy
+-   Do Not Sell or Share My Personal Information
+-   Limit the Use of My Sensitive Personal Information
+
+[] [] [] [] []

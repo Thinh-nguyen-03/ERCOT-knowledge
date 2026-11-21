@@ -1,0 +1,30 @@
+ERCOT Retail Market Guide
+
+Section 9: Appendices
+
+Appendix J7: Mass Transition Allocation Methodology
+
+December 1, 2024
+
+Appendix J7
+
+Mass Transition Allocation Methodology
+
+Reference: Paragraph (1) of Section 7.11.1, Transition Process of Competitive Retailer’s Electric Service Identifiers to Provider of Last Resort or Designated Competitive Retailer Pursuant to P.U.C. SUBST. R. 25.43, Provider of Last Resort (POLR), or CR Voluntarily Leaving the Market
+
+Note: This Mass Transition Allocation Methodology must be provided by each opt-in Municipally Owned Utility (MOU) or opt-in Electric Cooperative (EC) without an affiliated Provider of Last Resort (POLR) that has not delegated authority to designate POLRs to the Public Utility Commission of Texas (PUCT).
+
+Name of MOU/EC
+
+Effective Date
+
+Methodology (or specify that it is included as an attachment)
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| MOU/EC AUTHORIZATION                                                                                                                                                               |
+|                                                                                                                                                                                    |
+| I affirm that I am an authorized representative of (MOU/EC Name) and that the specified methodology should be used by ERCOT in accordance with Retail Market Guide Section 7.11.1. |
+|                                                                                                                                                                                    |
+| (Employee Name)                                                                                                                                                                    |
++====================================================================================================================================================================================+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

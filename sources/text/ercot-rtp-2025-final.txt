@@ -1,0 +1,429 @@
+2025 RTP – Final Update
+January 2026 RPG
+ERCOT
+Regional Transmission Planning
+January 16, 2025
+
+2025 RTP – Timeline
+
+PUBLIC
+
+•
+
+April 8 – ERCOT Adjusted Load Forecast presented at the Board of Directors meeting.
+
+•
+
+May 1 – ERCOT filed Update on ERCOT’s Adjusted Load Forecast and Request for Good Cause
+Exception for 2025 Regional Transmission Plan under PUCT Project No. 55999.
+
+•
+
+June 4 – ERCOT filed Revisions to Adjusted Load Forecasts under PUCT Project No. 55999.
+
+•
+
+June 5 – The PUCT granted ERCOT Good Cause Exception authorizing the use of the ERCOT
+11.2 MW (2)
+Transmission Planning Adjusted Load Forecast.
+
+•
+
+June 27 – Received final load substantiations from Load Serving Entities.
+
+•
+
+August 5 – ERCOT posted 2025 RTP start cases.
+
+•
+
+December 12 – The PUCT granted ERCOT Good Cause Exception to exempt ERCOT from performing
+the maintenance outage analysis required under Planning Guide 4.1.1.8.
+
+•
+
+December 22 – ERCOT posted 2025 RTP final cases, project lists, and MIS and public reports.
+
+0.7 MW (1)
+
+5.7 MW (3)
+
+2
+
+2025 RTP – Reliability Project Locations
+
+RTP Year
+
+Total Reliability
+Projects
+
+2016
+
+40
+
+2017
+
+60
+
+2018
+
+38
+
+2019
+
+56
+
+2020
+
+50
+
+2021
+
+67
+
+2022
+
+89
+
+2023
+
+173
+
+2024
+
+145*
+
+2025
+
+192**
+
+[*] With 765-kV STEP in year 6 base case
+[**] With 765-kV STEP in year 5 and 6 base cases
+
+PUBLIC
+
+3
+
+2025 RTP – Previous vs. New Projects
+
+2025 RTP
+
+2024 RTP
+
+PUBLIC
+
+4
+
+2025 RTP – Project Types
+
+Line
+Upgrades
+Additions
+Conversions
+
+Other
+Upgrades
+Additions
+
+PUBLIC
+
+5
+
+Texas 765-kV Strategic Transmission Expansion Plan (STEP)
+•
+
+Jan 27: Published 2024 Regional Transmission Plan (RTP)
+345-kV Plan and Texas 765-kV Strategic Transmission
+Expansion Plan Comparison which captured the results of
+the previous year’s detailed analysis.
+
+•
+
+April 24: Public Utility Commission of Texas approved 765kV Permian Basin import paths.
+
+•
+
+July 7 & 17: Texas 765-kV STEP Western Loop and
+Eastern Backbone Projects submitted to RPG,
+respectively.
+
+•
+
+November 11: Final recommendation at RPG.
+
+•
+
+December 9: Approved by ERCOT Board of Directors.
+
+•
+
+765-kV STEP, as proposed in the 2024 RTP, and ultimately
+approved by BOD, was included in the 2025 RTP 2030
+and 2031 starting base cases to address base case
+violations.
+
+•
+
+The 2025 RTP saw continued benefit of STEP in
+addressing additional new load growth and did not see a
+need to remove any elements of the plan.
+
+PUBLIC
+
+11.2 MW (2)
+
+0.7 MW (1)
+
+5.7 MW (3)
+
+6
+
+2025 RTP – Additional 765-kV Analysis
+• The 2025 RTP evaluated potential
+additional 765-kV equipment to address
+additional new load growth.
+• There was an addition of approximately
+12.8 GW of load in the 2031 summer
+peak case in the Central Texas corridor
+counties of Bastrop, Bell, Bexar,
+Caldwell, Comal, Gonzales, Guadalupe,
+Hays, Medina, Milam, Travis, and
+Williamson.
+• The 2023 and 2024 RTPs identified
+strained import capability into the Central
+Texas region. Additional regional load
+growth incorporated into the 2025 RTP
+strained import capability further.
+
+11.2 MW (2)
+
+0.7 MW (1)
+
+5.7 MW (3)
+
+• Additional 765-kV equipment was added
+to address the growing import need in
+Central Texas.
+PUBLIC
+
+7
+
+2025 RTP – Additional 765-kV Analysis
+• Strained import capability into the area was first
+identified in the 2023 RTP, when it developed a
+South to Central Texas 345-kV import path extending
+from the Corpus Christi area into Central Texas.
+• However, with the dramatic increase in loads in the
+Corpus Christi area in the 2024 RTP, there was less
+generation available for export. Instead, the 2024
+RTP reinforced the existing 345-kV import corridors
+from Coast to South Central. The two import paths
+coming from the Coast Weather Zone to Central
+Texas currently consist of lower-rated 345-kV lines
+which limit the power transfer capability into the area
+to a level below what's needed.
+
+PUBLIC
+
+11.2 MW (2)
+
+0.7 MW (1)
+
+5.7 MW (3)
+
+8
+
+2025 RTP – Additional 765-kV Analysis
+• The expansion of the existing 345-kV Euclid station
+in Central Texas to include 765-kV helps stabilize bus
+voltages and provides a new source into the Central
+Texas area, while the approximately 130 mile Euclid
+to Hillje 765-kV line addresses various violations
+along the Coast-to-Central paths.
+• Adding a new 765-kV Central Texas import pathway
+from the Hillje substation in the Coast Weather Zone
+to the Euclid station in Central Texas brings
+approximately 2,000 MW across the line into Central
+Texas under base case summer peak conditions.
+
+PUBLIC
+
+11.2 MW (2)
+
+0.7 MW (1)
+
+5.7 MW (3)
+
+9
+
+2025 RTP – Additional 765-kV Analysis
+• The increased import capability is observed under
+both normal and post-contingency conditions across
+various system topology configurations, including
+both with the planned 765-kV STEP Eastern
+Backbone project and exclusively on the new line's
+own merits without the planned backbone as
+demonstrated in the early study years.
+• In addition to dramatically increasing overall import
+into the Central Texas area, the additional 765-kV
+pathway will provide the much-needed operational
+flexibility for the system to handle any required
+outage of those existing pathways without
+compromising system reliability.
+
+PUBLIC
+
+11.2 MW (2)
+
+0.7 MW (1)
+
+5.7 MW (3)
+
+10
+
+2025 RTP – Peak Net Load (“Sunset”) Analysis and Minimum Deliverability
+• To meet the Minimum Deliverability criteria
+as required by Planning Guide 4.1.1.7, the
+2025 RTP developed a 2027 study case to
+represent “sunset” conditions typically found
+during the 7-8 p.m. time period.
+
+Sunset BASE
+
+Sunset MIN DELIV
+
+Study Year
+
+2027
+
+2027
+
+Load Scenario
+Includes only Generation Meeting Planning
+Guide 6.9
+System Load (Less Self-Served, MW)
+
+Peak Net Load
+
+Peak Net Load
+
+YES
+
+YES
+
+106,487
+
+106,487
+
+• The battery dispatch of 56.9% was based
+on the capacity factor observed on October
+10, 2025, hour ending 19 when ERCOT set
+a battery discharge record of 8,714 MW.
+
+Percent of Summer Peak Load Level
+Large Loads with TSP Officer Letters (System,
+MW)
+Large Loads with Signed Interconnection
+Agreements (System,
+MW)
+0.7
+MW (1)
+Dispatchable Generation Level (%)
+
+95.8
+
+95.8
+
+19,271
+
+19,271
+
+100 (94)
+
+100
+
+Solar Dispatch Level (%)
+
+13.3
+
+5.7
+
+• This analysis was meant to capture what
+are still the most challenging operating
+conditions when solar is very low, wind in
+the West and Far West is low, and wind in
+the Panhandle is very low.
+
+Battery Dispatch Level (%)
+
+56.9
+
+83.3
+
+Wind Dispatch Level (Southern Coastal, %)
+
+63.3
+
+31.1
+
+11.2 MW (2)
+0
+
+5.7 MW 70.9
+(3)
+Wind Dispatch Level (Southern Non-Coastal, %)
+
+0
+
+34.7
+
+Wind (Panhandle, %)
+
+12.0
+
+6.1
+
+Wind (Other, %)
+
+33.6
+
+14.4
+
+[1] Dispatchable generators in the Sunset BASE case could be redispatched to resolve violations,
+
+which resulted in an effective dispatch of 94%. Dispatchable generators were not allowed to be
+redispatched in the Sunset MIN DELIV case and were maintained at 100% output.
+PUBLIC
+
+11
+
+2025 RTP – Peak Net Load (“Sunset”) Analysis and Minimum Deliverability
+
+• These conditions resulted in
+generation from the Southern and
+Coast Weather Zones needing to
+travel across the entire system,
+including to the West and Far West
+Weather Zones, stressing many paths
+along the way.
+
+11.2 MW (2)
+
+0.7 MW (1)
+
+5.7 MW (3)
+
+PUBLIC
+
+12
+
+Questions/Comments
+
+• Please send to:
+Jameson.Haesler@ercot.com
+
+PUBLIC
+
+13
+
+

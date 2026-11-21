@@ -1,0 +1,364 @@
+ERCOT Nodal Protocols
+
+Section 22
+
+Attachment P: Methodology for Setting Maximum Shadow Prices for Network and Power Balance Constraints
+
+December 5, 2025
+
+ 1. Purpose
+
+Section 6.5.7.1.11, Transmission Network and Power Balance Constraint Management, requires the Public Utility Commission of Texas (PUCT) to approve ERCOT’s methodology for establishing caps on the Shadow Prices for transmission constraints and the Power Balance constraint. Additionally, PUCT must also approve the values (in $/MWh) for each of the Shadow Price caps.
+
+The effect of the Shadow Price cap for transmission network constraints is to limit the cost calculated by the Security-Constrained Economic Dispatch (SCED) optimization to resolve an additional MW of congestion on a transmission network constraint to the designated maximum Shadow Price for that transmission network constraint. The effect of the Shadow Price cap for the Power Balance Constraint is to limit the cost calculated by the SCED optimization when the instantaneous amount of generation to be dispatched does not equal the instantaneous demand of the ERCOT system. In this case, the cost calculated by SCED to resolve either the addition or reduction of one MW of dispatched generation on the power balance constraint is limited to the maximum Shadow Price for the power balance constraint, which is also referred to as the Power Balance Penalty.
+
+The maximum Shadow Prices for the transmission network constraints and the power balance constraint directly determine the Locational Marginal Prices (LMPs) for the ERCOT Real-Time Market (RTM) in the cases of constraint violations.
+
+This Attachment describes:
+
+-   the PUCT-approved methodology that the ERCOT staff will use for determining the maximum system-wide Shadow Prices for transmission network constraints and for the power balance constraint, and
+
+-   the PUCT-approved Shadow Price caps and their effective date.
+
+2. Background Discussion
+
+The term Shadow Price as used in a constrained optimization problem in economics, is usually defined as the change in the objective value of the optimal solution of the optimization problem obtained by changing each constraint, one-at-a-time, by one unit. In the SCED process the objective function to be minimized by the SCED optimization engine is the total system dispatch cost required to maintain the system power balance and to resolve congestion of the transmission network as specified in the transmission constraint input set. The term Shadow Price is used in the context of individual constraints, whether a transmission network constraints or power balance constraint. Consistent with the definition of the Shadow Price, in a minimization problem, such as the SCED, the Shadow Prices for the transmission constraints are different for each transmission constraint and they are positive $/MW amounts defined as increase of the system dispatch costs if a transmission line limit is decreased by one MW. The Shadow Price for the Power Balance constraint represents system costs for serving the last MW of load. The Power Balance Penalty can be either positive (if the system requires additional generation) or negative (if the system requires a reduction in generation). If a constraint is not binding, meaning the constraint has excess capability under the given system conditions, the Shadow Price of the constraint is $0.00/MWh. On the other hand, if the constraint is binding, meaning it is limiting because the system conditions are such that the constraint limit is exactly met by the SCED selected dispatch pattern, the constraint Shadow Price is a non-zero $/MW value and when the maximal Shadow Price (i.e. the Shadow Price cap) is reached the constraint will be violated without further increases in the constraint Shadow Price.
+
+In the context of the SCED optimization, the Shadow Prices give rise to the application of a transmission penalty cost and a power balance penalty cost in the SCED objective function that results in an increase in the total system dispatch cost. On the other hand, the transmission network constraint Shadow Prices and the Power Balance Shadow Price directly determine the LMPs (in $/MWh) calculated in the SCED. The LMPs will be limited because of the Shadow Price cap amounts, expressed in $/MWh.
+
+For the network transmission constraints, the Shadow Price Cap may vary for each constraint, may be a unique value applicable to all constraints, or may be values unique to subsets of the full constraint set. For the Power Balance constraint, the Shadow Price Cap is a single value.
+
+3. Elements for Methodology for Setting the Network Transmission System-Wide Shadow Price Caps
+
+3.1 Congestion LMP Component
+
+  The LMPs at Electrical Buses are calculated as follows:
+
+  $LMP_{EB} = \lambda - \sum_{line}^{}{SF_{EB}^{line} \cdot SP_{\ }^{line}}$
+
+  Where:
+
+  LMP_(EB) is LMP at Electrical Bus EB
+
+  λ is System Lambda (Shadow Price of power balance)
+
+  SF_(EB)^(line) is Shift Factor for Electrical Bus EB for transmission line
+
+  SP ^(line) is Shadow Price for transmission line.
+
+  Note that the Shadow Prices for congested transmission lines are positive, otherwise they are equal zero. The Shift Factors for Electrical Buses on one side of transmission line are negative and for Electrical Buses on the other side of transmission line are positive.
+
+  The congestion component of Electrical Bus LMP is:
+
+  $$\Delta LMP_{EB}^{cong} = - \sum_{line}^{}{SF_{EB}^{line} \cdot SP_{\ }^{line}}$$
+
+  and it can be positive or negative depending on sign of Shift Factors. The congestion component of LMP represents a price incentive to generation units connected at that Electrical Bus to increase or decrease power output to manage network congestion. Note that only marginal units (i.e. units that are able to move, not those dispatched at min/max dispatch limits to resolve other constraints or to provide energy to the system) can participate in resolving network congestion and determining the System Lambda for a particular iteration of SCED.
+
+  The optimal dispatch from both system (minimal congestion costs) and unit (maximal unit profit) prospective is determined by condition:
+
+  OfferPr ice_(unit)(P_(unit)^(opt)) = LMP_(EB).
+
+  The generation unit response to pricing signal will result in line power flow reduction in amount:
+
+  ΔP ^(line) = SF_(EB)^(line) ⋅ ΔP_(unit)^(cong)
+
+  These relationships are illustrated at the following figure:
+
+  []
+
+3.2 Network Congestion Efficiency
+
+  The following three elements of network congestion management determine the efficiency of a generating unit participation (as defined above):
+
+-   Line power flow contribution ΔP ^(line)
+
+-   LMP congestion component ΔLMP_(EB)^(cong)
+
+-   Unit power output adjustment ΔP_(unit)^(cong).
+
+  The line power contribution is determined by its Shift Factor directly. It may be established that generating units with Shift Factors below specified threshold (10%) are not efficient in network congestion.
+
+  The LMP congestion component is the main incentive controlling generating unit dispatch. It is determined by Shift Factors and Shadow Prices for transmission constraints:
+
+  $\Delta LMP_{EB}^{cong} = \sum_{line}^{}{SF_{EB}^{line} \cdot SP_{\ }^{line}}$.
+
+  Generating units with small Shift Factors (i.e. below Shift Factor threshold) will not be as effective in resolving constraints as will generation units with higher shift factors on the constraint. If there are no efficient generating units then the Shadow Price must be increased to get enough contribution from inefficient units. Therefore, high Shadow Prices indicate inefficient congestion management.
+
+  The maximal value of LMP congestion component ΔLMP_(max)^(cong) directly limits the transmission congestion costs:
+
+  $C_{\cos t}^{cong} = \sum_{unit}^{\sum}{\Delta LMP_{\max}^{cong_{unit}^{opt}}}$.
+
+  The efficiency of a generating unit contribution can be determined by maximal value of LMP congestion component ΔLMP_(max)^(cong) (say $500/MWh). The maximal Shadow Price for transmission constraint can be established by Shift Factor efficiency threshold and maximal LMP congestion component as follows:
+
+  SP_(max)^( _(max)^(cong_(threshold)^(efficiency))).
+
+The maximal unit power output adjustment ΔP_(max)^(cong) will be determined by condition:
+
+OfferPr ice_(unit)(P_(unit) − ΔP_(max)^(cong_(EB)_(threshold)^(efficency)_(max))
+
+3.3 Shift Factor Cutoff
+
+Note: This Shift Factor cutoff is not related to above Shift Factor efficiency threshold used for determination of maximal Shadow Price.
+
+Some generating units (Generation Resources and Energy Storage Resources (ESRs) can be excluded from network congestion management by ignoring their contribution in line power flows. Note that this exclusion cannot be performed physically, i.e. all units will always contribute to line power flows according to their Shift Factors. Therefore, the Shift Factor cutoff introduces an additional approximation into line power flow modeling.
+
+Since the effect of the Shift Factors below the cut off on the overload are ignored in the optimization, any Shift Factor cutoff will cause additional re-dispatch of the remaining generating units (Generation Resources and ESRs) participating in the management of congestion on the constraint. I.e. Generation Resources and ESRs with a Shift Factor above the cut off will have to be moved more to account for the increase in overload caused by increasing generation of an inexpensive Resource with positive Shift Factor below cut off and decreasing generation of an expensive Resource with negative Shift Factor below cut off.
+
+The Shift Factor cutoff will cause mismatch between optimized line power flow and actual line power flow that will happen when dispatch Base Points are deployed. This mismatch can degrade the efficiency of congestion management.
+
+The Shift Factor cutoff can reduce volume of Shift Factor data and filter out numerical errors in calculating Shift Factors. Currently the default value of Shift Factor cut off is 0.0001) and is implemented at the Energy Management System (EMS) to reduce the amount of data transferred to MMS. Any threshold above that level will cause a distortion of congestion management process.
+
+3.4 Methodology Outline
+
+The methodology for determination of maximal Shadow Prices for transmission constraints could be based on the following setting:
+
+  (a) Determine Shift Factor efficiency threshold SF_(threshold)^(efficiency) (default x%)
+
+  (b) Determine maximal LMP congestion component ΔLMP_(max)^(cong) (default $y/MWh)
+
+  (c) Calculate maximal Shadow Price for transmission constraints:
+
+  SP_(max)^( _(max)^(cong_(threshold)^(efficiency)))
+
+  (d) Determine Shift Factor cutoff threshold SF_(threshold)^(cutoff) (default z%)
+
+  (e) Evaluate settings on variety of SCED save cases.
+
+3.5 Generic Values for the Transmission Network System-Wide Shadow Price Caps in SCED
+
+The Generic Transmission Shadow Price Caps noted below will be used in SCED unless ERCOT determines that a constraint is irresolvable by SCED. The methodology for determining and resolving an insecure state within SCED (i.e. SCED Irresolvable) is defined in Section 6.5.7.1.10, Network Security Analysis Processor and Security Violation Alarm, whereas the subsequent trigger condition for the determination of that constraint’s Shadow Price Cap is described in Section 3.6, Methodology for Setting Transmission Shadow Price Caps for Irresolvable Constraints in SCED.
+
+Generic Transmission Constraint (GTC) Shadow Price Caps in SCED
+
+-   Base Case/Voltage Violation: $5,251/MW
+
+-   N-1 Constraint Violation
+
+    -   Greater than 200 kV: $4,500/MW
+
+    -   100 kV to 200 kV: $3,500/MW
+
+    -   Less than 100 kV: $2,800/MW
+
+3.5.1 Generic Transmission Constraint Shadow Price Cap in SCED Supporting Analysis
+
+[]Figure 1 is a contour map that shows the relationship between the level of the constraint shadow price cap, the offer price difference of the marginal units deployed to resolve a constraint, and the shift factor difference of the marginal units deployed to resolve a constraint.[1]
+
+Figure 2 is a projection of Figure 1 onto the x-axis (i.e., looking at it from the top). These two figures focus on constraint shadow price cap levels, and do not consider the interaction with the power balance constraint penalty factor, which is further discussed in association with Figure 4.
+
+[]Figure 2
+
+Figures 1 and 2 show that:
+
+-   For a constraint shadow price cap of $5,251/MW
+
+    -   Marginal units with an offer price difference of $52.51/MWh will be deployed to resolve a constraint when the shift factor difference of the marginal units is as low as 1%.
+
+    -   Marginal units with an offer price difference of $150/MWh will be deployed to resolve a constraint when the shift factor difference of the marginal units is as low as 2.9%.
+
+-   For a constraint shadow price cap of $4,500/MW
+
+    -   Marginal units with an offer price difference of $45/MWh will be deployed to resolve a constraint when the shift factor difference of the marginal units is as low as 1%.
+
+    -   Marginal units with an offer price difference of $150/MWh will be deployed to resolve a constraint when the shift factor difference of the marginal units is as low as 3.4%.
+
+-   For a constraint shadow price cap of $3,500/MW
+
+    -   Marginal units with an offer price difference of $35/MWh will be deployed to resolve a constraint when the shift factor difference of the marginal units is as low as 1%.
+
+    -   Marginal units with an offer price difference of $150/MWh will be deployed to resolve a constraint when the shift factor difference of the marginal units is as low as 4.3%.
+
+-   For a constraint shadow price cap of $2,800/MW
+
+    -   Marginal units with an offer price difference of $28/MWh will be deployed to resolve a constraint when the shift factor difference of the marginal units is as low as 1%.
+
+    -   Marginal units with an offer price difference of $150/MWh will be deployed to resolve a constraint when the shift factor difference of the marginal units is as low as 5.35%.
+
+Figure 3 shows the maximum offer price difference of the marginal units that will be deployed to resolve congestion with each of the proposed shadow price cap values as a function of the shift factor difference of the marginal units.
+
+Figure 3
+
+For example, with a shift factor difference of the marginal units of just 2%, the maximum offer price difference of the marginal units that will be deployed to resolve the constraint is $56, $70, $90 and $105.02/MWh for constraint shadow price cap values of $2,800, $3,500, $4,500 and $5,251/MW, respectively. Similarly, for with a shift factor difference of the marginal units of 60%, the maximum offer price difference of the marginal units that will be deployed to resolve the constraint is $1,680, $2,100, $2,700 and $3,150.60/MWh for constraint shadow price cap values of $2,800, $3,500, $4,500 and $5,251/MW, respectively.
+
+In some circumstances these constraint shadow price cap values may preclude the deployment of an offer at the Real-Time System-Wide Offer Cap (RTSWCAP). However, it is not possible in the nodal design to establish constraint shadow price caps at a level that will always accept an offer at RTSWCAP and still produce pricing outcomes that remain within reasonable bounds of expected scarcity pricing outcomes. For example, taking the case above where the shift factor difference of the marginal units is just 2%, a constraint shadow price cap of $100,000/MW would be required to deploy $2,000/MWh offers to resolve the congestion (assuming an offer price of zero for the marginal constrained-down unit). In this case, for nodes with a higher shift factor relative to the constraint (regardless of whether the nodes are generation or load nodes), the resulting LMP would be significantly higher than a $2,000/MWh RTSWCAP if the constraint was irresolvable. For example, a node with a shift factor of -50% would have an LMP with a congestion component of $50,000/MWh from just this one constraint, and even higher if multiple constraints are binding. In contrast, with a $5,251/MW shadow price cap, the congestion component of the LMP of the node with a shift factor of -50% would be $2,625.50/MW for just this one constraint.
+
+The LMP at an individual node, hub or load zone can exceed the RTSWCAP in some circumstances, even ignoring the impacts of co-optimization of energy and Ancillary Services. This is most likely to occur when there are one or more irresolvable constraints on the system and when overall dispatchable supply on the system is tight. Relatively speaking, it is more likely that individual node prices will exceed the RTSWCAP than hubs or load zones, but it is possible that hub or load zone prices could exceed the RTSWCAP. It is not possible in the nodal system to assign constraint shadow price caps and power balance penalty factor values that achieve the desired reliability and efficiency objectives and ensure that all LMPs remain within the bounds of the RTSWCAPs, or even the effective Value of Lost Load (VOLL), under all circumstances.
+
+Operationally once ERCOT reaches the shadow price cap, ERCOT may use the following method to manage congestion. Steps that may be taken by ERCOT operations to resolve congestion when the transmission constraint is violated in SCED after the Shadow Price reaches the shadow price cap include:
+
+-   Formulating a mitigation plan which may include
+
+-   Transmission reconfiguration (switching)
+
+-   Load rollover to adjacent feeders
+
+-   Load shed plans
+
+-   Redistribution of ancillary services to increase the capacity available within a particular area.
+
+-   Commitment of additional units.
+
+-   Re-dispatching generation through over-riding High Dispatch Limit (HDL) and Low Dispatch Limit (LDL) in accordance with paragraph (3)(g) of Section 6.5.7.1.10, Network Security Analysis Processor and Security Violation Alarm.
+
+3.6 Methodology for Setting Transmission Shadow Price Caps for Irresolvable Constraints in SCED
+
+ERCOT Operations is required to resolve security violations on the ERCOT Grid as described in Section 6, Adjustment Period and Real-Time Operations, and the associated Nodal Operating Guides and ERCOT will utilize the SCED application or direct actions on the transmission network and among Generation Resources and Energy Storage Resources (ESRs), as needed, to resolve security violations. With regard to SCED operations, if a security violation on a constraint occurs, ERCOT will determine whether or not this constraint violation should be deemed to be irresolvable by online Generation Resource and ESR dispatch by the SCED application. ERCOT will use the methodology described in this section to determine the Shadow Price Cap for a constraint that is deemed irresolvable pursuant to Section 3.6.1, Trigger for Modification of the Shadow Price Cap for a Constraint that is Consistently Irresolvable in SCED, below. For each of these constraints this Shadow Price Cap will be used by the SCED application in place of the generic cap specified by Section 3.5, Generic Values for the Transmission Network System-Wide Shadow Price Caps in SCED, until ERCOT deems the constraint resolvable by SCED. ERCOT shall provide the market 30 days notice before deeming the constraint resolvable by SCED. Upon deeming the constraint resolvable by SCED, the Shadow Price Cap for the constraint shall be determined pursuant to Section 3.5.
+
+3.6.1 Trigger for Modification of the Shadow Price Cap for a Constraint that is Consistently Irresolvable in SCED
+
+The methodology for determining and resolving an insecure state within SCED is defined in Section 6.5.7.1.10, Network Security Analysis Processor and Security Violation Alarm. ERCOT shall modify the Shadow Price Cap for a transmission network constraint that is consistently irresolvable by SCED if either of the following two conditions are true. Intervals with manual overrides performed as a result of SCED not resolving the congestion, shall be included:
+
+  A. A constraint violation is not resolved by the SCED dispatch or overridden for more than two consecutive hours on more than 4 consecutive Operating Days; or
+
+  B. A constraint violation is not resolved by the SCED dispatch for more than a total of 20 hours in a rolling thirty-day period.
+
+On the Operating Day during which ERCOT deems a network transmission constraint to have met the trigger conditions, ERCOT shall identify the following Generation Resources and/or ESRs:
+
+  C. The Generation Resource or ESR with the lowest absolute value of the negative shift factor impact on the violated constraint (this resource is referred as Resource C in the Shadow Price Cap calculation below); and
+
+  D. The Generation Resource or ESR with the highest absolute value of the negative shift factor on the violated constraint (this resource is referred to as Resource D in the designation of the net margin Settlement Point Price described below).
+
+When determining Resources C and D above, ERCOT shall ignore all Generation Resources and ESRs that have a shift factor with an absolute value of less than 0.02 impact on the irresolvable constraint.
+
+3.6.2 Methodology for Setting the Constraint Shadow Price Cap for a Constraint that is Irresolvable in SCED
+
+The Shadow Price Cap for a constraint that has met the trigger conditions described in Section 3.6.1, Trigger for Modification of the Shadow Price Cap for a Constraint that is Consistently Irresolvable in SCED, and the Shadow Price Cap for any constraint that has the same overloaded transmission element and direction as a constraint that has met the trigger conditions, will be determined as follows.
+
+The Shadow Price Cap on the constraint that has met the trigger conditions described in Section 3.6.1, will be set to the minimum of E or F as follows:
+
+  E. The value of the Generic Shadow Price Cap as determined in Section 3.5, Generic Values for the Transmission Network System-Wide Shadow Price Caps in SCED, and
+
+  F. The Maximum of the either the largest value of the Mitigated Offer Cap (MOC) for Resource C, as determined above, divided by the absolute value of its shift factor impact on the constraint or $2000 per MW.
+
+This calculation is performed one time in the Operating Day during which the trigger conditions described in Section 3.6.1 have been met and, subject to the value of the constraint net margin described below, this Shadow Price Cap will remain in effect for the shorter of the remainder of the calendar year or the remainder of the month in which the constraint is determined to be resolvable by SCED.
+
+When the value of a constraint that has met the trigger conditions described in Section 3.6.1 accumulates a net margin, as determined in Section 3.6.3, The Constraint Net Margin Calculation for Constraints that Have Met the Trigger Conditions in Section 3.6.1, below, that exceeds $95,000/MW at any time during the remainder of the calendar year following the determination that the constraint is irresolvable by SCED, the Shadow Price Cap for this, and for all constraints that have the same overloaded transmission element and direction as the constraint in the next Operating Day will be set to the minimum of either $2,000/MWh or G, below, for the remainder of the calendar year:
+
+  G. The Maximum of either the largest value of the MOC for Resource C, as determined above, divided by the absolute value of its shift factor on the constraint or the currently effective Low System-Wide Offer Cap (LCAP) pursuant to subsection (g) of P.U.C. SUBST. R. 25.505, Resource Adequacy in the Electric Reliability Council of Texas Power Region.
+
+When a constraint meets the trigger condition described in Section 3.6.1 and accumulates a net margin that exceeds $95,000/MW as described in Section 3.6.2, ERCOT shall:
+
+  1. As soon as practicable, but not more than ten (10) business days after the triggers are met, review transmission outages and recall outages that are contributing to overloading the constraint(s), if feasible.
+
+  2. As soon as practicable, but not more than thirty (30) days after the triggers are met, review and develop Remedial Action Plans (RAPs) or Temporary Outage Action Plans (TOAPs) to mitigate congestion on the affected constraint(s), if feasible. To the degree that a RAP or TOAP can be developed, ERCOT shall implement it through an Emergency Database Load, if necessary to avoid delay in addressing the congestion.
+
+  3. As soon as practicable, but not more than ninety (90) days after the triggers are met, review and develop or identify one or more Special Protection Systems or transmission proposal(s) to alleviate the risk of future congestion on the affected constraint(s), if feasible, so long as the proposed solution produces an overall reduction of congestion on the ERCOT system.
+
+  4. Perform a detailed review of the constraint(s) that is irresolvable by SCED, and in the next annual Regional Transmission Plan, identify projects that will mitigate the risk of future recurrence of the condition, if any.
+
+Additionally, at the end of the calendar year, for all constraints that have a Shadow Price cap set in accordance with this section, ERCOT will:
+
+-   Again determine Resource C and D, as described in item C and D above; and,
+
+-   Reset the Shadow Price Cap for each of the SCED irresolvable constraints to the minimum of E or F above for that constraint. These changes shall be become effective in January of the next year.
+
+-   Reset the Shadow Price Cap for each constraint determined to be resolvable by SCED to the appropriate generic value as defined in Section 3.5.
+
+The Independent Market Monitor (IMM) may initiate re-evaluation of the maximum Shadow Price of the constraint if it is identified that the constraint can be resolvable. This will reset the constraint net margin calculation.
+
+3.6.3 The Constraint Net Margin Calculation for Constraints that Have Met the Trigger Conditions in Section 3.6.1
+
+Each constraint that has met the trigger conditions in Section 3.6.1, Trigger for Modification of the Shadow Price Cap for a Constraint that is Consistently Irresolvable in SCED, will be assigned a unique net margin value calculated as follows:
+
+  1. The Settlement Point Price at the Resource Node for Resource D (as determined for each SCED irresolvable constraint in Section 3.6.2, Methodology for Setting the Constraint Shadow Price Cap for a Constraint that is Irresolvable by SCED) is designated to be an irresolvable constraint net margin reference Settlement Point Price. This Settlement Point Price is unique to each SCED irresolvable constraint.
+
+  2. For these, ERCOT will calculate a constraint net margin in $/MW equal to the running sum of ¼ times the Maximum of either zero or that constraint’s (net margin reference Settlement Point Price – the POC) for all Real-Time Settlement Intervals in the current calendar year during which the constraint is binding (i.e. the constraint net margin calculation starts with the first operating day in the current calendar year during which the constraint meets the trigger conditions described in Section 3.6.1).
+
+  3. The Proxy Operating Cost (POC) in $/MWh used in step 2 for each of these constraints equals 10 times the Fuel Index Price (FIP) as defined in Section 2, Definitions and Acronyms, for the Business Day previous to the current Operating Day.
+
+  4. All constraint net margin values for these constraints that will be carried to the next calendar year will be reset to zero at the start of the next calendar year and a new running sum will be calculated daily.
+
+3.7 Methodology for Setting Transmission Shadow Price Caps for an IROL in SCED
+
+Upon implementation of an Interconnection Reliability Operating Limit (IROL), the shadow price cap of an IROL shall be set by ERCOT to A, below. If ERCOT, in its sole discretion, determines that A, below, is insufficient for SCED to manage an IROL, ERCOT shall use B, below, to determine the shadow price cap:
+
+A.  The value of the Generic Transmission Shadow Price Cap for Base Case constraints, as set in subsection 3.5, Generic Values for the Transmission Network System-Wide Shadow Price Caps in SCED, above; or
+
+B.  The power balance penalty price minus the mitigated offer floor for Resource H, as determined below, divided by Resource H’s Shift Factor impact to the constraint.
+
+ERCOT shall include the shadow price cap for each IROL in the associated Generic Transmission Constraint (GTC) Methodology posted pursuant to Section 3.10.7.6, Use of Generic Transmission Constraints and Generic Transmission Limits.
+
+To determine Resource H, ERCOT shall identify all Generation Resources and Energy Storage Resource (ESRs) with positive Shift Factors not lower than 10% relative to the IROL and calculate the difference between the Seasonal net max sustainable rating (“seasonal High Sustained Limit (HSL)”) and the Seasonal net min sustainable rating (“seasonal Low Sustained Limit (LSL)”) for each Resource in effect at the time of the calculation. Starting with the Generation Resource or ESR with the highest positive Shift Factor, ERCOT will sum the differences between seasonal HSL and seasonal LSL until the sum is greater than or equal to the MW value that, if divided by 0.1 Hz, would equal the ERCOT System frequency bias (“bias MW value”). Resource H shall be the Generation Resource or ESR that results in this sum being greater than or equal to the bias MW value. If the sum of differences between the current seasonal HSL and seasonal LSL is not greater than or equal to the bias MW value, then Resource H will be the Generation Resource or ESR with the lowest positive shift factor not lower than 10%.
+
+The shadow price cap and the Resource identified as Resource H for all applicable IROLs may be updated at any time based on ERCOT’s review and shall be reviewed by ERCOT at least annually. Any updates to IROL shadow price caps will be communicated through a Market Notice at least 30 days prior to becoming effective.
+
+When the shadow price cap for an IROL is determined based on the process in B, above, then the process outlined in Section 3.6, Methodology for Setting Transmission Shadow Price Caps for Irresolvable Constraints in SCED, does not apply to the IROL.
+
+4. Power Balance Shadow Price Cap
+
+4.1 The Power Balance Penalty
+
+The Power Balance constraint is the balance between the ERCOT System Load and the amount of generation that is dispatched by SCED to meet that load. This Shadow Price for this constraint, also called System Lambda (λ), is the cost of providing one MWh of energy at the reference Electrical Bus. System Lambda, i.e. the Shadow Price for the Power Balance constraint, is equal to the change in the SCED objective function obtained by relaxing the Power Balance constraint by 1MW. The System Lambda is the energy component of LMP at each Settlement Point in ERCOT. The Power Balance Penalty sets the maximum limit for this Shadow Price, i.e. Power Balance Penalty is the maximum cost paid for one addition/less MW of generation to meet the ERCOT system load constraint. This section describes those factors that ERCOT considered in developing the amount of the Power Balance Penalty in $/MW versus the amount of the mismatch and provides the resulting Power Balance Penalty Price proposed for PUCT approval.
+
+The objective function for SCED is the sum of four components: (1) the cost of dispatching generation; (2) the cost of procuring Ancillary Services; (3) the penalty for violating Power Balance constraint; and (4) the penalty for violating network transmission constraints. SCED economically dispatches Generation Resources and Energy Storage Resources (ESRs) and procures Ancillary Services by minimizing this objective function within the Resource physical limits and transmission limits. Since the Power Balance penalty is the maximum cost for meeting the Power Balance, SCED will re-dispatch generation to meet the Power Balance if the cost of re-dispatching the generation is less than cost of violating the Power Balance. When the cost of re-dispatching the Generation Resources and ESRs becomes higher than the cost of violating the Power Balance constraint, SCED ceases the re-dispatch of the Generation Resources and ESRs and the objective function is minimized with the Power Balance penalty determined by MW amount of the Power Balance constraint violation.
+
+In the ERCOT design, SCED implements the under-generation Power Balance Penalty Price as a single value equal to the effective Value of Lost Load (VOLL) plus the effective Real-Time System-Wide Offer Cap (RTSWCAP) plus $4,052.01/MWh. This value determines the maximum System Lambda for a given amount of the Power Balance Constraint violation within the optimization. The SCED over-generation Power Balance Penalty Price is -$250/MWh.
+Appendix 1: Day-Ahead Market Optimization Control Parameters
+
+The purpose of the Day-Ahead Market (DAM) is to economically co-optimize energy and Ancillary Service by simultaneously clearing offers and bids submitted by the Market Participants to maximize social welfare while observing the transmission and Resource physical constraints. The ERCOT DAM uses a multi-hour mixed integer programming algorithm to maximize bid-based revenues minus the offer-based costs over the Operating Day, subject to transmission security and other constraints as described in Section 4, Day-Ahead Operations. The bid‑based revenues include revenues from DAM Energy Bids and Point-to-Point (PTP) Obligation bids. The Offer‑based costs include costs from the Startup Offer, Minimum-Energy Offer, and Energy Offer Curve of Resources that submitted a Three-Part Supply Offer, as well as the DAM Energy-Only Offers, Congestion Revenue Right (CRR) offers, and Ancillary Service Offers. The DAM optimization’s objective function includes components that represent the bid based revenues and offer based cost and, additionally, penalty cost values that are used to control certain non‑economic aspects of the optimization as described below. These penalty values represent costs of constraint violations and they serve two purposes: rank constraints as relative violation priorities and limit the costs of constraint limitations. The Protocols require transmission constraint limits to be satisfied in DAM and hence the transmission constraint penalty values are set to very high values to ensure that the constraints are not violated in DAM. The DAM optimization will also consider Ancillary Service Demand Curves for each Ancillary Service product.
+
+The penalty factors used in the DAM optimization’s objective function are configurable and can be set by an authorized ERCOT Operator. Table 1-1 lists the available optimization penalty cost parameters that are controllable by the ERCOT Operator. The values provided for each of these parameters may only be changed with the concurrence of the responsible ERCOT Director.
+
+TABLE 1 - 1
+
+  -----------------------------------------------------------------------------------------
+  Penalty Function & Shadow Price Cap Cost Parameters   
+  ----------------------------------------------------- -----------------------------------
+  Constraint                                            Penalty ($/MWh)
+
+  Over and Under - Generation Penalty Factors           
+
+  Over Generation                                       5,000,000.00
+
+  Under Generation                                      5,000,000.00
+
+  Network Transmission Penalty Factors                  
+
+  Base case 1-10KV                                      350,000.00
+
+  Base case 10.1-20KV                                   450,000.00
+
+  Base case 20.1-30KV                                   550,000.00
+
+  Base case 30.1-50KV                                   650,000.00
+
+  Base case 50.1-100KV                                  750,000.00
+
+  Base case 100.1-120KV                                 850,000.00
+
+  Base case 120.1-150KV                                 950,000.00
+
+  Base case 150+KV                                      1,050,000.00
+
+  Contingency 1-10KV                                    300,000.00
+
+  Contingency  10.1-20KV                                400,000.00
+
+  Contingency  20.1-30KV                                500,000.00
+
+  Contingency  30.1-50KV                                600,000.00
+
+  Contingency  50.1-100KV                               700,000.00
+
+  Contingency  100.1-120KV                              800,000.00
+
+  Contingency  120.1-150KV                              900,000.00
+
+  Contingency  150+KV                                   1,000,000.00
+
+  Non-thermal (e.g. generic constraints)                1,000,000.00
+  -----------------------------------------------------------------------------------------
+
+1.1 Over/Under – Generation Penalty Factors
+
+In the ERCOT DAM an over/under energy supply condition (referred to here as over/under generation conditions) in an Operating Hour within the Operating Day can occur as a result of a strike of energy only block offers or the inherent lumpiness of Generation Resource and Energy Storage (ESR) strikes. The values of the Over/Under Generation Penalty Factors are chosen to allow the DAM clearing engine to select offers that result in the least amount of the over/under generation over the entire Operating Day and additionally, to enforce this constraint at the highest rank order relative to all other constraints. Additionally, the values of the Over/Under Generation Penalty Factors used in the DAM are considerably higher than the Power Balance Penalty Factor used in the SCED since DAM is a unit commitment problem and for it to clear reasonable offers and bids, the value of these penalty factors need to be high enough to reflect the start up and minimum generation cost of the committed resources. SCED, on the other hand, is an economic dispatch problem and hence for it to dispatch reasonable offers, the Power Balance Penalty Factor need only be in the order of the energy offer cost.
+
+1.2 Network Transmission Penalty Factors
+
+The DAM Clearing Engine includes the Network Security Monitor (NSM) application and Network Constrained Unit Commitment (NCUC) application. These applications execute in a loop beginning with a NSM execution followed by a NCUC execution until a secure commitment pattern that maximizes the objective function is achieved (i.e. NSM begins with an estimated initial unit commitment and uses, thereafter, the latest NCUC commitment). The value of the Network Transmission Penalty Factors for each specified voltage level are used in NCUC application to set the rank order for relaxing the base case constraints and the security constrained network transmission constraints by voltage level and to set the rank order for the enforcement of the Network Transmission Constraints relative to the Power Balance constraint. The increasing value of the Network Transmission Penalty Factors for increasing voltage levels assures that base case and security constraint violations are relaxed progressively in the NSM and NCUC applications in order of voltage level, from lowest to highest. This assures that the DAM solution will honor network transmission constraints in the rank order from the 345 kV to the 69 kV voltage level. Additionally, these penalty factors are chosen such that, in each voltage range, the base case violations have a slightly higher penalty factor than the security constrained penalty factors. This assigns a higher priority in the NSM and NCUC to a network transmission base case violation compared to a network transmission security constrained violation. In other words, within the same voltage level, the security constraints are relaxed before the base case constraints. Finally, the Non-thermal (generic constraint) Penalty Factor assigns these constraints the same priority level in the optimization as the 345 kV security constraints making both less than the 345 kV base case constraints.
+
+The values of the Network Transmission Penalty Factors chosen to enforce the Network Transmission Constraints are considerably higher in DAM when compared to the SCED (Network Transmission Shadow Price Caps) since the DAM is a unit commitment problem and for it to clear reasonable offers and bids, the Network Transmission Penalty Factors need to represent the higher costs associated with a unit start up and generation at minimum energy. The SCED is an economic dispatch problem and hence for it to dispatch reasonable offers; the penalties need only be in the order of energy offer cost.
+
+[1] A distributed load reference bus is assumed in this attachent, and all shift factor values refer to the flow on a constraint (either pre- or post-contingency) assuming an injection at the location in question
+
+and a withdrawal at the reference bus.

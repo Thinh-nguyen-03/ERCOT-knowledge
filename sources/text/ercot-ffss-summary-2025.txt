@@ -1,0 +1,18 @@
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                      Firm Fuel Supply Service Procurement Summary                                                                                                                   
+  --------------------------------------------------- ---------------------------------------------- -------------------------- --------------------------------------------------- -------------------------------- ------------
+                                                                                                                                                                                                                     
+
+  November 15, 2025 - March 15, 2026                                                                                                                                                                                 
+
+  Total Number of Generation Resources Offered: 32                                                                              Total Number of Generation Resources Procured: 32                                    
+
+  Standby Offered Price                               $12,240.00                                     Standby Offered Price      $4,102.38                                           Standby Offered Price            $12,240.00
+  (Cleared, $/MW):                                                                                   (Lowest Received, $/MW):                                                       (Highest Received, $/MW):        
+
+  Number of QSEs Offering: 6                                                                         MW Procured: 4250.4*                                                           Projected Cost: $52,076,304.00   
+
+  Reserve Fuel Types: Fuel Oil (31) Natural Gas (1)                                                                                                                                                                  
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*Total FFSS megawatts procured updated January 10, 2026, based on decertification and subsequent recertification of certain FFSS Resources during the FFSS obligation period.

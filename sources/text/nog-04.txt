@@ -1,0 +1,838 @@
+ERCOT Nodal Operating Guides
+
+Section 4: Emergency Operation
+
+December 5, 2025
+
+4 EMERGENCY OPERATIONS 4-2
+
+4.1 Introduction 4-2
+
+4.2 Communication Prior to and During Emergency Conditions 4-2
+
+4.2.1 Operating Condition Notice 4-2
+
+4.2.2 Advisory 4-3
+
+4.2.3 Watch 4-4
+
+4.2.4 Emergency Notice 4-5
+
+4.3 Operation to Maintain Transmission System Security 4-5
+
+4.3.1 Real-Time and Short Term Planning 4-6
+
+4.4 Block Load Transfers between ERCOT and Non-ERCOT System 4-6
+
+4.5 Energy Emergency Alert (EEA) 4-6
+
+4.5.1 General 4-6
+
+4.5.2 Operating Procedures 4-7
+
+4.5.3 Implementation 4-9
+
+4.5.3.1 General Procedures Prior to EEA Operations 4-11
+
+4.5.3.2 General Procedures During EEA Operations 4-15
+
+4.5.3.3 EEA Levels 4-17
+
+4.5.3.4 Load Shed Obligation 4-21
+
+4.5.3.5 EEA Termination 4-23
+
+4.6 Black Start Service 4-24
+
+4.6.1 Principles 4-24
+
+4.6.2 Strategies 4-25
+
+4.6.3 Priorities 4-25
+
+4.6.4 Responsibilities 4-26
+
+4.6.5 Black Start Emergency Back Up Communication Facilities Criteria 4-30
+
+4.7 Geomagnetic Disturbance Operating Plan 4-30
+
+4.7.1 Monitoring and Dissemination of Space Weather Information 4-30
+
+4.7.2 Development and Submission of TO GMD Operating Procedures or Processes 4-30
+
+4.7.3 ERCOT’s GMD Operating Plan and ERCOT Review of TO GMD Operating Procedures or Processes 4-31
+
+4.8 Responsive Reserve Service and ERCOT Contingency Reserve Service During Scarcity Conditions 4-32
+
+4.8.1 Responsive Reserve Service and ERCOT Contingency Reserve Service Manual Recall 4-32
+
+EMERGENCY OPERATIONS
+
+4.1 Introduction
+
+(1) Emergency operation is intended to address operating conditions under which the reliability of the ERCOT System is inadequate and there is no solution readily apparent. During a declared system emergency, ERCOT can instruct Transmission Operators (TOs) and Qualified Scheduling Entities (QSEs) to take specific operating actions that would otherwise be discretionary. Upon receiving a Verbal Dispatch Instruction (VDI) from ERCOT, and in compliance with these Operating Guides, the QSEs shall direct relevant Resources or groups of Resources to respond to the instruction. ERCOT shall coordinate with QSEs and TOs to assure that necessary actions are taken to maintain reliability.
+
+(2) It is essential that good, timely, and accurate communication routinely occur between ERCOT, TOs, and QSEs. QSE and TO personnel shall report unplanned equipment status changes as outlined in this Section. ERCOT System Operators may ask for status updates as required in order to gather information to make decisions on system conditions to determine what type of emergency communication may be appropriate.
+
+(3) ERCOT may issue communications in the form of Operating Condition Notices (OCNs), Advisories, Watches and Emergency Notices. These communications may relate to but are not limited to, weather, transmission, computer failure, or generation information. ERCOT shall specify the severity of the situation, the area affected, the areas potentially affected, and the anticipated duration of the Emergency Condition. These communications will be issued by ERCOT to inform all TOs and QSEs of the current operating situation. TOs will notify their represented Transmission Service Providers (TSPs) and Load Serving Entities (LSEs). QSEs will in turn notify the appropriate Resources, Retail Electric Providers (REPs) and LSEs. QSEs and TOs shall establish and maintain internal procedures for contingency preparedness or to expedite the resolution of the conditions communicated by ERCOT that threaten system reliability.
+
+(4) Before deciding which communication to issue, ERCOT must consider the possible severity of the operating situation before an Emergency Condition occurs. If practicable, the market shall be allowed to attempt to mitigate or eliminate any possible Emergency Condition. ERCOT has the responsibility to issue the appropriate communications to facilitate a solution by Market Participants.
+
+4.2 Communication Prior to and During Emergency Conditions
+
+4.2.1 Operating Condition Notice
+
+(1) An Operating Condition Notice (OCN) shall be issued by ERCOT in accordance with Protocol Section 6.5.9.3.1, Operating Condition Notice. OCNs are for communication purposes only.
+
+(2) ERCOT may require information from Qualified Scheduling Entities (QSEs) and Transmission Operators (TOs). Typical information requested may include, but is not limited to:
+
+  (a) Resource fuel capabilities;
+
+  (b) Resource condition details; and
+
+  (c) Actual weather conditions.
+
+(3) ERCOT will provide verbal notice of an OCN to TOs and QSEs representing Resources through the TO and QSE Hotlines and post the message electronically to the ERCOT website. When an OCN is issued, it does not place ERCOT in an Emergency Condition. QSEs should notify, as appropriate, their represented QSEs, Resources, Retail Electric Providers (REPs) and Load Serving Entities (LSEs) of OCNs. TOs should notify, as appropriate, their represented Transmission Service Providers (TSPs) and Distribution Service Providers (DSPs) of OCNs.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR177: Replace paragraph (3) above with the following upon system implementation of NPRR857:]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| (3) ERCOT will provide verbal notice of an OCN to TOs and QSEs representing Resources through the TO and QSE Hotlines and post the message electronically to the ERCOT website. When an OCN is issued, it does not place ERCOT in an Emergency Condition. QSEs should notify, as appropriate, their represented QSEs, Resources, Retail Electric Providers (REPs) and Load Serving Entities (LSEs) of OCNs. TOs should notify, as appropriate, their represented Transmission Service Providers (TSPs), Distribution Service Providers (DSPs) and Direct Current Tie Operators (DCTOs) of OCNs. |
++=================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+4.2.2 Advisory
+
+(1) An Advisory will be issued by ERCOT in accordance with Protocol Section 6.5.9.3.2, Advisory, when it recognizes that conditions are developing or have changed such that QSE and/or TO actions may be prudent in anticipation of possible Emergency Conditions.
+
+(2) ERCOT may require information from QSEs and TOs. Typical information requested may include, but is not limited to:
+
+  (a) Resource fuel capabilities;
+
+  (b) Resource condition details; and
+
+  (c) Actual weather conditions.
+
+(3) ERCOT shall provide verbal notice of an Advisory to TOs and QSEs representing Resources through the TO and QSE Hotlines and shall post the message electronically to the ERCOT website. When an Advisory is issued, it does not place ERCOT in an Emergency Condition. QSEs shall notify, as appropriate, their represented QSEs, Resources, REPs and LSEs of Advisories. TOs should notify, as appropriate, their represented TSPs and DSPs of Advisories.
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR177: Replace paragraph (3) above with the following upon system implementation of NPRR857:]                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| (3) ERCOT shall provide verbal notice of an Advisory to TOs and QSEs representing Resources through the TO and QSE Hotlines and shall post the message electronically to the ERCOT website. When an Advisory is issued, it does not place ERCOT in an Emergency Condition. QSEs shall notify, as appropriate, their represented QSEs, Resources, REPs, and LSEs of Advisories. TOs should notify, as appropriate, their represented TSPs, DSPs and/or DCTOs of Advisories. |
++============================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+4.2.3 Watch
+
+(1) A Watch may be issued by ERCOT in accordance with Protocol Section 6.5.9.3.3, Watch, when it recognizes that conditions have developed such that an Emergency Condition may be imminent.
+
+(2) ERCOT may require information from QSEs and TOs. Typical information requested may include, but is not limited to:
+
+  (a) Resource fuel capabilities;
+
+  (b) Resource condition details; and
+
+  (c) Actual weather conditions.
+
+(3) When a post-contingency overload of an element cannot be rectified, including through the use of CMPs, ERCOT shall issue a Watch.
+
+(4) ERCOT shall provide verbal notice of the Watch to TOs and QSEs representing Resources through the TO and QSE Hotlines and shall post the message electronically to the ERCOT website. When a Watch is issued, it does not place ERCOT in an Emergency Condition. QSEs shall notify, as appropriate, their represented QSEs, Resources, REPs and LSEs of Watches. TOs shall notify, as appropriate, their represented TSPs and DSPs of Watches.
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR177: Replace paragraph (4) above with the following upon system implementation of NPRR857:]                                                                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| (4) ERCOT shall provide verbal notice of the Watch to TOs and QSEs representing Resources through the TO and QSE Hotlines and shall post the message electronically to the ERCOT website. When a Watch is issued, it does not place ERCOT in an Emergency Condition. QSEs shall notify, as appropriate, their represented QSEs, Resources, REPs, and LSEs of Watches. TOs shall notify, as appropriate, their represented TSPs, DSPs and/or DCTOs of Watches. |
++===============================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+4.2.4 Emergency Notice
+
+(1) An Emergency Notice will be issued by ERCOT in accordance with Protocol Section 6.5.9.3.4, Emergency Notice, when ERCOT is operating in an Emergency Condition. This includes when ERCOT is considered to be in an insecure state when ERCOT Transmission Grid status is such that a Credible Single Contingency event presents the threat of uncontrolled separation of cascading Outages and/or large-scale service disruption to Load (other than Load being served from a single-feed transmission service) and/or overload of a Transmission Facility, and no timely solution is obtainable from the market.
+
+(2) ERCOT shall provide verbal notice of an Emergency Notice to TOs and QSEs representing Resources through the TO and QSE Hotlines and shall post the message electronically to the ERCOT website.
+
+(3) When an Emergency Notice is issued, ERCOT is operating in an Emergency Condition. QSEs shall notify their represented QSEs, Resources, REPs and LSEs as appropriate of Emergency Notices. TOs shall notify their represented TSPs, DSPs and LSEs as appropriate of Emergency Notices.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR177: Replace paragraph (3) above with the following upon system implementation of NPRR857:]                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                       |
+| (3) When an Emergency Notice is issued, ERCOT is operating in an Emergency Condition. QSEs shall notify, as appropriate, their represented QSEs, Resources, REPs and LSEs of Emergency Notices. TOs shall notify, as appropriate, their represented TSPs, DSPs, DCTOs, and LSEs of Emergency Notices. |
++=======================================================================================================================================================================================================================================================================================================+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+4.3 Operation to Maintain Transmission System Security
+
+(1) ERCOT shall continue to operate according to Security Criteria outlined in Section 2.2.2, Security Criteria, unless an Emergency Condition has been declared by ERCOT.
+
+(2) Transmission Overload – ERCOT can:
+
+  (a) Order adjustment to unit generation schedules, switching of Transmission Elements or Load interruption to relieve the overloaded Transmission Element;
+
+  (b) Order a Transmission Element whose loss would not have a significant impact on the reliability of transmission system switched out to increase interconnected system transfers.
+
+(3) Violation of security criteria – ERCOT can order changes to unit dispatch or commitment to eliminate or avoid a security criteria violation. Normally these changes should be performed through market control mechanisms including Security-Constrained Economic Dispatch (SCED) or Reliability Unit Commitment (RUC) as described in the Protocols, but if an ERCOT Operator finds these mechanisms insufficient to resolve the violation, the ERCOT Operator may require any other action necessary to address the violation.
+
+(4) Partial Blackout or Blackout – ERCOT shall implement Black Start procedures.
+
+4.3.1 Real-Time and Short Term Planning
+
+(1) ERCOT will conduct Real-Time and short term planning based on the security criteria established in these Operating Guides. Operations during Forced and Planned Outages will also follow these criteria. Line Ratings are provided to ERCOT in accordance with Protocols and these Operating Guides. ERCOT will employ Constraint Management Plans (CMPs) and use of Remedial Action Schemes (RASs) to facilitate the use of the ERCOT Transmission Grid while maintaining system security and reliability in accordance with the Protocols, these Operating Guides, and applicable North American Electric Reliability Corporation (NERC) Reliability Standards. ERCOT will address operating conditions under which the reliability of the ERCOT System is inadequate and no solution is readily apparent in accordance with the Protocols and these Operating Guides. 
+
+4.4 Block Load Transfers between ERCOT and Non-ERCOT System
+
+(1) Under Watch, Energy Emergency Alert (EEA) conditions, or for local transmission constraints, it may become necessary to implement Block Load Transfer (BLT) schemes which will transfer Loads normally located in ERCOT to a non-ERCOT System. Similarly, when a non-ERCOT System experiences certain transmission contingency or short supply conditions, ERCOT may be requested to transfer Loads normally located in the non-ERCOT System to ERCOT. All BLTs must comply with Protocol Section 6.5.9.5, Block Load Transfers between ERCOT and Non-ERCOT Control Areas.
+
+4.5 Energy Emergency Alert (EEA)
+
+4.5.1 General
+
+(1) At times it may be necessary to reduce ERCOT System demand because of a temporary decrease in available electricity supply. The reduction in supply could be caused by emergency Outages of generators, transmission equipment, or other critical facilities; by short-term unavailability of fuel or generation; or by requirements or orders of government agencies. To provide an orderly, predetermined procedures for curtailing Demand during such emergencies, ERCOT shall initiate and coordinate the implementation of the Energy Emergency Alert (EEA) in accordance with Protocol Section 6.5.9.4, Energy Emergency Alert.
+
+(2) The goal of the EEA is to provide for maximum possible continuity of service while maintaining the integrity of the ERCOT System to reduce the chance of cascading outages.
+
+4.5.2 Operating Procedures
+
+(1) The ERCOT System Operators have the authority to make and carry through decisions that are required to operate the ERCOT System during emergency or adverse conditions. ERCOT will have sufficiently detailed operating procedures for emergency or short supply situations and for restoration of service in the event of a Partial Blackout or Blackout. These procedures will be distributed to the personnel responsible for performing specified tasks to handle emergencies, remedy short supply situations, or restore service. Transmission Service Providers (TSPs) will develop procedures to be filed with ERCOT describing implementation of ERCOT requests in emergency and short supply situations, including interrupting Load, notifying others and restoration of service.
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR177: Replace paragraph (1) above with the following upon system implementation of NPRR857:]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| (1) The ERCOT System Operators have the authority to make and carry through decisions that are required to operate the ERCOT System during emergency or adverse conditions. ERCOT will have sufficiently detailed operating procedures for emergency or short supply situations and for restoration of service in the event of a Partial Blackout or Blackout. These procedures will be distributed to the personnel responsible for performing specified tasks to handle emergencies, remedy short supply situations, or restore service. Transmission Service Providers (TSPs) and Direct Current Tie Operators (DCTOs) will develop procedures to be filed with ERCOT describing implementation of ERCOT requests in emergency and short supply situations, including interrupting Load, notifying others and restoration of service. |
++==========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(2) ERCOT and each TSP will endeavor to maintain transmission ties intact if at all possible. This will:
+
+  (a) Permit rendering the maximum assistance to an area experiencing a deficiency in generation;
+
+  (b) Minimize the possibility of cascading loss to other parts of the system; and
+
+  (c) Assist in restoring operation to normal.
+
++------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR177: Replace paragraph (2) above with the following upon system implementation of NPRR857:]                            |
+|                                                                                                                              |
+| (2) ERCOT and Transmission Operators (TOs) will endeavor to maintain transmission ties intact if at all possible. This will: |
+|                                                                                                                              |
+|   (a) Permit rendering the maximum assistance to an area experiencing a deficiency in generation;                            |
+|                                                                                                                              |
+|   (b) Minimize the possibility of cascading loss to other parts of the system; and                                           |
+|                                                                                                                              |
+|   (c) Assist in restoring operation to normal.                                                                               |
++==============================================================================================================================+
++------------------------------------------------------------------------------------------------------------------------------+
+
+(3) ERCOT's operating procedures will meet the following goals while continuing to respect the confidentiality of market sensitive data. If all goals cannot be respected simultaneously then the priority order listed below shall be respected:
+
+  (a) Maintain station service for nuclear generating facilities;
+
+  (b) Securing startup power for power generating plants;
+
+  (c) Operating generating plants isolated from ERCOT without communication;
+
+  (d) Restoration of service to critical Loads such as:
+
+  (i) Military facilities;
+
+  (ii) Facilities necessary to restore the electric utility system;
+
+  (iii) Law enforcement organizations and facilities affecting public health; and
+
+  (iv) Communication facilities.
+
+  (e) Maximum utilization of ERCOT System capability;
+
+  (f) Utilization of Ancillary Services to the extent permitted by ERCOT System conditions;
+
+  (g) Utilization of the market to the fullest extent practicable without jeopardizing the reliability of the ERCOT System;
+
+  (h) Restoration of service to all Customers following major system disturbances, giving priority to the larger group of Customers; and
+
+(i) Management of Interconnection Reliability Operating Limits (IROLs) shall not change.
+
+4.5.3 Implementation
+
+(1) ERCOT shall be responsible for monitoring system conditions, initiating the EEA levels below, notifying all Qualified Scheduling Entities (QSEs) representing Resources and Transmission Operators (TOs), and coordinating the implementation of the EEA conditions while maintaining transmission security limits. QSEs and TOs will notify all the Market Participants they represent of each declared EEA level.
+
+(2) During the EEA, ERCOT has the authority to obtain energy from non-ERCOT Control Areas using Direct Current Tie(s) (DC Tie(s)) or by using Block Load Transfers (BLTs) to move load to non-ERCOT Control Areas. ERCOT maintains the authority to curtail energy schedules flowing into or out of the ERCOT System across the DC Ties in accordance with North American Electric Reliability Corporation (NERC) scheduling guidelines.
+
+(3) ERCOT, at management’s discretion, may at any time issue an ERCOT-wide appeal through the public news media for voluntary energy conservation.
+
+(4) There may be insufficient time to implement all levels in sequence. ERCOT may immediately implement EEA Level 2 when clock-minute average system frequency falls below 59.91 Hz for 15 consecutive minutes. ERCOT may immediately implement Level 3 of the EEA any time the clock-minute average system frequency falls below 59.91 Hz for 20 consecutive minutes or when steady-state frequency falls below 59.8 Hz for any duration of time. ERCOT shall immediately implement Level 3 any time the steady-state frequency is below 59.5 Hz for any duration.
+
+(5) Percentages for Level 3 Load shedding will be based on the previous year’s TSP peak Loads, as reported to ERCOT, and will be reviewed by ERCOT and modified annually.
+
+(6) The ERCOT System Operator shall declare the EEA levels to be taken by QSEs and TSPs. QSEs and TSPs shall implement actions under that level (and all above if not previously accomplished) and if ordered by the ERCOT shift supervisor or his designate, shall report back to the ERCOT System Operator when the requested level has been completed.
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR177: Replace paragraph (6) above with the following upon system implementation of NPRR857:]                                                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                                                           |
+| (6) The ERCOT System Operator shall declare the EEA levels to be taken by QSEs, TSPs, and DCTOs. QSEs, TSPs, and DCTOs shall implement actions under that level (and all above if not previously accomplished) and if ordered by the ERCOT shift supervisor or his designate, shall report back to the ERCOT System Operator when the requested level has been completed. |
++===========================================================================================================================================================================================================================================================================================================================================================================+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(7) During EEA Level 3, ERCOT must be capable of manually shedding sufficient firm Load to arrest frequency decay and to prevent tripping of generators. The amount of manual firm Load to be shed may vary depending on ERCOT Transmission Grid conditions during the event. Each TSP will be capable of manually shedding its allocation of firm Load, without delay. The maximum time for the TSP to interrupt firm Load will depend on how much Load is to be shed and whether the Load is to be interrupted by Supervisory Control and Data Acquisition (SCADA) or other, non-SCADA-controlled methods. Since the need for firm Load shed is immediate, interruption by SCADA is preferred. Each TO, TSP, and Transmission and/or Distribution Service Provider (TDSP) and their designated agents will comply with the following requirements when implementing an ERCOT instruction to shed firm Load:
+
+(a) Load interrupted manually by SCADA will be shed without delay upon receipt of a Load shed instruction and in a time period not to exceed 30 minutes after receipt of the Load shed instruction for each Entity’s portion of every Load shed instruction. SCADA-controlled Load shed is preferred to be utilized by the TO and/or TDSP(s) before non-SCADA-controlled Load shed when executing a Load shed instruction;
+
+(b) If sufficient amounts of SCADA-controlled Load are not available to fulfill an Entity’s manual Load shed instruction, the TO and/or TDSP(s) shall complete, if applicable, the remaining manual Load shed through non-SCADA-controlled Load shed methods without delay upon receipt of a Load shed instruction and in a time period not to exceed one hour after receipt of the Load shed instruction. A TO shall notify ERCOT if its SCADA-controlled Load shed capabilities have been exhausted; and
+
+(c) If determined appropriate by the TO and as soon as practicable, the TO and/or TDSP(s) should restore SCADA-controlled Load by shedding non-SCADA-controlled Load not shed in paragraph (b) above, in an effort to make SCADA-controlled Load available for a potential subsequent Load shed instruction.
+
+(8) Each TSP, or its designated agent, will provide ERCOT a status report of Load shed progress within 30 minutes of the time of ERCOT’s instruction or upon ERCOT’s request.
+
+(9) During EEA Level 2 or 3, for those constraints that meet the criteria identified in paragraph (3)(a) of Section 4.5.3.1, General Procedures Prior to EEA Operations, ERCOT may control the post-contingency flow to within the 15-Minute Rating in Security-Constrained Economic Dispatch (SCED). After Physical Responsive Capability (PRC) is restored to at least 3,000 MW or the Emergency Condition has ended, whichever is later, and ERCOT has determined that system conditions have improved such that the chance of re-entering into an EEA Level 2 or 3 is low, ERCOT shall restore control to the post-contingency flow to within the Emergency Rating for these constraints that utilized the 15-Minute Rating in SCED.
+
+(10) During EEA Level 2 or 3, for those constraints that meet the criteria identified in paragraph (3)(b) of Section 4.5.3.1, ERCOT shall continue to enforce constraints associated with double-circuit contingencies throughout an EEA if the double-circuit failures are determined to be at high risk of occurring, due to system conditions. For all other double-circuit contingencies identified in paragraph (3)(b) of Section 4.5.3.1, ERCOT will enforce only the associated single-circuit contingencies during EEA Level 2 or 3. ERCOT shall resume enforcing such constraints as a double-circuit contingency after PRC is restored to at least 3,000 MW or the Emergency Condition has ended, whichever is later, and ERCOT has determined that system conditions have improved such that the chance of re-entering into an EEA Level 2 or 3 is low. For constraints related to stability limits that are not IROLs, ERCOT may elect not to enforce double-circuit contingencies during EEA Level 3 only.
+
+4.5.3.1 General Procedures Prior to EEA Operations 
+
+(1) Prior to declaring EEA Level 1 detailed in Section 4.5.3.3, EEA Levels, ERCOT may perform the following operations consistent with Good Utility Practice:
+
+  (a) Provide Dispatch Instructions to QSEs for specific Resources to operate at an Emergency Base Point to maximize Resource deployment so as to increase Responsive Reserve (RRS) levels on other Resources;
+
+  (b) Commit specific available Resources as necessary that can respond in the timeframe of the emergency. Such commitments will be settled using the Hourly Reliability Unit Commitment (HRUC) process;
+
+  (c) Start Reliability Must-Run (RMR) Units available in the time frame of the emergency. RMR Units should be loaded to full capability;
+
+  (d) Utilize available Resources providing RRS, ERCOT Contingency Reserve Service (ECRS), and Non-Spinning Reserve (Non-Spin) services as required;
+
+  (e) Instruct TSPs and Distribution Service Providers (DSPs) or their agents to reduce Customer Load by using existing, in-service distribution voltage reduction measures if ERCOT determines that the implementation of these measures could help avoid entering into EEA and ERCOT does not expect to need to use these measures to reduce the amount of Load shedding that may be needed in EEA Level 3. A TSP, DSP, or their agent shall implement these instructions if distribution voltage reduction measures are available and already installed. If the TSP, DSP, or their agent determines in their sole discretion that the distribution voltage reduction would adversely affect reliability, the voltage reduction measure may be reduced, modified, or otherwise changed from maximum performance to a level of exercise that has no negative impact to reliability; and
+
+  (f) ERCOT shall use the PRC and system frequency to determine the appropriate Emergency Notice and EEA levels.
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR265: Insert paragraph (2) below upon system implementation of NPRR1238 and renumber accordingly:]                                                                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| (2) When PRC falls below 3,100 MW and is not projected to be recovered above 3,100 MW within 30 minutes following the deployment of Non-Spin, ERCOT may deploy some or all Voluntary Early Curtailment Loads (VECLs) via an Extensible Markup Language (XML) message, as described in Section 4.5.3.4, Qualified Scheduling Entity VECL Load Reduction Obligation, in order to maintain or restore 3,100 MW of PRC to the greatest extent possible. |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|   (a) VECLs may be deployed and at any time in a Settlement Interval at the discretion of ERCOT operators.                                                                                                                                                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|   (b) Upon deployment of any amount of VECLs, ERCOT shall notify all Market Participants via an operations message that such deployment has been made and shall specify the MW capacity of VECL deployed.                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|   (c) ERCOT shall notify QSEs of the VECLs deployment via an XML message. The deployment time within the ERCOT XML deployment message shall initiate the VECL deployment and the VECL ramp period.                                                                                                                                                                                                                                                  |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|   (d) Upon receipt of a VECL deployment, QSEs shall instruct their VECLs to reduce consumption without delay in a time period not to exceed 30 minutes from the start of the VECL ramp period, and the deployed VECLs shall comply with those instructions.                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|   (e) If a VECL fails to comply with a deployment instruction, ERCOT may instruct the applicable TO to remotely disconnect the VECL. If a VECL that fails to comply with a deployment instruction is co-located with an ERCOT Resource, ERCOT may instruct the Customer’s QSE to remotely disconnect the VECL, in which case the QSE shall ensure that the VECL is promptly disconnected from the ERCOT System.                                     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|   (f) ERCOT shall notify QSEs of the termination of the VECLs deployment via an XML recall message. The ERCOT XML recall message shall represent the official notice of the VECLs recall.                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|   (i) If ERCOT has instructed the interconnecting TO to disconnect a VECL for failure to comply with a deployment instruction, ERCOT will also notify the TO once the VECL deployment has been terminated, so that the VECL can be reconnected.                                                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|   (g) Upon termination of the VECLs deployment, any VECL shall not increase consumption at a rate exceeding 20% per minute.                                                                                                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|   (h) Upon termination of VECLs deployment, ERCOT shall notify all Market Participants via an operations message that such deployment has been terminated and shall specify the MW capacity of VECLs recalled.                                                                                                                                                                                                                                      |
++=====================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(2) When PRC falls below 3,000 MW and is not projected to be recovered above 3,000 MW within 30 minutes following the deployment of Non-Spin, ERCOT may deploy available contracted Emergency Response Service (ERS)-10 and ERS-30 via an Extensible Markup Language (XML) message. The deployment time within the ERCOT XML deployment message shall represent the beginning of the ERS-10 and ERS-30 ramp periods.
+
+  (a) ERS-10 and ERS-30 may be deployed at any time in a Settlement Interval. ERS-10 and ERS-30 may be deployed either simultaneously or separately, and in any order, at the discretion of ERCOT operators.
+
+  (b) Upon deployment, QSEs shall instruct their ERS Resources in ERS-10 and ERS-30 to perform at contracted levels consistent with the criteria described in Section 8.1.3.1.4, Event Performance Criteria for Emergency Response Service Resources, until either ERCOT recalls the ERS-10 and ERS-30 deployment or the ERS-10 and ERS-30 Resources have reached their maximum deployment time.
+
+  (c) ERCOT shall notify QSEs of the recall of ERS-10 and ERS-30 via an XML message. The recall time within the ERCOT XML message shall represent the official notice of ERS-10 and ERS-30 recall.
+
+  (d) Upon recall, an ERS Resource shall return to a condition such that it is capable of meeting its ERS performance requirements as soon as practical, but no later than ten hours following the recall.
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR265: Replace paragraph (2) above with the following upon system implementation of NPRR1238:]                                                                                                                                                                                                                                                                                                   |
+|                                                                                                                                                                                                                                                                                                                                                                                                      |
+| (3) When PRC falls below 3,000 MW and is not projected to be recovered above 3,000 MW within 30 minutes following the deployment of Non-Spin and all VECL, ERCOT may deploy available contracted Emergency Response Service (ERS)-10 and ERS-30 via an XML message. The deployment time within the ERCOT XML deployment message shall represent the beginning of the ERS-10 and ERS-30 ramp periods. |
+|                                                                                                                                                                                                                                                                                                                                                                                                      |
+|   (a) ERS-10 and ERS-30 may be deployed at any time in a Settlement Interval. ERS-10 and ERS-30 may be deployed either simultaneously or separately, and in any order, at the discretion of ERCOT operators.                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                                                                                      |
+|   (b) Upon deployment, QSEs shall instruct their ERS Resources in ERS-10 and ERS-30 to perform at contracted levels consistent with the criteria described in Section 8.1.3.1.4, Event Performance Criteria for Emergency Response Service Resources, until either ERCOT recalls the ERS-10 and ERS-30 deployment or the ERS-10 and ERS-30 Resources have reached their maximum deployment time.     |
+|                                                                                                                                                                                                                                                                                                                                                                                                      |
+|   (c) ERCOT shall notify QSEs of the recall of ERS-10 and ERS-30 via an XML message. The recall time within the ERCOT XML message shall represent the official notice of ERS-10 and ERS-30 recall.                                                                                                                                                                                                   |
+|                                                                                                                                                                                                                                                                                                                                                                                                      |
+|   (d) Upon recall, an ERS Resource shall return to a condition such that it is capable of meeting its ERS performance requirements as soon as practical, but no later than ten hours following the recall.                                                                                                                                                                                           |
++======================================================================================================================================================================================================================================================================================================================================================================================================+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(3) When a Watch is issued for PRC below 3,000 MW and ERCOT expects system conditions to deteriorate to the extent that an EEA Level 2 or 3 may be experienced, ERCOT shall evaluate constraints active in SCED and determine which constraints have the potential to limit generation output.
+
+  (a) Upon identification of such constraints, ERCOT shall coordinate with the TSPs that own or operate the overloaded Transmission Facilities associated with those constraints, as well as the Resource Entities whose generation output may be limited, to determine whether:
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR177: Replace paragraph (a) above with the following upon system implementation of NPRR857:]                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                            |
+|   (a) Upon identification of such constraints, ERCOT shall coordinate with the TSPs and DCTOs that own or operate the overloaded Transmission Facilities associated with those constraints, as well as the Resource Entities whose generation output may be limited, to determine whether: |
++============================================================================================================================================================================================================================================================================================+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+  (i) A 15-Minute Rating is available that allows for additional transmission capacity for use in congestion management, if an EEA Level 2 or 3 is declared, and post-contingency actions can be taken within 15 minutes to return the flow to within the Emergency Rating. Such actions may include, but are not limited to, reducing the generation that increased output as a result of enforcing the 15-Minute Rating rather than the Emergency Rating;
+
+  (ii) Post-contingency loading of the Transmission Facilities is expected to be at or below Normal Rating within two hours; or
+
+  (iii) Additional transmission capacity could allow for additional output from a limited Generation Resource by taking one of the following actions:
+
+(A) Restoring Transmission Elements that are out of service;
+
+(B) Reconfiguring the transmission system; or
+
+(C) Making adjustments to phase angle regulator tap positions.
+
+  If ERCOT determines that one of the above-mentioned actions allows for additional output from a limited Generation Resource, ERCOT may instruct the TSPs to take the action(s) during the Advisory to allow for additional output from the limited Generation Resource.
+
+  (b) ERCOT shall also coordinate with TSPs who own and operate the Transmission Facilities associated with the double-circuit contingencies for the constraints identified above to determine whether the double-circuit failures are at a high risk of occurring due to system conditions, which may include: severe weather conditions forecasted by ERCOT in the vicinity of the double-circuit, weather conditions that indicate a high risk of insulator flashover on the double-circuit, repeated Forced Outages of the individual circuits that are part of the double-circuit in the preceding 48 hours, or fire in progress in the right of way of the double-circuit.
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR177: Replace paragraph (b) above with the following upon system implementation of NPRR857:]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|   (b) ERCOT shall also coordinate with TSPs and DCTOs who own and operate the Transmission Facilities associated with the double-circuit contingencies for the constraints identified above to determine whether the double-circuit failures are at a high risk of occurring due to system conditions, which may include: severe weather conditions forecasted by ERCOT in the vicinity of the double-circuit, weather conditions that indicate a high risk of insulator flashover on the double-circuit, repeated Forced Outages of the individual circuits that are part of the double-circuit in the preceding 48 hours, or fire in progress in the right of way of the double-circuit. |
++============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+  (c) The actions detailed in this Section shall be supplemental to the development and maintenance of Constraint Management Plans (CMPs) as otherwise directed by the Protocols or Operating Guides.
+
+(4) When a Watch is issued for PRC below 3,000 MW, QSEs shall suspend any ongoing ERCOT-required Resource performance testing.
+
+4.5.3.2 General Procedures During EEA Operations
+
+(1) ERCOT Control Area authority will re-emphasize the following operational practices during EEA operations to minimize non-performance issues that may result from the pressures of the emergency situation.
+
+  (a) ERCOT shall suspend Ancillary Service obligations that it deems to be contrary to reliability needs;
+
+  (b) ERCOT shall notify each QSE representing Resources and TO via ERCOT QSE and TO Hotlines of each declared EEA level and shall post the declared EEA level electronically to the ERCOT website;
+
+  (c) QSEs and TOs shall notify each represented Market Participant of declared EEA level;
+
+  (d) ERCOT, QSEs and TSPs shall continue to respect confidential market sensitive data;
+
++---------------------------------------------------------------------------------------------------+
+| [NOGRR177: Replace paragraph (d) above with the following upon system implementation of NPRR857:] |
+|                                                                                                   |
+|   (d) ERCOT, QSEs, TSPs, and DCTOs shall continue to respect confidential market sensitive data;  |
++===================================================================================================+
++---------------------------------------------------------------------------------------------------+
+
+  (e) QSEs shall update Current Operating Plans (COPs) to limit or remove capacity when unexpected start-up delays occur or when ramp limitations are encountered;
+
+  (f) QSEs shall report when On-Line or available capacity is at risk due to adverse circumstances;
+
+  (g) QSEs, TSPs, and all other Entities must not suspend efforts toward expeditious compliance with the applicable EEA level declared by ERCOT nor initiate any reversals of required actions without ERCOT authorization;
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR177: Replace paragraph (g) above with the following upon system implementation of NPRR857:]                                                                                                                                  |
+|                                                                                                                                                                                                                                    |
+|   (g) QSEs, TSPs, DCTOs, and all other Entities must not suspend efforts toward expeditious compliance with the applicable EEA level declared by ERCOT nor initiate any reversals of required actions without ERCOT authorization; |
++====================================================================================================================================================================================================================================+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+  (h) ERCOT shall define procedures for determining the proper redistribution of reserves during EEA operations; and
+
+  (i) QSEs shall not remove an On-Line Generation Resource or Energy Storage Resource (ESR) without prior ERCOT authorization unless such actions would violate safety, equipment, or regulatory or statutory requirements. Under these circumstances, QSEs shall immediately inform ERCOT of the need and reason for removing the On-Line Resource from service.
+
+4.5.3.3 EEA Levels
+
+(1) ERCOT will declare an EEA Level 1 when PRC falls below 2,500 MW and is not projected to be recovered above 2,500 MW within 30 minutes without the use of the following actions that are prescribed for EEA Level 1:
+
+  (a) ERCOT shall take the following steps to maintain steady state system frequency near 60 Hz and maintain PRC above 2,000 MW:
+
+  (i) Request available Generation Resources that can perform within the expected timeframe of the emergency to come On-Line by initiating manual HRUC or through Dispatch Instructions, and request available ESRs that can perform within the expected timeframe of the emergency to come On-Line through Dispatch Instructions;
+
+  (ii) Use available DC Tie import capacity that is not already being used;
+
+  (iii) Issue a Dispatch Instruction for Resources to remain On-Line which, before start of emergency, were scheduled to come Off-Line; and
+
+  (iv) Instruct QSEs to deploy undeployed ERS-10 and ERS-30; and
+
+  (v) At ERCOT’s discretion, manually deploy, through Inter-Control Center Communications Protocol (ICCP), available RRS and ECRS capacity from Generation Resources having a Resource Status of ONSC and awarded RRS or ECRS.
+
+  (b) QSEs shall:
+
+  (i) Ensure COPs, telemetered status, and telemetered High Sustained Limits (HSLs), Normal Ramp Rates, Emergency Ramp Rates, and Ancillary Service capabilities are updated and reflect all Resource delays and limitations; and
+
+  (ii) Ensure that each of its ESRs suspends charging until the EEA is recalled, except under the following circumstances:
+
+  (A) The ESR has a current SCED Base Point Instruction, Load Frequency Control (LFC) Dispatch Instruction, or manual Dispatch Instruction to charge the ESR;
+
+  (B) The ESR is actively providing Primary Frequency Response; or
+
+  (C) The ESR is co-located behind a Point of Interconnection (POI) with onsite generation that is incapable of exporting additional power to the ERCOT System, in which case the ESR may continue to charge as long as maximum output to the ERCOT System is maintained.
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR229: Replace paragraph (ii) above upon system implementation of NPRR995:]                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                    |
+|   (ii) Ensure that each of its ESRs and Settlement Only Energy Storage Systems (SOESSs) suspends charging until the EEA is recalled, except under the following circumstances:                                                                                                     |
+|                                                                                                                                                                                                                                                                                    |
+|   (A) The ESR has a current SCED Base Point Instruction, Load Frequency Control (LFC) Dispatch Instruction, or manual Dispatch Instruction to charge the ESR;                                                                                                                      |
+|                                                                                                                                                                                                                                                                                    |
+|   (B) The ESR or SOESS is actively providing Primary Frequency Response; or                                                                                                                                                                                                        |
+|                                                                                                                                                                                                                                                                                    |
+|   (C) The ESR or SOESS is co-located behind a Point of Interconnection (POI) with onsite generation that is incapable of exporting additional power to the ERCOT System, in which case the ESR may continue to charge as long as maximum output to the ERCOT System is maintained. |
++====================================================================================================================================================================================================================================================================================+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(2) ERCOT may declare an EEA Level 2 when the clock-minute average system frequency falls below 59.91 Hz for 15 consecutive minutes. ERCOT will declare an EEA Level 2 when PRC falls below 2,000 MW and is not projected to be recovered above 2,000 MW within 30 minutes without the use of the following actions that are prescribed for EEA Level 2:
+
+  (a) In addition to the measures associated with EEA Level 1, ERCOT shall take the following steps to maintain steady state system frequency at a minimum of 59.91 Hz and maintain PRC above 1,500 MW:
+
+  (i) Instruct TSPs and DSPs or their agents to reduce Customer Load by using existing, in-service distribution voltage reduction measures that have not already been implemented. A TSP, DSP or their agent shall implement these instructions if distribution voltage reduction measures are available and already installed. If the TSP, DSP, or their agent determines in their sole discretion that the distribution voltage reduction would adversely affect reliability, the voltage reduction measure may be reduced, modified, or otherwise changed from maximum performance to a level of exercise that has no negative impact to reliability.
+
+  (ii) Instruct TSPs and DSPs to implement any available Load management plans to reduce Customer Load.
+
+  (iii) Instruct QSEs to deploy ECRS or RRS (controlled by high-set under-frequency relays) supplied from Load Resources. ERCOT may deploy ECRS or RRS from Load Resources simultaneously or separately. ERCOT shall issue such Dispatch Instructions in accordance with the deployment methodologies described in paragraph (iv) below.
+
+  (iv) Load Resources providing ECRS that are not controlled by high-set under-frequency relays shall be deployed prior to deployment of those that have armed under-frequency relays. ERCOT shall deploy ECRS and RRS capacity supplied by Load Resources (controlled by high-set under-frequency relays) in accordance with the following:
+
+  (A) Instruct QSEs to deploy ECRS that is supplied from Load Resources (controlled by high-set under-frequency relays) that are only providing ECRS and then instruct QSEs to deploy Load Resources (controlled by high-set under-frequency relays) providing ECRS and RRS. QSEs will be given some discretion to deploy additional Load Resources not designated for deployment if Load Resource operational considerations require such. ERCOT shall issue notification of the deployment via XML message. The deployment time within the ERCOT XML deployment message shall initiate the ten-minute deployment period;
+
+  (B) At the discretion of the ERCOT Operator, instruct QSEs to deploy RRS that is supplied from Load Resources (controlled by high-set under-frequency relays) by instructing the QSE representing the specific Load Resource to interrupt additional Load Resources that are only providing RRS. ERCOT shall issue notification of the deployment via XML message. The deployment time within the ERCOT XML deployment message shall initiate the ten-minute deployment period;
+
+  (C) The ERCOT Operator may deploy all Load Resources providing RRS and ECRS at the same time. ERCOT shall issue notification of the deployment via XML message. The deployment time within the ERCOT XML deployment message shall initiate the ten-minute deployment period; and
+
+  (D) ERCOT shall develop a Real-Time process for deploying Load Resources based on a random sampling of individual Load Resources. At ERCOT’s discretion, ERCOT may deploy all Load Resources at any given time during EEA Level 2.
+
+  (v) Unless a media appeal is already in effect, ERCOT shall issue an appeal through the public news media for voluntary energy conservation; and
+
+  (vi) With the approval of the affected non-ERCOT Control Area, TSPs, DSPs, or their agents may implement transmission voltage level BLTs, which transfer Load from the ERCOT Control Area to non-ERCOT Control Areas in accordance with BLTs as defined in the Operating Guides.
+
+(b) Confidentiality requirements regarding transmission operations and system capacity information will be lifted, as needed to restore reliability.
+
+(3) ERCOT may declare an EEA Level 3 when the clock-minute average system frequency falls below 59.91 Hz for 20 consecutive minutes or when steady-state frequency falls below 59.8 Hz. ERCOT will declare an EEA Level 3 when PRC cannot be maintained above 1,500 MW or when the clock-minute average system frequency falls below 59.91 Hz for 25 consecutive minutes. Upon declaration of an EEA Level 3, ERCOT shall take any of the following measures as necessary to recover frequency or PRC to the minimum required levels:
+
+  (a) Instruct ESRs to suspend charging. For ESRs, ERCOT shall issue the suspension instruction via a SCED Base Point instruction, or, if otherwise necessary, via a manual Dispatch Instruction. An ESR shall suspend charging unless it is providing Primary Frequency Response, has received a charging instruction via SCED Base Point, or is carrying Regulation Down Service (Reg-Down) and has received a charging instruction from LFC. However, an ESR co-located behind a POI with onsite generation that is incapable of exporting additional power to the ERCOT System may continue to charge as long as maximum output to the ERCOT System is maintained.
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR229: Replace paragraph (a) above upon system implementation NPRR995:]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|   (a) Instruct ESRs to suspend charging. For ESRs, the suspension instruction shall be issued via a SCED Base Point, or, if otherwise necessary, via a manual Dispatch Instruction. An ESR shall suspend charging unless it is providing Primary Frequency Response, has received a charging instruction via SCED Base Point, or is carrying Regulation Down Service (Reg-Down) and has received a charging instruction from LFC. An SOESS shall suspend charging unless it is providing Primary Frequency Response. However, an ESR or SOESS co-located behind a POI with onsite generation that is incapable of exporting additional power to the ERCOT System may continue to charge as long as maximum output to the ERCOT System is maintained. |
++======================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+  (b) Direct all TOs to shed firm Load, in 100 MW blocks, distributed as documented in these Operating Guides in order to maintain a steady state system frequency at a minimum of 59.91 Hz and to recover 1,500 MW of PRC within 30 minutes.
+
+  (i) TOs and TDSPs may:
+
+  (A) Manually shed Load connected to under-frequency relays and/or under-voltage relays pursuant to an ERCOT Load shed directive issued during EEA Level 3 so long as the TO has determined that system conditions warrant utilizing Load connected to under-frequency and/or under-voltage relays and each affected TO continues to comply with its Under-Frequency Load Shed (UFLS) obligation as described in Section 2.6.1, Automatic Firm Load Shedding, and its Load shed obligation as described in Section 4.5.3.4, Load Shed Obligation.
+
+  (B) Manually shed Load that is armed to deploy as part of the 58.5 Hz, 58.7 Hz, and anti-stall UFLS stages, such that the UFLS Load falls below the TO’s 25% Load relief obligation, as described in Section 2.6.1, in order to meet ERCOT operating instructions for manual Load shed if all Load identified for manual Load shed and the Load identified in paragraph (A) above has been shed.
+
+  (c) Implement any appropriate measures associated with EEA Levels 1 and 2 that have not already been implemented.
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR265: Insert Section 4.5.3.4 below upon system implementation of NPRR1238 and renumber accordingly:]                                                                                                                                                      |
+|                                                                                                                                                                                                                                                                |
+| 4.5.3.4 Qualified Scheduling Entity VECL Load Reduction Obligation                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                |
+| (1) Each QSE representing one or more VECLs shall take and direct actions to ensure that ERCOT VECL deployment instructions are effectuated. Each VECL shall comply with any reasonable instruction given by its QSE to effectuate Load reduction obligations. |
++================================================================================================================================================================================================================================================================+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+4.5.3.4 Load Shed Obligation
+
++--------------------------------------------------------------------------------------------------------------------+
+| [NOGRR265: Replace the title for Section 4.5.3.4 above with the following upon system implementation of NPRR1238:] |
+|                                                                                                                    |
+| 4.5.3.5 Transmission Operator Load Shed Obligation                                                                 |
++====================================================================================================================+
++--------------------------------------------------------------------------------------------------------------------+
+
+(1) Each TO shall take and direct actions to ensure that ERCOT Load shed instructions are effectuated. Each DSP shall comply with any reasonable instruction given by its TO to effectuate Load shed obligations.
+
+(2) Load shed obligation percentages for ERCOT EEA Level 3 Load shedding will be determined by calculating each TO’s Load as a percentage of the ERCOT System summer and winter peak 15 minute Demand interval. For the purposes of this paragraph, TO Load will be the amount of Load being served by all of the TDSPs that the TO represents. The calculations for summer and winter Load shed obligation percentage are as follows:
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR265: Replace paragraph (2) above with the following upon system implementation of NPRR1238:]                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| (2) Load shed obligation percentages for ERCOT EEA Level 3 Load shedding will be determined by calculating each TO’s Load as a percentage of the ERCOT System summer and winter peak 15 minute Demand interval. For the purposes of this paragraph, TO Load, with the exception of VECLs, will be the amount of Load being served by all of the Transmission and/or Distribution Service Providers (TDSPs) that the TO represents. The calculations for summer and winter Load shed obligation percentage are as follows: |
++===========================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+  (a) The calculated Load shed obligation percentage for the summer Season will be based on the single highest coincident ERCOT System peak 15 minute Demand interval for the summer months of June through September as reflected in the 4-Coincident Peak (4-CP) data submitted by ERCOT to the Public Utility Commission of Texas (PUCT) for that year. Anticipated revisions to the summer Load shed table shall be posted as described in paragraph (4) below no later than March 31^(st) of each year based on data from the previous calendar year.
+
+  (b) The calculated Load shed obligation percentage for the winter Season will be based on the single highest coincident ERCOT System peak 15 minute Demand interval for the winter months of December through February as reflected at the time that ERCOT extracts the Load data for the winter Season from its settlement system. Anticipated revisions to the winter Load shed table shall be posted as described in paragraph (4) below no later than August 31^(st) of each year based on data from December of the previous calendar year and January through February of the current year.
+
+(3) The summer Load shed table will be used during a hot weather Load shed event and the winter Load shed table will be used during a cold weather Load shed event. ERCOT will determine, in its sole discretion, whether an EEA event will be treated as a hot weather or cold weather Load shed event based on the weather conditions. The summer and winter Load shed time periods will be published annually with the updated obligation tables in paragraph (2) above. In addition, if ERCOT issues an Operating Condition Notice (OCN), it will notify Market Participants which Load shed table would apply to the potential Load shed event. When ERCOT directs TOs to shed Load, it will specify which Load shed table applies for the Load shed event. ERCOT shall use the same Load shed table for the duration of a Load shed event.
+
+(4) ERCOT shall maintain the Seasonal Load shed tables reflecting each TO’s total Load shed obligation on the ERCOT website. The Load shed obligation percentages will be reviewed by ERCOT and revised as described above, or as otherwise deemed appropriate by ERCOT, to reflect any new or changed TO designation by a DSP. Adjustments to the Load shed obligations due to changes in TO designations will be performed using the same Load data upon which the table was based. Following ERCOT’s Seasonal peak Load reviews or ERCOT’s receipt of any new or changed TO designation, ERCOT shall post any anticipated revisions to the Load shed tables on the ERCOT website. ERCOT shall issue a Market Notice announcing the posting of the revisions at least ten days prior to the effective date of the revisions or as soon as practicable if ERCOT determines there is a need to correct the Market Notice less than ten days before the effective date.
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR265: Replace paragraph (4) above with the following upon system implementation of NPRR1238:]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| (4) ERCOT shall maintain the Seasonal Load shed tables reflecting each TO’s total Load shed obligation on the ERCOT website. The Load shed obligation percentages will be reviewed by ERCOT and revised as described above, or as otherwise deemed appropriate by ERCOT, to reflect any new or changed TO designation by a DSP or changes in the VECL registration. Adjustments to the Load shed obligations due to changes in TO designations will be performed using the same Load data upon which the table was based. Following ERCOT’s Seasonal peak Load reviews or ERCOT’s receipt of any new or changed TO designation, ERCOT shall post any anticipated revisions to the Load shed tables on the ERCOT website. ERCOT shall issue a Market Notice announcing the posting of the revisions at least ten days prior to the effective date of the revisions or as soon as practicable if ERCOT determines there is a need to correct the Market Notice less than ten days before the effective date. |
++============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(5) Each TO shall coordinate with each TDSP it represents to:
+
+  (a) Minimize overlap of circuits that are designated for manual firm Load shed with circuits that serve designated critical loads; and
+
+  (b) Minimize overlap of circuits that are designated for manual firm Load shed with circuits that are utilized for UFLS and Under-Voltage Load Shed (UVLS).
+
+4.5.3.5 EEA Termination
+
+(1) ERCOT shall:
+
+  (a) Continue EEA until sufficient Resources are available to ERCOT to eliminate the shortfall and restore adequate reserves;
+
+  (b) Restore full reserve requirements (normally 2300 MW);
+
+  (c) Terminate the levels in reverse order, where practical;
+
+  (d) Notify each QSE and TO of EEA level change termination via QSE and TO Hotlines and post the level change or termination electronically to the ERCOT website; and
+
+  (e) Maintain a stable ERCOT System frequency when restoring Load.
+
+(2) QSEs and TOs shall:
+
+  (a) Implement actions to terminate previous actions as EEA levels are released in accordance with these Operating Guides;
+
+  (b) Notify represented Market Participants of EEA levels changes;
+
+  (c) Report back to the ERCOT System Operator when each level is accomplished; and
+
+  (d) Loads will be restored when specifically authorized by the ERCOT.
+
+4.6 Black Start Service
+
+(1) This section provides general guidelines to be followed in the event of a Partial Blackout or Blackout of the ERCOT System. Timely implementation of a Black Start plan compiled in accordance with Section 8, Attachment E, Black Start Plan Template, should facilitate coordination between ERCOT, Qualified Scheduling Entities (QSEs) who represent Black Start Resources, Black Start Resources, and Transmission Operators (TOs) and ensure restoration of service to the ERCOT System at the earliest possible time. The Authorized Representative for Resource Entities that own contracted Black Start Resources will provide their QSE and ERCOT with a copy of the individual plant start-up procedures for coordination of their activities with those of the appropriate TO.
+
+(2) Pre-established plans and procedures cannot foresee all the possible combinations of system problems that may occur after a major failure. It is the responsibility of ERCOT to restore the system to normal, applying the principles, strategies, and priorities outlined in the ERCOT Black Start Plan.
+
+4.6.1 Principles
+
+(1) In order to minimize the time required, ERCOT will develop the Black Start Plan to utilize the principles, strategies, and priorities outlined in this Guide. The ERCOT Black Start Plan shall be coordinated with local TO Black Start plans to provide a coordinated Black Start reference.
+
+(2) Each contracted Black Start Resource and each QSE with contracted Black Start Resource(s) will have readily accessible and sufficiently detailed current operating procedures to assist in an orderly recovery.
+
+(3) Mutual assistance and cooperation will be essential during the restoration. Deliberate, careful action by each QSE, TO, and Resource Entity is necessary to minimize the length of time required for restoration and to avoid the reoccurrence of a Partial Blackout or Blackout of the ERCOT System.
+
+(4) Throughout the restoration, recovery will depend on ERCOT receiving an accurate assessment of system conditions and status from each QSE, TO, and Resource Entity throughout the restoration. Adequate and reliable communications must be available within the ERCOT System. During Black Start recovery, communication restrictions may enable the sharing of market sensitive information that pertains to the restoration of the ERCOT System. This includes but is not limited to availability status and recovery activities.
+
+4.6.2 Strategies
+
+(1) In the event of a Partial Blackout or Blackout of the ERCOT System, immediate steps must be taken to return the interconnected network to normal as quickly as possible. For detailed Black Start information, refer to Section 8, Attachment A, Detailed Black Start Information.
+
+  (a) Each TO shall immediately initiate its portion of the ERCOT Black Start Plan and attempt to establish contact with ERCOT. If communications with ERCOT are unavailable the TO shall immediately establish communications with its interconnected Black Start Resource(s) and the Black Start Resource’s QSE.
+
+  (b) Each QSE representing Black Start Resources shall initiate communications with its Black Start Resources and immediately notify ERCOT and the appropriate TO of their condition and status.
+
+  (c) Available Black Start Resources shall immediately start their isolation and startup procedures and attempt to establish communications with the local TO.
+
+  (d) As generating and transmission capabilities become available, systematic restoration of ERCOT Load with respect to priorities shall begin in accordance with the local TO Black Start plans, taking care to balance Load and generating capability while maintaining an acceptable frequency.
+
+  (e) Appropriate voltage levels and reactive control must be maintained during the restoration. Consideration should be given to connecting Islands at locations having communications, frequency control, voltage control, synchronization facilities, and adequate transmission capacity. ERCOT will coordinate the return to full Automatic Generation Control (AGC) in the interconnection.
+
+4.6.3 Priorities
+
+(1) Priorities for an ERCOT System Black Start recovery are listed below:
+
+  (a) Secure and/or stabilize generating units where necessary.
+
+  (b) Prepare Cranking Paths and Synchronization Corridors as necessary to support restoration.
+
+  (c) Assess ERCOT System condition, and available communication facilities.
+
+  (d) Restore and maintain communication facilities to the extent possible.
+
+  (e) Bring units with contracted Black Start capability On-Line.
+
+  (f) Provide service to critical facilities:
+
+  (i) Provide station service for nuclear generating facilities;
+
+  (ii) Provide critical power to as many Generation Resources as possible to prevent equipment damage;
+
+  (iii) Secure or provide startup power for Generation Resources that do not have Black Start capability; and
+
+  (iv) Supply station service to critical substations where necessary.
+
+  (g) Connect Islands at designated synchronization points taking care to avoid recurrence of a Partial Blackout or Blackout of the ERCOT System.
+
+  (h) Restore service to critical Loads such as:
+
+  (i) Military facilities;
+
+  (ii) Facilities necessary to restore the electric utility system, including fuel sources;
+
+  (iii) Law enforcement organizations and facilities affecting public health; and
+
+  (iv) Public communication facilities.
+
+  (i) Restore service to the remaining Customers. Attention should be given to restoring feeders with under-frequency relay protection.
+
+4.6.4 Responsibilities
+
+(1) ERCOT’s responsibilities are as follows:
+
+  (a) Shall maintain a Black Start plan in accordance with North American Electric Reliability Corporation (NERC) Reliability Standards and no more than 30 days after revising the Black Start plan, shall notify the TOs of the revised Black Start plan and post the plan with an effective date on the Market Information System (MIS) Certified Area for TOs;
+
+  (b) Shall, no more than 30 days after receiving a TO’s new or revised Black Start plan, notify the TO of ERCOT’s approval or disapproval of the TO’s new or revised Black Start plan and post the approved TO’s new or revised Black Start plan with an effective date on the MIS Certified Area to specified Market Participants requested by the TO;
+
+  (c) Coordinate and approve Planned Outage schedules for contracted Black Start Resources;
+
+  (d) Train TOs, QSEs, and Resource Entities that represent Black Start Resources in the restoration of the ERCOT System. This training will cover the theory of restoration and the processes that will need to be implemented during a Partial Blackout or Blackout;
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR194: Replace paragraph (d) above with the following upon system implementation of NPRR857:]                                                                                                                                                                                                            |
+|                                                                                                                                                                                                                                                                                                              |
+|   (d) Train TOs, QSEs, Direct Current Tie Operators (DCTOs), and Resource Entities that represent Black Start Resources in the restoration of the ERCOT System. This training will cover the theory of restoration and the processes that will need to be implemented during a Partial Blackout or Blackout; |
++==============================================================================================================================================================================================================================================================================================================+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+  (e) Will review the plans and procedures for consistency and conformance with these Operating Guides and ensure that they are updated at least annually;
+
+  (f) ERCOT shall report to the Reliability and Operations Subcommittee (ROS) by April 1 of each year a plan for review and any testing activities of Black Start Resources;
+
+  (g) Shall verify that the number, size, and location of Black Start Resources are sufficient to meet the ERCOT Black Start Plan; and
+
+  (h) In the event of a Partial Blackout or Blackout of the ERCOT System, ERCOT shall:
+
+  (i) Maintain continuous surveillance of the status of the ERCOT System;
+
+  (ii) Act as a central information collection and dissemination point for the ERCOT Region;
+
+  (iii) Coordinate reconnection of transmission;
+
+  (iv) Direct assistance for QSEs who represent Black Start Resources, TOs, Resource Entities, and Market Participants;
+
+  (v) Direct the distribution of reserves; and
+
+  (vi) Coordinate the return of the ERCOT System to AGC.
+
+(2) TOs’ responsibilities are as follows:
+
+  (a) Shall review and submit their Black Start plans to ERCOT via secured webmail or encrypted data transfer:
+
+  (i) Annually by November 1 of each year, for the upcoming calendar year. Plans submitted before November 1 will be deemed to have been received on November 1 for ERCOT to initiate the approval process described in paragraph (1)(b) above; and
+
+  (ii) When the Black Start plan for the current year has changed.
+
+  The TO may request that ERCOT post the TO’s new or revised Black Start plan on the MIS Certified Area for specified Market Participants. The TO will have the responsibility to notify specified Market Participants that the new or revised Black Start plan has been posted on the MIS Certified Area; and
+
+  (b) In event of a Partial Blackout or Blackout of the ERCOT System:
+
+  (i) Shall communicate with local Black Start Resources and the Black Start Resource’s QSE;
+
+  (ii) Coordinate switching to next start Resources and local Load;
+
+  (iii) Shall implement its local Black Start plan;
+
+  (iv) Shall follow the direction of ERCOT on behalf of represented Transmission Service Providers (TSPs) and Distribution Service Providers (DSPs);
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NOGRR177: Replace paragraph (iv) above with the following upon system implementation of NPRR857:]                                                           |
+|                                                                                                                                                              |
+|   (iv) Shall follow the direction of ERCOT on behalf of represented Transmission Service Providers (TSPs), DCTOs, and Distribution Service Providers (DSPs); |
++==============================================================================================================================================================+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+  (v) Shall act as the regional ERCOT representative in coordinating interconnection of Resources; and
+
+  (vi) Shall follow the direction of ERCOT for reconnection of Islands.
+
+(3) QSEs’ representing Black Start Resources responsibilities are as follows:
+
+  (a) Verify that associated QSE personnel are proficient in implementation and use of the appropriate procedures for use in the event of a Partial Blackout or Blackout; and
+
+  (b) In the event of a Partial Blackout or Blackout of the ERCOT System, QSEs representing Black Start Resources shall:
+
+  (i) Take immediate steps to initiate and maintain communications with its Black Start Resources;
+
+  (ii) Supply ERCOT and/or the local TO with information on the status of generation, fuel, transmission, and communication facilities;
+
+  (iii) Follow the direction of the local TO or ERCOT in regards to output of its Generation Resources; and
+
+  (iv) Provide available assistance as directed by ERCOT or the local TO.
+
+(4) Black Start Resources’ responsibilities are as follows:
+
+  (a) Verify that associated Resource personnel are proficient in the implementation and use of appropriate individual plant start-up procedures for use in the event of a Partial Blackout or Blackout; and
+
+  (b) In the event of a Partial Blackout or Blackout of the ERCOT System, Black Start Resources shall:
+
+  (i) Isolate the Black Start Resource from the ERCOT Transmission Grid;
+
+  (ii) Establish communications with the local TO who is the primary contact for the Black Start Resource;
+
+  (iii) Supply the local TO and QSE with information on the status of generation, fuel, transmission isolation, and communication facilities;
+
+  (iv) Follow the appropriate plant start-up procedures and request synchronization and auxiliary Load pickup from the TO; and
+
+  (v) Follow the direction of the local TO or ERCOT until such time as normal system operations resume. The Black Start Resource should follow the direction of the QSE instructed by the TO or ERCOT when necessary.
+
+(5) Generation Resources that are not Black Start Resources have the following responsibilities in the event of a Partial Blackout or Blackout of the ERCOT System:
+
+  (a) Take immediate steps to initiate and maintain communications with its QSE; and
+
+  (b) Follow the direction of the local TO or ERCOT until such time as normal system operations resume. The Generation Resource should follow the direction of the QSE as instructed by the TO or ERCOT when necessary.
+
+(6) Section 8, Attachment A, Detailed Black Start Information, and Section 8, Attachment E, Black Start Plan Template, provide a detailed and specific Black Start information guide. Interested parties should use this information for technical reference material, Black Start testing, development of Black Start plans, and training of personnel.
+
+4.6.5 Black Start Emergency Back Up Communication Facilities Criteria
+
+(1) All back-up communications systems shall meet the following minimum requirements:
+
+  (a) Be operational for 72 hours immediately following the start of a Blackout without external power from the ERCOT System;
+
+  (b) Provide direct voice communications between Black Start Resource and TO, TO and other appropriate TOs, and TO and ERCOT; and
+
+  (c) Maintain written procedures that address operator training and the testing of the communication system;
+
+(2) TOs shall have a satellite phone that meets the minimum back up communication requirements as a back-up communication system and that is compatible with ERCOT’s satellite phone.
+
+4.7 Geomagnetic Disturbance Operating Plan
+
+4.7.1 Monitoring and Dissemination of Space Weather Information 
+
+(1) ERCOT shall maintain procedures to receive Geomagnetic Disturbance (GMD) alerts and warnings issued by the National Oceanic and Atmospheric Administration (NOAA).
+
+(2) ERCOT shall implement and maintain procedures to provide GMD alerts and warnings to Transmission Operators (TOs).
+
+(3) Other forecasted and current space weather information is publicly available directly through the NOAA website.
+
+4.7.2 Development and Submission of TO GMD Operating Procedures or Processes
+
+(1) Each TO that operates transmission equipment that includes a power transformer with a high side wye-grounded winding with terminal voltage greater than 200 kV shall develop a GMD operating procedure or process to mitigate the effects of GMD events on the reliable operation of its system.
+
+(2) Each TO GMD operating procedure or process shall be provided to ERCOT as soon as practicable but no later than November 25, 2014. Updates to the plan shall be provided to ERCOT by March 15 of each subsequent year.
+
+(3) Each TO GMD operating procedure or process shall include:
+
+  (a) A procedure to receive GMD alerts and warnings from ERCOT;
+
+  (b) A description of operational actions the TO intends to take to mitigate the effects of a GMD event. This description shall include:
+
+  (i) The triggering event for each action;
+
+  (ii) A detailed explanation of each operational action;
+
+  (iii) A list of Entities with which the TO must coordinate, if any, including any actions requested of other Entities in the ERCOT Region in order to implement the TO’s GMD operating procedure or process; and
+
+  (iv) The conditions under which each action would be terminated.
+
+  (c) A procedure for reporting to ERCOT any unusual operational information that could be the result of GMD, such as high reactive loading, MVAr or voltage swings, high geomagnetically induced current on monitored transformers or equipment malfunctions.
+
+4.7.3 ERCOT’s GMD Operating Plan and ERCOT Review of TO GMD Operating Procedures or Processes
+
+(1) ERCOT shall develop a GMD operating plan and post it on the Market Information System (MIS) Certified Area for TOs.
+
+(2) The ERCOT GMD operating plan shall coordinate the TO GMD operating procedures or processes. This coordination is intended to ensure the TO GMD operating procedures or processes are not in conflict with one another and is not intended to be a review of the technical aspects of the TO GMD operating procedures or processes.
+
+(3) In preparing the ERCOT GMD operating plan, ERCOT shall identify and notify the relevant TOs of any conflicts between the different TO GMD operating procedures or processes and any unacceptable actions requested of ERCOT in the TO operating procedures or processes.
+
+  (a) ERCOT and the TOs shall coordinate development of any required modifications to the TO GMD operating procedures or processes necessary to resolve these conflicts or unacceptable actions.
+
+  (b) A TO shall make the resulting modifications to its GMD operating procedures or processes.
+
+(4) The ERCOT GMD operating plan shall include:
+
+  (a) A description of activities designed to mitigate the effects of GMD events on the reliable operation of the interconnected transmission system; and
+
+  (b) Any operating actions required of ERCOT by the TO GMD operating procedures or processes and approved by ERCOT for inclusion in the ERCOT GMD operating plan.
+
+4.8 Responsive Reserve Service and ERCOT Contingency Reserve Service During Scarcity Conditions
+
+(1) This Section details how Responsive Reserve (RRS) service may be manually deployed during scarcity conditions, pursuant to Protocol Section 6.5.7.6.2.2, Deployment of Responsive Reserve (RRS). The existing measure of scarcity is Physical Responsive Capability (PRC). If PRC drops below 3,000 MW, and all available Non-Spinning Reserve (Non-Spin) has been deployed, this process may be used. Scarcity conditions may occur during the Peak Load Season when ERCOT System Load is above 60,000 MW. For all other months, they could occur when ERCOT System Load is above 50,000 MW.
+
+  (a) When HSL – (Gen + 5-minute load ramp) <= 2000 MW, ERCOT may deploy Load Resources that are not Controllable Load Resources (CLRs) and that are providing ERCOT Contingency Reserve Service (ECRS) or RRS.
+
+4.8.1 Responsive Reserve Service and ERCOT Contingency Reserve Service Manual Recall
+
+(1) The operator will consider system conditions and Ancillary Services in releasing or recalling RRS. System frequency, load ramp, and factors such as Regulation Up Service (Reg-Up) versus Regulation Down Service (Reg-Down) deployment status will be considered.
+
+(2) The manual deployment of RRS or ECRS for capacity from Load Resources that are not CLRs may be recalled pursuant to Protocol Section 6.5.9, Emergency Operations.

@@ -1,0 +1,12 @@
+{
+ "id": "ref-ercot-crr-training",
+ "title": "Congestion Revenue Rights (ERCOT training)",
+ "publisher": "ERCOT",
+ "tier": 2,
+ "edition": "2020",
+ "url": "https://www.ercot.com/files/docs/2020/04/27/2020_05_CRR.pdf",
+ "retrieved": "2026-11-21",
+ "raw_bytes": 3953308,
+ "raw_sha256": "5e3480b99a1951faa0c1d10b30952e754717eceb20ab19f9f684d41da452674f",
+ "text_chars": 36258
+}

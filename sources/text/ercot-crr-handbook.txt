@@ -1,0 +1,2409 @@
+[Image result for ercot]
+
+ERCOT Nodal Market:
+
+Congestion Revenue Rights System
+
+CRR Market User Interface Handbook
+
+June 27, 2022
+
+Version 4.3
+
+DOCUMENT REVISIONS
+
+  ------------ --------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------
+  Date         Version   Description                                                                                                                                                                                                               Author(s)
+
+  4/23/07      0.1       Initial version                                                                                                                                                                                                           Energy Solutions, Nexant
+
+  5/31/07      0.2       Update with new modules, features and functionalities                                                                                                                                                                     Energy Solutions, Nexant
+
+  8/01/07      0.3       Include CRR Available Credit Limit Functionality                                                                                                                                                                          Energy Solutions, Nexant
+
+  8/22/07      0.4       Include Counter-Party CRR Available Credit Limit Functionality, Update the document accordingly                                                                                                                           Energy Solutions, Nexant
+
+  8/28/07      0.5       Review and update document                                                                                                                                                                                                Energy Solutions, Nexant
+
+  10/08/07     0.6       Update document to reflect all ERCOT customization                                                                                                                                                                        Energy Solutions, Nexant
+
+  10/20/07     0.62      Update bilateral market and credit managers                                                                                                                                                                               Energy Solutions, Nexant
+
+  11/30/07     0.99      Update based on ERCOT feedback                                                                                                                                                                                            Software and Information Systems, Nexant
+
+  12/13/07     1.0       Final version                                                                                                                                                                                                             Software and Information Systems, Nexant
+
+  12/18/07     1.0       Updated the footer & the header                                                                                                                                                                                           Software and Information Systems, Nexant
+
+  9/15/09      1.1       Merged Nexant Slides and addressed Traceability concerns in with the current manual. Also added instructional references to MUI Web-based Training available on LMS.                                                      ERCOT Staff
+
+  11/2/2009    1.2       Removed mentions of McCamey Area Flowgate Rights throughout document. And added note about rounding behavior for nominations.                                                                                             ERCOT Staff
+
+  12/3/2009    1.3       Added sections under the ERCOT CRR Market Overview. Edited content, washed screen captures, checked hyperlinks, finalized document.                                                                                       ERCOT Staff
+
+  01/04/10     1.4       Revised per review by SReedy                                                                                                                                                                                              ERCOT Staff
+
+  01/07/10     2.0       Updating revision after review                                                                                                                                                                                            ERCOT Staff
+
+  1/11/10      2.1       Resolved formatting issues from tracked changes, added explanation of “drop arrow, Updated Headers for Doc. Version                                                                                                       ERCOT Staff
+
+  1/26/10      2.2       Updated bilateral trade language to include the 7-day trade limit.                                                                                                                                                        ERCOT Staff
+
+  2/3/2010     2.3       Added note re: keypad failure on Nominations Editor screen; added 20 char limit for telephone number in bilateral trade contact information window.                                                                       ERCOT Staff
+
+  3/1/2010     2.4       Added behavior of the Bilateral Trades in successful/unsuccessful bids.                                                                                                                                                   ERCOT Staff
+
+  10/19/2010   2.5       Added links to section 2.2a for NOIE allocation eligibility forms.                                                                                                                                                        ERCOT Staff
+
+  10/26/2010   2.6       Added credit parameter values A and M, per Board approval.                                                                                                                                                                ERCOT Staff
+
+  3/4/2011     2.7       Added reference to the Bid24Hour column in the Common and Private Auction Results downloadable files.                                                                                                                     ERCOT Staff
+
+  5/3/2011     2.8       Added steps for Round 2 Auction                                                                                                                                                                                           ERCOT Staff
+
+  7/25/2014    3.0       Full review of the document to remove unessential and outdated information.                                                                                                                                               ERCOT Staff
+
+  10/8/2014    3.1       Minor updates to align the document with NPRR 586 implementation.                                                                                                                                                         ERCOT Staff
+
+  7/14/2015    3.2       Minor updates to remove out of date references to a Business Process Manual                                                                                                                                               ERCOT Staff
+
+  12/11/2015   3.3       Minor updates including removing references to the “S Adder” to align the document with NPRR 660 implementation and to add a reference to the Original CRR ID column in the Private Auction Results downloadable files.   ERCOT Staff
+
+  9/8/2017     4.0       Full update to the manual to reflect the system changes with the CRR Framework Upgrade Project                                                                                                                            Nexant Grid Management and ERCOT Staff
+
+  12/11/2018   4.1       Update to remove “Upgrade” from title                                                                                                                                                                                     ERCOT Staff
+
+  5/6/2019     4.2       Add ShadowPricePerMWH field to Baseloading downloads for Auctions (NPRR 749)                                                                                                                                              Nexant Grid Management
+
+  6/27/2022    4.3       Replace certified browser Internet Explorer with Chrome and Edge                                                                                                                                                          Grid Management, Resource Innovations
+  ------------ --------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------
+
+  : Table 1: Annual Eligible MWH Calculation Sample
+
+TABLE OF CONTENTS
+
+1. Introduction 1
+
+1.1. Organization of This Document 2
+
+1.2. Target Audience 3
+
+1.3. Supporting Documentation and Training 4
+
+2. ERCOT CRR Market Overview 5
+
+2.1. CRR Account Holder Registration and Qualification 6
+
+2.2. CRR Non Opt-In Entity (NOIE) Qualification 7
+
+2.2.a. Annual Validation of NOIE Eligibility 7
+
+2.3. CRR Allocation and Auction Time Lines 8
+
+2.4. Categories of CRRs 10
+
+2.5. CRR Attributes 11
+
+2.6. CRR Hedge Types (Obligations and Options) 12
+
+2.7. CRR Clearing Prices 13
+
+3. CRR System Overview 14
+
+3.1. CRR System Components 15
+
+3.2. ERCOT Market Information System 17
+
+3.2.a. MIS Access and Navigation 17
+
+3.3. Overview of Account Holder User Interface Functions 18
+
+3.4. Document Upload/Download Specifications 20
+
+4. PCRR Nominations: Managing Nominations 21
+
+4.1. Nominations Flow 22
+
+4.2. Nomination Portfolio 23
+
+4.2.a. Functionality 23
+
+4.2.b. Nomination Portfolio Page Data Fields 23
+
+4.3. Nomination Summary 25
+
+4.3.a. Functionality 25
+
+4.3.b. Nomination Summary Data Fields 26
+
+4.4. Nomination Editor 27
+
+4.4.a. Capacity and Refund Tab 27
+
+4.4.b. Baseload Tab 35
+
+5. Auction Portfolio List: Managing Auction Portfolios 42
+
+5.1. Auction Portfolio Flow 43
+
+5.2. Auction Portfolio List Page 44
+
+5.2.a. Functionality 44
+
+5.2.b. Auction Portfolio List Data Fields 45
+
+5.2.c. Usage of Auction Portfolio List Buttons 46
+
+5.3. Auction Portfolio Editor Page 51
+
+5.3.a. Functionality 51
+
+5.3.b. Auction Portfolio Editor Data Fields 52
+
+5.3.c. Usage 54
+
+6. Bilateral Market 57
+
+6.1. Bilateral Market Action and Events Flow 58
+
+6.2. Bilateral Market 59
+
+6.2.a. Bilateral Market landing page Functionality 59
+
+6.2.b. Sell Listing tab Data Fields 60
+
+6.2.c. My Sell Offer tab Functionality 61
+
+6.2.d. My Sell Offer tab Data Fields 61
+
+6.2.e. My Response to Sell Offer tab Functionality 62
+
+6.2.f. My Response to Sell Offer page Data Fields 63
+
+7. Credit Limit Editor 69
+
+7.1. Account Holder Credit Limit Editor 70
+
+7.1.a. Functionality 70
+
+7.1.b. Credit Limit Editor Data Fields 71
+
+7.1.c. Usage 72
+
+7.2. Counter-Party Credit Limit Editor 74
+
+7.2.a. Functionality 75
+
+7.2.b. Credit Limit Editor Data Fields 76
+
+7.2.c. Usage 77
+
+8. Downloads Manager: Managing Downloads 78
+
+8.1. Downloads Manager Flow 79
+
+8.2. Downloads Page 80
+
+8.2.a. Data Fields 81
+
+8.3. Private General Tab 82
+
+8.3.a. Functionality 82
+
+8.4. Private Results Tab 83
+
+8.4.a. Functionality 83
+
+8.5. Common General Tab 84
+
+8.5.a. Functionality 84
+
+8.6. Common Network Tab 85
+
+8.6.a. Functionality 85
+
+8.7. Common Market Tab 87
+
+8.7.a. Functionality 87
+
+8.8. Common Results Tab 89
+
+8.8.a. Functionality 89
+
+9. Message Manager 91
+
+9.1. Message Manager Flow 92
+
+9.2. Message Board Page 93
+
+9.2.a. Account Holder Message Board 93
+
+9.2.b. Counter-Party Message Board 94
+
+LIST OF FIGURES
+
+Figure 1: CRR System, its Components & Interfaces with other ERCOT Systems 16
+
+Figure 2: MUI Account Holder Menu Headings 18
+
+Figure 3: Main AH User Interface Tabs and Functionalities 19
+
+Figure 4: Flow Diagram for Nominations Manager 22
+
+Figure 5: Nomination Portfolio Page 23
+
+Figure 6: Nomination Summary 25
+
+Figure 7: Cap & Refund Page 27
+
+Figure 8: Cap & Refund Page Functionalities 29
+
+Figure 9: Cap & Refund Page Functionalities (Continued) 30
+
+Figure 10: Cap & Refund Nominations in Error 30
+
+Figure 11: Sample Allocation Portfolio 32
+
+Figure 12: Baseload Page 36
+
+Figure 13: Baseload Page Functionalities 38
+
+Figure 14: Baseload Page Functionalities (Continued) 39
+
+Figure 15: PCRR Upload File 40
+
+Figure 16: Auction Portfolio Flow 43
+
+Figure 17: Auction Portfolio List Page 44
+
+Figure 18: Auction Portfolio List Page Functionality 45
+
+Figure 19: Create New Portfolio Pop Up window 47
+
+Figure 20: Flagging an Invalid (Duplicate) Portfolio Name 47
+
+Figure 21: Flagging a Valid Portfolio Name 48
+
+Figure 22: Browsing for the Uploadable Bid file 48
+
+Figure 23: Sample Upload file 49
+
+Figure 24: Completing the Portfolio Upload Process 49
+
+Figure 25: Confirmation of the validation of the portfolio content 50
+
+Figure 26: Auction Portfolio Editor Page 52
+
+Figure 27: Auction Portfolio Editor Page Panes 53
+
+Figure 28: Setting the Source or Sink of CRR Buy Bids 54
+
+Figure 29: Details of an Existing CRR 55
+
+Figure 30: Setting the CRR of the CRR Sell Offer 56
+
+Figure 31: Bilateral Market Actions & Events Flow 58
+
+Figure 32: Bilateral Market Page 59
+
+Figure 33: Bilateral Market Sell Listing Tab Functionalities 60
+
+Figure 34: Bilateral Market - My Sell Offer Tab 61
+
+Figure 35: Bilateral Market - My Response to Sell Offer Tab 63
+
+Figure 36: Bilateral Market – Preparing to post a Sell Offer 65
+
+Figure 37: Bilateral Market – Selecting the CRR to be offered for sale 65
+
+Figure 38: Bilateral Market – Choosing the Type of Posting 66
+
+Figure 39: Bilateral Market – Fine tuning the CRR being offered for sale 66
+
+Figure 40: Bilateral Market – Finalizing the CRR being offered for sale 67
+
+Figure 41: Sample of Bilateral Sell Requests with the Responding AHs 67
+
+Figure 42: Bilateral Market – Buyer Accepting the Transaction 68
+
+Figure 43: Sample Upload File of Response to Bilateral Sell Offer 68
+
+Figure 44: Account Holder Credit Limit Editor Page 70
+
+Figure 45: Account Holder Credit Limit Editor Page Functionalities 71
+
+Figure 46: Timing of the Credit Limit Lock Date 72
+
+Figure 47: Counter-Party Credit Limit Editor Page 74
+
+Figure 48: Counter-Party Credit Limit Editor Page Functionalities 76
+
+Figure 49: Flow Diagram for Downloads Manager 79
+
+Figure 50: Download / Private Page 80
+
+Figure 51: Download / Common Page 81
+
+Figure 52: Private General Tab Functionalities 82
+
+Figure 53: Private Results Tab Functionalities 83
+
+Figure 54: Common General Tab Functionalities 84
+
+Figure 55: Common Network Tab Functionalities 85
+
+Figure 56: Sample Common Market Tab 87
+
+Figure 57: Common Market Results Tab Functionalities 89
+
+Figure 58: Flow Diagram for Message Manager 92
+
+Figure 59: AH Message Board Page 93
+
+Figure 60: AH Message Board Page Functionalities 94
+
+Figure 61: CP Message Board Page 94
+
+Figure 62: CP Message Board Page Functionalities 95
+
+COPYRIGHT NOTICE
+
+The contents of this document are protected as unpublished copyrighted works, Copyright, Nexant, Inc., 2006-2020, Resource Innovations, Inc., 2021-2022, and ERCOT Inc., 2009-2022. All rights reserved.
+
+Introduction
+
+The intent of this ERCOT CRR Market User Interface Handbook is to provide ERCOT Congestion Revenue Right (CRR) Market Participants, i.e. Account Holders (AHs) and Counter-Parties (CPs), with an introduction to the ERCOT CRR System and its user interfaces, namely the Market User Interface (MUI). The MUI subsystem is a web-based system and allows ERCOT AHs and CPs to manage all of their ERCOT CRR market activities, including but not limited to nominations for allocations and bids and offers for auctions, managing credit, submitting portfolios for ERCOT allocations and auctions, following market activities and results, as well as downloading market results and market-related data files. This handbook also describes the user interface capabilities and the functional features of the Bilateral Market.
+
+As such, this handbook is not intended to be a complete reference source of information about the ERCOT CRR System, its interfaces, or any of its other component subsystems. Nor is this user handbook intended to provide any guidance with respect to nomination and bidding strategies in the ERCOT CRR allocations and auctions respectively. There are several other resources available to Market Participants that, in combination with this Handbook, will provide AHs and CPs with a sound foundation from which they may participate in the ERCOT CRR auction/allocation market. Refer to the Supporting Documentation section of this document for a list of these resources.
+
+Organization of This Document
+
+This Handbook is organized into chapters, which cover the following topics:
+
+-   Chapter 2 gives an overview of the ERCOT CRR Market, timelines and activities, and the steps AHs must take to participate.
+
+-   Chapter 3 provides an overview of the CRR system and the Market Information System.
+
+-   Chapter 4 explains in detail how AHs who are Non-Opt-In Entities (NOIEs) manage their allocation nominations.
+
+-   Chapter 5 explains in detail how the AHs manage their auction portfolios.
+
+-   Chapter 6 explains ERCOT’s Bilateral Market features and how to use them to trade CRRs using ERCOT’s Bilateral Market.
+
+-   Chapter 7 explains the CRR ACL Editor and its functionalities for both AHs and CPs.
+
+-   Chapter 8 covers the functionalities under the Downloads Manager.
+
+-   Chapter 9 introduces the functionalities of the Messages Manager.
+
+Target Audience 
+
+This Handbook is intended for use by ERCOT CRR System AHs and CPs to aid them in performing the following tasks:
+
+-   Viewing and downloading the files that contain common information related to current allocations and auctions
+
+-   Viewing common messages
+
+-   Viewing and downloading private information such as AH specific CRR bids, offers, and auction results
+
+-   Viewing private messages
+
+-   Managing their allocation nominations and auction transactions
+
+-   Utilizing the Bilateral Market for trading CRRs with other registered CRR AHs
+
+-   Managing the CRR available credit limits
+
+The AHs and CPs are assumed to be familiar with the concepts of CRRs and CRR modeling. For more information on CRRs, the AHs and CPs are encouraged to also review ERCOT’s documentation on CRRs at www.ercot.com.
+
+Please note that private and common pages and data referred to in this document relate to functionalities and features of the ERCOT CRR System and are different from the Public and Secure areas of the ERCOT Market Information System (MIS) as defined in the Nodal Protocols.
+
+Supporting Documentation and Training
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------+
+|   Name and Description                                                                                                                                                                                                                       |   Location                                             |
++==============================================================================================================================================================================================================================================+========================================================+
+|   Standard Form Market Participant Agreement                                                                                                                                                                                                 |   http://www.ercot.com/services/rq/index.html          |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------+
+|   CRR Account Holder Application for Registration                                                                                                                                                                                            |   http://www.ercot.com/services/rq/crr/index           |
+|                                                                                                                                                                                                                                              |                                                        |
+|   Form used by Market Participants to register as a CRR AH with ERCOT. An application fee is also required.                                                                                                                                  |                                                        |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------+
+|   CRR Market User Interface Specifications                                                                                                                                                                                                   | http://www.ercot.com/mktinfo/crr/index.html            |
+|                                                                                                                                                                                                                                              |                                                        |
+|   This document describes data items relevant to the CRR market that are submitted or retrieved by Market Participants.                                                                                                                      |                                                        |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------+
+|   Market Notices and Bulletins                                                                                                                                                                                                               |   http://www.ercot.com/services/comm/mkt_notices/index |
+|                                                                                                                                                                                                                                              |                                                        |
+|   ERCOT notifies Market Participants concerning a variety of business and system activities.                                                                                                                                                 |                                                        |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------+
+|   Market Participant User Guides                                                                                                                                                                                                             |   http://www.ercot.com/services/mdt/userguides/index   |
+|                                                                                                                                                                                                                                              |                                                        |
+|   As a service to the market, ERCOT publishes helpful guides on how to use data extracts and applications.                                                                                                                                   |                                                        |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------+
+|   CRR Training Course                                                                                                                                                                                                                        |   http://www.ercot.com/services/training/course/109553 |
+|                                                                                                                                                                                                                                              |                                                        |
+|   CRR training course provided by ERCOT Staff.                                                                                                                                                                                               |                                                        |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------+
+|   Congestion Revenue Rights Market – web-based training                                                                                                                                                                                      |   http://www.ercot.com/services/training/course/115061 |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------+
+|   CRR Market User Interface Training                                                                                                                                                                                                         |   http://www.ercot.com/services/training/course/135261 |
+|                                                                                                                                                                                                                                              |                                                        |
+|   Web-Based Training module available through ERCOT’s Learning Management System (LMS) that explains how to perform common tasks within the CRR MUI application.                                                                             |                                                        |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------+
+|   CRR Activity Calendar                                                                                                                                                                                                                      |   http://www.ercot.com/mktinfo/crr/index.html          |
+|                                                                                                                                                                                                                                              |                                                        |
+|   Contains key dates/deadlines relevant to CRR Market activities, including auction notice dates, CRR network model posting dates, auction bid/offer submission periods, PCRR nomination submission periods, and other relevant information. |                                                        |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------+
+
+: Table 2: Nominations for OPT Hedge Type of Contract ID 1916
+
+ERCOT CRR Market Overview
+
+CRRs are financial instruments that result in a charge or a payment to the owner when the ERCOT transmission grid is congested in the Day Ahead Market (DAM). CRRs may be used as either a financial hedge or a financial investment. When used as a hedge, a CRR locks in the price of congestion at the purchase price of the CRR. When purchased as an investment, it may be used as a financial tool to speculate whether the congestion rent will be greater than the purchase price.
+
+The main purposes of the ERCOT CRR market are to:
+
+-   Support a liquid energy market by providing tradable financial instruments for the hedging of transmission congestion costs
+
+-   Allow Market Participants to eliminate or greatly reduce the cost uncertainties resulting from transmission congestion costs
+
+-   Encourage competitive energy trading, where the costs of congestion might otherwise be an impediment
+
+CRR Account Holder Registration and Qualification
+
+To participate in a CRR auction, an Entity must become a CRR AH and satisfy financial assurance criteria required to participate, under Section 16.8, Registration and Qualification of Congestion Revenue Rights Account Holders.
+
+A CRR AH is an entity that is registered and qualified to become the owner of record of CRRs in the nodal market. To register with ERCOT, an entity must submit the application and required materials along with any applicable fees. The application must be submitted at least 15 days before the first day of participation in the CRR auction process or purchase of CRRs.
+
+ERCOT Client Services coordinates Market Participant registration and qualification. Application materials may be acquired by visiting the following webpage: http://www.ercot.com/services/rq/crr/.
+
+Section 16 of the ERCOT Nodal Protocols contains more information regarding the registration and qualification of ERCOT Market Participants, including CRR AHs.
+
+As part of the qualification process, the CRR Team will work with the Market Participant to test the Market Participant’s ability to operate as a CRR AH using the MUI. This qualification test will include the following:
+
+-   Logging in to the CRR application as both a CP and an AH
+
+-   Entering a credit limit by the CP for an auction
+
+-   Logging in as an AH and verifying the credit limit submitted by the CP
+
+-   Downloading a file from the CRR system as an AH
+
+-   Uploading a bid portfolio as an AH
+
+-   Editing that bid portfolio as an AH
+
+-   Saving and submitting the portfolio to an auction
+
+ERCOT Client Services can provide Market Participants with additional documentation and assistance.
+
+CRR Non Opt-In Entity (NOIE) Qualification
+
+A NOIE is an Electric Cooperative or Municipally Owned Utility that does not offer Customer Choice. Pre-assigned Congestion Revenue Rights (PCRRs) are available to be allocated to NOIEs that meet the terms and conditions for PCRR Allocation found in Section 7 of the ERCOT Nodal Protocols.
+
+Annual Validation of NOIE Eligibility
+
+On at least an annual basis, ERCOT staff will work with NOIEs to confirm and validate their eligibility for PCRR allocation. This process will also allow the NOIEs to indicate any discrepancies in eligibility. If discrepancies are found, the NOIE may work with the CRR team and ERCOT Legal to resolve them.
+
+PCRRs are allocated to NOIEs no later than 25 Business Days prior to the CRR Long-Term Auction Sequence in which the PCRRs are first effective. Additional details on key dates and about timing for the annual allocation process can be found in the CRR Activity Calendar posted at http://www.ercot.com/mktinfo/crr/index.html.
+
+The CRR Market Operator will submit a form to each NOIE containing its PCRR eligibility amounts for the upcoming allocation year. NOIEs will be requested to review the eligibility data, submit changes if applicable, and return the form to the CRR Market Operator. After all forms have been returned and verified by the CRR Market Operator and the ERCOT Legal Department, the CRR system will be updated.
+
+CRR Allocation and Auction Time Lines
+
+ERCOT will initiate, direct and oversee the CRR allocations and auctions. The timeline will incorporate the following steps:
+
+-   A defined time-period, wherein AHs submit MW nominations for allocations and transactions for auctions.
+
+-   ERCOT market operators conduct the allocation or auction.
+
+-   Results are posted at the conclusion of the allocation or auction runs.
+
+The typical timeline for an annual PCRR allocation is as follows:
+
+-   During July of each year (approximately 18 months ahead of the PCRR Nomination Year), ERCOT staff sends PCRR eligibility forms to each of the eligible NOIEs.
+
+-   The NOIEs have approximately 2 weeks to review the PCRR eligibility forms and work with ERCOT to resolve any disputes or discrepancies.
+
+-   10 days after the end of the review period, the PCRR nomination window is opened and the NOIEs have 5 days to nominate PCRRs for the PCRR Nomination Year.
+
+-   Approximately 1 week after the nomination window closes, the PCRR allocation awards are posted for the entirety of the PCRR Nomination Year.
+
+The typical timeline for a single auction within a Long-Term Auction Sequence is as follows:
+
+-   At least 20 business days prior to the opening of the transaction window, ERCOT posts the network model on which the CRR auction will be executed. This posting occurs approximately 4 weeks ahead of the transaction window.
+
+-   Approximately 20 days prior to the opening of the transaction window, a Market Notice for the auction is sent out and the window for Market Participants to submit credit is opened.
+
+-   Approximately 2 weeks after the opening of the credit window, path-specific credit adders are calculated and posted.
+
+-   Approximately 5 days after the posting of the path-specific adders, the transaction window opens and AHs can begin submitting bids and offers for the auction.
+
+-   The transaction window and the credit window then close 2 days later. If the total number of transactions submitted by participating AHs is greater than the allowed limit, a transaction adjustment period begins and the AHs are given an additional day to submit transactions.
+
+-   ERCOT then takes approximately two weeks to execute the auction, review the results, and post the results for the Market Participants.
+
+The typical timeline for a monthly CRR auction is as follows:
+
+-   At least 10 business days prior to the opening of the transaction window, ERCOT posts the network model on which the auction will be executed. This posting occurs approximately 2 weeks ahead of the transaction window.
+
+-   Approximately 10 days prior to the opening of the transaction window, a Market Notice for the auction is sent out and the window for Market Participants to submit credit is opened.
+
+-   Approximately 1 week after the opening of the credit window, path-specific credit adders are calculated and posted.
+
+-   Approximately 5 days after the posting of the path-specific credit adders, the transaction window opens and AHs can begin submitting bids and offers for the auction.
+
+-   The transaction window and credit window then close 2 days later. If the total number of transactions submitted by participating AHs is greater than the allowed limit, a transaction adjustment period begins and the AHs are given an additional day to submit transactions.
+
+-   ERCOT then takes approximately 1 week to execute the auction, review the results, and post the results for the Market Participants.
+
+For dates specific to a given allocation or auction, Market Participants should consult the CRR Activity Calendar. The CRR Activity Calendar is a calendar of relevant auction dates each year and includes dates for both the remainder of the current year and the upcoming year. The information it contains includes key dates such as model posting dates, transaction submission window dates, and credit lock dates. The CRR Activity Calendar is available on MIS Public as a zipped Excel file. New versions of the file are posted following approval by the ERCOT Technical Advisory Committee.
+
+Categories of CRRs
+
+The types of CRRs supported by the ERCOT CRR System are:
+
+-   Point-to-Point (PTP) Options, some of which may be PCRRs
+
+-   PTP Obligations, some of which may be PCRRs
+
+-   PTP Options with refund, all of which are PCRRs
+
+-   PTP Obligations with refund, all of which are PCRRs
+
+PTP Options and PTP Obligations offer high bidder flexibility, because there is a large number of possible pairings of points in the transmission system at which ERCOT calculates Settlement Point prices in the Day-Ahead Market (DAM). Most CRRs are fully tradable bilaterally, however this is not the case for PTP Options with Refund and PTP Obligations with Refund.
+
+CRR Attributes
+
+The following table lists each CRR attribute, and a brief description.
+
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| CRR ID         | Unique identifier for each awarded/allocated CRR per market                                                             |
++================+=========================================================================================================================+
+| Segment ID     | Identifier that differentiates a profiled CRR that has been broken out after an auction or bilateral trade              |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Account Holder | Name as registered                                                                                                      |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Category       | PTP                                                                                                                     |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Hedge Type     | Obligation or Option                                                                                                    |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| CRR Type       | BASELOAD: PCRR Types, prior to payment, after payment switch to STANDARD                                                |
+|                |                                                                                                                         |
+|                | CAPACITY: PCRR Types, prior to payment, after payment switch to STANDARD                                                |
+|                |                                                                                                                         |
+|                | REFUND: PCRR Type                                                                                                       |
+|                |                                                                                                                         |
+|                | PREAWARD: CRRs that have not yet been paid for                                                                          |
+|                |                                                                                                                         |
+|                | STANDARD: CRRs that have been paid for                                                                                  |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Source         | MW injection point. Both the Source and the Sink are defined by a single Settlement Point.                              |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Sink           | MW withdrawal point (Settlement Point)                                                                                  |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Start Date     | Indicates the start of the CRR term, in mm/dd/yyyy format                                                               |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| End Date       | The end date of the CRR term, in mm/dd/yyyy format                                                                      |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time of Use    | PeakWD (Peak Weekday), PeakWE (Peak Weekend) or Off-peak. CRRs are auctionable and tradable only in time-of-use blocks. |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| MW             | MW amount, per hour, measured to one-tenth of a MW.                                                                     |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+
+CRR Hedge Types (Obligations and Options)
+
+A PTP Obligation allows negative revenue values, meaning that it is possible for an AH to owe ERCOT money depending on the results in an applicable DAM.
+
+A PTP Option, on the other hand, does not allow negative revenue values and therefore does not have the same DAM payout risk.
+
+For example, settlement in the DAM
+
+-   for a PTP Obligation is:
+
+  Hourly revenue to CRR holder = MWh Amount_(CRR) x [LMP_(sink) – LMP_(source)]
+
+-   for a PTP Option is:
+
+  Hourly revenue to CRR holder = MWh Amount_(CRR) x [LMP_(sink) – LMP_(source)] if [LMP_(sink) – LMP_(source)] ≥ 0
+
+= 0 if [LMP_(sink) – LMP_(source)] < 0
+
+CRR Clearing Prices
+
+A CRR Clearing Price is equal to the corresponding Shadow Price for that CRR product. The Shadow Price for a CRR product is the impact in the objective function of a one MW change to the CRR product.
+
+-   For PTP Obligations, this is calculated as the sum of the products of the binding constraint shadow prices and their shift factors.
+
+-   For PTP options, it is the sum of the products of the binding constraint shadow prices and their shift factors, including only non-negative shift factors.
+
+Note that the CRR auction system limits the ability of a CRR AH to have its submitted transactions awarded if the AH’s credit exposure for the auction exceeds the lesser of the AH’s self-imposed credit limit or the credit limit as prescribed in Section 16 of the Nodal Protocols.
+
+CRR System Overview
+
+The ERCOT CRR System was designed to allow AHs to participate in ERCOT’s CRR allocations and auctions, and ERCOT’s CRR Bilateral Market. AHs use the web-based CRR system to nominate allocations, bid or offer in auctions, submit self-imposed credit limits, view Messages and Downloads, and register CRR ownership changes. CPs can only access the CP CRR Available Credit Limit Editor and Messages pages.
+
+CRR System Components
+
+The CRR System has the following key components, shown below:
+
+-   Market User Interface (MUI) Subsystem – The MUI CRR interface is a state-of-the-art web-based market interface subsystem that allow AHs to:
+
+    -   View and download common data, common allocation/auction results, and associated common announcements and messages
+
+    -   View and download private data, private allocation/auction results and to view private messages
+
+    -   Manage and submit their CRR nominations, bids and/or offers for an upcoming allocation and auction
+
+    -   Register ownership changes resulting from private bilateral trades of CRRs
+
+-   Market Operator Interface (MOI) Subsystem – The MOI subsystem is a web-based system through which ERCOT personnel will operate and manage the CRR System. This interface is not available to Market Participants.
+
+-   CRR Database Subsystem – The Database subsystem manages all access to both common and private data in the CRR System. All transaction data submitted by AHs is stored in this database.
+
+-   CRR Data Interface Subsystem – The Data Interface subsystem manages all the data exchange from and to other ERCOT Systems. This data typically includes registration and credit information, network and network related data, CRR ownership, inventory, etc.
+
+-   CRR Calculation Subsystem – This subsystem is based on Nexant's iHedge FTR Market Simulator software. This software is a versatile multi-function product that includes contingency constrained optimal power flow for CRR auction and allocation calculations, as well as simultaneous feasibility analysis.
+
+Although, the ERCOT CRR System utilizes all the subsystems briefly mentioned above for successful and viable operations of ERCOT’s CRR market, AHs are exposed to the MUI only. Therefore, this manual is primarily focused on the MUI Subsystem features and functionalities.
+
+[]
+
+Figure 1: CRR System, its Components & Interfaces with other ERCOT Systems
+
+ERCOT Market Information System
+
+Market Participants interface with the ERCOT CRR System via the ERCOT Market Information System (MIS). MIS is accessed via the Internet and supports Google Chrome version 100 and above as well as Microsoft Edge version 100 and above.
+
+A valid AH and/or CP Digital Certificate must be installed in order to be granted access to the CRR System. Digital certificates are provided after successful completion of the CRR AH/CP registration and qualification processes.
+
+MIS Access and Navigation
+
+The MIS is the single point of entry for AHs and CPs to access the ERCOT market systems. The CRR System registration for AHs is managed by ERCOT Registration. Digital certificates are required to be installed in the Market Participants’ browsers. These digital certificates are generated at the user level and used to access all ERCOT market systems to which a user has privileges.
+
+Overview of Account Holder User Interface Functions
+
+The MUI for AHs has six main menu headings. These six menu headings allow AHs to access all the functionalities to allow them to participate in ERCOT’s CRR market. The six main menu headings that the CRR AH will see are:
+
+-   PCRR Nominations
+
+-   CRR Bids/Offers
+
+-   Bilateral Market
+
+-   Credit Limit
+
+-   Download
+
+-   Message
+
+The main menu headings of the Market User Interface are shown below:
+
+[]
+
+Figure 2: MUI Account Holder Menu Headings
+
+Each menu heading contains links to various managers or displays:
+
+-   PCRR Nominations – NOIE AHs place their allocation nominations using this tab.
+
+-   CRR Bids/Offers – AHs enter their auction portfolios through this tab. In addition, the AH can download and update previously created portfolios, as long as they have not been submitted to a particular auction.
+
+-   Bilateral Market – This tab allows AHs to access the Bilateral Market functionality of the CRR System. CRR AHs can post sell offers for Bilateral Market transactions.
+
+-   Credit Limit – Using this tab, AHs input, change and view the CRR credit limits they assign to each CRR auction market.
+
+-   Download – Using this tab, AHs may download and view various types of market and network related data.
+
+-   Message – This tab displays all common and private messages posted by the ERCOT CRR Operator for AHs.
+
+Please note that each of these functionalities is explained further in the following chapters. The following figure shows the navigational structure under each main tab, and gives functional details for each link.
+
+[]
+
+Figure 3: Main AH User Interface Tabs and Functionalities
+
+Document Upload/Download Specifications
+
+The MUI Specifications document, downloadable via the ERCOT Public website and the MIS, describes data items relevant to the CRR market that are submitted or retrieved by Market Participants.
+
+Information on each data item may include:
+
+-   Role of person submitting/retrieving the data (CRR AH, NOIE, etc.)
+
+-   Attributes (Name, ID, MW Amount, Price, etc.)
+
+-   Format (PSS/E, .xml, .csv)
+
+-   Method (download/upload, view, enter, etc.)
+
+-   Timing (when data is submitted/available to be retrieved)
+
+-   High-level explanation of purpose (and if applicable, how it is used in the system)
+
+-   Any additional details (special rules, etc.)
+
+-   Samples (.csv tables, etc. – xml samples are included in the appendix)
+
+Refer to the MUI Specifications document to obtain information regarding the uploading/downloading of common and private data for the data described in the following sections.
+
+PCRR Nominations: Managing Nominations
+
+Another important function of the CRR MUI is to manage the nominations of annual PCRRs. The PCRR Nominations menu allows NOIE AHs to view the status of the existing PCRR annual and monthly allocations, nominate PCRRs and review and download nominations and results. This section explains the functionalities available to manage the candidate PCRRs.
+
+Nominations Flow
+
+The figure below shows the general flow of events/actions in the PCRR Nominations page.
+
+[]
+
+Figure 4: Flow Diagram for Nominations Manager
+
+Nomination Portfolio
+
+The PCRR Nominations menu item takes the user to the Nomination Portfolio page:
+
+[]
+
+Figure 5: Nomination Portfolio Page
+
+Functionality
+
+The user would use this page to:
+
+-   View open, closed and posted Allocation Market(s) from the market drop-down list. Only markets for which the NOIE has eligible contract(s) are shown in this list.
+
+-   Review the effective start/end dates of the market.
+
+-   Review the nomination window of the market.
+
+-   View the status of the allocation portfolio. A portfolio with ‘New’ status is created for an Allocation by the system during market setup.
+
+-   Download the allocation portfolio in CSV format.
+
+-   Submit the allocation portfolio to the market during a nomination window.
+
+-   Retract the allocation portfolio from the market during a nomination window.
+
+-   Download the error message(s) if the allocation portfolio submission or retraction was not successful.
+
+-   Navigate to the Nomination Editor by clicking on the hyperlink of the Portfolio Name.
+
+These functionalities are summarized below.
+
+Nomination Portfolio Page Data Fields
+
+The data fields are:
+
+-   Market – Name of the allocation. By default, the portfolio shown on the page when the PCRR Nominations menu is clicked is for the first allocation market in the market drop-down list. The market list is sorted by market open date in descending order. The allocation markets shown in this list are grouped in three (3) categories – open market, closed market and posted market. An allocation whose nomination window is not yet open is not in the list. Open markets are shown with their open date after the market names.
+
+-   Effective Start and End Dates – Dates for which a selected allocation market is effective
+
+-   Nomination Window, Open and Close Dates – Open and close dates for the period during which an AH can view and/or modify and submit candidate PCRRs
+
+-   A system generated portfolio (containing Candidate PCRRs) will be displayed, once the user selects the allocation market. The auto-generated portfolio name follows the pattern [AccountHolderName]-[MarketName].
+
+-   The CSV link under the download column allows the AH to download the allocation portfolio. A sample file is shown below in Figure 11.
+
+-   Once the portfolio is created by the system, it undergoes the following transitions of status :
+
+    -   New: Portfolio of Candidate PCRRs has been created, but nominations have not been made or validated. The portfolio must be saved for its status to be changed to Valid (Not submitted) or Error.
+
+    -   Valid (Not submitted): Candidate PCRRs nominations have been made and they are in compliance with eligible MW and capacity factor validations. The portfolio has not yet been submitted to the allocation or it has been retracted from being submitted to the allocation.
+
+    -   Error: Candidate PCRR nominations have been made but they are not in compliance with eligible MW and capacity factor validations. The portfolio cannot be submitted to the allocation.
+
+    -   Submitted: A valid portfolio has been submitted to the allocation.
+
+        NOTE: When the PCRR portfolio advances from “New” to “Valid (Not Submitted)” status, as shown in Figure 5, the system reveals the “Submit” button under the Submit column if the Nomination Window is open. The Retract column continues to be blank.
+
+-   When the user clicks the “Submit” button, the system prompts a window for the user to confirm if the user wants to submit the portfolio. Once the submission is confirmed, the Status of the portfolio changes to “Submitted”, the “Submit” button disappears and the Retract button becomes available.
+
+-   When the user clicks the “Retract” button, the system prompts a window for the user to confirm if the user wants to retract the portfolio. Once the retraction is confirmed, the Status of the portfolio changes from “Submitted” to “Valid (Not Submitted)”, the “Submit” button reappears while the “Retract” button disappears. At this point, the allocation portfolio can be modified.
+
+-   To navigate to the PCRR Nomination Summary and Editor, click the link associated with the portfolio name. A summary table shows the AH’s eligible and nominated candidate MW amounts for contracts of Capacity, Refund and Baseload types for the selected allocation market. Below the Summary table, the PCRR Nomination Editor displays the pre-created candidate PCRRs for the AHs to view eligible MW and modify PCRR nominated MW per contract, calendar period, source, sink, TOU and hedge type.
+
+Nomination Summary
+
+Clicking on the link associated with the allocation portfolio name on the Nomination Portfolio page takes the user to the Nomination Summary and Editor page. The top pane of the page displays the portfolio name, the effective dates of the allocation and the open/close dates of the nomination window. In addition, the top pane provides a summary of the account holder’s eligible and nominated candidate PCRR MW amounts for contracts of Capacity, Refund and Baseload types, for each calendar period in the market.
+
+[]
+
+Figure 6: Nomination Summary
+
+The summary table can be minimized and maximized using the double arrow on the top right of the summary table or using the arrow between the summary table and nomination editor (shown on the bottom of Figure 6). In addition, the height of the summary table can be adjusted by moving the line where the arrow exists between the summary table and nomination editor.
+
+Functionality
+
+The user would use this page to:
+
+-   Review the account holder’s eligible MW amounts for each calendar period in the allocation market for the contract types of
+
+    -   Baseload
+
+    -   Gas Steam
+
+    -   Other
+
+-   Review the account holder’s nominated candidate PCRR MW amounts for each calendar period in the allocation market for the contract types of
+
+    -   Capacity
+
+    -   Refund
+
+    -   Baseload
+
+Nomination Summary Data Fields
+
+The data fields are:
+
+-   Portfolio name
+
+-   Effective Start and End Dates – Dates for which a filtered allocation market is effective
+
+-   Nomination Window, Open and Close Dates – Open and close dates for the period during which an account holder can view, modify one’s candidate PCRRs
+
+-   Calendar Period – Name of the calendar period. Twelve periods are listed for an annual allocation while one period is listed for the monthly allocation.
+
+-   Total Eligible MW for Baseload, Gas Steam and Other types of contracts.
+
+-   Total Nominated MW for the three times of use – PeakWD, Off-peak and PeakWE – for the three types of PCRRs (Capacity, Refund and Baseload).
+
+Nomination Editor
+
+Nomination Editor contains all functional icons and two tabs for “Cap & Refund” nomination editor and “Baseload” nomination editor.
+
+Capacity and Refund Tab
+
+The Cap & Refund tab is an editor for capacity and refund nominations. By default, the Cap & Refund tab, as shown in Figure 7, is displayed when the nomination editor page is open.
+
+[]
+
+Figure 7: Cap & Refund Page
+
+Functionality
+
+The user would use this page to:
+
+-   Save the candidate nominations (click on Save icon) whose Type and/or Nominated MW is modified on the editor.
+
+-   A nomination that fails a validation will be saved with ERROR status and the portfolio will be set in ERROR status. The error for each nomination can be viewed by clicking the plus sign in front of the first column (see Figure 10).
+
+-   Upload nominations for PCRR allocation (click on the icon “Upload”).
+
+    -   The uploaded file can have all of the (Capacity, Refund and Baseload) candidate PCRRs for the account holder for all particular calendar periods in the allocation market.
+
+    -   The nominations in the upload file will be saved by the system as part of the upload process if all nominations (including the baseload types) are valid (no validation error).
+
+    -   None of the nominations in the upload file will be saved if at least one nomination fails a data validation.
+
+-   Download the PCRR allocation portfolio (click on the icon “Download Portfolio”).
+
+    -   The downloaded file will have all of the (Capacity, Refund and Baseload) candidate PCRRs for the account holder for all calendar periods in the allocation market.
+
+-   Download the error messages associated with this PCRR allocation portfolio (click on the icon “Download Error Message”).
+
+    -   Note that the downloaded file will have the error message of all invalid candidate PCRRs.
+
+-   Clear all filters applied to the columns of the Nomination Editor (click on the icon “Clear Filters”).
+
+-   Modify candidate PCRR nominations by:
+
+    -   Toggling the type between CAPACITY and REFUND.
+
+  Note that if the AH modifies the type from either CAPACITY to REFUND or vice versa on a candidate PCRR, the type of all candidates for the same contract ID, source and sink (for all periods, TOUs and Hedge Types) is automatically modified and saved when Save icon is clicked.
+
+-   Editing the nomination MW for each candidate PCRR.
+
+-   Refresh the page (click on [refresh icon] icon at the bottom left of the page).
+
+    -   Note that the modifications will be lost if the AH has not already saved them.
+
+-   Recalculate the capacity factors (click on Save icon).
+
+    -   Note that the modified Nominated summaries at the top of the page are not saved until the user clicks on the Save button.
+
+-   Search for particular candidate PCRRs (click on Filter icon).
+
+Note that the Save and Upload icons are visible only during the nomination window and only if the portfolio has not been submitted to the allocation.
+
+The functionalities on the page are shown below:
+
+[Wor92F1]
+
+Figure 8: Cap & Refund Page Functionalities
+
+[Wor1C1E]
+
+Figure 9: Cap & Refund Page Functionalities (Continued)
+
+[]
+
+Figure 10: Cap & Refund Nominations in Error
+
+Capacity and Refund Page Data Fields
+
+The data fields are:
+
+-   For each candidate PCRR:
+
+    -   Contract ID – Contract ID as entered by the ERCOT CRR Market Operator (not editable)
+
+    -   Status – System calculated value of the status of the PCRR. It can take on the values of “VALID” or “ERROR”.
+
+    -   Entitlement ID – Entitlement ID as entered by the ERCOT CRR Market Operator (not editable)
+
+    -   Candidate ID – Candidate PCRR ID created by ERCOT iHedge (not editable)
+
+    -   Period – Period name as entered by the ERCOT CRR Market Operator (not editable)
+
+    -   Source – Source name as entered by the ERCOT CRR Market Operator (not editable)
+
+    -   Sink – Sink name as entered by the ERCOT CRR Market Operator (not editable)
+
+    -   Time-of-use – Time-of-use of the corresponding contract (not editable)
+
+    -   Contract – (Gas Steam or Other) – Contract type created by ERCOT iHedge (not editable)
+
+    -   Type – (Capacity, Refund) – (editable by toggling between Capacity and Refund)
+
+    -   Hedge Type – Hedge type – Obligation (OBL) or Option (OPT) (not editable)
+
+    -   Eligible MW – Maximum eligible amount for a particular contract (not editable). Note that this MW amount is used to validate the sum of nominated MW for OPT and OBL candidates for the same contract ID, source, sink, period and TOU.
+
+    -   Nominated MW – Nominated MW (editable)
+
+    -   Allocated MW – Allocated MW (not editable). This field is initialized to zero before the allocation market is posted. Once the allocation market is posted, this field is updated with the awarded MW of the allocation.
+
+    -   Annual Capacity Factor – Calculated by iHedge for candidates of type Capacity (not editable)
+
+    -   Account Holder – AH name as entered by the ERCOT CRR Market Operator (not editable)
+
+Usage
+
+The AH can use the download and upload functionalities to use a more powerful editor (such as MS Excel) to modify one’s candidate PCRRs. Download and upload functionalities follow standard Windows rules.
+
+The user can modify and upload nominations for an upcoming PCRR allocation only when the nomination period for a particular annual PCRR allocation is open. After this nomination period closes, nominations cannot be modified.
+
+The figure below shows the contents and layout of a valid candidate PCRR file (in CSV format) that can be uploaded to iHedge.
+
+[Wor9F8E]
+
+Figure 11: Sample Allocation Portfolio
+
+Please note that the users are highly encouraged to download the candidate PCRRs using the download functionality and modify this file for valid content and format.
+
+The system does not validate every field in the upload file. Only Candidate (ID), Account Holder, Time-of-use, Type, Period and Nominated MW fields will be validated during upload. If other columns contain values that do not match the values shown in the download file or nomination editor, they will be ignored and not saved. Please note that types and nominated MW of all nominations in the upload file will be automatically saved if there are no validation violations. None of the nominations will be saved if there is at least one validation violation. On the other hand, when the nominations are modified on the editor and the Save icon is clicked, the nominations that fail the validation will still be saved and the portfolio is set to be in ERROR status.
+
+As noted above, if the AH modifies the type from either CAPACITY to REFUND or vice versa on a candidate PCRR, the type of all candidates for the same contract ID, source and sink (for all periods, TOUs and Hedge Types) is automatically modified and saved. For example, if the AH changes the type to REFUND for the contract ID xxx, source A and sink B for February period and PeakWD TOU, the type for all candidate PCRRs corresponding to the contract ID xxx, source A and sink B is automatically changed to REFUND for all periods that contract is valid, 3 TOUs and 2 hedge types (OBL and OPT). If the contract is valid for 12 periods, the type of 72 candidates will be changed from CAPACITY to REFUND.
+
+For a period and a TOU of a PCRR contract on a source-sink path, there are two candidates – one is for OPT hedge type and the other one is for OBL hedge type. The total nominated MW amount of both OPT and OBL candidates for the same contract ID, source, sink, period and TOU must be within the eligible MW amount. As shown in Figure 10, the first two candidates are in ERROR status because the total nominated MW amount of both candidates (46,200 MW) exceeds the eligible MW (42,000 MW). Both candidates are considered to be in ERROR, although the nominated MW of OBL candidate is within the eligible MW amount. Similarly, both candidates are considered to be in ERROR, if the nominated MW of a candidate for a hedge type exceeds its eligible MW while another candidate for the other hedge type in the same contract ID, source, sink, period and TOU has zero nominated MW.
+
+Also, note that the Nodal Protocols and CRR Requirements Specification require that “the CRR System shall also impose limits on each resource to affect a capacity factor limit of 40% for resources eligible for PCRRs marked with the “capacity option”.
+
+-   The capacity factor is calculated from all nominations for the same source-sink path and contract ID. For example, contract ID 1916 has 5 corresponding entitlements with eligible MW shown in Table 1. Seasonal eligible MWH is calculated from total number of hours in between start and end dates multiplied by entitlement MW. Annual Eligible MWH is the sum of all seasonal eligible MWH. For this example, it is 1,473,420.1. Assume that none of the obligation candidates for the contract ID 1916 are nominated and some of the option candidates are nominated as shown in Table 2. The nominated MWH for each nomination is calculated from nominated MW multiplied by the number of hours for the TOU and period of the particular nomination. The total nominated MWH of all nominations for contract ID 1916 is 338,582.4. The Annual Capacity Factor is calculated from 338,582.4 divided by 1,473,420.1 which is equal to 23%. Therefore, all nominations for this contract ID, source and sink are valid because the Annual Capacity Factor is less than or equal to 40%.
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+  Contract ID   Entitlement ID   Source   Sink    Start Date   End Date     Entitlement MW   Seasonal Eligible MWH (Entitlement MW * No. of Hours)
+  ------------- ---------------- -------- ------- ------------ ------------ ---------------- -------------------------------------------------------
+  1916          3748             GenOne   LSE 4   1/1/2018     2/28/2018    189.4            268,190.4
+
+  1916          3749             GenOne   LSE 4   3/1/2018     5/31/2018    160.7            354,664.9
+
+  1916          3750             GenOne   LSE 4   6/1/2018     8/31/2018    160.7            354,825.6
+
+  1916          3751             GenOne   LSE 4   9/1/2018     11/30/2018   160.7            354,825.6
+
+  1916          3752             GenOne   LSE 4   12/1/2018    12/31/2018   189.4            140,913.6
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+
+  ---------------------------------------------------------------------------------------------------------------
+  Candidate ID   Entitlement ID   Contract ID   TOU        Period     Hedge Type   Nominated MW   Nominated MWH
+  -------------- ---------------- ------------- ---------- ---------- ------------ -------------- ---------------
+  1              3763             1916          PeakWD     JAN 2018   OPT          0              0
+
+  2              3763             1916          PeakWE     JAN 2018   OPT          0              0
+
+  3              3763             1916          Off-Peak   JAN 2018   OPT          0              0
+
+  4              3763             1916          PeakWD     FEB 2018   OPT          0              0
+
+  5              3763             1916          PeakWE     FEB 2018   OPT          0              0
+
+  6              3763             1916          Off-Peak   FEB 2018   OPT          0              0
+
+  7              3764             1916          PeakWD     MAR 2018   OPT          94.6           33,299.2
+
+  8              3764             1916          PeakWE     MAR 2018   OPT          0              0
+
+  9              3764             1916          Off-Peak   MAR 2018   OPT          94.6           23,366.2
+
+  10             3764             1916          PeakWD     APR 2018   OPT          94.6           31,785.6
+
+  11             3764             1916          PeakWE     APR 2018   OPT          94.6           13,622.4
+
+  12             3764             1916          Off-Peak   APR 2018   OPT          47.8           11,472
+
+  13             3764             1916          PeakWD     MAY 2018   OPT          94.6           33,299.2
+
+  14             3764             1916          PeakWE     MAY 2018   OPT          0              0
+
+  15             3764             1916          Off-Peak   MAY 2018   OPT          94.6           23,460.8
+
+  16             3765             1916          PeakWD     JUN 2018   OPT          94.6           31,785.6
+
+  17             3765             1916          PeakWE     JUN 2018   OPT          0              0
+
+  18             3765             1916          Off-Peak   JUN 2018   OPT          0              0
+
+  19             3765             1916          PeakWD     JUL 2018   OPT          0              0
+
+  20             3765             1916          PeakWE     JUL 2018   OPT          0              0
+
+  21             3765             1916          Off-Peak   JUL 2018   OPT          0              0
+
+  22             3765             1916          PeakWD     AUG 2018   OPT          0              0
+
+  23             3765             1916          PeakWE     AUG 2018   OPT          0              0
+
+  24             3765             1916          Off-Peak   AUG 2018   OPT          0              0
+
+  25             3766             1916          PeakWD     SEP 2018   OPT          0              0
+
+  26             3766             1916          PeakWE     SEP 2018   OPT          0              0
+
+  27             3766             1916          Off-Peak   SEP 2018   OPT          0              0
+
+  28             3766             1916          PeakWD     OCT 2018   OPT          94.6           34,812.8
+
+  29             3766             1916          PeakWE     OCT 2018   OPT          0              0
+
+  30             3766             1916          Off-Peak   OCT 2018   OPT          0              0
+
+  31             3766             1916          PeakWD     NOV 2018   OPT          94.6           31,785.6
+
+  32             3766             1916          PeakWE     NOV 2018   OPT          94.6           13,622.4
+
+  33             3766             1916          Off-Peak   NOV 2018   OPT          94.6           22,798.6
+
+  34             3767             1916          PeakWD     DEC 2018   OPT          104.6          33,472
+
+  35             3767             1916          PeakWE     DEC 2018   OPT          0              0
+
+  36             3767             1916          Off-Peak   DEC 2018   OPT          0              0
+  ---------------------------------------------------------------------------------------------------------------
+
+-   Cap & Refund page will automatically calculate the factor percentage per source-sink path and contract ID through all calendar periods, all TOUs and all hedge types, based on the amounts nominated.
+
+-   Background validations will ensure that the capacity factor is not greater than 40% for a particular contract if Capacity type is chosen.
+
+Note that the nomination editor enforces strict rules for data to ensure data integrity. Where applicable, only pull-down editing is allowed. In addition, the nomination editor enforces the following rules for the user editable fields:
+
+-   Nomination MW
+
+    -   Real Number with 1 decimal point
+
+    -   Valid range is greater than or equal to 0
+
+Baseload Tab
+
+The Baseload tab from the Nomination Editor page takes the user to the Baseload page:
+
+[WorD495]
+
+Figure 12: Baseload Page
+
+Functionality
+
+The user would use this page to:
+
+-   Save the candidate nominations (click on Save icon) whose Type or/and Nominated MW is modified on the editor.
+
+-   A nomination that fails a validation will be saved with ERROR status and the portfolio will be set in ERROR status. The error for each nomination can be viewed by clicking the plus sign in front of the first column (see Figure 10).
+
+-   Upload nominations for PCRR allocation (click on the icon “Upload”).
+
+    -   The uploaded file can have all of the candidate PCRRs (Capacity, Refund and Baseload) for the account holder for all calendar periods in the allocation market.
+
+    -   The nominations in the upload file will be saved by the system as part of the upload process if all nominations (including the baseload types) are valid (no validation errors).
+
+    -   None of the nominations in the upload file will be saved if at least one nomination fails a data validation.
+
+-   Download the PCRR allocation portfolio (click on the icon “Download Portfolio”).
+
+    -   The downloaded file will have all of the candidate PCRRs (Capacity, Refund and Baseload) for the account holder for all calendar periods in the allocation market.
+
+-   Download the error messages associated with this PCRR allocation portfolio (click on the icon “Download Error Message”).
+
+    -   Note that the downloaded file will have the error message of all invalid candidate PCRRs.
+
+-   Clear all filters applied to the columns of the Nomination Editor (click on the icon “Clear Filters”).
+
+-   Modify candidate PCRR nominations by:
+
+    -   Toggling the type between CAPACITY and REFUND.
+
+  Note that if the AH modifies the type from either CAPACITY to REFUND or vice versa on a candidate PCRR, the type of all candidates for the same contract ID, source and sink (for all periods, TOUs and Hedge Types) is automatically modified and saved when Save icon is clicked.
+
+-   Editing the nomination MW for each candidate PCRR.
+
+-   Refresh the page (click on [refresh icon] icon at the bottom left of the page).
+
+    -   Note that the modifications will be lost if the AH has not already saved them.
+
+-   Recalculate the capacity factors (click on Save icon).
+
+    -   Note that the modified Nominated summaries at the top of the page are not saved until the user clicks on Save button.
+
+-   Search for particular candidate PCRRs (click on Filter icon).
+
+Note that the Save and Upload icons are visible only during the nomination window and only if the portfolio has not been submitted to the allocation.
+
+The functionalities on the page are shown below:
+
+[Wor5210]
+
+Figure 13: Baseload Page Functionalities
+
+[Wor96CE]
+
+Figure 14: Baseload Page Functionalities (Continued)
+
+Baseload Page Data Fields
+
+The data fields are:
+
+-   For each candidate PCRR:
+
+    -   Contract ID – Contract ID as entered by the ERCOT CRR Market Operator (not editable)
+
+    -   Status – System calculated value of the status of the PCRR. It can take on the values of “VALID” or “ERROR”.
+
+    -   Entitlement ID – Entitlement ID as entered by the ERCOT CRR Market Operator (not editable)
+
+    -   Candidate ID – Candidate PCRR ID created by ERCOT iHedge (not editable)
+
+    -   Period – Period name as entered by the ERCOT CRR Market Operator (not editable)
+
+    -   Source – Source name as entered by the ERCOT CRR Market Operator (not editable)
+
+    -   Sink – Sink name as entered by the ERCOT CRR Market Operator (not editable)
+
+    -   Time-of-use – Time-of-use of the corresponding contract (not editable)
+
+    -   Contract – Baseload - Contract Type created by ERCOT iHedge (not editable)
+
+    -   Type – BASELOAD – Type created by ERCOT iHedge (not editable)
+
+    -   Hedge Type – Hedge Type – Obligation (OBL) or Option (OPT) (not editable)
+
+    -   Eligible MW – Maximum eligible amount for a particular contract (not editable)
+
+    -   Nominated MW – Nominated MW (editable)
+
+    -   Allocated MW – Allocated MW (not editable). This field is initialized to zero before the allocation market is posted. Once the allocation market is posted, this field is updated with the awarded MW of the allocation.
+
+    -   Account Holder – AH name as entered by the ERCOT CRR Market Operator (not editable)
+
+Usage
+
+The AH can use the download and upload functionalities to use a more powerful editor (such as MS Excel) to modify one’s candidate PCRRs.
+
+The user can modify and upload nominations for an upcoming PCRR allocation only when the nomination period for a particular annual PCRR allocation is still open. After this nomination period closes, nominations cannot be modified.
+
+The figures below show the contents and layout of a valid candidate PCRR file (in CSV format) that can be uploaded to iHedge.
+
+[]
+
+Figure 15: PCRR Upload File
+
+Please note that users are encouraged to download the candidates and manipulate the file for valid content and format.
+
+The system does not validate every field in the upload file. Only Candidate (ID), Account Holder, Time-of-use, Type, Period and Nominated MW fields will be validated during upload. If other columns contain values that do not match the values shown in the download file or nomination editor, they will be ignored and not saved. Please note that types and nominated MW of all nominations in the upload file will be automatically saved if there are no validation violations. None of the nominations will be saved if there is at least one validation violation. On the other hand, when the nominations are modified on the editor and the Save icon is clicked, the nominations that fail the validation will still be saved and the portfolio is set to be in ERROR status.
+
+For a period and a TOU of a PCRR contract on a source-sink path, there are two candidates – one is for OPT hedge type and the other one is for OBL hedge type. The total nominated MW amount of both OPT and OBL candidates for the same contract ID, source, sink, period and TOU must be within the eligible MW amount. Otherwise, both candidates will be considered to be in ERROR, even if the nominated MW of one of the candidates is within the eligible MW amount or is equal to zero.
+
+Note that the nomination editor enforces strict rules for data to ensure data integrity. Where applicable, only pull-down editing is allowed. In addition, the nomination editor enforces the following rules for the user editable fields:
+
+Nomination MW
+
+Real Number with 1 decimal point
+
+Valid range is greater than or equal to 0
+
+Auction Portfolio List: Managing Auction Portfolios
+
+One of the important functions of the CRR MUI is to manage CRR auction portfolios. Each valid CRR portfolio consists of a set of valid CRR transactions (PTP bid or offers). This section explains the functionalities available to manage the auction portfolios.
+
+Auction Portfolio Flow
+
+The general flow of events/actions in the Auction Portfolio List page is shown below.
+
+[]
+
+Figure 16: Auction Portfolio Flow
+
+Auction Portfolio List Page
+
+The CRR Bids/Offers link takes the user to the Auction Portfolio List page:
+
+[Wor366D]
+
+Figure 17: Auction Portfolio List Page
+
+Functionality
+
+The user would use this page to:
+
+-   View a list of open, closed and posted auctions from the market drop-down list.
+
+-   View the user’s list of existing portfolios for the selected CRR auction.
+
+-   View the status of the list of user portfolios for the selected CRR auction.
+
+-   Create a new bid portfolio from an upload file by clicking on Add New, browsing an upload file and clicking the Create Portfolio button (the upload file automatically appears as the portfolio name).
+
+-   Create a blank bid portfolio by leaving the upload file blank, entering the portfolio name and clicking the Create Portfolio button.
+
+-   Edit an existing portfolio (click on the portfolio name link).
+
+-   Download an existing portfolio (click on the XML or CSV link for the corresponding portfolio).
+
+-   Submit a portfolio to an auction or retract it from an auction (click Submit or Retract buttons for the corresponding portfolio) during the bid window.
+
+    -   The user will not be able to edit any bids or offers in a submitted portfolio, they will only be able to view them.
+
+    -   If the user wants to modify the portfolio, one has to retract it and then click on the portfolio name link.
+
+-   Delete portfolio(s) (click Delete button for the corresponding portfolio). Delete button is not available when the portfolio is submitted to an auction.
+
+Refresh the list (click on Refresh) to see any updated statuses.
+
+  [WorC7C5]
+
+Figure 18: Auction Portfolio List Page Functionality
+
+Auction Portfolio List Data Fields
+
+The data fields on this page are:
+
+-   Portfolio Name – Name of the portfolio. Click on the name to view and/or modify it in the Portfolio Editor.
+
+-   Date Modified – Date when the portfolio was last modified.
+
+-   Download – Click on the hyperlink to download the portfolio in the desired format (CSV or XML).
+
+-   Status
+
+    -   New: Portfolio has been created, but bids/offers have not been made or validated. The portfolio must be saved for its status to be changed to Valid (Not submitted) or Error.
+
+    -   Valid (Not submitted): Bids/Offers have been created and validated. The portfolio has not yet been submitted to the auction.
+
+    -   Error: Bids/Offers have been created but the validation was not successful. The portfolio cannot be submitted to the auction.
+
+    -   Submitted: A valid portfolio was submitted to the auction.
+
+    -   NOTE: When an auction portfolio advances from “New” to “Valid (Not Submitted)” status, as shown in Figure 18, the system will reveal the “Submit” button under the Submit column if the Nomination Window is open. The Retract column will continue to be blank.
+
+-   Submit – This field contains a button named “Submit” if the portfolio is within the bid window. Click the button to submit the portfolio to the auction. This action submits the portfolio to the auction, removes the “Submit” button, and enables the “Retract” button in the next column. The portfolio status changes to “Submitted”. The following validations are performed when the Submit button is clicked.
+
+    -   Total number of submitted bids and offers must be within a total submitted transactions per AH and auction that is defined by the CRR market operator.
+
+    -   Total MW amount of sell offers for the same CRR submitted to the specific market for the same effective dates must be within the available MW of the CRR.
+
+-   Retract – This field contains a button named “Retract” during the bid window. Click the button to retract the portfolio from the auction. This must occur before the bid window ends. This action retracts the portfolio from the auction, removes the “Retract” button, and enables the “Submit” button in the previous column. The portfolio then reverts to “Valid (Not Submitted)” status.
+
+-   Delete – This field contains a button named “Delete”. A portfolio can be deleted as long as it is not in the “Submitted” state. Click the button to delete the portfolio.
+
+-   Msg – This field will be blank unless there is an error during portfolio submission (such as exceeding the total transaction limit).  When the portfolio submission process results in an error, this field contains a link. Click on this link to download the errors encountered during the portfolio submission.
+
+Usage of Auction Portfolio List Buttons
+
+The buttons on this page are:
+
+-   Refresh – Updates the above list after any changes that were made.
+
+-   Add New – Prompts the user with a pop-up box for the creation of a new portfolio.
+
+    []
+
+Figure 19: Create New Portfolio Pop Up window
+
+-   To enter the portfolio name, type the name in text box adjacent to the “Portfolio Name”. The text box will limit the user to enter text up to 50 characters.
+
+-   Validate the uniqueness of the portfolio name by clicking in the surrounding area in the pop-up window.
+
+    []
+
+Figure 20: Flagging an Invalid (Duplicate) Portfolio Name
+
+[WorC28A]
+
+Figure 21: Flagging a Valid Portfolio Name
+
+Optionally, CRR bids/offers for an auction can be entered into the system using the Upload Bid File feature.
+
+-   The user is prompted for a file name and location on the user’s computer.
+
+    [Wor31E4]
+
+Figure 22: Browsing for the Uploadable Bid file
+
+See below for a sample upload file.
+
+[Wor7993]
+
+Figure 23: Sample Upload file
+
+-   Once the user selects a file to be uploaded,
+
+    -   The file name with the full path is populated in the Upload Bid File textbox.
+
+    -   The file name is picked up as the portfolio name. This name is immediately validated. The portfolio name must be unique within the portfolio list of the AH for the selected auction and the name length must be within 50 characters.
+
+        []
+
+Figure 24: Completing the Portfolio Upload Process
+
+-   The contents of the file are validated and a confirmation window is displayed. The system will prompt the number of valid (processed) records from the upload if the upload is successful. The system will prompt the number of valid records, the number of failed records and the number of processed records (which is the number of records in the upload file) if there are any errors.
+
+-   If all bids/offers in the upload file are valid, they will be saved. If one or more bids/offers in the upload file fail the data validations, the portfolio will not be created.
+
+    [Capture]
+
+Figure 25: Confirmation of the validation of the portfolio content
+
+-   Once the upload is successful, the system automatically opens the Auction Portfolio Editor to allow the user to view and/or make any other changes on the saved bids/offers.
+
+The user can create one or more portfolios for an upcoming CRR auction. The portfolios can only be submitted while the bidding window is open. After the bidding window closes, portfolios can no longer be submitted.
+
+Similarly, the user can retract portfolios only while the bidding window is open. After a bidding window closes, portfolios can no longer be retracted. Please note that the retraction action does not remove the portfolio from the user’s portfolio list.
+
+Error messages will be generated under the following conditions while uploading a portfolio:
+
+-   If the upload file size is bigger than 5 MB, the error message will read: “The upload portfolio file size is over 5MB.”
+
+-   If the upload file is not an XML or CSV file, the error message will read: “The upload file type is not valid.”
+
+-   If there is no file to upload, the error message will read: “There is no XML or CSV file to upload.”
+
+-   If there are no transactions in the upload file, the error message will read: “No auction portfolio bids found in the upload file.”
+
+-   If there are no valid transactions in the XML or CSV file, the error message will read: “No valid bids to upload.”
+
+Auction Portfolio Editor Page
+
+The Add New button from Auction Portfolio List page takes the user to the Auction Portfolio Editor page.
+
+Functionality
+
+The user would use this page to:
+
+-   Create (or Modify) a portfolio for CRR auctions by interactively using the Portfolio Editor.
+
+-   Add buy bids for CRRs (CRR Buy Bids tab).
+
+-   Add sell offers for CRRs owned by the AH (CRR Sell Offers tab).
+
+-   Delete selected existing bids (highlight the record(s) and click on Remove). This is applicable to both tabs.
+
+-   Delete all existing bids and offers in the portfolio (click on Clear All).
+
+-   Select and switch to one of the existing portfolios. (Select a portfolio from the drop-down menu under Select Another Portfolio header. Note that the user would lose all the modifications made to the current portfolio.)
+
+-   View valid sources and sinks in the right hand pane of the CRR Buy Bids editor by clicking the plus sign in front of the Sources & Sinks folder
+
+-   Search for valid sources and sinks in the right hand pane of the CRR Buy Bids editor by entering the first few letters of a name or the entire name and clicking the Magnifier Glass icon (or hitting enter). The filtered sources and sinks can be cleared by clicking the Red Arrow icon next to the Magnifier Glass icon.
+
+-   View Existing CRRs in the right hand pane of the CRR Sell Offers editor by clicking the plus sign in front of the Existing CRRs folder. Existing CRRs are grouped in multiple sub-folders by the market name where the CRRs are originated from plus two additional sub-folders for Bilateral CRRs and System CRRs (CRRs added by the CRR operator outside of the Allocation and Auction process).
+
+-   Search for valid CRRs in the right hand pane of the CRR Sell Offers editor by entering the first few letters of the CRR’s source, CRR’s sink or CRR ID and clicking the Magnifier Glass icon (or hitting enter). The filtered sources and sinks can be cleared by clicking the Red Arrow icon next to the Magnifier Glass icon.
+
+-   Upload additional or updated bids and/or offers. The format of the upload file for this editor is the same as the format of the upload file for New Portfolio Creation and the format of portfolio download. Note that a new bid or offer should have a blank bid ID.
+
+-   Download the portfolio in CSV or XML format.
+
+-   Download error messages.
+
+  [Wor6BAF]
+
+Figure 26: Auction Portfolio Editor Page
+
+Auction Portfolio Editor Data Fields
+
+The data fields in the upper pane are:
+
+-   Portfolio Name – A text box in which to view or input the name of the portfolio currently being managed. Note that a portfolio must have a name to be saved (required field).
+
+-   Select Another Portfolio – A list box with all existing portfolios listed for selection. If selected, that portfolio is shown.
+
+-   Market: Name of the market associated with the Portfolio (not editable).
+
+Note that the panes on this page are shown below:
+
+[Wor3739]
+
+Figure 27: Auction Portfolio Editor Page Panes
+
+The data fields in the lower left pane are:
+
+-   ID – Bid ID (not editable). Bid ID is assigned to a bid or an offer after being saved.
+
+-   CRR ID – ID of the CRR (not editable) [ Available only on the CRR Sell Offers tab ]
+
+-   Source – The name of the source for a CRR (can be assigned by using valid source/sink names from under the Data/Sources/Sinks folder only).
+
+-   Sink – The name of the sink for a CRR (can be assigned by using valid source/sink names from under the Data/Sources/Sinks folder only).
+
+-   TOU – Time-of-use (editable – select from a drop down menu of PeakWD, Off-peak and PeakWE).
+
+-   Hedge Type – Option (OPT) or Obligation (OBL) for a CRR (editable).
+
+-   Start Date – Start date of the CRR (editable – select from a drop down menu of start dates of the periods associated with the market).
+
+-   End Date – End date of the CRR (editable – select from a drop down menu of end dates of the periods associated with the market).
+
+-   MW – The MW associated with the Source/Sink pair (editable).
+
+-   Price ($/MWH) – Bid price for CRR (editable).
+
+-   Account Holder – The name of the AH who wishes to buy or sell CRRs (not editable).
+
+-   Description – Optional user enterable field to uniquely identify the bid (editable).
+
+The data fields in the right pane are:
+
+-   Data
+
+    -   Sources & Sinks – The folder contains all valid names of CRR Sources and Sinks.
+
+-   Existing CRRs
+
+    -   Existing CRRs are grouped in multiple sub-folders by the market name where the CRRs originated from plus two additional sub-folders for Bilateral CRRs and System CRRs (CRRs added by the CRR operator outside of the Allocation and Auction process).
+
+Usage
+
+The user can add a new buy bid by:
+
+-   Navigating to the CRR Buy Bids tab.
+
+-   Clicking the Add icon in the left pane of Portfolio Editor.
+
+    -   System will respond by adding a new row to the bid table for a data record.
+
+    -   Add as many rows as desired.
+
+-   Filling the Source and Sink data fields by (i) Selecting the new rows whose source (or sink) attribute has to be set (ii) Selecting the desired Source (or Sink) and (iii) Clicking the “Set Source” (or “Set Sink”) to assign the Source (or Sink) to the buy bid rows.
+
+    [WorAEAB]
+
+Figure 28: Setting the Source or Sink of CRR Buy Bids
+
+-   Choosing the Time-of-use from the drop-down menu.
+
+-   Choosing the Hedge Type from the drop-down menu.
+
+-   Entering the MW amount.
+
+-   Entering the buy bid price.
+
+-   Clicking the Save button to record the bids.
+
+The user can add a new sell offer by:
+
+-   Navigating to the CRR Sell Offers tab.
+
+-   Clicking the Add button in the left pane of the Portfolio Editor.
+
+    -   System will respond by adding a new row to the bid table for a data record.
+
+    -   Add as many rows as desired.
+
+-   Selecting the CRR from one of the folders under the Existing CRRs in the right pane.
+
+    -   Review the list of CRRs from the numerous subfolders under the Existing CRRs folders.
+
+        The user can get more information on an existing CRR by double-clicking on the individual CRR under the Existing CRR folders. The pop-up screen shows several attributes of the CRR as shown in Figure 29.[]
+
+Figure 29: Details of an Existing CRR
+
+-   From the right panel, select the CRR from the list of CRRs from the Existing CRRs folders and click the “Set CRR” button to associate the CRR with the new row in the left panel.
+
+[]
+
+Figure 30: Setting the CRR of the CRR Sell Offer
+
+-   Selection of the CRR to be sold will populate the CRR ID, Source, Sink, TOU, Hedge Type, Start Date, End Date, MW of the CRR considered for sale.
+
+-   Modifying the Start Date of the CRR to reflect the segment of the CRR being sold.
+
+-   Modifying the End Date of the CRR to reflect the segment of the CRR being sold.
+
+-   Modifying the MW amount to be sold.
+
+-   Entering the sell offer price.
+
+-   Clicking the Save button to record the sell offer.
+
+Note that the auction editor enforces strict rules for data to ensure data integrity. Where applicable, pull-down editing is allowed. In addition, the portfolio editor enforces the following rules for the user editable fields:
+
+-   MW
+
+    -   Real Number with 1 decimal point.
+
+    -   Valid range is greater than 0.
+
+-   Price $/MWHr
+
+    -   Real Number with 2 decimal points.
+
+    -   For a buy bid with OPT hedge type, the price must be equal to or greater than 0.01 $/MWHr.
+
+Bilateral Market
+
+The ERCOT CRR bilateral market facilitates the registration of trading of existing CRRs between AHs using a bulletin board system. For CRR registration of trades made through the bulletin board, ERCOT automatically transfers ownership and adjusts each Market Participant’s settlement statements accordingly, provided that the credit check for the transfer is cleared and the transaction is approved by ERCOT.
+
+The Bilateral Market allows for registering the trading of existing CRRs only. A CRR as originally defined or a portion of the CRR can be traded, as long as the total MW amount of the CRR as well as the original CRR time spans are not exceeded. With these restrictions, trading in the bilateral market has no impact on the simultaneous feasibility of the existing outstanding CRRs and no impact on the market-clearing prices in the CRR auctions. In particular, there is no need for ERCOT to perform simultaneous feasibility tests for trades in the Bilateral Market.
+
+The Bilateral Market is a market system designed to facilitate the registration of the trading of CRRs by AHs. It operates on a “classified advertisement” principle, where CRR bids and offers are posted for other AHs to view. Upon viewing a posting that interests one AH, that AH communicates with the entity that posted the item and negotiates the terms of the CRR sale. The financial exchange takes place outside the purview of the CRR System and only the transfer of ownership of the CRR is conducted through the CRR System.
+
+The following steps are required to register a trade of a CRR in the Bilateral Market:
+
+An AH posts an offer.
+
+Another AH accepts this posting and confirms the trade.
+
+Credit is checked for the trade and the trade is approved by ERCOT.
+
+Bilateral Market Action and Events Flow
+
+The graphic below shows the general flow of events/actions related to a sample ERCOT Bilateral Market transaction.
+
+[]
+
+Figure 31: Bilateral Market Actions & Events Flow
+
+Bilateral Market
+
+The Bilateral Market link takes the user to the Bilateral Market page shown below:
+
+[Wor1D56]
+
+Figure 32: Bilateral Market Page
+
+Bilateral Market landing page Functionality
+
+The user would use this page to:
+
+View existing PUBLIC bilateral market CRR offers posted by all AHs (default display).
+
+Navigate to My Sell Offer page (click on My Sell Offer tab).
+
+Navigate to My Response to Sell Offer page (click on My Response to Sell offer tab).
+
+These functionalities are shown in the next figure:
+
+[WorDFF8]
+
+Figure 33: Bilateral Market Sell Listing Tab Functionalities
+
+Sell Listing tab Data Fields
+
+The Sell Listing tab lists the CRRs for sale in the bilateral market with the following data fields:
+
+ID – The unique id of the transaction for the sale of the CRR.
+
+Status – Status such as Posted, Closed, Pending, etc.
+
+Initiating AH – The name of the selling AH.
+
+Source – The name of the Source for the posted CRR offer.
+
+Sink – The name of the Sink for the posted CRR offer.
+
+MW – The MW quantity of the offer.
+
+Start Date – The effective starting date of the posted CRR for sale.
+
+End Date – The effective end date of the posted CRR for sale.
+
+TOU – Peak Weekday (PeakWD), Off-peak (Off-peak), Peak Weekend (PeakWE) for the posted CRR for sale.
+
+Hedge Type – Option (OPT) or Obligation (OBL) type of the posted CRR for sale.
+
+Contact – Hyperlinks to the name, address, email address and phone number of the designated person regarding this transaction for the sale of the CRR. My Bilateral Sell Offer
+
+My Sell Offer tab Functionality
+
+The My Sell Offer tab of the Bilateral Market is described in this section.
+
+The user would use this page to:
+
+-   Post CRR sell offers – use Add icon, Set CRR and Save icon.
+
+-   Upload sell offers – use Upload icon.
+
+-   Download posted sell offers (offers without responding AH) – use Download Posted Offers icon.
+
+-   Download all sell offers. The download file has all fields available in the file downloaded from ‘Download Posted Offers’ plus the Status column – use Download All Offers icon.
+
+My Sell Offer tab Data Fields
+
+This page is divided into two panes, a left pane titled “My Sell Offer” and a right pane containing essential data required to offer a CRR for sale. If the AH has any pending offers, these would be listed in the pane titled “My Sell Offer” tab. New offers are handled using “My Sell Offer” and the right pane.
+
+[Wor3D52]
+
+Figure 34: Bilateral Market - My Sell Offer Tab
+
+The left pane, “My Sell Offer” has the following data fields:
+
+ID – the unique id of the transaction for the sale of the CRR.
+
+Type – Pull-down menu to select if the advertisement will be private or public.
+
+Initiating AH – The name of the AH who initiates the offer.
+
+Responding AH – The name of the AH who responds to the offer.
+
+Status – Information regarding the status of the offer:
+
+New – Indication that the posting is new.
+
+Posted – Posting of the sell offer was successful.
+
+Accepted – Bilateral transaction has been approved by the ERCOT credit evaluation and the CRR ownership has been changed.
+
+Declined – Bilateral transaction has been rejected by the ERCOT credit evaluation and the CRR ownership is not changed.
+
+Pending Response – The initiating (posting) AH has specified the responding AH for the sell offer. The next action is for the responding AH to respond to the sell offer.
+
+Pending Credit Check – Responding AH has responded to the offer and the transaction is being evaluated by the ERCOT Credit system to approve or decline the transaction. The status is changed to Accepted or Declined when the credit response is received.
+
+CRR ID – ID of the CRR offered for sale.
+
+Source – The name of the Source for the posted CRR transaction.
+
+Sink – The name of the Sink for the posted CRR transaction.
+
+MW – The MW amount of the CRR transaction.
+
+Start Date – Effective start date of the CRR. The user can click this field to bring up the calendar.
+
+End Date – Effective stop date of the CRR. The user can click this field to bring up the calendar.
+
+TOU – Time-of-use for the CRR. The user can select the data from the drop down menu.
+
+Hedge Type – Hedge Type for the CRR. The user can select the data from the drop down menu.
+
+Contact – Name, address, phone number, and email of the initiating AH.
+
+Description – Optional description associated with the sell offer.
+
+The following fields are entered into the working window by the Market Participant to put together the CRR offer for posting. This is done by using the data provided in the data groups in the right hand pane. The right hand pane has the following data fields:
+
+Account Holders – A folder containing all valid ERCOT CRR AH names.
+
+Existing CRRs – The following private data for the AH.
+
+Existing CRRs are grouped in multiple sub-folders by the market name where the CRRs are originated from plus two additional sub-folders for Bilateral CRRs and System CRRs (CRRs added by the CRR operator outside of the Allocation and Auction process).
+
+My Response to Sell Offer tab Functionality
+
+The My Response to Sell Offer tab of the Bilateral Market is described in this section
+
+The user would use this page to:
+
+-   View sell offers for which the CRR Account Holder is set as the Responding AH.
+
+-   Accept sell offers. On the other hand, a Responding AH can take no action on a sell offer, thus logically declining the offer.
+
+-   Upload response to sell offers – use Upload icon.
+
+-   Download all responses to sell offers – use Download All Responses icon.
+
+My Response to Sell Offer page Data Fields
+
+[]
+
+Figure 35: Bilateral Market - My Response to Sell Offer Tab
+
+Response ID – The unique id of the response to the transaction for the purchase of the CRR.
+
+Request ID – The unique id of the transaction for the sale of the CRR.
+
+Type – Private or Public sell offer.
+
+Initiating AH – The name of the AH who initiates the offer.
+
+Responding AH – The name of the AH who responds to the offer.
+
+Status – Information regarding the status of the offer:
+
+Accepted – Bilateral transaction has been approved by the ERCOT credit evaluation and the CRR ownership has been changed.
+
+Declined – Bilateral transaction has been rejected by the ERCOT credit evaluation and the CRR ownership is not changed.
+
+Pending Response – The initiating (posting) AH has specified the responding AH for the sell offer. The next action is for the responding AH to respond to the sell offer.
+
+Pending Credit Check – Responding AH has responded to the offer and the transaction is being evaluated by the ERCOT Credit system to approve or decline the transaction. The status is changed to Accepted or Declined when the credit response is received.
+
+Source – The name of the Source for the posted CRR transaction.
+
+Sink – The name of the Sink for the posted CRR transaction.
+
+MW – The MW amount of the CRR transaction.
+
+Start Date – Effective start date of the CRR.
+
+End Date – Effective stop date of the CRR.
+
+TOU – Time-of-use for the CRR.
+
+Hedge Type – Hedge Type for the CRR (OBL or OPT).
+
+Description – Optional description associated with the sell offer.
+
+Flow of Posting and Fulfilling an Offer Action
+
+The following steps describe the flow of actions and events that take place during a sell offer ad posting and fulfillment. The steps and actions performed by the initiating AH who posts a sell offer are shown in blue. The actions of the responding AH are shown in red.
+
+-   Navigate to the “My Sell Offer” tab.
+
+-   Click the Add button found at the top of the “My Sell Offer” tab.
+
+    -   System responds by creating a blank record in the area below the headers.
+
+-   Browse the list of subfolders under the Existing CRRs folder to select the CRR to be offered for sale.
+
+    -   User can select a CRR from
+
+        -   Various Existing CRR folders (folder name is the market the existing CRRs originated from).
+
+        -   Bilateral CRRs.
+
+        -   System CRRs.
+
+        -   Please note that the user can get more information by double clicking on the individual CRR entries under these data structures (ID, Account Holder, Source, Sink, Available MW, Time of Use, Hedge Type, Start Date, and End Date).
+
+[]
+
+Figure 36: Bilateral Market – Preparing to post a Sell Offer
+
+-   Select the newly added row in the left pane.
+
+-   Click the “Set CRR” button on the right pane to nominate the selected CRR to be offered for sale. This action will populate the essential details of the CRR into the newly added row.
+
+[]
+
+Figure 37: Bilateral Market – Selecting the CRR to be offered for sale
+
+-   Select the posting Type (Private or Public) from the drop down menu.
+
+-   If Private, set the Responding AH by selecting the AH from the list of Account Holders on the right and clicking the “Set AH” button. If Public, this step is not needed.
+
+[]
+
+Figure 38: Bilateral Market – Choosing the Type of Posting
+
+-   Modify the offered MW (if desired).
+
+-   Modify the Start Date and the End Date by clicking the data field to get to the pop-up calendars (if desired).
+
+-   To fill in the Contact information, click on “Contact Icon”. This field is optional.
+
+    -   System responds with a pop-up window.
+
+        Enter the relevant contact information, name, address, email address and phone number of the initiating AH.
+
+[]
+
+Figure 39: Bilateral Market – Fine tuning the CRR being offered for sale
+
+Click Save to save/post the information.
+
+-   System responds by adding the offer to the list shown in “My Sell Offer” pane and changing its status to “Pending Response” (Private posting) or “Posted” (Public posting).
+
+[]
+
+Figure 40: Bilateral Market – Finalizing the CRR being offered for sale
+
+-   If the posting is Public, AHs monitor the “Sell Listing” tab.
+
+-   The Market Participant who is interested in purchasing the offer obtains the initiating AH’s contact information from the “Contact” field and the two parties negotiate the terms of the sale.
+
+-   If the posting is Public, the seller assigns the buyer to the CRR bid by:
+
+    -   Navigating to the “My Sell Offer” tab.
+
+    -   Selecting the offer from the “My Sell Offer” pane.
+
+    -   Selecting the responding AH from the list in the Account Holders folder.
+
+    -   Clicking the “Set AH” button to assign the buying AH in the row in the left pane.
+
+    -   Clicking “Save” to register the Responding AH.
+
+    -   Optionally, the seller can upload a file of all CRR sell offers with the responding AHs filled in. The seller clicks the “Upload” button and browses for the file and clicks Save to register the Responding AHs.
+
+    -   A sample of the upload CSV file is shown in Figure 41. The format of the upload file is the same as the format of the Posted Offer download file (without status column).
+
+[]
+
+Figure 41: Sample of Bilateral Sell Requests with the Responding AHs
+
+-   System responds by changing the status from “Posted” to “Pending Response” in the “My Sell Offer” tab.
+
+-   The buying Market Participant (Other Party) confirms the CRR purchase by:
+
+    Signing into the system and going to the “My Response to Sell Offer” tab.
+
+    Selecting the CRR posting that the AH wishes to fulfill.
+
+    Clicking the “Accept” command button on the top left side of the tab.
+
+    Optionally, the buyer downloads all pending responses to a file by clicking the “Download All Responses” button. By uploading the pending responses, the system considers that the responding AH accepts the uploaded response to sell offers.
+
+[]
+
+Figure 42: Bilateral Market – Buyer Accepting the Transaction
+
+A sample of the upload CSV file is shown in Figure 43. The format of the upload file is the same as the format of the All Responses download file but without columns Response ID and Status.
+
+[]
+
+Figure 43: Sample Upload File of Response to Bilateral Sell Offer
+
+System responds by changing the status to “Pending Credit Check”.
+
+System will change the status to “Accepted” when it receives the credit check confirmation.
+
+Credit Limit Editor
+
+As a part of the auction process, CPs must specify a credit limit for any auction in which it’s AH(s) intend to participate.
+
+The CRR application allows CPs to specify a credit limit for each auction market and also allows AHs to submit self-imposed credit limits. This chapter explains the functionalities available to manage the Credit Limit Editor page.
+
+Account Holder Credit Limit Editor
+
+The Credit Limit link takes the user to the Credit Limit Editor page shown below:
+
+[WorC08F]
+
+Figure 44: Account Holder Credit Limit Editor Page
+
+Functionality
+
+The user would use this page to:
+
+Set or update credit limits for current auctions.
+
+View the credit amounts assigned to locked auction(s).
+
+View the total commitment (total credit committed for the current and locked auctions).
+
+View the credit amounts assigned to each market by their CPs.
+
+Refresh display (click on Refresh tab).
+
+Save changes in credit limit (click on Save tab).
+
+These functionalities are shown below:
+
+[]
+
+Figure 45: Account Holder Credit Limit Editor Page Functionalities
+
+Note that if there are no locked markets, the top pane is not displayed and only the current markets are shown.
+
+Credit Limit Editor Data Fields
+
+The Credit Limit Editor has the following data fields for Locked and Current markets:
+
+Auction Market – Name of the market.
+
+Open Date – The date when the submission period opens for the market.
+
+Close Date – The date when the submission period closes for the market.
+
+Lock Date – The date after which an AH cannot modify one’s credit limits.
+
+Time-of-use – Time-of-use for a particular market.
+
+Counter-Party Credit – The credit limit assigned by the AH’s CP. The AH cannot enter a credit limit greater than this limit.
+
+Self-imposed Credit – The credit limit that the AH assigned to a particular Monthly Auction or a particular TOU of a Long-term Auction Sequence.
+
+Usage
+
+The credit limit is also known as the self-imposed budget constraint. The credit limit editor allows the AH to set a limit to the amount or portion of the available CRR credit limit the AH wants to allocate to a certain specific auction market.
+
+There are three credit limits to be assigned for each auction that is part of a Long-term Auction Sequence, one per each of TOU, because each TOU for the auction is executed separately. On the other hand, there is only one credit limit for the monthly auctions.
+
+The Total Commitment field is calculated as the sum of the locked markets plus the current markets for the self-imposed values.
+
+The figure below demonstrates all the dates that are related to an auction market.
+
+Figure 46: Timing of the Credit Limit Lock Date
+
+The Auction Notice/Credit Open Date is when the auction market becomes visible under Current Auction on the Credit Limit Editor for AHs to enter their credit limit. The credit limit for a particular auction can be entered or changed until the Credit Lock Date. A market is considered “current” from its notice date until the lock date, with the understanding that multiple markets may be in the “current” state at the same time. A market is considered “locked” from its lock date until after the auction results are posted with ERCOT Settlements. The specific dates for each auction are included in the CRR Activity Calendar.
+
+It is important to note that if a CP fails to allocate credit for an auction market and an associated AH does not own a position in the market (does not own an existing CRR effective during the auction’s effective periods), the AH will be unable to participate in that auction. The system will allow the AH to submit bids but they will be removed after the auction is closed. If, on the other hand, an AH does not enter a credit limit value for a given auction, their only credit constraint would be the limit assigned by their CP.
+
+For example, if a CP (CP1) has three AHs (AH1, AH2 and AH3), none of whom own a position in the market, and CP1 does not assign a credit limit for an auction market (MKT1), then AH1, AH2 and AH3 have no self-imposed credit limits set (Credit Limit Editor does not allow AH1, AH2 and AH3 to enter any self-imposed credit limits), and their submitted bids, if any, will be removed from being submitted to MKT1 when the bidding window is closed (which is the same as the lock date).
+
+On the other hand, if CP1 has allocated $10M to MKT1, then the AHs can set their own limits up-to $10M. Assuming AH1 has set a self-imposed limit of $5M for MKT1, AH2 has set a self-imposed limit of $2M for MKT1, and AH3 hasn’t set a self-imposed limit, then self-imposed credit limits of $5M for AH1, $2M for AH2, $10M for AH3, and $10M for CP1 are sent to the optimization process for MKT1.
+
+Counter-Party Credit Limit Editor
+
+The CRR System registration for Counter-Parties is managed by the ERCOT Registration System. Digital certificates are required to be installed in CPs’ browsers. These digital certificates will be generated at the user level and will be used to access all ERCOT market systems that a user has the right to. When a CP logs into ERCOT iHedge, two MUI functions are available to the CP – Credit Limit Editor and Private/Public Message Board.
+
+[Wor89BD]
+
+Figure 47: Counter-Party Credit Limit Editor Page
+
+Functionality
+
+The user would use this page to:
+
+-   Set, view or update credit limits for current auctions.
+
+-   View credit limits for locked auctions.
+
+-   Refresh display (click on Refresh tab).
+
+-   Save changes in credit limit (click on Save tab).
+
+-   View Available Credit, Total Commitment and Remaining Credit.
+
+These functionalities are shown in the figure below:
+
+[Wor39AB]
+
+Figure 48: Counter-Party Credit Limit Editor Page Functionalities
+
+Note that if there are no locked markets, the top pane is not displayed and only the current markets are shown.
+
+Credit Limit Editor Data Fields
+
+The Credit Limit Editor has the following data fields for Locked and Current markets:
+
+Auction Market – Name of the market.
+
+Open Date – The date when the submission period opens for the market.
+
+Close Date – The date when the submission period closes for the market.
+
+Lock Date – The date after which a CP cannot modify one’s credit limits.
+
+Time-of-use – Time-of-use for a particular market. It is available only for a Long-term Auction Sequence.
+
+Counter-Party Credit – The credit limit assigned by the CP. The AH cannot enter a credit limit greater than this limit.
+
+Usage
+
+The CP credit limit editor allows a CP to set credit limits for certain specific auction markets.
+
+There are three credit limits for an auction associated with a Long-term Auction Sequence. On the other hand, there is only one credit limit for the monthly auctions.
+
+The Total Commitment field is calculated as the sum of the locked markets plus the current markets for the CP credit values. The Available Credit is provided to ERCOT iHedge by Credit Monitoring and Management (CMM) every day. The Remaining Credit represents the difference between the available credit and the total commitment amount.
+
+Downloads Manager: Managing Downloads
+
+In this chapter, Downloads Manager functionalities, data fields and controls are explained.
+
+Downloads Manager Flow
+
+The general flow of events/actions in the Downloads manager is as follows:
+
+[]
+
+Figure 49: Flow Diagram for Downloads Manager
+
+Downloads Page
+
+Selecting ‘Private’ in the Download manager menu takes the user to the Download / Private page shown below:
+
+This page has the following tabs available to the user:
+
+Under private (confidential information and data regarding the individual AH only)
+
+General – Existing CRRs – AH’s valid existing CRRs.
+
+Results – AH’s allocation and auction results.
+
+[Wor7079]
+
+Figure 50: Download / Private Page
+
+Selecting ‘Common’ in the Download manager menu takes the user to the Download / Common page shown below:
+
+Under common (common information and data available to all AHs)
+
+General – Existing CRRs – All valid existing CRRs
+
+Network – Network related data
+
+Contingencies
+
+Monitored Lines & Transformers
+
+Non-thermal Constraints
+
+Market
+
+Allocation
+
+Baseloading
+
+Source and Sinks
+
+Auction
+
+Baseloading
+
+Credit Coefficient
+
+Electrically Similar Settlement Point
+
+Sources and Sinks
+
+Results
+
+Allocation
+
+Allocation Results
+
+Binding Constraints
+
+Auction
+
+Auction Bids and Offers
+
+Auction Results
+
+Binding Constraints
+
+Source and Sink Shadow Prices
+
+Network and Market data files become available prior to running allocation and auction markets, and Results become available after, as outlined in the Nodal Protocols.
+
+Under each tab of Private or Common Downloads, one or more check boxes can be selected and all download files created for the selected download types and download formats will be compressed into one zip file.
+
+[]
+
+Figure 51: Download / Common Page
+
+Data Fields
+
+Data fields in all tabs are the same and are as follows:
+
+Name of the file – Name of the downloadable file.
+
+Download format selection –XML and CSV format.
+
+Last Modified Date – Day and time when the file was last posted.
+
+Private General Tab
+
+The functionalities of the private General tab are shown below:
+
+[Wor7C4]
+
+Figure 52: Private General Tab Functionalities
+
+Functionality
+
+The AH would use this tab to:
+
+-   Download all currently available and valid CRRs owned by the AH (select XML or CSV under Format type and click Download button). This download (in zipped form) will be kept current to reflect new CRRs posted from a new allocation/auction market or ownership changes from the sale of CRRs in auctions or bilateral market.
+
+-   Navigate to other tabs (for other downloads – click on the desired tab).
+
+Following is a summary of all the data fields in the downloadable file:
+
+Existing CRRs – A list of valid current CRRs for that particular user with relevant information such as CRR ID, Segment ID, Account Holder, Category, Hedge Type, CRR Type, Source Name, Sink Name, Start Date, End Date, Time-of-use, and MW.
+
+Private Results Tab
+
+The functionalities of the private Results tab are shown in the Figure below.
+
+Functionality
+
+The AH would use this tab to:
+
+Download the CRR results that are confidential to that particular AH (select XML and/or CSV format and click the Download button) that corresponds to the user’s selection on:
+
+Either annual allocation, monthly allocation, annual auction or monthly auction by selecting Annual Allocation or Monthly Allocation or Annual Auction or Monthly Auction from the Market Term drop down menu. Note that the selection is “annual” for the Long-Term Auction Sequences.
+
+A particular available auction or allocation market by using the Market pull-down menu.
+
+This download will be available once a market is run, and will be updated after each market’s results are posted.
+
+There will be one file for each period in that market. The name of the file will indicate the market name, type of market (ALLOCATION or AUCTION) and the period name. The file suffix (CSV or XML) will indicate the format of the contents.
+
+Navigate to other tabs (for other downloads – click on the desired tab).
+
+Following is a summary of all the data fields in the downloadable file:
+
+Market Results (Allocation) – Corresponding list of CRR results for that particular allocation and the AH, including Nomination ID, CRR ID, Account Holder, Hedge Type, CRR Type, Source, Sink, Start Date, End Date, Time-of-Use, Nominated MW, Allocated MW, Eligible MW, Shadow Price, and Price Factor.
+
+Market Results (Auction) – Corresponding list of CRR results for that particular auction and the AH, including Bid ID, CRR ID, Original CRR ID, Account Holder, Hedge Type, Portfolio, Class, CRR Type, Source, Sink, Start Date, End Date, Time-of-Use, Bid24Hour, MW (awarded), Shadow Price, Bid MW, Bid Price, ACI99, ACP, and Credit Consumed.
+
+[Wor1AB]
+
+Figure 53: Private Results Tab Functionalities
+
+Common General Tab
+
+The functionalities of the common General tab are shown below.
+
+Functionality
+
+The AHs would use this tab to:
+
+-   Download all currently available and valid CRRs for all Market Participants (select XML or CSV under Format type and click Download button). This download will be available once a market is run, and will be kept current after that.
+
+-   Navigate to other tabs (for other downloads – click on the desired tab).
+
+Following is a summary of all the data fields in the downloadable file:
+
+Existing CRRs – A list of valid current CRRs for all Market Participants with relevant information such as CRR ID, Segment ID, Account Holder, Hedge Type, CRR Type, Source Name, Sink Name, Start Date, End Date, Time-of-use, and MW amount.
+
+[Wor30B8]
+
+Figure 54: Common General Tab Functionalities
+
+Common Network Tab
+
+The common Network tab shown below is used to download and view all network related data for a particular market.
+
+[Wor1C6A]
+
+Figure 55: Common Network Tab Functionalities
+
+Functionality
+
+AHs use this tab to:
+
+Select the desired market by using the following filters:
+
+Either annual allocation, monthly allocation, annual auction or monthly auction by selecting Annual Allocation or Monthly Allocation or Annual Auction or Monthly Auction from the Market Term drop down menu. Note that the selection is still “annual” for an auction even though the annual auctions have been replaced with the Long-Term Auction Sequences.
+
+A market (e.g., 2024 PCRR Annual Allocation) by selecting from the Market drop down menu.
+
+These downloads will be available prior to a market run for AH’s information.
+
+Select one or more data items.
+
+Select the corresponding Contingencies data by choosing the XML and/or CSV Format type.
+
+Select the corresponding Monitored Lines and Transformers data by choosing the XML and/or CSV Format type.
+
+Select the corresponding Non-thermal Constraint data by choosing the XML and/or CSV Format type.
+
+Click on the Download button to receive a zipped file containing the desired data. There will be one file for each data class and period in that market. The name of the file will indicate the data class, market name, type of market (ALLOCATION or AUCTION) and the period name. The file suffix (CSV or XML) will indicate the format of the contents.
+
+Navigate to other tabs (for other downloads – click on the desired tab).
+
+Following is a summary of all the data fields in each downloadable file:
+
+Contingencies – Corresponding list of contingencies that includes Contingency Name, Device Name, Device Type, Action (outage – OUT, inage - IN).
+
+Monitored Lines and Transformers – Corresponding list of lines and transformers that includes Device Name, Device Type, Basecase Rating, Emergency Rating and Time-of-Use. Note that this list would include the ratings of lines and transformers that would overwrite the ratings in the PSS/E raw file.
+
+Non-thermal Constraints – Corresponding list of interfaces that include Non-thermal Constraint Name, Limit, Device Name, Device Type, Flow Direction and Factor.
+
+Common Market Tab
+
+The Market tab on the Download / Common page takes the user to the page shown in the figure below:
+
+[Wor63DB]
+
+Figure 56: Sample Common Market Tab
+
+Functionality
+
+The AHs would use this tab to:
+
+Select the desired market by using the following filters:
+
+Either annual allocation, monthly allocation, annual auction or monthly auction by selecting Annual Allocation or Monthly Allocation or Annual Auction or Monthly Auction from the Market Term drop down menu. Note that the selection is still “annual” for an auction even though the annual auctions have been replaced with the Long-Term Auction Sequences.
+
+A particular available auction or allocation market by using the Market pull-down menu.
+
+These downloads will be available prior to a market run for the Market Participant’s information.
+
+Select one or more data items.
+
+Select the corresponding Baseloading data by choosing the XML and/or CSV Format type.
+
+Select the corresponding Credit Coefficient data by choosing the XML and/or CSV Format type.
+
+Select the corresponding Electrically Similar Settlement Point data by choosing the XML and/or CSV Format type.
+
+Select the corresponding Sources and Sinks data by choosing the XML and/or CSV Format type.
+
+Click on the Download button to receive a zipped file containing the desired data. There will be one file for each period in that market. The name of the file will indicate the data class, market name, type of market (ALLOCATION or AUCTION) and the period name. The file suffix (CSV or XML) will indicate the format of the contents.
+
+-   Navigate to other tabs (for other downloads – click on the desired tab).
+
+Following is a summary of all the data fields in each downloadable file:
+
+Baseloading – Corresponding list of existing CRRs that form the baseloading for a particular market, including CRR ID, Category, Account Holder’s Name, Source Name, Sink Name, Start Date, End Date, Hedge Type (Option or Obligation), Time-of-use, and MW amount. For an auction market, this download also includes Shadow Price in $/MWH after the auction market results are published.
+
+Credit Coefficient – Corresponding list of path-specific adders used to calculate credit requirements for an auction, including Target Date, Source Name, Sink Name, Time-of-use, Start Date, ACI99 and ACP. ACI99 and ACP are path-specific adders and are defined in Section 7 of the Nodal Protocols.
+
+Electrically Similar Settlement Point – Corresponding list of groups of electrically similar settlement points for an auction, including Group ID, Settlement Point, Start Date and End Date.
+
+Source and Sinks – Corresponding list of sources and sinks that includes Source or Sink Name, Price Node Name, Bus Name and participation factor, and Time-of-use.
+
+Common Results Tab
+
+The common Results tab has the functionalities shown below.
+
+Functionality
+
+The AHs would use this tab to:
+
+Select the desired market by using the following filters:
+
+Either annual allocation, monthly allocation, annual auction or monthly auction by selecting Annual Allocation or Monthly Allocation or Annual Auction or Monthly Auction from the Market Term drop down menu. Note that the selection is still “annual” for an auction even though the annual auctions have been replaced with the Long-Term Auction Sequences.
+
+A particular available auction or allocation market by using the Market pull-down menu.
+
+These downloads will be available after a market is run for the AH’s information.
+
+Allocation
+
+Select the corresponding Allocation Results data by choosing the XML and/or CSV Format type.
+
+Select the corresponding Binding Constraints data by choosing the XML or CSV Format type.
+
+Auction
+
+Select the corresponding Auction Bids and Offers results data by choosing the XML and/or CSV Format type.
+
+Select the corresponding Auction Results data by choosing the XML and/or CSV Format type.
+
+Select the corresponding Binding Constraints data by choosing the XML or CSV Format type.
+
+Select the corresponding Source and Sink Shadow prices data by choosing the XML or CSV Format type.
+
+[Wor2798]
+
+Figure 57: Common Market Results Tab Functionalities
+
+Navigate to other tabs (for other downloads – click on the desired tab).
+
+Following is a summary of all the data fields in each of the downloadable files:
+
+Allocation
+
+Allocation Results – Corresponding list of CRR results for that particular market and the AH, including CRR ID, Account Holder, Hedge Type, CRR Type, Source, Sink, Start Date, End Date, Time-of-Use, MW.
+
+Binding Constraints – Corresponding list of binding constraints that include Device Name, Device Type, Direction, Flow, Limit, Description, Contingency, Calendar Period, Time-of-Use.
+
+Auction
+
+Auction Bids and Offers – Corresponding list of CRR bids and offers for that particular market, including Source, Sink, Bid Type, Start Date, End Date, Hedge Type, Time-of-Use, MW, Bid Price and Shadow Price.
+
+Auction Results – Corresponding list of CRR results for that particular market and the AH, including CRR ID, Original CRR ID, Account Holder, Hedge Type, Class, CRR Type, Source, Sink, Start Date, End Date, Time-of-Use, Bid24Hour, MW, and Shadow Price.
+
+Binding Constraints – Corresponding list of binding constraints that include Device Name, Device Type, Direction, Flow, Limit, Description, Contingency, Calendar Period, Time-of-use, and Shadow Price.
+
+Source and Sink Shadow Prices – Corresponding list of source/sink clearing prices that include Source/Sink Name, Calendar Period, Time-of-Use, and Shadow Price.
+
+Message Manager
+
+ERCOT iHedge allows the ERCOT CRR Market Operator to send private and common messages (with attachments) to ERCOT CRRAHs and/or CPs. The AHs and CPs are encouraged to check the Messages page on a regular basis.
+
+Message Manager Flow
+
+The figure below shows the general flow of events/actions in the Messages manager.
+
+[]
+
+Figure 58: Flow Diagram for Message Manager
+
+Message Board Page
+
+Account Holder Message Board
+
+The Message link takes the AH to the Message Board page shown below:
+
+[Wor6A4A]
+
+Figure 59: AH Message Board Page
+
+Functionality
+
+The user would use this page to view current messages broadcasted by the ERCOT CRR Market Operator.
+
+To navigate to a particular type of message, select from the drop down list on the menu.
+
+Private/Public messages type
+
+Private messages – confidential messages sent to a particular AH.
+
+Public messages – common messages sent to all CRR AHs.
+
+Download any desired attached file (if applicable)
+
+These functionalities are as follows:
+
+[Wor46F5]
+
+Figure 60: AH Message Board Page Functionalities
+
+Messages Board Data Fields
+
+-   Posted – Time stamp of when the message was posted.
+
+-   Message – Content of the message.
+
+-   Attached File – Filename of attachment. This is a hyperlink where the user can click to download the file.
+
+Usage
+
+Currently, ERCOT iHedge does not issue any notice when a message is posted. Therefore, the AHs are encouraged to check the Messages Board Page on a regular basis.
+
+Counter-Party Message Board
+
+The Message link takes the CP to the Message Board page shown below:
+
+[]
+
+Figure 61: CP Message Board Page
+
+Functionality
+
+The user would use this page to view current messages broadcasted by the ERCOT CRR Market Operator.
+
+To navigate to a particular type of message, select from the drop down list on the menu
+
+Private/Public messages type
+
+Private messages – confidential messages sent to a particular CP.
+
+Public messages – common messages sent to all CPs.
+
+Download any desired attached file (if applicable).
+
+These functionalities are as follows:
+
+[]
+
+Figure 62: CP Message Board Page Functionalities
+
+Messages Board Data Fields
+
+-   Posted – Time stamp of when the message was posted.
+
+-   Message – Content of the message.
+
+-   Attached File – Filename of attachment. This is a hyperlink where the user can click to download the file.
+
+Usage
+
+Currently, ERCOT iHedge does not issue any notice when a message is posted. Therefore, the CPs are encouraged to check the Messages Board Page on a regular basis.

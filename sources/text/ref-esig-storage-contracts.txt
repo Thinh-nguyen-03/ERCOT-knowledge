@@ -1,0 +1,1166 @@
+Contract designs for
+storage in low-carbon
+markets
+ESIG Forecasting & Markets Workshop | June 25, 2025
+
+© Aurora Energy Research Ltd. – CONFIDENTIAL
+
+Aurora provides market leading forecasts & data-driven intelligence for the
+global energy transition
+Power markets
+
+17
+
+offices
+
+Renewables & PPAs
+New York
+
+Oakland
+
+Storage
+Austin
+
+Grid & Congestion
+
+Stockholm
+
+Oxford
+
+México City
+Paris
+Madrid
+
+Carbon
+Natural gas
+
+Source: Aurora Energy Research
+
+Berlin
+
+H2
+CO2
+
+Rome
+
+1000+
+
+market experts
+
+Delhi
+
+Athens
+
+Electric vehicles
+Hydrogen
+
+Tokyo
+
+950+
+
+Singapore
+
+subscribing
+companies
+
+São Paulo
+Santiago
+Sydney
+
+Regular detailed coverage
+
+Analytics on demand
+
+Melbourne
+
+150+
+
+transactions
+supported
+in 2024
+
+CONFIDENTIAL
+
+2
+
+Battery value varies month by month; this is exacerbated in ERCOT,
+driving the need to secure revenue via tolling agreements
+ERCOT
+
+Battery value is concentrated in very few months; historically
+this has included both hot summers and extreme winter events
+
+CAISO
+
+Monthly energy and Ancillary Service gross margins across battery units
+$/kW-month (nominal)
+200
+
+Monthly energy and Ancillary Service revenues across battery QSEs1
+$/kW-month (nominal)
+200
+
+Winter Storm Uri in February
+2021 drove high energy and
+Ancillary Service prices in
+ERCOT, leading to a gross
+margin of $978/kW-month
+
+160
+120
+
+160
+120
+
+80
+
+80
+
+40
+
+40
+
+0
+2020
+-1
+
+2020
+-7
+
+2021
+-1
+
+2021
+-7
+
+2022
+-1
+
+2022
+-7
+
+2023
+-1
+
+2023
+-7
+
+ Generally, summers see increased value due to increased demand for
+cooling driving scarcity value, benefitting dispatchable assets like
+batteries.
+Average
+
+0
+2020
+-1
+
+2024
+-1
+
+ Battery value in ERCOT varies widely month to month - $978/kW-month
+average in February 2021 (capped in graph to $200/kW-month).
+
+Battery units (ERCOT) / QSEs (CAISO)
+
+Value in CAISO tends to be less concentrated; value is more
+distributed throughout the entire year, exacerbated by RA
+
+2020
+-7
+
+2021
+-1
+
+2021
+-7
+
+2022
+-1
+
+2022
+-7
+
+2023
+-1
+
+2023
+-7
+
+2024
+-1
+
+ Battery value is also variable month to month in CAISO, though absence
+of scarcity pricing adder and addition of Resource Adequacy payments
+reduces volatility.
+ RA contracts (not shown in revenue here) provide an additional means of
+securing consistent revenue across all months in the year.
+
+1) Data from FERC EQR, generally data is more limited; not showing results for all battery capacity in CAISO. Shows company-level granularity.
+Sources: Aurora Energy Research
+
+CONFIDENTIAL
+
+3
+
+Battery offtake agreements have emerged as a mechanism to firm
+battery revenues and unlock debt financing
+Landscape for battery contracting
+1
+
+Growth in power
+demand, supported by
+decarbonization targets,
+emerging industries (e.g.
+AI datacenters)
+2
+
+Phaseout of fossil fuels
+driven by ageing fleet
+and emissions reduction
+targets / EPA rules
+
+Renewables
+penetration, supported
+by declining costs, tax
+credits, clean energy
+procurement
+
+Increased
+market
+volatility
+
+In ERCOT
+
+In ERCOT
+
+100MWh Crosset Storage
+
+Various risks across battery revenue streams may increase attractiveness for battery contracting
+Wholesale market –
+increased pricing
+volatility due to above
+factors
+
+3
+
+Publicly announced full toll contracts
+
+Market volatility is growing across power markets
+
+Ancillary Services –
+along with battery
+saturation, reduced AS
+prices across most hours
+
+Capacity payments –
+volatility in capacity
+market prices year over
+year, declining battery
+ELCCs1
+
+Developers and offtakers may see different incentives for contracting
+Battery developers
+
+Offtakers
+
+Reasons to contract
+
+Reasons to contract
+
+ Ensure constant and predictable revenue
+stream.
+ Unlock debt financing for new-build assets,
+lowering the cost of capital.
+
+
+
+
+
+
+Short and long-term price hedge.
+Potential for upside from market exposure.
+Self-balancing.
+OEM an Optimizers – Strategic BD
+
+In CAISO
+Increased
+benefit for
+contracting
+
+In CAISO
+
+1,000MWh Cormorant Energy Storage Project
+
+In NEM (Australia)
+BESS and LDS projects
+Capacity
+Investment
+Scheme
+Battery
+developers
+
+Offtakers
+
+1) Effective Load Carrying Capability.
+Sources: Aurora Energy Research, PR Newswire, Public Power Association, Consumers Energy
+
+CONFIDENTIAL
+
+4
+
+Various structures for battery offtake have been seen to date, with
+availability and prevalence varying across markets
+X
+
+Contract
+type
+Tolling
+agreements
+
+Main markets
+present
+
+Typical tenor
+(years)
+
+Pre-determined contract price
+
+Asset dispatch rights; market
+energy and Ancillary Service
+revenues
+
+ERCOT, MISO,
+CAISO
+
+5-7
+
+Pre-determined contract price +
+share of market revenues
+
+Asset dispatch rights; remainder
+of market revenues
+
+ERCOT
+
+5-7
+
+2
+
+Fixed rate
+
+Floating rate based on realized top
+ERCOT, CAISO
+/ bottom spreads
+
+1-5
+
+Ancillary Services
+swaps
+
+Fixed rate
+
+Floating rate based on realized
+Ancillary Services prices
+
+ERCOT
+
+1-5
+
+Revenue puts and
+collars
+
+Caps and floors on market
+revenues
+
+Receives market revenues above
+cap and pays market revenues
+below floor
+
+ERCOT, AEMO
+
+1 – 15
+
+RA1
+contracts
+
+3
+
+Pre-determined contract price
+
+Credit towards resource adequacy
+CAISO
+obligation
+
+10 - 15
+
+Long-term capacity
+sales
+
+Pre-determined contract price
+
+Credit towards capacity market
+obligation
+
+10 - 15
+
+Indexed
+storage
+payments
+
+“Strike Price” (as bid by battery
+developer), market energy,
+Ancillary Services, and capacity
+revenues
+
+“Reference Price,” intended to
+reflect the market revenues over a
+NYISO
+given period (netted off from
+payment to battery)
+
+Contract structure
+Fixed price
+
+Capacity
+sales
+
+State
+subsidies
+
+1
+
+Floor price with
+profit sharing
+Top / bottom
+spread swaps
+
+Financial
+hedges
+
+Deep dive on following slides
+
+4
+
+Battery receives
+
+Offtaker receives
+
+MISO, PJM
+
+Potential size of
+market
+
+15
+
+1) Resource Adequacy.
+Source: Aurora Energy Research
+
+CONFIDENTIAL
+
+5
+
+III Key structures for offtake agreements
+
+Under a toll, the offtaker assumes market price risk, in exchange
+for a fixed payment. Incentive alignment management is critical.
+1
+
+Contract design and incentive
+compatibility implications
+
+Tolling agreements – Fixed price
+
+ Under a “full” tolling agreement,
+market revenues are passed
+through to the offtaker, in
+exchange for a fixed payment.
+
+Offtaker
+A Energy and Ancillary Service
+bids / Dispatch optimization
+C
+
+B
+
+Contracted payments
+
+Wholesale Markets
+
+Energy, Ancillary Services,
+and capacity revenues
+
+1)
+A Under a 100% toll the battery
+does not retain any economic
+link to market outcomes.
+B Thus, the battery owner has no
+2)
+ongoing incentives to maximize
+revenues.
+3)
+C Contract design options to
+retain incentive compatibility:
+
+A
+
+Energy, Ancillary Services,
+and capacity (if applicable)
+
+B Energy, Ancillary Services,
+and capacity revenues
+
+Source: Aurora Energy Research
+
+Battery
+
+•
+
+Trading rights alignment: “right
+to operate and trade” follows
+revenues.
+
+•
+
+Partial toll: where battery
+owner retains a share in
+market revenues.
+
+•
+
+Virtual toll: benchmarked
+performance (perfentage-ofperfect).
+
+CONFIDENTIAL
+
+6
+
+III Key structures for offtake agreements
+
+‘Caps & floors’ contract designs seek to bound market revenues
+under a no-cost collar.
+2
+
+Financial hedges – Revenue ‘cap & floor’ or collar
+Example AEMO Capacity Investment Scheme, $m
+
+Example of the “Doghouse problem” in collar structure
+$m
+
+20
+
+30
+
+A– When market revenues are
+higher than the cap, battery
+pays offtaker.
+
+Market revenues ($m)
+
+B
+13
+12
+
+6
+
+5
+
+6
+
+Incentive compatibility:
+“The Doghouse Problem”:
+
+15
+
+9
+
+7
+
+B– When market revenues are
+lower than the floor, offtaker
+pays battery.
+
+Doghouse problem
+if hard cap reached:
+limited incentives for
+optimal operation
+
+10
+
+ Under a hard revenue cap when
+the cap threshold I reached the
+battery has no incentives to
+participate optimally in the
+market.
+
+7
+
+6
+
+5 5 5
+
+5
+
+A
+
+Potential mitigations
+
+1 1
+0
+
+Y1
+
+Y2
+
+Y3
+
+Y4
+
+Y5
+Hour beginning
+
+Market revenues
+
+Floor Payment
+
+Cap Recovery
+
+0
+
+1
+
+3
+
+5
+
+7
+
+9
+
+11
+
+13
+15
+Days of Month
+
+Market revenues
+
+Hard cap
+
+Cumulative revenues
+
+50% cap + 50% market exposure
+
+Cap
+
+Source: Aurora Energy Research
+
+ Revenue ‘Caps & Floors’ seek to
+bound revenues within a range
+under a zero-cost collar
+structure.
+
+ Soft cap: a revenue share rather
+than a hard cap mitigates.
+ “Yardstick contracts”: create a
+‘perfect-foresight’ benchmark
+rather than payouts based on
+actual performance.
+CONFIDENTIAL
+
+7
+
+III Key structures for offtake agreements
+
+Top / Bottom spread swaps allow a battery to lock in energy
+revenues without any physical exchange of power with the offtaker
+3
+
+Financial hedges – Top / Bottom spread swaps
+Example “Top / Bottom 2” price spread (March 3, 2023
+ERCOT West hub), $/MWh
+
+Example settlement of “Top / Bottom 2” financial swap
+$/MWh
+
+60
+
+60
+
+40
+
+45
+
+TB2 price spread
+
+20
+
+A
+
+30
+
+0
+
+-20
+
+B
+
+2
+
+4
+
+6
+
+8
+
+10 12 14 16 18 20 22
+
+0
+
+1
+
+3
+
+5
+
+Hour beginning
+Wholesale price
+
+Average bottom 2 hours1
+
+Average top 2 hours
+
+Top 2 hours
+
+Source: Aurora Energy Research
+
+Bottom 2 hours
+
+ The fixed price allows the
+battery to “lock in” a price
+spread.
+A– When fixed price spread is
+higher than market price
+spread, offtaker pays battery.
+
+15
+
+0
+
+ A Top / Bottom spread swap is
+a financial transaction where
+the battery receives a fixed
+price, based on anticipated
+price spreads. In exchange, the
+offtaker receives a “floating”
+payment, based on realized
+price spreads over the tenor of
+the contract.
+
+7
+
+9
+
+11
+
+13
+15
+Contract Month
+
+Market price spread
+
+Net payment to offtaker
+
+Fixed price spread
+
+Net payment to battery
+
+B– When fixed price spread is
+lower than market price
+spread, battery pays offtaker.
+From the battery’s
+perspective, this loss is offset
+by increased energy
+arbitrage revenues due to
+higher than anticipated price
+spreads.
+ Unlike a tolling agreement, the
+battery generally retains control
+over asset dispatch.
+CONFIDENTIAL
+
+8
+
+III Key structures for offtake agreements
+
+More than 80% of batteries expected to interconnect in CAISO in
+the near term have signed a long-term Resource Adequacy contract
+3
+
+Capacity sales – RA contracts
+Resource Adequacy contracts offered by California utilities
+Comanche Peak
+
+Resource Adequacy only
+
+Product: Resource Adequacy
+Structure: The utility compensates the battery only for the Resource
+Adequacy value. The battery maintains control over dispatch and
+exposure to market energy and ancillary services prices.
+
+New battery capacity anticipated to connect by 20261
+GW
+4
+3.4
+0.2
+3
+1.4
+
+Resource
+South Texas Project
+(STP)Adequacy with energy settlement
+Products: Resource Adequacy, energy
+Structure: Energy settlement resembles a top / bottom spread swap, and
+thus allows the battery to lock in energy arbitrage revenues. The battery
+retains control over ancillary service revenues.
+
+2
+
+1
+
+1.7
+
+Full tolling agreement
+Products: Resource Adequacy, energy, Ancillary Services
+Structure: The utility compensates the battery for energy and ancillary
+services at a fixed price, controls asset dispatch, and is exposed to market
+energy and Ancillary Services prices.
+
+0.3
+0
+
+0.2
+
+0.0
+
+10-year
+RA only
+
+0.3
+15-year
+
+RA with energy settlement
+
+No contract
+Full toll
+
+1) Aurora assumes battery projects with announced RA contracts, as well as projects CAISO lists as ready to connect on current transmission in their near-term connection report (which may not have RA yet) will connect by or within 2 years of their planned
+online date.
+Sources: Aurora Energy Research, CAISO, Energy Storage News, PG&E, SCE, SDG&E
+CONFIDENTIAL
+9
+
+III Key structures for offtake agreements
+
+New York Index Storage Credit System aims to provide storage
+projects with revenue certainty and any necessary subsidization
+4
+
+State subsidies – Indexed storage payments
+1)
+A NY’s 2024 6GW Energy Storage Roadmap proposes the
+implementation of NYSERDA-led programs towards procuring an
+additional 4.7GW of new storage projects.
+
+
+After reviewing various options, NYSERDA3 suggested (and NYDPS4
+approved) implementing the Index Storage Credit (ISC) to procure
+3GW bulk storage.
+
+B Under the proposal ESR1 projects in yearly bids would offer a Strike
+1)
+Price, a crucial factor for NYSERDA's project selection; aiming to
+reflect the project's revenue needs.
+2)
+C Chosen projects would earn revenue calculated as the gap between
+the Strike Price and the Reference Price, which approximates an
+ESR's anticipated service market value by combining the Reference
+Energy Arbitrage Price (REAP) and the Reference Capacity Price
+(RCP).
+
+
+
+
+Index Storage Credit
+payment C
+Strike price Reference price
+(REAP + RCP)
+
+A
+Strike price:
+
+B
+
+Strike price bid by
+developer
+
+Selected storage
+project
+
+The NYSERDA/DPS filing suggests that if the Strike Price surpasses
+the total of REAP and RCP, NYSERDA pays the difference to
+selected projects. If the combined REAP and RCP exceed the Strike
+Price, the project pays NYSERDA.
+
+Data for reference
+price calculation
+
+Energy, capacity and
+Ancillary Services
+
+REAP = Difference between the top four and bottom four priced
+hours of the day-ahead zonal LBMPs2.
+RCP = The adjusted ICAP spot auction price considering the
+Capacity Accreditation Factor.
+
+NYSERDA3
+
+NYISO
+Wholesale markets
+Energy, capacity and
+Ancillary Services revenue
+
+1) Energy Storage Resource. 2) Locational based marginal prices. 3) New York State Energy Research and Development Authority. 4) New York Department of Public Service.
+Sources: Aurora Energy Research, NYSERDA
+
+CONFIDENTIAL
+
+10
+
+V
+
+Fair Pricing for ERCOT and CAISO
+
+Methodology: The tolling agreement price is bounded by the value to
+the offtaker and battery, respectively
+Waterfall components
+
+Tolling agreement price calculation
+$/kW-month
+1. Offtaker perspective
+
+2. Developer perspective
+
+Upside value – additional revenue secured by
+various market risks (e.g. extreme weather
+conditions in ERCOT, messy transition in CAISO)
+
+Reduced risk premium
+due to decreased
+revenue volatility
+
+ For the offtaker, the maximum
+willingness to pay depends on
+the value of the revenue
+streams.
+- Levelized value of expected
+capacity (if applicable),
+energy, and Ancillary Services
+revenues
+- Any incremental value
+associated with the project’s
+node1
+- Upside value
+- Price risk discount, reflecting
+the uncertainty in the
+realization of revenue streams
+ For the developer, the minimum
+acceptable price is calculated
+with hurdle rate that reflects a
+decrease in risk premium.
+
+Capacity value
+
+Energy
+arbitrage value
+
+Ancillary
+Service value
+
+Price risk
+
+Price upper
+bound
+
+Price range
+
+Price lower bound
+
+ The ultimate price is a function
+of supply-demand dynamics,
+impacted by the number of
+offtakers relative to batteries.
+
+1) The ensuing calculations assume zero nodal premium.
+Source: Aurora Energy Research
+
+CONFIDENTIAL
+
+11
+
+V
+
+Fair Pricing for ERCOT and CAISO
+
+ERCOT: The fair price for a 7-year tolling agreement in the West hub
+ranges from $5.7/kW/month (1-hour) to 13.7/kW/month (4-hour)
+Drivers of valuation
+
+,ERCOT: 7-year tolling agreement in West Hub starting in 2025 – by various durations, $/kW-month, nominal
+
+1hr duration
+
+4.2
+4.2
+
+3.7
+
+7.7
+-0.8
+
+-2.0
+
+3.9
+
+7.0
+
+2hr duration
+5.3
+
+6.1
+
+5.7
+
+11.1
+-1.2
+
+8.6
+-2.5
+
+4.9
+6.9
+4hr duration
+
+8.2
+
+13.7
+
+6.0
+
+-1.3
+
+Ancillary
+Services
+
+Price risk
+
+12.0
+-1.7
+
+7.5
+Energy
+arbitrage
+Upside value
+
+Upper
+bound price
+
+Price range
+
+ Tolling agreement fair prices are
+higher for longer-duration
+batteries, though not
+proportionally (i.e., the fair price
+for a 4-hour battery is less than
+2x the fair price for a 2-hour
+battery).
+ Although revenues from
+Ancillary Services are expected
+to decline over time as markets
+saturate, Ancillary Services still
+comprise a significant portion of
+tolling agreement value across
+all durations.
+ 2-hour and 4-hour batteries see
+higher Ancillary Service value
+than 1-hour batteries, primarily
+due to the 2-hour duration
+constraint for the ECRS
+product.
+
+Lower
+bound price
+
+Central value
+
+Source: Aurora Energy Research
+
+CONFIDENTIAL
+
+12
+
+Key takeaways on standalone battery storage contracting
+
+1
+2
+3
+
+Market or centrally based hedging schemes essential to risk management of volatile revenue streams for storage
+market participation. Hedge frameworks assist with revenue support and enable financing and investment.
+Multiple contract forms exist with respect to storage including tolls, revenue caps & floors, and spread (topbottom difference) contracts. Incentive compatibility issues need to be actively managed through innovative
+contract design, alignment of operational rights, and ensuring ‘skin-in-the-game’ through shared exposure.
+Valuation of complex hedging contracts require consideration of ‘two sides of the coin’: The developer’s
+perspective based on a ‘capital recovery’ approach and an offtaker’s perspective based on a ‘fair value’ approach.
+
+Sources: Aurora Energy Research
+
+CONFIDENTIAL
+
+13
+
+Details and
+disclaimer
+
+General Disclaimer
+This document is provided "as is" for your information only and no representation or warranty, express or implied, is
+given by Aurora Energy Research Limited and its subsidiaries Aurora Energy Research GmbH and Aurora Energy
+Research Pty Ltd (together, "Aurora"), their directors, employees agents or affiliates (together, Aurora’s "Associates") as
+to its accuracy, reliability or completeness. Aurora and its Associates assume no responsibility, and accept no liability
+for, any loss arising out of your use of this document. This document is not to be relied upon for any purpose or used
+in substitution for your own independent investigations and sound judgment. The information contained in this
+document reflects our beliefs, assumptions, intentions and expectations as of the date of this document and is subject
+to change. Aurora assumes no obligation, and does not intend, to update this information.
+Forward-looking statements
+This document contains forward-looking statements and information, which reflect Aurora’s current view with respect
+to future events and financial performance. When used in this document, the words "believes", "expects", "plans",
+"may", "will", "would", "could", "should", "anticipates", "estimates", "project", "intend" or "outlook" or other variations of
+these words or other similar expressions are intended to identify forward-looking statements and information. Actual
+results may differ materially from the expectations expressed or implied in the forward-looking statements as a result
+of known and unknown risks and uncertainties. Known risks and uncertainties include but are not limited to: risks
+associated with political events in Europe and elsewhere, contractual risks, creditworthiness of customers, performance
+of suppliers and management of plant and personnel; risk associated with financial factors such as volatility in
+exchange rates, increases in interest rates, restrictions on access to capital, and swings in global financial markets; risks
+associated with domestic and foreign government regulation, including export controls and economic sanctions; and
+other risks, including litigation. The foregoing list of important factors is not exhaustive.
+Copyright
+This document and its content (including, but not limited to, the text, images, graphics and illustrations) is the copyright
+material of Aurora, unless otherwise stated.
+This document is confidential and it may not be copied, reproduced, distributed or in any way used for commercial
+purposes without the prior written consent of Aurora.
+
+CONFIDENTIAL
+
+14
+
+15
+
+

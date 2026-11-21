@@ -1,0 +1,12 @@
+{
+ "id": "ercot-nprr1270-puct-report",
+ "title": "NPRR1270 PUCT Report (additional revisions required for implementation of RTC)",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "PUCT approved 2025-05-15",
+ "url": "https://www.ercot.com/files/docs/2025/05/19/1270NPRR-10-PUCT-Report-051525.docx",
+ "retrieved": "2026-11-21",
+ "raw_bytes": 95705,
+ "raw_sha256": "c00f7fae3740f256b84029093caa686650c2249fdd4bbee4012e06f223b4305a",
+ "text_chars": 289286
+}

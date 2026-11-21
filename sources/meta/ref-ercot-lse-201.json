@@ -1,0 +1,12 @@
+{
+ "id": "ref-ercot-lse-201",
+ "title": "LSE 201 (ERCOT training)",
+ "publisher": "ERCOT",
+ "tier": 2,
+ "edition": "February 2024",
+ "url": "https://www.ercot.com/files/docs/2024/02/28/2024_02-lse-201.pdf",
+ "retrieved": "2026-11-21",
+ "raw_bytes": 2670275,
+ "raw_sha256": "c04a26217b0c2b69686e924fd21c232d1d21a3176ef91896d191f394c01e9c05",
+ "text_chars": 21132
+}

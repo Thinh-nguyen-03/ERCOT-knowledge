@@ -1,0 +1,13 @@
+{
+ "id": "ercot-as-methodology-2026",
+ "title": "ERCOT Methodologies for Determining Minimum Ancillary Service Requirements, 2026",
+ "publisher": "ERCOT",
+ "tier": 1,
+ "edition": "effective 2026-01-01",
+ "url": "https://www.ercot.com/files/docs/2022/06/07/2026_Methodology_for_Determining_Minimum_AS_Reqs.zip",
+ "retrieved": "2026-11-21",
+ "raw_bytes": 113383,
+ "raw_sha256": "c5c5aa064527cb17109677cb82df6ef85935285b5d53473c686c1875a2399cba",
+ "text_chars": 15572,
+ "note": "extracted by hand from the zip archive at the url: file 'ERCOT Methodologies for Determining Minimum AS Requirements 010126.docx'"
+}

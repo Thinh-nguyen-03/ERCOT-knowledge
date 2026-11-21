@@ -1,0 +1,54 @@
+[]
+
+Electric Reliability Council of Texas
+
+PROTOCOL REVISION
+
+SUBCOMMITTEE
+
+PROCEDURES
+
+December 1, 2011
+
+  -------------------------- -------------------- -----------------------
+                                                  
+
+  -------------------------- -------------------- -----------------------
+
+  ERCOT
+
+  Protocol Revision Subcommittee
+
+Purpose
+
+These procedures are intended to define the roles of participants in the Protocol Revision Subcommittee (PRS), the process for addressing revisions requests, and the relationship with the Technical Advisory Committee (TAC) and other TAC Subcommittees.
+
+Subcommittee Structure
+
+The structure of the PRS is included in Section V. Subcommittees, of the TAC Procedures. The PRS will follow the election process as described in the Technical Advisory Committee Procedures, Section III, Chair and Vice-Chair, C, Election Process.
+
+Scope
+
+The PRS, reporting to the TAC, is responsible for reviewing and recommending action on formally submitted Nodal Protocol Revision Requests (NPRRs) and System Change Requests (SCRs) (“Revision Request”). PRS may refer Revision Requests to working groups or task forces that it creates or to existing TAC subcommittees, working groups or task forces for review and comment on the Revision Requests; however, the PRS shall retain ultimate responsibility for the processing of all Revision Requests. The PRS is also responsible for assigning a recommended priority and rank for any Revision Requests and guide revisions that require an ERCOT project for implementation.
+
+The procedure and timeline for addressing Revision Requests is detailed in Protocol Section 21, Revision Request Process.
+
+Urgent Revision Requests
+
+Protocol Section 21.5, Urgent Nodal Protocol Revision Requests and System Change Requests, defines Urgent Revision Requests. Revision Requests meeting the criteria will require special processing by the PRS. The following addresses the procedure the PRS will follow when presented with a Revision Request for which Urgent status is requested.
+
+1.  If a submitter requests Urgent status, the complete Revision Request is forwarded to the e-mail distribution list of the PRS and Urgent status will be considered at the next regularly scheduled PRS meeting or, if PRS leadership deems necessary, a special meeting of the PRS.
+
+2.  If the PRS acts to grant the Revision Request Urgent status, the Urgent Revision Request will be considered on an urgent timeline as outlined in Protocol Section 21.5.
+
+TAC
+
+The PRS shall communicate and submit a PRS Report to TAC for all Revision Requests submitted to and reviewed by the PRS according to the timeline described in Protocol Section 21.
+
+1.  The PRS shall respond to clarifying questions from TAC, relating to the PRS Report.
+
+2.  The PRS shall respond to a Revision Request that has been remanded to PRS from TAC with an amended PRS Report.
+
+Emergency and Special Meetings
+
+Emergency and special meetings will be called at the discretion of the PRS Chair or Vice-Chair to facilitate discussions related to Revision Requests and/or guide revisions.

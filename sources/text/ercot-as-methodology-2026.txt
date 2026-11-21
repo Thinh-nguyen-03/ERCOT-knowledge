@@ -1,0 +1,83 @@
+ERCOT Methodologies for Determining Minimum Ancillary Service Requirements
+
+ERCOT Board Recommended approval on 09/23/2025
+
+PUC Approved on 11/06/2025
+
+Effective Date of 01/01/2026
+
+TABLE OF CONTENTS
+
+Introduction 2
+
+Regulation Service Requirement Details 3
+
+Responsive Reserve (RRS) Requirement Details 4
+
+ERCOT Contingency Reserve Service (ECRS) and Non-Spinning Reserve (Non-Spin) Requirement Details 5
+
+ Introduction
+
+Paragraph (2) of Protocol Section 3.16, Standards for Determining Ancillary Service Quantities, requires that methodologies for determining the amounts of Ancillary Services to be required by ERCOT must be developed at least annually. Paragraph (3) of Protocol Section 3.16 requires review of this methodology by the ERCOT Board of Directors and approval by the Public Utility Commission of Texas (PUCT).
+
+This document discusses the various Ancillary Services for which requirements are to be developed. Further, detailed methodologies for determining those requirements are included as part of this document.
+
+Specifically, methodologies are required for the determination of the quantities of Regulation Service, ERCOT Contingency Reserve Service (ECRS), Non-Spinning Reserve (Non-Spin) and Responsive Reserve (RRS) that are required to maintain system reliability. Those procedures are discussed below.
+
+These procedures are intended for determining each of the Ancillary Service requirements for all months of the upcoming year. This procedure will be performed annually. The Ancillary Service requirements are determined annually and will be posted to the Market Information System (MIS) by December 20^(th) for the upcoming year. If necessary, any additional incremental adjustment to the posted Ancillary Service requirements for a particular month will be made using this procedure and will be posted to the MIS prior to the 20^(th) of each month for the upcoming month. If the Ancillary Service requirements identified through this process for a particular operating day are found to be insufficient based on the expected operating conditions for that day, ERCOT may make an updated Ancillary Service requirements posting for that day if the need for incremental adjustments is identified closer to Real-Time. For any additional months for which ERCOT is required to provide an Ancillary Service requirement forecast, the forecasted requirement will be set to the historical requirement for the same month of the previous year.
+
+ Regulation Service Requirement Details
+
+Introduction
+
+Regulation Service consists of resources that can be deployed by ERCOT in response to changes in ERCOT System frequency to maintain the target ERCOT System frequency within predetermined limits according to the Operating Guides. ERCOT is required to evaluate normal requirements for Reg-Up Service and Reg-Down Service on an annual basis. It is ERCOT’s practice to use historical rates of Regulation Service usage to perform evaluation and determine the required quantities for this service. Regulation Service is deployed in order to correct actual frequency to scheduled frequency and to ensure North American Electric Reliability Corporation (NERC) requirements are met.
+
+Summary
+
+The Regulation Service requirements are calculated with the expectation that sufficient Regulation Service will be available to cover the 95^(th) percentile of deployed regulation or net load variability. An adjustment may also be made based on historic CPS1 performance.
+
+Procedure
+
+To evaluate Regulation Service requirements, ERCOT will collect historical Resource Registration information, CPS1 data, Regulation Service deployment data, and ERCOT system load data. For determining the base Reg-Up requirements for a particular hour, ERCOT will calculate the 95^(th) percentile of the positive net load (load – wind – solar) forecast error for the same month of the previous two years. For determining the base Reg-Down requirements, ERCOT will calculate the 95^(th) percentile of the negative net load (load – wind – solar) forecast error for the same month of the previous two years. To better reflect balancing needs within the hours, the net load variability may be updated to account for accumulated Area Control Error (ACE).
+
+In order to consider the increased amount of wind and solar penetration, ERCOT will calculate the increase in installed wind and solar generation capacity, respectively. Then, depending on the month of the year and the hour of the day, ERCOT will add incremental MWs that are derived using the wind and solar forecast error adjustment tables and associated increase in wind and solar generation capacity, to the values determined above. The wind and solar forecast error adjustment tables for incremental MWs for Reg-Up and Reg-Down come from the study ERCOT performs annually, using similar techniques as the 2008 GE wind study, but using actual wind and solar data respectively. The increase in wind (or solar) generation capacity will be calculated by taking the total nameplate capacity of wind (or solar) resources in the ERCOT network model at the time of the procurement study and subtracting out the total nameplate capacity of wind (or solar) resources in the ERCOT model at the end of the month being studied from the previous year.
+
+ERCOT will post these monthly amounts for Regulation Service requirements for the upcoming year on the MIS.
+
+If any incremental changes to the annually posted amounts are needed then the revised amounts for the following month will be posted to the MIS prior to the 20^(th) of the current month. ERCOT may include adjustments for hours in a month considering monthly average for CPS1 and 12-month rolling average CPS1 scores. If it is determined that during the course of the year that the ERCOT monthly average for CPS1 score was less than 140% for a specific month, ERCOT will apply an extra 10% of both Reg-Up and Reg-Down for hours in which the CPS1 score was less than 140%. Additionally, if the ERCOT 12-month rolling average CPS1 score is less than 140%, for the next month ERCOT will procure an extra 10% of both Reg-Up and Reg-Down for hours in which the hourly CPS1 score was less than 140%. This value will increase to 20% if the CPS1 score falls below 100%.
+
+Responsive Reserve (RRS) Requirement Details 
+
+Nodal Operating Guide Section 2.3.1.1, Obligation, sets the minimum RRS requirement for all hours under normal conditions. ERCOT will procure amounts of RRS that vary by hour of the day and by month. These RRS amounts will be published by month in six separate blocks covering four-hour intervals. These amounts will be based on expected diurnal load, solar, and wind patterns for the month, will cover 70% of historic system inertia conditions for each block of hours for the month, and will use the equivalency ratio for RRS between Load Resources and Generation Resources to establish the conditions for each block of hours. The equivalency ratio will be used to establish the total reserves assuming the Day-Ahead Market (DAM) will use a one to one equivalency ratio. The minimum level of RRS procured from Resources providing RRS using Primary Frequency Response shall be determined for each month by ERCOT through the use of studies and shall not be less than 1,377 MWs. The remaining capacity required for RRS will be procured from all Resources qualified to provide RRS including Load Resources. The maximum amount of RRS that can be provided by Resources providing Fast Frequency Response (FFR) is limited to 450 MW. DAM will limit the combined RRS procured from Load Resources controlled by high set under frequency relay and Resources providing FFR to 60% of the total RRS requirement. ERCOT may increase the minimum capacity required from Resources providing RRS using Primary Frequency Response if it believes that the current posted quantity will have a negative impact on reliability or if it would require additional Regulation Service to be deployed. ERCOT will procure additional 200 MW of RRS for each percent of Reserve Discount Factor (RDF) when ERCOT estimates RDF to be less than 1. This adjustment will only apply for those 4-hour blocks where the 85^(th) percentile of weighted average temperate is greater than 95°F. RDFs are reviewed and adjusted based on the generators performance during an unannounced test. RRS amount will be published as a monthly requirement along with the equivalency ratio for each 4-hour block. Additionally, ERCOT will make incremental adjustments to account for Resources operating in synchronous condenser fast response mode providing RRS. This adjustment will only apply to those 4-hour blocks when system inertia is typically expected to be less than 250 GW*s. ERCOT will post these monthly amounts for the upcoming year on the MIS. These annually published amounts are the minimum quantity that will be procured in the DAM for each hour of the year.
+
+Self-arranged RRS used to fulfill a Qualified Scheduling Entity’s (QSE’s) RRS requirement will be limited to 60% from Resources providing FFR and Load Resources excluding Controllable Load Resources.
+
+If the percentage level for Resources providing FFR and Load Resources, excluding Controllable Load Resources, specified in the Protocols is changed, that change will be reflected in these requirements.
+
+ERCOT Contingency Reserve Service (ECRS) and Non-Spinning Reserve (Non-Spin) Requirement Details
+
+Introduction
+
+ECRS is a service that is provided using capacity that is capable of being ramped to a specified output level within 10 minutes. ECRS may be provided by unloaded, On-Line Generation Resource capacity; Quick Start Generation Resources (QSGRs); Load Resources that may or may not be controlled by high-set, underfrequency relays; Controllable Load Resources; and Generation Resources operating in synchronous condenser fast-response mode as defined in the Operating Guides. ECRS may be deployed to restore frequency within 10 minutes of a significant frequency deviation to recover deployed Regulation Service, to compensate for intra-hour net load forecast uncertainty and variability on days in which large amounts of online thermal ramping capability is not available, or when there is a limited amount of capacity available for Security-Constrained Economic Dispatch (SCED).
+
+Non-Spin consists of Generation Resources capable of being ramped to a specified output level within 30 minutes or Controllable Load Resources that are capable of being interrupted within 30 minutes and that are capable of running (or being interrupted) at a specified output level for at least four consecutive hours. Non-Spin may also be provided by Load Resources that are not Controllable Load Resources and are capable of reducing consumption based on an ERCOT Extensible Markup Language (XML) instruction within 30 minutes and maintaining that deployment until recalled. Non-Spin may be deployed to replace loss of generating capacity, to compensate for Load forecast and/or forecast uncertainty on days in which large amounts of reserve are not available online, to address the risk of net load ramp, or when there is a limited amount of capacity available for Security-Constrained Economic Dispatch (SCED).
+
+The periods when load is increasing and wind and/or solar are decreasing requires other generation resources to increase output or come online quickly to compensate for the sudden net load increases. As a result, net load ramp risk should be accounted for in the determination of Non-Spin requirements. While net load forecast analysis may cover reserves required for forecast uncertainty, it may not necessarily cover exposure to the loss of generation and net load ramp risk. Due to this risk, it may be necessary for ERCOT to have additional reserves available to protect against forecast uncertainty and Forced Outages of conventional Resources.
+
+Procedure
+
+A diagram of a probabilistic methodology used to calculate ECRS and NSRS requirements is shown below. The methodology utilizes an accounting of risk for which ECRS and NSRS are needed and accounting of historic excess capacity that may have available to respond to these risks.
+
+Risks accounting includes 30minte ahead and 6 hour ahead historic net load forecast errors and historic rolling 6 hour ahead forced outages of conventional Resources from the previous four years. ERCOT continues to see significant growth in installed solar capacity from one year to the next; an increase in solar capacity also tends to increase the MW quantity of error in its forecast. Hence, ERCOT’s reliance on historical solar forecast errors alone creates a possibility of under-estimation of the total requirement of ECRS and NSRS. To address this ERCOT will include an adjustment for expected increase in solar forecast error due to expected increase in installed capacity of solar Resources.
+
+Risk credits include historic online capacity that can be ramped to in 30-minutes and sustained for 4 hours, and historic offline capacity that can be brought online in 30 minutes.
+
+The engine will consume the risk and 60% of the historically available capacity for night hours (HE23-HE5) and 25% of the historically available capacity in day hours (HE6-HE22) as inputs, run a monte carlo optimization to compute a combined ECRS and NSRS requirement for each month and hour based on a convergence criteria. The convergence criteria will ensure that the ECRS and Non-Spin requirements computed (12 x 24 = 8760 values) are setup such that there is a 1 in 10-year probability of operational reserves dropping below the sum of procured Reg Up and RRS or Watch threshold ( Physical Responsive Capability (PRC) = 3,000 MW), whichever is higher, due to uncertainty in net load (load – wind - solar) forecast and conventional resource availability. The hourly requirement for ECRS and Non-Spin will be derived by using the 30 minute ahead and 6 hour ahead historic net load forecast error and the combined ECRS and Non-Spin requirements from the optimization. ECRS requirement may be increased further to account for the capacity needed to recover frequency following a large unit trip.
+
+[Diagram AI-generated content may be incorrect.]
+
+The frequency recovery related capacity for ECRS is computed for each hour in every month as capacity needed following a supply-side trip to recover frequency; will be based on expected diurnal load, solar, and wind patterns; will cover 70% of historic system inertia conditions for each hour for the month and will include an adjustment to account for Regulation Up requirement in the hour.
+
+ERCOT will post the monthly amounts for ECRS and Non-Spin requirements for the upcoming year on the MIS. Following this posting, ERCOT will monitor the weather and net load forecast (i.e. load, wind and solar forecasts) near Real-Time and may procure up to an additional 1,000 MW of Non-Spin for Operating Hours that are (a) identified as having an increased potential of high forecast variability, (b) there is a risk that the actual net load during these Operating Hours could be higher than forecast (after making appropriate forecast model selection) and (c) the expected available capacity and expected reserves including the posted minimum Non-Spin requirements during these Operating Hours is not sufficient to cover the projected net load forecast uncertainty risk.
+
+The minimum amount of Non-Spin procured from SCED dispatchable Resources in any hour shall not be less than lower of ERCOT’s Most Severe Single Contingency (MSSC) value and the Non-Spin requirement for that hour.

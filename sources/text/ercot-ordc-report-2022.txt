@@ -1,0 +1,641 @@
+2022 Biennial ERCOT Report on the Operating
+Reserve Demand Curve
+October 31, 2022
+
+© 2022 ERCOT
+All rights reserved.
+
+i
+
+Table of Contents
+Table of Contents ....................................................................................................................... ii
+Acronyms .................................................................................................................................. iii
+Executive Summary .................................................................................................................. 1
+1. Background and Key Events .............................................................................................. 3
+1.1. Operating Reserve Demand Curve (ORDC) Theory ................................................... 3
+1.2. Initial ERCOT Implementation ...................................................................................... 3
+1.3. Subsequent ERCOT ORDC Adjustments .................................................................... 5
+2. ORDC Impact on Reserves ................................................................................................ 7
+2.1. Real-Time On-Line Reserve Price Adder Impact on Real-Time On-Line Capacity..... 7
+2.2. Real-Time On-Line Reserve Price Adder Impact on Spinning and Non-Spinning Reserves
+8
+2.3. Real-Time On-Line Reserve Price Adder Impact on Self-Commitment Incentives ..... 9
+2.4. ORDC Impact on Physical Responsive Capability (PRC) ......................................... 10
+3. ORDC Impact on Prices ................................................................................................... 12
+4. ORDC Impact on Peaker Net Margin (PNM).................................................................... 13
+
+© 2022 ERCOT
+All rights reserved.
+
+ii
+
+Acronyms
+DAM
+EEA
+EOC
+ERCOT
+ERS
+HCAP
+HSL
+LCAP
+LOLP
+MCL
+NFRC
+Non-Spin
+ORDC
+PBMCL
+PNM
+PRC
+PUCT
+QSE
+QSGR
+RTM
+RTOFFCAP
+RTOFFPA
+RTOLCAP
+RTORDPA
+RTORPA
+RUC
+SWCAP
+VOLL
+
+Day-Ahead Market
+Energy Emergency Alert
+Energy Offer Curve
+Electric Reliability Council of Texas
+Emergency Responsive Service
+High System-Wide Offer Cap
+High Sustained Limit
+Low System-Wide Offer Cap
+Loss of Load Probability
+Minimum Contingency Level
+Non-Frequency Responsive Capacity
+Non-Spinning Reserve
+Operating Reserve Demand Curve
+Probability of Reserves Falling Below the Minimum Contingency Level
+Peaker Net Margin
+Physical Responsive Capability
+Public Utility Commission of Texas
+Qualified Scheduling Entity
+Quick-Start Generation Resources
+Real-Time Market
+Real-Time Off-Line Capacity
+Real-Time Off-Line Reserve Price Adder
+Real-Time On-Line Capacity
+Real-Time On-Line Reliability Deployment Price Adder
+Real-Time On-Line Reserve Price Adder
+Reliability Unit Commitment
+System-Wide Offer Cap
+Value of Lost Load
+
+© 2022 ERCOT
+All rights reserved.
+
+iii
+
+Executive Summary
+ERCOT provides this biennial report on the Operating Reserve Demand Curve (ORDC) to the Public
+Utility Commission of Texas (PUCT) in accordance with subsection (e) of PUCT Substantive Rule
+§25.505, Resource Adequacy Reporting Requirements in the Electric Reliability Council of Texas
+Power Region:
+“Operating Reserve Demand Curve (ORDC) report. ERCOT must publish, by
+November 1 of every even numbered year, a report analyzing the efficacy,
+utilization, related costs, and contribution of the ORDC to grid reliability in the
+ERCOT power region.”
+The ORDC is a market mechanism that values operating reserves in the wholesale electric market
+based on the scarcity of those reserves and reflects that value in energy prices. This report
+analyzes data related to the ORDC with a specific focus on the periods of March 2018 through
+March 2019; March 2020 through March 2021; and January 1 through September 30, 2022. These
+time periods were selected to compare the effects of prior ORDC policies against the effects of the
+changes to the ORDC parameters that were implemented at the beginning of 2022 as part of a host
+of market-design reforms that have been enacted in response to the Winter Storm Uri Event. These
+ORDC changes directly affect the data analyzed in this report, while broader reliability actions1
+influence the data indirectly. To effectively assess the efficacy, utilization, costs, and contribution of
+the ORDC to grid reliability following post-Uri reforms, this report takes the approach of comparing
+the 2022 study period to two baseline study periods that show the outcomes of previous ORDC
+policies.
+Key observations of this report include:
+•
+
+Efficacy: Changes to the ORDC for 2022 have resulted in higher price signals during
+periods of lower reserves, to encourage response from the market when there is greater risk
+to grid reliability. Additionally, prices to incent self-commitment of generation resources are
+being observed at higher reserve levels, as compared to previous study periods. ORDC
+prices (referred to as the Real-Time On-Line Reserve Price Adder (RTORPA)) are also
+playing a more significant role in the accumulated dollars observed in Peaker Net Margin
+(PNM): a metric that represents the net revenue that a hypothetical peaking Generation
+Resource could have earned from the Real-Time Market and provides some indication of the
+historical investment signal for these types of plants.
+
+•
+
+Utilization: Within the 2022 study period, the RTORPA has reached significant levels more
+frequently compared to the baseline study periods. This is especially true when comparing
+equivalent levels of on-line ORDC reserves (referred to as Real-Time On-Line Capacity
+(RTOLCAP)). Significant RTORPA values are also being observed earlier, at higher levels of
+reserves.
+
+1 Such reliability actions include additional Non-Spinning Reserve Service (Non-Spin) procurement, as well as operational
+
+procedures for deploying reliability measures.
+© 2022 ERCOT
+All rights reserved.
+
+1
+
+•
+
+Costs: For the 2022 study period, the ORDC prices have been a more significant contributor
+to energy prices in the Real-Time Market compared to the baseline study periods. This
+includes both an increased average RTORPA value and an increased contribution from the
+adder to the all-in, Real-Time price for energy represented by this adder.
+
+•
+
+Reliability: ORDC has created additional incentive for the market to respond to Real-Time,
+system-wide reliability needs compared to previous study periods. Also, as previously
+mentioned, the ORDC has provided broader, increased revenues, as measured by the PNM
+metric, to help incentivize longer-term resource adequacy.
+
+Specific results in the report include:
+•
+
+•
+
+•
+
+•
+
+•
+
+The observed reserve level at which RTORPA reaches $10 per megawatt-hour (MWh) has
+increased to 9,300 megawatts (MW) of total ORDC reserves under the current ORDC policy,
+compared to 5,770 MW and 6,720 MW under the previous ORDC policies that were
+analyzed. This has improved the economic signal for marginal generation resources to selfcommit and enter the on-line reserve pool at higher reserve levels, thus improving grid
+reliability before reserves drop to lower levels.
+Since the January 1, 2022 ORDC reform, the fraction of Operating Days during which the
+four-hour rolling time-weighted RTORPA exceeds $10/MWh has more than doubled with
+respect to the baseline study periods that were analyzed. Similarly, this has provided
+opportunities on more Operating Days for marginal generation resources to economically
+self-commit and enter the on-line reserve pool, providing increased reliability to the grid.
+As intended with the ORDC changes, price signals during times of lower Physical
+Responsive Capability (PRC) levels have been noticeably higher under the current ORDC
+paradigm, relative to the previous study periods. This is particularly prevalent when
+considering PRC levels below 3,500 MW. It is during these times of lower PRC levels when
+there is greater risk to grid reliability and response from the market participants is most
+needed. Thus, the current ORDC parameters are more effectively incenting offers of
+additional capacity and, as a result, PRC at the times of greatest need.
+The time-weighted average RTORPA increased from $0.41/MWh in 2021, excluding Winter
+Storm Uri, to $6.33/MWh in 2022 through September. This $6.33/MWh is 8.1% of the all-in
+price for 2022 through September, again indicating that RTORPA is playing a greater role in
+overall Real-Time Market price formation.
+With the ORDC changes for 2022, RTORPA has significantly contributed to PNM
+accumulation this year, making up approximately 29% of cumulative PNM through
+September. PNM accumulation in 2022 through September is approximately $139,000/MW,
+giving an indication that Real-Time Market prices for 2022 have provided a greater signal for
+investment in these types of Resources.
+
+While this report focuses on the ORDC changes that took effect for 2022, it should be noted that
+additional market design reform to enhance the long-term reliability of the ERCOT grid is still being
+considered by the PUCT, as part of PUCT Project No. 52373, Review of Wholesale Electric Market
+Design.
+
+© 2022 ERCOT
+All rights reserved.
+
+2
+
+1. Background and Key Events
+1.1. Operating Reserve Demand Curve (ORDC) Theory
+The ORDC is a market-based construct for valuing operating reserves according to their scarcity. As
+initially described to the PUCT by Dr. William Hogan, the ORDC is based on the following principles:
+“The key connection [for the ORDC] is with the value of lost load (VOLL) and the
+probability that the load will be curtailed. Whenever there is involuntary load
+curtailment and the system has just the minimum of contingency operating
+reserves, then prices should rise to the VOLL. At any other level of operating
+reserves, set to protect the system for possible events in the immediate future, the
+value of an increment of operating reserves should reflect the probability of loss of
+load.”2
+Due to net load forecast error and other factors, there is uncertainty in the level of operating reserves
+that will be available in the near-term operational timeframe of the next 30 minutes to one hour.
+Therefore, there is a probability, referred to as the Loss of Load Probability or LOLP, that operating
+reserves will fall to the level that would require involuntary load curtailment within that timeframe.
+When there is involuntary load curtailment, the ORDC should rise to VOLL. At operating reserve
+levels not requiring involuntary load curtailment, the ORDC should reflect the LOLP multiplied by
+VOLL such that, as operating reserves increase, the LOLP decreases and the ORDC eventually
+declines to zero.
+
+1.2. Initial ERCOT Implementation
+The ERCOT ORDC is fully defined in the Other Binding Document titled “Methodology for
+Implementing ORDC to Calculate Real-Time Reserve Price Adder” (the ORDC methodology
+document). 3 This section provides a brief summary of the complete description found in the ORDC
+methodology document. To the extent there is any difference between this summary and the ORDC
+methodology document, the ORDC methodology document controls.
+ERCOT’s initial ORDC implementation introduced separate price adders for on-line and off-line
+reserve categories to the five-minute Real-Time Market in summer 2014. The Real-Time On-Line
+Reserve Price Adder (RTORPA) is associated with Real-Time On-Line Capacity (RTOLCAP), which
+encompasses all reserves that can be made available to the system within 30 minutes. The RealTime Off-Line Reserve Price Adder (RTOFFPA) is associated with Real-Time Off-Line Capacity
+(RTOFFCAP), which refers to reserves that require between 30 minutes and one hour to be made
+available. Both adders are calculated in terms of VOLL and the probability of reserves falling below
+
+2 Improved Electricity Scarcity Pricing and Operating Reserves, William W. Hogan, Attachment to Second Supplemental Comments
+
+of GDF Suez Energy Resource NA, Inc., Project No. 40000 (Jan. 22, 2013)
+3 Available online: https://www.ercot.com/mktrules/obd/obdlist
+
+© 2022 ERCOT
+All rights reserved.
+
+3
+
+the minimum contingency level (PBMCL), where VOLL is equal to the System-Wide Offer Cap
+(SWCAP), and PBMCL is derived from LOLP and the minimum contingency level.
+PBMCL is a shifted version of ERCOT’s empirically determined LOLP normal distribution. LOLP,
+which represents the probability of a Real-Time reserve shortfall, is determined by comparing the
+Hour-Ahead forecasted level of reserves to the level of reserves realized in Real-Time. The gap
+between these values, termed reserve error, is assumed to follow a normal distribution characterized
+by a mean (Mu or μ) and a standard deviation (Sigma or σ). Once per season, ERCOT determines
+the LOLP distribution by compiling empirical reserve error data going back to the start of the Nodal
+Market4 and fitting this data to a normal distribution. The LOLP curve is then shifted by the minimum
+contingency level to obtain PBMCL, i.e., the probability of reserves falling below the minimum
+contingency level. Note that while the minimum contingency level described in Section 1.1 matches
+the reserve level at which ERCOT will begin instructing firm load shed, ERCOT’s minimum
+contingency level was initially set to 2,000 MW to address concerns related to long-term resource
+adequacy. See Figure 1 for an illustration of RTORPA in terms of LOLP, MCL, PBMCL, and VOLL.
+
+Figure 1: RTORPA, LOLP, and PBMCL. Reserve error distribution Mu and Sigma are set to their most recent values,
+and RTOFFCAP is assumed to be 0 MW for illustration purposes. Note that multiplying the PBMCL curve by VOLL
+(currently $5,000/MWh) yields the Operating Reserve Demand Curve (ORDC). RTORPA values may therefore be
+read from the right axis (assuming System Lambda is zero).
+
+4 December 1, 2010.
+
+© 2022 ERCOT
+All rights reserved.
+
+4
+
+The value of a particular Resource’s reserve contribution depends on how quickly it can be made
+available to the system. The Mu and Sigma parameters of PBMCL are adjusted between RTORPA
+and RTOFFPA to reflect this. Figure 2 illustrates the difference between the two adders as a
+function of reserve uncertainty over the next operating hour. Total reserve uncertainty is assumed to
+be split evenly between two 30-minute intervals. During the second interval, both reserve categories
+(RTOLCAP and RTOFFCAP) are available. RTOFFPA is therefore calculated using the full Mu and
+Sigma and is paid to reserves that fall into the RTOFFCAP category. During the first 30-minute
+interval of the next operating hour, however, only RTOLCAP is available. RTORPA therefore has an
+extra term, in addition to the RTOFFPA term, to compensate faster-acting reserves for their
+additional value. The extra term is calculated using a shortened PBMCL curve that captures reserve
+uncertainty over the first half of the upcoming operating hour, with Mu scaled by one-half and Sigma
+scaled by 0.707 to adjust for the fact that only a 30-minute period is being considered, as opposed to
+a full hour.
+
+Figure 2: ERCOT ORDC perspective on reserve uncertainty over the next operating hour. During Interval I (the first
+30 minutes), only RTOLCAP is available, making it more valuable than RTOFFCAP.
+
+There are two additional relevant details. First, Protocols limit the sum of System Lambda and all
+Price Adders to SWCAP, i.e., the system-wide offer cap. Thus, RTORPA can only reach SWCAP if
+System Lambda is zero. Second, there is one additional price adder called the Real-Time On-Line
+Reliability Deployment Price Adder (RTORDPA). This adder, which is unrelated to the ORDC and
+calculated after System Lambda and RTORPA are determined, accounts for the price impacts of
+Protocol-defined out-of-market actions, such as reliability actions like Reliability Unit Commitment
+(RUC) and Emergency Responsive Service (ERS) deployments.
+
+1.3. Subsequent ERCOT ORDC Adjustments
+There have been significant administrative changes to ERCOT ORDC parameters since the initial
+implementation in June 2014, as illustrated in Figure 3. Mu, the mean value of the LOLP distribution,
+© 2022 ERCOT
+All rights reserved.
+
+5
+
+was administratively shifted upward by 0.25 times Sigma in March of 2019, then by an additional
+0.25 times Sigma in March 2020. VOLL (which is set equal to SWCAP) changed twice, from
+$9,000/MWh down to the $2,000/MWh Low-System-Wide Offer Cap (LCAP) following Winter Storm
+Uri, then back up to $5,000/MWh on January 1 of this year. Finally, the minimum contingency level
+was increased from 2,000 MW to 3,000 MW on January 1 of this year. To help isolate the effects of
+these changes, the analysis presented in this report compares three study periods (which are
+shaded in Figure 3) selected to highlight three distinct chapters of ORDC history.
+
+Figure 3: Timeline of relevant ORDC parameters. The System-Wide Offer Cap (SWCAP) price is plotted against the
+left vertical axis, while the MW values (minimum contingency level, ORDC Mu, and ORDC Sigma) are plotted against
+the right axis. The three study periods considered in this report are shaded from left to right. (Note that prior to 2019,
+ORDC Mu and Sigma were calculated by first partitioning reserve error data into six blocks according to time of day;
+there are therefore six Mu and Sigma values for each 2018 season. The 2018 Mu and Sigma values shown in this
+figure are averages taken across the six time-of-day values for each 2018 season.)
+
+The first study period extends from the beginning of March 2018 to the end of February 2019. During
+this period, VOLL was $9,000/MWh, MCL was 2,000 MW, and each season’s calculated Mu and
+Sigma values were used without modification. This period serves as a baseline, capturing ORDC
+behavior before Mu was shifted or any post-Uri reforms took place.
+The second study period covers March 1, 2020, through March 3, 2021, after both of the
+aforementioned Mu shifts were in effect, but prior to post-Uri ORDC reforms. Winter Storm Uri itself,
+which occurred during this period, is excluded from all analysis unless otherwise stated, because
+this outlier period would misleadingly skew the results and minimize the ability to draw insights from
+
+© 2022 ERCOT
+All rights reserved.
+
+6
+
+the data.5 The sustained high prices of Uri obscured normal ORDC function: when RTORPA and/or
+RTORDPA would otherwise cause System Lambda plus Price Adders to exceed SWCAP, the
+otherwise applicable adders are reduced to maintain a total price that does not exceed SWCAP.
+Due to Uri’s sustained high prices, SWCAP (and therefore VOLL) was reduced to the LCAP of
+$2,000/MWh from March 4, 2021, until the end of that year. With VOLL at $2,000/MWh, it is once
+again difficult to assess typical ORDC behavior due to the cap on System Lambda plus Price
+Adders—there are numerous intervals with relatively low reserve levels where RTORPA was
+prevented from reaching a higher value because System Lambda was already at or near the lower
+SWCAP. Thus, this period is also excluded from study.
+The third study period extends from January through September of this year. Two significant
+changes occurred on January 1: SWCAP (and therefore VOLL) were set to $5,000/MWh when
+LCAP expired, and the minimum contingency level was shifted from 2,000 MW to 3,000 MW as part
+of post-Uri conservative operations.
+To summarize, the three study periods described in this section and shaded in Figure 3 were
+selected to facilitate comparison between three administratively different chapters in ORDC history.
+The first two study periods provide baselines against which this year’s ORDC impact may be
+compared.
+
+2. ORDC Impact on Reserves
+2.1. Real-Time On-Line Reserve Price Adder Impact on Real-Time On-Line Capacity
+To assess ORDC impacts on Real-Time system-wide prices and reserves, we can subtract the
+Reliability Deployment Price Adder (RTORDPA) from the widely used system-wide price signal
+“System Lambda plus Price Adders” to obtain “System Lambda plus RTORPA.” Figure 4 below
+illustrates the relationship between this ORDC-influenced system-wide price and RTOLCAP, with
+one subplot per study period. In each subplot, System Lambda plus RTORPA is plotted against
+RTOLCAP. The shaded area represents all possible values RTORPA could assume independently:
+the upper bound represents the case where RTOFFCAP is zero (and the RTOFFPA component of
+RTORPA is therefore at its maximum value), while the lower curve is created by setting RTOFFCAP
+arbitrarily large (resulting in an RTOFFPA component of $0/MWh). Note that RTORPA prevents the
+sum of System Lambda and RTORPA from falling below the lower bound of each shaded region.
+Moving from left to right, the graphs below show that this lower bound has increased in the second
+and third study periods, with the right subplot illustrating the strong relationship between this price
+signal and the level of on-line reserves during 2022. ORDC reform has driven System Lambda plus
+RTORPA substantially higher this year compared to the previous two study periods and has resulted
+in the RTORPA being utilized more frequently as a significant component of prices in the Real-Time
+Market at various levels of reserves.
+
+5 The excluded Winter Storm Uri period lasts from the night of February 14 until the morning of February 19.
+
+© 2022 ERCOT
+All rights reserved.
+
+7
+
+Figure 4. System Lambda plus Price Adders versus RTOLCAP during the three study periods of interest (from left to
+right). The shaded area represents all possible RTORPA values: its lower bound reflects the scenario where
+RTOFFCAP is arbitrarily large, while its upper bound represents RTOFFCAP = 0 MW.
+
+2.2. Real-Time On-Line Reserve Price Adder Impact on Spinning and Non-Spinning
+Reserves
+While RTORPA is only paid to on-line reserves (the RTOLCAP category), it is useful to consider its
+impact on total on-line and off-line reserves as they affect grid reliability. Total reserves may be
+expressed as RTOLCAP plus RTOFFCAP; this sum is known as RSNS within the ORDC
+methodology. Figure 5 below illustrates the sensitivity of RSNS to RTORPA in the $0.01/MWh to
+$30.50/MWh range for each of the three study periods. For each study period, SCED intervals were
+divided into RTORPA bins $1/MWh in width, and the average RSNS value was calculated for each
+bin. For example, the top-left point shows that between March 1, 2018, and February 28, 2019, for
+all SCED intervals when RTORPA was between $29.50/MWh and $30.50/MWh, RSNS was about
+5,100 MW on average. From the first study period to the second, the significant rightward shift
+shown in figure 5 below indicates higher reserve levels at the same prices. As might be expected
+from this year’s ORDC reform, there is an even larger increase in reserves when comparing the
+second study period to the third. While the plot for the third study period exhibits greater variability, it
+is also the steepest overall: RTORPA appears to increase more rapidly as RSNS declines, within the
+range shown. The bin centered on $10/MWh merits additional consideration: as previously shared
+with the PUCT by Brattle and Astrapé, ERCOT has estimated that a $10/MWh RTORPA value is
+sufficient to cover the start-up costs of a marginal combustion turbine with a four-hour minimumruntime.6 In other words, RTORPA values at and above approximately $10/MWh are expected to
+provide sufficient incentive for these types of Resources to self-commit. Drawing a horizontal line
+
+6 “Impact Assessment of ORDC Changes,” PUCT Control Number 52373, Item Number 246, received 2021-11-05.
+
+© 2022 ERCOT
+All rights reserved.
+
+8
+
+through Figure 5 at $10/MWh, we see that the average RSNS for RTORPA between $9.50/MWh and
+$10.50/MWh was 5,770 MW during the first study period, 6,720 MW during the second period, and
+9,300 MW during this year’s study period. To the degree price signals do encourage increased selfcommitment at higher reserve levels, this improves reliability and allows the system to better
+respond to variability and uncertainty that may be observed.
+
+Figure 5. RTORPA in $1/MWh bins versus bin average Spinning and Non-Spinning Reserves (RSNS).
+
+2.3. Real-Time On-Line Reserve Price Adder Impact on Self-Commitment Incentives
+As mentioned previously, the ORDC plays an important role in spurring the self-commitment of
+marginal Resources, incentivizing them to enter the reserve pool and contribute to on-line reserves.
+Ideally, this can help avoid out-of-market actions such as Reliability Unit Commitments (RUCs). To
+determine whether it is economic to commit a particular Resource on a given day, a Qualified
+Scheduling Entity (QSE) must compare the Resource’s start-up costs to its expected revenue over
+the course of its minimum run time. As described in the previous section, ERCOT has estimated that
+a $10/MWh RTORPA value is sufficient to cover the start-up costs of a marginal combustion turbine
+with a four-hour minimum run time. Figure 6 below illustrates the fraction of days during each study
+period where the four-hour rolling time-weighted average RTORPA exceeded $10/MWh. These are
+days where a Resource with a four-hour minimum run time could have received at least $10/MWh
+on average, from RTORPA payments alone, by self-committing at an appropriate time.7 This year
+
+7 It is worth noting that a QSE cannot know what RTORPA prices will materialize over the next four hours in advance; in other
+
+words, only with perfect knowledge of the future could a QSE self-commit a Resource on every day for which it is economical to do
+© 2022 ERCOT
+All rights reserved.
+
+9
+
+the fraction of days meeting the $10/MWh over 4-hour price-duration criterion is just under 25%,
+more than double that of the previous study period. Although this year’s study period has the fewest
+total days of the three, it contained more days satisfying the price-duration criterion than the other
+two study periods combined. Following the January 1 ORDC reform, RTORPA has provided many
+more opportunities for marginal combustion turbines to economically self-commit and enter the online reserve pool, with any increase in self-commitment leading to increased reliability to the grid.
+
+Figure 6: Fraction of days where 4-hour rolling time-weighted average ORDC adder exceeded $10/MWh.
+
+2.4. ORDC Impact on Physical Responsive Capability (PRC)
+While ORDC price adders are paid to reserves according to the RTOLCAP and RTOFFCAP
+categories, Real-Time operations such as Ancillary Service deployments and Energy Emergency
+Alert (EEA) events are driven by a measure of operational reserves called Physical Responsive
+Capability (PRC). PRC is closely related to RTOLCAP, but the two reserve measures differ in a few
+ways. PRC excludes Non-Frequency Responsive Capacity (NFRC) as well as off-line Quick-Start
+Resources that may be able to respond quickly to grid conditions but are not synchronously
+connected. Generally, PRC also limits calculated reserve headroom to 20% of each Resource’s High
+Sustained Limit (HSL). A Resource’s HSL is the maximum sustained energy a Generation Resource
+may produce or the maximum power consumption of a Load Resource. When system conditions
+tighten and reserves become scarcer, RTOLCAP and PRC tend to converge: NFRC decreases, online Generation Resources are dispatched at levels closer to their HSLs, and Quick-Start Generation
+Resources (QSGRs) come on-line. We therefore expect some sensitivity of PRC to RTORPA during
+SCED intervals in which PRC is low. Below, Figure 7 plots uncapped RTORPA (calculated directly
+from the ORDC without applying SWCAP to System Lambda plus Price Adders) against PRC for
+
+so. Also, even if RTORPA payments are expected to cover a Resource’s start-up costs, a QSE would only commit that Resource if
+anticipated LMPs are sufficiently high compared to its Energy Offer Curve (EOC).
+© 2022 ERCOT
+All rights reserved.
+
+10
+
+SCED intervals where PRC was below 4,500 MW.8 Only the second and third study periods are
+shown here, on the top and bottom subplots respectively. The fraction of SCED intervals with PRC
+below 4,500 MW is similar between the two study periods: 35.6% and 38.5%, respectively. The
+average PRC across this low-PRC range is also similar: 3,863 MW during the last study period
+compared to 3,962 MW this year. The most significant difference between these two sets of SCED
+intervals is in average RTORPA: $6.29/MWh for the second study period, but $22.36/MWh this year.
+These summary statistics are summarized in Table 1. Figure 7 illustrates that this year’s increase in
+average RTORPA is concentrated in SCED intervals with PRC below 3,500 MW. In other words,
+following ORDC reform, we observe stronger reserve price signals specifically during periods with
+lower levels of operational reserves. This was a primary goal of the ORDC reform as it is during
+these times of lower PRC levels when there is greater risk to grid reliability and response from the
+market participants is most needed and should be incented through prices.
+
+Figure 7: Uncapped RTORPA (calculated without applying SWCAP to System Lambda plus Price Adders) vs PRC for
+the second and third study periods. Only SCED intervals with PRC below 4,500 MW are shown.
+
+8 The 4,500 MW threshold was chosen to focus on SCED intervals with relatively low PRC, where there is increased reliability risk
+
+and increased operator scrutiny may be expected.
+© 2022 ERCOT
+All rights reserved.
+
+11
+
+Study Period
+
+SCED Intervals
+with Low PRC
+(PRC < 4,500 MW)
+
+Fraction of
+Total Intervals
+with Low PRC
+
+Average PRC
+Across LowPRC Intervals
+
+Average RTORPA
+Across Low-PRC
+Intervals
+
+March 2020 –
+March 2021
+
+37,874
+
+35.6%
+
+3,863 MW
+
+$6.29/MWh
+
+January –
+September 2022
+
+30,745
+
+38.5%
+
+3,962 MW
+
+$22.36/MWh
+
+Table 1: Summary statistics for SCED intervals with PRC below 4,500 MW.
+
+3. ORDC Impact on Prices
+Generators and loads in the ERCOT system are settled at Settlement Point Prices (SPPs) every 15
+minutes. SPPs are a combination of Locational Marginal Prices (LMPs) for energy, the RTORPA,
+and the RTORDPA. Figure 8 illustrates the contributions of each of these price components by
+month going back to October 2020. Real-Time Hub Average Prices have been significantly higher in
+2022 than in 2021.9 Due to ORDC reform, the time-weighted average RTORPA is also higher in
+2022: $6.11/MWh, or 8.1% of the all-in price, in 2022 through September compared to just
+$0.41/MWh, or 1.0% of the all-in price, in 2021.
+
+Figure 8: Relative contributions of ORDC and Reliability Deployment Price Adders to total Real-Time Energy Prices
+by month This graph includes data from Winter Storm Uri.
+
+9 One key driver of higher 2022 prices is higher fuel costs. In the ERCOT grid, system-wide prices are typically set by marginal
+
+natural gas generators.
+© 2022 ERCOT
+All rights reserved.
+
+12
+
+As mentioned previously, the self-commitment incentive provided by RTORPA is most important
+when Physical Responsive Capability (PRC) is low and additional reliability actions may become
+necessary. Figure 9 illustrates the price contributions of LMPs, RTORPA, and RTORDPA specifically
+during intervals when PRC was less than 3,500 MW. As can be seen in the figure, the increase in
+RTORPA’s contribution to total prices is particularly pronounced for intervals when PRC was
+relatively low. This year through September, when PRC was below 3,500 MW, the time-weighted
+average RTORPA was $115.63/MWh or 22.7% of the all-in price. Last year, these values were
+$7.62/MWh and 2.4%, respectively. This provides a clear indication that RTORPA is being utilized
+more frequently as a significant component of prices in the Real-Time Market at various levels of
+reserves, but particularly during periods of greater reliability risk when PRC is relatively low.
+
+Figure 9: Relative contributions of ORDC and Reliability Deployment Price Adders to total Real-Time Energy Prices
+for SCED intervals below 3,500 MW PRC by month. This graph includes data from Winter Storm Uri.
+
+It is difficult to assess all pricing impacts of the ORDC because some of these impacts only manifest
+indirectly. For example, the RTORPA’s impact on the value of reserves is carried through to RealTime Ancillary Service Imbalance payments and charges assessed to QSEs. Higher anticipated
+Real-Time reserve demand prices also indirectly affect the Day-Ahead Market (DAM) Ancillary
+Service Market Clearing Prices for Capacity (MCPCs), as the Real-Time prices for reserves drive
+expectations and potential opportunity cost for QSEs pricing their Ancillary Service offers. While
+these impacts have not been explicitly analyzed in this report and would be difficult to quantify given
+other recent changes in grid operation, they would be expected to have some impact, particularly for
+QSEs who are offering significant Ancillary Service quantities in the DAM.
+
+4. ORDC Impact on Peaker Net Margin (PNM)
+Peaker Net Margin (PNM) represents the net revenue that a hypothetical peaker Generation
+Resource could have earned from the Real-Time Market and provides some indication of the
+historical investment signal for these types of plants. This value accumulates throughout the year
+© 2022 ERCOT
+All rights reserved.
+
+13
+
+and is reported on the ERCOT website daily. The PNM threshold is administratively set in PUCT
+Substantive Rule §25.509(b)(6)(C). Once the PNM threshold is met, ERCOT will transition the
+System-Wide Offer Cap (SWCAP) from the High System-Wide Offer Cap (HCAP) to the Low
+System-Wide Offer Cap (LCAP) for the remainder of the year. PNM is calculated using SPPs, and is
+therefore sensitive to Real-Time LMPs, RTORPA, and RTORDPA. Figure 10 below indicates that
+monthly PNM totals are larger overall in 2022 than in 2021 (excluding February 2021). The
+contribution from RTORPA is markedly higher this year.
+
+Figure 10: Peaker Net Margin with and without the ORDC Price Adder by month. This graph includes data from
+Winter Storm Uri.
+
+Below, Figure 11 illustrates the accumulation of PNM for 2021. The most noteworthy observation is
+related to Winter Storm Uri: over 90% of the yearly PNM accumulated in the week surrounding the
+storm. The PNM threshold of $315,000/MW-year was reached on February 16, 2021. Typically, the
+SWCAP would be set to the LCAP on February 18, 2021; however, the PUCT directed a
+postponement of this transition until March 4, 2021. 2021 was the first time the PNM threshold was
+met. In 2021, over five times more PNM accumulated than any previous year. The RTORPA made
+up about 8% of the total PNM for 2021.
+
+© 2022 ERCOT
+All rights reserved.
+
+14
+
+Figure 11: Cumulative Peaker Net Margin with and without ORDC Price Adders for 2021. This graph includes data
+from Winter Storm Uri.
+
+PNM accumulation in 2022, illustrated in Figure 12 below, has been more similar to previous years
+than 2021. While dwarfed by 2021, 2022 through September has had the next highest PNM since
+the implementation of the ERCOT nodal market in late 2010. PNM accumulation in 2022 through
+September is approximately $139,000/MW. Comparing this to an estimated cost of new entry of
+$93,500/MW-year for a new combustion turbine, this provides an indication that Real-Time Market
+prices for 2022 have provided some level of investment signal for these types of Resources.10 With
+the ORDC changes in place, RTORPA has made up approximately 29% of the total PNM
+accumulated in 2022 through September.
+
+10 The estimated cost of new entry was taken from the “Estimation of the Market Equilibrium and Economically Optimal Reserve
+
+Margins for the ERCOT Region for 2024,” prepared for ERCOT by Astrapé Consulting and is available on the ERCOT website.
+© 2022 ERCOT
+All rights reserved.
+
+15
+
+Figure 12: Cumulative Peaker Net Margin with and without ORDC Price Adders for 2022.
+
+© 2022 ERCOT
+All rights reserved.
+
+16
+
+

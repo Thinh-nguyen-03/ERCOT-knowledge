@@ -1,0 +1,3337 @@
+ERCOT MARKET EDUCATION
+
+Congestion Revenue Rights
+
+2020_05 CRR
+
+Legal Disclaimers and Admonitions
+
+Protocol Disclaimer
+
+This presentation provides a general overview of the Texas
+Nodal Market and is not intended to be a substitute for the
+ERCOT Protocols, as amended from time to time. If any
+conflict exists between this presentation and the ERCOT
+Protocols, the ERCOT Protocols shall control in all respects.
+For more information, please visit:
+http://www.ercot.com/mktrules/nprotocols/
+
+2
+
+Housekeeping
+
+WebEx Training Tips
+• Windows
+
+• Buttons
+Attendance
+Questions / Chat
+
+Please enable video
+& audio capabilities
+3
+
+Course Objectives
+
+Upon completion of this course, you will be able to:
+
+• Identify the requirements to participate in the CRR market
+• Explain various CRR market processes
+• Describe possible financial outcomes of CRRs in the
+ERCOT markets
+
+4
+
+Course Modules
+
+Modules in this course include:
+
+1
+
+Fundamentals of Congestion Revenue Rights
+
+2
+
+CRR Auction & Allocation Processes
+
+3
+
+Trading of CRRs
+
+4
+
+Day-Ahead Market Point-to-Point Obligations
+
+5
+
+Credit Limits
+
+6
+
+CRR Settlements
+
+5
+
+Module 1
+
+Fundamentals of
+Congestion Revenue Rights
+
+Module Objectives
+
+Upon completion of this module, learners will be able to:
+
+• Explain the nature of congestion cost exposure
+• Describe the products available for hedging Day-Ahead
+Market congestion
+• Describe the product available for hedging Real-time Market
+congestion
+
+7
+
+Congestion Costs
+
+Congestion Cost exposure
+
+$30/MWh
+$40/MWh
+$30/MWh
+
+Hub
+
+Resource
+Node A
+
+$30/MWh
+$50/MWh
+
+Load Zone
+
+Price separation across
+the grid exposes buyers
+and sellers of energy to
+Congestion Costs
+8
+
+Congestion Revenue Rights
+
+Congestion Revenue Rights (CRRs):
+
+• Financial instruments
+• Payment or charge to owner when
+Transmission Grid is congested in
+Day-Ahead Market
+
+A CRR is not a right to
+deliver physical energy
+
+9
+
+Congestion Revenue Rights
+
+CRRs may be used as:
+
+• Financial Hedge
+• Financial Investment
+
+10
+
+Congestion Revenue Rights
+
+As a Financial Hedge for …
+
+• Price certainty - Locking in the cost of congestion at the
+cost of purchasing the CRR
+
+Difference
+
+Price Separation between two Settlement Points
+
+Hour
+11
+
+Congestion Revenue Rights
+
+As a Financial Investment …
+
+CRR may be purchased on a speculative basis:
+
+Congestion Rent
+
+>
+
+Purchase Price
+
+12
+
+Congestion Revenue Rights
+
+Types of Congestion Revenue Rights
+
+• Designated point of injection (source)
+and point of withdrawal (sink)
+Point-to-Point
+Congestion
+Revenue Rights
+
+• Settlement based on difference
+between sink and source Settlement
+Point Prices
+• Two Instruments:
+• Point-to-Point Options
+• Point-to-Point Obligations
+
+13
+
+Congestion Revenue Rights
+
+Point-to-Point Options
+
+Provide a hedge that can only result in a payment
+
+$10/MWh
+$5/MWh
+
+Sink B
+
+Source A
+$15/MWh
+Source C
+
+Option AB Payment = $5.00
+?
+Option CB Payment = $0.00
+?
+14
+
+Congestion Revenue Rights
+
+Point-to-Point Obligations
+
+Provide a hedge that may result in a payment or a charge
+
+$10/MWh
+$5/MWh
+
+Sink B
+
+Source A
+$15/MWh
+Source C
+
+Obligation AB Payment = $5.00
+?
+Obligation CB Charge = $5.00
+?
+15
+
+Congestion Revenue Rights
+
+Three ways of acquiring CRRs:
+
+• CRR Auction
+• Allocation (Special Cases)
+• Bilateral Trades
+
+Auction
+
+Allocation
+
+CRRs
+
+Trade
+
+16
+
+Congestion Revenue Rights
+
+CRR Account Holder
+
+Registration and qualification:
+• CRR Account Holder Application and
+Standard Form Agreement
+• Provide bank account information
+
+• Demonstrate the capability to perform
+the functions of an Account Holder
+• Satisfy ERCOT’s creditworthiness
+requirements
+
+17
+
+Hedging Congestion Costs
+
+Example
+
+Day-Ahead Congestion Hedging
+
+Load Zone
+(sink)
+Resource
+Node A
+(source)
+Resource
+Node B
+
+• 5MW DAM Energy Purchase at Load Zone
+• 5MW PTP Option from Resource Node A to Load Zone
+18
+
+Hedging Congestion Costs
+
+Example
+
+$20/MWh
+
+Day-Ahead Congestion Hedging
+
+Load Zone
+(sink)
+
+$20/MWh
+
+Resource
+Node A
+(source)
+
+$20/MWh
+
+Resource
+Node B
+
+Energy Purchase
+
+PTP Option Payment
+
+Net Day-Ahead Cost
+
+$100
+
+$0
+
+$100
+19
+
+Hedging Congestion Costs
+
+Example
+
+$20/MWh
+
+Day-Ahead Congestion Hedging
+
+Load Zone
+(sink)
+
+$25/MWh
+
+Resource
+Node A
+(source)
+
+$30/MWh
+
+Resource
+Node B
+
+Energy Purchase
+
+PTP Option Payment
+
+Net Day-Ahead Cost
+
+$125
+
+$25
+
+$100
+20
+
+Hedging Congestion Costs
+
+Example
+
+$20/MWh
+
+Resource
+Node A
+(source)
+
+Day-Ahead Congestion Hedging
+
+Don’t forget – there was a
+Load Zone
+$25/MWh
+cost to buy the PTP Option
+(sink)
+in the CRR Auction.
+$30/MWh
+
+Resource
+Node B
+
+Energy Purchase
+
+PTP Option Payment
+
+Net Day-Ahead Cost
+
+$125
+
+$25
+
+$100
+21
+
+Hedging Congestion Costs
+
+Example
+
+Real-Time Congestion Hedging
+
+$??/MWh
+
+$??/MWh
+
+Load Zone
+
+Resource
+Node A
+$??/MWh
+
+Resource
+Node B
+
+• 5MW Trade Energy Purchase at Resource Node A
+• 5MW Load at Load Zone
+22
+
+Hedging Congestion Costs
+
+Example
+
+Real-Time Congestion Hedging
+
+$30/MWh
+
+$30/MWh
+
+Load Zone
+
+Resource
+Node A
+$30/MWh
+
+Resource
+Node B
+
+Payment at
+Resource Node A
+
+Charge at
+Load Zone
+
+Real-time Congestion
+Exposure
+
+$150
+
+$150
+
+$0
+23
+
+Hedging Congestion Costs
+
+Example
+
+Real-Time Congestion Hedging
+
+$30/MWh
+
+$40/MWh
+
+Load Zone
+
+Resource
+Node A
+$45/MWh
+
+Resource
+Node B
+
+Payment at
+Resource Node A
+
+Charge at
+Load Zone
+
+Real-time Congestion
+Exposure
+
+$150
+
+$200
+
+$50
+24
+
+Day Ahead Market PTP Obligations
+
+Day Ahead Market PTP Obligations:
+
+• Financial instruments
+• Payment or charge to owner when
+Transmission Grid is congested in
+Real-Time
+
+25
+
+Day Ahead Market PTP Obligations
+
+DAM PTP Obligations may be used as:
+
+• Financial Hedge
+• Financial Investment
+
+26
+
+Day Ahead Market PTP Obligations
+
+As a Financial Hedge for…
+
+• Price certainty - Locking in the costs of Real-time
+congestion at Day-Ahead Market prices
+
+Difference
+
+Price Separation between two Settlement Points
+
+Hour
+27
+
+Day Ahead Market PTP Obligations
+
+As a Financial Investment …
+
+DAM PTP Obligations may also be purchased on a
+speculative basis:
+
+Real-time value
+
+>
+
+Purchase Price
+
+28
+
+Day Ahead Market PTP Obligations
+
+Day-Ahead Market PTP Obligations
+
+• Purchased at DAM price spread
+• Settled at Real-Time price spread
+
+Sink B
+Source A
+
+PTP
+Obligation
+Only QSEs may participate
+in the Day-Ahead Market
+
+29
+
+Day Ahead Market PTP Obligations
+
+Qualified Scheduling Entity
+
+Registration and qualification:
+• QSE Application and Standard Form
+Agreement
+• Provide bank account information
+
+• Demonstrate the capability to perform the
+functions of a QSE
+• Meet communications requirements
+• Satisfy ERCOT’s creditworthiness
+requirements
+30
+
+Day Ahead Market PTP Obligations
+
+Example
+
+Day Ahead Market PTP Obligations
+
+Resource
+Node A
+
+5 MW
+PTP Obligation
+Load Zone
+
+Source
+
+DAM Prices:
+
+$20/MWh
+
+$25/MWh
+
+Real-Time Prices:
+
+$30/MWh
+
+$40/MWh
+
+QSE charge in Day Ahead Market =
+
+QSE payment in Real Time =
+
+Sink
+
+$25
+?
+
+$50
+?
+31
+
+Hedging Congestion Costs
+
+Example
+
+Real-Time Congestion Hedging
+
+$30/MWh
+
+$40/MWh
+
+Load Zone
+
+Resource
+Node A
+$45/MWh
+
+Resource
+Node B
+
+• 5MW Trade Energy Purchase at Resource Node A
+• 5MW Load at Load Zone
+• 5MW DAM PTP Obligation Resource Node A to Load Zone
+32
+
+Hedging Congestion Costs
+
+Example
+
+Real-Time Congestion Hedging
+
+$40/MWh
+
+$30/MWh
+
+Load Zone
+
+Resource
+Node A
+$45/MWh
+
+Resource
+Node B
+
+Payment at
+Resource Node A
+
+Charge at
+Load Zone
+
+Payment for
+PTP Obligation
+
+Real-time
+Net Cost
+
+$150
+
+$200
+
+$50
+
+$0
+33
+
+Module Summary
+
+In this module, you’ve learned about:
+
+• Congestion cost exposure in the ERCOT markets
+• Financial instruments available for hedging congestion
+costs in the ERCOT markets
+
+34
+
+Module 2
+
+CRR Auction & Allocation Process
+
+Module Objectives
+
+Upon completion of this module, learners will be able to:
+
+• Describe the role of the CRR Network Model in the CRR
+Auction
+• Explain the impact of Pre-Assigned CRRs (PCRRs) on the
+CRR Auction
+
+• Identify the inputs of the CRR Auction Process
+• Describe the CRR Auction Process
+• Identify the outputs of the CRR Auction
+
+36
+
+Congestion Revenue Rights Life Cycle
+
+Allocation
+
+CRR Auction
+
+• PCRRs to NOIEs
+
+• Bids to Buy
+
+• Prior to the CRR Auction
+
+• Offers to Sell
+
+Auctions are held
+monthly and
+semi-annually.
+
+Day-Ahead
+Market
+• Daily Settlement of CRRs
+
+37
+
+Availability of Congestion Revenue Rights
+
+Auctions take place twice per month:
+
+• Monthly Auction
+• Long-Term Auction Sequence
+• Six successive auctions
+• Six-month periods
+• One auction each month
+JanJune
+
+JulyDec
+
+JanJune
+
+JulyDec
+
+JanJune
+
+JulyDec
+
+JulyDec
+
+JanJune
+
+JulyDec
+
+JanJune
+
+JulyDec
+
+*Exact dates on CRR Activity Calendar - http://www.ercot.com/mktinfo/crr
+
+JanJune
+
+38
+
+Availability of Congestion Revenue Rights
+
+Available Capacity
+
+• 90% in Monthly Auction
+• Less in Long-Term Auctions
+• 70% for Sequence 1
+• 55% for Sequence 2
+• 40% for Sequence 3
+• 30% for Sequence 4
+• 20% for Sequence 5
+• 10% for Sequence 6
+
+39
+
+Availability of 2021 Congestion Revenue Rights
+
+Nov-2021
+
+Oct-2021
+
+Sep-2021
+
+Aug-2021
+
+Jul-2021
+
+Jun-2021
+
+May-2021
+
+Apr-2021
+
+Mar-2021
+
+Feb-2021
+
+70%
+
+Jan-2021
+
+90%
+
+Dec-2020
+
+100%
+
+Oct-2020
+
+Apr-2021
+
+May-2020
+
+Nov-2020
+
+Dec-2019
+
+Jun-2020
+
+Jul-2019
+
+Jan-2020
+
+Feb-2019
+
+Aug-2019
+
+Sep-2018
+
+Mar-2019
+
+January to June 2021
+
+July to December 2021
+
+55%
+40%
+30%
+20%
+
+10%
+0%
+40
+
+Modeling for Congestion Revenue Rights
+
+ERCOT’s System Capacity is determined from the
+Network Operations Model
+
+Reflects characteristics of
+ERCOT Transmission System
+• Topology
+• Equipment Ratings
+
+• Other Operational Limits
+
+41
+
+Modeling for Congestion Revenue Rights
+
+CRR Network Model
+
+• Derived from Network Operations Model
+• Represents the transmission capacity for each month
+
+42
+
+Modeling for Congestion Revenue Rights
+
+CRR Network Model will reflect:
+
+• Transmission facilities expected to be in-service for the
+specified month
+• Significant outages
+• Dynamic Ratings
+
+• Monitored Elements
+• Contingencies
+• Settlement Points
+
+43
+
+Modeling for Congestion Revenue Rights
+
+ERCOT uses the CRR Network Model in:
+
+• CRR Auction Process
+• PCRR Allocation to NOIEs
+ERCOT posts Models on MIS:
+• 10 business days before
+Monthly Auction
+
+• 20 business days before
+Long-Term Auction
+Sequence
+
+44
+
+PCRR Allocation
+
+Pre-Assigned CRRs (PCRRs)
+
+• Allocated to Non-Opt-In Entities (NOIEs)
+based on their annual nominations
+• Based on the long-term supply contracts
+of NOIEs
+
+• Cost is a percentage of the CRR Auction
+clearing price
+
+45
+
+PCRR Allocation
+
+Simultaneous Feasibility Test
+
+Goal:
+• Confirms that the transmission system can support an
+awarded set of CRRs during normal system conditions
+Process
+
+• DC power-flow model
+• Used during Allocation
+• Used during the Day-Ahead Market
+
+46
+
+PCRR Allocation
+
+Possible Transmission Capacity
+Available for Allocation
+
+Possible Transmission Capacity
+Available Prior to the Auction
+
+47
+
+CRR Auction
+
+CRR Auction Process
+
+Bids
+Auction Results
+• Postings
+• Settlements
+
+Offers
+
+CRR Auction
+Engine
+CRR Model
+
+Allocated PCRRs
+Previously Awarded CRRs
+
+Data Transmitted Daily
+• Credit
+• Settlements
+
+Credit Limits
+
+48
+
+CRR Auction
+
+Inputs
+
+Bids – willingness to buy CRRs
+Bids
+
+Indicate:
+• Not-to-Exceed Price
+• Maximum MWs of CRR
+
+49
+
+CRR Auction
+
+Bids
+
+Price
+
+Time
+Of
+Use
+
+Buy
+or
+Sell
+
+Hedge
+Type
+
+Start Date
+
+End
+Date
+
+10
+
+10
+
+Peak
+WD
+
+Buy
+
+OBL
+
+07/01/2014
+
+07/31/2014
+
+LZ4
+
+10
+
+10
+
+Peak
+WD
+
+Buy
+
+OBL
+
+07/01/2014
+
+07/31/2014
+
+LZ5
+
+RN3
+
+10
+
+10
+
+Peak
+WD
+
+Buy
+
+OBL
+
+07/01/2014
+
+07/31/2014
+
+Hub1
+
+LZ2
+
+10
+
+10
+
+Peak
+WD
+
+Buy
+
+OBL
+
+07/01/2014
+
+07/31/2014
+
+Account
+Holder
+
+Source
+
+Sink
+
+MW
+
+CRRAH1
+
+RN1
+
+LZ4
+
+CRRAH1
+
+RN2
+
+CRRAH1
+CRRAH1
+
+50
+
+CRR Auction
+
+CRRs are auctioned or allocated in:
+
+• Time-of-Use Blocks
+• One month strips
+Mon
+
+Tues
+
+Wed
+
+Thurs
+
+Fri
+
+Sat
+
+Sun
+
+Off-Peak (0100 – 0600)
+Peak Weekday (0700 – 2200)
+
+Peak Weekend
+(0700 – 2200)
+
+Off-Peak (2200 – 0000)
+
+51
+
+CRR Auction
+
+7x24 Block Bids in Monthly Auctions
+
+Treated as single bid across all three Time-of-Use blocks
+
+If…
+
+Then…
+
+Weighted average (by hour)
+Bid Price ≥ of all three time-of-use
+clearing prices
+
+7x24 Block Bid awarded
+
+Weighted average (by hour)
+Bid Price < of all three time-of-use
+clearing prices
+
+7x24 Block Bid not awarded
+
+52
+
+CRR Auction
+
+Example
+
+CRR Account Holder enters 7X24 bid for
+CRR from Source A to Sink B
+• Bid Price = $6
+• Month of February has total of
+672 hours, including
+
+• 224 Off Peak hours
+• 128 Peak Weekend hours
+• 320 Peak Weekday hours
+
+53
+
+CRR Auction
+
+Example
+
+The three time-of-use Clearing Prices for
+CRR A-B are:
+• $2 Off Peak
+• $3 Peak Weekend
+• $8 Peak Weekday
+
+Weighted average price for the three time-of-use periods is
+(224x$2 + 128x$3 + 320x$8) / 672 = $5.048
+Bid price was $6, so
+7x24 Bid is awarded
+
+54
+
+CRR Auction
+
+No 7x24 Block Bids in Long Term Auction Sequences
+
+Peak WD
+
+Monthly Auction
+
+Peak WE
+Off-Peak
+
+TOU blocks
+Optimized
+Simultaneously
+
+Peak WD
+
+Long-Term Auction
+
+Peak WE
+
+TOU blocks
+Optimized
+Independently
+
+Off-Peak
+55
+
+CRR Auction
+
+Minimum Bid Price and Auction Fees
+
+• Minimum Bid Price for PTP Options
+• Currently $0.01/MW/hour
+• Reviewed by TAC annually
+• Auction Fee for PTP Options that clear
+below Minimum Bid Price
+• Difference between clearing price
+and minimum price
+• Works out to total price of
+$0.01/MW/hour
+56
+
+CRR Auction
+
+Inputs
+
+Bids
+
+Offers - willingness to sell CRRs
+
+Offers
+
+Indicate:
+• Minimum Reservation Price
+
+• Available quantity in MW
+
+Only the Owner of Record
+can offer a CRR
+
+57
+
+CRR Auction
+
+Offers
+
+Price
+
+Time
+Of
+Use
+
+Buy
+or
+Sell
+
+Hedge
+Type
+
+Start Date
+
+10
+
+10
+
+Peak
+WD
+
+Sell
+
+OBL
+
+07/01/2014 07/31/2014
+
+LZ4
+
+20
+
+50
+
+Peak
+WD
+
+Sell
+
+OPT
+
+07/01/2014 07/31/2014
+
+LZ5
+
+RN3
+
+50
+
+25
+
+Peak
+WD
+
+Sell
+
+OBL
+
+07/01/2014 07/31/2014
+
+Hub1
+
+LZ2
+
+15
+
+10
+
+Peak
+WD
+
+Sell
+
+OBL
+
+07/01/2014 07/31/2014
+
+CRR
+ID
+
+Account
+Holder
+
+Source
+
+Sink
+
+MW
+
+12345
+
+CRRAH1
+
+RN1
+
+LZ4
+
+67890
+
+CRRAH1
+
+RN2
+
+23456
+
+CRRAH1
+
+78901
+
+CRRAH1
+
+End
+Date
+
+58
+
+CRR Auction
+
+CRR Auction Process
+
+Bids
+
+Offers
+
+Constraints managed by ERCOT
+CRR Model
+
+Allocated PCRRs
+Previously Awarded CRRs
+
+• Total Transmission Capacity
+
+Credit Limits
+
+• Transmission Capacity already
+“owned”
+• Credit limit acts as budget constraint
+59
+
+CRR Auction
+
+Clearing Process
+
+Bids
+Auction Results
+• Postings
+• Settlements
+
+Offers
+
+CRR Auction
+Engine
+CRR Model
+
+Allocated PCRRs
+Previously Awarded CRRs
+
+Data Transmitted Daily
+• Credit
+• Settlements
+
+Credit Limits
+
+60
+
+CRR Auction
+
+Clearing Process
+
+• Single-round, simultaneous auction
+• Objective
+• Maximize net auction revenue
+ Bid-Based Value
+ Offer-Based Cost
+• Subject to applicable constraints
+ Transmission System limits
+ Credit limits
+
+61
+
+CRR Auction Clearing Process
+
+Scenario
+
+Break into 8 CRR Account Holder
+Teams (AH1 to AH8)
+
+• Participate in a Long-Term Auction Sequence
+• Sequence 3: 40% of Available Capacity
+• Net Available Capacity: 10%
+
+• Purchase Peak Weekday Options (April 2022)
+• RN1 to LZ1: 30 MW Net Available Capacity (AH1 to AH3)
+• RN2 to LZ1: 30 MW Net Available Capacity (AH4 to AH5)
+• RN3 to LZ1: 30 MW Net Available Capacity (AH6 to AH8)
+
+• Determine Option Bid MW and Price
+• Price Limit: Bid Price ≥ $0.01
+• Bid Limit: 2 Bids per CRRAH
+• Credit Limit: 20 MW Total
+• Historical auction data will be provided
+• Instructor will clear the auction
+62
+
+CRR Auction
+
+Outputs
+
+Bids
+Auction Results
+• MIS Postings
+• Settlements
+
+Offers
+
+CRR Auction
+Engine
+CRR Model
+
+Allocated PCRRs
+Previously Awarded CRRs
+
+Data Transmitted Daily
+• Credit
+• Settlements
+
+Credit Limits
+
+63
+
+CRR Auction
+
+MIS Postings
+General Auction Results
+•
+•
+
+Identities of Awarded CRR Account Holders
+Awarded CRRs by Source-Sink, TOU, MWs, Clearing
+Prices, Effective Dates
+
+•
+
+Binding Constraints
+
+All auction bids and offers
+
+• Without identifying CRR Account Holders
+
+Specific CRR Account Holder Information
+• Awarded Bids and Offers
+• Unique IDs for awarded CRRs
+64
+
+CRR Auction – Transmission Capacity
+
+Possible Transmission Capacity
+Available Prior to Auction
+
+Possible Transmission Capacity
+Available After the Auction
+
+65
+
+Module Summary
+
+In this module, you’ve learned about:
+
+• The role of the Network Model in CRR Auctions
+• Impacts of Pre-Assigned CRRs on CRR Auctions
+• Inputs and outputs of the CRR Auction Process
+• The CRR Auction Process
+
+66
+
+Module 3
+
+Trading of Congestion Revenue Rights
+
+Module Objectives
+
+Upon completion of this module, learners will be able to:
+
+• Identify which CRRs are tradable
+• Describe the process of registering CRR trades with
+ERCOT
+• Describe the ERCOT requirements to trade CRRs
+
+68
+
+Congestion Revenue Rights Life Cycle
+
+Allocation
+
+CRR Auction
+
+• PCRRs to NOIEs
+
+Bids to
+to Buy
+Buy
+•• Bids
+Offersto
+to Sell
+Sell
+•• Offers
+
+• Prior to the CRR Auction
+
+CRR Trades
+• Bilateral Transaction
+• CRR Account Holders
+
+Day-Ahead
+Market
+• Daily Settlement of CRRs
+
+69
+
+Tradable Congestion Revenue Rights
+
+Type of CRR
+
+Tradable
+
+PTP Options
+PTP Obligations
+PTP Options w/ Refund
+PTP Obligations w/ Refund
+
+70
+
+Parameters for Trading Congestion Revenue Rights
+
+Example
+
+CRR Account Holder Jane wants to
+trade a CRR:
+
+CRR
+ID
+
+Account
+Holder
+
+Source
+
+Sink
+
+MW
+
+Start Date
+
+54321
+
+Jane
+
+RN1
+
+LZ4
+
+10
+
+07/01/2020 07/31/2020
+
+End Date
+
+Time
+Of
+Use
+
+Hedge
+Type
+
+Peak WD
+
+OBL
+
+71
+
+Parameters for Trading Congestion Revenue Rights
+
+Example
+
+What fields may be modified?
+
+CRR
+ID
+
+Account
+Holder
+
+Source
+
+Sink
+
+MW
+
+Start Date
+
+54321
+
+Jane
+
+RN1
+
+LZ4
+
+10
+
+07/01/2020 07/31/2020
+
+End Date
+
+Time
+Of
+Use
+
+Hedge
+Type
+
+Peak WD
+
+OBL
+
+CRR Account Holder Jane cannot modify:
+• Source
+• Sink
+• Time-of-Use Block
+• Hedge Type
+
+CRR Account Holder Jane can modify:
+• MWs of CRRs
+• Effective Days of CRR
+
+72
+
+Parameters for Trading Congestion Revenue Rights (cont)
+
+Example
+
+Jane may offer the CRR for trade in two
+different ways:
+
+1
+CRR
+ID
+
+Account
+Holder
+
+Source
+
+Sink
+
+MW
+
+Start Date
+
+54321
+
+Jane
+
+RN1
+
+LZ4
+
+3
+
+07/13/2020 07/17/2020
+
+End Date
+
+2
+CRR
+ID
+
+Account
+Holder
+
+Source
+
+Sink
+
+MW
+
+Start Date
+
+54321
+
+Jane
+
+RN1
+
+LZ4
+
+2
+
+07/01/2020
+
+Time
+Of
+Use
+
+Hedge
+Type
+
+Peak WD
+
+OBL
+
+End Date
+
+Time
+Of
+Use
+
+Hedge
+Type
+
+07/31/2020
+
+Peak WD
+
+OBL
+
+73
+
+Posting Offers and Bids for Trades
+
+CRR Account Holders may indicate willingness to:
+
+• Sell a CRR in a trade
+• Buy a CRR in a trade
+
+74
+
+Trading of Congestion Revenue Rights
+
+Example
+
+CRR Account Holder Jill
+• Sees Jane’s offers
+• Contacts Jane to trade for Offer #1
+
+1
+CRR
+ID
+
+Account
+Holder
+
+Source
+
+Sink
+
+MW
+
+Start Date
+
+54321
+
+Jane
+
+RN1
+
+LZ4
+
+3
+
+07/13/2020 07/17/2020
+
+End Date
+
+Time
+Of
+Use
+
+Hedge
+Type
+
+Peak WD
+
+OBL
+
+75
+
+Trading of Congestion Revenue Rights
+
+CRR Account Holders:
+
+• Selling party reports the trade to ERCOT
+• Buying party confirms the trade through ERCOT
+
+Selling CRR AH
+
+Buying CRR AH
+76
+
+Trading of Congestion Revenue Rights
+
+ERCOT
+
+• Checks Account Holders’ Available Credit Limits
+• Financially settles with new CRR owner
+
+Selling CRR AH
+
+Buying CRR AH
+77
+
+Settlements of Traded Congestion Revenue Rights
+
+Example
+
+Traded CRR reflects:
+• New Account Holder
+• New CRR ID
+
+CRR
+ID
+
+Account
+Holder
+
+Source
+
+Sink
+
+MW
+
+56789
+
+Jill
+
+RN1
+
+LZ4
+
+3
+
+Start Date
+
+End
+Date
+
+Time
+Of
+Use
+
+Hedge
+Type
+
+07/13/2020
+
+07/17/2020
+
+Peak WD
+
+OBL
+
+78
+
+Module Summary
+
+In this module, you’ve learned about:
+
+• Which CRRs are tradable
+• The process of registering CRR trades with ERCOT
+• The ERCOT requirements to trade CRRs
+
+79
+
+Module 4
+
+Day-Ahead Market
+Point-to-Point Obligations
+
+Module Objectives
+
+Upon completion of this module, learners will be able to:
+
+• Identify how to acquire PTP Obligations in the DAM
+• Explain the differences between DAM PTP Obligations and
+CRRs acquired in the Auction
+
+81
+
+Congestion Revenue Rights Life Cycle
+
+Allocation
+
+CRR Auction
+
+• PCRRs to NOIEs
+
+Bids to
+to Buy
+Buy
+•• Bids
+Offersto
+to Sell
+Sell
+•• Offers
+
+• Prior to the CRR Auction
+
+CRR Trades
+• Bilateral Transaction
+• CRR Account Holders
+
+Day-Ahead
+Market
+• Daily Settlement of CRRs
+
+• Buy DAM PTP Obligations
+
+Real-Time
+Operations
+• Settlement of DAM PTP
+Obligations
+
+82
+
+Transmission Capacity in Day-Ahead Market
+
+Possible Transmission
+Capacity Available After
+the Auction
+
+83
+
+Transmission Capacity in Day-Ahead Market
+
+Possible Transmission
+Capacity Available for
+Day-Ahead Market
+
+Day-Ahead Market:
+• CRRs purchased in Auction
+are settled in DAM
+• Settlement of CRRs “frees
+up” available network
+capacity for the DAM
+84
+
+Point-to-Point Obligations – The bigger picture
+
+PTP Obligation (CRR)
+
+DAM PTP Obligation
+
+How acquired:
+
+Auction / Allocation
+
+DAM
+
+Who Purchases:
+
+CRR Account Holder
+
+QSE
+
+Tradable:
+
+Yes
+
+No
+
+How Purchased:
+
+TOU Blocks
+
+Hourly
+
+Initial Investment:
+Target Payout:
+
+Auction clearing price
+
+Day-Ahead SPPs
+(Sink – Source)*
+
+Day-Ahead SPPs
+
+Real-Time SPPs
+
+(Sink – Source)
+
+(Sink – Source)
+* Other DAM charges may apply
+85
+
+Point-to-Point Obligations – The bigger picture
+
+CRR Auction
+
+Day-Ahead Market
+
+Real-Time
+
+86
+
+Day-Ahead Market Point-to-Point Obligations
+
+Inputs for Award of PTP Obligations
+
+PTP Obligation
+Bids
+Energy Bids
+and Offers
+Day-Ahead
+Network Model
+
+Day-Ahead
+Market
+
+Credit Limits
+
+87
+
+Day-Ahead Market Point-to-Point Obligations
+
+DAM PTP Obligation Bid
+
+• Submitted for any two Settlement Points
+• Includes:
+• MW Quantity
+• (Sink – Source) price buyer is willing to pay
+
+Sink
+Settlement
+Point
+Source
+Settlement
+Point
+
+PTP
+Obligation
+88
+
+Day-Ahead Market Point-to-Point Obligations
+
+Day-Ahead Market Results
+
+PTP Obligation
+Bids
+Energy Bids
+and Offers
+Day-Ahead
+Network Model
+
+Day-Ahead
+Market
+
+DAM Pricing and Awards
+• MIS Postings
+• Settlements
+• Credit
+
+Credit Limits
+
+89
+
+Module Summary
+
+In this module, you’ve learned about:
+
+• How to acquire PTP Obligations in the Day-Ahead Market
+• How PTP Obligations in the Day-Ahead are different from
+and similar to CRRs acquired in the Auction
+
+90
+
+Module 5
+
+Credit Limits
+
+Module Objectives
+
+Upon completion of this module, learners will be able to:
+
+• Recognize how a company establishes available credit
+• Explain the process of allocating credit for a CRR Auction
+• Describe how credit is utilized in the CRR Auction
+• Recognize how credit is shared between QSEs and
+CRR Account Holders
+
+92
+
+Introducing ... The Counter-Party
+
+• Entity that is also a QSE and/or a CRR Account Holder
+• Responsible for managing Available Credit
+
+93
+
+Available Credit
+
+Available
+Credit
+Secured
+Collateral
+Credit
+Exposure
+
+Unsecured
+Credit
+
+Counter-Party posts
+Secured Collateral to
+make credit available to
+its QSEs and CRR
+Account Holders
+
++ 10%
+Markup
+
+94
+
+Available Credit
+
+CRR Auction Inputs
+
+Bids
+
+Offers
+
+CRR Auction
+Engine
+CRR Model
+Allocated PCRRs
+Previously Awarded CRRs
+Credit Limits
+
+Credit limit acts as budget constraint
+95
+
+Available Credit
+
+Available
+Credit
+Secured
+Collateral
+
+Unsecured
+Credit
+
+Exposure for
+CRRs + 10%
+Credit
+Exposure
+
++ 10% for
+Exposure
+Markup
+QSEs
++ 10%
+
+Satisfied only by
+Secured Collateral
+Satisfied by
+Secured Collateral and
+Unsecured Credit
+
+96
+
+CRR Auction Credit Limit
+
+ERCOT Calculates Counter-Party’s Available Credit Limit
+for CRR Auction (ACLC)
+
+Secured
+Collateral
+
+Available
+Credit
+Available
+Limit
+Credit
+(ACLC)
+
+Counter-Party allocates
+up to 100% to CRR
+Account Holder(s)
+
+Exposure for
+CRRs + 10%
+Exposure for
+QSEs + 10%
+
+Secured Collateral
+consumed by QSE
+97
+
+Utilizing Available Credit
+
+Budget Constraint in CRR Auction
+
+• ERCOT calculates ACLC for Counter-Party
+• Counter-Party must set a Credit Limit for the
+Auction for their CRR Account Holder to
+participate
+
+Counter-Party must lock
+credit by close of the Bid
+Window for the CRR Auction
+
+ACLC
+CP Credit
+Limit
+
+98
+
+Utilizing Available Credit
+
+Budget Constraint in CRR Auction
+
+• Counter-Party must set a Credit Limit for the
+Auction for their CRR Account Holder to
+participate
+• CRR Account Holder may assign a self-imposed
+Credit Limit
+
+The Counter-Party credit limit
+determines how much credit
+is locked for the auction.
+
+ACLC
+CP Credit
+Limit
+Auction
+Limit
+
+CRR AH
+Self-Imposed
+99
+
+Utilizing Available Credit
+
+Special Rules for Long-Term Auction Sequence
+
+• Counter-Party must lock credit separately for
+each Auction in the sequence
+• Counter-Party must lock credit separately for
+each Time-of-Use (TOU)
+
+For credit-lock deadlines,
+refer to CRR Activity
+Calendar on ercot.com
+
+ACLC
+CP Credit
+Limit
+Auction
+Limit
+
+CRR AH
+Self-Imposed
+100
+
+Utilizing Available Credit
+
+Credit Consumption in CRR Auction
+
+Credit is consumed as follows:
+• PTP Options Bids:
+
+Volume * Bid price
+
+• PTP Obligation Offers: Volume * Min (0, Offer price)
+• PTP Obligation Bids:
+
+Volume * (Bid price + Path-Specific Adders)
+
+ACLC
+CP Credit
+Limit
+Auction
+Limit
+
+CRR AH
+Self-Imposed
+101
+
+Utilizing Available Credit
+
+Path-Specific DAM-Based Adder for PTP Obligation Bids
+
+• Calculated for each source/sink pair
+
+-$14
+-$12
+-$10
+-$8
+-$6
+-$4
+-$2
+$0
+$2
+$4
+$6
+$8
+$10
+
+ci99 = 99th percentile
+Confidence Interval
+
+Occurrences
+
+• Three year look-back
+
+102
+
+Utilizing Available Credit
+
+Auction PTP Obligation Credit Requirement (AOBLCR)
+
+AOBLCR = BOBLMW * (Max(0, BPOBL) − Min(0, Aci99, EACP))
+
+Where
+BOBLMW = (Potentially) Awarded PTP Obligation
+BPOBL = Bid Price for PTP Obligation
+EACP = Effective Auction Clearing Price (most recent)
+
+103
+
+Utilizing Available Credit
+
+Credit Pre-Screening for CRR Auction
+
+• Like credit constraint except calculated with
+Bid Volumes rather than Awarded Volumes
+• If exposure < CP Credit Limit, then Limit is ignored
+• If exposure < Self-Imposed Credit Limit, then Limit is ignored
+
+ACLC
+CP Credit
+Limit
+Auction
+Limit
+
+CRR AH
+Self-Imposed
+104
+
+Utilizing Available Credit
+
+Scenario 1
+
+CRR Account Holder sets a self-imposed credit
+limit of $50,000 and submits bids for a Monthly
+CRR Auction
+
+• 100 MW PTP Options from A to B
+• $1000 Bid Price
+Auction awards them 50MW @ $20
+What happened?
+
+105
+
+Utilizing Available Credit
+
+Scenario 2
+
+CRR Account Holder sets a self-imposed credit
+limit of $18,000 and submits bids for a Monthly
+CRR Auction
+
+• 100 MW PTP Obligations from D to C
+• $180 Bid Price
+Auction awards them 90MW @ -$20
+What happened?
+
+106
+
+Utilizing Available Credit
+
+Bonus
+Scenario
+
+CRR Account Holder 1 & CRR Account Holder 2
+are part of the same Counter-Party. What would
+happen if they both self-imposed a credit limit
+for a CRR Auction?
+
+Counter- CRR AH2
+Party
+Credit
+Limit
+CRR AH1
+
+CounterParty
+CRR AH1 CRR AH2
+Credit
+Limit
+
+107
+
+The Rest of the Credit Picture
+
+Counter
+Party
+
+Maintains Secured
+Collateral with ERCOT
+
+Available credit is shared
+
+CRR
+Auction
+Credit Limit
+
+CRR
+Account
+Holder
+
+QSE
+
+Day-Ahead
+Market
+Credit Limit
+
+108
+
+Day-Ahead Market Credit Limit
+
+ERCOT Calculates Counter-Party’s Available Credit Limit
+for DAM (ACLD)
+
+Secured
+Collateral
+
+Unsecured
+Credit
+
+ACLD
+Available
+Credit
+Credit
+locked
+for Limit
+Auction
+(ACLD)
+
+QSE gets ACLD as
+DAM Credit Limit
+QSE gets ACLD as
+DAM Credit Limit
+
+Exposure for
+CRRs + 10%
+
+Exposure for
+QSEs + 10%
+
+109
+
+Credit Limits
+
+Buying PTP Obligations in DAM?
+
+PTP Obligation
+Bids
+Energy Bids
+and Offers
+
+Day-Ahead
+Network Model
+
+Day-Ahead
+Market
+
+Credit Limits
+
+Credit limit acts as budget constraint
+110
+
+Summary
+
+In this module, you’ve learned about:
+
+• How a company establishes available credit
+• The process of allocating credit for a CRR Auction
+• How credit is utilized in the CRR Auction
+• How credit is shared between QSEs and
+CRR Account Holders
+
+111
+
+Module 6
+
+CRR Settlements
+
+Module Objectives
+
+Upon completion of this module, learners will be able to:
+
+• Identify the settlements associated with buying, owning and
+selling CRRs
+• Describe the flow of money in the CRR Auction and for
+settlements of CRRs in the Day-Ahead Market
+
+• Explain how ERCOT uses the CRR Balancing Account
+• Identify the settlements associated with buying PTP
+Obligations in DAM
+
+• Describe the flow of money for DAM PTP Obligations
+
+113
+
+Financial Impacts: Allocation, Auction & Bilateral Trades
+
+CRR Settlements
+
+Three Settlement Processes
+• CRR Auction Settlement
+• Day-Ahead Market
+• Settlement of CRRs
+
+• Shortfall Charges
+• CRR Balancing Account
+
+114
+
+CRR Auction Settlement
+
+CRR Auction Settlement Timeline
+
+Auction
+Completed
+
+Day 1*
+
+Auction
+Results
+
+Auction
+Invoice
+
+Day 2**
+
+Day 3**
+
+Day 4**
+
+Payments
+Due to
+ERCOT
+
+Day 5***
+
+Payments
+Due to CRR
+Account Holders
+
+* ERCOT Business Day
+** Bank Business Day
+*** ERCOT Business Day and Bank Business Day
+
+115
+
+CRR Auction Settlements
+
+CRR
+Auction
+Settlement
+
+Charges and Payments for CRR
+Auction
+
+Charge for awarded CRR Bid
+
+= (Price) * (CRRs) * (TOU Hours)
+Payment for awarded CRR Offer
+= (-1) * (Price) * (CRRs) * (TOU Hours)
+116
+
+CRR Auction Settlements
+
+CRR
+Auction
+Settlement
+
+CRRAH1 is awarded on a PTP Option bid:
+20 MWs
+• Peak WD (5x16)
+•
+
+Price of $5/MW
+• 320 hr in February
+•
+
+• For one hour:
+
+(Price) * (CRRs)
+($5/MW) * (20 MW) = $100
+• For entire TOU block:
+
+$100 * 320 = $32,000
+117
+
+CRR Auction Money Flow
+
+Collection of Auction Revenues
+
+• PCRR Revenues
+• Charges for
+Awarded CRR Bids
+
+Paymentsfor
+• Payments
+for
+Awarded
+CRR
+Awarded
+Offers
+CRR
+• Payments
+for
+Offers CRR
+Awarded
+Bids
+
+118
+
+CRR Auction Money Flow
+
+Distribution of Auction Revenues
+
+• Revenues from Intra-Zonal*
+CRRs are distributed by
+Zonal Load Ratio Share
+
+Paid to QSEs
+representing Load
+
+• Revenues from Inter-Zonal*
+CRRs are distributed by
+ERCOT-wide Load Ratio
+Share
+
+Distribution occurs
+once a month.
+
+*Based on 2003 Congestion Management Zones
+
+119
+
+Day-Ahead Settlement of CRRs – Money Flow
+
+CRRs Settled in the Day-Ahead
+Calculated hourly
+• Charges for Cleared
+DAM Energy Bids
+
+• Payments for Cleared
+DAM Energy Offers
+
+• Charges for Cleared
+DAM PTP Obligation
+Bids
+
+• Payments for Cleared
+DAM PTP Obligation
+Bids
+
+Payment due to CRR
+Account Holders
+(Target Payment)
+
+120
+
+Payment for CRRs Settled in Day-Ahead
+
+Payment
+to CRR
+Owners
+
+Target Payment
+
+(
+
+Price
+
+) *(
+
+Quantity
+
+)
+
+Per hour
+
+Price: DASPPsink − DASPPsource
+
+Quantity: MW of CRRs owned on path
+
+121
+
+Payment for CRRs Settled in Day-Ahead
+
+Payment
+to CRR
+Owners
+
+Target Payment
+
+(
+
+Price
+
+) *(
+
+Quantity
+Quantity
+
+)
+
+Per hour
+
+PTP Options
+• Only results in a payment
+• If price is negative, there is no charge
+122
+
+Payment for CRRs Settled in Day-Ahead
+
+Payment
+to CRR
+Owners
+
+Target Payment
+
+(
+
+$8/MWh
+Price
+
+) *(
+
+2MW
+Quantity
+
+)
+
+Per hour
+
+?
+= $16
+
+PTP Options
+
+A
+$12 / MWh
+
+B
+$20 / MWh
+
+CRR Account Holder owns 2 MWs of PTP
+Options between Source A and Sink B.
+123
+
+Payment for CRRs Settled in Day-Ahead
+
+Payment
+to CRR
+Owners
+
+Target Payment
+
+(
+
+Price
+
+) *(
+
+Quantity
+
+)
+
+Per hour
+
+PTP Obligations
+• Results in a payment or charge
+
+124
+
+Payment for CRRs Settled in Day-Ahead
+
+Reduced CRR Payments
+Payment
+to CRR
+Owners
+
+CRR payments may be derated if:
+• Transmission elements are oversold
+• The Target Payment is a positive value
+• CRR sink is a Resource Node
+
+Any
+Settlement
+Point
+
+Resource
+Node
+CRR
+
+Source j
+
+Sink k
+125
+
+Payment for CRRs Settled in Day-Ahead
+
+Deration of CRRs
+
+• Developed daily
+Day-Ahead
+Network
+Operations
+Model
+
+• Reflects forecasted transmission
+system for the next day
+• Updated with scheduled outages and
+forecasted system conditions
+
+126
+
+Payment for CRRs Settled in Day-Ahead
+
+Deration of CRRs
+
+During Day-Ahead Market
+
+• Executed daily
+
+• Verifies feasibility
+of CRRs sold in
+Auction
+
+Day-Ahead
+Network
+Operations
+Model
+Day-Ahead
+Simultaneous
+Feasibility Test
+
+127
+
+Payment for CRRs Settled in Day-Ahead
+
+Deration of CRRs
+
+During Day-Ahead Market
+
+Day-Ahead
+Network
+Operations
+Model
+Day-Ahead
+Simultaneous
+Feasibility Test
+
+Transmission elements
+not oversold
+• CRRs receive Target
+Payment
+
+Transmission elements
+oversold
+• CRRs may receive
+reduced payment
+
+128
+
+Payment for CRRs Settled in Day-Ahead
+
+Deration of CRRs is based on impact of
+Resource Node on constraints
+Constraint
+Constraint
+
+Resource Node
+
+Resource Node
+
+Minimal impact
+Minimal deration
+
+Significant impact
+Significant deration
+129
+
+Payment for CRRs Settled in Day-Ahead
+
+Derated Amount and Hedge Value
+
+• Derated Amount limits pricing games for CRR
+at Resource Node
+• Hedge Value maintains value of CRR as Hedge
+ Maximum Resource Price at sink
+ Minimum Resource Price at source
+RESOURCE TYPE
+
+MAXRESPR k
+
+MINRESPR j
+
+Nuclear
+Simple Cycle > 90MW
+Combined Cycle > 90MW
+Wind
+PhotoVoltaic (Solar)
+
+$15/MWh
+FIP*14
+FIP*9
+$0
+$0
+
+-$20/MWh
+FIP*10
+FIP*5
+-$35/MWh
+-$10/MWh
+130
+
+Payment for CRRs Settled in Day-Ahead
+
+Hedge Value Price
+
+Source
+
+CRR
+
+Sink
+
+HV PRICE = Max (0, MAXRESPR sink – DASPP source )
+
+Source
+
+CRR
+
+Sink
+
+HV PRICE = Max (0, MAXRESPR sink – MINRESPR source )
+
+131
+
+Hedge Value
+
+Payment
+to CRR
+Owners
+
+Target Payment < Hedge Value
+CRR Owner receives Target Payment
+
+Hedge Value
+
+Target Payment
+
+Target Payment
+
+Payment for CRRs Settled in Day-Ahead
+
+Hedge Value < Target Payment
+CRR Owner receives Hedge Value or
+Derated Amount, whichever is greater
+132
+
+Day-Ahead Settlement of CRRs – Money Flow
+
+Day-Ahead Market Congestion Rent
+
+• Charges for Cleared
+DAM Energy Bids
+
+• Payments for Cleared
+DAM Energy Offers
+
+• Charges for Cleared
+DAM PTP Obligation
+Bids
+
+• Payments for Cleared
+DAM PTP Obligation
+Bids
+
+Payment due to CRR
+Account Holders
+(Target Payment)
+
+133
+
+Day-Ahead Settlement of CRRs – Money Flow
+
+Day-Ahead Market Congestion Rent
+
+• Charges for Cleared
+DAM Energy Bids
+
+• Payments for Cleared
+DAM Energy Offers
+
+• Charges for Cleared
+DAM PTP Obligation
+Bids
+
+• Payments for Cleared
+DAM PTP Obligation
+Bids
+
+Payment due to CRR
+Account Holders
+(Target Payment)
+
+Some hours there is more
+Congestion Rent
+collected than needed to
+pay CRR Owners
+
+134
+
+Day-Ahead Settlement of CRRs – Money Flow
+
+Day-Ahead Market Congestion Rent
+Occurs hourly
+• Charges for Cleared
+DAM Energy Bids
+
+• Payments for Cleared
+DAM Energy Offers
+
+• Charges for Cleared
+DAM PTP Obligation
+Bids
+
+• Payments for Cleared
+DAM PTP Obligation
+Bids
+
+Payment due to CRR
+Account Holders
+(Target Payment)
+
+135
+
+Day-Ahead Settlement of CRRs – Money Flow
+
+Day-Ahead Market Congestion Rent
+
+• Charges for Cleared
+DAM Energy Bids
+
+• Payments for Cleared
+DAM Energy Offers
+
+• Charges for Cleared
+DAM PTP Obligation
+Bids
+
+• Payments for Cleared
+DAM PTP Obligation
+Bids
+
+Payment due to CRR
+Account Holders
+(Target Payment)
+
+Some hours there is not
+enough Congestion Rent
+to pay CRR Owners
+
+136
+
+Shortfall Charge for CRRs Settled in Day-Ahead - Activity
+
+Shortfall
+Charge
+
+=
+
+( )*(
+Total CRR
+Shortfall
+
+/
+
+CRR Owner
+Target
+Payment
+
+)
+
+Total CRR
+Target Payments
+for hour
+
+Hour Ending 1300
+
+Short-pay
+to CRR
+Owners
+
+Total CRR Target Payment
+
+$20 Million
+
+Congestion Rent Collected
+
+$19 Million
+
+CRR Shortfall for the hour
+
+$1 Million
+
+CRR Owner’s Target Payment
+
+$2 Million
+
+CRR Owner’s Share of Total Payment
+CRR Owner’s Shortfall Charge
+
+0.1
+$100,000
+
+137
+
+CRR Rolling Balancing Account
+
+CRR Balancing Account Fund
+
+Payment due to
+CRR Account Holders
+Monthly
+
+Pay to QSEs
+representing Load
+138
+
+CRR Rolling Balancing Account
+
+Payment due to
+CRR Account Holders
+Monthly
+
+139
+
+CRR Rolling Balancing Account
+
+X
+Payment due to
+CRR Account Holders
+may remain
+short paid
+
+Monthly
+
+140
+
+PTP Obligations Bought in the Day-Ahead Market
+
+Charge to
+QSE in
+DAM
+
+Charge for DAM PTP Obligation Bids
+
+(
+
+Price
+
+) *(
+
+Quantity
+
+)
+
+Per hour
+
+Price: DASPPsink − DASPPsource
+
+Quantity: MW of PTP Obligations awarded on path
+141
+
+Cleared PTP Obligation Bids in the Day-Ahead Market
+
+PTP Obligations Settled in the Day-Ahead Market
+
+• Charges for Cleared
+DAM Energy Bids
+
+• Payments for Cleared
+DAM Energy Offers
+
+• Charges for Cleared
+DAM PTP Obligation
+Bids
+
+• Payments for Cleared
+DAM PTP Obligation
+Bids
+
+Payment due to CRR
+Account Holders
+(Target Payment)
+
+142
+
+PTP Obligations Bought in the Day-Ahead Market
+
+Payment
+to QSE in
+Real-Time
+
+Payment for DAM PTP Obligations
+
+(
+
+Price
+
+) *(
+
+Quantity
+
+4
+
+Price:
+
+Σ= (RTSPP
+
+i 1
+
+sink
+
+− RTSPPsource
+
+)
+
+Per hour
+
+)/ 4
+
+Quantity: MW of DAM PTP Obligations owned on path
+143
+
+Module Summary
+
+In this module, you’ve learned about:
+
+• Settlements associated with CRRs
+• The flow of money related to CRRs in the ERCOT Markets
+• The CRR Balancing Account
+• Settlements associated with DAM PTP Obligations
+
+• The flow of money related to DAM PTP Obligations
+
+144
+
+Course Conclusion
+
+Course Summary
+
+In this course, you’ve learned about:
+
+• Requirements to participate in the CRR market
+• CRR Market processes
+• Possible financial outcomes of CRRs in the ERCOT
+markets
+
+146
+
+Got Feedback?
+
+Scan this QR code to take the course survey!
+https://www.surveymonkey.com/r/ERCOTILT
+
+147
+
+Additional Resources
+
+ERCOT Protocols
+http://www.ercot.com/mktrules/nprotocols/
+ERCOT Account Management Services
+ErcotAccountManagers@ercot.com
+ERCOT Market Education
+http://www.ercot.com/services/training/
+ERCOT Market Education Contact
+Training@ercot.com
+
+148
+
+

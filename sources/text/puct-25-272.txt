@@ -1,0 +1,705 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter K. RELATIONSHIPS WITH AFFILIATES.
+§25.272. Code of Conduct for Electric Utilities and Their Affiliates.
+(a)
+
+Purpose. The provisions of this section establish safeguards to govern the interaction between
+utilities and their affiliates, both during the transition to and after the introduction of competition, to
+avoid potential market-power abuses and cross-subsidization between regulated and unregulated
+activities.
+
+(b)
+
+Application.
+(1)
+General application. This section applies to:
+(A)
+electric utilities operating in the State of Texas as defined in the Public Utility
+Regulatory Act (PURA) §31.002(6), and transactions or activities between
+electric utilities and their affiliates, as defined in PURA §11.003(2); and
+(B)
+transmission and distribution utilities operating in a qualifying power region in the
+State of Texas as defined in PURA §31.002(19) upon commission certification of
+a qualifying power region pursuant to PURA §39.152, and transactions or
+activities between transmission and distribution utilities and their affiliates, as
+defined in PURA §11.003(2).
+No circumvention of the code of conduct. An electric utility, transmission and
+(2)
+distribution utility, or competitive affiliate shall not circumvent the provisions or the intent
+of PURA §39.157 or any rules implementing that section by using any affiliate to provide
+information, services, products, or subsidies between a competitive affiliate and an electric
+utility or a transmission and distribution utility.
+(3)
+Notice of conflict and/or petition for waiver. Nothing in this section is intended to
+affect or modify the obligation or duties relating to any rules or standards of conduct that
+may apply to a utility or the utility’s affiliates under orders or regulations of the Federal
+Energy Regulatory Commission (FERC) or the Securities and Exchange Commission
+(SEC). A utility shall file with the commission a notice of any provision in this section that
+conflict with FERC or SEC orders or regulations. A utility that is subject to statutes or
+regulations in any state that conflict with a provision of this section may petition the
+commission for a waiver of the conflicting provision on a showing of good cause.
+
+(c)
+
+Definitions. The following words and terms when used in this section shall have the following
+meaning unless the context clearly indicates otherwise:
+(1)
+Arm’s length transaction -- The standard of conduct under which unrelated parties, each
+acting in its own best interest, would carry out a particular transaction. Applied to related
+parties, a transaction is at arm’s length if the transaction could have been made on the same
+terms to a disinterested third party in a bargained transaction.
+(2)
+Competitive affiliate -- An affiliate of a utility that provides services or sells products in a
+competitive energy-related market in this state, including telecommunications services, to the
+extent those services are energy-related.
+(3)
+Confidential information -- Any information not intended for public disclosure and
+considered to be confidential or proprietary by persons privy to such information.
+Confidential information includes but is not limited to information relating to the
+interconnection of customers to a utility’s transmission or distribution systems, proprietary
+customer information, trade secrets, competitive information relating to internal
+manufacturing processes, and information about a utility’s transmission or distribution
+system, operations, or plans for expansion.
+(4)
+Corporate support services -- Services shared by a utility, its parent holding company, or a
+separate affiliate created to perform corporate support services, with its affiliates of joint
+corporate oversight, governance, support systems, and personnel. Examples of services that
+may be shared, to the extent the services comply with the requirements prescribed by PURA
+§39.157(d) and (g) and rules implementing those requirements, include human resources,
+
+§25.272--1
+
+effective 6/26/14
+(P 41616)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter K. RELATIONSHIPS WITH AFFILIATES.
+
+(5)
+
+(6)
+
+(7)
+(8)
+
+(d)
+
+procurement, information technology, regulatory services, administrative services, real
+estate services, legal services, accounting, environmental services, research and
+development unrelated to marketing activity and/or business development for the
+competitive affiliate regarding its services and products, internal audit, community
+relations, corporate communications, financial services, financial planning and
+management support, corporate services, corporate secretary, lobbying, and corporate
+planning. Examples of services that may not be shared include engineering, purchasing of
+electric transmission facilities and service, transmission and distribution system
+operations, and marketing, unless such services are provided by a utility, or a separate
+affiliate created to perform such services, exclusively to affiliated regulated utilities and
+only for provision of regulated utility services.
+Proprietary customer information -- Any information compiled by an electric utility on a
+customer in the normal course of providing electric service that makes possible the
+identification of any individual customer by matching such information with the customer’s
+name, address, account number, type or classification of service, historical electricity usage,
+expected patterns of use, types of facilities used in providing service, individual contract
+terms and conditions, price, current charges, billing records, or any other information that the
+customer has expressly requested not be disclosed. Information that is redacted or
+organized in such a way as to make it impossible to identify the customer to whom the
+information relates does not constitute proprietary customer information.
+Similarly situated -- The standard for determining whether a non-affiliate is entitled to the
+same benefit a utility offers, or grants upon request, to its competitive affiliate for any
+product or service. For purposes of this section, all non-affiliates serving or proposing to
+serve the same market as a utility’s competitive affiliate are similarly situated to the utility’s
+competitive affiliate.
+Transaction -- Any interaction between a utility and its affiliate in which a service, good,
+asset, product, property, right, or other item is transferred or received by either a utility or its
+affiliate.
+Utility -- An electric utility as defined in PURA §31.002(6) or a transmission and
+distribution utility as defined in PURA §31.002(19). For purposes of this section, a utility
+does not include a river authority operating a steam generating plant on or before January 1,
+1999, or a corporation authorized by Chapter 245, Acts of the 67th Legislature, Regular
+Session, 1981 (Article 717 p, Vernon’s Texas Civil Statutes). In addition, with respect to a
+holding company exempt under the Public Utility Holding Company Act (PUHCA)
+§3(a)(2), the term “utility,” as used in this section, means the division or business unit
+through which the holding company conducts utility operations and not the holding
+company as a legal entity.
+
+Separation of a utility from its affiliates.
+(1)
+Separate and independent entities. A utility shall be a separate, independent entity
+from any competitive affiliate.
+Sharing of employees, facilities, or other resources. Except as otherwise allowed in
+(2)
+paragraphs (3), (4), (5), or (7) of this subsection, a utility shall not share employees,
+facilities, or other resources with its competitive affiliates unless the utility can prove to the
+commission prior to such sharing that the sharing will not compromise the public interest.
+Such sharing may be allowed if the utility implements adequate safeguards precluding
+employees of a competitive affiliate from gaining access to information in a manner that
+would allow or provide a means to transfer confidential information from a utility to an
+affiliate, create an opportunity for preferential treatment or unfair competitive advantage,
+lead to customer confusion, or create significant opportunities for cross-subsidization of
+§25.272--2
+
+effective 6/26/14
+(P 41616)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter K. RELATIONSHIPS WITH AFFILIATES.
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+affiliates.
+Sharing officers and directors, property, equipment, computer systems,
+information systems, and corporate services. A utility and a competitive affiliate may
+share common officers and directors, property, equipment, computer systems, information
+systems and corporate support services, if the utility implements safeguards that the
+commission determines are adequate to preclude employees of a competitive affiliate from
+gaining access to information in a manner that would allow or provide a means to transfer
+confidential information from a utility to an affiliate, create an opportunity for preferential
+treatment or unfair competitive advantage, lead to customer confusion, or create significant
+opportunities for cross-subsidization of affiliates
+Employee transfers and temporary assignments. A utility shall not assign, for less than
+one year, utility employees engaged in transmission or distribution system operations to a
+competitive affiliate unless the employee does not have knowledge of confidential
+information. Utility employees engaged in transmission or distribution system operations,
+including persons employed by a service company affiliated with the utility who are
+engaged in transmission system operations on a day-to-day basis or have knowledge of
+transmission or distribution system operations and are transferred to a competitive
+affiliate, shall not remove or otherwise provide or use confidential property or
+information gained from the utility or affiliated service company in a discriminatory or
+exclusive fashion, to the benefit of the competitive affiliate or to the detriment of nonaffiliated electric suppliers. Movement of an employee engaged in transmission or
+distribution system operations, including a person employed by a service company affiliated
+with the utility who is engaged in transmission or distribution system operations on a day-today basis or has knowledge of transmission or distribution system operations from a utility to a
+competitive affiliate or vice versa, may be accomplished through either the employee’s
+termination of employment with one company and acceptance of employment with the
+other, or a transfer to another company, as long as the transfer of an employee from the
+utility to an affiliate results in the utility bearing no ongoing costs associated with that
+employee. Transferring employees shall sign a statement indicating that they are aware of and
+understand the restrictions and penalties set forth in this section. The utility also shall post a
+conspicuous notice of such a transfer on its Internet site or other public electronic bulletin
+board within 24 hours and for at least 30 consecutive calendar days. The exception to
+this provision is that employees may be temporarily assigned to an affiliate or nonaffiliated utility to assist in restoring power in the event of a major service interruption or
+assist in resolving emergency situations affecting system reliability. Consistent with
+§25.84(h) of this title, however, within 30 days of such a deviation from the code of
+conduct, the utility shall report this information to the commission and shall conspicuously
+post the information on its Internet site or other public electronic bulletin board for 30
+consecutive calendar days.
+Sharing of office space. A utility’s office space shall be physically separate from that of its
+competitive affiliates, where physical separation is accomplished by having office space in
+separate buildings or, if within the same building, by a method such as having offices on
+separate floors or with separate access, unless otherwise approved by the commission.
+Separate books and records. A utility and its affiliates shall keep separate books of
+accounts and records, and the commission may review records relating to a transaction
+between a utility and an affiliate.
+(A)
+In accordance with generally accepted accounting principles or state and federal
+guidelines, as appropriate, a utility shall record all transactions with its affiliates,
+whether they involve direct or indirect expenses.
+(B)
+A utility shall prepare financial statements that are not consolidated with those of its
+affiliates.
+
+§25.272--3
+
+effective 6/26/14
+(P 41616)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter K. RELATIONSHIPS WITH AFFILIATES.
+(C)
+
+(7)
+
+(e)
+
+A utility and its affiliates shall maintain sufficient records to allow for an audit of
+the transactions between the utility and its affiliates. At any time, the commission
+may, at its discretion, require a utility to initiate, at the utility’s expense, an audit of
+transactions between the utility and its affiliates performed by an independent third
+party.
+Limited credit support by a utility. A utility may share credit, investment, or financing
+arrangements with its competitive affiliates if it complies with subparagraphs (A) and (B)
+of this paragraph.
+(A)
+The utility shall implement adequate safeguards precluding employees of a
+competitive affiliate from gaining access to information in a manner that would
+allow or provide a means to transfer confidential information from a utility to an
+affiliate, create an opportunity for preferential treatment or unfair competitive
+advantage, lead to customer confusion, or create significant opportunities for crosssubsidization of affiliates.
+(B)
+The utility shall not allow an affiliate to obtain credit under any arrangement that
+would include a specific pledge of any assets in the rate base of the utility or a
+pledge of cash reasonably necessary for utility operations. This subsection does not
+affect a utility’s obligations under other law or regulations, such as the obligations
+of a public utility holding company under §25.271(c)(2) of this title (relating to
+Foreign Utility Company Ownership by Exempt Holding Companies).
+
+Transactions between a utility and its affiliates.
+(1)
+Transactions with all affiliates. A utility shall not subsidize the business activities of
+any affiliate with revenues from a regulated service. In accordance with PURA and
+the commission’s rules, a utility and its affiliates shall fully allocate costs for any shared
+services, including corporate support services, offices, employees, property, equipment,
+computer systems, information systems, and any other shared assets, services, or products.
+Sale of products or services by a utility. Unless otherwise approved by the
+(A)
+commission and except for corporate support services, any sale of a product or
+service by a utility shall be governed by a tariff approved by the commission.
+Products and services shall be made available to any third party entity on the same
+terms and conditions as the utility makes those products and services available to its
+affiliates.
+Purchase of products, services, or assets by a utility from its affiliate. Products,
+(B)
+services, and assets shall be priced at levels that are fair and reasonable to the
+customers of the utility and that reflect the market value of the product, service, or
+asset.
+Transfers of assets. Except for asset transfers implementing unbundling
+(C)
+pursuant to PURA §39.051, asset valuation in accordance with PURA §39.262,
+and transfers of property pursuant to a financing order issued under PURA,
+Chapter 39, Subchapter G, assets transferred from a utility to its affiliates shall
+be priced at levels that are fair and reasonable to the customers of the utility and
+that reflect the market value of the assets or the utility’s fully allocated cost to
+provide those assets.
+Transfer of assets implementing restructuring legislation. The transfer from a
+(D)
+utility to an affiliate of assets implementing unbundling pursuant to PURA §39.051,
+asset valuation in accordance with PURA §39.262, and transfers of property
+pursuant to a financing order issued under PURA, Chapter 39, Subchapter G will be
+reviewed by the commission pursuant to the applicable provisions of PURA, and
+any rules implementing those provisions.
+Transactions with competitive affiliates. Unless otherwise allowed in this
+(2)
+subsection, transactions between a utility and its competitive affiliates shall be at arm’s
+
+§25.272--4
+
+effective 6/26/14
+(P 41616)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter K. RELATIONSHIPS WITH AFFILIATES.
+length. A utility shall maintain a contemporaneous written record of all transactions with
+its competitive affiliates, except those involving corporate support services and those
+transactions governed by tariffs. Such records, which shall include the date of the
+transaction, name of affiliate involved, name of a utility employee knowledgeable about
+the transaction, and a description of the transaction, shall be maintained by the utility
+for three years. In addition to the requirements specified in paragraph (1) of this
+subsection, the following provisions apply to transactions between utilities and their
+competitive affiliates.
+(A)
+Provision of corporate support services. A utility may engage in transactions
+directly related to the provision of corporate support services with its competitive
+affiliates. Such provision of corporate support services shall not allow or provide a
+means for the transfer of confidential information from the utility to the competitive
+affiliate, create the opportunity for preferential treatment or unfair competitive
+advantage, lead to customer confusion, or create significant opportunities for crosssubsidization of the competitive affiliate.
+(B)
+Purchase of products or services by a utility from its competitive affiliate.
+Except for corporate support services, a utility may not enter into a transaction to
+purchase a product or service from a competitive affiliate that has a per unit value of
+$75,000 or more, or a total value of $1 million or more, unless the transaction is the
+result of a fair, competitive bidding process formalized in a contract subject to the
+provisions of §25.273 of this title (relating to Contracts Between Electric Utilities
+and Their Competitive Affiliates).
+(C)
+Transfers of assets. Except for asset transfers facilitating unbundling pursuant
+to PURA §39.051, asset valuation in accordance with PURA §39.262, and transfers of
+property pursuant to a financing order issued under PURA, Chapter 39,
+Subchapter G, any transfer from a utility to its competitive affiliates of assets
+with a per unit value of $75,000 or more, or a total value of $1 million or more,
+must be the result of a fair, competitive bidding process formalized in a contract
+subject to the provisions of §25.273 of this title.
+(f)
+
+Safeguards relating to provision of products and services.
+(1)
+Products and services available on a non-discriminatory basis. If a utility makes a
+product or service, other than corporate support services, available to a competitive
+affiliate, it shall make the same product or service available, contemporaneously and in
+the same manner, to all similarly situated entities, and it shall apply its tariffs, prices,
+terms, conditions, and discounts for those products and services in the same manner to all
+similarly situated entities. A utility shall process all requests for a product or service from
+competitive affiliates or similarly situated non-affiliated entities on a non-discriminatory
+basis. If a utility’s tariff allows for discretion in its application, the utility shall apply that
+provision in the same manner to its competitive affiliates and similarly situated nonaffiliates, as well as to their respective customers. If a utility’s tariff allows no discretion in
+its application, the utility shall strictly apply the tariff. A utility shall not use customerspecific contracts to circumvent these requirements, nor create a product or service
+arrangement with its competitive affiliate that is so unique that no competitor could be
+similarly situated to utilize the product or service.
+(2)
+Discounts, rebates, fee waivers, or alternative tariff terms and conditions. If a utility
+offers its competitive affiliate or grants a request from its competitive affiliate for a discount,
+rebate, fee waiver, or alternative tariff terms and conditions for any product or service, it
+must make the same benefit contemporaneously available, on a non-discriminatory basis,
+to all similarly situated non-affiliates. The utility shall post a conspicuous notice on its
+Internet site or public electronic bulletin board for at least 30 consecutive calendar days
+providing the following information: the name of the competitive affiliate involved in the
+
+§25.272--5
+
+effective 6/26/14
+(P 41616)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter K. RELATIONSHIPS WITH AFFILIATES.
+
+(3)
+
+(g)
+
+transaction; the rate charged; the normal rate or tariff condition; the period for which the
+benefit applies; the quantities and the delivery points involved in the transaction (if any); any
+conditions or requirements applicable to the benefit; documentation of any cost differential
+underlying the benefit; and the procedures by which non-affiliates may obtain the same
+benefit. The utility shall maintain records of such information for a minimum of three
+years, and shall make such records available for third party review within 72 hours of a
+written request, or at a time mutually agreeable to the utility and the third party. A utility
+shall not create any arrangement with its competitive affiliate that is so unique that no
+competitor could be similarly situated to benefit from the discount, rebate, fee waiver, or
+alternative tariff terms and conditions.
+Tying arrangements prohibited. Unless otherwise allowed by the commission through
+a rule or tariff prior to a utility’s unbundling pursuant to PURA §39.051, a utility shall not
+condition the provision of any product, service, pricing benefit, or alternative terms or
+conditions upon the purchase of any other good or service from the utility or its competitive
+affiliate.
+
+Information safeguards.
+(1)
+Proprietary customer information. A utility shall provide a customer with the customer’s
+proprietary customer information, upon request by the customer. Unless a utility obtains
+prior affirmative written consent or other verifiable authorization from the customer as
+determined by the commission, or unless otherwise permitted under this subsection, it shall
+not release any proprietary customer information to a competitive affiliate or any other
+entity, other than the customer, an independent organization as defined by PURA §39.151, or
+a provider of corporate support services for the sole purpose of providing corporate support
+services in accordance with subsection (e)(2)(A) of this section. The utility shall maintain
+records that include the date, time, and nature of information released when it releases
+customer proprietary information to another entity in accordance with this paragraph. The
+utility shall maintain records of such information for a minimum of three years, and shall
+make the records available for third party review within 72 hours of a written request, or at a
+time mutually agreeable to the utility and the third party. When the third party requesting
+review of the records is not the customer, commission, or Office of Public Utility Counsel,
+the records may be redacted in such a way as to protect the customer’s identity. If
+proprietary customer information is released to an independent organization or a provider of
+corporate support services, the independent organization or entity providing corporate
+support services is subject to the rules in this subsection with respect to releasing the
+information to other persons.
+(A)
+Exception for law, regulation, or legal process. A utility may release proprietary
+customer information to another entity without customer authorization where
+authorized or requested to do so by the commission or where required to do so by
+law, regulation, or legal process.
+(B)
+Exception for release to governmental entity. A utility may release proprietary
+customer information without customer authorization to a federal, state, or local
+governmental entity or in connection with a court or administrative proceeding
+involving the customer or the utility; provided, however, that the utility shall take
+all reasonable actions to protect the confidentiality of such information, including,
+but not limited to, providing such information under a confidentiality agreement or
+protective order, and shall also promptly notify the affected customer in writing that
+such information has been requested.
+Exception to facilitate transition to customer choice. In order to facilitate the
+(C)
+transition to customer choice, a utility may release proprietary customer information
+to its affiliated retail electric provider or providers of last resort without
+
+§25.272--6
+
+effective 6/26/14
+(P 41616)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter K. RELATIONSHIPS WITH AFFILIATES.
+
+(2)
+
+(3)
+(4)
+(5)
+
+(h)
+
+authorization of those customers only during a period prescribed by the
+commission.
+Exception for release to providers of last resort. On or after January 1, 2002, a
+(D)
+utility may provide proprietary customer information to a provider of last resort
+without customer authorization for the purpose of serving customers who have been
+switched to the provider of last resort.
+(E)
+Exception for release to State of Texas’ Division of Emergency Management.
+Beginning January 1, 2011, a utility may provide proprietary customer information
+to the State of Texas’ Division of Emergency Management, upon that agency’s
+request for purposes of identifying the customer as a critical care residential
+customer pursuant to §25.497 of this title (relating to Critical Load Industrial
+Customers, Critical Load Public Safety Customers, Critical Care Residential
+Customers, and Chronic Condition Residential Customers).
+Nondiscriminatory availability of aggregate customer information. A utility may
+aggregate non-proprietary customer information, including, but not limited to, information
+about a utility’s energy purchases, sales, or operations or about a utility’s energy-related
+goods or services. However, except in circumstances solely involving the provision of
+corporate support services in accordance with subsection (e)(2)(A) of this section, a utility
+shall aggregate non-proprietary customer information for a competitive affiliate only if the
+utility makes such aggregation service available to all non-affiliates under the same terms
+and conditions and at the same price as it is made available to any of its affiliates. In
+addition, no later than 24 hours prior to a utility’s provision to its competitive affiliate of
+aggregate customer information, the utility shall post a conspicuous notice on its Internet site
+or other public electronic bulletin board for at least 30 consecutive calendar days, providing
+the following information: the name of the competitive affiliate to which the information will
+be provided, the rate charged for the information, a meaningful description of the
+information provided, and the procedures by which non-affiliates may obtain the same
+information under the same terms and conditions. The utility shall maintain records of such
+information for a minimum of three years, and shall make such records available for third
+party review within 72 hours of a written request, or at a time mutually agreeable to the
+utility and the third party.
+No preferential access to transmission and distribution information. A utility shall not
+allow preferential access by its competitive affiliates to information about its transmission
+and distribution systems.
+Other limitations on information disclosure. Nothing in this rule is intended to alter the
+specific limitations on disclosure of confidential information in the Texas Utilities Code, the
+Texas Government Code, Chapter 552, or the commission’s substantive and procedural rules.
+Other information. Except as otherwise allowed in this subsection, a utility shall not share
+information, except for information required to perform allowed corporate support services,
+with competitive affiliates unless the utility can prove to the commission that the sharing will
+not compromise the public interest prior to any such sharing. Information that is publicly
+available, or that is unrelated in any way to utility activities, may be shared.
+
+Safeguards relating to joint marketing and advertising.
+(1)
+Joint marketing, advertising, and promotional activities.
+(A)
+A utility shall not:
+(i)
+provide or acquire leads on behalf of its competitive affiliates;
+(ii)
+solicit business or acquire information on behalf of any of its competitive
+affiliates;
+(iii)
+give the appearance of speaking or acting on behalf of any of its
+competitive affiliates;
+
+§25.272--7
+
+effective 6/26/14
+(P 41616)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter K. RELATIONSHIPS WITH AFFILIATES.
+(iv)
+
+(2)
+
+(3)
+
+share market analysis reports or other proprietary or non-publicly available
+reports, with its competitive affiliates;
+(v)
+represent to customers or potential customers that it can offer competitive
+retail services bundled with its tariffed services; or
+(vi)
+request authorization from its customers to pass on information exclusively
+to its competitive affiliate.
+(B)
+A utility shall not engage in joint marketing, advertising, or promotional activities
+of its products or services with those of a competitive affiliate in a manner that
+favors the affiliate. Such joint marketing, advertising, or promotional activities
+include, but are not limited to, the following activities:
+(i)
+acting or appearing to act on behalf of a competitive affiliate in any
+communications and contacts with any existing or potential customers;
+(ii)
+joint sales calls;
+(iii)
+joint proposals, either as requests for proposals or responses to requests for
+proposals:
+(iv)
+joint promotional communications or correspondence, except that a utility
+may allow a competitive affiliate access to customer bill advertising inserts
+according to the terms of a commission-approved tariff so long as access to
+such inserts is made available on the same terms and conditions to nonaffiliates offering similar services as the competitive affiliate that uses bill
+inserts;
+(v)
+joint presentation at trade shows, conferences, or other marketing events
+within the State of Texas; and
+(vi)
+providing links between any of a utility’s websites and social media
+platforms, and any of the websites and social media platforms of its
+competitive affiliates.
+(C)
+At a customer’s unsolicited request, a utility may participate in meetings with a
+competitive affiliate to discuss technical or operational subjects regarding the
+utility’s provision of transmission or distribution services to the customer, but only
+in the same manner and to the same extent the utility participates in such meetings
+with unaffiliated electric or energy services suppliers and their customers. The
+utility shall not listen to, view, or otherwise participate in any way in a sales
+discussion between a customer and a competitive affiliate or an unaffiliated electric
+or energy services supplier.
+Requests for specific competitive affiliate information. If a customer or potential
+customer makes an unsolicited request to a utility for information specifically about any of
+its competitive affiliates, the utility may refer the customer or potential customer to the
+competitive affiliate for more information. Under this paragraph, the only information that a
+utility may provide to the customer or potential customer is the competitive affiliate’s
+address and telephone number. The utility shall not transfer the customer directly to the
+competitive affiliate’s customer service office via telephone or provide any other electronic
+link whereby the customer could contact the competitive affiliate through the utility. When
+providing the customer or potential customer information about the competitive affiliate, the
+utility shall not promote its competitive affiliate’s products or services, nor shall it offer the
+customer or potential customer any opinion regarding the service of the competitive affiliate
+or any other service provider.
+Requests for general information about products or services offered by competitive
+affiliates and their competitors. If a customer or potential customer request general
+information from a utility about products or services provided by its competitive affiliate or
+its affiliate’s competitors, the utility shall not promote its competitive affiliate or its
+affiliate’s products or services, nor shall the utility offer the customer or potential customer
+any opinion regarding the service of the competitive affiliate or any other service provider.
+
+§25.272--8
+
+effective 6/26/14
+(P 41616)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter K. RELATIONSHIPS WITH AFFILIATES.
+The utility may direct the customer or potential customer to a telephone directory or to the
+commission, or provide the customer with a recent list of suppliers developed and maintained
+by the commission, but the utility may not refer the customer or potential customer to the
+competitive affiliate except as provided for in paragraph (2) of this subsection.
+(i)
+
+Remedies and enforcement.
+(1)
+Internal codes of conduct for the transition period. During the transition to competition,
+including the period prior to and during utility unbundling pursuant to PURA §39.051, each
+utility shall implement an internal code of conduct consistent with the spirit and intent of
+PURA §39.157(d) and with the provisions of this section. Such internal codes of conduct are
+subject to commission review and approval in the context of a utility’s unbundling plan
+submitted pursuant to PURA §39.051(e); however, such internal codes of conduct shall take
+effect, on an interim basis, on January 10, 2000. The internal codes of conduct shall be
+developed in good faith by the utility based on the extent to which its affiliate relationships
+are known by January 10, 2000, and then updated as necessary to ensure compliance with
+PURA and commission rules. A utility exempt from PURA Chapter 39 pursuant to PURA
+§39.102(c) shall adopt an internal code of conduct that is consistent with its continued
+provision of bundled utility service during the period of its exemption.
+(2)
+Ensuring compliance for new affiliates. A utility and a new affiliate are bound by the
+code of conduct immediately upon creation of the new affiliate. Upon the creation of a
+new affiliate, the utility shall immediately post a conspicuous notice of the new affiliate on
+its Internet site or other public electronic bulletin board for at least 30 consecutive
+calendar days. Within 30 days of creation of the new affiliate, the utility shall file an
+update to its internal code of conduct and compliance plan, including all changes due to the
+addition of the new affiliate. The utility shall ensure that any interaction with the new
+affiliate is in compliance with this section.
+(3)
+Compliance Audits. No later than one year after the utility has unbundled pursuant to
+PURA §39.051, or acquires a competitive affiliate, and, at a minimum, every third year
+thereafter, the utility shall have an audit prepared by independent auditors that verifies that
+the utility is in compliance with this section. For a utility that has no competitive affiliates,
+the audit may consist solely of an affidavit stating that the utility has no competitive
+affiliates. The utility shall file the results of each said audit with the commission within one
+month of the audit’s completion. The cost of the audits shall not be charged to utility
+ratepayers.
+(4)
+Informal complaint procedure. A utility shall establish and file with the commission a
+complaint procedure for addressing alleged violations of this section. This procedure shall
+contain a mechanism whereby all complaints shall be placed in writing and shall be
+referred to a designated officer of the utility. All complaints shall contain the name
+of the complainant and a detailed factual report of the complaint, including all relevant
+dates, companies involved, employees involved, and the specific claim. The designated
+officer shall acknowledge receipt of the complaint in writing within five working days of
+receipt. The designated officer shall provide a written report communicating the results of
+the preliminary investigation to the complainant within thirty days after receipt of the
+complaint, including a description of any course of action that will be taken. In the event
+the utility and the complainant are unable to resolve the complaint, the complainant may
+file a formal complaint with the commission. The utility shall notify the complainant of his
+or her right to file a formal complaint with the commission, and shall provide the
+complainant with the commission’s address and telephone number. The utility and the
+complainant shall make a good faith effort to resolve the complaint on an informal basis
+as promptly as practicable. The informal complaint process shall not be a prerequisite for
+filing a formal complaint with the commission, and the commission may, at any time,
+institute a complaint against a utility on its own motion.
+
+§25.272--9
+
+effective 6/26/14
+(P 41616)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter K. RELATIONSHIPS WITH AFFILIATES.
+(5)
+
+(6)
+
+(7)
+(8)
+
+Enforcement by the commission. A violation or series or set of violations of this section
+that materially impairs, or is reasonably likely to materially impair, the ability of a person
+to compete in a competitive market shall be deemed an abuse of market power.
+(A)
+In addition to other methods that may be available, the commission may enforce the
+provisions of this rule by:
+(i)
+seeking an injunction or civil penalties to eliminate or remedy the violation
+or series or set of violations;
+(ii)
+suspending, revoking, or amending a certificate or registration as
+authorized by PURA §39.356; or
+(iii)
+pursuing administrative penalties under PURA, Chapter 15, Subchapter B.
+(B)
+The imposition of one penalty under this section does not preclude the imposition of
+other penalties as appropriate for the violation or series or set of violations.
+(C)
+In assessing penalties, the commission shall consider the following factors:
+(i)
+the utility’s prior history of violations;
+(ii)
+the utility’s efforts to comply with the commission’s rules, including the
+extent to which the utility has adequately and physically separated its
+office, communications, accounting systems, information systems, lines of
+authority, and operations from its affiliates, and efforts to enforce these
+rules;
+(iii)
+the nature and degree of economic benefit gained by the utility’s
+competitive affiliate;
+(iv)
+the damages or potential damages resulting from the violation or series or
+set of violations;
+(v)
+the size of the business of the competitive affiliate involved;
+(vi)
+the penalty’s likely deterrence of future violations; and
+(vii)
+such other factors deemed appropriate and material to the particular
+circumstances of the violation or series or set of violations.
+No immunity from antitrust enforcement. Nothing in these affiliate rules shall
+confer immunity from state or federal antitrust laws. Sanctions imposed by the
+commission for violations of this rule do not affect or preempt antitrust liability, but rather
+are in addition to any antitrust liability that may apply to the anti-competitive activity.
+Therefore, antitrust remedies also may be sought in federal or state court to cure anticompetitive activities.
+No immunity from civil relief. Nothing in these affiliate rules shall preclude any
+form of civil relief that may be available under federal or state law, including, but not
+limited to, filing a complaint with the commission consistent with this subsection.
+Preemption. This rule supersedes any procedures or protocols adopted by an
+independent organization as defined by PURA §39.151, or similar entity, that conflict with
+the provisions of this rule.
+
+§25.272--10
+
+effective 6/26/14
+(P 41616)
+
+

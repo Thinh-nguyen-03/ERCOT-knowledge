@@ -1,0 +1,177 @@
+[Norton Rose Fulbright]
+
+Project Finance NewsWire
+
+[]
+
+Subscribe
+
+[]
+
+Search
+
+Go
+
+[]
+
+More results
+
+[]
+
+Menu
+
+-   Home
+
+-   NewsWire Archive
+
+-   Currents Podcast
+
+-   Uptime Now
+
+-   Tax Equity News
+
+-   Project Finance News Blog
+
+-   Meet Our US and Latin American Team
+
+[]
+
+Close
+
+Financing projects with virtual PPAs
+
+October 1, 2017 | By Matthew Gurch
+
+Virtual or synthetic power purchase agreements present unique issues for developers, offtakers and lenders due to their novelty in the market and relative complexity.
+
+A virtual PPA is a power contract under which the electricity generator sells its electricity in the spot market and then exchanges the floating revenue it receives for fixed payments from a corporate offtaker. This is in contrast with a more traditional PPA where there is physical delivery of electricity to the offtaker.
+
+Some market watchers estimate that between five and 10 virtual PPAs are significantly delayed or aborted for every successful transaction. Developers often ask whether any projects with virtual PPAs have been financed. The answer is yes.
+
+Building blocks
+
+More than half of Fortune 500 companies have sustainability goals to reduce their carbon footprints though increased energy efficiency and use of renewable energy. Many of these companies have high power consumption needs that represent a substantial portion of their operating costs and their operations are often widely dispersed across regional power grids. Their future energy needs are also difficult to predict accurately.
+
+These factors make it difficult for these large corporates to contract with captive renewable energy projects. Moreover, achieving their corporate sustainability goals through energy efficiency and the purchase of renewable energy credits alone is not realistic due to the aggressive scope and tight deadlines often involved.
+
+Securing a long-term, contracted revenue stream is fundamental to the bankability of a project. Historically, long-term power purchase agreements have checked this box. However, developers are finding it increasingly difficult to secure PPAs with utilities and other traditional market players on favorable economic terms.
+
+In the face of these challenges, large corporates and developers are forging a path forward through a relatively new power purchase structure commonly referred to as a synthetic or virtual PPA. Cumulative corporate power offtake agreements with renewable energy projects grew from 600 megawatts in 2009 to 8,000 megawatts in 2016 and the trend (which has been primarily driven by only 23 companies) is expected to continue.
+
+Lenders have been willing to finance projects with virtual PPAs, provided key issues differentiating them from a traditional PPA are adequately addressed in the documentation.
+
+Pricing
+
+Pricing is usually the primary consideration in any PPA.
+
+Virtual PPAs mitigate the cash flow risk and price volatility of merchant spot-market sales: a critical factor in securing commercial financing. Because virtual PPAs are hedges, their pricing mechanisms are considerably more complicated than under a traditional PPA and require the parties involved carefully to consider several resulting risks.
+
+To better understand the risks, it is worth considering how cash flows work under a typical virtual PPA.
+
+Under a virtual PPA, the project owner sells power into the wholesale market and is paid the prevailing market price. At the end of each negotiated settlement period (usually a month), the project owner calculates its aggregate sales proceeds. If this amount exceeds the product of the fixed or “strike” price and the quantity of power specified in the PPA, then the project owner pays the difference to the corporate offtaker. If this amount is less, the corporate offtaker pays the difference to the project owner.
+
+It is worth noting that, unlike energy payments made under traditional PPAs, payments under a virtual PPA are often calculated based on a scheduled notional quantity of electricity instead of actual output.
+
+The floating-price component of virtual PPAs exposes the parties to several market risks.
+
+Project owners trade the potential upside of pure merchant sales for the certainty of a fixed price. Corporate offtakers also often offer better pricing than utilities can afford to offer in crowded local markets where energy prices are relatively low. Corporate offtakers bet that energy prices will continue to rise and that the PPA will remain “in the money”—meaning the floating price that the project owner pays the offtaker will exceed the fixed price that the offtaker pays the project owner over most of the PPA’s term.
+
+Getting the strike price right is therefore crucial for the parties to get closer to their respective goals. Striking this balance usually requires substantial involvement by third-party specialized consultants to develop accurate long-term forecasts of the project’s wholesale sales market, the corporate offtaker’s projected energy needs and its retail energy costs, and systemic trends affecting energy pricing in general (such as renewable energy penetration, natural gas pricing, anticipated transmission and distribution upgrades, and planned energy capacity additions and retirements).
+
+Due to the need for price transparency and the accuracy of deep, liquid spot markets, most virtual PPAs are signed with projects selling into deregulated markets, such as the Electric Reliability Council of Texas (ERCOT), PJM Interconnection (PJM), the New England Power Pool (NEPOOL) and the New York Independent System Operator (NYISO).
+
+Price risk
+
+Project owners try to mitigate market price risk though the inclusion of price escalation provisions.
+
+Traditional PPAs rarely include index-based price escalation provisions due to the complexity and uncertainty of projecting power market trends. However, price escalation is a much-negotiated issue with virtual PPAs.
+
+Project owners often prevail in these debates, as the shorter term of most virtual PPAs (ranging from 10 to 15 years) makes price escalation more palatable for offtakers not locked into a 20-year commitment. Also, even in longer-term virtual PPAs, the escalation provisions only apply to the first three to five years of the contract term.
+
+Negotiated trade-offs between tenor and escalation should be expected.
+
+Corporate purchasers also try to mitigate market price risk though the careful identification and selection of projects that complement their operating facilities and projected energy needs.
+
+A well-structured virtual PPA can help a corporation not only to fulfill its sustainability mandates, but also to hedge its overall energy costs. If a company’s retail energy costs either decline compared to, or rise in parallel with, the project’s wholesale sale prices, the net effect can be a smaller overall power bill.
+
+Achieving this correlation requires careful consideration of a company’s present and future operations, the project’s local power market and regulatory regime and potential changes of law affecting a project owner. Such analysis could, for example, reveal that it actually makes better economic sense for a California tech company, with power-hungry server sites located across Nevada and Florida, to pass on a West Texas wind farm offering attractive initial pricing if the company as a whole has a better long-term correlation with a Pennsylvania solar project selling into the PJM market.
+
+Parties to virtual PPAs, particularly corporate offtakers, must also remain vigilant about negative price risk.
+
+If a virtual PPA provides that the corporate purchaser is unconditionally obligated to pay the absolute difference between real-time market rates and the fixed price, it might be obligated to cover a hefty, unexpected settlement payment to the project owner.
+
+Recent market trends in two popular renewable power markets are reminders of the need for caution. The renewable portfolio standard in California contributed to an upsurge in mid-day solar energy supply that, in turn, has increased both the frequency and severity of negative pricing in the real-time market. In West Texas, home of the largest installed wind capacity in the US, the fact that wind production is generally strongest at night when demand slackens has also resulted in numerous negative pricing events over the last decade.
+
+This is a more salient issue for wind farms relying on federal production tax credits because, unlike solar assets claiming federal investment tax credits, wind project owners are incentivized to continue generating despite negative pricing so as to not lose the value of the tax credits.
+
+To address this risk for corporate offtakers active in wind power, some virtual PPAs provide that the corporate offtaker’s payment obligation is subject to a price floor that is tied to the negative pre-tax production tax credit value. This approach attempts to preserve the project owner’s economic interest in the tax credit while mitigating the risk of over production in a negative price market.
+
+In the case of solar projects, parties to virtual PPAs sometimes reach an agreement either to cap the corporate offtaker’s total payment obligation during periods of negative pricing (measured on a monthly or annual basis) or the parties set a negative price floor beyond which the offtaker is not obligated to pay the project owner.
+
+Basis risk
+
+Basis or locational risk is the possibility that there is a mismatch between the market energy price realized at a project’s actual delivery point (its bus bar) and the prevailing price at the agreed-upon trading point (which may be a regional hub or another node close to the project bus bar) specified in the virtual PPA.
+
+Corporate offtakers and lenders tend to prefer to index the floating price component of the hedge settlement price at liquid, high-volume regional hubs. While this may ease the burden of analyzing historical and projected pricing trends, it also creates the risk that the revenue counted for purposes of calculating settlement payments does not correspond to reality.
+
+In order to share this risk and structure a bankable project, some virtual PPAs provide for pricing adjustments (on a fixed or floating basis) or caps to limit the potential basis risk. Alternatively, some project owners (whether on their own initiative or as required by lenders) enter into ancillary agreements with third parties to hedge the basis risk.
+
+Regardless of where the price is indexed, one standard practice is to count energy price at the time of delivery instead of looking to the actual price realized. This shifts the risk of sub-optimal scheduling failure and delays to the project owner.
+
+Term
+
+When it comes to securing long-term financing, traditional PPAs benefit from their long terms—usually 15 to 20 or more years. Virtual PPAs often have a significantly shorter duration than the underlying financing. This may be attributable to the relative novelty of virtual PPAs, as corporate purchasers have only recently gotten comfortable with making long-term commitments to match their ever evolving, unpredictable energy needs.
+
+An unhedged merchant tail creates significant financing challenges. It could impose pressure to increase the level of scheduled debt amortization beyond what the project can sustain or lead to a balloon payment and the attendant refinancing risk.
+
+As the market for virtual PPAs continues to mature, project owners will probably continue to push for longer terms in order to support longer debt tenors and corporate counterparties may prove more accommodating as they become more comfortable with virtual PPAs in general.
+
+In the meantime, to address this issue, some projects are structured with multiple offtake contracts. For example, if the project economics require a 15-year debt tenor, the project owner may enter into a pure financial swap with a hedge bank covering the first five years and a virtual PPA with a corporate counterparty covering the final 10-year debt period. However, this solution is imperfect as it raises significant collateral and intercreditor issues.
+
+Security and intercreditor matters
+
+Unlike traditional PPAs, most corporate counterparties to virtual PPAs require not only liquid performance security, but also a security interest in the collateral. This causes friction with project lenders, as they are accustomed to having an exclusive, first-priority security interest in project assets.
+
+Lenders, project owners and corporate offtakers sometimes compromise by giving the offtaker a second-priority security interest over all project assets and a first-priority lien over either a specified subset of project assets or, more frequently, a capped first-priority lien over collateral shared with lenders. If there are different offtakers under multiple virtual PPAs, which is more common in long-term financings, the second lienholders must negotiate their respective voting and other rights over the shared second lien. If the terms of these virtual PPAs do not overlap, then the purchaser under the first PPA to take effect can be granted an exclusive second-priority security interest and the purchaser under the second PPA to take effect gets an exclusive third-priority lien. Upon the termination of the first PPA’s term, the second PPA automatically steps up to the second-priority position.
+
+Corporate offtakers can also get comfortable with a subordinated security interest by ensuring that they have a payment priority in the project’s operating cash waterfall that is superior to debt service—often by insisting that regular settlement payments under the virtual PPA are paid at the same level as operation and maintenance expenses.
+
+Corporate counterparties typically also have lower credit quality compared to traditional utilities and, due to their variable future energy needs, there is less confidence that corporate counterparties will remain incentivized to perform a long-term contract fully. Lenders and project owners will therefore often require both substantially more performance security from corporate purchasers and limit the form of acceptable security to liquid letters of credit or cash reserves.
+
+Other issues distinguishing virtual PPAs from traditional PPAs also warrant the careful attention of developers and corporate counterparties. They are beyond the scope of this article, and include differences in accounting treatment, regulatory and tax risks and energy management issues.[webding-gold-Apr-16-2025-04-01-20-5906-PM]
+
+Share this
+
+Share on LinkedIn [] Share on Twitter [] Share on Bluesky [] Share on Facebook []
+
+NewsWire Editor
+
+Keith Martin
+Partner, United States
+Washington, DC
+Email
+T: +1 202 974 5674
+
+[] Download PDF of the NewsWire
+
+Stay Connected
+
+Subscribe by Email
+
+[] [] [] [] []
+
+[Norton Rose Fulbright]
+
+Project Finance News
+
+For developments affecting project finance and the energy sector.
+
+Norton Rose Fulbright LLP © 2026. All Rights Reserved.
+
+-   Legal notices
+-   Privacy notice
+-   Cookies policy
+-   Do Not Sell or Share My Personal Information
+-   Limit the Use of My Sensitive Personal Information
+
+[] [] [] [] []

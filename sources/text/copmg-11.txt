@@ -1,0 +1,129 @@
+Commercial Operations Market Guide
+
+Section 11: Disputes
+
+August 1, 2026
+
+_______________________________________________
+
+11 DISPUTES 1
+
+11.1 ERCOT Disputes 1
+
+11.1.1 Overview 1
+
+11.1.2 Settlement Calendar 6
+
+11.1.3 Dispute Access 6
+
+11.1.4 Dispute Items 6
+
+11.1.5 Valid Dispute Statuses and Resolutions 7
+
+11.1.6 Dispute Reporting 7
+
+ 
+
+DISPUTES
+
+11.1 ERCOT Disputes
+
+(1) Section 9, Settlement and Billing, describes the various requirements for the implementation and maintenance of the Dispute Management Process. Qualified Scheduling Entities (QSEs) in the Day-Ahead Market (DAM) and Real-Time Market (RTM) and QSEs and Congestion Revenue Right (CRR) Account Holders for the DAM, RTM, and CRR markets are responsible for the review of their Settlement Statements and Settlement Invoices to verify the accuracy of the Settlement data used to produce the Settlement Statement and Settlement Invoice. Recipients must submit any dispute related to the Settlement Statement or Settlement Invoice data. All communication to and from ERCOT concerning disputes must be through either the Market Information System (MIS) Certified Area dispute tool or other electronic communications. Recipients shall be able to file the dispute, create the dispute-associated activities and view the progress of the dispute.
+
+(2) In accordance with Protocols, ERCOT will issue Resettlement Statements as soon as possible due to data error other than prices that result in an impact greater than two percent of the total payments due to ERCOT, otherwise ERCOT will wait until the next scheduled Settlement. Protocol Sections 9.2.5, DAM Resettlement Statement, and 9.5.6, RTM Resettlement Statement, describes the timing of resettlements due to Settlement and billing disputes.
+
+11.1.1 Overview
+
+(1) The following figures illustrate an overview of the process flow of the Dispute Management System, detailed process flows based on the type of statement being disputed, and the process for denied disputes. Protocol Section 9, Settlement and Billing, also describes the timing of disputes.
+
+Figure 1: Dispute Management System Process Flow Overview
+
+[]
+
+Figure 2: Process for Disputing a Real-Time Statement and Invoice
+
+[]
+
+Figure 3: Process for Disputing Statements and Invoices Other than Real-Time
+
+[]
+
+Figure 4: Process for a Denied Dispute
+
+[]
+
+11.1.2 Settlement Calendar
+
+(1) The Settlement Calendar provides the dates by which ERCOT will post, process payments, and administer disputes for Settlement Statements and Invoices, including:
+
+  (a) Settlement Statements for the DAM and RTM; and
+
+  (b) Settlement Invoice, CRR Auction, CRR Auction Revenue Distribution (CARD), and CRR Balancing Account (CRRBA).
+
+(2) The Settlement Calendar is provided as an extract and can be found on the ERCOT website. Supporting information for the Settlement Calendar (i.e. the Data Definition Language (DDL) and Extensible Markup Definitions) are also available on the ERCOT website.
+
+11.1.3 Dispute Access
+
+(1) There are two methods available for filing a dispute, MIS Web Portal and Application Programmatic Interface (API).
+
+  (a) MIS Web Portal – The web portal user interface utilizes the Market Participant MIS access credentials for authentication. The disputes area can be found by navigating to the on Markets/Settlements landing page or the applications home page. From either page, you can open the dispute application, based on roles, Create Nodal Settlement Dispute or Find Nodal Settlement Disputes.
+
+  Market Participants also have the ability to search for or view disputes using the ‘Find Nodal Settlement Disputes’ function on the Graphic User Interface (GUI). Disputes may be viewed and searched for by dispute IDs and various other criteria.
+
+  (b) API – Allows you to utilize a third-party application to submit your disputes to and from ERCOT. See the External Interfaces Specification (EIP) document on the ERCOT.com website for the API technical requirements.
+
+11.1.4 Dispute Items
+
+(1) The following are a list of the statement and Invoice items that can be disputed. For Invoices, the items not listed on the statement can be disputed, such as interest.
+
+  (a) DAM Statement;
+
+  (b) DAM Resettlement Statement;
+
+  (c) RTM Initial Statement;
+
+  (d) RTM Final Statement;
+
+  (e) RTM True-Up Statement;
+
+  (f) Any RTM Resettlement Statement issued after the RTM True-Up Statement;
+
+  (g) Default Uplift Invoice;
+
+  (h) CRR Auction Invoice;
+
+  (i) CARD Invoice; and
+
+  (j) CRRBA Invoice.
+
+11.1.5 Valid Dispute Statuses and Resolutions
+
+(1) An automatic Notification will be sent to the disputing Entity if there is a change in the dispute resolution or dispute status.
+
+  (a) Statuses:
+
+  (i) Not Started – The initial status of the dispute when it is submitted to ERCOT.
+
+  (ii) Open – ERCOT has begun to work on the issue.
+
+  (iii) Alternative Dispute Resolution (ADR) – The Market Participant begins the ADR process once ERCOT has denied a dispute.
+
+  (iv) Closed – The dispute has been resolved.
+
+  (v) Withdrawn – Market Participant withdraws the dispute.
+
+  (b) Resolutions:
+
+  (i) Granted – ERCOT grants the dispute and the adjustments display on the next Settlement Statement for the Operating Day.
+
+  (ii) Granted with Exceptions – ERCOT grants a partial adjustment of the disputed amount. The Market Participant is notified of the exception(s).
+
+  (iii) Denied – ERCOT rejects the dispute. An automatic Notification will be sent to the disputing Market Participant.
+
+11.1.6 Dispute Reporting
+
+(1) ERCOT will post a summary level dispute report and a Market Participant specific dispute extract on the MIS Certified Area.
+
+  (a) Market Participant Dispute Extract – This certified extract provides QSEs and CRR Account Holders with the current status of all of their Entity specific disputes that are not closed or withdrawn, as well as all disputes closed or withdrawn within the last 120 days.
+
+  (b) ERCOT Summary Dispute Report – This report is a summary by Operating Day , status and market type (DAM and RTM) with resolution and count of disputes, as disputes move to a ‘Closed’ or ‘Withdrawn’ status, the data will remain available on the report for 30 days before’ rolling off’.

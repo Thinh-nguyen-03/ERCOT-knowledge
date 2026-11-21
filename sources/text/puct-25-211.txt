@@ -1,0 +1,557 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter I. TRANMISSION AND DISTRIBUTION.
+DIVISION 2.
+
+TRANSMISSION AND
+ELECTRIC UTILITIES.
+
+DISTRIBUTION
+
+APPLICABLE
+
+TO
+
+ALL
+
+§25.211. Interconnection of On-Site Distributed Generation (DG).
+(a)
+
+Application. Unless the context indicates otherwise, this section and §25.212 of this title (relating to
+Technical Requirements for Interconnection and Parallel Operation of On-Site Distributed
+Generation) apply to an electric utility for all purposes except to the extent preempted by federal law.
+The only part of this section that applies to electric cooperatives is subsection (o) of this section.
+
+(b)
+
+Purpose. The purpose of this section includes stating the terms and conditions that govern the
+interconnection and parallel operation of both on-site distributed generation in order to implement
+Public Utility Regulatory Act (PURA) §39.101(b)(3) and a natural gas distributed generation facility
+in order to implement PURA §35.036. Sales of power by on-site distributed generation and natural
+gas distributed generation in the intrastate wholesale market are subject to §§25.191-25.203 of this
+title (relating to Open-Access Comparable Transmission Service for Electrical Utilities in the Electric
+Reliability Council of Texas).
+
+(c)
+
+Definitions. The following words and terms when used in this section and §25.212 of this title shall
+have the following meanings, unless the context indicates otherwise:
+(1)
+Application for interconnection and parallel operation or application -- The form of
+application prescribed in subsection (q) of this section.
+(2)
+Company -- An electric utility operating a distribution system.
+(3)
+Customer -- Any entity interconnected to the company’s utility system for the purpose of
+receiving or exporting electric power from or to the company’s utility system.
+(4)
+Distributed natural gas generation facility -- A facility installed on the customer’s side of
+the meter that uses natural gas to generate not more than 2,000 kilowatts of electricity.
+(5)
+Facility -- An electrical generating installation consisting of one or more on-site distributed
+generation units, including a distributed natural gas generation facility. The total capacity of
+the installation’s on-site distributed generation units may exceed ten megawatts (MW);
+however, no more than ten MW of the installation’s capacity will be interconnected at any
+point in time at the point of common coupling under this section.
+(6)
+Interconnection -- The physical connection of distributed generation to the utility system in
+accordance with the requirements of this section so that parallel operation can occur.
+(7)
+Interconnection agreement -- The form of agreement prescribed in subsection (p) of this
+section. The interconnection agreement sets forth the contractual conditions under which a
+company and a customer agree that one or more facilities may be interconnected with the
+company’s utility system.
+(8)
+Inverter-based protective function -- A function of an inverter system, carried out using
+hardware and software, that is designed to prevent unsafe operating conditions from
+occurring before, during, and after the interconnection of an inverter-based static power
+converter unit with a utility system. For purposes of this definition, unsafe operating
+conditions are conditions that, if left uncorrected, would result in harm to personnel, damage
+to equipment, unacceptable system instability or operation outside legally established
+parameters affecting the quality of service to other customers connected to the utility system.
+(9)
+Network service -- Network service consists of two or more utility primary distribution
+feeder sources electrically tied together on the secondary (or low voltage) side to form one
+power source for one or more customers. The service is designed to maintain service to the
+customers even after the loss of one of these primary distribution feeder sources.
+(10)
+On-site distributed generation (or distributed generation) -- An electrical generating
+facility located at a customer’s point of delivery (point of common coupling) of ten
+
+§25.211--1
+
+effective 1/5/17
+(P 45078)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter I. TRANMISSION AND DISTRIBUTION.
+DIVISION 2.
+
+(11)
+(12)
+
+(13)
+
+(14)
+
+(15)
+
+(16)
+
+(17)
+(18)
+
+(d)
+
+TRANSMISSION AND
+ELECTRIC UTILITIES.
+
+DISTRIBUTION
+
+APPLICABLE
+
+TO
+
+ALL
+
+megawatts (MW) or less and connected at a voltage less than 60 kilovolts (kV) which may be
+connected in parallel operation to the utility system.
+Parallel operation -- The operation of on-site distributed generation while the customer is
+connected to the company’s utility system.
+Point of common coupling -- The point where the electrical conductors of the company
+utility system are connected to the customer’s conductors and where any transfer of electric
+power between the customer and the utility system takes place, such as switchgear near the
+meter.
+Pre-certified equipment -- A specific generating and protective equipment system or
+systems that have been certified as meeting the applicable parts of this section relating to
+safety and reliability by an entity approved by the commission.
+Pre-interconnection study -- A study or studies that may be undertaken by a company in
+response to its receipt of a completed application for interconnection and parallel operation
+with the utility system. Pre-interconnection studies may include, but are not limited to,
+service studies, coordination studies and utility system impact studies.
+Stabilized -- A company utility system is considered stabilized when, following a
+disturbance, the system returns to the normal range of voltage and frequency for a duration of
+two minutes or a shorter time as mutually agreed to by the company and customer.
+Tariff for interconnection and parallel operation of distributed generation -- The tariff
+for interconnection and parallel operation of distributed generation prescribed in subsection
+(q) of this section.
+Unit -- A power generator.
+Utility system -- A company’s distribution system below 60 kV to which the generation
+equipment is interconnected.
+
+Terms of Service.
+(1)
+Distribution line charge. No distribution line charge shall be assessed to a customer for
+exporting energy to the utility system.
+(2)
+Interconnection operations and maintenance costs. No charge for operation and
+maintenance of a utility system’s facilities shall be assessed against a customer for exporting
+energy to the utility system.
+(3)
+Transmission charges. No transmission charges shall be assessed to a customer for
+exporting energy. For purposes of this paragraph, the term transmission charges means
+transmission access and line charges, transformation charges, and transmission line loss
+charges.
+(4)
+New or amended interconnection agreements. A new or amended interconnection
+agreement entered into 30 or more days after the commission’s approval of an electric
+utility’s compliance tariff filed pursuant to paragraph (5) of this subsection shall meet the
+requirements of this section.
+(5)
+Tariffs. Not later than 30 days after the effective date of this amended section, an electric
+utility shall file with the commission for approval tariff amendments to comply with this
+amended section, including subsections (p) and (q) of this section. An electric utility shall
+include in its tariff the fees for interconnection studies. An electric utility that sells
+electricity shall also include back-up, supplemental, and maintenance power services for
+distributed generation in its tariff.
+
+§25.211--2
+
+effective 1/5/17
+(P 45078)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter I. TRANMISSION AND DISTRIBUTION.
+DIVISION 2.
+
+TRANSMISSION AND
+ELECTRIC UTILITIES.
+
+DISTRIBUTION
+
+APPLICABLE
+
+TO
+
+ALL
+
+(e)
+
+Disconnection and reconnection. A utility may disconnect a distributed generation unit from the
+utility system under the following conditions:
+(1)
+Expiration or termination of interconnection agreement. The interconnection agreement
+specifies the effective term and termination rights of company and customer. Upon
+expiration or termination of the interconnection agreement with a customer, in accordance
+with the terms of the agreement, the utility may disconnect customer’s facilities.
+(2)
+Non-compliance with the technical requirements specified in §25.212 of this title. A
+utility may disconnect a distributed generation facility if the facility is not in compliance with
+the technical requirements specified in §25.212 of this title. Within two business days from
+the time the customer notifies the utility that the facility has been restored to compliance with
+the technical requirements of §25.212 of this title, the utility shall have an inspector verify
+such compliance. Upon such verification, the customer in coordination with the utility may
+reconnect the facility.
+(3)
+System emergency. A utility may temporarily disconnect a customer’s facility without prior
+written notice in cases where continued interconnection will endanger persons or property.
+During the forced outage of a utility system, the utility shall have the right to temporarily
+disconnect a customer’s facility to make immediate repairs on the utility’s system. When
+possible, the utility shall provide the customer with reasonable notice and reconnect the
+customer as quickly as reasonably practical.
+(4)
+Routine maintenance, repairs, and modifications. A utility may disconnect a customer or
+a customer’s facility with seven business days prior written notice of a service interruption
+for routine maintenance, repairs, and utility system modifications. The utility shall reconnect
+the customer as quickly as reasonably possible following any such service interruption.
+(5)
+Lack of approved application and interconnection agreement. In order to interconnect
+distributed generation to a utility system, a customer must first submit to the utility an
+application for interconnection and parallel operation with the utility system and execute an
+interconnection agreement on the forms prescribed by the commission. The utility may
+refuse to connect or may disconnect the customer’s facility if such application has not been
+received and approved.
+
+(f)
+
+Incremental demand charges. During the term of an interconnection agreement a utility may require
+that a customer disconnect its distributed generation unit and/or take it off-line as a result of utility
+system conditions described in subsection (e)(3) and (4) of this section. Incremental demand charges
+arising from disconnecting the distributed generator as directed by company during such periods shall
+not be assessed by company to the customer.
+
+(g)
+
+Pre-interconnection studies for non-network interconnection of distributed generation. A utility
+may conduct a service study, coordination study or utility system impact study prior to
+interconnection of a distributed generation facility. In instances where such studies are deemed
+necessary, the scope of such studies shall be based on the characteristics of the particular distributed
+generation facility to be interconnected and the utility’s system at the specific proposed location. By
+agreement between the utility and its customer, studies related to interconnection of on-site distributed
+generation on the customer’s premises may be conducted by a qualified third party.
+(1)
+Distributed generation facilities for which no pre-interconnection study fees may be
+charged. A utility may not charge a customer a fee to conduct a pre-interconnection study
+for pre-certified distributed generation units up to 500 kW that export not more than 15% of
+the total load on a single radial feeder and contribute not more than 25% of the maximum
+potential short circuit current on a single radial feeder.
+
+§25.211--3
+
+effective 1/5/17
+(P 45078)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter I. TRANMISSION AND DISTRIBUTION.
+DIVISION 2.
+
+(2)
+
+(h)
+
+TRANSMISSION AND
+ELECTRIC UTILITIES.
+
+DISTRIBUTION
+
+APPLICABLE
+
+TO
+
+ALL
+
+Distributed generation facilities for which pre-interconnection study fees may be
+charged. Prior to the interconnection of a distributed generation facility not described in
+paragraph (1) of this subsection, a utility may charge a customer a fee to offset its costs
+incurred in the conduct of a pre-interconnection study. In those instances where a utility
+conducts an interconnection study the following shall apply:
+(A)
+The conduct of such pre-interconnection study shall take no more than four weeks;
+(B)
+A utility shall prepare written reports of the study findings and make them available
+to the customer;
+(C)
+The study shall consider both the costs incurred and the benefits realized as a result
+of the interconnection of distributed generation to the company’s utility system; and
+(D)
+The customer shall receive an estimate of the study cost before the utility initiates
+the study.
+
+Network interconnection of distributed generation. Certain aspects of secondary network systems
+create technical difficulties that may make interconnection more costly to implement. In instances
+where customers request interconnection to a secondary network system, the utility and the customer
+shall use best reasonable efforts to complete the interconnection and the utility shall utilize the
+following guidelines:
+(1)
+A utility shall approve applications for distributed generation facilities that use inverterbased protective functions unless total distributed generation (including the new facility) on
+affected feeders represents more than 25% of the total load of the secondary network under
+consideration.
+(2)
+A utility shall approve applications for other on-site generation facilities whose total
+generation is less than the local customer’s load unless total distributed generation (including
+the new facility) on affected feeders represents more than 25% of the total load of the
+secondary network under consideration.
+(3)
+A utility may postpone processing an application for an individual distributed generation
+facility under this section if the total existing distributed generation on the targeted feeder
+represents more than 25% of the total load of the secondary network under consideration. If
+that is the case, the utility should conduct interconnection and network studies to determine
+whether, and in what amount, additional distributed generation facilities can be safely added
+to the feeder or accommodated in some other fashion. These studies should be completed
+within six weeks, and application processing should then resume.
+(4)
+A utility may reject applications for a distributed generation facility under this section if the
+utility can demonstrate specific reliability or safety reasons why the distributed generation
+should not be interconnected at the requested site. However, in such cases the utility shall
+work with the customer to attempt to resolve such problems to their mutual satisfaction.
+(5)
+A utility shall make all reasonable efforts to seek methods to safely and reliably interconnect
+distributed generation facilities that will export power. This may include switching service
+to a radial feed if practical and if acceptable to the customer.
+
+§25.211--4
+
+effective 1/5/17
+(P 45078)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter I. TRANMISSION AND DISTRIBUTION.
+DIVISION 2.
+
+TRANSMISSION AND
+ELECTRIC UTILITIES.
+
+DISTRIBUTION
+
+APPLICABLE
+
+TO
+
+ALL
+
+(i)
+
+Pre-Interconnection studies for network interconnection of distributed generation. Prior to
+charging a pre-interconnection study fee for a network interconnection of distributed generation, a
+utility shall first advise the customer of the potential problems associated with interconnection of
+distributed generation with its network system. For potential interconnections to network systems
+there shall be no pre-interconnection study fee assessed for a facility with inverter systems under 20
+kW. For all other facilities the utility may charge the customer a fee to offset its costs incurred in the
+conduct of the pre-interconnection study. In those instances where a utility conducts an
+interconnection study, the following shall apply:
+(1)
+The conduct of such pre-interconnection studies shall take no more than four weeks;
+(2)
+A utility shall prepare written reports of the study findings and make them available to the
+customer;
+(3)
+The studies shall consider both the costs incurred and the benefits realized as a result of the
+interconnection of distributed generation to the utility’s system; and
+(4)
+The customer shall receive an estimate of the study cost before the utility initiates the study.
+
+(j)
+
+Communications concerning proposed distributed generation projects. In the course of
+processing applications for interconnection and parallel operation and in the conduct of preinterconnection studies, customers shall provide the utility detailed information concerning proposed
+distributed generation facilities. Such communications concerning the nature of proposed distributed
+generation facilities shall be made subject to the terms of §25.84 of this title (relating to Annual
+Reporting of Affiliate Transactions for Electric Utilities), §25.272 of this title (relating to Code of
+Conduct for Electric Utilities and their Affiliates), and §25.273 of this title (relating to Contracts
+between Electric Utilities and their Competitive Affiliates). A utility and its affiliates shall not use
+such knowledge of proposed distributed generation projects submitted to it for interconnection or
+study to prepare competing proposals to the customer that offer either discounted rates in return for
+not installing the distributed generation, or offer competing distributed generation projects.
+
+(k)
+
+Equipment pre-certification.
+(1)
+Entities performing pre-certification. The commission may approve one or more entities
+that shall pre-certify equipment as defined pursuant to this section.
+(2)
+Standards for entities performing pre-certification. Testing organizations and/or facilities
+capable of analyzing the function, control, and protective systems of distributed generation
+units may request to be certified as testing organizations.
+(3)
+Effect of pre-certification. Distributed generation units which are certified to be in
+compliance by an approved testing facility or organization as described in this subsection
+shall be installed on a company utility system in accordance with an approved
+interconnection control and protection scheme without further review of their design by the
+utility.
+
+(l)
+
+Designation of utility contact persons for matters relating to distributed generation
+interconnection.
+(1)
+Each electric utility shall designate a person or persons who will serve as the utility’s contact
+for all matters related to distributed generation interconnection.
+(2)
+Each electric utility shall identify to the commission its distributed generation contact person.
+(3)
+Each electric utility shall provide convenient access through its internet web site to the
+names, telephone numbers, mailing addresses and electronic mail addresses for its distributed
+generation contact person.
+
+§25.211--5
+
+effective 1/5/17
+(P 45078)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter I. TRANMISSION AND DISTRIBUTION.
+DIVISION 2.
+
+TRANSMISSION AND
+ELECTRIC UTILITIES.
+
+DISTRIBUTION
+
+APPLICABLE
+
+TO
+
+ALL
+
+(m)
+
+Time periods for processing applications for interconnection and parallel operation. In order to
+apply for interconnection the customer shall provide the utility a completed application for
+interconnection and parallel operation. The interconnection of distributed generation shall take place
+within the following schedule:
+(1)
+For a facility with pre-certified equipment, interconnection shall take place within four
+weeks of the utility’s receipt of a completed application.
+(2)
+For other facilities, interconnection shall take place within six weeks of the utility’s receipt
+of a completed application.
+(3)
+If interconnection of a particular facility will require substantial capital upgrades to the utility
+system, the company shall provide the customer an estimate of the schedule and customer’s
+cost for the upgrade. If the customer desires to proceed with the upgrade, the customer and
+the company will enter into a contract for the completion of the upgrade. The
+interconnection shall take place no later than two weeks following the completion of such
+upgrades, except in situations in which a customer is not able to connect within two weeks
+following the completion of such upgrades, this time may be extended by agreement of the
+electric utility and the customer. The utility shall employ best reasonable efforts to complete
+such system upgrades in the shortest time reasonably practical.
+(4)
+A utility shall use best reasonable efforts to interconnect facilities within the time frames
+described in this subsection. If in a particular instance, a utility determines that it cannot
+interconnect a facility within the time frames stated in this subsection, it will notify the
+applicant in writing of that fact. The notification will identify the reason or reasons
+interconnection could not be performed in accordance with the schedule and provide an
+estimated date for interconnection.
+(5)
+All applications for interconnection and parallel operation shall be processed by the utility in
+a non-discriminatory manner. Applications shall be processed in the order that they are
+received. It is recognized that certain applications may require minor modifications while
+they are being reviewed by the utility. Such minor modifications to a pending application
+shall not require that it be considered incomplete and treated as a new or separate application.
+
+(n)
+
+Reporting requirements. Each electric utility shall maintain records concerning applications
+received for interconnection and parallel operation of distributed generation. Such records will
+include the name of the applicant, the business address of the applicant, and the location of the
+proposed facility by county, the capacity rating of the facility in kilowatts, whether the facility is a
+renewable energy resource as defined in §25.173 of this title (relating to Goal for Renewable Energy),
+the date each application is received, documents generated in the course of processing each
+application, correspondence regarding each application, and the final disposition of each application.
+The owner of a distributed generation facility that is interconnected under this section shall report to
+the utility any change in ownership of the facility and the cessation of operations of a facility within
+14 days of such change. By March 30 of each year, every electric utility shall file with the
+commission a distributed generation interconnection report for the preceding calendar year that
+identifies each distributed generation facility interconnected with the utility’s distribution system.
+The report shall list the new distributed generation facilities interconnected with the system since the
+previous year’ report, any change in ownership or the cessation of operations of any distributed
+generation that has been reported to the electric utility and not included in the previous report, the
+capacity of each facility and whether it is a renewable energy resource, and the feeder or other point
+on the company’s utility system where the facility is connected. The annual report shall also identify
+all applications for interconnection received during the previous one-year period, and the disposition
+of such applications.
+
+§25.211--6
+
+effective 1/5/17
+(P 45078)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE
+PROVIDERS.
+Subchapter I. TRANMISSION AND DISTRIBUTION.
+DIVISION 2.
+
+TRANSMISSION AND
+ELECTRIC UTILITIES.
+
+DISTRIBUTION
+
+APPLICABLE
+
+TO
+
+ALL
+
+(o)
+
+Distributed natural gas generation facility. This subsection, as well as the other subsections of this
+section, apply to a distributed natural gas generation facility. This subsection does not require an
+electric cooperative to transmit electricity to a retail point of delivery in the certificated area of the
+electric cooperative if the electric cooperative has not adopted customer choice. If there is a conflict
+between this subsection and another subsection of this section, this subsection controls.
+(1)
+Transmission.
+(A)
+Electric utilities. At the request of the owner or operator of a distributed natural gas
+generation facility, an electric utility shall allow the owner or operator of the facility
+to interconnect with and use transmission and distribution facilities to transmit
+electricity to another entity that is acceptable to the owner or operator in accordance
+with this section and the commission’s rules for open-access comparable
+transmission service for electric utilities in ERCOT, §§25.191 - 25.203 of this title,
+or a tariff approved by the Federal Energy Regulatory Commission (FERC).
+Electric cooperatives. At the request of the owner or operator of a distributed
+(B)
+natural gas generation facility, an electric cooperative shall allow the owner or
+operator of the facility to use transmission and distribution facilities to transmit the
+electric power to another entity that is acceptable to the owner or operator in
+accordance with the commission’s rules for open-access comparable transmission
+service for electric utilities in ERCOT, §§25.191 - 25.203 of this title, or a tariff
+approved by FERC.
+Interconnection Disputes. If an electric utility or electric cooperative seeks to recover from
+(2)
+the owner or operator of a distributed natural gas generation facility an amount that exceeds
+the amount in the estimate provided under PURA §35.036(e) by more than 5%, the
+commission shall resolve the dispute at the request of the owner or operator of the facility.
+
+(p)
+
+Agreement for Interconnection and Parallel Operation of Distributed Generation.
+Figure: 16 TAC §25.211(p)
+
+(q)
+
+Tariff for Interconnection and Parallel Operation of Distributed Generation.
+Figure: 16 TAC §25.211(q)
+
+§25.211--7
+
+effective 1/5/17
+(P 45078)
+
+

@@ -1,0 +1,141 @@
+ERCOT Load Profiling Guide
+
+Section 9: Load Profile IDs
+
+June 1, 2018
+
+9 LOAD PROFILE IDS 9-1
+
+9.1 Assignment of Load Profile IDs 9-1
+
+9.1.1 Profile Decision Tree Revision and Approval Process 9-1
+
+9.1.2 Assignment of Load Profile IDs for New Service Delivery Points 9-1
+
+9.1.3 Assignment of Load Profile IDs for New Electric Service Identifiers Resulting from a Mass Transition 9-2
+
+9.1.4 Assignment of BUSOGFLT Profile Type 9-2
+
+9.1.5 Assignment of Load Profile IDs for Distributed Generation 9-2
+
+9.1.6 kVA Metered Loads 9-2
+
+9.1.7 Load Profile ID Assignment for Non-ERCOT Electric Service Identifiers 9-3
+
+9.1.8 Load Profile ID Assignment for Non-Opt In Entities 9-3
+
+9.2 Processes to Change Load Profile ID Assignments 9-3
+
+9.2.1 Load Profile ID Changes Initiated By Transmission and/or Distribution Service Providers 9-4
+
+9.2.1.1 Load Profile ID Change Related to a Transmission and/or Distribution Service Provider Tariff Change 9-4
+
+9.2.1.2 Recognized Error in Current Assignment 9-4
+
+9.2.1.3 Load Profile ID Changes Resulting from Meter Type Changes 9-4
+
+9.2.1.4 CR Requested Change from a Default Load Profile ID 9-6
+
+LOAD PROFILE IDS
+
+9.1 Assignment of Load Profile IDs
+
+(1) Transmission and/or Distribution Service Providers (TDSPs) are responsible for initially assigning the Load Profile IDs of all Electric Service Identifiers (ESI IDs), as well as any changes in assignment. ERCOT is responsible for calculating the Load Profile Segment for the Load Profile ID as defined by the Annual Validation process in Section 11.2, Annual Validation of Load Profile Type. The Profile Decision Tree is a dynamic Microsoft Office Excel© file (see Appendix D, Profile Decision Tree) that contains the directions to use when assigning Load Profile IDs to ESI IDs.
+
+9.1.1 Profile Decision Tree Revision and Approval Process 
+
+(1) All revisions to Appendix D, Profile Decision Tree, shall be submitted through the Load Profiling Guide Revision Request (LPGRR) process described in Section 2, Load Profiling Guide Revision Process. ERCOT may use an administrative LPGRR to revise the contents of the following Profile Decision Tree tabs:
+
+  (a) FAQ – frequently asked questions related to the assignment of Load Profile IDs;
+
+  (b) Use of Components – information about how each component of the Load Profile ID is used by ERCOT in the Settlement process;
+
+  (c) ZipToZone – a table that maps Zone Improvement Plan (ZIP) Codes to Weather Zones;
+
+  (d) Valid Profile IDs – a list of all Load Profile IDs that can be assigned to ESI IDs that are within the ERCOT Region;
+
+  (e) Non-ERCOT Profile IDs – a list of Load Profile IDs that can be assigned to ESI IDs that are within Texas, but outside of the ERCOT Region; and
+
+  (f) NOIEs – directions for Non-Opt-In Entities (NOIEs) to use in determining Load Profile ID assignments.
+
+9.1.2 Assignment of Load Profile IDs for New Service Delivery Points
+
+(1) TDSPs shall create and submit ESI IDs as new Service Delivery Points (SDPs) are established. It is the responsibility of the TDSP to make the Load Profile ID assignment for each new ESI ID. To assign the Load Profile Type for new ESI IDs, the TDSP shall assign the default Load Profile Segment designated in Appendix D, Profile Decision Tree, on the “Segment Assignment” worksheet.
+
+9.1.3 Assignment of Load Profile IDs for New Electric Service Identifiers Resulting from a Mass Transition
+
+(1) When a Mass Transition involves moving SDPs from one TDSP to another, the gaining TDSP creates and submits ESI IDs for all gained SDPs. To assign the Load Profile ID for new ESI IDs, the gaining TDSP shall obtain the current Load Profile ID assignment from either the losing TDSP or ERCOT. For detailed information on the mass customer transition process, please refer to Retail Market Guide.
+
+9.1.4 Assignment of BUSOGFLT Profile Type
+
+(1) Only the current Competitive Retailer (CR) of Record may seek to have the Oil & Gas Flat (OGFLT) Load Profile Segment assigned to one of their Business (BUS) ESI IDs and shall follow the instructions on the Oil & Gas tab of Appendix D, Profile Decision Tree.
+
+(2) ERCOT shall review all assignments of the BUSOGFLT Profile Type on an annual basis, per Section 11.3.1, Validation of BUSOGFLT Profile Type.
+
+9.1.5 Assignment of Load Profile IDs for Distributed Generation
+
+(1) CRs seeking to have the profile segments for Photovoltaic, wind or other Distributed Generation (DG) assigned to one of their Residential (RES) or Business (BUS) ESI IDs shall follow the instructions on the “DG” tab of Appendix D, Profile Decision Tree.
+
+(2) ERCOT shall review all assignments of the Load Profile Segments for Photovoltaic, wind, and other DG on an annual basis, per Section 11.3.3, Validation of Profile Segments for Distributed Generation.
+
+9.1.6 kVA Metered Loads
+
+(1) Any TDSP that routinely measures kVA Demand instead of kW Demand shall coordinate with the Retail Market Subcommittee (RMS) to determine the Power Factor that shall be used to estimate their kW Demand, in accordance with Section 10, kVA to kW Conversion. Approved Power Factors are listed in Appendix D, Profile Decision Tree.
+
+9.1.7 Load Profile ID Assignment for Non-ERCOT Electric Service Identifiers
+
+(1) TDSPs are required to assign ESI IDs for all SDPs within Texas, not just those within the ERCOT Region. Therefore, a Load Profile ID shall also be submitted to ERCOT by the respective TDSP, even though the non-ERCOT information shall not be used in ERCOT Settlements. To ensure that the non-ERCOT Load Profile IDs are not confused with the ERCOT Load Profile IDs, it is necessary to give them names that are different than those for ESI IDs within ERCOT.
+
+(2) A list of valid Load Profile IDs to be assigned to ESI IDs within Texas, but outside of the ERCOT Region (non-ERCOT ESI IDs), is included in Appendix D, Profile Decision Tree, under the “Non-ERCOT Profile IDs” worksheet. TDSPs shall submit for approval to ERCOT additional names or changes for their non-ERCOT Load Profile IDs. The Load Profile ID may be no more than 30 characters in length. A comprehensive listing of non-ERCOT Load Profile IDs shall be maintained in the Profile Decision Tree.
+
+9.1.8 Load Profile ID Assignment for Non-Opt In Entities 
+
+(1) NOIEs are required to submit Load Profile IDs for the ESI IDs that represent the NOIE metering points, as defined in Protocol Section 10, Metering. The Profile Decision Tree contains details on Load Profile ID assignments for NOIEs. The Load Profile ID shall be based on default values for four of the five fields in the Load Profile ID. The only component determined by the NOIE is the Weather Zone code. This is assigned based on the ZIP code at the metering point.
+
+9.2 Processes to Change Load Profile ID Assignments
+
+(1) ERCOT, a Transmission and/or Distribution Service Provider (TDSP), or a Competitive Retailer (CR) may request a change in the Load Profile ID assignment of an Electric Service Identifier (ESI ID). ERCOT may initiate a change as a result of the ERCOT Load Profile ID validation process. A TDSP shall initiate a change, when necessary, due to a change in the TDSP tariff to which the ESI ID is assigned, a meter type change, or an error with the Load Profile ID assignment. A CR may submit a change request to the TDSP when the CR believes there is an error in the existing Load Profile ID or when the CR believes adequate data has become available to replace a default Load Profile ID assigned to a new ESI ID. A Customer may request a Load Profile ID change by contacting their CR. Load Profile ID assignments shall always be based on the criteria defined in the appropriate Profile Decision Tree. Regardless of which Entity initiates a change in the Load Profile ID assignment for an ESI ID, the TDSP is responsible for formally updating ERCOT’s systems using the appropriate Texas Standard Electronic Transaction (TX SET).
+
+(2) All communication among Market Participants and between Market Participants and ERCOT regarding Load Profile ID changes shall be implemented per the appropriate TX SET transaction, except for alternative communication processes that are specified within the Load Profiling Guide (LPG).
+
+(3) For any change made to a Load Profile ID, it is the responsibility of the TDSP to make sure the effective date of change is concurrent with a specific meter read date and that the meter read information reaches ERCOT prior to the Load Profile ID change. For Load Profile ID changes that result from Annual Validation, a TDSP tariff change, a meter type change, or a CR request to change a default Load Profile ID when adequate data becomes available, the TDSP shall submit the change after said meter read has been sent to ERCOT. For any Load Profile ID assignments that are found to be in error by dispute, the effective date of change shall be retroactive to the meter read date when no profile segment assignment error existed; however, the effective date of the change shall not go any farther back than what would affect the True-Up Settlement.
+
+9.2.1 Load Profile ID Changes Initiated By Transmission and/or Distribution Service Providers
+
+9.2.1.1 Load Profile ID Change Related to a Transmission and/or Distribution Service Provider Tariff Change
+
+(1) When a Premise changes between residential and business TDSP tariffs, or when a meter type change is made for a TDSP tariff billing requirement, the TDSP is required to submit a Load Profile ID change effective on the meter read date of the TDSP tariff change.
+
+9.2.1.2 Recognized Error in Current Assignment
+
+(1) Should the TDSP become aware of an error in the assignment of a Load Profile ID, the TDSP shall notify the CR of the error as soon as practical via the appropriate Texas SET transaction. If a dispute is created, refer to Section 14.2, General Load Profile ID Dispute Resolution Guidelines.
+
+9.2.1.3 Load Profile ID Changes Resulting from Meter Type Changes
+
+(1) The following subsections outline the procedures for implementing Load Profile ID changes when a meter type change occurs. The TDSP shall submit the Load Profile ID change to ERCOT using the appropriate TX SET transaction with the effective date of the meter change once the meter installation is complete.
+
+9.2.1.3.1 Business Demand to Business Non-Demand 
+
+(1) When Demand data is no longer required by the TDSP tariffs, and the CR has no need for Demand data then the TDSP shall change the assignment of the ESI ID to BUSNODEM. If a Demand meter is present and used for billing purposes, then the TDSP shall send Demand data to ERCOT via TX SET transactions.
+
+(2) When a TDSP determines that an ESI ID assignment should be changed to BUSNODEM based on the TDSP metering tariff rules, the TDSP shall notify the CR at least 30 days prior to making the Load Profile ID change. If the CR requires Demand data to support Customer billing for the ESI ID in question, then the CR shall notify the TDSP of its requirement for Demand data. Upon CR notification, the TDSP shall not change the Demand meter and the TDSP shall continue collecting Demand data. The ESI ID shall retain its Load factor Load Profile ID assignment.
+
+(3) If it is determined that Demand data is no longer required by either the CR or the TDSP, the TDSP has the option of:
+
+  (a) Replacing the Demand meter with a non-Demand meter; or
+
+  (b) Leaving the Demand meter in place but discontinue sending any Demand data for that ESI ID to ERCOT.
+
+(4) Regardless of which Demand meter change option the TDSP pursues, the effective date of the Load Profile ID change shall coincide with the last meter read date where Demand data is sent to ERCOT.
+
+(5) If a TDSP elects to leave a Demand meter in service on an ESI ID that no longer requires a Demand meter, the Load Profile ID shall be changed to the BUSNODEM profile. The TDSP shall submit the appropriate TX SET transaction to change the Load Profile ID to ERCOT before the next regularly scheduled meter read date with an effective date of the last meter read.
+
+(6) If the TDSP elects to replace the meter, then the TDSP shall submit the appropriate TX SET transaction to ERCOT to change the Load Profile ID with an effective date of the meter change date.
+
+9.2.1.3.2 Non-Demand to Demand
+
+(1) The CR shall notify the TDSP when it requires a specific ESI ID to have a Demand meter. Under normal Demand meter installations, the TDSP has until the second regularly scheduled meter read date after receipt of the CR’s request to install the requested meter type at the Premise and submit the Load Profile ID change to ERCOT.
+
+9.2.1.4 CR Requested Change from a Default Load Profile ID 
+
+(1) After a new ESI ID has sufficient usage history, a CR may request a change from a default Load Profile ID using the ERCOT retail transaction issue resolution system. The requested Load Profile ID shall follow the guidelines for calculations contained in Appendix D, Profile Decision Tree. In the case of a Business ESI ID, the 12 months used in the calculations shall be the first 12 months of usage for the ESI ID. In the case of a residential ESI ID, the first consecutive seven months from October through April is all that is needed for the calculation of Winter Ratio. Once the Winter Ratio is known then the CR may request a change from the default Load Profile ID. After ERCOT has validated the CR’s calculated Load Profile ID change request, ERCOT will then submit the request to the appropriate TDSP. The TDSP will verify that the change is consistent with their tariff and send the appropriate TX SET transaction to complete the request.

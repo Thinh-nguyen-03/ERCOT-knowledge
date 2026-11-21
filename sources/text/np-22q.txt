@@ -1,0 +1,93 @@
+ERCOT Nodal Protocols
+
+Section 22
+
+Attachment Q: Emergency Response Service Procurement Methodology
+
+December 5, 2025
+
+ 
+
+A. Attachment Description 
+
+This attachment describes the mechanism for procuring Emergency Response Service (ERS).
+
+B. ERS Capacity Demand Curve
+
+ERCOT will develop a capacity demand curve for each ERS Time Period, and all ERS products will be procured together within the limits of that curve. ERCOT shall maximize the MW procured subject to the expenditure limit for the relevant Time Period. Each demand curve is derived from the three following parameters, which ERCOT will specify in the Request for Proposal (RFP) for ERS procurement:
+
+(1) ERS Offer Cap
+
+(2) ERS Time Period Capacity Inflection Point
+
+(3) ERS Time Period Expenditure Limit
+
+C. ERS Offer Cap
+
+The ERS offer cap establishes a maximum possible procurement price of $80/MW/hr for every ERS Time Period during the ERS program year. ERCOT will automatically reject any offers above the offer cap.
+
+D. ERS Expenditure Limit
+
+P.U.C. Substantive Rule 25.507, Electric Reliability Council of Texas (ERCOT) Emergency Response Service (ERS), restricts ERCOT’s ERS expenditures to a maximum of $75 million in a 12-month period, unless otherwise determined by the Public Utility Commission of Texas (PUCT). ERCOT will allocate the $75 million available expenditure within its ERS program year, which starts with the December through March ERS Standard Contract Term and ends with the October through November ERS Standard Contract Term. During that 12-month period, ERCOT may exceed the $75 million maximum by up to an additional $25 million for ERS contract renewals.
+
+No later than 60 days before each new ERS program year, ERCOT will make an initial allocation of the annual expenditure limit to each ERS Time Period in each ERS Standard Contract Term based on the expected risk of deploying ERS in that ERS Time Period, in accordance with the formula detailed below. ERCOT will assign a high (H), moderate (M), or low (L) risk designation to each ERS Time Period and will assign a risk-weighting factor (a value from 1 to 100 with 1 being the lowest risk value and 100 being the highest risk value) for each risk designation. ERCOT’s risk assessment will consider a number of factors, including, but not limited to, forecasted operating reserves, forecasted Load, Resource outage information, and the obligated cumulative deployment time for an ERS Contract Period as specified for the ERS Standard Contract Term in paragraph (17)(b) of Section 3.14.3.1, Emergency Response Service Procurement.
+
+Prior to issuing an RFP for an upcoming ERS Standard Contract Term, ERCOT will update the ERS Time Period Expenditure Limits for each remaining ERS Time Period in the ERS program year to reflect updated forecasts and ERS Expenditure Limits for the remaining ERS Standard Contract Terms within the same ERS program year. Any unused funds from previous ERS Standard Contract Terms in the ERS program year may be reallocated among ERS Contract Periods, including ERS contract renewals, during the same program year at ERCOT’s sole discretion. Unless the offer submission deadline for the upcoming ERS Standard Contract Term has passed, ERCOT may update the ERS Time Period Expenditure Limits and issue a revised RFP if funds originally allocated to the upcoming ERS Standard Contract Term must be reallocated to fund an ERS renewal Contract Period in the current ERS Standard Contract Term. ERCOT may revise and reissue the RFP for other reasons if the offer submission date has not yet passed. Any funds remaining at the end of an ERS program year will not be carried forward into a new ERS program year.
+
+For each ERS Time Period, the expenditure limit is calculated as follows:
+
+$${Expenditure\ Limit}_{TP} = {ERS\ Funds\ Determined\ for\ Allocation}_{Program\ Year} \times \begin{array}{r}
+Expenditure\  \\
+Limit\  \\
+Allocation\  \\
+Factor
+\end{array}_{TP}$$
+
+Where
+
+$$\begin{array}{r}
+Expenditure \\
+Limit \\
+Allocation \\
+Factor
+\end{array}_{TP} = \ \left\lbrack \begin{array}{r}
+Risk \\
+Weighting \\
+Factor
+\end{array}_{TP} \times {\#\ hrs}_{TP} \times OfferCap \right\rbrack \div \left\lfloor \sum_{TP}^{}{\begin{array}{r}
+Risk \\
+Weighting \\
+Factor
+\end{array}_{TP} \times {\#\ hrs}_{TP} \times OfferCap} \right\rfloor$$
+
+E. Capacity Inflection Point
+
+The capacity inflection point establishes the point on the capacity demand curve where capacity can only be procured at an offer price less than the ERS Time Period offer cap while respecting the expenditure limit for that ERS Time Period. The capacity inflection point for each time period is calculated as follows:
+
+CapInflectionPoint_(TP) = ExpenditureLimit_(TP) ÷ [# hrs_(TP)×OfferCap]
+
+Table A below provides hypothetical calculations of the expenditure limits and capacity inflection point for each ERS Time Period in each ERS program year.
+
+[]
+
+Table A. ERS Time Period Expenditure Limit Allocation and Capacity Inflection Point Calculations
+
+F. Clearing Price
+
+The highest offer accepted for an ERS Time Period from will set the clearing price for all ERS Resources cleared in that ERS Time Period. All ERS service types specified in the Protocols will be procured using a common ERS capacity demand curve for each ERS Time Period and the highest offer accepted for an ERS Time Period will set the clearing price for all ERS service types.
+
+If the procurement of all offers at the same price for an ERS Time Period would exceed the ERS Expenditure Limit for that ERS Time Period, ERCOT shall consider each such offer in an order established at random.
+
+If awarding an offer would not exceed the ERS Expenditure Limit that offer will be awarded for the full capacity offered.
+
+If awarding an offer for the full amount of the offered capacity would exceed the ERS Expenditure Limit, the following steps will be taken:
+
+(1) If awarding an offer for the full amount of the offered capacity would exceed the ERS Expenditure Limit, the following steps will be taken: If the Qualified Scheduling Entity (QSE) has indicated on its offer that capacity proration is not allowed for that ERS Resource, the offer will be rejected.
+
+(2) If the QSE has indicated on its offer that capacity proration is allowed for that ERS Resource, and if the capacity following proration is greater than or equal to the Proration Lower Limit specified on the offer, the offer will be accepted and the prorated capacity will be awarded.
+
+(3) If the QSE has indicated on its offer that capacity proration is allowed by the QSE for that ERS Resource, and if the prorated capacity is less than the Proration Lower Limit specified on the offer, the offer will be rejected.
+
+G. ERS Capacity Provided Through ERS Self-Provision
+
+For any ERS self-provision, ERCOT will reduce the Time Period expenditure limit for any offers to self-provide part or all of a QSE’s ERS Obligation by the clearing price for ERS.

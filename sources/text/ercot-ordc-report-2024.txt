@@ -1,0 +1,2266 @@
+PUBL~ 4
+
+~* TEX>~
+Filing Receipt
+Filing Date - 2024-10-31 04:29:51 PM
+
+Control Number - 55999
+Item Number - 75
+
+PROJECT NO. 55999
+REPORTS OF THE ELECTRIC
+RELIABILITY COUNCIL OF TEXAS,
+INC.
+
+§
+§
+§
+
+PUBLIC UTILITY COMMISSION
+
+OF TEXAS
+
+ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.' S
+OPERATING RESERVE DEMAND CURVE 2024 REPORT
+Pursuant to 16 Texas Administrative Code (TAC) § 25.505(e), Electric Reliability Council
+of Texas, Inc. (ERCOT) has completed its biennial analysis of the Operating Reserve Demand
+
+Curve ( ORDC ). The results of this analysis are included in the attached report , 2024 Biennial
+
+ERCOT Report on the Operating Reserve Demand Curve (Attachment A ). This report is also
+published to ERCOT' s website on the "Helpful Resources" page under the subheading "Additional
+Reports and Information."1
+I.
+
+BACKGROUND AND SUMMARY
+
+By November 1 of every even numbered year, ERCOT is required under 16 TAC
+
+§ 25.505(e) to publish a report analyzing the ORDC' s efficacy, utilization, related costs, and
+contribution to grid reliability in the ERCOT Region. This report is the second such analysis; the
+
+first ORDC report assessed the period of March 2018 through September 2022.2 The present
+
+report assesses the period from October 1, 2022 through September 30,2024. This reporting
+
+timeframe is characterized by three primary subperiods: October 1, 2022 through June 9,2023,
+which preceded the introduction of the new Ancillary Service ERCOT Contingency Reserve
+
+Service (ECRS), June 10, 2023 through October 31, 2023, which immediately followed the launch
+ofECRS, and November 1,2023 through September 30,2024, during which the ORDC multi-step
+price-adder floor adopted by the Public Utility Commission of Texas ("Commission") went into
+
+effect.
+As detailed in the report, the operation of the ORDC during the reporting period was
+consistent with design expectations. Although the ORDC did have a degree of impact on the
+
+1 https://www.ercot.com/news/presentations.
+2 See CY 2022 Reports of the Electric Reliability Council of Texas, Project No . 52933 , ERCOT ' s 2022
+Operating Reserve Demand Curve Report - Corrected (Oct. 31, 2022).
+
+000001
+
+ERCOT market, that impact was largely outweighed by other factors including growing demand,
+tighter grid conditions, lower natural gas prices, new solar Resource and Energy Storage Resource
+
+(ESR) capacity, and additional Ancillary Service requirements.
+As memorialized in Commission Staff's Memorandum filed in Project No. 53298 on
+
+August 3,2023, at the August 3,2023 Open Meeting, the Commission discussed and adopted a
+multi-step price-adder floor for the ORDC as a bridge mechanism to help to incentivize existing
+dispatchable generation to remain in the market until the Performance Credit Mechanism (PCM)
+is implemented. ERCOT implemented the multi-step price floor beginning on November 1,2023.
+Pursuant to Commission Staff's Memorandum, ERCOT is required to provide certain metrics and
+
+data related to the ORDC price-adder floors in the ORDC report.3 Such analysis ofthe price-adder
+
+floors is included in Section 5 of the attached report. Note that during intervals when the price-
+
+adder floors were in effect, a significant majority of the revenues went to dispatchable generation,
+
+as expected; approximately 85% of the generation output during those intervals was from
+dispatchable Resources.
+II.
+
+POTENTIAL FUTURE RULEMAKING
+
+As ERCOT recently announced, the Real-Time Co-optimization Plus Batteries (RTC+B)
+initiative has a target launch date of December 5,2025.4 With the implementation of RTC+B, the
+
+ERCOT market will adopt individual Ancillary Service Demand Curves (ASDCs) which will
+make the ORDC obsolete.
+
+If the Commission desires a biennial analysis of the ASDCs, a
+
+rulemaking to amend or replace the current ORDC reporting requirement in 16 TAC § 25.505(e)
+will be necessary. Under the current rule, ERCOT' s final biennial ORDC report would be required
+
+by November 1, 2026; that report would analyze the ORDC from the end of the current reporting
+period, October 1, 2024, through the implementation date of the RTC+B initiative.
+
+If the
+
+Commission opens a rulemaking to consider adopting an ASDC reporting requirement, the timing
+of any deadline by which ERCOT must file an ASDC report could be discussed in order to ensure
+that the desired number of years of ASDC data have transpired for inclusion in such a report. For
+
+~ See Wholesale Electric Market Design Implementation, Project No. 5319&, Commission Staff
+Memorandum at 1 (Aug. 3,2023).
+4 Press Release: ERCOT to Implement Key Market Design Change: Real-Time Co-optimization (RTC),
+ERCOT.com (Sept. 13, 2024), available on ERCOT's website at: https://www.ercot.com/news/release/09132024-
+
+ercot-to-implement.
+
+2 of 3
+000002
+
+instance, if an ASDC report is required by November 1, 2026, then that report will evaluate less
+than one year of ASDC data. ERCOT notes that any such rulemaking is not urgent and could be
+taken up in the first half of 2026 after the implementation of RTC+B.
+
+III.
+
+(JONCLUSION
+
+ERCOT appreciates the opportunity to present this second biennial analysis of the ORDC
+and stands ready to provide the Commission any additional information requested. Ryan King,
+ERCOT' s Manager of Market Design, can be available at a Commission Open Meeting to answer
+
+any questions.
+
+Dated: October 31,2024
+Respectfully submitted,
+
+/s/ Matthew A. Arth
+Chad V. Seely
+Senior Vice President and General Counsel
+Texas Bar No. 24037466
+(512) 225-7035 (Phone)
+chad.seely@ercot. com
+Nathan Bigbee
+Deputy General Counsel
+Texas Bar No. 24036224
+(512) 225-7093 (Phone)
+
+nathan.bigbee@ercot. com
+Matthew A. Anh
+Regulatory Counsel
+Texas Bar No. 24090806
+(512) 275-7435 (Phone)
+matthew. arth@ercot. com
+8000 Metropolis, Bldg. E, Ste. 100
+Austin, Texas 78744
+(512) 225-7079 (Fax)
+
+ATTORNEYS FOR ELECTRIC
+RELIABILITY COUNCIL OF TEXAS, INC.
+
+3 of 3
+000003
+
+Attachment A
+
+ERCOT Public
+
+ercol[ -s
+
+2024 Baennla! ERCOT Report on the Operatang
+Reserve Demand Curve
+November 1, 2024
+
+000004
+
+2024 Biennial ERCOT Report on the ORDC
+
+Tab~e of Contents
+Table of Contents........................................................................................................................i
+
+Acronyms...................................................................................................................................ii
+Executive Summary.................................................................................................................. 1
+1.
+
+2.
+
+Background and Key Events..............................................................................................7
+1.1.
+
+Operating Reserve Demand Curve (ORDC) Theory...................................................7
+
+1.2.
+
+Initial ERCOT Implementation......................................................................................7
+
+1.3.
+
+Subsequent ERCOT ORDC Adjustments....................................................................9
+
+ORDC Impacton Reserves..............................................................................................11
+2.1.
+
+RTORPA Impact on RTOLCAP.................................................................................. 11
+
+2.2.
+
+RTORPA Impact on Spinning and Non-Spinning Reserves...................................... 13
+
+2.3.
+
+RTORPA Impact on Self-Commitmentlncentives.....................................................14
+
+2.4.
+
+ORDC Impact on Physical Responsive Capability (PRC) ......................................... 16
+
+3.
+
+ORDC Impacton Prices...................................................................................................19
+
+4.
+
+ORDC Impacton Peaker Net Margin (PNM)....................................................................21
+
+5.
+
+Impact of ORDC Price Floor.............................................................................................24
+
+6.
+
+Conclusion .......................................................................................................................28
+
+© 2024 ERCOT
+All rights reserved.
+
+000005
+
+2024 Biennial ERCOT Report on the ORDC
+
+Acronyms
+ASDC
+DAM
+DRRS
+ECRS
+EEA
+EOC
+ERCOT
+ERS
+HCAP
+HSL
+LCAP
+LOLP
+MCL
+NFRC
+Non-Spin
+ORDC
+PBMCL
+PNM
+PRC
+PUCT
+QSE
+QSGR
+RTC+B
+RTM
+RTOFFCAP
+RTOFFPA
+RTOLCAP
+RTORDPA
+RTORPA
+RUC
+SWCAP
+VOLL
+
+© 2024 ERCOT
+All rights reserved.
+
+000006
+
+Ancillary Service Demand Curve
+Day-Ahead Market
+Dispatchable Reliability Reserve Service
+ERCOT Contingency Reserve Service
+Energy Emergency Alert
+Energy Offer Curve
+Electric Reliability Council of Texas
+Emergency Responsive Service
+High System-Wide Offer Cap
+High Sustained Limit
+Low System-Wide Offer Cap
+Loss of Load Probability
+Minimum Contingency Level
+Non-Frequency Responsive Capacity
+Non-Spinning Reserve
+Operating Reserve Demand Curve
+Probability of Reserves Falling Below the Minimum Contingency Level
+Peaker Net Margin
+Physical Responsive Capability
+Public Utility Commission of Texas
+Qualified Scheduling Entity
+Quick-Start Generation Resources
+Real-Time Co-optimization Plus Batteries
+Real-Time Market
+Real-Time Off-Line Capacity
+Real-Time Off-Line Reserve Price Adder
+Real-Time On-Line Capacity
+Real-Time On-Line Reliability Deployment Price Adder
+Real-Time On-Line Reserve Price Adder
+Reliability Unit Commitment
+System-Wide Offer Cap
+Value of Lost Load
+
+11
+
+2024 Biennial ERCOT Report on the ORDC
+
+Executive Summary
+ERCOT provides this biennial report on the Operating Reserve Demand Curve (ORDC) to the Public
+Utility Commission of Texas (PUCT) in accordance with 16 Texas Administrative Code (TAC)
+
+§ 25.505(e), which requires:
+"Operating Reserve Demand Curve (ORDC) repott. ERCOT must publish, by
+November 1 of every even numbered year, a report analyzing the efficacy,
+utilization, related costs, and contribution of the ORDC to grid reliability in the
+ERCOT power region."
+This report analyzes data related to the ORDC beginning October 1,2022, after the reporting period
+from the 2022 ORDC Report concluded, through September 30,2024. This report highlights significant
+developments and observations with regards to the ERCOT market design, including the increase and
+change in the composition of Ancillary Service requirements beginning with the introduction of the
+ERCOT Contingency Reserve Service (ECRS) in June 2023 and an assessment of the introduction
+of ORDC price-adder floors for On-Line reserves in November 2023. The report also includes an
+explanation of how the current ORDC will be replaced by Ancillary Service Demand Curves (ASDCs)
+upon the implementation of Real-Time Co-optimization plus Batteries (RTC+B) expected in late 2025.
+To effectively assess ORDC impacts, this report focuses its analysis on three primary study subperiods
+chosen to align with changes to the ORDC and/or market design:
+1.
+
+October 1,2022 through June 9,2023 to evaluate the period priorto the introduction of ECRS
+and the ORDC price-adder floors;
+2. June 10, 2023 through October 31, 2023 to evaluate the period immediately following ECRS
+
+launch; and
+3.
+
+November 1, 2023 through September 30,2024 to evaluate the period when both ECRS and
+the ORDC price-adder floors were in place.
+
+Key study results:
+The key results summarized below describe this report's analysis of the ORDC's efficacy, utilization,
+
+related costs, and contribution to grid reliability during the reporting period.
+The performance of the ORDC during the reporting period was in line with expectations based on its
+current design and, as addressed further below, ERCOT does not recommend any changes to the
+ORDC at this time. The parameters of the ORDC's design were relatively stable during the current
+
+reporting period compared to the more fundamental changes that occurred during the reporting period
+assessed in the 2022 ORDC Report,1 with the only recent enhancements being the implementation of
+the multi-step price-adder floor. During the current reporting period, factors beyond the ORDC had a
+greater impact on the ERCOT market, including growing demand, tighter conditions, lower natural gas
+
+1 CY 2022 Repo/ts ofthe Electric Re/iabi/it Counci/ of Texas, Project No. 52933, ERCOT's 2022 Operating Reserve Demand Curve
+Report - Corrected (Oct. 31, 2022).
+
+© 2024 ERCOT
+All rights reserved.
+
+000007
+
+1
+
+2024 Biennial ERCOT Report on the ORDC
+
+prices, new solar and Energy Storage Resource (ESR) capacity, and additional Ancillary Service
+
+requirements.
+•
+
+•
+
+Summer 2023 saw several record-breaking increases in demand driven by economic growth
+and sustained drier, hotter temperatures. Summer 2023 had 49 days with a peak demand
+greater than 80 gigawatts (GV\0.
+Higherobserved Hub average prices and lower natural gas prices led to more self-commitment
+based on expected prices and significantly reduced the need for Reliability Unit Commitment
+(RUC) compared to previous years. The table below illustrates the decrease in RUC since
+
+2022.
+• :% i DIRnrg. a•1•.: [*IITiih
+
+·,il El,yEMZNITEEERf~IF~lo,
+
+2022
+
+7,922
+
+2,329,709
+
+2023
+
+2,500
+
+523,247
+
+2024 (Jan-Sep)
+
+1,213
+
+367,373
+
+•
+
+•
+
+The ERCOT Contingency Reserve Service (ECRS) was introduced on June 10,2023. ECRS
+is a service which is predominantly provided by On-Line Resources.3 Having an ECRS Supply
+Responsibility provides a strong incentive to a Qualified Scheduling Entity (QSE) to have
+Resources On-Line. This incentive further contributed to increased levels of self-commitment
+based on expected future prices and the risk of not running on peak summer days. This
+behavior impacted the composition of On-Line and Off-Line reserves with an increase in the
+quantity of On-Line reserves.4
+In terms of the ORDC's utilization, higher overall reserve levels and the transition from some
+Off-Line reserves to On-Line reserves contributed to a reduction in the frequency and
+magnitude of ORDC price adders, which are tied to scarcity. Real-Time On-Line Reserve
+Price Adders were observed at higher levels of Physical Responsive Capability (PRC)
+stemming from the change in the composition of reserves. The ORDC price adders were a
+
+smaller component of system-wide prices overall in 2023 and 2024 compared to the previous
+study period assessed in the 2022 ORDC Report.
+
+2 The calculation of MWh of Resource capacity committed through the RUC process used the High Sustained Limits (HSLs) of the
+committed Resources and the amount of time over which the Resource was committed.
+3 In addition to online resources, Quick-Start Generation Resources, which can come online within 10 minutes in response to a
+Security-Constrained Economic Dispatch (SCED) dispatch instruction, are also eligible to provide ECRS.
+
+4 Additional solar Generation Resource and ESR capacity also contributed to the On-Line reserve pool.
+
+© 2024 ERCOT
+All rights reserved.
+
+000008
+
+2
+
+2024 Biennial ERCOT Report on the ORDC
+
+On November 1, 2023, ERCOT introduced ORDC Real-Time On-Line Reserve Price Adder (RTORPA)
+floors as an interim pricing support mechanism approved by the PUC.5 The multi-step price-adder
+
+floor is meant to incent existing dispatchable generation to remain in the market and to reduce reliance
+on RUC. The price-adder floors, along with the increase of the Minimum Contingency Level (MCL)
+from 2,000 MW to 3,000 MW implemented on January 1, 2022, was intended to provide an additional
+
+price signal to incent self-commitment and is aligned with the desired reserve levels associated with
+ERCOT's operations posture post Winter Storm Uri.
+e
+
+Price-adder floors are used in the calculation of ORDC price adders when the Real-Time OnLine Capacity (RTOLCAP) falls below certain On-Line reserve thresholds. Specifically:
+o A price floor of $20/MWh will be applied to the RTORPA when the calculated
+RTOLCAP is at or less than 6,500 MW.
+o A price floor of $10/MWh will be applied to the calculation of the RTORPA when the
+calculated RTOLCAP is at or less than 7,000 MW but greater than 6,500 MW.
+
+e
+
+To date, the incidence of price-adder floors impacting prices has been limited due, in part, to
+the higher levels of On-Line Reserves than was the case during the 2022 ORDC Report study
+period. However, during the intervals in which the price-adder floors were in effect,
+approximately 85% of generation output was from dispatchable Resources, as shown in the
+graphic below. This indicates that the floors are directionally helping to support existing
+dispatchable generation in the market. With the price-adder floors providing incremental value
+toward their intended objectives, and with the replacement of the ORDC with ASDCs planned
+for December 2025, ERCOT is not recommending any changes to, or the elimination of, the
+
+floors at this time.
+
+5 See VWio/esa/e Electric Market Design Implementation, Project No. 53298, Commission Staff Memorandum (Aug. 3, 2023)
+(Commission Staffs Memo memorialized the Commission's price floor discussion and decision at the August 3,2023 Open Meeting).
+
+© 2024 ERCOT
+All rights reserved.
+
+000009
+
+3
+
+2024 Biennial ERCOT Report on the ORDC
+
+I natural gas
+I coal and Iignite
+
+natural gas
+
+I nuclear
+
+I wind
+
+solar
+
+wind
+
+power storage
+coal and Iignite
+
+nuclear
+
+Contribution of energy output by fuel type when ORDC price floor was in effect
+
+In terms of the ORDC's efficacy, the operation of the ORDC in this reporting period was consistent
+with current design expectations. As noted, ORDC design was relatively stable during this period and
+other non-ORDC factors and dynamics were the primary drivers of price impacts and market
+participant behavior. The ORDC continues to be an important contributor to grid reliability by
+
+incentivizing additional reserves when they are most needed, but it is not the only tool to support these
+goals. In consultation with the PUCT, ERCOT is working with stakeholders on the identification and
+
+development of additional mechanisms to help address future reliability needs, including the
+Dispatchable Reliability Reserve Service (DRRS) and an evaluation of the Performance Credit
+Mechanism (PCM). These mechanisms can play a complementary role with the ORDC, or with the
+ASDCs after RTC+B is implemented, to help support reliable grid operations, efficient market
+
+outcomes, and resource adequacy.
+Other observations:
+•
+
+•
+
+Compared to the 2022 ORDC Report, prices were higher at levels of higher Physical
+Responsive Capability (PRC) due to the factors noted above. The proportion of intervals with
+low PRC (i.e., less than 5,500 MV\0 was lower compared to the 2022 ORDC Report.
+The time-weighted average RTORPA decreased in this reporting period. The following table
+illustrates the time-weighted RTORPA as well as a percentage of the all-in price.
+
+© 2024 ERCOT
+All rights reserved.
+
+000010
+
+4
+
+2024 Biennial ERCOT Report on the ORDC
+
+2022
+
+$5.18/MWh
+
+7.97%
+
+2023
+
+$0.92/MWh
+
+1.81 %
+
+2024 (Jan- Sep)
+
+$0.23/MWh
+
+1.81 %
+
+•
+
+In terms of ORDC-related costs, the RTORPA contributions to Peaker Net Margin (PNM)
+accumulations in 2023 and 2024, through September 2024, were lower compared to 2022.
+The table below compares RTPORA contributions to PNM since 2022. In general, the
+RTORPA played a more modest role in contributing to system-wide prices compared to the
+
+other factors noted previously.
+
+2022
+
+27.24%
+
+2023
+
+3.02%
+
+2024 (Jan- Sep)
+
+1.99%
+
+Implementation of RTC+B Program:
+•
+
+With the implementation of the RTC+B Program expected in December 2025, the value of
+reserves will be determined by a set of ASDCs whose shape and magnitude will be designed
+to replicate, as closely as possible, historical pricing outcomes of the ORDC, particularly during
+
+times of reserve scarcity or near-scarcity.6
+•
+
+•
+
+In consultation with the Real-Time Co-optimization Task Force (RTCTF), ASDCs were defined
+as slices of reserves under the ORDC curve, with the highest-valued Ancillary Services being
+Regulation-Up Service (Reg-Up), followed by Responsive Reserve Service (RRS), followed
+by ERCOT Contingency Reserve Service (ECRS), and lastly Non-Spinning Reserve Service
+(Non-Spin).
+The graphic below illustrates the hierarchyof the individual ASDCs. The graphicalso illustrates
+how scarcity pricing, and the value of reserves are set by individual ASDCs as the quantity of
+
+reserves diminishes.
+
+6 Further detailed information and the methodology to determine ASDCs is included in the presentation to the RTC+B Task Force on
+February 21, 2024, available on ERCOT's website at: https://www.ercot.com/files/docs/2024/02/13/ASDC%20Overview%20%20RTCBTF%20-%2002212024.pptx.
+
+© 2024 ERCOT
+All rights reserved.
+
+000011
+
+5
+
+2024 Biennial ERCOT Report on the ORDC
+
+5000 E 4000 -
+
+if 3000 -
+
+a 2000 C,
+0
+
+1000 0
+
+I
+
+1000
+
+2000
+
+I Reg-Up
+
+3000
+I RRS
+
+40100
+
+5000
+
+MW
+
+I ECRS
+
+6000
+
+70 00
+
+8000
+
+illl Non-Spin
+
+5000 -
+
+E 4000 -
+
+B
+
+@ 3000
+0
+
+N'
+2000 0
+
+E 1000 -
+
+\\N-
+
+o0
+
+1
+
+1000
+
+- Reg-Up
+
+h
+
+1-
+
+2000
+
+- RRS
+
+1
+
+3000
+
+4000
+
+- ECRS
+
+- Non-Spin
+
+MW
+
+5000
+
+© 2024 ERCOT
+All rights reserved.
+
+000012
+
+6
+
+2024 Biennial ERCOT Report on the ORDC
+
+1. Background and Key Events
+1.1. Operating Reserve Demand Curve (ORDC) Theory
+The ORDC is a market-based construct for valuing operating reserves according to their scarcity. As
+initially described by Dr. William Hogan in Public Utility Commission of Texas (PUCT) Project No.
+40000, the ORDC is based on the following principles:
+"The key connection [for the ORDC] is with the value of lost load (VOLL) and the
+probability that the load will be curtailed. Whenever there is involuntary load
+
+curtailment and the system has just the minimum of contingency operating
+reserves, then prices should rise to the VOLL. At any other level of operating
+
+reserves, set to protect the system for possible events in the immediate future, the
+value of an increment of operating reserves should reflect the probability of loss of
+load.„7
+
+Due to net load forecast error and other factors, there is uncertainty in the level of operating reserves
+that will be available in the near-term operational timeframe of the next 30 minutes to one hour.
+Therefore, there is a probability, referred to as the Loss of Load Probability (LOLP), that operating
+reserves will fall to the level that would require involuntary load curtailment within that timeframe. Thus,
+when there is involuntary load curtailment, the ORDC should theoretically rise to VOLL. At operating
+reserve levels not requiring firm load shed, the ORDC should theoretically reflect the LOLP multiplied
+by VOLL such that as operating reserves increase, the LOLP decreases and the ORDC eventually
+
+declines to zero.
+1.2. Initial ERCOT Implementation
+The ERCOT ORDC is fully defined in the Other Binding Document (OBD) titled "Methodology for
+Implementing ORDC to Calculate Real-Time Reserve Price Adder."8 This section provides a brief
+summary of the complete description found in that OBD.
+ERCOT's initial ORDC implementation introduced separate price adders for On-Line and Off-Line
+reserve categories to the five-minute Real-Time Market (RTM) in summer 2014. The Real-Time OnLine Reserve Price Adder (RTORPA) is associated with Real-Time On-Line Capacity (RTOLCAP),
+which encompasses all reserves that can be made available to the system within 30 minutes. The
+Real-Time Off-Line Reserve Price Adder (RTOFFPA) is associated with Real-Time Off-Line Capacity
+(RTOFFCAP), which refers to reserves that require between 30 minutes and one hour to be made
+available. Both adders are calculated in terms of VOLL and the probability of reserves falling below
+the minimum contingency level (PBMCL), where VOLL is equal to the System-Wide Offer Cap
+(SWCAP), and PBMCL is derived from LOLP and the Minimum Contingency Level (MCL).
+
+~ Commission Proceeding to Ensure Resource Adequacy in Texas, Project No . 40000 , Second Supplemental Comments of GDF
+Suez Energy Resources NA , Inc . at bates 6 ( Jan . 22 , 2013 ) ( see attachment I mproved Electricity Scarcity Pricing and Operating
+Reserves, William W. Hogan , Ph . D .).
+8 Available on ERCOT's website at: https://www.ercot.com/mktrules/obd/obdlist.
+
+© 2024 ERCOT
+All rights reserved.
+
+000013
+
+7
+
+2024 Biennial ERCOT Report on the ORDC
+
+PBMCL is a shifted version of ERCOT's empirically-determined LOLP normal distribution. LOLP,
+which represents the probability of a Real-Time reserve shortfall, is determined by comparing the
+Hour-Ahead forecasted level of reserves to the level of reserves realized in Real-Time. The gap
+
+between these values, termed the reserve error, is assumed to follow a normal distribution
+characterized by a mean (Mu or p) and a standard deviation (Sigma or a). Once per season, ERCOT
+determines the LOLP distribution by compiling empirical reserve error data going back to the start of
+the Nodal Market and fitting this data to a normal distribution. The LOLP curve is then shifted by the
+MCL to obtain PBMCL. Note that while the MCL described above in Section 1.1 matches the reserve
+level at which ERCOT will begin instructing firm load shed, ERCOT's MCL was initially set to 2,000
+MW to address concerns related to long-term resource adequacy and to ensure that prices were
+sufficiently strong when the ERCOT system went into declared emergency conditions but not yet
+requesting firm load shed. As discussed in the 2022 ORDC Report, this value was increased to 3,000
+MW.1° See Figure below for an illustration of RTORPA in terms of LOLP, MCL, PBMCL, and VOLL.
+
+5000
+
+4000
+
+0.8
+.
+
+IEZ
+
+B
+
+e
+-1
+
+0.6
+
+3000 0
+
+E
+
+E
+
+=
+
+e
+
+-1
+
+0
+
+0.
+
+2000 ~
+
+0.4
+
+0.2
+
+0.0
+
+-0- Loss of Load Probability (LOLP)
+--- Minimum Contingency Level (MCL)
+Probability of Reserves falling below
+Minimum Contingency Level (PBMCL)
+····· Value of Lost Load (VOLL)
+
+-3000
+
+-1500
+
+1000
+
+O
+
+0
+1500
+3000
+4500
+6000
+Real-Time On-Line Reserve Capacity (RTOLCAP, MW)
+
+2
+
+7500
+
+1
+
+7
+
+0
+
+9000
+
+Figure 1: RTORPA, LOLP, and PBMCL. Reserve error distribution Mu and Sigma are set to their most recent values,
+and RTOFFCAP is assumed to be 0 MW for illustration purposes. Note that multiplying the PBMCL curve by VOLL
+(currently equal to SWCAP at $5,000/MWh) yields the ORDC. RTORPA values may therefore be read from the right
+axis, assuming that System Lambda is zero.
+
+9 The Nodal Market began on December 1, 2010.
+
+10 Changes to the HCAP and MCL were put into effect on January 1, 2022.
+
+© 2024 ERCOT
+All rights reserved.
+
+000014
+
+8
+
+2024 Biennial ERCOT Report on the ORDC
+
+The value of a particular Resource's reserve contribution depends on how quickly it can be made
+available to the system. The Mu and Sigma parameters of PBMCL are adjusted between RTORPA
+and RTOFFPA to reflect this. Figure illustrates the difference between the two adders as a function
+of reserve uncertainty over the next operating hour. Total reserve uncertainty is assumed to be split
+evenly between two 30-minute intervals. During the second interval, both reserve categories
+(RTOLCAP and RTOFFCAP) are available. RTOFFPA is therefore calculated using the full Mu and
+Sigma and is paid to reserves that fall into the RTOFFCAP category. During the first 30-minute interval
+of the next operating hour, however, only RTOLCAP is available. RTORPA therefore has an extra
+term, in addition to the RTOFFPA term, to compensate faster-acting reserves fortheiradditional value.
+The extra term is calculated using a shortened PBMCL curve that captures reserve uncertainty over
+the first half of the upcoming operating hour, with Mu scaled by one-half and Sigma scaled by 0.707.
+1.0 Interval Il
+
+E
+
+8
+
+C
+
+D
+
+GIl)
+
+®0.5
+[E
+Intervall
+
+B
+C
+
+0
+
+Reserves Availability:
+
+Reserves Availability:
+
+RTOLCAP only
+
+RTOLCAP + RTOFFCAP
+
+Payment:
+RTORPA (includes RTOFFPA)
+
+Payment:
+RTOFFPA only
+
+LL
+
+0.0
+
+0.0
+
+0.5
+
+1.0
+
+Time (hr)
+
+Figure 2: ERCOT ORDC perspective on reserve uncertainty over the next operating hour. During Interval I (the first 30
+minutes), only RTOLCAP is available, making it more valuable than RTOFFCAP.
+
+There are two additional relevant details. First, Protocols limit the sum of System Lambda and all price
+adders to SWCAP. Thus, RTORPA can only reach SWCAP if System Lambda is zero. Second, there
+is one additional price adder called the Real-Time On-Line Reliability Deployment Price Adder
+(RTORDPA). This adder, which is unrelated to the ORDC and calculated after System Lambda and
+RTORPA are determined, accounts for the price impacts of Protocol-defined out-of-market actions,
+such as Reliability Unit Commitment (RUC) and Emergency Response Service (ERS) deployments.
+
+1.3. Subsequent ERCOT ORDC Adjustments
+There have been significant administrative changes to ERCOT ORDC parameters since the initial
+implementation of ORDC in June 2014, as illustrated below. In March 2019, the Mu, the mean value
+of the LOLP distribution, was administratively shifted upward by 0.25 times Sigma, then by an
+additional 0.25 times Sigma in March 2020. VOLL (which is set equal to SWCAP) changed twice, from
+the High System-Wide Offer Cap (HCAP) of $9,000/MWh down to the $2,000/MWh Low System-Wide
+© 2024 ERCOT
+All rights reserved.
+
+000015
+
+9
+
+2024 Biennial ERCOT Report on the ORDC
+
+Offer Cap (LCAP) following Winter Storm Uri, then back up to the new HCAP of $5,000/MWh on
+January 1, 2022. Finally, the MCL was increased from 2,000 MW to 3,000 MW on January 1, 2022.
+The current study period included one change to the ORDC with the introduction on November 1,
+2023, of a multi-step price-adder floor to be used in the calculation of RTORPA when the RTOLCAP
+falls below certain On-Line reserve thresholds.
+o
+o
+
+A price floor of $20/MWh is now applied to the RTORPA when the calculated
+RTOLCAP is at or less than 6,500 MW.
+A price floor of $10/MWh is applied to the calculation of the RTORPA when the
+calculated RTOLCAP is at or less than 7,000 MW but greater than 6,500 MW.
+
+Another notable change during the current study period was ERCOT's introduction of the ERCOT
+Contingency Reserve Service (ECRS) on June 10, 2023, as a new Ancillary Service to help restore
+and maintain the frequency of the ERCOT System and to help manage net-load ramping.
+To help isolate the effects of these changes, the analysis presented in this report compares three
+subperiods (which are shaded in Figure ) selected to highlight three administratively distinct chapters
+of ORDC history, along with the previous study subperiods from the 2022 ORDC Report.
+
+p: vu )LL ($/MWh)
+
+9000 .
+
+1
+
+•
+
+3000
+
+R
+
+7500
+
+2500 E
+
+6000 A
+
+E
+MOO F
+
+co
+
+0
+
+O
+
+Dystt:[Ti-vviue ulitjf
+
+3 4500
+
+1500 5
+
+I..C...........
+3000
+
+- 1000 g
+-O
+
+1500
+
+-i
+0
+
+0
+
+0
+Mar Jun Sep Dec Mar Jun Sep Dec Mar Jun Sep Dec Mar Jun Sep Dec Mar Jun Sep Dec Mar Jun Sep Dec Mar Jun Sep
+2018
+2019
+2020
+2021
+2022
+2023
+2024
+-- System-Wide Offer Cap: VOLL
+-+- ORDC Mu
+--- ORDC Sigma
+I 2022 Study Periods
+~ First Study Period
+-- ORDC Minimum Contingency Level
+- Second Study Period
+Illj Third Study Period
+
+Figure 3: Timeline of relevant ORDC parameters. The SWCAP price is plotted against the left vertical axis, while the
+MW values (minimum contingency level, ORDC Mu, and ORDC Sigma) are plotted against the right axis. The current
+
+three study subperiods considered in this report are shaded in different colors and the three study subperiods from the
+2022 ORDC Report are all shaded in the same color. (Note that prior to 2019, ORDC Mu and Sigma were calculated
+by first partitioning reserve error data into six blocks according to time of day; there are therefore six Mu and Sigma
+values for each 201 8 season. The 201 8 Mu and Sigma values shown in this figure are averages taken across the six
+
+time-of-day values for each 201 8 season.)
+
+© 2024 ERCOT
+All rights reserved.
+
+000016
+
+10
+
+2024 Biennial ERCOT Report on the ORDC
+
+The first study subperiod extends from the beginning of October 2022 through June 9,2023. This
+period captures the ORDC priorto the introduction of ECRS and ORDC price-adder floors respectively.
+The second study subperiod covers June 10,2023, to the end of October 2023 and captures the
+period after the introduction of ECRS as well as the impact of higher demand and summer
+
+temperatures.
+The third study subperiod covers the beginning of November 2023 to the end of September 2024,
+which is the period under which the ORDC price-adder floors have been in place.
+To summarize: the three study subperiods described in this section and shown in Figure were selected
+to facilitate comparison between three administratively distinct chapters in ORDC history as well as
+significant market design changes. Some of the results from the 2022 ORDC Report study period have
+been included as well to provide additional context to compare ORDC impacts in previous years.
+
+2. ORDC Impact on Reserves
+2.1. RTORPA Impact on RTOLCAP
+To assess ORDC impacts on Real-Time system-wide prices and reserves, we can subtract the
+RTORDPA from the widely used system-wide price signal "System Lambda plus Price Adders" to
+obtain "System Lambda plus RTORPA." Figure illustrates the relationship between this ORDCinfluenced system-wide price and RTOLCAP, with one subplot per study subperiod. In each subplot,
+System Lambda plus RTORPA is plotted against RTOLCAP. The shaded area represents all possible
+values RTORPA could assume independently: the upper bound represents the case where
+RTOFFCAP is zero (and the RTOFFPA component of RTORPA is therefore at its maximum value),
+while the lower curve is created by setting RTOFFCAP arbitrarily large resulting in an RTOFFPA
+component of $0/MWh. Note that RTORPA prevents the sum of System Lambda and RTORPA from
+falling below the lower bound of each shaded region. Moving from left to right, the graphs show that
+this lower bound has increased in the second and third study subperiods. Beginning in the second
+study subperiod, System Lambda plus RTORPA was higher at higher reserve levels. This can be
+attributed both to an increase in Ancillary Service requirements and, particularly in 2023, the frequency
+
+of higher demand from extreme heat days during this period leading to tighter conditions and the
+dispatch of higher-cost Resources. The charts illustrate a continued relationship between the price
+signal and the level of On-Line Reserves.
+
+© 2024 ERCOT
+All rights reserved.
+
+000017
+
+11
+
+2024 Biennial ERCOT Report on the ORDC
+
+10/1/22 - 6/9/23: 6,048 Hours
+
+6/10/23 - 10/31/23. 3,456 Hours
+
+11/1/23 - 9/30/24.8,040 Hours
+
+5000
+
+' 3000
+
+2000
+
+......:Y ..:'.r.. -..
+
+1000
+
+~
+
+'·,-/T,:.·A +t e
+:Ail'
+
+9 Gw 3 GW 4 GW 5 GW 6 GW---yEW--B-Gw
+Real-Time On-Line Capacity (RTOLCAP)
+
+2 GW 3 GW 4 GW 5 GW 6 GW 7 GW i~&W 2 GW 3 GW 4 GW 5 GW 6 GW 7 GW 8 GW
+Real-Time On-Line Capacity (RTOLCAP)
+
+Real-Time On-Line Capacity (RTOLCAP)
+
+Figure 4a: System Lambda plus Price Adders versus RTOLCAP during the current three study subperiods (from left
+to right). The shaded area represents all possible RTORPA values: its lower bound reflects the scenario where
+RTOFFCAP is arbitrarily large, while its upper bound represents RTOFFCAP = 0 MW.
+3/1/18 - 2/28/19: 8,760 Hours
+
+3/1/20 - 3/3/21: 8,725 Hours
+
+1/1/22 - 9/30/22: 6,551 Hours
+
+9000
+8000
+7000
+< 6000
+0
+
+~ 5000
+U>
+J
+
+I 4000 i
+
+L
+
+-~ 3000 ~
+u, 2000 -~ :..
+
+1000
+
+2 GW
+3 GW
+4 GW
+5 GW
+6 GW
+Real-Time On-Line Capacity (RTOLCAP)
+
+2 GW
+3 GW
+4 GW
+5 GW
+6 GW
+Real-Time On-Line Capacity (RTOLCAP)
+
+2 GW
+3 GW
+4 GW
+5 GW
+6 GW
+Real-Time On-Line Capacity (RTOLCAP)
+
+Figure 4b: System Lambda plus Price Adders versus RTOLCAP during three study subperiods from the 2022 ORDC
+Report (from left to right). The shaded area represents all possible RTORPA values: its lower bound reflects the
+scenario where RTOFFCAP is arbitrarily large, while its upper bound represents RTOFFCAP = 0 MW.
+
+© 2024 ERCOT
+All rights reserved.
+
+000018
+
+12
+
+2024 Biennial ERCOT Report on the ORDC
+
+2.2. RTORPA Impact on Spinning and Non-Spinning Reserves
+While RTORPA is only paid to On-Line reserves (i.e., the RTOLCAP category), it is useful to consider
+its impact on total On-Line and Off-Line reserves. Total reserves may be expressed as RTOLCAP plus
+RTOFFCAP; this sum is designated as RsNS within the ORDC methodology. Figure 5a and Figure 5b
+illustrate the sensitivity of both On-Line (Rs) and Off-Line reserves (RsNs - Rs) to RTORPA in the
+$0.01/MWh to $31.50/MWh range for each of the three study subperiods. For each study subperiod,
+SCED intervals were divided into RTORPA bins $2/MWh in width, and the respective average values
+
+were calculated for each bin. The introduction of ECRS led to an increase in On-Line reserve
+requirements. Figures 5a and 5b help illustrate the impact that this change had on RTORPA prices
+observed at levels of On-Line and Off-Line reserves. Figure a illustrates the rightward shift orincrease
+in On-Line reserve levels at the same RTORPA prices. Figure b illustrates a Ieftward shift or decrease
+in the quantity of Off-Line reserve levels at the same RTORPA prices. To understand this
+phenomenon, it is important to rememberthat the quantity of Off-Line Reserves is a component of the
+calculation of RTORPA.11 In other words, the increase in On-Line Reserves along with the decrease
+in Off-Line Reserves helps to explain the RTORPA being observed at higher reserve levels. The
+impact of the ORDC price-adder floors in the third study subperiod is illustrated by noticeable variances
+
+at the floor values of $10 and $20, respectively.
+
+30
+
+SCED Intervals with RTORPA € ($0.01/MWh, $31-50/MWh)
+
+-*- 10/1/22 - 6/9/23: 653 Hours
+-•- 6/10/23 - 10/31/23: 256 Hours
+- 11/1/23-8/31/24:112 Hours
+
+25
+0
+
+20
+
+15
+
+mi
+~I A
+
+10
+
+5
+
+0
+OGW
+
+2 GW
+
+4 GW
+
+6 GW
+
+8 GW
+
+10 GW
+
+12 GW
+
+14 GW
+
+Bin Average RS
+
+Figure 5a: RTORPA in $2/MWh bins versus bin average Spinning (Rs) during the current three study subperiods
+
+11 Note that the Real-Time Off-Line Reserve Price Adder (RTOFFPA) is a component in the final determination of the RTORPA as the
+Real-Time On-Line Reserve Capacity (RTOLCAP) contributes to preventing load shedding in both halves of the hour.
+
+© 2024 ERCOT
+All rights reserved.
+
+000019
+
+13
+
+2024 Biennial ERCOT Report on the ORDC
+
+SCED Intervals with RTORPA € ($0.01/MWh, $31.50/MWh)
+-e- 10/1/22 - 6/9/23: 653 Hours
+-m- 6/10/23 - 10/31/23: 256 Hours
+
+--&- 11/1/23 -8/31/24: 112 Hours
+
+25
+
+20
+
+¤
+
+U>
+
+S 15
+
+51
+
+OGW
+
+2 GW
+
+4 G\i
+
+6 GW
+
+8 GW
+
+10 GW
+
+12 GW
+
+14 GW
+
+Bln Average RsNS - Rs
+
+Figure 5b: RTORPA in $2/MWh bins versus bin average Non-Spinning Reserves (RSNS -Fts) during the current three
+
+study subperiods
+
+2.3. RTORPA Impact on Self-Commitment Incentives
+The ORDC and future price expectations for the Operating Day play an important role in spurring the
+self-commitment of marginal Resources, incentivizing them to enter the reserve pool and contribute
+to On-Line Reserves. Ideally, this can help avoid out-of-market actions such as RUCs. To determine
+whether it is economic to commit a particular Resource on a given day, a Qualified Scheduling Entity
+(QSE) must compare the Resource's start-up costs to its expected revenue over the course of its
+minimum run time. ERCOT has estimated that a $10/MWh RTORPA value is sufficient to cover the
+start-up costs of a marginal combustion turbine with a four-hour minimum run time. Figure 6 illustrates
+
+the fraction of days during each study subperiod where the four-hour rolling time-weighted average
+RTORPA exceeded $10/MWh. These are days where a Resource with a four-hour minimum run time
+could have received at least $10/MWh on average from RTORPA payments alone by self-committing
+at an appropriate time.12 This yearthe fraction of days meeting the $10/MWh over4-hour price-duration
+criterion is under 2%, less than the previous two study subperiods as illustrated in Figure . This is also
+illustrative of the impact to the RTORPA with the increase in On-Line Reserves, additional capacity
+
+12 It is worth noting that a QSE cannot know what RTORPA prices will materialize over the next four hours in advance; in other words,
+only with perfect knowledge of the future could a QSE self-commit a Resource on every day for which it is economical to do so. Also,
+even if RTORPA payments are expected to cover a Resource's start-up costs, a QSE would only commit that Resource if anticipated
+LMPs are sufficiently high compared to its Energy Offer Curve (EOC).
+
+© 2024 ERCOT
+All rights reserved.
+
+000020
+
+14
+
+2024 Biennial ERCOT Report on the ORDC
+
+from solar Resources and Energy Storage Resources (ESRs) and milder conditions compared with
+2023.13
+25°/o
+
+&e
+rn -C 20%
+
+ER
+
+g S 15%
+C,W
+
+* k 10%
+
+3&
+
+ai 5%
+0
+Lg
+
+LL
+
+0%
+
+10/1/22 - 6/9/23
+27 / 252 Days
+
+6/10/23 - 10/31/23
+13 / 144 Days
+
+11/1/23 - 9/30/24
+6 / 335 Days
+
+Figure 6: Fraction of days where 4-hour rolling time-weighted average ORDC adder exceeded $10/MWduring the
+
+current three study subperiods
+
+However, other market factors, particularly the increase in demand and tight conditions in summer
+2023, led to higher hub average prices. This gave rise to higher price expectations which in turn
+
+provided many more opportunities for marginal combustion turbines to economically self-commit and
+enterthe On-Line reserve pool. Figure illustrates the downward trend in RUC during this study.
+
+13 From January, 2024 to September, 2024 total operational capacity increased by 4.5 GW and 3.9 GW for solar Generation Resources
+and ESRs respectively.
+
+© 2024 ERCOT
+All rights reserved.
+
+000021
+
+15
+
+2024 Biennial ERCOT Report on the ORDC
+
+RU C Trend
+
+Hour
+
+I Effective RUC Hours
+
+-RUE HSL MWh
+
+1,600
+
+400,000
+
+1,400
+
+350,000
+
+1,200
+
+300,000
+
+1,000
+
+250,000
+
+800
+
+200,000 3:
+
+600
+
+150,000
+
+400
+
+100,000
+
+200
+
+50,000
+
+0
+1 2 3 4 5 6 7 8 9 101112 1 2 3 4 5 6 7 8 9 101112 1 2 3 4 5 6 7 8 9
+2022
+
+2023
+
+2024
+
+Figure 7: Effective RUC Hours and RUC HSL MWh trend from 2022 to September 2024
+
+2.4. ORDC Impact on Physical Responsive Capability (PRC)
+While ORDC price adders are paid to reserves according to the RTOLCAP and RTOFFCAP
+categories, Real-Time operations such as Ancillary Service deployments and Energy Emergency Alert
+(EEA) events are driven by a measure of operational reserves called Physical Responsive Capability
+(PRC). PRC is closely related to RTOLCAP, but the two reserve measures differ in a few ways. PRC
+excludes Non-Frequency Responsive Capacity (NFRC) as well as Off-Line Quick-Start Resources
+that may be able to respond quickly to grid conditions but are not synchronously connected. Generally,
+PRC also limits calculated reserve headroom to 20% of each Resource's High Sustained Limit (HSL).
+When system conditions tighten and reserves become scarcer, RTOLCAP and PRC tend to converge:
+NFRC decreases, On-Line Generation Resources are dispatched at levels closer to their HSLs, and
+Quick-Start Generation Resources (QSGRs) come On-Line. We therefore expect some sensitivity of
+PRC to RTORPA during low-PRC SCED intervals. Figure 8 plots uncapped RTORPA (calculated
+directly from the ORDC without applying SWCAP to System Lambda plus Price Adders) against PRC
+for SCED intervals where PRC was below 5,500 MW.14 The fraction of SCED intervals with PRC
+below 5,500 MW varies significantly between the three subperiods: 29.8%, 5.18% and 1.22%,
+respectively. The average PRC across this PRC range is less varied: 4,901 MW during the first study
+subperiod and 5,098 MW and 5,251 MW from the second and third. The most significant difference
+between these three sets of SCED intervals is in average RTORPA: $4.76/MWh in the first study
+
+14 An increase in the PRC threshold to 5,500 MW was chosen to better illustrate conditions and increase the sample size during this
+study period versus the 2022 ORDC Report.
+
+© 2024 ERCOT
+All rights reserved.
+
+000022
+
+16
+
+2024 Biennial ERCOT Report on the ORDC
+
+subperiod, $175.02/MWh in the second study subperiod, and $43.82/MWh thisyear.15 These statistics
+are summarized in Table 1. Figure 8 illustrates the decrease in 2024 in average RTORPA, along with
+the significant decrease in instances of SCED intervals with PRC less than 5,500 MW, compared to
+the previous two subperiods. This is also illustrative of the trend of increasing amounts of On-Line
+reserves (and a reduction in Off-Line reserves) observed in this study.
+
+15 The quantity of Off-Line Reserves is also a component of the calculation of the On-Line Reserve Price Adder. Therefore, a reduction
+in the quantity of Off-Line Reserves helps to explain the phenomenon of observed RTRORPA prices at higher levels of PRC.
+
+© 2024 ERCOT
+All rights reserved.
+
+000023
+
+17
+
+2024 Biennial ERCOT Report on the ORDC
+
+2 5000
+6#9
+
+October 20.22 - June 9 2023
+PRC < 55[0 M'W for 21,927 SCED intervals (£801.0 hours)
+
+4000
+
+E 3000
+[E
+0
+
+* 2000
+
+& 1000
+8
+
+++ +
+
+C
+
+D
+
+0
+
+2 5000 //
+
++
+
++
+
+lili
+
+*
+
+..*+
+
+~ •.'AUL~ . *,.+. *~. ...04+ Ae.:AZ#*1*J"k~A·U•...•e..·. .
++
+June 10 2023 - October 2023
+
++
+
+PRC = 5500 MW for 2.191 SCED intervals (159.1 hcura)
+
+~ 4000
+
+i# 3000
+
+. /.. **: *.+
+
+O
+
+@ 2000
+
++ -
+
+/..
+
++
+
++.
+
+4>
+
++
+
+e
+
+.+
+
++ .
+
+& 1000'
+
+C
+
+D
+
+t: 6+ b:
+
+t -* *,t
+
++
+
++
+
+0
+
+*
+
+2 Sooo
+
+·*
+
+7'litkt~
+
+November 2023 - September 2024
+
+B
+
+IPRC - 5500 MW for 1.11.2 SC:ED intezvals (88.0 hours)
+
+i 4000
+< 3000
+0
+
+* 2000
+
+'
+
+IU
+
+4#..4+
+
+<D
+
++ 4 )$+
+
+&
+1000
+cg
+
+o
+
+'
+
+2500
+
+3000
+3500
+4000
+4500
+Physical Responsive Capacity (PRC, MW)
+
+*+ -4 .r>J,t.*., r, 4*lt * * +
+50100
+
+SOO
+
+Figure 8: Uncapped RTORPA (calculated without applying SWCAP to System Lambda plus Price Adders) vs PRC for
+the second and third study subperiods. Only SCED intervals with PRC below 5,500 MW are shown during the current
+
+three study subperiods
+
+© 2024 ERCOT
+All rights reserved.
+
+000024
+
+18
+
+2024 Biennial ERCOT Report on the ORDC
+
+Siuu,
+
+SCED
+
+3ubperiod
+
+Dntervals with
+
+Oct 2022 -
+
+rai 41.iV~11~ 'e,~ 1-Ott
+itervals with
+
+r'RC
+Across Low~RC Intervals
+
+1\Vwob,4
+
+&~*~.-
+
+ilL.ugu
+
+PRC
+
+RTORPA
+Across Low-
+
+Low PRC
+{PRC < 5,500
+MW)
+
+ow PRC
+
+21,927
+
+29.89%
+
+4,901 MW
+
+2,840 MW
+
+$4.76/MWh
+
+2,191
+
+5.18%
+
+5,098 MW
+
+2,114 MW
+
+$175.02/MWh
+
+1,112
+
+1.14%
+
+5,253 MW
+
+4,049 MW
+
+$42.94/MWh
+
+DRC Intervals
+
+June 2023
+June - Oct
+
+2023
+Nov 2023 Sep 2024
+
+Table 1: Summary statistics for SCED intervals with PRC below 5,500 MW shown for the current three study
+
+subperiods
+
+3. ORDC Impact on Prices
+Generators and loads in the ERCOT System are settled at Settlement Point Prices (SPPs) every 15
+minutes. SPPs are a combination of Locational Marginal Prices (LMPs) for energy, the RTORPA, and
+the RTORDPA. Figure 9 illustrates the contributions of each of these price components by month
+going back to October 2022. Real-Time Hub Average prices have been lower in 2024 than in 2023:
+$27.37/MWh in 2024 compared to $52.48/MWh in 2023. This is due in part to the reduction in natural
+gas prices which are highly correlated with spot market prices.16 The time-weighted average RTORPA
+is also lower in 2024: $0.30/MWh or 0.90% of the all-in price for 2024 through September compared
+to $1.15/MWh or 1.69% of the all-in price in 2023. Compared to the 2022 ORDC Report study period,
+higher Hub Average prices and lower natural gas prices provided a stronger incentive to Resource
+
+owners to self-commit based on anticipated future pricing outcomes.
+
+16 The average Fuel Index Price (FIP) was $5.58/MMBtu in 2022, $2.21/MMBtu in 2023, and $1.82/MMBtu in 2024through September.
+
+© 2024 ERCOT
+All rights reserved.
+
+000025
+
+19
+
+2024 Biennial ERCOT Report on the ORDC
+
+250
+
+25
+I Real-Time Hub Average PrIce
+
+I RTORDPA
+Il RTORPA
+
+200
+
+20
+
+- RTORPA % of total
+
+3
+119
+
+&€
+150
+
+15
+
+~
+
+8
+10
+
+100
+
+Of
+
+O
+
+50
+
+0
+
+!11, «,~IlI#I I I il ., rll, Alhl
+
+Oct Nov Dec Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan Feb Mar Apr May Jun Jul Aug Sep
+2023
+2024
+
+o
+
+Figure 9: Relative contributions of ORDC and RDPA to total Real-Time Energy Prices by month
+
+Figure 10 illustrates the price contributions of LMPs, RTORPA, and RTORDPA specifically during
+intervals when PRC was less than 5,500 MW. As can be seen in the figure, RTORPA's contribution
+to total prices was less pronounced overall when PRC was relatively low whereas Hub Average prices
+sent a much stronger self-commitment incentive during tight conditions. In 2024 through September,
+when PRC was below 5,500 MW, the time-weighted average RTORPA was $13.6/MWh, or 3.57% of
+the all-in price. In 2023, these values were $43.85/MWh and 3.84%, respectively.
+
+© 2024 ERCOT
+All rights reserved.
+
+000026
+
+20
+
+2024 Biennial ERCOT Report on the ORDC
+
+5000
+
+4000
+
+50
+A
+I
+1
+--
+
+Real-Time Hub Average Price
+RTORDPA
+RTORPA
+RTORPA % of total
+
+40
+
+3
+
+1-0
+
+~8
+3€
+3000
+
+- 30
+
+#
+
+N
+
+8
+0
+2000
+
+-20
+
+1000 -
+
+-----
+
+1--1 III
+1_1
+
+o - -
+
+m
+
+- -
+
+r-3
+
+n
+-
+
+[=1=
+
+r--, *LO-| :
+
+=
+
+m rri-I n |-FI [J ¤ - .
+
+05
+
+0
+
+10
+
+-~ i El o
+
+Oct Nov Dec Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan Feb Mar Apr May Jun Jul Aug Sep
+2023
+2024
+
+Figure 10: Relative contributions of ORDC and RDPA to total Real-Time Energy Prices for SCED intervals below
+5,500 MW PRC by month
+
+L ORDC Impact on Peaker Net Margln (PNM)
+Peaker Net Margin (PNM) represents the net revenue thata hypothetical peaker Generation Resource
+could have earned from the Real-Time Market. This value accumulates throughout the year and is
+reported on the ERCOT website daily. The PNM threshold is administratively established by 16 TAC
+§ 25.509(b)(6)(C). Once the PNM threshold is met, ERCOT will transition the SWCAP from the HCAP
+to the LCAP for the remainder of the year. PNM is calculated using SPPs and is therefore sensitive
+to Real-Time LMPs, RTORPA, and RTORDPA. Figure 11 indicates that monthly PNM totals have
+been lower overall in 2024 than in 2023. The contribution from RTORPA is also lower overall in 2024
+compared to contributions from higher Hub Average prices in 2023.
+
+© 2024 ERCOT
+All rights reserved.
+
+000027
+
+21
+
+2024 Biennial ERCOT Report on the ORDC
+
+140000
+U PNM from RTORPA
+l PNM without RTORPA
+
+120000
+
+100000
+
+' 80000
+
+60000
+
+40000
+
+20000
+
+0
+
+Oct
+
+Nov
+
+Dec
+
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Jun
+
+Jul
+
+Aug
+
+Sep
+
+Oct
+
+2023
+
+Nov
+
+Dec
+
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May'
+
+..
+Jun Jul Aug Sep
+
+2024
+Month
+
+Figure 11: Peaker Net Margin with and without the ORDC Price Adder by month
+
+Figure 12 illustrates the accumulation of PNM for 2023. The RTORPA made up 3.02% of the total
+PNM for 2023.
+
+© 2024 ERCOT
+All rights reserved.
+
+000028
+
+22
+
+2024 Biennial ERCOT Report on the ORDC
+
+250000
+
+PNM
+- PNM without RTORPA
+
+---
+
+: 200000
+
+150000
+
+90000
+
+907--EU~~~~~~F-- Apr ' ' May ' ' Jun ' ' Jui] '
+
+ug
+
+Sep
+
+Oct
+
+Nov
+
+De<
+
+2023
+Month
+Figure 12: Cumulative Peaker Net Margin with and without ORDC Price Adders for 2023
+
+PNM accumulation in 2024, illustrated in Figure 13, has been more modest due in part to more
+moderate weather and increased generation supply relative to 2023. RTORPA has made up 1.99% of
+the total PNM accumulated in 2024 through September.
+
+© 2024 ERCOT
+All rights reserved.
+
+23
+
+2024 Biennial ERCOT Report on the ORDC
+
+80000
+
+- PNM
+- PNM without RTORPA
+
+. 70000
+L 60000
+b
+
+! 50000
+; 40000
+
+30000
+20000
+10000
+
+Q-7,
+1 Feb '' Mar ''' Apr ' '' May ' ' 'Jun ' '' Jul '' ' Aug ' ' 'sdp
+Jan
+2024
+Month
+Figure 13: Cumulative PNM with and without ORDC price adders for 2024
+
+i. Impact of ORDC Prace Floor
+As indicated previously, ERCOT introduced a multi-step RTORPA floor in November 2023. Figure 14
+contains three graphs which illustrate the impact of the ORDC price floors since their implementation.
+The first two graphs show intervals in which the floors impacted RTORPA by highlighting 177 intervals
+due to the 7,000 MW floor (orange) and 81 intervals due to the 6,500 MW floor (purple). The third
+graph shows the ORDC floors' contribution to cumulative revenue. As of October 1, 2024, the ORDC
+floors have contributed an additional approximately $11.3M of revenue.
+
+© 2024 ERCOT
+All rights reserved.
+
+24
+
+2024 Biennial ERCOT Report on the ORDC
+
+Reserves
+
+I
+
+RTOLCAP (GW)
+
+10
+8
+6
+4
+Pr ce Adder
+
+800
+600
+
+400
+200
+m
+
+$10/MWh Floor at 7.000 MW
+$20/MWh Floor at 6.500 MW
+
+-..-
+
+--
+
+Affected Intervals: Sl 0/MWh Floor
+Affected Intervals: S20/MWh Floor
+
+Cumulative Revenue (Energy + Headroom)
+S100M
+
+S80M
+
+I Total
+I Floor-induced
+
+$60M
+
+S40M
+S20M
+SOM
+
+12/23
+
+1/24
+
+224
+
+3/24
+
+4/24
+
+924
+
+G/24
+
+7/24
+
+8,'24
+
+9/24
+
+Figure 14: Floor-affected intervals and floor-induced revenue since the introduction of ORDC price floors
+
+Figure 15 illustrates the impact of the ORDC price floors on the RTORPA each month. "RTORPA
+Difference" is the increase in RTORPA due to the ORDC floors.
+
+© 2024 ERCOT
+All rights reserved.
+
+000031
+
+25
+
+2024 Biennial ERCOT Report on the ORDC
+
+- Floor-affected Intervals
+- 14
+
+- • - Avg RTOPRA Diff across affected intervals
+
+80- 12
+
+- 10
+
+60-
+
+-8
+88
+40 -
+
+-6
+
+-4
+20-
+
+28
+
+0
+11/23
+
+-2
+
+12/23
+
+1/24
+
+2/24
+
+3/24
+
+424
+
+5/24
+
+6/24
+
+0
+7/24
+
+&~24
+
+924
+
+Figure l 5: Number offloor-affected intervals and average RTOPRA difference
+
+Figure 16 shows the contribution of energy output of generation by fuel type of the Resource when the
+ORDC price floor was in effect. Approximately 85% of the Resource mix came from dispatchable
+
+generation when the multi-step price floorwas in effect.
+
+© 2024 ERCOT
+All rights reserved.
+
+000032
+
+26
+
+2024 Biennial ERCOT Report on the ORDC
+
+I natural gas
+- coal and Iignite
+
+natural gas
+
+I nuclear
+I power storage
+
+- hydro
+- wind
+
+~ solar
+•••• other
+
+solar
+
+wind
+
+power storage
+
+coal and Iignite
+
+nuclear
+
+Figure 16: Contribution of energy output by fuel type when ORDC price adder-floor was in effect
+
+The incidence and impact of the RTORPA floors have been less than the amounts that were produced
+in ERCOT's back-cast analysis of the price floors as a bridging solution.17 The change in the
+composition of reserves led to On-Line Reserve Price Adders occurring at higher levels of reserve and
+
+consequently led to fewer instances where reserves were at or below the levels at which the floors
+would be applied. As explained above, other market factors had a larger impact on the amount of OnLine reserves and commitment decisions; this fact coupled with the limited incidence of utilization of
+the price-adder floors limits the ability to discern direct impacts from this design on the amount of RUC
+activity. As noted previously, RUC activity is much lower overall during the reporting period. The
+
+price-adder floors are still providing incremental value toward their intended objectives: during the
+intervals in which the price-adder floors were in effect, approximately 85% of generation output was
+from dispatchable Resources. With the planned implementation of RTC+B in December 2025, the
+ORDC (including the RTORPA floors) will be replaced by ASDCs. As such, ERCOT is not
+recommending any changes to, or the elimination of, the RTORPA floors at this time.
+
+17 The back-cast analysis is provided in ERCOT's presentation to the Special Technical Advisory Committee meeting held on March
+31, 2023, available on ERCOT's website at: https://www.ercot.com/files/docs/2023/04/03/Proposed-Bridging-Option-Discussion--Special-TAC---033123.pptx.
+
+© 2024 ERCOT
+All rights reserved.
+
+000033
+
+27
+
+2024 Biennial ERCOT Report on the ORDC
+
+6. Conclusion
+This biennial ORDC report provided an analysis of data related to the ORDC and the ERCOT market
+overall beginning October 1, 2022, after the reporting period from the 2022 ORDC Report concluded,
+through September 30, 2024. The report noted some of the significant system and market
+developments and their impact relative to the ORDC and market outcomes generally. The report also
+provided an explanation of how the current ORDC paradigm will be replaced by ASDCs upon the
+implementation of the RTC+B Program expected in late 2025. In comparison to the 2022 ORDC
+Report, market outcomes in this study were influenced to a greater extent by other factors such as
+increasing demand, lower natural gas prices, capacity additions and Ancillary Service requirements.
+In conclusion, based on the analysis and review underlying this report, the ORDC performed in a
+manner consistent with design expectations and ERCOT does not recommend any changes to the
+ORDC at this time. The ORDC is one tool among others to promote both reliable and economic
+outcomes. ERCOT is currently engaged in the discussions taking place both at the PUCT and in the
+ERCOT stakeholder process around future market design and will continue to work with stakeholders
+and the Commission to identify and evaluate market enhancements and mechanisms to support
+
+reliable grid operations, efficient market outcomes, and resource adequacy.
+
+© 2024 ERCOT
+All rights reserved.
+
+000034
+
+28
+
+

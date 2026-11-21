@@ -1,0 +1,1128 @@
+Board Policies and Procedures
+Amended Effective June 18, 2024
+By the ERCOT Board of Directors
+27T
+
+27T
+
+Table of Contents
+I.
+II.
+III.
+IV.
+V.
+VI.
+VII.
+VIII.
+IX.
+X.
+XI.
+XII.
+
+Meeting Procedures
+Responsibilities, Qualifications, and Compensation of the Board of
+Directors
+Delegation of Authority to the Chief Executive Officer
+Procedure for the Sale of ERCOT Assets
+Procedures for Decertification of ERCOT as the Independent System
+Operator, Termination or Liquidation of ERCOT
+Procedure by Which a Member May Examine and Copy the Corporate
+Financial Books and Records of ERCOT
+Procedures for the Selection of TAC Representatives and Director Term
+Expiration
+Procedures for Participation in Board Consideration of Revision
+Requests
+Procedures for Participation by Parties Opposing Actions
+Recommended by TAC or ERCOT Staff
+Board Policy on Approval of User Fees
+Procedure for Determination of Affiliate Relationship for Membership
+Review and Reaffirmation
+Appendix A: Board and Residential Consumer TAC Representative
+Compensation
+Appendix B: Non-Binding Process Guide for Board Consideration of
+Revision Requests
+
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+2
+3
+5
+6
+7
+7
+7
+9
+10
+12
+12
+13
+14
+15
+
+1
+
+Preamble
+0.1
+
+Definitions. The definitions included in the Amended and Restated Bylaws of
+Electric Reliability Council of Texas, Inc. (the “Bylaws”) are incorporated by
+reference.
+
+0.2
+
+Delegation of Authority to Board Committees. It is the policy of the Board of
+Directors to initiate any specific action required, in its opinion, to fulfill its duties
+consistent with Section 4.10 of the Bylaws, including regarding matters delegated
+to a Board committee or subcommittee (“Committee”) established pursuant to
+Bylaws Section 4.8.
+
+I.
+
+Meeting Procedures
+
+1.1
+
+Board Agenda Items. A Director is entitled to place matters the Director
+reasonably considers important on the Board agenda if notification of such matters
+and background materials are received by the Secretary or Assistant Secretary of
+ERCOT no later than 5 p.m. eleven days before the date of the Board meeting.
+
+1.2
+
+Public Access. Subject to Section 1.4 below, meetings of the Board and each
+Committee on which a Board member sits (“Board Committee”) are open to the
+public, and live webcasts may be viewed on the ERCOT website.
+
+1.3
+
+Public Comments. Interested persons may provide comment on the matters under
+discussion at public portions of meetings of the Board and Board Committees.
+Publicly posted agendas for such meetings shall include the time and location of
+meetings, as well as topics to be discussed and instructions for commenting on
+matters under discussion at public portions of meetings.
+
+U
+
+U
+
+U
+
+U
+
+1.3.1 Comments in writing may be submitted for any meeting, whether or not the
+meeting is in-person, by submission to Corporate@ercot.com.
+1.3.2 For in-person meetings, members of the public may comment in person.
+The Board Chair or Vice Chair or Board Committee Chair, as applicable,
+shall have discretion regarding when such comments will be taken up during
+the meeting and how much time shall be allowed for each agenda item for
+which public commenters are present.
+1.3.3 For urgent meetings conducted via teleconference or similar remote
+technology means pursuant to Bylaws Section 4.7(d), the Board Chair or
+Vice Chair or Board Committee Chair, as applicable, may limit comments
+to written comments.
+1.4
+
+Executive Session. The Board may meet in Executive Session for purposes
+consistent with governing law and with the Bylaws. The notice for Executive
+Session discussion items may be worded such that the sensitive nature of the item
+
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+2
+
+is not compromised or disclosed. Except for acting to approve the minutes of prior
+Executive Sessions, the Board shall emerge from Executive Session before voting
+or taking any action on any Executive Session noticed items or based on Executive
+Session discussions.
+1.4.1 Participation in Executive Session. The Board or a Board Committee may
+exclude PUCT Commissioners serving as ex officio Directors from certain
+specific discussions in Executive Session. Commissioners may only be
+excused to address: (a) a contested case, as defined by Section 2001.003
+of the Texas Government Code; or (b) a personnel matter that is unrelated
+to members of the Board. The decision to exclude Commissioners from
+Executive Session will be at the discretion of the Board Chair or Vice Chair
+or Board Committee Chair, as applicable, who shall exercise this right only
+after careful consideration of the Board or Board Committee’s need for
+confidentiality without compromising the PUCT’s oversight role.
+II.
+
+Responsibilities, Qualifications, and Compensation of the Board of Directors
+
+2.1
+
+Goals and Objectives. The Board shall establish the overall direction and review
+and provide input on the goals and objectives developed by ERCOT staff. The
+Board shall review such goals and objectives on an ongoing basis, and may issue
+policies and resolutions setting forth direction of ERCOT management actions to
+attain such goals and objectives. The Board oversees the major functions of
+ERCOT: open access to the transmission grid on nondiscriminatory terms, system
+reliability and adequacy, and the retail and wholesale electric markets.
+U
+
+2.2
+
+U
+
+2.3
+
+2.4
+
+Duties. The Board shall faithfully discharge its duties by conducting its affairs in a
+highly ethical and sound business manner. The Board, collectively and severally,
+will not direct the policies and actions of ERCOT from perspectives of private gain
+or personal advantage.
+U
+
+U
+
+Chief Executive Officer and Management. Subject to applicable approval by the
+Public Utility Commission of Texas (“PUCT”), the Board shall retain a Chief
+Executive Officer (“CEO”) with the capabilities to execute Board policies. The
+Board delegates to the CEO all general powers and duties necessary to
+accomplish ERCOT’s purpose, goals, and objectives as established by the Board,
+except for those specifically reserved to the Board by the Bylaws or herein. The
+CEO and management are required to supply Directors with sufficient information
+to keep Directors properly informed about the business and affairs of ERCOT.
+U
+
+U
+
+Matters Reserved for Board Approval. Except for and subject to those matters
+which require PUCT approval or are mandated by the PUCT without Board
+approval, the Board expressly reserves the following matters for Board approval:
+U
+
+U
+
+2.4.1 Those matters reserved by the Bylaws.
+
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+3
+
+2.4.2 Approval of the initiation of any non-routine filing that seeks regulatory
+action by a regulatory agency; provided that emergency situations may
+require immediate regulatory filings to protect the interests of ERCOT and
+may be filed by the General Counsel in its reasonable discretion without
+prior approval of the Board if there is concurrence of the CEO, General
+Counsel, the Chair and Vice Chair of the Board for such filing, and provided
+that the Board is notified as soon as practicable.
+2.4.3 Initiation of any lawsuit; provided that emergency situations may require
+immediate legal action including the initiation of a lawsuit to protect the
+interests of ERCOT. Such a lawsuit may be initiated by the General Counsel
+without prior approval of the Board if there is concurrence of the CEO,
+General Counsel, the Chair and Vice Chair of the Board for such filing, and
+provided that the Board is notified as soon as practicable and the Board
+subsequently ratifies the filing.
+2.4.4 Approval of the purchase of goods or services for ERCOT’s use, or of a
+contract for such purchase, with a value of over one million dollars
+($1,000,000.00) if such purchase or contract is not contemplated in
+ERCOT’s Board-approved Budget. With regard to this section, exceptions
+for such approval are as follows:
+2.4.4.1 PUCT-Directed Goods or Services. If ERCOT is directed, required
+or ordered to purchase goods or services by contract or otherwise
+by the PUCT, no Board approval is required.
+U
+
+U
+
+2.4.4.2 Emergency Business-Continuity Purchases. If ERCOT needs to
+make emergency purchases up to five million dollars
+($5,000,000.00) which are necessary to meet business continuity
+or other immediate needs that, if not met, may result in an
+interruption to ERCOT’s normal business, such purchases may be
+made according to ERCOT’s procedures without seeking prior
+approval; however, ratification of such purchases must occur at the
+next Board meeting.
+U
+
+U
+
+2.4.5 Approval of the sale or pledge of any ERCOT assets valued in excess of
+one million dollars ($1,000,000.00).
+2.4.6 Establishment of any line of credit, loans, or other forms of indebtedness in
+the name of ERCOT exceeding one million dollars ($1,000,000.00).
+2.5
+
+Individual Director Duties. Each Director shall, individually, have the following
+duties:
+U
+
+2.5.1 Attend regular, special and urgent meetings of the Board when notified,
+unless circumstances prevent the Director from attending.
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+4
+
+2.5.2 Not disclose confidential information of ERCOT to unauthorized people.
+2.5.3 Handle any actual or potential conflict of interest in accordance with Public
+Utility Regulatory Act (“PURA”) Section 39.1512 and Bylaws Section 9.2.
+2.5.4 Consistent with the fiduciary duty of care in overseeing, monitoring, and
+supervising the affairs of ERCOT, prepare for and participate in
+determination of policy and other matters coming before the Board.
+2.5.5 Upon joining the Board and annually thereafter, sign the ERCOT Director
+Ethics Agreement.
+2.6
+
+Director Qualifications. Each Director shall meet the following qualifications:
+U
+
+2.6.1 Have a willingness to serve ERCOT and to commit the time and resources
+necessary to carry out the duties of a Director.
+2.6.2 Be willing to work cooperatively.
+2.6.3 Maintain all qualifications defined by the Bylaws or required by law.
+2.7
+
+Compensation for Directors. Compensation for Directors selected by the State of
+Texas’ ERCOT Board Selection Committee pursuant to PURA Sections 39.151(g1)(4) shall be paid in the amounts set forth in Appendix A, in equal monthly
+installments.
+
+2.8
+
+Compensation and Expense Reimbursement for Residential Consumer TAC
+Representative.
+2.8.1 Compensation.
+Compensation for the Residential Consumer TAC
+Representative shall be paid in monthly installments in the amounts set forth
+in Appendix A.
+2.8.2 Business Expense Reimbursement. The Residential Consumer TAC
+Representative shall be eligible for reimbursement of reasonable business
+expenses associated with attending meetings of TAC or other standing or
+special TAC subcommittee meeting actually attended, but shall comply with
+the ERCOT Business Expense Reimbursement Corporate Standard.
+U
+
+III.
+3.1
+
+Delegation of Authority to the Chief Executive Officer
+CEO Responsibility and Authority. The Board shall exercise reasonable diligence
+to ensure that the CEO carries out ERCOT’s business activities consistent with the
+goals, objectives, policies, and specific directions of the Board and the Bylaws.
+The CEO shall have the authority to execute contracts and agreements, establish
+U
+
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+U
+
+5
+
+lines of credit, and take all other lawful actions, as they may deem expedient and
+proper in conducting the business of ERCOT, except as set forth in Section 2.4.4
+or as otherwise may be limited by the Board.
+3.2
+
+CEO Delegation to Officers and Employees. The CEO may delegate their
+authority to other ERCOT officers or employees in the CEO’s discretion, except as
+limited by the Board. The CEO shall issue appropriate management procedures
+setting forth the direction of staff management and other employee actions to fulfill
+the goals, objectives, policies and other directions of the Board.
+U
+
+U
+
+3.3
+
+Budget. The CEO or the CEO’s designee will present to the Board no later than
+45 days prior to the PUCT’s filing deadline of each year when the Budget is to be
+approved, or at such other time as directed by the Board, a Budget to carry out the
+Board’s directives for the following year or longer as directed by the Board. The
+Budget will include projections of ERCOT’s overall financial performance and
+financing plans, and describe the services, projects, programs, and the associated
+revenues and expenditures. Adoption of the Budget by the Board and as approved
+by the PUCT authorizes the CEO to complete work plans and make associated
+expenditures as provided for in accordance with the Budget.
+
+3.4
+
+Information for the Board. The CEO is responsible for bringing policy matters to
+the attention of the Board when its current policies give inadequate direction for
+ERCOT operations or leave ERCOT at a disadvantage because of changing
+conditions. The CEO shall provide an update about any new directive issued by
+the PUCT to ERCOT at the first Board meeting following the directive’s issuance.
+The CEO will provide thorough, well-organized information to the Board in a timely
+manner. Communications to the Board will be made forthrightly and with candor in
+the evaluation of the conduct of business and operations of ERCOT. In the
+discretion of the CEO, significant contracts, agreements, or other major decisions
+may be brought to the Board for specific approval. In coordination with the General
+Counsel, the CEO shall represent ERCOT in communicating the position and
+interests of ERCOT to legislative bodies.
+
+3.5
+
+U
+
+U
+
+U
+
+U
+
+Internal Controls. Consistent with the Board’s guidance and the ERCOT Internal
+Control Management Program, the CEO will approve and enforce appropriate
+policies, standards and procedures for ERCOT, to ensure adequate internal
+controls for ERCOT business and operations.
+U
+
+U
+
+IV.
+
+Procedure for the Sale of ERCOT Assets
+
+4.1
+
+Sale of Assets. Personal property that is no longer necessary, convenient or of
+beneficial use to the business of ERCOT, and that has a fair market value of one
+million dollars ($1,000,000.00) or less may be sold, transferred, auctioned, or
+conveyed by the CEO for its fair market value. ERCOT shall use revenues from
+the sale of its property to offset ERCOT expenses.
+U
+
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+6
+
+V.
+5.1
+
+Procedures for Decertification of ERCOT as the Independent System Operator,
+Termination or Liquidation of ERCOT
+Decertification. In the event that ERCOT is no longer certified by the PUCT to
+operate as the independent organization for the ERCOT power region, the Board
+shall ensure, including through compliance with PUCT Substantive Rules and any
+PUCT orders, the transfer to its successor organization of assets and liabilities in
+a way that the functions of the independent organization continue to be provided
+reliably and without interruption.
+U
+
+5.2
+
+Termination or Liquidation. Upon termination or liquidation of ERCOT, the Board
+shall, consistent with applicable federal and state regulatory requirements,
+liquidate ERCOT, and dispose of its property and assets, in the manner required
+by its governing documents and Texas law applicable to non-profit corporations.
+
+VI.
+
+Procedure by Which a Member May Examine and Copy the Corporate Financial
+Books and Records of ERCOT
+
+6.1
+
+U
+
+Member Right of Inspection. A Member, on written demand stating the purpose of
+the demand, may examine and copy at the Member's expense, in person or by
+agent, accountant, or attorney, at a mutually agreeable time and for a proper
+purpose, the books and records of ERCOT relevant to that purpose. Such written
+demand shall be provided to ERCOT’s General Counsel for evaluation. If
+necessary to protect the confidential information of ERCOT, other Members,
+Market Participants, or vendors or prospective vendors of goods and services to
+ERCOT, a Member requesting examination of ERCOT’s books and records may
+be required to sign a confidentiality and non-disclosure agreement before
+examining and copying such information. The procedures shall include policies
+that provide reasonable protection against the unnecessary disclosure of
+information, including but not limited to information regarding individual
+employees, including their compensation, except in connection with the
+enforcement of a tariff, contract or applicable law, consistent with the ERCOT
+Protocols and ERCOT’s policies regarding confidential information.
+U
+
+U
+
+VII.
+
+Procedures for the Selection of TAC Representatives and Director Term
+Expiration
+
+7.1
+
+Annual Meeting and Record Date. At least two months prior to the Annual Meeting,
+the Board will set the date and location for the Annual Meeting. The Record Date
+for determining the Corporate Members entitled to notice of and representation at
+the Annual Meeting is set forth in the Bylaws.
+
+7.2
+
+Election of TAC Representatives. For TAC Representatives, to be elected by their
+respective Market Segments, one of two procedures shall apply: (a) ERCOT will
+provide all Corporate Members of the Segment or subsegment with advance notice
+
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+7
+
+that the Segment or subsegment will be holding the election, and follow-up notice
+of election results; or (b) ERCOT will directly facilitate the election according to the
+following procedures:
+7.2.1 No later than two business days after the Record Date, ERCOT will send a
+list of all the Members in each Segment or subsegment, by membership
+level (i.e., Corporate, Associate or Adjunct) to ERCOT Members.
+7.2.2 ERCOT will request that Corporate Members of each Segment or
+subsegment nominate TAC Representatives and forward their nominations
+to ERCOT.
+7.2.3 With the nominations provided, ERCOT will then create and provide ballots
+to Corporate Members for return to ERCOT.
+7.2.4 ERCOT will facilitate a meeting of the Segment or subsegment to assist in
+the nomination and election process if requested.
+7.2.5 Only Corporate Members may participate in the election of TAC
+Representatives for the Segment or subsegment in which they are
+members.
+7.2.6 Each seat shall be filled by the person receiving the most votes (proxies
+allowed) of eligible Corporate Members.
+7.3
+
+Appointment of Residential Consumer TAC Representatives. Notwithstanding
+Section 7.2, for the Residential Consumer subsegment, the Public Counsel for the
+Office of Public Utility Counsel shall appoint Residential Consumer TAC
+Representative(s). ERCOT will assist, if requested, in providing potential
+candidates for such seats. The Public Counsel shall identify their appointees to
+ERCOT at least one week prior to the Annual Meeting. ERCOT will notify new
+Consumer appointees of the information necessary to attend the Annual Meeting.
+U
+
+7.4
+
+U
+
+Facilitation of Election. If a Segment is unable to elect a TAC Representative at
+least two weeks prior to the Annual Meeting, ERCOT will notice a meeting of the
+Segment to facilitate the election.
+U
+
+7.5
+
+U
+
+7.6
+
+Election Results and Confirmation. Prior to the Annual Meeting, ERCOT will
+determine the results of TAC Representative elections. At the Annual Meeting, the
+new TAC Representatives will be announced. The new TAC Representatives will
+be seated according to their elected terms.
+U
+
+U
+
+Expiration of Director Terms . For Directors selected by the ERCOT Board
+Selection Committee, six months prior to the expiration of a Director’s term, such
+Director shall indicate whether he or she wishes to remain on the Board for another
+term (if applicable) by notifying ERCOT’s General Counsel. Upon receipt of such
+U
+
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+Uss
+
+8
+
+notice, ERCOT’s General Counsel will notify the PUCT Chair and/or the ERCOT
+Board Selection Committee.
+VIII.
+
+Procedures for Participation in Board Consideration of Revision Requests
+
+8.1
+
+This Section VIII applies to participation in Board consideration of Revision
+Requests.
+
+8.2
+
+Consent Agenda. The Board may consider on a consent agenda Revision
+Requests that TAC unanimously recommended to approve (including
+abstentions), provided that any Director may request that an item on the consent
+agenda be removed therefrom to allow for full discussion.
+
+8.3
+
+Board Delegation of Authority. The Board may delegate to one or more Board
+Committees authority to consider Revision Requests. A Board vote on a Revision
+Request follows a Board Committee recommendation. The Board Committee
+Chair or their designee shall report to the Board a summary of Board Committee
+deliberations and the Board Committee’s recommendation to the Board on
+Revision Requests. Following the Board Committee report to the Board, at the
+discretion of the Board Chair or Vice Chair, parties may further clarify positions,
+with any time allocated equally, provided time may be aggregated for multiple
+parties for a position. Where a party’s in-person presentation to the full Board
+follows the party’s in-person presentation to a Board Committee, the Board may
+use its discretion to discount new or changed information.
+
+8.4
+
+Written Comments on Revision Requests. In accordance with ERCOT Protocol
+Section 21 or the corresponding Other Binding Document section, any ERCOT
+Member, Market Participant, PUCT staff, the Reliability Monitor (as defined in
+ERCOT Protocol Section 2.1), the Independent Market Monitor (as defined in
+ERCOT Protocol Section 2.1), the North American Electric Reliability Corporation
+(“NERC”) Regional Entity (as defined in ERCOT Protocol Section 2.1), or ERCOT
+may submit to the Board written comments on Revision Requests by submitting to
+RevisionRequest@ercot.com the completed comment form available on the
+ERCOT website. Any other interested party may submit written comments in
+accordance with Section 1.3.1 above.
+
+8.5
+
+In-Person Comments on Revision Requests. Any ERCOT Member, Market
+Participant, PUCT staff, the Reliability Monitor, the Independent Market Monitor,
+the NERC Regional Entity, or ERCOT may comment in person on a Revision
+Request on the agenda for a meeting of the Board or Board Committee by
+contacting the Secretary or Assistant Secretary of ERCOT. Any other interested
+party may comment in person in accordance with Section 1.3.2 above.
+
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+9
+
+IX.
+
+Procedures for Participation by Parties Opposing Actions Recommended by
+TAC or ERCOT Staff
+
+9.1
+
+TAC Appeals, TAC Recommendation Oppositions, and ERCOT Recommendation
+Oppositions. Any ERCOT Member, Market Participant, PUCT staff, the Reliability
+Monitor (as defined in ERCOT Protocol Section 2.1), the Independent Market
+Monitor (as defined in ERCOT Protocol Section 2.1), the North American Electric
+Reliability Corporation Regional Entity (as defined in ERCOT Protocol Section 2.1),
+or ERCOT may: (a) appeal a TAC action to reject, defer, remand or refer a matter
+that would have proceeded to the Board for consideration had it been
+recommended for approval by TAC, and requires a TAC recommendation as part
+of the approval process, directly to the Board (“TAC Appeal”); (b) submit written
+comments requesting a Board action to reject, defer, remand, or refer a matter that
+is before the Board for consideration, and requires a TAC recommendation as part
+of the approval process, other than Revision Requests for which written comments
+shall be submitted to the Board pursuant to Section 8.4 above (“TAC
+Recommendation Opposition”); or (c) submit written comments opposing a voting
+item recommended by ERCOT staff that does not require a TAC recommendation
+prior to Board action (“ERCOT Recommendation Opposition”). Board
+consideration of TAC Appeals and TAC or ERCOT Recommendation Oppositions
+will be conducted pursuant to the process and timelines provided in this Section
+VIII.
+U
+
+9.2
+
+Advance Notice of TAC Appeals, TAC Recommendation Oppositions, or ERCOT
+Recommendation Oppositions. It is the policy of the Board that important
+arguments and information relating to a TAC Appeal or a TAC or ERCOT
+Recommendation Opposition be available to the Board in writing far enough in
+advance to enable informed decisions on such matters. The Board may discount
+arguments and information that are provided out of time and/or that were not
+provided to TAC.
+U
+
+U
+
+9.3
+
+Procedural Timeline for TAC Actions Not Designated as Urgent. Written notice of
+TAC Appeals or TAC Recommendation Oppositions on matters that have not been
+granted urgent status as part of the TAC review and recommendation process or
+that the Board Chair or Vice Chair or a PUCT Commissioner designates as urgent
+must be submitted to ERCOT’s General Counsel within ten (10) Business Days
+after the date of the TAC action which serves as the basis for the TAC Appeal or
+comments on TAC Recommendation. The Board will hear such matter at the next
+regularly-scheduled Board meeting that is at least ten (10) Business Days after the
+date of the TAC Appeal or TAC Recommendation Opposition. The following
+deadlines will apply to the parties involved:
+U
+
+U
+
+9.3.1 The TAC Chair or Vice Chair shall designate a TAC Advocate to defend the
+TAC action at least eight (8) Business Days before the Board meeting.
+
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+10
+
+9.3.2 ERCOT shall post notice of the TAC Appeal or TAC Recommendation
+Opposition, and identify the TAC Advocate on the ERCOT website, and
+notify TAC of the same, at least seven (7) Business Days before the Board
+meeting.
+9.3.3 The party appealing or contesting the TAC recommendation and the TAC
+Advocate must, and any other interested Entity may, provide a position
+statement, with or without supporting data, to ERCOT’s General Counsel at
+least six (6) Business Days before the Board meeting.
+9.3.4 ERCOT will distribute all timely position statements to the Board in the
+Board Packet as described in Section 1.2 above.
+The Board Chair or Vice Chair may override any deadline in this Section 8.3 for
+good cause shown.
+9.4
+
+9.5
+
+Expedited Procedural Timeline for Urgent TAC Actions. Notwithstanding Section
+9.3, an expedited process shall apply to TAC Appeals or TAC Recommendation
+Oppositions of: (a) TAC actions related to decisions on items designated as
+Urgent; or (b) any other TAC action that the Board Chair or Vice Chair or a PUC
+Commissioner designates as urgent. Written notice of such TAC Appeals or TAC
+Recommendation Oppositions must be submitted to ERCOT’s General Counsel
+within forty-eight (48) hours after the end of the relevant TAC meeting and those
+TAC Appeals or TAC Recommendation Oppositions shall be heard at the next
+Board meeting, and the TAC Chair and Vice Chair shall work with ERCOT’s
+General Counsel to preserve the intent of Sections 9.2 and 9.3 above as fully as
+possible, given that such matters will be heard on less than ten (10) Business Days’
+notice.
+U
+
+U
+
+Procedural Timeline for ERCOT Recommendation Oppositions. The process for
+ERCOT Recommendation Oppositions applies to situations in which the Board
+agenda includes a voting item that does not require a TAC recommendation before
+it comes before the Board for a vote. If a party seeks Board consideration of its
+comments opposing an ERCOT Recommendation for Board action, and requests
+that ERCOT include the comments in the Board Packet, the party must provide
+written notice to ERCOT’s General Counsel at least ten (10) Business Days before
+the date of the Board meeting where the issue will be on the agenda and submit
+its comments with ERCOT’s General Counsel at least eight (8) days before the
+date of the Board meeting where the issue will be on the agenda. If a party seeks
+to submit comments after the Board meeting materials have been delivered to
+Directors, the timing of the publication and distribution of the comments (as well as
+of any comments supporting the ERCOT Recommendation) will be at the
+discretion of the Board Chair or Vice Chair.
+U
+
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+U
+
+11
+
+X.
+
+Board Policy on Approval of User Fees
+
+10.1
+
+User Fees Approval Process. The Board may authorize ERCOT to charge
+reasonable user fees for services provided by ERCOT to any Market Participant
+or other Entity. A new user fee must be approved by the Board pursuant to the
+Revision Request process set forth in Section 21 of the ERCOT Protocols. User
+fees charged by ERCOT must be identified in the ERCOT Fee Schedule included
+in the ERCOT Protocols.
+
+10.2
+
+New User Fee Criteria. The Board retains the full authority to adopt user fees for
+services provided by ERCOT, including fees currently included in the ERCOT
+Protocols, but establishes the following policy guidelines for establishing user fees
+which are not currently included in the ERCOT Protocols:
+
+U
+
+U
+
+10.2.1 Material Impact. A new user fee should produce revenue in excess of
+$1,000,000.00 annually, or materially improve ERCOT operations.
+U
+
+U
+
+10.2.2 Incremental Revenues. The revenues recovered by a new user fee should
+be incremental to revenue recovered through the System Administration
+Fee.
+U
+
+U
+
+10.2.3 Limited Beneficiaries. A new user fee should be for a service that benefits
+a relatively few discrete Market Segments or Market Participants rather than
+providing general benefit to most Market Segments or Market Participants.
+U
+
+U
+
+XI.
+
+Procedure for Determination of Affiliate Relationship for Membership
+
+11.1
+
+Membership Applicant Procedure. Any applicant for Membership (“Membership
+Applicant”) shall follow the procedure in this section to request Board
+determination of whether entities are Affiliates of one another for the purpose of
+determining Member Segment and voting rights pursuant to the definition of
+“Affiliate” in the Bylaws (Article 2, Paragraph 1).
+
+11.2
+
+Verified Letter or Affidavit. The Membership Applicant shall send to the Board
+Chair with a copy to ERCOT’s General Counsel either (1) a letter verified by an
+authorized representative of the Membership Applicant or (2) an affidavit
+executed by an authorized representative of the Membership Applicant,
+requesting Board determination of Affiliate relationship for purposes of the
+definition of “Affiliate.” The verified letter or affidavit must provide sufficient facts
+of relevant corporate relationships of the Membership Applicant to allow for the
+Board’s review of corporate relationships in consideration of the definition of
+“Affiliate.”
+
+11.3
+
+Deadline for Submission. The Membership Applicant must send the verified letter
+or affidavit to be received no later than the submission date for the Board materials
+
+U
+
+U
+
+U
+
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+12
+
+for the Board meeting preceding the Membership application deadline for the
+following Membership year.
+XII.
+
+Review and Reaffirmation
+
+12.1
+
+Review and Reaffirmation. The Board may amend this document at any time, but at a
+U
+
+minimum the Policies and Procedures shall be reviewed and reaffirmed annually.
+
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+13
+
+Appendix A
+Board and Residential Consumer TAC Representative Compensation
+Role
+Selected Director
+
+Base Compensation
+$160,000 per year
+
+Added Compensation
+--
+
+Board Chair
+
+--
+
+$35,000 per year
+
+Board Vice Chair
+
+--
+
+$15,000 per year
+
+Board Committee
+Chair
+Residential Consumer
+TAC Representative
+
+--
+
+$25,000 per year
+
+$3,000 per month
+
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+$500 per meeting for up to 3
+TAC or TAC subcommittee
+meetings per month
+
+14
+
+Appendix B
+Non-Binding Process Guide for Board Consideration of Revision Requests
+TAC Action
+Revision Request
+TAC voted to
+reject, defer,
+remand or refer
+
+TAC
+Consensus
+Any
+
+Post-TAC
+Action
+Appeal
+
+Board/
+Committee
+Agenda Item(s)
+Board
+Committee
+Agenda
+TAC Report
+Appellant
+Position
+Statement
+
+Recommendation
+to Approve
+Revision Request
+
+Unanimous
+
+None
+
+Board/
+Committee
+Action
+Vote
+Discussion
+
+Presenter
+Board
+Committee
+Chair
+Tac Chair or
+Delegate
+
+Discussion
+
+Appellant
+
+Presentation of
+TAC Action
+
+Discussion
+
+TAC Advocate
+
+ERCOT
+Comments
+
+Discussion
+
+Staff
+
+Position
+Statement of
+Interested Parties
+
+Discussion
+
+Interested
+Parties
+
+Appellant Closing
+Statement
+
+Discussion
+
+Appellant
+
+Board Agenda
+Board Committee
+Report and
+Recommendation
+Board Agenda
+Consent Agenda
+
+Vote
+Discussion
+Vote
+Discussion
+
+Board Chair
+Board
+Committee
+Chair
+Board Chair
+Secretary or
+Assistant
+Secretary
+
+Governing
+Document(s)
+include
+PURA Section
+39.151(g-6)
+PUCT Subst. R.
+25.362(c)(1)-(2)
+Protocol
+Section 21 or
+corresponding
+Other Binding
+Document
+section
+Bylaws Section
+4
+Board
+Committee
+Charter Section
+I et seq.
+Board Policies
+and Procedures
+Section 8 and
+Section 9
+PURA Section
+39.151(g-6)
+PUCT Subst. R.
+25.362(c)(1)-(2)
+Bylaws Section
+4
+
+Any Revision
+Request on Board
+and/or Board
+Committee
+Agenda
+
+Any
+
+Party named
+in Section 8.4
+submits
+written
+comments or
+notifies
+Secretary or
+Assistant
+Secretary to
+speak in
+person during
+meeting of
+Board or
+Board
+Committee
+
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+Board
+Committee
+Agenda
+TAC Report
+
+Vote
+Discussion
+
+Board
+Committee
+Chair
+TAC Chair or
+Delegate
+
+ERCOT
+Comments, if any
+
+Discussion
+
+ERCOT staff
+
+Party Comments
+
+Discussion
+
+Commenter
+
+Board Agenda
+Board Committee
+Report and
+Recommendation
+
+Vote
+Discussion
+
+Board Chair
+Board
+Committee
+Chair
+
+Board Policies
+and Procedures
+Section 8
+PURA Section
+39.151(g-6)
+PUCT Subst. R.
+25.362(c)(1)-(2)
+Protocol
+Section 21 or
+corresponding
+Other Binding
+Document
+section
+Bylaws Section
+4
+15
+
+Board
+Committee
+Charter Section
+I et seq.
+
+Any Revision
+Request on Board
+and/or Board
+Committee
+Agenda
+
+Any
+
+Interested
+person
+submits
+written
+comments or
+timely
+completes a
+form to speak
+in person
+during
+meeting of
+Board or
+Board
+Committee
+
+Board Policies and Procedures (eff: 6.18.2024)
+ERCOT Public
+
+Board and/or
+Board Committee
+Agenda (location
+at discretion of
+Chair/Vice Chair)
+
+Discussion
+
+Commenter
+
+Board Policies
+and Procedures
+Section 8
+PURA Sections
+39.151(g-6) &
+39.1511(b)
+PUCT Subst. R.
+25.362(c)(1)-(2)
+Bylaws Section
+4
+Board Policies
+& Procedures
+Section 1 and
+Section 8
+
+16
+
+

@@ -1,0 +1,86 @@
+ERCOT Nodal Protocols
+
+Section 22
+
+Attachment K: Declaration of Natural Gas Pipeline Coordination
+
+February 1, 2026
+
+Declaration of Natural Gas Pipeline Coordination
+
+This declaration applies to the following Generation Resources (list by Resource Site Code):
+
+List Generation Resource(s) by Resource Site Code
+
+Natural Gas Pipeline Coordination
+
+INSTRUCTIONS: Use this section for Generation Resources relying on natural gas as the primary fuel source. Repeat the following for each applicable Generation Resource.
+
+Generation Resource (provide Resource Site Code):      
+
+(1) Identify the natural gas pipelines directly connected to the Generation Resource and contact information (name, phone number, and email) for each natural gas pipeline operator:      
+
+(2) If a natural gas pipeline operator did not respond to the Resource Entity’s documented effort to coordinate, check the box below and identify the natural gas pipeline operator.
+
+  No response was received from the following natural gas pipeline operator:
+
+       
+
+(3) If a natural gas pipeline operator responded to the Resource Entity’s documented effort to coordinate and disclose activities or conditions materially increasing the risk of Generation Resource unavailability in the summer Peak Load Season, please disclose the following information:
+
+  (a) The name or identifier of the natural gas pipeline:      
+
+  (b) The operator of the natural gas pipeline:      
+
+  (c) Impacts the activity or condition may have on the Generation Resource’s availability (e.g., could cause an Outage or derate):      
+
+  (d) The time period during which the activity or condition is expected to occur, including expected duration:      
+
+  (e) Other useful information:      
+
+(4) If contract language prohibits the Resource Entity from disclosing any of the information requested in 3(a)-(e) above and the natural gas pipeline operator refused the Resource Entity’s documented effort to obtain consent to disclose that information to ERCOT, check the box below and identify the natural gas pipeline operator.
+
+  Contract language prohibits disclosure and the following natural gas pipeline operator(s) would not consent to information disclosure:      
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [NPRR1303: Replace Attachment K above with the following upon system implementation of PR461, Customer Service Management (CSM) Phase 2:]                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                                                              |
+| Declaration of Natural Gas Pipeline Coordination                                                                                                                                                                                                                                                                                             |
+|                                                                                                                                                                                                                                                                                                                                              |
+| This form is illustrative of the fields that must be completed in the Market Participant Service Portal via the Market Information System (MIS) Certified Area. This form may not be submitted to ERCOT outside of the Market Participant Service Portal unless instructed by ERCOT in writing.                                              |
+|                                                                                                                                                                                                                                                                                                                                              |
+| Please refer to the ERCOT’s Identity and Access Management User Guide for information on accessing the Market Participant Service Portal.                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                                                              |
+| This declaration applies to the following Generation Resources (list by Resource Site Code):                                                                                                                                                                                                                                                 |
+|                                                                                                                                                                                                                                                                                                                                              |
+| Natural Gas Pipeline Coordination                                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                                                                                                                                                                                              |
+| INSTRUCTIONS: Use this section for Generation Resources relying on natural gas as the primary fuel source. Repeat the following for each applicable Generation Resource.                                                                                                                                                                     |
+|                                                                                                                                                                                                                                                                                                                                              |
+| Generation Resource (provide Resource Site Code):                                                                                                                                                                                                                                                                                            |
+|                                                                                                                                                                                                                                                                                                                                              |
+| (1) Identify the natural gas pipelines directly connected to the Generation Resource and contact information (name, phone number, and email) for each natural gas pipeline operator:                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                              |
+| (2) If a natural gas pipeline operator did not respond to the Resource Entity’s documented effort to coordinate, check the box below and identify the natural gas pipeline operator.                                                                                                                                                         |
+|                                                                                                                                                                                                                                                                                                                                              |
+|   No response was received from the following natural gas pipeline operator:                                                                                                                                                                                                                                                                 |
+|                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                                                                                                                                                                                                                                                                              |
+|                                                                                                                                                                                                                                                                                                                                              |
+| (3) If a natural gas pipeline operator responded to the Resource Entity’s documented effort to coordinate and disclose activities or conditions materially increasing the risk of Generation Resource unavailability in the summer Peak Load Season, please disclose the following information:                                              |
+|                                                                                                                                                                                                                                                                                                                                              |
+|   (a) The name or identifier of the natural gas pipeline:                                                                                                                                                                                                                                                                                    |
+|                                                                                                                                                                                                                                                                                                                                              |
+|   (b) The operator of the natural gas pipeline:                                                                                                                                                                                                                                                                                              |
+|                                                                                                                                                                                                                                                                                                                                              |
+|   (c) Impacts the activity or condition may have on the Generation Resource’s availability (e.g., could cause an Outage or derate):                                                                                                                                                                                                          |
+|                                                                                                                                                                                                                                                                                                                                              |
+|   (d) The time period during which the activity or condition is expected to occur, including expected duration:                                                                                                                                                                                                                              |
+|                                                                                                                                                                                                                                                                                                                                              |
+|   (e) Other useful information:                                                                                                                                                                                                                                                                                                              |
+|                                                                                                                                                                                                                                                                                                                                              |
+| (4) If contract language prohibits the Resource Entity from disclosing any of the information requested in 3(a)-(e) above and the natural gas pipeline operator refused the Resource Entity’s documented effort to obtain consent to disclose that information to ERCOT, check the box below and identify the natural gas pipeline operator. |
+|                                                                                                                                                                                                                                                                                                                                              |
+|   Contract language prohibits disclosure and the following natural gas pipeline operator(s) would not consent to information disclosure:                                                                                                                                                                                                     |
++==============================================================================================================================================================================================================================================================================================================================================+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

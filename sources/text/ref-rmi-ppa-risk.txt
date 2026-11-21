@@ -1,0 +1,2926 @@
+A Local Government‘s
+Guide to Off-Site Renewable
+PPA Risk Mitigation
+
+AUTHORS & ACKNOWLEDGMENTS
+AUTHORS
+
+SUGGESTED CITATION
+
+Stephen Abbott and Ryan Shea
+
+Ryan Shea and Stephen Abbott, A Local Government’s
+Guide to Off-Site Renewable PPA Risk Mitigation,
+Rocky Mountain Institute, 2020, https://rmi.org/
+insight/local-governments-guide-off-site-renewableppa-risk-mitigation.
+
+* Authors listed alphabetically. All authors from
+Rocky Mountain Institute unless otherwise noted.
+
+ADDITIONAL CONTRIBUTORS
+Eric Carlson, REsurety
+Michelle Bowen, REsurety
+Lee Taylor, REsurety
+Hannah Hunt, REsurety
+
+All images from iStock unless otherwise noted.
+
+ACKNOWLEDGMENTS
+Thank you to the generous support of Bloomberg
+Philanthropies for making this report possible.
+
+CONTACTS
+Ryan Shea, rshea@rmi.org
+Stephen Abbott, sabbott@rmi.org
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 3
+
+ABOUT RMI
+RMI is an independent nonprofit founded in 1982 that transforms global energy systems through market-driven
+solutions to align with a 1.5°C future and secure a clean, prosperous, zero-carbon future for all. We work in the world’s
+most critical geographies and engage businesses, policymakers, communities, and NGOs to identify and scale
+energy system interventions that will cut greenhouse gas emissions at least 50 percent by 2030. RMI has offices in
+Basalt and Boulder, Colorado; New York City; Oakland, California; Washington, D.C.; and Beijing.
+
+TABLE OF CONTENTS
+INTRODUCTION..................................................................................................................................................... 6
+VIRTUAL AND PHYSICAL PPAS....................................................................................................................... 8
+RISKS.......................................................................................................................................................................... 11
+Price Risk..........................................................................................................................................................................................................................12
+Basis Risk.........................................................................................................................................................................................................................14
+Non-Energy Market Risk........................................................................................................................................................................................... 16
+Shape Risk...................................................................................................................................................................................................................... 18
+Operational Risk.......................................................................................................................................................................................................... 20
+Volume Risk.................................................................................................................................................................................................................. 22
+
+RISK MITIGATION STRATEGIES......................................................................................................................24
+Floors and Collars....................................................................................................................................................................................................... 26
+Fixed-Volume Price Swap....................................................................................................................................................................................... 28
+Hub or Load Zone Settlement............................................................................................................................................................................... 30
+Good Faith Renegotiation.........................................................................................................................................................................................31
+Retailer-Firmed Power.............................................................................................................................................................................................. 33
+Settlement Guarantee Agreement...................................................................................................................................................................... 34
+Volume-Firming Agreement................................................................................................................................................................................... 35
+Production Guarantees............................................................................................................................................................................................ 38
+Proxy Generation........................................................................................................................................................................................................ 40
+
+CONCLUSION.......................................................................................................................................................42
+ENDNOTES............................................................................................................................................................46
+
+INTRODUCTION
+Local governments have become instrumental leaders
+in the clean energy transition. Nearly 200 US cities
+and counties and eight states have committed to 100%
+clean energy to date, covering approximately one in
+three Americans.1 Large-scale off-site renewable power
+purchase agreements (PPAs) have been the primary
+procurement method used to make progress on these
+goals, covering nearly 90% of the 9.2 gigawatts (GW)
+that local governments have procured since 2015.2 Offsite PPAs will likely continue to be a key strategy given
+their large scale and ability to act as a financial hedge.
+As with any energy procurement, off-site PPAs also
+come with risks. The wholesale market nature of
+off-site PPAs produces intricacies and financial risks
+that are not present in other renewable energy
+procurement strategies. For local governments without
+prior experience operating in wholesale markets,
+these may be new and unfamiliar.
+
+This paper aims to help local governments (hereafter
+referred to as “cities” for simplicity) understand and
+mitigate key risks by explaining what they are and the
+strategies to mitigate them, as shown in Exhibit 1.
+
+• The paper describes six specific risks: price, basis,
+
+non-energy market, shape, operational, and volume.
+While legal and accounting risks are also relevant
+to PPAs, they are outside of the scope of this paper.
+However, they are outlined in the American Cities
+Climate Challenge Renewables Accelerator’s Virtual
+Power Purchase Agreement Legal Considerations
+report. 3
+
+• The paper then summarizes nine mitigation
+
+strategies for virtual PPAs and physical PPAs.
+Some of these strategies are widely used (e.g.,
+floors and collars, hub-settled contracts, good
+faith renegotiation, and production guarantees)
+while others are emerging in the market today (e.g.,
+fixed-volume price swaps, retailer-firmed power,
+settlement guarantee agreements, volume-firming
+agreements, and proxy generation).
+
+Portions of this content have been adapted from RMI’s
+A Corporate Purchaser’s Guide to Risk Mitigation and
+the Renewable Energy Buyers Alliance’s web-based
+Risk Allocation Primer.4
+
+6 | RMI
+
+EXHIBIT 1
+Overview of Risk Mitigation Strategies for Off-Site PPAs
+
+RISK
+MITIGATION
+STRATEGY
+
+RISK MITIGATED
+
+Price Risk
+
+Basis Risk
+
+Non-Energy
+Market Risk
+
+Shape Risk
+
+Operational
+Risk
+
+Volume Risk
+
+Floors and
+Collars
+Fixed-Volume
+Price Swap
+Hub or
+Load Zone
+Settlement
+Good Faith
+Renegotiation
+RetailerFirmed Power
+Settlement
+Guarantee
+Agreement
+VolumeFirming
+Agreement
+Production
+Guarantee
+Proxy
+Generation
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 7
+
+VIRTUAL AND PHYSICAL PPAS
+Off-site renewable energy projects are front-of-themeter systems tied into the grid at the transmission
+or distribution level. PPAs are the preferred contract
+mechanism for these systems in which a buyer agrees
+to purchase the energy produced by the project
+over a set period of time at a predetermined price
+per unit of energy, such as a megawatt-hour (MWh).
+Since these agreements provide the developer with
+the revenue certainty required to finance the project,
+the buyer (i.e., a city) can claim that its purchase
+is instrumental in adding new renewable energy
+generation to the grid.
+There are two primary types of off-site PPAs: virtual
+PPAs (VPPAs) and physical PPAs (PPPAs).
+
+VIRTUAL POWER PURCHASE
+AGREEMENTS
+A VPPA is a purely financial contract where, for each
+renewable MWh, the buyer pays the project owner
+a fixed $/MWh rate and receives the variable hourly
+market $/MWh rate in return, as shown in Exhibit 2.
+In most cases, the buyer also takes ownership of
+the renewable energy certificates (RECs), which are
+created alongside every MWh of renewable energy
+generated, to claim the environmental attributes. The
+project owner sells the renewable electricity into the
+local wholesale electricity market and passes that
+revenue onto the buyer.
+
+8 | RMI
+
+Since the buyer is effectively receiving the financial
+difference between the PPA price and wholesale
+market price for each MWh, these deals are also known
+as “contracts for differences,” “fixed-for-floating swaps,”
+or “financial PPAs.” Unlike a PPPA, a VPPA is separate
+from, and does not impact, the buyer’s power supply
+agreements with its local utility or retail provider (unless
+the VPPA is contracted through the utility).
+Corporations pioneered the use of VPPAs to support
+large-scale renewable energy projects and meet their
+renewable energy goals. Since VPPAs do not involve
+physical delivery of the energy, corporations have
+used them to procure renewable energy to offset
+the energy usage at sites distributed across multiple
+geographies, regardless of whether they are located
+in deregulated or regulated energy markets. A VPPA’s
+purely financial nature has also enabled companies
+to quickly procure renewable energy at scale without
+having to create an internal energy management team
+to deal with physical energy challenges inherent with
+PPPAs. This has allowed companies such as Fifth Third
+Bank to meet 100% renewable energy goals through a
+single VPPA.5
+Cities are also starting to consider VPPAs due to
+the structure’s geographic and regulatory flexibility.
+Cities located outside a retail choice market that are
+not served by a municipal utility or community choice
+aggregation (CCA) cannot utilize a PPPA without going
+through their utility due to regulatory restrictions.
+However, they can still sign a VPPA to support projects
+located in wholesale markets. For example, Arlington
+County, Virginia, procured 38 megawatts (MW) of solar
+through a VPPA with its utility in 2020.6
+
+EXHIBIT 2
+How an Off-Site Virtual Power Purchase Agreement Works
+
+W
+
+4
+
+h
+
+$
+
+/M
+
+Wh
+
+Energy Buyer
+
+rm
+
+a
+
+Ma
+
+R
+
+No
+
+a te
+
+rk E C s
+et
+
+M
+$/
+
+The buyer purchases all of its
+electricity from its utility in the
+usual manner.
+
+lR
+
+Fi x
+ed
+
+1
+
+The energy buyer signs a
+PPA with a project developer
+for a fixed price per MWh.
+This allows the project to be
+financed and built.
+
+3
+Developer /
+Renewable
+Generator
+
+The buyer receives the
+hourly wholesale market
+price and RECs.
+Traditional
+Utility
+
+Ma
+et
+rk
+
+$/
+
+2
+
+MW
+
+h
+
+The developer sells the
+electricity from the generator
+into the wholesale market at
+the hourly market price.
+
+Electricity Grid
+/ Market
+
+PHYSICAL POWER PURCHASE
+AGREEMENTS
+In a PPPA, the buyer (i.e., a city) pays the project owner
+a fixed $/MWh rate for each renewable MWh generated
+and delivered to a predetermined delivery point within
+the local electricity market, as shown in Exhibit 3. In this
+structure, the buyer takes legal title to the electricity
+and then purchases any additional needed electricity
+from its utility (or retailer) in the usual manner.
+
+When they have the option to choose between a
+VPPA and a PPPA, most cities have opted to sign
+PPPAs to date. For example, the City of Cincinnati
+considered both deal structures for its 100 MW solar
+PPA for municipal and community load, but ultimately
+signed a physical deal.7 Load-serving branches of
+local governments, such as municipal utilities and
+CCA programs, generally want to physically purchase
+renewable energy to supply their customers.
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 9
+
+Physical transactions are also easier to conceptualize
+and explain. And since they must be executed with a
+project in the same independent system operator (ISO) or
+region as the city, they have the clear potential to produce
+local economic, workforce, and health benefits for their
+residents (although VPPAs can also provide these local
+benefits if located within the city’s region. Additionally,
+cities have preferred PPPAs due to the lower perceived
+risk in physical deals as compared with VPPAs. The VPPA
+structure more explicitly exposes a city to wholesale
+market prices, which can be challenging to cities that are
+used to paying flat utility or retail rates for their energy.
+While VPPAs and PPPAs are fundamentally different
+contract structures, it is also important to note that they
+can result in similar financial outcomes in cases where the
+
+city is already purchasing wholesale power. For example,
+consider the following hypothetical situation: a city enters
+into a PPA for a 25 MW solar project that generates
+50,000 MWh per year, and future weighted wholesale
+prices in the city’s electricity market are, on average, $2/
+MWh higher than its PPA rate over the 10-year contract.
+If the city entered into a PPPA, it would have saved $1
+million on its wholesale market purchases. Similarly, if the
+city instead entered into a VPPA with that same project, it
+would have received $1 million in revenue (separate from
+its business-as-usual electricity purchases). However, if
+the VPPA is signed with a project in a different market not
+correlated to the city’s load zone prices, this relationship
+will no longer hold.i
+
+EXHIBIT 3
+How an Off-Site Physical Power Purchase Agreement Works
+
+d
+
+M
+$/
+
+2
+i
+
+The developer delivers the
+electricity from the generator
+to a delivery point close to the
+buyer’s operations.
+
+No
+
+Cs
+
+3
+
+Energy Buyer
+
+The buyer
+takes physical
+delivery of the
+energy
+and RECs.
+
+rm
+
+al
+te
+
+Developer /
+Renewable
+Generator
+
+4
+
+Wh
+
+RE
+
+The buyer purchases
+the remaining volume of
+electricity from its utility in the
+usual manner.
+
+Ra
+
+Fix
+e
+
+1
+
+The energy buyer signs a PPA with
+a project developer for a fixed
+price per MWh. This allows the
+project to be financed and built.
+
+Traditional
+Utility
+
+Electricity Grid
+/ Market
+
+While cities may be able to access wholesale hub prices for their facilities, this paper refers to their load zone price for simplicity.
+
+10 | RMI
+
+RISKS
+Any strategy to purchase electricity will come with
+a mixture of benefits, costs, and risks. Thus, when
+considering off-site PPA risks, they should not be
+considered in a vacuum but weighed against the
+risks of alternative strategies (e.g., purchasing
+unbundled RECs at a cost premium without adding
+new renewables to the grid) or simply maintaining
+the status quo (e.g., exposing the city to the potential
+of future electricity price variability and/or carbon
+pricing impacts).
+
+This section explores basis, price, non-energy market,
+shape, volume, and operational risk. While basis, price,
+and non-energy market risks stem from uncertainty
+in the variable wholesale electricity market, shape,
+volume, and operational risks stem from uncertainty in
+the renewable energy generator’s production. Exhibit
+4 lists the degree to which buyers may be exposed to
+each of these risks in “reference” VPPAs and PPPAs
+which do not include potential mitigation strategies.
+
+Off-site PPAs provide cities with a powerful tool to
+purchase renewable energy at a large scale, but they
+also bring costs or risks which should be understood
+and mitigated where necessary. Understanding these
+potential risks is the first step in evaluating the costs
+and benefits of different risk mitigation strategies (see
+Risk Mitigation Strategies section).
+
+EXHIBIT 4
+Reference Virtual and Physical PPAs without Risk Mitigation Strategies
+PRICE RISK
+
+BASIS RISK
+
+NON-ENERGY
+MARKET RISK
+
+SHAPE RISK
+
+OPERATIONAL
+RISK
+
+VOLUME RISK
+
+Reference
+VPPA
+Reference
+PPPA
+
+Higher
+
+Typical Importance to Buyer
+
+Buyer carries full risk
+
+Lower
+
+Buyer carries no risk
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 11
+
+PRICE RISK
+What It Is
+For VPPAs and PPPAs, this is the risk associated
+with the movement and volatility of wholesale
+electricity prices.
+
+How It Affects Cities
+If market prices are above the PPA price, cities with
+PPAs can benefit by paying below-market rates for
+each MWh. However, if wholesale prices fall below
+the PPA price:
+
+• Cities with VPPAs will pay a premium to the project
+•
+
+owner for the difference between the VPPA and
+market price for each MWh generated.
+Cities with PPPAs will pay more for each MWh
+generated than they would have if they had
+purchased from the wholesale market.
+
+Further Detail
+Price risk stems from hourly and long-term fluctuations
+in wholesale prices arising from shifts in supply and
+demand, fuel prices, and transmission constraints. For
+example, an unexpected surge in wind generation due
+to a weather front might cause regional market prices to
+decrease. If the market prices fall below the PPA price,
+cities will be forced to pay above-market rates for the
+generated electricity. While the fundamental economics
+are similar, this above-market payment impacts cities
+differently depending on whether they have signed a
+VPPA or a PPPA.
+For VPPAs, price risk impacts the revenue received
+from or loss paid to the renewable energy asset’s
+owner. Exhibit 5 illustrates that when the wholesale
+price is higher than the VPPA price, the city makes
+money (i.e., the area shaded in green). Conversely,
+
+12 | RMI
+
+when the market price is lower than the VPPA price,
+the city loses money (area shaded in red). Over time, if
+the cumulative area shaded in green is more than the
+cumulative area shaded in red, the deal is profitable
+(and vice versa for a loss). In a VPPA, these fluctuations
+can also cause day-to-day, month-to-month, and
+year-to-year shifts in the profits and losses generated
+by the transaction, which should be considered when
+structuring the transaction and setting annual budgets.
+From an economic payoff perspective, price risk impacts
+a PPPA in much the same manner. While the cost of the
+energy in a PPPA is fixed, the rise or fall of energy market
+prices will dictate whether signing a PPPA saves or loses
+money as compared with purchasing energy from the
+market or via a retail provider. However, for PPPAs this
+economic profit or loss represents an opportunity cost
+rather than actual payments the buyer will have to make,
+so the price risk volatility does not directly impact the
+city’s budget or operations.
+Price risk is often the most critical issue to buyers, as
+wholesale power prices dictate the deal’s profitability
+yet are volatile over time (see Exhibit 6 for annual
+average prices in the PJM Interconnection region) and
+difficult to predict many years into the future. Since
+most PPAs last for 10–20 years, cities should evaluate a
+deal’s potential economic upside and downside using
+a variety of future pricing scenarios, and not solely rely
+on forecasts provided by project developers. Tools like
+the American Cities Climate Challenge Renewables
+Accelerator’s Solar and Wind Off-Site PPA Economic
+Calculator can be useful for this.8
+
+EXHIBIT 5
+Hourly Profit and Loss in a VPPA
+Floating Wholesale Price
+
+25
+
+Buyer Makes
+Money
+
+20
+
+Price ($/MWh)
+
+Fixed PPA Price
+
+15
+
+10
+
+Buyer Loses
+Money
+
+5
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+2015
+
+4
+
+2014
+
+3
+
+2013
+
+2
+
+2011
+
+1
+
+2010
+
+0
+21
+
+22
+
+23
+
+24
+
+Hour of Day
+
+EXHIBIT 6
+Variability of Historical Average Annual Wholesale Prices in PJM
+70
+60
+
+40
+30
+20
+10
+
+2018
+
+2017
+
+2016
+
+2012
+
+2009
+
+2008
+
+2007
+
+2006
+
+2005
+
+2004
+
+2003
+
+2002
+
+2001
+
+2000
+
+0
+1999
+
+Price ($/MWh)
+
+50
+
+Source: 2018 State of the Market Report for PJM, Monitoring Analytics.
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 13
+
+BASIS RISK
+What It Is
+This is the risk, primarily in VPPAs, that the relationship
+between the market price at the renewable generator’s
+location and the price the city pays for its electricity
+may change due to locational price differences.
+
+How It Affects Cities
+Basis risk can reduce a city’s ability to use PPAs to
+hedge against future electricity price changes.
+
+Further Detail
+One potential benefit of signing a PPA is hedging
+against future increases in energy prices. While
+cities that sign PPPAs clearly protect themselves
+from escalating prices by locking in a set price for
+the length of the contract, VPPAs can also provide a
+similar protection. For example, if energy prices rise
+uniformly by $5, a city that has signed a VPPA will both
+pay $5 more for the energy to power its facilities and
+receive $5 more from its VPPA revenues.
+This type of hedge is only applicable to cities that
+already purchase energy from their local wholesale
+market since retail prices do not reflect day-to-day or
+hour-to-hour variability of wholesale prices. Moreover,
+the effectiveness of this hedge can be eroded if the
+relationship between prices at different locations in
+the market changes over time.
+PPAs have three relevant price settlement points: the
+node (the generator’s interconnection point price), the
+hub (the simple average of node prices within the hub’s
+geographic region), and the buyer’s load zone (the loadweighted average of node prices within the load zone).
+Basis risk exists between the price at the generator’s
+location (i.e., the generation node) and the price the city
+pays for its own consumption at its load zone.
+
+14 | RMI
+
+Consider an example in which a city in Virginia signs
+a VPPA with a wind farm in West Texas. The wind farm
+delivers its power to Node 1 in the ERCOT West Hub
+within the Texas power market, as shown in Exhibit 7,
+and in return receives the nodal market price. The nodal
+prices from Nodes 1–6 are then averaged to generate
+the ERCOT West Hub prices.
+But while the VPPA revenues are linked to ERCOT
+West Node 1, the buyer’s energy expenses are linked
+to the PJM Dominion Load Zone prices in Virginia.
+Exhibit 8 indicates that ERCOT West Node 1 and
+PJM Dominion Load Zone average monthly prices
+are well correlated during most months, but in April,
+September, and October the higher prices the city
+experiences in Virginia are not fully offset by the prices
+at ERCOT West Node 1 that remain low or decrease.
+This change in the relationship between prices in
+Texas and Virginia is an example of basis risk eroding
+the VPPA’s financial hedge.
+Basis risk is typically less relevant to PPPAs, as the
+power is usually generated within or close to the city’s
+load zone or local hub. As a result, the prices at the
+point of generation and the point of consumption will
+likely be very similar. While project owners usually
+absorb any differences in these prices in a PPPA,
+that is not always the case. For example, the City of
+Houston agreed to pay the basis difference between
+its load zone and the project’s node in West Texas in
+its 50 MW PPA signed in 2017.
+
+EXHIBIT 7
+Illustrative Example of Basis Risk Between a Generator (ERCOT West Node 1) and Load Zone (PJM Dominion)
+
+Basis Risk =
+
+Price Node ~
+
+Price Load Zone
+
+1
+
+ERCOT West
+
+PJM Dominion
+
+4
+
+5
+6
+1
+
+Generator
+
+3
+
+City Load
+
+2
+
+Hub/Zone
+
+Node
+
+EXHIBIT 8
+Historic Market Prices in ERCOT West and PJM Dominion in 2016
+40
+35
+
+25
+20
+15
+10
+5
+
+ERCOT West Node 1
+
+ERCOT West Hub
+
+Dec
+
+Nov
+
+Oct
+
+Sep
+
+Aug
+
+Jul
+
+Jun
+
+May
+
+Apr
+
+Mar
+
+Feb
+
+0
+Jan
+
+Average Price ($/MWh)
+
+30
+
+PJM DOM Load Zone
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 15
+
+NON-ENERGY MARKET RISK
+What It Is
+This is the risk associated with unforeseen, nonenergy market changes occurring after a VPPA or
+PPPA is signed.
+
+How It Affects Cities
+Non-energy market changes could impact the
+financial performance of the PPA for the city or
+the project owner, which might trigger requests to
+renegotiate key terms.
+
+Further Detail
+While price risk involves the wholesale energy market,
+non-energy market risk encompasses risks related to
+other potential revenue streams. Renewable energy
+projects could be impacted by a range of non-energy
+market changes, such as retroactive changes to federal
+incentives, the creation of new markets, or adjustments
+to policies relating to environmental attributes.
+However, this paper focuses on two common nonenergy markets: capacity markets and REC markets
+created by renewable portfolio standards (RPS).
+
+In 2019, the Federal Energy Regulatory Commission
+issued its Minimum Offer Price Rule that ordered PJM
+to impose a price floor for nearly all “state-subsidized”
+resources that participate in its capacity auctions. This
+serves as an example of how new market regulations
+can impact the value of wind or solar plants, as this
+ruling may significantly reduce the capacity market
+revenues for some renewable energy projects.
+Furthermore, if the project is located in a state with
+a high RPS, the future value of its RECs could have a
+large impact on the project’s overall revenue. These
+markets can shift dramatically, making their future
+value hard to predict. For example, Exhibit 9 illustrates
+how Ohio’s REC prices declined compared to prices
+in other PJM states when the state reduced its RPS
+ambitions in 2014. Cities that choose to sell their
+project’s RECs and buy low-cost national RECs in
+hopes of increasing the project’s financial outlook are
+especially susceptible to this market risk.
+
+Capacity markets aim to provide grid reliability by
+paying power producers, on a $/MW basis, for the
+capacity they can supply the grid during a specified
+future timeframe. For cities entering into a PPA for a
+project in an ISO that operates a capacity market,ii this
+capacity revenue is either secured by the city, or, more
+frequently, by the project owner and indirectly passed
+on to the city through a lower PPA price. Thus, cities
+that directly secure this revenue are more susceptible
+to the risk of capacity market changes.
+
+ii
+
+16 | RMI
+
+PJM, ISONE, and NYISO operate mandatory capacity markets, MISO operates a voluntary capacity market, and CAISO operates a
+similar resource adequacy market.
+
+EXHIBIT 9
+Ohio’s REC Price Drop Illustrates the Risk of State Regulatory Shiftsiii, iv
+
+40
+35
+
+MD
+
+30
+
+REC Price ($/MWh)
+
+25
+20
+15
+10
+5
+
+2020
+
+2019
+
+2018
+
+2017
+
+2016
+
+2015
+
+2014
+
+2013
+
+2012
+
+2011
+
+0
+
+iii
+
+REC prices vary by class, location, and index year. These prices are for locally produced Tier 1 or Class 1 RECs created in the
+indicated year.
+
+iv
+
+SB 310 of 2014 froze the multiyear renewable ramp-up schedule for two years, removed the in-state requirement for renewable
+energy procurement, and pushed back the final renewable goal of 12.5% from 2024 to 2026 (DSIRE, 2018).
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 17
+
+SHAPE RISK
+What It Is
+For VPPAs and PPPAs, the source of shape risk
+is the uncertainty regarding the timing of the
+renewable generation.
+
+How It Affects Cities
+Shape risk impacts the financial performance and
+hedge value of VPPAs and PPPAs differently.
+
+• For a VPPA, shape risk coupled with price risk
+•
+
+creates uncertainty regarding the revenues the
+buyer receives.
+For a PPPA, shape risk requires the buyer to purchase
+or sell energy to manage over- or underproduction,
+while also impacting the deal’s opportunity cost.
+
+Further Detail
+The intersection of uncertain generation with
+uncertain market prices increases the uncertainty
+around the project’s revenue with a VPPA and avoided
+costs with a PPPA.
+For a VPPA, the uncertain generation shape impacts
+wholesale revenues received at the project’s settlement
+point. Exhibit 10 illustrates how the generation profile
+from a solar plant and the corresponding market prices
+impact the VPPA’s revenue.
+
+18 | RMI
+
+For a PPPA, uncertain generation impacts the avoided
+cost from not purchasing the energy at the market’s
+load zone price. Additionally, in a PPPA, when the
+renewable generator produces more power than
+the city needs, the city is exposed to the generator’s
+node price since it must sell the excess power into the
+wholesale market.
+When evaluating the financial impacts between
+pursuing a VPPA and PPPA for a project, the impacts
+on a PPPA’s avoided costs are equivalent to those on a
+VPPA’s revenue if the city is purchasing energy on the
+wholesale market.
+Shape risk also impacts a PPA’s hedge effectiveness.
+In a PPPA, over- or underproduction from the
+project would typically force the city to transact in
+the wholesale market, reducing its price certainty.
+Meanwhile, in a VPPA, if generation and consumption
+are not coincident (and they rarely are), changing
+wholesale energy prices throughout the day may lead
+to the VPPA revenues not fully offsetting the city’s
+energy costs.
+
+EXHIBIT 10
+A VPPA’s Revenue (bottom) Is Impacted by the Shape of the Renewable Generation and Wholesale Prices (top)
+
+Solar PV Generation
+
+Floating Wholesale Price
+
+Fixed PPA Price
+
+25
+
+40
+35
+
+20
+
+25
+
+15
+
+20
+10
+
+15
+
+Generation (MW)
+
+Price ($/MWh)
+
+30
+
+10
+
+5
+
+5
+0
+
+0
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+Hour of Day
+
+VPPA Revenue = Renewable Generation X (Wholesale Price - PPA Price)
+400
+300
+
+More revenue gains at 1 p.m.
+than 6 p.m. because of higher
+solar generation despite
+similar wholesale price
+
+Revenue ($)
+
+200
+100
+0
+1
+-100
+-200
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+More revenue loss at 11 a.m.
+than 7 a.m. because of higher
+solar generation despite
+similar wholesale price
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 19
+
+OPERATIONAL RISK
+What It Is
+This is the risk associated with a renewable
+generator’s performance being compromised due to
+inadequate or failed processes, people, equipment, or
+systems, or from external events.
+
+How It Affects Cities
+Decreased generation could lead to decreased profit
+(or loss) and RECs for the city.
+
+Further Detail
+Operational risk is, for the purposes of this paper,
+uncertainty in renewable generator performance due to
+factors other than weather. Project underperformance
+can occur due to important equipment being taken offline for maintenance or degrading due to wear and tear,
+operational errors, force majeure events, or intentional
+curtailment of generation.
+System operators may require generators to
+curtail, or limit, their generation when suppliers are
+unexpectedly providing more power than the grid
+demands at a system-wide level. System operators
+may also order curtailments at a local level if the
+transmission lines have insufficient capacity to carry
+the renewable electricity to where it is needed in
+the system. Exhibit 11 illustrates how transmission
+constraints can vary over time; transmission
+upgrades in West Texas allowed ERCOT to decrease
+curtailment from 2012 to 2014 despite increasing
+wind penetration.
+
+20 | RMI
+
+Market averages, however, may differ from project
+specific curtailment. For example, the average
+curtailment within ERCOT was 2.5% in 2018, but four
+wind projects totaling nearly 600 MW experienced
+curtailment of 18%–25%.9 Project owners may also
+curtail their plants intentionally to avoid financial losses
+for themselves and/or a buyer if market prices fall
+below a certain threshold (e.g., $0/MWh).
+Another type of operational risk is a force majeure
+event: an unforeseen event causing disruption to the
+generator, such as a natural disaster. These types
+of events could damage the asset and reduce its
+generation potential.
+As with volume risk, decreased output will impact the
+project’s economic performance and decrease REC
+production for both VPPAs and PPPAs, which can
+impact a city’s ability to meet its sustainability goals.
+
+EXHIBIT 11
+ERCOT and MISO Wind Curtailment Over Time Illustrates How the Operational Risk of Curtailment Depends on
+Renewable Penetration and Transmission Capacity
+
+20%
+
+Major transmission upgrades in West Texasfrom 2012 to 2014 decreased curtailment while
+wind penetration increased
+
+7%
+6%
+
+16%
+14%
+12%
+
+5%
+
+10%
+
+4%
+
+8%
+
+3%
+
+6%
+
+2%
+
+4%
+
+ERCOT Wind Curtailment
+
+ERCOT Wind Penetration
+
+MISO Wind Curtailment
+
+2018
+
+2017
+
+2016
+
+2015
+
+0%
+
+2014
+
+0%
+2013
+
+2%
+
+2012
+
+1%
+
+Annual Renewable Penetration
+
+18%
+
+8%
+
+2011
+
+Annual Renewable Generation Curtailed
+
+9%
+
+MISO Wind Penetration
+
+Source: 2018 Wind Technologies Market Report, Lawrence Berkeley National Laboratory.
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 21
+
+VOLUME RISK
+What It Is
+This is the risk of uncertainty in the overall amount of
+renewable energy generation.
+
+How It Affects Cities
+For both VPPAs and PPPAs, varying weather patterns
+create uncertainty regarding the amount of renewable
+generation, which impacts the project’s value and
+number of RECs created. In PPPAs, this also creates
+uncertainty regarding the amount of additional
+balancing energy required.
+
+Further Detail
+While the uncertainty in the amount of renewable
+energy generated associated with volume risk
+could be due to various factors, this paper defines
+volume risk as weather-driven to differentiate it from
+operational risk. Furthermore, while the timing of
+renewable generation inherent in shape risk can
+also be weather-driven, volume risk is distinctly
+associated with the uncertainty in the overall amount
+of renewable generation.
+Since the value of a VPPA to a city in any given
+period is the product of the energy generated and
+the difference between the market and VPPA prices,
+any variability in the former causes uncertainty to the
+project’s value. This could lead to cash flows being
+higher or lower than expected, exposing the city to
+upside and downside risk.
+
+22 | RMI
+
+For PPPAs, volume risk similarly impacts the
+opportunity cost of the deal, translating to uncertainty
+in the balancing energy required to meet the city’s
+load. Depending on the city’s electricity purchasing
+structure, this translates to either purchasing more or
+less energy on the wholesale market or from the city’s
+utility or retailer.
+Uncertainty in renewable energy generation also
+impacts a project’s total creation of RECs. In both
+VPPAs and PPPAs, this could lead to the city receiving
+too few or too many RECs to meet its renewable
+energy goals in a given year. Exhibit 12 illustrates how
+a lower-than-expected solar resource in the summer
+could lead to underproduction and a shortfall in RECs.
+
+EXHIBIT 12
+Weather-Related Impacts on the Actual Amount of Renewable Energy and RECs Generated
+
+8,000
+
+60,000
+
+An unusually cloudy summer leads to
+underproduction and fewer RECs than
+anticipated
+
+50,000
+
+Monthly Generation (MWh)
+
+6,000
+40,000
+5,000
+
+4,000
+
+30,000
+
+Annual Generation (MWh)
+
+7,000
+
+3,000
+20,000
+2,000
+10,000
+1,000
+
+-
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+Month
+Actual Annual
+
+Estimated Annual
+
+Actual Monthly
+
+Estimated Monthly
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 23
+
+RISK MITIGATION STRATEGIES
+Having explored the associated risks inherent
+with VPPAs and PPPAs, this section will introduce
+strategies to mitigate those risks. Exhibit 13 provides
+an overview of the key risk mitigation strategies
+and the specific risks that each one addresses. The
+risks are sorted horizontally based upon typical
+importance to a buyer, while the risk mitigation
+strategies are ordered based upon the primary risk(s)
+that each one mitigates.
+It is important to bear in mind that no risk management
+strategy comes for free. Choosing the right strategy
+requires finding the right balance between your city’s
+risk tolerance and, typically, a higher PPA price. The
+preferred risk mitigation strategies should be noted
+early on in the request for proposal (RFP) as they will
+likely impact the proposed PPA price.
+
+24 | RMI
+
+To illustrate the effectiveness of each strategy, this
+section will assess how a buyer’s exposure to key risks
+changes when a risk mitigation approach is added onto
+the “reference” VPPA and PPPA (Exhibit 13).
+The reference VPPA assumes settlement at a node
+outside of the city’s ISO and does not include any of the
+following risk mitigation strategies. The reference PPPA
+assumes settlement at a node within the city’s ISO and
+outside of its load zone and does not include any of the
+following risk mitigation strategies. The reference PPA
+is not meant to represent the most common structure,
+rather one simply without any risk mitigation strategies.
+Each risk mitigation strategy covered will note whether
+the strategy in question was utilized by Cincinnati,
+Ohio; Houston, Texas; Philadelphia, Pennsylvania; and
+Arlington County, Virginia, in their PPAs.
+
+RISK
+MITIGATION
+STRATEGY
+
+CONTRACT TYPE
+
+VPPA
+
+PPPA
+
+RISK MITIGATED
+
+Price Risk
+
+Basis Risk
+
+NonEnergy
+Market
+Risk
+
+Shape Risk
+
+Operational
+Risk
+
+Volume
+Risk
+
+Floors and
+Collars
+Fixed-Volume
+Price Swap
+Hub or
+Load Zone
+Settlement
+Good Faith
+Renegotiation
+RetailerFirmed Power
+Settlement
+Guarantee
+Agreement
+VolumeFirming
+Agreement
+Production
+Guarantee
+Proxy
+Generation
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 25
+
+FLOORS AND COLLARS
+What It Is
+Floors and collars are agreements within the VPPA
+contract between the city and project developer that
+reduce the city’s exposure to prices below and/or
+above a certain threshold. A floor is a minimum limit
+for the market price, and thus revenue, that a city can
+receive from the sale of the electricity. A collar consists
+of minimum and maximum limits within which a city can
+receive market prices. These structures are not typically
+used in PPPAs since the buyer in physical contracts is
+not directly exposed to floating market prices.
+As an example, consider a contract that has a collar
+with a maximum limit of $30/MWh and a minimum limit
+of $10/MWh. If the market price falls to $8/MWh, the
+city will still receive $10/MWh in revenue with the extra
+$2/MWh being supplemented by the project owner.
+If, however, the price rises to $34/MWh, the city will
+receive only $30/MWh and the additional $4/MWh
+would pass on to the project owner.
+Negative pricing protections have become a fairly
+common form of floor protection in VPPAs. These are
+essentially $0 floors which protect the buyer from
+
+v
+
+26 | RMI
+
+having to pay the PPA price and receiving a negative
+market price in return. Negative pricing can occur when
+a sufficient number of generators are willing to pay
+(rather than receive) money to continue operating (e.g.,
+to capture the production tax credit or avoid facility shut
+down and start-up expenses).
+Including a floor in a VPPA contract significantly reduces
+downside risk for the city. Therefore, project owners
+may either ask for a collar or to increase the VPPA price
+in exchange for taking on this risk.
+
+Which City Risks Are Mitigated
+Utilizing a floor or collar in a VPPA primarily reduces
+price risk, while also indirectly reducing basis risk, as
+shown in Exhibit 14.
+
+• Price risk: Constraints on the lowest and highest
+•
+
+market prices the city can receive significantly
+reduce price risk for cities by limiting the potential
+range of revenues per MWh.v
+Basis risk: In cases where the generator’s locational
+price experiences localized disruptions (e.g.,
+an isolated large weather event increases wind
+
+Reducing price risk also indirectly reduces the impact of shape risk since shape risk involves the intersection of variable
+generation and market prices. However, since floors and collars do not reduce the source of shape risk (i.e., uncertainty in the
+generation profile), shape risk was not listed as a risk mitigated.
+
+production in West Texas and drives local prices
+down), a floor or collar can somewhat insulate the
+city from the resulting disruption in the correlation
+between the project’s locational prices and the city’s
+load zone prices.
+
+Where It Has Been Done Before
+While there are no known cities that have used floors
+or collars, they are common in corporate VPPAs.
+As an alternative to a price floor, Arlington County
+chose to include in their VPPA a unique rate-changing
+mechanism at annual true-up to alleviate short-term
+price risk in their budget planning.vi
+
+EXHIBIT 14
+Distribution of Risks with Price Floors/Collars versus the Reference VPPA
+PRICE RISK
+
+BASIS RISK
+
+NON-ENERGY
+MARKET RISK
+
+SHAPE RISK
+
+OPERATIONAL
+RISK
+
+VOLUME RISK
+
+Reference
+VPPA
+VPPA with a
+Floor/Collar
+
+Buyer carries full risk
+
+vi
+
+Buyer carries no risk
+
+This mechanism used a modified annual, instead of monthly, true-up mechanism that alters the next year’s PPA rate instead of the
+typical true-up of owing or receiving a lump sum. For example, when the County is owed a credit at the end of the year, the next
+year’s PPA rate is lower. If the County owes money, the next year’s rate is higher.
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 27
+
+FIXED-VOLUME PRICE SWAP
+What It Is
+
+price it receives from a fixed number of megawatts
+to a hedge provider (e.g., a large bank or commodity
+trading firm) and receives a fixed price in return. This
+structure effectively allows a buyer to “unwind” a
+portion of the VPPA.
+
+A fixed-volume price swap (FVPS) is a purely financial
+transaction, separate from a standard VPPA contract,
+between the city and a hedge provider to mitigate
+price risk. The city passes on the floating market
+
+EXHIBIT 15
+An FVPS Decreases Revenue Fluctuations in a Standalone VPPA
+
+PPA Price
+
+Wholesale Price
+
+RE Generation
+
+Fixed Volume
+
+25
+
+40
+
+Price ($/MWh)
+
+30
+25
+
+15
+
+20
+10
+
+15
+10
+
+5
+
+5
+0
+
+0
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+Hour of Day
+
+VPPA Standalone =
+= RE Generation X
+(Wholesale Price PPA Price)
+
+$400
+$300
+
+FVPS add-on =
+= Fixed Volume
+X (PPA Price Wholesale Price)
+
+VPPA + FVPS=
+(RE Generation Fixed Volume) X
+(Wholesale Price
+- PPA Price)
+
+Revenue ($)
+
+$200
+$100
+0
+-$100
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+-$200
+-$300
+
+28 | RMI
+
+Hour of Day
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+Generation or Volume (MW)
+
+35
+20
+
+This structure removes the impact of market prices,
+and thus financial risk, for the amount of fixed volume
+in the FVPS during generating hours. For simplicity, this
+example assumes that the FVPS price is the same as the
+PPA price, although it can be higher or lower.
+Since fixed-volume price swaps include a third party,
+there are additional transaction costs, fees, and credit
+risks involved in executing them. Also, a fixed-volume
+guarantee may require derivative accounting treatment,
+particularly in the case of companies utilizing Financial
+Accounting Standards Board accounting standards.
+
+Which City Risks Are Mitigated
+The FVPS primarily reduces price risk while increasing
+volume and shape risk, as shown in Exhibit 16. The
+degree to which each risk is impacted is dependent
+on the volume covered in the swap.
+
+• Price risk: By swapping the floating market prices
+
+•
+
+•
+
+for the specified megawatts for a fixed price,
+the FVPS structure eliminates price risk for the
+megawatts included in the swap.vii However, price
+risk remains for any generation which exceeds the
+FVPS fixed-volume threshold.
+Volume risk: An FVPS increases volume risk for the
+city because the city is responsible for providing a
+set amount of “power” to the hedge provider. This
+means that if the project underproduces, the city will
+have to “financially backfill” that missing volume for
+the hedge provider.
+Shape risk: An FVPS increases shape risk for the
+city because by having to provide a set amount of
+“power” at certain times they are more susceptible
+to the timing of renewable generation.
+
+Where It Has Been Done Before
+While there are no known cities that have used an FVPS,
+many commercial and industrial (C&I) buyers have used
+an FVPS in their VPPA.
+
+EXHIBIT 16
+Distribution of Risks with an FVPS versus the Reference VPPA
+PRICE RISK
+
+BASIS RISK
+
+NON-ENERGY
+MARKET RISK
+
+SHAPE RISK
+
+OPERATIONAL
+RISK
+
+VOLUME RISK
+
+Reference
+VPPA
+VPPA WITH
+A FVPS
+
+Buyer carries full risk
+
+Vii
+
+Buyer carries no risk
+
+By decoupling a VPPA’s revenues from wholesale market prices, an FVPS may decrease a VPPA’s hedge value for cities that
+purchase their energy at variable wholesale market prices. That said, an FVPS may increase the hedge value for cities that
+purchase their energy at a fixed retail rate from a utility or retail provider.
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 29
+
+HUB OR LOAD ZONE SETTLEMENT
+What It Is
+In a VPPA, a city may choose to settle at the hub to
+receive the generator’s hub pricing (instead of node
+pricing) as its floating market price. The project owner
+will still sell the project’s power at the node, meaning
+that the owner will have to accept the basis risk
+between the project’s node and its hub. Similarly, with
+a PPPA, the city may choose to take delivery at its
+load zone, in which case the project owner manages
+differences between the project and load zone prices.
+
+• Basis risk: Compared with nodal prices, hub or load
+
+zone prices should generally be less volatile and
+more correlated with the prices that a city pays to its
+energy supplier for delivered electricity. To the extent
+that this is true, settling at a hub or load zone will
+reduce the basis risk to which the city is exposed.
+
+• Price risk: Hub and load zone prices are, on average,
+less volatile than node prices. Thus, settling at
+the hub typically reduces the volatility in market
+prices the city receives from a VPPA and, therefore,
+reduces price risk.
+
+Which City Risks Are Mitigated
+Settling at the hub or load zone primarily reduces
+basis risk while slightly reducing price risk for VPPAs,
+as shown in Exhibit 17.
+
+Where It Has Been Done Before
+The cities of Philadelphia and Cincinnati took
+electricity delivery within their load zone in their
+PPPAs signed in 2019.
+
+EXHIBIT 17
+Distribution of Risks for Hub-Settled VPPA and Load Zone-Delivered PPPA versus the Reference VPPA and PPPA
+PRICE RISK
+
+BASIS RISK
+
+NON-ENERGY
+MARKET RISK
+
+SHAPE RISK
+
+OPERATIONAL
+RISK
+
+Reference
+VPPA
+Hub-Settled
+VPPA
+Reference
+PPPA
+Load ZoneDelivered
+PPPA
+
+Buyer carries full risk
+
+30 | RMI
+
+Buyer carries no risk
+
+VOLUME RISK
+
+GOOD FAITH RENEGOTIATION
+What It Is
+
+Which City Risks Are Mitigated
+
+A “good faith renegotiation” clause in a VPPA or PPPA
+states that if an impactful regulatory change occurs, the
+city and project owner are required to meet and attempt
+in good faith to negotiate amendments that as far as
+possible restore to both parties the original balance of
+burdens and benefits. The rationale is that neither party
+knows what changes might occur, and neither party can
+control them, so the two parties should share this risk
+and renegotiate terms as needed.
+
+A good faith renegotiation clause in a VPPA or PPPA
+can reduce non-energy market risk and/or price risk,
+as shown in Exhibit 18.
+
+These clauses can incorporate changes to both energy
+and non-energy markets to mitigate the risk that the
+city and/or project owner would be financially impacted.
+Financial thresholds may be specified to determine
+when these negotiations should be pursued.
+PPAs can also include backstop clauses that specify
+a PPA rate change corresponding to specific market
+rule changes if parties cannot in good faith agree
+to a reasonable amendment (e.g., if an RPS change
+impacts average annual project REC prices by at least
++/-75% and parties cannot agree to a price amendment
+within one year from the rule change date, the new
+PPA rate will change by +/- $2/MWh). Backstop clauses
+are most suitable for non-energy (e.g., capacity)
+market rule changes.
+
+• Non-energy market risk: Including non-energy
+
+•
+
+market changes within the good faith negotiation
+clause can reduce the risk that future regulatory
+changes will disproportionately impact the city
+and/or project owner. Parties may also want
+to include renegotiation triggers in the case of
+unexpected upside (e.g., the state strengthens its
+RPS and REC prices significantly increase).
+Price risk: If this clause incorporates energy market
+changes, this strategy may help protect the city
+from systemic electricity market price changes that
+arise from fundamental market shifts over the life
+of the contract (e.g., changes to ISO policies or
+pricing methodologies).
+
+Where It Has Been Done Before
+In Arlington County’s VPPA, the good faith
+renegotiation clause focused on changes to the
+utility program that would impose additional costs
+on the seller above a specified threshold. The City of
+Cincinnati’s PPPA included a good faith renegotiation
+clause to address capacity market changes. Finally,
+the City of Philadelphia’s PPPA included capacity
+market changes, market price availability changes,
+and a backstop $/MWh PPA price reduction related to
+capacity market changes if the parties could not agree
+upon an alternative.
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 31
+
+EXHIBIT 18
+Distribution of Risks with Good Faith Renegotiation Clauses versus the Reference VPPA and PPPA
+PRICE RISK
+
+BASIS RISK
+
+NON-ENERGY
+MARKET RISK
+
+SHAPE RISK
+
+OPERATIONAL
+RISK
+
+Reference
+VPPA
+VPPA with
+Good Faith
+Renegotiation
+Reference
+PPPA
+PPPA with
+Good Faith
+Renegotiation
+
+Buyer carries full risk
+
+32 | RMI
+
+Buyer carries no risk
+
+VOLUME RISK
+
+RETAILER-FIRMED POWER
+What It Is
+
+Which City Risks Are Mitigated
+
+A city can sign a PPPA contract with a retail electricity
+provider (REP) that incorporates renewable generation
+into the city’s retail service and manages any over- or
+underproduction from the assets.viii
+
+Retailer-firmed power eliminates or reduces shape,
+volume, basis, and operational risk, as shown in Exhibit 19.
+
+In the United States, 17 states and the District of
+Columbia have enacted some level of retail choice,
+allowing energy consumers the flexibility to choose
+their electricity supplier. In these areas, cities may
+have the option to arrange for a REP to incorporate
+a PPPA into their retail service or ask the retailer to
+sign PPAs on the city’s behalf. The retailer would
+then be responsible for managing any variation in
+hourly generation, as well as any long-term over- or
+underproduction, to ensure that the city receives the
+power it needs at any given moment.
+In the fairly common scenario where the PPA term
+exceeds the life of the retail contract, the contract
+could either stay with the retail provider or the city
+could retain the PPPA. As the retail provider would be
+managing a variety of risks, the city would have to pay a
+premium above a PPPA price for these services.
+
+• Shape risk: By managing the variation in production
+•
+
+•
+•
+
+and ensuring that the city receives shaped power
+to meet its hourly demand, a retail solution would
+eliminate shape risk.iX
+Volume risk: By managing the day-to-day fluctuations
+in generation, the REP would absorb much of the
+volume risk. Cities may need to separately handle
+the risk of REC over- or underproduction or include
+requirements regarding REC purchases and sales
+within the retail contract.
+Basis risk: The retailer will likely take on the basis risk,
+thus eliminating basis risk for the city.
+Operational risk: The retailer takes on the operational
+risk by guaranteeing shaped power. However, REC
+shortfalls are still possible from underproduction.
+
+Where It Has Been Done Before
+The City of Houston’s 2020 retail contract with NRG
+Energy specified that the city’s load would be served
+with 100% renewable energy, to be sourced from newly
+developed solar projects. NRG will retain ownership of
+the solar assets at the end of the contract.
+
+EXHIBIT 19
+Distribution of Risks with Retailer-Firmed Power versus the Reference PPPA
+PRICE RISK
+
+BASIS RISK
+
+NON-ENERGY
+MARKET RISK
+
+SHAPE RISK
+
+OPERATIONAL
+RISK
+
+VOLUME RISK
+
+Reference
+PPPA
+RetailerFirmed Power
+Buyer carries full risk
+
+Buyer carries no risk
+
+While a retailer could be open to managing a VPPA as part of a contract, this is not common and thus the impacts on VPPAs are
+not included.
+ix
+Reducing shape risk also indirectly reduces exposure to wholesale market prices. However, since retailer-firmed power does not
+reduce the source of price risk (i.e., volatility in the wholesale market price the city could have paid otherwise), price risk was not
+listed as a risk mitigated.
+viii
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 33
+
+SETTLEMENT GUARANTEE
+AGREEMENT
+What It Is
+
+Which City Risks Are Mitigated
+
+A settlement guarantee agreement (SGA) is a
+financial transaction contracted in parallel with or
+after the execution of a VPPA that locks in the value
+of future variable VPPA settlements for a premium or
+payment, depending on the expected future value
+of the VPPA (as illustrated in Exhibit 20). An SGA
+transfers price, shape, and volume risk from a city to
+an insurer, providing financial certainty on the future
+value of the VPPA.
+
+An SGA mitigates price, shape, and volume risk, as
+shown in Exhibit 21, but only for the duration of the
+SGA contract.x
+
+EXHIBIT 20
+The Total Costs with a Standalone VPPA and with an
+SGA Add-On
+Total City Costs
+with VPPA
+
+=
+
+BAU costs + Variable VPPA
+Settlement Amount
+
+SGA Costs
+
+=
+
+Fixed SGA Amount - Variable
+VPPA Settlement Amount
+
+Total City Costs
+with VPPA + SGA
+
+=
+
+BAU costs + Fixed SGA Amount
+
+• Price risk: Since the variable future value of VPPA
+•
+•
+
+settlements have been transferred to an insurer, the
+city is no longer financially impacted by future power
+price variability.
+Shape risk: Since the variable future value of VPPA
+settlements have been transferred to an insurer, the
+city is no longer financially impacted by the variability
+in future timing of generation.
+Volume risk: Since the variable future value of VPPA
+settlements have been transferred to an insurer, the
+city is no longer financially impacted by future volume
+of generation variability. However, cities still face the
+risk of underproduction leading to less REC creation
+and not meeting their renewable energy goals.
+
+Where It Has Been Done Before
+While no known cities have used SGAs yet, some
+corporations have recently utilized SGAs. For
+example, in 2020, Iron Mountain added an SGA onto
+VPPAs signed in 2016 and 2017.10
+
+EXHIBIT 21
+Distribution of Risks with a Settlement Guarantee Agreement versus the Reference VPPA
+PRICE RISK
+
+BASIS RISK
+
+NON-ENERGY
+MARKET RISK
+
+SHAPE RISK
+
+OPERATIONAL
+RISK
+
+VOLUME RISK
+
+Reference
+VPPA
+VPPA with an
+SGA
+
+Buyer carries full risk
+x
+
+34 | RMI
+
+Buyer carries no risk
+
+SGAs typically settle using proxy generation, which is described later in this report, rather than actual generation. As such, SGAs
+do not reduce operational risk. Additionally, SGAs often do not mitigate basis risk because they are typically settled at a project’s
+node rather than at the hub, where most VPPAs are settled.
+
+VOLUME-FIRMING AGREEMENT
+What It Is
+A volume-firming agreement (VFA) is a financial
+transaction added onto VPPAs to eliminate shape and
+volume risk. It is also designed to improve a VPPA’s
+hedge effectiveness for cities purchasing wholesale
+power with flat or otherwise consistent and predicable
+electricity demand (e.g., a water treatment plant).
+Exhibit 22 shows how, in a normal VPPA, the timing of
+renewable energy generation does not match the city’s
+consistent load. This disconnect undermines the VPPA’s
+effectiveness as a hedge against its unpredictable
+business-as-usual (BAU) hourly electricity costs (i.e., a
+VPPA is a perfect hedge that results in fixed costs only
+during the hours when the renewable energy project
+generates exactly the same amount of electricity that
+the city physically consumes). VFAs directly resolve
+this discrepancy by allowing cities to exchange their
+VPPA revenues for what would have been earned if
+the project had produced energy at fixed volumes
+throughout the course of a day (i.e., the financial
+equivalent of firmed power).
+As a result, a VFA transfers the financial risks of overor underproduction by a renewable energy project to
+an insurer, enabling a city to source renewable energy
+and lock in its electricity consumption costs at the
+same time (see Exhibit 22). Since VFAs involve a third
+counterparty and transfer a significant amount of risk
+away from the city, they will involve transaction costs.
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 35
+
+EXHIBIT 22
+A VFA Added onto a VPPA Increases the Predictability of City Energy Costsxi
+
+PPA Price
+
+Wholesale Price
+
+VFA Price
+
+RE Generation
+
+City Load
+
+25
+
+40
+
+Price ($/MWh)
+
+30
+25
+
+15
+
+20
+10
+
+15
+10
+
+5
+
+Generation or Volume (MW)
+
+35
+20
+
+5
+0
+
+0
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+20
+
+21
+
+22
+
+23
+
+24
+
+Hour of Day
+
+400
+
+BAU Costs = City Load X Wholesale Price
+VPPA Costs = (RE Generation X PPA Price) - (RE Generation X Wholesale Price)
+VFA Costs = (City Load X VFA Price) - VPPA Costs - BAU Costs
+
+Electricity Costs ($)
+
+BAU + VPPA + VFA Costs = City Load X VFA Price
+
+200
+
+0
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
+
+Hour of Day
+
+xi
+
+36 | RMI
+
+For simplicity, the BAU, VPPA, and VFA equations assume that there are no geographic disparities in wholesale market prices
+between the city’s load zone and the project’s hub.
+
+Which City Risks Are Mitigated
+
+or underproduction. However, since REC creation
+is based on actual generation, cities still face the
+risk of underproduction leading to not meeting
+their renewable energy goals.
+
+A VFA mitigates price, shape, and volume risk, as
+shown in Exhibit 23.xii
+
+• Price risk: A VFA is designed to simplify a buyer’s
+
+•
+•
+
+future energy expenditures per MWh to a single,
+fixed VFA price. By largely eliminating direct,
+regular exposure to wholesale prices, VFAs
+significantly enhance annual budget certainty,
+making a buyer’s price risk comparable to that of
+a PPPA.
+Shape risk: Guaranteeing a fixed “volume” for
+each hour eliminates shape risk.
+Volume risk: Guaranteeing a fixed “volume”
+eliminates the financial risks associated with over-
+
+Where It Has Been Done Before
+While no known cities have used VFAs yet, multiple
+C&I buyers have utilized this risk management
+tool to improve the hedge efficacy of their VPPAs.
+Microsoft publicly announced their use of this tool
+for various VPPAs starting in 2018.11
+
+EXHIBIT 23
+Distribution of Risks with a Volume-Firming Agreement versus the Reference VPPA
+PRICE RISK
+
+BASIS RISK
+
+NON-ENERGY
+MARKET RISK
+
+SHAPE RISK
+
+OPERATIONAL
+RISK
+
+VOLUME RISK
+
+Reference
+VPPA
+VPPA with a
+VFA
+
+Buyer carries full risk
+
+xii
+
+Buyer carries no risk
+
+A VFA does not mitigate operational risk since it does not impact operational-related processes. Additionally, a VFA will not
+mitigate basis risk unless the VFA, VPPA, and load zone settlements are all settled at the same price point.
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 37
+
+PRODUCTION GUARANTEES
+What It Is
+Production guarantees include requirements for when
+the developer will commence production, how much
+will be produced, or when generation will be available
+(all subject to the PPA’s force majeure clause).
+
+• Commercial operation date (COD) guarantees
+
+•
+
+•
+
+38 | RMI
+
+require that the plant begin feeding electricity into
+the transmission system by a specified date. COD
+deadlines are quite common and typically specify
+both an expected COD and guaranteed COD as
+well as the repercussions for failing to comply. The
+period between expected and guaranteed COD
+typically ranges from 90 to 360 days.
+Availability guarantees require that the plant be
+mechanically able to generate for a specified
+percentage of the year (e.g., all plant equipment
+must be fully operational for 99.5% of the
+year). An availability guarantee is, in effect, a
+promise that the project owner will perform
+necessary maintenance to ensure that the plant is
+mechanically able to perform.
+Output guarantees require the plant to generate a
+minimum amount of electricity over the course of a
+year or some other timeframe (e.g., two-year rolling,
+weather-adjusted, 90% guarantee of the P50). An
+output guarantee is, in effect, a promise by the
+project developer that the plant will actually output
+some amount of electricity (and therefore RECs) over
+a period of time. Output guarantees are possible but
+less common in VPPAs.
+
+It is important to consider what rights the city will have
+if the project owner fails to deliver on its guarantees.
+In particular, the city may want to specify whether
+the project owner will be required to purchase
+replacement RECs to make up for production shortfalls.
+The city may even consider a REC replacement clause
+even in situations where the project owner did not fail
+to meet its obligations (e.g., a wind project meets its
+mechanical availability requirements but still does not
+generate the required number of RECs due to poor
+weather conditions).
+
+Which City Risks Are Mitigated
+Production guarantees specifically address
+operational risk, as shown in Exhibit 24, by providing
+some level of protection to the city against project
+underperformance.
+
+Where It Has Been Done Before
+The City of Cincinnati and City of Philadelphia
+utilized an output guarantee with shortfall payment
+clauses and economic curtailment specifications in
+their PPPAs. The cities of Cincinnati and Philadelphia
+and Arlington County specified a required COD.
+
+EXHIBIT 24
+Distribution of Risks with Production Guarantees versus the Reference VPPA and PPPA
+PRICE RISK
+
+BASIS RISK
+
+NON-ENERGY
+MARKET RISK
+
+SHAPE RISK
+
+OPERATIONAL
+RISK
+
+VOLUME RISK
+
+Reference
+VPPA
+VPPA with
+Production
+Guarantee
+Reference
+PPPA
+PPPA with
+Production
+Guarantee
+
+Buyer carries full risk
+
+Buyer carries no risk
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 39
+
+PROXY GENERATION
+What It Is
+Proxy generation is a weather resource-based
+methodology for calculating the hourly volume of
+energy that a given renewable energy project would
+have generated had it achieved its planned operational
+efficiency. A third-party calculation agent typically
+determines proxy generation, translating hourly
+measured wind or solar resource data into expected
+energy generation.xiii
+
+Additionally, these availability projections typically
+focus on annual or seasonal limits, which can have little
+impact on exposures created at the hourly level (e.g.,
+mechanical shutdowns during an extreme weather
+event when power prices tend to be very high).
+Similar to production guarantees, REC shortfall concerns
+can be alleviated by requiring project owners to deliver
+the number of RECs that would have been created
+according to the proxy generation calculations.
+
+The buyer is then compensated based on the amount
+of proxy generation (a modeled value) as opposed to
+metered generation (an observed quantity) from the
+renewable energy project. This shields the city from a
+range of mechanical and operational risks, including
+over- or underperformance of the panels or turbines,
+plant or substation failures, maintenance downtime, or
+curtailment that could decrease production.
+For example, if a 100 MW solar project generates
+only 75 MW at noon due to a technical fault, but the
+calculated proxy generation was 95 MW, the city’s
+VPPA revenue or loss will be based on the 95 MW
+[(Market $/MWh price – PPA $/MWh price) X 95 MW].
+Similarly, if the project generates more than the proxy
+generation, the city’s revenue or loss is still based on
+the proxy generation.
+Proxy generation provides the added benefit of
+simplifying VPPA contract terms. VPPAs based on actual
+generation typically attempt to mitigate the buyer’s
+exposure to mechanical risk and operational decisions
+through availability guarantees, production minimums,
+maintenance schedule restrictions, and so forth.
+These terms are typically complex, time-consuming to
+negotiate, and difficult to monitor and enforce.
+
+xiii
+
+40 | RMI
+
+For more detail on Proxy Generation calculations, see https://orrick.blob.core.windows.net/orrick-cdn/Proxy_Generation_
+PPAs.pdf
+
+Which City Risks Are Mitigated
+
+Where It Has Been Done Before
+
+Proxy generation specifically addresses operational
+risk, as shown in Exhibit 25. Because proxy generation
+guarantees that the city is compensated even when the
+generator is unavailable, underperforming, or curtailed,
+it eliminates operational risk.
+
+While no known cities have utilized proxy
+generation, more than 5,000 MW of offtake
+contracts have been signed by insurers and C&I
+buyers utilizing proxy generation.
+
+EXHIBIT 25
+Distribution of Risks with Proxy Generation versus the Reference VPPA
+PRICE RISK
+
+BASIS RISK
+
+NON-ENERGY
+MARKET RISK
+
+SHAPE RISK
+
+OPERATIONAL
+RISK
+
+VOLUME RISK
+
+Reference
+VPPA
+VPPA with
+Proxy
+Generation
+Buyer carries full risk
+
+Buyer carries no risk
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 41
+
+CONCLUSION
+Cities are increasingly looking to large off-site PPAs
+to achieve their renewable energy goals due to their
+benefits in scale, geographic flexibility, and financial
+hedge potential. When utilizing these procurement
+structures it is important that they understand their
+inherent risks and the available strategies to mitigate
+those risks. Virtual PPA and physical PPA contracts
+expose buyers to price, basis, non-energy market,
+shape, operational, and volume risk, in order of typical
+importance to buyers.
+For VPPAs, Exhibit 26 illustrates the degree to which
+various market strategies can mitigate those risks.
+
+• Price risk can be limited with floors and collars that
+•
+
+42 | RMI
+
+set limits on extreme price fluctuations—or mitigated
+even further with financial add-ons like a fixed-volume
+price swap or settlement guarantee agreement.
+Settling at the project’s hub can reduce basis risk
+between the project’s market price and city’s load
+zone price.
+
+• Non-energy market rule changes can be mitigated
+•
+
+•
+
+with good faith renegotiation clauses.
+Shape and volume risks caused by uncertainty in the
+timing and overall amount of renewable generation,
+respectively, can be mitigated with settlement
+guarantee agreement or volume-firming agreement
+financial add-ons.
+Operational risk can be mitigated with production
+guarantees and eliminated with proxy generation
+by using a calculated production profile based on
+weather conditions instead of actual production.
+
+EXHIBIT 26
+The Risk Reduction of Risk Mitigation Strategies for a VPPA
+PRICE RISK
+
+BASIS RISK
+
+NON-ENERGY
+MARKET RISK
+
+SHAPE RISK
+
+OPERATIONAL
+RISK
+
+VOLUME RISK
+
+Reference
+VPPA
+Floors &
+Collars
+Fixed-Volume
+Price Swap
+Hub
+Settlement
+Good Faith
+Renegotiation
+Settlement
+Guarantee
+Agreement
+VolumeFirming
+Agreement
+Production
+Guarantee
+Proxy
+Generation
+
+Buyer carries full risk
+
+PPPAs largely include the same risks as VPPAs
+but are viewed through a slightly different lens. In
+VPPAs, financial risks directly impact the regular
+settlements between the city and the project owner,
+and therefore represent real costs or revenues that
+the city will face. On the other hand, in PPPAs, price
+risk, and its interconnection with non-energy market,
+shape, operational, and volume risks, primarily impact
+
+Buyer carries no risk
+
+the opportunity cost of the deal (i.e., a PPPA’s costeffectiveness compared with what the city would have
+paid for the energy if it had not entered into a PPA).
+Meanwhile, shape, volume, and operational risk all
+impact the plant’s operations and therefore the degree
+to which the city must purchase energy outside the
+PPA to meet its demand or sell off excess generation.
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 43
+
+PPPA risk mitigation solutions include those exclusive to
+PPPAs (retailer-firmed power) and found in VPPAs (load
+zone delivery, good faith renegotiation, and production
+guarantees). However, they do not include those that
+address price risk and/or are financial add-ons in VPPAs
+(price floors/collars, FVPS, SGA, and VFA), as shown in
+Exhibit 27.
+
+• Since PPPAs more commonly deliver renewable
+•
+•
+•
+
+energy to the city’s load zone, cities will more likely
+be able to eliminate basis risk with load zone delivery.
+As in VPPAs, good faith renegotiations can
+mitigate the financial impacts of non-energy
+market rule changes.
+PPPA buyers in retail choice states can partner with
+retail electricity providers to purchase firm power and
+eliminate both shape and volume risk.
+PPPAs typically include production guarantees to
+reduce operational risk by specifying when and how
+much the generator should produce.
+
+Ultimately, the decision of which type of PPA to
+pursue and which risks to mitigate will depend
+on each individual city’s particular circumstances
+and preferences. While perceived to be more
+complex, VPPAs can provide beneficial geographic
+
+44 | RMI
+
+flexibility, which may be of particular value to cities
+facing regulatory constraints or unattractive local
+market dynamics. PPPAs, meanwhile, provide a
+conceptually straightforward mechanism that reduces
+a city’s uncertainty regarding its long-term energy
+expenditures. Yet both structures will change a city’s
+overall energy strategy and can reduce some existing
+risks while simultaneously introducing new ones.
+The strategies outlined in this paper provide a range
+of options for cities to mitigate these new risks, some
+of which may come at a cost premium depending on
+the degree of risk off-loaded. These risk mitigation
+strategies can allow cities to overcome internal
+roadblocks and, through PPAs, unlock a range of
+financial, sustainability, economic development, health,
+and other benefits for their communities.
+
+EXHIBIT 27
+The Risk Reduction of Risk Mitigation Strategies for a PPPA
+PRICE RISK
+
+BASIS RISK
+
+NON-ENERGY
+MARKET RISK
+
+SHAPE RISK
+
+OPERATIONAL
+RISK
+
+VOLUME RISK
+
+Reference
+PPPA
+Load Zone
+Delivered
+Good Faith
+Renegotiation
+RetailerFirmed Power
+Production
+Guarantee
+
+Buyer carries full risk
+
+Buyer carries no risk
+
+A LOCAL GOVERNMENT’S GUIDE TO OFF-SITE RENEWABLE PPA RISK MITIGATION | 45
+
+ENDNOTES
+1. “100% Commitments in Cities, Counties, and
+States,” Sierra Club, accessed September 2020,
+www.sierraclub.org/ready-for-100/commitments.
+2. “Local Government Renewables Action Tracker,”
+American Cities Climate Challenge Renewables
+Accelerator, accessed September 2020, https://
+cityrenewables.org/transaction-tracker/.
+3. Virtual Power Purchase Agreement Legal
+Considerations, American Cities Climate
+Challenge Renewables Accelerator, 2020, https://
+cityrenewables.org/resources/virtual-powerpurchase-agreement-legal-considerations.
+4. Rachit Kansal and Tim Singer, A Corporate
+Purchaser’s Guide to Risk Mitigation, Rocky
+Mountain Institute, 2019, https://rmi.org/insight/
+corporate-purchasers-guide-risk-mitigation.
+5. “Fifth Third Makes History by Powering Up 100%
+Renewable Solar Facility,” Fifth Third Bank,
+accessed September 2020, www.53.com/content/
+fifth-third/en/media-center/press-releases/2019/
+press-release-2019-08-29.html.
+6. “Arlington County Partners with Dominion Energy
+to Help Achieve Energy Goals,” Arlington County,
+January, 2020, https://newsroom.arlingtonva.us/
+release/arlington-county-partners-with-dominionenergy-to-help-achieve-energy-goals/.
+7. “Cincinnati to Construct Nation’s Largest CityLed Solar Project,” City of Cincinnati, accessed
+September 2020, www.cincinnati-oh.gov/mayor/
+news/cincinnati-to-construct-nation-s-largest-cityled-solar-project/.
+8. Ryan Shea, “Solar and Wind Off-site PPA Economic
+Calculator (SWOPEC),” Rocky Mountain Institute,
+2020, https://cityrenewables.org/resources/
+swopec/.
+
+46 | RMI
+
+9. Ryan Wiser and Mark Bolinger, 2018 Wind
+Technologies Market Report, Lawrence Berkeley
+National Laboratory, 2019. https://emp.lbl.gov/
+wind-technologies-market-report.
+10. Taryana Odayar, “Iron Mountain supes up
+vPPAs with extra hedges,” Power Finance &
+Risk, 2020, http://www.powerfinancerisk.com/
+Article/3954799/Iron-Mountain-supes-up-vPPAswith-extra-hedges.html?ArticleId=3954799.
+11. “Buying renewable energy should be easy—here’s
+one way to make it less complex,” Microsoft,
+2018, https://blogs.microsoft.com/on-theissues/2018/10/16/buying-renewable-energyshould-be-easy-heres-one-way-to-make-it-lesscomplex/.
+
+22830 Two Rivers Road
+Basalt, CO, 81621 USA
+www.rmi.org
+© February 2021 RMI. All rights reserved. Rocky Mountain Institute® and
+RMI® are registered trademarks.
+
+

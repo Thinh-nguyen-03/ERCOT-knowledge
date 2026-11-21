@@ -1,0 +1,215 @@
+ERCOT Nodal Protocols
+
+Section 22
+
+Attachment F: Firm Fuel Supply Service Agreement
+
+November 6, 2026
+
+Standard Form Firm Fuel Supply Service Agreement
+
+Between
+
+Insert Participant
+
+and
+
+Electric Reliability Council of Texas, Inc.
+
+This Firm Fuel Supply Service Agreement (“Agreement”), effective as of       of      ,       (“Effective Date”), is entered into by and between Insert Participant, a Qualified Scheduling Entity (QSE) (“Participant”) and Electric Reliability Council of Texas, Inc., a Texas non-profit corporation (“ERCOT”).
+
+Recitals
+
+WHEREAS:
+
+A. Participant is a Qualified Scheduling Entity (QSE) of at least one Generation Resource, as those terms are defined in the ERCOT Protocols, and Participant is eligible to and intends to provide Firm Fuel Supply Service (FFSS);
+
+B. ERCOT is the Independent Organization certified under the Public Utility Regulatory Act, TEX. UTIL. CODE ANN. § 39.151 (West) (PURA) for the ERCOT Region; and
+
+C. The Parties enter into this Agreement in order to establish the terms and conditions by which ERCOT and Participant will discharge their respective duties and responsibilities under the ERCOT Protocols.
+
+Agreements
+
+NOW, THEREFORE, in consideration of the mutual covenants and promises contained herein, ERCOT and Participant (the “Parties”) hereby agree as follows:
+
+Section 1. Resource-Specific Terms.
+
+A. Start Date: November 15,      
+
+B. End Date: March 15,      
+
+C. Firm Fuel Supply Service Resources Offer Description.
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------
+  Resource Name   Unit Code / Mnemonic   Resource Entity   Awarded Capacity (MW)   Clearing Price ($/MW)   Reserve Fuel Type[1]   Resource Category[2]
+  --------------- ---------------------- ----------------- ----------------------- ----------------------- ---------------------- ----------------------
+                                                                                                                                       
+
+                                                                                                                                       
+
+                                                                                                                                       
+
+                                                                                                                                       
+
+                                                                                                                                       
+  ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+D. Notice. All notices required to be given under this Agreement shall be in writing, and shall be deemed delivered upon being emailed to FFSS@ercot.com or to the Participant email listed below. Either Party may change its email address for such notices by delivering to the other Party a written notice referring specifically to this Agreement
+
+  If to ERCOT:
+
+  Electric Reliability Council of Texas, Inc.
+
+8000 Metropolis Drive (Building E), Suite 100
+
+Austin, Texas 78744
+
+FFSS@ercot.com
+
+Tel No. (512) 225-7000
+
+  If to Participant:
+
+  [Insert Participant Name]
+
+  [Insert Contact Person/Dept.]
+
+  [Insert Street Address]
+
+  [Insert City, State Zip]
+
+  [Insert Telephone]
+
+  [Insert Email Address]
+
+Section 2. Definitions.
+
+A. Unless herein defined, all definitions and acronyms found in the ERCOT Protocols shall be incorporated by reference into this Agreement.
+
+B. “ERCOT Protocols” shall mean the document adopted by ERCOT, including any attachments or exhibits referenced in that document, as amended from time to time, that contains the scheduling, operating, planning, reliability, and Settlement (including Customer registration) policies, rules, guidelines, procedures, standards, and criteria of ERCOT. For the purposes of determining responsibilities and rights at a given time, the ERCOT Protocols, as amended in accordance with the change procedure(s) described in the ERCOT Protocols, in effect at the time of the performance or non-performance of an action, shall govern with respect to that action.
+
+Section 3. Term and Termination.
+
+A. Term.
+
+  (1) This Agreement is effective beginning on the Effective Date.
+
+  (2) The full term (“Full Term”) of this Agreement begins on the November 15, ____ through March 15, ____.
+
+B. Termination by Participant. Participant may, at its option, terminate this Agreement immediately upon the failure of ERCOT to continue to be certified by the Public Utility Commission of Texas (PUCT) as the Independent Organization under PURA §39.151 without the immediate certification of another Independent Organization under PURA §39.151.
+
+C. Effect of Termination and Survival of Terms. If this Agreement is terminated by a Party pursuant to the terms hereof, the rights and obligations of the Parties hereunder shall terminate, except that the rights and obligations of the Parties that have accrued under this Agreement prior to the date of termination shall survive.
+
+Section 4. Representations, Warranties, and Covenants.
+
+A. Participant represents, warrants, and covenants that:
+
+  (1) Participant is duly organized, validly existing, and in good standing under the laws of the jurisdiction under which it is organized, and is authorized to do business in Texas;
+
+  (2) Participant has full power and authority to enter into this Agreement and perform all of Participant’s obligations, representations, warranties, and covenants under this Agreement;
+
+  (3) Participant’s past, present, and future agreements or Participant’s organizational charter or bylaws, if any, or any provision of any indenture, mortgage, lien, lease, agreement, order, judgment, or decree to which Participant is a party or by which its assets or properties are bound do not materially affect performance of Participant’s obligations under this Agreement;
+
+  (4) The execution, delivery, and performance of this Agreement by Participant have been duly authorized by all requisite action of its governing body;
+
+  (5) Except as set out in an exhibit (if any) to this Agreement, ERCOT has not, within the 24 months preceding the Effective Date, terminated for Default any Prior Agreement with Participant, any company of which Participant is a successor in interest, or any Affiliate of Participant;
+
+  (6) If any Defaults are disclosed on any such exhibit mentioned in subsection 4(A)(5), either (a) ERCOT has been paid, before execution of this Agreement, all sums due to it in relation to such Prior Agreement, or (b) ERCOT, in its reasonable judgment, has determined that this Agreement is necessary for system reliability, and Participant has made alternate arrangements satisfactory to ERCOT for the resolution of the Default under the Prior Agreement;
+
+  (7) Participant has obtained, or will obtain prior to beginning performance under this Agreement, all licenses, registrations, certifications, permits, and other authorizations and has taken, or will take prior to beginning performance under this Agreement, all actions required by applicable laws or governmental regulations except licenses, registrations, certifications, permits or other authorizations that do not materially affect performance under this Agreement;
+
+  (8) Participant is not in violation of any laws, ordinances, or governmental rules, regulations, or order of any Governmental Authority or arbitration board materially affecting performance of this Agreement and to which it is subject;
+
+  (9) Participant is not Bankrupt, does not contemplate becoming Bankrupt nor, to its knowledge, will become Bankrupt;
+
+  (10) Participant acknowledges that it has received and is familiar with the ERCOT Protocols; and
+
+  (11) Participant acknowledges and affirms that the foregoing representations, warranties, and covenants are continuing in nature throughout the term of this Agreement. For purposes of this Section, “materially affecting performance” means resulting in a materially adverse effect on Participant’s performance of its obligations under this Agreement.
+
+B. ERCOT represents, warrants, and covenants that:
+
+  (1) ERCOT is the Independent Organization certified under PURA §39.151 for the ERCOT Region;
+
+  (2) ERCOT is duly organized, validly existing, and in good standing under the laws of Texas, and is authorized to do business in Texas;
+
+  (3) ERCOT has full power and authority to enter into this Agreement and perform all of ERCOT’s obligations, representations, warranties and covenants under this Agreement;
+
+  (4) ERCOT’s past, present and future agreements or ERCOT’s organizational charter or bylaws, if any, or any provision of any indenture, mortgage, lien, lease, agreement, order, judgment, or decree to which ERCOT is a party or by which its assets or properties are bound do not materially affect performance of ERCOT’s obligations under this Agreement;
+
+  (5) The execution, delivery, and performance of this Agreement by ERCOT have been duly authorized by all requisite action of its governing body;
+
+  (6) ERCOT has obtained, or will obtain prior to beginning performance under this Agreement, all licenses, registrations, certifications, permits and other authorizations and has taken, or will take prior to beginning performance under this Agreement, all actions required by applicable laws or governmental regulations except licenses, registrations, certifications, permits or other authorizations that do not materially affect performance under this Agreement;
+
+  (7) ERCOT is not in violation of any laws, ordinances, or governmental rules, regulations or order of any Governmental Authority or arbitration board materially affecting performance of this Agreement and to which it is subject;
+
+  (8) ERCOT is not Bankrupt, does not contemplate becoming Bankrupt nor, to its knowledge, will become Bankrupt; and
+
+  (9) ERCOT acknowledges and affirms that the foregoing representations, warranties, and covenants are continuing in nature throughout the term of this Agreement. For purposes of this Section, “materially affecting performance” means resulting in a materially adverse effect on ERCOT’s performance of its obligations under this Agreement.
+
+Section 5. Participant Obligations.
+
+A. Participant shall comply with, and be bound by, all ERCOT Protocols, ERCOT Operating Guides, and the North American Electric Reliability Corporation (NERC) Reliability Standards as they pertain to operation of a Firm Fuel Supply Service Resource by a Resource Entity.
+
+B. Participant shall not take any action, without first providing written notice to ERCOT and reasonable time for ERCOT and Market Participants to respond, that would cause a Market Participant within the ERCOT Region that is not a “public utility” under the Federal Power Act, 16 U.S.C. § 824(e)(2005), or ERCOT itself to become a “public utility” under the Federal Power Act or become subject to the plenary jurisdiction of the Federal Energy Regulatory Commission (FERC).
+
+C. For all Contractual off-site FFSS category Resources listed above under Section 1, Part C, the Participant has a firm transportation agreement with a natural gas pipeline that is a critical natural gas facility as that is defined in 16 Texas Administrative Code 25.52(c)(2).
+
+Section 6. ERCOT Obligations.
+
+A. ERCOT shall comply with, and be bound by, all ERCOT Protocols.
+
+B. ERCOT shall not take any action, without first providing written notice to Participant and reasonable time for Participant and other Market Participants to respond, that would cause Participant if Participant is not a “public utility” under the Federal Power Act, or ERCOT itself to become a “public utility” under the Federal Power Act or become subject to the plenary jurisdiction of the FERC. If ERCOT receives any notice similar to that described in Section 5(B) from any Market Participant, ERCOT shall provide notice of same to Participant.
+
+Section 7. Firm Fuel Supply Service Decertification.
+
+If a Firm Fuel Supply Service Resource does not remain certified, or if Participant is in default as described in the Standard Form Market Participant Agreement referenced in Section 10(A) during the term of this Agreement, then the Firm Fuel Supply Service Hourly Standby Fee for each applicable Resource is reduced to zero for the remainder of the Full Term, except in the case of a decertified Resource being re-certified. Participant may be required to refund to ERCOT certain amounts paid by ERCOT under this Agreement during the Full Term as described in the ERCOT Protocols.
+
+Section 8. Operation.
+
+A. Firm Fuel Supply Service Resource Maintenance. No Planned Outages for inspection, repair, maintenance, and overhaul of the Firm Fuel Supply Service Resource may occur during the term of this Agreement. Dec 1 – March 1
+
+B. Planning Data.
+
+  Participant shall timely report to ERCOT those items and conditions necessary for ERCOT’s internal planning and compliance with ERCOT’s guidelines in effect from time to time. The information supplied must include, without limitation, the following:
+
+  (1) Availability Plan for each hour of the next Operating Day submitted by 0600 of the preceding day; and
+
+  (2) Revised Availability Plan reflecting changes in hourly availability of Firm Fuel Supply Service Capacity status as indicated in a revised Availability Plan as soon as reasonably practical, but in no event later than 60 minutes after the event that caused the change.
+
+Section 9. Payment.
+
+A. Firm Fuel Supply Service Hourly Standby Fee Payments. ERCOT shall pay Participant the Hourly Standby Fee as described in Section 6.6.14.2, Firm Fuel Supply Service Hourly Standby Fee Payment and Fuel Replacement Cost Recovery, of the ERCOT Protocols, except as specified otherwise in Section 7 above.
+
+Section 10. Standard Form Market Participant Agreement Applicability.
+
+A. If not otherwise expressly covered by this Agreement, the terms of the Section 22, Attachment A: Standard Form Market Participant Agreement control.
+
+SIGNED, ACCEPTED, AND AGREED TO by each undersigned signatory who, by signature hereto, represents and warrants that he or she has full power and authority to execute this Agreement.
+
+Electric Reliability Council of Texas, Inc.:
+
+By: ______________________________
+
+Name: ____________________________
+
+Title: _____________________________
+
+Date: _____________________________
+
+Participant:
+
+By: ______________________________
+
+Name:      
+
+Title:      
+
+Date:      
+
+Market Participant Name:      
+
+Market Participant DUNS:      
+
+[1] Oil or Natural Gas
+
+[2] On-site FFSS category, Resource-controlled FFSS category, or Contractual off-site FFSS category

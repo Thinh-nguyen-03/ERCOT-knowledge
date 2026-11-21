@@ -1,0 +1,12 @@
+{
+ "id": "ercot-credit-faqs",
+ "title": "ERCOT Credit FAQs",
+ "publisher": "ERCOT",
+ "tier": 2,
+ "edition": "2025-12",
+ "url": "https://www.ercot.com/files/docs/2025/12/03/Credit-FAQs.docx",
+ "retrieved": "2026-11-21",
+ "raw_bytes": 46400,
+ "raw_sha256": "f8ee20ed5766ce3e42965f88558f6a9e54ea01c570e8279c2f273bb26f330e80",
+ "text_chars": 18944
+}

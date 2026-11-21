@@ -1,0 +1,1261 @@
+ERCOT Monthly Operational Overview
+(January 2026)
+ERCOT Public
+February 17, 2026
+
+Highlights, Records and Notifications
+• ERCOT’s maximum peak demand for the month of January was 75,572
+MW on 01/26/26; this is 1,910 MW less than the January 2025 peak
+demand of 77,482 MW on 01/22/25.
+• ERCOT issued 17 notifications:
+–
+
+1 Emergency Notice – Due to a loss of generation and transmission line issues in the San Antonio
+and Houston Area on 01/25/2026 21:04
+
+–
+
+3 Advisories – Due to a Geomagnetic Disturbance (GMD) Warning
+
+–
+
+•
+
+ERCOT issued an Advisory for a GMD Warning from 1/19/2026 13:49 until 23:59.
+
+•
+
+ERCOT issued an Advisory for a GMD Warning from 1/20/2026 2:56 until 12:00.
+
+•
+
+ERCOT issued an Advisory for a GMD Warning from 1/20/2026 14:22 until 23:59.
+
+2 Operating Condition Notices (OCNs), 2 Advisories, 2 Watches – For an extreme cold weather
+systems approaching the ERCOT Region
+•
+
+ERCOT issued an OCN for extreme cold weather and the possibility of frozen precipitation Saturday January
+24, 2026, and Sunday, January 25, 2026..
+
+•
+
+ERCOT issued an Advisory and Watch for extreme cold weather and the possibility of frozen precipitation
+Saturday January 24, 2026, through noon on Tuesday, January 27, 2026.
+
+•
+
+ERCOT issued an OCN, Advisory, and Watch for temperatures and wind chills anticipated to remain below
+freezing for Saturday, January 31, 2026, and Sunday, February 1, 2026.
+
+–
+
+1 Operating Condition Notice (OCN) – Due to a potential wildfire risk for Saturday, January 17,
+2026, for a large portion of South Central Texas areas in the ERCOT region
+
+–
+
+6 DC Tie Curtailment Notices - Due to a planned or unplanned outage
+* Preliminary value from February Demand and Energy 2026 report.
+
+PUBLIC
+
+2
+
+Monthly energy generation decreased by 1.7% year-overyear to 39,810 GWh in January 2026, compared to 40,486
+GWh in January 2025
+Nuclear
+
+Coal
+
+Wind
+
+Solar
+
+Hydro
+
+Biomass
+
+Other
+
+Net DC/BLT
+
+Gas-CC
+
+Gas
+
+60,000
+50,000
+
+GWh
+
+40,000
+30,000
+20,000
+10,000
+0
+
+Data for latest two months are based on preliminary settlements.
+PUBLIC
+
+3
+
+Generation Interconnection activity by project phase
+
+(Excludes capacity associated with projects designated as Inactive per Planning Guide Section 5.2.5)
+2,500
+2,250
+2,000
+1,750
+1,500
+1,250
+1,000
+750
+500
+250
+0
+
+Project Count
+
+400 GW
+300 GW
+200 GW
+100 GW
+
+Planned Capacity
+
+500 GW
+
+0
+
+# Signed Interconnect Agreement
+# Completed Full Study
+# in Full Study
+# Screening Study Complete
+
+•
+•
+
+PUBLIC
+
+There are an additional 50 “Small Generator” projects totaling 466 MW that are
+going through the simplified interconnection process.
+A break-out by fuel type can be found in the monthly Generator Interconnection
+Status (GIS) reports available on the ERCOT Resource Adequacy Page:
+http://www.ercot.com/gridinfo/resource
+4
+
+Interconnection Queue Capacity by Fuel Type
+
+Totals: Solar 162 GW (36%), Wind 48 GW (10.7%), Gas 57 GW (12.7%), Battery 179 GW / 375 GWh (39.7%), Other 4 GW (0.9%)
+
+(Excludes capacity associated with projects designated as Inactive per Planning Guide Section 5.2.5)
+
+80 GW
+70 GW
+60 GW
+50 GW
+40 GW
+30 GW
+20 GW
+10 GW
+0 GW
+
+Gas
+
+Wind
+2026
+
+2027
+
+Solar
+2028
+
+2029
+
+2030
+
+Battery
+2031
+
+Other*
+
+2032
+
+A break-out by zone can be found in the monthly Generator Interconnection Status (GIS) reports
+available on the ERCOT Resource Adequacy Page: http://www.ercot.com/gridinfo/resource
+•
+•
+
+PUBLIC
+
+Other includes petroleum coke (pet coke), hydroelectric, fuel oil, nuclear, geothermal energy, other miscellaneous
+fuels reported by developers, and fuel cells that use fuels other than natural gas.
+The GWh cited for active planned battery storage projects is an estimate of the aggregate nameplate energy rating
+based on data provided through Request for Information (RFI) submissions for projects with signed interconnection
+agreements. Using the RFI data, an average design duration for these projects is calculated and then multiplied by
+the nameplate capacity for all active projects to derive the total energy rating.
+
+5
+
+Planning Summary
+•
+
+ERCOT is tracking 2,008 active generation interconnection requests totaling
+450,306 MW as of January 31. This includes 162,067 MW of solar, 47,961 MW
+of wind, 178,703 MW of battery, and 57,403 MW of gas projects; 153 projects
+were categorized as inactive, unchanged from December 2025.
+
+•
+
+ERCOT is currently reviewing proposed transmission improvements with a
+total estimated cost of $11.100 billion as of January 31, 2026.
+
+•
+
+Transmission Projects endorsed in 2026 total $100.50 million as of January 31,
+2026.
+
+•
+
+All projects (in engineering, routing, licensing and construction) total
+approximately $32.631 billion as of February 1, 2026.
+
+•
+
+Transmission Projects energized in 2026 total approximately $8.900 million as
+of February 1, 2026.
+
+•
+
+Transmission Projects planned to energize during the remainder of 2026 total
+approximately $7.525 billion as of February 1, 2026.
+
+PUBLIC
+
+6
+
+ERCOT’s maximum peak demand for the month of January was
+75,572 MW* on 1/26/26; this is 1,910 MW less than the January 2025
+peak demand of 77,482 MW on 1/22/25.
+90 GW
+80 GW
+
+2025
+
+2026
+
+90 GW
+
+75,572 MW*
+
+80 GW
+
+70 GW
+
+70 GW
+
+60 GW
+
+60 GW
+
+50 GW
+
+50 GW
+
+40 GW
+
+40 GW
+
+30 GW
+20 GW
+
+30 GW
+
+40,696 MW**
+
+20 GW
+
+10 GW
+0
+
+10 GW
+
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Jun
+
+Jul
+
+Aug
+
+Sep
+
+Oct
+
+Nov
+
+Dec
+
+0
+
+*Based on the maximum net system hourly value from the January 2026 Demand and Energy report.
+**Based on the minimum net system 15-minute interval value from the January 2026 Demand and Energy
+report.
+Data for latest two months are based on preliminary settlements.
+PUBLIC
+
+7
+
+Net Load Forecast Performance
+Day Ahead Net Load Forecast - Mean Absolute Forecast Error
+Day Ahead Net Load Forecast MAE (MW)
+
+KPI Goal (4,000 MW)
+
+4,500
+4,000
+3,500
+3,000
+2,500
+2,000
+1,500
+1,000
+500
+0
+
+PUBLIC
+
+8
+
+Current Large Load Interconnection Queue
+Observed Energized – Projects
+that have received Approval to
+Energize from ERCOT Operations
+and are fully operational.
+Represented by all time nonsimultaneous peak load
+consumption.
+Approved to Energize but Not
+Operational – Projects that have
+received Approval to Energize from
+ERCOT Operations but are not
+observed to be operational.
+Planning Studies Approved –
+Projects that have received
+ERCOT approval of required
+interconnection studies. Any MWs
+that were not approved are
+reclassified as No Studies
+Submitted.
+Under ERCOT Review – Projects
+that have studies under review by
+ERCOT.
+No Studies Submitted – Projects
+that are tracked by ERCOT but
+that have not yet provided
+sufficient information for ERCOT to
+begin review. Additionally, MWs
+that were not approved by ERCOT
+after review of planning studies are
+included in this category until a
+path to interconnect these MWs is
+identified, or the customer cancels
+the interconnection request.
+
+PUBLIC
+
+9
+
+Loads Approved to Energize – Observations
+•
+
+PUBLIC
+
+Of the 8,787 MW that have received Approval to Energize, ERCOT has observed a nonsimultaneous monthly peak consumption of 4,049 MW in January 2026, which is a slight increase
+since December 2025.
+– This is calculated as the sum of the maximum value for each individual load per month.
+– This value represents how much approved load ERCOT believes is now operational.
+
+10
+
+Real-Time Congestion Rent increased in January
+400
+350
+$ Millions
+
+300
+250
+200
+150
+100
+50
+0
+
+North
+•
+
+South
+
+Houston
+
+Cross Zone
+
+Total Real-Time congestion rent increased in January compared to December of 2025, with the
+highest congestion rent in the North and South Zones.
+•
+•
+
+•
+
+West
+
+Congestion rent in the West Zone was driven primarily by the constraint representing the loss of manual Navarro
+Limestone Plant and Navarro Outlaw Switch 345 kV line which overloads the Big Brown SES to Jewett 345kV line.
+Congestion rent in the South Zone was driven primarily by the constraint representing the loss of the 345kV line from
+South Texas Project (STP) to Elm Creek
+
+Winter Storm Fern contributed greatly to the increase in total Real-Time congestion rent.
+•
+
+January 24th ($28.4 million), 25th ($65.5 million) and 26th ($28.7 million) were significant high outliers
+Notes:
+1) Congestion rent is determined using the shadow prices and MW flows for individual constraints in SCED as well as the length in time of SCED
+intervals.
+2) The “Cross Zone” category consists of cases in which the substations on either end of the constraint are in different zones.
+
+PUBLIC
+
+11
+
+RUC Activity increased from December to January and
+was primarily attributed to managing congestion
+
+•
+
+72% of non-opt-out RUC activity (233.0 effective hours) was a result of manual actions taken to manage
+congestion (primarily E_PASP) during Winter Storm Fern, leading to a marked increase from December 2025
+totals.
+Notes:
+1) “Effective Resource-Hours” excludes any period during a Reliability Unit Commitment hour when the RUC-committed Resource was starting
+up, shutting down, off-line, or otherwise not available for dispatch by SCED.
+
+PUBLIC
+
+12
+
+RUC Instruction Reasons in January 2026
+•
+
+340.4 RUC effective Resource-hours.
+– 285.7 hours (84%) for congestion.
+
+As shown above, much of the RUC activity in January was concentrated during Winter Storm Fern.
+
+PUBLIC
+
+13
+
+Thirty-Six Resources were Committed in January, Primarily for
+Managing Congestion during Winter Storm Fern
+
+PUBLIC
+
+For Congestion
+
+For Capacity
+
+Resource #
+
+Effective
+Resource-Hours
+
+Opt-Out
+
+Non-Opt-Out
+
+Opt-Out
+
+Non-Opt-Out
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+
+11.7
+12.5
+65.7
+7.5
+7.5
+0.2
+15.9
+0.2
+3.2
+12.0
+11.1
+2.0
+8.0
+2.0
+2.0
+11.9
+12.4
+12.0
+6.8
+6.8
+6.6
+0.6
+0.5
+12.4
+1.0
+0.0
+
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+
+11.7
+12.5
+65.7
+4.8
+4.8
+0.0
+0.0
+0.0
+3.2
+12.0
+11.1
+0.0
+0.0
+0.0
+0.0
+11.9
+12.4
+6.0
+3.8
+3.8
+3.6
+0.6
+0.5
+12.4
+1.0
+0.0
+
+0.0
+0.0
+0.0
+0.0
+0.0
+0.2
+15.9
+0.2
+0.0
+0.0
+0.0
+1.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+
+0.0
+0.0
+0.0
+2.7
+2.7
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+1.0
+8.0
+2.0
+2.0
+0.0
+0.0
+6.0
+3.0
+3.0
+3.0
+0.0
+0.0
+0.0
+0.0
+0.0
+
+14
+
+Thirty-Six Resources were Committed in January, Primarily for
+Managing Congestion during Winter Storm Fern (continued)
+
+PUBLIC
+
+Resource #
+
+Effective
+Resource-Hours
+
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+Total
+
+16.0
+4.9
+11.5
+12.3
+10.9
+12.3
+3.9
+12.2
+12.0
+12.0
+340.4
+
+For Congestion
+Opt-Out
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+
+Non-Opt-Out
+16.0
+4.9
+11.5
+12.3
+10.9
+12.3
+0.0
+12.2
+12.0
+12.0
+285.7
+
+For Capacity
+Opt-Out
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+17.3
+
+Non-Opt-Out
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+3.9
+0.0
+0.0
+0.0
+37.4
+
+15
+
+Net Allocation to Load in January 2026 was ($123.13) Million
+250
+
+150
+
+$ Millions
+
++$90.93 M
+
+50
+
+-50
+
+-150
+
+-$214.06 M
+
+-250
+
+PUBLIC
+
+DAM Ancillary Service
+
+Balancing Account Payout to Load
+
+CRR Auction Distribution
+
+ERCOT Administrative Fee
+
+ERS Settlement
+
+Real-Time Ancillary Service Imbalance
+
+Real-Time Revenue Neutrality
+
+Firm Fuel Supply Service
+
+Other Settlements
+
+Real-Time Ancillary Service Revenue Neutrality
+
+RMR/Mobile Gen
+
+Total Allocation to Load
+
+This information is available in tabular form in the
+Settlement Stability Report presented quarterly to the
+Wholesale Market Subcommittee
+
+16
+
+Real-Time Revenue Neutrality Allocated to Load was $11.35M
+for January 2026
+300
+
+$ Millions
+
+200
+100
+0
+-100
+-200
+-300
+-400
+
+Real-Time Energy Imbalance
+
+Real-Time Point-to-Point Obligations
+
+Real-Time Congestion from Self-Schedules
+
+DC Ties & Block Load Transfers
+
+Real-Time Energy for SODG and SOTG
+
+Load Allocated Revenue Neutrality
+January 2026 ($M)
+
+Real-Time Energy Imbalance
+
+$166.38
+
+Real-Time Point-to-Point Obligation
+
+($160.05)
+
+Real-Time Congestion from Self-Schedules
+
+PUBLIC
+
+$0.83
+
+DC Tie & Block Load Transfer
+
+($17.56)
+
+Real-Time Energy for SODG and SOTG
+
+($0.95)
+
+Load Allocated Revenue Neutrality
+
+$11.35
+
+17
+
+DAM Ancillary Services Allocated to Load for January 2026
+totaled $41.04M
+175
+150
+
+$ Millions
+
+125
+100
+75
+50
+25
+0
+
+ERCOT Contingency Reserve
+
+PUBLIC
+
+Non-Spin
+
+Regulation Down
+
+Responsive Reserve
+
+Regulation Up
+
+18
+
+Day-Ahead Prices Exceeded Real-Time Prices in January due
+to Uncertainty around the Winter Weather (Winter Storm Fern)
+100
+
+Average SPP
+($/MWh)
+
+80
+
+Day-Ahead
+
+Real-Time
+
+60
+40
+20
+
+Average DAM - RTM SPP
+($/MWh)
+
+0
+
+PUBLIC
+
+40
+35
+30
+25
+20
+15
+10
+5
+0
+-5
+-10
+-15
+-20
+
+The dotted lines represent the bounds for major outliers
+
+Notes:
+1) The dotted lines represent the bounds for major outliers.
+2) Averages are weighted by Real-Time Market Load.
+
+19
+
+Average Ancillary Service (AS) Market Clearing Prices
+for Capacity (MCPC) for January
+Starting with the introduction of the RTC+B program in December 2025, there are now
+MCPCs for all Ancillary Services in the Real-Time Market (RTM). The table below
+compares RTM MCPCs to DAM MCPCs.
+Ancillary
+Service
+
+Dec 2025
+Average DAM MCPC
+($/MWh)
+
+Jan 2026
+Average DAM MCPC
+($/MWh)
+
+Dec 2025
+Average RTM MCPC
+($/MWh)
+
+Jan 2026
+Average RTM MCPC
+($/MWh)
+
+Regulation Up
+(Reg-Up)
+
+2.23
+
+6.82
+
+0.33
+
+1.82
+
+Regulation
+Down
+(Reg-Down)
+
+1.86
+
+2.33
+
+0.60
+
+1.56
+
+Responsive
+Reserve
+Service (RRS)
+
+1.72
+
+6.87
+
+0.24
+
+0.60
+
+ERCOT
+Contingency
+Reserve
+Service (ECRS)
+
+1.72
+
+7.45
+
+0.34
+
+0.97
+
+Non-Spinning
+Reserves (NonSpin)
+
+3.75
+
+5.98
+
+1.04
+
+1.31
+
+Notes:
+1) The data range for Real-Time Market MCPC Average starts from December 5, 2025, when the RTC+B program went into service.
+2) Monthly MCPCs are calculated as energy- and time-weighted average values, using the total AS awards of each interval for each AS type.
+
+PUBLIC
+
+20
+
+Percentage of Real-Time Load Transacted in the Day-Ahead
+Market Decreased Slightly in January Compared to December
+100%
+95%
+90%
+
+The dotted lines represent the bounds for major outliers
+
+85%
+80%
+75%
+70%
+65%
+60%
+55%
+
+PUBLIC
+
+Notes:
+1) The dotted lines represent the bounds for major outliers.
+
+21
+
+Congestion Revenue Right (CRR) Cost Increased in January
+and Value Significantly Exceeded Costs, largely during Winter
+Storm Fern
+300
+
+$ Millions
+
+250
+
+Cost
+
+Value
+
+200
+150
+100
+50
+
+Value - Cost ($ Millions)
+
+0
+
+PUBLIC
+
+150
+100
+50
+0
+-50
+-100
+
+Note: More than $100M in CRR value in January can be attributed to Winter Storm Fern.
+
+22
+
+The CRR Balancing Account was fully-funded and excess
+amounts were allocated to Load
+100
+80
+60
+
+$ Millions
+
+40
+20
+0
+-20
+-40
+-60
+-80
+-100
+
+Balancing Account Credit
+
+CRR Fee Total
+
+CRR Short Charges Refunded
+
+Payout to Load
+
+CRR Short Charges Not Refunded
+
+Fund Cap
+
+Balancing Account Fund Total
+
+PUBLIC
+
+23
+
+Price Issues and the Impact of Nodal Protocol Revision
+Request (NPRR) 1024 on Price Corrections
+30
+
+• Days that met the criteria for
+“significance” under NPRR1024 and
+were corrected;
+• Days that were not corrected
+because they did not meet the
+criteria for “significance” under
+NPRR1024; and
+• Days that are currently undergoing
+analysis to determine if criteria for
+“significance” under NPRR1024 is
+met.
+
+25
+No. of Operating Days
+
+This graph looks at the recent history
+of price issues in the RTM or DAM and
+breaks the impacted Operating Days
+into three categories:
+
+20
+15
+10
+5
+0
+
+Currently Undergoing Analysis
+Did Not Meet Criteria
+Met Criteria
+
+PUBLIC
+
+24
+
+Details for Price Corrections Review
+Operating Days undergoing Criteria Analysis
+•
+
+Operating Days January 14, 2026 to January 16, 2026 were impacted by a software defect that
+resulted in the Reliability Deployment Price Adder (RDPA) not being triggered when a Reliability
+Must-Run (RMR) Resource was online for testing. ERCOT corrected the defect on January 17th,
+2026. See Market Notice M-A021126-01.
+
+•
+
+Operating Days December 17, 2025, to January 29, 2026 were impacted by a software defect that
+resulted in Security Constrained Economic Dispatch (SCED) not setting the output schedules of
+Qualifying Facilities equal to their telemetered output. ERCOT corrected the defect on January 29,
+2026. See Market Notice M-A020526-01.
+
+PUBLIC
+
+25
+
+Available Credit by Type Compared to Total Potential
+Exposure (TPE)
+
+*Numbers are as of month end except for Max TPE
+PUBLIC
+
+26
+
+Retail Transaction Volumes – Summary – January 2026
+
+Year-To-Date
+Transaction Type
+
+Transactions Received
+
+January 2026
+
+January 2025
+
+January 2026
+
+January 2025
+
+138,827
+
+83,765
+
+138,827
+
+83,765
+
+Acquisitions
+
+0
+
+0
+
+0
+
+0
+
+Move - Ins
+
+217,448
+
+230,136
+
+217,448
+
+230,136
+
+Move - Outs
+
+100,323
+
+109,839
+
+100,323
+
+109,839
+
+Continuous Service Agreements
+(CSA)
+
+41,847
+
+31,817
+
+41,847
+
+31,817
+
+0
+
+0
+
+0
+
+0
+
+498,445
+
+455,557
+
+498,445
+
+455,557
+
+Switches
+
+Mass Transitions
+Total
+
+PUBLIC
+
+27
+
+

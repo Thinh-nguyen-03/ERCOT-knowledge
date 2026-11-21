@@ -1,0 +1,384 @@
+3
+
+Glossary
+
+To view the full Guide, visit https://www.epa.gov/greenpower/guide-purchasing-green-power
+
+11-1
+
+DOCUMENT MAP
+Summary
+Chapter 1.
+
+Introduction
+
+Chapter 2. Introducing Green Power
+What is Green Power?
+Introduction to Renewable Energy Certificates
+Introduction to the Voluntary Market
+Certification and Verification
+Tracking Systems
+
+Chapter 3. The Benefits and Costs of Green Power
+The Benefits
+The Costs
+Public Relations Considerations
+
+Chapter 4. Green Power Product Options
+Purchase Options
+Self-Generation Options
+Green Power Supply Options Summary
+
+Chapter 5. Using Organizational Goals to Guide Green Power Purchases
+Setting Goals
+Identifying Key Decision-Makers
+Gathering Energy and Facility Data
+Choosing Green Power Options
+
+Chapter 6. Contracting for Green Power
+Developing Criteria for Screening Green Power Suppliers and
+Products
+Collecting Product Information
+Creating a Procurement Plan
+
+Chapter 7. Planning a Self-Generation Renewable Project
+Screening the Options
+Obtaining Resources and Assistance
+Creating a Project Plan
+Installing and Operating a Renewable Generation Project
+
+Chapter 8. Capturing the Benefits of the Purchase
+The Environmental Benefits
+Promoting the Organization’s Purchase
+
+Chapter 9. Conclusion
+Chapter 10. Resources for Additional Information
+Glossary
+Appendix A. Green Power Considerations for Federal Agencies
+Appendix B. Commercial Solar Financing Options
+Appendix C. Purchasing renewable energy as a residential customer
+11-2
+
+This glossary defines some of the important terms used
+in this guide. More definitions can be found at
+https://www.epa.gov/greenpower/green-power-partnership-tools-and-resources.
+
+average, two-thirds of the input energy used to make
+electricity is lost as waste heat. In contrast, CHP
+systems are capable of converting more than 70
+percent of the fuel into usable energy.
+
+Additionality. A quality criterion for emissions
+reduction (offset) projects stipulating that the project
+would not have been implemented in a baseline or
+“business-as-usual” scenario. Additionality is often
+applied to greenhouse gas project activities, stipulating
+that project-based emission reductions should only
+be quantified if the project activity “would not have
+happened anyway”—i.e., that the project activity would
+not have been implemented in its baseline scenario.
+Additionality is a test(s) used only for project offsets
+that result in direct emissions accounting and not for
+RECs or green power purchases. See Chapter 8 for
+more information.
+
+Commodity electricity. Generic electricity not associated with a particular power generation source.
+Community solar. A procurement option in which a
+solar or renewable-electric system provides power and/
+or financial benefit to, or is owned by, multiple community members. The green power purchaser will typically
+receive utility bill credits and associated RECs for its
+share of the community/shared project output.
+Community choice aggregation (CCA). A policy that
+enables local governments to aggregate electricity
+demand within their jurisdiction and the authority
+to pursue and negotiate bulk electricity purchase
+contracts (primarily renewable power) on behalf of
+participating end users.
+
+Annual consumption. The amount of electricity used
+by a consumer in one year, typically measured in
+kilowatt-hours (kWh). This information can be acquired
+from an electricity bill or by contacting the energy
+provider.
+
+Competitive markets. Electricity markets in which
+consumers can choose from among several competing
+retail electricity suppliers. In the late 1990s and early
+2000s, several states restructured their electricity
+markets to allow competition for retail customers,
+according to price or environmental preferences. In
+contrast, many states have continued traditional regulation of their electricity markets. In these regulated
+utility markets, customers may procure green power
+through separate green tariffs from their utility - which
+procures the green power from a renewable energy
+project, on behalf of their customers (see Chapter 4,
+Green Power Product Options).
+
+Balancing power. The power purchased or provided
+by the electric grid system operator to match the
+power supply with grid demand for maintaining voltage
+frequency of electricity service delivery.
+Behind the meter. Connection of an on-site generating
+facility to the electrical grid on the energy consumer’s
+property before the energy reaches the main electrical
+panel, rather than on the utility side of the panel.
+Bundled RECs. Renewable energy certificates (RECs)
+that are sold by a power marketer with electricity to
+an end-use consumer. For a retail electricity sale to be
+considered green power, it must include transfer of the
+RECs. See unbundled RECs.
+
+Conventional power. Power produced from nonrenewable fuels such as coal, oil, natural gas and nuclear
+fuels. These fuels are a finite resource that cannot be
+replenished once they have been extracted and used.
+
+Certification. A program or process in which an independent third party assures environmental standard
+compliance, quality and ownership of a green power
+product. Thus, certification bolsters the credibility and
+affirmation of the environmental benefits associated
+with a green power purchase.
+
+Direct purchase. A procurement option in which
+the purchasing organization contracts directly with a
+specific generator to purchase REC-based green power.
+Physical and financial power purchase agreements
+(PPAs) are examples of direct purchase. These options
+are generally customized products negotiated between
+the consumer and supplier and involve long-term commitments by consumers to purchase a volume tied to
+the output of a pre-determined generation capacity.
+
+Combined heat and power (CHP). An electricity
+generation technology, also known as cogeneration,
+that recovers waste heat from the electric generation
+process to produce simultaneously other forms of
+useful energy, such as usable heat or steam. On
+
+11-3
+
+Distributed generation. Small, modular, decentralized,
+grid- connected or off-grid energy systems located in
+or near the place where energy is used.
+
+Interval meter. An electricity meter that measures a
+facility’s energy usage in short increments (typically 15
+minutes). These meters are useful for determining electricity demand patterns and participating in real-time
+pricing programs.
+
+Electricity supplier. A generic term encompassing
+regulated utilities as well as non-utility electricity marketers that provide retail generation service.
+
+Kilowatt-hour (kWh). The basic unit for measuring
+the generation and consumption of electrical energy. A
+megawatt-hour (MWh) of electricity is equal to 1,000
+kilowatt-hours. A kilowatt and a megawatt are units of
+generation capacity.
+
+Energy efficiency. Using less energy to provide the
+same of better energy service (e.g., heating, cooling,
+lighting) than conventional products or systems.
+Energy efficiency saves energy, saves money on utility
+bills and helps protect the environment by reducing the
+amount of electricity that needs to be generated (and
+associated environmental impacts).
+
+Low-impact hydropower. Hydroelectric power generated with fewer environmental impacts than large-scale
+hydropower, by meeting criteria such as minimum
+river flows, water quality, fish passage and watershed
+protection. These hydropower facilities may be certified
+by the Low Impact Hydropower Institute and often
+operate in a “run of the river” mode, in which little or no
+water is stored in a reservoir.
+
+Financial power purchase agreement (PPA). A contract in which a generator and purchaser agree upon
+a predetermined reference electricity price (also called
+a “strike price”), but the power is sold into the local
+wholesale electricity market near the generator rather
+than directly to the power purchaser. The generator
+and the purchaser compensate each other on the difference between the previously agreed-upon reference
+electricity price and wholesale market prices, providing
+both with stable income and expense. Financial PPAs
+are also referred to as contracts for differences, virtual
+power purchase agreements (VPPAs), or synthetic
+PPAs.
+
+Net metering. A policy that allows owners of certain
+on-site power generation systems to export the net
+excess electricity to the utility grid and accrue credit
+for it on their electric bills. Customers generating their
+own electricity offset what they would have purchased
+from their utility. If they generate more than they use
+in a billing period, their electric meter turns backward
+to indicate their net excess generation. Depending
+on the individual state or utility rules, the net excess
+generation may be credited to their account (either
+at the retail price or the avoided cost of electricity
+generation, carried over to a future billing period, or
+ignored. Presently many states are reconsidering the
+compensation mechanism for net metering.
+
+Green power. Electricity generated or used from
+renewable energy sources with low or no environmental impacts. Green power implies a lesser environmental
+impact than that from conventional electricity generation and some forms of renewable energy. Large
+hydropower or municipal solid waste are generally
+not considered green power despite being renewable
+energy resources due to their environmental impacts.
+Green Power is renewable electricity that goes above
+and beyond what is otherwise required by mandate or
+requirement – it is voluntary or surplus to regulation.
+For more details, see Chapter 2, Introducing Green
+Power.
+
+New renewable generation facilities. Facilities built
+in the recent past or that will be built to meet the
+growing market demand for green power. Currently,
+new generation must be from renewable energy generating facilities that began operation within the past
+15 years (a moving window), according to the Green-e
+Energy certification standard and EPA Green Power
+Partnership requirements.
+
+Green power products. Electricity supply options
+generated from renewable resources. Options include
+electricity products purchased from electricity suppliers, community choice aggregators and renewable
+energy generators, as well as renewable energy that is
+self-generated.
+
+Offsets. A project offset is measured in metric tons of
+carbon dioxide equivalent (MTCO2e) and represents
+a direct reduction of global GHG emissions that can
+compensate for or offset emissions made elsewhere.
+Project offsets may be created from a variety of actions
+not necessarily related to energy production, such
+as energy efficiency or changes in land use. While a
+
+11-4
+
+Renewable electricity. Power generated from renewable energy resources. See Chapter 2, Introducing
+Green Power.
+
+project offset allows its owner to claim direct global
+emissions reductions, offsets do not support claims of
+renewable energy use. However, output from a project
+that is used to create RECs cannot also be claimed for
+offset purposes.
+
+Renewable energy certificates (RECs). A REC is a
+tradable instrument that represents the environmental
+attributes of the generation of 1 megawatt- hour (MWh)
+of electricity from a renewable energy source. RECs
+serve two purposes--one as a tracking instrument to
+substantiate and verify green power and environmental
+claims (either to meet a compliance obligation or to
+satisfy a voluntary goal), and one as a key component
+of all green power product options. As a component
+of green power products, RECs can be sold separately
+from electricity (as unbundled RECs), sold with electricity service (as bundled RECs), or retained as an output
+of a renewable energy project. Each REC denotes
+the underlying generation energy source, location of
+the generation, year of generation (a.k.a. “vintage”),
+environmental emissions and other characteristics
+associated with the generator.
+
+On-site renewable generation. Electricity generated
+by renewable resources using a system or device
+located at the site where the power is used.
+Peak demand. The maximum power consumption for
+a facility, measured over a short time period such as 15
+minutes or an hour.
+Physical power purchase agreement (PPA). A
+contract for the purchase of power and associated
+RECs from a specific renewable energy generator (the
+seller) to a purchaser of renewable electricity (the
+buyer). Physical PPAs, which are usually 10- to 20-year
+agreements, define all of the commercial terms for the
+sale of renewable electricity between the two parties,
+including when the project will begin commercial
+operation, schedule for delivery of electricity, penalties
+for underdelivery, payment terms and termination. The
+project may be located onsite at the user’s location,
+or be off-site with the electricity being grid-delivered
+to the user. Physical PPAs by non-utility consumers
+are generally only allowed in competitive electricity
+markets, and the renewable energy generator and
+customers must be located in the same power market
+to allow for physical delivery of electricity. Compare to
+financial PPA.
+
+Renewable energy resources. Resources that are
+continuously replenished on the Earth, such as such
+as wind, solar, geothermal, hydropower and biomass.
+Some definitions include other types renewable
+resources, such as municipal solid waste. See green
+power.
+Renewable portfolio standard (RPS). Sometimes
+called a renewable electricity standard. A regulatory
+mandate or target stating that a minimum percentage
+or amount of each electricity supplier’s resource portfolio must come from renewable energy.
+
+Power marketer. An entity that buys and sells power
+generated by others. Power marketers exist at the
+wholesale market level, buying and selling power from
+generators and to retail resellers such as utilities. Power
+marketers at retail level distribute and sell power to end
+users. A green power marketer is an electricity supplier
+that offers a green power product.
+
+Self-generation. A procurement option in which an
+energy consumer installs and owns generation to
+supply all or a portion of its electricity needs, either
+on-site or off-site.
+Shared renewables. An emerging model allowing
+multiple customers to buy, lease or subscribe to a
+portion of a shared renewable electricity system that
+is located away from their homes or businesses. The
+model is especially appealing to customers who do not
+have sufficient renewable resource, who rent, or who
+are otherwise unable or unwilling to install renewables
+on their residences or commercial buildings. Shared
+renewables can be in the form of ‘community-owned’
+projects or third party-owned renewable electricity
+generators whose electricity is shared with multiple
+customers. Consumers must receive the renewable
+
+REC arbitrage. When there is significant discrepancy
+in REC prices in different REC trading markets, an
+organization can gain financially by selling its RECs
+(generated from a renewable system it owns) in the
+higher priced (usually compliance) market and purchasing replacement RECs in the lower priced market. This
+is commonly referred to as REC arbitrage (also known
+as a REC swap). Under REC arbitrage, an organization
+would have to claim the attributes of the replacement
+RECs it purchases rather than the attributes of the
+RECs it sells.
+
+11-5
+
+Unbundled RECs. Renewable energy certificates
+(RECs) that are purchased separate from electricity; in
+other words, RECs and electricity are purchased from
+two different suppliers. See bundled RECs.
+
+energy certificates from a shared renewables project in
+order that they can claim use of renewable electricity.
+Tracking system. An electronic database that is used
+to track the ownership of RECs, much like an online
+bank account. A tracking system issues a uniquely
+numbered certificate for each MWh of electricity generated by a generation facility registered in the system,
+tracks the ownership of certificates as they are traded,
+and retires the certificates once they are used or claims
+are made based on their attributes or characteristics.
+Because each MWh has a unique identification number
+and can only be in one owner’s account at any time, a
+tracking system reduces ownership disputes and the
+potential for double counting.
+
+Verification. A third-party audit of a green power
+purchase that accurately accounts for the quality and
+quantity of the product and protects against dual
+claims or double counting of the green power purchase’s environmental benefits. Verification may be a
+requirement of a certification program.
+Virtual power purchasing agreement (VPPA). See
+financial PPA.
+
+11-6
+
+

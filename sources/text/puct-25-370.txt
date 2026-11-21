@@ -1,0 +1,210 @@
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter O. UNBUNDLING AND MARKET POWER.
+§25.370 ERCOT Large Load Forecasting Criteria.
+(a)
+
+Purpose. The purpose of this section is to establish criteria for including the load of a large load customer
+in ERCOT’s load forecasts used for identifying transmission planning needs and performing resource
+adequacy assessments.
+
+(b)
+
+Definitions. The following words and terms, when used in this section, have the following meanings unless
+the context indicates otherwise:
+(1)
+Contracted peak demand -- The total peak demand that a large load customer requests be served at
+a site as stated in an agreement.
+(2)
+Large load customer -- An entity requesting a new or expanded interconnection where the
+customer’s total expected non-coincident peak demand at a single site is equal to or greater than 75
+megawatts (MW).
+
+(c)
+
+Criteria for inclusion in ERCOT load forecast. A DSP must not submit a large load customer’s forecasted
+demand for purposes of inclusion in an ERCOT load forecast used for identifying transmission planning
+needs or performing resource adequacy assessments unless the large load customer executed an
+interconnection agreement as required under §25.194 of this Title (relating to Large Load Interconnection
+Standards) and provided all of the disclosures and financial commitments required for such an agreement
+under §25.194 of this Title. ERCOT must not include a large load customer’s forecasted demand in a load
+forecast used for identifying transmission planning needs or performing resource adequacy assessments
+unless the large load customer executed an interconnection agreement as required under §25.194 of this Title
+and provided all of the disclosures and financial commitments required for such an agreement under §25.194
+of this Title.
+
+(d)
+
+Submission of forecasted load data to ERCOT. A DSP may submit load data to ERCOT only for a large
+load customer that is located or seeks interconnection at a location that is in the DSP’s certificated service
+area. At the time that a DSP submits its load data to ERCOT through a mechanism designated by ERCOT,
+the DSP must also submit to ERCOT a notarized attestation sworn to by the DSP’s representative, official,
+officer, or other authorized person with binding authority over the DSP, attesting that each large load
+customer included in the DSP’s load data meets the criteria for an interconnection agreement as set forth in
+§25.194 of this Title.
+(1)
+In its submission to ERCOT, a DSP must include load data that is received from a transmission
+service provider (TSP) and is associated with a large load customer that is located or seeks
+interconnection at a location that is in the DSP’s certificated service area unless the DSP reasonably
+determines that the load data is not valid or is duplicative. The DSP must notify the TSP when the
+load data that was submitted by the TSP is provided to ERCOT, whether any load data submitted
+by the TSP is excluded, and the basis for exclusion, if applicable.
+(2)
+A TSP that submits load data to a DSP under this section must submit to the DSP a notarized
+attestation sworn to by the TSP’s representative, official, officer, or other authorized representative
+with binding authority over the TSP, attesting that each large load customer included in the load
+data submitted by the TSP meets the criteria for an interconnection agreement as set forth in §25.194
+of this Title and provided all of the disclosures and financial commitments required for such an
+agreement under §25.194 of this Title.
+(3)
+A DSP may designate another electric utility, municipally owned utility, or electric cooperative to
+submit the load data to ERCOT on its behalf.
+
+(e)
+
+ERCOT load forecast. ERCOT must use the load data provided by DSPs under this section, subject to any
+adjustments made in accordance with this subsection, to develop load forecasts used in transmission planning
+studies and resource adequacy assessments for the ERCOT region, including Regional Planning Group
+project submissions after the effective date of this section.
+
+§25.370-1
+
+effective 3/1/2026
+(P-58480)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter O. UNBUNDLING AND MARKET POWER.
+(1)
+
+(2)
+
+(3)
+(4)
+
+Validation of load data. ERCOT and commission staff may access information collected by a DSP
+or TSP to ensure compliance with this section and validate the accuracy of load data submitted by
+a DSP. If the accuracy of load data submitted by a DSP cannot be validated, ERCOT may exclude
+the data from the load forecast developed by ERCOT in accordance with subsection (e)(2) of this
+section.
+Adjustments to load data.
+(A)
+ERCOT may make adjustments to the load data provided by the DSP under this section to
+correct errors in load data or to account for the withdrawal or cancellation of a large load
+customer’s request for interconnection if the DSP agrees with the adjustments.
+Commission approval is not required for any mutually agreed adjustment to correct errors
+in load data or to account for the withdrawal or cancellation of a large load customer’s
+request for interconnection. For any adjustment that a DSP does not agree to, ERCOT
+must request commission approval under subsection (e)(2)(B) of this section.
+(B)
+ERCOT, in consultation with commission staff, must request commission approval to
+adjust the load data provided by DSPs under this section for any adjustment not made under
+subsection (e)(2)(A) of this section. The commission may approve ERCOT’s request to
+adjust the load data if the adjustment is supported by actual historical realization rates or
+other objective, credible, independent information. ERCOT must file its request with the
+commission and publish market notice of the requested adjustment not less than 30 days
+before the commission’s consideration at an open meeting. The commission may, at its
+discretion, consider the matter at an earlier open meeting. ERCOT’s filed request must
+provide in detail the data, methodology, and calculations used for the recommended
+adjustment to the load data, and the specific reasoning behind the requested adjustment.
+Public comment related to the requested adjustment must be filed not later than 14 days
+after ERCOT’s filed request, unless the commission establishes a different deadline.
+Use of load forecasts. ERCOT may use different forecasts to accommodate differences in study
+scope, time horizon, scenarios, and modeling details in developing its transmission planning and
+resource adequacy reports.
+Annual assessment. ERCOT must file an annual assessment with the commission that:
+(A)
+compares past forecasts to actual outcomes;
+(B)
+identifies sources of error; and
+(C)
+provides recommendations for improvement in the forecasting process.
+
+(f)
+
+Confidential information. Customer-specific or competitively sensitive information obtained under this
+section is confidential and not subject to disclosure under Chapter 552 of the Texas Government Code.
+
+(g)
+
+ERCOT compliance. ERCOT must develop the necessary protocols to ensure its transmission planning
+studies and resource adequacy assessments comply with this section. If ERCOT cannot timely implement
+the protocols to ensure the 2026 Regional Transmission Plan (RTP) complies with this section, then ERCOT,
+in consultation with commission staff, must submit a compliance plan to the commission, detailing how it
+will ensure the 2026 RTP substantially complies with this section. The 2026 RTP compliance plan must
+ensure that load data is submitted to ERCOT not later than April 1, 2026 and that a large load customer
+included in the load data has executed an agreement that meets the criteria described below.
+(1)
+A large load customer must disclose whether the large load customer is pursuing a separate request
+for electric service, the approval of which would result in the customer materially changing,
+delaying, or withdrawing the interconnection request; and if so, the location, size, anticipated timing
+of energization, and the electric utility, municipally owned utility, or electric cooperative associated
+with such request.
+(2)
+A large load customer must demonstrate site control for the proposed load location through one of
+the following interests:
+
+§25.370-2
+
+effective 3/1/2026
+(P-58480)
+
+CHAPTER 25. SUBSTANTIVE RULES APPLICABLE TO ELECTRIC SERVICE PROVIDERS.
+Subchapter O. UNBUNDLING AND MARKET POWER.
+(A)
+
+(3)
+(4)
+
+(5)
+
+(h)
+
+a signed and executed lease agreement for the proposed load location for a duration of at
+least five years from the date the large load customer is expected to reach the contracted
+peak demand; or
+(B)
+a deed for the proposed load location.
+A large load customer must provide a load ramping schedule, if applicable;
+A large load customer must demonstrate financial commitment by means of one of the following:
+(A)
+posting of security in the amount of $100,000 per MW of contracted peak demand;
+(B)
+posting of financial security to the DSP or TSP in an amount equal to the DSP and TSP’s
+expected costs for equipment with a lead time of at least six months and services necessary
+to interconnect the large load; or
+(C)
+payment of contribution in aid of construction (CIAC) in an amount that is equal to the
+DSP and TSP’s expected costs to interconnect the large load customer that are directly
+attributable to interconnecting the large load customer. The costs for CIAC must be
+remitted through a direct cash payment and include the following:
+(i)
+costs associated with one or more new transmission lines built to interconnect the large
+load customer to the existing transmission network, including substation upgrades
+necessary to interconnect the new large load customer; and
+(ii)
+costs associated with system upgrades that would not be required but for the
+interconnecting large load customer.
+Security posted under this subsection must be remitted in one of the following forms:
+(A)
+cash collateral;
+(B)
+a letter of credit issued by a major U.S. commercial bank, or a U.S. branch office of a major
+foreign commercial bank, with a credit rating of at least “A-” by Standard & Poor’s or
+“A3” by Moody’s Investor Service; or
+(C)
+corporate or parental guaranty, only if the corporation or parent has a credit rating
+equivalent of BBB-/Baa3 or higher from Standard & Poor’s or Moody’s.
+
+Effective date. ERCOT must use load data submitted for the 2026 RTP in its transmission planning studies
+or resource adequacy assessments, including Regional Planning Group project submissions until ERCOT
+constructs new planning cases with the load data submitted by DSPs using the criteria in subsection (c) of
+this section. For all transmission planning studies and resource adequacy assessments that are conducted
+before the implementation of any protocols or compliance plan adopted under subsection (g) of this section,
+ERCOT must continue to use its load forecast practices in effect immediately prior to the effective date of
+this section.
+
+§25.370-3
+
+effective 3/1/2026
+(P-58480)
+
+

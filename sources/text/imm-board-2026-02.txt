@@ -1,0 +1,51 @@
+Item 10.1: Independent Market Monitor
+(IMM) Report
+Jeff McDonald, Ph.D.
+VP Potomac Economics and
+ERCOT IMM Director
+
+Board of Directors,
+Reliability and Markets Committee
+ERCOT Public
+February 9-10, 2026
+
+Non-Spinning Reserve Pricing in RTC
+• The RTM clears surplus
+NSRS yet is producing a
+shortage price.
+• Is frequently clearing at
+price > other reserves.
+• Difficult to estimate annual
+excess cost due to
+potential seasonal effects.
+• Recommend stop ASDC at
+the AS Plan, then
+reformulate ASDC
+(including other
+improvements as well).
+
+2
+
+Shortage Prices in Non-Spin when System is Long
+
+3
+
+Notes on RA Through Markets
+
+• There are three fundamental designs that are intended to support
+resource adequacy in wholesale electric markets:
+• Energy Only (TX), Capacity Market, and Load Obligation.
+• Energy only and capacity markets are designed to price shortages,
+signal scarcity, and provide revenue for new generation.
+• There has been a pattern of considering programs that price
+services outside the market (e.g. FFSS, ERS, RDR, Fwd Capacity
+Procurement).
+• These programs suppress price which inhibits the market’s ability
+to signal relative shortage and incent new investment.
+• A market needs to experience and price shortages in order to
+provide the incentives for new investment.
+• Focus should be on shortage pricing and new products in-market
+where needed to provide revenue signals for new investment.
+4
+
+

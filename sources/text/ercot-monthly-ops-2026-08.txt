@@ -1,0 +1,1460 @@
+CONFIDENTIAL
+PUBLIC
+
+ERCOT Monthly
+Operational Overview
+(August 2026)
+
+ERCOT Public
+September 16, 2026
+
+PUBLIC
+
+Highlights, Records and Notifications
+
+• ERCOT’s maximum peak demand for the month of August was 90,817 MW* at hour ending 18
+on 8/24/2026; this is 7,110 MW more than the August 2025 peak demand of 83,707 MW on
+8/18/2025.
+• ERCOT issued 4 notifications:
+– 1 OCN – On 8/19/26 at 10:00, ERCOT issued an OCN for an extreme hot weather event due to predicted high
+temperatures in the ERCOT North Central and South Central Regions from 8/20/26 – 8/25/26.
+– 3 DC Tie Curtailment Notices:
+– On 08/01/26 at 01:12 ERCOT curtailed the DC_R (Railroad) DC Tie due to one or more transmission security
+violations that would be fully or partially resolved by the curtailment of DC Tie Load.
+– On 8/6/26 at 20:11 ERCOT curtailed the DC_R (Railroad) DC Tie due to an outage.
+– On 8/17/26 at 19:10 ERCOT curtailed the DC_E (East) DC Tie due to one or more transmission security
+violations that would be fully or partially resolved by the curtailment of DC Tie Load.
+
+* Preliminary value from September Demand and Energy 2026 report.
+
+2
+
+Monthly energy generation increased by 10.1% year-over-year to 54,418
+GWh in August 2026, compared to 49,413 GWh in August 2025
+Nuclear
+
+Coal
+
+Wind
+
+Solar
+
+Hydro
+
+Biomass
+
+Other
+
+Net DC/BLT
+
+Gas-CC
+
+Gas
+
+60,000
+50,000
+40,000
+GWh
+
+PUBLIC
+
+30,000
+20,000
+10,000
+0
+
+Data for latest two months are based on preliminary settlements.
+
+3
+
+Generation Interconnection activity by project phase
+
+(Excludes capacity associated with projects designated as Inactive per Planning Guide Section 5.2.5)
+2,500
+2,250
+2,000
+1,750
+1,500
+1,250
+1,000
+750
+500
+250
+0
+
+500 GW
+400 GW
+300 GW
+200 GW
+100 GW
+0
+
+# Signed Interconnect Agreement
+# in Full Study
+# Initial Screening study
+
+•
+•
+
+Planned Capacity
+
+Project Count
+
+PUBLIC
+
+# Completed Full Study
+# Screening Study Complete
+Planned Capacity
+
+There are an additional 32 “Small Generator” projects totaling 281 MW that are going through
+the simplified interconnection process.
+A break-out by fuel type can be found in the monthly Generator Interconnection Status (GIS)
+reports available on the ERCOT Resource Adequacy Page:
+http://www.ercot.com/gridinfo/resource
+
+4
+
+PUBLIC
+
+Interconnection Queue Capacity by Fuel Type
+
+Totals: Solar 156 GW (34.4%), Wind 48 GW (10.6%), Gas 82 GW (18%), Battery 164 GW / 395 GWh (36.2%), Other 4 GW (0.9%)
+
+(Excludes capacity associated with projects designated as Inactive per Planning Guide Section 5.2.5)
+70 GW
+60 GW
+50 GW
+40 GW
+30 GW
+20 GW
+10 GW
+0 GW
+
+Gas
+2026
+
+Wind
+2027
+
+2028
+
+Solar
+2029
+
+2030
+
+Battery
+2031
+
+2032
+
+Other*
+2033
+
+A break-out by zone can be found in the monthly Generator Interconnection Status (GIS) reports available on
+the ERCOT Resource Adequacy Page: http://www.ercot.com/gridinfo/resource
+•
+•
+
+Other includes petroleum coke (pet coke), hydroelectric, fuel oil, nuclear, geothermal energy, other miscellaneous fuels reported by
+developers, and fuel cells that use fuels other than natural gas.
+The GWh cited for active planned battery storage projects is an estimate of the aggregate nameplate energy rating based on data
+provided through Request for Information (RFI) submissions for projects with signed interconnection agreements. Using the RFI data, an
+average design duration for these projects is calculated and then multiplied by the nameplate capacity for all active projects to derive the
+total energy rating.
+
+5
+
+Planning Summary
+
+PUBLIC
+
+•
+
+ERCOT is tracking 1,890 active generation interconnection requests totaling 454,471 MW as of
+August 31. This includes 156,289 MW of solar, 48,131 MW of wind, 164,417 MW of battery, and
+81,704 MW of gas projects; 168 projects were categorized as inactive, up from 165 in July.
+
+•
+
+ERCOT is currently reviewing proposed transmission improvements with a total estimated cost of
+$22.802 billion as of August 31, 2026.
+
+•
+
+Transmission Projects endorsed in 2026 total $12.266 billion as of August 31, 2026.
+
+•
+
+All projects (in engineering, routing, licensing and construction) total approximately $55.536 billion
+as of July 17, 2026.
+
+•
+
+Transmission Projects energized in 2026 total approximately $595.737 million as of July 17, 2026.
+
+•
+
+Transmission Projects planned to energize during the remainder of 2026 total approximately
+$6.526 billion as of July 17, 2026.
+
+6
+
+PUBLIC
+
+ERCOT set a new record of 90,817 MW* for the month of August on
+8/24/2026; This is 7,110 MW more than the August 2025 demand of 83,707
+MW on 8/18/2025.
+2025
+
+90 GW
+
+2026
+
+90 GW
+
+90,817 MW*
+
+80 GW
+
+80 GW
+
+70 GW
+
+70 GW
+
+60 GW
+
+60 GW
+
+50 GW
+
+50 GW
+
+40 GW
+
+40 GW
+
+53,602 MW**
+
+30 GW
+
+30 GW
+
+20 GW
+
+20 GW
+
+10 GW
+
+10 GW
+
+0
+
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Jun
+
+Jul
+
+Aug
+
+Sep
+
+Oct
+
+Nov
+
+Dec
+
+0
+
+*Based on the maximum net system hourly value from the August 2026 Demand and Energy report.
+**Based on the minimum net system 15-minute interval value from the August 2026 Demand and Energy report.
+Data for latest two months are based on preliminary settlements.
+7
+
+PUBLIC
+
+Net Load Forecast Performance
+Day Ahead Net Load Forecast - Mean Absolute Forecast Error
+Day Ahead Net Load Forecast MAE (MW)
+
+KPI Goal (4,000 MW)
+
+4,500
+4,000
+3,500
+3,000
+2,500
+2,000
+1,500
+1,000
+500
+0
+
+8
+
+PUBLIC
+
+Loads Approved to Energize - Observations
+•
+
+Of the 9,456 MW that have received Approval to Energize, ERCOT has observed a non-simultaneous monthly
+peak consumption of 4,316 MW in August 2026, which is a slight decrease since July 2026.
+– This is calculated as the sum of the maximum value for each individual load per month.
+– This value represents how much approved load ERCOT believes is now operational.
+
+9
+
+Frequency Control
+•
+
+Control Performance Standard 1 (CPS-1) is a measure of the frequency control on a power system,
+pursuant to NERC Standard BAL-001. The 12-month rolling-average of this measure is required to stay
+above 100%.
+12 Month Rolling Average CPS1 KPI
+Target > 140 % | Stretch > 150%
+
+200
+190
+
+Current 12-Month Rolling Average: 184.02%
+
+Aug CPS1 (%): 186.67
+
+180
+170
+
+CPS1 (%)
+
+PUBLIC
+
+160
+150
+140
+130
+120
+110
+100
+
+CPS1
+
+12-month Rolling Average
+
+Key Takeaway(s): Frequency control has been performing extremely well
+
+10
+
+Transmission Limit Control
+
+PUBLIC
+
+The most-recent Interconnection Reliability Operating Limit (IROL) exceedance occurred in April 2026.
+Monthly IROL Exceedances (Jan 2023 to August 2026)
+All exceedances had the duration between 10 second and 10 minutes.
+There were no exceedances which lasted for more than 10 minutes.
+
+Number of Exceedances
+
+8
+7
+6
+5
+4
+3
+2
+1
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+2024
+
+2023
+
+9
+
+10
+
+11
+
+12
+
+Month
+
+2026
+
+2025
+
+Key Takeaway: In August, ERCOT had 0 IROL exceedances occur.
+
+11
+
+PUBLIC
+
+IBR Ride-Through Events
+
+12
+
+PUBLIC
+
+Large Load Ride-Through Events
+
+13
+
+PUBLIC
+
+2026 Year-to-Date (YTD) Event Analysis Summary
+Number of
+Events
+(All 2026)
+
+Number of
+Events
+(August 2026)
+
+NERC Reportable by ERCOT*
+
+1
+
+0
+
+Inverter Based Resource (IBR) Ride-Through Events
+
+10
+
+2
+
+Large Load Ride-Through Events
+
+8
+
+0
+
+Large Load Oscillation Events
+
+1
+
+1
+
+IBR Oscillation Events
+
+24
+
+1
+
+IBR Large MW Change Events (no fault associated)
+
+37
+
+2
+
+Miscellaneous (transmission or telemetry event)
+
+11
+
+0
+
+Event Type
+
+Key Takeaway: The Event Analysis team investigates each event to keep the system reliable and prevent reoccurring
+issues.
+*Meeting the criteria for NERC’s Electric Reliability Organization Event Analysis Process and requiring ERCOT to submit a report.
+
+14
+
+Real-Time congestion rent totals increased 38% in August from July 2026
+
+PUBLIC
+
+400
+350
+$ Millions
+
+300
+250
+200
+150
+100
+50
+0
+
+North
+
+West
+
+South
+
+Houston
+
+Cross Zone
+
+Total Real-Time congestion rent increased in August, with the highest congestion rent in the North and South Zones
+• The constraint representing the loss of the 345 kV line from Fort Smith Switch to Venus Switch (overloading the 345 kV line from Venus Switch to Sam Switch)
+primarily drove congestion rent in the North Zone.
+• The constraint representing the loss of the 138 kV line double circuit from Round Rock to Hutto (overloading the 138 kV line from Wells Branch to Howard Lane)
+primarily drove congestion rent in the South Zone.
+Notes:
+
+1) Congestion rent is determined using the shadow prices and MW flows for individual constraints in SCED as well as the length in time of SCED intervals.
+2) The “Cross Zone” category consists of cases in which the substations on either end of the constraint are in different zones.
+
+15
+
+PUBLIC
+
+RUC Activity nearly doubled in August 2026 compared to July
+
+Notes:
+
+1) “Effective Resource-Hours” excludes any period during a Reliability Unit Commitment hour when the RUC-committed Resource was starting
+up, shutting down, off-line, or otherwise not available for dispatch by SCED.
+
+16
+
+PUBLIC
+
+Like the preceding months, most RUC instructions (96%) in August were
+committed to address capacity needs, primarily to ensure sufficient
+Ancillary Services
+
+There were 782.1 RUC total effective Resource-hours in August. 754.3 (96%) were committed to
+address capacity concerns and 27.8 hours (4%) were committed to alleviate congestion.
+
+17
+
+PUBLIC
+
+Twenty-Eight Resources were committed in August, primarily to manage capacity
+Resource #
+
+Effective
+Resource-hours
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+Total
+
+110.9
+110.9
+61.6
+55.9
+54.0
+53.7
+46.9
+41.9
+36.3
+31.0
+22.3
+18.0
+17.0
+17.0
+16.0
+16.0
+16.0
+10.8
+9.0
+8.0
+6.0
+6.0
+5.9
+4.0
+3.0
+2.0
+1.0
+0.8
+782.1
+
+For Capacity
+
+For Congestion
+
+Opt-Out
+
+Non-Opt-Out
+
+Opt-Out
+
+Non-Opt-Out
+
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+3.9
+0.0
+0.0
+9.0
+17.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+3.0
+0.0
+0.0
+0.0
+32.9
+
+110.9
+110.9
+61.6
+55.9
+54.0
+53.7
+46.9
+41.9
+32.4
+23.0
+14.4
+9.0
+0.0
+17.0
+16.0
+16.0
+16.0
+7.0
+9.0
+0.0
+6.0
+6.0
+5.9
+4.0
+0.0
+2.0
+1.0
+0.8
+721.4
+
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+3.8
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+3.8
+
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+8.0
+7.9
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+8.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+23.9
+
+18
+
+Net Allocation to Load in August 2026 was ($131.38) Million
+
+PUBLIC
+
+150
+
+100
+
++$60.46M
+50
+
+$ Millions
+
+0
+
+-50
+
+-100
+
+-150
+
+-200
+
+-$191.84M
+
+-250
+
+DAM Ancillary Service
+
+Balancing Account Payout to Load
+
+CRR Auction Distribution
+
+ERCOT Administrative Fee
+
+ERS Settlement
+
+Real-Time Ancillary Service Imbalance
+
+Real-Time Revenue Neutrality
+
+Firm Fuel Supply Service
+
+Other Settlements
+
+Real-Time Ancillary Service Revenue Neutrality
+
+RMR/Mobile Gen
+
+Total Allocation to Load
+
+This information is available in tabular form in the Settlement Stability Report presented quarterly to the Wholesale Market Subcommittee
+
+19
+
+Real-Time Revenue Neutrality Allocated to Load was $10.70M for August 2026
+
+PUBLIC
+300
+
+200
+
+100
+
+$ Millions
+
+0
+
+-100
+
+-200
+
+-300
+
+-400
+
+Real-Time Energy Imbalance
+
+Real-Time Point-to-Point Obligations
+
+Real-Time Congestion from Self-Schedules
+
+DC Ties & Block Load Transfers
+
+Real-Time Energy for SODG and SOTG
+
+Load Allocated Revenue Neutrality
+
+August 2026 ($M)
+Real-Time Energy Imbalance
+
+$147.47
+
+Real-Time Point-to-Point Obligation
+
+($147.80)
+
+Real-Time Congestion from Self-Schedules
+
+$0.48
+
+DC Tie & Block Load Transfer
+
+($9.63)
+
+Real-Time Energy for SODG and SOTG
+
+($1.23)
+
+Load Allocated Revenue Neutrality
+
+$10.70
+
+20
+
+DAM Ancillary Services for August 2026 totaled $13.36M
+
+PUBLIC
+60
+
+50
+
+$ Millions
+
+40
+
+30
+
+20
+
+10
+
+0
+
+ERCOT Contingency Reserve
+
+Non-Spin
+
+Regulation Down
+
+Responsive Reserve
+
+Regulation Up
+
+21
+
+Real-time prices exceeded day-ahead prices in August by $2.48/MWh,
+on average
+
+PUBLIC
+
+100
+Average SPP
+($/MWh)
+
+80
+
+Day-Ahead
+
+Real-Time
+
+60
+40
+20
+
+Average DAM - RTM SPP
+($/MWh)
+
+0
+40
+35
+30
+25
+20
+15
+10
+5
+0
+-5
+-10
+-15
+-20
+
+Notes:
+
+1) The dotted lines represent the bounds for major outliers .
+2) Averages are weighted by Real-Time Market Load.
+
+22
+
+PUBLIC
+
+Day-ahead and real-time Ancillary Service prices were higher in
+August compared to July
+
+Average MCPC ($/MWh)
+
+DAM Average MCPC
+8
+7
+6
+5
+4
+3
+2
+1
+0
+
+Notes:
+
+Jan-26
+
+Feb-26
+
+Mar-26
+Reg-Up
+
+Apr-26
+Reg-Down
+
+May-26
+RRS
+
+ECRS
+
+Jun-26
+
+Jul-26
+
+Aug-26
+
+Non-Spin
+
+2) Monthly MCPCs are calculated as energy- and
+time-weighted average values, using the total AS
+awards of each interval for each AS type.
+
+RT Average MCPC
+8
+
+Average MCPC ($/MWh)
+
+1) Starting with the introduction of the RTC+B
+program in December 2025, there are now MCPCs
+for all Ancillary Services in the Real-Time Market
+(RTM). The table compares RTM MCPCs to DAM
+MCPCs.
+
+7
+6
+5
+4
+3
+2
+1
+0
+
+Jan-26
+
+Feb-26
+
+Mar-26
+Reg-Up
+
+Apr-26
+Reg-Down
+
+May-26
+RRS
+
+ECRS
+
+Jun-26
+Non-Spin
+
+Jul-26
+
+Aug-26
+
+23
+
+The percentage of real-time load transacted in the Day-Ahead Market is
+relatively flat since November 2025 and lower than in the previous two years
+
+PUBLIC
+
+100%
+95%
+90%
+85%
+80%
+75%
+70%
+65%
+60%
+55%
+50%
+
+*The dotted lines represent the bounds for major outliers
+
+24
+
+The net value of Congestion Revenue Rights (CRRs) was ~$6M in
+August
+
+PUBLIC
+
+300
+
+$ Millions
+
+250
+
+Cost
+
+Value
+
+200
+150
+100
+
+Value - Cost ($ Millions)
+
+50
+0
+150
+100
+50
+0
+-50
+-100
+
+25
+
+The CRR Balancing Account was fully-funded and excess amounts were
+allocated to Load
+
+PUBLIC
+
+100
+80
+60
+40
+
+$ Millions
+
+20
+0
+-20
+-40
+-60
+-80
+-100
+
+Balancing Account Credit
+
+CRR Fee Total
+
+CRR Short Charges Refunded
+
+Payout to Load
+
+CRR Short Charges Not Refunded
+
+Fund Cap
+
+Balancing Account Fund Total
+
+26
+
+30
+
+Price Issues and the Impact of
+Nodal Protocol Revision Request
+(NPRR) 1024 on Price Corrections
+
+This graph looks at the recent history of price
+issues in the RTM or DAM and breaks the
+impacted Operating Days into two categories:
+• Days that met the criteria for “significance” under
+NPRR1024 and were corrected
+• Days that were not corrected because they did
+not meet the criteria for “significance” under
+NPRR1024
+
+25
+
+No. of Operating Days
+
+PUBLIC
+
+20
+
+15
+
+10
+
+5
+
+0
+
+Met Criteria
+
+Did Not Meet Criteria
+27
+
+PUBLIC
+
+ERCOT identified one pricing incident, but it did not meet the criteria to
+correct prices
+
+Met Criteria
+On Operating Day August 30, 2026, a database issue delayed shift factor data for use by Security
+Constrained Economic Dispatch (SCED). As a result, SCED used stale constraint data for intervals
+09:05 - 09:15 AM, and 09:25 AM. ERCOT performed an impact analysis and found that the affected
+intervals met the significance criteria for pursuing a price correction. ERCOT corrected prices for
+OD August 30 before the deadline of 4:00 PM on September 1, 2026.
+Did Not Meet Criteria
+On Operating Day August 11, 2026, ERCOT performed a scheduled site failover and activated
+Emergency Basepoints. ERCOT’s analysis showed an estimated absolute total dollar impact of
+$83.42 for changes to Real-Time prices for energy metered. This impact did not meet the
+significance criteria of $500 and so ERCOT did not correct prices.
+
+28
+
+PUBLIC
+
+Longer-Term Forward Price Trends
+Yearly Average Settlement Price for Selected Trade Dates (ERCOT North 345 kV Hub RT)
+Yearly Average Settlement Price ($/MWh)
+
+70
+60
+50
+1 Year Ago
+
+40
+
+6 Mon. Ago
+30
+
+3 Mon. Ago
+1 Mon. Ago
+
+20
+
+Most Recent Date
+
+10
+0
+
+2026
+
+2027
+
+2028
+
+Strip Year
+
+2029
+
+2030
+
+Over the past six months, the yearly average forward prices show an increasing trend towards 2030. However, current
+yearly prices are trading consistently lower than they have been over the last year.
+*Strip year is an average of monthly ICE On-peak prices. The most recent data was captured on 9/4/2026.
+
+29
+
+Available Credit by Type Compared to Total Potential Exposure (TPE)
+14,000
+11,515
+
+12,000
+10,000
+$ Million
+
+PUBLIC
+
+8,000
+
+6,796
+
+6,521
+
+6,477
+
+31-Aug- 30-Sep2025
+2025
+6,796
+6,521
+392
+412
+4,655
+4,424
+1,728
+1,695
+1,516
+1,597
+1,917
+1,662
+
+31-Oct2025
+6,477
+402
+4,280
+1,795
+1,508
+1,698
+
+6,701
+
+6,915
+
+7,690
+
+7,354
+
+7,709
+
+28-Feb2026
+7,690
+432
+5,358
+1,900
+2,197
+2,330
+
+31-Mar2026
+7,354
+433
+5,044
+1,847
+1,832
+2,097
+
+30-Apr2026
+7,709
+463
+5,062
+2,183
+2,353
+2,353
+
+7,647
+
+7,785
+
+31-May- 30-Jun2026
+2026
+7,606
+7,647
+464
+474
+5,022
+4,991
+2,110
+2,174
+2,113
+2,248
+2,251
+2,294
+
+31-Jul2026
+7,785
+482
+5,272
+2,026
+2,191
+2,245
+
+7,606
+
+7,306
+
+6,000
+4,000
+2,000
+0
+
+Total Collateral
+Surety Bonds
+Letters of Credit
+Cash
+TPE
+Max TPE
+
+30-Nov- 31-Dec2025
+2025
+6,701
+6,915
+402
+402
+4,452
+4,487
+1,847
+1,997
+1,534
+1,763
+1,723
+1,765
+
+31-Jan2026
+11,515
+432
+8,131
+2,952
+2,497
+4,162
+
+31-Aug2026
+7,306
+487
+4,829
+1,990
+1,985
+2,209
+
+*Numbers are as of month end except for Max TPE
+30
+
+PUBLIC
+
+Retail Transaction Volumes – Summary – August 2026
+Year-To-Date
+Transaction Type
+
+Transactions Received
+
+August 2026
+
+August 2025
+
+August 2026
+
+August 2025
+
+1,017,481
+
+1,003,191
+
+157,158
+
+150,960
+
+Acquisitions
+
+0
+
+0
+
+0
+
+0
+
+Move - Ins
+
+1,976,759
+
+2,016,972
+
+264,690
+
+291,138
+
+Move - Outs
+
+960,408
+
+978,609
+
+125,365
+
+126,196
+
+Continuous Service Agreements
+(CSA)
+
+444,585
+
+592,025
+
+43,086
+
+252,301
+
+0
+
+0
+
+0
+
+0
+
+4,399,233
+
+4,590,797
+
+590,299
+
+820,595
+
+Switches
+
+Mass Transitions
+Total
+
+31
+
+

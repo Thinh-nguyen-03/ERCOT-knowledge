@@ -1,0 +1,257 @@
+Commercial Operations Market Guide
+
+Section 8: ERCOT Settlement and Invoice Process
+
+August 1, 2026
+
+8 ERCOT SETTLEMENT AND INVOICE PROCESS 1
+
+8.1 Invoice Process 1
+
+8.1.2 Types of Ad Hoc Invoices 1
+
+8.1.3 Method of Communication 1
+
+8.1.4 Timing of Communication 2
+
+8.1.5 Content of Communication 2
+
+8.1.6 Market Participants 2
+
+8.2 Settlement Statements and Invoices 2
+
+8.2.1 Congestion Revenue Right (CRR) Settlement Invoices 5
+
+8.2.1.1 CRR Auction Award Invoices 5
+
+8.2.1.2 CRR Auction Revenue Distribution (CARD) Invoice 6
+
+8.2.1.3 CRR Balancing Account (CRRBA) Invoice 7
+
+8.2.2 Day-Ahead Market Statements 8
+
+8.2.3 Real-Time Market Statements 9
+
+8.2.3.1 Real-Time Market Statements 9
+
+8.2.3.2 Settlement Invoice 14
+
+8.2.3.3 Default Uplift Invoice 16
+
+8.2.3.4 Miscellaneous Invoice 16
+
+ERCOT SETTLEMENT AND INVOICE PROCESS 
+
+8.1 Invoice Process
+
+The process for receiving the ERCOT daily Invoice based on Settlement Statements are documented in Protocol Section 9.6, Settlement Invoices for the Day-Ahead Market and Real-Time Market. This Section explains the process for Invoices that are not settled according to the Protocol timeline.
+
+8.1.2 Types of Ad Hoc Invoices
+
+The following are types of Settlements that will be invoiced on an ad hoc basis:
+
+  (a) Recurring ad hoc charges - These are recurring ad hoc charges that are not included in other ERCOT market Settlement Invoices including the following:
+
+  (i) Wide Area Network (WAN) fee; and
+
+  (ii) Electric Reliability Organization (ERO) fee.
+
+  (b) Other ad hoc Settlements - These are Settlements that are issued infrequently and are not included in ERCOT market Settlement Invoices including litigation and other undefined scenarios such as the following:
+
+  (i) Uplift of short pays;
+
+  (ii) Litigation; and
+
+  (iii) Other undefined scenarios.
+
+8.1.3 Method of Communication
+
+(1) ERCOT will communicate with Market Participants regarding the posting of ad hoc Invoices by sending Market Notices to registered contacts of Market Participants and public e-mail distribution lists applicable to the Invoices.
+
+(2) Market Notices regarding ad hoc invoices will be sent to the following contact types:
+
+  (a) Primary Authorized Representative;
+
+  (b) Backup Authorized Representative;
+
+  (c) Accounts payable; and
+
+  (d) Accounts payable backup.
+
+8.1.4 Timing of Communication 
+
+ERCOT will send Market Notices regarding ad hoc invoices as many days in advance of the posting of the Invoice as possible, but no later than the next Business Day after the ad hoc Invoice is posted.
+
+8.1.5 Content of Communication
+
+The Market Notice from ERCOT will contain as much detail as possible including the following:
+
+  (a) A subject line indicating the appropriate urgency and action required.
+
+  (b) A description of the type of Market Participants to which ad hoc Invoices have been issued.
+
+  (c) Contact information for ERCOT personnel to be contacted for inquiries regarding ad hoc Invoices.
+
+  (d) When and where the Invoice will be posted. Ad hoc Invoices are normally posted on the Market Information System (MIS) Certified Area.
+
+8.1.6 Market Participants
+
+Each Market Participant should ensure that the accounting contacts registered with ERCOT are current to ensure that the Invoices are received and paid in a timely manner.
+
+8.2 Settlement Statements and Invoices
+
+(1) The Real-Time Market (RTM), the Day-Ahead Market (DAM), and the Congestion Revenue Right (CRR) Auction are settled separately. Each type of Settlement has a unique set of statements and/or Invoices and settles according to a different timeline. Settlement Statements and Invoices can apply to a registered CRR Account Holder (CRRAH), a registered Qualified Scheduling Entity (QSE), or both. The table below provides details regarding the various statements and Invoices.
+
++------+------------------------------------------+------------------------------------+-----------+---------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Type | Invoice or Statement                     | Recipient                          | Frequency | Post Timing                                                                                                         | Payment Due                                                                                                                                                                                                          |
++======+==========================================+====================================+===========+=====================================================================================================================+======================================================================================================================================================================================================================+
+| CRR  | CRR Auction Invoice                      | -   CRRAHs                         | Monthly   | 1^(st) Business Day after completion of a CRR Auction (Monthly and Annual CRR Auctions will be invoiced separately) | 3^(rd) Bank Business Day after Invoice posts (or next day that is both Business Day and Bank Business Day)                                                                                                           |
++------+------------------------------------------+------------------------------------+-----------+---------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|      | CRR Auction Revenue Distribution Invoice | -   QSEs (with Load)               | Monthly   | 1^(st) Business Day after RTM Initial Statement posts for the last day of the relevant month                        | 5^(th) Bank Business Day after Invoice posts (or next day that is both Business Day and Bank Business Day)                                                                                                           |
+|      |                                          |                                    |           |                                                                                                                     |                                                                                                                                                                                                                      |
+|      |                                          |                                    |           | and                                                                                                                 |                                                                                                                                                                                                                      |
+|      |                                          |                                    |           |                                                                                                                     |                                                                                                                                                                                                                      |
+|      |                                          |                                    |           | 1^(st) Business Day after RTM Final Statement posts for the last day of the relevant month                          |                                                                                                                                                                                                                      |
++------+------------------------------------------+------------------------------------+-----------+---------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|      | CRR Balancing Account Invoice            | -   CRRAH (due a shortfall refund) | Monthly   | 1^(st) Business Day after RTM Initial Statement posts for the last day of the relevant month                        | 1^(st) Bank Business Day after the due date of the Settlement Invoice that includes the RTM Initial Settlement statement for the last day of the month (or next day that is both Business Day and Bank Business Day) |
+|      |                                          |                                    |           |                                                                                                                     |                                                                                                                                                                                                                      |
+|      |                                          | -   QSEs (with load)               |           |                                                                                                                     | *Note: Payout to market only                                                                                                                                                                                         |
++------+------------------------------------------+------------------------------------+-----------+---------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| DAM  | DAM Statement                            | -   QSEs                           | Daily     | 2^(nd) Business after the Operating Day                                                                             | n/a                                                                                                                                                                                                                  |
+|      |                                          |                                    |           |                                                                                                                     |                                                                                                                                                                                                                      |
+|      |                                          | -   CRRAHs                         |           |                                                                                                                     |                                                                                                                                                                                                                      |
++------+------------------------------------------+------------------------------------+-----------+---------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|      | DAM Resettlement Statement               | -   QSEs                           | Ad hoc    | Ad hoc (on Business Day)                                                                                            | n/a                                                                                                                                                                                                                  |
+|      |                                          |                                    |           |                                                                                                                     |                                                                                                                                                                                                                      |
+|      |                                          | -   CRRAHs                         |           |                                                                                                                     |                                                                                                                                                                                                                      |
++------+------------------------------------------+------------------------------------+-----------+---------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| RTM  | RTM Initial Settlement Statement         | -   QSEs                           | Daily     | Operating Day + 5 (or next Business Day)                                                                            | n/a                                                                                                                                                                                                                  |
+|      |                                          |                                    |           |                                                                                                                     |                                                                                                                                                                                                                      |
+|      |                                          | -   CRRAHs                         |           |                                                                                                                     |                                                                                                                                                                                                                      |
++------+------------------------------------------+------------------------------------+-----------+---------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|      | RTM Final Settlement Statement           | -   QSEs                           | Daily     | Operating Day + 55 (or next Business Day)                                                                           | n/a                                                                                                                                                                                                                  |
+|      |                                          |                                    |           |                                                                                                                     |                                                                                                                                                                                                                      |
+|      |                                          | -   CRRAHs                         |           |                                                                                                                     |                                                                                                                                                                                                                      |
++------+------------------------------------------+------------------------------------+-----------+---------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|      | RTM True-Up Settlement Statement         | -   QSEs                           | Daily     | Operating Day + 180 (or next Business Day)                                                                          | n/a                                                                                                                                                                                                                  |
+|      |                                          |                                    |           |                                                                                                                     |                                                                                                                                                                                                                      |
+|      |                                          | -   CRRAHs                         |           |                                                                                                                     |                                                                                                                                                                                                                      |
++------+------------------------------------------+------------------------------------+-----------+---------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|      | RTM Resettlement Settlement Statement    | -   QSEs                           | Ad hoc    | Ad hoc (on Business Day)                                                                                            | n/a                                                                                                                                                                                                                  |
+|      |                                          |                                    |           |                                                                                                                     |                                                                                                                                                                                                                      |
+|      |                                          | -   CRRAHs                         |           |                                                                                                                     |                                                                                                                                                                                                                      |
++------+------------------------------------------+------------------------------------+-----------+---------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| STL  | Settlement Invoice                       | -   QSE                            | Daily     | Every Business Day – Rolls up all statements posted that day                                                        | 2^(nd) Bank Business Day after the Invoice posts (or next day that is both Business Day and Bank Business Day)                                                                                                       |
+|      |                                          |                                    |           |                                                                                                                     |                                                                                                                                                                                                                      |
+|      |                                          | -   CRRAHs                         |           |                                                                                                                     |                                                                                                                                                                                                                      |
++------+------------------------------------------+------------------------------------+-----------+---------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|      | Default Uplift Invoice                   | -   QSEs                           | Ad hoc    | Ad hoc (on Business Day)                                                                                            | 5^(th) Bank Business Day after the Invoice posts (or next day that is both Business Day and Bank Business Day)                                                                                                       |
+|      |                                          |                                    |           |                                                                                                                     |                                                                                                                                                                                                                      |
+|      |                                          | -   CRRAHs                         |           | *Market Notice required                                                                                             |                                                                                                                                                                                                                      |
++------+------------------------------------------+------------------------------------+-----------+---------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| MISC | Miscellaneous Invoice                    | -   QSEs                           | Ad hoc    | Ad hoc (on Business Day)                                                                                            | Specified in the Market Notice                                                                                                                                                                                       |
+|      |                                          |                                    |           |                                                                                                                     |                                                                                                                                                                                                                      |
+|      |                                          | -   CRRAHs                         |           | *Market Notice required                                                                                             |                                                                                                                                                                                                                      |
++------+------------------------------------------+------------------------------------+-----------+---------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+(2) Upon approval and posting of Settlement Statements and Invoices, the associated data is sent to the Credit Monitoring & Management (CMM) system for use in credit calculations. Similarly, when payment is made to or from the QSE/CRRAH, the payment data is subsequently sent to the CMM system.
+
+(3) The QSE Settlement Statements and Invoices and the CRRAH Statements and Invoices are available on the Market Information System (MIS) Certified Area. Statements and Invoices are ‘MIS Certified’ meaning they are Market Participant specific and have data proprietary to individual Entities. Therefore, these files are only available to those Entities owning the data and having a matching Data Universal Numbering System (DUNS) Number.
+
+(4) Market Participants must have access to the ERCOT MIS appropriate roles in order to retrieve data via the MIS and/or Application Programmatic Interface (API). MIS access must be obtained from your Entity’s User Security Administrator (USA) and must contain the role of QSE Extracts (for QSEs) or CRR Extracts (for CRRs) in order to view and download statements, Invoices and/or related Settlement extracts.
+
+(5) Invoices, statements and extracts are also available via the API. To download the information from the API, utilize the report type IDs as listed in the ERCOT Market Information List (EMIL), along with the GetReport functionality on the API. For details regarding this option, refer to the External Web Services information posted to the ERCOT website.
+
+(6) In addition to statements and Invoices, the Settlements Calendar which provides statement, Invoice and dispute posting information details, is provided as an extract and can be found on the ERCOT website. Supporting information for the Settlements Calendar can be found in the Settlements Calendar User Guide and in the Data Definition Language (DDL) and Extensible Markup Language (XML) Schema Definition (XSD).
+
+(7) Settlement details, including the supporting input, intermediate, and output Settlement billing determinants and other data associated with Settlement Statements and Invoices are found in the appropriate Settlements extracts and reports. When viewing QSE/CRRAH Settlement Statements, a negative amount represents a payment due to the QSE/CRRAH and a positive amount represents a payment due to ERCOT. More information about the available extracts and reports, as well as example statements and Invoices, are available on the ERCOT website. Descriptions and definitions for the billing determinants can be found on the ERCOT website in the Settlement Charge Matrix and in the relevant Protocol sections. (Also see Section 10, Extracts and Reports).
+
+(8) Information about the Settlements Calendar, statements, and Invoices may be found in Protocol Section 9, Settlement and Billing.
+
+8.2.1 Congestion Revenue Right (CRR) Settlement Invoices 
+
+8.2.1.1 CRR Auction Award Invoices
+
+Refer to Protocol Sections 9.8, CRR Auction Award Invoices, and 9.9, Payment Process for CRR Auction Invoices, for details regarding CRR Auction invoicing. Monthly and Annual CRR Auctions are invoiced separately. Additionally, each auction of the CRR Long-Term Auction Sequence auctions will be invoiced separately.
+
+CRR Auction Invoice Timeline
+
+*Must be a Business Day or move to next Business Day.
+
+[]
+
+8.2.1.2 CRR Auction Revenue Distribution (CARD) Invoice
+
+Refer to Protocol Sections 9.10, CRR Auction Revenue Distribution Invoices, and 9.11, Payment Process for CRR Auction Revenue Distribution, for details regarding CRR Auction Revenue Distribution (CARD) invoicing. The ‘Time Period’ label on the Invoice indicates the month relevant to the CRR Auction revenue being paid out to QSEs.
+
+[]
+
+8.2.1.3 CRR Balancing Account (CRRBA) Invoice 
+
+Refer to Protocol Sections 9.12, CRR Balancing Account Invoices, and 9.13, Payment Process for CRR Balancing Account, for details regarding CCR Balancing Account (CRRBA) invoicing. The “Time Period” label on the Invoice indicates the month relevant to the balancing account funds being paid out to CRRAHs and/or QSEs.
+
+[]
+
+8.2.2 Day-Ahead Market Statements
+
+The DAM Statements for CRRAHs and QSEs are issued two days after the Operating Day.
+
+Refer to Protocol Section 9.2, Settlement Statements for the Day-Ahead Market, for details regarding DAM Statements. In the case of a “No DAM” scenario, where DAM is not successfully executed for an Operating Day, DAM Statements will not be generated or posted for that Operating Day.
+
+DAM Statement Timeline
+
+*Must be a Business Day or move to next Business Day.
+
+DAM Statement
+
+[]
+
+8.2.3 Real-Time Market Statements
+
+8.2.3.1 Real-Time Market Statements
+
+(1) Refer to Protocol Section 9.5, Settlement Statements for Real-Time Market, for details regarding RTM Settlement Statements.
+
+(2) There are four types of RTM Settlement Statements: Initial, Final, True-Up and Resettlement.
+
+(3) The figure below illustrates the timing of each statement. Resettlements can occur at any point in accordance with Protocol Section 9.5.6, RTM Resettlement Statement.
+
+RTM Statement Timeline
+
+*Must be a Business Day or move to next Business Day.
+
+8.2.3.1.1 RTM Initial Statement
+
+[]
+
+8.2.3.1.2 RTM Final Statement
+
+[]
+
+8.2.3.1.3 RTM True-Up Statement
+
+[]
+
+8.2.3.1.4 RTM Resettlement Statement
+
+[]
+
+8.2.3.2 Settlement Invoice
+
+Refer to Protocol Section 9.6, Settlement Invoices for the Day-Ahead Market and Real-Time Market, for details regarding the invoicing process. The daily Settlement invoicing process finds and includes the DAM, RTM Initial, Final, True-Up and/or Resettlement Statements that are posting on the same day.
+
+*Must be a Business Day or move to next Business Day.
+
+[]
+
+8.2.3.3 Default Uplift Invoice
+
+Refer to Protocol Sections 9.19.1, Default Uplift Invoices, and 9.19.2, Payment Process for Default Uplift Invoices, for details regarding the Default Uplift Invoicing process. The Default Uplift Invoicing process allocates DAM and/or RTM losses to QSEs and CRRAHs.
+
+[]
+
+8.2.3.4 Miscellaneous Invoice
+
+(1) In the event that ERCOT cannot reasonably Invoice Market Participants via one of the other Protocol-defined Invoices, ERCOT may utilize the Miscellaneous Invoice. Use of the Miscellaneous Invoice would be noticed to the market and could be in support of any invoicing activity described as “ad hoc” in Section 8.1, Invoice Process, of this document. The Miscellaneous Invoice posts to the same location on MIS as other QSE/CRRAH Invoices. This Invoice is generated out of the Settlements and Billing System using data which is derived and input by analysts. The Invoice format allows for flexibility to communicate descriptive information which varies depending on the nature of the ad hoc Invoice.
+
+INCLUDEPICTURE "cid:image001.png@01CAC515.8A601C20" \* MERGEFORMATINET INCLUDEPICTURE "cid:image001.png@01CAC515.8A601C20" \* MERGEFORMATINET INCLUDEPICTURE "cid:image001.png@01CAC515.8A601C20" \* MERGEFORMATINET INCLUDEPICTURE "cid:image001.png@01CAC515.8A601C20" \* MERGEFORMATINET []
