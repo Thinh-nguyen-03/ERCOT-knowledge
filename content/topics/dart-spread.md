@@ -207,7 +207,7 @@ The IMM looks at the average difference between day-ahead and real-time spot pri
 
 Prices should converge when barriers to trading in either market are low, participants have enough information to form accurate expectations of real-time prices, and both markets reflect the physical limits of the transmission network, so that participants can arbitrage predictable differences. [e1] With RTC, day-ahead energy and Ancillary Services are strictly financial positions, with imbalances settled in real time. [e7]
 
-Two measures matter: the signed average premium (DA minus RT) and the average absolute daily difference. The IMM reports both; the second is the better gauge of day-to-day risk. [e10][e3]
+Two measures matter: the signed average premium (DA minus RT) and the average absolute daily difference. The IMM reports both, and says the absolute difference captures variation in daily price differences, which may be large even if prices converge on average. [e10][e3]
 
 ### How a DART shows up in a position
 
@@ -234,7 +234,7 @@ The IMM's appendices describe zonal patterns: in 2022 the average absolute diffe
 
 ### Ancillary Services under RTC
 
-For Ancillary Services under RTC, the day-ahead premium was very high in the early days of RTC, and two events account for a disproportionate share of it. [e9] Table A2 (energy and AS, day-ahead versus real-time) reports: Energy $50.21 DA versus $37.03 RT, a 36% premium; Responsive $3.30 versus $0.41, 698%; NSRS $3.94 versus $1.10, 257%; Reg Up $3.57 versus $1.20, 197%; Reg Down $1.79 versus $1.13, 59%; ECRS $3.67 versus $0.71, 420%. [e25][e26] Excluding RegDown, elevated day-ahead prices on December 5, 2025 and during Winter Storm Fern on January 21-27, 2026 account for 57-75% of the average day-ahead premium for energy and up-reserve products. [e27] Virtual AS offers were allowed in the day-ahead market only from December 6, so physical-resource offers drove the elevated prices, and the IMM expects the premium to diminish and be significantly lower in the 2026 annual average. [e28][e29] The IMM also says that including virtual AS positions in the day-ahead clearing should lead to greater convergence between day-ahead and real-time AS prices. [e30]
+For Ancillary Services under RTC, the day-ahead premium was very high in the early days of RTC, and two events account for a disproportionate share of it. [e9] Table A2 (energy and AS, day-ahead versus real-time; its header prints the period as "December 5, 2026, through February 2026", while the report text places the start of RTC on December 5, 2025) reports: Energy $50.21 DA versus $37.03 RT, a 36% premium; Responsive $3.30 versus $0.41, 698%; NSRS $3.94 versus $1.10, 257%; Reg Up $3.57 versus $1.20, 197%; Reg Down $1.79 versus $1.13, 59%; ECRS $3.67 versus $0.71, 420%. [e25][e26] Excluding RegDown, elevated day-ahead prices on December 5, 2025 and during Winter Storm Fern on January 21-27, 2026 account for 57-75% of the average day-ahead premium for energy and up-reserve products. [e27] Virtual AS offers were allowed in the day-ahead market only from December 6, so physical-resource offers drove the elevated prices, and the IMM expects the premium to diminish and be significantly lower in the 2026 annual average. [e28][e29] The IMM also says that including virtual AS positions in the day-ahead clearing should lead to greater convergence between day-ahead and real-time AS prices. [e30]
 
 A related two-location measure is PTP profitability: PTPs received 10.9% more in real time than their day-ahead purchase cost in 2025, up from 7.5% in 2024. [e8]
 
@@ -263,7 +263,7 @@ The DART spread is the gap between the day-ahead and real-time price. In 2024 an
 
 - A small average spread does not mean a small risk. The average absolute daily difference was $12 per MWh in 2025 even though the average premium was only $1.17. [e3] Daily price differences may be large even if prices converge on average, and the average absolute difference captures that variation. [e2][e10]
 - A positive DART premium means day-ahead cleared above real time. It is not a profit on its own: a day-ahead position is financial and the imbalance settles in real time. [e7][e38]
-- A percentage premium on a low-priced AS product can look huge (Responsive 698%) while the dollar gap is a few dollars per MW. [e25]
+- A percentage premium on a low-priced AS product can look huge (Responsive 698%) while the gap in Table A2 is $3.30 versus $0.41 per MWh. [e25]
 
 ## Questions
 

@@ -147,11 +147,11 @@ evidence:
   - id: e27
     source: np-04
     locator: "Section 4.4.12(6), data period and variable table"
-    quote: "μ None The mean value of the shifted LOLP distribution as published for Summer 2026"
+    quote: "RTOLCAP MWh Real-Time On-Line Reserve Capacity – The Real-Time reserve capacity of On-Line Resources available for the SCED intervals beginning June 1, 2014 through August 31, 2025 RTOFFCAP MWh Real-Time Off-Line Reserve Capacity – The Real-Time reserve capacity of Off-Line Resources available for the SCED intervals beginning June 1, 2014 through August 31, 2025 μ None The mean value of the shifted LOLP distribution as published for Summer 2026 σ None The standard deviation of the shifted LOLP distribution as published for Summer 2026"
   - id: e28
     source: np-04
     locator: "Section 4.4.12(6)"
-    quote: "ERCOT shall develop the AORDC from historical data from the period of June 1, 2014 through August 31, 2025 as follows:"
+    quote: "ERCOT shall develop the AORDC from historical data from the period of June 1, 2014 through August 31, 2025 as follows: (a) For all SCED intervals where the sum of RTOLCAP and RTOFFCAP is less than 10,000 MW, use the RTOLCAP and RTOFFCAP values to calculate historical reserve pricing outcomes, which are used in the regression analysis described in paragraph (b) below:"
   - id: e29
     source: np-04
     locator: "Section 4.4.12(6)(c)"
@@ -239,7 +239,7 @@ evidence:
   - id: e49
     source: imm-som-2025
     locator: "Appendix, D. AS Shortages, page 165 (OCR), p. A-7, Table A3 (December 5, 2025, through February 2026)"
-    quote: "ECRS 4.0 214.6 78.0 NSRS 25.9 702.2 22.5"
+    quote: "Table A3: Frequency, Magnitude, and Pricing of AS Shortages December 5, 2025, through February 2026 RTC Ancillary Service Shortages Ancillary # of Average Average MCPC Service Hours MW ($ per MWh) ECRS 4.0 214.6 78.0 NSRS 25.9 702.2 22.5 REGDN - - REGUP - - RRS 1.6 35.2 131.6"
   - id: e50
     source: imm-som-2025
     locator: "Appendix, D. AS Shortages (p. A-8), after Figure A4"
@@ -251,7 +251,7 @@ evidence:
   - id: e52
     source: imm-quarterly-fy2026-q3
     locator: "IMM Quarterly Report FY2025-26 Q3, Daily ORDC Reserve/Reliability Adders, ORDC Reserve Adders"
-    quote: "The energy price natively includes any shortage value produced by the ASDC via co-optimization."
+    quote: "With implementation of RTC, there is no longer an explicit shortage price adder calculated or produced by the market software. The energy price natively includes any shortage value produced by the ASDC via co-optimization."
   - id: e53
     source: imm-som-tac-2026-07
     locator: "IMM presentation to TAC (August 13, 2026), slide 3, Summary of market pricing trends"
@@ -264,6 +264,38 @@ evidence:
     source: imm-som-2025
     locator: "Recommendations, 2024-1a (p. 125)"
     quote: "ERCOT lists “ASDC Review” as its top priority in its inventory of RTC Issues to Consider in 2026."
+  - id: e57
+    source: np-04
+    locator: "Section 4.4.12(6)(b), AORDC regression curve"
+    quote: "Using the results of paragraph (a) above, use regression methods to fit the following curve to the average reserve pricing outcomes for the various MW reserve levels: AORDC = (𝟏 − pnorm(reserve level − 3000, μ*, σ*)) ∗ 𝑽𝑶𝑳𝑳"
+  - id: e62
+    source: np-04
+    locator: "Section 4.4.12(6)(b), variable table (μ*, σ*)"
+    quote: "μ* None The mean value used for the calculation of the AORDC as determined using the regression fit method described above. σ* None The standard deviation used for the calculation of the AORDC as determined using the regression fit method described above."
+  - id: e58
+    source: np-04
+    locator: "Section 4.4.12(7)(a), MCL allocation cases"
+    quote: "If, RUPCT * RUREQ + RRSPCTMAX * RRSREQ + ECRSPCTMAX * ECRSREQ + NSMWMIN < MCL: RUMW = RUPCT * RUREQ ECRSMW = ECRSPCTMAX * ECRSREQ RRSMW = RRSPCTMAX * RRSREQ NSMW = MCL – RUMW – RRSMW – ECRSMW Else, if RUPCT * RUREQ + RRSPCTMAX * RRSREQ + ECRSMWMIN + NSMWMIN > MCL: RUMW = RUPCT * RUREQ ECRSMW = ECRSMWMIN RRSMW = RRSPCTMAX * RRSREQ – (RRSPCTMAX * RRSREQ + RUPCT * RUREQ – (MCL – ECRSMWMIN – NSMWMIN)) NSMW = NSMWMIN Otherwise, if RUPCT * RUREQ + RRSPCTMAX * RRSREQ + ECRSPCTMAX * ECRSREQ + NSMWMIN > MCL: RUMW = RUPCT * RUREQ RRSMW = RRSPCTMAX * RRSREQ – 0.5(RUPCT*RUREQ + RRSPCTMAX * RRSREQ + ECRSPCTMAX * ECRSREQ – (MCL – NSMWMIN)) ECRSMW = ECRSPCTMAX * ECRSREQ – 0.5(RUPCT*RUREQ + RRSPCTMAX * RRSREQ + ECRSPCTMAX * ECRSREQ – (MCL – NSMWMIN)) NSMW = NSMWMIN"
+  - id: e59
+    source: np-06
+    locator: "Section 6.5.7.3(5), proxy Ancillary Service Offers"
+    quote: "For use as SCED inputs for determining energy dispatch and Ancillary Service awards, ERCOT shall use the available Ancillary Service MW capacity of all Resources by creating a proxy Ancillary Service Offer for qualified Resources as follows:"
+  - id: e63
+    source: np-06
+    locator: "Section 6.5.7.3(5)(c)(ii), proxy Ancillary Service Offer price floor for RRS"
+    quote: "(ii) The proxy Ancillary Service Offer price floor for RRS is equal to the lesser of the values below minus $0.01 per MW per hour: (A) $2,000 per MW per hour; or (B) The point on the ASDC for RRS that intersects with a quantity that is 95% of the Ancillary Service Plan for RRS."
+  - id: e64
+    source: np-06
+    locator: "Section 6.5.7.3(5)(b), proxy offer price for Resources that are not RUC-committed"
+    quote: "For Resources that are not RUC-committed, the price in the proxy Ancillary Service Offer shall be set to:"
+  - id: e60
+    source: puct-59550-ercot-comments
+    locator: "ERCOT comments, Project 59550, Section E, Question 3 (filed 2026-09-17)"
+    quote: "ERCOT's report will likely support the need to review and alter the ASDCs' design."
+  - id: e61
+    source: imm-som-2025
+    locator: "Appendix, D. AS Shortages (p. A-7)"
+    quote: "Shortage conditions have been infrequent since go-live."
 ---
 ## Definition
 
@@ -281,15 +313,15 @@ Every ASDC has a floor of $15 per MW per hour over the part of the curve that ma
 
 RUC uses its own set of ASDCs. They must be substantively the same as the DAM/RTM curves, with one exception: in RUC the Non-Spin ASDC does not extend beyond the Non-Spin AS Plan for the hour. ERCOT posts the RUC ASDCs after each RUC run. [e34]
 
-The ASDCs also set the floor on the proxy AS offers SCED builds from Resources' available capacity. For Reg-Up, that floor is the lesser of $2,000 per MW per hour or the ASDC price at 95% of the Reg-Up AS Plan, minus $0.01; the other products follow the same pattern. [e35]
+The ASDCs also set the price floor on the proxy AS offers SCED creates from the available AS capacity of qualified Resources; for Resources that are not RUC-committed, the proxy offer price is at least that floor. [e59][e64] For Reg-Up, the floor is the lesser of $2,000 per MW per hour or the ASDC price at 95% of the Reg-Up AS Plan, minus $0.01 per MW per hour. [e35] The RRS floor is set the same way. [e63]
 
 ## Formula
 
-Step 1, historical pricing. For every SCED interval in the data window where on-line plus off-line reserves (RTOLCAP + RTOFFCAP) were under 10,000 MW, ERCOT computes a reserve pricing outcome as (0.5 × (1 − pnorm(RTOLCAP − 3000, 0.5μ, 0.707σ)) + 0.5 × (1 − pnorm(RTOLCAP + RTOFFCAP − 3000, μ, σ))) × (VOLL − min(System Lambda, 250)). [e26] RTOLCAP and RTOFFCAP are the real-time reserve capacity of on-line and off-line Resources; μ and σ are the mean and standard deviation of the shifted loss-of-load-probability (LOLP) distribution as published for Summer 2026. [e27] The data window runs from June 1, 2014 through August 31, 2025. [e28]
+Step 1, historical pricing. For every SCED interval in the data window where on-line plus off-line reserves (RTOLCAP + RTOFFCAP) were under 10,000 MW [e28], ERCOT computes a reserve pricing outcome as (0.5 × (1 − pnorm(RTOLCAP − 3000, 0.5μ, 0.707σ)) + 0.5 × (1 − pnorm(RTOLCAP + RTOFFCAP − 3000, μ, σ))) × (VOLL − min(System Lambda, 250)). [e26] RTOLCAP and RTOFFCAP are the real-time reserve capacity of on-line and off-line Resources; μ and σ are the mean and standard deviation of the shifted loss-of-load-probability (LOLP) distribution as published for Summer 2026. [e27] The data window runs from June 1, 2014 through August 31, 2025. [e28]
 
-Step 2, the fitted curve. A regression fits AORDC = (1 − pnorm(reserve level − 3000, μ*, σ*)) × VOLL to the average pricing outcomes at each reserve level, where μ* and σ* are the fitted mean and standard deviation. Points are calculated in 1 MW steps for reserve levels at or above 3,000 MW and prices above $0.01/MWh. [e29]
+Step 2, the fitted curve. A regression fits AORDC = (1 − pnorm(reserve level − 3000, μ*, σ*)) × VOLL to the average pricing outcomes at each reserve level, where μ* and σ* are the fitted mean and standard deviation. [e57][e62] Points are calculated in 1 MW steps for reserve levels at or above 3,000 MW and prices above $0.01/MWh. [e29]
 
-Step 3, the split up to the MCL. The first 3,000 MW (the MCL) is shared out using a fixed percentage of the Reg-Up AS Plan, maximum percentages of the RRS and ECRS plans, and minimum MW for ECRS and Non-Spin. [e56][e7] The current parameter values are RUPCT (Reg-Up share) 90%, RRSPCTMAX 90%, ECRSPCTMAX 30%, ECRSMWMIN 40 MW and NSMWMIN 10 MW. [e30] That first block of each product is priced at the maximum demand prices listed above. [e8]
+Step 3, the split up to the MCL. The first 3,000 MW (the MCL) is shared out using a fixed percentage of the Reg-Up AS Plan, maximum percentages of the RRS and ECRS plans, and minimum MW for ECRS and Non-Spin. [e56][e7] The current parameter values are RUPCT (Reg-Up share) 90%, RRSPCTMAX 90%, ECRSPCTMAX 30%, ECRSMWMIN 40 MW and NSMWMIN 10 MW. [e30] The protocol computes the MCL shares in three cases, checked in this order. If the full shares (RUPCT × Reg-Up plan + RRSPCTMAX × RRS plan + ECRSPCTMAX × ECRS plan) plus NSMWMIN are below the MCL, Reg-Up, RRS and ECRS take their full shares and Non-Spin takes the rest of the MCL (MCL − Reg-Up − RRS − ECRS). Else, if the Reg-Up and RRS shares plus ECRSMWMIN plus NSMWMIN exceed the MCL, Reg-Up keeps its share, ECRS and Non-Spin get their minimums, and RRS is cut by the excess over (MCL − ECRSMWMIN − NSMWMIN). Otherwise (the full shares plus NSMWMIN exceed the MCL), Reg-Up keeps its share, Non-Spin gets NSMWMIN, and RRS and ECRS are each cut by half of the excess over (MCL − NSMWMIN). [e58] That first block of each product is priced at the maximum demand prices listed above. [e8]
 
 Step 4, beyond the MCL: the segment assignment described under How it works, ending with any leftover segments above $0.01/MWh going to Non-Spin. [e9][e31]
 
@@ -297,7 +329,7 @@ Step 4, beyond the MCL: the segment assignment described under How it works, end
 
 The IMM's 2025 report describes visible effects of the aggregation rule. The AORDC runs to 10,000 MW, but for much of the year the combined AS Plan for the four up-reserves is smaller. The leftover volume is currently added to the Non-Spin (NSRS) curve, so the real-time market buys more NSRS than the plan calls for. [e13] From December 5, 2025 through February 2026, ERCOT procured nearly 1,400 MW of NSRS above the NSRS plan on average, per the IMM. [e50] In February 2026 the IMM told the Board that the RTM clears surplus NSRS yet produces a shortage price, and recommended stopping the ASDC at the AS Plan and then reformulating the ASDCs. [e42][e43]
 
-Shortages have been rare. Over December 5, 2025 through February 2026, the IMM counts about 25.9 hours of NSRS shortage (average 702.2 MW, average MCPC $22.5/MWh) and 4.0 hours of ECRS shortage (average 214.6 MW, $78.0/MWh). [e49] NSRS had the most frequent shortages and the lowest penalty price, and about 45% of the NSRS shortage volume fell in Winter Storm Fern. [e48] In August 2026 the IMM told TAC that ASDC shortage pricing since RTC go-live has been minimal. [e53] There is no separate adder to track any more: the IMM notes the energy price natively includes any shortage value the ASDC produces through co-optimization. [e52]
+The IMM says shortage conditions have been infrequent since go-live. [e61] Over December 5, 2025 through February 2026, the IMM counts about 25.9 hours of NSRS shortage (average 702.2 MW, average MCPC $22.5/MWh), 4.0 hours of ECRS shortage (average 214.6 MW, $78.0/MWh) and 1.6 hours of RRS shortage (average 35.2 MW, $131.6/MWh), with none for Reg-Up or Reg-Down. [e49] NSRS had the most frequent shortages and the lowest penalty price, and about 45% of the NSRS shortage volume fell in Winter Storm Fern. [e48] In August 2026 the IMM told TAC that ASDC shortage pricing since RTC go-live has been minimal. [e53] There is no separate adder to track any more: the IMM notes the energy price natively includes any shortage value the ASDC produces through co-optimization. [e52]
 
 According to the IMM, ERCOT added the $15/MWh floor on AS shortages through NPRR 1269, and ERCOT argues it reduces the likelihood of real-time AS shortages that would prompt RUC commitments. [e14][e20] The IMM calls the resulting reserve policy excessively conservative and says it suppresses price signals. [e19] It recommends dropping the rule that the ASDCs must add up to the AORDC and instead building each curve from the reliability value of its own product. [e15] It also argues the VOLL behind the ASDCs is well below what a 1-in-10 standard implies and recommends $35,000 to $40,000 per MWh for the lower segments that price shallow shortages. [e51]
 
@@ -305,7 +337,7 @@ ERCOT's 2026 statements point toward a redesign. ERCOT staff told the Board in S
 
 ## Timeline
 
-- December 8, 2020: ERCOT Board approves NPRR1008 (RTC Day-Ahead Operations), whose Section 4.4.12 text set up the AORDC. [e41][e40] That 2020 text built the AORDC from data for June 1, 2014 through December 31, 2023. [e40]
+- December 8, 2020: ERCOT Board approves NPRR1008 (RTC Day-Ahead Operations), whose Section 4.4.12 text set up the AORDC. [e41][e40] That 2020 text specified a data window of June 1, 2014 through December 31, 2023 for the AORDC. [e40]
 - April 8, 2025: ERCOT Board recommends NPRR1269 (one opposing vote). [e39] During review, TCPA proposed carrying the $15 floor from RUC into the DAM and RTM, and Joint Consumers proposed $0 instead, for monitoring through 2026. [e37][e38]
 - May 15, 2025: PUCT approves NPRR1269. [e36]
 - December 5, 2025: ASDCs go live with RTC+B (per ERCOT's 2026 comments). [e44]
@@ -333,7 +365,7 @@ ERCOT's 2026 statements point toward a redesign. ERCOT staff told the Board in S
 
 (Guidance) The AORDC is not the old ORDC adder still running: the adder was replaced by the ASDCs, and the AORDC is a fixed curve formulated from the pricing outcomes the ORDC produced before RTC. [e17][e18] ERCOT builds it and then splits it into product-specific ASDCs. [e6] The ASDC prices are not offer caps either. The highest ASDC prices for the up-reserves sit above VOLL (Non-Spin at VOLL), which itself is set to the day-ahead HCAP in normal conditions. [e8][e11]
 
-(Guidance) Keep three "floors" apart: the $15 ASDC floor (a demand-curve price over the AS Plan quantity) [e10]; the proxy AS offer floor (a supply-side price SCED puts on capacity nobody offered, capped at $2,000) [e35]; and the pending $10 DRRS floor, which is approved text not yet implemented. [e46]
+(Guidance) Keep three "floors" apart: the $15 ASDC floor (a demand-curve price over the AS Plan quantity) [e10]; the proxy AS offer floor (a supply-side floor on the proxy AS offers SCED creates from Resources' available AS capacity, at most $2,000 per MW per hour minus $0.01) [e59][e35]; and the pending $10 DRRS floor, which is approved text not yet implemented. [e46]
 
 ## Questions
 
@@ -347,7 +379,7 @@ The up-reserve ASDCs must add up to a 10,000 MW AORDC. When the AS Plan is small
 
 ### What is the $15 ASDC floor and why is it controversial?
 
-No point on any ASDC can fall below $15 per MW per hour over the AS Plan quantity. [e10] According to the IMM, ERCOT introduced it through NPRR 1269 to avoid shortages that would lead operators to use RUC, and the IMM calls it part of an excessively conservative reserve policy that suppresses price signals. [e14][e19] In the stakeholder process TCPA pushed the floor into the DAM and RTM, while Joint Consumers wanted $0 for monitoring through 2026; the PUCT approved NPRR1269 on May 15, 2025. [e37][e38][e36]
+No point on any ASDC can fall below $15 per MW per hour over the AS Plan quantity. [e10] According to the IMM, ERCOT introduced it through NPRR 1269 to avoid shortages that would lead operators to use RUC, and the IMM calls it part of an excessively conservative reserve policy that suppresses price signals. [e14][e19] In the stakeholder process TCPA proposed carrying the floor from RUC into the DAM and RTM, while Joint Consumers wanted $0 for monitoring through 2026; the PUCT approved NPRR1269 on May 15, 2025. [e37][e38][e36]
 
 ### What does the IMM want changed?
 
@@ -355,11 +387,11 @@ It wants to drop the requirement that the ASDCs add up to the AORDC and build ea
 
 ### Why can't you see the ASDC "adder" in the price data any more?
 
-Under RTC there is no explicit shortage adder; the energy price natively includes any shortage value produced by the ASDCs through co-optimization. [e52] To see scarcity you look at AS shortages and MCPCs instead, which the IMM reports were infrequent from go-live through February 2026. [e49]
+Under RTC there is no explicit shortage adder; the energy price natively includes any shortage value produced by the ASDCs through co-optimization. [e52] To see scarcity you look at AS shortages and MCPCs instead, which the IMM reports have been infrequent since go-live (Table A3 covers December 5, 2025 through February 2026). [e61][e49]
 
 ### What if the PUCT lets ERCOT redesign the curves away from the ORDC shape?
 
-That is now possible: ERCOT reports that on August 20, 2026 the Commission agreed the ASDCs no longer have to replicate the ORDC, and ERCOT expects its biennial ORDC report to support reviewing the design. [e45][e44] ERCOT staff see stronger ASDCs as one way to avoid some RUCs by encouraging self-commitment. [e54] No redesign has been filed or approved in the saved sources.
+That is now possible: ERCOT reports that on August 20, 2026 the Commission agreed the ASDCs no longer have to replicate the ORDC, and ERCOT says its forthcoming biennial ORDC report will likely support the need to review and alter the ASDC design. [e45][e60] ERCOT staff see stronger ASDCs as one way to avoid some RUCs by encouraging self-commitment. [e54] No redesign has been filed or approved in the saved sources.
 
 ## Scenarios
 

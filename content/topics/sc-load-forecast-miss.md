@@ -194,6 +194,14 @@ evidence:
     source: ercot-summer-2026-review
     locator: "Slide 20, RUC, Key Takeaway"
     quote: "RUC activity in summer 2026 was substantially higher than the previous two summers and was largely attributed to addressing capacity needs, particularly to ensure sufficient Ancillary Service quantities."
+  - id: e39
+    source: imm-som-2025
+    locator: "Market Operations chapter, C. Forecast Error"
+    quote: "An overforecast of net demand can lead to sub-optimal commitment decisions that reduce market efficiency. An under-forecast can lead to insufficient thermal commitments and real-time shortfalls that are often addressed through RUC."
+  - id: e40
+    source: ercot-summer-2026-review
+    locator: "Slide 20, RUC, chart footnote"
+    quote: "August data for each year goes through 8/15."
 ---
 
 ## Definition
@@ -204,7 +212,7 @@ This scenario asks how a large load forecast error moves through ERCOT's commitm
 
 Step 1, the forecast itself. ERCOT's Seven-Day Load Forecast predicts hourly Loads for the next 168 hours from current weather forecast parameters in each Weather Zone. [e23] ERCOT's September 2026 Board presentation on the 2027 AS Methodology lists load, wind and solar forecast accuracy and uncertainty in battery state of charge among the drivers of how much AS is needed. [e24]
 
-Step 2, the day-ahead market does not commit for reliability. Day-ahead energy and ancillary services are financial positions whose imbalances settle in real time. [e5] DRUC runs after the DAM closes and recommends commitment of Generation Resources to match ERCOT's forecasted Load, subject to transmission constraints. [e4][e2] Because RUC commits to match ERCOT's forecasted Load, a forecast that is too high can lead to extra RUC commitments, and one that is too low can leave too little capacity committed. [e2]
+Step 2, the day-ahead market does not commit for reliability. Day-ahead energy and ancillary services are financial positions whose imbalances settle in real time. [e5] DRUC runs after the DAM closes and recommends commitment of Generation Resources to match ERCOT's forecasted Load, subject to transmission constraints. [e4][e2] The IMM notes that an over-forecast of net demand can lead to sub-optimal commitment decisions, and an under-forecast to insufficient thermal commitments and real-time shortfalls that are often addressed through RUC. [e39]
 
 Step 3, the forecast is updated through the day. HRUC runs at least one hour before each Operating Hour using updated Load forecasts and Outage information, and QSEs can adjust trades, Self-Schedules and commitments in the Adjustment Period as better information arrives. [e3][e21] A QSE whose Resource is RUC-committed (other than an RMR Unit or one with an Outage Schedule Adjustment) may opt out of RUC Settlement by setting its COP status to ONOPTOUT; the IMM says this gives up both the make-whole payment and any clawback and accepts full market exposure. [e34][e35]
 
@@ -217,7 +225,7 @@ Step 5, prices and settlement. Day-ahead positions are financial and ERCOT settl
 - The IMM reports that ERCOT's average net load forecast error (which it measures eight hours ahead of real-time) was about 452 MW in 2025, down from more than 1,000 MW in 2023 and 2024; the IMM says ERCOT still systematically over-forecasts load. [e8][e22]
 - RUC instructions totalled 5,129 resource-hours in 2025, 77% for congestion; make-whole payments exceeded $21 million. [e17][e20]
 - RUC opt-out frequency fell from 39% in 2021 to 3% in 2025 in the IMM's Table 9, while make-whole payments were $21.84 million in 2025. [e36]
-- Summer 2026: RUC was substantially higher than the two previous summers, shifting from congestion to capacity and AS sufficiency. [e18][e38]
+- Summer 2026 (ERCOT's review, with August data through August 15): RUC was substantially higher than the two previous summers, shifting from congestion to capacity and AS sufficiency. [e18][e38][e40]
 - Reserve horizons: Regulation five-minute, ECRS within the hour, Non-Spin multi-hour; ERCOT's 2027 proposal keeps a six-hour look-ahead. [e11][e28][e29][e25]
 - Winter Storm Fern: the load forecast (84,500 MW peak, assuming no demand response) overestimated expected peak consumption on January 26 and 27. [e13][e14]
 - Winter Storm Elliott: ERCOT's internal load forecasts were too low for December 23 and 24 (2022). [e16]

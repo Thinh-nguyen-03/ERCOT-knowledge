@@ -237,7 +237,7 @@ A battery's revenue stack is the mix of income an Energy Storage Resource earns 
 
 ## How it works
 
-Batteries first earned mainly from ancillary services because they respond quickly. As ESRs saturated several AS markets, they began shifting toward energy arbitrage in 2024. [e5] The IMM expects revenue per unit of capacity to fall as more ESRs enter, because AS markets saturate and arbitrage spreads tighten. [e4] The arbitrage leg works because midday solar pushes real-time prices down, sometimes below zero, so batteries can charge cheaply or even be paid to consume. [e19] Location also matters: the IMM says ESRs can act as both supply and demand, and can often charge at prices below $0 when increasing load at a location resolves congestion. [e13]
+Before 2024, batteries participated mainly through ancillary services because they respond quickly. As ESRs saturated several AS markets, they began shifting toward energy arbitrage in 2024. [e5] The IMM expects revenue per unit of capacity to fall as more ESRs enter, because AS markets saturate and arbitrage spreads tighten. [e4] The arbitrage leg works because midday solar pushes real-time prices down, sometimes below zero, so batteries can charge cheaply or even be paid to consume. [e19] Location also matters: the IMM says ESRs can act as both supply and demand, and can often charge at prices below $0 when increasing load at a location resolves congestion. [e13]
 
 Since RTC+B the market sets the stack for each interval. ESRs became a single-model Resource under NPRR1014, replacing the old pairing of a Generation Resource and a Controllable Load Resource. [e46] ERCOT's July 2025 RTC+B battery overview, written before go-live, described the change this way: awards are limited by qualification, physical capability, state of charge, ramp rates and AS duration requirements, and one ESR can receive energy and several AS types in the same SCED execution, where before the QSE had to reserve enough state of charge itself. [e9] The Protocols now in force base AS awards on Resource capability, including State of Charge and SOC limits, and the ASDCs. [e15] An ESR is not eligible for Day-Ahead Make-Whole Payment. [e44]
 
@@ -250,7 +250,7 @@ Duration caps limit how much of each AS a battery's stored energy can back. Unde
 - Non-Spin: four consecutive hours. [e25] Pending NPRR1309 would cut this to two consecutive hours on implementation. [e26]
 - DRRS (pending, NPRR1309): a qualifying Resource must be able to run at its HSL for four consecutive hours, and DRRS may come only from capability not fulfilling another energy or capacity commitment. [e27][e28]
 
-In words: the longer the duration requirement, the fewer MW of that service each MWh of state of charge can support, which is why the IMM in 2023 recommended cutting the ECRS duration to one hour so more ESR capacity could provide it. [e21]
+In words: the longer the duration requirement, the fewer MW of that service each MWh of state of charge can support, which is why the IMM's 2023 State of the Market report recommended cutting the ECRS duration to one hour so more ESR capacity could provide it. [e21]
 
 ## Example
 
@@ -260,11 +260,11 @@ In words: the longer the duration requirement, the fewer MW of that service each
 
 2025 results (IMM): revenue per unit of ESR capacity fell almost 37%, even though total net ESR revenue rose about 8%. [e2] Net energy revenue rose 57% after charging costs, while AS revenue fell more than 37% as added ESR supply pushed AS prices down. [e3] The maximum average hourly charging rate rose 215% to 2,171 MW, which together with higher discharge the IMM says roughly tripled arbitrage volume versus 2024. [e18] ESRs still provided most regulation: 94% of Reg-Up and 86% of Reg-Down on average in 2025. [e10] Average duration rose from 1.67 to 1.83 hours, which the IMM ties to the shift to arbitrage; it says developers increasingly focus on duration to capture the morning and evening ramps. [e6][e20] In 2024 total ESR revenue had already fallen versus 2023 because of the supply surplus and fewer extreme heat days, while normalized arbitrage revenue had grown every year. [e8][e16] The IMM says Uri in 2021 and what it calls the artificial scarcity from ECRS in 2023 created revenue spikes that obscure the trend. [e17]
 
-Summer 2026 (ERCOT, data through August 15): AS costs were relatively low under real-time co-optimization, and day-ahead AS prices trended lower than 2024 and 2025 except Non-Spin. [e11][e32] ESRs continued to dominate AS awards, especially regulation, in both DAM and RTM, with the biggest day-ahead gains since 2024 in Non-Spin and ECRS. [e31] ERCOT bought Non-Spin above the AS Plan when cost-effective, rising from 25 GWh/day in June to about 48 GWh/day in July and August. [e34] SOC exhaustion in the evenings was a pattern: SOC was below 20% in 15% of hours and below 10% in 0.74%. [e14][e30] ERCOT linked a higher share of ESR capacity offered within $100/MWh of the cap to the lower $2,000/MWh real-time offer cap introduced with RTC+B on 12/5/2025. [e12][e47]
+Summer 2026 (ERCOT, data through August 15): AS costs were relatively low, which ERCOT attributes to low opportunity costs in both DAM and real-time co-optimization, and day-ahead AS prices trended lower than 2024 and 2025 except Non-Spin. [e11][e32] ESRs continued to dominate AS awards, especially regulation, in both DAM and RTM, with the biggest day-ahead gains since 2024 in Non-Spin and ECRS. [e31] ERCOT bought Non-Spin above the AS Plan when cost-effective, rising from 25 GWh/day in June to about 48 GWh/day in July and August. [e34] SOC exhaustion in the evenings was a pattern: SOC was below 20% in 15% of hours and below 10% in 0.74%. [e14][e30] ERCOT linked a higher share of ESR capacity offered within $100/MWh of the cap to the lower $2,000/MWh real-time offer cap introduced with RTC+B on 12/5/2025. [e12][e47]
 
 The IMM's view after RTC: in February 2026 it told the ERCOT Board that the real-time market clears surplus Non-Spin yet produces a shortage price, frequently above other reserves. [e35] It also says forecast error for battery SOC is a growing challenge for ERCOT's RUC decisions. [e36]
 
-Outside estimates (tier 2): for seven ERCOT solar-plus-storage projects, LBNL estimates empirical 2024 storage revenue of $28/kW-yr, and optimized revenue that fell 70% to $88/kW-yr on lower AS prices; it found ECRS was the largest optimized value driver ($32/kW-yr in 2024). [e42][e39][e40][e41] An earlier LBNL briefing on 11 hybrids (3 in ERCOT) found only a minority dispatch as merchant plants for wholesale revenue. [e48][e43]
+Outside estimates (tier 2): for seven ERCOT solar-plus-storage projects, LBNL estimates empirical 2024 storage revenue of $28/kW-yr, and optimized revenue that fell 70% to $88/kW-yr on lower AS prices; it found ECRS was the largest optimized value driver ($32/kW-yr in 2024). [e42][e39][e40][e41] A separate LBNL briefing on 11 hybrids (3 in ERCOT) found only a minority dispatch as merchant plants for wholesale revenue. [e48][e43]
 
 Policy: PUCT staff reported E3's finding that battery storage margins would rise 29% under the PCM, but recommended not moving forward with the PCM as designed. [e37][e38] ERCOT filed NPRR1340 in June 2026 to continue the work on storage participation in DRRS. [e29]
 
@@ -275,13 +275,13 @@ Policy: PUCT staff reported E3's finding that battery storage margins would rise
 - 2025: ESRs supplied 94% of Reg-Up, 86% of Reg-Down, 51% of RRS, 42% of ECRS and 24% of Non-Spin. [e10]
 - 2025: 55% of ESR energy offers priced at $0-100/MWh, up from 46% in 2024 and 25% in 2023. [e7]
 - Average ESR duration rose from 1.67 to 1.83 hours (IMM 2025 report). [e6]
-- Duration caps in force: Reg and RRS 30 minutes, ECRS one hour, Non-Spin four consecutive hours. [e22][e23][e24][e25]
+- Duration caps in force: Reg and RRS (SCED-dispatchable Resources) 30 minutes, ECRS one hour, Non-Spin four consecutive hours. [e22][e23][e24][e25]
 - Summer 2026: SOC below 20% in 15% of hours (June 1 to August 15). [e30]
 
 ## Timeline
 
 - December 2020: NPRR1014 (ESR single model) approved; February 2024: NPRR1204 (state of charge under RTC) approved (per ERCOT's July 2025 overview). [e45]
-- 2023: ECRS introduced; the IMM recommends a one-hour ECRS duration and later describes the 2023 ECRS revenue spike as artificial scarcity. [e21][e17]
+- 2023: ECRS introduced; the IMM's 2023 report (published 2024) recommends a one-hour ECRS duration and later describes the 2023 ECRS revenue spike as artificial scarcity. [e21][e17]
 - 2024: ESRs begin shifting from AS toward energy arbitrage (IMM). [e5]
 - December 2024: PUCT staff recommends not moving forward with the PCM as designed. [e38]
 - 2025: per-MW ESR revenue falls almost 37% (IMM). [e2]

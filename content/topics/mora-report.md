@@ -11,7 +11,7 @@ depth: deep
 links:
   - to: cdr-report
     type: contrasts-with
-    note: The MORA is a monthly outlook that evaluates the risk of emergency conditions; the CDR looks at least five years ahead with a deterministic view. [e2][e11]
+    note: The MORA is a monthly outlook that evaluates the risk of emergency conditions; the CDR provides a deterministic view of future resource adequacy with alternative scenarios. [e2][e11]
   - to: eea
     type: measures
     note: The MORA estimates hourly probabilities that ERCOT would need to declare an Energy Emergency Alert. [e2]
@@ -40,7 +40,7 @@ evidence:
   - id: e1
     source: ercot-mora-2027-01
     locator: "MORA Release Schedule"
-    quote: "MORA releases are targeted for the first Friday of each month, or the next business day if the Friday is a holiday. A MORA is released two months prior to the reporting month; for example, the planned release of the MORA report for August would be the first Friday in June."
+    quote: "MORA releases are targeted for the first Friday of each month, or the next business day if the Friday is a holiday. A MORA is released two months prior to the reporting month; for example, the planned release of the MORA report for August would be the first Friday in June. ERCOT may post one or more revised versions of a MORA report if material data errors are discovered."
   - id: e2
     source: ercot-mora-2027-01
     locator: "Introduction"
@@ -60,7 +60,7 @@ evidence:
     source: ercot-mora-2027-01
     locator: "Background tab, Capacity Available for Operating Reserves"
     quote: >-
-      The MORA uses CAFOR reserve thresholds of 2,500 and 1,500 MW to indicate, respectively, the risk that an Energy Emergency Alert and controlled outages may be triggered during the time of the forecasted monthly peak load day. These threshold levels are intended to be proxies to the 2,500 and 1,500 MW Physical Responsive Capability (PRC) thresholds.
+      The MORA uses CAFOR reserve thresholds of 2,500 and 1,500 MW to indicate, respectively, the risk that an Energy Emergency Alert and controlled outages may be triggered during the time of the forecasted monthly peak load day. These threshold levels are intended to be proxies to the 2,500 and 1,500 MW Physical Responsive Capability (PRC) thresholds. While PRC is a real-time capability measure for Resources that can quickly respond to system disturbance, ERCOT believes that the 2,500 and 1,500 MW CAFOR thresholds are appropriate indicators for the risk of Emergency Conditions given the uncertainties in predicting system conditions months in advance.
   - id: e6
     source: ercot-mora-2027-01
     locator: "Background tab, Probabilistic Modeling"
@@ -149,7 +149,7 @@ evidence:
   - id: e27
     source: ercot-mora-2027-01
     locator: "Monthly Outlook, Deterministic results table (January 2027, HE 8:00 a.m.)"
-    quote: "Total Emergency Resources 6,279 Capacity Available for Operating Reserves, Normal Conditions 21,884 Capacity Available for Operating Reserves, Emergency Conditions 24,483"
+    quote: "Total Emergency Resources 6,279 Capacity Available for Operating Reserves, Normal Conditions 21,884 Capacity Available for Operating Reserves, Emergency Conditions 24,483 Less than 2,500 MW indicates risk of EEA Level 1 Less than 1,500 MW indicates risk of EEA Level 3 Load Shed"
   - id: e28
     source: ercot-mora-2027-01
     locator: "Monthly Outlook, Deterministic results table, footnote [5]"
@@ -182,15 +182,15 @@ ERCOT targets MORA releases for the first Friday of each month (or the next busi
 
 ## Formula
 
-The CAFOR formula is the monthly maximum expected resource generation capability, minus demand, minus thermal outages, plus Pre-EEA Resources if CAFOR is below 3,000 MW, plus EEA Resources if CAFOR is below 2,500 MW. [e8] The MORA reads CAFOR against thresholds of 2,500 MW (EEA risk) and 1,500 MW (controlled outage risk), which are proxies for the 2,500 and 1,500 MW Physical Responsive Capability thresholds. [e5] The MORA's own table footnote reads a CAFOR below 2,500 MW as a risk of EEA Level 1 and below 1,500 MW as a risk of EEA Level 3 load shed; the Protocols declare Level 1 when PRC falls below 2,500 MW and is not projected to recover within 30 minutes, and Level 3 when PRC cannot be maintained above 1,500 MW (or on frequency criteria). [e12][e13]
+The CAFOR formula is the monthly maximum expected resource generation capability, minus demand, minus thermal outages, plus Pre-EEA Resources if CAFOR is below 3,000 MW, plus EEA Resources if CAFOR is below 2,500 MW. [e8] The MORA reads CAFOR against thresholds of 2,500 MW (EEA risk) and 1,500 MW (controlled outage risk), which are proxies for the 2,500 and 1,500 MW Physical Responsive Capability thresholds. [e5] The MORA's deterministic results table reads a CAFOR below 2,500 MW as a risk of EEA Level 1 and below 1,500 MW as a risk of EEA Level 3 load shed. [e27] The Protocols declare Level 1 when PRC falls below 2,500 MW and is not projected to recover above 2,500 MW within 30 minutes without the prescribed Level 1 actions, and Level 3 when PRC cannot be maintained above 1,500 MW (or on frequency criteria). [e12][e13]
 
-The MORA says why it uses proxies: PRC is a real-time capability measure for Resources that can respond quickly, and ERCOT believes the 2,500 and 1,500 MW CAFOR levels are appropriate indicators of emergency risk given the uncertainty of predicting conditions months ahead. The Protocol defines PRC as the total frequency-responsive Resource capability on-line in real time. [e14]
+The MORA says why it uses proxies: PRC is a real-time capability measure for Resources that can respond quickly, and ERCOT believes the 2,500 and 1,500 MW CAFOR levels are appropriate indicators of emergency risk given the uncertainty of predicting conditions months ahead. [e5] The Protocol defines PRC as a representation of the total amount of frequency responsive Resource capability On-Line in Real-Time. [e14]
 
 For the deterministic scenario, the report states its monthly capacity reserve margin as ((Total Resources / (Peak Demand - Emergency Resources)) - 1) * 100. [e7]
 
-The PRRM draws hourly risk variables from probability distributions based on historical data and forecast assumptions. The MORA lists, among them: monthly peak load, negatively correlated with temperature so colder winter draws give higher peaks [e19]; wind and solar from synthetic profiles, which are modeled rather than observed generation [e20]; and, for winter, extreme-weather thermal outages scaled up to the maximum observed during Winter Storm Uri, with an FFSS outage reduction. [e15] A weatherization success rate is fixed at 85% for sampled temperatures more than five degrees F above the weatherization standard's compliance temperature threshold. [e21]
+The PRRM uses probability distributions for its risk variables. The MORA lists, among them: monthly peak load, negatively correlated with temperature so colder winter draws give higher peaks [e19]; wind production from synthetic profiles, which do not reflect actual observed generation [e20]; and, for winter, extreme-weather thermal outages scaled up to the maximum observed during Winter Storm Uri, with an FFSS outage reduction. [e15] A weatherization success rate is fixed at 85% for sampled temperatures more than five degrees F above the weatherization standard's compliance temperature threshold. [e21]
 
-Some resources are not probabilistic but depend on model draws. Winter price-responsive demand reduction triggers when a simulation has a storm at least as severe as Winter Storm Elliott or extremely high net loads. [e16] Large Flexible Load consumption is forecast as dropping to 50% over summer coincident peak hours and 15% over summer net-load peak hours. [e17]
+Winter price-responsive demand reduction is triggered when a simulation outcome has a severe winter storm (at least as severe as Winter Storm Elliott) or extremely high net loads. [e16] The Large Flexible Load pattern indicates a reduction to 50% over the coincident peak hours for June through September and to 15% over the net-load peak hours for those months. [e17]
 
 The BESS sub-model (new in the January 2027 MORA) schedules the battery fleet from the net load forecast; non-winter months use one 24-hour scheduling period and winter months use hours 1-10 and 11-24 for the morning and evening peaks. [e10][e18]
 
@@ -218,9 +218,9 @@ Crypto-mining self-curtailment is not counted as an emergency resource in the sc
 
 ## Common confusion
 
-(Guidance) The MORA's probability is not a prediction of a specific outcome. [e9] Also, the MORA's CAFOR thresholds are intended as proxies for the PRC thresholds, not the same measure. [e5] The MORA is also not the CDR: the CDR gives a deterministic multi-year view with scenarios. [e11]
+(Guidance) The MORA's probability is not a prediction of a specific outcome. [e9] Also, the MORA's CAFOR thresholds are intended as proxies for the PRC thresholds, not the same measure. [e5] The MORA is also not the CDR: the CDR gives a deterministic view of future resource adequacy with alternative load and planned resource scenarios. [e11]
 
-(Guidance) The MORA reserve margin (44.9%) is a different quantity from a CDR Planning Reserve Margin: its formula nets emergency resources out of peak demand. [e7]
+(Guidance) The MORA reserve margin (44.9%) is computed with the report's own stated formula, which nets emergency resources out of peak demand; do not assume it equals a reserve margin computed another way. [e7]
 
 ## Questions
 
@@ -234,7 +234,7 @@ They indicate the risk that an EEA and controlled outages may be triggered, and 
 
 ### Why does the MORA use CAFOR instead of PRC directly?
 
-PRC is a real-time capability measure for fast-responding Resources, and ERCOT believes the CAFOR levels are appropriate indicators of emergency risk given the uncertainty in predicting conditions months in advance. The Protocols' EEA triggers are written on PRC. [e5][e12][e13]
+PRC is a real-time capability measure for fast-responding Resources, and ERCOT believes the CAFOR levels are appropriate indicators of emergency risk given the uncertainty in predicting conditions months in advance. The Protocols' EEA Level 1 trigger is written on PRC, and Level 3 on PRC or frequency. [e12][e13]
 
 ### Why is January's highest EEA risk in the morning rather than at the afternoon peak?
 
@@ -242,7 +242,7 @@ The January 2027 MORA reports the highest reserve shortage risk in the morning h
 
 ### What if there is a severe winter storm in the model?
 
-The model draws extreme-weather thermal outages up to the maximum observed during Winter Storm Uri, with an FFSS offset, and triggers price-responsive demand reduction when a storm is at least as severe as Winter Storm Elliott. [e15][e16] The MORA also has a separate storm and low-wind/BESS tab with stress charts. [e30]
+The model draws extreme-weather thermal outages up to the maximum observed during Winter Storm Uri, with an FFSS offset, and triggers price-responsive demand reduction when a storm is at least as severe as Winter Storm Elliott. [e15][e16]
 
 ### What does the MORA not cover?
 
@@ -254,7 +254,7 @@ It does not capture emergency risk from transmission constraints on imports into
 
 - ERCOT's guideline treats at or below 10% as low reserve adequacy risk for the monthly peak load day. [e23]
 - 3.20% is the highest hour in the January 2027 MORA. [e4]
-- It is a probability from 10,000 simulated outcomes, not a prediction. [e6][e9]
+- The probabilistic side runs on the PRRM, which generates 10,000 CAFOR outcomes, and the probability forecast is not intended to predict specific capacity reserve outcomes. [e6][e9]
 
 ## Open items
 

@@ -11,7 +11,7 @@ depth: deep
 links:
   - to: winter-storm-uri
     type: contrasts-with
-    note: ERCOT says Elliott was the coldest event in 15 years after Uri but had far fewer cold-weather generation outages. [e14][e8]
+    note: ERCOT says Elliott was the coldest event in 15 years after Uri but did not see Uri's level of generation outages. [e14][e8]
   - to: ffss
     type: related
     note: Elliott was the first deployment of FFSS, which ERCOT says backfilled capacity lost to gas restrictions. [e6][e5]
@@ -257,7 +257,7 @@ Winter Storm Elliott was the cold weather event of December 22 to 25, 2022 in wh
 
 On ERCOT's load-weighted system temperature, Elliott was the coldest event in 15 years except Uri, yet supply held up much better. [e14][e8] ERCOT says temperatures were colder than when it entered EEA on February 15, 2021, and load at the December 23 peak was more than 4,000 MW higher. [e17] Generation outages and derates rose from 11,988 MW at the start of December 22 to a maximum of 19,885 MW at 08:00 on December 23, mostly from more gas resource outages. [e2] Of the close to 20,000 MW of outages at the peak, about 4,500 MW were reported as cold-weather or fuel related; of 255 resources ERCOT had inspected beforehand, four had weather-related outages, all gas generators. [e3]
 
-Market participants kept the lights on mostly by themselves: over 72 GW was committed for the evening of December 23, most of it self-committed. [e18] ERCOT deployed offline Non-Spin from 6:50 to 10:00 am on December 23 (maximum 3,222 MW) because projected ramping capability was below the forecast load ramp, and did not deploy RRS at all. [e21][e22] Minimum PRC was 4,052 MW at about 8:33 PM on December 23. [e19] At the peak ERCOT was importing about 1,139 MW over the DC Ties. [e20]
+Most committed capacity came from market participants themselves: over 72 GW was committed for the evening of December 23, most of it self-committed. [e18] ERCOT deployed offline Non-Spin from 6:50 to 10:00 am on December 23 (maximum 3,222 MW) because projected ramping capability was below the forecast load ramp, and did not deploy RRS at all. [e21][e22] Minimum PRC was 4,052 MW at about 8:33 PM on December 23. [e19] At the peak ERCOT was importing about 1,139 MW over the DC Ties. [e20]
 
 Gas: several pipelines issued Operational Flow Orders to stop shippers moving gas beyond contract maximums. [e51] ERCOT says gas restrictions were not a significant issue, in part because FFSS backfilled capacity that was otherwise unavailable due to those restrictions. [e5] FFSS, new that winter, required 48 hours of stored fuel. [e25] The IMM says the first FFSS deployment instructions were issued on December 21 and 8 Resources had active deployments between about noon December 22 and noon December 25. [e27] On the demand side, registered large flexible loads cut consumption from 1,530 MW to 130 MW during the peak, most curtailing when prices rose above the $70 to $110/MWh range, and batteries carried up to 88% of Regulation Up. [e9][e41][e11]
 
@@ -265,11 +265,11 @@ Gas: several pipelines issued Operational Flow Orders to stop shippers moving ga
 
 Prices: real-time system-wide prices peaked at $4,466.79/MWh in the SCED run at 06:52 on December 23; excluding December 23 the peak was $155.24/MWh. [e4][e23] Day-ahead hub average prices peaked at $2,539.16/MWh in hour ending 08 on December 24. [e13] ERCOT notes real-time was much higher than day-ahead on December 23 and the reverse on December 24. [e24] The IMM says a large portion of the high winter peaker net margin accumulation in 2022 was due to record winter demand during Elliott on December 23, 2022 and tight conditions on February 24, 2022. [e12]
 
-FFSS costs and criticism: for the first obligation period (November 15, 2022 to March 15, 2023) 2,940.5 MW was procured, with all 19 resources awarded at $18,000/MW. [e31][e32] In the IMM's Table 7 the average real-time price on the four FFSS days ranged from $18.03 (December 22, 757.5 MW deployed) to $557.53 (December 23, 948.5 MW). [e30][e29] ERCOT's Board deck gives 949 MW across 8 resources for December 23. [e28] The IMM saw shortage conditions on December 23 but said reserve levels and prices did not show a need for FFSS on the other three days, and asked ERCOT to set clear deployment procedures. [e7] It later added that removing deployed FFSS capacity from reserves in the ORDC calculation can produce inefficiently high prices when the system is not short. [e47] The IMM also found three further FFSS deployments in early 2023 that it says reserves of 8,000 to 9,000 MW and prices of roughly $40 per MWh did not justify. [e48] For 2025-26 ERCOT procured 4,250.4 MW of FFSS at a projected cost of $52,076,304. [e49]
+FFSS costs and criticism: for the first obligation period (November 15, 2022 to March 15, 2023) 2,940.5 MW was procured, with all 19 resources awarded at $18,000/MW. [e31][e32] In the IMM's Table 7 the average real-time price on the four FFSS days ranged from $18.03 (December 22, 757.5 MW deployed) to $557.53 (December 23, 948.5 MW). [e30][e29] ERCOT's Board deck gives 949 MW across 8 resources for December 23. [e28] The IMM saw shortage conditions on December 23 but said reserve levels and prices did not show a need for FFSS on the other three days, and asked ERCOT to set clear deployment procedures. [e7] Its 2023 report added that removing deployed FFSS capacity from reserves in the ORDC adder calculation could produce inefficiently high prices when the system is not short. [e47] The IMM also found three further FFSS deployments in early 2023 that it says reserves of 8,000 to 9,000 MW and prices of roughly $40 per MWh did not justify. [e48] For 2025-26 ERCOT procured 4,250.4 MW of FFSS at a projected cost of $52,076,304. [e49]
 
 Emergency permissions: ERCOT obtained TCEQ enforcement discretion on December 21, which ended at noon on December 25, and DOE issued a 202(c) order on December 23 that applied only if ERCOT declared EEA 2 or 3; ERCOT says the order was not used because it declared no Emergency Condition. [e33][e35][e34]
 
-What changed: ERCOT concluded that PUCT-led winterization likely improved generator performance, though some generators still had cold-weather outages that it would investigate. [e8] Its Board deck said the weather-related outages illustrated the value of the PUC's Phase 2 weatherization standards effective the next winter. [e36] 16 TAC 25.55 requires, beginning in 2023, measures by December 1 each year for sustained operation at the 95th percentile minimum average 72-hour wind chill from ERCOT's historical weather study for the resource's weather zone. [e37][e38] On forecasting, a software update made ERCOT's own models double count the holiday reduction in demand, so it switched to vendor models, and it listed four corrective actions. [e10][e39]
+What changed: ERCOT concluded that PUCT-led winterization likely improved generator performance, though some generators still had cold-weather outages that it would investigate. [e8] Its Board deck said the weather-related outages illustrated the value of the PUC's Phase 2 weatherization standards effective the next winter. [e36] 16 TAC 25.55 requires each generation entity, beginning in 2023, to implement measures for each resource by December 1 each year for sustained operation at the 95th percentile minimum average 72-hour wind chill from ERCOT's historical weather study for the resource's weather zone. [e37][e38] On forecasting, a software update made ERCOT's own models double count the holiday reduction in demand, so it switched to vendor models, and it listed four corrective actions. [e10][e39]
 
 ## Key facts
 
@@ -312,7 +312,7 @@ What changed: ERCOT concluded that PUCT-led winterization likely improved genera
 
 ### Why did Elliott go so differently from Uri?
 
-ERCOT's report says the grid did not see Uri-level generation outages and kept adequate reserves, and that PUCT-led winterization likely helped. [e8] FFSS also backfilled capacity lost to gas restrictions. [e5] Elliott was also shorter (December 22 to 25) and, outside Houston, less extreme than February 2021; Dallas was 13 degrees warmer than its February 2021 low. [e15][e42]
+ERCOT's report says the grid did not see Uri-level generation outages and kept adequate reserves, and that PUCT-led winterization likely helped. [e8] FFSS also backfilled capacity lost to gas restrictions. [e5] Elliott ran from December 22 to 25, and in the cities ERCOT compares it was less cold than February 2021: Houston's low was only two degrees warmer than in the February 2021 storm, while Dallas was 13 degrees warmer. [e15][e42]
 
 ### What was the main forecasting lesson?
 
@@ -320,11 +320,11 @@ A software update made ERCOT's internal load forecast models double count the us
 
 ### What did the IMM criticize about FFSS during Elliott?
 
-It said reserve levels and prices did not show a need for FFSS on three of the four deployment days and asked ERCOT to set clear deployment procedures, since FFSS is costly. [e7] It also argues that removing deployed FFSS capacity from ORDC reserves can create inefficiently high prices when the system is not short. [e47]
+It said reserve levels and prices did not show a need for FFSS on three of the four deployment days and asked ERCOT to set clear deployment procedures, since FFSS is costly. [e7] In its 2023 report it also argued that removing deployed FFSS capacity from reserves when calculating ORDC adders can create inefficiently high prices when the system is not short. [e47]
 
 ### Why did real-time prices spike on the morning of December 23 but not afterwards?
 
-ERCOT deployed offline Non-Spin from 6:50 am because projected ramping capability was below the forecast load ramp, and the price peaked at 06:52; outside December 23 the highest real-time system-wide price was $155.24/MWh. [e21][e4][e23] (Guidance) The spike was a morning ramp problem during the coldest hours, not a sustained shortage.
+ERCOT deployed offline Non-Spin from 6:50 am because projected ramping capability was below the forecast load ramp, and the price peaked at 06:52; outside December 23 the highest real-time system-wide price was $155.24/MWh. [e21][e4][e23] (Guidance) The spike was a morning ramp problem, not a sustained shortage.
 
 ### What if ERCOT had declared EEA 2 during Elliott?
 

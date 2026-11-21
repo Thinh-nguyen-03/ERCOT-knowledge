@@ -235,7 +235,7 @@ Gas prices also differ by location. The IMM uses Katy prices for Houston-zone ga
 Where the gas price enters ERCOT rules: [e15][e39][e44][e11]
 
 - Mitigated Offer Cap: generic heat rate × the higher of the FIP and the resource's weighted average fuel price (WAFP), or the verifiable heat rate × a calculated fuel price plus O&M, whichever is greater. [e15] The current WAFP is the volume-weighted intraday, same-day and spot price, a projected incremental price under a fuel supply contract, or a combination, submitted during the Adjustment Period for a specific hour. [e40] NPRR1279 will replace that definition on April 1, 2027 (a pending change shown in a box in the Protocols). [e41]
-- Exceptional Fuel Cost: to have its own fuel price used in the MOC, a QSE's weighted average fuel price must exceed the FIP plus a $1/MMBtu threshold plus the applicable fuel adder. [e39] ERCOT may notify the IMM when a QSE submits one. [e42]
+- Exceptional Fuel Cost: to have its own fuel price used in the MOC, a QSE's weighted average fuel price must, as the first of several listed conditions, exceed the FIP plus a $1/MMBtu threshold plus the applicable fuel adder. [e39] ERCOT may notify the IMM when a QSE submits one. [e42]
 - Peaker net margin: the daily peaking operating cost is 10 times ERCOT's natural gas price index, in $/MWh. [e44]
 - FFSS: the natural gas price index source is Henry Hub November futures, published by July 15. [e11]
 
@@ -245,7 +245,7 @@ Natural gas is used to generate a large share of Texas electricity: 52% in Febru
 
 Winter is when gas and power risks combine. During Winter Storm Uri, Texas hub gas prices rose from normally much less than $10/MMBtu to over $400/MMBtu. [e9] U.S. gas production in February 2021 had its largest monthly decline on record; Texas, Oklahoma and Louisiana production fell by about 21 Bcf/d at the February 17 low, more than 50% below January's average. [e36] Texas gas demand hit a record 27.6 Bcf/d on February 15. [e38] Across the FERC-NERC event area (ERCOT, SPP and MISO South), natural gas fuel supply issues caused 27.3% of all generating unit outages, derates and failures to start. [e37] In 2021 the PUCT order noted that if the LCAP is calculated as 50 times the natural gas price index value, it may exceed the then-current $9,000 HCAP. [e14]
 
-Gas supply risk is now part of resource registration: generation resources relying on natural gas as their primary fuel must file a declaration of natural gas pipeline coordination, disclosing any pipeline activities or conditions that materially raise the risk of unavailability in the summer Peak Load Season. [e43][e45]
+Gas supply risk is now part of weather emergency preparedness filings: as part of its submission under PUCT rule 25.55, each Resource Entity with Generation Resources subject to that rule that use natural gas as their primary fuel must submit a declaration of natural gas pipeline coordination, stating that it made a documented effort to coordinate with each directly connected pipeline operator about impacts on availability in the summer Peak Load Season. [e46][e43] Where a pipeline operator responded and disclosed activities or conditions materially increasing the risk of unavailability, the declaration asks for that information. [e45]
 
 Henry Hub levels for context (EIA, national benchmark, not an ERCOT index): $2.22/MMBtu in 2024 (inflation-adjusted, the lowest annual average on record) and $3.52/MMBtu in 2025, up 56%, with daily prices from $2.65 to $9.86. [e25][e22]
 
@@ -279,7 +279,7 @@ ERCOT's own figures for the average FIP: $5.58 in 2022, $2.21 in 2023 and $1.82 
 
 (Illustrative) Suppose the FIP is $3.00/MMBtu and a gas unit's heat rate is 10 MMBtu/MWh: its fuel cost is about $30/MWh. If the FIP rises 61%, to about $4.83, the same unit's fuel cost rises to about $48/MWh. Whether the power price follows depends on how often that unit is marginal and how much shortage pricing occurs, which is what happened in 2025 when power rose far less than gas.
 
-(Illustrative) Suppose the FIP is $3.00, a unit's fuel adder is the $0.50 default and it buys intraday gas at $4.20. The Exceptional Fuel Cost threshold is 3.00 + 1.00 + 0.50 = $4.50, so $4.20 would not qualify; at $5.00 it would.
+(Illustrative) Suppose the FIP is $3.00, a unit's fuel adder is $0.50 and it buys intraday gas at $4.20. The Exceptional Fuel Cost threshold is 3.00 + 1.00 + 0.50 = $4.50, so $4.20 would not qualify; at $5.00 it would clear the price threshold, though the other listed conditions still apply.
 
 ## Say it like this
 
@@ -317,7 +317,7 @@ EIA says Permian production has grown faster than pipeline takeaway capacity, so
 
 ### What if a unit's actual fuel cost is far above the FIP on a cold day?
 
-It can submit an Exceptional Fuel Cost for the Mitigated Offer Cap if its weighted average fuel price exceeds the FIP plus $1/MMBtu plus its fuel adder. [e39] ERCOT may tell the IMM about the submission. [e42]
+It can submit an Exceptional Fuel Cost for the Mitigated Offer Cap; the first of the listed conditions is that its weighted average fuel price must exceed the FIP plus $1/MMBtu plus its fuel adder. [e39] ERCOT may tell the IMM about the submission. [e42]
 
 ### Why did 2023 power prices not fall with gas?
 

@@ -268,7 +268,7 @@ evidence:
   - id: e60
     source: luminant-txsc-opinion
     locator: "PUCT v. Luminant Energy Co., No. 23-0231 (Tex.), Part III.C (p. 23)"
-    quote: "In sum, the Orders are authorized by Section 39.151."
+    quote: "Later, Section 39.151 expressly directs ERCOT to “ensure the reliability and adequacy of the regional electrical network” 75 and gives the Commission “complete authority” to ensure that ERCOT adequately performs that duty, which includes rulemaking “relating to the reliability of the regional electrical network”. 76 In sum, the Orders are authorized by Section 39.151."
   - id: e61
     source: luminant-txsc-opinion
     locator: "PUCT v. Luminant Energy Co., No. 23-0231 (Tex.), Part III.C (p. 24)"
@@ -320,7 +320,7 @@ evidence:
   - id: e73
     source: luminant-txsc-opinion
     locator: "PUCT v. Luminant Energy Co., No. 23-0231 (Tex.), Part II.B (p. 17), on the 2023 HB 1500 amendments"
-    quote: "Yet there is nothing in the text reflecting the Legislature’s intent either to confirm existing authority of the Commission or to give the Commission new authority, and the amendments did not take effect until September 1, 2023."
+    quote: "Yet there is nothing in the text reflecting the Legislature’s intent either to confirm existing authority of the Commission or to give the Commission new authority, and the amendments did not take effect until September 1, 2023. Our task, therefore, is to determine whether the Orders are competition rules under the 2021 version of PURA"
   - id: e74
     source: luminant-txsc-opinion
     locator: "PUCT v. Luminant Energy Co., No. 23-0231 (Tex.), Part I.E (pp. 11-12)"
@@ -349,6 +349,30 @@ evidence:
     source: luminant-txsc-opinion
     locator: "PUCT v. Luminant Energy Co., No. 23-0231 (Tex.), Part II.B (p. 18)"
     quote: "that they could be challenged by direct appeal to the court of appeals. We hold that they are. Having concluded that the court of appeals had jurisdiction over Luminant’s suit, we turn to the merits."
+  - id: e81
+    source: luminant-txsc-opinion
+    locator: "PUCT v. Luminant Energy Co., No. 23-0231 (Tex.), Part IV.B (p. 28)"
+    quote: "The Commission did that by immediately posting the Orders on its website."
+  - id: e82
+    source: luminant-txsc-opinion
+    locator: "PUCT v. Luminant Energy Co., No. 23-0231 (Tex.), Part I.D (p. 10)"
+    quote: "ERCOT acted on the Commission’s directive by manually plugging a value into the SPM that would have the effect of raising the"
+  - id: e83
+    source: imm-uri-letter-3
+    locator: "IMM letter of March 11, 2021 (Project 51812, item 149), p. 2"
+    quote: "Once again, these corrections do not include the effects of any transactions that are outside of ERCOT settlement. We recognize that there are futures markets that are derived from the ERCOT real-time prices."
+  - id: e84
+    source: luminant-txsc-opinion
+    locator: "PUCT v. Luminant Energy Co., No. 23-0231 (Tex.), Part II.A (p. 13), standing"
+    quote: "Essentially, the Commission’s argument is that the egg cannot be unscrambled. Yet potentially it can. Luminant points us to ERCOT protocols authorizing invoice repricing and market-wide resettlements"
+  - id: e85
+    source: ercot-roadmap-2021-10
+    locator: "Roadmap to Improving Grid Reliability, cover and opening letter (October 15, 2021 update of the July 13, 2021 roadmap)"
+    quote: "Roadmap to Improving Grid Reliability July 13, 2021 Dear Governor Abbott, Texas Legislators and Public Utility Commission of Texas Commissioners:"
+  - id: e86
+    source: luminant-txsc-opinion
+    locator: "PUCT v. Luminant Energy Co., No. 23-0231 (Tex.), footnote 46 (pp. 16-17)"
+    quote: "See Act of May 28, 2023, 88th Leg., R.S., ch. 410, § 17, 2023 Tex. Gen. Laws __ (H.B. 1500) (codified at TEX. UTIL. CODE § 39.1514)"
 ---
 
 ## Definition
@@ -359,7 +383,7 @@ The Uri pricing controversy is the dispute over the PUCT's February 15 and 16, 2
 
 Why prices were below the cap: the UT report explains that under the protocols then in force, when ERCOT shed load so that reserves appeared high and recalled other out-of-market actions, price formation went back to supply and demand even though demand was artificially low, which is why prices on February 15 were below $9,000 for part of the day. [e36] The Supreme Court's account is that ERCOT had to hold some energy in reserve and believed the scarcity pricing mechanism read those reserves as meaning load shed was no longer occurring. [e37] In February 2021 VOLL was set equal to the HCAP of $9,000/MWh. [e40]
 
-What the PUCT said: on February 15, 2021, the PUCT stated that energy prices were clearing below the $9,000 offer cap, at times as low as about $1,200, while firm load was being shed. [e1] It reasoned that when load is being shed, scarcity is at its maximum and the price should be at its highest. [e2] The first order directed ERCOT to count shed firm load in its scarcity pricing signals and to correct past prices the same way. [e3] ERCOT did this by manually entering a value into the pricing mechanism that raised the price to $9,000, and the Supreme Court says this stayed in place until the grid returned to normal operations on February 19. [e70]
+What the PUCT said: on February 15, 2021, the PUCT stated that energy prices were clearing below the $9,000 offer cap, at times as low as about $1,200, while firm load was being shed. [e1] It reasoned that when load is being shed, scarcity is at its maximum and the price should be at its highest. [e2] The first order directed ERCOT to count shed firm load in its scarcity pricing signals and to correct past prices the same way. [e3] The Supreme Court says ERCOT acted on that directive by manually plugging a value into the scarcity pricing mechanism that had the effect of raising the price to $9,000, and that this stayed in place until the grid returned to normal operations on February 19. [e82][e70]
 
 The LCAP part: the order also suspended use of the LCAP and kept the HCAP as the cap until the next open meeting; the second order explains that generator revenues were approaching the $315,000/MW-year peaker net margin threshold and that, with very high gas prices, the "50 times the natural gas price index" formula could exceed the $9,000 HCAP. [e20][e32][e4] The PUCT said that outcome would be contrary to the rule's purpose of protecting consumers in high-revenue years. [e33] The IMM says gas index prices exceeded $400 per MMBtu, so the LCAP could have reached up to $20,000. [e55] The PNM threshold was exceeded on February 16, and on March 3, 2021, with the gas index stabilized, the PUCT terminated the suspension and ordered ERCOT to resume applying the LCAP. [e34][e35][e29]
 
@@ -371,13 +395,13 @@ On ancillary services, the IMM's March 1 letter said the day-ahead pricing run p
 
 ## Formula
 
-The IMM's March 11, 2021 estimate of how much its recommendations would change ERCOT settlements, after netting day-ahead positions and offsetting positions within each corporate family, is a sum of three parts: [e10]
+The IMM's March 11, 2021 estimate of how much its recommendations would change ERCOT settlements, after netting day-ahead positions and offsetting positions within each corporate family, is broken into three parts, which add up to the IMM's total (3.2 + 1 + 0.9 = 5.1 is the knowledge base's own check, not a figure the IMM writes out): [e10]
 
 - Real-time energy imbalance effect: about $3.2 billion, the effect on net buyers and sellers in the real-time energy market. [e47]
 - Real-Time AS Imbalance Charge effect: about $1 billion, the change in make-whole payments to generators for energy that was not needed or produced. [e48]
 - Capping AS prices at $9,000: about $900 million. [e49]
 
-Total: about $5.1 billion; the IMM says these are rounded approximations that can change with meter data, and they exclude transactions settled outside ERCOT such as forwards. [e10][e79]
+Total: about $5.1 billion; the IMM says these are rounded approximations that can change with meter data, and they exclude transactions outside ERCOT settlement, such as futures derived from ERCOT real-time prices. [e10][e79][e83]
 
 ## ERCOT context
 
@@ -385,15 +409,15 @@ The IMM's March 11 letter ranked the parts: it asked the PUCT at a minimum to co
 
 What the PUCT did on AS: an order signed March 12, 2021, which supersedes a March 3 order, directed ERCOT to settle each QSE that failed its ancillary service supply responsibility under Protocol Section 6.4.9.1.3 (failure to provide) for operating days February 14 through February 19, 2021. [e30][e53] The UT report (July 2021) says the PUCT did not take action on AS prices similar to its action on energy prices. [e39]
 
-Rule changes followed. ERCOT's July 2021 Roadmap listed both fixes: account for firm load shed in scarcity pricing, and limit AS prices to the offer cap. [e78] NPRR1081, approved June 28, 2021, wrote the load shed treatment into the reliability deployment price adder so that prices equal VOLL when ERCOT directs firm load shed in EEA3. [e13] NPRR1080 and OBDRR030, cosponsored by ERCOT and the IMM and approved in June 2021, limit AS clearing prices to the system-wide offer cap. [e54] The PUCT removed the link between the LCAP and gas prices and lowered the HCAP to $5,000 per MWh from January 1, 2022. [e15] HB 4492's $2.1 billion uplift balance covers exactly the reliability deployment price adder charges and AS costs above the offer cap that were uplifted to load-serving entities, not amounts in the settlement point price. [e56] Today: PUCT rule 25.509 still states an HCAP of $5,000 per MWh [e23], but ERCOT's September 2026 summer review says the system-wide offer cap was reduced to $2,000/MWh from $5,000/MWh after RTC go-live on 12/5/2025, and the Protocol table lists $5,000 day-ahead and $2,000 real-time. [e21][e22]
+Rule changes followed. ERCOT's Roadmap to Improving Grid Reliability (dated July 13, 2021; saved as its October 15, 2021 update) lists both fixes: account for firm load shed in scarcity pricing, and limit AS prices to the offer cap. [e78] NPRR1081, approved June 28, 2021, wrote the load shed treatment into the reliability deployment price adder so that prices equal VOLL when ERCOT directs firm load shed in EEA3. [e13] NPRR1080 and OBDRR030, cosponsored by ERCOT and the IMM and approved in June 2021, limit AS clearing prices to the system-wide offer cap. [e54] The PUCT removed the link between the LCAP and gas prices and lowered the HCAP to $5,000 per MWh from January 1, 2022. [e15] HB 4492 defines its uplift balance as not more than $2.1 billion uplifted to load-serving entities for reliability deployment price adder charges and AS costs above the offer cap during the period of emergency, excluding amounts securitized under Chapter 41, Subchapter D, and amounts that were part of the settlement point price. [e56] Today: PUCT rule 25.509 still states an HCAP of $5,000 per MWh [e23], but ERCOT's September 2026 summer review says the system-wide offer cap was reduced to $2,000/MWh from $5,000/MWh after RTC go-live on 12/5/2025, and the Protocol table lists $5,000 day-ahead and $2,000 real-time. [e21][e22]
 
-The court cases. Court of appeals (March 17, 2023): Luminant and the other appellants argued the orders were de facto competition rules, adopted in violation of the APA, and beyond the Commission's authority; the court agreed on the first and third points and did not reach the APA point. [e75] It held that setting a single price at the maximum violated PURA §39.001(d)'s requirement to use competitive methods to the greatest extent feasible with the least impact on competition, and that for four days the minimum price equalled the maximum "by operation of executive fiat". [e77][e76] It said that "In extreme circumstances under extraordinary pressure, the Commission exceeded its power by eliminating competition entirely", and reversed and remanded. [e26][e25] A Haynes Boone alert (tier 3) summarized Luminant's argument as being that the cap and orders contravened PURA's framework that generation prices be set by competition. [e17] The Supreme Court describes the court of appeals bench as a two-judge panel. [e74]
+The court cases. Court of appeals (March 17, 2023): Luminant and the other appellants argued the orders were de facto competition rules, adopted in violation of the APA, and beyond the Commission's authority; the court agreed on the first and third points and did not reach the APA point. [e75] Its conclusion was that setting a single price at the maximum violated PURA §39.001(d)'s requirement to use competitive methods to the greatest extent feasible with the least impact on competition; in reaching it, the court observed that for four days the minimum price equalled the maximum "by operation of executive fiat". [e77][e76] It said that "In extreme circumstances under extraordinary pressure, the Commission exceeded its power by eliminating competition entirely", and reversed and remanded. [e26][e25] A Haynes Boone alert (tier 3) summarized Luminant's argument as being that the cap and orders contravened PURA's framework that generation prices be set by competition. [e17] The Supreme Court describes the court of appeals bench as a two-judge panel. [e74]
 
 Supreme Court of Texas (June 14, 2024; Chief Justice Hecht for the Court, Justices Huddle and Young not participating). [e72][e28] It framed the case as the court of appeals holding that PURA prohibits price-setting, and said "We disagree." [e27]
-- Jurisdiction: Luminant's case was not moot just because the orders expired on February 19, 2021, since it suffered financial loss; otherwise short-term rules could never be challenged. [e59] The orders are rules under the APA because they implemented a policy that applied to all market transactions, and a rule regulating wholesale pricing is a competition rule under PURA, so direct appeal to the court of appeals was proper. [e57][e58][e80]
-- Merits: the orders are authorized by PURA §39.151, and §39.001 acknowledges that prices set by competition may in some circumstances have to yield; deciding when is the Commission's job, not the judiciary's. [e60][e61] The court of appeals "strayed from its lane" by asking whether the orders could have been more competitive, and the Court declined to second-guess whether the price hike or the load-shed directives saved the grid. [e62][e63] The orders do not contravene specific statutory language or run counter to Chapter 39's general objectives, so the presumption of validity holds. [e64]
-- APA: the Court decided the issue the lower court skipped and held the orders substantially complied. [e65] The orders' introductory paragraphs satisfied the written finding of imminent peril; the PUCT undisputedly did not file the orders with the Secretary of State, but posted them immediately, and no respondent showed prejudice, all having actual notice. [e66][e67][e68]
-- Scope: the LCAP suspension (part II) was not challenged. [e71] The 2023 HB 1500 amendments on PUCT directives to ERCOT took effect September 1, 2023 and did not decide this case. [e73]
+- Jurisdiction: the Court rejected the Commission's argument that the case was moot because the orders expired on their own terms when the market returned to normal operations on February 19, 2021: Luminant suffered financial loss, and the Commission's logic would mean short-term rules could never be challenged. [e59] The orders are rules under the APA because they implemented a policy that applied to all market transactions, and a rule regulating wholesale pricing is a competition rule under PURA, so direct appeal to the court of appeals was proper. [e57][e58][e80]
+- Merits: §39.151 directs ERCOT to ensure the reliability and adequacy of the network and gives the Commission complete authority over that duty, so the orders are authorized by PURA §39.151, and §39.001 acknowledges that prices set by competition may in some circumstances have to yield; deciding when is the Commission's job, not the judiciary's. [e60][e61] The court of appeals "strayed from its lane" by asking whether the orders could have been more competitive, and the Court declined to second-guess whether the price hike or the load-shed directives saved the grid. [e62][e63] The orders do not contravene specific statutory language or run counter to Chapter 39's general objectives, so the presumption of validity holds. [e64]
+- APA: the Court decided the issue the lower court skipped and held the orders substantially complied. [e65] The orders' introductory paragraphs satisfied the written finding of imminent peril; the PUCT undisputedly did not file the orders with the Secretary of State, but it immediately posted them on its website, no respondent articulated any prejudice, and respondents undisputedly had actual notice. [e66][e67][e81][e68]
+- Scope: the LCAP suspension (part II) was not challenged. [e71] The Commission argued that the 2023 amendments (HB 1500) on PUCT directives to ERCOT codified its existing authority; the Court found nothing in their text confirming or adding authority, noted they took effect only on September 1, 2023, and decided the case under the 2021 version of PURA. [e86][e73]
 - Result: reversed the court of appeals and rendered judgment affirming the orders. [e27][e28]
 
 ## Key facts
@@ -419,20 +443,20 @@ Supreme Court of Texas (June 14, 2024; Chief Justice Hecht for the Court, Justic
 - March 11, 2021: IMM letter estimates a $5.1 billion settlement effect. [e10]
 - March 12, 2021: PUCT second order addressing ancillary services directs failure-to-provide settlement for February 14-19, superseding the March 3 order. [e30][e53]
 - June 2021: NPRR1080/OBDRR030 approved (AS prices capped at the offer cap); June 28, 2021: NPRR1081 approved. [e54][e13]
-- July 13, 2021: ERCOT Roadmap lists both pricing fixes. [e78]
+- July 13, 2021: ERCOT Roadmap dated this day lists both pricing fixes (saved copy is the October 15, 2021 update). [e85][e78]
 - January 1, 2022: HCAP lowered to $5,000 per MWh. [e15]
 - March 17, 2023: Third Court of Appeals reverses the orders and remands in Luminant v. PUCT. [e25]
-- September 1, 2023: HB 1500 amendments on PUCT directives to ERCOT take effect (not applied to this case). [e73]
+- September 1, 2023: HB 1500 amendments on PUCT directives to ERCOT take effect; the Supreme Court decided the case under the 2021 version of PURA. [e86][e73]
 - June 14, 2024: Supreme Court of Texas reverses the court of appeals and renders judgment affirming the orders. [e28]
 - December 5, 2025: RTC go-live; real-time offer cap $2,000/MWh. [e21]
 
 ## Say it like this
 
-(Guidance) During Uri the PUCT ordered ERCOT to price shed load at the $9,000 cap, on the logic that load shed is maximum scarcity. [e2][e3] The IMM said it agreed with that, but argued prices were held at VOLL for 32 hours after load shed ended and asked for those hours to be corrected, putting the net settlement effect of all its fixes at $5.1 billion. [e24][e7][e10] In court, the Supreme Court of Texas held in June 2024 that PURA §39.151 authorized the orders and that deciding when competition must yield is the Commission's job, reversing the 2023 appeals ruling. [e60][e61][e28]
+(Guidance) During Uri the PUCT ordered ERCOT to price shed load at the $9,000 cap, on the logic that load shed is maximum scarcity. [e1][e2][e3] The IMM said it agreed with that, but argued prices were held at VOLL for 32 hours after load shed ended and asked for those hours to be corrected, putting the net settlement effect of all its fixes at $5.1 billion. [e24][e7][e10] In court, the Supreme Court of Texas held in June 2024 that PURA §39.151 authorized the orders and that deciding when competition must yield is the Commission's job, reversing the 2023 appeals ruling. [e60][e61][e28]
 
 ## Common confusion
 
-(Guidance) There are two different disputes. In its March 4 letter the IMM said the pricing intervention should have ended when load shed ended and objected to the hours after. [e7] Its other letters raised separate issues such as day-ahead ancillary service prices. [e9] Luminant's case attacked the orders themselves, and the courts ruled only on the orders' validity, not on the IMM's later-hours argument. [e75][e57] Also keep the IMM dollar figures apart: $16 billion is the over-priced energy value, $1.5 billion the make-whole uplift, and $5.1 billion the net settlement effect of its recommendations. [e46][e7][e10] The court of appeals also did not rule on the APA question; the Supreme Court did. [e75][e65]
+(Guidance) There are two different disputes. In its March 4 letter the IMM said the pricing intervention should have ended when load shed ended and objected to the hours after. [e7] Its other letters raised separate issues such as day-ahead ancillary service prices. [e9] Luminant's case challenged the validity of the February 15 and 16 orders themselves, and that is what the two courts decided. [e75][e57] Also keep the IMM dollar figures apart: $16 billion is the over-priced energy value, $1.5 billion the make-whole uplift, and $5.1 billion the net settlement effect of its recommendations. [e46][e7][e10] The court of appeals also did not rule on the APA question; the Supreme Court did. [e75][e65]
 
 ## Questions
 
@@ -446,7 +470,7 @@ UT says the pricing rules then did not count firm load shed as an out-of-market 
 
 ### Why did the IMM call for repricing?
 
-It said ERCOT recalled the last load shed instructions at 23:55 on February 17 but kept prices at VOLL for another 32 hours, adding $16 billion of costs, and recommended correcting prices from 0:00 February 18 to 09:00 February 19. [e7][e8] It considered the AS imbalance make-whole costs the most harmful because they could not be hedged. [e44]
+It said ERCOT recalled the last load shed instructions at 23:55 on February 17 but kept prices at VOLL for another 32 hours, adding $16 billion of costs, and recommended correcting prices from 0:00 February 18 to 09:00 February 19. [e7][e8] It said the make-whole payments uplifted through the Real-Time Ancillary Service Imbalance Charge were particularly harmful because they could not be hedged. [e44]
 
 ### Why did the PUCT suspend the LCAP?
 
@@ -454,11 +478,11 @@ The order's stated concern was that, with gas prices exceptionally high, the LCA
 
 ### Why did the Supreme Court of Texas uphold the orders?
 
-It read PURA §39.001 and §39.151 together: §39.151 makes ERCOT ensure reliability under the Commission's complete authority, and §39.001 itself accepts that competitive pricing may have to yield, so the orders were authorized. [e60][e61] It held that the court of appeals had wrongly second-guessed whether a more competitive approach was possible. [e62] It also held the emergency rulemaking substantially complied with the APA despite no filing with the Secretary of State, because notice was given and no prejudice was shown. [e67][e68]
+It read PURA §39.001 and §39.151 together: §39.151 directs ERCOT to ensure reliability and gives the Commission complete authority to see that ERCOT does, and §39.001 itself accepts that competitive pricing may have to yield, so the orders were authorized. [e60][e61] It held that the court of appeals had wrongly second-guessed whether a more competitive approach was possible. [e62] It also held the emergency rulemaking substantially complied with the APA despite no filing with the Secretary of State: the Commission immediately posted the orders on its website, respondents had actual notice, and none articulated any prejudice. [e67][e81][e68]
 
 ### What if the court of appeals ruling had stood?
 
-The Haynes Boone alert (a law-firm source) said it might require resettlement of most Uri hours. [e16] The Supreme Court noted Luminant pointed to Protocol provisions authorizing invoice repricing and market-wide resettlement when finding standing; it did not decide whether resettlement would happen. [e59] (Guidance) The IMM's earlier warning about futures already settled on the original prices shows why late repricing is messy. [e11]
+The Haynes Boone alert (a law-firm source) said it might require resettlement of most Uri hours. [e16] On standing, the Supreme Court rejected the Commission's argument that "the egg cannot be unscrambled", saying "potentially it can" and noting that Luminant pointed to ERCOT protocols authorizing invoice repricing and market-wide resettlements. [e84] (Guidance) The IMM's earlier warning about futures already settled on the original prices shows why late repricing is messy. [e11]
 
 ### What changed in the rules so this does not recur?
 

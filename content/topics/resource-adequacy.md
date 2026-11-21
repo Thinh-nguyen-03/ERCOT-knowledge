@@ -66,7 +66,7 @@ evidence:
   - id: e6
     source: imm-som-2025
     locator: "Resource Adequacy chapter, F.3 2026 Reliability Standard Assessment (p. 105)"
-    quote: "The RSA schedule requires ERCOT to file its reliability assessment results in August 2026, along with market design options if the model outputs suggest that ERCOT is unlikely to meet the reliability standard in 2029."
+    quote: "The RSA schedule requires ERCOT to file its reliability assessment results in August 2026, along with market design options if the model outputs suggest that ERCOT is unlikely to meet the reliability standard in 2029. Our IMM review of ERCOT’s assessment follows in September 2026. From October through December, PUC staff will hold workshops and open meetings to develop a final set of recommendations, and the Commissioners will consider them.67 This timeline is subject to change."
   - id: e7
     source: puct-25-505
     locator: "16 TAC §25.505(b)"
@@ -135,7 +135,7 @@ evidence:
   - id: e22
     source: imm-som-2025
     locator: "Resource Adequacy chapter, D.1 Updates to CONE (p. 102)"
-    quote: "Because the 2025 PJM CONE study produced an estimated value of approximately $220 per kW‑year, and because combustion turbine procurement costs are relatively uniform across U.S. markets, the accelerated ERCOT study could result in a CONE value above $200 per kW‑year."
+    quote: "In parallel with ERCOT’s 2026 Reliability Standard Assessment (RSA), ERCOT is conducting an additional review of CONE to align cost assumptions with potential reliability pathways. Although CONE is not a direct input to the RSA, ERCOT has noted that certain recommendations for achieving the standard may depend on CONE, which makes an updated assessment appropriate. To support this effort, ERCOT engaged the Brattle Group to perform an accelerated CONE study informed by Brattle’s recent work for PJM. Because the 2025 PJM CONE study produced an estimated value of approximately $220 per kW‑year, and because combustion turbine procurement costs are relatively uniform across U.S. markets, the accelerated ERCOT study could result in a CONE value above $200 per kW‑year."
   - id: e23
     source: imm-som-2025
     locator: "Resource Adequacy chapter, F.4 Additional Notes on the RSA (p. 106)"
@@ -143,7 +143,7 @@ evidence:
   - id: e24
     source: pura-39
     locator: "PURA §39.1594(a)(1), Reliability Program"
-    quote: "the commission may not require retail customers or load-serving entities in the ERCOT power region to purchase credits designed to support a required reserve margin or other capacity or reliability requirement unless the commission ensures that:(1)  the net cost to the ERCOT market of the credits does not exceed $1 billion annually, less the cost of any interim or bridge solutions that are lawfully implemented"
+    quote: "the commission may not require retail customers or load-serving entities in the ERCOT power region to purchase credits designed to support a required reserve margin or other capacity or reliability requirement unless the commission ensures that:(1)  the net cost to the ERCOT market of the credits does not exceed $1 billion annually, less the cost of any interim or bridge solutions that are lawfully implemented, except that the commission may adjust the limit:(A)  proportionally according to the highest net peak demand year-over-year with a base year of 2026; and(B)  for inflation with a base year of 2026;"
   - id: e25
     source: pura-39
     locator: "PURA §39.1594(a)(10), Reliability Program"
@@ -207,7 +207,7 @@ evidence:
   - id: e40
     source: imm-som-2023
     locator: "2023 State of the Market Report, Resource Adequacy, net revenues"
-    quote: "Combustion turbines ranged from $224 per kW-year to $257 per kW-year; while"
+    quote: "The figures show that the ERCOT markets provided net revenues substantially above CONE in 2023. For example, net revenues for: • Combustion turbines ranged from $224 per kW-year to $257 per kW-year; while"
   - id: e41
     source: imm-som-2024
     locator: "2024 State of the Market Report, Resource Adequacy, C.1 Interpreting Single-Year Net Revenues"
@@ -232,6 +232,14 @@ evidence:
     source: ercot-cdr-2025-12
     locator: "Definitions, Effective Load Carrying Capability (ELCC)"
     quote: "The resource class (e.g., wind) is removed and substituted with capacity that has perfect availability until the target reliability level is again reached. The ELCC is the amount of perfect capacity added divided by the amount of the resource class capacity removed, expressed as a percentage."
+  - id: e47
+    source: ercot-cdr-2025-12
+    locator: "ELCC Background, What is an Effective Load Carrying Capability?"
+    quote: "ELCC measures the effectiveness of a resource type—wind, solar and battery energy storage—in maintaining a resource portfolio’s reliability level over a given period."
+  - id: e48
+    source: pura-39
+    locator: "PURA §39.1594, history note at end of section"
+    quote: "report the results of each evaluation to the legislature. Added by Acts 2023, 88th Leg., R.S., Ch. 410 (H.B. 1500), Sec. 23, eff. September 1, 2023."
 ---
 
 ## Definition
@@ -244,17 +252,17 @@ ERCOT has a formal reliability standard, adopted in 16 TAC §25.508. A loss of l
 
 Starting January 1, 2026, ERCOT must assess at least every three years whether the system meets the standard and is likely to keep meeting it for the next three years. [e4] If a reviewed system fails, ERCOT must give the Commission a menu of market design changes, including a primary recommendation. [e5] The IMM must then independently review those proposals and their expected system costs. [e20]
 
-The market signal comes from scarcity prices. Since RTC, sloped Ancillary Service Demand Curves define shortage pricing in the day-ahead and real-time markets. [e12] The IMM compares net revenues with the cost of new entry (CONE). [e14] The PUCT approved a planning CONE of $140/kW-year in July 2024 and kept the legacy $105/kW-year for the peaker net margin threshold. [e13] The IMM reports that an accelerated ERCOT CONE study by Brattle, run alongside the 2026 assessment, could produce a value above $200/kW-year, because the 2025 PJM study came in at about $220/kW-year. [e22]
+The market signal comes from scarcity prices. Since RTC, sloped Ancillary Service Demand Curves define shortage pricing in the day-ahead and real-time markets. [e12] The IMM compares net revenues with the cost of new entry (CONE). [e14] The PUCT approved a planning CONE of $140/kW-year in July 2024 and kept the legacy $105/kW-year for the peaker net margin threshold. [e13] The IMM reports that an accelerated ERCOT CONE study by Brattle, run in parallel with the 2026 assessment, could produce a value above $200/kW-year, because the 2025 PJM study came in at about $220/kW-year. [e22]
 
-ERCOT measures adequacy through planning reports. A resource adequacy report covering at least five years must be published by December 31 each year. [e7] The CDR's Planning Reserve Margin is the share of resource capacity above firm demand that is available to cover uncertainty. [e8] For wind, solar and storage, the CDR counts capacity by ELCC: the amount of perfect capacity that replaces a removed resource class while holding the reliability target, divided by the class capacity removed. [e46] The MORA reports the probability that ERCOT would need to declare an EEA in its highest-risk hour. [e15]
+ERCOT measures adequacy through planning reports. A resource adequacy report covering at least five years must be published by December 31 each year. [e7] The CDR's Planning Reserve Margin is the share of resource capacity above firm demand that is available to cover uncertainty. [e8] For wind, solar and battery energy storage, the CDR counts capacity by ELCC: the amount of perfect capacity that replaces a removed resource class while holding the reliability target, divided by the class capacity removed. [e47][e46] The MORA reports the probability that ERCOT would need to declare an EEA in its highest-risk hour. [e15]
 
 ## ERCOT context
 
 The planning view and the operating view point in different directions. The December 2025 CDR base scenario shows Planning Reserve Margins falling each year and turning negative in 2028. Summer 2026 starts at 18.3% for the peak load hour and 20.9% for the peak net load hour. [e9] ERCOT attributes the steep decline to high load growth driven by TSP-reported loads, lower ELCC-based credit for wind and solar, and stricter eligibility criteria for planned resources. [e36] Its alternative scenarios vary SB 6 large-load curtailment, large-load growth, and the amount and timing of Texas Energy Fund capacity. [e10] The IMM, which had criticized the protocol-prescribed method, says the December 2025 CDR addressed its concern by adding those SB 6 curtailment scenarios. [e37] In real-time operations, the IMM reports that PRC was below 6,500 MW for only 102 hours in 2025 and has not fallen below 3,000 MW since 2023. [e11]
 
-Revenues were weak in 2024 and 2025. The IMM estimates 2025 net revenues of $52.59/kW-year for a CT and $82.96/kW-year for a CC, below the $140 planning CONE. [e14] The IMM's view is that years like 2024 and 2025 occur often and are not a threat to resource adequacy, because tighter years such as 2021 and 2023 can produce revenues substantially above CONE. [e17] ERCOT's CEO takes a more worried tone: 40% of ERCOT's thermal fleet is over 30 years old, and he says replacement dispatchable capacity must be ensured while inflation-adjusted wholesale prices have been low for two years. [e42] In April 2026 ERCOT staff asked its Board to consider demand response as a near-term answer to emerging resource adequacy challenges. [e43]
+Revenues were weak in 2024 and 2025. The IMM estimates 2025 net revenues of $52.59/kW-year for a CT and $82.96/kW-year for a CC, below the $140 planning CONE. [e14] The IMM's view is that years like 2024 and 2025 occur often and are not a threat to resource adequacy, because tighter years such as 2021 and 2023 can produce revenues substantially above CONE. [e17] ERCOT's CEO takes a more worried tone: 40% of ERCOT's thermal fleet is over 30 years old, and the letter says replacement dispatchable capacity must be ensured while inflation-adjusted wholesale prices have been low for two years. [e42] In April 2026 ERCOT staff asked its Board to consider demand response as a near-term answer to emerging resource adequacy challenges. [e43]
 
-Capacity payments are constrained by statute. PURA §39.1594 bars the Commission from requiring LSEs to buy reserve-margin credits unless, among other conditions, their net cost stays within $1 billion a year (less any bridge solutions) [e24] and ERCOT has begun implementing real-time co-optimization before the program starts. [e25] Under that law, PUCT staff recommended not moving forward with the Performance Credit Mechanism as designed [e26], and the Commission adopted the staff recommendation on December 19, 2024. [e29] Staff cited the ERCOT/E3 finding that the PCM would add only 780 MW of dispatchable capacity and move the long-run equilibrium LOLE from 2.67 to 2.18 days per year. [e27] Separately, PURA §39.159(d) requires a dispatchable reliability reserve service procured day-ahead and in real time. [e30]
+Capacity payments are constrained by statute. PURA §39.1594 bars the Commission from requiring LSEs to buy reserve-margin credits unless, among other conditions, their net cost stays within $1 billion a year (less any bridge solutions; the Commission may adjust the limit for peak demand growth and inflation from a 2026 base) [e24] and ERCOT has begun implementing real-time co-optimization before the program starts. [e25] In December 2024, PUCT staff recommended not moving forward with the Performance Credit Mechanism as designed [e26], and the Commission adopted the staff recommendation on December 19, 2024. [e29] Staff cited the ERCOT/E3 finding that the PCM would add only 780 MW of dispatchable capacity and move the long-run equilibrium LOLE from 2.67 to 2.18 days per year. [e27] Separately, PURA §39.159(d) requires a dispatchable reliability reserve service procured day-ahead and in real time. [e30]
 
 The IMM says meeting the standard through prices alone would need an extraordinarily high operational VOLL [e16], and it asks the Commission to clarify whether the standard is a binding requirement or an aspirational benchmark. [e23]
 
@@ -266,7 +274,7 @@ The IMM says meeting the standard through prices alone would need an extraordina
 - The December 2024 CDR's five-year range was -32.4% to 9.6%, against 27% to 51.7% in the December 2023 CDR; the IMM attributes the drop to ELCC and mandatory inclusion of TSP officer-letter loads. [e35]
 - Planning CONE: $140/kW-year (approved July 2024). The PNM threshold still uses $105/kW-year. [e13]
 - 2025 net revenue: CT $52.59/kW-year; CC $82.96/kW-year. [e14]
-- PCM: PUCT staff (December 13, 2024 memo) cited ERCOT's Long-Term Reliability Assessment showing a forecast 2026 LOLE of 0.51 days per year, versus the 0.1 standard. [e28]
+- PCM: PUCT staff (December 13, 2024 memo) cited ERCOT's Long-Term Reliability Assessment showing a forecast 2026 LOLE of 0.51 days per year, versus the 0.1 standard. [e28][e3]
 - January 2027 MORA: highest EEA risk is 3.20% at HE 8:00 a.m. CST. [e15]
 
 ## Timeline
@@ -276,7 +284,7 @@ The IMM says meeting the standard through prices alone would need an extraordina
 - Summer 2022: calculated reserve margin 23.9% (IMM 2021 report). [e32]
 - 2022: net revenues exceeded CONE even without Uri-type prices, which the IMM attributes mainly to ORDC changes made at the start of the year. [e39]
 - Summer 2023: reserve margin 22.2% per the CDR (IMM 2022 report). [e33]
-- September 1, 2023: PURA §39.1594 (HB 1500) set the conditions, including the $1 billion net cost limit, for any reserve-credit program. [e24]
+- September 1, 2023: PURA §39.1594 (HB 1500) set the conditions, including the $1 billion net cost limit, for any reserve-credit program. [e48][e24]
 - 2023: CT net revenues of $224-257/kW-year, well above CONE (IMM). [e40] Summer 2024 planning reserve margin estimated at 29.4%. [e34]
 - July 2024: PUCT approved the $140/kW-year planning CONE. [e13] August 29, 2024: Commission selected the final PCM design parameters. [e45]
 - December 2024: CDR five-year reserve range fell to -32.4% to 9.6%. [e35] December 19, 2024: Commission adopted staff's recommendation not to move forward with the PCM as designed. [e26][e29]
@@ -287,7 +295,7 @@ The IMM says meeting the standard through prices alone would need an extraordina
 
 ## Say it like this
 
-(Guidance) ERCOT now has a formal reliability target of one loss-of-load event in ten years and must check every three years whether the market is delivering it. The planning reports show reserve margins falling fast, partly because of load growth and partly because the CDR now counts wind and solar by ELCC, while real-time reserves have been ample. A capacity-credit program was considered and shelved in December 2024, so the 2026 assessment is the formal route to any new design. [e3][e29]
+(Guidance) ERCOT now has a formal reliability target of one loss-of-load event in ten years and must check at least every three years whether the system is meeting it. The planning reports show reserve margins falling fast, partly because of load growth and partly because the CDR now counts wind and solar by ELCC, while real-time reserves have been ample. A capacity-credit program was considered and shelved in December 2024, and the 2026 assessment is the formal route for proposing market design changes. [e3][e4][e36][e11][e29][e5]
 
 ## Common confusion
 
@@ -321,14 +329,14 @@ The IMM says the five-year range fell from 27-51.7% to -32.4-9.6% mainly because
 
 ### What if the next CONE study comes in above $200/kW-year?
 
-The IMM says the accelerated Brattle study could produce a CONE above $200 [e22]. (Reasoning) A higher benchmark would widen the gap against 2024-2025 net revenues and make any cost-based design option look more expensive. The saved sources do not give the study's result.
+The IMM says the accelerated Brattle study could produce a CONE above $200 [e22]. (Reasoning) A higher benchmark would widen the gap against 2024-2025 net revenues. The saved sources do not give the study's result.
 
 ## Scenarios
 
 ### A client asks whether ERCOT will add a capacity market because reserve margins go negative.
 
 - The formal path is the reliability standard assessment. If ERCOT does not meet the standard, it must propose market design changes, which the IMM reviews. [e5][e20]
-- A capacity-credit program already faced a statutory screen: under PURA §39.1594 net cost must stay within $1 billion a year, and the PCM was shelved in December 2024. [e24][e29]
+- A capacity-credit program already faced a statutory screen: under PURA §39.1594 net cost must stay within $1 billion a year (adjustable for peak demand growth and inflation), and the PCM was shelved in December 2024. [e24][e29]
 - The IMM says meeting the standard through price signals alone would imply an extraordinarily high operational VOLL for an energy-only market [e16], and it asks the Commission to say whether the standard is binding. [e23]
 - What ERCOT's market design options contain is not in the saved sources.
 

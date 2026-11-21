@@ -171,6 +171,14 @@ evidence:
     locator: "Offer stack discussion (energy offer floor for online NSRS)"
     quote: "The $75 level corresponds to the energy offer floor for capacity providing online Non-Spin Reserve Service (NSRS), which averaged approximately 1,000 MW throughout 2025."
 
+  - id: e32
+    source: np-04
+    locator: "Section 4.4.9.2.3, paragraph (4)"
+    quote: "Items (2)(c) and (2)(d) above are determined by capacity of largest simple-cycle combustion turbine in the train."
+  - id: e33
+    source: np-04
+    locator: "Section 4.4.9.3.3, paragraph (3)"
+    quote: "Items in paragraphs (1)(c) and (d) above are determined by capacity of largest simple-cycle combustion turbine in the train selected."
 ---
 
 ## Definition
@@ -193,9 +201,9 @@ The Energy Offer Curve must be a monotonically non-decreasing price and quantity
 
 ## Formula
 
-The generic Minimum-Energy cap for most gas Resources is a heat-rate-times-fuel-price formula. For a combined-cycle Resource greater than 90 MW it is 8 MMBtu/MWh times the fuel price, where the fuel price is the QSE's specified percentage of the Fuel Index Price (FIP) times FIP plus its specified percentage of the Fuel Oil Price (FOP) times FOP, divided by 100. [e14] Other categories use different MMBtu/MWh values in the same expression. [e14] ERCOT uses the FIP and FOP for the Operating Day; if the cap must be calculated before they are available, it uses the most recent preceding Operating Day's values, and replaces them once the Operating Day's values are available. [e15]
+The generic Minimum-Energy cap for gas-fired categories is a heat-rate-times-fuel-price formula. For the Combined-cycle greater than 90 MW category it is 8 MMBtu/MWh times the fuel price, where the fuel price is the QSE's specified percentage of the Fuel Index Price (FIP) times FIP plus its specified percentage of the Fuel Oil Price (FOP) times FOP, divided by 100. [e14] Other gas categories use different MMBtu/MWh values in the same expression, and the combined-cycle size category is determined by the capacity of the largest simple-cycle combustion turbine in the train. [e14][e32] ERCOT uses the FIP and FOP for the Operating Day; if the cap must be calculated before they are available, it uses the most recent preceding Operating Day's values, and replaces them once the Operating Day's values are available. [e15]
 
-The Energy Offer Curve Cost Caps (used for make-whole Settlements, Real-Time High Dispatch Limit Override Energy Payments, Real-Time Constraint Management Plan Cost Recovery Payments, and Voltage Support Service Payments) use the same form with different heat rates; for example a combined cycle greater than 90 MW uses 9 MMBtu/MWh. [e28][e29]
+The Energy Offer Curve Cost Caps (used for make-whole Settlements, Real-Time High Dispatch Limit Override Energy Payments, Real-Time Constraint Management Plan Cost Recovery Payments, and Voltage Support Service Payments) use the same form with different heat rates for the gas-fired categories (other categories use fixed values or other rules); for example the Combined Cycle greater than 90 MW category uses 9 MMBtu/MWh, with the size category again determined by the largest simple-cycle combustion turbine in the train. [e28][e29][e33]
 
 ## ERCOT context
 

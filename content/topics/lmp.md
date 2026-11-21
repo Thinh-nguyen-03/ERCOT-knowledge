@@ -38,16 +38,16 @@ links:
     note: Only constraints with positive Shadow Prices (congested lines) add a congestion term to the LMP. [e15]
   - to: load-zone
     type: related
-    note: Load Zone prices are Load-weighted averages of bus LMPs. [e9][e22]
+    note: The Load Zone LMP is based on state-estimated Loads and the bus LMPs in the zone, and the IMM describes load as settled at the load-weighted average price of its load zone. [e22][e29]
   - to: trading-hub
     type: related
-    note: Hub prices are averages of Hub Bus prices, which average bus LMPs. [e23]
+    note: The Hub LMP is the arithmetic average of the Real-Time LMPs of the Hub Buses. [e23]
   - to: negative-prices
     type: related
-    note: The administrative floor on Real-Time Settlement Point Prices and the -$250/MWh over-generation penalty bound how negative prices can go. [e8][e19]
+    note: Real-Time Settlement Point Prices have an administrative floor of -$251/MWh, and the SCED over-generation Power Balance Penalty Price is -$250/MWh. [e8][e19]
   - to: rtc-b
     type: related
-    note: The IMM says RTC went live on December 5, 2025, ending the ORDC and RDPA adders. [e21]
+    note: The IMM says RTC went live on December 5, 2025, and that before then ERCOT added an ORDC price adder to energy and reserve prices when reserves were low. [e21]
 evidence:
   - id: e1
     source: np-02
@@ -176,6 +176,10 @@ evidence:
     locator: "page 80 (OCR), Chapter V.A, bullet on violated constraints"
     quote: "Violated transmission constraint hours continued to drop in 2025 to only 64 constraint-hours, the lowest annual total ever. NPRR 1230 can partially explain this decline in constraint violations because it allows SCED to produce more expensive dispatch solutions to avoid violating these constraints."
 
+  - id: e32
+    source: np-04
+    locator: "Section 4.6.1.2, variable table for Load Zone DASPP, DALMP"
+    quote: "The DAM LMP at Electrical Bus b for the hour."
 ---
 
 ## Definition
@@ -186,19 +190,19 @@ An LMP is the offer and/or bid-based marginal cost of serving the next increment
 
 The LMP is built at the bus level. Its energy component is System Lambda, the Shadow Price of the power balance constraint, meaning the change in the objective function from relaxing that constraint by one MW. [e2] A Shadow Price in general measures the marginal value of a commodity, the rate at which system costs would fall or rise if slightly more or less of it were available. [e3] The protocol text says System Lambda is the energy component of LMP at each Settlement Point. [e2] SCED produces Shadow Prices and LMPs in the same step. [e5]
 
-The congestion term. ERCOT's Attachment P (edition dated December 5, 2025) gives the bus LMP as System Lambda minus the sum, over transmission lines, of the bus Shift Factor times the line's Shadow Price. [e14] Shadow Prices on congested lines are positive and zero otherwise, and Shift Factors are negative on one side of a line and positive on the other, so the congestion component can be positive or negative at a bus. [e15] That congestion component is a price incentive for units at the bus to raise or lower output to manage congestion. [e16] This resolves the earlier open item: the Protocol-side statement of "System Lambda plus a congestion component" is the Attachment P formula, written with a minus sign on the Shift Factor times Shadow Price term. [e14]
+The congestion term. ERCOT's Attachment P (edition dated December 5, 2025) gives the bus LMP as System Lambda minus the sum, over transmission lines, of the bus Shift Factor times the line's Shadow Price. [e14] Shadow Prices on congested lines are positive and zero otherwise, and Shift Factors are negative on one side of a line and positive on the other, so the congestion component can be positive or negative at a bus. [e15] That congestion component is a price incentive for units at the bus to raise or lower output to manage congestion. [e16]
 
 In real time, SCED runs approximately every five minutes, or more frequently if necessary, and calculates LMPs and Real-Time MCPCs alongside Base Points and Ancillary Service awards. [e4] SCED's second step produces Base Points, Ancillary Service awards, Shadow Prices, Real-Time MCPCs and LMPs, subject to security constraints and other Resource constraints. [e5] In the day-ahead, the Protocols define Day-Ahead System Lambda as the DAM Shadow Price for the system power balance constraint for the hour. [e7]
 
-LMPs are not what settles directly for most participants. Settlement Point Prices are calculated using LMP data. [e12] The day-ahead Settlement Point Price at a Resource Node is that node's LMP. [e13] In real time the Resource Node price is the time-weighted average of the sum of the Real-Time LMPs and the Real-Time Reliability Deployment Price Adder for Energy. [e25] The Load Zone LMP is calculated using State Estimator Load data and the LMPs at the Electrical Buses in the zone. [e9][e22] The Hub LMP is the arithmetic average of the Hub Buses' Real-Time LMPs (except for the ERCOT Hub Average 345 kV Hub). [e23]
+Settlement uses Settlement Point Prices, which are calculated using LMP data. [e12] The day-ahead Settlement Point Price at a Resource Node is that node's LMP. [e13] In real time the Resource Node price is the time-weighted average of the sum of the Real-Time LMPs and the Real-Time Reliability Deployment Price Adder for Energy. [e25] The Load Zone LMP is calculated using State Estimator Load data and the LMPs at the Electrical Buses in the zone. [e9][e22] The Hub LMP is the arithmetic average of the Hub Buses' Real-Time LMPs (except for the ERCOT Hub Average 345 kV Hub). [e23]
 
 De-energized buses. For Real-Time Settlement Point Prices, ERCOT assigns an LMP to de-energized Electrical Buses by heuristic rules in order: an LMP predetermined by ERCOT for that bus if specified; otherwise the average LMP of buses at the same station and voltage, then of all buses in the same station, then System Lambda. [e26][e27]
 
 ## Formula
 
-Bus LMP (Attachment P, Section 3.1): LMP at Electrical Bus EB equals lambda (System Lambda, the Shadow Price of the power balance constraint) minus the sum over lines of SF (the Shift Factor of bus EB for the line) times SP (the Shadow Price of the line). [e14] The SP term is zero for a line that is not binding. [e15]
+Bus LMP (Attachment P, Section 3.1): LMP at Electrical Bus EB equals lambda (System Lambda, the Shadow Price of the power balance constraint) minus the sum over lines of SF (the Shift Factor of bus EB for the line) times SP (the Shadow Price of the line). [e14] The SP term is zero for a line that is not congested. [e15]
 
-Caps on the Shadow Prices set the limit of the formula when constraints cannot be resolved. [e17] ERCOT establishes a maximum Shadow Price for each network constraint, and SCED's cost to resolve an additional MW of congestion on the constraint is limited to it. [e30] Attachment P's generic caps, used in SCED unless ERCOT determines that a constraint is irresolvable, are $5,251/MW for base case or voltage violations and, for N-1 violations, $4,500/MW above 200 kV, $3,500/MW from 100 to 200 kV and $2,800/MW below 100 kV (edition dated December 5, 2025). [e18][e24]
+The maximum Shadow Prices for the transmission network constraints and the power balance constraint directly determine the real-time LMPs in cases of constraint violations. [e17] ERCOT establishes a maximum Shadow Price for each network constraint, and SCED's cost to resolve an additional MW of congestion on the constraint is limited to it. [e30] Attachment P's generic caps, used in SCED unless ERCOT determines that a constraint is irresolvable, are $5,251/MW for base case or voltage violations and, for N-1 violations, $4,500/MW above 200 kV, $3,500/MW from 100 to 200 kV and $2,800/MW below 100 kV (edition dated December 5, 2025). [e18][e24]
 
 For power balance, SCED's under-generation Power Balance Penalty Price is the effective VOLL plus the effective Real-Time System-Wide Offer Cap plus $4,052.01/MWh, which sets the maximum System Lambda; the over-generation penalty price is -$250/MWh. [e19]
 
@@ -222,7 +226,7 @@ The IMM describes LMPs as the marginal cost of serving an incremental unit of lo
 
 ## Say it like this
 
-An LMP is the marginal cost of serving one more MW at a specific bus: a system-wide energy price (System Lambda) plus whatever the binding transmission constraints add or subtract at that location. ERCOT computes them approximately every five minutes in real time [e4] and for each hour in the day-ahead [e7], and settlement prices are built from them. [e12]
+An LMP is the marginal cost of serving one more MW at a specific bus: a system-wide energy price (System Lambda) plus whatever the binding transmission constraints add or subtract at that location. ERCOT computes them approximately every five minutes in real time [e4] and for each hour in the day-ahead [e32], and settlement prices are built from them. [e12]
 
 ## Common confusion
 

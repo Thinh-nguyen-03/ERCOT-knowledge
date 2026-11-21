@@ -38,7 +38,7 @@ links:
     note: Controllable Load Resources are one of the Resource types that may provide RRS. [e3]
   - to: rtc-b
     type: related
-    note: NPRR1282 sets RRS and Regulation duration to 30 minutes upon implementation of Real-Time Co-Optimization. [e21]
+    note: NPRR1282 sets RRS and Regulation duration to 30 minutes upon implementation of Real-Time Co-Optimization. [e33][e21]
   - to: drrs
     type: related
     note: DRRS is a separate, newer reserve product; see that topic for how it differs from RRS.
@@ -125,7 +125,7 @@ evidence:
     quote: "(d) The amount of RRS awarded to a Resource capable of providing Fast Frequency Response (FFR) must be less than or equal to its 15-minute rated capacity. The initiation setting of the automatic self-deployment of the Resource providing RRS as FFR must be no lower than 59.85 Hz."
   - id: e21
     source: ercot-nprr1282-puct-report
-    locator: "Revision Description and Effective Date"
+    locator: "Justification of Reason for Revision and Market Impacts, Regulation Service and RRS duration bullet"
     quote: "Regulation Service and RRS duration should be changed to 30 minutes: Based on ERCOT\u2019s analysis, changing the duration requirement for Regulation Service and RRS from 15 minutes to 30 minutes is necessary to reduce the risk of ERCOT violating ERCOT\u2019s obligation under NERC BAL-001, Real Power Balancing Control Performance, in the event that Security-Constrained Economic Dispatch (SCED) is not available due to unplanned events."
   - id: e22
     source: np-08
@@ -171,6 +171,14 @@ evidence:
     source: imm-som-2025
     locator: "Chapter III.A, key insights, page 59 (OCR)"
     quote: "On average, ESRs provided 94% of Reg- Up, 86% of Reg-Down, 51% of RRS, 42% of ECRS, and 24% of NSRS."
+  - id: e33
+    source: ercot-nprr1282-puct-report
+    locator: "NPRR1282 PUCT Report, Effective Date row"
+    quote: "Upon system implementation of PR447, Real-Time Co-Optimization (RTC)"
+  - id: e34
+    source: np-03
+    locator: "Section 3.16, paragraph (2)"
+    quote: "(2) ERCOT shall, at least annually, determine with supporting data, the methodology for determining the quantity requirements for each Ancillary Service needed for reliability, including:"
 ---
 
 ## Definition
@@ -181,7 +189,7 @@ Responsive Reserve (RRS) is an ancillary service providing operating reserves me
 
 **Who can provide it.** RRS can be provided by on-line generation using primary frequency response, by resources with fast frequency response (FFR) that can sustain it for up to 15 minutes, and by load resources on high-set under-frequency relays; the Protocol list also includes Controllable Load Resources, generation in synchronous condenser fast-response mode, and ESRs. [e3]
 
-**How much is bought.** The amount is set each year in ERCOT's methodology, not in the Protocols. For 2026 the document was recommended by the ERCOT Board on 09/23/2025, approved by the PUC on 11/06/2025 and effective 01/01/2026. [e16] It publishes amounts by month in six four-hour blocks, based on expected load, solar and wind patterns and set to cover 70% of historic system inertia conditions for each block. [e14] Outside that base, ERCOT adds 200 MW of RRS for each percent of Reserve Discount Factor below 1, but only in four-hour blocks where the 85th percentile of weighted average temperature is above 95 degrees F. [e15]
+**How much is bought.** The Protocols require ERCOT to determine, at least annually, the methodology for the quantity of each ancillary service, [e34] and the Protocols themselves also state a PFR floor and a 60% combined limit (below). For 2026 the document was recommended by the ERCOT Board on 09/23/2025, approved by the PUC on 11/06/2025 and effective 01/01/2026. [e16] It publishes amounts by month in six four-hour blocks, based on expected load, solar and wind patterns and set to cover 70% of historic system inertia conditions for each block. [e14] Outside that base, ERCOT adds 200 MW of RRS for each percent of Reserve Discount Factor below 1, but only in four-hour blocks where the 85th percentile of weighted average temperature is above 95 degrees F. [e15]
 
 **The three limits that shape the mix.** (1) A floor on RRS from primary frequency response: the methodology says the monthly minimum shall not be less than 1,377 MW, while the Protocols' own floor is 1,150 MW. [e13][e5] ERCOT posts the monthly minimum and may raise it if it believes the posted quantity would hurt reliability or force more Regulation to be deployed. [e4][e13] (2) A cap on FFR: 450 MW in the 2026 methodology. [e13] (3) A combined cap: RRS from high-set under-frequency relay loads and FFR together is limited to 60% of the total requirement. [e4][e13]
 
@@ -195,7 +203,7 @@ Responsive Reserve (RRS) is an ancillary service providing operating reserves me
 
 The IMM describes three types of RRS in the market: primary frequency response, which all generators must be able to provide; under-frequency relay (UFR) capacity from load resources that trip on a frequency drop; and FFR, overwhelmingly provided by ESRs. [e10] The IMM reports that the share of responsive reserves from FFR is capped at 450 MW. [e11] In 2025 ESRs provided on average 51% of RRS. [e32] Non-controllable load resources (NCLRs) provided an average of 1,480 MW of RRS in 2025 even though 7,568 MW were qualified; the IMM attributes part of the gap to the PFR floor (1,365 MW or 40% of the AS Plan in 2025), which NCLRs cannot meet because they respond through under-frequency relays. [e12][e25]
 
-ERCOT clears the three kinds of RRS together rather than as separate products, and prorates UFR and FFR awards when the combined limit binds. [e26] The IMM says the rise in the minimum PFR requirement from 1,185 MW to 1,365 MW in the 2025 methodology reduced UFR volumes in 2024-2025, and that many ESRs prefer to offer PFR to avoid proration of FFR. [e27][e28] That is the IMM's reading of offer behaviour. NPRR1128, approved January 26, 2023, would set a -$0.01 offer floor for FFR so that FFR could be procured up to its limit without proration; in the Protocols it is still a pending box. [e30][e31]
+ERCOT clears the three kinds of RRS together rather than as separate products, and prorates UFR and FFR awards when the combined limit binds. [e26] The IMM says the rise in the minimum PFR requirement from 1,185 MW to 1,365 MW in the 2025 methodology was the main driver of lower UFR volumes in 2025 than in 2024, and that many ESRs prefer to offer PFR to avoid proration of FFR. [e27][e28] That is the IMM's reading of offer behaviour. NPRR1128, approved January 26, 2023, would set a -$0.01 offer floor for FFR so that FFR could be procured up to its limit without proration; in the Protocols it is still a pending box. [e30][e31]
 
 Prices: the IMM's annual average Responsive price table shows $300.87 (2021), $20.79 (2022), $21.04 (2023), $5.52 (2024) and $2.74 (2025) per MWh (OCR of Figure 25). [e29]
 
@@ -206,7 +214,7 @@ Prices: the IMM's annual average Responsive price table shows $300.87 (2021), $2
 - The Protocols' floor for PFR-based RRS is 1,150 MW; the 2025 methodology minimum was 1,365 MW per the IMM, up from 1,185 MW. [e5][e27][e25]
 - Nodal Operating Guide 2.3.1.1 states an RRS obligation of a minimum of 2300 MW, adjustable per the methodology. [e17]
 - FFR must self-deploy within 15 cycles of frequency falling below 59.85 Hz. [e6]
-- NPRR1282 (effective upon RTC implementation) changes the RRS and Regulation duration requirement from 15 to 30 minutes. [e21]
+- NPRR1282 (effective date: upon system implementation of RTC) changes the RRS and Regulation duration requirement from 15 to 30 minutes. [e33][e21]
 - Average NCLR RRS in 2025 was 1,480 MW. [e12]
 
 ## Timeline
@@ -214,7 +222,7 @@ Prices: the IMM's annual average Responsive price table shows $300.87 (2021), $2
 - 2023-01-26: NPRR1128 (FFR offer floor and procurement up to the limit) approved; still pending implementation in the Protocol text as saved. [e30][e31]
 - 2025: minimum PFR volume rose from 1,185 MW to 1,365 MW (IMM description of the 2025 methodology). [e27]
 - 2025-09-23 / 2025-11-06: ERCOT Board recommends and PUC approves the methodology effective 2026-01-01 (PFR minimum 1,377 MW). [e16][e13]
-- NPRR1282: RRS duration to 30 minutes, effective upon RTC implementation. [e21]
+- NPRR1282: RRS duration to 30 minutes, effective upon system implementation of RTC. [e33][e21]
 
 ## Say it like this
 
@@ -240,7 +248,7 @@ ECRS, which is intended to restore RRS within ten minutes after a deviation that
 
 ### Why can only 1,480 MW of 7,568 MW of qualified NCLR capacity actually provide RRS?
 
-The IMM points to the PFR floor. NCLRs cannot provide PFR, so they supply only the under-frequency-relay share, and ERCOT required at least 1,365 MW or 40% of the AS Plan from PFR-capable resources in 2025. [e25]
+The IMM points to the PFR floor. NCLRs cannot provide PFR and instead provide responsive reserves primarily through an under-frequency relay, and ERCOT required at least 1,365 MW or 40% of the AS Plan from PFR-capable resources in 2025. [e25]
 
 ### Why do many ESRs offer PFR rather than FFR, according to the IMM?
 
@@ -248,7 +256,7 @@ PFR is similarly costly for ESRs to provide, and when the combined UFR plus FFR 
 
 ### What if a battery providing FFR misses its response twice in a year?
 
-ERCOT may revoke its qualification if it has two performance failures in a rolling 365-day period; a failure is a response under 95% or over 105% of its RRS award. [e23]
+ERCOT may revoke its qualification if it has two performance failures in a rolling 365-day period; a failure is a response under 95% or over 105% of its RRS award within 15 cycles of a triggering event or ten minutes of a Dispatch Instruction. [e23]
 
 ### What happens to RRS volumes when ERCOT estimates the Reserve Discount Factor below 1?
 

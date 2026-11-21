@@ -35,7 +35,7 @@ links:
   note: The shadow price set for a violated constraint determines congestion prices at the locations that affect it. [e8]
 - to: system-lambda
   type: related
-  note: System Lambda is the shadow price of the power balance constraint; its cap is the Power Balance Penalty. [e14][e32]
+  note: System Lambda is the shadow price of the power balance constraint; its maximum is the Power Balance Penalty. [e14][e10]
 - to: offer-cap
   type: related
   note: The under-generation Power Balance Penalty is set from VOLL plus the effective RTSWCAP plus a fixed adder. [e32]
@@ -206,6 +206,14 @@ evidence:
     source: imm-som-2025
     locator: "page 86 (OCR), Chapter V.D.1, after Figure 38"
     quote: "As in previous years, a large majority of constraint violations in 2025 were less than or equal to 5% above the constraint limit. These relatively small violations are priced at the same shadow price cap as more severe violations. This raises concerns because a single shadow price cap does not scale the cost of violating a constraint with the severity of the violation. Hence, it may be advisable to reconsider implementing transmission demand curves, which would recognize that the reliability risk of a post-contingency overload increases as the violation amount increases. Small violations should have lower shadow prices than large violations."
+  - id: e40
+    source: np-22p-2025-12
+    locator: "Attachment P (Dec. 5, 2025 version), Section 3.5.1, operational steps once the cap is reached (last item)"
+    quote: "Re-dispatching generation through over-riding High Dispatch Limit (HDL) and Low Dispatch Limit (LDL) in accordance with paragraph (3)(g) of Section 6.5.7.1.10, Network Security Analysis Processor and Security Violation Alarm."
+  - id: e41
+    source: np-22p-2025-12
+    locator: "Attachment P (Dec. 5, 2025 version), Section 3.5.1, supporting analysis (example)"
+    quote: "For example, a node with a shift factor of -50% would have an LMP with a congestion component of $50,000/MWh from just this one constraint, and even higher if multiple constraints are binding."
 ---
 
 ## Definition
@@ -214,7 +222,7 @@ A shadow price is the marginal value of a commodity: the rate at which system co
 
 ## How it works
 
-SCED's second step produces Base Points, Ancillary Service awards, Shadow Prices, Real-Time MCPCs and LMPs, subject to the security constraints. [e3] The SCED objective function has four components: the cost of dispatching generation, the cost of procuring Ancillary Services, the penalty for violating the power balance constraint, and the penalty for violating network transmission constraints. [e31] ERCOT sets a maximum shadow price for each network constraint as part of its contingency definition, and the cost SCED calculates to resolve another MW of congestion on that constraint cannot exceed it. A separate maximum applies to the power balance constraint. [e2][e9]
+In the Protocols' two-step SCED methodology, the second step produces Base Points, Ancillary Service awards, Shadow Prices, Real-Time MCPCs and LMPs, subject to the security constraints. [e3] The SCED objective function has four components: the cost of dispatching generation, the cost of procuring Ancillary Services, the penalty for violating the power balance constraint, and the penalty for violating network transmission constraints. [e31] ERCOT sets a maximum shadow price for each network constraint as part of its contingency definition, and the cost SCED calculates to resolve another MW of congestion on that constraint cannot exceed it. A separate maximum applies to the power balance constraint. [e2][e9]
 
 If a constraint is not binding, its shadow price is $0.00/MWh. If it is binding, the shadow price is a non-zero $/MW value, and once the cap is reached the constraint is violated without further increases in the shadow price. [e13] Per the IMM, violations impose reliability costs or risks on the system, which ERCOT embeds in the shadow price caps. When the marginal cost of relief through dispatch exceeds the reliability cost of violating the constraint, the cap stops further dispatch cost and sets the shadow price, which determines congestion prices at the locations that affect the violated constraint. [e8] The IMM calculates day-ahead congestion values as the product of power flows over each constraint and the constraint's shadow price. [e7]
 
@@ -224,19 +232,19 @@ If a constraint is not binding, its shadow price is $0.00/MWh. If it is binding,
 
 **Why those levels.** ERCOT's supporting analysis shows how a cap maps to which offers will be used: with a 2% shift factor difference between marginal units, the maximum offer price difference of units deployed to resolve a constraint is $56, $70, $90 and $105.02/MWh for caps of $2,800, $3,500, $4,500 and $5,251/MW. [e20] It also argues that a cap high enough to always accept an offer at the RTSWCAP is not workable: at a 2% shift factor difference, a $100,000/MW cap would be required to deploy $2,000/MWh offers. [e21] ERCOT notes that an LMP at a node, hub or load zone can exceed the RTSWCAP in some circumstances, most likely with irresolvable constraints and tight dispatchable supply. [e22]
 
-**Irresolvable constraints.** ERCOT modifies the cap for a constraint consistently irresolvable by SCED if a violation goes unresolved for more than two consecutive hours on more than 4 consecutive Operating Days, or for more than a total of 20 hours in a rolling thirty-day period. [e24] The cap becomes the minimum of the generic cap and the greater of a reference Resource's largest Mitigated Offer Cap divided by its shift factor, or $2000 per MW. [e25] If the constraint's accumulated net margin exceeds $95,000/MW, the cap is lowered for the rest of the calendar year to the minimum of $2,000/MWh or a second formula. [e26] Net margin is a running sum of one quarter times the greater of zero or the reference Settlement Point Price minus a Proxy Operating Cost, over intervals in which the constraint binds; the Proxy Operating Cost is 10 times the Fuel Index Price for the prior Business Day. [e27] ERCOT gives 30 days notice before deeming a constraint resolvable again, and the IMM may initiate re-evaluation, which resets the net margin. [e29][e28]
+**Irresolvable constraints.** ERCOT modifies the cap for a constraint consistently irresolvable by SCED if a violation goes unresolved for more than two consecutive hours on more than 4 consecutive Operating Days, or for more than a total of 20 hours in a rolling thirty-day period. [e24] The cap becomes the minimum of the generic cap and the greater of a reference Resource's largest Mitigated Offer Cap divided by its shift factor, or $2000 per MW. [e25] If the constraint's accumulated net margin exceeds $95,000/MW, the cap is lowered for the rest of the calendar year to the minimum of $2,000/MWh or a second formula. [e26] Net margin is a running sum of one quarter times the greater of zero or the reference Settlement Point Price minus a Proxy Operating Cost, over the Real-Time Settlement Intervals of the current calendar year in which the constraint binds; the Proxy Operating Cost is 10 times the Fuel Index Price for the prior Business Day. [e27] ERCOT gives 30 days notice before deeming a constraint resolvable again, and the IMM may initiate re-evaluation, which resets the net margin. [e29][e28]
 
-**After the cap is reached.** ERCOT may form a mitigation plan (switching, load rollover, load shed plans, redistribution of Ancillary Services), commit additional units, or override HDLs and LDLs. [e23]
+**After the cap is reached.** ERCOT may form a mitigation plan (switching, load rollover, load shed plans, redistribution of Ancillary Services), commit additional units, or override HDLs and LDLs. [e23][e40]
 
 **IROLs.** An IROL's cap is set to the generic base-case cap, or, if ERCOT in its sole discretion finds that insufficient, to the power balance penalty price minus the mitigated offer floor of a reference Resource divided by its shift factor impact. [e30]
 
-**Power balance cap.** For the power balance constraint, the shadow price is System Lambda and the cap is the Power Balance Penalty. [e12][e10] In the December 5, 2025 document the under-generation penalty is a single value equal to the effective VOLL plus the effective RTSWCAP plus $4,052.01/MWh, and the over-generation penalty is -$250/MWh. [e32]
+**Power balance cap.** For the power balance constraint, the shadow price is System Lambda (which Attachment P labels the shadow price of power balance) and the maximum Shadow Price is also referred to as the Power Balance Penalty. [e14][e10] In the December 5, 2025 document the under-generation penalty is a single value equal to the effective VOLL plus the effective RTSWCAP plus $4,052.01/MWh, and the over-generation penalty is -$250/MWh. [e32]
 
 ## Formula
 
 The Attachment P LMP at an Electrical Bus is System Lambda minus the sum, over constraints, of the bus's shift factor times the constraint's shadow price. [e14] Variables: LMP_EB is the LMP at electrical bus EB; lambda is System Lambda, the shadow price of power balance; SF is the shift factor of that bus for the line; SP is the line's shadow price. [e14] Shadow prices of congested lines are positive and otherwise zero, and shift factors are negative on one side of a line and positive on the other. [e15] The congestion component of the bus LMP is the negative of the sum of shift factor times shadow price, so it can be positive or negative; it is the price incentive for units at that bus to raise or lower output to manage congestion. [e16] Attachment P also notes that generating units with small shift factors are less effective at resolving constraints, so if no efficient units exist the shadow price must rise, which it says means high shadow prices indicate inefficient congestion management. [e17]
 
-Worked illustration (Suppose, not a quote): with a $2,000/MW shadow price on one constraint and no other constraints, a bus with shift factor -0.5 gets a congestion component of +$1,000/MWh under the formula above. [e16]
+Worked illustration (the knowledge base's own arithmetic on an assumed example, not a quote): with a $2,000/MW shadow price on one constraint and no other constraints, a bus with shift factor -0.5 gets a congestion component of +$1,000/MWh under the formula above. [e16]
 
 ## ERCOT context
 
@@ -268,7 +276,7 @@ A shadow price is what it costs the system, at the margin, to squeeze one more M
 
 ## Common confusion
 
-The shadow price is a marginal cost per MW, not a total congestion cost; the IMM's day-ahead congestion values multiply it by flow over each constraint. [e7] It is also not a bid or offer: it comes out of the SCED solution. [e3] The IMM's voltage labels (345, 138 and 69 kV) and Attachment P's labels (above 200 kV, 100 to 200 kV, below 100 kV) describe the same three dollar levels in different words. [e38][e19]
+The shadow price is a marginal cost per MW, not a total congestion cost; the IMM's day-ahead congestion values multiply it by flow over each constraint. [e7] It is also not a bid or offer: it comes out of the SCED solution. [e3] The IMM labels the $4,500, $3,500 and $2,800 levels by voltage as 345, 138 and 69 kV, while Attachment P labels them above 200 kV, 100 to 200 kV and below 100 kV. [e38][e19]
 
 ## Questions
 
@@ -286,7 +294,7 @@ The bus LMP is System Lambda minus the sum of shift factor times shadow price, a
 
 ### Why can a node's LMP exceed the RTSWCAP?
 
-Because congestion components add to System Lambda: with a -50% shift factor and a $100,000/MW cap, one constraint alone would give a $50,000/MWh component; ERCOT says LMPs can exceed the cap when constraints are irresolvable and supply is tight. [e21][e22]
+Because congestion components add to System Lambda: ERCOT's example in Attachment P is that a node with a shift factor of -50% would have a congestion component of $50,000/MWh from one constraint under the $100,000/MW cap that would be needed to deploy $2,000/MWh offers at a 2% shift factor difference [e41][e21]; ERCOT says LMPs can exceed the RTSWCAP in some circumstances, most likely with irresolvable constraints and tight dispatchable supply. [e22]
 
 ### What if a constraint stays violated for weeks?
 
@@ -298,7 +306,7 @@ DAM is a unit commitment problem, so penalties reflect start-up and minimum-ener
 
 ### What is the shadow price of power balance?
 
-System Lambda: the cost of one more MWh at the reference bus, capped by the Power Balance Penalty. [e12][e10]
+System Lambda is the shadow price of the power balance constraint, which represents system costs for serving the last MW of load; its maximum is the Power Balance Penalty. [e14][e12][e10]
 
 ## Open items
 

@@ -216,6 +216,14 @@ evidence:
     locator: "Section 4.5.3, Implementation, paragraph (8)"
     quote: >-
       (8) Each TSP, or its designated agent, will provide ERCOT a status report of Load shed progress within 30 minutes of the time of ERCOT’s instruction or upon ERCOT’s request.
+  - id: e40
+    source: ercot-eea-overview
+    locator: Controlled outages box
+    quote: "Controlled outages are also referred to as load shed."
+  - id: e41
+    source: ferc-nerc-uri
+    locator: Section on Difficulties in Rotating Firm Load Shed, February 15-16
+    quote: "The use of the UFLS circuits for manual load shed would render them unavailable if the frequency in ERCOT dropped and UFLS was needed to preserve BES reliability."
 ---
 
 ## Definition
@@ -228,11 +236,11 @@ Load shed is a last resort used to bring operating reserves back to a safe level
 
 Who sheds how much: ERCOT gives each utility a megawatt reduction amount based on its share of historic peak demand; each utility decides how to meet it and manages the outage locally, and ERCOT has no oversight of those plans. [e3] The Operating Guides set the Level 3 obligation percentages by calculating each TO's load as a percentage of the ERCOT system summer and winter peak 15-minute Demand interval. [e21] The Protocols say the percentages are based on the previous year's TSP peak loads and are reviewed and modified annually. [e35] ERCOT uses the summer table for a hot weather load shed event and the winter table for a cold weather one, deciding in its sole discretion which applies. [e22]
 
-Under the Operating Guides, load shed by SCADA must be executed without delay and within 30 minutes of the instruction, and any remainder by non-SCADA methods within one hour; each TSP reports load shed progress to ERCOT within 30 minutes of the instruction or on request. [e38][e39] Transmission owners and TDSPs may manually shed load connected to under-frequency or under-voltage relays under an ERCOT Level 3 directive so long as the TO has determined system conditions warrant it and each affected TO keeps complying with its UFLS and load shed obligations. [e4] If all load identified for manual shed has been shed, they may also shed load armed for the 58.5 Hz, 58.7 Hz and anti-stall UFLS stages, even if that takes UFLS load below the TO's 25% relief obligation. [e20] ERCOT can also instruct TSPs or DSPs to drop load when an Emergency Condition comes from a transmission problem, and must post an operations message within one day with the event's date, times, MW and location. [e5][e6]
+Under the Operating Guides, load shed by SCADA must be executed without delay and within 30 minutes of the instruction, and any remainder by non-SCADA methods within one hour; each TSP reports load shed progress to ERCOT within 30 minutes of the instruction or on request. [e38][e39] Transmission owners and TDSPs may manually shed load connected to under-frequency or under-voltage relays under an ERCOT Level 3 directive so long as the TO has determined system conditions warrant it and each affected TO keeps complying with its UFLS and load shed obligations. [e4] If all load identified for manual shed, and the relay-connected load described in the preceding provision, has been shed, they may also shed load armed for the 58.5 Hz, 58.7 Hz and anti-stall UFLS stages, even if that takes UFLS load below the TO's 25% relief obligation. [e20] ERCOT can also instruct TSPs or DSPs to drop load when an Emergency Condition comes from a transmission problem, and must post an operations message within one day with the event's date, times, MW and location. [e5][e6]
 
 ## Formula
 
-There is no single formula for the manual shed; the quantities are the TO percentages above. Automatic shed is a table of frequency stages. At least 25% of ERCOT system load must be equipped at all times with automatic under-frequency load shedding (UFLS), unless Level 3 provisions are needed to meet ERCOT operating instructions for manual shed. [e17] The standard stages are: 59.3 Hz, at least 5% of TO load; 59.1 Hz, a total of at least 10%; 58.9 Hz, 15%; 58.7 Hz, 20%; and 58.5 Hz, 25%, each with a delay of at least six and no more than 30 cycles. [e18] Three supplemental anti-stall stages at 59.5 Hz require at least 1.5%, 3.0% and 4.5% of TO load, with delays of 90, 120 and 150 seconds. [e19] A TO may use load it would otherwise use for the 59.1 to 58.5 Hz stages to meet the anti-stall stages, but not load needed for the 59.3 Hz stage. [e37]
+There is no single formula for the manual shed; the quantities are the TO percentages above. Automatic shed is a table of frequency stages. At least 25% of ERCOT system load must be equipped at all times with automatic under-frequency load shedding (UFLS), unless Level 3 provisions are needed to meet ERCOT operating instructions for manual shed. [e17] The standard stages are: 59.3 Hz, at least 5% of TO load; 59.1 Hz, a total of at least 10%; 58.9 Hz, 15%; 58.7 Hz, 20%; and 58.5 Hz, 25%, each with a delay of at least six and no more than 30 cycles. [e18] Three supplemental anti-stall stages at 59.5 Hz require at least 1.5%, a total of at least 3.0% and a total of at least 4.5% of TO load, with delays of 90, 120 and 150 seconds. [e19] A TO may use load it would otherwise use for the 59.1 to 58.5 Hz stages to meet the anti-stall stages, but not load needed for the 59.3 Hz stage. [e37]
 
 ## ERCOT context
 
@@ -244,7 +252,7 @@ Critical loads: each TO must coordinate with each TDSP to minimize overlap of ma
 
 Restoration: ERCOT continues the EEA until sufficient offers are received and deployed and normal SCED operations are restored; intermittent SCED solutions do not set new LMPs until ERCOT declares the EEA no longer needed. [e26] When terminating, ERCOT must maintain a stable frequency when restoring load, and loads are restored only when specifically authorized by ERCOT. [e24][e25]
 
-Scarcity pricing: the IMM says the ORDC reflects the relationship between operating reserves and the probability of load shed, and that the ORDC adder was discontinued in December 2025 with RTC. [e14][e15] In the Protocols the aggregate ORDC curve is fitted as (1 minus a normal cumulative probability at the reserve level less 3,000 MW) times VOLL. [e36]
+Scarcity pricing: the IMM says the ORDC reflects the relationship between operating reserves and the probability of load shed, and that the ORDC adder was discontinued in December 2025 with RTC. [e14][e15] In the Protocols, the Aggregate Operating Reserve Demand Curve (AORDC) used to determine the Ancillary Service Demand Curves is fitted by regression as (1 minus a normal cumulative probability at the reserve level less 3,000 MW, with fitted mean and standard deviation) times VOLL. [e36]
 
 ## Key facts
 
@@ -262,7 +270,7 @@ Load shed is ERCOT's last-resort tool: when reserves run too low it orders utili
 
 ## Common confusion
 
-Load shed is not the same as an EEA: the Protocols list directing TOs to shed firm Load among the measures ERCOT may take upon declaring EEA Level 3. [e16][e1] "Controlled outages", "rotating outages" and "load shed" are used for the same thing in these sources. [e2][e8] Manual firm load shed ordered by ERCOT is also not the automatic under-frequency load shed that relays perform at set frequencies. [e1][e18]
+Load shed is not the same as an EEA: the Protocols list directing TOs to shed firm Load among the measures ERCOT may take upon declaring EEA Level 3. [e16][e1] ERCOT's overview says controlled outages are also referred to as load shed, and the FERC and NERC report says manual firm load shed is often referred to as rolling or rotating blackouts. [e40][e8] Manual firm load shed ordered by ERCOT is also not the automatic under-frequency load shed that relays perform at set frequencies. [e1][e18]
 
 ## Questions
 
@@ -280,15 +288,15 @@ ERCOT shed 20,000 MW at the worst point; the FERC and NERC report puts the combi
 
 ### What if frequency keeps falling after manual shed?
 
-Automatic UFLS stages trip load from 59.3 Hz down to 58.5 Hz, reaching at least 25% of TO load. [e18] If all designated manual-shed load has been shed, TOs may also use load armed for the lower UFLS stages even if it takes UFLS load below the 25% obligation. [e20]
+Automatic UFLS stages trip load from 59.3 Hz down to 58.5 Hz, reaching at least 25% of TO load. [e18] If all load identified for manual shed and the relay-connected load under the preceding provision has been shed, TOs may also use load armed for the 58.5 Hz, 58.7 Hz and anti-stall UFLS stages even if it takes UFLS load below the 25% obligation. [e20]
 
 ### Why do TOs avoid overlapping manual-shed and UFLS circuits?
 
-The Operating Guides require TOs to minimize that overlap, and FERC and NERC found in 2021 that using UFLS circuits for manual shed made them unavailable if frequency dropped and UFLS was needed. [e23][e9]
+The Operating Guides require TOs to minimize that overlap, and the FERC and NERC report on the 2021 event says using UFLS circuits for manual shed would render them unavailable if frequency dropped and UFLS was needed. [e23][e41]
 
 ### Why do hot and cold events use different tables?
 
-The obligations are computed from summer and winter peak demand, and ERCOT chooses the table by weather condition and keeps it for the whole event. [e21][e22]
+The obligations are computed from summer and winter peak demand, and ERCOT chooses the table, in its sole discretion, by whether it treats the event as hot weather or cold weather. [e21][e22]
 
 ## Scenarios
 

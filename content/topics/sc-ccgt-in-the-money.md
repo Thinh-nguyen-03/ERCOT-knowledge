@@ -276,3 +276,4 @@ EIA says it ignores pipeline and finance costs, O&M, taxes and fixed costs, so i
 - The startup cap's fuel component (startup fuel in MMBtu) for a CC is not quoted here; only the O&M part ($6,810) is.
 - The sources do not give a 2026 average gas price or 2026 implied heat rate (the IMM monthly report's charts did not extract as text).
 - VCM Equations 4 and 5 (startup and LSL emission costs) are referenced but their text was not quoted.
+- The Verifiable Cost Manual snapshot (e20-e23, e33) is the edition effective 2026-12-01; its wording has not been compared with the edition in force before that date.
