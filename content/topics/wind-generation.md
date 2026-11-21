@@ -26,7 +26,7 @@ links:
     note: ERCOT's 2023 review says wind generation ramping up in the evenings was key to serving demand on most days. [e6]
   - to: weatherization
     type: related
-    note: FERC/NERC attribute the rising generating unit outages in the week of February 7, 2021 primarily to wind turbine blade freezing and natural gas fuel supply issues. [e9]
+    note: FERC/NERC say ERCOT and SPP experienced increasing generating unit outages in the week of February 7, 2021, primarily caused by wind turbine blade freezing and natural gas fuel supply issues. [e9]
   - to: congestion
     type: affects
     note: Wind resources are concentrated where the resource is best, and the IMM reports more than 4% of 2024 wind output was curtailed due to congestion. [e3][e12]
@@ -207,8 +207,8 @@ Wind is also the main source of renewable forecast uncertainty. The IMM says win
 - 2025 wind generation growth was 2.9%; 4.7% of wind generation was curtailed. [e2]
 - 2024 wind generation growth was 3.9% with more than 4% curtailed for congestion. [e12]
 - 2025 captured price: wind about $19 per MWh versus solar about $21 per MWh. [e11]
-- Installed wind: more than 34 GW (end 2021), 37 GW (end 2022), 38 GW (end 2023) per the IMM. [e17][e16][e15]
-- Winter 2021: generating unit outages in the week of February 7 were primarily caused by wind turbine blade freezing and natural gas fuel supply issues. [e9]
+- Installed wind per the IMM: more than 34 GW (end 2021), more than 37 GW (end 2022), more than 38 GW (end 2023). [e17][e16][e15]
+- Winter 2021: FERC/NERC say that in the week of February 7 ERCOT and SPP experienced increasing generating unit outages, primarily caused by wind turbine blade freezing and natural gas fuel supply issues. [e9]
 
 ## Say it like this
 
@@ -230,7 +230,7 @@ Wind sites are concentrated in the best resource locations, so congestion curtai
 
 ### Why does wind drive forecast risk?
 
-The IMM says wind dominates IRR forecast error variance because it is more volatile and less predictable than solar. [e8]
+The IMM says wind dominates IRR forecast error variance because of its higher volatility and lower predictability. [e8]
 
 ### Why is wind variability the main January risk in the MORA?
 
@@ -238,7 +238,7 @@ ERCOT's January 2027 MORA says variability in wind generation is the greatest ri
 
 ### Why does wind matter at the evening net peak?
 
-Solar's contribution falls to zero there and wind typically ramps up as the sun sets, so the IMM says the solar-to-wind hand-off is a reliability risk if wind lags its forecast. [e30]
+Solar's capacity factor at the daily net peak fell to just 1.7% in 2025 [e4], and wind typically ramps up as the sun sets, so the IMM says the solar-to-wind hand-off is a reliability risk if wind lags its forecast. [e30]
 
 ### What if wind is low on a hot evening?
 

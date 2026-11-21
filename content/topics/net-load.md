@@ -29,10 +29,10 @@ links:
     note: The CDR reports reserve margins for both the peak Load hour and the peak Net Load hour. [e5]
   - to: ancillary-services
     type: related
-    note: Regulation targets are set from the 95th percentile of five-minute net load forecast error. [e10]
+    note: The IMM says the Regulation procurement target is set according to the 95th percentile of net load forecast error on a five-minute look-ahead; ERCOT's 2026 methodology words it as covering the 95th percentile of deployed regulation or net load variability. [e10][e23]
   - to: resource-adequacy
     type: related
-    note: SB 3 (new PURA §39.159(b)(5)) refers to preventing prolonged rotating outages due to net load variability in high demand and low supply scenarios. [e8]
+    note: SB 3 (new PURA §39.159(b)(5)) has the commission ensure ERCOT sizes the services procured under subdivision (3) to prevent prolonged rotating outages due to net load variability in high demand and low supply scenarios. [e30][e31][e8]
   - to: ecrs
     type: related
     note: ERCOT's CDR glossary says ECRS was developed to address net load ramps; ECRS and Non-Spin sizing uses 30-minute and 6-hour-ahead net load forecast errors. [e24][e22]
@@ -159,6 +159,18 @@ evidence:
     source: ercot-cdr-2025-12
     locator: "December 2025 CDR, Definitions, Net Load / Peak Net Load"
     quote: "The Load for a given period minus generation from PhotoVoltaic Generation Resources (PVGRs) and Wind Generation Resources (WGRs) for the same period. The peak Net Load is the highest value for the given period."
+  - id: e30
+    source: sb3-87r
+    locator: "SB 3 (87R), Section 18, new PURA §39.159(b), lead-in"
+    quote: "The commission shall ensure that the independent organization certified under Section 39.151 for the ERCOT power region:"
+  - id: e31
+    source: sb3-87r
+    locator: "SB 3 (87R), Section 18, new PURA §39.159(b)(5)"
+    quote: "(5)AAsizes the services procured under Subdivision (3)"
+  - id: e32
+    source: ercot-summer-2026-review
+    locator: "Slide 5, title"
+    quote: "Net Load with Energy Storage Resource (ESR) Contribution"
 ---
 
 ## Definition
@@ -183,7 +195,7 @@ Solar has stopped helping at the net peak. In the IMM's Table 2, solar's capacit
 
 Peak net load by year (IMM): 74.5 GW in 2022 (95th percentile 61.5 GW) [e16], 79.3 GW in 2023 (95th percentile 67.6 GW) [e17], and 69.6 GW in 2024, about 10 GW below 2023, which the IMM attributes to a sharp increase in solar capacity and milder summer weather. [e4] At the other end, the IMM reports minimum net load of about 10.4 GW in 2022 (down from roughly 15 GW in 2016) and about 12 GW in 2023; its 2023 report gives the 2022 starting point as roughly 15 GW, so the two reports disagree on 2022. [e16][e17]
 
-Forecast error. The IMM measures net load forecast errors eight hours ahead of real time [e15] and says the average error fell to about 452 MW in 2025 from more than 1,000 MW in 2023 and 2024, but forecasts still under-forecast renewable output and over-forecast load. [e9] ERCOT's monthly operations report tracks day-ahead net load forecast mean absolute error against a KPI goal of 4,000 MW. [e27] An SB 3 (2021) provision, new PURA §39.159(b)(5), refers to preventing prolonged rotating outages due to net load variability in high demand and low supply scenarios. [e8]
+Forecast error. The IMM measures net load forecast errors eight hours ahead of real time [e15] and says the average error fell to about 452 MW in 2025 from more than 1,000 MW in 2023 and 2024, but forecasts still under-forecast renewable output and over-forecast load. [e9] ERCOT's monthly operations report tracks day-ahead net load forecast mean absolute error against a KPI goal of 4,000 MW. [e27] Under an SB 3 (2021) provision, new PURA §39.159(b)(5), the commission must ensure that ERCOT sizes the ancillary or reliability services procured under subdivision (3) to prevent prolonged rotating outages due to net load variability in high demand and low supply scenarios. [e30][e31][e8]
 
 Market power. The IMM tests structural market power in the top quartile of net load hours; the share of those hours with a pivotal supplier fell from over 90% in 2022 to 35% in 2025, which it attributes largely to milder weather and storage held by smaller participants. [e25]
 
@@ -218,7 +230,7 @@ Storage serves the net peak: ERCOT says ESRs helped serve record net loads in su
 
 ## Common confusion
 
-(Guidance) Peak load and peak net load are different hours with different reserve margins; the CDR reports both. [e5] Also, the Protocol definition subtracts only solar and wind, not storage discharge; ERCOT's summer review separately shows storage's contribution against net load. [e1][e6] Forecast-error figures need their horizon: the IMM's 452 MW is eight hours ahead, Regulation uses a five-minute look-ahead, and ECRS/Non-Spin use 30-minute and 6-hour errors. [e15][e10][e22]
+(Guidance) Peak load and peak net load are different hours with different reserve margins; the CDR reports both. [e5] Also, the Protocol definition subtracts only solar and wind, not storage discharge; ERCOT's summer review separately shows storage's contribution against net load. [e1][e32] Forecast-error figures need their horizon: the IMM's 452 MW is eight hours ahead, Regulation (as the IMM describes it) uses a five-minute look-ahead, and ECRS/Non-Spin use 30-minute and 6-hour errors. [e9][e15][e10][e22]
 
 ## Questions
 
@@ -244,7 +256,7 @@ Solar output is subtracted from load, so more solar lowers midday net load but d
 
 ### What if wind is low at 9 p.m. on a hot day?
 
-Less is subtracted from load, so net load is higher; wind averaged a 29.3% capacity factor at the 2025 net peak, so a low-wind evening removes a large part of that offset. [e1][e11] That is when the IMM sees most price spikes. [e12]
+Less is subtracted from load, so net load is higher; wind averaged a 29.3% capacity factor at the 2025 net peak, so a low-wind evening removes a large part of that offset. [e1][e11] Separately, the IMM says most 2025 price spikes occurred in the 7 to 9 p.m. peak net load hours as solar ramped down; it does not tie them to low-wind evenings in the cited text. [e12]
 
 ## Scenarios
 
