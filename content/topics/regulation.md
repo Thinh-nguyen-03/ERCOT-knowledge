@@ -6,7 +6,8 @@ kind: product
 domain: reliability
 level: 1
 lenses: [analyst, trading, portfolio]
-as_of: 2026-11-18
+as_of: 2026-11-21
+depth: deep
 links:
   - to: ancillary-services
     type: part-of
@@ -26,6 +27,12 @@ links:
   - to: rtc-b
     type: related
     note: Since RTC, ERCOT also procures ancillary services in real time. [e12]
+  - to: asdc
+    type: related
+    note: The Reg-Up ASDC has a maximum demand price of VOLL plus 4,052 $/MWh and a minimum price of 250 $/MWh in the current Protocol text. [e24][e25]
+  - to: prc
+    type: related
+    note: Regulation capability is one of the items ERCOT monitors in real time next to PRC, and ECRS is sized to restore Reg-Up and RRS. [e14]
 evidence:
   - id: e1
     source: np-03
@@ -79,29 +86,167 @@ evidence:
     source: np-03
     locator: "Section 3.17.2, Responsive Reserve Service, paragraph (1)"
     quote: "(1) Responsive Reserve (RRS) is a service used to restore or maintain the frequency of the ERCOT System in response to a significant frequency deviation."
+  - id: e14
+    source: np-06
+    locator: "Section 6.5.7.5, paragraph (1)(h)-(k)"
+    quote: >-
+      (h) Reg-Up and Reg-Down capability (for ESRs, the SCED duration requirements of Reg-Up and Reg-Down are considered);
+  - id: e15
+    source: np-06
+    locator: "Section 6.5.7.6, Load Frequency Control, paragraph (1)"
+    quote: >-
+      (1) The function of LFC is to maintain system frequency without a cost optimization function. ERCOT shall execute LFC every four seconds to reduce system frequency deviations from scheduled frequency by providing a control signal to each QSE that represents Resources providing Regulation Service, RRS, and ECRS.
+  - id: e16
+    source: np-03
+    locator: "Section 3.17.1, Regulation Service, paragraph (2)"
+    quote: >-
+      (2) Regulation Down Service (Reg-Down) is a service that provides capacity that can respond to signals from ERCOT within five seconds to respond to changes from scheduled system frequency.
+  - id: e17
+    source: np-08
+    locator: "Section 8.1.1.2.1.1, Regulation Service Qualification, paragraph (3)"
+    quote: >-
+      Resources providing Reg-Up or Reg-Down must be capable of delivering the full amount of regulating capacity offered to ERCOT within five minutes.
+  - id: e18
+    source: np-08
+    locator: "Section 8.1.1.2.1.1, paragraph (4)"
+    quote: >-
+      (4) A Reg-Up and Reg-Down qualification test for each Resource is conducted during a continuous 60-minute period agreed on in advance by the QSE and ERCOT. QSEs may qualify a Resource to provide Reg-Up or Reg-Down, or both, in separate testing.
+  - id: e19
+    source: np-08
+    locator: "Section 8.1.1.2.1.1, paragraph (4)(c)(i)-(iv)"
+    quote: >-
+      (i) During at least one five minute duration interval selected to evaluate each of the Reg-Up and Reg-Down amounts being tested, the Generation/Controllable Load Resource/Energy Storage Resource Energy Deployment Performance (GREDP/CLREDP/ESREDP) calculated in accordance with Section 8.1.1.4.1, Regulation Service and Generation Resource/Controllable Load Resource/Energy Storage Resource Energy Deployment Performance, and Ancillary Service Capacity Performance Metrics, over the entire five minute interval must be less than or equal to 3.5%.
+  - id: e20
+    source: np-08
+    locator: "Section 8.1.1.2.1.1, paragraph (4)(c)(iii)-(iv)"
+    quote: >-
+      (iv) For an ESR, in all other test sequence intervals, the Resource’s measured ESREDP must be less than or equal to 3.0% as calculated for the entire duration of each test interval.
+  - id: e21
+    source: ercot-as-methodology-2026
+    locator: "Methodology, Regulation Service Requirement Details, Procedure (effective 1 January 2026)"
+    quote: >-
+      For determining the base Reg-Up requirements for a particular hour, ERCOT will calculate the 95^(th) percentile of the positive net load (load – wind – solar) forecast error for the same month of the previous two years. For determining the base Reg-Down requirements, ERCOT will calculate the 95^(th) percentile of the negative net load (load – wind – solar) forecast error for the same month of the previous two years.
+  - id: e22
+    source: ercot-as-methodology-2026
+    locator: "Methodology, Regulation Service Requirement Details, Procedure (effective 1 January 2026)"
+    quote: >-
+      If it is determined that during the course of the year that the ERCOT monthly average for CPS1 score was less than 140% for a specific month, ERCOT will apply an extra 10% of both Reg-Up and Reg-Down for hours in which the CPS1 score was less than 140%.
+  - id: e23
+    source: ercot-as-methodology-2027
+    locator: "Board presentation (September 2026), Key Takeaways"
+    quote: >-
+      For 2027, ERCOT is not proposing any change to the methodology for Regulation Service (Reg Up/Reg Down) and Responsive Reserve Service (RRS); their quantities reflect moving history forward.
+  - id: e24
+    source: np-04
+    locator: "Section 4.4.12, paragraph (7)(a), Max Demand Price table"
+    quote: >-
+      Reg-Up Max Demand Price $/MWh VOLL + 4,052
+  - id: e25
+    source: np-04
+    locator: "Section 4.4.12, paragraph (7)(b), minimum prices table"
+    quote: >-
+      Reg-Up Min Price $/MWh 250
+  - id: e26
+    source: np-08
+    locator: "Section 8.1.1.4.1, paragraph (3), ESREDP"
+    quote: >-
+      ESREDP (%) = ABS[((ATPF – AEPFR)/(ASP)) – 1.0] * 100 ESREDP (MW) = ABS(ATPF – AEPFR – ASP)
+  - id: e27
+    source: np-08
+    locator: "Section 8.1.1.4.1, paragraph (9)(a)"
+    quote: >-
+      (a) An ESR must have an ESREDP less than the greater of V% or W MW for 85% of the five-minute clock intervals in the month during which ESREDP was calculated.
+  - id: e28
+    source: np-08
+    locator: "Section 8.1.1.4.1, paragraph (10)"
+    quote: >-
+      The GREDP/CLREDP/ESREDP performance criteria variables V, W, X, Y, and Z shall be posted to the ERCOT website no later than three Business Days after TAC approval.
+  - id: e29
+    source: np-08
+    locator: "Section 8.1.1.3.1, Regulation Service Capacity Monitoring Criteria, paragraph (2)"
+    quote: >-
+      (2) For the Reg-Up and Reg-Down capability provided for a Resource to ERCOT by the Resource’s QSE, the amount of Reg-Up or Reg-Down reflected in that capability must be limited to the amount of Reg-Up or Reg-Down that can be sustained by the Resource for at least 30 minutes.
+  - id: e30
+    source: ercot-nprr1282-puct-report
+    locator: "Justification of Reason for Revision, Regulation Service and RRS bullet (NPRR1282, PUCT approval 7/31/25)"
+    quote: >-
+      Regulation Service and RRS duration should be changed to 30 minutes: Based on ERCOT’s analysis, changing the duration requirement for Regulation Service and RRS from 15 minutes to 30 minutes is necessary to reduce the risk of ERCOT violating ERCOT’s obligation under NERC BAL-001, Real Power Balancing Control Performance, in the event that Security-Constrained Economic Dispatch (SCED) is not available due to unplanned events.
+  - id: e31
+    source: ercot-rtcb-battery
+    locator: "Slide 23, ESR Participation in the DAM with the RTC+B Project, item 4"
+    quote: >-
+      Fast Responding Regulation Service (FRRS) is no longer a subset of Regulation.
+  - id: e32
+    source: imm-som-2025
+    locator: "page 161 (OCR), Appendix I, Real-Time Co-Optimization, Figure A1 discussion"
+    quote: >-
+      Regulation service has the most expensive offers, consistent with its higher opportunity cost.
+  - id: e33
+    source: imm-som-2025
+    locator: "page 169 (OCR), Table A4: ERCOT 2025 Year at a Glance (Annual), $ millions"
+    quote: >-
+      Regulation Up $11 Regulation Down $6
+  - id: e34
+    source: imm-som-2025
+    locator: "page 62 (OCR), Figure 25 inset table, annual average DAM prices ($ per MWh)"
+    quote: >-
+      Reg-Down | $116.16 $9.64 $15.19 $3.90 $1.79
+  - id: e35
+    source: np-06
+    locator: "Section 6.5.7.6.2.1, Deployment of Regulation Service, paragraph (4)(a)"
+    quote: >-
+      (a) Deployment or recall of a deployment must be accomplished through use of an automatic signal from ERCOT to each QSE provider of Reg-Up and Reg-Down.
+  - id: e36
+    source: np-06
+    locator: "Section 6.4.9.1.1, Ancillary Service Awards, paragraph (1)"
+    quote: >-
+      (1) Ancillary Service awards will be based on Resource capability (qualification, operating limits, Ancillary Service limits, ramp rates, State of Charge (SOC), SOC limits, etc.) and Ancillary Service Demand Curves (ASDCs) regardless of the quantity of Ancillary Service under deployment.
+  - id: e37
+    source: np-06
+    locator: "Section 6.5.7.6.2.1, paragraph (10)"
+    quote: >-
+      (10) Upon the receipt of new Base Points and Ancillary Service awards from SCED, LFC will reset Regulation Service instructions to zero.
 ---
 
 ## Definition
 
-Regulation Up Service (Reg-Up) is a service that provides capacity that can respond to signals from ERCOT within five seconds to respond to changes from scheduled system frequency. [e1] Regulation Down (Reg-Down) is the matching capacity below a Generation Resource's Base Point, down to its low limit, that may be called on to change output to maintain system frequency. [e3]
+Regulation Up Service (Reg-Up) is a service that provides capacity that can respond to signals from ERCOT within five seconds to respond to changes from scheduled system frequency. [e1] Regulation Down Service (Reg-Down) is defined in the Protocols in the same terms, and Reg-Down capacity is the amount available below a Generation Resource's Base Point, down to its low limit. [e16][e3]
 
 ## How it works
 
-ERCOT dispatches regulation by a Load Frequency Control (LFC) signal. A generator or an ESR in discharge mode providing Reg-Up raises output when deployed and lowers it when recalled, while a Load Resource or an ESR in charge mode providing Reg-Up cuts load when deployed and restores it when recalled. [e2] The IMM describes the LFC signal as going out every four seconds. [e9]
+ERCOT dispatches regulation by a Load Frequency Control (LFC) signal, sent through an automatic signal from ERCOT to each QSE provider. [e2][e35] A generator or an ESR in discharge mode providing Reg-Up raises output when deployed and lowers it when recalled, while a Load Resource or an ESR in charge mode providing Reg-Up cuts load when deployed and restores it when recalled. [e2] ERCOT executes LFC every four seconds, which resolves the apparent conflict with the five-second figure: five seconds is the response time the service must meet, and four seconds is how often the control signal is issued. [e15][e1][e9]
 
-Regulation is deployed only for its own function: ERCOT may not substitute one ancillary service for another. [e6] ERCOT is to minimize regulation energy in each SCED cycle, and the energy delivered is settled at the resource's Settlement Point Price. [e4] For each resource providing regulation the implied ramp rate in MW per minute is the regulation award divided by five. [e5]
+Regulation is deployed only for its own function: ERCOT may not substitute one ancillary service for another. [e6] ERCOT is to minimize regulation energy in each SCED cycle, and the energy delivered is settled at the resource's Settlement Point Price. [e4] For each resource providing regulation the implied ramp rate in MW per minute is the regulation award divided by five. [e5] When SCED issues new Base Points and awards, LFC resets regulation instructions to zero. [e37]
+
+
+
+A regulation provider must be qualified. Each Resource takes a test during a continuous 60-minute period agreed in advance, and can qualify for Reg-Up, Reg-Down or both in separate tests. [e18] Resources must be able to deliver the full regulating capacity offered within five minutes. [e17] During the test the Resource's energy deployment performance error (GREDP, CLREDP or ESREDP) must be at or below 3.5% in at least one five-minute interval testing the full amount, and for an ESR the ESREDP must be at or below 3.0% in the remaining test intervals. [e19][e20]
+
+The maximum Reg-Up or Reg-Down a Resource is qualified for is limited to what it can sustain for at least 30 minutes, and the same 30-minute limit applies to the capability the QSE reports to ERCOT. [e29] ERCOT's analysis behind NPRR1282, approved by the PUCT on 31 July 2025, concluded the Regulation and RRS duration requirement should go from 15 to 30 minutes to reduce the risk of ERCOT violating NERC BAL-001 if SCED is not available. [e30]
+
+## Formula
+
+Performance after the fact is measured with the Energy Deployment Performance error. For an ESR, ESREDP (%) is the absolute value of (average telemetered power flow minus the average estimated primary frequency response, divided by the average set point, minus 1) times 100; in MW it is the absolute value of telemetered flow minus estimated primary frequency response minus set point. [e26] An ESR must have ESREDP below the greater of V% or W MW in 85% of the five-minute intervals in the month, and the values of V and W are posted on the ERCOT website within three Business Days of TAC approval. [e27][e28]
 
 ## ERCOT context
 
-Regulation is the product batteries dominate: in 2025 ESRs on average provided 94% of Reg-Up and 86% of Reg-Down. [e8] Regulation volumes in the 2025 AS Plan rose, by 7.4% for Reg-Up and 3.3% for Reg-Down, because of higher five-minute net load forecast error. [e11] The most noteworthy 2025 development for ancillary services was RTC going live in December, after which ERCOT also procures ancillary services in real time. [e10][e12]
+Regulation is the product batteries dominate: in 2025 ESRs on average provided 94% of Reg-Up and 86% of Reg-Down. [e8] Regulation volumes in the 2025 AS Plan rose, by 7.4% for Reg-Up and 3.3% for Reg-Down, because of higher five-minute net load forecast error. [e11]
+
+ERCOT sizes regulation from history: base Reg-Up is the 95th percentile of positive net load forecast error and base Reg-Down the 95th percentile of negative error, for the same month of the previous two years, under the methodology effective 1 January 2026. [e21] If a monthly average CPS1 score is below 140%, ERCOT adds an extra 10% of both Reg-Up and Reg-Down in hours where the score was below 140%. [e22] For 2027 ERCOT staff proposed no change in the Regulation methodology. [e23]
+
+The most noteworthy 2025 development for ancillary services was RTC going live in December, after which ERCOT also procures ancillary services in real time and day-ahead awards are a financial rather than physical obligation. [e10][e12] Under RTC, awards are based on Resource capability including state of charge and on ASDCs. [e36] The Reg-Up ASDC has a maximum demand price of VOLL plus 4,052 $/MWh and a minimum price of 250 $/MWh in the current text. [e24][e25] ERCOT monitors ESR Reg-Up and Reg-Down capability considering the SCED duration requirements. [e14] FRRS is no longer a subset of regulation. [e31]
+
+On prices and cost, the IMM reports annual average DAM clearing prices for Reg-Down of $116.16, $9.64, $15.19, $3.90 and $1.79 per MWh for 2021 to 2025 (OCR reading), and 2025 regulation charges of $11 million for Reg-Up and $6 million for Reg-Down. [e34][e33] The IMM says regulation has the most expensive offers in the real-time market since RTC go-live, consistent with its higher opportunity cost. [e32]
 
 ## Key facts
 
-- Reg-Up provides capacity that can respond to ERCOT signals within five seconds. [e1]
-- ERCOT dispatches Reg-Up by an LFC signal, and regulation capacity responds to LFC instructions; regulation energy is settled at the Resource's Settlement Point Price. [e2][e9][e4]
+- Reg-Up provides capacity that can respond to ERCOT signals within five seconds; LFC runs every four seconds. [e1][e15]
+- ERCOT dispatches Reg-Up by an LFC signal; regulation energy is settled at the Resource's Settlement Point Price. [e2][e4]
 - Implied ramp rate in MW per minute equals the regulation award divided by five. [e5]
+- Qualification: 60-minute test, full capacity deliverable within five minutes, ESREDP at or below 3.0% in test intervals for an ESR. [e18][e17][e20]
+- Qualified and reported quantity is limited to what can be sustained for 30 minutes. [e29]
 - ECRS provides backup to Reg-Up. [e7]
-- 2025: ESRs provided 94% of Reg-Up and 86% of Reg-Down on average. [e8]
+- 2025: ESRs provided 94% of Reg-Up and 86% of Reg-Down on average; Reg-Down averaged $1.79/MWh in the day-ahead market (OCR). [e8][e34]
 
 ## Say it like this
 
@@ -109,7 +254,7 @@ Regulation is the fast frequency-balancing service: resources follow ERCOT's LFC
 
 ## Common confusion
 
-Regulation is not the same as RRS: ERCOT dispatches Reg-Up by an LFC signal, while RRS is used in response to a significant frequency deviation. [e2][e13] Reg-Up and Reg-Down are separate products, and Reg-Down capacity is the amount available below the Base Point. [e3]
+Regulation is not the same as RRS: ERCOT dispatches Reg-Up by an LFC signal, while RRS is used in response to a significant frequency deviation. [e2][e13] Reg-Up and Reg-Down are separate products, and Reg-Down capacity is the amount available below the Base Point. [e3] The five-second response requirement and the four-second LFC cycle are different things. [e1][e15]
 
 ## Questions
 
@@ -125,8 +270,21 @@ ERCOT settles energy provided by Reg-Up and Reg-Down at the resource's Settlemen
 
 Mostly batteries: ESRs provided 94% of Reg-Up and 86% of Reg-Down in 2025 on average. [e8]
 
+### How does a battery qualify for regulation?
+
+It passes a 60-minute test where ERCOT sends random ramp, hold and ramp-down signals, delivers the full amount within five minutes, and keeps ESREDP at or below 3.0% in the test intervals. [e18][e17][e20]
+
+### Why does ERCOT add extra regulation when CPS1 is low?
+
+The AS Methodology says that when the monthly average CPS1 score is under 140%, ERCOT applies an extra 10% of both Reg-Up and Reg-Down in the hours where the score was under 140%. (Guidance: the extra quantity is a margin against poor control performance.) [e22]
+
+### What if SCED were unavailable?
+
+ERCOT's NPRR1282 analysis says the Regulation and RRS duration was raised from 15 to 30 minutes to reduce the risk of violating NERC BAL-001 if SCED is not available. [e30]
+
 ## Open items
 
-- The protocol says response within five seconds, while the IMM describes a four-second LFC signal; not reconciled (also noted under ancillary-services).
-- Deeper pass: regulation qualification and testing (Section 8.1.1.2.1.1), the performance metrics for regulation deployment (Section 8.1.1.4.1) and regulation clearing prices.
-- Deeper pass: how RTC changes regulation pricing (AS co-optimized in SCED) and the DAM award as a financial position.
+- Resolved 2026-11-21: the five-second response requirement and the four-second LFC cycle are different parameters (response time versus signal frequency). [e15][e1]
+- Regulation clearing prices for 2025: the OCR Figure 25 table row for Reg-Up is garbled (the 2025 value reads "-$2.97" beside legend text), so only the Reg-Down row is quoted; verify against the PDF figure.
+- The values of V and W (ESREDP criteria) and X, Y, Z are posted on the ERCOT website and are not in the saved sources.
+- Real-time Reg-Up and Reg-Down clearing prices (MCPCs) since RTC go-live are not quoted; the IMM's Appendix I figures were not legible enough to cite.
