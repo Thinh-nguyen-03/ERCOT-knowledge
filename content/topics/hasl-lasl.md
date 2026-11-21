@@ -11,7 +11,7 @@ depth: deep
 links:
   - to: hsl-lsl
     type: related
-    note: HASL and LASL were limits calculated inside a Resource's sustained limits to hold back capacity committed to Ancillary Service. [e1][e2]
+    note: HASL and LASL were dynamically calculated MW limits on a Resource tied to capacity committed for Ancillary Service. [e1][e2]
   - to: rtc-b
     type: related
     note: The Protocols marked both definitions for deletion upon system implementation of the Real-Time Co-Optimization project. [e3][e4]
@@ -26,10 +26,10 @@ links:
     note: The pre-RTC definition says HASL was also included in the Reliability Unit Commitment optimization. [e5]
   - to: base-point
     type: related
-    note: The HDL and LDL limit the SCED dispatch range around a Resource's telemetered output. [e10]
+    note: HDL is described as the maximum capability of a Resource's SCED dispatch. [e11]
   - to: energy-storage-resource
     type: related
-    note: Post-RTC the limit formulas have separate ESR cases with ONHOLD and ONTEST handling. [e12]
+    note: In the current Section 6.5.7.2 the HDL formulas have a separate ESR paragraph; for an ESR in ONHOLD, HDL = 0. [e12]
 evidence:
   - id: e1
     source: np-02-2024-11
@@ -100,9 +100,9 @@ HASL (High Ancillary Service Limit) and LASL (Low Ancillary Service Limit) are t
 
 ## How it works
 
-In the pre-RTC Protocols, HASL was calculated by the Resource Limit Calculator described in Section 6.5.7.2. [e1] The same definition says HASL was also used in the capacity shortfall ratio share calculations and in the Reliability Unit Commitment optimization, [e5] and that it was not adjusted for Non-Frequency Responsive Capacity (NFRC) as in Section 6.5.7.2. [e14]
+In the pre-RTC Protocols, HASL was calculated by the Resource Limit Calculator described in Section 6.5.7.2. [e1] The same definition says HASL was also used in the capacity shortfall ratio share calculations and in the Reliability Unit Commitment optimization, [e5] and that in those other places it is not adjusted for Non-Frequency Responsive Capacity (NFRC) as it is in Section 6.5.7.2. [e14]
 
-What replaced them: the same Section 6.5.7.2, Resource Limit Calculator, in the current np-06 text calculates the HDL and LDL within four seconds after a change in telemetered Resource-specific attributes. [e10] HDL is described as a dynamically calculated MW upper limit describing the maximum capability of the Resource's SCED dispatch, and it limits the amount of Reg-Up that can be awarded for the next five minutes, restricted by HSL. [e11] For a SCED-dispatchable Generation Resource in the On-Line status codes (other than SHUTDOWN), HDL = Min (POWERTELEM + (NORMRAMPUP * 5), HSLTELEM). [e13] For an ESR in ONHOLD, HDL = 0. [e12] (See the hsl-lsl topic for how Section 3.18 requires HSL to cover Resource-specific Ancillary Service awards.)
+What the current rules compute instead (the saved sources do not say HDL and LDL "replaced" HASL and LASL): the same Section 6.5.7.2, Resource Limit Calculator, in the current np-06 text calculates the HDL and LDL within four seconds after a change in telemetered Resource-specific attributes. [e10] HDL is described as a dynamically calculated MW upper limit describing the maximum capability of the Resource's SCED dispatch, and it limits the amount of Reg-Up that can be awarded for the next five minutes, restricted by HSL. [e11] For a SCED-dispatchable Generation Resource in the On-Line status codes (other than SHUTDOWN), HDL = Min (POWERTELEM + (NORMRAMPUP * 5), HSLTELEM). [e13] For an ESR in ONHOLD, HDL = 0. [e12] (See the hsl-lsl topic for HSL and LSL.)
 
 ## ERCOT context
 
@@ -130,7 +130,7 @@ One related carry-over: in NPRR1290 ERCOT proposed to retain existing Non-Freque
 
 ## Common confusion
 
-(Guidance) Do not confuse them with HSL and LSL, the sustained limits a Resource reports. HASL and LASL were calculated limits that sat inside those and existed only to protect ancillary service capacity. [e1][e2] Also do not confuse them with HDL and LDL, which are the current calculated dispatch limits. [e10]
+(Guidance) Do not confuse them with HSL and LSL, the sustained limits a Resource reports. HASL and LASL were separately defined, dynamically calculated limits tied to capacity committed for Ancillary Service. [e1][e2] Also do not confuse them with HDL and LDL, which are the current calculated dispatch limits. [e10]
 
 ## Questions
 

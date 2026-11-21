@@ -232,6 +232,10 @@ evidence:
     source: np-05
     locator: "Section 5.7.6, RUC Decommitment Charge, paragraph (1)"
     quote: "(1) ERCOT shall charge each QSE a RUC Decommitment Charge, on an LRS basis, all revenues paid as a result of RUC Decommitment Payments, including amounts for RMR Units."
+  - id: e49
+    source: ercot-summer-2026-review
+    locator: "Summer 2026 review, RUC slide, chart footnote"
+    quote: "August data for each year goes through 8/15."
 ---
 
 ## Definition
@@ -266,11 +270,11 @@ Step 5, explain the timing and sign. ERCOT issues the RTM Initial Statement on t
 - 2025 FFSS uplift: $45.9 million, up 36% from $33.8 million in 2024. [e4]
 - 2025 RUC: 5,129 resource-hours; make-whole above $21 million; claw-backs $4.5 million. [e11][e9]
 - 2025 Revenue Neutrality Uplift in the IMM's annual table: $154 million; RENA was $160 million in 2024. [e14][e22][e33]
-- Summer 2026 RUC: 1,313 effective Resource-hours, against 872 in summer 2025 and 148 in summer 2024. [e37]
+- Summer 2026 RUC: 1,313 effective Resource-hours, against 872 in summer 2025 and 148 in summer 2024 (ERCOT's counts, with August data for each year through August 15). [e37][e49]
 
 ## Say it like this
 
-(Guidance) "Uplift is ERCOT passing through reliability costs that the market prices did not cover, such as paying units it ordered on-line, and every load-serving QSE pays its share based on how much load it served in those intervals. The charge is not a penalty on us; it rises when ERCOT relies more on out-of-market actions like RUC and RMR, and we can budget for it per MWh."
+(Guidance) "Uplift is ERCOT passing through reliability costs that the market prices did not cover, such as paying units it ordered on-line, and every load-serving QSE pays its share, mostly based on how much load it served in those intervals (for RUC make-whole, capacity-short QSEs pay first). The charge is not a penalty on us; it rises when ERCOT relies more on out-of-market actions like RUC and RMR, and we can budget for it per MWh."
 
 (Guidance) For a finance audience: "Think of it as a pro-rata pass-through by load share, booked on the day-five statement, trued up on day 55, and possibly again at 180 days."
 
@@ -298,7 +302,7 @@ Not necessarily. The RTM Initial Statement comes on the fifth day and the RTM Fi
 
 ### Why did fewer units opt out of RUC settlement, and why does that matter to us?
 
-NPRR1172 imposed a full rather than partial claw-back on resources that opted out, and the opt-out rate fell below its long-term trend in 2024. [e41] A unit that stays in RUC settlement collects make-whole, which flows to loads by LRS, so fewer opt-outs means more uplift. [e40][e7]
+NPRR1172 imposed a full rather than partial claw-back on resources that opted out, and the opt-out rate fell below its long-term trend in 2024. [e41] A unit that stays in RUC settlement collects make-whole; capacity-short QSEs are charged for it first and any remainder is uplifted to all QSEs by LRS. [e40][e7] (Reasoning) So fewer opt-outs means more make-whole to be charged and uplifted.
 
 ### What if a competitor REP defaults? Do we pay?
 
@@ -306,7 +310,7 @@ Possibly. If short-paid amounts cannot be recovered, ERCOT collects them through
 
 ### Will RUC uplift keep growing, and will its cause stay the same?
 
-The reason has shifted: ERCOT reports 1,313 effective RUC Resource-hours in summer 2026, more than the previous two summers, largely to address capacity needs and ensure sufficient Ancillary Service quantities, and in October 2026 99.4% of RUC hours were for capacity. [e37][e38][e39] Under NPRR1309, once implemented, DRRS deployments will not qualify for RUC Make-Whole Payments. [e43]
+The reason has shifted: ERCOT reports 1,313 effective RUC Resource-hours in summer 2026 (August counted through August 15), more than the previous two summers, largely to address capacity needs and ensure sufficient Ancillary Service quantities, and in October 2026 99.4% of RUC hours were for capacity. [e37][e49][e38][e39] Under NPRR1309, once implemented, DRRS deployments will not qualify for RUC Make-Whole Payments. [e43]
 
 ### Why does RENA move with congestion?
 

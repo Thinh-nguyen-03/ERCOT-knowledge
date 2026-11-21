@@ -154,11 +154,11 @@ The 2021 FERC-NERC staff report states that ERCOT's wholesale energy market is n
 
 ## Say it like this
 
-(Guidance) FERC does not regulate ERCOT's wholesale energy market, because the power moves wholly within Texas; the PUCT does. [e1] FERC's reliability role runs through NERC, which FERC certified as the Electric Reliability Organization, and the Texas Regional Entity sits in that structure. [e2][e16][e20]
+(Guidance) FERC does not regulate ERCOT's wholesale energy market, because the power moves wholly within Texas. [e1] FERC's reliability role runs through NERC, which FERC certified as the Electric Reliability Organization, and the Texas Regional Entity sits in that structure. [e2][e16][e20]
 
 ## Common confusion
 
-(Guidance) "Not regulated by FERC" refers to the wholesale energy market. It does not mean ERCOT has no reliability role or is outside federal reliability standards: the report describes ERCOT as a Reliability Coordinator among the system operators in the event area, and FERC's reliability authority comes from a separate statute section. [e1][e4][e3] Also do not read the report's general statement that ISOs and RTOs are regulated by FERC as covering ERCOT; its footnote makes the ERCOT exception. [e18]
+(Guidance) "Not regulated by FERC" refers to the wholesale energy market. It does not mean ERCOT has no reliability role: the report describes ERCOT as a Reliability Coordinator among the system operators in the event area, and FERC's reliability authority comes from a separate statute section. [e1][e4][e3] Also do not read the report's general statement that ISOs and RTOs are regulated by FERC as covering ERCOT; its footnote makes the ERCOT exception. [e18]
 
 ## Questions
 
