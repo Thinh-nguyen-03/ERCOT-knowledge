@@ -29,13 +29,13 @@ links:
     note: A Generation Resource's day-ahead Energy Offer Curve is bounded by the LSL and HSL specified in the COP. [e7]
   - to: dam
     type: used-in
-    note: For the DAM and DRUC initial state, the COP supplies Resource status, and a missing valid COP makes a Generation Resource OUT for DAM awards. [e15]
+    note: A missing valid COP makes a Generation Resource OUT, so it is not available for DAM awards or RUC commitments for those hours. [e15]
   - to: energy-storage-resource
     type: related
     note: An ESR's COP carries MinSOC, MaxSOC and HBSOC, which must follow stated consistency rules. [e12][e17]
   - to: rmr
     type: related
-    note: The EMR status is for Resources whose operation cannot be monetized in the offer or that ERCOT contracted under Section 3.14.1 Reliability Must-Run. [e16]
+    note: The EMR status is for Resources whose operation cannot be monetized in the offer or that ERCOT contracted under Section 3.14.1 or paragraph (5) of Section 6.5.1.1. [e16]
   - to: operating-notices
     type: related
     note: An OCN, Advisory, Watch or Emergency Notice for weather triggers a duty to update the COP for Resource-specific limits. [e13]
@@ -167,6 +167,22 @@ evidence:
     source: np-05
     locator: "Section 5.5.2, Reliability Unit Commitment (RUC) Process, paragraph (4)"
     quote: "For all hours of the RUC Study Period within the RUC process, Quick Start Generation Resources (QSGRs) with a COP Resource Status of OFFQS shall be considered as On-Line with Low Sustained Limit (LSL) at zero MW."
+  - id: e33
+    source: np-03
+    locator: "Section 3.9, paragraph (3)"
+    quote: "ERCOT shall monitor the accuracy of each QSE’s COP as outlined in Section 8, Performance Monitoring."
+  - id: e34
+    source: np-03
+    locator: "Section 3.9.1, paragraph (5)(b)(i)(G), SHUTDOWN"
+    quote: "SHUTDOWN – The Resource is On-Line and in a shutdown sequence, and is not eligible for an Ancillary Service award. This Resource Status is only to be used for Real-Time telemetry purposes;"
+  - id: e35
+    source: np-03
+    locator: "Section 3.9.1, paragraph (5)(b)(i)(K), ONHOLD"
+    quote: "ONHOLD – Resource is On-Line but temporarily unavailable for Dispatch by SCED or Ancillary Service awards. This Resource Status is only to be used for Real-Time telemetry purposes."
+  - id: e36
+    source: np-03
+    locator: "Section 3.9.1, paragraph (5)(c) to (g)"
+    quote: "(c) The HSL;"
 
 ---
 
@@ -178,7 +194,7 @@ The Current Operating Plan (COP) is a QSE's plan reflecting anticipated operatin
 
 Every QSE that represents a Resource must submit a COP. [e2] ERCOT uses the information to calculate operating limits and Ancillary Service capabilities for each Resource for the RUC processes. [e3] QSEs report changes by exception for all hours after the Operating Period through the rest of the Operating Day, [e4] and must submit a revised COP no later than 60 minutes after an event that changes Resource availability. [e8] The 60-minute duty has one exception: a QSE is excused from timely updates only while compliance would create an undue threat to safety, undue risk of bodily harm or undue damage to equipment. [e14] When a COP changes Resource Status, the QSE must update the Energy Offer Curve or Output Schedule for each On-Line Resource. [e5]
 
-What the COP must contain (Section 3.9.1): the COP must show each Resource's ability to provide each Ancillary Service by product and sub-type, [e11] along with the Resource Status, HSL, LSL, emergency limits and Ancillary Service MW (see the Key facts below for the status codes). For an ESR, the QSE must also keep the Hour Beginning Planned State of Charge (HBSOC) for any two consecutive hours feasible given the ESR's maximum rate of charge or discharge, [e12] and the COP values for an hour must follow three rules: MinSOC at or above the nameplate minimum, MaxSOC at or below the nameplate maximum, and HBSOC between MinSOC and MaxSOC. [e17]
+What the COP must contain (Section 3.9.1): the COP must show each Resource's ability to provide each Ancillary Service by product and sub-type, [e11] along with the Resource name, expected Resource Status, HSL, LSL, High and Low Emergency Limits and Ancillary Service capability in MW for each product and sub-type under paragraph (5) of Section 3.9.1 (see the Key facts below for the status codes). [e36] For an ESR, the QSE must also keep the Hour Beginning Planned State of Charge (HBSOC) for any two consecutive hours feasible given the ESR's maximum rate of charge or discharge, [e12] and the COP values for an hour must follow three rules: MinSOC at or above the nameplate minimum, MaxSOC at or below the nameplate maximum, and HBSOC between MinSOC and MaxSOC. [e17]
 
 Resource-class specifics: for a Qualifying Facility, the LSL must represent the minimum energy available for economic dispatch based on the minimum stable steam delivery to the thermal host plus a justifiable reliability margin. [e30] For the first 168 hours of the COP, ERCOT updates wind and solar HSL values with the most recent short-term forecasts; a QSE may override but must submit an HSL no higher than the most recent ERCOT forecast for that Resource. [e25][e26] For Combined Cycle Resources the items are required for each operating configuration, and only one Combined Cycle Generation Resource in a Train may be assigned an On-Line status in each hour. [e23] If a COP shows several as On-Line during a RUC study period, ERCOT treats the one with the largest HSL as On-Line and the rest as Off-Line until the QSE corrects the COP. [e24]
 
@@ -188,11 +204,11 @@ Validation (Section 3.9.2): ERCOT verifies each COP on submission and notifies t
 
 For Resource Status, SCED does not use the COP: SCED uses telemetered Resource Status validated by the Real-Time Sequence instead of the COP Resource Status. [e6] The COP still matters in the day-ahead market because a Generation Resource's Energy Offer Curve is bounded in the DAM by the LSL and HSL specified in the COP. [e7] If no valid COP exists for a Generation Resource for an hour in the DAM or RUC study period, the Resource is treated as OUT and is not available for DAM awards or RUC commitments for those hours. [e15]
 
-RUC links: a QSE during the RUC Security Sequence must submit an updated COP before 1430 in the Day-Ahead, [e31] and QSEs must show a RUC-committed Resource as ONRUC. [e9] For RUC, a Quick Start Generation Resource with a COP status of OFFQS is considered On-Line with LSL at zero MW. [e32]
+RUC links: a QSE during the RUC Security Sequence must submit an updated COP before 1430 in the Day-Ahead, [e31] and a QSE must show a Resource committed by RUC for all RUC-Committed Intervals as On-Line with a Resource Status of ONRUC. [e9] For RUC, a Quick Start Generation Resource with a COP status of OFFQS is considered On-Line with LSL at zero MW. [e32]
 
 Weather: when ERCOT issues an OCN, Advisory, Watch or Emergency Notice for forecast or actual cold or hot weather, the QSE must update the COP, telemetry and outage or derate reporting for each Generation Resource and ESR it represents to reflect Resource-specific limits on capability, fuel supply or environmental constraints. [e13]
 
-Accuracy monitoring: ERCOT monitors COP accuracy under Section 8 (Section 3.9, paragraph (3) points there). [e10] Under Section 8.1.2, ERCOT posts monthly, for each QSE, the Operating Hours in which a RUC-committed Resource not Off-Line from a Forced Outage failed to be On-Line and released to SCED within the first 15 minutes of the RUC-Commitment Hour; QSEs shall have no more than three such hours in an Operating Day and no more than 74 hours in a month that contains one or more of these events. [e10]
+Accuracy monitoring: ERCOT monitors the accuracy of each QSE's COP as outlined in Section 8, Performance Monitoring. [e33] Under Section 8.1.2, COP Performance Requirements, ERCOT posts monthly, for each QSE, the Operating Hours in which a RUC-committed Resource not Off-Line from a Forced Outage failed to be On-Line and released to SCED within the first 15 minutes of the RUC-Commitment Hour; QSEs shall have no more than three such hours in an Operating Day and no more than 74 hours in a month that contains one or more of these events. [e10]
 
 ## Key facts
 
@@ -216,7 +232,7 @@ The COP is the QSE's rolling seven-day plan for each unit: whether it is on, its
 
 - COP versus offers: the COP states status and capability; prices live in the offer. A status change in the COP requires a matching offer update. [e5]
 - COP versus real-time status: SCED does not read the COP status. [e6]
-- COP versus telemetry: some codes (SHUTDOWN, STARTUP, ONHOLD) are described as for Real-Time telemetry purposes only. The source says SHUTDOWN and STARTUP are only to be used for Real-Time telemetry purposes; they are not COP entries.
+- COP versus telemetry: the generation status list says its codes are used for COP and/or Real-Time telemetry purposes as appropriate, but SHUTDOWN and ONHOLD are each stated to be only for Real-Time telemetry purposes. [e34][e35]
 - ONRUC versus ON: ONRUC marks hours where RUC committed the Resource; ON is an On-Line Resource with an Energy Offer Curve. [e22]
 
 ## Questions
@@ -247,7 +263,7 @@ ERCOT updates the HSL with the short-term forecast for the first 168 hours, and 
 
 ### How is COP accuracy measured?
 
-ERCOT monitors it under Section 8; one published measure is the monthly count of hours when a RUC-committed Resource failed to be On-Line and released to SCED within the first 15 minutes of the RUC-Commitment Hour, with limits of three hours per Operating Day and 74 hours per month with events. [e10]
+ERCOT monitors it under Section 8 [e33]; one measure in Section 8.1.2 is the monthly count of hours when a RUC-committed Resource failed to be On-Line and released to SCED within the first 15 minutes of the RUC-Commitment Hour, with limits of three hours per Operating Day and 74 hours per month with events. [e10]
 
 ## Scenarios
 

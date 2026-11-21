@@ -41,7 +41,7 @@ links:
     note: The magnitude criterion is tied to the maximum load shed that can be safely rotated, which ERCOT determines by surveying transmission operators. [e4][e30]
   - to: large-load-growth
     type: related
-    note: ERCOT said the Batch Zero load work delayed its final load forecast and the 2027 magnitude filing. [e31]
+    note: ERCOT said the ongoing Batch Zero load work meant it did not yet have a final load forecast, and asked to file the 2027 magnitude by the second quarter of 2027. [e31][e42]
   - to: drrs
     type: related
     note: ERCOT's board-item comments say the 2026 reliability assessment will determine whether further market design changes are needed and that DRRS is among the options. [e37]
@@ -210,6 +210,22 @@ evidence:
     source: puct-59772-order
     locator: "PUCT Project 59772, Order Granting ERCOT's Load Forecast Adjustment Request, page 1"
     quote: "Adjustment using Batch Zero Base Load per Planning Guide Revision Request (PGRR) 145"
+  - id: e42
+    source: ercot-ltlf-good-cause-2026-11
+    locator: "ERCOT Motion for Good Cause Exception Regarding 2027 Magnitude, Section II"
+    quote: "ERCOT anticipates that the updated magnitude could be filed no later than the second quarter of 2027 after issuing RFIs near the end of the first quarter of 2027."
+  - id: e43
+    source: imm-som-2025
+    locator: "Resource Adequacy chapter, section F, Additional Notes on the RSA"
+    quote: "The reliability standard is significant because it creates a formal pathway to consider a broad range of market design options to improve reliability in ERCOT."
+  - id: e44
+    source: ercot-ltlf-2026-adjust-proposal
+    locator: "ERCOT Proposal to Adjust the Load Forecast, Option B discussion"
+    quote: "ERCOT recommends that the Batch Zero adjustment option is justified because the benefit of a more reliable load forecast outweighs the cost of the additional time required."
+  - id: e45
+    source: ercot-ltlf-2026-adjust-proposal
+    locator: "ERCOT Proposal to Adjust the Load Forecast, Background"
+    quote: "In its April 15th filing, ERCOT indicated that it had concerns with using these values in the Reliability Assessment and any other transmission and resource adequacy analysis."
 ---
 
 ## Definition
@@ -228,11 +244,11 @@ The ERCOT reliability standard is set in PUCT rule 16 TAC 25.508. The ERCOT bulk
 
 ## ERCOT context
 
-The IMM says SB 3, passed after Winter Storm Uri, directed the PUCT to develop a formal reliability standard, which is the basis of the standard in 25.508. [e9] ERCOT's 2025 annual report says it supported the PUCT in developing ERCOT's first empirical reliability standard and would conduct an inaugural probability-based assessment in 2026. [e38]
+The IMM says SB 3, passed after Winter Storm Uri, directed the PUCT to develop a formal reliability standard, and that the PUCT rule setting the standard is 16 TAC 25.508. [e9][e10] ERCOT's 2025 annual report says it supported the PUCT in developing ERCOT's first empirical reliability standard and would conduct an inaugural probability-based assessment in 2026. [e38]
 
-For the 2026 assessment (PUCT Project No. 58777), per the IMM, ERCOT is using modeling assumptions filed in January 2026, which stakeholders and the PUC reviewed in February and March, with PUC staff final recommendations filed in April 2026. [e24] The IMM's report said the results were due in August 2026 along with market design options if the model suggested the standard would not be met in 2029. [e11] That schedule has since slipped: ERCOT used the Long-Term Load Forecast as the load input for the assessment, then asked to adjust it, and its adjustment proposal said that using the Batch Zero option would delay results until November or December 2026. [e26][e27] The PUCT approved ERCOT's request to adjust the LTLF using the Option B methodology, which the order describes as adjustment using Batch Zero Base Load per PGRR 145. [e28][e41] ERCOT's board-item comments in May 2026 said results were targeted for fall 2026 and would determine whether further market design changes are needed, with DRRS among the options. [e37] The saved sources do not contain the assessment results.
+For the 2026 assessment (PUCT Project No. 58777), per the IMM, ERCOT is using modeling assumptions filed in January 2026, which stakeholders and the PUC reviewed in February and March, with PUC staff final recommendations filed in April 2026. [e24] The IMM's report said the results were due in August 2026 along with market design options if the model suggested the standard would not be met in 2029. [e11] That schedule has since slipped: ERCOT recommended the Long-Term Load Forecast as the load input for the assessment, said it had concerns with using its values, and proposed to adjust it; its adjustment proposal said that using the Batch Zero option would delay results until November or December 2026. [e26][e45][e27] The PUCT approved ERCOT's request to adjust the LTLF using the Option B methodology, which the order describes as adjustment using Batch Zero Base Load per PGRR 145. [e28][e41] ERCOT's board-item comments in May 2026 said results were targeted for fall 2026 and would determine whether further market design changes are needed, with DRRS among the options. [e37] The saved sources do not contain the assessment results.
 
-The IMM calls the standard a formal pathway to consider market design options, argues that meeting it through price signals alone would imply an extraordinarily high VOLL in an energy-only market, and says the RSA's final recommendations are not expected to rely exclusively on a higher VOLL. [e10][e25] It also asks the PUCT to clarify whether the standard is a binding requirement or an aspirational benchmark. [e12] The IMM notes that a mandatory standard creates imposed demand for installed capacity that can drive investment. [e36]
+The IMM says the standard creates a formal pathway to consider a broad range of market design options, argues that meeting it through price signals alone would imply an extraordinarily high VOLL in an energy-only market, and says the RSA's final recommendations are not expected to rely exclusively on a higher VOLL. [e43][e10][e25] It also asks the PUCT to clarify whether the standard is a binding requirement or an aspirational benchmark. [e12] The IMM notes that a mandatory standard creates imposed demand for installed capacity that can drive investment. [e36]
 
 **Relationship to CDR and MORA.** The CDR is a planning report: PUCT rule 25.505 requires an annual resource adequacy report projecting at least five years ahead. [e39] ERCOT says the CDR's ELCC method aligns it with how inverter-based resources are represented in the probabilistic model to be used for the reliability standard analysis, and that the CDR is not meant to characterize capacity scarcity risk from a real-time operations perspective. [e32][e33] The IMM describes the CDR as a planning tool, unlike the near-term MORA. [e35] The IMM also analysed MORA reports and found they implied a minimum annual probability of firm load shed of approximately 49% for 2025 while no such event had occurred in over five years, which it called implausibly high; that is an IMM empirical check of MORA and not a test under the standard. [e34]
 
@@ -243,7 +259,7 @@ The IMM calls the standard a formal pathway to consider market design options, a
 - Magnitude: expected highest load shed below the maximum that can be safely rotated; the 2026 value is 13,988 MW. [e4][e29]
 - Assessment at least once every three years, beginning January 1, 2026. [e6]
 - If deficiencies are identified, ERCOT proposes market design changes with expected system costs; the IMM reviews them and the PUCT decides whether changes are needed. [e7][e23][e13][e14]
-- The magnitude value is filed by December 1 each year; ERCOT sought a good cause exception on November 6, 2026 to file the 2027 value by the second quarter of 2027. [e16][e31]
+- The magnitude value is filed by December 1 each year; ERCOT sought a good cause exception on November 6, 2026 to file the 2027 value by the second quarter of 2027. [e16][e31][e42]
 
 ## Timeline
 
@@ -251,9 +267,9 @@ The IMM calls the standard a formal pathway to consider market design options, a
 - 2024: the annual magnitude filing begins (on or before December 1). [e16]
 - January 1, 2026: ERCOT must begin the first assessment. [e6]
 - January to April 2026: modeling assumptions filed (January), reviewed (February and March), PUC staff final recommendations (April), per the IMM. [e24]
-- April 15, 2026: ERCOT files the preliminary LTLF recommended as the assessment load input. [e26]
+- April 15, 2026: ERCOT files the LTLF it recommended as the assessment load input. [e26]
 - June 2026: PUCT order approves adjusting the LTLF using the Batch Zero based Option B. [e28]
-- November 6, 2026: ERCOT asks for a good cause exception to file the 2027 magnitude by the second quarter of 2027, because the final load forecast for winter 2026-2027 is not ready. [e31]
+- November 6, 2026: ERCOT asks for a good cause exception to file the 2027 magnitude by the second quarter of 2027, because the final load forecast for winter 2026-2027 is not ready. [e31][e42]
 
 ## Say it like this
 
@@ -283,11 +299,11 @@ The criterion compares simulated load shed with the most that can be safely rota
 
 ### What if the final load forecast is not ready when the magnitude filing is due?
 
-ERCOT's November 2026 motion argues that without a final winter 2026-2027 peak forecast the transmission operators cannot answer the RFI, and asks to file by the second quarter of 2027. [e31] The saved sources do not show the PUCT's ruling on that motion.
+ERCOT's November 2026 motion argues that without a final winter 2026-2027 peak forecast the transmission operators cannot answer the RFI, and asks to file by the second quarter of 2027. [e31][e42] The saved sources do not show the PUCT's ruling on that motion.
 
 ### Why did ERCOT's assessment timeline move?
 
-ERCOT recommended the LTLF as the load input, then had concerns with using its preliminary values and proposed adjustments; ERCOT said its preferred Batch Zero option would delay results to November or December 2026 but improve the forecast. [e26][e27] The PUCT approved that option. [e28]
+ERCOT recommended the LTLF as the load input, then said it had concerns with using its values and proposed adjustments; ERCOT said its preferred Batch Zero option would delay results to November or December 2026 but that the benefit of a more reliable load forecast outweighs the added time. [e26][e45][e27][e44] The PUCT approved that option. [e28]
 
 ### How does the standard relate to the CDR?
 
