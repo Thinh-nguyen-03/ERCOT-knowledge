@@ -29,13 +29,13 @@ links:
     note: A provider of last resort must offer the standard retail service package to any requesting customer and to customers of a REP that fails to serve them. [e34][e35]
   - to: mass-transition
     type: causes
-    note: ERCOT initiates a Mass Transition of an LSE's ESI IDs when a market participant that is also an LSE has its rights revoked or agreements terminated. [e37]
+    note: ERCOT initiates a Mass Transition of the ESI IDs of a breaching market participant that is also an LSE when its rights are revoked or agreements terminated. [e37]
   - to: credit-tpe
     type: related
-    note: A REP's ERCOT credit is governed through its QSE and Counter-Party exposure; see the topic for the TPE mechanics. [e6]
+    note: ERCOT must approve a REP's QSE designation before the CR enrolls Customer ESI IDs; see the topic for credit and TPE mechanics. [e6]
   - to: retail-hedging
     type: related
-    note: Wholesale indexed products may not be offered to residential or small commercial customers, which shapes what a REP must hedge. [e28]
+    note: Wholesale indexed products may not be offered to residential or small commercial customers. [e28]
   - to: retailer-defaults-2021
     type: related
     note: See the case topic for the 2021 retailer failures.
@@ -50,11 +50,11 @@ evidence:
     quote: "A person that sells electric energy to retail customers in this state. A retail electric provider may not own or operate generation assets."
   - id: e3
     source: puct-25-107
-    locator: "Section 25.107(b)(1)(A)"
+    locator: "Section 25.107(a)(1)(A)"
     quote: "A person must obtain a REP certificate under this section before purchasing, taking title to, or reselling electricity to provide retail electric service."
   - id: e4
     source: puct-25-107
-    locator: "Section 25.107(b)(1)(A)"
+    locator: "Section 25.107(a)(1)(A)"
     quote: "A person may certify as an Option 1 REP, Option 2 REP, or Option 3 REP under this section."
   - id: e5
     source: pura-39
@@ -86,7 +86,7 @@ evidence:
     quote: "Additionally, a REP must demonstrate certification by P.U.C. SUBST. R. 25.107, Certification of Retail Electric Providers (REPs), and comply with the remaining requirements of this Section."
   - id: e12
     source: puct-25-107
-    locator: "Section 25.107(b)(1)(B)"
+    locator: "Section 25.107(a)(1)(B)"
     quote: "A REP that outsources retail electric service functions is responsible for those functions in accordance with all applicable laws and commission rules for all activities conducted on its behalf by any third-party provider."
   - id: e13
     source: np-02
@@ -196,11 +196,11 @@ A REP is an entity that sells electric energy to retail customers in Texas but d
 
 ## How it works
 
-**Two layers: PUCT certification and ERCOT registration.** A person must obtain a REP certificate from the PUCT before purchasing, taking title to, or reselling electricity to provide retail electric service, and may certify as an Option 1, Option 2 or Option 3 REP. [e3][e4] PURA requires the applicant to show financial and technical resources, managerial and technical ability, resources to meet customer protection requirements, and an office in Texas. [e9] A REP that outsources functions remains responsible for them. [e12]
+**Two layers: PUCT certification and ERCOT registration.** A person must obtain a REP certificate from the PUCT before purchasing, taking title to, or reselling electricity to provide retail electric service, and may certify as an Option 1, Option 2 or Option 3 REP. [e3][e4] PURA's general certification test is that the applicant demonstrates financial and technical resources, managerial and technical ability, resources to meet customer protection requirements, and an office in Texas; the statute separately provides a narrower route for serving only customers of one megawatt or more who file affidavits (not quoted here). [e9] A REP that outsources functions remains responsible for them. [e12]
 
 **The three certificate options.** In the PUCT's rule an Option 1 REP provides its offerings to any customer class based on geographic service area; an Option 2 REP limits its offerings to specifically identified customers, each contracting for one megawatt or more of capacity; an Option 3 REP sells exclusively to a retail customer other than a small commercial or residential customer, from a distributed generation facility owned by a registered power generation company on the same geographic site. [e16] An Option 2 applicant files a notarized affidavit that it will contract only for one megawatt or more, and must file a notarized affidavit from each customer, stating the customer understands and accepts the REP's ability to provide continuous and reliable service based on its financial, managerial and technical resources. [e17]
 
-**Option 1 financial requirements.** The ongoing financial requirements apply to Option 1 REPs and not to Option 2 or 3. [e18] An Option 1 REP must show access to capital through either a commission-approved irrevocable guaranty agreement, from an affiliate, an investment-grade financial institution or a power supplier, with the guarantor holding an investment-grade rating or meeting tangible net worth, current ratio and debt-to-capitalization tests, [e19] or an irrevocable stand-by letter of credit sized by the number of ESI IDs served: $750,000 below 50,000 ESI IDs and $1,500,000 at 50,000 or more, in the rule text saved here (the footer reads "effective 11/4/2026"). [e20] For its first 24 months serving load, a REP may not make a distribution that leaves shareholders' equity below one million dollars, and the prescribed equity requirement lapses after 24 continuous months of serving load. [e21] Customer deposits must be covered at 100% at each calendar month close by an escrow account, segregated cash account or letter of credit. [e22] A REP must notify the PUCT within three working days of a bankruptcy filing, an involuntary bankruptcy proceeding or other insolvency, including default with the independent organization or a TDU. [e23]
+**Option 1 financial requirements.** The ongoing financial requirements apply to Option 1 REPs and not to Option 2 or 3. [e18] An Option 1 REP must show access to capital through either a commission-approved irrevocable guaranty agreement, from an affiliate, an investment-grade financial institution or a power supplier, with the guarantor holding an investment-grade rating or meeting tangible net worth, current ratio and debt-to-capitalization tests, [e19] or an irrevocable stand-by letter of credit sized by the number of ESI IDs served: $750,000 below 50,000 ESI IDs and $1,500,000 at 50,000 or more, in the rule text saved here (the footer reads "effective 11/4/2026"). [e20] The letter-of-credit option comes with a shareholders' equity condition: for its first 24 months serving load, a REP may not make a distribution that leaves shareholders' equity below one million dollars, and the prescribed equity requirement lapses after 24 continuous months of serving load. [e21] A REP certified to collect customer deposits must keep them covered at 100% at each calendar month close by an escrow account, segregated cash account or letter of credit. [e22] A REP must notify the PUCT within three working days of a bankruptcy filing, an involuntary bankruptcy proceeding or other insolvency, including default with the independent organization or a TDU. [e23]
 
 **At ERCOT.** A REP is a Competitive Retailer and so an LSE, and it must demonstrate PUCT certification under Section 25.107. [e13][e11] It must have a QSE, and ERCOT must approve the QSE designation before the CR enrolls Customer ESI IDs. [e6] All CRs must complete Retail Market Testing before commencing operations with ERCOT. [e15] Each ESI ID has at most one REP of record at a time. [e8]
 
@@ -221,7 +221,7 @@ REPs exist because retail customers in Texas, other than customers of non-opted-
 
 PURA requires the PUCT to designate REPs as providers of last resort in areas where customer choice is in effect. [e10] A provider of last resort offers a standard retail service package at a fixed, nondiscountable rate approved by the commission to any requesting customer, [e34] and if a REP fails to serve any or all of its customers, the provider of last resort offers them that package with no interruption of service. [e35]
 
-If ERCOT revokes a market participant's rights or terminates its agreements and the participant is also an LSE, ERCOT initiates a Mass Transition of its ESI IDs without needing a PUCT order. [e37]
+Where a breaching market participant is also an LSE, on revocation of some or all of its rights or termination of its agreements, and on notice to the participant and the PUCT, ERCOT shall initiate a Mass Transition of its ESI IDs without needing a PUCT order. [e37]
 
 ## Key facts
 
@@ -267,7 +267,7 @@ PURA says the provider of last resort offers those customers the standard retail
 
 ### A REP's ERCOT rights are revoked after a payment default. What happens to its customers?
 
-- ERCOT may revoke rights and terminate agreements, and where the participant is also an LSE it initiates a Mass Transition of its ESI IDs without a PUCT order. [e37]
+- Where the breaching participant is also an LSE, on revocation of rights or termination of agreements and on notice to it and the PUCT, ERCOT initiates a Mass Transition of its ESI IDs without a PUCT order. [e37]
 - Customers of a failed REP are offered the provider of last resort's standard retail service package with no interruption of service. [e35]
 
 ## Open items

@@ -23,7 +23,7 @@ links:
     note: The hub price is the Settlement Point Price at the Hub. [e3]
   - to: load-zone
     type: contrasts-with
-    note: A Load Zone price is a Load-weighted average of bus LMPs, while a Hub price is an unweighted average of Hub Bus prices. [e8][e19]
+    note: A Load Zone LMP is based on state-estimated Loads and bus LMPs, while a Hub price is an unweighted average of Hub Bus prices. [e29][e19]
   - to: block-products
     type: used-in
     note: ICE lists monthly peak and off-peak ERCOT North 345KV real-time contracts that settle on the ERCOT-published price for the North 345 kV Hub. [e22][e23]
@@ -152,6 +152,38 @@ evidence:
     source: imm-som-2025
     locator: "page 29 (OCR), Chapter II.C, Table 1, West row ($ per MWh, 2021 to 2025); Load Zone prices"
     quote: "West $111.56 $66.62 $67.56 $35.88 $41.59"
+  - id: e29
+    source: np-06
+    locator: "Section 6.6.1.4, paragraph (1), Load Zone LMPs"
+    quote: "The Load Zone LMP is based on the state-estimated Loads in MW and the Real-Time LMPs at the Electrical Buses included in the Load Zone."
+  - id: e30
+    source: imm-som-2025
+    locator: "page 29 (OCR), Chapter II.C, Zonal Energy Prices, text above Table 1"
+    quote: "Table | lists the annual load-weighted average prices for each zone for 2021-2025."
+  - id: e31
+    source: np-03
+    locator: "Section 3.5.2.1, paragraph (4), variable definitions, HUBDF and HBDF"
+    quote: "HUBDF _(hb, North345) = IF(HB _(North345)=0, 0, 1 / HB _(North345))"
+  - id: e32
+    source: np-03
+    locator: "Section 3.5.2.1, paragraph (4), variable definitions, B"
+    quote: "The total number of energized Electrical Buses in Hub Bus hb."
+  - id: e33
+    source: np-03
+    locator: "Section 3.5.2.1, paragraph (4), variable definitions, HB"
+    quote: "The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus."
+  - id: e34
+    source: np-03
+    locator: "Section 3.5.2.1, paragraph (4), variable definitions, RTRDP"
+    quote: "Real-Time Reliability Deployment Price for Energy"
+  - id: e35
+    source: np-03
+    locator: "Section 3.5.2.1, pending box after paragraph (4)"
+    quote: "[NPRR1057: Replace paragraph (4) above with the following upon system implementation:]"
+  - id: e36
+    source: np-03
+    locator: "Section 3.5.2.7, pending box (NPRR941) replacing paragraph (1)"
+    quote: "The Panhandle 345 kV Hub and the Lower Rio Grande Valley 138/345 kV Hub are not included in the ERCOT Bus Average 345 kV Hub price."
 ---
 
 ## Definition
@@ -166,21 +198,23 @@ From bus to hub price in real time. In the real-time market a Hub Bus is an ener
 
 Day-ahead. The day-ahead price uses the aggregated Shift Factors of the Hub Buses for each hour of the DAM. [e3]
 
-Fallbacks. If no Hub Bus has an energized component, the Protocol sets the North hub price equal to the ERCOT Bus Average 345 kV Hub price, in both the day-ahead formula and the real-time formula. [e16][e17]
+Fallbacks. If no Hub Bus has an energized component (in the base case for the day-ahead formula), the Protocol sets the North hub price equal to the ERCOT Bus Average 345 kV Hub price, in both the day-ahead formula and the real-time formula. [e16][e17]
 
-Floor. The real-time hub formula is written with a floor of -$251, applied as Max[-$251, (RTRDP + ...)], where RTRDP is the Real-Time Reliability Deployment Price for Energy. [e18] The Protocol states the same administrative floor of -$251/MWh for Real-Time Settlement Point Prices after adding the Reliability Deployment Price Adders for Energy. [e20]
+Floor. The real-time hub formula is written with a floor of -$251, applied as Max[-$251, (RTRDP + ...)], where RTRDP is the Real-Time Reliability Deployment Price for Energy. [e18][e34] The Protocol states the same administrative floor of -$251/MWh for Real-Time Settlement Point Prices after adding the Reliability Deployment Price Adders for Energy. [e20]
 
 ## Formula
 
-The Protocol gives the real-time North hub price per 15-minute Settlement Interval as the floor (Max[-$251, ...]) applied to the Real-Time Reliability Deployment Price plus the sum over Hub Buses of the Hub Distribution Factor times the time-weighted Hub Bus price. [e18] The distribution factors are equal weights: the Hub Distribution Factor for a Hub Bus is one divided by the number of Hub Buses with an energized component, and the Hub Bus Distribution Factor for an Electrical Bus is one divided by the number of energized Electrical Buses in the Hub Bus (the Protocol writes the Hub Bus Distribution Factor as IF(B=0, 0, 1/B)). [e28] The equal weighting is what "simple average" means in the Protocol sentence. [e3]
+The Protocol gives the real-time North hub price per 15-minute Settlement Interval as the floor (Max[-$251, ...]) applied to the Real-Time Reliability Deployment Price plus the sum over Hub Buses of the Hub Distribution Factor times the time-weighted Hub Bus price. [e18] The distribution factors are equal weights: the Hub Distribution Factor for a Hub Bus is one divided by the number of Hub Buses with an energized component (zero if there are none), and the Hub Bus Distribution Factor for an Electrical Bus is one divided by the number of energized Electrical Buses in the Hub Bus (the Protocol writes it as IF(B=0, 0, 1/B)). [e31][e33][e28][e32] The equal weighting is what "simple average" means in the Protocol sentence. [e3]
+
+Pending change: the saved Protocol text carries a pending box, NPRR1057, that would replace this paragraph (4) formula upon system implementation; the formula above is the text currently in force, and the replacement is not described here. [e35]
 
 ## ERCOT context
 
-North 345 is one of four hubs whose prices are averaged into the ERCOT Hub Average 345 kV Hub price (the others are South, Houston and West); the Panhandle 345 kV Hub is excluded. [e5] The ERCOT Bus Average 345 kV Hub is built from all the Hub Buses of those same four hubs, again excluding Panhandle. [e21] ERCOT's display shows both as Settlement Points, HB_BUSAVG and HB_HUBAVG, next to HB_NORTH. [e9]
+In real time, North 345 is one of four hub prices averaged into the ERCOT Hub Average 345 kV Hub price (the others are South, Houston and West); the Panhandle 345 kV Hub is excluded. [e5] The ERCOT Bus Average 345 kV Hub is built from all the Hub Buses of those same four hubs, again excluding Panhandle. [e21] A pending NPRR941 box would also exclude the Lower Rio Grande Valley 138/345 kV Hub from the Bus Average Hub price. [e36] ERCOT's display lists Settlement Points named HB_BUSAVG and HB_HUBAVG next to HB_NORTH; the saved sources do not state which Protocol hub each of those two names denotes. [e9]
 
 Exchange contracts: ICE lists monthly cash-settled ERCOT North 345KV Real-Time contracts, peak and off-peak. Their reference price is the SPP published by ERCOT for the North 345 kV Hub real-time. [e22][e24] The peak contract's specified price is the average of SPPs for all hours ending 0700 to 2200 CPT (as stated in the ICE document dated November 18, 2026). [e23]
 
-Price levels: the saved IMM tables give Load Zone prices, not Hub prices. The IMM's Table 1 shows North zone annual average real-time prices of $221.52 (2021), $77.30 (2022), $78.01 (2023), $30.42 (2024) and $35.34 (2025) per MWh, against West at $111.56, $66.62, $67.56, $35.88 and $41.59. [e26][e27] Those are load-weighted zone prices, so they should not be read as HB_NORTH levels. [e19] In 2025 the IMM named the North zone, where ERCOT used significant RUC commitments to manage congestion, as one driver of the 26% rise in day-ahead congestion. [e25]
+Price levels: the saved IMM tables give Load Zone prices, not Hub prices. The IMM's Table 1 shows North zone annual average real-time prices of $221.52 (2021), $77.30 (2022), $78.01 (2023), $30.42 (2024) and $35.34 (2025) per MWh, against West at $111.56, $66.62, $67.56, $35.88 and $41.59. [e26][e27] Those are load-weighted zone prices, so they should not be read as HB_NORTH levels. [e30][e19] In 2025 the IMM named the North zone, where ERCOT used significant RUC commitments to manage congestion, as one driver of the 26% rise in day-ahead congestion. [e25]
 
 ## Timeline
 
@@ -193,20 +227,20 @@ Price levels: the saved IMM tables give Load Zone prices, not Hub prices. The IM
 - The North 345 kV Hub is defined in Protocol Section 3.5.2.1 and lists 75 Hub Buses. [e1][e10]
 - Day-ahead price uses aggregated Shift Factors of the Hub Buses; real-time price is the simple average of time-weighted Hub Bus prices per 15-minute interval. [e3]
 - The Real-Time Settlement Point Price floor is -$251/MWh, applied after adding the Reliability Deployment Price Adders. [e20]
-- It is one of four prices in the ERCOT Hub Average 345 kV Hub price; Panhandle is excluded. [e5]
+- In real time it is one of four prices in the ERCOT Hub Average 345 kV Hub price; Panhandle is excluded. [e5]
 - Definition language: np-02 says Hub Bus lists and methods can never be modified, while np-03 Section 3.5.1 says a Hub may not be modified except as its definition explicitly describes, with notice and NPRR steps for bus changes. [e7][e13][e14]
 - ERCOT's real-time price display lists HB_NORTH. [e9]
 
 ## Say it like this
 
-HB_NORTH is the price of a fixed list of 75 north 345 kV buses, an equal-weighted average of Hub Bus prices in real time. It is a different kind of Settlement Point from the North Load Zone, which is weighted by Load. [e3][e10][e8][e19]
+HB_NORTH is the price of a fixed list of 75 north 345 kV buses, an equal-weighted average of Hub Bus prices in real time. It is a different kind of Settlement Point from the North Load Zone, whose LMP is based on state-estimated Loads. [e3][e10][e8][e29]
 
 ## Common confusion
 
-- North Hub versus North Load Zone: the Hub is a Settlement Point defined by a fixed Hub Bus list and an unweighted average, and a Load Zone is a separate kind of Settlement Point weighted by Load. [e2][e3][e8][e19]
-- North Hub versus the ERCOT hub averages: HB_HUBAVG is a separate Hub that averages four hub prices including North, and HB_BUSAVG is built from all the Hub Buses of those four hubs. [e5][e21][e9]
+- North Hub versus North Load Zone: the Hub is a Settlement Point defined by a fixed Hub Bus list and an unweighted average, and a Load Zone is a separate kind of Settlement Point whose LMP is based on state-estimated Loads. [e2][e3][e8][e19][e29]
+- North Hub versus the ERCOT hub averages: the ERCOT Hub Average 345 kV Hub averages four hub prices including North, and the ERCOT Bus Average 345 kV Hub is built from all the Hub Buses of those four hubs; ERCOT's display names HB_HUBAVG and HB_BUSAVG are not mapped to these in the saved sources. [e5][e21][e9]
 - "Can never be modified" (np-02) is the short form; the operating rules in np-03 Section 3.5.1 describe bus additions, temporary exclusions and an NPRR route for permanent bus removal. [e7][e14]
-- IMM "North zone" figures are zone numbers, not HB_NORTH. [e26]
+- IMM "North zone" figures are load-weighted zone numbers, not HB_NORTH. [e26][e30]
 
 ## Questions
 

@@ -35,7 +35,7 @@ links:
     note: ERCOT assigns Ancillary Service obligations to QSEs from their LSEs' Load Ratio Shares. [e22][e23]
   - to: polr
     type: related
-    note: A Mass Transition moves a defaulting CR's ESI IDs to a Provider of Last Resort or designated CR. [e24]
+    note: The Transition Process transfers large numbers of Customers from one CR to a Provider of Last Resort or designated CR, or between TDSPs. [e24]
 evidence:
   - id: e1
     source: np-02
@@ -177,7 +177,7 @@ evidence:
   - id: e35
     source: np-16
     locator: "Section 16.2.6.1(3), Designation as an Emergency QSE or Virtual QSE"
-    quote: "If ERCOT has given Notice of an LSE’s or Resource Entity’s QSE’s termination or suspension, that LSE or Resource Entity will be designated as a Virtual QSE for up to two Bank Business Days, during which time it must either: (a) Designate and begin operations with a new QSE; or"
+    quote: "If ERCOT has given Notice of an LSE’s or Resource Entity’s QSE’s termination or suspension, that LSE or Resource Entity will be designated as a Virtual QSE for up to two Bank Business Days, during which time it must either: (a) Designate and begin operations with a new QSE; or (b) Satisfy all necessary creditworthiness requirements for QSEs as described in Section 16.2, and operate as an Emergency QSE as described below. As provided in paragraph (2) of Section 16.2.5, Suspended or Terminated Qualified Scheduling Entity – Notification to LSEs and Resource Entities Represented, this option does not apply to an LSE or Resource Entity represented by a terminated or suspended QSE that is the same Entity as the terminated or suspended QSE."
 ---
 
 ## Definition
@@ -192,7 +192,7 @@ Every LSE must register with ERCOT. [e4] Registration under Section 16.3 covers 
 
 To register, an Entity executes a Standard Form Market Participant Agreement, designates LSE Authorized Representatives, contacts and a User Security Administrator on the Form B application, and shows ERCOT it can perform the LSE functions; a REP must also demonstrate certification under P.U.C. SUBST. R. 25.107. [e12] All CRs must also complete Retail Market Testing before commencing operations with ERCOT. [e5]
 
-Application clock: ERCOT confirms receipt within three Business Days [e14]; it tells the applicant within ten Business Days whether the application is complete [e15]; and it may reject within ten Business Days after the application is deemed complete, otherwise the application is deemed approved. [e16] A rejected applicant may challenge within ten Business Days of the rejection letter using Section 20 dispute resolution. [e17]
+Application clock (ERCOT returns without review any application lacking the proper fee, and the rest of the Section then does not apply [e14]): ERCOT confirms receipt within three Business Days [e14]; it tells the applicant within ten Business Days whether the application is complete [e15]; and it may reject within ten Business Days after the application is deemed complete, otherwise the application is deemed approved. [e16] A rejected applicant may challenge not later than ten Business Days after receiving the rejection letter using Section 20 dispute resolution. [e17]
 
 ### The QSE relationship
 
@@ -200,7 +200,7 @@ An LSE does not interface with ERCOT alone: it must designate a QSE to perform Q
 
 ### When the LSE loses its QSE
 
-If a QSE gives notice of terminating its relationship with an LSE, the LSE must by noon on the fourth Business Day after the notice either designate a new QSE or satisfy QSE creditworthiness requirements and operate as an Emergency QSE. [e20] If ERCOT gives notice of the QSE's termination or suspension, the LSE is designated a Virtual QSE for up to two Bank Business Days. [e35] ERCOT may designate an LSE with no QSE for an Operating Day as a Virtual QSE, which is liable for all Initial, Final and True-Up Settlement charges and Resettlements for the period it represented ESI IDs. [e21] An LSE that fails to maintain a QSE may be designated an Emergency QSE. [e9] Emergency and Virtual QSEs may only represent themselves. [e33] An Emergency QSE has seven Business Days to designate a QSE or complete QSE qualification. [e34]
+If a QSE gives notice of terminating its relationship with an LSE, the LSE must by noon on the fourth Business Day after the notice either designate a new QSE or satisfy QSE creditworthiness requirements and operate as an Emergency QSE. [e20] If ERCOT gives notice of the QSE's termination or suspension, the LSE is designated a Virtual QSE for up to two Bank Business Days, during which it must either designate and begin operations with a new QSE or satisfy QSE creditworthiness requirements and operate as an Emergency QSE; the second option does not apply where the LSE is the same Entity as the terminated or suspended QSE. [e35] ERCOT may designate an LSE with no QSE for an Operating Day as a Virtual QSE, which is liable for all Initial, Final and True-Up Settlement charges and Resettlements for the period it represented ESI IDs. [e21] An LSE that fails to maintain a QSE may be designated an Emergency QSE. [e9] Emergency and Virtual QSEs may only represent themselves. [e33] An Emergency QSE has seven Business Days to designate a QSE or complete QSE qualification. [e34]
 
 If the LSE fails to meet these requirements and does not cure the resulting QSE Affiliation Breach, and it serves Load, ERCOT shall after notice initiate a Mass Transition of the LSE's ESI IDs. [e10]
 
@@ -210,7 +210,7 @@ If the LSE fails to meet these requirements and does not cure the resulting QSE 
 
 The LSE label is also how load shows up in market rules. ERCOT assigns Ancillary Service obligations to each QSE from the QSE's LSE Load Ratio Shares, where Load Ratio Share is an Entity's AML relative to total ERCOT AML for the interval. [e22][e23] A QSE bidding a Load Resource to buy in SCED must represent the LSE serving that Load Resource's Load. [e31]
 
-A Mass Transition is the market's tool when large numbers of Customers must move at once from one CR to a Provider of Last Resort or designated CR. [e24] The Mass Transition Date is Calendar Day 0 plus two days (the date requested in ERCOT's 814_03), and POLRs are responsible for ESI IDs no earlier than that date. [e25]
+The Retail Market Guide's Transition Process applies when circumstances may necessitate the expeditious transfer of large numbers of Customers from one CR to a Provider of Last Resort or designated CR, or from one TDSP to another, in a quantity or time frame identified by Applicable Legal Authority. [e24] The Mass Transition Date is Calendar Day 0 plus two days (the date requested in ERCOT's 814_03), and POLRs are responsible for ESI IDs no earlier than that date. [e25]
 
 Each LSE must keep its application information current, such as addresses, affiliates and representatives. [e32]
 
@@ -244,11 +244,11 @@ It must register with ERCOT, designate a QSE, and have ERCOT approve that design
 
 ### Why does ERCOT require an LSE to have a QSE at all?
 
-The Protocols have the QSE perform QSE functions on the LSE's behalf and accept responsibility for the LSE's transactions, so ERCOT deals with a qualified scheduling counterparty. [e3] Without one, the LSE may be made a Virtual QSE liable for settlement charges. [e21]
+The Protocols require each LSE applicant to designate the QSE that will perform QSE functions on the LSE's behalf, and the LSE bears sole responsibility for selecting and maintaining it. [e3][e13] The Protocols quoted here do not give ERCOT's reason. Without a QSE, the LSE may be made a Virtual QSE liable for settlement charges. [e21] Without one, the LSE may be made a Virtual QSE liable for settlement charges. [e21]
 
 ### What if a REP's QSE gives notice of termination?
 
-The REP must by noon on the fourth Business Day after the notice designate a new QSE or qualify as an Emergency QSE. [e20] If it does neither and does not cure the breach, ERCOT initiates a Mass Transition of its ESI IDs. [e10]
+If the QSE has given notice of its intent to terminate, the REP must by noon on the fourth Business Day after the notice date designate a new QSE or satisfy QSE creditworthiness requirements and operate as an Emergency QSE. [e20] If it fails to meet the requirements, does not cure the resulting QSE Affiliation Breach and serves Load, ERCOT shall, after notice, initiate a Mass Transition of its ESI IDs. [e10]
 
 ### Why is the Virtual QSE liable for charges even though it was a stop-gap?
 
@@ -262,7 +262,7 @@ No: written notice no more than once in any consecutive three days, with updated
 
 ### A REP's QSE defaults. What happens to the REP's customers?
 
-- The REP, as an LSE, must designate a new QSE or qualify as an Emergency QSE within the Section 16.2.6.1 deadlines, or be designated a Virtual QSE for up to two Bank Business Days if ERCOT terminated or suspended the QSE. [e20][e35]
+- If the QSE gave notice of termination, the REP, as an LSE, must by noon on the fourth Business Day after the notice date designate a new QSE or satisfy creditworthiness requirements and operate as an Emergency QSE. [e20] If ERCOT gave notice of the QSE's termination or suspension, the REP is designated a Virtual QSE for up to two Bank Business Days, during which it must designate a new QSE or operate as an Emergency QSE (the latter not available where the REP is the same Entity as the QSE). [e35]
 - If it fails and does not cure, ERCOT shall initiate a Mass Transition of the REP's ESI IDs after notice. [e10]
 - The Mass Transition Date is Calendar Day 0 plus two days, and POLRs take responsibility no earlier than that date. [e25]
 

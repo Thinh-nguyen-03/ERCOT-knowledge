@@ -178,6 +178,10 @@ evidence:
     source: np-06
     locator: "Section 6.6.1.2, paragraph (1), formula (DC Tie Load Zone)"
     quote: "For a DC Tie Load Zone: LZLMP _(y) = RTLMP _(b, y)"
+  - id: e33
+    source: np-04
+    locator: "Section 4.6.1.2, paragraph (1), formula (Load Zones other than DC Tie)"
+    quote: "DASPP = DASL - $\\begin{array}{r} \\Sigma \\\\ c \\end{array}$(DALZSF _(c) * DASP _(c))"
 ---
 
 ## Definition
@@ -196,9 +200,9 @@ Two protocol rules shape the real-time number after the LMP is known. First, an 
 
 Real-time Resource Node price, per 15-minute Settlement Interval: RTSPP = Max (-$251, (sum over SCED intervals y of RNWF(y) x (RTLMP(y) + RTRDPA(y)))). [e13] RTLMP is the Real-Time LMP at the Settlement Point for SCED interval y, RTRDPA is the Reliability Deployment Price Adder for Energy for that interval, and RNWF is the weight for the portion of the SCED interval inside the Settlement Interval, equal to that portion's duration divided by the sum of durations. [e16][e5] The sum runs over all SCED runs covering the 15-minute interval. [e15]
 
-Real-time Load Zone price: the same -$251 floor applies to the time-weighted Load Zone LMP plus the reliability deployment price (RTRDP). [e6][e8] The Load Zone LMP for a SCED interval weights each bus LMP by State Estimator Load at that bus. [e6] That Load value includes a calculated net Load at each Private Use Network and DGR/DESR adjustments, and excludes Wholesale Storage Load and Non-WSL ESR charging Load. [e17] For a DC Tie Load Zone the Load Zone LMP is simply the bus LMP. [e32]
+Real-time Load Zone price: the same -$251 floor applies to the time-weighted Load Zone LMP plus the Real-Time Reliability Deployment Price for Energy (RTRDP). [e6][e8] The Load Zone LMP for a SCED interval weights each bus LMP by State Estimator Load at that bus. [e6] That Load value includes a calculated net Load at each Private Use Network and DGR/DESR adjustments, and excludes Wholesale Storage Load and Non-WSL ESR charging Load. [e17] For a DC Tie Load Zone the Load Zone LMP is simply the bus LMP. [e32]
 
-Day-ahead Load Zone price: built from Day-Ahead System Lambda (the DAM Shadow Price for the system power balance constraint) less constraint Shadow Prices times the Load Zone's aggregated Shift Factor for each binding constraint. [e29][e30][e9] The weights come from Load distribution factors over energized power flow buses. [e9]
+Day-ahead Load Zone price: built from Day-Ahead System Lambda (the DAM Shadow Price for the system power balance constraint) less, summed over constraints c, the constraint's Shadow Price times the Load Zone's aggregated Shift Factor (DASPP = DASL minus the sum of DALZSF x DASP). [e33][e29][e30][e9] The weights come from Load distribution factors over energized power flow buses. [e9]
 
 ## ERCOT context
 

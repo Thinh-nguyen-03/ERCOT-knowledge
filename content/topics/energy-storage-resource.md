@@ -29,7 +29,7 @@ links:
     note: The IMM links ESR capacity growth to a shift toward earning more revenue from energy arbitrage than from ancillary services. [e15]
   - to: prc
     type: related
-    note: ESR capacity capable of primary frequency response counts toward PRC, limited to what can be sustained for 45 minutes per State of Charge. [e42]
+    note: ESR capacity capable of primary frequency response counts toward PRC as the PRC8 term, which is the minimum of X% of MDRR, HSL-Net MW and the capacity that can be sustained for 45 minutes per the State of Charge. [e48][e42]
   - to: non-spin
     type: related
     note: The four-hour Non-Spin duration means an ESR must hold four times its award in stored energy, according to the IMM. [e43]
@@ -41,7 +41,7 @@ links:
     note: A DESR on a circuit subject to load shed is disqualified from offering ancillary service, and ESRs must suspend charging at EEA Level 3. [e30][e28]
   - to: ordc
     type: related
-    note: RTC replaced the ORDC adder with ASDCs, so ESR scarcity revenue now comes through ancillary service prices in the optimization. [e44]
+    note: The IMM says the ORDC price adder, which reflected the value of reserves under shortage conditions, was replaced by a set of ASDCs with RTC. [e44]
 evidence:
   - id: e1
     source: np-02
@@ -262,6 +262,14 @@ evidence:
     locator: "Section 8.1.1.2.1.1, Regulation Service Qualification, paragraph (4)(c)(iv)"
     quote: >-
       (iv) For an ESR, in all other test sequence intervals, the Resource’s measured ESREDP must be less than or equal to 3.0% as calculated for the entire duration of each test interval.
+  - id: e48
+    source: np-06
+    locator: "Section 6.5.7.5, PRC variable table, PRC8"
+    quote: "ESR capacity capable of providing Primary Frequency Response"
+  - id: e49
+    source: imm-som-2025
+    locator: "page 149 (OCR), Recommendations, 2024-2"
+    quote: "This occurs because a four-hour obligation produces an opportunity cost for selling reserves that is four times the prevailing energy price"
 ---
 
 ## Definition
@@ -276,11 +284,11 @@ State of charge (SOC) is the stored energy in MWh that can be injected at the PO
 
 For ancillary services, an ESR in discharge mode provides Reg-Up by raising output, while an ESR in charge mode provides it by cutting load. [e8] Under RTC, ancillary service awards are based on Resource capability including state of charge and SOC limits, and ERCOT's July 2025 RTC+B overview says SCED accounts for state of charge in its optimization so awards are feasible for their duration requirements and it will not violate telemetered minimum and maximum SOC. [e41][e6] The same overview says that is different from before, when the QSE had to reserve sufficient SoC to cover its ancillary service duration requirements. [e23] The day-ahead market does not consider SOC in clearing energy and ancillary services. [e7] The same overview says ESRs will not be seen as off-line in RUC and so are not available to be RUCed; RUC uses the hour-beginning SoC in the COP to limit each ESR. [e14][e39]
 
-**Qualification and limits.** An ESR providing RRS is limited by an ERCOT-calculated maximum MW subject to verified droop performance; the default for a newly qualified ESR is 20% of its Maximum Droop Response Range, which for an ESR is the difference between HSL and LSL. [e27][e45] Regulation qualification for an ESR includes an ESREDP test at or below 3.0% in the test intervals. [e47] ERCOT's NPRR1282 analysis says RUC studies use a one-hour duration for all ancillary service types to respect each ESR's COP minimum and maximum SOC. [e40]
+**Qualification and limits.** An ESR providing RRS is limited by an ERCOT-calculated maximum MW subject to verified droop performance; the default for a newly qualified ESR is 20% of its Maximum Droop Response Range, which for an ESR is the difference between HSL and LSL. [e27][e45] Regulation qualification includes a test in which, for an ESR, the measured ESREDP in all other test sequence intervals must be at or below 3.0% for the entire duration of each test interval. [e47] The NPRR1282 PUCT report says a one-hour duration for RUC studies is appropriate to respect an ESR's minimum and maximum SOC values from the COP and as a deployment duration for use with deployment factors. [e40]
 
-**Set Point Deviation.** ERCOT charges a QSE for over-performance when an ESR's telemetered generation or consumption exceeds a tolerance of the greater of 3% of the average aggregated set point (AASP) or three MW above the AASP, and for under-performance when it falls below a tolerance of the lesser of 3% of AASP or three MW below it. [e21][e22] ERCOT's overview says this is less tolerant than the Base Point Deviation calculation it replaces. [e38] Self-Limiting Facilities, which cap total MW injection below nameplate, are defined separately. [e31]
+**Set Point Deviation.** ERCOT charges a QSE for over-performance when an ESR's telemetered generation or consumption exceeds a tolerance of the greater of 3% of the AASP (Average Aggregated Set Point) for the ESR or three MW above the AASP, and for under-performance when it falls below a tolerance of the lesser of 3% of the AASP or three MW below it. [e21][e22] A pending NPRR1014/NPRR1029 box in Section 6.6.5.5 would add conditions on DC-Coupled Resources to the over-performance tolerance upon system implementation; this topic does not describe it. ERCOT's July 2025 overview says the Set Point Deviation calculation implemented with RTC+B is less tolerant than the current Base Point Deviation calculation. [e38] Self-Limiting Facilities, which cap total MW injection below nameplate, are defined separately. [e31]
 
-**Emergency operations.** At EEA Level 3 ERCOT can instruct ESRs to suspend charging, by SCED Base Point or manual Dispatch Instruction, and an ESR must suspend unless it is providing Primary Frequency Response, has a SCED charging instruction, or is carrying Reg-Down with an LFC charging instruction. [e28] When an Emergency Condition is caused by a transmission problem, ERCOT may instruct an ESR QSE to suspend charging if the load reduction could mitigate it. [e29] A DGR or DESR whose circuit becomes subject to disconnection in load shedding is immediately disqualified from offering ancillary service. [e30] ESR capacity capable of primary frequency response counts toward PRC, to the extent it can be sustained for 45 minutes per State of Charge. [e42]
+**Emergency operations.** At EEA Level 3 ERCOT can instruct ESRs to suspend charging, by SCED Base Point or manual Dispatch Instruction, and an ESR must suspend unless it is providing Primary Frequency Response, has a SCED charging instruction, or is carrying Reg-Down with an LFC charging instruction; the Protocols add that an ESR co-located behind a POI with onsite generation that cannot export additional power to ERCOT may continue to charge as long as maximum output to ERCOT is maintained. [e28] When an Emergency Condition is the result of a transmission problem, ERCOT may instruct an ESR QSE to suspend charging if ERCOT determines the Load reduction by the ESR is capable of mitigating it (the same co-located exception applies). [e29] A DGR or DESR whose circuit becomes subject to disconnection in load shedding is immediately disqualified from offering ancillary service. [e30] ESR capacity capable of primary frequency response counts toward PRC through the PRC8 term, the minimum of X% of MDRR, HSL-Net MW and the capacity that can be sustained for 45 minutes per the State of Charge. [e48][e42]
 
 ## ERCOT context
 
@@ -302,9 +310,9 @@ The IMM also argues that, because the market software optimizes one five-minute 
 - An ESR is registered to provide energy and/or ancillary service. [e1]
 - ESR capacity was more than 17,000 MW and 31,500 MWh at the end of 2025. [e10]
 - On average in 2025 ESRs provided 94% of Reg-Up and 86% of Reg-Down, per the IMM. [e9]
-- Revenue per MW of ESR capacity fell almost 37% in 2025. [e34]
+- The IMM says annual revenue per unit of ESR capacity fell by almost 37% in 2025 after normalization for the larger volume of capacity. [e34]
 - SCED tracks ESR state of charge after RTC+B; the DAM does not. [e6][e7]
-- Set Point Deviation tolerance for an ESR is 3% of AASP or three MW. [e21][e22]
+- Set Point Deviation tolerance for an ESR is the greater of 3% of AASP or three MW above (over-performance) and the lesser of 3% of AASP or three MW below (under-performance). [e21][e22]
 - The default RRS limit for a newly qualified ESR is 20% of its MDRR. [e27]
 
 ## Say it like this
@@ -331,15 +339,15 @@ ERCOT's RTC+B material says ESRs will not be seen as off-line and so are not ava
 
 ### What if EEA Level 3 is declared while a battery is charging?
 
-ERCOT can instruct it to suspend charging; it must stop unless it is providing Primary Frequency Response, has a SCED charging Base Point, or is carrying Reg-Down with an LFC charge instruction. [e28]
+ERCOT can instruct it to suspend charging; it must stop unless it is providing Primary Frequency Response, has a SCED charging Base Point, or is carrying Reg-Down with an LFC charge instruction, and an ESR co-located behind a POI with onsite generation that cannot export additional power may continue to charge as long as maximum output to ERCOT is maintained. [e28]
 
-### Why did the single model make Set Point Deviation tighter?
+### How does Set Point Deviation for an ESR compare with the old Base Point Deviation?
 
-ERCOT's overview says the Set Point Deviation calculation is less tolerant than Base Point Deviation, with an ESR tolerance of 3% of AASP or three MW. [e38][e21][e22] (Guidance: with one device and one set point, the charge and discharge ranges share one tolerance.)
+ERCOT's July 2025 overview says the Set Point Deviation calculation implemented with RTC+B is less tolerant than the current Base Point Deviation calculation. The ESR tolerance is the greater of 3% of AASP or three MW above AASP for over-performance and the lesser of 3% of AASP or three MW below AASP for under-performance. [e38][e21][e22]
 
 ### Why might a four-hour Non-Spin duration discourage batteries from selling reserves?
 
-The IMM argues an ESR must hold four times its NSRS obligation (10 MW needs 40 MWh), which it says raises the opportunity cost of selling reserves; this is the IMM's view. [e43]
+The IMM says ERCOT maintains a four-hour NSRS duration requirement under which an ESR must hold a state of charge four times its NSRS obligation (a 10 MW award would require 40 MWh), and argues this produces an opportunity cost for selling reserves that is four times the prevailing energy price; the argument is the IMM's view. [e43][e49]
 
 ## Open items
 

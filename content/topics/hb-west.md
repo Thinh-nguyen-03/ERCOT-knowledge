@@ -26,7 +26,7 @@ links:
     note: The IMM's West Zone statements are about the Load Zone, not this Hub. [e6]
   - to: basis-risk
     type: related
-    note: A position settled at a node or load zone against the West Hub carries the price difference between the two Settlement Points, which the IMM ties to West congestion. [e5][e23]
+    note: A position settled at a node or load zone against the West Hub carries the price difference between the two Settlement Points. [e2] The IMM reports large intrazonal congestion costs in the West Zone. [e5][e23]
   - to: waha-hub
     type: related
     note: The IMM uses Waha gas prices for West-zone gas units, and EIA says Waha prices are typically lower than other hubs and sometimes negative. [e26][e28]
@@ -167,6 +167,30 @@ evidence:
     source: np-02
     locator: "Section 2.1, definition of Hub Bus, paragraph (2) (Real-Time Market)"
     quote: "In the Real-Time Market (RTM), an energized Electrical Bus or group of energized Electrical Buses defined as a single element in the Hub definition. The LMP of the Hub Bus is the simple average of the LMPs assigned to each energized Electrical Bus in the Hub Bus. If all Electrical Buses within a Hub Bus are de-energized, the LMP of the Hub does not include the de-energized Hub Bus."
+  - id: e32
+    source: np-03
+    locator: "Section 3.5.2.4, paragraph (4), variable definitions, HUBDF"
+    quote: "HUBDF _(hb, West345) = IF(HB _(West345)=0, 0, 1 / HB _(West345))"
+  - id: e33
+    source: np-03
+    locator: "Section 3.5.2.4, paragraph (4), variable definitions, HB"
+    quote: "The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus."
+  - id: e34
+    source: np-03
+    locator: "Section 3.5.2.4, paragraph (4), variable definitions, RTRDP"
+    quote: "Real-Time Reliability Deployment Price for Energy"
+  - id: e35
+    source: np-03
+    locator: "Section 3.5.2.4, pending box after paragraph (4)"
+    quote: "[NPRR1057: Replace paragraph (4) above with the following upon system implementation:]"
+  - id: e36
+    source: np-06
+    locator: "Section 6.6.1.4, paragraph (1), Load Zone LMPs"
+    quote: "The Load Zone LMP is based on the state-estimated Loads in MW and the Real-Time LMPs at the Electrical Buses included in the Load Zone."
+  - id: e37
+    source: imm-som-2025
+    locator: "page 29 (OCR), Chapter II.C, Zonal Energy Prices, text above Table 1"
+    quote: "Table | lists the annual load-weighted average prices for each zone for 2021-2025."
 ---
 
 ## Definition
@@ -177,13 +201,15 @@ The West 345 kV Hub (West 345) is one of the Hubs defined in Protocol Section 3.
 
 The Hub Bus list. The Protocol table for the West 345 kV Hub starts with MULBERRY, BOMSW, OECCS and BITTCR and ends at number 17, TWINBU, so it has 17 listed Hub Buses. [e10][e11] The table gives only bus names, voltage (345 kV) and the hub label, so it does not show which buses sit in the Panhandle and which in the Permian Basin (see Open items). [e10]
 
-Pricing. The West 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour in the Day-Ahead, and in real time is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval. [e3] The real-time Hub Bus LMP is the simple average of the LMPs of its energized Electrical Buses, and a fully de-energized Hub Bus drops out. [e31] The Hub LMP is the arithmetic average of the Hub Buses' Real-Time LMPs (the ERCOT Hub Average 345 kV Hub is the exception). [e19] The real-time formula carries the -$251 floor, written Max[-$251, (RTRDP + ...)]. [e18] If no Hub Bus has an energized component, the hub price equals the ERCOT Bus Average 345 kV Hub price in both the day-ahead and real-time formulas. [e16][e17]
+Pricing. The West 345 kV Hub Price uses the aggregated Shift Factors of the Hub Buses for each hour in the Day-Ahead, and in real time is the simple average of the time-weighted Hub Bus prices for each 15-minute Settlement Interval. [e3] The real-time Hub Bus LMP is the simple average of the LMPs of its energized Electrical Buses, and a fully de-energized Hub Bus drops out. [e31] The Hub LMP is the arithmetic average of the Hub Buses' Real-Time LMPs (the ERCOT Hub Average 345 kV Hub is the exception). [e19] The real-time formula carries the -$251 floor, written Max[-$251, (RTRDP + ...)]. [e18] If no Hub Bus has an energized component (in the base case for the day-ahead formula), the hub price equals the ERCOT Bus Average 345 kV Hub price in both the day-ahead and real-time formulas. [e16][e17]
 
 Stability. A Hub, once defined, may not be modified except as explicitly described in its definition (np-03 Section 3.5.1), and np-02 says the Hub Bus list and method can never be modified. [e20][e7]
 
 ## Formula
 
-West hub real-time price per 15-minute Settlement Interval: the floor Max[-$251, ...] applied to the Real-Time Reliability Deployment Price (RTRDP) plus the equal-weighted average over Hub Buses of the time-weighted Hub Bus prices. [e18][e3] The Protocol defines the RT variables with the same structure as the North hub, over West Hub Buses. [e3][e4]
+West hub real-time price per 15-minute Settlement Interval: the floor Max[-$251, ...] applied to RTRDP (the Real-Time Reliability Deployment Price for Energy) plus the sum over Hub Buses of the Hub Distribution Factor times the time-weighted Hub Bus price. [e18][e34] The Hub Distribution Factor is one divided by HB, the number of Hub Buses in the Hub with at least one energized component, and zero if there are none. [e32][e33] This is the equal-weighted average that the Protocol calls the simple average. [e3]
+
+Pending change: the saved Protocol text carries a pending box, NPRR1057, that would replace this paragraph (4) formula upon system implementation; the formula above is the text currently in force. [e35]
 
 ## ERCOT context
 
@@ -191,7 +217,7 @@ The West Hub and the Panhandle Hub are different hubs. The Panhandle 345 kV Hub 
 
 In the IMM's 2025 report the West Zone is the largest contributor to intrazonal congestion costs, export constrained in the panhandle because of renewables and import constrained in the Permian Basin. [e5] Congestion costs within the West increased by 27% between 2024 and 2025. [e23] The IMM also reports that the West Zone had the highest annual average zonal energy price for the second year in a row (2025). [e6] Those statements are about the West Load Zone, not the West Hub. [e6]
 
-Zone price levels (load-weighted real-time prices by Load Zone, IMM Table 1, $ per MWh for 2021 to 2025): West $111.56, $66.62, $67.56, $35.88, $41.59; ERCOT $179.24, $76.41, $73.28, $32.41, $36.94. [e21][e22] So the West zone was below the ERCOT average from 2022 to 2023 and above it in 2024 and 2025 (comparison from the two rows). [e21][e22] These are Load Zone prices, not HB_WEST. [e19]
+Zone price levels (load-weighted real-time prices by Load Zone, IMM Table 1, $ per MWh for 2021 to 2025): West $111.56, $66.62, $67.56, $35.88, $41.59; ERCOT $179.24, $76.41, $73.28, $32.41, $36.94. [e37][e21][e22] So the West zone was below the ERCOT average from 2021 to 2023 and above it in 2024 and 2025 (comparison from the two rows). [e21][e22] These are load-weighted Load Zone prices, not HB_WEST. [e37][e19]
 
 Negative prices and spikes: the IMM says the West zone's Panhandle/Permian duality explains why it had the highest number of negative-price intervals and the greatest frequency of price spikes of any load zone in 2025. [e24]
 
@@ -208,11 +234,11 @@ Gas link: the IMM's net revenue analysis uses Waha hub gas prices for the West z
 
 ## Say it like this
 
-HB_WEST is the price of a fixed set of 17 west 345 kV buses, a simple average of Hub Bus prices in real time. The IMM ties the West zone's higher prices and negative prices to congestion between the Panhandle and the Permian, so check whether a west hub price is the right reference for a particular west generator or load. [e3][e11][e5][e24]
+HB_WEST is the price of a fixed set of 17 west 345 kV buses, a simple average of Hub Bus prices in real time. The IMM ties the West zone's highest zonal prices to congestion and attributes its negative prices and spikes to the export-constrained Panhandle and import-constrained Permian Basin, so check whether a west hub price is the right reference for a particular west generator or load. [e3][e11][e6][e24]
 
 ## Common confusion
 
-- West Hub versus West Load Zone: the Hub price follows the Hub definition (equal-weighted Hub Bus average), the Load Zone price is weighted by Load, and the IMM's zone statements do not automatically apply to the Hub. [e3][e19][e6]
+- West Hub versus West Load Zone: the Hub price follows the Hub definition (equal-weighted Hub Bus average), the Load Zone LMP is based on state-estimated Loads and bus LMPs, and the IMM's zone statements do not automatically apply to the Hub. [e3][e19][e36][e6]
 - West Hub versus Panhandle Hub (HB_PAN on ERCOT's display): separate hubs with separate bus lists; only West is in the ERCOT Hub Average. [e12][e15][e9]
 - West Hub versus Waha: Waha is a natural gas pricing hub, while the West Hub is an electricity Settlement Point. [e27][e2]
 - Hub versus generators in the Permian or Panhandle: the IMM reports large intrazonal congestion costs in the West Zone, so check node-level prices rather than assuming the hub or zone price applies to a given generator. [e5]
@@ -237,7 +263,7 @@ The Panhandle 345 kV Hub is a separate hub with its own 12 buses, so a position 
 
 ### How do West power prices relate to Waha gas prices?
 
-The IMM uses Waha gas prices for West-zone gas units and says Permian gas is cheap because of limited export capability. [e26][e25] It does not state a numerical link between Waha and HB_WEST.
+The IMM uses Waha gas prices for West-zone gas units and says high Permian gas production and limited export capability have resulted in low gas prices at Waha. [e26][e25] It does not state a numerical link between Waha and HB_WEST.
 
 ## Open items
 

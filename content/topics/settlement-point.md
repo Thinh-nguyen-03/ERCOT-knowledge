@@ -29,7 +29,7 @@ links:
     note: The Settlement Point Price definition refers to the DAM Settlement formulas. [e3]
   - to: rtm
     type: used-in
-    note: Real-time Energy Imbalance Service is charged or paid at the Real-Time Settlement Point Price for each Settlement Point. [e9]
+    note: Real-time Energy Imbalance Service is charged or paid at the Real-Time Settlement Point Price at a Resource Node (and, per the Load Zone section, a Load Zone). [e9][e8]
   - to: ptp-obligation
     type: used-in
     note: A PTP Obligation settles on the difference in DASPP between sink and source Settlement Points. [e11]
@@ -122,11 +122,11 @@ The three kinds are priced by their own methods. A Resource Node is where the pr
 
 ### Which Settlement Point each charge uses (Protocol sections 4.6, 6.6, 7.9)
 
-Day-ahead energy is paid to the QSE for each Settlement Point and hour at the DASPP there. [e7] Real-time Energy Imbalance Service is charged or paid at the Real-Time Settlement Point Price at each Resource Node, Load Zone and Hub, using separate quantity lists for each kind. [e9][e8] The Load Zone list, for example, starts from Self-Schedules sinking at the point, DAM Energy Bids cleared there and Energy Trades where the QSE is buyer, less the matching source-side items. [e8] A Self-Schedule's real-time congestion charge is the sink price minus the source price times the amount. [e10] A DAM PTP Obligation settles on the DASPP difference between sink and source, though a positive value sinking at a Resource Node may be reduced. [e11] Day-ahead Ancillary Service settlements do not use Settlement Point Prices: they use DAM MCPCs. [e12]
+Day-ahead energy is paid to the QSE for each Settlement Point and hour at the DASPP there. [e7] Real-time Energy Imbalance Service is charged or paid at the Real-Time Settlement Point Price at a Resource Node or at a Load Zone, using a separate quantity list for each. [e9][e8] The Load Zone list, for example, starts from Self-Schedules sinking at the point, DAM Energy Bids cleared there and Energy Trades where the QSE is buyer, less the matching source-side items. [e8] A Self-Schedule's real-time congestion charge is the sink price minus the source price times the amount. [e10] A DAM PTP Obligation settles on the DASPP difference between sink and source, though a positive value sinking at a Resource Node may be reduced. [e11] Day-ahead Ancillary Service settlements use DAM MCPCs. [e12]
 
-Interval basis: a Settlement Interval is the time period for which markets are settled. [e17] DAM energy uses a one-hour Settlement Interval and real time a 15-minute one. [e12][e6] Where a 15-minute Load Zone quantity varies with each SCED interval, an energy-weighted Real-Time Settlement Point Price is used instead of the simple time-weighted one. [e13]
+Interval basis: a Settlement Interval is the time period for which markets are settled. [e17] DAM energy uses a one-hour Settlement Interval and real time a 15-minute one. [e12][e6] Where a 15-minute Load Zone quantity varies with each SCED interval, an energy-weighted Real-Time Settlement Point Price is used. [e13]
 
-Hubs: a Hub is made of one or more Electrical Buses and can be created only by amending Section 3.5.2. [e15] The Hub LMP is the arithmetic average of the Real-Time LMPs of the Hub Buses, except for the ERCOT Hub Average 345 kV Hub. [e14] De-energized buses get an LMP by heuristic rules defined in Section 6.6.1. [e16]
+Hubs: a Hub is made of one or more Electrical Buses, and Hubs settled through ERCOT may only be created by an amendment to Section 3.5.2. [e15] The Hub LMP is the arithmetic average of the Real-Time LMPs of the Hub Buses, except for the ERCOT Hub Average 345 kV Hub. [e14] De-energized buses get an LMP by heuristic rules defined in Section 6.6.1. [e16]
 
 ## ERCOT context
 
@@ -137,7 +137,7 @@ Real-time energy settlements use Settlement Point Prices calculated for Resource
 - Settlement Points are Resource Nodes, Load Zones and Hubs. [e1]
 - A Settlement Point Price is calculated per Settlement Interval from LMP data. [e3]
 - Real-time settlement prices are calculated for a 15-minute Settlement Interval. [e6]
-- Day-ahead energy payments, real-time imbalance, Self-Schedule congestion and PTP Obligations all settle on Settlement Point Prices, while day-ahead Ancillary Services use MCPCs. [e7][e9][e10][e11][e12]
+- Day-ahead energy payments, real-time imbalance, Self-Schedule congestion and PTP Obligations all settle on Settlement Point Prices, while day-ahead Ancillary Services use MCPCs (imbalance is cited here for Resource Nodes). [e7][e9][e10][e11][e12]
 - Real-Time Hub prices follow the method written in each Hub's definition in Section 3.5.2. [e5]
 
 ## Say it like this
@@ -157,7 +157,7 @@ Resource Nodes, Load Zones and Hubs. [e1]
 
 ### Why do generators and loads see different prices in the same interval?
 
-Generator energy settles at a Resource Node price, while Load Zone prices are state-estimated-Load-weighted averages across buses in the zone. [e2][e4] Imbalance charges are computed separately at each Settlement Point. [e9][e8]
+Generator energy settles at a Resource Node price, while Load Zone prices are state-estimated-Load-weighted averages across buses in the zone. [e2][e4] Imbalance charges are computed separately at a Resource Node and at a Load Zone. [e9][e8]
 
 ### What if a bus at a Hub or Resource Node is de-energized?
 

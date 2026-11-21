@@ -193,7 +193,7 @@ evidence:
   - id: e37
     source: imm-board-2026-02
     locator: "IMM report to ERCOT Board R&M Committee, February 9-10, 2026, slide 2, Non-Spinning Reserve Pricing in RTC"
-    quote: "The RTM clears surplus NSRS yet is producing a shortage price. • Is frequently clearing at price > other reserves."
+    quote: "The RTM clears surplus NSRS yet is producing a shortage price. • Is frequently clearing at price > other reserves. • Difficult to estimate annual excess cost due to potential seasonal effects. • Recommend stop ASDC at the AS Plan, then reformulate ASDC (including other improvements as well)."
   - id: e38
     source: ercot-summer-2026-review
     locator: "Slide 16, Day-Ahead and real-time Ancillary Service prices are lower"
@@ -252,7 +252,7 @@ RUC treats batteries differently. ESRs are not seen as OFF, so they are not avai
 - In 2025 ESRs provided 94% of RegUp, 86% of Reg-Down, 51% of RRS, 42% of ECRS and 24% of NSRS. [e16]
 - Average ESR duration rose from 1.67 to 1.83 hours in 2025. [e43]
 - 18% of ESR offers were at the SWCAP in 2025, down from 32% in 2024, partly to protect SOC; 55% were priced at $0-100/MWh. [e10][e42]
-- The Real-Time SWCAP fell from $5,000 to $2,000/MWh at RTC go-live (the DAM HCAP in the PUCT rule remains $5,000). [e40][e25]
+- The Real-Time SWCAP fell from $5,000 to $2,000/MWh at RTC go-live (PUCT rule 25.509 still states a $5,000 HCAP). [e40][e25]
 - Summer 2026: SOC was highest between Hours 12 and 20; SOC was below 20% in 15% of hours and below 10% in 0.74%. [e39]
 
 ## Scenarios
@@ -267,7 +267,7 @@ RUC treats batteries differently. ESRs are not seen as OFF, so they are not avai
 - Be careful day-ahead. The DAM ignores SOC, so selling more than you can deliver leaves you buying back at real-time prices, and an ESR gets no Day-Ahead Make-Whole. [e2][e5][e31]
 - Consider skipping DAM AS sales. RTC lets AS providers sell AS directly into real time, and the IMM expected ESR day-ahead AS offer prices to increase to reflect the higher risk and lower benefit of selling AS there. [e4]
 - Shape the offer curve. SCED optimizes only one five-minute interval at a time, so price discharge high enough to keep energy for the peak; remember the Real-Time SWCAP is now $2,000/MWh. [e9][e40]
-- (Reasoning) Competition is tightening the arbitrage spread, so a curve priced well below the cap in most intervals and high only for the last slice of SOC fits the shift the IMM describes. The IMM reports 55% of ESR energy offers at $0-100/MWh in 2025. [e42]
+- (Reasoning) The IMM says that as more ESRs enter, they must offer more competitively, so a curve priced well below the cap in most intervals and high only for the last slice of SOC fits the shift the IMM describes. The IMM reports 55% of ESR energy offers at $0-100/MWh in 2025. [e42]
 - Keep the COP SOC accurate. RUC uses it to limit what each ESR can do, and the IMM reports aggregate COP SOC overestimated by about 874 MWh on average, which has been suggested as one factor in the jump in RUC commitments from 2024 to 2025. [e19][e23] The same HBSOC values feed the RUC capacity-short calculation that can charge your QSE. [e26]
 - Suppose (illustrative): you charge 200 MWh at $5/MWh and, using the 85% round-trip efficiency the IMM cites from NREL, discharge about 170 MWh at $120/MWh. [e22] The spread earns about $20,400 minus $1,000 of charging cost, roughly $19,400 for the day, compared with whatever AS would have paid for the same capacity.
 
@@ -277,7 +277,7 @@ RUC treats batteries differently. ESRs are not seen as OFF, so they are not avai
 
 - The IMM told the Board in February 2026 that the RTM clears surplus NSRS yet produces a shortage price, and that it frequently clears above other reserves. [e37] ERCOT's summer 2026 review found day-ahead AS prices trending lower except for Non-Spin. [e38]
 - But Non-Spin capability must be sustainable for four consecutive hours. [e32] Suppose (illustrative): a 200 MWh battery could back at most about 50 MW of Non-Spin, leaving 50 MW of power for energy or other products.
-- (Reasoning) The answer depends on the spread between the Non-Spin price and the evening energy value forgone; the IMM recommended changing the ASDC, so this premium may not last. [e37]
+- (Reasoning) The answer depends on the spread between the Non-Spin price and the evening energy value forgone; the IMM recommended stopping the ASDC at the AS Plan and then reformulating it, so this premium may not last. [e37]
 
 #### What changes for you if NPRR1309's two-hour Non-Spin duration takes effect?
 

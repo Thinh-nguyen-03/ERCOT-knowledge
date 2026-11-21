@@ -1,4 +1,4 @@
-# Deeper pass and audit: state (written 2026-11-21 ~14:10 UTC, for the next check-in)
+# Deeper pass and audit: state (updated 2026-11-21, for the next check-in)
 
 ## Done
 - All 153 topics exist and are `depth: deep`. 6,444 quotes verified word for word.
@@ -11,7 +11,9 @@
   FS3-* = other single-source (Sonnet). Brief: content/AUDIT_BRIEF.md plus the sample-audit additions
   (packets list only new/changed material; check formulas term by term; label writer arithmetic).
 - Each batch writes preview/audit-log/F-<batch>.md. A batch is done when that log exists and lists all its topics.
-- Launched at ~14:10 UTC: FO-1..FO-12 and FS1-1..FS1-10. NOT yet launched: FS3-1..FS3-11.
+- Launched: F-FO-1..F-FO-11 (F-FO-11 also covers the plan's FO-12 topic sc-uplift-surprise) and F-FS1-1..F-FS1-9.
+  NOT yet launched: FS1-10 (implied-heat-rate, solar-generation, weather-load, block-products) and FS3-1..FS3-11.
+  At most 20 agents can run at once.
 - If agents stopped on a usage limit, resume with SendMessage or relaunch the batch (topics with no log entry).
 - DO NOT run `node pipeline/audit.ts` while auditors are running (it rebuilds the packets). If packets must be
   rebuilt, use: `node pipeline/audit.ts --since bcd6d4f`.

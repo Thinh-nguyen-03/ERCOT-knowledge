@@ -147,7 +147,7 @@ evidence:
   - id: e27
     source: pura-39
     locator: "PURA §39.151, history note"
-    quote: "Added by Acts 1999, 76th Leg., ch. 405, Sec. 39, eff. Sept. 1, 1999."
+    quote: "Added by Acts 1999, 76th Leg., ch. 405, Sec. 39, eff. Sept. 1, 1999.Amended by: Acts 2005, 79th Leg., Ch. 797 (S.B. 408), Sec. 9, eff. September 1, 2005."
   - id: e28
     source: pura-39
     locator: "PURA §39.151(n)"
@@ -192,6 +192,10 @@ evidence:
     source: pura-39
     locator: "PURA §39.151(b), definition of independent organization"
     quote: "\"Independent organization\" means an independent system operator or other person that is sufficiently independent of any producer or seller of electricity that its decisions will not be unduly influenced by any producer or seller."
+  - id: e39
+    source: np-09
+    locator: "Section 9.16.1(3), ERCOT System Administration Fee, formula"
+    quote: "ESACAMT _(q) = LAFF * max(0,[]RTAML _(q, p))"
 ---
 
 ## Definition
@@ -214,7 +218,7 @@ ERCOT is not a profit-seeking market participant. The Protocols bar it from prof
 
 ## Formula
 
-The system administration fee: the PUCT authorizes the fee to fund ERCOT's budget, and ERCOT converts it into a charge on each QSE. [e30] For each QSE and 15-minute settlement interval, the charge is the Load Administration Fee Factor (LAFF, the fee in $/MWh) times the QSE's Real-Time Adjusted Metered Load (RTAML, the adjusted metered load at the settlement points it represents, in MWh). [e32][e31] In other words, the fee is paid on load, through the QSE. [e30][e31]
+The system administration fee: the PUCT authorizes the fee to fund ERCOT's budget, and ERCOT converts it into a charge on each QSE. [e30] For each QSE and 15-minute settlement interval, the charge (ESACAMT) is the Load Administration Fee Factor (LAFF, the fee in $/MWh) times the QSE's Real-Time Adjusted Metered Load summed over the settlement points it represents (RTAML, in MWh), floored at zero: ESACAMT = LAFF × max(0, ΣRTAML). [e39][e32][e31] In other words, the fee is paid on load, through the QSE. [e30][e31]
 
 ## ERCOT context
 

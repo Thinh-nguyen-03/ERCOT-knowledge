@@ -32,13 +32,13 @@ links:
     note: An ELSE assigns an ESI ID for each wholesale point of delivery, and no ESI ID goes to an individual Customer behind it. [e29]
   - to: mass-transition
     type: related
-    note: A Mass Transition moves ESI IDs from one CR to a Provider of Last Resort or designated CR. [e24]
+    note: Transition of ESI IDs (from one CR to a Provider of Last Resort or designated CR, or between TDSPs) in quantities and on a time frame not completely supported by standard transactions is handled as a Mass Transition. [e24]
   - to: market-information-system
     type: related
-    note: Market Participants verify the ESI ID for a service address through the MIS Find ESI ID function or a posted extract. [e30]
+    note: Market Participants can verify the Service Address for a Service Delivery Point through the MIS Find ESI ID function. [e30]
   - to: settlement-statements
     type: related
-    note: ERCOT's ESI ID service history is used in market Settlement, and unresolved variances can lead to resettlement. [e27][e28]
+    note: ERCOT provides ESI ID service history daily, and a Market Participant may seek correction and resettlement if a data variance is unresolved before True-Up Settlement. [e27][e28]
 evidence:
   - id: e1
     source: np-02
@@ -212,7 +212,7 @@ ERCOT sends LSEs, MREs and TSPs/DSPs daily incremental updates to ESI ID service
 
 ### The ESI ID in retail transactions
 
-A switch is effective at 0000 on the date of the effectuating meter read, and the customer keeps being served by its current CR during the process; the First Available Switch Date is the day ERCOT receives the request unless it is a Sunday or ERCOT holiday. [e20][e21] A standard move-in takes the requested date provided the TDSP receives the 814_03 by 1700 at least two Retail Business Days earlier; a same-day move-in needs receipt by 1700 on the requested date or completes by the next Retail Business Day. [e22][e23] The daily Potential Load Loss Report tells the current REP of record about pending switches or move-ins. [e33]
+A switch is effective at 0000 on the date of the effectuating meter read, and the customer keeps being served by its current CR during the process; the First Available Switch Date is the day ERCOT receives the request unless it is a Sunday or ERCOT holiday. [e20][e21] A standard move-in takes the requested date provided the TDSP receives the 814_03 by 1700 at least two Retail Business Days earlier; a same-day move-in needs receipt by 1700 on the requested date or completes by the next Retail Business Day. [e22][e23] The daily Potential Load Loss Report notifies a CR that is the current REP of record for an ESI ID of a pending Switch or Move-In Request, where the scheduling transaction for the pending order has been received outside the two Business Day window. [e33]
 
 ### ESI IDs with no REP
 
@@ -220,7 +220,7 @@ Each month the TDSP lists ESI IDs with consumption of at least 150 kWh in a sing
 
 ### ESI IDs at ELSE and TDSP boundaries
 
-An ELSE assigns an ESI ID for each wholesale point of delivery, and none goes to an individual Customer behind it. [e29] In a partial TDSP transition the gaining TDSP creates new and unique ESI IDs for all ESI IDs involved. [e32] The losing TDSP deactivates and retires the old ESI ID after the existing CR's move out. [e31] A Mass Transition covers moves of ESI IDs from one CR to a Provider of Last Resort or designated CR in quantities not supported by standard transactions. [e24]
+An ELSE assigns an ESI ID for each wholesale point of delivery, and none goes to an individual Customer behind it. [e29] In a partial TDSP transition the gaining TDSP creates new and unique ESI IDs for all ESI IDs involved. [e32] The losing TDSP deactivates and retires the old ESI ID after the existing CR's move out. [e31] The Protocols provide a transition process for moving ESI IDs from one CR to a Provider of Last Resort or designated CR, or from one TDSP to another, in quantities and on a time frame that is not completely supported by standard market transactions or business processes. [e24]
 
 ## Key facts
 
@@ -251,11 +251,11 @@ No. The number is not re-issued even if the point of service ends. [e3] The one 
 
 ### Why must the TDSP get an accepted 814_21 before starting service?
 
-The Protocols make the accepted ESI ID Maintenance Response a precondition to initiating service, which ensures the ESI ID is in ERCOT's registration data first. [e17][e1]
+The Protocols make the accepted ESI ID Maintenance Response (814_21) a precondition to initiating service. [e17] The Protocols do not state a reason; the ESI ID is the identifier used in the registration and settlement systems. [e1]
 
 ### Why does the Protocol restrict aggregating metered points into one ESI ID?
 
-Aggregation requires the same Customer, same address, same Load Profile (or all IDRs), and the same voltage, UFE zone and Load Zone, because the ESI ID is what Load Profiling and settlement use. [e13][e8]
+Aggregation requires the same Customer, same address, same Load Profile (or all IDRs), and the same voltage, UFE zone and Load Zone, and a tariff that allows it. [e13] The Protocols do not state why; they say Load Profiling estimates and allocates 15-minute Load for ESI IDs. [e8]
 
 ### What if a TDSP is acquired and some premises move to a new TDSP?
 
@@ -270,7 +270,7 @@ The TDSP lists ESI IDs with at least 150 kWh and no REP of record, REPs can clai
 ### A customer's REP loses the account to a switch. What date does the load move?
 
 - The switch is effective at 0000 on the date of the effectuating meter read; the customer stays with the current CR until then. [e20]
-- The current REP of record can see the pending change in the Potential Load Loss Report. [e33]
+- The current REP of record is notified in the Potential Load Loss Report when the pending order's scheduling transaction was received outside the two Business Day window. [e33]
 
 ## Open items
 

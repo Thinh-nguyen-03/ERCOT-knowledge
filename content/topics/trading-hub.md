@@ -14,7 +14,7 @@ links:
     note: A Hub is one of the three kinds of Settlement Point. [e2]
   - to: spp
     type: determines
-    note: Each Hub has its own Settlement Point Price calculated by the method in its definition. [e5]
+    note: Each Hub has its own Settlement Point Price calculated by the method in its definition. [e1]
   - to: lmp
     type: related
     note: Real-Time Hub LMPs are averages of the Real-Time LMPs of the Hub Buses. [e6]
@@ -35,7 +35,7 @@ links:
     note: Block products are a related topic for hub-referenced trading.
   - to: dam
     type: used-in
-    note: In the Day-Ahead a Hub price is built from the aggregated Shift Factors of its Hub Buses, the System Lambda and the constraint Shadow Prices. [e5]
+    note: In the Day-Ahead a Hub price is built from the aggregated Shift Factors of its Hub Buses, the System Lambda and the constraint Shadow Prices. [e34][e35][e36]
   - to: crr-auction
     type: used-in
     note: The Hub Bus definition covers the Day-Ahead Market and the CRR Auction. [e20]
@@ -77,7 +77,7 @@ evidence:
     quote: "The ERCOT Hub Average 345 kV Hub price for Real-Time is the simple average of four prices from the applicable time period: the North 345 kV Hub price, the South 345 kV Hub price, the Houston 345 kV Hub price, and the West 345 kV Hub price. The Panhandle 345 kV Hub is not included in either the Day-Ahead or Real-Time ERCOT Hub Average 345 kV Hub price."
   - id: e9
     source: np-03
-    locator: "Section 3.5.1, paragraphs (3) and (4)"
+    locator: "Section 3.5.1, paragraph (4)"
     quote: "In the event of a permanent change that removes the Hub Bus from the ERCOT Transmission Grid, ERCOT shall file a Nodal Protocol Revision Request (NPRR) to revise the appropriate Hub definition."
   - id: e10
     source: np-03
@@ -176,6 +176,43 @@ evidence:
     locator: "ERCOT display \"Real-Time LMPs for Load Zones and Trading Hubs\", note under the title"
     quote: "LMP values do not include the Real-Time price adders."
 
+  - id: e34
+    source: np-03
+    locator: "Section 3.5.2.1, paragraph (3), Day-Ahead formula"
+    quote: "DASPP _(North345) = DASL - $\\begin{array}{r} \\mathbf{\\Sigma} \\\\ \\mathbf{c} \\end{array}$(DAHUBSF _(North345, c) * DASP _(c)), if HBBC _(North345)≠0"
+  - id: e35
+    source: np-03
+    locator: "Section 3.5.2.1, paragraph (3), variable table, DASL"
+    quote: "The DAM Shadow Price for the system power balance constraint for the hour."
+  - id: e36
+    source: np-03
+    locator: "Section 3.5.2.1, paragraph (3), variable table, DASP(c)"
+    quote: "The DAM Shadow Price for the constraint c for the hour."
+  - id: e37
+    source: np-03
+    locator: "Section 3.5.2.1, paragraph (3), variable table, HB(North345,c)"
+    quote: "The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus for the constraint c."
+  - id: e38
+    source: np-03
+    locator: "Section 3.5.2.1, paragraph (3), variable table, HBBC(North345)"
+    quote: "The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus in base case."
+  - id: e39
+    source: np-03
+    locator: "Section 3.5.2.1, paragraph (4), Real-Time formula (continuation)"
+    quote: "[](HUBDF _(hb, North345) * ([](RTHBP _(hb, North345, y) * TLMP _(y)) / ([]TLMP _(y)))))], if HB _(North345)≠0"
+  - id: e40
+    source: np-03
+    locator: "Section 3.5.2.1, paragraph (4), variable table, TLMP(y)"
+    quote: "The duration of the portion of the SCED interval y within the 15-minute Settlement Interval"
+  - id: e41
+    source: np-03
+    locator: "Section 3.5.2.1, paragraph (4), variable table, HB(North345)"
+    quote: "The total number of Hub Buses in the Hub with at least one energized component in each Hub Bus."
+  - id: e42
+    source: ercot-hubs-load-zones-page
+    locator: 'ERCOT display "Real-Time LMPs for Load Zones and Trading Hubs", column headings (alt copy line 4)'
+    quote: "Settlement Point | LMP | 5 MinChange to LMP | RTRDPA + LMP | 5 Min Change to RTRDPA + LMP"
+
 ---
 
 ## Definition
@@ -194,9 +231,9 @@ Changes to what is inside a Hub Bus are handled by notice, not by changing the d
 
 ## Formula
 
-Day-Ahead, North 345 shown (the other hubs use the same structure with their own Hub Buses). The Hub price is the System Lambda minus the sum, over binding constraints, of the Hub's aggregated Shift Factor times that constraint's Shadow Price. [e5][e21] The aggregated Shift Factor averages the shift factors of the Hub Buses, and each Hub Bus's factor averages its energized power flow buses: the Hub Distribution Factor is 1 divided by the number of Hub Buses (zero if there are none) and the Hub Bus Distribution Factor is 1 divided by the number of energized power flow buses in the Hub Bus. [e21][e22] If no Hub Bus in the Hub has an energized component in the base case, the Day-Ahead price falls back to the ERCOT Bus Average 345 price. [e23]
+Day-Ahead, North 345 shown (the other hubs use the same structure with their own Hub Buses). The Hub price is the Day-Ahead System Lambda (the Shadow Price for the system power balance constraint) minus the sum, over Day-Ahead binding transmission constraints, of the Hub's aggregated Shift Factor times that constraint's Shadow Price, when the count of Hub Buses with an energized component in the base case is not zero. [e34][e35][e36][e38] The aggregated Shift Factor averages the shift factors of the Hub Buses, and each Hub Bus's factor averages its energized power flow buses: the Hub Distribution Factor is 1 divided by the number of Hub Buses with at least one energized component for the constraint (zero if there are none) and the Hub Bus Distribution Factor is 1 divided by the number of energized power flow buses in the Hub Bus. [e21][e22][e37] If that base-case count is zero, the Day-Ahead price falls back to the ERCOT Bus Average 345 price. [e23][e38]
 
-Real-Time, North 345 shown. The Hub price for each 15-minute Settlement Interval is the Real-Time Reliability Deployment Price plus the time-weighted (by SCED interval duration) average of the Hub Bus prices, with the result floored by taking the maximum of -$251 and that value. [e27][e5] Each Hub Bus price is itself the average of its energized Electrical Bus LMPs, using a distribution factor of 1 divided by the count of energized buses; the Hub Distribution Factor is likewise 1 divided by the number of Hub Buses. [e25][e26] If no Hub Bus is energized, the price falls back to the ERCOT Bus Average 345 price. [e24] The Reliability Deployment Price in the formula reflects the impact of reliability deployments on energy prices, calculated from the Real-Time Reliability Deployment Price Adder for Energy. [e28]
+Real-Time, North 345 shown. The Hub price for each 15-minute Settlement Interval is the Real-Time Reliability Deployment Price plus the average of the Hub Bus prices weighted by the duration of each SCED interval within the Settlement Interval, with the result floored by taking the maximum of -$251 and that value, when the count of Hub Buses with an energized component is not zero. [e27][e39][e40][e41] Each Hub Bus price is itself the average of its energized Electrical Bus LMPs, using a distribution factor of 1 divided by the count of energized buses; the Hub Distribution Factor is likewise 1 divided by the number of Hub Buses with at least one energized component. [e25][e26][e41] If that count is zero, the price falls back to the ERCOT Bus Average 345 price. [e24][e41] The Reliability Deployment Price in the formula reflects the impact of reliability deployments on energy prices, calculated from the Real-Time Reliability Deployment Price Adder for Energy. [e28]
 
 ERCOT 345 (the Hub Average): the Day-Ahead aggregated Shift Factor is the average of the North, South, Houston and West Hub Shift Factors. [e29] The Real-Time price is the sum of the four hub prices divided by four. [e30] If the ERCOT Bus Average hub has no energized Hub Buses in the base case, the Day-Ahead ERCOT 345 price equals the ERCOT 345 Bus price. [e31] The ERCOT Bus Average 345 kV Hub itself uses the aggregated Shift Factors of its Hub Buses in the Day-Ahead and the simple average of the time-weighted Hub Bus prices in Real-Time. [e32]
 
@@ -204,7 +241,7 @@ ERCOT 345 (the Hub Average): the Day-Ahead aggregated Shift Factor is the averag
 
 The definition of Hub says a Hub's bus list and price method can never be modified and that a Hub, once defined, exists in perpetuity. [e1] Section 3.5.1 adds that a Hub may not be modified except as explicitly described in that Hub's own definition. [e3] A pending protocol change (NPRR941, not yet in effect) would also exclude the Lower Rio Grande Valley 138/345 kV Hub from the ERCOT Hub Average 345 kV Hub price. [e10]
 
-Practice: ERCOT's real-time display of Load Zone and Trading Hub LMPs states that LMP values do not include the Real-Time price adders, and it lists a separate RTRDPA + LMP column. [e33][e15] When comparing a displayed hub LMP to a settled Real-Time hub price, note that the settled formula adds the Reliability Deployment Price. [e27][e28]
+Practice: ERCOT's real-time display of Load Zone and Trading Hub LMPs states that LMP values do not include the Real-Time price adders, and its column headings include a separate "RTRDPA + LMP" column. [e33][e42] When comparing a displayed hub LMP to a settled Real-Time hub price, note that the settled formula adds the Reliability Deployment Price. [e27][e28]
 
 ## Key facts
 
@@ -248,11 +285,11 @@ Not through any ordinary process: the Hub definition says the list of Hub Buses 
 
 ### What if every Hub Bus in a hub is de-energized?
 
-The formulas fall back to another hub: North 345's Day-Ahead and Real-Time prices become the ERCOT Bus Average 345 price when no Hub Bus has an energized component. [e23][e24]
+The formulas fall back to another hub: North 345's Day-Ahead and Real-Time prices become the ERCOT Bus Average 345 price when no Hub Bus in the Hub has an energized component (the base case for the Day-Ahead formula). [e23][e24][e38][e41]
 
 ### Why does the Day-Ahead hub price use shift factors while the Real-Time price averages bus prices?
 
-The Protocol text writes the two methods differently: the Day-Ahead price is built from System Lambda and constraint Shadow Prices using aggregated Shift Factors, and the Real-Time price is a time-weighted average of Hub Bus prices. [e5] The Protocol does not state a reason for the difference.
+The Protocol text writes the two methods differently: the Day-Ahead price is built from System Lambda and constraint Shadow Prices using aggregated Shift Factors, and the Real-Time price is a time-weighted average of Hub Bus prices. [e5][e34][e39] The Protocol does not state a reason for the difference.
 
 ### What happens to a hub price when a bus is temporarily taken out of service?
 

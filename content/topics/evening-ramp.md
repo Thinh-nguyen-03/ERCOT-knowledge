@@ -35,10 +35,10 @@ links:
     note: ERCOT's AS methodology effective 2026-01-01 says net load ramp risk should be accounted for in determining Non-Spin requirements. [e20]
   - to: wind-solar-forecasts
     type: related
-    note: The IMM's 2024 report says renewable forecast errors affect thermal unit commitment and are especially hard on hot summer evenings. [e15]
+    note: The IMM's 2024 report says forecast errors for intermittent renewables directly impact thermal unit commitment, and that over-forecasting is particularly challenging during hot summer evenings. [e15]
   - to: ordc
     type: related
-    note: The IMM calls the evening spikes predictable and says shortage pricing is what raises the implied market heat rate. [e2][e8]
+    note: The IMM says SCED often dispatches quick-start gas plants or ESRs with high-priced energy offer curves during the evening ramp-down, which results in frequent and predictable price spikes. [e2]
 evidence:
   - id: e1
     source: imm-som-2025
@@ -144,7 +144,7 @@ The evening ramp, which the IMM calls the "duck curve," is the sharp rise in net
 
 ## How it works
 
-Net load is demand minus renewable generation, so when solar ramps down in the evening and wind has only begun to ramp up, the rest of the fleet must cover a fast increase. [e1] ERCOT's summer 2023 review defines the peak net load as the highest loading on the non-renewable Resources, and found the solar down ramp made late-evening conditions tighter than at peak demand. [e24][e8]
+Net load is total demand minus renewable generation; the IMM says the tightest system conditions have moved to the later evening hours (7 to 9 p.m.) because solar generation has ramped down while wind generation is beginning to ramp up. [e1] ERCOT's summer 2023 review defines the peak net load as the highest loading on the non-renewable Resources, and found the solar down ramp made late-evening conditions tighter than at peak demand. [e24][e8]
 
 The IMM's 2021 report explained the "duck curve" as a prediction: once a large quantity of solar entered, conventional resources would have to ramp rapidly each evening as the sun went down and solar output fell sharply (it also gave the Texas name "dead armadillo curve"). [e12] By its 2023 report, with over 20 GW of installed solar, the IMM said dispatchable resources must ramp rapidly each evening, and that this is felt even more acutely on days when wind stays low into the evening. [e13]
 
@@ -173,11 +173,11 @@ The IMM treats market design as part of the issue. In its 2025 report it notes t
 
 ## Say it like this
 
-(Guidance) The duck curve in ERCOT is a net load story: solar fades just as demand is still high, so the evening hours, not the afternoon peak, are where prices spike. The IMM says storage growth has reduced the frequency of spikes, but the ramp itself remains, and the net load hour keeps moving later.
+(Guidance) The duck curve in ERCOT is a net load story: solar fades just as demand is still high, so the evening hours, not the afternoon peak, are where prices spike. [e1][e2] The IMM says storage growth has reduced the frequency of spikes [e19], but the ramp itself remains, and the net load hour keeps moving later. [e9][e22]
 
 ## Common confusion
 
-(Guidance) The "duck curve" is not the same as the gross load peak. The peak load hour and the net load peak are different hours; see net-load. The IMM frames the term as a net load ramp driven by solar entry. [e4] Also, a ramp spike share is a share of spikes, not of hours: the 30% figure is the share of price spikes that fell in the evening ramp. [e2]
+(Guidance) The "duck curve" is not the same as the gross load peak. The peak load hour and the net load peak are different hours (the IMM puts the firm peak load hour around 4 to 5 p.m. and the net load peak at 7 to 9 p.m.); see net-load. [e1] The IMM frames the term as a net load ramp driven by solar entry. [e4] Also, a ramp spike share is a share of spikes, not of hours: the 30% figure is the share of price spikes that fell in the evening ramp. [e2]
 
 ## Questions
 
@@ -199,11 +199,11 @@ Peak net load is the highest loading on the non-renewable Resources, so it is th
 
 ### What if wind output falls short of forecast just as solar ramps down?
 
-The IMM says the hand-off between solar and wind can create reliability risk if wind lags its forecast, and that over-forecasting renewables can lead to reliability issues if thermal units are not committed in time. [e14][e15] ERCOT's methodology says net load ramp risk, which a net load forecast may not cover as exposure to loss of generation, should be considered for Non-Spin requirements. [e20]
+The IMM says the hand-off between solar and wind can create reliability risk if wind lags its forecast, and that over-forecasting renewables can lead to reliability issues if thermal units are not committed in time. [e14][e15] ERCOT's methodology says net load ramp risk should be accounted for in the determination of Non-Spin requirements. [e20]
 
 ### Why would a multi-interval real-time market help?
 
-The IMM says it would pre-position slow-ramping resources earlier and reduce reliance on expensive ESRs and quick-start units, because the real-time market considered a single five-minute interval (this was the IMM's description in its 2025 report). [e4][e5]
+The IMM says a multi-interval real-time market would pre-position slow-ramping resources earlier and reduce reliance on expensive ESRs and quick-start units; it describes the current real-time market as considering a single interval (this was the IMM's description in its 2025 report). [e4][e5]
 
 ## Scenarios
 

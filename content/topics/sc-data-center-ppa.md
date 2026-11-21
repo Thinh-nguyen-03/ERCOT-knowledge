@@ -214,8 +214,8 @@ evidence:
     quote: "The batch framework recognizes that contribution and allows their on-site generation to offset the amount of transmission capacity they require, making it easier to connect at higher load levels."
   - id: e44
     source: puct-58000-pfp
-    locator: "Project 58000 Proposal for Publication, proposed new 25.252(c)(2)(i), Large Load Customer Tariffs"
-    quote: "A large load customer must pay contribution in aid of construction for transmission interconnection costs and distribution interconnection costs."
+    locator: "Project 58000 Proposal for Publication, proposed new 25.252(c)(2)(i)-(ii), Large Load Customer Tariffs"
+    quote: "A large load customer must pay contribution in aid of construction for transmission interconnection costs and distribution interconnection costs. (ii) Contribution in aid of construction must be made in the form of a direct cash payment."
   - id: e45
     source: puct-58000-pfp
     locator: "Project 58000 Proposal for Publication, proposed new 25.252(c)(3), Large Load Customer Tariffs"
@@ -236,6 +236,10 @@ evidence:
     source: ut-uri-timeline
     locator: "Executive Summary, Findings"
     quote: "The price of electricity spiked to $9,000 per MWh and stayed there by orders of the PUCT, which suspended some market price setting rules during the electricity blackouts."
+  - id: e50
+    source: sb6-89r
+    locator: "SB 6 Section 4, PURA §39.169(b)"
+    quote: "This section does not apply to a generation resource: (1) the registration for which included a co-located large load customer at the time of energization, regardless of whether the load was energized at a later date; or (2) a majority interest of which is owned indirectly or directly as of January 1, 2025, by a parent company of the customer that participates in the new net metering arrangement."
 ---
 
 ## Definition
@@ -248,9 +252,9 @@ Step 1, the connection rules. SB 6 told the PUCT to set a 75 MW threshold for la
 
 Step 2, the connection options. Batch Zero offers two optional pathways. Under the PCLR pathway the customer lets ERCOT curtail its controllable load when local transmission constraints arise, in exchange for earlier access to part of the grid; that pathway takes effect only upon system implementation. [e41][e42] Under the WLPUN pathway on-site generation offsets the transmission capacity the site needs, making it easier to connect at higher load levels. [e43]
 
-Step 3, the operating conditions. Under SB 6, if the data center has on-site backup generation (non-exporting generation able to serve at least 50 percent of on-site demand), then after ERCOT deploys all available market services except frequency responsive ones, the independent organization may direct the utility to require it to deploy that backup generation or curtail load. [e6] Separately, utilities serving transmission-voltage customers must have a protocol, including any necessary equipment installed before interconnection, so the load can be curtailed during firm load shed; this applies to loads interconnected after December 31, 2025, other than critical load industrial customers and critical natural gas facilities. [e7] If the data center plans a net metering arrangement with an operating facility registered as a stand-alone generation resource as of September 1, 2025, the generation company, municipally owned utility or cooperative must notify ERCOT before implementing it. [e8] ERCOT's December 2025 CDR called these SB 6 provisions the most impactful resource adequacy development since May 2025. [e23]
+Step 3, the operating conditions. Under SB 6, if the data center has on-site backup generation (non-exporting generation able to serve at least 50 percent of on-site demand), then after ERCOT deploys all available market services except frequency responsive ones, the independent organization may direct the utility to require it to deploy that backup generation or curtail load. [e6] Separately, utilities serving transmission-voltage customers must have a protocol, including any necessary equipment installed before interconnection, so the load can be curtailed during firm load shed; this applies to loads interconnected after December 31, 2025, other than critical load industrial customers and critical natural gas facilities. [e7] If the data center plans a net metering arrangement with an operating facility registered as a stand-alone generation resource as of September 1, 2025, the generation company, municipally owned utility or cooperative must notify ERCOT before implementing it, unless the generator's registration already included a co-located large load or a parent company of the customer has owned a majority interest in it since January 1, 2025. [e8][e50] ERCOT's December 2025 CDR called the SB 6 provisions on Large Load interconnection requirements and ERCOT authority to curtail Large Load consumption before and during declared grid emergencies the most impactful resource adequacy development since the May 2025 CDR. [e23]
 
-Step 4, the forecast context. More than 438,000 MW of large-user requests were in ERCOT's queue by mid-2026, nearly 90% of them data centers. [e11] The preliminary 2026 long-term forecast reached 278,003 MW in 2029, which ERCOT itself had concerns about using, and the PUCT approved ERCOT's request to adjust the LTLF using the Option B methodology. [e12][e13] For comparison, EIA reports that large flexible load (LFL) customers have historically consumed about 65% of their total approved capacity. [e14]
+Step 4, the forecast context. More than 438,000 MW of large-user requests were in ERCOT's queue by mid-2026, nearly 90% of them data centers. [e11] ERCOT's 2026 long-term load forecast (LTLF) reached 278,003 MW in 2029, which ERCOT itself had concerns about using, and the PUCT approved ERCOT's request to adjust the LTLF using the Option B methodology. [e12][e13] For comparison, EIA reports that large flexible load (LFL) customers have historically consumed about 65% of their total approved capacity. [e14]
 
 Step 5, buying the power. A person must hold a REP certificate before reselling electricity to provide retail electric service, and load is billed at the load zone price, a load-weighted average of nodal prices. [e18][e16] LSEs manage price exposure with owned generation, bilateral PPAs, futures or day-ahead purchases. [e17] A solar VPPA does not deliver power: the EPA describes a financial PPA as having no physical delivery, so the customer still buys its electricity separately. [e25][e48] Under a VPPA the project pays the offtaker when the market price is above the strike price and the offtaker pays the project when it is below, per MWh produced. [e26] VPPAs are typically settled at a trading hub, not at the project's node. [e28][e29]
 
@@ -262,7 +266,7 @@ Step 6, the wires bill. ERCOT allocates transmission costs on each customer's lo
 - SB 6 minimum screening study fee: $100,000. [e4]
 - PUCT intermediate financial security: $50,000 per MW of requested peak demand for new requests; SLLIA security is the greater of $50,000 per MW of contracted peak or allocated upgrade costs. [e5][e40]
 - Large-user requests: more than 438,000 MW by mid-2026, nearly 90% data centers. [e11]
-- September 2026: ERCOT paused energization of new Large Load data centers pending the verification and audit; ERCOT's report to the PUCT is due December 10, 2026. [e37][e38]
+- As of September 2026, ERCOT had paused energization of new Large Load data centers pending the verification and audit; ERCOT's report to the PUCT is due December 10, 2026. [e37][e38]
 - Data center actual demand grew 15.5% between January 2025 and January 2026. [e22]
 - Solar's capacity factor in the 2025 net peak interval was 1.7%, and its 2025 captured price was $21/MWh. [e35][e34]
 - Summer 2026 peak: estimated maximum 4CP reduction about 492 MW; crypto reduction about 3,299 MW. [e20]
@@ -273,7 +277,7 @@ Step 6, the wires bill. ERCOT allocates transmission costs on each customer's lo
 
 ## Common confusion
 
-(Guidance) A large load request is not a forecast of load. ERCOT said it had concerns about using its preliminary LTLF values, and EIA notes that large flexible load customers historically used about 65% of approved capacity. [e12][e14] Another confusion is assuming a renewable PPA removes price risk: the load is still billed at the load zone price, the VPPA settles at a hub, and the hedge only works to the extent the project's market price tracks what the customer pays. [e16][e28][e27] Finally, the 12CP and minimum billing demand terms are a proposal for publication, not an adopted rule. [e21]
+(Guidance) A large load request is not a forecast of load. ERCOT said it had concerns about using its LTLF values, and EIA notes that large flexible load customers historically used about 65% of approved capacity. [e12][e14] Another confusion is assuming a renewable PPA removes price risk: the load is still billed at the load zone price, the VPPA is typically settled at a hub, and the hedge only works to the extent the project's market price tracks what the customer pays. [e16][e28][e27] Finally, the 12CP and minimum billing demand terms are a proposal for publication, not an adopted rule. [e21]
 
 ## Questions
 
@@ -291,7 +295,7 @@ Transmission charges are based on the customer's load-ratio share in the four su
 
 ### Why does a solar VPPA hedge a 24x7 data center poorly?
 
-The Yale Clean Energy Forum names data centers as the classic case where a PPA's generation shape does not match round-the-clock consumption, and RMI notes that when generation and consumption are not coincident the VPPA revenues may not offset energy costs. [e32][e33] In ERCOT, most 2025 price spikes came between 7 and 9 p.m., when solar ran at a 1.7% capacity factor, and solar's 2025 captured price was only $21/MWh. [e36][e35][e34] (Reasoning) So the solar VPPA pays out least in the hours the data center's load zone bill is highest.
+The Yale Clean Energy Forum names data centers as the classic case where a PPA's generation shape does not match round-the-clock consumption, and RMI notes that when generation and consumption are not coincident the VPPA revenues may not offset energy costs. [e32][e33] In ERCOT, most 2025 price spikes came in the peak net load hours between 7 and 9 p.m., as solar ramped down; solar's capacity factor in the daily peak net load interval was just 1.7% in 2025, and its 2025 captured price was only $21/MWh. [e36][e35][e34] (Reasoning) So the solar VPPA pays out least in the hours the data center's load zone bill is highest.
 
 ### What if the PUCT adopts the July 2026 transmission proposal as written?
 
@@ -299,7 +303,7 @@ The data center's minimum billing demand would be at least its contracted peak d
 
 ### What does on-site generation buy the developer?
 
-Under the WLPUN pathway it offsets the transmission capacity the site needs. [e43] Under SB 6, qualifying backup generation also gives the independent organization the option to direct the site to run it instead of curtailing in an emergency. [e6] A net metering arrangement with an existing stand-alone generator needs prior notice to ERCOT. [e8]
+Under the WLPUN pathway it offsets the transmission capacity the site needs. [e43] Under SB 6, qualifying backup generation also gives the independent organization the option to direct the site to run it instead of curtailing in an emergency. [e6] A net metering arrangement with an existing stand-alone generator needs prior notice to ERCOT, subject to the statute's exceptions. [e8][e50]
 
 ## Scenarios
 
@@ -311,17 +315,17 @@ Under the WLPUN pathway it offsets the transmission capacity the site needs. [e4
 - Allocation risk: Batch Zero may give full, partial or no allocation this round, and projects must post security and show site control by a commitment deadline that was planned for June 2027 as of June 2026; ERCOT has since said the verification and audit will have a to-be-determined impact on the timeline. [e9][e10][e24]
 - Timing risk: as of September 2026 ERCOT had paused energization of new Large Load data centers until the audit and community impact review are complete. [e37]
 - Operations: under SB 6, if the site has qualifying on-site backup generation, the independent organization may direct the utility to require it to run that generation or curtail; and a transmission-voltage load interconnected after December 31, 2025 must be curtailable in firm load shed. [e6][e7]
-- Co-location: a net metering arrangement with an existing stand-alone generation resource requires a notice to ERCOT before it is implemented. [e8]
+- Co-location: a net metering arrangement with an existing stand-alone generation resource requires a notice to ERCOT before it is implemented, with exceptions for a resource whose registration already included a co-located large load or that a parent company of the customer has majority-owned since January 1, 2025. [e8][e50]
 - Power cost: whoever resells electricity to the site for retail service needs a REP certificate, and the load is billed at the load zone price. [e18][e16]
-- The VPPA: it is a financial contract for differences with no delivery, typically hub-settled, so the site still buys its power at the load zone. [e25][e26][e28]
+- The VPPA: it is a financial contract for differences with no delivery, typically hub-settled, so the site still buys its power at the load zone. [e25][e26][e28][e16]
 - (Reasoning) Check how the PPA's generation profile and settlement point line up with the data center's load shape at its load zone; a flat round-the-clock load needs a plan for the evening and night hours the solar project does not cover.
 - Transmission: 4CP charges are based on summer peak intervals, and a PUCT proposal would move to 12CP with a large-load minimum billing demand for at least 20 years. [e19][e21][e30]
-- For the analyst view, treat queue-based numbers with caution: ERCOT said it had concerns with the preliminary LTLF values and the PUCT approved an adjustment (Option B). [e12][e13]
+- For the analyst view, treat queue-based numbers with caution: ERCOT said it had concerns with the LTLF values and the PUCT approved an adjustment (Option B). [e12][e13]
 
 ### Variant: a winter evening shortage hits while the solar project produces nothing. What does the data center's VPPA do?
 
 - The VPPA pays per MWh the project produces, so with no output it pays nothing. [e26]
-- Norton Rose Fulbright describes exactly this in Winter Storm Uri: a buyer whose VPPA plant was shut down paid $9,000/MWh for its power and received $0 from the hedge. [e47] UT Austin's review confirms prices sat at $9,000/MWh by PUCT order during the blackouts. [e49]
+- Norton Rose Fulbright illustrates this with a hypothetical Winter Storm Uri example: if a data center's VPPA plant was shut down during the storm, the data center paid $9,000/MWh for the power it needed and received $0 from the hedge. [e47] UT Austin's review confirms prices sat at $9,000/MWh by PUCT order during the blackouts. [e49]
 - (Reasoning) A data center that cannot curtail is exposed to the full load zone price in those hours unless its retail contract or other hedges cover them; the solar VPPA is not a reliability or shortage hedge.
 
 ## Open items

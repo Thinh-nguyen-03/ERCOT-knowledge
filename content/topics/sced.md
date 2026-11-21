@@ -20,7 +20,7 @@ links:
     note: System Lambda is a SCED output, capped at the effective VOLL. [e7]
   - to: shadow-price
     type: determines
-    note: Step 2 of SCED produces Shadow Prices for binding constraints. [e5]
+    note: Step 2 of SCED produces Shadow Prices, subject to security constraints. [e5]
   - to: rtm
     type: part-of
     note: In real time SCED calculates Base Points, Ancillary Service awards, LMPs and Real-Time MCPCs approximately every five minutes. [e3]
@@ -35,7 +35,7 @@ links:
     note: SCED applies a two-step method that mitigates energy offers to resolve Non-Competitive Constraints. [e14]
   - to: ruc
     type: related
-    note: RUC-committed Resources get proxy Energy Offer Curves in SCED, and the IMM reports a $250 offer floor on them. [e23]
+    note: The IMM reports that ERCOT applies a $250-per-MWh offer floor to RUC-committed units. [e23]
   - to: asdc
     type: related
     note: SCED awards Ancillary Service subject to ASDCs, which the IMM says define shortage pricing under RTC. [e6][e26]
@@ -230,9 +230,9 @@ The IMM says that since RTC the real-time market has functioned as expected with
 
 ## Timeline
 
-- December 8, 2020: the ERCOT Board approved NPRR1010, which updates the Adjustment Period and Real-Time Operations sections to address RTC; it takes effect with RTC implementation. [e31][e30]
+- December 8, 2020: the ERCOT Board approved NPRR1010, which updates the Adjustment Period and Real-Time Operations sections to address changes associated with the implementation of RTC. [e31][e30]
 - December 5, 2025: RTC went live (IMM). [e12]
-- After go-live the System-Wide Offer Cap in ERCOT's summer 2026 review is $2000/MWh, down from $5000/MWh. [e28]
+- ERCOT's summer 2026 review notes that SWCAP is reduced to $2000/MWh from $5000/MWh after RTC go-live on 12/5/2025. [e28]
 
 ## Key facts
 

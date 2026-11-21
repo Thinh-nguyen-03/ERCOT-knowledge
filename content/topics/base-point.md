@@ -99,7 +99,7 @@ evidence:
   - id: e18
     source: np-08
     locator: "Section 8.1.1.4.1, paragraph (1), GREDP formula and variable ASP"
-    quote: "GREDP (%) = ABS[((ATG – AEPFR)/(ASP)) – 1.0] * 100 GREDP (MW) = ABS(ATG – AEPFR – ASP) Where: ATG = Average Telemetered Generation = the average telemetered generation of the Generation Resource or for the aggregate of the IRRs within an IRR Group for the five-minute clock interval"
+    quote: "GREDP (%) = ABS[((ATG – AEPFR)/(ASP)) – 1.0] * 100 GREDP (MW) = ABS(ATG – AEPFR – ASP) Where: ATG = Average Telemetered Generation = the average telemetered generation of the Generation Resource or for the aggregate of the IRRs within an IRR Group for the five-minute clock interval ∆frequency is actual frequency minus 60 Hz EPFR = Estimated Primary Frequency Response (MW) = if │∆frequency│≤ Governor Dead-Band then EPFR = zero, if not then if ∆frequency > zero, EPFR = (∆frequency - Governor Dead-Band)/((droop value * 60) – Governor Dead-Band) * HSL * -1, if not then if ∆frequency < zero, EPFR = (∆frequency + Governor Dead-Band)/((droop value * 60) – Governor Dead-Band) * HSL * -1 AEPFR = Average Estimated Primary Frequency Response = the Estimated Primary Frequency Response (MW) will be calculated every four seconds using a Resource specific droop value where 5% droop = 0.05 the Governor Dead-Band (Hz) and Resource HSL (MW) provided by the Resource Entity, and the frequency deviation (Hz) from 60 Hz and averaged for the five-minute clock interval. For Combined Cycle Generation Resources with Non-Frequency Responsive Capacity (NFRC), the HSL to calculate the EPFR will be based on the Resource’s high limit of the capacity that is frequency responsive. For Combined Cycle Generation Resources, 5.78% Governor droop shall be used. The Resource-specific calculations will be aggregated for IRR Groups. ASP = Average Set Point = the time-weighted average of the Resource’s Updated Desired Set Point (UDSP) for the five-minute clock interval"
   - id: e19
     source: np-08
     locator: "Section 8.1.1.4.1, paragraph (4)(e)"
@@ -144,7 +144,7 @@ Base Points are how ERCOT deploys energy: the Protocols describe central dispatc
 
 Separately from SCED, ERCOT, based on system reliability needs, may issue a Dispatch Instruction requiring a Resource to move to a specific output level, called an "Emergency Base Point". [e13] The Protocols say ERCOT shall, to the fullest extent practicable, use the Day-Ahead, Adjustment Period and Real-Time processes before ordering Resources to specific output levels with Emergency Base Point instructions. [e14] After ERCOT issues a Watch for a SCED process failure, it may issue Emergency Base Points for Resources, and when it does so manually it must tell the QSE the Resource name, MW output requested, and start time and duration. [e16]
 
-Emergency Base Points can trigger extra pay. Under Section 6.6.9, where a Generation Resource or ESR gets an Emergency Base Point during Emergency Conditions or Watches and is instructed to increase generation at a price below its offer curve price, ERCOT pays the QSE additional compensation for the change from the SCED Base Point immediately before, and the offer curve is capped by the Mitigated Offer Cap. [e15]
+Emergency Base Points can trigger extra pay. Under Section 6.6.9, additional compensation may be awarded when a Generation Resource or ESR gets an Emergency Base Point due to Emergency Conditions or Watches; where it is instructed to increase generation at a price below its offer curve price, ERCOT pays the QSE additional compensation for the change from the SCED Base Point immediately before, and the offer curve is capped by the Mitigated Offer Cap. [e15]
 
 ### How deviation from the Base Point is measured
 
@@ -174,7 +174,7 @@ The base point is the MW target SCED gives each online resource every few minute
 ## Common confusion
 
 - Base Point versus offer curve: the offer curve is the input from the QSE and the Base Point is the output from SCED. [e3][e1]
-- Base Point versus Emergency Base Point: the Emergency Base Point is a manual reliability instruction to move to a specific output level, outside the SCED price-setting process. [e13][e14]
+- Base Point versus Emergency Base Point: the Emergency Base Point is a reliability-driven Dispatch Instruction requiring a Resource to move to a specific output level, which ERCOT is to use only after the Day-Ahead, Adjustment Period and Real-Time processes as far as practicable. [e13][e14]
 - Base Point versus UDSP: the UDSP is the ramping value toward the Base Point plus the Regulation Service instruction, so it is not the same number. [e10]
 - Deviation is measured against the average set point (ASP), not against the Base Point itself. [e18]
 
@@ -194,7 +194,7 @@ The Base Point is SCED's MW target. The UDSP is the sum of the expected output o
 
 ### Why are Emergency Base Points a separate concept, and what does ERCOT owe the Resource?
 
-They are reliability-driven instructions to move to a specific output level, and ERCOT is to use the market processes first as far as practicable. [e13][e14] Because they can push a Resource off its offer-curve economics, Section 6.6.9 can pay additional compensation, with the offer capped at the MOC. [e15]
+They are reliability-driven instructions to move to a specific output level, and ERCOT is to use the market processes first as far as practicable. [e13][e14] Section 6.6.9 says additional compensation may be awarded where a Resource is instructed to increase generation at a price below its offer-curve price, with the offer capped at the MOC. [e15]
 
 ### What if SCED cannot solve?
 

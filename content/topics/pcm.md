@@ -225,6 +225,14 @@ evidence:
     source: puct-pcm-staff-rec
     locator: "PUCT Staff memo (2024-12-13), p. 4, ERCOT Assessment"
     quote: "ERCOT noted that the current timeline to complete a full, simultaneous implementation ofRTC+B targets a launch date ofDecember 5,2025."
+  - id: e48
+    source: puct-pcm-staff-rec
+    locator: "PUCT Staff memo (2024-12-13), p. 7, cost of retention sensitivity"
+    quote: "Using the cost of retention results in the PCM equilibrium LOLE decreasing from 0.67 days per year to 0.52 days per year, as the PCM results in an additional 1.3 GW of natural gas CT capacity being retained."
+  - id: e49
+    source: puct-pcm-staff-rec
+    locator: "PUCT Staff memo (2024-12-13), p. 8, DRRS absent the PCM"
+    quote: "As directed by ERCOT, E3 also reviewed the impacts of DRRS absent the PCM, as this new ancillary service would provide an additional revenue stream for ERCOT resources, which could incentivize new capacity into the market."
 ---
 
 ## Definition
@@ -233,7 +241,7 @@ The Performance Credit Mechanism (PCM) is a reliability program, proposed but ne
 
 ## How it works
 
-As E3 described it (per the IMM's 2023 report), generators earn credits by being available in the top 30 hours of highest risk, and LSEs must buy them at a centrally determined clearing price. [e1] The credit requirement is fixed before the compliance period, but settlement happens afterward, based on the credits actually produced. [e40] The IMM therefore called the PCM a novel form of capacity market, settled ex post on after-the-fact availability rather than ex ante on expected availability. [e34] On February 29, 2024 ERCOT and E3 filed a draft strawman that set out 37 design-parameter decisions, and the PUCT selected the final parameters on August 29, 2024. [e17][e12] Among the chosen parameters, a $1 billion gross cost cap and a CONE of $140/kW-year (a Frame CT with a 20-year life, levelized in real dollars) were used in the assessment. [e20][e23] E3 described the penalty as follows: a generator that clears forward but is unavailable pays two percent of the forward price and must buy back the full quantity at the actual PCM price. [e24] The IMM described the demand curve as set using trailing one-year net energy and ancillary service revenues. [e25]
+As E3 described it (per the IMM's 2023 report), generators earn credits by being available in the top 30 hours of highest risk, and LSEs must buy them at a centrally determined clearing price. [e1] The credit requirement is fixed before the compliance period, but settlement happens afterward, based on the credits actually produced. [e40] The IMM therefore called the PCM a novel form of capacity market, settled ex post on after-the-fact availability rather than ex ante on expected availability. [e34] On February 29, 2024 ERCOT and E3 filed a draft strawman that set out 37 design-parameter decisions, and the PUCT selected the final parameters on August 29, 2024. [e17][e12] The chosen design used a $1 billion gross cost cap, and the assessment used the CONE the Commission selected, $140/kW-year (a Frame CT with a 20-year life, levelized in real dollars). [e20][e23] E3 described the penalty as follows: a generator that clears forward but is unavailable pays two percent of the forward price and must buy back the full quantity at the actual PCM price. [e24] The IMM described the demand curve as set using trailing one-year net energy and ancillary service revenues. [e25]
 
 State law fences in any such program. The commission may not require LSEs or retail customers to buy such credits unless net cost to the market does not exceed $1 billion annually, less the cost of lawful interim or bridge solutions; the commission may adjust that limit for peak demand growth and inflation with a base year of 2026 (among other conditions). [e3] Credits go only to dispatchable generation, ERCOT must buy them centrally, a generator cannot earn more credits than it bid into the forward market, and a unit earns credit only for being available in real time during the tightest intervals, defined seasonally by the PUCT. [e4] The program also needs a penalty structure that gives load a net benefit, a single ERCOT-wide price with no locational differences, and removal of any bridge-solution market changes within one year of the program's start. [e27] ERCOT must begin implementing real-time co-optimization before the program starts. [e5] Before adopting it, the PUCT must require ERCOT and the IMM to complete an updated assessment of the program's cost to and effects on the ERCOT market and to submit a cost-benefit report to the commission and the Legislature. [e6] The statute does not require the PUCT to adopt any credit program at all. [e28] If one were adopted, a credit-receiving generator could not retire a dispatchable unit while participating unless the retirement begins after September 1, 2028, or the PUCT finds it is required by federal law or would relieve significant financial hardship. [e29] Once a program existed, the IMM would have to evaluate its benefits against its costs every two years and report to the Legislature. [e44]
 
@@ -241,7 +249,7 @@ State law fences in any such program. The commission may not require LSEs or ret
 
 Statutory cost limit (PURA 39.1594(a)(1)): net cost of credits to the market must not exceed $1 billion per year minus the cost of any lawful interim or bridge solutions. The PUCT may scale the $1 billion in proportion to the highest year-over-year net peak demand and for inflation, both from a 2026 base year. [e3] PUCT Staff's position was that the only way to ensure compliance with this net-cost language was to cap gross PCM cost at $1 billion. [e21]
 
-Non-performance settlement under the chosen design, as E3 described it: penalty = 2% x forward clearing price x quantity not delivered, plus buy-back of the full quantity at the actual PCM price. [e24]
+Non-performance settlement under the chosen design, as E3 described it: penalty at 2% of the forward market price, plus buy-back of the full quantity at the actual PCM market price. [e24] (The memo does not say which quantity the 2% is applied to.)
 
 ## ERCOT context
 
@@ -252,7 +260,7 @@ The assessments arrived on December 6, 2024, with a revised IMM version on Decem
 - ERCOT/E3: net cost about $12 million per year, because energy and AS savings almost offset the $1 billion of PCM payments. [e9]
 - IMM: net cost likely $1 billion per year in the short term because the cap would bind; $350 million to $725 million long term; and $930 million to $2 billion per year if the cap were removed. [e35][e9][e26]
 - IMM: capacity margin impact under the chosen design less than three percent over the long term. [e36]
-- E3: under a cost-of-retention sensitivity ($75/kW-year instead of $140), the energy-only LOLE fell to 0.67 days per year and the PCM to 0.52. [e43]
+- E3: under a cost-of-retention sensitivity ($75/kW-year instead of $140), the energy-only LOLE fell to 0.67 days per year and the PCM to 0.52. [e43][e48]
 - E3: 90.2% of loss-of-load hours fall in winter, 8.4% in summer, 1.4% in fall and none in spring. [e32]
 - E3: batteries' margins rise 29% and wind's fall 1.2% under the PCM; batteries could have an incentive to withhold discharge in PC hours to stay "available". [e30][e31]
 - E3: DRRS as defined in NPRR1235 would incent less than 100 MW of gas CT capacity. [e33]
@@ -289,7 +297,7 @@ ERCOT's own position, in its cover memo, was that the PUCT should consider refin
 
 ## Common confusion
 
-(Guidance) PCM credits are earned by availability in the top 30 hours of highest risk and bought by LSEs; settlement is after the fact, which is why the IMM called it a novel capacity market. [e1][e40][e34] It is also not DRRS, which is an Ancillary Service (see the drrs topic); the Chairman pointed resources to DRRS rather than the PCM as designed. [e10] The $1 billion cap in statute is a net cost cap; the chosen design applied it as a gross cap, and whether net costs were near $12 million or hundreds of millions depended on the study. [e3][e20][e9]
+(Guidance) PCM credits are earned by availability in the top 30 hours of highest risk and bought by LSEs; settlement is after the fact, which is why the IMM called it a novel capacity market. [e1][e40][e34] It is also not DRRS, which Staff described as a new ancillary service (see the drrs topic); the Chairman pointed resources to DRRS rather than the PCM as designed. [e49][e10] The $1 billion cap in statute is a net cost cap; the chosen design applied it as a gross cap, and whether net costs were near $12 million or hundreds of millions depended on the study. [e3][e20][e9]
 
 (Guidance) "Shelved as designed" is not "repealed": PURA 39.1594 still sets the conditions for any future credit program, and the Chairman wrote that reconsideration may be appropriate in the future. [e3][e10]
 

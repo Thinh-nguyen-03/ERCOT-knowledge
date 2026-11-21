@@ -11,7 +11,7 @@ as_of: 2026-11-21
 links:
   - to: rtm
     type: contrasts-with
-    note: The RTM settles on 15-minute intervals from SCED prices, while the DAM settles on one-hour intervals from the DAM clearing. [e3]
+    note: The RTM settles on 15-minute intervals, while the DAM settles on one-hour intervals from the DAM clearing. [e3]
   - to: ptp-obligation
     type: composed-of
     note: PTP Obligation bids are cleared in the DAM and settled on the Settlement Point Price difference between sink and source. [e10]
@@ -165,7 +165,7 @@ evidence:
   - id: e29
     source: np-04
     locator: "Section 4.6.2.3, Day-Ahead Make-Whole Settlements, paragraph (4)"
-    quote: "(4) The Day-Ahead Make-Whole Payment guarantees the QSE that the total payment received from the DAM for a DAM-committed Resource is not less than the total cost calculated based on the Startup Cap, the Minimum Energy Cap, and the Energy Offer Curve capped by the Energy Offer Curve Cap defined under Section 4.4.9.3.3, Energy Offer Curve Cost Caps."
+    quote: "(3) A QSE that has a Three-Part Supply Offer cleared in the DAM is eligible for Day-Ahead Make-Whole Payment energy cost compensation in a DAM-committed Operating Hour, if, for the Resource associated with the offer the generator’s breakers were closed, as indicated by a telemetered Resource Status of On-Line, for at least one minute during the DAM-committed Operating Hour. (4) The Day-Ahead Make-Whole Payment guarantees the QSE that the total payment received from the DAM for a DAM-committed Resource is not less than the total cost calculated based on the Startup Cap, the Minimum Energy Cap, and the Energy Offer Curve capped by the Energy Offer Curve Cap defined under Section 4.4.9.3.3, Energy Offer Curve Cost Caps."
   - id: e30
     source: np-04
     locator: "Section 4.6.2.3, paragraph (7)"
@@ -254,10 +254,6 @@ evidence:
     source: ref-ercot-forward-markets-101
     locator: "ERCOT Forward Markets 101 training deck (tier 2), scenario: How's it settled? (energy offer)"
     quote: "Paid 60 MW at the DAM Energy Price Charged 10 MW at the Real-Time Energy Price"
-  - id: e52
-    source: ref-ercot-forward-markets-101
-    locator: "ERCOT Forward Markets 101 training deck (tier 2), Point-to-Point Obligations"
-    quote: "Hourly Financial instruments • Purchased at DAM price spread • Settled at Real-Time price spread"
   - id: e53
     source: np-04
     locator: "Section 4.4.9.5, paragraph (1)"
@@ -272,7 +268,7 @@ The Day-Ahead Market is a daily, co-optimized market run the day before the Oper
 
 ### Timeline
 
-A QSE must submit DAM Energy Bids and DAM Energy-Only Offer Curves by 1000 in the Day-Ahead, and ERCOT starts the DAM clearing process at 1000. [e7][e53][e4] If processing of bids and offers after 0900 is significantly delayed or impacted by a failure of ERCOT software or systems that directly impacts the DAM, ERCOT posts a Notice extending the start time by at least the duration of the delay plus ten minutes, and the extension may not exceed one hour from when the delay is resolved. [e19] ERCOT must notify the parties to each cleared transaction of the results no later than 1330 in the Day-Ahead. [e6] ERCOT's Forward Markets 101 training deck (tier 2) shows the same 10:00 and 13:30 markers. [e52]
+A QSE must submit DAM Energy Bids and DAM Energy-Only Offer Curves by 1000 in the Day-Ahead, and ERCOT starts the DAM clearing process at 1000. [e7][e53][e4] If processing of bids and offers after 0900 is significantly delayed or impacted by a failure of ERCOT software or systems that directly impacts the DAM, ERCOT posts a Notice extending the start time by at least the duration of the delay plus ten minutes, and the extension may not exceed one hour from when the delay is resolved. [e19] ERCOT must notify the parties to each cleared transaction of the results no later than 1330 in the Day-Ahead. [e6]
 
 ### What clears and how
 
@@ -304,7 +300,7 @@ ERCOT corrects prices for an Operating Day when a market solution is invalid or 
 
 The IMM's 2025 report says that with RTC, energy and ancillary services in the day-ahead market are now strictly financial positions, and ERCOT settles imbalances on those positions in real time. [e15] The IMM adds that before RTC, ancillary services awarded in the DAM implied a physical obligation, while otherwise the DAM is a voluntary financial market creating no physical obligations. [e40] It also describes virtual ancillary service positions as a new DAM feature implemented with RTC. [e47]
 
-The DAM cleared 62% of real-time load in 2025 (energy bought through generator-specific and virtual offers), which the IMM says is in line with recent years while other US RTOs clear more than 90% in the day-ahead market. [e14][e41] Three-part offers were 58% of DAM energy sold and served 36% of real-time load. [e16] The IMM says less than half of physical real-time generation is scheduled through the DAM. [e42] It notes thermal resources not awarded through three-part offers risk not recovering start-up and minimum generation costs, and that most renewables intentionally do not submit three-part offers. [e46]
+The DAM cleared 62% of real-time load in 2025, which the IMM says is in line with recent years while other US RTOs clear more than 90% in the day-ahead market. [e14][e41] Three-part offers were 58% of DAM energy sold and served 36% of real-time load. [e16] The IMM says less than half of physical real-time generation is scheduled through the DAM. [e42] It notes thermal resources not awarded through three-part offers risk not recovering start-up and minimum generation costs, and that most renewables intentionally do not submit three-part offers. [e46]
 
 The IMM suggests (opinion) that low physical participation may reflect the imbalance risk of day-ahead positions, particularly for intermittent resources and duration-limited ESRs, which must buy back the position at the real-time price if they cannot deliver. [e45]
 
@@ -336,8 +332,8 @@ The day-ahead market is ERCOT's voluntary forward market where energy, ancillary
 
 ## Common confusion
 
-- The DAM is financial, not a physical commitment: a DAM energy award is settled against real-time prices, with imbalances settled in real time. [e15]
-- DAM versus RUC: the DAM does not guarantee a unit runs. A generator's DAM award earns the DAM price and the DAM make-whole applies only under its own eligibility conditions. [e29][e31]
+- The DAM is financial, not a physical commitment: the IMM says energy and ancillary services in the day-ahead market are strictly financial positions, with imbalances settled in real time. [e15]
+- DAM versus RUC: the Day-Ahead Make-Whole Payment applies only under its own eligibility conditions, for example a cleared Three-Part Supply Offer with the generator's breakers closed for at least one minute in the DAM-committed Operating Hour. [e29][e31]
 
 ## Questions
 
@@ -355,7 +351,7 @@ At a modest premium: the IMM reports an average premium of $1.17/MWh and an aver
 
 ### Why does the DAM clear only about 62% of real-time load, and why might participants stay out?
 
-The IMM reports 62% in 2025, with less than half of physical real-time generation scheduled through the DAM. [e14][e42] The IMM's view is that part of the reason is imbalance risk for intermittent and duration-limited storage resources, and that thermal resources are mostly self-committed. [e45]
+The IMM reports 62% in 2025, with less than half of physical real-time generation scheduled through the DAM. [e14][e42] The IMM's view is that part of the reason is imbalance risk for intermittent and duration-limited storage resources. [e45]
 
 ### What if ERCOT cannot finish the DAM by 1900?
 

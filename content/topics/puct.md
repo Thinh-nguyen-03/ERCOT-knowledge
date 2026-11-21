@@ -35,7 +35,7 @@ links:
     note: The PUCT approved three 765-kV import paths for the Permian Basin Reliability Plan in a 2025 second order. [e33]
   - to: large-load-interconnection
     type: regulates
-    note: In August 2026 the PUCT granted ERCOT good cause exceptions to pause Batch Zero classification of Large Loads for a verification and audit. [e35]
+    note: In August 2026 the PUCT granted ERCOT good cause exceptions from the August 7, 2026 Large Load classification deadline, finding good cause to complete a verification and audit before continuing Batch Zero; ERCOT said it intends to temporarily pause Batch Zero. [e35][e45]
   - to: winter-storm-uri
     type: related
     note: On February 16, 2021 the PUCT suspended the low system-wide offer cap and reinstated it on March 3, 2021. [e37][e38]
@@ -179,7 +179,7 @@ evidence:
   - id: e35
     source: puct-59142-good-cause-order
     locator: "PUCT Project No. 59142, Order Granting Good Cause Exceptions (filed 2026-08-20), p. 2"
-    quote: "Good cause exists to allow ERCOT to complete the verification and audit and report the results to the Commission before continuing the Batch Zero interconnection process."
+    quote: "Good cause exists to allow ERCOT to complete the verification and audit and report the results to the Commission before continuing the Batch Zero interconnection process. In accordance with 16 TAC § 25.3(b), the Commission grants ERCOT a good cause exception from the requirements of 16 TAC § 25.361(b)(16) that ERCOT (1) classify Large Loads by the August 7,2026 deadline in accordance with ERCOT Planning Guide §§ 9.3.1(2)(a); and (2) include in the August 1 and November 1, 2026 QSAs only those Large Loads that ERCOT has classified as base load under ERCOT Planning Guide § 9.2.1.1(1)."
   - id: e36
     source: puct-59142-good-cause-order
     locator: "PUCT Project No. 59142, Order Granting Good Cause Exceptions, p. 1"
@@ -187,7 +187,7 @@ evidence:
   - id: e37
     source: puct-51812-lcap-order
     locator: "PUCT Project No. 51812, Order Reinstating Low System-Wide Offer Cap (March 3, 2021), p. 1"
-    quote: "On February 16, 2021, in response to significant market anomalies, the Commission found good cause to suspend, and issued an order suspending, the use of the low system-wide offer cap (LCAP) until after the Commission's next regularly scheduled open meeting."
+    quote: "On February 16, 2021, in response to significant market anomalies, the Commission found good cause to suspend, and issued an order suspending, the use of the low system-wide offer cap (LCAP) until after the Commission's next regularly scheduled open meeting. The Commission ordered ERCOT to use the high system-wide offer cap (HCAP) until the LCAP is reinstated."
   - id: e38
     source: puct-51812-lcap-order
     locator: "PUCT Project No. 51812, Order Reinstating Low System-Wide Offer Cap, p. 2"
@@ -216,6 +216,14 @@ evidence:
     source: puct-59550-ercot-comments
     locator: "PUCT Project No. 59550, ERCOT comments, response to Question 2, p. 5 (NPRR1216, OBDRR051, VCMRR039)"
     quote: "The Commission approved these Revision Requests on September 26,2024 and ERCOT implemented Phase 1 of these Revision Requests on December 5,2025."
+  - id: e45
+    source: puct-59142-good-cause-order
+    locator: "PUCT Project No. 59142, Order Granting Good Cause Exceptions, p. 1"
+    quote: "In response, ERCOT intends to temporarily pause its transitional Batch Zero interconnection study of loads that are 75 MW or more (Large Loads), including data centers and virtual currency mining facilities, until the verification and audit are complete."
+  - id: e46
+    source: puct-51812-lcap-order
+    locator: "PUCT Project No. 51812, Order Reinstating Low System-Wide Offer Cap, p. 1"
+    quote: "On February 12, 2021, in response to an extreme winter weather event, Governor Greg Abbott issued a Declaration ofa State ofDisaster for all counties in Texas."
 ---
 
 ## Definition
@@ -241,20 +249,20 @@ Design rules. Rule 25.501 says ERCOT's protocols must be developed with microeco
 Parameters analysts model. Rule 25.509 states a high system-wide offer cap (HCAP) of $5,000 per MWh and a low cap (LCAP) of $2,000 per MWh for energy. [e11] The Protocol parameter table, however, lists the day-ahead cap at $5,000 and the real-time cap at $2,000 per MWh, and ERCOT's September 2026 review says the SWCAP fell to $2,000 from $5,000 after RTC go-live on 12/5/2025. [e15][e16] The rule text in the saved sources has not been updated to show a separate real-time value (see the offer-cap topic). The 2026 offer-cap review (Project 59550) is the first five-year review required by §25.509(d), according to ERCOT's filing. [e41] Rule 25.508 sets the ERCOT reliability standard, which includes a frequency criterion of 0.1 loss of load expectation. [e12] In July 2024 the PUCT approved a planning CONE of $140 per kW-year, while keeping the legacy $105 per kW-year value for the peaker net margin threshold. [e14]
 
 What its decisions look like. The saved orders and minutes give these examples. [e37][e33][e39][e34][e35]
-- February 16, 2021 (Winter Storm Uri): the commission found good cause to suspend the LCAP and ordered ERCOT to use the HCAP; on March 3, 2021 it ended the suspension and ordered ERCOT to resume the LCAP. [e37][e38]
+- February 16, 2021 (during an extreme winter weather event [e46]): the commission found good cause to suspend the LCAP and ordered ERCOT to use the HCAP; on March 3, 2021 it ended the suspension and ordered ERCOT to resume the LCAP. [e37][e38]
 - October 7, 2024: it approved the Permian Basin Reliability Plan but reserved the voltage decision until no later than May 1, 2025 [e32]; its second order approved the three 765-kV import paths in Table 7.5 of the plan. [e33]
 - December 19, 2024 open meeting: it adopted Staff's final recommendation on the Performance Credit Mechanism (the minutes are a summary, not a transcript). [e39][e40]
 - 2026: it approved ERCOT's request to adjust the 2026 long-term load forecast using the "Option B" methodology under 16 TAC §25.370(e)(2)(B). [e34]
-- August 2026: after a gubernatorial letter of August 3, 2026 directing a verification and audit of data centers in ERCOT's interconnection process [e36], it granted ERCOT good cause exceptions, finding good cause to complete the audit before continuing the Batch Zero process. [e35]
+- August 2026: after a gubernatorial letter of August 3, 2026 directing a verification and audit of data centers in ERCOT's interconnection process [e36], it granted ERCOT good cause exceptions from the August 7, 2026 deadline to classify Large Loads (and from the related QSA requirement), finding good cause to complete the audit before continuing the Batch Zero process. ERCOT said it intends to temporarily pause Batch Zero until the audit is complete; the order does not itself state that the pause happened. [e35][e45]
 
 ## Timeline
 
-- 2021: the PUCT suspends (February 16) and reinstates (March 3) the LCAP during and after Winter Storm Uri. [e37][e38]
+- 2021: the PUCT suspends (February 16) and reinstates (March 3) the LCAP during and after the February 2021 extreme winter weather event. [e46][e37][e38]
 - 2023: HB 1500 (the Sunset bill) moves the Sunset date to September 1, 2029, adds §39.1514 on directives to ERCOT, and changes the PUCT's seat on ERCOT's board from "the chairman" to two commissioners. [e13][e7][e31]
 - July 2024: the PUCT approves a $140/kW-year planning CONE. [e14]
 - October 7, 2024: first Permian Basin Reliability Plan order. [e32]
 - December 19, 2024: PUCT adopts Staff's final PCM recommendation. [e39]
-- August 2026: good cause exceptions pausing Batch Zero classification. [e35]
+- August 2026: good cause exceptions from the Large Load classification deadline while ERCOT completes a data-center verification and audit; ERCOT says it intends to pause Batch Zero meanwhile. [e35][e45]
 - September 2026: first five-year review of the offer-cap programs under way (Project 59550). [e41]
 - September 1, 2029: the commission is abolished unless continued under the Sunset Act or Chapter 39. [e23]
 
@@ -273,7 +281,7 @@ What its decisions look like. The saved orders and minutes give these examples. 
 
 (Guidance) The PUCT is ERCOT's regulator. It certifies ERCOT, approves its budget and every protocol change, and sets key market parameters such as the offer caps and the reliability standard. When the market design changes in a big way, the final decision usually sits with the commission, with the IMM advising and ERCOT implementing.
 
-(Guidance) It is five governor-appointed commissioners, and since 2023 it has to give ERCOT formal written direction rather than steer it from the dais, except in a genuine emergency. [e19][e6][e29]
+(Guidance) It is five governor-appointed commissioners, and since 2023 it has to give ERCOT formal written direction rather than steer it from the dais, except in a genuine emergency. [e19][e7][e6][e29]
 
 ## Common confusion
 
@@ -299,7 +307,7 @@ It must require reasonable mitigation. Its tools include ordering new transmissi
 
 ### Why does the PUCT sometimes override its own rules in a crisis?
 
-In February 2021 it found good cause to suspend the LCAP because of significant market anomalies, then reinstated it two weeks later. [e37][e38] In August 2026 it granted good cause exceptions so ERCOT could pause Batch Zero classification for a data-center audit. [e35] Both show the commission using good-cause findings to depart from a rule's normal operation.
+In February 2021 it found good cause to suspend the LCAP because of significant market anomalies, then reinstated it two weeks later. [e37][e38] In August 2026 it granted ERCOT good cause exceptions from the Large Load classification deadline so a data-center verification and audit could be completed before Batch Zero continues. [e35][e45] Both show the commission using good-cause findings to depart from a rule's normal operation.
 
 ### What if ERCOT stopped performing its duties?
 
