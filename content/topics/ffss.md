@@ -222,7 +222,7 @@ evidence:
   - id: e45
     source: np-08
     locator: "Section 8.1.1.2.1.6, paragraph (10)"
-    quote: "If the FFSSR fails to come On-Line or stay On-Line during an FFSS deployment due to a fuel-related issue, ERCOT shall claw back and/or withhold the FFSS Hourly Standby Fee for 90 days."
+    quote: "If the FFSSR fails to come On-Line or stay On-Line during an FFSS deployment due to a fuel-related issue, ERCOT shall claw back and/or withhold the FFSS Hourly Standby Fee for 90 days. A QSE representing an FFSSR may coordinate with ERCOT and seek approval to take the FFSSR Off-Line for no more than four hours to perform critical maintenance associated with consuming the reserved fuel. If the QSE coordinates with ERCOT and receives approval to take the FFSSR unit Off-Line and brings the FFSSR back On-Line within four hours or less, this shall not count as failure to stay On-Line for the purpose of this paragraph."
   - id: e46
     source: np-08
     locator: "Section 8.1.1.2.1.6, paragraph (13)"
@@ -345,7 +345,7 @@ Firm Fuel Supply Service (FFSS) is a service provided by certain Generation Reso
 
 **Procurement calendar.** ERCOT issues an RFP by August 1 each year, offers are due on or before September 1, and awards are issued by September 30. [e24][e25] ERCOT procures FFSS ahead of each obligation period, with a maximum of $54 million in procurement costs for a single obligation period, and at least 70% of that budget goes to the on-site and resource-controlled categories unless offers fall short. [e3][e4] An offer is an offer to supply the awarded capacity, hold enough reserved fuel for at least one deployment, and reserve emissions hours for at least three deployments in the obligation period. [e26]
 
-**Three categories.** The PUCT rule, shown in the saved copy as effective 2/25/2026, defines three ways to qualify. On-site FFSS needs demonstrated dual fuel capability, the ability to burn alternative on-site stored fuel, and on-site fuel storage. [e19] Resource-controlled FFSS needs on-site gas or fuel oil storage, or off-site gas storage where the resource or QSE owns and controls both the storage facility and the pipeline delivering to the resource. [e20] Contractual off-site FFSS needs a firm gas storage agreement and a firm transportation agreement with a pipeline that is a critical natural gas facility. [e21] The Protocols add that a resource may take part under only one category. [e22] The IMM says the contractual off-site gas expansion was added in July 2023. [e61]
+**Three categories.** The PUCT rule, shown in the saved copy as effective 2/25/2026, defines three ways to qualify. On-site FFSS needs demonstrated dual fuel capability, the ability to burn alternative on-site stored fuel, and on-site fuel storage. [e19] Resource-controlled FFSS needs on-site gas or fuel oil storage, or off-site gas storage where the resource or QSE owns and controls both the storage facility and the pipeline delivering to the resource. [e20] Contractual off-site FFSS needs a firm gas storage agreement and a firm transportation agreement with a pipeline that is a critical natural gas facility. [e21] The Protocols add that a resource may take part under only one category. [e22] The IMM says that in July 2023 ERCOT expanded FFSS to include certain gas-fired resources with owned natural gas stored offsite and backed by firm transportation and storage agreements. [e61]
 
 **Qualification and testing.** Every year a QSE must show each offered primary and alternate resource can use its reserved fuel and sustain output for 60 minutes at the MW level it wants to qualify, and the most that can be offered is the average Real-Time net real power telemetered during that demonstration. [e23] ERCOT's guidance says a previous deployment can be used if it falls in the one-year testing period, with an August 15 deadline to inform ERCOT. [e69] An offer form may name up to three alternate resources per primary resource. [e35]
 
@@ -391,22 +391,22 @@ Deployments, per the IMM: five consecutive days in January 2024 (10 resources, m
 - Budget: a maximum of $54 million in procurement costs per obligation period. [e3]
 - Deployment hours: 48 hours per deployment. [e5]
 - 2024-2025 procurement: 4,195 MW; offer cap $12,240 per MW. [e12]
-- Clawback is 90 days of the standby fee for fuel-related failures to come on or stay on-line in a deployment, and 15 days for non-fuel-related ones, unless a transmission outage or limitation prevented deployment to LSL. [e45][e46][e47]
-- Decertification follows fuel-related failures in two or more deployments, or an hourly rolling equivalent availability factor below 50%. [e48][e49]
+- Clawback is 90 days of the standby fee for fuel-related failures to come on or stay on-line in a deployment, and 15 days for non-fuel-related ones, unless a transmission outage or limitation prevented deployment to LSL; an ERCOT-approved Off-Line period of up to four hours for critical fuel-related maintenance does not count as failing to stay On-Line. [e45][e46][e47]
+- Grounds for decertification include fuel-related failure to come On-Line or stay On-Line in two or more deployments, and failure to maintain an hourly rolling equivalent availability factor of at least 50%. [e48][e49]
 - FFSS uplift: $45.9 million in 2025, up from $33.8 million in 2024. [e9]
 
 ## Timeline
 
 - March 31, 2022: NPRR1120 approved, creating FFSS (per the IMM). [e58]
 - December 21, 2022: first FFSS deployment instructions issued, during Winter Storm Elliott. [e60][e73]
-- July 2023: contractual off-site gas category added (per the IMM). [e61]
+- July 2023: FFSS expanded to certain gas-fired resources with offsite gas storage backed by firm transportation and storage agreements (per the IMM). [e61]
 - NPRR1118 (effective 08/01/2024 per the PUCT staff memo's appendix): decreased the number of obligation periods awarded in one procurement from two to one. [e67]
 - NPRR1141 (approved 05/15/2025, effective 06/01/2025 per the PUCT staff memo): standby fee clawbacks during a winter weather Watch use a linear curve approach. [e68]
 - February 2026: PUCT rulemaking for 16 TAC 25.520 (per the IMM; saved rule copy shows effective 2/25/2026). [e54][e18]
 
 ## Say it like this
 
-FFSS is a winter insurance payment: ERCOT pays selected generators a standby fee to hold backup fuel so they can keep running if gas is curtailed, and the fee is clawed back if they fail to show up. The IMM's complaint is that deployment criteria are vague and that deployments have been called when prices and reserves showed no scarcity. [e43][e14][e56]
+FFSS is a winter insurance payment: ERCOT pays selected generators a standby fee to hold backup fuel so they can keep running if gas is curtailed, and the fee is clawed back if they fail to show up. The IMM's complaint is that deployment criteria beyond a winter weather watch are unclear and left to operator discretion. [e43][e14]
 
 ## Common confusion
 
@@ -420,7 +420,7 @@ The obligation period runs from November 15 through March 15, and ERCOT may spen
 
 ### How is the FFSS offer cap built?
 
-Deployment hours times projected fuel price times category heat rate. The hours are 48 per deployment, the fuel price is a projected oil index price (on-site and resource-controlled) or a projected gas index price (contractual off-site) plus the adders in the Protocols. [e27][e5][e28][e29]
+Deployment hours times projected fuel price times category heat rate. The hours are 48 per deployment, the fuel price is a projected oil index price (on-site and resource-controlled) or a projected gas index price (contractual off-site), with the Protocols' fuel adders applying to the on-site and contractual off-site categories. [e27][e5][e28][e29]
 
 ### What does the IMM say is wrong with FFSS deployment?
 
@@ -432,7 +432,7 @@ According to the IMM, ERCOT deployed it over three consecutive days in February 
 
 ### Why does ERCOT claw back standby fees, and how much?
 
-The standby fee pays for availability, so ERCOT claws it back if a resource is unavailable during a winter weather Watch or underperforms in a deployment: 90 days for fuel-related failures and 15 days for non-fuel-related failures, with no clawback if a transmission outage or limitation prevented deployment to LSL. [e43][e45][e46][e47]
+The standby fee pays for availability, so ERCOT claws it back if a resource is unavailable during a winter weather Watch or fails to come On-Line or stay On-Line in a deployment: 90 days for fuel-related failures and 15 days for non-fuel-related failures, with no clawback if a transmission outage or limitation prevented deployment to LSL. [e43][e45][e46][e47]
 
 ### What if a resource exhausts its reserved fuel during a deployment?
 

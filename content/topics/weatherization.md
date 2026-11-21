@@ -243,6 +243,22 @@ evidence:
     source: ercot-fern-outage-review
     locator: "ERCOT Winter Storm Fern Forced Outage Review (October 2026), Part I, Wind and Solar Generation"
     quote: "Wind and Solar Generation: common causes during Winter Storm Fern Icing dominated renewable impacts, with faults and electrical issues also contributing. Total Number of Outages 107 Total MWh Lost ~610,000 MWh"
+  - id: e51
+    source: puct-25-55
+    locator: "16 TAC 25.55(c)(1)(B), start"
+    quote: "Beginning in 2023, implement weather emergency preparation measures by December 1 each year, in addition to the weather emergency preparation measures"
+  - id: e52
+    source: puct-25-55
+    locator: "16 TAC 25.55(c)(3)(B)(iii), summer declaration"
+    quote: "Provides the maximum ambient temperature at which each resource has experienced sustained operations, as measured at the resource site or the weather station nearest to the resource site;"
+  - id: e53
+    source: puct-25-55
+    locator: "16 TAC 25.55(c)(3)(B)(v), summer attestation"
+    quote: "Includes a notarized attestation sworn to by the generation entity’s highestranking representative, official, or officer with binding authority over the generation entity attesting to the completion of all applicable activities described in paragraph (2) of this subsection, and to the accuracy and veracity of the information described in this subparagraph."
+  - id: e54
+    source: puct-25-55
+    locator: "16 TAC 25.55 page footer, copy effective date"
+    quote: "§25.55-1 effective 10/20/2022 (P 53401)"
 ---
 
 ## Definition
@@ -253,9 +269,9 @@ Weatherization standards are the PUCT's weather emergency preparedness rule, 16 
 
 **Who and when it applies.** A generation entity is an ERCOT-registered resource entity acting for an ERCOT-registered generation or energy storage resource. [e14] A resource with an ERCOT-approved notice of suspension of operations for the summer or winter season is not required to comply until the return-to-service date in its notice of change of designation; a new or repowered resource, or a transmission facility energized for the first time, must meet the rule before its commissioning date or first energization. [e15][e16] The rule defines the winter season as December 1 to February 28 of the following year. [e19]
 
-**What winter measures look like.** The entity must implement measures that could reasonably be expected to ensure sustained operation of all cold weather critical components, such as adequate wind breaks, insulation and enclosures, and freeze protection equipment tested or verified before and monthly during winter. [e20][e21] On top of that, beginning in 2023, resources must be prepared for the 95th percentile minimum average 72-hour wind chill temperature in ERCOT's historical weather study for their weather zone. [e22] Summer measures include maintaining hot weather critical components and verifying them before and monthly during summer, plus preparedness for the greater of the maximum ambient temperature the resource has sustained operations at or the 95th percentile maximum average 72-hour temperature for its weather zone. [e24][e23]
+**What winter measures look like.** The entity must implement measures that could reasonably be expected to ensure sustained operation of all cold weather critical components, such as adequate wind breaks, insulation and enclosures, and freeze protection equipment tested or verified before and monthly during winter. [e20][e21] On top of that, beginning in 2023, resources must be prepared for the 95th percentile minimum average 72-hour wind chill temperature in ERCOT's historical weather study for their weather zone. [e51][e22] Summer measures include maintaining hot weather critical components and verifying them before and monthly during summer, plus preparedness for the greater of the maximum ambient temperature the resource has sustained operations at or the 95th percentile maximum average 72-hour temperature for its weather zone. [e24][e23]
 
-**Declarations.** Each generation entity must submit a declaration of winter weather preparedness between November 1 and December 1, and a declaration of summer weather preparedness between May 1 and June 1. [e4][e13] The declaration must identify the resources, give the minimum ambient temperature at which each has experienced sustained operations, and include a notarized attestation by the entity's highest-ranking representative with binding authority. [e26][e25] A declaration is also needed before a mothballed, outaged or decommissioned resource returns to service. [e27] ERCOT files a compliance report with the commission by December 20 on winter declarations. [e28] For gas-fired resources, the summer declaration submission also brings a declaration of natural gas pipeline coordination under Protocol Section 3.21. [e39]
+**Declarations.** Each generation entity must submit a declaration of winter weather preparedness between November 1 and December 1, and a declaration of summer weather preparedness between May 1 and June 1. [e4][e13] Each declaration must identify the resources, give the ambient temperature at which each has experienced sustained operations (the minimum for the winter declaration, the maximum for the summer one), and include a notarized attestation by the entity's highest-ranking representative with binding authority. [e26][e52][e25][e53] A declaration is also needed before a mothballed, outaged or decommissioned resource returns to service during the winter or summer season. [e27] ERCOT files a compliance report with the commission by December 20 on winter declarations. [e28] For gas-fired resources, the summer declaration submission also brings a declaration of natural gas pipeline coordination under Protocol Section 3.21. [e39]
 
 **Inspections and cure.** ERCOT must inspect every resource at least once every three years and may prioritize by criticality, time since last inspection, weather-related outages and other vulnerabilities. [e5][e29] ERCOT gives at least 72 hours' written notice unless otherwise agreed. [e30] If a resource is not in compliance, ERCOT must give a reasonable cure period, and it must report to commission staff any entity that does not cure in time. [e31][e32] A violation is a Class A violation that may carry a penalty up to $1,000,000 per violation per day. [e6]
 
@@ -278,8 +294,8 @@ Recent practice: ERCOT's January 2026 Winter Storm Fern materials say power plan
 - 2011/2012 winter: ERCOT starts a winter weatherization spot check program after the February 2011 cold event. [e12]
 - 2021: SB 3 adds PURA 35.0021 and 38.075 requiring weather emergency preparedness rules. [e10][e42]
 - October 2021: ERCOT roadmap proposes CEO-signed attestation letters and summer spot checks. [e43][e44]
-- Rule copy effective 10/20/2022: current 25.55 text; design-level requirements apply beginning in 2023. [e22][e23]
-- November 1, 2026: ERCOT's first historical weather study report is due to the commission, then at least every five years; entities must update measures within a year of a filed study if necessary to comply. [e36][e37]
+- Rule copy effective 10/20/2022 (the saved copy; later amendments not checked): design-level requirements apply beginning in 2023. [e54][e51][e23]
+- November 1, 2026: ERCOT's first historical weather study report is due to the commission, then at least every five years; generation entities must update winter measures within a year of a filed study if necessary to comply. [e36][e37]
 - Winter 2025-2026: ERCOT planned at least 450 inspections. [e46]
 
 ## Key facts
@@ -293,7 +309,7 @@ Recent practice: ERCOT's January 2026 Winter Storm Fern materials say power plan
 
 ## Say it like this
 
-Texas now has a PUCT rule that makes every generator prepare for each season, declare it under a notarized attestation, be inspected at least every three years, and face penalties of up to $1 million a day. [e2][e25][e5][e6] After a repeated or major weather-related forced interruption, ERCOT notifies the unit, which must contract with an independent qualified professional engineer to assess its preparation. [e7][e34]
+Texas now has a PUCT rule that makes every generator prepare for each season, declare it under a notarized attestation, be inspected at least every three years, and may face penalties of up to $1 million per violation per day. [e2][e25][e5][e6] After a repeated or major weather-related forced interruption, ERCOT notifies the unit, which must contract with an independent qualified professional engineer to assess its preparation. [e7][e34]
 
 ## Common confusion
 
