@@ -255,7 +255,7 @@ The DAM treats the Resource as self-committed for that hour unless an Off-Line N
 
 ### Why do Startup and Minimum-Energy Offers not apply to batteries?
 
-The Protocols state they are not applicable to ESRs, so an ESR's offer is an Energy Offer Curve; the Protocol text does not give the reason. [e8]
+The Protocols state that Startup Offers and Minimum-Energy Offers are not applicable to ESRs; the Protocol text does not give the reason. [e8]
 
 ## Scenarios
 
