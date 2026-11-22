@@ -6,7 +6,7 @@ kind: concept
 domain: trading
 level: 2
 lenses: [trading, portfolio, structuring, retail]
-as_of: 2026-11-21
+as_of: 2026-11-22
 depth: deep
 basis: industry-reference
 links:
@@ -15,10 +15,10 @@ links:
     note: RMI and WBCSD separate volume risk (the total amount over a longer period) from shape risk (the timing of output). [e3][e8]
   - to: ppa-vppa
     type: affects
-    note: RMI says a VPPA's value in a period is the energy generated times the difference between market and VPPA prices, so output variability makes it uncertain. [e6]
+    note: RMI and RFF say a VPPA's volume follows the energy generated, so output variability is the buyer's. [e6][e62]
   - to: basis-risk
     type: related
-    note: Norton Rose Fulbright says a fixed-volume hedge can fail on volume and on hub-versus-node price at the same time, and extra output cushions basis losses. [e4][e13]
+    note: A fixed-volume hedge settled at the hub exposes the project to volume and node-to-hub basis risk at once (Norton Rose Fulbright, Akin Gump, RFF); Norton Rose Fulbright adds that extra output cushions basis losses. [e4][e51][e46][e13]
   - to: winter-storm-uri
     type: example-of
     note: UT Austin says wind generation below contracted quantities during Uri could trigger hedge payments to counterparties. [e19]
@@ -178,21 +178,207 @@ evidence:
     source: ref-rmi-ppa-risk
     locator: "Operational Risk, What It Is"
     quote: "This is the risk associated with a renewable generator’s performance being compromised due to inadequate or failed processes, people, equipment, or systems, or from external events."
+  - id: e38
+    source: ref-rff-texas-hedges
+    locator: "Monetizing and Hedging Renewable Power (bank hedge)"
+    quote: "However, the bank hedge differs from a PPA in that the quantity of energy being hedged is contractually fixed; it does not depend on what the wind project actually generates. Hence, a bank hedge is also known as a fixed-volume price swap."
+  - id: e39
+    source: ref-rff-texas-hedges
+    locator: "Monetizing and Hedging Renewable Power (bank hedge)"
+    quote: "Third, the wind project may enter into a bank hedge agreement with a financial institution—a particularly common structure in ERCOT, thanks to its mature and liquid power trading markets."
+  - id: e40
+    source: ref-rff-texas-hedges
+    locator: "Table 1 discussion"
+    quote: "A project with a bank hedge could have experienced large gains or large losses from the high price: If generation had exceeded the hedged quantity, the project could have sold the surplus for $9,000/MWh. But if generation had underperformed, the wind project would have had to pay $9,000/MWh for the shortfall."
+  - id: e41
+    source: ref-rff-texas-hedges
+    locator: "Figure 1 and Table 1 discussion"
+    quote: "However, during the extreme weather and market conditions in Texas from February 15 to February 19, when the wholesale power price reached its $9,000/MWh cap, the bank hedge became the most precarious arrangement."
+  - id: e42
+    source: ref-rff-texas-hedges
+    locator: "Opening section"
+    quote: "Two factors account for the varying financial performances across wind projects. First, while some wind farms experienced diminished output due to icing or grid issues, others did not. In particular, wind facilities in southern Texas were more likely to keep running. Second, wind projects have a variety of mechanisms for selling or hedging their energy revenue, which results in vastly different outcomes during periods of high prices."
+  - id: e43
+    source: ref-rff-texas-hedges
+    locator: "More Effective Options"
+    quote: "The main objection to a bank hedge is that it does not distinguish between operational risk, over which the project has some control, and wind speed risk, which the project cannot control. With an increasing amount of wind generation in Texas and elsewhere, power scarcity—and thus high prices—may occur during times of low wind speeds across the region. In that scenario, wind projects, through no fault of their own, will incur substantial losses on bank hedges."
+  - id: e44
+    source: ref-rff-texas-hedges
+    locator: "Table 1 discussion"
+    quote: "As Table 1 illustrates, if a 200-MW wind farm had a bank hedge that assumed a 25 percent capacity factor for mid-February, but icing forced the entire facility offline during the four days of emergency pricing, the project would have incurred a loss of over $40 million on the hedge."
+  - id: e45
+    source: ref-rff-merchant-hedges
+    locator: "3.1 Bank Hedge (p. 7)"
+    quote: "structure of a bank hedge, which may be either financial (as shown) or physical (where the project purchases fixed volumes of electricity in the wholesale market to sell to the counterparty), but the hedging effects are equivalent."
+  - id: e46
+    source: ref-rff-merchant-hedges
+    locator: "3.1 Bank Hedge (p. 7)"
+    quote: "In a bank hedge, the prices (floating and fixed) and fixed volume are contracted hourly at the hub. The fixed-volume feature requires that the project balance the risk of generating insufficient electricity (volume risk) against the risk of significant unhedged generation (price risk)."
+  - id: e47
+    source: ref-rff-merchant-hedges
+    locator: "3.1 Bank Hedge (p. 7)"
+    quote: "The hourly nature of the contract creates the additional risk of mismatch in the timing of wind generation versus contracted hourly power sales (shape risk). To limit the extent of volume and shape risks, fixed hourly volume is typically determined by the project’s hourly generation in a “P99” scenario (Eberhardt and Brozynski 2017), the amount forecasted to be exceeded 99 percent of the time."
+  - id: e48
+    source: ref-rff-merchant-hedges
+    locator: "3.1 Bank Hedge (pp. 7-8)"
+    quote: "shortfalls from these risks, the financial institution counterparty may provide the project a “tracking account,” a loan that is repaid when project revenue exceeds contract requirements."
+  - id: e49
+    source: ref-nrf-ercot-price-spikes
+    locator: "Physical fixed-volume hedges"
+    quote: "Most of the fixed-volume hedges in ERCOT are physical, meaning the independent power company that has sold its actual electricity to the grid for a nodal price then buys back a fixed volume of power at the hub and immediately resells that hub power to the hedge counterparty."
+  - id: e50
+    source: ref-akin-ercot-hedge-slides
+    locator: "Slide 20, Physically-Settled Hedge"
+    quote: "Physically-Settled Hedges involve the sale of Energy at the Node and delivery of Energy at the Hub. Hedge Provider pays the Project Company for the delivered Energy at the Strike Price."
+  - id: e51
+    source: ref-akin-ercot-hedge-slides
+    locator: "Slide 20, Physically-Settled Hedge"
+    quote: "Difference between the sale of Energy at the Node and purchase of Energy at the Hub (for delivery) is where the Basis Differential comes into play"
+  - id: e52
+    source: ref-nrf-ercot-price-spikes
+    locator: "Section on tracking accounts"
+    quote: "Many fixed-volume hedges have a tracking account that operates as a loan from the counterparty under the fixed-volume hedge to the independent power company for the amount of any mismatch between the amount the independent power producer had to pay to purchase the power it needs to deliver under the hedge for a given month and the merchant revenue earned by the independent power producer during that month from sales of the project electricity to the grid. An actual loan in the amount of that mismatch is made by the hedge counterparty to the project each month, but only up to an aggregate cap."
+  - id: e53
+    source: ref-leveltenproxy-generation
+    locator: "How Does Proxy Generation Work?"
+    quote: "In Proxy Gen VPPAs, the Trade Quantity is based on the amount of energy that should have been delivered to the grid had the plant been operated according to ideal equipment efficiency factors and operational best practices. Again, this is different than a traditional \"as generated\" VPPA where the Trade Quantity is directly related to the actual delivered energy. ProxyGen VPPAs therefore place the operational risk entirely onto the seller, which helps ensure that each Party's financial incentives remain properly aligned."
+  - id: e54
+    source: ref-leveltenproxy-generation
+    locator: "How Does Proxy Generation Work?"
+    quote: "In a Proxy Gen VPPA, the Trade Quantity is calculated by measuring the actual wind or solar resource at the facility and running that measurement through a pre-agreed mathematical formula that estimates how many MWh should have been produced given the facility's size and operational efficiencies under best practice standards."
+  - id: e55
+    source: ref-nrf-hedges-since-uri
+    locator: "Three flavors of hedge"
+    quote: "In a proxy generation contract, the price difference is multiplied by the amount of power the project could or should have produced in that hour given the fuel resource observed."
+  - id: e56
+    source: ref-nrf-hedges-since-uri
+    locator: "Risk by hedge type"
+    quote: "With a proxy generation contract, if the wind is blowing or the sun is shining and the project is not generating, the owner will owe the hedge counterparty the value of the power that could have been produced."
+  - id: e57
+    source: ref-rff-merchant-hedges
+    locator: "3.2 Proxy Revenue Swap (p. 10)"
+    quote: "Figure 5 illustrates the basic design, in which the counterparties provide the project with a fixed annual payment and receive a fixed percentage of annual “proxy revenue.” Proxy revenue is based on actual hub prices, actual wind speeds, and agreed-upon inefficiencies, such as availability, performance, and electrical losses (Eberhardt and Brozynski 2017)."
+  - id: e58
+    source: ref-rff-merchant-hedges
+    locator: "3.2 Proxy Revenue Swap (p. 10)"
+    quote: "Additionally, although a proxy revenue swap insures against wind speed risk, it results in greater project exposure to operational risks compared with a physical or synthetic PPA, since the contract is based on proxy generation rather than actual generation. Operational risks include equipment performance, non-availability (e.g., maintenance downtime), and curtailment risks."
+  - id: e59
+    source: ref-rff-texas-hedges
+    locator: "More Effective Options"
+    quote: "In a proxy revenue swap, the project pays the counterparty an amount based on floating wholesale prices and measured wind speeds; in return, the project receives fixed revenue. Consequently, the project would be penalized only for its turbines not operating properly—not for times when wind speeds are unexpectedly low."
+  - id: e60
+    source: ref-ornl-renewable-contracting-vt6
+    locator: "Slide: Mitigating Risk"
+    quote: "▪ Proxy Generation ▪ Consumer compensated based on calculated generation ▪ Reduced curtailment and availability risk"
+  - id: e61
+    source: ref-rff-merchant-hedges
+    locator: "3.5 Wind Hedging Structures: Risks to Counterparties (p. 16)"
+    quote: "As with a synthetic PPA, the counterparties bear the volume and shape risks of electricity revenue, and unique among the hedging structures, the counterparties in a proxy revenue swap also take on the weather (wind speed) risk."
+  - id: e62
+    source: ref-rff-merchant-hedges
+    locator: "3.1 Synthetic PPA (p. 8)"
+    quote: "In addition, the quantity of electricity in a synthetic PPA is a percentage of the actual electricity generation, removing the project’s volume, shape, and curtailment risks that exist in bank hedges."
+  - id: e63
+    source: ref-leveltenproxy-generation
+    locator: "Traditional VPPAs"
+    quote: "In a traditional VPPA (aka \"unit contingent\" or \"as generated\"), the Trade Quantity is equal to the amount of energy the facility delivers to the grid, as measured by an electrical meter at the Point of Interconnection (POI). By settling at the POI on an \"as generated\" basis, the buyer exposes itself to operational risks in the form of undelivered RECs, unexpected settlement pricing, or both."
+  - id: e64
+    source: ref-leveltenproxy-generation
+    locator: "Traditional VPPAs (availability guarantees)"
+    quote: "In order to protect the buyer from the above risks, traditional VPPAs typically include \"availability guarantees\" - complex formulas that force the seller to pay a penalty if the plant is not available to produce energy at or above a fixed threshold (e.g., at least 95% of the hours in a year). While availability guarantees provide important protections, the buyer still wears a fair degree of operations-related production risk."
+  - id: e65
+    source: ref-stoel-law-of-wind-ppa
+    locator: "Performance guarantees, B. Availability Guarantees"
+    quote: "Mechanical-availability percentages usually range from 90 to 95 percent, but they may have a lower percentage in the first measurement period."
+  - id: e66
+    source: ref-stoel-law-of-wind-ppa
+    locator: "Performance guarantees, output guarantee"
+    quote: "An output guarantee requires the seller to pay the buyer if the project’s output over a specified period fails to meet a specified level, after taking into account output lost because of force majeure, curtailments or maintenance or other agreed-on subtractors."
+  - id: e67
+    source: ref-akin-ercot-hedge-slides
+    locator: "Slide 14, Key Legal Risks: Supply and Performance"
+    quote: "PPAs address expected energy volume and potential planned and unplanned outages."
+  - id: e68
+    source: ref-pexapark-ppa-glossary
+    locator: "Glossary, Baseload PPA"
+    quote: "In an annual baseload PPA, the buyer agrees to buy a determined volume of energy for every hour over the year. Profile and volume risks sit with the seller, because they have to deliver the agreed energy no matter what. If there’s low production and the seller cannot meet its obligations through its plant, the agreed volume will be sourced from the spot market."
+  - id: e69
+    source: ref-pexapark-ppa-glossary
+    locator: "Glossary, Pay-as-produced (PAP)"
+    quote: "PAP is the most widely known volume structure. In this structure, the offtaker buys any volume produced from the asset at any time."
+  - id: e70
+    source: ref-pexapark-ppa-glossary
+    locator: "Glossary, Volume risk"
+    quote: "Renewables’ production volume is driven by external factors such as wind speed and solar irradiation, which are subject to fluctuation. This introduces uncertainty to the likelihood of achieving expected volumes and meeting contractual obligations. The annual energy production of a renewable asset is an estimate and the uncertainty around it is typically calculated and assessed on basis of long-term meteorological data.  Volume risk illustrates the long-term variations between expected and actual production, contrary to profile risk."
+  - id: e71
+    source: ref-oum-oren-load-following
+    locator: "1. Introduction (p. 1)"
+    quote: "However, hedging strategies that only concern price risks for a fixed amount of volume cannot fully hedge market risks faced by LSEs, who are obligated to serve the uncertain electricity demand of their customers. The volumetric risk – caused by demand uncertainty – is a crucial risk factor faced by LSEs that must serve their customers at regulated fixed retail prices which can only be adjusted infrequently."
+  - id: e72
+    source: ref-oum-oren-load-following
+    locator: "1. Introduction (p. 1)"
+    quote: "Volumetric risks in the electricity markets can be very severe due to the adverse movements of the wholesale price and demand both of which are affected by weather conditions; for instance, the sales volume is small when the profit margin is high, while it is large when the margin is low or even negative."
+  - id: e73
+    source: ref-montel-shape-imbalance
+    locator: "How suppliers price shape risk into contracts"
+    quote: "When the energy market is volatile, suppliers often add premiums to energy pricing to cover financial losses, including the difference between a customer's actual consumption and the agreed forecasted consumption. This is called a risk premium."
+  - id: e74
+    source: ref-montel-shape-imbalance
+    locator: "Contract clauses and governance to manage risk over time"
+    quote: "One of these is volume tolerance bands, which define the acceptable range of energy a business uses on an annual basis."
+  - id: e75
+    source: ref-cftc-swap-definition-2012
+    locator: "Section II.B.2(b), full requirements contracts (77 FR 48208)"
+    quote: "Furthermore, any variability in delivery amounts under the contract appears to be driven directly by the buyer's commercial requirements and is not dependent upon the exercise of any commodity option by the contracting parties."
+  - id: e76
+    source: ref-nrf-hedges-since-uri
+    locator: "Section on what happened after Uri"
+    quote: "Turning to what happened after Uri, not surprisingly, any fixed volume contracts that were settling in Texas during the storm had a very bad week."
+  - id: e77
+    source: ref-rff-merchant-hedges
+    locator: "3.4 (p. 12), retrospective analysis"
+    quote: "A retrospective analysis of 60 operating wind farms in ERCOT, using hourly node and hub electricity prices and generation data to simulate revenues and returns under five arrangements, confirms the qualitative risk assessment of Table 1. The structures, in order of the lowest to highest standard deviation in returns, were proxy revenue swap, node PPA, hub PPA, bank hedge, and unhedged merchant (Vavrik 2017)."
+  - id: e78
+    source: ref-rmi-ppa-risk
+    locator: "Fixed-Volume Price Swap, which city risks are mitigated"
+    quote: "However, price risk remains for any generation which exceeds the FVPS fixed-volume threshold."
+  - id: e79
+    source: ref-rff-merchant-hedges
+    locator: "3.1 Bank Hedge, Figure 2 flows"
+    quote: "Floating price per MWh at Node for actual energy generated Energy generated Wind Project Floating price per MWh at Hub for fixed energy amount Fixed price per MWh for fixed energy amount"
+  - id: e80
+    source: ref-nrf-hedges-since-uri
+    locator: "Section on what happened after Uri"
+    quote: "The proxy revenue contracts were the second most painful contract."
+  - id: e81
+    source: ref-rff-texas-hedges
+    locator: "Figure 1 and Table 1 discussion"
+    quote: "Under typical power market conditions, a merchant structure is riskiest for a wind project, while a bank hedge is safer, with a PPA the least risky arrangement of all."
 ---
 
 ## Definition
 
-Volumetric (volume) risk is the risk that the quantity actually produced or delivered differs from the quantity expected or contracted. For renewable generation the sources define it as uncertainty in the overall amount of output over a period [e1][e2][e3]; in a hedge it is the mismatch between the volume the contract requires and the volume the project produces, or the risk of not being able to deliver the full contractual volume. [e4][e5]
+Volumetric (volume) risk is the risk that the quantity actually produced or delivered differs from the quantity expected or contracted. For renewable generation the sources define it as uncertainty in the overall amount of output over a period [e1][e2][e3][e70]; in a hedge it is the mismatch between the volume the contract requires and the volume the project produces, or the risk of not being able to deliver the full contractual volume. [e4][e5][e46] For a load-serving entity it is the risk that comes from uncertain customer demand. [e71][e73]
 
 ## How it works
 
-Output varies with the weather: RMI, Yale and WBCSD all tie volume risk to weather (Yale to a prolonged lack of wind or sunshine, WBCSD to a windier year or a poor summer). [e2][e3][e7] RMI defines volume risk as weather-driven to keep it separate from operational risk, which it defines as performance compromised by failed processes, people, equipment or systems, or external events [e8][e37]; both RMI and WBCSD separate it from shape risk, which is about timing within the period. [e8][e3]
+Output varies with the weather: RMI, Yale, WBCSD and Pexapark all tie volume risk to weather (Yale to a prolonged lack of wind or sunshine, WBCSD to a windier year or a poor summer, Pexapark to wind speed and irradiation assessed from long-term meteorological data). [e2][e3][e7][e70] RMI defines volume risk as weather-driven to keep it separate from operational risk, which it defines as performance compromised by failed processes, people, equipment or systems, or external events [e8][e37]; RMI, WBCSD and Pexapark separate it from shape (profile) risk, which is about timing within the period. [e8][e3][e70]
 
-How much volume risk a party carries depends on which volume the contract uses. Norton Rose Fulbright says renewable hedges share the same price math and differ in the volume multiplied by the hourly price difference, for example metered output (as-generated) or a fixed number set in advance. [e9][e10] RMI draws the same line between a VPPA, valued on the energy generated, and a fixed-volume price swap, in which a set amount must be provided. [e6][e15] Both say the fixed volume carries more volume risk than as-generated output. [e12][e15]
+How much volume risk a party carries depends on which volume the contract uses. Norton Rose Fulbright says renewable hedges share the same price math and differ in the volume multiplied by the hourly price difference: metered output (as-generated), modelled output (proxy generation) or a fixed number set in advance. [e9][e10][e55] RMI and RFF draw the same line between a VPPA, valued on the energy generated, and a fixed-volume price swap (RFF: "bank hedge"), in which the hedged quantity is fixed and does not depend on what the project generates. [e6][e15][e38] Pexapark draws it for European PPAs between pay-as-produced, where the offtaker buys whatever is produced, and baseload, where the seller must deliver a set volume every hour. [e69][e68]
 
-Under an as-produced contract the buyer carries the volume risk: RMI says a VPPA's value in a period is the energy generated times the price difference, so output variability exposes the buyer to upside and downside, and WBCSD says the buyer in an as-produced physical PPA must hedge residual demand around the asset's likely output. [e6][e31] Norton Rose Fulbright adds that the sponsor takes no operating risk under an as-generated contract because payments follow actual output. [e18] Under a fixed volume the party committed to the volume carries it and must buy any shortfall: Norton Rose Fulbright says so of a project's fixed-volume hedge, RMI of a buyer's fixed-volume price swap, where the buyer must "financially backfill" the missing volume. [e14][e15] Norton Rose Fulbright adds that surplus output is a cushion. [e13]
+**As-generated.** The buyer carries the volume risk: RMI says a VPPA's value in a period is the energy generated times the price difference, so output variability exposes the buyer to upside and downside; RFF says a synthetic PPA's volume is a share of actual generation, which removes the project's volume, shape and curtailment risks; and WBCSD says the buyer in an as-produced physical PPA must hedge residual demand around the asset's likely output. [e6][e62][e31] LevelTen says the buyer under an as-generated VPPA is also exposed to operational risks, which is why such contracts usually carry availability guarantees; Norton Rose Fulbright says the sponsor takes no operating risk under an as-generated contract because payments follow actual output. [e63][e64][e18]
 
-For a physical PPA, volume variation means the buyer must buy or sell more balancing energy; WBCSD says the buyer forms a view of the asset's likely output on a probability basis when deciding how to hedge residual demand. [e7][e31]
+**Fixed volume.** Whoever committed to the volume carries it and must buy any shortfall: Norton Rose Fulbright and RFF say so of a project's fixed-volume hedge, RMI of a buyer's fixed-volume price swap ("financially backfill" the missing volume), and Pexapark of a seller under a European baseload PPA (sourced from the spot market). [e14][e40][e15][e68] Surplus output is the other side: Norton Rose Fulbright says it cushions basis losses and may even let the project profit from a price spike, RFF that a project could sell the surplus at the spike price, and RFF and RMI that generation above the fixed volume remains exposed to market prices. [e13][e40][e46][e78] RFF says bank hedges are contracted hourly at the hub, which adds shape risk, and that the fixed hourly volume is typically set at the project's P99 hourly generation to limit volume and shape risk. [e46][e47]
+
+**Physical fixed-volume hedges and tracking accounts.** A fixed-volume hedge can be settled physically. Norton Rose Fulbright describes the project selling its output at its node, buying back the fixed volume at the hub and reselling it to the counterparty; Akin Gump describes a physically settled hedge as a sale at the node and delivery at the hub, paid at the strike price, with the node-to-hub difference as the basis exposure; RFF says a bank hedge may be financial or physical with equivalent hedging effect. [e49][e50][e51][e45] Norton Rose Fulbright and RFF both describe a "tracking account": a loan from the hedge counterparty that covers shortfalls and is repaid when revenue later exceeds contract requirements; Norton Rose Fulbright adds that the loan is capped in aggregate. [e52][e48]
+
+**Proxy generation.** A proxy contract sets the volume from the measured resource instead of the meter. Norton Rose Fulbright says the price difference is multiplied by what the project could or should have produced given the fuel resource observed; LevelTen says the proxy volume runs measured wind or sun through a pre-agreed formula for what the plant should have produced; ORNL's DOE training says the consumer is compensated on calculated generation. [e55][e54][e60] The sources agree on the risk split: weather (resource) risk stays with the buyer or counterparty and operational risk moves to the project. LevelTen says proxy generation places operational risk entirely on the seller; RFF says a proxy revenue swap insures the project against wind speed risk but exposes it more to operational risks, including availability and curtailment; Norton Rose Fulbright says the owner owes the value of power it could have produced when the resource is there but the plant is not generating. [e53][e58][e56][e61] RFF describes the proxy revenue swap as a fixed annual payment to the project in exchange for a share of "proxy revenue" built from hub prices, wind speeds and agreed inefficiencies. [e57][e59]
+
+**Ranking.** The sources rank the structures differently because they measure different things. Norton Rose Fulbright ranks sponsor risk as as-generated lowest, fixed volume highest, proxy in the middle. [e12] RFF reports a retrospective study of 60 ERCOT wind farms (Vavrik 2017) that ranked the variability of project returns from lowest to highest as proxy revenue swap, node PPA, hub PPA, bank hedge, merchant, and says that under typical conditions a bank hedge is riskier for the project than a PPA. [e77][e81] Both put the fixed-volume hedge above the as-generated PPA. [e12][e77]
+
+**Contract protections.** Physical and virtual PPAs address volume with performance terms: Akin Gump says PPAs address expected volume and planned and unplanned outages; Stoel Rives and LevelTen describe availability guarantees (Stoel Rives: usually 90 to 95 percent; LevelTen: for example at least 95% of hours); Stoel Rives also describes output guarantees, under which the seller pays if output over a period falls below a level after excused losses. [e67][e65][e64][e66]
+
+**Load side.** For a supplier serving load at a fixed price the volume risk comes from demand. Oum and Oren (UC Berkeley) say LSEs that must serve uncertain demand at regulated fixed retail prices face volumetric risk that price-only hedges for a fixed volume cannot fully cover, and that it can be severe because price and demand both move with weather. [e71][e72] Montel (writing on European procurement) says suppliers add a risk premium for the gap between actual and forecast consumption, and that contracts may set volume tolerance bands for a buyer's annual usage. [e73][e74] The CFTC describes full requirements contracts, in which delivery amounts vary with the buyer's commercial requirements. [e75]
 
 Mitigation in the sources is mostly a transfer: WBCSD says a seller can commit to a firm volume (per hour, per year, or a minimum or maximum guarantee) and manage the risk itself, and RMI says a retailer that manages day-to-day generation swings would absorb much of the volume risk. [e17][e36]
 
@@ -200,63 +386,79 @@ Mitigation in the sources is mostly a transfer: WBCSD says a seller can commit t
 
 Winter Storm Uri is the ERCOT case. Prices were held at $9,000/MWh by PUCT order. [e29] FERC and NERC staff found that wind was 27 percent of the 1,045 generating units in their event area (Texas and the South Central United States, not ERCOT alone) with outages, derates or failures to start. [e21] UT Austin says wind owners' financial hedges could trigger payments to counterparties when wholesale prices exceeded contract prices or wind generation fell below contracted quantities, and that generators that failed to perform may have had to buy replacement energy at $9,000/MWh or more to meet their obligations. [e19][e20] The IMM says the extreme outcomes fell especially on those exposed to day-ahead or real-time prices through insufficient contract coverage, or on generators unable to operate to hedge their exposure. [e28]
 
+Two commentary publishers report what this meant for fixed-volume hedges. RFF says the bank hedge, which it calls particularly common in ERCOT, became the most precarious arrangement from February 15 to 19, when the price reached its $9,000/MWh cap: a project short of its hedged quantity had to pay $9,000/MWh for the shortfall. Norton Rose Fulbright says fixed-volume contracts settling in Texas during the storm "had a very bad week", and that a project forced to buy at the $9,000 hub price without merchant revenue to fund it could face liquidity issues. [e39][e41][e40][e76][e35] RFF attributes the spread of outcomes to two things: whether a project kept running (some lost output to icing or grid issues; southern Texas wind was more likely to keep running) and how it had hedged. [e42] Norton Rose Fulbright says proxy revenue contracts were the second most painful. [e80]
+
 On the load side, the ERCOT settlement rules show where an unhedged quantity goes. A QSE's Real-Time Energy Imbalance at a Load Zone is calculated at the Real-Time Settlement Point Price on its DAM purchases and Energy Trades, net of sales, and its Adjusted Metered Load (AML). [e23][e25][e34][e24] So load the QSE did not buy forward settles at the real-time price. [e23][e24]
 
 UT Austin says retailers' Uri losses depended both on how far their price risk was hedged and on how outages affected their obligations to provide energy. [e22] The IMM says unhedged loads are vulnerable to shortage conditions, and measures weather's effect on demand with degree days: residential and commercial demand rises quickly in hot weather. [e32][e26] It also says 2025 forecasts systematically over-forecast load and under-forecast renewable generation. [e27]
 
 ## Key facts
 
-- Volume risk is uncertainty in the total amount of output over a period, mainly weather-driven. [e1][e3][e8]
+- Volume risk is uncertainty in the total amount of output over a period, mainly weather-driven. [e1][e3][e8][e70]
 - It is distinct from shape risk (timing) and, in RMI's usage, from operational risk (outages). [e8][e3]
-- A fixed-volume hedge carries more volume risk for the committed party than an as-generated one. [e12][e15][e18]
-- A party short on a fixed-volume hedge must buy the missing volume. [e14][e15]
+- As-generated contracts leave volume risk with the buyer; fixed-volume contracts leave it with whoever committed to the volume. [e6][e62][e14][e15]
+- A fixed-volume hedge carries more volume risk for the committed party than an as-generated one. [e12][e15][e77]
+- A party short on a fixed-volume hedge must buy the missing volume. [e14][e15][e40][e68]
+- Proxy generation sets the volume from measured wind or sun: weather risk stays with the counterparty, operational risk with the project. [e53][e55][e58][e61]
 - During Uri, ERCOT prices were held at $9,000/MWh. [e29]
 - Wind was 27% of generating units with outages, derates or failures to start in the February 2021 FERC-NERC event area (Texas and the South Central United States). [e21]
 - In ERCOT, Load Zone imbalance settles at the Real-Time SPP including the QSE's Adjusted Metered Load. [e23][e24]
 
 ## Formula
 
-The hedge settlement is the price difference times a volume, hour by hour in Norton Rose Fulbright's account and per period in RMI's; the volume is what differs between contract types. [e9][e6] For a fixed-volume hedge, the volume exposure in an hour is the contracted volume minus actual output: positive means the party must buy the shortfall, negative means it has surplus. [e14][e13][e15]
+The hedge settlement is the price difference times a volume, hour by hour in Norton Rose Fulbright's account and per period in RMI's; the volume is what differs between contract types. [e9][e6] For a fixed-volume hedge, the volume exposure in an hour is the contracted volume minus actual output: positive means the party must buy the shortfall, negative means it has surplus. [e14][e13][e15][e40]
+
+RFF's bank-hedge diagram gives the project's flows: it receives the node price for its actual generation, pays the hub price on the fixed volume and receives the fixed price on the fixed volume. Akin Gump's physically settled hedge has the same flows: the project sells at the node, buys the hedge quantity at the hub for delivery and is paid the strike price for it. [e79][e50][e51] Written out per hour: project revenue = node price × actual output + (fixed price − hub price) × fixed volume. This writes out the diagram; RFF does not print the equation. [e79][e46]
 
 ## Example
 
 Suppose (illustrative, made-up numbers) a wind project has a fixed-volume hedge of 80 MW at a $35/MWh fixed price, settled hourly against the hub. In an hour when the hub price is at a Uri-level $9,000 and the project produces only 10 MW, it receives 80 × $35 = $2,800 but must deliver 80 MWh. Its own 10 MWh cover part of that; the other 70 MWh it must buy at the hub: 70 × $9,000 = $630,000 for that hour. Under an as-generated contract with the same price, it would owe only on the 10 MWh it produced.
 
+Under a proxy contract, suppose the measured wind would have supported 60 MW: if the plant produced 10 MW because turbines were broken, it settles on 60 MWh; if it produced 10 MW because the wind was calm and the proxy also says 10 MW, it settles on 10 MWh.
+
 ## Say it like this
 
-(Guidance) Volumetric risk is the risk that you produce or use a different amount than your contract assumes. In ERCOT it bites hardest when prices are extreme: a project short on a fixed-volume hedge during a scarcity hour has to buy the missing megawatts at the scarcity price.
+(Guidance) Volumetric risk is the risk that you produce or use a different amount than your contract assumes. In ERCOT it bites hardest when prices are extreme: a project short on a fixed-volume hedge during a scarcity hour has to buy the missing megawatts at the scarcity price, while an as-generated deal leaves that risk with the buyer.
 
 ## Common confusion
 
 (Guidance) Volumetric risk is general industry usage and is not defined in the ERCOT Protocols, PUCT rules or IMM reports saved here.
 
-The sources frame it differently. RMI, Yale and WBCSD describe it as uncertainty in a project's total output over a period [e1][e2][e3]; Norton Rose Fulbright describes it hour by hour as the mismatch between a fixed-volume hedge's delivery requirement and actual output [e4]; the SFU thesis (from a risk-officers' list) describes it as the risk of not delivering the full contractual volume. [e5] RMI keeps equipment and other performance failures out, calling them operational risk; the Norton Rose Fulbright hour-by-hour usage looks only at the mismatch against the hedge volume and does not separate causes. [e8][e37][e4]
+The sources frame it differently. RMI, Yale, WBCSD and Pexapark describe it as uncertainty in a project's total output over a period [e1][e2][e3][e70]; Norton Rose Fulbright describes it hour by hour as the mismatch between a fixed-volume hedge's delivery requirement and actual output [e4]; RFF as the risk of generating too little against a fixed hourly volume [e46]; the SFU thesis (from a risk-officers' list) as the risk of not delivering the full contractual volume [e5]; Oum and Oren as an LSE's demand uncertainty. [e71] RMI keeps equipment and other performance failures out, calling them operational risk; the Norton Rose Fulbright hour-by-hour usage looks only at the mismatch against the hedge volume and does not separate causes. [e8][e37][e4] RFF's main objection to bank hedges is exactly that they do not separate operational risk from wind speed risk. [e43]
 
 Volume risk is not shape risk. Shape is about when the energy comes; volume is about how much in total. [e3][e8]
 
-Who carries it depends on the contract: under as-generated output it sits with the buyer, under a fixed volume with whoever committed to the volume. [e6][e14][e15]
+Who carries it depends on the contract: under as-generated output it sits with the buyer, under a fixed volume with whoever committed to the volume, under proxy generation the weather part stays with the counterparty and the operating part moves to the project. [e6][e14][e15][e53][e61]
 
 ## Questions
 
 ### Why was a fixed-volume hedge so dangerous during Uri?
 
-It required the project to deliver a set volume regardless of output. When output fell below that volume, the project had to buy the shortfall, and ERCOT prices were held at $9,000/MWh. [e14][e10][e29] UT Austin confirms wind generation below contracted quantities could trigger payments to hedge counterparties. [e19]
+It required the project to deliver a set volume regardless of output. When output fell below that volume, the project had to buy the shortfall, and ERCOT prices were held at $9,000/MWh. [e14][e10][e29] UT Austin confirms wind generation below contracted quantities could trigger payments to hedge counterparties. [e19] RFF and Norton Rose Fulbright both describe fixed-volume hedges as the worst-hit structure in the storm; RFF's illustration is a 200 MW wind farm offline for the four days, which would have lost over $40 million on its hedge. [e41][e76][e44]
 
 ### Who carries volume risk in an as-generated VPPA?
 
-The buyer: Norton Rose Fulbright says the settlement uses actual output, so the generator takes no operating risk, and RMI that the buyer's VPPA value moves with the energy generated. [e18][e6] Norton Rose Fulbright's data center example shows the downside: the plant shut down, the buyer paid $9,000/MWh for its power and received nothing from the VPPA. [e33][e29]
+The buyer: RMI says the buyer's VPPA value moves with the energy generated, RFF that as-produced volume removes the project's volume risk, and LevelTen that the buyer is also exposed to operational shortfalls, mitigated by availability guarantees. [e6][e62][e63][e64] Norton Rose Fulbright's data center example shows the downside: the plant shut down, the buyer paid $9,000/MWh for its power and received nothing from the VPPA. [e33][e29]
+
+### How does a proxy generation hedge divide the risk?
+
+It settles on what the plant should have produced given the measured wind or sun. So a calm day lowers the settled volume (weather risk on the counterparty), but a broken or unavailable turbine does not (operational risk on the project). [e55][e54][e53][e58][e61] RFF says this is why it prefers the proxy revenue swap to a bank hedge, which penalises the project for low wind as well as for poor operation. [e59][e43]
 
 ### How is volume risk different from operational risk?
 
-RMI defines volume risk as weather-driven variation in total output and treats performance failures of processes, people, equipment or systems as operational risk; Norton Rose Fulbright's hedge usage looks only at the mismatch against the contracted amount. [e8][e37][e4]
+RMI defines volume risk as weather-driven variation in total output and treats performance failures of processes, people, equipment or systems as operational risk; Norton Rose Fulbright's hedge usage looks only at the mismatch against the contracted amount. [e8][e37][e4] RFF draws the same line between wind speed risk, which a project cannot control, and operational risk, which it can. [e43]
+
+### What is a tracking account?
+
+A loan from the counterparty under a fixed-volume hedge that covers shortfalls between what the project must pay to deliver and what it earns, repaid when revenue later exceeds requirements; Norton Rose Fulbright adds that it is capped in aggregate. [e52][e48]
 
 ### How does a load-serving entity face volumetric risk in ERCOT?
 
-Any load it has not bought forward settles at the Real-Time price, because ERCOT calculates Load Zone imbalance on its forward purchases and trades against its Adjusted Metered Load. [e23][e24][e25] Demand moves with weather, and UT Austin says retailers' Uri outcomes depended on hedging and on how outages changed their obligations. [e26][e22]
+Any load it has not bought forward settles at the Real-Time price, because ERCOT calculates Load Zone imbalance on its forward purchases and trades against its Adjusted Metered Load. [e23][e24][e25] Oum and Oren say fixed-price LSEs face volumetric risk from demand uncertainty that a fixed-volume price hedge cannot fully cover. [e71] Demand moves with weather, and UT Austin says retailers' Uri outcomes depended on hedging and on how outages changed their obligations. [e26][e22]
 
 ### What if a project overproduces against a fixed-volume hedge?
 
-Norton Rose Fulbright says the surplus cushions basis losses during a price spike and can even make a profit. [e13] RMI notes that price risk remains on generation above a fixed volume (single-source; see Open items).
+Norton Rose Fulbright says the surplus cushions basis losses during a price spike and can even make a profit, and RFF that a project with surplus in Uri could sell it at $9,000/MWh. [e13][e40] RFF and RMI both note that generation above the fixed volume remains exposed to market prices. [e46][e78]
 
 ### Can portfolio design reduce volume risk?
 
@@ -267,17 +469,21 @@ The sources mostly describe moving it rather than removing it: a seller can comm
 ### A wind project in ERCOT signed a fixed-volume swap set at its historical average. A week of cold, still weather arrives with prices at the cap. What happens?
 
 - Output falls below the committed volume; UT Austin says wind generation below contracted quantities could trigger payments to hedge counterparties in Uri. [e19]
-- The project must buy the shortfall at market prices to meet its obligation. [e14][e15][e20]
+- The project must buy the shortfall at market prices to meet its obligation. [e14][e15][e20][e40]
 - At prices like Uri's $9,000/MWh this can strain its liquidity; Norton Rose Fulbright says fixed-volume purchases typically settle daily and the hub-price payments can cause liquidity issues. [e29][e35]
-- An as-generated contract would have left the volume risk with the buyer instead. [e18][e12]
+- A tracking account, if it has one, lends it the gap up to a cap. [e52][e48]
+- Setting the volume at the average is aggressive: RFF says bank-hedge volumes are typically set at P99 hourly generation. [e47]
+- An as-generated contract would have left the volume risk with the buyer; a proxy contract would have left the calm-wind part with the counterparty but not turbine outages. [e62][e12][e53][e58]
 
 ## Open items
 
-- Load-side volumetric risk (retail load swing against fixed-quantity supply) is not defined in any saved source; it is covered only through ERCOT imbalance settlement, IMM weather and forecast statements and UT Austin's Uri retailer finding. A tier 1-2 source on REP load-following or swing risk is needed.
-- Single-publisher (Norton Rose Fulbright 2022): around Uri, 20-25% of Texas renewable hedges were fixed volume and about 10% proxy-based. ERCOT fact; no tier 1-2 source.
-- Single-publisher (Norton Rose Fulbright 2019): many fixed-volume hedges in ERCOT are physical, with the project buying back the fixed volume at the hub; and many have a tracking account (a capped loan from the hedge counterparty). Not cross-checked.
-- Single-source (RMI): price risk remains for generation above the fixed volume of an FVPS. Not cross-checked.
-- Single-publisher (Norton Rose Fulbright 2022): during Uri, irradiance and wind speeds in Texas were below historical averages and in many places below P99. ERCOT fact; no tier 1-2 source on resource levels against P-values.
-- No saved source gives an ERCOT P50/P90/P99 convention for setting fixed volumes.
-- Single-publisher (Norton Rose Fulbright 2022): proxy generation contracts multiply the price difference by modelled output from observed wind or irradiance and rank between as-generated and fixed volume in risk; after Uri, proxy generation moved to use as a capped damages calculator. Not cross-checked.
+- Load-side volumetric risk is now described in general terms (Oum and Oren; Montel, European; CFTC on full requirements contracts), but no ERCOT tier 1-2 source discusses REP load-following or swing risk.
+- Single-publisher (Norton Rose Fulbright 2022): around Uri, 20-25% of Texas renewable hedges were fixed volume and about 10% proxy-based. RFF says only that bank hedges are "particularly common" in ERCOT. ERCOT fact; no tier 1-2 source.
+- Single-publisher (Norton Rose Fulbright 2019): "most" fixed-volume hedges in ERCOT are physical. The physical buy-back mechanism itself is cross-checked (RFF, Akin Gump).
+- Single-publisher (Norton Rose Fulbright 2019): fixed-volume purchases typically settle daily (against monthly or quarterly for VPPAs).
+- Single-publisher (Norton Rose Fulbright 2022): during Uri, irradiance and wind speeds in Texas were below historical averages and in many places below P99. RFF instead stresses icing and grid issues. ERCOT fact; no tier 1-2 source on resource levels against P-values.
+- Single-publisher (RFF): bank-hedge hourly volumes are typically set at P99. No saved source gives an ERCOT convention.
+- Single-publisher (Norton Rose Fulbright 2022): after Uri, proxy generation moved to use as a capped damages calculator on metered settlement. Not cross-checked.
+- Single-publisher (RFF): company loss estimates for Uri (Innergex up to $50 million, RWE "several hundred million") and its 200 MW illustration. Reported, not verified.
+- Sources rank risk differently: Norton Rose Fulbright puts proxy generation between as-generated and fixed volume; the study RFF reports found proxy revenue swaps had the lowest return variability of all, below node PPAs. Different measures (sponsor exposure versus simulated return variability).
 - Single-publisher (WBCSD): wind and solar output are not well correlated, so combining them reduces volume risk over several years. Not cross-checked.
