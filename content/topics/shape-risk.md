@@ -206,6 +206,10 @@ evidence:
     source: ref-pexapark-ppa-glossary
     locator: "Glossary, Profile risk"
     quote: "Profile risk can only be hedged through “fixed price” products where a utility is willing to pay a fixed price (usually at discount to the baseload price) for the entirety or parts of the volume produced by the wind farm during at any time."
+  - id: e43
+    source: ref-rmi-ppa-risk
+    locator: "Fixed-Volume Price Swap, which city risks are mitigated"
+    quote: "Shape risk: An FVPS increases shape risk for the city because by having to provide a set amount of “power” at certain times they are more susceptible to the timing of renewable generation."
 ---
 
 ## Definition
@@ -218,7 +222,7 @@ The sources agree that wind and solar output follows the weather, not demand, so
 
 Prices vary through the day as well. RMI describes a VPPA's value in a period as the energy generated times the difference between market and contract price, and Norton Rose Fulbright and LevelTen say the calculation is typically made hour by hour, so the value depends on how output lines up with prices. [e24][e25][e38] RMI says the intersection of uncertain generation with uncertain prices makes VPPA revenue uncertain, and that because generation and consumption rarely coincide, changing prices through the day can leave VPPA revenues short of offsetting the buyer's energy costs. [e5][e6] Pexapark describes the same price side as the hourly profile, valued at hourly prices, being worth less (or more) than a baseload profile. [e28]
 
-**Who carries it depends on the contract.** In an as-produced (as-generated) contract the buyer carries it: RFF says a synthetic PPA's volume is a share of actual generation, which removes the project's volume, shape and curtailment risks and leaves the counterparty bearing the mismatch in amount and timing. [e35][e36] RMI likewise places the shape mismatch in a VPPA on the buyer's side. [e6] In a contract with a fixed hourly volume the seller carries it: RFF says a bank hedge's hourly fixed volume creates shape risk for the project, and Pexapark (writing on European baseload PPAs) says profile and volume risks sit with the seller, who must source any shortfall from the spot market. [e34][e31] RFF adds that in a proxy revenue swap the counterparties bear the volume and shape risks. [e37]
+**Who carries it depends on the contract.** In an as-produced (as-generated) contract the buyer carries it: RFF says a synthetic PPA's volume is a share of actual generation, which removes the project's volume, shape and curtailment risks and leaves the counterparty bearing the mismatch in amount and timing. [e35][e36] RMI likewise places the shape mismatch in a VPPA on the buyer's side. [e6] In a contract with a fixed hourly volume, whoever committed to the volume carries it: RFF says a bank hedge's hourly fixed volume creates shape risk for the project, RMI that a fixed-volume price swap increases shape risk for the buyer that must provide the set amount, and Pexapark (writing on European baseload PPAs) that profile and volume risks sit with the seller, who must source any shortfall from the spot market. [e34][e43][e31] RFF adds that in a proxy revenue swap the counterparties bear the volume and shape risks. [e37]
 
 In a physical, as-produced PPA, shape risk shows up as balancing: when output falls short in an hour the buyer has to buy the difference, and when output exceeds need it has to sell. [e8][e9] In a sleeved PPA, ORNL says the utility supplies additional grid electricity when renewable output does not meet the buyer's demand and takes on price-fluctuation risk while offering the buyer a fixed price. [e40]
 
@@ -243,7 +247,7 @@ ERCOT CRRs and the ICE ERCOT peak futures are defined over blocks of hours. CRRs
 - Shape risk is about timing of output within a period; volume risk is about the total. [e3][e7][e27]
 - WBCSD says a corporate buyer's demand profile is likely to be flatter than wind or solar output; Yale gives a data center using power day and night as an example. [e3][e2]
 - A mismatch between the generation shape and the buyer's consumption can weaken a PPA as a hedge; RMI says generation and consumption rarely coincide. [e6][e2][e36]
-- As-produced contracts leave shape risk with the buyer; fixed hourly volumes leave it with the seller. [e35][e36][e34][e31]
+- As-produced contracts leave shape risk with the buyer; fixed hourly volumes leave it with whoever committed to the volume. [e35][e36][e34][e43]
 - In 2025, most ERCOT price spikes were between 7 and 9 p.m. as solar ramped down. [e15]
 - ERCOT solar capacity factor at the daily net peak interval: 1.7% in 2025; wind 29.3%. [e16]
 - ERCOT 2025 captured prices: solar $21/MWh, wind $19/MWh. [e14]
@@ -263,7 +267,7 @@ Suppose instead, illustratively, the project had sold a fixed 6 MWh in each hour
 
 ## Say it like this
 
-(Guidance) Shape risk is the gap between when your solar or wind farm produces and when you need power or when power is valuable. In ERCOT, solar produces at midday but prices spike in the evening ramp, so even a perfect annual volume match can leave someone buying expensive evening power: the buyer under an as-produced deal, the project under a fixed-shape hedge.
+(Guidance) Shape risk is the gap between when your solar or wind farm produces and when you need power or when power is valuable. In ERCOT, solar produces at midday but prices spike in the evening ramp, so even a perfect annual volume match can leave someone buying expensive evening power: the buyer under an as-produced deal, whoever committed to a fixed shape under a fixed-volume hedge.
 
 ## Common confusion
 
@@ -283,7 +287,7 @@ Shape risk is about the hourly timing of output; volume risk is about the total 
 
 ### Who carries shape risk in an as-generated VPPA, and who in a fixed-volume hedge?
 
-In an as-generated VPPA the buyer does, because the settled volume follows the project's actual output. [e35][e36] In a fixed-volume (bank) hedge the project does, because it owes a set volume every hour and must cover the timing mismatch; Pexapark says the same of European baseload PPAs. [e34][e31]
+In an as-generated VPPA the buyer does, because the settled volume follows the project's actual output. [e35][e36] In a fixed-volume (bank) hedge the project does, because it owes a set volume every hour and must cover the timing mismatch; RMI says the same of a buyer that commits to a fixed volume, and Pexapark of the seller in a European baseload PPA. [e34][e43][e31]
 
 ### Why does shape risk matter more for solar in ERCOT now?
 
