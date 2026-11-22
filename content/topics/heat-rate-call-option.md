@@ -8,7 +8,7 @@ level: 2
 depth: deep
 basis: industry-reference
 lenses: [trading, portfolio, structuring]
-as_of: 2026-11-21
+as_of: 2026-11-22
 links:
   - to: spark-spread
     type: hedges
@@ -30,7 +30,7 @@ links:
     note: HRCO payouts are notional and settle on published indices, not on the plant's actual operations or results. [e3][e17]
   - to: ordc
     type: related
-    note: The IMM says shortage pricing produces hundreds of hours a year above gas plants' marginal cost, which is when a heat rate call pays the holder most. [e20]
+    note: The IMM says shortage pricing produces hundreds of hours a year above gas plants' marginal cost; reasoning from that (the IMM does not discuss options), those are hours when a call struck at a gas-plant heat rate would be in the money. [e20]
   - to: hb-north
     type: related
     note: The ICE ERCOT heat-rate contract in the saved sources references the ERCOT Panhandle 345kV Hub, not North. [e18]
@@ -171,17 +171,51 @@ evidence:
     source: ref-fields-tolling-slides
     locator: "Fields Institute lecture slides (2013), slide 6, Linear Instruments: Heatrates"
     quote: "Power swaps often trade as heat-rates: - A power buy/sell is associated with a sell/buy of a specified volume of natural gas, both over the same delivery period."
+  - id: e35
+    source: ref-deng-exotic-electricity-options
+    locator: "Deng, Johnson and Sogomonian, 'Exotic electricity options and the valuation of electricity generation and transmission assets', Decision Support Systems 30 (2001), section 2.1, Definition 1 (PDF text renders the opening parenthesis and quotation marks as odd characters)"
+    quote: "A European spark spread call option written on fuel G at a fixed Žor AstrikeB . heat rate K H gives the option holder the right but not the obligation to pay K H times the unit price of fuel G at the option’s maturity T and receive the price of 1 unit of electricity."
+  - id: e36
+    source: ref-deng-exotic-electricity-options
+    locator: "Deng et al. (2001), section 2.1, equation (2), payoff of the spark spread call (PDF text renders '=' as 's', the minus sign as 'y' and the opening parenthesis as 'Ž')"
+    quote: "Then the payoff of the option at maturity time T is: C1 Ž S ET , SGT , K H , T . s max Ž S ET y K H SGT , 0 ."
+  - id: e37
+    source: ref-deng-exotic-electricity-options
+    locator: "Deng et al. (2001), section 2.1, example after Definition 2"
+    quote: "A power marketer in a region where the marginal generating fuel is natural gas would like to buy power at time T at a market implied heat rate not to exceed K H ."
+  - id: e42
+    source: ref-deng-exotic-electricity-options
+    locator: "Deng et al. (2001), section 2.1, end of the power-marketer example"
+    quote: "The power marketer can therefore achieve his goal by purchasing this spark spread call."
+  - id: e38
+    source: ref-rff-merchant-hedges
+    locator: "Resources for the Future, Working Paper 19-06, 'Reducing Risk in Merchant Wind and Solar Projects through Financial Hedges', section 3.3 Natural Gas-Based Wind Hedge"
+    quote: "To hedge against electricity price risk, the wind developer would sell a certain number of natural gas forward contracts based on the amount of electricity generation it wishes to hedge as well as the expected market heat rate (the ratio of electricity to natural gas prices)."
+  - id: e39
+    source: ref-cftc-glossary
+    locator: "CFTC Glossary, entry 'Premium', sense (1)"
+    quote: "(1) The payment an option buyer makes to the option writer for granting an option contract;"
+  - id: e40
+    source: ref-cftc-glossary
+    locator: "CFTC Glossary, entry 'Option Writer'"
+    quote: "The person who originates an option contract by promising to perform a certain obligation in return for the price or premium of the option. Also known as option grantor or option seller."
+  - id: e41
+    source: ref-cftc-glossary
+    locator: "CFTC Glossary, entry 'In-The-Money'"
+    quote: "A term used to describe an option contract that has a positive value if exercised."
 ---
 
 ## Definition
 
-A heat rate call option is a call option on power whose strike is a gas price index multiplied by a fixed heat rate: when exercised, the holder is paid the power price minus heat rate times the gas price, times a notional quantity. [e2][e4][e5][e6]
+A heat rate call option is a call option on power whose strike is a gas price index multiplied by a fixed heat rate: when exercised, the holder is paid the power price minus heat rate times the gas price, times a notional quantity. [e2][e4][e5][e6] An academic paper (Deng et al.) defines the same structure as a spark spread call with a fixed strike heat rate: the right, not the obligation, to pay the strike heat rate times the fuel price and receive the price of one unit of electricity. [e35][e36]
 
 ## How it works
 
-An option gives its holder the right, but not the obligation, to buy at a strike price, and the buyer pays a premium for it. [e1] In a heat rate call the strike is not a fixed dollar amount but "HR x Gas Index", so it moves with gas. [e4][e5] The holder gains when power is priced above the plant-equivalent cost of gas, that is, when the market heat rate is above the deal heat rate. [e14][e2]
+An option gives its holder the right, but not the obligation, to buy at a strike price, and the buyer pays a premium for it. [e1] In a heat rate call the strike is not a fixed dollar amount but "HR x Gas Index", so it moves with gas. [e4][e5] The holder gains when power is priced above the strike heat rate times gas, that is, when the market heat rate (the ratio of the power price to the gas price) is above the deal heat rate; an option with a positive value if exercised is called in the money. [e36][e38][e14][e41]
 
-In the project-finance version described by two law firms, a gas plant owner sells the option to a financial hedge provider. The project receives a fixed periodic amount (the option premium) and pays the hedge provider the excess of power over heat rate times gas, times a notional quantity, for the hours the provider calls. [e2][e29] There is no large upfront premium payment at closing, and payments can flow either way in a settlement period. [e8][e2]
+In the project-finance version described by two law firms, a gas plant owner sells the option to a financial hedge provider. The project receives a fixed periodic amount (the option premium) and pays the hedge provider the excess of power over heat rate times gas, times a notional quantity, for the hours the provider calls. [e2][e29] That matches the CFTC's usage, in which the premium is the payment an option buyer makes to the option writer (also called the option seller). [e39][e40] There is no large upfront premium payment at closing, and payments can flow either way in a settlement period. [e8][e2]
+
+The buyer is not always a hedge provider facing a generator. Deng et al. describe a power marketer that wants to buy power at a market implied heat rate no higher than a set level and does so by buying a spark spread call; in the project hedge the generator is the seller. [e37][e42][e5][e7]
 
 Exercise is daily and day-ahead. The hedge provider decides each day, hour by hour for the next day, whether to treat the hypothetical plant as running for hedge purposes; the owner still decides whether the real plant runs. [e7][e5] The provider can call some hours and not others, and the hourly amount reflects assumed plant costs: Pillsbury says the cash settlement accounts for assumed fixed and variable start-up and shut-down costs, and Norton Rose Fulbright says an hour's revenue depends on market prices and assumptions about the plant's heat rate and operating costs. [e24][e25] The Fields slides describe daily power options and tolls the same way: exercised one business day before delivery, settled financially, with monthly settlement. [e23][e13]
 
@@ -198,7 +232,9 @@ For each hour h that the holder calls: payoff = notional MWh x (power index pric
 - Gas index: a variable natural gas index price. [e5][e4]
 - Monthly net settlement: in the project hedge, the option premium is compared with the sum of these cash settlement amounts to decide who pays. [e29][e34]
 
-Because the holder only calls hours that pay, each hour behaves like max(power - heat rate x gas, 0); the Fields toll formula writes the same payoff with VOM also deducted. [e23][e13][e30]
+Because the holder only calls hours that pay, each hour behaves like max(power - heat rate x gas, 0). Deng et al. write the payoff of a spark spread call at maturity as max(electricity price - strike heat rate x fuel price, 0) per unit of electricity, which is the same expression term by term (Deng's is a single European option on spot prices; the project hedge applies it hour by hour and multiplies by the notional quantity). [e36][e5][e6]
+
+Sources differ on operating costs. The Fields toll formula deducts VOM as well; Deng's payoff and Pillsbury's cash settlement amount have no VOM term, while Pillsbury says the cash settlement accounts for assumed fixed and variable start-up and shut-down costs. [e13][e36][e5][e24]
 
 ## ERCOT context
 
@@ -212,6 +248,7 @@ The IMM's 2025 real-time figures bear on when a call at a gas-plant heat rate pa
 
 - The project receives a fixed periodic option premium, not an upfront payment; payments can go either way. [e2][e8]
 - The hedge provider elects day-ahead which hours to call. [e7][e5]
+- The strike is a fixed heat rate times a fuel price (11.00 times the gas index in the FpML example; K_H times the fuel price in Deng et al.). [e4][e35]
 - Monthly settlement. [e11][e12]
 - Two-way credit exposure; each side may post collateral, and the hedge provider typically requires significant collateral from the project. [e15][e16]
 - The upside from wide spreads goes to the hedge provider. [e9][e10]
@@ -241,7 +278,11 @@ Suppose (illustrative, made-up numbers) a project sells a 100 MW heat rate call 
 
 ### Who holds the option in a project HRCO, and who decides when the plant runs?
 
-The hedge provider holds it and calls the hypothetical plant day-ahead, hour by hour. The project owner decides whether the real plant runs. [e7][e5]
+The hedge provider holds it and calls the hypothetical plant day-ahead, hour by hour. The project owner decides whether the real plant runs. [e7][e5] The project, as writer, is the one paid the premium. [e2][e39]
+
+### Who else buys a heat rate call?
+
+Deng et al. give the example of a power marketer that buys a spark spread call to cap the heat rate at which it buys power. [e37][e42] This is one paper's illustration; no saved source says how common such buyers are.
 
 ### Why might a lender prefer a revenue put to an HRCO?
 
@@ -253,7 +294,7 @@ The payout is notional and still owed; plant outages are the project's risk, so 
 
 ### How do you judge whether a heat rate call is in the money?
 
-Compare the market heat rate (power divided by gas) with the strike heat rate; above it, the option is in the money. [e14]
+Compare the market heat rate (power divided by gas) with the strike heat rate; above it, the call has a positive value if exercised, that is, it is in the money. [e38][e14][e36][e41]
 
 ### Why are ERCOT shortage hours central to valuing an HRCO?
 
@@ -275,3 +316,4 @@ The IMM says shortage pricing gives hundreds of hours a year above gas plants' m
 - Sources differ on premium timing: the law-firm articles describe a fixed periodic premium paid to the project; the FpML example confirmation shows a single total premium of USD 342,000 with one payment date. [e28]
 - No saved tier 1-2 source describes HRCO use in ERCOT or traded ERCOT heat rate option prices.
 - Single-source, not cross-checked (Fields only): there are no quoted markets for heat rate options, so correlations are estimated.
+- Checked 2026-11-22: Penn State EBF 301 Lesson 12 covers spark spreads and one-way contracts for differences but not heat rate options, so it adds no cross-check here. The FERC primer gives general option terms only (e1).

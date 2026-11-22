@@ -6,7 +6,7 @@ kind: concept
 domain: congestion
 level: 2
 lenses: [trading, congestion, portfolio, structuring]
-as_of: 2026-11-21
+as_of: 2026-11-22
 depth: deep
 basis: industry-reference
 links:
@@ -197,21 +197,144 @@ evidence:
     source: np-07
     locator: "Section 7.9.1.1, Payments and Charges for PTP Obligations Settled in DAM, paragraph (2)"
     quote: "For PTP Obligations that have a positive value and sink at a Resource Node, the PTP Obligation payment may be reduced due to directional network elements that are oversold in previous Congestion Revenue Right (CRR) Auctions."
+  - id: e40
+    source: ref-cftc-glossary
+    locator: "CFTC Glossary, entry 'Basis'"
+    quote: "The difference between the spot or cash price of a commodity and the price of the nearest futures contract for the same or a related commodity (typically calculated as cash minus futures). Basis is usually computed in relation to the futures contract next to expire and may reflect different time periods, product forms, grades, or locations."
+  - id: e41
+    source: ref-cftc-glossary
+    locator: "CFTC Glossary, entry 'Basis Risk'"
+    quote: "The risk associated with an unexpected widening or narrowing of the basis between the time a hedge position is established and the time that it is lifted."
+  - id: e42
+    source: ref-lbnl-ftr-basis
+    locator: "Kim, Bolinger, Mills and Wiser (LBNL), The Energy Journal 44(6), section 1 Introduction, before Eq. 1"
+    quote: "Congestion on the transmission network can create a contemporaneous difference in wholesale market prices between locations, called the “locational basis” or just the “basis” (Eq. 1)."
+  - id: e43
+    source: ref-lbnl-ftr-basis
+    locator: "LBNL, The Energy Journal 44(6), section 1 Introduction, after Eq. 2"
+    quote: "If the basis was guaranteed to be stable over time, then buyers and sellers could factor it into their contract price, leaving each indifferent as to the specific delivery or settlement point. In reality, however, the basis varies over time, in response to changes in transmission capacity, generator output, and load on either side of the constraint. The time-varying nature of the basis introduces “basis risk”—i.e., the risk that the basis could move in a way that adversely affects the buyer’s or seller’s economic position."
+  - id: e44
+    source: ref-lbnl-ftr-basis
+    locator: "LBNL, The Energy Journal 44(6), section 1 Introduction, before Eq. 2"
+    quote: "Rather than requiring transaction counterparties in different locations to have a physical connection or even a contract over a physical transmission line, wholesale markets enable a generator to sell its power at the generator node and the load to simultaneously purchase power at a different node (e.g., a more liquid trading hub), as if the two were physically connected. However, the basis between the two locations, arising from transmission congestion, makes this transaction incomplete. The gap between the revenue earned by the generator selling power at the generator node and the load buying the same amount of power with the same generation output profile at the hub is the generation-weighted basis (Eq. 2)."
+  - id: e45
+    source: ref-lbnl-ftr-basis
+    locator: "LBNL, The Energy Journal 44(6), section 4.1 Evaluation of Basis across Technologies"
+    quote: "A negative basis, most prevalent for wind plants in the panhandle of Texas and Oklahoma in SPP, indicates that production-weighted wholesale power prices are lower at plant nodes than at the nearest trading hubs."
+  - id: e46
+    source: ref-lbnl-ftr-basis
+    locator: "LBNL, The Energy Journal 44(6), section 4.1 (text before Figure 5)"
+    quote: "On average, a wind plant that contracted to sell power at a trading hub in the central U.S. between 2015-2019 lost $2-8/MWh due solely to the basis (i.e., assuming that congestion was not so severe as to prohibit delivery)."
+  - id: e47
+    source: ref-lbnl-ftr-basis
+    locator: "LBNL, The Energy Journal 44(6), section 4.1 (text after Figure 5)"
+    quote: "In MISO and SPP, uncertainty around the basis (i.e., basis risk) is highest for wind, whereas in ERCOT, wind’s basis risk is on par with that of gas-fired generators."
+  - id: e48
+    source: ref-lbnl-ftr-basis
+    locator: "LBNL, The Energy Journal 44(6), section 5 Implications"
+    quote: "Additionally, in ERCOT and MISO, the basis is generally positive for thermal generation. Positive basis suggests that plants tend to be located where prices are higher than they are at trading hubs."
+  - id: e49
+    source: ref-lbnl-ftr-basis
+    locator: "LBNL, The Energy Journal 44(6), section 4.2 Residual Basis: Effectiveness of Fixed-Volume FTRs"
+    quote: "On the other hand, the payout of the fixed-volume FTR does not match the generation-weighted basis of a wind plant, whose volume varies significantly throughout the year depending on the weather. While the fixed-volume FTR does reduce wind’s basis by $1–5/MWh, it still leaves wind generators with $1.8–3.5/MWh of residual basis on average. Similarly, the fixed-volume FTR is not as effective for combustion turbines with low capacity factors in ERCOT."
+  - id: e50
+    source: ref-lbnl-ftr-basis
+    locator: "LBNL, The Energy Journal 44(6), footnote 1"
+    quote: "The concept of an FTR goes by other names in different markets (including transmission congestion contracts and congestion revenue rights), though they mean the same thing."
+  - id: e51
+    source: ref-lbnl-ftr-basis
+    locator: "LBNL, The Energy Journal 44(6), section 3 (end of Methods and Data)"
+    quote: "Importantly, we do not attempt to examine the overall cost-effectiveness of FTRs, which would require consideration of both the FTR payout and the cost of procuring the FTR through an auction—the latter of which is obviously unknown for the alternative FTR designs that we evaluate."
+  - id: e52
+    source: ref-lbnl-ftr-basis
+    locator: "LBNL, The Energy Journal 44(6), section 1 Introduction (scope)"
+    quote: "The analysis focuses on three organized wholesale markets in the central United States: the Midcontinent Independent System Operator (MISO), the Southwest Power Pool (SPP), and the Electric Reliability Council of Texas (ERCOT). The analysis covers 2015-2019, a period of significant growth in wind energy across all three regions."
+  - id: e53
+    source: ref-psu-temporal-locational-risk
+    locator: "Penn State EBF 301, Lesson 12, 'Temporal and Locational risks', Locational or Basis Risk"
+    quote: >-
+      Locational or "basis" risk pertains to volatility in the LMP across space (between two or more locations); Risk associated with variation of the transmission price between two nodes or zones. This is the same thing as variation in the difference between two LMPs or zonal prices. Locational risk is sometimes referred to as “basis risk” in the electricity industry.
+  - id: e54
+    source: ref-rff-merchant-hedges
+    locator: "RFF Working Paper 19-06 (Bartlett, 2019), section 3, Bank Hedge"
+    quote: "The project receives the electricity price at the node, where the power plant connects to the grid, but the counterparty usually requires that the contract settle at a larger trading hub, which often has a different price.13 This difference, known as basis risk, is the result of transmission congestion that constrains prices from equalizing across the grid."
+  - id: e55
+    source: ref-rff-merchant-hedges
+    locator: "RFF Working Paper 19-06 (2019), section 3, Bank Hedge"
+    quote: "Although the project could potentially hedge basis risk by purchasing transmission rights, it is difficult to predict the amount of transmission rights that would be needed, and transmission rights have a typical term of only one or two years (Goggin et al. 2018)."
+  - id: e56
+    source: ref-rff-merchant-hedges
+    locator: "RFF Working Paper 19-06 (2019), section 3.5, Wind Hedging Structures: Risks to Counterparties"
+    quote: "First, synthetic PPAs may settle at the node or the hub, and node-settled contracts shift basis risk from the project to the counterparty."
+  - id: e57
+    source: ref-resurety-basis-risk
+    locator: "ReSurety blog, 'Basis risk can sink projects and PPAs', Background: hub + node structure"
+    quote: "However, the developer doesn't actually sell power at the hub price, they sell it at the node price. So they are on the hook for any differences between the node and hub prices. The difference is called basis."
+  - id: e58
+    source: ref-resurety-basis-risk
+    locator: "ReSurety blog, 'Basis risk can sink projects and PPAs', closing section"
+    quote: "One option is to settle at the node, but this passes all risk to the buyer."
+  - id: e59
+    source: ref-resurety-basis-risk
+    locator: "ReSurety blog, 'Basis risk can sink projects and PPAs', Background: hub + node structure"
+    quote: "Groups of nodes are organized into hubs. Hubs are virtual trading points, where the price is the average of all the nodes within the hub."
+  - id: e60
+    source: ref-stoel-law-of-wind-ppa
+    locator: "Stoel Rives, The Law of Wind, PPA chapter, IV.A Delivery Point"
+    quote: "That said, the settlement under the VPPA is typically at a different point on the system (often a hub or collection of nodes), which exposes Seller to basis risk between the point of interconnection and hub as described further below."
+  - id: e61
+    source: ref-akin-ercot-hedge-slides
+    locator: "Akin Gump corporate PPA webinar slides (2025), slide 20, Physically-Settled Hedge"
+    quote: "Difference between the sale of Energy at the Node and purchase of Energy at the Hub (for delivery) is where the Basis Differential comes into play"
+  - id: e62
+    source: ref-eia-gas-basis-2020
+    locator: "EIA Today in Energy, 'Natural gas price differentials to Henry Hub narrowed at most hubs in first half of 2020', first paragraph"
+    quote: "The natural gas basis reflects the difference between the price of natural gas at the benchmark Henry Hub in Louisiana and the price of natural gas at another delivery point elsewhere in the country."
+  - id: e63
+    source: ref-eia-gas-basis-2020
+    locator: "EIA Today in Energy (2020), paragraph on producing-area hubs"
+    quote: "Natural gas hubs located in producing areas, such as the Waha Hub in West Texas and the Dominion South Hub in southwestern Pennsylvania, typically trade at a discount to Henry Hub. This discount widens when pipeline constraints limit natural gas takeaway capacity out of the region."
+  - id: e64
+    source: ref-ferc-energy-primer
+    locator: "FERC Energy Primer (2024), Chapter 5, Natural Gas Basis Future"
+    quote: "A basis swap contract or basis future is a financial instrument that provides payments calculated on the price difference between a month-ahead index at a given location and the Henry Hub LD1 settlement price."
+  - id: e65
+    source: ref-rff-merchant-hedges
+    locator: "RFF Working Paper 19-06 (2019), footnote 22"
+    quote: "A gas-based hedge assumes that local gas-fired power plants will generally set the electricity price for the area; gas basis risk describes the potential discrepancy between the gas price at the trading hub and the local gas price. Although gas basis swaps could be used hedge this risk, they are traded for only a few years into the future (Aydin et al. 2017)."
+  - id: e66
+    source: ref-rff-merchant-hedges
+    locator: "RFF Working Paper 19-06 (2019), footnote 25"
+    quote: "The greater the residual risks that counterparties assume, the greater the discount they will likely apply to wind hedging prices."
+  - id: e67
+    source: ref-montel-forward-curves-hedging
+    locator: "Montel, 'Hedging strategies using forward curves in power markets', execution risk paragraph"
+    quote: "The basis risk should also be taken into account: the assumption that the spot price of delivery will not always perfectly align with the specific forward contract."
+  - id: e68
+    source: ref-lbnl-ftr-basis
+    locator: "LBNL, The Energy Journal 44(6), abstract"
+    quote: "Moreover, while most thermal generators can effectively hedge basis risk by purchasing conventional fixed-volume financial transmission rights (FTRs), these fixed-volume FTRs do not effectively hedge basis risk for variable wind generation."
 ---
 
 ## Definition
 
-Basis risk is the risk that the price at one location moves differently from the price at the location a contract or hedge is tied to. In power contracts the sources describe it as the mismatch between the price a generator actually earns at its node and the price at the hub where its contract settles [e1][e2][e8], or, from the buyer's side, between the generator's node and the price the buyer pays for its own power: its load zone price in RMI's guide, its retail price in Yale's. [e3][e4][e5] In natural gas the same word, basis, names the price differential between Henry Hub and another hub. [e6]
+In the CFTC's glossary, basis is the difference between the cash (spot) price of a commodity and the price of the nearest futures contract, which may reflect differences in time, product, grade or location, and basis risk is the risk of an unexpected widening or narrowing of that basis between the time a hedge is put on and the time it is lifted. [e40][e41] In power markets the word usually means a locational difference: LBNL calls the price difference between locations that congestion creates the "locational basis", and basis risk the risk that it moves against the buyer's or seller's position; Penn State likewise calls variation in the difference between two LMPs or zonal prices locational or "basis" risk. [e42][e43][e53]
+
+In power contracts the sources describe it as the mismatch between the price a generator actually earns at its node and the price at the hub where its contract settles [e1][e2][e8][e57], or, from the buyer's side, between the generator's node and the price the buyer pays for its own power: its load zone price in RMI's guide, its retail price in Yale's. [e3][e4][e5] In natural gas, basis names the price differential between Henry Hub and another hub or delivery point. [e6][e62]
 
 ## How it works
 
-A generator sells its physical output at its node and is paid the nodal price, while a hub-settled contract pays or charges it against the hub price, so the two cash flows do not always line up. [e1][e2][e7] Two publishers say the project bears this node-to-hub mismatch. [e9][e13][e38] Two say the side carrying the risk loses when the node price falls relative to the price on the other side: the project when the hub is above its node (Norton Rose Fulbright), the buyer when the node falls relative to its retail price (Yale). [e9][e10][e36]
+A generator sells its physical output at its node and is paid the nodal price, while a hub-settled contract pays or charges it against the hub price, so the two cash flows do not always line up. [e1][e2][e7][e60] LBNL describes the same gap from the market's side: a generator sells at its node while the load buys at a different node such as a liquid hub, and the gap between the generator's revenue at its node and the cost of buying the same amount, with the same output profile, at the hub is the generation-weighted basis. [e44] Norton Rose Fulbright puts it in contract terms (hub settlement requires the project to buy at the hub the same volume it sells at the node), and Akin Gump's ERCOT hedge slides say the same of a physically settled hedge (sale at the node, purchase at the hub for delivery). [e9][e61]
 
-Hubs are aggregations of nodes. Two publishers say that because a hub covers a wider area, its price is less volatile than a single node's, so hub settlement is seen as less risky for the buyer. [e13][e14] Settling at the hub puts the node-to-hub risk on the project. [e9][e13]
+Several publishers say the project bears this node-to-hub mismatch under hub settlement. [e9][e13][e38][e57][e60] Two say the side carrying the risk loses when the node price falls relative to the price on the other side: the project when the hub is above its node (Norton Rose Fulbright), the buyer when the node falls relative to its retail price (Yale). [e9][e10][e36]
 
-Both publishers that explain the cause point to congestion: heavy wind or sun where many renewable projects sit close together congests the transmission lines and drives the node price down. [e11][e12] The FERC primer describes the gas version the same way: basis normally reflects transport cost and can widen sharply when pipelines between two points are congested. [e6]
+Hubs are aggregations of nodes; ReSurety describes a hub price as the average of the nodes in it. [e13][e14][e59] Two publishers say that because a hub covers a wider area, its price is less volatile than a single node's, so hub settlement is seen as less risky for the buyer. [e13][e14] The settlement point decides who carries the risk: settling at the hub puts the node-to-hub risk on the project, and settling at the node shifts it to the buyer. [e9][e13][e56][e58] Two publishers say the party that takes on more risk prices it in: Yale says the project then seeks a higher PPA price, and RFF that counterparties assuming more residual risk will likely apply a greater discount to hedge prices. [e13][e66]
+
+The sources agree that congestion is the cause in power. LBNL and RFF say the locational basis comes from transmission congestion that keeps prices from equalizing across the grid. [e42][e54] Yale and Norton Rose Fulbright give the renewable case: heavy wind or sun where many projects sit close together congests the lines and drives the node price down. [e11][e12] Basis risk exists because this difference changes over time: LBNL says a stable basis could simply be priced into the contract, but it varies with transmission capacity, generator output and load, which is the same idea as the CFTC's "unexpected widening or narrowing" of the basis during a hedge. [e43][e41] The FERC primer and EIA describe the gas version the same way: basis normally reflects transport cost and widens when pipelines are congested or takeaway capacity is limited. [e6][e63]
 
 Basis risk is the same structure seen from two sides. For the project in a hub-settled deal it is node versus hub. [e2][e7][e9] For a buyer using a virtual PPA as a hedge it is the correlation between the project's price and the buyer's own price; when the two stop moving together the hedge erodes. [e3][e5]
+
+Three different spreads are called "basis", and they should not be mixed up. The futures meaning is cash (spot) price minus the nearest futures price [e40]; Montel uses it this way for power, the risk that the spot price at delivery does not line up with the forward contract. [e67] The locational power meaning is the difference between two LMPs: node versus hub, or between nodes or zones. [e42][e53] The gas meaning is the differential between Henry Hub and another delivery point, which FERC says is also traded as a basis swap or basis future paying on the difference between a location's month-ahead index and the Henry Hub settlement price. [e62][e64] RFF adds that a gas-based hedge for a power project carries gas basis risk, between the hub gas price and the local gas price. [e65]
 
 ## ERCOT context
 
@@ -220,6 +343,8 @@ ERCOT has three kinds of Settlement Point: a Resource Node, a Load Zone, or a Hu
 The IMM explains locational price differences in ERCOT as the result of transmission congestion. [e22] It says congestion lowers nodal prices in regions with high renewable capacity [e23], and that the West Zone is the largest contributor to intrazonal congestion costs: export constrained in the Panhandle, import constrained in the Permian Basin. [e24]
 
 ERCOT's own instruments for price differences between two Settlement Points are CRRs and PTP Obligations. A CRR has a source Settlement Point and a different sink Settlement Point (Flowgate Rights excepted) and is purely financial. [e25][e27] A PTP Obligation settled in the DAM pays or charges the Day-Ahead price difference between sink and source (a positive-value one that sinks at a Resource Node may be paid less if network elements were oversold in earlier CRR Auctions); one bought in the DAM is settled on the Real-Time difference. [e26][e39][e28] ERCOT's training material presents a CRR as a hedge that locks in the cost of congestion at the CRR's purchase price, and the FERC primer describes the equivalent FTRs elsewhere as protection against congestion-driven day-ahead price increases. [e29][e31] The IMM says the financial right to congestion rent accrues to CRR holders. [e33]
+
+LBNL's study of MISO, SPP and ERCOT for 2015-2019 treats ERCOT's CRRs as the local name for FTRs. [e52][e50] It found that in ERCOT, unlike MISO and SPP, wind's basis risk was on par with that of gas-fired generators, and that in ERCOT and MISO the basis was generally positive for thermal plants, meaning they tend to sit where prices are above the hub. [e47][e48] Across the three markets, a fixed-volume FTR nearly matches a steady generator's basis but not a wind plant's varying output; it reduced wind's basis by $1-5/MWh but left $1.8-3.5/MWh on average, and in ERCOT it was also less effective for low-capacity-factor combustion turbines. [e68][e49] LBNL did not count the auction cost of the FTRs. [e51]
 
 Gas basis matters to ERCOT generators too: the IMM says Permian production and limited export capability have historically kept Waha gas prices low, giving gas units in that area much higher net revenues. [e30]
 
@@ -232,10 +357,19 @@ Gas basis matters to ERCOT generators too: the IMM says Permian production and l
 - ERCOT Settlement Points are Resource Nodes, Load Zones and Hubs. [e19]
 - ERCOT generators settle at nodal LMPs; loads at the load-weighted load zone price. [e20]
 - A DAM PTP Obligation settles on the sink-minus-source price difference. [e26][e28]
+- CFTC: basis is typically calculated as cash minus futures; basis risk is an unexpected widening or narrowing of the basis while a hedge is on. [e40][e41]
+- LBNL (MISO, SPP and ERCOT, 2015-2019): a wind plant contracted to sell at a hub in the central U.S. lost $2-8/MWh on average from basis alone, assuming congestion did not prevent delivery. This is a three-market figure, not an ERCOT-only one. [e46][e52]
+- LBNL: in ERCOT, wind's basis risk was on par with gas-fired generators' (2015-2019). [e47]
+- Node-settled contracts move basis risk from the project to the buyer. [e56][e58]
 
 ## Formula
 
-Basis as a price is the difference between the prices at two locations. The sources state it as hub price minus nodal price for a hub-settled power contract [e1][e2], and as the difference between the Henry Hub price and another hub's price in gas. [e6]
+Basis as a price is a difference between two prices, and the sign convention differs by source. [e40][e42]
+
+- Futures (CFTC): basis = cash (spot) price - nearest futures price. [e40]
+- Locational power basis (LBNL): node price minus hub price at the same time, so a negative basis means the plant's node is below the hub. [e42][e45] Norton Rose Fulbright speaks of "the difference between the hub price and the nodal price" without fixing a sign. [e1]
+- Generation-weighted basis (LBNL): the gap between what the generator earns selling its output at its node and what the same amount, with the same output profile, costs at the hub; in effect the node-minus-hub difference weighted by the plant's generation. This is the amount a hub-settled seller is exposed to. [e44][e9]
+- Gas basis: the difference between the Henry Hub price and the price at another delivery point; a basis future pays on the difference between a location's month-ahead index and the Henry Hub LD1 settlement price. [e6][e62][e64]
 
 ## Example
 
@@ -254,6 +388,8 @@ The sources do not all define it the same way. Norton Rose Fulbright and POWER M
 Settling at the hub reduces the buyer's basis risk but not the project's: Yale says the risk is shifted, not removed. [e13][e16]
 
 Gas basis and power basis are different spreads. Gas basis is a hub-to-hub differential driven by pipeline transport; power basis in ERCOT comes from transmission congestion between Settlement Points. [e6][e22]
+
+A futures glossary's "basis" is cash minus futures, a difference in time and contract as well as place, while a power desk's "basis" is usually node minus hub at the same moment. [e40][e42] Ask which one is meant, and which way round it is signed. [e45][e1]
 
 ## Questions
 
@@ -275,11 +411,19 @@ Norton Rose Fulbright says that under an as-produced VPPA it generally owes noth
 
 ### How could an ERCOT generator use CRRs or PTP Obligations against node-to-hub basis?
 
-A CRR or PTP Obligation runs from a source Settlement Point to a different sink Settlement Point and pays or charges the sink-minus-source price difference, so a position from the project's node to the hub moves in the direction of the basis loss. [e26][e27] It settles on DAM prices, or on Real-Time prices for a PTP bought in the DAM, which may not match how the VPPA settles. [e26][e28] Whether such a position fully offsets a given contract is not stated in the sources (see Open items).
+A CRR or PTP Obligation runs from a source Settlement Point to a different sink Settlement Point and pays or charges the sink-minus-source price difference, so a position from the project's node to the hub moves in the direction of the basis loss. [e26][e27] It settles on DAM prices, or on Real-Time prices for a PTP bought in the DAM, which may not match how the VPPA settles. [e26][e28] LBNL, which counts CRRs as FTRs, found that a fixed-volume FTR nearly hedges a steady thermal plant but leaves a wind plant with residual basis, because the plant's output varies and the FTR's volume does not; its figures ignore the auction cost. [e50][e68][e49][e51] RFF adds that it is hard to know how many transmission rights a project would need and that they typically run only one or two years. [e55]
 
 ### Why does the buyer care about basis if it never takes the power?
 
 A virtual PPA hedges the buyer only if the project's price and the price the buyer pays move together. Yale says the buyer can end up paying more if nodal prices fall relative to its retail price, and RMI that the hedge erodes if the relationship between prices at different locations changes. [e36][e37]
+
+### What does "basis" mean to a futures trader, a gas trader and a power trader?
+
+To the CFTC it is cash minus the nearest futures price. [e40] In gas it is the differential between Henry Hub and another delivery point, traded as basis swaps or futures. [e62][e64] In power it is usually the locational difference between two LMPs, such as a generator's node and a hub. [e42][e53] Basis risk in each case is the risk that this difference moves unexpectedly while a hedge is on. [e41][e43]
+
+### Why not just settle the VPPA at the node?
+
+Node settlement removes basis risk from the project but shifts it to the buyer. [e56][e58] Buyers and lenders tend to prefer liquid hubs, and the party left holding the risk wants to be paid for it in the price. [e35][e13][e66]
 
 ## Scenarios
 
@@ -294,8 +438,10 @@ A virtual PPA hedges the buyer only if the project's price and the price the buy
 
 - Single-source, not cross-checked (Norton Rose Fulbright, 2020): in August 2019 the ERCOT North hub spiked to $9,000/MWh while node prices were about $1,000/MWh, implying a $2.4 million one-hour loss for a 300 MW hub-settled project. ERCOT facts need a tier 1-2 source; none found.
 - Single-source, not cross-checked (RMI): the City of Houston agreed to pay the basis between its load zone and a West Texas project's node in a 50 MW PPA signed in 2017.
-- Single-source, not cross-checked (Norton Rose Fulbright): hub settlement requires the project to buy at the hub the same volume it sells at the node, so on that volume it loses the hub-minus-node difference.
-- Single-source, not cross-checked (Yale): hub settlement or price floors shift the node-to-hub risk to the project without changing the project's underlying basis risk, and the project then seeks a higher PPA price.
-- No saved source says how well a node-to-hub CRR or PTP Obligation offsets a hub-settled VPPA in practice (DAM versus real-time settlement, MW shape, auction cost).
-- No IMM figure on average node-to-hub spreads for renewable nodes was found; the IMM reports congestion and captured prices, not basis by project.
+- Resolved 2026-11-22: the Norton Rose Fulbright "same volume at the hub" mechanism is now cross-checked with LBNL's generation-weighted basis (tier 2) and Akin Gump's physically settled hedge slide. The shift of risk to the project under hub settlement and to the buyer under node settlement is cross-checked (Yale, NRF, RFF, ReSurety), as is pricing the risk in (Yale, RFF).
+- Single-source, not cross-checked (Yale): hub settlement or price floors shift the risk without changing the project's underlying basis risk, and storage is a way to change it. Norton Rose Fulbright supports only the storage half (storage can help mitigate basis risk).
+- Partly answered: LBNL (MISO, SPP, ERCOT, 2015-2019) measures how well fixed-volume FTRs hedge generators' basis, but ignores auction cost and FTR funding shortfalls. No saved source tests an ERCOT CRR or PTP Obligation against a hub-settled VPPA (DAM versus real-time settlement, as-produced volume).
+- Single-source, not cross-checked (RFF): transmission rights typically run only one or two years and have not supported wind project financing.
+- No ERCOT-only figure for average node-to-hub basis at renewable nodes was found. LBNL's $2-8/MWh is for wind across MISO, SPP and ERCOT (2015-2019); the IMM reports congestion and captured prices, not basis by project.
+- Sign convention: LBNL states locational basis as node minus hub; the commercial sources do not fix a sign. No ERCOT document defines a "basis" sign.
 - Norton Rose Fulbright says hub settlement "is perceived" to carry less risk, and Yale that hubs "may not be perfectly correlated" with the buyer's price: no source quantifies hub-to-load-zone basis in ERCOT.
