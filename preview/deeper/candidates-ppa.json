@@ -1,0 +1,112 @@
+[
+  {
+    "id": "ref-epa-financial-ppa",
+    "title": "EPA Green Power Partnership: Financial PPA",
+    "publisher": "US EPA Green Power Partnership",
+    "tier": 2,
+    "kind": "html",
+    "url": "https://www.epa.gov/node/273643",
+    "covers": "Virtual/financial PPA as strike-price vs wholesale-price contract for differences; who pays whom; periodic (typically monthly) settlement.",
+    "sample": "At the close of each settlement period—typically monthly—the customer receives from (or sends to) the renewable electricity generator the net difference in price per kilowatt-hour between the strike price and wholesale market price."
+  },
+  {
+    "id": "ref-ornl-ppa-overview",
+    "title": "Power Purchase Agreements (Better Buildings overview, ORNL/SPR-2024/3316)",
+    "publisher": "Oak Ridge National Laboratory / US DOE Better Buildings",
+    "tier": 2,
+    "kind": "pdf",
+    "url": "https://info.ornl.gov/sites/publications/Files/Pub211116.pdf",
+    "covers": "Virtual PPA balancing payments between fixed rate and wholesale sale price; physical vs virtual structure.",
+    "sample": "If the developer sells their electricity for more than the fixed rate, the offtaker receives the extra revenue."
+  },
+  {
+    "id": "ref-ornl-renewable-contracting-vt6",
+    "title": "Renewable Electricity Supply Options: Financing Models and Strategies, Session 6 (virtual training slides)",
+    "publisher": "Oak Ridge National Laboratory / US DOE Better Buildings",
+    "tier": 2,
+    "kind": "pdf",
+    "url": "https://bptraining.ornl.gov/wp-content/uploads/2025/10/Renewable-Energy-VT-Session-6-09-09-25.pdf",
+    "covers": "Hub vs node pricing and settlement point; volume, shape, curtailment and basis risk; $0 floor, no settlement during curtailment, proxy generation, hub purchase to avoid negative-price nodes.",
+    "sample": "Hub pricing is typically more stable"
+  },
+  {
+    "id": "ref-akin-ercot-hedge-slides",
+    "title": "Corporate PPA webinar slides (2025 update), incl. financially-settled hedge diagrams",
+    "publisher": "Akin Gump Strauss Hauer & Feld",
+    "tier": 3,
+    "kind": "pdf",
+    "url": "https://www.akingump.com/a/web/a5UsN1B7ZLjNmHWh9ZXE6p/corporate-ppa-webinar-slides-wilson-2025-update-112525.pdf",
+    "covers": "ERCOT hub-settled financial hedge: energy sold at node, hedge settled at hub, Strike Price minus Hub Price payments flow either way.",
+    "sample": "Financially-Settled Hedges involve the sale of Energy at the Node and a settlement at the Hub between the Hedge Provider and the Project Company for the difference"
+  },
+  {
+    "id": "ref-akin-ppa-swaps",
+    "title": "Are Renewable Energy Power Purchase Agreements Swaps? (Futures & Derivatives Law Report)",
+    "publisher": "Akin Gump Strauss Hauer & Feld",
+    "tier": 3,
+    "kind": "pdf",
+    "url": "https://www.akingump.com/a/web/4MFGxRMqp1jcZG37UZWLRZ/are-renewable-energy-power-purchase-agreements-swaps.pdf",
+    "covers": "VPPA settlement formula (Fixed Price minus Floating Price at a Hub or Node) and why it is a swap.",
+    "sample": "settle using the formula: Fixed Price minus Floating Price."
+  },
+  {
+    "id": "ref-stoel-law-of-wind-ppa",
+    "title": "The Law of Wind: Power Purchase Agreements and Environmental Attributes in Wind Energy Projects",
+    "publisher": "Stoel Rives",
+    "tier": 3,
+    "kind": "html",
+    "url": "https://www.stoel.com/insights/reports/the-law-of-wind/power-purchase-agreements-and-environmental-attrib",
+    "covers": "Hub vs project-node settlement and seller basis risk; negative LMP floor; curtailment allocation; output and availability guarantees.",
+    "sample": "This is often accomplished by setting a negative LMP floor price, below which either the project is deemed to have no metered quantity or the floating price is replaced by an agreed-upon minimum price when calculating the settlement amount."
+  },
+  {
+    "id": "ref-rff-texas-hedges",
+    "title": "Texas Power Crisis Exposes Problems with Financial Risk-Mitigation Strategies in Renewable Energy Projects",
+    "publisher": "Resources for the Future",
+    "tier": 3,
+    "kind": "html",
+    "url": "https://www.resources.org/common-resources/texas-power-crisis-exposes-problems-with-financial-riskmitigation-strategies-in-renewable-energy-projects/",
+    "covers": "ERCOT bank hedge (fixed-volume swap) vs proxy revenue swap; shortfall bought at hub price; Winter Storm Uri losses.",
+    "sample": "Hence, a bank hedge is also known as a fixed-volume price swap."
+  },
+  {
+    "id": "ref-leveltenproxy-generation",
+    "title": "Proxy Generation 101",
+    "publisher": "LevelTen Energy",
+    "tier": 3,
+    "kind": "html",
+    "url": "https://www.leveltenenergy.com/post/proxy-generation",
+    "covers": "As-generated (unit-contingent) vs proxy-generation Trade Quantity; curtailment and hub-node effects on settlement.",
+    "sample": "Historically VPPAs have settled around a Trade Quantity that is based on the amount of energy actually produced by the wind or solar farm."
+  },
+  {
+    "id": "ref-levelten-vppa-terms",
+    "title": "Common Terms and Conditions in a Virtual Power Purchase Agreement: A Guide for Corporate Buyers",
+    "publisher": "LevelTen Energy",
+    "tier": 3,
+    "kind": "html",
+    "url": "https://www.leveltenenergy.com/post/power-purchase-agreement-terms",
+    "covers": "Negative price floor and zero-dollar price floor clauses; settlement point; curtailment terms.",
+    "sample": "Sometimes a Zero Dollar Price Floor is more appropriate. Rather than stopping the contract when the Market Price hits zero or goes negative, you as buyer still agree to pay the Fixed Price and you still receive your RECs."
+  },
+  {
+    "id": "ref-pexapark-ppa-glossary",
+    "title": "Glossary of energy terms: PPA explanation",
+    "publisher": "Pexapark",
+    "tier": 3,
+    "kind": "html",
+    "url": "https://pexapark.com/blog/glossary-energy-terms-ppa-explanation/",
+    "covers": "Annual/monthly baseload vs pay-as-produced volume structures; profile and volume risk; shortfall sourced from spot; settlement location.",
+    "sample": "In an annual baseload PPA, the buyer agrees to buy a determined volume of energy for every hour over the year."
+  },
+  {
+    "id": "ref-resurety-basis-risk",
+    "title": "Basis risk can sink projects and PPAs",
+    "publisher": "ReSurety",
+    "tier": 3,
+    "kind": "html",
+    "url": "https://resurety.com/resources/intelligence/basis-risk-can-sink-projects-and-ppas/",
+    "covers": "Hub-node structure; hub-settled PPAs and who bears the hub-to-node basis.",
+    "sample": "Hubs are virtual trading points, where the price is the average of all the nodes within the hub."
+  }
+]
