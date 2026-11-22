@@ -1,0 +1,102 @@
+[
+ {
+  "id": "ref-vistra-10k-2024",
+  "title": "Vistra Corp. Form 10-K for fiscal year 2024",
+  "publisher": "Vistra Corp. (SEC filing)",
+  "tier": 2,
+  "kind": "html",
+  "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281925000013/vistra-20241231.htm",
+  "covers": "Describes Vistra's wholesale commodity risk management group dispatching the fleet after portfolio optimization strategies, hedging and optimizing assets, and ERCOT day-ahead/real-time markets.",
+  "sample": "Wholesale Operations — Our wholesale commodity risk management group is responsible for dispatching our generation fleet in response to market needs after implementing portfolio optimization strategies, thus linking and integrating the generation fleet production with our retail customer and wholesale sales opportunities."
+ },
+ {
+  "id": "ref-nrg-10k-2024",
+  "title": "NRG Energy, Inc. Form 10-K for fiscal year 2024",
+  "publisher": "NRG Energy, Inc. (SEC filing)",
+  "tier": 2,
+  "kind": "html",
+  "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387125000006/nrg-20241231.htm",
+  "covers": "Describes the power commercial group's role in power plant optimization, fuel supply and hedging, and the generation portfolio and ERCOT RTC.",
+  "sample": "The power commercial group is responsible for end-use electricity supply including power plant optimization and certain fuel supply."
+ },
+ {
+  "id": "ref-ferc-energy-primer-2024",
+  "title": "Energy Primer: A Handbook of Energy Market Basics (2024)",
+  "publisher": "FERC Staff",
+  "tier": 2,
+  "kind": "pdf",
+  "url": "https://www.ferc.gov/sites/default/files/2024-01/24_Energy-Markets-Primer_0117_DIGITAL_0.pdf",
+  "covers": "Regulator explanation of wholesale energy and ancillary services markets and co-optimization of energy and ancillary services (general, not ERCOT-specific).",
+  "sample": "CAISO procures ancillary services via its co-optimization of energy and ancillary services in its energy markets"
+ },
+ {
+  "id": "ref-cra-ercot-value-stacking-2025",
+  "title": "Energy and ancillary services value stacking in ERCOT (August 2025)",
+  "publisher": "CRA International",
+  "tier": 3,
+  "kind": "pdf",
+  "url": "https://media.crai.com/wp-content/uploads/2025/08/14100602/CRA-whitepaper-Energy-and-ancillary-services-value-stacking-in-ERCOT-August-2025.pdf",
+  "covers": "Owner-side analysis of co-optimizing energy and ancillary service offers (value stacking) for gas and battery resources in ERCOT.",
+  "sample": "ERCOT market in its proprietary Energy Storage and Ancillary Service Optimization (ESOP) tool."
+ },
+ {
+  "id": "ref-modo-ercot-offtake-tolling-2025",
+  "title": "Part 1: The state of battery offtake and tolling agreements in ERCOT",
+  "publisher": "Modo Energy",
+  "tier": 3,
+  "kind": "html",
+  "url": "https://modoenergy.com/research/battery-bess-offtake-tolling-agreements-route-market-contracts-ercot-explainer-part-one",
+  "covers": "Defines tolling, virtual toll, floor plus revenue share, revenue share, merchant and third-party optimization (owner pays a fee) for ERCOT batteries.",
+  "sample": "Unlike a tolling agreement where the offtaker guarantees payment to the asset owner, under these other third-party partnerships, the asset owner pays a fee to the optimizer."
+ },
+ {
+  "id": "ref-modo-contracting-strategies-docs",
+  "title": "Contracting Strategies (Modo dispatch model documentation)",
+  "publisher": "Modo Energy",
+  "tier": 3,
+  "kind": "html",
+  "url": "https://docs.modoenergy.com/pages/apr-2026/nem/dispatch-model/contracting-strategies/",
+  "covers": "Short definitions of tolling, capacity swap, revenue collar and revenue swap overlaid on optimised merchant dispatch.",
+  "sample": "A tolling agreement provides a fixed capacity payment ($/MW/year) for all or part of the battery’s capacity."
+ },
+ {
+  "id": "ref-enspired-bess-revenue-models",
+  "title": "BESS revenue models: tolling, floor & fully merchant",
+  "publisher": "enspired Trading",
+  "tier": 3,
+  "kind": "html",
+  "url": "https://www.enspired-trading.com/blog/bess-revenue-models-toll-floor-fully-merchant",
+  "covers": "Optimizer's own explanation of tolling, floor price and fully merchant structures and who bears risk (European focus, general structure).",
+  "sample": "A floor price is the minimum revenue an asset owner makes when using the optimization service of an RTM (route-to-market) provider."
+ },
+ {
+  "id": "ref-gridbeyond-ercot-qse-optimization",
+  "title": "GridBeyond launches commercial optimization of 29.7 MW battery portfolio in ERCOT new co-optimized market",
+  "publisher": "GridBeyond",
+  "tier": 3,
+  "kind": "html",
+  "url": "https://gridbeyond.com/gridbeyond-smartestenergy-ercot-battery-portfolio-optimization/",
+  "covers": "Example of a third-party optimizer providing optimization, forecasting and QSE services to a battery portfolio owner in ERCOT under RTC+B.",
+  "sample": "GridBeyond, a global AI-powered energy technology company, has commenced commercial optimization for 29.7 MW of front-of-the-meter battery storage assets in Texas, providing AI-driven optimization, forecasting and Qualified Scheduling Entity (QSE) services for SmartestEnergy’s South Texas battery portfolio."
+ },
+ {
+  "id": "ref-pvmag-gridbeyond-floor-toll-2025",
+  "title": "GridBeyond now offers revenue floor and synthetic toll contracts in ERCOT and CAISO",
+  "publisher": "pv magazine USA",
+  "tier": 3,
+  "kind": "html",
+  "url": "https://pv-magazine-usa.com/2025/08/22/gridbeyond-now-offers-revenue-floor-and-synthetic-toll-contracts-in-ercot-and-caiso",
+  "covers": "Describes revenue floor and physical vs virtual (synthetic) toll contracts offered by an optimizer in ERCOT.",
+  "sample": "Battery storage tolling contracts come in two primary forms: physical and virtual (synthetic) tolling."
+ },
+ {
+  "id": "ref-troutman-storage-offtake-tolling",
+  "title": "Monetizing Opportunities in Energy Storage in a Post-IRA World",
+  "publisher": "Troutman Pepper (law firm)",
+  "tier": 3,
+  "kind": "html",
+  "url": "https://www.troutman.com/insights/monetizing-opportunities-in-energy-storage-in-a-post-ira-world/",
+  "covers": "Law-firm discussion of tolling agreements, hedge products and merchant operation of batteries in ERCOT (energy arbitrage plus ancillary services).",
+  "sample": "Under that structure, the off-taker has authority to charge and discharge the battery and run it as they see fit within certain operating parameters, in exchange for a monthly tolling payment, typically often with some adjusters based on project performance."
+ }
+]
